@@ -8,7 +8,7 @@ Also see:
 Most data is:
 
 * At the cumulus dir for this project: https://cumulus.dainst.org/index.php/s/w2Bc2YwRRrCN6pE
-* In this directory (see below for details)
+* In the directory with this README (see below for details)
 
 ## Data Sources
 
