@@ -33,3 +33,26 @@ Most data is:
     - Only 69 of them have text data (OCR). The text was extracted with an xpath command and leading whitespace was removed
 
         `ls transcriptions | while read f; do xidel -e '//text' "transcriptions/${f}" | sed 's/^\s*//g' > transcriptions_texts/$(basename -s.xml "$f").txt; done`
+
+## Some statistics
+
+For the 69 records contained in `transcriptions_texts`
+
+```
+#sentences      211093
+#words         4102482
+mean(words/s)       19.43
+stdev(words/s)      17.04
+```
+
+Main detected languages (with number of sentences):
+
+```
+ ('fr', 526),
+ ('nl', 619),
+ ('lb', 1822),
+ ('it', 3447),
+ ('en', 17658),
+ ('de', 182365)
+```
+
