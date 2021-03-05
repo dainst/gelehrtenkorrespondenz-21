@@ -20,7 +20,7 @@ python -m unittest test/webanno_tsv_test.py
 2. Extract and prepare the files by running `data_access/webanno_prepare_files.sh webanno-exports-zip some/target/dir`
 
 
-# Data Sources
+## Data Sources
 
 Also see:
 
