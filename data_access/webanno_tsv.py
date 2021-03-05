@@ -66,7 +66,7 @@ class Sentence:
 
     def __init__(self, idx: int, text: str):
         self.idx = idx
-        self.text = _unicode_decode(text)
+        self.text = text
         self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
 
     def add_annotation(self, annotation: Annotation):
@@ -96,11 +96,6 @@ class Document:
             return self.sentences[idx - 1]
         except IndexError:
             return None
-
-
-def _unicode_decode(string: str):
-    # TODO: Check if unicode escapes are a bug in our tsv encodings or part of the standard
-    return string.encode('utf-8').decode('unicode-escape')
 
 
 def _read_token(doc: Document, row: Dict) -> Token:
