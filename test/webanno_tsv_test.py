@@ -29,6 +29,10 @@ class WebannoTsvReadTest(unittest.TestCase):
         self.assertEqual(TEXT_SENT_1, fst.text)
         self.assertEqual(TEXT_SENT_2, snd.text)
 
+    def test_reads_correct_document_text(self):
+        text = "\n".join((TEXT_SENT_1, TEXT_SENT_2))
+        self.assertEquals(text, self.doc.text)
+
     def test_reads_correct_annotations(self):
         _, snd = self.doc.sentences
 

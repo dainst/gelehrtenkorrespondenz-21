@@ -91,6 +91,10 @@ class Sentence:
 class Document:
     sentences: List[Sentence]
 
+    @property
+    def text(self):
+        return "\n".join([s.text for s in self.sentences])
+
     def sentence_with_idx(self, idx) -> Optional[Sentence]:
         try:
             return self.sentences[idx - 1]
