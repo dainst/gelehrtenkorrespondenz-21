@@ -13,6 +13,15 @@ FIELD_WITH_ID_RE = re.compile(r'(.*)\[([0-9]*)]$')
 TSV_FIELDNAMES = ['sent_tok_idx', 'offsets', 'token', 'pos', 'lemma', 'entity_id', 'named_entity']
 
 
+class WebannoTsvDialect(csv.Dialect):
+    delimiter = '\t'
+    quotechar = None  # disables escaping
+    doublequote = False
+    skipinitialspace = False
+    lineterminator = '\n'
+    quoting = csv.QUOTE_NONE
+
+
 @dataclass
 class Token:
     sentence: 'Sentence'
@@ -63,10 +72,12 @@ class Annotation:
 class Sentence:
     idx: int
     text: str
+    tokens: List[Token]
 
     def __init__(self, idx: int, text: str):
         self.idx = idx
         self.text = text
+        self.tokens = []
         self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
 
     def add_annotation(self, annotation: Annotation):
@@ -82,6 +93,9 @@ class Sentence:
         if not merged:
             assert (annotation.sentence == self)
             self._annotations[annotation.span_type].append(annotation)
+
+    def add_token(self, token):
+        self.tokens.append(token)
 
     def annotations_with_type(self, type_name: str) -> List[Annotation]:
         return self._annotations[type_name]
@@ -118,7 +132,9 @@ def _read_token(doc: Document, row: Dict) -> Token:
     start, end = intsplit(row['offsets'])
     text = row['token']
     sentence = doc.sentence_with_idx(sent_idx)
-    return Token(sentence, tok_idx, start, end, text)
+    token = Token(sentence, tok_idx, start, end, text)
+    sentence.add_token(token)
+    return token
 
 
 def _read_label_and_id(field: str) -> Tuple[str, int]:
@@ -160,7 +176,7 @@ def webanno_tsv_read(path) -> Document:
 
     doc = Document(sentences=sentences)
 
-    rows = csv.DictReader(data, dialect='excel-tab', fieldnames=TSV_FIELDNAMES)
+    rows = csv.DictReader(data, dialect=WebannoTsvDialect, fieldnames=TSV_FIELDNAMES)
     for row in rows:
 
         # The first three columns in each line make up a Token
@@ -169,6 +185,9 @@ def webanno_tsv_read(path) -> Document:
         # Each column after the first three is one or more span annotatins
         for span_type in ['lemma', 'pos', 'entity_id', 'named_entity']:
             # There might be multiple annotations in each column field
+            if row[span_type] is None:
+                print(path, row)
+                continue
             values = row[span_type].split('|')
             for value in values:
                 label, label_id = _read_label_and_id(value)

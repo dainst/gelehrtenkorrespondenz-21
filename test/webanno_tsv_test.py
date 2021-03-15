@@ -1,18 +1,20 @@
 import os
 import unittest
 
-from data_access.webanno_tsv import webanno_tsv_read, Document, Sentence
-
-READ_INPUT = os.path.join(os.path.dirname(__file__), 'resources', 'test_input.tsv')
-TEXT_SENT_1 = "929 Prof. Gerhard Braun an Gerhard Rom , 23 . Juli 1835 Roma li 23 Luglio 1835 ."
-TEXT_SENT_2 = "Von den anderen schönen Gefäßen dieser Entdeckungen führen " \
-              + "wir hier nur noch einen Kampf des Herkules mit dem Achelous auf ."
+from data_access.webanno_tsv import webanno_tsv_read, Document, Sentence, Token
 
 
-class WebannoTsvReadTest(unittest.TestCase):
+def test_file(name):
+    return os.path.join(os.path.dirname(__file__), 'resources', name)
+
+
+class WebannoTsvReadRegularFilesTest(unittest.TestCase):
+    TEXT_SENT_1 = "929 Prof. Gerhard Braun an Gerhard Rom , 23 . Juli 1835 Roma li 23 Luglio 1835 ."
+    TEXT_SENT_2 = "Von den anderen schönen Gefäßen dieser Entdeckungen führen " \
+                  + "wir hier nur noch einen Kampf des Herkules mit dem Achelous auf ."
 
     def setUp(self) -> None:
-        self.doc = webanno_tsv_read(READ_INPUT)
+        self.doc = webanno_tsv_read(test_file('test_input.tsv'))
 
     def test_can_read_tsv(self):
         self.assertIsInstance(self.doc, Document)
@@ -26,12 +28,28 @@ class WebannoTsvReadTest(unittest.TestCase):
         fst, snd = self.doc.sentences
         self.assertEqual(1, fst.idx)
         self.assertEqual(2, snd.idx)
-        self.assertEqual(TEXT_SENT_1, fst.text)
-        self.assertEqual(TEXT_SENT_2, snd.text)
+        self.assertEqual(self.TEXT_SENT_1, fst.text)
+        self.assertEqual(self.TEXT_SENT_2, snd.text)
 
     def test_reads_correct_document_text(self):
-        text = "\n".join((TEXT_SENT_1, TEXT_SENT_2))
+        text = "\n".join((self.TEXT_SENT_1, self.TEXT_SENT_2))
         self.assertEquals(text, self.doc.text)
+
+    def test_reads_correct_tokens(self):
+        fst, snd = self.doc.sentences
+
+        spot_checks = [(fst, 4, 18, 23, "Braun"),
+                       (fst, 16, 67, 73, "Luglio"),
+                       (snd, 1, 81, 84, "Von"),
+                       (snd, 14, 164, 169, "Kampf"),
+                       (snd, 21, 204, 205, ".")]
+        for sentence, idx, start, end, text in spot_checks:
+            token = sentence.tokens[idx - 1]
+            self.assertEqual(idx, token.idx)
+            self.assertEqual(start, token.start)
+            self.assertEqual(end, token.end)
+            self.assertEqual(text, token.text)
+
 
     def test_reads_correct_annotations(self):
         _, snd = self.doc.sentences
@@ -65,3 +83,14 @@ class WebannoTsvReadTest(unittest.TestCase):
             self.assertEquals(label, annotation.label)
             self.assertEquals(label_id, annotation.label_id)
             self.assertEquals(text, annotation.text)
+
+
+class WebannoTsvReadFileWithQuotes(unittest.TestCase):
+
+    def test_reads_quotes(self):
+        self.doc = webanno_tsv_read(test_file('test_input_quotes.tsv'))
+        tokens = self.doc.sentences[0].tokens
+
+        self.assertEqual('\"', tokens[3].text)
+        self.assertEqual('\"', tokens[5].text)
+        self.assertEqual('quotes', tokens[4].text)
