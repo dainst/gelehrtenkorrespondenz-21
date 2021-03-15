@@ -33,7 +33,7 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
 
     def test_reads_correct_document_text(self):
         text = "\n".join((self.TEXT_SENT_1, self.TEXT_SENT_2))
-        self.assertEquals(text, self.doc.text)
+        self.assertEqual(text, self.doc.text)
 
     def test_reads_correct_tokens(self):
         fst, snd = self.doc.sentences
@@ -78,11 +78,11 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
                        (named_entities[2], 191, 199, 'PERmentioned', 10, 'Achelous'),
                        ]
         for annotation, start, end, label, label_id, text in spot_checks:
-            self.assertEquals(start, annotation.start)
+            self.assertEqual(start, annotation.start)
             self.assertEqual(end, annotation.end)
-            self.assertEquals(label, annotation.label)
-            self.assertEquals(label_id, annotation.label_id)
-            self.assertEquals(text, annotation.text)
+            self.assertEqual(label, annotation.label)
+            self.assertEqual(label_id, annotation.label_id)
+            self.assertEqual(text, annotation.text)
 
 
 class WebannoTsvReadFileWithQuotes(unittest.TestCase):
