@@ -50,7 +50,6 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
             self.assertEqual(end, token.end)
             self.assertEqual(text, token.text)
 
-
     def test_reads_correct_annotations(self):
         _, snd = self.doc.sentences
 
@@ -85,7 +84,7 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
             self.assertEqual(text, annotation.text)
 
 
-class WebannoTsvReadFileWithQuotes(unittest.TestCase):
+class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 
     def test_reads_quotes(self):
         self.doc = webanno_tsv_read(test_file('test_input_quotes.tsv'))
@@ -94,3 +93,39 @@ class WebannoTsvReadFileWithQuotes(unittest.TestCase):
         self.assertEqual('\"', tokens[3].text)
         self.assertEqual('\"', tokens[5].text)
         self.assertEqual('quotes', tokens[4].text)
+
+
+class WebannoAddTokensAsSentenceTest(unittest.TestCase):
+
+    def setUp(self) -> None:
+        self.doc = Document(sentences=[])
+
+    def test_add_simple(self):
+        tokens = ['This', 'is', 'a', 'sentence', '.']
+        sentence = self.doc.add_tokens_as_sentence(tokens)
+
+        self.assertIsInstance(sentence, Sentence)
+        self.assertEqual(1, sentence.idx)
+        self.assertEqual('This is a sentence .', sentence.text)
+        self.assertEqual([sentence], self.doc.sentences)
+
+        expected_tokens = [
+            Token(sentence, 1, 0, 4, 'This'),
+            Token(sentence, 2, 5, 7, 'is'),
+            Token(sentence, 3, 8, 9, 'a'),
+            Token(sentence, 4, 10, 18, 'sentence'),
+            Token(sentence, 5, 19, 20, '.'),
+        ]
+        self.assertEqual(expected_tokens, sentence.tokens)
+
+    def test_add_unicode_text(self):
+        # Example from the WebAnno TSV docs. The smiley should increment
+        # the offset by two as it counts for two chars in UTF-16 (as used by Java).
+        tokens = ['I', 'like', 'it', '😊', '.']
+        sentence = self.doc.add_tokens_as_sentence(tokens)
+
+        self.assertEqual('😊', sentence.tokens[3].text)
+        self.assertEqual(10, sentence.tokens[3].start)
+        self.assertEqual(12, sentence.tokens[3].end)
+        self.assertEqual('.', sentence.tokens[4].text)
+        self.assertEqual(13, sentence.tokens[4].start)

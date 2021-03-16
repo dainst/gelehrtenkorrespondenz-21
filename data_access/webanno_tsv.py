@@ -115,6 +115,28 @@ class Document:
         except IndexError:
             return None
 
+    def add_tokens_as_sentence(self, tokens: List[str]) -> Sentence:
+        """
+        Builds a Webanno Sentence instance for the token texts, incrementing
+        sentence and token indices and calculating (utf-16) offsets for the tokens
+        as per the TSV standard. The sentence is added to the document's sentences.
+
+        :param tokens: The tokenized version of param text.
+        :return: A Sentence instance.
+        """
+        text = " ".join(tokens)
+        sentence = Sentence(len(self.sentences) + 1, text)
+
+        char_idx = 0
+        for token_idx, token_text in enumerate(tokens, start=1):
+            token_utf16_length = int(len(token_text.encode('utf-16-le')) / 2)
+            end = char_idx + token_utf16_length
+            token = Token(sentence=sentence, idx=token_idx, start=char_idx, end=end, text=token_text)
+            sentence.add_token(token)
+            char_idx = end + 1
+        self.sentences.append(sentence)
+        return sentence
+
 
 def _read_token(doc: Document, row: Dict) -> Token:
     """
