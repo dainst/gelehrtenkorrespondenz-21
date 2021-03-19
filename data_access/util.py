@@ -72,6 +72,6 @@ def remove_hyphenation(lines: List[str]) -> List[str]:
             word2 = first_word.search(lines[i + 1])
             if word2 and word2.group()[0].islower():
                 combined = hyphen_end.sub('', word1.group()) + word2.group()
-                lines[i] = last_word.sub(combined, lines[i])
+                lines[i] = last_word.sub(lambda _: combined, lines[i])  # lambda keeps repl from being interpreted
                 lines[i + 1] = first_word.sub('', lines[i + 1]).lstrip()
     return lines

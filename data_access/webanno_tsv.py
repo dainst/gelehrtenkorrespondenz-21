@@ -13,6 +13,7 @@ FIELD_WITH_ID_RE = re.compile(r'(.*)\[([0-9]*)]$')
 
 TSV_FIELDNAMES = ['sent_tok_idx', 'offsets', 'token', 'pos', 'lemma', 'entity_id', 'named_entity']
 
+logger = logging.getLogger(__file__)
 
 class WebannoTsvDialect(csv.Dialect):
     delimiter = '\t'
@@ -213,7 +214,7 @@ def webanno_tsv_read(path) -> Document:
         for span_type in ['lemma', 'pos', 'entity_id', 'named_entity']:
             # There might be multiple annotations in each column field
             if row[span_type] is None:
-                logging.warning(f"Empty field '{span_type}' in {path}")
+                logger.warning(f"Empty field '{span_type}' in {path}")
                 continue
             values = row[span_type].split('|')
             for value in values:

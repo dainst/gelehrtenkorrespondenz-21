@@ -105,7 +105,10 @@ class RemoveHyphenationTest(unittest.TestCase):
              'Should handle Umlauts correctly.'),
             (['Zeilen-', 'umbruch'],
              ['Zeilenumbruch', ''],
-             'Should handle one-word lines.')
+             'Should handle one-word lines.'),
+            (['\\eil$en-', 'umb[r]uch'],
+             ['\\eil$enumb[r]uch', ''],
+             'Should handle characters that need escaping.')
         ]
         for text, expected, msg in tests:
             self.assertEqual(expected, remove_hyphenation(text), msg)
