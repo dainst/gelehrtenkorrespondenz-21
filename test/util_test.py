@@ -1,6 +1,6 @@
 import unittest
 
-from data_access.util import subsequences_of_length, find_subsequence, items_around
+from data_access.util import subsequences_of_length, find_subsequence, items_around, remove_hyphenation
 
 
 class SubsequencesOfLengthTest(unittest.TestCase):
@@ -69,7 +69,7 @@ class FindSubsequenceTest(unittest.TestCase):
 
 class ItemsAroundTest(unittest.TestCase):
 
-    def test_normal_inputs(self):
+    def test_inputs(self):
         nums = '0123456789'
         tests = [
             # Normal ranges
@@ -91,3 +91,31 @@ class ItemsAroundTest(unittest.TestCase):
         ]
         for (items, start, window_size, expected) in tests:
             self.assertEqual(expected, list(items_around(items, start, window_size)))
+
+
+class RemoveHyphenationTest(unittest.TestCase):
+
+    def test_working_inputs(self):
+        tests = [
+            (['Ein Zeilen-', 'umbruch weniger'],
+             ['Ein Zeilenumbruch', 'weniger'],
+             'Should remove normal linebreak.'),
+            (['Ein Zeilen-', 'ümbruch weniger'],
+             ['Ein Zeilenümbruch', 'weniger'],
+             'Should handle Umlauts correctly.'),
+            (['Zeilen-', 'umbruch'],
+             ['Zeilenumbruch', ''],
+             'Should handle one-word lines.')
+        ]
+        for text, expected, msg in tests:
+            self.assertEqual(expected, remove_hyphenation(text), msg)
+
+    def test_inputs_without_result(self):
+        tests = [
+            (['Ein SPD-', 'Abgeordneter'], 'Should not remove linebreak if 2nd word is uppercase.'),
+            (['Ein Zeilen-', ''], 'Should do nothing if the second line is empty.'),
+            (['Ein Zeilen-'], 'Should do nothing if there is no second line.'),
+            ([], 'Should handle the empty list without error'),
+        ]
+        for text, msg in tests:
+            self.assertEqual(text, remove_hyphenation(text), msg)

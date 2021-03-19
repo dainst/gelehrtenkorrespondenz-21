@@ -1,4 +1,5 @@
 import csv
+import logging
 import re
 from collections import defaultdict
 from dataclasses import dataclass
@@ -79,6 +80,10 @@ class Sentence:
         self.text = text
         self.tokens = []
         self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
+
+    @property
+    def token_texts(self) -> List[str]:
+        return [token.text for token in self.tokens]
 
     def add_annotation(self, annotation: Annotation):
         merged = False
@@ -208,7 +213,7 @@ def webanno_tsv_read(path) -> Document:
         for span_type in ['lemma', 'pos', 'entity_id', 'named_entity']:
             # There might be multiple annotations in each column field
             if row[span_type] is None:
-                print(path, row)
+                logging.warning(f"Empty field '{span_type}' in {path}")
                 continue
             values = row[span_type].split('|')
             for value in values:

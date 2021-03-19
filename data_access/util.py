@@ -1,4 +1,5 @@
-from typing import Iterator, Sequence, TypeVar
+import re
+from typing import Iterator, List, Sequence, TypeVar
 
 T = TypeVar('T')
 
@@ -51,3 +52,26 @@ def subsequences_of_length(sequence: Sequence[T], *lengths: int) -> T:
         if length > 0:
             combinations += [sequence[i:i + length] for i in range(0, len(sequence) - length + 1)]
     return combinations
+
+
+def remove_hyphenation(lines: List[str]) -> List[str]:
+    """
+    Removes hyphenations ("-") at the end of each input line by
+    looking at both words and merging them if the second does not start
+    with an uppercase letter. (This works reasonably well for german texts.)
+
+    :param lines: A list of strings to replace hyphens in.
+    :return: The same list with hyphens removed in place.
+    """
+    hyphen_end = re.compile('-$')
+    last_word = re.compile('[^\\s]+-$')
+    first_word = re.compile('^[^\\s]+')
+    for i in range(0, len(lines) - 1):
+        word1 = last_word.search(lines[i])
+        if word1:
+            word2 = first_word.search(lines[i + 1])
+            if word2 and word2.group()[0].islower():
+                combined = hyphen_end.sub('', word1.group()) + word2.group()
+                lines[i] = last_word.sub(combined, lines[i])
+                lines[i + 1] = first_word.sub('', lines[i + 1]).lstrip()
+    return lines
