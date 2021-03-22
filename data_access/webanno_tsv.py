@@ -62,6 +62,10 @@ class Annotation:
         # return a read-only copy
         return list(self._tokens)
 
+    @property
+    def token_texts(self):
+        return [token.text for token in self._tokens]
+
     def merge_other(self, other: 'Annotation'):
         assert (self.span_type == other.span_type)
         assert (self.label == other.label)
