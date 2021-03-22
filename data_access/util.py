@@ -41,10 +41,11 @@ def items_around(items: Sequence[T], start: int, window_size=5) -> Iterator[T]:
             yield items[idx]
 
 
-def subsequences_of_length(sequence: Sequence[T], *lengths: int) -> T:
+def subsequences_of_length(sequence: Sequence[T], *lengths: int) -> Sequence[Sequence[T]]:
     """
     Examples:
-         ("abcde", 3) -> ["abc", "bcd", "cde"]
+         ([1, 2, 3, 4], 2)  -> [[1, 2], [2, 3], [3, 4]]
+         ("abcde", 3)       -> ["abc", "bcd", "cde"]
          ("abcde", 3, 4, 5) -> ["abc", "bcd", "cde", "abcd", "bcde", "abcde"]
     """
     combinations = []
