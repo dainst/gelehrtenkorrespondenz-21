@@ -136,9 +136,7 @@ class WebannoTsvWriteTest(unittest.TestCase):
     def test_complete_writing(self):
         doc = Document()
         s1 = doc.add_tokens_as_sentence(['First', 'sentence', '😊', '.'])
-        s2 = doc.add_tokens_as_sentence(['Second', 'sentence', '.'])
-
-        # TODO: Chars that need escaping
+        s2 = doc.add_tokens_as_sentence(['Second', 'sentence', 'escape[t]his;content', '.'])
 
         s1_annotations = [
             Annotation(s1.tokens[0], 'pos', 'pos-val'),
@@ -150,10 +148,11 @@ class WebannoTsvWriteTest(unittest.TestCase):
         ]
 
         s2_annotations = [
-            Annotation(s2.tokens[2], 'pos', 'dot'),
+            Annotation(s2.tokens[3], 'pos', 'dot'),
             Annotation(s2.tokens[1], 'lemma', 'sentence'),
-            Annotation(s2.tokens[2], 'lemma', '.'),
-            Annotation(s2.tokens[0], 'named_entity', 'XYZ')
+            Annotation(s2.tokens[3], 'lemma', '.'),
+            Annotation(s2.tokens[0], 'named_entity', 'XYZ'),
+            Annotation(s2.tokens[2], 'named_entity', 'escape|this\\content'),
         ]
 
         for annotation in s1_annotations:
@@ -170,15 +169,25 @@ class WebannoTsvWriteTest(unittest.TestCase):
             '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value',
             '#T_SP=webanno.custom.LetterEntity|entity_id|value',
             '',
+            '',
             '#Text=First sentence 😊 .',
             '1-1\t0-5\tFirst\tpos-val\tfirst\t_\t_',
             '1-2\t6-14\tsentence\t_\tsentence\t_\t_',
             '1-3\t15-17\t😊\t_\t_\t*[37]\tsmiley-end[37]',
             '1-4\t18-19\t.\t_\t_\t*[37]\tDOT|smiley-end[37]',
             '',
-            '#Text=Second sentence .',
+            '#Text=Second sentence escape\\[t\\]his\\;content .',
             '2-1\t0-6\tSecond\t_\t_\t*\tXYZ',
             '2-2\t7-15\tsentence\t_\tsentence\t_\t_',
-            '2-3\t16-17\t.\tdot\t.\t_\t_',
+            '2-3\t16-36\tescape\\[t\\]his\\;content\t_\t_\t*\tescape\\|this\\\\content',
+            '2-4\t37-38\t.\tdot\t.\t_\t_'
         ]
         self.assertEqual(expected, result.split('\n'))
+
+    def testReadWriteEquality(self):
+        path = test_file('test_input.tsv')
+        with open(path, encoding='utf8', mode='r') as f:
+            expected = f.read().rstrip().split('\n')
+        doc = webanno_tsv_read(path)
+        self.assertEqual(expected, doc.tsv().split('\n'),
+                         'Output should have the same lines as the input file.')

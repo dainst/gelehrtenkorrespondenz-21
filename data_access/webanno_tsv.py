@@ -16,9 +16,13 @@ HEADERS = [
     '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue',
     '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value',
     '#T_SP=webanno.custom.LetterEntity|entity_id|value',
+    ''
 ]
 
 TSV_FIELDNAMES = ['sent_tok_idx', 'offsets', 'token', 'pos', 'lemma', 'entity_id', 'named_entity']
+
+# Strings that need to be escaped with a single backslash according to Webanno Appendix B
+RESERVED_STRS = ['\\', '[', ']', '|', '_', '->', ';', '\t', '\n', '*']
 
 logger = logging.getLogger(__file__)
 
@@ -163,6 +167,18 @@ class Document:
         return webanno_tsv_write(self)
 
 
+def _unescape(text: str) -> str:
+    for s in RESERVED_STRS:
+        text = text.replace('\\' + s, s)
+    return text
+
+
+def _escape(text: str) -> str:
+    for s in RESERVED_STRS:
+        text = text.replace(s, '\\' + s)
+    return text
+
+
 def _read_token(doc: Document, row: Dict) -> Token:
     """
     Construct a Token from the row object using the sentence from doc.
@@ -177,7 +193,7 @@ def _read_token(doc: Document, row: Dict) -> Token:
 
     sent_idx, tok_idx = intsplit(row['sent_tok_idx'])
     start, end = intsplit(row['offsets'])
-    text = row['token']
+    text = _unescape(row['token'])
     sentence = doc.sentence_with_idx(sent_idx)
     token = Token(sentence, tok_idx, start, end, text)
     sentence.add_token(token)
@@ -205,7 +221,7 @@ def _read_label_and_id(field: str) -> Tuple[str, int]:
     if FIELD_EMPTY_RE.match(label):
         label = ''
 
-    return label, label_id
+    return _unescape(label), label_id
 
 
 def webanno_tsv_read(path) -> Document:
@@ -255,10 +271,11 @@ def _annotations_for_token(token: Token, sentence: Sentence, type_name: str) -> 
 
 
 def _write_annotation_label(annotation: Annotation) -> str:
+    label = _escape(annotation.label)
     if annotation.label_id == NO_LABEL_ID:
-        return annotation.label
+        return label
     else:
-        return f'{annotation.label}[{annotation.label_id}]'
+        return f'{label}[{annotation.label_id}]'
 
 
 def _write_annotation_layer_fields(token: Token, sentence: Sentence, type_names: List[str]) -> List[str]:
@@ -283,7 +300,7 @@ def _write_annotation_layer_fields(token: Token, sentence: Sentence, type_names:
 
         # next we treat id'ed annotations, that need id'ed indicators in columns where no
         # annotation for the id is present
-        for lid in all_ids:
+        for lid in sorted(all_ids):
             try:
                 annotation = next(a for a in annotations if a.label_id == lid)
                 labels.append(_write_annotation_label(annotation))
@@ -304,13 +321,13 @@ def webanno_tsv_write(doc: Document, linebreak='\n') -> str:
 
     for sentence in doc.sentences:
         lines.append('')
-        lines.append(f'#Text={sentence.text}')
+        lines.append(f'#Text={_escape(sentence.text)}')
 
         for token in sentence.tokens:
             line = [
                 f'{sentence.idx}-{token.idx}',
                 f'{token.start}-{token.end}',
-                token.text,
+                _escape(token.text),
             ]
             line += _write_annotation_layer_fields(token, sentence, ['pos'])
             line += _write_annotation_layer_fields(token, sentence, ['lemma'])
