@@ -11,9 +11,17 @@ SENTENCE_RE = re.compile('^#Text=(.*)')
 FIELD_EMPTY_RE = re.compile('^[_*]')
 FIELD_WITH_ID_RE = re.compile(r'(.*)\[([0-9]*)]$')
 
+HEADERS = [
+    '#FORMAT=WebAnno TSV 3.1',
+    '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue',
+    '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value',
+    '#T_SP=webanno.custom.LetterEntity|entity_id|value',
+]
+
 TSV_FIELDNAMES = ['sent_tok_idx', 'offsets', 'token', 'pos', 'lemma', 'entity_id', 'named_entity']
 
 logger = logging.getLogger(__file__)
+
 
 class WebannoTsvDialect(csv.Dialect):
     delimiter = '\t'
@@ -35,7 +43,7 @@ class Token:
 
 class Annotation:
 
-    def __init__(self, token: Token, span_type: str, label: str, label_id: int):
+    def __init__(self, token: Token, span_type: str, label: str, label_id: int = NO_LABEL_ID):
         self._tokens = [token]
         self.span_type = span_type
         self.label = label
@@ -111,9 +119,13 @@ class Sentence:
         return self._annotations[type_name]
 
 
-@dataclass
 class Document:
     sentences: List[Sentence]
+
+    def __init__(self, sentences=None):
+        if sentences is None:
+            sentences = []
+        self.sentences = sentences
 
     @property
     def text(self):
@@ -147,11 +159,14 @@ class Document:
         self.sentences.append(sentence)
         return sentence
 
+    def tsv(self) -> str:
+        return webanno_tsv_write(self)
+
 
 def _read_token(doc: Document, row: Dict) -> Token:
     """
     Construct a Token from the row object using the sentence from doc.
-    This converts the first three columns fo the TSV, e.g.:
+    This converts the first three columns ofo the TSV, e.g.:
         "2-3    13-20    example"
     becomes:
         Token(Sentence(idx=2), idx=3, start=13, end=20, text='example')
@@ -215,7 +230,7 @@ def webanno_tsv_read(path) -> Document:
         token = _read_token(doc, row)
         sentence = token.sentence
         # Each column after the first three is one or more span annotatins
-        for span_type in ['lemma', 'pos', 'entity_id', 'named_entity']:
+        for span_type in ['pos', 'lemma', 'entity_id', 'named_entity']:
             # There might be multiple annotations in each column field
             if row[span_type] is None:
                 logger.warning(f"Empty field '{span_type}' in {path}")
@@ -231,5 +246,76 @@ def webanno_tsv_read(path) -> Document:
                         label_id=label_id,
                     )
                     sentence.add_annotation(a)
-
     return doc
+
+
+def _annotations_for_token(token: Token, sentence: Sentence, type_name: str) -> List[Annotation]:
+    annotations = sentence.annotations_with_type(type_name)
+    return [a for a in annotations if token in a.tokens]
+
+
+def _write_annotation_label(annotation: Annotation) -> str:
+    if annotation.label_id == NO_LABEL_ID:
+        return annotation.label
+    else:
+        return f'{annotation.label}[{annotation.label_id}]'
+
+
+def _write_annotation_layer_fields(token: Token, sentence: Sentence, type_names: List[str]) -> List[str]:
+    all_annotations = []
+    for type_name in type_names:
+        all_annotations += _annotations_for_token(token, sentence, type_name)
+
+    # If there are no annotations for this layer '-' is returned for each column
+    if not all_annotations:
+        return ['_'] * len(type_names)
+
+    all_ids = {a.label_id for a in all_annotations}
+    all_ids = all_ids - {NO_LABEL_ID}
+    fields = []
+    for type_name in type_names:
+        annotations = [a for a in all_annotations if a.span_type == type_name]
+        labels = []
+
+        # first write annotations without label_ids
+        for annotation in [a for a in annotations if a.label_id == NO_LABEL_ID]:
+            labels.append(_write_annotation_label(annotation))
+
+        # next we treat id'ed annotations, that need id'ed indicators in columns where no
+        # annotation for the id is present
+        for lid in all_ids:
+            try:
+                annotation = next(a for a in annotations if a.label_id == lid)
+                labels.append(_write_annotation_label(annotation))
+            except StopIteration:
+                labels.append('*' if lid == NO_LABEL_ID else f'*[{lid}]')
+
+        if not labels:
+            labels.append('*')
+
+        fields.append('|'.join(labels))
+
+    return fields
+
+
+def webanno_tsv_write(doc: Document, linebreak='\n') -> str:
+    lines = []
+    lines += HEADERS
+
+    for sentence in doc.sentences:
+        lines.append('')
+        lines.append(f'#Text={sentence.text}')
+
+        for token in sentence.tokens:
+            line = [
+                f'{sentence.idx}-{token.idx}',
+                f'{token.start}-{token.end}',
+                token.text,
+            ]
+            line += _write_annotation_layer_fields(token, sentence, ['pos'])
+            line += _write_annotation_layer_fields(token, sentence, ['lemma'])
+            line += _write_annotation_layer_fields(token, sentence, ['entity_id', 'named_entity'])
+
+            lines.append('\t'.join(line))
+
+    return linebreak.join(lines)

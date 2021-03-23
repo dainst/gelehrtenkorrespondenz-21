@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from data_access.webanno_tsv import webanno_tsv_read, Document, Sentence, Token
+from data_access.webanno_tsv import webanno_tsv_read, Annotation, Document, Sentence, Token
 
 
 def test_file(name):
@@ -98,7 +98,7 @@ class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 class WebannoAddTokensAsSentenceTest(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.doc = Document(sentences=[])
+        self.doc = Document()
 
     def test_add_simple(self):
         tokens = ['This', 'is', 'a', 'sentence', '.']
@@ -129,3 +129,56 @@ class WebannoAddTokensAsSentenceTest(unittest.TestCase):
         self.assertEqual(12, sentence.tokens[3].end)
         self.assertEqual('.', sentence.tokens[4].text)
         self.assertEqual(13, sentence.tokens[4].start)
+
+
+class WebannoTsvWriteTest(unittest.TestCase):
+
+    def test_complete_writing(self):
+        doc = Document()
+        s1 = doc.add_tokens_as_sentence(['First', 'sentence', '😊', '.'])
+        s2 = doc.add_tokens_as_sentence(['Second', 'sentence', '.'])
+
+        # TODO: Chars that need escaping
+
+        s1_annotations = [
+            Annotation(s1.tokens[0], 'pos', 'pos-val'),
+            Annotation(s1.tokens[0], 'lemma', 'first'),
+            Annotation(s1.tokens[1], 'lemma', 'sentence'),
+            Annotation(s1.tokens[2], 'named_entity', 'smiley-end', 37),
+            Annotation(s1.tokens[3], 'named_entity', 'smiley-end', 37),
+            Annotation(s1.tokens[3], 'named_entity', 'DOT')
+        ]
+
+        s2_annotations = [
+            Annotation(s2.tokens[2], 'pos', 'dot'),
+            Annotation(s2.tokens[1], 'lemma', 'sentence'),
+            Annotation(s2.tokens[2], 'lemma', '.'),
+            Annotation(s2.tokens[0], 'named_entity', 'XYZ')
+        ]
+
+        for annotation in s1_annotations:
+            s1.add_annotation(annotation)
+
+        for annotation in s2_annotations:
+            s2.add_annotation(annotation)
+
+        result = doc.tsv()
+
+        expected = [
+            '#FORMAT=WebAnno TSV 3.1',
+            '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue',
+            '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value',
+            '#T_SP=webanno.custom.LetterEntity|entity_id|value',
+            '',
+            '#Text=First sentence 😊 .',
+            '1-1\t0-5\tFirst\tpos-val\tfirst\t_\t_',
+            '1-2\t6-14\tsentence\t_\tsentence\t_\t_',
+            '1-3\t15-17\t😊\t_\t_\t*[37]\tsmiley-end[37]',
+            '1-4\t18-19\t.\t_\t_\t*[37]\tDOT|smiley-end[37]',
+            '',
+            '#Text=Second sentence .',
+            '2-1\t0-6\tSecond\t_\t_\t*\tXYZ',
+            '2-2\t7-15\tsentence\t_\tsentence\t_\t_',
+            '2-3\t16-17\t.\tdot\t.\t_\t_',
+        ]
+        self.assertEqual(expected, result.split('\n'))
