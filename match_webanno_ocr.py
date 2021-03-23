@@ -32,10 +32,10 @@ sentence_tokenizer = nltk_load(SENTENCE_TOKENIZER_PICKLE)
 sentence_tokenizer._params.abbrev_types.update(map(str, range(1, 32)))
 
 FILE_NAMES = [
-    # ('000882135.txt', '16_BOOK-ZID882135_2021-02-03_1442/annotation/16_BOOK-ZID882135_page*'),
     # ('000880098.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/1.Braun_an_Gerhard1832-35_page*'),
 
     ('001313708.txt', '11_BOOK-ZID1313708_2021-02-03_1354/annotation/11_BOOK-ZID1313708_page*'),
+    ('000882135.txt', '16_BOOK-ZID882135_2021-02-03_1442/annotation/16_BOOK-ZID882135_page*'),
     ('000884476.txt', '25_BOOK-ZID884476_2021-02-03_1443/annotation/25_BOOK-ZID884476_page*'),
     ('000884487.txt', '26_BOOK-ZID884487_2021-02-03_1444/annotation/26_BOOK-ZID884487_page*'),
     ('000884345.txt', '34_BOOK-ZID884345_2021-02-03_1445/annotation/34_BOOK-ZID884345_page*'),
@@ -112,6 +112,17 @@ def inexact_match(annotation: Annotation, sentence: Sentence, cutoff=0.75) -> Se
     return []
 
 
+def sort_webanno_docs_for_id_882135(webanno_docs):
+    # this book had an error in how the original ocr was sorted
+    # (page numbers were erroneously str sorted: 1, 10, 11, …, 100, … 199, 2, 21, … )
+    new_webanno = []
+    orig_ocr_order = list(map(int, sorted(map(str, range(1, len(webanno_docs) + 1)))))
+    for i in range(0, len(webanno_docs)):
+        idx = orig_ocr_order.index(i + 1)
+        new_webanno.append(webanno_docs[idx])
+    return new_webanno
+
+
 def copy_annotations(doc_with_annotations: Document, other: Document):
     found_exact = 0
     found_approx = 0
@@ -179,6 +190,9 @@ def main(args):
 
         page_paths = webanno_page_paths(args.webanno_dir, webanno_glob, args.annotator)
         webanno_docs = [webanno_tsv_read(f) for f in page_paths]
+
+        if ocr_filename == '000882135.txt':
+            webanno_docs = sort_webanno_docs_for_id_882135(webanno_docs)
 
         # Some ocr pages do not have counterparts in the webanno docs
         to_delete = []

@@ -132,7 +132,7 @@ class Document:
         self.sentences = sentences
 
     @property
-    def text(self):
+    def text(self) -> str:
         return "\n".join([s.text for s in self.sentences])
 
     def sentence_with_idx(self, idx) -> Optional[Sentence]:
