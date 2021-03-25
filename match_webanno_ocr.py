@@ -113,7 +113,33 @@ def copy_annotation(source: Annotation, targets: List[Token]):
         target.doc.add_annotation(annotation)
 
 
-def copy_annotations(doc_with_annotations: Document, other: Document) -> (int, int, int):
+def print_no_match_information(annotation: Annotation):
+    filename = os.path.split(os.path.split(annotation.doc.original_path)[0])[1]
+    print('-----')
+    print('FILE: %s' % filename)
+    print('LINE: %d' % annotation.sentences[0].idx)
+    print('TEXT: "%s"' % annotation.text)
+    print('TYPE: %s' % annotation.label)
+    print('CONTEXT:')
+    tokens = [t for s in annotation.sentences for t in s.tokens]
+
+    def print_tokens(ts: List[Token]):
+        underline = ' '.join(['^' * len(t.text) if t in annotation.tokens else ' ' * len(t.text) for t in ts])
+        print(' '.join(t.text for t in ts))
+        if underline.strip():
+            print(underline)
+
+    line = []
+    while tokens:
+        token = tokens.pop(0)
+        if sum(len(t.text) + 1 for t in line) + len(token.text) > 120:
+            print_tokens(line)
+            line = []
+        line.append(token)
+    print_tokens(line)
+
+
+def copy_annotations(doc_with_annotations: Document, other: Document, print_no_match=False) -> (int, int, int):
     high_confidence = 0
     lower_confidence = 0
     not_found = 0
@@ -162,6 +188,8 @@ def copy_annotations(doc_with_annotations: Document, other: Document) -> (int, i
             copy_annotation(annotation, tokens)
         else:
             logger.debug('NO MATCH: %s \n--> %s' % (annotation.text, ' '.join(c.text for c in slice_candidates(20))))
+            if print_no_match:
+                print_no_match_information(annotation)
             not_found += 1
 
     return high_confidence, lower_confidence, not_found
@@ -205,7 +233,7 @@ def main(args):
             if webanno_doc is not None:
                 ocr = clean_ocr(ocr_text)
                 ocr_doc = webanno_create_document(ocr)
-                result = copy_annotations(webanno_doc, ocr_doc)
+                result = copy_annotations(webanno_doc, ocr_doc, args.print_no_match)
                 counts = (i + j for i, j in zip(counts, result))
 
                 if args.output_dir:
@@ -236,5 +264,7 @@ if __name__ == '__main__':
                         help='The directory with the unzipped webanno exports from cumulus')
     parser.add_argument('-o', '--output-dir', type=Path,
                         help='If present, write files with the matched output to this directory.')
+    parser.add_argument('-p', '--print-no-match', action='store_true',
+                        help="Print information on non-matching annotations.")
     parser.add_argument('-d', '--debug', action='store_true', help='Print some debug messages if present.')
     main(parser.parse_args())
