@@ -5,7 +5,7 @@ import difflib
 import logging
 import os
 from pathlib import Path
-from typing import List, TypeVar, Sequence, Union
+from typing import List, TypeVar, Sequence
 
 from nltk.data import load as nltk_load
 from nltk.tokenize import word_tokenize
@@ -44,6 +44,8 @@ FILE_NAMES = [
     ('001315090.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/8_LepsiusAnHenzen-Helbig1872-1884_page*'),
     ('001313719.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/9_GerhardAnHenzen1843-1850_page*'),
 ]
+
+EMPTY_DOC = Document()
 
 
 def webanno_page_paths(export_dir: Path, page_glob: str, annotator: str) -> List[Path]:
@@ -113,6 +115,32 @@ def copy_annotation(source: Annotation, targets: List[Token]):
         target.doc.add_annotation(annotation)
 
 
+def reorder_documents_for_fit(docs1: List[Document], docs2: List[Document], min_ratio=0.2, text_len=600):
+    """
+    Attempt to correct wrong page order by matching beginnings of documents.
+    Returns two new lists with the second one reordered for better matching the first.
+    NOTE: This does not reorder a whole lot of documents, but prevents a lot of errors in those.
+    """
+    assert (len(docs1) == len(docs2))
+    candidates = []
+    for idx, (d1, d2) in enumerate(zip(docs1, docs2)):
+        ratio = difflib.SequenceMatcher(None, d1.text[:text_len], d2.text[:text_len]).ratio()
+        if ratio < min_ratio and docs1[idx] != EMPTY_DOC and docs2[idx] != EMPTY_DOC:
+            candidates.append(idx)
+
+    copy_docs2 = list(docs2)
+    while candidates:
+        idx1 = candidates.pop()
+        texts = [docs2[idx2].text[:text_len] for idx2 in candidates]
+        match: List[str] = difflib.get_close_matches(docs1[idx1].text[:text_len], texts, 1, min_ratio)
+        if match:
+            idx_match = candidates[texts.index(match[0])]
+            candidates.remove(idx_match)
+            copy_docs2[idx1] = docs2[idx_match]
+
+    return list(docs1), copy_docs2
+
+
 def print_no_match_information(annotation: Annotation):
     filename = os.path.split(os.path.split(annotation.doc.original_path)[0])[1]
     print('-----')
@@ -168,11 +196,11 @@ def copy_annotations(doc_with_annotations: Document, other: Document, print_no_m
             if tokens:
                 high_confidence += 1
                 break
-
-            tokens = inexact_match(annotation, slice_candidates(inexact_size), 0.8)
-            if tokens:
-                high_confidence += 1
-                break
+            else:
+                tokens = inexact_match(annotation, slice_candidates(inexact_size), 0.8)
+                if tokens:
+                    high_confidence += 1
+                    break
 
         # these are matches with a lower degree of probability (lower cutoff, somewhat more far from intended area)
         sizes_cutoffs = [(3, 0.72), (3, 0.65), (8, 0.72), (8, 0.65), (20, 0.72), (20, 0.65), (40, 0.75)]
@@ -208,14 +236,13 @@ def main(args):
 
     # Keep counts of types of matches
     per_document_counts: List[(str, int, int, int)] = []
-    # Iterate the files we know
     for ocr_filename, webanno_glob in FILE_NAMES:
 
         with open(args.ocr_dir / ocr_filename, mode='r', encoding='utf-8') as f:
             ocr_texts = ocr_page_split(f.read())
 
         page_paths = webanno_page_paths(args.webanno_dir, webanno_glob, args.annotator)
-        webanno_docs: List[Union[Document, None]] = [webanno_tsv_read(f) for f in page_paths]
+        webanno_docs = [webanno_tsv_read(f) for f in page_paths]
 
         if ocr_filename == '000882135.txt':
             webanno_docs = sort_webanno_docs_for_id_882135(webanno_docs)
@@ -224,23 +251,23 @@ def main(args):
         # (happens for example if the pages were never annotated)
         for idx in range(len(ocr_texts)):
             if webanno_file_for_idx(page_paths, idx + 1) is None:
-                webanno_docs.insert(idx, None)
+                webanno_docs.insert(idx, EMPTY_DOC)
         assert (len(ocr_texts) == len(webanno_docs))
 
-        # Do the actual matching here
-        counts = (0, 0, 0)
-        for idx, (ocr_text, webanno_doc) in enumerate(zip(ocr_texts, webanno_docs)):
-            if webanno_doc is not None:
-                ocr = clean_ocr(ocr_text)
-                ocr_doc = webanno_create_document(ocr)
-                result = copy_annotations(webanno_doc, ocr_doc, args.print_no_match)
-                counts = (i + j for i, j in zip(counts, result))
+        ocr_texts = [clean_ocr(t) for t in ocr_texts]
+        ocr_docs = [webanno_create_document(t) for t in ocr_texts]
+        ocr_docs, webanno_docs = reorder_documents_for_fit(ocr_docs, webanno_docs)
 
-                if args.output_dir:
-                    # use the webanno export dirname as our filename
-                    filename = os.path.basename(os.path.dirname(webanno_doc.original_path))
-                    with open(os.path.join(args.output_dir, filename), mode='w', encoding='utf-8') as f:
-                        f.write(ocr_doc.tsv())
+        counts = (0, 0, 0)
+        for idx, (ocr_doc, webanno_doc) in enumerate(zip(ocr_docs, webanno_docs)):
+            result = copy_annotations(webanno_doc, ocr_doc, args.print_no_match)
+            counts = (i + j for i, j in zip(counts, result))
+
+            if args.output_dir:
+                filename = '%s_page%03d.tsv' % (os.path.splitext(ocr_filename)[0], idx + 1)
+                with open(os.path.join(args.output_dir, filename), mode='w', encoding='utf-8') as f:
+                    f.write(ocr_doc.tsv())
+
         per_document_counts.append((webanno_glob, *counts))
 
     totals = (

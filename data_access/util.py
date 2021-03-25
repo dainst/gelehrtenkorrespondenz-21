@@ -1,5 +1,5 @@
 import re
-from typing import Iterator, List, Sequence, TypeVar
+from typing import List, Sequence, TypeVar
 
 T = TypeVar('T')
 
