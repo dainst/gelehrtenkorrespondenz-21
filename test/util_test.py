@@ -1,6 +1,6 @@
 import unittest
 
-from data_access.util import subsequences_of_length, find_subsequence, items_around, remove_hyphenation
+from data_access.util import subsequences_of_length, find_subsequence, remove_hyphenation
 
 
 class SubsequencesOfLengthTest(unittest.TestCase):
@@ -65,32 +65,6 @@ class FindSubsequenceTest(unittest.TestCase):
         self.assertEqual(-1, find_subsequence([], ''))
         self.assertEqual(-1, find_subsequence([], [None]))
         self.assertEqual(0, find_subsequence([None, None], [None]))
-
-
-class ItemsAroundTest(unittest.TestCase):
-
-    def test_inputs(self):
-        nums = '0123456789'
-        tests = [
-            # Normal ranges
-            (nums, 2, 1, ['2', '1', '3']),
-            (nums, 2, 2, ['2', '1', '3', '0', '4']),
-            (nums, 5, 3, ['5', '4', '6', '3', '7', '2', '8']),
-            # Ranges touching start/end
-            (nums, 2, 4, ['2', '1', '3', '0', '4', '5', '6']),
-            (nums, 8, 4, ['8', '7', '9', '6', '5', '4']),
-            # start and end
-            (nums, 0, 3, ['0', '1', '2', '3']),
-            (nums, len(nums) - 1, 3, ['9', '8', '7', '6']),
-            # Empty/negative window size
-            (nums, 2, 0, []),
-            (nums, 2, -1, []),
-            # Start outside of input
-            (nums, -1, 3, []),
-            (nums, len(nums), 3, []),
-        ]
-        for (items, start, window_size, expected) in tests:
-            self.assertEqual(expected, list(items_around(items, start, window_size)))
 
 
 class RemoveHyphenationTest(unittest.TestCase):

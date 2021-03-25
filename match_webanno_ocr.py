@@ -5,13 +5,13 @@ import difflib
 import logging
 import os
 from pathlib import Path
-from typing import Iterator, List, TypeVar, Sequence, Union
+from typing import List, TypeVar, Sequence, Union
 
 from nltk.data import load as nltk_load
 from nltk.tokenize import word_tokenize
 
 from data_access import util
-from data_access.webanno_tsv import webanno_tsv_read, Annotation, Document, Sentence, Token
+from data_access.webanno_tsv import webanno_tsv_read, Annotation, Document, Token
 
 T = TypeVar('T')
 
@@ -77,22 +77,17 @@ def webanno_create_document(text: str) -> Document:
     return doc
 
 
-def sentences_near(sentences: Sequence[Sentence], index: int, window=5) -> Iterator[Sentence]:
-    start_idx = min(index, len(sentences) - 1)  # if index is too big, return at least some items at the end
-    for sentence in util.items_around(sentences, start_idx, window):
-        yield sentence
-
-
-def exact_match(annotation: Annotation, sentence: Sentence) -> Sequence[Token]:
-    idx = util.find_subsequence(sentence.token_texts, annotation.token_texts)
+def exact_match(annotation: Annotation, tokens: List[Token]) -> Sequence[Token]:
+    texts = [t.text for t in tokens]
+    idx = util.find_subsequence(texts, annotation.token_texts)
     if idx >= 0:
-        return sentence.tokens[idx:idx + len(annotation.token_texts)]
+        return tokens[idx:idx + len(annotation.token_texts)]
     return []
 
 
-def inexact_match(annotation: Annotation, sentence: Sentence, cutoff=0.75) -> Sequence[Token]:
+def inexact_match(annotation: Annotation, tokens: List[Token], cutoff=0.75) -> Sequence[Token]:
     lengths = [len(annotation.tokens) + i for i in [-2, -1, 0, 1, 2, 3]]
-    token_sequences = util.subsequences_of_length(sentence.tokens, *lengths)
+    token_sequences = util.subsequences_of_length(tokens, *lengths)
     candidates = [''.join(token.text for token in s) for s in token_sequences]
     words = ''.join(annotation.token_texts)
     matches = difflib.get_close_matches(words, candidates, 1, cutoff)
@@ -119,50 +114,57 @@ def copy_annotation(source: Annotation, targets: List[Token]):
 
 
 def copy_annotations(doc_with_annotations: Document, other: Document) -> (int, int, int):
-    found_exact = 0
-    found_approx = 0
+    high_confidence = 0
+    lower_confidence = 0
     not_found = 0
 
+    tokens_with = doc_with_annotations.tokens
+    tokens_without = other.tokens
+    diff = len(tokens_without) - len(tokens_with)
+
     for annotation in doc_with_annotations.annotations_with_type('named_entity'):
-        sent_idx = annotation.sentences[0].idx
+
+        t_start = tokens_with.index(annotation.tokens[0])
+        t_start += int(diff / 2)  # correct for the difference in token length
+        t_end = t_start + len(annotation.tokens)
+
+        def slice_candidates(half_window: int):
+            s = max(0, t_start - half_window)
+            e = min(len(tokens_without), t_end + half_window)
+            return tokens_without[s:e]
+
         tokens = []
 
-        # Try an exact fit looking at this sentence and the surrounding ones
-        if not tokens:
-            for other_sentence in sentences_near(other.sentences, sent_idx - 1, window=2):
-                tokens = exact_match(annotation, other_sentence)
-                if tokens:
-                    found_exact += 1
-                    break
+        # these are matches with a high probability of being correct (high cutoff and near the intended area)
+        window_sizes = [(0, 3), (8, 20)]
+        for exact_size, inexact_size in window_sizes:
+            tokens = exact_match(annotation, slice_candidates(exact_size))
+            if tokens:
+                high_confidence += 1
+                break
 
-        # Try an inexact fit by matching to the nearest best sequence
-        if not tokens:
-            for other_sentence in sentences_near(other.sentences, sent_idx - 1, window=5):
-                tokens = inexact_match(annotation, other_sentence, 0.75)
-                if tokens:
-                    found_approx += 1
-                    break
+            tokens = inexact_match(annotation, slice_candidates(inexact_size), 0.8)
+            if tokens:
+                high_confidence += 1
+                break
 
-        # if there is no fit and the annotation is very short and the sentence not very short,
-        # then try matching the complete sentence first, then repeat the inexact match with a lower cutoff.
-        if not tokens \
-                and len(annotation.sentences) == 1 \
-                and (sum(len(w) for w in annotation.token_texts) <= 15) \
-                and len(annotation.sentences[0].tokens) > (2 * len(annotation.tokens)):
-            others = [s.text for s in other.sentences]
-            matches = difflib.get_close_matches(annotation.sentences[0].text, others, 1, 0.4)
-            if len(matches) > 0:
-                matched = [s for s in other.sentences if s.text == matches[0]][0]
-                tokens = inexact_match(annotation, matched, 0.6)
+        # these are matches with a lower degree of probability (lower cutoff, somewhat more far from intended area)
+        sizes_cutoffs = [(3, 0.72), (3, 0.65), (8, 0.72), (8, 0.65), (20, 0.72), (20, 0.65), (40, 0.75)]
+        if not tokens:
+            for size, cutoff in sizes_cutoffs:
+                tokens = inexact_match(annotation, slice_candidates(size), cutoff)
                 if tokens:
-                    found_approx += 1
+                    logger.debug('LOW: %s -> %s' % (annotation.text, ' '.join(t.text for t in tokens)))
+                    lower_confidence += 1
+                    break
 
         if tokens:
             copy_annotation(annotation, tokens)
         else:
+            logger.debug('NO MATCH: %s \n--> %s' % (annotation.text, ' '.join(c.text for c in slice_candidates(20))))
             not_found += 1
 
-    return found_exact, found_approx, not_found
+    return high_confidence, lower_confidence, not_found
 
 
 def main(args):
@@ -172,6 +174,9 @@ def main(args):
     if not os.path.isdir(args.webanno_dir):
         logger.error(f"Not a directory: {args.webanno_dir}")
         exit(1)
+
+    if args.debug:
+        logging.basicConfig(level=logging.DEBUG, format='%(message)s')
 
     # Keep counts of types of matches
     per_document_counts: List[(str, int, int, int)] = []
@@ -217,8 +222,8 @@ def main(args):
         sum(a[3] for a in per_document_counts),
     )
     per_document_counts.append(totals)
-    for (name, exact, approx, not_found) in per_document_counts:
-        print('% 6d\t% 6d\t% 6d\t%s' % (exact, approx, not_found, name))
+    for (name, high_confidence, lower_confidence, not_found) in per_document_counts:
+        print('% 6d\t% 6d\t% 6d\t%s' % (high_confidence, lower_confidence, not_found, name))
 
 
 if __name__ == '__main__':
@@ -231,4 +236,5 @@ if __name__ == '__main__':
                         help='The directory with the unzipped webanno exports from cumulus')
     parser.add_argument('-o', '--output-dir', type=Path,
                         help='If present, write files with the matched output to this directory.')
+    parser.add_argument('-d', '--debug', action='store_true', help='Print some debug messages if present.')
     main(parser.parse_args())

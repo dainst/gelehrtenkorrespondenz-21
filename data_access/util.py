@@ -22,25 +22,6 @@ def find_subsequence(containing: Sequence, contained: Sequence) -> int:
     return -1
 
 
-def items_around(items: Sequence[T], start: int, window_size=5) -> Iterator[T]:
-    """
-    Generate items at start index and nearest to it:
-    One before, one after, two before, ...
-    Stop at window_size items in each direction. The default window_size
-    of 5 would e.g. yield a maximum of 11 items.
-    Does not yield any items if start is not an index of items.
-    """
-    if start < 0 or start >= len(items):
-        return []
-    indices = [start] if window_size > 0 else []
-    for i in range(1, window_size + 1):
-        indices.append(start - i)
-        indices.append(start + i)
-    for idx in indices:
-        if 0 <= idx < len(items):
-            yield items[idx]
-
-
 def subsequences_of_length(sequence: Sequence[T], *lengths: int) -> Sequence[Sequence[T]]:
     """
     Examples:

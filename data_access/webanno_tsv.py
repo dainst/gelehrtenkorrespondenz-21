@@ -84,7 +84,7 @@ class Annotation:
 
     @property
     def sentences(self) -> List['Sentence']:
-        return list(set(t.sentence for t in self._tokens))
+        return sorted(list(set(t.sentence for t in self._tokens)), key=lambda s: s.idx)
 
     @property
     def text(self):
@@ -148,6 +148,10 @@ class Document:
     @property
     def text(self) -> str:
         return "\n".join([s.text for s in self.sentences])
+
+    @property
+    def tokens(self) -> List[Token]:
+        return [t for s in self.sentences for t in s.tokens]
 
     def sentence_with_idx(self, idx) -> Optional[Sentence]:
         try:

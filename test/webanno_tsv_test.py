@@ -8,6 +8,16 @@ def test_file(name):
     return os.path.join(os.path.dirname(__file__), 'resources', name)
 
 
+class WebannoTsvModelTest(unittest.TestCase):
+
+    def test_doc_tokens(self):
+        strings = ['A', 'sentence', 'to', 'add', '.']
+        doc = Document()
+        doc.add_tokens_as_sentence(strings)
+        self.assertEqual(5, len(doc.tokens))
+        self.assertEqual(strings, [t.text for t in doc.tokens])
+
+
 class WebannoTsvReadRegularFilesTest(unittest.TestCase):
     TEXT_SENT_1 = "929 Prof. Gerhard Braun an Gerhard Rom , 23 . Juli 1835 Roma li 23 Luglio 1835 ."
     TEXT_SENT_2 = "Von den anderen schönen Gefäßen dieser Entdeckungen führen " \
