@@ -283,9 +283,7 @@ def webanno_tsv_read(path) -> Document:
         token = _read_token(doc, row)
         # Each column after the first three is one or more span annotatins
         for span_type in ['pos', 'lemma', 'entity_id', 'named_entity']:
-            # There might be multiple annotations in each column field
             if row[span_type] is None:
-                logger.warning(f"Empty field '{span_type}' in {path}")
                 continue
             values = row[span_type].split('|')
             for value in values:

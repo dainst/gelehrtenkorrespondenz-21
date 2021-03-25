@@ -158,8 +158,7 @@ def copy_annotations(doc_with_annotations: Document, other: Document) -> (int, i
                     found_approx += 1
 
         if tokens:
-            # copy_annotation(annotation, tokens)
-            pass
+            copy_annotation(annotation, tokens)
         else:
             not_found += 1
 
@@ -175,7 +174,7 @@ def main(args):
         exit(1)
 
     # Keep counts of types of matches
-    per_document_counts = []
+    per_document_counts: List[(str, int, int, int)] = []
     # Iterate the files we know
     for ocr_filename, webanno_glob in FILE_NAMES:
 
@@ -203,6 +202,12 @@ def main(args):
                 ocr_doc = webanno_create_document(ocr)
                 result = copy_annotations(webanno_doc, ocr_doc)
                 counts = (i + j for i, j in zip(counts, result))
+
+                if args.output_dir:
+                    # use the webanno export dirname as our filename
+                    filename = os.path.basename(os.path.dirname(webanno_doc.original_path))
+                    with open(os.path.join(args.output_dir, filename), mode='w', encoding='utf-8') as f:
+                        f.write(ocr_doc.tsv())
         per_document_counts.append((webanno_glob, *counts))
 
     totals = (
@@ -224,4 +229,6 @@ if __name__ == '__main__':
     parser.add_argument('ocr_dir', type=Path, help='The directory to search ocr .txt files in.')
     parser.add_argument('webanno_dir', type=Path,
                         help='The directory with the unzipped webanno exports from cumulus')
+    parser.add_argument('-o', '--output-dir', type=Path,
+                        help='If present, write files with the matched output to this directory.')
     main(parser.parse_args())
