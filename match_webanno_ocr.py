@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
 import argparse
-import csv
 import difflib
 import logging
 import os
-import re
 from pathlib import Path
-from typing import Iterator, List, TypeVar, Sequence
+from typing import Iterator, List, TypeVar, Sequence, Union
 
 from nltk.data import load as nltk_load
 from nltk.tokenize import word_tokenize
@@ -20,9 +18,6 @@ T = TypeVar('T')
 logger = logging.getLogger(__file__)
 
 OCR_PAGE_SEP = "\f"
-
-WEBANNO_COMMENT_RE = re.compile('^#')
-WEBANNO_FIELDS = ['sent_tok_idx', 'offset', 'token', 'pos', 'lemma', 'entity_id', 'named_entity']
 
 RESOURCE_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data_access', 'resources')
 SENTENCE_TOKENIZER_PICKLE = os.path.join(RESOURCE_DIR, 'dai_german_punkt.pickle')
@@ -59,12 +54,6 @@ def webanno_page_paths(export_dir: Path, page_glob: str, annotator: str) -> List
 
 def ocr_page_split(ocr_text: str) -> [str]:
     return ocr_text.split(OCR_PAGE_SEP)
-
-
-def webanno_parse_file(path: str) -> [dict]:
-    with open(path) as f:
-        uncommented = [line for line in f.readlines() if not re.match(WEBANNO_COMMENT_RE, line)]
-    return csv.DictReader(uncommented, dialect='excel-tab', fieldnames=WEBANNO_FIELDS)
 
 
 def webanno_file_for_idx(paths: List[Path], index: int):
@@ -107,7 +96,7 @@ def inexact_match(annotation: Annotation, sentence: Sentence, cutoff=0.75) -> Se
     candidates = [''.join(token.text for token in s) for s in token_sequences]
     words = ''.join(annotation.token_texts)
     matches = difflib.get_close_matches(words, candidates, 1, cutoff)
-    if len(matches) > 0:
+    if matches:
         return token_sequences[candidates.index(matches[0])]
     return []
 
@@ -123,51 +112,56 @@ def sort_webanno_docs_for_id_882135(webanno_docs):
     return new_webanno
 
 
-def copy_annotations(doc_with_annotations: Document, other: Document):
+def copy_annotation(source: Annotation, targets: List[Token]):
+    for target in targets:
+        annotation = Annotation(token=target, span_type=source.span_type, label=source.label, label_id=source.label_id)
+        target.doc.add_annotation(annotation)
+
+
+def copy_annotations(doc_with_annotations: Document, other: Document) -> (int, int, int):
     found_exact = 0
     found_approx = 0
     not_found = 0
 
-    for sent_i, sentence in enumerate(doc_with_annotations.sentences):
+    for annotation in doc_with_annotations.annotations_with_type('named_entity'):
+        sent_idx = annotation.sentences[0].idx
+        tokens = []
 
-        for annotation in sentence.annotations_with_type('named_entity'):
-            fit = False
-            tokens = []
+        # Try an exact fit looking at this sentence and the surrounding ones
+        if not tokens:
+            for other_sentence in sentences_near(other.sentences, sent_idx - 1, window=2):
+                tokens = exact_match(annotation, other_sentence)
+                if tokens:
+                    found_exact += 1
+                    break
 
-            # Try an exact fit looking at this sentence and the surrounding ones
-            if not fit:
-                for other_sentence in sentences_near(other.sentences, sent_i, window=2):
-                    tokens = exact_match(annotation, other_sentence)
-                    if len(tokens) > 0:
-                        found_exact += 1
-                        fit = True
-                        break
+        # Try an inexact fit by matching to the nearest best sequence
+        if not tokens:
+            for other_sentence in sentences_near(other.sentences, sent_idx - 1, window=5):
+                tokens = inexact_match(annotation, other_sentence, 0.75)
+                if tokens:
+                    found_approx += 1
+                    break
 
-            # Try an inexact fit by matching to the nearest best sequence
-            if not fit:
-                for other_sentence in sentences_near(other.sentences, sent_i, window=5):
-                    tokens = inexact_match(annotation, other_sentence, 0.75)
-                    if len(tokens) > 0:
-                        found_approx += 1
-                        fit = True
-                        break
+        # if there is no fit and the annotation is very short and the sentence not very short,
+        # then try matching the complete sentence first, then repeat the inexact match with a lower cutoff.
+        if not tokens \
+                and len(annotation.sentences) == 1 \
+                and (sum(len(w) for w in annotation.token_texts) <= 15) \
+                and len(annotation.sentences[0].tokens) > (2 * len(annotation.tokens)):
+            others = [s.text for s in other.sentences]
+            matches = difflib.get_close_matches(annotation.sentences[0].text, others, 1, 0.4)
+            if len(matches) > 0:
+                matched = [s for s in other.sentences if s.text == matches[0]][0]
+                tokens = inexact_match(annotation, matched, 0.6)
+                if tokens:
+                    found_approx += 1
 
-            # if there is no fit and the annotation is very short and the sentence not very short,
-            # then try matching the complete sentence first, then repeat the inexact match with a lower cutoff.
-            if not fit \
-                    and (sum(len(w) for w in annotation.token_texts) <= 15) \
-                    and len(sentence.tokens) > (2 * len(annotation.tokens)):
-                others = [s.text for s in other.sentences]
-                matches = difflib.get_close_matches(annotation.sentence.text, others, 1, 0.4)
-                if len(matches) > 0:
-                    matched = [s for s in other.sentences if s.text == matches[0]][0]
-                    tokens = inexact_match(annotation, matched, 0.6)
-                    if len(tokens) > 0:
-                        found_approx += 1
-                        fit = True
-
-            if not fit:
-                not_found += 1
+        if tokens:
+            # copy_annotation(annotation, tokens)
+            pass
+        else:
+            not_found += 1
 
     return found_exact, found_approx, not_found
 
@@ -189,18 +183,16 @@ def main(args):
             ocr_texts = ocr_page_split(f.read())
 
         page_paths = webanno_page_paths(args.webanno_dir, webanno_glob, args.annotator)
-        webanno_docs = [webanno_tsv_read(f) for f in page_paths]
+        webanno_docs: List[Union[Document, None]] = [webanno_tsv_read(f) for f in page_paths]
 
         if ocr_filename == '000882135.txt':
             webanno_docs = sort_webanno_docs_for_id_882135(webanno_docs)
 
         # Some ocr pages do not have counterparts in the webanno docs
-        to_delete = []
+        # (happens for example if the pages were never annotated)
         for idx in range(len(ocr_texts)):
             if webanno_file_for_idx(page_paths, idx + 1) is None:
-                to_delete.append(idx)
-        for idx in sorted(to_delete, reverse=True):
-            del ocr_texts[idx]
+                webanno_docs.insert(idx, None)
         assert (len(ocr_texts) == len(webanno_docs))
 
         # Do the actual matching here
@@ -211,11 +203,10 @@ def main(args):
                 ocr_doc = webanno_create_document(ocr)
                 result = copy_annotations(webanno_doc, ocr_doc)
                 counts = (i + j for i, j in zip(counts, result))
-
         per_document_counts.append((webanno_glob, *counts))
 
     totals = (
-        'SUMS',
+        f'SUMS ({sum(a + b + c for _, a, b, c in per_document_counts)})',
         sum(a[1] for a in per_document_counts),
         sum(a[2] for a in per_document_counts),
         sum(a[3] for a in per_document_counts),

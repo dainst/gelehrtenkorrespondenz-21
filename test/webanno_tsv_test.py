@@ -95,6 +95,22 @@ class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
         self.assertEqual('quotes', tokens[4].text)
 
 
+class WebannoTsvReadFileWithMultiSentenceSpanAnnotation(unittest.TestCase):
+
+    def test_read_multi_sentence_annotation(self):
+        self.doc = webanno_tsv_read(test_file('test_input_multi_sentence_span.tsv'))
+        fst, snd = self.doc.sentences
+
+        annotations = self.doc.annotations_with_type('named_entity')
+        self.assertEqual(1, len(annotations))
+
+        annotation = annotations[0]
+        self.assertEqual(66, annotation.label_id)
+        self.assertEqual(2, len(annotation.tokens))
+        self.assertEqual(['annotation-begin', 'annotation-end'], annotation.token_texts)
+        self.assertEqual([fst, snd], annotation.sentences)
+
+
 class WebannoAddTokensAsSentenceTest(unittest.TestCase):
 
     def setUp(self) -> None:
@@ -138,16 +154,13 @@ class WebannoTsvWriteTest(unittest.TestCase):
         s1 = doc.add_tokens_as_sentence(['First', 'sentence', '😊', '.'])
         s2 = doc.add_tokens_as_sentence(['Second', 'sentence', 'escape[t]his;content', '.'])
 
-        s1_annotations = [
+        annotations = [
             Annotation(s1.tokens[0], 'pos', 'pos-val'),
             Annotation(s1.tokens[0], 'lemma', 'first'),
             Annotation(s1.tokens[1], 'lemma', 'sentence'),
             Annotation(s1.tokens[2], 'named_entity', 'smiley-end', 37),
             Annotation(s1.tokens[3], 'named_entity', 'smiley-end', 37),
-            Annotation(s1.tokens[3], 'named_entity', 'DOT')
-        ]
-
-        s2_annotations = [
+            Annotation(s1.tokens[3], 'named_entity', 'DOT'),
             Annotation(s2.tokens[3], 'pos', 'dot'),
             Annotation(s2.tokens[1], 'lemma', 'sentence'),
             Annotation(s2.tokens[3], 'lemma', '.'),
@@ -155,12 +168,8 @@ class WebannoTsvWriteTest(unittest.TestCase):
             Annotation(s2.tokens[2], 'named_entity', 'escape|this\\content'),
         ]
 
-        for annotation in s1_annotations:
-            s1.add_annotation(annotation)
-
-        for annotation in s2_annotations:
-            s2.add_annotation(annotation)
-
+        for annotation in annotations:
+            doc.add_annotation(annotation)
         result = doc.tsv()
 
         expected = [

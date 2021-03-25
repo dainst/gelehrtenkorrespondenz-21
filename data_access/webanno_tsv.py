@@ -44,6 +44,27 @@ class Token:
     end: int
     text: str
 
+    def __lt__(self, other) -> bool:
+        # allow tokens to be sorted if in the same document
+        assert self.doc == other.doc
+        return self.sentence.idx <= other.sentence.idx and self.idx < other.idx
+
+    @property
+    def doc(self) -> 'Document':
+        return self.sentence.doc
+
+    def is_at_begin_of_sentence(self) -> bool:
+        return self.idx == 1
+
+    def is_at_end_of_sentence(self) -> bool:
+        return self.idx == max(t.idx for t in self.sentence.tokens)
+
+    def is_followed_by(self, other: 'Token') -> bool:
+        return ((self.sentence == other.sentence and self.idx == other.idx - 1)
+                or (self.sentence.is_followed_by(other.sentence)
+                    and other.is_at_begin_of_sentence()
+                    and self.is_at_end_of_sentence()))
+
 
 class Annotation:
 
@@ -62,8 +83,8 @@ class Annotation:
         return self._tokens[-1].end
 
     @property
-    def sentence(self):
-        return self._tokens[0].sentence
+    def sentences(self) -> List['Sentence']:
+        return list(set(t.sentence for t in self._tokens))
 
     @property
     def text(self):
@@ -71,8 +92,11 @@ class Annotation:
 
     @property
     def tokens(self):
-        # return a read-only copy
-        return list(self._tokens)
+        return list(self._tokens)  # return a read-only copy
+
+    @property
+    def doc(self):
+        return self._tokens[0].doc
 
     @property
     def token_texts(self):
@@ -82,54 +106,44 @@ class Annotation:
         assert (self.span_type == other.span_type)
         assert (self.label == other.label)
         assert (self.label_id == other.label_id)
-        assert (self.sentence == other.sentence)
-        assert ((self.end + 1) == other.start or (other.end + 1) == self.start)
-        self._tokens = sorted(self._tokens + other.tokens, key=lambda t: t.start)
+        assert (self.tokens[-1].is_followed_by(other.tokens[0]))
+        self._tokens = sorted(self._tokens + other.tokens)
 
 
 class Sentence:
-    idx: int
-    text: str
-    tokens: List[Token]
 
-    def __init__(self, idx: int, text: str):
+    def __init__(self, doc: 'Document', idx: int, text: str):
+        self.doc = doc
         self.idx = idx
         self.text = text
-        self.tokens = []
-        self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
+        self.tokens: List[Token] = []
 
     @property
     def token_texts(self) -> List[str]:
         return [token.text for token in self.tokens]
 
-    def add_annotation(self, annotation: Annotation):
-        merged = False
-        # check if we should merge with an existing annotation
-        if annotation.label_id != NO_LABEL_ID:
-            same_type = self.annotations_with_type(annotation.span_type)
-            same_id = [a for a in same_type if a.label_id == annotation.label_id]
-            assert (len(same_id)) <= 1
-            if len(same_id) > 0:
-                same_id[0].merge_other(annotation)
-                merged = True
-        if not merged:
-            assert (annotation.sentence == self)
-            self._annotations[annotation.span_type].append(annotation)
-
     def add_token(self, token):
         self.tokens.append(token)
 
     def annotations_with_type(self, type_name: str) -> List[Annotation]:
-        return self._annotations[type_name]
+        return [a for a in self.doc.annotations_with_type(type_name) if self in a.sentences]
+
+    def is_following(self, other: 'Sentence') -> bool:
+        return self.doc == other.doc and self.idx == (other.idx + 1)
+
+    def is_followed_by(self, other: 'Sentence') -> bool:
+        return other.is_following(self)
 
 
 class Document:
-    sentences: List[Sentence]
 
-    def __init__(self, sentences=None):
-        if sentences is None:
-            sentences = []
-        self.sentences = sentences
+    def __init__(self, original_path=''):
+        self.original_path = original_path
+        self.sentences: List[Sentence] = list()
+        self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
+
+    def _next_idx(self) -> int:
+        return len(self.sentences) + 1
 
     @property
     def text(self) -> str:
@@ -151,7 +165,7 @@ class Document:
         :return: A Sentence instance.
         """
         text = " ".join(tokens)
-        sentence = Sentence(len(self.sentences) + 1, text)
+        sentence = Sentence(doc=self, idx=self._next_idx(), text=text)
 
         char_idx = 0
         for token_idx, token_text in enumerate(tokens, start=1):
@@ -160,11 +174,32 @@ class Document:
             token = Token(sentence=sentence, idx=token_idx, start=char_idx, end=end, text=token_text)
             sentence.add_token(token)
             char_idx = end + 1
-        self.sentences.append(sentence)
+        self.add_sentence(sentence)
         return sentence
 
     def tsv(self) -> str:
         return webanno_tsv_write(self)
+
+    def add_sentence(self, sentence: Sentence):
+        sentence.doc = self
+        self.sentences.append(sentence)
+
+    def add_annotation(self, annotation: Annotation):
+        merged = False
+        # check if we should merge with an existing annotation
+        if annotation.label_id != NO_LABEL_ID:
+            same_type = self.annotations_with_type(annotation.span_type)
+            same_id = [a for a in same_type if a.label_id == annotation.label_id]
+            assert (len(same_id)) <= 1
+            if len(same_id) > 0:
+                same_id[0].merge_other(annotation)
+                merged = True
+        if not merged:
+            assert (annotation.doc == self)
+            self._annotations[annotation.span_type].append(annotation)
+
+    def annotations_with_type(self, type_name: str) -> List[Annotation]:
+        return self._annotations[type_name]
 
 
 def _unescape(text: str) -> str:
@@ -235,16 +270,17 @@ def webanno_tsv_read(path) -> Document:
 
     matches = [SENTENCE_RE.match(c) for c in comments]
     texts = [m.group(1) for m in matches if m is not None]
-    sentences = [Sentence(i + 1, text) for i, text in enumerate(texts)]
 
-    doc = Document(sentences=sentences)
+    doc = Document(original_path=path)
+    for i, text in enumerate(texts):
+        sentence = Sentence(doc, idx=i + 1, text=text)
+        doc.add_sentence(sentence)
 
     rows = csv.DictReader(data, dialect=WebannoTsvDialect, fieldnames=TSV_FIELDNAMES)
     for row in rows:
 
         # The first three columns in each line make up a Token
         token = _read_token(doc, row)
-        sentence = token.sentence
         # Each column after the first three is one or more span annotatins
         for span_type in ['pos', 'lemma', 'entity_id', 'named_entity']:
             # There might be multiple annotations in each column field
@@ -261,13 +297,13 @@ def webanno_tsv_read(path) -> Document:
                         span_type=span_type,
                         label_id=label_id,
                     )
-                    sentence.add_annotation(a)
+                    doc.add_annotation(a)
     return doc
 
 
-def _annotations_for_token(token: Token, sentence: Sentence, type_name: str) -> List[Annotation]:
-    annotations = sentence.annotations_with_type(type_name)
-    return [a for a in annotations if token in a.tokens]
+def _annotations_for_token(token: Token, type_name: str) -> List[Annotation]:
+    doc = token.doc
+    return [a for a in doc.annotations_with_type(type_name) if token in a.tokens]
 
 
 def _write_annotation_label(annotation: Annotation) -> str:
@@ -278,10 +314,10 @@ def _write_annotation_label(annotation: Annotation) -> str:
         return f'{label}[{annotation.label_id}]'
 
 
-def _write_annotation_layer_fields(token: Token, sentence: Sentence, type_names: List[str]) -> List[str]:
+def _write_annotation_layer_fields(token: Token, type_names: List[str]) -> List[str]:
     all_annotations = []
     for type_name in type_names:
-        all_annotations += _annotations_for_token(token, sentence, type_name)
+        all_annotations += _annotations_for_token(token, type_name)
 
     # If there are no annotations for this layer '-' is returned for each column
     if not all_annotations:
@@ -329,9 +365,9 @@ def webanno_tsv_write(doc: Document, linebreak='\n') -> str:
                 f'{token.start}-{token.end}',
                 _escape(token.text),
             ]
-            line += _write_annotation_layer_fields(token, sentence, ['pos'])
-            line += _write_annotation_layer_fields(token, sentence, ['lemma'])
-            line += _write_annotation_layer_fields(token, sentence, ['entity_id', 'named_entity'])
+            line += _write_annotation_layer_fields(token, ['pos'])
+            line += _write_annotation_layer_fields(token, ['lemma'])
+            line += _write_annotation_layer_fields(token, ['entity_id', 'named_entity'])
 
             lines.append('\t'.join(line))
 
