@@ -79,22 +79,31 @@ def webanno_create_document(text: str) -> Document:
     return doc
 
 
-def exact_match(annotation: Annotation, tokens: List[Token]) -> Sequence[Token]:
-    texts = [t.text for t in tokens]
-    idx = util.find_subsequence(texts, annotation.token_texts)
+def exact_match(needle: List[Token], haystack: List[Token]) -> Sequence[Token]:
+    idx = util.find_subsequence([t.text for t in haystack], [t.text for t in needle])
     if idx >= 0:
-        return tokens[idx:idx + len(annotation.token_texts)]
+        return haystack[idx:idx + len(needle)]
     return []
 
 
-def inexact_match(annotation: Annotation, tokens: List[Token], cutoff=0.75) -> Sequence[Token]:
-    lengths = [len(annotation.tokens) + i for i in [-2, -1, 0, 1, 2, 3]]
-    token_sequences = util.subsequences_of_length(tokens, *lengths)
+def inexact_match(needle: List[Token], haystack: List[Token], cutoff=0.75) -> Sequence[Token]:
+    lengths = [len(needle) + i for i in [-2, -1, 0, 1, 2, 3]]
+    token_sequences = util.subsequences_of_length(haystack, *lengths)
     candidates = [''.join(token.text for token in s) for s in token_sequences]
-    words = ''.join(annotation.token_texts)
-    matches = difflib.get_close_matches(words, candidates, 1, cutoff)
+    matches = difflib.get_close_matches(''.join(t.text for t in needle), candidates, 1, cutoff)
     if matches:
         return token_sequences[candidates.index(matches[0])]
+    return []
+
+
+def match_between(before: List[Token], after: List[Token], candidates: List[Token]):
+    match_before = inexact_match(before, candidates)
+    if match_before:
+        idx_last = candidates.index(match_before[-1])
+        candidates_after = candidates[(idx_last + 1):]
+        match_after = inexact_match(after, candidates_after)
+        if match_after:
+            return candidates_after[0:candidates_after.index(match_after[0])]
     return []
 
 
@@ -178,13 +187,14 @@ def copy_annotations(doc_with_annotations: Document, other: Document, print_no_m
 
     for annotation in doc_with_annotations.annotations_with_type('named_entity'):
 
-        t_start = tokens_with.index(annotation.tokens[0])
-        t_start += int(diff / 2)  # correct for the difference in token length
-        t_end = t_start + len(annotation.tokens)
+        anno_start = tokens_with.index(annotation.tokens[0])
+        anno_stop = anno_start + len(annotation.tokens)
+        lookup_start = anno_start + int(diff / 2)  # correct for the difference in token length
+        lookup_stop = lookup_start + len(annotation.tokens)
 
         def slice_candidates(half_window: int):
-            s = max(0, t_start - half_window)
-            e = min(len(tokens_without), t_end + half_window)
+            s = max(0, lookup_start - half_window)
+            e = min(len(tokens_without), lookup_stop + half_window)
             return tokens_without[s:e]
 
         tokens = []
@@ -192,25 +202,37 @@ def copy_annotations(doc_with_annotations: Document, other: Document, print_no_m
         # these are matches with a high probability of being correct (high cutoff and near the intended area)
         window_sizes = [(0, 3), (8, 20)]
         for exact_size, inexact_size in window_sizes:
-            tokens = exact_match(annotation, slice_candidates(exact_size))
+            tokens = exact_match(annotation.tokens, slice_candidates(exact_size))
             if tokens:
                 high_confidence += 1
                 break
             else:
-                tokens = inexact_match(annotation, slice_candidates(inexact_size), 0.8)
+                tokens = inexact_match(annotation.tokens, slice_candidates(inexact_size), 0.8)
                 if tokens:
-                    high_confidence += 1
+                    lower_confidence += 1
                     break
 
         # these are matches with a lower degree of probability (lower cutoff, somewhat more far from intended area)
         sizes_cutoffs = [(3, 0.72), (3, 0.65), (8, 0.72), (8, 0.65), (20, 0.72), (20, 0.65), (40, 0.75)]
         if not tokens:
             for size, cutoff in sizes_cutoffs:
-                tokens = inexact_match(annotation, slice_candidates(size), cutoff)
+                tokens = inexact_match(annotation.tokens, slice_candidates(size), cutoff)
                 if tokens:
                     logger.debug('LOW: %s -> %s' % (annotation.text, ' '.join(t.text for t in tokens)))
                     lower_confidence += 1
                     break
+
+        # if we have still no matches, try matching text around the annotation
+        if not tokens:
+            w = 6
+            candidates = slice_candidates(40)
+            before = tokens_with[max(0, anno_start - w):anno_start]
+            after = tokens_with[anno_stop:min(len(tokens_with), anno_stop + w)]
+            between = match_between(before, after, candidates)
+            if 0 < len(between) < (2 * len(annotation.tokens)):
+                tokens = between
+                logger.debug('AROUND: %s -> %s' % (annotation.text, ' '.join(t.text for t in tokens)))
+                lower_confidence += 1
 
         if tokens:
             copy_annotation(annotation, tokens)
