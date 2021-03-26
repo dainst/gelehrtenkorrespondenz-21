@@ -209,7 +209,7 @@ def copy_annotations(doc_with_annotations: Document, other: Document, print_no_m
             else:
                 tokens = inexact_match(annotation.tokens, slice_candidates(inexact_size), 0.8)
                 if tokens:
-                    lower_confidence += 1
+                    high_confidence += 1
                     break
 
         # these are matches with a lower degree of probability (lower cutoff, somewhat more far from intended area)
