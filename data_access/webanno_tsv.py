@@ -165,8 +165,10 @@ class Document:
         self.layer_names = layer_names
         self.sentences: List[Sentence] = list()
         self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
+        self._next_token_idx = 0
 
-    def _next_idx(self) -> int:
+    @property
+    def _next_sentence_idx(self) -> int:
         return len(self.sentences) + 1
 
     @staticmethod
@@ -197,15 +199,14 @@ class Document:
         :return: A Sentence instance.
         """
         text = " ".join(tokens)
-        sentence = Sentence(doc=self, idx=self._next_idx(), text=text)
+        sentence = Sentence(doc=self, idx=self._next_sentence_idx, text=text)
 
-        char_idx = 0
         for token_idx, token_text in enumerate(tokens, start=1):
             token_utf16_length = int(len(token_text.encode('utf-16-le')) / 2)
-            end = char_idx + token_utf16_length
-            token = Token(sentence=sentence, idx=token_idx, start=char_idx, end=end, text=token_text)
+            end = self._next_token_idx + token_utf16_length
+            token = Token(sentence=sentence, idx=token_idx, start=self._next_token_idx, end=end, text=token_text)
             sentence.add_token(token)
-            char_idx = end + 1
+            self._next_token_idx = end + 1
         self.add_sentence(sentence)
         return sentence
 
@@ -256,7 +257,7 @@ def _read_span_layer_names(lines: List[str]):
 def _read_token(doc: Document, row: Dict) -> Token:
     """
     Construct a Token from the row object using the sentence from doc.
-    This converts the first three columns ofo the TSV, e.g.:
+    This converts the first three columns of the TSV, e.g.:
         "2-3    13-20    example"
     becomes:
         Token(Sentence(idx=2), idx=3, start=13, end=20, text='example')

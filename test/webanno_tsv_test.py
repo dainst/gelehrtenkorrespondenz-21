@@ -251,10 +251,10 @@ class WebannoTsvWriteTest(unittest.TestCase):
             '1-4\t18-19\t.\t_\t_\t*[37]\tDOT|smiley-end[37]',
             '',
             '#Text=Second sentence escape\\[t\\]his\\;token .',
-            '2-1\t0-6\tSecond\t_\t_\t*\tXYZ',
-            '2-2\t7-15\tsentence\t_\tsentence\t_\t_',
-            '2-3\t16-34\tescape\\[t\\]his\\;token\t_\t_\t*\tescape\\|this\\\\field',
-            '2-4\t35-36\t.\tdot\t.\t_\t_'
+            '2-1\t20-26\tSecond\t_\t_\t*\tXYZ',
+            '2-2\t27-35\tsentence\t_\tsentence\t_\t_',
+            '2-3\t36-54\tescape\\[t\\]his\\;token\t_\t_\t*\tescape\\|this\\\\field',
+            '2-4\t55-56\t.\tdot\t.\t_\t_'
         ]
         self.assertEqual(expected, result.split('\n'))
 
