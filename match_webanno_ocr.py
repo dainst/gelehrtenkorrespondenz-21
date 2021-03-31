@@ -27,9 +27,6 @@ TARGET_LAYER = 'webanno.custom.LetterEntity'
 TARGET_FIELD = 'value'
 OUTPUT_LAYERS = [(TARGET_LAYER, [TARGET_FIELD])]
 
-# teach the sentence tokenizer to not break on month days
-sentence_tokenizer._params.abbrev_types.update(map(str, range(1, 32)))
-
 FILE_NAMES = [
     ('001313708.txt', '11_BOOK-ZID1313708_2021-02-03_1354/annotation/11_BOOK-ZID1313708_page*'),
     ('000882135.txt', '16_BOOK-ZID882135_2021-02-03_1442/annotation/16_BOOK-ZID882135_page*'),
