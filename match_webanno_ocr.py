@@ -4,6 +4,7 @@ import argparse
 import difflib
 import logging
 import os
+import re
 from pathlib import Path
 from typing import List, TypeVar, Sequence
 
@@ -67,7 +68,9 @@ def webanno_file_for_idx(paths: List[Path], index: int):
 
 
 def clean_ocr(text: str) -> str:
-    return '\n'.join(util.remove_hyphenation(text.split('\n')))
+    whitespace = re.compile('^\s*$')
+    lines = [line.strip() for line in text.split('\n') if not whitespace.match(line)]
+    return '\n'.join(util.remove_hyphenation(lines))
 
 
 def webanno_create_document(text: str) -> Document:
