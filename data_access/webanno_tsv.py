@@ -3,26 +3,25 @@ import logging
 import re
 from collections import defaultdict
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Union
 
 NO_LABEL_ID = -1
 COMMENT_RE = re.compile('^#')
+SPAN_LAYER_DEF_RE = re.compile(r'^#T_SP=([^|]+)\|(.*)$')
 SENTENCE_RE = re.compile('^#Text=(.*)')
 FIELD_EMPTY_RE = re.compile('^[_*]')
 FIELD_WITH_ID_RE = re.compile(r'(.*)\[([0-9]*)]$')
+SUB_TOKEN_RE = re.compile(r'[0-9]+-[0-9]+\.[0-9]+')
 
-HEADERS = [
-    '#FORMAT=WebAnno TSV 3.1',
-    '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue',
-    '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value',
-    '#T_SP=webanno.custom.LetterEntity|entity_id|value',
-    ''
-]
+HEADERS = ['#FORMAT=WebAnno TSV 3.1']
 
-TSV_FIELDNAMES = ['sent_tok_idx', 'offsets', 'token', 'pos', 'lemma', 'entity_id', 'named_entity']
+TOKEN_FIELDNAMES = ['sent_tok_idx', 'offsets', 'token']
 
 # Strings that need to be escaped with a single backslash according to Webanno Appendix B
 RESERVED_STRS = ['\\', '[', ']', '|', '_', '->', ';', '\t', '\n', '*']
+
+# Mulitiline sentences are split on this character per Webanno Appendix B
+MULTILINE_SPLIT_CHAR = '\f'
 
 logger = logging.getLogger(__file__)
 
@@ -68,9 +67,10 @@ class Token:
 
 class Annotation:
 
-    def __init__(self, token: Token, span_type: str, label: str, label_id: int = NO_LABEL_ID):
+    def __init__(self, token: Token, layer_name: str, field_name: str, label: str, label_id: int = NO_LABEL_ID):
         self._tokens = [token]
-        self.span_type = span_type
+        self.layer_name = layer_name
+        self.field_name = field_name
         self.label = label
         self.label_id = label_id
 
@@ -103,7 +103,8 @@ class Annotation:
         return [token.text for token in self._tokens]
 
     def merge_other(self, other: 'Annotation'):
-        assert (self.span_type == other.span_type)
+        assert (self.layer_name == other.layer_name)
+        assert (self.field_name == other.field_name)
         assert (self.label == other.label)
         assert (self.label_id == other.label_id)
         assert (self.tokens[-1].is_followed_by(other.tokens[0]))
@@ -125,8 +126,8 @@ class Sentence:
     def add_token(self, token):
         self.tokens.append(token)
 
-    def annotations_with_type(self, type_name: str) -> List[Annotation]:
-        return [a for a in self.doc.annotations_with_type(type_name) if self in a.sentences]
+    def annotations_with_type(self, layer_name: str, field_name: str) -> List[Annotation]:
+        return [a for a in self.doc.annotations_with_type(layer_name, field_name) if self in a.sentences]
 
     def is_following(self, other: 'Sentence') -> bool:
         return self.doc == other.doc and self.idx == (other.idx + 1)
@@ -137,13 +138,40 @@ class Sentence:
 
 class Document:
 
-    def __init__(self, original_path=''):
-        self.original_path = original_path
+    def __init__(self, layer_names: List[Tuple[str, List[str]]] = None):
+        """
+        Create a new document using the given keys as annotation layer names.
+
+        Example:
+        Given a tsv file with lines like these:
+
+            1-9	36-43	unhappy	JJ	abstract	negative
+
+        You could invoke Document() with
+
+            [ ('l1', ['POS']),
+              ('l2', ['category', 'opinion']) ]
+
+        allowing you to retrieve e.g. an annotation for 'negative' within:
+
+            doc.annotations_with_type('l2', 'opinion')
+
+        Layer names are also used to output '#T_SP=' fields for
+
+        :param layer_names: The (span) layers to use. See exmaple above.
+        """
+        if not layer_names:
+            layer_names = [('l1', ['annotation'])]
+        self.layer_names = layer_names
         self.sentences: List[Sentence] = list()
         self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
 
     def _next_idx(self) -> int:
         return len(self.sentences) + 1
+
+    @staticmethod
+    def _anno_type(layer_name, field_name):
+        return '|'.join([layer_name, field_name])
 
     @property
     def text(self) -> str:
@@ -190,9 +218,10 @@ class Document:
 
     def add_annotation(self, annotation: Annotation):
         merged = False
+        type_name = self._anno_type(annotation.layer_name, annotation.field_name)
         # check if we should merge with an existing annotation
         if annotation.label_id != NO_LABEL_ID:
-            same_type = self.annotations_with_type(annotation.span_type)
+            same_type = self.annotations_with_type(annotation.layer_name, annotation.field_name)
             same_id = [a for a in same_type if a.label_id == annotation.label_id]
             assert (len(same_id)) <= 1
             if len(same_id) > 0:
@@ -200,9 +229,10 @@ class Document:
                 merged = True
         if not merged:
             assert (annotation.doc == self)
-            self._annotations[annotation.span_type].append(annotation)
+            self._annotations[type_name].append(annotation)
 
-    def annotations_with_type(self, type_name: str) -> List[Annotation]:
+    def annotations_with_type(self, layer_name: str, field_name: str) -> List[Annotation]:
+        type_name = self._anno_type(layer_name, field_name)
         return self._annotations[type_name]
 
 
@@ -216,6 +246,11 @@ def _escape(text: str) -> str:
     for s in RESERVED_STRS:
         text = text.replace(s, '\\' + s)
     return text
+
+
+def _read_span_layer_names(lines: List[str]):
+    matches = [SPAN_LAYER_DEF_RE.match(line) for line in lines]
+    return [(m.group(1), m.group(2).split('|')) for m in matches if m]
 
 
 def _read_token(doc: Document, row: Dict) -> Token:
@@ -263,49 +298,86 @@ def _read_label_and_id(field: str) -> Tuple[str, int]:
     return _unescape(label), label_id
 
 
-def webanno_tsv_read(path) -> Document:
-    # TSV files are encoded as utf-8 always as per
-    # https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/WebAnno%20%28GitHub%29%20%28master%29/de.tudarmstadt.ukp.clarin.webanno$webanno-webapp/doclinks/1/#_encoding_and_offsets
+def _filter_sentences(lines: List[str]) -> List[str]:
+    """
+    Filter lines beginning with 'Text=', if multiple such lines are
+    following each other, concatenate them.
+    """
+    result = []
+    matches = [SENTENCE_RE.match(line) for line in lines]
+    for i, match in enumerate(matches):
+        if match:
+            if i > 0 and matches[i - 1]:
+                result[-1] += MULTILINE_SPLIT_CHAR + match.group(1)
+            else:
+                result.append(match.group(1))
+    return result
+
+
+def webanno_tsv_read(path: Union[str], overriding_layer_names: List[Tuple[str, List[str]]] = None) -> Document:
+    """
+    Read the tsv file at path and return a Document representation.
+
+    :param path: Path to read.
+    :param overriding_layer_names: If this is given, use these names
+        instead of headers defined in the file to identify layers
+        and fields
+    :return: A Document instance of the file at path.
+    """
     with open(path, mode='r', encoding='utf-8') as f:
         lines = f.readlines()
 
-    comments = [line for line in lines if COMMENT_RE.match(line)]
-    data = [line for line in lines if not COMMENT_RE.match(line)]
+    non_comments = [line for line in lines if not COMMENT_RE.match(line)]
+    token_data = [line for line in non_comments if not SUB_TOKEN_RE.match(line)]
+    sentences = _filter_sentences(lines)
 
-    matches = [SENTENCE_RE.match(c) for c in comments]
-    texts = [m.group(1) for m in matches if m is not None]
+    if overriding_layer_names:
+        doc = Document(overriding_layer_names)
+    else:
+        doc = Document(_read_span_layer_names(lines))
 
-    doc = Document(original_path=path)
-    for i, text in enumerate(texts):
+    for i, text in enumerate(sentences):
         sentence = Sentence(doc, idx=i + 1, text=text)
         doc.add_sentence(sentence)
 
-    rows = csv.DictReader(data, dialect=WebannoTsvDialect, fieldnames=TSV_FIELDNAMES)
+    span_columns = [layer + '~' + field for layer, fields in doc.layer_names for field in fields]
+    rows = csv.DictReader(token_data, dialect=WebannoTsvDialect, fieldnames=TOKEN_FIELDNAMES + span_columns)
     for row in rows:
-
         # The first three columns in each line make up a Token
         token = _read_token(doc, row)
-        # Each column after the first three is one or more span annotatins
-        for span_type in ['pos', 'lemma', 'entity_id', 'named_entity']:
-            if row[span_type] is None:
-                continue
-            values = row[span_type].split('|')
-            for value in values:
-                label, label_id = _read_label_and_id(value)
-                if label != '':
-                    a = Annotation(
-                        token=token,
-                        label=label,
-                        span_type=span_type,
-                        label_id=label_id,
-                    )
-                    doc.add_annotation(a)
+        # Each column after the first three is (part of) a span annotation layer
+        for layer, fields in doc.layer_names:
+            for field in fields:
+                col_name = layer + '~' + field
+                if row[col_name] is None:
+                    continue
+                values = row[col_name].split('|')
+                for value in values:
+                    label, label_id = _read_label_and_id(value)
+                    if label != '':
+                        a = Annotation(
+                            token=token,
+                            label=label,
+                            layer_name=layer,
+                            field_name=field,
+                            label_id=label_id,
+                        )
+                        doc.add_annotation(a)
     return doc
 
 
-def _annotations_for_token(token: Token, type_name: str) -> List[Annotation]:
+def _write_span_layer_header(layer_name: str, layer_fields: List[str]) -> str:
+    """
+    Example:
+        ('one', ['x', 'y', 'z']) => '#T_SP=one|x|y|z'
+    """
+    name = layer_name + '|' + '|'.join(layer_fields)
+    return f'#T_SP={name}'
+
+
+def _annotations_for_token(token: Token, layer: str, field: str) -> List[Annotation]:
     doc = token.doc
-    return [a for a in doc.annotations_with_type(type_name) if token in a.tokens]
+    return [a for a in doc.annotations_with_type(layer, field) if token in a.tokens]
 
 
 def _write_annotation_label(annotation: Annotation) -> str:
@@ -316,20 +388,20 @@ def _write_annotation_label(annotation: Annotation) -> str:
         return f'{label}[{annotation.label_id}]'
 
 
-def _write_annotation_layer_fields(token: Token, type_names: List[str]) -> List[str]:
+def _write_annotation_layer_fields(token: Token, layer_name: str, field_names: List[str]) -> List[str]:
     all_annotations = []
-    for type_name in type_names:
-        all_annotations += _annotations_for_token(token, type_name)
+    for field in field_names:
+        all_annotations += _annotations_for_token(token, layer_name, field)
 
     # If there are no annotations for this layer '-' is returned for each column
     if not all_annotations:
-        return ['_'] * len(type_names)
+        return ['_'] * len(field_names)
 
     all_ids = {a.label_id for a in all_annotations}
     all_ids = all_ids - {NO_LABEL_ID}
     fields = []
-    for type_name in type_names:
-        annotations = [a for a in all_annotations if a.span_type == type_name]
+    for field in field_names:
+        annotations = [a for a in all_annotations if a.field_name == field]
         labels = []
 
         # first write annotations without label_ids
@@ -356,6 +428,9 @@ def _write_annotation_layer_fields(token: Token, type_names: List[str]) -> List[
 def webanno_tsv_write(doc: Document, linebreak='\n') -> str:
     lines = []
     lines += HEADERS
+    for name, fields in doc.layer_names:
+        lines.append(_write_span_layer_header(name, fields))
+    lines.append('')
 
     for sentence in doc.sentences:
         lines.append('')
@@ -367,10 +442,8 @@ def webanno_tsv_write(doc: Document, linebreak='\n') -> str:
                 f'{token.start}-{token.end}',
                 _escape(token.text),
             ]
-            line += _write_annotation_layer_fields(token, ['pos'])
-            line += _write_annotation_layer_fields(token, ['lemma'])
-            line += _write_annotation_layer_fields(token, ['entity_id', 'named_entity'])
-
+            for layer, fields in doc.layer_names:
+                line += _write_annotation_layer_fields(token, layer, fields)
             lines.append('\t'.join(line))
 
     return linebreak.join(lines)

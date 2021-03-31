@@ -23,26 +23,29 @@ RESOURCE_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data_ac
 SENTENCE_TOKENIZER_PICKLE = os.path.join(RESOURCE_DIR, 'dai_german_punkt.pickle')
 sentence_tokenizer = nltk_load(SENTENCE_TOKENIZER_PICKLE)
 
+TARGET_LAYER = 'webanno.custom.LetterEntity'
+TARGET_FIELD = 'value'
+OUTPUT_LAYERS = [(TARGET_LAYER, [TARGET_FIELD])]
+
 # teach the sentence tokenizer to not break on month days
 sentence_tokenizer._params.abbrev_types.update(map(str, range(1, 32)))
 
 FILE_NAMES = [
-    # ('000880098.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/1.Braun_an_Gerhard1832-35_page*'),
-
     ('001313708.txt', '11_BOOK-ZID1313708_2021-02-03_1354/annotation/11_BOOK-ZID1313708_page*'),
     ('000882135.txt', '16_BOOK-ZID882135_2021-02-03_1442/annotation/16_BOOK-ZID882135_page*'),
     ('000884476.txt', '25_BOOK-ZID884476_2021-02-03_1443/annotation/25_BOOK-ZID884476_page*'),
     ('000884487.txt', '26_BOOK-ZID884487_2021-02-03_1444/annotation/26_BOOK-ZID884487_page*'),
     ('000884345.txt', '34_BOOK-ZID884345_2021-02-03_1445/annotation/34_BOOK-ZID884345_page*'),
     ('000884500.txt', '68_BOOK-ZID884500_2021-02-03_1445/annotation/68_BOOK-ZID884500_page*'),
-    ('000882126.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/2.Braun1835_page*'),
-    ('000884002.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/3.Brunn1858_page*'),
-    ('001315095.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/4_MommsenAnBrunn_page*'),
-    ('000884517.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/5_GerhardAnBraun1844-1856_page*'),
-    ('001314449.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/6_HenzenAnGerhard_page*'),
-    ('001313974.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/7_HelbigAnHenzen1863_page*'),
-    ('001315090.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/8_LepsiusAnHenzen-Helbig1872-1884_page*'),
-    ('001313719.txt', 'Gelehrtekorrespondenz_Test_2021-02-03_1432/annotation/9_GerhardAnHenzen1843-1850_page*'),
+    ('000880098.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/1.Braun_an_Gerhard1832-35_page*'),
+    ('000882126.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/2.Braun1835_page*'),
+    ('000884002.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/3.Brunn1858_page*'),
+    ('001315095.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/4_MommsenAnBrunn_page*'),
+    ('000884517.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/5_GerhardAnBraun1844-1856_page*'),
+    ('001314449.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/6_HenzenAnGerhard_page*'),
+    ('001313974.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/7_HelbigAnHenzen1863_page*'),
+    ('001315090.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/8_LepsiusAnHenzen-Helbig1872-1884_page*'),
+    ('001313719.txt', 'Gelehrtekorrespondenz_Test_2021-03-30-local/annotation/9_GerhardAnHenzen1843-1850_page*'),
 ]
 
 EMPTY_DOC = Document()
@@ -71,7 +74,7 @@ def clean_ocr(text: str) -> str:
 
 
 def webanno_create_document(text: str) -> Document:
-    doc = Document([])
+    doc = Document(OUTPUT_LAYERS)
     sentences = sentence_tokenizer.tokenize(text, realign_boundaries=True)
     for sentence in sentences:
         words = word_tokenize(sentence, 'german')
@@ -120,7 +123,8 @@ def sort_webanno_docs_for_id_882135(webanno_docs):
 
 def copy_annotation(source: Annotation, targets: List[Token]):
     for target in targets:
-        annotation = Annotation(token=target, span_type=source.span_type, label=source.label, label_id=source.label_id)
+        annotation = Annotation(token=target, layer_name=source.layer_name, field_name=source.field_name,
+                                label=source.label, label_id=source.label_id)
         target.doc.add_annotation(annotation)
 
 
@@ -185,7 +189,7 @@ def copy_annotations(doc_with_annotations: Document, other: Document, print_no_m
     tokens_without = other.tokens
     diff = len(tokens_without) - len(tokens_with)
 
-    for annotation in doc_with_annotations.annotations_with_type('named_entity'):
+    for annotation in doc_with_annotations.annotations_with_type(TARGET_LAYER, TARGET_FIELD):
 
         anno_start = tokens_with.index(annotation.tokens[0])
         anno_stop = anno_start + len(annotation.tokens)
@@ -264,7 +268,7 @@ def main(args):
             ocr_texts = ocr_page_split(f.read())
 
         page_paths = webanno_page_paths(args.webanno_dir, webanno_glob, args.annotator)
-        webanno_docs = [webanno_tsv_read(f) for f in page_paths]
+        webanno_docs = [webanno_tsv_read(str(f)) for f in page_paths]
 
         if ocr_filename == '000882135.txt':
             webanno_docs = sort_webanno_docs_for_id_882135(webanno_docs)

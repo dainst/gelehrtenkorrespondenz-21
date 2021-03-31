@@ -3,6 +3,19 @@ import unittest
 
 from data_access.webanno_tsv import webanno_tsv_read, Annotation, Document, Sentence, Token
 
+# These are used to override the actual layer names in the test files for brevity
+DEFAULT_LAYERS = [
+    ('l1', ['pos']),
+    ('l2', ['lemma']),
+    ('l3', ['entity_id', 'named_entity'])
+]
+
+ACTUAL_DEFAULT_LAYER_NAMES = [
+    ('de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS', ['PosValue']),
+    ('de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma', ['value']),
+    ('webanno.custom.LetterEntity', ['entity_id', 'value'])
+]
+
 
 def test_file(name):
     return os.path.join(os.path.dirname(__file__), 'resources', name)
@@ -24,7 +37,7 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
                   + "wir hier nur noch einen Kampf des Herkules mit dem Achelous auf ."
 
     def setUp(self) -> None:
-        self.doc = webanno_tsv_read(test_file('test_input.tsv'))
+        self.doc = webanno_tsv_read(test_file('test_input.tsv'), DEFAULT_LAYERS)
 
     def test_can_read_tsv(self):
         self.assertIsInstance(self.doc, Document)
@@ -63,10 +76,10 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
     def test_reads_correct_annotations(self):
         _, snd = self.doc.sentences
 
-        poss = snd.annotations_with_type('pos')
-        lemmas = snd.annotations_with_type('lemma')
-        entity_ids = snd.annotations_with_type('entity_id')
-        named_entities = snd.annotations_with_type('named_entity')
+        poss = snd.annotations_with_type('l1', 'pos')
+        lemmas = snd.annotations_with_type('l2', 'lemma')
+        entity_ids = snd.annotations_with_type('l3', 'entity_id')
+        named_entities = snd.annotations_with_type('l3', 'named_entity')
 
         self.assertEqual(21, len(poss))
         self.assertEqual(22, len(lemmas))
@@ -94,10 +107,52 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
             self.assertEqual(text, annotation.text)
 
 
+class WebannoTsvReadFileWithFormatV33(unittest.TestCase):
+    LAYERS = [('l1', ['entity_id', 'named_entity']), ('l2', ['tex_layout'])]
+    TEXT_SENT_1 = 'Braun an Gerhard Dresden, 10.'
+    TEXT_SENT_2 = 'März 1832 (Zettel an den Brief geklebt) Die Intelligenzblätter habe ich zurückgehalten und sende ' \
+                  + 'nur den Brief.\f' \
+                  + '- Den Intelligenzblättern ist auf eine Anzeige der bald erscheinenden Bernhardischen Suidas ' \
+                  + 'sowie der Scriptores hist., August, beigelegt.'
+
+    def setUp(self) -> None:
+        self.doc = webanno_tsv_read(test_file('test_input_v3.3.tsv'), self.LAYERS)
+
+    def test_reads_doc(self):
+        self.assertIsInstance(self.doc, Document)
+        self.assertEqual(2, len(self.doc.sentences))
+        self.assertEqual(self.TEXT_SENT_1, self.doc.sentences[0].text)
+
+    def test_reads_multiline_sentence(self):
+        self.assertEqual(self.TEXT_SENT_2, self.doc.sentences[1].text)
+
+    def test_reads_annotations_correctly(self):
+        self.assertEqual(9, len(self.doc.annotations_with_type('l1', 'named_entity')))
+        self.assertEqual(1, len(self.doc.annotations_with_type('l2', 'tex_layout')))
+
+        annotations = self.doc.annotations_with_type('l1', 'named_entity')
+        spot_checks = [
+            (0, 'PERauthor', -1, 'Braun'),
+            (3, 'DATEletter', 1, '10 . März 1832'),
+            (8, 'LIT', 4, 'Scriptores hist . , August')
+        ]
+        for idx, label, label_id, text in spot_checks:
+            self.assertEqual(label, annotations[idx].label)
+            self.assertEqual(label_id, annotations[idx].label_id)
+            self.assertEqual(text, annotations[idx].text)
+
+
+class WebannoTsvReadActualFileHeaders(unittest.TestCase):
+
+    def test_headers_from_input_file(self):
+        doc = webanno_tsv_read(test_file('test_input.tsv'))
+        self.assertEqual(ACTUAL_DEFAULT_LAYER_NAMES, doc.layer_names)
+
+
 class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 
     def test_reads_quotes(self):
-        self.doc = webanno_tsv_read(test_file('test_input_quotes.tsv'))
+        self.doc = webanno_tsv_read(test_file('test_input_quotes.tsv'), DEFAULT_LAYERS)
         tokens = self.doc.sentences[0].tokens
 
         self.assertEqual('\"', tokens[3].text)
@@ -108,10 +163,10 @@ class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 class WebannoTsvReadFileWithMultiSentenceSpanAnnotation(unittest.TestCase):
 
     def test_read_multi_sentence_annotation(self):
-        self.doc = webanno_tsv_read(test_file('test_input_multi_sentence_span.tsv'))
+        self.doc = webanno_tsv_read(test_file('test_input_multi_sentence_span.tsv'), DEFAULT_LAYERS)
         fst, snd = self.doc.sentences
 
-        annotations = self.doc.annotations_with_type('named_entity')
+        annotations = self.doc.annotations_with_type('l3', 'named_entity')
         self.assertEqual(1, len(annotations))
 
         annotation = annotations[0]
@@ -160,22 +215,22 @@ class WebannoAddTokensAsSentenceTest(unittest.TestCase):
 class WebannoTsvWriteTest(unittest.TestCase):
 
     def test_complete_writing(self):
-        doc = Document()
+        doc = Document(DEFAULT_LAYERS)
         s1 = doc.add_tokens_as_sentence(['First', 'sentence', '😊', '.'])
-        s2 = doc.add_tokens_as_sentence(['Second', 'sentence', 'escape[t]his;content', '.'])
+        s2 = doc.add_tokens_as_sentence(['Second', 'sentence', 'escape[t]his;token', '.'])
 
         annotations = [
-            Annotation(s1.tokens[0], 'pos', 'pos-val'),
-            Annotation(s1.tokens[0], 'lemma', 'first'),
-            Annotation(s1.tokens[1], 'lemma', 'sentence'),
-            Annotation(s1.tokens[2], 'named_entity', 'smiley-end', 37),
-            Annotation(s1.tokens[3], 'named_entity', 'smiley-end', 37),
-            Annotation(s1.tokens[3], 'named_entity', 'DOT'),
-            Annotation(s2.tokens[3], 'pos', 'dot'),
-            Annotation(s2.tokens[1], 'lemma', 'sentence'),
-            Annotation(s2.tokens[3], 'lemma', '.'),
-            Annotation(s2.tokens[0], 'named_entity', 'XYZ'),
-            Annotation(s2.tokens[2], 'named_entity', 'escape|this\\content'),
+            Annotation(s1.tokens[0], 'l1', 'pos', 'pos-val'),
+            Annotation(s1.tokens[0], 'l2', 'lemma', 'first'),
+            Annotation(s1.tokens[1], 'l2', 'lemma', 'sentence'),
+            Annotation(s1.tokens[2], 'l3', 'named_entity', 'smiley-end', 37),
+            Annotation(s1.tokens[3], 'l3', 'named_entity', 'smiley-end', 37),
+            Annotation(s1.tokens[3], 'l3', 'named_entity', 'DOT'),
+            Annotation(s2.tokens[3], 'l1', 'pos', 'dot'),
+            Annotation(s2.tokens[1], 'l2', 'lemma', 'sentence'),
+            Annotation(s2.tokens[3], 'l2', 'lemma', '.'),
+            Annotation(s2.tokens[0], 'l3', 'named_entity', 'XYZ'),
+            Annotation(s2.tokens[2], 'l3', 'named_entity', 'escape|this\\field'),
         ]
 
         for annotation in annotations:
@@ -184,9 +239,9 @@ class WebannoTsvWriteTest(unittest.TestCase):
 
         expected = [
             '#FORMAT=WebAnno TSV 3.1',
-            '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue',
-            '#T_SP=de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value',
-            '#T_SP=webanno.custom.LetterEntity|entity_id|value',
+            '#T_SP=l1|pos',
+            '#T_SP=l2|lemma',
+            '#T_SP=l3|entity_id|named_entity',
             '',
             '',
             '#Text=First sentence 😊 .',
@@ -195,11 +250,11 @@ class WebannoTsvWriteTest(unittest.TestCase):
             '1-3\t15-17\t😊\t_\t_\t*[37]\tsmiley-end[37]',
             '1-4\t18-19\t.\t_\t_\t*[37]\tDOT|smiley-end[37]',
             '',
-            '#Text=Second sentence escape\\[t\\]his\\;content .',
+            '#Text=Second sentence escape\\[t\\]his\\;token .',
             '2-1\t0-6\tSecond\t_\t_\t*\tXYZ',
             '2-2\t7-15\tsentence\t_\tsentence\t_\t_',
-            '2-3\t16-36\tescape\\[t\\]his\\;content\t_\t_\t*\tescape\\|this\\\\content',
-            '2-4\t37-38\t.\tdot\t.\t_\t_'
+            '2-3\t16-34\tescape\\[t\\]his\\;token\t_\t_\t*\tescape\\|this\\\\field',
+            '2-4\t35-36\t.\tdot\t.\t_\t_'
         ]
         self.assertEqual(expected, result.split('\n'))
 
