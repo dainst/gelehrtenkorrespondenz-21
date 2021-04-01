@@ -155,7 +155,7 @@ def reorder_documents_for_fit(docs1: List[Document], docs2: List[Document], min_
 
 
 def print_no_match_information(annotation: Annotation):
-    filename = os.path.split(os.path.split(annotation.doc.original_path)[0])[1]
+    filename = os.path.split(os.path.split(annotation.doc.path)[0])[1]
     print('-----')
     print('FILE: %s' % filename)
     print('LINE: %d' % annotation.sentences[0].idx)

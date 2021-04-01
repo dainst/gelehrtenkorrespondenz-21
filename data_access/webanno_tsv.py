@@ -3,7 +3,7 @@ import logging
 import re
 from collections import defaultdict
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, List, Optional, Tuple
 
 NO_LABEL_ID = -1
 COMMENT_RE = re.compile('^#')
@@ -158,7 +158,7 @@ class Document:
 
         Layer names are also used to output '#T_SP=' fields for
 
-        :param layer_names: The (span) layers to use. See exmaple above.
+        :param layer_names: The (span) layers to use. See example above.
         """
         if not layer_names:
             layer_names = [('l1', ['annotation'])]
@@ -166,6 +166,7 @@ class Document:
         self.sentences: List[Sentence] = list()
         self._annotations: Dict[str, List[Annotation]] = defaultdict(list)
         self._next_token_idx = 0
+        self.path = ''  # used to indicate the path this was read from
 
     @property
     def _next_sentence_idx(self) -> int:
@@ -315,7 +316,7 @@ def _filter_sentences(lines: List[str]) -> List[str]:
     return result
 
 
-def webanno_tsv_read(path: Union[str], overriding_layer_names: List[Tuple[str, List[str]]] = None) -> Document:
+def webanno_tsv_read(path: str, overriding_layer_names: List[Tuple[str, List[str]]] = None) -> Document:
     """
     Read the tsv file at path and return a Document representation.
 
@@ -336,6 +337,7 @@ def webanno_tsv_read(path: Union[str], overriding_layer_names: List[Tuple[str, L
         doc = Document(overriding_layer_names)
     else:
         doc = Document(_read_span_layer_names(lines))
+    doc.path = path
 
     for i, text in enumerate(sentences):
         sentence = Sentence(doc, idx=i + 1, text=text)
