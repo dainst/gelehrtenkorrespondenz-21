@@ -52,6 +52,10 @@ class Token:
     def doc(self) -> 'Document':
         return self.sentence.doc
 
+    @property
+    def annotations(self) -> List['Annotation']:
+        return [a for a in self.doc.annotations if self in a.tokens]
+
     def is_at_begin_of_sentence(self) -> bool:
         return self.idx == 1
 
@@ -176,6 +180,11 @@ class Document:
     def _anno_type(layer_name, field_name):
         return '|'.join([layer_name, field_name])
 
+
+    @property
+    def annotations(self) -> List[Annotation]:
+        return [a for values in list(self._annotations.values()) for a in values]
+
     @property
     def text(self) -> str:
         return "\n".join([s.text for s in self.sentences])
@@ -232,6 +241,14 @@ class Document:
         if not merged:
             assert (annotation.doc == self)
             self._annotations[type_name].append(annotation)
+
+    def remove_annotation(self, annotation: Annotation):
+        type_name = self._anno_type(annotation.layer_name, annotation.field_name)
+        annotations = self._annotations[type_name]
+        if annotations:
+            self._annotations[type_name].remove(annotation)
+        else:
+            raise ValueError
 
     def annotations_with_type(self, layer_name: str, field_name: str) -> List[Annotation]:
         type_name = self._anno_type(layer_name, field_name)

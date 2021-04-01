@@ -6,7 +6,7 @@ import logging
 import os
 import re
 from pathlib import Path
-from typing import List, TypeVar, Sequence
+from typing import Iterator, List, Sequence, Tuple, TypeVar
 
 from nltk.data import load as nltk_load
 from nltk.tokenize import word_tokenize
@@ -27,6 +27,29 @@ sentence_tokenizer = nltk_load(SENTENCE_TOKENIZER_PICKLE)
 TARGET_LAYER = 'webanno.custom.LetterEntity'
 TARGET_FIELD = 'value'
 OUTPUT_LAYERS = [(TARGET_LAYER, [TARGET_FIELD])]
+
+UPPERCASE_BEGIN = re.compile('^[A-Z]+')
+
+ANNOTATION_LABELS_REPLACEMENTS = {
+    'per-author': 'PERauthor',
+    'per-addressee': 'PERaddressee',
+    'per-mentioned': 'PERmentioned',
+    'place-to': 'PLACEto',
+    'place-from': 'PLACEfrom',
+    'place-mentioned': 'PLACEmentioned',
+    'org-mentioned': 'ORGmentioned',
+    'date-mentioned': 'DATEmentioned',
+    'letter-date': 'DATEletter',
+    'post-stamp': 'DATEpoststamp',
+    'individual-object': 'OBJ',
+    'topography': 'OBJtopography',
+    'multipart-monument': 'MISC',
+    'building': 'MISC',
+    'part-of-building': 'MISC',
+    'THE': 'MISC',
+    'TIME': 'MISC',
+}
+
 
 FILE_NAMES = [
     ('001313708.txt', '11_BOOK-ZID1313708_2021-02-03_1354/annotation/11_BOOK-ZID1313708_page*'),
@@ -68,7 +91,7 @@ def webanno_file_for_idx(paths: List[Path], index: int):
 
 
 def clean_ocr(text: str) -> str:
-    whitespace = re.compile('^\s*$')
+    whitespace = re.compile('^\\s*$')
     lines = [line.strip() for line in text.split('\n') if not whitespace.match(line)]
     return '\n'.join(util.remove_hyphenation(lines))
 
@@ -93,13 +116,16 @@ def inexact_match(needle: List[Token], haystack: List[Token], cutoff=0.75) -> Se
     lengths = [len(needle) + i for i in [-2, -1, 0, 1, 2, 3]]
     token_sequences = util.subsequences_of_length(haystack, *lengths)
     candidates = [''.join(token.text for token in s) for s in token_sequences]
-    matches = difflib.get_close_matches(''.join(t.text for t in needle), candidates, 1, cutoff)
+    matches: List[str] = difflib.get_close_matches(''.join(t.text for t in needle), candidates, 1, cutoff)
     if matches:
         return token_sequences[candidates.index(matches[0])]
     return []
 
 
-def match_between(before: List[Token], after: List[Token], candidates: List[Token]):
+def match_between(before: List[Token], after: List[Token], candidates: List[Token]) -> List[Token]:
+    """
+    Find and return tokens that are between :before: and :after: in :candidates:.
+    """
     match_before = inexact_match(before, candidates)
     if match_before:
         idx_last = candidates.index(match_before[-1])
@@ -108,6 +134,26 @@ def match_between(before: List[Token], after: List[Token], candidates: List[Toke
         if match_after:
             return candidates_after[0:candidates_after.index(match_after[0])]
     return []
+
+
+def match_before_or_after(query: List[Token], doc: Document, exclude: List[Token]) -> Sequence[Token]:
+    doc_tokens = doc.tokens
+    for n in [5, 10, 15, 20, 40]:
+        start = doc_tokens.index(exclude[0])
+        before = doc_tokens[max(0, start - n):start]
+        result = inexact_match(query, before, 0.8)
+        if result:
+            break
+        end = doc_tokens.index(exclude[-1])
+        after = doc_tokens[end + 1:min(end + n, len(doc_tokens))]
+        result = inexact_match(query, after, 0.8)
+        if result:
+            break
+    return result
+
+
+def match_similiar_before_or_after(tokens: List[Token], doc: Document) -> Sequence[Token]:
+    return match_before_or_after(tokens, doc, tokens)
 
 
 def sort_webanno_docs_for_id_882135(webanno_docs):
@@ -119,6 +165,59 @@ def sort_webanno_docs_for_id_882135(webanno_docs):
         idx = orig_ocr_order.index(i + 1)
         new_webanno.append(webanno_docs[idx])
     return new_webanno
+
+
+def normalize_annotation_label(annotation: Annotation) -> str:
+    try:
+        return ANNOTATION_LABELS_REPLACEMENTS[annotation.label]
+    except KeyError:
+        return annotation.label
+
+
+def reduce_to_uppercase_begin(text: str):
+    match = UPPERCASE_BEGIN.match(text)
+    if match:
+        return match.group(0)
+    else:
+        return text
+
+
+def handle_multiple_annotations_of_same_type(doc: Document, annotation: Annotation, tokens: List[Token]) -> bool:
+    """
+    This handles the (not uncommon) case that we might wish to assign an annotation
+    to set of tokens that already have an annotation of the same type. This especially
+    occurs of an item is mentioned twice in close proximity. We then look around the target
+    tokens for a similar string and prefer assigning to that string.
+
+    :return: Whether the annotation was handled by this method or not.
+    """
+    # Example: if annotation has label 'PERauthor' check if 'PER' is present on target tokens
+    label = reduce_to_uppercase_begin(annotation.label)
+    others = {a for t in tokens for a in t.annotations if a.layer_name == TARGET_LAYER and a.field_name == TARGET_FIELD}
+    others = {o for o in others if reduce_to_uppercase_begin(o.label) == label}
+
+    if len(others) == 0:
+        return False
+    elif len(others) > 1:
+        logger.debug("Not handling case with 2+ annotations already present.")
+        return False
+
+    other_tokens = match_similiar_before_or_after(tokens, doc)
+    if other_tokens:
+        other = others.pop()
+        doc.remove_annotation(other)
+        for annotation, targets in sort_targets([annotation, other], [tokens, other_tokens]):
+            copy_annotation(annotation, targets)
+        return True
+    return False
+
+
+def sort_targets(sources: List[Annotation], targets: List[List[Token]]) -> Iterator[Tuple[Annotation, List[Token]]]:
+    # we assume that annotations should be copied in order of their label id
+    doc_tokens = targets[0][0].doc.tokens
+    targets = sorted(targets, key=lambda ts: doc_tokens.index(ts[0]))
+    sources = sorted(sources, key=lambda a: a.label_id)
+    return zip(sources, targets)
 
 
 def copy_annotation(source: Annotation, targets: List[Token]):
@@ -239,7 +338,9 @@ def copy_annotations(doc_with_annotations: Document, other: Document, print_no_m
                 lower_confidence += 1
 
         if tokens:
-            copy_annotation(annotation, tokens)
+            annotation.label = normalize_annotation_label(annotation)
+            if not handle_multiple_annotations_of_same_type(other, annotation, tokens):
+                copy_annotation(annotation, tokens)
         else:
             logger.debug('NO MATCH: %s \n--> %s' % (annotation.text, ' '.join(c.text for c in slice_candidates(20))))
             if print_no_match:
