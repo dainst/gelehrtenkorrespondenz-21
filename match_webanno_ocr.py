@@ -26,7 +26,7 @@ sentence_tokenizer = nltk_load(SENTENCE_TOKENIZER_PICKLE)
 
 TARGET_LAYER = 'webanno.custom.LetterEntity'
 TARGET_FIELD = 'value'
-OUTPUT_LAYERS = [(TARGET_LAYER, [TARGET_FIELD])]
+OUTPUT_LAYERS = [(TARGET_LAYER, ['entity_id', TARGET_FIELD])]
 
 UPPERCASE_BEGIN = re.compile('^[A-Z]+')
 
@@ -43,9 +43,9 @@ ANNOTATION_LABELS_REPLACEMENTS = {
     'post-stamp': 'DATEpoststamp',
     'individual-object': 'OBJ',
     'topography': 'OBJtopography',
-    'multipart-monument': 'MISC',
-    'building': 'MISC',
-    'part-of-building': 'MISC',
+    'multipart-monument': 'OBJ',
+    'building': 'OBJ',
+    'part-of-building': 'OBJ',
     'THE': 'MISC',
     'TIME': 'MISC',
 }
