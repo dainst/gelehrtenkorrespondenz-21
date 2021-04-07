@@ -12,7 +12,7 @@ from nltk.data import load as nltk_load
 from nltk.tokenize import word_tokenize
 
 from data_access import util
-from data_access.webanno_tsv import webanno_tsv_read, Annotation, Document, Token
+from data_access.webanno_tsv import webanno_tsv_read_file, Annotation, Document, Token
 
 T = TypeVar('T')
 
@@ -49,7 +49,6 @@ ANNOTATION_LABELS_REPLACEMENTS = {
     'THE': 'MISC',
     'TIME': 'MISC',
 }
-
 
 FILE_NAMES = [
     ('001313708.txt', '11_BOOK-ZID1313708_2021-02-03_1354/annotation/11_BOOK-ZID1313708_page*'),
@@ -221,10 +220,12 @@ def sort_targets(sources: List[Annotation], targets: List[List[Token]]) -> Itera
 
 
 def copy_annotation(source: Annotation, targets: List[Token]):
-    for target in targets:
-        annotation = Annotation(token=target, layer_name=source.layer_name, field_name=source.field_name,
+    if targets:
+        annotation = Annotation(tokens=targets, layer_name=source.layer_name, field_name=source.field_name,
                                 label=source.label, label_id=source.label_id)
-        target.doc.add_annotation(annotation)
+        targets[0].doc.add_annotation(annotation)
+    else:
+        raise ValueError('Empty list of target tokens.')
 
 
 def reorder_documents_for_fit(docs1: List[Document], docs2: List[Document], min_ratio=0.2, text_len=600):
@@ -369,7 +370,7 @@ def main(args):
             ocr_texts = ocr_page_split(f.read())
 
         page_paths = webanno_page_paths(args.webanno_dir, webanno_glob, args.annotator)
-        webanno_docs = [webanno_tsv_read(str(f)) for f in page_paths]
+        webanno_docs = [webanno_tsv_read_file(str(f)) for f in page_paths]
 
         if ocr_filename == '000882135.txt':
             webanno_docs = sort_webanno_docs_for_id_882135(webanno_docs)

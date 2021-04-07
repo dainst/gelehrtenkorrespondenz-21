@@ -71,8 +71,8 @@ class Token:
 
 class Annotation:
 
-    def __init__(self, token: Token, layer_name: str, field_name: str, label: str, label_id: int = NO_LABEL_ID):
-        self._tokens = [token]
+    def __init__(self, tokens: List[Token], layer_name: str, field_name: str, label: str, label_id: int = NO_LABEL_ID):
+        self._tokens = tokens
         self.layer_name = layer_name
         self.field_name = field_name
         self.label = label
@@ -180,7 +180,6 @@ class Document:
     def _anno_type(layer_name, field_name):
         return '|'.join([layer_name, field_name])
 
-
     @property
     def annotations(self) -> List[Annotation]:
         return [a for values in list(self._annotations.values()) for a in values]
@@ -198,6 +197,20 @@ class Document:
             return self.sentences[idx - 1]
         except IndexError:
             return None
+
+    def fix_annotation_ids(self) -> None:
+        """
+        Setup label ids for annotations contained in this document to be consistent.
+        After this, there should be no duplicate label id and every multi-token
+        annotation should have an id. Leave present label_ids unchanged if possible.
+        """
+        max_id = max([a.label_id for a in self.annotations], default=1)
+        ids_seen = set()
+        for a in self.annotations:
+            if len(a.tokens) > 1 and (a.label_id == NO_LABEL_ID or a.label_id in ids_seen):
+                a.label_id = max_id + 1
+                max_id = a.label_id
+            ids_seen.add(a.label_id)
 
     def add_tokens_as_sentence(self, tokens: List[str]) -> Sentence:
         """
@@ -333,19 +346,7 @@ def _filter_sentences(lines: List[str]) -> List[str]:
     return result
 
 
-def webanno_tsv_read(path: str, overriding_layer_names: List[Tuple[str, List[str]]] = None) -> Document:
-    """
-    Read the tsv file at path and return a Document representation.
-
-    :param path: Path to read.
-    :param overriding_layer_names: If this is given, use these names
-        instead of headers defined in the file to identify layers
-        and fields
-    :return: A Document instance of the file at path.
-    """
-    with open(path, mode='r', encoding='utf-8') as f:
-        lines = f.readlines()
-
+def _tsv_read_lines(lines: List[str], overriding_layer_names: List[Tuple[str, List[str]]] = None) -> Document:
     non_comments = [line for line in lines if not COMMENT_RE.match(line)]
     token_data = [line for line in non_comments if not SUB_TOKEN_RE.match(line)]
     sentences = _filter_sentences(lines)
@@ -354,7 +355,6 @@ def webanno_tsv_read(path: str, overriding_layer_names: List[Tuple[str, List[str
         doc = Document(overriding_layer_names)
     else:
         doc = Document(_read_span_layer_names(lines))
-    doc.path = path
 
     for i, text in enumerate(sentences):
         sentence = Sentence(doc, idx=i + 1, text=text)
@@ -376,13 +376,43 @@ def webanno_tsv_read(path: str, overriding_layer_names: List[Tuple[str, List[str
                     label, label_id = _read_label_and_id(value)
                     if label != '':
                         a = Annotation(
-                            token=token,
+                            tokens=[token],
                             label=label,
                             layer_name=layer,
                             field_name=field,
                             label_id=label_id,
                         )
                         doc.add_annotation(a)
+    return doc
+
+
+def webanno_tsv_read_string(tsv: str, overriding_layer_names: List[Tuple[str, List[str]]] = None) -> Document:
+    """
+    Read the string content of a tsv file and return a Document representation
+
+    :param tsv: The tsv input to read.
+    :param overriding_layer_names: If this is given, use these names
+        instead of headers defined in the string to identify layers
+        and fields
+    :return: A Document instance of string input
+    """
+    return _tsv_read_lines(tsv.splitlines(), overriding_layer_names)
+
+
+def webanno_tsv_read_file(path: str, overriding_layer_names: List[Tuple[str, List[str]]] = None) -> Document:
+    """
+    Read the tsv file at path and return a Document representation.
+
+    :param path: Path to read.
+    :param overriding_layer_names: If this is given, use these names
+        instead of headers defined in the file to identify layers
+        and fields
+    :return: A Document instance of the file at path.
+    """
+    with open(path, mode='r', encoding='utf-8') as f:
+        lines = f.readlines()
+    doc = _tsv_read_lines(lines, overriding_layer_names)
+    doc.path = path
     return doc
 
 
@@ -451,6 +481,8 @@ def webanno_tsv_write(doc: Document, linebreak='\n') -> str:
     for name, fields in doc.layer_names:
         lines.append(_write_span_layer_header(name, fields))
     lines.append('')
+
+    doc.fix_annotation_ids()
 
     for sentence in doc.sentences:
         lines.append('')

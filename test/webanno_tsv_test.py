@@ -1,7 +1,11 @@
 import os
 import unittest
 
-from data_access.webanno_tsv import webanno_tsv_read, Annotation, Document, Sentence, Token
+from data_access.webanno_tsv import (
+    webanno_tsv_read_file, webanno_tsv_read_string,
+    Annotation, Document, Sentence, Token,
+    NO_LABEL_ID
+)
 
 # These are used to override the actual layer names in the test files for brevity
 DEFAULT_LAYERS = [
@@ -37,7 +41,7 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
                   + "wir hier nur noch einen Kampf des Herkules mit dem Achelous auf ."
 
     def setUp(self) -> None:
-        self.doc = webanno_tsv_read(test_file('test_input.tsv'), DEFAULT_LAYERS)
+        self.doc = webanno_tsv_read_file(test_file('test_input.tsv'), DEFAULT_LAYERS)
 
     def test_can_read_tsv(self):
         self.assertIsInstance(self.doc, Document)
@@ -116,7 +120,7 @@ class WebannoTsvReadFileWithFormatV33(unittest.TestCase):
                   + 'sowie der Scriptores hist., August, beigelegt.'
 
     def setUp(self) -> None:
-        self.doc = webanno_tsv_read(test_file('test_input_v3.3.tsv'), self.LAYERS)
+        self.doc = webanno_tsv_read_file(test_file('test_input_v3.3.tsv'), self.LAYERS)
 
     def test_reads_doc(self):
         self.assertIsInstance(self.doc, Document)
@@ -145,14 +149,14 @@ class WebannoTsvReadFileWithFormatV33(unittest.TestCase):
 class WebannoTsvReadActualFileHeaders(unittest.TestCase):
 
     def test_headers_from_input_file(self):
-        doc = webanno_tsv_read(test_file('test_input.tsv'))
+        doc = webanno_tsv_read_file(test_file('test_input.tsv'))
         self.assertEqual(ACTUAL_DEFAULT_LAYER_NAMES, doc.layer_names)
 
 
 class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 
     def test_reads_quotes(self):
-        self.doc = webanno_tsv_read(test_file('test_input_quotes.tsv'), DEFAULT_LAYERS)
+        self.doc = webanno_tsv_read_file(test_file('test_input_quotes.tsv'), DEFAULT_LAYERS)
         tokens = self.doc.sentences[0].tokens
 
         self.assertEqual('\"', tokens[3].text)
@@ -163,7 +167,7 @@ class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 class WebannoTsvReadFileWithMultiSentenceSpanAnnotation(unittest.TestCase):
 
     def test_read_multi_sentence_annotation(self):
-        self.doc = webanno_tsv_read(test_file('test_input_multi_sentence_span.tsv'), DEFAULT_LAYERS)
+        self.doc = webanno_tsv_read_file(test_file('test_input_multi_sentence_span.tsv'), DEFAULT_LAYERS)
         fst, snd = self.doc.sentences
 
         annotations = self.doc.annotations_with_type('l3', 'named_entity')
@@ -220,17 +224,17 @@ class WebannoTsvWriteTest(unittest.TestCase):
         s2 = doc.add_tokens_as_sentence(['Second', 'sentence', 'escape[t]his;token', '.'])
 
         annotations = [
-            Annotation(s1.tokens[0], 'l1', 'pos', 'pos-val'),
-            Annotation(s1.tokens[0], 'l2', 'lemma', 'first'),
-            Annotation(s1.tokens[1], 'l2', 'lemma', 'sentence'),
-            Annotation(s1.tokens[2], 'l3', 'named_entity', 'smiley-end', 37),
-            Annotation(s1.tokens[3], 'l3', 'named_entity', 'smiley-end', 37),
-            Annotation(s1.tokens[3], 'l3', 'named_entity', 'DOT'),
-            Annotation(s2.tokens[3], 'l1', 'pos', 'dot'),
-            Annotation(s2.tokens[1], 'l2', 'lemma', 'sentence'),
-            Annotation(s2.tokens[3], 'l2', 'lemma', '.'),
-            Annotation(s2.tokens[0], 'l3', 'named_entity', 'XYZ'),
-            Annotation(s2.tokens[2], 'l3', 'named_entity', 'escape|this\\field'),
+            Annotation([s1.tokens[0]], 'l1', 'pos', 'pos-val'),
+            Annotation([s1.tokens[0]], 'l2', 'lemma', 'first'),
+            Annotation([s1.tokens[1]], 'l2', 'lemma', 'sentence'),
+            Annotation([s1.tokens[2]], 'l3', 'named_entity', 'smiley-end', 37),
+            Annotation([s1.tokens[3]], 'l3', 'named_entity', 'smiley-end', 37),
+            Annotation([s1.tokens[3]], 'l3', 'named_entity', 'DOT'),
+            Annotation([s2.tokens[3]], 'l1', 'pos', 'dot'),
+            Annotation([s2.tokens[1]], 'l2', 'lemma', 'sentence'),
+            Annotation([s2.tokens[3]], 'l2', 'lemma', '.'),
+            Annotation([s2.tokens[0]], 'l3', 'named_entity', 'XYZ'),
+            Annotation([s2.tokens[2]], 'l3', 'named_entity', 'escape|this\\field'),
         ]
 
         for annotation in annotations:
@@ -258,10 +262,34 @@ class WebannoTsvWriteTest(unittest.TestCase):
         ]
         self.assertEqual(expected, result.split('\n'))
 
-    def testReadWriteEquality(self):
+    def test_label_id_is_added_on_writing(self):
+        doc = Document(DEFAULT_LAYERS)
+        doc.add_tokens_as_sentence(['A', 'B', 'C', 'D'])
+
+        a_with_id = Annotation(doc.tokens[1:3], 'l3', 'named_entity', 'BC', 67)
+        a_without = Annotation(doc.tokens[2:4], 'l3', 'named_entity', 'CD')
+        a_single_token = Annotation(doc.tokens[3:4], 'l3', 'named_entity', 'D')
+        for a in [a_with_id, a_without, a_single_token]:
+            doc.add_annotation(a)
+
+        doc_new = webanno_tsv_read_string(doc.tsv())
+
+        self.assertNotEqual(doc, doc_new)
+        self.assertEqual(3, len(doc_new.annotations))
+        self.assertEqual(67, doc_new.annotations[0].label_id)
+        self.assertEqual(68, doc_new.annotations[1].label_id,
+                         'Should have added a new label id incremented from last max.')
+        self.assertEqual(NO_LABEL_ID, doc_new.annotations[2].label_id,
+                         'Should not have added a new label id for a single token.')
+
+    def test_read_write_equality(self):
         path = test_file('test_input.tsv')
         with open(path, encoding='utf8', mode='r') as f:
-            expected = f.read().rstrip().split('\n')
-        doc = webanno_tsv_read(path)
-        self.assertEqual(expected, doc.tsv().split('\n'),
-                         'Output should have the same lines as the input file.')
+            content = f.read().rstrip()
+        doc = webanno_tsv_read_file(path)
+        self.assertEqual(content.splitlines(), doc.tsv().splitlines(),
+                         'Output from file parsing should have the same lines as that file.')
+
+        doc2 = webanno_tsv_read_string(content)
+        self.assertEqual(content.splitlines(), doc2.tsv().splitlines(),
+                         'Output from string parsing should have the same lines as that string.')
