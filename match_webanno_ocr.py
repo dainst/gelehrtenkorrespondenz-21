@@ -258,7 +258,7 @@ def print_no_match_information(annotation: Annotation):
     filename = os.path.split(os.path.split(annotation.doc.path)[0])[1]
     print('-----')
     print('FILE: %s' % filename)
-    print('LINE: %d' % annotation.sentences[0].idx)
+    print('LINE: %d / %d' % (annotation.sentences[0].idx, len(annotation.doc.sentences)))
     print('TEXT: "%s"' % annotation.text)
     print('TYPE: %s' % annotation.label)
     print('CONTEXT:')
