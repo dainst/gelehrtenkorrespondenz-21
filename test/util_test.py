@@ -1,6 +1,6 @@
 import unittest
 
-from data_access.util import subsequences_of_length, find_subsequence, remove_hyphenation
+from src.data_access.util import subsequences_of_length, find_subsequence, remove_hyphenation
 
 
 class SubsequencesOfLengthTest(unittest.TestCase):

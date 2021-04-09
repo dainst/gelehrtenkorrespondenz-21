@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from data_access.webanno_tsv import (
+from src.data_access.webanno_tsv import (
     webanno_tsv_read_file, webanno_tsv_read_string,
     Annotation, Document, Sentence, Token,
     NO_LABEL_ID

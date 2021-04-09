@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This was used on the original files exported from the WebAnno (3.1) instance.
+
 # Two arguments: The directories to extract from and to
 ZIPS_DIR=$1
 OUT_DIR=$2
