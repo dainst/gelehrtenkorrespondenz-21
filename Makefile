@@ -11,7 +11,7 @@ run:
 		--volume $(CURDIR):/app \
 		dainst/glk21:dev
 
-test:mos
+test:
 	- docker run -t --rm \
 		--volume $(CURDIR):/app \
 		dainst/glk21:dev \
