@@ -8,17 +8,36 @@ Former repo for the work in 2018: https://github.com/dainst/Gelehrtenkorresponde
 
 ## Development
 
-### Run Tests
+The Makefile has docker commands to build and run most parts of the project. (Save for the `ocr` dir which has its own Dockerfile and Readme.)
+
+You can build a docker container and run it with
 
 ```shell
-python -m unittest test/*.py
+make build
+make run
 ```
+
+This exposes a jupyter notebook server for the `src` directory at http://127.0.0.1:8888/
+
+You can run the tests with:
+
+```shell
+make test
+``
+
+To add a python dependency, put in `requirements.in` and run:
+
+```shell
+make generate-requirements
+```
+
+
+
 
 ### Extract webanno archives:
 
 1. Download `webanno-exports-zip` from [Cumulus](https://cumulus.dainst.org/index.php/s/w2Bc2YwRRrCN6pE)
-2. Extract and prepare the files by running `data_access/webanno_prepare_files.sh webanno-exports-zip some/target/dir`
-
+2. Extract and prepare the files by running `scripts/webanno_prepare_files.sh webanno-exports-zip some/target/dir`
 
 ## Data Sources
 
