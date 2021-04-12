@@ -31,24 +31,12 @@ To add a python dependency, put in `requirements.in` and run:
 make generate-requirements
 ```
 
-
-
-
-### Extract webanno archives:
-
-1. Download `webanno-exports-zip` from [Cumulus](https://cumulus.dainst.org/index.php/s/w2Bc2YwRRrCN6pE)
-2. Extract and prepare the files by running `scripts/webanno_prepare_files.sh webanno-exports-zip some/target/dir`
-
 ## Data Sources
 
 Also see:
 
 * [Confluence Documentation (closed)](http://confluence:8090/pages/viewpage.action?pageId=29786709)
 
-Most data is:
-
-* At the cumulus dir for this project: https://cumulus.dainst.org/index.php/s/w2Bc2YwRRrCN6pE
-* In the directory with this README (see below for details)
 
 ### Data Sources
 
@@ -65,33 +53,19 @@ Most data is:
     - `SELECT bibid, Verzeichnis FROM buch WHERE ArbeitsnotizBuch LIKE '%elehrtenbrief%' LIMIT 10`
     - The field `Verzeichnis` has the folder name in `archaeocloud/S-Arachne/TeiDocuments` where transcriptions are stored (folder name derived from the Zenon id)
 
+
 ### `data/`
 
-* OCR texts for the Rome transcriptions is in `transcriptions_texts`
-* From the folders `archaeocloud/S-Arachne/TeiDocuments` (see above):
-    - There are `transcription.xml` files for 9929 of the Zenon entries.
-    - Only 69 of them have text data (OCR). The text was extracted with an xpath command and leading whitespace was removed
+* OCR texts for the Rome transcriptions are in [`data/texts`](data/texts), this is the new ocr done in 2021, documented in [`ocr`](ocr)
+* TSV files containing all annotations are in [`data/annotations`]. They were created in two steps:
+    1. The annotatons done from 2018 onwards on the old ocr were matched to the new OCR as documented [in this script](scripts/docs_match_annotations.sh).
+    2. The newly matched annotations were imported into webanno, corrected and exported again to be used in this repo. Documentation [in this script](scripts/docs_extract_annotations.sh)
 
-        `ls transcriptions | while read f; do xidel -e '//text' "transcriptions/${f}" | sed 's/^\s*//g' > transcriptions_texts/$(basename -s.xml "$f").txt; done`
 
-### Some statistics
+### Cumulus
 
-For the 69 records contained in `transcriptions_texts`
+The cumulus dir for this project is at
 
-```
-#sentences      211093
-#words         4102482
-mean(words/s)       19.43
-stdev(words/s)      17.04
-```
+* https://cumulus.dainst.org/index.php/s/w2Bc2YwRRrCN6pE
 
-Main detected languages (with number of sentences):
-
-```
- ('fr', 526),
- ('nl', 619),
- ('lb', 1822),
- ('it', 3447),
- ('en', 17658),
- ('de', 182365)
-```
+It contains bigger archive files not suitable for the repo like EAD and webanno exports.

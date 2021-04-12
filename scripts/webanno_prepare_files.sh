@@ -1,21 +1,10 @@
 #!/bin/bash
 
 # This was used on the original files exported from the WebAnno (3.1) instance.
-
-# Two arguments: The directories to extract from and to
-ZIPS_DIR=$1
-OUT_DIR=$2
-
-# Extract files
-ls "${ZIPS_DIR}/"*.zip | while read archive
-do
-  EXT_DIR="${OUT_DIR}/$(basename -s.zip "$archive")"
-  mkdir -p $EXT_DIR
-  unzip -o -d "$EXT_DIR" "$archive"
-done
+WEBANNO_DIR="$1"
 
 # Fix unicode escapes in the annotation files
-find "${OUT_DIR}" -type f -path '*annotation/*.tsv' | while read file
+find "${WEBANNO_DIR}" -type f -path '*annotation/*.tsv' | while read file
 do
   sed -i 's|\\u00A3|£|g' "$file"
   sed -i 's|\\u00A5|¥|g' "$file"
