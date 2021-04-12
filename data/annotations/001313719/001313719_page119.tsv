@@ -1,0 +1,116 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin , 16. Juni 1847 Ausweg nicht fehlen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	16.	*[1]	DATEletter[1]
+1-7	31-35	Juni	*[1]	DATEletter[1]
+1-8	36-40	1847	*[1]	DATEletter[1]
+1-9	41-47	Ausweg	_	_
+1-10	48-53	nicht	_	_
+1-11	54-60	fehlen	_	_
+1-12	61-62	.	_	_
+
+#Text=Zur Einigung mit der frazösischen Unternehmung äußert sich Savigny durchaus geneigt \; vielleicht kann man darauf am besten weiter fußen .
+2-1	63-66	Zur	_	_
+2-2	67-75	Einigung	_	_
+2-3	76-79	mit	_	_
+2-4	80-83	der	_	_
+2-5	84-96	frazösischen	_	_
+2-6	97-109	Unternehmung	_	_
+2-7	110-116	äußert	_	_
+2-8	117-121	sich	_	_
+2-9	122-129	Savigny	*	PERmentioned
+2-10	130-138	durchaus	_	_
+2-11	139-146	geneigt	_	_
+2-12	147-148	\;	_	_
+2-13	149-159	vielleicht	_	_
+2-14	160-164	kann	_	_
+2-15	165-168	man	_	_
+2-16	169-175	darauf	_	_
+2-17	176-178	am	_	_
+2-18	179-185	besten	_	_
+2-19	186-192	weiter	_	_
+2-20	193-198	fußen	_	_
+2-21	199-200	.	_	_
+
+#Text=Etwa so viel und nicht mehr kann ich Ihnen über den Stand dieser Sache ....... 0 .. welche Borghesi durch einem schönen Zeugnißbrief über Momnsen uns erleich .... .osee .. Im Übrigen sehe ich den Nachrichten Ihrer bevorstehenden Sommerfrische entgegen .
+3-1	201-205	Etwa	_	_
+3-2	206-208	so	_	_
+3-3	209-213	viel	_	_
+3-4	214-217	und	_	_
+3-5	218-223	nicht	_	_
+3-6	224-228	mehr	_	_
+3-7	229-233	kann	_	_
+3-8	234-237	ich	_	_
+3-9	238-243	Ihnen	_	_
+3-10	244-248	über	_	_
+3-11	249-252	den	_	_
+3-12	253-258	Stand	_	_
+3-13	259-265	dieser	_	_
+3-14	266-271	Sache	_	_
+3-15	272-279	.......	_	_
+3-16	280-281	0	_	_
+3-17	282-284	..	_	_
+3-18	285-291	welche	_	_
+3-19	292-300	Borghesi	*	PERmentioned
+3-20	301-306	durch	_	_
+3-21	307-312	einem	_	_
+3-22	313-320	schönen	_	_
+3-23	321-333	Zeugnißbrief	_	_
+3-24	334-338	über	_	_
+3-25	339-346	Momnsen	*	PERmentioned
+3-26	347-350	uns	_	_
+3-27	351-358	erleich	_	_
+3-28	359-363	....	_	_
+3-29	364-369	.osee	_	_
+3-30	370-372	..	_	_
+3-31	373-375	Im	_	_
+3-32	376-383	Übrigen	_	_
+3-33	384-388	sehe	_	_
+3-34	389-392	ich	_	_
+3-35	393-396	den	_	_
+3-36	397-408	Nachrichten	_	_
+3-37	409-414	Ihrer	_	_
+3-38	415-429	bevorstehenden	_	_
+3-39	430-443	Sommerfrische	_	_
+3-40	444-452	entgegen	_	_
+3-41	453-454	.	_	_
+
+#Text=Von Brunn den ich bestens zu grüßen bitte erhielt ich den Abschluß der Adunanzberichte noch nicht \; sie reichten nur bis zum 5 März .
+4-1	455-458	Von	_	_
+4-2	459-464	Brunn	*	PERmentioned
+4-3	465-468	den	_	_
+4-4	469-472	ich	_	_
+4-5	473-480	bestens	_	_
+4-6	481-483	zu	_	_
+4-7	484-490	grüßen	_	_
+4-8	491-496	bitte	_	_
+4-9	497-504	erhielt	_	_
+4-10	505-508	ich	_	_
+4-11	509-512	den	_	_
+4-12	513-521	Abschluß	_	_
+4-13	522-525	der	_	_
+4-14	526-541	Adunanzberichte	_	_
+4-15	542-546	noch	_	_
+4-16	547-552	nicht	_	_
+4-17	553-554	\;	_	_
+4-18	555-558	sie	_	_
+4-19	559-567	reichten	_	_
+4-20	568-571	nur	_	_
+4-21	572-575	bis	_	_
+4-22	576-579	zum	_	_
+4-23	580-581	5	*[2]	DATEmentioned[2]
+4-24	582-586	März	*[2]	DATEmentioned[2]
+4-25	587-588	.	_	_
+
+#Text=( Ohne Unterschrift )
+5-1	589-590	(	_	_
+5-2	591-595	Ohne	_	_
+5-3	596-608	Unterschrift	_	_
+5-4	609-610	)	_	_

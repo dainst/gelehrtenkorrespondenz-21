@@ -1,0 +1,161 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 19. Juli 1837 Dr. Braun g . 22/7 37 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	19.	*[5]	DATEletter[5]
+1-7	31-35	Juli	*[5]	DATEletter[5]
+1-8	36-40	1837	*[5]	DATEletter[5]
+1-9	41-44	Dr.	_	_
+1-10	45-50	Braun	*	PERaddressee
+1-11	51-52	g	_	_
+1-12	53-54	.	_	_
+1-13	55-59	22/7	*[6]	DATErecieved[6]
+1-14	60-62	37	*[6]	DATErecieved[6]
+1-15	63-66	Aff	_	_
+1-16	67-68	.	_	_
+
+#Text=d. Direz .
+2-1	69-71	d.	_	_
+2-2	72-77	Direz	_	_
+2-3	78-79	.	_	_
+
+#Text=CCXXIII Livorno 19 Juli 237 No .
+3-1	80-87	CCXXIII	_	_
+3-2	88-95	Livorno	*	PLACEfrom
+3-3	96-98	19	*[8]	DATEletter[8]
+3-4	99-103	Juli	*[8]	DATEletter[8]
+3-5	104-107	237	*[8]	DATEletter[8]
+3-6	108-110	No	*[8]	DATEletter[8]
+3-7	111-112	.	*[8]	DATEletter[8]
+
+#Text=2 Werden Sie an jettatura glauben ?
+4-1	113-114	2	_	_
+4-2	115-121	Werden	_	_
+4-3	122-125	Sie	_	_
+4-4	126-128	an	_	_
+4-5	129-138	jettatura	_	_
+4-6	139-146	glauben	_	_
+4-7	147-148	?	_	_
+
+#Text=Als ich eben meinen Brief für Sie zur Post empfohlen habe , benachrichtigt der Consul von großer Schwgirigkeit meinen Paß vor wirklichem Auszug aus dem Lazaret zu bekommen , dabei vor Cholerafurcht vom Norden her , selbst Pestfurcht gegen Marseille , mögliche Absperrung zwischen Livorno und Florenz , zwischen Florenz und Rom .
+5-1	149-152	Als	_	_
+5-2	153-156	ich	_	_
+5-3	157-161	eben	_	_
+5-4	162-168	meinen	_	_
+5-5	169-174	Brief	_	_
+5-6	175-178	für	_	_
+5-7	179-182	Sie	_	_
+5-8	183-186	zur	_	_
+5-9	187-191	Post	_	_
+5-10	192-201	empfohlen	_	_
+5-11	202-206	habe	_	_
+5-12	207-208	,	_	_
+5-13	209-223	benachrichtigt	_	_
+5-14	224-227	der	_	_
+5-15	228-234	Consul	_	_
+5-16	235-238	von	_	_
+5-17	239-245	großer	_	_
+5-18	246-259	Schwgirigkeit	_	_
+5-19	260-266	meinen	_	_
+5-20	267-270	Paß	_	_
+5-21	271-274	vor	_	_
+5-22	275-285	wirklichem	_	_
+5-23	286-292	Auszug	_	_
+5-24	293-296	aus	_	_
+5-25	297-300	dem	_	_
+5-26	301-308	Lazaret	_	_
+5-27	309-311	zu	_	_
+5-28	312-320	bekommen	_	_
+5-29	321-322	,	_	_
+5-30	323-328	dabei	_	_
+5-31	329-332	vor	_	_
+5-32	333-346	Cholerafurcht	_	_
+5-33	347-350	vom	_	_
+5-34	351-357	Norden	_	_
+5-35	358-361	her	_	_
+5-36	362-363	,	_	_
+5-37	364-370	selbst	_	_
+5-38	371-381	Pestfurcht	_	_
+5-39	382-387	gegen	_	_
+5-40	388-397	Marseille	*	PLACEmentioned
+5-41	398-399	,	_	_
+5-42	400-408	mögliche	_	_
+5-43	409-419	Absperrung	_	_
+5-44	420-428	zwischen	_	_
+5-45	429-436	Livorno	*	PLACEmentioned
+5-46	437-440	und	_	_
+5-47	441-448	Florenz	*	PLACEmentioned
+5-48	449-450	,	_	_
+5-49	451-459	zwischen	_	_
+5-50	460-467	Florenz	*	PLACEmentioned
+5-51	468-471	und	_	_
+5-52	472-475	Rom	*	PLACEmentioned
+5-53	476-477	.	_	_
+
+#Text=Wieviel davon seiner Furchtsamkeit angehört , lasse ich dahin gestellt \; ich melde es Ihnen damit Sie nicht allzu sehr auf meine Ankunft nächsten Montag rechnen , für die ich übrigens das Möglichste thue .
+6-1	478-485	Wieviel	_	_
+6-2	486-491	davon	_	_
+6-3	492-498	seiner	_	_
+6-4	499-512	Furchtsamkeit	_	_
+6-5	513-521	angehört	_	_
+6-6	522-523	,	_	_
+6-7	524-529	lasse	_	_
+6-8	530-533	ich	_	_
+6-9	534-539	dahin	_	_
+6-10	540-548	gestellt	_	_
+6-11	549-550	\;	_	_
+6-12	551-554	ich	_	_
+6-13	555-560	melde	_	_
+6-14	561-563	es	_	_
+6-15	564-569	Ihnen	_	_
+6-16	570-575	damit	_	_
+6-17	576-579	Sie	_	_
+6-18	580-585	nicht	_	_
+6-19	586-591	allzu	_	_
+6-20	592-596	sehr	_	_
+6-21	597-600	auf	_	_
+6-22	601-606	meine	_	_
+6-23	607-614	Ankunft	_	_
+6-24	615-623	nächsten	_	_
+6-25	624-630	Montag	_	_
+6-26	631-638	rechnen	_	_
+6-27	639-640	,	_	_
+6-28	641-644	für	_	_
+6-29	645-648	die	_	_
+6-30	649-652	ich	_	_
+6-31	653-661	übrigens	_	_
+6-32	662-665	das	_	_
+6-33	666-676	Möglichste	_	_
+6-34	677-681	thue	_	_
+6-35	682-683	.	_	_
+
+#Text=Ich kann der Möglichkeit noch keine Rede geben daß ich wirklich von Rom abgesperrt bleiben sollte .
+7-1	684-687	Ich	_	_
+7-2	688-692	kann	_	_
+7-3	693-696	der	_	_
+7-4	697-708	Möglichkeit	_	_
+7-5	709-713	noch	_	_
+7-6	714-719	keine	_	_
+7-7	720-724	Rede	_	_
+7-8	725-730	geben	_	_
+7-9	731-734	daß	_	_
+7-10	735-738	ich	_	_
+7-11	739-747	wirklich	_	_
+7-12	748-751	von	_	_
+7-13	752-755	Rom	*	PLACEmentioned
+7-14	756-766	abgesperrt	_	_
+7-15	767-774	bleiben	_	_
+7-16	775-781	sollte	_	_
+7-17	782-783	.	_	_
+
+#Text=Nochmals herzlichst Ihr Gerhard
+8-1	784-792	Nochmals	_	_
+8-2	793-803	herzlichst	_	_
+8-3	804-807	Ihr	_	_
+8-4	808-815	Gerhard	*	PERauthor

@@ -1,0 +1,203 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=79 Gerhard an Braun Berlin , 10. Februar 1849 Lenormant als Letronne 's Nachfolger ist uns nicht unwillkommen .
+1-1	0-2	79	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	10.	*[1]	DATEletter[1]
+1-8	33-40	Februar	*[1]	DATEletter[1]
+1-9	41-45	1849	*[1]	DATEletter[1]
+1-10	46-55	Lenormant	*	PERmentioned
+1-11	56-59	als	_	_
+1-12	60-68	Letronne	*[3]	PERmentioned[3]
+1-13	69-71	's	*[3]	PERmentioned[3]
+1-14	72-82	Nachfolger	_	_
+1-15	83-86	ist	_	_
+1-16	87-90	uns	_	_
+1-17	91-96	nicht	_	_
+1-18	97-109	unwillkommen	_	_
+1-19	110-111	.	_	_
+
+#Text=Soll ich denn diesmal um Lanci 's Neujahrswunsch kommen ?
+2-1	112-116	Soll	_	_
+2-2	117-120	ich	_	_
+2-3	121-125	denn	_	_
+2-4	126-133	diesmal	_	_
+2-5	134-136	um	_	_
+2-6	137-142	Lanci	*[4]	PERmentioned[4]
+2-7	143-145	's	*[4]	PERmentioned[4]
+2-8	146-160	Neujahrswunsch	_	_
+2-9	161-167	kommen	_	_
+2-10	168-169	?	_	_
+
+#Text=Grüßen Sie ihn bestens - , „ und die conti ?
+3-1	170-176	Grüßen	_	_
+3-2	177-180	Sie	_	_
+3-3	181-184	ihn	_	_
+3-4	185-192	bestens	_	_
+3-5	193-194	-	_	_
+3-6	195-196	,	_	_
+3-7	197-198	„	_	_
+3-8	199-202	und	_	_
+3-9	203-206	die	_	_
+3-10	207-212	conti	_	_
+3-11	213-214	?	_	_
+
+#Text=Sind im politischen Wirbelwind wol verflogen .
+4-1	215-219	Sind	_	_
+4-2	220-222	im	_	_
+4-3	223-234	politischen	_	_
+4-4	235-245	Wirbelwind	_	_
+4-5	246-249	wol	_	_
+4-6	250-259	verflogen	_	_
+4-7	260-261	.	_	_
+
+#Text=Liquidiren aber muß das Institut unverzüglich , und von nun an einfachste Rechnung haben , darauf dringt Bunsen .
+5-1	262-272	Liquidiren	_	_
+5-2	273-277	aber	_	_
+5-3	278-281	muß	_	_
+5-4	282-285	das	_	_
+5-5	286-294	Institut	*	ORGmentioned
+5-6	295-307	unverzüglich	_	_
+5-7	308-309	,	_	_
+5-8	310-313	und	_	_
+5-9	314-317	von	_	_
+5-10	318-321	nun	_	_
+5-11	322-324	an	_	_
+5-12	325-335	einfachste	_	_
+5-13	336-344	Rechnung	_	_
+5-14	345-350	haben	_	_
+5-15	351-352	,	_	_
+5-16	353-359	darauf	_	_
+5-17	360-366	dringt	_	_
+5-18	367-373	Bunsen	*	PERmentioned
+5-19	374-375	.	_	_
+
+#Text=Ihrem anatomischen Kursus gute Früchte !
+6-1	376-381	Ihrem	_	_
+6-2	382-394	anatomischen	_	_
+6-3	395-401	Kursus	_	_
+6-4	402-406	gute	_	_
+6-5	407-414	Früchte	_	_
+6-6	415-416	!	_	_
+
+#Text=Den Freunden beste Grüße , auch dem Servo Reumont , Herzlichst Gerhard Quer am Rande Daß im Bullettino Agosto Artikel von Welcker und Panofka stehen , welche gleichzeitig in der Archäologischen Zeitung erschienen sind ist ein von mir unvorhergesehenes Testimonium paupertatis unsrer an Erudition doch so reichen Kollegen : begreiflicher Weise hätte ich dem Bullettino nicht vorgegriffen , wäre die Doppelsendung mir bewußt gewesen .
+7-1	417-420	Den	_	_
+7-2	421-429	Freunden	_	_
+7-3	430-435	beste	_	_
+7-4	436-441	Grüße	_	_
+7-5	442-443	,	_	_
+7-6	444-448	auch	_	_
+7-7	449-452	dem	_	_
+7-8	453-458	Servo	_	_
+7-9	459-466	Reumont	*	PERmentioned
+7-10	467-468	,	_	_
+7-11	469-479	Herzlichst	_	_
+7-12	480-487	Gerhard	*	PERauthor
+7-13	488-492	Quer	_	_
+7-14	493-495	am	_	_
+7-15	496-501	Rande	_	_
+7-16	502-505	Daß	_	_
+7-17	506-508	im	_	_
+7-18	509-519	Bullettino	_	_
+7-19	520-526	Agosto	*	DATEmentioned
+7-20	527-534	Artikel	_	_
+7-21	535-538	von	_	_
+7-22	539-546	Welcker	*	PERmentioned
+7-23	547-550	und	_	_
+7-24	551-558	Panofka	*	PERmentioned
+7-25	559-565	stehen	_	_
+7-26	566-567	,	_	_
+7-27	568-574	welche	_	_
+7-28	575-587	gleichzeitig	_	_
+7-29	588-590	in	_	_
+7-30	591-594	der	_	_
+7-31	595-610	Archäologischen	_	_
+7-32	611-618	Zeitung	_	_
+7-33	619-629	erschienen	_	_
+7-34	630-634	sind	_	_
+7-35	635-638	ist	_	_
+7-36	639-642	ein	_	_
+7-37	643-646	von	_	_
+7-38	647-650	mir	_	_
+7-39	651-668	unvorhergesehenes	_	_
+7-40	669-680	Testimonium	_	_
+7-41	681-692	paupertatis	_	_
+7-42	693-699	unsrer	_	_
+7-43	700-702	an	_	_
+7-44	703-712	Erudition	_	_
+7-45	713-717	doch	_	_
+7-46	718-720	so	_	_
+7-47	721-728	reichen	_	_
+7-48	729-737	Kollegen	_	_
+7-49	738-739	:	_	_
+7-50	740-753	begreiflicher	_	_
+7-51	754-759	Weise	_	_
+7-52	760-765	hätte	_	_
+7-53	766-769	ich	_	_
+7-54	770-773	dem	_	_
+7-55	774-784	Bullettino	_	_
+7-56	785-790	nicht	_	_
+7-57	791-803	vorgegriffen	_	_
+7-58	804-805	,	_	_
+7-59	806-810	wäre	_	_
+7-60	811-814	die	_	_
+7-61	815-828	Doppelsendung	_	_
+7-62	829-832	mir	_	_
+7-63	833-839	bewußt	_	_
+7-64	840-847	gewesen	_	_
+7-65	848-849	.	_	_
+
+#Text=Wie treibst 's Orioli , noch in Rom ?
+8-1	850-853	Wie	_	_
+8-2	854-861	treibst	_	_
+8-3	862-864	's	_	_
+8-4	865-871	Orioli	*	PERmentioned
+8-5	872-873	,	_	_
+8-6	874-878	noch	_	_
+8-7	879-881	in	_	_
+8-8	882-885	Rom	*	PLACEmentioned
+8-9	886-887	?	_	_
+
+#Text=Wird der ARCUS IN VIA SACRA SUMMA bald publicirt ?
+9-1	888-892	Wird	_	_
+9-2	893-896	der	_	_
+9-3	897-902	ARCUS	*[2]	OBJ[2]
+9-4	903-905	IN	*[2]	OBJ[2]
+9-5	906-909	VIA	*[2]	OBJ[2]
+9-6	910-915	SACRA	*[2]	OBJ[2]
+9-7	916-921	SUMMA	*[2]	OBJ[2]
+9-8	922-926	bald	_	_
+9-9	927-936	publicirt	_	_
+9-10	937-938	?	_	_
+
+#Text=Ihr Bericht darüber ist sehr anziehend - , „ ich will versuchen ihn sofort für den Staatsankeiger zu zeitgemäßer Erwähnung des Instituts auszubeuten .
+10-1	939-942	Ihr	_	_
+10-2	943-950	Bericht	_	_
+10-3	951-958	darüber	_	_
+10-4	959-962	ist	_	_
+10-5	963-967	sehr	_	_
+10-6	968-977	anziehend	_	_
+10-7	978-979	-	_	_
+10-8	980-981	,	_	_
+10-9	982-983	„	_	_
+10-10	984-987	ich	_	_
+10-11	988-992	will	_	_
+10-12	993-1002	versuchen	_	_
+10-13	1003-1006	ihn	_	_
+10-14	1007-1013	sofort	_	_
+10-15	1014-1017	für	_	_
+10-16	1018-1021	den	_	_
+10-17	1022-1036	Staatsankeiger	_	_
+10-18	1037-1039	zu	_	_
+10-19	1040-1051	zeitgemäßer	_	_
+10-20	1052-1061	Erwähnung	_	_
+10-21	1062-1065	des	_	_
+10-22	1066-1075	Instituts	*	ORGmentioned
+10-23	1076-1087	auszubeuten	_	_
+10-24	1088-1089	.	_	_

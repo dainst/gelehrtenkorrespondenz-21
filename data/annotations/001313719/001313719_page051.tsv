@@ -1,0 +1,105 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Eoounn .. Gerhard an Henzen Berlin , 14. Mai 1846 ( Poststempel , da kein Datum ) eooneo ... gen für Dr. Henzen , mit bestem Gruß .
+1-1	0-6	Eoounn	_	_
+1-2	7-9	..	_	_
+1-3	10-17	Gerhard	*	PERauthor
+1-4	18-20	an	_	_
+1-5	21-27	Henzen	*	PERaddressee
+1-6	28-34	Berlin	*	PLACEfrom
+1-7	35-36	,	_	_
+1-8	37-40	14.	*[1]	DATEletter[1]
+1-9	41-44	Mai	*[1]	DATEletter[1]
+1-10	45-49	1846	*[1]	DATEletter[1]
+1-11	50-51	(	_	_
+1-12	52-63	Poststempel	_	_
+1-13	64-65	,	_	_
+1-14	66-68	da	_	_
+1-15	69-73	kein	_	_
+1-16	74-79	Datum	_	_
+1-17	80-81	)	_	_
+1-18	82-88	eooneo	_	_
+1-19	89-92	...	_	_
+1-20	93-96	gen	_	_
+1-21	97-100	für	_	_
+1-22	101-104	Dr.	_	_
+1-23	105-111	Henzen	*	PERaddressee
+1-24	112-113	,	_	_
+1-25	114-117	mit	_	_
+1-26	118-124	bestem	_	_
+1-27	125-129	Gruß	_	_
+1-28	130-131	.	_	_
+
+#Text=Ob von der Straße gen Damaskus hin 2 Inschriften des M. Aurel und L. Verus bekannt sind ?
+2-1	132-134	Ob	_	_
+2-2	135-138	von	_	_
+2-3	139-142	der	_	_
+2-4	143-149	Straße	_	_
+2-5	150-153	gen	_	_
+2-6	154-162	Damaskus	*	PLACEmentioned
+2-7	163-166	hin	_	_
+2-8	167-168	2	_	_
+2-9	169-180	Inschriften	*	OBJ
+2-10	181-184	des	_	_
+2-11	185-187	M.	*[2]	PERmentioned[2]
+2-12	188-193	Aurel	*[2]	PERmentioned[2]
+2-13	194-197	und	_	_
+2-14	198-200	L.	*[3]	PERmentioned[3]
+2-15	201-206	Verus	*[3]	PERmentioned[3]
+2-16	207-214	bekannt	_	_
+2-17	215-219	sind	_	_
+2-18	220-221	?	_	_
+
+#Text=Lepsius hat sie mitgebracht .
+3-1	222-229	Lepsius	*	PERmentioned
+3-2	230-233	hat	_	_
+3-3	234-237	sie	_	_
+3-4	238-249	mitgebracht	_	_
+3-5	250-251	.	_	_
+
+#Text=Wo denn Herr Alexius von Bendocz zu Hause ist ?
+4-1	252-254	Wo	_	_
+4-2	255-259	denn	_	_
+4-3	260-264	Herr	_	_
+4-4	265-272	Alexius	*[4]	PERmentioned[4]
+4-5	273-276	von	*[4]	PERmentioned[4]
+4-6	277-284	Bendocz	*[4]	PERmentioned[4]
+4-7	285-287	zu	_	_
+4-8	288-293	Hause	_	_
+4-9	294-297	ist	_	_
+4-10	298-299	?	_	_
+
+#Text=Ob im Bullettino Napoletano oder separat Avellino's Text über Mythos und Vase des Talos noch nicht erschienen ist ?
+5-1	300-302	Ob	_	_
+5-2	303-305	im	_	_
+5-3	306-316	Bullettino	_	_
+5-4	317-327	Napoletano	_	_
+5-5	328-332	oder	_	_
+5-6	333-340	separat	_	_
+5-7	341-351	Avellino's	*	PERmentioned
+5-8	352-356	Text	_	_
+5-9	357-361	über	_	_
+5-10	362-368	Mythos	_	_
+5-11	369-372	und	_	_
+5-12	373-377	Vase	*[5]	OBJ[5]
+5-13	378-381	des	*[5]	OBJ[5]
+5-14	382-387	Talos	*[5]	OBJ[5]
+5-15	388-392	noch	_	_
+5-16	393-398	nicht	_	_
+5-17	399-409	erschienen	_	_
+5-18	410-413	ist	_	_
+5-19	414-415	?	_	_
+
+#Text=Poststempel von Rom : 25 magg .
+6-1	416-427	Poststempel	_	_
+6-2	428-431	von	_	_
+6-3	432-435	Rom	*	PLACEto
+6-4	436-437	:	_	_
+6-5	438-440	25	*[6]	DATErecieved[6]
+6-6	441-445	magg	*[6]	DATErecieved[6]
+6-7	446-447	.	*[6]	DATErecieved[6]
+
+#Text=46
+7-1	448-450	46	*[6]	DATErecieved[6]

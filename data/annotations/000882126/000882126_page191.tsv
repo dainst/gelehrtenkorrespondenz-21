@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 15. Juli 1837 ligt .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	15.	*[7]	DATEletter[7]
+1-7	27-31	Juli	*[7]	DATEletter[7]
+1-8	32-36	1837	*[7]	DATEletter[7]
+1-9	37-41	ligt	_	_
+1-10	42-43	.	_	_
+
+#Text=Freitags Mittag um 2 Uhr ging ich mit einem gehefteten Exemplar aus der Druckerei fort .
+2-1	44-52	Freitags	*	DATEmentioned
+2-2	53-59	Mittag	_	_
+2-3	60-62	um	_	_
+2-4	63-64	2	_	_
+2-5	65-68	Uhr	_	_
+2-6	69-73	ging	_	_
+2-7	74-77	ich	_	_
+2-8	78-81	mit	_	_
+2-9	82-87	einem	_	_
+2-10	88-98	gehefteten	_	_
+2-11	99-107	Exemplar	_	_
+2-12	108-111	aus	_	_
+2-13	112-115	der	_	_
+2-14	116-125	Druckerei	_	_
+2-15	126-130	fort	_	_
+2-16	131-132	.	_	_
+
+#Text=Die Schrift macht sich gut \; zu ihrer äußeren Ausstattung habe ich mein Möglichstes beigetragen .
+3-1	133-136	Die	_	_
+3-2	137-144	Schrift	_	_
+3-3	145-150	macht	_	_
+3-4	151-155	sich	_	_
+3-5	156-159	gut	_	_
+3-6	160-161	\;	_	_
+3-7	162-164	zu	_	_
+3-8	165-170	ihrer	_	_
+3-9	171-178	äußeren	_	_
+3-10	179-190	Ausstattung	_	_
+3-11	191-195	habe	_	_
+3-12	196-199	ich	_	_
+3-13	200-204	mein	_	_
+3-14	205-216	Möglichstes	_	_
+3-15	217-228	beigetragen	_	_
+3-16	229-230	.	_	_
+
+#Text=Seit dieser Zeit ist Orlandi und später auch Campanaris Diener bei mir gewesen .
+4-1	231-235	Seit	_	_
+4-2	236-242	dieser	_	_
+4-3	243-247	Zeit	_	_
+4-4	248-251	ist	_	_
+4-5	252-259	Orlandi	*	PERmentioned
+4-6	260-263	und	_	_
+4-7	264-270	später	_	_
+4-8	271-275	auch	_	_
+4-9	276-286	Campanaris	*	PERmentioned
+4-10	287-293	Diener	*	PERmentioned
+4-11	294-297	bei	_	_
+4-12	298-301	mir	_	_
+4-13	302-309	gewesen	_	_
+4-14	310-311	.	_	_
+
+#Text=Für die Vasen fährt man mit Orlandi besser , bei den Tazzen indeß dürfte jener hin und wieder besser sein .
+5-1	312-315	Für	_	_
+5-2	316-319	die	_	_
+5-3	320-325	Vasen	*	OBJ
+5-4	326-331	fährt	_	_
+5-5	332-335	man	_	_
+5-6	336-339	mit	_	_
+5-7	340-347	Orlandi	*	PERmentioned
+5-8	348-354	besser	_	_
+5-9	355-356	,	_	_
+5-10	357-360	bei	_	_
+5-11	361-364	den	_	_
+5-12	365-371	Tazzen	*	OBJ
+5-13	372-377	indeß	_	_
+5-14	378-384	dürfte	_	_
+5-15	385-390	jener	_	_
+5-16	391-394	hin	_	_
+5-17	395-398	und	_	_
+5-18	399-405	wieder	_	_
+5-19	406-412	besser	_	_
+5-20	413-417	sein	_	_
+5-21	418-419	.	_	_
+
+#Text=Item ich habe die egypt .
+6-1	420-424	Item	_	_
+6-2	425-428	ich	_	_
+6-3	429-433	habe	_	_
+6-4	434-437	die	_	_
+6-5	438-443	egypt	*[8]	OBJ[8]
+6-6	444-445	.	*[8]	OBJ[8]
+
+#Text=Vase mit der Trojan .
+7-1	446-450	Vase	*[8]	OBJ[8]
+7-2	451-454	mit	_	_
+7-3	455-458	der	_	_
+7-4	459-465	Trojan	_	_
+7-5	466-467	.	_	_
+
+#Text=Scene für 8 Scudi an Orlandi gegeben .
+8-1	468-473	Scene	_	_
+8-2	474-477	für	_	_
+8-3	478-479	8	_	_
+8-4	480-485	Scudi	_	_
+8-5	486-488	an	_	_
+8-6	489-496	Orlandi	*	PERmentioned
+8-7	497-504	gegeben	_	_
+8-8	505-506	.	_	_
+
+#Text=Campanaridiener verspricht den Cyenus für den ? 5.ten .
+9-1	507-522	Campanaridiener	*	MISC
+9-2	523-533	verspricht	_	_
+9-3	534-537	den	_	_
+9-4	538-544	Cyenus	*	OBJ
+9-5	545-548	für	_	_
+9-6	549-552	den	_	_
+9-7	553-554	?	_	_
+9-8	555-560	5.ten	*	DATEmentioned
+9-9	561-562	.	_	_
+
+#Text=- Ich rathe Ihnen wegen der Restauri möglichste Gewissenhaftigkeit an \; dem ist nichts was einer Sammlung in so bitterem Ton nachgesagt werden kann , als gerade schlechte Restauration .
+10-1	563-564	-	_	_
+10-2	565-568	Ich	_	_
+10-3	569-574	rathe	_	_
+10-4	575-580	Ihnen	_	_
+10-5	581-586	wegen	_	_
+10-6	587-590	der	_	_
+10-7	591-599	Restauri	_	_
+10-8	600-610	möglichste	_	_
+10-9	611-629	Gewissenhaftigkeit	_	_
+10-10	630-632	an	_	_
+10-11	633-634	\;	_	_
+10-12	635-638	dem	_	_
+10-13	639-642	ist	_	_
+10-14	643-649	nichts	_	_
+10-15	650-653	was	_	_
+10-16	654-659	einer	_	_
+10-17	660-668	Sammlung	_	_
+10-18	669-671	in	_	_
+10-19	672-674	so	_	_
+10-20	675-683	bitterem	_	_
+10-21	684-687	Ton	_	_
+10-22	688-698	nachgesagt	_	_
+10-23	699-705	werden	_	_
+10-24	706-710	kann	_	_
+10-25	711-712	,	_	_
+10-26	713-716	als	_	_
+10-27	717-723	gerade	_	_
+10-28	724-733	schlechte	_	_
+10-29	734-746	Restauration	_	_
+10-30	747-748	.	_	_
+
+#Text=Das könnte Ihnen später viel Verdruß verursachen .
+11-1	749-752	Das	_	_
+11-2	753-759	könnte	_	_
+11-3	760-765	Ihnen	_	_
+11-4	766-772	später	_	_
+11-5	773-777	viel	_	_
+11-6	778-785	Verdruß	_	_
+11-7	786-797	verursachen	_	_
+11-8	798-799	.	_	_
+
+#Text=An Avvolta habe ich geschrieben , er soll am 24 , sten am Port des Vapore sein .
+12-1	800-802	An	_	_
+12-2	803-810	Avvolta	*	PERmentioned
+12-3	811-815	habe	_	_
+12-4	816-819	ich	_	_
+12-5	820-831	geschrieben	_	_
+12-6	832-833	,	_	_
+12-7	834-836	er	_	_
+12-8	837-841	soll	_	_
+12-9	842-844	am	_	_
+12-10	845-847	24	*[10]	DATEmentioned[10]
+12-11	848-849	,	*[10]	DATEmentioned[10]
+12-12	850-854	sten	*[10]	DATEmentioned[10]
+12-13	855-857	am	_	_
+12-14	858-862	Port	*[9]	PLACEmentioned[9]
+12-15	863-866	des	*[9]	PLACEmentioned[9]
+12-16	867-873	Vapore	*[9]	PLACEmentioned[9]
+12-17	874-878	sein	_	_
+12-18	879-880	.	_	_
+
+#Text=Inghirani hat Spiegelzeichnungen geschickt .
+13-1	881-890	Inghirani	*	PERmentioned
+13-2	891-894	hat	_	_
+13-3	895-913	Spiegelzeichnungen	_	_
+13-4	914-923	geschickt	_	_
+13-5	924-925	.	_	_
+
+#Text=Ich kann heute nicht weiter schreiben und werde nun auch nicht wieder schreiben , weil meine Briefe Sie nicht mehr treffen können .
+14-1	926-929	Ich	_	_
+14-2	930-934	kann	_	_
+14-3	935-940	heute	_	_
+14-4	941-946	nicht	_	_
+14-5	947-953	weiter	_	_
+14-6	954-963	schreiben	_	_
+14-7	964-967	und	_	_
+14-8	968-973	werde	_	_
+14-9	974-977	nun	_	_
+14-10	978-982	auch	_	_
+14-11	983-988	nicht	_	_
+14-12	989-995	wieder	_	_
+14-13	996-1005	schreiben	_	_
+14-14	1006-1007	,	_	_
+14-15	1008-1012	weil	_	_
+14-16	1013-1018	meine	_	_
+14-17	1019-1025	Briefe	_	_
+14-18	1026-1029	Sie	_	_
+14-19	1030-1035	nicht	_	_
+14-20	1036-1040	mehr	_	_
+14-21	1041-1048	treffen	_	_
+14-22	1049-1055	können	_	_
+14-23	1056-1057	.	_	_
+
+#Text=Alles andere also mündlich .
+15-1	1058-1063	Alles	_	_
+15-2	1064-1070	andere	_	_
+15-3	1071-1075	also	_	_
+15-4	1076-1084	mündlich	_	_
+15-5	1085-1086	.	_	_
+
+#Text=Ihr EBraun .
+16-1	1087-1090	Ihr	_	_
+16-2	1091-1097	EBraun	*	PERauthor
+16-3	1098-1099	.	_	_

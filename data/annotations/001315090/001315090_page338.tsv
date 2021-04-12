@@ -1,0 +1,95 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=674 Lepsius an Henzen Berlin , 25 .
+1-1	0-3	674	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	25	*[1]	DATEletter[1]
+1-8	34-35	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1877 Auch Helbig 's Wunsch wegen Klügmann , den Sie unterstützen , werde ich Montag vorlegen .
+2-1	36-43	Oktober	*[1]	DATEletter[1]
+2-2	44-48	1877	*[1]	DATEletter[1]
+2-3	49-53	Auch	_	_
+2-4	54-60	Helbig	*[4]	PERmentioned[4]
+2-5	61-63	's	*[4]	PERmentioned[4]
+2-6	64-70	Wunsch	_	_
+2-7	71-76	wegen	_	_
+2-8	77-85	Klügmann	*	PERmentioned
+2-9	86-87	,	_	_
+2-10	88-91	den	_	_
+2-11	92-95	Sie	_	_
+2-12	96-108	unterstützen	_	_
+2-13	109-110	,	_	_
+2-14	111-116	werde	_	_
+2-15	117-120	ich	_	_
+2-16	121-127	Montag	*	DATEmentioned
+2-17	128-136	vorlegen	_	_
+2-18	137-138	.	_	_
+
+#Text=Wann kommt nur Mommsen wieder , den ich bestens grüße .
+3-1	139-143	Wann	_	_
+3-2	144-149	kommt	_	_
+3-3	150-153	nur	_	_
+3-4	154-161	Mommsen	*	PERmentioned
+3-5	162-168	wieder	_	_
+3-6	169-170	,	_	_
+3-7	171-174	den	_	_
+3-8	175-178	ich	_	_
+3-9	179-186	bestens	_	_
+3-10	187-192	grüße	_	_
+3-11	193-194	.	_	_
+
+#Text=Wir warten also seine Rückkehr wegen der Arch . Bibliothek ab .
+4-1	195-198	Wir	_	_
+4-2	199-205	warten	_	_
+4-3	206-210	also	_	_
+4-4	211-216	seine	_	_
+4-5	217-225	Rückkehr	_	_
+4-6	226-231	wegen	_	_
+4-7	232-235	der	_	_
+4-8	236-240	Arch	*[2]	ORGmentioned[2]
+4-9	241-242	.	*[2]	ORGmentioned[2]
+4-10	243-253	Bibliothek	*[2]	ORGmentioned[2]
+4-11	254-256	ab	_	_
+4-12	257-258	.	_	_
+
+#Text=Endlich ist schönes warmes Herbstwetter bei uns eingegangen .
+5-1	259-266	Endlich	_	_
+5-2	267-270	ist	_	_
+5-3	271-278	schönes	_	_
+5-4	279-285	warmes	_	_
+5-5	286-298	Herbstwetter	_	_
+5-6	299-302	bei	_	_
+5-7	303-306	uns	_	_
+5-8	307-318	eingegangen	_	_
+5-9	319-320	.	_	_
+
+#Text=Ihr ergebenster R Lepsius Danke herzlich für den Hochzwitsgruß .
+6-1	321-324	Ihr	_	_
+6-2	325-336	ergebenster	_	_
+6-3	337-338	R	*[3]	PERauthor[3]
+6-4	339-346	Lepsius	*[3]	PERauthor[3]
+6-5	347-352	Danke	_	_
+6-6	353-361	herzlich	_	_
+6-7	362-365	für	_	_
+6-8	366-369	den	_	_
+6-9	370-383	Hochzwitsgruß	_	_
+6-10	384-385	.	_	_
+
+#Text=Das glückliche Paar wird heute wohl in Darmstadt einziehen .
+7-1	386-389	Das	_	_
+7-2	390-400	glückliche	_	_
+7-3	401-405	Paar	_	_
+7-4	406-410	wird	_	_
+7-5	411-416	heute	_	_
+7-6	417-421	wohl	_	_
+7-7	422-424	in	_	_
+7-8	425-434	Darmstadt	*	PLACEmentioned
+7-9	435-444	einziehen	_	_
+7-10	445-446	.	_	_

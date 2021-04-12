@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 17. April 1838 Dr. Braun g . 30/4 38 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	17.	*[5]	DATEletter[5]
+1-7	30-35	April	*[5]	DATEletter[5]
+1-8	36-40	1838	*[5]	DATEletter[5]
+1-9	41-44	Dr.	_	_
+1-10	45-50	Braun	*	PERaddressee
+1-11	51-52	g	_	_
+1-12	53-54	.	_	_
+1-13	55-59	30/4	*[6]	DATErecieved[6]
+1-14	60-62	38	*[6]	DATErecieved[6]
+1-15	63-66	Aff	_	_
+1-16	67-68	.	_	_
+
+#Text=d . Dir .
+2-1	69-70	d	_	_
+2-2	71-72	.	_	_
+2-3	73-76	Dir	_	_
+2-4	77-78	.	_	_
+
+#Text=CORRXR r . 30/4 38 Berlin 717 April 38 Den Wechsel werden Sie erhalten haben .
+3-1	79-85	CORRXR	_	_
+3-2	86-87	r	_	_
+3-3	88-89	.	_	_
+3-4	90-94	30/4	*[7]	DATEanswered[7]
+3-5	95-97	38	*[7]	DATEanswered[7]
+3-6	98-104	Berlin	*	PLACEfrom
+3-7	105-108	717	*[9]	DATEletter[9]
+3-8	109-114	April	*[9]	DATEletter[9]
+3-9	115-117	38	*[9]	DATEletter[9]
+3-10	118-121	Den	_	_
+3-11	122-129	Wechsel	_	_
+3-12	130-136	werden	_	_
+3-13	137-140	Sie	_	_
+3-14	141-149	erhalten	_	_
+3-15	150-155	haben	_	_
+3-16	156-157	.	_	_
+
+#Text=Mein theurer Freund , Ihr Brief an Gerstäcker ist abgegeben und wohl aufgenommen worden \; er erwartet die Quittung Seiner 2.ten Rechnung und bemerkt mit Recht daß wenigstens '' salvo omissione '' genügen könnte .
+4-1	158-162	Mein	_	_
+4-2	163-170	theurer	_	_
+4-3	171-177	Freund	_	_
+4-4	178-179	,	_	_
+4-5	180-183	Ihr	_	_
+4-6	184-189	Brief	_	_
+4-7	190-192	an	_	_
+4-8	193-203	Gerstäcker	*	PERmentioned
+4-9	204-207	ist	_	_
+4-10	208-217	abgegeben	_	_
+4-11	218-221	und	_	_
+4-12	222-226	wohl	_	_
+4-13	227-238	aufgenommen	_	_
+4-14	239-245	worden	_	_
+4-15	246-247	\;	_	_
+4-16	248-250	er	_	_
+4-17	251-259	erwartet	_	_
+4-18	260-263	die	_	_
+4-19	264-272	Quittung	_	_
+4-20	273-279	Seiner	_	_
+4-21	280-285	2.ten	_	_
+4-22	286-294	Rechnung	_	_
+4-23	295-298	und	_	_
+4-24	299-306	bemerkt	_	_
+4-25	307-310	mit	_	_
+4-26	311-316	Recht	_	_
+4-27	317-320	daß	_	_
+4-28	321-331	wenigstens	_	_
+4-29	332-334	''	_	_
+4-30	335-340	salvo	_	_
+4-31	341-350	omissione	_	_
+4-32	351-353	''	_	_
+4-33	354-361	genügen	_	_
+4-34	362-368	könnte	_	_
+4-35	369-370	.	_	_
+
+#Text=In Betreff der Ministerialex .
+5-1	371-373	In	_	_
+5-2	374-381	Betreff	_	_
+5-3	382-385	der	_	_
+5-4	386-399	Ministerialex	_	_
+5-5	400-401	.	_	_
+
+#Text=wünsche ich außer Spiel zu sein \; sie können ja bei G. so gut deponirt bleiben als bei mir dem es ebenfalls an Platz gebricht .
+6-1	402-409	wünsche	_	_
+6-2	410-413	ich	_	_
+6-3	414-419	außer	_	_
+6-4	420-425	Spiel	_	_
+6-5	426-428	zu	_	_
+6-6	429-433	sein	_	_
+6-7	434-435	\;	_	_
+6-8	436-439	sie	_	_
+6-9	440-446	können	_	_
+6-10	447-449	ja	_	_
+6-11	450-453	bei	_	_
+6-12	454-456	G.	_	_
+6-13	457-459	so	_	_
+6-14	460-463	gut	_	_
+6-15	464-472	deponirt	_	_
+6-16	473-480	bleiben	_	_
+6-17	481-484	als	_	_
+6-18	485-488	bei	_	_
+6-19	489-492	mir	_	_
+6-20	493-496	dem	_	_
+6-21	497-499	es	_	_
+6-22	500-509	ebenfalls	_	_
+6-23	510-512	an	_	_
+6-24	513-518	Platz	_	_
+6-25	519-527	gebricht	_	_
+6-26	528-529	.	_	_
+
+#Text=Freitag rekommandirte mir neulich brieflich ei-nen albernen Plan `` das Museo Borbonico kolorirt herauszugeben \; ich verstehe gar nicht was das sagen will .
+7-1	530-537	Freitag	*	PERmentioned
+7-2	538-551	rekommandirte	_	_
+7-3	552-555	mir	_	_
+7-4	556-563	neulich	_	_
+7-5	564-573	brieflich	_	_
+7-6	574-580	ei-nen	_	_
+7-7	581-589	albernen	_	_
+7-8	590-594	Plan	_	_
+7-9	595-597	``	_	_
+7-10	598-601	das	_	_
+7-11	602-607	Museo	*[12]	ORGmentioned[12]
+7-12	608-617	Borbonico	*[12]	ORGmentioned[12]
+7-13	618-626	kolorirt	_	_
+7-14	627-640	herauszugeben	_	_
+7-15	641-642	\;	_	_
+7-16	643-646	ich	_	_
+7-17	647-655	verstehe	_	_
+7-18	656-659	gar	_	_
+7-19	660-665	nicht	_	_
+7-20	666-669	was	_	_
+7-21	670-673	das	_	_
+7-22	674-679	sagen	_	_
+7-23	680-684	will	_	_
+7-24	685-686	.	_	_
+
+#Text=Da Sie ihm gelegentlich schreiben , können Sie ihm wohl sagen daß ich für alle nützlichen und praktischen Wünsche ihm gern zu Diensten stehe .
+8-1	687-689	Da	_	_
+8-2	690-693	Sie	_	_
+8-3	694-697	ihm	_	_
+8-4	698-710	gelegentlich	_	_
+8-5	711-720	schreiben	_	_
+8-6	721-722	,	_	_
+8-7	723-729	können	_	_
+8-8	730-733	Sie	_	_
+8-9	734-737	ihm	_	_
+8-10	738-742	wohl	_	_
+8-11	743-748	sagen	_	_
+8-12	749-752	daß	_	_
+8-13	753-756	ich	_	_
+8-14	757-760	für	_	_
+8-15	761-765	alle	_	_
+8-16	766-776	nützlichen	_	_
+8-17	777-780	und	_	_
+8-18	781-792	praktischen	_	_
+8-19	793-800	Wünsche	_	_
+8-20	801-804	ihm	_	_
+8-21	805-809	gern	_	_
+8-22	810-812	zu	_	_
+8-23	813-821	Diensten	_	_
+8-24	822-827	stehe	_	_
+8-25	828-829	.	_	_
+
+#Text=Zahn schreibt mir daß fr. die Dyan avase bei Lamberti für mich zeichne \; er kann dann die Zeichnungen Ihnen für mich einsenden .
+9-1	830-834	Zahn	*	PERmentioned
+9-2	835-843	schreibt	_	_
+9-3	844-847	mir	_	_
+9-4	848-851	daß	_	_
+9-5	852-855	fr.	_	_
+9-6	856-859	die	_	_
+9-7	860-864	Dyan	*[14]	OBJ[14]
+9-8	865-870	avase	*[14]	OBJ[14]
+9-9	871-874	bei	_	_
+9-10	875-883	Lamberti	*	PERmentioned
+9-11	884-887	für	_	_
+9-12	888-892	mich	_	_
+9-13	893-900	zeichne	_	_
+9-14	901-902	\;	_	_
+9-15	903-905	er	_	_
+9-16	906-910	kann	_	_
+9-17	911-915	dann	_	_
+9-18	916-919	die	_	_
+9-19	920-931	Zeichnungen	_	_
+9-20	932-937	Ihnen	_	_
+9-21	938-941	für	_	_
+9-22	942-946	mich	_	_
+9-23	947-956	einsenden	_	_
+9-24	957-958	.	_	_
+
+#Text=Dr. A k geht nächstens rasch nach Rom \; ich gebe ihm einige neue Probedrücke meines Vasenwerks mit .
+10-1	959-962	Dr.	_	_
+10-2	963-964	A	_	_
+10-3	965-966	k	_	_
+10-4	967-971	geht	_	_
+10-5	972-981	nächstens	_	_
+10-6	982-987	rasch	_	_
+10-7	988-992	nach	_	_
+10-8	993-996	Rom	*	PLACEmentioned
+10-9	997-998	\;	_	_
+10-10	999-1002	ich	_	_
+10-11	1003-1007	gebe	_	_
+10-12	1008-1011	ihm	_	_
+10-13	1012-1018	einige	_	_
+10-14	1019-1023	neue	_	_
+10-15	1024-1035	Probedrücke	_	_
+10-16	1036-1042	meines	_	_
+10-17	1043-1053	Vasenwerks	_	_
+10-18	1054-1057	mit	_	_
+10-19	1058-1059	.	_	_
+
+#Text=Wollen Sie Sich wol in seinem Interesse erkundigen ob
+11-1	1060-1066	Wollen	_	_
+11-2	1067-1070	Sie	_	_
+11-3	1071-1075	Sich	_	_
+11-4	1076-1079	wol	_	_
+11-5	1080-1082	in	_	_
+11-6	1083-1089	seinem	_	_
+11-7	1090-1099	Interesse	_	_
+11-8	1100-1110	erkundigen	_	_
+11-9	1111-1113	ob	_	_

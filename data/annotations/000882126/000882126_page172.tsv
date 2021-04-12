@@ -1,0 +1,280 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=280 Braun an Gerhard Rom , 24. Juni 1837 Sig .
+1-1	0-3	280	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	24.	*[9]	DATEletter[9]
+1-8	31-35	Juni	*[9]	DATEletter[9]
+1-9	36-40	1837	*[9]	DATEletter[9]
+1-10	41-44	Sig	_	_
+1-11	45-46	.	_	_
+
+#Text=Cav .
+2-1	47-50	Cav	_	_
+2-2	51-52	.	_	_
+
+#Text=Gerhard Livorno Roma li 24 Giugno 1837 .
+3-1	53-60	Gerhard	*	PERaddressee
+3-2	61-68	Livorno	*	PLACEto
+3-3	69-73	Roma	*	PLACEfrom
+3-4	74-76	li	_	_
+3-5	77-79	24	*[10]	DATEletter[10]
+3-6	80-86	Giugno	*[10]	DATEletter[10]
+3-7	87-91	1837	*[10]	DATEletter[10]
+3-8	92-93	.	_	_
+
+#Text=Hochverehrtester Freund !
+4-1	94-110	Hochverehrtester	_	_
+4-2	111-117	Freund	_	_
+4-3	118-119	!	_	_
+
+#Text=Ich erhalte gleichzeitig Ihre lieben Briefe datiert den 29 April und 20 Juni , den einen über Neapel , den andern von Livorno \; der vom 17 ist beantwortet .
+5-1	120-123	Ich	_	_
+5-2	124-131	erhalte	_	_
+5-3	132-144	gleichzeitig	_	_
+5-4	145-149	Ihre	_	_
+5-5	150-156	lieben	_	_
+5-6	157-163	Briefe	_	_
+5-7	164-171	datiert	_	_
+5-8	172-175	den	_	_
+5-9	176-178	29	*[11]	DATEmentioned[11]
+5-10	179-184	April	*[11]	DATEmentioned[11]
+5-11	185-188	und	_	_
+5-12	189-191	20	*[12]	DATEmentioned[12]
+5-13	192-196	Juni	*[12]	DATEmentioned[12]
+5-14	197-198	,	_	_
+5-15	199-202	den	_	_
+5-16	203-208	einen	_	_
+5-17	209-213	über	_	_
+5-18	214-220	Neapel	*	PLACEmentioned
+5-19	221-222	,	_	_
+5-20	223-226	den	_	_
+5-21	227-233	andern	_	_
+5-22	234-237	von	_	_
+5-23	238-245	Livorno	*	PLACEmentioned
+5-24	246-247	\;	_	_
+5-25	248-251	der	_	_
+5-26	252-255	vom	_	_
+5-27	256-258	17	*	DATEmentioned
+5-28	259-262	ist	_	_
+5-29	263-274	beantwortet	_	_
+5-30	275-276	.	_	_
+
+#Text=Wegen Ihrer Gesundheit rathe ich Ihnen vor allem größtmöglichste Sorgfalt an .
+6-1	277-282	Wegen	_	_
+6-2	283-288	Ihrer	_	_
+6-3	289-299	Gesundheit	_	_
+6-4	300-305	rathe	_	_
+6-5	306-309	ich	_	_
+6-6	310-315	Ihnen	_	_
+6-7	316-319	vor	_	_
+6-8	320-325	allem	_	_
+6-9	326-341	größtmöglichste	_	_
+6-10	342-350	Sorgfalt	_	_
+6-11	351-353	an	_	_
+6-12	354-355	.	_	_
+
+#Text=Nehmen Sie sofort China in wiederholten Dosen , etwa Abends und Morgens .
+7-1	356-362	Nehmen	_	_
+7-2	363-366	Sie	_	_
+7-3	367-373	sofort	_	_
+7-4	374-379	China	_	_
+7-5	380-382	in	_	_
+7-6	383-395	wiederholten	_	_
+7-7	396-401	Dosen	_	_
+7-8	402-403	,	_	_
+7-9	404-408	etwa	_	_
+7-10	409-415	Abends	_	_
+7-11	416-419	und	_	_
+7-12	420-427	Morgens	_	_
+7-13	428-429	.	_	_
+
+#Text=HAilft das nichts , so versuchen Sie Phosphor acid .
+8-1	430-436	HAilft	_	_
+8-2	437-440	das	_	_
+8-3	441-447	nichts	_	_
+8-4	448-449	,	_	_
+8-5	450-452	so	_	_
+8-6	453-462	versuchen	_	_
+8-7	463-466	Sie	_	_
+8-8	467-475	Phosphor	_	_
+8-9	476-480	acid	_	_
+8-10	481-482	.	_	_
+
+#Text=und Phosph .
+9-1	483-486	und	_	_
+9-2	487-493	Phosph	_	_
+9-3	494-495	.	_	_
+
+#Text=China wird aber das Hauptmittel bleiben .
+10-1	496-501	China	_	_
+10-2	502-506	wird	_	_
+10-3	507-511	aber	_	_
+10-4	512-515	das	_	_
+10-5	516-527	Hauptmittel	_	_
+10-6	528-535	bleiben	_	_
+10-7	536-537	.	_	_
+
+#Text=Ihre lange traurige Abwesenheit übt auch auf meine Verhältnisse den ungünstigssten Einfluß .
+11-1	538-542	Ihre	_	_
+11-2	543-548	lange	_	_
+11-3	549-557	traurige	_	_
+11-4	558-569	Abwesenheit	_	_
+11-5	570-573	übt	_	_
+11-6	574-578	auch	_	_
+11-7	579-582	auf	_	_
+11-8	583-588	meine	_	_
+11-9	589-601	Verhältnisse	_	_
+11-10	602-605	den	_	_
+11-11	606-620	ungünstigssten	_	_
+11-12	621-628	Einfluß	_	_
+11-13	629-630	.	_	_
+
+#Text=Soll ich reisen so muß dies in den ersten 10 Tagen des nächsten Monats allerspätestens geschehen .
+12-1	631-635	Soll	_	_
+12-2	636-639	ich	_	_
+12-3	640-646	reisen	_	_
+12-4	647-649	so	_	_
+12-5	650-653	muß	_	_
+12-6	654-658	dies	_	_
+12-7	659-661	in	_	_
+12-8	662-665	den	_	_
+12-9	666-672	ersten	_	_
+12-10	673-675	10	_	_
+12-11	676-681	Tagen	_	_
+12-12	682-685	des	_	_
+12-13	686-694	nächsten	*[13]	DATEmentioned[13]
+12-14	695-701	Monats	*[13]	DATEmentioned[13]
+12-15	702-717	allerspätestens	_	_
+12-16	718-727	geschehen	_	_
+12-17	728-729	.	_	_
+
+#Text=Nach Triest würde ich mich dann später gemwenden \; zuerst aber nach Mailand .
+13-1	730-734	Nach	_	_
+13-2	735-741	Triest	*	PLACEmentioned
+13-3	742-747	würde	_	_
+13-4	748-751	ich	_	_
+13-5	752-756	mich	_	_
+13-6	757-761	dann	_	_
+13-7	762-768	später	_	_
+13-8	769-778	gemwenden	_	_
+13-9	779-780	\;	_	_
+13-10	781-787	zuerst	_	_
+13-11	788-792	aber	_	_
+13-12	793-797	nach	_	_
+13-13	798-805	Mailand	*	PLACEmentioned
+13-14	806-807	.	_	_
+
+#Text=Denn den Gebrauch einer vollständigen archäologischen Bibliothek entbehre ich schmerzlicher als sonst etwas .
+14-1	808-812	Denn	_	_
+14-2	813-816	den	_	_
+14-3	817-825	Gebrauch	_	_
+14-4	826-831	einer	_	_
+14-5	832-845	vollständigen	_	_
+14-6	846-861	archäologischen	_	_
+14-7	862-872	Bibliothek	_	_
+14-8	873-881	entbehre	_	_
+14-9	882-885	ich	_	_
+14-10	886-899	schmerzlicher	_	_
+14-11	900-903	als	_	_
+14-12	904-909	sonst	_	_
+14-13	910-915	etwas	_	_
+14-14	916-917	.	_	_
+
+#Text=- RBRitschl ist bis Ende Juli in Mailand , dann eilt er rasch nach Berlin .
+15-1	918-919	-	_	_
+15-2	920-929	RBRitschl	*	PERmentioned
+15-3	930-933	ist	_	_
+15-4	934-937	bis	_	_
+15-5	938-942	Ende	_	_
+15-6	943-947	Juli	*	DATEmentioned
+15-7	948-950	in	_	_
+15-8	951-958	Mailand	*	PLACEmentioned
+15-9	959-960	,	_	_
+15-10	961-965	dann	_	_
+15-11	966-970	eilt	_	_
+15-12	971-973	er	_	_
+15-13	974-979	rasch	_	_
+15-14	980-984	nach	_	_
+15-15	985-991	Berlin	*	PLACEmentioned
+15-16	992-993	.	_	_
+
+#Text=Wegen Ihrer Anconitaner Briefe habe ich nachträglich noch an Bolaffi geschrieben , er möge sie direct nach Livorno unter Ihrer Adresse abgehen lassen .
+16-1	994-999	Wegen	_	_
+16-2	1000-1005	Ihrer	_	_
+16-3	1006-1017	Anconitaner	*	MISC
+16-4	1018-1024	Briefe	_	_
+16-5	1025-1029	habe	_	_
+16-6	1030-1033	ich	_	_
+16-7	1034-1046	nachträglich	_	_
+16-8	1047-1051	noch	_	_
+16-9	1052-1054	an	_	_
+16-10	1055-1062	Bolaffi	*	PERmentioned
+16-11	1063-1074	geschrieben	_	_
+16-12	1075-1076	,	_	_
+16-13	1077-1079	er	_	_
+16-14	1080-1084	möge	_	_
+16-15	1085-1088	sie	_	_
+16-16	1089-1095	direct	_	_
+16-17	1096-1100	nach	_	_
+16-18	1101-1108	Livorno	*	PLACEmentioned
+16-19	1109-1114	unter	_	_
+16-20	1115-1120	Ihrer	_	_
+16-21	1121-1128	Adresse	_	_
+16-22	1129-1136	abgehen	_	_
+16-23	1137-1143	lassen	_	_
+16-24	1144-1145	.	_	_
+
+#Text=- Wegen der Ausfuhr und dem Kunstzoll hiesigen Orts 1äßt sich nur so viel sagen : der Zoll beträgt 20 pf .
+17-1	1146-1147	-	_	_
+17-2	1148-1153	Wegen	_	_
+17-3	1154-1157	der	_	_
+17-4	1158-1165	Ausfuhr	_	_
+17-5	1166-1169	und	_	_
+17-6	1170-1173	dem	_	_
+17-7	1174-1183	Kunstzoll	_	_
+17-8	1184-1192	hiesigen	_	_
+17-9	1193-1197	Orts	_	_
+17-10	1198-1202	1äßt	_	_
+17-11	1203-1207	sich	_	_
+17-12	1208-1211	nur	_	_
+17-13	1212-1214	so	_	_
+17-14	1215-1219	viel	_	_
+17-15	1220-1225	sagen	_	_
+17-16	1226-1227	:	_	_
+17-17	1228-1231	der	_	_
+17-18	1232-1236	Zoll	_	_
+17-19	1237-1244	beträgt	_	_
+17-20	1245-1247	20	_	_
+17-21	1248-1250	pf	_	_
+17-22	1251-1252	.	_	_
+
+#Text=\; da er aber für eine Barberei gehalten wird , so werden die Gegenstände nie voll geschätzt , sondern wenn sie 100
+18-1	1253-1254	\;	_	_
+18-2	1255-1257	da	_	_
+18-3	1258-1260	er	_	_
+18-4	1261-1265	aber	_	_
+18-5	1266-1269	für	_	_
+18-6	1270-1274	eine	_	_
+18-7	1275-1283	Barberei	_	_
+18-8	1284-1292	gehalten	_	_
+18-9	1293-1297	wird	_	_
+18-10	1298-1299	,	_	_
+18-11	1300-1302	so	_	_
+18-12	1303-1309	werden	_	_
+18-13	1310-1313	die	_	_
+18-14	1314-1325	Gegenstände	_	_
+18-15	1326-1329	nie	_	_
+18-16	1330-1334	voll	_	_
+18-17	1335-1344	geschätzt	_	_
+18-18	1345-1346	,	_	_
+18-19	1347-1354	sondern	_	_
+18-20	1355-1359	wenn	_	_
+18-21	1360-1363	sie	_	_
+18-22	1364-1367	100	_	_

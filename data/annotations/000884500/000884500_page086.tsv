@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27. April 1838 Dr. Braun g . 10/5 38 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	27.	*[4]	DATEletter[4]
+1-7	30-35	April	*[4]	DATEletter[4]
+1-8	36-40	1838	*[4]	DATEletter[4]
+1-9	41-44	Dr.	_	_
+1-10	45-50	Braun	*	PERaddressee
+1-11	51-52	g	_	_
+1-12	53-54	.	_	_
+1-13	55-59	10/5	*[6]	DATErecieved[6]
+1-14	60-62	38	*[6]	DATErecieved[6]
+1-15	63-66	Aff	_	_
+1-16	67-68	.	_	_
+
+#Text=d . Dir .
+2-1	69-70	d	_	_
+2-2	71-72	.	_	_
+2-3	73-76	Dir	_	_
+2-4	77-78	.	_	_
+
+#Text=CCIV r . 10/5 38 Berlin 27 April 38 Sie erhalten Beigehendes Lieber Freund .
+3-1	79-83	CCIV	_	_
+3-2	84-85	r	_	_
+3-3	86-87	.	_	_
+3-4	88-92	10/5	*[7]	DATEanswered[7]
+3-5	93-95	38	*[7]	DATEanswered[7]
+3-6	96-102	Berlin	*	PLACEfrom
+3-7	103-105	27	*[9]	DATEletter[9]
+3-8	106-111	April	*[9]	DATEletter[9]
+3-9	112-114	38	*[9]	DATEletter[9]
+3-10	115-118	Sie	_	_
+3-11	119-127	erhalten	_	_
+3-12	128-139	Beigehendes	_	_
+3-13	140-146	Lieber	_	_
+3-14	147-153	Freund	_	_
+3-15	154-155	.	_	_
+
+#Text=Gerstäcker quittirte Berechnung Ihres Bücherbetrags , wofür Sie mir , den Scudo zu 1.13 3/4 berechnet , 20 Scudi 12 baj .
+4-1	156-166	Gerstäcker	*	PERmentioned
+4-2	167-176	quittirte	_	_
+4-3	177-187	Berechnung	_	_
+4-4	188-193	Ihres	_	_
+4-5	194-207	Bücherbetrags	_	_
+4-6	208-209	,	_	_
+4-7	210-215	wofür	_	_
+4-8	216-219	Sie	_	_
+4-9	220-223	mir	_	_
+4-10	224-225	,	_	_
+4-11	226-229	den	_	_
+4-12	230-235	Scudo	_	_
+4-13	236-238	zu	_	_
+4-14	239-243	1.13	_	_
+4-15	244-247	3/4	_	_
+4-16	248-257	berechnet	_	_
+4-17	258-259	,	_	_
+4-18	260-262	20	_	_
+4-19	263-268	Scudi	_	_
+4-20	269-271	12	_	_
+4-21	272-275	baj	_	_
+4-22	276-277	.	_	_
+
+#Text=gut schreiben werden .
+5-1	278-281	gut	_	_
+5-2	282-291	schreiben	_	_
+5-3	292-298	werden	_	_
+5-4	299-300	.	_	_
+
+#Text=Mit römischen Nachrichten finde ich mich kurz gehalten \; hoffentlich erfahre ich bald von Ihnen , was in diesen entscheidenden Zeiten aus unsern römischen Anstalten und Freunden wird .
+6-1	301-304	Mit	_	_
+6-2	305-314	römischen	_	_
+6-3	315-326	Nachrichten	_	_
+6-4	327-332	finde	_	_
+6-5	333-336	ich	_	_
+6-6	337-341	mich	_	_
+6-7	342-346	kurz	_	_
+6-8	347-355	gehalten	_	_
+6-9	356-357	\;	_	_
+6-10	358-369	hoffentlich	_	_
+6-11	370-377	erfahre	_	_
+6-12	378-381	ich	_	_
+6-13	382-386	bald	_	_
+6-14	387-390	von	_	_
+6-15	391-396	Ihnen	_	_
+6-16	397-398	,	_	_
+6-17	399-402	was	_	_
+6-18	403-405	in	_	_
+6-19	406-412	diesen	_	_
+6-20	413-427	entscheidenden	_	_
+6-21	428-434	Zeiten	_	_
+6-22	435-438	aus	_	_
+6-23	439-445	unsern	_	_
+6-24	446-455	römischen	_	_
+6-25	456-465	Anstalten	_	_
+6-26	466-469	und	_	_
+6-27	470-478	Freunden	_	_
+6-28	479-483	wird	_	_
+6-29	484-485	.	_	_
+
+#Text=“ bich nimmt Ihnen die neusten Drucksachen Archäolg .
+7-1	486-487	“	_	_
+7-2	488-492	bich	_	_
+7-3	493-498	nimmt	_	_
+7-4	499-504	Ihnen	_	_
+7-5	505-508	die	_	_
+7-6	509-516	neusten	_	_
+7-7	517-528	Drucksachen	_	_
+7-8	529-537	Archäolg	_	_
+7-9	538-539	.	_	_
+
+#Text=Inst .
+8-1	540-544	Inst	_	_
+8-2	545-546	.	_	_
+
+#Text=Bl . 1836 . 1837. die Abhandlung über den Metaillspiegel ( den lezten Bogen wenigstens in einer Korrektur ) , auch ein nachträgliches umgedrucktes Blatt zur Ankemorosabhandlung , endlich neue Probedrücke meines Vasenwerks mit .
+9-1	547-549	Bl	_	_
+9-2	550-551	.	_	_
+9-3	552-556	1836	*	DATEmentioned
+9-4	557-558	.	_	_
+9-5	559-564	1837.	*	DATEmentioned
+9-6	565-568	die	_	_
+9-7	569-579	Abhandlung	_	_
+9-8	580-584	über	_	_
+9-9	585-588	den	_	_
+9-10	589-603	Metaillspiegel	*	OBJ
+9-11	604-605	(	_	_
+9-12	606-609	den	_	_
+9-13	610-616	lezten	_	_
+9-14	617-622	Bogen	_	_
+9-15	623-633	wenigstens	_	_
+9-16	634-636	in	_	_
+9-17	637-642	einer	_	_
+9-18	643-652	Korrektur	_	_
+9-19	653-654	)	_	_
+9-20	655-656	,	_	_
+9-21	657-661	auch	_	_
+9-22	662-665	ein	_	_
+9-23	666-680	nachträgliches	_	_
+9-24	681-693	umgedrucktes	_	_
+9-25	694-699	Blatt	_	_
+9-26	700-703	zur	_	_
+9-27	704-723	Ankemorosabhandlung	_	_
+9-28	724-725	,	_	_
+9-29	726-733	endlich	_	_
+9-30	734-738	neue	_	_
+9-31	739-750	Probedrücke	_	_
+9-32	751-757	meines	_	_
+9-33	758-768	Vasenwerks	_	_
+9-34	769-772	mit	_	_
+9-35	773-774	.	_	_
+
+#Text=Von diesem sind 12 Bl . für 2 Hefte fertig \; mit der Erscheinung aber warte ich bis irgend eine Verlagsabrede fest ist .
+10-1	775-778	Von	_	_
+10-2	779-785	diesem	_	_
+10-3	786-790	sind	_	_
+10-4	791-793	12	_	_
+10-5	794-796	Bl	_	_
+10-6	797-798	.	_	_
+10-7	799-802	für	_	_
+10-8	803-804	2	_	_
+10-9	805-810	Hefte	_	_
+10-10	811-817	fertig	_	_
+10-11	818-819	\;	_	_
+10-12	820-823	mit	_	_
+10-13	824-827	der	_	_
+10-14	828-839	Erscheinung	_	_
+10-15	840-844	aber	_	_
+10-16	845-850	warte	_	_
+10-17	851-854	ich	_	_
+10-18	855-858	bis	_	_
+10-19	859-865	irgend	_	_
+10-20	866-870	eine	_	_
+10-21	871-884	Verlagsabrede	_	_
+10-22	885-889	fest	_	_
+10-23	890-893	ist	_	_
+10-24	894-895	.	_	_
+
+#Text=Dann soll die Sache rasch vorwärts sehn .
+11-1	896-900	Dann	_	_
+11-2	901-905	soll	_	_
+11-3	906-909	die	_	_
+11-4	910-915	Sache	_	_
+11-5	916-921	rasch	_	_
+11-6	922-930	vorwärts	_	_
+11-7	931-935	sehn	_	_
+11-8	936-937	.	_	_
+
+#Text=Mit den Spiegeln steht es ungefähr ebenso \; leider bin ich noch immer ohne die Cista-formen die Sie mir verhießen .
+12-1	938-941	Mit	_	_
+12-2	942-945	den	_	_
+12-3	946-954	Spiegeln	*	OBJ
+12-4	955-960	steht	_	_
+12-5	961-963	es	_	_
+12-6	964-972	ungefähr	_	_
+12-7	973-979	ebenso	_	_
+12-8	980-981	\;	_	_
+12-9	982-988	leider	_	_
+12-10	989-992	bin	_	_
+12-11	993-996	ich	_	_
+12-12	997-1001	noch	_	_
+12-13	1002-1007	immer	_	_
+12-14	1008-1012	ohne	_	_
+12-15	1013-1016	die	_	_
+12-16	1017-1029	Cista-formen	_	_
+12-17	1030-1033	die	_	_
+12-18	1034-1037	Sie	_	_
+12-19	1038-1041	mir	_	_
+12-20	1042-1051	verhießen	_	_
+12-21	1052-1053	.	_	_
+
+#Text=Dem Vernehmen nach ist R. Rochette nach Griechenland , ohne Zweifel auch nach Rom , abgereist \; er wird es
+13-1	1054-1057	Dem	_	_
+13-2	1058-1067	Vernehmen	_	_
+13-3	1068-1072	nach	_	_
+13-4	1073-1076	ist	_	_
+13-5	1077-1079	R.	*[15]	PERmentioned[15]
+13-6	1080-1088	Rochette	*[15]	PERmentioned[15]
+13-7	1089-1093	nach	_	_
+13-8	1094-1106	Griechenland	*	PLACEmentioned
+13-9	1107-1108	,	_	_
+13-10	1109-1113	ohne	_	_
+13-11	1114-1121	Zweifel	_	_
+13-12	1122-1126	auch	_	_
+13-13	1127-1131	nach	_	_
+13-14	1132-1135	Rom	*	PLACEmentioned
+13-15	1136-1137	,	_	_
+13-16	1138-1147	abgereist	_	_
+13-17	1148-1149	\;	_	_
+13-18	1150-1152	er	_	_
+13-19	1153-1157	wird	_	_
+13-20	1158-1160	es	_	_

@@ -1,0 +1,108 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Berlin , 12 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	12	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=August 1833 Den Registern müssen Sie einen weiteren Raum gestatten und vorweg ausmachen .
+2-1	31-37	August	*[1]	DATEletter[1]
+2-2	38-42	1833	*[1]	DATEletter[1]
+2-3	43-46	Den	_	_
+2-4	47-56	Registern	_	_
+2-5	57-63	müssen	_	_
+2-6	64-67	Sie	_	_
+2-7	68-73	einen	_	_
+2-8	74-82	weiteren	_	_
+2-9	83-87	Raum	_	_
+2-10	88-97	gestatten	_	_
+2-11	98-101	und	_	_
+2-12	102-108	vorweg	_	_
+2-13	109-118	ausmachen	_	_
+2-14	119-120	.	_	_
+
+#Text=Denn auch klein gedruckt dürften sie mehr als die andere Hälfte der von Ihnen begährten Bogenzahl füllen .
+3-1	121-125	Denn	_	_
+3-2	126-130	auch	_	_
+3-3	131-136	klein	_	_
+3-4	137-145	gedruckt	_	_
+3-5	146-153	dürften	_	_
+3-6	154-157	sie	_	_
+3-7	158-162	mehr	_	_
+3-8	163-166	als	_	_
+3-9	167-170	die	_	_
+3-10	171-177	andere	_	_
+3-11	178-184	Hälfte	_	_
+3-12	185-188	der	_	_
+3-13	189-192	von	_	_
+3-14	193-198	Ihnen	_	_
+3-15	199-208	begährten	_	_
+3-16	209-218	Bogenzahl	_	_
+3-17	219-225	füllen	_	_
+3-18	226-227	.	_	_
+
+#Text=Abschreiben kann ich sie vorher unmöglich.Sie sind gar zu ausgedehnt , Es steht eine erstauneäswerthe Masse namhafter Notizen in den Institutswerken , Herzlich gefreut hat es mich , dass es mit Ihrer Gesundheit besser gehe .
+4-1	228-239	Abschreiben	_	_
+4-2	240-244	kann	_	_
+4-3	245-248	ich	_	_
+4-4	249-252	sie	_	_
+4-5	253-259	vorher	_	_
+4-6	260-273	unmöglich.Sie	_	_
+4-7	274-278	sind	_	_
+4-8	279-282	gar	_	_
+4-9	283-285	zu	_	_
+4-10	286-296	ausgedehnt	_	_
+4-11	297-298	,	_	_
+4-12	299-301	Es	_	_
+4-13	302-307	steht	_	_
+4-14	308-312	eine	_	_
+4-15	313-329	erstauneäswerthe	_	_
+4-16	330-335	Masse	_	_
+4-17	336-345	namhafter	_	_
+4-18	346-353	Notizen	_	_
+4-19	354-356	in	_	_
+4-20	357-360	den	_	_
+4-21	361-376	Institutswerken	_	_
+4-22	377-378	,	_	_
+4-23	379-387	Herzlich	_	_
+4-24	388-395	gefreut	_	_
+4-25	396-399	hat	_	_
+4-26	400-402	es	_	_
+4-27	403-407	mich	_	_
+4-28	408-409	,	_	_
+4-29	410-414	dass	_	_
+4-30	415-417	es	_	_
+4-31	418-421	mit	_	_
+4-32	422-427	Ihrer	_	_
+4-33	428-438	Gesundheit	_	_
+4-34	439-445	besser	_	_
+4-35	446-450	gehe	_	_
+4-36	451-452	.	_	_
+
+#Text=Schreiben Sie doch bald mehr und recht viel Gutes davon \| Ihr treuester Braun Berlin 12 Aug . 1833 .
+5-1	453-462	Schreiben	_	_
+5-2	463-466	Sie	_	_
+5-3	467-471	doch	_	_
+5-4	472-476	bald	_	_
+5-5	477-481	mehr	_	_
+5-6	482-485	und	_	_
+5-7	486-491	recht	_	_
+5-8	492-496	viel	_	_
+5-9	497-502	Gutes	_	_
+5-10	503-508	davon	_	_
+5-11	509-510	\|	_	_
+5-12	511-514	Ihr	_	_
+5-13	515-524	treuester	_	_
+5-14	525-530	Braun	*	PERauthor
+5-15	531-537	Berlin	*	PLACEfrom
+5-16	538-540	12	*[2]	DATEletter[2]
+5-17	541-544	Aug	*[2]	DATEletter[2]
+5-18	545-546	.	*[2]	DATEletter[2]
+5-19	547-551	1833	*[2]	DATEletter[2]
+5-20	552-553	.	_	_

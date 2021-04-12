@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 14. Juni 1838 mir , Ihre Rec vom Museo Chiamati wird mir sehr willkommen sein , zumal das Buch noch fehlt .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	14.	*[4]	DATEletter[4]
+1-7	30-34	Juni	*[4]	DATEletter[4]
+1-8	35-39	1838	*[4]	DATEletter[4]
+1-9	40-43	mir	_	_
+1-10	44-45	,	_	_
+1-11	46-50	Ihre	_	_
+1-12	51-54	Rec	_	_
+1-13	55-58	vom	_	_
+1-14	59-64	Museo	*[5]	ORGmentioned[5]
+1-15	65-73	Chiamati	*[5]	ORGmentioned[5]
+1-16	74-78	wird	_	_
+1-17	79-82	mir	_	_
+1-18	83-87	sehr	_	_
+1-19	88-98	willkommen	_	_
+1-20	99-103	sein	_	_
+1-21	104-105	,	_	_
+1-22	106-111	zumal	_	_
+1-23	112-115	das	_	_
+1-24	116-120	Buch	_	_
+1-25	121-125	noch	_	_
+1-26	126-131	fehlt	_	_
+1-27	132-133	.	_	_
+
+#Text=Senden Sie mir nichts für das Inst .
+2-1	134-140	Senden	_	_
+2-2	141-144	Sie	_	_
+2-3	145-148	mir	_	_
+2-4	149-155	nichts	_	_
+2-5	156-159	für	_	_
+2-6	160-163	das	_	_
+2-7	164-168	Inst	_	_
+2-8	169-170	.	_	_
+
+#Text=Bl . ?
+3-1	171-173	Bl	_	_
+3-2	174-175	.	_	_
+3-3	176-177	?	_	_
+
+#Text=Lepsius wollte vor Zeiten auch schicken , scheint : mich aber vergessen zu haben \; Abeken II desgleichen .
+4-1	178-185	Lepsius	*	PERmentioned
+4-2	186-192	wollte	_	_
+4-3	193-196	vor	_	_
+4-4	197-203	Zeiten	_	_
+4-5	204-208	auch	_	_
+4-6	209-217	schicken	_	_
+4-7	218-219	,	_	_
+4-8	220-227	scheint	_	_
+4-9	228-229	:	_	_
+4-10	230-234	mich	_	_
+4-11	235-239	aber	_	_
+4-12	240-249	vergessen	_	_
+4-13	250-252	zu	_	_
+4-14	253-258	haben	_	_
+4-15	259-260	\;	_	_
+4-16	261-267	Abeken	*	PERmentioned
+4-17	268-270	II	_	_
+4-18	271-282	desgleichen	_	_
+4-19	283-284	.	_	_
+
+#Text=Wollen Sie beide grüßen und mahnen ?
+5-1	285-291	Wollen	_	_
+5-2	292-295	Sie	_	_
+5-3	296-301	beide	_	_
+5-4	302-308	grüßen	_	_
+5-5	309-312	und	_	_
+5-6	313-319	mahnen	_	_
+5-7	320-321	?	_	_
+
+#Text=Auf bloß merkwürdige Ankäufe , wie die Beinfigur und die Vase mit etruskischer Inschrift , kann ich sobald deren Preis über wenige Scudi hinausläuft mich nicht einlassen .
+6-1	322-325	Auf	_	_
+6-2	326-330	bloß	_	_
+6-3	331-342	merkwürdige	_	_
+6-4	343-350	Ankäufe	_	_
+6-5	351-352	,	_	_
+6-6	353-356	wie	_	_
+6-7	357-360	die	_	_
+6-8	361-370	Beinfigur	*	OBJ
+6-9	371-374	und	_	_
+6-10	375-378	die	_	_
+6-11	379-383	Vase	*[9]	OBJ[9]
+6-12	384-387	mit	*[9]	OBJ[9]
+6-13	388-400	etruskischer	*[9]	OBJ[9]
+6-14	401-410	Inschrift	*[9]	OBJ[9]
+6-15	411-412	,	_	_
+6-16	413-417	kann	_	_
+6-17	418-421	ich	_	_
+6-18	422-428	sobald	_	_
+6-19	429-434	deren	_	_
+6-20	435-440	Preis	_	_
+6-21	441-445	über	_	_
+6-22	446-452	wenige	_	_
+6-23	453-458	Scudi	_	_
+6-24	459-470	hinausläuft	_	_
+6-25	471-475	mich	_	_
+6-26	476-481	nicht	_	_
+6-27	482-491	einlassen	_	_
+6-28	492-493	.	_	_
+
+#Text=Daß ich etwas Geld bei Ihnen stehn habe ist mir ganz lieb \; da ich aber zunächst nichts nachsenden kann , so eilt es nicht selbiges los zu werden .
+7-1	494-497	Daß	_	_
+7-2	498-501	ich	_	_
+7-3	502-507	etwas	_	_
+7-4	508-512	Geld	_	_
+7-5	513-516	bei	_	_
+7-6	517-522	Ihnen	_	_
+7-7	523-528	stehn	_	_
+7-8	529-533	habe	_	_
+7-9	534-537	ist	_	_
+7-10	538-541	mir	_	_
+7-11	542-546	ganz	_	_
+7-12	547-551	lieb	_	_
+7-13	552-553	\;	_	_
+7-14	554-556	da	_	_
+7-15	557-560	ich	_	_
+7-16	561-565	aber	_	_
+7-17	566-574	zunächst	_	_
+7-18	575-581	nichts	_	_
+7-19	582-592	nachsenden	_	_
+7-20	593-597	kann	_	_
+7-21	598-599	,	_	_
+7-22	600-602	so	_	_
+7-23	603-607	eilt	_	_
+7-24	608-610	es	_	_
+7-25	611-616	nicht	_	_
+7-26	617-625	selbiges	_	_
+7-27	626-629	los	_	_
+7-28	630-632	zu	_	_
+7-29	633-639	werden	_	_
+7-30	640-641	.	_	_
+
+#Text=Am liebsten wünsche ich es für hübsche und merkwürdige Bronzen angelegt .
+8-1	642-644	Am	_	_
+8-2	645-653	liebsten	_	_
+8-3	654-661	wünsche	_	_
+8-4	662-665	ich	_	_
+8-5	666-668	es	_	_
+8-6	669-672	für	_	_
+8-7	673-680	hübsche	_	_
+8-8	681-684	und	_	_
+8-9	685-696	merkwürdige	_	_
+8-10	697-704	Bronzen	*	OBJ
+8-11	705-713	angelegt	_	_
+8-12	714-715	.	_	_
+
+#Text=Für den Candelaber giebt Ihnen wol Campanari gelegentlich ein Stück das sich lohnt .
+9-1	716-719	Für	_	_
+9-2	720-723	den	_	_
+9-3	724-734	Candelaber	*	OBJ
+9-4	735-740	giebt	_	_
+9-5	741-746	Ihnen	_	_
+9-6	747-750	wol	_	_
+9-7	751-760	Campanari	*	PERmentioned
+9-8	761-773	gelegentlich	_	_
+9-9	774-777	ein	_	_
+9-10	778-783	Stück	_	_
+9-11	784-787	das	_	_
+9-12	788-792	sich	_	_
+9-13	793-798	lohnt	_	_
+9-14	799-800	.	_	_
+
+#Text=Ist mir die spillenlange Bronze von S. Quirico zu Theil geworden ?
+10-1	801-804	Ist	_	_
+10-2	805-808	mir	_	_
+10-3	809-812	die	_	_
+10-4	813-825	spillenlange	*[13]	OBJ[13]
+10-5	826-832	Bronze	*[13]	OBJ[13]
+10-6	833-836	von	_	_
+10-7	837-839	S.	*[14]	PERmentioned[14]
+10-8	840-847	Quirico	*[14]	PERmentioned[14]
+10-9	848-850	zu	_	_
+10-10	851-856	Theil	_	_
+10-11	857-865	geworden	_	_
+10-12	866-867	?	_	_
+
+#Text=Ich be da deren Ankauf den Sie wollten , da der Preis nicht unbillig war , d kommen lassen .
+11-1	868-871	Ich	_	_
+11-2	872-874	be	_	_
+11-3	875-877	da	_	_
+11-4	878-883	deren	_	_
+11-5	884-890	Ankauf	_	_
+11-6	891-894	den	_	_
+11-7	895-898	Sie	_	_
+11-8	899-906	wollten	_	_
+11-9	907-908	,	_	_
+11-10	909-911	da	_	_
+11-11	912-915	der	_	_
+11-12	916-921	Preis	_	_
+11-13	922-927	nicht	_	_
+11-14	928-936	unbillig	_	_
+11-15	937-940	war	_	_
+11-16	941-942	,	_	_
+11-17	943-944	d	_	_
+11-18	945-951	kommen	_	_
+11-19	952-958	lassen	_	_
+11-20	959-960	.	_	_
+
+#Text=M.lle Lanci wird nicht ermangeln viel Thorheiten drucken zu lassen und Fortunati nicht aufhören an ihr zu glauben .
+12-1	961-966	M.lle	_	_
+12-2	967-972	Lanci	*	PERmentioned
+12-3	973-977	wird	_	_
+12-4	978-983	nicht	_	_
+12-5	984-993	ermangeln	_	_
+12-6	994-998	viel	_	_
+12-7	999-1009	Thorheiten	_	_
+12-8	1010-1017	drucken	_	_
+12-9	1018-1020	zu	_	_
+12-10	1021-1027	lassen	_	_
+12-11	1028-1031	und	_	_
+12-12	1032-1041	Fortunati	*	PERmentioned
+12-13	1042-1047	nicht	_	_
+12-14	1048-1056	aufhören	_	_
+12-15	1057-1059	an	_	_
+12-16	1060-1063	ihr	_	_
+12-17	1064-1066	zu	_	_
+12-18	1067-1074	glauben	_	_
+12-19	1075-1076	.	_	_
+
+#Text=Da die Zeichnung der Basseggioschen Minervageburt mein 1.stes Blatt wird , so liegt es mir doch daran sie genügend zu haben und wünsche ich daher Sie gäben
+13-1	1077-1079	Da	_	_
+13-2	1080-1083	die	_	_
+13-3	1084-1093	Zeichnung	_	_
+13-4	1094-1097	der	_	_
+13-5	1098-1112	Basseggioschen	*	PERmentioned
+13-6	1113-1126	Minervageburt	*	OBJ
+13-7	1127-1131	mein	_	_
+13-8	1132-1138	1.stes	_	_
+13-9	1139-1144	Blatt	_	_
+13-10	1145-1149	wird	_	_
+13-11	1150-1151	,	_	_
+13-12	1152-1154	so	_	_
+13-13	1155-1160	liegt	_	_
+13-14	1161-1163	es	_	_
+13-15	1164-1167	mir	_	_
+13-16	1168-1172	doch	_	_
+13-17	1173-1178	daran	_	_
+13-18	1179-1182	sie	_	_
+13-19	1183-1191	genügend	_	_
+13-20	1192-1194	zu	_	_
+13-21	1195-1200	haben	_	_
+13-22	1201-1204	und	_	_
+13-23	1205-1212	wünsche	_	_
+13-24	1213-1216	ich	_	_
+13-25	1217-1222	daher	_	_
+13-26	1223-1226	Sie	_	_
+13-27	1227-1232	gäben	_	_

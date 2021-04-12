@@ -1,0 +1,43 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=181 Gerhard an Braun Berlin , 13. Juni 1836 habe , zu verschieben , und habe übrigens dafür gesorgt daß das für den Kronprinzen bestimmte Exemplar sofort ihm übersandt worden ist .
+1-1	0-3	181	_	_	
+1-2	4-11	Gerhard	*	PERauthor	
+1-3	12-14	an	_	_	
+1-4	15-20	Braun	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-33	13.	*[1]	DATEletter[1]	
+1-8	34-38	Juni	*[1]	DATEletter[1]	
+1-9	39-43	1836	*[1]	DATEletter[1]	
+1-10	44-48	habe	_	_	
+1-11	49-50	,	_	_	
+1-12	51-53	zu	_	_	
+1-13	54-65	verschieben	_	_	
+1-14	66-67	,	_	_	
+1-15	68-71	und	_	_	
+1-16	72-76	habe	_	_	
+1-17	77-85	übrigens	_	_	
+1-18	86-91	dafür	_	_	
+1-19	92-99	gesorgt	_	_	
+1-20	100-103	daß	_	_	
+1-21	104-107	das	_	_	
+1-22	108-111	für	_	_	
+1-23	112-115	den	_	_	
+1-24	116-127	Kronprinzen	*	PERmentioned	
+1-25	128-137	bestimmte	_	_	
+1-26	138-146	Exemplar	_	_	
+1-27	147-153	sofort	_	_	
+1-28	154-157	ihm	_	_	
+1-29	158-167	übersandt	_	_	
+1-30	168-174	worden	_	_	
+1-31	175-178	ist	_	_	
+1-32	179-180	.	_	_	
+
+#Text=Gerhard Berlin 14/6 36
+2-1	181-188	Gerhard	*	PERauthor	
+2-2	189-195	Berlin	*	PLACEfrom	
+2-3	196-200	14/6	*[2]	DATEletter[2]	
+2-4	201-203	36	*[2]	DATEletter[2]	

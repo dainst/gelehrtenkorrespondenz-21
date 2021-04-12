@@ -1,0 +1,176 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=109 Gerhard an Braun Berlin , 20. Februar 1844 worden , wird aber endlich schreiben .
+1-1	0-3	109	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	20.	*[1]	DATEletter[1]
+1-8	34-41	Februar	*[1]	DATEletter[1]
+1-9	42-46	1844	*[1]	DATEletter[1]
+1-10	47-53	worden	_	_
+1-11	54-55	,	_	_
+1-12	56-60	wird	_	_
+1-13	61-65	aber	_	_
+1-14	66-73	endlich	_	_
+1-15	74-83	schreiben	_	_
+1-16	84-85	.	_	_
+
+#Text=Schulz D s Densis schreibt mir auch nicht .
+2-1	86-92	Schulz	*	PERmentioned
+2-2	93-94	D	_	_
+2-3	95-96	s	_	_
+2-4	97-103	Densis	_	_
+2-5	104-112	schreibt	_	_
+2-6	113-116	mir	_	_
+2-7	117-121	auch	_	_
+2-8	122-127	nicht	_	_
+2-9	128-129	.	_	_
+
+#Text=Den Calandrelli mag ich nicht sehen , werde aber durch Krause zu agiren suchen .
+3-1	130-133	Den	_	_
+3-2	134-145	Calandrelli	*	PERmentioned
+3-3	146-149	mag	_	_
+3-4	150-153	ich	_	_
+3-5	154-159	nicht	_	_
+3-6	160-165	sehen	_	_
+3-7	166-167	,	_	_
+3-8	168-173	werde	_	_
+3-9	174-178	aber	_	_
+3-10	179-184	durch	_	_
+3-11	185-191	Krause	*	PERmentioned
+3-12	192-194	zu	_	_
+3-13	195-201	agiren	_	_
+3-14	202-208	suchen	_	_
+3-15	209-210	.	_	_
+
+#Text=Daß Apolloni ein solcher Lump ist , thtut mir recht leid .
+4-1	211-214	Daß	_	_
+4-2	215-223	Apolloni	*	PERmentioned
+4-3	224-227	ein	_	_
+4-4	228-235	solcher	_	_
+4-5	236-240	Lump	_	_
+4-6	241-244	ist	_	_
+4-7	245-246	,	_	_
+4-8	247-252	thtut	_	_
+4-9	253-256	mir	_	_
+4-10	257-262	recht	_	_
+4-11	263-267	leid	_	_
+4-12	268-269	.	_	_
+
+#Text=Lepsius schöner Bericht in Nr. 40 der Allgemeinen Preußischen Zeitung kam Ihnen hoffentlich zu Gesicht .
+5-1	270-277	Lepsius	*	PERmentioned
+5-2	278-285	schöner	_	_
+5-3	286-293	Bericht	_	_
+5-4	294-296	in	_	_
+5-5	297-300	Nr.	_	_
+5-6	301-303	40	_	_
+5-7	304-307	der	_	_
+5-8	308-319	Allgemeinen	_	_
+5-9	320-331	Preußischen	_	_
+5-10	332-339	Zeitung	_	_
+5-11	340-343	kam	_	_
+5-12	344-349	Ihnen	_	_
+5-13	350-361	hoffentlich	_	_
+5-14	362-364	zu	_	_
+5-15	365-372	Gesicht	_	_
+5-16	373-374	.	_	_
+
+#Text=Curtius hat mit größtem Succeß , fast über Reumont , dem höchsten und galanten Publikum die Akropolis anschaulich gemacht \; er hat viel Darstellungsgabe .
+6-1	375-382	Curtius	*	PERmentioned
+6-2	383-386	hat	_	_
+6-3	387-390	mit	_	_
+6-4	391-398	größtem	_	_
+6-5	399-405	Succeß	_	_
+6-6	406-407	,	_	_
+6-7	408-412	fast	_	_
+6-8	413-417	über	_	_
+6-9	418-425	Reumont	*	PERmentioned
+6-10	426-427	,	_	_
+6-11	428-431	dem	_	_
+6-12	432-440	höchsten	_	_
+6-13	441-444	und	_	_
+6-14	445-453	galanten	_	_
+6-15	454-462	Publikum	_	_
+6-16	463-466	die	_	_
+6-17	467-476	Akropolis	*	OBJ
+6-18	477-488	anschaulich	_	_
+6-19	489-496	gemacht	_	_
+6-20	497-498	\;	_	_
+6-21	499-501	er	_	_
+6-22	502-505	hat	_	_
+6-23	506-510	viel	_	_
+6-24	511-527	Darstellungsgabe	_	_
+6-25	528-529	.	_	_
+
+#Text=Anbei Berufliches für Henzen bitte für seinen neulichen Brief vorläufig zu danken \; von Vollards grausam lange nichts .
+7-1	530-535	Anbei	_	_
+7-2	536-547	Berufliches	_	_
+7-3	548-551	für	_	_
+7-4	552-558	Henzen	*	PERmentioned
+7-5	559-564	bitte	_	_
+7-6	565-568	für	_	_
+7-7	569-575	seinen	_	_
+7-8	576-585	neulichen	_	_
+7-9	586-591	Brief	_	_
+7-10	592-601	vorläufig	_	_
+7-11	602-604	zu	_	_
+7-12	605-611	danken	_	_
+7-13	612-613	\;	_	_
+7-14	614-617	von	_	_
+7-15	618-626	Vollards	*	PERmentioned
+7-16	627-634	grausam	_	_
+7-17	635-640	lange	_	_
+7-18	641-647	nichts	_	_
+7-19	648-649	.	_	_
+
+#Text=Daß Ihre Xylographie Zeit erheischt begreift sich \; daß auch das Bullettino seinen Termin haben will , werden Sie dabei nicht vergessen .
+8-1	650-653	Daß	_	_
+8-2	654-658	Ihre	_	_
+8-3	659-670	Xylographie	_	_
+8-4	671-675	Zeit	_	_
+8-5	676-685	erheischt	_	_
+8-6	686-694	begreift	_	_
+8-7	695-699	sich	_	_
+8-8	700-701	\;	_	_
+8-9	702-705	daß	_	_
+8-10	706-710	auch	_	_
+8-11	711-714	das	_	_
+8-12	715-725	Bullettino	_	_
+8-13	726-732	seinen	_	_
+8-14	733-739	Termin	_	_
+8-15	740-745	haben	_	_
+8-16	746-750	will	_	_
+8-17	751-752	,	_	_
+8-18	753-759	werden	_	_
+8-19	760-763	Sie	_	_
+8-20	764-769	dabei	_	_
+8-21	770-775	nicht	_	_
+8-22	776-785	vergessen	_	_
+8-23	786-787	.	_	_
+
+#Text=Ganz der Ihrige Gerhard Bis jetzt ist keine Rechnung wegen Prinz August und keine Mitgliederliste mit Marginalien mir zugegangen .
+9-1	788-792	Ganz	_	_
+9-2	793-796	der	_	_
+9-3	797-803	Ihrige	_	_
+9-4	804-811	Gerhard	*	PERauthor
+9-5	812-815	Bis	_	_
+9-6	816-821	jetzt	_	_
+9-7	822-825	ist	_	_
+9-8	826-831	keine	_	_
+9-9	832-840	Rechnung	_	_
+9-10	841-846	wegen	_	_
+9-11	847-852	Prinz	*[2]	PERmentioned[2]
+9-12	853-859	August	*[2]	PERmentioned[2]
+9-13	860-863	und	_	_
+9-14	864-869	keine	_	_
+9-15	870-885	Mitgliederliste	_	_
+9-16	886-889	mit	_	_
+9-17	890-901	Marginalien	_	_
+9-18	902-905	mir	_	_
+9-19	906-916	zugegangen	_	_
+9-20	917-918	.	_	_

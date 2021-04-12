@@ -1,0 +1,262 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=638 Braun an Gerhard Rom , 27. September 71838 Sig .
+1-1	0-3	638	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	27.	*[6]	DATEletter[6]
+1-8	31-40	September	*[6]	DATEletter[6]
+1-9	41-46	71838	*[6]	DATEletter[6]
+1-10	47-50	Sig	_	_
+1-11	51-52	.	_	_
+
+#Text=Cav .
+2-1	53-56	Cav	_	_
+2-2	57-58	.	_	_
+
+#Text=Gerhard Berlino .
+3-1	59-66	Gerhard	*	PERaddressee
+3-2	67-74	Berlino	*	PLACEto
+3-3	75-76	.	_	_
+
+#Text=Roma li 27 Sett.bre 1838 .
+4-1	77-81	Roma	*	PLACEfrom
+4-2	82-84	li	_	_
+4-3	85-87	27	*[8]	DATEletter[8]
+4-4	88-96	Sett.bre	*[8]	DATEletter[8]
+4-5	97-101	1838	*[8]	DATEletter[8]
+4-6	102-103	.	_	_
+
+#Text=Wolff reist übermorgen nach Berlin ab , um seine Schwägerin , welche sich mit einem Assessor Willers in Potsdam versprochen hat , dahin zu begleiten .
+5-1	104-109	Wolff	*	PERmentioned
+5-2	110-115	reist	_	_
+5-3	116-126	übermorgen	_	_
+5-4	127-131	nach	_	_
+5-5	132-138	Berlin	*	PLACEmentioned
+5-6	139-141	ab	_	_
+5-7	142-143	,	_	_
+5-8	144-146	um	_	_
+5-9	147-152	seine	_	_
+5-10	153-163	Schwägerin	_	_
+5-11	164-165	,	_	_
+5-12	166-172	welche	_	_
+5-13	173-177	sich	_	_
+5-14	178-181	mit	_	_
+5-15	182-187	einem	_	_
+5-16	188-196	Assessor	_	_
+5-17	197-204	Willers	*	PERmentioned
+5-18	205-207	in	_	_
+5-19	208-215	Potsdam	*	PLACEmentioned
+5-20	216-227	versprochen	_	_
+5-21	228-231	hat	_	_
+5-22	232-233	,	_	_
+5-23	234-239	dahin	_	_
+5-24	240-242	zu	_	_
+5-25	243-252	begleiten	_	_
+5-26	253-254	.	_	_
+
+#Text=Mit viel Paquetten wird er sich nicht gern belastet sehen \; ich will indessen nachsehen , ob sich etwas für Sie vorfindet .
+6-1	255-258	Mit	_	_
+6-2	259-263	viel	_	_
+6-3	264-273	Paquetten	_	_
+6-4	274-278	wird	_	_
+6-5	279-281	er	_	_
+6-6	282-286	sich	_	_
+6-7	287-292	nicht	_	_
+6-8	293-297	gern	_	_
+6-9	298-306	belastet	_	_
+6-10	307-312	sehen	_	_
+6-11	313-314	\;	_	_
+6-12	315-318	ich	_	_
+6-13	319-323	will	_	_
+6-14	324-332	indessen	_	_
+6-15	333-342	nachsehen	_	_
+6-16	343-344	,	_	_
+6-17	345-347	ob	_	_
+6-18	348-352	sich	_	_
+6-19	353-358	etwas	_	_
+6-20	359-362	für	_	_
+6-21	363-366	Sie	_	_
+6-22	367-376	vorfindet	_	_
+6-23	377-378	.	_	_
+
+#Text=Beiliegend erhalten Sie den seit Ewigkeit vergessenen lucido der Basseggioschen Minervengeburt .
+7-1	379-389	Beiliegend	_	_
+7-2	390-398	erhalten	_	_
+7-3	399-402	Sie	_	_
+7-4	403-406	den	_	_
+7-5	407-411	seit	_	_
+7-6	412-420	Ewigkeit	_	_
+7-7	421-432	vergessenen	_	_
+7-8	433-439	lucido	_	_
+7-9	440-443	der	_	_
+7-10	444-458	Basseggioschen	*	PERmentioned
+7-11	459-473	Minervengeburt	*	OBJ
+7-12	474-475	.	_	_
+
+#Text=Die Curve , auf der die Figuren fußen , wird in eine gerade Linie verwandelt , was die hiesigen Stecher mettere le figure in piano nennen .
+8-1	476-479	Die	_	_
+8-2	480-485	Curve	_	_
+8-3	486-487	,	_	_
+8-4	488-491	auf	_	_
+8-5	492-495	der	_	_
+8-6	496-499	die	_	_
+8-7	500-507	Figuren	_	_
+8-8	508-513	fußen	_	_
+8-9	514-515	,	_	_
+8-10	516-520	wird	_	_
+8-11	521-523	in	_	_
+8-12	524-528	eine	_	_
+8-13	529-535	gerade	_	_
+8-14	536-541	Linie	_	_
+8-15	542-552	verwandelt	_	_
+8-16	553-554	,	_	_
+8-17	555-558	was	_	_
+8-18	559-562	die	_	_
+8-19	563-571	hiesigen	_	_
+8-20	572-579	Stecher	_	_
+8-21	580-587	mettere	_	_
+8-22	588-590	le	_	_
+8-23	591-597	figure	_	_
+8-24	598-600	in	_	_
+8-25	601-606	piano	_	_
+8-26	607-613	nennen	_	_
+8-27	614-615	.	_	_
+
+#Text=In Corneto sind voriges Jahr im März eine Reihe jener Bronzeschilder aufgefunden worden , von denen die ähnlichen aus den Falzacoppaschen Ausgrabungen in das Gregorianum übergegangen sind .
+9-1	616-618	In	_	_
+9-2	619-626	Corneto	*	PLACEmentioned
+9-3	627-631	sind	_	_
+9-4	632-639	voriges	_	_
+9-5	640-644	Jahr	_	_
+9-6	645-647	im	_	_
+9-7	648-652	März	*	DATEmentioned
+9-8	653-657	eine	_	_
+9-9	658-663	Reihe	_	_
+9-10	664-669	jener	_	_
+9-11	670-684	Bronzeschilder	*	OBJ
+9-12	685-696	aufgefunden	_	_
+9-13	697-703	worden	_	_
+9-14	704-705	,	_	_
+9-15	706-709	von	_	_
+9-16	710-715	denen	_	_
+9-17	716-719	die	_	_
+9-18	720-729	ähnlichen	_	_
+9-19	730-733	aus	_	_
+9-20	734-737	den	_	_
+9-21	738-753	Falzacoppaschen	_	_
+9-22	754-766	Ausgrabungen	_	_
+9-23	767-769	in	_	_
+9-24	770-773	das	_	_
+9-25	774-785	Gregorianum	*	ORGmentioned
+9-26	786-798	übergegangen	_	_
+9-27	799-803	sind	_	_
+9-28	804-805	.	_	_
+
+#Text=Die größte derselben ( vielleicht 2 Palmen im Durchmesser ) stellt einen Löwenkopf vor , die kleineren Widderköpfe .
+10-1	806-809	Die	_	_
+10-2	810-816	größte	_	_
+10-3	817-826	derselben	_	_
+10-4	827-828	(	_	_
+10-5	829-839	vielleicht	_	_
+10-6	840-841	2	_	_
+10-7	842-848	Palmen	_	_
+10-8	849-851	im	_	_
+10-9	852-863	Durchmesser	_	_
+10-10	864-865	)	_	_
+10-11	866-872	stellt	_	_
+10-12	873-878	einen	_	_
+10-13	879-888	Löwenkopf	_	_
+10-14	889-892	vor	_	_
+10-15	893-894	,	_	_
+10-16	895-898	die	_	_
+10-17	899-908	kleineren	_	_
+10-18	909-920	Widderköpfe	_	_
+10-19	921-922	.	_	_
+
+#Text=Die Erhaltung derselben ist trefflich zu nennen .
+11-1	923-926	Die	_	_
+11-2	927-936	Erhaltung	_	_
+11-3	937-946	derselben	_	_
+11-4	947-950	ist	_	_
+11-5	951-960	trefflich	_	_
+11-6	961-963	zu	_	_
+11-7	964-970	nennen	_	_
+11-8	971-972	.	_	_
+
+#Text=Auch einige Dreifüße von schwarzer ungebrannter Erde ( bucaro ) , mit alterthümlichen Relieffiguren sind von Interesse .
+12-1	973-977	Auch	_	_
+12-2	978-984	einige	_	_
+12-3	985-993	Dreifüße	*	OBJ
+12-4	994-997	von	_	_
+12-5	998-1007	schwarzer	_	_
+12-6	1008-1020	ungebrannter	_	_
+12-7	1021-1025	Erde	_	_
+12-8	1026-1027	(	_	_
+12-9	1028-1034	bucaro	*	MISC
+12-10	1035-1036	)	_	_
+12-11	1037-1038	,	_	_
+12-12	1039-1042	mit	_	_
+12-13	1043-1058	alterthümlichen	_	_
+12-14	1059-1072	Relieffiguren	_	_
+12-15	1073-1077	sind	_	_
+12-16	1078-1081	von	_	_
+12-17	1082-1091	Interesse	_	_
+12-18	1092-1093	.	_	_
+
+#Text=Außerdem mehrere Schaalen , Vasen etc. meist unversehrt erhalten .
+13-1	1094-1102	Außerdem	_	_
+13-2	1103-1110	mehrere	_	_
+13-3	1111-1119	Schaalen	*	OBJ
+13-4	1120-1121	,	_	_
+13-5	1122-1127	Vasen	*	OBJ
+13-6	1128-1132	etc.	_	_
+13-7	1133-1138	meist	_	_
+13-8	1139-1149	unversehrt	_	_
+13-9	1150-1158	erhalten	_	_
+13-10	1159-1160	.	_	_
+
+#Text=Die Betrachtung derselben bestätigt mich in der Meinung , daß Tarquinien entweder eigene Vasenfabriken besessen , oder aus einer von der der Vulcenter Töpferwaren verschiedenen Quelle bezogen habe .
+14-1	1161-1164	Die	_	_
+14-2	1165-1176	Betrachtung	_	_
+14-3	1177-1186	derselben	_	_
+14-4	1187-1196	bestätigt	_	_
+14-5	1197-1201	mich	_	_
+14-6	1202-1204	in	_	_
+14-7	1205-1208	der	_	_
+14-8	1209-1216	Meinung	_	_
+14-9	1217-1218	,	_	_
+14-10	1219-1222	daß	_	_
+14-11	1223-1233	Tarquinien	*	PLACEmentioned
+14-12	1234-1242	entweder	_	_
+14-13	1243-1249	eigene	_	_
+14-14	1250-1263	Vasenfabriken	_	_
+14-15	1264-1272	besessen	_	_
+14-16	1273-1274	,	_	_
+14-17	1275-1279	oder	_	_
+14-18	1280-1283	aus	_	_
+14-19	1284-1289	einer	_	_
+14-20	1290-1293	von	_	_
+14-21	1294-1297	der	_	_
+14-22	1298-1301	der	_	_
+14-23	1302-1311	Vulcenter	*	PLACEmentioned
+14-24	1312-1323	Töpferwaren	_	_
+14-25	1324-1337	verschiedenen	_	_
+14-26	1338-1344	Quelle	_	_
+14-27	1345-1352	bezogen	_	_
+14-28	1353-1357	habe	_	_
+14-29	1358-1359	.	_	_
+
+#Text=Der Besitzer dieser Gegenstände will nächsten Win-
+15-1	1360-1363	Der	_	_
+15-2	1364-1372	Besitzer	_	_
+15-3	1373-1379	dieser	_	_
+15-4	1380-1391	Gegenstände	_	_
+15-5	1392-1396	will	_	_
+15-6	1397-1405	nächsten	_	_
+15-7	1406-1410	Win-	_	_

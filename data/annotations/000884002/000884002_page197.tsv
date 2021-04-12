@@ -1,0 +1,276 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Florenz , 25 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Florenz	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	25	*[7]	DATEletter[7]
+1-7	29-30	.	*[7]	DATEletter[7]
+
+#Text=Sept .
+2-1	31-35	Sept	*[7]	DATEletter[7]
+2-2	36-37	.	*[7]	DATEletter[7]
+
+#Text=1863 Lieber Henzen .
+3-1	38-42	1863	*[7]	DATEletter[7]
+3-2	43-49	Lieber	_	_
+3-3	50-56	Henzen	*	PERaddressee
+3-4	57-58	.	_	_
+
+#Text=Den Bleistift werden Sie entschuldigen , da ich quasi auf der Straße , nemlich im Hofe des Pal . Gigli schreibe , neben Bartoccini , der revidirt .
+4-1	59-62	Den	_	_
+4-2	63-72	Bleistift	_	_
+4-3	73-79	werden	_	_
+4-4	80-83	Sie	_	_
+4-5	84-97	entschuldigen	_	_
+4-6	98-99	,	_	_
+4-7	100-102	da	_	_
+4-8	103-106	ich	_	_
+4-9	107-112	quasi	_	_
+4-10	113-116	auf	_	_
+4-11	117-120	der	_	_
+4-12	121-127	Straße	_	_
+4-13	128-129	,	_	_
+4-14	130-137	nemlich	_	_
+4-15	138-140	im	_	_
+4-16	141-145	Hofe	_	_
+4-17	146-149	des	_	_
+4-18	150-153	Pal	*[8]	PLACEmentioned[8]
+4-19	154-155	.	*[8]	PLACEmentioned[8]
+4-20	156-161	Gigli	*[8]	PLACEmentioned[8]
+4-21	162-170	schreibe	_	_
+4-22	171-172	,	_	_
+4-23	173-178	neben	_	_
+4-24	179-189	Bartoccini	*	PERmentioned
+4-25	190-191	,	_	_
+4-26	192-195	der	_	_
+4-27	196-204	revidirt	_	_
+4-28	205-206	.	_	_
+
+#Text=Ihr Brief vom qyven erheischte keine schnelle Antwort und so habe ich bis gegen Ende meines hiesigen Aufenthalts gezögert .
+5-1	207-210	Ihr	_	_
+5-2	211-216	Brief	_	_
+5-3	217-220	vom	_	_
+5-4	221-226	qyven	*[9]	DATEmentioned[9]
+5-5	227-237	erheischte	_	_
+5-6	238-243	keine	_	_
+5-7	244-252	schnelle	_	_
+5-8	253-260	Antwort	_	_
+5-9	261-264	und	_	_
+5-10	265-267	so	_	_
+5-11	268-272	habe	_	_
+5-12	273-276	ich	_	_
+5-13	277-280	bis	_	_
+5-14	281-286	gegen	_	_
+5-15	287-291	Ende	_	_
+5-16	292-298	meines	_	_
+5-17	299-307	hiesigen	_	_
+5-18	308-319	Aufenthalts	_	_
+5-19	320-328	gezögert	_	_
+5-20	329-330	.	_	_
+
+#Text=Von den `` nonne '' noch immer keine ganz positive Entscheidung , aber doch so ziemlich sicher , daß sie mit Dreßler kommen .
+6-1	331-334	Von	_	_
+6-2	335-338	den	_	_
+6-3	339-341	``	_	_
+6-4	342-347	nonne	_	_
+6-5	348-350	''	_	_
+6-6	351-355	noch	_	_
+6-7	356-361	immer	_	_
+6-8	362-367	keine	_	_
+6-9	368-372	ganz	_	_
+6-10	373-381	positive	_	_
+6-11	382-394	Entscheidung	_	_
+6-12	395-396	,	_	_
+6-13	397-401	aber	_	_
+6-14	402-406	doch	_	_
+6-15	407-409	so	_	_
+6-16	410-418	ziemlich	_	_
+6-17	419-425	sicher	_	_
+6-18	426-427	,	_	_
+6-19	428-431	daß	_	_
+6-20	432-435	sie	_	_
+6-21	436-439	mit	_	_
+6-22	440-447	Dreßler	*	PERmentioned
+6-23	448-454	kommen	_	_
+6-24	455-456	.	_	_
+
+#Text=Erhalte ich nicht heute oder morgen andere Nachricht , so gehe ich übermorgen , Sonntag früh , mit Bartoccini nach Perugia zurück , und von da etwa am 1 Oct .
+7-1	457-464	Erhalte	_	_
+7-2	465-468	ich	_	_
+7-3	469-474	nicht	_	_
+7-4	475-480	heute	_	_
+7-5	481-485	oder	_	_
+7-6	486-492	morgen	_	_
+7-7	493-499	andere	_	_
+7-8	500-509	Nachricht	_	_
+7-9	510-511	,	_	_
+7-10	512-514	so	_	_
+7-11	515-519	gehe	_	_
+7-12	520-523	ich	_	_
+7-13	524-534	übermorgen	_	_
+7-14	535-536	,	_	_
+7-15	537-544	Sonntag	*	DATEmentioned
+7-16	545-549	früh	_	_
+7-17	550-551	,	_	_
+7-18	552-555	mit	_	_
+7-19	556-566	Bartoccini	*	PERmentioned
+7-20	567-571	nach	_	_
+7-21	572-579	Perugia	*	PLACEmentioned
+7-22	580-586	zurück	_	_
+7-23	587-588	,	_	_
+7-24	589-592	und	_	_
+7-25	593-596	von	_	_
+7-26	597-599	da	_	_
+7-27	600-604	etwa	_	_
+7-28	605-607	am	_	_
+7-29	608-609	1	*[10]	DATEmentioned[10]
+7-30	610-613	Oct	*[10]	DATEmentioned[10]
+7-31	614-615	.	_	_
+
+#Text=mit Sach und Pack nach Rom .
+8-1	616-619	mit	_	_
+8-2	620-624	Sach	_	_
+8-3	625-628	und	_	_
+8-4	629-633	Pack	_	_
+8-5	634-638	nach	_	_
+8-6	639-642	Rom	*	PLACEmentioned
+8-7	643-644	.	_	_
+
+#Text=Mit den hiesigen Arbeiten komme ich etwa so weit , wie in Volterra : alles zerstreute wird abgemacht und im Museum alles bis auf Privates und Sepulcrales , was übrigens , wie der Rest in Volterra , von dem gut eingeschulten Volterraner Bagnolesi noch in diesem Jahre gezeichnet werden wird .
+9-1	645-648	Mit	_	_
+9-2	649-652	den	_	_
+9-3	653-661	hiesigen	_	_
+9-4	662-670	Arbeiten	_	_
+9-5	671-676	komme	_	_
+9-6	677-680	ich	_	_
+9-7	681-685	etwa	_	_
+9-8	686-688	so	_	_
+9-9	689-693	weit	_	_
+9-10	694-695	,	_	_
+9-11	696-699	wie	_	_
+9-12	700-702	in	_	_
+9-13	703-711	Volterra	*	PLACEmentioned
+9-14	712-713	:	_	_
+9-15	714-719	alles	_	_
+9-16	720-730	zerstreute	_	_
+9-17	731-735	wird	_	_
+9-18	736-745	abgemacht	_	_
+9-19	746-749	und	_	_
+9-20	750-752	im	_	_
+9-21	753-759	Museum	*	ORGmentioned
+9-22	760-765	alles	_	_
+9-23	766-769	bis	_	_
+9-24	770-773	auf	_	_
+9-25	774-782	Privates	_	_
+9-26	783-786	und	_	_
+9-27	787-798	Sepulcrales	_	_
+9-28	799-800	,	_	_
+9-29	801-804	was	_	_
+9-30	805-813	übrigens	_	_
+9-31	814-815	,	_	_
+9-32	816-819	wie	_	_
+9-33	820-823	der	_	_
+9-34	824-828	Rest	_	_
+9-35	829-831	in	_	_
+9-36	832-840	Volterra	*	PLACEmentioned
+9-37	841-842	,	_	_
+9-38	843-846	von	_	_
+9-39	847-850	dem	_	_
+9-40	851-854	gut	_	_
+9-41	855-868	eingeschulten	_	_
+9-42	869-880	Volterraner	*	MISC
+9-43	881-890	Bagnolesi	*	PERmentioned
+9-44	891-895	noch	_	_
+9-45	896-898	in	_	_
+9-46	899-905	diesem	_	_
+9-47	906-911	Jahre	_	_
+9-48	912-922	gezeichnet	_	_
+9-49	923-929	werden	_	_
+9-50	930-934	wird	_	_
+9-51	935-936	.	_	_
+
+#Text=Hier habe ich natürlich nicht das ruhige Lebengehabt , wie in Volterra , sondern gehörig herumlaufen müssen .
+10-1	937-941	Hier	_	_
+10-2	942-946	habe	_	_
+10-3	947-950	ich	_	_
+10-4	951-960	natürlich	_	_
+10-5	961-966	nicht	_	_
+10-6	967-970	das	_	_
+10-7	971-977	ruhige	_	_
+10-8	978-989	Lebengehabt	_	_
+10-9	990-991	,	_	_
+10-10	992-995	wie	_	_
+10-11	996-998	in	_	_
+10-12	999-1007	Volterra	*	PLACEmentioned
+10-13	1008-1009	,	_	_
+10-14	1010-1017	sondern	_	_
+10-15	1018-1025	gehörig	_	_
+10-16	1026-1037	herumlaufen	_	_
+10-17	1038-1044	müssen	_	_
+10-18	1045-1046	.	_	_
+
+#Text=Friedlaender habe ich getroffen , bin aber doch wegen dieser Unruhe nicht so viel mit ihm zusammengewesen als ich wünschte .
+11-1	1047-1059	Friedlaender	*	PERmentioned
+11-2	1060-1064	habe	_	_
+11-3	1065-1068	ich	_	_
+11-4	1069-1078	getroffen	_	_
+11-5	1079-1080	,	_	_
+11-6	1081-1084	bin	_	_
+11-7	1085-1089	aber	_	_
+11-8	1090-1094	doch	_	_
+11-9	1095-1100	wegen	_	_
+11-10	1101-1107	dieser	_	_
+11-11	1108-1114	Unruhe	_	_
+11-12	1115-1120	nicht	_	_
+11-13	1121-1123	so	_	_
+11-14	1124-1128	viel	_	_
+11-15	1129-1132	mit	_	_
+11-16	1133-1136	ihm	_	_
+11-17	1137-1152	zusammengewesen	_	_
+11-18	1153-1156	als	_	_
+11-19	1157-1160	ich	_	_
+11-20	1161-1169	wünschte	_	_
+11-21	1170-1171	.	_	_
+
+#Text=Zuletzt haben wir uns noch verfehlt , daß ich gar nicht habe Abschied nehmen können , sofern ich ihn nicht noch treffe , wenn er von Siena zurück hier ( sonst ohne Aufeühalt ) durchpassirt .
+12-1	1172-1179	Zuletzt	_	_
+12-2	1180-1185	haben	_	_
+12-3	1186-1189	wir	_	_
+12-4	1190-1193	uns	_	_
+12-5	1194-1198	noch	_	_
+12-6	1199-1207	verfehlt	_	_
+12-7	1208-1209	,	_	_
+12-8	1210-1213	daß	_	_
+12-9	1214-1217	ich	_	_
+12-10	1218-1221	gar	_	_
+12-11	1222-1227	nicht	_	_
+12-12	1228-1232	habe	_	_
+12-13	1233-1241	Abschied	_	_
+12-14	1242-1248	nehmen	_	_
+12-15	1249-1255	können	_	_
+12-16	1256-1257	,	_	_
+12-17	1258-1264	sofern	_	_
+12-18	1265-1268	ich	_	_
+12-19	1269-1272	ihn	_	_
+12-20	1273-1278	nicht	_	_
+12-21	1279-1283	noch	_	_
+12-22	1284-1290	treffe	_	_
+12-23	1291-1292	,	_	_
+12-24	1293-1297	wenn	_	_
+12-25	1298-1300	er	_	_
+12-26	1301-1304	von	_	_
+12-27	1305-1310	Siena	*	PLACEmentioned
+12-28	1311-1317	zurück	_	_
+12-29	1318-1322	hier	_	_
+12-30	1323-1324	(	_	_
+12-31	1325-1330	sonst	_	_
+12-32	1331-1335	ohne	_	_
+12-33	1336-1345	Aufeühalt	_	_
+12-34	1346-1347	)	_	_
+12-35	1348-1360	durchpassirt	_	_
+12-36	1361-1362	.	_	_

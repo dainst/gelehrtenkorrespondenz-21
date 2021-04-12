@@ -1,0 +1,158 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=76 Gerhard an Henzen Berlin , 1. Februar 1845 A. di Direz .
+1-1	0-2	76	_	_	
+1-2	3-10	Gerhard	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-20	Henzen	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-32	1.	*[1]	DATEletter[1]	
+1-8	33-40	Februar	*[1]	DATEletter[1]	
+1-9	41-45	1845	*[1]	DATEletter[1]	
+1-10	46-48	A.	_	_	
+1-11	49-51	di	_	_	
+1-12	52-57	Direz	_	_	
+1-13	58-59	.	_	_	
+
+#Text=g . 7/III 45 r . 17/III 45 Berlin 1 Febr 45 Werthester Freund !
+2-1	60-61	g	_	_	
+2-2	62-63	.	_	_	
+2-3	64-69	7/III	*[2]	DATErecieved[2]	
+2-4	70-72	45	*[2]	DATErecieved[2]	
+2-5	73-74	r	_	_	
+2-6	75-76	.	_	_	
+2-7	77-83	17/III	*[3]	DATEanswered[3]	
+2-8	84-86	45	*[3]	DATEanswered[3]	
+2-9	87-93	Berlin	*	PLACEfrom	
+2-10	94-95	1	*[4]	DATEletter[4]	
+2-11	96-100	Febr	*[4]	DATEletter[4]	
+2-12	101-103	45	*[4]	DATEletter[4]	
+2-13	104-114	Werthester	_	_	
+2-14	115-121	Freund	_	_	
+2-15	122-123	!	_	_	
+
+#Text=Herr Dr. Schrader aus Berlin den ich Ihnen bestens empfehle soll Ihnen wenigstens einige Zeilen herzlicher Erwiederung auf Ihre neuliche ( 16 Januar ) Zuschrift mitbringen .
+3-1	124-128	Herr	_	_	
+3-2	129-132	Dr.	_	_	
+3-3	133-141	Schrader	*	PERmentioned	
+3-4	142-145	aus	_	_	
+3-5	146-152	Berlin	*	PLACEmentioned	
+3-6	153-156	den	_	_	
+3-7	157-160	ich	_	_	
+3-8	161-166	Ihnen	_	_	
+3-9	167-174	bestens	_	_	
+3-10	175-183	empfehle	_	_	
+3-11	184-188	soll	_	_	
+3-12	189-194	Ihnen	_	_	
+3-13	195-205	wenigstens	_	_	
+3-14	206-212	einige	_	_	
+3-15	213-219	Zeilen	_	_	
+3-16	220-230	herzlicher	_	_	
+3-17	231-242	Erwiederung	_	_	
+3-18	243-246	auf	_	_	
+3-19	247-251	Ihre	_	_	
+3-20	252-260	neuliche	_	_	
+3-21	261-262	(	_	_	
+3-22	263-265	16	*[5]	DATEmentioned[5]	
+3-23	266-272	Januar	*[5]	DATEmentioned[5]	
+3-24	273-274	)	_	_	
+3-25	275-284	Zuschrift	_	_	
+3-26	285-295	mitbringen	_	_	
+3-27	296-297	.	_	_	
+
+#Text=Inschriftssachen die Sie darin berührten habe ich Ihnen bereits durch Braun beantwortet , mit Ausnahme der Nachforschungen wegen Thortacischer Schriften .
+4-1	298-314	Inschriftssachen	_	_	
+4-2	315-318	die	_	_	
+4-3	319-322	Sie	_	_	
+4-4	323-328	darin	_	_	
+4-5	329-338	berührten	_	_	
+4-6	339-343	habe	_	_	
+4-7	344-347	ich	_	_	
+4-8	348-353	Ihnen	_	_	
+4-9	354-361	bereits	_	_	
+4-10	362-367	durch	_	_	
+4-11	368-373	Braun	*	PERmentioned	
+4-12	374-385	beantwortet	_	_	
+4-13	386-387	,	_	_	
+4-14	388-391	mit	_	_	
+4-15	392-400	Ausnahme	_	_	
+4-16	401-404	der	_	_	
+4-17	405-420	Nachforschungen	_	_	
+4-18	421-426	wegen	_	_	
+4-19	427-440	Thortacischer	_	_	
+4-20	441-450	Schriften	_	_	
+4-21	451-452	.	_	_	
+
+#Text=Die hiesige Bibliothek hat nichts Neueres dieses Namens als a . 1828 ; mancher Däne Ihrer Bekanntschaft aber wird sich geschmeichelt fühlen , wenn Sie ihn um jenen seinen gelehrten Landsmann bemühen .
+5-1	453-456	Die	_	_	
+5-2	457-464	hiesige	_	_	
+5-3	465-475	Bibliothek	*	ORGmentioned	
+5-4	476-479	hat	_	_	
+5-5	480-486	nichts	_	_	
+5-6	487-494	Neueres	_	_	
+5-7	495-501	dieses	_	_	
+5-8	502-508	Namens	_	_	
+5-9	509-512	als	_	_	
+5-10	513-514	a	_	_	
+5-11	515-516	.	_	_	
+5-12	517-521	1828	*	DATEmentioned	
+5-13	522-523	;	_	_	
+5-14	524-531	mancher	_	_	
+5-15	532-536	Däne	_	_	
+5-16	537-542	Ihrer	_	_	
+5-17	543-556	Bekanntschaft	_	_	
+5-18	557-561	aber	_	_	
+5-19	562-566	wird	_	_	
+5-20	567-571	sich	_	_	
+5-21	572-585	geschmeichelt	_	_	
+5-22	586-592	fühlen	_	_	
+5-23	593-594	,	_	_	
+5-24	595-599	wenn	_	_	
+5-25	600-603	Sie	_	_	
+5-26	604-607	ihn	_	_	
+5-27	608-610	um	_	_	
+5-28	611-616	jenen	_	_	
+5-29	617-623	seinen	_	_	
+5-30	624-633	gelehrten	_	_	
+5-31	634-643	Landsmann	_	_	
+5-32	644-651	bemühen	_	_	
+5-33	652-653	.	_	_	
+
+#Text=Wie Sie Ihren florentinischen Druck ins Bullettino einschwärzen begreife ich nicht recht .
+6-1	654-657	Wie	_	_	
+6-2	658-661	Sie	_	_	
+6-3	662-667	Ihren	_	_	
+6-4	668-683	florentinischen	_	_	
+6-5	684-689	Druck	_	_	
+6-6	690-693	ins	_	_	
+6-7	694-704	Bullettino	_	_	
+6-8	705-717	einschwärzen	_	_	
+6-9	718-726	begreife	_	_	
+6-10	727-730	ich	_	_	
+6-11	731-736	nicht	_	_	
+6-12	737-742	recht	_	_	
+6-13	743-744	.	_	_	
+
+#Text=Meine Frau grüßt bestens , möge es bei Ihnen recht wohl gehen .
+7-1	745-750	Meine	_	_	
+7-2	751-755	Frau	_	_	
+7-3	756-761	grüßt	_	_	
+7-4	762-769	bestens	_	_	
+7-5	770-771	,	_	_	
+7-6	772-776	möge	_	_	
+7-7	777-779	es	_	_	
+7-8	780-783	bei	_	_	
+7-9	784-789	Ihnen	_	_	
+7-10	790-795	recht	_	_	
+7-11	796-800	wohl	_	_	
+7-12	801-806	gehen	_	_	
+7-13	807-808	.	_	_	
+
+#Text=Herzlichst der Ihrige Gerhard
+8-1	809-819	Herzlichst	_	_	
+8-2	820-823	der	_	_	
+8-3	824-830	Ihrige	_	_	
+8-4	831-838	Gerhard	*	PERauthor	

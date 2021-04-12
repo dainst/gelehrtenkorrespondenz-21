@@ -1,0 +1,92 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=188 Gerhard an Braun Berlin , 27. Mai 1845 durfte aber einer freundlichen Äußerung von Ihnen .
+1-1	0-3	188	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	27.	*[3]	DATEletter[3]
+1-8	34-37	Mai	*[3]	DATEletter[3]
+1-9	38-42	1845	*[3]	DATEletter[3]
+1-10	43-49	durfte	_	_
+1-11	50-54	aber	_	_
+1-12	55-60	einer	_	_
+1-13	61-73	freundlichen	_	_
+1-14	74-82	Äußerung	_	_
+1-15	83-86	von	_	_
+1-16	87-92	Ihnen	_	_
+1-17	93-94	.	_	_
+
+#Text=Von Urlichs werde ich die Stellensammlung , da er dazu bereit ist , vermuthlich tale quale zurücknehmen und nur die Astygraphen ihm überlassen die er bald drucken will .
+2-1	95-98	Von	_	_
+2-2	99-106	Urlichs	*	PERmentioned
+2-3	107-112	werde	_	_
+2-4	113-116	ich	_	_
+2-5	117-120	die	_	_
+2-6	121-136	Stellensammlung	_	_
+2-7	137-138	,	_	_
+2-8	139-141	da	_	_
+2-9	142-144	er	_	_
+2-10	145-149	dazu	_	_
+2-11	150-156	bereit	_	_
+2-12	157-160	ist	_	_
+2-13	161-162	,	_	_
+2-14	163-174	vermuthlich	_	_
+2-15	175-179	tale	_	_
+2-16	180-185	quale	_	_
+2-17	186-198	zurücknehmen	_	_
+2-18	199-202	und	_	_
+2-19	203-206	nur	_	_
+2-20	207-210	die	_	_
+2-21	211-222	Astygraphen	_	_
+2-22	223-226	ihm	_	_
+2-23	227-237	überlassen	_	_
+2-24	238-241	die	_	_
+2-25	242-244	er	_	_
+2-26	245-249	bald	_	_
+2-27	250-257	drucken	_	_
+2-28	258-262	will	_	_
+2-29	263-264	.	_	_
+
+#Text=Die Figur des Owecde .
+3-1	265-268	Die	_	_
+3-2	269-274	Figur	_	_
+3-3	275-278	des	_	_
+3-4	279-285	Owecde	_	_
+3-5	286-287	.	_	_
+
+#Text=ist nicht JSon sondern Herakles .
+4-1	288-291	ist	_	_
+4-2	292-297	nicht	_	_
+4-3	298-302	JSon	_	_
+4-4	303-310	sondern	_	_
+4-5	311-319	Herakles	*	PERmentioned
+4-6	320-321	.	_	_
+
+#Text=Vgl. die Code : vase .
+5-1	322-326	Vgl.	_	_
+5-2	327-330	die	_	_
+5-3	331-335	Code	_	_
+5-4	336-337	:	_	_
+5-5	338-342	vase	*	OBJ
+5-6	343-344	.	_	_
+
+#Text=Grüßen Sie alle Freunde \; wie geht es bei Vollards ?
+6-1	345-351	Grüßen	_	_
+6-2	352-355	Sie	_	_
+6-3	356-360	alle	_	_
+6-4	361-368	Freunde	_	_
+6-5	369-370	\;	_	_
+6-6	371-374	wie	_	_
+6-7	375-379	geht	_	_
+6-8	380-382	es	_	_
+6-9	383-386	bei	_	_
+6-10	387-395	Vollards	*	PERmentioned
+6-11	396-397	?	_	_
+
+#Text=Gerhard
+7-1	398-405	Gerhard	*	PERauthor

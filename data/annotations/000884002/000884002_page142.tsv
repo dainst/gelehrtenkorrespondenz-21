@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=118 Brunn an Henzen Neapel , 7. April 1863 Daß ich Niccolini mit 25 p. Cent .
+1-1	0-3	118	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Neapel	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	7.	*[13]	DATEletter[13]
+1-8	32-37	April	*[13]	DATEletter[13]
+1-9	38-42	1863	*[13]	DATEletter[13]
+1-10	43-46	Daß	_	_
+1-11	47-50	ich	_	_
+1-12	51-60	Niccolini	*	PERmentioned
+1-13	61-64	mit	_	_
+1-14	65-67	25	_	_
+1-15	68-70	p.	_	_
+1-16	71-75	Cent	_	_
+1-17	76-77	.	_	_
+
+#Text=Rabatt zu acceptiren mit ohne weiteres entschlossen , wird Ihnen meine Frau wohl berichtet haben und von Ihnen hoffentlich approbirt werden .
+2-1	78-84	Rabatt	_	_
+2-2	85-87	zu	_	_
+2-3	88-98	acceptiren	_	_
+2-4	99-102	mit	_	_
+2-5	103-107	ohne	_	_
+2-6	108-116	weiteres	_	_
+2-7	117-129	entschlossen	_	_
+2-8	130-131	,	_	_
+2-9	132-136	wird	_	_
+2-10	137-142	Ihnen	_	_
+2-11	143-148	meine	*[14]	PERmentioned[14]
+2-12	149-153	Frau	*[14]	PERmentioned[14]
+2-13	154-158	wohl	_	_
+2-14	159-168	berichtet	_	_
+2-15	169-174	haben	_	_
+2-16	175-178	und	_	_
+2-17	179-182	von	_	_
+2-18	183-188	Ihnen	_	_
+2-19	189-200	hoffentlich	_	_
+2-20	201-210	approbirt	_	_
+2-21	211-217	werden	_	_
+2-22	218-219	.	_	_
+
+#Text=Minervini bekommt doch den prodromus geschenkt ?
+3-1	220-229	Minervini	*	PERmentioned
+3-2	230-237	bekommt	_	_
+3-3	238-242	doch	_	_
+3-4	243-246	den	_	_
+3-5	247-256	prodromus	_	_
+3-6	257-266	geschenkt	_	_
+3-7	267-268	?	_	_
+
+#Text=Kommt ein Exemplar etwa mit der römischen Kiste ?
+4-1	269-274	Kommt	_	_
+4-2	275-278	ein	_	_
+4-3	279-287	Exemplar	_	_
+4-4	288-292	etwa	_	_
+4-5	293-296	mit	_	_
+4-6	297-300	der	_	_
+4-7	301-310	römischen	_	_
+4-8	311-316	Kiste	_	_
+4-9	317-318	?	_	_
+
+#Text=Klären Sie mich darüber auf \; er frug heute etwas ängstlich danach .
+5-1	319-325	Klären	_	_
+5-2	326-329	Sie	_	_
+5-3	330-334	mich	_	_
+5-4	335-342	darüber	_	_
+5-5	343-346	auf	_	_
+5-6	347-348	\;	_	_
+5-7	349-351	er	_	_
+5-8	352-356	frug	_	_
+5-9	357-362	heute	_	_
+5-10	363-368	etwas	_	_
+5-11	369-378	ängstlich	_	_
+5-12	379-385	danach	_	_
+5-13	386-387	.	_	_
+
+#Text=Gervasio sah ich noch nicht \; ich dachte ihn heute in der Akademie zu treffen \; aber man hatte mir eine falsche Stunde angegeben .
+6-1	388-396	Gervasio	*	PERmentioned
+6-2	397-400	sah	_	_
+6-3	401-404	ich	_	_
+6-4	405-409	noch	_	_
+6-5	410-415	nicht	_	_
+6-6	416-417	\;	_	_
+6-7	418-421	ich	_	_
+6-8	422-428	dachte	_	_
+6-9	429-432	ihn	_	_
+6-10	433-438	heute	_	_
+6-11	439-441	in	_	_
+6-12	442-445	der	_	_
+6-13	446-454	Akademie	*	ORGmentioned
+6-14	455-457	zu	_	_
+6-15	458-465	treffen	_	_
+6-16	466-467	\;	_	_
+6-17	468-472	aber	_	_
+6-18	473-476	man	_	_
+6-19	477-482	hatte	_	_
+6-20	483-486	mir	_	_
+6-21	487-491	eine	_	_
+6-22	492-499	falsche	_	_
+6-23	500-506	Stunde	_	_
+6-24	507-516	angegeben	_	_
+6-25	517-518	.	_	_
+
+#Text=Von Ritschl erhielt auch ich heute einen Brief \; dto .
+7-1	519-522	Von	_	_
+7-2	523-530	Ritschl	*	PERmentioned
+7-3	531-538	erhielt	_	_
+7-4	539-543	auch	_	_
+7-5	544-547	ich	_	_
+7-6	548-553	heute	_	_
+7-7	554-559	einen	_	_
+7-8	560-565	Brief	_	_
+7-9	566-567	\;	_	_
+7-10	568-571	dto	_	_
+7-11	572-573	.	_	_
+
+#Text=von Pertz .
+8-1	574-577	von	_	_
+8-2	578-583	Pertz	*	PERmentioned
+8-3	584-585	.	_	_
+
+#Text=Den nicht hinlänglich frankirten Brief aus Neapel an mich nach Rom habe ich eingelöst .
+9-1	586-589	Den	_	_
+9-2	590-595	nicht	_	_
+9-3	596-607	hinlänglich	_	_
+9-4	608-618	frankirten	_	_
+9-5	619-624	Brief	_	_
+9-6	625-628	aus	_	_
+9-7	629-635	Neapel	*	PLACEmentioned
+9-8	636-638	an	_	_
+9-9	639-643	mich	_	_
+9-10	644-648	nach	_	_
+9-11	649-652	Rom	*	PLACEmentioned
+9-12	653-657	habe	_	_
+9-13	658-661	ich	_	_
+9-14	662-671	eingelöst	_	_
+9-15	672-673	.	_	_
+
+#Text=Er kam von einem Göttinger Professor , der hier in n . 28 wohnt und nun hier von mir aufgesucht werden soll .
+10-1	674-676	Er	_	_
+10-2	677-680	kam	_	_
+10-3	681-684	von	_	_
+10-4	685-690	einem	_	_
+10-5	691-700	Göttinger	*	MISC
+10-6	701-710	Professor	_	_
+10-7	711-712	,	_	_
+10-8	713-716	der	_	_
+10-9	717-721	hier	_	_
+10-10	722-724	in	_	_
+10-11	725-726	n	_	_
+10-12	727-728	.	_	_
+10-13	729-731	28	_	_
+10-14	732-737	wohnt	_	_
+10-15	738-741	und	_	_
+10-16	742-745	nun	_	_
+10-17	746-750	hier	_	_
+10-18	751-754	von	_	_
+10-19	755-758	mir	_	_
+10-20	759-769	aufgesucht	_	_
+10-21	770-776	werden	_	_
+10-22	777-781	soll	_	_
+10-23	782-783	.	_	_
+
+#Text=Ein Paar Zeilen an Golini couvertiren Sie wohl \; und wenn mein Artikel gedruckt ist , vergessen Sie nicht , ihm einige Exemplare zu schicken .
+11-1	784-787	Ein	_	_
+11-2	788-792	Paar	_	_
+11-3	793-799	Zeilen	_	_
+11-4	800-802	an	_	_
+11-5	803-809	Golini	*	PERmentioned
+11-6	810-821	couvertiren	_	_
+11-7	822-825	Sie	_	_
+11-8	826-830	wohl	_	_
+11-9	831-832	\;	_	_
+11-10	833-836	und	_	_
+11-11	837-841	wenn	_	_
+11-12	842-846	mein	_	_
+11-13	847-854	Artikel	_	_
+11-14	855-863	gedruckt	_	_
+11-15	864-867	ist	_	_
+11-16	868-869	,	_	_
+11-17	870-879	vergessen	_	_
+11-18	880-883	Sie	_	_
+11-19	884-889	nicht	_	_
+11-20	890-891	,	_	_
+11-21	892-895	ihm	_	_
+11-22	896-902	einige	_	_
+11-23	903-912	Exemplare	_	_
+11-24	913-915	zu	_	_
+11-25	916-924	schicken	_	_
+11-26	925-926	.	_	_
+
+#Text=Ist Nachricht von Corneto gekommen ?
+12-1	927-930	Ist	_	_
+12-2	931-940	Nachricht	_	_
+12-3	941-944	von	_	_
+12-4	945-952	Corneto	*	PLACEmentioned
+12-5	953-961	gekommen	_	_
+12-6	962-963	?	_	_
+
+#Text=Sonst gehts passabel .
+13-1	964-969	Sonst	_	_
+13-2	970-975	gehts	_	_
+13-3	976-984	passabel	_	_
+13-4	985-986	.	_	_
+
+#Text=Grüßen Sie meine Frau mit den pupi und die ganze casa , in der ich mich nach der hiesigen Unruhe wieder recht wohl fühlen werde .
+14-1	987-993	Grüßen	_	_
+14-2	994-997	Sie	_	_
+14-3	998-1003	meine	*[15]	PERmentioned[15]
+14-4	1004-1008	Frau	*[15]	PERmentioned[15]
+14-5	1009-1012	mit	_	_
+14-6	1013-1016	den	_	_
+14-7	1017-1021	pupi	_	_
+14-8	1022-1025	und	_	_
+14-9	1026-1029	die	_	_
+14-10	1030-1035	ganze	_	_
+14-11	1036-1040	casa	_	_
+14-12	1041-1042	,	_	_
+14-13	1043-1045	in	_	_
+14-14	1046-1049	der	_	_
+14-15	1050-1053	ich	_	_
+14-16	1054-1058	mich	_	_
+14-17	1059-1063	nach	_	_
+14-18	1064-1067	der	_	_
+14-19	1068-1076	hiesigen	_	_
+14-20	1077-1083	Unruhe	_	_
+14-21	1084-1090	wieder	_	_
+14-22	1091-1096	recht	_	_
+14-23	1097-1101	wohl	_	_
+14-24	1102-1108	fühlen	_	_
+14-25	1109-1114	werde	_	_
+14-26	1115-1116	.	_	_
+
+#Text=Ihr HBrunn .
+15-1	1117-1120	Ihr	_	_
+15-2	1121-1127	HBrunn	*	PERauthor
+15-3	1128-1129	.	_	_

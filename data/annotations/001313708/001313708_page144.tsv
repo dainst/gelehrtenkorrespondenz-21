@@ -1,0 +1,222 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Berlin , 23. Dezember 1834 Herrn Geh .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	23.	*[4]	DATEletter[4]
+1-7	31-39	Dezember	*[4]	DATEletter[4]
+1-8	40-44	1834	*[4]	DATEletter[4]
+1-9	45-50	Herrn	_	_
+1-10	51-54	Geh	_	_
+1-11	55-56	.	_	_
+
+#Text=Leg.Rath Bunsen Berlin 23 Dec .
+2-1	57-65	Leg.Rath	_	_
+2-2	66-72	Bunsen	*	PERaddressee
+2-3	73-79	Berlin	*	PLACEfrom
+2-4	80-82	23	*[7]	DATEletter[7]
+2-5	83-86	Dec	*[7]	DATEletter[7]
+2-6	87-88	.	*[7]	DATEletter[7]
+
+#Text=34 .
+3-1	89-91	34	*[7]	DATEletter[7]
+3-2	92-93	.	_	_
+
+#Text=Beiliegend , theuerster Freund , allerlei Institutsnotizen , sämmtlich Direktionssachen , hauptsächtlich für die V Redaktion der avvisi \; ich bitte dieselben , so bald Sie dieselben angesehen zur weiteren Beförderung an Braun zu geben , doch mit Ihrer entscheidenden Begutachtung über folgende Punkte : 1 .
+4-1	94-104	Beiliegend	_	_
+4-2	105-106	,	_	_
+4-3	107-117	theuerster	_	_
+4-4	118-124	Freund	_	_
+4-5	125-126	,	_	_
+4-6	127-135	allerlei	_	_
+4-7	136-152	Institutsnotizen	_	_
+4-8	153-154	,	_	_
+4-9	155-164	sämmtlich	_	_
+4-10	165-181	Direktionssachen	_	_
+4-11	182-183	,	_	_
+4-12	184-198	hauptsächtlich	_	_
+4-13	199-202	für	_	_
+4-14	203-206	die	_	_
+4-15	207-208	V	_	_
+4-16	209-218	Redaktion	_	_
+4-17	219-222	der	_	_
+4-18	223-229	avvisi	_	_
+4-19	230-231	\;	_	_
+4-20	232-235	ich	_	_
+4-21	236-241	bitte	_	_
+4-22	242-251	dieselben	_	_
+4-23	252-253	,	_	_
+4-24	254-256	so	_	_
+4-25	257-261	bald	_	_
+4-26	262-265	Sie	_	_
+4-27	266-275	dieselben	_	_
+4-28	276-285	angesehen	_	_
+4-29	286-289	zur	_	_
+4-30	290-298	weiteren	_	_
+4-31	299-310	Beförderung	_	_
+4-32	311-313	an	_	_
+4-33	314-319	Braun	*	PERmentioned
+4-34	320-322	zu	_	_
+4-35	323-328	geben	_	_
+4-36	329-330	,	_	_
+4-37	331-335	doch	_	_
+4-38	336-339	mit	_	_
+4-39	340-345	Ihrer	_	_
+4-40	346-360	entscheidenden	_	_
+4-41	361-373	Begutachtung	_	_
+4-42	374-378	über	_	_
+4-43	379-387	folgende	_	_
+4-44	388-394	Punkte	_	_
+4-45	395-396	:	_	_
+4-46	397-398	1	_	_
+4-47	399-400	.	_	_
+
+#Text=Ob bei meiner `` noch immer auf Monate sich verlängernden Abwesenheit '' Braun als Prosegretario oder bescheiden als Sostituto della Direzione zu publiciren sein .
+5-1	401-403	Ob	_	_
+5-2	404-407	bei	_	_
+5-3	408-414	meiner	_	_
+5-4	415-417	``	_	_
+5-5	418-422	noch	_	_
+5-6	423-428	immer	_	_
+5-7	429-432	auf	_	_
+5-8	433-439	Monate	_	_
+5-9	440-444	sich	_	_
+5-10	445-458	verlängernden	_	_
+5-11	459-470	Abwesenheit	_	_
+5-12	471-473	''	_	_
+5-13	474-479	Braun	*	PERmentioned
+5-14	480-483	als	_	_
+5-15	484-497	Prosegretario	_	_
+5-16	498-502	oder	_	_
+5-17	503-513	bescheiden	_	_
+5-18	514-517	als	_	_
+5-19	518-527	Sostituto	_	_
+5-20	528-533	della	_	_
+5-21	534-543	Direzione	_	_
+5-22	544-546	zu	_	_
+5-23	547-557	publiciren	_	_
+5-24	558-562	sein	_	_
+5-25	563-564	.	_	_
+
+#Text=Ist eine Person vorhanden um als Prosegretario zu figuriren , so ist es anständiger für das Institut \; Brauns litterarische Geltung in Rom und namentlich der seiner nun eröffneten Vorträge muß entscheiden ob er , wie ich hoffe , als FProsegretario proklamirt werden könne .
+6-1	565-568	Ist	_	_
+6-2	569-573	eine	_	_
+6-3	574-580	Person	_	_
+6-4	581-590	vorhanden	_	_
+6-5	591-593	um	_	_
+6-6	594-597	als	_	_
+6-7	598-611	Prosegretario	_	_
+6-8	612-614	zu	_	_
+6-9	615-624	figuriren	_	_
+6-10	625-626	,	_	_
+6-11	627-629	so	_	_
+6-12	630-633	ist	_	_
+6-13	634-636	es	_	_
+6-14	637-648	anständiger	_	_
+6-15	649-652	für	_	_
+6-16	653-656	das	_	_
+6-17	657-665	Institut	*	ORGmentioned
+6-18	666-667	\;	_	_
+6-19	668-674	Brauns	*	PERmentioned
+6-20	675-688	litterarische	_	_
+6-21	689-696	Geltung	_	_
+6-22	697-699	in	_	_
+6-23	700-703	Rom	*	PLACEmentioned
+6-24	704-707	und	_	_
+6-25	708-718	namentlich	_	_
+6-26	719-722	der	_	_
+6-27	723-729	seiner	_	_
+6-28	730-733	nun	_	_
+6-29	734-744	eröffneten	_	_
+6-30	745-753	Vorträge	_	_
+6-31	754-757	muß	_	_
+6-32	758-769	entscheiden	_	_
+6-33	770-772	ob	_	_
+6-34	773-775	er	_	_
+6-35	776-777	,	_	_
+6-36	778-781	wie	_	_
+6-37	782-785	ich	_	_
+6-38	786-791	hoffe	_	_
+6-39	792-793	,	_	_
+6-40	794-797	als	_	_
+6-41	798-812	FProsegretario	_	_
+6-42	813-823	proklamirt	_	_
+6-43	824-830	werden	_	_
+6-44	831-836	könne	_	_
+6-45	837-838	.	_	_
+
+#Text=2 .
+7-1	839-840	2	_	_
+7-2	841-842	.	_	_
+
+#Text=0b Franz zum Assistente della Direzione zu ernennen nützlich und anständig sei .
+8-1	843-845	0b	_	_
+8-2	846-851	Franz	*	PERmentioned
+8-3	852-855	zum	_	_
+8-4	856-866	Assistente	_	_
+8-5	867-872	della	_	_
+8-6	873-882	Direzione	_	_
+8-7	883-885	zu	_	_
+8-8	886-894	ernennen	_	_
+8-9	895-903	nützlich	_	_
+8-10	904-907	und	_	_
+8-11	908-917	anständig	_	_
+8-12	918-921	sei	_	_
+8-13	922-923	.	_	_
+
+#Text=Ob Mustoxidi der seit das Institut besteht unter den onorarj della Direzione aufgeführt ist ohne je von sich hören zu lassen , in der Liste der ( vorschriftsmäßig 10 ) onorarj dem Canima Platz machen solle , der ein offenbar für unsere rönischen Verhältnisse ein sehr wichtiger Mann ist .
+9-1	924-926	Ob	_	_
+9-2	927-936	Mustoxidi	*	PERmentioned
+9-3	937-940	der	_	_
+9-4	941-945	seit	_	_
+9-5	946-949	das	_	_
+9-6	950-958	Institut	*	ORGmentioned
+9-7	959-966	besteht	_	_
+9-8	967-972	unter	_	_
+9-9	973-976	den	_	_
+9-10	977-984	onorarj	_	_
+9-11	985-990	della	_	_
+9-12	991-1000	Direzione	_	_
+9-13	1001-1011	aufgeführt	_	_
+9-14	1012-1015	ist	_	_
+9-15	1016-1020	ohne	_	_
+9-16	1021-1023	je	_	_
+9-17	1024-1027	von	_	_
+9-18	1028-1032	sich	_	_
+9-19	1033-1038	hören	_	_
+9-20	1039-1041	zu	_	_
+9-21	1042-1048	lassen	_	_
+9-22	1049-1050	,	_	_
+9-23	1051-1053	in	_	_
+9-24	1054-1057	der	_	_
+9-25	1058-1063	Liste	_	_
+9-26	1064-1067	der	_	_
+9-27	1068-1069	(	_	_
+9-28	1070-1086	vorschriftsmäßig	_	_
+9-29	1087-1089	10	_	_
+9-30	1090-1091	)	_	_
+9-31	1092-1099	onorarj	_	_
+9-32	1100-1103	dem	_	_
+9-33	1104-1110	Canima	*	PERmentioned
+9-34	1111-1116	Platz	_	_
+9-35	1117-1123	machen	_	_
+9-36	1124-1129	solle	_	_
+9-37	1130-1131	,	_	_
+9-38	1132-1135	der	_	_
+9-39	1136-1139	ein	_	_
+9-40	1140-1148	offenbar	_	_
+9-41	1149-1152	für	_	_
+9-42	1153-1159	unsere	_	_
+9-43	1160-1169	rönischen	_	_
+9-44	1170-1182	Verhältnisse	_	_
+9-45	1183-1186	ein	_	_
+9-46	1187-1191	sehr	_	_
+9-47	1192-1201	wichtiger	_	_
+9-48	1202-1206	Mann	_	_
+9-49	1207-1210	ist	_	_
+9-50	1211-1212	.	_	_

@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1055 Braun an Gerhard Rom , 15. Dezember 1835 - 4. zu gedient haben eine Patere oder besser einen Kranz zu befestigen .
+1-1	0-4	1055	_	_
+1-2	5-10	Braun	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-25	Rom	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	15.	*[1]	DATEletter[1]
+1-8	32-40	Dezember	*[1]	DATEletter[1]
+1-9	41-45	1835	*[1]	DATEletter[1]
+1-10	46-47	-	_	_
+1-11	48-50	4.	_	_
+1-12	51-53	zu	_	_
+1-13	54-61	gedient	_	_
+1-14	62-67	haben	_	_
+1-15	68-72	eine	_	_
+1-16	73-79	Patere	_	_
+1-17	80-84	oder	_	_
+1-18	85-91	besser	_	_
+1-19	92-97	einen	_	_
+1-20	98-103	Kranz	_	_
+1-21	104-106	zu	_	_
+1-22	107-117	befestigen	_	_
+1-23	118-119	.	_	_
+
+#Text=Denn jedenfalls ist es gerathener diese Statue für einen siegreichen Athleten oder Krieger als für einen Mars zu nehmen .
+2-1	120-124	Denn	_	_
+2-2	125-135	jedenfalls	_	_
+2-3	136-139	ist	_	_
+2-4	140-142	es	_	_
+2-5	143-153	gerathener	_	_
+2-6	154-159	diese	*[2]	OBJ[2]
+2-7	160-166	Statue	*[2]	OBJ[2]
+2-8	167-170	für	_	_
+2-9	171-176	einen	_	_
+2-10	177-188	siegreichen	_	_
+2-11	189-197	Athleten	_	_
+2-12	198-202	oder	_	_
+2-13	203-210	Krieger	_	_
+2-14	211-214	als	_	_
+2-15	215-218	für	_	_
+2-16	219-224	einen	_	_
+2-17	225-229	Mars	_	_
+2-18	230-232	zu	_	_
+2-19	233-239	nehmen	_	_
+2-20	240-241	.	_	_
+
+#Text=Dafür spricht auch der Styl unseres Kunstwerkes .
+3-1	242-247	Dafür	_	_
+3-2	248-255	spricht	_	_
+3-3	256-260	auch	_	_
+3-4	261-264	der	_	_
+3-5	265-269	Styl	_	_
+3-6	270-277	unseres	_	_
+3-7	278-289	Kunstwerkes	_	_
+3-8	290-291	.	_	_
+
+#Text=Der Körper zeigt zwar die Strenge äginalischer Statuenbildungen , allein der Kopf ist nicht wie bei den berühmten Werken jener Giebelgruppe streng und absichtlich leblos gehalten .
+4-1	292-295	Der	_	_
+4-2	296-302	Körper	_	_
+4-3	303-308	zeigt	_	_
+4-4	309-313	zwar	_	_
+4-5	314-317	die	_	_
+4-6	318-325	Strenge	_	_
+4-7	326-338	äginalischer	*[3]	OBJ[3]
+4-8	339-355	Statuenbildungen	*[3]	OBJ[3]
+4-9	356-357	,	_	_
+4-10	358-364	allein	_	_
+4-11	365-368	der	_	_
+4-12	369-373	Kopf	_	_
+4-13	374-377	ist	_	_
+4-14	378-383	nicht	_	_
+4-15	384-387	wie	_	_
+4-16	388-391	bei	_	_
+4-17	392-395	den	_	_
+4-18	396-405	berühmten	_	_
+4-19	406-412	Werken	_	_
+4-20	413-418	jener	_	_
+4-21	419-431	Giebelgruppe	*	OBJ
+4-22	432-438	streng	_	_
+4-23	439-442	und	_	_
+4-24	443-454	absichtlich	_	_
+4-25	455-461	leblos	_	_
+4-26	462-470	gehalten	_	_
+4-27	471-472	.	_	_
+
+#Text=Im Gegentheil zeigt unsere Statue wilde Züge , deren feste Linien ebeh viel eher ein vitalisirtes Porträt als eine mächtige Götterbildung ahnden lassen .
+5-1	473-475	Im	_	_
+5-2	476-486	Gegentheil	_	_
+5-3	487-492	zeigt	_	_
+5-4	493-499	unsere	*[4]	OBJ[4]
+5-5	500-506	Statue	*[4]	OBJ[4]
+5-6	507-512	wilde	_	_
+5-7	513-517	Züge	_	_
+5-8	518-519	,	_	_
+5-9	520-525	deren	_	_
+5-10	526-531	feste	_	_
+5-11	532-538	Linien	_	_
+5-12	539-543	ebeh	_	_
+5-13	544-548	viel	_	_
+5-14	549-553	eher	_	_
+5-15	554-557	ein	_	_
+5-16	558-570	vitalisirtes	_	_
+5-17	571-578	Porträt	_	_
+5-18	579-582	als	_	_
+5-19	583-587	eine	_	_
+5-20	588-596	mächtige	_	_
+5-21	597-610	Götterbildung	_	_
+5-22	611-617	ahnden	_	_
+5-23	618-624	lassen	_	_
+5-24	625-626	.	_	_
+
+#Text=Die Arbeit ist indeß nicht ohne alle Mängel .
+6-1	627-630	Die	_	_
+6-2	631-637	Arbeit	_	_
+6-3	638-641	ist	_	_
+6-4	642-647	indeß	_	_
+6-5	648-653	nicht	_	_
+6-6	654-658	ohne	_	_
+6-7	659-663	alle	_	_
+6-8	664-670	Mängel	_	_
+6-9	671-672	.	_	_
+
+#Text=Daß die Adern etwas sehr stark und fest angegeben sind .
+7-1	673-676	Daß	_	_
+7-2	677-680	die	_	_
+7-3	681-686	Adern	_	_
+7-4	687-692	etwas	_	_
+7-5	693-697	sehr	_	_
+7-6	698-703	stark	_	_
+7-7	704-707	und	_	_
+7-8	708-712	fest	_	_
+7-9	713-722	angegeben	_	_
+7-10	723-727	sind	_	_
+7-11	728-729	.	_	_
+
+#Text=möchte der besprochenen Styleigenthümlichkeit der Statue zuzurechnen sein .
+8-1	730-736	möchte	_	_
+8-2	737-740	der	_	_
+8-3	741-753	besprochenen	_	_
+8-4	754-775	Styleigenthümlichkeit	_	_
+8-5	776-779	der	_	_
+8-6	780-786	Statue	*	OBJ
+8-7	787-798	zuzurechnen	_	_
+8-8	799-803	sein	_	_
+8-9	804-805	.	_	_
+
+#Text=Weniger weiß man sich jedoch eine Ungleichheit der Bildung beider Hände zu erklären , von denen die eine augenscheinlich größer als die andre ist .
+9-1	806-813	Weniger	_	_
+9-2	814-818	weiß	_	_
+9-3	819-822	man	_	_
+9-4	823-827	sich	_	_
+9-5	828-834	jedoch	_	_
+9-6	835-839	eine	_	_
+9-7	840-852	Ungleichheit	_	_
+9-8	853-856	der	_	_
+9-9	857-864	Bildung	_	_
+9-10	865-871	beider	_	_
+9-11	872-877	Hände	_	_
+9-12	878-880	zu	_	_
+9-13	881-889	erklären	_	_
+9-14	890-891	,	_	_
+9-15	892-895	von	_	_
+9-16	896-901	denen	_	_
+9-17	902-905	die	_	_
+9-18	906-910	eine	_	_
+9-19	911-926	augenscheinlich	_	_
+9-20	927-933	größer	_	_
+9-21	934-937	als	_	_
+9-22	938-941	die	_	_
+9-23	942-947	andre	_	_
+9-24	948-951	ist	_	_
+9-25	952-953	.	_	_
+
+#Text=Obgleich die Statue nur einen Brustharnisch trägt und sonst nackt ist , so ist doch diese Kriegertracht durch die Neuheit ihrer Erscheinung sehr interessant .
+10-1	954-962	Obgleich	_	_
+10-2	963-966	die	*[5]	OBJ[5]
+10-3	967-973	Statue	*[5]	OBJ[5]
+10-4	974-977	nur	_	_
+10-5	978-983	einen	_	_
+10-6	984-997	Brustharnisch	_	_
+10-7	998-1003	trägt	_	_
+10-8	1004-1007	und	_	_
+10-9	1008-1013	sonst	_	_
+10-10	1014-1019	nackt	_	_
+10-11	1020-1023	ist	_	_
+10-12	1024-1025	,	_	_
+10-13	1026-1028	so	_	_
+10-14	1029-1032	ist	_	_
+10-15	1033-1037	doch	_	_
+10-16	1038-1043	diese	_	_
+10-17	1044-1057	Kriegertracht	_	_
+10-18	1058-1063	durch	_	_
+10-19	1064-1067	die	_	_
+10-20	1068-1075	Neuheit	_	_
+10-21	1076-1081	ihrer	_	_
+10-22	1082-1093	Erscheinung	_	_
+10-23	1094-1098	sehr	_	_
+10-24	1099-1110	interessant	_	_
+10-25	1111-1112	.	_	_
+
+#Text=Im Allgemeinen läßt sie sich den Gürtelharnischen römischer Circusspieler vergleichen .
+11-1	1113-1115	Im	_	_
+11-2	1116-1127	Allgemeinen	_	_
+11-3	1128-1132	läßt	_	_
+11-4	1133-1136	sie	_	_
+11-5	1137-1141	sich	_	_
+11-6	1142-1145	den	_	_
+11-7	1146-1162	Gürtelharnischen	_	_
+11-8	1163-1172	römischer	_	_
+11-9	1173-1186	Circusspieler	_	_
+11-10	1187-1198	vergleichen	_	_
+11-11	1199-1200	.	_	_
+
+#Text=Die Feinheit und Nettigkeit ihrer Ausbildung bis in die Details zu beschreiben dürfte uns jedoch nicht so leicht gelingen .
+12-1	1201-1204	Die	_	_
+12-2	1205-1213	Feinheit	_	_
+12-3	1214-1217	und	_	_
+12-4	1218-1228	Nettigkeit	_	_
+12-5	1229-1234	ihrer	_	_
+12-6	1235-1245	Ausbildung	_	_
+12-7	1246-1249	bis	_	_
+12-8	1250-1252	in	_	_
+12-9	1253-1256	die	_	_
+12-10	1257-1264	Details	_	_
+12-11	1265-1267	zu	_	_
+12-12	1268-1279	beschreiben	_	_
+12-13	1280-1286	dürfte	_	_
+12-14	1287-1290	uns	_	_
+12-15	1291-1297	jedoch	_	_
+12-16	1298-1303	nicht	_	_
+12-17	1304-1306	so	_	_
+12-18	1307-1313	leicht	_	_
+12-19	1314-1322	gelingen	_	_
+12-20	1323-1324	.	_	_
+
+#Text=Wir wiederholen , daß diese Statue sowohl durch ihren trefflichen Styl , als durch die Eigenthümlichkeit der Darstellung , endlich auch durch ihren Fundort zu den merkwürdigsten Beiträgen zur alten Menschengeschichte zu rechnen sein dürfte .
+13-1	1325-1328	Wir	_	_
+13-2	1329-1340	wiederholen	_	_
+13-3	1341-1342	,	_	_
+13-4	1343-1346	daß	_	_
+13-5	1347-1352	diese	_	_
+13-6	1353-1359	Statue	*	OBJ
+13-7	1360-1366	sowohl	_	_
+13-8	1367-1372	durch	_	_
+13-9	1373-1378	ihren	_	_
+13-10	1379-1390	trefflichen	_	_
+13-11	1391-1395	Styl	_	_
+13-12	1396-1397	,	_	_
+13-13	1398-1401	als	_	_
+13-14	1402-1407	durch	_	_
+13-15	1408-1411	die	_	_
+13-16	1412-1429	Eigenthümlichkeit	_	_
+13-17	1430-1433	der	_	_
+13-18	1434-1445	Darstellung	_	_
+13-19	1446-1447	,	_	_
+13-20	1448-1455	endlich	_	_
+13-21	1456-1460	auch	_	_
+13-22	1461-1466	durch	_	_
+13-23	1467-1472	ihren	_	_
+13-24	1473-1480	Fundort	*	OBJtopography
+13-25	1481-1483	zu	_	_
+13-26	1484-1487	den	_	_
+13-27	1488-1502	merkwürdigsten	_	_
+13-28	1503-1512	Beiträgen	_	_
+13-29	1513-1516	zur	_	_
+13-30	1517-1522	alten	_	_
+13-31	1523-1541	Menschengeschichte	_	_
+13-32	1542-1544	zu	_	_
+13-33	1545-1552	rechnen	_	_
+13-34	1553-1557	sein	_	_
+13-35	1558-1564	dürfte	_	_
+13-36	1565-1566	.	_	_

@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=681 Braun an Gerhard Rom , 30 .
+1-1	0-3	681	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	30	*[4]	DATEletter[4]
+1-8	30-31	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1838 - u. Lieferant von Solly , hat eine Statue von Bronze , welche P . E. Visconti als Pace in einem kleinen Schriftchen vordem aufgeführt .
+2-1	32-39	Oktober	*[4]	DATEletter[4]
+2-2	40-44	1838	*[4]	DATEletter[4]
+2-3	45-46	-	_	_
+2-4	47-49	u.	_	_
+2-5	50-59	Lieferant	_	_
+2-6	60-63	von	_	_
+2-7	64-69	Solly	*	PERmentioned
+2-8	70-71	,	_	_
+2-9	72-75	hat	_	_
+2-10	76-80	eine	_	_
+2-11	81-87	Statue	*[6]	OBJ[6]
+2-12	88-91	von	*[6]	OBJ[6]
+2-13	92-98	Bronze	*[6]	OBJ[6]
+2-14	99-100	,	_	_
+2-15	101-107	welche	_	_
+2-16	108-109	P	*[7]	PERmentioned[7]
+2-17	110-111	.	*[7]	PERmentioned[7]
+2-18	112-114	E.	*[7]	PERmentioned[7]
+2-19	115-123	Visconti	*[7]	PERmentioned[7]
+2-20	124-127	als	_	_
+2-21	128-132	Pace	*	OBJ
+2-22	133-135	in	_	_
+2-23	136-141	einem	_	_
+2-24	142-149	kleinen	_	_
+2-25	150-161	Schriftchen	_	_
+2-26	162-168	vordem	_	_
+2-27	169-179	aufgeführt	_	_
+2-28	180-181	.	_	_
+
+#Text=Das Motiv ist das der sogenannten Stammsitzstatuen .
+3-1	182-185	Das	_	_
+3-2	186-191	Motiv	_	_
+3-3	192-195	ist	_	_
+3-4	196-199	das	_	_
+3-5	200-203	der	_	_
+3-6	204-215	sogenannten	_	_
+3-7	216-232	Stammsitzstatuen	*	OBJ
+3-8	233-234	.	_	_
+
+#Text=Die Statue ist 6 Palmen hoch , hat Kopf und Extremitäten unversehrt und wird für 5500 Scudi ausgeboten .
+4-1	235-238	Die	_	_
+4-2	239-245	Statue	*	OBJ
+4-3	246-249	ist	_	_
+4-4	250-251	6	_	_
+4-5	252-258	Palmen	_	_
+4-6	259-263	hoch	_	_
+4-7	264-265	,	_	_
+4-8	266-269	hat	_	_
+4-9	270-274	Kopf	_	_
+4-10	275-278	und	_	_
+4-11	279-291	Extremitäten	_	_
+4-12	292-302	unversehrt	_	_
+4-13	303-306	und	_	_
+4-14	307-311	wird	_	_
+4-15	312-315	für	_	_
+4-16	316-320	5500	_	_
+4-17	321-326	Scudi	_	_
+4-18	327-337	ausgeboten	_	_
+4-19	338-339	.	_	_
+
+#Text=Ich habe versprochen das Berliner Museum durch Sie davon zu benachrichtigen .
+5-1	340-343	Ich	_	_
+5-2	344-348	habe	_	_
+5-3	349-360	versprochen	_	_
+5-4	361-364	das	_	_
+5-5	365-373	Berliner	*[11]	ORGmentioned[11]
+5-6	374-380	Museum	*[11]	ORGmentioned[11]
+5-7	381-386	durch	_	_
+5-8	387-390	Sie	_	_
+5-9	391-396	davon	_	_
+5-10	397-399	zu	_	_
+5-11	400-415	benachrichtigen	_	_
+5-12	416-417	.	_	_
+
+#Text=Sie können Wolff darauf aufmerksam machen .
+6-1	418-421	Sie	_	_
+6-2	422-428	können	_	_
+6-3	429-434	Wolff	*	PERmentioned
+6-4	435-441	darauf	_	_
+6-5	442-452	aufmerksam	_	_
+6-6	453-459	machen	_	_
+6-7	460-461	.	_	_
+
+#Text=- Frediani der mich von ihrer Exi/stenz in Kenntniß gesetzt , will \] auch Wagnern davon Nachricht geben , aber erst wenn sich das Berliner Museum negativ darüber ausgesprochen hat .
+7-1	462-463	-	_	_
+7-2	464-472	Frediani	*	PERmentioned
+7-3	473-476	der	_	_
+7-4	477-481	mich	_	_
+7-5	482-485	von	_	_
+7-6	486-491	ihrer	_	_
+7-7	492-501	Exi/stenz	_	_
+7-8	502-504	in	_	_
+7-9	505-513	Kenntniß	_	_
+7-10	514-521	gesetzt	_	_
+7-11	522-523	,	_	_
+7-12	524-528	will	_	_
+7-13	529-530	\]	_	_
+7-14	531-535	auch	_	_
+7-15	536-543	Wagnern	*	PERmentioned
+7-16	544-549	davon	_	_
+7-17	550-559	Nachricht	_	_
+7-18	560-565	geben	_	_
+7-19	566-567	,	_	_
+7-20	568-572	aber	_	_
+7-21	573-577	erst	_	_
+7-22	578-582	wenn	_	_
+7-23	583-587	sich	_	_
+7-24	588-591	das	_	_
+7-25	592-600	Berliner	*[15]	ORGmentioned[15]
+7-26	601-607	Museum	*[15]	ORGmentioned[15]
+7-27	608-615	negativ	_	_
+7-28	616-623	darüber	_	_
+7-29	624-637	ausgesprochen	_	_
+7-30	638-641	hat	_	_
+7-31	642-643	.	_	_
+
+#Text=Eine stupende : Kamee mit Achill und Penthesilea bei Vescovali verdient Beachtung .
+8-1	644-648	Eine	_	_
+8-2	649-657	stupende	_	_
+8-3	658-659	:	_	_
+8-4	660-665	Kamee	*[16]	OBJ[16]
+8-5	666-669	mit	*[16]	OBJ[16]
+8-6	670-676	Achill	*[16]	OBJ[16]
+8-7	677-680	und	*[16]	OBJ[16]
+8-8	681-692	Penthesilea	*[16]	OBJ[16]
+8-9	693-696	bei	_	_
+8-10	697-706	Vescovali	*	PERmentioned
+8-11	707-715	verdient	_	_
+8-12	716-725	Beachtung	_	_
+8-13	726-727	.	_	_
+
+#Text=Er fordert 1000 Scudi , dürfte aber für 100 Iuigi zu haben sein .
+9-1	728-730	Er	_	_
+9-2	731-738	fordert	_	_
+9-3	739-743	1000	_	_
+9-4	744-749	Scudi	_	_
+9-5	750-751	,	_	_
+9-6	752-758	dürfte	_	_
+9-7	759-763	aber	_	_
+9-8	764-767	für	_	_
+9-9	768-771	100	_	_
+9-10	772-777	Iuigi	_	_
+9-11	778-780	zu	_	_
+9-12	781-786	haben	_	_
+9-13	787-791	sein	_	_
+9-14	792-793	.	_	_
+
+#Text=Zu Ritschls Hochzeit habe ich das Iudovisische Parisurtheil publicirt .
+10-1	794-796	Zu	_	_
+10-2	797-805	Ritschls	*	PERmentioned
+10-3	806-814	Hochzeit	_	_
+10-4	815-819	habe	_	_
+10-5	820-823	ich	_	_
+10-6	824-827	das	_	_
+10-7	828-840	Iudovisische	*[19]	OBJ[19]
+10-8	841-853	Parisurtheil	*[19]	OBJ[19]
+10-9	854-863	publicirt	_	_
+10-10	864-865	.	_	_
+
+#Text=Das Programm scheint ihm nicht zugekommen zu sein .
+11-1	866-869	Das	_	_
+11-2	870-878	Programm	_	_
+11-3	879-886	scheint	_	_
+11-4	887-890	ihm	_	_
+11-5	891-896	nicht	_	_
+11-6	897-907	zugekommen	_	_
+11-7	908-910	zu	_	_
+11-8	911-915	sein	_	_
+11-9	916-917	.	_	_
+
+#Text=Wenigstens hat er mir nie darauf geantwortet .
+12-1	918-928	Wenigstens	_	_
+12-2	929-932	hat	_	_
+12-3	933-935	er	_	_
+12-4	936-939	mir	_	_
+12-5	940-943	nie	_	_
+12-6	944-950	darauf	_	_
+12-7	951-962	geantwortet	_	_
+12-8	963-964	.	_	_
+
+#Text=Die Vase von Ruvo mit gleichem Gegenstand ist jetzt im Museum von Carlsruhe und ist sehr schön \; meine Zeichnung ist ebenso schlecht .
+13-1	965-968	Die	_	_
+13-2	969-973	Vase	*[20]	OBJ[20]
+13-3	974-977	von	*[20]	OBJ[20]
+13-4	978-982	Ruvo	*[20]	OBJ[20]
+13-5	983-986	mit	_	_
+13-6	987-995	gleichem	_	_
+13-7	996-1006	Gegenstand	_	_
+13-8	1007-1010	ist	_	_
+13-9	1011-1016	jetzt	_	_
+13-10	1017-1019	im	_	_
+13-11	1020-1026	Museum	*[21]	ORGmentioned[21]
+13-12	1027-1030	von	*[21]	ORGmentioned[21]
+13-13	1031-1040	Carlsruhe	*[21]|*[22]	ORGmentioned[21]|PLACEmentioned[22]
+13-14	1041-1044	und	_	_
+13-15	1045-1048	ist	_	_
+13-16	1049-1053	sehr	_	_
+13-17	1054-1059	schön	_	_
+13-18	1060-1061	\;	_	_
+13-19	1062-1067	meine	_	_
+13-20	1068-1077	Zeichnung	_	_
+13-21	1078-1081	ist	_	_
+13-22	1082-1088	ebenso	_	_
+13-23	1089-1097	schlecht	_	_
+13-24	1098-1099	.	_	_
+
+#Text=Aber auch das Iudov .
+14-1	1100-1104	Aber	_	_
+14-2	1105-1109	auch	_	_
+14-3	1110-1113	das	_	_
+14-4	1114-1119	Iudov	*[23]	OBJ[23]
+14-5	1120-1121	.	*[23]	OBJ[23]
+
+#Text=Relief , von dem ich eine treffliche Zeichnung eingesandt , ist in der Pariser Lithographie sehr entstellt worden .
+15-1	1122-1128	Relief	*[23]	OBJ[23]
+15-2	1129-1130	,	_	_
+15-3	1131-1134	von	_	_
+15-4	1135-1138	dem	_	_
+15-5	1139-1142	ich	_	_
+15-6	1143-1147	eine	_	_
+15-7	1148-1158	treffliche	_	_
+15-8	1159-1168	Zeichnung	_	_
+15-9	1169-1179	eingesandt	_	_
+15-10	1180-1181	,	_	_
+15-11	1182-1185	ist	_	_
+15-12	1186-1188	in	_	_
+15-13	1189-1192	der	_	_
+15-14	1193-1200	Pariser	*	PLACEmentioned
+15-15	1201-1213	Lithographie	_	_
+15-16	1214-1218	sehr	_	_
+15-17	1219-1228	entstellt	_	_
+15-18	1229-1235	worden	_	_
+15-19	1236-1237	.	_	_
+
+#Text=Ihr EBraun
+16-1	1238-1241	Ihr	_	_
+16-2	1242-1248	EBraun	*	PERauthor

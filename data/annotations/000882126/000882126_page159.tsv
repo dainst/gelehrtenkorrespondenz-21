@@ -1,0 +1,92 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=543 Braun an Gerhard Rom , 4 .
+1-1	0-3	543	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-28	4	_	_
+1-8	29-30	.	_	_
+
+#Text=August 1836 ähnlichen Dingen haben .
+2-1	31-37	August	*[9]	DATEletter[9]
+2-2	38-42	1836	*[9]	DATEletter[9]
+2-3	43-52	ähnlichen	_	_
+2-4	53-59	Dingen	_	_
+2-5	60-65	haben	_	_
+2-6	66-67	.	_	_
+
+#Text=Ich hatte heute Briefe von Ihnen erwartet .
+3-1	68-71	Ich	_	_
+3-2	72-77	hatte	_	_
+3-3	78-83	heute	_	_
+3-4	84-90	Briefe	_	_
+3-5	91-94	von	_	_
+3-6	95-100	Ihnen	_	_
+3-7	101-109	erwartet	_	_
+3-8	110-111	.	_	_
+
+#Text=Leider hat mir die Post nichts gebracht .
+4-1	112-118	Leider	_	_
+4-2	119-122	hat	_	_
+4-3	123-126	mir	_	_
+4-4	127-130	die	_	_
+4-5	131-135	Post	_	_
+4-6	136-142	nichts	_	_
+4-7	143-151	gebracht	_	_
+4-8	152-153	.	_	_
+
+#Text=Gebe Gott daß meine Briefe , in die die Umstände den verschiedensten Inhalt eingeführt , keine Mißverständnisse bei Ihnen verursachen .
+5-1	154-158	Gebe	_	_
+5-2	159-163	Gott	_	_
+5-3	164-167	daß	_	_
+5-4	168-173	meine	_	_
+5-5	174-180	Briefe	_	_
+5-6	181-182	,	_	_
+5-7	183-185	in	_	_
+5-8	186-189	die	_	_
+5-9	190-193	die	_	_
+5-10	194-202	Umstände	_	_
+5-11	203-206	den	_	_
+5-12	207-222	verschiedensten	_	_
+5-13	223-229	Inhalt	_	_
+5-14	230-240	eingeführt	_	_
+5-15	241-242	,	_	_
+5-16	243-248	keine	_	_
+5-17	249-265	Mißverständnisse	_	_
+5-18	266-269	bei	_	_
+5-19	270-275	Ihnen	_	_
+5-20	276-287	verursachen	_	_
+5-21	288-289	.	_	_
+
+#Text=Wenn Sie über Florenz gehen , so können Sie durch den dortigen Aufenthalt 10 Lazarethquarantäne ersparen .
+6-1	290-294	Wenn	_	_
+6-2	295-298	Sie	_	_
+6-3	299-303	über	_	_
+6-4	304-311	Florenz	*	PLACEmentioned
+6-5	312-317	gehen	_	_
+6-6	318-319	,	_	_
+6-7	320-322	so	_	_
+6-8	323-329	können	_	_
+6-9	330-333	Sie	_	_
+6-10	334-339	durch	_	_
+6-11	340-343	den	_	_
+6-12	344-352	dortigen	_	_
+6-13	353-363	Aufenthalt	_	_
+6-14	364-366	10	_	_
+6-15	367-385	Lazarethquarantäne	_	_
+6-16	386-394	ersparen	_	_
+6-17	395-396	.	_	_
+
+#Text=Gott segne Ihre Wege Ihr Braun .
+7-1	397-401	Gott	_	_
+7-2	402-407	segne	_	_
+7-3	408-412	Ihre	_	_
+7-4	413-417	Wege	_	_
+7-5	418-421	Ihr	_	_
+7-6	422-427	Braun	*	PERauthor
+7-7	428-429	.	_	_

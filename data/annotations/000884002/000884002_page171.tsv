@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia , 12. Juli 1863 - 3 - Specielle Dinge für Berlin wüßte ich nicht .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Perugia	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	12.	*[7]	DATEletter[7]
+1-7	30-34	Juli	*[7]	DATEletter[7]
+1-8	35-39	1863	*[7]	DATEletter[7]
+1-9	40-41	-	_	_
+1-10	42-43	3	_	_
+1-11	44-45	-	_	_
+1-12	46-55	Specielle	_	_
+1-13	56-61	Dinge	_	_
+1-14	62-65	für	_	_
+1-15	66-72	Berlin	*	PLACEmentioned
+1-16	73-78	wüßte	_	_
+1-17	79-82	ich	_	_
+1-18	83-88	nicht	_	_
+1-19	89-90	.	_	_
+
+#Text=Natürlich grüßen Sie alle guten Freunde , namentlich Friedlaender , Hercher , wenn er nicht verreist ist , Hübner , Jordan , Degenkolb etc. Wissen Sie nichts von Grimm 's .
+2-1	91-100	Natürlich	_	_
+2-2	101-107	grüßen	_	_
+2-3	108-111	Sie	_	_
+2-4	112-116	alle	_	_
+2-5	117-122	guten	_	_
+2-6	123-130	Freunde	_	_
+2-7	131-132	,	_	_
+2-8	133-143	namentlich	_	_
+2-9	144-156	Friedlaender	*	PERmentioned
+2-10	157-158	,	_	_
+2-11	159-166	Hercher	*	PERmentioned
+2-12	167-168	,	_	_
+2-13	169-173	wenn	_	_
+2-14	174-176	er	_	_
+2-15	177-182	nicht	_	_
+2-16	183-191	verreist	_	_
+2-17	192-195	ist	_	_
+2-18	196-197	,	_	_
+2-19	198-204	Hübner	*	PERmentioned
+2-20	205-206	,	_	_
+2-21	207-213	Jordan	*	PERmentioned
+2-22	214-215	,	_	_
+2-23	216-225	Degenkolb	*	PERmentioned
+2-24	226-230	etc.	_	_
+2-25	231-237	Wissen	_	_
+2-26	238-241	Sie	_	_
+2-27	242-248	nichts	_	_
+2-28	249-252	von	_	_
+2-29	253-258	Grimm	*[12]	PERmentioned[12]
+2-30	259-261	's	*[12]	PERmentioned[12]
+2-31	262-263	.	_	_
+
+#Text=Vielleicht wäre es nicht ganz ohne Nutzen , wenn Sie ganz im Allgemeinen einmal mit Herrn von Olfers über römischen Kunsthandel sprächen , Reifferscheid ist Donnerstag hier durchpassirt \; Köhler Mittwoch über Livorno nach Pisa gegangen , Helbig ten zurückpassirt .
+3-1	264-274	Vielleicht	_	_
+3-2	275-279	wäre	_	_
+3-3	280-282	es	_	_
+3-4	283-288	nicht	_	_
+3-5	289-293	ganz	_	_
+3-6	294-298	ohne	_	_
+3-7	299-305	Nutzen	_	_
+3-8	306-307	,	_	_
+3-9	308-312	wenn	_	_
+3-10	313-316	Sie	_	_
+3-11	317-321	ganz	_	_
+3-12	322-324	im	_	_
+3-13	325-336	Allgemeinen	_	_
+3-14	337-343	einmal	_	_
+3-15	344-347	mit	_	_
+3-16	348-353	Herrn	*[8]	PERmentioned[8]
+3-17	354-357	von	*[8]	PERmentioned[8]
+3-18	358-364	Olfers	*[8]	PERmentioned[8]
+3-19	365-369	über	_	_
+3-20	370-379	römischen	*	MISC
+3-21	380-391	Kunsthandel	_	_
+3-22	392-400	sprächen	_	_
+3-23	401-402	,	_	_
+3-24	403-416	Reifferscheid	*	PERmentioned
+3-25	417-420	ist	_	_
+3-26	421-431	Donnerstag	*	DATEmentioned
+3-27	432-436	hier	_	_
+3-28	437-449	durchpassirt	_	_
+3-29	450-451	\;	_	_
+3-30	452-458	Köhler	*	PERmentioned
+3-31	459-467	Mittwoch	*	DATEmentioned
+3-32	468-472	über	_	_
+3-33	473-480	Livorno	*	PLACEmentioned
+3-34	481-485	nach	_	_
+3-35	486-490	Pisa	*	PLACEmentioned
+3-36	491-499	gegangen	_	_
+3-37	500-501	,	_	_
+3-38	502-508	Helbig	*	PERmentioned
+3-39	509-512	ten	*[9]	DATEmentioned[9]
+3-40	513-526	zurückpassirt	_	_
+3-41	527-528	.	_	_
+
+#Text=Er scheint mit seiner Reise zufrieam 5 den .
+4-1	529-531	Er	_	_
+4-2	532-539	scheint	_	_
+4-3	540-543	mit	_	_
+4-4	544-550	seiner	_	_
+4-5	551-556	Reise	_	_
+4-6	557-565	zufrieam	_	_
+4-7	566-567	5	_	_
+4-8	568-571	den	_	_
+4-9	572-573	.	_	_
+
+#Text=Er schien die arch . Zeitung besonders mit Mittheilungen bedenken zu wollen .
+5-1	574-576	Er	_	_
+5-2	577-583	schien	_	_
+5-3	584-587	die	_	_
+5-4	588-592	arch	_	_
+5-5	593-594	.	_	_
+5-6	595-602	Zeitung	_	_
+5-7	603-612	besonders	_	_
+5-8	613-616	mit	_	_
+5-9	617-630	Mittheilungen	_	_
+5-10	631-639	bedenken	_	_
+5-11	640-642	zu	_	_
+5-12	643-649	wollen	_	_
+5-13	650-651	.	_	_
+
+#Text=Ich habe ihn dagegen auf .
+6-1	652-655	Ich	_	_
+6-2	656-660	habe	_	_
+6-3	661-664	ihn	_	_
+6-4	665-672	dagegen	_	_
+6-5	673-676	auf	_	_
+6-6	677-678	.	_	_
+
+#Text=die nicht ausschließlichen , aber doch begründeten Ansprüche des Instituts hingewiesen .
+7-1	679-682	die	_	_
+7-2	683-688	nicht	_	_
+7-3	689-705	ausschließlichen	_	_
+7-4	706-707	,	_	_
+7-5	708-712	aber	_	_
+7-6	713-717	doch	_	_
+7-7	718-729	begründeten	_	_
+7-8	730-739	Ansprüche	_	_
+7-9	740-743	des	_	_
+7-10	744-753	Instituts	*	ORGmentioned
+7-11	754-765	hingewiesen	_	_
+7-12	766-767	.	_	_
+
+#Text=Den Druck lasse ich langsam fortgehen in der Weise , daß mir immer die zweite Correctur zugesandt werden soll .
+8-1	768-771	Den	_	_
+8-2	772-777	Druck	_	_
+8-3	778-783	lasse	_	_
+8-4	784-787	ich	_	_
+8-5	788-795	langsam	_	_
+8-6	796-805	fortgehen	_	_
+8-7	806-808	in	_	_
+8-8	809-812	der	_	_
+8-9	813-818	Weise	_	_
+8-10	819-820	,	_	_
+8-11	821-824	daß	_	_
+8-12	825-828	mir	_	_
+8-13	829-834	immer	_	_
+8-14	835-838	die	_	_
+8-15	839-845	zweite	_	_
+8-16	846-855	Correctur	_	_
+8-17	856-865	zugesandt	_	_
+8-18	866-872	werden	_	_
+8-19	873-877	soll	_	_
+8-20	878-879	.	_	_
+
+#Text=Nach einem eben erhaltenen Briefe scheint ds , daß auch meine Mutter uns im nächsten Winter besuchen wird .
+9-1	880-884	Nach	_	_
+9-2	885-890	einem	_	_
+9-3	891-895	eben	_	_
+9-4	896-906	erhaltenen	_	_
+9-5	907-913	Briefe	_	_
+9-6	914-921	scheint	_	_
+9-7	922-924	ds	_	_
+9-8	925-926	,	_	_
+9-9	927-930	daß	_	_
+9-10	931-935	auch	_	_
+9-11	936-941	meine	*[10]	PERmentioned[10]
+9-12	942-948	Mutter	*[10]	PERmentioned[10]
+9-13	949-952	uns	_	_
+9-14	953-955	im	_	_
+9-15	956-964	nächsten	_	_
+9-16	965-971	Winter	*	DATEmentioned
+9-17	972-980	besuchen	_	_
+9-18	981-985	wird	_	_
+9-19	986-987	.	_	_
+
+#Text=Wann ich mich von hier auf die Reise mache , ist noch nicht ganz bestimmt , wohl aber noch nicht so ganz schnell » Die Orvietaner Gemälde werden wir bis nächstes Jahr lassen müssen .
+10-1	988-992	Wann	_	_
+10-2	993-996	ich	_	_
+10-3	997-1001	mich	_	_
+10-4	1002-1005	von	_	_
+10-5	1006-1010	hier	_	_
+10-6	1011-1014	auf	_	_
+10-7	1015-1018	die	_	_
+10-8	1019-1024	Reise	_	_
+10-9	1025-1030	mache	_	_
+10-10	1031-1032	,	_	_
+10-11	1033-1036	ist	_	_
+10-12	1037-1041	noch	_	_
+10-13	1042-1047	nicht	_	_
+10-14	1048-1052	ganz	_	_
+10-15	1053-1061	bestimmt	_	_
+10-16	1062-1063	,	_	_
+10-17	1064-1068	wohl	_	_
+10-18	1069-1073	aber	_	_
+10-19	1074-1078	noch	_	_
+10-20	1079-1084	nicht	_	_
+10-21	1085-1087	so	_	_
+10-22	1088-1092	ganz	_	_
+10-23	1093-1100	schnell	_	_
+10-24	1101-1102	»	_	_
+10-25	1103-1106	Die	_	_
+10-26	1107-1117	Orvietaner	*	MISC
+10-27	1118-1125	Gemälde	*	OBJ
+10-28	1126-1132	werden	_	_
+10-29	1133-1136	wir	_	_
+10-30	1137-1140	bis	_	_
+10-31	1141-1149	nächstes	*[11]	DATEmentioned[11]
+10-32	1150-1154	Jahr	*[11]	DATEmentioned[11]
+10-33	1155-1161	lassen	_	_
+10-34	1162-1168	müssen	_	_
+10-35	1169-1170	.	_	_
+
+#Text=Denn vor October wird keinesfalls das Grab so weit in Stand gesetzt werden , daß gezeichnet
+11-1	1171-1175	Denn	_	_
+11-2	1176-1179	vor	_	_
+11-3	1180-1187	October	*	DATEmentioned
+11-4	1188-1192	wird	_	_
+11-5	1193-1204	keinesfalls	_	_
+11-6	1205-1208	das	_	_
+11-7	1209-1213	Grab	*	OBJ
+11-8	1214-1216	so	_	_
+11-9	1217-1221	weit	_	_
+11-10	1222-1224	in	_	_
+11-11	1225-1230	Stand	_	_
+11-12	1231-1238	gesetzt	_	_
+11-13	1239-1245	werden	_	_
+11-14	1246-1247	,	_	_
+11-15	1248-1251	daß	_	_
+11-16	1252-1262	gezeichnet	_	_

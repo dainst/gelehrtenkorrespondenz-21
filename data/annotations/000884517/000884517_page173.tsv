@@ -1,0 +1,154 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Florenz , 25. März 1846 Meine Frau grüßt bestens .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Florenz	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	25.	*[1]	DATEletter[1]
+1-7	31-35	März	*[1]	DATEletter[1]
+1-8	36-40	1846	*[1]	DATEletter[1]
+1-9	41-46	Meine	_	_
+1-10	47-51	Frau	_	_
+1-11	52-57	grüßt	_	_
+1-12	58-65	bestens	_	_
+1-13	66-67	.	_	_
+
+#Text=Fragen Sie doch Domenico ob Wahle unsre Geldsendung sicher erhielt .
+2-1	68-74	Fragen	_	_
+2-2	75-78	Sie	_	_
+2-3	79-83	doch	_	_
+2-4	84-92	Domenico	*	PERmentioned
+2-5	93-95	ob	_	_
+2-6	96-101	Wahle	_	_
+2-7	102-107	unsre	_	_
+2-8	108-119	Geldsendung	_	_
+2-9	120-126	sicher	_	_
+2-10	127-134	erhielt	_	_
+2-11	135-136	.	_	_
+
+#Text=Ihr gerhard Ihrer lieben Frau und gemeinsamen Freunden viel Herzliches .
+3-1	137-140	Ihr	_	_
+3-2	141-148	gerhard	*	PERauthor
+3-3	149-154	Ihrer	_	_
+3-4	155-161	lieben	_	_
+3-5	162-166	Frau	_	_
+3-6	167-170	und	_	_
+3-7	171-182	gemeinsamen	_	_
+3-8	183-191	Freunden	_	_
+3-9	192-196	viel	_	_
+3-10	197-207	Herzliches	_	_
+3-11	208-209	.	_	_
+
+#Text=Daß ich nur Oggeti d'arte e libri nach Berlin senden will , werden Sie bei Verpackung meiner Kiste berücksichtigen .
+4-1	210-213	Daß	_	_
+4-2	214-217	ich	_	_
+4-3	218-221	nur	_	_
+4-4	222-228	Oggeti	_	_
+4-5	229-235	d'arte	_	_
+4-6	236-237	e	_	_
+4-7	238-243	libri	_	_
+4-8	244-248	nach	_	_
+4-9	249-255	Berlin	*	PLACEmentioned
+4-10	256-262	senden	_	_
+4-11	263-267	will	_	_
+4-12	268-269	,	_	_
+4-13	270-276	werden	_	_
+4-14	277-280	Sie	_	_
+4-15	281-284	bei	_	_
+4-16	285-295	Verpackung	_	_
+4-17	296-302	meiner	_	_
+4-18	303-308	Kiste	_	_
+4-19	309-324	berücksichtigen	_	_
+4-20	325-326	.	_	_
+
+#Text=Quer am Rande dazu : Die Quittungen von Vescovali bitte nicht zu vergessen .
+5-1	327-331	Quer	_	_
+5-2	332-334	am	_	_
+5-3	335-340	Rande	_	_
+5-4	341-345	dazu	_	_
+5-5	346-347	:	_	_
+5-6	348-351	Die	_	_
+5-7	352-362	Quittungen	_	_
+5-8	363-366	von	_	_
+5-9	367-376	Vescovali	*	PERmentioned
+5-10	377-382	bitte	_	_
+5-11	383-388	nicht	_	_
+5-12	389-391	zu	_	_
+5-13	392-401	vergessen	_	_
+5-14	402-403	.	_	_
+
+#Text=Die Franzosen drucken also 1847 , und es wird nun wol nur Luyness Rechnung sich anders stellen , auch wenn er zahlt .
+6-1	404-407	Die	_	_
+6-2	408-417	Franzosen	_	_
+6-3	418-425	drucken	_	_
+6-4	426-430	also	_	_
+6-5	431-435	1847	*	DATEmentioned
+6-6	436-437	,	_	_
+6-7	438-441	und	_	_
+6-8	442-444	es	_	_
+6-9	445-449	wird	_	_
+6-10	450-453	nun	_	_
+6-11	454-457	wol	_	_
+6-12	458-461	nur	_	_
+6-13	462-469	Luyness	*	PERmentioned
+6-14	470-478	Rechnung	_	_
+6-15	479-483	sich	_	_
+6-16	484-490	anders	_	_
+6-17	491-498	stellen	_	_
+6-18	499-500	,	_	_
+6-19	501-505	auch	_	_
+6-20	506-510	wenn	_	_
+6-21	511-513	er	_	_
+6-22	514-519	zahlt	_	_
+6-23	520-521	.	_	_
+
+#Text=Wie denn ?
+7-1	522-525	Wie	_	_
+7-2	526-530	denn	_	_
+7-3	531-532	?	_	_
+
+#Text=Ob er zahlt habe ich De Witte gefragt dem Sie nun doch wol endlich einmal schreiben , meinem Wunsch nach möglichst verbindlich .
+8-1	533-535	Ob	_	_
+8-2	536-538	er	_	_
+8-3	539-544	zahlt	_	_
+8-4	545-549	habe	_	_
+8-5	550-553	ich	_	_
+8-6	554-556	De	*[2]	PERmentioned[2]
+8-7	557-562	Witte	*[2]	PERmentioned[2]
+8-8	563-570	gefragt	_	_
+8-9	571-574	dem	_	_
+8-10	575-578	Sie	_	_
+8-11	579-582	nun	_	_
+8-12	583-587	doch	_	_
+8-13	588-591	wol	_	_
+8-14	592-599	endlich	_	_
+8-15	600-606	einmal	_	_
+8-16	607-616	schreiben	_	_
+8-17	617-618	,	_	_
+8-18	619-625	meinem	_	_
+8-19	626-632	Wunsch	_	_
+8-20	633-637	nach	_	_
+8-21	638-647	möglichst	_	_
+8-22	648-659	verbindlich	_	_
+8-23	660-661	.	_	_
+
+#Text=Wir bedürfen seiner .
+9-1	662-665	Wir	_	_
+9-2	666-674	bedürfen	_	_
+9-3	675-681	seiner	_	_
+9-4	682-683	.	_	_
+
+#Text=Der Beischluß an Lanci erfolgt unter Henzen's Kuvert .
+10-1	684-687	Der	_	_
+10-2	688-697	Beischluß	_	_
+10-3	698-700	an	_	_
+10-4	701-706	Lanci	*	PERmentioned
+10-5	707-714	erfolgt	_	_
+10-6	715-720	unter	_	_
+10-7	721-729	Henzen's	*	PERmentioned
+10-8	730-736	Kuvert	_	_
+10-9	737-738	.	_	_

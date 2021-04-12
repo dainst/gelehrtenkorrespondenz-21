@@ -1,0 +1,219 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=m '' es » Mommsen an Brunn Sorrento , 9 .
+1-1	0-1	m	_	_	
+1-2	2-4	''	_	_	
+1-3	5-7	es	_	_	
+1-4	8-9	»	_	_	
+1-5	10-17	Mommsen	*	PERauthor	
+1-6	18-20	an	_	_	
+1-7	21-26	Brunn	*	PERaddressee	
+1-8	27-35	Sorrento	*	PLACEfrom	
+1-9	36-37	,	_	_	
+1-10	38-39	9	*[1]	DATEletter[1]	
+1-11	40-41	.	*[1]	DATEletter[1]	
+
+#Text=August 1846 müthig in dieser Sache und wünsche von Herzen daß der Kronprinz oder vielmehr die Konprinzessin Kinder bekommen und der Kampf unterbliebe ; denn die Chancen für den Gewinn sind gering , die Niederlage aber eine Wunde für ganz Deutschland .
+2-1	42-48	August	*[1]	DATEletter[1]	
+2-2	49-53	1846	*[1]	DATEletter[1]	
+2-3	54-60	müthig	_	_	
+2-4	61-63	in	_	_	
+2-5	64-70	dieser	_	_	
+2-6	71-76	Sache	_	_	
+2-7	77-80	und	_	_	
+2-8	81-88	wünsche	_	_	
+2-9	89-92	von	_	_	
+2-10	93-99	Herzen	_	_	
+2-11	100-103	daß	_	_	
+2-12	104-107	der	_	_	
+2-13	108-117	Kronprinz	*	PERmentioned	
+2-14	118-122	oder	_	_	
+2-15	123-131	vielmehr	_	_	
+2-16	132-135	die	_	_	
+2-17	136-149	Konprinzessin	*	PERmentioned	
+2-18	150-156	Kinder	_	_	
+2-19	157-165	bekommen	_	_	
+2-20	166-169	und	_	_	
+2-21	170-173	der	_	_	
+2-22	174-179	Kampf	_	_	
+2-23	180-191	unterbliebe	_	_	
+2-24	192-193	;	_	_	
+2-25	194-198	denn	_	_	
+2-26	199-202	die	_	_	
+2-27	203-210	Chancen	_	_	
+2-28	211-214	für	_	_	
+2-29	215-218	den	_	_	
+2-30	219-225	Gewinn	_	_	
+2-31	226-230	sind	_	_	
+2-32	231-237	gering	_	_	
+2-33	238-239	,	_	_	
+2-34	240-243	die	_	_	
+2-35	244-254	Niederlage	_	_	
+2-36	255-259	aber	_	_	
+2-37	260-264	eine	_	_	
+2-38	265-270	Wunde	_	_	
+2-39	271-274	für	_	_	
+2-40	275-279	ganz	_	_	
+2-41	280-291	Deutschland	*	PLACEmentioned	
+2-42	292-293	.	_	_	
+
+#Text=Grüße Merkel ; nach Troya habe ich kürzlich gefragt , war aber nichts fertig .
+3-1	294-299	Grüße	_	_	
+3-2	300-306	Merkel	*	PERmentioned	
+3-3	307-308	;	_	_	
+3-4	309-313	nach	_	_	
+3-5	314-319	Troya	*	PLACEmentioned	
+3-6	320-324	habe	_	_	
+3-7	325-328	ich	_	_	
+3-8	329-337	kürzlich	_	_	
+3-9	338-345	gefragt	_	_	
+3-10	346-347	,	_	_	
+3-11	348-351	war	_	_	
+3-12	352-356	aber	_	_	
+3-13	357-363	nichts	_	_	
+3-14	364-370	fertig	_	_	
+3-15	371-372	.	_	_	
+
+#Text=Freud mich übrigens , daß er die recensirten Bände schon hinreichend verdaut hat um ihn wieder fressen zu wollen .
+4-1	373-378	Freud	_	_	
+4-2	379-383	mich	_	_	
+4-3	384-392	übrigens	_	_	
+4-4	393-394	,	_	_	
+4-5	395-398	daß	_	_	
+4-6	399-401	er	_	_	
+4-7	402-405	die	_	_	
+4-8	406-417	recensirten	_	_	
+4-9	418-423	Bände	_	_	
+4-10	424-429	schon	_	_	
+4-11	430-441	hinreichend	_	_	
+4-12	442-449	verdaut	_	_	
+4-13	450-453	hat	_	_	
+4-14	454-456	um	_	_	
+4-15	457-460	ihn	_	_	
+4-16	461-467	wieder	_	_	
+4-17	468-475	fressen	_	_	
+4-18	476-478	zu	_	_	
+4-19	479-485	wollen	_	_	
+4-20	486-487	.	_	_	
+
+#Text=Wo ist denn Bethmann hingerathen ?
+5-1	488-490	Wo	_	_	
+5-2	491-494	ist	_	_	
+5-3	495-499	denn	_	_	
+5-4	500-508	Bethmann	*	PERmentioned	
+5-5	509-520	hingerathen	_	_	
+5-6	521-522	?	_	_	
+
+#Text=Da er mir nicht zugekommen ist , wäre es wohl passend ihn avisiren zu lassen ; oder ist er wieder nach der Sahara durchgebrennt ?
+6-1	523-525	Da	_	_	
+6-2	526-528	er	_	_	
+6-3	529-532	mir	_	_	
+6-4	533-538	nicht	_	_	
+6-5	539-549	zugekommen	_	_	
+6-6	550-553	ist	_	_	
+6-7	554-555	,	_	_	
+6-8	556-560	wäre	_	_	
+6-9	561-563	es	_	_	
+6-10	564-568	wohl	_	_	
+6-11	569-576	passend	_	_	
+6-12	577-580	ihn	_	_	
+6-13	581-589	avisiren	_	_	
+6-14	590-592	zu	_	_	
+6-15	593-599	lassen	_	_	
+6-16	600-601	;	_	_	
+6-17	602-606	oder	_	_	
+6-18	607-610	ist	_	_	
+6-19	611-613	er	_	_	
+6-20	614-620	wieder	_	_	
+6-21	621-625	nach	_	_	
+6-22	626-629	der	_	_	
+6-23	630-636	Sahara	*	PLACEmentioned	
+6-24	637-650	durchgebrennt	_	_	
+6-25	651-652	?	_	_	
+
+#Text=Lebe wohl und sudle weniger | Mein Großsohn bemerkt , daß einem Sekretair das Schmieren am wenigsten zu gestatten sei , wenn er überflüssig ist , und Vetter Andres meint das auch .
+7-1	653-657	Lebe	_	_	
+7-2	658-662	wohl	_	_	
+7-3	663-666	und	_	_	
+7-4	667-672	sudle	_	_	
+7-5	673-680	weniger	_	_	
+7-6	681-682	|	_	_	
+7-7	683-687	Mein	_	_	
+7-8	688-696	Großsohn	*	PERmentioned	
+7-9	697-704	bemerkt	_	_	
+7-10	705-706	,	_	_	
+7-11	707-710	daß	_	_	
+7-12	711-716	einem	_	_	
+7-13	717-726	Sekretair	_	_	
+7-14	727-730	das	_	_	
+7-15	731-740	Schmieren	_	_	
+7-16	741-743	am	_	_	
+7-17	744-753	wenigsten	_	_	
+7-18	754-756	zu	_	_	
+7-19	757-766	gestatten	_	_	
+7-20	767-770	sei	_	_	
+7-21	771-772	,	_	_	
+7-22	773-777	wenn	_	_	
+7-23	778-780	er	_	_	
+7-24	781-792	überflüssig	_	_	
+7-25	793-796	ist	_	_	
+7-26	797-798	,	_	_	
+7-27	799-802	und	_	_	
+7-28	803-809	Vetter	_	_	
+7-29	810-816	Andres	*	PERmentioned	
+7-30	817-822	meint	_	_	
+7-31	823-826	das	_	_	
+7-32	827-831	auch	_	_	
+7-33	832-833	.	_	_	
+
+#Text=Mit meinem Exempel kannst Du Dich nicht entschuldigen , du verliederlichter Schriftsteller ; ich schreibe immer sauber , und einige Eigenheiten sind jeden erlaubt .
+8-1	834-837	Mit	_	_	
+8-2	838-844	meinem	_	_	
+8-3	845-852	Exempel	_	_	
+8-4	853-859	kannst	_	_	
+8-5	860-862	Du	_	_	
+8-6	863-867	Dich	_	_	
+8-7	868-873	nicht	_	_	
+8-8	874-887	entschuldigen	_	_	
+8-9	888-889	,	_	_	
+8-10	890-892	du	_	_	
+8-11	893-909	verliederlichter	_	_	
+8-12	910-924	Schriftsteller	_	_	
+8-13	925-926	;	_	_	
+8-14	927-930	ich	_	_	
+8-15	931-939	schreibe	_	_	
+8-16	940-945	immer	_	_	
+8-17	946-952	sauber	_	_	
+8-18	953-954	,	_	_	
+8-19	955-958	und	_	_	
+8-20	959-965	einige	_	_	
+8-21	966-977	Eigenheiten	_	_	
+8-22	978-982	sind	_	_	
+8-23	983-988	jeden	_	_	
+8-24	989-996	erlaubt	_	_	
+8-25	997-998	.	_	_	
+
+#Text=Addio ; heut haben wir einen langen Ritt mit der Signora Götzlof gemacht .
+9-1	999-1004	Addio	_	_	
+9-2	1005-1006	;	_	_	
+9-3	1007-1011	heut	_	_	
+9-4	1012-1017	haben	_	_	
+9-5	1018-1021	wir	_	_	
+9-6	1022-1027	einen	_	_	
+9-7	1028-1034	langen	_	_	
+9-8	1035-1039	Ritt	_	_	
+9-9	1040-1043	mit	_	_	
+9-10	1044-1047	der	_	_	
+9-11	1048-1055	Signora	*[2]	PERmentioned[2]	
+9-12	1056-1063	Götzlof	*[2]	PERmentioned[2]	
+9-13	1064-1071	gemacht	_	_	
+9-14	1072-1073	.	_	_	
+
+#Text=Sorrento 9 August 1846 .
+10-1	1074-1082	Sorrento	*	PLACEfrom	
+10-2	1083-1084	9	*[3]	DATEletter[3]	
+10-3	1085-1091	August	*[3]	DATEletter[3]	
+10-4	1092-1096	1846	*[3]	DATEletter[3]	
+10-5	1097-1098	.	_	_	

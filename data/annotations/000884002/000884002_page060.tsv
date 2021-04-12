@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Eh 329 Brunn an Henzen Ariccia , 9 .
+1-1	0-2	Eh	_	_
+1-2	3-6	329	_	_
+1-3	7-12	Brunn	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-22	Henzen	*	PERaddressee
+1-6	23-30	Ariccia	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-34	9	*[5]	DATEletter[5]
+1-9	35-36	.	*[5]	DATEletter[5]
+
+#Text=August 1860 merken Sie mir in Ihrer Antwort ausdrücklich , daß es geschehen .
+2-1	37-43	August	*[5]	DATEletter[5]
+2-2	44-48	1860	*[5]	DATEletter[5]
+2-3	49-55	merken	_	_
+2-4	56-59	Sie	_	_
+2-5	60-63	mir	_	_
+2-6	64-66	in	_	_
+2-7	67-72	Ihrer	_	_
+2-8	73-80	Antwort	_	_
+2-9	81-93	ausdrücklich	_	_
+2-10	94-95	,	_	_
+2-11	96-99	daß	_	_
+2-12	100-102	es	_	_
+2-13	103-112	geschehen	_	_
+2-14	113-114	.	_	_
+
+#Text=Ich hatte nemlich die Besorgung für Cornelius übernommen , der W 's Addresse nicht genau wußte und sicher sein wollte , daß der Brief auch richtig ankäme .
+3-1	115-118	Ich	_	_
+3-2	119-124	hatte	_	_
+3-3	125-132	nemlich	_	_
+3-4	133-136	die	_	_
+3-5	137-146	Besorgung	_	_
+3-6	147-150	für	_	_
+3-7	151-160	Cornelius	*	PERmentioned
+3-8	161-171	übernommen	_	_
+3-9	172-173	,	_	_
+3-10	174-177	der	_	_
+3-11	178-179	W	*[8]	PERmentioned[8]
+3-12	180-182	's	*[8]	PERmentioned[8]
+3-13	183-191	Addresse	_	_
+3-14	192-197	nicht	_	_
+3-15	198-203	genau	_	_
+3-16	204-209	wußte	_	_
+3-17	210-213	und	_	_
+3-18	214-220	sicher	_	_
+3-19	221-225	sein	_	_
+3-20	226-232	wollte	_	_
+3-21	233-234	,	_	_
+3-22	235-238	daß	_	_
+3-23	239-242	der	_	_
+3-24	243-248	Brief	_	_
+3-25	249-253	auch	_	_
+3-26	254-261	richtig	_	_
+3-27	262-268	ankäme	_	_
+3-28	269-270	.	_	_
+
+#Text=Wie ich durch H , weiß , betraf der Inhalt C 's Entscheidung , daß er bei seiner Rückkehr nach Rom sein Haus rein wissen wollte , um ungestört nach seinem Gefallen leben zu können .
+4-1	271-274	Wie	_	_
+4-2	275-278	ich	_	_
+4-3	279-284	durch	_	_
+4-4	285-286	H	*	PERmentioned
+4-5	287-288	,	_	_
+4-6	289-293	weiß	_	_
+4-7	294-295	,	_	_
+4-8	296-302	betraf	_	_
+4-9	303-306	der	_	_
+4-10	307-313	Inhalt	_	_
+4-11	314-315	C	*[9]	PERmentioned[9]
+4-12	316-318	's	*[9]	PERmentioned[9]
+4-13	319-331	Entscheidung	_	_
+4-14	332-333	,	_	_
+4-15	334-337	daß	_	_
+4-16	338-340	er	_	_
+4-17	341-344	bei	_	_
+4-18	345-351	seiner	_	_
+4-19	352-360	Rückkehr	_	_
+4-20	361-365	nach	_	_
+4-21	366-369	Rom	*	PLACEmentioned
+4-22	370-374	sein	_	_
+4-23	375-379	Haus	_	_
+4-24	380-384	rein	_	_
+4-25	385-391	wissen	_	_
+4-26	392-398	wollte	_	_
+4-27	399-400	,	_	_
+4-28	401-403	um	_	_
+4-29	404-413	ungestört	_	_
+4-30	414-418	nach	_	_
+4-31	419-425	seinem	_	_
+4-32	426-434	Gefallen	_	_
+4-33	435-440	leben	_	_
+4-34	441-443	zu	_	_
+4-35	444-450	können	_	_
+4-36	451-452	.	_	_
+
+#Text=Wenn es nöthig ist , liefere ich in 8 Tagen einen Hübnerschen Artikel , sonst jedenfalls bis über 14 Tage .
+5-1	453-457	Wenn	_	_
+5-2	458-460	es	_	_
+5-3	461-467	nöthig	_	_
+5-4	468-471	ist	_	_
+5-5	472-473	,	_	_
+5-6	474-481	liefere	_	_
+5-7	482-485	ich	_	_
+5-8	486-488	in	_	_
+5-9	489-490	8	_	_
+5-10	491-496	Tagen	_	_
+5-11	497-502	einen	_	_
+5-12	503-514	Hübnerschen	*[10]	MISC[10]
+5-13	515-522	Artikel	*[10]	MISC[10]
+5-14	523-524	,	_	_
+5-15	525-530	sonst	_	_
+5-16	531-541	jedenfalls	_	_
+5-17	542-545	bis	_	_
+5-18	546-550	über	_	_
+5-19	551-553	14	_	_
+5-20	554-558	Tage	_	_
+5-21	559-560	.	_	_
+
+#Text=Vebrigens ist Cornelius jetzt guter Laune , da er auch seinen hinkenden Koch in Trab gesetzt und gezwungen hat , ihm gutes Fleisch anzuschaffen .
+6-1	561-570	Vebrigens	_	_
+6-2	571-574	ist	_	_
+6-3	575-584	Cornelius	*	PERmentioned
+6-4	585-590	jetzt	_	_
+6-5	591-596	guter	_	_
+6-6	597-602	Laune	_	_
+6-7	603-604	,	_	_
+6-8	605-607	da	_	_
+6-9	608-610	er	_	_
+6-10	611-615	auch	_	_
+6-11	616-622	seinen	_	_
+6-12	623-632	hinkenden	_	_
+6-13	633-637	Koch	_	_
+6-14	638-640	in	_	_
+6-15	641-645	Trab	_	_
+6-16	646-653	gesetzt	_	_
+6-17	654-657	und	_	_
+6-18	658-667	gezwungen	_	_
+6-19	668-671	hat	_	_
+6-20	672-673	,	_	_
+6-21	674-677	ihm	_	_
+6-22	678-683	gutes	_	_
+6-23	684-691	Fleisch	_	_
+6-24	692-704	anzuschaffen	_	_
+6-25	705-706	.	_	_
+
+#Text=Das sind die großen Neuigkeiten von Ariccia , von Frascati haben Sie hoffentlich noch noch weniger zu melden und können sich mit tutto va bene begnügen .
+7-1	707-710	Das	_	_
+7-2	711-715	sind	_	_
+7-3	716-719	die	_	_
+7-4	720-726	großen	_	_
+7-5	727-738	Neuigkeiten	_	_
+7-6	739-742	von	_	_
+7-7	743-750	Ariccia	*	PLACEmentioned
+7-8	751-752	,	_	_
+7-9	753-756	von	_	_
+7-10	757-765	Frascati	*	PLACEmentioned
+7-11	766-771	haben	_	_
+7-12	772-775	Sie	_	_
+7-13	776-787	hoffentlich	_	_
+7-14	788-792	noch	_	_
+7-15	793-797	noch	_	_
+7-16	798-805	weniger	_	_
+7-17	806-808	zu	_	_
+7-18	809-815	melden	_	_
+7-19	816-819	und	_	_
+7-20	820-826	können	_	_
+7-21	827-831	sich	_	_
+7-22	832-835	mit	_	_
+7-23	836-841	tutto	_	_
+7-24	842-844	va	_	_
+7-25	845-849	bene	_	_
+7-26	850-858	begnügen	_	_
+7-27	859-860	.	_	_
+
+#Text=Meine Frau grüßt bestens , auch die Ihrige .
+8-1	861-866	Meine	*[6]	PERmentioned[6]
+8-2	867-871	Frau	*[6]	PERmentioned[6]
+8-3	872-877	grüßt	_	_
+8-4	878-885	bestens	_	_
+8-5	886-887	,	_	_
+8-6	888-892	auch	_	_
+8-7	893-896	die	_	_
+8-8	897-903	Ihrige	*	PERmentioned
+8-9	904-905	.	_	_
+
+#Text=Ihr HBrunn .
+9-1	906-909	Ihr	_	_
+9-2	910-916	HBrunn	*	PERauthor
+9-3	917-918	.	_	_
+
+#Text=Ariccia , 9 : VIII , 60. ne a mn ren es mm rn aaa ancre DU un te an GR mis au de Arnd ar a m me Der Druck der großen Cista läßt sich bewerkstelligen : 1 ) auf carta arcipapalina di Fabriano , 8 Baj .
+10-1	919-926	Ariccia	*	PLACEfrom
+10-2	927-928	,	_	_
+10-3	929-930	9	*[7]	DATEletter[7]
+10-4	931-932	:	*[7]	DATEletter[7]
+10-5	933-937	VIII	*[7]	DATEletter[7]
+10-6	938-939	,	*[7]	DATEletter[7]
+10-7	940-943	60.	*[7]	DATEletter[7]
+10-8	944-946	ne	_	_
+10-9	947-948	a	_	_
+10-10	949-951	mn	_	_
+10-11	952-955	ren	_	_
+10-12	956-958	es	_	_
+10-13	959-961	mm	_	_
+10-14	962-964	rn	_	_
+10-15	965-968	aaa	_	_
+10-16	969-974	ancre	_	_
+10-17	975-977	DU	_	_
+10-18	978-980	un	_	_
+10-19	981-983	te	_	_
+10-20	984-986	an	_	_
+10-21	987-989	GR	_	_
+10-22	990-993	mis	_	_
+10-23	994-996	au	_	_
+10-24	997-999	de	_	_
+10-25	1000-1004	Arnd	_	_
+10-26	1005-1007	ar	_	_
+10-27	1008-1009	a	_	_
+10-28	1010-1011	m	_	_
+10-29	1012-1014	me	_	_
+10-30	1015-1018	Der	_	_
+10-31	1019-1024	Druck	_	_
+10-32	1025-1028	der	_	_
+10-33	1029-1035	großen	_	_
+10-34	1036-1041	Cista	*	OBJ
+10-35	1042-1046	läßt	_	_
+10-36	1047-1051	sich	_	_
+10-37	1052-1067	bewerkstelligen	_	_
+10-38	1068-1069	:	_	_
+10-39	1070-1071	1	_	_
+10-40	1072-1073	)	_	_
+10-41	1074-1077	auf	_	_
+10-42	1078-1083	carta	_	_
+10-43	1084-1096	arcipapalina	_	_
+10-44	1097-1099	di	_	_
+10-45	1100-1108	Fabriano	*	PLACEmentioned
+10-46	1109-1110	,	_	_
+10-47	1111-1112	8	_	_
+10-48	1113-1116	Baj	_	_
+10-49	1117-1118	.	_	_
+
+#Text=das Blatt , ä circa 300 Ex .
+11-1	1119-1122	das	_	_
+11-2	1123-1128	Blatt	_	_
+11-3	1129-1130	,	_	_
+11-4	1131-1132	ä	_	_
+11-5	1133-1138	circa	_	_
+11-6	1139-1142	300	_	_
+11-7	1143-1145	Ex	_	_
+11-8	1146-1147	.	_	_
+
+#Text== 24 Scudi das bloße Papier \| !
+12-1	1148-1149	=	_	_
+12-2	1150-1152	24	_	_
+12-3	1153-1158	Scudi	_	_
+12-4	1159-1162	das	_	_
+12-5	1163-1168	bloße	_	_
+12-6	1169-1175	Papier	_	_
+12-7	1176-1177	\|	_	_
+12-8	1178-1179	!	_	_
+
+#Text=2 ) wie die eine Probe : ä 5 baj .
+13-1	1180-1181	2	_	_
+13-2	1182-1183	)	_	_
+13-3	1184-1187	wie	_	_
+13-4	1188-1191	die	_	_
+13-5	1192-1196	eine	_	_
+13-6	1197-1202	Probe	_	_
+13-7	1203-1204	:	_	_
+13-8	1205-1206	ä	_	_
+13-9	1207-1208	5	_	_
+13-10	1209-1212	baj	_	_
+13-11	1213-1214	.	_	_
+
+#Text== 15 Scudi , immer noch theuer und das Papier etwas schmutzig , wenn auch für
+14-1	1215-1216	=	_	_
+14-2	1217-1219	15	_	_
+14-3	1220-1225	Scudi	_	_
+14-4	1226-1227	,	_	_
+14-5	1228-1233	immer	_	_
+14-6	1234-1238	noch	_	_
+14-7	1239-1245	theuer	_	_
+14-8	1246-1249	und	_	_
+14-9	1250-1253	das	_	_
+14-10	1254-1260	Papier	_	_
+14-11	1261-1266	etwas	_	_
+14-12	1267-1276	schmutzig	_	_
+14-13	1277-1278	,	_	_
+14-14	1279-1283	wenn	_	_
+14-15	1284-1288	auch	_	_
+14-16	1289-1292	für	_	_

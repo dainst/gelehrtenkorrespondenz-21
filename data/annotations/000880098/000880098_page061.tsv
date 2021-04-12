@@ -1,0 +1,54 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=633 Braun an Gerhard Rom , 6. September 1834 Ich besinne mich vergebens auf weitere Mittheilungen die ich Ihnen machen könnte .
+1-1	0-3	633	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	6.	*[1]	DATEletter[1]
+1-8	30-39	September	*[1]	DATEletter[1]
+1-9	40-44	1834	*[1]	DATEletter[1]
+1-10	45-48	Ich	_	_
+1-11	49-56	besinne	_	_
+1-12	57-61	mich	_	_
+1-13	62-71	vergebens	_	_
+1-14	72-75	auf	_	_
+1-15	76-83	weitere	_	_
+1-16	84-97	Mittheilungen	_	_
+1-17	98-101	die	_	_
+1-18	102-105	ich	_	_
+1-19	106-111	Ihnen	_	_
+1-20	112-118	machen	_	_
+1-21	119-125	könnte	_	_
+1-22	126-127	.	_	_
+
+#Text=Sollte vor Absendung dieser Zeilen nicht etwas hinzukommen , so leben Sie wohl .
+2-1	128-134	Sollte	_	_
+2-2	135-138	vor	_	_
+2-3	139-148	Absendung	_	_
+2-4	149-155	dieser	_	_
+2-5	156-162	Zeilen	_	_
+2-6	163-168	nicht	_	_
+2-7	169-174	etwas	_	_
+2-8	175-186	hinzukommen	_	_
+2-9	187-188	,	_	_
+2-10	189-191	so	_	_
+2-11	192-197	leben	_	_
+2-12	198-201	Sie	_	_
+2-13	202-206	wohl	_	_
+2-14	207-208	.	_	_
+
+#Text=Ihr Braun Viele Grüße an G. Dr. Lepsius .
+3-1	209-212	Ihr	_	_
+3-2	213-218	Braun	*	PERauthor
+3-3	219-224	Viele	_	_
+3-4	225-230	Grüße	_	_
+3-5	231-233	an	_	_
+3-6	234-236	G.	_	_
+3-7	237-240	Dr.	*[2]	PERmentioned[2]
+3-8	241-248	Lepsius	*[2]	PERmentioned[2]
+3-9	249-250	.	_	_

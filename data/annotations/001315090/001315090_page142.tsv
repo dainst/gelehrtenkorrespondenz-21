@@ -1,0 +1,177 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 20. März 1874 men für Abgüsse machen .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	20.	*[1]	DATEletter[1]
+1-7	31-35	März	*[1]	DATEletter[1]
+1-8	36-40	1874	*[1]	DATEletter[1]
+1-9	41-44	men	_	_
+1-10	45-48	für	_	_
+1-11	49-56	Abgüsse	_	_
+1-12	57-63	machen	_	_
+1-13	64-65	.	_	_
+
+#Text=Je nach dem sie fertig werden , senden Sie doch 1 Exemplar hier an die Central Direktion .
+2-1	66-68	Je	_	_
+2-2	69-73	nach	_	_
+2-3	74-77	dem	_	_
+2-4	78-81	sie	_	_
+2-5	82-88	fertig	_	_
+2-6	89-95	werden	_	_
+2-7	96-97	,	_	_
+2-8	98-104	senden	_	_
+2-9	105-108	Sie	_	_
+2-10	109-113	doch	_	_
+2-11	114-115	1	_	_
+2-12	116-124	Exemplar	_	_
+2-13	125-129	hier	_	_
+2-14	130-132	an	_	_
+2-15	133-136	die	_	_
+2-16	137-144	Central	*[2]	ORGmentioned[2]
+2-17	145-154	Direktion	*[2]	ORGmentioned[2]
+2-18	155-156	.	_	_
+
+#Text=Ich denke dafür zu sorgen , daß wir sie hier brauchen können .
+3-1	157-160	Ich	_	_
+3-2	161-166	denke	_	_
+3-3	167-172	dafür	_	_
+3-4	173-175	zu	_	_
+3-5	176-182	sorgen	_	_
+3-6	183-184	,	_	_
+3-7	185-188	daß	_	_
+3-8	189-192	wir	_	_
+3-9	193-196	sie	_	_
+3-10	197-201	hier	_	_
+3-11	202-210	brauchen	_	_
+3-12	211-217	können	_	_
+3-13	218-219	.	_	_
+
+#Text=Daß die Statuten noch immer nicht genehmigt sind , bringt große Verwirrung , namentlich auch in die Stipendien .
+4-1	220-223	Daß	_	_
+4-2	224-227	die	_	_
+4-3	228-236	Statuten	_	_
+4-4	237-241	noch	_	_
+4-5	242-247	immer	_	_
+4-6	248-253	nicht	_	_
+4-7	254-263	genehmigt	_	_
+4-8	264-268	sind	_	_
+4-9	269-270	,	_	_
+4-10	271-277	bringt	_	_
+4-11	278-283	große	_	_
+4-12	284-294	Verwirrung	_	_
+4-13	295-296	,	_	_
+4-14	297-307	namentlich	_	_
+4-15	308-312	auch	_	_
+4-16	313-315	in	_	_
+4-17	316-319	die	_	_
+4-18	320-330	Stipendien	_	_
+4-19	331-332	.	_	_
+
+#Text=Wir tragen jetzt auch Übergangsbestimmungen an .
+5-1	333-336	Wir	_	_
+5-2	337-343	tragen	_	_
+5-3	344-349	jetzt	_	_
+5-4	350-354	auch	_	_
+5-5	355-376	Übergangsbestimmungen	_	_
+5-6	377-379	an	_	_
+5-7	380-381	.	_	_
+
+#Text=- Wir haben nun , wie Sie wohl schon wissen , Hercher zum akademischen Mitglied der Central Direktion gewählt , und an seine Stelle neben Schöne den Hanseaten Minister Präsidenten Dr. Krüger , Mitglied unsrer Griechischen Gesellschaft und sehr brauchbar als Mitglied des Bundesraths .
+6-1	382-383	-	_	_
+6-2	384-387	Wir	_	_
+6-3	388-393	haben	_	_
+6-4	394-397	nun	_	_
+6-5	398-399	,	_	_
+6-6	400-403	wie	_	_
+6-7	404-407	Sie	_	_
+6-8	408-412	wohl	_	_
+6-9	413-418	schon	_	_
+6-10	419-425	wissen	_	_
+6-11	426-427	,	_	_
+6-12	428-435	Hercher	*	PERmentioned
+6-13	436-439	zum	_	_
+6-14	440-452	akademischen	_	_
+6-15	453-461	Mitglied	_	_
+6-16	462-465	der	_	_
+6-17	466-473	Central	*[3]	ORGmentioned[3]
+6-18	474-483	Direktion	*[3]	ORGmentioned[3]
+6-19	484-491	gewählt	_	_
+6-20	492-493	,	_	_
+6-21	494-497	und	_	_
+6-22	498-500	an	_	_
+6-23	501-506	seine	_	_
+6-24	507-513	Stelle	_	_
+6-25	514-519	neben	_	_
+6-26	520-526	Schöne	_	_
+6-27	527-530	den	_	_
+6-28	531-540	Hanseaten	_	_
+6-29	541-549	Minister	_	_
+6-30	550-561	Präsidenten	_	_
+6-31	562-565	Dr.	_	_
+6-32	566-572	Krüger	*	PERmentioned
+6-33	573-574	,	_	_
+6-34	575-583	Mitglied	_	_
+6-35	584-590	unsrer	_	_
+6-36	591-603	Griechischen	*[4]	ORGmentioned[4]
+6-37	604-616	Gesellschaft	*[4]	ORGmentioned[4]
+6-38	617-620	und	_	_
+6-39	621-625	sehr	_	_
+6-40	626-635	brauchbar	_	_
+6-41	636-639	als	_	_
+6-42	640-648	Mitglied	_	_
+6-43	649-652	des	_	_
+6-44	653-664	Bundesraths	*	ORGmentioned
+6-45	665-666	.	_	_
+
+#Text=Er war der lezten Sitzung zum ersten male gegenwärtig .
+7-1	667-669	Er	_	_
+7-2	670-673	war	_	_
+7-3	674-677	der	_	_
+7-4	678-684	lezten	_	_
+7-5	685-692	Sitzung	_	_
+7-6	693-696	zum	_	_
+7-7	697-703	ersten	_	_
+7-8	704-708	male	_	_
+7-9	709-720	gegenwärtig	_	_
+7-10	721-722	.	_	_
+
+#Text=Sie haben hoffentlich jetzt besseres Übergangswetter als wir \; es ist Regen , Kälte , Wind bei uns .
+8-1	723-726	Sie	_	_
+8-2	727-732	haben	_	_
+8-3	733-744	hoffentlich	_	_
+8-4	745-750	jetzt	_	_
+8-5	751-759	besseres	_	_
+8-6	760-775	Übergangswetter	_	_
+8-7	776-779	als	_	_
+8-8	780-783	wir	_	_
+8-9	784-785	\;	_	_
+8-10	786-788	es	_	_
+8-11	789-792	ist	_	_
+8-12	793-798	Regen	_	_
+8-13	799-800	,	_	_
+8-14	801-806	Kälte	_	_
+8-15	807-808	,	_	_
+8-16	809-813	Wind	_	_
+8-17	814-817	bei	_	_
+8-18	818-821	uns	_	_
+8-19	822-823	.	_	_
+
+#Text=- Ich schreibe noch an Helbig .
+9-1	824-825	-	_	_
+9-2	826-829	Ich	_	_
+9-3	830-838	schreibe	_	_
+9-4	839-843	noch	_	_
+9-5	844-846	an	_	_
+9-6	847-853	Helbig	*	PERmentioned
+9-7	854-855	.	_	_
+
+#Text=Ihr R Lepsius
+10-1	856-859	Ihr	_	_
+10-2	860-861	R	*[5]	PERauthor[5]
+10-3	862-869	Lepsius	*[5]	PERauthor[5]

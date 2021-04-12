@@ -1,0 +1,305 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=368 Henzen an Gerhard a7/X1/52 Rom 27/XI 52 Verehrter Herr Professor !
+1-1	0-3	368	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-30	a7/X1/52	_	_
+1-6	31-34	Rom	*	PLACEfrom
+1-7	35-40	27/XI	*[1]|*[4]	DATEletter[1]|DATEletter[4]
+1-8	41-43	52	*[1]|*[4]	DATEletter[1]|DATEletter[4]
+1-9	44-53	Verehrter	_	_
+1-10	54-58	Herr	_	_
+1-11	59-68	Professor	_	_
+1-12	69-70	!	_	_
+
+#Text=w Bei der Gesandtschaft liest seit einiger Zeit das Exemplar von Lepsius 's Aegyptischen Denkmälern , das , wie Sie früher schrieben , der Königs uns schenkt , richtig adressirt all'Istituto archeologico .
+2-1	71-72	w	_	_
+2-2	73-76	Bei	_	_
+2-3	77-80	der	_	_
+2-4	81-94	Gesandtschaft	_	_
+2-5	95-100	liest	_	_
+2-6	101-105	seit	_	_
+2-7	106-113	einiger	_	_
+2-8	114-118	Zeit	_	_
+2-9	119-122	das	_	_
+2-10	123-131	Exemplar	_	_
+2-11	132-135	von	_	_
+2-12	136-143	Lepsius	*[5]	PERmentioned[5]
+2-13	144-146	's	*[5]	PERmentioned[5]
+2-14	147-159	Aegyptischen	*	MISC
+2-15	160-170	Denkmälern	_	_
+2-16	171-172	,	_	_
+2-17	173-176	das	_	_
+2-18	177-178	,	_	_
+2-19	179-182	wie	_	_
+2-20	183-186	Sie	_	_
+2-21	187-193	früher	_	_
+2-22	194-203	schrieben	_	_
+2-23	204-205	,	_	_
+2-24	206-209	der	_	_
+2-25	210-216	Königs	*	PERmentioned
+2-26	217-220	uns	_	_
+2-27	221-228	schenkt	_	_
+2-28	229-230	,	_	_
+2-29	231-238	richtig	_	_
+2-30	239-248	adressirt	_	_
+2-31	249-261	all'Istituto	*[2]	ORGmentioned[2]
+2-32	262-274	archeologico	*[2]	ORGmentioned[2]
+2-33	275-276	.	_	_
+
+#Text=Jetzt aber erhebt die Accademia pontif .
+3-1	277-282	Jetzt	_	_
+3-2	283-287	aber	_	_
+3-3	288-294	erhebt	_	_
+3-4	295-298	die	_	_
+3-5	299-308	Accademia	_	_
+3-6	309-315	pontif	_	_
+3-7	316-317	.	_	_
+
+#Text=in Viscontino 's Person Ansprüche daran , behauptet , auch ein Avis zu haben , u. Usedom nimmt Anstand , uns unser Exemplar auszuliefern , u. will zuvor nach Berlin schreiben .
+4-1	318-320	in	_	_
+4-2	321-331	Viscontino	*[6]	PERmentioned[6]
+4-3	332-334	's	*[6]	PERmentioned[6]
+4-4	335-341	Person	_	_
+4-5	342-351	Ansprüche	_	_
+4-6	352-357	daran	_	_
+4-7	358-359	,	_	_
+4-8	360-369	behauptet	_	_
+4-9	370-371	,	_	_
+4-10	372-376	auch	_	_
+4-11	377-380	ein	_	_
+4-12	381-385	Avis	_	_
+4-13	386-388	zu	_	_
+4-14	389-394	haben	_	_
+4-15	395-396	,	_	_
+4-16	397-399	u.	_	_
+4-17	400-406	Usedom	*	PERmentioned
+4-18	407-412	nimmt	_	_
+4-19	413-420	Anstand	_	_
+4-20	421-422	,	_	_
+4-21	423-426	uns	_	_
+4-22	427-432	unser	_	_
+4-23	433-441	Exemplar	_	_
+4-24	442-454	auszuliefern	_	_
+4-25	455-456	,	_	_
+4-26	457-459	u.	_	_
+4-27	460-464	will	_	_
+4-28	465-470	zuvor	_	_
+4-29	471-475	nach	_	_
+4-30	476-482	Berlin	*	PLACEmentioned
+4-31	483-492	schreiben	_	_
+4-32	493-494	.	_	_
+
+#Text=Es scheint , daß ursprünglich 3 Ex .
+5-1	495-497	Es	_	_
+5-2	498-505	scheint	_	_
+5-3	506-507	,	_	_
+5-4	508-511	daß	_	_
+5-5	512-524	ursprünglich	_	_
+5-6	525-526	3	_	_
+5-7	527-529	Ex	_	_
+5-8	530-531	.	_	_
+
+#Text=hieher bestimmt waren u. nur 2 abgingen , indem vielleicht der Expedient Instituto u. Accademia archeol .
+6-1	532-538	hieher	_	_
+6-2	539-547	bestimmt	_	_
+6-3	548-553	waren	_	_
+6-4	554-556	u.	_	_
+6-5	557-560	nur	_	_
+6-6	561-562	2	_	_
+6-7	563-571	abgingen	_	_
+6-8	572-573	,	_	_
+6-9	574-579	indem	_	_
+6-10	580-590	vielleicht	_	_
+6-11	591-594	der	_	_
+6-12	595-604	Expedient	_	_
+6-13	605-614	Instituto	*	ORGmentioned
+6-14	615-617	u.	_	_
+6-15	618-627	Accademia	*[3]	ORGmentioned[3]
+6-16	628-635	archeol	*[3]	ORGmentioned[3]
+6-17	636-637	.	_	_
+
+#Text=für identisch hielt .
+7-1	638-641	für	_	_
+7-2	642-651	identisch	_	_
+7-3	652-657	hielt	_	_
+7-4	658-659	.	_	_
+
+#Text=Damit nun nicht bei der Anfrage in Berlin neue Verwirrung entstehe , möchte ich Sie bitten , an geeigneter Stelle die nöthigen Schritte zu thun , damit der Gesandtschaft die richtige Antwort werde .
+8-1	660-665	Damit	_	_
+8-2	666-669	nun	_	_
+8-3	670-675	nicht	_	_
+8-4	676-679	bei	_	_
+8-5	680-683	der	_	_
+8-6	684-691	Anfrage	_	_
+8-7	692-694	in	_	_
+8-8	695-701	Berlin	*	PLACEmentioned
+8-9	702-706	neue	_	_
+8-10	707-717	Verwirrung	_	_
+8-11	718-726	entstehe	_	_
+8-12	727-728	,	_	_
+8-13	729-735	möchte	_	_
+8-14	736-739	ich	_	_
+8-15	740-743	Sie	_	_
+8-16	744-750	bitten	_	_
+8-17	751-752	,	_	_
+8-18	753-755	an	_	_
+8-19	756-766	geeigneter	_	_
+8-20	767-773	Stelle	_	_
+8-21	774-777	die	_	_
+8-22	778-786	nöthigen	_	_
+8-23	787-795	Schritte	_	_
+8-24	796-798	zu	_	_
+8-25	799-803	thun	_	_
+8-26	804-805	,	_	_
+8-27	806-811	damit	_	_
+8-28	812-815	der	_	_
+8-29	816-829	Gesandtschaft	*	ORGmentioned
+8-30	830-833	die	_	_
+8-31	834-842	richtige	_	_
+8-32	843-850	Antwort	_	_
+8-33	851-856	werde	_	_
+8-34	857-858	.	_	_
+
+#Text=Ich weiß nicht , ob Niebuhr solche Sachen besorgt \; sonst würde ich ihm schreiben .
+9-1	859-862	Ich	_	_
+9-2	863-867	weiß	_	_
+9-3	868-873	nicht	_	_
+9-4	874-875	,	_	_
+9-5	876-878	ob	_	_
+9-6	879-886	Niebuhr	*	PERmentioned
+9-7	887-893	solche	_	_
+9-8	894-900	Sachen	_	_
+9-9	901-908	besorgt	_	_
+9-10	909-910	\;	_	_
+9-11	911-916	sonst	_	_
+9-12	917-922	würde	_	_
+9-13	923-926	ich	_	_
+9-14	927-930	ihm	_	_
+9-15	931-940	schreiben	_	_
+9-16	941-942	.	_	_
+
+#Text=Da Sie aber von der Bevorstehenden Absendung wußten , wird Ihnen ja be- \| kannt sein , an wen man sich wenden muß .
+10-1	943-945	Da	_	_
+10-2	946-949	Sie	_	_
+10-3	950-954	aber	_	_
+10-4	955-958	von	_	_
+10-5	959-962	der	_	_
+10-6	963-977	Bevorstehenden	_	_
+10-7	978-987	Absendung	_	_
+10-8	988-994	wußten	_	_
+10-9	995-996	,	_	_
+10-10	997-1001	wird	_	_
+10-11	1002-1007	Ihnen	_	_
+10-12	1008-1010	ja	_	_
+10-13	1011-1014	be-	_	_
+10-14	1015-1016	\|	_	_
+10-15	1017-1022	kannt	_	_
+10-16	1023-1027	sein	_	_
+10-17	1028-1029	,	_	_
+10-18	1030-1032	an	_	_
+10-19	1033-1036	wen	_	_
+10-20	1037-1040	man	_	_
+10-21	1041-1045	sich	_	_
+10-22	1046-1052	wenden	_	_
+10-23	1053-1056	muß	_	_
+10-24	1057-1058	.	_	_
+
+#Text=.
+11-1	1059-1060	.	_	_
+
+#Text=Wir haben den denkbar schönsten November gehabt , erst küzlich ein paar Regentage \; denken noch nicht an Einheizen .
+12-1	1061-1064	Wir	_	_
+12-2	1065-1070	haben	_	_
+12-3	1071-1074	den	_	_
+12-4	1075-1082	denkbar	_	_
+12-5	1083-1092	schönsten	_	_
+12-6	1093-1101	November	*	DATEmentioned
+12-7	1102-1108	gehabt	_	_
+12-8	1109-1110	,	_	_
+12-9	1111-1115	erst	_	_
+12-10	1116-1123	küzlich	_	_
+12-11	1124-1127	ein	_	_
+12-12	1128-1132	paar	_	_
+12-13	1133-1142	Regentage	_	_
+12-14	1143-1144	\;	_	_
+12-15	1145-1151	denken	_	_
+12-16	1152-1156	noch	_	_
+12-17	1157-1162	nicht	_	_
+12-18	1163-1165	an	_	_
+12-19	1166-1175	Einheizen	_	_
+12-20	1176-1177	.	_	_
+
+#Text=-— Braun hält Deutsche Vorlesungen für Geld in einem Saale in der Stadt , u. wird dann wohl den Cursus später Englisch wiederholen .
+13-1	1178-1180	-—	_	_
+13-2	1181-1186	Braun	*	PERmentioned
+13-3	1187-1191	hält	_	_
+13-4	1192-1200	Deutsche	_	_
+13-5	1201-1212	Vorlesungen	_	_
+13-6	1213-1216	für	_	_
+13-7	1217-1221	Geld	_	_
+13-8	1222-1224	in	_	_
+13-9	1225-1230	einem	_	_
+13-10	1231-1236	Saale	_	_
+13-11	1237-1239	in	_	_
+13-12	1240-1243	der	_	_
+13-13	1244-1249	Stadt	_	_
+13-14	1250-1251	,	_	_
+13-15	1252-1254	u.	_	_
+13-16	1255-1259	wird	_	_
+13-17	1260-1264	dann	_	_
+13-18	1265-1269	wohl	_	_
+13-19	1270-1273	den	_	_
+13-20	1274-1280	Cursus	_	_
+13-21	1281-1287	später	_	_
+13-22	1288-1296	Englisch	_	_
+13-23	1297-1308	wiederholen	_	_
+13-24	1309-1310	.	_	_
+
+#Text=Im Vebrigen ist er so mit den Gypsgießereien für den `` Allerweltsguckkasten '' beschäftigt , daß man ihn nie zu Hause findet .
+14-1	1311-1313	Im	_	_
+14-2	1314-1322	Vebrigen	_	_
+14-3	1323-1326	ist	_	_
+14-4	1327-1329	er	_	_
+14-5	1330-1332	so	_	_
+14-6	1333-1336	mit	_	_
+14-7	1337-1340	den	_	_
+14-8	1341-1355	Gypsgießereien	_	_
+14-9	1356-1359	für	_	_
+14-10	1360-1363	den	_	_
+14-11	1364-1366	``	_	_
+14-12	1367-1387	Allerweltsguckkasten	_	_
+14-13	1388-1390	''	_	_
+14-14	1391-1402	beschäftigt	_	_
+14-15	1403-1404	,	_	_
+14-16	1405-1408	daß	_	_
+14-17	1409-1412	man	_	_
+14-18	1413-1416	ihn	_	_
+14-19	1417-1420	nie	_	_
+14-20	1421-1423	zu	_	_
+14-21	1424-1429	Hause	_	_
+14-22	1430-1436	findet	_	_
+14-23	1437-1438	.	_	_
+
+#Text=Das Institut - campa !
+15-1	1439-1442	Das	_	_
+15-2	1443-1451	Institut	*	ORGmentioned
+15-3	1452-1453	-	_	_
+15-4	1454-1459	campa	_	_
+15-5	1460-1461	!	_	_
+
+#Text=Unser Druck ist sehr zurück , da das viele Grie-
+16-1	1462-1467	Unser	_	_
+16-2	1468-1473	Druck	_	_
+16-3	1474-1477	ist	_	_
+16-4	1478-1482	sehr	_	_
+16-5	1483-1489	zurück	_	_
+16-6	1490-1491	,	_	_
+16-7	1492-1494	da	_	_
+16-8	1495-1498	das	_	_
+16-9	1499-1504	viele	_	_
+16-10	1505-1510	Grie-	_	_

@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin 66/11/1848 A. di Dir .
+1-1	0-7	Gerhard	*	PERauthor	
+1-2	8-10	an	_	_	
+1-3	11-17	Henzen	*	PERaddressee	
+1-4	18-24	Berlin	*	PLACEfrom	
+1-5	25-35	66/11/1848	*	DATEletter	
+1-6	36-38	A.	_	_	
+1-7	39-41	di	_	_	
+1-8	42-45	Dir	_	_	
+1-9	46-47	.	_	_	
+
+#Text=8 .
+2-1	48-49	8	_	_	
+2-2	50-51	.	_	_	
+
+#Text=18/II 48 r . 149/II 48 D , Henzen dasehfr , Berlin 6 Febr .
+3-1	52-57	18/II	*[1]	DATErecieved[1]	
+3-2	58-60	48	*[1]	DATErecieved[1]	
+3-3	61-62	r	_	_	
+3-4	63-64	.	_	_	
+3-5	65-71	149/II	*[2]	DATEanswered[2]	
+3-6	72-74	48	*[2]	DATEanswered[2]	
+3-7	75-76	D	_	_	
+3-8	77-78	,	_	_	
+3-9	79-85	Henzen	*	PERaddressee	
+3-10	86-93	dasehfr	_	_	
+3-11	94-95	,	_	_	
+3-12	96-102	Berlin	*	PLACEfrom	
+3-13	103-104	6	*[3]	DATEletter[3]	
+3-14	105-109	Febr	*[3]	DATEletter[3]	
+3-15	110-111	.	*[3]	DATEletter[3]	
+
+#Text=48 Mein theurer Freund .
+4-1	112-114	48	_	_	
+4-2	115-119	Mein	_	_	
+4-3	120-127	theurer	_	_	
+4-4	128-134	Freund	_	_	
+4-5	135-136	.	_	_	
+
+#Text=Die epigraphische Sache gab immer noch keinen Abschluß , hoffentlich nächste Woche , und dann auch wenigstens eine Besprechung über mögliche Betheiligung Ihrer Person .
+5-1	137-140	Die	_	_	
+5-2	141-154	epigraphische	_	_	
+5-3	155-160	Sache	_	_	
+5-4	161-164	gab	_	_	
+5-5	165-170	immer	_	_	
+5-6	171-175	noch	_	_	
+5-7	176-182	keinen	_	_	
+5-8	183-191	Abschluß	_	_	
+5-9	192-193	,	_	_	
+5-10	194-205	hoffentlich	_	_	
+5-11	206-213	nächste	_	_	
+5-12	214-219	Woche	_	_	
+5-13	220-221	,	_	_	
+5-14	222-225	und	_	_	
+5-15	226-230	dann	_	_	
+5-16	231-235	auch	_	_	
+5-17	236-246	wenigstens	_	_	
+5-18	247-251	eine	_	_	
+5-19	252-263	Besprechung	_	_	
+5-20	264-268	über	_	_	
+5-21	269-277	mögliche	_	_	
+5-22	278-290	Betheiligung	_	_	
+5-23	291-296	Ihrer	_	_	
+5-24	297-303	Person	_	_	
+5-25	304-305	.	_	_	
+
+#Text=- Die Gehaltsverhandlung ist in bestem Gang , - Neigebaur , komisch als Ungeheugr verdruckt , bleibt Ihnen wol aus Furcht vor Sicilien in Rom gelagert .
+6-1	306-307	-	_	_	
+6-2	308-311	Die	_	_	
+6-3	312-330	Gehaltsverhandlung	_	_	
+6-4	331-334	ist	_	_	
+6-5	335-337	in	_	_	
+6-6	338-344	bestem	_	_	
+6-7	345-349	Gang	_	_	
+6-8	350-351	,	_	_	
+6-9	352-353	-	_	_	
+6-10	354-363	Neigebaur	*	PERmentioned	
+6-11	364-365	,	_	_	
+6-12	366-373	komisch	_	_	
+6-13	374-377	als	_	_	
+6-14	378-387	Ungeheugr	_	_	
+6-15	388-397	verdruckt	_	_	
+6-16	398-399	,	_	_	
+6-17	400-406	bleibt	_	_	
+6-18	407-412	Ihnen	_	_	
+6-19	413-416	wol	_	_	
+6-20	417-420	aus	_	_	
+6-21	421-427	Furcht	_	_	
+6-22	428-431	vor	_	_	
+6-23	432-440	Sicilien	*	PLACEmentioned	
+6-24	441-443	in	_	_	
+6-25	444-447	Rom	*	PLACEmentioned	
+6-26	448-456	gelagert	_	_	
+6-27	457-458	.	_	_	
+
+#Text=- Bull.sendungen erhielt ich dankend ; Sie werden selbst am besten beurtheilen ob die nun erfolgenden Adunanzberichte rasch genug darin kommen um Brunn 's handschriftliehen Beistand hier entbehren zu können .
+7-1	459-460	-	_	_	
+7-2	461-475	Bull.sendungen	_	_	
+7-3	476-483	erhielt	_	_	
+7-4	484-487	ich	_	_	
+7-5	488-495	dankend	_	_	
+7-6	496-497	;	_	_	
+7-7	498-501	Sie	_	_	
+7-8	502-508	werden	_	_	
+7-9	509-515	selbst	_	_	
+7-10	516-518	am	_	_	
+7-11	519-525	besten	_	_	
+7-12	526-537	beurtheilen	_	_	
+7-13	538-540	ob	_	_	
+7-14	541-544	die	_	_	
+7-15	545-548	nun	_	_	
+7-16	549-560	erfolgenden	_	_	
+7-17	561-576	Adunanzberichte	_	_	
+7-18	577-582	rasch	_	_	
+7-19	583-588	genug	_	_	
+7-20	589-594	darin	_	_	
+7-21	595-601	kommen	_	_	
+7-22	602-604	um	_	_	
+7-23	605-610	Brunn	*[4]	PERmentioned[4]	
+7-24	611-613	's	*[4]	PERmentioned[4]	
+7-25	614-631	handschriftliehen	_	_	
+7-26	632-640	Beistand	_	_	
+7-27	641-645	hier	_	_	
+7-28	646-655	entbehren	_	_	
+7-29	656-658	zu	_	_	
+7-30	659-665	können	_	_	
+7-31	666-667	.	_	_	
+
+#Text=Denselben ließ ich schon eben durch Braun grüßen und daß er mir auch einmal eine Kleinigkeit zur Arch , Zeitung sende bitten .
+8-1	668-677	Denselben	_	_	
+8-2	678-682	ließ	_	_	
+8-3	683-686	ich	_	_	
+8-4	687-692	schon	_	_	
+8-5	693-697	eben	_	_	
+8-6	698-703	durch	_	_	
+8-7	704-709	Braun	*	PERmentioned	
+8-8	710-716	grüßen	_	_	
+8-9	717-720	und	_	_	
+8-10	721-724	daß	_	_	
+8-11	725-727	er	_	_	
+8-12	728-731	mir	_	_	
+8-13	732-736	auch	_	_	
+8-14	737-743	einmal	_	_	
+8-15	744-748	eine	_	_	
+8-16	749-760	Kleinigkeit	_	_	
+8-17	761-764	zur	_	_	
+8-18	765-769	Arch	_	_	
+8-19	770-771	,	_	_	
+8-20	772-779	Zeitung	_	_	
+8-21	780-785	sende	_	_	
+8-22	786-792	bitten	_	_	
+8-23	793-794	.	_	_	
+
+#Text=- Valenza in Palermo , M. della Commissione di Antichitä , finde ich ohne Gewährsmann notirt , ich dachte also auf Ihren Anlaß ; kann liegen bleiben bis er wieder bemerklich wird .
+9-1	795-796	-	_	_	
+9-2	797-804	Valenza	*	PERmentioned	
+9-3	805-807	in	_	_	
+9-4	808-815	Palermo	*	PLACEmentioned	
+9-5	816-817	,	_	_	
+9-6	818-820	M.	_	_	
+9-7	821-826	della	_	_	
+9-8	827-838	Commissione	*[5]	ORGmentioned[5]	
+9-9	839-841	di	*[5]	ORGmentioned[5]	
+9-10	842-851	Antichitä	*[5]	ORGmentioned[5]	
+9-11	852-853	,	_	_	
+9-12	854-859	finde	_	_	
+9-13	860-863	ich	_	_	
+9-14	864-868	ohne	_	_	
+9-15	869-880	Gewährsmann	_	_	
+9-16	881-887	notirt	_	_	
+9-17	888-889	,	_	_	
+9-18	890-893	ich	_	_	
+9-19	894-900	dachte	_	_	
+9-20	901-905	also	_	_	
+9-21	906-909	auf	_	_	
+9-22	910-915	Ihren	_	_	
+9-23	916-921	Anlaß	_	_	
+9-24	922-923	;	_	_	
+9-25	924-928	kann	_	_	
+9-26	929-935	liegen	_	_	
+9-27	936-943	bleiben	_	_	
+9-28	944-947	bis	_	_	
+9-29	948-950	er	_	_	
+9-30	951-957	wieder	_	_	
+9-31	958-968	bemerklich	_	_	
+9-32	969-973	wird	_	_	
+9-33	974-975	.	_	_	
+
+#Text=- Für die Abhandlung über lateinische Dictatoren schreibe ich gleich an Wiese , und finden sich dann wol auch einige Tesseren zum Ministerislbefe£schluß .
+10-1	976-977	-	_	_	
+10-2	978-981	Für	_	_	
+10-3	982-985	die	_	_	
+10-4	986-996	Abhandlung	_	_	
+10-5	997-1001	über	_	_	
+10-6	1002-1013	lateinische	_	_	
+10-7	1014-1024	Dictatoren	_	_	
+10-8	1025-1033	schreibe	_	_	
+10-9	1034-1037	ich	_	_	
+10-10	1038-1044	gleich	_	_	
+10-11	1045-1047	an	_	_	
+10-12	1048-1053	Wiese	*	PERmentioned	
+10-13	1054-1055	,	_	_	
+10-14	1056-1059	und	_	_	
+10-15	1060-1066	finden	_	_	
+10-16	1067-1071	sich	_	_	
+10-17	1072-1076	dann	_	_	
+10-18	1077-1080	wol	_	_	
+10-19	1081-1085	auch	_	_	
+10-20	1086-1092	einige	_	_	
+10-21	1093-1101	Tesseren	_	_	
+10-22	1102-1105	zum	_	_	
+10-23	1106-1128	Ministerislbefe£schluß	_	_	
+10-24	1129-1130	.	_	_	
+
+#Text=- In Berelt ’ s Zeitschrift sah ich bis zum Jahresschluß nichts von Ihnen abgedruckt .
+11-1	1131-1132	-	_	_	
+11-2	1133-1135	In	_	_	
+11-3	1136-1142	Berelt	_	_	
+11-4	1143-1144	’	_	_	
+11-5	1145-1146	s	_	_	
+11-6	1147-1158	Zeitschrift	_	_	
+11-7	1159-1162	sah	_	_	
+11-8	1163-1166	ich	_	_	
+11-9	1167-1170	bis	_	_	
+11-10	1171-1174	zum	_	_	
+11-11	1175-1187	Jahresschluß	_	_	
+11-12	1188-1194	nichts	_	_	
+11-13	1195-1198	von	_	_	
+11-14	1199-1204	Ihnen	_	_	
+11-15	1205-1215	abgedruckt	_	_	
+11-16	1216-1217	.	_	_	
+
+#Text=- Das Exemplar meiner Antiken » iläwerke kostet 24 2/3 rt. , also etwa 16 1/2 Scudi und wird , nach Maßgabe des Portobetrags bis Ron , demnach an Cavedoni auf 17 1/2 oder höchstens 18 Scudi zu berechnen sein .
+12-1	1218-1219	-	_	_	
+12-2	1220-1223	Das	_	_	
+12-3	1224-1232	Exemplar	_	_	
+12-4	1233-1239	meiner	_	_	
+12-5	1240-1247	Antiken	_	_	
+12-6	1248-1249	»	_	_	
+12-7	1250-1258	iläwerke	_	_	
+12-8	1259-1265	kostet	_	_	
+12-9	1266-1268	24	_	_	
+12-10	1269-1272	2/3	_	_	
+12-11	1273-1276	rt.	_	_	
+12-12	1277-1278	,	_	_	
+12-13	1279-1283	also	_	_	
+12-14	1284-1288	etwa	_	_	
+12-15	1289-1291	16	_	_	
+12-16	1292-1295	1/2	_	_	
+12-17	1296-1301	Scudi	_	_	
+12-18	1302-1305	und	_	_	
+12-19	1306-1310	wird	_	_	
+12-20	1311-1312	,	_	_	
+12-21	1313-1317	nach	_	_	
+12-22	1318-1325	Maßgabe	_	_	
+12-23	1326-1329	des	_	_	
+12-24	1330-1342	Portobetrags	_	_	
+12-25	1343-1346	bis	_	_	
+12-26	1347-1350	Ron	*	PLACEmentioned	
+12-27	1351-1352	,	_	_	
+12-28	1353-1360	demnach	_	_	
+12-29	1361-1363	an	_	_	
+12-30	1364-1372	Cavedoni	*	PERmentioned	
+12-31	1373-1376	auf	_	_	
+12-32	1377-1379	17	_	_	
+12-33	1380-1383	1/2	_	_	
+12-34	1384-1388	oder	_	_	
+12-35	1389-1398	höchstens	_	_	
+12-36	1399-1401	18	_	_	
+12-37	1402-1407	Scudi	_	_	
+12-38	1408-1410	zu	_	_	
+12-39	1411-1420	berechnen	_	_	
+12-40	1421-1425	sein	_	_	
+12-41	1426-1427	.	_	_	
+
+#Text=- Soviel heute in geschäftsmäßiger Eil® .
+13-1	1428-1429	-	_	_	
+13-2	1430-1436	Soviel	_	_	
+13-3	1437-1442	heute	_	_	
+13-4	1443-1445	in	_	_	
+13-5	1446-1462	geschäftsmäßiger	_	_	
+13-6	1463-1467	Eil®	_	_	
+13-7	1468-1469	.	_	_	
+
+#Text=Ich schrieb Ihnen nicht seit ich
+14-1	1470-1473	Ich	_	_	
+14-2	1474-1481	schrieb	_	_	
+14-3	1482-1487	Ihnen	_	_	
+14-4	1488-1493	nicht	_	_	
+14-5	1494-1498	seit	_	_	
+14-6	1499-1502	ich	_	_	

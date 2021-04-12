@@ -1,0 +1,37 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=272 Gerhard an Braun Berlin , 8. Juni 1844 Herzlichst Ihr Gerhard Kramer las dieser Tage in der Archäologischen Gesellschaft eine Erneuerung seines Paradoxon über die attische Provenienz der Noler Vasen .
+1-1	0-3	272	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	8.	*[1]	DATEletter[1]
+1-8	33-37	Juni	*[1]	DATEletter[1]
+1-9	38-42	1844	*[1]	DATEletter[1]
+1-10	43-53	Herzlichst	_	_
+1-11	54-57	Ihr	_	_
+1-12	58-65	Gerhard	*	PERauthor
+1-13	66-72	Kramer	*	PERmentioned
+1-14	73-76	las	_	_
+1-15	77-83	dieser	_	_
+1-16	84-88	Tage	_	_
+1-17	89-91	in	_	_
+1-18	92-95	der	_	_
+1-19	96-111	Archäologischen	*[2]	ORGmentioned[2]
+1-20	112-124	Gesellschaft	*[2]	ORGmentioned[2]
+1-21	125-129	eine	_	_
+1-22	130-140	Erneuerung	_	_
+1-23	141-147	seines	_	_
+1-24	148-157	Paradoxon	_	_
+1-25	158-162	über	_	_
+1-26	163-166	die	_	_
+1-27	167-175	attische	*	MISC
+1-28	176-186	Provenienz	_	_
+1-29	187-190	der	_	_
+1-30	191-196	Noler	*	PLACEmentioned
+1-31	197-202	Vasen	*	OBJ
+1-32	203-204	.	_	_

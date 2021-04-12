@@ -1,0 +1,314 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=929 Braun an Gerhard Rom , 23. Juli 1855 Bonn .
+1-1	0-3	929	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	23.	*[21]	DATEletter[21]
+1-8	31-35	Juli	*[21]	DATEletter[21]
+1-9	36-40	1855	*[21]	DATEletter[21]
+1-10	41-45	Bonn	*	PLACEmentioned
+1-11	46-47	.	_	_
+
+#Text=- DBunsen verbietet ferner Platten anfertigen zu lassen \; ich würde gern die Tazza dell'antropofago und die Boreas - Orthigiavase stechen lassen , zumal ich jetzt , nach mannigfachen Versuchen und vieler Aerserniß , einen gefunden habe , der Sinn hat für dergleichen Arbeiten .
+2-1	48-49	-	_	_
+2-2	50-57	DBunsen	*	PERmentioned
+2-3	58-67	verbietet	_	_
+2-4	68-74	ferner	_	_
+2-5	75-82	Platten	_	_
+2-6	83-93	anfertigen	_	_
+2-7	94-96	zu	_	_
+2-8	97-103	lassen	_	_
+2-9	104-105	\;	_	_
+2-10	106-109	ich	_	_
+2-11	110-115	würde	_	_
+2-12	116-120	gern	_	_
+2-13	121-124	die	_	_
+2-14	125-130	Tazza	*[22]	OBJ[22]
+2-15	131-147	dell'antropofago	*[22]	OBJ[22]
+2-16	148-151	und	_	_
+2-17	152-155	die	_	_
+2-18	156-162	Boreas	*[23]	OBJ[23]
+2-19	163-164	-	*[23]	OBJ[23]
+2-20	165-177	Orthigiavase	*[23]	OBJ[23]
+2-21	178-185	stechen	_	_
+2-22	186-192	lassen	_	_
+2-23	193-194	,	_	_
+2-24	195-200	zumal	_	_
+2-25	201-204	ich	_	_
+2-26	205-210	jetzt	_	_
+2-27	211-212	,	_	_
+2-28	213-217	nach	_	_
+2-29	218-230	mannigfachen	_	_
+2-30	231-240	Versuchen	_	_
+2-31	241-244	und	_	_
+2-32	245-251	vieler	_	_
+2-33	252-261	Aerserniß	_	_
+2-34	262-263	,	_	_
+2-35	264-269	einen	_	_
+2-36	270-278	gefunden	_	_
+2-37	279-283	habe	_	_
+2-38	284-285	,	_	_
+2-39	286-289	der	_	_
+2-40	290-294	Sinn	_	_
+2-41	295-298	hat	_	_
+2-42	299-302	für	_	_
+2-43	303-314	dergleichen	_	_
+2-44	315-323	Arbeiten	_	_
+2-45	324-325	.	_	_
+
+#Text=Von dem Achilles und Ajasrelief sende ich heute eine Probe mit allen Bullettini die Ihnen fehlen können .
+3-1	326-329	Von	_	_
+3-2	330-333	dem	_	_
+3-3	334-342	Achilles	*[24]	OBJ[24]
+3-4	343-346	und	*[24]	OBJ[24]
+3-5	347-357	Ajasrelief	*[24]	OBJ[24]
+3-6	358-363	sende	_	_
+3-7	364-367	ich	_	_
+3-8	368-373	heute	_	_
+3-9	374-378	eine	_	_
+3-10	379-384	Probe	_	_
+3-11	385-388	mit	_	_
+3-12	389-394	allen	_	_
+3-13	395-405	Bullettini	_	_
+3-14	406-409	die	_	_
+3-15	410-415	Ihnen	_	_
+3-16	416-422	fehlen	_	_
+3-17	423-429	können	_	_
+3-18	430-431	.	_	_
+
+#Text=Ich habe zwar alle , einige sogar wiederholt an Sie abgesandt , bin aber der sicheren Ankunft nicht gewiß , da auch andere Sachen fehlen , die ich zur Post gegeben .
+4-1	432-435	Ich	_	_
+4-2	436-440	habe	_	_
+4-3	441-445	zwar	_	_
+4-4	446-450	alle	_	_
+4-5	451-452	,	_	_
+4-6	453-459	einige	_	_
+4-7	460-465	sogar	_	_
+4-8	466-476	wiederholt	_	_
+4-9	477-479	an	_	_
+4-10	480-483	Sie	_	_
+4-11	484-493	abgesandt	_	_
+4-12	494-495	,	_	_
+4-13	496-499	bin	_	_
+4-14	500-504	aber	_	_
+4-15	505-508	der	_	_
+4-16	509-517	sicheren	_	_
+4-17	518-525	Ankunft	_	_
+4-18	526-531	nicht	_	_
+4-19	532-537	gewiß	_	_
+4-20	538-539	,	_	_
+4-21	540-542	da	_	_
+4-22	543-547	auch	_	_
+4-23	548-554	andere	_	_
+4-24	555-561	Sachen	_	_
+4-25	562-568	fehlen	_	_
+4-26	569-570	,	_	_
+4-27	571-574	die	_	_
+4-28	575-578	ich	_	_
+4-29	579-582	zur	_	_
+4-30	583-587	Post	_	_
+4-31	588-595	gegeben	_	_
+4-32	596-597	.	_	_
+
+#Text=- Die französischen Bullettinis sind und bleiben verloren .
+5-1	598-599	-	_	_
+5-2	600-603	Die	_	_
+5-3	604-617	französischen	_	_
+5-4	618-629	Bullettinis	_	_
+5-5	630-634	sind	_	_
+5-6	635-638	und	_	_
+5-7	639-646	bleiben	_	_
+5-8	647-655	verloren	_	_
+5-9	656-657	.	_	_
+
+#Text=- Dieser heutigen Bullettinisendung hoffe ich auch das neueste Junibullettino beizulegen , das wegen Bunsens Avviso seit 4 Bogen in Stamponi bei mir liegt .
+6-1	658-659	-	_	_
+6-2	660-666	Dieser	_	_
+6-3	667-675	heutigen	_	_
+6-4	676-693	Bullettinisendung	_	_
+6-5	694-699	hoffe	_	_
+6-6	700-703	ich	_	_
+6-7	704-708	auch	_	_
+6-8	709-712	das	_	_
+6-9	713-720	neueste	_	_
+6-10	721-735	Junibullettino	_	_
+6-11	736-746	beizulegen	_	_
+6-12	747-748	,	_	_
+6-13	749-752	das	_	_
+6-14	753-758	wegen	_	_
+6-15	759-766	Bunsens	*	PERmentioned
+6-16	767-773	Avviso	_	_
+6-17	774-778	seit	_	_
+6-18	779-780	4	_	_
+6-19	781-786	Bogen	_	_
+6-20	787-789	in	_	_
+6-21	790-798	Stamponi	_	_
+6-22	799-802	bei	_	_
+6-23	803-806	mir	_	_
+6-24	807-812	liegt	_	_
+6-25	813-814	.	_	_
+
+#Text=Das epigraphische Bull .
+7-1	815-818	Das	_	_
+7-2	819-832	epigraphische	_	_
+7-3	833-837	Bull	_	_
+7-4	838-839	.	_	_
+
+#Text=für die S. 48 - 63 leer gelassen sind , wird mit den athen .
+8-1	840-843	für	_	_
+8-2	844-847	die	_	_
+8-3	848-850	S.	_	_
+8-4	851-853	48	_	_
+8-5	854-855	-	_	_
+8-6	856-858	63	_	_
+8-7	859-863	leer	_	_
+8-8	864-872	gelassen	_	_
+8-9	873-877	sind	_	_
+8-10	878-879	,	_	_
+8-11	880-884	wird	_	_
+8-12	885-888	mit	_	_
+8-13	889-892	den	_	_
+8-14	893-898	athen	_	_
+8-15	899-900	.	_	_
+
+#Text=Inschriften gefüllt .
+9-1	901-912	Inschriften	_	_
+9-2	913-920	gefüllt	_	_
+9-3	921-922	.	_	_
+
+#Text=Bunsens Forumaufsatz , den ich Ihnen übrigens auch in mehreren Separatexemplaren zugesandt , erhalten Sie in Form von Bull. , da gebunden das Porto zu sehr steigt .
+10-1	923-930	Bunsens	*	PERmentioned
+10-2	931-943	Forumaufsatz	*	MISC
+10-3	944-945	,	_	_
+10-4	946-949	den	_	_
+10-5	950-953	ich	_	_
+10-6	954-959	Ihnen	_	_
+10-7	960-968	übrigens	_	_
+10-8	969-973	auch	_	_
+10-9	974-976	in	_	_
+10-10	977-985	mehreren	_	_
+10-11	986-1003	Separatexemplaren	_	_
+10-12	1004-1013	zugesandt	_	_
+10-13	1014-1015	,	_	_
+10-14	1016-1024	erhalten	_	_
+10-15	1025-1028	Sie	_	_
+10-16	1029-1031	in	_	_
+10-17	1032-1036	Form	_	_
+10-18	1037-1040	von	_	_
+10-19	1041-1046	Bull.	_	_
+10-20	1047-1048	,	_	_
+10-21	1049-1051	da	_	_
+10-22	1052-1060	gebunden	_	_
+10-23	1061-1064	das	_	_
+10-24	1065-1070	Porto	_	_
+10-25	1071-1073	zu	_	_
+10-26	1074-1078	sehr	_	_
+10-27	1079-1085	steigt	_	_
+10-28	1086-1087	.	_	_
+
+#Text=Wegen der Monumentenerklärung bin ich Ihnen sehr dankbar , daß Sie mir soviel zugewiesen .
+11-1	1088-1093	Wegen	_	_
+11-2	1094-1097	der	_	_
+11-3	1098-1117	Monumentenerklärung	_	_
+11-4	1118-1121	bin	_	_
+11-5	1122-1125	ich	_	_
+11-6	1126-1131	Ihnen	_	_
+11-7	1132-1136	sehr	_	_
+11-8	1137-1144	dankbar	_	_
+11-9	1145-1146	,	_	_
+11-10	1147-1150	daß	_	_
+11-11	1151-1154	Sie	_	_
+11-12	1155-1158	mir	_	_
+11-13	1159-1165	soviel	_	_
+11-14	1166-1176	zugewiesen	_	_
+11-15	1177-1178	.	_	_
+
+#Text=Hätte ich nur auch so viel Zeit , um mich schnell dieses schönen Auftrags entledigen zu können .
+12-1	1179-1184	Hätte	_	_
+12-2	1185-1188	ich	_	_
+12-3	1189-1192	nur	_	_
+12-4	1193-1197	auch	_	_
+12-5	1198-1200	so	_	_
+12-6	1201-1205	viel	_	_
+12-7	1206-1210	Zeit	_	_
+12-8	1211-1212	,	_	_
+12-9	1213-1215	um	_	_
+12-10	1216-1220	mich	_	_
+12-11	1221-1228	schnell	_	_
+12-12	1229-1235	dieses	_	_
+12-13	1236-1243	schönen	_	_
+12-14	1244-1252	Auftrags	_	_
+12-15	1253-1263	entledigen	_	_
+12-16	1264-1266	zu	_	_
+12-17	1267-1273	können	_	_
+12-18	1274-1275	.	_	_
+
+#Text=Einige davon werde ich wohl an Meyer , der bei Bunsen in Frascati weilt , abtreten dürfen .
+13-1	1276-1282	Einige	_	_
+13-2	1283-1288	davon	_	_
+13-3	1289-1294	werde	_	_
+13-4	1295-1298	ich	_	_
+13-5	1299-1303	wohl	_	_
+13-6	1304-1306	an	_	_
+13-7	1307-1312	Meyer	*	PERmentioned
+13-8	1313-1314	,	_	_
+13-9	1315-1318	der	_	_
+13-10	1319-1322	bei	_	_
+13-11	1323-1329	Bunsen	*	PERmentioned
+13-12	1330-1332	in	_	_
+13-13	1333-1341	Frascati	*	PLACEmentioned
+13-14	1342-1347	weilt	_	_
+13-15	1348-1349	,	_	_
+13-16	1350-1358	abtreten	_	_
+13-17	1359-1365	dürfen	_	_
+13-18	1366-1367	.	_	_
+
+#Text=Die Recension von dem Mus . Pourtales-Gorzier in dem letzten Bull .
+14-1	1368-1371	Die	_	_
+14-2	1372-1381	Recension	_	_
+14-3	1382-1385	von	_	_
+14-4	1386-1389	dem	_	_
+14-5	1390-1393	Mus	*[25]	ORGmentioned[25]
+14-6	1394-1395	.	*[25]	ORGmentioned[25]
+14-7	1396-1413	Pourtales-Gorzier	*[25]	ORGmentioned[25]
+14-8	1414-1416	in	_	_
+14-9	1417-1420	dem	_	_
+14-10	1421-1428	letzten	_	_
+14-11	1429-1433	Bull	_	_
+14-12	1434-1435	.	_	_
+
+#Text=wird Ihnen gefallen .
+15-1	1436-1440	wird	_	_
+15-2	1441-1446	Ihnen	_	_
+15-3	1447-1455	gefallen	_	_
+15-4	1456-1457	.	_	_
+
+#Text=Mit der Verpackung der letzten Sendung habe ich insofern nichts zu verantworten , als Vollard mir seine Sachen verpackt übergeben hat .
+16-1	1458-1461	Mit	_	_
+16-2	1462-1465	der	_	_
+16-3	1466-1476	Verpackung	_	_
+16-4	1477-1480	der	_	_
+16-5	1481-1488	letzten	_	_
+16-6	1489-1496	Sendung	_	_
+16-7	1497-1501	habe	_	_
+16-8	1502-1505	ich	_	_
+16-9	1506-1514	insofern	_	_
+16-10	1515-1521	nichts	_	_
+16-11	1522-1524	zu	_	_
+16-12	1525-1537	verantworten	_	_
+16-13	1538-1539	,	_	_
+16-14	1540-1543	als	_	_
+16-15	1544-1551	Vollard	*	PERmentioned
+16-16	1552-1555	mir	_	_
+16-17	1556-1561	seine	_	_
+16-18	1562-1568	Sachen	_	_
+16-19	1569-1577	verpackt	_	_
+16-20	1578-1587	übergeben	_	_
+16-21	1588-1591	hat	_	_
+16-22	1592-1593	.	_	_

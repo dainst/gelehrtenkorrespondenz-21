@@ -1,0 +1,50 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Henzen an Gerhard 74 6/III/53 - 3 - Meine Frau dankt der Ihrigsen bestens für Ihren u freMdlichen Brief , den sie baldigst erwiedern wird , Wen Braun u. Welcker sind ganz wohl u. grüßen herzlichst .
+1-1	0-6	Henzen	*	PERauthor	
+1-2	7-9	an	_	_	
+1-3	10-17	Gerhard	*	PERaddressee	
+1-4	18-20	74	_	_	
+1-5	21-29	6/III/53	*	DATEletter	
+1-6	30-31	-	_	_	
+1-7	32-33	3	_	_	
+1-8	34-35	-	_	_	
+1-9	36-41	Meine	_	_	
+1-10	42-46	Frau	_	_	
+1-11	47-52	dankt	_	_	
+1-12	53-56	der	_	_	
+1-13	57-65	Ihrigsen	_	_	
+1-14	66-73	bestens	_	_	
+1-15	74-77	für	_	_	
+1-16	78-83	Ihren	_	_	
+1-17	84-85	u	_	_	
+1-18	86-97	freMdlichen	_	_	
+1-19	98-103	Brief	_	_	
+1-20	104-105	,	_	_	
+1-21	106-109	den	_	_	
+1-22	110-113	sie	_	_	
+1-23	114-122	baldigst	_	_	
+1-24	123-132	erwiedern	_	_	
+1-25	133-137	wird	_	_	
+1-26	138-139	,	_	_	
+1-27	140-143	Wen	_	_	
+1-28	144-149	Braun	*	PERmentioned	
+1-29	150-152	u.	_	_	
+1-30	153-160	Welcker	*	PERmentioned	
+1-31	161-165	sind	_	_	
+1-32	166-170	ganz	_	_	
+1-33	171-175	wohl	_	_	
+1-34	176-178	u.	_	_	
+1-35	179-185	grüßen	_	_	
+1-36	186-196	herzlichst	_	_	
+1-37	197-198	.	_	_	
+
+#Text=Ihr WHenzen Rom 6/III 53 .
+2-1	199-202	Ihr	_	_	
+2-2	203-210	WHenzen	*	PERauthor	
+2-3	211-214	Rom	*	PLACEfrom	
+2-4	215-220	6/III	*[1]	DATEletter[1]	
+2-5	221-223	53	*[1]	DATEletter[1]	
+2-6	224-225	.	_	_	

@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=260 Brunn an Henzen Perugia,3.September 1858 A. di Dir .
+1-1	0-3	260	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-39	Perugia,3.September	_	_
+1-6	40-44	1858	_	_
+1-7	45-47	A.	_	_
+1-8	48-50	di	_	_
+1-9	51-54	Dir	_	_
+1-10	55-56	.	_	_
+
+#Text=g . 8. September 1858 r . 9. September 1858 Lieber Henzen Ihr Brief ist zufällig etwas spät in meine Hände gekommen , indem ich , da ich keinen erwartete , einen Tag nicht auf der Post gewesen war .
+2-1	57-58	g	_	_
+2-2	59-60	.	_	_
+2-3	61-63	8.	*[3]	DATErecieved[3]
+2-4	64-73	September	*[3]	DATErecieved[3]
+2-5	74-78	1858	*[3]	DATErecieved[3]
+2-6	79-80	r	_	_
+2-7	81-82	.	_	_
+2-8	83-85	9.	*[4]	DATEanswered[4]
+2-9	86-95	September	*[4]	DATEanswered[4]
+2-10	96-100	1858	*[4]	DATEanswered[4]
+2-11	101-107	Lieber	_	_
+2-12	108-114	Henzen	*	PERaddressee
+2-13	115-118	Ihr	_	_
+2-14	119-124	Brief	_	_
+2-15	125-128	ist	_	_
+2-16	129-137	zufällig	_	_
+2-17	138-143	etwas	_	_
+2-18	144-148	spät	_	_
+2-19	149-151	in	_	_
+2-20	152-157	meine	_	_
+2-21	158-163	Hände	_	_
+2-22	164-172	gekommen	_	_
+2-23	173-174	,	_	_
+2-24	175-180	indem	_	_
+2-25	181-184	ich	_	_
+2-26	185-186	,	_	_
+2-27	187-189	da	_	_
+2-28	190-193	ich	_	_
+2-29	194-200	keinen	_	_
+2-30	201-210	erwartete	_	_
+2-31	211-212	,	_	_
+2-32	213-218	einen	_	_
+2-33	219-222	Tag	_	_
+2-34	223-228	nicht	_	_
+2-35	229-232	auf	_	_
+2-36	233-236	der	_	_
+2-37	237-241	Post	_	_
+2-38	242-249	gewesen	_	_
+2-39	250-253	war	_	_
+2-40	254-255	.	_	_
+
+#Text=Ich will nun gleich den ganzen Status darlegen .
+3-1	256-259	Ich	_	_
+3-2	260-264	will	_	_
+3-3	265-268	nun	_	_
+3-4	269-275	gleich	_	_
+3-5	276-279	den	_	_
+3-6	280-286	ganzen	_	_
+3-7	287-293	Status	_	_
+3-8	294-302	darlegen	_	_
+3-9	303-304	.	_	_
+
+#Text=Sicher für 1858 sind : 1.2 .
+4-1	305-311	Sicher	_	_
+4-2	312-315	für	_	_
+4-3	316-320	1858	*	DATEmentioned
+4-4	321-325	sind	_	_
+4-5	326-327	:	_	_
+4-6	328-331	1.2	_	_
+4-7	332-333	.	_	_
+
+#Text=Theater des Herodes .
+5-1	334-341	Theater	*[5]	OBJ[5]
+5-2	342-345	des	*[5]	OBJ[5]
+5-3	346-353	Herodes	*[5]	OBJ[5]
+5-4	354-355	.	_	_
+
+#Text=3-4. vulcentische Gemälde \; die cäretaner bei Canmpana können allenfalls zurückbleiben , da sie mir ohnehin noch genug Kopfzerbrechen kosten werden .
+6-1	356-360	3-4.	_	_
+6-2	361-373	vulcentische	*[6]	OBJ[6]
+6-3	374-381	Gemälde	*[6]	OBJ[6]
+6-4	382-383	\;	_	_
+6-5	384-387	die	_	_
+6-6	388-397	cäretaner	*	OBJ
+6-7	398-401	bei	_	_
+6-8	402-410	Canmpana	*	PERmentioned
+6-9	411-417	können	_	_
+6-10	418-428	allenfalls	_	_
+6-11	429-442	zurückbleiben	_	_
+6-12	443-444	,	_	_
+6-13	445-447	da	_	_
+6-14	448-451	sie	_	_
+6-15	452-455	mir	_	_
+6-16	456-463	ohnehin	_	_
+6-17	464-468	noch	_	_
+6-18	469-474	genug	_	_
+6-19	475-489	Kopfzerbrechen	_	_
+6-20	490-496	kosten	_	_
+6-21	497-503	werden	_	_
+6-22	504-505	.	_	_
+
+#Text=5-7 .
+7-1	506-509	5-7	_	_
+7-2	510-511	.	_	_
+
+#Text=Achillesvasen .
+8-1	512-525	Achillesvasen	*	OBJ
+8-2	526-527	.	_	_
+
+#Text=Eine davon ließe sich , wenn es durchaus nothwendig wäre , zerschneiden .
+9-1	528-532	Eine	_	_
+9-2	533-538	davon	_	_
+9-3	539-544	ließe	_	_
+9-4	545-549	sich	_	_
+9-5	550-551	,	_	_
+9-6	552-556	wenn	_	_
+9-7	557-559	es	_	_
+9-8	560-568	durchaus	_	_
+9-9	569-579	nothwendig	_	_
+9-10	580-584	wäre	_	_
+9-11	585-586	,	_	_
+9-12	587-599	zerschneiden	_	_
+9-13	600-601	.	_	_
+
+#Text=8 .
+10-1	602-603	8	_	_
+10-2	604-605	.	_	_
+
+#Text=Marsyassarkophag .
+11-1	606-622	Marsyassarkophag	*	OBJ
+11-2	623-624	.	_	_
+
+#Text=Ungewiß sind : 1 .
+12-1	625-632	Ungewiß	_	_
+12-2	633-637	sind	_	_
+12-3	638-639	:	_	_
+12-4	640-641	1	_	_
+12-5	642-643	.	_	_
+
+#Text=Palladinerraub , da doch Jahn leicht mehr und früher als er denkt , durch Rectoratsgeschäfte in Anspruch genommen werden könnte .
+13-1	644-658	Palladinerraub	*	OBJ
+13-2	659-660	,	_	_
+13-3	661-663	da	_	_
+13-4	664-668	doch	_	_
+13-5	669-673	Jahn	*	PERmentioned
+13-6	674-680	leicht	_	_
+13-7	681-685	mehr	_	_
+13-8	686-689	und	_	_
+13-9	690-696	früher	_	_
+13-10	697-700	als	_	_
+13-11	701-703	er	_	_
+13-12	704-709	denkt	_	_
+13-13	710-711	,	_	_
+13-14	712-717	durch	_	_
+13-15	718-736	Rectoratsgeschäfte	_	_
+13-16	737-739	in	_	_
+13-17	740-748	Anspruch	_	_
+13-18	749-757	genommen	_	_
+13-19	758-764	werden	_	_
+13-20	765-771	könnte	_	_
+13-21	772-773	.	_	_
+
+#Text=2 ) Zwei Komikerwesen , schon lange an Wieseler geschickt , der aber nichts von sich hat hören lassen , und , wenn er nicht getreten wird , sich so sehr nicht beeilen wird .
+14-1	774-775	2	_	_
+14-2	776-777	)	_	_
+14-3	778-782	Zwei	_	_
+14-4	783-795	Komikerwesen	*	OBJ
+14-5	796-797	,	_	_
+14-6	798-803	schon	_	_
+14-7	804-809	lange	_	_
+14-8	810-812	an	_	_
+14-9	813-821	Wieseler	*	PERmentioned
+14-10	822-831	geschickt	_	_
+14-11	832-833	,	_	_
+14-12	834-837	der	_	_
+14-13	838-842	aber	_	_
+14-14	843-849	nichts	_	_
+14-15	850-853	von	_	_
+14-16	854-858	sich	_	_
+14-17	859-862	hat	_	_
+14-18	863-868	hören	_	_
+14-19	869-875	lassen	_	_
+14-20	876-877	,	_	_
+14-21	878-881	und	_	_
+14-22	882-883	,	_	_
+14-23	884-888	wenn	_	_
+14-24	889-891	er	_	_
+14-25	892-897	nicht	_	_
+14-26	898-906	getreten	_	_
+14-27	907-911	wird	_	_
+14-28	912-913	,	_	_
+14-29	914-918	sich	_	_
+14-30	919-921	so	_	_
+14-31	922-926	sehr	_	_
+14-32	927-932	nicht	_	_
+14-33	933-940	beeilen	_	_
+14-34	941-945	wird	_	_
+14-35	946-947	.	_	_
+
+#Text=3-5 .
+15-1	948-951	3-5	_	_
+15-2	952-953	.	_	_
+
+#Text=Von hier aus habe ich drei Tafeln an Welcker , Friedländer und Roulez geschickt mit dem Bemerken , daß , wer seinen Aufsatz noch in 58 hineinhaben wolle , es möglichst bald melde und Manuscript spätestens bis November einschicken müsse .
+16-1	954-957	Von	_	_
+16-2	958-962	hier	_	_
+16-3	963-966	aus	_	_
+16-4	967-971	habe	_	_
+16-5	972-975	ich	_	_
+16-6	976-980	drei	_	_
+16-7	981-987	Tafeln	_	_
+16-8	988-990	an	_	_
+16-9	991-998	Welcker	*	PERmentioned
+16-10	999-1000	,	_	_
+16-11	1001-1012	Friedländer	*	PERmentioned
+16-12	1013-1016	und	_	_
+16-13	1017-1023	Roulez	*	PERmentioned
+16-14	1024-1033	geschickt	_	_
+16-15	1034-1037	mit	_	_
+16-16	1038-1041	dem	_	_
+16-17	1042-1050	Bemerken	_	_
+16-18	1051-1052	,	_	_
+16-19	1053-1056	daß	_	_
+16-20	1057-1058	,	_	_
+16-21	1059-1062	wer	_	_
+16-22	1063-1069	seinen	_	_
+16-23	1070-1077	Aufsatz	_	_
+16-24	1078-1082	noch	_	_
+16-25	1083-1085	in	_	_
+16-26	1086-1088	58	*	DATEmentioned
+16-27	1089-1100	hineinhaben	_	_
+16-28	1101-1106	wolle	_	_
+16-29	1107-1108	,	_	_
+16-30	1109-1111	es	_	_
+16-31	1112-1121	möglichst	_	_
+16-32	1122-1126	bald	_	_
+16-33	1127-1132	melde	_	_
+16-34	1133-1136	und	_	_
+16-35	1137-1147	Manuscript	_	_
+16-36	1148-1158	spätestens	_	_
+16-37	1159-1162	bis	_	_
+16-38	1163-1171	November	*	DATEmentioned
+16-39	1172-1183	einschicken	_	_
+16-40	1184-1189	müsse	_	_
+16-41	1190-1191	.	_	_
+
+#Text=Alle drei sind scherlich pünktlich .
+17-1	1192-1196	Alle	_	_
+17-2	1197-1201	drei	_	_
+17-3	1202-1206	sind	_	_
+17-4	1207-1216	scherlich	_	_
+17-5	1217-1226	pünktlich	_	_
+17-6	1227-1228	.	_	_
+
+#Text=Sie sehen , meine Antwort ist etwas zweideutig \; aber schließ-
+18-1	1229-1232	Sie	_	_
+18-2	1233-1238	sehen	_	_
+18-3	1239-1240	,	_	_
+18-4	1241-1246	meine	_	_
+18-5	1247-1254	Antwort	_	_
+18-6	1255-1258	ist	_	_
+18-7	1259-1264	etwas	_	_
+18-8	1265-1275	zweideutig	_	_
+18-9	1276-1277	\;	_	_
+18-10	1278-1282	aber	_	_
+18-11	1283-1291	schließ-	_	_

@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ed Brunn an Henzen Rom , 26. Mai 1862 g . 28. Mai 1862 r . 1. Juni 1862 Rom , 26 Mai 1862 .
+1-1	0-2	ed	_	_
+1-2	3-8	Brunn	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-18	Henzen	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-28	26.	*[3]	DATEletter[3]
+1-8	29-32	Mai	*[3]	DATEletter[3]
+1-9	33-37	1862	*[3]	DATEletter[3]
+1-10	38-39	g	_	_
+1-11	40-41	.	_	_
+1-12	42-45	28.	*[4]	DATErecieved[4]
+1-13	46-49	Mai	*[4]	DATErecieved[4]
+1-14	50-54	1862	*[4]	DATErecieved[4]
+1-15	55-56	r	_	_
+1-16	57-58	.	_	_
+1-17	59-61	1.	*[5]	DATEanswered[5]
+1-18	62-66	Juni	*[5]	DATEanswered[5]
+1-19	67-71	1862	*[5]	DATEanswered[5]
+1-20	72-75	Rom	*	PLACEfrom
+1-21	76-77	,	_	_
+1-22	78-80	26	*[6]	DATEletter[6]
+1-23	81-84	Mai	*[6]	DATEletter[6]
+1-24	85-89	1862	*[6]	DATEletter[6]
+1-25	90-91	.	_	_
+
+#Text=Lieber Henzen \| !
+2-1	92-98	Lieber	_	_
+2-2	99-105	Henzen	*	PERaddressee
+2-3	106-107	\|	_	_
+2-4	108-109	!	_	_
+
+#Text=Vorgestern vergaß ich den Brief von der Müller beizulegen .
+3-1	110-120	Vorgestern	_	_
+3-2	121-127	vergaß	_	_
+3-3	128-131	ich	_	_
+3-4	132-135	den	_	_
+3-5	136-141	Brief	_	_
+3-6	142-145	von	_	_
+3-7	146-149	der	_	_
+3-8	150-156	Müller	*	PERmentioned
+3-9	157-167	beizulegen	_	_
+3-10	168-169	.	_	_
+
+#Text=Heute kommt noch dazu ein anderer von Hübner , der einen langen Artikel ( über 1 Druckbogen ) über die Ausgrabungen von Barbate einschickte .
+4-1	170-175	Heute	_	_
+4-2	176-181	kommt	_	_
+4-3	182-186	noch	_	_
+4-4	187-191	dazu	_	_
+4-5	192-195	ein	_	_
+4-6	196-203	anderer	_	_
+4-7	204-207	von	_	_
+4-8	208-214	Hübner	*	PERmentioned
+4-9	215-216	,	_	_
+4-10	217-220	der	_	_
+4-11	221-226	einen	_	_
+4-12	227-233	langen	_	_
+4-13	234-241	Artikel	_	_
+4-14	242-243	(	_	_
+4-15	244-248	über	_	_
+4-16	249-250	1	_	_
+4-17	251-261	Druckbogen	_	_
+4-18	262-263	)	_	_
+4-19	264-268	über	_	_
+4-20	269-272	die	_	_
+4-21	273-285	Ausgrabungen	_	_
+4-22	286-289	von	_	_
+4-23	290-297	Barbate	*	PLACEmentioned
+4-24	298-309	einschickte	_	_
+4-25	310-311	.	_	_
+
+#Text=- Ich sehe aus seinem Briefe , daß ein Exemplar der Aushängebogen des C.I.L .
+5-1	312-313	-	_	_
+5-2	314-317	Ich	_	_
+5-3	318-322	sehe	_	_
+5-4	323-326	aus	_	_
+5-5	327-333	seinem	_	_
+5-6	334-340	Briefe	_	_
+5-7	341-342	,	_	_
+5-8	343-346	daß	_	_
+5-9	347-350	ein	_	_
+5-10	351-359	Exemplar	_	_
+5-11	360-363	der	_	_
+5-12	364-377	Aushängebogen	_	_
+5-13	378-381	des	_	_
+5-14	382-387	C.I.L	_	_
+5-15	388-389	.	_	_
+
+#Text=an de Rossi zu geben ist .
+6-1	390-392	an	_	_
+6-2	393-395	de	*[7]	PERmentioned[7]
+6-3	396-401	Rossi	*[7]	PERmentioned[7]
+6-4	402-404	zu	_	_
+6-5	405-410	geben	_	_
+6-6	411-414	ist	_	_
+6-7	415-416	.	_	_
+
+#Text=- Von Hopf kam Abschrift aus einem Codice Brancatcc. , offenbar für Mommsen , weshalb ich das Blatt gleich beilege .
+7-1	417-418	-	_	_
+7-2	419-422	Von	_	_
+7-3	423-427	Hopf	*	PERmentioned
+7-4	428-431	kam	_	_
+7-5	432-441	Abschrift	_	_
+7-6	442-445	aus	_	_
+7-7	446-451	einem	_	_
+7-8	452-458	Codice	*[8]	MISC[8]
+7-9	459-469	Brancatcc.	*[8]	MISC[8]
+7-10	470-471	,	_	_
+7-11	472-480	offenbar	_	_
+7-12	481-484	für	_	_
+7-13	485-492	Mommsen	*	PERmentioned
+7-14	493-494	,	_	_
+7-15	495-502	weshalb	_	_
+7-16	503-506	ich	_	_
+7-17	507-510	das	_	_
+7-18	511-516	Blatt	_	_
+7-19	517-523	gleich	_	_
+7-20	524-531	beilege	_	_
+7-21	532-533	.	_	_
+
+#Text=Von Spano Brief und 71 Ex .
+8-1	534-537	Von	_	_
+8-2	538-543	Spano	*	PERmentioned
+8-3	544-549	Brief	_	_
+8-4	550-553	und	_	_
+8-5	554-556	71	_	_
+8-6	557-559	Ex	_	_
+8-7	560-561	.	_	_
+
+#Text=seiner Publication der trilinguo .
+9-1	562-568	seiner	_	_
+9-2	569-580	Publication	_	_
+9-3	581-584	der	_	_
+9-4	585-594	trilinguo	*	MISC
+9-5	595-596	.	_	_
+
+#Text=Die Defecta des Bull .
+10-1	597-600	Die	_	_
+10-2	601-608	Defecta	_	_
+10-3	609-612	des	_	_
+10-4	613-617	Bull	_	_
+10-5	618-619	.	_	_
+
+#Text=sardo sollen nachfolgen .
+11-1	620-625	sardo	_	_
+11-2	626-632	sollen	_	_
+11-3	633-643	nachfolgen	_	_
+11-4	644-645	.	_	_
+
+#Text=Der equivoco wegen Detlefsen soll verbessert werden .
+12-1	646-649	Der	_	_
+12-2	650-658	equivoco	_	_
+12-3	659-664	wegen	_	_
+12-4	665-674	Detlefsen	*	PERmentioned
+12-5	675-679	soll	_	_
+12-6	680-690	verbessert	_	_
+12-7	691-697	werden	_	_
+12-8	698-699	.	_	_
+
+#Text=Von Fournier ist der Wechsel durch franz .
+13-1	700-703	Von	_	_
+13-2	704-712	Fournier	*	PERmentioned
+13-3	713-716	ist	_	_
+13-4	717-720	der	_	_
+13-5	721-728	Wechsel	_	_
+13-6	729-734	durch	_	_
+13-7	735-740	franz	*[9]	ORGmentioned[9]
+13-8	741-742	.	*[9]	ORGmentioned[9]
+
+#Text=Gesandtschaft zurückgekommen .
+14-1	743-756	Gesandtschaft	*[9]	ORGmentioned[9]
+14-2	757-771	zurückgekommen	_	_
+14-3	772-773	.	_	_
+
+#Text=Cicerchia schreibt , daß die Barber .
+15-1	774-783	Cicerchia	*	PERmentioned
+15-2	784-792	schreibt	_	_
+15-3	793-794	,	_	_
+15-4	795-798	daß	_	_
+15-5	799-802	die	_	_
+15-6	803-809	Barber	*[10]	MISC[10]
+15-7	810-811	.	*[10]	MISC[10]
+
+#Text=Scavi wieder begonnen haben .
+16-1	812-817	Scavi	*[10]	MISC[10]
+16-2	818-824	wieder	_	_
+16-3	825-833	begonnen	_	_
+16-4	834-839	haben	_	_
+16-5	840-841	.	_	_
+
+#Text=Einiges , wenn auch nicht viel , gefunden .
+17-1	842-849	Einiges	_	_
+17-2	850-851	,	_	_
+17-3	852-856	wenn	_	_
+17-4	857-861	auch	_	_
+17-5	862-867	nicht	_	_
+17-6	868-872	viel	_	_
+17-7	873-874	,	_	_
+17-8	875-883	gefunden	_	_
+17-9	884-885	.	_	_
+
+#Text=Ich füge hinzu : wahrscheinlich auch schon wieder gestohlen .
+18-1	886-889	Ich	_	_
+18-2	890-894	füge	_	_
+18-3	895-900	hinzu	_	_
+18-4	901-902	:	_	_
+18-5	903-917	wahrscheinlich	_	_
+18-6	918-922	auch	_	_
+18-7	923-928	schon	_	_
+18-8	929-935	wieder	_	_
+18-9	936-945	gestohlen	_	_
+18-10	946-947	.	_	_
+
+#Text=Heute sehr schwüles Wetter .
+19-1	948-953	Heute	_	_
+19-2	954-958	sehr	_	_
+19-3	959-967	schwüles	_	_
+19-4	968-974	Wetter	_	_
+19-5	975-976	.	_	_
+
+#Text=Mit besten Grüßen Ihr HBrunn .
+20-1	977-980	Mit	_	_
+20-2	981-987	besten	_	_
+20-3	988-994	Grüßen	_	_
+20-4	995-998	Ihr	_	_
+20-5	999-1005	HBrunn	*	PERauthor
+20-6	1006-1007	.	_	_

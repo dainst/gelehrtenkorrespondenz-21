@@ -1,0 +1,327 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=849 - u. Braun an Gerhard Rom , 29. November 1834 Weber : Niebuhr , B.G.Kleine histor .
+1-1	0-3	849	_	_	
+1-2	4-5	-	_	_	
+1-3	6-8	u.	_	_	
+1-4	9-14	Braun	*	PERauthor	
+1-5	15-17	an	_	_	
+1-6	18-25	Gerhard	*	PERaddressee	
+1-7	26-29	Rom	*	PLACEfrom	
+1-8	30-31	,	_	_	
+1-9	32-35	29.	*[1]	DATEletter[1]	
+1-10	36-44	November	*[1]	DATEletter[1]	
+1-11	45-49	1834	*[1]	DATEletter[1]	
+1-12	50-55	Weber	*	PERmentioned	
+1-13	56-57	:	*[2]	PERmentioned[2]	
+1-14	58-65	Niebuhr	*[2]	PERmentioned[2]	
+1-15	66-67	,	*[2]	PERmentioned[2]	
+1-16	68-78	B.G.Kleine	*[2]|*[3]	PERmentioned[2]|LIT[3]	
+1-17	79-85	histor	*[3]	LIT[3]	
+1-18	86-87	.	*[3]	LIT[3]	
+
+#Text=und philolol .
+2-1	88-91	und	*[3]	LIT[3]	
+2-2	92-100	philolol	*[3]	LIT[3]	
+2-3	101-102	.	*[3]	LIT[3]	
+
+#Text=Schriften .
+3-1	103-112	Schriften	*[3]	LIT[3]	
+3-2	113-114	.	*[3]	LIT[3]	
+
+#Text=Erste Sammlung .
+4-1	115-120	Erste	*[3]	LIT[3]	
+4-2	121-129	Sammlung	*[3]	LIT[3]	
+4-3	130-131	.	*[3]	LIT[3]	
+
+#Text=Mit e. Landkarte u. Inschriftentafel 1828 gr . 8° .
+5-1	132-135	Mit	*[3]	LIT[3]	
+5-2	136-138	e.	*[3]	LIT[3]	
+5-3	139-148	Landkarte	*[3]	LIT[3]	
+5-4	149-151	u.	*[3]	LIT[3]	
+5-5	152-168	Inschriftentafel	*[3]	LIT[3]	
+5-6	169-173	1828	*[3]	LIT[3]	
+5-7	174-176	gr	*[3]	LIT[3]	
+5-8	177-178	.	*[3]	LIT[3]	
+5-9	179-181	8°	*[3]	LIT[3]	
+5-10	182-183	.	*[3]	LIT[3]	
+
+#Text=Fl . Merobaudis Carminium Panegyricique Reliquia es menbr .
+6-1	184-186	Fl	*[4]	PERmentioned[4]	
+6-2	187-188	.	*[4]	PERmentioned[4]	
+6-3	189-199	Merobaudis	*[4]	PERmentioned[4]	
+6-4	200-209	Carminium	*[5]	LIT[5]	
+6-5	210-223	Panegyricique	*[5]	LIT[5]	
+6-6	224-232	Reliquia	*[5]	LIT[5]	
+6-7	233-235	es	*[5]	LIT[5]	
+6-8	236-241	menbr	*[5]	LIT[5]	
+6-9	242-243	.	*[5]	LIT[5]	
+
+#Text=Snagall .
+7-1	244-251	Snagall	*[5]	LIT[5]	
+7-2	252-253	.	*[5]	LIT[5]	
+
+#Text=ed .
+8-1	254-256	ed	*[5]	LIT[5]	
+8-2	257-258	.	*[5]	LIT[5]	
+
+#Text=a B.G .
+9-1	259-260	a	*[5]	LIT[5]	
+9-2	261-264	B.G	*[5]	LIT[5]	
+9-3	265-266	.	*[5]	LIT[5]	
+
+#Text=Nieburio Ed .
+10-1	267-275	Nieburio	*[5]	LIT[5]	
+10-2	276-278	Ed	*[5]	LIT[5]	
+10-3	279-280	.	*[5]	LIT[5]	
+
+#Text=alt .
+11-1	281-284	alt	*[5]	LIT[5]	
+11-2	285-286	.	*[5]	LIT[5]	
+
+#Text=emend .
+12-1	287-292	emend	*[5]	LIT[5]	
+12-2	293-294	.	*[5]	LIT[5]	
+
+#Text=1824 gr . 8° maj .
+13-1	295-299	1824	*[5]	LIT[5]	
+13-2	300-302	gr	*[5]	LIT[5]	
+13-3	303-304	.	*[5]	LIT[5]	
+13-4	305-307	8°	*[5]	LIT[5]	
+13-5	308-311	maj	*[5]	LIT[5]	
+13-6	312-313	.	*[5]	LIT[5]	
+
+#Text=Rheinisches Museum für Jurisprudenz , hsg .
+14-1	314-325	Rheinisches	*[6]	ORGmentioned[6]	
+14-2	326-332	Museum	*[6]	ORGmentioned[6]	
+14-3	333-336	für	*[6]	ORGmentioned[6]	
+14-4	337-349	Jurisprudenz	*[6]	ORGmentioned[6]	
+14-5	350-351	,	_	_	
+14-6	352-355	hsg	_	_	
+14-7	356-357	.	_	_	
+
+#Text=v. F. Blume , J.C .
+15-1	358-360	v.	_	_	
+15-2	361-363	F.	_	_	
+15-3	364-369	Blume	*	PERmentioned	
+15-4	370-371	,	_	_	
+15-5	372-375	J.C	_	_	
+15-6	376-377	.	_	_	
+
+#Text=Hasse , G.F .
+16-1	378-383	Hasse	*	PERmentioned	
+16-2	384-385	,	_	_	
+16-3	386-389	G.F	_	_	
+16-4	390-391	.	_	_	
+
+#Text=Puchta u. Ed .
+17-1	392-398	Puchta	*	PERmentioned	
+17-2	399-401	u.	_	_	
+17-3	402-404	Ed	_	_	
+17-4	405-406	.	_	_	
+
+#Text=Pugge.I-III Jhrg .
+18-1	407-418	Pugge.I-III	*	PERmentioned	
+18-2	419-423	Jhrg	_	_	
+18-3	424-425	.	_	_	
+
+#Text=n. IV .
+19-1	426-428	n.	_	_	
+19-2	429-431	IV	_	_	
+19-3	432-433	.	_	_	
+
+#Text=17 Hft .
+20-1	434-436	17	_	_	
+20-2	437-440	Hft	_	_	
+20-3	441-442	.	_	_	
+
+#Text=1827-30. gr . 8 .
+21-1	443-451	1827-30.	_	_	
+21-2	452-454	gr	_	_	
+21-3	455-456	.	_	_	
+21-4	457-458	8	_	_	
+21-5	459-460	.	_	_	
+
+#Text=Rhein .
+22-1	461-466	Rhein	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+22-2	467-468	.	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+
+#Text=Museum für Philologie , Geschichte u. griech .
+23-1	469-475	Museum	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+23-2	476-479	für	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+23-3	480-490	Philologie	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+23-4	491-492	,	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+23-5	493-503	Geschichte	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+23-6	504-506	u.	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+23-7	507-513	griech	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+23-8	514-515	.	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+
+#Text=Philososophie , hsg .
+24-1	516-529	Philososophie	*[7]|*[8]	LIT[7]|ORGmentioned[8]	
+24-2	530-531	,	*[7]	LIT[7]	
+24-3	532-535	hsg	*[7]	LIT[7]	
+24-4	536-537	.	*[7]	LIT[7]	
+
+#Text=v. B.G .
+25-1	538-540	v.	*[7]	LIT[7]	
+25-2	541-544	B.G	*[7]	LIT[7]	
+25-3	545-546	.	*[7]	LIT[7]	
+
+#Text=Niebuhr u. Ch . A , Brandis .
+26-1	547-554	Niebuhr	*[7]|*[9]	LIT[7]|PERmentioned[9]	
+26-2	555-557	u.	*[7]	LIT[7]	
+26-3	558-560	Ch	*[7]	LIT[7]	
+26-4	561-562	.	*[7]	LIT[7]	
+26-5	563-564	A	*[7]	LIT[7]	
+26-6	565-566	,	*[7]	LIT[7]	
+26-7	567-574	Brandis	*[7]|*[10]	LIT[7]|PERmentioned[10]	
+26-8	575-576	.	*[7]	LIT[7]	
+
+#Text=I-IIl Jhrg .
+27-1	577-582	I-IIl	*[7]	LIT[7]	
+27-2	583-587	Jhrg	*[7]	LIT[7]	
+27-3	588-589	.	*[7]	LIT[7]	
+
+#Text=1827-32. gr.8 .
+28-1	590-598	1827-32.	*[7]	LIT[7]	
+28-2	599-603	gr.8	*[7]	LIT[7]	
+28-3	604-605	.	*[7]	LIT[7]	
+
+#Text=Schorn , Dr .
+29-1	606-612	Schorn	*[7]|*[11]	LIT[7]|PERmentioned[11]	
+29-2	613-614	,	*[7]|*[11]	LIT[7]|PERmentioned[11]	
+29-3	615-617	Dr	*[7]|*[11]	LIT[7]|PERmentioned[11]	
+29-4	618-619	.	*[7]|*[11]	LIT[7]|PERmentioned[11]	
+
+#Text=Wilh. , Geschichte Griechenlands von der Entstehung d. Achäischen und aetol .
+30-1	620-625	Wilh.	*[7]|*[11]	LIT[7]|PERmentioned[11]	
+30-2	626-627	,	*[7]	LIT[7]	
+30-3	628-638	Geschichte	*[7]|*[12]	LIT[7]|LIT[12]	
+30-4	639-652	Griechenlands	*[7]|*[12]	LIT[7]|LIT[12]	
+30-5	653-656	von	*[7]|*[12]	LIT[7]|LIT[12]	
+30-6	657-660	der	*[12]	LIT[12]	
+30-7	661-671	Entstehung	*[12]	LIT[12]	
+30-8	672-674	d.	*[12]	LIT[12]	
+30-9	675-685	Achäischen	*[12]	LIT[12]	
+30-10	686-689	und	*[12]	LIT[12]	
+30-11	690-695	aetol	*[12]	LIT[12]	
+30-12	696-697	.	*[12]	LIT[12]	
+
+#Text=Bundes bis auf die Zerstörung Korinths 1833 .
+31-1	698-704	Bundes	*[12]	LIT[12]	
+31-2	705-708	bis	*[12]	LIT[12]	
+31-3	709-712	auf	*[12]	LIT[12]	
+31-4	713-716	die	*[12]	LIT[12]	
+31-5	717-727	Zerstörung	*[12]	LIT[12]	
+31-6	728-736	Korinths	*[12]|*[13]	LIT[12]|PLACEmentioned[13]	
+31-7	737-741	1833	*[12]	LIT[12]	
+31-8	742-743	.	_	_	
+
+#Text=8° Dictys Cretensis sive Lucii Septimii Ephemeridos Belli Trojani libri VI ad optt .
+32-1	744-746	8°	_	_	
+32-2	747-753	Dictys	*[14]	LIT[14]	
+32-3	754-763	Cretensis	*[14]	LIT[14]	
+32-4	764-768	sive	*[14]	LIT[14]	
+32-5	769-774	Lucii	*[14]	LIT[14]	
+32-6	775-783	Septimii	*[14]	LIT[14]	
+32-7	784-795	Ephemeridos	*[14]	LIT[14]	
+32-8	796-801	Belli	*[14]	LIT[14]	
+32-9	802-809	Trojani	*[14]	LIT[14]	
+32-10	810-815	libri	*[14]	LIT[14]	
+32-11	816-818	VI	*[14]	LIT[14]	
+32-12	819-821	ad	*[14]	LIT[14]	
+32-13	822-826	optt	*[14]	LIT[14]	
+32-14	827-828	.	*[14]	LIT[14]	
+
+#Text=libr .
+33-1	829-833	libr	*[14]	LIT[14]	
+33-2	834-835	.	*[14]	LIT[14]	
+
+#Text=fidem recens. , glossarium Septimiorum , observv .
+34-1	836-841	fidem	*[14]	LIT[14]	
+34-2	842-849	recens.	*[14]	LIT[14]	
+34-3	850-851	,	*[14]	LIT[14]	
+34-4	852-862	glossarium	*[14]	LIT[14]	
+34-5	863-874	Septimiorum	*[14]	LIT[14]	
+34-6	875-876	,	*[14]	LIT[14]	
+34-7	877-884	observv	*[14]	LIT[14]	
+34-8	885-886	.	*[14]	LIT[14]	
+
+#Text=historicas et indices completes adjecit Andreas Dederich.Accad .
+35-1	887-897	historicas	*[14]	LIT[14]	
+35-2	898-900	et	*[14]	LIT[14]	
+35-3	901-908	indices	*[14]	LIT[14]	
+35-4	909-918	completes	*[14]	LIT[14]	
+35-5	919-926	adjecit	*[14]	LIT[14]	
+35-6	927-934	Andreas	*[14]	LIT[14]	
+35-7	935-949	Dederich.Accad	*	PERmentioned	
+35-8	950-951	.	*[15]|*[16]	LIT[15]|LIT[16]	
+
+#Text=Jur .
+36-1	952-955	Jur	*[15]|*[16]	LIT[15]|LIT[16]	
+36-2	956-957	.	*[15]|*[16]	LIT[15]|LIT[16]	
+
+#Text=Perizonii de Dictye Cretensi dissertatio 1833 . 8 maj .
+37-1	958-967	Perizonii	*[15]|*[16]	LIT[15]|LIT[16]	
+37-2	968-970	de	*[15]|*[16]	LIT[15]|LIT[16]	
+37-3	971-977	Dictye	*[15]|*[16]	LIT[15]|LIT[16]	
+37-4	978-986	Cretensi	*[15]|*[16]	LIT[15]|LIT[16]	
+37-5	987-998	dissertatio	*[15]|*[16]	LIT[15]|LIT[16]	
+37-6	999-1003	1833	*[15]|*[16]	LIT[15]|LIT[16]	
+37-7	1004-1005	.	*[15]|*[16]	LIT[15]|LIT[16]	
+37-8	1006-1007	8	*[15]|*[16]	LIT[15]|LIT[16]	
+37-9	1008-1011	maj	*[15]|*[16]	LIT[15]|LIT[16]	
+37-10	1012-1013	.	*[15]|*[16]|*[17]	LIT[15]|LIT[16]|LIT[17]	
+
+#Text=Corpus Scriptorum Historiae Byzantinae.Editio emendatior et copiosior , soncilio B.G .
+38-1	1014-1020	Corpus	*[17]	LIT[17]	
+38-2	1021-1031	Scriptorum	*[17]	LIT[17]	
+38-3	1032-1041	Historiae	*[17]	LIT[17]	
+38-4	1042-1059	Byzantinae.Editio	*[17]	LIT[17]	
+38-5	1060-1070	emendatior	*[17]	LIT[17]	
+38-6	1071-1073	et	*[17]	LIT[17]	
+38-7	1074-1083	copiosior	*[17]	LIT[17]	
+38-8	1084-1085	,	*[17]	LIT[17]	
+38-9	1086-1094	soncilio	*[17]	LIT[17]	
+38-10	1095-1098	B.G	*[17]	LIT[17]	
+38-11	1099-1100	.	*[17]	LIT[17]	
+
+#Text=Niebuhrii C.F .
+39-1	1101-1110	Niebuhrii	*[17]|*[18]	LIT[17]|PERmentioned[18]	
+39-2	1111-1114	C.F	*[17]|*[18]	LIT[17]|PERmentioned[18]	
+39-3	1115-1116	.	*[17]|*[18]	LIT[17]|PERmentioned[18]	
+
+#Text=Instituta , auctoritate Academiae Litterarum Regia Borusicae continuata .
+40-1	1117-1126	Instituta	*[17]	LIT[17]	
+40-2	1127-1128	,	*[17]	LIT[17]	
+40-3	1129-1140	auctoritate	*[17]	LIT[17]	
+40-4	1141-1150	Academiae	*[17]	LIT[17]	
+40-5	1151-1161	Litterarum	*[17]	LIT[17]	
+40-6	1162-1167	Regia	*[17]	LIT[17]	
+40-7	1168-1177	Borusicae	*[17]	LIT[17]	
+40-8	1178-1188	continuata	*[17]	LIT[17]	
+40-9	1189-1190	.	*[17]	LIT[17]	
+
+#Text=8 m ) .
+41-1	1191-1192	8	*[17]	LIT[17]	
+41-2	1193-1194	m	*[17]	LIT[17]	
+41-3	1195-1196	)	*[17]	LIT[17]	
+41-4	1197-1198	.	*[17]	LIT[17]	
+
+#Text=( Alles bisher erschienen , was aus Webers Verlagsanzeige nachgedruckt werden kann . )
+42-1	1199-1200	(	*[17]	LIT[17]	
+42-2	1201-1206	Alles	*[17]	LIT[17]	
+42-3	1207-1213	bisher	_	_	
+42-4	1214-1224	erschienen	_	_	
+42-5	1225-1226	,	_	_	
+42-6	1227-1230	was	_	_	
+42-7	1231-1234	aus	_	_	
+42-8	1235-1241	Webers	*	PERmentioned	
+42-9	1242-1256	Verlagsanzeige	_	_	
+42-10	1257-1269	nachgedruckt	_	_	
+42-11	1270-1276	werden	_	_	
+42-12	1277-1281	kann	_	_	
+42-13	1282-1283	.	_	_	
+42-14	1284-1285	)	_	_	

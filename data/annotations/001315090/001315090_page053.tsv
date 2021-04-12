@@ -1,0 +1,65 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=313 Lepsius an Henzen Berlin , 5. Juli 1872 Es ist recht gut , daß Brunn noch nicht in die Bayerischen Pläne gezogen war \; er braucht daher nichts zurückzunehmen und wird uns nun wohl beistimmen .
+1-1	0-3	313	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	5.	*[1]	DATEletter[1]
+1-8	34-38	Juli	*[1]	DATEletter[1]
+1-9	39-43	1872	*[1]	DATEletter[1]
+1-10	44-46	Es	_	_
+1-11	47-50	ist	_	_
+1-12	51-56	recht	_	_
+1-13	57-60	gut	_	_
+1-14	61-62	,	_	_
+1-15	63-66	daß	_	_
+1-16	67-72	Brunn	*	PERmentioned
+1-17	73-77	noch	_	_
+1-18	78-83	nicht	_	_
+1-19	84-86	in	_	_
+1-20	87-90	die	_	_
+1-21	91-102	Bayerischen	_	_
+1-22	103-108	Pläne	_	_
+1-23	109-116	gezogen	_	_
+1-24	117-120	war	_	_
+1-25	121-122	\;	_	_
+1-26	123-125	er	_	_
+1-27	126-133	braucht	_	_
+1-28	134-139	daher	_	_
+1-29	140-146	nichts	_	_
+1-30	147-161	zurückzunehmen	_	_
+1-31	162-165	und	_	_
+1-32	166-170	wird	_	_
+1-33	171-174	uns	_	_
+1-34	175-178	nun	_	_
+1-35	179-183	wohl	_	_
+1-36	184-194	beistimmen	_	_
+1-37	195-196	.	_	_
+
+#Text=Mit dem Wunsche besten Erfolges der Luftbäder in dem köstlichen Rocca di Papa , und mit herzlichem Gruß Ihr R Lepsius
+2-1	197-200	Mit	_	_
+2-2	201-204	dem	_	_
+2-3	205-212	Wunsche	_	_
+2-4	213-219	besten	_	_
+2-5	220-228	Erfolges	_	_
+2-6	229-232	der	_	_
+2-7	233-242	Luftbäder	_	_
+2-8	243-245	in	_	_
+2-9	246-249	dem	_	_
+2-10	250-260	köstlichen	_	_
+2-11	261-266	Rocca	*[2]	PLACEmentioned[2]
+2-12	267-269	di	*[2]	PLACEmentioned[2]
+2-13	270-274	Papa	*[2]	PLACEmentioned[2]
+2-14	275-276	,	_	_
+2-15	277-280	und	_	_
+2-16	281-284	mit	_	_
+2-17	285-295	herzlichem	_	_
+2-18	296-300	Gruß	_	_
+2-19	301-304	Ihr	_	_
+2-20	305-306	R	*[3]	PERauthor[3]
+2-21	307-314	Lepsius	*[3]	PERauthor[3]

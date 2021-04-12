@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1133 Gerhard an Braun Berlin 5/XII/1835 Hn .
+1-1	0-4	1133	_	_
+1-2	5-12	Gerhard	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-21	Braun	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-39	5/XII/1835	*	DATEletter
+1-7	40-42	Hn	_	_
+1-8	43-44	.	_	_
+
+#Text=Dr. Braun Berlin 5 Dec .
+2-1	45-48	Dr.	_	_
+2-2	49-54	Braun	*	PERaddressee
+2-3	55-61	Berlin	*	PLACEfrom
+2-4	62-63	5	*[7]	DATEletter[7]
+2-5	64-67	Dec	*[7]	DATEletter[7]
+2-6	68-69	.	*[7]	DATEletter[7]
+
+#Text=35 .
+3-1	70-72	35	*[7]	DATEletter[7]
+3-2	73-74	.	_	_
+
+#Text=Ihr Brief 1 .
+4-1	75-78	Ihr	_	_
+4-2	79-84	Brief	_	_
+4-3	85-86	1	_	_
+4-4	87-88	.	_	_
+
+#Text=Fr. gibt diesmal wenig zu antworten .
+5-1	89-92	Fr.	_	_
+5-2	93-97	gibt	_	_
+5-3	98-105	diesmal	_	_
+5-4	106-111	wenig	_	_
+5-5	112-114	zu	_	_
+5-6	115-124	antworten	_	_
+5-7	125-126	.	_	_
+
+#Text=Gerstäckerhüssen Sie mißverstanden haben \; er hatte entschieden auf Ihre Nachrichten über die römischen Sachen serechnet um dieselben zu bestellen , während die napoletanischen langsamer beseitigt wurden .
+6-1	127-143	Gerstäckerhüssen	*	PERmentioned
+6-2	144-147	Sie	_	_
+6-3	148-161	mißverstanden	_	_
+6-4	162-167	haben	_	_
+6-5	168-169	\;	_	_
+6-6	170-172	er	_	_
+6-7	173-178	hatte	_	_
+6-8	179-190	entschieden	_	_
+6-9	191-194	auf	_	_
+6-10	195-199	Ihre	_	_
+6-11	200-211	Nachrichten	_	_
+6-12	212-216	über	_	_
+6-13	217-220	die	_	_
+6-14	221-230	römischen	_	_
+6-15	231-237	Sachen	_	_
+6-16	238-247	serechnet	_	_
+6-17	248-250	um	_	_
+6-18	251-260	dieselben	_	_
+6-19	261-263	zu	_	_
+6-20	264-273	bestellen	_	_
+6-21	274-275	,	_	_
+6-22	276-283	während	_	_
+6-23	284-287	die	_	_
+6-24	288-303	napoletanischen	_	_
+6-25	304-313	langsamer	_	_
+6-26	314-323	beseitigt	_	_
+6-27	324-330	wurden	_	_
+6-28	331-332	.	_	_
+
+#Text=Sie sind ihm also etliche Zeilen Auskunft und Entschuldigung schuldig .
+7-1	333-336	Sie	_	_
+7-2	337-341	sind	_	_
+7-3	342-345	ihm	_	_
+7-4	346-350	also	_	_
+7-5	351-358	etliche	_	_
+7-6	359-365	Zeilen	_	_
+7-7	366-374	Auskunft	_	_
+7-8	375-378	und	_	_
+7-9	379-393	Entschuldigung	_	_
+7-10	394-402	schuldig	_	_
+7-11	403-404	.	_	_
+
+#Text=Ich umkleide eine Einlage an Vollard , welche Sie mit den in lezter Sendung Ihnen zu meiner Disposition nit tem Ex .
+8-1	405-408	Ich	_	_
+8-2	409-417	umkleide	_	_
+8-3	418-422	eine	_	_
+8-4	423-430	Einlage	_	_
+8-5	431-433	an	_	_
+8-6	434-441	Vollard	*	PERmentioned
+8-7	442-443	,	_	_
+8-8	444-450	welche	_	_
+8-9	451-454	Sie	_	_
+8-10	455-458	mit	_	_
+8-11	459-462	den	_	_
+8-12	463-465	in	_	_
+8-13	466-472	lezter	_	_
+8-14	473-480	Sendung	_	_
+8-15	481-486	Ihnen	_	_
+8-16	487-489	zu	_	_
+8-17	490-496	meiner	_	_
+8-18	497-508	Disposition	_	_
+8-19	509-512	nit	_	_
+8-20	513-516	tem	_	_
+8-21	517-519	Ex	_	_
+8-22	520-521	.	_	_
+
+#Text=Goethes Gedichte alNein Geschenk für M.me Vollard begleiten und am 21 Dec .
+9-1	522-529	Goethes	*	PERmentioned
+9-2	530-538	Gedichte	_	_
+9-3	539-545	alNein	_	_
+9-4	546-554	Geschenk	_	_
+9-5	555-558	für	_	_
+9-6	559-563	M.me	_	_
+9-7	564-571	Vollard	*	PERmentioned
+9-8	572-581	begleiten	_	_
+9-9	582-585	und	_	_
+9-10	586-588	am	_	_
+9-11	589-591	21	*[12]	DATEmentioned[12]
+9-12	592-595	Dec	*[12]	DATEmentioned[12]
+9-13	596-597	.	*[12]	DATEmentioned[12]
+
+#Text=ins Haus senden mögen .
+10-1	598-601	ins	_	_
+10-2	602-606	Haus	_	_
+10-3	607-613	senden	_	_
+10-4	614-619	mögen	_	_
+10-5	620-621	.	_	_
+
+#Text=Ihre lezte Sendung für Imt .
+11-1	622-626	Ihre	_	_
+11-2	627-632	lezte	_	_
+11-3	633-640	Sendung	_	_
+11-4	641-644	für	_	_
+11-5	645-648	Imt	_	_
+11-6	649-650	.	_	_
+
+#Text=Bl . scheint mir aber nicht mehr zu enthalten als was ich seit mehr als einem Monat im Bull .
+12-1	651-653	Bl	_	_
+12-2	654-655	.	_	_
+12-3	656-663	scheint	_	_
+12-4	664-667	mir	_	_
+12-5	668-672	aber	_	_
+12-6	673-678	nicht	_	_
+12-7	679-683	mehr	_	_
+12-8	684-686	zu	_	_
+12-9	687-696	enthalten	_	_
+12-10	697-700	als	_	_
+12-11	701-704	was	_	_
+12-12	705-708	ich	_	_
+12-13	709-713	seit	_	_
+12-14	714-718	mehr	_	_
+12-15	719-722	als	_	_
+12-16	723-728	einem	_	_
+12-17	729-734	Monat	_	_
+12-18	735-737	im	_	_
+12-19	738-742	Bull	_	_
+12-20	743-744	.	_	_
+
+#Text=besitze und nur dasselbe , da es auch schon alt war , sofort auszog .
+13-1	745-752	besitze	_	_
+13-2	753-756	und	_	_
+13-3	757-760	nur	_	_
+13-4	761-769	dasselbe	_	_
+13-5	770-771	,	_	_
+13-6	772-774	da	_	_
+13-7	775-777	es	_	_
+13-8	778-782	auch	_	_
+13-9	783-788	schon	_	_
+13-10	789-792	alt	_	_
+13-11	793-796	war	_	_
+13-12	797-798	,	_	_
+13-13	799-805	sofort	_	_
+13-14	806-812	auszog	_	_
+13-15	813-814	.	_	_
+
+#Text=Jedenfalls wird es unserm Freund Ooveme — für das Kunstblatt willkommen seyn , welches jezt mit Neuigkeiten von Roß gespickt ( neben dem auch die Krameriana als alte Waaren erscheinen ) anhöste ned wichtig ist .
+14-1	815-825	Jedenfalls	_	_
+14-2	826-830	wird	_	_
+14-3	831-833	es	_	_
+14-4	834-840	unserm	_	_
+14-5	841-847	Freund	_	_
+14-6	848-854	Ooveme	_	_
+14-7	855-856	—	_	_
+14-8	857-860	für	_	_
+14-9	861-864	das	_	_
+14-10	865-875	Kunstblatt	_	_
+14-11	876-886	willkommen	_	_
+14-12	887-891	seyn	_	_
+14-13	892-893	,	_	_
+14-14	894-901	welches	_	_
+14-15	902-906	jezt	_	_
+14-16	907-910	mit	_	_
+14-17	911-922	Neuigkeiten	_	_
+14-18	923-926	von	_	_
+14-19	927-930	Roß	*	PERmentioned
+14-20	931-939	gespickt	_	_
+14-21	940-941	(	_	_
+14-22	942-947	neben	_	_
+14-23	948-951	dem	_	_
+14-24	952-956	auch	_	_
+14-25	957-960	die	_	_
+14-26	961-971	Krameriana	*	PERmentioned
+14-27	972-975	als	_	_
+14-28	976-980	alte	_	_
+14-29	981-987	Waaren	_	_
+14-30	988-998	erscheinen	_	_
+14-31	999-1000	)	_	_
+14-32	1001-1008	anhöste	_	_
+14-33	1009-1012	ned	_	_
+14-34	1013-1020	wichtig	_	_
+14-35	1021-1024	ist	_	_
+14-36	1025-1026	.	_	_
+
+#Text=Es kommt doch wol nach Rom ?
+15-1	1027-1029	Es	_	_
+15-2	1030-1035	kommt	_	_
+15-3	1036-1040	doch	_	_
+15-4	1041-1044	wol	_	_
+15-5	1045-1049	nach	_	_
+15-6	1050-1053	Rom	*	PLACEmentioned
+15-7	1054-1055	?	_	_
+
+#Text=Ritschl betreffend so müssen Sie mir eine ostensible Exposition der Sache schicken \; einer solchen be-
+16-1	1056-1063	Ritschl	*	PERmentioned
+16-2	1064-1074	betreffend	_	_
+16-3	1075-1077	so	_	_
+16-4	1078-1084	müssen	_	_
+16-5	1085-1088	Sie	_	_
+16-6	1089-1092	mir	_	_
+16-7	1093-1097	eine	_	_
+16-8	1098-1108	ostensible	_	_
+16-9	1109-1119	Exposition	_	_
+16-10	1120-1123	der	_	_
+16-11	1124-1129	Sache	_	_
+16-12	1130-1138	schicken	_	_
+16-13	1139-1140	\;	_	_
+16-14	1141-1146	einer	_	_
+16-15	1147-1154	solchen	_	_
+16-16	1155-1158	be-	_	_

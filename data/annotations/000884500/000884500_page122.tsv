@@ -1,0 +1,179 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 7. Juni 1838 nun verreist \; doch ist das Bild , wenn Sie das Geld daran wenden wollen , auch in seiner Abwesenheit zu erlangen und würde ich dann die Beschleunigung vorziehen , auch um mit dem Mann selbst nicht mehr zu thun zu haben .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	7.	*[4]	DATEletter[4]
+1-7	29-33	Juni	*[4]	DATEletter[4]
+1-8	34-38	1838	*[4]	DATEletter[4]
+1-9	39-42	nun	_	_
+1-10	43-51	verreist	_	_
+1-11	52-53	\;	_	_
+1-12	54-58	doch	_	_
+1-13	59-62	ist	_	_
+1-14	63-66	das	_	_
+1-15	67-71	Bild	_	_
+1-16	72-73	,	_	_
+1-17	74-78	wenn	_	_
+1-18	79-82	Sie	_	_
+1-19	83-86	das	_	_
+1-20	87-91	Geld	_	_
+1-21	92-97	daran	_	_
+1-22	98-104	wenden	_	_
+1-23	105-111	wollen	_	_
+1-24	112-113	,	_	_
+1-25	114-118	auch	_	_
+1-26	119-121	in	_	_
+1-27	122-128	seiner	_	_
+1-28	129-140	Abwesenheit	_	_
+1-29	141-143	zu	_	_
+1-30	144-152	erlangen	_	_
+1-31	153-156	und	_	_
+1-32	157-162	würde	_	_
+1-33	163-166	ich	_	_
+1-34	167-171	dann	_	_
+1-35	172-175	die	_	_
+1-36	176-190	Beschleunigung	_	_
+1-37	191-200	vorziehen	_	_
+1-38	201-202	,	_	_
+1-39	203-207	auch	_	_
+1-40	208-210	um	_	_
+1-41	211-214	mit	_	_
+1-42	215-218	dem	_	_
+1-43	219-223	Mann	_	_
+1-44	224-230	selbst	_	_
+1-45	231-236	nicht	_	_
+1-46	237-241	mehr	_	_
+1-47	242-244	zu	_	_
+1-48	245-249	thun	_	_
+1-49	250-252	zu	_	_
+1-50	253-258	haben	_	_
+1-51	259-260	.	_	_
+
+#Text=Beantworten Sie also umgehend ob gezahlt werden soll \; mit Emballage und neuer Fracht kostet Ihnen diese Angelegenheit eher über als unter 30 rt .
+2-1	261-272	Beantworten	_	_
+2-2	273-276	Sie	_	_
+2-3	277-281	also	_	_
+2-4	282-290	umgehend	_	_
+2-5	291-293	ob	_	_
+2-6	294-301	gezahlt	_	_
+2-7	302-308	werden	_	_
+2-8	309-313	soll	_	_
+2-9	314-315	\;	_	_
+2-10	316-319	mit	_	_
+2-11	320-329	Emballage	_	_
+2-12	330-333	und	_	_
+2-13	334-339	neuer	_	_
+2-14	340-346	Fracht	_	_
+2-15	347-353	kostet	_	_
+2-16	354-359	Ihnen	_	_
+2-17	360-365	diese	_	_
+2-18	366-379	Angelegenheit	_	_
+2-19	380-384	eher	_	_
+2-20	385-389	über	_	_
+2-21	390-393	als	_	_
+2-22	394-399	unter	_	_
+2-23	400-402	30	_	_
+2-24	403-405	rt	_	_
+2-25	406-407	.	_	_
+
+#Text=Ich bat Sie einmal gelegentlich für Berlin und Bonn 2 Ex .
+3-1	408-411	Ich	_	_
+3-2	412-415	bat	_	_
+3-3	416-419	Sie	_	_
+3-4	420-426	einmal	_	_
+3-5	427-439	gelegentlich	_	_
+3-6	440-443	für	_	_
+3-7	444-450	Berlin	*	PLACEmentioned
+3-8	451-454	und	_	_
+3-9	455-459	Bonn	*	PLACEmentioned
+3-10	460-461	2	_	_
+3-11	462-464	Ex	_	_
+3-12	465-466	.	_	_
+
+#Text=des Mus . Kirckerianum zu verschaffen .
+4-1	467-470	des	_	_
+4-2	471-474	Mus	*[7]	ORGmentioned[7]
+4-3	475-476	.	*[7]	ORGmentioned[7]
+4-4	477-489	Kirckerianum	*[7]	ORGmentioned[7]
+4-5	490-492	zu	_	_
+4-6	493-504	verschaffen	_	_
+4-7	505-506	.	_	_
+
+#Text=Für Berlin wird die Bitte überflüssig durch eine nahe Auktion .
+5-1	507-510	Für	_	_
+5-2	511-517	Berlin	*	PLACEmentioned
+5-3	518-522	wird	_	_
+5-4	523-526	die	_	_
+5-5	527-532	Bitte	_	_
+5-6	533-544	überflüssig	_	_
+5-7	545-550	durch	_	_
+5-8	551-555	eine	_	_
+5-9	556-560	nahe	_	_
+5-10	561-568	Auktion	_	_
+5-11	569-570	.	_	_
+
+#Text=Liphart fragt fortwährend nach seinem Gemmenkasten \; ich weiß ihm nichts zu sagen .
+6-1	571-578	Liphart	*	PERmentioned
+6-2	579-584	fragt	_	_
+6-3	585-596	fortwährend	_	_
+6-4	597-601	nach	_	_
+6-5	602-608	seinem	_	_
+6-6	609-621	Gemmenkasten	_	_
+6-7	622-623	\;	_	_
+6-8	624-627	ich	_	_
+6-9	628-632	weiß	_	_
+6-10	633-636	ihm	_	_
+6-11	637-643	nichts	_	_
+6-12	644-646	zu	_	_
+6-13	647-652	sagen	_	_
+6-14	653-654	.	_	_
+
+#Text=Ihr Gerhard Ihr Einfall den 10 jährigen Mangel eines bedeutsamen Instituts Siegels durch Anwendung des alten Appolonischen mit Zufügung des Instituto zu ersetzen , ist ganz praktisch und mögen Sie mir gelegentlich auch eine Glaspaste des von Ihnen rennovierten Siegels zustellen ,
+7-1	655-658	Ihr	_	_
+7-2	659-666	Gerhard	*	PERauthor
+7-3	667-670	Ihr	_	_
+7-4	671-678	Einfall	_	_
+7-5	679-682	den	_	_
+7-6	683-685	10	_	_
+7-7	686-694	jährigen	_	_
+7-8	695-701	Mangel	_	_
+7-9	702-707	eines	_	_
+7-10	708-719	bedeutsamen	_	_
+7-11	720-729	Instituts	*	ORGmentioned
+7-12	730-737	Siegels	_	_
+7-13	738-743	durch	_	_
+7-14	744-753	Anwendung	_	_
+7-15	754-757	des	_	_
+7-16	758-763	alten	_	_
+7-17	764-777	Appolonischen	*	PERmentioned
+7-18	778-781	mit	_	_
+7-19	782-790	Zufügung	_	_
+7-20	791-794	des	_	_
+7-21	795-804	Instituto	_	_
+7-22	805-807	zu	_	_
+7-23	808-816	ersetzen	_	_
+7-24	817-818	,	_	_
+7-25	819-822	ist	_	_
+7-26	823-827	ganz	_	_
+7-27	828-837	praktisch	_	_
+7-28	838-841	und	_	_
+7-29	842-847	mögen	_	_
+7-30	848-851	Sie	_	_
+7-31	852-855	mir	_	_
+7-32	856-868	gelegentlich	_	_
+7-33	869-873	auch	_	_
+7-34	874-878	eine	_	_
+7-35	879-888	Glaspaste	_	_
+7-36	889-892	des	_	_
+7-37	893-896	von	_	_
+7-38	897-902	Ihnen	_	_
+7-39	903-915	rennovierten	_	_
+7-40	916-923	Siegels	_	_
+7-41	924-933	zustellen	_	_
+7-42	934-935	,	_	_

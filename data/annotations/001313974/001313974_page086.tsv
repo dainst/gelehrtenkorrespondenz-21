@@ -1,0 +1,79 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 8 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	8	*[3]	DATEletter[3]
+1-7	25-26	.	*[3]	DATEletter[3]
+
+#Text=August 1866 der Blitz reisen , bitte ich Sie um sofortige Antwort .
+2-1	27-33	August	*[3]	DATEletter[3]
+2-2	34-38	1866	*[3]	DATEletter[3]
+2-3	39-42	der	_	_
+2-4	43-48	Blitz	_	_
+2-5	49-55	reisen	_	_
+2-6	56-57	,	_	_
+2-7	58-63	bitte	_	_
+2-8	64-67	ich	_	_
+2-9	68-71	Sie	_	_
+2-10	72-74	um	_	_
+2-11	75-84	sofortige	_	_
+2-12	85-92	Antwort	_	_
+2-13	93-94	.	_	_
+
+#Text=Also , ausgenommen Gerhard , bitte ich Sie um strengste Discretion .
+3-1	95-99	Also	_	_
+3-2	100-101	,	_	_
+3-3	102-113	ausgenommen	_	_
+3-4	114-121	Gerhard	*	PERmentioned
+3-5	122-123	,	_	_
+3-6	124-129	bitte	_	_
+3-7	130-133	ich	_	_
+3-8	134-137	Sie	_	_
+3-9	138-140	um	_	_
+3-10	141-150	strengste	_	_
+3-11	151-161	Discretion	_	_
+3-12	162-163	.	_	_
+
+#Text=Das Impromptü thut mir leid .
+4-1	164-167	Das	_	_
+4-2	168-177	Impromptü	_	_
+4-3	178-182	thut	_	_
+4-4	183-186	mir	_	_
+4-5	187-191	leid	_	_
+4-6	192-193	.	_	_
+
+#Text=Doch können Sie überzeugt sein , daß der Geschäftsgang durchaus nicht darunter leidet .
+5-1	194-198	Doch	_	_
+5-2	199-205	können	_	_
+5-3	206-209	Sie	_	_
+5-4	210-219	überzeugt	_	_
+5-5	220-224	sein	_	_
+5-6	225-226	,	_	_
+5-7	227-230	daß	_	_
+5-8	231-234	der	_	_
+5-9	235-248	Geschäftsgang	_	_
+5-10	249-257	durchaus	_	_
+5-11	258-263	nicht	_	_
+5-12	264-272	darunter	_	_
+5-13	273-279	leidet	_	_
+5-14	280-281	.	_	_
+
+#Text=Mit herzlichen Grüßen an die Frau Professorin Ihr ergebener W. Helbig .
+6-1	282-285	Mit	_	_
+6-2	286-296	herzlichen	_	_
+6-3	297-303	Grüßen	_	_
+6-4	304-306	an	_	_
+6-5	307-310	die	_	_
+6-6	311-315	Frau	_	_
+6-7	316-327	Professorin	_	_
+6-8	328-331	Ihr	_	_
+6-9	332-341	ergebener	_	_
+6-10	342-344	W.	*[4]	PERauthor[4]
+6-11	345-351	Helbig	*[4]	PERauthor[4]
+6-12	352-353	.	_	_

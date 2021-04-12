@@ -1,0 +1,206 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=900 Braun an Gerhard Rom , 4. Dezember 1838 aber wie 's weiter gehen soll ?
+1-1	0-3	900	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	4.	*[4]	DATEletter[4]
+1-8	30-38	Dezember	*[4]	DATEletter[4]
+1-9	39-43	1838	*[4]	DATEletter[4]
+1-10	44-48	aber	_	_
+1-11	49-52	wie	*[8]	PERmentioned[8]
+1-12	53-55	's	*[8]	PERmentioned[8]
+1-13	56-62	weiter	_	_
+1-14	63-68	gehen	_	_
+1-15	69-73	soll	_	_
+1-16	74-75	?	_	_
+
+#Text=weiß ich nicht .
+2-1	76-80	weiß	_	_
+2-2	81-84	ich	_	_
+2-3	85-90	nicht	_	_
+2-4	91-92	.	_	_
+
+#Text=Unterdessen wollen wir thuen , was sich im Augenblick thuen 1äßt , .
+3-1	93-104	Unterdessen	_	_
+3-2	105-111	wollen	_	_
+3-3	112-115	wir	_	_
+3-4	116-121	thuen	_	_
+3-5	122-123	,	_	_
+3-6	124-127	was	_	_
+3-7	128-132	sich	_	_
+3-8	133-135	im	_	_
+3-9	136-146	Augenblick	_	_
+3-10	147-152	thuen	_	_
+3-11	153-157	1äßt	_	_
+3-12	158-159	,	_	_
+3-13	160-161	.	_	_
+
+#Text=Lipharts Kiste habe ich Ihnen bei ihrer Absendung geschäftsmäßig angezeigt .
+4-1	162-170	Lipharts	*	PERmentioned
+4-2	171-176	Kiste	_	_
+4-3	177-181	habe	_	_
+4-4	182-185	ich	_	_
+4-5	186-191	Ihnen	_	_
+4-6	192-195	bei	_	_
+4-7	196-201	ihrer	_	_
+4-8	202-211	Absendung	_	_
+4-9	212-226	geschäftsmäßig	_	_
+4-10	227-236	angezeigt	_	_
+4-11	237-238	.	_	_
+
+#Text=Ein Avisbrief hielt ich daher des Portoluxus wegen für überflüssig .
+5-1	239-242	Ein	_	_
+5-2	243-252	Avisbrief	_	_
+5-3	253-258	hielt	_	_
+5-4	259-262	ich	_	_
+5-5	263-268	daher	_	_
+5-6	269-272	des	_	_
+5-7	273-283	Portoluxus	_	_
+5-8	284-289	wegen	_	_
+5-9	290-293	für	_	_
+5-10	294-305	überflüssig	_	_
+5-11	306-307	.	_	_
+
+#Text=Raoul Rochette hat viel Vasen publicirt und es war nicht klug ihn nicht zu erwähnen .
+6-1	308-313	Raoul	*[7]	PERmentioned[7]
+6-2	314-322	Rochette	*[7]	PERmentioned[7]
+6-3	323-326	hat	_	_
+6-4	327-331	viel	_	_
+6-5	332-337	Vasen	*	OBJ
+6-6	338-347	publicirt	_	_
+6-7	348-351	und	_	_
+6-8	352-354	es	_	_
+6-9	355-358	war	_	_
+6-10	359-364	nicht	_	_
+6-11	365-369	klug	_	_
+6-12	370-373	ihn	_	_
+6-13	374-379	nicht	_	_
+6-14	380-382	zu	_	_
+6-15	383-391	erwähnen	_	_
+6-16	392-393	.	_	_
+
+#Text=Er ist Ihnen übrigens wohlgesinnt .
+7-1	394-396	Er	_	_
+7-2	397-400	ist	_	_
+7-3	401-406	Ihnen	_	_
+7-4	407-415	übrigens	_	_
+7-5	416-427	wohlgesinnt	_	_
+7-6	428-429	.	_	_
+
+#Text=Gegen mich ist er keineswegsobligeant gewesen .
+8-1	430-435	Gegen	_	_
+8-2	436-440	mich	_	_
+8-3	441-444	ist	_	_
+8-4	445-447	er	_	_
+8-5	448-467	keineswegsobligeant	_	_
+8-6	468-475	gewesen	_	_
+8-7	476-477	.	_	_
+
+#Text=Inghirani sah ich , ebenso Millingen und Reumont , auch Migliorini .
+9-1	478-487	Inghirani	*	PERmentioned
+9-2	488-491	sah	_	_
+9-3	492-495	ich	_	_
+9-4	496-497	,	_	_
+9-5	498-504	ebenso	_	_
+9-6	505-514	Millingen	*	PERmentioned
+9-7	515-518	und	_	_
+9-8	519-526	Reumont	*	PERmentioned
+9-9	527-528	,	_	_
+9-10	529-533	auch	_	_
+9-11	534-544	Migliorini	*	PERmentioned
+9-12	545-546	.	_	_
+
+#Text=Letzterer ist doch ein sehr verdienter Mann und hat wirklich Geist .
+10-1	547-556	Letzterer	_	_
+10-2	557-560	ist	_	_
+10-3	561-565	doch	_	_
+10-4	566-569	ein	_	_
+10-5	570-574	sehr	_	_
+10-6	575-585	verdienter	_	_
+10-7	586-590	Mann	_	_
+10-8	591-594	und	_	_
+10-9	595-598	hat	_	_
+10-10	599-607	wirklich	_	_
+10-11	608-613	Geist	_	_
+10-12	614-615	.	_	_
+
+#Text=- Pizzatis Sammlung hoffe ich noch heute zu sehen .
+11-1	616-617	-	_	_
+11-2	618-626	Pizzatis	*	PERmentioned
+11-3	627-635	Sammlung	_	_
+11-4	636-641	hoffe	_	_
+11-5	642-645	ich	_	_
+11-6	646-650	noch	_	_
+11-7	651-656	heute	_	_
+11-8	657-659	zu	_	_
+11-9	660-665	sehen	_	_
+11-10	666-667	.	_	_
+
+#Text=In Bezug auf Millingen , dem ich Ihren Brief noch nicht übergeben , mache ich Sie im Voraus aufmerksam , daß es sich von Seiten Panofka-De Wittes um die Anerkennung der von ihm in baarem Gelde geleisteten Associationszahlungen handelt , über die er Quittungen zu besitzen versichert .
+12-1	668-670	In	_	_
+12-2	671-676	Bezug	_	_
+12-3	677-680	auf	_	_
+12-4	681-690	Millingen	*	PERmentioned
+12-5	691-692	,	_	_
+12-6	693-696	dem	_	_
+12-7	697-700	ich	_	_
+12-8	701-706	Ihren	_	_
+12-9	707-712	Brief	_	_
+12-10	713-717	noch	_	_
+12-11	718-723	nicht	_	_
+12-12	724-733	übergeben	_	_
+12-13	734-735	,	_	_
+12-14	736-741	mache	_	_
+12-15	742-745	ich	_	_
+12-16	746-749	Sie	_	_
+12-17	750-752	im	_	_
+12-18	753-759	Voraus	_	_
+12-19	760-770	aufmerksam	_	_
+12-20	771-772	,	_	_
+12-21	773-776	daß	_	_
+12-22	777-779	es	_	_
+12-23	780-784	sich	_	_
+12-24	785-788	von	_	_
+12-25	789-795	Seiten	_	_
+12-26	796-806	Panofka-De	*	PERmentioned
+12-27	807-813	Wittes	*	PERmentioned
+12-28	814-816	um	_	_
+12-29	817-820	die	_	_
+12-30	821-832	Anerkennung	_	_
+12-31	833-836	der	_	_
+12-32	837-840	von	_	_
+12-33	841-844	ihm	_	_
+12-34	845-847	in	_	_
+12-35	848-854	baarem	_	_
+12-36	855-860	Gelde	_	_
+12-37	861-872	geleisteten	_	_
+12-38	873-894	Associationszahlungen	_	_
+12-39	895-902	handelt	_	_
+12-40	903-904	,	_	_
+12-41	905-909	über	_	_
+12-42	910-913	die	_	_
+12-43	914-916	er	_	_
+12-44	917-927	Quittungen	_	_
+12-45	928-930	zu	_	_
+12-46	931-939	besitzen	_	_
+12-47	940-950	versichert	_	_
+12-48	951-952	.	_	_
+
+#Text=Mit nächstem ein Mehreres .
+13-1	953-956	Mit	_	_
+13-2	957-965	nächstem	_	_
+13-3	966-969	ein	_	_
+13-4	970-978	Mehreres	_	_
+13-5	979-980	.	_	_
+
+#Text=Ihr treuer EBraun .
+14-1	981-984	Ihr	_	_
+14-2	985-991	treuer	_	_
+14-3	992-998	EBraun	*	PERauthor
+14-4	999-1000	.	_	_

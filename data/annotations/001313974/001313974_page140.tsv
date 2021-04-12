@@ -1,0 +1,224 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=302 Helbig an Henzen Zärich , 3 .
+1-1	0-3	302	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zärich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	3	_	_
+1-8	32-33	.	_	_
+
+#Text=August 1870 H g . 7/8 70 r . 13/8 70 Zürich , Fluntern , Plattenwiese per Adresse von Madame Cherbouliez , li 3 .
+2-1	34-40	August	*[1]	DATEletter[1]
+2-2	41-45	1870	*[1]	DATEletter[1]
+2-3	46-47	H	_	_
+2-4	48-49	g	_	_
+2-5	50-51	.	_	_
+2-6	52-55	7/8	*[2]	DATErecieved[2]
+2-7	56-58	70	*[2]	DATErecieved[2]
+2-8	59-60	r	_	_
+2-9	61-62	.	_	_
+2-10	63-67	13/8	*[3]	DATEanswered[3]
+2-11	68-70	70	*[3]	DATEanswered[3]
+2-12	71-77	Zürich	*	PLACEfrom
+2-13	78-79	,	_	_
+2-14	80-88	Fluntern	_	_
+2-15	89-90	,	_	_
+2-16	91-103	Plattenwiese	_	_
+2-17	104-107	per	_	_
+2-18	108-115	Adresse	_	_
+2-19	116-119	von	_	_
+2-20	120-126	Madame	*[4]	PERmentioned[4]
+2-21	127-138	Cherbouliez	*[4]	PERmentioned[4]
+2-22	139-140	,	_	_
+2-23	141-143	li	_	_
+2-24	144-145	3	*[5]	DATEletter[5]
+2-25	146-147	.	*[5]	DATEletter[5]
+
+#Text=August 1870 Lieber Herr Professor Seit vier Tagen bin ich in Zürich .
+3-1	148-154	August	*[5]	DATEletter[5]
+3-2	155-159	1870	*[5]	DATEletter[5]
+3-3	160-166	Lieber	_	_
+3-4	167-171	Herr	_	_
+3-5	172-181	Professor	_	_
+3-6	182-186	Seit	_	_
+3-7	187-191	vier	_	_
+3-8	192-197	Tagen	_	_
+3-9	198-201	bin	_	_
+3-10	202-205	ich	_	_
+3-11	206-208	in	_	_
+3-12	209-215	Zürich	*	PLACEmentioned
+3-13	216-217	.	_	_
+
+#Text=Meine Frau habe ich in leidlichem Befinden , Lili sehr wohl angetroffen .
+4-1	218-223	Meine	_	_
+4-2	224-228	Frau	_	_
+4-3	229-233	habe	_	_
+4-4	234-237	ich	_	_
+4-5	238-240	in	_	_
+4-6	241-251	leidlichem	_	_
+4-7	252-260	Befinden	_	_
+4-8	261-262	,	_	_
+4-9	263-267	Lili	*	PERmentioned
+4-10	268-272	sehr	_	_
+4-11	273-277	wohl	_	_
+4-12	278-289	angetroffen	_	_
+4-13	290-291	.	_	_
+
+#Text=Nach langem Unherirren ist es mir endlich gestern gelungen , allerdings für einen enormen Preis eine zweckentsprechende Wohnung zu finden .
+5-1	292-296	Nach	_	_
+5-2	297-303	langem	_	_
+5-3	304-314	Unherirren	_	_
+5-4	315-318	ist	_	_
+5-5	319-321	es	_	_
+5-6	322-325	mir	_	_
+5-7	326-333	endlich	_	_
+5-8	334-341	gestern	_	_
+5-9	342-350	gelungen	_	_
+5-10	351-352	,	_	_
+5-11	353-363	allerdings	_	_
+5-12	364-367	für	_	_
+5-13	368-373	einen	_	_
+5-14	374-381	enormen	_	_
+5-15	382-387	Preis	_	_
+5-16	388-392	eine	_	_
+5-17	393-411	zweckentsprechende	_	_
+5-18	412-419	Wohnung	_	_
+5-19	420-422	zu	_	_
+5-20	423-429	finden	_	_
+5-21	430-431	.	_	_
+
+#Text=Die Stadt ist von Flüchtlingen aus den süddeutschen Bädern vollständig vollgepfropft , das Leben unendlich theuer .
+6-1	432-435	Die	_	_
+6-2	436-441	Stadt	_	_
+6-3	442-445	ist	_	_
+6-4	446-449	von	_	_
+6-5	450-462	Flüchtlingen	_	_
+6-6	463-466	aus	_	_
+6-7	467-470	den	_	_
+6-8	471-483	süddeutschen	_	_
+6-9	484-490	Bädern	_	_
+6-10	491-502	vollständig	_	_
+6-11	503-516	vollgepfropft	_	_
+6-12	517-518	,	_	_
+6-13	519-522	das	_	_
+6-14	523-528	Leben	_	_
+6-15	529-538	unendlich	_	_
+6-16	539-545	theuer	_	_
+6-17	546-547	.	_	_
+
+#Text=Meine neue Adresse steht oben .
+7-1	548-553	Meine	_	_
+7-2	554-558	neue	_	_
+7-3	559-566	Adresse	_	_
+7-4	567-572	steht	_	_
+7-5	573-577	oben	_	_
+7-6	578-579	.	_	_
+
+#Text=In Italien habe ich mich nur in Arezzo und Parma aufgehalten , in Arezzo leider vergeblich , da der Besitzer der neugefundenen Antiquitäten mein Eintreffen eher erwartet hatte und zwei Tage vorher in das Seebad abgereist war .
+8-1	580-582	In	_	_
+8-2	583-590	Italien	*	PLACEmentioned
+8-3	591-595	habe	_	_
+8-4	596-599	ich	_	_
+8-5	600-604	mich	_	_
+8-6	605-608	nur	_	_
+8-7	609-611	in	_	_
+8-8	612-618	Arezzo	*	PLACEmentioned
+8-9	619-622	und	_	_
+8-10	623-628	Parma	*	PLACEmentioned
+8-11	629-640	aufgehalten	_	_
+8-12	641-642	,	_	_
+8-13	643-645	in	_	_
+8-14	646-652	Arezzo	*	PLACEmentioned
+8-15	653-659	leider	_	_
+8-16	660-670	vergeblich	_	_
+8-17	671-672	,	_	_
+8-18	673-675	da	_	_
+8-19	676-679	der	_	_
+8-20	680-688	Besitzer	_	_
+8-21	689-692	der	_	_
+8-22	693-706	neugefundenen	_	_
+8-23	707-719	Antiquitäten	_	_
+8-24	720-724	mein	_	_
+8-25	725-735	Eintreffen	_	_
+8-26	736-740	eher	_	_
+8-27	741-749	erwartet	_	_
+8-28	750-755	hatte	_	_
+8-29	756-759	und	_	_
+8-30	760-764	zwei	_	_
+8-31	765-769	Tage	_	_
+8-32	770-776	vorher	_	_
+8-33	777-779	in	_	_
+8-34	780-783	das	_	_
+8-35	784-790	Seebad	_	_
+8-36	791-800	abgereist	_	_
+8-37	801-804	war	_	_
+8-38	805-806	.	_	_
+
+#Text=Stimmung überall preußisch , namentlich bei Officieren , die recht eigentlich Wuth gegen Frankreich schnauben .
+9-1	807-815	Stimmung	_	_
+9-2	816-823	überall	_	_
+9-3	824-833	preußisch	_	_
+9-4	834-835	,	_	_
+9-5	836-846	namentlich	_	_
+9-6	847-850	bei	_	_
+9-7	851-861	Officieren	_	_
+9-8	862-863	,	_	_
+9-9	864-867	die	_	_
+9-10	868-873	recht	_	_
+9-11	874-884	eigentlich	_	_
+9-12	885-889	Wuth	_	_
+9-13	890-895	gegen	_	_
+9-14	896-906	Frankreich	*	PLACEmentioned
+9-15	907-916	schnauben	_	_
+9-16	917-918	.	_	_
+
+#Text=Unter solchen Umständen kann es die Regierung - was auch bei dem jetzigen Ministerium nicht zu befürchten ist - unmöglich wagen , eine Allianz mit Frankreich einzugehen .
+10-1	919-924	Unter	_	_
+10-2	925-932	solchen	_	_
+10-3	933-942	Umständen	_	_
+10-4	943-947	kann	_	_
+10-5	948-950	es	_	_
+10-6	951-954	die	_	_
+10-7	955-964	Regierung	_	_
+10-8	965-966	-	_	_
+10-9	967-970	was	_	_
+10-10	971-975	auch	_	_
+10-11	976-979	bei	_	_
+10-12	980-983	dem	_	_
+10-13	984-992	jetzigen	_	_
+10-14	993-1004	Ministerium	_	_
+10-15	1005-1010	nicht	_	_
+10-16	1011-1013	zu	_	_
+10-17	1014-1024	befürchten	_	_
+10-18	1025-1028	ist	_	_
+10-19	1029-1030	-	_	_
+10-20	1031-1040	unmöglich	_	_
+10-21	1041-1046	wagen	_	_
+10-22	1047-1048	,	_	_
+10-23	1049-1053	eine	_	_
+10-24	1054-1061	Allianz	_	_
+10-25	1062-1065	mit	_	_
+10-26	1066-1076	Frankreich	_	_
+10-27	1077-1087	einzugehen	_	_
+10-28	1088-1089	.	_	_
+
+#Text=Sollte ein anderes Ministerium für Frankreich vorgehen wollen , dann kan die preußische Di-
+11-1	1090-1096	Sollte	_	_
+11-2	1097-1100	ein	_	_
+11-3	1101-1108	anderes	_	_
+11-4	1109-1120	Ministerium	*	ORGmentioned
+11-5	1121-1124	für	_	_
+11-6	1125-1135	Frankreich	*	PLACEmentioned
+11-7	1136-1144	vorgehen	_	_
+11-8	1145-1151	wollen	_	_
+11-9	1152-1153	,	_	_
+11-10	1154-1158	dann	_	_
+11-11	1159-1162	kan	_	_
+11-12	1163-1166	die	_	_
+11-13	1167-1177	preußische	_	_
+11-14	1178-1181	Di-	_	_

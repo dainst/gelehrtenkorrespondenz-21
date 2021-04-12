@@ -1,0 +1,204 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=329 Lepsius an Henzen Berlin , 713. Juni 1876 & .
+1-1	0-3	329	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-35	713.	*[1]	DATEletter[1]
+1-8	36-40	Juni	*[1]	DATEletter[1]
+1-9	41-45	1876	*[1]	DATEletter[1]
+1-10	46-47	&	_	_
+1-11	48-49	.	_	_
+
+#Text=16/6 76 r . 17/6 Berlin , d . 13. Juni 1876 .
+2-1	50-54	16/6	*[2]	DATErecieved[2]
+2-2	55-57	76	*[2]	DATErecieved[2]
+2-3	58-59	r	_	_
+2-4	60-61	.	_	_
+2-5	62-66	17/6	*	DATEanswered
+2-6	67-73	Berlin	*	PLACEfrom
+2-7	74-75	,	_	_
+2-8	76-77	d	_	_
+2-9	78-79	.	_	_
+2-10	80-83	13.	*[3]	DATEletter[3]
+2-11	84-88	Juni	*[3]	DATEletter[3]
+2-12	89-93	1876	*[3]	DATEletter[3]
+2-13	94-95	.	_	_
+
+#Text=Hochverehrter Freund Ich habe erst vorgestern den vom 6. d. datirten Rechnungsabschluß vom Auswärtigen Amt erhalten .
+3-1	96-109	Hochverehrter	_	_
+3-2	110-116	Freund	_	_
+3-3	117-120	Ich	_	_
+3-4	121-125	habe	_	_
+3-5	126-130	erst	_	_
+3-6	131-141	vorgestern	_	_
+3-7	142-145	den	_	_
+3-8	146-149	vom	_	_
+3-9	150-152	6.	*[4]	DATEmentioned[4]
+3-10	153-155	d.	_	_
+3-11	156-164	datirten	_	_
+3-12	165-182	Rechnungsabschluß	_	_
+3-13	183-186	vom	_	_
+3-14	187-198	Auswärtigen	*[5]	ORGmentioned[5]
+3-15	199-202	Amt	*[5]	ORGmentioned[5]
+3-16	203-211	erhalten	_	_
+3-17	212-213	.	_	_
+
+#Text=Abschriftlich sende ich Ihnen vorstehend die Bemerkungen welche die Römischen Rechnungen betreffen .
+4-1	214-227	Abschriftlich	_	_
+4-2	228-233	sende	_	_
+4-3	234-237	ich	_	_
+4-4	238-243	Ihnen	_	_
+4-5	244-254	vorstehend	_	_
+4-6	255-258	die	_	_
+4-7	259-270	Bemerkungen	_	_
+4-8	271-277	welche	_	_
+4-9	278-281	die	_	_
+4-10	282-291	Römischen	_	_
+4-11	292-302	Rechnungen	_	_
+4-12	303-312	betreffen	_	_
+4-13	313-314	.	_	_
+
+#Text=Sie werden sich leicht erledigen lassen .
+5-1	315-318	Sie	_	_
+5-2	319-325	werden	_	_
+5-3	326-330	sich	_	_
+5-4	331-337	leicht	_	_
+5-5	338-347	erledigen	_	_
+5-6	348-354	lassen	_	_
+5-7	355-356	.	_	_
+
+#Text=Gestern ist nun auch Minister Krüger hierher zurückgekehrt voll und höchst befriedigt von allen Herrlichkeiten die er gesehen und mit seltener Receptionskraft fest gehalten hat .
+6-1	357-364	Gestern	_	_
+6-2	365-368	ist	_	_
+6-3	369-372	nun	_	_
+6-4	373-377	auch	_	_
+6-5	378-386	Minister	_	_
+6-6	387-393	Krüger	*	PERmentioned
+6-7	394-401	hierher	_	_
+6-8	402-415	zurückgekehrt	_	_
+6-9	416-420	voll	_	_
+6-10	421-424	und	_	_
+6-11	425-431	höchst	_	_
+6-12	432-442	befriedigt	_	_
+6-13	443-446	von	_	_
+6-14	447-452	allen	_	_
+6-15	453-467	Herrlichkeiten	_	_
+6-16	468-471	die	_	_
+6-17	472-474	er	_	_
+6-18	475-482	gesehen	_	_
+6-19	483-486	und	_	_
+6-20	487-490	mit	_	_
+6-21	491-499	seltener	_	_
+6-22	500-515	Receptionskraft	_	_
+6-23	516-520	fest	_	_
+6-24	521-529	gehalten	_	_
+6-25	530-533	hat	_	_
+6-26	534-535	.	_	_
+
+#Text=Er hat mir ausführlich nanentlich von Rom und den Institutsverhältnissen erzählt , und es scheint ja daß Alles zu allgemeiner Befriedigung seordnet worden ist in Bezug namentlich auf die spätere die Verwaltung Verwaltung .
+7-1	536-538	Er	_	_
+7-2	539-542	hat	_	_
+7-3	543-546	mir	_	_
+7-4	547-558	ausführlich	_	_
+7-5	559-569	nanentlich	_	_
+7-6	570-573	von	_	_
+7-7	574-577	Rom	*	PLACEmentioned
+7-8	578-581	und	_	_
+7-9	582-585	den	_	_
+7-10	586-608	Institutsverhältnissen	_	_
+7-11	609-616	erzählt	_	_
+7-12	617-618	,	_	_
+7-13	619-622	und	_	_
+7-14	623-625	es	_	_
+7-15	626-633	scheint	_	_
+7-16	634-636	ja	_	_
+7-17	637-640	daß	_	_
+7-18	641-646	Alles	_	_
+7-19	647-649	zu	_	_
+7-20	650-661	allgemeiner	_	_
+7-21	662-674	Befriedigung	_	_
+7-22	675-683	seordnet	_	_
+7-23	684-690	worden	_	_
+7-24	691-694	ist	_	_
+7-25	695-697	in	_	_
+7-26	698-703	Bezug	_	_
+7-27	704-714	namentlich	_	_
+7-28	715-718	auf	_	_
+7-29	719-722	die	_	_
+7-30	723-730	spätere	_	_
+7-31	731-734	die	_	_
+7-32	735-745	Verwaltung	_	_
+7-33	746-756	Verwaltung	_	_
+7-34	757-758	.	_	_
+
+#Text=Es scheint mir .
+8-1	759-761	Es	_	_
+8-2	762-769	scheint	_	_
+8-3	770-773	mir	_	_
+8-4	774-775	.	_	_
+
+#Text=ein guter AuswegYunter Ihrer Obercontrolle auf Schulz zu übertragen unabhängig von der Gesandtschaft .
+9-1	776-779	ein	_	_
+9-2	780-785	guter	_	_
+9-3	786-798	AuswegYunter	_	_
+9-4	799-804	Ihrer	_	_
+9-5	805-818	Obercontrolle	_	_
+9-6	819-822	auf	_	_
+9-7	823-829	Schulz	*	PERmentioned
+9-8	830-832	zu	_	_
+9-9	833-843	übertragen	_	_
+9-10	844-854	unabhängig	_	_
+9-11	855-858	von	_	_
+9-12	859-862	der	_	_
+9-13	863-876	Gesandtschaft	*	ORGmentioned
+9-14	877-878	.	_	_
+
+#Text=Es wird nur die Ablösung von denselben in diesem Punkte erst noch vom Auswärtigen Amte ausgesprochen werden müssen .
+10-1	879-881	Es	_	_
+10-2	882-886	wird	_	_
+10-3	887-890	nur	_	_
+10-4	891-894	die	_	_
+10-5	895-903	Ablösung	_	_
+10-6	904-907	von	_	_
+10-7	908-917	denselben	_	_
+10-8	918-920	in	_	_
+10-9	921-927	diesem	_	_
+10-10	928-934	Punkte	_	_
+10-11	935-939	erst	_	_
+10-12	940-944	noch	_	_
+10-13	945-948	vom	_	_
+10-14	949-960	Auswärtigen	*[6]	ORGmentioned[6]
+10-15	961-965	Amte	*[6]	ORGmentioned[6]
+10-16	966-979	ausgesprochen	_	_
+10-17	980-986	werden	_	_
+10-18	987-993	müssen	_	_
+10-19	994-995	.	_	_
+
+#Text=Ich meine die Vermiethungseinnahme für die untern Räume und die Stipendiatenwohnungen nöke das Reich dem Institut gerade als Verwaltungsfonds überweisen .
+11-1	996-999	Ich	_	_
+11-2	1000-1005	meine	_	_
+11-3	1006-1009	die	_	_
+11-4	1010-1030	Vermiethungseinnahme	_	_
+11-5	1031-1034	für	_	_
+11-6	1035-1038	die	_	_
+11-7	1039-1045	untern	_	_
+11-8	1046-1051	Räume	_	_
+11-9	1052-1055	und	_	_
+11-10	1056-1059	die	_	_
+11-11	1060-1081	Stipendiatenwohnungen	_	_
+11-12	1082-1086	nöke	_	_
+11-13	1087-1090	das	_	_
+11-14	1091-1096	Reich	_	_
+11-15	1097-1100	dem	_	_
+11-16	1101-1109	Institut	*	ORGmentioned
+11-17	1110-1116	gerade	_	_
+11-18	1117-1120	als	_	_
+11-19	1121-1137	Verwaltungsfonds	_	_
+11-20	1138-1148	überweisen	_	_
+11-21	1149-1150	.	_	_

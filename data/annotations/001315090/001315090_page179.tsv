@@ -1,0 +1,219 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=564 Lepsius an Henzen Berlin , 1 , November 1874 g . 6/XI 74 r . 9/X Berlin , den 1 , Nov .
+1-1	0-3	564	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-32	1	_	_
+1-8	33-34	,	*[3]	DATEletter[3]
+1-9	35-43	November	*[3]	DATEletter[3]
+1-10	44-48	1874	*[3]	DATEletter[3]
+1-11	49-50	g	_	_
+1-12	51-52	.	_	_
+1-13	53-57	6/XI	*[4]	DATErecieved[4]
+1-14	58-60	74	*[4]	DATErecieved[4]
+1-15	61-62	r	_	_
+1-16	63-64	.	_	_
+1-17	65-68	9/X	*	DATEanswered
+1-18	69-75	Berlin	*	PLACEfrom
+1-19	76-77	,	_	_
+1-20	78-81	den	_	_
+1-21	82-83	1	_	_
+1-22	84-85	,	*[5]	DATEletter[5]
+1-23	86-89	Nov	*[5]	DATEletter[5]
+1-24	90-91	.	*[5]	DATEletter[5]
+
+#Text=1874 Verehrter Freund Wir haben in der gestrigen Sitzung beschlossen eine besondere Eingabe wegen Ihrer Pensionsangelegenheit zu machen und bitten Sie nun , uns die genauen Daten in Bezug auf Ihren Eintritt und Anstellungstermin am Institut zu geben um danach ermessen zu können , wie weit wir etwa beantragen können , die Pensionswohnung zurückzunehmen , im Vergleich zu dem , was unter allen Umständen nach dem Reichspensionsgesetze gewährt werden müßte .
+2-1	92-96	1874	*[5]	DATEletter[5]
+2-2	97-106	Verehrter	_	_
+2-3	107-113	Freund	_	_
+2-4	114-117	Wir	_	_
+2-5	118-123	haben	_	_
+2-6	124-126	in	_	_
+2-7	127-130	der	_	_
+2-8	131-140	gestrigen	_	_
+2-9	141-148	Sitzung	_	_
+2-10	149-160	beschlossen	_	_
+2-11	161-165	eine	_	_
+2-12	166-175	besondere	_	_
+2-13	176-183	Eingabe	_	_
+2-14	184-189	wegen	_	_
+2-15	190-195	Ihrer	_	_
+2-16	196-217	Pensionsangelegenheit	_	_
+2-17	218-220	zu	_	_
+2-18	221-227	machen	_	_
+2-19	228-231	und	_	_
+2-20	232-238	bitten	_	_
+2-21	239-242	Sie	_	_
+2-22	243-246	nun	_	_
+2-23	247-248	,	_	_
+2-24	249-252	uns	_	_
+2-25	253-256	die	_	_
+2-26	257-264	genauen	_	_
+2-27	265-270	Daten	_	_
+2-28	271-273	in	_	_
+2-29	274-279	Bezug	_	_
+2-30	280-283	auf	_	_
+2-31	284-289	Ihren	_	_
+2-32	290-298	Eintritt	_	_
+2-33	299-302	und	_	_
+2-34	303-320	Anstellungstermin	_	_
+2-35	321-323	am	_	_
+2-36	324-332	Institut	*	ORGmentioned
+2-37	333-335	zu	_	_
+2-38	336-341	geben	_	_
+2-39	342-344	um	_	_
+2-40	345-351	danach	_	_
+2-41	352-360	ermessen	_	_
+2-42	361-363	zu	_	_
+2-43	364-370	können	_	_
+2-44	371-372	,	_	_
+2-45	373-376	wie	_	_
+2-46	377-381	weit	_	_
+2-47	382-385	wir	_	_
+2-48	386-390	etwa	_	_
+2-49	391-401	beantragen	_	_
+2-50	402-408	können	_	_
+2-51	409-410	,	_	_
+2-52	411-414	die	_	_
+2-53	415-430	Pensionswohnung	_	_
+2-54	431-445	zurückzunehmen	_	_
+2-55	446-447	,	_	_
+2-56	448-450	im	_	_
+2-57	451-460	Vergleich	_	_
+2-58	461-463	zu	_	_
+2-59	464-467	dem	_	_
+2-60	468-469	,	_	_
+2-61	470-473	was	_	_
+2-62	474-479	unter	_	_
+2-63	480-485	allen	_	_
+2-64	486-495	Umständen	_	_
+2-65	496-500	nach	_	_
+2-66	501-504	dem	_	_
+2-67	505-526	Reichspensionsgesetze	_	_
+2-68	527-534	gewährt	_	_
+2-69	535-541	werden	_	_
+2-70	542-547	müßte	_	_
+2-71	548-549	.	_	_
+
+#Text=Über Helbig 's Reisebericht hat Ihnen schon Mommsen privatim geschrieben .
+3-1	550-554	Über	_	_
+3-2	555-561	Helbig	*[6]	PERmentioned[6]
+3-3	562-564	's	*[6]	PERmentioned[6]
+3-4	565-577	Reisebericht	_	_
+3-5	578-581	hat	_	_
+3-6	582-587	Ihnen	_	_
+3-7	588-593	schon	_	_
+3-8	594-601	Mommsen	*	PERmentioned
+3-9	602-610	privatim	_	_
+3-10	611-622	geschrieben	_	_
+3-11	623-624	.	_	_
+
+#Text=Eine Aufforderung dazu kann von uns nicht erfolgen , da auch Lüders im Rahmen seines Bildes erscheinen würde .
+4-1	625-629	Eine	_	_
+4-2	630-642	Aufforderung	_	_
+4-3	643-647	dazu	_	_
+4-4	648-652	kann	_	_
+4-5	653-656	von	_	_
+4-6	657-660	uns	_	_
+4-7	661-666	nicht	_	_
+4-8	667-675	erfolgen	_	_
+4-9	676-677	,	_	_
+4-10	678-680	da	_	_
+4-11	681-685	auch	_	_
+4-12	686-692	Lüders	*	PERmentioned
+4-13	693-695	im	_	_
+4-14	696-702	Rahmen	_	_
+4-15	703-709	seines	_	_
+4-16	710-716	Bildes	_	_
+4-17	717-727	erscheinen	_	_
+4-18	728-733	würde	_	_
+4-19	734-735	.	_	_
+
+#Text=Will er aber sonst uns seine Erfahrungen und Ansichten über seine griechische Reise mittheilen , so würden wir , das ist meine persönliche Ansicht , ihm nur dankbar dafür sein können .
+5-1	736-740	Will	_	_
+5-2	741-743	er	_	_
+5-3	744-748	aber	_	_
+5-4	749-754	sonst	_	_
+5-5	755-758	uns	_	_
+5-6	759-764	seine	_	_
+5-7	765-776	Erfahrungen	_	_
+5-8	777-780	und	_	_
+5-9	781-790	Ansichten	_	_
+5-10	791-795	über	_	_
+5-11	796-801	seine	_	_
+5-12	802-813	griechische	_	_
+5-13	814-819	Reise	_	_
+5-14	820-830	mittheilen	_	_
+5-15	831-832	,	_	_
+5-16	833-835	so	_	_
+5-17	836-842	würden	_	_
+5-18	843-846	wir	_	_
+5-19	847-848	,	_	_
+5-20	849-852	das	_	_
+5-21	853-856	ist	_	_
+5-22	857-862	meine	_	_
+5-23	863-874	persönliche	_	_
+5-24	875-882	Ansicht	_	_
+5-25	883-884	,	_	_
+5-26	885-888	ihm	_	_
+5-27	889-892	nur	_	_
+5-28	893-900	dankbar	_	_
+5-29	901-906	dafür	_	_
+5-30	907-911	sein	_	_
+5-31	912-918	können	_	_
+5-32	919-920	.	_	_
+
+#Text=Ich hoffe daß Sie die Winterquartiere in guter Gesundheit bezogen haben .
+6-1	921-924	Ich	_	_
+6-2	925-930	hoffe	_	_
+6-3	931-934	daß	_	_
+6-4	935-938	Sie	_	_
+6-5	939-942	die	_	_
+6-6	943-958	Winterquartiere	_	_
+6-7	959-961	in	_	_
+6-8	962-967	guter	_	_
+6-9	968-978	Gesundheit	_	_
+6-10	979-986	bezogen	_	_
+6-11	987-992	haben	_	_
+6-12	993-994	.	_	_
+
+#Text=Bei uns sind nach dem schönen Oktober endlich etwas unbehagliche Herbsttage gefolgt .
+7-1	995-998	Bei	_	_
+7-2	999-1002	uns	_	_
+7-3	1003-1007	sind	_	_
+7-4	1008-1012	nach	_	_
+7-5	1013-1016	dem	_	_
+7-6	1017-1024	schönen	_	_
+7-7	1025-1032	Oktober	*	DATEanswered
+7-8	1033-1040	endlich	_	_
+7-9	1041-1046	etwas	_	_
+7-10	1047-1059	unbehagliche	_	_
+7-11	1060-1070	Herbsttage	_	_
+7-12	1071-1078	gefolgt	_	_
+7-13	1079-1080	.	_	_
+
+#Text=Was haben Sie zu Lüders schnell gefundene Häuslichkeit gesagt .
+8-1	1081-1084	Was	_	_
+8-2	1085-1090	haben	_	_
+8-3	1091-1094	Sie	_	_
+8-4	1095-1097	zu	_	_
+8-5	1098-1104	Lüders	*	PERmentioned
+8-6	1105-1112	schnell	_	_
+8-7	1113-1122	gefundene	_	_
+8-8	1123-1135	Häuslichkeit	_	_
+8-9	1136-1142	gesagt	_	_
+8-10	1143-1144	.	_	_
+
+#Text=Er bringt uns die zweite Prinzessin
+9-1	1145-1147	Er	_	_
+9-2	1148-1154	bringt	_	_
+9-3	1155-1158	uns	_	_
+9-4	1159-1162	die	_	_
+9-5	1163-1169	zweite	_	_
+9-6	1170-1180	Prinzessin	*	PERmentioned

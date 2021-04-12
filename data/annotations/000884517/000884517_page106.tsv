@@ -1,0 +1,204 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=78 Gerhard an Braun Berlin , 7. Februar 1845 A. d . Dir .
+1-1	0-2	78	_	_	
+1-2	3-10	Gerhard	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-19	Braun	*	PERaddressee	
+1-5	20-26	Berlin	*	PLACEfrom	
+1-6	27-28	,	_	_	
+1-7	29-31	7.	*[1]	DATEletter[1]	
+1-8	32-39	Februar	*[1]	DATEletter[1]	
+1-9	40-44	1845	*[1]	DATEletter[1]	
+1-10	45-47	A.	_	_	
+1-11	48-49	d	_	_	
+1-12	50-51	.	_	_	
+1-13	52-55	Dir	_	_	
+1-14	56-57	.	_	_	
+
+#Text=g . 8/III 45 r . 8/III 45 Berlin 7 Febr 45 Lieber Freund .
+2-1	58-59	g	_	_	
+2-2	60-61	.	_	_	
+2-3	62-67	8/III	*[2]	DATErecieved[2]	
+2-4	68-70	45	*[2]	DATErecieved[2]	
+2-5	71-72	r	_	_	
+2-6	73-74	.	_	_	
+2-7	75-80	8/III	*[3]	DATEanswered[3]	
+2-8	81-83	45	*[3]	DATEanswered[3]	
+2-9	84-90	Berlin	*	PLACEfrom	
+2-10	91-92	7	*[4]	DATEletter[4]	
+2-11	93-97	Febr	*[4]	DATEletter[4]	
+2-12	98-100	45	*[4]	DATEletter[4]	
+2-13	101-107	Lieber	_	_	
+2-14	108-114	Freund	_	_	
+2-15	115-116	.	_	_	
+
+#Text=Dr. Schrader von der hiesigen königlichen Bibliothek , der einen längeren und ernstlich zu benutzenden Aufenthalt in Italien beabsichtigt und neben naturwissenschaftlichen und bibliothekarischen Studien auch historische und artistische nicht ausschließt , wünscht und verdient Ihnen bestens empfohlen zu sein .
+3-1	117-120	Dr.	*[5]	PERmentioned[5]	
+3-2	121-129	Schrader	*[5]	PERmentioned[5]	
+3-3	130-133	von	_	_	
+3-4	134-137	der	_	_	
+3-5	138-146	hiesigen	_	_	
+3-6	147-158	königlichen	*[6]	ORGmentioned[6]	
+3-7	159-169	Bibliothek	*[6]	ORGmentioned[6]	
+3-8	170-171	,	_	_	
+3-9	172-175	der	_	_	
+3-10	176-181	einen	_	_	
+3-11	182-190	längeren	_	_	
+3-12	191-194	und	_	_	
+3-13	195-204	ernstlich	_	_	
+3-14	205-207	zu	_	_	
+3-15	208-219	benutzenden	_	_	
+3-16	220-230	Aufenthalt	_	_	
+3-17	231-233	in	_	_	
+3-18	234-241	Italien	*	PLACEmentioned	
+3-19	242-254	beabsichtigt	_	_	
+3-20	255-258	und	_	_	
+3-21	259-264	neben	_	_	
+3-22	265-288	naturwissenschaftlichen	_	_	
+3-23	289-292	und	_	_	
+3-24	293-311	bibliothekarischen	_	_	
+3-25	312-319	Studien	_	_	
+3-26	320-324	auch	_	_	
+3-27	325-336	historische	_	_	
+3-28	337-340	und	_	_	
+3-29	341-352	artistische	_	_	
+3-30	353-358	nicht	_	_	
+3-31	359-370	ausschließt	_	_	
+3-32	371-372	,	_	_	
+3-33	373-380	wünscht	_	_	
+3-34	381-384	und	_	_	
+3-35	385-393	verdient	_	_	
+3-36	394-399	Ihnen	_	_	
+3-37	400-407	bestens	_	_	
+3-38	408-417	empfohlen	_	_	
+3-39	418-420	zu	_	_	
+3-40	421-425	sein	_	_	
+3-41	426-427	.	_	_	
+
+#Text=Da J. Friedländer ihm speciell befreundet ist , wird er Ihre Zeit nicht in Anspruch zu nehmen brauchen .
+4-1	428-430	Da	_	_	
+4-2	431-433	J.	*[7]	PERmentioned[7]	
+4-3	434-445	Friedländer	*[7]	PERmentioned[7]	
+4-4	446-449	ihm	_	_	
+4-5	450-458	speciell	_	_	
+4-6	459-469	befreundet	_	_	
+4-7	470-473	ist	_	_	
+4-8	474-475	,	_	_	
+4-9	476-480	wird	_	_	
+4-10	481-483	er	_	_	
+4-11	484-488	Ihre	_	_	
+4-12	489-493	Zeit	_	_	
+4-13	494-499	nicht	_	_	
+4-14	500-502	in	_	_	
+4-15	503-511	Anspruch	_	_	
+4-16	512-514	zu	_	_	
+4-17	515-521	nehmen	_	_	
+4-18	522-530	brauchen	_	_	
+4-19	531-532	.	_	_	
+
+#Text=Was meinem Zeichner mit der Tosischen Vase begegnet ist , machen Sie mich furchtsam näher zu besehen .
+5-1	533-536	Was	_	_	
+5-2	537-543	meinem	_	_	
+5-3	544-552	Zeichner	_	_	
+5-4	553-556	mit	_	_	
+5-5	557-560	der	_	_	
+5-6	561-570	Tosischen	*[8]	OBJ[8]	
+5-7	571-575	Vase	*[8]	OBJ[8]	
+5-8	576-584	begegnet	_	_	
+5-9	585-588	ist	_	_	
+5-10	589-590	,	_	_	
+5-11	591-597	machen	_	_	
+5-12	598-601	Sie	_	_	
+5-13	602-606	mich	_	_	
+5-14	607-616	furchtsam	_	_	
+5-15	617-622	näher	_	_	
+5-16	623-625	zu	_	_	
+5-17	626-633	besehen	_	_	
+5-18	634-635	.	_	_	
+
+#Text=Ratti hält meinen Gyps noch immer an sich ; noch für 6 Wochen , sagt er .
+6-1	636-641	Ratti	*	PERmentioned	
+6-2	642-646	hält	_	_	
+6-3	647-653	meinen	_	_	
+6-4	654-658	Gyps	_	_	
+6-5	659-663	noch	_	_	
+6-6	664-669	immer	_	_	
+6-7	670-672	an	_	_	
+6-8	673-677	sich	_	_	
+6-9	678-679	;	_	_	
+6-10	680-684	noch	_	_	
+6-11	685-688	für	_	_	
+6-12	689-690	6	_	_	
+6-13	691-697	Wochen	_	_	
+6-14	698-699	,	_	_	
+6-15	700-704	sagt	_	_	
+6-16	705-707	er	_	_	
+6-17	708-709	.	_	_	
+
+#Text=Ihr eben angekommener `` im Interesse der Theorie '' und R.s beredter Brief veranlaßte meine Frau die mir ihn vorlas Sie mit Welcker zu vergleichen ; nämlich weil Sie so kabbisch sein könnten .
+7-1	710-713	Ihr	_	_	
+7-2	714-718	eben	_	_	
+7-3	719-731	angekommener	_	_	
+7-4	732-734	``	_	_	
+7-5	735-737	im	_	_	
+7-6	738-747	Interesse	_	_	
+7-7	748-751	der	_	_	
+7-8	752-759	Theorie	_	_	
+7-9	760-762	''	_	_	
+7-10	763-766	und	_	_	
+7-11	767-770	R.s	_	_	
+7-12	771-779	beredter	_	_	
+7-13	780-785	Brief	_	_	
+7-14	786-796	veranlaßte	_	_	
+7-15	797-802	meine	_	_	
+7-16	803-807	Frau	_	_	
+7-17	808-811	die	_	_	
+7-18	812-815	mir	_	_	
+7-19	816-819	ihn	_	_	
+7-20	820-826	vorlas	_	_	
+7-21	827-830	Sie	_	_	
+7-22	831-834	mit	_	_	
+7-23	835-842	Welcker	*	PERmentioned	
+7-24	843-845	zu	_	_	
+7-25	846-857	vergleichen	_	_	
+7-26	858-859	;	_	_	
+7-27	860-867	nämlich	_	_	
+7-28	868-872	weil	_	_	
+7-29	873-876	Sie	_	_	
+7-30	877-879	so	_	_	
+7-31	880-888	kabbisch	_	_	
+7-32	889-893	sein	_	_	
+7-33	894-901	könnten	_	_	
+7-34	902-903	.	_	_	
+
+#Text=Es würde nicht schwer sein uns mündlich darüber zu verständigen ; vorlegbare Bücher aber , auch in ostensiblen Exemplaren vorhanden hätten beschleunigt was ich auf Ihren wohlbegründeten
+8-1	904-906	Es	_	_	
+8-2	907-912	würde	_	_	
+8-3	913-918	nicht	_	_	
+8-4	919-925	schwer	_	_	
+8-5	926-930	sein	_	_	
+8-6	931-934	uns	_	_	
+8-7	935-943	mündlich	_	_	
+8-8	944-951	darüber	_	_	
+8-9	952-954	zu	_	_	
+8-10	955-967	verständigen	_	_	
+8-11	968-969	;	_	_	
+8-12	970-980	vorlegbare	_	_	
+8-13	981-987	Bücher	_	_	
+8-14	988-992	aber	_	_	
+8-15	993-994	,	_	_	
+8-16	995-999	auch	_	_	
+8-17	1000-1002	in	_	_	
+8-18	1003-1014	ostensiblen	_	_	
+8-19	1015-1025	Exemplaren	_	_	
+8-20	1026-1035	vorhanden	_	_	
+8-21	1036-1042	hätten	_	_	
+8-22	1043-1055	beschleunigt	_	_	
+8-23	1056-1059	was	_	_	
+8-24	1060-1063	ich	_	_	
+8-25	1064-1067	auf	_	_	
+8-26	1068-1073	Ihren	_	_	
+8-27	1074-1089	wohlbegründeten	_	_	

@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=4 Lepsius an Henzen Berlin , 18. Juli 1872 25/7 72 Berlin d . 18. Juli 1872 Verehrter Freund Ich legte gestern der Central Direktion Schöne's Mittheilung über die Paduaner Angelegenheit vor \; er hatte auch Ihren Brief eingesendet .
+1-1	0-1	4	_	_
+1-2	2-9	Lepsius	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	18.	*[3]	DATEletter[3]
+1-8	33-37	Juli	*[3]	DATEletter[3]
+1-9	38-42	1872	*[3]	DATEletter[3]
+1-10	43-47	25/7	*[4]	DATErecieved[4]
+1-11	48-50	72	*[4]	DATErecieved[4]
+1-12	51-57	Berlin	*	PLACEfrom
+1-13	58-59	d	_	_
+1-14	60-61	.	_	_
+1-15	62-65	18.	*[5]	DATEletter[5]
+1-16	66-70	Juli	*[5]	DATEletter[5]
+1-17	71-75	1872	*[5]	DATEletter[5]
+1-18	76-85	Verehrter	_	_
+1-19	86-92	Freund	_	_
+1-20	93-96	Ich	_	_
+1-21	97-102	legte	_	_
+1-22	103-110	gestern	_	_
+1-23	111-114	der	_	_
+1-24	115-122	Central	*[6]	ORGmentioned[6]
+1-25	123-132	Direktion	*[6]	ORGmentioned[6]
+1-26	133-141	Schöne's	*	PERmentioned
+1-27	142-153	Mittheilung	_	_
+1-28	154-158	über	_	_
+1-29	159-162	die	_	_
+1-30	163-171	Paduaner	*	PLACEmentioned
+1-31	172-185	Angelegenheit	_	_
+1-32	186-189	vor	_	_
+1-33	190-191	\;	_	_
+1-34	192-194	er	_	_
+1-35	195-200	hatte	_	_
+1-36	201-205	auch	_	_
+1-37	206-211	Ihren	_	_
+1-38	212-217	Brief	_	_
+1-39	218-229	eingesendet	_	_
+1-40	230-231	.	_	_
+
+#Text=Wir haben uns nun entschlossen , einzutreten und die 2.000 fr. die Italien nicht bezahlen kann , auf unsern Reservefonds zu nehmen .
+2-1	232-235	Wir	_	_
+2-2	236-241	haben	_	_
+2-3	242-245	uns	_	_
+2-4	246-249	nun	_	_
+2-5	250-262	entschlossen	_	_
+2-6	263-264	,	_	_
+2-7	265-276	einzutreten	_	_
+2-8	277-280	und	_	_
+2-9	281-284	die	_	_
+2-10	285-290	2.000	_	_
+2-11	291-294	fr.	_	_
+2-12	295-298	die	_	_
+2-13	299-306	Italien	*	PLACEmentioned
+2-14	307-312	nicht	_	_
+2-15	313-321	bezahlen	_	_
+2-16	322-326	kann	_	_
+2-17	327-328	,	_	_
+2-18	329-332	auf	_	_
+2-19	333-339	unsern	_	_
+2-20	340-352	Reservefonds	_	_
+2-21	353-355	zu	_	_
+2-22	356-362	nehmen	_	_
+2-23	363-364	.	_	_
+
+#Text=Nur muß das Verlangen von Padua ausgehen , und das werden Sie am besten vermitteln .
+3-1	365-368	Nur	_	_
+3-2	369-372	muß	_	_
+3-3	373-376	das	_	_
+3-4	377-386	Verlangen	_	_
+3-5	387-390	von	_	_
+3-6	391-396	Padua	*	PLACEmentioned
+3-7	397-405	ausgehen	_	_
+3-8	406-407	,	_	_
+3-9	408-411	und	_	_
+3-10	412-415	das	_	_
+3-11	416-422	werden	_	_
+3-12	423-426	Sie	_	_
+3-13	427-429	am	_	_
+3-14	430-436	besten	_	_
+3-15	437-447	vermitteln	_	_
+3-16	448-449	.	_	_
+
+#Text=Ich habe dies auch an Schöne geschrieben der Ihnen seinerseits schreiben wird .
+4-1	450-453	Ich	_	_
+4-2	454-458	habe	_	_
+4-3	459-463	dies	_	_
+4-4	464-468	auch	_	_
+4-5	469-471	an	_	_
+4-6	472-478	Schöne	*	PERmentioned
+4-7	479-490	geschrieben	_	_
+4-8	491-494	der	_	_
+4-9	495-500	Ihnen	_	_
+4-10	501-512	seinerseits	_	_
+4-11	513-522	schreiben	_	_
+4-12	523-527	wird	_	_
+4-13	528-529	.	_	_
+
+#Text=Was die Büste betrifft , so habe ich allerdings nur zunächst an die Medallirung und Abgüsse davon gedacht , auch hier noch nicht weiter davon gesprochen , da die Sache besser von Ihnen ausgeht .
+5-1	530-533	Was	_	_
+5-2	534-537	die	_	_
+5-3	538-543	Büste	_	_
+5-4	544-552	betrifft	_	_
+5-5	553-554	,	_	_
+5-6	555-557	so	_	_
+5-7	558-562	habe	_	_
+5-8	563-566	ich	_	_
+5-9	567-577	allerdings	_	_
+5-10	578-581	nur	_	_
+5-11	582-590	zunächst	_	_
+5-12	591-593	an	_	_
+5-13	594-597	die	_	_
+5-14	598-609	Medallirung	_	_
+5-15	610-613	und	_	_
+5-16	614-621	Abgüsse	_	_
+5-17	622-627	davon	_	_
+5-18	628-635	gedacht	_	_
+5-19	636-637	,	_	_
+5-20	638-642	auch	_	_
+5-21	643-647	hier	_	_
+5-22	648-652	noch	_	_
+5-23	653-658	nicht	_	_
+5-24	659-665	weiter	_	_
+5-25	666-671	davon	_	_
+5-26	672-682	gesprochen	_	_
+5-27	683-684	,	_	_
+5-28	685-687	da	_	_
+5-29	688-691	die	_	_
+5-30	692-697	Sache	_	_
+5-31	698-704	besser	_	_
+5-32	705-708	von	_	_
+5-33	709-714	Ihnen	_	_
+5-34	715-722	ausgeht	_	_
+5-35	723-724	.	_	_
+
+#Text=Troschel 's Arbeit ist wohl jedenfalls erst abzuwarten .
+6-1	725-733	Troschel	*[9]	PERmentioned[9]
+6-2	734-736	's	*[9]	PERmentioned[9]
+6-3	737-743	Arbeit	_	_
+6-4	744-747	ist	_	_
+6-5	748-752	wohl	_	_
+6-6	753-763	jedenfalls	_	_
+6-7	764-768	erst	_	_
+6-8	769-779	abzuwarten	_	_
+6-9	780-781	.	_	_
+
+#Text=Wie sind wohl bei Ihnen die Preise ?
+7-1	782-785	Wie	_	_
+7-2	786-790	sind	_	_
+7-3	791-795	wohl	_	_
+7-4	796-799	bei	_	_
+7-5	800-805	Ihnen	_	_
+7-6	806-809	die	_	_
+7-7	810-816	Preise	_	_
+7-8	817-818	?	_	_
+
+#Text=Lassen Sie doch Helbig wissen daß ich sehr über seinen letzten Brief verwundert war , da er , wie ich ihm ausdrücklich geschrieben , Alles was das Museum betrifft jetzt nicht mehr an mich oder andre frühere Kommissionsmitglieder sondern an Grafen Usedom oder Herrn P. Dielitz zu richten hat .
+8-1	819-825	Lassen	_	_
+8-2	826-829	Sie	_	_
+8-3	830-834	doch	_	_
+8-4	835-841	Helbig	*	PERmentioned
+8-5	842-848	wissen	_	_
+8-6	849-852	daß	_	_
+8-7	853-856	ich	_	_
+8-8	857-861	sehr	_	_
+8-9	862-866	über	_	_
+8-10	867-873	seinen	_	_
+8-11	874-881	letzten	_	_
+8-12	882-887	Brief	_	_
+8-13	888-898	verwundert	_	_
+8-14	899-902	war	_	_
+8-15	903-904	,	_	_
+8-16	905-907	da	_	_
+8-17	908-910	er	_	_
+8-18	911-912	,	_	_
+8-19	913-916	wie	_	_
+8-20	917-920	ich	_	_
+8-21	921-924	ihm	_	_
+8-22	925-937	ausdrücklich	_	_
+8-23	938-949	geschrieben	_	_
+8-24	950-951	,	_	_
+8-25	952-957	Alles	_	_
+8-26	958-961	was	_	_
+8-27	962-965	das	_	_
+8-28	966-972	Museum	*	ORGmentioned
+8-29	973-981	betrifft	_	_
+8-30	982-987	jetzt	_	_
+8-31	988-993	nicht	_	_
+8-32	994-998	mehr	_	_
+8-33	999-1001	an	_	_
+8-34	1002-1006	mich	_	_
+8-35	1007-1011	oder	_	_
+8-36	1012-1017	andre	_	_
+8-37	1018-1025	frühere	_	_
+8-38	1026-1047	Kommissionsmitglieder	_	_
+8-39	1048-1055	sondern	_	_
+8-40	1056-1058	an	_	_
+8-41	1059-1065	Grafen	*[7]	PERmentioned[7]
+8-42	1066-1072	Usedom	*[7]	PERmentioned[7]
+8-43	1073-1077	oder	_	_
+8-44	1078-1083	Herrn	_	_
+8-45	1084-1086	P.	*[8]	PERmentioned[8]
+8-46	1087-1094	Dielitz	*[8]	PERmentioned[8]
+8-47	1095-1097	zu	_	_
+8-48	1098-1105	richten	_	_
+8-49	1106-1109	hat	_	_
+8-50	1110-1111	.	_	_
+
+#Text=- - Doch ich will ihm dies lieber
+9-1	1112-1113	-	_	_
+9-2	1114-1115	-	_	_
+9-3	1116-1120	Doch	_	_
+9-4	1121-1124	ich	_	_
+9-5	1125-1129	will	_	_
+9-6	1130-1133	ihm	_	_
+9-7	1134-1138	dies	_	_
+9-8	1139-1145	lieber	_	_

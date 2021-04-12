@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=396 Lepsius an Henzen Berlin , 11 .
+1-1	0-3	396	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	11	_	_
+1-8	34-35	.	*[3]	DATEletter[3]
+
+#Text=August 1874 g . 15/8 74 r . 16/8 74 Berlin , d . 11 .
+2-1	36-42	August	*[3]	DATEletter[3]
+2-2	43-47	1874	*[3]	DATEletter[3]
+2-3	48-49	g	_	_
+2-4	50-51	.	_	_
+2-5	52-56	15/8	*[4]	DATErecieved[4]
+2-6	57-59	74	*[4]	DATErecieved[4]
+2-7	60-61	r	_	_
+2-8	62-63	.	_	_
+2-9	64-68	16/8	*[5]	DATEanswered[5]
+2-10	69-71	74	*[5]	DATEanswered[5]
+2-11	72-78	Berlin	*	PLACEfrom
+2-12	79-80	,	_	_
+2-13	81-82	d	_	_
+2-14	83-84	.	_	_
+2-15	85-87	11	*[6]	DATEletter[6]
+2-16	88-89	.	*[6]	DATEletter[6]
+
+#Text=Aug . 1874 Verehrter Freund Der Minister Falk verlangt von uns die von Herrn Laspeyres Anfang 1872 angefertigten technischen Ausarbeitungen , um sie einzusehen zu können , behufs Justificirung der an Laspeyres geleisteten Zahlung von 700 r , damit seine unter dem 28. Juni 1872 eingereichte Liquidation bautechnischer Seits beschleunigt werden könne .
+3-1	90-93	Aug	*[6]	DATEletter[6]
+3-2	94-95	.	*[6]	DATEletter[6]
+3-3	96-100	1874	*[6]	DATEletter[6]
+3-4	101-110	Verehrter	_	_
+3-5	111-117	Freund	_	_
+3-6	118-121	Der	_	_
+3-7	122-130	Minister	_	_
+3-8	131-135	Falk	*	PERmentioned
+3-9	136-144	verlangt	_	_
+3-10	145-148	von	_	_
+3-11	149-152	uns	_	_
+3-12	153-156	die	_	_
+3-13	157-160	von	_	_
+3-14	161-166	Herrn	_	_
+3-15	167-176	Laspeyres	*	PERmentioned
+3-16	177-183	Anfang	_	_
+3-17	184-188	1872	*	DATEmentioned
+3-18	189-202	angefertigten	_	_
+3-19	203-214	technischen	_	_
+3-20	215-229	Ausarbeitungen	_	_
+3-21	230-231	,	_	_
+3-22	232-234	um	_	_
+3-23	235-238	sie	_	_
+3-24	239-249	einzusehen	_	_
+3-25	250-252	zu	_	_
+3-26	253-259	können	_	_
+3-27	260-261	,	_	_
+3-28	262-268	behufs	_	_
+3-29	269-282	Justificirung	_	_
+3-30	283-286	der	_	_
+3-31	287-289	an	_	_
+3-32	290-299	Laspeyres	*	PERmentioned
+3-33	300-311	geleisteten	_	_
+3-34	312-319	Zahlung	_	_
+3-35	320-323	von	_	_
+3-36	324-327	700	_	_
+3-37	328-329	r	_	_
+3-38	330-331	,	_	_
+3-39	332-337	damit	_	_
+3-40	338-343	seine	_	_
+3-41	344-349	unter	_	_
+3-42	350-353	dem	_	_
+3-43	354-357	28.	*[7]	DATEmentioned[7]
+3-44	358-362	Juni	*[7]	DATEmentioned[7]
+3-45	363-367	1872	*[7]	DATEmentioned[7]
+3-46	368-380	eingereichte	_	_
+3-47	381-392	Liquidation	_	_
+3-48	393-407	bautechnischer	_	_
+3-49	408-413	Seits	_	_
+3-50	414-426	beschleunigt	_	_
+3-51	427-433	werden	_	_
+3-52	434-439	könne	_	_
+3-53	440-441	.	_	_
+
+#Text=Diese Vorlage ist von laspeyres an das Ministerium , von diesem unter dem 31. Juli 1872 an die Central Direktion abgegeben worden .
+4-1	442-447	Diese	_	_
+4-2	448-455	Vorlage	_	_
+4-3	456-459	ist	_	_
+4-4	460-463	von	_	_
+4-5	464-473	laspeyres	*	PERmentioned
+4-6	474-476	an	_	_
+4-7	477-480	das	_	_
+4-8	481-492	Ministerium	*	ORGmentioned
+4-9	493-494	,	_	_
+4-10	495-498	von	_	_
+4-11	499-505	diesem	_	_
+4-12	506-511	unter	_	_
+4-13	512-515	dem	_	_
+4-14	516-519	31.	*[8]	DATEmentioned[8]
+4-15	520-524	Juli	*[8]	DATEmentioned[8]
+4-16	525-529	1872	*[8]	DATEmentioned[8]
+4-17	530-532	an	_	_
+4-18	533-536	die	_	_
+4-19	537-544	Central	*[9]	ORGmentioned[9]
+4-20	545-554	Direktion	*[9]	ORGmentioned[9]
+4-21	555-564	abgegeben	_	_
+4-22	565-571	worden	_	_
+4-23	572-573	.	_	_
+
+#Text=Sie findet sich aber nicht bei den Akten , und ist daher wohl nach Rom an Laspeyres zurückgegangen .
+5-1	574-577	Sie	_	_
+5-2	578-584	findet	_	_
+5-3	585-589	sich	_	_
+5-4	590-594	aber	_	_
+5-5	595-600	nicht	_	_
+5-6	601-604	bei	_	_
+5-7	605-608	den	_	_
+5-8	609-614	Akten	_	_
+5-9	615-616	,	_	_
+5-10	617-620	und	_	_
+5-11	621-624	ist	_	_
+5-12	625-630	daher	_	_
+5-13	631-635	wohl	_	_
+5-14	636-640	nach	_	_
+5-15	641-644	Rom	*	PLACEmentioned
+5-16	645-647	an	_	_
+5-17	648-657	Laspeyres	*	PERmentioned
+5-18	658-672	zurückgegangen	_	_
+5-19	673-674	.	_	_
+
+#Text=Haben Sie also doch die Güte dies verificiren zu lassen und wenn sich die Sache noch vorfindet sie baldigst an mich zu senden .
+6-1	675-680	Haben	_	_
+6-2	681-684	Sie	_	_
+6-3	685-689	also	_	_
+6-4	690-694	doch	_	_
+6-5	695-698	die	_	_
+6-6	699-703	Güte	_	_
+6-7	704-708	dies	_	_
+6-8	709-720	verificiren	_	_
+6-9	721-723	zu	_	_
+6-10	724-730	lassen	_	_
+6-11	731-734	und	_	_
+6-12	735-739	wenn	_	_
+6-13	740-744	sich	_	_
+6-14	745-748	die	_	_
+6-15	749-754	Sache	_	_
+6-16	755-759	noch	_	_
+6-17	760-769	vorfindet	_	_
+6-18	770-773	sie	_	_
+6-19	774-782	baldigst	_	_
+6-20	783-785	an	_	_
+6-21	786-790	mich	_	_
+6-22	791-793	zu	_	_
+6-23	794-800	senden	_	_
+6-24	801-802	.	_	_
+
+#Text=Wir haben ferner hier bei der Central Direktion gar keine Pläne des neuen Gebäudes , und sollen doch v. Iters darüber Rede stehen .
+7-1	803-806	Wir	_	_
+7-2	807-812	haben	_	_
+7-3	813-819	ferner	_	_
+7-4	820-824	hier	_	_
+7-5	825-828	bei	_	_
+7-6	829-832	der	_	_
+7-7	833-840	Central	*[10]	ORGmentioned[10]
+7-8	841-850	Direktion	*[10]	ORGmentioned[10]
+7-9	851-854	gar	_	_
+7-10	855-860	keine	_	_
+7-11	861-866	Pläne	_	_
+7-12	867-870	des	_	_
+7-13	871-876	neuen	_	_
+7-14	877-885	Gebäudes	_	_
+7-15	886-887	,	_	_
+7-16	888-891	und	_	_
+7-17	892-898	sollen	_	_
+7-18	899-903	doch	_	_
+7-19	904-906	v.	*[11]	PERmentioned[11]
+7-20	907-912	Iters	*[11]	PERmentioned[11]
+7-21	913-920	darüber	_	_
+7-22	921-925	Rede	_	_
+7-23	926-932	stehen	_	_
+7-24	933-934	.	_	_
+
+#Text=Wollen Sie also doch alle wichtigeren Pläne wie sie jetzt feststehen besonders für uns durchzeichnen lassen und mir sobald es geschehen zusenden .
+8-1	935-941	Wollen	_	_
+8-2	942-945	Sie	_	_
+8-3	946-950	also	_	_
+8-4	951-955	doch	_	_
+8-5	956-960	alle	_	_
+8-6	961-972	wichtigeren	_	_
+8-7	973-978	Pläne	_	_
+8-8	979-982	wie	_	_
+8-9	983-986	sie	_	_
+8-10	987-992	jetzt	_	_
+8-11	993-1003	feststehen	_	_
+8-12	1004-1013	besonders	_	_
+8-13	1014-1017	für	_	_
+8-14	1018-1021	uns	_	_
+8-15	1022-1035	durchzeichnen	_	_
+8-16	1036-1042	lassen	_	_
+8-17	1043-1046	und	_	_
+8-18	1047-1050	mir	_	_
+8-19	1051-1057	sobald	_	_
+8-20	1058-1060	es	_	_
+8-21	1061-1070	geschehen	_	_
+8-22	1071-1079	zusenden	_	_
+8-23	1080-1081	.	_	_
+
+#Text=Endlich haben hier die verschiedenen Drucksachen
+9-1	1082-1089	Endlich	_	_
+9-2	1090-1095	haben	_	_
+9-3	1096-1100	hier	_	_
+9-4	1101-1104	die	_	_
+9-5	1105-1118	verschiedenen	_	_
+9-6	1119-1130	Drucksachen	_	_

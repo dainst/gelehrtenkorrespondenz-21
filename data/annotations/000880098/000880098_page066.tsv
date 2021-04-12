@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=669 Braun an Gerhard Rom , 30. September 1834 In Pompeji soll ein herrliches Wandgemälde entdeckt worden sein .
+1-1	0-3	669	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[1]	DATEletter[1]
+1-8	31-40	September	*[1]	DATEletter[1]
+1-9	41-45	1834	*[1]	DATEletter[1]
+1-10	46-48	In	_	_
+1-11	49-56	Pompeji	*	PLACEmentioned
+1-12	57-61	soll	_	_
+1-13	62-65	ein	*[2]	OBJ[2]
+1-14	66-76	herrliches	*[2]	OBJ[2]
+1-15	77-88	Wandgemälde	*[2]	OBJ[2]
+1-16	89-97	entdeckt	_	_
+1-17	98-104	worden	_	_
+1-18	105-109	sein	_	_
+1-19	110-111	.	_	_
+
+#Text=Herr Wedewer , von dem ich Ihnen früher schrieb , hat die Stelle bei Stackelberg erhalten .
+2-1	112-116	Herr	_	_
+2-2	117-124	Wedewer	*	PERmentioned
+2-3	125-126	,	_	_
+2-4	127-130	von	_	_
+2-5	131-134	dem	_	_
+2-6	135-138	ich	_	_
+2-7	139-144	Ihnen	_	_
+2-8	145-151	früher	_	_
+2-9	152-159	schrieb	_	_
+2-10	160-161	,	_	_
+2-11	162-165	hat	_	_
+2-12	166-169	die	_	_
+2-13	170-176	Stelle	_	_
+2-14	177-180	bei	_	_
+2-15	181-192	Stackelberg	*	PERmentioned
+2-16	193-201	erhalten	_	_
+2-17	202-203	.	_	_
+
+#Text=Er erhält > 00 Scudi und alles frei , hat dabei nur einen einzigen Zögling .
+3-1	204-206	Er	_	_
+3-2	207-213	erhält	_	_
+3-3	214-215	>	_	_
+3-4	216-218	00	_	_
+3-5	219-224	Scudi	_	_
+3-6	225-228	und	_	_
+3-7	229-234	alles	_	_
+3-8	235-239	frei	_	_
+3-9	240-241	,	_	_
+3-10	242-245	hat	_	_
+3-11	246-251	dabei	_	_
+3-12	252-255	nur	_	_
+3-13	256-261	einen	_	_
+3-14	262-270	einzigen	_	_
+3-15	271-278	Zögling	_	_
+3-16	279-280	.	_	_
+
+#Text=Ich bin ein Esel gewesen , dass ich mich nicht selbst zu solchem Posten gemeldet .
+4-1	281-284	Ich	_	_
+4-2	285-288	bin	_	_
+4-3	289-292	ein	_	_
+4-4	293-297	Esel	_	_
+4-5	298-305	gewesen	_	_
+4-6	306-307	,	_	_
+4-7	308-312	dass	_	_
+4-8	313-316	ich	_	_
+4-9	317-321	mich	_	_
+4-10	322-327	nicht	_	_
+4-11	328-334	selbst	_	_
+4-12	335-337	zu	_	_
+4-13	338-345	solchem	_	_
+4-14	346-352	Posten	_	_
+4-15	353-361	gemeldet	_	_
+4-16	362-363	.	_	_
+
+#Text=Bunsen will in Betreff der Briefe für Boden und Gagarin das Unmögliche thun .
+5-1	364-370	Bunsen	*	PERmentioned
+5-2	371-375	will	_	_
+5-3	376-378	in	_	_
+5-4	379-386	Betreff	_	_
+5-5	387-390	der	_	_
+5-6	391-397	Briefe	_	_
+5-7	398-401	für	_	_
+5-8	402-407	Boden	*	PERmentioned
+5-9	408-411	und	_	_
+5-10	412-419	Gagarin	*	PERmentioned
+5-11	420-423	das	_	_
+5-12	424-434	Unmögliche	_	_
+5-13	435-439	thun	_	_
+5-14	440-441	.	_	_
+
+#Text=Die Kisten für Bonn und Berlin sind vorige Woche abgegangen \; da Bunsen in Frascati ist , so dauert es unsäglich lange die Kisten von der Dogana zu erhalten .
+6-1	442-445	Die	_	_
+6-2	446-452	Kisten	_	_
+6-3	453-456	für	_	_
+6-4	457-461	Bonn	*	PLACEmentioned
+6-5	462-465	und	_	_
+6-6	466-472	Berlin	*	PLACEmentioned
+6-7	473-477	sind	_	_
+6-8	478-484	vorige	_	_
+6-9	485-490	Woche	_	_
+6-10	491-501	abgegangen	_	_
+6-11	502-503	\;	_	_
+6-12	504-506	da	_	_
+6-13	507-513	Bunsen	*	PERmentioned
+6-14	514-516	in	_	_
+6-15	517-525	Frascati	*	PLACEmentioned
+6-16	526-529	ist	_	_
+6-17	530-531	,	_	_
+6-18	532-534	so	_	_
+6-19	535-541	dauert	_	_
+6-20	542-544	es	_	_
+6-21	545-554	unsäglich	_	_
+6-22	555-560	lange	_	_
+6-23	561-564	die	_	_
+6-24	565-571	Kisten	_	_
+6-25	572-575	von	_	_
+6-26	576-579	der	_	_
+6-27	580-586	Dogana	*	ORGmentioned
+6-28	587-589	zu	_	_
+6-29	590-598	erhalten	_	_
+6-30	599-600	.	_	_
+
+#Text=Dann hat mich auch Cades aufgehalten .
+7-1	601-605	Dann	_	_
+7-2	606-609	hat	_	_
+7-3	610-614	mich	_	_
+7-4	615-619	auch	_	_
+7-5	620-625	Cades	*	PERmentioned
+7-6	626-637	aufgehalten	_	_
+7-7	638-639	.	_	_
+
+#Text=Sie erhalten übrigens 7 Exemplare ( der für Bonn ist an Marcus abgegangen als das achte ) und 2 vollständige .
+8-1	640-643	Sie	_	_
+8-2	644-652	erhalten	_	_
+8-3	653-661	übrigens	_	_
+8-4	662-663	7	_	_
+8-5	664-673	Exemplare	_	_
+8-6	674-675	(	_	_
+8-7	676-679	der	_	_
+8-8	680-683	für	_	_
+8-9	684-688	Bonn	*	PLACEmentioned
+8-10	689-692	ist	_	_
+8-11	693-695	an	_	_
+8-12	696-702	Marcus	*	PERmentioned
+8-13	703-713	abgegangen	_	_
+8-14	714-717	als	_	_
+8-15	718-721	das	_	_
+8-16	722-727	achte	_	_
+8-17	728-729	)	_	_
+8-18	730-733	und	_	_
+8-19	734-735	2	_	_
+8-20	736-748	vollständige	_	_
+8-21	749-750	.	_	_
+
+#Text=Da Sie mir übrigens sovieles zu memoriren zugemuthet , so werden Sie Irrthümer zu entschuldigen wissen , die die Treulosigkeit meines Gedächtnisses verursacht haben könnte .
+9-1	751-753	Da	_	_
+9-2	754-757	Sie	_	_
+9-3	758-761	mir	_	_
+9-4	762-770	übrigens	_	_
+9-5	771-779	sovieles	_	_
+9-6	780-782	zu	_	_
+9-7	783-792	memoriren	_	_
+9-8	793-803	zugemuthet	_	_
+9-9	804-805	,	_	_
+9-10	806-808	so	_	_
+9-11	809-815	werden	_	_
+9-12	816-819	Sie	_	_
+9-13	820-829	Irrthümer	_	_
+9-14	830-832	zu	_	_
+9-15	833-846	entschuldigen	_	_
+9-16	847-853	wissen	_	_
+9-17	854-855	,	_	_
+9-18	856-859	die	_	_
+9-19	860-863	die	_	_
+9-20	864-877	Treulosigkeit	_	_
+9-21	878-884	meines	_	_
+9-22	885-898	Gedächtnisses	_	_
+9-23	899-909	verursacht	_	_
+9-24	910-915	haben	_	_
+9-25	916-922	könnte	_	_
+9-26	923-924	.	_	_
+
+#Text=Ich habe mein möglichstes gethan und mir viel Kopfweh verursacht \; es greift mir die Nerven an , das viele Herüber- und Hinüberdenken , es ist gar zu viel .
+10-1	925-928	Ich	_	_
+10-2	929-933	habe	_	_
+10-3	934-938	mein	_	_
+10-4	939-950	möglichstes	_	_
+10-5	951-957	gethan	_	_
+10-6	958-961	und	_	_
+10-7	962-965	mir	_	_
+10-8	966-970	viel	_	_
+10-9	971-978	Kopfweh	_	_
+10-10	979-989	verursacht	_	_
+10-11	990-991	\;	_	_
+10-12	992-994	es	_	_
+10-13	995-1001	greift	_	_
+10-14	1002-1005	mir	_	_
+10-15	1006-1009	die	_	_
+10-16	1010-1016	Nerven	_	_
+10-17	1017-1019	an	_	_
+10-18	1020-1021	,	_	_
+10-19	1022-1025	das	_	_
+10-20	1026-1031	viele	_	_
+10-21	1032-1040	Herüber-	_	_
+10-22	1041-1044	und	_	_
+10-23	1045-1058	Hinüberdenken	_	_
+10-24	1059-1060	,	_	_
+10-25	1061-1063	es	_	_
+10-26	1064-1067	ist	_	_
+10-27	1068-1071	gar	_	_
+10-28	1072-1074	zu	_	_
+10-29	1075-1079	viel	_	_
+10-30	1080-1081	.	_	_
+
+#Text=Apolloni hatte die colorierte Ajax Vase schon angefangen und hat sie auch abgeliefert .
+11-1	1082-1090	Apolloni	*	PERmentioned
+11-2	1091-1096	hatte	_	_
+11-3	1097-1100	die	_	_
+11-4	1101-1111	colorierte	_	_
+11-5	1112-1116	Ajax	*[3]	OBJ[3]
+11-6	1117-1121	Vase	*[3]	OBJ[3]
+11-7	1122-1127	schon	_	_
+11-8	1128-1138	angefangen	_	_
+11-9	1139-1142	und	_	_
+11-10	1143-1146	hat	_	_
+11-11	1147-1150	sie	_	_
+11-12	1151-1155	auch	_	_
+11-13	1156-1167	abgeliefert	_	_
+11-14	1168-1169	.	_	_
+
+#Text=Wollen Sie sie dennoch refusieren , so schreiben Sie es mir .
+12-1	1170-1176	Wollen	_	_
+12-2	1177-1180	Sie	_	_
+12-3	1181-1184	sie	_	_
+12-4	1185-1192	dennoch	_	_
+12-5	1193-1203	refusieren	_	_
+12-6	1204-1205	,	_	_
+12-7	1206-1208	so	_	_
+12-8	1209-1218	schreiben	_	_
+12-9	1219-1222	Sie	_	_
+12-10	1223-1225	es	_	_
+12-11	1226-1229	mir	_	_
+12-12	1230-1231	.	_	_
+
+#Text=Die Troilos- Achillesvase haben Sie in Bonn mit anderen Zeichnungen erhalten \; die Kassandravase ist beim Restaurator .
+13-1	1232-1235	Die	_	_
+13-2	1236-1244	Troilos-	*[4]	OBJ[4]
+13-3	1245-1257	Achillesvase	*[4]	OBJ[4]
+13-4	1258-1263	haben	_	_
+13-5	1264-1267	Sie	_	_
+13-6	1268-1270	in	_	_
+13-7	1271-1275	Bonn	*	PLACEmentioned
+13-8	1276-1279	mit	_	_
+13-9	1280-1287	anderen	_	_
+13-10	1288-1299	Zeichnungen	_	_
+13-11	1300-1308	erhalten	_	_
+13-12	1309-1310	\;	_	_
+13-13	1311-1314	die	_	_
+13-14	1315-1328	Kassandravase	*	OBJ
+13-15	1329-1332	ist	_	_
+13-16	1333-1337	beim	_	_
+13-17	1338-1349	Restaurator	_	_
+13-18	1350-1351	.	_	_

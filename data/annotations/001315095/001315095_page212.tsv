@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Momnsen an Brunn Berlin , Mai 1893 Harnack , A. , Professor Dr. , Berlin .
+1-1	0-7	Momnsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	Mai	*[1]	DATEletter[1]
+1-7	30-34	1893	*[1]	DATEletter[1]
+1-8	35-42	Harnack	*[2]	PERauthor[2]
+1-9	43-44	,	*[2]	PERauthor[2]
+1-10	45-47	A.	*[2]	PERauthor[2]
+1-11	48-49	,	_	_
+1-12	50-59	Professor	_	_
+1-13	60-63	Dr.	_	_
+1-14	64-65	,	_	_
+1-15	66-72	Berlin	*	PLACEmentioned
+1-16	73-74	.	_	_
+
+#Text=von Hartel , Wl , Professor Dr. , Hofrath , Wien .
+2-1	75-78	von	*[3]	PERauthor[3]
+2-2	79-85	Hartel	*[3]	PERauthor[3]
+2-3	86-87	,	*[3]	PERauthor[3]
+2-4	88-90	Wl	*[3]	PERauthor[3]
+2-5	91-92	,	_	_
+2-6	93-102	Professor	_	_
+2-7	103-106	Dr.	_	_
+2-8	107-108	,	_	_
+2-9	109-116	Hofrath	_	_
+2-10	117-118	,	_	_
+2-11	119-123	Wien	*	PLACEmentioned
+2-12	124-125	.	_	_
+
+#Text=Hartwig , Th. , Director Prof , Dr. , Frankfurt aM .
+3-1	126-133	Hartwig	*[4]	PERauthor[4]
+3-2	134-135	,	*[4]	PERauthor[4]
+3-3	136-139	Th.	*[4]	PERauthor[4]
+3-4	140-141	,	_	_
+3-5	142-150	Director	_	_
+3-6	151-155	Prof	_	_
+3-7	156-157	,	_	_
+3-8	158-161	Dr.	_	_
+3-9	162-163	,	_	_
+3-10	164-173	Frankfurt	*[5]	PLACEmentioned[5]
+3-11	174-176	aM	*[5]	PLACEmentioned[5]
+3-12	177-178	.	*[5]	PLACEmentioned[5]
+
+#Text=Haussoullier. , B. , Directeur adjoint ä l'Ecole des H.-Etudes , Paris .
+4-1	179-192	Haussoullier.	*[6]	PERauthor[6]
+4-2	193-194	,	*[6]	PERauthor[6]
+4-3	195-197	B.	*[6]	PERauthor[6]
+4-4	198-199	,	_	_
+4-5	200-209	Directeur	_	_
+4-6	210-217	adjoint	_	_
+4-7	218-219	ä	_	_
+4-8	220-227	l'Ecole	*[7]	ORGmentioned[7]
+4-9	228-231	des	*[7]	ORGmentioned[7]
+4-10	232-241	H.-Etudes	*[7]	ORGmentioned[7]
+4-11	242-243	,	_	_
+4-12	244-249	Paris	*	PLACEmentioned
+4-13	250-251	.	_	_
+
+#Text=Haverfield , F. , Oxford .
+5-1	252-262	Haverfield	*[8]	PERauthor[8]
+5-2	263-264	,	*[8]	PERauthor[8]
+5-3	265-267	F.	*[8]	PERauthor[8]
+5-4	268-269	,	_	_
+5-5	270-276	Oxford	*	PLACEmentioned
+5-6	277-278	.	_	_
+
+#Text=Havet , L. , Professeur au College de France , Faris .
+6-1	279-284	Havet	*[9]	PERauthor[9]
+6-2	285-286	,	*[9]	PERauthor[9]
+6-3	287-289	L.	*[9]	PERauthor[9]
+6-4	290-291	,	_	_
+6-5	292-302	Professeur	_	_
+6-6	303-305	au	_	_
+6-7	306-313	College	*[10]	ORGmentioned[10]
+6-8	314-316	de	*[10]	ORGmentioned[10]
+6-9	317-323	France	*[10]	ORGmentioned[10]
+6-10	324-325	,	_	_
+6-11	326-331	Faris	*	PLACEmentioned
+6-12	332-333	.	_	_
+
+#Text=Head , B.D. , British Museum , London .
+7-1	334-338	Head	*[11]	PERauthor[11]
+7-2	339-340	,	*[11]	PERauthor[11]
+7-3	341-345	B.D.	*[11]	PERauthor[11]
+7-4	346-347	,	_	_
+7-5	348-355	British	*[12]	ORGmentioned[12]
+7-6	356-362	Museum	*[12]	ORGmentioned[12]
+7-7	363-364	,	_	_
+7-8	365-371	London	*	PLACEmentioned
+7-9	372-373	.	_	_
+
+#Text=von Hegel , K. , Professor Dr. , Erlangen .
+8-1	374-377	von	*[13]	PERauthor[13]
+8-2	378-383	Hegel	*[13]	PERauthor[13]
+8-3	384-385	,	*[13]	PERauthor[13]
+8-4	386-388	K.	*[13]	PERauthor[13]
+8-5	389-390	,	_	_
+8-6	391-400	Professor	_	_
+8-7	401-404	Dr.	_	_
+8-8	405-406	,	_	_
+8-9	407-415	Erlangen	*	PLACEmentioned
+8-10	416-417	.	_	_
+
+#Text=von Helmholtz , H. , Professor Dr. , Wirkl .
+9-1	418-421	von	*[14]	PERauthor[14]
+9-2	422-431	Helmholtz	*[14]	PERauthor[14]
+9-3	432-433	,	*[14]	PERauthor[14]
+9-4	434-436	H.	*[14]	PERauthor[14]
+9-5	437-438	,	_	_
+9-6	439-448	Professor	_	_
+9-7	449-452	Dr.	_	_
+9-8	453-454	,	_	_
+9-9	455-460	Wirkl	_	_
+9-10	461-462	.	_	_
+
+#Text=Geheimer Rath , Charlottenburg .
+10-1	463-471	Geheimer	_	_
+10-2	472-476	Rath	_	_
+10-3	477-478	,	_	_
+10-4	479-493	Charlottenburg	*	PLACEmentioned
+10-5	494-495	.	_	_
+
+#Text=Hertz , M. , Frofessor Dr. , Geheimrath , Breslau .
+11-1	496-501	Hertz	*[29]	PERauthor[29]
+11-2	502-503	,	*[29]	PERauthor[29]
+11-3	504-506	M.	*[29]	PERauthor[29]
+11-4	507-508	,	_	_
+11-5	509-518	Frofessor	_	_
+11-6	519-522	Dr.	_	_
+11-7	523-524	,	_	_
+11-8	525-535	Geheimrath	_	_
+11-9	536-537	,	_	_
+11-10	538-545	Breslau	*	PLACEmentioned
+11-11	546-547	.	_	_
+
+#Text=von Herzog , E. , Professor Dr. , Tübingen .
+12-1	548-551	von	*[15]	PERauthor[15]
+12-2	552-558	Herzog	*[15]	PERauthor[15]
+12-3	559-560	,	*[15]	PERauthor[15]
+12-4	561-563	E.	*[15]	PERauthor[15]
+12-5	564-565	,	_	_
+12-6	566-575	Professor	_	_
+12-7	576-579	Dr.	_	_
+12-8	580-581	,	_	_
+12-9	582-590	Tübingen	*	PLACEmentioned
+12-10	591-592	.	_	_
+
+#Text=Hettner , F. , Director Dr. , Trier .
+13-1	593-600	Hettner	*[16]	PERauthor[16]
+13-2	601-602	,	*[16]	PERauthor[16]
+13-3	603-605	F.	*[16]	PERauthor[16]
+13-4	606-607	,	_	_
+13-5	608-616	Director	_	_
+13-6	617-620	Dr.	_	_
+13-7	621-622	,	_	_
+13-8	623-628	Trier	*	PLACEmentioned
+13-9	629-630	.	_	_
+
+#Text=Hirschfeld , G. Professor Dr. , Königsberg i.P .
+14-1	631-641	Hirschfeld	*[17]	PERauthor[17]
+14-2	642-643	,	*[17]	PERauthor[17]
+14-3	644-646	G.	*[17]	PERauthor[17]
+14-4	647-656	Professor	_	_
+14-5	657-660	Dr.	_	_
+14-6	661-662	,	_	_
+14-7	663-673	Königsberg	*[18]	PLACEmentioned[18]
+14-8	674-677	i.P	*[18]	PLACEmentioned[18]
+14-9	678-679	.	*[18]	PLACEmentioned[18]
+
+#Text=Hirschfeld , O. , Professor Dr. , Berlin .
+15-1	680-690	Hirschfeld	*[19]	PERauthor[19]
+15-2	691-692	,	*[19]	PERauthor[19]
+15-3	693-695	O.	*[19]	PERauthor[19]
+15-4	696-697	,	_	_
+15-5	698-707	Professor	_	_
+15-6	708-711	Dr.	_	_
+15-7	712-713	,	_	_
+15-8	714-720	Berlin	*	PLACEmentioned
+15-9	721-722	.	_	_
+
+#Text=Hirzel , L. , Professor Dr. , Bern .
+16-1	723-729	Hirzel	*[20]	PERauthor[20]
+16-2	730-731	,	*[20]	PERauthor[20]
+16-3	732-734	L.	*[20]	PERauthor[20]
+16-4	735-736	,	_	_
+16-5	737-746	Professor	_	_
+16-6	747-750	Dr.	_	_
+16-7	751-752	,	_	_
+16-8	753-757	Bern	*	PLACEmentioned
+16-9	758-759	.	_	_
+
+#Text=Hirzel , R. , Professor Dr. , Jena .
+17-1	760-766	Hirzel	*[21]	PERauthor[21]
+17-2	767-768	,	*[21]	PERauthor[21]
+17-3	769-771	R.	*[21]	PERauthor[21]
+17-4	772-773	,	_	_
+17-5	774-783	Professor	_	_
+17-6	784-787	Dr.	_	_
+17-7	788-789	,	_	_
+17-8	790-794	Jena	*	PLACEmentioned
+17-9	795-796	.	_	_
+
+#Text=Hirzel , H. , Verlagsbuchhändler , Leipzig .
+18-1	797-803	Hirzel	*[22]	PERauthor[22]
+18-2	804-805	,	*[22]	PERauthor[22]
+18-3	806-808	H.	*[22]	PERauthor[22]
+18-4	809-810	,	_	_
+18-5	811-829	Verlagsbuchhändler	_	_
+18-6	830-831	,	_	_
+18-7	832-839	Leipzig	*	PLACEmentioned
+18-8	840-841	.	_	_
+
+#Text=Hitzig , H. Professor Dr. , Zürich .
+19-1	842-848	Hitzig	*[23]	PERauthor[23]
+19-2	849-850	,	*[23]	PERauthor[23]
+19-3	851-853	H.	*[23]	PERauthor[23]
+19-4	854-863	Professor	_	_
+19-5	864-867	Dr.	_	_
+19-6	868-869	,	_	_
+19-7	870-876	Zürich	*	PLACEmentioned
+19-8	877-878	.	_	_
+
+#Text=Homolle , Th. , Directeur de l1'Ecole Frangaise , Athen .
+20-1	879-886	Homolle	*[24]	PERauthor[24]
+20-2	887-888	,	*[24]	PERauthor[24]
+20-3	889-892	Th.	*[24]	PERauthor[24]
+20-4	893-894	,	*[24]	PERauthor[24]
+20-5	895-904	Directeur	_	_
+20-6	905-907	de	_	_
+20-7	908-916	l1'Ecole	*[25]	ORGmentioned[25]
+20-8	917-926	Frangaise	*[25]	ORGmentioned[25]
+20-9	927-928	,	_	_
+20-10	929-934	Athen	*	PLACEmentioned
+20-11	935-936	.	_	_
+
+#Text=von der Hude , H. , Baurath , Berlin .
+21-1	937-940	von	*[26]	PERauthor[26]
+21-2	941-944	der	*[26]	PERauthor[26]
+21-3	945-949	Hude	*[26]	PERauthor[26]
+21-4	950-951	,	*[26]	PERauthor[26]
+21-5	952-954	H.	*[26]	PERauthor[26]
+21-6	955-956	,	_	_
+21-7	957-964	Baurath	_	_
+21-8	965-966	,	_	_
+21-9	967-973	Berlin	*	PLACEmentioned
+21-10	974-975	.	_	_
+
+#Text=Hülsen , Chr. , Dr. , Rom .
+22-1	976-982	Hülsen	*[27]	PERauthor[27]
+22-2	983-984	,	*[27]	PERauthor[27]
+22-3	985-989	Chr.	*[27]	PERauthor[27]
+22-4	990-991	,	_	_
+22-5	992-995	Dr.	_	_
+22-6	996-997	,	_	_
+22-7	998-1001	Rom	*	PLACEmentioned
+22-8	1002-1003	.	_	_
+
+#Text=Humann , C. , Director Dr. , Smyrna .
+23-1	1004-1010	Humann	*[28]	PERauthor[28]
+23-2	1011-1012	,	*[28]	PERauthor[28]
+23-3	1013-1015	C.	*[28]	PERauthor[28]
+23-4	1016-1017	,	_	_
+23-5	1018-1026	Director	_	_
+23-6	1027-1030	Dr.	_	_
+23-7	1031-1032	,	_	_
+23-8	1033-1039	Smyrna	*	PLACEmentioned
+23-9	1040-1041	.	_	_

@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 30 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	30	*[4]	DATEletter[4]
+1-7	26-27	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 — 3 — Bilancio Einnahmen Scudi 107 . 51 .
+2-1	28-34	Januar	*[4]	DATEletter[4]
+2-2	35-39	1838	*[4]	DATEletter[4]
+2-3	40-41	—	_	_
+2-4	42-43	3	_	_
+2-5	44-45	—	_	_
+2-6	46-54	Bilancio	_	_
+2-7	55-64	Einnahmen	_	_
+2-8	65-70	Scudi	_	_
+2-9	71-74	107	_	_
+2-10	75-76	.	_	_
+2-11	77-79	51	_	_
+2-12	80-81	.	_	_
+
+#Text=Ausgaben 50 . 20 .
+3-1	82-90	Ausgaben	_	_
+3-2	91-93	50	_	_
+3-3	94-95	.	_	_
+3-4	96-98	20	_	_
+3-5	99-100	.	_	_
+
+#Text=Meine Schuld Scudi 57.31 .
+4-1	101-106	Meine	_	_
+4-2	107-113	Schuld	_	_
+4-3	114-119	Scudi	_	_
+4-4	120-125	57.31	_	_
+4-5	126-127	.	_	_
+
+#Text=Veber obige Summe bitte ich zu disponiren .
+5-1	128-133	Veber	_	_
+5-2	134-139	obige	_	_
+5-3	140-145	Summe	_	_
+5-4	146-151	bitte	_	_
+5-5	152-155	ich	_	_
+5-6	156-158	zu	_	_
+5-7	159-169	disponiren	_	_
+5-8	170-171	.	_	_
+
+#Text=Basseggio kann ich davon freilich nicht bezahlen .
+6-1	172-181	Basseggio	*	PERmentioned
+6-2	182-186	kann	_	_
+6-3	187-190	ich	_	_
+6-4	191-196	davon	_	_
+6-5	197-205	freilich	_	_
+6-6	206-211	nicht	_	_
+6-7	212-220	bezahlen	_	_
+6-8	221-222	.	_	_
+
+#Text=Vollard scheint auch größere Geldsendungen erwartet zu haben .
+7-1	223-230	Vollard	*	PERmentioned
+7-2	231-238	scheint	_	_
+7-3	239-243	auch	_	_
+7-4	244-251	größere	_	_
+7-5	252-265	Geldsendungen	_	_
+7-6	266-274	erwartet	_	_
+7-7	275-277	zu	_	_
+7-8	278-283	haben	_	_
+7-9	284-285	.	_	_
+
+#Text=Die Restaurationen sind soweit Sie sie angeordnet hinterlassen hatten alle seit mehr als Monats Frist erledigt .
+8-1	286-289	Die	_	_
+8-2	290-304	Restaurationen	_	_
+8-3	305-309	sind	_	_
+8-4	310-316	soweit	_	_
+8-5	317-320	Sie	_	_
+8-6	321-324	sie	_	_
+8-7	325-335	angeordnet	_	_
+8-8	336-348	hinterlassen	_	_
+8-9	349-355	hatten	_	_
+8-10	356-360	alle	_	_
+8-11	361-365	seit	_	_
+8-12	366-370	mehr	_	_
+8-13	371-374	als	_	_
+8-14	375-381	Monats	_	_
+8-15	382-387	Frist	_	_
+8-16	388-396	erledigt	_	_
+8-17	397-398	.	_	_
+
+#Text=Es hat bloß einer Aufforderung Ihrer Seits bedurft um die Sendung flott zu machen , was baldigst geschehen soll .
+9-1	399-401	Es	_	_
+9-2	402-405	hat	_	_
+9-3	406-410	bloß	_	_
+9-4	411-416	einer	_	_
+9-5	417-429	Aufforderung	_	_
+9-6	430-435	Ihrer	_	_
+9-7	436-441	Seits	_	_
+9-8	442-449	bedurft	_	_
+9-9	450-452	um	_	_
+9-10	453-456	die	_	_
+9-11	457-464	Sendung	_	_
+9-12	465-470	flott	_	_
+9-13	471-473	zu	_	_
+9-14	474-480	machen	_	_
+9-15	481-482	,	_	_
+9-16	483-486	was	_	_
+9-17	487-495	baldigst	_	_
+9-18	496-505	geschehen	_	_
+9-19	506-510	soll	_	_
+9-20	511-512	.	_	_
+
+#Text=Die Leierspielende Minerva ist eine sehr anständige Dionys .
+10-1	513-516	Die	_	_
+10-2	517-531	Leierspielende	*[7]	OBJ[7]
+10-3	532-539	Minerva	*[7]	OBJ[7]
+10-4	540-543	ist	_	_
+10-5	544-548	eine	_	_
+10-6	549-553	sehr	_	_
+10-7	554-564	anständige	_	_
+10-8	565-571	Dionys	*[8]	OBJ[8]
+10-9	572-573	.	*[8]	OBJ[8]
+
+#Text=Amphore geworden .
+11-1	574-581	Amphore	*[8]	OBJ[8]
+11-2	582-590	geworden	_	_
+11-3	591-592	.	_	_
+
+#Text=Sie schreiben mir nicht , ob Sie alles haben wollen , was restaurirt ist \; oder nur die zur Auswahl bezeichneten Stücke .
+12-1	593-596	Sie	_	_
+12-2	597-606	schreiben	_	_
+12-3	607-610	mir	_	_
+12-4	611-616	nicht	_	_
+12-5	617-618	,	_	_
+12-6	619-621	ob	_	_
+12-7	622-625	Sie	_	_
+12-8	626-631	alles	_	_
+12-9	632-637	haben	_	_
+12-10	638-644	wollen	_	_
+12-11	645-646	,	_	_
+12-12	647-650	was	_	_
+12-13	651-661	restaurirt	_	_
+12-14	662-665	ist	_	_
+12-15	666-667	\;	_	_
+12-16	668-672	oder	_	_
+12-17	673-676	nur	_	_
+12-18	677-680	die	_	_
+12-19	681-684	zur	_	_
+12-20	685-692	Auswahl	_	_
+12-21	693-705	bezeichneten	_	_
+12-22	706-712	Stücke	_	_
+12-23	713-714	.	_	_
+
+#Text=Der doppelt angesetzten Schreinerrechnung wegen habe ich mit Ferri und De Antonis gesprochen .
+13-1	715-718	Der	_	_
+13-2	719-726	doppelt	_	_
+13-3	727-738	angesetzten	_	_
+13-4	739-756	Schreinerrechnung	_	_
+13-5	757-762	wegen	_	_
+13-6	763-767	habe	_	_
+13-7	768-771	ich	_	_
+13-8	772-775	mit	_	_
+13-9	776-781	Ferri	*	PERmentioned
+13-10	782-785	und	_	_
+13-11	786-788	De	*[10]	PERmentioned[10]
+13-12	789-796	Antonis	*[10]	PERmentioned[10]
+13-13	797-807	gesprochen	_	_
+13-14	808-809	.	_	_
+
+#Text=Sie müssen mir die Quittungen darüber spezifiziren , d. h. die auf der Polizze aufgeführten Summen und die an Ferri ( den Schreiner ) direct bezahlten .
+14-1	810-813	Sie	_	_
+14-2	814-820	müssen	_	_
+14-3	821-824	mir	_	_
+14-4	825-828	die	_	_
+14-5	829-839	Quittungen	_	_
+14-6	840-847	darüber	_	_
+14-7	848-860	spezifiziren	_	_
+14-8	861-862	,	_	_
+14-9	863-865	d.	_	_
+14-10	866-868	h.	_	_
+14-11	869-872	die	_	_
+14-12	873-876	auf	_	_
+14-13	877-880	der	_	_
+14-14	881-888	Polizze	_	_
+14-15	889-901	aufgeführten	_	_
+14-16	902-908	Summen	_	_
+14-17	909-912	und	_	_
+14-18	913-916	die	_	_
+14-19	917-919	an	_	_
+14-20	920-925	Ferri	*	PERmentioned
+14-21	926-927	(	_	_
+14-22	928-931	den	_	_
+14-23	932-941	Schreiner	_	_
+14-24	942-943	)	_	_
+14-25	944-950	direct	_	_
+14-26	951-960	bezahlten	_	_
+14-27	961-962	.	_	_
+
+#Text=Sie glauben nicht was man mit diesem Volk für Noth hat .
+15-1	963-966	Sie	_	_
+15-2	967-974	glauben	_	_
+15-3	975-980	nicht	_	_
+15-4	981-984	was	_	_
+15-5	985-988	man	_	_
+15-6	989-992	mit	_	_
+15-7	993-999	diesem	_	_
+15-8	1000-1004	Volk	_	_
+15-9	1005-1008	für	_	_
+15-10	1009-1013	Noth	_	_
+15-11	1014-1017	hat	_	_
+15-12	1018-1019	.	_	_
+
+#Text=- Wenn Sie mir den Müller u. a. berechnen , so bitte ich denn um Berechnung des Welckerschen Ueberschusses nach Abzug der an Parthey bezahlten Rechnung .
+16-1	1020-1021	-	_	_
+16-2	1022-1026	Wenn	_	_
+16-3	1027-1030	Sie	_	_
+16-4	1031-1034	mir	_	_
+16-5	1035-1038	den	_	_
+16-6	1039-1045	Müller	*	PERmentioned
+16-7	1046-1048	u.	_	_
+16-8	1049-1051	a.	_	_
+16-9	1052-1061	berechnen	_	_
+16-10	1062-1063	,	_	_
+16-11	1064-1066	so	_	_
+16-12	1067-1072	bitte	_	_
+16-13	1073-1076	ich	_	_
+16-14	1077-1081	denn	_	_
+16-15	1082-1084	um	_	_
+16-16	1085-1095	Berechnung	_	_
+16-17	1096-1099	des	_	_
+16-18	1100-1112	Welckerschen	*	PERmentioned
+16-19	1113-1126	Ueberschusses	_	_
+16-20	1127-1131	nach	_	_
+16-21	1132-1137	Abzug	_	_
+16-22	1138-1141	der	_	_
+16-23	1142-1144	an	_	_
+16-24	1145-1152	Parthey	*	PERmentioned
+16-25	1153-1162	bezahlten	_	_
+16-26	1163-1171	Rechnung	_	_
+16-27	1172-1173	.	_	_
+
+#Text=- An Schorn werde ich wegen des Großherzogs schreiben .
+17-1	1174-1175	-	_	_
+17-2	1176-1178	An	_	_
+17-3	1179-1185	Schorn	*	PERmentioned
+17-4	1186-1191	werde	_	_
+17-5	1192-1195	ich	_	_
+17-6	1196-1201	wegen	_	_
+17-7	1202-1205	des	_	_
+17-8	1206-1217	Großherzogs	_	_
+17-9	1218-1227	schreiben	_	_
+17-10	1228-1229	.	_	_
+
+#Text=Bibliotheken sind übrigens besser als Großherzöge \; denn die können Ehrenhalber nicht kündigen und sterben auch nicht .
+18-1	1230-1242	Bibliotheken	_	_
+18-2	1243-1247	sind	_	_
+18-3	1248-1256	übrigens	_	_
+18-4	1257-1263	besser	_	_
+18-5	1264-1267	als	_	_
+18-6	1268-1279	Großherzöge	_	_
+18-7	1280-1281	\;	_	_
+18-8	1282-1286	denn	_	_
+18-9	1287-1290	die	_	_
+18-10	1291-1297	können	_	_
+18-11	1298-1309	Ehrenhalber	_	_
+18-12	1310-1315	nicht	_	_
+18-13	1316-1324	kündigen	_	_
+18-14	1325-1328	und	_	_
+18-15	1329-1336	sterben	_	_
+18-16	1337-1341	auch	_	_
+18-17	1342-1347	nicht	_	_
+18-18	1348-1349	.	_	_
+
+#Text=- Wegen der Mitgliederliste des Instituts will
+19-1	1350-1351	-	_	_
+19-2	1352-1357	Wegen	_	_
+19-3	1358-1361	der	_	_
+19-4	1362-1377	Mitgliederliste	_	_
+19-5	1378-1381	des	_	_
+19-6	1382-1391	Instituts	*	ORGmentioned
+19-7	1392-1396	will	_	_

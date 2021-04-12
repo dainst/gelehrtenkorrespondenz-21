@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Ancona , 20. März 1837 Dr. Braun g . 23/3 37 XCV Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Ancona	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	20.	*[4]	DATEletter[4]
+1-7	30-34	März	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-43	Dr.	_	_
+1-10	44-49	Braun	*	PERmentioned
+1-11	50-51	g	_	_
+1-12	52-53	.	_	_
+1-13	54-58	23/3	*[6]	DATErecieved[6]
+1-14	59-61	37	*[6]	DATErecieved[6]
+1-15	62-65	XCV	_	_
+1-16	66-69	Dir	_	_
+1-17	70-71	.	_	_
+
+#Text=Rom .
+2-1	72-75	Rom	*	PLACEto
+2-2	76-77	.	_	_
+
+#Text=Gerh .
+3-1	78-82	Gerh	_	_
+3-2	83-84	.	_	_
+
+#Text=Ancona 20 März 37 Hier lieber Freund bin ich mit Fieber heut angelangt \; morgen soll ich ins Schiff steigen .
+4-1	85-91	Ancona	*	PLACEfrom
+4-2	92-94	20	*[9]	DATEletter[9]
+4-3	95-99	März	*[9]	DATEletter[9]
+4-4	100-102	37	*[9]	DATEletter[9]
+4-5	103-107	Hier	_	_
+4-6	108-114	lieber	_	_
+4-7	115-121	Freund	_	_
+4-8	122-125	bin	_	_
+4-9	126-129	ich	_	_
+4-10	130-133	mit	_	_
+4-11	134-140	Fieber	_	_
+4-12	141-145	heut	_	_
+4-13	146-155	angelangt	_	_
+4-14	156-157	\;	_	_
+4-15	158-164	morgen	_	_
+4-16	165-169	soll	_	_
+4-17	170-173	ich	_	_
+4-18	174-177	ins	_	_
+4-19	178-184	Schiff	_	_
+4-20	185-192	steigen	_	_
+4-21	193-194	.	_	_
+
+#Text=Auf dem Fostwagen sind mir allerlei Institutssorgen eingefallen die ich auf einem anhangenden Blatt an Lanci comnetiren will \; item ist mir ( unter uns ) ziemlich klar geworden daß ich im voraussetzlichen Fall glücklicher Rückkehr jedenfalls noch auf 8 Tage nach Rom komme .
+5-1	195-198	Auf	_	_
+5-2	199-202	dem	_	_
+5-3	203-212	Fostwagen	_	_
+5-4	213-217	sind	_	_
+5-5	218-221	mir	_	_
+5-6	222-230	allerlei	_	_
+5-7	231-246	Institutssorgen	_	_
+5-8	247-258	eingefallen	_	_
+5-9	259-262	die	_	_
+5-10	263-266	ich	_	_
+5-11	267-270	auf	_	_
+5-12	271-276	einem	_	_
+5-13	277-288	anhangenden	_	_
+5-14	289-294	Blatt	_	_
+5-15	295-297	an	_	_
+5-16	298-303	Lanci	*	PERmentioned
+5-17	304-314	comnetiren	_	_
+5-18	315-319	will	_	_
+5-19	320-321	\;	_	_
+5-20	322-326	item	_	_
+5-21	327-330	ist	_	_
+5-22	331-334	mir	_	_
+5-23	335-336	(	_	_
+5-24	337-342	unter	_	_
+5-25	343-346	uns	_	_
+5-26	347-348	)	_	_
+5-27	349-357	ziemlich	_	_
+5-28	358-362	klar	_	_
+5-29	363-371	geworden	_	_
+5-30	372-375	daß	_	_
+5-31	376-379	ich	_	_
+5-32	380-382	im	_	_
+5-33	383-399	voraussetzlichen	_	_
+5-34	400-404	Fall	_	_
+5-35	405-416	glücklicher	_	_
+5-36	417-425	Rückkehr	_	_
+5-37	426-436	jedenfalls	_	_
+5-38	437-441	noch	_	_
+5-39	442-445	auf	_	_
+5-40	446-447	8	_	_
+5-41	448-452	Tage	_	_
+5-42	453-457	nach	_	_
+5-43	458-461	Rom	*	PLACEmentioned
+5-44	462-467	komme	_	_
+5-45	468-469	.	_	_
+
+#Text=Und zwar würde ich dies so einrichten daß ich Anfang Juni schon wieder in Rom wäre .
+6-1	470-473	Und	_	_
+6-2	474-478	zwar	_	_
+6-3	479-484	würde	_	_
+6-4	485-488	ich	_	_
+6-5	489-493	dies	_	_
+6-6	494-496	so	_	_
+6-7	497-507	einrichten	_	_
+6-8	508-511	daß	_	_
+6-9	512-515	ich	_	_
+6-10	516-522	Anfang	_	_
+6-11	523-527	Juni	*	DATEmentioned
+6-12	528-533	schon	_	_
+6-13	534-540	wieder	_	_
+6-14	541-543	in	_	_
+6-15	544-547	Rom	*	PLACEmentioned
+6-16	548-552	wäre	_	_
+6-17	553-554	.	_	_
+
+#Text=Ich müßte mich dann freilich in Griechenland kurz fassen , aber nur 1 mal im Monat ( am 16.ten ) geht das Dampfschiff von Corfu ab .
+7-1	555-558	Ich	_	_
+7-2	559-564	müßte	_	_
+7-3	565-569	mich	_	_
+7-4	570-574	dann	_	_
+7-5	575-583	freilich	_	_
+7-6	584-586	in	_	_
+7-7	587-599	Griechenland	*	PLACEmentioned
+7-8	600-604	kurz	_	_
+7-9	605-611	fassen	_	_
+7-10	612-613	,	_	_
+7-11	614-618	aber	_	_
+7-12	619-622	nur	_	_
+7-13	623-624	1	_	_
+7-14	625-628	mal	_	_
+7-15	629-631	im	_	_
+7-16	632-637	Monat	_	_
+7-17	638-639	(	_	_
+7-18	640-642	am	_	_
+7-19	643-649	16.ten	*	DATEmentioned
+7-20	650-651	)	_	_
+7-21	652-656	geht	_	_
+7-22	657-660	das	_	_
+7-23	661-672	Dampfschiff	_	_
+7-24	673-676	von	_	_
+7-25	677-682	Corfu	*	PLACEmentioned
+7-26	683-685	ab	_	_
+7-27	686-687	.	_	_
+
+#Text=Regelmäßigen brieflichen Verkehr werden wir unterdeß nur durch eben dieses Dampfschiff haben .
+8-1	688-700	Regelmäßigen	_	_
+8-2	701-712	brieflichen	_	_
+8-3	713-720	Verkehr	_	_
+8-4	721-727	werden	_	_
+8-5	728-731	wir	_	_
+8-6	732-740	unterdeß	_	_
+8-7	741-744	nur	_	_
+8-8	745-750	durch	_	_
+8-9	751-755	eben	_	_
+8-10	756-762	dieses	_	_
+8-11	763-774	Dampfschiff	_	_
+8-12	775-780	haben	_	_
+8-13	781-782	.	_	_
+
+#Text=Richten Sie Ihre Sendungen , alle die einigermaßen drängen , so ein daß sie ( mit Inbegriff Panofkascher , ausländischer und römischer Briefe an mich ) bis zum 18.ten des nächsten Monats in Ancona sein können , unter der Addresse des Cav .
+9-1	783-790	Richten	_	_
+9-2	791-794	Sie	_	_
+9-3	795-799	Ihre	_	_
+9-4	800-809	Sendungen	_	_
+9-5	810-811	,	_	_
+9-6	812-816	alle	_	_
+9-7	817-820	die	_	_
+9-8	821-833	einigermaßen	_	_
+9-9	834-841	drängen	_	_
+9-10	842-843	,	_	_
+9-11	844-846	so	_	_
+9-12	847-850	ein	_	_
+9-13	851-854	daß	_	_
+9-14	855-858	sie	_	_
+9-15	859-860	(	_	_
+9-16	861-864	mit	_	_
+9-17	865-874	Inbegriff	_	_
+9-18	875-887	Panofkascher	*	PERmentioned
+9-19	888-889	,	_	_
+9-20	890-903	ausländischer	_	_
+9-21	904-907	und	_	_
+9-22	908-917	römischer	_	_
+9-23	918-924	Briefe	_	_
+9-24	925-927	an	_	_
+9-25	928-932	mich	_	_
+9-26	933-934	)	_	_
+9-27	935-938	bis	_	_
+9-28	939-942	zum	_	_
+9-29	943-949	18.ten	_	_
+9-30	950-953	des	_	_
+9-31	954-962	nächsten	_	_
+9-32	963-969	Monats	_	_
+9-33	970-972	in	_	_
+9-34	973-979	Ancona	*	PLACEmentioned
+9-35	980-984	sein	_	_
+9-36	985-991	können	_	_
+9-37	992-993	,	_	_
+9-38	994-999	unter	_	_
+9-39	1000-1003	der	_	_
+9-40	1004-1012	Addresse	_	_
+9-41	1013-1016	des	_	_
+9-42	1017-1020	Cav	_	_
+9-43	1021-1022	.	_	_
+
+#Text=Bolaffi , Console Generale di Baviera , Ancona .
+10-1	1023-1030	Bolaffi	*	PERmentioned
+10-2	1031-1032	,	_	_
+10-3	1033-1040	Console	_	_
+10-4	1041-1049	Generale	_	_
+10-5	1050-1052	di	_	_
+10-6	1053-1060	Baviera	_	_
+10-7	1061-1062	,	_	_
+10-8	1063-1069	Ancona	*	PLACEmentioned
+10-9	1070-1071	.	_	_
+
+#Text=Die Novitäten chronik des diesjährigen Bull .
+11-1	1072-1075	Die	_	_
+11-2	1076-1085	Novitäten	_	_
+11-3	1086-1093	chronik	_	_
+11-4	1094-1097	des	_	_
+11-5	1098-1110	diesjährigen	_	_
+11-6	1111-1115	Bull	_	_
+11-7	1116-1117	.	_	_
+
+#Text=rathe ich Ihnen allezeit mit anstehenden Rubriken zu versehen , z . B. Scavi apuli , Monumenti gemmarj , Epigrafia
+12-1	1118-1123	rathe	_	_
+12-2	1124-1127	ich	_	_
+12-3	1128-1133	Ihnen	_	_
+12-4	1134-1142	allezeit	_	_
+12-5	1143-1146	mit	_	_
+12-6	1147-1158	anstehenden	_	_
+12-7	1159-1167	Rubriken	_	_
+12-8	1168-1170	zu	_	_
+12-9	1171-1179	versehen	_	_
+12-10	1180-1181	,	_	_
+12-11	1182-1183	z	_	_
+12-12	1184-1185	.	_	_
+12-13	1186-1188	B.	_	_
+12-14	1189-1194	Scavi	_	_
+12-15	1195-1200	apuli	_	_
+12-16	1201-1202	,	_	_
+12-17	1203-1212	Monumenti	_	_
+12-18	1213-1220	gemmarj	_	_
+12-19	1221-1222	,	_	_
+12-20	1223-1232	Epigrafia	_	_

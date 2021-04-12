@@ -1,0 +1,140 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=623 Lepsius an Henzen Berlin , 1. November 1876 4/XI 76 Berlin , 1 .
+1-1	0-3	623	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	1.	*[3]	DATEletter[3]
+1-8	34-42	November	*[3]	DATEletter[3]
+1-9	43-47	1876	*[3]	DATEletter[3]
+1-10	48-52	4/XI	*[4]	DATErecieved[4]
+1-11	53-55	76	*[4]	DATErecieved[4]
+1-12	56-62	Berlin	*	PLACEfrom
+1-13	63-64	,	_	_
+1-14	65-66	1	_	_
+1-15	67-68	.	*[5]	DATEletter[5]
+
+#Text=Nov .
+2-1	69-72	Nov	*[5]	DATEletter[5]
+2-2	73-74	.	*[5]	DATEletter[5]
+
+#Text=1876 .
+3-1	75-79	1876	*[5]	DATEletter[5]
+3-2	80-81	.	_	_
+
+#Text=Verehrter Freund Wir bedürfen hier der vollständigen Liste der Personen , welche Freiexemplare der Institutsschriften erhalten , haben aber nur die Berliner Liste .
+4-1	82-91	Verehrter	_	_
+4-2	92-98	Freund	_	_
+4-3	99-102	Wir	_	_
+4-4	103-111	bedürfen	_	_
+4-5	112-116	hier	_	_
+4-6	117-120	der	_	_
+4-7	121-134	vollständigen	_	_
+4-8	135-140	Liste	_	_
+4-9	141-144	der	_	_
+4-10	145-153	Personen	_	_
+4-11	154-155	,	_	_
+4-12	156-162	welche	_	_
+4-13	163-176	Freiexemplare	_	_
+4-14	177-180	der	_	_
+4-15	181-199	Institutsschriften	_	_
+4-16	200-208	erhalten	_	_
+4-17	209-210	,	_	_
+4-18	211-216	haben	_	_
+4-19	217-221	aber	_	_
+4-20	222-225	nur	_	_
+4-21	226-229	die	_	_
+4-22	230-238	Berliner	_	_
+4-23	239-244	Liste	_	_
+4-24	245-246	.	_	_
+
+#Text=Darf ich Sie bitten mir umgehend die Römische Liste zu senden .
+5-1	247-251	Darf	_	_
+5-2	252-255	ich	_	_
+5-3	256-259	Sie	_	_
+5-4	260-266	bitten	_	_
+5-5	267-270	mir	_	_
+5-6	271-279	umgehend	_	_
+5-7	280-283	die	_	_
+5-8	284-292	Römische	_	_
+5-9	293-298	Liste	_	_
+5-10	299-301	zu	_	_
+5-11	302-308	senden	_	_
+5-12	309-310	.	_	_
+
+#Text=Über unsre Wünsche wegen der Hausverwaltung werden wir an das Auswärtige Amt berichten , welches dann seinerseits sich mit Herrn v. Keudell darüber benehmen wird .
+6-1	311-315	Über	_	_
+6-2	316-321	unsre	_	_
+6-3	322-329	Wünsche	_	_
+6-4	330-335	wegen	_	_
+6-5	336-339	der	_	_
+6-6	340-354	Hausverwaltung	_	_
+6-7	355-361	werden	_	_
+6-8	362-365	wir	_	_
+6-9	366-368	an	_	_
+6-10	369-372	das	_	_
+6-11	373-383	Auswärtige	*[6]	ORGmentioned[6]
+6-12	384-387	Amt	*[6]	ORGmentioned[6]
+6-13	388-397	berichten	_	_
+6-14	398-399	,	_	_
+6-15	400-407	welches	_	_
+6-16	408-412	dann	_	_
+6-17	413-424	seinerseits	_	_
+6-18	425-429	sich	_	_
+6-19	430-433	mit	_	_
+6-20	434-439	Herrn	_	_
+6-21	440-442	v.	*[7]	PERmentioned[7]
+6-22	443-450	Keudell	*[7]	PERmentioned[7]
+6-23	451-458	darüber	_	_
+6-24	459-467	benehmen	_	_
+6-25	468-472	wird	_	_
+6-26	473-474	.	_	_
+
+#Text=Über die Künstlerbibliothek hat Krüger schon längst beabsichtigt mit Herrn v. Büdow zu sprechen , ist aber noch nicht dazu gekommen .
+7-1	475-479	Über	_	_
+7-2	480-483	die	_	_
+7-3	484-502	Künstlerbibliothek	*	ORGmentioned
+7-4	503-506	hat	_	_
+7-5	507-513	Krüger	*	PERmentioned
+7-6	514-519	schon	_	_
+7-7	520-526	längst	_	_
+7-8	527-539	beabsichtigt	_	_
+7-9	540-543	mit	_	_
+7-10	544-549	Herrn	_	_
+7-11	550-552	v.	*[8]	PERmentioned[8]
+7-12	553-558	Büdow	*[8]	PERmentioned[8]
+7-13	559-561	zu	_	_
+7-14	562-570	sprechen	_	_
+7-15	571-572	,	_	_
+7-16	573-576	ist	_	_
+7-17	577-581	aber	_	_
+7-18	582-586	noch	_	_
+7-19	587-592	nicht	_	_
+7-20	593-597	dazu	_	_
+7-21	598-606	gekommen	_	_
+7-22	607-608	.	_	_
+
+#Text=Ihr letzter Bruef vom 24. ist hiermit beantwortet .
+8-1	609-612	Ihr	_	_
+8-2	613-620	letzter	_	_
+8-3	621-626	Bruef	_	_
+8-4	627-630	vom	_	_
+8-5	631-634	24.	*[9]	DATEmentioned[9]
+8-6	635-638	ist	_	_
+8-7	639-646	hiermit	_	_
+8-8	647-658	beantwortet	_	_
+8-9	659-660	.	_	_
+
+#Text=Mit besten Grüßen Ihr ergebenster R Lepsius
+9-1	661-664	Mit	_	_
+9-2	665-671	besten	_	_
+9-3	672-678	Grüßen	_	_
+9-4	679-682	Ihr	_	_
+9-5	683-694	ergebenster	_	_
+9-6	695-696	R	*[10]	PERauthor[10]
+9-7	697-704	Lepsius	*[10]	PERauthor[10]

@@ -1,0 +1,261 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=273 Brunn an Henzen Perugia , 7. September 861 A. di Dir .
+1-1	0-3	273	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	7.	_	_
+1-8	33-42	September	_	_
+1-9	43-46	861	_	_
+1-10	47-49	A.	_	_
+1-11	50-52	di	_	_
+1-12	53-56	Dir	_	_
+1-13	57-58	.	_	_
+
+#Text=g . 9. September 1861 r . 11. September 1861 Lieber Henzen Der Gegenstand des Cavedoni'ischen Reliefs ist allerdings wenig bedeutend \; die Zeichnung sehr schlecht .
+2-1	59-60	g	_	_
+2-2	61-62	.	_	_
+2-3	63-65	9.	_	_
+2-4	66-75	September	*[11]|*[12]	DATEletter[11]|DATErecieved[12]
+2-5	76-80	1861	*[11]|*[12]	DATEletter[11]|DATErecieved[12]
+2-6	81-82	r	_	_
+2-7	83-84	.	_	_
+2-8	85-88	11.	_	_
+2-9	89-98	September	*[13]	DATEanswered[13]
+2-10	99-103	1861	*[13]	DATEanswered[13]
+2-11	104-110	Lieber	_	_
+2-12	111-117	Henzen	*	PERaddressee
+2-13	118-121	Der	_	_
+2-14	122-132	Gegenstand	_	_
+2-15	133-136	des	_	_
+2-16	137-152	Cavedoni'ischen	*	MISC
+2-17	153-160	Reliefs	*	OBJ
+2-18	161-164	ist	_	_
+2-19	165-175	allerdings	_	_
+2-20	176-181	wenig	_	_
+2-21	182-191	bedeutend	_	_
+2-22	192-193	\;	_	_
+2-23	194-197	die	_	_
+2-24	198-207	Zeichnung	_	_
+2-25	208-212	sehr	_	_
+2-26	213-221	schlecht	_	_
+2-27	222-223	.	_	_
+
+#Text=Für mich würde also die Entscheidung wegen der Publication darin liegen , ob in Cavedoni 's Artikel einige gute Bemerkungen enthalten sind .
+3-1	224-227	Für	_	_
+3-2	228-232	mich	_	_
+3-3	233-238	würde	_	_
+3-4	239-243	also	_	_
+3-5	244-247	die	_	_
+3-6	248-260	Entscheidung	_	_
+3-7	261-266	wegen	_	_
+3-8	267-270	der	_	_
+3-9	271-282	Publication	_	_
+3-10	283-288	darin	_	_
+3-11	289-295	liegen	_	_
+3-12	296-297	,	_	_
+3-13	298-300	ob	_	_
+3-14	301-303	in	_	_
+3-15	304-312	Cavedoni	*[16]	PERmentioned[16]
+3-16	313-315	's	*[16]	PERmentioned[16]
+3-17	316-323	Artikel	_	_
+3-18	324-330	einige	_	_
+3-19	331-335	gute	_	_
+3-20	336-347	Bemerkungen	_	_
+3-21	348-357	enthalten	_	_
+3-22	358-362	sind	_	_
+3-23	363-364	.	_	_
+
+#Text=Ist das nicht der All , so scheint die von Ihnen angeführte persönliche Rücksicht doch kaum genügend .
+4-1	365-368	Ist	_	_
+4-2	369-372	das	_	_
+4-3	373-378	nicht	_	_
+4-4	379-382	der	_	_
+4-5	383-386	All	_	_
+4-6	387-388	,	_	_
+4-7	389-391	so	_	_
+4-8	392-399	scheint	_	_
+4-9	400-403	die	_	_
+4-10	404-407	von	_	_
+4-11	408-413	Ihnen	_	_
+4-12	414-424	angeführte	_	_
+4-13	425-436	persönliche	_	_
+4-14	437-446	Rücksicht	_	_
+4-15	447-451	doch	_	_
+4-16	452-456	kaum	_	_
+4-17	457-465	genügend	_	_
+4-18	466-467	.	_	_
+
+#Text=Hiernach mögen Sie entscheiden : sind Sie für die Publication , so werden wir die Zeichnung nicht um , sondern auf ( nicht di , sonden ad un ’ terzo ) ein Drittel reduciren , daß sie eine ganz einfache Tav .
+5-1	468-476	Hiernach	_	_
+5-2	477-482	mögen	_	_
+5-3	483-486	Sie	_	_
+5-4	487-498	entscheiden	_	_
+5-5	499-500	:	_	_
+5-6	501-505	sind	_	_
+5-7	506-509	Sie	_	_
+5-8	510-513	für	_	_
+5-9	514-517	die	_	_
+5-10	518-529	Publication	_	_
+5-11	530-531	,	_	_
+5-12	532-534	so	_	_
+5-13	535-541	werden	_	_
+5-14	542-545	wir	_	_
+5-15	546-549	die	_	_
+5-16	550-559	Zeichnung	_	_
+5-17	560-565	nicht	_	_
+5-18	566-568	um	_	_
+5-19	569-570	,	_	_
+5-20	571-578	sondern	_	_
+5-21	579-582	auf	_	_
+5-22	583-584	(	_	_
+5-23	585-590	nicht	_	_
+5-24	591-593	di	_	_
+5-25	594-595	,	_	_
+5-26	596-602	sonden	_	_
+5-27	603-605	ad	_	_
+5-28	606-608	un	_	_
+5-29	609-610	’	_	_
+5-30	611-616	terzo	_	_
+5-31	617-618	)	_	_
+5-32	619-622	ein	_	_
+5-33	623-630	Drittel	_	_
+5-34	631-640	reduciren	_	_
+5-35	641-642	,	_	_
+5-36	643-646	daß	_	_
+5-37	647-650	sie	_	_
+5-38	651-655	eine	_	_
+5-39	656-660	ganz	_	_
+5-40	661-669	einfache	_	_
+5-41	670-673	Tav	_	_
+5-42	674-675	.	_	_
+
+#Text=d'agg .
+6-1	676-681	d'agg	_	_
+6-2	682-683	.	_	_
+
+#Text=wird .
+7-1	684-688	wird	_	_
+7-2	689-690	.	_	_
+
+#Text=Nach Cortona denke ich wohl zu gehen , aber erst auf dem Rückwege oder von Chiusi aus , von wo der Eisenbahn wegen bessere Verbindung sein wird .
+8-1	691-695	Nach	_	_
+8-2	696-703	Cortona	*	PLACEmentioned
+8-3	704-709	denke	_	_
+8-4	710-713	ich	_	_
+8-5	714-718	wohl	_	_
+8-6	719-721	zu	_	_
+8-7	722-727	gehen	_	_
+8-8	728-729	,	_	_
+8-9	730-734	aber	_	_
+8-10	735-739	erst	_	_
+8-11	740-743	auf	_	_
+8-12	744-747	dem	_	_
+8-13	748-756	Rückwege	_	_
+8-14	757-761	oder	_	_
+8-15	762-765	von	_	_
+8-16	766-772	Chiusi	*	PLACEmentioned
+8-17	773-776	aus	_	_
+8-18	777-778	,	_	_
+8-19	779-782	von	_	_
+8-20	783-785	wo	_	_
+8-21	786-789	der	_	_
+8-22	790-799	Eisenbahn	_	_
+8-23	800-805	wegen	_	_
+8-24	806-813	bessere	_	_
+8-25	814-824	Verbindung	_	_
+8-26	825-829	sein	_	_
+8-27	830-834	wird	_	_
+8-28	835-836	.	_	_
+
+#Text=Die Inschriften a la S. Cesario werde ich am besten facsimiliren : sehen Sie indessen genau nach , ob sie doch nicht etwas bei Ritschl sich finden .
+9-1	837-840	Die	_	_
+9-2	841-852	Inschriften	_	_
+9-3	853-854	a	_	_
+9-4	855-857	la	_	_
+9-5	858-860	S.	*[14]	PLACEmentioned[14]
+9-6	861-868	Cesario	*[14]	PLACEmentioned[14]
+9-7	869-874	werde	_	_
+9-8	875-878	ich	_	_
+9-9	879-881	am	_	_
+9-10	882-888	besten	_	_
+9-11	889-901	facsimiliren	_	_
+9-12	902-903	:	_	_
+9-13	904-909	sehen	_	_
+9-14	910-913	Sie	_	_
+9-15	914-922	indessen	_	_
+9-16	923-928	genau	_	_
+9-17	929-933	nach	_	_
+9-18	934-935	,	_	_
+9-19	936-938	ob	_	_
+9-20	939-942	sie	_	_
+9-21	943-947	doch	_	_
+9-22	948-953	nicht	_	_
+9-23	954-959	etwas	_	_
+9-24	960-963	bei	_	_
+9-25	964-971	Ritschl	*	PERmentioned
+9-26	972-976	sich	_	_
+9-27	977-983	finden	_	_
+9-28	984-985	.	_	_
+
+#Text=Was die Reise anlangt , so ist ja eben aller Anfang schwer : von dem Verfehlen Erbli 's und Leoni 's wird Ihnen meine Frau gesagt haben .
+10-1	986-989	Was	_	_
+10-2	990-993	die	_	_
+10-3	994-999	Reise	_	_
+10-4	1000-1007	anlangt	_	_
+10-5	1008-1009	,	_	_
+10-6	1010-1012	so	_	_
+10-7	1013-1016	ist	_	_
+10-8	1017-1019	ja	_	_
+10-9	1020-1024	eben	_	_
+10-10	1025-1030	aller	_	_
+10-11	1031-1037	Anfang	_	_
+10-12	1038-1044	schwer	_	_
+10-13	1045-1046	:	_	_
+10-14	1047-1050	von	_	_
+10-15	1051-1054	dem	_	_
+10-16	1055-1064	Verfehlen	_	_
+10-17	1065-1070	Erbli	*[17]	PERmentioned[17]
+10-18	1071-1073	's	*[17]	PERmentioned[17]
+10-19	1074-1077	und	_	_
+10-20	1078-1083	Leoni	*[18]	PERmentioned[18]
+10-21	1084-1086	's	*[18]	PERmentioned[18]
+10-22	1087-1091	wird	_	_
+10-23	1092-1097	Ihnen	_	_
+10-24	1098-1103	meine	*[15]	PERmentioned[15]
+10-25	1104-1108	Frau	*[15]	PERmentioned[15]
+10-26	1109-1115	gesagt	_	_
+10-27	1116-1121	haben	_	_
+10-28	1122-1123	.	_	_
+
+#Text=Hier vorwiegend , wenn auch nicht durchgängig schlechtes , ja abscheuliches Wetter .
+11-1	1124-1128	Hier	_	_
+11-2	1129-1139	vorwiegend	_	_
+11-3	1140-1141	,	_	_
+11-4	1142-1146	wenn	_	_
+11-5	1147-1151	auch	_	_
+11-6	1152-1157	nicht	_	_
+11-7	1158-1169	durchgängig	_	_
+11-8	1170-1180	schlechtes	_	_
+11-9	1181-1182	,	_	_
+11-10	1183-1185	ja	_	_
+11-11	1186-1199	abscheuliches	_	_
+11-12	1200-1206	Wetter	_	_
+11-13	1207-1208	.	_	_
+
+#Text=Bartoccini , den ich auch hier sehr nöthig hätte ,
+12-1	1209-1219	Bartoccini	*	PERmentioned
+12-2	1220-1221	,	_	_
+12-3	1222-1225	den	_	_
+12-4	1226-1229	ich	_	_
+12-5	1230-1234	auch	_	_
+12-6	1235-1239	hier	_	_
+12-7	1240-1244	sehr	_	_
+12-8	1245-1251	nöthig	_	_
+12-9	1252-1257	hätte	_	_
+12-10	1258-1259	,	_	_

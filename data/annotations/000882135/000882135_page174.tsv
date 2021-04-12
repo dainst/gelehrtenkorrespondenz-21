@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=226 Braun an Gerhard Rom , 10. Dezember 1839 Sig .
+1-1	0-3	226	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	10.	*[6]	DATEletter[6]
+1-8	31-39	Dezember	*[6]	DATEletter[6]
+1-9	40-44	1839	*[6]	DATEletter[6]
+1-10	45-48	Sig	_	_
+1-11	49-50	.	_	_
+
+#Text=Cav .
+2-1	51-54	Cav	_	_
+2-2	55-56	.	_	_
+
+#Text=Gerhard Berlino .
+3-1	57-64	Gerhard	*	PERaddressee
+3-2	65-72	Berlino	*	PLACEto
+3-3	73-74	.	_	_
+
+#Text=Roma li 10 De.bre 1839 .
+4-1	75-79	Roma	*	PLACEfrom
+4-2	80-82	li	_	_
+4-3	83-85	10	*[8]	DATEletter[8]
+4-4	86-92	De.bre	*[8]	DATEletter[8]
+4-5	93-97	1839	*[8]	DATEletter[8]
+4-6	98-99	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+5-1	100-116	Hochverehrtester	_	_
+5-2	117-123	Freund	_	_
+5-3	124-125	\|	_	_
+5-4	126-127	!	_	_
+
+#Text=Ich antworte auf die mir durch Abeken j. zugekommene Frage hinsichtlich des Depolettischen Pheakonsreliefs .
+6-1	128-131	Ich	_	_
+6-2	132-140	antworte	_	_
+6-3	141-144	auf	_	_
+6-4	145-148	die	_	_
+6-5	149-152	mir	_	_
+6-6	153-158	durch	_	_
+6-7	159-165	Abeken	*	PERmentioned
+6-8	166-168	j.	_	_
+6-9	169-180	zugekommene	_	_
+6-10	181-186	Frage	_	_
+6-11	187-199	hinsichtlich	_	_
+6-12	200-203	des	_	_
+6-13	204-218	Depolettischen	*	PERmentioned
+6-14	219-234	Pheakonsreliefs	*	OBJ
+6-15	235-236	.	_	_
+
+#Text=Wolf hat es auf mein Ansuchen gesehen und für Sarkophagarbeit erklärt .
+7-1	237-241	Wolf	*	PERmentioned
+7-2	242-245	hat	_	_
+7-3	246-248	es	_	_
+7-4	249-252	auf	_	_
+7-5	253-257	mein	_	_
+7-6	258-266	Ansuchen	_	_
+7-7	267-274	gesehen	_	_
+7-8	275-278	und	_	_
+7-9	279-282	für	_	_
+7-10	283-298	Sarkophagarbeit	_	_
+7-11	299-306	erklärt	_	_
+7-12	307-308	.	_	_
+
+#Text=Er wird Ihnen darüber selbst schreiben .
+8-1	309-311	Er	_	_
+8-2	312-316	wird	_	_
+8-3	317-322	Ihnen	_	_
+8-4	323-330	darüber	_	_
+8-5	331-337	selbst	_	_
+8-6	338-347	schreiben	_	_
+8-7	348-349	.	_	_
+
+#Text=Depoletti verlangt dafür 400 Scudi .
+9-1	350-359	Depoletti	*	PERmentioned
+9-2	360-368	verlangt	_	_
+9-3	369-374	dafür	_	_
+9-4	375-378	400	_	_
+9-5	379-384	Scudi	_	_
+9-6	385-386	.	_	_
+
+#Text=Bei dieser Gelegenheit ist Wolf auf 2 andere Marmorwerke aufmerksam geworden , die sich bei Depoletti ebenfalls vorfinden .
+10-1	387-390	Bei	_	_
+10-2	391-397	dieser	_	_
+10-3	398-409	Gelegenheit	_	_
+10-4	410-413	ist	_	_
+10-5	414-418	Wolf	*	PERmentioned
+10-6	419-422	auf	_	_
+10-7	423-424	2	_	_
+10-8	425-431	andere	_	_
+10-9	432-443	Marmorwerke	*	OBJ
+10-10	444-454	aufmerksam	_	_
+10-11	455-463	geworden	_	_
+10-12	464-465	,	_	_
+10-13	466-469	die	_	_
+10-14	470-474	sich	_	_
+10-15	475-478	bei	_	_
+10-16	479-488	Depoletti	*	PERmentioned
+10-17	489-498	ebenfalls	_	_
+10-18	499-508	vorfinden	_	_
+10-19	509-510	.	_	_
+
+#Text=Das eine ist der auf eine neue Hermenbüste aufgesetzte Kopf eines bekränzten Jupiter , den Depoletti wegen seines nassen Barthaares als einen Jupiter pluvius tauft .
+11-1	511-514	Das	_	_
+11-2	515-519	eine	_	_
+11-3	520-523	ist	_	_
+11-4	524-527	der	_	_
+11-5	528-531	auf	_	_
+11-6	532-536	eine	_	_
+11-7	537-541	neue	_	_
+11-8	542-553	Hermenbüste	*[17]	OBJ[17]
+11-9	554-565	aufgesetzte	*[17]	OBJ[17]
+11-10	566-570	Kopf	*[17]	OBJ[17]
+11-11	571-576	eines	*[17]	OBJ[17]
+11-12	577-587	bekränzten	*[17]	OBJ[17]
+11-13	588-595	Jupiter	*[17]	OBJ[17]
+11-14	596-597	,	_	_
+11-15	598-601	den	_	_
+11-16	602-611	Depoletti	*	PERmentioned
+11-17	612-617	wegen	_	_
+11-18	618-624	seines	_	_
+11-19	625-631	nassen	_	_
+11-20	632-642	Barthaares	_	_
+11-21	643-646	als	_	_
+11-22	647-652	einen	_	_
+11-23	653-660	Jupiter	*[19]	OBJ[19]
+11-24	661-668	pluvius	*[19]	OBJ[19]
+11-25	669-674	tauft	_	_
+11-26	675-676	.	_	_
+
+#Text=Die Skulptur ist etwas verwaschen aber großartig und schön , auch nach Wolfs Urtheil .
+12-1	677-680	Die	_	_
+12-2	681-689	Skulptur	_	_
+12-3	690-693	ist	_	_
+12-4	694-699	etwas	_	_
+12-5	700-710	verwaschen	_	_
+12-6	711-715	aber	_	_
+12-7	716-725	großartig	_	_
+12-8	726-729	und	_	_
+12-9	730-735	schön	_	_
+12-10	736-737	,	_	_
+12-11	738-742	auch	_	_
+12-12	743-747	nach	_	_
+12-13	748-753	Wolfs	*	PERmentioned
+12-14	754-761	Urtheil	_	_
+12-15	762-763	.	_	_
+
+#Text=Preis 100 Scudi .
+13-1	764-769	Preis	_	_
+13-2	770-773	100	_	_
+13-3	774-779	Scudi	_	_
+13-4	780-781	.	_	_
+
+#Text=Ferner zeichnet sich das Relief einer Figur aus die einen Fruchtkorb hoch über den Kopf kipör hält , während eine andere weibliche Figur sie umschlingt .
+14-1	782-788	Ferner	_	_
+14-2	789-797	zeichnet	_	_
+14-3	798-802	sich	_	_
+14-4	803-806	das	_	_
+14-5	807-813	Relief	*	OBJ
+14-6	814-819	einer	_	_
+14-7	820-825	Figur	_	_
+14-8	826-829	aus	_	_
+14-9	830-833	die	_	_
+14-10	834-839	einen	_	_
+14-11	840-850	Fruchtkorb	_	_
+14-12	851-855	hoch	_	_
+14-13	856-860	über	_	_
+14-14	861-864	den	_	_
+14-15	865-869	Kopf	_	_
+14-16	870-875	kipör	_	_
+14-17	876-880	hält	_	_
+14-18	881-882	,	_	_
+14-19	883-890	während	_	_
+14-20	891-895	eine	_	_
+14-21	896-902	andere	_	_
+14-22	903-912	weibliche	_	_
+14-23	913-918	Figur	_	_
+14-24	919-922	sie	_	_
+14-25	923-933	umschlingt	_	_
+14-26	934-935	.	_	_
+
+#Text=Diese überhöhte Marmorplatte befand sich vordem in Canovas Besitz .
+15-1	936-941	Diese	_	_
+15-2	942-951	überhöhte	_	_
+15-3	952-964	Marmorplatte	_	_
+15-4	965-971	befand	_	_
+15-5	972-976	sich	_	_
+15-6	977-983	vordem	_	_
+15-7	984-986	in	_	_
+15-8	987-994	Canovas	*	PERmentioned
+15-9	995-1001	Besitz	_	_
+15-10	1002-1003	.	_	_
+
+#Text=Wolf hält die halbnackte Hauptfigur für einen Hermaphroditen .
+16-1	1004-1008	Wolf	*	PERmentioned
+16-2	1009-1013	hält	_	_
+16-3	1014-1017	die	_	_
+16-4	1018-1028	halbnackte	_	_
+16-5	1029-1039	Hauptfigur	_	_
+16-6	1040-1043	für	_	_
+16-7	1044-1049	einen	_	_
+16-8	1050-1064	Hermaphroditen	_	_
+16-9	1065-1066	.	_	_
+
+#Text=Depoletti fordert dafür 100 Scudi .
+17-1	1067-1076	Depoletti	*	PERmentioned
+17-2	1077-1084	fordert	_	_
+17-3	1085-1090	dafür	_	_
+17-4	1091-1094	100	_	_
+17-5	1095-1100	Scudi	_	_
+17-6	1101-1102	.	_	_
+
+#Text=Schließlich besitzt Depoletti ein erudirtes Monument , welches die Vorderseite eines römischen Cippus gebildet zu haben scheint .
+18-1	1103-1114	Schließlich	_	_
+18-2	1115-1122	besitzt	_	_
+18-3	1123-1132	Depoletti	*	PERmentioned
+18-4	1133-1136	ein	_	_
+18-5	1137-1146	erudirtes	_	_
+18-6	1147-1155	Monument	_	_
+18-7	1156-1157	,	_	_
+18-8	1158-1165	welches	_	_
+18-9	1166-1169	die	_	_
+18-10	1170-1181	Vorderseite	*[26]	OBJ[26]
+18-11	1182-1187	eines	*[26]	OBJ[26]
+18-12	1188-1197	römischen	*[26]	OBJ[26]
+18-13	1198-1204	Cippus	*[26]	OBJ[26]
+18-14	1205-1213	gebildet	_	_
+18-15	1214-1216	zu	_	_
+18-16	1217-1222	haben	_	_
+18-17	1223-1230	scheint	_	_
+18-18	1231-1232	.	_	_
+
+#Text=.
+19-1	1233-1234	.	_	_
+
+#Text=Eine Frau die ein kleines geöffnetes Büchschen über einem flammenden Candelaber entlehrt und ein Mann in Togabekleidung , welcher ein seltsames Geräth in der Hand hält .
+20-1	1235-1239	Eine	_	_
+20-2	1240-1244	Frau	_	_
+20-3	1245-1248	die	_	_
+20-4	1249-1252	ein	_	_
+20-5	1253-1260	kleines	_	_
+20-6	1261-1271	geöffnetes	_	_
+20-7	1272-1281	Büchschen	_	_
+20-8	1282-1286	über	_	_
+20-9	1287-1292	einem	_	_
+20-10	1293-1303	flammenden	_	_
+20-11	1304-1314	Candelaber	_	_
+20-12	1315-1323	entlehrt	_	_
+20-13	1324-1327	und	_	_
+20-14	1328-1331	ein	_	_
+20-15	1332-1336	Mann	_	_
+20-16	1337-1339	in	_	_
+20-17	1340-1354	Togabekleidung	_	_
+20-18	1355-1356	,	_	_
+20-19	1357-1364	welcher	_	_
+20-20	1365-1368	ein	_	_
+20-21	1369-1378	seltsames	_	_
+20-22	1379-1385	Geräth	_	_
+20-23	1386-1388	in	_	_
+20-24	1389-1392	der	_	_
+20-25	1393-1397	Hand	_	_
+20-26	1398-1402	hält	_	_
+20-27	1403-1404	.	_	_

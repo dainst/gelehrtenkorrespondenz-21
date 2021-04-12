@@ -1,0 +1,206 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=D. Henzen Gerhard an Henzen Berlin +41/X/1847 A. di ir .
+1-1	0-2	D.	_	_
+1-2	3-9	Henzen	*	PERaddressee
+1-3	10-17	Gerhard	*	PERauthor
+1-4	18-20	an	_	_
+1-5	21-27	Henzen	*	PERaddressee
+1-6	28-34	Berlin	*	PLACEfrom
+1-7	35-45	+41/X/1847	*	DATEletter
+1-8	46-48	A.	_	_
+1-9	49-51	di	_	_
+1-10	52-54	ir	_	_
+1-11	55-56	.	_	_
+
+#Text=g. r . 22/X/1847 Berlin 91 Okt 47 Seit etlichen Tagen wieder hier angelangt vermisse ich schmerzlich römische Briefe .
+2-1	57-59	g.	_	_
+2-2	60-61	r	_	_
+2-3	62-63	.	_	_
+2-4	64-73	22/X/1847	*	DATErecieved
+2-5	74-80	Berlin	*	PLACEfrom
+2-6	81-83	91	*[1]	DATEletter[1]
+2-7	84-87	Okt	*[1]	DATEletter[1]
+2-8	88-90	47	*[1]	DATEletter[1]
+2-9	91-95	Seit	_	_
+2-10	96-104	etlichen	_	_
+2-11	105-110	Tagen	_	_
+2-12	111-117	wieder	_	_
+2-13	118-122	hier	_	_
+2-14	123-132	angelangt	_	_
+2-15	133-141	vermisse	_	_
+2-16	142-145	ich	_	_
+2-17	146-157	schmerzlich	_	_
+2-18	158-166	römische	_	_
+2-19	167-173	Briefe	_	_
+2-20	174-175	.	_	_
+
+#Text=Ich melde mich deßhalb bei Ihnen sowohl als bei Braun , ohne er abrechnen zu können ob Sie oder ich an der Reihe sind .
+3-1	176-179	Ich	_	_
+3-2	180-185	melde	_	_
+3-3	186-190	mich	_	_
+3-4	191-198	deßhalb	_	_
+3-5	199-202	bei	_	_
+3-6	203-208	Ihnen	_	_
+3-7	209-215	sowohl	_	_
+3-8	216-219	als	_	_
+3-9	220-223	bei	_	_
+3-10	224-229	Braun	*	PERmentioned
+3-11	230-231	,	_	_
+3-12	232-236	ohne	_	_
+3-13	237-239	er	_	_
+3-14	240-249	abrechnen	_	_
+3-15	250-252	zu	_	_
+3-16	253-259	können	_	_
+3-17	260-262	ob	_	_
+3-18	263-266	Sie	_	_
+3-19	267-271	oder	_	_
+3-20	272-275	ich	_	_
+3-21	276-278	an	_	_
+3-22	279-282	der	_	_
+3-23	283-288	Reihe	_	_
+3-24	289-293	sind	_	_
+3-25	294-295	.	_	_
+
+#Text=Meine Notiz über Des Vergers hat Ihnen Braun mitgetheilt \; Sie werden den Winter über mit ihm verhandeln können , hoffentlich auch so daß Mommsen zur Stelle ist .
+4-1	296-301	Meine	_	_
+4-2	302-307	Notiz	_	_
+4-3	308-312	über	_	_
+4-4	313-316	Des	*[2]	PERmentioned[2]
+4-5	317-324	Vergers	*[2]	PERmentioned[2]
+4-6	325-328	hat	_	_
+4-7	329-334	Ihnen	_	_
+4-8	335-340	Braun	*	PERmentioned
+4-9	341-352	mitgetheilt	_	_
+4-10	353-354	\;	_	_
+4-11	355-358	Sie	_	_
+4-12	359-365	werden	_	_
+4-13	366-369	den	_	_
+4-14	370-376	Winter	_	_
+4-15	377-381	über	_	_
+4-16	382-385	mit	_	_
+4-17	386-389	ihm	_	_
+4-18	390-400	verhandeln	_	_
+4-19	401-407	können	_	_
+4-20	408-409	,	_	_
+4-21	410-421	hoffentlich	_	_
+4-22	422-426	auch	_	_
+4-23	427-429	so	_	_
+4-24	430-433	daß	_	_
+4-25	434-441	Mommsen	*	PERmentioned
+4-26	442-445	zur	_	_
+4-27	446-452	Stelle	_	_
+4-28	453-456	ist	_	_
+4-29	457-458	.	_	_
+
+#Text=Von diesem liegst mir dato auch noch nichts vor \; die Verhandlungen der # kademie werden am 14. wieder eröffnet .
+5-1	459-462	Von	_	_
+5-2	463-469	diesem	_	_
+5-3	470-476	liegst	_	_
+5-4	477-480	mir	_	_
+5-5	481-485	dato	_	_
+5-6	486-490	auch	_	_
+5-7	491-495	noch	_	_
+5-8	496-502	nichts	_	_
+5-9	503-506	vor	_	_
+5-10	507-508	\;	_	_
+5-11	509-512	die	_	_
+5-12	513-526	Verhandlungen	_	_
+5-13	527-530	der	_	_
+5-14	531-532	#	_	_
+5-15	533-540	kademie	_	_
+5-16	541-547	werden	_	_
+5-17	548-550	am	_	_
+5-18	551-554	14.	*[3]	DATEmentioned[3]
+5-19	555-561	wieder	_	_
+5-20	562-570	eröffnet	_	_
+5-21	571-572	.	_	_
+
+#Text=Auf einen zweiten Stück Brief , wahrscheinlich dazu gehörend : Neigebauriana schwer aufgehäuft gebe ich ans Ninisterium .
+6-1	573-576	Auf	_	_
+6-2	577-582	einen	_	_
+6-3	583-590	zweiten	_	_
+6-4	591-596	Stück	_	_
+6-5	597-602	Brief	_	_
+6-6	603-604	,	_	_
+6-7	605-619	wahrscheinlich	_	_
+6-8	620-624	dazu	_	_
+6-9	625-633	gehörend	_	_
+6-10	634-635	:	_	_
+6-11	636-649	Neigebauriana	_	_
+6-12	650-656	schwer	_	_
+6-13	657-667	aufgehäuft	_	_
+6-14	668-672	gebe	_	_
+6-15	673-676	ich	_	_
+6-16	677-680	ans	_	_
+6-17	681-692	Ninisterium	*	ORGmentioned
+6-18	693-694	.	_	_
+
+#Text=Senden Sie ihm das allenfalls als Ausschnitt \; direkt möchte ich ihm auf & & a empfindlichen Brief nicht antworten .
+7-1	695-701	Senden	_	_
+7-2	702-705	Sie	_	_
+7-3	706-709	ihm	_	_
+7-4	710-713	das	_	_
+7-5	714-724	allenfalls	_	_
+7-6	725-728	als	_	_
+7-7	729-739	Ausschnitt	_	_
+7-8	740-741	\;	_	_
+7-9	742-748	direkt	_	_
+7-10	749-755	möchte	_	_
+7-11	756-759	ich	_	_
+7-12	760-763	ihm	_	_
+7-13	764-767	auf	_	_
+7-14	768-769	&	_	_
+7-15	770-771	&	_	_
+7-16	772-773	a	_	_
+7-17	774-787	empfindlichen	_	_
+7-18	788-793	Brief	_	_
+7-19	794-799	nicht	_	_
+7-20	800-809	antworten	_	_
+7-21	810-811	.	_	_
+
+#Text=Meine Frau grüßt mit mir Sie und die Ihrige Ihr Gerharä Meine Bitte wegen Rücksendung eines Exemplars von 163-179 Heft Nr. 25 meiner Vasenbilder erlaube mir zu wiederholen .
+8-1	812-817	Meine	_	_
+8-2	818-822	Frau	_	_
+8-3	823-828	grüßt	_	_
+8-4	829-832	mit	_	_
+8-5	833-836	mir	_	_
+8-6	837-840	Sie	_	_
+8-7	841-844	und	_	_
+8-8	845-848	die	_	_
+8-9	849-855	Ihrige	_	_
+8-10	856-859	Ihr	_	_
+8-11	860-867	Gerharä	*	PERauthor
+8-12	868-873	Meine	_	_
+8-13	874-879	Bitte	_	_
+8-14	880-885	wegen	_	_
+8-15	886-897	Rücksendung	_	_
+8-16	898-903	eines	_	_
+8-17	904-913	Exemplars	_	_
+8-18	914-917	von	_	_
+8-19	918-925	163-179	_	_
+8-20	926-930	Heft	_	_
+8-21	931-934	Nr.	_	_
+8-22	935-937	25	_	_
+8-23	938-944	meiner	_	_
+8-24	945-956	Vasenbilder	_	_
+8-25	957-964	erlaube	_	_
+8-26	965-968	mir	_	_
+8-27	969-971	zu	_	_
+8-28	972-983	wiederholen	_	_
+8-29	984-985	.	_	_
+
+#Text=Das Bullettino habe ich bis inclusive Giugno n . © .
+9-1	986-989	Das	_	_
+9-2	990-1000	Bullettino	_	_
+9-3	1001-1005	habe	_	_
+9-4	1006-1009	ich	_	_
+9-5	1010-1013	bis	_	_
+9-6	1014-1023	inclusive	_	_
+9-7	1024-1030	Giugno	_	_
+9-8	1031-1032	n	_	_
+9-9	1033-1034	.	_	_
+9-10	1035-1036	©	_	_
+9-11	1037-1038	.	_	_

@@ -1,0 +1,113 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ht 222 Henzen an Gerhard 28/X/54 \| arsdemische Abhandlungen \; bitte ihm das dankend zu sagen .
+1-1	0-2	ht	_	_
+1-2	3-6	222	_	_
+1-3	7-13	Henzen	*	PERauthor
+1-4	14-16	an	_	_
+1-5	17-24	Gerhard	*	PERaddressee
+1-6	25-32	28/X/54	*	DATEletter
+1-7	33-34	\|	_	_
+1-8	35-46	arsdemische	_	_
+1-9	47-59	Abhandlungen	_	_
+1-10	60-61	\;	_	_
+1-11	62-67	bitte	_	_
+1-12	68-71	ihm	_	_
+1-13	72-75	das	_	_
+1-14	76-83	dankend	_	_
+1-15	84-86	zu	_	_
+1-16	87-92	sagen	_	_
+1-17	93-94	.	_	_
+
+#Text=” Mommsen , der zu Weihnachten nach Berlin kommen will , schreibt recht glücklich über seine Häuslichkeit \; im VUebrigen scheint ihm Breslau bis jetzt noch nicht recht zu behagen , was ja nach der herrlichen Zürich nicht zu verwundern ist .
+2-1	95-96	”	_	_
+2-2	97-104	Mommsen	*	PERmentioned
+2-3	105-106	,	_	_
+2-4	107-110	der	_	_
+2-5	111-113	zu	_	_
+2-6	114-125	Weihnachten	_	_
+2-7	126-130	nach	_	_
+2-8	131-137	Berlin	*	PLACEmentioned
+2-9	138-144	kommen	_	_
+2-10	145-149	will	_	_
+2-11	150-151	,	_	_
+2-12	152-160	schreibt	_	_
+2-13	161-166	recht	_	_
+2-14	167-176	glücklich	_	_
+2-15	177-181	über	_	_
+2-16	182-187	seine	_	_
+2-17	188-200	Häuslichkeit	_	_
+2-18	201-202	\;	_	_
+2-19	203-205	im	_	_
+2-20	206-215	VUebrigen	_	_
+2-21	216-223	scheint	_	_
+2-22	224-227	ihm	_	_
+2-23	228-235	Breslau	*	PLACEmentioned
+2-24	236-239	bis	_	_
+2-25	240-245	jetzt	_	_
+2-26	246-250	noch	_	_
+2-27	251-256	nicht	_	_
+2-28	257-262	recht	_	_
+2-29	263-265	zu	_	_
+2-30	266-273	behagen	_	_
+2-31	274-275	,	_	_
+2-32	276-279	was	_	_
+2-33	280-282	ja	_	_
+2-34	283-287	nach	_	_
+2-35	288-291	der	_	_
+2-36	292-302	herrlichen	_	_
+2-37	303-309	Zürich	*	PLACEmentioned
+2-38	310-315	nicht	_	_
+2-39	316-318	zu	_	_
+2-40	319-329	verwundern	_	_
+2-41	330-333	ist	_	_
+2-42	334-335	.	_	_
+
+#Text=Von ihm erfuhr ich zu meiner herzlichsten Freude Jahn 's Berufung nach Bonn , und lege Ihnen für denselben ein Z & telchen ein , da ich nicht weiß , wo er jetzt sich aufhält .
+3-1	336-339	Von	_	_
+3-2	340-343	ihm	_	_
+3-3	344-350	erfuhr	_	_
+3-4	351-354	ich	_	_
+3-5	355-357	zu	_	_
+3-6	358-364	meiner	_	_
+3-7	365-377	herzlichsten	_	_
+3-8	378-384	Freude	_	_
+3-9	385-389	Jahn	*[2]	PERmentioned[2]
+3-10	390-392	's	*[2]	PERmentioned[2]
+3-11	393-401	Berufung	_	_
+3-12	402-406	nach	_	_
+3-13	407-411	Bonn	*	PLACEmentioned
+3-14	412-413	,	_	_
+3-15	414-417	und	_	_
+3-16	418-422	lege	_	_
+3-17	423-428	Ihnen	_	_
+3-18	429-432	für	_	_
+3-19	433-442	denselben	_	_
+3-20	443-446	ein	_	_
+3-21	447-448	Z	_	_
+3-22	449-450	&	_	_
+3-23	451-458	telchen	_	_
+3-24	459-462	ein	_	_
+3-25	463-464	,	_	_
+3-26	465-467	da	_	_
+3-27	468-471	ich	_	_
+3-28	472-477	nicht	_	_
+3-29	478-482	weiß	_	_
+3-30	483-484	,	_	_
+3-31	485-487	wo	_	_
+3-32	488-490	er	_	_
+3-33	491-496	jetzt	_	_
+3-34	497-501	sich	_	_
+3-35	502-509	aufhält	_	_
+3-36	510-511	.	_	_
+
+#Text=Ihr Y Henzen tom 2E/X 54 .
+4-1	512-515	Ihr	_	_
+4-2	516-517	Y	_	_
+4-3	518-524	Henzen	*	PERauthor
+4-4	525-528	tom	*	PLACEfrom
+4-5	529-533	2E/X	*[1]	DATEletter[1]
+4-6	534-536	54	*[1]	DATEletter[1]
+4-7	537-538	.	_	_

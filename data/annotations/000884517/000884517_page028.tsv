@@ -1,0 +1,74 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=92 Gerhard an Braun Berlin , 8. Februar 1844 senden ?
+1-1	0-2	92	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	8.	*[1]	DATEletter[1]
+1-8	32-39	Februar	*[1]	DATEletter[1]
+1-9	40-44	1844	*[1]	DATEletter[1]
+1-10	45-51	senden	_	_
+1-11	52-53	?	_	_
+
+#Text=Unter Kreuzband ging das nach Neapel gesandte verloren und es wird theuer kommen , muß es aber doch wol thun .
+2-1	54-59	Unter	_	_
+2-2	60-69	Kreuzband	_	_
+2-3	70-74	ging	_	_
+2-4	75-78	das	_	_
+2-5	79-83	nach	_	_
+2-6	84-90	Neapel	*	PLACEmentioned
+2-7	91-99	gesandte	_	_
+2-8	100-108	verloren	_	_
+2-9	109-112	und	_	_
+2-10	113-115	es	_	_
+2-11	116-120	wird	_	_
+2-12	121-127	theuer	_	_
+2-13	128-134	kommen	_	_
+2-14	135-136	,	_	_
+2-15	137-140	muß	_	_
+2-16	141-143	es	_	_
+2-17	144-148	aber	_	_
+2-18	149-153	doch	_	_
+2-19	154-157	wol	_	_
+2-20	158-162	thun	_	_
+2-21	163-164	.	_	_
+
+#Text=Jahn wäre wol geneigt für Epigraphisches wieder nach Italien zu gehen \; was traut Borghesi ihm zu ?
+3-1	165-169	Jahn	*	PERmentioned
+3-2	170-174	wäre	_	_
+3-3	175-178	wol	_	_
+3-4	179-186	geneigt	_	_
+3-5	187-190	für	_	_
+3-6	191-205	Epigraphisches	_	_
+3-7	206-212	wieder	_	_
+3-8	213-217	nach	_	_
+3-9	218-225	Italien	*	PLACEmentioned
+3-10	226-228	zu	_	_
+3-11	229-234	gehen	_	_
+3-12	235-236	\;	_	_
+3-13	237-240	was	_	_
+3-14	241-246	traut	_	_
+3-15	247-255	Borghesi	*	PERmentioned
+3-16	256-259	ihm	_	_
+3-17	260-262	zu	_	_
+3-18	263-264	?	_	_
+
+#Text=Allen Freunden den besten Gruß .
+4-1	265-270	Allen	_	_
+4-2	271-279	Freunden	_	_
+4-3	280-283	den	_	_
+4-4	284-290	besten	_	_
+4-5	291-295	Gruß	_	_
+4-6	296-297	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhara
+5-1	298-301	Von	_	_
+5-2	302-308	Herzen	_	_
+5-3	309-312	der	_	_
+5-4	313-319	Ihrige	_	_
+5-5	320-327	Gerhara	*	PERauthor

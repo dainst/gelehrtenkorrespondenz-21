@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 23. Mai 1863 g . 28. Mai 1863 r . 29. Mai 1863 Lieber Henzen In Erwartung weiterer über Orvieto hinausreichender Nachrichten von Ihnen beginne ich unterdessen in einer verlorenen halben Stunde einen Brief mit kleinen Notizen .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	23.	_	_
+1-7	26-29	Mai	_	_
+1-8	30-34	1863	_	_
+1-9	35-36	g	_	_
+1-10	37-38	.	_	_
+1-11	39-42	28.	*[5]	DATEletter[5]
+1-12	43-46	Mai	*[5]|*[6]	DATEletter[5]|DATErecieved[6]
+1-13	47-51	1863	*[5]|*[6]	DATEletter[5]|DATErecieved[6]
+1-14	52-53	r	_	_
+1-15	54-55	.	_	_
+1-16	56-59	29.	_	_
+1-17	60-63	Mai	*[7]	DATEanswered[7]
+1-18	64-68	1863	*[7]	DATEanswered[7]
+1-19	69-75	Lieber	_	_
+1-20	76-82	Henzen	*	PERaddressee
+1-21	83-85	In	_	_
+1-22	86-95	Erwartung	_	_
+1-23	96-104	weiterer	_	_
+1-24	105-109	über	_	_
+1-25	110-117	Orvieto	*	PLACEmentioned
+1-26	118-134	hinausreichender	_	_
+1-27	135-146	Nachrichten	_	_
+1-28	147-150	von	_	_
+1-29	151-156	Ihnen	_	_
+1-30	157-164	beginne	_	_
+1-31	165-168	ich	_	_
+1-32	169-180	unterdessen	_	_
+1-33	181-183	in	_	_
+1-34	184-189	einer	_	_
+1-35	190-200	verlorenen	_	_
+1-36	201-207	halben	_	_
+1-37	208-214	Stunde	_	_
+1-38	215-220	einen	_	_
+1-39	221-226	Brief	_	_
+1-40	227-230	mit	_	_
+1-41	231-238	kleinen	_	_
+1-42	239-246	Notizen	_	_
+1-43	247-248	.	_	_
+
+#Text=Himmelfahrstag früh ging ich nach Corneto und war Sonnabend Mittag zurück .
+2-1	249-263	Himmelfahrstag	*	DATEmentioned
+2-2	264-268	früh	_	_
+2-3	269-273	ging	_	_
+2-4	274-277	ich	_	_
+2-5	278-282	nach	_	_
+2-6	283-290	Corneto	*	PLACEmentioned
+2-7	291-294	und	_	_
+2-8	295-298	war	_	_
+2-9	299-308	Sonnabend	*	DATEmentioned
+2-10	309-315	Mittag	_	_
+2-11	316-322	zurück	_	_
+2-12	323-324	.	_	_
+
+#Text=Die tomba ist lucidirt \; allerdings sehr ruinirt , und nichts extraordinäres \; doch eine Monumententafel , auf der sie sich ganz wohl geben läßt , ist sie immer werth .
+3-1	325-328	Die	_	_
+3-2	329-334	tomba	*	OBJ
+3-3	335-338	ist	_	_
+3-4	339-347	lucidirt	_	_
+3-5	348-349	\;	_	_
+3-6	350-360	allerdings	_	_
+3-7	361-365	sehr	_	_
+3-8	366-373	ruinirt	_	_
+3-9	374-375	,	_	_
+3-10	376-379	und	_	_
+3-11	380-386	nichts	_	_
+3-12	387-401	extraordinäres	_	_
+3-13	402-403	\;	_	_
+3-14	404-408	doch	_	_
+3-15	409-413	eine	_	_
+3-16	414-429	Monumententafel	_	_
+3-17	430-431	,	_	_
+3-18	432-435	auf	_	_
+3-19	436-439	der	_	_
+3-20	440-443	sie	_	_
+3-21	444-448	sich	_	_
+3-22	449-453	ganz	_	_
+3-23	454-458	wohl	_	_
+3-24	459-464	geben	_	_
+3-25	465-469	läßt	_	_
+3-26	470-471	,	_	_
+3-27	472-475	ist	_	_
+3-28	476-479	sie	_	_
+3-29	480-485	immer	_	_
+3-30	486-491	werth	_	_
+3-31	492-493	.	_	_
+
+#Text=Von der Reise bringe ich indessen noch ein zweites gemaltes Grab in petto mit .
+4-1	494-497	Von	_	_
+4-2	498-501	der	_	_
+4-3	502-507	Reise	_	_
+4-4	508-514	bringe	_	_
+4-5	515-518	ich	_	_
+4-6	519-527	indessen	_	_
+4-7	528-532	noch	_	_
+4-8	533-536	ein	_	_
+4-9	537-544	zweites	_	_
+4-10	545-553	gemaltes	*[8]	OBJ[8]
+4-11	554-558	Grab	*[8]	OBJ[8]
+4-12	559-561	in	_	_
+4-13	562-567	petto	_	_
+4-14	568-571	mit	_	_
+4-15	572-573	.	_	_
+
+#Text=Die Contessa Bruschi verrieth mir , daß vor ein Paar Jahren eins gefunden , aber gleich wieder zugeschüttet ( nicht durch ihre Schuld ) .
+5-1	574-577	Die	_	_
+5-2	578-586	Contessa	*[9]	PERmentioned[9]
+5-3	587-594	Bruschi	*[9]	PERmentioned[9]
+5-4	595-603	verrieth	_	_
+5-5	604-607	mir	_	_
+5-6	608-609	,	_	_
+5-7	610-613	daß	_	_
+5-8	614-617	vor	_	_
+5-9	618-621	ein	_	_
+5-10	622-626	Paar	_	_
+5-11	627-633	Jahren	_	_
+5-12	634-638	eins	_	_
+5-13	639-647	gefunden	_	_
+5-14	648-649	,	_	_
+5-15	650-654	aber	_	_
+5-16	655-661	gleich	_	_
+5-17	662-668	wieder	_	_
+5-18	669-681	zugeschüttet	_	_
+5-19	682-683	(	_	_
+5-20	684-689	nicht	_	_
+5-21	690-695	durch	_	_
+5-22	696-700	ihre	_	_
+5-23	701-707	Schuld	_	_
+5-24	708-709	)	_	_
+5-25	710-711	.	_	_
+
+#Text=Nach der Ernte will sie 's nun wieder aufgraben lassen .
+6-1	712-716	Nach	_	_
+6-2	717-720	der	_	_
+6-3	721-726	Ernte	_	_
+6-4	727-731	will	_	_
+6-5	732-735	sie	_	_
+6-6	736-738	's	_	_
+6-7	739-742	nun	_	_
+6-8	743-749	wieder	_	_
+6-9	750-759	aufgraben	_	_
+6-10	760-766	lassen	_	_
+6-11	767-768	.	_	_
+
+#Text=Garrucci schickte Ihnen `` con distinti ossequi '' einen Brief von Fabretti mit Glossarium VIII .
+7-1	769-777	Garrucci	*	PERmentioned
+7-2	778-786	schickte	_	_
+7-3	787-792	Ihnen	_	_
+7-4	793-795	``	_	_
+7-5	796-799	con	_	_
+7-6	800-808	distinti	_	_
+7-7	809-816	ossequi	_	_
+7-8	817-819	''	_	_
+7-9	820-825	einen	_	_
+7-10	826-831	Brief	_	_
+7-11	832-835	von	_	_
+7-12	836-844	Fabretti	*	PERmentioned
+7-13	845-848	mit	_	_
+7-14	849-859	Glossarium	_	_
+7-15	860-864	VIII	_	_
+7-16	865-866	.	_	_
+
+#Text=In einen Begleitschreiben an mich `` pronto come sempre ai suoi venereti comandi '' fügt er hinzu : Prendo quest 'occasione per ricordare che i disegni e le stampe riguardanti l'illustrazione del gruppo di bronzo del sig .
+8-1	867-869	In	_	_
+8-2	870-875	einen	_	_
+8-3	876-892	Begleitschreiben	_	_
+8-4	893-895	an	_	_
+8-5	896-900	mich	_	_
+8-6	901-903	``	_	_
+8-7	904-910	pronto	_	_
+8-8	911-915	come	_	_
+8-9	916-922	sempre	_	_
+8-10	923-925	ai	_	_
+8-11	926-930	suoi	_	_
+8-12	931-939	venereti	_	_
+8-13	940-947	comandi	_	_
+8-14	948-950	''	_	_
+8-15	951-955	fügt	_	_
+8-16	956-958	er	_	_
+8-17	959-964	hinzu	_	_
+8-18	965-966	:	_	_
+8-19	967-973	Prendo	_	_
+8-20	974-979	quest	_	_
+8-21	980-990	'occasione	_	_
+8-22	991-994	per	_	_
+8-23	995-1004	ricordare	_	_
+8-24	1005-1008	che	_	_
+8-25	1009-1010	i	_	_
+8-26	1011-1018	disegni	_	_
+8-27	1019-1020	e	_	_
+8-28	1021-1023	le	_	_
+8-29	1024-1030	stampe	_	_
+8-30	1031-1042	riguardanti	_	_
+8-31	1043-1058	l'illustrazione	_	_
+8-32	1059-1062	del	_	_
+8-33	1063-1069	gruppo	*[10]	OBJ[10]
+8-34	1070-1072	di	*[10]	OBJ[10]
+8-35	1073-1079	bronzo	*[10]	OBJ[10]
+8-36	1080-1083	del	_	_
+8-37	1084-1087	sig	_	_
+8-38	1088-1089	.	_	_
+
+#Text=Bar .
+9-1	1090-1093	Bar	_	_
+9-2	1094-1095	.	_	_
+
+#Text=Ravestein ( das Pferd ) sono tuttavia presso di me '' .
+10-1	1096-1105	Ravestein	*	PERmentioned
+10-2	1106-1107	(	_	_
+10-3	1108-1111	das	_	_
+10-4	1112-1117	Pferd	_	_
+10-5	1118-1119	)	_	_
+10-6	1120-1124	sono	_	_
+10-7	1125-1133	tuttavia	_	_
+10-8	1134-1140	presso	_	_
+10-9	1141-1143	di	_	_
+10-10	1144-1146	me	_	_
+10-11	1147-1149	''	_	_
+10-12	1150-1151	.	_	_
+
+#Text=Ich habe ihm da-
+11-1	1152-1155	Ich	_	_
+11-2	1156-1160	habe	_	_
+11-3	1161-1164	ihm	_	_
+11-4	1165-1168	da-	_	_

@@ -1,0 +1,290 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia,29 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-26	Perugia,29	*	PLACEfrom
+1-5	27-28	.	_	_
+
+#Text=Juli 1863 Unterdessen habe ich einen Abstecher nach Gubbio gemacht , wohin jetzt regelmäßig Diligencen gehen .
+2-1	29-33	Juli	*[3]	DATEletter[3]
+2-2	34-38	1863	*[3]	DATEletter[3]
+2-3	39-50	Unterdessen	_	_
+2-4	51-55	habe	_	_
+2-5	56-59	ich	_	_
+2-6	60-65	einen	_	_
+2-7	66-75	Abstecher	_	_
+2-8	76-80	nach	_	_
+2-9	81-87	Gubbio	*	PLACEmentioned
+2-10	88-95	gemacht	_	_
+2-11	96-97	,	_	_
+2-12	98-103	wohin	_	_
+2-13	104-109	jetzt	_	_
+2-14	110-120	regelmäßig	_	_
+2-15	121-131	Diligencen	_	_
+2-16	132-137	gehen	_	_
+2-17	138-139	.	_	_
+
+#Text=Es geschah wegen der Ausgrabungen des Theaters , das in der That manches Eigenthümliche zu bieten scheint .
+3-1	140-142	Es	_	_
+3-2	143-150	geschah	_	_
+3-3	151-156	wegen	_	_
+3-4	157-160	der	_	_
+3-5	161-173	Ausgrabungen	_	_
+3-6	174-177	des	_	_
+3-7	178-186	Theaters	*	OBJ
+3-8	187-188	,	_	_
+3-9	189-192	das	_	_
+3-10	193-195	in	_	_
+3-11	196-199	der	_	_
+3-12	200-204	That	_	_
+3-13	205-212	manches	_	_
+3-14	213-227	Eigenthümliche	_	_
+3-15	228-230	zu	_	_
+3-16	231-237	bieten	_	_
+3-17	238-245	scheint	_	_
+3-18	246-247	.	_	_
+
+#Text=Der Erfolg meiner Reise war günstig , denn nach Beendigung der Ausgrabungen , d.h .
+4-1	248-251	Der	_	_
+4-2	252-258	Erfolg	_	_
+4-3	259-265	meiner	_	_
+4-4	266-271	Reise	_	_
+4-5	272-275	war	_	_
+4-6	276-283	günstig	_	_
+4-7	284-285	,	_	_
+4-8	286-290	denn	_	_
+4-9	291-295	nach	_	_
+4-10	296-306	Beendigung	_	_
+4-11	307-310	der	_	_
+4-12	311-323	Ausgrabungen	_	_
+4-13	324-325	,	_	_
+4-14	326-329	d.h	_	_
+4-15	330-331	.	_	_
+
+#Text=nicht vor dem nächsten Jahre , werden wir die Zeichnungen zur Publication bekommen .
+5-1	332-337	nicht	_	_
+5-2	338-341	vor	_	_
+5-3	342-345	dem	_	_
+5-4	346-354	nächsten	_	_
+5-5	355-360	Jahre	_	_
+5-6	361-362	,	_	_
+5-7	363-369	werden	_	_
+5-8	370-373	wir	_	_
+5-9	374-377	die	_	_
+5-10	378-389	Zeichnungen	_	_
+5-11	390-393	zur	_	_
+5-12	394-405	Publication	_	_
+5-13	406-414	bekommen	_	_
+5-14	415-416	.	_	_
+
+#Text=Wissen Sie etwas von falschen Inschriften in Fuligno ?
+6-1	417-423	Wissen	_	_
+6-2	424-427	Sie	_	_
+6-3	428-433	etwas	_	_
+6-4	434-437	von	_	_
+6-5	438-446	falschen	*[4]	OBJ[4]
+6-6	447-458	Inschriften	*[4]	OBJ[4]
+6-7	459-461	in	_	_
+6-8	462-469	Fuligno	*	PLACEmentioned
+6-9	470-471	?	_	_
+
+#Text=Es wurden mir gestern fünf in Abschrift mitgetheilt , die dort in Stein existiren , aber mir sämmtlich verdächtig scheinen .
+7-1	472-474	Es	_	_
+7-2	475-481	wurden	_	_
+7-3	482-485	mir	_	_
+7-4	486-493	gestern	_	_
+7-5	494-498	fünf	_	_
+7-6	499-501	in	_	_
+7-7	502-511	Abschrift	_	_
+7-8	512-523	mitgetheilt	_	_
+7-9	524-525	,	_	_
+7-10	526-529	die	_	_
+7-11	530-534	dort	_	_
+7-12	535-537	in	_	_
+7-13	538-543	Stein	_	_
+7-14	544-553	existiren	_	_
+7-15	554-555	,	_	_
+7-16	556-560	aber	_	_
+7-17	561-564	mir	_	_
+7-18	565-574	sämmtlich	_	_
+7-19	575-585	verdächtig	_	_
+7-20	586-594	scheinen	_	_
+7-21	595-596	.	_	_
+
+#Text=Z.B. Fulignius .
+8-1	597-601	Z.B.	_	_
+8-2	602-611	Fulignius	_	_
+8-3	612-613	.	_	_
+
+#Text=Therio , Prae .
+9-1	614-620	Therio	_	_
+9-2	621-622	,	_	_
+9-3	623-627	Prae	_	_
+9-4	628-629	.	_	_
+
+#Text=III .
+10-1	630-633	III	_	_
+10-2	634-635	.	_	_
+
+#Text=Consul Olimpiad .
+11-1	636-642	Consul	_	_
+11-2	643-651	Olimpiad	_	_
+11-3	652-653	.	_	_
+
+#Text=CCII .
+12-1	654-658	CCII	_	_
+12-2	659-660	.	_	_
+
+#Text=an .
+13-1	661-663	an	_	_
+13-2	664-665	.	_	_
+
+#Text=III .
+14-1	666-669	III	_	_
+14-2	670-671	.	_	_
+
+#Text=nob .
+15-1	672-675	nob	_	_
+15-2	676-677	.	_	_
+
+#Text=cond .
+16-1	678-682	cond	_	_
+16-2	683-684	.	_	_
+
+#Text=an .
+17-1	685-687	an	_	_
+17-2	688-689	.	_	_
+
+#Text=DCCLXXXIII .
+18-1	690-700	DCCLXXXIII	_	_
+18-2	701-702	.	_	_
+
+#Text=: Auf der Rückreise werde ich sie natürlich inspiciren .
+19-1	703-704	:	_	_
+19-2	705-708	Auf	_	_
+19-3	709-712	der	_	_
+19-4	713-722	Rückreise	_	_
+19-5	723-728	werde	_	_
+19-6	729-732	ich	_	_
+19-7	733-736	sie	_	_
+19-8	737-746	natürlich	_	_
+19-9	747-757	inspiciren	_	_
+19-10	758-759	.	_	_
+
+#Text=- Auch einige andere epigraphische Kleinigkeiten habe ich nebenbei erhalten .
+20-1	760-761	-	_	_
+20-2	762-766	Auch	_	_
+20-3	767-773	einige	_	_
+20-4	774-780	andere	_	_
+20-5	781-794	epigraphische	_	_
+20-6	795-808	Kleinigkeiten	_	_
+20-7	809-813	habe	_	_
+20-8	814-817	ich	_	_
+20-9	818-826	nebenbei	_	_
+20-10	827-835	erhalten	_	_
+20-11	836-837	.	_	_
+
+#Text=Heute sind die Zeichnungen der Brückdvon Alcuntura angelangt , recht schön , wenn auch die Tafeln nicht allzu reich sind .
+21-1	838-843	Heute	_	_
+21-2	844-848	sind	_	_
+21-3	849-852	die	_	_
+21-4	853-864	Zeichnungen	_	_
+21-5	865-868	der	_	_
+21-6	869-878	Brückdvon	*	OBJ
+21-7	879-888	Alcuntura	*	PLACEmentioned
+21-8	889-898	angelangt	_	_
+21-9	899-900	,	_	_
+21-10	901-906	recht	_	_
+21-11	907-912	schön	_	_
+21-12	913-914	,	_	_
+21-13	915-919	wenn	_	_
+21-14	920-924	auch	_	_
+21-15	925-928	die	_	_
+21-16	929-935	Tafeln	_	_
+21-17	936-941	nicht	_	_
+21-18	942-947	allzu	_	_
+21-19	948-953	reich	_	_
+21-20	954-958	sind	_	_
+21-21	959-960	.	_	_
+
+#Text=- Ein Circular in der Ebhardtschen Sache wegen einer Versammmlung der Creditore am 30 brauche ich nicht beizulegen .
+22-1	961-962	-	_	_
+22-2	963-966	Ein	_	_
+22-3	967-975	Circular	_	_
+22-4	976-978	in	_	_
+22-5	979-982	der	_	_
+22-6	983-995	Ebhardtschen	*	MISC
+22-7	996-1001	Sache	_	_
+22-8	1002-1007	wegen	_	_
+22-9	1008-1013	einer	_	_
+22-10	1014-1026	Versammmlung	_	_
+22-11	1027-1030	der	_	_
+22-12	1031-1040	Creditore	_	_
+22-13	1041-1043	am	_	_
+22-14	1044-1046	30	_	_
+22-15	1047-1054	brauche	_	_
+22-16	1055-1058	ich	_	_
+22-17	1059-1064	nicht	_	_
+22-18	1065-1075	beizulegen	_	_
+22-19	1076-1077	.	_	_
+
+#Text=Franc .
+23-1	1078-1083	Franc	*[5]	PERmentioned[5]
+23-2	1084-1085	.	*[5]	PERmentioned[5]
+
+#Text=Calvert schreibt Dardanellen u Juli : daß vor einigen Jahren sein Bruder , der brit .
+24-1	1086-1093	Calvert	*[5]	PERmentioned[5]
+24-2	1094-1102	schreibt	_	_
+24-3	1103-1114	Dardanellen	*	PLACEmentioned
+24-4	1115-1116	u	_	_
+24-5	1117-1121	Juli	*	DATEmentioned
+24-6	1122-1123	:	_	_
+24-7	1124-1127	daß	_	_
+24-8	1128-1131	vor	_	_
+24-9	1132-1139	einigen	_	_
+24-10	1140-1146	Jahren	_	_
+24-11	1147-1151	sein	*[6]	PERmentioned[6]
+24-12	1152-1158	Bruder	*[6]	PERmentioned[6]
+24-13	1159-1160	,	_	_
+24-14	1161-1164	der	_	_
+24-15	1165-1169	brit	_	_
+24-16	1170-1171	.	_	_
+
+#Text=Consul , ein Diplom als Correspondent des Instituts erhalten habe , das offenbar für ihn , dem Antiquar der Familie bestimmt gewesen sei .
+25-1	1172-1178	Consul	_	_
+25-2	1179-1180	,	_	_
+25-3	1181-1184	ein	_	_
+25-4	1185-1191	Diplom	_	_
+25-5	1192-1195	als	_	_
+25-6	1196-1209	Correspondent	_	_
+25-7	1210-1213	des	_	_
+25-8	1214-1223	Instituts	*	ORGmentioned
+25-9	1224-1232	erhalten	_	_
+25-10	1233-1237	habe	_	_
+25-11	1238-1239	,	_	_
+25-12	1240-1243	das	_	_
+25-13	1244-1252	offenbar	_	_
+25-14	1253-1256	für	_	_
+25-15	1257-1260	ihn	_	_
+25-16	1261-1262	,	_	_
+25-17	1263-1266	dem	_	_
+25-18	1267-1275	Antiquar	_	_
+25-19	1276-1279	der	_	_
+25-20	1280-1287	Familie	_	_
+25-21	1288-1296	bestimmt	_	_
+25-22	1297-1304	gewesen	_	_
+25-23	1305-1308	sei	_	_
+25-24	1309-1310	.	_	_
+
+#Text=Newton habe versprochen , das Versehen ver-
+26-1	1311-1317	Newton	*	PERmentioned
+26-2	1318-1322	habe	_	_
+26-3	1323-1334	versprochen	_	_
+26-4	1335-1336	,	_	_
+26-5	1337-1340	das	_	_
+26-6	1341-1349	Versehen	_	_
+26-7	1350-1354	ver-	_	_

@@ -1,0 +1,132 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=257 Helbig an Henzen m Pompei , 14 .
+1-1	0-3	257	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-22	m	_	_
+1-6	23-29	Pompei	*	PLACEfrom
+1-7	30-31	,	_	_
+1-8	32-34	14	*[1]	DATEletter[1]
+1-9	35-36	.	*[1]	DATEletter[1]
+
+#Text=Juri 1865 derartigen Schwierigkeit beginnen muß .
+2-1	37-41	Juri	*[1]	DATEletter[1]
+2-2	42-46	1865	*[1]	DATEletter[1]
+2-3	47-57	derartigen	_	_
+2-4	58-71	Schwierigkeit	_	_
+2-5	72-80	beginnen	_	_
+2-6	81-84	muß	_	_
+2-7	85-86	.	_	_
+
+#Text=Indeß liegt die Schuld nicht an mir .
+3-1	87-92	Indeß	_	_
+3-2	93-98	liegt	_	_
+3-3	99-102	die	_	_
+3-4	103-109	Schuld	_	_
+3-5	110-115	nicht	_	_
+3-6	116-118	an	_	_
+3-7	119-122	mir	_	_
+3-8	123-124	.	_	_
+
+#Text=Entscheiden Sie , was Sie für sich selbst und für die Interessen des Instituts für geeigneter halten und theilen Sie mir Ihre Ansicht , bitte , möglichst bald mit , damit ich mich mit der Wahl des Logis in Neapel danach richten kann .
+4-1	125-136	Entscheiden	_	_
+4-2	137-140	Sie	_	_
+4-3	141-142	,	_	_
+4-4	143-146	was	_	_
+4-5	147-150	Sie	_	_
+4-6	151-154	für	_	_
+4-7	155-159	sich	_	_
+4-8	160-166	selbst	_	_
+4-9	167-170	und	_	_
+4-10	171-174	für	_	_
+4-11	175-178	die	_	_
+4-12	179-189	Interessen	_	_
+4-13	190-193	des	_	_
+4-14	194-203	Instituts	*	ORGmentioned
+4-15	204-207	für	_	_
+4-16	208-218	geeigneter	_	_
+4-17	219-225	halten	_	_
+4-18	226-229	und	_	_
+4-19	230-237	theilen	_	_
+4-20	238-241	Sie	_	_
+4-21	242-245	mir	_	_
+4-22	246-250	Ihre	_	_
+4-23	251-258	Ansicht	_	_
+4-24	259-260	,	_	_
+4-25	261-266	bitte	_	_
+4-26	267-268	,	_	_
+4-27	269-278	möglichst	_	_
+4-28	279-283	bald	_	_
+4-29	284-287	mit	_	_
+4-30	288-289	,	_	_
+4-31	290-295	damit	_	_
+4-32	296-299	ich	_	_
+4-33	300-304	mich	_	_
+4-34	305-308	mit	_	_
+4-35	309-312	der	_	_
+4-36	313-317	Wahl	_	_
+4-37	318-321	des	_	_
+4-38	322-327	Logis	_	_
+4-39	328-330	in	_	_
+4-40	331-337	Neapel	*	PLACEmentioned
+4-41	338-344	danach	_	_
+4-42	345-352	richten	_	_
+4-43	353-357	kann	_	_
+4-44	358-359	.	_	_
+
+#Text=Fiorelli grüßt Sie vielmals , ebenso Spangenberg , Lignana und Castellani .
+5-1	360-368	Fiorelli	*	PERmentioned
+5-2	369-374	grüßt	_	_
+5-3	375-378	Sie	_	_
+5-4	379-387	vielmals	_	_
+5-5	388-389	,	_	_
+5-6	390-396	ebenso	_	_
+5-7	397-408	Spangenberg	*	PERmentioned
+5-8	409-410	,	_	_
+5-9	411-418	Lignana	*	PERmentioned
+5-10	419-422	und	_	_
+5-11	423-433	Castellani	*	PERmentioned
+5-12	434-435	.	_	_
+
+#Text=Bei letzterem schöne Sachen für das Bullettino , und einige griechische in Neapel gefundene Grabinschriften .
+6-1	436-439	Bei	_	_
+6-2	440-449	letzterem	_	_
+6-3	450-456	schöne	_	_
+6-4	457-463	Sachen	_	_
+6-5	464-467	für	_	_
+6-6	468-471	das	_	_
+6-7	472-482	Bullettino	_	_
+6-8	483-484	,	_	_
+6-9	485-488	und	_	_
+6-10	489-495	einige	_	_
+6-11	496-507	griechische	_	_
+6-12	508-510	in	_	_
+6-13	511-517	Neapel	*	PLACEmentioned
+6-14	518-527	gefundene	_	_
+6-15	528-543	Grabinschriften	*	OBJ
+6-16	544-545	.	_	_
+
+#Text=Mit der Bitte , mich der Frau Professorin zu enpfehlen und die ragazzi zu grüßen Ihr Wolfgang Helbig .
+7-1	546-549	Mit	_	_
+7-2	550-553	der	_	_
+7-3	554-559	Bitte	_	_
+7-4	560-561	,	_	_
+7-5	562-566	mich	_	_
+7-6	567-570	der	_	_
+7-7	571-575	Frau	_	_
+7-8	576-587	Professorin	_	_
+7-9	588-590	zu	_	_
+7-10	591-600	enpfehlen	_	_
+7-11	601-604	und	_	_
+7-12	605-608	die	_	_
+7-13	609-616	ragazzi	_	_
+7-14	617-619	zu	_	_
+7-15	620-626	grüßen	_	_
+7-16	627-630	Ihr	_	_
+7-17	631-639	Wolfgang	*[2]	PERauthor[2]
+7-18	640-646	Helbig	*[2]	PERauthor[2]
+7-19	647-648	.	_	_

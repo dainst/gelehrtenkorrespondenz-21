@@ -1,0 +1,112 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=u 159 Gerhard an Braun Berlin , 13. März 1844 Ich plage mich bereits zum dritten mal in diesen “ Winter mit einer Augenverschnupfung , die mich bei thränendem Angesicht jedes mal bald vierzehn Tage in meinen Arbeiten hindert .
+1-1	0-1	u	_	_
+1-2	2-5	159	_	_
+1-3	6-13	Gerhard	*	PERauthor
+1-4	14-16	an	_	_
+1-5	17-22	Braun	*	PERaddressee
+1-6	23-29	Berlin	*	PLACEfrom
+1-7	30-31	,	_	_
+1-8	32-35	13.	*[3]	DATEletter[3]
+1-9	36-40	März	*[3]	DATEletter[3]
+1-10	41-45	1844	*[3]	DATEletter[3]
+1-11	46-49	Ich	_	_
+1-12	50-55	plage	_	_
+1-13	56-60	mich	_	_
+1-14	61-68	bereits	_	_
+1-15	69-72	zum	_	_
+1-16	73-80	dritten	_	_
+1-17	81-84	mal	_	_
+1-18	85-87	in	_	_
+1-19	88-94	diesen	_	_
+1-20	95-96	“	_	_
+1-21	97-103	Winter	_	_
+1-22	104-107	mit	_	_
+1-23	108-113	einer	_	_
+1-24	114-132	Augenverschnupfung	_	_
+1-25	133-134	,	_	_
+1-26	135-138	die	_	_
+1-27	139-143	mich	_	_
+1-28	144-147	bei	_	_
+1-29	148-158	thränendem	_	_
+1-30	159-168	Angesicht	_	_
+1-31	169-174	jedes	_	_
+1-32	175-178	mal	_	_
+1-33	179-183	bald	_	_
+1-34	184-192	vierzehn	_	_
+1-35	193-197	Tage	_	_
+1-36	198-200	in	_	_
+1-37	201-207	meinen	_	_
+1-38	208-216	Arbeiten	_	_
+1-39	217-224	hindert	_	_
+1-40	225-226	.	_	_
+
+#Text=Eine neue und fatale Zugabe meiner Gebrechlichkeit \; Melicher weiß nichts dafür als Schwefelleber , wovon ich keinen sichtlichen Erfolg verspüre .
+2-1	227-231	Eine	_	_
+2-2	232-236	neue	_	_
+2-3	237-240	und	_	_
+2-4	241-247	fatale	_	_
+2-5	248-254	Zugabe	_	_
+2-6	255-261	meiner	_	_
+2-7	262-277	Gebrechlichkeit	_	_
+2-8	278-279	\;	_	_
+2-9	280-288	Melicher	*	PERmentioned
+2-10	289-293	weiß	_	_
+2-11	294-300	nichts	_	_
+2-12	301-306	dafür	_	_
+2-13	307-310	als	_	_
+2-14	311-324	Schwefelleber	_	_
+2-15	325-326	,	_	_
+2-16	327-332	wovon	_	_
+2-17	333-336	ich	_	_
+2-18	337-343	keinen	_	_
+2-19	344-355	sichtlichen	_	_
+2-20	356-362	Erfolg	_	_
+2-21	363-371	verspüre	_	_
+2-22	372-373	.	_	_
+
+#Text=Mit Bunsen werde ich von Ihren Angelegenheiten nicht sprechen sofern Sie es nicht besonders mich heißen , bin aber sehr bereit Ihre Schuldsache ihm ans Herz zu lesen , falls Kestner es nicht bereits that .
+3-1	374-377	Mit	_	_
+3-2	378-384	Bunsen	*	PERmentioned
+3-3	385-390	werde	_	_
+3-4	391-394	ich	_	_
+3-5	395-398	von	_	_
+3-6	399-404	Ihren	_	_
+3-7	405-420	Angelegenheiten	_	_
+3-8	421-426	nicht	_	_
+3-9	427-435	sprechen	_	_
+3-10	436-442	sofern	_	_
+3-11	443-446	Sie	_	_
+3-12	447-449	es	_	_
+3-13	450-455	nicht	_	_
+3-14	456-465	besonders	_	_
+3-15	466-470	mich	_	_
+3-16	471-477	heißen	_	_
+3-17	478-479	,	_	_
+3-18	480-483	bin	_	_
+3-19	484-488	aber	_	_
+3-20	489-493	sehr	_	_
+3-21	494-500	bereit	_	_
+3-22	501-505	Ihre	_	_
+3-23	506-517	Schuldsache	_	_
+3-24	518-521	ihm	_	_
+3-25	522-525	ans	_	_
+3-26	526-530	Herz	_	_
+3-27	531-533	zu	_	_
+3-28	534-539	lesen	_	_
+3-29	540-541	,	_	_
+3-30	542-547	falls	_	_
+3-31	548-555	Kestner	*	PERmentioned
+3-32	556-558	es	_	_
+3-33	559-564	nicht	_	_
+3-34	565-572	bereits	_	_
+3-35	573-577	that	_	_
+3-36	578-579	.	_	_
+
+#Text=Herzlichst Ihr Gerhard
+4-1	580-590	Herzlichst	_	_
+4-2	591-594	Ihr	_	_
+4-3	595-602	Gerhard	*	PERauthor

@@ -1,0 +1,280 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ch \\\\ Ne .
+1-1	0-2	ch	_	_
+1-2	3-5	\\\\	_	_
+1-3	6-8	Ne	_	_
+1-4	9-10	.	_	_
+
+#Text=Ö a vd .
+2-1	11-12	Ö	_	_
+2-2	13-14	a	_	_
+2-3	15-17	vd	_	_
+2-4	18-19	.	_	_
+
+#Text=Enzit Kae & en > Gerhard an Braun Berlin , 8. Mai 1838 in welchem Fall es neben dem andern Spiegel gelegt worden wäre .
+3-1	20-25	Enzit	_	_
+3-2	26-29	Kae	_	_
+3-3	30-31	&	_	_
+3-4	32-34	en	_	_
+3-5	35-36	>	_	_
+3-6	37-44	Gerhard	*	PERauthor
+3-7	45-47	an	_	_
+3-8	48-53	Braun	*	PERaddressee
+3-9	54-60	Berlin	*	PLACEfrom
+3-10	61-62	,	_	_
+3-11	63-65	8.	*[4]	DATEletter[4]
+3-12	66-69	Mai	*[4]	DATEletter[4]
+3-13	70-74	1838	*[4]	DATEletter[4]
+3-14	75-77	in	_	_
+3-15	78-85	welchem	_	_
+3-16	86-90	Fall	_	_
+3-17	91-93	es	_	_
+3-18	94-99	neben	_	_
+3-19	100-103	dem	_	_
+3-20	104-110	andern	_	_
+3-21	111-118	Spiegel	*	OBJ
+3-22	119-125	gelegt	_	_
+3-23	126-132	worden	_	_
+3-24	133-137	wäre	_	_
+3-25	138-139	.	_	_
+
+#Text=kr muß es haben und wird es finden \; übrigens patti chiari , amicizia lunga .
+4-1	140-142	kr	_	_
+4-2	143-146	muß	_	_
+4-3	147-149	es	_	_
+4-4	150-155	haben	_	_
+4-5	156-159	und	_	_
+4-6	160-164	wird	_	_
+4-7	165-167	es	_	_
+4-8	168-174	finden	_	_
+4-9	175-176	\;	_	_
+4-10	177-185	übrigens	_	_
+4-11	186-191	patti	_	_
+4-12	192-198	chiari	_	_
+4-13	199-200	,	_	_
+4-14	201-209	amicizia	_	_
+4-15	210-215	lunga	_	_
+4-16	216-217	.	_	_
+
+#Text=Zerrt uns ehr bei der Nase herum , So muß man sich einen andern Zeichner zu legen \; was ich jedoch ohne Noth nicht möchte , da er capace und sonst ein ehrlicher Bursche ist .
+5-1	218-223	Zerrt	_	_
+5-2	224-227	uns	_	_
+5-3	228-231	ehr	_	_
+5-4	232-235	bei	_	_
+5-5	236-239	der	_	_
+5-6	240-244	Nase	_	_
+5-7	245-250	herum	_	_
+5-8	251-252	,	_	_
+5-9	253-255	So	_	_
+5-10	256-259	muß	_	_
+5-11	260-263	man	_	_
+5-12	264-268	sich	_	_
+5-13	269-274	einen	_	_
+5-14	275-281	andern	_	_
+5-15	282-290	Zeichner	_	_
+5-16	291-293	zu	_	_
+5-17	294-299	legen	_	_
+5-18	300-301	\;	_	_
+5-19	302-305	was	_	_
+5-20	306-309	ich	_	_
+5-21	310-316	jedoch	_	_
+5-22	317-321	ohne	_	_
+5-23	322-326	Noth	_	_
+5-24	327-332	nicht	_	_
+5-25	333-339	möchte	_	_
+5-26	340-341	,	_	_
+5-27	342-344	da	_	_
+5-28	345-347	er	_	_
+5-29	348-354	capace	_	_
+5-30	355-358	und	_	_
+5-31	359-364	sonst	_	_
+5-32	365-368	ein	_	_
+5-33	369-378	ehrlicher	_	_
+5-34	379-386	Bursche	_	_
+5-35	387-390	ist	_	_
+5-36	391-392	.	_	_
+
+#Text=Panofkas Abhandlung ist allerdings nicht gut geschrieben \; ich habe erst den lezten Bogen in Correktur gesehen .
+6-1	393-401	Panofkas	*	PERmentioned
+6-2	402-412	Abhandlung	_	_
+6-3	413-416	ist	_	_
+6-4	417-427	allerdings	_	_
+6-5	428-433	nicht	_	_
+6-6	434-437	gut	_	_
+6-7	438-449	geschrieben	_	_
+6-8	450-451	\;	_	_
+6-9	452-455	ich	_	_
+6-10	456-460	habe	_	_
+6-11	461-465	erst	_	_
+6-12	466-469	den	_	_
+6-13	470-476	lezten	_	_
+6-14	477-482	Bogen	_	_
+6-15	483-485	in	_	_
+6-16	486-495	Correktur	_	_
+6-17	496-503	gesehen	_	_
+6-18	504-505	.	_	_
+
+#Text=Hat Capranesi meine Ant . Bildw .
+7-1	506-509	Hat	_	_
+7-2	510-519	Capranesi	*	PERmentioned
+7-3	520-525	meine	_	_
+7-4	526-529	Ant	_	_
+7-5	530-531	.	_	_
+7-6	532-537	Bildw	_	_
+7-7	538-539	.	_	_
+
+#Text=41 - 80 nicht erhalten ( was mich jedoch sehr wundert ) , so will ich sie ihm gern mit ehester Gelegenheit nachschaffen .
+8-1	540-542	41	_	_
+8-2	543-544	-	_	_
+8-3	545-547	80	_	_
+8-4	548-553	nicht	_	_
+8-5	554-562	erhalten	_	_
+8-6	563-564	(	_	_
+8-7	565-568	was	_	_
+8-8	569-573	mich	_	_
+8-9	574-580	jedoch	_	_
+8-10	581-585	sehr	_	_
+8-11	586-593	wundert	_	_
+8-12	594-595	)	_	_
+8-13	596-597	,	_	_
+8-14	598-600	so	_	_
+8-15	601-605	will	_	_
+8-16	606-609	ich	_	_
+8-17	610-613	sie	_	_
+8-18	614-617	ihm	_	_
+8-19	618-622	gern	_	_
+8-20	623-626	mit	_	_
+8-21	627-634	ehester	_	_
+8-22	635-646	Gelegenheit	_	_
+8-23	647-659	nachschaffen	_	_
+8-24	660-661	.	_	_
+
+#Text=An Falconetto habe ich geschrieben durch Abrik der gestern abreiste \; Savigny wird ihm sicherlich auch \; schreiben , sogar mit einem Büchlein .
+9-1	662-664	An	_	_
+9-2	665-675	Falconetto	*	PERmentioned
+9-3	676-680	habe	_	_
+9-4	681-684	ich	_	_
+9-5	685-696	geschrieben	_	_
+9-6	697-702	durch	_	_
+9-7	703-708	Abrik	*	PERmentioned
+9-8	709-712	der	_	_
+9-9	713-720	gestern	_	_
+9-10	721-729	abreiste	_	_
+9-11	730-731	\;	_	_
+9-12	732-739	Savigny	*	PERmentioned
+9-13	740-744	wird	_	_
+9-14	745-748	ihm	_	_
+9-15	749-759	sicherlich	_	_
+9-16	760-764	auch	_	_
+9-17	765-766	\;	_	_
+9-18	767-776	schreiben	_	_
+9-19	777-778	,	_	_
+9-20	779-784	sogar	_	_
+9-21	785-788	mit	_	_
+9-22	789-794	einem	_	_
+9-23	795-803	Büchlein	_	_
+9-24	804-805	.	_	_
+
+#Text=Die Hoffnungen aus Catta sind sehr erfreulich .
+10-1	806-809	Die	_	_
+10-2	810-820	Hoffnungen	_	_
+10-3	821-824	aus	_	_
+10-4	825-830	Catta	*	PLACEmentioned
+10-5	831-835	sind	_	_
+10-6	836-840	sehr	_	_
+10-7	841-851	erfreulich	_	_
+10-8	852-853	.	_	_
+
+#Text=Es thut mir leid , daß Sie über Römisches so unvollständig schreiben \; Ihre Notizen sind ein wahres Bedürfnriß .
+11-1	854-856	Es	_	_
+11-2	857-861	thut	_	_
+11-3	862-865	mir	_	_
+11-4	866-870	leid	_	_
+11-5	871-872	,	_	_
+11-6	873-876	daß	_	_
+11-7	877-880	Sie	_	_
+11-8	881-885	über	_	_
+11-9	886-895	Römisches	_	_
+11-10	896-898	so	_	_
+11-11	899-912	unvollständig	_	_
+11-12	913-922	schreiben	_	_
+11-13	923-924	\;	_	_
+11-14	925-929	Ihre	_	_
+11-15	930-937	Notizen	_	_
+11-16	938-942	sind	_	_
+11-17	943-946	ein	_	_
+11-18	947-953	wahres	_	_
+11-19	954-964	Bedürfnriß	_	_
+11-20	965-966	.	_	_
+
+#Text=Ich selbst muß mich aufs Kärgste begnügen \; seit 10 Tagen sind meine Augen , ohne merklichen Anlaß , wieder einmal im desolatesten Zustand , dergestalt daß ich ohne noch Vertrauen zum Medicus irgend einer Farbe zu haben mir dennoch einige Körner Arsenum habe zutheilen lassen .
+12-1	967-970	Ich	_	_
+12-2	971-977	selbst	_	_
+12-3	978-981	muß	_	_
+12-4	982-986	mich	_	_
+12-5	987-991	aufs	_	_
+12-6	992-999	Kärgste	_	_
+12-7	1000-1008	begnügen	_	_
+12-8	1009-1010	\;	_	_
+12-9	1011-1015	seit	_	_
+12-10	1016-1018	10	_	_
+12-11	1019-1024	Tagen	_	_
+12-12	1025-1029	sind	_	_
+12-13	1030-1035	meine	_	_
+12-14	1036-1041	Augen	_	_
+12-15	1042-1043	,	_	_
+12-16	1044-1048	ohne	_	_
+12-17	1049-1059	merklichen	_	_
+12-18	1060-1065	Anlaß	_	_
+12-19	1066-1067	,	_	_
+12-20	1068-1074	wieder	_	_
+12-21	1075-1081	einmal	_	_
+12-22	1082-1084	im	_	_
+12-23	1085-1097	desolatesten	_	_
+12-24	1098-1105	Zustand	_	_
+12-25	1106-1107	,	_	_
+12-26	1108-1118	dergestalt	_	_
+12-27	1119-1122	daß	_	_
+12-28	1123-1126	ich	_	_
+12-29	1127-1131	ohne	_	_
+12-30	1132-1136	noch	_	_
+12-31	1137-1146	Vertrauen	_	_
+12-32	1147-1150	zum	_	_
+12-33	1151-1158	Medicus	_	_
+12-34	1159-1165	irgend	_	_
+12-35	1166-1171	einer	_	_
+12-36	1172-1177	Farbe	_	_
+12-37	1178-1180	zu	_	_
+12-38	1181-1186	haben	_	_
+12-39	1187-1190	mir	_	_
+12-40	1191-1198	dennoch	_	_
+12-41	1199-1205	einige	_	_
+12-42	1206-1212	Körner	_	_
+12-43	1213-1220	Arsenum	_	_
+12-44	1221-1225	habe	_	_
+12-45	1226-1235	zutheilen	_	_
+12-46	1236-1242	lassen	_	_
+12-47	1243-1244	.	_	_
+
+#Text=Nach den Erfahrungen die ich seit Jahr und Tag besitze steht zu erhoffen daß dergleichen von selbst wie-
+13-1	1245-1249	Nach	_	_
+13-2	1250-1253	den	_	_
+13-3	1254-1265	Erfahrungen	_	_
+13-4	1266-1269	die	_	_
+13-5	1270-1273	ich	_	_
+13-6	1274-1278	seit	_	_
+13-7	1279-1283	Jahr	_	_
+13-8	1284-1287	und	_	_
+13-9	1288-1291	Tag	_	_
+13-10	1292-1299	besitze	_	_
+13-11	1300-1305	steht	_	_
+13-12	1306-1308	zu	_	_
+13-13	1309-1317	erhoffen	_	_
+13-14	1318-1321	daß	_	_
+13-15	1322-1333	dergleichen	_	_
+13-16	1334-1337	von	_	_
+13-17	1338-1344	selbst	_	_
+13-18	1345-1349	wie-	_	_

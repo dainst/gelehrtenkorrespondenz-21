@@ -1,0 +1,285 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=226 Braun an Gerhard Rom , 10. Dezember 1839 bricht , um die Geliebte zu erreichen an deren Quellbett er angelangt ist .
+1-1	0-3	226	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	10.	*[4]	DATEletter[4]
+1-8	31-39	Dezember	*[4]	DATEletter[4]
+1-9	40-44	1839	*[4]	DATEletter[4]
+1-10	45-51	bricht	_	_
+1-11	52-53	,	_	_
+1-12	54-56	um	_	_
+1-13	57-60	die	_	_
+1-14	61-69	Geliebte	_	_
+1-15	70-72	zu	_	_
+1-16	73-82	erreichen	_	_
+1-17	83-85	an	_	_
+1-18	86-91	deren	_	_
+1-19	92-101	Quellbett	_	_
+1-20	102-104	er	_	_
+1-21	105-114	angelangt	_	_
+1-22	115-118	ist	_	_
+1-23	119-120	.	_	_
+
+#Text=Die verfolgte Nymphe wird im Hintergrunde über den Anblick des gewaltigen Strongottes ohnmächtig .
+2-1	121-124	Die	_	_
+2-2	125-134	verfolgte	_	_
+2-3	135-141	Nymphe	*	MISC
+2-4	142-146	wird	_	_
+2-5	147-149	im	_	_
+2-6	150-162	Hintergrunde	_	_
+2-7	163-167	über	_	_
+2-8	168-171	den	_	_
+2-9	172-179	Anblick	_	_
+2-10	180-183	des	_	_
+2-11	184-194	gewaltigen	_	_
+2-12	195-206	Strongottes	*	MISC
+2-13	207-217	ohnmächtig	_	_
+2-14	218-219	.	_	_
+
+#Text=Umher ein reicher Chor von Männern und Frauen , die die Haupthandlung in mannigfachen Gemüthsaffecten reflectiren .
+3-1	220-225	Umher	_	_
+3-2	226-229	ein	_	_
+3-3	230-237	reicher	_	_
+3-4	238-242	Chor	_	_
+3-5	243-246	von	_	_
+3-6	247-254	Männern	_	_
+3-7	255-258	und	_	_
+3-8	259-265	Frauen	_	_
+3-9	266-267	,	_	_
+3-10	268-271	die	_	_
+3-11	272-275	die	_	_
+3-12	276-289	Haupthandlung	_	_
+3-13	290-292	in	_	_
+3-14	293-305	mannigfachen	_	_
+3-15	306-321	Gemüthsaffecten	_	_
+3-16	322-333	reflectiren	_	_
+3-17	334-335	.	_	_
+
+#Text=Ich erbitte mir Ihre und Panofka 's Meinung über diese Erklärung .
+4-1	336-339	Ich	_	_
+4-2	340-347	erbitte	_	_
+4-3	348-351	mir	_	_
+4-4	352-356	Ihre	_	_
+4-5	357-360	und	_	_
+4-6	361-368	Panofka	*[24]	PERmentioned[24]
+4-7	369-371	's	*[24]	PERmentioned[24]
+4-8	372-379	Meinung	_	_
+4-9	380-384	über	_	_
+4-10	385-390	diese	_	_
+4-11	391-400	Erklärung	_	_
+4-12	401-402	.	_	_
+
+#Text=Die von Ihnen zurückbehaltenen Zeichnungen vermisse ich schmerzlich .
+5-1	403-406	Die	_	_
+5-2	407-410	von	_	_
+5-3	411-416	Ihnen	_	_
+5-4	417-433	zurückbehaltenen	_	_
+5-5	434-445	Zeichnungen	_	_
+5-6	446-454	vermisse	_	_
+5-7	455-458	ich	_	_
+5-8	459-470	schmerzlich	_	_
+5-9	471-472	.	_	_
+
+#Text=Hoffentlich haben Sie sie bereits an Brockhaus abgesandt und so sind sie auf dem Weg nach Rom .
+6-1	473-484	Hoffentlich	_	_
+6-2	485-490	haben	_	_
+6-3	491-494	Sie	_	_
+6-4	495-498	sie	_	_
+6-5	499-506	bereits	_	_
+6-6	507-509	an	_	_
+6-7	510-519	Brockhaus	*	ORGmentioned
+6-8	520-529	abgesandt	_	_
+6-9	530-533	und	_	_
+6-10	534-536	so	_	_
+6-11	537-541	sind	_	_
+6-12	542-545	sie	_	_
+6-13	546-549	auf	_	_
+6-14	550-553	dem	_	_
+6-15	554-557	Weg	_	_
+6-16	558-562	nach	_	_
+6-17	563-566	Rom	*	PLACEmentioned
+6-18	567-568	.	_	_
+
+#Text=Am nöthigsten sind mir die zum Urtheil des Paris gehörigen Monumente .
+7-1	569-571	Am	_	_
+7-2	572-582	nöthigsten	_	_
+7-3	583-587	sind	_	_
+7-4	588-591	mir	_	_
+7-5	592-595	die	_	_
+7-6	596-599	zum	_	_
+7-7	600-607	Urtheil	*[10]	MISC[10]
+7-8	608-611	des	*[10]	MISC[10]
+7-9	612-617	Paris	*[10]	MISC[10]
+7-10	618-627	gehörigen	_	_
+7-11	628-637	Monumente	_	_
+7-12	638-639	.	_	_
+
+#Text=Müller hat mir eine äußerst geistreiche Erklärung der Klymene mitgetheilt .
+8-1	640-646	Müller	*	PERmentioned
+8-2	647-650	hat	_	_
+8-3	651-654	mir	_	_
+8-4	655-659	eine	_	_
+8-5	660-667	äußerst	_	_
+8-6	668-679	geistreiche	_	_
+8-7	680-689	Erklärung	_	_
+8-8	690-693	der	_	_
+8-9	694-701	Klymene	*	OBJ
+8-10	702-713	mitgetheilt	_	_
+8-11	714-715	.	_	_
+
+#Text=Das Urtheil des Paris ist nach seiner richtigen Bemerkung häufig dem Scheideweg des Herakles analog behandelt worden .
+9-1	716-719	Das	_	_
+9-2	720-727	Urtheil	*[13]	MISC[13]
+9-3	728-731	des	*[13]	MISC[13]
+9-4	732-737	Paris	*[13]	MISC[13]
+9-5	738-741	ist	_	_
+9-6	742-746	nach	_	_
+9-7	747-753	seiner	_	_
+9-8	754-763	richtigen	_	_
+9-9	764-773	Bemerkung	_	_
+9-10	774-780	häufig	_	_
+9-11	781-784	dem	_	_
+9-12	785-795	Scheideweg	*[14]	MISC[14]
+9-13	796-799	des	*[14]	MISC[14]
+9-14	800-808	Herakles	*[14]	MISC[14]
+9-15	809-815	analog	_	_
+9-16	816-825	behandelt	_	_
+9-17	826-832	worden	_	_
+9-18	833-834	.	_	_
+
+#Text=Klymene als die ruhmreiche steht daher sehr schön mit der Eutychia im Gegensatz .
+10-1	835-842	Klymene	*	MISC
+10-2	843-846	als	_	_
+10-3	847-850	die	_	_
+10-4	851-861	ruhmreiche	_	_
+10-5	862-867	steht	_	_
+10-6	868-873	daher	_	_
+10-7	874-878	sehr	_	_
+10-8	879-884	schön	_	_
+10-9	885-888	mit	_	_
+10-10	889-892	der	_	_
+10-11	893-901	Eutychia	*	MISC
+10-12	902-904	im	_	_
+10-13	905-914	Gegensatz	_	_
+10-14	915-916	.	_	_
+
+#Text=Ich Esel hätte auch diese Erklärung finden sollen , zumal ich durch eine bei Ihnen gebliebene Vasenzeichnung zu einer ähnlichen Bemerkung veranlaßt worden war .
+11-1	917-920	Ich	_	_
+11-2	921-925	Esel	_	_
+11-3	926-931	hätte	_	_
+11-4	932-936	auch	_	_
+11-5	937-942	diese	_	_
+11-6	943-952	Erklärung	_	_
+11-7	953-959	finden	_	_
+11-8	960-966	sollen	_	_
+11-9	967-968	,	_	_
+11-10	969-974	zumal	_	_
+11-11	975-978	ich	_	_
+11-12	979-984	durch	_	_
+11-13	985-989	eine	_	_
+11-14	990-993	bei	_	_
+11-15	994-999	Ihnen	_	_
+11-16	1000-1010	gebliebene	_	_
+11-17	1011-1025	Vasenzeichnung	_	_
+11-18	1026-1028	zu	_	_
+11-19	1029-1034	einer	_	_
+11-20	1035-1044	ähnlichen	_	_
+11-21	1045-1054	Bemerkung	_	_
+11-22	1055-1064	veranlaßt	_	_
+11-23	1065-1071	worden	_	_
+11-24	1072-1075	war	_	_
+11-25	1076-1077	.	_	_
+
+#Text=Ich sehne mich nach Nachrichten von Ihnen , hauptsächlich um Tröstliches von Ihrem Auge zu hören .
+12-1	1078-1081	Ich	_	_
+12-2	1082-1087	sehne	_	_
+12-3	1088-1092	mich	_	_
+12-4	1093-1097	nach	_	_
+12-5	1098-1109	Nachrichten	_	_
+12-6	1110-1113	von	_	_
+12-7	1114-1119	Ihnen	_	_
+12-8	1120-1121	,	_	_
+12-9	1122-1135	hauptsächlich	_	_
+12-10	1136-1138	um	_	_
+12-11	1139-1150	Tröstliches	_	_
+12-12	1151-1154	von	_	_
+12-13	1155-1160	Ihrem	_	_
+12-14	1161-1165	Auge	_	_
+12-15	1166-1168	zu	_	_
+12-16	1169-1174	hören	_	_
+12-17	1175-1176	.	_	_
+
+#Text=Hoffentlich haben Sie sich einem Homöopathen anvertraut .
+13-1	1177-1188	Hoffentlich	_	_
+13-2	1189-1194	haben	_	_
+13-3	1195-1198	Sie	_	_
+13-4	1199-1203	sich	_	_
+13-5	1204-1209	einem	_	_
+13-6	1210-1221	Homöopathen	_	_
+13-7	1222-1232	anvertraut	_	_
+13-8	1233-1234	.	_	_
+
+#Text=Auf der Isola Sagra hat man eine kleine Gräberstadt gefunden ganz ähnlich der , die S. Bartoli aus der Villa Corsini publicirt hat .
+14-1	1235-1238	Auf	_	_
+14-2	1239-1242	der	_	_
+14-3	1243-1248	Isola	*[17]	PLACEmentioned[17]
+14-4	1249-1254	Sagra	*[17]	PLACEmentioned[17]
+14-5	1255-1258	hat	_	_
+14-6	1259-1262	man	_	_
+14-7	1263-1267	eine	_	_
+14-8	1268-1274	kleine	_	_
+14-9	1275-1286	Gräberstadt	*	OBJ
+14-10	1287-1295	gefunden	_	_
+14-11	1296-1300	ganz	_	_
+14-12	1301-1308	ähnlich	_	_
+14-13	1309-1312	der	_	_
+14-14	1313-1314	,	_	_
+14-15	1315-1318	die	_	_
+14-16	1319-1321	S.	*[19]	PERmentioned[19]
+14-17	1322-1329	Bartoli	*[19]	PERmentioned[19]
+14-18	1330-1333	aus	_	_
+14-19	1334-1337	der	_	_
+14-20	1338-1343	Villa	*[20]	PLACEmentioned[20]
+14-21	1344-1351	Corsini	*[20]	PLACEmentioned[20]
+14-22	1352-1361	publicirt	_	_
+14-23	1362-1365	hat	_	_
+14-24	1366-1367	.	_	_
+
+#Text=Die Vejanischen Vasen , welche die Königin von Sardinien gefunden , publicirt jetzt Ece.° Campanari .
+15-1	1368-1371	Die	_	_
+15-2	1372-1383	Vejanischen	*[21]	OBJ[21]
+15-3	1384-1389	Vasen	*[21]	OBJ[21]
+15-4	1390-1391	,	_	_
+15-5	1392-1398	welche	_	_
+15-6	1399-1402	die	_	_
+15-7	1403-1410	Königin	*[22]	PERmentioned[22]
+15-8	1411-1414	von	*[22]	PERmentioned[22]
+15-9	1415-1424	Sardinien	*[22]|*[23]	PERmentioned[22]|PLACEmentioned[23]
+15-10	1425-1433	gefunden	_	_
+15-11	1434-1435	,	_	_
+15-12	1436-1445	publicirt	_	_
+15-13	1446-1451	jetzt	_	_
+15-14	1452-1457	Ece.°	_	_
+15-15	1458-1467	Campanari	*	PERmentioned
+15-16	1468-1469	.	_	_
+
+#Text=Herzliche Grüße an die lieben hochverehrten Ihrigen und Panofka Ihr treuer EBraun
+16-1	1470-1479	Herzliche	_	_
+16-2	1480-1485	Grüße	_	_
+16-3	1486-1488	an	_	_
+16-4	1489-1492	die	_	_
+16-5	1493-1499	lieben	_	_
+16-6	1500-1513	hochverehrten	_	_
+16-7	1514-1521	Ihrigen	_	_
+16-8	1522-1525	und	_	_
+16-9	1526-1533	Panofka	*	PERmentioned
+16-10	1534-1537	Ihr	_	_
+16-11	1538-1544	treuer	_	_
+16-12	1545-1551	EBraun	*	PERauthor

@@ -1,0 +1,272 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 23. Mai 1840 Hochverehrtester Freund !
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	23.	*[4]	DATEletter[4]
+1-7	27-30	Mai	*[4]	DATEletter[4]
+1-8	31-35	1840	*[4]	DATEletter[4]
+1-9	36-52	Hochverehrtester	_	_
+1-10	53-59	Freund	_	_
+1-11	60-61	!	_	_
+
+#Text=Ich beantworte Ihre beiden Briefe vom 11 und 12 d. M. Depoletti wird Ihr Haupt segnen dafür daß Sie den Ankauf der Ara mit so viel Erfolg betrieben haben .
+2-1	62-65	Ich	_	_
+2-2	66-76	beantworte	_	_
+2-3	77-81	Ihre	_	_
+2-4	82-88	beiden	_	_
+2-5	89-95	Briefe	_	_
+2-6	96-99	vom	_	_
+2-7	100-102	11	*	DATEmentioned
+2-8	103-106	und	_	_
+2-9	107-109	12	*[6]	DATEmentioned[6]
+2-10	110-112	d.	*[6]	DATEmentioned[6]
+2-11	113-115	M.	*[6]	DATEmentioned[6]
+2-12	116-125	Depoletti	*	PERmentioned
+2-13	126-130	wird	_	_
+2-14	131-134	Ihr	_	_
+2-15	135-140	Haupt	_	_
+2-16	141-147	segnen	_	_
+2-17	148-153	dafür	_	_
+2-18	154-157	daß	_	_
+2-19	158-161	Sie	_	_
+2-20	162-165	den	_	_
+2-21	166-172	Ankauf	_	_
+2-22	173-176	der	_	_
+2-23	177-180	Ara	*	OBJ
+2-24	181-184	mit	_	_
+2-25	185-187	so	_	_
+2-26	188-192	viel	_	_
+2-27	193-199	Erfolg	_	_
+2-28	200-209	betrieben	_	_
+2-29	210-215	haben	_	_
+2-30	216-217	.	_	_
+
+#Text=Es ist in der That ein schönes und interessantes Werk .
+3-1	218-220	Es	_	_
+3-2	221-224	ist	_	_
+3-3	225-227	in	_	_
+3-4	228-231	der	_	_
+3-5	232-236	That	_	_
+3-6	237-240	ein	_	_
+3-7	241-248	schönes	_	_
+3-8	249-252	und	_	_
+3-9	253-266	interessantes	_	_
+3-10	267-271	Werk	_	_
+3-11	272-273	.	_	_
+
+#Text=\| Auch dafür daß Sie Sich meines Bacchus so freundlich angenommen haben , besten Dank \| !
+4-1	274-275	\|	_	_
+4-2	276-280	Auch	_	_
+4-3	281-286	dafür	_	_
+4-4	287-290	daß	_	_
+4-5	291-294	Sie	_	_
+4-6	295-299	Sich	_	_
+4-7	300-306	meines	_	_
+4-8	307-314	Bacchus	*	OBJ
+4-9	315-317	so	_	_
+4-10	318-328	freundlich	_	_
+4-11	329-339	angenommen	_	_
+4-12	340-345	haben	_	_
+4-13	346-347	,	_	_
+4-14	348-354	besten	_	_
+4-15	355-359	Dank	_	_
+4-16	360-361	\|	_	_
+4-17	362-363	!	_	_
+
+#Text=Das herrliche Terracottengefäß ist leider verschwunden .
+5-1	364-367	Das	_	_
+5-2	368-377	herrliche	_	_
+5-3	378-394	Terracottengefäß	*	OBJ
+5-4	395-398	ist	_	_
+5-5	399-405	leider	_	_
+5-6	406-418	verschwunden	_	_
+5-7	419-420	.	_	_
+
+#Text=Basseggio behauptet es verkauft zu haben , was ich nicht glaube .
+6-1	421-430	Basseggio	*	PERmentioned
+6-2	431-440	behauptet	_	_
+6-3	441-443	es	_	_
+6-4	444-452	verkauft	_	_
+6-5	453-455	zu	_	_
+6-6	456-461	haben	_	_
+6-7	462-463	,	_	_
+6-8	464-467	was	_	_
+6-9	468-471	ich	_	_
+6-10	472-477	nicht	_	_
+6-11	478-484	glaube	_	_
+6-12	485-486	.	_	_
+
+#Text=Er scheint andre Absichten damit zu haben .
+7-1	487-489	Er	_	_
+7-2	490-497	scheint	_	_
+7-3	498-503	andre	_	_
+7-4	504-513	Absichten	_	_
+7-5	514-519	damit	_	_
+7-6	520-522	zu	_	_
+7-7	523-528	haben	_	_
+7-8	529-530	.	_	_
+
+#Text=Wolff ist ünsofern damit zufrieden , als dadurch deutlich wird , wie nöthig für ähnliche Fälle eine geeignete Vollmacht ist .
+8-1	531-536	Wolff	*	PERmentioned
+8-2	537-540	ist	_	_
+8-3	541-549	ünsofern	_	_
+8-4	550-555	damit	_	_
+8-5	556-565	zufrieden	_	_
+8-6	566-567	,	_	_
+8-7	568-571	als	_	_
+8-8	572-579	dadurch	_	_
+8-9	580-588	deutlich	_	_
+8-10	589-593	wird	_	_
+8-11	594-595	,	_	_
+8-12	596-599	wie	_	_
+8-13	600-606	nöthig	_	_
+8-14	607-610	für	_	_
+8-15	611-619	ähnliche	_	_
+8-16	620-625	Fälle	_	_
+8-17	626-630	eine	_	_
+8-18	631-640	geeignete	_	_
+8-19	641-650	Vollmacht	_	_
+8-20	651-654	ist	_	_
+8-21	655-656	.	_	_
+
+#Text=Eine solche sollten Sie ihm vermitteln , noch dazu als mal Niesigen Händlern stets einen weitgesteckten Zahlungstermin erlangen kann .
+9-1	657-661	Eine	_	_
+9-2	662-668	solche	_	_
+9-3	669-676	sollten	_	_
+9-4	677-680	Sie	_	_
+9-5	681-684	ihm	_	_
+9-6	685-695	vermitteln	_	_
+9-7	696-697	,	_	_
+9-8	698-702	noch	_	_
+9-9	703-707	dazu	_	_
+9-10	708-711	als	_	_
+9-11	712-715	mal	_	_
+9-12	716-724	Niesigen	_	_
+9-13	725-733	Händlern	_	_
+9-14	734-739	stets	_	_
+9-15	740-745	einen	_	_
+9-16	746-760	weitgesteckten	_	_
+9-17	761-775	Zahlungstermin	_	_
+9-18	776-784	erlangen	_	_
+9-19	785-789	kann	_	_
+9-20	790-791	.	_	_
+
+#Text=Auf Wolffs Urtheilsfähigkeit können Sie Sich hinlänglich verlassen .
+10-1	792-795	Auf	_	_
+10-2	796-802	Wolffs	*	PERmentioned
+10-3	803-820	Urtheilsfähigkeit	_	_
+10-4	821-827	können	_	_
+10-5	828-831	Sie	_	_
+10-6	832-836	Sich	_	_
+10-7	837-848	hinlänglich	_	_
+10-8	849-858	verlassen	_	_
+10-9	859-860	.	_	_
+
+#Text=Es ist allerdings ein Liebesdienst , daß Sie mir die Abschrift des gehässigen Leipziger Artikels mitgetheilt haben .
+11-1	861-863	Es	_	_
+11-2	864-867	ist	_	_
+11-3	868-878	allerdings	_	_
+11-4	879-882	ein	_	_
+11-5	883-895	Liebesdienst	_	_
+11-6	896-897	,	_	_
+11-7	898-901	daß	_	_
+11-8	902-905	Sie	_	_
+11-9	906-909	mir	_	_
+11-10	910-913	die	_	_
+11-11	914-923	Abschrift	_	_
+11-12	924-927	des	_	_
+11-13	928-938	gehässigen	_	_
+11-14	939-948	Leipziger	*	PLACEmentioned
+11-15	949-957	Artikels	_	_
+11-16	958-969	mitgetheilt	_	_
+11-17	970-975	haben	_	_
+11-18	976-977	.	_	_
+
+#Text=Ich wollte erst , obwohl mit Beiseitelassung aller Persönlichkeiten antworten \; aber nach reiferer Veberlegung finde ich es ungehörig .
+12-1	978-981	Ich	_	_
+12-2	982-988	wollte	_	_
+12-3	989-993	erst	_	_
+12-4	994-995	,	_	_
+12-5	996-1002	obwohl	_	_
+12-6	1003-1006	mit	_	_
+12-7	1007-1022	Beiseitelassung	_	_
+12-8	1023-1028	aller	_	_
+12-9	1029-1045	Persönlichkeiten	_	_
+12-10	1046-1055	antworten	_	_
+12-11	1056-1057	\;	_	_
+12-12	1058-1062	aber	_	_
+12-13	1063-1067	nach	_	_
+12-14	1068-1076	reiferer	_	_
+12-15	1077-1088	Veberlegung	_	_
+12-16	1089-1094	finde	_	_
+12-17	1095-1098	ich	_	_
+12-18	1099-1101	es	_	_
+12-19	1102-1111	ungehörig	_	_
+12-20	1112-1113	.	_	_
+
+#Text=Es ist zu albern .
+13-1	1114-1116	Es	_	_
+13-2	1117-1120	ist	_	_
+13-3	1121-1123	zu	_	_
+13-4	1124-1130	albern	_	_
+13-5	1131-1132	.	_	_
+
+#Text=Ganz ungegründete Verleumdungen können nur dem schaden der sie aussprengt .
+14-1	1133-1137	Ganz	_	_
+14-2	1138-1150	ungegründete	_	_
+14-3	1151-1164	Verleumdungen	_	_
+14-4	1165-1171	können	_	_
+14-5	1172-1175	nur	_	_
+14-6	1176-1179	dem	_	_
+14-7	1180-1187	schaden	_	_
+14-8	1188-1191	der	_	_
+14-9	1192-1195	sie	_	_
+14-10	1196-1206	aussprengt	_	_
+14-11	1207-1208	.	_	_
+
+#Text=Dr. Julius ist der leipziger Correspondent und kaum ein andrer als er kann diesen Klatsch eingesandt haben .
+15-1	1209-1212	Dr.	*[15]	PERmentioned[15]
+15-2	1213-1219	Julius	*[15]	PERmentioned[15]
+15-3	1220-1223	ist	_	_
+15-4	1224-1227	der	_	_
+15-5	1228-1237	leipziger	*	PLACEmentioned
+15-6	1238-1251	Correspondent	_	_
+15-7	1252-1255	und	_	_
+15-8	1256-1260	kaum	_	_
+15-9	1261-1264	ein	_	_
+15-10	1265-1271	andrer	_	_
+15-11	1272-1275	als	_	_
+15-12	1276-1278	er	_	_
+15-13	1279-1283	kann	_	_
+15-14	1284-1290	diesen	_	_
+15-15	1291-1298	Klatsch	_	_
+15-16	1299-1309	eingesandt	_	_
+15-17	1310-1315	haben	_	_
+15-18	1316-1317	.	_	_
+
+#Text=Er leugnet es .
+16-1	1318-1320	Er	_	_
+16-2	1321-1328	leugnet	_	_
+16-3	1329-1331	es	_	_
+16-4	1332-1333	.	_	_
+
+#Text=Dann bjeibt er auf dem Modedoctor selbst sitzen .
+17-1	1334-1338	Dann	_	_
+17-2	1339-1345	bjeibt	_	_
+17-3	1346-1348	er	_	_
+17-4	1349-1352	auf	_	_
+17-5	1353-1356	dem	_	_
+17-6	1357-1367	Modedoctor	_	_
+17-7	1368-1374	selbst	_	_
+17-8	1375-1381	sitzen	_	_
+17-9	1382-1383	.	_	_
+
+#Text=Sonst ist
+18-1	1384-1389	Sonst	_	_
+18-2	1390-1393	ist	_	_

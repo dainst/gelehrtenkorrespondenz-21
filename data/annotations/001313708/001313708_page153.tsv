@@ -1,0 +1,113 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Berlin , 30. Dezember 1834 der wirder abgedruckten Thatsachen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	30.	*[4]	DATEletter[4]
+1-7	31-39	Dezember	*[4]	DATEletter[4]
+1-8	40-44	1834	*[4]	DATEletter[4]
+1-9	45-48	der	_	_
+1-10	49-55	wirder	_	_
+1-11	56-68	abgedruckten	_	_
+1-12	69-79	Thatsachen	_	_
+1-13	80-81	.	_	_
+
+#Text=Die Angelegenheit der Buchhändlergeschenke habe ich dabei aufzufrischen gesucht .
+2-1	82-85	Die	_	_
+2-2	86-99	Angelegenheit	_	_
+2-3	100-103	der	_	_
+2-4	104-124	Buchhändlergeschenke	_	_
+2-5	125-129	habe	_	_
+2-6	130-133	ich	_	_
+2-7	134-139	dabei	_	_
+2-8	140-153	aufzufrischen	_	_
+2-9	154-161	gesucht	_	_
+2-10	162-163	.	_	_
+
+#Text=Indeß läßt sie sich übel an , da Brockhaus sein früheres Versprechen , die erschienenen Bände der Encyklopedie zu schenken , verleugnet , so daß ich ein Blatt umdrucken lassen muß .
+3-1	164-169	Indeß	_	_
+3-2	170-174	läßt	_	_
+3-3	175-178	sie	_	_
+3-4	179-183	sich	_	_
+3-5	184-188	übel	_	_
+3-6	189-191	an	_	_
+3-7	192-193	,	_	_
+3-8	194-196	da	_	_
+3-9	197-206	Brockhaus	*	ORGmentioned
+3-10	207-211	sein	_	_
+3-11	212-220	früheres	_	_
+3-12	221-232	Versprechen	_	_
+3-13	233-234	,	_	_
+3-14	235-238	die	_	_
+3-15	239-251	erschienenen	_	_
+3-16	252-257	Bände	_	_
+3-17	258-261	der	_	_
+3-18	262-274	Encyklopedie	_	_
+3-19	275-277	zu	_	_
+3-20	278-286	schenken	_	_
+3-21	287-288	,	_	_
+3-22	289-299	verleugnet	_	_
+3-23	300-301	,	_	_
+3-24	302-304	so	_	_
+3-25	305-308	daß	_	_
+3-26	309-312	ich	_	_
+3-27	313-316	ein	_	_
+3-28	317-322	Blatt	_	_
+3-29	323-332	umdrucken	_	_
+3-30	333-339	lassen	_	_
+3-31	340-343	muß	_	_
+3-32	344-345	.	_	_
+
+#Text=Das Exemplar , was ich sende , enthält das Blatt noch im ersten Abdruck .
+4-1	346-349	Das	_	_
+4-2	350-358	Exemplar	_	_
+4-3	359-360	,	_	_
+4-4	361-364	was	_	_
+4-5	365-368	ich	_	_
+4-6	369-374	sende	_	_
+4-7	375-376	,	_	_
+4-8	377-384	enthält	_	_
+4-9	385-388	das	_	_
+4-10	389-394	Blatt	_	_
+4-11	395-399	noch	_	_
+4-12	400-402	im	_	_
+4-13	403-409	ersten	_	_
+4-14	410-417	Abdruck	_	_
+4-15	418-419	.	_	_
+
+#Text=Anzu ich erwarte den nächsten Posttag um Ihnen einen untadelichen Abdruck zuzusenden .
+5-1	420-424	Anzu	_	_
+5-2	425-428	ich	_	_
+5-3	429-436	erwarte	_	_
+5-4	437-440	den	_	_
+5-5	441-449	nächsten	_	_
+5-6	450-457	Posttag	_	_
+5-7	458-460	um	_	_
+5-8	461-466	Ihnen	_	_
+5-9	467-472	einen	_	_
+5-10	473-485	untadelichen	_	_
+5-11	486-493	Abdruck	_	_
+5-12	494-504	zuzusenden	_	_
+5-13	505-506	.	_	_
+
+#Text=Am Jahresschlusse alle alten und vieljährigen Segenswünsche für Sie und die Ihrigen erneuernd Ihr Gerhard
+6-1	507-509	Am	_	_
+6-2	510-524	Jahresschlusse	_	_
+6-3	525-529	alle	_	_
+6-4	530-535	alten	_	_
+6-5	536-539	und	_	_
+6-6	540-552	vieljährigen	_	_
+6-7	553-566	Segenswünsche	_	_
+6-8	567-570	für	_	_
+6-9	571-574	Sie	_	_
+6-10	575-578	und	_	_
+6-11	579-582	die	_	_
+6-12	583-590	Ihrigen	_	_
+6-13	591-600	erneuernd	_	_
+6-14	601-604	Ihr	_	_
+6-15	605-612	Gerhard	*	PERauthor

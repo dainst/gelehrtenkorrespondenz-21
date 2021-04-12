@@ -1,0 +1,112 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=536 Lepsius an Henzen Berlin , 14. Dezember 1872 Briefe geschrieben hatte .
+1-1	0-3	536	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	14.	*[3]	DATEletter[3]
+1-8	35-43	Dezember	*[3]	DATEletter[3]
+1-9	44-48	1872	*[3]	DATEletter[3]
+1-10	49-55	Briefe	_	_
+1-11	56-67	geschrieben	_	_
+1-12	68-73	hatte	_	_
+1-13	74-75	.	_	_
+
+#Text=Ich fürchte der Mann wird noch fort stänkern .
+2-1	76-79	Ich	_	_
+2-2	80-87	fürchte	_	_
+2-3	88-91	der	_	_
+2-4	92-96	Mann	_	_
+2-5	97-101	wird	_	_
+2-6	102-106	noch	_	_
+2-7	107-111	fort	_	_
+2-8	112-120	stänkern	_	_
+2-9	121-122	.	_	_
+
+#Text=G. Parthey wünscht die dem Institut geschenkten Bücher nun los zu sein .
+3-1	123-125	G.	*[4]	PERmentioned[4]
+3-2	126-133	Parthey	*[4]	PERmentioned[4]
+3-3	134-141	wünscht	_	_
+3-4	142-145	die	_	_
+3-5	146-149	dem	_	_
+3-6	150-158	Institut	*	ORGmentioned
+3-7	159-170	geschenkten	_	_
+3-8	171-177	Bücher	_	_
+3-9	178-181	nun	_	_
+3-10	182-185	los	_	_
+3-11	186-188	zu	_	_
+3-12	189-193	sein	_	_
+3-13	194-195	.	_	_
+
+#Text=Es ist ihm mitgetheilt worden , er möge sie nur verpacken und Ihnen zugehen lassen , Seine Auslagen würden ihm vom Institut vergütet werden .
+4-1	196-198	Es	_	_
+4-2	199-202	ist	_	_
+4-3	203-206	ihm	_	_
+4-4	207-218	mitgetheilt	_	_
+4-5	219-225	worden	_	_
+4-6	226-227	,	_	_
+4-7	228-230	er	_	_
+4-8	231-235	möge	_	_
+4-9	236-239	sie	_	_
+4-10	240-243	nur	_	_
+4-11	244-253	verpacken	_	_
+4-12	254-257	und	_	_
+4-13	258-263	Ihnen	_	_
+4-14	264-271	zugehen	_	_
+4-15	272-278	lassen	_	_
+4-16	279-280	,	_	_
+4-17	281-286	Seine	_	_
+4-18	287-295	Auslagen	_	_
+4-19	296-302	würden	_	_
+4-20	303-306	ihm	_	_
+4-21	307-310	vom	_	_
+4-22	311-319	Institut	*	ORGmentioned
+4-23	320-328	vergütet	_	_
+4-24	329-335	werden	_	_
+4-25	336-337	.	_	_
+
+#Text=Sie können ja die Kisten so lange kein Platz ist , im Palazzo Caffarelli deponiren .
+5-1	338-341	Sie	_	_
+5-2	342-348	können	_	_
+5-3	349-351	ja	_	_
+5-4	352-355	die	_	_
+5-5	356-362	Kisten	_	_
+5-6	363-365	so	_	_
+5-7	366-371	lange	_	_
+5-8	372-376	kein	_	_
+5-9	377-382	Platz	_	_
+5-10	383-386	ist	_	_
+5-11	387-388	,	_	_
+5-12	389-391	im	_	_
+5-13	392-399	Palazzo	*[5]	PLACEmentioned[5]
+5-14	400-410	Caffarelli	*[5]	PLACEmentioned[5]
+5-15	411-420	deponiren	_	_
+5-16	421-422	.	_	_
+
+#Text=Die Beilage über die Fostangelegenheit sendet Ihnen Mommsen .
+6-1	423-426	Die	_	_
+6-2	427-434	Beilage	_	_
+6-3	435-439	über	_	_
+6-4	440-443	die	_	_
+6-5	444-461	Fostangelegenheit	_	_
+6-6	462-468	sendet	_	_
+6-7	469-474	Ihnen	_	_
+6-8	475-482	Mommsen	*	PERmentioned
+6-9	483-484	.	_	_
+
+#Text=Mit herzlichen Grüßen zum bevorstehenden Feste Ihr ergebenster R Lepsius
+7-1	485-488	Mit	_	_
+7-2	489-499	herzlichen	_	_
+7-3	500-506	Grüßen	_	_
+7-4	507-510	zum	_	_
+7-5	511-525	bevorstehenden	_	_
+7-6	526-531	Feste	_	_
+7-7	532-535	Ihr	_	_
+7-8	536-547	ergebenster	_	_
+7-9	548-549	R	*[6]	PERauthor[6]
+7-10	550-557	Lepsius	*[6]	PERauthor[6]

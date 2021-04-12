@@ -1,0 +1,279 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Hanover , 14 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-25	Hanover	*	PLACEfrom
+1-5	26-27	,	_	_
+1-6	28-30	14	_	_
+1-7	31-32	.	*[4]	DATEletter[4]
+
+#Text=Januar 1833 Hanover 14 Jan 1833 Ich muß Ihnen , theurer Freund , in zwei Zeilen danken für Ihre wiederholten Lebens- und Liebeszeichen .
+2-1	33-39	Januar	*[4]	DATEletter[4]
+2-2	40-44	1833	*[4]	DATEletter[4]
+2-3	45-52	Hanover	*	PLACEfrom
+2-4	53-55	14	_	_
+2-5	56-59	Jan	*[6]	DATEletter[6]
+2-6	60-64	1833	*[6]	DATEletter[6]
+2-7	65-68	Ich	_	_
+2-8	69-72	muß	_	_
+2-9	73-78	Ihnen	_	_
+2-10	79-80	,	_	_
+2-11	81-88	theurer	_	_
+2-12	89-95	Freund	_	_
+2-13	96-97	,	_	_
+2-14	98-100	in	_	_
+2-15	101-105	zwei	_	_
+2-16	106-112	Zeilen	_	_
+2-17	113-119	danken	_	_
+2-18	120-123	für	_	_
+2-19	124-128	Ihre	_	_
+2-20	129-141	wiederholten	_	_
+2-21	142-149	Lebens-	_	_
+2-22	150-153	und	_	_
+2-23	154-167	Liebeszeichen	_	_
+2-24	168-169	.	_	_
+
+#Text=Gottes reichsten Segen zum neuen Jahre , und Dank für Ih re treue Liebe im verflossenen !
+3-1	170-176	Gottes	_	_
+3-2	177-186	reichsten	_	_
+3-3	187-192	Segen	_	_
+3-4	193-196	zum	_	_
+3-5	197-202	neuen	_	_
+3-6	203-208	Jahre	_	_
+3-7	209-210	,	_	_
+3-8	211-214	und	_	_
+3-9	215-219	Dank	_	_
+3-10	220-223	für	_	_
+3-11	224-226	Ih	_	_
+3-12	227-229	re	_	_
+3-13	230-235	treue	_	_
+3-14	236-241	Liebe	_	_
+3-15	242-244	im	_	_
+3-16	245-257	verflossenen	_	_
+3-17	258-259	!	_	_
+
+#Text=Ich kann Ihnen nicht sagen , wies mich gefreut hat zu hören , daß Sie Vorlesun gen halten : ich glaube , das thut Ihnen wohl .
+4-1	260-263	Ich	_	_
+4-2	264-268	kann	_	_
+4-3	269-274	Ihnen	_	_
+4-4	275-280	nicht	_	_
+4-5	281-286	sagen	_	_
+4-6	287-288	,	_	_
+4-7	289-293	wies	_	_
+4-8	294-298	mich	_	_
+4-9	299-306	gefreut	_	_
+4-10	307-310	hat	_	_
+4-11	311-313	zu	_	_
+4-12	314-319	hören	_	_
+4-13	320-321	,	_	_
+4-14	322-325	daß	_	_
+4-15	326-329	Sie	_	_
+4-16	330-338	Vorlesun	_	_
+4-17	339-342	gen	_	_
+4-18	343-349	halten	_	_
+4-19	350-351	:	_	_
+4-20	352-355	ich	_	_
+4-21	356-362	glaube	_	_
+4-22	363-364	,	_	_
+4-23	365-368	das	_	_
+4-24	369-373	thut	_	_
+4-25	374-379	Ihnen	_	_
+4-26	380-384	wohl	_	_
+4-27	385-386	.	_	_
+
+#Text=- Llepsiup wird wohl gestern von Paris zurückgekommen sein .
+5-1	387-388	-	_	_
+5-2	389-397	Llepsiup	*[7]	PERmentioned[7]
+5-3	398-402	wird	_	_
+5-4	403-407	wohl	_	_
+5-5	408-415	gestern	_	_
+5-6	416-419	von	_	_
+5-7	420-425	Paris	*	PLACEmentioned
+5-8	426-440	zurückgekommen	_	_
+5-9	441-445	sein	_	_
+5-10	446-447	.	_	_
+
+#Text=Sie werden wissen , daß Maze so gut wie bankerott ist - unsern Wechsel von Rom protestirt hat .
+6-1	448-451	Sie	_	_
+6-2	452-458	werden	_	_
+6-3	459-465	wissen	_	_
+6-4	466-467	,	_	_
+6-5	468-471	daß	_	_
+6-6	472-476	Maze	*	PERmentioned
+6-7	477-479	so	_	_
+6-8	480-483	gut	_	_
+6-9	484-487	wie	_	_
+6-10	488-497	bankerott	_	_
+6-11	498-501	ist	_	_
+6-12	502-503	-	_	_
+6-13	504-510	unsern	_	_
+6-14	511-518	Wechsel	_	_
+6-15	519-522	von	_	_
+6-16	523-526	Rom	*	PLACEmentioned
+6-17	527-537	protestirt	_	_
+6-18	538-541	hat	_	_
+6-19	542-543	.	_	_
+
+#Text=L. ist dorthin geflogen , und hat das Depot gerettet : Luynes ist sehr hülfreich gewesen : an Geld scheint nicht zu denken , noch weniger an die 32 Scudi Protest Spesen .
+7-1	544-546	L.	*	PERmentioned
+7-2	547-550	ist	_	_
+7-3	551-558	dorthin	_	_
+7-4	559-567	geflogen	_	_
+7-5	568-569	,	_	_
+7-6	570-573	und	_	_
+7-7	574-577	hat	_	_
+7-8	578-581	das	_	_
+7-9	582-587	Depot	_	_
+7-10	588-596	gerettet	_	_
+7-11	597-598	:	_	_
+7-12	599-605	Luynes	*	PERmentioned
+7-13	606-609	ist	_	_
+7-14	610-614	sehr	_	_
+7-15	615-624	hülfreich	_	_
+7-16	625-632	gewesen	_	_
+7-17	633-634	:	_	_
+7-18	635-637	an	_	_
+7-19	638-642	Geld	_	_
+7-20	643-650	scheint	_	_
+7-21	651-656	nicht	_	_
+7-22	657-659	zu	_	_
+7-23	660-666	denken	_	_
+7-24	667-668	,	_	_
+7-25	669-673	noch	_	_
+7-26	674-681	weniger	_	_
+7-27	682-684	an	_	_
+7-28	685-688	die	_	_
+7-29	689-691	32	_	_
+7-30	692-697	Scudi	_	_
+7-31	698-705	Protest	_	_
+7-32	706-712	Spesen	_	_
+7-33	713-714	.	_	_
+
+#Text=Panofka wird sich also für dies Jahr gedulden müssen - denn das ist niemandes Schuld , als etwa seine , da er ihn uns so dringend empfohlen .
+8-1	715-722	Panofka	*	PERmentioned
+8-2	723-727	wird	_	_
+8-3	728-732	sich	_	_
+8-4	733-737	also	_	_
+8-5	738-741	für	_	_
+8-6	742-746	dies	_	_
+8-7	747-751	Jahr	_	_
+8-8	752-760	gedulden	_	_
+8-9	761-767	müssen	_	_
+8-10	768-769	-	_	_
+8-11	770-774	denn	_	_
+8-12	775-778	das	_	_
+8-13	779-782	ist	_	_
+8-14	783-792	niemandes	_	_
+8-15	793-799	Schuld	_	_
+8-16	800-801	,	_	_
+8-17	802-805	als	_	_
+8-18	806-810	etwa	_	_
+8-19	811-816	seine	_	_
+8-20	817-818	,	_	_
+8-21	819-821	da	_	_
+8-22	822-824	er	_	_
+8-23	825-828	ihn	_	_
+8-24	829-832	uns	_	_
+8-25	833-835	so	_	_
+8-26	836-844	dringend	_	_
+8-27	845-854	empfohlen	_	_
+8-28	855-856	.	_	_
+
+#Text=- Mit der französischen Sektion dürfen wir sehr zufrieden sein : hat L .
+9-1	857-858	-	_	_
+9-2	859-862	Mit	_	_
+9-3	863-866	der	_	_
+9-4	867-880	französischen	_	_
+9-5	881-888	Sektion	_	_
+9-6	889-895	dürfen	_	_
+9-7	896-899	wir	_	_
+9-8	900-904	sehr	_	_
+9-9	905-914	zufrieden	_	_
+9-10	915-919	sein	_	_
+9-11	920-921	:	_	_
+9-12	922-925	hat	_	_
+9-13	926-927	L	*[17]	PERmentioned[17]
+9-14	928-929	.	*[17]	PERmentioned[17]
+
+#Text=Ihnen noch nicht darüber berichtet , so wird es gewiß bald geschehen .
+10-1	930-935	Ihnen	_	_
+10-2	936-940	noch	_	_
+10-3	941-946	nicht	_	_
+10-4	947-954	darüber	_	_
+10-5	955-964	berichtet	_	_
+10-6	965-966	,	_	_
+10-7	967-969	so	_	_
+10-8	970-974	wird	_	_
+10-9	975-977	es	_	_
+10-10	978-983	gewiß	_	_
+10-11	984-988	bald	_	_
+10-12	989-998	geschehen	_	_
+10-13	999-1000	.	_	_
+
+#Text=Die Publication in 4° ist aufgegeben .
+11-1	1001-1004	Die	_	_
+11-2	1005-1016	Publication	_	_
+11-3	1017-1019	in	_	_
+11-4	1020-1022	4°	_	_
+11-5	1023-1026	ist	_	_
+11-6	1027-1037	aufgegeben	_	_
+11-7	1038-1039	.	_	_
+
+#Text=Hier sind 400 L. zahlbar , sobald die Exemplare completirt werden können , denen Ein Heft durchweg fehlt , in der letzten Seundung ! !
+12-1	1040-1044	Hier	_	_
+12-2	1045-1049	sind	_	_
+12-3	1050-1053	400	_	_
+12-4	1054-1056	L.	_	_
+12-5	1057-1064	zahlbar	_	_
+12-6	1065-1066	,	_	_
+12-7	1067-1073	sobald	_	_
+12-8	1074-1077	die	_	_
+12-9	1078-1087	Exemplare	_	_
+12-10	1088-1098	completirt	_	_
+12-11	1099-1105	werden	_	_
+12-12	1106-1112	können	_	_
+12-13	1113-1114	,	_	_
+12-14	1115-1120	denen	_	_
+12-15	1121-1124	Ein	_	_
+12-16	1125-1129	Heft	_	_
+12-17	1130-1138	durchweg	_	_
+12-18	1139-1144	fehlt	_	_
+12-19	1145-1146	,	_	_
+12-20	1147-1149	in	_	_
+12-21	1150-1153	der	_	_
+12-22	1154-1161	letzten	_	_
+12-23	1162-1170	Seundung	_	_
+12-24	1171-1172	!	_	_
+12-25	1173-1174	!	_	_
+
+#Text=Ich habe 100 L. nach Rom remittiren lassen , die ich am 24 Jan .
+13-1	1175-1178	Ich	_	_
+13-2	1179-1183	habe	_	_
+13-3	1184-1187	100	_	_
+13-4	1188-1190	L.	_	_
+13-5	1191-1195	nach	_	_
+13-6	1196-1199	Rom	*	PLACEmentioned
+13-7	1200-1210	remittiren	_	_
+13-8	1211-1217	lassen	_	_
+13-9	1218-1219	,	_	_
+13-10	1220-1223	die	_	_
+13-11	1224-1227	ich	_	_
+13-12	1228-1230	am	_	_
+13-13	1231-1233	24	*[16]	DATEmentioned[16]
+13-14	1234-1237	Jan	*[16]	DATEmentioned[16]
+13-15	1238-1239	.	*[16]	DATEmentioned[16]
+
+#Text=zahlen muß , denn es ist kein Pfennig ein-
+14-1	1240-1246	zahlen	_	_
+14-2	1247-1250	muß	_	_
+14-3	1251-1252	,	_	_
+14-4	1253-1257	denn	_	_
+14-5	1258-1260	es	_	_
+14-6	1261-1264	ist	_	_
+14-7	1265-1269	kein	_	_
+14-8	1270-1277	Pfennig	_	_
+14-9	1278-1282	ein-	_	_

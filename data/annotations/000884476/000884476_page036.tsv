@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=peu W - Gerhard an Braun Bonn , 5 .
+1-1	0-3	peu	_	_
+1-2	4-5	W	_	_
+1-3	6-7	-	_	_
+1-4	8-15	Gerhard	*	PERauthor
+1-5	16-18	an	_	_
+1-6	19-24	Braun	*	PERaddressee
+1-7	25-29	Bonn	*	PLACEfrom
+1-8	30-31	,	_	_
+1-9	32-33	5	*[4]	DATEletter[4]
+1-10	34-35	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 stück , so kaufen Sie mir es .
+2-1	36-43	Oktober	*[4]	DATEletter[4]
+2-2	44-48	1834	*[4]	DATEletter[4]
+2-3	49-54	stück	_	_
+2-4	55-56	,	_	_
+2-5	57-59	so	_	_
+2-6	60-66	kaufen	_	_
+2-7	67-70	Sie	_	_
+2-8	71-74	mir	_	_
+2-9	75-77	es	_	_
+2-10	78-79	.	_	_
+
+#Text=- Ich bin über rasch hierher gereist \; fortwährend bei schönstem Wetter aber auch bei so kühlem daß ich glaube mürbe genug in Berlin anzukommen auch ohne Süddeutschland .
+3-1	80-81	-	_	_
+3-2	82-85	Ich	_	_
+3-3	86-89	bin	_	_
+3-4	90-94	über	_	_
+3-5	95-100	rasch	_	_
+3-6	101-108	hierher	_	_
+3-7	109-116	gereist	_	_
+3-8	117-118	\;	_	_
+3-9	119-130	fortwährend	_	_
+3-10	131-134	bei	_	_
+3-11	135-144	schönstem	_	_
+3-12	145-151	Wetter	_	_
+3-13	152-156	aber	_	_
+3-14	157-161	auch	_	_
+3-15	162-165	bei	_	_
+3-16	166-168	so	_	_
+3-17	169-175	kühlem	_	_
+3-18	176-179	daß	_	_
+3-19	180-183	ich	_	_
+3-20	184-190	glaube	_	_
+3-21	191-196	mürbe	_	_
+3-22	197-202	genug	_	_
+3-23	203-205	in	_	_
+3-24	206-212	Berlin	*	PLACEmentioned
+3-25	213-223	anzukommen	_	_
+3-26	224-228	auch	_	_
+3-27	229-233	ohne	_	_
+3-28	234-248	Süddeutschland	*	PLACEmentioned
+3-29	249-250	.	_	_
+
+#Text=Somit gebe ich Stuttgard und München auf und lasse mir Ihre dortigen Briefe nachschicken .
+4-1	251-256	Somit	_	_
+4-2	257-261	gebe	_	_
+4-3	262-265	ich	_	_
+4-4	266-275	Stuttgard	*	PLACEmentioned
+4-5	276-279	und	_	_
+4-6	280-287	München	*	PLACEmentioned
+4-7	288-291	auf	_	_
+4-8	292-295	und	_	_
+4-9	296-301	lasse	_	_
+4-10	302-305	mir	_	_
+4-11	306-310	Ihre	_	_
+4-12	311-319	dortigen	_	_
+4-13	320-326	Briefe	_	_
+4-14	327-339	nachschicken	_	_
+4-15	340-341	.	_	_
+
+#Text=- Die homöopathischen Bücher besorge ich Ihnen von Berlin .
+5-1	342-343	-	_	_
+5-2	344-347	Die	_	_
+5-3	348-363	homöopathischen	_	_
+5-4	364-370	Bücher	_	_
+5-5	371-378	besorge	_	_
+5-6	379-382	ich	_	_
+5-7	383-388	Ihnen	_	_
+5-8	389-392	von	_	_
+5-9	393-399	Berlin	*	PLACEmentioned
+5-10	400-401	.	_	_
+
+#Text=Können Sie mir eine Münchner Addresse zuweisen so ist es noch besser .
+6-1	402-408	Können	_	_
+6-2	409-412	Sie	_	_
+6-3	413-416	mir	_	_
+6-4	417-421	eine	_	_
+6-5	422-430	Münchner	*	PLACEmentioned
+6-6	431-439	Addresse	_	_
+6-7	440-448	zuweisen	_	_
+6-8	449-451	so	_	_
+6-9	452-455	ist	_	_
+6-10	456-458	es	_	_
+6-11	459-463	noch	_	_
+6-12	464-470	besser	_	_
+6-13	471-472	.	_	_
+
+#Text=- Veber die Campanivase können Sie freilich schreiben nach Herzenslust , sobald Durand oder sonst jemand sie gekauft hat , vorher müssen Sie b ten Campanis .
+7-1	473-474	-	_	_
+7-2	475-480	Veber	_	_
+7-3	481-484	die	_	_
+7-4	485-496	Campanivase	*	OBJ
+7-5	497-503	können	_	_
+7-6	504-507	Sie	_	_
+7-7	508-516	freilich	_	_
+7-8	517-526	schreiben	_	_
+7-9	527-531	nach	_	_
+7-10	532-543	Herzenslust	_	_
+7-11	544-545	,	_	_
+7-12	546-552	sobald	_	_
+7-13	553-559	Durand	*	PERmentioned
+7-14	560-564	oder	_	_
+7-15	565-570	sonst	_	_
+7-16	571-577	jemand	_	_
+7-17	578-581	sie	_	_
+7-18	582-589	gekauft	_	_
+7-19	590-593	hat	_	_
+7-20	594-595	,	_	_
+7-21	596-602	vorher	_	_
+7-22	603-609	müssen	_	_
+7-23	610-613	Sie	_	_
+7-24	614-615	b	_	_
+7-25	616-619	ten	_	_
+7-26	620-628	Campanis	*	PERmentioned
+7-27	629-630	.	_	_
+
+#Text=Etwas für den Druck zu bereiten ermahne ich Sie fortwährend \; auch darum weil man Sie früher nicht als Prosegretario aufführen kann .
+8-1	631-636	Etwas	_	_
+8-2	637-640	für	_	_
+8-3	641-644	den	_	_
+8-4	645-650	Druck	_	_
+8-5	651-653	zu	_	_
+8-6	654-662	bereiten	_	_
+8-7	663-670	ermahne	_	_
+8-8	671-674	ich	_	_
+8-9	675-678	Sie	_	_
+8-10	679-690	fortwährend	_	_
+8-11	691-692	\;	_	_
+8-12	693-697	auch	_	_
+8-13	698-703	darum	_	_
+8-14	704-708	weil	_	_
+8-15	709-712	man	_	_
+8-16	713-716	Sie	_	_
+8-17	717-723	früher	_	_
+8-18	724-729	nicht	_	_
+8-19	730-733	als	_	_
+8-20	734-747	Prosegretario	_	_
+8-21	748-757	aufführen	_	_
+8-22	758-762	kann	_	_
+8-23	763-764	.	_	_
+
+#Text=- Das Register war bis zum V gedruckt als ich von Paris abreiste , ein halber Bogen und sehr langsam , Ihre Kiste noch immer nicht angekommen weshalb De Antonis nach Möglichkeit zu rüffeln .
+9-1	765-766	-	_	_
+9-2	767-770	Das	_	_
+9-3	771-779	Register	_	_
+9-4	780-783	war	_	_
+9-5	784-787	bis	_	_
+9-6	788-791	zum	_	_
+9-7	792-793	V	_	_
+9-8	794-802	gedruckt	_	_
+9-9	803-806	als	_	_
+9-10	807-810	ich	_	_
+9-11	811-814	von	_	_
+9-12	815-820	Paris	*	PLACEmentioned
+9-13	821-829	abreiste	_	_
+9-14	830-831	,	_	_
+9-15	832-835	ein	_	_
+9-16	836-842	halber	_	_
+9-17	843-848	Bogen	_	_
+9-18	849-852	und	_	_
+9-19	853-857	sehr	_	_
+9-20	858-865	langsam	_	_
+9-21	866-867	,	_	_
+9-22	868-872	Ihre	_	_
+9-23	873-878	Kiste	_	_
+9-24	879-883	noch	_	_
+9-25	884-889	immer	_	_
+9-26	890-895	nicht	_	_
+9-27	896-906	angekommen	_	_
+9-28	907-914	weshalb	_	_
+9-29	915-917	De	*[15]	PERmentioned[15]
+9-30	918-925	Antonis	*[15]	PERmentioned[15]
+9-31	926-930	nach	_	_
+9-32	931-942	Möglichkeit	_	_
+9-33	943-945	zu	_	_
+9-34	946-953	rüffeln	_	_
+9-35	954-955	.	_	_
+
+#Text=Sie melden die Absendung der berliner und bonner Kisten nicht \; auch fehlt mir hier leider der Zettel von Marcus !
+10-1	956-959	Sie	_	_
+10-2	960-966	melden	_	_
+10-3	967-970	die	_	_
+10-4	971-980	Absendung	_	_
+10-5	981-984	der	_	_
+10-6	985-993	berliner	_	_
+10-7	994-997	und	_	_
+10-8	998-1004	bonner	_	_
+10-9	1005-1011	Kisten	_	_
+10-10	1012-1017	nicht	_	_
+10-11	1018-1019	\;	_	_
+10-12	1020-1024	auch	_	_
+10-13	1025-1030	fehlt	_	_
+10-14	1031-1034	mir	_	_
+10-15	1035-1039	hier	_	_
+10-16	1040-1046	leider	_	_
+10-17	1047-1050	der	_	_
+10-18	1051-1057	Zettel	_	_
+10-19	1058-1061	von	_	_
+10-20	1062-1068	Marcus	*	PERmentioned
+10-21	1069-1070	!	_	_
+
+#Text=- Was Campanis verkleinertes Blatt von Zeichnungen soll besreife ich nicht recht \; ich will es zum besten anwenden , hoffentlich kostet es mich nichts und hoffentlich sind die Durchzeichnungen des Troilos und der Kassandravase
+11-1	1071-1072	-	_	_
+11-2	1073-1076	Was	_	_
+11-3	1077-1085	Campanis	*	PERmentioned
+11-4	1086-1099	verkleinertes	_	_
+11-5	1100-1105	Blatt	_	_
+11-6	1106-1109	von	_	_
+11-7	1110-1121	Zeichnungen	_	_
+11-8	1122-1126	soll	_	_
+11-9	1127-1135	besreife	_	_
+11-10	1136-1139	ich	_	_
+11-11	1140-1145	nicht	_	_
+11-12	1146-1151	recht	_	_
+11-13	1152-1153	\;	_	_
+11-14	1154-1157	ich	_	_
+11-15	1158-1162	will	_	_
+11-16	1163-1165	es	_	_
+11-17	1166-1169	zum	_	_
+11-18	1170-1176	besten	_	_
+11-19	1177-1185	anwenden	_	_
+11-20	1186-1187	,	_	_
+11-21	1188-1199	hoffentlich	_	_
+11-22	1200-1206	kostet	_	_
+11-23	1207-1209	es	_	_
+11-24	1210-1214	mich	_	_
+11-25	1215-1221	nichts	_	_
+11-26	1222-1225	und	_	_
+11-27	1226-1237	hoffentlich	_	_
+11-28	1238-1242	sind	_	_
+11-29	1243-1246	die	_	_
+11-30	1247-1263	Durchzeichnungen	_	_
+11-31	1264-1267	des	_	_
+11-32	1268-1275	Troilos	*	OBJ
+11-33	1276-1279	und	_	_
+11-34	1280-1283	der	_	_
+11-35	1284-1297	Kassandravase	*	OBJ

@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=15 Braun an Gerhard Rom , 29 .
+1-1	0-2	15	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	29	*[4]	DATEletter[4]
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1839 was mir zukam , ist vertheilt worden Ihren Anordnungen gemäß .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1839	*[4]	DATEletter[4]
+2-3	43-46	was	_	_
+2-4	47-50	mir	_	_
+2-5	51-56	zukam	_	_
+2-6	57-58	,	_	_
+2-7	59-62	ist	_	_
+2-8	63-72	vertheilt	_	_
+2-9	73-79	worden	_	_
+2-10	80-85	Ihren	_	_
+2-11	86-97	Anordnungen	_	_
+2-12	98-103	gemäß	_	_
+2-13	104-105	.	_	_
+
+#Text=Bei mir liegt Heft 1 . 3 . 4. sonst nichts .
+3-1	106-109	Bei	_	_
+3-2	110-113	mir	_	_
+3-3	114-119	liegt	_	_
+3-4	120-124	Heft	_	_
+3-5	125-126	1	_	_
+3-6	127-128	.	_	_
+3-7	129-130	3	_	_
+3-8	131-132	.	_	_
+3-9	133-135	4.	_	_
+3-10	136-141	sonst	_	_
+3-11	142-148	nichts	_	_
+3-12	149-150	.	_	_
+
+#Text=- Cardinali über den Dreifußraub ist gedruckt in den Acten der archäologischen Akademie \; desgleichen Melchiorri über Aegina .
+4-1	151-152	-	_	_
+4-2	153-162	Cardinali	*	PERmentioned
+4-3	163-167	über	_	_
+4-4	168-171	den	_	_
+4-5	172-183	Dreifußraub	*	OBJ
+4-6	184-187	ist	_	_
+4-7	188-196	gedruckt	_	_
+4-8	197-199	in	_	_
+4-9	200-203	den	_	_
+4-10	204-209	Acten	_	_
+4-11	210-213	der	_	_
+4-12	214-229	archäologischen	*[7]	ORGmentioned[7]
+4-13	230-238	Akademie	*[7]	ORGmentioned[7]
+4-14	239-240	\;	_	_
+4-15	241-252	desgleichen	_	_
+4-16	253-263	Melchiorri	*	PERmentioned
+4-17	264-268	über	_	_
+4-18	269-275	Aegina	*	PLACEmentioned
+4-19	276-277	.	_	_
+
+#Text=- Das Nolaner Werk über Familienwägen ist heraus und der Verfasser Advocat Ricci will Institutscorrespondent werden .
+5-1	278-279	-	_	_
+5-2	280-283	Das	_	_
+5-3	284-291	Nolaner	*	PLACEmentioned
+5-4	292-296	Werk	_	_
+5-5	297-301	über	_	_
+5-6	302-315	Familienwägen	_	_
+5-7	316-319	ist	_	_
+5-8	320-326	heraus	_	_
+5-9	327-330	und	_	_
+5-10	331-334	der	_	_
+5-11	335-344	Verfasser	_	_
+5-12	345-352	Advocat	_	_
+5-13	353-358	Ricci	*	PERmentioned
+5-14	359-363	will	_	_
+5-15	364-386	Institutscorrespondent	_	_
+5-16	387-393	werden	_	_
+5-17	394-395	.	_	_
+
+#Text=- Raoul Rochette hat viel sehr viel Vasen in Neapel zeichnen lassen .
+6-1	396-397	-	_	_
+6-2	398-403	Raoul	*[12]	PERmentioned[12]
+6-3	404-412	Rochette	*[12]	PERmentioned[12]
+6-4	413-416	hat	_	_
+6-5	417-421	viel	_	_
+6-6	422-426	sehr	_	_
+6-7	427-431	viel	_	_
+6-8	432-437	Vasen	*	OBJ
+6-9	438-440	in	_	_
+6-10	441-447	Neapel	*	PLACEmentioned
+6-11	448-456	zeichnen	_	_
+6-12	457-463	lassen	_	_
+6-13	464-465	.	_	_
+
+#Text=- Ihre Spiegelerudition soll nächstens bereichert werden .
+7-1	466-467	-	_	_
+7-2	468-472	Ihre	_	_
+7-3	473-489	Spiegelerudition	_	_
+7-4	490-494	soll	_	_
+7-5	495-504	nächstens	_	_
+7-6	505-515	bereichert	_	_
+7-7	516-522	werden	_	_
+7-8	523-524	.	_	_
+
+#Text=Ich habe einiges auf dem Korn .
+8-1	525-528	Ich	_	_
+8-2	529-533	habe	_	_
+8-3	534-541	einiges	_	_
+8-4	542-545	auf	_	_
+8-5	546-549	dem	_	_
+8-6	550-554	Korn	_	_
+8-7	555-556	.	_	_
+
+#Text=Aber sehr schwer , sehr schwer anzukommen .
+9-1	557-561	Aber	_	_
+9-2	562-566	sehr	_	_
+9-3	567-573	schwer	_	_
+9-4	574-575	,	_	_
+9-5	576-580	sehr	_	_
+9-6	581-587	schwer	_	_
+9-7	588-598	anzukommen	_	_
+9-8	599-600	.	_	_
+
+#Text=Ein Spiegel ist mir entwischt : eine gerüstete Figur , mit einer männlichen und weiblichen .
+10-1	601-604	Ein	_	_
+10-2	605-612	Spiegel	*	OBJ
+10-3	613-616	ist	_	_
+10-4	617-620	mir	_	_
+10-5	621-630	entwischt	_	_
+10-6	631-632	:	_	_
+10-7	633-637	eine	_	_
+10-8	638-647	gerüstete	_	_
+10-9	648-653	Figur	_	_
+10-10	654-655	,	_	_
+10-11	656-659	mit	_	_
+10-12	660-665	einer	_	_
+10-13	666-676	männlichen	_	_
+10-14	677-680	und	_	_
+10-15	681-691	weiblichen	_	_
+10-16	692-693	.	_	_
+
+#Text=- lanci hat die Rechnungen kaum angerührt , ist dabei auch bei Annalendruck äußerst lahm .
+11-1	694-695	-	_	_
+11-2	696-701	lanci	*	PERmentioned
+11-3	702-705	hat	_	_
+11-4	706-709	die	_	_
+11-5	710-720	Rechnungen	_	_
+11-6	721-725	kaum	_	_
+11-7	726-735	angerührt	_	_
+11-8	736-737	,	_	_
+11-9	738-741	ist	_	_
+11-10	742-747	dabei	_	_
+11-11	748-752	auch	_	_
+11-12	753-756	bei	_	_
+11-13	757-769	Annalendruck	_	_
+11-14	770-777	äußerst	_	_
+11-15	778-782	lahm	_	_
+11-16	783-784	.	_	_
+
+#Text=- Aus Mangel an allen Brochüren kann ich leider für das Institut gar nichts thuen .
+12-1	785-786	-	_	_
+12-2	787-790	Aus	_	_
+12-3	791-797	Mangel	_	_
+12-4	798-800	an	_	_
+12-5	801-806	allen	_	_
+12-6	807-816	Brochüren	_	_
+12-7	817-821	kann	_	_
+12-8	822-825	ich	_	_
+12-9	826-832	leider	_	_
+12-10	833-836	für	_	_
+12-11	837-840	das	_	_
+12-12	841-849	Institut	*	ORGmentioned
+12-13	850-853	gar	_	_
+12-14	854-860	nichts	_	_
+12-15	861-866	thuen	_	_
+12-16	867-868	.	_	_
+
+#Text=Ich bin zu sehr beschäftigt , um etwas anzufertigen , außerdem bin ich verstimmt .
+13-1	869-872	Ich	_	_
+13-2	873-876	bin	_	_
+13-3	877-879	zu	_	_
+13-4	880-884	sehr	_	_
+13-5	885-896	beschäftigt	_	_
+13-6	897-898	,	_	_
+13-7	899-901	um	_	_
+13-8	902-907	etwas	_	_
+13-9	908-920	anzufertigen	_	_
+13-10	921-922	,	_	_
+13-11	923-931	außerdem	_	_
+13-12	932-935	bin	_	_
+13-13	936-939	ich	_	_
+13-14	940-949	verstimmt	_	_
+13-15	950-951	.	_	_
+
+#Text=- Der kleine Abeken hat viel guten Willen , aber wenig Lust Materielles mir abzunehmen .
+14-1	952-953	-	_	_
+14-2	954-957	Der	_	_
+14-3	958-964	kleine	_	_
+14-4	965-971	Abeken	*	PERmentioned
+14-5	972-975	hat	_	_
+14-6	976-980	viel	_	_
+14-7	981-986	guten	_	_
+14-8	987-993	Willen	_	_
+14-9	994-995	,	_	_
+14-10	996-1000	aber	_	_
+14-11	1001-1006	wenig	_	_
+14-12	1007-1011	Lust	_	_
+14-13	1012-1023	Materielles	_	_
+14-14	1024-1027	mir	_	_
+14-15	1028-1038	abzunehmen	_	_
+14-16	1039-1040	.	_	_
+
+#Text=Er hält Vorlesungen und kassirt ein .
+15-1	1041-1043	Er	_	_
+15-2	1044-1048	hält	_	_
+15-3	1049-1060	Vorlesungen	_	_
+15-4	1061-1064	und	_	_
+15-5	1065-1072	kassirt	_	_
+15-6	1073-1076	ein	_	_
+15-7	1077-1078	.	_	_
+
+#Text=Das übrige lastet alles auf mir .
+16-1	1079-1082	Das	_	_
+16-2	1083-1089	übrige	_	_
+16-3	1090-1096	lastet	_	_
+16-4	1097-1102	alles	_	_
+16-5	1103-1106	auf	_	_
+16-6	1107-1110	mir	_	_
+16-7	1111-1112	.	_	_
+
+#Text=Ich muß schließen .
+17-1	1113-1116	Ich	_	_
+17-2	1117-1120	muß	_	_
+17-3	1121-1130	schließen	_	_
+17-4	1131-1132	.	_	_
+
+#Text=Ihr EBraun .
+18-1	1133-1136	Ihr	_	_
+18-2	1137-1143	EBraun	*	PERauthor
+18-3	1144-1145	.	_	_

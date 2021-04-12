@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=315 Helbig an Henzen Siena , 5. Juni 1874 g- 6/7 74 r . 11/7 7 % Siena ( Ferma in posta ) 5. Juni 1874 Lieber Herr Professor Meine Postkarte von vorgestern werden Sie erhalten haben .
+1-1	0-3	315	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-26	Siena	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	5.	*[3]	DATEletter[3]
+1-8	32-36	Juni	*[3]	DATEletter[3]
+1-9	37-41	1874	*[3]	DATEletter[3]
+1-10	42-44	g-	_	_
+1-11	45-48	6/7	*[4]	DATErecieved[4]
+1-12	49-51	74	*[4]	DATErecieved[4]
+1-13	52-53	r	_	_
+1-14	54-55	.	_	_
+1-15	56-60	11/7	*[5]	DATEanswered[5]
+1-16	61-62	7	*[5]	DATEanswered[5]
+1-17	63-64	%	_	_
+1-18	65-70	Siena	*	PLACEfrom
+1-19	71-72	(	_	_
+1-20	73-78	Ferma	_	_
+1-21	79-81	in	_	_
+1-22	82-87	posta	_	_
+1-23	88-89	)	_	_
+1-24	90-92	5.	*[6]	DATEletter[6]
+1-25	93-97	Juni	*[6]	DATEletter[6]
+1-26	98-102	1874	*[6]	DATEletter[6]
+1-27	103-109	Lieber	_	_
+1-28	110-114	Herr	_	_
+1-29	115-124	Professor	_	_
+1-30	125-130	Meine	_	_
+1-31	131-140	Postkarte	_	_
+1-32	141-144	von	_	_
+1-33	145-155	vorgestern	_	_
+1-34	156-162	werden	_	_
+1-35	163-166	Sie	_	_
+1-36	167-175	erhalten	_	_
+1-37	176-181	haben	_	_
+1-38	182-183	.	_	_
+
+#Text=Wir sind nach wie vor mit unserem Aufenthalte sehr zufrieden .
+2-1	184-187	Wir	_	_
+2-2	188-192	sind	_	_
+2-3	193-197	nach	_	_
+2-4	198-201	wie	_	_
+2-5	202-205	vor	_	_
+2-6	206-209	mit	_	_
+2-7	210-217	unserem	_	_
+2-8	218-229	Aufenthalte	_	_
+2-9	230-234	sehr	_	_
+2-10	235-244	zufrieden	_	_
+2-11	245-246	.	_	_
+
+#Text=Die Räume der Villa sind groß , hoch und kühl .
+3-1	247-250	Die	_	_
+3-2	251-256	Räume	_	_
+3-3	257-260	der	_	_
+3-4	261-266	Villa	_	_
+3-5	267-271	sind	_	_
+3-6	272-276	groß	_	_
+3-7	277-278	,	_	_
+3-8	279-283	hoch	_	_
+3-9	284-287	und	_	_
+3-10	288-292	kühl	_	_
+3-11	293-294	.	_	_
+
+#Text=Der Park giebt zu allen Tageszeiten den erwünschten Schatten .
+4-1	295-298	Der	_	_
+4-2	299-303	Park	_	_
+4-3	304-309	giebt	_	_
+4-4	310-312	zu	_	_
+4-5	313-318	allen	_	_
+4-6	319-330	Tageszeiten	_	_
+4-7	331-334	den	_	_
+4-8	335-346	erwünschten	_	_
+4-9	347-355	Schatten	_	_
+4-10	356-357	.	_	_
+
+#Text=Siena ist , soweit wir nach flüchtiger Betrachtung urtheilen können , nach Rom und Florenz sewiß die interessanteste Stadt Italiens .
+5-1	358-363	Siena	*	PLACEmentioned
+5-2	364-367	ist	_	_
+5-3	368-369	,	_	_
+5-4	370-376	soweit	_	_
+5-5	377-380	wir	_	_
+5-6	381-385	nach	_	_
+5-7	386-396	flüchtiger	_	_
+5-8	397-408	Betrachtung	_	_
+5-9	409-418	urtheilen	_	_
+5-10	419-425	können	_	_
+5-11	426-427	,	_	_
+5-12	428-432	nach	_	_
+5-13	433-436	Rom	*	PLACEmentioned
+5-14	437-440	und	_	_
+5-15	441-448	Florenz	*	PLACEmentioned
+5-16	449-454	sewiß	_	_
+5-17	455-458	die	_	_
+5-18	459-474	interessanteste	_	_
+5-19	475-480	Stadt	_	_
+5-20	481-489	Italiens	*	PLACEmentioned
+5-21	490-491	.	_	_
+
+#Text=Der eizige Übelstand , über den wir uns in der Villa zu beklagen haben , ist ihre Größe .
+6-1	492-495	Der	_	_
+6-2	496-502	eizige	_	_
+6-3	503-512	Übelstand	_	_
+6-4	513-514	,	_	_
+6-5	515-519	über	_	_
+6-6	520-523	den	_	_
+6-7	524-527	wir	_	_
+6-8	528-531	uns	_	_
+6-9	532-534	in	_	_
+6-10	535-538	der	_	_
+6-11	539-544	Villa	_	_
+6-12	545-547	zu	_	_
+6-13	548-556	beklagen	_	_
+6-14	557-562	haben	_	_
+6-15	563-564	,	_	_
+6-16	565-568	ist	_	_
+6-17	569-573	ihre	_	_
+6-18	574-579	Größe	_	_
+6-19	580-581	.	_	_
+
+#Text=Es fällt schwer , die Bedienung rasch und rechtzeitig bei der Hand zu haben , da dieselbe in zwei Etagen vertheilt ist .
+7-1	582-584	Es	_	_
+7-2	585-590	fällt	_	_
+7-3	591-597	schwer	_	_
+7-4	598-599	,	_	_
+7-5	600-603	die	_	_
+7-6	604-613	Bedienung	_	_
+7-7	614-619	rasch	_	_
+7-8	620-623	und	_	_
+7-9	624-635	rechtzeitig	_	_
+7-10	636-639	bei	_	_
+7-11	640-643	der	_	_
+7-12	644-648	Hand	_	_
+7-13	649-651	zu	_	_
+7-14	652-657	haben	_	_
+7-15	658-659	,	_	_
+7-16	660-662	da	_	_
+7-17	663-671	dieselbe	_	_
+7-18	672-674	in	_	_
+7-19	675-679	zwei	_	_
+7-20	680-686	Etagen	_	_
+7-21	687-696	vertheilt	_	_
+7-22	697-700	ist	_	_
+7-23	701-702	.	_	_
+
+#Text=Jeden Falls hoffe ich , daß Sie und Fräulein Rosine Ihren Plan , uns hier zu besuchen , ausführen werden .
+8-1	703-708	Jeden	_	_
+8-2	709-714	Falls	_	_
+8-3	715-720	hoffe	_	_
+8-4	721-724	ich	_	_
+8-5	725-726	,	_	_
+8-6	727-730	daß	_	_
+8-7	731-734	Sie	_	_
+8-8	735-738	und	_	_
+8-9	739-747	Fräulein	_	_
+8-10	748-754	Rosine	*	PERmentioned
+8-11	755-760	Ihren	_	_
+8-12	761-765	Plan	_	_
+8-13	766-767	,	_	_
+8-14	768-771	uns	_	_
+8-15	772-776	hier	_	_
+8-16	777-779	zu	_	_
+8-17	780-788	besuchen	_	_
+8-18	789-790	,	_	_
+8-19	791-800	ausführen	_	_
+8-20	801-807	werden	_	_
+8-21	808-809	.	_	_
+
+#Text=Lieb wäre es uns , wenn Sie auch Angelina mitbrächten , die dann ein Glied mehr in dem complicirten Telegraphendienst bilden könnte , den wir durch die verschiedenen Stockwerke Statt finden lassen müssen .
+9-1	810-814	Lieb	_	_
+9-2	815-819	wäre	_	_
+9-3	820-822	es	_	_
+9-4	823-826	uns	_	_
+9-5	827-828	,	_	_
+9-6	829-833	wenn	_	_
+9-7	834-837	Sie	_	_
+9-8	838-842	auch	_	_
+9-9	843-851	Angelina	*	PERmentioned
+9-10	852-863	mitbrächten	_	_
+9-11	864-865	,	_	_
+9-12	866-869	die	_	_
+9-13	870-874	dann	_	_
+9-14	875-878	ein	_	_
+9-15	879-884	Glied	_	_
+9-16	885-889	mehr	_	_
+9-17	890-892	in	_	_
+9-18	893-896	dem	_	_
+9-19	897-909	complicirten	_	_
+9-20	910-927	Telegraphendienst	_	_
+9-21	928-934	bilden	_	_
+9-22	935-941	könnte	_	_
+9-23	942-943	,	_	_
+9-24	944-947	den	_	_
+9-25	948-951	wir	_	_
+9-26	952-957	durch	_	_
+9-27	958-961	die	_	_
+9-28	962-975	verschiedenen	_	_
+9-29	976-986	Stockwerke	_	_
+9-30	987-992	Statt	_	_
+9-31	993-999	finden	_	_
+9-32	1000-1006	lassen	_	_
+9-33	1007-1013	müssen	_	_
+9-34	1014-1015	.	_	_
+
+#Text=Wie würden Sie sich hier ausruhen können !
+10-1	1016-1019	Wie	_	_
+10-2	1020-1026	würden	_	_
+10-3	1027-1030	Sie	_	_
+10-4	1031-1035	sich	_	_
+10-5	1036-1040	hier	_	_
+10-6	1041-1049	ausruhen	_	_
+10-7	1050-1056	können	_	_
+10-8	1057-1058	!	_	_
+
+#Text=Und einige Wochen Ruhe werden Ihnen schließlich doch
+11-1	1059-1062	Und	_	_
+11-2	1063-1069	einige	_	_
+11-3	1070-1076	Wochen	_	_
+11-4	1077-1081	Ruhe	_	_
+11-5	1082-1088	werden	_	_
+11-6	1089-1094	Ihnen	_	_
+11-7	1095-1106	schließlich	_	_
+11-8	1107-1111	doch	_	_

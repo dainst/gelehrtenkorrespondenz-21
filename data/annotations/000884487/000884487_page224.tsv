@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Stuttgart , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-26	Stuttgart	*	PLACEfrom
+1-5	27-28	,	_	_
+1-6	29-31	16	*[4]	DATEletter[4]
+1-7	32-33	.	*[4]	DATEletter[4]
+
+#Text=August 1837 Dr. Braun g. Verona 23/8 37 Stuttgard 16 Aug 37 Durch Ihre Frau lieber Freund werden Sie bereits wissen daß ich glücklich in Mailand ankam \; nach einger Verzögerung im Schweizgrgebirg befinde ich mich nun in Deutschen Landen .
+2-1	34-40	August	*[4]	DATEletter[4]
+2-2	41-45	1837	*[4]	DATEletter[4]
+2-3	46-49	Dr.	_	_
+2-4	50-55	Braun	*	PERaddressee
+2-5	56-58	g.	_	_
+2-6	59-65	Verona	*	PLACEto
+2-7	66-70	23/8	*[7]	DATErecieved[7]
+2-8	71-73	37	*[7]	DATErecieved[7]
+2-9	74-83	Stuttgard	*	PLACEfrom
+2-10	84-86	16	*[9]	DATEletter[9]
+2-11	87-90	Aug	*[9]	DATEletter[9]
+2-12	91-93	37	*[9]	DATEletter[9]
+2-13	94-99	Durch	_	_
+2-14	100-104	Ihre	_	_
+2-15	105-109	Frau	_	_
+2-16	110-116	lieber	_	_
+2-17	117-123	Freund	_	_
+2-18	124-130	werden	_	_
+2-19	131-134	Sie	_	_
+2-20	135-142	bereits	_	_
+2-21	143-149	wissen	_	_
+2-22	150-153	daß	_	_
+2-23	154-157	ich	_	_
+2-24	158-167	glücklich	_	_
+2-25	168-170	in	_	_
+2-26	171-178	Mailand	*	PLACEmentioned
+2-27	179-184	ankam	_	_
+2-28	185-186	\;	_	_
+2-29	187-191	nach	_	_
+2-30	192-198	einger	_	_
+2-31	199-210	Verzögerung	_	_
+2-32	211-213	im	_	_
+2-33	214-229	Schweizgrgebirg	*	PLACEmentioned
+2-34	230-237	befinde	_	_
+2-35	238-241	ich	_	_
+2-36	242-246	mich	_	_
+2-37	247-250	nun	_	_
+2-38	251-253	in	_	_
+2-39	254-263	Deutschen	*[12]	PLACEmentioned[12]
+2-40	264-270	Landen	*[12]	PLACEmentioned[12]
+2-41	271-272	.	_	_
+
+#Text=Ein Brief von Wellker klagt mit über 280 rt .
+3-1	273-276	Ein	_	_
+3-2	277-282	Brief	_	_
+3-3	283-286	von	_	_
+3-4	287-294	Wellker	*	PERmentioned
+3-5	295-300	klagt	_	_
+3-6	301-304	mit	_	_
+3-7	305-309	über	_	_
+3-8	310-313	280	_	_
+3-9	314-316	rt	_	_
+3-10	317-318	.	_	_
+
+#Text=Transportkosten , 15 bis 20 mal mehr als er für pariser Gypse zu zahlen pflege .
+4-1	319-334	Transportkosten	_	_
+4-2	335-336	,	_	_
+4-3	337-339	15	_	_
+4-4	340-343	bis	_	_
+4-5	344-346	20	_	_
+4-6	347-350	mal	_	_
+4-7	351-355	mehr	_	_
+4-8	356-359	als	_	_
+4-9	360-362	er	_	_
+4-10	363-366	für	_	_
+4-11	367-374	pariser	_	_
+4-12	375-380	Gypse	_	_
+4-13	381-383	zu	_	_
+4-14	384-390	zahlen	_	_
+4-15	391-397	pflege	_	_
+4-16	398-399	.	_	_
+
+#Text=Sie sahen das voraus und wären ihm vor dem Schreck eine Erklärung schuldig gewesen , die auch jetzt nicht zu spät kommen wird .
+5-1	400-403	Sie	_	_
+5-2	404-409	sahen	_	_
+5-3	410-413	das	_	_
+5-4	414-420	voraus	_	_
+5-5	421-424	und	_	_
+5-6	425-430	wären	_	_
+5-7	431-434	ihm	_	_
+5-8	435-438	vor	_	_
+5-9	439-442	dem	_	_
+5-10	443-450	Schreck	_	_
+5-11	451-455	eine	_	_
+5-12	456-465	Erklärung	_	_
+5-13	466-474	schuldig	_	_
+5-14	475-482	gewesen	_	_
+5-15	483-484	,	_	_
+5-16	485-488	die	_	_
+5-17	489-493	auch	_	_
+5-18	494-499	jetzt	_	_
+5-19	500-505	nicht	_	_
+5-20	506-508	zu	_	_
+5-21	509-513	spät	_	_
+5-22	514-520	kommen	_	_
+5-23	521-525	wird	_	_
+5-24	526-527	.	_	_
+
+#Text=Von Berlin aus fahren die Hiobsposten fort .
+6-1	528-531	Von	_	_
+6-2	532-538	Berlin	*	PLACEmentioned
+6-3	539-542	aus	_	_
+6-4	543-549	fahren	_	_
+6-5	550-553	die	_	_
+6-6	554-565	Hiobsposten	_	_
+6-7	566-570	fort	_	_
+6-8	571-572	.	_	_
+
+#Text=Die H.sche Successionssache zerschlägt sich wohl , aber G£ .
+7-1	573-576	Die	_	_
+7-2	577-583	H.sche	_	_
+7-3	584-600	Successionssache	_	_
+7-4	601-611	zerschlägt	_	_
+7-5	612-616	sich	_	_
+7-6	617-621	wohl	_	_
+7-7	622-623	,	_	_
+7-8	624-628	aber	_	_
+7-9	629-631	G£	*[15]	PERmentioned[15]
+7-10	632-633	.	*[15]	PERmentioned[15]
+
+#Text=Buhl , „ ein für das Museum unersätzlicher Ehrenmann , ist todtkrank .
+8-1	634-638	Buhl	*[15]	PERmentioned[15]
+8-2	639-640	,	_	_
+8-3	641-642	„	_	_
+8-4	643-646	ein	_	_
+8-5	647-650	für	_	_
+8-6	651-654	das	_	_
+8-7	655-661	Museum	*	ORGmentioned
+8-8	662-676	unersätzlicher	_	_
+8-9	677-686	Ehrenmann	_	_
+8-10	687-688	,	_	_
+8-11	689-692	ist	_	_
+8-12	693-702	todtkrank	_	_
+8-13	703-704	.	_	_
+
+#Text=Mit den nach Livorno gesandten Kisten ist hoffentlich Alles dergestalt abgemacht worden daß der Transport bis Livorno ohne Einmischung des Museums von mir gezahlt wird .
+9-1	705-708	Mit	_	_
+9-2	709-712	den	_	_
+9-3	713-717	nach	_	_
+9-4	718-725	Livorno	*	PLACEmentioned
+9-5	726-735	gesandten	_	_
+9-6	736-742	Kisten	_	_
+9-7	743-746	ist	_	_
+9-8	747-758	hoffentlich	_	_
+9-9	759-764	Alles	_	_
+9-10	765-775	dergestalt	_	_
+9-11	776-785	abgemacht	_	_
+9-12	786-792	worden	_	_
+9-13	793-796	daß	_	_
+9-14	797-800	der	_	_
+9-15	801-810	Transport	_	_
+9-16	811-814	bis	_	_
+9-17	815-822	Livorno	*	PLACEmentioned
+9-18	823-827	ohne	_	_
+9-19	828-839	Einmischung	_	_
+9-20	840-843	des	_	_
+9-21	844-851	Museums	*	ORGmentioned
+9-22	852-855	von	_	_
+9-23	856-859	mir	_	_
+9-24	860-867	gezahlt	_	_
+9-25	868-872	wird	_	_
+9-26	873-874	.	_	_
+
+#Text=Ich wollte zugleich an Lepsius schreiben - thue es auch wol anhangend , obwohl ich nichts Erhebliches zu schreiben habe - und thue es somit wol erst von Berlin aus , sagen Sie ihm mit einem Gruße meine gute Absicht .
+10-1	875-878	Ich	_	_
+10-2	879-885	wollte	_	_
+10-3	886-894	zugleich	_	_
+10-4	895-897	an	_	_
+10-5	898-905	Lepsius	*	PERmentioned
+10-6	906-915	schreiben	_	_
+10-7	916-917	-	_	_
+10-8	918-922	thue	_	_
+10-9	923-925	es	_	_
+10-10	926-930	auch	_	_
+10-11	931-934	wol	_	_
+10-12	935-944	anhangend	_	_
+10-13	945-946	,	_	_
+10-14	947-953	obwohl	_	_
+10-15	954-957	ich	_	_
+10-16	958-964	nichts	_	_
+10-17	965-976	Erhebliches	_	_
+10-18	977-979	zu	_	_
+10-19	980-989	schreiben	_	_
+10-20	990-994	habe	_	_
+10-21	995-996	-	_	_
+10-22	997-1000	und	_	_
+10-23	1001-1005	thue	_	_
+10-24	1006-1008	es	_	_
+10-25	1009-1014	somit	_	_
+10-26	1015-1018	wol	_	_
+10-27	1019-1023	erst	_	_
+10-28	1024-1027	von	_	_
+10-29	1028-1034	Berlin	*	PLACEmentioned
+10-30	1035-1038	aus	_	_
+10-31	1039-1040	,	_	_
+10-32	1041-1046	sagen	_	_
+10-33	1047-1050	Sie	_	_
+10-34	1051-1054	ihm	_	_
+10-35	1055-1058	mit	_	_
+10-36	1059-1064	einem	_	_
+10-37	1065-1070	Gruße	_	_
+10-38	1071-1076	meine	_	_
+10-39	1077-1081	gute	_	_
+10-40	1082-1089	Absicht	_	_
+10-41	1090-1091	.	_	_
+
+#Text=Auch sonst an römische Freunde verschiebe ich es zu schrei-
+11-1	1092-1096	Auch	_	_
+11-2	1097-1102	sonst	_	_
+11-3	1103-1105	an	_	_
+11-4	1106-1114	römische	_	_
+11-5	1115-1122	Freunde	_	_
+11-6	1123-1133	verschiebe	_	_
+11-7	1134-1137	ich	_	_
+11-8	1138-1140	es	_	_
+11-9	1141-1143	zu	_	_
+11-10	1144-1151	schrei-	_	_

@@ -1,0 +1,247 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=247 Brunn an Henzen Perugia , 17 .
+1-1	0-3	247	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	17	*[5]	DATEletter[5]
+1-8	33-34	.	*[5]	DATEletter[5]
+
+#Text=August 1858 ( B ) A.di Dir .
+2-1	35-41	August	*[5]	DATEletter[5]
+2-2	42-46	1858	*[5]	DATEletter[5]
+2-3	47-48	(	_	_
+2-4	49-50	B	_	_
+2-5	51-52	)	_	_
+2-6	53-57	A.di	_	_
+2-7	58-61	Dir	_	_
+2-8	62-63	.	_	_
+
+#Text=8 . 19 .
+3-1	64-65	8	_	_
+3-2	66-67	.	_	_
+3-3	68-70	19	*[6]	DATErecieved[6]
+3-4	71-72	.	*[6]	DATErecieved[6]
+
+#Text=August 1858 Tr .
+4-1	73-79	August	*[6]	DATErecieved[6]
+4-2	80-84	1858	*[6]	DATErecieved[6]
+4-3	85-87	Tr	_	_
+4-4	88-89	.	_	_
+
+#Text=Lieber Henzen \| Noch kein Bullettino-Artikel !
+5-1	90-96	Lieber	_	_
+5-2	97-103	Henzen	*	PERaddressee
+5-3	104-105	\|	_	_
+5-4	106-110	Noch	_	_
+5-5	111-115	kein	_	_
+5-6	116-134	Bullettino-Artikel	_	_
+5-7	135-136	!	_	_
+
+#Text=Un poco : ausruhen von den Steinschneidern \; un poco : fiera di Monte Luce mit prachtvollem Ochsen und schmackhafter Colazione aus S \* Bartoc- & ini 's Küche \; dann aber auch ein Stück Correspondenz , und Sammeln des etwas zerstreuten Materials .
+6-1	137-139	Un	_	_
+6-2	140-144	poco	_	_
+6-3	145-146	:	_	_
+6-4	147-155	ausruhen	_	_
+6-5	156-159	von	_	_
+6-6	160-163	den	_	_
+6-7	164-179	Steinschneidern	_	_
+6-8	180-181	\;	_	_
+6-9	182-184	un	_	_
+6-10	185-189	poco	_	_
+6-11	190-191	:	_	_
+6-12	192-197	fiera	_	_
+6-13	198-200	di	_	_
+6-14	201-206	Monte	*[7]	PLACEmentioned[7]
+6-15	207-211	Luce	*[7]	PLACEmentioned[7]
+6-16	212-215	mit	_	_
+6-17	216-228	prachtvollem	_	_
+6-18	229-235	Ochsen	_	_
+6-19	236-239	und	_	_
+6-20	240-253	schmackhafter	_	_
+6-21	254-263	Colazione	_	_
+6-22	264-267	aus	_	_
+6-23	268-269	S	_	_
+6-24	270-271	\*	_	_
+6-25	272-279	Bartoc-	*[9]	PERmentioned[9]
+6-26	280-281	&	*[9]	PERmentioned[9]
+6-27	282-285	ini	*[9]	PERmentioned[9]
+6-28	286-288	's	*[9]	PERmentioned[9]
+6-29	289-294	Küche	_	_
+6-30	295-296	\;	_	_
+6-31	297-301	dann	_	_
+6-32	302-306	aber	_	_
+6-33	307-311	auch	_	_
+6-34	312-315	ein	_	_
+6-35	316-321	Stück	_	_
+6-36	322-335	Correspondenz	_	_
+6-37	336-337	,	_	_
+6-38	338-341	und	_	_
+6-39	342-349	Sammeln	_	_
+6-40	350-353	des	_	_
+6-41	354-359	etwas	_	_
+6-42	360-371	zerstreuten	_	_
+6-43	372-381	Materials	_	_
+6-44	382-383	.	_	_
+
+#Text=Im Laufe der Woche hoffe ich indessen etwas zurecht zu brauen und allenfalls an Domenico zu addressiren , damit er es sofort an den ( von Ihnen ihm im voraus anzugebenden ) Corrector befördern und Sie es acht Tage nach diesem Briefe erhalten , zum Druck fertig .
+7-1	384-386	Im	_	_
+7-2	387-392	Laufe	_	_
+7-3	393-396	der	_	_
+7-4	397-402	Woche	_	_
+7-5	403-408	hoffe	_	_
+7-6	409-412	ich	_	_
+7-7	413-421	indessen	_	_
+7-8	422-427	etwas	_	_
+7-9	428-435	zurecht	_	_
+7-10	436-438	zu	_	_
+7-11	439-445	brauen	_	_
+7-12	446-449	und	_	_
+7-13	450-460	allenfalls	_	_
+7-14	461-463	an	_	_
+7-15	464-472	Domenico	*	PERmentioned
+7-16	473-475	zu	_	_
+7-17	476-487	addressiren	_	_
+7-18	488-489	,	_	_
+7-19	490-495	damit	_	_
+7-20	496-498	er	_	_
+7-21	499-501	es	_	_
+7-22	502-508	sofort	_	_
+7-23	509-511	an	_	_
+7-24	512-515	den	_	_
+7-25	516-517	(	_	_
+7-26	518-521	von	_	_
+7-27	522-527	Ihnen	_	_
+7-28	528-531	ihm	_	_
+7-29	532-534	im	_	_
+7-30	535-541	voraus	_	_
+7-31	542-554	anzugebenden	_	_
+7-32	555-556	)	_	_
+7-33	557-566	Corrector	_	_
+7-34	567-576	befördern	_	_
+7-35	577-580	und	_	_
+7-36	581-584	Sie	_	_
+7-37	585-587	es	_	_
+7-38	588-592	acht	_	_
+7-39	593-597	Tage	_	_
+7-40	598-602	nach	_	_
+7-41	603-609	diesem	_	_
+7-42	610-616	Briefe	_	_
+7-43	617-625	erhalten	_	_
+7-44	626-627	,	_	_
+7-45	628-631	zum	_	_
+7-46	632-637	Druck	_	_
+7-47	638-644	fertig	_	_
+7-48	645-646	.	_	_
+
+#Text=- An Gerhard habe ich einen quasi - officiellen Schreibebrief über die Columb .
+8-1	647-648	-	_	_
+8-2	649-651	An	_	_
+8-3	652-659	Gerhard	*	PERaddressee
+8-4	660-664	habe	_	_
+8-5	665-668	ich	_	_
+8-6	669-674	einen	_	_
+8-7	675-680	quasi	_	_
+8-8	681-682	-	_	_
+8-9	683-694	officiellen	_	_
+8-10	695-708	Schreibebrief	_	_
+8-11	709-713	über	_	_
+8-12	714-717	die	_	_
+8-13	718-724	Columb	*	OBJ
+8-14	725-726	.	_	_
+
+#Text=abgehen lassen , den er allenfalls dem Ministerium vorlegen kann .
+9-1	727-734	abgehen	_	_
+9-2	735-741	lassen	_	_
+9-3	742-743	,	_	_
+9-4	744-747	den	_	_
+9-5	748-750	er	_	_
+9-6	751-761	allenfalls	_	_
+9-7	762-765	dem	_	_
+9-8	766-777	Ministerium	_	_
+9-9	778-786	vorlegen	_	_
+9-10	787-791	kann	_	_
+9-11	792-793	.	_	_
+
+#Text=- Ferner von L. Friedländer ( Todtenausstellung ) und Roulez ( Minotaur ) .
+10-1	794-795	-	_	_
+10-2	796-802	Ferner	_	_
+10-3	803-806	von	_	_
+10-4	807-809	L.	*[8]	PERmentioned[8]
+10-5	810-821	Friedländer	*[8]	PERmentioned[8]
+10-6	822-823	(	_	_
+10-7	824-841	Todtenausstellung	*	MISC
+10-8	842-843	)	_	_
+10-9	844-847	und	_	_
+10-10	848-854	Roulez	*	PERmentioned
+10-11	855-856	(	_	_
+10-12	857-865	Minotaur	*	OBJ
+10-13	866-867	)	_	_
+10-14	868-869	.	_	_
+
+#Text=Morgen denke ich an Minervini zu schreiben , dem Conestabile die beiden in unserem Bull .
+11-1	870-876	Morgen	_	_
+11-2	877-882	denke	_	_
+11-3	883-886	ich	_	_
+11-4	887-889	an	_	_
+11-5	890-899	Minervini	*	PERmentioned
+11-6	900-902	zu	_	_
+11-7	903-912	schreiben	_	_
+11-8	913-914	,	_	_
+11-9	915-918	dem	_	_
+11-10	919-930	Conestabile	*	PERmentioned
+11-11	931-934	die	_	_
+11-12	935-941	beiden	_	_
+11-13	942-944	in	_	_
+11-14	945-952	unserem	_	_
+11-15	953-957	Bull	_	_
+11-16	958-959	.	_	_
+
+#Text=beschriebenen Vasen zur Publication überlassen hat .
+12-1	960-973	beschriebenen	_	_
+12-2	974-979	Vasen	*	OBJ
+12-3	980-983	zur	_	_
+12-4	984-995	Publication	_	_
+12-5	996-1006	überlassen	_	_
+12-6	1007-1010	hat	_	_
+12-7	1011-1012	.	_	_
+
+#Text=Die eine aber ist aber alles Erwarten schön im Styl ( die bacchische ) und verdient eine Publication in Originalgröße , während Minervini nur von verkleinerter Abbildung gesprochen hat .
+13-1	1013-1016	Die	_	_
+13-2	1017-1021	eine	_	_
+13-3	1022-1026	aber	_	_
+13-4	1027-1030	ist	_	_
+13-5	1031-1035	aber	_	_
+13-6	1036-1041	alles	_	_
+13-7	1042-1050	Erwarten	_	_
+13-8	1051-1056	schön	_	_
+13-9	1057-1059	im	_	_
+13-10	1060-1064	Styl	_	_
+13-11	1065-1066	(	_	_
+13-12	1067-1070	die	_	_
+13-13	1071-1081	bacchische	_	_
+13-14	1082-1083	)	_	_
+13-15	1084-1087	und	_	_
+13-16	1088-1096	verdient	_	_
+13-17	1097-1101	eine	_	_
+13-18	1102-1113	Publication	_	_
+13-19	1114-1116	in	_	_
+13-20	1117-1130	Originalgröße	_	_
+13-21	1131-1132	,	_	_
+13-22	1133-1140	während	_	_
+13-23	1141-1150	Minervini	*	PERmentioned
+13-24	1151-1154	nur	_	_
+13-25	1155-1158	von	_	_
+13-26	1159-1172	verkleinerter	_	_
+13-27	1173-1182	Abbildung	_	_
+13-28	1183-1193	gesprochen	_	_
+13-29	1194-1197	hat	_	_
+13-30	1198-1199	.	_	_
+
+#Text=Sofern
+14-1	1200-1206	Sofern	_	_

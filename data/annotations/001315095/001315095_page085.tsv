@@ -1,0 +1,176 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Leipzig , 5. September 1852 r . 14 , September 1854 Leipzig 5 Sept .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-24	Leipzig	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	5.	*[3]	DATEletter[3]
+1-7	30-39	September	*[3]	DATEletter[3]
+1-8	40-44	1852	*[3]	DATEletter[3]
+1-9	45-46	r	_	_
+1-10	47-48	.	_	_
+1-11	49-51	14	*[4]	DATEanswered[4]
+1-12	52-53	,	*[4]	DATEanswered[4]
+1-13	54-63	September	*[4]	DATEanswered[4]
+1-14	64-68	1854	*[4]	DATEanswered[4]
+1-15	69-76	Leipzig	*	PLACEfrom
+1-16	77-78	5	*[5]	DATEletter[5]
+1-17	79-83	Sept	*[5]	DATEletter[5]
+1-18	84-85	.	*[5]	DATEletter[5]
+
+#Text=1854 .
+2-1	86-90	1854	*[5]	DATEletter[5]
+2-2	91-92	.	_	_
+
+#Text=Eben , lieber Freund , erhalte ich Deinen Brief vom 26. und freue mich , daß Du hierin mein nächster Schüler bist wie ich Dich schon lange in einer andern edlen Kunst als Meister verehre .
+3-1	93-97	Eben	_	_
+3-2	98-99	,	_	_
+3-3	100-106	lieber	_	_
+3-4	107-113	Freund	_	_
+3-5	114-115	,	_	_
+3-6	116-123	erhalte	_	_
+3-7	124-127	ich	_	_
+3-8	128-134	Deinen	_	_
+3-9	135-140	Brief	_	_
+3-10	141-144	vom	_	_
+3-11	145-148	26.	*[6]	DATEmentioned[6]
+3-12	149-152	und	_	_
+3-13	153-158	freue	_	_
+3-14	159-163	mich	_	_
+3-15	164-165	,	_	_
+3-16	166-169	daß	_	_
+3-17	170-172	Du	_	_
+3-18	173-179	hierin	_	_
+3-19	180-184	mein	_	_
+3-20	185-193	nächster	_	_
+3-21	194-201	Schüler	_	_
+3-22	202-206	bist	_	_
+3-23	207-210	wie	_	_
+3-24	211-214	ich	_	_
+3-25	215-219	Dich	_	_
+3-26	220-225	schon	_	_
+3-27	226-231	lange	_	_
+3-28	232-234	in	_	_
+3-29	235-240	einer	_	_
+3-30	241-247	andern	_	_
+3-31	248-253	edlen	_	_
+3-32	254-259	Kunst	_	_
+3-33	260-263	als	_	_
+3-34	264-271	Meister	_	_
+3-35	272-279	verehre	_	_
+3-36	280-281	.	_	_
+
+#Text=Freitag Abend ist hier Polterspaß \; willst Du dazu kommen , so bist Du ben venuto und wirst bei Jahn Wohnung finden , was ich nicht bezweifle .
+4-1	282-289	Freitag	_	_
+4-2	290-295	Abend	_	_
+4-3	296-299	ist	_	_
+4-4	300-304	hier	_	_
+4-5	305-315	Polterspaß	_	_
+4-6	316-317	\;	_	_
+4-7	318-324	willst	_	_
+4-8	325-327	Du	_	_
+4-9	328-332	dazu	_	_
+4-10	333-339	kommen	_	_
+4-11	340-341	,	_	_
+4-12	342-344	so	_	_
+4-13	345-349	bist	_	_
+4-14	350-352	Du	_	_
+4-15	353-356	ben	_	_
+4-16	357-363	venuto	_	_
+4-17	364-367	und	_	_
+4-18	368-373	wirst	_	_
+4-19	374-377	bei	_	_
+4-20	378-382	Jahn	*	PERmentioned
+4-21	383-390	Wohnung	_	_
+4-22	391-397	finden	_	_
+4-23	398-399	,	_	_
+4-24	400-403	was	_	_
+4-25	404-407	ich	_	_
+4-26	408-413	nicht	_	_
+4-27	414-423	bezweifle	_	_
+4-28	424-425	.	_	_
+
+#Text=Hier ist alles wohl .
+5-1	426-430	Hier	_	_
+5-2	431-434	ist	_	_
+5-3	435-440	alles	_	_
+5-4	441-445	wohl	_	_
+5-5	446-447	.	_	_
+
+#Text=Bleibst Du bis Sonnabend , so kannst Du wegen der Archäologie mit Reimer reden , was auch diesem erwünscht sein wird , und am Sonntag kannst Du und copuliren sehen .
+6-1	448-455	Bleibst	_	_
+6-2	456-458	Du	_	_
+6-3	459-462	bis	_	_
+6-4	463-472	Sonnabend	_	_
+6-5	473-474	,	_	_
+6-6	475-477	so	_	_
+6-7	478-484	kannst	_	_
+6-8	485-487	Du	_	_
+6-9	488-493	wegen	_	_
+6-10	494-497	der	_	_
+6-11	498-509	Archäologie	_	_
+6-12	510-513	mit	_	_
+6-13	514-520	Reimer	*	PERmentioned
+6-14	521-526	reden	_	_
+6-15	527-528	,	_	_
+6-16	529-532	was	_	_
+6-17	533-537	auch	_	_
+6-18	538-544	diesem	_	_
+6-19	545-554	erwünscht	_	_
+6-20	555-559	sein	_	_
+6-21	560-564	wird	_	_
+6-22	565-566	,	_	_
+6-23	567-570	und	_	_
+6-24	571-573	am	_	_
+6-25	574-581	Sonntag	_	_
+6-26	582-588	kannst	_	_
+6-27	589-591	Du	_	_
+6-28	592-595	und	_	_
+6-29	596-605	copuliren	_	_
+6-30	606-611	sehen	_	_
+6-31	612-613	.	_	_
+
+#Text=So hast Du Gelegenheit in Thorheit , Speculation und Frömmigkeit neue Erfahrungen zu machen \; säume nicht !
+7-1	614-616	So	_	_
+7-2	617-621	hast	_	_
+7-3	622-624	Du	_	_
+7-4	625-636	Gelegenheit	_	_
+7-5	637-639	in	_	_
+7-6	640-648	Thorheit	_	_
+7-7	649-650	,	_	_
+7-8	651-662	Speculation	_	_
+7-9	663-666	und	_	_
+7-10	667-678	Frömmigkeit	_	_
+7-11	679-683	neue	_	_
+7-12	684-695	Erfahrungen	_	_
+7-13	696-698	zu	_	_
+7-14	699-705	machen	_	_
+7-15	706-707	\;	_	_
+7-16	708-713	säume	_	_
+7-17	714-719	nicht	_	_
+7-18	720-721	!	_	_
+
+#Text=Wir wollen ausfahren , der Wagen steht vor der Thür \; also addio .
+8-1	722-725	Wir	_	_
+8-2	726-732	wollen	_	_
+8-3	733-742	ausfahren	_	_
+8-4	743-744	,	_	_
+8-5	745-748	der	_	_
+8-6	749-754	Wagen	_	_
+8-7	755-760	steht	_	_
+8-8	761-764	vor	_	_
+8-9	765-768	der	_	_
+8-10	769-773	Thür	_	_
+8-11	774-775	\;	_	_
+8-12	776-780	also	_	_
+8-13	781-786	addio	_	_
+8-14	787-788	.	_	_
+
+#Text=Dein M .
+9-1	789-793	Dein	_	_
+9-2	794-795	M	*	PERauthor
+9-3	796-797	.	_	_

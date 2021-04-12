@@ -1,0 +1,146 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Berlin , 6 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	6	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=August 1825 Zeitung figurirt Ihr Werk übrigens schon mit Lob , in einem Artikel über die Leipziger Messe ( von 6 v.M ) - Wir erwarten Sie mit Freude : es versteht sich , daß meine Bibliothek Ihnen immer offen steht : wegen Bianchini findet sich wohl Rath .
+2-1	31-37	August	*[4]	DATEletter[4]
+2-2	38-42	1825	*[4]	DATEletter[4]
+2-3	43-50	Zeitung	_	_
+2-4	51-59	figurirt	_	_
+2-5	60-63	Ihr	_	_
+2-6	64-68	Werk	_	_
+2-7	69-77	übrigens	_	_
+2-8	78-83	schon	_	_
+2-9	84-87	mit	_	_
+2-10	88-91	Lob	_	_
+2-11	92-93	,	_	_
+2-12	94-96	in	_	_
+2-13	97-102	einem	_	_
+2-14	103-110	Artikel	_	_
+2-15	111-115	über	_	_
+2-16	116-119	die	_	_
+2-17	120-129	Leipziger	*	PLACEmentioned
+2-18	130-135	Messe	_	_
+2-19	136-137	(	_	_
+2-20	138-141	von	_	_
+2-21	142-143	6	*[6]	DATEmentioned[6]
+2-22	144-147	v.M	*[6]	DATEmentioned[6]
+2-23	148-149	)	_	_
+2-24	150-151	-	_	_
+2-25	152-155	Wir	_	_
+2-26	156-164	erwarten	_	_
+2-27	165-168	Sie	_	_
+2-28	169-172	mit	_	_
+2-29	173-179	Freude	_	_
+2-30	180-181	:	_	_
+2-31	182-184	es	_	_
+2-32	185-193	versteht	_	_
+2-33	194-198	sich	_	_
+2-34	199-200	,	_	_
+2-35	201-204	daß	_	_
+2-36	205-210	meine	_	_
+2-37	211-221	Bibliothek	_	_
+2-38	222-227	Ihnen	_	_
+2-39	228-233	immer	_	_
+2-40	234-239	offen	_	_
+2-41	240-245	steht	_	_
+2-42	246-247	:	_	_
+2-43	248-253	wegen	_	_
+2-44	254-263	Bianchini	*	PERmentioned
+2-45	264-270	findet	_	_
+2-46	271-275	sich	_	_
+2-47	276-280	wohl	_	_
+2-48	281-285	Rath	_	_
+2-49	286-287	.	_	_
+
+#Text=Mit herzlichen Grüßen der Meinigen Ihr ergebenster Bunsen P.S .
+3-1	288-291	Mit	_	_
+3-2	292-302	herzlichen	_	_
+3-3	303-309	Grüßen	_	_
+3-4	310-313	der	_	_
+3-5	314-322	Meinigen	_	_
+3-6	323-326	Ihr	_	_
+3-7	327-338	ergebenster	_	_
+3-8	339-345	Bunsen	*	PERauthor
+3-9	346-349	P.S	_	_
+3-10	350-351	.	_	_
+
+#Text=Stackelberg soll gestern abgereist sein : niemand glaubt 's , bis man Briefe aus Florenz hat .
+4-1	352-363	Stackelberg	*	PERmentioned
+4-2	364-368	soll	_	_
+4-3	369-376	gestern	_	_
+4-4	377-386	abgereist	_	_
+4-5	387-391	sein	_	_
+4-6	392-393	:	_	_
+4-7	394-401	niemand	_	_
+4-8	402-408	glaubt	_	_
+4-9	409-411	's	_	_
+4-10	412-413	,	_	_
+4-11	414-417	bis	_	_
+4-12	418-421	man	_	_
+4-13	422-428	Briefe	_	_
+4-14	429-432	aus	_	_
+4-15	433-440	Florenz	*	PLACEmentioned
+4-16	441-444	hat	_	_
+4-17	445-446	.	_	_
+
+#Text=Kestner hat sich in der letzten Zeit so ausschließlich mit ihm beschäftigt , daß er mir noch die ausführlichen Notizen über Ihr projectirtes Journal nicht hat mittheilen können .
+5-1	447-454	Kestner	*	PERmentioned
+5-2	455-458	hat	_	_
+5-3	459-463	sich	_	_
+5-4	464-466	in	_	_
+5-5	467-470	der	_	_
+5-6	471-478	letzten	_	_
+5-7	479-483	Zeit	_	_
+5-8	484-486	so	_	_
+5-9	487-501	ausschließlich	_	_
+5-10	502-505	mit	_	_
+5-11	506-509	ihm	_	_
+5-12	510-521	beschäftigt	_	_
+5-13	522-523	,	_	_
+5-14	524-527	daß	_	_
+5-15	528-530	er	_	_
+5-16	531-534	mir	_	_
+5-17	535-539	noch	_	_
+5-18	540-543	die	_	_
+5-19	544-557	ausführlichen	_	_
+5-20	558-565	Notizen	_	_
+5-21	566-570	über	_	_
+5-22	571-574	Ihr	_	_
+5-23	575-587	projectirtes	_	_
+5-24	588-595	Journal	_	_
+5-25	596-601	nicht	_	_
+5-26	602-605	hat	_	_
+5-27	606-616	mittheilen	_	_
+5-28	617-623	können	_	_
+5-29	624-625	.	_	_
+
+#Text=Ich habe ihn vorige Woche daran erinnert .
+6-1	626-629	Ich	_	_
+6-2	630-634	habe	_	_
+6-3	635-638	ihn	_	_
+6-4	639-645	vorige	_	_
+6-5	646-651	Woche	_	_
+6-6	652-657	daran	_	_
+6-7	658-666	erinnert	_	_
+6-8	667-668	.	_	_
+
+#Text=Hoffentlich kommt er nun zu uns aufs Land .
+7-1	669-680	Hoffentlich	_	_
+7-2	681-686	kommt	_	_
+7-3	687-689	er	_	_
+7-4	690-693	nun	_	_
+7-5	694-696	zu	_	_
+7-6	697-700	uns	_	_
+7-7	701-705	aufs	_	_
+7-8	706-710	Land	_	_
+7-9	711-712	.	_	_

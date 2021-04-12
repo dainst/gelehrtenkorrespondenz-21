@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=437 Braun an Gerhard Rom , 10. Juli 71838 Herrn Frof .
+1-1	0-3	437	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	10.	_	_
+1-8	31-35	Juli	*[5]	DATEletter[5]
+1-9	36-41	71838	*[5]	DATEletter[5]
+1-10	42-47	Herrn	_	_
+1-11	48-52	Frof	_	_
+1-12	53-54	.	_	_
+
+#Text=Gerhard Rom 90 Juli 1838 .
+2-1	55-62	Gerhard	*	PERaddressee
+2-2	63-66	Rom	*	PLACEfrom
+2-3	67-69	90	*[7]	DATEletter[7]
+2-4	70-74	Juli	*[7]	DATEletter[7]
+2-5	75-79	1838	*[7]	DATEletter[7]
+2-6	80-81	.	_	_
+
+#Text=Die Bogen des Conversationslexikons finden sich trotz allem Nachsuchen nicht .
+3-1	82-85	Die	_	_
+3-2	86-91	Bogen	_	_
+3-3	92-95	des	_	_
+3-4	96-117	Conversationslexikons	_	_
+3-5	118-124	finden	_	_
+3-6	125-129	sich	_	_
+3-7	130-135	trotz	_	_
+3-8	136-141	allem	_	_
+3-9	142-152	Nachsuchen	_	_
+3-10	153-158	nicht	_	_
+3-11	159-160	.	_	_
+
+#Text=- lIch wiederhole mein Bedauern wegen Ihrer Mühhabung mit dem fatalen Müllerschen Handel .
+4-1	161-162	-	_	_
+4-2	163-167	lIch	_	_
+4-3	168-178	wiederhole	_	_
+4-4	179-183	mein	_	_
+4-5	184-192	Bedauern	_	_
+4-6	193-198	wegen	_	_
+4-7	199-204	Ihrer	_	_
+4-8	205-214	Mühhabung	_	_
+4-9	215-218	mit	_	_
+4-10	219-222	dem	_	_
+4-11	223-230	fatalen	_	_
+4-12	231-242	Müllerschen	*	PERmentioned
+4-13	243-249	Handel	_	_
+4-14	250-251	.	_	_
+
+#Text=Die Sache sehe ich ganz einfach an .
+5-1	252-255	Die	_	_
+5-2	256-261	Sache	_	_
+5-3	262-266	sehe	_	_
+5-4	267-270	ich	_	_
+5-5	271-275	ganz	_	_
+5-6	276-283	einfach	_	_
+5-7	284-286	an	_	_
+5-8	287-288	.	_	_
+
+#Text=Der Spediteur von Berlin nach Gotha leistet den Vorschuß von der NMüllerschen Schuldforderung , die er samt den neuen Spesen in Gotha erstattet erhält .
+6-1	289-292	Der	_	_
+6-2	293-302	Spediteur	_	_
+6-3	303-306	von	_	_
+6-4	307-313	Berlin	*	PLACEmentioned
+6-5	314-318	nach	_	_
+6-6	319-324	Gotha	*	PLACEmentioned
+6-7	325-332	leistet	_	_
+6-8	333-336	den	_	_
+6-9	337-345	Vorschuß	_	_
+6-10	346-349	von	_	_
+6-11	350-353	der	_	_
+6-12	354-366	NMüllerschen	*	PERmentioned
+6-13	367-382	Schuldforderung	_	_
+6-14	383-384	,	_	_
+6-15	385-388	die	_	_
+6-16	389-391	er	_	_
+6-17	392-396	samt	_	_
+6-18	397-400	den	_	_
+6-19	401-406	neuen	_	_
+6-20	407-413	Spesen	_	_
+6-21	414-416	in	_	_
+6-22	417-422	Gotha	*	PLACEmentioned
+6-23	423-432	erstattet	_	_
+6-24	433-439	erhält	_	_
+6-25	440-441	.	_	_
+
+#Text=Dies ist Handelsbrauch .
+7-1	442-446	Dies	_	_
+7-2	447-450	ist	_	_
+7-3	451-464	Handelsbrauch	_	_
+7-4	465-466	.	_	_
+
+#Text=Die rohe Gigantenvase wird Ihnen wahrscheinlich schon mit der vorjährigen Sendung zugekommen sein .
+8-1	467-470	Die	_	_
+8-2	471-475	rohe	_	_
+8-3	476-488	Gigantenvase	*	OBJ
+8-4	489-493	wird	_	_
+8-5	494-499	Ihnen	_	_
+8-6	500-514	wahrscheinlich	_	_
+8-7	515-520	schon	_	_
+8-8	521-524	mit	_	_
+8-9	525-528	der	_	_
+8-10	529-540	vorjährigen	_	_
+8-11	541-548	Sendung	_	_
+8-12	549-559	zugekommen	_	_
+8-13	560-564	sein	_	_
+8-14	565-566	.	_	_
+
+#Text=- Strozzi , G oogr .
+9-1	567-568	-	_	_
+9-2	569-576	Strozzi	*	PERmentioned
+9-3	577-578	,	_	_
+9-4	579-580	G	_	_
+9-5	581-585	oogr	_	_
+9-6	586-587	.	_	_
+
+#Text=N . „ haben sie erhalten .
+10-1	588-589	N	_	_
+10-2	590-591	.	_	_
+10-3	592-593	„	_	_
+10-4	594-599	haben	_	_
+10-5	600-603	sie	_	_
+10-6	604-612	erhalten	_	_
+10-7	613-614	.	_	_
+
+#Text=Wegen des Catalogs von Perugia schreibe ich sofort an Vermiglioli .
+11-1	615-620	Wegen	_	_
+11-2	621-624	des	_	_
+11-3	625-633	Catalogs	_	_
+11-4	634-637	von	_	_
+11-5	638-645	Perugia	*	PLACEmentioned
+11-6	646-654	schreibe	_	_
+11-7	655-658	ich	_	_
+11-8	659-665	sofort	_	_
+11-9	666-668	an	_	_
+11-10	669-680	Vermiglioli	*	PERmentioned
+11-11	681-682	.	_	_
+
+#Text=Panofka kann sich durch Gerstäcker in Gottes Namen seine Schuld abzahlen lassen .
+12-1	683-690	Panofka	*	PERmentioned
+12-2	691-695	kann	_	_
+12-3	696-700	sich	_	_
+12-4	701-706	durch	_	_
+12-5	707-717	Gerstäcker	*	ORGmentioned
+12-6	718-720	in	_	_
+12-7	721-727	Gottes	_	_
+12-8	728-733	Namen	_	_
+12-9	734-739	seine	_	_
+12-10	740-746	Schuld	_	_
+12-11	747-755	abzahlen	_	_
+12-12	756-762	lassen	_	_
+12-13	763-764	.	_	_
+
+#Text=Meine Einrichtungen sind so gemacht , daß ich auf Gerstäckers Zahlungen nicht zu refectiren brauche .
+13-1	765-770	Meine	_	_
+13-2	771-784	Einrichtungen	_	_
+13-3	785-789	sind	_	_
+13-4	790-792	so	_	_
+13-5	793-800	gemacht	_	_
+13-6	801-802	,	_	_
+13-7	803-806	daß	_	_
+13-8	807-810	ich	_	_
+13-9	811-814	auf	_	_
+13-10	815-826	Gerstäckers	*	PERmentioned
+13-11	827-836	Zahlungen	_	_
+13-12	837-842	nicht	_	_
+13-13	843-845	zu	_	_
+13-14	846-856	refectiren	_	_
+13-15	857-864	brauche	_	_
+13-16	865-866	.	_	_
+
+#Text=Diese Woche wird der Druck des ersten Annalenhefts beendigt \; gleichzeitig wird das Monumentenheft publicirt .
+14-1	867-872	Diese	_	_
+14-2	873-878	Woche	_	_
+14-3	879-883	wird	_	_
+14-4	884-887	der	_	_
+14-5	888-893	Druck	_	_
+14-6	894-897	des	_	_
+14-7	898-904	ersten	_	_
+14-8	905-917	Annalenhefts	_	_
+14-9	918-926	beendigt	_	_
+14-10	927-928	\;	_	_
+14-11	929-941	gleichzeitig	_	_
+14-12	942-946	wird	_	_
+14-13	947-950	das	_	_
+14-14	951-965	Monumentenheft	_	_
+14-15	966-975	publicirt	_	_
+14-16	976-977	.	_	_
+
+#Text=Maze hat sich gegen uns schlecht aufgeführt und einen Wechsel , den er schuldet , protestirt .
+15-1	978-982	Maze	*	PERmentioned
+15-2	983-986	hat	_	_
+15-3	987-991	sich	_	_
+15-4	992-997	gegen	_	_
+15-5	998-1001	uns	_	_
+15-6	1002-1010	schlecht	_	_
+15-7	1011-1021	aufgeführt	_	_
+15-8	1022-1025	und	_	_
+15-9	1026-1031	einen	_	_
+15-10	1032-1039	Wechsel	_	_
+15-11	1040-1041	,	_	_
+15-12	1042-1045	den	_	_
+15-13	1046-1048	er	_	_
+15-14	1049-1057	schuldet	_	_
+15-15	1058-1059	,	_	_
+15-16	1060-1070	protestirt	_	_
+15-17	1071-1072	.	_	_
+
+#Text=Der Confusion zu steuern , welche die Uebergabe seines Geschäfts an Br . und A. droht , habe ich durch Vorstellungen Kestnlsn '' gta gerweiligen Vorstand des Verwaltungscomites L. nach Paris zu schieken : 1 , um Maze Raison zu lehren .
+16-1	1073-1076	Der	_	_
+16-2	1077-1086	Confusion	_	_
+16-3	1087-1089	zu	_	_
+16-4	1090-1097	steuern	_	_
+16-5	1098-1099	,	_	_
+16-6	1100-1106	welche	_	_
+16-7	1107-1110	die	_	_
+16-8	1111-1120	Uebergabe	_	_
+16-9	1121-1127	seines	_	_
+16-10	1128-1137	Geschäfts	_	_
+16-11	1138-1140	an	_	_
+16-12	1141-1143	Br	*[21]	ORGmentioned[21]
+16-13	1144-1145	.	*[21]	ORGmentioned[21]
+16-14	1146-1149	und	*[21]	ORGmentioned[21]
+16-15	1150-1152	A.	*[21]	ORGmentioned[21]
+16-16	1153-1158	droht	_	_
+16-17	1159-1160	,	_	_
+16-18	1161-1165	habe	_	_
+16-19	1166-1169	ich	_	_
+16-20	1170-1175	durch	_	_
+16-21	1176-1189	Vorstellungen	_	_
+16-22	1190-1198	Kestnlsn	_	_
+16-23	1199-1201	''	_	_
+16-24	1202-1205	gta	_	_
+16-25	1206-1217	gerweiligen	_	_
+16-26	1218-1226	Vorstand	_	_
+16-27	1227-1230	des	_	_
+16-28	1231-1249	Verwaltungscomites	_	_
+16-29	1250-1252	L.	*	PERmentioned
+16-30	1253-1257	nach	_	_
+16-31	1258-1263	Paris	*	PLACEmentioned
+16-32	1264-1266	zu	_	_
+16-33	1267-1275	schieken	_	_
+16-34	1276-1277	:	_	_
+16-35	1278-1279	1	_	_
+16-36	1280-1281	,	_	_
+16-37	1282-1284	um	_	_
+16-38	1285-1289	Maze	*	PERmentioned
+16-39	1290-1296	Raison	_	_
+16-40	1297-1299	zu	_	_
+16-41	1300-1306	lehren	_	_
+16-42	1307-1308	.	_	_
+
+#Text=2 , um 3. und A. möglichst au courrant zu setzen .
+17-1	1309-1310	2	_	_
+17-2	1311-1312	,	_	_
+17-3	1313-1315	um	_	_
+17-4	1316-1318	3.	*[25]	ORGmentioned[25]
+17-5	1319-1322	und	*[25]	ORGmentioned[25]
+17-6	1323-1325	A.	*[25]	ORGmentioned[25]
+17-7	1326-1335	möglichst	_	_
+17-8	1336-1338	au	_	_
+17-9	1339-1347	courrant	_	_
+17-10	1348-1350	zu	_	_
+17-11	1351-1357	setzen	_	_
+17-12	1358-1359	.	_	_
+
+#Text=5 , um einen pariser Agenten zu suchen ,
+18-1	1360-1361	5	_	_
+18-2	1362-1363	,	_	_
+18-3	1364-1366	um	_	_
+18-4	1367-1372	einen	_	_
+18-5	1373-1380	pariser	*	PLACEmentioned
+18-6	1381-1388	Agenten	_	_
+18-7	1389-1391	zu	_	_
+18-8	1392-1398	suchen	_	_
+18-9	1399-1400	,	_	_

@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia , 20 .
+1-1	0-5	Brunn	*	PERauthor	
+1-2	6-8	an	_	_	
+1-3	9-15	Henzen	*	PERaddressee	
+1-4	16-23	Perugia	*	PLACEfrom	
+1-5	24-25	,	_	_	
+1-6	26-28	20	*[1]	DATEletter[1]	
+1-7	29-30	.	*[1]	DATEletter[1]	
+
+#Text=Sept .
+2-1	31-35	Sept	*[1]	DATEletter[1]	
+2-2	36-37	.	*[1]	DATEletter[1]	
+
+#Text=1862 Sie können allenfalls dies erste Blatt abschneiden und an Gerhard schicken .
+3-1	38-42	1862	*[1]	DATEletter[1]	
+3-2	43-46	Sie	_	_	
+3-3	47-53	können	_	_	
+3-4	54-64	allenfalls	_	_	
+3-5	65-69	dies	_	_	
+3-6	70-75	erste	_	_	
+3-7	76-81	Blatt	_	_	
+3-8	82-93	abschneiden	_	_	
+3-9	94-97	und	_	_	
+3-10	98-100	an	_	_	
+3-11	101-108	Gerhard	*	PERmentioned	
+3-12	109-117	schicken	_	_	
+3-13	118-119	.	_	_	
+
+#Text=Er wird doch etwas von mir hören wollen , während ich Abends meist ziemlich marode und wenig fähig zum Schreiben bin .
+4-1	120-122	Er	_	_	
+4-2	123-127	wird	_	_	
+4-3	128-132	doch	_	_	
+4-4	133-138	etwas	_	_	
+4-5	139-142	von	_	_	
+4-6	143-146	mir	_	_	
+4-7	147-152	hören	_	_	
+4-8	153-159	wollen	_	_	
+4-9	160-161	,	_	_	
+4-10	162-169	während	_	_	
+4-11	170-173	ich	_	_	
+4-12	174-180	Abends	_	_	
+4-13	181-186	meist	_	_	
+4-14	187-195	ziemlich	_	_	
+4-15	196-202	marode	_	_	
+4-16	203-206	und	_	_	
+4-17	207-212	wenig	_	_	
+4-18	213-218	fähig	_	_	
+4-19	219-222	zum	_	_	
+4-20	223-232	Schreiben	_	_	
+4-21	233-236	bin	_	_	
+4-22	237-238	.	_	_	
+
+#Text=Gelegentlich schicken Sie ihm wohl auch die Durchzeichnung der Ciste , ohne Preisangabe , zunächst um zu sehen , ob überhaupt die Zeichnung Kauflust erweckt .
+5-1	239-251	Gelegentlich	_	_	
+5-2	252-260	schicken	_	_	
+5-3	261-264	Sie	_	_	
+5-4	265-268	ihm	_	_	
+5-5	269-273	wohl	_	_	
+5-6	274-278	auch	_	_	
+5-7	279-282	die	_	_	
+5-8	283-297	Durchzeichnung	_	_	
+5-9	298-301	der	_	_	
+5-10	302-307	Ciste	*	OBJ	
+5-11	308-309	,	_	_	
+5-12	310-314	ohne	_	_	
+5-13	315-326	Preisangabe	_	_	
+5-14	327-328	,	_	_	
+5-15	329-337	zunächst	_	_	
+5-16	338-340	um	_	_	
+5-17	341-343	zu	_	_	
+5-18	344-349	sehen	_	_	
+5-19	350-351	,	_	_	
+5-20	352-354	ob	_	_	
+5-21	355-364	überhaupt	_	_	
+5-22	365-368	die	_	_	
+5-23	369-378	Zeichnung	_	_	
+5-24	379-387	Kauflust	_	_	
+5-25	388-395	erweckt	_	_	
+5-26	396-397	.	_	_	
+
+#Text=- Hier habe ich eine , freilich nicht gut erhaltene Ghianda acquirirt und denke auch einen einfachen aber gut erhaltenen etrusc .
+6-1	398-399	-	_	_	
+6-2	400-404	Hier	_	_	
+6-3	405-409	habe	_	_	
+6-4	410-413	ich	_	_	
+6-5	414-418	eine	_	_	
+6-6	419-420	,	_	_	
+6-7	421-429	freilich	_	_	
+6-8	430-435	nicht	_	_	
+6-9	436-439	gut	_	_	
+6-10	440-449	erhaltene	_	_	
+6-11	450-457	Ghianda	*	OBJ	
+6-12	458-467	acquirirt	_	_	
+6-13	468-471	und	_	_	
+6-14	472-477	denke	_	_	
+6-15	478-482	auch	_	_	
+6-16	483-488	einen	_	_	
+6-17	489-498	einfachen	_	_	
+6-18	499-503	aber	_	_	
+6-19	504-507	gut	_	_	
+6-20	508-518	erhaltenen	_	_	
+6-21	519-525	etrusc	*[2]	OBJ[2]	
+6-22	526-527	.	*[2]	OBJ[2]	
+
+#Text=( peruginer ) Bronzehelm für 5 Nap .
+7-1	528-529	(	*[2]	OBJ[2]	
+7-2	530-539	peruginer	*[2]	OBJ[2]	
+7-3	540-541	)	*[2]	OBJ[2]	
+7-4	542-552	Bronzehelm	*[2]	OBJ[2]	
+7-5	553-556	für	_	_	
+7-6	557-558	5	_	_	
+7-7	559-562	Nap	_	_	
+7-8	563-564	.	_	_	
+
+#Text=d'or zu kaufen , etwa für de Meester .
+8-1	565-569	d'or	_	_	
+8-2	570-572	zu	_	_	
+8-3	573-579	kaufen	_	_	
+8-4	580-581	,	_	_	
+8-5	582-586	etwa	_	_	
+8-6	587-590	für	_	_	
+8-7	591-593	de	*[3]	PERmentioned[3]	
+8-8	594-601	Meester	*[3]	PERmentioned[3]	
+8-9	602-603	.	_	_	
+
+#Text=Von Chiusi aus denke ich in dieser Beziehung mehr berichten zu können .
+9-1	604-607	Von	_	_	
+9-2	608-614	Chiusi	*	PLACEmentioned	
+9-3	615-618	aus	_	_	
+9-4	619-624	denke	_	_	
+9-5	625-628	ich	_	_	
+9-6	629-631	in	_	_	
+9-7	632-638	dieser	_	_	
+9-8	639-648	Beziehung	_	_	
+9-9	649-653	mehr	_	_	
+9-10	654-663	berichten	_	_	
+9-11	664-666	zu	_	_	
+9-12	667-673	können	_	_	
+9-13	674-675	.	_	_	
+
+#Text=Es ist mir lieb , daß der Rest der Berliner Urnenzeichnungen annoncirt ist ; denn man hatte doch trotz meiner Ermahnung die zuletzt gemacht , die ich zuerst wünschte .
+10-1	676-678	Es	_	_	
+10-2	679-682	ist	_	_	
+10-3	683-686	mir	_	_	
+10-4	687-691	lieb	_	_	
+10-5	692-693	,	_	_	
+10-6	694-697	daß	_	_	
+10-7	698-701	der	_	_	
+10-8	702-706	Rest	_	_	
+10-9	707-710	der	_	_	
+10-10	711-719	Berliner	_	_	
+10-11	720-736	Urnenzeichnungen	_	_	
+10-12	737-746	annoncirt	_	_	
+10-13	747-750	ist	_	_	
+10-14	751-752	;	_	_	
+10-15	753-757	denn	_	_	
+10-16	758-761	man	_	_	
+10-17	762-767	hatte	_	_	
+10-18	768-772	doch	_	_	
+10-19	773-778	trotz	_	_	
+10-20	779-785	meiner	_	_	
+10-21	786-795	Ermahnung	_	_	
+10-22	796-799	die	_	_	
+10-23	800-807	zuletzt	_	_	
+10-24	808-815	gemacht	_	_	
+10-25	816-817	,	_	_	
+10-26	818-821	die	_	_	
+10-27	822-825	ich	_	_	
+10-28	826-832	zuerst	_	_	
+10-29	833-841	wünschte	_	_	
+10-30	842-843	.	_	_	
+
+#Text=Sobald ich mich Volterra nähere , schreibe ich Vieusseux , ob sie etwa bei ihm eingelaufen sind .
+11-1	844-850	Sobald	_	_	
+11-2	851-854	ich	_	_	
+11-3	855-859	mich	_	_	
+11-4	860-868	Volterra	*	PLACEmentioned	
+11-5	869-875	nähere	_	_	
+11-6	876-877	,	_	_	
+11-7	878-886	schreibe	_	_	
+11-8	887-890	ich	_	_	
+11-9	891-900	Vieusseux	*	PERmentioned	
+11-10	901-902	,	_	_	
+11-11	903-905	ob	_	_	
+11-12	906-909	sie	_	_	
+11-13	910-914	etwa	_	_	
+11-14	915-918	bei	_	_	
+11-15	919-922	ihm	_	_	
+11-16	923-934	eingelaufen	_	_	
+11-17	935-939	sind	_	_	
+11-18	940-941	.	_	_	
+
+#Text=- Briefe für nächste woche und ein Paar Tage länger also unter Mazzetti 's Addresse ; dann nach Volterra : an Cinci , mit dem ich mich « schon in Rapport gesetzt habe .
+12-1	942-943	-	_	_	
+12-2	944-950	Briefe	_	_	
+12-3	951-954	für	_	_	
+12-4	955-962	nächste	_	_	
+12-5	963-968	woche	_	_	
+12-6	969-972	und	_	_	
+12-7	973-976	ein	_	_	
+12-8	977-981	Paar	_	_	
+12-9	982-986	Tage	_	_	
+12-10	987-993	länger	_	_	
+12-11	994-998	also	_	_	
+12-12	999-1004	unter	_	_	
+12-13	1005-1013	Mazzetti	*[4]	PERmentioned[4]	
+12-14	1014-1016	's	*[4]	PERmentioned[4]	
+12-15	1017-1025	Addresse	_	_	
+12-16	1026-1027	;	_	_	
+12-17	1028-1032	dann	_	_	
+12-18	1033-1037	nach	_	_	
+12-19	1038-1046	Volterra	*	PLACEmentioned	
+12-20	1047-1048	:	_	_	
+12-21	1049-1051	an	_	_	
+12-22	1052-1057	Cinci	*	PERmentioned	
+12-23	1058-1059	,	_	_	
+12-24	1060-1063	mit	_	_	
+12-25	1064-1067	dem	_	_	
+12-26	1068-1071	ich	_	_	
+12-27	1072-1076	mich	_	_	
+12-28	1077-1078	«	_	_	
+12-29	1079-1084	schon	_	_	
+12-30	1085-1087	in	_	_	
+12-31	1088-1095	Rapport	_	_	
+12-32	1096-1103	gesetzt	_	_	
+12-33	1104-1108	habe	_	_	
+12-34	1109-1110	.	_	_	
+
+#Text=Das gute Wetter ist wieder einmal vorbei ; wir haben aber für diese Zeit uns Zeichnungen in bedeckten Räumen reservirt .
+13-1	1111-1114	Das	_	_	
+13-2	1115-1119	gute	_	_	
+13-3	1120-1126	Wetter	_	_	
+13-4	1127-1130	ist	_	_	
+13-5	1131-1137	wieder	_	_	
+13-6	1138-1144	einmal	_	_	
+13-7	1145-1151	vorbei	_	_	
+13-8	1152-1153	;	_	_	
+13-9	1154-1157	wir	_	_	
+13-10	1158-1163	haben	_	_	
+13-11	1164-1168	aber	_	_	
+13-12	1169-1172	für	_	_	
+13-13	1173-1178	diese	_	_	
+13-14	1179-1183	Zeit	_	_	
+13-15	1184-1187	uns	_	_	
+13-16	1188-1199	Zeichnungen	_	_	
+13-17	1200-1202	in	_	_	
+13-18	1203-1212	bedeckten	_	_	
+13-19	1213-1219	Räumen	_	_	
+13-20	1220-1229	reservirt	_	_	
+13-21	1230-1231	.	_	_	
+
+#Text=Heute Nachmittag war es so abscheulich , daß a ich gar nicht ausgingen ; so konnte ich auch Conestabile ausführlich antworten .
+14-1	1232-1237	Heute	_	_	
+14-2	1238-1248	Nachmittag	_	_	
+14-3	1249-1252	war	_	_	
+14-4	1253-1255	es	_	_	
+14-5	1256-1258	so	_	_	
+14-6	1259-1270	abscheulich	_	_	
+14-7	1271-1272	,	_	_	
+14-8	1273-1276	daß	_	_	
+14-9	1277-1278	a	_	_	
+14-10	1279-1282	ich	_	_	
+14-11	1283-1286	gar	_	_	
+14-12	1287-1292	nicht	_	_	
+14-13	1293-1302	ausgingen	_	_	
+14-14	1303-1304	;	_	_	
+14-15	1305-1307	so	_	_	
+14-16	1308-1314	konnte	_	_	
+14-17	1315-1318	ich	_	_	
+14-18	1319-1323	auch	_	_	
+14-19	1324-1335	Conestabile	*	PERmentioned	
+14-20	1336-1347	ausführlich	_	_	
+14-21	1348-1357	antworten	_	_	
+14-22	1358-1359	.	_	_	

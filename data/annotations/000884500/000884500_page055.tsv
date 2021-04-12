@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=V Gerhard an Braun Berlin , 8. März 1838 Dr. Braun g . 22/3 38 Aff .
+1-1	0-1	V	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	8.	*[5]	DATEletter[5]
+1-8	31-35	März	*[5]	DATEletter[5]
+1-9	36-40	1838	*[5]	DATEletter[5]
+1-10	41-44	Dr.	_	_
+1-11	45-50	Braun	*	PERaddressee
+1-12	51-52	g	_	_
+1-13	53-54	.	_	_
+1-14	55-59	22/3	*[6]	DATErecieved[6]
+1-15	60-62	38	*[6]	DATErecieved[6]
+1-16	63-66	Aff	_	_
+1-17	67-68	.	_	_
+
+#Text=d . Dir .
+2-1	69-70	d	_	_
+2-2	71-72	.	_	_
+2-3	73-76	Dir	_	_
+2-4	77-78	.	_	_
+
+#Text=CXXIII r . 26/3 38 Berlin 8 März 38 Mein theurer Freund .
+3-1	79-85	CXXIII	_	_
+3-2	86-87	r	_	_
+3-3	88-89	.	_	_
+3-4	90-94	26/3	*[7]	DATEanswered[7]
+3-5	95-97	38	*[7]	DATEanswered[7]
+3-6	98-104	Berlin	*	PLACEfrom
+3-7	105-106	8	*[9]	DATEletter[9]
+3-8	107-111	März	*[9]	DATEletter[9]
+3-9	112-114	38	*[9]	DATEletter[9]
+3-10	115-119	Mein	_	_
+3-11	120-127	theurer	_	_
+3-12	128-134	Freund	_	_
+3-13	135-136	.	_	_
+
+#Text=Auf Ihren Brief vom 20.sten ist wenig zu antworten .
+4-1	137-140	Auf	_	_
+4-2	141-146	Ihren	_	_
+4-3	147-152	Brief	_	_
+4-4	153-156	vom	_	_
+4-5	157-164	20.sten	*	DATEmentioned
+4-6	165-168	ist	_	_
+4-7	169-174	wenig	_	_
+4-8	175-177	zu	_	_
+4-9	178-187	antworten	_	_
+4-10	188-189	.	_	_
+
+#Text=Daß Vollard viel mehr Geld erwartete , glaube ich nicht veranlaßt zu haben , wenn es denn nicht nothwendig war \; glücklicherweise werden nun die nachträglich Ihnen zugesandten 200 rt meine Schuld bei ihm völlig gelöscht haben .
+5-1	190-193	Daß	_	_
+5-2	194-201	Vollard	*	PERmentioned
+5-3	202-206	viel	_	_
+5-4	207-211	mehr	_	_
+5-5	212-216	Geld	_	_
+5-6	217-226	erwartete	_	_
+5-7	227-228	,	_	_
+5-8	229-235	glaube	_	_
+5-9	236-239	ich	_	_
+5-10	240-245	nicht	_	_
+5-11	246-255	veranlaßt	_	_
+5-12	256-258	zu	_	_
+5-13	259-264	haben	_	_
+5-14	265-266	,	_	_
+5-15	267-271	wenn	_	_
+5-16	272-274	es	_	_
+5-17	275-279	denn	_	_
+5-18	280-285	nicht	_	_
+5-19	286-296	nothwendig	_	_
+5-20	297-300	war	_	_
+5-21	301-302	\;	_	_
+5-22	303-319	glücklicherweise	_	_
+5-23	320-326	werden	_	_
+5-24	327-330	nun	_	_
+5-25	331-334	die	_	_
+5-26	335-347	nachträglich	_	_
+5-27	348-353	Ihnen	_	_
+5-28	354-365	zugesandten	_	_
+5-29	366-369	200	_	_
+5-30	370-372	rt	_	_
+5-31	373-378	meine	_	_
+5-32	379-385	Schuld	_	_
+5-33	386-389	bei	_	_
+5-34	390-393	ihm	_	_
+5-35	394-400	völlig	_	_
+5-36	401-409	gelöscht	_	_
+5-37	410-415	haben	_	_
+5-38	416-417	.	_	_
+
+#Text=Eine Auslage von 10 rt 1 1/2 sgr habe ich kürzlich auch noch für ihn gemacht - übliche Besorgungen , deren Uebersendung wie viel andres auf den nun abreisenden Urlichs wartet .
+6-1	418-422	Eine	_	_
+6-2	423-430	Auslage	_	_
+6-3	431-434	von	_	_
+6-4	435-437	10	_	_
+6-5	438-440	rt	_	_
+6-6	441-442	1	_	_
+6-7	443-446	1/2	_	_
+6-8	447-450	sgr	_	_
+6-9	451-455	habe	_	_
+6-10	456-459	ich	_	_
+6-11	460-468	kürzlich	_	_
+6-12	469-473	auch	_	_
+6-13	474-478	noch	_	_
+6-14	479-482	für	_	_
+6-15	483-486	ihn	_	_
+6-16	487-494	gemacht	_	_
+6-17	495-496	-	_	_
+6-18	497-504	übliche	_	_
+6-19	505-516	Besorgungen	_	_
+6-20	517-518	,	_	_
+6-21	519-524	deren	_	_
+6-22	525-537	Uebersendung	_	_
+6-23	538-541	wie	_	_
+6-24	542-546	viel	_	_
+6-25	547-553	andres	_	_
+6-26	554-557	auf	_	_
+6-27	558-561	den	_	_
+6-28	562-565	nun	_	_
+6-29	566-577	abreisenden	_	_
+6-30	578-585	Urlichs	*	PERmentioned
+6-31	586-592	wartet	_	_
+6-32	593-594	.	_	_
+
+#Text=Die Zeichnung Ihrer Argosvase läßt Panofka nun unedirt \; er hat statt dessen die Candelorische Vase publicirt .
+7-1	595-598	Die	_	_
+7-2	599-608	Zeichnung	_	_
+7-3	609-614	Ihrer	_	_
+7-4	615-624	Argosvase	*	OBJ
+7-5	625-629	läßt	_	_
+7-6	630-637	Panofka	*	PERmentioned
+7-7	638-641	nun	_	_
+7-8	642-649	unedirt	_	_
+7-9	650-651	\;	_	_
+7-10	652-654	er	_	_
+7-11	655-658	hat	_	_
+7-12	659-664	statt	_	_
+7-13	665-671	dessen	_	_
+7-14	672-675	die	_	_
+7-15	676-689	Candelorische	*[15]	OBJ[15]
+7-16	690-694	Vase	*[15]	OBJ[15]
+7-17	695-704	publicirt	_	_
+7-18	705-706	.	_	_
+
+#Text=Seine Abhandlung Argos Pa o es ist fertig gedruckt \; die Meinigen Anh .
+8-1	707-712	Seine	_	_
+8-2	713-723	Abhandlung	_	_
+8-3	724-729	Argos	_	_
+8-4	730-732	Pa	_	_
+8-5	733-734	o	_	_
+8-6	735-737	es	_	_
+8-7	738-741	ist	_	_
+8-8	742-748	fertig	_	_
+8-9	749-757	gedruckt	_	_
+8-10	758-759	\;	_	_
+8-11	760-763	die	_	_
+8-12	764-772	Meinigen	_	_
+8-13	773-776	Anh	_	_
+8-14	777-778	.	_	_
+
+#Text=und die Hesperiden , über leztere und Atlas eine Monographie in Beilage , ebenfalls Zeitung 9 Bogen stark .
+9-1	779-782	und	_	_
+9-2	783-786	die	_	_
+9-3	787-797	Hesperiden	_	_
+9-4	798-799	,	_	_
+9-5	800-804	über	_	_
+9-6	805-812	leztere	_	_
+9-7	813-816	und	_	_
+9-8	817-822	Atlas	_	_
+9-9	823-827	eine	_	_
+9-10	828-839	Monographie	_	_
+9-11	840-842	in	_	_
+9-12	843-850	Beilage	_	_
+9-13	851-852	,	_	_
+9-14	853-862	ebenfalls	_	_
+9-15	863-870	Zeitung	_	_
+9-16	871-872	9	_	_
+9-17	873-878	Bogen	_	_
+9-18	879-884	stark	_	_
+9-19	885-886	.	_	_
+
+#Text=Diese Abhandlung hat wenig selbstständigen Werth , selbst wenn die Zeichnungen durch bessere überboten werden und Rochette und G ein Federlesens gen werden .
+10-1	887-892	Diese	_	_
+10-2	893-903	Abhandlung	_	_
+10-3	904-907	hat	_	_
+10-4	908-913	wenig	_	_
+10-5	914-929	selbstständigen	_	_
+10-6	930-935	Werth	_	_
+10-7	936-937	,	_	_
+10-8	938-944	selbst	_	_
+10-9	945-949	wenn	_	_
+10-10	950-953	die	_	_
+10-11	954-965	Zeichnungen	_	_
+10-12	966-971	durch	_	_
+10-13	972-979	bessere	_	_
+10-14	980-989	überboten	_	_
+10-15	990-996	werden	_	_
+10-16	997-1000	und	_	_
+10-17	1001-1009	Rochette	*	PERmentioned
+10-18	1010-1013	und	_	_
+10-19	1014-1015	G	_	_
+10-20	1016-1019	ein	_	_
+10-21	1020-1031	Federlesens	_	_
+10-22	1032-1035	gen	_	_
+10-23	1036-1042	werden	_	_
+10-24	1043-1044	.	_	_
+
+#Text=Die französische ist übrigens im Wesentlichen nicht besser .
+11-1	1045-1048	Die	_	_
+11-2	1049-1061	französische	_	_
+11-3	1062-1065	ist	_	_
+11-4	1066-1074	übrigens	_	_
+11-5	1075-1077	im	_	_
+11-6	1078-1090	Wesentlichen	_	_
+11-7	1091-1096	nicht	_	_
+11-8	1097-1103	besser	_	_
+11-9	1104-1105	.	_	_
+
+#Text=Das Ganze war eine dumme Geschichte , veranlaßt durch die von Zeichnung
+12-1	1106-1109	Das	_	_
+12-2	1110-1115	Ganze	_	_
+12-3	1116-1119	war	_	_
+12-4	1120-1124	eine	_	_
+12-5	1125-1130	dumme	_	_
+12-6	1131-1141	Geschichte	_	_
+12-7	1142-1143	,	_	_
+12-8	1144-1153	veranlaßt	_	_
+12-9	1154-1159	durch	_	_
+12-10	1160-1163	die	_	_
+12-11	1164-1167	von	_	_
+12-12	1168-1177	Zeichnung	_	_

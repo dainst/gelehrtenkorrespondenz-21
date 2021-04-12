@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Volterra , 9 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-24	Volterra	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	9	_	_
+1-7	29-30	.	*[3]	DATEletter[3]
+
+#Text=Sept .
+2-1	31-35	Sept	*[3]	DATEletter[3]
+2-2	36-37	.	*[3]	DATEletter[3]
+
+#Text=1863 8 . 15. September 1863 Lieber Henzen !
+3-1	38-42	1863	*[3]	DATEletter[3]
+3-2	43-44	8	_	_
+3-3	45-46	.	_	_
+3-4	47-50	15.	*[4]	DATErecieved[4]
+3-5	51-60	September	*[4]	DATErecieved[4]
+3-6	61-65	1863	*[4]	DATErecieved[4]
+3-7	66-72	Lieber	_	_
+3-8	73-79	Henzen	*	PERaddressee
+3-9	80-81	!	_	_
+
+#Text=Eben erhalte ich Ihren 1 .
+4-1	82-86	Eben	_	_
+4-2	87-94	erhalte	_	_
+4-3	95-98	ich	_	_
+4-4	99-104	Ihren	_	_
+4-5	105-106	1	_	_
+4-6	107-108	.	_	_
+
+#Text=Brief vom 31 , auf den ich schon einige Tage gewartet hatte , und antworte sofort .
+5-1	109-114	Brief	_	_
+5-2	115-118	vom	_	_
+5-3	119-121	31	*[5]	DATEmentioned[5]
+5-4	122-123	,	*[5]	DATEmentioned[5]
+5-5	124-127	auf	_	_
+5-6	128-131	den	_	_
+5-7	132-135	ich	_	_
+5-8	136-141	schon	_	_
+5-9	142-148	einige	_	_
+5-10	149-153	Tage	_	_
+5-11	154-162	gewartet	_	_
+5-12	163-168	hatte	_	_
+5-13	169-170	,	_	_
+5-14	171-174	und	_	_
+5-15	175-183	antworte	_	_
+5-16	184-190	sofort	_	_
+5-17	191-192	.	_	_
+
+#Text=Sie werden unterdessen den zweiten Bonner Brief erhalten und aus seinem Inhalt ersehen haben , wie wenig angenehm mir gerade in diesem Fall Ritschl 's Vergeßlichkeit gewesen .
+6-1	193-196	Sie	_	_
+6-2	197-203	werden	_	_
+6-3	204-215	unterdessen	_	_
+6-4	216-219	den	_	_
+6-5	220-227	zweiten	_	_
+6-6	228-234	Bonner	*	MISC
+6-7	235-240	Brief	_	_
+6-8	241-249	erhalten	_	_
+6-9	250-253	und	_	_
+6-10	254-257	aus	_	_
+6-11	258-264	seinem	_	_
+6-12	265-271	Inhalt	_	_
+6-13	272-279	ersehen	_	_
+6-14	280-285	haben	_	_
+6-15	286-287	,	_	_
+6-16	288-291	wie	_	_
+6-17	292-297	wenig	_	_
+6-18	298-306	angenehm	_	_
+6-19	307-310	mir	_	_
+6-20	311-317	gerade	_	_
+6-21	318-320	in	_	_
+6-22	321-327	diesem	_	_
+6-23	328-332	Fall	_	_
+6-24	333-340	Ritschl	*[6]	PERmentioned[6]
+6-25	341-343	's	*[6]	PERmentioned[6]
+6-26	344-358	Vergeßlichkeit	_	_
+6-27	359-366	gewesen	_	_
+6-28	367-368	.	_	_
+
+#Text=Das gute Verhältniß zwischen uns beiden ist mir zu viel werth , und gern ließ ich daher fast unmittelbar nach dem ersten den zweiten Brief folgen , um jede Spur einer Spannung zu verwischen , '' Hätte Brunn das doch nur gleich gesagt '' .
+7-1	369-372	Das	_	_
+7-2	373-377	gute	_	_
+7-3	378-388	Verhältniß	_	_
+7-4	389-397	zwischen	_	_
+7-5	398-401	uns	_	_
+7-6	402-408	beiden	_	_
+7-7	409-412	ist	_	_
+7-8	413-416	mir	_	_
+7-9	417-419	zu	_	_
+7-10	420-424	viel	_	_
+7-11	425-430	werth	_	_
+7-12	431-432	,	_	_
+7-13	433-436	und	_	_
+7-14	437-441	gern	_	_
+7-15	442-446	ließ	_	_
+7-16	447-450	ich	_	_
+7-17	451-456	daher	_	_
+7-18	457-461	fast	_	_
+7-19	462-473	unmittelbar	_	_
+7-20	474-478	nach	_	_
+7-21	479-482	dem	_	_
+7-22	483-489	ersten	_	_
+7-23	490-493	den	_	_
+7-24	494-501	zweiten	_	_
+7-25	502-507	Brief	_	_
+7-26	508-514	folgen	_	_
+7-27	515-516	,	_	_
+7-28	517-519	um	_	_
+7-29	520-524	jede	_	_
+7-30	525-529	Spur	_	_
+7-31	530-535	einer	_	_
+7-32	536-544	Spannung	_	_
+7-33	545-547	zu	_	_
+7-34	548-558	verwischen	_	_
+7-35	559-560	,	_	_
+7-36	561-563	''	_	_
+7-37	564-569	Hätte	_	_
+7-38	570-575	Brunn	*	PERmentioned
+7-39	576-579	das	_	_
+7-40	580-584	doch	_	_
+7-41	585-588	nur	_	_
+7-42	589-595	gleich	_	_
+7-43	596-602	gesagt	_	_
+7-44	603-605	''	_	_
+7-45	606-607	.	_	_
+
+#Text=Ich hatte zunächst nur gesagt : hoffentlich werde ich fertig \; und meine ursprünglichen Dispositionen hätten sicher zu diesem Ziele geführt , wäre nicht Marini ausgeblieben \; ja vielleicht selbst ohne ihn , wäre der zweite Volterraner Zeichner besser eingeschlagen : Batelli , Director der hiesigen Kunstschule , aber weit unter dem Niveau seines Schülers Bagnolesi .
+8-1	608-611	Ich	_	_
+8-2	612-617	hatte	_	_
+8-3	618-626	zunächst	_	_
+8-4	627-630	nur	_	_
+8-5	631-637	gesagt	_	_
+8-6	638-639	:	_	_
+8-7	640-651	hoffentlich	_	_
+8-8	652-657	werde	_	_
+8-9	658-661	ich	_	_
+8-10	662-668	fertig	_	_
+8-11	669-670	\;	_	_
+8-12	671-674	und	_	_
+8-13	675-680	meine	_	_
+8-14	681-695	ursprünglichen	_	_
+8-15	696-709	Dispositionen	_	_
+8-16	710-716	hätten	_	_
+8-17	717-723	sicher	_	_
+8-18	724-726	zu	_	_
+8-19	727-733	diesem	_	_
+8-20	734-739	Ziele	_	_
+8-21	740-747	geführt	_	_
+8-22	748-749	,	_	_
+8-23	750-754	wäre	_	_
+8-24	755-760	nicht	_	_
+8-25	761-767	Marini	*	PERmentioned
+8-26	768-780	ausgeblieben	_	_
+8-27	781-782	\;	_	_
+8-28	783-785	ja	_	_
+8-29	786-796	vielleicht	_	_
+8-30	797-803	selbst	_	_
+8-31	804-808	ohne	_	_
+8-32	809-812	ihn	_	_
+8-33	813-814	,	_	_
+8-34	815-819	wäre	_	_
+8-35	820-823	der	_	_
+8-36	824-830	zweite	_	_
+8-37	831-842	Volterraner	*	MISC
+8-38	843-851	Zeichner	_	_
+8-39	852-858	besser	_	_
+8-40	859-872	eingeschlagen	_	_
+8-41	873-874	:	_	_
+8-42	875-882	Batelli	*	PERmentioned
+8-43	883-884	,	_	_
+8-44	885-893	Director	_	_
+8-45	894-897	der	_	_
+8-46	898-906	hiesigen	_	_
+8-47	907-918	Kunstschule	*	ORGmentioned
+8-48	919-920	,	_	_
+8-49	921-925	aber	_	_
+8-50	926-930	weit	_	_
+8-51	931-936	unter	_	_
+8-52	937-940	dem	_	_
+8-53	941-947	Niveau	_	_
+8-54	948-954	seines	_	_
+8-55	955-963	Schülers	_	_
+8-56	964-973	Bagnolesi	*	PERmentioned
+8-57	974-975	.	_	_
+
+#Text=Bartoccini hat allerdings mit ziemlicher Anstrengung seine Zeichnungen noch in Ordnung gebracht .
+9-1	976-986	Bartoccini	*	PERmentioned
+9-2	987-990	hat	_	_
+9-3	991-1001	allerdings	_	_
+9-4	1002-1005	mit	_	_
+9-5	1006-1016	ziemlicher	_	_
+9-6	1017-1028	Anstrengung	_	_
+9-7	1029-1034	seine	_	_
+9-8	1035-1046	Zeichnungen	_	_
+9-9	1047-1051	noch	_	_
+9-10	1052-1054	in	_	_
+9-11	1055-1062	Ordnung	_	_
+9-12	1063-1071	gebracht	_	_
+9-13	1072-1073	.	_	_
+
+#Text=Allein ihn noch weiter arbeiten zu lassen , da es sich nicht um Vorarbeiten , sondern um Ueberarbeiten älterer Zeichnungen handelte , war unmöglich .
+10-1	1074-1080	Allein	_	_
+10-2	1081-1084	ihn	_	_
+10-3	1085-1089	noch	_	_
+10-4	1090-1096	weiter	_	_
+10-5	1097-1105	arbeiten	_	_
+10-6	1106-1108	zu	_	_
+10-7	1109-1115	lassen	_	_
+10-8	1116-1117	,	_	_
+10-9	1118-1120	da	_	_
+10-10	1121-1123	es	_	_
+10-11	1124-1128	sich	_	_
+10-12	1129-1134	nicht	_	_
+10-13	1135-1137	um	_	_
+10-14	1138-1149	Vorarbeiten	_	_
+10-15	1150-1151	,	_	_
+10-16	1152-1159	sondern	_	_
+10-17	1160-1162	um	_	_
+10-18	1163-1176	Ueberarbeiten	_	_
+10-19	1177-1184	älterer	_	_
+10-20	1185-1196	Zeichnungen	_	_
+10-21	1197-1205	handelte	_	_
+10-22	1206-1207	,	_	_
+10-23	1208-1211	war	_	_
+10-24	1212-1221	unmöglich	_	_
+10-25	1222-1223	.	_	_
+
+#Text=Trotz alledem sind wir tüchtig vorwärts gekommen .
+11-1	1224-1229	Trotz	_	_
+11-2	1230-1237	alledem	_	_
+11-3	1238-1242	sind	_	_
+11-4	1243-1246	wir	_	_
+11-5	1247-1254	tüchtig	_	_
+11-6	1255-1263	vorwärts	_	_
+11-7	1264-1272	gekommen	_	_
+11-8	1273-1274	.	_	_
+
+#Text=Von 500 Urnen , die hier
+12-1	1275-1278	Von	_	_
+12-2	1279-1282	500	_	_
+12-3	1283-1288	Urnen	*	OBJ
+12-4	1289-1290	,	_	_
+12-5	1291-1294	die	_	_
+12-6	1295-1299	hier	_	_

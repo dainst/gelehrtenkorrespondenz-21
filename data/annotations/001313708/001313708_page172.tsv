@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Berlin , 17. Februar 1835 belohnend genug und mir selbst am wenigsten genügend .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	17.	*[4]	DATEletter[4]
+1-7	31-38	Februar	*[4]	DATEletter[4]
+1-8	39-43	1835	*[4]	DATEletter[4]
+1-9	44-53	belohnend	_	_
+1-10	54-59	genug	_	_
+1-11	60-63	und	_	_
+1-12	64-67	mir	_	_
+1-13	68-74	selbst	_	_
+1-14	75-77	am	_	_
+1-15	78-87	wenigsten	_	_
+1-16	88-96	genügend	_	_
+1-17	97-98	.	_	_
+
+#Text=Wir erwarten nun Ihr Spiegel Manuscript mit Schmerzen um den Druck anzufangen .
+2-1	99-102	Wir	_	_
+2-2	103-111	erwarten	_	_
+2-3	112-115	nun	_	_
+2-4	116-119	Ihr	_	_
+2-5	120-127	Spiegel	*	OBJ
+2-6	128-138	Manuscript	_	_
+2-7	139-142	mit	_	_
+2-8	143-152	Schmerzen	_	_
+2-9	153-155	um	_	_
+2-10	156-159	den	_	_
+2-11	160-165	Druck	_	_
+2-12	166-176	anzufangen	_	_
+2-13	177-178	.	_	_
+
+#Text=De Witte weigert sich französisches Manuscript auszuliefern \; so druckt man ohne dasselbige .
+3-1	179-181	De	*[6]	PERmentioned[6]
+3-2	182-187	Witte	*[6]	PERmentioned[6]
+3-3	188-195	weigert	_	_
+3-4	196-200	sich	_	_
+3-5	201-214	französisches	_	_
+3-6	215-225	Manuscript	_	_
+3-7	226-238	auszuliefern	_	_
+3-8	239-240	\;	_	_
+3-9	241-243	so	_	_
+3-10	244-250	druckt	_	_
+3-11	251-254	man	_	_
+3-12	255-259	ohne	_	_
+3-13	260-270	dasselbige	_	_
+3-14	271-272	.	_	_
+
+#Text=Röstell wird den Epfang der Exemplare für den Hof Ihnen angezeigt haben .
+4-1	273-280	Röstell	*	PERmentioned
+4-2	281-285	wird	_	_
+4-3	286-289	den	_	_
+4-4	290-296	Epfang	_	_
+4-5	297-300	der	_	_
+4-6	301-310	Exemplare	_	_
+4-7	311-314	für	_	_
+4-8	315-318	den	_	_
+4-9	319-322	Hof	_	_
+4-10	323-328	Ihnen	_	_
+4-11	329-338	angezeigt	_	_
+4-12	339-344	haben	_	_
+4-13	345-346	.	_	_
+
+#Text=Wegen Collation für K ( ellermann ) habe ich vergeblich herumgehört .
+5-1	347-352	Wegen	_	_
+5-2	353-362	Collation	_	_
+5-3	363-366	für	_	_
+5-4	367-368	K	*[12]	PERmentioned[12]
+5-5	369-370	(	*[12]	PERmentioned[12]
+5-6	371-380	ellermann	*[12]	PERmentioned[12]
+5-7	381-382	)	*[12]	PERmentioned[12]
+5-8	383-387	habe	_	_
+5-9	388-391	ich	_	_
+5-10	392-402	vergeblich	_	_
+5-11	403-414	herumgehört	_	_
+5-12	415-416	.	_	_
+
+#Text=- Der Prokop ist einmal schon herausgegeben \; also verzichtet man auf Vergleiffingen .
+6-1	417-418	-	_	_
+6-2	419-422	Der	_	_
+6-3	423-429	Prokop	_	_
+6-4	430-433	ist	_	_
+6-5	434-440	einmal	_	_
+6-6	441-446	schon	_	_
+6-7	447-460	herausgegeben	_	_
+6-8	461-462	\;	_	_
+6-9	463-467	also	_	_
+6-10	468-478	verzichtet	_	_
+6-11	479-482	man	_	_
+6-12	483-486	auf	_	_
+6-13	487-501	Vergleiffingen	_	_
+6-14	502-503	.	_	_
+
+#Text=Für Gellius geschieht seit der schlechten Arbeit eines Göttinn E4 ger Lion nichts \; wegen Herodot will ich an C kan .
+7-1	504-507	Für	_	_
+7-2	508-515	Gellius	*	PERmentioned
+7-3	516-525	geschieht	_	_
+7-4	526-530	seit	_	_
+7-5	531-534	der	_	_
+7-6	535-545	schlechten	_	_
+7-7	546-552	Arbeit	_	_
+7-8	553-558	eines	_	_
+7-9	559-566	Göttinn	*[10]	PLACEmentioned[10]
+7-10	567-569	E4	*[10]	PLACEmentioned[10]
+7-11	570-573	ger	*[10]	PLACEmentioned[10]
+7-12	574-578	Lion	_	_
+7-13	579-585	nichts	_	_
+7-14	586-587	\;	_	_
+7-15	588-593	wegen	_	_
+7-16	594-601	Herodot	_	_
+7-17	602-606	will	_	_
+7-18	607-610	ich	_	_
+7-19	611-613	an	_	_
+7-20	614-615	C	_	_
+7-21	616-619	kan	_	_
+7-22	620-621	.	_	_
+
+#Text=-+ '' schreiben , hoffe aber wenig .
+8-1	622-624	-+	_	_
+8-2	625-627	''	_	_
+8-3	628-637	schreiben	_	_
+8-4	638-639	,	_	_
+8-5	640-645	hoffe	_	_
+8-6	646-650	aber	_	_
+8-7	651-656	wenig	_	_
+8-8	657-658	.	_	_
+
+#Text=Wäre das etruskische Inschrift Manuscript ostensibel , so ließe sich vielleicht ein Verleger finden \; doch ist sofern selbiger ein zahlender ist wol auch sotche Verheißung zu groß .
+9-1	659-663	Wäre	_	_
+9-2	664-667	das	_	_
+9-3	668-679	etruskische	*[11]	OBJ[11]
+9-4	680-689	Inschrift	*[11]	OBJ[11]
+9-5	690-700	Manuscript	_	_
+9-6	701-711	ostensibel	_	_
+9-7	712-713	,	_	_
+9-8	714-716	so	_	_
+9-9	717-722	ließe	_	_
+9-10	723-727	sich	_	_
+9-11	728-738	vielleicht	_	_
+9-12	739-742	ein	_	_
+9-13	743-751	Verleger	_	_
+9-14	752-758	finden	_	_
+9-15	759-760	\;	_	_
+9-16	761-765	doch	_	_
+9-17	766-769	ist	_	_
+9-18	770-776	sofern	_	_
+9-19	777-785	selbiger	_	_
+9-20	786-789	ein	_	_
+9-21	790-799	zahlender	_	_
+9-22	800-803	ist	_	_
+9-23	804-807	wol	_	_
+9-24	808-812	auch	_	_
+9-25	813-819	sotche	_	_
+9-26	820-830	Verheißung	_	_
+9-27	831-833	zu	_	_
+9-28	834-838	groß	_	_
+9-29	839-840	.	_	_
+
+#Text=Die beiden Bettiniana , wovon ein Band Tagebuch der Liebe ist , 2 andere viel von Bettina und sehr wenig von Goethe , einiges Schnöne von dessen Mutter enthalten , sind nun heraus .
+10-1	841-844	Die	_	_
+10-2	845-851	beiden	_	_
+10-3	852-862	Bettiniana	_	_
+10-4	863-864	,	_	_
+10-5	865-870	wovon	_	_
+10-6	871-874	ein	_	_
+10-7	875-879	Band	_	_
+10-8	880-888	Tagebuch	_	_
+10-9	889-892	der	_	_
+10-10	893-898	Liebe	_	_
+10-11	899-902	ist	_	_
+10-12	903-904	,	_	_
+10-13	905-906	2	_	_
+10-14	907-913	andere	_	_
+10-15	914-918	viel	_	_
+10-16	919-922	von	_	_
+10-17	923-930	Bettina	*	PERmentioned
+10-18	931-934	und	_	_
+10-19	935-939	sehr	_	_
+10-20	940-945	wenig	_	_
+10-21	946-949	von	_	_
+10-22	950-956	Goethe	*	PERmentioned
+10-23	957-958	,	_	_
+10-24	959-966	einiges	_	_
+10-25	967-974	Schnöne	_	_
+10-26	975-978	von	_	_
+10-27	979-985	dessen	_	_
+10-28	986-992	Mutter	_	_
+10-29	993-1002	enthalten	_	_
+10-30	1003-1004	,	_	_
+10-31	1005-1009	sind	_	_
+10-32	1010-1013	nun	_	_
+10-33	1014-1020	heraus	_	_
+10-34	1021-1022	.	_	_
+
+#Text=Ohne neue Redaktion kann es nicht abgegangen seyn \; es sind aber Originalstücke darunter bedeutend genug um Viel auf das Übrige zu geben .
+11-1	1023-1027	Ohne	_	_
+11-2	1028-1032	neue	_	_
+11-3	1033-1042	Redaktion	_	_
+11-4	1043-1047	kann	_	_
+11-5	1048-1050	es	_	_
+11-6	1051-1056	nicht	_	_
+11-7	1057-1067	abgegangen	_	_
+11-8	1068-1072	seyn	_	_
+11-9	1073-1074	\;	_	_
+11-10	1075-1077	es	_	_
+11-11	1078-1082	sind	_	_
+11-12	1083-1087	aber	_	_
+11-13	1088-1102	Originalstücke	_	_
+11-14	1103-1111	darunter	_	_
+11-15	1112-1121	bedeutend	_	_
+11-16	1122-1127	genug	_	_
+11-17	1128-1130	um	_	_
+11-18	1131-1135	Viel	_	_
+11-19	1136-1139	auf	_	_
+11-20	1140-1143	das	_	_
+11-21	1144-1150	Übrige	_	_
+11-22	1151-1153	zu	_	_
+11-23	1154-1159	geben	_	_
+11-24	1160-1161	.	_	_
+
+#Text=Am Ende ist es genug , wenn die Sonnette Goethe 's an Bettina gerichtet seyn sollen .
+12-1	1162-1164	Am	_	_
+12-2	1165-1169	Ende	_	_
+12-3	1170-1173	ist	_	_
+12-4	1174-1176	es	_	_
+12-5	1177-1182	genug	_	_
+12-6	1183-1184	,	_	_
+12-7	1185-1189	wenn	_	_
+12-8	1190-1193	die	_	_
+12-9	1194-1202	Sonnette	_	_
+12-10	1203-1209	Goethe	*[13]	PERmentioned[13]
+12-11	1210-1212	's	*[13]	PERmentioned[13]
+12-12	1213-1215	an	_	_
+12-13	1216-1223	Bettina	*	PERmentioned
+12-14	1224-1233	gerichtet	_	_
+12-15	1234-1238	seyn	_	_
+12-16	1239-1245	sollen	_	_
+12-17	1246-1247	.	_	_

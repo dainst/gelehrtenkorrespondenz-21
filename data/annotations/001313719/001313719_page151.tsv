@@ -1,0 +1,108 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen 26/X/1848 rer lieben Frau erfreut zu werden .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-27	26/X/1848	*	DATEletter
+1-5	28-31	rer	_	_
+1-6	32-38	lieben	_	_
+1-7	39-43	Frau	_	_
+1-8	44-51	erfreut	_	_
+1-9	52-54	zu	_	_
+1-10	55-61	werden	_	_
+1-11	62-63	.	_	_
+
+#Text=- Noch etwas Geschäftliches legt mir die Breslauer Bikliothek auf die vor 12 Jahren 1 Exemplar Museo Mantovano durch mich erhielt und erst jetzo ihr , wenn irgend möglich , den Schluß von Vol 2. pag .
+2-1	64-65	-	_	_
+2-2	66-70	Noch	_	_
+2-3	71-76	etwas	_	_
+2-4	77-91	Geschäftliches	_	_
+2-5	92-96	legt	_	_
+2-6	97-100	mir	_	_
+2-7	101-104	die	_	_
+2-8	105-114	Breslauer	*[3]	ORGmentioned[3]
+2-9	115-125	Bikliothek	*[3]	ORGmentioned[3]
+2-10	126-129	auf	_	_
+2-11	130-133	die	_	_
+2-12	134-137	vor	_	_
+2-13	138-140	12	_	_
+2-14	141-147	Jahren	_	_
+2-15	148-149	1	_	_
+2-16	150-158	Exemplar	_	_
+2-17	159-164	Museo	*[4]	ORGmentioned[4]
+2-18	165-174	Mantovano	*[4]	ORGmentioned[4]
+2-19	175-180	durch	_	_
+2-20	181-185	mich	_	_
+2-21	186-193	erhielt	_	_
+2-22	194-197	und	_	_
+2-23	198-202	erst	_	_
+2-24	203-208	jetzo	_	_
+2-25	209-212	ihr	_	_
+2-26	213-214	,	_	_
+2-27	215-219	wenn	_	_
+2-28	220-226	irgend	_	_
+2-29	227-234	möglich	_	_
+2-30	235-236	,	_	_
+2-31	237-240	den	_	_
+2-32	241-247	Schluß	_	_
+2-33	248-251	von	_	_
+2-34	252-255	Vol	_	_
+2-35	256-258	2.	_	_
+2-36	259-262	pag	_	_
+2-37	263-264	.	_	_
+
+#Text=277 und tav .
+3-1	265-268	277	_	_
+3-2	269-272	und	_	_
+3-3	273-276	tav	_	_
+3-4	277-278	.	_	_
+
+#Text=49 an , versteht sich pagando , zu verschaffen bittet .
+4-1	279-281	49	_	_
+4-2	282-284	an	_	_
+4-3	285-286	,	_	_
+4-4	287-295	versteht	_	_
+4-5	296-300	sich	_	_
+4-6	301-308	pagando	_	_
+4-7	309-310	,	_	_
+4-8	311-313	zu	_	_
+4-9	314-325	verschaffen	_	_
+4-10	326-332	bittet	_	_
+4-11	333-334	.	_	_
+
+#Text=Grüßen “ ie D. Brunn und sonstige Günstige , auch wenn er angelangt ist meinen Empfohlenen Dr. Leopold Schmidt , und schreiben Sie bald wieder !
+5-1	335-341	Grüßen	_	_
+5-2	342-343	“	_	_
+5-3	344-346	ie	_	_
+5-4	347-349	D.	_	_
+5-5	350-355	Brunn	*	PERmentioned
+5-6	356-359	und	_	_
+5-7	360-368	sonstige	_	_
+5-8	369-377	Günstige	_	_
+5-9	378-379	,	_	_
+5-10	380-384	auch	_	_
+5-11	385-389	wenn	_	_
+5-12	390-392	er	_	_
+5-13	393-402	angelangt	_	_
+5-14	403-406	ist	_	_
+5-15	407-413	meinen	_	_
+5-16	414-425	Empfohlenen	_	_
+5-17	426-429	Dr.	_	_
+5-18	430-437	Leopold	*[5]	PERmentioned[5]
+5-19	438-445	Schmidt	*[5]	PERmentioned[5]
+5-20	446-447	,	_	_
+5-21	448-451	und	_	_
+5-22	452-461	schreiben	_	_
+5-23	462-465	Sie	_	_
+5-24	466-470	bald	_	_
+5-25	471-477	wieder	_	_
+5-26	478-479	!	_	_
+
+#Text=Herzlichst der Ihrige Gerhard
+6-1	480-490	Herzlichst	_	_
+6-2	491-494	der	_	_
+6-3	495-501	Ihrige	_	_
+6-4	502-509	Gerhard	*	PERauthor

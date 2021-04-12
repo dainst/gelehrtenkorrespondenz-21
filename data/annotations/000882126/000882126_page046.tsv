@@ -1,0 +1,325 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=or AT nn Braun an Gerhard Rom , November 1835 ein Felsstück , auf dem Fuß ruht der Ellbogen .
+1-1	0-2	or	_	_
+1-2	3-5	AT	_	_
+1-3	6-8	nn	_	_
+1-4	9-14	Braun	*	PERauthor
+1-5	15-17	an	_	_
+1-6	18-25	Gerhard	*	PERaddressee
+1-7	26-29	Rom	*	PLACEfrom
+1-8	30-31	,	*[9]	DATEletter[9]
+1-9	32-40	November	*[9]	DATEletter[9]
+1-10	41-45	1835	*[9]	DATEletter[9]
+1-11	46-49	ein	_	_
+1-12	50-59	Felsstück	_	_
+1-13	60-61	,	_	_
+1-14	62-65	auf	_	_
+1-15	66-69	dem	_	_
+1-16	70-73	Fuß	_	_
+1-17	74-78	ruht	_	_
+1-18	79-82	der	_	_
+1-19	83-91	Ellbogen	_	_
+1-20	92-93	.	_	_
+
+#Text=Links schließen sich 2 andre Frauenfiguren : an , von denen eine die andre führt .
+2-1	94-99	Links	_	_
+2-2	100-109	schließen	_	_
+2-3	110-114	sich	_	_
+2-4	115-116	2	_	_
+2-5	117-122	andre	_	_
+2-6	123-136	Frauenfiguren	_	_
+2-7	137-138	:	_	_
+2-8	139-141	an	_	_
+2-9	142-143	,	_	_
+2-10	144-147	von	_	_
+2-11	148-153	denen	_	_
+2-12	154-158	eine	_	_
+2-13	159-162	die	_	_
+2-14	163-168	andre	_	_
+2-15	169-174	führt	_	_
+2-16	175-176	.	_	_
+
+#Text=Alle drei sind ohne Köpfe .
+3-1	177-181	Alle	_	_
+3-2	182-186	drei	_	_
+3-3	187-191	sind	_	_
+3-4	192-196	ohne	_	_
+3-5	197-202	Köpfe	_	_
+3-6	203-204	.	_	_
+
+#Text=Aus dieser Vertheilung der Darstellungen zieht Hr .
+4-1	205-208	Aus	_	_
+4-2	209-215	dieser	_	_
+4-3	216-227	Vertheilung	_	_
+4-4	228-231	der	_	_
+4-5	232-245	Darstellungen	_	_
+4-6	246-251	zieht	_	_
+4-7	252-254	Hr	_	_
+4-8	255-256	.	_	_
+
+#Text=Dr. Kramer den sehr einleuchtenden Schluß , daß drei Seiten des Frieses mit Kämpfen geschmückt gewesen sein mögen , die vierte aber welche sich über der Fagade befunden haben mag , mit anderen Darstellungen , deren Erklärung bis jetzt wenig Anhaltungspunkte gefunden hat .
+5-1	257-260	Dr.	_	_
+5-2	261-267	Kramer	*	PERmentioned
+5-3	268-271	den	_	_
+5-4	272-276	sehr	_	_
+5-5	277-291	einleuchtenden	_	_
+5-6	292-298	Schluß	_	_
+5-7	299-300	,	_	_
+5-8	301-304	daß	_	_
+5-9	305-309	drei	_	_
+5-10	310-316	Seiten	_	_
+5-11	317-320	des	_	_
+5-12	321-328	Frieses	*	OBJ
+5-13	329-332	mit	_	_
+5-14	333-340	Kämpfen	_	_
+5-15	341-351	geschmückt	_	_
+5-16	352-359	gewesen	_	_
+5-17	360-364	sein	_	_
+5-18	365-370	mögen	_	_
+5-19	371-372	,	_	_
+5-20	373-376	die	_	_
+5-21	377-383	vierte	_	_
+5-22	384-388	aber	_	_
+5-23	389-395	welche	_	_
+5-24	396-400	sich	_	_
+5-25	401-405	über	_	_
+5-26	406-409	der	_	_
+5-27	410-416	Fagade	_	_
+5-28	417-425	befunden	_	_
+5-29	426-431	haben	_	_
+5-30	432-435	mag	_	_
+5-31	436-437	,	_	_
+5-32	438-441	mit	_	_
+5-33	442-449	anderen	_	_
+5-34	450-463	Darstellungen	_	_
+5-35	464-465	,	_	_
+5-36	466-471	deren	_	_
+5-37	472-481	Erklärung	_	_
+5-38	482-485	bis	_	_
+5-39	486-491	jetzt	_	_
+5-40	492-497	wenig	_	_
+5-41	498-514	Anhaltungspunkte	_	_
+5-42	515-523	gefunden	_	_
+5-43	524-527	hat	_	_
+5-44	528-529	.	_	_
+
+#Text=Nur einzelne der oben aufgeführten Figuren hat man zu deuten versucht , wie den thronenden Mann zur Linken des ersten Stücks auf dem Zeus , die Frau mit dem Schild auf die Athena , den Mann auf dem Felsenriff auf Poseidon .
+6-1	530-533	Nur	_	_
+6-2	534-542	einzelne	_	_
+6-3	543-546	der	_	_
+6-4	547-551	oben	_	_
+6-5	552-564	aufgeführten	_	_
+6-6	565-572	Figuren	_	_
+6-7	573-576	hat	_	_
+6-8	577-580	man	_	_
+6-9	581-583	zu	_	_
+6-10	584-590	deuten	_	_
+6-11	591-599	versucht	_	_
+6-12	600-601	,	_	_
+6-13	602-605	wie	_	_
+6-14	606-609	den	_	_
+6-15	610-620	thronenden	_	_
+6-16	621-625	Mann	_	_
+6-17	626-629	zur	_	_
+6-18	630-636	Linken	_	_
+6-19	637-640	des	_	_
+6-20	641-647	ersten	_	_
+6-21	648-654	Stücks	_	_
+6-22	655-658	auf	_	_
+6-23	659-662	dem	_	_
+6-24	663-667	Zeus	*	PERmentioned
+6-25	668-669	,	_	_
+6-26	670-673	die	_	_
+6-27	674-678	Frau	_	_
+6-28	679-682	mit	_	_
+6-29	683-686	dem	_	_
+6-30	687-693	Schild	_	_
+6-31	694-697	auf	_	_
+6-32	698-701	die	_	_
+6-33	702-708	Athena	*	PERmentioned
+6-34	709-710	,	_	_
+6-35	711-714	den	_	_
+6-36	715-719	Mann	_	_
+6-37	720-723	auf	_	_
+6-38	724-727	dem	_	_
+6-39	728-738	Felsenriff	_	_
+6-40	739-742	auf	_	_
+6-41	743-751	Poseidon	*	PERmentioned
+6-42	752-753	.	_	_
+
+#Text=Die Darstellungen der Kämpfe , welche Leake gegen Hr .
+7-1	754-757	Die	_	_
+7-2	758-771	Darstellungen	_	_
+7-3	772-775	der	_	_
+7-4	776-782	Kämpfe	_	_
+7-5	783-784	,	_	_
+7-6	785-791	welche	_	_
+7-7	792-797	Leake	*	PERmentioned
+7-8	798-803	gegen	_	_
+7-9	804-806	Hr	_	_
+7-10	807-808	.	_	_
+
+#Text=Kramers Meinung auf Kämpfen zwischen Griechen und Persern hat beziehen wollen , werden als äußerst lebensvoll und trefflich ausgeführt geschildert .
+8-1	809-816	Kramers	*	PERmentioned
+8-2	817-824	Meinung	_	_
+8-3	825-828	auf	_	_
+8-4	829-836	Kämpfen	_	_
+8-5	837-845	zwischen	_	_
+8-6	846-854	Griechen	*	MISC
+8-7	855-858	und	_	_
+8-8	859-866	Persern	*	MISC
+8-9	867-870	hat	_	_
+8-10	871-879	beziehen	_	_
+8-11	880-886	wollen	_	_
+8-12	887-888	,	_	_
+8-13	889-895	werden	_	_
+8-14	896-899	als	_	_
+8-15	900-907	äußerst	_	_
+8-16	908-918	lebensvoll	_	_
+8-17	919-922	und	_	_
+8-18	923-932	trefflich	_	_
+8-19	933-943	ausgeführt	_	_
+8-20	944-955	geschildert	_	_
+8-21	956-957	.	_	_
+
+#Text=Farben hat man bisher nicht entdeckt .
+9-1	958-964	Farben	_	_
+9-2	965-968	hat	_	_
+9-3	969-972	man	_	_
+9-4	973-979	bisher	_	_
+9-5	980-985	nicht	_	_
+9-6	986-994	entdeckt	_	_
+9-7	995-996	.	_	_
+
+#Text=Der Marmor ist pentalisch .
+10-1	997-1000	Der	_	_
+10-2	1001-1007	Marmor	_	_
+10-3	1008-1011	ist	_	_
+10-4	1012-1022	pentalisch	_	_
+10-5	1023-1024	.	_	_
+
+#Text=Die Figuren haben eine Höhe von ungefähr 1 ' 4 '' .
+11-1	1025-1028	Die	_	_
+11-2	1029-1036	Figuren	_	_
+11-3	1037-1042	haben	_	_
+11-4	1043-1047	eine	_	_
+11-5	1048-1052	Höhe	_	_
+11-6	1053-1056	von	_	_
+11-7	1057-1065	ungefähr	_	_
+11-8	1066-1067	1	_	_
+11-9	1068-1069	'	_	_
+11-10	1070-1071	4	_	_
+11-11	1072-1074	''	_	_
+11-12	1075-1076	.	_	_
+
+#Text=- Von dem obenerwähnten Gesims , der mit Löwenköpfen geschmückt gewesen zu sein scheint , sind nur wenige .
+12-1	1077-1078	-	_	_
+12-2	1079-1082	Von	_	_
+12-3	1083-1086	dem	_	_
+12-4	1087-1100	obenerwähnten	_	_
+12-5	1101-1107	Gesims	*	OBJ
+12-6	1108-1109	,	_	_
+12-7	1110-1113	der	_	_
+12-8	1114-1117	mit	_	_
+12-9	1118-1129	Löwenköpfen	*[10]	OBJ[10]
+12-10	1130-1140	geschmückt	_	_
+12-11	1141-1148	gewesen	_	_
+12-12	1149-1151	zu	_	_
+12-13	1152-1156	sein	_	_
+12-14	1157-1164	scheint	_	_
+12-15	1165-1166	,	_	_
+12-16	1167-1171	sind	_	_
+12-17	1172-1175	nur	_	_
+12-18	1176-1182	wenige	_	_
+12-19	1183-1184	.	_	_
+
+#Text=Reste übrig .
+13-1	1185-1190	Reste	_	_
+13-2	1191-1196	übrig	_	_
+13-3	1197-1198	.	_	_
+
+#Text=Von anderen architektonischen Gliedern des Daches , des Frontespizes etc. hat sich aller Nachforschungen ungeachtet nichts entdecken lassen .
+14-1	1199-1202	Von	_	_
+14-2	1203-1210	anderen	_	_
+14-3	1211-1228	architektonischen	_	_
+14-4	1229-1237	Gliedern	_	_
+14-5	1238-1241	des	_	_
+14-6	1242-1248	Daches	*	OBJ
+14-7	1249-1250	,	_	_
+14-8	1251-1254	des	_	_
+14-9	1255-1267	Frontespizes	*	OBJ
+14-10	1268-1272	etc.	_	_
+14-11	1273-1276	hat	_	_
+14-12	1277-1281	sich	_	_
+14-13	1282-1287	aller	_	_
+14-14	1288-1303	Nachforschungen	_	_
+14-15	1304-1314	ungeachtet	_	_
+14-16	1315-1321	nichts	_	_
+14-17	1322-1331	entdecken	_	_
+14-18	1332-1338	lassen	_	_
+14-19	1339-1340	.	_	_
+
+#Text=Die deutschen Architekten , welche in Griechenland dienen , versprachen die Publication dieses Monumentes .
+15-1	1341-1344	Die	_	_
+15-2	1345-1354	deutschen	_	_
+15-3	1355-1366	Architekten	_	_
+15-4	1367-1368	,	_	_
+15-5	1369-1375	welche	_	_
+15-6	1376-1378	in	_	_
+15-7	1379-1391	Griechenland	*	PLACEmentioned
+15-8	1392-1398	dienen	_	_
+15-9	1399-1400	,	_	_
+15-10	1401-1412	versprachen	_	_
+15-11	1413-1416	die	_	_
+15-12	1417-1428	Publication	_	_
+15-13	1429-1435	dieses	_	_
+15-14	1436-1446	Monumentes	_	_
+15-15	1447-1448	.	_	_
+
+#Text=Auf dem Boden dieses TemPelchens fand sich eine Marmortafel mit Reliefs von trefflicher Arbeit und herrlicher Erhaltung angelehnt .
+16-1	1449-1452	Auf	_	_
+16-2	1453-1456	dem	_	_
+16-3	1457-1462	Boden	_	_
+16-4	1463-1469	dieses	_	_
+16-5	1470-1481	TemPelchens	*	OBJ
+16-6	1482-1486	fand	_	_
+16-7	1487-1491	sich	_	_
+16-8	1492-1496	eine	_	_
+16-9	1497-1508	Marmortafel	*[11]	OBJ[11]
+16-10	1509-1512	mit	*[11]	OBJ[11]
+16-11	1513-1520	Reliefs	*[11]	OBJ[11]
+16-12	1521-1524	von	_	_
+16-13	1525-1536	trefflicher	_	_
+16-14	1537-1543	Arbeit	_	_
+16-15	1544-1547	und	_	_
+16-16	1548-1558	herrlicher	_	_
+16-17	1559-1568	Erhaltung	_	_
+16-18	1569-1578	angelehnt	_	_
+16-19	1579-1580	.	_	_
+
+#Text=Zwischen zwei bekleideten Flügelfiguren stirmt ein Stier in gewaltiger Bewegung daher \; die eine der beiden Flügelfrauen .
+17-1	1581-1589	Zwischen	_	_
+17-2	1590-1594	zwei	_	_
+17-3	1595-1606	bekleideten	_	_
+17-4	1607-1620	Flügelfiguren	_	_
+17-5	1621-1627	stirmt	_	_
+17-6	1628-1631	ein	_	_
+17-7	1632-1637	Stier	_	_
+17-8	1638-1640	in	_	_
+17-9	1641-1651	gewaltiger	_	_
+17-10	1652-1660	Bewegung	_	_
+17-11	1661-1666	daher	_	_
+17-12	1667-1668	\;	_	_
+17-13	1669-1672	die	_	_
+17-14	1673-1677	eine	_	_
+17-15	1678-1681	der	_	_
+17-16	1682-1688	beiden	_	_
+17-17	1689-1701	Flügelfrauen	_	_
+17-18	1702-1703	.	_	_
+
+#Text=: sucht
+18-1	1704-1705	:	_	_
+18-2	1706-1711	sucht	_	_

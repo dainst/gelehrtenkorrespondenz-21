@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=87 Braun an Gerhard Rom , 16. Mai 1839 derem zu verbinden ohne dem Auge wehe zu thuen .
+1-1	0-2	87	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	16.	*[4]	DATEletter[4]
+1-8	30-33	Mai	*[4]	DATEletter[4]
+1-9	34-38	1839	*[4]	DATEletter[4]
+1-10	39-44	derem	_	_
+1-11	45-47	zu	_	_
+1-12	48-57	verbinden	_	_
+1-13	58-62	ohne	_	_
+1-14	63-66	dem	_	_
+1-15	67-71	Auge	_	_
+1-16	72-76	wehe	_	_
+1-17	77-79	zu	_	_
+1-18	80-85	thuen	_	_
+1-19	86-87	.	_	_
+
+#Text=V. Vaso di vetro scoperto a Pompeji .
+2-1	88-90	V.	_	_
+2-2	91-95	Vaso	*[5]	OBJ[5]
+2-3	96-98	di	*[5]	OBJ[5]
+2-4	99-104	vetro	*[5]	OBJ[5]
+2-5	105-113	scoperto	_	_
+2-6	114-115	a	_	_
+2-7	116-123	Pompeji	*	PLACEmentioned
+2-8	124-125	.	_	_
+
+#Text=VI .
+3-1	126-128	VI	_	_
+3-2	129-130	.	_	_
+
+#Text=Sagrifizio di Nemesi o Fortuna che sia , illustrato dal Dr. Schulz .
+4-1	131-141	Sagrifizio	*[7]	OBJ[7]
+4-2	142-144	di	*[7]	OBJ[7]
+4-3	145-151	Nemesi	*[7]	OBJ[7]
+4-4	152-153	o	*[7]	OBJ[7]
+4-5	154-161	Fortuna	*[7]	OBJ[7]
+4-6	162-165	che	_	_
+4-7	166-169	sia	_	_
+4-8	170-171	,	_	_
+4-9	172-182	illustrato	_	_
+4-10	183-186	dal	_	_
+4-11	187-190	Dr.	_	_
+4-12	191-197	Schulz	*	PERmentioned
+4-13	198-199	.	_	_
+
+#Text=Das Annalenheft ist gleich reich ausgestattet , Es enthält : I .
+5-1	200-203	Das	_	_
+5-2	204-215	Annalenheft	_	_
+5-3	216-219	ist	_	_
+5-4	220-226	gleich	_	_
+5-5	227-232	reich	_	_
+5-6	233-245	ausgestattet	_	_
+5-7	246-247	,	_	_
+5-8	248-250	Es	_	_
+5-9	251-258	enthält	_	_
+5-10	259-260	:	_	_
+5-11	261-262	I	_	_
+5-12	263-264	.	_	_
+
+#Text=Scavi .
+6-1	265-270	Scavi	_	_
+6-2	271-272	.	_	_
+
+#Text=Teatro di Vallerone , dissotterrato ed illustrato dai Fratelli de Minicis .
+7-1	273-279	Teatro	*[9]	OBJ[9]
+7-2	280-282	di	*[9]	OBJ[9]
+7-3	283-292	Vallerone	*[9]	OBJ[9]
+7-4	293-294	,	_	_
+7-5	295-308	dissotterrato	_	_
+7-6	309-311	ed	_	_
+7-7	312-322	illustrato	_	_
+7-8	323-326	dai	_	_
+7-9	327-335	Fratelli	*[10]	PERmentioned[10]
+7-10	336-338	de	*[10]	PERmentioned[10]
+7-11	339-346	Minicis	*[10]	PERmentioned[10]
+7-12	347-348	.	_	_
+
+#Text=II .
+8-1	349-351	II	_	_
+8-2	352-353	.	_	_
+
+#Text=Monumenti .
+9-1	354-363	Monumenti	_	_
+9-2	364-365	.	_	_
+
+#Text=a. Scultura .
+10-1	366-368	a.	_	_
+10-2	369-377	Scultura	*	MISC
+10-3	378-379	.	_	_
+
+#Text=1 .
+11-1	380-381	1	_	_
+11-2	382-383	.	_	_
+
+#Text=Giove Urio , statua agrigentina spiegazione del dott .
+12-1	384-389	Giove	*[12]	OBJ[12]
+12-2	390-394	Urio	*[12]	OBJ[12]
+12-3	395-396	,	_	_
+12-4	397-403	statua	*[13]	OBJ[13]
+12-5	404-415	agrigentina	*[13]	OBJ[13]
+12-6	416-427	spiegazione	_	_
+12-7	428-431	del	_	_
+12-8	432-436	dott	_	_
+12-9	437-438	.	_	_
+
+#Text=Abeken .
+13-1	439-445	Abeken	*	PERmentioned
+13-2	446-447	.	_	_
+
+#Text=2 .
+14-1	448-449	2	_	_
+14-2	450-451	.	_	_
+
+#Text=Vittoria Partica di Piadena , illustrazione del dott .
+15-1	452-460	Vittoria	*[15]	OBJ[15]
+15-2	461-468	Partica	*[15]	OBJ[15]
+15-3	469-471	di	_	_
+15-4	472-479	Piadena	*	PLACEmentioned
+15-5	480-481	,	_	_
+15-6	482-495	illustrazione	_	_
+15-7	496-499	del	_	_
+15-8	500-504	dott	_	_
+15-9	505-506	.	_	_
+
+#Text=Urlichs .
+16-1	507-514	Urlichs	_	_
+16-2	515-516	.	_	_
+
+#Text=3 .
+17-1	517-518	3	_	_
+17-2	519-520	.	_	_
+
+#Text=Tazza d'aquileja - dal Müller pubblicata ed illustrata .
+18-1	521-526	Tazza	*[17]	OBJ[17]
+18-2	527-537	d'aquileja	*[17]	OBJ[17]
+18-3	538-539	-	_	_
+18-4	540-543	dal	_	_
+18-5	544-550	Müller	*	PERmentioned
+18-6	551-561	pubblicata	_	_
+18-7	562-564	ed	_	_
+18-8	565-575	illustrata	_	_
+18-9	576-577	.	_	_
+
+#Text=4 .
+19-1	578-579	4	_	_
+19-2	580-581	.	_	_
+
+#Text=Vaso di vetro - pubblicata dal dott .
+20-1	582-586	Vaso	*[19]	OBJ[19]
+20-2	587-589	di	*[19]	OBJ[19]
+20-3	590-595	vetro	*[19]	OBJ[19]
+20-4	596-597	-	_	_
+20-5	598-608	pubblicata	_	_
+20-6	609-612	dal	_	_
+20-7	613-617	dott	_	_
+20-8	618-619	.	_	_
+
+#Text=Schulz .
+21-1	620-626	Schulz	*	PERmentioned
+21-2	627-628	.	_	_
+
+#Text=b. Pittura .
+22-1	629-631	b.	_	_
+22-2	632-639	Pittura	*	MISC
+22-3	640-641	.	_	_
+
+#Text=Sagrifizio di Nemesi , illustr .
+23-1	642-652	Sagrifizio	*[22]	OBJ[22]
+23-2	653-655	di	*[22]	OBJ[22]
+23-3	656-662	Nemesi	*[22]	OBJ[22]
+23-4	663-664	,	_	_
+23-5	665-672	illustr	_	_
+23-6	673-674	.	_	_
+
+#Text=dal dott .
+24-1	675-678	dal	_	_
+24-2	679-683	dott	_	_
+24-3	684-685	.	_	_
+
+#Text=Schulz III .
+25-1	686-692	Schulz	*	PERmentioned
+25-2	693-696	III	_	_
+25-3	697-698	.	_	_
+
+#Text=Letteratura .
+26-1	699-710	Letteratura	_	_
+26-2	711-712	.	_	_
+
+#Text=Opera epigrafica delo Steiner , disaminata dal Bartolomeo Borghesi IV .
+27-1	713-718	Opera	_	_
+27-2	719-729	epigrafica	_	_
+27-3	730-734	delo	_	_
+27-4	735-742	Steiner	*	PERmentioned
+27-5	743-744	,	_	_
+27-6	745-755	disaminata	_	_
+27-7	756-759	dal	_	_
+27-8	760-770	Bartolomeo	*[25]	PERmentioned[25]
+27-9	771-779	Borghesi	*[25]	PERmentioned[25]
+27-10	780-782	IV	_	_
+27-11	783-784	.	_	_
+
+#Text=Össervazioni .
+28-1	785-797	Össervazioni	_	_
+28-2	798-799	.	_	_
+
+#Text=Continuazione del viaggio architettonico del Kaftangioglu .
+29-1	800-813	Continuazione	_	_
+29-2	814-817	del	_	_
+29-3	818-825	viaggio	_	_
+29-4	826-840	architettonico	_	_
+29-5	841-844	del	_	_
+29-6	845-857	Kaftangioglu	*	PERmentioned
+29-7	858-859	.	_	_
+
+#Text=Sie sehen daraus , daß ich schweigend thätig bin , obwohl ich eigentlich veranlaßt wäre den ganzen Plunder dem Directionspersonal vor die Füße zu werfen .
+30-1	860-863	Sie	_	_
+30-2	864-869	sehen	_	_
+30-3	870-876	daraus	_	_
+30-4	877-878	,	_	_
+30-5	879-882	daß	_	_
+30-6	883-886	ich	_	_
+30-7	887-897	schweigend	_	_
+30-8	898-904	thätig	_	_
+30-9	905-908	bin	_	_
+30-10	909-910	,	_	_
+30-11	911-917	obwohl	_	_
+30-12	918-921	ich	_	_
+30-13	922-932	eigentlich	_	_
+30-14	933-942	veranlaßt	_	_
+30-15	943-947	wäre	_	_
+30-16	948-951	den	_	_
+30-17	952-958	ganzen	_	_
+30-18	959-966	Plunder	_	_
+30-19	967-970	dem	_	_
+30-20	971-989	Directionspersonal	_	_
+30-21	990-993	vor	_	_
+30-22	994-997	die	_	_
+30-23	998-1002	Füße	_	_
+30-24	1003-1005	zu	_	_
+30-25	1006-1012	werfen	_	_
+30-26	1013-1014	.	_	_
+
+#Text=- Daß ich Innen über nichts mehr geschrieben , darf Sie nicht wundern .
+31-1	1015-1016	-	_	_
+31-2	1017-1020	Daß	_	_
+31-3	1021-1024	ich	_	_
+31-4	1025-1030	Innen	_	_
+31-5	1031-1035	über	_	_
+31-6	1036-1042	nichts	_	_
+31-7	1043-1047	mehr	_	_
+31-8	1048-1059	geschrieben	_	_
+31-9	1060-1061	,	_	_
+31-10	1062-1066	darf	_	_
+31-11	1067-1070	Sie	_	_
+31-12	1071-1076	nicht	_	_
+31-13	1077-1084	wundern	_	_
+31-14	1085-1086	.	_	_
+
+#Text=Wozu das ?
+32-1	1087-1091	Wozu	_	_
+32-2	1092-1095	das	_	_
+32-3	1096-1097	?	_	_
+
+#Text=Haben Sie auch irgend eine
+33-1	1098-1103	Haben	_	_
+33-2	1104-1107	Sie	_	_
+33-3	1108-1112	auch	_	_
+33-4	1113-1119	irgend	_	_
+33-5	1120-1124	eine	_	_

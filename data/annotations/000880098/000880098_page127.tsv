@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=872 Braun an Gerhard Rom , 13. Dezember 1834 - 3 - Inliegend ein Brief von Vollard. , Die Hector- und Ajaxvase können Sie nicht für die Institutspubblicationen benutzen .
+1-1	0-3	872	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[1]	DATEletter[1]
+1-8	31-39	Dezember	*[1]	DATEletter[1]
+1-9	40-44	1834	*[1]	DATEletter[1]
+1-10	45-46	-	_	_
+1-11	47-48	3	_	_
+1-12	49-50	-	_	_
+1-13	51-60	Inliegend	_	_
+1-14	61-64	ein	_	_
+1-15	65-70	Brief	_	_
+1-16	71-74	von	_	_
+1-17	75-83	Vollard.	*	PERmentioned
+1-18	84-85	,	_	_
+1-19	86-89	Die	_	_
+1-20	90-97	Hector-	*[2]	OBJ[2]
+1-21	98-101	und	*[2]	OBJ[2]
+1-22	102-110	Ajaxvase	*[2]	OBJ[2]
+1-23	111-117	können	_	_
+1-24	118-121	Sie	_	_
+1-25	122-127	nicht	_	_
+1-26	128-131	für	_	_
+1-27	132-135	die	_	_
+1-28	136-159	Institutspubblicationen	_	_
+1-29	160-168	benutzen	_	_
+1-30	169-170	.	_	_
+
+#Text=Nachdem Nibby einen solchen Senf darüber gegossen ist sie nimmer mehr Ineditum , was Sie auch schon des Stichs wegen , den Sie durch die Diligende von Verona aus erhalten , nicht röm .
+2-1	171-178	Nachdem	_	_
+2-2	179-184	Nibby	*	PERmentioned
+2-3	185-190	einen	_	_
+2-4	191-198	solchen	_	_
+2-5	199-203	Senf	_	_
+2-6	204-211	darüber	_	_
+2-7	212-220	gegossen	_	_
+2-8	221-224	ist	_	_
+2-9	225-228	sie	_	_
+2-10	229-235	nimmer	_	_
+2-11	236-240	mehr	_	_
+2-12	241-249	Ineditum	_	_
+2-13	250-251	,	_	_
+2-14	252-255	was	_	_
+2-15	256-259	Sie	_	_
+2-16	260-264	auch	_	_
+2-17	265-270	schon	_	_
+2-18	271-274	des	_	_
+2-19	275-281	Stichs	_	_
+2-20	282-287	wegen	_	_
+2-21	288-289	,	_	_
+2-22	290-293	den	_	_
+2-23	294-297	Sie	_	_
+2-24	298-303	durch	_	_
+2-25	304-307	die	_	_
+2-26	308-317	Diligende	_	_
+2-27	318-321	von	_	_
+2-28	322-328	Verona	*	PLACEmentioned
+2-29	329-332	aus	_	_
+2-30	333-341	erhalten	_	_
+2-31	342-343	,	_	_
+2-32	344-349	nicht	_	_
+2-33	350-353	röm	_	_
+2-34	354-355	.	_	_
+
+#Text=Bunsens Meinung , der ich nicht widersprochen .
+3-1	356-363	Bunsens	*	PERmentioned
+3-2	364-371	Meinung	_	_
+3-3	372-373	,	_	_
+3-4	374-377	der	_	_
+3-5	378-381	ich	_	_
+3-6	382-387	nicht	_	_
+3-7	388-401	widersprochen	_	_
+3-8	402-403	.	_	_
+
+#Text=Die Kiste von Campana mit dem Waffenstreit liegt in Rospischer Zeichnung vor und harrt Ihrer Bestimmung .
+4-1	404-407	Die	_	_
+4-2	408-413	Kiste	*[3]	OBJ[3]
+4-3	414-417	von	*[3]	OBJ[3]
+4-4	418-425	Campana	*[3]|*[4]	OBJ[3]|PERmentioned[4]
+4-5	426-429	mit	*[3]	OBJ[3]
+4-6	430-433	dem	*[3]	OBJ[3]
+4-7	434-446	Waffenstreit	*[3]	OBJ[3]
+4-8	447-452	liegt	_	_
+4-9	453-455	in	_	_
+4-10	456-466	Rospischer	*[5]|*[6]	MISC[5]|PERmentioned[6]
+4-11	467-476	Zeichnung	*[5]	MISC[5]
+4-12	477-480	vor	_	_
+4-13	481-484	und	_	_
+4-14	485-490	harrt	_	_
+4-15	491-496	Ihrer	_	_
+4-16	497-507	Bestimmung	_	_
+4-17	508-509	.	_	_
+
+#Text=Bei Veji sollen Ausgrabungen zahlreiche Statuen- ’ fragmente zu Tage gebracht haben , sowie Inschrifts und Bleiröhren .
+5-1	510-513	Bei	_	_
+5-2	514-518	Veji	*	PLACEmentioned
+5-3	519-525	sollen	_	_
+5-4	526-538	Ausgrabungen	_	_
+5-5	539-549	zahlreiche	_	_
+5-6	550-558	Statuen-	*[7]	OBJ[7]
+5-7	559-560	’	*[7]	OBJ[7]
+5-8	561-570	fragmente	*[7]	OBJ[7]
+5-9	571-573	zu	*[7]	OBJ[7]
+5-10	574-578	Tage	*[7]	OBJ[7]
+5-11	579-587	gebracht	*[7]	OBJ[7]
+5-12	588-593	haben	*[7]	OBJ[7]
+5-13	594-595	,	*[7]	OBJ[7]
+5-14	596-601	sowie	*[7]	OBJ[7]
+5-15	602-612	Inschrifts	*[7]	OBJ[7]
+5-16	613-616	und	*[7]	OBJ[7]
+5-17	617-627	Bleiröhren	*[7]	OBJ[7]
+5-18	628-629	.	_	_
+
+#Text=Wir wollen nächste Woche hinausfahren .
+6-1	630-633	Wir	_	_
+6-2	634-640	wollen	_	_
+6-3	641-648	nächste	_	_
+6-4	649-654	Woche	_	_
+6-5	655-667	hinausfahren	_	_
+6-6	668-669	.	_	_
+
+#Text=Rospi hat 's angezeigt und muß daher mit , Borrani hat die Sache mit der Thamyrisvase ungeheuer in die Länge gezogen \; er schien zwar los zu wollen , was ich nicht beachtet habe , weil man mit einem andern in demselben Fall gewesen wäre .
+7-1	670-675	Rospi	*	PERmentioned
+7-2	676-679	hat	_	_
+7-3	680-682	's	_	_
+7-4	683-692	angezeigt	_	_
+7-5	693-696	und	_	_
+7-6	697-700	muß	_	_
+7-7	701-706	daher	_	_
+7-8	707-710	mit	_	_
+7-9	711-712	,	_	_
+7-10	713-720	Borrani	*	PERmentioned
+7-11	721-724	hat	_	_
+7-12	725-728	die	_	_
+7-13	729-734	Sache	_	_
+7-14	735-738	mit	_	_
+7-15	739-742	der	_	_
+7-16	743-755	Thamyrisvase	*	OBJ
+7-17	756-765	ungeheuer	_	_
+7-18	766-768	in	_	_
+7-19	769-772	die	_	_
+7-20	773-778	Länge	_	_
+7-21	779-786	gezogen	_	_
+7-22	787-788	\;	_	_
+7-23	789-791	er	_	_
+7-24	792-798	schien	_	_
+7-25	799-803	zwar	_	_
+7-26	804-807	los	_	_
+7-27	808-810	zu	_	_
+7-28	811-817	wollen	_	_
+7-29	818-819	,	_	_
+7-30	820-823	was	_	_
+7-31	824-827	ich	_	_
+7-32	828-833	nicht	_	_
+7-33	834-842	beachtet	_	_
+7-34	843-847	habe	_	_
+7-35	848-849	,	_	_
+7-36	850-854	weil	_	_
+7-37	855-858	man	_	_
+7-38	859-862	mit	_	_
+7-39	863-868	einem	_	_
+7-40	869-875	andern	_	_
+7-41	876-878	in	_	_
+7-42	879-888	demselben	_	_
+7-43	889-893	Fall	_	_
+7-44	894-901	gewesen	_	_
+7-45	902-906	wäre	_	_
+7-46	907-908	.	_	_
+
+#Text=Ich habe ihn an seinen Patto erinnert , Cades hat die Sammlung mit den Künstlernamen bereit und ich einen Aufsatz darüber angelegt .
+8-1	909-912	Ich	_	_
+8-2	913-917	habe	_	_
+8-3	918-921	ihn	_	_
+8-4	922-924	an	_	_
+8-5	925-931	seinen	_	_
+8-6	932-937	Patto	_	_
+8-7	938-946	erinnert	_	_
+8-8	947-948	,	_	_
+8-9	949-954	Cades	*	PERmentioned
+8-10	955-958	hat	_	_
+8-11	959-962	die	_	_
+8-12	963-971	Sammlung	_	_
+8-13	972-975	mit	_	_
+8-14	976-979	den	_	_
+8-15	980-993	Künstlernamen	_	_
+8-16	994-1000	bereit	_	_
+8-17	1001-1004	und	_	_
+8-18	1005-1008	ich	_	_
+8-19	1009-1014	einen	_	_
+8-20	1015-1022	Aufsatz	_	_
+8-21	1023-1030	darüber	_	_
+8-22	1031-1039	angelegt	_	_
+8-23	1040-1041	.	_	_
+
+#Text=Ihr Intelligenzblatt ist deshalb nicht damit bedroht .
+9-1	1042-1045	Ihr	_	_
+9-2	1046-1062	Intelligenzblatt	_	_
+9-3	1063-1066	ist	_	_
+9-4	1067-1074	deshalb	_	_
+9-5	1075-1080	nicht	_	_
+9-6	1081-1086	damit	_	_
+9-7	1087-1094	bedroht	_	_
+9-8	1095-1096	.	_	_
+
+#Text=Von der Schwalbenvase , die gestern in der Adunanza vorlag , hat Bellog eine genaue und schöne Zeichnung genommen .
+10-1	1097-1100	Von	_	_
+10-2	1101-1104	der	_	_
+10-3	1105-1118	Schwalbenvase	*	OBJ
+10-4	1119-1120	,	_	_
+10-5	1121-1124	die	_	_
+10-6	1125-1132	gestern	_	_
+10-7	1133-1135	in	_	_
+10-8	1136-1139	der	_	_
+10-9	1140-1148	Adunanza	*	MISC
+10-10	1149-1155	vorlag	_	_
+10-11	1156-1157	,	_	_
+10-12	1158-1161	hat	_	_
+10-13	1162-1168	Bellog	*	PERmentioned
+10-14	1169-1173	eine	_	_
+10-15	1174-1180	genaue	_	_
+10-16	1181-1184	und	_	_
+10-17	1185-1191	schöne	_	_
+10-18	1192-1201	Zeichnung	*	MISC
+10-19	1202-1210	genommen	_	_
+10-20	1211-1212	.	_	_
+
+#Text=Wollen Sie diese nicht für unsere Mon .
+11-1	1213-1219	Wollen	_	_
+11-2	1220-1223	Sie	_	_
+11-3	1224-1229	diese	_	_
+11-4	1230-1235	nicht	_	_
+11-5	1236-1239	für	_	_
+11-6	1240-1246	unsere	_	_
+11-7	1247-1250	Mon	_	_
+11-8	1251-1252	.	_	_
+
+#Text=berichtigt wissen ?
+12-1	1253-1263	berichtigt	_	_
+12-2	1264-1270	wissen	_	_
+12-3	1271-1272	?	_	_
+
+#Text=Eine Stelle in Aristophanes , das Volkslied
+13-1	1273-1277	Eine	_	_
+13-2	1278-1284	Stelle	_	_
+13-3	1285-1287	in	_	_
+13-4	1288-1300	Aristophanes	*	PLACEmentioned
+13-5	1301-1302	,	_	_
+13-6	1303-1306	das	_	_
+13-7	1307-1316	Volkslied	_	_

@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=310 Brunn an Henzen Volterra , 3 .
+1-1	0-3	310	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-28	Volterra	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-32	3	_	_
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=Okt .
+2-1	35-38	Okt	*[3]	DATEletter[3]
+2-2	39-40	.	*[3]	DATEletter[3]
+
+#Text=1862 g . 7 .
+3-1	41-45	1862	*[3]	DATEletter[3]
+3-2	46-47	g	_	_
+3-3	48-49	.	_	_
+3-4	50-51	7	*[4]	DATErecieved[4]
+3-5	52-53	.	*[4]	DATErecieved[4]
+
+#Text=Oktober 1862 Lieber Henzen Wie es bis zur Abreise von Chiusi gegangen , wird Ihnen meine Frau berichtet haben , dto .
+4-1	54-61	Oktober	*[4]	DATErecieved[4]
+4-2	62-66	1862	*[4]	DATErecieved[4]
+4-3	67-73	Lieber	_	_
+4-4	74-80	Henzen	*	PERaddressee
+4-5	81-84	Wie	_	_
+4-6	85-87	es	_	_
+4-7	88-91	bis	_	_
+4-8	92-95	zur	_	_
+4-9	96-103	Abreise	_	_
+4-10	104-107	von	_	_
+4-11	108-114	Chiusi	*	PLACEmentioned
+4-12	115-123	gegangen	_	_
+4-13	124-125	,	_	_
+4-14	126-130	wird	_	_
+4-15	131-136	Ihnen	_	_
+4-16	137-142	meine	_	_
+4-17	143-147	Frau	_	_
+4-18	148-157	berichtet	_	_
+4-19	158-163	haben	_	_
+4-20	164-165	,	_	_
+4-21	166-169	dto	_	_
+4-22	170-171	.	_	_
+
+#Text=wie bis zur Ankunft in Volterra .
+5-1	172-175	wie	_	_
+5-2	176-179	bis	_	_
+5-3	180-183	zur	_	_
+5-4	184-191	Ankunft	_	_
+5-5	192-194	in	_	_
+5-6	195-203	Volterra	*	PLACEmentioned
+5-7	204-205	.	_	_
+
+#Text=Hier war der erste Weg zu Cinci : sta agli scavi .
+6-1	206-210	Hier	_	_
+6-2	211-214	war	_	_
+6-3	215-218	der	_	_
+6-4	219-224	erste	_	_
+6-5	225-228	Weg	_	_
+6-6	229-231	zu	_	_
+6-7	232-237	Cinci	*	PERmentioned
+6-8	238-239	:	_	_
+6-9	240-243	sta	_	_
+6-10	244-248	agli	_	_
+6-11	249-254	scavi	_	_
+6-12	255-256	.	_	_
+
+#Text=Aber er kam bald \; war äußerst zuvorkommend und hat uns sofort im Museum freieste Hand gelassen .
+7-1	257-261	Aber	_	_
+7-2	262-264	er	_	_
+7-3	265-268	kam	_	_
+7-4	269-273	bald	_	_
+7-5	274-275	\;	_	_
+7-6	276-279	war	_	_
+7-7	280-287	äußerst	_	_
+7-8	288-300	zuvorkommend	_	_
+7-9	301-304	und	_	_
+7-10	305-308	hat	_	_
+7-11	309-312	uns	_	_
+7-12	313-319	sofort	_	_
+7-13	320-322	im	_	_
+7-14	323-329	Museum	*	ORGmentioned
+7-15	330-338	freieste	_	_
+7-16	339-343	Hand	_	_
+7-17	344-352	gelassen	_	_
+7-18	353-354	.	_	_
+
+#Text=Er scheint wirklich Liebe zur Sache zu haben und läßt sich allem Anschein nach so dressiren , daß für die Folge Volterra ein fruchtbarer Boden werden wird .
+8-1	355-357	Er	_	_
+8-2	358-365	scheint	_	_
+8-3	366-374	wirklich	_	_
+8-4	375-380	Liebe	_	_
+8-5	381-384	zur	_	_
+8-6	385-390	Sache	_	_
+8-7	391-393	zu	_	_
+8-8	394-399	haben	_	_
+8-9	400-403	und	_	_
+8-10	404-408	läßt	_	_
+8-11	409-413	sich	_	_
+8-12	414-419	allem	_	_
+8-13	420-428	Anschein	_	_
+8-14	429-433	nach	_	_
+8-15	434-436	so	_	_
+8-16	437-446	dressiren	_	_
+8-17	447-448	,	_	_
+8-18	449-452	daß	_	_
+8-19	453-456	für	_	_
+8-20	457-460	die	_	_
+8-21	461-466	Folge	_	_
+8-22	467-475	Volterra	*	PLACEmentioned
+8-23	476-479	ein	_	_
+8-24	480-491	fruchtbarer	_	_
+8-25	492-497	Boden	_	_
+8-26	498-504	werden	_	_
+8-27	505-509	wird	_	_
+8-28	510-511	.	_	_
+
+#Text=Die Scavi haben eben erst begonnen , also noch nichts neues .
+9-1	512-515	Die	_	_
+9-2	516-521	Scavi	_	_
+9-3	522-527	haben	_	_
+9-4	528-532	eben	_	_
+9-5	533-537	erst	_	_
+9-6	538-546	begonnen	_	_
+9-7	547-548	,	_	_
+9-8	549-553	also	_	_
+9-9	554-558	noch	_	_
+9-10	559-565	nichts	_	_
+9-11	566-571	neues	_	_
+9-12	572-573	.	_	_
+
+#Text=Im Museum müßte uns allerdings das Herz wenigstens um einen Falm tiefer sinken .
+10-1	574-576	Im	_	_
+10-2	577-583	Museum	*	ORGmentioned
+10-3	584-589	müßte	_	_
+10-4	590-593	uns	_	_
+10-5	594-604	allerdings	_	_
+10-6	605-608	das	_	_
+10-7	609-613	Herz	_	_
+10-8	614-624	wenigstens	_	_
+10-9	625-627	um	_	_
+10-10	628-633	einen	_	_
+10-11	634-638	Falm	_	_
+10-12	639-645	tiefer	_	_
+10-13	646-652	sinken	_	_
+10-14	653-654	.	_	_
+
+#Text=Allerdings ist vieles publicirt , vieles in Zeichnung vorhanden \; aber summa summarum , soweit ich nach der Heute noch nicht abgeschlossenen Orientirung urtheilen kann , doch nur hochstens die Hälfte .
+11-1	655-665	Allerdings	_	_
+11-2	666-669	ist	_	_
+11-3	670-676	vieles	_	_
+11-4	677-686	publicirt	_	_
+11-5	687-688	,	_	_
+11-6	689-695	vieles	_	_
+11-7	696-698	in	_	_
+11-8	699-708	Zeichnung	_	_
+11-9	709-718	vorhanden	_	_
+11-10	719-720	\;	_	_
+11-11	721-725	aber	_	_
+11-12	726-731	summa	_	_
+11-13	732-740	summarum	_	_
+11-14	741-742	,	_	_
+11-15	743-749	soweit	_	_
+11-16	750-753	ich	_	_
+11-17	754-758	nach	_	_
+11-18	759-762	der	_	_
+11-19	763-768	Heute	_	_
+11-20	769-773	noch	_	_
+11-21	774-779	nicht	_	_
+11-22	780-795	abgeschlossenen	_	_
+11-23	796-807	Orientirung	_	_
+11-24	808-817	urtheilen	_	_
+11-25	818-822	kann	_	_
+11-26	823-824	,	_	_
+11-27	825-829	doch	_	_
+11-28	830-833	nur	_	_
+11-29	834-843	hochstens	_	_
+11-30	844-847	die	_	_
+11-31	848-854	Hälfte	_	_
+11-32	855-856	.	_	_
+
+#Text=Dann aber sind Zeichnungen und Publicationen mit geringen Ausnahmen ungenügend , selbst die Gerhardschen .
+12-1	857-861	Dann	_	_
+12-2	862-866	aber	_	_
+12-3	867-871	sind	_	_
+12-4	872-883	Zeichnungen	_	_
+12-5	884-887	und	_	_
+12-6	888-901	Publicationen	_	_
+12-7	902-905	mit	_	_
+12-8	906-914	geringen	_	_
+12-9	915-924	Ausnahmen	_	_
+12-10	925-935	ungenügend	_	_
+12-11	936-937	,	_	_
+12-12	938-944	selbst	_	_
+12-13	945-948	die	_	_
+12-14	949-961	Gerhardschen	*	MISC
+12-15	962-963	.	_	_
+
+#Text=Letztere genügen so ziemlich in der Anlage , aber in der Ausführung , so namentlich in den Gewändern , sind sie äußerst willkürlich und manirirt .
+13-1	964-972	Letztere	_	_
+13-2	973-980	genügen	_	_
+13-3	981-983	so	_	_
+13-4	984-992	ziemlich	_	_
+13-5	993-995	in	_	_
+13-6	996-999	der	_	_
+13-7	1000-1006	Anlage	_	_
+13-8	1007-1008	,	_	_
+13-9	1009-1013	aber	_	_
+13-10	1014-1016	in	_	_
+13-11	1017-1020	der	_	_
+13-12	1021-1031	Ausführung	_	_
+13-13	1032-1033	,	_	_
+13-14	1034-1036	so	_	_
+13-15	1037-1047	namentlich	_	_
+13-16	1048-1050	in	_	_
+13-17	1051-1054	den	_	_
+13-18	1055-1064	Gewändern	_	_
+13-19	1065-1066	,	_	_
+13-20	1067-1071	sind	_	_
+13-21	1072-1075	sie	_	_
+13-22	1076-1083	äußerst	_	_
+13-23	1084-1095	willkürlich	_	_
+13-24	1096-1099	und	_	_
+13-25	1100-1108	manirirt	_	_
+13-26	1109-1110	.	_	_
+
+#Text=Dazu sind sie auf einem unglücklichen Papiere und sehr hart lucidirt , daß sich nichts auswischen läßt \; ein Theil der Inghiramischen Zeichnungen ist getuscht , also auch kaum zu corrigiren : genug alles schon gemachte ist doch nur halb gemacht .
+14-1	1111-1115	Dazu	_	_
+14-2	1116-1120	sind	_	_
+14-3	1121-1124	sie	_	_
+14-4	1125-1128	auf	_	_
+14-5	1129-1134	einem	_	_
+14-6	1135-1148	unglücklichen	_	_
+14-7	1149-1156	Papiere	_	_
+14-8	1157-1160	und	_	_
+14-9	1161-1165	sehr	_	_
+14-10	1166-1170	hart	_	_
+14-11	1171-1179	lucidirt	_	_
+14-12	1180-1181	,	_	_
+14-13	1182-1185	daß	_	_
+14-14	1186-1190	sich	_	_
+14-15	1191-1197	nichts	_	_
+14-16	1198-1208	auswischen	_	_
+14-17	1209-1213	läßt	_	_
+14-18	1214-1215	\;	_	_
+14-19	1216-1219	ein	_	_
+14-20	1220-1225	Theil	_	_
+14-21	1226-1229	der	_	_
+14-22	1230-1244	Inghiramischen	*	MISC
+14-23	1245-1256	Zeichnungen	_	_
+14-24	1257-1260	ist	_	_
+14-25	1261-1269	getuscht	_	_
+14-26	1270-1271	,	_	_
+14-27	1272-1276	also	_	_
+14-28	1277-1281	auch	_	_
+14-29	1282-1286	kaum	_	_
+14-30	1287-1289	zu	_	_
+14-31	1290-1300	corrigiren	_	_
+14-32	1301-1302	:	_	_
+14-33	1303-1308	genug	_	_
+14-34	1309-1314	alles	_	_
+14-35	1315-1320	schon	_	_
+14-36	1321-1329	gemachte	_	_
+14-37	1330-1333	ist	_	_
+14-38	1334-1338	doch	_	_
+14-39	1339-1342	nur	_	_
+14-40	1343-1347	halb	_	_
+14-41	1348-1355	gemacht	_	_
+14-42	1356-1357	.	_	_
+
+#Text=Es ist sofort ein Alabasterkünstler ange-
+15-1	1358-1360	Es	_	_
+15-2	1361-1364	ist	_	_
+15-3	1365-1371	sofort	_	_
+15-4	1372-1375	ein	_	_
+15-5	1376-1393	Alabasterkünstler	_	_
+15-6	1394-1399	ange-	_	_

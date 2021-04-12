@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=312 Lepsius an Henzen Berlin , 30. Juni 1874 3/7 74 Berlin d . 30. Juni 1874 .
+1-1	0-3	312	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	30.	*[1]	DATEletter[1]
+1-8	35-39	Juni	*[1]	DATEletter[1]
+1-9	40-44	1874	*[1]	DATEletter[1]
+1-10	45-48	3/7	*[2]	DATErecieved[2]
+1-11	49-51	74	*[2]	DATErecieved[2]
+1-12	52-58	Berlin	*	PLACEfrom
+1-13	59-60	d	_	_
+1-14	61-62	.	_	_
+1-15	63-66	30.	*[3]	DATEletter[3]
+1-16	67-71	Juni	*[3]	DATEletter[3]
+1-17	72-76	1874	*[3]	DATEletter[3]
+1-18	77-78	.	_	_
+
+#Text=Verehrtester Freund Dieser Brief wird Sie also in Rocca di Fapa erreichen \; möge Ihnen die kühlere Landluft da oben wohl thun .
+2-1	79-91	Verehrtester	_	_
+2-2	92-98	Freund	_	_
+2-3	99-105	Dieser	_	_
+2-4	106-111	Brief	_	_
+2-5	112-116	wird	_	_
+2-6	117-120	Sie	_	_
+2-7	121-125	also	_	_
+2-8	126-128	in	_	_
+2-9	129-134	Rocca	*[4]	PLACEmentioned[4]
+2-10	135-137	di	*[4]	PLACEmentioned[4]
+2-11	138-142	Fapa	*[4]	PLACEmentioned[4]
+2-12	143-152	erreichen	_	_
+2-13	153-154	\;	_	_
+2-14	155-159	möge	_	_
+2-15	160-165	Ihnen	_	_
+2-16	166-169	die	_	_
+2-17	170-177	kühlere	_	_
+2-18	178-186	Landluft	_	_
+2-19	187-189	da	_	_
+2-20	190-194	oben	_	_
+2-21	195-199	wohl	_	_
+2-22	200-204	thun	_	_
+2-23	205-206	.	_	_
+
+#Text=Ich bin nun schon wieder einige Zeit von meiner bibliothekarischen Reise , mit der ich wohl zufrieden bin , zurück , hatte aber bisher nichts Wichtiges zu schreiben , da die große erste Versammlung der Central Direktion der Reichsanstalt bevorstand .
+3-1	207-210	Ich	_	_
+3-2	211-214	bin	_	_
+3-3	215-218	nun	_	_
+3-4	219-224	schon	_	_
+3-5	225-231	wieder	_	_
+3-6	232-238	einige	_	_
+3-7	239-243	Zeit	_	_
+3-8	244-247	von	_	_
+3-9	248-254	meiner	_	_
+3-10	255-273	bibliothekarischen	_	_
+3-11	274-279	Reise	_	_
+3-12	280-281	,	_	_
+3-13	282-285	mit	_	_
+3-14	286-289	der	_	_
+3-15	290-293	ich	_	_
+3-16	294-298	wohl	_	_
+3-17	299-308	zufrieden	_	_
+3-18	309-312	bin	_	_
+3-19	313-314	,	_	_
+3-20	315-321	zurück	_	_
+3-21	322-323	,	_	_
+3-22	324-329	hatte	_	_
+3-23	330-334	aber	_	_
+3-24	335-341	bisher	_	_
+3-25	342-348	nichts	_	_
+3-26	349-358	Wichtiges	_	_
+3-27	359-361	zu	_	_
+3-28	362-371	schreiben	_	_
+3-29	372-373	,	_	_
+3-30	374-376	da	_	_
+3-31	377-380	die	_	_
+3-32	381-386	große	_	_
+3-33	387-392	erste	_	_
+3-34	393-404	Versammlung	_	_
+3-35	405-408	der	_	_
+3-36	409-416	Central	*[5]	ORGmentioned[5]
+3-37	417-426	Direktion	*[5]	ORGmentioned[5]
+3-38	427-430	der	_	_
+3-39	431-444	Reichsanstalt	_	_
+3-40	445-455	bevorstand	_	_
+3-41	456-457	.	_	_
+
+#Text=Gestern und heute sind die 4 Herren wieder abgereist , nachden wir 3 Tage lang in immer auch 2 Sitzungen pro Tag conferirt hatten .
+4-1	458-465	Gestern	_	_
+4-2	466-469	und	_	_
+4-3	470-475	heute	_	_
+4-4	476-480	sind	_	_
+4-5	481-484	die	_	_
+4-6	485-486	4	_	_
+4-7	487-493	Herren	_	_
+4-8	494-500	wieder	_	_
+4-9	501-510	abgereist	_	_
+4-10	511-512	,	_	_
+4-11	513-520	nachden	_	_
+4-12	521-524	wir	_	_
+4-13	525-526	3	_	_
+4-14	527-531	Tage	_	_
+4-15	532-536	lang	_	_
+4-16	537-539	in	_	_
+4-17	540-545	immer	_	_
+4-18	546-550	auch	_	_
+4-19	551-552	2	_	_
+4-20	553-562	Sitzungen	_	_
+4-21	563-566	pro	_	_
+4-22	567-570	Tag	_	_
+4-23	571-580	conferirt	_	_
+4-24	581-587	hatten	_	_
+4-25	588-589	.	_	_
+
+#Text=Es ging übrigens alles sehr verträglich und friedlich ab , so daß namentlich Brunn beim Abschluß seine Verwunderung aussprach , daß er auch mit Mommsen nicht einmal in Streit gerathen sei .
+5-1	590-592	Es	_	_
+5-2	593-597	ging	_	_
+5-3	598-606	übrigens	_	_
+5-4	607-612	alles	_	_
+5-5	613-617	sehr	_	_
+5-6	618-629	verträglich	_	_
+5-7	630-633	und	_	_
+5-8	634-643	friedlich	_	_
+5-9	644-646	ab	_	_
+5-10	647-648	,	_	_
+5-11	649-651	so	_	_
+5-12	652-655	daß	_	_
+5-13	656-666	namentlich	_	_
+5-14	667-672	Brunn	*	PERmentioned
+5-15	673-677	beim	_	_
+5-16	678-686	Abschluß	_	_
+5-17	687-692	seine	_	_
+5-18	693-705	Verwunderung	_	_
+5-19	706-715	aussprach	_	_
+5-20	716-717	,	_	_
+5-21	718-721	daß	_	_
+5-22	722-724	er	_	_
+5-23	725-729	auch	_	_
+5-24	730-733	mit	_	_
+5-25	734-741	Mommsen	*	PERmentioned
+5-26	742-747	nicht	_	_
+5-27	748-754	einmal	_	_
+5-28	755-757	in	_	_
+5-29	758-764	Streit	_	_
+5-30	765-773	gerathen	_	_
+5-31	774-777	sei	_	_
+5-32	778-779	.	_	_
+
+#Text=Ich theile Ihnen nun mit was Sie etwa von unsern Beschlüssen interessiren kann .
+6-1	780-783	Ich	_	_
+6-2	784-790	theile	_	_
+6-3	791-796	Ihnen	_	_
+6-4	797-800	nun	_	_
+6-5	801-804	mit	_	_
+6-6	805-808	was	_	_
+6-7	809-812	Sie	_	_
+6-8	813-817	etwa	_	_
+6-9	818-821	von	_	_
+6-10	822-828	unsern	_	_
+6-11	829-840	Beschlüssen	_	_
+6-12	841-853	interessiren	_	_
+6-13	854-858	kann	_	_
+6-14	859-860	.	_	_
+
+#Text=Viel Zeit nahm natürlich die Wahl der Stipendiaten weg , da sich 15 Bewerber gemeldet hatten .
+7-1	861-865	Viel	_	_
+7-2	866-870	Zeit	_	_
+7-3	871-875	nahm	_	_
+7-4	876-885	natürlich	_	_
+7-5	886-889	die	_	_
+7-6	890-894	Wahl	_	_
+7-7	895-898	der	_	_
+7-8	899-911	Stipendiaten	_	_
+7-9	912-915	weg	_	_
+7-10	916-917	,	_	_
+7-11	918-920	da	_	_
+7-12	921-925	sich	_	_
+7-13	926-928	15	_	_
+7-14	929-937	Bewerber	_	_
+7-15	938-946	gemeldet	_	_
+7-16	947-953	hatten	_	_
+7-17	954-955	.	_	_
+
+#Text=Von diesen wurden zwei gleich ausgeschlossen ein gewisser undoktorrirter Raermann , und der Ihnen bekannte Dr. I .
+8-1	956-959	Von	_	_
+8-2	960-966	diesen	_	_
+8-3	967-973	wurden	_	_
+8-4	974-978	zwei	_	_
+8-5	979-985	gleich	_	_
+8-6	986-1000	ausgeschlossen	_	_
+8-7	1001-1004	ein	_	_
+8-8	1005-1013	gewisser	_	_
+8-9	1014-1028	undoktorrirter	_	_
+8-10	1029-1037	Raermann	*	PERmentioned
+8-11	1038-1039	,	_	_
+8-12	1040-1043	und	_	_
+8-13	1044-1047	der	_	_
+8-14	1048-1053	Ihnen	_	_
+8-15	1054-1062	bekannte	_	_
+8-16	1063-1066	Dr.	_	_
+8-17	1067-1068	I	*[6]	PERmentioned[6]
+8-18	1069-1070	.	*[6]	PERmentioned[6]
+
+#Text=P. Richter , der sich um das 5.° noch nicht auf den Etat gebrachte christliche Stipendium
+9-1	1071-1073	P.	*[6]	PERmentioned[6]
+9-2	1074-1081	Richter	*[6]	PERmentioned[6]
+9-3	1082-1083	,	_	_
+9-4	1084-1087	der	_	_
+9-5	1088-1092	sich	_	_
+9-6	1093-1095	um	_	_
+9-7	1096-1099	das	_	_
+9-8	1100-1103	5.°	_	_
+9-9	1104-1108	noch	_	_
+9-10	1109-1114	nicht	_	_
+9-11	1115-1118	auf	_	_
+9-12	1119-1122	den	_	_
+9-13	1123-1127	Etat	_	_
+9-14	1128-1137	gebrachte	_	_
+9-15	1138-1149	christliche	_	_
+9-16	1150-1160	Stipendium	_	_

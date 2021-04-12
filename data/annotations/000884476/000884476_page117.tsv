@@ -1,0 +1,262 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin 27/1/1835 Berlin 27 Jan .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-33	27/1/1835	*	DATEletter
+1-6	34-40	Berlin	*	PLACEfrom
+1-7	41-43	27	*[6]	DATEletter[6]
+1-8	44-47	Jan	*[6]	DATEletter[6]
+1-9	48-49	.	*[6]	DATEletter[6]
+
+#Text=1835 .
+2-1	50-54	1835	*[6]	DATEletter[6]
+2-2	55-56	.	_	_
+
+#Text=Herrn Dr , Braun .
+3-1	57-62	Herrn	*[7]	PERaddressee[7]
+3-2	63-65	Dr	*[7]	PERaddressee[7]
+3-3	66-67	,	*[7]	PERaddressee[7]
+3-4	68-73	Braun	*[7]	PERaddressee[7]
+3-5	74-75	.	_	_
+
+#Text=Ihr Brief , lieber Freund , ist dies mal wieder ausgeblieben , ich halte dennoch meinen Dienstag , nachden ich so eben wieder als Reconvalescent angefangen habe , Briefe zu schreiben .
+4-1	76-79	Ihr	_	_
+4-2	80-85	Brief	_	_
+4-3	86-87	,	_	_
+4-4	88-94	lieber	_	_
+4-5	95-101	Freund	_	_
+4-6	102-103	,	_	_
+4-7	104-107	ist	_	_
+4-8	108-112	dies	_	_
+4-9	113-116	mal	_	_
+4-10	117-123	wieder	_	_
+4-11	124-136	ausgeblieben	_	_
+4-12	137-138	,	_	_
+4-13	139-142	ich	_	_
+4-14	143-148	halte	_	_
+4-15	149-156	dennoch	_	_
+4-16	157-163	meinen	_	_
+4-17	164-172	Dienstag	*	DATEmentioned
+4-18	173-174	,	_	_
+4-19	175-182	nachden	_	_
+4-20	183-186	ich	_	_
+4-21	187-189	so	_	_
+4-22	190-194	eben	_	_
+4-23	195-201	wieder	_	_
+4-24	202-205	als	_	_
+4-25	206-220	Reconvalescent	_	_
+4-26	221-231	angefangen	_	_
+4-27	232-236	habe	_	_
+4-28	237-238	,	_	_
+4-29	239-245	Briefe	_	_
+4-30	246-248	zu	_	_
+4-31	249-258	schreiben	_	_
+4-32	259-260	.	_	_
+
+#Text=Lassen Sie sich erinnern , daß De Witte auf das Stillschweigen der römischen Direktion flucht \; item , was schlimmer ist , daß sein Bullettino an 9 Jan .
+5-1	261-267	Lassen	_	_
+5-2	268-271	Sie	_	_
+5-3	272-276	sich	_	_
+5-4	277-285	erinnern	_	_
+5-5	286-287	,	_	_
+5-6	288-291	daß	_	_
+5-7	292-294	De	*[9]	PERmentioned[9]
+5-8	295-300	Witte	*[9]	PERmentioned[9]
+5-9	301-304	auf	_	_
+5-10	305-308	das	_	_
+5-11	309-323	Stillschweigen	_	_
+5-12	324-327	der	_	_
+5-13	328-337	römischen	_	_
+5-14	338-347	Direktion	_	_
+5-15	348-354	flucht	_	_
+5-16	355-356	\;	_	_
+5-17	357-361	item	_	_
+5-18	362-363	,	_	_
+5-19	364-367	was	_	_
+5-20	368-377	schlimmer	_	_
+5-21	378-381	ist	_	_
+5-22	382-383	,	_	_
+5-23	384-387	daß	_	_
+5-24	388-392	sein	_	_
+5-25	393-403	Bullettino	_	_
+5-26	404-406	an	_	_
+5-27	407-408	9	*[10]	DATEmentioned[10]
+5-28	409-412	Jan	*[10]	DATEmentioned[10]
+5-29	413-414	.	*[10]	DATEmentioned[10]
+
+#Text=noch nicht über den Septbr .
+6-1	415-419	noch	_	_
+6-2	420-425	nicht	_	_
+6-3	426-430	über	_	_
+6-4	431-434	den	_	_
+6-5	435-441	Septbr	_	_
+6-6	442-443	.	_	_
+
+#Text=hinaus reichte .
+7-1	444-450	hinaus	_	_
+7-2	451-458	reichte	_	_
+7-3	459-460	.	_	_
+
+#Text=Andere erhebliche Klagen sind Ihnen von Bonn vermuthlich schon direkt zugekommen , und Sie werden nach Gebühr darauf geantwortet haben .
+8-1	461-467	Andere	_	_
+8-2	468-478	erhebliche	_	_
+8-3	479-485	Klagen	_	_
+8-4	486-490	sind	_	_
+8-5	491-496	Ihnen	_	_
+8-6	497-500	von	_	_
+8-7	501-505	Bonn	*	PLACEmentioned
+8-8	506-517	vermuthlich	_	_
+8-9	518-523	schon	_	_
+8-10	524-530	direkt	_	_
+8-11	531-541	zugekommen	_	_
+8-12	542-543	,	_	_
+8-13	544-547	und	_	_
+8-14	548-551	Sie	_	_
+8-15	552-558	werden	_	_
+8-16	559-563	nach	_	_
+8-17	564-570	Gebühr	_	_
+8-18	571-577	darauf	_	_
+8-19	578-589	geantwortet	_	_
+8-20	590-595	haben	_	_
+8-21	596-597	.	_	_
+
+#Text=Unbegreiflich , daß so uralte Defekte noch immer nicht nofitt und gehoben seyn sollten \; jedenfalls fehlen dem Mann die Sachen so sehr zu den Einkassirungen , daß vielleicht an eine Diligencesendung gedacht werden muß .
+9-1	598-611	Unbegreiflich	_	_
+9-2	612-613	,	_	_
+9-3	614-617	daß	_	_
+9-4	618-620	so	_	_
+9-5	621-627	uralte	_	_
+9-6	628-635	Defekte	_	_
+9-7	636-640	noch	_	_
+9-8	641-646	immer	_	_
+9-9	647-652	nicht	_	_
+9-10	653-659	nofitt	_	_
+9-11	660-663	und	_	_
+9-12	664-671	gehoben	_	_
+9-13	672-676	seyn	_	_
+9-14	677-684	sollten	_	_
+9-15	685-686	\;	_	_
+9-16	687-697	jedenfalls	_	_
+9-17	698-704	fehlen	_	_
+9-18	705-708	dem	_	_
+9-19	709-713	Mann	_	_
+9-20	714-717	die	_	_
+9-21	718-724	Sachen	_	_
+9-22	725-727	so	_	_
+9-23	728-732	sehr	_	_
+9-24	733-735	zu	_	_
+9-25	736-739	den	_	_
+9-26	740-754	Einkassirungen	_	_
+9-27	755-756	,	_	_
+9-28	757-760	daß	_	_
+9-29	761-771	vielleicht	_	_
+9-30	772-774	an	_	_
+9-31	775-779	eine	_	_
+9-32	780-796	Diligencesendung	_	_
+9-33	797-804	gedacht	_	_
+9-34	805-811	werden	_	_
+9-35	812-815	muß	_	_
+9-36	816-817	.	_	_
+
+#Text=- An Geh .
+10-1	818-819	-	_	_
+10-2	820-822	An	_	_
+10-3	823-826	Geh	_	_
+10-4	827-828	.	_	_
+
+#Text=R. Bunsen habe ich geschrieben , daß die diesjährigen Annalen hier besorgt werden , von den Monumenten das erste Heft in Paris , das zweite von Ihnen .
+11-1	829-831	R.	_	_
+11-2	832-838	Bunsen	*	PERmentioned
+11-3	839-843	habe	_	_
+11-4	844-847	ich	_	_
+11-5	848-859	geschrieben	_	_
+11-6	860-861	,	_	_
+11-7	862-865	daß	_	_
+11-8	866-869	die	_	_
+11-9	870-882	diesjährigen	_	_
+11-10	883-890	Annalen	_	_
+11-11	891-895	hier	_	_
+11-12	896-903	besorgt	_	_
+11-13	904-910	werden	_	_
+11-14	911-912	,	_	_
+11-15	913-916	von	_	_
+11-16	917-920	den	_	_
+11-17	921-931	Monumenten	_	_
+11-18	932-935	das	_	_
+11-19	936-941	erste	_	_
+11-20	942-946	Heft	_	_
+11-21	947-949	in	_	_
+11-22	950-955	Paris	*	PLACEmentioned
+11-23	956-957	,	_	_
+11-24	958-961	das	_	_
+11-25	962-968	zweite	_	_
+11-26	969-972	von	_	_
+11-27	973-978	Ihnen	_	_
+11-28	979-980	.	_	_
+
+#Text=- Die zu Erläuterungstafeln von Geh .
+12-1	981-982	-	_	_
+12-2	983-986	Die	_	_
+12-3	987-989	zu	_	_
+12-4	990-1008	Erläuterungstafeln	_	_
+12-5	1009-1012	von	_	_
+12-6	1013-1016	Geh	_	_
+12-7	1017-1018	.	_	_
+
+#Text=R. Bunsens Erklärung des Durandschen Spiegels gehörigen Zeichnungen können für die hiesigen Annali hier besorgt werden .
+13-1	1019-1021	R.	_	_
+13-2	1022-1029	Bunsens	*	PERmentioned
+13-3	1030-1039	Erklärung	_	_
+13-4	1040-1043	des	_	_
+13-5	1044-1055	Durandschen	*[15]	OBJ[15]
+13-6	1056-1064	Spiegels	*[15]	OBJ[15]
+13-7	1065-1074	gehörigen	_	_
+13-8	1075-1086	Zeichnungen	_	_
+13-9	1087-1093	können	_	_
+13-10	1094-1097	für	_	_
+13-11	1098-1101	die	_	_
+13-12	1102-1110	hiesigen	_	_
+13-13	1111-1117	Annali	_	_
+13-14	1118-1122	hier	_	_
+13-15	1123-1130	besorgt	_	_
+13-16	1131-1137	werden	_	_
+13-17	1138-1139	.	_	_
+
+#Text=- Die vor der Helena staunenden Greise , laut Tiersch , gehören , glaube ich , nicht einer Spiegelzeichnung , sondern einem Relief .
+14-1	1140-1141	-	_	_
+14-2	1142-1145	Die	_	_
+14-3	1146-1149	vor	_	_
+14-4	1150-1153	der	_	_
+14-5	1154-1160	Helena	_	_
+14-6	1161-1171	staunenden	_	_
+14-7	1172-1178	Greise	_	_
+14-8	1179-1180	,	_	_
+14-9	1181-1185	laut	_	_
+14-10	1186-1193	Tiersch	*[16]	PERmentioned[16]
+14-11	1194-1195	,	_	_
+14-12	1196-1203	gehören	_	_
+14-13	1204-1205	,	_	_
+14-14	1206-1212	glaube	_	_
+14-15	1213-1216	ich	_	_
+14-16	1217-1218	,	_	_
+14-17	1219-1224	nicht	_	_
+14-18	1225-1230	einer	_	_
+14-19	1231-1247	Spiegelzeichnung	_	_
+14-20	1248-1249	,	_	_
+14-21	1250-1257	sondern	_	_
+14-22	1258-1263	einem	_	_
+14-23	1264-1270	Relief	*	OBJ
+14-24	1271-1272	.	_	_
+
+#Text=- Heine 's opuscula schaffte ich
+15-1	1273-1274	-	_	_
+15-2	1275-1280	Heine	*[17]	PERmentioned[17]
+15-3	1281-1283	's	*[17]	PERmentioned[17]
+15-4	1284-1292	opuscula	_	_
+15-5	1293-1301	schaffte	_	_
+15-6	1302-1305	ich	_	_

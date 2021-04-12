@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=112 Lepsius an Berlin , 9. März 1872 8 .
+1-1	0-3	112	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Berlin	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-26	9.	*[1]	DATEletter[1]
+1-7	27-31	März	*[1]	DATEletter[1]
+1-8	32-36	1872	*[1]	DATEletter[1]
+1-9	37-38	8	_	_
+1-10	39-40	.	_	_
+
+#Text=71/3 72 B. d . 9 .
+2-1	41-45	71/3	*[2]	DATErecieved[2]
+2-2	46-48	72	*[2]	DATErecieved[2]
+2-3	49-51	B.	_	_
+2-4	52-53	d	_	_
+2-5	54-55	.	_	_
+2-6	56-57	9	*[3]	DATEletter[3]
+2-7	58-59	.	*[3]	DATEletter[3]
+
+#Text=Mz .
+3-1	60-62	Mz	*[3]	DATEletter[3]
+3-2	63-64	.	*[3]	DATEletter[3]
+
+#Text=1872 Hierbei , verehrter Freund , liegen die Durchzeichnungen der 3 Blätter .
+4-1	65-69	1872	*[3]	DATEletter[3]
+4-2	70-77	Hierbei	_	_
+4-3	78-79	,	_	_
+4-4	80-89	verehrter	_	_
+4-5	90-96	Freund	_	_
+4-6	97-98	,	_	_
+4-7	99-105	liegen	_	_
+4-8	106-109	die	_	_
+4-9	110-126	Durchzeichnungen	_	_
+4-10	127-130	der	_	_
+4-11	131-132	3	_	_
+4-12	133-140	Blätter	_	_
+4-13	141-142	.	_	_
+
+#Text=Adler hatte niemand für die Arbeit , ebenso wenig reüssirte eine andre Empfehlung .
+5-1	143-148	Adler	*	PERmentioned
+5-2	149-154	hatte	_	_
+5-3	155-162	niemand	_	_
+5-4	163-166	für	_	_
+5-5	167-170	die	_	_
+5-6	171-177	Arbeit	_	_
+5-7	178-179	,	_	_
+5-8	180-186	ebenso	_	_
+5-9	187-192	wenig	_	_
+5-10	193-202	reüssirte	_	_
+5-11	203-207	eine	_	_
+5-12	208-213	andre	_	_
+5-13	214-224	Empfehlung	_	_
+5-14	225-226	.	_	_
+
+#Text=Ich habe sie daher durch einen ungeübten Zeichner machen lassen \; doch werden sie denke ich , ihren vorübergehnden Zweck erreichen .
+6-1	227-230	Ich	_	_
+6-2	231-235	habe	_	_
+6-3	236-239	sie	_	_
+6-4	240-245	daher	_	_
+6-5	246-251	durch	_	_
+6-6	252-257	einen	_	_
+6-7	258-267	ungeübten	_	_
+6-8	268-276	Zeichner	_	_
+6-9	277-283	machen	_	_
+6-10	284-290	lassen	_	_
+6-11	291-292	\;	_	_
+6-12	293-297	doch	_	_
+6-13	298-304	werden	_	_
+6-14	305-308	sie	_	_
+6-15	309-314	denke	_	_
+6-16	315-318	ich	_	_
+6-17	319-320	,	_	_
+6-18	321-326	ihren	_	_
+6-19	327-341	vorübergehnden	_	_
+6-20	342-347	Zweck	_	_
+6-21	348-357	erreichen	_	_
+6-22	358-359	.	_	_
+
+#Text=Adler hat die gewünschte Berechnung der ungefähr durch Reduktion zu ersparenden Kubik Meter nicht gemacht , empfiehlt aber die Zurückrückung des Gebäudes , so daß die Hintermauer des Neubaus auf die Vordermauer des Granaro aufgesetzt wird .
+7-1	360-365	Adler	*	PERmentioned
+7-2	366-369	hat	_	_
+7-3	370-373	die	_	_
+7-4	374-384	gewünschte	_	_
+7-5	385-395	Berechnung	_	_
+7-6	396-399	der	_	_
+7-7	400-408	ungefähr	_	_
+7-8	409-414	durch	_	_
+7-9	415-424	Reduktion	_	_
+7-10	425-427	zu	_	_
+7-11	428-439	ersparenden	_	_
+7-12	440-445	Kubik	_	_
+7-13	446-451	Meter	_	_
+7-14	452-457	nicht	_	_
+7-15	458-465	gemacht	_	_
+7-16	466-467	,	_	_
+7-17	468-477	empfiehlt	_	_
+7-18	478-482	aber	_	_
+7-19	483-486	die	_	_
+7-20	487-500	Zurückrückung	_	_
+7-21	501-504	des	_	_
+7-22	505-513	Gebäudes	_	_
+7-23	514-515	,	_	_
+7-24	516-518	so	_	_
+7-25	519-522	daß	_	_
+7-26	523-526	die	_	_
+7-27	527-538	Hintermauer	_	_
+7-28	539-542	des	_	_
+7-29	543-550	Neubaus	_	_
+7-30	551-554	auf	_	_
+7-31	555-558	die	_	_
+7-32	559-570	Vordermauer	_	_
+7-33	571-574	des	_	_
+7-34	575-582	Granaro	_	_
+7-35	583-593	aufgesetzt	_	_
+7-36	594-598	wird	_	_
+7-37	599-600	.	_	_
+
+#Text=- Es sei die bebaute Grundfläche möglichst klein zu halten um nicht zu viel Garten zu beanspruchen \; die Depots und Packräume so wie die ragazr zeria seien in den Granaro zu verlegen , der etwas zu erhöhen sei .
+8-1	601-602	-	_	_
+8-2	603-605	Es	_	_
+8-3	606-609	sei	_	_
+8-4	610-613	die	_	_
+8-5	614-621	bebaute	_	_
+8-6	622-633	Grundfläche	_	_
+8-7	634-643	möglichst	_	_
+8-8	644-649	klein	_	_
+8-9	650-652	zu	_	_
+8-10	653-659	halten	_	_
+8-11	660-662	um	_	_
+8-12	663-668	nicht	_	_
+8-13	669-671	zu	_	_
+8-14	672-676	viel	_	_
+8-15	677-683	Garten	_	_
+8-16	684-686	zu	_	_
+8-17	687-699	beanspruchen	_	_
+8-18	700-701	\;	_	_
+8-19	702-705	die	_	_
+8-20	706-712	Depots	_	_
+8-21	713-716	und	_	_
+8-22	717-726	Packräume	_	_
+8-23	727-729	so	_	_
+8-24	730-733	wie	_	_
+8-25	734-737	die	_	_
+8-26	738-744	ragazr	_	_
+8-27	745-750	zeria	_	_
+8-28	751-756	seien	_	_
+8-29	757-759	in	_	_
+8-30	760-763	den	_	_
+8-31	764-771	Granaro	_	_
+8-32	772-774	zu	_	_
+8-33	775-783	verlegen	_	_
+8-34	784-785	,	_	_
+8-35	786-789	der	_	_
+8-36	790-795	etwas	_	_
+8-37	796-798	zu	_	_
+8-38	799-806	erhöhen	_	_
+8-39	807-810	sei	_	_
+8-40	811-812	.	_	_
+
+#Text=Als nothwendigste Zimmer erschienen uns 1 Bibliotheks Saal , auf Zuwachs berechnet .
+9-1	813-816	Als	_	_
+9-2	817-830	nothwendigste	_	_
+9-3	831-837	Zimmer	_	_
+9-4	838-848	erschienen	_	_
+9-5	849-852	uns	_	_
+9-6	853-854	1	_	_
+9-7	855-866	Bibliotheks	_	_
+9-8	867-871	Saal	_	_
+9-9	872-873	,	_	_
+9-10	874-877	auf	_	_
+9-11	878-885	Zuwachs	_	_
+9-12	886-895	berechnet	_	_
+9-13	896-897	.	_	_
+
+#Text=1 Zimmer für den Apparat 1 Wohnung des Portiers ( 2 Stück , 1 Küche ) Wohnung des Hausdieners ( 2 Stück , 7 Küche ) Zimmer mit Cabinet für fremde Gelehrte N nn + Zimmer ohne Cabinet für Stipendiaten
+10-1	898-899	1	_	_
+10-2	900-906	Zimmer	_	_
+10-3	907-910	für	_	_
+10-4	911-914	den	_	_
+10-5	915-922	Apparat	_	_
+10-6	923-924	1	_	_
+10-7	925-932	Wohnung	_	_
+10-8	933-936	des	_	_
+10-9	937-945	Portiers	_	_
+10-10	946-947	(	_	_
+10-11	948-949	2	_	_
+10-12	950-955	Stück	_	_
+10-13	956-957	,	_	_
+10-14	958-959	1	_	_
+10-15	960-965	Küche	_	_
+10-16	966-967	)	_	_
+10-17	968-975	Wohnung	_	_
+10-18	976-979	des	_	_
+10-19	980-991	Hausdieners	_	_
+10-20	992-993	(	_	_
+10-21	994-995	2	_	_
+10-22	996-1001	Stück	_	_
+10-23	1002-1003	,	_	_
+10-24	1004-1005	7	_	_
+10-25	1006-1011	Küche	_	_
+10-26	1012-1013	)	_	_
+10-27	1014-1020	Zimmer	_	_
+10-28	1021-1024	mit	_	_
+10-29	1025-1032	Cabinet	_	_
+10-30	1033-1036	für	_	_
+10-31	1037-1043	fremde	_	_
+10-32	1044-1052	Gelehrte	_	_
+10-33	1053-1054	N	_	_
+10-34	1055-1057	nn	_	_
+10-35	1058-1059	+	_	_
+10-36	1060-1066	Zimmer	_	_
+10-37	1067-1071	ohne	_	_
+10-38	1072-1079	Cabinet	_	_
+10-39	1080-1083	für	_	_
+10-40	1084-1096	Stipendiaten	_	_

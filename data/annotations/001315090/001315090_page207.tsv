@@ -1,0 +1,197 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 30 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	30	*[3]	DATEletter[3]
+1-7	30-31	.	*[3]	DATEletter[3]
+
+#Text=Januar 1875 e/2 75 Berlin , d . 30 .
+2-1	32-38	Januar	*[3]	DATEletter[3]
+2-2	39-43	1875	*[3]	DATEletter[3]
+2-3	44-47	e/2	*[4]	DATErecieved[4]
+2-4	48-50	75	*[4]	DATErecieved[4]
+2-5	51-57	Berlin	*	PLACEfrom
+2-6	58-59	,	_	_
+2-7	60-61	d	_	_
+2-8	62-63	.	*[5]	DATEletter[5]
+2-9	64-66	30	*[5]	DATEletter[5]
+2-10	67-68	.	*[5]	DATEletter[5]
+
+#Text=Jan .
+3-1	69-72	Jan	*[5]	DATEletter[5]
+3-2	73-74	.	*[5]	DATEletter[5]
+
+#Text=1875 Verehrter Freund Meine beiden letzten Briefe kurz nach einander ( ich bitte um die data ) werden Sie erhalten haben , den gestrigen mit Anmeldung der Laspeyres'schen Zeichnungen .
+4-1	75-79	1875	*[5]	DATEletter[5]
+4-2	80-89	Verehrter	_	_
+4-3	90-96	Freund	_	_
+4-4	97-102	Meine	_	_
+4-5	103-109	beiden	_	_
+4-6	110-117	letzten	_	_
+4-7	118-124	Briefe	_	_
+4-8	125-129	kurz	_	_
+4-9	130-134	nach	_	_
+4-10	135-143	einander	_	_
+4-11	144-145	(	_	_
+4-12	146-149	ich	_	_
+4-13	150-155	bitte	_	_
+4-14	156-158	um	_	_
+4-15	159-162	die	_	_
+4-16	163-167	data	_	_
+4-17	168-169	)	_	_
+4-18	170-176	werden	_	_
+4-19	177-180	Sie	_	_
+4-20	181-189	erhalten	_	_
+4-21	190-195	haben	_	_
+4-22	196-197	,	_	_
+4-23	198-201	den	_	_
+4-24	202-211	gestrigen	_	_
+4-25	212-215	mit	_	_
+4-26	216-225	Anmeldung	_	_
+4-27	226-229	der	_	_
+4-28	230-245	Laspeyres'schen	*	PERmentioned
+4-29	246-257	Zeichnungen	_	_
+4-30	258-259	.	_	_
+
+#Text=Dressel 's Bewerbung ist eingegangen .
+5-1	260-267	Dressel	*[6]	PERmentioned[6]
+5-2	268-270	's	*[6]	PERmentioned[6]
+5-3	271-280	Bewerbung	_	_
+5-4	281-284	ist	_	_
+5-5	285-296	eingegangen	_	_
+5-6	297-298	.	_	_
+
+#Text=Wir schicken gern die Doktordissertation an die auswärtigen Mitglieder voraus , wenn wir 5 Exemplare davon erhalten , die dann wieder zurückgestellt werden können .
+6-1	299-302	Wir	_	_
+6-2	303-311	schicken	_	_
+6-3	312-316	gern	_	_
+6-4	317-320	die	_	_
+6-5	321-339	Doktordissertation	_	_
+6-6	340-342	an	_	_
+6-7	343-346	die	_	_
+6-8	347-358	auswärtigen	_	_
+6-9	359-369	Mitglieder	_	_
+6-10	370-376	voraus	_	_
+6-11	377-378	,	_	_
+6-12	379-383	wenn	_	_
+6-13	384-387	wir	_	_
+6-14	388-389	5	_	_
+6-15	390-399	Exemplare	_	_
+6-16	400-405	davon	_	_
+6-17	406-414	erhalten	_	_
+6-18	415-416	,	_	_
+6-19	417-420	die	_	_
+6-20	421-425	dann	_	_
+6-21	426-432	wieder	_	_
+6-22	433-447	zurückgestellt	_	_
+6-23	448-454	werden	_	_
+6-24	455-461	können	_	_
+6-25	462-463	.	_	_
+
+#Text=Über die Matz'schen Werke und Eichler wird also die General Versammlung entscheiden .
+7-1	464-468	Über	_	_
+7-2	469-472	die	_	_
+7-3	473-483	Matz'schen	_	_
+7-4	484-489	Werke	_	_
+7-5	490-493	und	_	_
+7-6	494-501	Eichler	*	PERmentioned
+7-7	502-506	wird	_	_
+7-8	507-511	also	_	_
+7-9	512-515	die	_	_
+7-10	516-523	General	_	_
+7-11	524-535	Versammlung	_	_
+7-12	536-547	entscheiden	_	_
+7-13	548-549	.	_	_
+
+#Text=Ich werde Klügmann und Robert nennen .
+8-1	550-553	Ich	_	_
+8-2	554-559	werde	_	_
+8-3	560-568	Klügmann	*	PERmentioned
+8-4	569-572	und	_	_
+8-5	573-579	Robert	*	PERmentioned
+8-6	580-586	nennen	_	_
+8-7	587-588	.	_	_
+
+#Text=Eine weitere officielle Anweisung die Gelder zu erheben werden Sie außer der meinigen , die so gemeint ist , nicht erhalten .
+9-1	589-593	Eine	_	_
+9-2	594-601	weitere	_	_
+9-3	602-612	officielle	_	_
+9-4	613-622	Anweisung	_	_
+9-5	623-626	die	_	_
+9-6	627-633	Gelder	_	_
+9-7	634-636	zu	_	_
+9-8	637-644	erheben	_	_
+9-9	645-651	werden	_	_
+9-10	652-655	Sie	_	_
+9-11	656-661	außer	_	_
+9-12	662-665	der	_	_
+9-13	666-674	meinigen	_	_
+9-14	675-676	,	_	_
+9-15	677-680	die	_	_
+9-16	681-683	so	_	_
+9-17	684-691	gemeint	_	_
+9-18	692-695	ist	_	_
+9-19	696-697	,	_	_
+9-20	698-703	nicht	_	_
+9-21	704-712	erhalten	_	_
+9-22	713-714	.	_	_
+
+#Text=Die Provision steckt immer in der Berechnung des Tageskurses der fremden Münze .
+10-1	715-718	Die	_	_
+10-2	719-728	Provision	_	_
+10-3	729-735	steckt	_	_
+10-4	736-741	immer	_	_
+10-5	742-744	in	_	_
+10-6	745-748	der	_	_
+10-7	749-759	Berechnung	_	_
+10-8	760-763	des	_	_
+10-9	764-775	Tageskurses	_	_
+10-10	776-779	der	_	_
+10-11	780-787	fremden	_	_
+10-12	788-793	Münze	_	_
+10-13	794-795	.	_	_
+
+#Text=Mommsen hat Ihnen durch die Legationskasse das erwartete Geld gesendet .
+11-1	796-803	Mommsen	*	PERmentioned
+11-2	804-807	hat	_	_
+11-3	808-813	Ihnen	_	_
+11-4	814-819	durch	_	_
+11-5	820-823	die	_	_
+11-6	824-838	Legationskasse	_	_
+11-7	839-842	das	_	_
+11-8	843-852	erwartete	_	_
+11-9	853-857	Geld	_	_
+11-10	858-866	gesendet	_	_
+11-11	867-868	.	_	_
+
+#Text=Für weitere Auslagen werden Sie wohl immer genug in Cassa haben \; sonst ziehen Sie eben auf die Legationskasse auf Rechnung der Central Di-
+12-1	869-872	Für	_	_
+12-2	873-880	weitere	_	_
+12-3	881-889	Auslagen	_	_
+12-4	890-896	werden	_	_
+12-5	897-900	Sie	_	_
+12-6	901-905	wohl	_	_
+12-7	906-911	immer	_	_
+12-8	912-917	genug	_	_
+12-9	918-920	in	_	_
+12-10	921-926	Cassa	_	_
+12-11	927-932	haben	_	_
+12-12	933-934	\;	_	_
+12-13	935-940	sonst	_	_
+12-14	941-947	ziehen	_	_
+12-15	948-951	Sie	_	_
+12-16	952-956	eben	_	_
+12-17	957-960	auf	_	_
+12-18	961-964	die	_	_
+12-19	965-979	Legationskasse	_	_
+12-20	980-983	auf	_	_
+12-21	984-992	Rechnung	_	_
+12-22	993-996	der	_	_
+12-23	997-1004	Central	_	_
+12-24	1005-1008	Di-	_	_

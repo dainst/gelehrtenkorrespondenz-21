@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=595 Lepsius an Henzen Berlin , 15. November 1874 B- 19/XI 74 r . 20/11 74 Berlin , den 15 .
+1-1	0-3	595	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	15.	*[1]	DATEletter[1]
+1-8	35-43	November	*[1]	DATEletter[1]
+1-9	44-48	1874	*[1]	DATEletter[1]
+1-10	49-51	B-	_	_
+1-11	52-57	19/XI	*[2]	DATErecieved[2]
+1-12	58-60	74	*[2]	DATErecieved[2]
+1-13	61-62	r	_	_
+1-14	63-64	.	_	_
+1-15	65-70	20/11	*[3]	DATEanswered[3]
+1-16	71-73	74	*[3]	DATEanswered[3]
+1-17	74-80	Berlin	*	PLACEfrom
+1-18	81-82	,	_	_
+1-19	83-86	den	_	_
+1-20	87-89	15	*[4]	DATEletter[4]
+1-21	90-91	.	*[4]	DATEletter[4]
+
+#Text=Nov .
+2-1	92-95	Nov	*[4]	DATEletter[4]
+2-2	96-97	.	*[4]	DATEletter[4]
+
+#Text=1874 Verehrter Freund Ihre Liste der neuen Mitglieder für den 9. Dezember habe ich erhalten .
+3-1	98-102	1874	*[4]	DATEletter[4]
+3-2	103-112	Verehrter	_	_
+3-3	113-119	Freund	_	_
+3-4	120-124	Ihre	_	_
+3-5	125-130	Liste	_	_
+3-6	131-134	der	_	_
+3-7	135-140	neuen	_	_
+3-8	141-151	Mitglieder	_	_
+3-9	152-155	für	_	_
+3-10	156-159	den	_	_
+3-11	160-162	9.	*[5]	DATEmentioned[5]
+3-12	163-171	Dezember	*[5]	DATEmentioned[5]
+3-13	172-176	habe	_	_
+3-14	177-180	ich	_	_
+3-15	181-189	erhalten	_	_
+3-16	190-191	.	_	_
+
+#Text=Es fehlen aber noch die Vornamen für die Herren Covazzini , duca di Castromediano , de Simone und Barba .
+4-1	192-194	Es	_	_
+4-2	195-201	fehlen	_	_
+4-3	202-206	aber	_	_
+4-4	207-211	noch	_	_
+4-5	212-215	die	_	_
+4-6	216-224	Vornamen	_	_
+4-7	225-228	für	_	_
+4-8	229-232	die	_	_
+4-9	233-239	Herren	_	_
+4-10	240-249	Covazzini	*	PERmentioned
+4-11	250-251	,	_	_
+4-12	252-256	duca	_	_
+4-13	257-259	di	_	_
+4-14	260-273	Castromediano	*	PLACEmentioned
+4-15	274-275	,	_	_
+4-16	276-278	de	*[6]	PERmentioned[6]
+4-17	279-285	Simone	*[6]	PERmentioned[6]
+4-18	286-289	und	_	_
+4-19	290-295	Barba	*	PERmentioned
+4-20	296-297	.	_	_
+
+#Text=Ehe diese Namen nachgeliefert sind , können die lateinischen Diplome nicht wohl ausgefertigt werden , wenn wir nicht zu Caius und Titius greifen wollen .
+5-1	298-301	Ehe	_	_
+5-2	302-307	diese	_	_
+5-3	308-313	Namen	_	_
+5-4	314-327	nachgeliefert	_	_
+5-5	328-332	sind	_	_
+5-6	333-334	,	_	_
+5-7	335-341	können	_	_
+5-8	342-345	die	_	_
+5-9	346-358	lateinischen	_	_
+5-10	359-366	Diplome	_	_
+5-11	367-372	nicht	_	_
+5-12	373-377	wohl	_	_
+5-13	378-390	ausgefertigt	_	_
+5-14	391-397	werden	_	_
+5-15	398-399	,	_	_
+5-16	400-404	wenn	_	_
+5-17	405-408	wir	_	_
+5-18	409-414	nicht	_	_
+5-19	415-417	zu	_	_
+5-20	418-423	Caius	_	_
+5-21	424-427	und	_	_
+5-22	428-434	Titius	_	_
+5-23	435-442	greifen	_	_
+5-24	443-449	wollen	_	_
+5-25	450-451	.	_	_
+
+#Text=Von Leone Nardoni wäre es gut einen Titel oder Beschäftigung zu kennen , wäre es auch nur die Beschäftigung mit sich selbst als proprietario wie der Sig .
+6-1	452-455	Von	_	_
+6-2	456-461	Leone	*[7]	PERmentioned[7]
+6-3	462-469	Nardoni	*[7]	PERmentioned[7]
+6-4	470-474	wäre	_	_
+6-5	475-477	es	_	_
+6-6	478-481	gut	_	_
+6-7	482-487	einen	_	_
+6-8	488-493	Titel	_	_
+6-9	494-498	oder	_	_
+6-10	499-512	Beschäftigung	_	_
+6-11	513-515	zu	_	_
+6-12	516-522	kennen	_	_
+6-13	523-524	,	_	_
+6-14	525-529	wäre	_	_
+6-15	530-532	es	_	_
+6-16	533-537	auch	_	_
+6-17	538-541	nur	_	_
+6-18	542-545	die	_	_
+6-19	546-559	Beschäftigung	_	_
+6-20	560-563	mit	_	_
+6-21	564-568	sich	_	_
+6-22	569-575	selbst	_	_
+6-23	576-579	als	_	_
+6-24	580-592	proprietario	_	_
+6-25	593-596	wie	_	_
+6-26	597-600	der	_	_
+6-27	601-604	Sig	_	_
+6-28	605-606	.	_	_
+
+#Text=Bosco .
+7-1	607-612	Bosco	*	PERmentioned
+7-2	613-614	.	_	_
+
+#Text=Die 50 r vom 17.7 Oktober habe ich allerdings am 20 .
+8-1	615-618	Die	_	_
+8-2	619-621	50	_	_
+8-3	622-623	r	_	_
+8-4	624-627	vom	_	_
+8-5	628-632	17.7	*[8]	DATEmentioned[8]
+8-6	633-640	Oktober	*[8]	DATEmentioned[8]
+8-7	641-645	habe	_	_
+8-8	646-649	ich	_	_
+8-9	650-660	allerdings	_	_
+8-10	661-663	am	_	_
+8-11	664-666	20	*[9]	DATEmentioned[9]
+8-12	667-668	.	*[9]	DATEmentioned[9]
+
+#Text=Oktober richtig erhalten .
+9-1	669-676	Oktober	*[9]	DATEmentioned[9]
+9-2	677-684	richtig	_	_
+9-3	685-693	erhalten	_	_
+9-4	694-695	.	_	_
+
+#Text=Ich glaubte dies in meinem Brief vom 2. November gethan zu haben , und bitte um Entschuldigung , daß dies nicht geschehen ist .
+10-1	696-699	Ich	_	_
+10-2	700-707	glaubte	_	_
+10-3	708-712	dies	_	_
+10-4	713-715	in	_	_
+10-5	716-722	meinem	_	_
+10-6	723-728	Brief	_	_
+10-7	729-732	vom	_	_
+10-8	733-735	2.	*[10]	DATEmentioned[10]
+10-9	736-744	November	*[10]	DATEmentioned[10]
+10-10	745-751	gethan	_	_
+10-11	752-754	zu	_	_
+10-12	755-760	haben	_	_
+10-13	761-762	,	_	_
+10-14	763-766	und	_	_
+10-15	767-772	bitte	_	_
+10-16	773-775	um	_	_
+10-17	776-790	Entschuldigung	_	_
+10-18	791-792	,	_	_
+10-19	793-796	daß	_	_
+10-20	797-801	dies	_	_
+10-21	802-807	nicht	_	_
+10-22	808-817	geschehen	_	_
+10-23	818-821	ist	_	_
+10-24	822-823	.	_	_
+
+#Text=Es häufen sich jetzt die Geschäfte so , daß manchmal schwer durchzukommen ist .
+11-1	824-826	Es	_	_
+11-2	827-833	häufen	_	_
+11-3	834-838	sich	_	_
+11-4	839-844	jetzt	_	_
+11-5	845-848	die	_	_
+11-6	849-858	Geschäfte	_	_
+11-7	859-861	so	_	_
+11-8	862-863	,	_	_
+11-9	864-867	daß	_	_
+11-10	868-876	manchmal	_	_
+11-11	877-883	schwer	_	_
+11-12	884-897	durchzukommen	_	_
+11-13	898-901	ist	_	_
+11-14	902-903	.	_	_
+
+#Text=Ich werde Ihnen hier dasselbe Siegel machen lassen , das wir hier führen , ein wenig kleiner als das sroße Diplomsiegel .
+12-1	904-907	Ich	_	_
+12-2	908-913	werde	_	_
+12-3	914-919	Ihnen	_	_
+12-4	920-924	hier	_	_
+12-5	925-933	dasselbe	_	_
+12-6	934-940	Siegel	_	_
+12-7	941-947	machen	_	_
+12-8	948-954	lassen	_	_
+12-9	955-956	,	_	_
+12-10	957-960	das	_	_
+12-11	961-964	wir	_	_
+12-12	965-969	hier	_	_
+12-13	970-976	führen	_	_
+12-14	977-978	,	_	_
+12-15	979-982	ein	_	_
+12-16	983-988	wenig	_	_
+12-17	989-996	kleiner	_	_
+12-18	997-1000	als	_	_
+12-19	1001-1004	das	_	_
+12-20	1005-1010	sroße	_	_
+12-21	1011-1023	Diplomsiegel	_	_
+12-22	1024-1025	.	_	_
+
+#Text=Den Titel Instituto di corrispondenza archeologica haben wir als zu schwerfällig aufge-
+13-1	1026-1029	Den	_	_
+13-2	1030-1035	Titel	_	_
+13-3	1036-1045	Instituto	_	_
+13-4	1046-1048	di	_	_
+13-5	1049-1063	corrispondenza	_	_
+13-6	1064-1076	archeologica	_	_
+13-7	1077-1082	haben	_	_
+13-8	1083-1086	wir	_	_
+13-9	1087-1090	als	_	_
+13-10	1091-1093	zu	_	_
+13-11	1094-1106	schwerfällig	_	_
+13-12	1107-1113	aufge-	_	_

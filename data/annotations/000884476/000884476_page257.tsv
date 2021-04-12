@@ -1,0 +1,251 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=195 Gerhard an Braun Berlin , 15 .
+1-1	0-3	195	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	15	*[4]	DATEletter[4]
+1-8	33-34	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1835 Ich wünsche von Herzen diese Quälereien aus dem Gesicht zu bekommen .
+2-1	35-42	Oktober	*[4]	DATEletter[4]
+2-2	43-47	1835	*[4]	DATEletter[4]
+2-3	48-51	Ich	_	_
+2-4	52-59	wünsche	_	_
+2-5	60-63	von	_	_
+2-6	64-70	Herzen	_	_
+2-7	71-76	diese	_	_
+2-8	77-87	Quälereien	_	_
+2-9	88-91	aus	_	_
+2-10	92-95	dem	_	_
+2-11	96-103	Gesicht	_	_
+2-12	104-106	zu	_	_
+2-13	107-115	bekommen	_	_
+2-14	116-117	.	_	_
+
+#Text=Morgen wird der ehrliche Lekzow begraben , dem ich ein langes Leben gern gegönnt hätte \; kommt Brühl erst zurück , so werden wol einige Köpfe mit Tölker losgehn .
+3-1	118-124	Morgen	_	_
+3-2	125-129	wird	_	_
+3-3	130-133	der	_	_
+3-4	134-142	ehrliche	_	_
+3-5	143-149	Lekzow	*	PERmentioned
+3-6	150-158	begraben	_	_
+3-7	159-160	,	_	_
+3-8	161-164	dem	_	_
+3-9	165-168	ich	_	_
+3-10	169-172	ein	_	_
+3-11	173-179	langes	_	_
+3-12	180-185	Leben	_	_
+3-13	186-190	gern	_	_
+3-14	191-198	gegönnt	_	_
+3-15	199-204	hätte	_	_
+3-16	205-206	\;	_	_
+3-17	207-212	kommt	_	_
+3-18	213-218	Brühl	*	PERmentioned
+3-19	219-223	erst	_	_
+3-20	224-230	zurück	_	_
+3-21	231-232	,	_	_
+3-22	233-235	so	_	_
+3-23	236-242	werden	_	_
+3-24	243-246	wol	_	_
+3-25	247-253	einige	_	_
+3-26	254-259	Köpfe	_	_
+3-27	260-263	mit	_	_
+3-28	264-270	Tölker	*	PERmentioned
+3-29	271-278	losgehn	_	_
+3-30	279-280	.	_	_
+
+#Text=Sagen Sie Lanci daß der streitige Artikel der aus De Wittes Angabe mir 26 Scudi Credite hinzufügt mir mur Partiell angehört .
+4-1	281-286	Sagen	_	_
+4-2	287-290	Sie	_	_
+4-3	291-296	Lanci	*	PERmentioned
+4-4	297-300	daß	_	_
+4-5	301-304	der	_	_
+4-6	305-314	streitige	_	_
+4-7	315-322	Artikel	_	_
+4-8	323-326	der	_	_
+4-9	327-330	aus	_	_
+4-10	331-333	De	*[9]	PERmentioned[9]
+4-11	334-340	Wittes	*[9]	PERmentioned[9]
+4-12	341-347	Angabe	_	_
+4-13	348-351	mir	_	_
+4-14	352-354	26	_	_
+4-15	355-360	Scudi	_	_
+4-16	361-368	Credite	_	_
+4-17	369-378	hinzufügt	_	_
+4-18	379-382	mir	_	_
+4-19	383-386	mur	_	_
+4-20	387-395	Partiell	_	_
+4-21	396-404	angehört	_	_
+4-22	405-406	.	_	_
+
+#Text=Spettano a me i 26 fr. 45 dell'opera Canina , ma la somma dell'opera di Micali spetta al Panofka , e quella della Mimica al De Jorio stesso .
+5-1	407-415	Spettano	_	_
+5-2	416-417	a	_	_
+5-3	418-420	me	_	_
+5-4	421-422	i	_	_
+5-5	423-425	26	_	_
+5-6	426-429	fr.	_	_
+5-7	430-432	45	_	_
+5-8	433-443	dell'opera	_	_
+5-9	444-450	Canina	*	PERmentioned
+5-10	451-452	,	_	_
+5-11	453-455	ma	_	_
+5-12	456-458	la	_	_
+5-13	459-464	somma	_	_
+5-14	465-475	dell'opera	_	_
+5-15	476-478	di	_	_
+5-16	479-485	Micali	*	PERmentioned
+5-17	486-492	spetta	_	_
+5-18	493-495	al	_	_
+5-19	496-503	Panofka	*	PERmentioned
+5-20	504-505	,	_	_
+5-21	506-507	e	_	_
+5-22	508-514	quella	_	_
+5-23	515-520	della	_	_
+5-24	521-527	Mimica	_	_
+5-25	528-530	al	_	_
+5-26	531-533	De	*[13]	PERmentioned[13]
+5-27	534-539	Jorio	*[13]	PERmentioned[13]
+5-28	540-546	stesso	_	_
+5-29	547-548	.	_	_
+
+#Text=Einen Beischluß an Campanari hoffe ich noch zu Stande zu bringen .
+6-1	549-554	Einen	_	_
+6-2	555-564	Beischluß	_	_
+6-3	565-567	an	_	_
+6-4	568-577	Campanari	*	PERmentioned
+6-5	578-583	hoffe	_	_
+6-6	584-587	ich	_	_
+6-7	588-592	noch	_	_
+6-8	593-595	zu	_	_
+6-9	596-602	Stande	_	_
+6-10	603-605	zu	_	_
+6-11	606-613	bringen	_	_
+6-12	614-615	.	_	_
+
+#Text=Gott behüte Sie , mein theurer Freund \| !
+7-1	616-620	Gott	_	_
+7-2	621-627	behüte	_	_
+7-3	628-631	Sie	_	_
+7-4	632-633	,	_	_
+7-5	634-638	mein	_	_
+7-6	639-646	theurer	_	_
+7-7	647-653	Freund	_	_
+7-8	654-655	\|	_	_
+7-9	656-657	!	_	_
+
+#Text=Der Ihrige Gerhard Die von Wolff restaurierte Statue wünsche ich bei Gelegenheit eines Museumtransportes hieherzubekommen \; Wolff selbst wird Ihnentbesi @ k Eagen können , sobald sich eine Gelegenheit dazu darbietet .
+8-1	658-661	Der	_	_
+8-2	662-668	Ihrige	_	_
+8-3	669-676	Gerhard	*	PERauthor
+8-4	677-680	Die	_	_
+8-5	681-684	von	_	_
+8-6	685-690	Wolff	*	PERmentioned
+8-7	691-703	restaurierte	_	_
+8-8	704-710	Statue	*	OBJ
+8-9	711-718	wünsche	_	_
+8-10	719-722	ich	_	_
+8-11	723-726	bei	_	_
+8-12	727-738	Gelegenheit	_	_
+8-13	739-744	eines	_	_
+8-14	745-762	Museumtransportes	_	_
+8-15	763-779	hieherzubekommen	_	_
+8-16	780-781	\;	_	_
+8-17	782-787	Wolff	*	PERmentioned
+8-18	788-794	selbst	_	_
+8-19	795-799	wird	_	_
+8-20	800-810	Ihnentbesi	_	_
+8-21	811-812	@	_	_
+8-22	813-814	k	_	_
+8-23	815-820	Eagen	_	_
+8-24	821-827	können	_	_
+8-25	828-829	,	_	_
+8-26	830-836	sobald	_	_
+8-27	837-841	sich	_	_
+8-28	842-846	eine	_	_
+8-29	847-858	Gelegenheit	_	_
+8-30	859-863	dazu	_	_
+8-31	864-873	darbietet	_	_
+8-32	874-875	.	_	_
+
+#Text=Grüßen Sie ihn \; ich erwarte eine etwas ruhigere Zeit um ihm zu schreiben .
+9-1	876-882	Grüßen	_	_
+9-2	883-886	Sie	_	_
+9-3	887-890	ihn	_	_
+9-4	891-892	\;	_	_
+9-5	893-896	ich	_	_
+9-6	897-904	erwarte	_	_
+9-7	905-909	eine	_	_
+9-8	910-915	etwas	_	_
+9-9	916-924	ruhigere	_	_
+9-10	925-929	Zeit	_	_
+9-11	930-932	um	_	_
+9-12	933-936	ihm	_	_
+9-13	937-939	zu	_	_
+9-14	940-949	schreiben	_	_
+9-15	950-951	.	_	_
+
+#Text=Was ist aus dem hölzernen Schild `` von Giulio Romano '' den Campanari nur fürs Museum anbot ?
+10-1	952-955	Was	_	_
+10-2	956-959	ist	_	_
+10-3	960-963	aus	_	_
+10-4	964-967	dem	_	_
+10-5	968-977	hölzernen	_	_
+10-6	978-984	Schild	_	_
+10-7	985-987	``	_	_
+10-8	988-991	von	_	_
+10-9	992-998	Giulio	*[19]	PERmentioned[19]
+10-10	999-1005	Romano	*[19]	PERmentioned[19]
+10-11	1006-1008	''	_	_
+10-12	1009-1012	den	_	_
+10-13	1013-1022	Campanari	*	PERmentioned
+10-14	1023-1026	nur	_	_
+10-15	1027-1031	fürs	_	_
+10-16	1032-1038	Museum	*	ORGmentioned
+10-17	1039-1044	anbot	_	_
+10-18	1045-1046	?	_	_
+
+#Text=Irgend eine verlorne Ausgrabungsnotiz für das Ist .
+11-1	1047-1053	Irgend	_	_
+11-2	1054-1058	eine	_	_
+11-3	1059-1067	verlorne	_	_
+11-4	1068-1084	Ausgrabungsnotiz	_	_
+11-5	1085-1088	für	_	_
+11-6	1089-1092	das	_	_
+11-7	1093-1096	Ist	_	_
+11-8	1097-1098	.	_	_
+
+#Text=Bl . wäre mir sehr lieb , es hat große Ebbe .
+12-1	1099-1101	Bl	_	_
+12-2	1102-1103	.	_	_
+12-3	1104-1108	wäre	_	_
+12-4	1109-1112	mir	_	_
+12-5	1113-1117	sehr	_	_
+12-6	1118-1122	lieb	_	_
+12-7	1123-1124	,	_	_
+12-8	1125-1127	es	_	_
+12-9	1128-1131	hat	_	_
+12-10	1132-1137	große	_	_
+12-11	1138-1142	Ebbe	_	_
+12-12	1143-1144	.	_	_
+
+#Text=Giebt mir Kramer nichts , über die griechische Reise ?
+13-1	1145-1150	Giebt	_	_
+13-2	1151-1154	mir	_	_
+13-3	1155-1161	Kramer	*	PERmentioned
+13-4	1162-1168	nichts	_	_
+13-5	1169-1170	,	_	_
+13-6	1171-1175	über	_	_
+13-7	1176-1179	die	_	_
+13-8	1180-1191	griechische	_	_
+13-9	1192-1197	Reise	_	_
+13-10	1198-1199	?	_	_
+
+#Text=Grüßen
+14-1	1200-1206	Grüßen	_	_

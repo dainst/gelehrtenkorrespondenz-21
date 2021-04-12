@@ -1,0 +1,301 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=231 Braun an Gerhard Rom , 16. Dezember 1839 Sig .
+1-1	0-3	231	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	16.	*[6]	DATEletter[6]
+1-8	31-39	Dezember	*[6]	DATEletter[6]
+1-9	40-44	1839	*[6]	DATEletter[6]
+1-10	45-48	Sig	_	_
+1-11	49-50	.	_	_
+
+#Text=Cav .
+2-1	51-54	Cav	_	_
+2-2	55-56	.	_	_
+
+#Text=Gerhard Berlin .
+3-1	57-64	Gerhard	*	PERaddressee
+3-2	65-71	Berlin	*	PLACEfrom
+3-3	72-73	.	_	_
+
+#Text=Roma li 16 Debre 1839 .
+4-1	74-78	Roma	*	PLACEfrom
+4-2	79-81	li	_	_
+4-3	82-84	16	*[8]	DATEletter[8]
+4-4	85-90	Debre	*[8]	DATEletter[8]
+4-5	91-95	1839	*[8]	DATEletter[8]
+4-6	96-97	.	_	_
+
+#Text=Hochverehrtester Freund !
+5-1	98-114	Hochverehrtester	_	_
+5-2	115-121	Freund	_	_
+5-3	122-123	!	_	_
+
+#Text=Ich beantworte Ihre lieben Briefe vom 23 November und 1 Dezember , ersterer ist über Wien sehr langsam ( in 19 Tagen ) hier eingetroffen .
+6-1	124-127	Ich	_	_
+6-2	128-138	beantworte	_	_
+6-3	139-143	Ihre	_	_
+6-4	144-150	lieben	_	_
+6-5	151-157	Briefe	_	_
+6-6	158-161	vom	_	_
+6-7	162-164	23	*[9]	DATEmentioned[9]
+6-8	165-173	November	*[9]	DATEmentioned[9]
+6-9	174-177	und	_	_
+6-10	178-179	1	*[10]	DATEmentioned[10]
+6-11	180-188	Dezember	*[10]	DATEmentioned[10]
+6-12	189-190	,	_	_
+6-13	191-199	ersterer	_	_
+6-14	200-203	ist	_	_
+6-15	204-208	über	_	_
+6-16	209-213	Wien	*	PLACEmentioned
+6-17	214-218	sehr	_	_
+6-18	219-226	langsam	_	_
+6-19	227-228	(	_	_
+6-20	229-231	in	_	_
+6-21	232-234	19	_	_
+6-22	235-240	Tagen	_	_
+6-23	241-242	)	_	_
+6-24	243-247	hier	_	_
+6-25	248-260	eingetroffen	_	_
+6-26	261-262	.	_	_
+
+#Text=Sie wünschen nachträgliche Mittheilungen über meine Reise : Cassel habe ich nicht berührt .
+7-1	263-266	Sie	_	_
+7-2	267-275	wünschen	_	_
+7-3	276-289	nachträgliche	_	_
+7-4	290-303	Mittheilungen	_	_
+7-5	304-308	über	_	_
+7-6	309-314	meine	_	_
+7-7	315-320	Reise	_	_
+7-8	321-322	:	_	_
+7-9	323-329	Cassel	*	PLACEmentioned
+7-10	330-334	habe	_	_
+7-11	335-338	ich	_	_
+7-12	339-344	nicht	_	_
+7-13	345-352	berührt	_	_
+7-14	353-354	.	_	_
+
+#Text=In Frankfurt sah ich Herrn von Sydow .
+8-1	355-357	In	_	_
+8-2	358-367	Frankfurt	*	PLACEmentioned
+8-3	368-371	sah	_	_
+8-4	372-375	ich	_	_
+8-5	376-381	Herrn	_	_
+8-6	382-385	von	*[14]	PERmentioned[14]
+8-7	386-391	Sydow	*[14]	PERmentioned[14]
+8-8	392-393	.	_	_
+
+#Text=In Bonn habe ich 8 sehr glückliche Tage verbracht .
+9-1	394-396	In	_	_
+9-2	397-401	Bonn	*	PLACEmentioned
+9-3	402-406	habe	_	_
+9-4	407-410	ich	_	_
+9-5	411-412	8	_	_
+9-6	413-417	sehr	_	_
+9-7	418-428	glückliche	_	_
+9-8	429-433	Tage	_	_
+9-9	434-443	verbracht	_	_
+9-10	444-445	.	_	_
+
+#Text=Welcker war über die Maßen liebenswürdig .
+10-1	446-453	Welcker	*	PERmentioned
+10-2	454-457	war	_	_
+10-3	458-462	über	_	_
+10-4	463-466	die	_	_
+10-5	467-472	Maßen	_	_
+10-6	473-486	liebenswürdig	_	_
+10-7	487-488	.	_	_
+
+#Text=Wir haben viel , sehr viel Zeit mit einander verbracht .
+11-1	489-492	Wir	_	_
+11-2	493-498	haben	_	_
+11-3	499-503	viel	_	_
+11-4	504-505	,	_	_
+11-5	506-510	sehr	_	_
+11-6	511-515	viel	_	_
+11-7	516-520	Zeit	_	_
+11-8	521-524	mit	_	_
+11-9	525-533	einander	_	_
+11-10	534-543	verbracht	_	_
+11-11	544-545	.	_	_
+
+#Text=Naumann ist weniger zugänglich , aber auch sehr lieb und freundlich .
+12-1	546-553	Naumann	*	PERmentioned
+12-2	554-557	ist	_	_
+12-3	558-565	weniger	_	_
+12-4	566-576	zugänglich	_	_
+12-5	577-578	,	_	_
+12-6	579-583	aber	_	_
+12-7	584-588	auch	_	_
+12-8	589-593	sehr	_	_
+12-9	594-598	lieb	_	_
+12-10	599-602	und	_	_
+12-11	603-613	freundlich	_	_
+12-12	614-615	.	_	_
+
+#Text=In Stuttgart habe ich Cotta verfehlt .
+13-1	616-618	In	_	_
+13-2	619-628	Stuttgart	*	PLACEmentioned
+13-3	629-633	habe	_	_
+13-4	634-637	ich	_	_
+13-5	638-643	Cotta	*	PERmentioned
+13-6	644-652	verfehlt	_	_
+13-7	653-654	.	_	_
+
+#Text=In Carlsruhe sah ich die Antiken und den Großherzog .
+14-1	655-657	In	_	_
+14-2	658-667	Carlsruhe	*	PLACEmentioned
+14-3	668-671	sah	_	_
+14-4	672-675	ich	_	_
+14-5	676-679	die	_	_
+14-6	680-687	Antiken	_	_
+14-7	688-691	und	_	_
+14-8	692-695	den	_	_
+14-9	696-706	Großherzog	_	_
+14-10	707-708	.	_	_
+
+#Text=In Heidelberg hat mir Crenzerns sein Mythreum gezeigt .
+15-1	709-711	In	_	_
+15-2	712-722	Heidelberg	*	PLACEmentioned
+15-3	723-726	hat	_	_
+15-4	727-730	mir	_	_
+15-5	731-740	Crenzerns	*	PERmentioned
+15-6	741-745	sein	_	_
+15-7	746-754	Mythreum	_	_
+15-8	755-762	gezeigt	_	_
+15-9	763-764	.	_	_
+
+#Text=In München gab 's nichts Neues .
+16-1	765-767	In	_	_
+16-2	768-775	München	*	PLACEmentioned
+16-3	776-779	gab	_	_
+16-4	780-782	's	_	_
+16-5	783-789	nichts	_	_
+16-6	790-795	Neues	_	_
+16-7	796-797	.	_	_
+
+#Text=Schelling spricht definitiv vom Publiciren .
+17-1	798-807	Schelling	*	PERmentioned
+17-2	808-815	spricht	_	_
+17-3	816-825	definitiv	_	_
+17-4	826-829	vom	_	_
+17-5	830-840	Publiciren	_	_
+17-6	841-842	.	_	_
+
+#Text=Meyer buhlt um seine jüngste Tochter .
+18-1	843-848	Meyer	*	PERmentioned
+18-2	849-854	buhlt	_	_
+18-3	855-857	um	_	_
+18-4	858-863	seine	_	_
+18-5	864-871	jüngste	_	_
+18-6	872-879	Tochter	_	_
+18-7	880-881	.	_	_
+
+#Text=Vater Thiersch schmachtet nach den Vasen .
+19-1	882-887	Vater	_	_
+19-2	888-896	Thiersch	*	PERmentioned
+19-3	897-907	schmachtet	_	_
+19-4	908-912	nach	_	_
+19-5	913-916	den	_	_
+19-6	917-922	Vasen	*	OBJ
+19-7	923-924	.	_	_
+
+#Text=Streber zeigt Münzen vor .
+20-1	925-932	Streber	*	PERmentioned
+20-2	933-938	zeigt	_	_
+20-3	939-945	Münzen	*	OBJ
+20-4	946-949	vor	_	_
+20-5	950-951	.	_	_
+
+#Text=Ihre Platten sind noch nicht abgeschliffen , sollen aber bald daran kommen .
+21-1	952-956	Ihre	_	_
+21-2	957-964	Platten	_	_
+21-3	965-969	sind	_	_
+21-4	970-974	noch	_	_
+21-5	975-980	nicht	_	_
+21-6	981-994	abgeschliffen	_	_
+21-7	995-996	,	_	_
+21-8	997-1003	sollen	_	_
+21-9	1004-1008	aber	_	_
+21-10	1009-1013	bald	_	_
+21-11	1014-1019	daran	_	_
+21-12	1020-1026	kommen	_	_
+21-13	1027-1028	.	_	_
+
+#Text=Käufliche Antiken : 1 , Papandriopulo hat ein interessantes aus Argos griechisches Relief heimgeführt vorstellend Leda mit dem Schwane , bei einem Altar und Eichbaum , rechts eilt Amor herbei .
+22-1	1029-1038	Käufliche	_	_
+22-2	1039-1046	Antiken	_	_
+22-3	1047-1048	:	_	_
+22-4	1049-1050	1	_	_
+22-5	1051-1052	,	_	_
+22-6	1053-1066	Papandriopulo	*	PERmentioned
+22-7	1067-1070	hat	_	_
+22-8	1071-1074	ein	_	_
+22-9	1075-1088	interessantes	_	_
+22-10	1089-1092	aus	_	_
+22-11	1093-1098	Argos	*	PLACEmentioned
+22-12	1099-1111	griechisches	*[32]	OBJ[32]
+22-13	1112-1118	Relief	*[32]	OBJ[32]
+22-14	1119-1130	heimgeführt	_	_
+22-15	1131-1142	vorstellend	_	_
+22-16	1143-1147	Leda	*[33]	OBJ[33]
+22-17	1148-1151	mit	*[33]	OBJ[33]
+22-18	1152-1155	dem	*[33]	OBJ[33]
+22-19	1156-1163	Schwane	*[33]	OBJ[33]
+22-20	1164-1165	,	_	_
+22-21	1166-1169	bei	_	_
+22-22	1170-1175	einem	_	_
+22-23	1176-1181	Altar	_	_
+22-24	1182-1185	und	_	_
+22-25	1186-1194	Eichbaum	_	_
+22-26	1195-1196	,	_	_
+22-27	1197-1203	rechts	_	_
+22-28	1204-1208	eilt	_	_
+22-29	1209-1213	Amor	_	_
+22-30	1214-1220	herbei	_	_
+22-31	1221-1222	.	_	_
+
+#Text=Fragmentirt , doch mäßig .
+23-1	1223-1234	Fragmentirt	_	_
+23-2	1235-1236	,	_	_
+23-3	1237-1241	doch	_	_
+23-4	1242-1247	mäßig	_	_
+23-5	1248-1249	.	_	_
+
+#Text=Preis 100 Scudi .
+24-1	1250-1255	Preis	_	_
+24-2	1256-1259	100	_	_
+24-3	1260-1265	Scudi	_	_
+24-4	1266-1267	.	_	_
+
+#Text=2 , Campana bietet seine Terracottensarkophage und Figuren ( lebensgroß ) aus Toscanella zum Verkauf an .
+25-1	1268-1269	2	_	_
+25-2	1270-1271	,	_	_
+25-3	1272-1279	Campana	*	PERmentioned
+25-4	1280-1286	bietet	_	_
+25-5	1287-1292	seine	_	_
+25-6	1293-1314	Terracottensarkophage	*	OBJ
+25-7	1315-1318	und	_	_
+25-8	1319-1326	Figuren	_	_
+25-9	1327-1328	(	_	_
+25-10	1329-1339	lebensgroß	_	_
+25-11	1340-1341	)	_	_
+25-12	1342-1345	aus	_	_
+25-13	1346-1356	Toscanella	*	PLACEmentioned
+25-14	1357-1360	zum	_	_
+25-15	1361-1368	Verkauf	_	_
+25-16	1369-1371	an	_	_
+25-17	1372-1373	.	_	_
+
+#Text=5 , Depoletti : Jupiter
+26-1	1374-1375	5	_	_
+26-2	1376-1377	,	_	_
+26-3	1378-1387	Depoletti	*	PERmentioned
+26-4	1388-1389	:	_	_
+26-5	1390-1397	Jupiter	*	OBJ

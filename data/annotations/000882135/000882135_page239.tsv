@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=173 Braun an Gerhard Rom , 2. Juni 1840 ausgeboten zu werden .
+1-1	0-3	173	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	2.	*[4]	DATEletter[4]
+1-8	30-34	Juni	*[4]	DATEletter[4]
+1-9	35-39	1840	*[4]	DATEletter[4]
+1-10	40-50	ausgeboten	_	_
+1-11	51-53	zu	_	_
+1-12	54-60	werden	_	_
+1-13	61-62	.	_	_
+
+#Text=Basseggio hat die schöne Terracotta verkauft .
+2-1	63-72	Basseggio	*	PERmentioned
+2-2	73-76	hat	_	_
+2-3	77-80	die	_	_
+2-4	81-87	schöne	_	_
+2-5	88-98	Terracotta	*	OBJ
+2-6	99-107	verkauft	_	_
+2-7	108-109	.	_	_
+
+#Text=Für solche Unica sollte Wolff nothwendig Vollmacht haben , sonst werden sie Ihnen immer entgehen .
+3-1	110-113	Für	_	_
+3-2	114-120	solche	_	_
+3-3	121-126	Unica	_	_
+3-4	127-133	sollte	_	_
+3-5	134-139	Wolff	*	PERmentioned
+3-6	140-150	nothwendig	_	_
+3-7	151-160	Vollmacht	_	_
+3-8	161-166	haben	_	_
+3-9	167-168	,	_	_
+3-10	169-174	sonst	_	_
+3-11	175-181	werden	_	_
+3-12	182-185	sie	_	_
+3-13	186-191	Ihnen	_	_
+3-14	192-197	immer	_	_
+3-15	198-206	entgehen	_	_
+3-16	207-208	.	_	_
+
+#Text=Dagegen besitzt jetzt Basseggio 3 Vasen , die fürs Museum geeignet sind : 1 .
+4-1	209-216	Dagegen	_	_
+4-2	217-224	besitzt	_	_
+4-3	225-230	jetzt	_	_
+4-4	231-240	Basseggio	*	PERmentioned
+4-5	241-242	3	_	_
+4-6	243-248	Vasen	*	OBJ
+4-7	249-250	,	_	_
+4-8	251-254	die	_	_
+4-9	255-259	fürs	_	_
+4-10	260-266	Museum	*	ORGmentioned
+4-11	267-275	geeignet	_	_
+4-12	276-280	sind	_	_
+4-13	281-282	:	_	_
+4-14	283-284	1	_	_
+4-15	285-286	.	_	_
+
+#Text=Opfer der Polyxena , Hydria mit schwarzen Figuren , Gegenstück zu der Aegäischen Vase mit dem von Anmbrosch erläuterten Tod des Astyanax oder wie man den Knaben mit seinem kauernden Pädagogen nennen will .
+5-1	287-292	Opfer	*[11]	OBJ[11]
+5-2	293-296	der	*[11]	OBJ[11]
+5-3	297-305	Polyxena	*[11]	OBJ[11]
+5-4	306-307	,	*[11]	OBJ[11]
+5-5	308-314	Hydria	*[11]	OBJ[11]
+5-6	315-318	mit	*[11]	OBJ[11]
+5-7	319-328	schwarzen	*[11]	OBJ[11]
+5-8	329-336	Figuren	*[11]	OBJ[11]
+5-9	337-338	,	_	_
+5-10	339-349	Gegenstück	_	_
+5-11	350-352	zu	_	_
+5-12	353-356	der	_	_
+5-13	357-367	Aegäischen	*[12]	OBJ[12]
+5-14	368-372	Vase	*[12]	OBJ[12]
+5-15	373-376	mit	_	_
+5-16	377-380	dem	_	_
+5-17	381-384	von	_	_
+5-18	385-394	Anmbrosch	*	PERmentioned
+5-19	395-406	erläuterten	_	_
+5-20	407-410	Tod	_	_
+5-21	411-414	des	_	_
+5-22	415-423	Astyanax	_	_
+5-23	424-428	oder	_	_
+5-24	429-432	wie	_	_
+5-25	433-436	man	_	_
+5-26	437-440	den	_	_
+5-27	441-447	Knaben	_	_
+5-28	448-451	mit	_	_
+5-29	452-458	seinem	_	_
+5-30	459-468	kauernden	_	_
+5-31	469-478	Pädagogen	_	_
+5-32	479-485	nennen	_	_
+5-33	486-490	will	_	_
+5-34	491-492	.	_	_
+
+#Text=Die Erhaltung ist glücklich , zusammengesetzt ohne neue Stücke .
+6-1	493-496	Die	_	_
+6-2	497-506	Erhaltung	_	_
+6-3	507-510	ist	_	_
+6-4	511-520	glücklich	_	_
+6-5	521-522	,	_	_
+6-6	523-538	zusammengesetzt	_	_
+6-7	539-543	ohne	_	_
+6-8	544-548	neue	_	_
+6-9	549-555	Stücke	_	_
+6-10	556-557	.	_	_
+
+#Text=Ueber Achilleus Tumulus sein Schatten , neben demselben sein treuer Hund .
+7-1	558-563	Ueber	_	_
+7-2	564-573	Achilleus	_	_
+7-3	574-581	Tumulus	_	_
+7-4	582-586	sein	_	_
+7-5	587-595	Schatten	_	_
+7-6	596-597	,	_	_
+7-7	598-603	neben	_	_
+7-8	604-613	demselben	_	_
+7-9	614-618	sein	_	_
+7-10	619-625	treuer	_	_
+7-11	626-630	Hund	_	_
+7-12	631-632	.	_	_
+
+#Text=100 Scudi sind nicht viel für ein solches Capitalstück .
+8-1	633-636	100	_	_
+8-2	637-642	Scudi	_	_
+8-3	643-647	sind	_	_
+8-4	648-653	nicht	_	_
+8-5	654-658	viel	_	_
+8-6	659-662	für	_	_
+8-7	663-666	ein	_	_
+8-8	667-674	solches	_	_
+8-9	675-687	Capitalstück	_	_
+8-10	688-689	.	_	_
+
+#Text=2 . 3 .
+9-1	690-691	2	_	_
+9-2	692-693	.	_	_
+9-3	694-695	3	_	_
+9-4	696-697	.	_	_
+
+#Text=Zwei bauchige Amphoren eher an Tarquiniensische als an vulcentische Vasen erinnernd .
+10-1	698-702	Zwei	_	_
+10-2	703-711	bauchige	_	_
+10-3	712-720	Amphoren	*	OBJ
+10-4	721-725	eher	_	_
+10-5	726-728	an	_	_
+10-6	729-745	Tarquiniensische	*	PLACEmentioned
+10-7	746-749	als	_	_
+10-8	750-752	an	_	_
+10-9	753-765	vulcentische	*	PLACEmentioned
+10-10	766-771	Vasen	_	_
+10-11	772-781	erinnernd	_	_
+10-12	782-783	.	_	_
+
+#Text=Beide figurenreich und gut gezeichnet .
+11-1	784-789	Beide	_	_
+11-2	790-802	figurenreich	_	_
+11-3	803-806	und	_	_
+11-4	807-810	gut	_	_
+11-5	811-821	gezeichnet	_	_
+11-6	822-823	.	_	_
+
+#Text=Auf beiden befinden sich unter den Henkeln Figuren , die zu den dargestellten Kampfscenen in Bezug gesetzt sind .
+12-1	824-827	Auf	_	_
+12-2	828-834	beiden	_	_
+12-3	835-843	befinden	_	_
+12-4	844-848	sich	_	_
+12-5	849-854	unter	_	_
+12-6	855-858	den	_	_
+12-7	859-866	Henkeln	_	_
+12-8	867-874	Figuren	_	_
+12-9	875-876	,	_	_
+12-10	877-880	die	_	_
+12-11	881-883	zu	_	_
+12-12	884-887	den	_	_
+12-13	888-901	dargestellten	_	_
+12-14	902-913	Kampfscenen	_	_
+12-15	914-916	in	_	_
+12-16	917-922	Bezug	_	_
+12-17	923-930	gesetzt	_	_
+12-18	931-935	sind	_	_
+12-19	936-937	.	_	_
+
+#Text=Auf der einen erscheinen gorgonenartige schnell hineilende Frauen , wahrscheinlich der Eris Grauengestalt ( im Gegensatz zum edlen friedlichen Wetteifer ) andeutend \; auf der anderen erscheinen zwei ähnliche männliche Dämonen , der eine bärtig , der andre unbärtig , welche sich durch Daimos und Phobos ganz genügend bezeichnen lassen .
+13-1	938-941	Auf	*[17]	OBJ[17]
+13-2	942-945	der	*[17]	OBJ[17]
+13-3	946-951	einen	*[17]	OBJ[17]
+13-4	952-962	erscheinen	*[17]	OBJ[17]
+13-5	963-977	gorgonenartige	*[17]	OBJ[17]
+13-6	978-985	schnell	*[17]	OBJ[17]
+13-7	986-996	hineilende	*[17]	OBJ[17]
+13-8	997-1003	Frauen	*[17]	OBJ[17]
+13-9	1004-1005	,	_	_
+13-10	1006-1020	wahrscheinlich	_	_
+13-11	1021-1024	der	_	_
+13-12	1025-1029	Eris	_	_
+13-13	1030-1043	Grauengestalt	_	_
+13-14	1044-1045	(	_	_
+13-15	1046-1048	im	_	_
+13-16	1049-1058	Gegensatz	_	_
+13-17	1059-1062	zum	_	_
+13-18	1063-1068	edlen	_	_
+13-19	1069-1080	friedlichen	_	_
+13-20	1081-1090	Wetteifer	_	_
+13-21	1091-1092	)	_	_
+13-22	1093-1102	andeutend	_	_
+13-23	1103-1104	\;	_	_
+13-24	1105-1108	auf	*[18]	OBJ[18]
+13-25	1109-1112	der	*[18]	OBJ[18]
+13-26	1113-1120	anderen	*[18]	OBJ[18]
+13-27	1121-1131	erscheinen	*[18]	OBJ[18]
+13-28	1132-1136	zwei	*[18]	OBJ[18]
+13-29	1137-1145	ähnliche	*[18]	OBJ[18]
+13-30	1146-1155	männliche	*[18]	OBJ[18]
+13-31	1156-1163	Dämonen	*[18]	OBJ[18]
+13-32	1164-1165	,	_	_
+13-33	1166-1169	der	_	_
+13-34	1170-1174	eine	_	_
+13-35	1175-1181	bärtig	_	_
+13-36	1182-1183	,	_	_
+13-37	1184-1187	der	_	_
+13-38	1188-1193	andre	_	_
+13-39	1194-1202	unbärtig	_	_
+13-40	1203-1204	,	_	_
+13-41	1205-1211	welche	_	_
+13-42	1212-1216	sich	_	_
+13-43	1217-1222	durch	_	_
+13-44	1223-1229	Daimos	_	_
+13-45	1230-1233	und	_	_
+13-46	1234-1240	Phobos	_	_
+13-47	1241-1245	ganz	_	_
+13-48	1246-1254	genügend	_	_
+13-49	1255-1265	bezeichnen	_	_
+13-50	1266-1272	lassen	_	_
+13-51	1273-1274	.	_	_
+
+#Text=Diese Gefäße- bieten ein äußerst gefälliges Außen dar , sind ohne Bruch und würden als vollkommene Gegenstände in einer Sammlung sehr gute Wirkung machen .
+14-1	1275-1280	Diese	_	_
+14-2	1281-1288	Gefäße-	_	_
+14-3	1289-1295	bieten	_	_
+14-4	1296-1299	ein	_	_
+14-5	1300-1307	äußerst	_	_
+14-6	1308-1318	gefälliges	_	_
+14-7	1319-1324	Außen	_	_
+14-8	1325-1328	dar	_	_
+14-9	1329-1330	,	_	_
+14-10	1331-1335	sind	_	_
+14-11	1336-1340	ohne	_	_
+14-12	1341-1346	Bruch	_	_
+14-13	1347-1350	und	_	_
+14-14	1351-1357	würden	_	_
+14-15	1358-1361	als	_	_
+14-16	1362-1373	vollkommene	_	_
+14-17	1374-1385	Gegenstände	_	_
+14-18	1386-1388	in	_	_
+14-19	1389-1394	einer	_	_
+14-20	1395-1403	Sammlung	_	_
+14-21	1404-1408	sehr	_	_
+14-22	1409-1413	gute	_	_
+14-23	1414-1421	Wirkung	_	_
+14-24	1422-1428	machen	_	_
+14-25	1429-1430	.	_	_
+
+#Text=Er fordert 200 Scudi für beide , wird aber wohl mit
+15-1	1431-1433	Er	_	_
+15-2	1434-1441	fordert	_	_
+15-3	1442-1445	200	_	_
+15-4	1446-1451	Scudi	_	_
+15-5	1452-1455	für	_	_
+15-6	1456-1461	beide	_	_
+15-7	1462-1463	,	_	_
+15-8	1464-1468	wird	_	_
+15-9	1469-1473	aber	_	_
+15-10	1474-1478	wohl	_	_
+15-11	1479-1482	mit	_	_

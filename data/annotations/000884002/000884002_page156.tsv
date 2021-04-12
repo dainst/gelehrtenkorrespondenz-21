@@ -1,0 +1,245 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N ( Brunn an Henzen Rom , 6. Juni 1863 -3- Mein Pompei-Aufsatz ist bis auf einen kleinen Rest bei Santini : über einen Bogen wird er gewiß geben .
+1-1	0-1	N	_	_
+1-2	2-3	(	_	_
+1-3	4-9	Brunn	*	PERauthor
+1-4	10-12	an	_	_
+1-5	13-19	Henzen	*	PERaddressee
+1-6	20-23	Rom	*	PLACEfrom
+1-7	24-25	,	_	_
+1-8	26-28	6.	*[9]	DATEletter[9]
+1-9	29-33	Juni	*[9]	DATEletter[9]
+1-10	34-38	1863	*[9]	DATEletter[9]
+1-11	39-42	-3-	_	_
+1-12	43-47	Mein	_	_
+1-13	48-62	Pompei-Aufsatz	*	MISC
+1-14	63-66	ist	_	_
+1-15	67-70	bis	_	_
+1-16	71-74	auf	_	_
+1-17	75-80	einen	_	_
+1-18	81-88	kleinen	_	_
+1-19	89-93	Rest	_	_
+1-20	94-97	bei	_	_
+1-21	98-105	Santini	*	PERmentioned
+1-22	106-107	:	_	_
+1-23	108-112	über	_	_
+1-24	113-118	einen	_	_
+1-25	119-124	Bogen	_	_
+1-26	125-129	wird	_	_
+1-27	130-132	er	_	_
+1-28	133-138	gewiß	_	_
+1-29	139-144	geben	_	_
+1-30	145-146	.	_	_
+
+#Text=Helbig reist morgen , Sonnabend .
+2-1	147-153	Helbig	*	PERmentioned
+2-2	154-159	reist	_	_
+2-3	160-166	morgen	_	_
+2-4	167-168	,	_	_
+2-5	169-178	Sonnabend	*	DATEmentioned
+2-6	179-180	.	_	_
+
+#Text=Dito Parthey .
+3-1	181-185	Dito	_	_
+3-2	186-193	Parthey	*	PERmentioned
+3-3	194-195	.	_	_
+
+#Text=Grifi hat natürlich gegen Sie gesprochen , wenn auch in der Form sehr gemäßigt : Coelus nach ihm Tithonus ( die Wolke sein Bett !
+4-1	196-201	Grifi	*	PERmentioned
+4-2	202-205	hat	_	_
+4-3	206-215	natürlich	_	_
+4-4	216-221	gegen	_	_
+4-5	222-225	Sie	_	_
+4-6	226-236	gesprochen	_	_
+4-7	237-238	,	_	_
+4-8	239-243	wenn	_	_
+4-9	244-248	auch	_	_
+4-10	249-251	in	_	_
+4-11	252-255	der	_	_
+4-12	256-260	Form	_	_
+4-13	261-265	sehr	_	_
+4-14	266-274	gemäßigt	_	_
+4-15	275-276	:	_	_
+4-16	277-283	Coelus	*	PERmentioned
+4-17	284-288	nach	_	_
+4-18	289-292	ihm	_	_
+4-19	293-301	Tithonus	*	PERmentioned
+4-20	302-303	(	_	_
+4-21	304-307	die	_	_
+4-22	308-313	Wolke	_	_
+4-23	314-318	sein	_	_
+4-24	319-323	Bett	_	_
+4-25	324-325	!	_	_
+
+#Text=) , Sol nach ihm Aurora , da ja Sol doch keinen Unterrock tragen könne : also Elementar-Böcke .
+5-1	326-327	)	_	_
+5-2	328-329	,	_	_
+5-3	330-333	Sol	*	PERmentioned
+5-4	334-338	nach	_	_
+5-5	339-342	ihm	_	_
+5-6	343-349	Aurora	*	PERmentioned
+5-7	350-351	,	_	_
+5-8	352-354	da	_	_
+5-9	355-357	ja	_	_
+5-10	358-361	Sol	*	PERmentioned
+5-11	362-366	doch	_	_
+5-12	367-373	keinen	_	_
+5-13	374-383	Unterrock	_	_
+5-14	384-390	tragen	_	_
+5-15	391-396	könne	_	_
+5-16	397-398	:	_	_
+5-17	399-403	also	_	_
+5-18	404-419	Elementar-Böcke	_	_
+5-19	420-421	.	_	_
+
+#Text=Tellus = als Livia mit Caius und Luc .
+6-1	422-428	Tellus	*	PERmentioned
+6-2	429-430	=	_	_
+6-3	431-434	als	_	_
+6-4	435-440	Livia	*	PERmentioned
+6-5	441-444	mit	_	_
+6-6	445-450	Caius	*	PERmentioned
+6-7	451-454	und	_	_
+6-8	455-458	Luc	*[10]	PERmentioned[10]
+6-9	459-460	.	*[10]	PERmentioned[10]
+
+#Text=Caesar ( den beiden Kindern ) !
+7-1	461-467	Caesar	*[10]	PERmentioned[10]
+7-2	468-469	(	_	_
+7-3	470-473	den	_	_
+7-4	474-480	beiden	_	_
+7-5	481-488	Kindern	_	_
+7-6	489-490	)	_	_
+7-7	491-492	!	_	_
+
+#Text=Kindlich !
+8-1	493-501	Kindlich	_	_
+8-2	502-503	!	_	_
+
+#Text=In Spithövers Gegendkam ich in diesen Tagen nicht , werde aber die Sache nicht vergessen .
+9-1	504-506	In	_	_
+9-2	507-517	Spithövers	*	PERmentioned
+9-3	518-527	Gegendkam	_	_
+9-4	528-531	ich	_	_
+9-5	532-534	in	_	_
+9-6	535-541	diesen	_	_
+9-7	542-547	Tagen	_	_
+9-8	548-553	nicht	_	_
+9-9	554-555	,	_	_
+9-10	556-561	werde	_	_
+9-11	562-566	aber	_	_
+9-12	567-570	die	_	_
+9-13	571-576	Sache	_	_
+9-14	577-582	nicht	_	_
+9-15	583-592	vergessen	_	_
+9-16	593-594	.	_	_
+
+#Text=- Bei Torlonia war noch keine Anweisung aus London .
+10-1	595-596	-	_	_
+10-2	597-600	Bei	_	_
+10-3	601-609	Torlonia	*	PERmentioned
+10-4	610-613	war	_	_
+10-5	614-618	noch	_	_
+10-6	619-624	keine	_	_
+10-7	625-634	Anweisung	_	_
+10-8	635-638	aus	_	_
+10-9	639-645	London	*	PLACEmentioned
+10-10	646-647	.	_	_
+
+#Text=Heute für Sie von Jahn : Ludwid Uhland , Vortrag .
+11-1	648-653	Heute	_	_
+11-2	654-657	für	_	_
+11-3	658-661	Sie	_	_
+11-4	662-665	von	_	_
+11-5	666-670	Jahn	*	PERmentioned
+11-6	671-672	:	_	_
+11-7	673-679	Ludwid	*[11]	PERmentioned[11]
+11-8	680-686	Uhland	*[11]	PERmentioned[11]
+11-9	687-688	,	*[11]	PERmentioned[11]
+11-10	689-696	Vortrag	*[11]	PERmentioned[11]
+11-11	697-698	.	_	_
+
+#Text=Mit allerlei Belegen gleich 14 Bogen .
+12-1	699-702	Mit	_	_
+12-2	703-711	allerlei	_	_
+12-3	712-719	Belegen	_	_
+12-4	720-726	gleich	_	_
+12-5	727-729	14	_	_
+12-6	730-735	Bogen	_	_
+12-7	736-737	.	_	_
+
+#Text=Der verstehts auch .
+13-1	738-741	Der	_	_
+13-2	742-751	verstehts	_	_
+13-3	752-756	auch	_	_
+13-4	757-758	.	_	_
+
+#Text=Von Detlefsen epigraphische Papiere , die für Sie zurückgelegt werden .
+14-1	759-762	Von	_	_
+14-2	763-772	Detlefsen	*	PERmentioned
+14-3	773-786	epigraphische	_	_
+14-4	787-794	Papiere	_	_
+14-5	795-796	,	_	_
+14-6	797-800	die	_	_
+14-7	801-804	für	_	_
+14-8	805-808	Sie	_	_
+14-9	809-821	zurückgelegt	_	_
+14-10	822-828	werden	_	_
+14-11	829-830	.	_	_
+
+#Text=Forcella fängt wieder an , Fielo zu laboriren .
+15-1	831-839	Forcella	*	PERmentioned
+15-2	840-845	fängt	_	_
+15-3	846-852	wieder	_	_
+15-4	853-855	an	_	_
+15-5	856-857	,	_	_
+15-6	858-863	Fielo	*	PLACEmentioned
+15-7	864-866	zu	_	_
+15-8	867-876	laboriren	_	_
+15-9	877-878	.	_	_
+
+#Text=Bartoccini erwarte ich endlich in den nächsten Tagen .
+16-1	879-889	Bartoccini	*	PERmentioned
+16-2	890-897	erwarte	_	_
+16-3	898-901	ich	_	_
+16-4	902-909	endlich	_	_
+16-5	910-912	in	_	_
+16-6	913-916	den	_	_
+16-7	917-925	nächsten	_	_
+16-8	926-931	Tagen	_	_
+16-9	932-933	.	_	_
+
+#Text=Heute , Sonnabend , Trajanssäulen im Lateran mit Willisen .
+17-1	934-939	Heute	_	_
+17-2	940-941	,	_	_
+17-3	942-951	Sonnabend	*	DATEmentioned
+17-4	952-953	,	_	_
+17-5	954-967	Trajanssäulen	*	OBJ
+17-6	968-970	im	_	_
+17-7	971-978	Lateran	*	PLACEmentioned
+17-8	979-982	mit	_	_
+17-9	983-991	Willisen	*	PERmentioned
+17-10	992-993	.	_	_
+
+#Text=Darum Schluß , mit den obligaten Grüßen Ihr HBrunn .
+18-1	994-999	Darum	_	_
+18-2	1000-1006	Schluß	_	_
+18-3	1007-1008	,	_	_
+18-4	1009-1012	mit	_	_
+18-5	1013-1016	den	_	_
+18-6	1017-1026	obligaten	_	_
+18-7	1027-1033	Grüßen	_	_
+18-8	1034-1037	Ihr	_	_
+18-9	1038-1044	HBrunn	*	PERauthor
+18-10	1045-1046	.	_	_
+
+#Text=Rom , & Juni 1863 .
+19-1	1047-1050	Rom	*	PLACEfrom
+19-2	1051-1052	,	_	_
+19-3	1053-1054	&	_	_
+19-4	1055-1059	Juni	*[12]	DATEletter[12]
+19-5	1060-1064	1863	*[12]	DATEletter[12]
+19-6	1065-1066	.	_	_

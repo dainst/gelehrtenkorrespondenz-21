@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard ohne Ort 23/V/1833 ( Bertia ) Hochverehrtester Herr Professor !
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-21	ohne	_	_
+1-5	22-25	Ort	*[1]	DATEletter[1]
+1-6	26-35	23/V/1833	*[1]	DATEletter[1]
+1-7	36-37	(	*[1]	DATEletter[1]
+1-8	38-44	Bertia	_	_
+1-9	45-46	)	_	_
+1-10	47-63	Hochverehrtester	_	_
+1-11	64-68	Herr	_	_
+1-12	69-78	Professor	_	_
+1-13	79-80	!	_	_
+
+#Text=Heute Morgen hat Herr von Henning obenstehende Zeilen gesandt .
+2-1	81-86	Heute	_	_
+2-2	87-93	Morgen	_	_
+2-3	94-97	hat	_	_
+2-4	98-102	Herr	*[2]	PERmentioned[2]
+2-5	103-106	von	*[2]	PERmentioned[2]
+2-6	107-114	Henning	*[2]	PERmentioned[2]
+2-7	115-127	obenstehende	_	_
+2-8	128-134	Zeilen	_	_
+2-9	135-142	gesandt	_	_
+2-10	143-144	.	_	_
+
+#Text=Ich habe es erbrochen , weil ich sah , daß es Geschäftssachen waren .
+3-1	145-148	Ich	_	_
+3-2	149-153	habe	_	_
+3-3	154-156	es	_	_
+3-4	157-166	erbrochen	_	_
+3-5	167-168	,	_	_
+3-6	169-173	weil	_	_
+3-7	174-177	ich	_	_
+3-8	178-181	sah	_	_
+3-9	182-183	,	_	_
+3-10	184-187	daß	_	_
+3-11	188-190	es	_	_
+3-12	191-206	Geschäftssachen	_	_
+3-13	207-212	waren	_	_
+3-14	213-214	.	_	_
+
+#Text=So habe ich das Paket , in welchen noch 3 Ihrer überall zugänglichen Anzeigen über die Fortsetzung lagen , leichter machen können und das Wesentliche der größeren Bonner Sendun beilegen können .
+4-1	215-217	So	_	_
+4-2	218-222	habe	_	_
+4-3	223-226	ich	_	_
+4-4	227-230	das	_	_
+4-5	231-236	Paket	_	_
+4-6	237-238	,	_	_
+4-7	239-241	in	_	_
+4-8	242-249	welchen	_	_
+4-9	250-254	noch	_	_
+4-10	255-256	3	_	_
+4-11	257-262	Ihrer	_	_
+4-12	263-270	überall	_	_
+4-13	271-283	zugänglichen	_	_
+4-14	284-292	Anzeigen	_	_
+4-15	293-297	über	_	_
+4-16	298-301	die	_	_
+4-17	302-313	Fortsetzung	_	_
+4-18	314-319	lagen	_	_
+4-19	320-321	,	_	_
+4-20	322-330	leichter	_	_
+4-21	331-337	machen	_	_
+4-22	338-344	können	_	_
+4-23	345-348	und	_	_
+4-24	349-352	das	_	_
+4-25	353-364	Wesentliche	_	_
+4-26	365-368	der	_	_
+4-27	369-377	größeren	_	_
+4-28	378-384	Bonner	*	PLACEmentioned
+4-29	385-391	Sendun	_	_
+4-30	392-400	beilegen	_	_
+4-31	401-407	können	_	_
+4-32	408-409	.	_	_
+
+#Text=Aus meiner Wohnung bin ich heute Morgen ausgetrieben worden .
+5-1	410-413	Aus	_	_
+5-2	414-420	meiner	_	_
+5-3	421-428	Wohnung	_	_
+5-4	429-432	bin	_	_
+5-5	433-436	ich	_	_
+5-6	437-442	heute	_	_
+5-7	443-449	Morgen	_	_
+5-8	450-462	ausgetrieben	_	_
+5-9	463-469	worden	_	_
+5-10	470-471	.	_	_
+
+#Text=Sie haben alles vermietet und hätten gemeint , ich würde wegen des Lichtes nicht bleiben .
+6-1	472-475	Sie	_	_
+6-2	476-481	haben	_	_
+6-3	482-487	alles	_	_
+6-4	488-497	vermietet	_	_
+6-5	498-501	und	_	_
+6-6	502-508	hätten	_	_
+6-7	509-516	gemeint	_	_
+6-8	517-518	,	_	_
+6-9	519-522	ich	_	_
+6-10	523-528	würde	_	_
+6-11	529-534	wegen	_	_
+6-12	535-538	des	_	_
+6-13	539-546	Lichtes	_	_
+6-14	547-552	nicht	_	_
+6-15	553-560	bleiben	_	_
+6-16	561-562	.	_	_
+
+#Text=Doll habe ichs bei diesen böswilligen Leuten und so habe ich flugs unter den Linden 17.3. gemiethet , wo ich Kiste und alles stellen kann .
+7-1	563-567	Doll	_	_
+7-2	568-572	habe	_	_
+7-3	573-577	ichs	_	_
+7-4	578-581	bei	_	_
+7-5	582-588	diesen	_	_
+7-6	589-600	böswilligen	_	_
+7-7	601-607	Leuten	_	_
+7-8	608-611	und	_	_
+7-9	612-614	so	_	_
+7-10	615-619	habe	_	_
+7-11	620-623	ich	_	_
+7-12	624-629	flugs	*[3]	PLACEmentioned[3]
+7-13	630-635	unter	*[3]	PLACEmentioned[3]
+7-14	636-639	den	*[3]	PLACEmentioned[3]
+7-15	640-646	Linden	*[3]	PLACEmentioned[3]
+7-16	647-652	17.3.	*[3]	PLACEmentioned[3]
+7-17	653-662	gemiethet	_	_
+7-18	663-664	,	_	_
+7-19	665-667	wo	_	_
+7-20	668-671	ich	_	_
+7-21	672-677	Kiste	_	_
+7-22	678-681	und	_	_
+7-23	682-687	alles	_	_
+7-24	688-695	stellen	_	_
+7-25	696-700	kann	_	_
+7-26	701-702	.	_	_
+
+#Text=Vorn heraus ist ein sehr schönes Zimmer , zu dem auch noch ein kleines Vorzimmer zu bekommen wäre , mit dem ersten frei .
+8-1	703-707	Vorn	_	_
+8-2	708-714	heraus	_	_
+8-3	715-718	ist	_	_
+8-4	719-722	ein	_	_
+8-5	723-727	sehr	_	_
+8-6	728-735	schönes	_	_
+8-7	736-742	Zimmer	_	_
+8-8	743-744	,	_	_
+8-9	745-747	zu	_	_
+8-10	748-751	dem	_	_
+8-11	752-756	auch	_	_
+8-12	757-761	noch	_	_
+8-13	762-765	ein	_	_
+8-14	766-773	kleines	_	_
+8-15	774-783	Vorzimmer	_	_
+8-16	784-786	zu	_	_
+8-17	787-795	bekommen	_	_
+8-18	796-800	wäre	_	_
+8-19	801-802	,	_	_
+8-20	803-806	mit	_	_
+8-21	807-810	dem	_	_
+8-22	811-817	ersten	_	_
+8-23	818-822	frei	_	_
+8-24	823-824	.	_	_
+
+#Text=Wollen Sie vielleicht drauf reflectiren .
+9-1	825-831	Wollen	_	_
+9-2	832-835	Sie	_	_
+9-3	836-846	vielleicht	_	_
+9-4	847-852	drauf	_	_
+9-5	853-864	reflectiren	_	_
+9-6	865-866	.	_	_
+
+#Text=Das Licht ist sehr gut , das Ameublement schoen und geschmackvoll und die Wirtin brav .
+10-1	867-870	Das	_	_
+10-2	871-876	Licht	_	_
+10-3	877-880	ist	_	_
+10-4	881-885	sehr	_	_
+10-5	886-889	gut	_	_
+10-6	890-891	,	_	_
+10-7	892-895	das	_	_
+10-8	896-907	Ameublement	_	_
+10-9	908-914	schoen	_	_
+10-10	915-918	und	_	_
+10-11	919-932	geschmackvoll	_	_
+10-12	933-936	und	_	_
+10-13	937-940	die	_	_
+10-14	941-947	Wirtin	_	_
+10-15	948-952	brav	_	_
+10-16	953-954	.	_	_
+
+#Text=Der Preis wird auf 12 rt feststehen .
+11-1	955-958	Der	_	_
+11-2	959-964	Preis	_	_
+11-3	965-969	wird	_	_
+11-4	970-973	auf	_	_
+11-5	974-976	12	_	_
+11-6	977-979	rt	_	_
+11-7	980-990	feststehen	_	_
+11-8	991-992	.	_	_
+
+#Text=Geräumig und groß ist das Zimmer und es würde sich das Ganze auch wohl für Sie und Ihre liebe Fräulein Schwester einrichten lassen .
+12-1	993-1001	Geräumig	_	_
+12-2	1002-1005	und	_	_
+12-3	1006-1010	groß	_	_
+12-4	1011-1014	ist	_	_
+12-5	1015-1018	das	_	_
+12-6	1019-1025	Zimmer	_	_
+12-7	1026-1029	und	_	_
+12-8	1030-1032	es	_	_
+12-9	1033-1038	würde	_	_
+12-10	1039-1043	sich	_	_
+12-11	1044-1047	das	_	_
+12-12	1048-1053	Ganze	_	_
+12-13	1054-1058	auch	_	_
+12-14	1059-1063	wohl	_	_
+12-15	1064-1067	für	_	_
+12-16	1068-1071	Sie	_	_
+12-17	1072-1075	und	_	_
+12-18	1076-1080	Ihre	_	_
+12-19	1081-1086	liebe	_	_
+12-20	1087-1095	Fräulein	*[4]	PERmentioned[4]
+12-21	1096-1105	Schwester	*[4]	PERmentioned[4]
+12-22	1106-1116	einrichten	_	_
+12-23	1117-1123	lassen	_	_
+12-24	1124-1125	.	_	_
+
+#Text=Bedenken Sie 's .
+13-1	1126-1134	Bedenken	_	_
+13-2	1135-1138	Sie	_	_
+13-3	1139-1141	's	_	_
+13-4	1142-1143	.	_	_
+
+#Text=Ihr Altes scheint auch schon vergeben zu sein .
+14-1	1144-1147	Ihr	_	_
+14-2	1148-1153	Altes	_	_
+14-3	1154-1161	scheint	_	_
+14-4	1162-1166	auch	_	_
+14-5	1167-1172	schon	_	_
+14-6	1173-1181	vergeben	_	_
+14-7	1182-1184	zu	_	_
+14-8	1185-1189	sein	_	_
+14-9	1190-1191	.	_	_
+
+#Text=Ihr 23 May 1833 Braun
+15-1	1192-1195	Ihr	_	_
+15-2	1196-1198	23	*[5]	DATEletter[5]
+15-3	1199-1202	May	*[5]	DATEletter[5]
+15-4	1203-1207	1833	*[5]	DATEletter[5]
+15-5	1208-1213	Braun	*	PERauthor

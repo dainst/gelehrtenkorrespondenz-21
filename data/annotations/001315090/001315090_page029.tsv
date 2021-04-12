@@ -1,0 +1,176 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Nr Be 112 Lepsius an Berlin , 9. März 1872 2 Wohnungen für die beiden Sekretare jede a 6 Zimmer mit Zubehör .
+1-1	0-2	Nr	_	_
+1-2	3-5	Be	_	_
+1-3	6-9	112	_	_
+1-4	10-17	Lepsius	*	PERauthor
+1-5	18-20	an	_	_
+1-6	21-27	Berlin	*	PLACEfrom
+1-7	28-29	,	_	_
+1-8	30-32	9.	*[3]	DATEletter[3]
+1-9	33-37	März	*[3]	DATEletter[3]
+1-10	38-42	1872	*[3]	DATEletter[3]
+1-11	43-44	2	_	_
+1-12	45-54	Wohnungen	_	_
+1-13	55-58	für	_	_
+1-14	59-62	die	_	_
+1-15	63-69	beiden	_	_
+1-16	70-79	Sekretare	_	_
+1-17	80-84	jede	_	_
+1-18	85-86	a	_	_
+1-19	87-88	6	_	_
+1-20	89-95	Zimmer	_	_
+1-21	96-99	mit	_	_
+1-22	100-107	Zubehör	_	_
+1-23	108-109	.	_	_
+
+#Text=Sehr nöthig ist ein genaues und übersichtliches Nivellement mit vollständigen Durchschnitten nach den beiden Hauptrichtungen von Monte Caprino nach der via Saponari und im rechten Winkel dazu .
+2-1	110-114	Sehr	_	_
+2-2	115-121	nöthig	_	_
+2-3	122-125	ist	_	_
+2-4	126-129	ein	_	_
+2-5	130-137	genaues	_	_
+2-6	138-141	und	_	_
+2-7	142-157	übersichtliches	_	_
+2-8	158-169	Nivellement	_	_
+2-9	170-173	mit	_	_
+2-10	174-187	vollständigen	_	_
+2-11	188-202	Durchschnitten	_	_
+2-12	203-207	nach	_	_
+2-13	208-211	den	_	_
+2-14	212-218	beiden	_	_
+2-15	219-234	Hauptrichtungen	_	_
+2-16	235-238	von	_	_
+2-17	239-244	Monte	*[4]	PLACEmentioned[4]
+2-18	245-252	Caprino	*[4]	PLACEmentioned[4]
+2-19	253-257	nach	_	_
+2-20	258-261	der	_	_
+2-21	262-265	via	*[5]	PLACEmentioned[5]
+2-22	266-274	Saponari	*[5]	PLACEmentioned[5]
+2-23	275-278	und	_	_
+2-24	279-281	im	_	_
+2-25	282-289	rechten	_	_
+2-26	290-296	Winkel	_	_
+2-27	297-301	dazu	_	_
+2-28	302-303	.	_	_
+
+#Text=Die die Meinung der Central Direktion .
+3-1	304-307	Die	_	_
+3-2	308-311	die	_	_
+3-3	312-319	Meinung	_	_
+3-4	320-323	der	_	_
+3-5	324-331	Central	*[6]	ORGmentioned[6]
+3-6	332-341	Direktion	*[6]	ORGmentioned[6]
+3-7	342-343	.	_	_
+
+#Text=Als meine Privatmeinung füge ich noch hinzu , daß es doch wohl noch möglich werden wird , den Plan wenn das Gebäude zurückgesetzt wird , zu erweitern , etwa in der Weise der Skizzen , wenn der jetzige Angriff auf den Finanz Minister , wie ich ihn jetzt mit Olshausen besprochen habe , gelingt .
+4-1	344-347	Als	_	_
+4-2	348-353	meine	_	_
+4-3	354-367	Privatmeinung	_	_
+4-4	368-372	füge	_	_
+4-5	373-376	ich	_	_
+4-6	377-381	noch	_	_
+4-7	382-387	hinzu	_	_
+4-8	388-389	,	_	_
+4-9	390-393	daß	_	_
+4-10	394-396	es	_	_
+4-11	397-401	doch	_	_
+4-12	402-406	wohl	_	_
+4-13	407-411	noch	_	_
+4-14	412-419	möglich	_	_
+4-15	420-426	werden	_	_
+4-16	427-431	wird	_	_
+4-17	432-433	,	_	_
+4-18	434-437	den	_	_
+4-19	438-442	Plan	_	_
+4-20	443-447	wenn	_	_
+4-21	448-451	das	_	_
+4-22	452-459	Gebäude	_	_
+4-23	460-473	zurückgesetzt	_	_
+4-24	474-478	wird	_	_
+4-25	479-480	,	_	_
+4-26	481-483	zu	_	_
+4-27	484-493	erweitern	_	_
+4-28	494-495	,	_	_
+4-29	496-500	etwa	_	_
+4-30	501-503	in	_	_
+4-31	504-507	der	_	_
+4-32	508-513	Weise	_	_
+4-33	514-517	der	_	_
+4-34	518-525	Skizzen	_	_
+4-35	526-527	,	_	_
+4-36	528-532	wenn	_	_
+4-37	533-536	der	_	_
+4-38	537-544	jetzige	_	_
+4-39	545-552	Angriff	_	_
+4-40	553-556	auf	_	_
+4-41	557-560	den	_	_
+4-42	561-567	Finanz	*[7]	PERmentioned[7]
+4-43	568-576	Minister	*[7]	PERmentioned[7]
+4-44	577-578	,	_	_
+4-45	579-582	wie	_	_
+4-46	583-586	ich	_	_
+4-47	587-590	ihn	_	_
+4-48	591-596	jetzt	_	_
+4-49	597-600	mit	_	_
+4-50	601-610	Olshausen	*	PERmentioned
+4-51	611-621	besprochen	_	_
+4-52	622-626	habe	_	_
+4-53	627-628	,	_	_
+4-54	629-636	gelingt	_	_
+4-55	637-638	.	_	_
+
+#Text=Das kann sich aber erst in einigen Wochen entscheiden .
+5-1	639-642	Das	_	_
+5-2	643-647	kann	_	_
+5-3	648-652	sich	_	_
+5-4	653-657	aber	_	_
+5-5	658-662	erst	_	_
+5-6	663-665	in	_	_
+5-7	666-673	einigen	_	_
+5-8	674-680	Wochen	_	_
+5-9	681-692	entscheiden	_	_
+5-10	693-694	.	_	_
+
+#Text=Zur Zeit ist Olshausen wieder verreist .
+6-1	695-698	Zur	_	_
+6-2	699-703	Zeit	_	_
+6-3	704-707	ist	_	_
+6-4	708-717	Olshausen	*	PERmentioned
+6-5	718-724	wieder	_	_
+6-6	725-733	verreist	_	_
+6-7	734-735	.	_	_
+
+#Text=- Der attach @ scientifigue in Paris ist wie ich erwartete von Birn .
+7-1	736-737	-	_	_
+7-2	738-741	Der	_	_
+7-3	742-748	attach	_	_
+7-4	749-750	@	_	_
+7-5	751-763	scientifigue	_	_
+7-6	764-766	in	_	_
+7-7	767-772	Paris	*	PLACEmentioned
+7-8	773-776	ist	_	_
+7-9	777-780	wie	_	_
+7-10	781-784	ich	_	_
+7-11	785-794	erwartete	_	_
+7-12	795-798	von	_	_
+7-13	799-803	Birn	_	_
+7-14	804-805	.	_	_
+
+#Text=abgelehnt .
+8-1	806-815	abgelehnt	_	_
+8-2	816-817	.	_	_
+
+#Text=\_ & Ihr Ä vier er 95 R Lepsius
+9-1	818-819	\_	_	_
+9-2	820-821	&	_	_
+9-3	822-825	Ihr	_	_
+9-4	826-827	Ä	_	_
+9-5	828-832	vier	_	_
+9-6	833-835	er	_	_
+9-7	836-838	95	_	_
+9-8	839-840	R	*[8]	PERauthor[8]
+9-9	841-848	Lepsius	*[8]	PERauthor[8]

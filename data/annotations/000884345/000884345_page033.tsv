@@ -1,0 +1,96 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-19	.	_	_
+
+#Text=Rom , 30 .
+2-1	20-23	Rom	*	PLACEfrom
+2-2	24-25	,	_	_
+2-3	26-28	30	*[4]	DATEletter[4]
+2-4	29-30	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1825 bald nach Berlin abgehen .
+3-1	31-38	Oktober	*[4]	DATEletter[4]
+3-2	39-43	1825	*[4]	DATEletter[4]
+3-3	44-48	bald	_	_
+3-4	49-53	nach	_	_
+3-5	54-60	Berlin	*	PLACEmentioned
+3-6	61-68	abgehen	_	_
+3-7	69-70	.	_	_
+
+#Text=Verzeihen Sie daß ich Ihnen erst jetzt für Ihr mitgetheiltes Werk danke .
+4-1	71-80	Verzeihen	_	_
+4-2	81-84	Sie	_	_
+4-3	85-88	daß	_	_
+4-4	89-92	ich	_	_
+4-5	93-98	Ihnen	_	_
+4-6	99-103	erst	_	_
+4-7	104-109	jetzt	_	_
+4-8	110-113	für	_	_
+4-9	114-117	Ihr	_	_
+4-10	118-131	mitgetheiltes	_	_
+4-11	132-136	Werk	_	_
+4-12	137-142	danke	_	_
+4-13	143-144	.	_	_
+
+#Text=Ich wünsche Ihnen Glück Licht in diese Confusionswelt gebracht zu haben , und hoffe Sie können Ihre Unterscheidungen durch alle Kunstwerke durchführen .
+5-1	145-148	Ich	_	_
+5-2	149-156	wünsche	_	_
+5-3	157-162	Ihnen	_	_
+5-4	163-168	Glück	_	_
+5-5	169-174	Licht	_	_
+5-6	175-177	in	_	_
+5-7	178-183	diese	_	_
+5-8	184-198	Confusionswelt	_	_
+5-9	199-207	gebracht	_	_
+5-10	208-210	zu	_	_
+5-11	211-216	haben	_	_
+5-12	217-218	,	_	_
+5-13	219-222	und	_	_
+5-14	223-228	hoffe	_	_
+5-15	229-232	Sie	_	_
+5-16	233-239	können	_	_
+5-17	240-244	Ihre	_	_
+5-18	245-261	Unterscheidungen	_	_
+5-19	262-267	durch	_	_
+5-20	268-272	alle	_	_
+5-21	273-283	Kunstwerke	_	_
+5-22	284-295	durchführen	_	_
+5-23	296-297	.	_	_
+
+#Text=Die Verwirrung und Willkührlichkeit aller Namen dieser Raccolta ist mir immer höchst verdrießlich gewesen .
+6-1	298-301	Die	_	_
+6-2	302-312	Verwirrung	_	_
+6-3	313-316	und	_	_
+6-4	317-333	Willkührlichkeit	_	_
+6-5	334-339	aller	_	_
+6-6	340-345	Namen	_	_
+6-7	346-352	dieser	_	_
+6-8	353-361	Raccolta	_	_
+6-9	362-365	ist	_	_
+6-10	366-369	mir	_	_
+6-11	370-375	immer	_	_
+6-12	376-382	höchst	_	_
+6-13	383-395	verdrießlich	_	_
+6-14	396-403	gewesen	_	_
+6-15	404-405	.	_	_
+
+#Text=Mit herzlicher Erwiederung von Grüßen an Panofka und unvermindeter Anhänglichkeit der Ihrige Bunsen
+7-1	406-409	Mit	_	_
+7-2	410-420	herzlicher	_	_
+7-3	421-432	Erwiederung	_	_
+7-4	433-436	von	_	_
+7-5	437-443	Grüßen	_	_
+7-6	444-446	an	_	_
+7-7	447-454	Panofka	*	PERmentioned
+7-8	455-458	und	_	_
+7-9	459-472	unvermindeter	_	_
+7-10	473-487	Anhänglichkeit	_	_
+7-11	488-491	der	_	_
+7-12	492-498	Ihrige	_	_
+7-13	499-505	Bunsen	*	PERauthor

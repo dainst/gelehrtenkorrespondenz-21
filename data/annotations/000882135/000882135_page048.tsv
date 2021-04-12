@@ -1,0 +1,303 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=298 Braun an Gerhard Rom , 24. April 1838 Sig .
+1-1	0-3	298	_	_	
+1-2	4-9	Braun	*	PERauthor	
+1-3	10-12	an	_	_	
+1-4	13-20	Gerhard	*	PERaddressee	
+1-5	21-24	Rom	*	PLACEfrom	
+1-6	25-26	,	_	_	
+1-7	27-30	24.	*[1]	DATEletter[1]	
+1-8	31-36	April	*[1]	DATEletter[1]	
+1-9	37-41	1838	*[1]	DATEletter[1]	
+1-10	42-45	Sig	_	_	
+1-11	46-47	.	_	_	
+
+#Text=Cav .
+2-1	48-51	Cav	_	_	
+2-2	52-53	.	_	_	
+
+#Text=Gerhard Berlino Roma li 24 Aprile 1838 .
+3-1	54-61	Gerhard	*	PERaddressee	
+3-2	62-69	Berlino	*	PLACEto	
+3-3	70-74	Roma	*	PLACEfrom	
+3-4	75-77	li	_	_	
+3-5	78-80	24	*[2]	DATEletter[2]	
+3-6	81-87	Aprile	*[2]	DATEletter[2]	
+3-7	88-92	1838	*[2]	DATEletter[2]	
+3-8	93-94	.	_	_	
+
+#Text=Hochverehrtester Freund !
+4-1	95-111	Hochverehrtester	_	_	
+4-2	112-118	Freund	_	_	
+4-3	119-120	!	_	_	
+
+#Text=Ich empfange Ihren lieben Brief d. d . 9 1.M .
+5-1	121-124	Ich	_	_	
+5-2	125-133	empfange	_	_	
+5-3	134-139	Ihren	_	_	
+5-4	140-146	lieben	_	_	
+5-5	147-152	Brief	_	_	
+5-6	153-155	d.	_	_	
+5-7	156-157	d	_	_	
+5-8	158-159	.	_	_	
+5-9	160-161	9	*[3]	DATEmentioned[3]	
+5-10	162-165	1.M	*[3]	DATEmentioned[3]	
+5-11	166-167	.	*[3]	DATEmentioned[3]	
+
+#Text=und mit ihm den Wechsel , dessen Betrag ich Ihnen nach stattgehabter Einkassirung bescheinigen werde .
+6-1	168-171	und	_	_	
+6-2	172-175	mit	_	_	
+6-3	176-179	ihm	_	_	
+6-4	180-183	den	_	_	
+6-5	184-191	Wechsel	_	_	
+6-6	192-193	,	_	_	
+6-7	194-200	dessen	_	_	
+6-8	201-207	Betrag	_	_	
+6-9	208-211	ich	_	_	
+6-10	212-217	Ihnen	_	_	
+6-11	218-222	nach	_	_	
+6-12	223-236	stattgehabter	_	_	
+6-13	237-249	Einkassirung	_	_	
+6-14	250-262	bescheinigen	_	_	
+6-15	263-268	werde	_	_	
+6-16	269-270	.	_	_	
+
+#Text=Nach Ihren Andeutungen läßt sich von Stiers Vorschlägen wenig hoffen ; ist auch wohl besser nicht darauf einzugehen , inquanto pare a me .
+7-1	271-275	Nach	_	_	
+7-2	276-281	Ihren	_	_	
+7-3	282-293	Andeutungen	_	_	
+7-4	294-298	läßt	_	_	
+7-5	299-303	sich	_	_	
+7-6	304-307	von	_	_	
+7-7	308-314	Stiers	*	PERmentioned	
+7-8	315-326	Vorschlägen	_	_	
+7-9	327-332	wenig	_	_	
+7-10	333-339	hoffen	_	_	
+7-11	340-341	;	_	_	
+7-12	342-345	ist	_	_	
+7-13	346-350	auch	_	_	
+7-14	351-355	wohl	_	_	
+7-15	356-362	besser	_	_	
+7-16	363-368	nicht	_	_	
+7-17	369-375	darauf	_	_	
+7-18	376-386	einzugehen	_	_	
+7-19	387-388	,	_	_	
+7-20	389-397	inquanto	_	_	
+7-21	398-402	pare	_	_	
+7-22	403-404	a	_	_	
+7-23	405-407	me	_	_	
+7-24	408-409	.	_	_	
+
+#Text=Das Spiegelfragment behauptet Apollonj vor der sroßen Kistensendung Ende Juli abgegeben zu haben , in deren Fülle es wohl versteckt liegen mag .
+8-1	410-413	Das	_	_	
+8-2	414-429	Spiegelfragment	*	OBJ	
+8-3	430-439	behauptet	_	_	
+8-4	440-448	Apollonj	*	PERmentioned	
+8-5	449-452	vor	_	_	
+8-6	453-456	der	_	_	
+8-7	457-463	sroßen	_	_	
+8-8	464-477	Kistensendung	_	_	
+8-9	478-482	Ende	_	_	
+8-10	483-487	Juli	*	DATEmentioned	
+8-11	488-497	abgegeben	_	_	
+8-12	498-500	zu	_	_	
+8-13	501-506	haben	_	_	
+8-14	507-508	,	_	_	
+8-15	509-511	in	_	_	
+8-16	512-517	deren	_	_	
+8-17	518-523	Fülle	_	_	
+8-18	524-526	es	_	_	
+8-19	527-531	wohl	_	_	
+8-20	532-541	versteckt	_	_	
+8-21	542-548	liegen	_	_	
+8-22	549-552	mag	_	_	
+8-23	553-554	.	_	_	
+
+#Text=Separatabdrücke von der Notice 2 vel .
+9-1	555-570	Separatabdrücke	_	_	
+9-2	571-574	von	_	_	
+9-3	575-578	der	_	_	
+9-4	579-585	Notice	_	_	
+9-5	586-587	2	_	_	
+9-6	588-591	vel	_	_	
+9-7	592-593	.	_	_	
+
+#Text=2 ord .
+10-1	594-595	2	_	_	
+10-2	596-599	ord	_	_	
+10-3	600-601	.	_	_	
+
+#Text=( nach früherer Verordnung ) müssen Sie erhalten haben .
+11-1	602-603	(	_	_	
+11-2	604-608	nach	_	_	
+11-3	609-617	früherer	_	_	
+11-4	618-628	Verordnung	_	_	
+11-5	629-630	)	_	_	
+11-6	631-637	müssen	_	_	
+11-7	638-641	Sie	_	_	
+11-8	642-650	erhalten	_	_	
+11-9	651-656	haben	_	_	
+11-10	657-658	.	_	_	
+
+#Text=GerhardsQuittungen desgleichen .
+12-1	659-677	GerhardsQuittungen	_	_	
+12-2	678-689	desgleichen	_	_	
+12-3	690-691	.	_	_	
+
+#Text=Für Weber habe ich unten angebogen eine Anweisung auf Marcus geschrieben ; sorgen Sie dafür daß Avellino : Neues Rhein .
+13-1	692-695	Für	_	_	
+13-2	696-701	Weber	*	PERmentioned	
+13-3	702-706	habe	_	_	
+13-4	707-710	ich	_	_	
+13-5	711-716	unten	_	_	
+13-6	717-726	angebogen	_	_	
+13-7	727-731	eine	_	_	
+13-8	732-741	Anweisung	_	_	
+13-9	742-745	auf	_	_	
+13-10	746-752	Marcus	*	PERmentioned	
+13-11	753-764	geschrieben	_	_	
+13-12	765-766	;	_	_	
+13-13	767-773	sorgen	_	_	
+13-14	774-777	Sie	_	_	
+13-15	778-783	dafür	_	_	
+13-16	784-787	daß	_	_	
+13-17	788-796	Avellino	*	PERmentioned	
+13-18	797-798	:	_	_	
+13-19	799-804	Neues	_	_	
+13-20	805-810	Rhein	_	_	
+13-21	811-812	.	_	_	
+
+#Text=Mus . II .
+14-1	813-816	Mus	_	_	
+14-2	817-818	.	_	_	
+14-3	819-821	II	_	_	
+14-4	822-823	.	_	_	
+
+#Text=Heft 1 und 3 nachgeliefert bekommt ; Sie haften .
+15-1	824-828	Heft	_	_	
+15-2	829-830	1	_	_	
+15-3	831-834	und	_	_	
+15-4	835-836	3	_	_	
+15-5	837-850	nachgeliefert	_	_	
+15-6	851-858	bekommt	_	_	
+15-7	859-860	;	_	_	
+15-8	861-864	Sie	_	_	
+15-9	865-871	haften	_	_	
+15-10	872-873	.	_	_	
+
+#Text=Wann und wie soll ich Band III .
+16-1	874-878	Wann	_	_	
+16-2	879-882	und	_	_	
+16-3	883-886	wie	_	_	
+16-4	887-891	soll	_	_	
+16-5	892-895	ich	_	_	
+16-6	896-900	Band	_	_	
+16-7	901-904	III	_	_	
+16-8	905-906	.	_	_	
+
+#Text=nebst Supplement für Avellino erhalten ?
+17-1	907-912	nebst	_	_	
+17-2	913-923	Supplement	_	_	
+17-3	924-927	für	_	_	
+17-4	928-936	Avellino	*	PERmentioned	
+17-5	937-945	erhalten	_	_	
+17-6	946-947	?	_	_	
+
+#Text=Ob Basseggio die Minervengeburtvase noch hat ?
+18-1	948-950	Ob	_	_	
+18-2	951-960	Basseggio	*	PERmentioned	
+18-3	961-964	die	_	_	
+18-4	965-983	Minervengeburtvase	*	OBJ	
+18-5	984-988	noch	_	_	
+18-6	989-992	hat	_	_	
+18-7	993-994	?	_	_	
+
+#Text=Ich werde gleich danach gehen .
+19-1	995-998	Ich	_	_	
+19-2	999-1004	werde	_	_	
+19-3	1005-1011	gleich	_	_	
+19-4	1012-1018	danach	_	_	
+19-5	1019-1024	gehen	_	_	
+19-6	1025-1026	.	_	_	
+
+#Text=- Hier ist viel Spectakel .
+20-1	1027-1028	-	_	_	
+20-2	1029-1033	Hier	_	_	
+20-3	1034-1037	ist	_	_	
+20-4	1038-1042	viel	_	_	
+20-5	1043-1052	Spectakel	_	_	
+20-6	1053-1054	.	_	_	
+
+#Text=Bunsen reist übermorgen ( 26 April ) ab , und mit ihm Franz .
+21-1	1055-1061	Bunsen	*	PERmentioned	
+21-2	1062-1067	reist	_	_	
+21-3	1068-1078	übermorgen	_	_	
+21-4	1079-1080	(	_	_	
+21-5	1081-1083	26	*[4]	DATEmentioned[4]	
+21-6	1084-1089	April	*[4]	DATEmentioned[4]	
+21-7	1090-1091	)	_	_	
+21-8	1092-1094	ab	_	_	
+21-9	1095-1096	,	_	_	
+21-10	1097-1100	und	_	_	
+21-11	1101-1104	mit	_	_	
+21-12	1105-1108	ihm	_	_	
+21-13	1109-1114	Franz	*	PERmentioned	
+21-14	1115-1116	.	_	_	
+
+#Text=Meier begleitet die Geh .
+22-1	1117-1122	Meier	*	PERmentioned	
+22-2	1123-1132	begleitet	_	_	
+22-3	1133-1136	die	_	_	
+22-4	1137-1140	Geh	_	_	
+22-5	1141-1142	.	_	_	
+
+#Text=Räthin , welche nach Düsseldorf geht und dort ihren Mann erwartet .
+23-1	1143-1149	Räthin	_	_	
+23-2	1150-1151	,	_	_	
+23-3	1152-1158	welche	_	_	
+23-4	1159-1163	nach	_	_	
+23-5	1164-1174	Düsseldorf	*	PLACEmentioned	
+23-6	1175-1179	geht	_	_	
+23-7	1180-1183	und	_	_	
+23-8	1184-1188	dort	_	_	
+23-9	1189-1194	ihren	_	_	
+23-10	1195-1199	Mann	_	_	
+23-11	1200-1208	erwartet	_	_	
+23-12	1209-1210	.	_	_	
+
+#Text=Apolloni hat mir endlich die angefangene Cistazeichnung vorgelegt .
+24-1	1211-1219	Apolloni	*	PERmentioned	
+24-2	1220-1223	hat	_	_	
+24-3	1224-1227	mir	_	_	
+24-4	1228-1235	endlich	_	_	
+24-5	1236-1239	die	_	_	
+24-6	1240-1251	angefangene	_	_	
+24-7	1252-1266	Cistazeichnung	_	_	
+24-8	1267-1276	vorgelegt	_	_	
+24-9	1277-1278	.	_	_	
+
+#Text=Er hofft sie diese Woche zu beenden .
+25-1	1279-1281	Er	_	_	
+25-2	1282-1287	hofft	_	_	
+25-3	1288-1291	sie	_	_	
+25-4	1292-1297	diese	_	_	
+25-5	1298-1303	Woche	_	_	
+25-6	1304-1306	zu	_	_	
+25-7	1307-1314	beenden	_	_	
+25-8	1315-1316	.	_	_	
+
+#Text=Ob sie Bunsen wird mitbringen können ?
+26-1	1317-1319	Ob	_	_	
+26-2	1320-1323	sie	_	_	
+26-3	1324-1330	Bunsen	*	PERmentioned	
+26-4	1331-1335	wird	_	_	
+26-5	1336-1346	mitbringen	_	_	
+26-6	1347-1353	können	_	_	
+26-7	1354-1355	?	_	_	
+
+#Text=Ich har
+27-1	1356-1359	Ich	_	_	
+27-2	1360-1363	har	_	_	

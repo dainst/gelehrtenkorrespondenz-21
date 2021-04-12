@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=35 Braun an Gerhard Rom , 11 .
+1-1	0-2	35	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	11	_	_
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 griechischen Styls .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-55	griechischen	_	_
+2-4	56-61	Styls	_	_
+2-5	62-63	.	_	_
+
+#Text=Palazzo Colonna .
+3-1	64-71	Palazzo	*[5]	PLACEmentioned[5]
+3-2	72-79	Colonna	*[5]	PLACEmentioned[5]
+3-3	80-81	.	_	_
+
+#Text=III .
+4-1	82-85	III	_	_
+4-2	86-87	.	_	_
+
+#Text=Biga mit Selene .
+5-1	88-92	Biga	_	_
+5-2	93-96	mit	*[6]	OBJ[6]
+5-3	97-103	Selene	*[6]	OBJ[6]
+5-4	104-105	.	_	_
+
+#Text=Flaches Relief geistvoller griechischer Arbeit .
+6-1	106-113	Flaches	*[7]	OBJ[7]
+6-2	114-120	Relief	*[7]	OBJ[7]
+6-3	121-132	geistvoller	_	_
+6-4	133-145	griechischer	_	_
+6-5	146-152	Arbeit	_	_
+6-6	153-154	.	_	_
+
+#Text=Palazzo Colonna .
+7-1	155-162	Palazzo	*[8]	PLACEmentioned[8]
+7-2	163-170	Colonna	*[8]	PLACEmentioned[8]
+7-3	171-172	.	_	_
+
+#Text=IV .
+8-1	173-175	IV	_	_
+8-2	176-177	.	_	_
+
+#Text=Demeter Thesmophoriagesa .
+9-1	178-185	Demeter	_	_
+9-2	186-202	Thesmophoriagesa	*[9]	OBJ[9]
+9-3	203-204	.	_	_
+
+#Text=Relief aus Palazzo Colonna , ist der Pozzo bei Welcker .
+10-1	205-211	Relief	*	OBJ
+10-2	212-215	aus	_	_
+10-3	216-223	Palazzo	*[11]	PLACEmentioned[11]
+10-4	224-231	Colonna	*[11]	PLACEmentioned[11]
+10-5	232-233	,	_	_
+10-6	234-237	ist	_	_
+10-7	238-241	der	_	_
+10-8	242-247	Pozzo	_	_
+10-9	248-251	bei	_	_
+10-10	252-259	Welcker	*	PERmentioned
+10-11	260-261	.	_	_
+
+#Text=V. lDorbeerbekränztes Brustbild des Mars .
+11-1	262-264	V.	_	_
+11-2	265-283	lDorbeerbekränztes	*[13]	OBJ[13]
+11-3	284-293	Brustbild	*[13]	OBJ[13]
+11-4	294-297	des	*[13]	OBJ[13]
+11-5	298-302	Mars	*[13]	OBJ[13]
+11-6	303-304	.	_	_
+
+#Text=Medaillon eb VI .
+12-1	305-314	Medaillon	_	_
+12-2	315-317	eb	_	_
+12-3	318-320	VI	_	_
+12-4	321-322	.	_	_
+
+#Text=Minervenbrustbild .
+13-1	323-340	Minervenbrustbild	*	OBJ
+13-2	341-342	.	_	_
+
+#Text=Desgleichen .
+14-1	343-354	Desgleichen	_	_
+14-2	355-356	.	_	_
+
+#Text=VII .
+15-1	357-360	VII	_	_
+15-2	361-362	.	_	_
+
+#Text=Amoren mit Fakel und Bogen bei einer Herme .
+16-1	363-369	Amoren	_	_
+16-2	370-373	mit	*[15]	OBJ[15]
+16-3	374-379	Fakel	*[15]	OBJ[15]
+16-4	380-383	und	*[15]	OBJ[15]
+16-5	384-389	Bogen	*[15]	OBJ[15]
+16-6	390-393	bei	*[15]	OBJ[15]
+16-7	394-399	einer	*[15]	OBJ[15]
+16-8	400-405	Herme	*[15]	OBJ[15]
+16-9	406-407	.	_	_
+
+#Text=eb VIII .
+17-1	408-410	eb	_	_
+17-2	411-415	VIII	_	_
+17-3	416-417	.	_	_
+
+#Text=Zeus und Aegina .
+18-1	418-422	Zeus	*[16]	OBJ[16]
+18-2	423-426	und	*[16]	OBJ[16]
+18-3	427-433	Aegina	*[16]|*[17]	OBJ[16]|OBJ[17]
+18-4	434-435	.	_	_
+
+#Text=Relief eb IX .
+19-1	436-442	Relief	*	OBJ
+19-2	443-445	eb	_	_
+19-3	446-448	IX	_	_
+19-4	449-450	.	_	_
+
+#Text=Darstellung eines von Pferden gezogenen Schiffs zu einer Circusdarstellung gehörig .
+20-1	451-462	Darstellung	*[19]	OBJ[19]
+20-2	463-468	eines	*[19]	OBJ[19]
+20-3	469-472	von	*[19]	OBJ[19]
+20-4	473-480	Pferden	*[19]	OBJ[19]
+20-5	481-490	gezogenen	*[19]	OBJ[19]
+20-6	491-498	Schiffs	*[19]	OBJ[19]
+20-7	499-501	zu	*[19]	OBJ[19]
+20-8	502-507	einer	*[19]	OBJ[19]
+20-9	508-525	Circusdarstellung	*[19]	OBJ[19]
+20-10	526-533	gehörig	_	_
+20-11	534-535	.	_	_
+
+#Text=eb X .
+21-1	536-538	eb	_	_
+21-2	539-540	X	_	_
+21-3	541-542	.	_	_
+
+#Text=Statuarische Darstellung des Winters mit Hase : auf der Schulter .
+22-1	543-555	Statuarische	*[20]	OBJ[20]
+22-2	556-567	Darstellung	*[20]	OBJ[20]
+22-3	568-571	des	*[20]	OBJ[20]
+22-4	572-579	Winters	*[20]	OBJ[20]
+22-5	580-583	mit	*[20]	OBJ[20]
+22-6	584-588	Hase	*[20]	OBJ[20]
+22-7	589-590	:	*[20]	OBJ[20]
+22-8	591-594	auf	*[20]	OBJ[20]
+22-9	595-598	der	*[20]	OBJ[20]
+22-10	599-607	Schulter	_	_
+22-11	608-609	.	_	_
+
+#Text=eb Für die Vasen ist mannigfach interessantes vorbereitet , unter einander Odysseus und Circe ?
+23-1	610-612	eb	_	_
+23-2	613-616	Für	_	_
+23-3	617-620	die	_	_
+23-4	621-626	Vasen	*	OBJ
+23-5	627-630	ist	_	_
+23-6	631-641	mannigfach	_	_
+23-7	642-655	interessantes	_	_
+23-8	656-667	vorbereitet	_	_
+23-9	668-669	,	_	_
+23-10	670-675	unter	_	_
+23-11	676-684	einander	_	_
+23-12	685-693	Odysseus	*[22]	OBJ[22]
+23-13	694-697	und	*[22]	OBJ[22]
+23-14	698-703	Circe	*[22]	OBJ[22]
+23-15	704-705	?	_	_
+
+#Text=Odysseus heimkehrend .
+24-1	706-714	Odysseus	*[23]	OBJ[23]
+24-2	715-726	heimkehrend	*[23]	OBJ[23]
+24-3	727-728	.	_	_
+
+#Text=Für die Terracotten ein Zeuskind zwischen Kreuzbanden .
+25-1	729-732	Für	_	_
+25-2	733-736	die	_	_
+25-3	737-748	Terracotten	*	OBJ
+25-4	749-752	ein	_	_
+25-5	753-761	Zeuskind	*[25]	OBJ[25]
+25-6	762-770	zwischen	*[25]	OBJ[25]
+25-7	771-782	Kreuzbanden	*[25]	OBJ[25]
+25-8	783-784	.	_	_
+
+#Text=etc. \\ j j Ihr treu ergebner EBraun .
+26-1	785-789	etc.	_	_
+26-2	790-791	\\	_	_
+26-3	792-793	j	_	_
+26-4	794-795	j	_	_
+26-5	796-799	Ihr	_	_
+26-6	800-804	treu	_	_
+26-7	805-813	ergebner	_	_
+26-8	814-820	EBraun	*	PERauthor
+26-9	821-822	.	_	_
+
+#Text=Gerstäcker muß S . E. den Herrn Minister von Werther , welcher 1837 bereits bezahlt hat übernehmen \; die Publicazionen müssen ihm also gratis nachgeliefert werden .
+27-1	823-833	Gerstäcker	*	ORGmentioned
+27-2	834-837	muß	_	_
+27-3	838-839	S	_	_
+27-4	840-841	.	_	_
+27-5	842-844	E.	_	_
+27-6	845-848	den	_	_
+27-7	849-854	Herrn	_	_
+27-8	855-863	Minister	*[28]	PERmentioned[28]
+27-9	864-867	von	*[28]	PERmentioned[28]
+27-10	868-875	Werther	*[28]	PERmentioned[28]
+27-11	876-877	,	_	_
+27-12	878-885	welcher	_	_
+27-13	886-890	1837	*	DATEmentioned
+27-14	891-898	bereits	_	_
+27-15	899-906	bezahlt	_	_
+27-16	907-910	hat	_	_
+27-17	911-921	übernehmen	_	_
+27-18	922-923	\;	_	_
+27-19	924-927	die	_	_
+27-20	928-941	Publicazionen	_	_
+27-21	942-948	müssen	_	_
+27-22	949-952	ihm	_	_
+27-23	953-957	also	_	_
+27-24	958-964	gratis	_	_
+27-25	965-978	nachgeliefert	_	_
+27-26	979-985	werden	_	_
+27-27	986-987	.	_	_

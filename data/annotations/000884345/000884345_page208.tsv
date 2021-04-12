@@ -1,0 +1,143 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Ohne Datum Sonntag früh Bemerkung Gerhards : Miete Abgesandt mit Bunsens Unterschrift No .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-22	Ohne	_	_
+1-5	23-28	Datum	_	_
+1-6	29-36	Sonntag	_	_
+1-7	37-41	früh	_	_
+1-8	42-51	Bemerkung	_	_
+1-9	52-60	Gerhards	*	PERmentioned
+1-10	61-62	:	_	_
+1-11	63-68	Miete	_	_
+1-12	69-78	Abgesandt	_	_
+1-13	79-82	mit	_	_
+1-14	83-90	Bunsens	*	PERmentioned
+1-15	91-103	Unterschrift	_	_
+1-16	104-106	No	_	_
+1-17	107-108	.	_	_
+
+#Text=15 . 2 Februar Lieber Freund Sydow und Kramer schreiben an den Grafen Schinas den helllenischen Altenstein .
+2-1	109-111	15	_	_
+2-2	112-113	.	_	_
+2-3	114-115	2	_	_
+2-4	116-123	Februar	_	_
+2-5	124-130	Lieber	_	_
+2-6	131-137	Freund	_	_
+2-7	138-143	Sydow	*	PERmentioned
+2-8	144-147	und	_	_
+2-9	148-154	Kramer	*	PERmentioned
+2-10	155-164	schreiben	_	_
+2-11	165-167	an	_	_
+2-12	168-171	den	_	_
+2-13	172-178	Grafen	*[7]	PERmentioned[7]
+2-14	179-186	Schinas	*[7]	PERmentioned[7]
+2-15	187-190	den	_	_
+2-16	191-204	helllenischen	_	_
+2-17	205-215	Altenstein	*	PERmentioned
+2-18	216-217	.	_	_
+
+#Text=S ( ydow ) hat dabei das Ehrendiplom erwähnt , welches von ihm zugedacht .
+3-1	218-219	S	*[14]	PERmentioned[14]
+3-2	220-221	(	*[14]	PERmentioned[14]
+3-3	222-226	ydow	*[14]	PERmentioned[14]
+3-4	227-228	)	*[14]	PERmentioned[14]
+3-5	229-232	hat	_	_
+3-6	233-238	dabei	_	_
+3-7	239-242	das	_	_
+3-8	243-254	Ehrendiplom	_	_
+3-9	255-262	erwähnt	_	_
+3-10	263-264	,	_	_
+3-11	265-272	welches	_	_
+3-12	273-276	von	_	_
+3-13	277-280	ihm	_	_
+3-14	281-290	zugedacht	_	_
+3-15	291-292	.	_	_
+
+#Text=Es müßte also heut Rath geschafft werden .
+4-1	293-295	Es	_	_
+4-2	296-301	müßte	_	_
+4-3	302-306	also	_	_
+4-4	307-311	heut	_	_
+4-5	312-316	Rath	_	_
+4-6	317-326	geschafft	_	_
+4-7	327-333	werden	_	_
+4-8	334-335	.	_	_
+
+#Text=1. für ein solches Diplom 2. einige Zeilen , die eine Notice oder Manifesto begleiten , und .
+5-1	336-338	1.	_	_
+5-2	339-342	für	_	_
+5-3	343-346	ein	_	_
+5-4	347-354	solches	_	_
+5-5	355-361	Diplom	_	_
+5-6	362-364	2.	_	_
+5-7	365-371	einige	_	_
+5-8	372-378	Zeilen	_	_
+5-9	379-380	,	_	_
+5-10	381-384	die	_	_
+5-11	385-389	eine	_	_
+5-12	390-396	Notice	_	_
+5-13	397-401	oder	_	_
+5-14	402-411	Manifesto	_	_
+5-15	412-421	begleiten	_	_
+5-16	422-423	,	_	_
+5-17	424-427	und	_	_
+5-18	428-429	.	_	_
+
+#Text=andeuten , daß Otto I subscribieren möge .
+6-1	430-438	andeuten	_	_
+6-2	439-440	,	_	_
+6-3	441-444	daß	_	_
+6-4	445-449	Otto	*[10]	PERmentioned[10]
+6-5	450-451	I	*[10]	PERmentioned[10]
+6-6	452-465	subscribieren	_	_
+6-7	466-470	möge	_	_
+6-8	471-472	.	_	_
+
+#Text=Vielleicht müßte auch Pittekzs bedacht werden .
+7-1	473-483	Vielleicht	_	_
+7-2	484-489	müßte	_	_
+7-3	490-494	auch	_	_
+7-4	495-503	Pittekzs	*	PERmentioned
+7-5	504-511	bedacht	_	_
+7-6	512-518	werden	_	_
+7-7	519-520	.	_	_
+
+#Text=Ich bin lahm , und daher immer zu Haus .
+8-1	521-524	Ich	_	_
+8-2	525-528	bin	_	_
+8-3	529-533	lahm	_	_
+8-4	534-535	,	_	_
+8-5	536-539	und	_	_
+8-6	540-545	daher	_	_
+8-7	546-551	immer	_	_
+8-8	552-554	zu	_	_
+8-9	555-559	Haus	_	_
+8-10	560-561	.	_	_
+
+#Text=Ihr Bn Sonntag früh Titel Sua Eccellenza Il Signor Conte Costantino Schinas Segretario di Stato per l'istruzione pubblica Napoli di R
+9-1	562-565	Ihr	_	_
+9-2	566-568	Bn	*	PERauthor
+9-3	569-576	Sonntag	_	_
+9-4	577-581	früh	_	_
+9-5	582-587	Titel	_	_
+9-6	588-591	Sua	_	_
+9-7	592-602	Eccellenza	_	_
+9-8	603-605	Il	_	_
+9-9	606-612	Signor	_	_
+9-10	613-618	Conte	*[13]	PERmentioned[13]
+9-11	619-629	Costantino	*[13]	PERmentioned[13]
+9-12	630-637	Schinas	*[13]	PERmentioned[13]
+9-13	638-648	Segretario	_	_
+9-14	649-651	di	_	_
+9-15	652-657	Stato	_	_
+9-16	658-661	per	_	_
+9-17	662-674	l'istruzione	_	_
+9-18	675-683	pubblica	_	_
+9-19	684-690	Napoli	*	PLACEmentioned
+9-20	691-693	di	_	_
+9-21	694-695	R	_	_

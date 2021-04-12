@@ -1,0 +1,311 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , 30 .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	30	*[3]	DATEletter[3]
+1-7	29-30	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1858 Ich danke Dir für Deine Zeilen , lieber Brunn .
+2-1	31-38	Oktober	*[3]	DATEletter[3]
+2-2	39-43	1858	*[3]	DATEletter[3]
+2-3	44-47	Ich	_	_
+2-4	48-53	danke	_	_
+2-5	54-57	Dir	_	_
+2-6	58-61	für	_	_
+2-7	62-67	Deine	_	_
+2-8	68-74	Zeilen	_	_
+2-9	75-76	,	_	_
+2-10	77-83	lieber	_	_
+2-11	84-89	Brunn	*	PERaddressee
+2-12	90-91	.	_	_
+
+#Text=Es sind schwere Zeiten , die wir durchgemacht haben , und die Lücke , die dieser Mann läßt , ist für mich unersetzlich .
+3-1	92-94	Es	_	_
+3-2	95-99	sind	_	_
+3-3	100-107	schwere	_	_
+3-4	108-114	Zeiten	_	_
+3-5	115-116	,	_	_
+3-6	117-120	die	_	_
+3-7	121-124	wir	_	_
+3-8	125-137	durchgemacht	_	_
+3-9	138-143	haben	_	_
+3-10	144-145	,	_	_
+3-11	146-149	und	_	_
+3-12	150-153	die	_	_
+3-13	154-159	Lücke	_	_
+3-14	160-161	,	_	_
+3-15	162-165	die	_	_
+3-16	166-172	dieser	_	_
+3-17	173-177	Mann	_	_
+3-18	178-182	läßt	_	_
+3-19	183-184	,	_	_
+3-20	185-188	ist	_	_
+3-21	189-192	für	_	_
+3-22	193-197	mich	_	_
+3-23	198-210	unersetzlich	_	_
+3-24	211-212	.	_	_
+
+#Text=Aber wir müssen eben versuchen weiter zu leben , so gut es gehen will .
+4-1	213-217	Aber	_	_
+4-2	218-221	wir	_	_
+4-3	222-228	müssen	_	_
+4-4	229-233	eben	_	_
+4-5	234-243	versuchen	_	_
+4-6	244-250	weiter	_	_
+4-7	251-253	zu	_	_
+4-8	254-259	leben	_	_
+4-9	260-261	,	_	_
+4-10	262-264	so	_	_
+4-11	265-268	gut	_	_
+4-12	269-271	es	_	_
+4-13	272-277	gehen	_	_
+4-14	278-282	will	_	_
+4-15	283-284	.	_	_
+
+#Text=Uns im Hause geht es sonst gut \; die zwei Kinderchen sind lustig und fangen an uns Spaß zu machen , ganz besonders wenn sie sich balgen , was redlich geschieht und worin der kleine Bengel den größeren Wurm regelmäßig unterkriegt .
+5-1	285-288	Uns	_	_
+5-2	289-291	im	_	_
+5-3	292-297	Hause	_	_
+5-4	298-302	geht	_	_
+5-5	303-305	es	_	_
+5-6	306-311	sonst	_	_
+5-7	312-315	gut	_	_
+5-8	316-317	\;	_	_
+5-9	318-321	die	_	_
+5-10	322-326	zwei	_	_
+5-11	327-337	Kinderchen	_	_
+5-12	338-342	sind	_	_
+5-13	343-349	lustig	_	_
+5-14	350-353	und	_	_
+5-15	354-360	fangen	_	_
+5-16	361-363	an	_	_
+5-17	364-367	uns	_	_
+5-18	368-372	Spaß	_	_
+5-19	373-375	zu	_	_
+5-20	376-382	machen	_	_
+5-21	383-384	,	_	_
+5-22	385-389	ganz	_	_
+5-23	390-399	besonders	_	_
+5-24	400-404	wenn	_	_
+5-25	405-408	sie	_	_
+5-26	409-413	sich	_	_
+5-27	414-420	balgen	_	_
+5-28	421-422	,	_	_
+5-29	423-426	was	_	_
+5-30	427-434	redlich	_	_
+5-31	435-444	geschieht	_	_
+5-32	445-448	und	_	_
+5-33	449-454	worin	_	_
+5-34	455-458	der	_	_
+5-35	459-465	kleine	_	_
+5-36	466-472	Bengel	_	_
+5-37	473-476	den	_	_
+5-38	477-485	größeren	_	_
+5-39	486-490	Wurm	_	_
+5-40	491-501	regelmäßig	_	_
+5-41	502-513	unterkriegt	_	_
+5-42	514-515	.	_	_
+
+#Text=Daß meine Frau dafür zu sorgen hat , hilft ihr auch durch solche böse Zeit durch .
+6-1	516-519	Daß	_	_
+6-2	520-525	meine	*[4]	PERmentioned[4]
+6-3	526-530	Frau	*[4]	PERmentioned[4]
+6-4	531-536	dafür	_	_
+6-5	537-539	zu	_	_
+6-6	540-546	sorgen	_	_
+6-7	547-550	hat	_	_
+6-8	551-552	,	_	_
+6-9	553-558	hilft	_	_
+6-10	559-562	ihr	_	_
+6-11	563-567	auch	_	_
+6-12	568-573	durch	_	_
+6-13	574-580	solche	_	_
+6-14	581-585	böse	_	_
+6-15	586-590	Zeit	_	_
+6-16	591-596	durch	_	_
+6-17	597-598	.	_	_
+
+#Text=Freilich steht uns nun wieder eine längere Trennung bevor .
+7-1	599-607	Freilich	_	_
+7-2	608-613	steht	_	_
+7-3	614-617	uns	_	_
+7-4	618-621	nun	_	_
+7-5	622-628	wieder	_	_
+7-6	629-633	eine	_	_
+7-7	634-641	längere	_	_
+7-8	642-650	Trennung	_	_
+7-9	651-656	bevor	_	_
+7-10	657-658	.	_	_
+
+#Text=Ich habe stark die Absicht im Frühling meine Reisen wieder aufzunehmen und den nächsten Winter in Rom zuzubringen .
+8-1	659-662	Ich	_	_
+8-2	663-667	habe	_	_
+8-3	668-673	stark	_	_
+8-4	674-677	die	_	_
+8-5	678-685	Absicht	_	_
+8-6	686-688	im	_	_
+8-7	689-697	Frühling	_	_
+8-8	698-703	meine	_	_
+8-9	704-710	Reisen	_	_
+8-10	711-717	wieder	_	_
+8-11	718-729	aufzunehmen	_	_
+8-12	730-733	und	_	_
+8-13	734-737	den	_	_
+8-14	738-746	nächsten	_	_
+8-15	747-753	Winter	_	_
+8-16	754-756	in	_	_
+8-17	757-760	Rom	*	PLACEmentioned
+8-18	761-772	zuzubringen	_	_
+8-19	773-774	.	_	_
+
+#Text=Zu thun ist für das Corpus genug und auch ich sehne mich einmal wieder zu erfahren , wie wir einst so glücklich waren .
+9-1	775-777	Zu	_	_
+9-2	778-782	thun	_	_
+9-3	783-786	ist	_	_
+9-4	787-790	für	_	_
+9-5	791-794	das	_	_
+9-6	795-801	Corpus	_	_
+9-7	802-807	genug	_	_
+9-8	808-811	und	_	_
+9-9	812-816	auch	_	_
+9-10	817-820	ich	_	_
+9-11	821-826	sehne	_	_
+9-12	827-831	mich	_	_
+9-13	832-838	einmal	_	_
+9-14	839-845	wieder	_	_
+9-15	846-848	zu	_	_
+9-16	849-857	erfahren	_	_
+9-17	858-859	,	_	_
+9-18	860-863	wie	_	_
+9-19	864-867	wir	_	_
+9-20	868-873	einst	_	_
+9-21	874-876	so	_	_
+9-22	877-886	glücklich	_	_
+9-23	887-892	waren	_	_
+9-24	893-894	.	_	_
+
+#Text=Wein wird ja schon wieder gewachsen sein und Durst bringe ich mit .
+10-1	895-899	Wein	_	_
+10-2	900-904	wird	_	_
+10-3	905-907	ja	_	_
+10-4	908-913	schon	_	_
+10-5	914-920	wieder	_	_
+10-6	921-930	gewachsen	_	_
+10-7	931-935	sein	_	_
+10-8	936-939	und	_	_
+10-9	940-945	Durst	_	_
+10-10	946-952	bringe	_	_
+10-11	953-956	ich	_	_
+10-12	957-960	mit	_	_
+10-13	961-962	.	_	_
+
+#Text=Gern nähme ich meine Frau mit , aber es geht mit den Kindern doch gar nicht an und so müssen wir uns wohl beiderseits da drein finden .
+11-1	963-967	Gern	_	_
+11-2	968-973	nähme	_	_
+11-3	974-977	ich	_	_
+11-4	978-983	meine	*[5]	PERmentioned[5]
+11-5	984-988	Frau	*[5]	PERmentioned[5]
+11-6	989-992	mit	_	_
+11-7	993-994	,	_	_
+11-8	995-999	aber	_	_
+11-9	1000-1002	es	_	_
+11-10	1003-1007	geht	_	_
+11-11	1008-1011	mit	_	_
+11-12	1012-1015	den	_	_
+11-13	1016-1023	Kindern	_	_
+11-14	1024-1028	doch	_	_
+11-15	1029-1032	gar	_	_
+11-16	1033-1038	nicht	_	_
+11-17	1039-1041	an	_	_
+11-18	1042-1045	und	_	_
+11-19	1046-1048	so	_	_
+11-20	1049-1055	müssen	_	_
+11-21	1056-1059	wir	_	_
+11-22	1060-1063	uns	_	_
+11-23	1064-1068	wohl	_	_
+11-24	1069-1080	beiderseits	_	_
+11-25	1081-1083	da	_	_
+11-26	1084-1089	drein	_	_
+11-27	1090-1096	finden	_	_
+11-28	1097-1098	.	_	_
+
+#Text=Um Dich gleich beim Wort zu nehmen , kommen hier einige Anfragen , für unsern Prodromus .
+12-1	1099-1101	Um	_	_
+12-2	1102-1106	Dich	_	_
+12-3	1107-1113	gleich	_	_
+12-4	1114-1118	beim	_	_
+12-5	1119-1123	Wort	_	_
+12-6	1124-1126	zu	_	_
+12-7	1127-1133	nehmen	_	_
+12-8	1134-1135	,	_	_
+12-9	1136-1142	kommen	_	_
+12-10	1143-1147	hier	_	_
+12-11	1148-1154	einige	_	_
+12-12	1155-1163	Anfragen	_	_
+12-13	1164-1165	,	_	_
+12-14	1166-1169	für	_	_
+12-15	1170-1176	unsern	_	_
+12-16	1177-1186	Prodromus	_	_
+12-17	1187-1188	.	_	_
+
+#Text=Der Druck kann jeden Tag beginnen \; also antworte so bald Du kannst .
+13-1	1189-1192	Der	_	_
+13-2	1193-1198	Druck	_	_
+13-3	1199-1203	kann	_	_
+13-4	1204-1209	jeden	_	_
+13-5	1210-1213	Tag	_	_
+13-6	1214-1222	beginnen	_	_
+13-7	1223-1224	\;	_	_
+13-8	1225-1229	also	_	_
+13-9	1230-1238	antworte	_	_
+13-10	1239-1241	so	_	_
+13-11	1242-1246	bald	_	_
+13-12	1247-1249	Du	_	_
+13-13	1250-1256	kannst	_	_
+13-14	1257-1258	.	_	_
+
+#Text=Vor allen Dingen möchte ich gern Dein Gutachten über die Inschriften von Ferentino , im Anschluß an Garrucpo eis ziemlich unklare Erörterung Bull .
+14-1	1259-1262	Vor	_	_
+14-2	1263-1268	allen	_	_
+14-3	1269-1275	Dingen	_	_
+14-4	1276-1282	möchte	_	_
+14-5	1283-1286	ich	_	_
+14-6	1287-1291	gern	_	_
+14-7	1292-1296	Dein	_	_
+14-8	1297-1306	Gutachten	_	_
+14-9	1307-1311	über	_	_
+14-10	1312-1315	die	_	_
+14-11	1316-1327	Inschriften	*	OBJ
+14-12	1328-1331	von	_	_
+14-13	1332-1341	Ferentino	*	PLACEmentioned
+14-14	1342-1343	,	_	_
+14-15	1344-1346	im	_	_
+14-16	1347-1355	Anschluß	_	_
+14-17	1356-1358	an	_	_
+14-18	1359-1367	Garrucpo	*[6]	PERmentioned[6]
+14-19	1368-1371	eis	*[6]	PERmentioned[6]
+14-20	1372-1380	ziemlich	_	_
+14-21	1381-1388	unklare	_	_
+14-22	1389-1399	Erörterung	_	_
+14-23	1400-1404	Bull	_	_
+14-24	1405-1406	.	_	_
+
+#Text=Nap .
+15-1	1407-1410	Nap	_	_
+15-2	1411-1412	.	_	_
+
+#Text=N.S .
+16-1	1413-1416	N.S	_	_
+16-2	1417-1418	.	_	_
+
+#Text=2 , 36 .
+17-1	1419-1420	2	_	_
+17-2	1421-1422	,	_	_
+17-3	1423-1425	36	_	_
+17-4	1426-1427	.	_	_

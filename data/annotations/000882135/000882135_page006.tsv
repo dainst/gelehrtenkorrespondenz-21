@@ -1,0 +1,306 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=TRTEATIERBENS ET ET N 35 Braun an Gerhard Rom , 11 .
+1-1	0-13	TRTEATIERBENS	_	_
+1-2	14-16	ET	_	_
+1-3	17-19	ET	_	_
+1-4	20-21	N	_	_
+1-5	22-24	35	_	_
+1-6	25-30	Braun	*	PERauthor
+1-7	31-33	an	_	_
+1-8	34-41	Gerhard	*	PERaddressee
+1-9	42-45	Rom	*	PLACEfrom
+1-10	46-47	,	_	_
+1-11	48-50	11	*[4]	DATEletter[4]
+1-12	51-52	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 Herrn Prof. Gerhard Rom 11 Januar 1838 .
+2-1	53-59	Januar	*[4]	DATEletter[4]
+2-2	60-64	1838	*[4]	DATEletter[4]
+2-3	65-70	Herrn	_	_
+2-4	71-76	Prof.	_	_
+2-5	77-84	Gerhard	*	PERauthor
+2-6	85-88	Rom	*	PLACEfrom
+2-7	89-91	11	*[7]	DATEletter[7]
+2-8	92-98	Januar	*[7]	DATEletter[7]
+2-9	99-103	1838	*[7]	DATEletter[7]
+2-10	104-105	.	_	_
+
+#Text=Hochverehrtester Freund !
+3-1	106-122	Hochverehrtester	_	_
+3-2	123-129	Freund	_	_
+3-3	130-131	!	_	_
+
+#Text=Gestern hat uns Bunsen den Inhalt einer an ihn gelangten Kiste zukommen lassen .
+4-1	132-139	Gestern	_	_
+4-2	140-143	hat	_	_
+4-3	144-147	uns	_	_
+4-4	148-154	Bunsen	*	PERmentioned
+4-5	155-158	den	_	_
+4-6	159-165	Inhalt	_	_
+4-7	166-171	einer	_	_
+4-8	172-174	an	_	_
+4-9	175-178	ihn	_	_
+4-10	179-188	gelangten	_	_
+4-11	189-194	Kiste	_	_
+4-12	195-203	zukommen	_	_
+4-13	204-210	lassen	_	_
+4-14	211-212	.	_	_
+
+#Text=In selbiger befanden sich unter anderem ein Aufsatz von Levetzow ( ? )
+5-1	213-215	In	_	_
+5-2	216-224	selbiger	_	_
+5-3	225-233	befanden	_	_
+5-4	234-238	sich	_	_
+5-5	239-244	unter	_	_
+5-6	245-252	anderem	_	_
+5-7	253-256	ein	_	_
+5-8	257-264	Aufsatz	_	_
+5-9	265-268	von	_	_
+5-10	269-277	Levetzow	*	PERmentioned
+5-11	278-279	(	_	_
+5-12	280-281	?	_	_
+5-13	282-283	)	_	_
+
+#Text=über Peleus und Thetis und eine dazu gehörige Zeichnung .
+6-1	284-288	über	_	_
+6-2	289-295	Peleus	*	PERmentioned
+6-3	296-299	und	_	_
+6-4	300-306	Thetis	*	PERmentioned
+6-5	307-310	und	_	_
+6-6	311-315	eine	_	_
+6-7	316-320	dazu	_	_
+6-8	321-329	gehörige	_	_
+6-9	330-339	Zeichnung	_	_
+6-10	340-341	.	_	_
+
+#Text=Was soll damit geschehen ?
+7-1	342-345	Was	_	_
+7-2	346-350	soll	_	_
+7-3	351-356	damit	_	_
+7-4	357-366	geschehen	_	_
+7-5	367-368	?	_	_
+
+#Text=Daß Gerstäcker die Basso'schen Stiche von Kochs Hamlet roh zusammengerollt und ohne weiteren Avis zurückkeschickt , ist doch auch nicht .
+8-1	369-372	Daß	_	_
+8-2	373-383	Gerstäcker	*	PERmentioned
+8-3	384-387	die	_	_
+8-4	388-399	Basso'schen	*	PERmentioned
+8-5	400-406	Stiche	_	_
+8-6	407-410	von	_	_
+8-7	411-416	Kochs	*	PERmentioned
+8-8	417-423	Hamlet	_	_
+8-9	424-427	roh	_	_
+8-10	428-443	zusammengerollt	_	_
+8-11	444-447	und	_	_
+8-12	448-452	ohne	_	_
+8-13	453-461	weiteren	_	_
+8-14	462-466	Avis	_	_
+8-15	467-482	zurückkeschickt	_	_
+8-16	483-484	,	_	_
+8-17	485-488	ist	_	_
+8-18	489-493	doch	_	_
+8-19	494-498	auch	_	_
+8-20	499-504	nicht	_	_
+8-21	505-506	.	_	_
+
+#Text=freundlich .
+9-1	507-517	freundlich	_	_
+9-2	518-519	.	_	_
+
+#Text=Ich hatte geglaubt ihm dadurch eine Freude zu machen .
+10-1	520-523	Ich	_	_
+10-2	524-529	hatte	_	_
+10-3	530-538	geglaubt	_	_
+10-4	539-542	ihm	_	_
+10-5	543-550	dadurch	_	_
+10-6	551-555	eine	_	_
+10-7	556-562	Freude	_	_
+10-8	563-565	zu	_	_
+10-9	566-572	machen	_	_
+10-10	573-574	.	_	_
+
+#Text=Jedenfalls konnten sie besser in Deutschland abgegeben werden .
+11-1	575-585	Jedenfalls	_	_
+11-2	586-593	konnten	_	_
+11-3	594-597	sie	_	_
+11-4	598-604	besser	_	_
+11-5	605-607	in	_	_
+11-6	608-619	Deutschland	*	PLACEmentioned
+11-7	620-629	abgegeben	_	_
+11-8	630-636	werden	_	_
+11-9	637-638	.	_	_
+
+#Text=Hier ist die Geldnoth auf Aeußerste gestiegen .
+12-1	639-643	Hier	_	_
+12-2	644-647	ist	_	_
+12-3	648-651	die	_	_
+12-4	652-660	Geldnoth	_	_
+12-5	661-664	auf	_	_
+12-6	665-674	Aeußerste	_	_
+12-7	675-684	gestiegen	_	_
+12-8	685-686	.	_	_
+
+#Text=Bunsen ist nicht abgeneigt das Institut für banquerott zu erklären .
+13-1	687-693	Bunsen	*	PERmentioned
+13-2	694-697	ist	_	_
+13-3	698-703	nicht	_	_
+13-4	704-713	abgeneigt	_	_
+13-5	714-717	das	_	_
+13-6	718-726	Institut	*	ORGmentioned
+13-7	727-730	für	_	_
+13-8	731-741	banquerott	_	_
+13-9	742-744	zu	_	_
+13-10	745-753	erklären	_	_
+13-11	754-755	.	_	_
+
+#Text=Anliegend erhalten Sie eine encyclica für Gerstäcker , den Bunsen auffordert die Rechnungsmaterialien einzuliefern .
+14-1	756-765	Anliegend	_	_
+14-2	766-774	erhalten	_	_
+14-3	775-778	Sie	_	_
+14-4	779-783	eine	_	_
+14-5	784-793	encyclica	_	_
+14-6	794-797	für	_	_
+14-7	798-808	Gerstäcker	*	PERmentioned
+14-8	809-810	,	_	_
+14-9	811-814	den	_	_
+14-10	815-821	Bunsen	*	PERmentioned
+14-11	822-832	auffordert	_	_
+14-12	833-836	die	_	_
+14-13	837-857	Rechnungsmaterialien	_	_
+14-14	858-870	einzuliefern	_	_
+14-15	871-872	.	_	_
+
+#Text=Ohne selbige kann natürlich gar nichts geschehen .
+15-1	873-877	Ohne	_	_
+15-2	878-885	selbige	_	_
+15-3	886-890	kann	_	_
+15-4	891-900	natürlich	_	_
+15-5	901-904	gar	_	_
+15-6	905-911	nichts	_	_
+15-7	912-921	geschehen	_	_
+15-8	922-923	.	_	_
+
+#Text=Wo befinden sich die von Ihnen bekannt gemachten Reliefs in Palazzo Colonna ?
+16-1	924-926	Wo	_	_
+16-2	927-935	befinden	_	_
+16-3	936-940	sich	_	_
+16-4	941-944	die	_	_
+16-5	945-948	von	_	_
+16-6	949-954	Ihnen	_	_
+16-7	955-962	bekannt	_	_
+16-8	963-972	gemachten	_	_
+16-9	973-980	Reliefs	*	OBJ
+16-10	981-983	in	_	_
+16-11	984-991	Palazzo	*[21]	PLACEmentioned[21]
+16-12	992-999	Colonna	*[21]	PLACEmentioned[21]
+16-13	1000-1001	?	_	_
+
+#Text=Don Vco .
+17-1	1002-1005	Don	_	_
+17-2	1006-1009	Vco	_	_
+17-3	1010-1011	.	_	_
+
+#Text=Colonna weiß mir sie nicht anzuzeigen .
+18-1	1012-1019	Colonna	*	PERmentioned
+18-2	1020-1024	weiß	_	_
+18-3	1025-1028	mir	_	_
+18-4	1029-1032	sie	_	_
+18-5	1033-1038	nicht	_	_
+18-6	1039-1049	anzuzeigen	_	_
+18-7	1050-1051	.	_	_
+
+#Text=Meine unedirten Bildwerke , an denen rasch gestochen wird , erscheinen in folgender Form .
+19-1	1052-1057	Meine	_	_
+19-2	1058-1067	unedirten	_	_
+19-3	1068-1077	Bildwerke	_	_
+19-4	1078-1079	,	_	_
+19-5	1080-1082	an	_	_
+19-6	1083-1088	denen	_	_
+19-7	1089-1094	rasch	_	_
+19-8	1095-1104	gestochen	_	_
+19-9	1105-1109	wird	_	_
+19-10	1110-1111	,	_	_
+19-11	1112-1122	erscheinen	_	_
+19-12	1123-1125	in	_	_
+19-13	1126-1135	folgender	_	_
+19-14	1136-1140	Form	_	_
+19-15	1141-1142	.	_	_
+
+#Text=Ich liefere decadenweise Sezione I .
+20-1	1143-1146	Ich	_	_
+20-2	1147-1154	liefere	_	_
+20-3	1155-1167	decadenweise	_	_
+20-4	1168-1175	Sezione	_	_
+20-5	1176-1177	I	_	_
+20-6	1178-1179	.	_	_
+
+#Text=Marmi .
+21-1	1180-1185	Marmi	*	MISC
+21-2	1186-1187	.	_	_
+
+#Text=Sezione II .
+22-1	1188-1195	Sezione	_	_
+22-2	1196-1198	II	_	_
+22-3	1199-1200	.	_	_
+
+#Text=Terracotte .
+23-1	1201-1211	Terracotte	*	MISC
+23-2	1212-1213	.	_	_
+
+#Text=Sezione III .
+24-1	1214-1221	Sezione	_	_
+24-2	1222-1225	III	_	_
+24-3	1226-1227	.	_	_
+
+#Text=Vasi .
+25-1	1228-1232	Vasi	*	MISC
+25-2	1233-1234	.	_	_
+
+#Text=Sezione IV .
+26-1	1235-1242	Sezione	_	_
+26-2	1243-1245	IV	_	_
+26-3	1246-1247	.	_	_
+
+#Text=Bronzi .
+27-1	1248-1254	Bronzi	*	MISC
+27-2	1255-1256	.	_	_
+
+#Text=Zuerst erscheint Sezione I .
+28-1	1257-1263	Zuerst	_	_
+28-2	1264-1273	erscheint	_	_
+28-3	1274-1281	Sezione	_	_
+28-4	1282-1283	I	_	_
+28-5	1284-1285	.	_	_
+
+#Text=Marmi .
+29-1	1286-1291	Marmi	_	_
+29-2	1292-1293	.	_	_
+
+#Text=I. Dionysos Fhilax .
+30-1	1294-1296	I.	_	_
+30-2	1297-1305	Dionysos	*[27]	OBJ[27]
+30-3	1306-1312	Fhilax	*[27]	OBJ[27]
+30-4	1313-1314	.	_	_
+
+#Text=Büste aus Narni .
+31-1	1315-1320	Büste	_	_
+31-2	1321-1324	aus	_	_
+31-3	1325-1330	Narni	*	PLACEmentioned
+31-4	1331-1332	.	_	_
+
+#Text=II .
+32-1	1333-1335	II	_	_
+32-2	1336-1337	.	_	_
+
+#Text=Tod des Patroklos .
+33-1	1338-1341	Tod	*[29]	OBJ[29]
+33-2	1342-1345	des	*[29]	OBJ[29]
+33-3	1346-1355	Patroklos	*[29]	OBJ[29]
+33-4	1356-1357	.	_	_
+
+#Text=Relief trefflichen
+34-1	1358-1364	Relief	*	OBJ
+34-2	1365-1376	trefflichen	_	_

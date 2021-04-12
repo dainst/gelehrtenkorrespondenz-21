@@ -1,0 +1,208 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=229 Gerhard an llenzen Berlin 13/X/1849 A. di Dir .
+1-1	0-3	229	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-22	llenzen	*	PERaddressee
+1-5	23-29	Berlin	*	PLACEfrom
+1-6	30-39	13/X/1849	*[1]	DATEletter[1]
+1-7	40-42	A.	*[1]	DATEletter[1]
+1-8	43-45	di	_	_
+1-9	46-49	Dir	_	_
+1-10	50-51	.	_	_
+
+#Text=g . 2u/X 49 r . 30/X 49 D , Henzen Berlin 73 Okt 49 Warten Verehrter Freund .
+2-1	52-53	g	_	_
+2-2	54-55	.	_	_
+2-3	56-60	2u/X	*[2]	DATErecieved[2]
+2-4	61-63	49	*[2]	DATErecieved[2]
+2-5	64-65	r	_	_
+2-6	66-67	.	_	_
+2-7	68-72	30/X	*[3]	DATEanswered[3]
+2-8	73-75	49	*[3]	DATEanswered[3]
+2-9	76-77	D	_	_
+2-10	78-79	,	_	_
+2-11	80-86	Henzen	*	PERaddressee
+2-12	87-93	Berlin	*	PLACEfrom
+2-13	94-96	73	*[4]	DATEletter[4]
+2-14	97-100	Okt	*[4]	DATEletter[4]
+2-15	101-103	49	*[4]	DATEletter[4]
+2-16	104-110	Warten	_	_
+2-17	111-120	Verehrter	_	_
+2-18	121-127	Freund	_	_
+2-19	128-129	.	_	_
+
+#Text=Bergk der eben hier ist hat meine Frage ob er zu den Annali d. J. beigesteuert verneint und ich ihn sofort veranlaßt einen epigraphischen Miscellanaufsatz den er mir für die Archäol .
+3-1	130-135	Bergk	*	PERmentioned
+3-2	136-139	der	_	_
+3-3	140-144	eben	_	_
+3-4	145-149	hier	_	_
+3-5	150-153	ist	_	_
+3-6	154-157	hat	_	_
+3-7	158-163	meine	_	_
+3-8	164-169	Frage	_	_
+3-9	170-172	ob	_	_
+3-10	173-175	er	_	_
+3-11	176-178	zu	_	_
+3-12	179-182	den	_	_
+3-13	183-189	Annali	_	_
+3-14	190-192	d.	_	_
+3-15	193-195	J.	_	_
+3-16	196-208	beigesteuert	_	_
+3-17	209-217	verneint	_	_
+3-18	218-221	und	_	_
+3-19	222-225	ich	_	_
+3-20	226-229	ihn	_	_
+3-21	230-236	sofort	_	_
+3-22	237-246	veranlaßt	_	_
+3-23	247-252	einen	_	_
+3-24	253-267	epigraphischen	_	_
+3-25	268-284	Miscellanaufsatz	_	_
+3-26	285-288	den	_	_
+3-27	289-291	er	_	_
+3-28	292-295	mir	_	_
+3-29	296-299	für	_	_
+3-30	300-303	die	_	_
+3-31	304-311	Archäol	_	_
+3-32	312-313	.	_	_
+
+#Text=Zeitung abgegeben Ihnen zum Behuf des vermuthlich ’ unbeendeten Druckss zu übersensen .
+4-1	314-321	Zeitung	_	_
+4-2	322-331	abgegeben	_	_
+4-3	332-337	Ihnen	_	_
+4-4	338-341	zum	_	_
+4-5	342-347	Behuf	_	_
+4-6	348-351	des	_	_
+4-7	352-363	vermuthlich	_	_
+4-8	364-365	’	_	_
+4-9	366-377	unbeendeten	_	_
+4-10	378-385	Druckss	_	_
+4-11	386-388	zu	_	_
+4-12	389-399	übersensen	_	_
+4-13	400-401	.	_	_
+
+#Text=Ls ist dann eben doch ein angesehener Name mehr in dem Bande .
+5-1	402-404	Ls	_	_
+5-2	405-408	ist	_	_
+5-3	409-413	dann	_	_
+5-4	414-418	eben	_	_
+5-5	419-423	doch	_	_
+5-6	424-427	ein	_	_
+5-7	428-439	angesehener	_	_
+5-8	440-444	Name	_	_
+5-9	445-449	mehr	_	_
+5-10	450-452	in	_	_
+5-11	453-456	dem	_	_
+5-12	457-462	Bande	_	_
+5-13	463-464	.	_	_
+
+#Text=Die Nachrichten von Braun lauten ja nun recht gut und hoffen wir ihn rückkehrenä nach Rom in Deutschland hier zu sehen .
+6-1	465-468	Die	_	_
+6-2	469-480	Nachrichten	_	_
+6-3	481-484	von	_	_
+6-4	485-490	Braun	*	PERmentioned
+6-5	491-497	lauten	_	_
+6-6	498-500	ja	_	_
+6-7	501-504	nun	_	_
+6-8	505-510	recht	_	_
+6-9	511-514	gut	_	_
+6-10	515-518	und	_	_
+6-11	519-525	hoffen	_	_
+6-12	526-529	wir	_	_
+6-13	530-533	ihn	_	_
+6-14	534-545	rückkehrenä	_	_
+6-15	546-550	nach	_	_
+6-16	551-554	Rom	*	PLACEmentioned
+6-17	555-557	in	_	_
+6-18	558-569	Deutschland	*	PLACEmentioned
+6-19	570-574	hier	_	_
+6-20	575-577	zu	_	_
+6-21	578-583	sehen	_	_
+6-22	584-585	.	_	_
+
+#Text=Das Monum .
+7-1	586-589	Das	_	_
+7-2	590-595	Monum	_	_
+7-3	596-597	.	_	_
+
+#Text=Heft 1848 hat er mir aber immer noch nicht zugefertigt , obwohl es seit Monaten schon expedirt sein sollte , es liest wol irgendwo verschleppt .
+8-1	598-602	Heft	_	_
+8-2	603-607	1848	*	DATEmentioned
+8-3	608-611	hat	_	_
+8-4	612-614	er	_	_
+8-5	615-618	mir	_	_
+8-6	619-623	aber	_	_
+8-7	624-629	immer	_	_
+8-8	630-634	noch	_	_
+8-9	635-640	nicht	_	_
+8-10	641-652	zugefertigt	_	_
+8-11	653-654	,	_	_
+8-12	655-661	obwohl	_	_
+8-13	662-664	es	_	_
+8-14	665-669	seit	_	_
+8-15	670-677	Monaten	_	_
+8-16	678-683	schon	_	_
+8-17	684-692	expedirt	_	_
+8-18	693-697	sein	_	_
+8-19	698-704	sollte	_	_
+8-20	705-706	,	_	_
+8-21	707-709	es	_	_
+8-22	710-715	liest	_	_
+8-23	716-719	wol	_	_
+8-24	720-728	irgendwo	_	_
+8-25	729-740	verschleppt	_	_
+8-26	741-742	.	_	_
+
+#Text=Ich bitte Sie daher , da die Nachfrage nach der Osk .
+9-1	743-746	Ich	_	_
+9-2	747-752	bitte	_	_
+9-3	753-756	Sie	_	_
+9-4	757-762	daher	_	_
+9-5	763-764	,	_	_
+9-6	765-767	da	_	_
+9-7	768-771	die	_	_
+9-8	772-781	Nachfrage	_	_
+9-9	782-786	nach	_	_
+9-10	787-790	der	_	_
+9-11	791-794	Osk	*[5]	OBJ[5]
+9-12	795-796	.	*[5]	OBJ[5]
+
+#Text=Inschrift von Agnone stark ist , das Blatt worauf dieselbe steht in einem Separatabzug mir unter Kreuzband alsbald zugehen zu lassen , Von Herzen der Ihrige , bei mehr Ruhe mehr !
+10-1	797-806	Inschrift	*[5]	OBJ[5]
+10-2	807-810	von	_	_
+10-3	811-817	Agnone	*	PLACEmentioned
+10-4	818-823	stark	_	_
+10-5	824-827	ist	_	_
+10-6	828-829	,	_	_
+10-7	830-833	das	_	_
+10-8	834-839	Blatt	_	_
+10-9	840-846	worauf	_	_
+10-10	847-855	dieselbe	_	_
+10-11	856-861	steht	_	_
+10-12	862-864	in	_	_
+10-13	865-870	einem	_	_
+10-14	871-883	Separatabzug	_	_
+10-15	884-887	mir	_	_
+10-16	888-893	unter	_	_
+10-17	894-903	Kreuzband	_	_
+10-18	904-911	alsbald	_	_
+10-19	912-919	zugehen	_	_
+10-20	920-922	zu	_	_
+10-21	923-929	lassen	_	_
+10-22	930-931	,	_	_
+10-23	932-935	Von	_	_
+10-24	936-942	Herzen	_	_
+10-25	943-946	der	_	_
+10-26	947-953	Ihrige	_	_
+10-27	954-955	,	_	_
+10-28	956-959	bei	_	_
+10-29	960-964	mehr	_	_
+10-30	965-969	Ruhe	_	_
+10-31	970-974	mehr	_	_
+10-32	975-976	!	_	_
+
+#Text=Gerharä
+11-1	977-984	Gerharä	*	PERauthor

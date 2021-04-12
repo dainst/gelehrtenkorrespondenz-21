@@ -1,0 +1,181 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=u Bunsen an Gerhard Rom , 1. Juni 1835 Scudi habe ich einen kleinen Scavo ( ' Kosten 8 Scudi ) in der Mauer des Gracchus in Ariccia machen lassen : einen ähnlichen lasse ich im Sommer an der berühmten Mauer von Ferentino mit der römischen Inschrift machen .
+1-1	0-1	u	_	_
+1-2	2-8	Bunsen	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	1.	_	_
+1-8	29-33	Juni	*[4]	DATEletter[4]
+1-9	34-38	1835	*[4]	DATEletter[4]
+1-10	39-44	Scudi	_	_
+1-11	45-49	habe	_	_
+1-12	50-53	ich	_	_
+1-13	54-59	einen	_	_
+1-14	60-67	kleinen	_	_
+1-15	68-73	Scavo	_	_
+1-16	74-75	(	_	_
+1-17	76-77	'	_	_
+1-18	78-84	Kosten	_	_
+1-19	85-86	8	_	_
+1-20	87-92	Scudi	_	_
+1-21	93-94	)	_	_
+1-22	95-97	in	_	_
+1-23	98-101	der	_	_
+1-24	102-107	Mauer	*[5]	OBJ[5]
+1-25	108-111	des	*[5]	OBJ[5]
+1-26	112-120	Gracchus	*[5]	OBJ[5]
+1-27	121-123	in	_	_
+1-28	124-131	Ariccia	*	PLACEmentioned
+1-29	132-138	machen	_	_
+1-30	139-145	lassen	_	_
+1-31	146-147	:	_	_
+1-32	148-153	einen	_	_
+1-33	154-163	ähnlichen	_	_
+1-34	164-169	lasse	_	_
+1-35	170-173	ich	_	_
+1-36	174-176	im	_	_
+1-37	177-183	Sommer	_	_
+1-38	184-186	an	_	_
+1-39	187-190	der	_	_
+1-40	191-200	berühmten	_	_
+1-41	201-206	Mauer	*	OBJ
+1-42	207-210	von	_	_
+1-43	211-220	Ferentino	*	PLACEmentioned
+1-44	221-224	mit	_	_
+1-45	225-228	der	_	_
+1-46	229-238	römischen	*[9]	OBJ[9]
+1-47	239-248	Inschrift	*[9]	OBJ[9]
+1-48	249-255	machen	_	_
+1-49	256-257	.	_	_
+
+#Text=( Apropos muß man die Eseleien des gavache Petit-Rodel ernsthaft nehmen ? )
+2-1	258-259	(	_	_
+2-2	260-267	Apropos	_	_
+2-3	268-271	muß	_	_
+2-4	272-275	man	_	_
+2-5	276-279	die	_	_
+2-6	280-288	Eseleien	_	_
+2-7	289-292	des	_	_
+2-8	293-300	gavache	_	_
+2-9	301-312	Petit-Rodel	*	PERmentioned
+2-10	313-322	ernsthaft	_	_
+2-11	323-329	nehmen	_	_
+2-12	330-331	?	_	_
+2-13	332-333	)	_	_
+
+#Text==O Scudi endl ( ich ) setzen wir aus als Preis für die beste Grotte in Corneto , auf welchen hin die ganze Bevölkerung graben wird , und zwar auf eigenes Bisiko .
+3-1	334-336	=O	_	_
+3-2	337-342	Scudi	_	_
+3-3	343-347	endl	_	_
+3-4	348-349	(	_	_
+3-5	350-353	ich	_	_
+3-6	354-355	)	_	_
+3-7	356-362	setzen	_	_
+3-8	363-366	wir	_	_
+3-9	367-370	aus	_	_
+3-10	371-374	als	_	_
+3-11	375-380	Preis	_	_
+3-12	381-384	für	_	_
+3-13	385-388	die	_	_
+3-14	389-394	beste	_	_
+3-15	395-401	Grotte	_	_
+3-16	402-404	in	_	_
+3-17	405-412	Corneto	*	PLACEmentioned
+3-18	413-414	,	_	_
+3-19	415-418	auf	_	_
+3-20	419-426	welchen	_	_
+3-21	427-430	hin	_	_
+3-22	431-434	die	_	_
+3-23	435-440	ganze	_	_
+3-24	441-452	Bevölkerung	_	_
+3-25	453-459	graben	_	_
+3-26	460-464	wird	_	_
+3-27	465-466	,	_	_
+3-28	467-470	und	_	_
+3-29	471-475	zwar	_	_
+3-30	476-479	auf	_	_
+3-31	480-487	eigenes	_	_
+3-32	488-494	Bisiko	_	_
+3-33	495-496	.	_	_
+
+#Text=Sobald Sie hören , daß Lord Stanhope hier ist , 80 ossequiiren Sie ihn .
+4-1	497-503	Sobald	_	_
+4-2	504-507	Sie	_	_
+4-3	508-513	hören	_	_
+4-4	514-515	,	_	_
+4-5	516-519	daß	_	_
+4-6	520-524	Lord	*[12]	PERmentioned[12]
+4-7	525-533	Stanhope	*[12]	PERmentioned[12]
+4-8	534-538	hier	_	_
+4-9	539-542	ist	_	_
+4-10	543-544	,	_	_
+4-11	545-547	80	_	_
+4-12	548-559	ossequiiren	_	_
+4-13	560-563	Sie	_	_
+4-14	564-567	ihn	_	_
+4-15	568-569	.	_	_
+
+#Text=Es ist ein ganz herrlicher Mann , obwohl sehr originell .
+5-1	570-572	Es	_	_
+5-2	573-576	ist	_	_
+5-3	577-580	ein	_	_
+5-4	581-585	ganz	_	_
+5-5	586-596	herrlicher	_	_
+5-6	597-601	Mann	_	_
+5-7	602-603	,	_	_
+5-8	604-610	obwohl	_	_
+5-9	611-615	sehr	_	_
+5-10	616-625	originell	_	_
+5-11	626-627	.	_	_
+
+#Text=Heut gehe ich aufs Land .
+6-1	628-632	Heut	_	_
+6-2	633-637	gehe	_	_
+6-3	638-641	ich	_	_
+6-4	642-646	aufs	_	_
+6-5	647-651	Land	_	_
+6-6	652-653	.	_	_
+
+#Text=Ich habe mich genug an dem St Simonisten Artikel in der Staats- Zeitung über Mundts miserables Machwerk geärgert .
+7-1	654-657	Ich	_	_
+7-2	658-662	habe	_	_
+7-3	663-667	mich	_	_
+7-4	668-673	genug	_	_
+7-5	674-676	an	_	_
+7-6	677-680	dem	_	_
+7-7	681-683	St	_	_
+7-8	684-694	Simonisten	_	_
+7-9	695-702	Artikel	_	_
+7-10	703-705	in	_	_
+7-11	706-709	der	_	_
+7-12	710-717	Staats-	_	_
+7-13	718-725	Zeitung	_	_
+7-14	726-730	über	_	_
+7-15	731-737	Mundts	*	PERmentioned
+7-16	738-748	miserables	_	_
+7-17	749-757	Machwerk	_	_
+7-18	758-766	geärgert	_	_
+7-19	767-768	.	_	_
+
+#Text=Herzliche Grüße an Panofka .
+8-1	769-778	Herzliche	_	_
+8-2	779-784	Grüße	_	_
+8-3	785-787	an	_	_
+8-4	788-795	Panofka	*	PERmentioned
+8-5	796-797	.	_	_
+
+#Text=Von Herzen der Ihrige Bunsen Rom 1 Jun 1835
+9-1	798-801	Von	_	_
+9-2	802-808	Herzen	_	_
+9-3	809-812	der	_	_
+9-4	813-819	Ihrige	_	_
+9-5	820-826	Bunsen	*	PERauthor
+9-6	827-830	Rom	*	PLACEfrom
+9-7	831-832	1	*[16]	DATEletter[16]
+9-8	833-836	Jun	*[16]	DATEletter[16]
+9-9	837-841	1835	*[16]	DATEletter[16]

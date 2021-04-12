@@ -1,0 +1,248 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=STREET ?
+1-1	0-6	STREET	_	_
+1-2	7-8	?	_	_
+
+#Text=STR SEES RER N x ’ 226 Brunn an Henzen ohne Ort/vor 29.Juli 1858 entschieden .
+2-1	9-12	STR	_	_
+2-2	13-17	SEES	_	_
+2-3	18-21	RER	_	_
+2-4	22-23	N	_	_
+2-5	24-25	x	_	_
+2-6	26-27	’	_	_
+2-7	28-31	226	_	_
+2-8	32-37	Brunn	*	PERauthor
+2-9	38-40	an	_	_
+2-10	41-47	Henzen	*	PERaddressee
+2-11	48-52	ohne	_	_
+2-12	53-60	Ort/vor	_	_
+2-13	61-68	29.Juli	*[7]	DATEletter[7]
+2-14	69-73	1858	*[7]	DATEletter[7]
+2-15	74-85	entschieden	_	_
+2-16	86-87	.	_	_
+
+#Text=Es ist aber immer gut , daß , sofern sich dazu einmal unerwartet schnell Veranlassung fände , ich nicht durch Geldmangel verhindert bin .
+3-1	88-90	Es	_	_
+3-2	91-94	ist	_	_
+3-3	95-99	aber	_	_
+3-4	100-105	immer	_	_
+3-5	106-109	gut	_	_
+3-6	110-111	,	_	_
+3-7	112-115	daß	_	_
+3-8	116-117	,	_	_
+3-9	118-124	sofern	_	_
+3-10	125-129	sich	_	_
+3-11	130-134	dazu	_	_
+3-12	135-141	einmal	_	_
+3-13	142-152	unerwartet	_	_
+3-14	153-160	schnell	_	_
+3-15	161-173	Veranlassung	_	_
+3-16	174-179	fände	_	_
+3-17	180-181	,	_	_
+3-18	182-185	ich	_	_
+3-19	186-191	nicht	_	_
+3-20	192-197	durch	_	_
+3-21	198-208	Geldmangel	_	_
+3-22	209-219	verhindert	_	_
+3-23	220-223	bin	_	_
+3-24	224-225	.	_	_
+
+#Text=Neben dem Geldbrief wird ein Avvisobrief gut sein .
+4-1	226-231	Neben	_	_
+4-2	232-235	dem	_	_
+4-3	236-245	Geldbrief	_	_
+4-4	246-250	wird	_	_
+4-5	251-254	ein	_	_
+4-6	255-266	Avvisobrief	_	_
+4-7	267-270	gut	_	_
+4-8	271-275	sein	_	_
+4-9	276-277	.	_	_
+
+#Text=Die Quittungen über die speciell mir bewilligten Beträge stelle ich wohl besser später in Rom aus , während Sie jetzt das Geld auf allgemeines Conto erheben können .
+5-1	278-281	Die	_	_
+5-2	282-292	Quittungen	_	_
+5-3	293-297	über	_	_
+5-4	298-301	die	_	_
+5-5	302-310	speciell	_	_
+5-6	311-314	mir	_	_
+5-7	315-326	bewilligten	_	_
+5-8	327-334	Beträge	_	_
+5-9	335-341	stelle	_	_
+5-10	342-345	ich	_	_
+5-11	346-350	wohl	_	_
+5-12	351-357	besser	_	_
+5-13	358-364	später	_	_
+5-14	365-367	in	_	_
+5-15	368-371	Rom	*	PLACEmentioned
+5-16	372-375	aus	_	_
+5-17	376-377	,	_	_
+5-18	378-385	während	_	_
+5-19	386-389	Sie	_	_
+5-20	390-395	jetzt	_	_
+5-21	396-399	das	_	_
+5-22	400-404	Geld	_	_
+5-23	405-408	auf	_	_
+5-24	409-420	allgemeines	_	_
+5-25	421-426	Conto	_	_
+5-26	427-434	erheben	_	_
+5-27	435-441	können	_	_
+5-28	442-443	.	_	_
+
+#Text=An Schulze zu schreiben werde ich nicht unterlassen .
+6-1	444-446	An	_	_
+6-2	447-454	Schulze	*	PERmentioned
+6-3	455-457	zu	_	_
+6-4	458-467	schreiben	_	_
+6-5	468-473	werde	_	_
+6-6	474-477	ich	_	_
+6-7	478-483	nicht	_	_
+6-8	484-495	unterlassen	_	_
+6-9	496-497	.	_	_
+
+#Text=Thile 's bitte ich in unser beider Namen das innigste Beileid auszusprechen .
+7-1	498-503	Thile	*[8]	PERmentioned[8]
+7-2	504-506	's	*[8]	PERmentioned[8]
+7-3	507-512	bitte	_	_
+7-4	513-516	ich	_	_
+7-5	517-519	in	_	_
+7-6	520-525	unser	_	_
+7-7	526-532	beider	_	_
+7-8	533-538	Namen	_	_
+7-9	539-542	das	_	_
+7-10	543-551	innigste	_	_
+7-11	552-559	Beileid	_	_
+7-12	560-573	auszusprechen	_	_
+7-13	574-575	.	_	_
+
+#Text=Domenico hatte mir seinen Unfall schon selbst gemeldet .
+8-1	576-584	Domenico	*	PERmentioned
+8-2	585-590	hatte	_	_
+8-3	591-594	mir	_	_
+8-4	595-601	seinen	_	_
+8-5	602-608	Unfall	_	_
+8-6	609-614	schon	_	_
+8-7	615-621	selbst	_	_
+8-8	622-630	gemeldet	_	_
+8-9	631-632	.	_	_
+
+#Text=NB .
+9-1	633-635	NB	_	_
+9-2	636-637	.	_	_
+
+#Text=Schulze feiert Dienst= oder Doctorjubiläum ?
+10-1	638-645	Schulze	*	PERmentioned
+10-2	646-652	feiert	_	_
+10-3	653-660	Dienst=	_	_
+10-4	661-665	oder	_	_
+10-5	666-680	Doctorjubiläum	_	_
+10-6	681-682	?	_	_
+
+#Text=Wie steht es mit Campana 's gedrucktem Catalog ?
+11-1	683-686	Wie	_	_
+11-2	687-692	steht	_	_
+11-3	693-695	es	_	_
+11-4	696-699	mit	_	_
+11-5	700-707	Campana	*	PERmentioned
+11-6	708-710	's	_	_
+11-7	711-721	gedrucktem	_	_
+11-8	722-729	Catalog	_	_
+11-9	730-731	?	_	_
+
+#Text=Conestabile wünscht wo möglich ein Exemplar und auch mir wäre es lieb , ihn hier einsehen zu können .
+12-1	732-743	Conestabile	*	PERmentioned
+12-2	744-751	wünscht	_	_
+12-3	752-754	wo	_	_
+12-4	755-762	möglich	_	_
+12-5	763-766	ein	_	_
+12-6	767-775	Exemplar	_	_
+12-7	776-779	und	_	_
+12-8	780-784	auch	_	_
+12-9	785-788	mir	_	_
+12-10	789-793	wäre	_	_
+12-11	794-796	es	_	_
+12-12	797-801	lieb	_	_
+12-13	802-803	,	_	_
+12-14	804-807	ihn	_	_
+12-15	808-812	hier	_	_
+12-16	813-821	einsehen	_	_
+12-17	822-824	zu	_	_
+12-18	825-831	können	_	_
+12-19	832-833	.	_	_
+
+#Text=Ich bitte Sie also mir Exemplare hierhergelangen zu lassen .
+13-1	834-837	Ich	_	_
+13-2	838-843	bitte	_	_
+13-3	844-847	Sie	_	_
+13-4	848-852	also	_	_
+13-5	853-856	mir	_	_
+13-6	857-866	Exemplare	_	_
+13-7	867-882	hierhergelangen	_	_
+13-8	883-885	zu	_	_
+13-9	886-892	lassen	_	_
+13-10	893-894	.	_	_
+
+#Text=Ist sonst in seinen Sachen etwas weiteres entschieden ?
+14-1	895-898	Ist	_	_
+14-2	899-904	sonst	_	_
+14-3	905-907	in	_	_
+14-4	908-914	seinen	_	_
+14-5	915-921	Sachen	_	_
+14-6	922-927	etwas	_	_
+14-7	928-936	weiteres	_	_
+14-8	937-948	entschieden	_	_
+14-9	949-950	?	_	_
+
+#Text=An einen Bullettinoartikel werde ich denken so bald es möglich ist .
+15-1	951-953	An	_	_
+15-2	954-959	einen	_	_
+15-3	960-977	Bullettinoartikel	_	_
+15-4	978-983	werde	_	_
+15-5	984-987	ich	_	_
+15-6	988-994	denken	_	_
+15-7	995-997	so	_	_
+15-8	998-1002	bald	_	_
+15-9	1003-1005	es	_	_
+15-10	1006-1013	möglich	_	_
+15-11	1014-1017	ist	_	_
+15-12	1018-1019	.	_	_
+
+#Text=-— Von Bartoccini werden Sie gleichzeitig einen Brief wegen einer Geldangelegenheit erhalten .
+16-1	1020-1022	-—	_	_
+16-2	1023-1026	Von	_	_
+16-3	1027-1037	Bartoccini	*	PERmentioned
+16-4	1038-1044	werden	_	_
+16-5	1045-1048	Sie	_	_
+16-6	1049-1061	gleichzeitig	_	_
+16-7	1062-1067	einen	_	_
+16-8	1068-1073	Brief	_	_
+16-9	1074-1079	wegen	_	_
+16-10	1080-1085	einer	_	_
+16-11	1086-1103	Geldangelegenheit	_	_
+16-12	1104-1112	erhalten	_	_
+16-13	1113-1114	.	_	_
+
+#Text=Das war wohl für heute das Nothwendige .
+17-1	1115-1118	Das	_	_
+17-2	1119-1122	war	_	_
+17-3	1123-1127	wohl	_	_
+17-4	1128-1131	für	_	_
+17-5	1132-1137	heute	_	_
+17-6	1138-1141	das	_	_
+17-7	1142-1153	Nothwendige	_	_
+17-8	1154-1155	.	_	_
+
+#Text=Noch die besten Grüße beiderseits .
+18-1	1156-1160	Noch	_	_
+18-2	1161-1164	die	_	_
+18-3	1165-1171	besten	_	_
+18-4	1172-1177	Grüße	_	_
+18-5	1178-1189	beiderseits	_	_
+18-6	1190-1191	.	_	_
+
+#Text=Ihr HBrunn .
+19-1	1192-1195	Ihr	_	_
+19-2	1196-1202	HBrunn	*	PERauthor
+19-3	1203-1204	.	_	_

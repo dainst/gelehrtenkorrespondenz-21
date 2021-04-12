@@ -1,0 +1,166 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=410 Henzen an Gerhard e3/ % 1/53 Eltern sein , nachder er noch mehrere Tage mit Jahn in München zugebracht u. gründliche Bierstudien zemacht hat .
+1-1	0-3	410	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-25	e3/	*[1]	DATEletter[1]
+1-6	26-27	%	*[1]	DATEletter[1]
+1-7	28-32	1/53	*[1]	DATEletter[1]
+1-8	33-39	Eltern	_	_
+1-9	40-44	sein	_	_
+1-10	45-46	,	_	_
+1-11	47-54	nachder	_	_
+1-12	55-57	er	_	_
+1-13	58-62	noch	_	_
+1-14	63-70	mehrere	_	_
+1-15	71-75	Tage	_	_
+1-16	76-79	mit	_	_
+1-17	80-84	Jahn	*	PERmentioned
+1-18	85-87	in	_	_
+1-19	88-95	München	*	PLACEmentioned
+1-20	96-106	zugebracht	_	_
+1-21	107-109	u.	_	_
+1-22	110-120	gründliche	_	_
+1-23	121-132	Bierstudien	_	_
+1-24	133-140	zemacht	_	_
+1-25	141-144	hat	_	_
+1-26	145-146	.	_	_
+
+#Text=Cassitto ist der Sohn eines verstorbnen Correspondenten , -— Gestern ist Hübsch aus Ca mit Frau zur sroßen Freude meiner mit letzterer sehr befreundeten Frau hier angekommen u. in unserm Hause untergekomtren .
+2-1	147-155	Cassitto	*	PERmentioned
+2-2	156-159	ist	_	_
+2-3	160-163	der	_	_
+2-4	164-168	Sohn	_	_
+2-5	169-174	eines	_	_
+2-6	175-186	verstorbnen	_	_
+2-7	187-202	Correspondenten	_	_
+2-8	203-204	,	_	_
+2-9	205-207	-—	_	_
+2-10	208-215	Gestern	_	_
+2-11	216-219	ist	_	_
+2-12	220-226	Hübsch	*	PERmentioned
+2-13	227-230	aus	_	_
+2-14	231-233	Ca	_	_
+2-15	234-237	mit	_	_
+2-16	238-242	Frau	_	_
+2-17	243-246	zur	_	_
+2-18	247-253	sroßen	_	_
+2-19	254-260	Freude	_	_
+2-20	261-267	meiner	_	_
+2-21	268-271	mit	_	_
+2-22	272-281	letzterer	_	_
+2-23	282-286	sehr	_	_
+2-24	287-299	befreundeten	_	_
+2-25	300-304	Frau	_	_
+2-26	305-309	hier	_	_
+2-27	310-320	angekommen	_	_
+2-28	321-323	u.	_	_
+2-29	324-326	in	_	_
+2-30	327-333	unserm	_	_
+2-31	334-339	Hause	_	_
+2-32	340-354	untergekomtren	_	_
+2-33	355-356	.	_	_
+
+#Text=Mit Zumptianum werde , so viel möglich , nach Vorschrift verfahren .
+3-1	357-360	Mit	_	_
+3-2	361-371	Zumptianum	_	_
+3-3	372-377	werde	_	_
+3-4	378-379	,	_	_
+3-5	380-382	so	_	_
+3-6	383-387	viel	_	_
+3-7	388-395	möglich	_	_
+3-8	396-397	,	_	_
+3-9	398-402	nach	_	_
+3-10	403-413	Vorschrift	_	_
+3-11	414-423	verfahren	_	_
+3-12	424-425	.	_	_
+
+#Text=- Nova : ein scheußliches Buch von Canina über die V , .
+4-1	426-427	-	_	_
+4-2	428-432	Nova	_	_
+4-3	433-434	:	_	_
+4-4	435-438	ein	_	_
+4-5	439-451	scheußliches	_	_
+4-6	452-456	Buch	_	_
+4-7	457-460	von	_	_
+4-8	461-467	Canina	*	PERmentioned
+4-9	468-472	über	_	_
+4-10	473-476	die	_	_
+4-11	477-478	V	_	_
+4-12	479-480	,	_	_
+4-13	481-482	.	*[2]	PLACEmentioned[2]
+
+#Text=Appia , u. ein , wo möglich , noch scheußlicheres über die Lästryg Gemälde von Via Graziosa von Natrarga .
+5-1	483-488	Appia	*[2]	PLACEmentioned[2]
+5-2	489-490	,	_	_
+5-3	491-493	u.	_	_
+5-4	494-497	ein	_	_
+5-5	498-499	,	_	_
+5-6	500-502	wo	_	_
+5-7	503-510	möglich	_	_
+5-8	511-512	,	_	_
+5-9	513-517	noch	_	_
+5-10	518-532	scheußlicheres	_	_
+5-11	533-537	über	_	_
+5-12	538-541	die	_	_
+5-13	542-549	Lästryg	*[3]	OBJ[3]
+5-14	550-557	Gemälde	*[3]	OBJ[3]
+5-15	558-561	von	_	_
+5-16	562-565	Via	*[4]	PLACEmentioned[4]
+5-17	566-574	Graziosa	*[4]	PLACEmentioned[4]
+5-18	575-578	von	_	_
+5-19	579-587	Natrarga	*	PERmentioned
+5-20	588-589	.	_	_
+
+#Text=Meine Frau grüßt herzglich Sie u. die Ihrige .
+6-1	590-595	Meine	_	_
+6-2	596-600	Frau	_	_
+6-3	601-606	grüßt	_	_
+6-4	607-616	herzglich	_	_
+6-5	617-620	Sie	_	_
+6-6	621-623	u.	_	_
+6-7	624-627	die	_	_
+6-8	628-634	Ihrige	_	_
+6-9	635-636	.	_	_
+
+#Text=Ihr ergebenster W , Henzen tom 23/XI 53 .
+7-1	637-640	Ihr	_	_
+7-2	641-652	ergebenster	_	_
+7-3	653-654	W	*[6]	PERauthor[6]
+7-4	655-656	,	*[6]	PERauthor[6]
+7-5	657-663	Henzen	*[6]	PERauthor[6]
+7-6	664-667	tom	*	PLACEfrom
+7-7	668-673	23/XI	*[5]	DATEletter[5]
+7-8	674-676	53	*[5]	DATEletter[5]
+7-9	677-678	.	_	_
+
+#Text=Ist 's wahr , 4dß .
+8-1	679-682	Ist	_	_
+8-2	683-685	's	_	_
+8-3	686-690	wahr	_	_
+8-4	691-692	,	_	_
+8-5	693-696	4dß	_	_
+8-6	697-698	.	_	_
+
+#Text=der Thronfolger hieher kommt ?
+9-1	699-702	der	_	_
+9-2	703-714	Thronfolger	*	PERmentioned
+9-3	715-721	hieher	_	_
+9-4	722-727	kommt	_	_
+9-5	728-729	?	_	_
+
+#Text=mit , oder ohne Curtius ?
+10-1	730-733	mit	_	_
+10-2	734-735	,	_	_
+10-3	736-740	oder	_	_
+10-4	741-745	ohne	_	_
+10-5	746-753	Curtius	*	PERmentioned
+10-6	754-755	?	_	_
+
+#Text=\\ ?
+11-1	756-757	\\	_	_
+11-2	758-759	?	_	_

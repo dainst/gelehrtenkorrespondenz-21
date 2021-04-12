@@ -1,0 +1,162 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Ohne Datum 260 g . 26/6 64 r . 27/6 64 Geehrtester Herr Professor \| !
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datum	_	_
+1-6	28-31	260	_	_
+1-7	32-33	g	_	_
+1-8	34-35	.	_	_
+1-9	36-40	26/6	*[3]	DATErecieved[3]
+1-10	41-43	64	*[3]	DATErecieved[3]
+1-11	44-45	r	_	_
+1-12	46-47	.	_	_
+1-13	48-52	27/6	*[4]	DATEanswered[4]
+1-14	53-55	64	*[4]	DATEanswered[4]
+1-15	56-67	Geehrtester	_	_
+1-16	68-72	Herr	_	_
+1-17	73-82	Professor	_	_
+1-18	83-84	\|	_	_
+1-19	85-86	!	_	_
+
+#Text=Vor der Hand nur wenige Anfragen , um deren gelegentliche Beantwortung ich bitte .
+2-1	87-90	Vor	_	_
+2-2	91-94	der	_	_
+2-3	95-99	Hand	_	_
+2-4	100-103	nur	_	_
+2-5	104-110	wenige	_	_
+2-6	111-119	Anfragen	_	_
+2-7	120-121	,	_	_
+2-8	122-124	um	_	_
+2-9	125-130	deren	_	_
+2-10	131-144	gelegentliche	_	_
+2-11	145-157	Beantwortung	_	_
+2-12	158-161	ich	_	_
+2-13	162-167	bitte	_	_
+2-14	168-169	.	_	_
+
+#Text=Haben Sie den Kekul & schen Brief mit meinen Notizen über die pompeianische Sil % tatue erhalten ?
+3-1	170-175	Haben	_	_
+3-2	176-179	Sie	_	_
+3-3	180-183	den	_	_
+3-4	184-189	Kekul	_	_
+3-5	190-191	&	_	_
+3-6	192-197	schen	_	_
+3-7	198-203	Brief	_	_
+3-8	204-207	mit	_	_
+3-9	208-214	meinen	_	_
+3-10	215-222	Notizen	_	_
+3-11	223-227	über	_	_
+3-12	228-231	die	_	_
+3-13	232-245	pompeianische	*	MISC
+3-14	246-249	Sil	*[6]	OBJ[6]
+3-15	250-251	%	*[6]	OBJ[6]
+3-16	252-257	tatue	*[6]	OBJ[6]
+3-17	258-266	erhalten	_	_
+3-18	267-268	?	_	_
+
+#Text=Ich frage deßhalb , weil Kekul & zu wenig Bolli auf den Brief geklebt hatte .
+4-1	269-272	Ich	_	_
+4-2	273-278	frage	_	_
+4-3	279-286	deßhalb	_	_
+4-4	287-288	,	_	_
+4-5	289-293	weil	_	_
+4-6	294-299	Kekul	*	PERmentioned
+4-7	300-301	&	_	_
+4-8	302-304	zu	_	_
+4-9	305-310	wenig	_	_
+4-10	311-316	Bolli	_	_
+4-11	317-320	auf	_	_
+4-12	321-324	den	_	_
+4-13	325-330	Brief	_	_
+4-14	331-338	geklebt	_	_
+4-15	339-344	hatte	_	_
+4-16	345-346	.	_	_
+
+#Text=Zweitens wie Heißt der Mann aus Ruvo , an dessen Zahlungsfähigkeit Sie zweifeln .
+5-1	347-355	Zweitens	_	_
+5-2	356-359	wie	_	_
+5-3	360-365	Heißt	_	_
+5-4	366-369	der	_	_
+5-5	370-374	Mann	_	_
+5-6	375-378	aus	_	_
+5-7	379-383	Ruvo	*	PLACEmentioned
+5-8	384-385	,	_	_
+5-9	386-388	an	_	_
+5-10	389-395	dessen	_	_
+5-11	396-413	Zahlungsfähigkeit	_	_
+5-12	414-417	Sie	_	_
+5-13	418-426	zweifeln	_	_
+5-14	427-428	.	_	_
+
+#Text=Das Institutsiegel war gerade auf den betreffenden Namen gedruckt , welcher dadurch verloren ging .
+6-1	429-432	Das	_	_
+6-2	433-447	Institutsiegel	_	_
+6-3	448-451	war	_	_
+6-4	452-458	gerade	_	_
+6-5	459-462	auf	_	_
+6-6	463-466	den	_	_
+6-7	467-479	betreffenden	_	_
+6-8	480-485	Namen	_	_
+6-9	486-494	gedruckt	_	_
+6-10	495-496	,	_	_
+6-11	497-504	welcher	_	_
+6-12	505-512	dadurch	_	_
+6-13	513-521	verloren	_	_
+6-14	522-526	ging	_	_
+6-15	527-528	.	_	_
+
+#Text=Von Gerhard gute Nachrichten und Aussicht auf die athenische Stelle .
+7-1	529-532	Von	_	_
+7-2	533-540	Gerhard	*	PERmentioned
+7-3	541-545	gute	_	_
+7-4	546-557	Nachrichten	_	_
+7-5	558-561	und	_	_
+7-6	562-570	Aussicht	_	_
+7-7	571-574	auf	_	_
+7-8	575-578	die	_	_
+7-9	579-589	athenische	_	_
+7-10	590-596	Stelle	_	_
+7-11	597-598	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr Wolfgang Helbig Sollte Zangemeister nach Neapel kommen , so mag er mir schreiben .
+8-1	599-602	Mit	_	_
+8-2	603-613	herzlichen	_	_
+8-3	614-620	Grüßen	_	_
+8-4	621-624	Ihr	_	_
+8-5	625-633	Wolfgang	*[5]	PERauthor[5]
+8-6	634-640	Helbig	*[5]	PERauthor[5]
+8-7	641-647	Sollte	_	_
+8-8	648-660	Zangemeister	*	PERmentioned
+8-9	661-665	nach	_	_
+8-10	666-672	Neapel	*	PLACEmentioned
+8-11	673-679	kommen	_	_
+8-12	680-681	,	_	_
+8-13	682-684	so	_	_
+8-14	685-688	mag	_	_
+8-15	689-691	er	_	_
+8-16	692-695	mir	_	_
+8-17	696-705	schreiben	_	_
+8-18	706-707	.	_	_
+
+#Text=Es ist ein billiges und hübsches Zinmmer für 8 Ducati in meinen Hause zu vermiethen .
+9-1	708-710	Es	_	_
+9-2	711-714	ist	_	_
+9-3	715-718	ein	_	_
+9-4	719-727	billiges	_	_
+9-5	728-731	und	_	_
+9-6	732-740	hübsches	_	_
+9-7	741-748	Zinmmer	_	_
+9-8	749-752	für	_	_
+9-9	753-754	8	_	_
+9-10	755-761	Ducati	_	_
+9-11	762-764	in	_	_
+9-12	765-771	meinen	_	_
+9-13	772-777	Hause	_	_
+9-14	778-780	zu	_	_
+9-15	781-791	vermiethen	_	_
+9-16	792-793	.	_	_

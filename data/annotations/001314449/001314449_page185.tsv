@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=wu 81 Henzen an Gerhard 7/111/54 die Englönder copirt , verführt hat .
+1-1	0-2	wu	_	_
+1-2	3-5	81	_	_
+1-3	6-12	Henzen	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-23	Gerhard	*	PERaddressee
+1-6	24-32	7/111/54	*	DATEletter
+1-7	33-36	die	_	_
+1-8	37-46	Englönder	_	_
+1-9	47-53	copirt	_	_
+1-10	54-55	,	_	_
+1-11	56-64	verführt	_	_
+1-12	65-68	hat	_	_
+1-13	69-70	.	_	_
+
+#Text=Das Publicum war so ärgerlich geworden , dß .
+2-1	71-74	Das	_	_
+2-2	75-83	Publicum	_	_
+2-3	84-87	war	_	_
+2-4	88-90	so	_	_
+2-5	91-100	ärgerlich	_	_
+2-6	101-109	geworden	_	_
+2-7	110-111	,	_	_
+2-8	112-114	dß	_	_
+2-9	115-116	.	_	_
+
+#Text=es ihm Insulten zurief u. ihn einmal sogar auspfiff .
+3-1	117-119	es	_	_
+3-2	120-123	ihm	_	_
+3-3	124-132	Insulten	_	_
+3-4	133-139	zurief	_	_
+3-5	140-142	u.	_	_
+3-6	143-146	ihn	_	_
+3-7	147-153	einmal	_	_
+3-8	154-159	sogar	_	_
+3-9	160-168	auspfiff	_	_
+3-10	169-170	.	_	_
+
+#Text=Es ist schade !
+4-1	171-173	Es	_	_
+4-2	174-177	ist	_	_
+4-3	178-184	schade	_	_
+4-4	185-186	!	_	_
+
+#Text=Auch Braun hätte ihm oder dem Adjutanten wohl ein Wörtchen sagen können .
+5-1	187-191	Auch	_	_
+5-2	192-197	Braun	*	PERmentioned
+5-3	198-203	hätte	_	_
+5-4	204-207	ihm	_	_
+5-5	208-212	oder	_	_
+5-6	213-216	dem	_	_
+5-7	217-227	Adjutanten	_	_
+5-8	228-232	wohl	_	_
+5-9	233-236	ein	_	_
+5-10	237-245	Wörtchen	_	_
+5-11	246-251	sagen	_	_
+5-12	252-258	können	_	_
+5-13	259-260	.	_	_
+
+#Text=Die Liebenswürdigkeit des Frinzen hatte einen so guten Eindruck gemacht , daß diese Englische Unschicklichkeit um so unangenehmer wirkte , je weniger man sie von ihm erwartete .
+6-1	261-264	Die	_	_
+6-2	265-282	Liebenswürdigkeit	_	_
+6-3	283-286	des	_	_
+6-4	287-294	Frinzen	*	PERmentioned
+6-5	295-300	hatte	_	_
+6-6	301-306	einen	_	_
+6-7	307-309	so	_	_
+6-8	310-315	guten	_	_
+6-9	316-324	Eindruck	_	_
+6-10	325-332	gemacht	_	_
+6-11	333-334	,	_	_
+6-12	335-338	daß	_	_
+6-13	339-344	diese	_	_
+6-14	345-354	Englische	_	_
+6-15	355-371	Unschicklichkeit	_	_
+6-16	372-374	um	_	_
+6-17	375-377	so	_	_
+6-18	378-390	unangenehmer	_	_
+6-19	391-397	wirkte	_	_
+6-20	398-399	,	_	_
+6-21	400-402	je	_	_
+6-22	403-410	weniger	_	_
+6-23	411-414	man	_	_
+6-24	415-418	sie	_	_
+6-25	419-422	von	_	_
+6-26	423-426	ihm	_	_
+6-27	427-436	erwartete	_	_
+6-28	437-438	.	_	_
+
+#Text=Beste Grüfe an Ihre 1 .
+7-1	439-444	Beste	_	_
+7-2	445-450	Grüfe	_	_
+7-3	451-453	an	_	_
+7-4	454-458	Ihre	_	_
+7-5	459-460	1	_	_
+7-6	461-462	.	_	_
+
+#Text=Frau von der meinigen .
+8-1	463-467	Frau	_	_
+8-2	468-471	von	_	_
+8-3	472-475	der	_	_
+8-4	476-484	meinigen	_	_
+8-5	485-486	.	_	_
+
+#Text=Ihr ur W. Henzen Rom 7/III 54 , PS .
+9-1	487-490	Ihr	_	_
+9-2	491-493	ur	_	_
+9-3	494-496	W.	*[1]	PERauthor[1]
+9-4	497-503	Henzen	*[1]	PERauthor[1]
+9-5	504-507	Rom	*	PLACEfrom
+9-6	508-513	7/III	*[2]	DATEletter[2]
+9-7	514-516	54	*[2]	DATEletter[2]
+9-8	517-518	,	*[2]	DATEletter[2]
+9-9	519-521	PS	_	_
+9-10	522-523	.	_	_
+
+#Text=So eben hatte ich Gelegenheit , den Staatsanzeirer zu sehen , u. bin erstaunt über das Heidengeld , das Zumpt geschluckt hat .
+10-1	524-526	So	_	_
+10-2	527-531	eben	_	_
+10-3	532-537	hatte	_	_
+10-4	538-541	ich	_	_
+10-5	542-553	Gelegenheit	_	_
+10-6	554-555	,	_	_
+10-7	556-559	den	_	_
+10-8	560-574	Staatsanzeirer	_	_
+10-9	575-577	zu	_	_
+10-10	578-583	sehen	_	_
+10-11	584-585	,	_	_
+10-12	586-588	u.	_	_
+10-13	589-592	bin	_	_
+10-14	593-601	erstaunt	_	_
+10-15	602-606	über	_	_
+10-16	607-610	das	_	_
+10-17	611-621	Heidengeld	_	_
+10-18	622-623	,	_	_
+10-19	624-627	das	_	_
+10-20	628-633	Zumpt	*	PERmentioned
+10-21	634-644	geschluckt	_	_
+10-22	645-648	hat	_	_
+10-23	649-650	.	_	_
+
+#Text=Ich glaubte , das Ganze betrage 600 rt .
+11-1	651-654	Ich	_	_
+11-2	655-662	glaubte	_	_
+11-3	663-664	,	_	_
+11-4	665-668	das	_	_
+11-5	669-674	Ganze	_	_
+11-6	675-682	betrage	_	_
+11-7	683-686	600	_	_
+11-8	687-689	rt	_	_
+11-9	690-691	.	_	_
+
+#Text=jährlich , u. sehe nun , daß über 7000 ausgesgeben sind .
+12-1	692-700	jährlich	_	_
+12-2	701-702	,	_	_
+12-3	703-705	u.	_	_
+12-4	706-710	sehe	_	_
+12-5	711-714	nun	_	_
+12-6	715-716	,	_	_
+12-7	717-720	daß	_	_
+12-8	721-725	über	_	_
+12-9	726-730	7000	_	_
+12-10	731-742	ausgesgeben	_	_
+12-11	743-747	sind	_	_
+12-12	748-749	.	_	_
+
+#Text=Wollte “ ott , dß .
+13-1	750-756	Wollte	_	_
+13-2	757-758	“	_	_
+13-3	759-762	ott	_	_
+13-4	763-764	,	_	_
+13-5	765-767	dß	_	_
+13-6	768-769	.	_	_
+
+#Text=wenisstens der `` Schatz '' der Akademie in Ordnung ist !
+14-1	770-780	wenisstens	_	_
+14-2	781-784	der	_	_
+14-3	785-787	``	_	_
+14-4	788-794	Schatz	_	_
+14-5	795-797	''	_	_
+14-6	798-801	der	_	_
+14-7	802-810	Akademie	*	ORGmentioned
+14-8	811-813	in	_	_
+14-9	814-821	Ordnung	_	_
+14-10	822-825	ist	_	_
+14-11	826-827	!	_	_
+
+#Text=Ich kann es unter diesen Umständen der Akademie weniger verdenken , wenn sie vorsichtig seworden ist .
+15-1	828-831	Ich	_	_
+15-2	832-836	kann	_	_
+15-3	837-839	es	_	_
+15-4	840-845	unter	_	_
+15-5	846-852	diesen	_	_
+15-6	853-862	Umständen	_	_
+15-7	863-866	der	_	_
+15-8	867-875	Akademie	*	ORGmentioned
+15-9	876-883	weniger	_	_
+15-10	884-893	verdenken	_	_
+15-11	894-895	,	_	_
+15-12	896-900	wenn	_	_
+15-13	901-904	sie	_	_
+15-14	905-915	vorsichtig	_	_
+15-15	916-924	seworden	_	_
+15-16	925-928	ist	_	_
+15-17	929-930	.	_	_
+
+#Text=- Ob nicht kkommsen mit 700 rf . hätte leisten können , was jetzt 7000 kostet , ist eine andre Frage , auf die allein Böckh u. Zumptone selig vielleicht eine verneinende Äntwort geben möchten .
+16-1	931-932	-	_	_
+16-2	933-935	Ob	_	_
+16-3	936-941	nicht	_	_
+16-4	942-950	kkommsen	*	PERmentioned
+16-5	951-954	mit	_	_
+16-6	955-958	700	_	_
+16-7	959-961	rf	_	_
+16-8	962-963	.	_	_
+16-9	964-969	hätte	_	_
+16-10	970-977	leisten	_	_
+16-11	978-984	können	_	_
+16-12	985-986	,	_	_
+16-13	987-990	was	_	_
+16-14	991-996	jetzt	_	_
+16-15	997-1001	7000	_	_
+16-16	1002-1008	kostet	_	_
+16-17	1009-1010	,	_	_
+16-18	1011-1014	ist	_	_
+16-19	1015-1019	eine	_	_
+16-20	1020-1025	andre	_	_
+16-21	1026-1031	Frage	_	_
+16-22	1032-1033	,	_	_
+16-23	1034-1037	auf	_	_
+16-24	1038-1041	die	_	_
+16-25	1042-1048	allein	_	_
+16-26	1049-1054	Böckh	*	PERmentioned
+16-27	1055-1057	u.	_	_
+16-28	1058-1066	Zumptone	_	_
+16-29	1067-1072	selig	_	_
+16-30	1073-1083	vielleicht	_	_
+16-31	1084-1088	eine	_	_
+16-32	1089-1100	verneinende	_	_
+16-33	1101-1108	Äntwort	_	_
+16-34	1109-1114	geben	_	_
+16-35	1115-1122	möchten	_	_
+16-36	1123-1124	.	_	_
+
+#Text=Doch mag sein , daß mehr ÄArbeit darin steckt , als ich denke , u. keines Falls soll man urtheilen , ohne das corpus delicti in Händen zu haben .
+17-1	1125-1129	Doch	_	_
+17-2	1130-1133	mag	_	_
+17-3	1134-1138	sein	_	_
+17-4	1139-1140	,	_	_
+17-5	1141-1144	daß	_	_
+17-6	1145-1149	mehr	_	_
+17-7	1150-1157	ÄArbeit	_	_
+17-8	1158-1163	darin	_	_
+17-9	1164-1170	steckt	_	_
+17-10	1171-1172	,	_	_
+17-11	1173-1176	als	_	_
+17-12	1177-1180	ich	_	_
+17-13	1181-1186	denke	_	_
+17-14	1187-1188	,	_	_
+17-15	1189-1191	u.	_	_
+17-16	1192-1198	keines	_	_
+17-17	1199-1204	Falls	_	_
+17-18	1205-1209	soll	_	_
+17-19	1210-1213	man	_	_
+17-20	1214-1223	urtheilen	_	_
+17-21	1224-1225	,	_	_
+17-22	1226-1230	ohne	_	_
+17-23	1231-1234	das	_	_
+17-24	1235-1241	corpus	_	_
+17-25	1242-1249	delicti	_	_
+17-26	1250-1252	in	_	_
+17-27	1253-1259	Händen	_	_
+17-28	1260-1262	zu	_	_
+17-29	1263-1268	haben	_	_
+17-30	1269-1270	.	_	_
+
+#Text=Also vazienza !
+18-1	1271-1275	Also	_	_
+18-2	1276-1284	vazienza	_	_
+18-3	1285-1286	!	_	_
+
+#Text=u Die Zumptiade erhielten Sie doch ?
+19-1	1287-1288	u	_	_
+19-2	1289-1292	Die	_	_
+19-3	1293-1302	Zumptiade	_	_
+19-4	1303-1312	erhielten	_	_
+19-5	1313-1316	Sie	_	_
+19-6	1317-1321	doch	_	_
+19-7	1322-1323	?	_	_

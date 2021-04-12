@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Ron , 7 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Ron	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	7	*[4]	DATEletter[4]
+1-7	25-26	.	*[4]	DATEletter[4]
+
+#Text=Januar 1840 Sie erhalten anbei unter Kreuzband 1 , das Fhaethonbasrelief mit Angabe aller ristauri .
+2-1	27-33	Januar	*[4]	DATEletter[4]
+2-2	34-38	1840	*[4]	DATEletter[4]
+2-3	39-42	Sie	_	_
+2-4	43-51	erhalten	_	_
+2-5	52-57	anbei	_	_
+2-6	58-63	unter	_	_
+2-7	64-73	Kreuzband	_	_
+2-8	74-75	1	_	_
+2-9	76-77	,	_	_
+2-10	78-81	das	_	_
+2-11	82-99	Fhaethonbasrelief	*	OBJ
+2-12	100-103	mit	_	_
+2-13	104-110	Angabe	_	_
+2-14	111-116	aller	_	_
+2-15	117-125	ristauri	_	_
+2-16	126-127	.	_	_
+
+#Text=Die Köpfe der Hauptfiguren sind alt .
+3-1	128-131	Die	_	_
+3-2	132-137	Köpfe	_	_
+3-3	138-141	der	_	_
+3-4	142-154	Hauptfiguren	_	_
+3-5	155-159	sind	_	_
+3-6	160-163	alt	_	_
+3-7	164-165	.	_	_
+
+#Text=Der Preis ist 400 Scudi .
+4-1	166-169	Der	_	_
+4-2	170-175	Preis	_	_
+4-3	176-179	ist	_	_
+4-4	180-183	400	_	_
+4-5	184-189	Scudi	_	_
+4-6	190-191	.	_	_
+
+#Text=2 , eine Durchzeichnung der früher Gi lischen später Millingschen Aurigagruppe .
+5-1	192-193	2	_	_
+5-2	194-195	,	_	_
+5-3	196-200	eine	_	_
+5-4	201-215	Durchzeichnung	_	_
+5-5	216-219	der	_	_
+5-6	220-226	früher	_	_
+5-7	227-229	Gi	*[6]	PERmentioned[6]
+5-8	230-237	lischen	*[6]	PERmentioned[6]
+5-9	238-244	später	_	_
+5-10	245-257	Millingschen	*	PERmentioned
+5-11	258-270	Aurigagruppe	*	OBJ
+5-12	271-272	.	_	_
+
+#Text=Das Vordertheil nach einer besseren Zeichnung , die Rückseite nach der Gi lischen .
+6-1	273-276	Das	_	_
+6-2	277-288	Vordertheil	_	_
+6-3	289-293	nach	_	_
+6-4	294-299	einer	_	_
+6-5	300-308	besseren	_	_
+6-6	309-318	Zeichnung	_	_
+6-7	319-320	,	_	_
+6-8	321-324	die	_	_
+6-9	325-334	Rückseite	_	_
+6-10	335-339	nach	_	_
+6-11	340-343	der	_	_
+6-12	344-346	Gi	*[9]	PERmentioned[9]
+6-13	347-354	lischen	*[9]	PERmentioned[9]
+6-14	355-356	.	_	_
+
+#Text=Kassel habe ich auf meiner Reise nicht berührt .
+7-1	357-363	Kassel	*	PLACEmentioned
+7-2	364-368	habe	_	_
+7-3	369-372	ich	_	_
+7-4	373-376	auf	_	_
+7-5	377-383	meiner	_	_
+7-6	384-389	Reise	_	_
+7-7	390-395	nicht	_	_
+7-8	396-403	berührt	_	_
+7-9	404-405	.	_	_
+
+#Text=Die Vasensendung wird durch die noch nicht beendigte Restauration der aus dem Leim gegangenen obscönen Schaale noch immer aufgehalten .
+8-1	406-409	Die	_	_
+8-2	410-422	Vasensendung	_	_
+8-3	423-427	wird	_	_
+8-4	428-433	durch	_	_
+8-5	434-437	die	_	_
+8-6	438-442	noch	_	_
+8-7	443-448	nicht	_	_
+8-8	449-458	beendigte	_	_
+8-9	459-471	Restauration	_	_
+8-10	472-475	der	_	_
+8-11	476-479	aus	_	_
+8-12	480-483	dem	_	_
+8-13	484-488	Leim	_	_
+8-14	489-499	gegangenen	_	_
+8-15	500-508	obscönen	*[11]	OBJ[11]
+8-16	509-516	Schaale	*[11]	OBJ[11]
+8-17	517-521	noch	_	_
+8-18	522-527	immer	_	_
+8-19	528-539	aufgehalten	_	_
+8-20	540-541	.	_	_
+
+#Text=Sie haben übrigens dadurch nichts verloren .
+9-1	542-545	Sie	_	_
+9-2	546-551	haben	_	_
+9-3	552-560	übrigens	_	_
+9-4	561-568	dadurch	_	_
+9-5	569-575	nichts	_	_
+9-6	576-584	verloren	_	_
+9-7	585-586	.	_	_
+
+#Text=Ueber den Po hätte sie doch nicht gekonnt \; dieser hält alle Frachten auf .
+10-1	587-592	Ueber	_	_
+10-2	593-596	den	_	_
+10-3	597-599	Po	_	_
+10-4	600-605	hätte	_	_
+10-5	606-609	sie	_	_
+10-6	610-614	doch	_	_
+10-7	615-620	nicht	_	_
+10-8	621-628	gekonnt	_	_
+10-9	629-630	\;	_	_
+10-10	631-637	dieser	_	_
+10-11	638-642	hält	_	_
+10-12	643-647	alle	_	_
+10-13	648-656	Frachten	_	_
+10-14	657-660	auf	_	_
+10-15	661-662	.	_	_
+
+#Text=Es thut mir leid , daß Sie die Wichtigkeit der Besetzung der Präsidentenstelle nicht begreifen ... Hier brauchen wir durchaus einen Namen zum Halt .
+11-1	663-665	Es	_	_
+11-2	666-670	thut	_	_
+11-3	671-674	mir	_	_
+11-4	675-679	leid	_	_
+11-5	680-681	,	_	_
+11-6	682-685	daß	_	_
+11-7	686-689	Sie	_	_
+11-8	690-693	die	_	_
+11-9	694-705	Wichtigkeit	_	_
+11-10	706-709	der	_	_
+11-11	710-719	Besetzung	_	_
+11-12	720-723	der	_	_
+11-13	724-741	Präsidentenstelle	_	_
+11-14	742-747	nicht	_	_
+11-15	748-757	begreifen	_	_
+11-16	758-761	...	_	_
+11-17	762-766	Hier	_	_
+11-18	767-775	brauchen	_	_
+11-19	776-779	wir	_	_
+11-20	780-788	durchaus	_	_
+11-21	789-794	einen	_	_
+11-22	795-800	Namen	_	_
+11-23	801-804	zum	_	_
+11-24	805-809	Halt	_	_
+11-25	810-811	.	_	_
+
+#Text=Das Haus habe ich seit dem 1 Januar definitiv übernommen .
+12-1	812-815	Das	_	_
+12-2	816-820	Haus	_	_
+12-3	821-825	habe	_	_
+12-4	826-829	ich	_	_
+12-5	830-834	seit	_	_
+12-6	835-838	dem	_	_
+12-7	839-840	1	*[12]	DATEmentioned[12]
+12-8	841-847	Januar	*[12]	DATEmentioned[12]
+12-9	848-857	definitiv	_	_
+12-10	858-868	übernommen	_	_
+12-11	869-870	.	_	_
+
+#Text=Ich begreife daher nicht wie von einer weiteren Bestimmung die Rede sein kann .
+13-1	871-874	Ich	_	_
+13-2	875-883	begreife	_	_
+13-3	884-889	daher	_	_
+13-4	890-895	nicht	_	_
+13-5	896-899	wie	_	_
+13-6	900-903	von	_	_
+13-7	904-909	einer	_	_
+13-8	910-918	weiteren	_	_
+13-9	919-929	Bestimmung	_	_
+13-10	930-933	die	_	_
+13-11	934-938	Rede	_	_
+13-12	939-943	sein	_	_
+13-13	944-948	kann	_	_
+13-14	949-950	.	_	_
+
+#Text=Viel Forestieri dieses Jahr , aber storni magri .
+14-1	951-955	Viel	_	_
+14-2	956-966	Forestieri	_	_
+14-3	967-973	dieses	_	_
+14-4	974-978	Jahr	_	_
+14-5	979-980	,	_	_
+14-6	981-985	aber	_	_
+14-7	986-992	storni	_	_
+14-8	993-998	magri	_	_
+14-9	999-1000	.	_	_
+
+#Text=Kein Kunsthändler macht Geschäfte .
+15-1	1001-1005	Kein	_	_
+15-2	1006-1018	Kunsthändler	_	_
+15-3	1019-1024	macht	_	_
+15-4	1025-1034	Geschäfte	_	_
+15-5	1035-1036	.	_	_
+
+#Text=So viel für heute Ihr EBraun .
+16-1	1037-1039	So	_	_
+16-2	1040-1044	viel	_	_
+16-3	1045-1048	für	_	_
+16-4	1049-1054	heute	_	_
+16-5	1055-1058	Ihr	_	_
+16-6	1059-1065	EBraun	*	PERauthor
+16-7	1066-1067	.	_	_
+
+#Text=Rom 7 Jan .
+17-1	1068-1071	Rom	*	PLACEfrom
+17-2	1072-1073	7	*[15]	DATEletter[15]
+17-3	1074-1077	Jan	*[15]	DATEletter[15]
+17-4	1078-1079	.	*[15]	DATEletter[15]
+
+#Text=40 .
+18-1	1080-1082	40	*[15]	DATEletter[15]
+18-2	1083-1084	.	_	_

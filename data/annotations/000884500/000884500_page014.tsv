@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	16	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 sind in Ihren Händen , da diese Angelegenheit mit den Institutssachen verschmolzen ward .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-47	sind	_	_
+2-4	48-50	in	_	_
+2-5	51-56	Ihren	_	_
+2-6	57-63	Händen	_	_
+2-7	64-65	,	_	_
+2-8	66-68	da	_	_
+2-9	69-74	diese	_	_
+2-10	75-88	Angelegenheit	_	_
+2-11	89-92	mit	_	_
+2-12	93-96	den	_	_
+2-13	97-112	Institutssachen	_	_
+2-14	113-125	verschmolzen	_	_
+2-15	126-130	ward	_	_
+2-16	131-132	.	_	_
+
+#Text=Müller hat freilich kein Meisterstück gemacht am neuen Heft \; absonderlich kurios die Erklärung des M s essarkophags , wo Silenen und M. zwei verschiedne Größen sind , und er an der Fichte nach dem M. vergeblich sucht .
+3-1	133-139	Müller	*	PERmentioned
+3-2	140-143	hat	_	_
+3-3	144-152	freilich	_	_
+3-4	153-157	kein	_	_
+3-5	158-170	Meisterstück	_	_
+3-6	171-178	gemacht	_	_
+3-7	179-181	am	_	_
+3-8	182-187	neuen	_	_
+3-9	188-192	Heft	_	_
+3-10	193-194	\;	_	_
+3-11	195-207	absonderlich	_	_
+3-12	208-214	kurios	_	_
+3-13	215-218	die	_	_
+3-14	219-228	Erklärung	_	_
+3-15	229-232	des	_	_
+3-16	233-234	M	*[6]	OBJ[6]
+3-17	235-236	s	*[6]	OBJ[6]
+3-18	237-249	essarkophags	*[6]	OBJ[6]
+3-19	250-251	,	_	_
+3-20	252-254	wo	_	_
+3-21	255-262	Silenen	_	_
+3-22	263-266	und	_	_
+3-23	267-269	M.	_	_
+3-24	270-274	zwei	_	_
+3-25	275-286	verschiedne	_	_
+3-26	287-293	Größen	_	_
+3-27	294-298	sind	_	_
+3-28	299-300	,	_	_
+3-29	301-304	und	_	_
+3-30	305-307	er	_	_
+3-31	308-310	an	_	_
+3-32	311-314	der	_	_
+3-33	315-321	Fichte	_	_
+3-34	322-326	nach	_	_
+3-35	327-330	dem	_	_
+3-36	331-333	M.	_	_
+3-37	334-344	vergeblich	_	_
+3-38	345-350	sucht	_	_
+3-39	351-352	.	_	_
+
+#Text=Meine Brockhausiana vom 28 Dec .
+4-1	353-358	Meine	_	_
+4-2	359-372	Brockhausiana	_	_
+4-3	373-376	vom	_	_
+4-4	377-379	28	*[7]	DATEmentioned[7]
+4-5	380-383	Dec	*[7]	DATEmentioned[7]
+4-6	384-385	.	*[7]	DATEmentioned[7]
+
+#Text=sind nun in Ihren Händen , desgleichen der Wechsel von 100 rt Betrag \; item die 20 Scudi durch Bunsen gesandt samt den Gemmen .
+5-1	386-390	sind	_	_
+5-2	391-394	nun	_	_
+5-3	395-397	in	_	_
+5-4	398-403	Ihren	_	_
+5-5	404-410	Händen	_	_
+5-6	411-412	,	_	_
+5-7	413-424	desgleichen	_	_
+5-8	425-428	der	_	_
+5-9	429-436	Wechsel	_	_
+5-10	437-440	von	_	_
+5-11	441-444	100	_	_
+5-12	445-447	rt	_	_
+5-13	448-454	Betrag	_	_
+5-14	455-456	\;	_	_
+5-15	457-461	item	_	_
+5-16	462-465	die	_	_
+5-17	466-468	20	_	_
+5-18	469-474	Scudi	_	_
+5-19	475-480	durch	_	_
+5-20	481-487	Bunsen	*	PERmentioned
+5-21	488-495	gesandt	_	_
+5-22	496-500	samt	_	_
+5-23	501-504	den	_	_
+5-24	505-511	Gemmen	_	_
+5-25	512-513	.	_	_
+
+#Text=Ich hoffe demnach daß Sie mit Zusammenrechnung meiner früheren Geldsendung vom September v. J. zugleich Wolff und Vollard befriedigen konnten , ohne selbst in Verlegenheit zu gerathen .
+6-1	514-517	Ich	_	_
+6-2	518-523	hoffe	_	_
+6-3	524-531	demnach	_	_
+6-4	532-535	daß	_	_
+6-5	536-539	Sie	_	_
+6-6	540-543	mit	_	_
+6-7	544-560	Zusammenrechnung	_	_
+6-8	561-567	meiner	_	_
+6-9	568-576	früheren	_	_
+6-10	577-588	Geldsendung	_	_
+6-11	589-592	vom	_	_
+6-12	593-602	September	*[9]	DATEmentioned[9]
+6-13	603-605	v.	*[9]	DATEmentioned[9]
+6-14	606-608	J.	*[9]	DATEmentioned[9]
+6-15	609-617	zugleich	_	_
+6-16	618-623	Wolff	*	PERmentioned
+6-17	624-627	und	_	_
+6-18	628-635	Vollard	*	PERmentioned
+6-19	636-647	befriedigen	_	_
+6-20	648-655	konnten	_	_
+6-21	656-657	,	_	_
+6-22	658-662	ohne	_	_
+6-23	663-669	selbst	_	_
+6-24	670-672	in	_	_
+6-25	673-685	Verlegenheit	_	_
+6-26	686-688	zu	_	_
+6-27	689-697	gerathen	_	_
+6-28	698-699	.	_	_
+
+#Text=An Basseggio kann ich allerdings erst im Februar senden \; auch in Rom werden wol Zahlungen die zum Neujahr fällig sein sollten , nicht früher flott .
+7-1	700-702	An	_	_
+7-2	703-712	Basseggio	*	PERmentioned
+7-3	713-717	kann	_	_
+7-4	718-721	ich	_	_
+7-5	722-732	allerdings	_	_
+7-6	733-737	erst	_	_
+7-7	738-740	im	_	_
+7-8	741-748	Februar	*	DATEmentioned
+7-9	749-755	senden	_	_
+7-10	756-757	\;	_	_
+7-11	758-762	auch	_	_
+7-12	763-765	in	_	_
+7-13	766-769	Rom	*	PLACEmentioned
+7-14	770-776	werden	_	_
+7-15	777-780	wol	_	_
+7-16	781-790	Zahlungen	_	_
+7-17	791-794	die	_	_
+7-18	795-798	zum	_	_
+7-19	799-806	Neujahr	_	_
+7-20	807-813	fällig	_	_
+7-21	814-818	sein	_	_
+7-22	819-826	sollten	_	_
+7-23	827-828	,	_	_
+7-24	829-834	nicht	_	_
+7-25	835-841	früher	_	_
+7-26	842-847	flott	_	_
+7-27	848-849	.	_	_
+
+#Text=Für weitere Auslagen , Restauration oder kleine Ankäufe , stelle ich Ihnen baldigkäehst Mehr zur Disposition \; einstweilen sollte das angewiesne Geld ja wol zu den bestellten Restaurationen gelangt haben .
+8-1	850-853	Für	_	_
+8-2	854-861	weitere	_	_
+8-3	862-870	Auslagen	_	_
+8-4	871-872	,	_	_
+8-5	873-885	Restauration	_	_
+8-6	886-890	oder	_	_
+8-7	891-897	kleine	_	_
+8-8	898-905	Ankäufe	_	_
+8-9	906-907	,	_	_
+8-10	908-914	stelle	_	_
+8-11	915-918	ich	_	_
+8-12	919-924	Ihnen	_	_
+8-13	925-937	baldigkäehst	_	_
+8-14	938-942	Mehr	_	_
+8-15	943-946	zur	_	_
+8-16	947-958	Disposition	_	_
+8-17	959-960	\;	_	_
+8-18	961-972	einstweilen	_	_
+8-19	973-979	sollte	_	_
+8-20	980-983	das	_	_
+8-21	984-994	angewiesne	_	_
+8-22	995-999	Geld	_	_
+8-23	1000-1002	ja	_	_
+8-24	1003-1006	wol	_	_
+8-25	1007-1009	zu	_	_
+8-26	1010-1013	den	_	_
+8-27	1014-1024	bestellten	_	_
+8-28	1025-1039	Restaurationen	_	_
+8-29	1040-1047	gelangt	_	_
+8-30	1048-1053	haben	_	_
+8-31	1054-1055	.	_	_
+
+#Text=Ich sehne mich sehr nach Ihren Nachrichten hierüber , wie auch die Kunde wirklich erfolgter Vasenabsendung \; Liphart verlangt auch noch seine Sachen .
+9-1	1056-1059	Ich	_	_
+9-2	1060-1065	sehne	_	_
+9-3	1066-1070	mich	_	_
+9-4	1071-1075	sehr	_	_
+9-5	1076-1080	nach	_	_
+9-6	1081-1086	Ihren	_	_
+9-7	1087-1098	Nachrichten	_	_
+9-8	1099-1107	hierüber	_	_
+9-9	1108-1109	,	_	_
+9-10	1110-1113	wie	_	_
+9-11	1114-1118	auch	_	_
+9-12	1119-1122	die	_	_
+9-13	1123-1128	Kunde	_	_
+9-14	1129-1137	wirklich	_	_
+9-15	1138-1147	erfolgter	_	_
+9-16	1148-1162	Vasenabsendung	_	_
+9-17	1163-1164	\;	_	_
+9-18	1165-1172	Liphart	*	PERmentioned
+9-19	1173-1181	verlangt	_	_
+9-20	1182-1186	auch	_	_
+9-21	1187-1191	noch	_	_
+9-22	1192-1197	seine	_	_
+9-23	1198-1204	Sachen	_	_
+9-24	1205-1206	.	_	_
+
+#Text=Mit der Süßigkeit solcher neuen Sendungen werden
+10-1	1207-1210	Mit	_	_
+10-2	1211-1214	der	_	_
+10-3	1215-1224	Süßigkeit	_	_
+10-4	1225-1232	solcher	_	_
+10-5	1233-1238	neuen	_	_
+10-6	1239-1248	Sendungen	_	_
+10-7	1249-1255	werden	_	_

@@ -1,0 +1,123 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=279 Lepsius an Henzen Berlin , 29. Mai 1875 N° .
+1-1	0-3	279	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	29.	_	_
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1875	*[1]	DATEletter[1]
+1-10	44-46	N°	_	_
+1-11	47-48	.	_	_
+
+#Text=101 g . 1/6 7 Berlin d . 29. Mai 1875 Verehrter Freund Ich habe heute die Legationskasse , auf Wunsch von Pr .
+2-1	49-52	101	_	_
+2-2	53-54	g	_	_
+2-3	55-56	.	_	_
+2-4	57-60	1/6	*[2]	DATErecieved[2]
+2-5	61-62	7	*[2]	DATErecieved[2]
+2-6	63-69	Berlin	*	PLACEfrom
+2-7	70-71	d	_	_
+2-8	72-73	.	_	_
+2-9	74-77	29.	*[3]	DATEletter[3]
+2-10	78-81	Mai	*[3]	DATEletter[3]
+2-11	82-86	1875	*[3]	DATEletter[3]
+2-12	87-96	Verehrter	_	_
+2-13	97-103	Freund	_	_
+2-14	104-107	Ich	_	_
+2-15	108-112	habe	_	_
+2-16	113-118	heute	_	_
+2-17	119-122	die	_	_
+2-18	123-137	Legationskasse	_	_
+2-19	138-139	,	_	_
+2-20	140-143	auf	_	_
+2-21	144-150	Wunsch	_	_
+2-22	151-154	von	_	_
+2-23	155-157	Pr	_	_
+2-24	158-159	.	_	_
+
+#Text=Michaelis , veranlaßt die Summe von 2 400 M bei der Römischen Gesandtschaft für Herrn Eichler zahlbar zu machen , je nach der Specialermächtigung zur Erhebung durch Michaelis .
+3-1	160-169	Michaelis	*	PERmentioned
+3-2	170-171	,	_	_
+3-3	172-181	veranlaßt	_	_
+3-4	182-185	die	_	_
+3-5	186-191	Summe	_	_
+3-6	192-195	von	_	_
+3-7	196-197	2	_	_
+3-8	198-201	400	_	_
+3-9	202-203	M	_	_
+3-10	204-207	bei	_	_
+3-11	208-211	der	_	_
+3-12	212-221	Römischen	*[4]	ORGmentioned[4]
+3-13	222-235	Gesandtschaft	*[4]	ORGmentioned[4]
+3-14	236-239	für	_	_
+3-15	240-245	Herrn	_	_
+3-16	246-253	Eichler	*	PERmentioned
+3-17	254-261	zahlbar	_	_
+3-18	262-264	zu	_	_
+3-19	265-271	machen	_	_
+3-20	272-273	,	_	_
+3-21	274-276	je	_	_
+3-22	277-281	nach	_	_
+3-23	282-285	der	_	_
+3-24	286-305	Specialermächtigung	_	_
+3-25	306-309	zur	_	_
+3-26	310-318	Erhebung	_	_
+3-27	319-324	durch	_	_
+3-28	325-334	Michaelis	*	PERmentioned
+3-29	335-336	.	_	_
+
+#Text=Ich melde Ihnen dies , obgleich Sie dabei nicht weiter betheilig sein werden \; Sie ersehen daraus die baldige Ankunft Eichlers , der Anfang Juni nach Rom abreisen will .
+4-1	337-340	Ich	_	_
+4-2	341-346	melde	_	_
+4-3	347-352	Ihnen	_	_
+4-4	353-357	dies	_	_
+4-5	358-359	,	_	_
+4-6	360-368	obgleich	_	_
+4-7	369-372	Sie	_	_
+4-8	373-378	dabei	_	_
+4-9	379-384	nicht	_	_
+4-10	385-391	weiter	_	_
+4-11	392-401	betheilig	_	_
+4-12	402-406	sein	_	_
+4-13	407-413	werden	_	_
+4-14	414-415	\;	_	_
+4-15	416-419	Sie	_	_
+4-16	420-427	ersehen	_	_
+4-17	428-434	daraus	_	_
+4-18	435-438	die	_	_
+4-19	439-446	baldige	_	_
+4-20	447-454	Ankunft	_	_
+4-21	455-463	Eichlers	*	PERmentioned
+4-22	464-465	,	_	_
+4-23	466-469	der	_	_
+4-24	470-476	Anfang	_	_
+4-25	477-481	Juni	*	DATEmentioned
+4-26	482-486	nach	_	_
+4-27	487-490	Rom	*	PLACEmentioned
+4-28	491-499	abreisen	_	_
+4-29	500-504	will	_	_
+4-30	505-506	.	_	_
+
+#Text=Die Versammlung für Montag wird wieder verschoben werden müssen .
+5-1	507-510	Die	_	_
+5-2	511-522	Versammlung	_	_
+5-3	523-526	für	_	_
+5-4	527-533	Montag	*	DATEmentioned
+5-5	534-538	wird	_	_
+5-6	539-545	wieder	_	_
+5-7	546-556	verschoben	_	_
+5-8	557-563	werden	_	_
+5-9	564-570	müssen	_	_
+5-10	571-572	.	_	_
+
+#Text=Der Ihrige R Lepsius
+6-1	573-576	Der	_	_
+6-2	577-583	Ihrige	_	_
+6-3	584-585	R	*[5]	PERauthor[5]
+6-4	586-593	Lepsius	*[5]	PERauthor[5]

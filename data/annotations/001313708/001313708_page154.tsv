@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Berlin , 8 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	8	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1835 Herrn Geh .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1835	*[4]	DATEletter[4]
+2-3	43-48	Herrn	_	_
+2-4	49-52	Geh	_	_
+2-5	53-54	.	_	_
+
+#Text=Leg Rath Bunsen Berlin 8 Jan 35 .
+3-1	55-58	Leg	_	_
+3-2	59-63	Rath	_	_
+3-3	64-70	Bunsen	*	PERaddressee
+3-4	71-77	Berlin	*	PLACEfrom
+3-5	78-79	8	*[7]	DATEletter[7]
+3-6	80-83	Jan	*[7]	DATEletter[7]
+3-7	84-86	35	*[7]	DATEletter[7]
+3-8	87-88	.	_	_
+
+#Text=Theuerster Freund .
+4-1	89-99	Theuerster	_	_
+4-2	100-106	Freund	_	_
+4-3	107-108	.	_	_
+
+#Text=In größter Eil melde ich Ihnen den guten Erfolg 9 \; dem die Boreasvase meiner Vasenunterkandlungen , und die Tazza dell'antropofago gekauft werden könnten .
+5-1	109-111	In	_	_
+5-2	112-119	größter	_	_
+5-3	120-123	Eil	_	_
+5-4	124-129	melde	_	_
+5-5	130-133	ich	_	_
+5-6	134-139	Ihnen	_	_
+5-7	140-143	den	_	_
+5-8	144-149	guten	_	_
+5-9	150-156	Erfolg	_	_
+5-10	157-158	9	_	_
+5-11	159-160	\;	_	_
+5-12	161-164	dem	_	_
+5-13	165-168	die	_	_
+5-14	169-179	Boreasvase	*	OBJ
+5-15	180-186	meiner	_	_
+5-16	187-207	Vasenunterkandlungen	_	_
+5-17	208-209	,	_	_
+5-18	210-213	und	_	_
+5-19	214-217	die	_	_
+5-20	218-223	Tazza	*[9]	OBJ[9]
+5-21	224-240	dell'antropofago	*[9]	OBJ[9]
+5-22	241-248	gekauft	_	_
+5-23	249-255	werden	_	_
+5-24	256-263	könnten	_	_
+5-25	264-265	.	_	_
+
+#Text=Campanaris Jupiter für 600 und 350 Scudi , letzeres nicht zu theuer .
+6-1	266-276	Campanaris	*	PERmentioned
+6-2	277-284	Jupiter	*	OBJ
+6-3	285-288	für	_	_
+6-4	289-292	600	_	_
+6-5	293-296	und	_	_
+6-6	297-300	350	_	_
+6-7	301-306	Scudi	_	_
+6-8	307-308	,	_	_
+6-9	309-317	letzeres	_	_
+6-10	318-323	nicht	_	_
+6-11	324-326	zu	_	_
+6-12	327-333	theuer	_	_
+6-13	334-335	.	_	_
+
+#Text=Ich habe 850 Scudi dafür vermittelt und biete ihm 800 Scudi wofür gie ihre Sachen/trotz Durands Gegenwart geben werden .
+7-1	336-339	Ich	_	_
+7-2	340-344	habe	_	_
+7-3	345-348	850	_	_
+7-4	349-354	Scudi	_	_
+7-5	355-360	dafür	_	_
+7-6	361-371	vermittelt	_	_
+7-7	372-375	und	_	_
+7-8	376-381	biete	_	_
+7-9	382-385	ihm	_	_
+7-10	386-389	800	_	_
+7-11	390-395	Scudi	_	_
+7-12	396-401	wofür	_	_
+7-13	402-405	gie	_	_
+7-14	406-410	ihre	_	_
+7-15	411-423	Sachen/trotz	_	_
+7-16	424-431	Durands	*	PERmentioned
+7-17	432-441	Gegenwart	_	_
+7-18	442-447	geben	_	_
+7-19	448-454	werden	_	_
+7-20	455-456	.	_	_
+
+#Text=Den Brief stelle ich Ihnen anheim , je nachdem Sie es passend finden diese belleria selbst oder durch Braun anzubringen .
+8-1	457-460	Den	_	_
+8-2	461-466	Brief	_	_
+8-3	467-473	stelle	_	_
+8-4	474-477	ich	_	_
+8-5	478-483	Ihnen	_	_
+8-6	484-490	anheim	_	_
+8-7	491-492	,	_	_
+8-8	493-495	je	_	_
+8-9	496-503	nachdem	_	_
+8-10	504-507	Sie	_	_
+8-11	508-510	es	_	_
+8-12	511-518	passend	_	_
+8-13	519-525	finden	_	_
+8-14	526-531	diese	_	_
+8-15	532-540	belleria	_	_
+8-16	541-547	selbst	_	_
+8-17	548-552	oder	_	_
+8-18	553-558	durch	_	_
+8-19	559-564	Braun	*	PERmentioned
+8-20	565-576	anzubringen	_	_
+8-21	577-578	.	_	_
+
+#Text=Von Böckh erhalten Sie vermuthlich gleichzeitig die Nachricht daß die Akademie gestern Ihr Gesuch dem Lepsius Geld zum Studieren bei Rosellini zu geben bis auf einen eigenhändigen Ausweis Rosellinis verschoben hat daß derselbe zu den nöthigen Gefälligkeiten bereit sei .
+9-1	579-582	Von	_	_
+9-2	583-588	Böckh	*	PERmentioned
+9-3	589-597	erhalten	_	_
+9-4	598-601	Sie	_	_
+9-5	602-613	vermuthlich	_	_
+9-6	614-626	gleichzeitig	_	_
+9-7	627-630	die	_	_
+9-8	631-640	Nachricht	_	_
+9-9	641-644	daß	_	_
+9-10	645-648	die	_	_
+9-11	649-657	Akademie	*	ORGmentioned
+9-12	658-665	gestern	_	_
+9-13	666-669	Ihr	_	_
+9-14	670-676	Gesuch	_	_
+9-15	677-680	dem	_	_
+9-16	681-688	Lepsius	*	PERmentioned
+9-17	689-693	Geld	_	_
+9-18	694-697	zum	_	_
+9-19	698-707	Studieren	_	_
+9-20	708-711	bei	_	_
+9-21	712-721	Rosellini	*	PERmentioned
+9-22	722-724	zu	_	_
+9-23	725-730	geben	_	_
+9-24	731-734	bis	_	_
+9-25	735-738	auf	_	_
+9-26	739-744	einen	_	_
+9-27	745-758	eigenhändigen	_	_
+9-28	759-766	Ausweis	_	_
+9-29	767-777	Rosellinis	*	PERmentioned
+9-30	778-788	verschoben	_	_
+9-31	789-792	hat	_	_
+9-32	793-796	daß	_	_
+9-33	797-805	derselbe	_	_
+9-34	806-808	zu	_	_
+9-35	809-812	den	_	_
+9-36	813-821	nöthigen	_	_
+9-37	822-836	Gefälligkeiten	_	_
+9-38	837-843	bereit	_	_
+9-39	844-847	sei	_	_
+9-40	848-849	.	_	_
+
+#Text=Diesen Ausweis bald von R ( osellini ) zu ermitteln drängt nun für den armen Lepsius sehr .
+10-1	850-856	Diesen	_	_
+10-2	857-864	Ausweis	_	_
+10-3	865-869	bald	_	_
+10-4	870-873	von	_	_
+10-5	874-875	R	*[10]	PERmentioned[10]
+10-6	876-877	(	*[10]	PERmentioned[10]
+10-7	878-886	osellini	*[10]	PERmentioned[10]
+10-8	887-888	)	*[10]	PERmentioned[10]
+10-9	889-891	zu	_	_
+10-10	892-901	ermitteln	_	_
+10-11	902-908	drängt	_	_
+10-12	909-912	nun	_	_
+10-13	913-916	für	_	_
+10-14	917-920	den	_	_
+10-15	921-926	armen	_	_
+10-16	927-934	Lepsius	*	PERmentioned
+10-17	935-939	sehr	_	_
+10-18	940-941	.	_	_
+
+#Text=Die entsetzliche Geschichte des Selbstmords der Stieglitz 's Frau mit einem Dolch , der zum practischen Hausgeräth diente , mit theatralischem Heroismus sich verübt hat werden Sie gehört haben .
+11-1	942-945	Die	_	_
+11-2	946-958	entsetzliche	_	_
+11-3	959-969	Geschichte	_	_
+11-4	970-973	des	_	_
+11-5	974-985	Selbstmords	_	_
+11-6	986-989	der	_	_
+11-7	990-999	Stieglitz	*[11]	PERmentioned[11]
+11-8	1000-1002	's	*[11]	PERmentioned[11]
+11-9	1003-1007	Frau	_	_
+11-10	1008-1011	mit	_	_
+11-11	1012-1017	einem	_	_
+11-12	1018-1023	Dolch	_	_
+11-13	1024-1025	,	_	_
+11-14	1026-1029	der	_	_
+11-15	1030-1033	zum	_	_
+11-16	1034-1045	practischen	_	_
+11-17	1046-1056	Hausgeräth	_	_
+11-18	1057-1063	diente	_	_
+11-19	1064-1065	,	_	_
+11-20	1066-1069	mit	_	_
+11-21	1070-1084	theatralischem	_	_
+11-22	1085-1094	Heroismus	_	_
+11-23	1095-1099	sich	_	_
+11-24	1100-1106	verübt	_	_
+11-25	1107-1110	hat	_	_
+11-26	1111-1117	werden	_	_
+11-27	1118-1121	Sie	_	_
+11-28	1122-1128	gehört	_	_
+11-29	1129-1134	haben	_	_
+11-30	1135-1136	.	_	_
+
+#Text=Ich sende Ihnen eine Abschrift des Briefs den die unglückliche Frau zu-
+12-1	1137-1140	Ich	_	_
+12-2	1141-1146	sende	_	_
+12-3	1147-1152	Ihnen	_	_
+12-4	1153-1157	eine	_	_
+12-5	1158-1167	Abschrift	_	_
+12-6	1168-1171	des	_	_
+12-7	1172-1178	Briefs	_	_
+12-8	1179-1182	den	_	_
+12-9	1183-1186	die	_	_
+12-10	1187-1199	unglückliche	_	_
+12-11	1200-1204	Frau	_	_
+12-12	1205-1208	zu-	_	_

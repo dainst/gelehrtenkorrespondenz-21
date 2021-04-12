@@ -1,0 +1,73 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=297 Helbig an Henzen Achern , 31 .
+1-1	0-3	297	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Achern	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	31	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1875 ( Via dei Pausani ) .
+2-1	35-42	Oktober	*[1]	DATEletter[1]
+2-2	43-47	1875	*[1]	DATEletter[1]
+2-3	48-49	(	_	_
+2-4	50-53	Via	*[2]	PLACEmentioned[2]
+2-5	54-57	dei	*[2]	PLACEmentioned[2]
+2-6	58-65	Pausani	*[2]	PLACEmentioned[2]
+2-7	66-67	)	_	_
+2-8	68-69	.	_	_
+
+#Text=In Florenz werde ich mich jeden Falls einen ganzen Tag aufhalten , um die Vasi di buchero anzusehen und über dieselben die nöthigen Anweisungen zu geben .
+3-1	70-72	In	_	_
+3-2	73-80	Florenz	*	PLACEmentioned
+3-3	81-86	werde	_	_
+3-4	87-90	ich	_	_
+3-5	91-95	mich	_	_
+3-6	96-101	jeden	_	_
+3-7	102-107	Falls	_	_
+3-8	108-113	einen	_	_
+3-9	114-120	ganzen	_	_
+3-10	121-124	Tag	_	_
+3-11	125-134	aufhalten	_	_
+3-12	135-136	,	_	_
+3-13	137-139	um	_	_
+3-14	140-143	die	_	_
+3-15	144-148	Vasi	*[3]	OBJ[3]
+3-16	149-151	di	*[3]	OBJ[3]
+3-17	152-159	buchero	*[3]	OBJ[3]
+3-18	160-169	anzusehen	_	_
+3-19	170-173	und	_	_
+3-20	174-178	über	_	_
+3-21	179-188	dieselben	_	_
+3-22	189-192	die	_	_
+3-23	193-201	nöthigen	_	_
+3-24	202-213	Anweisungen	_	_
+3-25	214-216	zu	_	_
+3-26	217-222	geben	_	_
+3-27	223-224	.	_	_
+
+#Text=Grüßen Sie , bitte , vielmals Klügmann , Fräulein Kopf und die Ragazzi .
+4-1	225-231	Grüßen	_	_
+4-2	232-235	Sie	_	_
+4-3	236-237	,	_	_
+4-4	238-243	bitte	_	_
+4-5	244-245	,	_	_
+4-6	246-254	vielmals	_	_
+4-7	255-263	Klügmann	*	PERmentioned
+4-8	264-265	,	_	_
+4-9	266-274	Fräulein	_	_
+4-10	275-279	Kopf	*	PERmentioned
+4-11	280-283	und	_	_
+4-12	284-287	die	_	_
+4-13	288-295	Ragazzi	_	_
+4-14	296-297	.	_	_
+
+#Text=Ihr ergebener Helbig
+5-1	298-301	Ihr	_	_
+5-2	302-311	ergebener	_	_
+5-3	312-318	Helbig	*	PERauthor

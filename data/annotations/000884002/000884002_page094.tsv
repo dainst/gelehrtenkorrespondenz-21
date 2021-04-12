@@ -1,0 +1,197 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 23. Mai 1862 darin der Anfang Ihrer Fasten .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	23.	*[13]	DATEletter[13]
+1-7	26-29	Mai	*[13]	DATEletter[13]
+1-8	30-34	1862	*[13]	DATEletter[13]
+1-9	35-40	darin	_	_
+1-10	41-44	der	_	_
+1-11	45-51	Anfang	_	_
+1-12	52-57	Ihrer	_	_
+1-13	58-64	Fasten	_	_
+1-14	65-66	.	_	_
+
+#Text=Wollen Sie dieselben nach Florenz haben ?
+2-1	67-73	Wollen	_	_
+2-2	74-77	Sie	_	_
+2-3	78-87	dieselben	_	_
+2-4	88-92	nach	_	_
+2-5	93-100	Florenz	*	PLACEmentioned
+2-6	101-106	haben	_	_
+2-7	107-108	?	_	_
+
+#Text=Eben sagt mir Ampere , daß er und Reumont erst nach Pfingsten abreisen .
+3-1	109-113	Eben	_	_
+3-2	114-118	sagt	_	_
+3-3	119-122	mir	_	_
+3-4	123-129	Ampere	*	PERmentioned
+3-5	130-131	,	_	_
+3-6	132-135	daß	_	_
+3-7	136-138	er	_	_
+3-8	139-142	und	_	_
+3-9	143-150	Reumont	*	PERmentioned
+3-10	151-155	erst	_	_
+3-11	156-160	nach	_	_
+3-12	161-170	Pfingsten	_	_
+3-13	171-179	abreisen	_	_
+3-14	180-181	.	_	_
+
+#Text=Da müssen Sie sich doch vielleicht Visitenkarten in Florenz machen lassen .
+4-1	182-184	Da	_	_
+4-2	185-191	müssen	_	_
+4-3	192-195	Sie	_	_
+4-4	196-200	sich	_	_
+4-5	201-205	doch	_	_
+4-6	206-216	vielleicht	_	_
+4-7	217-230	Visitenkarten	_	_
+4-8	231-233	in	_	_
+4-9	234-241	Florenz	*	PLACEmentioned
+4-10	242-248	machen	_	_
+4-11	249-255	lassen	_	_
+4-12	256-257	.	_	_
+
+#Text=- Vebrigens hier alles in Ordnung .
+5-1	258-259	-	_	_
+5-2	260-269	Vebrigens	_	_
+5-3	270-274	hier	_	_
+5-4	275-280	alles	_	_
+5-5	281-283	in	_	_
+5-6	284-291	Ordnung	_	_
+5-7	292-293	.	_	_
+
+#Text=sämmtliche ragazzi sind heute ( Sonnabend ) nach Corneto und Cerveteri .
+6-1	294-304	sämmtliche	_	_
+6-2	305-312	ragazzi	_	_
+6-3	313-317	sind	_	_
+6-4	318-323	heute	_	_
+6-5	324-325	(	*[14]	DATEmentioned[14]
+6-6	326-335	Sonnabend	*[14]	DATEmentioned[14]
+6-7	336-337	)	*[14]	DATEmentioned[14]
+6-8	338-342	nach	*[14]	DATEmentioned[14]
+6-9	343-350	Corneto	*	PLACEmentioned
+6-10	351-354	und	_	_
+6-11	355-364	Cerveteri	*	PLACEmentioned
+6-12	365-366	.	_	_
+
+#Text=- Lassen Sie sich von Mommsen , wenn er zurück ist , nicht zu sehr hetzen \; und grüßen Sie ihn .
+7-1	367-368	-	_	_
+7-2	369-375	Lassen	_	_
+7-3	376-379	Sie	_	_
+7-4	380-384	sich	_	_
+7-5	385-388	von	_	_
+7-6	389-396	Mommsen	*	PERmentioned
+7-7	397-398	,	_	_
+7-8	399-403	wenn	_	_
+7-9	404-406	er	_	_
+7-10	407-413	zurück	_	_
+7-11	414-417	ist	_	_
+7-12	418-419	,	_	_
+7-13	420-425	nicht	_	_
+7-14	426-428	zu	_	_
+7-15	429-433	sehr	_	_
+7-16	434-440	hetzen	_	_
+7-17	441-442	\;	_	_
+7-18	443-446	und	_	_
+7-19	447-453	grüßen	_	_
+7-20	454-457	Sie	_	_
+7-21	458-461	ihn	_	_
+7-22	462-463	.	_	_
+
+#Text=Von Gerhard habe ich bisher noch nichts vernommen .
+8-1	464-467	Von	_	_
+8-2	468-475	Gerhard	*	PERmentioned
+8-3	476-480	habe	_	_
+8-4	481-484	ich	_	_
+8-5	485-491	bisher	_	_
+8-6	492-496	noch	_	_
+8-7	497-503	nichts	_	_
+8-8	504-513	vernommen	_	_
+8-9	514-515	.	_	_
+
+#Text=Mit besten Grüßen allerseits Ihr HBrunn .
+9-1	516-519	Mit	_	_
+9-2	520-526	besten	_	_
+9-3	527-533	Grüßen	_	_
+9-4	534-544	allerseits	_	_
+9-5	545-548	Ihr	_	_
+9-6	549-555	HBrunn	*	PERauthor
+9-7	556-557	.	_	_
+
+#Text=( Am linken Rand der letzten Seite von anderer Hand ) : Cento giornate Pupo .
+10-1	558-559	(	_	_
+10-2	560-562	Am	_	_
+10-3	563-569	linken	_	_
+10-4	570-574	Rand	_	_
+10-5	575-578	der	_	_
+10-6	579-586	letzten	_	_
+10-7	587-592	Seite	_	_
+10-8	593-596	von	_	_
+10-9	597-604	anderer	_	_
+10-10	605-609	Hand	_	_
+10-11	610-611	)	_	_
+10-12	612-613	:	_	_
+10-13	614-619	Cento	_	_
+10-14	620-628	giornate	_	_
+10-15	629-633	Pupo	_	_
+10-16	634-635	.	_	_
+
+#Text=Saluta Nino e Puccia .
+11-1	636-642	Saluta	_	_
+11-2	643-647	Nino	*	PERmentioned
+11-3	648-649	e	_	_
+11-4	650-656	Puccia	*	PERmentioned
+11-5	657-658	.	_	_
+
+#Text=( Am linken Rand der 1 .
+12-1	659-660	(	_	_
+12-2	661-663	Am	_	_
+12-3	664-670	linken	_	_
+12-4	671-675	Rand	_	_
+12-5	676-679	der	_	_
+12-6	680-681	1	_	_
+12-7	682-683	.	_	_
+
+#Text=Seite ) : Wachsmuth denkt in circa 10 Tagen abzureisen und hat Ritschl , der , wie es scheint , ihm bald wichtiges zu schreiben hat , gebeten , an Sie in Florenz zu addressiren .
+13-1	684-689	Seite	_	_
+13-2	690-691	)	_	_
+13-3	692-693	:	_	_
+13-4	694-703	Wachsmuth	*	PERmentioned
+13-5	704-709	denkt	_	_
+13-6	710-712	in	_	_
+13-7	713-718	circa	_	_
+13-8	719-721	10	_	_
+13-9	722-727	Tagen	_	_
+13-10	728-738	abzureisen	_	_
+13-11	739-742	und	_	_
+13-12	743-746	hat	_	_
+13-13	747-754	Ritschl	*	PERmentioned
+13-14	755-756	,	_	_
+13-15	757-760	der	_	_
+13-16	761-762	,	_	_
+13-17	763-766	wie	_	_
+13-18	767-769	es	_	_
+13-19	770-777	scheint	_	_
+13-20	778-779	,	_	_
+13-21	780-783	ihm	_	_
+13-22	784-788	bald	_	_
+13-23	789-798	wichtiges	_	_
+13-24	799-801	zu	_	_
+13-25	802-811	schreiben	_	_
+13-26	812-815	hat	_	_
+13-27	816-817	,	_	_
+13-28	818-825	gebeten	_	_
+13-29	826-827	,	_	_
+13-30	828-830	an	_	_
+13-31	831-834	Sie	_	_
+13-32	835-837	in	_	_
+13-33	838-845	Florenz	*	PLACEmentioned
+13-34	846-848	zu	_	_
+13-35	849-860	addressiren	_	_
+13-36	861-862	.	_	_

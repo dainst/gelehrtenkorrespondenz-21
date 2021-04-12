@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=301 Helbig an Henzen Moskau , 14. Juni 1868 H g . 27/6 68 r . 30/6 68 Moskau 14. Juni 1868 .
+1-1	0-3	301	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Moskau	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	14.	*[1]	DATEletter[1]
+1-8	34-38	Juni	*[1]	DATEletter[1]
+1-9	39-43	1868	*[1]	DATEletter[1]
+1-10	44-45	H	_	_
+1-11	46-47	g	_	_
+1-12	48-49	.	_	_
+1-13	50-54	27/6	*[2]	DATErecieved[2]
+1-14	55-57	68	*[2]	DATErecieved[2]
+1-15	58-59	r	_	_
+1-16	60-61	.	_	_
+1-17	62-66	30/6	*[3]	DATEanswered[3]
+1-18	67-69	68	*[3]	DATEanswered[3]
+1-19	70-76	Moskau	*	PLACEfrom
+1-20	77-80	14.	*[4]	DATEletter[4]
+1-21	81-85	Juni	*[4]	DATEletter[4]
+1-22	86-90	1868	*[4]	DATEletter[4]
+1-23	91-92	.	_	_
+
+#Text=Lieber Herr Professor Gestern sind wir glücklich , nachdem wir zwei Tage in Berlin und einen Tag in Petersburg zugebracht hatten , in Moskau angelangt und heute traf Ihr freundlicher Brief vom 5. Juni ein .
+2-1	93-99	Lieber	_	_
+2-2	100-104	Herr	_	_
+2-3	105-114	Professor	_	_
+2-4	115-122	Gestern	_	_
+2-5	123-127	sind	_	_
+2-6	128-131	wir	_	_
+2-7	132-141	glücklich	_	_
+2-8	142-143	,	_	_
+2-9	144-151	nachdem	_	_
+2-10	152-155	wir	_	_
+2-11	156-160	zwei	_	_
+2-12	161-165	Tage	_	_
+2-13	166-168	in	_	_
+2-14	169-175	Berlin	*	PLACEmentioned
+2-15	176-179	und	_	_
+2-16	180-185	einen	_	_
+2-17	186-189	Tag	_	_
+2-18	190-192	in	_	_
+2-19	193-203	Petersburg	*	PLACEmentioned
+2-20	204-214	zugebracht	_	_
+2-21	215-221	hatten	_	_
+2-22	222-223	,	_	_
+2-23	224-226	in	_	_
+2-24	227-233	Moskau	*	PLACEmentioned
+2-25	234-243	angelangt	_	_
+2-26	244-247	und	_	_
+2-27	248-253	heute	_	_
+2-28	254-258	traf	_	_
+2-29	259-262	Ihr	_	_
+2-30	263-275	freundlicher	_	_
+2-31	276-281	Brief	_	_
+2-32	282-285	vom	_	_
+2-33	286-288	5.	*[5]	DATEmentioned[5]
+2-34	289-293	Juni	*[5]	DATEmentioned[5]
+2-35	294-297	ein	_	_
+2-36	298-299	.	_	_
+
+#Text=Hoffentlich ist Ihnen unterdeß mein aus Dresden an Sie gerichteter Brief zugegangen , welcher bereits den größten Theil der von Ihnen an mich gerichteten Anfragen beantwortet hat .
+3-1	300-311	Hoffentlich	_	_
+3-2	312-315	ist	_	_
+3-3	316-321	Ihnen	_	_
+3-4	322-330	unterdeß	_	_
+3-5	331-335	mein	_	_
+3-6	336-339	aus	_	_
+3-7	340-347	Dresden	*	PLACEmentioned
+3-8	348-350	an	_	_
+3-9	351-354	Sie	_	_
+3-10	355-366	gerichteter	_	_
+3-11	367-372	Brief	_	_
+3-12	373-383	zugegangen	_	_
+3-13	384-385	,	_	_
+3-14	386-393	welcher	_	_
+3-15	394-401	bereits	_	_
+3-16	402-405	den	_	_
+3-17	406-413	größten	_	_
+3-18	414-419	Theil	_	_
+3-19	420-423	der	_	_
+3-20	424-427	von	_	_
+3-21	428-433	Ihnen	_	_
+3-22	434-436	an	_	_
+3-23	437-441	mich	_	_
+3-24	442-453	gerichteten	_	_
+3-25	454-462	Anfragen	_	_
+3-26	463-474	beantwortet	_	_
+3-27	475-478	hat	_	_
+3-28	479-480	.	_	_
+
+#Text=Stephani habe ich unterdeß gesprochen .
+4-1	481-489	Stephani	*	PERmentioned
+4-2	490-494	habe	_	_
+4-3	495-498	ich	_	_
+4-4	499-507	unterdeß	_	_
+4-5	508-518	gesprochen	_	_
+4-6	519-520	.	_	_
+
+#Text=Er sagte mir , der betreffende Wechsel könne ruhig in Rom liegen bleiben .
+5-1	521-523	Er	_	_
+5-2	524-529	sagte	_	_
+5-3	530-533	mir	_	_
+5-4	534-535	,	_	_
+5-5	536-539	der	_	_
+5-6	540-551	betreffende	_	_
+5-7	552-559	Wechsel	_	_
+5-8	560-565	könne	_	_
+5-9	566-571	ruhig	_	_
+5-10	572-574	in	_	_
+5-11	575-578	Rom	*	PLACEmentioned
+5-12	579-585	liegen	_	_
+5-13	586-593	bleiben	_	_
+5-14	594-595	.	_	_
+
+#Text=Die gewünschte Quittung habe ich ihm darüber ausgestellt .
+6-1	596-599	Die	_	_
+6-2	600-610	gewünschte	_	_
+6-3	611-619	Quittung	_	_
+6-4	620-624	habe	_	_
+6-5	625-628	ich	_	_
+6-6	629-632	ihm	_	_
+6-7	633-640	darüber	_	_
+6-8	641-652	ausgestellt	_	_
+6-9	653-654	.	_	_
+
+#Text=Ärgerlich ist , daß die Baronesche Angelegenheit noch nicht in Ordnung ist .
+7-1	655-664	Ärgerlich	_	_
+7-2	665-668	ist	_	_
+7-3	669-670	,	_	_
+7-4	671-674	daß	_	_
+7-5	675-678	die	_	_
+7-6	679-689	Baronesche	*	PERmentioned
+7-7	690-703	Angelegenheit	_	_
+7-8	704-708	noch	_	_
+7-9	709-714	nicht	_	_
+7-10	715-717	in	_	_
+7-11	718-725	Ordnung	_	_
+7-12	726-729	ist	_	_
+7-13	730-731	.	_	_
+
+#Text=Eitelberger hat sie verbummelt .
+8-1	732-743	Eitelberger	*	PERmentioned
+8-2	744-747	hat	_	_
+8-3	748-751	sie	_	_
+8-4	752-762	verbummelt	_	_
+8-5	763-764	.	_	_
+
+#Text=Ich schreibe sofort an ihn .
+9-1	765-768	Ich	_	_
+9-2	769-777	schreibe	_	_
+9-3	778-784	sofort	_	_
+9-4	785-787	an	_	_
+9-5	788-791	ihn	_	_
+9-6	792-793	.	_	_
+
+#Text=Meinen Bericht über die Antichitä Castellani , welcher schon angefangen ist , schicke ich von Wirsolowow aus .
+10-1	794-800	Meinen	_	_
+10-2	801-808	Bericht	_	_
+10-3	809-813	über	_	_
+10-4	814-817	die	_	_
+10-5	818-827	Antichitä	_	_
+10-6	828-838	Castellani	*	PERmentioned
+10-7	839-840	,	_	_
+10-8	841-848	welcher	_	_
+10-9	849-854	schon	_	_
+10-10	855-865	angefangen	_	_
+10-11	866-869	ist	_	_
+10-12	870-871	,	_	_
+10-13	872-879	schicke	_	_
+10-14	880-883	ich	_	_
+10-15	884-887	von	_	_
+10-16	888-898	Wirsolowow	*	PERmentioned
+10-17	899-902	aus	_	_
+10-18	903-904	.	_	_
+
+#Text=In Petersburg habe ich eine prachtvolle Sammlung nolaner Vasen bei einem Abaza ausfindig gemacht , darunter befindet sich die lang verschollene mit der Ankunft der Schwalbe .
+11-1	905-907	In	_	_
+11-2	908-918	Petersburg	*	PLACEmentioned
+11-3	919-923	habe	_	_
+11-4	924-927	ich	_	_
+11-5	928-932	eine	_	_
+11-6	933-944	prachtvolle	_	_
+11-7	945-953	Sammlung	_	_
+11-8	954-961	nolaner	_	_
+11-9	962-967	Vasen	*	OBJ
+11-10	968-971	bei	_	_
+11-11	972-977	einem	_	_
+11-12	978-983	Abaza	_	_
+11-13	984-993	ausfindig	_	_
+11-14	994-1001	gemacht	_	_
+11-15	1002-1003	,	_	_
+11-16	1004-1012	darunter	_	_
+11-17	1013-1021	befindet	_	_
+11-18	1022-1026	sich	_	_
+11-19	1027-1030	die	_	_
+11-20	1031-1035	lang	_	_
+11-21	1036-1048	verschollene	_	_
+11-22	1049-1052	mit	_	_
+11-23	1053-1056	der	_	_
+11-24	1057-1064	Ankunft	_	_
+11-25	1065-1068	der	_	_
+11-26	1069-1077	Schwalbe	_	_
+11-27	1078-1079	.	_	_
+
+#Text=Stephani hat den Tod seines Sohnes gefaßter ertragen , als zu erwarten war .
+12-1	1080-1088	Stephani	*	PERmentioned
+12-2	1089-1092	hat	_	_
+12-3	1093-1096	den	_	_
+12-4	1097-1100	Tod	_	_
+12-5	1101-1107	seines	_	_
+12-6	1108-1114	Sohnes	_	_
+12-7	1115-1123	gefaßter	_	_
+12-8	1124-1132	ertragen	_	_
+12-9	1133-1134	,	_	_
+12-10	1135-1138	als	_	_
+12-11	1139-1141	zu	_	_
+12-12	1142-1150	erwarten	_	_
+12-13	1151-1154	war	_	_
+12-14	1155-1156	.	_	_
+
+#Text=Er grüßt Sie herzlich und verspricht
+13-1	1157-1159	Er	_	_
+13-2	1160-1165	grüßt	_	_
+13-3	1166-1169	Sie	_	_
+13-4	1170-1178	herzlich	_	_
+13-5	1179-1182	und	_	_
+13-6	1183-1193	verspricht	_	_

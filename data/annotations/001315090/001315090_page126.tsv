@@ -1,0 +1,175 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Richard Lepsius an Wolfgang Helbig Berlin , 6 .
+1-1	0-7	Richard	*[3]	PERauthor[3]
+1-2	8-15	Lepsius	*[3]	PERauthor[3]
+1-3	16-18	an	_	_
+1-4	19-27	Wolfgang	*[4]	PERaddressee[4]
+1-5	28-34	Helbig	*[4]	PERaddressee[4]
+1-6	35-41	Berlin	*	PLACEfrom
+1-7	42-43	,	_	_
+1-8	44-45	6	*[5]	DATEletter[5]
+1-9	46-47	.	*[5]	DATEletter[5]
+
+#Text=Januar 1874 Vielleicht wußte man , daß diese Dinge in Ägypten Schutzmittel für den Todten waren , die am Ende auch hier helfen konnten .
+2-1	48-54	Januar	*[5]	DATEletter[5]
+2-2	55-59	1874	*[5]	DATEletter[5]
+2-3	60-70	Vielleicht	_	_
+2-4	71-76	wußte	_	_
+2-5	77-80	man	_	_
+2-6	81-82	,	_	_
+2-7	83-86	daß	_	_
+2-8	87-92	diese	_	_
+2-9	93-98	Dinge	_	_
+2-10	99-101	in	_	_
+2-11	102-109	Ägypten	*	PLACEmentioned
+2-12	110-122	Schutzmittel	_	_
+2-13	123-126	für	_	_
+2-14	127-130	den	_	_
+2-15	131-137	Todten	_	_
+2-16	138-143	waren	_	_
+2-17	144-145	,	_	_
+2-18	146-149	die	_	_
+2-19	150-152	am	_	_
+2-20	153-157	Ende	_	_
+2-21	158-162	auch	_	_
+2-22	163-167	hier	_	_
+2-23	168-174	helfen	_	_
+2-24	175-182	konnten	_	_
+2-25	183-184	.	_	_
+
+#Text=Daß der Grabinhaber mit Ägypten in näherer Verbindung gestanden oder doch in Kunstsympathie zeigen die äsyptisirenden Gegenstände .
+3-1	185-188	Daß	_	_
+3-2	189-192	der	_	_
+3-3	193-204	Grabinhaber	_	_
+3-4	205-208	mit	_	_
+3-5	209-216	Ägypten	*	PLACEmentioned
+3-6	217-219	in	_	_
+3-7	220-227	näherer	_	_
+3-8	228-238	Verbindung	_	_
+3-9	239-248	gestanden	_	_
+3-10	249-253	oder	_	_
+3-11	254-258	doch	_	_
+3-12	259-261	in	_	_
+3-13	262-276	Kunstsympathie	_	_
+3-14	277-283	zeigen	_	_
+3-15	284-287	die	_	_
+3-16	288-302	äsyptisirenden	_	_
+3-17	303-314	Gegenstände	_	_
+3-18	315-316	.	_	_
+
+#Text=Der Abdruck des Skarabäus war wie ich schon schrieb ganz zerbrochen und ist seit dem ganz in Stückchen gegangen .
+4-1	317-320	Der	_	_
+4-2	321-328	Abdruck	_	_
+4-3	329-332	des	_	_
+4-4	333-342	Skarabäus	*	OBJ
+4-5	343-346	war	_	_
+4-6	347-350	wie	_	_
+4-7	351-354	ich	_	_
+4-8	355-360	schon	_	_
+4-9	361-368	schrieb	_	_
+4-10	369-373	ganz	_	_
+4-11	374-384	zerbrochen	_	_
+4-12	385-388	und	_	_
+4-13	389-392	ist	_	_
+4-14	393-397	seit	_	_
+4-15	398-401	dem	_	_
+4-16	402-406	ganz	_	_
+4-17	407-409	in	_	_
+4-18	410-419	Stückchen	_	_
+4-19	420-428	gegangen	_	_
+4-20	429-430	.	_	_
+
+#Text=Die Attitüde , kniender Mann vor ausholendem König , ist aus Ägypten bekannt \; dort hält der letztere aber den ersten beim Schopf \; hier nicht , also mißverstanden .
+5-1	431-434	Die	_	_
+5-2	435-443	Attitüde	_	_
+5-3	444-445	,	_	_
+5-4	446-454	kniender	_	_
+5-5	455-459	Mann	_	_
+5-6	460-463	vor	_	_
+5-7	464-475	ausholendem	_	_
+5-8	476-481	König	_	_
+5-9	482-483	,	_	_
+5-10	484-487	ist	_	_
+5-11	488-491	aus	_	_
+5-12	492-499	Ägypten	*	PLACEmentioned
+5-13	500-507	bekannt	_	_
+5-14	508-509	\;	_	_
+5-15	510-514	dort	_	_
+5-16	515-519	hält	_	_
+5-17	520-523	der	_	_
+5-18	524-532	letztere	_	_
+5-19	533-537	aber	_	_
+5-20	538-541	den	_	_
+5-21	542-548	ersten	_	_
+5-22	549-553	beim	_	_
+5-23	554-560	Schopf	_	_
+5-24	561-562	\;	_	_
+5-25	563-567	hier	_	_
+5-26	568-573	nicht	_	_
+5-27	574-575	,	_	_
+5-28	576-580	also	_	_
+5-29	581-594	mißverstanden	_	_
+5-30	595-596	.	_	_
+
+#Text=Mehr läßt sich nicht erkennen .
+6-1	597-601	Mehr	_	_
+6-2	602-606	läßt	_	_
+6-3	607-611	sich	_	_
+6-4	612-617	nicht	_	_
+6-5	618-626	erkennen	_	_
+6-6	627-628	.	_	_
+
+#Text=Doch halte ich die Arbeit nicht für ägyptisch , sondern für ägyptisirend .
+7-1	629-633	Doch	_	_
+7-2	634-639	halte	_	_
+7-3	640-643	ich	_	_
+7-4	644-647	die	_	_
+7-5	648-654	Arbeit	_	_
+7-6	655-660	nicht	_	_
+7-7	661-664	für	_	_
+7-8	665-674	ägyptisch	_	_
+7-9	675-676	,	_	_
+7-10	677-684	sondern	_	_
+7-11	685-688	für	_	_
+7-12	689-701	ägyptisirend	_	_
+7-13	702-703	.	_	_
+
+#Text=Die Zeit der Statue weist wohl auf die Zeit der Verbindung Ägypten und Etrurien hin in beachtenswerther Weise .
+8-1	704-707	Die	_	_
+8-2	708-712	Zeit	_	_
+8-3	713-716	der	_	_
+8-4	717-723	Statue	*	OBJ
+8-5	724-729	weist	_	_
+8-6	730-734	wohl	_	_
+8-7	735-738	auf	_	_
+8-8	739-742	die	_	_
+8-9	743-747	Zeit	_	_
+8-10	748-751	der	_	_
+8-11	752-762	Verbindung	_	_
+8-12	763-770	Ägypten	*	PLACEmentioned
+8-13	771-774	und	_	_
+8-14	775-783	Etrurien	*	PLACEmentioned
+8-15	784-787	hin	_	_
+8-16	788-790	in	_	_
+8-17	791-807	beachtenswerther	_	_
+8-18	808-813	Weise	_	_
+8-19	814-815	.	_	_
+
+#Text=Mit herzlichem Neujahrswunsch Ihr R Lepsius Was soll nun mit den Gegenständen geschehen ?
+9-1	816-819	Mit	_	_
+9-2	820-830	herzlichem	_	_
+9-3	831-845	Neujahrswunsch	_	_
+9-4	846-849	Ihr	_	_
+9-5	850-851	R	*[6]	PERauthor[6]
+9-6	852-859	Lepsius	*[6]	PERauthor[6]
+9-7	860-863	Was	_	_
+9-8	864-868	soll	_	_
+9-9	869-872	nun	_	_
+9-10	873-876	mit	_	_
+9-11	877-880	den	_	_
+9-12	881-893	Gegenständen	_	_
+9-13	894-903	geschehen	_	_
+9-14	904-905	?	_	_

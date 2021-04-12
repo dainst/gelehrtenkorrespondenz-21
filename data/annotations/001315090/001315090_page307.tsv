@@ -1,0 +1,146 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=124 Lepsius an Henzen Berlin , 26. Februar 1877 g . 2/5 7 Berlin , den 26 .
+1-1	0-3	124	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	26.	*[1]	DATEletter[1]
+1-8	35-42	Februar	*[1]	DATEletter[1]
+1-9	43-47	1877	*[1]	DATEletter[1]
+1-10	48-49	g	_	_
+1-11	50-51	.	_	_
+1-12	52-55	2/5	*[2]	DATErecieved[2]
+1-13	56-57	7	*[2]	DATErecieved[2]
+1-14	58-64	Berlin	*	PLACEfrom
+1-15	65-66	,	_	_
+1-16	67-70	den	_	_
+1-17	71-73	26	*[3]	DATEletter[3]
+1-18	74-75	.	*[3]	DATEletter[3]
+
+#Text=Febr .
+2-1	76-80	Febr	*[3]	DATEletter[3]
+2-2	81-82	.	*[3]	DATEletter[3]
+
+#Text=1877 Verehrter Freund In Bezug auf das Testament müssen wir vor Allen eine beglaubigte Abschrift , und eine gleichfalls garantirte Übersetzung haben , ehe hier etwas daMit anzufangen ist .
+3-1	83-87	1877	*[3]	DATEletter[3]
+3-2	88-97	Verehrter	_	_
+3-3	98-104	Freund	_	_
+3-4	105-107	In	_	_
+3-5	108-113	Bezug	_	_
+3-6	114-117	auf	_	_
+3-7	118-121	das	_	_
+3-8	122-131	Testament	_	_
+3-9	132-138	müssen	_	_
+3-10	139-142	wir	_	_
+3-11	143-146	vor	_	_
+3-12	147-152	Allen	_	_
+3-13	153-157	eine	_	_
+3-14	158-169	beglaubigte	_	_
+3-15	170-179	Abschrift	_	_
+3-16	180-181	,	_	_
+3-17	182-185	und	_	_
+3-18	186-190	eine	_	_
+3-19	191-202	gleichfalls	_	_
+3-20	203-213	garantirte	_	_
+3-21	214-225	Übersetzung	_	_
+3-22	226-231	haben	_	_
+3-23	232-233	,	_	_
+3-24	234-237	ehe	_	_
+3-25	238-242	hier	_	_
+3-26	243-248	etwas	_	_
+3-27	249-254	daMit	_	_
+3-28	255-265	anzufangen	_	_
+3-29	266-269	ist	_	_
+3-30	270-271	.	_	_
+
+#Text=Bei der Gesandtschaft muß ja wohl ein vereidigter Translator sein , und dann würde die Übersetzung jedenfalls dort richtiger ausfallen als hier .
+4-1	272-275	Bei	_	_
+4-2	276-279	der	_	_
+4-3	280-293	Gesandtschaft	*	ORGmentioned
+4-4	294-297	muß	_	_
+4-5	298-300	ja	_	_
+4-6	301-305	wohl	_	_
+4-7	306-309	ein	_	_
+4-8	310-321	vereidigter	_	_
+4-9	322-332	Translator	_	_
+4-10	333-337	sein	_	_
+4-11	338-339	,	_	_
+4-12	340-343	und	_	_
+4-13	344-348	dann	_	_
+4-14	349-354	würde	_	_
+4-15	355-358	die	_	_
+4-16	359-370	Übersetzung	_	_
+4-17	371-381	jedenfalls	_	_
+4-18	382-386	dort	_	_
+4-19	387-396	richtiger	_	_
+4-20	397-406	ausfallen	_	_
+4-21	407-410	als	_	_
+4-22	411-415	hier	_	_
+4-23	416-417	.	_	_
+
+#Text=Haben Sie also die Güte dies ins Werk setzen zu lassen .
+5-1	418-423	Haben	_	_
+5-2	424-427	Sie	_	_
+5-3	428-432	also	_	_
+5-4	433-436	die	_	_
+5-5	437-441	Güte	_	_
+5-6	442-446	dies	_	_
+5-7	447-450	ins	_	_
+5-8	451-455	Werk	_	_
+5-9	456-462	setzen	_	_
+5-10	463-465	zu	_	_
+5-11	466-472	lassen	_	_
+5-12	473-474	.	_	_
+
+#Text=Die unpraktischen Bestimmungen werden sich wohl heraus interpretiren lassen und dann keine Schwierigkeit machen .
+6-1	475-478	Die	_	_
+6-2	479-492	unpraktischen	_	_
+6-3	493-505	Bestimmungen	_	_
+6-4	506-512	werden	_	_
+6-5	513-517	sich	_	_
+6-6	518-522	wohl	_	_
+6-7	523-529	heraus	_	_
+6-8	530-543	interpretiren	_	_
+6-9	544-550	lassen	_	_
+6-10	551-554	und	_	_
+6-11	555-559	dann	_	_
+6-12	560-565	keine	_	_
+6-13	566-579	Schwierigkeit	_	_
+6-14	580-586	machen	_	_
+6-15	587-588	.	_	_
+
+#Text=Unsre Anträge sind gerne acceptirt worden \; darunter auch die Helbig'sche Zulage von 200 r und die Erhöhung des Hauptfonds auf 20 000 r . Ihr ergebenster R Lepsius
+7-1	589-594	Unsre	_	_
+7-2	595-602	Anträge	_	_
+7-3	603-607	sind	_	_
+7-4	608-613	gerne	_	_
+7-5	614-623	acceptirt	_	_
+7-6	624-630	worden	_	_
+7-7	631-632	\;	_	_
+7-8	633-641	darunter	_	_
+7-9	642-646	auch	_	_
+7-10	647-650	die	_	_
+7-11	651-662	Helbig'sche	*	PERmentioned
+7-12	663-669	Zulage	_	_
+7-13	670-673	von	_	_
+7-14	674-677	200	_	_
+7-15	678-679	r	_	_
+7-16	680-683	und	_	_
+7-17	684-687	die	_	_
+7-18	688-696	Erhöhung	_	_
+7-19	697-700	des	_	_
+7-20	701-711	Hauptfonds	_	_
+7-21	712-715	auf	_	_
+7-22	716-718	20	_	_
+7-23	719-722	000	_	_
+7-24	723-724	r	_	_
+7-25	725-726	.	_	_
+7-26	727-730	Ihr	_	_
+7-27	731-742	ergebenster	_	_
+7-28	743-744	R	*[4]	PERauthor[4]
+7-29	745-752	Lepsius	*[4]	PERauthor[4]

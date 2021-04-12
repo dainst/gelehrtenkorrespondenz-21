@@ -1,0 +1,102 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=6 Henzen an Gerhard 9/v1/55 Meine Frau war in den ersten Tagen der Woche sehr angegriffen , hat sich indeß jetzt erholt .
+1-1	0-1	6	_	_
+1-2	2-8	Henzen	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-27	9/v1/55	*	DATEletter
+1-6	28-33	Meine	_	_
+1-7	34-38	Frau	_	_
+1-8	39-42	war	_	_
+1-9	43-45	in	_	_
+1-10	46-49	den	_	_
+1-11	50-56	ersten	_	_
+1-12	57-62	Tagen	_	_
+1-13	63-66	der	_	_
+1-14	67-72	Woche	_	_
+1-15	73-77	sehr	_	_
+1-16	78-89	angegriffen	_	_
+1-17	90-91	,	_	_
+1-18	92-95	hat	_	_
+1-19	96-100	sich	_	_
+1-20	101-106	indeß	_	_
+1-21	107-112	jetzt	_	_
+1-22	113-119	erholt	_	_
+1-23	120-121	.	_	_
+
+#Text=Herzliche Grüße auch von ihr an Sie u , die Ihrige .
+2-1	122-131	Herzliche	_	_
+2-2	132-137	Grüße	_	_
+2-3	138-142	auch	_	_
+2-4	143-146	von	_	_
+2-5	147-150	ihr	_	_
+2-6	151-153	an	_	_
+2-7	154-157	Sie	_	_
+2-8	158-159	u	_	_
+2-9	160-161	,	_	_
+2-10	162-165	die	_	_
+2-11	166-172	Ihrige	_	_
+2-12	173-174	.	_	_
+
+#Text=Ihr WHenzen Breslau 9/VI 55 .
+3-1	175-178	Ihr	_	_
+3-2	179-186	WHenzen	*	PERauthor
+3-3	187-194	Breslau	*	PLACEfrom
+3-4	195-199	9/VI	*[1]	DATEletter[1]
+3-5	200-202	55	*[1]	DATEletter[1]
+3-6	203-204	.	_	_
+
+#Text=P.S , So eben Ihr gestriger Brief .
+4-1	205-208	P.S	_	_
+4-2	209-210	,	_	_
+4-3	211-213	So	_	_
+4-4	214-218	eben	_	_
+4-5	219-222	Ihr	_	_
+4-6	223-232	gestriger	_	_
+4-7	233-238	Brief	_	_
+4-8	239-240	.	_	_
+
+#Text=Sie sind sehr freundlich in Ihren guten Absichten für meine Frau \; die Hotels werden wir uns merken .
+5-1	241-244	Sie	_	_
+5-2	245-249	sind	_	_
+5-3	250-254	sehr	_	_
+5-4	255-265	freundlich	_	_
+5-5	266-268	in	_	_
+5-6	269-274	Ihren	_	_
+5-7	275-280	guten	_	_
+5-8	281-290	Absichten	_	_
+5-9	291-294	für	_	_
+5-10	295-300	meine	_	_
+5-11	301-305	Frau	_	_
+5-12	306-307	\;	_	_
+5-13	308-311	die	_	_
+5-14	312-318	Hotels	_	_
+5-15	319-325	werden	_	_
+5-16	326-329	wir	_	_
+5-17	330-333	uns	_	_
+5-18	334-340	merken	_	_
+5-19	341-342	.	_	_
+
+#Text=-— Von jener Ungarischen Thonschrift weiß ich noch Nichts .
+6-1	343-345	-—	_	_
+6-2	346-349	Von	_	_
+6-3	350-355	jener	_	_
+6-4	356-367	Ungarischen	*[2]	OBJ[2]
+6-5	368-379	Thonschrift	*[2]	OBJ[2]
+6-6	380-384	weiß	_	_
+6-7	385-388	ich	_	_
+6-8	389-393	noch	_	_
+6-9	394-400	Nichts	_	_
+6-10	401-402	.	_	_
+
+#Text=-— Mommsen weiß vielleicht Etwas beizufügen .
+7-1	403-405	-—	_	_
+7-2	406-413	Mommsen	*	PERmentioned
+7-3	414-418	weiß	_	_
+7-4	419-429	vielleicht	_	_
+7-5	430-435	Etwas	_	_
+7-6	436-446	beizufügen	_	_
+7-7	447-448	.	_	_

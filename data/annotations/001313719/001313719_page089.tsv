@@ -1,0 +1,216 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.unu.e .
+1-1	0-6	.unu.e	_	_
+1-2	7-8	.	_	_
+
+#Text=Gerhard an Henzen Berlin , 28. November 1846 g. M/XII 46 r . 12/XII 46 one ... Berlin d 28.ten Nov .
+2-1	9-16	Gerhard	*	PERauthor
+2-2	17-19	an	_	_
+2-3	20-26	Henzen	*	PERaddressee
+2-4	27-33	Berlin	*	PLACEfrom
+2-5	34-35	,	_	_
+2-6	36-39	28.	*[1]	DATEletter[1]
+2-7	40-48	November	*[1]	DATEletter[1]
+2-8	49-53	1846	*[1]	DATEletter[1]
+2-9	54-56	g.	_	_
+2-10	57-62	M/XII	*[3]	DATEanswered[3]
+2-11	63-65	46	*[3]	DATEanswered[3]
+2-12	66-67	r	_	_
+2-13	68-69	.	_	_
+2-14	70-76	12/XII	*[2]	DATErecieved[2]
+2-15	77-79	46	*[2]	DATErecieved[2]
+2-16	80-83	one	_	_
+2-17	84-87	...	_	_
+2-18	88-94	Berlin	*	PLACEfrom
+2-19	95-96	d	_	_
+2-20	97-103	28.ten	*[4]	DATEletter[4]
+2-21	104-107	Nov	*[4]	DATEletter[4]
+2-22	108-109	.	*[4]	DATEletter[4]
+
+#Text=46 .
+3-1	110-112	46	*[4]	DATEletter[4]
+3-2	113-114	.	_	_
+
+#Text=Ihre Briefe , lieber Freund , liegen zur Beantwortung vor , und da Sie zu meinem innigen Bedauern mir ein Leidens .ee.eo ..... geworden sind so darf ich Ihnen gesenüber weniger als gegen andere um schwacher Augen oder schmalen Tageslichts wegen ..........
+4-1	115-119	Ihre	_	_
+4-2	120-126	Briefe	_	_
+4-3	127-128	,	_	_
+4-4	129-135	lieber	_	_
+4-5	136-142	Freund	_	_
+4-6	143-144	,	_	_
+4-7	145-151	liegen	_	_
+4-8	152-155	zur	_	_
+4-9	156-168	Beantwortung	_	_
+4-10	169-172	vor	_	_
+4-11	173-174	,	_	_
+4-12	175-178	und	_	_
+4-13	179-181	da	_	_
+4-14	182-185	Sie	_	_
+4-15	186-188	zu	_	_
+4-16	189-195	meinem	_	_
+4-17	196-203	innigen	_	_
+4-18	204-212	Bedauern	_	_
+4-19	213-216	mir	_	_
+4-20	217-220	ein	_	_
+4-21	221-228	Leidens	_	_
+4-22	229-235	.ee.eo	_	_
+4-23	236-241	.....	_	_
+4-24	242-250	geworden	_	_
+4-25	251-255	sind	_	_
+4-26	256-258	so	_	_
+4-27	259-263	darf	_	_
+4-28	264-267	ich	_	_
+4-29	268-273	Ihnen	_	_
+4-30	274-283	gesenüber	_	_
+4-31	284-291	weniger	_	_
+4-32	292-295	als	_	_
+4-33	296-301	gegen	_	_
+4-34	302-308	andere	_	_
+4-35	309-311	um	_	_
+4-36	312-321	schwacher	_	_
+4-37	322-327	Augen	_	_
+4-38	328-332	oder	_	_
+4-39	333-341	schmalen	_	_
+4-40	342-353	Tageslichts	_	_
+4-41	354-359	wegen	_	_
+4-42	360-370	..........	_	_
+
+#Text=Schonen Sie sich das ist die Hauptsache .
+5-1	371-378	Schonen	_	_
+5-2	379-382	Sie	_	_
+5-3	383-387	sich	_	_
+5-4	388-391	das	_	_
+5-5	392-395	ist	_	_
+5-6	396-399	die	_	_
+5-7	400-410	Hauptsache	_	_
+5-8	411-412	.	_	_
+
+#Text=- Ich fange damit an Ihre eben eingelaufenen Mittheilungen über den Inschriftkran .... sonen ... Frau Mertens zu bescheinigen den ich bis zu Eingang Ihrer Antwort meiner Zeitung vorenthielt \; nun werde ich gleich an die Redaktions .. ee.c .... gehn und Ihre Ehrenrettung samt der nöthigen Berichtigung wahrnehmen .
+6-1	413-414	-	_	_
+6-2	415-418	Ich	_	_
+6-3	419-424	fange	_	_
+6-4	425-430	damit	_	_
+6-5	431-433	an	_	_
+6-6	434-438	Ihre	_	_
+6-7	439-443	eben	_	_
+6-8	444-457	eingelaufenen	_	_
+6-9	458-471	Mittheilungen	_	_
+6-10	472-476	über	_	_
+6-11	477-480	den	_	_
+6-12	481-494	Inschriftkran	_	_
+6-13	495-499	....	_	_
+6-14	500-505	sonen	_	_
+6-15	506-509	...	_	_
+6-16	510-514	Frau	_	_
+6-17	515-522	Mertens	*	PERmentioned
+6-18	523-525	zu	_	_
+6-19	526-538	bescheinigen	_	_
+6-20	539-542	den	_	_
+6-21	543-546	ich	_	_
+6-22	547-550	bis	_	_
+6-23	551-553	zu	_	_
+6-24	554-561	Eingang	_	_
+6-25	562-567	Ihrer	_	_
+6-26	568-575	Antwort	_	_
+6-27	576-582	meiner	_	_
+6-28	583-590	Zeitung	_	_
+6-29	591-602	vorenthielt	_	_
+6-30	603-604	\;	_	_
+6-31	605-608	nun	_	_
+6-32	609-614	werde	_	_
+6-33	615-618	ich	_	_
+6-34	619-625	gleich	_	_
+6-35	626-628	an	_	_
+6-36	629-632	die	_	_
+6-37	633-643	Redaktions	_	_
+6-38	644-646	..	_	_
+6-39	647-651	ee.c	_	_
+6-40	652-656	....	_	_
+6-41	657-661	gehn	_	_
+6-42	662-665	und	_	_
+6-43	666-670	Ihre	_	_
+6-44	671-683	Ehrenrettung	_	_
+6-45	684-688	samt	_	_
+6-46	689-692	der	_	_
+6-47	693-701	nöthigen	_	_
+6-48	702-714	Berichtigung	_	_
+6-49	715-725	wahrnehmen	_	_
+6-50	726-727	.	_	_
+
+#Text=Das Bedürfnis spanischer Correspondenten nahm ich bereits wahr als ich den Castellanos zum Correspondenten vorschlug , der jedoch nichts thut als Diplome tauschen .
+7-1	728-731	Das	_	_
+7-2	732-741	Bedürfnis	_	_
+7-3	742-752	spanischer	_	_
+7-4	753-768	Correspondenten	_	_
+7-5	769-773	nahm	_	_
+7-6	774-777	ich	_	_
+7-7	778-785	bereits	_	_
+7-8	786-790	wahr	_	_
+7-9	791-794	als	_	_
+7-10	795-798	ich	_	_
+7-11	799-802	den	_	_
+7-12	803-814	Castellanos	*	PERmentioned
+7-13	815-818	zum	_	_
+7-14	819-834	Correspondenten	_	_
+7-15	835-844	vorschlug	_	_
+7-16	845-846	,	_	_
+7-17	847-850	der	_	_
+7-18	851-857	jedoch	_	_
+7-19	858-864	nichts	_	_
+7-20	865-869	thut	_	_
+7-21	870-873	als	_	_
+7-22	874-881	Diplome	_	_
+7-23	882-890	tauschen	_	_
+7-24	891-892	.	_	_
+
+#Text=Dem von Ihnen genannten Herrn direkt zu schreiben habe ich durchaus keinen Anlaß .
+8-1	893-896	Dem	_	_
+8-2	897-900	von	_	_
+8-3	901-906	Ihnen	_	_
+8-4	907-916	genannten	_	_
+8-5	917-922	Herrn	_	_
+8-6	923-929	direkt	_	_
+8-7	930-932	zu	_	_
+8-8	933-942	schreiben	_	_
+8-9	943-947	habe	_	_
+8-10	948-951	ich	_	_
+8-11	952-960	durchaus	_	_
+8-12	961-967	keinen	_	_
+8-13	968-973	Anlaß	_	_
+8-14	974-975	.	_	_
+
+#Text=Ich denke Sie senden an beide mit näherer Bezeichnung spanischer Desiderate sein Aufgebot zu Beiträgen fürs Institut , das Lanci ausputzen und Kestner solennisiren kann .
+9-1	976-979	Ich	_	_
+9-2	980-985	denke	_	_
+9-3	986-989	Sie	_	_
+9-4	990-996	senden	_	_
+9-5	997-999	an	_	_
+9-6	1000-1005	beide	_	_
+9-7	1006-1009	mit	_	_
+9-8	1010-1017	näherer	_	_
+9-9	1018-1029	Bezeichnung	_	_
+9-10	1030-1040	spanischer	_	_
+9-11	1041-1051	Desiderate	_	_
+9-12	1052-1056	sein	_	_
+9-13	1057-1065	Aufgebot	_	_
+9-14	1066-1068	zu	_	_
+9-15	1069-1078	Beiträgen	_	_
+9-16	1079-1083	fürs	_	_
+9-17	1084-1092	Institut	*	ORGmentioned
+9-18	1093-1094	,	_	_
+9-19	1095-1098	das	_	_
+9-20	1099-1104	Lanci	*	PERmentioned
+9-21	1105-1114	ausputzen	_	_
+9-22	1115-1118	und	_	_
+9-23	1119-1126	Kestner	*	PERmentioned
+9-24	1127-1139	solennisiren	_	_
+9-25	1140-1144	kann	_	_
+9-26	1145-1146	.	_	_
+
+#Text=Man legt eine
+10-1	1147-1150	Man	_	_
+10-2	1151-1155	legt	_	_
+10-3	1156-1160	eine	_	_

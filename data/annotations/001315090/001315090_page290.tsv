@@ -1,0 +1,216 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=593 Lepsius an Henzen Berlin , 18 .
+1-1	0-3	593	_	_	
+1-2	4-11	Lepsius	*	PERauthor	
+1-3	12-14	an	_	_	
+1-4	15-21	Henzen	*	PERaddressee	
+1-5	22-28	Berlin	*	PLACEfrom	
+1-6	29-30	,	_	_	
+1-7	31-33	18	*[1]	DATEletter[1]	
+1-8	34-35	.	*[1]	DATEletter[1]	
+
+#Text=Oktober 1876 NO .
+2-1	36-43	Oktober	*[1]	DATEletter[1]	
+2-2	44-48	1876	*[1]	DATEletter[1]	
+2-3	49-51	NO	_	_	
+2-4	52-53	.	_	_	
+
+#Text=88 . 8 .
+3-1	54-56	88	*[2]	DATErecieved[2]	
+3-2	57-58	.	*[2]	DATErecieved[2]	
+3-3	59-60	8	*[2]	DATErecieved[2]	
+3-4	61-62	.	*[2]	DATErecieved[2]	
+
+#Text=MX 76 r . 2u/X Berlin , den 18 .
+4-1	63-65	MX	*[2]	DATErecieved[2]	
+4-2	66-68	76	*[2]	DATErecieved[2]	
+4-3	69-70	r	_	_	
+4-4	71-72	.	_	_	
+4-5	73-77	2u/X	*	DATEanswered	
+4-6	78-84	Berlin	*	PLACEfrom	
+4-7	85-86	,	_	_	
+4-8	87-90	den	_	_	
+4-9	91-93	18	*[3]	DATEletter[3]	
+4-10	94-95	.	*[3]	DATEletter[3]	
+
+#Text=Okt .
+5-1	96-99	Okt	*[3]	DATEletter[3]	
+5-2	100-101	.	*[3]	DATEletter[3]	
+
+#Text=1876 .
+6-1	102-106	1876	*[3]	DATEletter[3]	
+6-2	107-108	.	_	_	
+
+#Text=Professor Henzen Verehrter Freund Ich referire über die gestrige Sitzung der ( Central-Direktion .
+7-1	109-118	Professor	_	_	
+7-2	119-125	Henzen	*	PERaddressee	
+7-3	126-135	Verehrter	_	_	
+7-4	136-142	Freund	_	_	
+7-5	143-146	Ich	_	_	
+7-6	147-155	referire	_	_	
+7-7	156-160	über	_	_	
+7-8	161-164	die	_	_	
+7-9	165-173	gestrige	_	_	
+7-10	174-181	Sitzung	_	_	
+7-11	182-185	der	_	_	
+7-12	186-187	(	_	_	
+7-13	188-205	Central-Direktion	*	ORGmentioned	
+7-14	206-207	.	_	_	
+
+#Text=Herr von Bülow hat sich mündlich damit einverstanden erklärt , daß ein Unterhaltungsfonds von Jährlich 4250 Lire schon jetzt beantragt werde , und daß die Verwaltung des neuen Hauses unabhängig von der Botschaft durch einen besonderen Administrator , eventuell jetzt durch Herrn Schulz , unter der Oberaufsicht des ersten Sekretars , besorgt werde gegen eine entsprechende Ablehnung Jährliche Vergütung .
+8-1	208-212	Herr	_	_	
+8-2	213-216	von	*[4]	PERmentioned[4]	
+8-3	217-222	Bülow	*[4]	PERmentioned[4]	
+8-4	223-226	hat	_	_	
+8-5	227-231	sich	_	_	
+8-6	232-240	mündlich	_	_	
+8-7	241-246	damit	_	_	
+8-8	247-260	einverstanden	_	_	
+8-9	261-268	erklärt	_	_	
+8-10	269-270	,	_	_	
+8-11	271-274	daß	_	_	
+8-12	275-278	ein	_	_	
+8-13	279-297	Unterhaltungsfonds	_	_	
+8-14	298-301	von	_	_	
+8-15	302-310	Jährlich	_	_	
+8-16	311-315	4250	_	_	
+8-17	316-320	Lire	_	_	
+8-18	321-326	schon	_	_	
+8-19	327-332	jetzt	_	_	
+8-20	333-342	beantragt	_	_	
+8-21	343-348	werde	_	_	
+8-22	349-350	,	_	_	
+8-23	351-354	und	_	_	
+8-24	355-358	daß	_	_	
+8-25	359-362	die	_	_	
+8-26	363-373	Verwaltung	_	_	
+8-27	374-377	des	_	_	
+8-28	378-383	neuen	_	_	
+8-29	384-390	Hauses	_	_	
+8-30	391-401	unabhängig	_	_	
+8-31	402-405	von	_	_	
+8-32	406-409	der	_	_	
+8-33	410-419	Botschaft	_	_	
+8-34	420-425	durch	_	_	
+8-35	426-431	einen	_	_	
+8-36	432-442	besonderen	_	_	
+8-37	443-456	Administrator	_	_	
+8-38	457-458	,	_	_	
+8-39	459-468	eventuell	_	_	
+8-40	469-474	jetzt	_	_	
+8-41	475-480	durch	_	_	
+8-42	481-486	Herrn	_	_	
+8-43	487-493	Schulz	*	PERmentioned	
+8-44	494-495	,	_	_	
+8-45	496-501	unter	_	_	
+8-46	502-505	der	_	_	
+8-47	506-518	Oberaufsicht	_	_	
+8-48	519-522	des	_	_	
+8-49	523-529	ersten	_	_	
+8-50	530-539	Sekretars	_	_	
+8-51	540-541	,	_	_	
+8-52	542-549	besorgt	_	_	
+8-53	550-555	werde	_	_	
+8-54	556-561	gegen	_	_	
+8-55	562-566	eine	_	_	
+8-56	567-580	entsprechende	_	_	
+8-57	581-590	Ablehnung	_	_	
+8-58	591-600	Jährliche	_	_	
+8-59	601-610	Vergütung	_	_	
+8-60	611-612	.	_	_	
+
+#Text=DieYkünstlerbibliothek wird noch besprochen werden .
+9-1	613-635	DieYkünstlerbibliothek	_	_	
+9-2	636-640	wird	_	_	
+9-3	641-645	noch	_	_	
+9-4	646-656	besprochen	_	_	
+9-5	657-663	werden	_	_	
+9-6	664-665	.	_	_	
+
+#Text=Die von der Central-Direktion gewünschten Veränderungen im Bau würden von Ihnen dem Baumeister von Ihnen zur Ausführung auszutheilen sein , der die Kosten mit Berufung auf unsre Anordnung die mit Ihnen besprochen wurde , auf den Baufonds zu nehmen und resp .
+10-1	666-669	Die	_	_	
+10-2	670-673	von	_	_	
+10-3	674-677	der	_	_	
+10-4	678-695	Central-Direktion	*	ORGmentioned	
+10-5	696-707	gewünschten	_	_	
+10-6	708-721	Veränderungen	_	_	
+10-7	722-724	im	_	_	
+10-8	725-728	Bau	_	_	
+10-9	729-735	würden	_	_	
+10-10	736-739	von	_	_	
+10-11	740-745	Ihnen	_	_	
+10-12	746-749	dem	_	_	
+10-13	750-760	Baumeister	_	_	
+10-14	761-764	von	_	_	
+10-15	765-770	Ihnen	_	_	
+10-16	771-774	zur	_	_	
+10-17	775-785	Ausführung	_	_	
+10-18	786-798	auszutheilen	_	_	
+10-19	799-803	sein	_	_	
+10-20	804-805	,	_	_	
+10-21	806-809	der	_	_	
+10-22	810-813	die	_	_	
+10-23	814-820	Kosten	_	_	
+10-24	821-824	mit	_	_	
+10-25	825-833	Berufung	_	_	
+10-26	834-837	auf	_	_	
+10-27	838-843	unsre	_	_	
+10-28	844-853	Anordnung	_	_	
+10-29	854-857	die	_	_	
+10-30	858-861	mit	_	_	
+10-31	862-867	Ihnen	_	_	
+10-32	868-878	besprochen	_	_	
+10-33	879-884	wurde	_	_	
+10-34	885-886	,	_	_	
+10-35	887-890	auf	_	_	
+10-36	891-894	den	_	_	
+10-37	895-903	Baufonds	_	_	
+10-38	904-906	zu	_	_	
+10-39	907-913	nehmen	_	_	
+10-40	914-917	und	_	_	
+10-41	918-922	resp	_	_	
+10-42	923-924	.	_	_	
+
+#Text=als Nachforderung , in Rechnung zu stellen hat .
+11-1	925-928	als	_	_	
+11-2	929-942	Nachforderung	_	_	
+11-3	943-944	,	_	_	
+11-4	945-947	in	_	_	
+11-5	948-956	Rechnung	_	_	
+11-6	957-959	zu	_	_	
+11-7	960-967	stellen	_	_	
+11-8	968-971	hat	_	_	
+11-9	972-973	.	_	_	
+
+#Text=Wie das Oberlicht im Lesezimmer am zweckmäßigsten herzustellen sei , bleibt der Entscheidung des Baumeisters überlassen .
+12-1	974-977	Wie	_	_	
+12-2	978-981	das	_	_	
+12-3	982-991	Oberlicht	_	_	
+12-4	992-994	im	_	_	
+12-5	995-1005	Lesezimmer	_	_	
+12-6	1006-1008	am	_	_	
+12-7	1009-1023	zweckmäßigsten	_	_	
+12-8	1024-1036	herzustellen	_	_	
+12-9	1037-1040	sei	_	_	
+12-10	1041-1042	,	_	_	
+12-11	1043-1049	bleibt	_	_	
+12-12	1050-1053	der	_	_	
+12-13	1054-1066	Entscheidung	_	_	
+12-14	1067-1070	des	_	_	
+12-15	1071-1082	Baumeisters	_	_	
+12-16	1083-1093	überlassen	_	_	
+12-17	1094-1095	.	_	_	
+
+#Text=Bei der Verbindung zwischen dem Reservezimmer und dem bisherigen
+13-1	1096-1099	Bei	_	_	
+13-2	1100-1103	der	_	_	
+13-3	1104-1114	Verbindung	_	_	
+13-4	1115-1123	zwischen	_	_	
+13-5	1124-1127	dem	_	_	
+13-6	1128-1141	Reservezimmer	_	_	
+13-7	1142-1145	und	_	_	
+13-8	1146-1149	dem	_	_	
+13-9	1150-1160	bisherigen	_	_	

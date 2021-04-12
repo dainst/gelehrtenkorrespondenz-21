@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=191 Gerhard an Braun Berlin , 22. April 1844 Aff .
+1-1	0-3	191	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	22.	*[1]	DATEletter[1]
+1-8	34-39	April	*[1]	DATEletter[1]
+1-9	40-44	1844	*[1]	DATEletter[1]
+1-10	45-48	Aff	_	_
+1-11	49-50	.	_	_
+
+#Text=d . Dir .
+2-1	51-52	d	_	_
+2-2	53-54	.	_	_
+2-3	55-58	Dir	_	_
+2-4	59-60	.	_	_
+
+#Text=g . 6/V 4 r . 6/V 4 Dr. Braun Berlin 22 April 44 Mein theurer Freund .
+3-1	61-62	g	_	_
+3-2	63-64	.	_	_
+3-3	65-68	6/V	*[2]	DATErecieved[2]
+3-4	69-70	4	*[2]	DATErecieved[2]
+3-5	71-72	r	_	_
+3-6	73-74	.	_	_
+3-7	75-78	6/V	*[3]	DATEanswered[3]
+3-8	79-80	4	*[3]	DATEanswered[3]
+3-9	81-84	Dr.	*[4]	PERaddressee[4]
+3-10	85-90	Braun	*[4]	PERaddressee[4]
+3-11	91-97	Berlin	*	PLACEfrom
+3-12	98-100	22	*[5]	DATEletter[5]
+3-13	101-106	April	*[5]	DATEletter[5]
+3-14	107-109	44	*[5]	DATEletter[5]
+3-15	110-114	Mein	_	_
+3-16	115-122	theurer	_	_
+3-17	123-129	Freund	_	_
+3-18	130-131	.	_	_
+
+#Text=Ich plage mich noch immer mit Recidiven meines vervös-katarrhalisch .
+4-1	132-135	Ich	_	_
+4-2	136-141	plage	_	_
+4-3	142-146	mich	_	_
+4-4	147-151	noch	_	_
+4-5	152-157	immer	_	_
+4-6	158-161	mit	_	_
+4-7	162-171	Recidiven	_	_
+4-8	172-178	meines	_	_
+4-9	179-199	vervös-katarrhalisch	_	_
+4-10	200-201	.	_	_
+
+#Text=reizbaren Auges und habe bis ganz zuletzt noch nicht wieder arbeiten können \; nur für eigne Vorlesungen die dem großen Publikum längst bestimmt waren habe ich mich ermannen müssen .
+5-1	202-211	reizbaren	_	_
+5-2	212-217	Auges	_	_
+5-3	218-221	und	_	_
+5-4	222-226	habe	_	_
+5-5	227-230	bis	_	_
+5-6	231-235	ganz	_	_
+5-7	236-243	zuletzt	_	_
+5-8	244-248	noch	_	_
+5-9	249-254	nicht	_	_
+5-10	255-261	wieder	_	_
+5-11	262-270	arbeiten	_	_
+5-12	271-277	können	_	_
+5-13	278-279	\;	_	_
+5-14	280-283	nur	_	_
+5-15	284-287	für	_	_
+5-16	288-293	eigne	_	_
+5-17	294-305	Vorlesungen	_	_
+5-18	306-309	die	_	_
+5-19	310-313	dem	_	_
+5-20	314-320	großen	_	_
+5-21	321-329	Publikum	_	_
+5-22	330-336	längst	_	_
+5-23	337-345	bestimmt	_	_
+5-24	346-351	waren	_	_
+5-25	352-356	habe	_	_
+5-26	357-360	ich	_	_
+5-27	361-365	mich	_	_
+5-28	366-374	ermannen	_	_
+5-29	375-381	müssen	_	_
+5-30	382-383	.	_	_
+
+#Text=Ihren Rath Stanniol zu nehmen will ich gern befolgen , bin aber gar bange , wie ein Übel der Art , verbunden mit ungeselliger Lichtscheu , bei mir chronisch werden sollte .
+6-1	384-389	Ihren	_	_
+6-2	390-394	Rath	_	_
+6-3	395-403	Stanniol	_	_
+6-4	404-406	zu	_	_
+6-5	407-413	nehmen	_	_
+6-6	414-418	will	_	_
+6-7	419-422	ich	_	_
+6-8	423-427	gern	_	_
+6-9	428-436	befolgen	_	_
+6-10	437-438	,	_	_
+6-11	439-442	bin	_	_
+6-12	443-447	aber	_	_
+6-13	448-451	gar	_	_
+6-14	452-457	bange	_	_
+6-15	458-459	,	_	_
+6-16	460-463	wie	_	_
+6-17	464-467	ein	_	_
+6-18	468-472	Übel	_	_
+6-19	473-476	der	_	_
+6-20	477-480	Art	_	_
+6-21	481-482	,	_	_
+6-22	483-492	verbunden	_	_
+6-23	493-496	mit	_	_
+6-24	497-509	ungeselliger	_	_
+6-25	510-520	Lichtscheu	_	_
+6-26	521-522	,	_	_
+6-27	523-526	bei	_	_
+6-28	527-530	mir	_	_
+6-29	531-540	chronisch	_	_
+6-30	541-547	werden	_	_
+6-31	548-554	sollte	_	_
+6-32	555-556	.	_	_
+
+#Text=Ich stecke in keiner gesunden Haut \; zur Abwechslung schwillt mir das Angesicht .
+7-1	557-560	Ich	_	_
+7-2	561-567	stecke	_	_
+7-3	568-570	in	_	_
+7-4	571-577	keiner	_	_
+7-5	578-586	gesunden	_	_
+7-6	587-591	Haut	_	_
+7-7	592-593	\;	_	_
+7-8	594-597	zur	_	_
+7-9	598-609	Abwechslung	_	_
+7-10	610-618	schwillt	_	_
+7-11	619-622	mir	_	_
+7-12	623-626	das	_	_
+7-13	627-636	Angesicht	_	_
+7-14	637-638	.	_	_
+
+#Text=In Ihren 2 Briefen habe ich vergebens die Berechnung verhofft um mit Gerstäcker aufs Reine zu kommen \; auch von Ihren Sommerplänen schreiben Sie nichts .
+8-1	639-641	In	_	_
+8-2	642-647	Ihren	_	_
+8-3	648-649	2	_	_
+8-4	650-657	Briefen	_	_
+8-5	658-662	habe	_	_
+8-6	663-666	ich	_	_
+8-7	667-676	vergebens	_	_
+8-8	677-680	die	_	_
+8-9	681-691	Berechnung	_	_
+8-10	692-700	verhofft	_	_
+8-11	701-703	um	_	_
+8-12	704-707	mit	_	_
+8-13	708-718	Gerstäcker	*	ORGmentioned
+8-14	719-723	aufs	_	_
+8-15	724-729	Reine	_	_
+8-16	730-732	zu	_	_
+8-17	733-739	kommen	_	_
+8-18	740-741	\;	_	_
+8-19	742-746	auch	_	_
+8-20	747-750	von	_	_
+8-21	751-756	Ihren	_	_
+8-22	757-769	Sommerplänen	_	_
+8-23	770-779	schreiben	_	_
+8-24	780-783	Sie	_	_
+8-25	784-790	nichts	_	_
+8-26	791-792	.	_	_
+
+#Text=Ich glaube jetzt weniger nach Paris , eher nach London zu konmen \; es müßte etwa zur andern Hälfte August sein .
+9-1	793-796	Ich	_	_
+9-2	797-803	glaube	_	_
+9-3	804-809	jetzt	_	_
+9-4	810-817	weniger	_	_
+9-5	818-822	nach	_	_
+9-6	823-828	Paris	*	PLACEmentioned
+9-7	829-830	,	_	_
+9-8	831-835	eher	_	_
+9-9	836-840	nach	_	_
+9-10	841-847	London	*	PLACEmentioned
+9-11	848-850	zu	_	_
+9-12	851-857	konmen	_	_
+9-13	858-859	\;	_	_
+9-14	860-862	es	_	_
+9-15	863-868	müßte	_	_
+9-16	869-873	etwa	_	_
+9-17	874-877	zur	_	_
+9-18	878-884	andern	_	_
+9-19	885-891	Hälfte	_	_
+9-20	892-898	August	*	DATEmentioned
+9-21	899-903	sein	_	_
+9-22	904-905	.	_	_
+
+#Text=Gmner schreibt er erwarte Sie dort schon früher .
+10-1	906-911	Gmner	*[6]	PERmentioned[6]
+10-2	912-920	schreibt	_	_
+10-3	921-923	er	_	_
+10-4	924-931	erwarte	_	_
+10-5	932-935	Sie	_	_
+10-6	936-940	dort	_	_
+10-7	941-946	schon	_	_
+10-8	947-953	früher	_	_
+10-9	954-955	.	_	_
+
+#Text=Bunsen den ich sehr wenig sehe konnte ich erst vorgestern über das Institut sprechen \; er ist jetzt geneigster einen Zuschuß zur Verwaltung zu beantragen als
+11-1	956-962	Bunsen	*	PERmentioned
+11-2	963-966	den	_	_
+11-3	967-970	ich	_	_
+11-4	971-975	sehr	_	_
+11-5	976-981	wenig	_	_
+11-6	982-986	sehe	_	_
+11-7	987-993	konnte	_	_
+11-8	994-997	ich	_	_
+11-9	998-1002	erst	_	_
+11-10	1003-1013	vorgestern	_	_
+11-11	1014-1018	über	_	_
+11-12	1019-1022	das	_	_
+11-13	1023-1031	Institut	*	ORGmentioned
+11-14	1032-1040	sprechen	_	_
+11-15	1041-1042	\;	_	_
+11-16	1043-1045	er	_	_
+11-17	1046-1049	ist	_	_
+11-18	1050-1055	jetzt	_	_
+11-19	1056-1066	geneigster	_	_
+11-20	1067-1072	einen	_	_
+11-21	1073-1080	Zuschuß	_	_
+11-22	1081-1084	zur	_	_
+11-23	1085-1095	Verwaltung	_	_
+11-24	1096-1098	zu	_	_
+11-25	1099-1109	beantragen	_	_
+11-26	1110-1113	als	_	_

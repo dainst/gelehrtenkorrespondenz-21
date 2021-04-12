@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=, 6 am ü BR un Gerhard an Braun Berlin , 1. Mai 1838 Vollard lasse ich durch Abe gehn \; lassen Sie dies V.s gelegentlich vorläufig wissen , mit besten Grüßen .
+1-1	0-1	,	_	_
+1-2	2-3	6	_	_
+1-3	4-6	am	_	_
+1-4	7-8	ü	_	_
+1-5	9-11	BR	_	_
+1-6	12-14	un	_	_
+1-7	15-22	Gerhard	*	PERauthor
+1-8	23-25	an	_	_
+1-9	26-31	Braun	*	PERaddressee
+1-10	32-38	Berlin	*	PLACEfrom
+1-11	39-40	,	_	_
+1-12	41-43	1.	*[4]	DATEletter[4]
+1-13	44-47	Mai	*[4]	DATEletter[4]
+1-14	48-52	1838	*[4]	DATEletter[4]
+1-15	53-60	Vollard	*	PERmentioned
+1-16	61-66	lasse	_	_
+1-17	67-70	ich	_	_
+1-18	71-76	durch	_	_
+1-19	77-80	Abe	*	PERmentioned
+1-20	81-85	gehn	_	_
+1-21	86-87	\;	_	_
+1-22	88-94	lassen	_	_
+1-23	95-98	Sie	_	_
+1-24	99-103	dies	_	_
+1-25	104-107	V.s	_	_
+1-26	108-120	gelegentlich	_	_
+1-27	121-130	vorläufig	_	_
+1-28	131-137	wissen	_	_
+1-29	138-139	,	_	_
+1-30	140-143	mit	_	_
+1-31	144-150	besten	_	_
+1-32	151-157	Grüßen	_	_
+1-33	158-159	.	_	_
+
+#Text=Der haben viel Leute besehen und ist wol nicht zu bezweifeln \; Panofka hat nichts gegen Sie , obwohl es ihn zu weilen befremden kann minder säuberlich behandelt zu werden als ihm zukommt .
+2-1	160-163	Der	_	_
+2-2	164-169	haben	_	_
+2-3	170-174	viel	_	_
+2-4	175-180	Leute	_	_
+2-5	181-188	besehen	_	_
+2-6	189-192	und	_	_
+2-7	193-196	ist	_	_
+2-8	197-200	wol	_	_
+2-9	201-206	nicht	_	_
+2-10	207-209	zu	_	_
+2-11	210-220	bezweifeln	_	_
+2-12	221-222	\;	_	_
+2-13	223-230	Panofka	*	PERmentioned
+2-14	231-234	hat	_	_
+2-15	235-241	nichts	_	_
+2-16	242-247	gegen	_	_
+2-17	248-251	Sie	_	_
+2-18	252-253	,	_	_
+2-19	254-260	obwohl	_	_
+2-20	261-263	es	_	_
+2-21	264-267	ihn	_	_
+2-22	268-270	zu	_	_
+2-23	271-277	weilen	_	_
+2-24	278-287	befremden	_	_
+2-25	288-292	kann	_	_
+2-26	293-299	minder	_	_
+2-27	300-310	säuberlich	_	_
+2-28	311-320	behandelt	_	_
+2-29	321-323	zu	_	_
+2-30	324-330	werden	_	_
+2-31	331-334	als	_	_
+2-32	335-338	ihm	_	_
+2-33	339-346	zukommt	_	_
+2-34	347-348	.	_	_
+
+#Text=Wenn Sie nicht irgendwann einen Haufen Bücherbestellungen nach Rom schaffen , so sehe ich nicht ab wie im Lauf des Jahres noch Anlaß werden sollte eine Kiste dorthin abzufertigen , auf die fast allerlei Beischluß wartet .
+3-1	349-353	Wenn	_	_
+3-2	354-357	Sie	_	_
+3-3	358-363	nicht	_	_
+3-4	364-374	irgendwann	_	_
+3-5	375-380	einen	_	_
+3-6	381-387	Haufen	_	_
+3-7	388-406	Bücherbestellungen	_	_
+3-8	407-411	nach	_	_
+3-9	412-415	Rom	*	PLACEmentioned
+3-10	416-424	schaffen	_	_
+3-11	425-426	,	_	_
+3-12	427-429	so	_	_
+3-13	430-434	sehe	_	_
+3-14	435-438	ich	_	_
+3-15	439-444	nicht	_	_
+3-16	445-447	ab	_	_
+3-17	448-451	wie	_	_
+3-18	452-454	im	_	_
+3-19	455-459	Lauf	_	_
+3-20	460-463	des	_	_
+3-21	464-470	Jahres	_	_
+3-22	471-475	noch	_	_
+3-23	476-481	Anlaß	_	_
+3-24	482-488	werden	_	_
+3-25	489-495	sollte	_	_
+3-26	496-500	eine	_	_
+3-27	501-506	Kiste	_	_
+3-28	507-514	dorthin	_	_
+3-29	515-527	abzufertigen	_	_
+3-30	528-529	,	_	_
+3-31	530-533	auf	_	_
+3-32	534-537	die	_	_
+3-33	538-542	fast	_	_
+3-34	543-551	allerlei	_	_
+3-35	552-561	Beischluß	_	_
+3-36	562-568	wartet	_	_
+3-37	569-570	.	_	_
+
+#Text=Und somit Gott befohlen \; alle Freunde grüßend Ihr Gerhard
+4-1	571-574	Und	_	_
+4-2	575-580	somit	_	_
+4-3	581-585	Gott	_	_
+4-4	586-594	befohlen	_	_
+4-5	595-596	\;	_	_
+4-6	597-601	alle	_	_
+4-7	602-609	Freunde	_	_
+4-8	610-617	grüßend	_	_
+4-9	618-621	Ihr	_	_
+4-10	622-629	Gerhard	*	PERauthor

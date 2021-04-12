@@ -1,0 +1,218 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=170 Gerhard an Braun Berlin , 1. April 1844 A. d . Dir .
+1-1	0-3	170	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	1.	_	_
+1-8	33-38	April	*[1]	DATEletter[1]
+1-9	39-43	1844	*[1]	DATEletter[1]
+1-10	44-46	A.	_	_
+1-11	47-48	d	_	_
+1-12	49-50	.	_	_
+1-13	51-54	Dir	_	_
+1-14	55-56	.	_	_
+
+#Text=g . 13/IV 44 r . 13/IV 44 Dr. Braun Berlin 7 April 44 Mein theurer Freund .
+2-1	57-58	g	_	_
+2-2	59-60	.	_	_
+2-3	61-66	13/IV	*[2]	DATErecieved[2]
+2-4	67-69	44	*[2]	DATErecieved[2]
+2-5	70-71	r	_	_
+2-6	72-73	.	_	_
+2-7	74-79	13/IV	*[3]	DATEanswered[3]
+2-8	80-82	44	*[3]	DATEanswered[3]
+2-9	83-86	Dr.	_	_
+2-10	87-92	Braun	*	PERaddressee
+2-11	93-99	Berlin	*	PLACEfrom
+2-12	100-101	7	_	_
+2-13	102-107	April	*[4]	DATEletter[4]
+2-14	108-110	44	*[4]	DATEletter[4]
+2-15	111-115	Mein	_	_
+2-16	116-123	theurer	_	_
+2-17	124-130	Freund	_	_
+2-18	131-132	.	_	_
+
+#Text=Der heutige ominöse Tag ist der erste an dem ich mich wieder zu schreiben getraue \; meine Augenhypochondrie hat diesmal ungewöhnlich lang und da sie mit katarrhalischen Symptomen begleitet war beunruhigender als sonst für jede Wiederkehr angehalten .
+3-1	133-136	Der	_	_
+3-2	137-144	heutige	_	_
+3-3	145-152	ominöse	_	_
+3-4	153-156	Tag	_	_
+3-5	157-160	ist	_	_
+3-6	161-164	der	_	_
+3-7	165-170	erste	_	_
+3-8	171-173	an	_	_
+3-9	174-177	dem	_	_
+3-10	178-181	ich	_	_
+3-11	182-186	mich	_	_
+3-12	187-193	wieder	_	_
+3-13	194-196	zu	_	_
+3-14	197-206	schreiben	_	_
+3-15	207-214	getraue	_	_
+3-16	215-216	\;	_	_
+3-17	217-222	meine	_	_
+3-18	223-240	Augenhypochondrie	_	_
+3-19	241-244	hat	_	_
+3-20	245-252	diesmal	_	_
+3-21	253-265	ungewöhnlich	_	_
+3-22	266-270	lang	_	_
+3-23	271-274	und	_	_
+3-24	275-277	da	_	_
+3-25	278-281	sie	_	_
+3-26	282-285	mit	_	_
+3-27	286-301	katarrhalischen	_	_
+3-28	302-311	Symptomen	_	_
+3-29	312-321	begleitet	_	_
+3-30	322-325	war	_	_
+3-31	326-340	beunruhigender	_	_
+3-32	341-344	als	_	_
+3-33	345-350	sonst	_	_
+3-34	351-354	für	_	_
+3-35	355-359	jede	_	_
+3-36	360-370	Wiederkehr	_	_
+3-37	371-381	angehalten	_	_
+3-38	382-383	.	_	_
+
+#Text=Wiese war sehr beschäftigt , verspricht den Artikel aber bald .
+4-1	384-389	Wiese	*	PERmentioned
+4-2	390-393	war	_	_
+4-3	394-398	sehr	_	_
+4-4	399-410	beschäftigt	_	_
+4-5	411-412	,	_	_
+4-6	413-423	verspricht	_	_
+4-7	424-427	den	_	_
+4-8	428-435	Artikel	_	_
+4-9	436-440	aber	_	_
+4-10	441-445	bald	_	_
+4-11	446-447	.	_	_
+
+#Text=Von welchem anderen Berliner möchten Sie Artikel ?
+5-1	448-451	Von	_	_
+5-2	452-459	welchem	_	_
+5-3	460-467	anderen	_	_
+5-4	468-476	Berliner	*	PLACEmentioned
+5-5	477-484	möchten	_	_
+5-6	485-488	Sie	_	_
+5-7	489-496	Artikel	_	_
+5-8	497-498	?	_	_
+
+#Text=Stets mit dem incomodo des Übersetzens .
+6-1	499-504	Stets	_	_
+6-2	505-508	mit	_	_
+6-3	509-512	dem	_	_
+6-4	513-521	incomodo	_	_
+6-5	522-525	des	_	_
+6-6	526-537	Übersetzens	_	_
+6-7	538-539	.	_	_
+
+#Text=Bunsen der seit 11 Tagen hier ist sprach ich erst einmal .
+7-1	540-546	Bunsen	*	PERmentioned
+7-2	547-550	der	_	_
+7-3	551-555	seit	_	_
+7-4	556-558	11	_	_
+7-5	559-564	Tagen	_	_
+7-6	565-569	hier	_	_
+7-7	570-573	ist	_	_
+7-8	574-580	sprach	_	_
+7-9	581-584	ich	_	_
+7-10	585-589	erst	_	_
+7-11	590-596	einmal	_	_
+7-12	597-598	.	_	_
+
+#Text=Er ist gleich mit Dombau , Ehescheidungsgesetz , vielleicht auch Liturgie und Jesusalem obruirt worden .
+8-1	599-601	Er	_	_
+8-2	602-605	ist	_	_
+8-3	606-612	gleich	_	_
+8-4	613-616	mit	_	_
+8-5	617-623	Dombau	_	_
+8-6	624-625	,	_	_
+8-7	626-645	Ehescheidungsgesetz	_	_
+8-8	646-647	,	_	_
+8-9	648-658	vielleicht	_	_
+8-10	659-663	auch	_	_
+8-11	664-672	Liturgie	_	_
+8-12	673-676	und	_	_
+8-13	677-686	Jesusalem	_	_
+8-14	687-694	obruirt	_	_
+8-15	695-701	worden	_	_
+8-16	702-703	.	_	_
+
+#Text=Thorwaldsen ruhe in Frieden !
+9-1	704-715	Thorwaldsen	*	PERmentioned
+9-2	716-720	ruhe	_	_
+9-3	721-723	in	_	_
+9-4	724-731	Frieden	_	_
+9-5	732-733	!	_	_
+
+#Text=Sein natürlichster Nachfolger als Direktionsmitglied des Instituts ist Wagner \; ich denke deshalb an Luynes zu schreiben , sonst wird Niemand dagegen Einspruch thun .
+10-1	734-738	Sein	_	_
+10-2	739-752	natürlichster	_	_
+10-3	753-763	Nachfolger	_	_
+10-4	764-767	als	_	_
+10-5	768-786	Direktionsmitglied	_	_
+10-6	787-790	des	_	_
+10-7	791-800	Instituts	*	ORGmentioned
+10-8	801-804	ist	_	_
+10-9	805-811	Wagner	*	PERmentioned
+10-10	812-813	\;	_	_
+10-11	814-817	ich	_	_
+10-12	818-823	denke	_	_
+10-13	824-831	deshalb	_	_
+10-14	832-834	an	_	_
+10-15	835-841	Luynes	*	PERmentioned
+10-16	842-844	zu	_	_
+10-17	845-854	schreiben	_	_
+10-18	855-856	,	_	_
+10-19	857-862	sonst	_	_
+10-20	863-867	wird	_	_
+10-21	868-875	Niemand	_	_
+10-22	876-883	dagegen	_	_
+10-23	884-893	Einspruch	_	_
+10-24	894-898	thun	_	_
+10-25	899-900	.	_	_
+
+#Text=Statt eines freundlichen Gefühles freilich ein saures !
+11-1	901-906	Statt	_	_
+11-2	907-912	eines	_	_
+11-3	913-925	freundlichen	_	_
+11-4	926-934	Gefühles	_	_
+11-5	935-943	freilich	_	_
+11-6	944-947	ein	_	_
+11-7	948-954	saures	_	_
+11-8	955-956	!	_	_
+
+#Text=Beglücken Sie Kestner mit der Nachricht daß die uralte G ’ s.ische Schuld , auf 35 Napol & ons reducirt , ihm — von Usedom nächstens übermacht wird .
+12-1	957-966	Beglücken	_	_
+12-2	967-970	Sie	_	_
+12-3	971-978	Kestner	*	PERmentioned
+12-4	979-982	mit	_	_
+12-5	983-986	der	_	_
+12-6	987-996	Nachricht	_	_
+12-7	997-1000	daß	_	_
+12-8	1001-1004	die	_	_
+12-9	1005-1011	uralte	_	_
+12-10	1012-1013	G	_	_
+12-11	1014-1015	’	_	_
+12-12	1016-1023	s.ische	_	_
+12-13	1024-1030	Schuld	_	_
+12-14	1031-1032	,	_	_
+12-15	1033-1036	auf	_	_
+12-16	1037-1039	35	_	_
+12-17	1040-1045	Napol	_	_
+12-18	1046-1047	&	_	_
+12-19	1048-1051	ons	_	_
+12-20	1052-1060	reducirt	_	_
+12-21	1061-1062	,	_	_
+12-22	1063-1066	ihm	_	_
+12-23	1067-1068	—	_	_
+12-24	1069-1072	von	_	_
+12-25	1073-1079	Usedom	*	PERmentioned
+12-26	1080-1089	nächstens	_	_
+12-27	1090-1099	übermacht	_	_
+12-28	1100-1104	wird	_	_
+12-29	1105-1106	.	_	_

@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 4. April 1839 Den letzten Band des Manuel des Consules können Sie hierher senden , auf nächsten Weg .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	4.	*[4]	DATEletter[4]
+1-7	26-31	April	*[4]	DATEletter[4]
+1-8	32-36	1839	*[4]	DATEletter[4]
+1-9	37-40	Den	_	_
+1-10	41-48	letzten	_	_
+1-11	49-53	Band	_	_
+1-12	54-57	des	_	_
+1-13	58-64	Manuel	_	_
+1-14	65-68	des	_	_
+1-15	69-77	Consules	_	_
+1-16	78-84	können	_	_
+1-17	85-88	Sie	_	_
+1-18	89-96	hierher	_	_
+1-19	97-103	senden	_	_
+1-20	104-105	,	_	_
+1-21	106-109	auf	_	_
+1-22	110-118	nächsten	_	_
+1-23	119-122	Weg	_	_
+1-24	123-124	.	_	_
+
+#Text=Wer hat die Auslagen getragen .
+2-1	125-128	Wer	_	_
+2-2	129-132	hat	_	_
+2-3	133-136	die	_	_
+2-4	137-145	Auslagen	_	_
+2-5	146-154	getragen	_	_
+2-6	155-156	.	_	_
+
+#Text=Gerstäcker hat mir den 2.ten Theil der Müllerschen Physiolog .
+3-1	157-167	Gerstäcker	*	PERmentioned
+3-2	168-171	hat	_	_
+3-3	172-175	mir	_	_
+3-4	176-179	den	_	_
+3-5	180-185	2.ten	_	_
+3-6	186-191	Theil	_	_
+3-7	192-195	der	_	_
+3-8	196-207	Müllerschen	*	PERmentioned
+3-9	208-217	Physiolog	_	_
+3-10	218-219	.	_	_
+
+#Text=zum 2.ten Mal geschickt .
+4-1	220-223	zum	_	_
+4-2	224-229	2.ten	_	_
+4-3	230-233	Mal	_	_
+4-4	234-243	geschickt	_	_
+4-5	244-245	.	_	_
+
+#Text=Dieser geht also zurück .
+5-1	246-252	Dieser	_	_
+5-2	253-257	geht	_	_
+5-3	258-262	also	_	_
+5-4	263-269	zurück	_	_
+5-5	270-271	.	_	_
+
+#Text=Die Tportovase ist von der Gl avase wohl verschieden .
+6-1	272-275	Die	_	_
+6-2	276-286	Tportovase	*	OBJ
+6-3	287-290	ist	_	_
+6-4	291-294	von	_	_
+6-5	295-298	der	_	_
+6-6	299-301	Gl	*[8]	OBJ[8]
+6-7	302-307	avase	*[8]	OBJ[8]
+6-8	308-312	wohl	_	_
+6-9	313-324	verschieden	_	_
+6-10	325-326	.	_	_
+
+#Text=Ich meine unter den Institutszeichnungen eine Replik der letzteren Zeichnung gesehen zu haben .
+7-1	327-330	Ich	_	_
+7-2	331-336	meine	_	_
+7-3	337-342	unter	_	_
+7-4	343-346	den	_	_
+7-5	347-367	Institutszeichnungen	_	_
+7-6	368-372	eine	_	_
+7-7	373-379	Replik	_	_
+7-8	380-383	der	_	_
+7-9	384-393	letzteren	_	_
+7-10	394-403	Zeichnung	_	_
+7-11	404-411	gesehen	_	_
+7-12	412-414	zu	_	_
+7-13	415-420	haben	_	_
+7-14	421-422	.	_	_
+
+#Text=Sie haben aber ganz bestimmt den Originallucidoe erhalten .
+8-1	423-426	Sie	_	_
+8-2	427-432	haben	_	_
+8-3	433-437	aber	_	_
+8-4	438-442	ganz	_	_
+8-5	443-451	bestimmt	_	_
+8-6	452-455	den	_	_
+8-7	456-471	Originallucidoe	_	_
+8-8	472-480	erhalten	_	_
+8-9	481-482	.	_	_
+
+#Text=Die S. Quirico 's Fratze habe ich noch nicht erreichen können .
+9-1	483-486	Die	_	_
+9-2	487-489	S.	*[9]	PLACEmentioned[9]
+9-3	490-497	Quirico	*[9]	PLACEmentioned[9]
+9-4	498-500	's	*[9]	PLACEmentioned[9]
+9-5	501-507	Fratze	_	_
+9-6	508-512	habe	_	_
+9-7	513-516	ich	_	_
+9-8	517-521	noch	_	_
+9-9	522-527	nicht	_	_
+9-10	528-537	erreichen	_	_
+9-11	538-544	können	_	_
+9-12	545-546	.	_	_
+
+#Text=Ich meine aber sie ruht sicher und ich habe selbst ein Auge darauf .
+10-1	547-550	Ich	_	_
+10-2	551-556	meine	_	_
+10-3	557-561	aber	_	_
+10-4	562-565	sie	_	_
+10-5	566-570	ruht	_	_
+10-6	571-577	sicher	_	_
+10-7	578-581	und	_	_
+10-8	582-585	ich	_	_
+10-9	586-590	habe	_	_
+10-10	591-597	selbst	_	_
+10-11	598-601	ein	_	_
+10-12	602-606	Auge	_	_
+10-13	607-613	darauf	_	_
+10-14	614-615	.	_	_
+
+#Text=Die Pelo evase ist von Millingen gekauft und dann nicht ausgeführt worden .
+11-1	616-619	Die	_	_
+11-2	620-624	Pelo	*[10]	OBJ[10]
+11-3	625-630	evase	*[10]	OBJ[10]
+11-4	631-634	ist	_	_
+11-5	635-638	von	_	_
+11-6	639-648	Millingen	*	PERmentioned
+11-7	649-656	gekauft	_	_
+11-8	657-660	und	_	_
+11-9	661-665	dann	_	_
+11-10	666-671	nicht	_	_
+11-11	672-682	ausgeführt	_	_
+11-12	683-689	worden	_	_
+11-13	690-691	.	_	_
+
+#Text=Die Probedrücke sind nicht zu Institutsplatten bestimmt .
+12-1	692-695	Die	_	_
+12-2	696-707	Probedrücke	_	_
+12-3	708-712	sind	_	_
+12-4	713-718	nicht	_	_
+12-5	719-721	zu	_	_
+12-6	722-738	Institutsplatten	_	_
+12-7	739-747	bestimmt	_	_
+12-8	748-749	.	_	_
+
+#Text=Champollion T igeac scheint mir eine schlechte Bereicherung des Institutscorps .
+13-1	750-761	Champollion	*	PERmentioned
+13-2	762-763	T	_	_
+13-3	764-769	igeac	_	_
+13-4	770-777	scheint	_	_
+13-5	778-781	mir	_	_
+13-6	782-786	eine	_	_
+13-7	787-796	schlechte	_	_
+13-8	797-809	Bereicherung	_	_
+13-9	810-813	des	_	_
+13-10	814-828	Institutscorps	_	_
+13-11	829-830	.	_	_
+
+#Text=Er gilt wenigstens überall für einen litterarischen Iumpen .
+14-1	831-833	Er	_	_
+14-2	834-838	gilt	_	_
+14-3	839-849	wenigstens	_	_
+14-4	850-857	überall	_	_
+14-5	858-861	für	_	_
+14-6	862-867	einen	_	_
+14-7	868-882	litterarischen	_	_
+14-8	883-889	Iumpen	_	_
+14-9	890-891	.	_	_
+
+#Text=Hases lateinische : Erkläfüng : der Stackelbergschen Münzen ist so fürchterlich ausgefallen , daß kein Mensch es wagen will sie zu purgiren .
+15-1	892-897	Hases	*	PERmentioned
+15-2	898-909	lateinische	_	_
+15-3	910-911	:	_	_
+15-4	912-921	Erkläfüng	_	_
+15-5	922-923	:	_	_
+15-6	924-927	der	_	_
+15-7	928-944	Stackelbergschen	*	PERmentioned
+15-8	945-951	Münzen	*	OBJ
+15-9	952-955	ist	_	_
+15-10	956-958	so	_	_
+15-11	959-971	fürchterlich	_	_
+15-12	972-983	ausgefallen	_	_
+15-13	984-985	,	_	_
+15-14	986-989	daß	_	_
+15-15	990-994	kein	_	_
+15-16	995-1001	Mensch	_	_
+15-17	1002-1004	es	_	_
+15-18	1005-1010	wagen	_	_
+15-19	1011-1015	will	_	_
+15-20	1016-1019	sie	_	_
+15-21	1020-1022	zu	_	_
+15-22	1023-1031	purgiren	_	_
+15-23	1032-1033	.	_	_
+
+#Text=Unter anderem steht darin , daß Stackelberg sein Vermögen nicht habe verwalten können .
+16-1	1034-1039	Unter	_	_
+16-2	1040-1047	anderem	_	_
+16-3	1048-1053	steht	_	_
+16-4	1054-1059	darin	_	_
+16-5	1060-1061	,	_	_
+16-6	1062-1065	daß	_	_
+16-7	1066-1077	Stackelberg	*	PERmentioned
+16-8	1078-1082	sein	_	_
+16-9	1083-1091	Vermögen	_	_
+16-10	1092-1097	nicht	_	_
+16-11	1098-1102	habe	_	_
+16-12	1103-1112	verwalten	_	_
+16-13	1113-1119	können	_	_
+16-14	1120-1121	.	_	_
+
+#Text=Lateinisch sind eben nur die Vocabeln , und diese schlechtmöglichst gewählt .
+17-1	1122-1132	Lateinisch	_	_
+17-2	1133-1137	sind	_	_
+17-3	1138-1142	eben	_	_
+17-4	1143-1146	nur	_	_
+17-5	1147-1150	die	_	_
+17-6	1151-1159	Vocabeln	_	_
+17-7	1160-1161	,	_	_
+17-8	1162-1165	und	_	_
+17-9	1166-1171	diese	_	_
+17-10	1172-1189	schlechtmöglichst	_	_
+17-11	1190-1197	gewählt	_	_
+17-12	1198-1199	.	_	_
+
+#Text=Der Prinz von Coburg ist heute Morgen nach Neapel abgereist .
+18-1	1200-1203	Der	_	_
+18-2	1204-1209	Prinz	*[17]	PERmentioned[17]
+18-3	1210-1213	von	*[17]	PERmentioned[17]
+18-4	1214-1220	Coburg	*[17]	PERmentioned[17]
+18-5	1221-1224	ist	_	_
+18-6	1225-1230	heute	_	_
+18-7	1231-1237	Morgen	_	_
+18-8	1238-1242	nach	_	_
+18-9	1243-1249	Neapel	*	PLACEmentioned
+18-10	1250-1259	abgereist	_	_
+18-11	1260-1261	.	_	_
+
+#Text=Durch Ernennung zum Ehrenmitglied ( d. h. durch Zusendung eines Diploms ) ließ er sich den Associaten anreihen .
+19-1	1262-1267	Durch	_	_
+19-2	1268-1277	Ernennung	_	_
+19-3	1278-1281	zum	_	_
+19-4	1282-1295	Ehrenmitglied	_	_
+19-5	1296-1297	(	_	_
+19-6	1298-1300	d.	_	_
+19-7	1301-1303	h.	_	_
+19-8	1304-1309	durch	_	_
+19-9	1310-1319	Zusendung	_	_
+19-10	1320-1325	eines	_	_
+19-11	1326-1333	Diploms	_	_
+19-12	1334-1335	)	_	_
+19-13	1336-1340	ließ	_	_
+19-14	1341-1343	er	_	_
+19-15	1344-1348	sich	_	_
+19-16	1349-1352	den	_	_
+19-17	1353-1363	Associaten	_	_
+19-18	1364-1372	anreihen	_	_
+19-19	1373-1374	.	_	_
+
+#Text=Vielleicht wäre das nützlich .
+20-1	1375-1385	Vielleicht	_	_
+20-2	1386-1390	wäre	_	_
+20-3	1391-1394	das	_	_
+20-4	1395-1403	nützlich	_	_
+20-5	1404-1405	.	_	_
+
+#Text=Was meinen Sie dazu ?
+21-1	1406-1409	Was	_	_
+21-2	1410-1416	meinen	_	_
+21-3	1417-1420	Sie	_	_
+21-4	1421-1425	dazu	_	_
+21-5	1426-1427	?	_	_
+
+#Text=In der Liste käme er natürlich
+22-1	1428-1430	In	_	_
+22-2	1431-1434	der	_	_
+22-3	1435-1440	Liste	_	_
+22-4	1441-1445	käme	_	_
+22-5	1446-1448	er	_	_
+22-6	1449-1458	natürlich	_	_

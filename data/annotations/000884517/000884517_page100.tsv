@@ -1,0 +1,90 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=27 Gerhard an Braun Berlin , 10 .
+1-1	0-2	27	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	10	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Januar 1845 senden .
+2-1	34-40	Januar	*[1]	DATEletter[1]
+2-2	41-45	1845	*[1]	DATEletter[1]
+2-3	46-52	senden	_	_
+2-4	53-54	.	_	_
+
+#Text=Den zum 9 December Vorgeschlagenen setze ich noch den Bergck hinzu , der sich mit Eifer für Archäologie hervorthut \; die zusammengestellten Namen habe ich motu proprio und mit meinem Namen an Metternich eingesandt \; sonst wäre kein Ende geworden .
+3-1	55-58	Den	_	_
+3-2	59-62	zum	_	_
+3-3	63-64	9	*[2]	DATEmentioned[2]
+3-4	65-73	December	*[2]	DATEmentioned[2]
+3-5	74-89	Vorgeschlagenen	_	_
+3-6	90-95	setze	_	_
+3-7	96-99	ich	_	_
+3-8	100-104	noch	_	_
+3-9	105-108	den	_	_
+3-10	109-115	Bergck	*	PERmentioned
+3-11	116-121	hinzu	_	_
+3-12	122-123	,	_	_
+3-13	124-127	der	_	_
+3-14	128-132	sich	_	_
+3-15	133-136	mit	_	_
+3-16	137-142	Eifer	_	_
+3-17	143-146	für	_	_
+3-18	147-158	Archäologie	_	_
+3-19	159-169	hervorthut	_	_
+3-20	170-171	\;	_	_
+3-21	172-175	die	_	_
+3-22	176-194	zusammengestellten	_	_
+3-23	195-200	Namen	_	_
+3-24	201-205	habe	_	_
+3-25	206-209	ich	_	_
+3-26	210-214	motu	_	_
+3-27	215-222	proprio	_	_
+3-28	223-226	und	_	_
+3-29	227-230	mit	_	_
+3-30	231-237	meinem	_	_
+3-31	238-243	Namen	_	_
+3-32	244-246	an	_	_
+3-33	247-257	Metternich	*	PERmentioned
+3-34	258-268	eingesandt	_	_
+3-35	269-270	\;	_	_
+3-36	271-276	sonst	_	_
+3-37	277-281	wäre	_	_
+3-38	282-286	kein	_	_
+3-39	287-291	Ende	_	_
+3-40	292-300	geworden	_	_
+3-41	301-302	.	_	_
+
+#Text=Forchhammers Recension Ihrer Decaden in der Zeitung für Alterthuns- Wissenschaft , witzig scharf und zum Theil gelehrt habe ich um sie Ihnen zu senden requirirt .
+4-1	303-315	Forchhammers	*	PERmentioned
+4-2	316-325	Recension	_	_
+4-3	326-331	Ihrer	_	_
+4-4	332-339	Decaden	_	_
+4-5	340-342	in	_	_
+4-6	343-346	der	_	_
+4-7	347-354	Zeitung	_	_
+4-8	355-358	für	_	_
+4-9	359-370	Alterthuns-	_	_
+4-10	371-383	Wissenschaft	_	_
+4-11	384-385	,	_	_
+4-12	386-392	witzig	_	_
+4-13	393-399	scharf	_	_
+4-14	400-403	und	_	_
+4-15	404-407	zum	_	_
+4-16	408-413	Theil	_	_
+4-17	414-421	gelehrt	_	_
+4-18	422-426	habe	_	_
+4-19	427-430	ich	_	_
+4-20	431-433	um	_	_
+4-21	434-437	sie	_	_
+4-22	438-443	Ihnen	_	_
+4-23	444-446	zu	_	_
+4-24	447-453	senden	_	_
+4-25	454-463	requirirt	_	_
+4-26	464-465	.	_	_

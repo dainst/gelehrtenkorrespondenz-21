@@ -1,0 +1,281 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=24 Braun an Gerhard Rom , 9 .
+1-1	0-2	24	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-27	9	*[4]	DATEletter[4]
+1-8	28-29	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 Gubbio : Conte Guglielmo Beni .
+2-1	30-36	Januar	*[4]	DATEletter[4]
+2-2	37-41	1838	*[4]	DATEletter[4]
+2-3	42-48	Gubbio	*	PLACEmentioned
+2-4	49-50	:	_	_
+2-5	51-56	Conte	*[6]	PERmentioned[6]
+2-6	57-66	Guglielmo	*[6]	PERmentioned[6]
+2-7	67-71	Beni	*[6]	PERmentioned[6]
+2-8	72-73	.	_	_
+
+#Text=Lepsius .
+3-1	74-81	Lepsius	*	PERmentioned
+3-2	82-83	.	_	_
+
+#Text=Cagli : Conte Brancati .
+4-1	84-89	Cagli	*	PLACEmentioned
+4-2	90-91	:	_	_
+4-3	92-97	Conte	*[9]	PERmentioned[9]
+4-4	98-106	Brancati	*[9]	PERmentioned[9]
+4-5	107-108	.	_	_
+
+#Text=Borghesi interrogato .
+5-1	109-117	Borghesi	*	PERmentioned
+5-2	118-129	interrogato	_	_
+5-3	130-131	.	_	_
+
+#Text=Macerata : Marchese Amiro Ricci - Pesaro : Prof. Montanari .
+6-1	132-140	Macerata	*	PLACEmentioned
+6-2	141-142	:	_	_
+6-3	143-151	Marchese	*[12]	PERmentioned[12]
+6-4	152-157	Amiro	*[12]	PERmentioned[12]
+6-5	158-163	Ricci	*[12]	PERmentioned[12]
+6-6	164-165	-	_	_
+6-7	166-172	Pesaro	*	PLACEmentioned
+6-8	173-174	:	*[14]	PERmentioned[14]
+6-9	175-180	Prof.	*[14]	PERmentioned[14]
+6-10	181-190	Montanari	*[14]	PERmentioned[14]
+6-11	191-192	.	_	_
+
+#Text=- Rimini : Prof. Ant . Bianchi - Ravenna : Conte Alessio C ppi .
+7-1	193-194	-	_	_
+7-2	195-201	Rimini	*	PLACEmentioned
+7-3	202-203	:	_	_
+7-4	204-209	Prof.	*[16]	PERmentioned[16]
+7-5	210-213	Ant	*[16]	PERmentioned[16]
+7-6	214-215	.	*[16]	PERmentioned[16]
+7-7	216-223	Bianchi	*[16]	PERmentioned[16]
+7-8	224-225	-	_	_
+7-9	226-233	Ravenna	*	PLACEmentioned
+7-10	234-235	:	_	_
+7-11	236-241	Conte	*[18]	PERmentioned[18]
+7-12	242-249	Alessio	*[18]	PERmentioned[18]
+7-13	250-251	C	*[18]	PERmentioned[18]
+7-14	252-255	ppi	*[18]	PERmentioned[18]
+7-15	256-257	.	_	_
+
+#Text=Segret .
+8-1	258-264	Segret	_	_
+8-2	265-266	.	_	_
+
+#Text=d. Accad .
+9-1	267-269	d.	_	_
+9-2	270-275	Accad	*[19]	ORGmentioned[19]
+9-3	276-277	.	*[19]	ORGmentioned[19]
+
+#Text=d. Belle Arti - N 6 .
+10-1	278-280	d.	*[19]	ORGmentioned[19]
+10-2	281-286	Belle	*[19]	ORGmentioned[19]
+10-3	287-291	Arti	*[19]	ORGmentioned[19]
+10-4	292-293	-	_	_
+10-5	294-295	N	_	_
+10-6	296-297	6	_	_
+10-7	298-299	.	_	_
+
+#Text=Grecia .
+11-1	300-306	Grecia	*	PLACEmentioned
+11-2	307-308	.	_	_
+
+#Text=Gr . Superiore : Atene : Finlay , Schaubert , Hansen .
+12-1	309-311	Gr	_	_
+12-2	312-313	.	_	_
+12-3	314-323	Superiore	_	_
+12-4	324-325	:	_	_
+12-5	326-331	Atene	*	PLACEmentioned
+12-6	332-333	:	_	_
+12-7	334-340	Finlay	*	PERmentioned
+12-8	341-342	,	_	_
+12-9	343-352	Schaubert	*	PERmentioned
+12-10	353-354	,	_	_
+12-11	355-361	Hansen	*	PERmentioned
+12-12	362-363	.	_	_
+
+#Text=Cav .
+13-1	364-367	Cav	_	_
+13-2	368-369	.	_	_
+
+#Text=Gerhard .
+14-1	370-377	Gerhard	*	PERmentioned
+14-2	378-379	.	_	_
+
+#Text=Tebe : il Vescovo , unschwer Lebadea : Calogeropulos e Cardinalis - .
+15-1	380-384	Tebe	*	PLACEmentioned
+15-2	385-386	:	_	_
+15-3	387-389	il	_	_
+15-4	390-397	Vescovo	*[27]	OBJ[27]
+15-5	398-399	,	_	_
+15-6	400-408	unschwer	_	_
+15-7	409-416	Lebadea	*	PLACEmentioned
+15-8	417-418	:	_	_
+15-9	419-432	Calogeropulos	*	PERmentioned
+15-10	433-434	e	_	_
+15-11	435-445	Cardinalis	*	PERmentioned
+15-12	446-447	-	_	_
+15-13	448-449	.	_	_
+
+#Text=Morea : Sparta : Avv .
+16-1	450-455	Morea	*	PLACEmentioned
+16-2	456-457	:	_	_
+16-3	458-464	Sparta	*	PLACEmentioned
+16-4	465-466	:	_	_
+16-5	467-470	Avv	*[33]	PERmentioned[33]
+16-6	471-472	.	*[33]	PERmentioned[33]
+
+#Text=Georg .
+17-1	473-478	Georg	*[33]	PERmentioned[33]
+17-2	479-480	.	*[33]	PERmentioned[33]
+
+#Text=Thengaros .
+18-1	481-490	Thengaros	*[33]	PERmentioned[33]
+18-2	491-492	.	_	_
+
+#Text=- Leontari : The ks .
+19-1	493-494	-	_	_
+19-2	495-503	Leontari	*	PERmentioned
+19-3	504-505	:	_	_
+19-4	506-509	The	_	_
+19-5	510-512	ks	_	_
+19-6	513-514	.	_	_
+
+#Text=\_ J. Isole : Egina : Köpper .
+20-1	515-516	\_	_	_
+20-2	517-519	J.	_	_
+20-3	520-525	Isole	_	_
+20-4	526-527	:	_	_
+20-5	528-533	Egina	*	PLACEmentioned
+20-6	534-535	:	_	_
+20-7	536-542	Köpper	*	PERmentioned
+20-8	543-544	.	_	_
+
+#Text=- Thera : Ant . de Mata .
+21-1	545-546	-	_	_
+21-2	547-552	Thera	*	PLACEmentioned
+21-3	553-554	:	_	_
+21-4	555-558	Ant	*[39]	PERmentioned[39]
+21-5	559-560	.	*[39]	PERmentioned[39]
+21-6	561-563	de	*[39]	PERmentioned[39]
+21-7	564-568	Mata	*[39]	PERmentioned[39]
+21-8	569-570	.	_	_
+
+#Text=Naxos : Conte Frangopulos .
+22-1	571-576	Naxos	*	PLACEmentioned
+22-2	577-578	:	_	_
+22-3	579-584	Conte	*[43]	PERmentioned[43]
+22-4	585-596	Frangopulos	*[43]	PERmentioned[43]
+22-5	597-598	.	_	_
+
+#Text=- Melos : Cav .
+23-1	599-600	-	_	_
+23-2	601-606	Melos	*	PLACEmentioned
+23-3	607-608	:	_	_
+23-4	609-612	Cav	_	_
+23-5	613-614	.	*[44]	PERmentioned[44]
+
+#Text=Brest .
+24-1	615-620	Brest	*[44]	PERmentioned[44]
+24-2	621-622	.	*[44]	PERmentioned[44]
+
+#Text=- Syros : de Wallenberg B. Asia Siria : Beirut : Conte Giulio de Berton , vedi Bull .
+25-1	623-624	-	*[44]	PERmentioned[44]
+25-2	625-630	Syros	*[44]	PLACEmentioned|PERmentioned[44]
+25-3	631-632	:	*[44]	PERmentioned[44]
+25-4	633-635	de	*[44]	PERmentioned[44]
+25-5	636-646	Wallenberg	*[44]	PERmentioned[44]
+25-6	647-649	B.	_	_
+25-7	650-654	Asia	*	PLACEmentioned
+25-8	655-660	Siria	*	PLACEmentioned
+25-9	661-662	:	_	_
+25-10	663-669	Beirut	*	PLACEmentioned
+25-11	670-671	:	_	_
+25-12	672-677	Conte	*[47]	PERmentioned[47]
+25-13	678-684	Giulio	*[47]	PERmentioned[47]
+25-14	685-687	de	*[47]	PERmentioned[47]
+25-15	688-694	Berton	_	_
+25-16	695-696	,	_	_
+25-17	697-701	vedi	_	_
+25-18	702-706	Bull	_	_
+25-19	707-708	.	_	_
+
+#Text=Novembre CC .
+26-1	709-717	Novembre	_	_
+26-2	718-720	CC	_	_
+26-3	721-722	.	_	_
+
+#Text=Africa ZZESZES= Alessandria : Cav .
+27-1	723-729	Africa	*	PLACEmentioned
+27-2	730-738	ZZESZES=	_	_
+27-3	739-750	Alessandria	*	PLACEmentioned
+27-4	751-752	:	_	_
+27-5	753-756	Cav	*[50]	PERmentioned[50]
+27-6	757-758	.	*[50]	PERmentioned[50]
+
+#Text=d'Anastasi , Console Svedese .
+28-1	759-769	d'Anastasi	*[50]	PERmentioned[50]
+28-2	770-771	,	_	_
+28-3	772-779	Console	_	_
+28-4	780-787	Svedese	_	_
+28-5	788-789	.	_	_
+
+#Text=Lepsius .
+29-1	790-797	Lepsius	*	PERmentioned
+29-2	798-799	.	_	_
+
+#Text=Ihr treu Ergebner EBraun Die Membri ordinarj della Direzione hat man vorgeschlagen durch Borghesi vollzählig zu machen und Marini in die Reihe der Membri straordinari della Direzione zu setzen .
+30-1	800-803	Ihr	_	_
+30-2	804-808	treu	_	_
+30-3	809-817	Ergebner	_	_
+30-4	818-824	EBraun	*	PERauthor
+30-5	825-828	Die	_	_
+30-6	829-835	Membri	_	_
+30-7	836-844	ordinarj	_	_
+30-8	845-850	della	_	_
+30-9	851-860	Direzione	_	_
+30-10	861-864	hat	_	_
+30-11	865-868	man	_	_
+30-12	869-882	vorgeschlagen	_	_
+30-13	883-888	durch	_	_
+30-14	889-897	Borghesi	*	PERmentioned
+30-15	898-908	vollzählig	_	_
+30-16	909-911	zu	_	_
+30-17	912-918	machen	_	_
+30-18	919-922	und	_	_
+30-19	923-929	Marini	*	PERmentioned
+30-20	930-932	in	_	_
+30-21	933-936	die	_	_
+30-22	937-942	Reihe	_	_
+30-23	943-946	der	_	_
+30-24	947-953	Membri	_	_
+30-25	954-966	straordinari	_	_
+30-26	967-972	della	_	_
+30-27	973-982	Direzione	_	_
+30-28	983-985	zu	_	_
+30-29	986-992	setzen	_	_
+30-30	993-994	.	_	_
+
+#Text=Beschluß d. d . 3 Jan .
+31-1	995-1003	Beschluß	_	_
+31-2	1004-1006	d.	_	_
+31-3	1007-1008	d	_	_
+31-4	1009-1010	.	_	_
+31-5	1011-1012	3	*[55]	DATEmentioned[55]
+31-6	1013-1016	Jan	*[55]	DATEmentioned[55]
+31-7	1017-1018	.	*[55]	DATEmentioned[55]
+
+#Text=1838 , der
+32-1	1019-1023	1838	*[55]	DATEmentioned[55]
+32-2	1024-1025	,	_	_
+32-3	1026-1029	der	_	_

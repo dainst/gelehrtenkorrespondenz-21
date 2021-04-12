@@ -1,0 +1,372 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=849 -5- Braun an Gerhard Rom , 29. November 71834 Leske Platners Attischer Prozeß .
+1-1	0-3	849	_	_
+1-2	4-7	-5-	_	_
+1-3	8-13	Braun	*	PERauthor
+1-4	14-16	an	_	_
+1-5	17-24	Gerhard	*	PERaddressee
+1-6	25-28	Rom	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-34	29.	*[1]	DATEletter[1]
+1-9	35-43	November	*[1]	DATEletter[1]
+1-10	44-49	71834	*[1]	DATEletter[1]
+1-11	50-55	Leske	*[2]|*[3]	PERmentioned[2]|LIT[3]
+1-12	56-64	Platners	*[3]|*[4]	LIT[3]|PERmentioned[4]
+1-13	65-74	Attischer	*[3]	LIT[3]
+1-14	75-81	Prozeß	*[3]	LIT[3]
+1-15	82-83	.	*[3]	LIT[3]
+
+#Text=2 Th. 8° .
+2-1	84-85	2	*[3]	LIT[3]
+2-2	86-89	Th.	*[3]	LIT[3]
+2-3	90-92	8°	*[3]	LIT[3]
+2-4	93-94	.	*[3]	LIT[3]
+
+#Text=1824 -25 .
+3-1	95-99	1824	*[3]	LIT[3]
+3-2	100-103	-25	*[3]	LIT[3]
+3-3	104-105	.	*[3]	LIT[3]
+
+#Text=Welckers Aeschyleische Triologie .
+4-1	106-114	Welckers	*	PERmentioned
+4-2	115-128	Aeschyleische	*[5]	LIT[5]
+4-3	129-138	Triologie	*[5]	LIT[5]
+4-4	139-140	.	*[5]	LIT[5]
+
+#Text=1824 .
+5-1	141-145	1824	_	_
+5-2	146-147	.	_	_
+
+#Text=Stuart , Alterthümer von Athen .
+6-1	148-154	Stuart	*	PERmentioned
+6-2	155-156	,	*[6]	LIT[6]
+6-3	157-168	Alterthümer	*[6]	LIT[6]
+6-4	169-172	von	*[6]	LIT[6]
+6-5	173-178	Athen	*[6]|*[7]	LIT[6]|PLACEmentioned[7]
+6-6	179-180	.	*[6]	LIT[6]
+
+#Text=Th. I - III .
+7-1	181-184	Th.	*[6]	LIT[6]
+7-2	185-186	I	*[6]	LIT[6]
+7-3	187-188	-	*[6]	LIT[6]
+7-4	189-192	III	*[6]	LIT[6]
+7-5	193-194	.	*[6]	LIT[6]
+
+#Text=8° .
+8-1	195-197	8°	*[6]	LIT[6]
+8-2	198-199	.	*[6]	LIT[6]
+
+#Text=1829-33 .
+9-1	200-207	1829-33	*[6]	LIT[6]
+9-2	208-209	.	*[6]	LIT[6]
+
+#Text=Gesellsch .
+10-1	210-219	Gesellsch	*[8]	ORGmentioned[8]
+10-2	220-221	.	*[8]	ORGmentioned[8]
+
+#Text=der Dilettanti , Alterthümer von Jonien .
+11-1	222-225	der	*[8]	ORGmentioned[8]
+11-2	226-236	Dilettanti	*[8]	ORGmentioned[8]
+11-3	237-238	,	_	_
+11-4	239-250	Alterthümer	*[9]	LIT[9]
+11-5	251-254	von	*[9]	LIT[9]
+11-6	255-261	Jonien	*[9]|*[10]	LIT[9]|PLACEmentioned[10]
+11-7	262-263	.	*[9]	LIT[9]
+
+#Text=8° .
+12-1	264-266	8°	*[9]	LIT[9]
+12-2	267-268	.	*[9]	LIT[9]
+
+#Text=1829 und Alterthümer von Attika .
+13-1	269-273	1829	*[9]	LIT[9]
+13-2	274-277	und	_	_
+13-3	278-289	Alterthümer	*[11]	LIT[11]
+13-4	290-293	von	*[11]	LIT[11]
+13-5	294-300	Attika	*[11]|*[12]	LIT[11]|PLACEmentioned[12]
+13-6	301-302	.	*[11]	LIT[11]
+
+#Text=8° .
+14-1	303-305	8°	*[11]	LIT[11]
+14-2	306-307	.	*[11]	LIT[11]
+
+#Text=1829 .
+15-1	308-312	1829	*[11]	LIT[11]
+15-2	313-314	.	*[11]	LIT[11]
+
+#Text=Museum Worsleianum , & Lieferungen klfPl .
+16-1	315-321	Museum	*[13]	ORGmentioned[13]
+16-2	322-333	Worsleianum	*[13]	ORGmentioned[13]
+16-3	334-335	,	_	_
+16-4	336-337	&	_	_
+16-5	338-349	Lieferungen	*[14]	LIT[14]
+16-6	350-355	klfPl	*[14]	LIT[14]
+16-7	356-357	.	*[14]	LIT[14]
+
+#Text=Ruhls Denkmäler der Baukunst in Italien .
+17-1	358-363	Ruhls	*	PERmentioned
+17-2	364-373	Denkmäler	*[15]	LIT[15]
+17-3	374-377	der	*[15]	LIT[15]
+17-4	378-386	Baukunst	*[15]	LIT[15]
+17-5	387-389	in	*[15]	LIT[15]
+17-6	390-397	Italien	*[15]|*[16]	LIT[15]|PLACEmentioned[16]
+17-7	398-399	.	*[15]	LIT[15]
+
+#Text=5 Hefte .
+18-1	400-401	5	*[15]	LIT[15]
+18-2	402-407	Hefte	*[15]	LIT[15]
+18-3	408-409	.	*[15]	LIT[15]
+
+#Text=£ol .
+19-1	410-413	£ol	*[15]	LIT[15]
+19-2	414-415	.	*[15]	LIT[15]
+
+#Text=Bossler de gentibus et familiis Atticae sacerdotibus .
+20-1	416-423	Bossler	*	PERmentioned
+20-2	424-426	de	*[17]	LIT[17]
+20-3	427-435	gentibus	*[17]	LIT[17]
+20-4	436-438	et	*[17]	LIT[17]
+20-5	439-447	familiis	*[17]	LIT[17]
+20-6	448-455	Atticae	*[17]	LIT[17]
+20-7	456-468	sacerdotibus	*[17]	LIT[17]
+20-8	469-470	.	_	_
+
+#Text=Crefizer , Symbolik .
+21-1	471-479	Crefizer	*[18]	PERmentioned[18]
+21-2	480-481	,	_	_
+21-3	482-490	Symbolik	_	_
+21-4	491-492	.	*[19]	LIT[19]
+
+#Text=Bd. 1 - 4 .
+22-1	493-496	Bd.	*[19]	LIT[19]
+22-2	497-498	1	*[19]	LIT[19]
+22-3	499-500	-	*[19]	LIT[19]
+22-4	501-502	4	*[19]	LIT[19]
+22-5	503-504	.	*[19]	LIT[19]
+
+#Text=8° .
+23-1	505-507	8°	*[19]	LIT[19]
+23-2	508-509	.	*[19]	LIT[19]
+
+#Text=mit Kupferheft .
+24-1	510-513	mit	*[19]	LIT[19]
+24-2	514-524	Kupferheft	*[19]	LIT[19]
+24-3	525-526	.	*[19]	LIT[19]
+
+#Text=Zur Geschichte altrömischer Cultur am Ober-Rhein und Neckar .
+25-1	527-530	Zur	*[19]|*[20]	LIT[19]|LIT[20]
+25-2	531-541	Geschichte	*[20]	LIT[20]
+25-3	542-554	altrömischer	*[20]	LIT[20]
+25-4	555-561	Cultur	*[20]	LIT[20]
+25-5	562-564	am	*[20]	LIT[20]
+25-6	565-575	Ober-Rhein	*[20]|*[21]	LIT[20]|PLACEmentioned[21]
+25-7	576-579	und	*[20]	LIT[20]
+25-8	580-586	Neckar	*[20]|*[22]	LIT[20]|PLACEmentioned[22]
+25-9	587-588	.	*[20]	LIT[20]
+
+#Text=1833 , 8° .
+26-1	589-593	1833	*[20]	LIT[20]
+26-2	594-595	,	*[20]	LIT[20]
+26-3	596-598	8°	*[20]|*[23]	LIT[20]|PERmentioned[23]
+26-4	599-600	.	*[20]|*[23]	LIT[20]|PERmentioned[23]
+
+#Text=Marcus ( und Leske ) Hüllmann , de origine Damii .
+27-1	601-607	Marcus	*[23]	PERmentioned[23]
+27-2	608-609	(	*[23]	PERmentioned[23]
+27-3	610-613	und	_	_
+27-4	614-619	Leske	*	PERmentioned
+27-5	620-621	)	_	_
+27-6	622-630	Hüllmann	*	PERmentioned
+27-7	631-632	,	_	_
+27-8	633-635	de	*[24]	LIT[24]
+27-9	636-643	origine	*[24]	LIT[24]
+27-10	644-649	Damii	*[24]	LIT[24]
+27-11	650-651	.	*[24]	LIT[24]
+
+#Text=de consualibus .
+28-1	652-654	de	*[24]	LIT[24]
+28-2	655-666	consualibus	*[24]	LIT[24]
+28-3	667-668	.	*[24]	LIT[24]
+
+#Text=1818 .
+29-1	669-673	1818	*[24]	LIT[24]
+29-2	674-675	.	*[24]	LIT[24]
+
+#Text=4° .
+30-1	676-678	4°	*[24]	LIT[24]
+30-2	679-680	.	*[24]	LIT[24]
+
+#Text=Sophokles , Tragödien übs .
+31-1	681-690	Sophokles	*	PERmentioned
+31-2	691-692	,	*[25]	LIT[25]
+31-3	693-702	Tragödien	*[25]	LIT[25]
+31-4	703-706	übs	*[25]	LIT[25]
+31-5	707-708	.	*[25]	LIT[25]
+
+#Text=v. Qudichum .
+32-1	709-711	v.	*[25]	LIT[25]
+32-2	712-720	Qudichum	*[25]	LIT[25]
+32-3	721-722	.	*[25]	LIT[25]
+
+#Text=Bd. 1 Aeschyli Eumenides c. Schol .
+33-1	723-726	Bd.	*[25]	LIT[25]
+33-2	727-728	1	*[25]	LIT[25]
+33-3	729-737	Aeschyli	*	PERmentioned
+33-4	738-747	Eumenides	*[26]	LIT[26]
+33-5	748-750	c.	*[26]	LIT[26]
+33-6	751-756	Schol	*[26]	LIT[26]
+33-7	757-758	.	*[26]	LIT[26]
+
+#Text=ed .
+34-1	759-761	ed	*[26]	LIT[26]
+34-2	762-763	.	*[26]	LIT[26]
+
+#Text=Conr .
+35-1	764-768	Conr	*[26]	LIT[26]
+35-2	769-770	.	*[26]	LIT[26]
+
+#Text=Schwenck .
+36-1	771-779	Schwenck	*[26]|*[27]	LIT[26]|PERmentioned[27]
+36-2	780-781	.	*[26]	LIT[26]
+
+#Text=1821.8° .
+37-1	782-789	1821.8°	*[26]	LIT[26]
+37-2	790-791	.	*[26]	LIT[26]
+
+#Text=LE : de prima et altera qua fertur nubium Aristophanis edit .
+38-1	792-794	LE	*[28]	PERmentioned[28]
+38-2	795-796	:	*[28]	PERmentioned[28]
+38-3	797-799	de	_	_
+38-4	800-805	prima	_	_
+38-5	806-808	et	_	_
+38-6	809-815	altera	*[29]	LIT[29]
+38-7	816-819	qua	*[29]	LIT[29]
+38-8	820-826	fertur	*[29]	LIT[29]
+38-9	827-833	nubium	*[29]	LIT[29]
+38-10	834-846	Aristophanis	*[29]	LIT[29]
+38-11	847-851	edit	*[29]	LIT[29]
+38-12	852-853	.	*[29]	LIT[29]
+
+#Text=1823 .
+39-1	854-858	1823	*[29]	LIT[29]
+39-2	859-860	.	*[29]	LIT[29]
+
+#Text=8° .
+40-1	861-863	8°	*[29]	LIT[29]
+40-2	864-865	.	*[29]	LIT[29]
+
+#Text=Niebuhr , Duplik gegen H. Steinacker .
+41-1	866-873	Niebuhr	*[29]	PERmentioned|LIT[29]
+41-2	874-875	,	*[29]	LIT[29]
+41-3	876-882	Duplik	*[30]	LIT[30]
+41-4	883-888	gegen	*[30]	LIT[30]
+41-5	889-891	H.	*[30]|*[31]	LIT[30]|PERmentioned[31]
+41-6	892-902	Steinacker	*[30]|*[31]	LIT[30]|PERmentioned[31]
+41-7	903-904	.	*[30]	LIT[30]
+
+#Text=1823 .
+42-1	905-909	1823	*[30]	LIT[30]
+42-2	910-911	.	*[30]	LIT[30]
+
+#Text=8° .
+43-1	912-914	8°	*[30]	LIT[30]
+43-2	915-916	.	_	_
+
+#Text=über die Nachricht von den Comitien der Centurien ten Buche Ciceros de Republica 1824 .
+44-1	917-921	über	*[32]	LIT[32]
+44-2	922-925	die	*[32]	LIT[32]
+44-3	926-935	Nachricht	*[32]	LIT[32]
+44-4	936-939	von	*[32]	LIT[32]
+44-5	940-943	den	*[32]	LIT[32]
+44-6	944-952	Comitien	*[32]	LIT[32]
+44-7	953-956	der	*[32]	LIT[32]
+44-8	957-966	Centurien	*[32]	LIT[32]
+44-9	967-970	ten	*[32]	LIT[32]
+44-10	971-976	Buche	*[32]	LIT[32]
+44-11	977-984	Ciceros	*[32]	LIT[32]
+44-12	985-987	de	*[32]	LIT[32]
+44-13	988-997	Republica	*[32]	LIT[32]
+44-14	998-1002	1824	*[32]	LIT[32]
+44-15	1003-1004	.	*[32]	LIT[32]
+
+#Text=8° .
+45-1	1005-1007	8°	*[32]	LIT[32]
+45-2	1008-1009	.	_	_
+
+#Text=im 2 /Schoke , menologiis % e cod . graec .
+46-1	1010-1012	im	*[33]	PERmentioned[33]
+46-2	1013-1014	2	*[33]	PERmentioned[33]
+46-3	1015-1022	/Schoke	*[33]	PERmentioned[33]
+46-4	1023-1024	,	_	_
+46-5	1025-1035	menologiis	*[34]	LIT[34]
+46-6	1036-1037	%	*[34]	LIT[34]
+46-7	1038-1039	e	*[34]	LIT[34]
+46-8	1040-1043	cod	*[34]	LIT[34]
+46-9	1044-1045	.	*[34]	LIT[34]
+46-10	1046-1051	graec	*[34]	LIT[34]
+46-11	1052-1053	.	*[34]	LIT[34]
+
+#Text=bibl . regina .
+47-1	1054-1058	bibl	*[34]	LIT[34]
+47-2	1059-1060	.	*[34]	LIT[34]
+47-3	1061-1067	regina	*[34]	LIT[34]
+47-4	1068-1069	.	*[34]	LIT[34]
+
+#Text=Par .
+48-1	1070-1073	Par	*[34]	LIT[34]
+48-2	1074-1075	.	*[34]	LIT[34]
+
+#Text=1823.8 .
+49-1	1076-1082	1823.8	*[34]	LIT[34]
+49-2	1083-1084	.	*[34]	LIT[34]
+
+#Text=Gravert , de Aesopo et fabulis aesopiis , dissert .
+50-1	1085-1092	Gravert	*	PERmentioned
+50-2	1093-1094	,	_	_
+50-3	1095-1097	de	*[35]	LIT[35]
+50-4	1098-1104	Aesopo	*[35]	LIT[35]
+50-5	1105-1107	et	*[35]	LIT[35]
+50-6	1108-1115	fabulis	*[35]	LIT[35]
+50-7	1116-1124	aesopiis	*[35]	LIT[35]
+50-8	1125-1126	,	*[35]	LIT[35]
+50-9	1127-1134	dissert	*[35]	LIT[35]
+50-10	1135-1136	.	*[35]	LIT[35]
+
+#Text=phil . 1825.8 .
+51-1	1137-1141	phil	*[35]	LIT[35]
+51-2	1142-1143	.	*[35]	LIT[35]
+51-3	1144-1150	1825.8	*[35]	LIT[35]
+51-4	1151-1152	.	*[35]	LIT[35]
+
+#Text=L \\ .
+52-1	1153-1154	L	_	_
+52-2	1155-1156	\\	_	_
+52-3	1157-1158	.	_	_
+
+#Text=, - \\ Und \; , fap .
+53-1	1159-1160	,	_	_
+53-2	1161-1162	-	_	_
+53-3	1163-1164	\\	_	_
+53-4	1165-1168	Und	_	_
+53-5	1169-1170	\;	_	_
+53-6	1171-1172	,	_	_
+53-7	1173-1176	fap	_	_
+53-8	1177-1178	.	_	_
+
+#Text=6 ment \; ( Sg lu cacı cal ge : Rasa 123.8 \[ nn
+54-1	1179-1180	6	_	_
+54-2	1181-1185	ment	_	_
+54-3	1186-1187	\;	_	_
+54-4	1188-1189	(	_	_
+54-5	1190-1192	Sg	_	_
+54-6	1193-1195	lu	_	_
+54-7	1196-1200	cacı	_	_
+54-8	1201-1204	cal	_	_
+54-9	1205-1207	ge	_	_
+54-10	1208-1209	:	_	_
+54-11	1210-1214	Rasa	_	_
+54-12	1215-1220	123.8	_	_
+54-13	1221-1222	\[	_	_
+54-14	1223-1225	nn	_	_

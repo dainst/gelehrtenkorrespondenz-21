@@ -1,0 +1,297 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Es 629 Braun an Gerhard Rom , 3. September 1834 den Sie jensmal in Berlin bestellt haben , also nicht für mich \; ich verlange aber sehr nach dem zweiten Theil .
+1-1	0-2	Es	_	_
+1-2	3-6	629	_	_
+1-3	7-12	Braun	*[1]	PERauthor[1]
+1-4	13-15	an	_	_
+1-5	16-23	Gerhard	*	PERaddressee
+1-6	24-27	Rom	*	PLACEfrom
+1-7	28-29	,	_	_
+1-8	30-32	3.	*[2]	DATEletter[2]
+1-9	33-42	September	*[2]	DATEletter[2]
+1-10	43-47	1834	*[2]	DATEletter[2]
+1-11	48-51	den	_	_
+1-12	52-55	Sie	_	_
+1-13	56-63	jensmal	_	_
+1-14	64-66	in	_	_
+1-15	67-73	Berlin	*	PLACEmentioned
+1-16	74-82	bestellt	_	_
+1-17	83-88	haben	_	_
+1-18	89-90	,	_	_
+1-19	91-95	also	_	_
+1-20	96-101	nicht	_	_
+1-21	102-105	für	_	_
+1-22	106-110	mich	_	_
+1-23	111-112	\;	_	_
+1-24	113-116	ich	_	_
+1-25	117-125	verlange	_	_
+1-26	126-130	aber	_	_
+1-27	131-135	sehr	_	_
+1-28	136-140	nach	_	_
+1-29	141-144	dem	_	_
+1-30	145-152	zweiten	_	_
+1-31	153-158	Theil	_	_
+1-32	159-160	.	_	_
+
+#Text=\; Stieglitz Distribut .
+2-1	161-162	\;	_	_
+2-2	163-172	Stieglitz	*	PERmentioned
+2-3	173-182	Distribut	*[3]	LIT[3]
+2-4	183-184	.	*[3]	LIT[3]
+
+#Text=Numismaten \; Lepsius über Paläographie und Sanscrit \; Hirts Brant \; Parthey Charte von Sicilien ( wohl fuers Institut dem er sie wenigstens als Correspondent ebensosehr schuldig ist , als der deutschen Künstlerbibl. , da er auch den Strabo geschenkt hat . )
+3-1	185-195	Numismaten	*[3]	LIT[3]
+3-2	196-197	\;	_	_
+3-3	198-205	Lepsius	*	PERmentioned
+3-4	206-210	über	*[4]	LIT[4]
+3-5	211-223	Paläographie	*[4]	LIT[4]
+3-6	224-227	und	*[4]	LIT[4]
+3-7	228-236	Sanscrit	*[4]	LIT[4]
+3-8	237-238	\;	_	_
+3-9	239-244	Hirts	*	PERmentioned
+3-10	245-250	Brant	*	MISC
+3-11	251-252	\;	_	_
+3-12	253-260	Parthey	*	PERmentioned
+3-13	261-267	Charte	*[5]	LIT[5]
+3-14	268-271	von	*[5]	LIT[5]
+3-15	272-280	Sicilien	*[5]	LIT[5]
+3-16	281-282	(	_	_
+3-17	283-287	wohl	_	_
+3-18	288-293	fuers	_	_
+3-19	294-302	Institut	*	ORGmentioned
+3-20	303-306	dem	_	_
+3-21	307-309	er	_	_
+3-22	310-313	sie	_	_
+3-23	314-324	wenigstens	_	_
+3-24	325-328	als	_	_
+3-25	329-342	Correspondent	_	_
+3-26	343-353	ebensosehr	_	_
+3-27	354-362	schuldig	_	_
+3-28	363-366	ist	_	_
+3-29	367-368	,	_	_
+3-30	369-372	als	_	_
+3-31	373-376	der	_	_
+3-32	377-386	deutschen	*[6]	ORGmentioned[6]
+3-33	387-400	Künstlerbibl.	*[6]	ORGmentioned[6]
+3-34	401-402	,	_	_
+3-35	403-405	da	_	_
+3-36	406-408	er	_	_
+3-37	409-413	auch	_	_
+3-38	414-417	den	_	_
+3-39	418-424	Strabo	*	LIT
+3-40	425-434	geschenkt	_	_
+3-41	435-438	hat	_	_
+3-42	439-440	.	_	_
+3-43	441-442	)	_	_
+
+#Text=1 Beschreibung v. Rom \; 1 Kasten mit einem wächsernen Mann .
+4-1	443-444	1	_	_
+4-2	445-457	Beschreibung	*[7]	LIT[7]
+4-3	458-460	v.	*[7]	LIT[7]
+4-4	461-464	Rom	*[7]	LIT[7]
+4-5	465-466	\;	_	_
+4-6	467-468	1	_	_
+4-7	469-475	Kasten	*[8]	MISC[8]
+4-8	476-479	mit	*[8]	MISC[8]
+4-9	480-485	einem	*[8]	MISC[8]
+4-10	486-496	wächsernen	*[8]	MISC[8]
+4-11	497-501	Mann	*[8]	MISC[8]
+4-12	502-503	.	_	_
+
+#Text=Antike Bildwerke Hft .
+5-1	504-510	Antike	*[9]|*[10]	MISC[9]|LIT[10]
+5-2	511-520	Bildwerke	*[9]|*[10]	MISC[9]|LIT[10]
+5-3	521-524	Hft	*[9]	MISC[9]
+5-4	525-526	.	*[9]	MISC[9]
+
+#Text=I. III .
+6-1	527-529	I.	*[9]	MISC[9]
+6-2	530-533	III	*[9]	MISC[9]
+6-3	534-535	.	*[9]	MISC[9]
+
+#Text=IV .
+7-1	536-538	IV	*[9]	MISC[9]
+7-2	539-540	.	*[9]	MISC[9]
+
+#Text=( fehlt das zweite ) - Vielleicht ertheilen Sie mir über die eine und die andere dieser Sendungen weitere Aufträge , wie Sie bereits bei einigen gethan .
+8-1	541-542	(	*[9]	MISC[9]
+8-2	543-548	fehlt	*[9]	MISC[9]
+8-3	549-552	das	*[9]	MISC[9]
+8-4	553-559	zweite	*[9]	MISC[9]
+8-5	560-561	)	*[9]	MISC[9]
+8-6	562-563	-	_	_
+8-7	564-574	Vielleicht	_	_
+8-8	575-584	ertheilen	_	_
+8-9	585-588	Sie	_	_
+8-10	589-592	mir	_	_
+8-11	593-597	über	_	_
+8-12	598-601	die	_	_
+8-13	602-606	eine	_	_
+8-14	607-610	und	_	_
+8-15	611-614	die	_	_
+8-16	615-621	andere	_	_
+8-17	622-628	dieser	_	_
+8-18	629-638	Sendungen	_	_
+8-19	639-646	weitere	_	_
+8-20	647-655	Aufträge	_	_
+8-21	656-657	,	_	_
+8-22	658-661	wie	_	_
+8-23	662-665	Sie	_	_
+8-24	666-673	bereits	_	_
+8-25	674-677	bei	_	_
+8-26	678-685	einigen	_	_
+8-27	686-692	gethan	_	_
+8-28	693-694	.	_	_
+
+#Text=- An Gerstäcker würde ich gern eine Empfangsquittung absenden \; Sie haben aber den Brief mit sich genommen .
+9-1	695-696	-	_	_
+9-2	697-699	An	_	_
+9-3	700-710	Gerstäcker	*	PERmentioned
+9-4	711-716	würde	_	_
+9-5	717-720	ich	_	_
+9-6	721-725	gern	_	_
+9-7	726-730	eine	_	_
+9-8	731-747	Empfangsquittung	_	_
+9-9	748-756	absenden	_	_
+9-10	757-758	\;	_	_
+9-11	759-762	Sie	_	_
+9-12	763-768	haben	_	_
+9-13	769-773	aber	_	_
+9-14	774-777	den	_	_
+9-15	778-783	Brief	_	_
+9-16	784-787	mit	_	_
+9-17	788-792	sich	_	_
+9-18	793-801	genommen	_	_
+9-19	802-803	.	_	_
+
+#Text=Ihnen kann ich nicht das ganze Kistenverzeichnis in diesem Brief eintragen .
+10-1	804-809	Ihnen	_	_
+10-2	810-814	kann	_	_
+10-3	815-818	ich	_	_
+10-4	819-824	nicht	_	_
+10-5	825-828	das	_	_
+10-6	829-834	ganze	_	_
+10-7	835-852	Kistenverzeichnis	_	_
+10-8	853-855	in	_	_
+10-9	856-862	diesem	_	_
+10-10	863-868	Brief	_	_
+10-11	869-878	eintragen	_	_
+10-12	879-880	.	_	_
+
+#Text=Es ist aber zu Ihrer und Gerstäzckers Disposition .
+11-1	881-883	Es	_	_
+11-2	884-887	ist	_	_
+11-3	888-892	aber	_	_
+11-4	893-895	zu	_	_
+11-5	896-901	Ihrer	_	_
+11-6	902-905	und	_	_
+11-7	906-918	Gerstäzckers	*[11]	PERmentioned[11]
+11-8	919-930	Disposition	_	_
+11-9	931-932	.	_	_
+
+#Text=Den Empfang und die Eröffnung der Pariser Kiste bitte ich in gleicher Weise Gh .
+12-1	933-936	Den	_	_
+12-2	937-944	Empfang	_	_
+12-3	945-948	und	_	_
+12-4	949-952	die	_	_
+12-5	953-962	Eröffnung	_	_
+12-6	963-966	der	_	_
+12-7	967-974	Pariser	_	_
+12-8	975-980	Kiste	_	_
+12-9	981-986	bitte	_	_
+12-10	987-990	ich	_	_
+12-11	991-993	in	_	_
+12-12	994-1002	gleicher	_	_
+12-13	1003-1008	Weise	_	_
+12-14	1009-1011	Gh	_	_
+12-15	1012-1013	.	_	_
+
+#Text=Dr. Lepsius zu quittiren .
+13-1	1014-1017	Dr.	_	_
+13-2	1018-1025	Lepsius	*	PERmentioned
+13-3	1026-1028	zu	_	_
+13-4	1029-1038	quittiren	_	_
+13-5	1039-1040	.	_	_
+
+#Text=Ich habe mich jedoch bis jetzt nur im Allgemeinen von ihrem Inhalt unterrichten können und behalte mir daher eine genauere Durchzählung der übersandten Exemplare vor .
+14-1	1041-1044	Ich	_	_
+14-2	1045-1049	habe	_	_
+14-3	1050-1054	mich	_	_
+14-4	1055-1061	jedoch	_	_
+14-5	1062-1065	bis	_	_
+14-6	1066-1071	jetzt	_	_
+14-7	1072-1075	nur	_	_
+14-8	1076-1078	im	_	_
+14-9	1079-1090	Allgemeinen	_	_
+14-10	1091-1094	von	_	_
+14-11	1095-1100	ihrem	_	_
+14-12	1101-1107	Inhalt	_	_
+14-13	1108-1120	unterrichten	_	_
+14-14	1121-1127	können	_	_
+14-15	1128-1131	und	_	_
+14-16	1132-1139	behalte	_	_
+14-17	1140-1143	mir	_	_
+14-18	1144-1149	daher	_	_
+14-19	1150-1154	eine	_	_
+14-20	1155-1163	genauere	_	_
+14-21	1164-1176	Durchzählung	_	_
+14-22	1177-1180	der	_	_
+14-23	1181-1192	übersandten	_	_
+14-24	1193-1202	Exemplare	_	_
+14-25	1203-1206	vor	_	_
+14-26	1207-1208	.	_	_
+
+#Text=Die heutige Post hat nur einen Brief von Reumont aus Florenz gebracht , welcher einen gewissen H. Wedewer , den Welcker Ihnen empfiehlt , betrifft .
+15-1	1209-1212	Die	_	_
+15-2	1213-1220	heutige	_	_
+15-3	1221-1225	Post	_	_
+15-4	1226-1229	hat	_	_
+15-5	1230-1233	nur	_	_
+15-6	1234-1239	einen	_	_
+15-7	1240-1245	Brief	_	_
+15-8	1246-1249	von	_	_
+15-9	1250-1257	Reumont	*	PERmentioned
+15-10	1258-1261	aus	_	_
+15-11	1262-1269	Florenz	*	PLACEmentioned
+15-12	1270-1278	gebracht	_	_
+15-13	1279-1280	,	_	_
+15-14	1281-1288	welcher	_	_
+15-15	1289-1294	einen	_	_
+15-16	1295-1303	gewissen	_	_
+15-17	1304-1306	H.	_	_
+15-18	1307-1314	Wedewer	*	PERmentioned
+15-19	1315-1316	,	_	_
+15-20	1317-1320	den	_	_
+15-21	1321-1328	Welcker	*	PERmentioned
+15-22	1329-1334	Ihnen	_	_
+15-23	1335-1344	empfiehlt	_	_
+15-24	1345-1346	,	_	_
+15-25	1347-1355	betrifft	_	_
+15-26	1356-1357	.	_	_
+
+#Text=Er ist in Verlegenheit : ein Engländer hatte ihm versprochen seine Stelle als Hauslehrer offen zu behalten bis er aus Deutschland zurück-
+16-1	1358-1360	Er	_	_
+16-2	1361-1364	ist	_	_
+16-3	1365-1367	in	_	_
+16-4	1368-1380	Verlegenheit	_	_
+16-5	1381-1382	:	_	_
+16-6	1383-1386	ein	_	_
+16-7	1387-1396	Engländer	*	PERmentioned
+16-8	1397-1402	hatte	_	_
+16-9	1403-1406	ihm	_	_
+16-10	1407-1418	versprochen	_	_
+16-11	1419-1424	seine	_	_
+16-12	1425-1431	Stelle	_	_
+16-13	1432-1435	als	_	_
+16-14	1436-1446	Hauslehrer	_	_
+16-15	1447-1452	offen	_	_
+16-16	1453-1455	zu	_	_
+16-17	1456-1464	behalten	_	_
+16-18	1465-1468	bis	_	_
+16-19	1469-1471	er	_	_
+16-20	1472-1475	aus	_	_
+16-21	1476-1487	Deutschland	*	PLACEmentioned
+16-22	1488-1495	zurück-	_	_

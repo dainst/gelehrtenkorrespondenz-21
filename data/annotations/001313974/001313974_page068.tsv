@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=17 Helbig an Henzen Rom , 12 .
+1-1	0-2	17	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	12	*[1]	DATEletter[1]
+1-8	29-30	.	*[1]	DATEletter[1]
+
+#Text=August 1865 H g . 16/8 65 Olev .
+2-1	31-37	August	*[1]	DATEletter[1]
+2-2	38-42	1865	*[1]	DATEletter[1]
+2-3	43-44	H	_	_
+2-4	45-46	g	_	_
+2-5	47-48	.	_	_
+2-6	49-53	16/8	*[2]	DATErecieved[2]
+2-7	54-56	65	*[2]	DATErecieved[2]
+2-8	57-61	Olev	*[5]	PLACEto[5]
+2-9	62-63	.	*[5]	PLACEto[5]
+
+#Text=r . 17/8 65 Rom 12/8 65 Geehrtester Herr Professor !
+3-1	64-65	r	_	_
+3-2	66-67	.	_	_
+3-3	68-72	17/8	*[3]	DATEanswered[3]
+3-4	73-75	65	*[3]	DATEanswered[3]
+3-5	76-79	Rom	*	PLACEfrom
+3-6	80-84	12/8	*[4]	DATEletter[4]
+3-7	85-87	65	*[4]	DATEletter[4]
+3-8	88-99	Geehrtester	_	_
+3-9	100-104	Herr	_	_
+3-10	105-114	Professor	_	_
+3-11	115-116	!	_	_
+
+#Text=Ich hoffe morgen nach Olevano abreisen zu können , um persönlich mit Ihnen über mancherlei Rücksprache nehmen zu können .
+4-1	117-120	Ich	_	_
+4-2	121-126	hoffe	_	_
+4-3	127-133	morgen	_	_
+4-4	134-138	nach	_	_
+4-5	139-146	Olevano	*	PLACEmentioned
+4-6	147-155	abreisen	_	_
+4-7	156-158	zu	_	_
+4-8	159-165	können	_	_
+4-9	166-167	,	_	_
+4-10	168-170	um	_	_
+4-11	171-181	persönlich	_	_
+4-12	182-185	mit	_	_
+4-13	186-191	Ihnen	_	_
+4-14	192-196	über	_	_
+4-15	197-207	mancherlei	_	_
+4-16	208-219	Rücksprache	_	_
+4-17	220-226	nehmen	_	_
+4-18	227-229	zu	_	_
+4-19	230-236	können	_	_
+4-20	237-238	.	_	_
+
+#Text=Doch ist dies leider nicht möglich : ich empfange soeben die alten Correcturen der Garruccischen Siglen und trotzdem sind sie eben nur der Anfang zu einer erträglichen Herstellung .
+5-1	239-243	Doch	_	_
+5-2	244-247	ist	_	_
+5-3	248-252	dies	_	_
+5-4	253-259	leider	_	_
+5-5	260-265	nicht	_	_
+5-6	266-273	möglich	_	_
+5-7	274-275	:	_	_
+5-8	276-279	ich	_	_
+5-9	280-288	empfange	_	_
+5-10	289-295	soeben	_	_
+5-11	296-299	die	_	_
+5-12	300-305	alten	_	_
+5-13	306-317	Correcturen	_	_
+5-14	318-321	der	_	_
+5-15	322-335	Garruccischen	*	MISC
+5-16	336-342	Siglen	_	_
+5-17	343-346	und	_	_
+5-18	347-355	trotzdem	_	_
+5-19	356-360	sind	_	_
+5-20	361-364	sie	_	_
+5-21	365-369	eben	_	_
+5-22	370-373	nur	_	_
+5-23	374-377	der	_	_
+5-24	378-384	Anfang	_	_
+5-25	385-387	zu	_	_
+5-26	388-393	einer	_	_
+5-27	394-406	erträglichen	_	_
+5-28	407-418	Herstellung	_	_
+5-29	419-420	.	_	_
+
+#Text=Jedenfalls kann ich vor nächsten Sonnabend nicht an Abreise denken : ich bitte dies Herrn Simelli mitzutheilen , damit er mich nicht vergeblich erwartet .
+6-1	421-431	Jedenfalls	_	_
+6-2	432-436	kann	_	_
+6-3	437-440	ich	_	_
+6-4	441-444	vor	_	_
+6-5	445-453	nächsten	_	_
+6-6	454-463	Sonnabend	_	_
+6-7	464-469	nicht	_	_
+6-8	470-472	an	_	_
+6-9	473-480	Abreise	_	_
+6-10	481-487	denken	_	_
+6-11	488-489	:	_	_
+6-12	490-493	ich	_	_
+6-13	494-499	bitte	_	_
+6-14	500-504	dies	_	_
+6-15	505-510	Herrn	_	_
+6-16	511-518	Simelli	*	PERmentioned
+6-17	519-531	mitzutheilen	_	_
+6-18	532-533	,	_	_
+6-19	534-539	damit	_	_
+6-20	540-542	er	_	_
+6-21	543-547	mich	_	_
+6-22	548-553	nicht	_	_
+6-23	554-564	vergeblich	_	_
+6-24	565-573	erwartet	_	_
+6-25	574-575	.	_	_
+
+#Text=Geschäftlich vor der Hand nur eines .
+7-1	576-588	Geschäftlich	_	_
+7-2	589-592	vor	_	_
+7-3	593-596	der	_	_
+7-4	597-601	Hand	_	_
+7-5	602-605	nur	_	_
+7-6	606-611	eines	_	_
+7-7	612-613	.	_	_
+
+#Text=Vieusseux wünscht die Publication des Instituts von 1854 - inclusive 59 und außerdem den Jahrgang 1864 `` unter den hergebrachten Bedingungen '' .
+8-1	614-623	Vieusseux	*	PERmentioned
+8-2	624-631	wünscht	_	_
+8-3	632-635	die	_	_
+8-4	636-647	Publication	_	_
+8-5	648-651	des	_	_
+8-6	652-661	Instituts	*	ORGmentioned
+8-7	662-665	von	_	_
+8-8	666-670	1854	*	DATEmentioned
+8-9	671-672	-	_	_
+8-10	673-682	inclusive	_	_
+8-11	683-685	59	*	DATEmentioned
+8-12	686-689	und	_	_
+8-13	690-698	außerdem	_	_
+8-14	699-702	den	_	_
+8-15	703-711	Jahrgang	_	_
+8-16	712-716	1864	*	DATEmentioned
+8-17	717-719	``	_	_
+8-18	720-725	unter	_	_
+8-19	726-729	den	_	_
+8-20	730-743	hergebrachten	_	_
+8-21	744-755	Bedingungen	_	_
+8-22	756-758	''	_	_
+8-23	759-760	.	_	_
+
+#Text=Soll ich und wie soll ich sie ihm schicken ?
+9-1	761-765	Soll	_	_
+9-2	766-769	ich	_	_
+9-3	770-773	und	_	_
+9-4	774-777	wie	_	_
+9-5	778-782	soll	_	_
+9-6	783-786	ich	_	_
+9-7	787-790	sie	_	_
+9-8	791-794	ihm	_	_
+9-9	795-803	schicken	_	_
+9-10	804-805	?	_	_
+
+#Text=Ferner fragt Vieusseux , wohin er die Zeichnungen von Bagnolesi schicken soll .
+10-1	806-812	Ferner	_	_
+10-2	813-818	fragt	_	_
+10-3	819-828	Vieusseux	*	PERmentioned
+10-4	829-830	,	_	_
+10-5	831-836	wohin	_	_
+10-6	837-839	er	_	_
+10-7	840-843	die	_	_
+10-8	844-855	Zeichnungen	_	_
+10-9	856-859	von	_	_
+10-10	860-869	Bagnolesi	*	PERmentioned
+10-11	870-878	schicken	_	_
+10-12	879-883	soll	_	_
+10-13	884-885	.	_	_
+
+#Text=Doch wohl Al Signor Professor Brunn .
+11-1	886-890	Doch	_	_
+11-2	891-895	wohl	_	_
+11-3	896-898	Al	_	_
+11-4	899-905	Signor	_	_
+11-5	906-915	Professor	_	_
+11-6	916-921	Brunn	*	PERmentioned
+11-7	922-923	.	_	_
+
+#Text=München p. a. des Münzkabinets .
+12-1	924-931	München	*	PLACEmentioned
+12-2	932-934	p.	_	_
+12-3	935-937	a.	_	_
+12-4	938-941	des	_	_
+12-5	942-954	Münzkabinets	*	ORGmentioned
+12-6	955-956	.	_	_
+
+#Text=Wenn ich Vieusseux recht verstehe , behauptet er eine Quittung Bagnolesis auf 150 Francs seinem Briefe beigefügt zu haben .
+13-1	957-961	Wenn	_	_
+13-2	962-965	ich	_	_
+13-3	966-975	Vieusseux	*	PERmentioned
+13-4	976-981	recht	_	_
+13-5	982-990	verstehe	_	_
+13-6	991-992	,	_	_
+13-7	993-1002	behauptet	_	_
+13-8	1003-1005	er	_	_
+13-9	1006-1010	eine	_	_
+13-10	1011-1019	Quittung	_	_
+13-11	1020-1030	Bagnolesis	*	PERmentioned
+13-12	1031-1034	auf	_	_
+13-13	1035-1038	150	_	_
+13-14	1039-1045	Francs	_	_
+13-15	1046-1052	seinem	_	_
+13-16	1053-1059	Briefe	_	_
+13-17	1060-1069	beigefügt	_	_
+13-18	1070-1072	zu	_	_
+13-19	1073-1078	haben	_	_
+13-20	1079-1080	.	_	_

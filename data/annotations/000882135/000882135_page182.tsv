@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=243 Braun an Gerhard Rom , 23. Dezember 1839 Auf mich fallen wöchtenlich 2 Vorlesungen , wenn sie anders zu Stande kommen .
+1-1	0-3	243	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	23.	*[4]	DATEletter[4]
+1-8	31-39	Dezember	*[4]	DATEletter[4]
+1-9	40-44	1839	*[4]	DATEletter[4]
+1-10	45-48	Auf	_	_
+1-11	49-53	mich	_	_
+1-12	54-60	fallen	_	_
+1-13	61-72	wöchtenlich	_	_
+1-14	73-74	2	_	_
+1-15	75-86	Vorlesungen	_	_
+1-16	87-88	,	_	_
+1-17	89-93	wenn	_	_
+1-18	94-97	sie	_	_
+1-19	98-104	anders	_	_
+1-20	105-107	zu	_	_
+1-21	108-114	Stande	_	_
+1-22	115-121	kommen	_	_
+1-23	122-123	.	_	_
+
+#Text=Sie begreifen daß das keine kleine Mühe ist , zumal ich den topographischen Theil ganz neu ausarbeiten muß .
+2-1	124-127	Sie	_	_
+2-2	128-137	begreifen	_	_
+2-3	138-141	daß	_	_
+2-4	142-145	das	_	_
+2-5	146-151	keine	_	_
+2-6	152-158	kleine	_	_
+2-7	159-163	Mühe	_	_
+2-8	164-167	ist	_	_
+2-9	168-169	,	_	_
+2-10	170-175	zumal	_	_
+2-11	176-179	ich	_	_
+2-12	180-183	den	_	_
+2-13	184-199	topographischen	_	_
+2-14	200-205	Theil	_	_
+2-15	206-210	ganz	_	_
+2-16	211-214	neu	_	_
+2-17	215-226	ausarbeiten	_	_
+2-18	227-230	muß	_	_
+2-19	231-232	.	_	_
+
+#Text=Von dem Jesuitenwerk gehen Exemplare an Franz in München ab , bei dem Sie Bestellungen machen können .
+3-1	233-236	Von	_	_
+3-2	237-240	dem	_	_
+3-3	241-253	Jesuitenwerk	_	_
+3-4	254-259	gehen	_	_
+3-5	260-269	Exemplare	_	_
+3-6	270-272	an	_	_
+3-7	273-278	Franz	*	PERmentioned
+3-8	279-281	in	_	_
+3-9	282-289	München	*	PLACEmentioned
+3-10	290-292	ab	_	_
+3-11	293-294	,	_	_
+3-12	295-298	bei	_	_
+3-13	299-302	dem	_	_
+3-14	303-306	Sie	_	_
+3-15	307-319	Bestellungen	_	_
+3-16	320-326	machen	_	_
+3-17	327-333	können	_	_
+3-18	334-335	.	_	_
+
+#Text=Zahn ist nach Neapel zurück .
+4-1	336-340	Zahn	*	PERmentioned
+4-2	341-344	ist	_	_
+4-3	345-349	nach	_	_
+4-4	350-356	Neapel	*	PLACEmentioned
+4-5	357-363	zurück	_	_
+4-6	364-365	.	_	_
+
+#Text=Die Vasen können erst nach den Feiertagen abgehn , da die obscöne Tazza in den heißen Sommertagen aus dem Leim gegangen war und daher erst wieder reataurirt werden mußte .
+5-1	366-369	Die	_	_
+5-2	370-375	Vasen	*	OBJ
+5-3	376-382	können	_	_
+5-4	383-387	erst	_	_
+5-5	388-392	nach	_	_
+5-6	393-396	den	_	_
+5-7	397-407	Feiertagen	_	_
+5-8	408-414	abgehn	_	_
+5-9	415-416	,	_	_
+5-10	417-419	da	_	_
+5-11	420-423	die	_	_
+5-12	424-431	obscöne	*[10]	OBJ[10]
+5-13	432-437	Tazza	*[10]	OBJ[10]
+5-14	438-440	in	_	_
+5-15	441-444	den	_	_
+5-16	445-451	heißen	_	_
+5-17	452-463	Sommertagen	_	_
+5-18	464-467	aus	_	_
+5-19	468-471	dem	_	_
+5-20	472-476	Leim	_	_
+5-21	477-485	gegangen	_	_
+5-22	486-489	war	_	_
+5-23	490-493	und	_	_
+5-24	494-499	daher	_	_
+5-25	500-504	erst	_	_
+5-26	505-511	wieder	_	_
+5-27	512-522	reataurirt	_	_
+5-28	523-529	werden	_	_
+5-29	530-535	mußte	_	_
+5-30	536-537	.	_	_
+
+#Text=Borghesi macht auf den Fürst Metternich als den schicklichsten und nützlichsten Präsidenten aufmerksam , weist dabei auch auf die Wichtigkeit der Besetzung dieser Stelle hin .
+6-1	538-546	Borghesi	*	PERmentioned
+6-2	547-552	macht	_	_
+6-3	553-556	auf	_	_
+6-4	557-560	den	_	_
+6-5	561-566	Fürst	_	_
+6-6	567-577	Metternich	*	PERmentioned
+6-7	578-581	als	_	_
+6-8	582-585	den	_	_
+6-9	586-600	schicklichsten	_	_
+6-10	601-604	und	_	_
+6-11	605-617	nützlichsten	_	_
+6-12	618-629	Präsidenten	_	_
+6-13	630-640	aufmerksam	_	_
+6-14	641-642	,	_	_
+6-15	643-648	weist	_	_
+6-16	649-654	dabei	_	_
+6-17	655-659	auch	_	_
+6-18	660-663	auf	_	_
+6-19	664-667	die	_	_
+6-20	668-679	Wichtigkeit	_	_
+6-21	680-683	der	_	_
+6-22	684-693	Besetzung	_	_
+6-23	694-700	dieser	_	_
+6-24	701-707	Stelle	_	_
+6-25	708-711	hin	_	_
+6-26	712-713	.	_	_
+
+#Text=Nach reiflicher Veberlegung kann uns allerdings nichts erwünschter sein als diese Wahl .
+7-1	714-718	Nach	_	_
+7-2	719-729	reiflicher	_	_
+7-3	730-741	Veberlegung	_	_
+7-4	742-746	kann	_	_
+7-5	747-750	uns	_	_
+7-6	751-761	allerdings	_	_
+7-7	762-768	nichts	_	_
+7-8	769-780	erwünschter	_	_
+7-9	781-785	sein	_	_
+7-10	786-789	als	_	_
+7-11	790-795	diese	_	_
+7-12	796-800	Wahl	_	_
+7-13	801-802	.	_	_
+
+#Text=Ein Vice Präsident würde indeß immer sehr wünschenswerth sein \; denn an Ort und Stelle haben wir durchaus Jemanden nöthig , der etwas mehr Stütze und Hülfe bietet als der Py s 1 k .
+8-1	803-806	Ein	_	_
+8-2	807-811	Vice	_	_
+8-3	812-821	Präsident	_	_
+8-4	822-827	würde	_	_
+8-5	828-833	indeß	_	_
+8-6	834-839	immer	_	_
+8-7	840-844	sehr	_	_
+8-8	845-859	wünschenswerth	_	_
+8-9	860-864	sein	_	_
+8-10	865-866	\;	_	_
+8-11	867-871	denn	_	_
+8-12	872-874	an	_	_
+8-13	875-878	Ort	_	_
+8-14	879-882	und	_	_
+8-15	883-889	Stelle	_	_
+8-16	890-895	haben	_	_
+8-17	896-899	wir	_	_
+8-18	900-908	durchaus	_	_
+8-19	909-917	Jemanden	_	_
+8-20	918-924	nöthig	_	_
+8-21	925-926	,	_	_
+8-22	927-930	der	_	_
+8-23	931-936	etwas	_	_
+8-24	937-941	mehr	_	_
+8-25	942-948	Stütze	_	_
+8-26	949-952	und	_	_
+8-27	953-958	Hülfe	_	_
+8-28	959-965	bietet	_	_
+8-29	966-969	als	_	_
+8-30	970-973	der	_	_
+8-31	974-976	Py	*[13]	PERmentioned[13]
+8-32	977-978	s	*[13]	PERmentioned[13]
+8-33	979-980	1	*[13]	PERmentioned[13]
+8-34	981-982	k	*[13]	PERmentioned[13]
+8-35	983-984	.	*[13]	PERmentioned[13]
+
+#Text=Letzterer hat es mit seinen Engländerempfehlungen so weit getrieben , daß sich Graf Lützow jede Introduction eines Engländers von seiner Seite verbeten haben soll .
+9-1	985-994	Letzterer	_	_
+9-2	995-998	hat	_	_
+9-3	999-1001	es	_	_
+9-4	1002-1005	mit	_	_
+9-5	1006-1012	seinen	_	_
+9-6	1013-1034	Engländerempfehlungen	_	_
+9-7	1035-1037	so	_	_
+9-8	1038-1042	weit	_	_
+9-9	1043-1052	getrieben	_	_
+9-10	1053-1054	,	_	_
+9-11	1055-1058	daß	_	_
+9-12	1059-1063	sich	_	_
+9-13	1064-1068	Graf	*[14]	PERmentioned[14]
+9-14	1069-1075	Lützow	*[14]	PERmentioned[14]
+9-15	1076-1080	jede	_	_
+9-16	1081-1093	Introduction	_	_
+9-17	1094-1099	eines	_	_
+9-18	1100-1110	Engländers	_	_
+9-19	1111-1114	von	_	_
+9-20	1115-1121	seiner	_	_
+9-21	1122-1127	Seite	_	_
+9-22	1128-1136	verbeten	_	_
+9-23	1137-1142	haben	_	_
+9-24	1143-1147	soll	_	_
+9-25	1148-1149	.	_	_
+
+#Text=Uns geht es mit seinen Empfehlungen nicht viel besser als den hunrigen Engländern .
+10-1	1150-1153	Uns	_	_
+10-2	1154-1158	geht	_	_
+10-3	1159-1161	es	_	_
+10-4	1162-1165	mit	_	_
+10-5	1166-1172	seinen	_	_
+10-6	1173-1185	Empfehlungen	_	_
+10-7	1186-1191	nicht	_	_
+10-8	1192-1196	viel	_	_
+10-9	1197-1203	besser	_	_
+10-10	1204-1207	als	_	_
+10-11	1208-1211	den	_	_
+10-12	1212-1220	hunrigen	_	_
+10-13	1221-1231	Engländern	_	_
+10-14	1232-1233	.	_	_
+
+#Text=Für den 9.ten December habe ich mich auf die Spedirung früher vorgeschlagener Diplome beschränkt .
+11-1	1234-1237	Für	_	_
+11-2	1238-1241	den	_	_
+11-3	1242-1247	9.ten	*[15]	DATEmentioned[15]
+11-4	1248-1256	December	*[15]	DATEmentioned[15]
+11-5	1257-1261	habe	_	_
+11-6	1262-1265	ich	_	_
+11-7	1266-1270	mich	_	_
+11-8	1271-1274	auf	_	_
+11-9	1275-1278	die	_	_
+11-10	1279-1288	Spedirung	_	_
+11-11	1289-1295	früher	_	_
+11-12	1296-1311	vorgeschlagener	_	_
+11-13	1312-1319	Diplome	_	_
+11-14	1320-1330	beschränkt	_	_
+11-15	1331-1332	.	_	_
+
+#Text=Beizufügen sind Campana als Ehrenmitglied , was nothwendig durchgehen muß , da wir ohne ihn keine Adunanz schicklich herauszuputzen im Stande sind .
+12-1	1333-1343	Beizufügen	_	_
+12-2	1344-1348	sind	_	_
+12-3	1349-1356	Campana	*	PERmentioned
+12-4	1357-1360	als	_	_
+12-5	1361-1374	Ehrenmitglied	_	_
+12-6	1375-1376	,	_	_
+12-7	1377-1380	was	_	_
+12-8	1381-1391	nothwendig	_	_
+12-9	1392-1402	durchgehen	_	_
+12-10	1403-1406	muß	_	_
+12-11	1407-1408	,	_	_
+12-12	1409-1411	da	_	_
+12-13	1412-1415	wir	_	_
+12-14	1416-1420	ohne	_	_
+12-15	1421-1424	ihn	_	_
+12-16	1425-1430	keine	_	_
+12-17	1431-1438	Adunanz	_	_
+12-18	1439-1449	schicklich	_	_
+12-19	1450-1464	herauszuputzen	_	_
+12-20	1465-1467	im	_	_
+12-21	1468-1474	Stande	_	_
+12-22	1475-1479	sind	_	_
+12-23	1480-1481	.	_	_
+
+#Text=Marchese Grimaldi - Gargallo als Correspondent : er hat die Zeichnung der Argusvase und Artikel geliefert .
+13-1	1482-1490	Marchese	*[17]	PERmentioned[17]
+13-2	1491-1499	Grimaldi	*[17]	PERmentioned[17]
+13-3	1500-1501	-	*[17]	PERmentioned[17]
+13-4	1502-1510	Gargallo	*[17]	PERmentioned[17]
+13-5	1511-1514	als	_	_
+13-6	1515-1528	Correspondent	_	_
+13-7	1529-1530	:	_	_
+13-8	1531-1533	er	_	_
+13-9	1534-1537	hat	_	_
+13-10	1538-1541	die	_	_
+13-11	1542-1551	Zeichnung	_	_
+13-12	1552-1555	der	_	_
+13-13	1556-1565	Argusvase	*	OBJ
+13-14	1566-1569	und	_	_
+13-15	1570-1577	Artikel	_	_
+13-16	1578-1587	geliefert	_	_
+13-17	1588-1589	.	_	_

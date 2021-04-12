@@ -1,0 +1,285 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=543 Braun an Gerhard Rom , 4 .
+1-1	0-3	543	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-28	4	*[11]	DATEletter[11]
+1-8	29-30	.	*[11]	DATEletter[11]
+
+#Text=August 1836 Prof. Gerhard .
+2-1	31-37	August	*[11]	DATEletter[11]
+2-2	38-42	1836	*[11]	DATEletter[11]
+2-3	43-48	Prof.	_	_
+2-4	49-56	Gerhard	*	PERaddressee
+2-5	57-58	.	_	_
+
+#Text=Roma li 4 August 1836 .
+3-1	59-63	Roma	*	PLACEfrom
+3-2	64-66	li	_	_
+3-3	67-68	4	*[12]	DATEletter[12]
+3-4	69-75	August	*[12]	DATEletter[12]
+3-5	76-80	1836	*[12]	DATEletter[12]
+3-6	81-82	.	_	_
+
+#Text=Hochzuverehrender Freund !
+4-1	83-100	Hochzuverehrender	_	_
+4-2	101-107	Freund	_	_
+4-3	108-109	!	_	_
+
+#Text=Ihres Königs Geburtstag hat mich gestern nit andern Freunden hinaus nach Frascati geführt .
+5-1	110-115	Ihres	_	_
+5-2	116-122	Königs	*	PERmentioned
+5-3	123-133	Geburtstag	_	_
+5-4	134-137	hat	_	_
+5-5	138-142	mich	_	_
+5-6	143-150	gestern	_	_
+5-7	151-154	nit	_	_
+5-8	155-161	andern	_	_
+5-9	162-170	Freunden	_	_
+5-10	171-177	hinaus	_	_
+5-11	178-182	nach	_	_
+5-12	183-191	Frascati	*	PLACEmentioned
+5-13	192-199	geführt	_	_
+5-14	200-201	.	_	_
+
+#Text=Bei solcher Gelegenheit habe ich Bunsen Ihren ostensiblen Brief mitgetheilt .
+6-1	202-205	Bei	_	_
+6-2	206-213	solcher	_	_
+6-3	214-225	Gelegenheit	_	_
+6-4	226-230	habe	_	_
+6-5	231-234	ich	_	_
+6-6	235-241	Bunsen	*	PERmentioned
+6-7	242-247	Ihren	_	_
+6-8	248-259	ostensiblen	_	_
+6-9	260-265	Brief	_	_
+6-10	266-277	mitgetheilt	_	_
+6-11	278-279	.	_	_
+
+#Text=Wie ich Ihnen schon vermuthend andeutete , so ist es auch eingetroffen : sehr bald hat sich das Gespräch so gestellt , daß ein Gesuch um Urlaub anzubringen ganz unmöglich wurde .
+7-1	280-283	Wie	_	_
+7-2	284-287	ich	_	_
+7-3	288-293	Ihnen	_	_
+7-4	294-299	schon	_	_
+7-5	300-310	vermuthend	_	_
+7-6	311-320	andeutete	_	_
+7-7	321-322	,	_	_
+7-8	323-325	so	_	_
+7-9	326-329	ist	_	_
+7-10	330-332	es	_	_
+7-11	333-337	auch	_	_
+7-12	338-350	eingetroffen	_	_
+7-13	351-352	:	_	_
+7-14	353-357	sehr	_	_
+7-15	358-362	bald	_	_
+7-16	363-366	hat	_	_
+7-17	367-371	sich	_	_
+7-18	372-375	das	_	_
+7-19	376-384	Gespräch	_	_
+7-20	385-387	so	_	_
+7-21	388-396	gestellt	_	_
+7-22	397-398	,	_	_
+7-23	399-402	daß	_	_
+7-24	403-406	ein	_	_
+7-25	407-413	Gesuch	_	_
+7-26	414-416	um	_	_
+7-27	417-423	Urlaub	_	_
+7-28	424-435	anzubringen	_	_
+7-29	436-440	ganz	_	_
+7-30	441-450	unmöglich	_	_
+7-31	451-456	wurde	_	_
+7-32	457-458	.	_	_
+
+#Text=Dieses Jahr müssen wir nothwendig publiciren , denn wir haben bereits Geld darauf eingenommen .
+8-1	459-465	Dieses	_	_
+8-2	466-470	Jahr	_	_
+8-3	471-477	müssen	_	_
+8-4	478-481	wir	_	_
+8-5	482-492	nothwendig	_	_
+8-6	493-503	publiciren	_	_
+8-7	504-505	,	_	_
+8-8	506-510	denn	_	_
+8-9	511-514	wir	_	_
+8-10	515-520	haben	_	_
+8-11	521-528	bereits	_	_
+8-12	529-533	Geld	_	_
+8-13	534-540	darauf	_	_
+8-14	541-552	eingenommen	_	_
+8-15	553-554	.	_	_
+
+#Text=Nun haben wir aber nicht blos 2 Hefte Monumente , sondern auch einen ganzen Band Annalen zu liefern .
+9-1	555-558	Nun	_	_
+9-2	559-564	haben	_	_
+9-3	565-568	wir	_	_
+9-4	569-573	aber	_	_
+9-5	574-579	nicht	_	_
+9-6	580-584	blos	_	_
+9-7	585-586	2	_	_
+9-8	587-592	Hefte	_	_
+9-9	593-602	Monumente	_	_
+9-10	603-604	,	_	_
+9-11	605-612	sondern	_	_
+9-12	613-617	auch	_	_
+9-13	618-623	einen	_	_
+9-14	624-630	ganzen	_	_
+9-15	631-635	Band	_	_
+9-16	636-643	Annalen	_	_
+9-17	644-646	zu	_	_
+9-18	647-654	liefern	_	_
+9-19	655-656	.	_	_
+
+#Text=Dieser Umstand nun , abgesehen von allem anderen , läßt den Gedanken an die Abwesenheit eines von uns beiden auch nicht von Ferne zu .
+10-1	657-663	Dieser	_	_
+10-2	664-671	Umstand	_	_
+10-3	672-675	nun	_	_
+10-4	676-677	,	_	_
+10-5	678-687	abgesehen	_	_
+10-6	688-691	von	_	_
+10-7	692-697	allem	_	_
+10-8	698-705	anderen	_	_
+10-9	706-707	,	_	_
+10-10	708-712	läßt	_	_
+10-11	713-716	den	_	_
+10-12	717-725	Gedanken	_	_
+10-13	726-728	an	_	_
+10-14	729-732	die	_	_
+10-15	733-744	Abwesenheit	_	_
+10-16	745-750	eines	_	_
+10-17	751-754	von	_	_
+10-18	755-758	uns	_	_
+10-19	759-765	beiden	_	_
+10-20	766-770	auch	_	_
+10-21	771-776	nicht	_	_
+10-22	777-780	von	_	_
+10-23	781-786	Ferne	_	_
+10-24	787-789	zu	_	_
+10-25	790-791	.	_	_
+
+#Text=Ich verliere am meisten dabei , denn seit 2 Jahren bin ich nicht über 14 Tage von Rom abwesend gewesen und was mehr ist , stets in den langweiligsten und zeitraubensten Geschäften vergraben .
+11-1	792-795	Ich	_	_
+11-2	796-804	verliere	_	_
+11-3	805-807	am	_	_
+11-4	808-815	meisten	_	_
+11-5	816-821	dabei	_	_
+11-6	822-823	,	_	_
+11-7	824-828	denn	_	_
+11-8	829-833	seit	_	_
+11-9	834-835	2	_	_
+11-10	836-842	Jahren	_	_
+11-11	843-846	bin	_	_
+11-12	847-850	ich	_	_
+11-13	851-856	nicht	_	_
+11-14	857-861	über	_	_
+11-15	862-864	14	_	_
+11-16	865-869	Tage	_	_
+11-17	870-873	von	_	_
+11-18	874-877	Rom	*	PLACEmentioned
+11-19	878-886	abwesend	_	_
+11-20	887-894	gewesen	_	_
+11-21	895-898	und	_	_
+11-22	899-902	was	_	_
+11-23	903-907	mehr	_	_
+11-24	908-911	ist	_	_
+11-25	912-913	,	_	_
+11-26	914-919	stets	_	_
+11-27	920-922	in	_	_
+11-28	923-926	den	_	_
+11-29	927-941	langweiligsten	_	_
+11-30	942-945	und	_	_
+11-31	946-960	zeitraubensten	_	_
+11-32	961-971	Geschäften	_	_
+11-33	972-981	vergraben	_	_
+11-34	982-983	.	_	_
+
+#Text=Bunsen also 1äßt Sie freundlichst grüßen und Ihnen nochmals den Gedanken nahe legen möglichst schnell hierher zu kommen .
+12-1	984-990	Bunsen	*	PERmentioned
+12-2	991-995	also	_	_
+12-3	996-1000	1äßt	_	_
+12-4	1001-1004	Sie	_	_
+12-5	1005-1017	freundlichst	_	_
+12-6	1018-1024	grüßen	_	_
+12-7	1025-1028	und	_	_
+12-8	1029-1034	Ihnen	_	_
+12-9	1035-1043	nochmals	_	_
+12-10	1044-1047	den	_	_
+12-11	1048-1056	Gedanken	_	_
+12-12	1057-1061	nahe	_	_
+12-13	1062-1067	legen	_	_
+12-14	1068-1077	möglichst	_	_
+12-15	1078-1085	schnell	_	_
+12-16	1086-1093	hierher	_	_
+12-17	1094-1096	zu	_	_
+12-18	1097-1103	kommen	_	_
+12-19	1104-1105	.	_	_
+
+#Text=Sie möchten überdies bedenken , daß September und October für Athen und Griechenland gerade die ungesundesten Monate sind .
+13-1	1106-1109	Sie	_	_
+13-2	1110-1117	möchten	_	_
+13-3	1118-1126	überdies	_	_
+13-4	1127-1135	bedenken	_	_
+13-5	1136-1137	,	_	_
+13-6	1138-1141	daß	_	_
+13-7	1142-1151	September	*	DATEmentioned
+13-8	1152-1155	und	_	_
+13-9	1156-1163	October	_	_
+13-10	1164-1167	für	_	_
+13-11	1168-1173	Athen	*	PLACEmentioned
+13-12	1174-1177	und	_	_
+13-13	1178-1190	Griechenland	*	PLACEmentioned
+13-14	1191-1197	gerade	_	_
+13-15	1198-1201	die	_	_
+13-16	1202-1215	ungesundesten	_	_
+13-17	1216-1222	Monate	_	_
+13-18	1223-1227	sind	_	_
+13-19	1228-1229	.	_	_
+
+#Text=Die Frau von Schinas sei als ein Opfer dieser schlechten luft gehalten .
+14-1	1230-1233	Die	_	_
+14-2	1234-1238	Frau	_	_
+14-3	1239-1242	von	_	_
+14-4	1243-1250	Schinas	*	PERmentioned
+14-5	1251-1254	sei	_	_
+14-6	1255-1258	als	_	_
+14-7	1259-1262	ein	_	_
+14-8	1263-1268	Opfer	_	_
+14-9	1269-1275	dieser	_	_
+14-10	1276-1286	schlechten	_	_
+14-11	1287-1291	luft	_	_
+14-12	1292-1300	gehalten	_	_
+14-13	1301-1302	.	_	_
+
+#Text=Auf der Rückkehr von Griechenland müssen Sie 21 Tage in Ancona Quarantäne halten .
+15-1	1303-1306	Auf	_	_
+15-2	1307-1310	der	_	_
+15-3	1311-1319	Rückkehr	_	_
+15-4	1320-1323	von	_	_
+15-5	1324-1336	Griechenland	*	PLACEmentioned
+15-6	1337-1343	müssen	_	_
+15-7	1344-1347	Sie	_	_
+15-8	1348-1350	21	*[13]	MISC[13]
+15-9	1351-1355	Tage	*[13]	MISC[13]
+15-10	1356-1358	in	_	_
+15-11	1359-1365	Ancona	*	PLACEmentioned
+15-12	1366-1376	Quarantäne	_	_
+15-13	1377-1383	halten	_	_
+15-14	1384-1385	.	_	_
+
+#Text=Gleicher Meinung sind auch Wolff und andere , die Erfahrung und Urtheil in
+16-1	1386-1394	Gleicher	_	_
+16-2	1395-1402	Meinung	_	_
+16-3	1403-1407	sind	_	_
+16-4	1408-1412	auch	_	_
+16-5	1413-1418	Wolff	*	PERmentioned
+16-6	1419-1422	und	_	_
+16-7	1423-1429	andere	_	_
+16-8	1430-1431	,	_	_
+16-9	1432-1435	die	_	_
+16-10	1436-1445	Erfahrung	_	_
+16-11	1446-1449	und	_	_
+16-12	1450-1457	Urtheil	_	_
+16-13	1458-1460	in	_	_

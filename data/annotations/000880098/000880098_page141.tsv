@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=12 Braun an Gerhard Rom , 8 .
+1-1	0-2	12	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERmentioned
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-27	8	*[1]	DATEletter[1]
+1-8	28-29	.	*[1]	DATEletter[1]
+
+#Text=Januar 1835 - 3 - Bibliotheksdesiderata sind noch massenweise in Betreff der Klassiker vorhanden , die wir vollständig besitzen sollten .
+2-1	30-36	Januar	*[1]	DATEletter[1]
+2-2	37-41	1835	*[1]	DATEletter[1]
+2-3	42-43	-	_	_
+2-4	44-45	3	_	_
+2-5	46-47	-	_	_
+2-6	48-69	Bibliotheksdesiderata	_	_
+2-7	70-74	sind	_	_
+2-8	75-79	noch	_	_
+2-9	80-91	massenweise	_	_
+2-10	92-94	in	_	_
+2-11	95-102	Betreff	_	_
+2-12	103-106	der	_	_
+2-13	107-116	Klassiker	_	_
+2-14	117-126	vorhanden	_	_
+2-15	127-128	,	_	_
+2-16	129-132	die	_	_
+2-17	133-136	wir	_	_
+2-18	137-148	vollständig	_	_
+2-19	149-157	besitzen	_	_
+2-20	158-165	sollten	_	_
+2-21	166-167	.	_	_
+
+#Text=K .
+3-1	168-169	K	*	PERmentioned
+3-2	170-171	.	_	_
+
+#Text='s Auswahl ist sehr ungenügend und wenig glücklich gewesen .
+4-1	172-174	's	_	_
+4-2	175-182	Auswahl	_	_
+4-3	183-186	ist	_	_
+4-4	187-191	sehr	_	_
+4-5	192-202	ungenügend	_	_
+4-6	203-206	und	_	_
+4-7	207-212	wenig	_	_
+4-8	213-222	glücklich	_	_
+4-9	223-230	gewesen	_	_
+4-10	231-232	.	_	_
+
+#Text=Heben müßten wir uns aber möglichst bald .
+5-1	233-238	Heben	_	_
+5-2	239-245	müßten	_	_
+5-3	246-249	wir	_	_
+5-4	250-253	uns	_	_
+5-5	254-258	aber	_	_
+5-6	259-268	möglichst	_	_
+5-7	269-273	bald	_	_
+5-8	274-275	.	_	_
+
+#Text=Heynes antiquar .
+6-1	276-282	Heynes	*[2]|*[3]	LIT[2]|PERmentioned[3]
+6-2	283-291	antiquar	*[2]	LIT[2]
+6-3	292-293	.	*[2]	LIT[2]
+
+#Text=Schriften 3 .
+7-1	294-303	Schriften	*[2]	LIT[2]
+7-2	304-305	3	*[2]	LIT[2]
+7-3	306-307	.	*[2]	LIT[2]
+
+#Text=Opuscula , welche in einer Reihe von Bänden entweder von der Göttinger Societät oder von den Antiquaren erpresst werden müssen .
+8-1	308-316	Opuscula	*[2]	LIT[2]
+8-2	317-318	,	_	_
+8-3	319-325	welche	_	_
+8-4	326-328	in	_	_
+8-5	329-334	einer	_	_
+8-6	335-340	Reihe	_	_
+8-7	341-344	von	_	_
+8-8	345-351	Bänden	_	_
+8-9	352-360	entweder	_	_
+8-10	361-364	von	_	_
+8-11	365-368	der	_	_
+8-12	369-378	Göttinger	*[4]	ORGmentioned[4]
+8-13	379-387	Societät	*[4]	ORGmentioned[4]
+8-14	388-392	oder	_	_
+8-15	393-396	von	_	_
+8-16	397-400	den	_	_
+8-17	401-411	Antiquaren	_	_
+8-18	412-420	erpresst	_	_
+8-19	421-427	werden	_	_
+8-20	428-434	müssen	_	_
+8-21	435-436	.	_	_
+
+#Text=Mythographie ed .
+9-1	437-449	Mythographie	*[5]	LIT[5]
+9-2	450-452	ed	*[5]	LIT[5]
+9-3	453-454	.	*[5]	LIT[5]
+
+#Text=Stavern - Muncker und Mythographie ed , Bothe , welche vielleicht sogar jene entbehrlich machen .
+10-1	455-462	Stavern	*[5]	LIT[5]
+10-2	463-464	-	_	_
+10-3	465-472	Muncker	*[6]	LIT[6]
+10-4	473-476	und	*[6]	LIT[6]
+10-5	477-489	Mythographie	*[6]	LIT[6]
+10-6	490-492	ed	*[6]	LIT[6]
+10-7	493-494	,	_	_
+10-8	495-500	Bothe	*	PERmentioned
+10-9	501-502	,	_	_
+10-10	503-509	welche	_	_
+10-11	510-520	vielleicht	_	_
+10-12	521-526	sogar	_	_
+10-13	527-531	jene	_	_
+10-14	532-543	entbehrlich	_	_
+10-15	544-550	machen	_	_
+10-16	551-552	.	_	_
+
+#Text=Von Welcker haben wir außer der Trilogie , den Kadmus , der Zeitschrift , dem Rhein .
+11-1	553-556	Von	_	_
+11-2	557-564	Welcker	*	PERmentioned
+11-3	565-570	haben	_	_
+11-4	571-574	wir	_	_
+11-5	575-580	außer	_	_
+11-6	581-584	der	_	_
+11-7	585-593	Trilogie	*	LIT
+11-8	594-595	,	_	_
+11-9	596-599	den	_	_
+11-10	600-606	Kadmus	*	LIT
+11-11	607-608	,	_	_
+11-12	609-612	der	_	_
+11-13	613-624	Zeitschrift	*	LIT
+11-14	625-626	,	_	_
+11-15	627-630	dem	_	_
+11-16	631-636	Rhein	*[7]	LIT[7]
+11-17	637-638	.	*[7]	LIT[7]
+
+#Text=Museum , aus den Epigrammen nichts \; namentlich aber fehlt uns das Bonner Kunstmuseum und vieles andre , welches , doppelt vorhanden , leicht verkauft werden kann .
+12-1	639-645	Museum	*[7]	LIT[7]
+12-2	646-647	,	_	_
+12-3	648-651	aus	_	_
+12-4	652-655	den	_	_
+12-5	656-666	Epigrammen	*	LIT
+12-6	667-673	nichts	_	_
+12-7	674-675	\;	_	_
+12-8	676-686	namentlich	_	_
+12-9	687-691	aber	_	_
+12-10	692-697	fehlt	_	_
+12-11	698-701	uns	_	_
+12-12	702-705	das	_	_
+12-13	706-712	Bonner	*[8]	LIT[8]
+12-14	713-724	Kunstmuseum	*[8]	LIT[8]
+12-15	725-728	und	_	_
+12-16	729-735	vieles	_	_
+12-17	736-741	andre	_	_
+12-18	742-743	,	_	_
+12-19	744-751	welches	_	_
+12-20	752-753	,	_	_
+12-21	754-761	doppelt	_	_
+12-22	762-771	vorhanden	_	_
+12-23	772-773	,	_	_
+12-24	774-780	leicht	_	_
+12-25	781-789	verkauft	_	_
+12-26	790-796	werden	_	_
+12-27	797-801	kann	_	_
+12-28	802-803	.	_	_
+
+#Text=Parthey hat allerdings einen Strabo und eine Sicil .
+13-1	804-811	Parthey	_	_
+13-2	812-815	hat	_	_
+13-3	816-826	allerdings	_	_
+13-4	827-832	einen	_	_
+13-5	833-839	Strabo	_	_
+13-6	840-843	und	_	_
+13-7	844-848	eine	_	_
+13-8	849-854	Sicil	_	_
+13-9	855-856	.	_	_
+
+#Text=Karte an die Bibliothek der Deutschen addressirt .
+14-1	857-862	Karte	_	_
+14-2	863-865	an	_	_
+14-3	866-869	die	_	_
+14-4	870-880	Bibliothek	*[9]	ORGmentioned[9]
+14-5	881-884	der	*[9]	ORGmentioned[9]
+14-6	885-894	Deutschen	*[9]	ORGmentioned[9]
+14-7	895-905	addressirt	_	_
+14-8	906-907	.	_	_
+
+#Text=Ich habe ersteren namentlich mit den anderen Geschenken zurückbehalten und Sie können leicht andere Verfügungen ermitteln .
+15-1	908-911	Ich	_	_
+15-2	912-916	habe	_	_
+15-3	917-925	ersteren	_	_
+15-4	926-936	namentlich	_	_
+15-5	937-940	mit	_	_
+15-6	941-944	den	_	_
+15-7	945-952	anderen	_	_
+15-8	953-963	Geschenken	_	_
+15-9	964-978	zurückbehalten	_	_
+15-10	979-982	und	_	_
+15-11	983-986	Sie	_	_
+15-12	987-993	können	_	_
+15-13	994-1000	leicht	_	_
+15-14	1001-1007	andere	_	_
+15-15	1008-1019	Verfügungen	_	_
+15-16	1020-1029	ermitteln	_	_
+15-17	1030-1031	.	_	_
+
+#Text=Der Bibliothek der Deutschen thuen deutsche Uebersetzungen der Klassiker vor allem Noth .
+16-1	1032-1035	Der	_	_
+16-2	1036-1046	Bibliothek	*[10]	ORGmentioned[10]
+16-3	1047-1050	der	*[10]	ORGmentioned[10]
+16-4	1051-1060	Deutschen	*[10]	ORGmentioned[10]
+16-5	1061-1066	thuen	_	_
+16-6	1067-1075	deutsche	_	_
+16-7	1076-1090	Uebersetzungen	_	_
+16-8	1091-1094	der	_	_
+16-9	1095-1104	Klassiker	_	_
+16-10	1105-1108	vor	_	_
+16-11	1109-1114	allem	_	_
+16-12	1115-1119	Noth	_	_
+16-13	1120-1121	.	_	_
+
+#Text=In Camilis Gorrespondenz ist von einem Text zur Viterbeser Karte die Rede , den ich nirgends finde .
+17-1	1122-1124	In	_	_
+17-2	1125-1132	Camilis	*	PERmentioned
+17-3	1133-1146	Gorrespondenz	_	_
+17-4	1147-1150	ist	_	_
+17-5	1151-1154	von	_	_
+17-6	1155-1160	einem	_	_
+17-7	1161-1165	Text	_	_
+17-8	1166-1169	zur	_	_
+17-9	1170-1180	Viterbeser	_	_
+17-10	1181-1186	Karte	_	_
+17-11	1187-1190	die	_	_
+17-12	1191-1195	Rede	_	_
+17-13	1196-1197	,	_	_
+17-14	1198-1201	den	_	_
+17-15	1202-1205	ich	_	_
+17-16	1206-1214	nirgends	_	_
+17-17	1215-1220	finde	_	_
+17-18	1221-1222	.	_	_
+
+#Text=- Die
+18-1	1223-1224	-	_	_
+18-2	1225-1228	Die	_	_

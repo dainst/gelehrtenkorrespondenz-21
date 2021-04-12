@@ -1,0 +1,205 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Achern , 31 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Achern	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	31	_	_
+1-7	29-30	.	_	_
+
+#Text=August 1873 H ge .
+2-1	31-37	August	*[1]	DATEletter[1]
+2-2	38-42	1873	*[1]	DATEletter[1]
+2-3	43-44	H	_	_
+2-4	45-47	ge	_	_
+2-5	48-49	.	_	_
+
+#Text=1/9 7 Achern , Haus Villinger 31 .
+3-1	50-53	1/9	*[2]	DATErecieved[2]
+3-2	54-55	7	*[2]	DATErecieved[2]
+3-3	56-62	Achern	*	PLACEfrom
+3-4	63-64	,	_	_
+3-5	65-69	Haus	_	_
+3-6	70-79	Villinger	_	_
+3-7	80-82	31	*[3]	DATEletter[3]
+3-8	83-84	.	*[3]	DATEletter[3]
+
+#Text=August 71893 Lieber Herr Professor Nachdem ich vorgestern aus dem Thüringer Wald zurückgekehrt , wo ich einige Tage mit meinem Vater und meiner Schwester zugebracht , empfing ich gestern Ihren freundlichen Brief vom 29 .
+4-1	85-91	August	*[3]	DATEletter[3]
+4-2	92-97	71893	*[3]	DATEletter[3]
+4-3	98-104	Lieber	_	_
+4-4	105-109	Herr	_	_
+4-5	110-119	Professor	_	_
+4-6	120-127	Nachdem	_	_
+4-7	128-131	ich	_	_
+4-8	132-142	vorgestern	_	_
+4-9	143-146	aus	_	_
+4-10	147-150	dem	_	_
+4-11	151-160	Thüringer	*[4]	PLACEmentioned[4]
+4-12	161-165	Wald	*[4]	PLACEmentioned[4]
+4-13	166-179	zurückgekehrt	_	_
+4-14	180-181	,	_	_
+4-15	182-184	wo	_	_
+4-16	185-188	ich	_	_
+4-17	189-195	einige	_	_
+4-18	196-200	Tage	_	_
+4-19	201-204	mit	_	_
+4-20	205-211	meinem	_	_
+4-21	212-217	Vater	_	_
+4-22	218-221	und	_	_
+4-23	222-228	meiner	_	_
+4-24	229-238	Schwester	_	_
+4-25	239-249	zugebracht	_	_
+4-26	250-251	,	_	_
+4-27	252-259	empfing	_	_
+4-28	260-263	ich	_	_
+4-29	264-271	gestern	_	_
+4-30	272-277	Ihren	_	_
+4-31	278-290	freundlichen	_	_
+4-32	291-296	Brief	_	_
+4-33	297-300	vom	_	_
+4-34	301-303	29	*[5]	DATEmentioned[5]
+4-35	304-305	.	*[5]	DATEmentioned[5]
+
+#Text=Besonderes mitzutheilen habe ich : auch nicht .
+5-1	306-316	Besonderes	_	_
+5-2	317-329	mitzutheilen	_	_
+5-3	330-334	habe	_	_
+5-4	335-338	ich	_	_
+5-5	339-340	:	_	_
+5-6	341-345	auch	_	_
+5-7	346-351	nicht	_	_
+5-8	352-353	.	_	_
+
+#Text=Meine Frau befindet sich leidlich , Lili Gott sei Dank sehr wohl .
+6-1	354-359	Meine	_	_
+6-2	360-364	Frau	_	_
+6-3	365-373	befindet	_	_
+6-4	374-378	sich	_	_
+6-5	379-387	leidlich	_	_
+6-6	388-389	,	_	_
+6-7	390-394	Lili	*	PERmentioned
+6-8	395-399	Gott	_	_
+6-9	400-403	sei	_	_
+6-10	404-408	Dank	_	_
+6-11	409-413	sehr	_	_
+6-12	414-418	wohl	_	_
+6-13	419-420	.	_	_
+
+#Text=Von Rom erhielt ich nur einige Anfragen wegen des Lüderschen Stiches und vor etwa 14 Tasen eine Aufforderung als contribuente moroso , Steuern zu zahlen .
+7-1	421-424	Von	_	_
+7-2	425-428	Rom	*	PLACEmentioned
+7-3	429-436	erhielt	_	_
+7-4	437-440	ich	_	_
+7-5	441-444	nur	_	_
+7-6	445-451	einige	_	_
+7-7	452-460	Anfragen	_	_
+7-8	461-466	wegen	_	_
+7-9	467-470	des	_	_
+7-10	471-481	Lüderschen	*	MISC
+7-11	482-489	Stiches	_	_
+7-12	490-493	und	_	_
+7-13	494-497	vor	_	_
+7-14	498-502	etwa	_	_
+7-15	503-505	14	_	_
+7-16	506-511	Tasen	_	_
+7-17	512-516	eine	_	_
+7-18	517-529	Aufforderung	_	_
+7-19	530-533	als	_	_
+7-20	534-546	contribuente	_	_
+7-21	547-553	moroso	_	_
+7-22	554-555	,	_	_
+7-23	556-563	Steuern	_	_
+7-24	564-566	zu	_	_
+7-25	567-573	zahlen	_	_
+7-26	574-575	.	_	_
+
+#Text=Ich begreife nicht , wie die Leute meine Adresse ausfindig gemacht haben .
+8-1	576-579	Ich	_	_
+8-2	580-588	begreife	_	_
+8-3	589-594	nicht	_	_
+8-4	595-596	,	_	_
+8-5	597-600	wie	_	_
+8-6	601-604	die	_	_
+8-7	605-610	Leute	_	_
+8-8	611-616	meine	_	_
+8-9	617-624	Adresse	_	_
+8-10	625-634	ausfindig	_	_
+8-11	635-642	gemacht	_	_
+8-12	643-648	haben	_	_
+8-13	649-650	.	_	_
+
+#Text=Selbstverständlich habe ich die Aufforderung unter energischem Proteste zurückgeschickt .
+9-1	651-669	Selbstverständlich	_	_
+9-2	670-674	habe	_	_
+9-3	675-678	ich	_	_
+9-4	679-682	die	_	_
+9-5	683-695	Aufforderung	_	_
+9-6	696-701	unter	_	_
+9-7	702-713	energischem	_	_
+9-8	714-722	Proteste	_	_
+9-9	723-738	zurückgeschickt	_	_
+9-10	739-740	.	_	_
+
+#Text=Boyesen wäre ja eine vortreffliche Aquisition \| !
+10-1	741-748	Boyesen	*	PERmentioned
+10-2	749-753	wäre	_	_
+10-3	754-756	ja	_	_
+10-4	757-761	eine	_	_
+10-5	762-775	vortreffliche	_	_
+10-6	776-786	Aquisition	_	_
+10-7	787-788	\|	_	_
+10-8	789-790	!	_	_
+
+#Text=Gestern war K. Dilthey bei mir , höchst liebenswürdig und guter Laune .
+11-1	791-798	Gestern	_	_
+11-2	799-802	war	_	_
+11-3	803-805	K.	*[6]	PERmentioned[6]
+11-4	806-813	Dilthey	*[6]	PERmentioned[6]
+11-5	814-817	bei	_	_
+11-6	818-821	mir	_	_
+11-7	822-823	,	_	_
+11-8	824-830	höchst	_	_
+11-9	831-844	liebenswürdig	_	_
+11-10	845-848	und	_	_
+11-11	849-854	guter	_	_
+11-12	855-860	Laune	_	_
+11-13	861-862	.	_	_
+
+#Text=Während meines Aufenthalts im Thüringer Walde habe ich auch den Coburger besucht und derselbe hat mir so viel Geld in Aussicht gestellt , daß ich auf das Berliner Museum pfeifen kann .
+12-1	863-870	Während	_	_
+12-2	871-877	meines	_	_
+12-3	878-889	Aufenthalts	_	_
+12-4	890-892	im	_	_
+12-5	893-902	Thüringer	*[7]	PLACEmentioned[7]
+12-6	903-908	Walde	*[7]	PLACEmentioned[7]
+12-7	909-913	habe	_	_
+12-8	914-917	ich	_	_
+12-9	918-922	auch	_	_
+12-10	923-926	den	_	_
+12-11	927-935	Coburger	*	PERmentioned
+12-12	936-943	besucht	_	_
+12-13	944-947	und	_	_
+12-14	948-956	derselbe	_	_
+12-15	957-960	hat	_	_
+12-16	961-964	mir	_	_
+12-17	965-967	so	_	_
+12-18	968-972	viel	_	_
+12-19	973-977	Geld	_	_
+12-20	978-980	in	_	_
+12-21	981-989	Aussicht	_	_
+12-22	990-998	gestellt	_	_
+12-23	999-1000	,	_	_
+12-24	1001-1004	daß	_	_
+12-25	1005-1008	ich	_	_
+12-26	1009-1012	auf	_	_
+12-27	1013-1016	das	_	_
+12-28	1017-1025	Berliner	*[8]	ORGmentioned[8]
+12-29	1026-1032	Museum	*[8]	ORGmentioned[8]
+12-30	1033-1040	pfeifen	_	_
+12-31	1041-1045	kann	_	_
+12-32	1046-1047	.	_	_

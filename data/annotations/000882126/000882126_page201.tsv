@@ -1,0 +1,258 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=335 Braun an Gerhard Verona , 23 .
+1-1	0-3	335	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-27	Verona	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	23	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=August 1837 - u \_ des Gartens Giusti sind genau und gut gestochen \; er hat das Verdienst sie zuerst bemerkt zu haben , nachdem sie von allen Archäologen die diesen wahrlich nicht entlegenen Garten besucht , selbst von dem großen Thiersch übersehen worden waren .
+2-1	35-41	August	*[3]	DATEletter[3]
+2-2	42-46	1837	*[3]	DATEletter[3]
+2-3	47-48	-	_	_
+2-4	49-50	u	_	_
+2-5	51-52	\_	_	_
+2-6	53-56	des	_	_
+2-7	57-64	Gartens	*[4]	PLACEmentioned[4]
+2-8	65-71	Giusti	*[4]|*[5]	PLACEmentioned[4]|PERmentioned[5]
+2-9	72-76	sind	_	_
+2-10	77-82	genau	_	_
+2-11	83-86	und	_	_
+2-12	87-90	gut	_	_
+2-13	91-100	gestochen	_	_
+2-14	101-102	\;	_	_
+2-15	103-105	er	_	_
+2-16	106-109	hat	_	_
+2-17	110-113	das	_	_
+2-18	114-123	Verdienst	_	_
+2-19	124-127	sie	_	_
+2-20	128-134	zuerst	_	_
+2-21	135-142	bemerkt	_	_
+2-22	143-145	zu	_	_
+2-23	146-151	haben	_	_
+2-24	152-153	,	_	_
+2-25	154-161	nachdem	_	_
+2-26	162-165	sie	_	_
+2-27	166-169	von	_	_
+2-28	170-175	allen	_	_
+2-29	176-187	Archäologen	_	_
+2-30	188-191	die	_	_
+2-31	192-198	diesen	_	_
+2-32	199-207	wahrlich	_	_
+2-33	208-213	nicht	_	_
+2-34	214-224	entlegenen	_	_
+2-35	225-231	Garten	*	PLACEmentioned
+2-36	232-239	besucht	_	_
+2-37	240-241	,	_	_
+2-38	242-248	selbst	_	_
+2-39	249-252	von	_	_
+2-40	253-256	dem	_	_
+2-41	257-263	großen	_	_
+2-42	264-272	Thiersch	*	PERmentioned
+2-43	273-282	übersehen	_	_
+2-44	283-289	worden	_	_
+2-45	290-295	waren	_	_
+2-46	296-297	.	_	_
+
+#Text=Außerdem besitzt er nette unedirte Zeichnungen und Stiche , die er dem Institut zu überlassen bereit ist .
+3-1	298-306	Außerdem	_	_
+3-2	307-314	besitzt	_	_
+3-3	315-317	er	_	_
+3-4	318-323	nette	_	_
+3-5	324-332	unedirte	_	_
+3-6	333-344	Zeichnungen	_	_
+3-7	345-348	und	_	_
+3-8	349-355	Stiche	_	_
+3-9	356-357	,	_	_
+3-10	358-361	die	_	_
+3-11	362-364	er	_	_
+3-12	365-368	dem	_	_
+3-13	369-377	Institut	*	ORGmentioned
+3-14	378-380	zu	_	_
+3-15	381-391	überlassen	_	_
+3-16	392-398	bereit	_	_
+3-17	399-402	ist	_	_
+3-18	403-404	.	_	_
+
+#Text=Kurz das ist mir klar geworden , daß dieser vortreffliche und verdiente Mann sich blos durch seine übergroße Gutmüthigkeit geschadet hat , die man gemeiniglich und nothwendig mit einer gewissen Materialität gepaart meint .
+4-1	405-409	Kurz	_	_
+4-2	410-413	das	_	_
+4-3	414-417	ist	_	_
+4-4	418-421	mir	_	_
+4-5	422-426	klar	_	_
+4-6	427-435	geworden	_	_
+4-7	436-437	,	_	_
+4-8	438-441	daß	_	_
+4-9	442-448	dieser	_	_
+4-10	449-462	vortreffliche	_	_
+4-11	463-466	und	_	_
+4-12	467-476	verdiente	_	_
+4-13	477-481	Mann	_	_
+4-14	482-486	sich	_	_
+4-15	487-491	blos	_	_
+4-16	492-497	durch	_	_
+4-17	498-503	seine	_	_
+4-18	504-513	übergroße	_	_
+4-19	514-527	Gutmüthigkeit	_	_
+4-20	528-537	geschadet	_	_
+4-21	538-541	hat	_	_
+4-22	542-543	,	_	_
+4-23	544-547	die	_	_
+4-24	548-551	man	_	_
+4-25	552-564	gemeiniglich	_	_
+4-26	565-568	und	_	_
+4-27	569-579	nothwendig	_	_
+4-28	580-583	mit	_	_
+4-29	584-589	einer	_	_
+4-30	590-598	gewissen	_	_
+4-31	599-611	Materialität	_	_
+4-32	612-619	gepaart	_	_
+4-33	620-625	meint	_	_
+4-34	626-627	.	_	_
+
+#Text=Seine Bibliothek enthält etwas zufällig aber große und viele Schätze .
+5-1	628-633	Seine	_	_
+5-2	634-644	Bibliothek	_	_
+5-3	645-652	enthält	_	_
+5-4	653-658	etwas	_	_
+5-5	659-667	zufällig	_	_
+5-6	668-672	aber	_	_
+5-7	673-678	große	_	_
+5-8	679-682	und	_	_
+5-9	683-688	viele	_	_
+5-10	689-696	Schätze	_	_
+5-11	697-698	.	_	_
+
+#Text=Für das Institut hat er mir den zweiten Theil von Mionnet versprochen .
+6-1	699-702	Für	_	_
+6-2	703-706	das	_	_
+6-3	707-715	Institut	*	ORGmentioned
+6-4	716-719	hat	_	_
+6-5	720-722	er	_	_
+6-6	723-726	mir	_	_
+6-7	727-730	den	_	_
+6-8	731-738	zweiten	_	_
+6-9	739-744	Theil	_	_
+6-10	745-748	von	_	_
+6-11	749-756	Mionnet	*	PERmentioned
+6-12	757-768	versprochen	_	_
+6-13	769-770	.	_	_
+
+#Text=Kurz der Mann ist vortrefflich .
+7-1	771-775	Kurz	_	_
+7-2	776-779	der	_	_
+7-3	780-784	Mann	_	_
+7-4	785-788	ist	_	_
+7-5	789-801	vortrefflich	_	_
+7-6	802-803	.	_	_
+
+#Text=Für das Institut kann er noch viel nützlicher werden , als er bis dahin gewesen ist .
+8-1	804-807	Für	_	_
+8-2	808-811	das	_	_
+8-3	812-820	Institut	*	ORGmentioned
+8-4	821-825	kann	_	_
+8-5	826-828	er	_	_
+8-6	829-833	noch	_	_
+8-7	834-838	viel	_	_
+8-8	839-849	nützlicher	_	_
+8-9	850-856	werden	_	_
+8-10	857-858	,	_	_
+8-11	859-862	als	_	_
+8-12	863-865	er	_	_
+8-13	866-869	bis	_	_
+8-14	870-875	dahin	_	_
+8-15	876-883	gewesen	_	_
+8-16	884-887	ist	_	_
+8-17	888-889	.	_	_
+
+#Text=Um seine Vaterstadt hat er nicht blos äußerliche , sondern wesentliche Verdienste .
+9-1	890-892	Um	_	_
+9-2	893-898	seine	_	_
+9-3	899-909	Vaterstadt	*	PLACEmentioned
+9-4	910-913	hat	_	_
+9-5	914-916	er	_	_
+9-6	917-922	nicht	_	_
+9-7	923-927	blos	_	_
+9-8	928-938	äußerliche	_	_
+9-9	939-940	,	_	_
+9-10	941-948	sondern	_	_
+9-11	949-960	wesentliche	_	_
+9-12	961-971	Verdienste	_	_
+9-13	972-973	.	_	_
+
+#Text=Er ist Direttore degli Studi , eine Stelle von hohem Rang , er regt die Jugend zu wissenschaftlicher Beschäftigung außerdem vielfach an und ist eben jetzt in dem Fall Podestä bei einem Alter von 34 Jahren zu werden .
+10-1	974-976	Er	_	_
+10-2	977-980	ist	_	_
+10-3	981-990	Direttore	_	_
+10-4	991-996	degli	_	_
+10-5	997-1002	Studi	_	_
+10-6	1003-1004	,	_	_
+10-7	1005-1009	eine	_	_
+10-8	1010-1016	Stelle	_	_
+10-9	1017-1020	von	_	_
+10-10	1021-1026	hohem	_	_
+10-11	1027-1031	Rang	_	_
+10-12	1032-1033	,	_	_
+10-13	1034-1036	er	_	_
+10-14	1037-1041	regt	_	_
+10-15	1042-1045	die	_	_
+10-16	1046-1052	Jugend	_	_
+10-17	1053-1055	zu	_	_
+10-18	1056-1074	wissenschaftlicher	_	_
+10-19	1075-1088	Beschäftigung	_	_
+10-20	1089-1097	außerdem	_	_
+10-21	1098-1106	vielfach	_	_
+10-22	1107-1109	an	_	_
+10-23	1110-1113	und	_	_
+10-24	1114-1117	ist	_	_
+10-25	1118-1122	eben	_	_
+10-26	1123-1128	jetzt	_	_
+10-27	1129-1131	in	_	_
+10-28	1132-1135	dem	_	_
+10-29	1136-1140	Fall	_	_
+10-30	1141-1148	Podestä	_	_
+10-31	1149-1152	bei	_	_
+10-32	1153-1158	einem	_	_
+10-33	1159-1164	Alter	_	_
+10-34	1165-1168	von	_	_
+10-35	1169-1171	34	_	_
+10-36	1172-1178	Jahren	_	_
+10-37	1179-1181	zu	_	_
+10-38	1182-1188	werden	_	_
+10-39	1189-1190	.	_	_
+
+#Text=Ich mache Sie schließlich darauf aufmerksam daß er zum Nutzen des Instituts auf die Candidatenliste der Membri onorarj dell'Instituto gesetzt werden kann .
+11-1	1191-1194	Ich	_	_
+11-2	1195-1200	mache	_	_
+11-3	1201-1204	Sie	_	_
+11-4	1205-1216	schließlich	_	_
+11-5	1217-1223	darauf	_	_
+11-6	1224-1234	aufmerksam	_	_
+11-7	1235-1238	daß	_	_
+11-8	1239-1241	er	_	_
+11-9	1242-1245	zum	_	_
+11-10	1246-1252	Nutzen	_	_
+11-11	1253-1256	des	_	_
+11-12	1257-1266	Instituts	*	ORGmentioned
+11-13	1267-1270	auf	_	_
+11-14	1271-1274	die	_	_
+11-15	1275-1290	Candidatenliste	_	_
+11-16	1291-1294	der	_	_
+11-17	1295-1301	Membri	_	_
+11-18	1302-1309	onorarj	_	_
+11-19	1310-1324	dell'Instituto	_	_
+11-20	1325-1332	gesetzt	_	_
+11-21	1333-1339	werden	_	_
+11-22	1340-1344	kann	_	_
+11-23	1345-1346	.	_	_
+
+#Text=Ihr EBraun .
+12-1	1347-1350	Ihr	_	_
+12-2	1351-1357	EBraun	*	PERauthor
+12-3	1358-1359	.	_	_

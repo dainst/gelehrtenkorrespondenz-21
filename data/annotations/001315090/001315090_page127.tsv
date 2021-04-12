@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=16 Lepsius an Henzen Berlin , 6 .
+1-1	0-2	16	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	6	*[3]	DATEletter[3]
+1-8	32-33	.	*[3]	DATEletter[3]
+
+#Text=Januar 1874 g.- 9/1 74 Berlin d . 6 .
+2-1	34-40	Januar	*[3]	DATEletter[3]
+2-2	41-45	1874	*[3]	DATEletter[3]
+2-3	46-49	g.-	_	_
+2-4	50-53	9/1	*[4]	DATErecieved[4]
+2-5	54-56	74	*[4]	DATErecieved[4]
+2-6	57-63	Berlin	*	PLACEfrom
+2-7	64-65	d	_	_
+2-8	66-67	.	_	_
+2-9	68-69	6	*[5]	DATEletter[5]
+2-10	70-71	.	*[5]	DATEletter[5]
+
+#Text=Jan .
+3-1	72-75	Jan	*[5]	DATEletter[5]
+3-2	76-77	.	*[5]	DATEletter[5]
+
+#Text=1874 Verehrter Freund Ich war so eben bei Höpken , um ihn wegen Ihrer Gehalte zu fragen .
+4-1	78-82	1874	*[5]	DATEletter[5]
+4-2	83-92	Verehrter	_	_
+4-3	93-99	Freund	_	_
+4-4	100-103	Ich	_	_
+4-5	104-107	war	_	_
+4-6	108-110	so	_	_
+4-7	111-115	eben	_	_
+4-8	116-119	bei	_	_
+4-9	120-126	Höpken	*	PERmentioned
+4-10	127-128	,	_	_
+4-11	129-131	um	_	_
+4-12	132-135	ihn	_	_
+4-13	136-141	wegen	_	_
+4-14	142-147	Ihrer	_	_
+4-15	148-155	Gehalte	_	_
+4-16	156-158	zu	_	_
+4-17	159-165	fragen	_	_
+4-18	166-167	.	_	_
+
+#Text=Der sagt mir , sie hätten aus unserm Ministerium , wahrscheinlich auf meine erste Nachfrage , längst dem Reichsministerium geschrieben , sie hätten von Anfang dieses Jahrs keine Fonds mehr für das Archäologische Institut .
+5-1	168-171	Der	_	_
+5-2	172-176	sagt	_	_
+5-3	177-180	mir	_	_
+5-4	181-182	,	_	_
+5-5	183-186	sie	_	_
+5-6	187-193	hätten	_	_
+5-7	194-197	aus	_	_
+5-8	198-204	unserm	_	_
+5-9	205-216	Ministerium	*	ORGmentioned
+5-10	217-218	,	_	_
+5-11	219-233	wahrscheinlich	_	_
+5-12	234-237	auf	_	_
+5-13	238-243	meine	_	_
+5-14	244-249	erste	_	_
+5-15	250-259	Nachfrage	_	_
+5-16	260-261	,	_	_
+5-17	262-268	längst	_	_
+5-18	269-272	dem	_	_
+5-19	273-290	Reichsministerium	*	ORGmentioned
+5-20	291-302	geschrieben	_	_
+5-21	303-304	,	_	_
+5-22	305-308	sie	_	_
+5-23	309-315	hätten	_	_
+5-24	316-319	von	_	_
+5-25	320-326	Anfang	_	_
+5-26	327-333	dieses	_	_
+5-27	334-339	Jahrs	_	_
+5-28	340-345	keine	_	_
+5-29	346-351	Fonds	_	_
+5-30	352-356	mehr	_	_
+5-31	357-360	für	_	_
+5-32	361-364	das	_	_
+5-33	365-379	Archäologische	*[6]	ORGmentioned[6]
+5-34	380-388	Institut	*[6]	ORGmentioned[6]
+5-35	389-390	.	_	_
+
+#Text=Darauf sei erst am 29. Dezember sehr eilig vom Reiche bei ihnen angefragt worden , wie das bisherige Budget 1873 sei , und was danach die Beanten erhalten hätten .
+6-1	391-397	Darauf	_	_
+6-2	398-401	sei	_	_
+6-3	402-406	erst	_	_
+6-4	407-409	am	_	_
+6-5	410-413	29.	*[7]	DATEmentioned[7]
+6-6	414-422	Dezember	*[7]	DATEmentioned[7]
+6-7	423-427	sehr	_	_
+6-8	428-433	eilig	_	_
+6-9	434-437	vom	_	_
+6-10	438-444	Reiche	_	_
+6-11	445-448	bei	_	_
+6-12	449-454	ihnen	_	_
+6-13	455-464	angefragt	_	_
+6-14	465-471	worden	_	_
+6-15	472-473	,	_	_
+6-16	474-477	wie	_	_
+6-17	478-481	das	_	_
+6-18	482-491	bisherige	_	_
+6-19	492-498	Budget	_	_
+6-20	499-503	1873	*	DATEmentioned
+6-21	504-507	sei	_	_
+6-22	508-509	,	_	_
+6-23	510-513	und	_	_
+6-24	514-517	was	_	_
+6-25	518-524	danach	_	_
+6-26	525-528	die	_	_
+6-27	529-536	Beanten	_	_
+6-28	537-545	erhalten	_	_
+6-29	546-552	hätten	_	_
+6-30	553-554	.	_	_
+
+#Text=Darauf sei ihnen dies alsbald den 31 . ''
+7-1	555-561	Darauf	_	_
+7-2	562-565	sei	_	_
+7-3	566-571	ihnen	_	_
+7-4	572-576	dies	_	_
+7-5	577-584	alsbald	_	_
+7-6	585-588	den	_	_
+7-7	589-591	31	*[8]	DATEmentioned[8]
+7-8	592-593	.	*[8]	DATEmentioned[8]
+7-9	594-596	''	*[8]	DATEmentioned[8]
+
+#Text=Dezember mitgetheilt worden .
+8-1	597-605	Dezember	*[8]	DATEmentioned[8]
+8-2	606-617	mitgetheilt	_	_
+8-3	618-624	worden	_	_
+8-4	625-626	.	_	_
+
+#Text=Daraus geht mir hervor , daß , weil das neuste archäologische Reichsbudget zwar vom Reichstage genehmigt , aber noch nicht formell ganz erledigt ist - namentlich muß es noch dem Budgetrath vorgelegt werden , und ja auch uns noch nicht als genehmigt mitgetheilt ist , man ohne Zweifel beabsichtigt , die neuen Bewilligungen zu zahlen erst wenn Alles absolvirt ist \; bis dahin aber will man die Gehälter des Preußischen Budget 1873 zahlen .
+9-1	627-633	Daraus	_	_
+9-2	634-638	geht	_	_
+9-3	639-642	mir	_	_
+9-4	643-649	hervor	_	_
+9-5	650-651	,	_	_
+9-6	652-655	daß	_	_
+9-7	656-657	,	_	_
+9-8	658-662	weil	_	_
+9-9	663-666	das	_	_
+9-10	667-673	neuste	_	_
+9-11	674-688	archäologische	_	_
+9-12	689-701	Reichsbudget	_	_
+9-13	702-706	zwar	_	_
+9-14	707-710	vom	_	_
+9-15	711-721	Reichstage	*	ORGmentioned
+9-16	722-731	genehmigt	_	_
+9-17	732-733	,	_	_
+9-18	734-738	aber	_	_
+9-19	739-743	noch	_	_
+9-20	744-749	nicht	_	_
+9-21	750-757	formell	_	_
+9-22	758-762	ganz	_	_
+9-23	763-771	erledigt	_	_
+9-24	772-775	ist	_	_
+9-25	776-777	-	_	_
+9-26	778-788	namentlich	_	_
+9-27	789-792	muß	_	_
+9-28	793-795	es	_	_
+9-29	796-800	noch	_	_
+9-30	801-804	dem	_	_
+9-31	805-815	Budgetrath	*	ORGmentioned
+9-32	816-825	vorgelegt	_	_
+9-33	826-832	werden	_	_
+9-34	833-834	,	_	_
+9-35	835-838	und	_	_
+9-36	839-841	ja	_	_
+9-37	842-846	auch	_	_
+9-38	847-850	uns	_	_
+9-39	851-855	noch	_	_
+9-40	856-861	nicht	_	_
+9-41	862-865	als	_	_
+9-42	866-875	genehmigt	_	_
+9-43	876-887	mitgetheilt	_	_
+9-44	888-891	ist	_	_
+9-45	892-893	,	_	_
+9-46	894-897	man	_	_
+9-47	898-902	ohne	_	_
+9-48	903-910	Zweifel	_	_
+9-49	911-923	beabsichtigt	_	_
+9-50	924-925	,	_	_
+9-51	926-929	die	_	_
+9-52	930-935	neuen	_	_
+9-53	936-949	Bewilligungen	_	_
+9-54	950-952	zu	_	_
+9-55	953-959	zahlen	_	_
+9-56	960-964	erst	_	_
+9-57	965-969	wenn	_	_
+9-58	970-975	Alles	_	_
+9-59	976-985	absolvirt	_	_
+9-60	986-989	ist	_	_
+9-61	990-991	\;	_	_
+9-62	992-995	bis	_	_
+9-63	996-1001	dahin	_	_
+9-64	1002-1006	aber	_	_
+9-65	1007-1011	will	_	_
+9-66	1012-1015	man	_	_
+9-67	1016-1019	die	_	_
+9-68	1020-1028	Gehälter	_	_
+9-69	1029-1032	des	_	_
+9-70	1033-1044	Preußischen	_	_
+9-71	1045-1051	Budget	_	_
+9-72	1052-1056	1873	*	DATEmentioned
+9-73	1057-1063	zahlen	_	_
+9-74	1064-1065	.	_	_
+
+#Text=Sie werden also wohl sogleich Anweisung in Rom für die frühere Summe erhalten , den Überschuß der neuen aber erst später bis zum 41.7 Jan .
+10-1	1066-1069	Sie	_	_
+10-2	1070-1076	werden	_	_
+10-3	1077-1081	also	_	_
+10-4	1082-1086	wohl	_	_
+10-5	1087-1095	sogleich	_	_
+10-6	1096-1105	Anweisung	_	_
+10-7	1106-1108	in	_	_
+10-8	1109-1112	Rom	*	PLACEmentioned
+10-9	1113-1116	für	_	_
+10-10	1117-1120	die	_	_
+10-11	1121-1128	frühere	_	_
+10-12	1129-1134	Summe	_	_
+10-13	1135-1143	erhalten	_	_
+10-14	1144-1145	,	_	_
+10-15	1146-1149	den	_	_
+10-16	1150-1159	Überschuß	_	_
+10-17	1160-1163	der	_	_
+10-18	1164-1169	neuen	_	_
+10-19	1170-1174	aber	_	_
+10-20	1175-1179	erst	_	_
+10-21	1180-1186	später	_	_
+10-22	1187-1190	bis	_	_
+10-23	1191-1194	zum	_	_
+10-24	1195-1199	41.7	*[9]	DATEmentioned[9]
+10-25	1200-1203	Jan	*[9]	DATEmentioned[9]
+10-26	1204-1205	.	*[9]	DATEmentioned[9]
+
+#Text=zurück nachgezahlt erhalten .
+11-1	1206-1212	zurück	_	_
+11-2	1213-1224	nachgezahlt	_	_
+11-3	1225-1233	erhalten	_	_
+11-4	1234-1235	.	_	_
+
+#Text=Hiermit klärt sich nun Al-
+12-1	1236-1243	Hiermit	_	_
+12-2	1244-1249	klärt	_	_
+12-3	1250-1254	sich	_	_
+12-4	1255-1258	nun	_	_
+12-5	1259-1262	Al-	_	_

@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1023 Gerhard an Braun \_ Berlin , 30. Dezember 1834 Herrn Dr. Braun Berlin d . 30 .
+1-1	0-4	1023	_	_
+1-2	5-12	Gerhard	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-21	Braun	*	PERaddressee
+1-5	22-23	\_	_	_
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-36	30.	*[4]	DATEletter[4]
+1-9	37-45	Dezember	*[4]	DATEletter[4]
+1-10	46-50	1834	*[4]|*[7]	DATEletter[4]|DATEletter[7]
+1-11	51-56	Herrn	*[5]	PERaddressee[5]
+1-12	57-60	Dr.	*[5]	PERaddressee[5]
+1-13	61-66	Braun	*[5]	PERaddressee[5]
+1-14	67-73	Berlin	*	PLACEfrom
+1-15	74-75	d	_	_
+1-16	76-77	.	_	_
+1-17	78-80	30	_	_
+1-18	81-82	.	_	_
+
+#Text=Dec .
+2-1	83-86	Dec	_	_
+2-2	87-88	.	_	_
+
+#Text=1834 .
+3-1	89-93	1834	*[8]	DATEmentioned[8]
+3-2	94-95	.	_	_
+
+#Text=Lassen Sie sich , lieber Freund , zuvörderst gemahnt seyn , Ihre Briefe mit der ausdrücklichen Aufschrift : `` Angelegenheiten des archäologischen Instituts '' zu vsersehen .
+4-1	96-102	Lassen	_	_
+4-2	103-106	Sie	_	_
+4-3	107-111	sich	_	_
+4-4	112-113	,	_	_
+4-5	114-120	lieber	_	_
+4-6	121-127	Freund	_	_
+4-7	128-129	,	_	_
+4-8	130-140	zuvörderst	_	_
+4-9	141-148	gemahnt	_	_
+4-10	149-153	seyn	_	_
+4-11	154-155	,	_	_
+4-12	156-160	Ihre	_	_
+4-13	161-167	Briefe	_	_
+4-14	168-171	mit	_	_
+4-15	172-175	der	_	_
+4-16	176-190	ausdrücklichen	_	_
+4-17	191-201	Aufschrift	_	_
+4-18	202-203	:	_	_
+4-19	204-206	``	_	_
+4-20	207-222	Angelegenheiten	_	_
+4-21	223-226	des	_	_
+4-22	227-242	archäologischen	_	_
+4-23	243-252	Instituts	_	_
+4-24	253-255	''	_	_
+4-25	256-258	zu	_	_
+4-26	259-268	vsersehen	_	_
+4-27	269-270	.	_	_
+
+#Text=Allenfalls dürfen Sie sich einmal verschreiben ( Ungelegenheiten schreibt De Witte ) \; die Formel aber darf nicht fehlen .
+5-1	271-281	Allenfalls	_	_
+5-2	282-288	dürfen	_	_
+5-3	289-292	Sie	_	_
+5-4	293-297	sich	_	_
+5-5	298-304	einmal	_	_
+5-6	305-317	verschreiben	_	_
+5-7	318-319	(	_	_
+5-8	320-335	Ungelegenheiten	_	_
+5-9	336-344	schreibt	_	_
+5-10	345-347	De	*[9]	PERmentioned[9]
+5-11	348-353	Witte	*[9]	PERmentioned[9]
+5-12	354-355	)	_	_
+5-13	356-357	\;	_	_
+5-14	358-361	die	_	_
+5-15	362-368	Formel	_	_
+5-16	369-373	aber	_	_
+5-17	374-378	darf	_	_
+5-18	379-384	nicht	_	_
+5-19	385-391	fehlen	_	_
+5-20	392-393	.	_	_
+
+#Text=Ein für Sie lesbarer Beischluß an Geh .
+6-1	394-397	Ein	_	_
+6-2	398-401	für	_	_
+6-3	402-405	Sie	_	_
+6-4	406-414	lesbarer	_	_
+6-5	415-424	Beischluß	_	_
+6-6	425-427	an	_	_
+6-7	428-431	Geh	_	_
+6-8	432-433	.	_	_
+
+#Text=Rath Bunsen enthält zugleich mehrere Antworten für Sie .
+7-1	434-438	Rath	_	_
+7-2	439-445	Bunsen	*	PERmentioned
+7-3	446-453	enthält	_	_
+7-4	454-462	zugleich	_	_
+7-5	463-470	mehrere	_	_
+7-6	471-480	Antworten	_	_
+7-7	481-484	für	_	_
+7-8	485-488	Sie	_	_
+7-9	489-490	.	_	_
+
+#Text=Von den liquidirten Scudi 41 Baj .
+8-1	491-494	Von	_	_
+8-2	495-498	den	_	_
+8-3	499-510	liquidirten	_	_
+8-4	511-516	Scudi	_	_
+8-5	517-519	41	_	_
+8-6	520-523	Baj	_	_
+8-7	524-525	.	_	_
+
+#Text=51 werden sich wohl höchstens einige Posten wegdemonstriren lassen .
+9-1	526-528	51	_	_
+9-2	529-535	werden	_	_
+9-3	536-540	sich	_	_
+9-4	541-545	wohl	_	_
+9-5	546-555	höchstens	_	_
+9-6	556-562	einige	_	_
+9-7	563-569	Posten	_	_
+9-8	570-585	wegdemonstriren	_	_
+9-9	586-592	lassen	_	_
+9-10	593-594	.	_	_
+
+#Text=Fragen Sie Kellermann über die Posten vom Jahr 1833 \; unglaublich , daß dergleichen nach meiner minutiösen vorjährigen Jahresrechnung noch nachhinkt .
+10-1	595-601	Fragen	_	_
+10-2	602-605	Sie	_	_
+10-3	606-616	Kellermann	*	PERmentioned
+10-4	617-621	über	_	_
+10-5	622-625	die	_	_
+10-6	626-632	Posten	_	_
+10-7	633-636	vom	_	_
+10-8	637-641	Jahr	*[12]	DATEmentioned[12]
+10-9	642-646	1833	*[12]	DATEmentioned[12]
+10-10	647-648	\;	_	_
+10-11	649-660	unglaublich	_	_
+10-12	661-662	,	_	_
+10-13	663-666	daß	_	_
+10-14	667-678	dergleichen	_	_
+10-15	679-683	nach	_	_
+10-16	684-690	meiner	_	_
+10-17	691-701	minutiösen	_	_
+10-18	702-713	vorjährigen	_	_
+10-19	714-728	Jahresrechnung	_	_
+10-20	729-733	noch	_	_
+10-21	734-743	nachhinkt	_	_
+10-22	744-745	.	_	_
+
+#Text=Meine Rechnungen und Quittungen dieses Jahres hat Lanci .
+11-1	746-751	Meine	_	_
+11-2	752-762	Rechnungen	_	_
+11-3	763-766	und	_	_
+11-4	767-777	Quittungen	_	_
+11-5	778-784	dieses	_	_
+11-6	785-791	Jahres	_	_
+11-7	792-795	hat	_	_
+11-8	796-801	Lanci	*	PERmentioned
+11-9	802-803	.	_	_
+
+#Text=Was könnte ich in dieser Sache nun weiter sagen ?
+12-1	804-807	Was	_	_
+12-2	808-814	könnte	_	_
+12-3	815-818	ich	_	_
+12-4	819-821	in	_	_
+12-5	822-828	dieser	_	_
+12-6	829-834	Sache	_	_
+12-7	835-838	nun	_	_
+12-8	839-845	weiter	_	_
+12-9	846-851	sagen	_	_
+12-10	852-853	?	_	_
+
+#Text=Nichts , als Ihnen die Zahlung freizustellen , und Sie um genaueste Buchführung über jede einzelne Sendung , um Einmahnung der Rechnungen , die Ihnen nicht sofort zugestellt werden , zu bitten .
+13-1	854-860	Nichts	_	_
+13-2	861-862	,	_	_
+13-3	863-866	als	_	_
+13-4	867-872	Ihnen	_	_
+13-5	873-876	die	_	_
+13-6	877-884	Zahlung	_	_
+13-7	885-898	freizustellen	_	_
+13-8	899-900	,	_	_
+13-9	901-904	und	_	_
+13-10	905-908	Sie	_	_
+13-11	909-911	um	_	_
+13-12	912-921	genaueste	_	_
+13-13	922-933	Buchführung	_	_
+13-14	934-938	über	_	_
+13-15	939-943	jede	_	_
+13-16	944-952	einzelne	_	_
+13-17	953-960	Sendung	_	_
+13-18	961-962	,	_	_
+13-19	963-965	um	_	_
+13-20	966-976	Einmahnung	_	_
+13-21	977-980	der	_	_
+13-22	981-991	Rechnungen	_	_
+13-23	992-993	,	_	_
+13-24	994-997	die	_	_
+13-25	998-1003	Ihnen	_	_
+13-26	1004-1009	nicht	_	_
+13-27	1010-1016	sofort	_	_
+13-28	1017-1027	zugestellt	_	_
+13-29	1028-1034	werden	_	_
+13-30	1035-1036	,	_	_
+13-31	1037-1039	zu	_	_
+13-32	1040-1046	bitten	_	_
+13-33	1047-1048	.	_	_
+
+#Text=Agli avvisi della direzione , coi qali si darä termine al bullettino di questo anno , si aggiungerä , ch'il Dottore Braun succede al Dottore Kellermann nella gqualitä di Prosegretario della direzione in Roma .
+14-1	1049-1053	Agli	_	_
+14-2	1054-1060	avvisi	_	_
+14-3	1061-1066	della	_	_
+14-4	1067-1076	direzione	_	_
+14-5	1077-1078	,	_	_
+14-6	1079-1082	coi	_	_
+14-7	1083-1087	qali	_	_
+14-8	1088-1090	si	_	_
+14-9	1091-1095	darä	_	_
+14-10	1096-1103	termine	_	_
+14-11	1104-1106	al	_	_
+14-12	1107-1117	bullettino	_	_
+14-13	1118-1120	di	_	_
+14-14	1121-1127	questo	_	_
+14-15	1128-1132	anno	_	_
+14-16	1133-1134	,	_	_
+14-17	1135-1137	si	_	_
+14-18	1138-1148	aggiungerä	_	_
+14-19	1149-1150	,	_	_
+14-20	1151-1156	ch'il	_	_
+14-21	1157-1164	Dottore	_	_
+14-22	1165-1170	Braun	*	PERmentioned
+14-23	1171-1178	succede	_	_
+14-24	1179-1181	al	_	_
+14-25	1182-1189	Dottore	_	_
+14-26	1190-1200	Kellermann	*	PERmentioned
+14-27	1201-1206	nella	_	_
+14-28	1207-1215	gqualitä	_	_
+14-29	1216-1218	di	_	_
+14-30	1219-1232	Prosegretario	_	_
+14-31	1233-1238	della	_	_
+14-32	1239-1248	direzione	*	ORGmentioned
+14-33	1249-1251	in	_	_
+14-34	1252-1256	Roma	*	PLACEmentioned
+14-35	1257-1258	.	_	_
+
+#Text=Non
+15-1	1259-1262	Non	_	_

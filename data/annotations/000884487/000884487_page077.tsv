@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=171 Gerhard an Braun Berlin , 31. Mai 1836 Dr. Braun Berlin den 31.sten Mai 1836 .
+1-1	0-3	171	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	31.	*[5]	DATEletter[5]
+1-8	34-37	Mai	*[5]	DATEletter[5]
+1-9	38-42	1836	*[5]	DATEletter[5]
+1-10	43-46	Dr.	_	_
+1-11	47-52	Braun	*	PERaddressee
+1-12	53-59	Berlin	*	PLACEfrom
+1-13	60-63	den	_	_
+1-14	64-71	31.sten	*[7]	DATEletter[7]
+1-15	72-75	Mai	*[7]	DATEletter[7]
+1-16	76-80	1836	*[7]	DATEletter[7]
+1-17	81-82	.	_	_
+
+#Text=Mein theurer Freund .
+2-1	83-87	Mein	_	_
+2-2	88-95	theurer	_	_
+2-3	96-102	Freund	_	_
+2-4	103-104	.	_	_
+
+#Text=Diesen kalten und erkältenden Maimonat muß ich , so hartnäckig auch Ihr fortlaufendes Stillschweigen ist , doch noch mit einem Brief an Sie beschließen .
+3-1	105-111	Diesen	_	_
+3-2	112-118	kalten	_	_
+3-3	119-122	und	_	_
+3-4	123-134	erkältenden	_	_
+3-5	135-143	Maimonat	_	_
+3-6	144-147	muß	_	_
+3-7	148-151	ich	_	_
+3-8	152-153	,	_	_
+3-9	154-156	so	_	_
+3-10	157-167	hartnäckig	_	_
+3-11	168-172	auch	_	_
+3-12	173-176	Ihr	_	_
+3-13	177-190	fortlaufendes	_	_
+3-14	191-205	Stillschweigen	_	_
+3-15	206-209	ist	_	_
+3-16	210-211	,	_	_
+3-17	212-216	doch	_	_
+3-18	217-221	noch	_	_
+3-19	222-225	mit	_	_
+3-20	226-231	einem	_	_
+3-21	232-237	Brief	_	_
+3-22	238-240	an	_	_
+3-23	241-244	Sie	_	_
+3-24	245-256	beschließen	_	_
+3-25	257-258	.	_	_
+
+#Text=Es ist meinem letzten Beischluß begegnet daß ich versäunmte ihn an Lepsius zu addressiren \; sollte die Ablieferung denmnach sich verzögert haben , so halten Sie den Brief noch zurück bis ich einen Umschlag sende .
+4-1	259-261	Es	_	_
+4-2	262-265	ist	_	_
+4-3	266-272	meinem	_	_
+4-4	273-280	letzten	_	_
+4-5	281-290	Beischluß	_	_
+4-6	291-299	begegnet	_	_
+4-7	300-303	daß	_	_
+4-8	304-307	ich	_	_
+4-9	308-318	versäunmte	_	_
+4-10	319-322	ihn	_	_
+4-11	323-325	an	_	_
+4-12	326-333	Lepsius	*	PERmentioned
+4-13	334-336	zu	_	_
+4-14	337-348	addressiren	_	_
+4-15	349-350	\;	_	_
+4-16	351-357	sollte	_	_
+4-17	358-361	die	_	_
+4-18	362-373	Ablieferung	_	_
+4-19	374-382	denmnach	_	_
+4-20	383-387	sich	_	_
+4-21	388-397	verzögert	_	_
+4-22	398-403	haben	_	_
+4-23	404-405	,	_	_
+4-24	406-408	so	_	_
+4-25	409-415	halten	_	_
+4-26	416-419	Sie	_	_
+4-27	420-423	den	_	_
+4-28	424-429	Brief	_	_
+4-29	430-434	noch	_	_
+4-30	435-441	zurück	_	_
+4-31	442-445	bis	_	_
+4-32	446-449	ich	_	_
+4-33	450-455	einen	_	_
+4-34	456-464	Umschlag	_	_
+4-35	465-470	sende	_	_
+4-36	471-472	.	_	_
+
+#Text=Ist er abgegeben , so schadet es hoffentlich auch nichts .
+5-1	473-476	Ist	_	_
+5-2	477-479	er	_	_
+5-3	480-489	abgegeben	_	_
+5-4	490-491	,	_	_
+5-5	492-494	so	_	_
+5-6	495-502	schadet	_	_
+5-7	503-505	es	_	_
+5-8	506-517	hoffentlich	_	_
+5-9	518-522	auch	_	_
+5-10	523-529	nichts	_	_
+5-11	530-531	.	_	_
+
+#Text=Einliegend ein Brief an Vollard den ich zu verkleben bitte .
+6-1	532-542	Einliegend	_	_
+6-2	543-546	ein	_	_
+6-3	547-552	Brief	_	_
+6-4	553-555	an	_	_
+6-5	556-563	Vollard	*	PERmentioned
+6-6	564-567	den	_	_
+6-7	568-571	ich	_	_
+6-8	572-574	zu	_	_
+6-9	575-584	verkleben	_	_
+6-10	585-590	bitte	_	_
+6-11	591-592	.	_	_
+
+#Text=- Uebrigens habe ich Ihnen so voreilig zu schreiben als ich Ihnen viel zu sagen hätte \; kommen erst römische Briefe , so wird es der Freude und dem Gemüth vermuthlich an Arbeit nicht fehlen .
+7-1	593-594	-	_	_
+7-2	595-604	Uebrigens	_	_
+7-3	605-609	habe	_	_
+7-4	610-613	ich	_	_
+7-5	614-619	Ihnen	_	_
+7-6	620-622	so	_	_
+7-7	623-631	voreilig	_	_
+7-8	632-634	zu	_	_
+7-9	635-644	schreiben	_	_
+7-10	645-648	als	_	_
+7-11	649-652	ich	_	_
+7-12	653-658	Ihnen	_	_
+7-13	659-663	viel	_	_
+7-14	664-666	zu	_	_
+7-15	667-672	sagen	_	_
+7-16	673-678	hätte	_	_
+7-17	679-680	\;	_	_
+7-18	681-687	kommen	_	_
+7-19	688-692	erst	_	_
+7-20	693-701	römische	_	_
+7-21	702-708	Briefe	_	_
+7-22	709-710	,	_	_
+7-23	711-713	so	_	_
+7-24	714-718	wird	_	_
+7-25	719-721	es	_	_
+7-26	722-725	der	_	_
+7-27	726-732	Freude	_	_
+7-28	733-736	und	_	_
+7-29	737-740	dem	_	_
+7-30	741-747	Gemüth	_	_
+7-31	748-759	vermuthlich	_	_
+7-32	760-762	an	_	_
+7-33	763-769	Arbeit	_	_
+7-34	770-775	nicht	_	_
+7-35	776-782	fehlen	_	_
+7-36	783-784	.	_	_
+
+#Text=Einer meiner Freunde will nach Griechenland \; lassen Sie mich doch gefälligst die Abgangstage des Dampfschiffes von Ancona für August und September wissen , desgleichen etwaige Choleranotizen .
+8-1	785-790	Einer	_	_
+8-2	791-797	meiner	_	_
+8-3	798-805	Freunde	_	_
+8-4	806-810	will	_	_
+8-5	811-815	nach	_	_
+8-6	816-828	Griechenland	*	PLACEmentioned
+8-7	829-830	\;	_	_
+8-8	831-837	lassen	_	_
+8-9	838-841	Sie	_	_
+8-10	842-846	mich	_	_
+8-11	847-851	doch	_	_
+8-12	852-862	gefälligst	_	_
+8-13	863-866	die	_	_
+8-14	867-878	Abgangstage	_	_
+8-15	879-882	des	_	_
+8-16	883-896	Dampfschiffes	_	_
+8-17	897-900	von	_	_
+8-18	901-907	Ancona	*	PLACEmentioned
+8-19	908-911	für	_	_
+8-20	912-918	August	*	DATEmentioned
+8-21	919-922	und	_	_
+8-22	923-932	September	*	DATEmentioned
+8-23	933-939	wissen	_	_
+8-24	940-941	,	_	_
+8-25	942-953	desgleichen	_	_
+8-26	954-961	etwaige	_	_
+8-27	962-976	Choleranotizen	_	_
+8-28	977-978	.	_	_
+
+#Text=Spiker und Tölker sind von dem französ .
+9-1	979-985	Spiker	*	PERmentioned
+9-2	986-989	und	_	_
+9-3	990-996	Tölker	*	PERmentioned
+9-4	997-1001	sind	_	_
+9-5	1002-1005	von	_	_
+9-6	1006-1009	dem	_	_
+9-7	1010-1017	französ	_	_
+9-8	1018-1019	.	_	_
+
+#Text=Prinzen mit Medaillen in Silber und Erz beschenkt worden .
+10-1	1020-1027	Prinzen	*	PERmentioned
+10-2	1028-1031	mit	_	_
+10-3	1032-1041	Medaillen	_	_
+10-4	1042-1044	in	_	_
+10-5	1045-1051	Silber	_	_
+10-6	1052-1055	und	_	_
+10-7	1056-1059	Erz	_	_
+10-8	1060-1069	beschenkt	_	_
+10-9	1070-1076	worden	_	_
+10-10	1077-1078	.	_	_
+
+#Text=- Forthammer ist hier \; er ist ein großer Mann geworden und sein Buch über Griechenland soll ein erstaunliches Buch werden .
+11-1	1079-1080	-	_	_
+11-2	1081-1091	Forthammer	*	PERmentioned
+11-3	1092-1095	ist	_	_
+11-4	1096-1100	hier	_	_
+11-5	1101-1102	\;	_	_
+11-6	1103-1105	er	_	_
+11-7	1106-1109	ist	_	_
+11-8	1110-1113	ein	_	_
+11-9	1114-1120	großer	_	_
+11-10	1121-1125	Mann	_	_
+11-11	1126-1134	geworden	_	_
+11-12	1135-1138	und	_	_
+11-13	1139-1143	sein	_	_
+11-14	1144-1148	Buch	_	_
+11-15	1149-1153	über	_	_
+11-16	1154-1166	Griechenland	*	PLACEmentioned
+11-17	1167-1171	soll	_	_
+11-18	1172-1175	ein	_	_
+11-19	1176-1189	erstaunliches	_	_
+11-20	1190-1194	Buch	_	_
+11-21	1195-1201	werden	_	_
+11-22	1202-1203	.	_	_

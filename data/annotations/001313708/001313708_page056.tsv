@@ -1,0 +1,111 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Berlin , 16. Juni 1833 berg in Mannheim sehr krank ist .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	16.	*[4]	DATEletter[4]
+1-7	31-35	Juni	*[4]	DATEletter[4]
+1-8	36-40	1833	*[4]	DATEletter[4]
+1-9	41-45	berg	*	PERmentioned
+1-10	46-48	in	_	_
+1-11	49-57	Mannheim	*	PLACEmentioned
+1-12	58-62	sehr	_	_
+1-13	63-68	krank	_	_
+1-14	69-72	ist	_	_
+1-15	73-74	.	_	_
+
+#Text=Von Cottas nichts .
+2-1	75-78	Von	_	_
+2-2	79-85	Cottas	*	ORGmentioned
+2-3	86-92	nichts	_	_
+2-4	93-94	.	_	_
+
+#Text=Herzlichst Ihr getreuster Gerhard Quer auf der ersten Seite : aaa vun mnteen Sollte sich über Lucian Bonap ( arte ( s ) längern Aufenthalt , Reisepläne und 7 zum Behuf meiner englischen Reise nichts Bestimmtes ermitteln lassen ?
+3-1	95-105	Herzlichst	_	_
+3-2	106-109	Ihr	_	_
+3-3	110-120	getreuster	_	_
+3-4	121-128	Gerhard	*	PERauthor
+3-5	129-133	Quer	_	_
+3-6	134-137	auf	_	_
+3-7	138-141	der	_	_
+3-8	142-148	ersten	_	_
+3-9	149-154	Seite	_	_
+3-10	155-156	:	_	_
+3-11	157-160	aaa	_	_
+3-12	161-164	vun	_	_
+3-13	165-171	mnteen	_	_
+3-14	172-178	Sollte	_	_
+3-15	179-183	sich	_	_
+3-16	184-188	über	_	_
+3-17	189-195	Lucian	*[9]	PERmentioned[9]
+3-18	196-201	Bonap	*[9]	PERmentioned[9]
+3-19	202-203	(	*[9]	PERmentioned[9]
+3-20	204-208	arte	*[9]	PERmentioned[9]
+3-21	209-210	(	*[9]	PERmentioned[9]
+3-22	211-212	s	_	_
+3-23	213-214	)	_	_
+3-24	215-222	längern	_	_
+3-25	223-233	Aufenthalt	_	_
+3-26	234-235	,	_	_
+3-27	236-246	Reisepläne	_	_
+3-28	247-250	und	_	_
+3-29	251-252	7	_	_
+3-30	253-256	zum	_	_
+3-31	257-262	Behuf	_	_
+3-32	263-269	meiner	_	_
+3-33	270-280	englischen	_	_
+3-34	281-286	Reise	_	_
+3-35	287-293	nichts	_	_
+3-36	294-304	Bestimmtes	_	_
+3-37	305-314	ermitteln	_	_
+3-38	315-321	lassen	_	_
+3-39	322-323	?	_	_
+
+#Text=Nicht einmal ob das 3.te Heft seines Reisewerks erschienen ist , habe ich aus Rom erfahren können .
+4-1	324-329	Nicht	_	_
+4-2	330-336	einmal	_	_
+4-3	337-339	ob	_	_
+4-4	340-343	das	_	_
+4-5	344-348	3.te	_	_
+4-6	349-353	Heft	_	_
+4-7	354-360	seines	_	_
+4-8	361-371	Reisewerks	_	_
+4-9	372-382	erschienen	_	_
+4-10	383-386	ist	_	_
+4-11	387-388	,	_	_
+4-12	389-393	habe	_	_
+4-13	394-397	ich	_	_
+4-14	398-401	aus	_	_
+4-15	402-405	Rom	*	PLACEmentioned
+4-16	406-414	erfahren	_	_
+4-17	415-421	können	_	_
+4-18	422-423	.	_	_
+
+#Text=Quer auf der zweiten Seite : Meine große Freude über Ihren Rapportound sonstige Thatikeit fürs Institut wird Ihnen Kellermann ausgedrückt haben .
+5-1	424-428	Quer	_	_
+5-2	429-432	auf	_	_
+5-3	433-436	der	_	_
+5-4	437-444	zweiten	_	_
+5-5	445-450	Seite	_	_
+5-6	451-452	:	_	_
+5-7	453-458	Meine	_	_
+5-8	459-464	große	_	_
+5-9	465-471	Freude	_	_
+5-10	472-476	über	_	_
+5-11	477-482	Ihren	_	_
+5-12	483-494	Rapportound	_	_
+5-13	495-503	sonstige	_	_
+5-14	504-513	Thatikeit	_	_
+5-15	514-518	fürs	_	_
+5-16	519-527	Institut	*	ORGmentioned
+5-17	528-532	wird	_	_
+5-18	533-538	Ihnen	_	_
+5-19	539-549	Kellermann	*	PERmentioned
+5-20	550-561	ausgedrückt	_	_
+5-21	562-567	haben	_	_
+5-22	568-569	.	_	_

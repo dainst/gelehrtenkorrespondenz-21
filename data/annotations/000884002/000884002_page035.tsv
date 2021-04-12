@@ -1,0 +1,268 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=a . 283 Brunn an Henzen Perugia , 4 .
+1-1	0-1	a	_	_
+1-2	2-3	.	_	_
+1-3	4-7	283	_	_
+1-4	8-13	Brunn	*	PERauthor
+1-5	14-16	an	_	_
+1-6	17-23	Henzen	*	PERaddressee
+1-7	24-31	Perugia	*	PLACEfrom
+1-8	32-33	,	_	_
+1-9	34-35	4	*[7]	DATEletter[7]
+1-10	36-37	.	*[7]	DATEletter[7]
+
+#Text=Oktober 1858 A. di Dir .
+2-1	38-45	Oktober	*[7]	DATEletter[7]
+2-2	46-50	1858	*[7]	DATEletter[7]
+2-3	51-53	A.	_	_
+2-4	54-56	di	_	_
+2-5	57-60	Dir	_	_
+2-6	61-62	.	_	_
+
+#Text=6 .
+3-1	63-64	6	*[8]	DATErecieved[8]
+3-2	65-66	.	*[8]	DATErecieved[8]
+
+#Text=Oktober 1858 r . Lieber Henzen \| !
+4-1	67-74	Oktober	*[8]	DATErecieved[8]
+4-2	75-79	1858	*[8]	DATErecieved[8]
+4-3	80-81	r	_	_
+4-4	82-83	.	_	_
+4-5	84-90	Lieber	_	_
+4-6	91-97	Henzen	*	PERaddressee
+4-7	98-99	\|	_	_
+4-8	100-101	!	_	_
+
+#Text=Anbei den dicken Tröster , der von der Behäbigkeit der Gestalt seines Autors ein sprechendes Zeugniß ablegt .
+5-1	102-107	Anbei	_	_
+5-2	108-111	den	_	_
+5-3	112-118	dicken	_	_
+5-4	119-126	Tröster	_	_
+5-5	127-128	,	_	_
+5-6	129-132	der	_	_
+5-7	133-136	von	_	_
+5-8	137-140	der	_	_
+5-9	141-152	Behäbigkeit	_	_
+5-10	153-156	der	_	_
+5-11	157-164	Gestalt	_	_
+5-12	165-171	seines	_	_
+5-13	172-178	Autors	_	_
+5-14	179-182	ein	_	_
+5-15	183-194	sprechendes	_	_
+5-16	195-202	Zeugniß	_	_
+5-17	203-209	ablegt	_	_
+5-18	210-211	.	_	_
+
+#Text=Uebrigens , selbst wenn die Grundidee nicht richtig sein sollte , was ich nicht zu veurtheilen vermag , macht doch das Ganze einen guten Eindruck .
+6-1	212-221	Uebrigens	_	_
+6-2	222-223	,	_	_
+6-3	224-230	selbst	_	_
+6-4	231-235	wenn	_	_
+6-5	236-239	die	_	_
+6-6	240-249	Grundidee	_	_
+6-7	250-255	nicht	_	_
+6-8	256-263	richtig	_	_
+6-9	264-268	sein	_	_
+6-10	269-275	sollte	_	_
+6-11	276-277	,	_	_
+6-12	278-281	was	_	_
+6-13	282-285	ich	_	_
+6-14	286-291	nicht	_	_
+6-15	292-294	zu	_	_
+6-16	295-306	veurtheilen	_	_
+6-17	307-313	vermag	_	_
+6-18	314-315	,	_	_
+6-19	316-321	macht	_	_
+6-20	322-326	doch	_	_
+6-21	327-330	das	_	_
+6-22	331-336	Ganze	_	_
+6-23	337-342	einen	_	_
+6-24	343-348	guten	_	_
+6-25	349-357	Eindruck	_	_
+6-26	358-359	.	_	_
+
+#Text=In Verlegenheit war ich , wie `` Einsatz '' beim Spiel zu übersetzen sei : posta , was die Lexica geben , scheint mir nicht gut \; und deposito , was einige male gehen mag , paßt nicht immer .
+7-1	360-362	In	_	_
+7-2	363-375	Verlegenheit	_	_
+7-3	376-379	war	_	_
+7-4	380-383	ich	_	_
+7-5	384-385	,	_	_
+7-6	386-389	wie	_	_
+7-7	390-392	``	_	_
+7-8	393-400	Einsatz	_	_
+7-9	401-403	''	_	_
+7-10	404-408	beim	_	_
+7-11	409-414	Spiel	_	_
+7-12	415-417	zu	_	_
+7-13	418-428	übersetzen	_	_
+7-14	429-432	sei	_	_
+7-15	433-434	:	_	_
+7-16	435-440	posta	_	_
+7-17	441-442	,	_	_
+7-18	443-446	was	_	_
+7-19	447-450	die	_	_
+7-20	451-457	Lexica	_	_
+7-21	458-463	geben	_	_
+7-22	464-465	,	_	_
+7-23	466-473	scheint	_	_
+7-24	474-477	mir	_	_
+7-25	478-483	nicht	_	_
+7-26	484-487	gut	_	_
+7-27	488-489	\;	_	_
+7-28	490-493	und	_	_
+7-29	494-502	deposito	_	_
+7-30	503-504	,	_	_
+7-31	505-508	was	_	_
+7-32	509-515	einige	_	_
+7-33	516-520	male	_	_
+7-34	521-526	gehen	_	_
+7-35	527-530	mag	_	_
+7-36	531-532	,	_	_
+7-37	533-537	paßt	_	_
+7-38	538-543	nicht	_	_
+7-39	544-549	immer	_	_
+7-40	550-551	.	_	_
+
+#Text=Machen Sie doch den Corrector darauf aufmerksam , wie ich es Ihnen durch Bleistiftstriche gethan.Eineige kleine Fragezeichen werden Sie £licht erledigen .
+8-1	552-558	Machen	_	_
+8-2	559-562	Sie	_	_
+8-3	563-567	doch	_	_
+8-4	568-571	den	_	_
+8-5	572-581	Corrector	_	_
+8-6	582-588	darauf	_	_
+8-7	589-599	aufmerksam	_	_
+8-8	600-601	,	_	_
+8-9	602-605	wie	_	_
+8-10	606-609	ich	_	_
+8-11	610-612	es	_	_
+8-12	613-618	Ihnen	_	_
+8-13	619-624	durch	_	_
+8-14	625-641	Bleistiftstriche	_	_
+8-15	642-656	gethan.Eineige	_	_
+8-16	657-663	kleine	_	_
+8-17	664-676	Fragezeichen	_	_
+8-18	677-683	werden	_	_
+8-19	684-687	Sie	_	_
+8-20	688-694	£licht	_	_
+8-21	695-704	erledigen	_	_
+8-22	705-706	.	_	_
+
+#Text=Pag .
+9-1	707-710	Pag	_	_
+9-2	711-712	.	_	_
+
+#Text=2 ist die Pension doch wohl im Originaltext zu geben , der mich nicht zur Hand .
+10-1	713-714	2	_	_
+10-2	715-718	ist	_	_
+10-3	719-722	die	_	_
+10-4	723-730	Pension	_	_
+10-5	731-735	doch	_	_
+10-6	736-740	wohl	_	_
+10-7	741-743	im	_	_
+10-8	744-756	Originaltext	_	_
+10-9	757-759	zu	_	_
+10-10	760-765	geben	_	_
+10-11	766-767	,	_	_
+10-12	768-771	der	_	_
+10-13	772-776	mich	_	_
+10-14	777-782	nicht	_	_
+10-15	783-786	zur	_	_
+10-16	787-791	Hand	_	_
+10-17	792-793	.	_	_
+
+#Text=Die Nachträge des Briefes sind berücksichtigt .
+11-1	794-797	Die	_	_
+11-2	798-807	Nachträge	_	_
+11-3	808-811	des	_	_
+11-4	812-819	Briefes	_	_
+11-5	820-824	sind	_	_
+11-6	825-839	berücksichtigt	_	_
+11-7	840-841	.	_	_
+
+#Text=- Daß Bartoccini die Tafeln schickt wird nicht angehen , da er in Ermangelung eines guten Druckes die letzte Hand erst in Rom anlegen kann , Aber , wie gesagt , er selbst wünscht so bald als möglich zurückzukehren und auch Garrucci will ihn halb wiederhaben .
+12-1	842-843	-	_	_
+12-2	844-847	Daß	_	_
+12-3	848-858	Bartoccini	*	PERmentioned
+12-4	859-862	die	_	_
+12-5	863-869	Tafeln	_	_
+12-6	870-877	schickt	_	_
+12-7	878-882	wird	_	_
+12-8	883-888	nicht	_	_
+12-9	889-896	angehen	_	_
+12-10	897-898	,	_	_
+12-11	899-901	da	_	_
+12-12	902-904	er	_	_
+12-13	905-907	in	_	_
+12-14	908-919	Ermangelung	_	_
+12-15	920-925	eines	_	_
+12-16	926-931	guten	_	_
+12-17	932-939	Druckes	_	_
+12-18	940-943	die	_	_
+12-19	944-950	letzte	_	_
+12-20	951-955	Hand	_	_
+12-21	956-960	erst	_	_
+12-22	961-963	in	_	_
+12-23	964-967	Rom	*	PLACEmentioned
+12-24	968-975	anlegen	_	_
+12-25	976-980	kann	_	_
+12-26	981-982	,	_	_
+12-27	983-987	Aber	_	_
+12-28	988-989	,	_	_
+12-29	990-993	wie	_	_
+12-30	994-1000	gesagt	_	_
+12-31	1001-1002	,	_	_
+12-32	1003-1005	er	_	_
+12-33	1006-1012	selbst	_	_
+12-34	1013-1020	wünscht	_	_
+12-35	1021-1023	so	_	_
+12-36	1024-1028	bald	_	_
+12-37	1029-1032	als	_	_
+12-38	1033-1040	möglich	_	_
+12-39	1041-1055	zurückzukehren	_	_
+12-40	1056-1059	und	_	_
+12-41	1060-1064	auch	_	_
+12-42	1065-1073	Garrucci	*	PERmentioned
+12-43	1074-1078	will	_	_
+12-44	1079-1082	ihn	_	_
+12-45	1083-1087	halb	_	_
+12-46	1088-1099	wiederhaben	_	_
+12-47	1100-1101	.	_	_
+
+#Text=Sobald ich komme , kann ich einiges schon dem Drucker zurechtmachen \; für anderes Braucht Brlach seiner Rückkehr sehr wenig Zeit , so daß wir doch einigermaßen vorwärts gehen können .
+13-1	1102-1108	Sobald	_	_
+13-2	1109-1112	ich	_	_
+13-3	1113-1118	komme	_	_
+13-4	1119-1120	,	_	_
+13-5	1121-1125	kann	_	_
+13-6	1126-1129	ich	_	_
+13-7	1130-1137	einiges	_	_
+13-8	1138-1143	schon	_	_
+13-9	1144-1147	dem	_	_
+13-10	1148-1155	Drucker	_	_
+13-11	1156-1169	zurechtmachen	_	_
+13-12	1170-1171	\;	_	_
+13-13	1172-1175	für	_	_
+13-14	1176-1183	anderes	_	_
+13-15	1184-1191	Braucht	_	_
+13-16	1192-1198	Brlach	_	_
+13-17	1199-1205	seiner	_	_
+13-18	1206-1214	Rückkehr	_	_
+13-19	1215-1219	sehr	_	_
+13-20	1220-1225	wenig	_	_
+13-21	1226-1230	Zeit	_	_
+13-22	1231-1232	,	_	_
+13-23	1233-1235	so	_	_
+13-24	1236-1239	daß	_	_
+13-25	1240-1243	wir	_	_
+13-26	1244-1248	doch	_	_
+13-27	1249-1261	einigermaßen	_	_
+13-28	1262-1270	vorwärts	_	_
+13-29	1271-1276	gehen	_	_
+13-30	1277-1283	können	_	_
+13-31	1284-1285	.	_	_
+
+#Text=-
+14-1	1286-1287	-	_	_

@@ -1,0 +1,179 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 2 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	2	*[3]	DATEletter[3]
+1-7	28-29	.	*[3]	DATEletter[3]
+
+#Text=Januar 1849 das Archäologische Institut in den hiesigen Zeitungen gerade jetzt noch als lebend zu bezeichnen , im Augenblick Ihrer Eingabe .
+2-1	30-36	Januar	*[3]	DATEletter[3]
+2-2	37-41	1849	*[3]	DATEletter[3]
+2-3	42-45	das	_	_
+2-4	46-60	Archäologische	*[4]	ORGmentioned[4]
+2-5	61-69	Institut	*[4]	ORGmentioned[4]
+2-6	70-72	in	_	_
+2-7	73-76	den	_	_
+2-8	77-85	hiesigen	_	_
+2-9	86-95	Zeitungen	_	_
+2-10	96-102	gerade	_	_
+2-11	103-108	jetzt	_	_
+2-12	109-113	noch	_	_
+2-13	114-117	als	_	_
+2-14	118-124	lebend	_	_
+2-15	125-127	zu	_	_
+2-16	128-138	bezeichnen	_	_
+2-17	139-140	,	_	_
+2-18	141-143	im	_	_
+2-19	144-154	Augenblick	_	_
+2-20	155-160	Ihrer	_	_
+2-21	161-168	Eingabe	_	_
+2-22	169-170	.	_	_
+
+#Text=Aber es gab auch gar keine sonstige antiquarische Notiz um etwa daran zu knüpfen .
+3-1	171-175	Aber	_	_
+3-2	176-178	es	_	_
+3-3	179-182	gab	_	_
+3-4	183-187	auch	_	_
+3-5	188-191	gar	_	_
+3-6	192-197	keine	_	_
+3-7	198-206	sonstige	_	_
+3-8	207-220	antiquarische	_	_
+3-9	221-226	Notiz	_	_
+3-10	227-229	um	_	_
+3-11	230-234	etwa	_	_
+3-12	235-240	daran	_	_
+3-13	241-243	zu	_	_
+3-14	244-251	knüpfen	_	_
+3-15	252-253	.	_	_
+
+#Text=Ihre 50 rt für 1849 einzumahnen will ich noch 8 Tage warten , dann aber , wenn nichts erfolst ist nach Breslau schreiben , von wo aus man ja gleich an Sprosse nach Leipzig zahlen kann .
+4-1	254-258	Ihre	_	_
+4-2	259-261	50	_	_
+4-3	262-264	rt	_	_
+4-4	265-268	für	_	_
+4-5	269-273	1849	*	DATEmentioned
+4-6	274-285	einzumahnen	_	_
+4-7	286-290	will	_	_
+4-8	291-294	ich	_	_
+4-9	295-299	noch	_	_
+4-10	300-301	8	_	_
+4-11	302-306	Tage	_	_
+4-12	307-313	warten	_	_
+4-13	314-315	,	_	_
+4-14	316-320	dann	_	_
+4-15	321-325	aber	_	_
+4-16	326-327	,	_	_
+4-17	328-332	wenn	_	_
+4-18	333-339	nichts	_	_
+4-19	340-347	erfolst	_	_
+4-20	348-351	ist	_	_
+4-21	352-356	nach	_	_
+4-22	357-364	Breslau	*	PLACEmentioned
+4-23	365-374	schreiben	_	_
+4-24	375-376	,	_	_
+4-25	377-380	von	_	_
+4-26	381-383	wo	_	_
+4-27	384-387	aus	_	_
+4-28	388-391	man	_	_
+4-29	392-394	ja	_	_
+4-30	395-401	gleich	_	_
+4-31	402-404	an	_	_
+4-32	405-412	Sprosse	*	PERmentioned
+4-33	413-417	nach	_	_
+4-34	418-425	Leipzig	*	PLACEmentioned
+4-35	426-432	zahlen	_	_
+4-36	433-437	kann	_	_
+4-37	438-439	.	_	_
+
+#Text=Ihre Einlagen werden stets pünktlich besorst .
+5-1	440-444	Ihre	_	_
+5-2	445-453	Einlagen	_	_
+5-3	454-460	werden	_	_
+5-4	461-466	stets	_	_
+5-5	467-476	pünktlich	_	_
+5-6	477-484	besorst	_	_
+5-7	485-486	.	_	_
+
+#Text=Über der Rettung des Kapitols wird Lanci ohne Zweifel die Conti , hoffentlich aber den Neujahrsgruß nicht vergessen den er mir sonst schriftlich bot \; grüssen Sie ihn und andre Freunde bestens .
+6-1	487-491	Über	_	_
+6-2	492-495	der	_	_
+6-3	496-503	Rettung	_	_
+6-4	504-507	des	_	_
+6-5	508-516	Kapitols	*	PLACEmentioned
+6-6	517-521	wird	_	_
+6-7	522-527	Lanci	*	PERmentioned
+6-8	528-532	ohne	_	_
+6-9	533-540	Zweifel	_	_
+6-10	541-544	die	_	_
+6-11	545-550	Conti	_	_
+6-12	551-552	,	_	_
+6-13	553-564	hoffentlich	_	_
+6-14	565-569	aber	_	_
+6-15	570-573	den	_	_
+6-16	574-586	Neujahrsgruß	_	_
+6-17	587-592	nicht	_	_
+6-18	593-602	vergessen	_	_
+6-19	603-606	den	_	_
+6-20	607-609	er	_	_
+6-21	610-613	mir	_	_
+6-22	614-619	sonst	_	_
+6-23	620-631	schriftlich	_	_
+6-24	632-635	bot	_	_
+6-25	636-637	\;	_	_
+6-26	638-645	grüssen	_	_
+6-27	646-649	Sie	_	_
+6-28	650-653	ihn	_	_
+6-29	654-657	und	_	_
+6-30	658-663	andre	_	_
+6-31	664-671	Freunde	_	_
+6-32	672-679	bestens	_	_
+6-33	680-681	.	_	_
+
+#Text=Für Domenico stelle ich 1 Scudo anheim wenn Sie solchen auslegen wollen , und habe je 1 Scudo auch von Abeken und Wiese für ihn erlangt .
+7-1	682-685	Für	_	_
+7-2	686-694	Domenico	*	PERmentioned
+7-3	695-701	stelle	_	_
+7-4	702-705	ich	_	_
+7-5	706-707	1	_	_
+7-6	708-713	Scudo	_	_
+7-7	714-720	anheim	_	_
+7-8	721-725	wenn	_	_
+7-9	726-729	Sie	_	_
+7-10	730-737	solchen	_	_
+7-11	738-746	auslegen	_	_
+7-12	747-753	wollen	_	_
+7-13	754-755	,	_	_
+7-14	756-759	und	_	_
+7-15	760-764	habe	_	_
+7-16	765-767	je	_	_
+7-17	768-769	1	_	_
+7-18	770-775	Scudo	_	_
+7-19	776-780	auch	_	_
+7-20	781-784	von	_	_
+7-21	785-791	Abeken	*	PERmentioned
+7-22	792-795	und	_	_
+7-23	796-801	Wiese	*	PERmentioned
+7-24	802-805	für	_	_
+7-25	806-809	ihn	_	_
+7-26	810-817	erlangt	_	_
+7-27	818-819	.	_	_
+
+#Text=Meine Frau grüßt mit mir .
+8-1	820-825	Meine	_	_
+8-2	826-830	Frau	_	_
+8-3	831-836	grüßt	_	_
+8-4	837-840	mit	_	_
+8-5	841-844	mir	_	_
+8-6	845-846	.	_	_
+
+#Text=Herzlichst der Ihrige Gerhard
+9-1	847-857	Herzlichst	_	_
+9-2	858-861	der	_	_
+9-3	862-868	Ihrige	_	_
+9-4	869-876	Gerhard	*	PERauthor

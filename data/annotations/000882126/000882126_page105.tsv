@@ -1,0 +1,184 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=336 Braun an Gerhard Rom , 16. Mai 1836 Prof , Gerhard an 23/6 36 Roma li 16 Maggio 1836 .
+1-1	0-3	336	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	16.	*[16]	DATEletter[16]
+1-8	31-34	Mai	*[16]	DATEletter[16]
+1-9	35-39	1836	*[16]	DATEletter[16]
+1-10	40-44	Prof	_	_
+1-11	45-46	,	_	_
+1-12	47-54	Gerhard	*[15]	PERaddressee[15]
+1-13	55-57	an	_	_
+1-14	58-62	23/6	_	_
+1-15	63-65	36	_	_
+1-16	66-70	Roma	*	PLACEfrom
+1-17	71-73	li	_	_
+1-18	74-76	16	*[17]	DATEletter[17]
+1-19	77-83	Maggio	*[17]	DATEletter[17]
+1-20	84-88	1836	*[17]	DATEletter[17]
+1-21	89-90	.	_	_
+
+#Text=Hochverehtester Freund !
+2-1	91-106	Hochverehtester	_	_
+2-2	107-113	Freund	_	_
+2-3	114-115	!	_	_
+
+#Text=Sie erhalten diesen Brief aus den Händen des Herrn Dr. Dressel , von dem ich Ihnen früher wohl Gutes und Liebes geschrieben .
+3-1	116-119	Sie	_	_
+3-2	120-128	erhalten	_	_
+3-3	129-135	diesen	_	_
+3-4	136-141	Brief	_	_
+3-5	142-145	aus	_	_
+3-6	146-149	den	_	_
+3-7	150-156	Händen	_	_
+3-8	157-160	des	_	_
+3-9	161-166	Herrn	*[18]	PERmentioned[18]
+3-10	167-170	Dr.	*[18]	PERmentioned[18]
+3-11	171-178	Dressel	*[18]	PERmentioned[18]
+3-12	179-180	,	_	_
+3-13	181-184	von	_	_
+3-14	185-188	dem	_	_
+3-15	189-192	ich	_	_
+3-16	193-198	Ihnen	_	_
+3-17	199-205	früher	_	_
+3-18	206-210	wohl	_	_
+3-19	211-216	Gutes	_	_
+3-20	217-220	und	_	_
+3-21	221-227	Liebes	_	_
+3-22	228-239	geschrieben	_	_
+3-23	240-241	.	_	_
+
+#Text=Ich habe mit ihm viel schöne Stunden verbracht und bei solcher Gelegenheit ist denn Ihrer auch häufige Erwähnung geschehen .
+4-1	242-245	Ich	_	_
+4-2	246-250	habe	_	_
+4-3	251-254	mit	_	_
+4-4	255-258	ihm	_	_
+4-5	259-263	viel	_	_
+4-6	264-270	schöne	_	_
+4-7	271-278	Stunden	_	_
+4-8	279-288	verbracht	_	_
+4-9	289-292	und	_	_
+4-10	293-296	bei	_	_
+4-11	297-304	solcher	_	_
+4-12	305-316	Gelegenheit	_	_
+4-13	317-320	ist	_	_
+4-14	321-325	denn	_	_
+4-15	326-331	Ihrer	_	_
+4-16	332-336	auch	_	_
+4-17	337-344	häufige	_	_
+4-18	345-354	Erwähnung	_	_
+4-19	355-364	geschehen	_	_
+4-20	365-366	.	_	_
+
+#Text=Theils deshalb , theils weil er überhaupt Ihre nähere Bekanntschaft zu machen wünscht , erlaube ich mir Ihnen selbigen mit einer besonderen Empfehlung zuzuweisen .
+5-1	367-373	Theils	_	_
+5-2	374-381	deshalb	_	_
+5-3	382-383	,	_	_
+5-4	384-390	theils	_	_
+5-5	391-395	weil	_	_
+5-6	396-398	er	_	_
+5-7	399-408	überhaupt	_	_
+5-8	409-413	Ihre	_	_
+5-9	414-420	nähere	_	_
+5-10	421-434	Bekanntschaft	_	_
+5-11	435-437	zu	_	_
+5-12	438-444	machen	_	_
+5-13	445-452	wünscht	_	_
+5-14	453-454	,	_	_
+5-15	455-462	erlaube	_	_
+5-16	463-466	ich	_	_
+5-17	467-470	mir	_	_
+5-18	471-476	Ihnen	_	_
+5-19	477-485	selbigen	_	_
+5-20	486-489	mit	_	_
+5-21	490-495	einer	_	_
+5-22	496-506	besonderen	_	_
+5-23	507-517	Empfehlung	_	_
+5-24	518-528	zuzuweisen	_	_
+5-25	529-530	.	_	_
+
+#Text=Dressel hat schöne und überaus gehaltreiche Collationen für den A. Gellius gemacht , ebenso für den Prudentius und außerdem seinen hiesigen Aufenthalt sehr fleißig genutzt , weshalb er Ihnen als ein mehrjähriger Quirite vielleicht manche angenehme Erinnerung aus dem schönen Lande , in das wir Sie sehnlichst zurückerwarten , entgegenbringen wird .
+6-1	531-538	Dressel	*	PERmentioned
+6-2	539-542	hat	_	_
+6-3	543-549	schöne	_	_
+6-4	550-553	und	_	_
+6-5	554-561	überaus	_	_
+6-6	562-574	gehaltreiche	_	_
+6-7	575-586	Collationen	_	_
+6-8	587-590	für	_	_
+6-9	591-594	den	_	_
+6-10	595-597	A.	*[19]	PERmentioned[19]
+6-11	598-605	Gellius	*[19]	PERmentioned[19]
+6-12	606-613	gemacht	_	_
+6-13	614-615	,	_	_
+6-14	616-622	ebenso	_	_
+6-15	623-626	für	_	_
+6-16	627-630	den	_	_
+6-17	631-641	Prudentius	*	PERmentioned
+6-18	642-645	und	_	_
+6-19	646-654	außerdem	_	_
+6-20	655-661	seinen	_	_
+6-21	662-670	hiesigen	_	_
+6-22	671-681	Aufenthalt	_	_
+6-23	682-686	sehr	_	_
+6-24	687-694	fleißig	_	_
+6-25	695-702	genutzt	_	_
+6-26	703-704	,	_	_
+6-27	705-712	weshalb	_	_
+6-28	713-715	er	_	_
+6-29	716-721	Ihnen	_	_
+6-30	722-725	als	_	_
+6-31	726-729	ein	_	_
+6-32	730-742	mehrjähriger	_	_
+6-33	743-750	Quirite	_	_
+6-34	751-761	vielleicht	_	_
+6-35	762-768	manche	_	_
+6-36	769-778	angenehme	_	_
+6-37	779-789	Erinnerung	_	_
+6-38	790-793	aus	_	_
+6-39	794-797	dem	_	_
+6-40	798-805	schönen	_	_
+6-41	806-811	Lande	_	_
+6-42	812-813	,	_	_
+6-43	814-816	in	_	_
+6-44	817-820	das	_	_
+6-45	821-824	wir	_	_
+6-46	825-828	Sie	_	_
+6-47	829-839	sehnlichst	_	_
+6-48	840-854	zurückerwarten	_	_
+6-49	855-856	,	_	_
+6-50	857-872	entgegenbringen	_	_
+6-51	873-877	wird	_	_
+6-52	878-879	.	_	_
+
+#Text=In Hoffnung daß Sie diese Zeilen und ihr VUeberbringer recht wohl und frohen Sinnes treffen mögen , verbleibe ich Ihr treuer EBraun .
+7-1	880-882	In	_	_
+7-2	883-891	Hoffnung	_	_
+7-3	892-895	daß	_	_
+7-4	896-899	Sie	_	_
+7-5	900-905	diese	_	_
+7-6	906-912	Zeilen	_	_
+7-7	913-916	und	_	_
+7-8	917-920	ihr	_	_
+7-9	921-934	VUeberbringer	_	_
+7-10	935-940	recht	_	_
+7-11	941-945	wohl	_	_
+7-12	946-949	und	_	_
+7-13	950-956	frohen	_	_
+7-14	957-963	Sinnes	_	_
+7-15	964-971	treffen	_	_
+7-16	972-977	mögen	_	_
+7-17	978-979	,	_	_
+7-18	980-989	verbleibe	_	_
+7-19	990-993	ich	_	_
+7-20	994-997	Ihr	_	_
+7-21	998-1004	treuer	_	_
+7-22	1005-1011	EBraun	*	PERauthor
+7-23	1012-1013	.	_	_

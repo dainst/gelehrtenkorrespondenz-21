@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 7. November 1837 hergestellten Zollverbindung zwischen Rom und Deutschland , auf Ihre Nachrichten von den Restaurationen , um dann sofort den Vasentransport früher anordnen zu können .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	7.	*[4]	DATEletter[4]
+1-7	29-37	November	*[4]	DATEletter[4]
+1-8	38-42	1837	*[4]	DATEletter[4]
+1-9	43-56	hergestellten	_	_
+1-10	57-71	Zollverbindung	_	_
+1-11	72-80	zwischen	_	_
+1-12	81-84	Rom	*	PLACEmentioned
+1-13	85-88	und	_	_
+1-14	89-100	Deutschland	*	PLACEmentioned
+1-15	101-102	,	_	_
+1-16	103-106	auf	_	_
+1-17	107-111	Ihre	_	_
+1-18	112-123	Nachrichten	_	_
+1-19	124-127	von	_	_
+1-20	128-131	den	_	_
+1-21	132-146	Restaurationen	_	_
+1-22	147-148	,	_	_
+1-23	149-151	um	_	_
+1-24	152-156	dann	_	_
+1-25	157-163	sofort	_	_
+1-26	164-167	den	_	_
+1-27	168-182	Vasentransport	_	_
+1-28	183-189	früher	_	_
+1-29	190-198	anordnen	_	_
+1-30	199-201	zu	_	_
+1-31	202-208	können	_	_
+1-32	209-210	.	_	_
+
+#Text=In sonstigen Ankaufsangelegenheiten bitte ich den Capranesi zu sagen daß ich seinen Ring mit dem silbernen J ppiter , desgleichen die Vase in Delphinsform und die Vase welche ein archaisches Brustbild darstellt von ihm nehme , Anderes was er für meine Bedürfnisse hat gern ebenfalls in meinen Bereich ziehe , dagegen den Sar mit dem Musenbrustbild ( den er mir fast ungern für 30 Scudi ließ ) ihm zurückstellen werde .
+2-1	211-213	In	_	_
+2-2	214-223	sonstigen	_	_
+2-3	224-246	Ankaufsangelegenheiten	_	_
+2-4	247-252	bitte	_	_
+2-5	253-256	ich	_	_
+2-6	257-260	den	_	_
+2-7	261-270	Capranesi	*	PERmentioned
+2-8	271-273	zu	_	_
+2-9	274-279	sagen	_	_
+2-10	280-283	daß	_	_
+2-11	284-287	ich	_	_
+2-12	288-294	seinen	_	_
+2-13	295-299	Ring	*[8]	OBJ[8]
+2-14	300-303	mit	*[8]	OBJ[8]
+2-15	304-307	dem	*[8]	OBJ[8]
+2-16	308-317	silbernen	*[8]	OBJ[8]
+2-17	318-319	J	*[8]	OBJ[8]
+2-18	320-326	ppiter	*[8]	OBJ[8]
+2-19	327-328	,	_	_
+2-20	329-340	desgleichen	_	_
+2-21	341-344	die	_	_
+2-22	345-349	Vase	*[9]	OBJ[9]
+2-23	350-352	in	*[9]	OBJ[9]
+2-24	353-365	Delphinsform	*[9]	OBJ[9]
+2-25	366-369	und	_	_
+2-26	370-373	die	_	_
+2-27	374-378	Vase	*[10]	OBJ[10]
+2-28	379-385	welche	*[10]	OBJ[10]
+2-29	386-389	ein	*[10]	OBJ[10]
+2-30	390-401	archaisches	*[10]	OBJ[10]
+2-31	402-411	Brustbild	*[10]	OBJ[10]
+2-32	412-421	darstellt	*[10]	OBJ[10]
+2-33	422-425	von	_	_
+2-34	426-429	ihm	_	_
+2-35	430-435	nehme	_	_
+2-36	436-437	,	_	_
+2-37	438-445	Anderes	_	_
+2-38	446-449	was	_	_
+2-39	450-452	er	_	_
+2-40	453-456	für	_	_
+2-41	457-462	meine	_	_
+2-42	463-474	Bedürfnisse	_	_
+2-43	475-478	hat	_	_
+2-44	479-483	gern	_	_
+2-45	484-493	ebenfalls	_	_
+2-46	494-496	in	_	_
+2-47	497-503	meinen	_	_
+2-48	504-511	Bereich	_	_
+2-49	512-517	ziehe	_	_
+2-50	518-519	,	_	_
+2-51	520-527	dagegen	_	_
+2-52	528-531	den	_	_
+2-53	532-535	Sar	*[11]	OBJ[11]
+2-54	536-539	mit	*[11]	OBJ[11]
+2-55	540-543	dem	*[11]	OBJ[11]
+2-56	544-558	Musenbrustbild	*[11]	OBJ[11]
+2-57	559-560	(	_	_
+2-58	561-564	den	_	_
+2-59	565-567	er	_	_
+2-60	568-571	mir	_	_
+2-61	572-576	fast	_	_
+2-62	577-583	ungern	_	_
+2-63	584-587	für	_	_
+2-64	588-590	30	_	_
+2-65	591-596	Scudi	_	_
+2-66	597-601	ließ	_	_
+2-67	602-603	)	_	_
+2-68	604-607	ihm	_	_
+2-69	608-621	zurückstellen	_	_
+2-70	622-627	werde	_	_
+2-71	628-629	.	_	_
+
+#Text=Er ist für meine eignen Finger zu luxuriös und nicht prägnant genug .
+3-1	630-632	Er	_	_
+3-2	633-636	ist	_	_
+3-3	637-640	für	_	_
+3-4	641-646	meine	_	_
+3-5	647-653	eignen	_	_
+3-6	654-660	Finger	_	_
+3-7	661-663	zu	_	_
+3-8	664-672	luxuriös	_	_
+3-9	673-676	und	_	_
+3-10	677-682	nicht	_	_
+3-11	683-691	prägnant	_	_
+3-12	692-697	genug	_	_
+3-13	698-699	.	_	_
+
+#Text=Einige archäol .
+4-1	700-706	Einige	_	_
+4-2	707-714	archäol	_	_
+4-3	715-716	.	_	_
+
+#Text=Broschüren für ihn können Sie ihm vorläufig verheißen .
+5-1	717-727	Broschüren	_	_
+5-2	728-731	für	_	_
+5-3	732-735	ihn	_	_
+5-4	736-742	können	_	_
+5-5	743-746	Sie	_	_
+5-6	747-750	ihm	_	_
+5-7	751-760	vorläufig	_	_
+5-8	761-770	verheißen	_	_
+5-9	771-772	.	_	_
+
+#Text=Basseggio soll seine Zahlung vor den Neujahrszahlungen erhalten , die allerdings hier wol erst im Februar flott werden , Ich bin neugierig ob Sie bei dem Comune von Volterra Nachrichten über die wirkliche Auffindung der Pariser Bronzen ( ectond . )
+6-1	773-782	Basseggio	*	PERmentioned
+6-2	783-787	soll	_	_
+6-3	788-793	seine	_	_
+6-4	794-801	Zahlung	_	_
+6-5	802-805	vor	_	_
+6-6	806-809	den	_	_
+6-7	810-827	Neujahrszahlungen	_	_
+6-8	828-836	erhalten	_	_
+6-9	837-838	,	_	_
+6-10	839-842	die	_	_
+6-11	843-853	allerdings	_	_
+6-12	854-858	hier	_	_
+6-13	859-862	wol	_	_
+6-14	863-867	erst	_	_
+6-15	868-870	im	_	_
+6-16	871-878	Februar	*	DATEmentioned
+6-17	879-884	flott	_	_
+6-18	885-891	werden	_	_
+6-19	892-893	,	_	_
+6-20	894-897	Ich	_	_
+6-21	898-901	bin	_	_
+6-22	902-911	neugierig	_	_
+6-23	912-914	ob	_	_
+6-24	915-918	Sie	_	_
+6-25	919-922	bei	_	_
+6-26	923-926	dem	_	_
+6-27	927-933	Comune	_	_
+6-28	934-937	von	_	_
+6-29	938-946	Volterra	*	PLACEmentioned
+6-30	947-958	Nachrichten	_	_
+6-31	959-963	über	_	_
+6-32	964-967	die	_	_
+6-33	968-977	wirkliche	_	_
+6-34	978-988	Auffindung	_	_
+6-35	989-992	der	_	_
+6-36	993-1000	Pariser	*	PLACEmentioned
+6-37	1001-1008	Bronzen	*	OBJ
+6-38	1009-1010	(	_	_
+6-39	1011-1017	ectond	_	_
+6-40	1018-1019	.	_	_
+6-41	1020-1021	)	_	_
+
+#Text=erhielten , wie er sie mir versprach .
+7-1	1022-1031	erhielten	_	_
+7-2	1032-1033	,	_	_
+7-3	1034-1037	wie	_	_
+7-4	1038-1040	er	_	_
+7-5	1041-1044	sie	_	_
+7-6	1045-1048	mir	_	_
+7-7	1049-1058	versprach	_	_
+7-8	1059-1060	.	_	_
+
+#Text=Ist das Museo di Mantova bereits mit Vol . B fasc .
+8-1	1061-1064	Ist	_	_
+8-2	1065-1068	das	_	_
+8-3	1069-1074	Museo	*[17]	ORGmentioned[17]
+8-4	1075-1077	di	*[17]	ORGmentioned[17]
+8-5	1078-1085	Mantova	*[17]	ORGmentioned[17]
+8-6	1086-1093	bereits	_	_
+8-7	1094-1097	mit	_	_
+8-8	1098-1101	Vol	_	_
+8-9	1102-1103	.	_	_
+8-10	1104-1105	B	_	_
+8-11	1106-1110	fasc	_	_
+8-12	1111-1112	.	_	_
+
+#Text=12 vollständig ?
+9-1	1113-1115	12	_	_
+9-2	1116-1127	vollständig	_	_
+9-3	1128-1129	?	_	_
+
+#Text=Sämtliche Canosavasen der Mod .
+10-1	1130-1139	Sämtliche	_	_
+10-2	1140-1151	Canosavasen	*	OBJ
+10-3	1152-1155	der	_	_
+10-4	1156-1159	Mod	_	_
+10-5	1160-1161	.	_	_
+
+#Text=Murat Sind in München ,
+11-1	1162-1167	Murat	_	_
+11-2	1168-1172	Sind	_	_
+11-3	1173-1175	in	_	_
+11-4	1176-1183	München	*	PLACEmentioned
+11-5	1184-1185	,	_	_

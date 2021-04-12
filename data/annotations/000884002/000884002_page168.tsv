@@ -1,0 +1,83 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 29. Juni 1863 Ein Zettelchen von Steinhäusers .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	29.	*[5]	DATEletter[5]
+1-7	26-30	Juni	*[5]	DATEletter[5]
+1-8	31-35	1863	*[5]	DATEletter[5]
+1-9	36-39	Ein	_	_
+1-10	40-50	Zettelchen	_	_
+1-11	51-54	von	_	_
+1-12	55-67	Steinhäusers	*	PERmentioned
+1-13	68-69	.	_	_
+
+#Text=Beiliegender Brief Mommsens , in den ich weiter nicht hineingesehen , hat von Bologna eine Spazierfahrt über Berlin gemacht .
+2-1	70-82	Beiliegender	_	_
+2-2	83-88	Brief	_	_
+2-3	89-97	Mommsens	*	PERmentioned
+2-4	98-99	,	_	_
+2-5	100-102	in	_	_
+2-6	103-106	den	_	_
+2-7	107-110	ich	_	_
+2-8	111-117	weiter	_	_
+2-9	118-123	nicht	_	_
+2-10	124-137	hineingesehen	_	_
+2-11	138-139	,	_	_
+2-12	140-143	hat	_	_
+2-13	144-147	von	_	_
+2-14	148-155	Bologna	*	PLACEmentioned
+2-15	156-160	eine	_	_
+2-16	161-173	Spazierfahrt	_	_
+2-17	174-178	über	_	_
+2-18	179-185	Berlin	*	PLACEmentioned
+2-19	186-193	gemacht	_	_
+2-20	194-195	.	_	_
+
+#Text=Wer ihn von dort hierhergeschickt hat , chi lo sa ?
+3-1	196-199	Wer	_	_
+3-2	200-203	ihn	_	_
+3-3	204-207	von	_	_
+3-4	208-212	dort	_	_
+3-5	213-229	hierhergeschickt	_	_
+3-6	230-233	hat	_	_
+3-7	234-235	,	_	_
+3-8	236-239	chi	_	_
+3-9	240-242	lo	_	_
+3-10	243-245	sa	_	_
+3-11	246-247	?	_	_
+
+#Text=Zunächst erwarte ich also Nachricht von Ihnen unter Bartoccini 's Addresse .
+4-1	248-256	Zunächst	_	_
+4-2	257-264	erwarte	_	_
+4-3	265-268	ich	_	_
+4-4	269-273	also	_	_
+4-5	274-283	Nachricht	_	_
+4-6	284-287	von	_	_
+4-7	288-293	Ihnen	_	_
+4-8	294-299	unter	_	_
+4-9	300-310	Bartoccini	*[7]	PERmentioned[7]
+4-10	311-313	's	*[7]	PERmentioned[7]
+4-11	314-322	Addresse	_	_
+4-12	323-324	.	_	_
+
+#Text=Mit besten Grüßen Ihr HBrunn .
+5-1	325-328	Mit	_	_
+5-2	329-335	besten	_	_
+5-3	336-342	Grüßen	_	_
+5-4	343-346	Ihr	_	_
+5-5	347-353	HBrunn	_	_
+5-6	354-355	.	_	_
+
+#Text=Rom , 29 Juni 1863 .
+6-1	356-359	Rom	*	PLACEfrom
+6-2	360-361	,	_	_
+6-3	362-364	29	*[6]	DATEletter[6]
+6-4	365-369	Juni	*[6]	DATEletter[6]
+6-5	370-374	1863	*[6]	DATEletter[6]
+6-6	375-376	.	_	_

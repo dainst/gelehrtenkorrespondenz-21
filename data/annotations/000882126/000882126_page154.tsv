@@ -1,0 +1,159 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 2 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	2	*[11]	DATEletter[11]
+1-7	25-26	.	*[11]	DATEletter[11]
+
+#Text=August 1836 lassen .
+2-1	27-33	August	*[11]	DATEletter[11]
+2-2	34-38	1836	*[11]	DATEletter[11]
+2-3	39-45	lassen	_	_
+2-4	46-47	.	_	_
+
+#Text=Im Stich habe ich Sie meines Wissens noch nie gelassen .
+3-1	48-50	Im	_	_
+3-2	51-56	Stich	_	_
+3-3	57-61	habe	_	_
+3-4	62-65	ich	_	_
+3-5	66-69	Sie	_	_
+3-6	70-76	meines	_	_
+3-7	77-84	Wissens	_	_
+3-8	85-89	noch	_	_
+3-9	90-93	nie	_	_
+3-10	94-102	gelassen	_	_
+3-11	103-104	.	_	_
+
+#Text=Die Neapolitaner Zeichnungen waren alle gut eingeleitet .
+4-1	105-108	Die	_	_
+4-2	109-121	Neapolitaner	*	PLACEmentioned
+4-3	122-133	Zeichnungen	_	_
+4-4	134-139	waren	_	_
+4-5	140-144	alle	_	_
+4-6	145-148	gut	_	_
+4-7	149-160	eingeleitet	_	_
+4-8	161-162	.	_	_
+
+#Text=Ich kann mir nicht andres denken als daß etwa Cav .
+5-1	163-166	Ich	_	_
+5-2	167-171	kann	_	_
+5-3	172-175	mir	_	_
+5-4	176-181	nicht	_	_
+5-5	182-188	andres	_	_
+5-6	189-195	denken	_	_
+5-7	196-199	als	_	_
+5-8	200-203	daß	_	_
+5-9	204-208	etwa	_	_
+5-10	209-212	Cav	*[12]	PERmentioned[12]
+5-11	213-214	.	*[12]	PERmentioned[12]
+
+#Text=Dente die Sache verdorben hat .
+6-1	215-220	Dente	*[12]	PERmentioned[12]
+6-2	221-224	die	_	_
+6-3	225-230	Sache	_	_
+6-4	231-240	verdorben	_	_
+6-5	241-244	hat	_	_
+6-6	245-246	.	_	_
+
+#Text=Daß Bellotti diesem großen Nagethier keine Gelder für Ihre Rechnung erwilligt , ist ganz in Ordnung .
+7-1	247-250	Daß	_	_
+7-2	251-259	Bellotti	*	PERmentioned
+7-3	260-266	diesem	_	_
+7-4	267-273	großen	_	_
+7-5	274-283	Nagethier	_	_
+7-6	284-289	keine	_	_
+7-7	290-296	Gelder	_	_
+7-8	297-300	für	_	_
+7-9	301-305	Ihre	_	_
+7-10	306-314	Rechnung	_	_
+7-11	315-324	erwilligt	_	_
+7-12	325-326	,	_	_
+7-13	327-330	ist	_	_
+7-14	331-335	ganz	_	_
+7-15	336-338	in	_	_
+7-16	339-346	Ordnung	_	_
+7-17	347-348	.	_	_
+
+#Text=Dazu müßte er Aufträge von Ihnen selbst oder von mir haben und ich gebe wohlweislich nur für gemachte Arbeiten Aufträge zu Zahlung .
+8-1	349-353	Dazu	_	_
+8-2	354-359	müßte	_	_
+8-3	360-362	er	_	_
+8-4	363-371	Aufträge	_	_
+8-5	372-375	von	_	_
+8-6	376-381	Ihnen	_	_
+8-7	382-388	selbst	_	_
+8-8	389-393	oder	_	_
+8-9	394-397	von	_	_
+8-10	398-401	mir	_	_
+8-11	402-407	haben	_	_
+8-12	408-411	und	_	_
+8-13	412-415	ich	_	_
+8-14	416-420	gebe	_	_
+8-15	421-433	wohlweislich	_	_
+8-16	434-437	nur	_	_
+8-17	438-441	für	_	_
+8-18	442-450	gemachte	_	_
+8-19	451-459	Arbeiten	_	_
+8-20	460-468	Aufträge	_	_
+8-21	469-471	zu	_	_
+8-22	472-479	Zahlung	_	_
+8-23	480-481	.	_	_
+
+#Text=Könnten Sie sich entschließen , schnell nach Rom zu kommen , so würden Sie am besten über Genua gehen .
+9-1	482-489	Könnten	_	_
+9-2	490-493	Sie	_	_
+9-3	494-498	sich	_	_
+9-4	499-511	entschließen	_	_
+9-5	512-513	,	_	_
+9-6	514-521	schnell	_	_
+9-7	522-526	nach	_	_
+9-8	527-530	Rom	*	PLACEmentioned
+9-9	531-533	zu	_	_
+9-10	534-540	kommen	_	_
+9-11	541-542	,	_	_
+9-12	543-545	so	_	_
+9-13	546-552	würden	_	_
+9-14	553-556	Sie	_	_
+9-15	557-559	am	_	_
+9-16	560-566	besten	_	_
+9-17	567-571	über	_	_
+9-18	572-577	Genua	*	PLACEmentioned
+9-19	578-583	gehen	_	_
+9-20	584-585	.	_	_
+
+#Text=Vor Triest und Lombardei warne ich nochnals .
+10-1	586-589	Vor	_	_
+10-2	590-596	Triest	*	PLACEmentioned
+10-3	597-600	und	_	_
+10-4	601-610	Lombardei	*	PLACEmentioned
+10-5	611-616	warne	_	_
+10-6	617-620	ich	_	_
+10-7	621-629	nochnals	_	_
+10-8	630-631	.	_	_
+
+#Text=Von den Oesterreicher Aerzten sind manche arg von der Seuche hinweggerafft worden .
+11-1	632-635	Von	_	_
+11-2	636-639	den	_	_
+11-3	640-653	Oesterreicher	_	_
+11-4	654-661	Aerzten	_	_
+11-5	662-666	sind	_	_
+11-6	667-673	manche	_	_
+11-7	674-677	arg	_	_
+11-8	678-681	von	_	_
+11-9	682-685	der	_	_
+11-10	686-692	Seuche	_	_
+11-11	693-706	hinweggerafft	_	_
+11-12	707-713	worden	_	_
+11-13	714-715	.	_	_
+
+#Text=( ohne Unterschrift )
+12-1	716-717	(	_	_
+12-2	718-722	ohne	_	_
+12-3	723-735	Unterschrift	_	_
+12-4	736-737	)	_	_

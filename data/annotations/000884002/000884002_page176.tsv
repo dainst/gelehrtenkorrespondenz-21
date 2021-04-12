@@ -1,0 +1,54 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia,15 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-26	Perugia,15	_	_
+1-5	27-28	.	_	_
+
+#Text=Juli 1863 - 3 - nicht bedenklich \; sondern durch die Unruhe nur sehr angreifend für meine Frau .
+2-1	29-33	Juli	*[3]	DATEletter[3]
+2-2	34-38	1863	*[3]	DATEletter[3]
+2-3	39-40	-	_	_
+2-4	41-42	3	_	_
+2-5	43-44	-	_	_
+2-6	45-50	nicht	_	_
+2-7	51-61	bedenklich	_	_
+2-8	62-63	\;	_	_
+2-9	64-71	sondern	_	_
+2-10	72-77	durch	_	_
+2-11	78-81	die	_	_
+2-12	82-88	Unruhe	_	_
+2-13	89-92	nur	_	_
+2-14	93-97	sehr	_	_
+2-15	98-108	angreifend	_	_
+2-16	109-112	für	_	_
+2-17	113-118	meine	*[4]	PERmentioned[4]
+2-18	119-123	Frau	*[4]	PERmentioned[4]
+2-19	124-125	.	_	_
+
+#Text=Mit besten Grüßen des ganzen Hauses .
+3-1	126-129	Mit	_	_
+3-2	130-136	besten	_	_
+3-3	137-143	Grüßen	_	_
+3-4	144-147	des	_	_
+3-5	148-154	ganzen	_	_
+3-6	155-161	Hauses	_	_
+3-7	162-163	.	_	_
+
+#Text=Ihr HBrunn .
+4-1	164-167	Ihr	_	_
+4-2	168-174	HBrunn	*	PERauthor
+4-3	175-176	.	_	_
+
+#Text=Perugia 15 : VII , 63 .
+5-1	177-184	Perugia	*	PLACEfrom
+5-2	185-187	15	*[5]	DATEletter[5]
+5-3	188-189	:	*[5]	DATEletter[5]
+5-4	190-193	VII	*[5]	DATEletter[5]
+5-5	194-195	,	*[5]	DATEletter[5]
+5-6	196-198	63	*[5]	DATEletter[5]
+5-7	199-200	.	_	_

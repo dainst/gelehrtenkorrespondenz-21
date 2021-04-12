@@ -1,0 +1,197 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=847 Braun an Gerhard Rom , 25. November 1834 Berlin 25 Settembre 1834 .
+1-1	0-3	847	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	25.	*[1]	DATEletter[1]
+1-8	31-39	November	*[1]	DATEletter[1]
+1-9	40-44	1834	*[1]	DATEletter[1]
+1-10	45-51	Berlin	*	PLACEfrom
+1-11	52-54	25	*[2]	DATEletter[2]
+1-12	55-64	Settembre	*[2]	DATEletter[2]
+1-13	65-69	1834	*[2]	DATEletter[2]
+1-14	70-71	.	_	_
+
+#Text=( durch De Antonis auf d . 8 .
+2-1	72-73	(	_	_
+2-2	74-79	durch	_	_
+2-3	80-82	De	*[3]	PERmentioned[3]
+2-4	83-90	Antonis	*[3]	PERmentioned[3]
+2-5	91-94	auf	_	_
+2-6	95-96	d	_	_
+2-7	97-98	.	_	_
+2-8	99-100	8	*[4]	DATEmentioned[4]
+2-9	101-102	.	*[4]	DATEmentioned[4]
+
+#Text=Ottobre mit 660 Pfund und 46 Colonnaden Spesen unter der Addresse Prof. Gerhard , Archeologo del R. Mus . Berlino , bescheinigt ) : 3 Vasi 2 Tazze Cassa colle paste di vetro 7 Impronte Gemmar .
+3-1	103-110	Ottobre	*[4]	DATEmentioned[4]
+3-2	111-114	mit	_	_
+3-3	115-118	660	_	_
+3-4	119-124	Pfund	_	_
+3-5	125-128	und	_	_
+3-6	129-131	46	_	_
+3-7	132-142	Colonnaden	_	_
+3-8	143-149	Spesen	_	_
+3-9	150-155	unter	_	_
+3-10	156-159	der	_	_
+3-11	160-168	Addresse	_	_
+3-12	169-174	Prof.	_	_
+3-13	175-182	Gerhard	*	PERmentioned
+3-14	183-184	,	_	_
+3-15	185-195	Archeologo	_	_
+3-16	196-199	del	_	_
+3-17	200-202	R.	*[5]	ORGmentioned[5]
+3-18	203-206	Mus	*[5]	ORGmentioned[5]
+3-19	207-208	.	*[5]	ORGmentioned[5]
+3-20	209-216	Berlino	*[5]	ORGmentioned[5]
+3-21	217-218	,	_	_
+3-22	219-230	bescheinigt	_	_
+3-23	231-232	)	_	_
+3-24	233-234	:	_	_
+3-25	235-236	3	_	_
+3-26	237-241	Vasi	_	_
+3-27	242-243	2	_	_
+3-28	244-249	Tazze	_	_
+3-29	250-255	Cassa	_	_
+3-30	256-261	colle	_	_
+3-31	262-267	paste	_	_
+3-32	268-270	di	_	_
+3-33	271-276	vetro	_	_
+3-34	277-278	7	_	_
+3-35	279-287	Impronte	_	_
+3-36	288-294	Gemmar	_	_
+3-37	295-296	.	_	_
+
+#Text=Cent .
+4-1	297-301	Cent	_	_
+4-2	302-303	.	_	_
+
+#Text=IIIe IV 2 `` Cent .
+5-1	304-308	IIIe	_	_
+5-2	309-311	IV	_	_
+5-3	312-313	2	_	_
+5-4	314-316	``	_	_
+5-5	317-321	Cent	_	_
+5-6	322-323	.	_	_
+
+#Text=I- WV 4 Gargiulo Oggetti scelti 6 Serradifalco Sicilia antica 30 Musaico di Pompei ( Jorio ) 2 Sopracarti .
+6-1	324-326	I-	_	_
+6-2	327-329	WV	_	_
+6-3	330-331	4	_	_
+6-4	332-340	Gargiulo	*	PERmentioned
+6-5	341-348	Oggetti	*[6]	LIT[6]
+6-6	349-355	scelti	*[6]	LIT[6]
+6-7	356-357	6	_	_
+6-8	358-370	Serradifalco	*	PERmentioned
+6-9	371-378	Sicilia	*[7]	LIT[7]
+6-10	379-385	antica	*[7]	LIT[7]
+6-11	386-388	30	_	_
+6-12	389-396	Musaico	*[8]	LIT[8]
+6-13	397-399	di	*[8]	LIT[8]
+6-14	400-406	Pompei	*[8]|*[9]	LIT[8]|PLACEmentioned[9]
+6-15	407-408	(	_	_
+6-16	409-414	Jorio	*	PERmentioned
+6-17	415-416	)	_	_
+6-18	417-418	2	_	_
+6-19	419-429	Sopracarti	_	_
+6-20	430-431	.	_	_
+
+#Text=A Indica Antich .
+7-1	432-433	A	_	_
+7-2	434-440	Indica	*	PERmentioned
+7-3	441-447	Antich	*[10]|*[11]	LIT[10]|LIT[11]
+7-4	448-449	.	*[10]|*[11]	LIT[10]|LIT[11]
+
+#Text=d'Aese 1 Fasc .
+8-1	450-456	d'Aese	*[10]|*[11]	LIT[10]|LIT[11]
+8-2	457-458	1	*[10]|*[11]	LIT[10]|LIT[11]
+8-3	459-463	Fasc	*[10]|*[11]	LIT[10]|LIT[11]
+8-4	464-465	.	*[10]|*[11]	LIT[10]|LIT[11]
+
+#Text=Mon .
+9-1	466-469	Mon	*[12]	LIT[12]
+9-2	470-471	.	*[12]	LIT[12]
+
+#Text=dell'Inst .
+10-1	472-481	dell'Inst	*[12]	LIT[12]
+10-2	482-483	.	*[12]	LIT[12]
+
+#Text=1 Gell Carta di Roma Altre casse , libri ecc .
+11-1	484-485	1	_	_
+11-2	486-490	Gell	*	PERmentioned
+11-3	491-496	Carta	*[13]	LIT[13]
+11-4	497-499	di	*[13]	LIT[13]
+11-5	500-504	Roma	*[13]	LIT[13]
+11-6	505-510	Altre	_	_
+11-7	511-516	casse	_	_
+11-8	517-518	,	_	_
+11-9	519-524	libri	_	_
+11-10	525-528	ecc	_	_
+11-11	529-530	.	_	_
+
+#Text=ecc .
+12-1	531-534	ecc	_	_
+12-2	535-536	.	_	_
+
+#Text=Für die Thatsachen werde ich heute kaum Deutsche Buchhändler - Geschenke beifügen können .
+13-1	537-540	Für	_	_
+13-2	541-544	die	_	_
+13-3	545-555	Thatsachen	_	_
+13-4	556-561	werde	_	_
+13-5	562-565	ich	_	_
+13-6	566-571	heute	_	_
+13-7	572-576	kaum	_	_
+13-8	577-585	Deutsche	_	_
+13-9	586-597	Buchhändler	_	_
+13-10	598-599	-	_	_
+13-11	600-609	Geschenke	_	_
+13-12	610-618	beifügen	_	_
+13-13	619-625	können	_	_
+13-14	626-627	.	_	_
+
+#Text=Für die Liste aber wiederhole ich : Prince .
+14-1	628-631	Für	_	_
+14-2	632-635	die	_	_
+14-3	636-641	Liste	_	_
+14-4	642-646	aber	_	_
+14-5	647-657	wiederhole	_	_
+14-6	658-661	ich	_	_
+14-7	662-663	:	_	_
+14-8	664-670	Prince	_	_
+14-9	671-672	.	_	_
+
+#Text=Leopoldo , conte di Siracusa ecc .
+15-1	673-681	Leopoldo	*[14]	PERmentioned[14]
+15-2	682-683	,	*[14]	PERmentioned[14]
+15-3	684-689	conte	*[14]	PERmentioned[14]
+15-4	690-692	di	*[14]	PERmentioned[14]
+15-5	693-701	Siracusa	*[14]	PERmentioned[14]
+15-6	702-705	ecc	_	_
+15-7	706-707	.	_	_
+
+#Text=( Goethe Hofkalender ) Lord Stanhope 8.M .
+16-1	708-709	(	_	_
+16-2	710-716	Goethe	*	PERmentioned
+16-3	717-728	Hofkalender	*	LIT
+16-4	729-730	)	_	_
+16-5	731-735	Lord	*[15]	PERmentioned[15]
+16-6	736-744	Stanhope	*[15]	PERmentioned[15]
+16-7	745-748	8.M	_	_
+16-8	749-750	.	_	_
+
+#Text=Nederlandese d.i .
+17-1	751-763	Nederlandese	_	_
+17-2	764-767	d.i	_	_
+17-3	768-769	.	_	_
+
+#Text=der König von Holland
+18-1	770-773	der	_	_
+18-2	774-779	König	*[16]	PERmentioned[16]
+18-3	780-783	von	*[16]	PERmentioned[16]
+18-4	784-791	Holland	*[16]	PERmentioned[16]

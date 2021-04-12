@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N 118 Brunn an Henzen Neapel , 7. April 1863 g . 9. April 1863 r . 10. April 1863 Neapel , Dienstag 7 April 1863 .
+1-1	0-1	N	_	_
+1-2	2-5	118	_	_
+1-3	6-11	Brunn	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-21	Henzen	*	PERaddressee
+1-6	22-28	Neapel	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-33	7.	*[13]	DATEletter[13]
+1-9	34-39	April	*[13]	DATEletter[13]
+1-10	40-44	1863	*[13]	DATEletter[13]
+1-11	45-46	g	_	_
+1-12	47-48	.	_	_
+1-13	49-51	9.	*[14]	DATErecieved[14]
+1-14	52-57	April	*[14]	DATErecieved[14]
+1-15	58-62	1863	*[14]	DATErecieved[14]
+1-16	63-64	r	_	_
+1-17	65-66	.	_	_
+1-18	67-70	10.	*[15]	DATEanswered[15]
+1-19	71-76	April	*[15]	DATEanswered[15]
+1-20	77-81	1863	*[15]	DATEanswered[15]
+1-21	82-88	Neapel	*	PLACEfrom
+1-22	89-90	,	_	_
+1-23	91-99	Dienstag	*[16]	DATEletter[16]
+1-24	100-101	7	*[16]	DATEletter[16]
+1-25	102-107	April	*[16]	DATEletter[16]
+1-26	108-112	1863	*[16]	DATEletter[16]
+1-27	113-114	.	_	_
+
+#Text=Lieber Henzen \| !
+2-1	115-121	Lieber	_	_
+2-2	122-128	Henzen	*	PERaddressee
+2-3	129-130	\|	_	_
+2-4	131-132	!	_	_
+
+#Text=Freitag müssen Sie sich in der Adunanz schon so gut wie möglich durchschlagen , da ich bis jetzt wenig direct mittheilbares habe .
+3-1	133-140	Freitag	_	_
+3-2	141-147	müssen	_	_
+3-3	148-151	Sie	_	_
+3-4	152-156	sich	_	_
+3-5	157-159	in	_	_
+3-6	160-163	der	_	_
+3-7	164-171	Adunanz	_	_
+3-8	172-177	schon	_	_
+3-9	178-180	so	_	_
+3-10	181-184	gut	_	_
+3-11	185-188	wie	_	_
+3-12	189-196	möglich	_	_
+3-13	197-210	durchschlagen	_	_
+3-14	211-212	,	_	_
+3-15	213-215	da	_	_
+3-16	216-219	ich	_	_
+3-17	220-223	bis	_	_
+3-18	224-229	jetzt	_	_
+3-19	230-235	wenig	_	_
+3-20	236-242	direct	_	_
+3-21	243-256	mittheilbares	_	_
+3-22	257-261	habe	_	_
+3-23	262-263	.	_	_
+
+#Text=Reifferscheid schickt adnige kleine Epigraphica \; vielleicht können Sie doch etwas Sauce dazu bereiten .
+4-1	264-277	Reifferscheid	*	PERmentioned
+4-2	278-285	schickt	_	_
+4-3	286-292	adnige	_	_
+4-4	293-299	kleine	_	_
+4-5	300-311	Epigraphica	*	OBJ
+4-6	312-313	\;	_	_
+4-7	314-324	vielleicht	_	_
+4-8	325-331	können	_	_
+4-9	332-335	Sie	_	_
+4-10	336-340	doch	_	_
+4-11	341-346	etwas	_	_
+4-12	347-352	Sauce	_	_
+4-13	353-357	dazu	_	_
+4-14	358-366	bereiten	_	_
+4-15	367-368	.	_	_
+
+#Text=Veber Pästum können Sie hinzufügen , daß auch ?
+5-1	369-374	Veber	_	_
+5-2	375-381	Pästum	*	PLACEmentioned
+5-3	382-388	können	_	_
+5-4	389-392	Sie	_	_
+5-5	393-403	hinzufügen	_	_
+5-6	404-405	,	_	_
+5-7	406-409	daß	_	_
+5-8	410-414	auch	_	_
+5-9	415-416	?	_	_
+
+#Text=1/2 Statuen gefunden sind , 1/2 männliche , sicher nach dem Habitus einer , und zwar wohl ein Kaiser aus der augusteischen Familie \; die andere weiblich , angeblich Livia ( ich verwechsle leider immer diese Gesichter ) .
+6-1	417-420	1/2	_	_
+6-2	421-428	Statuen	*	OBJ
+6-3	429-437	gefunden	_	_
+6-4	438-442	sind	_	_
+6-5	443-444	,	_	_
+6-6	445-448	1/2	_	_
+6-7	449-458	männliche	_	_
+6-8	459-460	,	_	_
+6-9	461-467	sicher	_	_
+6-10	468-472	nach	_	_
+6-11	473-476	dem	_	_
+6-12	477-484	Habitus	_	_
+6-13	485-490	einer	_	_
+6-14	491-492	,	_	_
+6-15	493-496	und	_	_
+6-16	497-501	zwar	_	_
+6-17	502-506	wohl	_	_
+6-18	507-510	ein	_	_
+6-19	511-517	Kaiser	_	_
+6-20	518-521	aus	*[17]	OBJ[17]
+6-21	522-525	der	*[17]	OBJ[17]
+6-22	526-539	augusteischen	*[17]	OBJ[17]
+6-23	540-547	Familie	*[17]	OBJ[17]
+6-24	548-549	\;	_	_
+6-25	550-553	die	_	_
+6-26	554-560	andere	_	_
+6-27	561-569	weiblich	_	_
+6-28	570-571	,	_	_
+6-29	572-581	angeblich	_	_
+6-30	582-587	Livia	*	OBJ
+6-31	588-589	(	_	_
+6-32	590-593	ich	_	_
+6-33	594-604	verwechsle	_	_
+6-34	605-611	leider	_	_
+6-35	612-617	immer	_	_
+6-36	618-623	diese	_	_
+6-37	624-633	Gesichter	_	_
+6-38	634-635	)	_	_
+6-39	636-637	.	_	_
+
+#Text=Sie ist ursprünglich aus zwei Stücken gearbeitet und in den Falten des Mantels um d. Hüften zusammengesetzt .
+7-1	638-641	Sie	_	_
+7-2	642-645	ist	_	_
+7-3	646-658	ursprünglich	_	_
+7-4	659-662	aus	_	_
+7-5	663-667	zwei	_	_
+7-6	668-675	Stücken	_	_
+7-7	676-686	gearbeitet	_	_
+7-8	687-690	und	_	_
+7-9	691-693	in	_	_
+7-10	694-697	den	_	_
+7-11	698-704	Falten	_	_
+7-12	705-708	des	_	_
+7-13	709-716	Mantels	_	_
+7-14	717-719	um	_	_
+7-15	720-722	d.	_	_
+7-16	723-729	Hüften	_	_
+7-17	730-745	zusammengesetzt	_	_
+7-18	746-747	.	_	_
+
+#Text=Sonst nicht gerade besondere Arbeit .
+8-1	748-753	Sonst	_	_
+8-2	754-759	nicht	_	_
+8-3	760-766	gerade	_	_
+8-4	767-776	besondere	_	_
+8-5	777-783	Arbeit	_	_
+8-6	784-785	.	_	_
+
+#Text=Interessanter ist ein Terracottenrelief : 1 Biga nach links vom Beschauer , mit zwei hoch aufpran- Zeichnung nn nn nn rn nn mn den Böcken , darauf ein bärtiger bockhörniger Gott mit Scepter , und Mantel der die Brust frei läßt .
+9-1	786-799	Interessanter	_	_
+9-2	800-803	ist	_	_
+9-3	804-807	ein	_	_
+9-4	808-825	Terracottenrelief	*	OBJ
+9-5	826-827	:	_	_
+9-6	828-829	1	_	_
+9-7	830-834	Biga	_	_
+9-8	835-839	nach	_	_
+9-9	840-845	links	_	_
+9-10	846-849	vom	_	_
+9-11	850-859	Beschauer	_	_
+9-12	860-861	,	_	_
+9-13	862-865	mit	_	_
+9-14	866-870	zwei	_	_
+9-15	871-875	hoch	_	_
+9-16	876-884	aufpran-	_	_
+9-17	885-894	Zeichnung	_	_
+9-18	895-897	nn	_	_
+9-19	898-900	nn	_	_
+9-20	901-903	nn	_	_
+9-21	904-906	rn	_	_
+9-22	907-909	nn	_	_
+9-23	910-912	mn	_	_
+9-24	913-916	den	_	_
+9-25	917-923	Böcken	_	_
+9-26	924-925	,	_	_
+9-27	926-932	darauf	_	_
+9-28	933-936	ein	_	_
+9-29	937-945	bärtiger	_	_
+9-30	946-958	bockhörniger	_	_
+9-31	959-963	Gott	_	_
+9-32	964-967	mit	_	_
+9-33	968-975	Scepter	_	_
+9-34	976-977	,	_	_
+9-35	978-981	und	_	_
+9-36	982-988	Mantel	_	_
+9-37	989-992	der	_	_
+9-38	993-996	die	_	_
+9-39	997-1002	Brust	_	_
+9-40	1003-1007	frei	_	_
+9-41	1008-1012	läßt	_	_
+9-42	1013-1014	.	_	_
+
+#Text=Der kleine Wagenlenker nicht ganz deutlich , vielleicht von äthiop .
+10-1	1015-1018	Der	_	_
+10-2	1019-1025	kleine	_	_
+10-3	1026-1037	Wagenlenker	_	_
+10-4	1038-1043	nicht	_	_
+10-5	1044-1048	ganz	_	_
+10-6	1049-1057	deutlich	_	_
+10-7	1058-1059	,	_	_
+10-8	1060-1070	vielleicht	_	_
+10-9	1071-1074	von	_	_
+10-10	1075-1081	äthiop	_	_
+10-11	1082-1083	.	_	_
+
+#Text=Stein .
+11-1	1084-1089	Stein	_	_
+11-2	1090-1091	.	_	_
+
+#Text=2 .
+12-1	1092-1093	2	_	_
+12-2	1094-1095	.	_	_
+
+#Text=Gespann mit 2 ebenfalls hoch aufsprengen Stieren .
+13-1	1096-1103	Gespann	_	_
+13-2	1104-1107	mit	_	_
+13-3	1108-1109	2	_	_
+13-4	1110-1119	ebenfalls	_	_
+13-5	1120-1124	hoch	_	_
+13-6	1125-1136	aufsprengen	_	_
+13-7	1137-1144	Stieren	_	_
+13-8	1145-1146	.	_	_
+
+#Text=Als Lenkerin figurirt eine weibliche Gestalt mit Köcher ( Diane ?
+14-1	1147-1150	Als	_	_
+14-2	1151-1159	Lenkerin	_	_
+14-3	1160-1168	figurirt	_	_
+14-4	1169-1173	eine	_	_
+14-5	1174-1183	weibliche	_	_
+14-6	1184-1191	Gestalt	_	_
+14-7	1192-1195	mit	_	_
+14-8	1196-1202	Köcher	_	_
+14-9	1203-1204	(	_	_
+14-10	1205-1210	Diane	*	PERmentioned
+14-11	1211-1212	?	_	_
+
+#Text=) , als Apobates Figur
+15-1	1213-1214	)	_	_
+15-2	1215-1216	,	_	_
+15-3	1217-1220	als	_	_
+15-4	1221-1229	Apobates	_	_
+15-5	1230-1235	Figur	_	_

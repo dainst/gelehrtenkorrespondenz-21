@@ -1,0 +1,242 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=395 Lepsius an Henzen Berlin , 13. November 1873 16/17 73 Berlin , d . 13 .
+1-1	0-3	395	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	13.	*[3]	DATEletter[3]
+1-8	35-43	November	*[3]	DATEletter[3]
+1-9	44-48	1873	*[3]	DATEletter[3]
+1-10	49-54	16/17	*[4]	DATErecieved[4]
+1-11	55-57	73	*[4]	DATErecieved[4]
+1-12	58-64	Berlin	*	PLACEfrom
+1-13	65-66	,	_	_
+1-14	67-68	d	_	_
+1-15	69-70	.	_	_
+1-16	71-73	13	*[5]	DATEletter[5]
+1-17	74-75	.	*[5]	DATEletter[5]
+
+#Text=Nov .
+2-1	76-79	Nov	*[5]	DATEletter[5]
+2-2	80-81	.	*[5]	DATEletter[5]
+
+#Text=1873 Verehrter Freund Ich habe zwar keine Antwort von Asher , daß er unser Guthaben abgezogen hat , hoffe aber daß nun Alles in Ordnung ist .
+3-1	82-86	1873	*[5]	DATEletter[5]
+3-2	87-96	Verehrter	_	_
+3-3	97-103	Freund	_	_
+3-4	104-107	Ich	_	_
+3-5	108-112	habe	_	_
+3-6	113-117	zwar	_	_
+3-7	118-123	keine	_	_
+3-8	124-131	Antwort	_	_
+3-9	132-135	von	_	_
+3-10	136-141	Asher	*	PERmentioned
+3-11	142-143	,	_	_
+3-12	144-147	daß	_	_
+3-13	148-150	er	_	_
+3-14	151-156	unser	_	_
+3-15	157-165	Guthaben	_	_
+3-16	166-175	abgezogen	_	_
+3-17	176-179	hat	_	_
+3-18	180-181	,	_	_
+3-19	182-187	hoffe	_	_
+3-20	188-192	aber	_	_
+3-21	193-196	daß	_	_
+3-22	197-200	nun	_	_
+3-23	201-206	Alles	_	_
+3-24	207-209	in	_	_
+3-25	210-217	Ordnung	_	_
+3-26	218-221	ist	_	_
+3-27	222-223	.	_	_
+
+#Text=Gestern habe ich ihm die Bände C. I .
+4-1	224-231	Gestern	_	_
+4-2	232-236	habe	_	_
+4-3	237-240	ich	_	_
+4-4	241-244	ihm	_	_
+4-5	245-248	die	_	_
+4-6	249-254	Bände	_	_
+4-7	255-257	C.	_	_
+4-8	258-259	I	_	_
+4-9	260-261	.	_	_
+
+#Text=L. III , 1.2. zur gelegentlichen Beförderung nach Rom geschickt , die vom Ministerium immer zurückgegeben werden .
+5-1	262-264	L.	_	_
+5-2	265-268	III	_	_
+5-3	269-270	,	_	_
+5-4	271-275	1.2.	_	_
+5-5	276-279	zur	_	_
+5-6	280-294	gelegentlichen	_	_
+5-7	295-306	Beförderung	_	_
+5-8	307-311	nach	_	_
+5-9	312-315	Rom	*	PLACEmentioned
+5-10	316-325	geschickt	_	_
+5-11	326-327	,	_	_
+5-12	328-331	die	_	_
+5-13	332-335	vom	_	_
+5-14	336-347	Ministerium	*	ORGmentioned
+5-15	348-353	immer	_	_
+5-16	354-367	zurückgegeben	_	_
+5-17	368-374	werden	_	_
+5-18	375-376	.	_	_
+
+#Text=Die Gen .
+6-1	377-380	Die	_	_
+6-2	381-384	Gen	_	_
+6-3	385-386	.	_	_
+
+#Text=Kasse verlangt baldige Inventarbescheinigung zum Rechnungsbelag .
+7-1	387-392	Kasse	_	_
+7-2	393-401	verlangt	_	_
+7-3	402-409	baldige	_	_
+7-4	410-431	Inventarbescheinigung	_	_
+7-5	432-435	zum	_	_
+7-6	436-450	Rechnungsbelag	_	_
+7-7	451-452	.	_	_
+
+#Text=Von Köhler für Athen ist hier nicht die Rede , da die beiden andern Kandidaten so warme Fürsprecher haben .
+8-1	453-456	Von	_	_
+8-2	457-463	Köhler	*	PERmentioned
+8-3	464-467	für	_	_
+8-4	468-473	Athen	*	PLACEmentioned
+8-5	474-477	ist	_	_
+8-6	478-482	hier	_	_
+8-7	483-488	nicht	_	_
+8-8	489-492	die	_	_
+8-9	493-497	Rede	_	_
+8-10	498-499	,	_	_
+8-11	500-502	da	_	_
+8-12	503-506	die	_	_
+8-13	507-513	beiden	_	_
+8-14	514-520	andern	_	_
+8-15	521-531	Kandidaten	_	_
+8-16	532-534	so	_	_
+8-17	535-540	warme	_	_
+8-18	541-552	Fürsprecher	_	_
+8-19	553-558	haben	_	_
+8-20	559-560	.	_	_
+
+#Text=Ich habe jetzt Hirschfeld hier einige mal gesehen \; er ist doch sehr rührig und scheint mir für eine so praktische Stellung , da er vorläufig allein stehen müßte , doch recht geeignet .
+9-1	561-564	Ich	_	_
+9-2	565-569	habe	_	_
+9-3	570-575	jetzt	_	_
+9-4	576-586	Hirschfeld	*	PERmentioned
+9-5	587-591	hier	_	_
+9-6	592-598	einige	_	_
+9-7	599-602	mal	_	_
+9-8	603-610	gesehen	_	_
+9-9	611-612	\;	_	_
+9-10	613-615	er	_	_
+9-11	616-619	ist	_	_
+9-12	620-624	doch	_	_
+9-13	625-629	sehr	_	_
+9-14	630-636	rührig	_	_
+9-15	637-640	und	_	_
+9-16	641-648	scheint	_	_
+9-17	649-652	mir	_	_
+9-18	653-656	für	_	_
+9-19	657-661	eine	_	_
+9-20	662-664	so	_	_
+9-21	665-675	praktische	_	_
+9-22	676-684	Stellung	_	_
+9-23	685-686	,	_	_
+9-24	687-689	da	_	_
+9-25	690-692	er	_	_
+9-26	693-702	vorläufig	_	_
+9-27	703-709	allein	_	_
+9-28	710-716	stehen	_	_
+9-29	717-722	müßte	_	_
+9-30	723-724	,	_	_
+9-31	725-729	doch	_	_
+9-32	730-735	recht	_	_
+9-33	736-744	geeignet	_	_
+9-34	745-746	.	_	_
+
+#Text=Daß Lüders besser repräsentiren würde , zweifle ich nicht \; es ist schade , daß beide sich nicht verständigen zu können scheinen .
+10-1	747-750	Daß	_	_
+10-2	751-757	Lüders	*	PERmentioned
+10-3	758-764	besser	_	_
+10-4	765-778	repräsentiren	_	_
+10-5	779-784	würde	_	_
+10-6	785-786	,	_	_
+10-7	787-794	zweifle	_	_
+10-8	795-798	ich	_	_
+10-9	799-804	nicht	_	_
+10-10	805-806	\;	_	_
+10-11	807-809	es	_	_
+10-12	810-813	ist	_	_
+10-13	814-820	schade	_	_
+10-14	821-822	,	_	_
+10-15	823-826	daß	_	_
+10-16	827-832	beide	_	_
+10-17	833-837	sich	_	_
+10-18	838-843	nicht	_	_
+10-19	844-856	verständigen	_	_
+10-20	857-859	zu	_	_
+10-21	860-866	können	_	_
+10-22	867-875	scheinen	_	_
+10-23	876-877	.	_	_
+
+#Text=Mommsen tritt nun wieder in die Kammer , was mir , unter uns gesagt , recht leid thut , für ihn , für seine Arbeiten , und für uns .
+11-1	878-885	Mommsen	*	PERmentioned
+11-2	886-891	tritt	_	_
+11-3	892-895	nun	_	_
+11-4	896-902	wieder	_	_
+11-5	903-905	in	_	_
+11-6	906-909	die	_	_
+11-7	910-916	Kammer	_	_
+11-8	917-918	,	_	_
+11-9	919-922	was	_	_
+11-10	923-926	mir	_	_
+11-11	927-928	,	_	_
+11-12	929-934	unter	_	_
+11-13	935-938	uns	_	_
+11-14	939-945	gesagt	_	_
+11-15	946-947	,	_	_
+11-16	948-953	recht	_	_
+11-17	954-958	leid	_	_
+11-18	959-963	thut	_	_
+11-19	964-965	,	_	_
+11-20	966-969	für	_	_
+11-21	970-973	ihn	_	_
+11-22	974-975	,	_	_
+11-23	976-979	für	_	_
+11-24	980-985	seine	_	_
+11-25	986-994	Arbeiten	_	_
+11-26	995-996	,	_	_
+11-27	997-1000	und	_	_
+11-28	1001-1004	für	_	_
+11-29	1005-1008	uns	_	_
+11-30	1009-1010	.	_	_
+
+#Text=Er kann 's aber nicht lassen .
+12-1	1011-1013	Er	_	_
+12-2	1014-1018	kann	_	_
+12-3	1019-1021	's	_	_
+12-4	1022-1026	aber	_	_
+12-5	1027-1032	nicht	_	_
+12-6	1033-1039	lassen	_	_
+12-7	1040-1041	.	_	_
+
+#Text=Vor kurzem haben wir nun nochmals die Statuten zurückerhalten , mit der Aufforderung auch die christli-
+13-1	1042-1045	Vor	_	_
+13-2	1046-1052	kurzem	_	_
+13-3	1053-1058	haben	_	_
+13-4	1059-1062	wir	_	_
+13-5	1063-1066	nun	_	_
+13-6	1067-1075	nochmals	_	_
+13-7	1076-1079	die	_	_
+13-8	1080-1088	Statuten	_	_
+13-9	1089-1103	zurückerhalten	_	_
+13-10	1104-1105	,	_	_
+13-11	1106-1109	mit	_	_
+13-12	1110-1113	der	_	_
+13-13	1114-1126	Aufforderung	_	_
+13-14	1127-1131	auch	_	_
+13-15	1132-1135	die	_	_
+13-16	1136-1145	christli-	_	_

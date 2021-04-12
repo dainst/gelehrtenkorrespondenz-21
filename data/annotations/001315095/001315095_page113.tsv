@@ -1,0 +1,42 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , 5. Juni 1859 steht , sehe ich aus seinen Briefen und wissen wir ja beide ohnehin .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	5.	*[1]	DATEletter[1]
+1-7	29-33	Juni	*[1]	DATEletter[1]
+1-8	34-38	1859	*[1]	DATEletter[1]
+1-9	39-44	steht	_	_
+1-10	45-46	,	_	_
+1-11	47-51	sehe	_	_
+1-12	52-55	ich	_	_
+1-13	56-59	aus	_	_
+1-14	60-66	seinen	_	_
+1-15	67-74	Briefen	_	_
+1-16	75-78	und	_	_
+1-17	79-85	wissen	_	_
+1-18	86-89	wir	_	_
+1-19	90-92	ja	_	_
+1-20	93-98	beide	_	_
+1-21	99-106	ohnehin	_	_
+1-22	107-108	.	_	_
+
+#Text=Lebewohl , lieber Freund .
+2-1	109-117	Lebewohl	_	_
+2-2	118-119	,	_	_
+2-3	120-126	lieber	_	_
+2-4	127-133	Freund	_	_
+2-5	134-135	.	_	_
+
+#Text=Dein M. Berlin 5. Juni 1859
+3-1	136-140	Dein	_	_
+3-2	141-143	M.	*	PERauthor
+3-3	144-150	Berlin	*	PLACEfrom
+3-4	151-153	5.	*[2]	DATEletter[2]
+3-5	154-158	Juni	*[2]	DATEletter[2]
+3-6	159-163	1859	*[2]	DATEletter[2]

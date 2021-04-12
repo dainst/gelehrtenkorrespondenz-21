@@ -1,0 +1,39 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=806 Lepsius an Helbig \| Berlin , 28. April 1882 res ist jetzt Hildebrand 's Privatstraße N . 7 .
+1-1	0-3	806	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Helbig	*	PERaddressee
+1-5	22-23	\|	_	_
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-36	28.	*[1]	DATEletter[1]
+1-9	37-42	April	*[1]	DATEletter[1]
+1-10	43-47	1882	*[1]	DATEletter[1]
+1-11	48-51	res	_	_
+1-12	52-55	ist	_	_
+1-13	56-61	jetzt	_	_
+1-14	62-72	Hildebrand	*[2]	PLACEmentioned[2]
+1-15	73-75	's	*[2]	PLACEmentioned[2]
+1-16	76-88	Privatstraße	*[2]	PLACEmentioned[2]
+1-17	89-90	N	*[2]	PLACEmentioned[2]
+1-18	91-92	.	*[2]	PLACEmentioned[2]
+1-19	93-94	7	*[2]	PLACEmentioned[2]
+1-20	95-96	.	*[2]	PLACEmentioned[2]
+
+#Text=Viele Grüße an Henzen .
+2-1	97-102	Viele	_	_
+2-2	103-108	Grüße	_	_
+2-3	109-111	an	_	_
+2-4	112-118	Henzen	*	PERmentioned
+2-5	119-120	.	_	_
+
+#Text=Ganz der Ihrige R Lepsius
+3-1	121-125	Ganz	_	_
+3-2	126-129	der	_	_
+3-3	130-136	Ihrige	_	_
+3-4	137-138	R	*[3]	PERauthor[3]
+3-5	139-146	Lepsius	*[3]	PERauthor[3]

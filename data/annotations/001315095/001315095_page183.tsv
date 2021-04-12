@@ -1,0 +1,120 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn ( Beilage ) Charlottenburg 20 .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-18	(	_	_
+1-5	19-26	Beilage	_	_
+1-6	27-28	)	_	_
+1-7	29-43	Charlottenburg	*	PLACEfrom
+1-8	44-46	20	*[1]	DATEletter[1]
+1-9	47-48	.	*[1]	DATEletter[1]
+
+#Text=Januar 1890 Professor Mommsen eine ähnliche Anregung , in Folge dren sie in Verhandlungen mit dem Reichsamt des Inneren wegen Be- \| willigung der erforderlichen Geldmittel und mit dem Feldmarschall Grafen von Moltke wegen Übernahme der Leitung der Untersuchungen trat .
+2-1	49-55	Januar	*[1]	DATEletter[1]
+2-2	56-60	1890	*[1]	DATEletter[1]
+2-3	61-70	Professor	*[2]	PERmentioned[2]
+2-4	71-78	Mommsen	*[2]	PERmentioned[2]
+2-5	79-83	eine	_	_
+2-6	84-92	ähnliche	_	_
+2-7	93-101	Anregung	_	_
+2-8	102-103	,	_	_
+2-9	104-106	in	_	_
+2-10	107-112	Folge	_	_
+2-11	113-117	dren	_	_
+2-12	118-121	sie	_	_
+2-13	122-124	in	_	_
+2-14	125-138	Verhandlungen	_	_
+2-15	139-142	mit	_	_
+2-16	143-146	dem	_	_
+2-17	147-156	Reichsamt	_	_
+2-18	157-160	des	_	_
+2-19	161-168	Inneren	_	_
+2-20	169-174	wegen	_	_
+2-21	175-178	Be-	_	_
+2-22	179-180	\|	_	_
+2-23	181-190	willigung	_	_
+2-24	191-194	der	_	_
+2-25	195-209	erforderlichen	_	_
+2-26	210-220	Geldmittel	_	_
+2-27	221-224	und	_	_
+2-28	225-228	mit	_	_
+2-29	229-232	dem	_	_
+2-30	233-246	Feldmarschall	*[3]	PERmentioned[3]
+2-31	247-253	Grafen	*[3]	PERmentioned[3]
+2-32	254-257	von	*[3]	PERmentioned[3]
+2-33	258-264	Moltke	*[3]	PERmentioned[3]
+2-34	265-270	wegen	_	_
+2-35	271-280	Übernahme	_	_
+2-36	281-284	der	_	_
+2-37	285-292	Leitung	_	_
+2-38	293-296	der	_	_
+2-39	297-311	Untersuchungen	_	_
+2-40	312-316	trat	_	_
+2-41	317-318	.	_	_
+
+#Text=Die ganze Sache scheiterte dann nach längerem Schriftwechsel im Jahre 1880 an der Erklärung Seiner Durchlaucht des Herrn Reichskanzlers , daß die Finanzlage des Reiches nicht gestatte , die erforderlichen Geldmittel für diesen Zweck zur Verfügung zu stellen .
+3-1	319-322	Die	_	_
+3-2	323-328	ganze	_	_
+3-3	329-334	Sache	_	_
+3-4	335-345	scheiterte	_	_
+3-5	346-350	dann	_	_
+3-6	351-355	nach	_	_
+3-7	356-364	längerem	_	_
+3-8	365-379	Schriftwechsel	_	_
+3-9	380-382	im	_	_
+3-10	383-388	Jahre	*[4]	DATEmentioned[4]
+3-11	389-393	1880	*[4]	DATEmentioned[4]
+3-12	394-396	an	_	_
+3-13	397-400	der	_	_
+3-14	401-410	Erklärung	_	_
+3-15	411-417	Seiner	_	_
+3-16	418-429	Durchlaucht	_	_
+3-17	430-433	des	_	_
+3-18	434-439	Herrn	*[5]	DATEmentioned[5]
+3-19	440-454	Reichskanzlers	*[5]	DATEmentioned[5]
+3-20	455-456	,	_	_
+3-21	457-460	daß	_	_
+3-22	461-464	die	_	_
+3-23	465-475	Finanzlage	_	_
+3-24	476-479	des	_	_
+3-25	480-487	Reiches	_	_
+3-26	488-493	nicht	_	_
+3-27	494-502	gestatte	_	_
+3-28	503-504	,	_	_
+3-29	505-508	die	_	_
+3-30	509-523	erforderlichen	_	_
+3-31	524-534	Geldmittel	_	_
+3-32	535-538	für	_	_
+3-33	539-545	diesen	_	_
+3-34	546-551	Zweck	_	_
+3-35	552-555	zur	_	_
+3-36	556-565	Verfügung	_	_
+3-37	566-568	zu	_	_
+3-38	569-576	stellen	_	_
+3-39	577-578	.	_	_
+
+#Text=I.V , ( unleserlich ) Generallieutnant .
+4-1	579-582	I.V	_	_
+4-2	583-584	,	_	_
+4-3	585-586	(	_	_
+4-4	587-598	unleserlich	_	_
+4-5	599-600	)	_	_
+4-6	601-617	Generallieutnant	_	_
+4-7	618-619	.	_	_
+
+#Text=An den Rektor der Universität Herrn Professor Dr. Herzog Magnifizenz Tübingen
+5-1	620-622	An	_	_
+5-2	623-626	den	_	_
+5-3	627-633	Rektor	*[6]	PERaddressee[6]
+5-4	634-637	der	*[6]	PERaddressee[6]
+5-5	638-649	Universität	*[6]	PERaddressee[6]
+5-6	650-655	Herrn	*[6]	PERaddressee[6]
+5-7	656-665	Professor	*[6]	PERaddressee[6]
+5-8	666-669	Dr.	*[6]	PERaddressee[6]
+5-9	670-676	Herzog	*[6]	PERaddressee[6]
+5-10	677-688	Magnifizenz	_	_
+5-11	689-697	Tübingen	*	PLACEmentioned

@@ -1,0 +1,163 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=TERN 247 3 ) 4 ) Brunn an Henzen Perugia , 17 .
+1-1	0-4	TERN	_	_
+1-2	5-8	247	_	_
+1-3	9-10	3	_	_
+1-4	11-12	)	_	_
+1-5	13-14	4	_	_
+1-6	15-16	)	_	_
+1-7	17-22	Brunn	*	PERauthor
+1-8	23-25	an	_	_
+1-9	26-32	Henzen	*	PERaddressee
+1-10	33-40	Perugia	*	PLACEfrom
+1-11	41-42	,	_	_
+1-12	43-45	17	*[1]	DATEletter[1]
+1-13	46-47	.	*[1]	DATEletter[1]
+
+#Text=August 1858 forma del trono a guisa di Sfinge \; per le altre basterebbe un disegno da una parte .
+2-1	48-54	August	*[1]	DATEletter[1]
+2-2	55-59	1858	*[1]	DATEletter[1]
+2-3	60-65	forma	_	_
+2-4	66-69	del	_	_
+2-5	70-75	trono	_	_
+2-6	76-77	a	_	_
+2-7	78-83	guisa	_	_
+2-8	84-86	di	_	_
+2-9	87-93	Sfinge	_	_
+2-10	94-95	\;	_	_
+2-11	96-99	per	_	_
+2-12	100-102	le	_	_
+2-13	103-108	altre	_	_
+2-14	109-119	basterebbe	_	_
+2-15	120-122	un	_	_
+2-16	123-130	disegno	_	_
+2-17	131-133	da	_	_
+2-18	134-137	una	_	_
+2-19	138-143	parte	_	_
+2-20	144-145	.	_	_
+
+#Text=Tutto sarebbe da disporre in modo , che queste tre o quattro figure trovassero posto sopra una tavola ordinaria grande de ' monumenti .
+3-1	146-151	Tutto	_	_
+3-2	152-159	sarebbe	_	_
+3-3	160-162	da	_	_
+3-4	163-171	disporre	_	_
+3-5	172-174	in	_	_
+3-6	175-179	modo	_	_
+3-7	180-181	,	_	_
+3-8	182-185	che	_	_
+3-9	186-192	queste	_	_
+3-10	193-196	tre	_	_
+3-11	197-198	o	_	_
+3-12	199-206	quattro	_	_
+3-13	207-213	figure	_	_
+3-14	214-224	trovassero	_	_
+3-15	225-230	posto	_	_
+3-16	231-236	sopra	_	_
+3-17	237-240	una	_	_
+3-18	241-247	tavola	_	_
+3-19	248-257	ordinaria	_	_
+3-20	258-264	grande	_	_
+3-21	265-267	de	_	_
+3-22	268-269	'	_	_
+3-23	270-279	monumenti	_	_
+3-24	280-281	.	_	_
+
+#Text=Nella camera , dove sono le pitture etrusche potrebbero esser disegnate due o tre delle piccole urnette , da formar ciascuna una tavola d'aggiunta , Oo secondo il merito , una tav .
+4-1	282-287	Nella	_	_
+4-2	288-294	camera	_	_
+4-3	295-296	,	_	_
+4-4	297-301	dove	_	_
+4-5	302-306	sono	_	_
+4-6	307-309	le	_	_
+4-7	310-317	pitture	*[2]	OBJ[2]
+4-8	318-326	etrusche	*[2]	OBJ[2]
+4-9	327-337	potrebbero	_	_
+4-10	338-343	esser	_	_
+4-11	344-353	disegnate	_	_
+4-12	354-357	due	_	_
+4-13	358-359	o	_	_
+4-14	360-363	tre	_	_
+4-15	364-369	delle	_	_
+4-16	370-377	piccole	*[3]	OBJ[3]
+4-17	378-385	urnette	*[3]	OBJ[3]
+4-18	386-387	,	_	_
+4-19	388-390	da	_	_
+4-20	391-397	formar	_	_
+4-21	398-406	ciascuna	_	_
+4-22	407-410	una	_	_
+4-23	411-417	tavola	_	_
+4-24	418-428	d'aggiunta	_	_
+4-25	429-430	,	_	_
+4-26	431-433	Oo	_	_
+4-27	434-441	secondo	_	_
+4-28	442-444	il	_	_
+4-29	445-451	merito	_	_
+4-30	452-453	,	_	_
+4-31	454-457	una	_	_
+4-32	458-461	tav	_	_
+4-33	462-463	.	_	_
+
+#Text=d'agg .
+5-1	464-469	d'agg	_	_
+5-2	470-471	.	_	_
+
+#Text=doppia , Nella camera della piccole terracotte , subito a destra di chi entra , nella fila piü bassa della credenza , vi € una figura di oratore o filosofo , che mostrai una volta al sig .
+6-1	472-478	doppia	_	_
+6-2	479-480	,	_	_
+6-3	481-486	Nella	_	_
+6-4	487-493	camera	_	_
+6-5	494-499	della	_	_
+6-6	500-507	piccole	_	_
+6-7	508-518	terracotte	*	OBJ
+6-8	519-520	,	_	_
+6-9	521-527	subito	_	_
+6-10	528-529	a	_	_
+6-11	530-536	destra	_	_
+6-12	537-539	di	_	_
+6-13	540-543	chi	_	_
+6-14	544-549	entra	_	_
+6-15	550-551	,	_	_
+6-16	552-557	nella	_	_
+6-17	558-562	fila	_	_
+6-18	563-566	piü	_	_
+6-19	567-572	bassa	_	_
+6-20	573-578	della	_	_
+6-21	579-587	credenza	_	_
+6-22	588-589	,	_	_
+6-23	590-592	vi	_	_
+6-24	593-594	€	_	_
+6-25	595-598	una	_	_
+6-26	599-605	figura	_	_
+6-27	606-608	di	_	_
+6-28	609-616	oratore	_	_
+6-29	617-618	o	_	_
+6-30	619-627	filosofo	_	_
+6-31	628-629	,	_	_
+6-32	630-633	che	_	_
+6-33	634-641	mostrai	_	_
+6-34	642-645	una	_	_
+6-35	646-651	volta	_	_
+6-36	652-654	al	_	_
+6-37	655-658	sig	_	_
+6-38	659-660	.	_	_
+
+#Text=Bossi .
+7-1	661-666	Bossi	*	PERmentioned
+7-2	667-668	.	_	_
+
+#Text=Ci vorrebbe un disegno on troppo piccolo , ne troppo abbozzato .
+8-1	669-671	Ci	_	_
+8-2	672-680	vorrebbe	_	_
+8-3	681-683	un	_	_
+8-4	684-691	disegno	_	_
+8-5	692-694	on	_	_
+8-6	695-701	troppo	_	_
+8-7	702-709	piccolo	_	_
+8-8	710-711	,	_	_
+8-9	712-714	ne	_	_
+8-10	715-721	troppo	_	_
+8-11	722-731	abbozzato	_	_
+8-12	732-733	.	_	_

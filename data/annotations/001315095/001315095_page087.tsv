@@ -1,0 +1,169 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Km Mommsen an Brunn Breslau , 28. Dezember 54 Nimm einmal Gelegenheit , wenn Du Böcking siehst , ihn zu fragen , ob er die Tenzlersche Schrift ( Beschreibung von Frankfurt an der Oder ) erhalten habe ?
+1-1	0-2	Km	_	_
+1-2	3-10	Mommsen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Brunn	*	PERaddressee
+1-5	20-27	Breslau	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	28.	*[1]	DATEletter[1]
+1-8	34-42	Dezember	*[1]	DATEletter[1]
+1-9	43-45	54	*[1]	DATEletter[1]
+1-10	46-50	Nimm	_	_
+1-11	51-57	einmal	_	_
+1-12	58-69	Gelegenheit	_	_
+1-13	70-71	,	_	_
+1-14	72-76	wenn	_	_
+1-15	77-79	Du	_	_
+1-16	80-87	Böcking	*	PERmentioned
+1-17	88-94	siehst	_	_
+1-18	95-96	,	_	_
+1-19	97-100	ihn	_	_
+1-20	101-103	zu	_	_
+1-21	104-110	fragen	_	_
+1-22	111-112	,	_	_
+1-23	113-115	ob	_	_
+1-24	116-118	er	_	_
+1-25	119-122	die	_	_
+1-26	123-134	Tenzlersche	_	_
+1-27	135-142	Schrift	_	_
+1-28	143-144	(	_	_
+1-29	145-157	Beschreibung	_	_
+1-30	158-161	von	_	_
+1-31	162-171	Frankfurt	*[2]	PLACEmentioned[2]
+1-32	172-174	an	*[2]	PLACEmentioned[2]
+1-33	175-178	der	*[2]	PLACEmentioned[2]
+1-34	179-183	Oder	*[2]	PLACEmentioned[2]
+1-35	184-185	)	_	_
+1-36	186-194	erhalten	_	_
+1-37	195-199	habe	_	_
+1-38	200-201	?	_	_
+
+#Text=Ist's nicht der Fall , so soll er mir gleich ein Briefcouvert schicken , wenn auch nichts drin steht \; daß er nämlich keine Briefe schreibt , si sa .
+2-1	202-207	Ist's	_	_
+2-2	208-213	nicht	_	_
+2-3	214-217	der	_	_
+2-4	218-222	Fall	_	_
+2-5	223-224	,	_	_
+2-6	225-227	so	_	_
+2-7	228-232	soll	_	_
+2-8	233-235	er	_	_
+2-9	236-239	mir	_	_
+2-10	240-246	gleich	_	_
+2-11	247-250	ein	_	_
+2-12	251-263	Briefcouvert	_	_
+2-13	264-272	schicken	_	_
+2-14	273-274	,	_	_
+2-15	275-279	wenn	_	_
+2-16	280-284	auch	_	_
+2-17	285-291	nichts	_	_
+2-18	292-296	drin	_	_
+2-19	297-302	steht	_	_
+2-20	303-304	\;	_	_
+2-21	305-308	daß	_	_
+2-22	309-311	er	_	_
+2-23	312-319	nämlich	_	_
+2-24	320-325	keine	_	_
+2-25	326-332	Briefe	_	_
+2-26	333-341	schreibt	_	_
+2-27	342-343	,	_	_
+2-28	344-346	si	_	_
+2-29	347-349	sa	_	_
+2-30	350-351	.	_	_
+
+#Text=Mir geht es vortrefflich .
+3-1	352-355	Mir	_	_
+3-2	356-360	geht	_	_
+3-3	361-363	es	_	_
+3-4	364-376	vortrefflich	_	_
+3-5	377-378	.	_	_
+
+#Text=Donnerstag reisen wir nach Berlin und werden vorm 2 Januar nicht wieder hier sein .
+4-1	379-389	Donnerstag	*	DATEmentioned
+4-2	390-396	reisen	_	_
+4-3	397-400	wir	_	_
+4-4	401-405	nach	_	_
+4-5	406-412	Berlin	*	PLACEmentioned
+4-6	413-416	und	_	_
+4-7	417-423	werden	_	_
+4-8	424-428	vorm	_	_
+4-9	429-430	2	*[3]	DATEmentioned[3]
+4-10	431-437	Januar	*[3]	DATEmentioned[3]
+4-11	438-443	nicht	_	_
+4-12	444-450	wieder	_	_
+4-13	451-455	hier	_	_
+4-14	456-460	sein	_	_
+4-15	461-462	.	_	_
+
+#Text=Grüße Ritschl \; wenn irgend möglich , expedire ich die Bibliotheksendungen vorher , Jahns Vaseneinleitung wirst Du gesehen haben .
+5-1	463-468	Grüße	_	_
+5-2	469-476	Ritschl	*	PERmentioned
+5-3	477-478	\;	_	_
+5-4	479-483	wenn	_	_
+5-5	484-490	irgend	_	_
+5-6	491-498	möglich	_	_
+5-7	499-500	,	_	_
+5-8	501-509	expedire	_	_
+5-9	510-513	ich	_	_
+5-10	514-517	die	_	_
+5-11	518-537	Bibliotheksendungen	_	_
+5-12	538-544	vorher	_	_
+5-13	545-546	,	_	_
+5-14	547-552	Jahns	*	PERmentioned
+5-15	553-568	Vaseneinleitung	_	_
+5-16	569-574	wirst	_	_
+5-17	575-577	Du	_	_
+5-18	578-585	gesehen	_	_
+5-19	586-591	haben	_	_
+5-20	592-593	.	_	_
+
+#Text=Ich bin sehr froh darüber \; das ist doch einmal ein klares Resume , wain Alphabet- und andre Puncte oräentiich aufgeklärt werden Du siehst , wie eilig ich bin .
+6-1	594-597	Ich	_	_
+6-2	598-601	bin	_	_
+6-3	602-606	sehr	_	_
+6-4	607-611	froh	_	_
+6-5	612-619	darüber	_	_
+6-6	620-621	\;	_	_
+6-7	622-625	das	_	_
+6-8	626-629	ist	_	_
+6-9	630-634	doch	_	_
+6-10	635-641	einmal	_	_
+6-11	642-645	ein	_	_
+6-12	646-652	klares	_	_
+6-13	653-659	Resume	_	_
+6-14	660-661	,	_	_
+6-15	662-666	wain	_	_
+6-16	667-676	Alphabet-	_	_
+6-17	677-680	und	_	_
+6-18	681-686	andre	_	_
+6-19	687-693	Puncte	_	_
+6-20	694-704	oräentiich	_	_
+6-21	705-715	aufgeklärt	_	_
+6-22	716-722	werden	_	_
+6-23	723-725	Du	_	_
+6-24	726-732	siehst	_	_
+6-25	733-734	,	_	_
+6-26	735-738	wie	_	_
+6-27	739-744	eilig	_	_
+6-28	745-748	ich	_	_
+6-29	749-752	bin	_	_
+6-30	753-754	.	_	_
+
+#Text=Lebewohll Dein Mommsen .
+7-1	755-764	Lebewohll	_	_
+7-2	765-769	Dein	_	_
+7-3	770-777	Mommsen	*	PERauthor
+7-4	778-779	.	_	_
+
+#Text=Breslau 28 Dec .
+8-1	780-787	Breslau	*	PLACEfrom
+8-2	788-790	28	*[4]	DATEletter[4]
+8-3	791-794	Dec	*[4]	DATEletter[4]
+8-4	795-796	.	*[4]	DATEletter[4]
+
+#Text=54 ,
+9-1	797-799	54	*[4]	DATEletter[4]
+9-2	800-801	,	_	_

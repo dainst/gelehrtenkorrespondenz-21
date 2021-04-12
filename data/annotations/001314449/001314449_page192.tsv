@@ -1,0 +1,84 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=105 Henzen an Gerhad aa/ıV/54 Verehrter Herr Professor !
+1-1	0-3	105	_	_	
+1-2	4-10	Henzen	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-20	Gerhad	*	PERaddressee	
+1-5	21-29	aa/ıV/54	*	DATEletter	
+1-6	30-39	Verehrter	_	_	
+1-7	40-44	Herr	_	_	
+1-8	45-54	Professor	_	_	
+1-9	55-56	!	_	_	
+
+#Text=Endlich schicke ich Ihnen 3 Iixemplare Programne , Sie bittend , eines für Se , Maj .
+2-1	57-64	Endlich	_	_	
+2-2	65-72	schicke	_	_	
+2-3	73-76	ich	_	_	
+2-4	77-82	Ihnen	_	_	
+2-5	83-84	3	_	_	
+2-6	85-95	Iixemplare	_	_	
+2-7	96-105	Programne	_	_	
+2-8	106-107	,	_	_	
+2-9	108-111	Sie	_	_	
+2-10	112-119	bittend	_	_	
+2-11	120-121	,	_	_	
+2-12	122-127	eines	_	_	
+2-13	128-131	für	_	_	
+2-14	132-134	Se	_	_	
+2-15	135-136	,	_	_	
+2-16	137-140	Maj	*	PERmentioned	
+2-17	141-142	.	_	_	
+
+#Text=schönstens sebunden an Usedom zu geben , ein zweites demselben für ihn selber , das dritte für Sich zu behalten .
+3-1	143-153	schönstens	_	_	
+3-2	154-162	sebunden	_	_	
+3-3	163-165	an	_	_	
+3-4	166-172	Usedom	*	PERmentioned	
+3-5	173-175	zu	_	_	
+3-6	176-181	geben	_	_	
+3-7	182-183	,	_	_	
+3-8	184-187	ein	_	_	
+3-9	188-195	zweites	_	_	
+3-10	196-205	demselben	_	_	
+3-11	206-209	für	_	_	
+3-12	210-213	ihn	_	_	
+3-13	214-220	selber	_	_	
+3-14	221-222	,	_	_	
+3-15	223-226	das	_	_	
+3-16	227-233	dritte	_	_	
+3-17	234-237	für	_	_	
+3-18	238-242	Sich	_	_	
+3-19	243-245	zu	_	_	
+3-20	246-254	behalten	_	_	
+3-21	255-256	.	_	_	
+
+#Text=Binder noch nicht ansekommen .
+4-1	257-263	Binder	*	PERmentioned	
+4-2	264-268	noch	_	_	
+4-3	269-274	nicht	_	_	
+4-4	275-285	ansekommen	_	_	
+4-5	286-287	.	_	_	
+
+#Text=Ihr W Hz , 411/IV 54 Diplom für Se .
+5-1	288-291	Ihr	_	_	
+5-2	292-293	W	*[1]	PERauthor[1]	
+5-3	294-296	Hz	*[1]	PERauthor[1]	
+5-4	297-298	,	_	_	
+5-5	299-305	411/IV	*[2]	DATEletter[2]	
+5-6	306-308	54	*[2]	DATEletter[2]	
+5-7	309-315	Diplom	_	_	
+5-8	316-319	für	_	_	
+5-9	320-322	Se	_	_	
+5-10	323-324	.	_	_	
+
+#Text=Fl . Hoheit noch immer nicht |
+6-1	325-327	Fl	_	_	
+6-2	328-329	.	_	_	
+6-3	330-336	Hoheit	*	PERmentioned	
+6-4	337-341	noch	_	_	
+6-5	342-347	immer	_	_	
+6-6	348-353	nicht	_	_	
+6-7	354-355	|	_	_	

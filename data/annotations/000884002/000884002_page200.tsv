@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Florenz , 25 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Florenz	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	25	*[7]	DATEletter[7]
+1-7	29-30	.	*[7]	DATEletter[7]
+
+#Text=Sept .
+2-1	31-35	Sept	*[7]	DATEletter[7]
+2-2	36-37	.	*[7]	DATEletter[7]
+
+#Text=1863 Lieber Henzen !
+3-1	38-42	1863	*[7]	DATEletter[7]
+3-2	43-49	Lieber	_	_
+3-3	50-56	Henzen	*	PERaddressee
+3-4	57-58	!	_	_
+
+#Text=Wenige Stunden nach Absendung des Bleistiftbriefes erhielt ich nicht nur die beiden von Ihnen , sondern auch einen dritten von meinem Schwager , demzufolge Dreßler die Großmütter auf den agren nach München bestellt hat .
+4-1	59-65	Wenige	_	_
+4-2	66-73	Stunden	_	_
+4-3	74-78	nach	_	_
+4-4	79-88	Absendung	_	_
+4-5	89-92	des	_	_
+4-6	93-109	Bleistiftbriefes	_	_
+4-7	110-117	erhielt	_	_
+4-8	118-121	ich	_	_
+4-9	122-127	nicht	_	_
+4-10	128-131	nur	_	_
+4-11	132-135	die	_	_
+4-12	136-142	beiden	_	_
+4-13	143-146	von	_	_
+4-14	147-152	Ihnen	_	_
+4-15	153-154	,	_	_
+4-16	155-162	sondern	_	_
+4-17	163-167	auch	_	_
+4-18	168-173	einen	_	_
+4-19	174-181	dritten	_	_
+4-20	182-185	von	_	_
+4-21	186-192	meinem	_	_
+4-22	193-201	Schwager	_	_
+4-23	202-203	,	_	_
+4-24	204-214	demzufolge	_	_
+4-25	215-222	Dreßler	*	PERmentioned
+4-26	223-226	die	_	_
+4-27	227-237	Großmütter	_	_
+4-28	238-241	auf	_	_
+4-29	242-245	den	_	_
+4-30	246-251	agren	*[8]	DATEmentioned[8]
+4-31	252-256	nach	_	_
+4-32	257-264	München	*	PLACEmentioned
+4-33	265-273	bestellt	_	_
+4-34	274-277	hat	_	_
+4-35	278-279	.	_	_
+
+#Text=Ich brauche also nicht nach Venedig zu gehen , was mir sehr lieb ist , sondern eile nach Rom : etwa so , daß ich Donnerstag von Perugia abgehe .
+5-1	280-283	Ich	_	_
+5-2	284-291	brauche	_	_
+5-3	292-296	also	_	_
+5-4	297-302	nicht	_	_
+5-5	303-307	nach	_	_
+5-6	308-315	Venedig	*	PLACEmentioned
+5-7	316-318	zu	_	_
+5-8	319-324	gehen	_	_
+5-9	325-326	,	_	_
+5-10	327-330	was	_	_
+5-11	331-334	mir	_	_
+5-12	335-339	sehr	_	_
+5-13	340-344	lieb	_	_
+5-14	345-348	ist	_	_
+5-15	349-350	,	_	_
+5-16	351-358	sondern	_	_
+5-17	359-363	eile	_	_
+5-18	364-368	nach	_	_
+5-19	369-372	Rom	*	PLACEmentioned
+5-20	373-374	:	_	_
+5-21	375-379	etwa	_	_
+5-22	380-382	so	_	_
+5-23	383-384	,	_	_
+5-24	385-388	daß	_	_
+5-25	389-392	ich	_	_
+5-26	393-403	Donnerstag	*	DATEmentioned
+5-27	404-407	von	_	_
+5-28	408-415	Perugia	*	PLACEmentioned
+5-29	416-422	abgehe	_	_
+5-30	423-424	.	_	_
+
+#Text=Ragazzi wollen allerdings nächste Woche nach Ron : aber wohl über Siena , Perugia \; und sind sich über den Tag der Abreise noch nicht recht einig .
+6-1	425-432	Ragazzi	_	_
+6-2	433-439	wollen	_	_
+6-3	440-450	allerdings	_	_
+6-4	451-458	nächste	_	_
+6-5	459-464	Woche	_	_
+6-6	465-469	nach	_	_
+6-7	470-473	Ron	*	PLACEmentioned
+6-8	474-475	:	_	_
+6-9	476-480	aber	_	_
+6-10	481-485	wohl	_	_
+6-11	486-490	über	_	_
+6-12	491-496	Siena	*	PLACEmentioned
+6-13	497-498	,	_	_
+6-14	499-506	Perugia	*	PLACEmentioned
+6-15	507-508	\;	_	_
+6-16	509-512	und	_	_
+6-17	513-517	sind	_	_
+6-18	518-522	sich	_	_
+6-19	523-527	über	_	_
+6-20	528-531	den	_	_
+6-21	532-535	Tag	_	_
+6-22	536-539	der	_	_
+6-23	540-547	Abreise	_	_
+6-24	548-552	noch	_	_
+6-25	553-558	nicht	_	_
+6-26	559-564	recht	_	_
+6-27	565-570	einig	_	_
+6-28	571-572	.	_	_
+
+#Text=Köhler will morgen herkommen \; und dann entscheidet es sich vielleicht \; so daß ich wohl noch einen Bleistift-Nachtrag machen kann .
+7-1	573-579	Köhler	*	PERmentioned
+7-2	580-584	will	_	_
+7-3	585-591	morgen	_	_
+7-4	592-601	herkommen	_	_
+7-5	602-603	\;	_	_
+7-6	604-607	und	_	_
+7-7	608-612	dann	_	_
+7-8	613-624	entscheidet	_	_
+7-9	625-627	es	_	_
+7-10	628-632	sich	_	_
+7-11	633-643	vielleicht	_	_
+7-12	644-645	\;	_	_
+7-13	646-648	so	_	_
+7-14	649-652	daß	_	_
+7-15	653-656	ich	_	_
+7-16	657-661	wohl	_	_
+7-17	662-666	noch	_	_
+7-18	667-672	einen	_	_
+7-19	673-691	Bleistift-Nachtrag	_	_
+7-20	692-698	machen	_	_
+7-21	699-703	kann	_	_
+7-22	704-705	.	_	_
+
+#Text=Vorläufig mit besten Grüßen Ihr HBrunn .
+8-1	706-715	Vorläufig	_	_
+8-2	716-719	mit	_	_
+8-3	720-726	besten	_	_
+8-4	727-733	Grüßen	_	_
+8-5	734-737	Ihr	_	_
+8-6	738-744	HBrunn	*	PERauthor
+8-7	745-746	.	_	_
+
+#Text=Florenz , 25:1IX , 63 .
+9-1	747-754	Florenz	*	PLACEfrom
+9-2	755-756	,	_	_
+9-3	757-763	25:1IX	*[9]	DATEletter[9]
+9-4	764-765	,	*[9]	DATEletter[9]
+9-5	766-768	63	*[9]	DATEletter[9]
+9-6	769-770	.	_	_
+
+#Text=( mit Bleistift ) : Die Ragazzi Hirzel und wahrscheinlich Nissen reisen schon Montag , aber wohl erst Freitag von Perugia nach Rom .
+10-1	771-772	(	_	_
+10-2	773-776	mit	_	_
+10-3	777-786	Bleistift	_	_
+10-4	787-788	)	_	_
+10-5	789-790	:	_	_
+10-6	791-794	Die	_	_
+10-7	795-802	Ragazzi	_	_
+10-8	803-809	Hirzel	*	PERmentioned
+10-9	810-813	und	_	_
+10-10	814-828	wahrscheinlich	_	_
+10-11	829-835	Nissen	*	PERmentioned
+10-12	836-842	reisen	_	_
+10-13	843-848	schon	_	_
+10-14	849-855	Montag	*	DATEmentioned
+10-15	856-857	,	_	_
+10-16	858-862	aber	_	_
+10-17	863-867	wohl	_	_
+10-18	868-872	erst	_	_
+10-19	873-880	Freitag	*	PERmentioned
+10-20	881-884	von	_	_
+10-21	885-892	Perugia	*	PLACEmentioned
+10-22	893-897	nach	_	_
+10-23	898-901	Rom	*	PLACEmentioned
+10-24	902-903	.	_	_
+
+#Text=Köhler dagegen macht wahrscheinlich einen portofreien Abstecher von einigen Wochen nach Athen , salvo indice .
+11-1	904-910	Köhler	*	PERmentioned
+11-2	911-918	dagegen	_	_
+11-3	919-924	macht	_	_
+11-4	925-939	wahrscheinlich	_	_
+11-5	940-945	einen	_	_
+11-6	946-957	portofreien	_	_
+11-7	958-967	Abstecher	_	_
+11-8	968-971	von	_	_
+11-9	972-979	einigen	_	_
+11-10	980-986	Wochen	_	_
+11-11	987-991	nach	_	_
+11-12	992-997	Athen	*	PLACEmentioned
+11-13	998-999	,	_	_
+11-14	1000-1005	salvo	_	_
+11-15	1006-1012	indice	_	_
+11-16	1013-1014	.	_	_
+
+#Text=Er verspricht mir nach seiner Rückkehr sich ununterbrochen auf seine Hosen zu setzen , um diese Arbeit zu fördern , HBr , .
+12-1	1015-1017	Er	_	_
+12-2	1018-1028	verspricht	_	_
+12-3	1029-1032	mir	_	_
+12-4	1033-1037	nach	_	_
+12-5	1038-1044	seiner	_	_
+12-6	1045-1053	Rückkehr	_	_
+12-7	1054-1058	sich	_	_
+12-8	1059-1073	ununterbrochen	_	_
+12-9	1074-1077	auf	_	_
+12-10	1078-1083	seine	_	_
+12-11	1084-1089	Hosen	_	_
+12-12	1090-1092	zu	_	_
+12-13	1093-1099	setzen	_	_
+12-14	1100-1101	,	_	_
+12-15	1102-1104	um	_	_
+12-16	1105-1110	diese	_	_
+12-17	1111-1117	Arbeit	_	_
+12-18	1118-1120	zu	_	_
+12-19	1121-1128	fördern	_	_
+12-20	1129-1130	,	_	_
+12-21	1131-1134	HBr	*	PERauthor
+12-22	1135-1136	,	_	_
+12-23	1137-1138	.	_	_

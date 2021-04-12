@@ -1,0 +1,200 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Siena , 15 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-22	Siena	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	15	*[1]	DATEletter[1]
+1-7	28-29	.	*[1]	DATEletter[1]
+
+#Text=August 1874 H g . 17/8 74 r . 18/8 74 Siena Villa Bargagli 15 .
+2-1	30-36	August	*[1]	DATEletter[1]
+2-2	37-41	1874	*[1]	DATEletter[1]
+2-3	42-43	H	_	_
+2-4	44-45	g	_	_
+2-5	46-47	.	_	_
+2-6	48-52	17/8	*[2]	DATErecieved[2]
+2-7	53-55	74	*[2]	DATErecieved[2]
+2-8	56-57	r	_	_
+2-9	58-59	.	_	_
+2-10	60-64	18/8	*[3]	DATEanswered[3]
+2-11	65-67	74	*[3]	DATEanswered[3]
+2-12	68-73	Siena	*	PLACEfrom
+2-13	74-79	Villa	_	_
+2-14	80-88	Bargagli	_	_
+2-15	89-91	15	*[4]	DATEletter[4]
+2-16	92-93	.	*[4]	DATEletter[4]
+
+#Text=Ag .
+3-1	94-96	Ag	*[4]	DATEletter[4]
+3-2	97-98	.	*[4]	DATEletter[4]
+
+#Text=1874 Lieber Herr Professor Ich danke für Ihren Brief vom 10. und schreibe Ihnen auf diesem Wisch , da strömender Regen mich verhindert , anständiges Briefpapier in der Stadt zu kaufen .
+4-1	99-103	1874	*[4]	DATEletter[4]
+4-2	104-110	Lieber	_	_
+4-3	111-115	Herr	_	_
+4-4	116-125	Professor	_	_
+4-5	126-129	Ich	_	_
+4-6	130-135	danke	_	_
+4-7	136-139	für	_	_
+4-8	140-145	Ihren	_	_
+4-9	146-151	Brief	_	_
+4-10	152-155	vom	_	_
+4-11	156-159	10.	*[5]	DATEmentioned[5]
+4-12	160-163	und	_	_
+4-13	164-172	schreibe	_	_
+4-14	173-178	Ihnen	_	_
+4-15	179-182	auf	_	_
+4-16	183-189	diesem	_	_
+4-17	190-195	Wisch	_	_
+4-18	196-197	,	_	_
+4-19	198-200	da	_	_
+4-20	201-211	strömender	_	_
+4-21	212-217	Regen	_	_
+4-22	218-222	mich	_	_
+4-23	223-233	verhindert	_	_
+4-24	234-235	,	_	_
+4-25	236-247	anständiges	_	_
+4-26	248-259	Briefpapier	_	_
+4-27	260-262	in	_	_
+4-28	263-266	der	_	_
+4-29	267-272	Stadt	_	_
+4-30	273-275	zu	_	_
+4-31	276-282	kaufen	_	_
+4-32	283-284	.	_	_
+
+#Text=In Chiusi robba di primo ordine .
+5-1	285-287	In	*[7]	PLACEmentioned[7]
+5-2	288-294	Chiusi	*[7]	PLACEmentioned[7]
+5-3	295-300	robba	_	_
+5-4	301-303	di	_	_
+5-5	304-309	primo	_	_
+5-6	310-316	ordine	_	_
+5-7	317-318	.	_	_
+
+#Text=Wäre das Berliner Museum vernünftig , was für Aquisitionen könnten gemacht werden !
+6-1	319-323	Wäre	_	_
+6-2	324-327	das	_	_
+6-3	328-336	Berliner	*[6]	ORGmentioned[6]
+6-4	337-343	Museum	*[6]	ORGmentioned[6]
+6-5	344-354	vernünftig	_	_
+6-6	355-356	,	_	_
+6-7	357-360	was	_	_
+6-8	361-364	für	_	_
+6-9	365-377	Aquisitionen	_	_
+6-10	378-385	könnten	_	_
+6-11	386-393	gemacht	_	_
+6-12	394-400	werden	_	_
+6-13	401-402	!	_	_
+
+#Text=In Chiusi traf ich Bormann und G - G- Gamurrini .
+7-1	403-405	In	_	_
+7-2	406-412	Chiusi	*	PLACEmentioned
+7-3	413-417	traf	_	_
+7-4	418-421	ich	_	_
+7-5	422-429	Bormann	*	PERmentioned
+7-6	430-433	und	_	_
+7-7	434-435	G	_	_
+7-8	436-437	-	_	_
+7-9	438-440	G-	*[8]	PERmentioned[8]
+7-10	441-450	Gamurrini	*[8]	PERmentioned[8]
+7-11	451-452	.	_	_
+
+#Text=Er und ich haben die Gegenstände gleichzeitig notirt und verabredet , daß , wer von uns beiden dem anderen zuerst den betreffenden Stampone zuschickt , die Priorität der Veröffentlichung haben soll .
+8-1	453-455	Er	_	_
+8-2	456-459	und	_	_
+8-3	460-463	ich	_	_
+8-4	464-469	haben	_	_
+8-5	470-473	die	_	_
+8-6	474-485	Gegenstände	_	_
+8-7	486-498	gleichzeitig	_	_
+8-8	499-505	notirt	_	_
+8-9	506-509	und	_	_
+8-10	510-520	verabredet	_	_
+8-11	521-522	,	_	_
+8-12	523-526	daß	_	_
+8-13	527-528	,	_	_
+8-14	529-532	wer	_	_
+8-15	533-536	von	_	_
+8-16	537-540	uns	_	_
+8-17	541-547	beiden	_	_
+8-18	548-551	dem	_	_
+8-19	552-559	anderen	_	_
+8-20	560-566	zuerst	_	_
+8-21	567-570	den	_	_
+8-22	571-583	betreffenden	_	_
+8-23	584-592	Stampone	_	_
+8-24	593-602	zuschickt	_	_
+8-25	603-604	,	_	_
+8-26	605-608	die	_	_
+8-27	609-618	Priorität	_	_
+8-28	619-622	der	_	_
+8-29	623-639	Veröffentlichung	_	_
+8-30	640-645	haben	_	_
+8-31	646-650	soll	_	_
+8-32	651-652	.	_	_
+
+#Text=Morgen wird mein Artikel fertig .
+9-1	653-659	Morgen	_	_
+9-2	660-664	wird	_	_
+9-3	665-669	mein	_	_
+9-4	670-677	Artikel	_	_
+9-5	678-684	fertig	_	_
+9-6	685-686	.	_	_
+
+#Text=Übrigens hat mir Gamurrini seine Absicht mitgetheilt , mich nach Athen begleiten zu wollen .
+10-1	687-695	Übrigens	_	_
+10-2	696-699	hat	_	_
+10-3	700-703	mir	_	_
+10-4	704-713	Gamurrini	*	PERmentioned
+10-5	714-719	seine	_	_
+10-6	720-727	Absicht	_	_
+10-7	728-739	mitgetheilt	_	_
+10-8	740-741	,	_	_
+10-9	742-746	mich	_	_
+10-10	747-751	nach	_	_
+10-11	752-757	Athen	*	PLACEmentioned
+10-12	758-767	begleiten	_	_
+10-13	768-770	zu	_	_
+10-14	771-777	wollen	_	_
+10-15	778-779	.	_	_
+
+#Text=Vielleicht ist dies nicht übel und imponirt dem Italiener der Eindruck , den sie von der kosmopolitischen Bedeutung des Instituts in Athen erhalten werden .
+11-1	780-790	Vielleicht	_	_
+11-2	791-794	ist	_	_
+11-3	795-799	dies	_	_
+11-4	800-805	nicht	_	_
+11-5	806-810	übel	_	_
+11-6	811-814	und	_	_
+11-7	815-823	imponirt	_	_
+11-8	824-827	dem	_	_
+11-9	828-837	Italiener	_	_
+11-10	838-841	der	_	_
+11-11	842-850	Eindruck	_	_
+11-12	851-852	,	_	_
+11-13	853-856	den	_	_
+11-14	857-860	sie	_	_
+11-15	861-864	von	_	_
+11-16	865-868	der	_	_
+11-17	869-885	kosmopolitischen	_	_
+11-18	886-895	Bedeutung	_	_
+11-19	896-899	des	_	_
+11-20	900-909	Instituts	*	ORGmentioned
+11-21	910-912	in	_	_
+11-22	913-918	Athen	*	PLACEmentioned
+11-23	919-927	erhalten	_	_
+11-24	928-934	werden	_	_
+11-25	935-936	.	_	_
+
+#Text=Bormann und Gerhard brachten Mittwoch hier zu
+12-1	937-944	Bormann	*	PERmentioned
+12-2	945-948	und	_	_
+12-3	949-956	Gerhard	*	PERmentioned
+12-4	957-965	brachten	_	_
+12-5	966-974	Mittwoch	*	DATEmentioned
+12-6	975-979	hier	_	_
+12-7	980-982	zu	_	_

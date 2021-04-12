@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen R ( om ) , 21 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-17	R	_	_
+1-5	18-19	(	_	_
+1-6	20-22	om	*	PLACEfrom
+1-7	23-24	)	_	_
+1-8	25-26	,	_	_
+1-9	27-29	21	*[1]	DATEletter[1]
+1-10	30-31	.	*[1]	DATEletter[1]
+
+#Text=August 1861 g . 21 .
+2-1	32-38	August	*[1]	DATEletter[1]
+2-2	39-43	1861	*[1]	DATEletter[1]
+2-3	44-45	g	_	_
+2-4	46-47	.	_	_
+2-5	48-50	21	*[2]	DATErecieved[2]
+2-6	51-52	.	*[2]	DATErecieved[2]
+
+#Text=August 1861 ncr L. H. Drei Zeitungen und ein mir ins Haus geschneiter Brief von Münster .
+3-1	53-59	August	*[2]	DATErecieved[2]
+3-2	60-64	1861	*[2]	DATErecieved[2]
+3-3	65-68	ncr	_	_
+3-4	69-71	L.	_	_
+3-5	72-74	H.	*	PERaddressee
+3-6	75-79	Drei	_	_
+3-7	80-89	Zeitungen	_	_
+3-8	90-93	und	_	_
+3-9	94-97	ein	_	_
+3-10	98-101	mir	_	_
+3-11	102-105	ins	_	_
+3-12	106-110	Haus	_	_
+3-13	111-122	geschneiter	_	_
+3-14	123-128	Brief	_	_
+3-15	129-132	von	_	_
+3-16	133-140	Münster	*	PLACEmentioned
+3-17	141-142	.	_	_
+
+#Text=Gestern Brief von Ritschl der 14 Tage an einem gastrischen Leiden darniedergelegen , '' daß einem schier etwas bägnlich dabei werden konnte '' .
+4-1	143-150	Gestern	_	_
+4-2	151-156	Brief	_	_
+4-3	157-160	von	_	_
+4-4	161-168	Ritschl	*	PERmentioned
+4-5	169-172	der	_	_
+4-6	173-175	14	_	_
+4-7	176-180	Tage	_	_
+4-8	181-183	an	_	_
+4-9	184-189	einem	_	_
+4-10	190-201	gastrischen	_	_
+4-11	202-208	Leiden	_	_
+4-12	209-225	darniedergelegen	_	_
+4-13	226-227	,	_	_
+4-14	228-230	''	_	_
+4-15	231-234	daß	_	_
+4-16	235-240	einem	_	_
+4-17	241-247	schier	_	_
+4-18	248-253	etwas	_	_
+4-19	254-262	bägnlich	_	_
+4-20	263-268	dabei	_	_
+4-21	269-275	werden	_	_
+4-22	276-282	konnte	_	_
+4-23	283-285	''	_	_
+4-24	286-287	.	_	_
+
+#Text=Sonst , mit der Verheißung , in ein Paar Tagen weiter zu schrieben , gar nichts über seine eigenen Angelegenheiten , sondern nur über die meinigen , die keineswegs Ente .
+5-1	288-293	Sonst	_	_
+5-2	294-295	,	_	_
+5-3	296-299	mit	_	_
+5-4	300-303	der	_	_
+5-5	304-314	Verheißung	_	_
+5-6	315-316	,	_	_
+5-7	317-319	in	_	_
+5-8	320-323	ein	_	_
+5-9	324-328	Paar	_	_
+5-10	329-334	Tagen	_	_
+5-11	335-341	weiter	_	_
+5-12	342-344	zu	_	_
+5-13	345-354	schrieben	_	_
+5-14	355-356	,	_	_
+5-15	357-360	gar	_	_
+5-16	361-367	nichts	_	_
+5-17	368-372	über	_	_
+5-18	373-378	seine	_	_
+5-19	379-386	eigenen	_	_
+5-20	387-402	Angelegenheiten	_	_
+5-21	403-404	,	_	_
+5-22	405-412	sondern	_	_
+5-23	413-416	nur	_	_
+5-24	417-421	über	_	_
+5-25	422-425	die	_	_
+5-26	426-434	meinigen	_	_
+5-27	435-436	,	_	_
+5-28	437-440	die	_	_
+5-29	441-451	keineswegs	_	_
+5-30	452-456	Ente	_	_
+5-31	457-458	.	_	_
+
+#Text=R. hat gerade viel mit Halm darüber verhandelt , bestätigt was wir wissen und wundert sich nur , daß ich erst so spät durch die Zeitung davon erfahren .
+6-1	459-461	R.	*	PERmentioned
+6-2	462-465	hat	_	_
+6-3	466-472	gerade	_	_
+6-4	473-477	viel	_	_
+6-5	478-481	mit	_	_
+6-6	482-486	Halm	*	PERmentioned
+6-7	487-494	darüber	_	_
+6-8	495-505	verhandelt	_	_
+6-9	506-507	,	_	_
+6-10	508-517	bestätigt	_	_
+6-11	518-521	was	_	_
+6-12	522-525	wir	_	_
+6-13	526-532	wissen	_	_
+6-14	533-536	und	_	_
+6-15	537-544	wundert	_	_
+6-16	545-549	sich	_	_
+6-17	550-553	nur	_	_
+6-18	554-555	,	_	_
+6-19	556-559	daß	_	_
+6-20	560-563	ich	_	_
+6-21	564-568	erst	_	_
+6-22	569-571	so	_	_
+6-23	572-576	spät	_	_
+6-24	577-582	durch	_	_
+6-25	583-586	die	_	_
+6-26	587-594	Zeitung	_	_
+6-27	595-600	davon	_	_
+6-28	601-609	erfahren	_	_
+6-29	610-611	.	_	_
+
+#Text=Jetzt , meint er , müsse ja der Ruf wohl schon in meinen Händen sein .
+7-1	612-617	Jetzt	_	_
+7-2	618-619	,	_	_
+7-3	620-625	meint	_	_
+7-4	626-628	er	_	_
+7-5	629-630	,	_	_
+7-6	631-636	müsse	_	_
+7-7	637-639	ja	_	_
+7-8	640-643	der	_	_
+7-9	644-647	Ruf	_	_
+7-10	648-652	wohl	_	_
+7-11	653-658	schon	_	_
+7-12	659-661	in	_	_
+7-13	662-668	meinen	_	_
+7-14	669-675	Händen	_	_
+7-15	676-680	sein	_	_
+7-16	681-682	.	_	_
+
+#Text=`` Denn der Minister war ganz d'accord '' .
+8-1	683-685	``	_	_
+8-2	686-690	Denn	_	_
+8-3	691-694	der	_	_
+8-4	695-703	Minister	*	PERmentioned
+8-5	704-707	war	_	_
+8-6	708-712	ganz	_	_
+8-7	713-721	d'accord	_	_
+8-8	722-724	''	_	_
+8-9	725-726	.	_	_
+
+#Text=Die Verzögerung hängt also offenbar mit der Badereise des Königs zusammen .
+9-1	727-730	Die	_	_
+9-2	731-742	Verzögerung	_	_
+9-3	743-748	hängt	_	_
+9-4	749-753	also	_	_
+9-5	754-762	offenbar	_	_
+9-6	763-766	mit	_	_
+9-7	767-770	der	_	_
+9-8	771-780	Badereise	_	_
+9-9	781-784	des	_	_
+9-10	785-791	Königs	*	PERmentioned
+9-11	792-800	zusammen	_	_
+9-12	801-802	.	_	_
+
+#Text=Bossi hat vorgestern die Ciste abgeliefert : ich habe vorgestern und gestern stundenlang den obersten Fries revidirt , finde aber , daß jemehr unten , desto mehr das Pferd alle geworden ist .
+10-1	803-808	Bossi	*	PERmentioned
+10-2	809-812	hat	_	_
+10-3	813-823	vorgestern	_	_
+10-4	824-827	die	_	_
+10-5	828-833	Ciste	_	_
+10-6	834-845	abgeliefert	_	_
+10-7	846-847	:	_	_
+10-8	848-851	ich	_	_
+10-9	852-856	habe	_	_
+10-10	857-867	vorgestern	_	_
+10-11	868-871	und	_	_
+10-12	872-879	gestern	_	_
+10-13	880-891	stundenlang	_	_
+10-14	892-895	den	_	_
+10-15	896-904	obersten	_	_
+10-16	905-910	Fries	*	OBJ
+10-17	911-919	revidirt	_	_
+10-18	920-921	,	_	_
+10-19	922-927	finde	_	_
+10-20	928-932	aber	_	_
+10-21	933-934	,	_	_
+10-22	935-938	daß	_	_
+10-23	939-945	jemehr	_	_
+10-24	946-951	unten	_	_
+10-25	952-953	,	_	_
+10-26	954-959	desto	_	_
+10-27	960-964	mehr	_	_
+10-28	965-968	das	_	_
+10-29	969-974	Pferd	_	_
+10-30	975-979	alle	_	_
+10-31	980-988	geworden	_	_
+10-32	989-992	ist	_	_
+10-33	993-994	.	_	_
+
+#Text=Die Zeichnung nicht falsch , aber lückenhaft : manche Linien fehlen ganz , vielen fehlt Kopf und Schwanz .
+11-1	995-998	Die	_	_
+11-2	999-1008	Zeichnung	_	_
+11-3	1009-1014	nicht	_	_
+11-4	1015-1021	falsch	_	_
+11-5	1022-1023	,	_	_
+11-6	1024-1028	aber	_	_
+11-7	1029-1039	lückenhaft	_	_
+11-8	1040-1041	:	_	_
+11-9	1042-1048	manche	_	_
+11-10	1049-1055	Linien	_	_
+11-11	1056-1062	fehlen	_	_
+11-12	1063-1067	ganz	_	_
+11-13	1068-1069	,	_	_
+11-14	1070-1076	vielen	_	_
+11-15	1077-1082	fehlt	_	_
+11-16	1083-1087	Kopf	_	_
+11-17	1088-1091	und	_	_
+11-18	1092-1099	Schwanz	_	_
+11-19	1100-1101	.	_	_
+
+#Text=Abgesehen von der Zeit , die es kostet , bin ich , resp .
+12-1	1102-1111	Abgesehen	_	_
+12-2	1112-1115	von	_	_
+12-3	1116-1119	der	_	_
+12-4	1120-1124	Zeit	_	_
+12-5	1125-1126	,	_	_
+12-6	1127-1130	die	_	_
+12-7	1131-1133	es	_	_
+12-8	1134-1140	kostet	_	_
+12-9	1141-1142	,	_	_
+12-10	1143-1146	bin	_	_
+12-11	1147-1150	ich	_	_
+12-12	1151-1152	,	_	_
+12-13	1153-1157	resp	_	_
+12-14	1158-1159	.	_	_
+
+#Text=meine Hand nicht ganz capace genug , alles
+13-1	1160-1165	meine	_	_
+13-2	1166-1170	Hand	_	_
+13-3	1171-1176	nicht	_	_
+13-4	1177-1181	ganz	_	_
+13-5	1182-1188	capace	_	_
+13-6	1189-1194	genug	_	_
+13-7	1195-1196	,	_	_
+13-8	1197-1202	alles	_	_

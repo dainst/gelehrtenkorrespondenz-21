@@ -1,0 +1,335 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\[ rt .
+1-1	0-1	\[	_	_
+1-2	2-4	rt	_	_
+1-3	5-6	.	_	_
+
+#Text=35 Braun an Gerhard Rom , 19 .
+2-1	7-9	35	_	_
+2-2	10-15	Braun	*	PERauthor
+2-3	16-18	an	_	_
+2-4	19-26	Gerhard	*	PERaddressee
+2-5	27-30	Rom	*	PLACEfrom
+2-6	31-32	,	_	_
+2-7	33-35	19	*[19]	DATEletter[19]
+2-8	36-37	.	*[19]	DATEletter[19]
+
+#Text=Januar 1836 - 4 - Gerstäcker sollte nicht über mich klagen .
+3-1	38-44	Januar	*[19]	DATEletter[19]
+3-2	45-49	1836	*[19]	DATEletter[19]
+3-3	50-51	-	_	_
+3-4	52-53	4	_	_
+3-5	54-55	-	_	_
+3-6	56-66	Gerstäcker	*	PERmentioned
+3-7	67-73	sollte	_	_
+3-8	74-79	nicht	_	_
+3-9	80-84	über	_	_
+3-10	85-89	mich	_	_
+3-11	90-96	klagen	_	_
+3-12	97-98	.	_	_
+
+#Text=Ich habe es nicht an Laufereien und Scherereien fehlen lassen .
+4-1	99-102	Ich	_	_
+4-2	103-107	habe	_	_
+4-3	108-110	es	_	_
+4-4	111-116	nicht	_	_
+4-5	117-119	an	_	_
+4-6	120-130	Laufereien	_	_
+4-7	131-134	und	_	_
+4-8	135-146	Scherereien	_	_
+4-9	147-153	fehlen	_	_
+4-10	154-160	lassen	_	_
+4-11	161-162	.	_	_
+
+#Text=Sie kennen die Unbehülflichkeit hiesiger Geschäftsleute .
+5-1	163-166	Sie	_	_
+5-2	167-173	kennen	_	_
+5-3	174-177	die	_	_
+5-4	178-194	Unbehülflichkeit	_	_
+5-5	195-203	hiesiger	_	_
+5-6	204-218	Geschäftsleute	_	_
+5-7	219-220	.	_	_
+
+#Text=Selten daß man an die richtigen Schmiede gewiesen wird .
+6-1	221-227	Selten	_	_
+6-2	228-231	daß	_	_
+6-3	232-235	man	_	_
+6-4	236-238	an	_	_
+6-5	239-242	die	_	_
+6-6	243-252	richtigen	_	_
+6-7	253-261	Schmiede	_	_
+6-8	262-270	gewiesen	_	_
+6-9	271-275	wird	_	_
+6-10	276-277	.	_	_
+
+#Text=Auf Billets habe ich keine Antwort bekommen \; wenn ich Sig .
+7-1	278-281	Auf	_	_
+7-2	282-289	Billets	_	_
+7-3	290-294	habe	_	_
+7-4	295-298	ich	_	_
+7-5	299-304	keine	_	_
+7-6	305-312	Antwort	_	_
+7-7	313-321	bekommen	_	_
+7-8	322-323	\;	_	_
+7-9	324-328	wenn	_	_
+7-10	329-332	ich	_	_
+7-11	333-336	Sig	_	_
+7-12	337-338	.	_	_
+
+#Text=L. Fabris aufgesucht , ihn nicht zu Hause gefunden .
+8-1	339-341	L.	*[20]	PERmentioned[20]
+8-2	342-348	Fabris	*[20]	PERmentioned[20]
+8-3	349-359	aufgesucht	_	_
+8-4	360-361	,	_	_
+8-5	362-365	ihn	_	_
+8-6	366-371	nicht	_	_
+8-7	372-374	zu	_	_
+8-8	375-380	Hause	_	_
+8-9	381-389	gefunden	_	_
+8-10	390-391	.	_	_
+
+#Text=Meine letzten Briefe werden ihn überzeugt haben , daß ich Erkundigungen einzuziehen nicht müde geworden und daß es mir auch vielleicht gelungen ist ihm die gewünschten Nachrichten zu verschaffen .
+9-1	392-397	Meine	_	_
+9-2	398-405	letzten	_	_
+9-3	406-412	Briefe	_	_
+9-4	413-419	werden	_	_
+9-5	420-423	ihn	_	_
+9-6	424-433	überzeugt	_	_
+9-7	434-439	haben	_	_
+9-8	440-441	,	_	_
+9-9	442-445	daß	_	_
+9-10	446-449	ich	_	_
+9-11	450-463	Erkundigungen	_	_
+9-12	464-475	einzuziehen	_	_
+9-13	476-481	nicht	_	_
+9-14	482-486	müde	_	_
+9-15	487-495	geworden	_	_
+9-16	496-499	und	_	_
+9-17	500-503	daß	_	_
+9-18	504-506	es	_	_
+9-19	507-510	mir	_	_
+9-20	511-515	auch	_	_
+9-21	516-526	vielleicht	_	_
+9-22	527-535	gelungen	_	_
+9-23	536-539	ist	_	_
+9-24	540-543	ihm	_	_
+9-25	544-547	die	_	_
+9-26	548-559	gewünschten	_	_
+9-27	560-571	Nachrichten	_	_
+9-28	572-574	zu	_	_
+9-29	575-586	verschaffen	_	_
+9-30	587-588	.	_	_
+
+#Text=Ich habe es aber durch Zufall erfahren und kein Mensch hat mich gut berathen wollen .
+10-1	589-592	Ich	_	_
+10-2	593-597	habe	_	_
+10-3	598-600	es	_	_
+10-4	601-605	aber	_	_
+10-5	606-611	durch	_	_
+10-6	612-618	Zufall	_	_
+10-7	619-627	erfahren	_	_
+10-8	628-631	und	_	_
+10-9	632-636	kein	_	_
+10-10	637-643	Mensch	_	_
+10-11	644-647	hat	_	_
+10-12	648-652	mich	_	_
+10-13	653-656	gut	_	_
+10-14	657-665	berathen	_	_
+10-15	666-672	wollen	_	_
+10-16	673-674	.	_	_
+
+#Text=Die Bücher von Neapel erwarte ich in Kurzen .
+11-1	675-678	Die	_	_
+11-2	679-685	Bücher	_	_
+11-3	686-689	von	_	_
+11-4	690-696	Neapel	*	PLACEmentioned
+11-5	697-704	erwarte	_	_
+11-6	705-708	ich	_	_
+11-7	709-711	in	_	_
+11-8	712-718	Kurzen	_	_
+11-9	719-720	.	_	_
+
+#Text=Wegen des neuerdings erworbenen Spiegels , so wünsche ich Ihre Meinung geradeheraus zu wissen .
+12-1	721-726	Wegen	_	_
+12-2	727-730	des	_	_
+12-3	731-741	neuerdings	_	_
+12-4	742-752	erworbenen	_	_
+12-5	753-761	Spiegels	*	OBJ
+12-6	762-763	,	_	_
+12-7	764-766	so	_	_
+12-8	767-774	wünsche	_	_
+12-9	775-778	ich	_	_
+12-10	779-783	Ihre	_	_
+12-11	784-791	Meinung	_	_
+12-12	792-804	geradeheraus	_	_
+12-13	805-807	zu	_	_
+12-14	808-814	wissen	_	_
+12-15	815-816	.	_	_
+
+#Text=Wollen Sie ihn nicht , so nimmt ihn Kestner , Schloszer oder Spangenberg .
+13-1	817-823	Wollen	_	_
+13-2	824-827	Sie	_	_
+13-3	828-831	ihn	_	_
+13-4	832-837	nicht	_	_
+13-5	838-839	,	_	_
+13-6	840-842	so	_	_
+13-7	843-848	nimmt	_	_
+13-8	849-852	ihn	_	_
+13-9	853-860	Kestner	*	PERmentioned
+13-10	861-862	,	_	_
+13-11	863-872	Schloszer	*	PERmentioned
+13-12	873-877	oder	_	_
+13-13	878-889	Spangenberg	*	PERmentioned
+13-14	890-891	.	_	_
+
+#Text=Sie sehen , daß kein Mangel an Concurrenz da ist .
+14-1	892-895	Sie	_	_
+14-2	896-901	sehen	_	_
+14-3	902-903	,	_	_
+14-4	904-907	daß	_	_
+14-5	908-912	kein	_	_
+14-6	913-919	Mangel	_	_
+14-7	920-922	an	_	_
+14-8	923-933	Concurrenz	_	_
+14-9	934-936	da	_	_
+14-10	937-940	ist	_	_
+14-11	941-942	.	_	_
+
+#Text=Ich möchte Sie nicht zu Ausgaben veranlassen , die Sie reuen könnten .
+15-1	943-946	Ich	_	_
+15-2	947-953	möchte	_	_
+15-3	954-957	Sie	_	_
+15-4	958-963	nicht	_	_
+15-5	964-966	zu	_	_
+15-6	967-975	Ausgaben	_	_
+15-7	976-987	veranlassen	_	_
+15-8	988-989	,	_	_
+15-9	990-993	die	_	_
+15-10	994-997	Sie	_	_
+15-11	998-1003	reuen	_	_
+15-12	1004-1011	könnten	_	_
+15-13	1012-1013	.	_	_
+
+#Text=Für 10 Scudi können Sie keinen Spiegel mehr zu kaufen bekommen , der einigermaßen Bedeutung hat .
+16-1	1014-1017	Für	_	_
+16-2	1018-1020	10	_	_
+16-3	1021-1026	Scudi	_	_
+16-4	1027-1033	können	_	_
+16-5	1034-1037	Sie	_	_
+16-6	1038-1044	keinen	_	_
+16-7	1045-1052	Spiegel	*	OBJ
+16-8	1053-1057	mehr	_	_
+16-9	1058-1060	zu	_	_
+16-10	1061-1067	kaufen	_	_
+16-11	1068-1076	bekommen	_	_
+16-12	1077-1078	,	_	_
+16-13	1079-1082	der	_	_
+16-14	1083-1095	einigermaßen	_	_
+16-15	1096-1105	Bedeutung	_	_
+16-16	1106-1109	hat	_	_
+16-17	1110-1111	.	_	_
+
+#Text=Casanova in Neapel hält seine von hier erhaltenen Spiegel zu unsinnig hohen Preisen verkäuflich .
+17-1	1112-1120	Casanova	*	PERmentioned
+17-2	1121-1123	in	_	_
+17-3	1124-1130	Neapel	*	PLACEmentioned
+17-4	1131-1135	hält	_	_
+17-5	1136-1141	seine	_	_
+17-6	1142-1145	von	_	_
+17-7	1146-1150	hier	_	_
+17-8	1151-1161	erhaltenen	_	_
+17-9	1162-1169	Spiegel	*	OBJ
+17-10	1170-1172	zu	_	_
+17-11	1173-1181	unsinnig	_	_
+17-12	1182-1187	hohen	_	_
+17-13	1188-1195	Preisen	_	_
+17-14	1196-1207	verkäuflich	_	_
+17-15	1208-1209	.	_	_
+
+#Text=An ein Fallen der Preise ist nicht zu denken , eher steigen sie .
+18-1	1210-1212	An	_	_
+18-2	1213-1216	ein	_	_
+18-3	1217-1223	Fallen	_	_
+18-4	1224-1227	der	_	_
+18-5	1228-1234	Preise	_	_
+18-6	1235-1238	ist	_	_
+18-7	1239-1244	nicht	_	_
+18-8	1245-1247	zu	_	_
+18-9	1248-1254	denken	_	_
+18-10	1255-1256	,	_	_
+18-11	1257-1261	eher	_	_
+18-12	1262-1269	steigen	_	_
+18-13	1270-1273	sie	_	_
+18-14	1274-1275	.	_	_
+
+#Text=Denn die Monumente dieser Klasse werden immer seltener .
+19-1	1276-1280	Denn	_	_
+19-2	1281-1284	die	_	_
+19-3	1285-1294	Monumente	_	_
+19-4	1295-1301	dieser	_	_
+19-5	1302-1308	Klasse	_	_
+19-6	1309-1315	werden	_	_
+19-7	1316-1321	immer	_	_
+19-8	1322-1330	seltener	_	_
+19-9	1331-1332	.	_	_
+
+#Text=Freytag soll keine Artikel schicken , obgleich er auch fleißig zu berichten angefangen hat \; ( Zeichnungen erläutern seine Briefe ) , aber durch ihn hoffe ich von den erwähnten Casanovaschen Spiegeln und von anderen Monumenten zu erhalten .
+20-1	1333-1340	Freytag	*	PERmentioned
+20-2	1341-1345	soll	_	_
+20-3	1346-1351	keine	_	_
+20-4	1352-1359	Artikel	_	_
+20-5	1360-1368	schicken	_	_
+20-6	1369-1370	,	_	_
+20-7	1371-1379	obgleich	_	_
+20-8	1380-1382	er	_	_
+20-9	1383-1387	auch	_	_
+20-10	1388-1395	fleißig	_	_
+20-11	1396-1398	zu	_	_
+20-12	1399-1408	berichten	_	_
+20-13	1409-1419	angefangen	_	_
+20-14	1420-1423	hat	_	_
+20-15	1424-1425	\;	_	_
+20-16	1426-1427	(	_	_
+20-17	1428-1439	Zeichnungen	_	_
+20-18	1440-1449	erläutern	_	_
+20-19	1450-1455	seine	_	_
+20-20	1456-1462	Briefe	_	_
+20-21	1463-1464	)	_	_
+20-22	1465-1466	,	_	_
+20-23	1467-1471	aber	_	_
+20-24	1472-1477	durch	_	_
+20-25	1478-1481	ihn	_	_
+20-26	1482-1487	hoffe	_	_
+20-27	1488-1491	ich	_	_
+20-28	1492-1495	von	_	_
+20-29	1496-1499	den	_	_
+20-30	1500-1509	erwähnten	_	_
+20-31	1510-1523	Casanovaschen	*	MISC
+20-32	1524-1532	Spiegeln	*	OBJ
+20-33	1533-1536	und	_	_
+20-34	1537-1540	von	_	_
+20-35	1541-1548	anderen	_	_
+20-36	1549-1559	Monumenten	_	_
+20-37	1560-1562	zu	_	_
+20-38	1563-1571	erhalten	_	_
+20-39	1572-1573	.	_	_
+
+#Text=Das meine ich , wär von Neapel aus auch dankenswerth , wo wir keinen einzi-
+21-1	1574-1577	Das	_	_
+21-2	1578-1583	meine	_	_
+21-3	1584-1587	ich	_	_
+21-4	1588-1589	,	_	_
+21-5	1590-1593	wär	_	_
+21-6	1594-1597	von	_	_
+21-7	1598-1604	Neapel	*	PLACEmentioned
+21-8	1605-1608	aus	_	_
+21-9	1609-1613	auch	_	_
+21-10	1614-1626	dankenswerth	_	_
+21-11	1627-1628	,	_	_
+21-12	1629-1631	wo	_	_
+21-13	1632-1635	wir	_	_
+21-14	1636-1642	keinen	_	_
+21-15	1643-1649	einzi-	_	_

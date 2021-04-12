@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Paris , 20. September 1834 Russo hauptsächlich wegen der bei Jatta befindlichen Vasen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-22	Paris	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-28	20.	*[4]	DATEletter[4]
+1-7	29-38	September	*[4]	DATEletter[4]
+1-8	39-43	1834	*[4]	DATEletter[4]
+1-9	44-49	Russo	*	PERmentioned
+1-10	50-63	hauptsächlich	_	_
+1-11	64-69	wegen	_	_
+1-12	70-73	der	_	_
+1-13	74-77	bei	_	_
+1-14	78-83	Jatta	*	PERmentioned
+1-15	84-96	befindlichen	_	_
+1-16	97-102	Vasen	*	OBJ
+1-17	103-104	.	_	_
+
+#Text=Schreibt Lamberti durchaus bejahend wegen der Zeichnung , so schicken Sie den Russo schleunigst hin \; tergiversiert er , so lassen Sie die Sachen schlummern bis O'sard und Raoul Rochette die bald auf Italien lossteuern werden zurück sind .
+2-1	105-113	Schreibt	_	_
+2-2	114-122	Lamberti	*	PERmentioned
+2-3	123-131	durchaus	_	_
+2-4	132-140	bejahend	_	_
+2-5	141-146	wegen	_	_
+2-6	147-150	der	_	_
+2-7	151-160	Zeichnung	_	_
+2-8	161-162	,	_	_
+2-9	163-165	so	_	_
+2-10	166-174	schicken	_	_
+2-11	175-178	Sie	_	_
+2-12	179-182	den	_	_
+2-13	183-188	Russo	*	PERmentioned
+2-14	189-200	schleunigst	_	_
+2-15	201-204	hin	_	_
+2-16	205-206	\;	_	_
+2-17	207-220	tergiversiert	_	_
+2-18	221-223	er	_	_
+2-19	224-225	,	_	_
+2-20	226-228	so	_	_
+2-21	229-235	lassen	_	_
+2-22	236-239	Sie	_	_
+2-23	240-243	die	_	_
+2-24	244-250	Sachen	_	_
+2-25	251-261	schlummern	_	_
+2-26	262-265	bis	_	_
+2-27	266-272	O'sard	*[10]	PERmentioned[10]
+2-28	273-276	und	_	_
+2-29	277-282	Raoul	*[11]	PERmentioned[11]
+2-30	283-291	Rochette	*[11]	PERmentioned[11]
+2-31	292-295	die	_	_
+2-32	296-300	bald	_	_
+2-33	301-304	auf	_	_
+2-34	305-312	Italien	*	PLACEmentioned
+2-35	313-323	lossteuern	_	_
+2-36	324-330	werden	_	_
+2-37	331-337	zurück	_	_
+2-38	338-342	sind	_	_
+2-39	343-344	.	_	_
+
+#Text=Den Campanari 's theilen Sie mündlich mit daß ihre Goldsachen wohlbehalten an Durand überliefert sind , und Durand in 8 Tagen von hier nach Italien abzureisen gedenke \; ich schreibe baldmöglichst selbst .
+3-1	345-348	Den	_	_
+3-2	349-358	Campanari	*[23]	PERmentioned[23]
+3-3	359-361	's	*[23]	PERmentioned[23]
+3-4	362-369	theilen	_	_
+3-5	370-373	Sie	_	_
+3-6	374-382	mündlich	_	_
+3-7	383-386	mit	_	_
+3-8	387-390	daß	_	_
+3-9	391-395	ihre	_	_
+3-10	396-406	Goldsachen	*	OBJ
+3-11	407-419	wohlbehalten	_	_
+3-12	420-422	an	_	_
+3-13	423-429	Durand	*	PERmentioned
+3-14	430-441	überliefert	_	_
+3-15	442-446	sind	_	_
+3-16	447-448	,	_	_
+3-17	449-452	und	_	_
+3-18	453-459	Durand	*	PERmentioned
+3-19	460-462	in	_	_
+3-20	463-464	8	_	_
+3-21	465-470	Tagen	_	_
+3-22	471-474	von	_	_
+3-23	475-479	hier	_	_
+3-24	480-484	nach	_	_
+3-25	485-492	Italien	*	PLACEmentioned
+3-26	493-503	abzureisen	_	_
+3-27	504-511	gedenke	_	_
+3-28	512-513	\;	_	_
+3-29	514-517	ich	_	_
+3-30	518-526	schreibe	_	_
+3-31	527-540	baldmöglichst	_	_
+3-32	541-547	selbst	_	_
+3-33	548-549	.	_	_
+
+#Text=Das 3.te Heft von Müllers Bilderbuch ist Fortsetzung meines Exemplars \; das vollständige Exemplar kann an Maggiore gehn .
+4-1	550-553	Das	_	_
+4-2	554-558	3.te	_	_
+4-3	559-563	Heft	_	_
+4-4	564-567	von	_	_
+4-5	568-575	Müllers	*	PERmentioned
+4-6	576-586	Bilderbuch	_	_
+4-7	587-590	ist	_	_
+4-8	591-602	Fortsetzung	_	_
+4-9	603-609	meines	_	_
+4-10	610-619	Exemplars	_	_
+4-11	620-621	\;	_	_
+4-12	622-625	das	_	_
+4-13	626-638	vollständige	_	_
+4-14	639-647	Exemplar	_	_
+4-15	648-652	kann	_	_
+4-16	653-655	an	_	_
+4-17	656-664	Maggiore	*	PERmentioned
+4-18	665-669	gehn	_	_
+4-19	670-671	.	_	_
+
+#Text=- Die Sache mit Gropius werde ich nun in Berlin selbst abmachen .
+5-1	672-673	-	_	_
+5-2	674-677	Die	_	_
+5-3	678-683	Sache	_	_
+5-4	684-687	mit	_	_
+5-5	688-695	Gropius	*	PERmentioned
+5-6	696-701	werde	_	_
+5-7	702-705	ich	_	_
+5-8	706-709	nun	_	_
+5-9	710-712	in	_	_
+5-10	713-719	Berlin	*	PLACEmentioned
+5-11	720-726	selbst	_	_
+5-12	727-735	abmachen	_	_
+5-13	736-737	.	_	_
+
+#Text=Ich sehe daß Sie mir auf Institutspapier ohne gedruckte Note schreiben \; irre ich nicht so waren von dergleichen nur wenig Exemplare abgezogen .
+6-1	738-741	Ich	_	_
+6-2	742-746	sehe	_	_
+6-3	747-750	daß	_	_
+6-4	751-754	Sie	_	_
+6-5	755-758	mir	_	_
+6-6	759-762	auf	_	_
+6-7	763-778	Institutspapier	_	_
+6-8	779-783	ohne	_	_
+6-9	784-793	gedruckte	_	_
+6-10	794-798	Note	_	_
+6-11	799-808	schreiben	_	_
+6-12	809-810	\;	_	_
+6-13	811-815	irre	_	_
+6-14	816-819	ich	_	_
+6-15	820-825	nicht	_	_
+6-16	826-828	so	_	_
+6-17	829-834	waren	_	_
+6-18	835-838	von	_	_
+6-19	839-850	dergleichen	_	_
+6-20	851-854	nur	_	_
+6-21	855-860	wenig	_	_
+6-22	861-870	Exemplare	_	_
+6-23	871-880	abgezogen	_	_
+6-24	881-882	.	_	_
+
+#Text=Hier habe ich mit Ausnahme von Raoul Rochette fast alle Leute gefunden die ich brauche \; die Zeit geht bei schönem Wetter rasch und angenehm hin , zumal meine Gesundheit nothdürftig auslangt .
+7-1	883-887	Hier	_	_
+7-2	888-892	habe	_	_
+7-3	893-896	ich	_	_
+7-4	897-900	mit	_	_
+7-5	901-909	Ausnahme	_	_
+7-6	910-913	von	_	_
+7-7	914-919	Raoul	*[22]	PERmentioned[22]
+7-8	920-928	Rochette	*[22]	PERmentioned[22]
+7-9	929-933	fast	_	_
+7-10	934-938	alle	_	_
+7-11	939-944	Leute	_	_
+7-12	945-953	gefunden	_	_
+7-13	954-957	die	_	_
+7-14	958-961	ich	_	_
+7-15	962-969	brauche	_	_
+7-16	970-971	\;	_	_
+7-17	972-975	die	_	_
+7-18	976-980	Zeit	_	_
+7-19	981-985	geht	_	_
+7-20	986-989	bei	_	_
+7-21	990-997	schönem	_	_
+7-22	998-1004	Wetter	_	_
+7-23	1005-1010	rasch	_	_
+7-24	1011-1014	und	_	_
+7-25	1015-1023	angenehm	_	_
+7-26	1024-1027	hin	_	_
+7-27	1028-1029	,	_	_
+7-28	1030-1035	zumal	_	_
+7-29	1036-1041	meine	_	_
+7-30	1042-1052	Gesundheit	_	_
+7-31	1053-1064	nothdürftig	_	_
+7-32	1065-1073	auslangt	_	_
+7-33	1074-1075	.	_	_
+
+#Text=Von Bonn aus hoffe ich an Bunsen schreiben zu können .
+8-1	1076-1079	Von	_	_
+8-2	1080-1084	Bonn	*	PLACEmentioned
+8-3	1085-1088	aus	_	_
+8-4	1089-1094	hoffe	_	_
+8-5	1095-1098	ich	_	_
+8-6	1099-1101	an	_	_
+8-7	1102-1108	Bunsen	*	PERmentioned
+8-8	1109-1118	schreiben	_	_
+8-9	1119-1121	zu	_	_
+8-10	1122-1128	können	_	_
+8-11	1129-1130	.	_	_
+
+#Text=Erzeigen Sie indeß meine Grüße an alle lieben Freunde .
+9-1	1131-1139	Erzeigen	_	_
+9-2	1140-1143	Sie	_	_
+9-3	1144-1149	indeß	_	_
+9-4	1150-1155	meine	_	_
+9-5	1156-1161	Grüße	_	_
+9-6	1162-1164	an	_	_
+9-7	1165-1169	alle	_	_
+9-8	1170-1176	lieben	_	_
+9-9	1177-1184	Freunde	_	_
+9-10	1185-1186	.	_	_
+
+#Text=Herzlich Ihr Gerhard
+10-1	1187-1195	Herzlich	_	_
+10-2	1196-1199	Ihr	_	_
+10-3	1200-1207	Gerhard	*	PERauthor

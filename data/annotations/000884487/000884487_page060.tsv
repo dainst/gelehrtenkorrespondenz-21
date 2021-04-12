@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 6. Mai 1836 Bohn hat seine Rechnung vom 24 Jan erneut nit folgenden Zusatz : Aug . 19 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	6.	*[4]	DATEletter[4]
+1-7	29-32	Mai	*[4]	DATEletter[4]
+1-8	33-37	1836	*[4]	DATEletter[4]
+1-9	38-42	Bohn	*	PERmentioned
+1-10	43-46	hat	_	_
+1-11	47-52	seine	_	_
+1-12	53-61	Rechnung	_	_
+1-13	62-65	vom	_	_
+1-14	66-68	24	*[6]	DATEmentioned[6]
+1-15	69-72	Jan	*[6]	DATEmentioned[6]
+1-16	73-79	erneut	_	_
+1-17	80-83	nit	_	_
+1-18	84-93	folgenden	_	_
+1-19	94-100	Zusatz	_	_
+1-20	101-102	:	_	_
+1-21	103-106	Aug	_	_
+1-22	107-108	.	_	_
+1-23	109-111	19	_	_
+1-24	112-113	.	_	_
+
+#Text=Nolini dd .
+2-1	114-120	Nolini	*	PERmentioned
+2-2	121-123	dd	_	_
+2-3	124-125	.	_	_
+
+#Text=für 1835 & 2 . 2.0 1836 Febr .
+3-1	126-129	für	_	_
+3-2	130-134	1835	*	DATEmentioned
+3-3	135-136	&	_	_
+3-4	137-138	2	_	_
+3-5	139-140	.	_	_
+3-6	141-144	2.0	_	_
+3-7	145-149	1836	*[9]	DATEletter[9]
+3-8	150-154	Febr	*[9]	DATEletter[9]
+3-9	155-156	.	*[9]	DATEletter[9]
+
+#Text=18 .
+4-1	157-159	18	_	_
+4-2	160-161	.	_	_
+
+#Text=Bedfprf dd .
+5-1	162-169	Bedfprf	*	PERmentioned
+5-2	170-172	dd	_	_
+5-3	173-174	.	_	_
+
+#Text=für 1836 2.12 , .6 Nichts weiter .
+6-1	175-178	für	_	_
+6-2	179-183	1836	*	DATEmentioned
+6-3	184-188	2.12	_	_
+6-4	189-190	,	_	_
+6-5	191-193	.6	_	_
+6-6	194-200	Nichts	_	_
+6-7	201-207	weiter	_	_
+6-8	208-209	.	_	_
+
+#Text=9 Mai .
+7-1	210-211	9	*[12]	DATEmentioned[12]
+7-2	212-215	Mai	*[12]	DATEmentioned[12]
+7-3	216-217	.	_	_
+
+#Text=Verschiedene Zettel schließe ich an was aus Ihrem Briefe zu antworten ist .
+8-1	218-230	Verschiedene	_	_
+8-2	231-237	Zettel	_	_
+8-3	238-246	schließe	_	_
+8-4	247-250	ich	_	_
+8-5	251-253	an	_	_
+8-6	254-257	was	_	_
+8-7	258-261	aus	_	_
+8-8	262-267	Ihrem	_	_
+8-9	268-274	Briefe	_	_
+8-10	275-277	zu	_	_
+8-11	278-287	antworten	_	_
+8-12	288-291	ist	_	_
+8-13	292-293	.	_	_
+
+#Text=Die Notiz an Gf\_ Ing betreffend , so ist nicht klar wann sein Zahlungstermin anfängt , und welches Frontespitzio er zu bekommen hat \; das der Monumenti ?
+9-1	294-297	Die	_	_
+9-2	298-303	Notiz	_	_
+9-3	304-306	an	_	_
+9-4	307-310	Gf\_	_	_
+9-5	311-314	Ing	_	_
+9-6	315-325	betreffend	_	_
+9-7	326-327	,	_	_
+9-8	328-330	so	_	_
+9-9	331-334	ist	_	_
+9-10	335-340	nicht	_	_
+9-11	341-345	klar	_	_
+9-12	346-350	wann	_	_
+9-13	351-355	sein	_	_
+9-14	356-370	Zahlungstermin	_	_
+9-15	371-378	anfängt	_	_
+9-16	379-380	,	_	_
+9-17	381-384	und	_	_
+9-18	385-392	welches	_	_
+9-19	393-406	Frontespitzio	_	_
+9-20	407-409	er	_	_
+9-21	410-412	zu	_	_
+9-22	413-421	bekommen	_	_
+9-23	422-425	hat	_	_
+9-24	426-427	\;	_	_
+9-25	428-431	das	_	_
+9-26	432-435	der	_	_
+9-27	436-445	Monumenti	_	_
+9-28	446-447	?	_	_
+
+#Text=Am einfachsten wäre es Sie schickten die Ex .
+10-1	448-450	Am	_	_
+10-2	451-462	einfachsten	_	_
+10-3	463-467	wäre	_	_
+10-4	468-470	es	_	_
+10-5	471-474	Sie	_	_
+10-6	475-484	schickten	_	_
+10-7	485-488	die	_	_
+10-8	489-491	Ex	_	_
+10-9	492-493	.	_	_
+
+#Text=an ihn addressirt mit der nächsten Sendung \; es gäbe auch weniger von Seiten Gerstäckers der nichts dabei verdient , und zerstückelt ihm nicht von neuen ein Ex .
+11-1	494-496	an	_	_
+11-2	497-500	ihn	_	_
+11-3	501-511	addressirt	_	_
+11-4	512-515	mit	_	_
+11-5	516-519	der	_	_
+11-6	520-528	nächsten	_	_
+11-7	529-536	Sendung	_	_
+11-8	537-538	\;	_	_
+11-9	539-541	es	_	_
+11-10	542-546	gäbe	_	_
+11-11	547-551	auch	_	_
+11-12	552-559	weniger	_	_
+11-13	560-563	von	_	_
+11-14	564-570	Seiten	_	_
+11-15	571-582	Gerstäckers	*[13]	PERmentioned[13]
+11-16	583-586	der	_	_
+11-17	587-593	nichts	_	_
+11-18	594-599	dabei	_	_
+11-19	600-608	verdient	_	_
+11-20	609-610	,	_	_
+11-21	611-614	und	_	_
+11-22	615-626	zerstückelt	_	_
+11-23	627-630	ihm	_	_
+11-24	631-636	nicht	_	_
+11-25	637-640	von	_	_
+11-26	641-646	neuen	_	_
+11-27	647-650	ein	_	_
+11-28	651-653	Ex	_	_
+11-29	654-655	.	_	_
+
+#Text=von 1832 .
+12-1	656-659	von	_	_
+12-2	660-664	1832	*	DATEmentioned
+12-3	665-666	.	_	_
+
+#Text=Er hat sehr wenig komplette Ex .
+13-1	667-669	Er	_	_
+13-2	670-673	hat	_	_
+13-3	674-678	sehr	_	_
+13-4	679-684	wenig	_	_
+13-5	685-694	komplette	_	_
+13-6	695-697	Ex	_	_
+13-7	698-699	.	_	_
+
+#Text=der früheren Jahrgänge , weil so oft Defekte verlangt werden .
+14-1	700-703	der	_	_
+14-2	704-712	früheren	_	_
+14-3	713-722	Jahrgänge	_	_
+14-4	723-724	,	_	_
+14-5	725-729	weil	_	_
+14-6	730-732	so	_	_
+14-7	733-736	oft	_	_
+14-8	737-744	Defekte	_	_
+14-9	745-753	verlangt	_	_
+14-10	754-760	werden	_	_
+14-11	761-762	.	_	_
+
+#Text=- In somma , schicken Sie das einzelne Heft nach \; von 1832 soll ihm Gerstäcker die Werke geben .
+15-1	763-764	-	_	_
+15-2	765-767	In	_	_
+15-3	768-773	somma	*	PLACEmentioned
+15-4	774-775	,	_	_
+15-5	776-784	schicken	_	_
+15-6	785-788	Sie	_	_
+15-7	789-792	das	_	_
+15-8	793-801	einzelne	_	_
+15-9	802-806	Heft	_	_
+15-10	807-811	nach	_	_
+15-11	812-813	\;	_	_
+15-12	814-817	von	_	_
+15-13	818-822	1832	*	DATEmentioned
+15-14	823-827	soll	_	_
+15-15	828-831	ihm	_	_
+15-16	832-842	Gerstäcker	*	PERmentioned
+15-17	843-846	die	_	_
+15-18	847-852	Werke	_	_
+15-19	853-858	geben	_	_
+15-20	859-860	.	_	_
+
+#Text=Eine -schale hätte ich gern \; die Zeiten sind aber schlecht .
+16-1	861-865	Eine	_	_
+16-2	866-873	-schale	_	_
+16-3	874-879	hätte	_	_
+16-4	880-883	ich	_	_
+16-5	884-888	gern	_	_
+16-6	889-890	\;	_	_
+16-7	891-894	die	_	_
+16-8	895-901	Zeiten	_	_
+16-9	902-906	sind	_	_
+16-10	907-911	aber	_	_
+16-11	912-920	schlecht	_	_
+16-12	921-922	.	_	_
+
+#Text=Ist es eine einfack Schale , wie die früher von Innen aquirirten Inschriftschalen , so nehme ich sie gern für den damals befolgten Preis , ich meine 10 bis 12 Sc .
+17-1	923-926	Ist	_	_
+17-2	927-929	es	_	_
+17-3	930-934	eine	_	_
+17-4	935-942	einfack	_	_
+17-5	943-949	Schale	_	_
+17-6	950-951	,	_	_
+17-7	952-955	wie	_	_
+17-8	956-959	die	_	_
+17-9	960-966	früher	_	_
+17-10	967-970	von	_	_
+17-11	971-976	Innen	_	_
+17-12	977-987	aquirirten	_	_
+17-13	988-1004	Inschriftschalen	_	_
+17-14	1005-1006	,	_	_
+17-15	1007-1009	so	_	_
+17-16	1010-1015	nehme	_	_
+17-17	1016-1019	ich	_	_
+17-18	1020-1023	sie	_	_
+17-19	1024-1028	gern	_	_
+17-20	1029-1032	für	_	_
+17-21	1033-1036	den	_	_
+17-22	1037-1043	damals	_	_
+17-23	1044-1053	befolgten	_	_
+17-24	1054-1059	Preis	_	_
+17-25	1060-1061	,	_	_
+17-26	1062-1065	ich	_	_
+17-27	1066-1071	meine	_	_
+17-28	1072-1074	10	_	_
+17-29	1075-1078	bis	_	_
+17-30	1079-1081	12	_	_
+17-31	1082-1084	Sc	_	_
+17-32	1085-1086	.	_	_
+
+#Text=Sind die Preise gestiegen , so helehren Sie mich darüber , so wie über etwaige sonstige Partikularität des Monuments , zu dem ich alle lust habe .
+18-1	1087-1091	Sind	_	_
+18-2	1092-1095	die	_	_
+18-3	1096-1102	Preise	_	_
+18-4	1103-1112	gestiegen	_	_
+18-5	1113-1114	,	_	_
+18-6	1115-1117	so	_	_
+18-7	1118-1126	helehren	_	_
+18-8	1127-1130	Sie	_	_
+18-9	1131-1135	mich	_	_
+18-10	1136-1143	darüber	_	_
+18-11	1144-1145	,	_	_
+18-12	1146-1148	so	_	_
+18-13	1149-1152	wie	_	_
+18-14	1153-1157	über	_	_
+18-15	1158-1165	etwaige	_	_
+18-16	1166-1174	sonstige	_	_
+18-17	1175-1189	Partikularität	_	_
+18-18	1190-1193	des	_	_
+18-19	1194-1203	Monuments	_	_
+18-20	1204-1205	,	_	_
+18-21	1206-1208	zu	_	_
+18-22	1209-1212	dem	_	_
+18-23	1213-1216	ich	_	_
+18-24	1217-1221	alle	_	_
+18-25	1222-1226	lust	_	_
+18-26	1227-1231	habe	_	_
+18-27	1232-1233	.	_	_

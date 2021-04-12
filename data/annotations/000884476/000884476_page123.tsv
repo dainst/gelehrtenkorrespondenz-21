@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Ohne Datum FPoststempel nur Berlin 5/2 leserlich Herrn Dr. Braun .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datum	_	_
+1-6	28-40	FPoststempel	_	_
+1-7	41-44	nur	_	_
+1-8	45-51	Berlin	*	PLACEfrom
+1-9	52-55	5/2	*	DATEletter
+1-10	56-65	leserlich	_	_
+1-11	66-71	Herrn	*[1]	PERaddressee[1]
+1-12	72-75	Dr.	*[1]	PERaddressee[1]
+1-13	76-81	Braun	*[1]	PERaddressee[1]
+1-14	82-83	.	_	_
+
+#Text=Unter meinen Büchern finde ich in der letzten Kiste Lapide fenicia di Nora in Sardegna , dichiarata da Giovanantonio Arri ( sage Arri ) Assistente alla Biblioteca della Regia Universitä Torino Stamperia Reale 1834 -— 48 pgg .
+2-1	84-89	Unter	_	_
+2-2	90-96	meinen	_	_
+2-3	97-104	Büchern	_	_
+2-4	105-110	finde	_	_
+2-5	111-114	ich	_	_
+2-6	115-117	in	_	_
+2-7	118-121	der	_	_
+2-8	122-129	letzten	_	_
+2-9	130-135	Kiste	_	_
+2-10	136-142	Lapide	*[6]	OBJ[6]
+2-11	143-150	fenicia	*[6]	OBJ[6]
+2-12	151-153	di	_	_
+2-13	154-158	Nora	*	PLACEmentioned
+2-14	159-161	in	_	_
+2-15	162-170	Sardegna	*	PLACEmentioned
+2-16	171-172	,	_	_
+2-17	173-183	dichiarata	_	_
+2-18	184-186	da	_	_
+2-19	187-200	Giovanantonio	*[9]	PERmentioned[9]
+2-20	201-205	Arri	*[9]	PERmentioned[9]
+2-21	206-207	(	_	_
+2-22	208-212	sage	_	_
+2-23	213-217	Arri	_	_
+2-24	218-219	)	_	_
+2-25	220-230	Assistente	_	_
+2-26	231-235	alla	_	_
+2-27	236-246	Biblioteca	*[10]	ORGmentioned[10]
+2-28	247-252	della	*[10]	ORGmentioned[10]
+2-29	253-258	Regia	*[10]	ORGmentioned[10]
+2-30	259-269	Universitä	*[10]	ORGmentioned[10]
+2-31	270-276	Torino	*[10]	ORGmentioned[10]
+2-32	277-286	Stamperia	_	_
+2-33	287-292	Reale	_	_
+2-34	293-297	1834	_	_
+2-35	298-300	-—	_	_
+2-36	301-303	48	_	_
+2-37	304-307	pgg	_	_
+2-38	308-309	.	_	_
+
+#Text=Die Inschrift ist im Museum von Cagliari .
+3-1	310-313	Die	_	_
+3-2	314-323	Inschrift	*	OBJ
+3-3	324-327	ist	_	_
+3-4	328-330	im	_	_
+3-5	331-337	Museum	*	ORGmentioned
+3-6	338-341	von	_	_
+3-7	342-350	Cagliari	*	PLACEmentioned
+3-8	351-352	.	_	_
+
+#Text=Ich weiß nicht ob Sie die Abschrift 2 mal erhielten \; sonst stelle ich sie gern zurück und müßte der Vf .
+4-1	353-356	Ich	_	_
+4-2	357-361	weiß	_	_
+4-3	362-367	nicht	_	_
+4-4	368-370	ob	_	_
+4-5	371-374	Sie	_	_
+4-6	375-378	die	_	_
+4-7	379-388	Abschrift	_	_
+4-8	389-390	2	_	_
+4-9	391-394	mal	_	_
+4-10	395-404	erhielten	_	_
+4-11	405-406	\;	_	_
+4-12	407-412	sonst	_	_
+4-13	413-419	stelle	_	_
+4-14	420-423	ich	_	_
+4-15	424-427	sie	_	_
+4-16	428-432	gern	_	_
+4-17	433-439	zurück	_	_
+4-18	440-443	und	_	_
+4-19	444-449	müßte	_	_
+4-20	450-453	der	_	_
+4-21	454-456	Vf	_	_
+4-22	457-458	.	_	_
+
+#Text=im Bull .
+5-1	459-461	im	_	_
+5-2	462-466	Bull	_	_
+5-3	467-468	.	_	_
+
+#Text=oder direkt ged ckt werden .
+6-1	469-473	oder	_	_
+6-2	474-480	direkt	_	_
+6-3	481-484	ged	_	_
+6-4	485-488	ckt	_	_
+6-5	489-495	werden	_	_
+6-6	496-497	.	_	_
+
+#Text=Ist die Inschrift 2 mal geschickt , so haben Sie einen Dankbrief wol schon für mich mitged t Depolettis Minervengefäß ist vom hiesigen Museum , wenn er es noch hat , so gut wie angekauft .
+7-1	498-501	Ist	_	_
+7-2	502-505	die	_	_
+7-3	506-515	Inschrift	_	_
+7-4	516-517	2	_	_
+7-5	518-521	mal	_	_
+7-6	522-531	geschickt	_	_
+7-7	532-533	,	_	_
+7-8	534-536	so	_	_
+7-9	537-542	haben	_	_
+7-10	543-546	Sie	_	_
+7-11	547-552	einen	_	_
+7-12	553-562	Dankbrief	_	_
+7-13	563-566	wol	_	_
+7-14	567-572	schon	_	_
+7-15	573-576	für	_	_
+7-16	577-581	mich	_	_
+7-17	582-588	mitged	_	_
+7-18	589-590	t	_	_
+7-19	591-601	Depolettis	*	PERmentioned
+7-20	602-615	Minervengefäß	*	OBJ
+7-21	616-619	ist	_	_
+7-22	620-623	vom	_	_
+7-23	624-632	hiesigen	_	_
+7-24	633-639	Museum	*	ORGmentioned
+7-25	640-641	,	_	_
+7-26	642-646	wenn	_	_
+7-27	647-649	er	_	_
+7-28	650-652	es	_	_
+7-29	653-657	noch	_	_
+7-30	658-661	hat	_	_
+7-31	662-663	,	_	_
+7-32	664-666	so	_	_
+7-33	667-670	gut	_	_
+7-34	671-674	wie	_	_
+7-35	675-684	angekauft	_	_
+7-36	685-686	.	_	_
+
+#Text=Wegen der Spiegel halten Sie doch den Carletti in Toscanella im Auge \; für alle Fälle lege ich ein Zettelchen ihm bei .
+8-1	687-692	Wegen	_	_
+8-2	693-696	der	_	_
+8-3	697-704	Spiegel	*	OBJ
+8-4	705-711	halten	_	_
+8-5	712-715	Sie	_	_
+8-6	716-720	doch	_	_
+8-7	721-724	den	_	_
+8-8	725-733	Carletti	*	PERmentioned
+8-9	734-736	in	_	_
+8-10	737-747	Toscanella	*	PLACEmentioned
+8-11	748-750	im	_	_
+8-12	751-755	Auge	_	_
+8-13	756-757	\;	_	_
+8-14	758-761	für	_	_
+8-15	762-766	alle	_	_
+8-16	767-772	Fälle	_	_
+8-17	773-777	lege	_	_
+8-18	778-781	ich	_	_
+8-19	782-785	ein	_	_
+8-20	786-796	Zettelchen	_	_
+8-21	797-800	ihm	_	_
+8-22	801-804	bei	_	_
+8-23	805-806	.	_	_
+
+#Text=Ich erinnere Sie daß ich für gewöhnliche curiose Spiegel zwischen 2 bis 5 Scudi zu bezahlen pflege , für Inschriftspiegel 12 bis 20 geudi .
+9-1	807-810	Ich	_	_
+9-2	811-819	erinnere	_	_
+9-3	820-823	Sie	_	_
+9-4	824-827	daß	_	_
+9-5	828-831	ich	_	_
+9-6	832-835	für	_	_
+9-7	836-847	gewöhnliche	_	_
+9-8	848-855	curiose	_	_
+9-9	856-863	Spiegel	_	_
+9-10	864-872	zwischen	_	_
+9-11	873-874	2	_	_
+9-12	875-878	bis	_	_
+9-13	879-880	5	_	_
+9-14	881-886	Scudi	_	_
+9-15	887-889	zu	_	_
+9-16	890-898	bezahlen	_	_
+9-17	899-905	pflege	_	_
+9-18	906-907	,	_	_
+9-19	908-911	für	_	_
+9-20	912-928	Inschriftspiegel	_	_
+9-21	929-931	12	_	_
+9-22	932-935	bis	_	_
+9-23	936-938	20	_	_
+9-24	939-944	geudi	_	_
+9-25	945-946	.	_	_
+
+#Text=Nach diesen Taxen fahren Sie fort weiter für mich zükaufen , was irgendwie singulär ist in dieser Gattung \; für außerordentliche Stücke scheue ich außerordentliche Ausgaben ' ı nicht .
+10-1	947-951	Nach	_	_
+10-2	952-958	diesen	_	_
+10-3	959-964	Taxen	_	_
+10-4	965-971	fahren	_	_
+10-5	972-975	Sie	_	_
+10-6	976-980	fort	_	_
+10-7	981-987	weiter	_	_
+10-8	988-991	für	_	_
+10-9	992-996	mich	_	_
+10-10	997-1005	zükaufen	_	_
+10-11	1006-1007	,	_	_
+10-12	1008-1011	was	_	_
+10-13	1012-1021	irgendwie	_	_
+10-14	1022-1030	singulär	_	_
+10-15	1031-1034	ist	_	_
+10-16	1035-1037	in	_	_
+10-17	1038-1044	dieser	_	_
+10-18	1045-1052	Gattung	_	_
+10-19	1053-1054	\;	_	_
+10-20	1055-1058	für	_	_
+10-21	1059-1075	außerordentliche	_	_
+10-22	1076-1082	Stücke	_	_
+10-23	1083-1089	scheue	_	_
+10-24	1090-1093	ich	_	_
+10-25	1094-1110	außerordentliche	_	_
+10-26	1111-1119	Ausgaben	_	_
+10-27	1120-1121	'	_	_
+10-28	1122-1123	ı	_	_
+10-29	1124-1129	nicht	_	_
+10-30	1130-1131	.	_	_
+
+#Text=Schalen mit Künstlernamen , die uns fehlen können auch für 2 oder 3 Iuigi eingekauft werden , es fehlt uns
+11-1	1132-1139	Schalen	_	_
+11-2	1140-1143	mit	_	_
+11-3	1144-1157	Künstlernamen	_	_
+11-4	1158-1159	,	_	_
+11-5	1160-1163	die	_	_
+11-6	1164-1167	uns	_	_
+11-7	1168-1174	fehlen	_	_
+11-8	1175-1181	können	_	_
+11-9	1182-1186	auch	_	_
+11-10	1187-1190	für	_	_
+11-11	1191-1192	2	_	_
+11-12	1193-1197	oder	_	_
+11-13	1198-1199	3	_	_
+11-14	1200-1205	Iuigi	_	_
+11-15	1206-1216	eingekauft	_	_
+11-16	1217-1223	werden	_	_
+11-17	1224-1225	,	_	_
+11-18	1226-1228	es	_	_
+11-19	1229-1234	fehlt	_	_
+11-20	1235-1238	uns	_	_

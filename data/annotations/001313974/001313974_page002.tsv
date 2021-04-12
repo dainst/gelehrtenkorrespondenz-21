@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ON Helbig an Henzen Rom , 20 .
+1-1	0-2	ON	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	20	*[1]	DATEletter[1]
+1-8	29-30	.	*[1]	DATEletter[1]
+
+#Text=August 1863 Rom 20 .
+2-1	31-37	August	*[1]	DATEletter[1]
+2-2	38-42	1863	*[1]	DATEletter[1]
+2-3	43-46	Rom	*	PLACEfrom
+2-4	47-49	20	*[2]	DATEletter[2]
+2-5	50-51	.	*[2]	DATEletter[2]
+
+#Text=August 1863 g . 31/8 63 .
+3-1	52-58	August	*[2]	DATEletter[2]
+3-2	59-63	1863	*[2]	DATEletter[2]
+3-3	64-65	g	_	_
+3-4	66-67	.	_	_
+3-5	68-72	31/8	*[3]	DATErecieved[3]
+3-6	73-75	63	*[3]	DATErecieved[3]
+3-7	76-77	.	_	_
+
+#Text=Geehrtester Herr Professor !
+4-1	78-89	Geehrtester	_	_
+4-2	90-94	Herr	_	_
+4-3	95-104	Professor	_	_
+4-4	105-106	!	_	_
+
+#Text=Es ist mir sehr lieb , Ihre bestimmte Adresse zu erfahren wegen der unleidigen venezianischen Processangelegenheit .
+5-1	107-109	Es	_	_
+5-2	110-113	ist	_	_
+5-3	114-117	mir	_	_
+5-4	118-122	sehr	_	_
+5-5	123-127	lieb	_	_
+5-6	128-129	,	_	_
+5-7	130-134	Ihre	_	_
+5-8	135-144	bestimmte	_	_
+5-9	145-152	Adresse	_	_
+5-10	153-155	zu	_	_
+5-11	156-164	erfahren	_	_
+5-12	165-170	wegen	_	_
+5-13	171-174	der	_	_
+5-14	175-185	unleidigen	_	_
+5-15	186-200	venezianischen	_	_
+5-16	201-221	Processangelegenheit	_	_
+5-17	222-223	.	_	_
+
+#Text=Das Autorisations- und Klagformular habe ich in vorgeschriebener Weise an den Avvocato Fortis abgehen lassen .
+6-1	224-227	Das	_	_
+6-2	228-242	Autorisations-	_	_
+6-3	243-246	und	_	_
+6-4	247-259	Klagformular	_	_
+6-5	260-264	habe	_	_
+6-6	265-268	ich	_	_
+6-7	269-271	in	_	_
+6-8	272-288	vorgeschriebener	_	_
+6-9	289-294	Weise	_	_
+6-10	295-297	an	_	_
+6-11	298-301	den	_	_
+6-12	302-310	Avvocato	*[4]	PERmentioned[4]
+6-13	311-317	Fortis	*[4]	PERmentioned[4]
+6-14	318-325	abgehen	_	_
+6-15	326-332	lassen	_	_
+6-16	333-334	.	_	_
+
+#Text=Kurz darauf erhielt ich einen zweiten Brief von ihm , worin er bestimmte Angabe über die Größe der einzuklagenden Schuld verlangte und über die Art , wie sie contrahirt worden sei .
+7-1	335-339	Kurz	_	_
+7-2	340-346	darauf	_	_
+7-3	347-354	erhielt	_	_
+7-4	355-358	ich	_	_
+7-5	359-364	einen	_	_
+7-6	365-372	zweiten	_	_
+7-7	373-378	Brief	_	_
+7-8	379-382	von	_	_
+7-9	383-386	ihm	_	_
+7-10	387-388	,	_	_
+7-11	389-394	worin	_	_
+7-12	395-397	er	_	_
+7-13	398-407	bestimmte	_	_
+7-14	408-414	Angabe	_	_
+7-15	415-419	über	_	_
+7-16	420-423	die	_	_
+7-17	424-429	Größe	_	_
+7-18	430-433	der	_	_
+7-19	434-448	einzuklagenden	_	_
+7-20	449-455	Schuld	_	_
+7-21	456-465	verlangte	_	_
+7-22	466-469	und	_	_
+7-23	470-474	über	_	_
+7-24	475-478	die	_	_
+7-25	479-482	Art	_	_
+7-26	483-484	,	_	_
+7-27	485-488	wie	_	_
+7-28	489-492	sie	_	_
+7-29	493-503	contrahirt	_	_
+7-30	504-510	worden	_	_
+7-31	511-514	sei	_	_
+7-32	515-516	.	_	_
+
+#Text=Brunn , an den ich sofort geschrieben habe , hat ihm von Chiusi aus mitgetheilt , was er davon weiß .
+8-1	517-522	Brunn	*	PERmentioned
+8-2	523-524	,	_	_
+8-3	525-527	an	_	_
+8-4	528-531	den	_	_
+8-5	532-535	ich	_	_
+8-6	536-542	sofort	_	_
+8-7	543-554	geschrieben	_	_
+8-8	555-559	habe	_	_
+8-9	560-561	,	_	_
+8-10	562-565	hat	_	_
+8-11	566-569	ihm	_	_
+8-12	570-573	von	_	_
+8-13	574-580	Chiusi	*	PLACEmentioned
+8-14	581-584	aus	_	_
+8-15	585-596	mitgetheilt	_	_
+8-16	597-598	,	_	_
+8-17	599-602	was	_	_
+8-18	603-605	er	_	_
+8-19	606-611	davon	_	_
+8-20	612-616	weiß	_	_
+8-21	617-618	.	_	_
+
+#Text=Ich bitte Sie , ebenfalls was Sie von der Sache wissen , direct an den Avvocato zu schreiben .
+9-1	619-622	Ich	_	_
+9-2	623-628	bitte	_	_
+9-3	629-632	Sie	_	_
+9-4	633-634	,	_	_
+9-5	635-644	ebenfalls	_	_
+9-6	645-648	was	_	_
+9-7	649-652	Sie	_	_
+9-8	653-656	von	_	_
+9-9	657-660	der	_	_
+9-10	661-666	Sache	_	_
+9-11	667-673	wissen	_	_
+9-12	674-675	,	_	_
+9-13	676-682	direct	_	_
+9-14	683-685	an	_	_
+9-15	686-689	den	_	_
+9-16	690-698	Avvocato	_	_
+9-17	699-701	zu	_	_
+9-18	702-711	schreiben	_	_
+9-19	712-713	.	_	_
+
+#Text=Adresse : Dr. Leone Fortis avvocato del Foro di Venezia .
+10-1	714-721	Adresse	_	_
+10-2	722-723	:	_	_
+10-3	724-727	Dr.	*[5]	PERmentioned[5]
+10-4	728-733	Leone	*[5]	PERmentioned[5]
+10-5	734-740	Fortis	*[5]	PERmentioned[5]
+10-6	741-749	avvocato	_	_
+10-7	750-753	del	_	_
+10-8	754-758	Foro	_	_
+10-9	759-761	di	_	_
+10-10	762-769	Venezia	*	PLACEmentioned
+10-11	770-771	.	_	_
+
+#Text=Eine zweite Angelegenheit , in welcher ich Ihrer Antwort entgegensehe , betrifft Forcella .
+11-1	772-776	Eine	_	_
+11-2	777-783	zweite	_	_
+11-3	784-797	Angelegenheit	_	_
+11-4	798-799	,	_	_
+11-5	800-802	in	_	_
+11-6	803-810	welcher	_	_
+11-7	811-814	ich	_	_
+11-8	815-820	Ihrer	_	_
+11-9	821-828	Antwort	_	_
+11-10	829-841	entgegensehe	_	_
+11-11	842-843	,	_	_
+11-12	844-852	betrifft	_	_
+11-13	853-861	Forcella	*	PERmentioned
+11-14	862-863	.	_	_
+
+#Text=Dieser befindet sich in verzweiflungsvoller Lage ohne Geld und jeglicher Hülfsmittel , da ihm Rossi nichts zu arbeiten giebt .
+12-1	864-870	Dieser	_	_
+12-2	871-879	befindet	_	_
+12-3	880-884	sich	_	_
+12-4	885-887	in	_	_
+12-5	888-907	verzweiflungsvoller	_	_
+12-6	908-912	Lage	_	_
+12-7	913-917	ohne	_	_
+12-8	918-922	Geld	_	_
+12-9	923-926	und	_	_
+12-10	927-936	jeglicher	_	_
+12-11	937-948	Hülfsmittel	_	_
+12-12	949-950	,	_	_
+12-13	951-953	da	_	_
+12-14	954-957	ihm	_	_
+12-15	958-963	Rossi	*	PERmentioned
+12-16	964-970	nichts	_	_
+12-17	971-973	zu	_	_
+12-18	974-982	arbeiten	_	_
+12-19	983-988	giebt	_	_
+12-20	989-990	.	_	_
+
+#Text=Ich selbst bin nicht im Stande ihm etwas zu geben , da ich mich in der größten Geldverlegenbeit befinde und außerdem noch Dr. Gr tzmacher „ welcher plötzlich abreisen mußte , Geld vorgeschossen habe .
+13-1	991-994	Ich	_	_
+13-2	995-1001	selbst	_	_
+13-3	1002-1005	bin	_	_
+13-4	1006-1011	nicht	_	_
+13-5	1012-1014	im	_	_
+13-6	1015-1021	Stande	_	_
+13-7	1022-1025	ihm	_	_
+13-8	1026-1031	etwas	_	_
+13-9	1032-1034	zu	_	_
+13-10	1035-1040	geben	_	_
+13-11	1041-1042	,	_	_
+13-12	1043-1045	da	_	_
+13-13	1046-1049	ich	_	_
+13-14	1050-1054	mich	_	_
+13-15	1055-1057	in	_	_
+13-16	1058-1061	der	_	_
+13-17	1062-1069	größten	_	_
+13-18	1070-1086	Geldverlegenbeit	_	_
+13-19	1087-1094	befinde	_	_
+13-20	1095-1098	und	_	_
+13-21	1099-1107	außerdem	_	_
+13-22	1108-1112	noch	_	_
+13-23	1113-1116	Dr.	*[6]	PERmentioned[6]
+13-24	1117-1119	Gr	*[6]	PERmentioned[6]
+13-25	1120-1128	tzmacher	*[6]	PERmentioned[6]
+13-26	1129-1130	„	_	_
+13-27	1131-1138	welcher	_	_
+13-28	1139-1148	plötzlich	_	_
+13-29	1149-1157	abreisen	_	_
+13-30	1158-1163	mußte	_	_
+13-31	1164-1165	,	_	_
+13-32	1166-1170	Geld	_	_
+13-33	1171-1184	vorgeschossen	_	_
+13-34	1185-1189	habe	_	_
+13-35	1190-1191	.	_	_
+
+#Text=Was soll ich mit
+14-1	1192-1195	Was	_	_
+14-2	1196-1200	soll	_	_
+14-3	1201-1204	ich	_	_
+14-4	1205-1208	mit	_	_

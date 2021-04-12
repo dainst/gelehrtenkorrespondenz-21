@@ -1,0 +1,82 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Hekbig an Henzen Rom , 14. Juli 1873 Mirteto eingeladen .
+1-1	0-6	Hekbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	14.	*[1]	DATEletter[1]
+1-7	27-31	Juli	*[1]	DATEletter[1]
+1-8	32-36	1873	*[1]	DATEletter[1]
+1-9	37-44	Mirteto	*	PLACEmentioned
+1-10	45-55	eingeladen	_	_
+1-11	56-57	.	_	_
+
+#Text=Es kam ihm offenbar sehr hart an .
+2-1	58-60	Es	_	_
+2-2	61-64	kam	_	_
+2-3	65-68	ihm	_	_
+2-4	69-77	offenbar	_	_
+2-5	78-82	sehr	_	_
+2-6	83-87	hart	_	_
+2-7	88-90	an	_	_
+2-8	91-92	.	_	_
+
+#Text=Doch entschädigten wir ihn für die Ausgaben , welche ihm das für uns veranstaltete Pranzo verursacht , durch einige Schnäpse , die wir für ihn in dem Caf & von Poggio Mirteto bezahlten und die auf ihn die gewohnte Wirkung ausübeten .
+3-1	93-97	Doch	_	_
+3-2	98-111	entschädigten	_	_
+3-3	112-115	wir	_	_
+3-4	116-119	ihn	_	_
+3-5	120-123	für	_	_
+3-6	124-127	die	_	_
+3-7	128-136	Ausgaben	_	_
+3-8	137-138	,	_	_
+3-9	139-145	welche	_	_
+3-10	146-149	ihm	_	_
+3-11	150-153	das	_	_
+3-12	154-157	für	_	_
+3-13	158-161	uns	_	_
+3-14	162-175	veranstaltete	_	_
+3-15	176-182	Pranzo	_	_
+3-16	183-193	verursacht	_	_
+3-17	194-195	,	_	_
+3-18	196-201	durch	_	_
+3-19	202-208	einige	_	_
+3-20	209-217	Schnäpse	_	_
+3-21	218-219	,	_	_
+3-22	220-223	die	_	_
+3-23	224-227	wir	_	_
+3-24	228-231	für	_	_
+3-25	232-235	ihn	_	_
+3-26	236-238	in	_	_
+3-27	239-242	dem	_	_
+3-28	243-246	Caf	_	_
+3-29	247-248	&	_	_
+3-30	249-252	von	_	_
+3-31	253-259	Poggio	*[2]	PLACEmentioned[2]
+3-32	260-267	Mirteto	*[2]	PLACEmentioned[2]
+3-33	268-277	bezahlten	_	_
+3-34	278-281	und	_	_
+3-35	282-285	die	_	_
+3-36	286-289	auf	_	_
+3-37	290-293	ihn	_	_
+3-38	294-297	die	_	_
+3-39	298-306	gewohnte	_	_
+3-40	307-314	Wirkung	_	_
+3-41	315-324	ausübeten	_	_
+3-42	325-326	.	_	_
+
+#Text=Herzliche Grüße an Brunns !
+4-1	327-336	Herzliche	_	_
+4-2	337-342	Grüße	_	_
+4-3	343-345	an	_	_
+4-4	346-352	Brunns	*	PERmentioned
+4-5	353-354	!	_	_
+
+#Text=Ihr ergebener Helbig
+5-1	355-358	Ihr	_	_
+5-2	359-368	ergebener	_	_
+5-3	369-375	Helbig	*	PERauthor

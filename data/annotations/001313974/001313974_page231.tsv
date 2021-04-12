@@ -1,0 +1,251 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Siena , 1. September 1874 Siena 71 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-22	Siena	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	1.	*[3]	DATEletter[3]
+1-7	28-37	September	*[3]	DATEletter[3]
+1-8	38-42	1874	*[3]	DATEletter[3]
+1-9	43-48	Siena	*	PLACEfrom
+1-10	49-51	71	*[4]	DATEletter[4]
+1-11	52-53	.	*[4]	DATEletter[4]
+
+#Text=Sept .
+2-1	54-58	Sept	*[4]	DATEletter[4]
+2-2	59-60	.	*[4]	DATEletter[4]
+
+#Text=1874 Lieber Herr Professor Ich habe in dieser Zeit für die Gothaer Sammlung allerlei Aquisitionen gemacht , im Ganzen für ungefähr 500 Iire .
+3-1	61-65	1874	*[4]	DATEletter[4]
+3-2	66-72	Lieber	_	_
+3-3	73-77	Herr	_	_
+3-4	78-87	Professor	_	_
+3-5	88-91	Ich	_	_
+3-6	92-96	habe	_	_
+3-7	97-99	in	_	_
+3-8	100-106	dieser	_	_
+3-9	107-111	Zeit	_	_
+3-10	112-115	für	_	_
+3-11	116-119	die	_	_
+3-12	120-127	Gothaer	*	PLACEmentioned
+3-13	128-136	Sammlung	_	_
+3-14	137-145	allerlei	_	_
+3-15	146-158	Aquisitionen	_	_
+3-16	159-166	gemacht	_	_
+3-17	167-168	,	_	_
+3-18	169-171	im	_	_
+3-19	172-178	Ganzen	_	_
+3-20	179-182	für	_	_
+3-21	183-191	ungefähr	_	_
+3-22	192-195	500	_	_
+3-23	196-200	Iire	_	_
+3-24	201-202	.	_	_
+
+#Text=Die Gothaer schickten mir das Geld in preußischen Thalerscheinen und jetzt sehe ich zu meinem Schrecken , daß man hier in Siena den Reichsthaler nur zu dem ganz unmöglichen Curs von L .
+4-1	203-206	Die	_	_
+4-2	207-214	Gothaer	_	_
+4-3	215-224	schickten	_	_
+4-4	225-228	mir	_	_
+4-5	229-232	das	_	_
+4-6	233-237	Geld	_	_
+4-7	238-240	in	_	_
+4-8	241-252	preußischen	_	_
+4-9	253-267	Thalerscheinen	_	_
+4-10	268-271	und	_	_
+4-11	272-277	jetzt	_	_
+4-12	278-282	sehe	_	_
+4-13	283-286	ich	_	_
+4-14	287-289	zu	_	_
+4-15	290-296	meinem	_	_
+4-16	297-306	Schrecken	_	_
+4-17	307-308	,	_	_
+4-18	309-312	daß	_	_
+4-19	313-316	man	_	_
+4-20	317-321	hier	_	_
+4-21	322-324	in	_	_
+4-22	325-330	Siena	*	PLACEmentioned
+4-23	331-334	den	_	_
+4-24	335-347	Reichsthaler	_	_
+4-25	348-351	nur	_	_
+4-26	352-354	zu	_	_
+4-27	355-358	dem	_	_
+4-28	359-363	ganz	_	_
+4-29	364-375	unmöglichen	_	_
+4-30	376-380	Curs	_	_
+4-31	381-384	von	_	_
+4-32	385-386	L	_	_
+4-33	387-388	.	_	_
+
+#Text=3,70 annehmen will .
+5-1	389-393	3,70	_	_
+5-2	394-402	annehmen	_	_
+5-3	403-407	will	_	_
+5-4	408-409	.	_	_
+
+#Text=Da ich die für Gotha erworbenen Gegenstände mit nach Rom bringen werde , um sie daselbst in den Sitzungen vorzulegen , so scheint es mir nicht unbillig , daß der Sammlung , deren Fonds ohnehin knapp sind , dieser Verlust erspart werde und ich bitte Sie daher , mir 500 Lire ( banca nazionale oder toscana ) von meinem Gehalte voraus hierher schicken zu lassen .
+6-1	410-412	Da	_	_
+6-2	413-416	ich	_	_
+6-3	417-420	die	_	_
+6-4	421-424	für	_	_
+6-5	425-430	Gotha	*	PLACEmentioned
+6-6	431-441	erworbenen	_	_
+6-7	442-453	Gegenstände	_	_
+6-8	454-457	mit	_	_
+6-9	458-462	nach	_	_
+6-10	463-466	Rom	*	PLACEmentioned
+6-11	467-474	bringen	_	_
+6-12	475-480	werde	_	_
+6-13	481-482	,	_	_
+6-14	483-485	um	_	_
+6-15	486-489	sie	_	_
+6-16	490-498	daselbst	_	_
+6-17	499-501	in	_	_
+6-18	502-505	den	_	_
+6-19	506-515	Sitzungen	_	_
+6-20	516-526	vorzulegen	_	_
+6-21	527-528	,	_	_
+6-22	529-531	so	_	_
+6-23	532-539	scheint	_	_
+6-24	540-542	es	_	_
+6-25	543-546	mir	_	_
+6-26	547-552	nicht	_	_
+6-27	553-561	unbillig	_	_
+6-28	562-563	,	_	_
+6-29	564-567	daß	_	_
+6-30	568-571	der	_	_
+6-31	572-580	Sammlung	_	_
+6-32	581-582	,	_	_
+6-33	583-588	deren	_	_
+6-34	589-594	Fonds	_	_
+6-35	595-602	ohnehin	_	_
+6-36	603-608	knapp	_	_
+6-37	609-613	sind	_	_
+6-38	614-615	,	_	_
+6-39	616-622	dieser	_	_
+6-40	623-630	Verlust	_	_
+6-41	631-638	erspart	_	_
+6-42	639-644	werde	_	_
+6-43	645-648	und	_	_
+6-44	649-652	ich	_	_
+6-45	653-658	bitte	_	_
+6-46	659-662	Sie	_	_
+6-47	663-668	daher	_	_
+6-48	669-670	,	_	_
+6-49	671-674	mir	_	_
+6-50	675-678	500	_	_
+6-51	679-683	Lire	_	_
+6-52	684-685	(	_	_
+6-53	686-691	banca	_	_
+6-54	692-701	nazionale	_	_
+6-55	702-706	oder	_	_
+6-56	707-714	toscana	_	_
+6-57	715-716	)	_	_
+6-58	717-720	von	_	_
+6-59	721-727	meinem	_	_
+6-60	728-735	Gehalte	_	_
+6-61	736-742	voraus	_	_
+6-62	743-750	hierher	_	_
+6-63	751-759	schicken	_	_
+6-64	760-762	zu	_	_
+6-65	763-769	lassen	_	_
+6-66	770-771	.	_	_
+
+#Text=Ohnehin habe ich allerlei für meine Reisen mit dem Institute zu verrechnen , was ich ebenfalls vor meiner Reise einkassiren müßte .
+7-1	772-779	Ohnehin	_	_
+7-2	780-784	habe	_	_
+7-3	785-788	ich	_	_
+7-4	789-797	allerlei	_	_
+7-5	798-801	für	_	_
+7-6	802-807	meine	_	_
+7-7	808-814	Reisen	_	_
+7-8	815-818	mit	_	_
+7-9	819-822	dem	_	_
+7-10	823-832	Institute	*	ORGmentioned
+7-11	833-835	zu	_	_
+7-12	836-846	verrechnen	_	_
+7-13	847-848	,	_	_
+7-14	849-852	was	_	_
+7-15	853-856	ich	_	_
+7-16	857-866	ebenfalls	_	_
+7-17	867-870	vor	_	_
+7-18	871-877	meiner	_	_
+7-19	878-883	Reise	_	_
+7-20	884-895	einkassiren	_	_
+7-21	896-901	müßte	_	_
+7-22	902-903	.	_	_
+
+#Text=Also erweisen Sie , bitte , den Gothaern diesen Dienst .
+8-1	904-908	Also	_	_
+8-2	909-917	erweisen	_	_
+8-3	918-921	Sie	_	_
+8-4	922-923	,	_	_
+8-5	924-929	bitte	_	_
+8-6	930-931	,	_	_
+8-7	932-935	den	_	_
+8-8	936-944	Gothaern	_	_
+8-9	945-951	diesen	_	_
+8-10	952-958	Dienst	_	_
+8-11	959-960	.	_	_
+
+#Text=Alle Kosten sollen diesen zufallen .
+9-1	961-965	Alle	_	_
+9-2	966-972	Kosten	_	_
+9-3	973-979	sollen	_	_
+9-4	980-986	diesen	_	_
+9-5	987-995	zufallen	_	_
+9-6	996-997	.	_	_
+
+#Text=Am Praktischsten und Billigsten wäre es wohl , wenn die Banca Toscana in Rom eine Fede di credito auf ihre Filiale in Siena für mich ausstellte .
+10-1	998-1000	Am	_	_
+10-2	1001-1014	Praktischsten	_	_
+10-3	1015-1018	und	_	_
+10-4	1019-1029	Billigsten	_	_
+10-5	1030-1034	wäre	_	_
+10-6	1035-1037	es	_	_
+10-7	1038-1042	wohl	_	_
+10-8	1043-1044	,	_	_
+10-9	1045-1049	wenn	_	_
+10-10	1050-1053	die	_	_
+10-11	1054-1059	Banca	_	_
+10-12	1060-1067	Toscana	*	PLACEmentioned
+10-13	1068-1070	in	_	_
+10-14	1071-1074	Rom	*	PLACEmentioned
+10-15	1075-1079	eine	_	_
+10-16	1080-1084	Fede	_	_
+10-17	1085-1087	di	_	_
+10-18	1088-1095	credito	_	_
+10-19	1096-1099	auf	_	_
+10-20	1100-1104	ihre	_	_
+10-21	1105-1112	Filiale	_	_
+10-22	1113-1115	in	_	_
+10-23	1116-1121	Siena	*	PLACEmentioned
+10-24	1122-1125	für	_	_
+10-25	1126-1130	mich	_	_
+10-26	1131-1141	ausstellte	_	_
+10-27	1142-1143	.	_	_
+
+#Text=Da jedoch Dressel hiermit vielleicht nicht Bescheid weiß , so dürfte wohl eine vaglia postale der sicherste Modus sein .
+11-1	1144-1146	Da	_	_
+11-2	1147-1153	jedoch	_	_
+11-3	1154-1161	Dressel	*	PERmentioned
+11-4	1162-1169	hiermit	_	_
+11-5	1170-1180	vielleicht	_	_
+11-6	1181-1186	nicht	_	_
+11-7	1187-1195	Bescheid	_	_
+11-8	1196-1200	weiß	_	_
+11-9	1201-1202	,	_	_
+11-10	1203-1205	so	_	_
+11-11	1206-1212	dürfte	_	_
+11-12	1213-1217	wohl	_	_
+11-13	1218-1222	eine	_	_
+11-14	1223-1229	vaglia	_	_
+11-15	1230-1237	postale	_	_
+11-16	1238-1241	der	_	_
+11-17	1242-1251	sicherste	_	_
+11-18	1252-1257	Modus	_	_
+11-19	1258-1262	sein	_	_
+11-20	1263-1264	.	_	_

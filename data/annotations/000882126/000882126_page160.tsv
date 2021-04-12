@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=551 Braun an Gerhard Rom , 11 .
+1-1	0-3	551	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	11	*[15]	DATEletter[15]
+1-8	30-31	.	*[15]	DATEletter[15]
+
+#Text=August 1836 Prof. Gerhard Roma li 11 Agosto 1836 Hochverehrtester Freund !
+2-1	32-38	August	*[15]	DATEletter[15]
+2-2	39-43	1836	*[15]	DATEletter[15]
+2-3	44-49	Prof.	_	_
+2-4	50-57	Gerhard	*	PERaddressee
+2-5	58-62	Roma	*	PLACEfrom
+2-6	63-65	li	_	_
+2-7	66-68	11	*[16]	DATEletter[16]
+2-8	69-75	Agosto	*[16]	DATEletter[16]
+2-9	76-80	1836	*[16]	DATEletter[16]
+2-10	81-97	Hochverehrtester	_	_
+2-11	98-104	Freund	_	_
+2-12	105-106	!	_	_
+
+#Text=Ihr lieber Brief vom 27 v. M. theilt mir die trübe Stimmung in der Sie sich befinden ganz und recht lebhaft mit .
+3-1	107-110	Ihr	_	_
+3-2	111-117	lieber	_	_
+3-3	118-123	Brief	_	_
+3-4	124-127	vom	_	_
+3-5	128-130	27	*[17]	DATEmentioned[17]
+3-6	131-133	v.	*[17]	DATEmentioned[17]
+3-7	134-136	M.	*[17]	DATEmentioned[17]
+3-8	137-143	theilt	_	_
+3-9	144-147	mir	_	_
+3-10	148-151	die	_	_
+3-11	152-157	trübe	_	_
+3-12	158-166	Stimmung	_	_
+3-13	167-169	in	_	_
+3-14	170-173	der	_	_
+3-15	174-177	Sie	_	_
+3-16	178-182	sich	_	_
+3-17	183-191	befinden	_	_
+3-18	192-196	ganz	_	_
+3-19	197-200	und	_	_
+3-20	201-206	recht	_	_
+3-21	207-214	lebhaft	_	_
+3-22	215-218	mit	_	_
+3-23	219-220	.	_	_
+
+#Text=Etwas Beruhigendes kann ich nur in der Hoffnung baldigen Wiedersehens finden .
+4-1	221-226	Etwas	_	_
+4-2	227-239	Beruhigendes	_	_
+4-3	240-244	kann	_	_
+4-4	245-248	ich	_	_
+4-5	249-252	nur	_	_
+4-6	253-255	in	_	_
+4-7	256-259	der	_	_
+4-8	260-268	Hoffnung	_	_
+4-9	269-277	baldigen	_	_
+4-10	278-290	Wiedersehens	_	_
+4-11	291-297	finden	_	_
+4-12	298-299	.	_	_
+
+#Text=Gleichzeitig mit diesem Brief , oder wenig früher , werden Sie andere von mir vorgefunden haben , die Ihnen die Ueberzeugung beibringen könnten , daß ich mich unter gegenwärtigen Umständen nicht von Rom entfernen kann \; noch mehr aber , wie nöthig Ihre augenblickliche Gegenwart für unsere hiesigen Verhältnisse ist .
+5-1	300-312	Gleichzeitig	_	_
+5-2	313-316	mit	_	_
+5-3	317-323	diesem	_	_
+5-4	324-329	Brief	_	_
+5-5	330-331	,	_	_
+5-6	332-336	oder	_	_
+5-7	337-342	wenig	_	_
+5-8	343-349	früher	_	_
+5-9	350-351	,	_	_
+5-10	352-358	werden	_	_
+5-11	359-362	Sie	_	_
+5-12	363-369	andere	_	_
+5-13	370-373	von	_	_
+5-14	374-377	mir	_	_
+5-15	378-389	vorgefunden	_	_
+5-16	390-395	haben	_	_
+5-17	396-397	,	_	_
+5-18	398-401	die	_	_
+5-19	402-407	Ihnen	_	_
+5-20	408-411	die	_	_
+5-21	412-424	Ueberzeugung	_	_
+5-22	425-435	beibringen	_	_
+5-23	436-443	könnten	_	_
+5-24	444-445	,	_	_
+5-25	446-449	daß	_	_
+5-26	450-453	ich	_	_
+5-27	454-458	mich	_	_
+5-28	459-464	unter	_	_
+5-29	465-478	gegenwärtigen	_	_
+5-30	479-488	Umständen	_	_
+5-31	489-494	nicht	_	_
+5-32	495-498	von	_	_
+5-33	499-502	Rom	*	PLACEmentioned
+5-34	503-512	entfernen	_	_
+5-35	513-517	kann	_	_
+5-36	518-519	\;	_	_
+5-37	520-524	noch	_	_
+5-38	525-529	mehr	_	_
+5-39	530-534	aber	_	_
+5-40	535-536	,	_	_
+5-41	537-540	wie	_	_
+5-42	541-547	nöthig	_	_
+5-43	548-552	Ihre	_	_
+5-44	553-568	augenblickliche	_	_
+5-45	569-578	Gegenwart	_	_
+5-46	579-582	für	_	_
+5-47	583-589	unsere	_	_
+5-48	590-598	hiesigen	_	_
+5-49	599-611	Verhältnisse	_	_
+5-50	612-615	ist	_	_
+5-51	616-617	.	_	_
+
+#Text=Mit den Monumenten bin ich noch um wenigstens 14 Tage zurück .
+6-1	618-621	Mit	_	_
+6-2	622-625	den	_	_
+6-3	626-636	Monumenten	_	_
+6-4	637-640	bin	_	_
+6-5	641-644	ich	_	_
+6-6	645-649	noch	_	_
+6-7	650-652	um	_	_
+6-8	653-663	wenigstens	_	_
+6-9	664-666	14	_	_
+6-10	667-671	Tage	_	_
+6-11	672-678	zurück	_	_
+6-12	679-680	.	_	_
+
+#Text=Bedenken Sie , daß wir noch vor einem halben Jahre nur auf eigenes Risico Monumente stechen zu lassen erlaubt , sie für das Institut anzuordnen aber streng untersagt wurde .
+7-1	681-689	Bedenken	_	_
+7-2	690-693	Sie	_	_
+7-3	694-695	,	_	_
+7-4	696-699	daß	_	_
+7-5	700-703	wir	_	_
+7-6	704-708	noch	_	_
+7-7	709-712	vor	_	_
+7-8	713-718	einem	_	_
+7-9	719-725	halben	_	_
+7-10	726-731	Jahre	_	_
+7-11	732-735	nur	_	_
+7-12	736-739	auf	_	_
+7-13	740-747	eigenes	_	_
+7-14	748-754	Risico	_	_
+7-15	755-764	Monumente	_	_
+7-16	765-772	stechen	_	_
+7-17	773-775	zu	_	_
+7-18	776-782	lassen	_	_
+7-19	783-790	erlaubt	_	_
+7-20	791-792	,	_	_
+7-21	793-796	sie	_	_
+7-22	797-800	für	_	_
+7-23	801-804	das	_	_
+7-24	805-813	Institut	*	ORGmentioned
+7-25	814-824	anzuordnen	_	_
+7-26	825-829	aber	_	_
+7-27	830-836	streng	_	_
+7-28	837-846	untersagt	_	_
+7-29	847-852	wurde	_	_
+7-30	853-854	.	_	_
+
+#Text=Jetzt verlangt es einen Augenblick Geduld , wollen wir nicht den Franzosen gegenüber schlechte Figur machen .
+8-1	855-860	Jetzt	_	_
+8-2	861-869	verlangt	_	_
+8-3	870-872	es	_	_
+8-4	873-878	einen	_	_
+8-5	879-889	Augenblick	_	_
+8-6	890-896	Geduld	_	_
+8-7	897-898	,	_	_
+8-8	899-905	wollen	_	_
+8-9	906-909	wir	_	_
+8-10	910-915	nicht	_	_
+8-11	916-919	den	_	_
+8-12	920-929	Franzosen	*	MISC
+8-13	930-939	gegenüber	_	_
+8-14	940-949	schlechte	_	_
+8-15	950-955	Figur	_	_
+8-16	956-962	machen	_	_
+8-17	963-964	.	_	_
+
+#Text=Mein Stecher darf nicht übler Laune werden , sonst heißts tiriamo via .
+9-1	965-969	Mein	_	_
+9-2	970-977	Stecher	_	_
+9-3	978-982	darf	_	_
+9-4	983-988	nicht	_	_
+9-5	989-994	übler	_	_
+9-6	995-1000	Laune	_	_
+9-7	1001-1007	werden	_	_
+9-8	1008-1009	,	_	_
+9-9	1010-1015	sonst	_	_
+9-10	1016-1022	heißts	_	_
+9-11	1023-1030	tiriamo	_	_
+9-12	1031-1034	via	_	_
+9-13	1035-1036	.	_	_
+
+#Text=Wir müssen für unsere Zwecke durchaus den Zeichnungsmechanismus vereinfachen und wohlfeiler machen .
+10-1	1037-1040	Wir	_	_
+10-2	1041-1047	müssen	_	_
+10-3	1048-1051	für	_	_
+10-4	1052-1058	unsere	_	_
+10-5	1059-1065	Zwecke	_	_
+10-6	1066-1074	durchaus	_	_
+10-7	1075-1078	den	_	_
+10-8	1079-1100	Zeichnungsmechanismus	_	_
+10-9	1101-1113	vereinfachen	_	_
+10-10	1114-1117	und	_	_
+10-11	1118-1128	wohlfeiler	_	_
+10-12	1129-1135	machen	_	_
+10-13	1136-1137	.	_	_
+
+#Text=Bemühen Sie sich doch angelegentlich um eine Maschine , wie man sich derselben zur Verkleinerung der großen Correlinschen Cartons bedient hat .
+11-1	1138-1145	Bemühen	_	_
+11-2	1146-1149	Sie	_	_
+11-3	1150-1154	sich	_	_
+11-4	1155-1159	doch	_	_
+11-5	1160-1174	angelegentlich	_	_
+11-6	1175-1177	um	_	_
+11-7	1178-1182	eine	_	_
+11-8	1183-1191	Maschine	_	_
+11-9	1192-1193	,	_	_
+11-10	1194-1197	wie	_	_
+11-11	1198-1201	man	_	_
+11-12	1202-1206	sich	_	_
+11-13	1207-1216	derselben	_	_
+11-14	1217-1220	zur	_	_
+11-15	1221-1234	Verkleinerung	_	_
+11-16	1235-1238	der	_	_
+11-17	1239-1245	großen	_	_
+11-18	1246-1259	Correlinschen	_	_
+11-19	1260-1267	Cartons	_	_
+11-20	1268-1275	bedient	_	_
+11-21	1276-1279	hat	_	_
+11-22	1280-1281	.	_	_
+
+#Text=Kaufen Sie sie wo möglich sofort bei Prof. Schlotha er für meine Rechnung .
+12-1	1282-1288	Kaufen	_	_
+12-2	1289-1292	Sie	_	_
+12-3	1293-1296	sie	_	_
+12-4	1297-1299	wo	_	_
+12-5	1300-1307	möglich	_	_
+12-6	1308-1314	sofort	_	_
+12-7	1315-1318	bei	_	_
+12-8	1319-1324	Prof.	*[18]	PERmentioned[18]
+12-9	1325-1333	Schlotha	*[18]	PERmentioned[18]
+12-10	1334-1336	er	*[18]	PERmentioned[18]
+12-11	1337-1340	für	_	_
+12-12	1341-1346	meine	_	_
+12-13	1347-1355	Rechnung	_	_
+12-14	1356-1357	.	_	_
+
+#Text=Damit können wir viel gewinnen .
+13-1	1358-1363	Damit	_	_
+13-2	1364-1370	können	_	_
+13-3	1371-1374	wir	_	_
+13-4	1375-1379	viel	_	_
+13-5	1380-1388	gewinnen	_	_
+13-6	1389-1390	.	_	_
+
+#Text=Bringen Sie Ihren archäologischen Apparat mit hierher ?
+14-1	1391-1398	Bringen	_	_
+14-2	1399-1402	Sie	_	_
+14-3	1403-1408	Ihren	_	_
+14-4	1409-1424	archäologischen	_	_
+14-5	1425-1432	Apparat	_	_
+14-6	1433-1436	mit	_	_
+14-7	1437-1444	hierher	_	_
+14-8	1445-1446	?	_	_
+
+#Text=Ich befinde mich
+15-1	1447-1450	Ich	_	_
+15-2	1451-1458	befinde	_	_
+15-3	1459-1463	mich	_	_

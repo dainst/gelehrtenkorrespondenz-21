@@ -1,0 +1,61 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Perugia , 3. November 1833 Sie wie ich , bloß das Zimmer und speisen in der nahen Trattoria auf derselben Seite des Corso .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Perugia	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	3.	*[4]	DATEletter[4]
+1-7	30-38	November	*[4]	DATEletter[4]
+1-8	39-43	1833	*[4]	DATEletter[4]
+1-9	44-47	Sie	_	_
+1-10	48-51	wie	_	_
+1-11	52-55	ich	_	_
+1-12	56-57	,	_	_
+1-13	58-62	bloß	_	_
+1-14	63-66	das	_	_
+1-15	67-73	Zimmer	_	_
+1-16	74-77	und	_	_
+1-17	78-85	speisen	_	_
+1-18	86-88	in	_	_
+1-19	89-92	der	_	_
+1-20	93-98	nahen	_	_
+1-21	99-108	Trattoria	_	_
+1-22	109-112	auf	_	_
+1-23	113-122	derselben	_	_
+1-24	123-128	Seite	_	_
+1-25	129-132	des	_	_
+1-26	133-138	Corso	_	_
+1-27	139-140	.	_	_
+
+#Text=In Rom erwarte ich Sie mit Ungeduld \; denken Sie dann .\| wichtig Ihres florentiner Aufenthalts gewesen .
+2-1	141-143	In	_	_
+2-2	144-147	Rom	*	PLACEmentioned
+2-3	148-155	erwarte	_	_
+2-4	156-159	ich	_	_
+2-5	160-163	Sie	_	_
+2-6	164-167	mit	_	_
+2-7	168-176	Ungeduld	_	_
+2-8	177-178	\;	_	_
+2-9	179-185	denken	_	_
+2-10	186-189	Sie	_	_
+2-11	190-194	dann	_	_
+2-12	195-197	.\|	_	_
+2-13	198-205	wichtig	_	_
+2-14	206-211	Ihres	_	_
+2-15	212-223	florentiner	*	PLACEmentioned
+2-16	224-235	Aufenthalts	_	_
+2-17	236-243	gewesen	_	_
+2-18	244-245	.	_	_
+
+#Text=Mit herzlichsten Grüßen an Romberg Ihr Gerhard
+3-1	246-249	Mit	_	_
+3-2	250-262	herzlichsten	_	_
+3-3	263-269	Grüßen	_	_
+3-4	270-272	an	_	_
+3-5	273-280	Romberg	*	PERmentioned
+3-6	281-284	Ihr	_	_
+3-7	285-292	Gerhard	*	PERauthor

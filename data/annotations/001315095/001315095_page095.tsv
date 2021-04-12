@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Breslau , 30. April 1856 halte ich es doch für meine Pflicht damit keinen Augenblick zurück zuhalten .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	30.	*[1]	DATEletter[1]
+1-7	31-36	April	*[1]	DATEletter[1]
+1-8	37-41	1856	*[1]	DATEletter[1]
+1-9	42-47	halte	_	_
+1-10	48-51	ich	_	_
+1-11	52-54	es	_	_
+1-12	55-59	doch	_	_
+1-13	60-63	für	_	_
+1-14	64-69	meine	_	_
+1-15	70-77	Pflicht	_	_
+1-16	78-83	damit	_	_
+1-17	84-90	keinen	_	_
+1-18	91-101	Augenblick	_	_
+1-19	102-108	zurück	_	_
+1-20	109-117	zuhalten	_	_
+1-21	118-119	.	_	_
+
+#Text=Ich kann nicht mehr schreiben , meine Zeit ist um .
+2-1	120-123	Ich	_	_
+2-2	124-128	kann	_	_
+2-3	129-134	nicht	_	_
+2-4	135-139	mehr	_	_
+2-5	140-149	schreiben	_	_
+2-6	150-151	,	_	_
+2-7	152-157	meine	_	_
+2-8	158-162	Zeit	_	_
+2-9	163-166	ist	_	_
+2-10	167-169	um	_	_
+2-11	170-171	.	_	_
+
+#Text=Lebe wohl und halte Dir den Muth fest , er ist ja doch das A und O der Dinge und wer sich nicht selbst verloren giebt , der kommt doch in die Höhe , wenn er nur kein Schofel ist , und Dich respectirte , wer Dich kennt .
+3-1	172-176	Lebe	_	_
+3-2	177-181	wohl	_	_
+3-3	182-185	und	_	_
+3-4	186-191	halte	_	_
+3-5	192-195	Dir	_	_
+3-6	196-199	den	_	_
+3-7	200-204	Muth	_	_
+3-8	205-209	fest	_	_
+3-9	210-211	,	_	_
+3-10	212-214	er	_	_
+3-11	215-218	ist	_	_
+3-12	219-221	ja	_	_
+3-13	222-226	doch	_	_
+3-14	227-230	das	_	_
+3-15	231-232	A	_	_
+3-16	233-236	und	_	_
+3-17	237-238	O	_	_
+3-18	239-242	der	_	_
+3-19	243-248	Dinge	_	_
+3-20	249-252	und	_	_
+3-21	253-256	wer	_	_
+3-22	257-261	sich	_	_
+3-23	262-267	nicht	_	_
+3-24	268-274	selbst	_	_
+3-25	275-283	verloren	_	_
+3-26	284-289	giebt	_	_
+3-27	290-291	,	_	_
+3-28	292-295	der	_	_
+3-29	296-301	kommt	_	_
+3-30	302-306	doch	_	_
+3-31	307-309	in	_	_
+3-32	310-313	die	_	_
+3-33	314-318	Höhe	_	_
+3-34	319-320	,	_	_
+3-35	321-325	wenn	_	_
+3-36	326-328	er	_	_
+3-37	329-332	nur	_	_
+3-38	333-337	kein	_	_
+3-39	338-345	Schofel	_	_
+3-40	346-349	ist	_	_
+3-41	350-351	,	_	_
+3-42	352-355	und	_	_
+3-43	356-360	Dich	_	_
+3-44	361-372	respectirte	_	_
+3-45	373-374	,	_	_
+3-46	375-378	wer	_	_
+3-47	379-383	Dich	_	_
+3-48	384-389	kennt	_	_
+3-49	390-391	.	_	_
+
+#Text=Addio .
+4-1	392-397	Addio	_	_
+4-2	398-399	.	_	_
+
+#Text=Immer Dein Mommsen B . 30/4 56
+5-1	400-405	Immer	_	_
+5-2	406-410	Dein	_	_
+5-3	411-418	Mommsen	*	PERauthor
+5-4	419-420	B	*[3]	PLACEfrom[3]
+5-5	421-422	.	*[3]	PLACEfrom[3]
+5-6	423-427	30/4	*[2]	DATEletter[2]
+5-7	428-430	56	*[2]	DATEletter[2]

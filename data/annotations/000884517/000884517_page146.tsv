@@ -1,0 +1,99 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=224/b Gerhard an Braun Berlin , 17. Juni 1845 A. d . Dir .
+1-1	0-5	224/b	_	_
+1-2	6-13	Gerhard	*	PERauthor
+1-3	14-16	an	_	_
+1-4	17-22	Braun	*	PERaddressee
+1-5	23-29	Berlin	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-35	17.	_	_
+1-8	36-40	Juni	*[1]	DATEletter[1]
+1-9	41-45	1845	*[1]	DATEletter[1]
+1-10	46-48	A.	_	_
+1-11	49-50	d	_	_
+1-12	51-52	.	_	_
+1-13	53-56	Dir	_	_
+1-14	57-58	.	_	_
+
+#Text=g . 6/VII 45 Herrn Dr. Braun Berlin 17 Juni 45 Sie erhalten anbei lieber Freund Archäologische Zeitung no .
+2-1	59-60	g	_	_
+2-2	61-62	.	_	_
+2-3	63-68	6/VII	*[2]	DATErecieved[2]
+2-4	69-71	45	*[2]	DATErecieved[2]
+2-5	72-77	Herrn	_	_
+2-6	78-81	Dr.	*[3]	PERaddressee[3]
+2-7	82-87	Braun	*[3]	PERaddressee[3]
+2-8	88-94	Berlin	*	PLACEfrom
+2-9	95-97	17	*[4]	DATEletter[4]
+2-10	98-102	Juni	*[4]	DATEletter[4]
+2-11	103-105	45	*[4]	DATEletter[4]
+2-12	106-109	Sie	_	_
+2-13	110-118	erhalten	_	_
+2-14	119-124	anbei	_	_
+2-15	125-131	lieber	_	_
+2-16	132-138	Freund	_	_
+2-17	139-153	Archäologische	_	_
+2-18	154-161	Zeitung	_	_
+2-19	162-164	no	_	_
+2-20	165-166	.	_	_
+
+#Text=30 wegen Panofka über Midas .
+3-1	167-169	30	_	_
+3-2	170-175	wegen	_	_
+3-3	176-183	Panofka	*	PERmentioned
+3-4	184-188	über	_	_
+3-5	189-194	Midas	*	PERmentioned
+3-6	195-196	.	_	_
+
+#Text=Facsimile und Brief von Neigebaur , aus Zahlung 15 April d. J. worüber ich eine Gegenäußerung an mich erwarte .
+4-1	197-206	Facsimile	_	_
+4-2	207-210	und	_	_
+4-3	211-216	Brief	_	_
+4-4	217-220	von	_	_
+4-5	221-230	Neigebaur	*	PERmentioned
+4-6	231-232	,	_	_
+4-7	233-236	aus	_	_
+4-8	237-244	Zahlung	_	_
+4-9	245-247	15	*[5]	DATEmentioned[5]
+4-10	248-253	April	*[5]	DATEmentioned[5]
+4-11	254-256	d.	*[5]	DATEmentioned[5]
+4-12	257-259	J.	*[5]	DATEmentioned[5]
+4-13	260-267	worüber	_	_
+4-14	268-271	ich	_	_
+4-15	272-276	eine	_	_
+4-16	277-290	Gegenäußerung	_	_
+4-17	291-293	an	_	_
+4-18	294-298	mich	_	_
+4-19	299-306	erwarte	_	_
+4-20	307-308	.	_	_
+
+#Text=Ausschnitt aus dem akademischen Monatsbericht d. J. wegen Gerhard Etruskische Gottheiten .
+5-1	309-319	Ausschnitt	_	_
+5-2	320-323	aus	_	_
+5-3	324-327	dem	_	_
+5-4	328-340	akademischen	_	_
+5-5	341-354	Monatsbericht	_	_
+5-6	355-357	d.	_	_
+5-7	358-360	J.	_	_
+5-8	361-366	wegen	_	_
+5-9	367-374	Gerhard	*	PERmentioned
+5-10	375-386	Etruskische	_	_
+5-11	387-397	Gottheiten	_	_
+5-12	398-399	.	_	_
+
+#Text=Einlage von Wiese an Frau von Moliere .
+6-1	400-407	Einlage	_	_
+6-2	408-411	von	_	_
+6-3	412-417	Wiese	*	PERmentioned
+6-4	418-420	an	_	_
+6-5	421-425	Frau	*[6]	PERmentioned[6]
+6-6	426-429	von	*[6]	PERmentioned[6]
+6-7	430-437	Moliere	*[6]	PERmentioned[6]
+6-8	438-439	.	_	_
+
+#Text=Ihr Gerhard
+7-1	440-443	Ihr	_	_
+7-2	444-451	Gerhard	*	PERauthor

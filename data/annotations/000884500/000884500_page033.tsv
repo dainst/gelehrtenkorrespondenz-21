@@ -1,0 +1,198 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 1. Februar 1838 sein Brief den ich beilege verdient eine höfliche Antwort , wenn auch die Sache mit Brockhaus voraussetzlich wird bleiben müssen wie sie eingeleitet ist .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	1.	*[4]	DATEletter[4]
+1-7	29-36	Februar	*[4]	DATEletter[4]
+1-8	37-41	1838	*[4]	DATEletter[4]
+1-9	42-46	sein	_	_
+1-10	47-52	Brief	_	_
+1-11	53-56	den	_	_
+1-12	57-60	ich	_	_
+1-13	61-68	beilege	_	_
+1-14	69-77	verdient	_	_
+1-15	78-82	eine	_	_
+1-16	83-91	höfliche	_	_
+1-17	92-99	Antwort	_	_
+1-18	100-101	,	_	_
+1-19	102-106	wenn	_	_
+1-20	107-111	auch	_	_
+1-21	112-115	die	_	_
+1-22	116-121	Sache	_	_
+1-23	122-125	mit	_	_
+1-24	126-135	Brockhaus	*	ORGmentioned
+1-25	136-150	voraussetzlich	_	_
+1-26	151-155	wird	_	_
+1-27	156-163	bleiben	_	_
+1-28	164-170	müssen	_	_
+1-29	171-174	wie	_	_
+1-30	175-178	sie	_	_
+1-31	179-190	eingeleitet	_	_
+1-32	191-194	ist	_	_
+1-33	195-196	.	_	_
+
+#Text=Ruthardt in Berlin hat mir neue Associati zugewiesen : Graf Hof th Dr. Zemplin .
+2-1	197-205	Ruthardt	*	PERmentioned
+2-2	206-208	in	_	_
+2-3	209-215	Berlin	*	PLACEmentioned
+2-4	216-219	hat	_	_
+2-5	220-223	mir	_	_
+2-6	224-228	neue	_	_
+2-7	229-238	Associati	_	_
+2-8	239-249	zugewiesen	_	_
+2-9	250-251	:	_	_
+2-10	252-256	Graf	*[8]	PERmentioned[8]
+2-11	257-260	Hof	*[8]	PERmentioned[8]
+2-12	261-263	th	*[8]	PERmentioned[8]
+2-13	264-267	Dr.	*[8]	PERmentioned[8]
+2-14	268-275	Zemplin	*[8]	PERmentioned[8]
+2-15	276-277	.	_	_
+
+#Text=Ihrer Bescheinigung meines zu Wolffs Bezahlung gesandten Wechsels sehe ich mit Verlangen entgegen \; desgleichen der mir fehlenden Cistazeichnung , wenn es auch nichts weiter wäre als eine verkleinerte und mit dem Original verglichene Zeichnung von Form und Deckel nach dem Stich des Museum Kirkerianum .
+3-1	278-283	Ihrer	_	_
+3-2	284-297	Bescheinigung	_	_
+3-3	298-304	meines	_	_
+3-4	305-307	zu	_	_
+3-5	308-314	Wolffs	*	PERmentioned
+3-6	315-324	Bezahlung	_	_
+3-7	325-334	gesandten	_	_
+3-8	335-343	Wechsels	_	_
+3-9	344-348	sehe	_	_
+3-10	349-352	ich	_	_
+3-11	353-356	mit	_	_
+3-12	357-366	Verlangen	_	_
+3-13	367-375	entgegen	_	_
+3-14	376-377	\;	_	_
+3-15	378-389	desgleichen	_	_
+3-16	390-393	der	_	_
+3-17	394-397	mir	_	_
+3-18	398-407	fehlenden	_	_
+3-19	408-422	Cistazeichnung	_	_
+3-20	423-424	,	_	_
+3-21	425-429	wenn	_	_
+3-22	430-432	es	_	_
+3-23	433-437	auch	_	_
+3-24	438-444	nichts	_	_
+3-25	445-451	weiter	_	_
+3-26	452-456	wäre	_	_
+3-27	457-460	als	_	_
+3-28	461-465	eine	_	_
+3-29	466-478	verkleinerte	_	_
+3-30	479-482	und	_	_
+3-31	483-486	mit	_	_
+3-32	487-490	dem	_	_
+3-33	491-499	Original	_	_
+3-34	500-511	verglichene	_	_
+3-35	512-521	Zeichnung	_	_
+3-36	522-525	von	_	_
+3-37	526-530	Form	_	_
+3-38	531-534	und	_	_
+3-39	535-541	Deckel	_	_
+3-40	542-546	nach	_	_
+3-41	547-550	dem	_	_
+3-42	551-556	Stich	_	_
+3-43	557-560	des	_	_
+3-44	561-567	Museum	*[10]	ORGmentioned[10]
+3-45	568-579	Kirkerianum	*[10]	ORGmentioned[10]
+3-46	580-581	.	_	_
+
+#Text=Bleibt diese Zeichnung ferner aus , so wird es denke ich unmöglich den Anfang meines Spiegelwerks im Lauf des Frühjahrs erscheinen zu lassen .
+4-1	582-588	Bleibt	_	_
+4-2	589-594	diese	_	_
+4-3	595-604	Zeichnung	_	_
+4-4	605-611	ferner	_	_
+4-5	612-615	aus	_	_
+4-6	616-617	,	_	_
+4-7	618-620	so	_	_
+4-8	621-625	wird	_	_
+4-9	626-628	es	_	_
+4-10	629-634	denke	_	_
+4-11	635-638	ich	_	_
+4-12	639-648	unmöglich	_	_
+4-13	649-652	den	_	_
+4-14	653-659	Anfang	_	_
+4-15	660-666	meines	_	_
+4-16	667-679	Spiegelwerks	_	_
+4-17	680-682	im	_	_
+4-18	683-687	Lauf	_	_
+4-19	688-691	des	_	_
+4-20	692-701	Frühjahrs	_	_
+4-21	702-712	erscheinen	_	_
+4-22	713-715	zu	_	_
+4-23	716-722	lassen	_	_
+4-24	723-724	.	_	_
+
+#Text=2. Februar .
+5-1	725-727	2.	*[11]	DATEletter[11]
+5-2	728-735	Februar	*[11]	DATEletter[11]
+5-3	736-737	.	_	_
+
+#Text=Eben habe ich Geld eingezogen wovon sofort Wechsel für Basseggio und Vollard gekauft werden die ich Ihnen mit nächster Post sende .
+6-1	738-742	Eben	_	_
+6-2	743-747	habe	_	_
+6-3	748-751	ich	_	_
+6-4	752-756	Geld	_	_
+6-5	757-767	eingezogen	_	_
+6-6	768-773	wovon	_	_
+6-7	774-780	sofort	_	_
+6-8	781-788	Wechsel	_	_
+6-9	789-792	für	_	_
+6-10	793-802	Basseggio	*	PERmentioned
+6-11	803-806	und	_	_
+6-12	807-814	Vollard	*	PERmentioned
+6-13	815-822	gekauft	_	_
+6-14	823-829	werden	_	_
+6-15	830-833	die	_	_
+6-16	834-837	ich	_	_
+6-17	838-843	Ihnen	_	_
+6-18	844-847	mit	_	_
+6-19	848-856	nächster	_	_
+6-20	857-861	Post	_	_
+6-21	862-867	sende	_	_
+6-22	868-869	.	_	_
+
+#Text=So kommt hoffentlich alles in Ordnung .
+7-1	870-872	So	_	_
+7-2	873-878	kommt	_	_
+7-3	879-890	hoffentlich	_	_
+7-4	891-896	alles	_	_
+7-5	897-899	in	_	_
+7-6	900-907	Ordnung	_	_
+7-7	908-909	.	_	_
+
+#Text=Den von Panofka mir für Sie überantworteten Brief sende ich dann auch mit nächster Post um den heutigen nicht zu verdicken .
+8-1	910-913	Den	_	_
+8-2	914-917	von	_	_
+8-3	918-925	Panofka	*	PERmentioned
+8-4	926-929	mir	_	_
+8-5	930-933	für	_	_
+8-6	934-937	Sie	_	_
+8-7	938-953	überantworteten	_	_
+8-8	954-959	Brief	_	_
+8-9	960-965	sende	_	_
+8-10	966-969	ich	_	_
+8-11	970-974	dann	_	_
+8-12	975-979	auch	_	_
+8-13	980-983	mit	_	_
+8-14	984-992	nächster	_	_
+8-15	993-997	Post	_	_
+8-16	998-1000	um	_	_
+8-17	1001-1004	den	_	_
+8-18	1005-1013	heutigen	_	_
+8-19	1014-1019	nicht	_	_
+8-20	1020-1022	zu	_	_
+8-21	1023-1032	verdicken	_	_
+8-22	1033-1034	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+9-1	1035-1038	Von	_	_
+9-2	1039-1045	Herzen	_	_
+9-3	1046-1049	der	_	_
+9-4	1050-1056	Ihrige	_	_
+9-5	1057-1064	Gerhard	*	PERauthor

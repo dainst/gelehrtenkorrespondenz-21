@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 24. März 1838 Dr. Braun g . 12/4 238 Aff .
+1-1	0-7	Gerhard	_	_
+1-2	8-10	an	_	_
+1-3	11-16	Braun	_	_
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	24.	_	_
+1-7	30-34	März	_	_
+1-8	35-39	1838	_	_
+1-9	40-43	Dr.	_	_
+1-10	44-49	Braun	_	_
+1-11	50-51	g	_	_
+1-12	52-53	.	_	_
+1-13	54-58	12/4	_	_
+1-14	59-62	238	_	_
+1-15	63-66	Aff	_	_
+1-16	67-68	.	_	_
+
+#Text=d . Dir .
+2-1	69-70	d	_	_
+2-2	71-72	.	_	_
+2-3	73-76	Dir	_	_
+2-4	77-78	.	_	_
+
+#Text=CLIII r . 17/4 38 Berlin 24 März 38 Mein theurer Freund .
+3-1	79-84	CLIII	_	_
+3-2	85-86	r	_	_
+3-3	87-88	.	_	_
+3-4	89-93	17/4	_	_
+3-5	94-96	38	_	_
+3-6	97-103	Berlin	_	_
+3-7	104-106	24	*[2]	DATEletter[2]
+3-8	107-111	März	*[2]	DATEletter[2]
+3-9	112-114	38	*[2]	DATEletter[2]
+3-10	115-119	Mein	_	_
+3-11	120-127	theurer	_	_
+3-12	128-134	Freund	_	_
+3-13	135-136	.	_	_
+
+#Text=Urlichs soll nun binnen 3 Tagen abgehn \; ich schreibe dennoch wol mit der Post .
+4-1	137-144	Urlichs	*	PERmentioned
+4-2	145-149	soll	_	_
+4-3	150-153	nun	_	_
+4-4	154-160	binnen	_	_
+4-5	161-162	3	_	_
+4-6	163-168	Tagen	_	_
+4-7	169-175	abgehn	_	_
+4-8	176-177	\;	_	_
+4-9	178-181	ich	_	_
+4-10	182-190	schreibe	_	_
+4-11	191-198	dennoch	_	_
+4-12	199-202	wol	_	_
+4-13	203-206	mit	_	_
+4-14	207-210	der	_	_
+4-15	211-215	Post	_	_
+4-16	216-217	.	_	_
+
+#Text=Ich war etliche Tage verreist , nach Halle , bei welcher Gelegenheit ich auch Brockhaus gesprochen habe .
+5-1	218-221	Ich	_	_
+5-2	222-225	war	_	_
+5-3	226-233	etliche	_	_
+5-4	234-238	Tage	_	_
+5-5	239-247	verreist	_	_
+5-6	248-249	,	_	_
+5-7	250-254	nach	*[3]	PLACEmentioned[3]
+5-8	255-260	Halle	*[3]	PLACEmentioned[3]
+5-9	261-262	,	_	_
+5-10	263-266	bei	_	_
+5-11	267-274	welcher	_	_
+5-12	275-286	Gelegenheit	_	_
+5-13	287-290	ich	_	_
+5-14	291-295	auch	_	_
+5-15	296-305	Brockhaus	*	ORGmentioned
+5-16	306-316	gesprochen	_	_
+5-17	317-321	habe	_	_
+5-18	322-323	.	_	_
+
+#Text=Wie er mir sagt , läßt ihn das Institut für England außer Spiel \; sorgen Campanaris , so ist es in der That wol besser - für den Augenblick scheint Br . noch sehr wenig Verkehr mit England zu haben .
+6-1	324-327	Wie	_	_
+6-2	328-330	er	_	_
+6-3	331-334	mir	_	_
+6-4	335-339	sagt	_	_
+6-5	340-341	,	_	_
+6-6	342-346	läßt	_	_
+6-7	347-350	ihn	_	_
+6-8	351-354	das	_	_
+6-9	355-363	Institut	*	ORGmentioned
+6-10	364-367	für	_	_
+6-11	368-375	England	*	PLACEmentioned
+6-12	376-381	außer	_	_
+6-13	382-387	Spiel	_	_
+6-14	388-389	\;	_	_
+6-15	390-396	sorgen	_	_
+6-16	397-407	Campanaris	*	PERmentioned
+6-17	408-409	,	_	_
+6-18	410-412	so	_	_
+6-19	413-416	ist	_	_
+6-20	417-419	es	_	_
+6-21	420-422	in	_	_
+6-22	423-426	der	_	_
+6-23	427-431	That	_	_
+6-24	432-435	wol	_	_
+6-25	436-442	besser	_	_
+6-26	443-444	-	_	_
+6-27	445-448	für	_	_
+6-28	449-452	den	_	_
+6-29	453-463	Augenblick	_	_
+6-30	464-471	scheint	_	_
+6-31	472-474	Br	_	_
+6-32	475-476	.	_	_
+6-33	477-481	noch	_	_
+6-34	482-486	sehr	_	_
+6-35	487-492	wenig	_	_
+6-36	493-500	Verkehr	_	_
+6-37	501-504	mit	_	_
+6-38	505-512	England	*	PLACEmentioned
+6-39	513-515	zu	_	_
+6-40	516-521	haben	_	_
+6-41	522-523	.	_	_
+
+#Text=Sind meine Vasenkisten fort , so wünsche ich ihnen gute Reise und möglichst baldige Ankunft .
+7-1	524-528	Sind	_	_
+7-2	529-534	meine	_	_
+7-3	535-546	Vasenkisten	_	_
+7-4	547-551	fort	_	_
+7-5	552-553	,	_	_
+7-6	554-556	so	_	_
+7-7	557-564	wünsche	_	_
+7-8	565-568	ich	_	_
+7-9	569-574	ihnen	_	_
+7-10	575-579	gute	_	_
+7-11	580-585	Reise	_	_
+7-12	586-589	und	_	_
+7-13	590-599	möglichst	_	_
+7-14	600-607	baldige	_	_
+7-15	608-615	Ankunft	_	_
+7-16	616-617	.	_	_
+
+#Text=Ueber den Inhalt sagen Sie nichts , ob wirklich alles Erhebliche darin sei .
+8-1	618-623	Ueber	_	_
+8-2	624-627	den	_	_
+8-3	628-634	Inhalt	_	_
+8-4	635-640	sagen	_	_
+8-5	641-644	Sie	_	_
+8-6	645-651	nichts	_	_
+8-7	652-653	,	_	_
+8-8	654-656	ob	_	_
+8-9	657-665	wirklich	_	_
+8-10	666-671	alles	_	_
+8-11	672-682	Erhebliche	_	_
+8-12	683-688	darin	_	_
+8-13	689-692	sei	_	_
+8-14	693-694	.	_	_
+
+#Text=Jedenfalls schönsten Dank für alle mühsame und getreue Besorgung !
+9-1	695-705	Jedenfalls	_	_
+9-2	706-715	schönsten	_	_
+9-3	716-720	Dank	_	_
+9-4	721-724	für	_	_
+9-5	725-729	alle	_	_
+9-6	730-737	mühsame	_	_
+9-7	738-741	und	_	_
+9-8	742-749	getreue	_	_
+9-9	750-759	Besorgung	_	_
+9-10	760-761	!	_	_
+
+#Text=Sollten wirklich in Dellantonis Rechnung nicht einmal vor der Emballage Abzüge möglich gewesen sein ?
+10-1	762-769	Sollten	_	_
+10-2	770-778	wirklich	_	_
+10-3	779-781	in	_	_
+10-4	782-793	Dellantonis	*	PERmentioned
+10-5	794-802	Rechnung	_	_
+10-6	803-808	nicht	_	_
+10-7	809-815	einmal	_	_
+10-8	816-819	vor	_	_
+10-9	820-823	der	_	_
+10-10	824-833	Emballage	_	_
+10-11	834-840	Abzüge	_	_
+10-12	841-848	möglich	_	_
+10-13	849-856	gewesen	_	_
+10-14	857-861	sein	_	_
+10-15	862-863	?	_	_
+
+#Text=Ihre Schuld bei Gerstäcker ist übernommen , Betrag noch nicht liquidirt .
+11-1	864-868	Ihre	_	_
+11-2	869-875	Schuld	_	_
+11-3	876-879	bei	_	_
+11-4	880-890	Gerstäcker	*	ORGmentioned
+11-5	891-894	ist	_	_
+11-6	895-905	übernommen	_	_
+11-7	906-907	,	_	_
+11-8	908-914	Betrag	_	_
+11-9	915-919	noch	_	_
+11-10	920-925	nicht	_	_
+11-11	926-935	liquidirt	_	_
+11-12	936-937	.	_	_
+
+#Text=Exemplare einer Notice ( etliche in Velin und etliche ordinär ) werde ich nun hoffentlich durch Bunsen erhalten können \; sodaß im schlimmsten Fall etwa j JH
+12-1	938-947	Exemplare	_	_
+12-2	948-953	einer	_	_
+12-3	954-960	Notice	_	_
+12-4	961-962	(	_	_
+12-5	963-970	etliche	_	_
+12-6	971-973	in	_	_
+12-7	974-979	Velin	_	_
+12-8	980-983	und	_	_
+12-9	984-991	etliche	_	_
+12-10	992-999	ordinär	_	_
+12-11	1000-1001	)	_	_
+12-12	1002-1007	werde	_	_
+12-13	1008-1011	ich	_	_
+12-14	1012-1015	nun	_	_
+12-15	1016-1027	hoffentlich	_	_
+12-16	1028-1033	durch	_	_
+12-17	1034-1040	Bunsen	*	PERmentioned
+12-18	1041-1049	erhalten	_	_
+12-19	1050-1056	können	_	_
+12-20	1057-1058	\;	_	_
+12-21	1059-1064	sodaß	_	_
+12-22	1065-1067	im	_	_
+12-23	1068-1079	schlimmsten	_	_
+12-24	1080-1084	Fall	_	_
+12-25	1085-1089	etwa	_	_
+12-26	1090-1091	j	_	_
+12-27	1092-1094	JH	_	_

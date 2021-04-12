@@ -1,0 +1,410 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ay Henzen an Gerhard 2/IV/52 Verehrter Herr Professor !
+1-1	0-2	Ay	_	_	
+1-2	3-9	Henzen	*	PERauthor	
+1-3	10-12	an	_	_	
+1-4	13-20	Gerhard	*	PERaddressee	
+1-5	21-28	2/IV/52	*	DATEletter	
+1-6	29-38	Verehrter	_	_	
+1-7	39-43	Herr	_	_	
+1-8	44-53	Professor	_	_	
+1-9	54-55	!	_	_	
+
+#Text=Gestern ist endlich die Bewilligung unseres Gehaltes für das laufende Jahr angelangt .
+2-1	56-63	Gestern	_	_	
+2-2	64-67	ist	_	_	
+2-3	68-75	endlich	_	_	
+2-4	76-79	die	_	_	
+2-5	80-91	Bewilligung	_	_	
+2-6	92-99	unseres	_	_	
+2-7	100-108	Gehaltes	_	_	
+2-8	109-112	für	_	_	
+2-9	113-116	das	_	_	
+2-10	117-125	laufende	_	_	
+2-11	126-130	Jahr	_	_	
+2-12	131-140	angelangt	_	_	
+2-13	141-142	.	_	_	
+
+#Text=Ein einjähriges Budget ist doch eigentlich eine Institution , die für unsre Zeiten wenig paßt | !
+3-1	143-146	Ein	_	_	
+3-2	147-158	einjähriges	_	_	
+3-3	159-165	Budget	_	_	
+3-4	166-169	ist	_	_	
+3-5	170-174	doch	_	_	
+3-6	175-185	eigentlich	_	_	
+3-7	186-190	eine	_	_	
+3-8	191-202	Institution	_	_	
+3-9	203-204	,	_	_	
+3-10	205-208	die	_	_	
+3-11	209-212	für	_	_	
+3-12	213-218	unsre	_	_	
+3-13	219-225	Zeiten	_	_	
+3-14	226-231	wenig	_	_	
+3-15	232-236	paßt	_	_	
+3-16	237-238	|	_	_	
+3-17	239-240	!	_	_	
+
+#Text=Ich schreibe Ihnen den Indice delle materie ab , wenn Sie ihn so sehr wünschen .
+4-1	241-244	Ich	_	_	
+4-2	245-253	schreibe	_	_	
+4-3	254-259	Ihnen	_	_	
+4-4	260-263	den	_	_	
+4-5	264-270	Indice	_	_	
+4-6	271-276	delle	_	_	
+4-7	277-284	materie	_	_	
+4-8	285-287	ab	_	_	
+4-9	288-289	,	_	_	
+4-10	290-294	wenn	_	_	
+4-11	295-298	Sie	_	_	
+4-12	299-302	ihn	_	_	
+4-13	303-305	so	_	_	
+4-14	306-310	sehr	_	_	
+4-15	311-319	wünschen	_	_	
+4-16	320-321	.	_	_	
+
+#Text=I .
+5-1	322-323	I	_	_	
+5-2	324-325	.	_	_	
+
+#Text=Scavi e topografia : Delle antiche mura che cingeano la cittä di Verona ( tav .
+6-1	326-331	Scavi	_	_	
+6-2	332-333	e	_	_	
+6-3	334-344	topografia	_	_	
+6-4	345-346	:	_	_	
+6-5	347-352	Delle	_	_	
+6-6	353-360	antiche	_	_	
+6-7	361-365	mura	_	_	
+6-8	366-369	che	_	_	
+6-9	370-378	cingeano	_	_	
+6-10	379-381	la	_	_	
+6-11	382-387	cittä	_	_	
+6-12	388-390	di	_	_	
+6-13	391-397	Verona	*	PLACEmentioned	
+6-14	398-399	(	_	_	
+6-15	400-403	tav	_	_	
+6-16	404-405	.	_	_	
+
+#Text=d'ass .
+7-1	406-411	d'ass	_	_	
+7-2	412-413	.	_	_	
+
+#Text=B ) .
+8-1	414-415	B	_	_	
+8-2	416-417	)	_	_	
+8-3	418-419	.	_	_	
+
+#Text=G. Orti - Manara .
+9-1	420-422	G.	*[1]	PERmentioned[1]	
+9-2	423-427	Orti	*[1]	PERmentioned[1]	
+9-3	428-429	-	_	_	
+9-4	430-436	Manara	_	_	
+9-5	437-438	.	_	_	
+
+#Text=-— Sulle recenti scoperte del Foro Trajano e della Basilica Ulpia ( Mon .
+10-1	439-441	-—	_	_	
+10-2	442-447	Sulle	_	_	
+10-3	448-455	recenti	_	_	
+10-4	456-464	scoperte	_	_	
+10-5	465-468	del	_	_	
+10-6	469-473	Foro	*[2]	OBJ[2]	
+10-7	474-481	Trajano	*[2]	OBJ[2]	
+10-8	482-483	e	_	_	
+10-9	484-489	della	_	_	
+10-10	490-498	Basilica	*[3]	OBJ[3]	
+10-11	499-504	Ulpia	*[3]	OBJ[3]	
+10-12	505-506	(	_	_	
+10-13	507-510	Mon	_	_	
+10-14	511-512	.	_	_	
+
+#Text=vol . V , tav .
+11-1	513-516	vol	_	_	
+11-2	517-518	.	_	_	
+11-3	519-520	V	_	_	
+11-4	521-522	,	_	_	
+11-5	523-526	tav	_	_	
+11-6	527-528	.	_	_	
+
+#Text=XXX ) ; L , Canina .
+12-1	529-532	XXX	_	_	
+12-2	533-534	)	_	_	
+12-3	535-536	;	_	_	
+12-4	537-538	L	_	_	
+12-5	539-540	,	_	_	
+12-6	541-547	Canina	*	PERmentioned	
+12-7	548-549	.	_	_	
+
+#Text=- Sulle recenti discoperte fatte nel grande edifizio capitolino cognito col nome di Tabulario ( Non .
+13-1	550-551	-	_	_	
+13-2	552-557	Sulle	_	_	
+13-3	558-565	recenti	_	_	
+13-4	566-576	discoperte	_	_	
+13-5	577-582	fatte	_	_	
+13-6	583-586	nel	_	_	
+13-7	587-593	grande	_	_	
+13-8	594-602	edifizio	_	_	
+13-9	603-613	capitolino	_	_	
+13-10	614-621	cognito	_	_	
+13-11	622-625	col	_	_	
+13-12	626-630	nome	_	_	
+13-13	631-633	di	_	_	
+13-14	634-643	Tabulario	*	OBJ	
+13-15	644-645	(	_	_	
+13-16	646-649	Non	_	_	
+13-17	650-651	.	_	_	
+
+#Text=vol . V , t. XXI ) .
+14-1	652-655	vol	_	_	
+14-2	656-657	.	_	_	
+14-3	658-659	V	_	_	
+14-4	660-661	,	_	_	
+14-5	662-664	t.	_	_	
+14-6	665-668	XXI	_	_	
+14-7	669-670	)	_	_	
+14-8	671-672	.	_	_	
+
+#Text=Canina .
+15-1	673-679	Canina	*	PERmentioned	
+15-2	680-681	.	_	_	
+
+#Text=- Sulla ’ ia Appia , articolo preliminare .
+16-1	682-683	-	_	_	
+16-2	684-689	Sulla	_	_	
+16-3	690-691	’	_	_	
+16-4	692-694	ia	*[4]	PLACEmentioned[4]	
+16-5	695-700	Appia	*[4]	PLACEmentioned[4]	
+16-6	701-702	,	_	_	
+16-7	703-711	articolo	_	_	
+16-8	712-723	preliminare	_	_	
+16-9	724-725	.	_	_	
+
+#Text=Canina .
+17-1	726-732	Canina	*	PERmentioned	
+17-2	733-734	.	_	_	
+
+#Text=- II .
+18-1	735-736	-	_	_	
+18-2	737-739	II	_	_	
+18-3	740-741	.	_	_	
+
+#Text=Monumenti .
+19-1	742-751	Monumenti	_	_	
+19-2	752-753	.	_	_	
+
+#Text=a. Scultura .
+20-1	754-756	a.	_	_	
+20-2	757-765	Scultura	_	_	
+20-3	766-767	.	_	_	
+
+#Text=Sul sruppo centrale del fregio del Partenone , discorso letto dal dott .
+21-1	768-771	Sul	_	_	
+21-2	772-778	sruppo	_	_	
+21-3	779-787	centrale	_	_	
+21-4	788-791	del	_	_	
+21-5	792-798	fregio	*	OBJ	
+21-6	799-802	del	_	_	
+21-7	803-812	Partenone	*	OBJ	
+21-8	813-814	,	_	_	
+21-9	815-823	discorso	_	_	
+21-10	824-829	letto	_	_	
+21-11	830-833	dal	_	_	
+21-12	834-838	dott	_	_	
+21-13	839-840	.	_	_	
+
+#Text=Braun nella ricorrenza del natale di Winckelmann 1850 ( Mon .
+22-1	841-846	Braun	*	PERmentioned	
+22-2	847-852	nella	_	_	
+22-3	853-863	ricorrenza	_	_	
+22-4	864-867	del	_	_	
+22-5	868-874	natale	_	_	
+22-6	875-877	di	_	_	
+22-7	878-889	Winckelmann	*	PERmentioned	
+22-8	890-894	1850	*	DATEmentioned	
+22-9	895-896	(	_	_	
+22-10	897-900	Mon	_	_	
+22-11	901-902	.	_	_	
+
+#Text=vol . V , tavv .
+23-1	903-906	vol	_	_	
+23-2	907-908	.	_	_	
+23-3	909-910	V	_	_	
+23-4	911-912	,	_	_	
+23-5	913-917	tavv	_	_	
+23-6	918-919	.	_	_	
+
+#Text=XXVI .
+24-1	920-924	XXVI	_	_	
+24-2	925-926	.	_	_	
+
+#Text=XXVII ) .
+25-1	927-932	XXVII	_	_	
+25-2	933-934	)	_	_	
+25-3	935-936	.	_	_	
+
+#Text=Analisi del gruppo delle dodici figure in trono che appariscono sul fregio orientale del Partenone , lettera diretta al nobile sg .
+26-1	937-944	Analisi	_	_	
+26-2	945-948	del	_	_	
+26-3	949-955	gruppo	_	_	
+26-4	956-961	delle	_	_	
+26-5	962-968	dodici	_	_	
+26-6	969-975	figure	_	_	
+26-7	976-978	in	_	_	
+26-8	979-984	trono	_	_	
+26-9	985-988	che	_	_	
+26-10	989-1000	appariscono	_	_	
+26-11	1001-1004	sul	_	_	
+26-12	1005-1011	fregio	*[5]	OBJ[5]	
+26-13	1012-1021	orientale	*[5]	OBJ[5]	
+26-14	1022-1025	del	_	_	
+26-15	1026-1035	Partenone	*	OBJ	
+26-16	1036-1037	,	_	_	
+26-17	1038-1045	lettera	_	_	
+26-18	1046-1053	diretta	_	_	
+26-19	1054-1056	al	_	_	
+26-20	1057-1063	nobile	_	_	
+26-21	1064-1066	sg	_	_	
+26-22	1067-1068	.	_	_	
+
+#Text=William R. Hamilton , segretario della Societä de ' Dilettanti ( Non .
+27-1	1069-1076	William	*[6]	PERmentioned[6]	
+27-2	1077-1079	R.	*[6]	PERmentioned[6]	
+27-3	1080-1088	Hamilton	*[6]	PERmentioned[6]	
+27-4	1089-1090	,	_	_	
+27-5	1091-1101	segretario	_	_	
+27-6	1102-1107	della	_	_	
+27-7	1108-1115	Societä	*[7]	ORGmentioned[7]	
+27-8	1116-1118	de	*[7]	ORGmentioned[7]	
+27-9	1119-1120	'	*[7]	ORGmentioned[7]	
+27-10	1121-1131	Dilettanti	*[7]	ORGmentioned[7]	
+27-11	1132-1133	(	_	_	
+27-12	1134-1137	Non	_	_	
+27-13	1138-1139	.	_	_	
+
+#Text=1. c. ) .
+28-1	1140-1142	1.	_	_	
+28-2	1143-1145	c.	_	_	
+28-3	1146-1147	)	_	_	
+28-4	1148-1149	.	_	_	
+
+#Text=E .
+29-1	1150-1151	E	_	_	
+29-2	1152-1153	.	_	_	
+
+#Text=Braun - Fostilla del medesimo .
+30-1	1154-1159	Braun	*	PERauthor	
+30-2	1160-1161	-	_	_	
+30-3	1162-1170	Fostilla	_	_	
+30-4	1171-1174	del	_	_	
+30-5	1175-1183	medesimo	_	_	
+30-6	1184-1185	.	_	_	
+
+#Text=-— Trono d'Apolline e candelabro di bronzo ( Mon .
+31-1	1186-1188	-—	_	_	
+31-2	1189-1194	Trono	*[8]	OBJ[8]	
+31-3	1195-1205	d'Apolline	*[8]	OBJ[8]	
+31-4	1206-1207	e	_	_	
+31-5	1208-1218	candelabro	*[9]	OBJ[9]	
+31-6	1219-1221	di	*[9]	OBJ[9]	
+31-7	1222-1228	bronzo	*[9]	OBJ[9]	
+31-8	1229-1230	(	_	_	
+31-9	1231-1234	Mon	_	_	
+31-10	1235-1236	.	_	_	
+
+#Text=vol . V , t. XXVIIT ) ; H. Brunn .
+32-1	1237-1240	vol	_	_	
+32-2	1241-1242	.	_	_	
+32-3	1243-1244	V	_	_	
+32-4	1245-1246	,	_	_	
+32-5	1247-1249	t.	_	_	
+32-6	1250-1256	XXVIIT	_	_	
+32-7	1257-1258	)	_	_	
+32-8	1259-1260	;	_	_	
+32-9	1261-1263	H.	*[10]	PERmentioned[10]	
+32-10	1264-1269	Brunn	*[10]	PERmentioned[10]	
+32-11	1270-1271	.	_	_	
+
+#Text=- Intorno ad un disco di marmo del Nuseo Campana , discorso letto dal dott .
+33-1	1272-1273	-	_	_	
+33-2	1274-1281	Intorno	_	_	
+33-3	1282-1284	ad	_	_	
+33-4	1285-1287	un	_	_	
+33-5	1288-1293	disco	*[11]	OBJ[11]	
+33-6	1294-1296	di	*[11]	OBJ[11]	
+33-7	1297-1302	marmo	*[11]	OBJ[11]	
+33-8	1303-1306	del	_	_	
+33-9	1307-1312	Nuseo	*[12]	ORGmentioned[12]	
+33-10	1313-1320	Campana	*[12]	ORGmentioned[12]	
+33-11	1321-1322	,	_	_	
+33-12	1323-1331	discorso	_	_	
+33-13	1332-1337	letto	_	_	
+33-14	1338-1341	dal	_	_	
+33-15	1342-1346	dott	_	_	
+33-16	1347-1348	.	_	_	
+
+#Text=H , Brunn nell'adunanza solenne pel giorno natalizio di Winckelmann ( Mon .
+34-1	1349-1350	H	*[13]	PERmentioned[13]	
+34-2	1351-1352	,	*[13]	PERmentioned[13]	
+34-3	1353-1358	Brunn	*[13]	PERmentioned[13]	
+34-4	1359-1372	nell'adunanza	_	_	
+34-5	1373-1380	solenne	_	_	
+34-6	1381-1384	pel	_	_	
+34-7	1385-1391	giorno	_	_	
+34-8	1392-1401	natalizio	_	_	
+34-9	1402-1404	di	_	_	
+34-10	1405-1416	Winckelmann	*	PERmentioned	
+34-11	1417-1418	(	_	_	
+34-12	1419-1422	Mon	_	_	
+34-13	1423-1424	.	_	_	
+
+#Text=vol . V , t. XIX ) .
+35-1	1425-1428	vol	_	_	
+35-2	1429-1430	.	_	_	
+35-3	1431-1432	V	_	_	
+35-4	1433-1434	,	_	_	
+35-5	1435-1437	t.	_	_	
+35-6	1438-1441	XIX	_	_	
+35-7	1442-1443	)	_	_	
+35-8	1444-1445	.	_	_	
+
+#Text=- Intorno ad un disco di marmo , posseduto dal sg , F. Lanci ( Tav .
+36-1	1446-1447	-	_	_	
+36-2	1448-1455	Intorno	_	_	
+36-3	1456-1458	ad	_	_	
+36-4	1459-1461	un	_	_	
+36-5	1462-1467	disco	_	_	
+36-6	1468-1470	di	_	_	
+36-7	1471-1476	marmo	_	_	
+36-8	1477-1478	,	_	_	
+36-9	1479-1488	posseduto	_	_	
+36-10	1489-1492	dal	_	_	
+36-11	1493-1495	sg	_	_	
+36-12	1496-1497	,	_	_	
+36-13	1498-1500	F.	*[14]	PERmentioned[14]	
+36-14	1501-1506	Lanci	*[14]	PERmentioned[14]	
+36-15	1507-1508	(	_	_	
+36-16	1509-1512	Tav	_	_	
+36-17	1513-1514	.	_	_	
+
+#Text=d'agg .
+37-1	1515-1520	d'agg	_	_	
+37-2	1521-1522	.	_	_	
+
+#Text=E ) .
+38-1	1523-1524	E	_	_	
+38-2	1525-1526	)	_	_	
+38-3	1527-1528	.	_	_	
+
+#Text=H. Brunn .
+39-1	1529-1531	H.	*[15]	PERmentioned[15]	
+39-2	1532-1537	Brunn	*[15]	PERmentioned[15]	
+39-3	1538-1539	.	_	_	
+
+#Text=- Sul frontone del tempio di
+40-1	1540-1541	-	_	_	
+40-2	1542-1545	Sul	_	_	
+40-3	1546-1554	frontone	_	_	
+40-4	1555-1558	del	_	_	
+40-5	1559-1565	tempio	_	_	
+40-6	1566-1568	di	_	_	

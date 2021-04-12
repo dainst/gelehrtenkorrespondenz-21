@@ -1,0 +1,307 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=371 Braun an Gerhard Modena , 26 .
+1-1	0-3	371	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-27	Modena	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	26	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1837 haben ihn noch nicht einmal zur Publication des Monumentenheftes gelangen lassen .
+2-1	35-42	Oktober	*[3]	DATEletter[3]
+2-2	43-47	1837	*[3]	DATEletter[3]
+2-3	48-53	haben	_	_
+2-4	54-57	ihn	_	_
+2-5	58-62	noch	_	_
+2-6	63-68	nicht	_	_
+2-7	69-75	einmal	_	_
+2-8	76-79	zur	_	_
+2-9	80-91	Publication	_	_
+2-10	92-95	des	_	_
+2-11	96-112	Monumentenheftes	_	_
+2-12	113-121	gelangen	_	_
+2-13	122-128	lassen	_	_
+2-14	129-130	.	_	_
+
+#Text=An Neapel kann ich jetzt um so weniger denken , als mir die Quarantäne ein Heidengeld gekostet hat .
+3-1	131-133	An	_	_
+3-2	134-140	Neapel	*	PLACEmentioned
+3-3	141-145	kann	_	_
+3-4	146-149	ich	_	_
+3-5	150-155	jetzt	_	_
+3-6	156-158	um	_	_
+3-7	159-161	so	_	_
+3-8	162-169	weniger	_	_
+3-9	170-176	denken	_	_
+3-10	177-178	,	_	_
+3-11	179-182	als	_	_
+3-12	183-186	mir	_	_
+3-13	187-190	die	_	_
+3-14	191-201	Quarantäne	_	_
+3-15	202-205	ein	_	_
+3-16	206-216	Heidengeld	_	_
+3-17	217-225	gekostet	_	_
+3-18	226-229	hat	_	_
+3-19	230-231	.	_	_
+
+#Text=- Die Erlaubniß in Cattajo zeichnen zu dürfen , werde ich wohl erhalten .
+4-1	232-233	-	_	_
+4-2	234-237	Die	_	_
+4-3	238-247	Erlaubniß	_	_
+4-4	248-250	in	_	_
+4-5	251-258	Cattajo	*	PLACEmentioned
+4-6	259-267	zeichnen	_	_
+4-7	268-270	zu	_	_
+4-8	271-277	dürfen	_	_
+4-9	278-279	,	_	_
+4-10	280-285	werde	_	_
+4-11	286-289	ich	_	_
+4-12	290-294	wohl	_	_
+4-13	295-303	erhalten	_	_
+4-14	304-305	.	_	_
+
+#Text=Ich bleibe deshalb noch heute und Morgen Früh hier .
+5-1	306-309	Ich	_	_
+5-2	310-316	bleibe	_	_
+5-3	317-324	deshalb	_	_
+5-4	325-329	noch	_	_
+5-5	330-335	heute	_	_
+5-6	336-339	und	_	_
+5-7	340-346	Morgen	_	_
+5-8	347-351	Früh	_	_
+5-9	352-356	hier	_	_
+5-10	357-358	.	_	_
+
+#Text=Der Lehrer des Prinzen ist mir behülflich , und bedroht mich sogar mit einer Audienz beim Herzog .
+6-1	359-362	Der	_	_
+6-2	363-369	Lehrer	*	PERmentioned
+6-3	370-373	des	_	_
+6-4	374-381	Prinzen	*	PERmentioned
+6-5	382-385	ist	_	_
+6-6	386-389	mir	_	_
+6-7	390-400	behülflich	_	_
+6-8	401-402	,	_	_
+6-9	403-406	und	_	_
+6-10	407-414	bedroht	_	_
+6-11	415-419	mich	_	_
+6-12	420-425	sogar	_	_
+6-13	426-429	mit	_	_
+6-14	430-435	einer	_	_
+6-15	436-443	Audienz	_	_
+6-16	444-448	beim	_	_
+6-17	449-455	Herzog	*	PERmentioned
+6-18	456-457	.	_	_
+
+#Text=Q . D . B . V. Mit Cavedoni habe ich gestern viel verkehrt und allerlei gelernt .
+7-1	458-459	Q	_	_
+7-2	460-461	.	_	_
+7-3	462-463	D	_	_
+7-4	464-465	.	_	_
+7-5	466-467	B	_	_
+7-6	468-469	.	_	_
+7-7	470-472	V.	_	_
+7-8	473-476	Mit	_	_
+7-9	477-485	Cavedoni	*	PERmentioned
+7-10	486-490	habe	_	_
+7-11	491-494	ich	_	_
+7-12	495-502	gestern	_	_
+7-13	503-507	viel	_	_
+7-14	508-516	verkehrt	_	_
+7-15	517-520	und	_	_
+7-16	521-529	allerlei	_	_
+7-17	530-537	gelernt	_	_
+7-18	538-539	.	_	_
+
+#Text=Seine Zeit ist durch eine Professur am hiesigen Seminar sehr beschränkt .
+8-1	540-545	Seine	_	_
+8-2	546-550	Zeit	_	_
+8-3	551-554	ist	_	_
+8-4	555-560	durch	_	_
+8-5	561-565	eine	_	_
+8-6	566-575	Professur	_	_
+8-7	576-578	am	_	_
+8-8	579-587	hiesigen	_	_
+8-9	588-595	Seminar	_	_
+8-10	596-600	sehr	_	_
+8-11	601-611	beschränkt	_	_
+8-12	612-613	.	_	_
+
+#Text=Ich habe allerlei mit ihm verabredet .
+9-1	614-617	Ich	_	_
+9-2	618-622	habe	_	_
+9-3	623-631	allerlei	_	_
+9-4	632-635	mit	_	_
+9-5	636-639	ihm	_	_
+9-6	640-650	verabredet	_	_
+9-7	651-652	.	_	_
+
+#Text=Vielleicht daß ich ihn dazu bringe die Familienmünzen nach Borghesis und eigenen Untersuchungen in einem gemeinnützigen lateinischen und in Deutschland vortheilhaft zu verlegenden Buch zu bearbeiten .
+10-1	653-663	Vielleicht	_	_
+10-2	664-667	daß	_	_
+10-3	668-671	ich	_	_
+10-4	672-675	ihn	_	_
+10-5	676-680	dazu	_	_
+10-6	681-687	bringe	_	_
+10-7	688-691	die	_	_
+10-8	692-706	Familienmünzen	_	_
+10-9	707-711	nach	_	_
+10-10	712-721	Borghesis	*	PERmentioned
+10-11	722-725	und	_	_
+10-12	726-733	eigenen	_	_
+10-13	734-748	Untersuchungen	_	_
+10-14	749-751	in	_	_
+10-15	752-757	einem	_	_
+10-16	758-772	gemeinnützigen	_	_
+10-17	773-785	lateinischen	_	_
+10-18	786-789	und	_	_
+10-19	790-792	in	_	_
+10-20	793-804	Deutschland	*	PLACEmentioned
+10-21	805-817	vortheilhaft	_	_
+10-22	818-820	zu	_	_
+10-23	821-832	verlegenden	_	_
+10-24	833-837	Buch	_	_
+10-25	838-840	zu	_	_
+10-26	841-851	bearbeiten	_	_
+10-27	852-853	.	_	_
+
+#Text=- Die Sammlung von Anticaglien ( meist Bronzestatuetten ) welche von Cattajo hierher gebracht worden ist , erregt einiges Interesse .
+11-1	854-855	-	_	_
+11-2	856-859	Die	_	_
+11-3	860-868	Sammlung	_	_
+11-4	869-872	von	_	_
+11-5	873-884	Anticaglien	*	OBJ
+11-6	885-886	(	_	_
+11-7	887-892	meist	_	_
+11-8	893-909	Bronzestatuetten	*	OBJ
+11-9	910-911	)	_	_
+11-10	912-918	welche	_	_
+11-11	919-922	von	_	_
+11-12	923-930	Cattajo	*	PLACEmentioned
+11-13	931-938	hierher	_	_
+11-14	939-947	gebracht	_	_
+11-15	948-954	worden	_	_
+11-16	955-958	ist	_	_
+11-17	959-960	,	_	_
+11-18	961-967	erregt	_	_
+11-19	968-975	einiges	_	_
+11-20	976-985	Interesse	_	_
+11-21	986-987	.	_	_
+
+#Text=Die Münzen werde ich heute sehen .
+12-1	988-991	Die	_	_
+12-2	992-998	Münzen	*	OBJ
+12-3	999-1004	werde	_	_
+12-4	1005-1008	ich	_	_
+12-5	1009-1014	heute	_	_
+12-6	1015-1020	sehen	_	_
+12-7	1021-1022	.	_	_
+
+#Text=In Mantova sehe ich Graf Arco nicht eher als den Abend vor meiner Abreise .
+13-1	1023-1025	In	_	_
+13-2	1026-1033	Mantova	*	PLACEmentioned
+13-3	1034-1038	sehe	_	_
+13-4	1039-1042	ich	_	_
+13-5	1043-1047	Graf	*[4]	PERmentioned[4]
+13-6	1048-1052	Arco	*[4]	PERmentioned[4]
+13-7	1053-1058	nicht	_	_
+13-8	1059-1063	eher	_	_
+13-9	1064-1067	als	_	_
+13-10	1068-1071	den	_	_
+13-11	1072-1077	Abend	_	_
+13-12	1078-1081	vor	_	_
+13-13	1082-1088	meiner	_	_
+13-14	1089-1096	Abreise	_	_
+13-15	1097-1098	.	_	_
+
+#Text=Er hatte eben eine Brustentäündung durchgemacht , denkt Ihrer in vieler Liebe und bietet seine Dienste an .
+14-1	1099-1101	Er	_	_
+14-2	1102-1107	hatte	_	_
+14-3	1108-1112	eben	_	_
+14-4	1113-1117	eine	_	_
+14-5	1118-1133	Brustentäündung	_	_
+14-6	1134-1146	durchgemacht	_	_
+14-7	1147-1148	,	_	_
+14-8	1149-1154	denkt	_	_
+14-9	1155-1160	Ihrer	_	_
+14-10	1161-1163	in	_	_
+14-11	1164-1170	vieler	_	_
+14-12	1171-1176	Liebe	_	_
+14-13	1177-1180	und	_	_
+14-14	1181-1187	bietet	_	_
+14-15	1188-1193	seine	_	_
+14-16	1194-1201	Dienste	_	_
+14-17	1202-1204	an	_	_
+14-18	1205-1206	.	_	_
+
+#Text=Gleichzeitig habe ich einen Sig .
+15-1	1207-1219	Gleichzeitig	_	_
+15-2	1220-1224	habe	_	_
+15-3	1225-1228	ich	_	_
+15-4	1229-1234	einen	_	_
+15-5	1235-1238	Sig	_	_
+15-6	1239-1240	.	_	_
+
+#Text=Mainardi kennen gelernt , einen bescheidenen jungen Mann , der an : archäologischen Gegenständen hübsches Interesse nimmt .
+16-1	1241-1249	Mainardi	*	PERmentioned
+16-2	1250-1256	kennen	_	_
+16-3	1257-1264	gelernt	_	_
+16-4	1265-1266	,	_	_
+16-5	1267-1272	einen	_	_
+16-6	1273-1285	bescheidenen	_	_
+16-7	1286-1292	jungen	_	_
+16-8	1293-1297	Mann	_	_
+16-9	1298-1299	,	_	_
+16-10	1300-1303	der	_	_
+16-11	1304-1306	an	_	_
+16-12	1307-1308	:	_	_
+16-13	1309-1324	archäologischen	_	_
+16-14	1325-1337	Gegenständen	_	_
+16-15	1338-1346	hübsches	_	_
+16-16	1347-1356	Interesse	_	_
+16-17	1357-1362	nimmt	_	_
+16-18	1363-1364	.	_	_
+
+#Text=Zum Correspondenten empfiehlt er sich , ohne es zu suchen , durch ein Schriftchen über die Büste des Virgil und ein anderes über das sogenanhte Orpheusrelief .
+17-1	1365-1368	Zum	_	_
+17-2	1369-1384	Correspondenten	_	_
+17-3	1385-1394	empfiehlt	_	_
+17-4	1395-1397	er	_	_
+17-5	1398-1402	sich	_	_
+17-6	1403-1404	,	_	_
+17-7	1405-1409	ohne	_	_
+17-8	1410-1412	es	_	_
+17-9	1413-1415	zu	_	_
+17-10	1416-1422	suchen	_	_
+17-11	1423-1424	,	_	_
+17-12	1425-1430	durch	_	_
+17-13	1431-1434	ein	_	_
+17-14	1435-1446	Schriftchen	_	_
+17-15	1447-1451	über	_	_
+17-16	1452-1455	die	_	_
+17-17	1456-1461	Büste	*[5]	OBJ[5]
+17-18	1462-1465	des	*[5]	OBJ[5]
+17-19	1466-1472	Virgil	*[5]|*[6]	OBJ[5]|PERmentioned[6]
+17-20	1473-1476	und	_	_
+17-21	1477-1480	ein	_	_
+17-22	1481-1488	anderes	_	_
+17-23	1489-1493	über	_	_
+17-24	1494-1497	das	_	_
+17-25	1498-1508	sogenanhte	_	_
+17-26	1509-1522	Orpheusrelief	*	OBJ
+17-27	1523-1524	.	_	_
+
+#Text=-— Labas Arbeit ist wie ich Ihnen schrieb den
+18-1	1525-1527	-—	_	_
+18-2	1528-1533	Labas	*	PERmentioned
+18-3	1534-1540	Arbeit	_	_
+18-4	1541-1544	ist	_	_
+18-5	1545-1548	wie	_	_
+18-6	1549-1552	ich	_	_
+18-7	1553-1558	Ihnen	_	_
+18-8	1559-1566	schrieb	_	_
+18-9	1567-1570	den	_	_

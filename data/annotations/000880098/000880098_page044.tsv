@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\| Braun an Gerhard Rom , 1 .
+1-1	0-1	\|	_	_
+1-2	2-7	Braun	*	PERauthor
+1-3	8-10	an	_	_
+1-4	11-18	Gerhard	*[2]	PERaddressee[2]
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-26	1	_	_
+1-8	27-28	.	*[3]	DATEletter[3]
+
+#Text=Januar 1834 Prof , Gerhard Roma li 1 .
+2-1	29-35	Januar	*[3]	DATEletter[3]
+2-2	36-40	1834	*[3]	DATEletter[3]
+2-3	41-45	Prof	*[1]	PERaddressee[1]
+2-4	46-47	,	*[1]	PERaddressee[1]
+2-5	48-55	Gerhard	*[1]	PERaddressee[1]
+2-6	56-60	Roma	*	PLACEfrom
+2-7	61-63	li	_	_
+2-8	64-65	1	*[4]	DATEletter[4]
+2-9	66-67	.	*[4]	DATEletter[4]
+
+#Text=Gennaro 1834 Hochverehrtester Freund !
+3-1	68-75	Gennaro	*[4]	DATEletter[4]
+3-2	76-80	1834	*[4]	DATEletter[4]
+3-3	81-97	Hochverehrtester	_	_
+3-4	98-104	Freund	_	_
+3-5	105-106	!	_	_
+
+#Text=Appoloni hat mir einen Bleistift vom Arbeitstisch gerapst und einen Brief erbrochen : hat 2 Scudi anticipatenmente genommen und ist nach 2 Monaten erst , eben heute Morgen vor Empfang Ihres Briefes gerufen , gekommen .
+4-1	107-115	Appoloni	*	PERmentioned
+4-2	116-119	hat	_	_
+4-3	120-123	mir	_	_
+4-4	124-129	einen	_	_
+4-5	130-139	Bleistift	_	_
+4-6	140-143	vom	_	_
+4-7	144-156	Arbeitstisch	_	_
+4-8	157-164	gerapst	_	_
+4-9	165-168	und	_	_
+4-10	169-174	einen	_	_
+4-11	175-180	Brief	_	_
+4-12	181-190	erbrochen	_	_
+4-13	191-192	:	_	_
+4-14	193-196	hat	_	_
+4-15	197-198	2	_	_
+4-16	199-204	Scudi	_	_
+4-17	205-221	anticipatenmente	_	_
+4-18	222-230	genommen	_	_
+4-19	231-234	und	_	_
+4-20	235-238	ist	_	_
+4-21	239-243	nach	_	_
+4-22	244-245	2	_	_
+4-23	246-253	Monaten	_	_
+4-24	254-258	erst	_	_
+4-25	259-260	,	_	_
+4-26	261-265	eben	_	_
+4-27	266-271	heute	_	_
+4-28	272-278	Morgen	_	_
+4-29	279-282	vor	_	_
+4-30	283-290	Empfang	_	_
+4-31	291-296	Ihres	_	_
+4-32	297-304	Briefes	_	_
+4-33	305-312	gerufen	_	_
+4-34	313-314	,	_	_
+4-35	315-323	gekommen	_	_
+4-36	324-325	.	_	_
+
+#Text=Seine Zeichnungen sind mehr schwach als schlecht \; Thorwaldsen so gut als wir werden ausgelacht , wenn wir sein Zeichentalent in Schutz nehmen .
+5-1	326-331	Seine	_	_
+5-2	332-343	Zeichnungen	_	_
+5-3	344-348	sind	_	_
+5-4	349-353	mehr	_	_
+5-5	354-361	schwach	_	_
+5-6	362-365	als	_	_
+5-7	366-374	schlecht	_	_
+5-8	375-376	\;	_	_
+5-9	377-388	Thorwaldsen	*	PERmentioned
+5-10	389-391	so	_	_
+5-11	392-395	gut	_	_
+5-12	396-399	als	_	_
+5-13	400-403	wir	_	_
+5-14	404-410	werden	_	_
+5-15	411-421	ausgelacht	_	_
+5-16	422-423	,	_	_
+5-17	424-428	wenn	_	_
+5-18	429-432	wir	_	_
+5-19	433-437	sein	_	_
+5-20	438-451	Zeichentalent	_	_
+5-21	452-454	in	_	_
+5-22	455-461	Schutz	_	_
+5-23	462-468	nehmen	_	_
+5-24	469-470	.	_	_
+
+#Text=Die Thayoszeichnung hat von Borroni durchaus retouchirt werden müssen .
+6-1	471-474	Die	_	_
+6-2	475-490	Thayoszeichnung	*	OBJ
+6-3	491-494	hat	_	_
+6-4	495-498	von	_	_
+6-5	499-506	Borroni	*	PERmentioned
+6-6	507-515	durchaus	_	_
+6-7	516-526	retouchirt	_	_
+6-8	527-533	werden	_	_
+6-9	534-540	müssen	_	_
+6-10	541-542	.	_	_
+
+#Text=Nach allem diesen kann ich ihn wenigstens nicht zu Leuten wie Durand schicken , dem Bellog imponirt und zu von Zeichnungen disponirt zu haben scheint .
+7-1	543-547	Nach	_	_
+7-2	548-553	allem	_	_
+7-3	554-560	diesen	_	_
+7-4	561-565	kann	_	_
+7-5	566-569	ich	_	_
+7-6	570-573	ihn	_	_
+7-7	574-584	wenigstens	_	_
+7-8	585-590	nicht	_	_
+7-9	591-593	zu	_	_
+7-10	594-600	Leuten	_	_
+7-11	601-604	wie	_	_
+7-12	605-611	Durand	*	PERmentioned
+7-13	612-620	schicken	_	_
+7-14	621-622	,	_	_
+7-15	623-626	dem	_	_
+7-16	627-633	Bellog	*	PERmentioned
+7-17	634-642	imponirt	_	_
+7-18	643-646	und	_	_
+7-19	647-649	zu	_	_
+7-20	650-653	von	_	_
+7-21	654-665	Zeichnungen	_	_
+7-22	666-675	disponirt	_	_
+7-23	676-678	zu	_	_
+7-24	679-684	haben	_	_
+7-25	685-692	scheint	_	_
+7-26	693-694	.	_	_
+
+#Text=Ein Flegel ist er aber auch und macht mir viel Verdruß , zeichnet aber excellent .
+8-1	695-698	Ein	_	_
+8-2	699-705	Flegel	_	_
+8-3	706-709	ist	_	_
+8-4	710-712	er	_	_
+8-5	713-717	aber	_	_
+8-6	718-722	auch	_	_
+8-7	723-726	und	_	_
+8-8	727-732	macht	_	_
+8-9	733-736	mir	_	_
+8-10	737-741	viel	_	_
+8-11	742-749	Verdruß	_	_
+8-12	750-751	,	_	_
+8-13	752-760	zeichnet	_	_
+8-14	761-765	aber	_	_
+8-15	766-775	excellent	_	_
+8-16	776-777	.	_	_
+
+#Text=An Borrani habe ich die Schwalbenvase von ihm gezeichnet gegeben , hoffentlich sind Sies zufrieden .
+9-1	778-780	An	_	_
+9-2	781-788	Borrani	*	PERmentioned
+9-3	789-793	habe	_	_
+9-4	794-797	ich	_	_
+9-5	798-801	die	_	_
+9-6	802-815	Schwalbenvase	*	OBJ
+9-7	816-819	von	_	_
+9-8	820-823	ihm	_	_
+9-9	824-834	gezeichnet	_	_
+9-10	835-842	gegeben	_	_
+9-11	843-844	,	_	_
+9-12	845-856	hoffentlich	_	_
+9-13	857-861	sind	_	_
+9-14	862-866	Sies	_	_
+9-15	867-876	zufrieden	_	_
+9-16	877-878	.	_	_
+
+#Text=Daß ich Ihren Cyrkus habe paradiren lassen war äußerste Nothwendigkeit \; Durand eben besucht die Adunanza und mußte doch wohl irgend ein Monument zu sehen bekommen .
+10-1	879-882	Daß	_	_
+10-2	883-886	ich	_	_
+10-3	887-892	Ihren	_	_
+10-4	893-899	Cyrkus	*	OBJ
+10-5	900-904	habe	_	_
+10-6	905-914	paradiren	_	_
+10-7	915-921	lassen	_	_
+10-8	922-925	war	_	_
+10-9	926-934	äußerste	_	_
+10-10	935-949	Nothwendigkeit	_	_
+10-11	950-951	\;	_	_
+10-12	952-958	Durand	*	PERmentioned
+10-13	959-963	eben	_	_
+10-14	964-971	besucht	_	_
+10-15	972-975	die	_	_
+10-16	976-984	Adunanza	*	MISC
+10-17	985-988	und	_	_
+10-18	989-994	mußte	_	_
+10-19	995-999	doch	_	_
+10-20	1000-1004	wohl	_	_
+10-21	1005-1011	irgend	_	_
+10-22	1012-1015	ein	_	_
+10-23	1016-1024	Monument	_	_
+10-24	1025-1027	zu	_	_
+10-25	1028-1033	sehen	_	_
+10-26	1034-1042	bekommen	_	_
+10-27	1043-1044	.	_	_
+
+#Text=Monumente zu bekommen ist aber nicht zu leicht .
+11-1	1045-1054	Monumente	_	_
+11-2	1055-1057	zu	_	_
+11-3	1058-1066	bekommen	_	_
+11-4	1067-1070	ist	_	_
+11-5	1071-1075	aber	_	_
+11-6	1076-1081	nicht	_	_
+11-7	1082-1084	zu	_	_
+11-8	1085-1091	leicht	_	_
+11-9	1092-1093	.	_	_
+
+#Text=Discretion haben Sie mir aber weder befohlen noch angedeutet .
+12-1	1094-1104	Discretion	_	_
+12-2	1105-1110	haben	_	_
+12-3	1111-1114	Sie	_	_
+12-4	1115-1118	mir	_	_
+12-5	1119-1123	aber	_	_
+12-6	1124-1129	weder	_	_
+12-7	1130-1138	befohlen	_	_
+12-8	1139-1143	noch	_	_
+12-9	1144-1154	angedeutet	_	_
+12-10	1155-1156	.	_	_
+
+#Text=Jetzt bin ich vorsichtiger und werde nichts thun was Sie nicht befehlen , sollte auch alles stehen bleiben , bis nicht mehr Zeit ist ,
+13-1	1157-1162	Jetzt	_	_
+13-2	1163-1166	bin	_	_
+13-3	1167-1170	ich	_	_
+13-4	1171-1183	vorsichtiger	_	_
+13-5	1184-1187	und	_	_
+13-6	1188-1193	werde	_	_
+13-7	1194-1200	nichts	_	_
+13-8	1201-1205	thun	_	_
+13-9	1206-1209	was	_	_
+13-10	1210-1213	Sie	_	_
+13-11	1214-1219	nicht	_	_
+13-12	1220-1228	befehlen	_	_
+13-13	1229-1230	,	_	_
+13-14	1231-1237	sollte	_	_
+13-15	1238-1242	auch	_	_
+13-16	1243-1248	alles	_	_
+13-17	1249-1255	stehen	_	_
+13-18	1256-1263	bleiben	_	_
+13-19	1264-1265	,	_	_
+13-20	1266-1269	bis	_	_
+13-21	1270-1275	nicht	_	_
+13-22	1276-1280	mehr	_	_
+13-23	1281-1285	Zeit	_	_
+13-24	1286-1289	ist	_	_
+13-25	1290-1291	,	_	_

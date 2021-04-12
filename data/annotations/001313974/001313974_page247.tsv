@@ -1,0 +1,184 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=357 Helbig an Henzen Siena , 10. Juli 1875 11/7 75 Siena , li 10. Juli 1875 Lieber Herr Professor Ihren mir gestern zugehenden Brief heute beantwortend , muß ich bemerken , daß ich de Sanctis keineswegs das bestimmte Versprechen gegeben , ihm eine Tafel zum Stich zuzuweusen , sondern daß ich ihm nur zugesagt , ich würde versuchen , ihn für das Institut zu beschäftigen .
+1-1	0-3	357	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-26	Siena	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	10.	*[1]	DATEletter[1]
+1-8	33-37	Juli	*[1]	DATEletter[1]
+1-9	38-42	1875	*[1]	DATEletter[1]
+1-10	43-47	11/7	*[2]	DATErecieved[2]
+1-11	48-50	75	*[2]	DATErecieved[2]
+1-12	51-56	Siena	*	PLACEfrom
+1-13	57-58	,	_	_
+1-14	59-61	li	_	_
+1-15	62-65	10.	*[3]	DATEletter[3]
+1-16	66-70	Juli	*[3]	DATEletter[3]
+1-17	71-75	1875	*[3]	DATEletter[3]
+1-18	76-82	Lieber	_	_
+1-19	83-87	Herr	_	_
+1-20	88-97	Professor	_	_
+1-21	98-103	Ihren	_	_
+1-22	104-107	mir	_	_
+1-23	108-115	gestern	_	_
+1-24	116-126	zugehenden	_	_
+1-25	127-132	Brief	_	_
+1-26	133-138	heute	_	_
+1-27	139-151	beantwortend	_	_
+1-28	152-153	,	_	_
+1-29	154-157	muß	_	_
+1-30	158-161	ich	_	_
+1-31	162-170	bemerken	_	_
+1-32	171-172	,	_	_
+1-33	173-176	daß	_	_
+1-34	177-180	ich	_	_
+1-35	181-183	de	*[4]	PERmentioned[4]
+1-36	184-191	Sanctis	*[4]	PERmentioned[4]
+1-37	192-202	keineswegs	_	_
+1-38	203-206	das	_	_
+1-39	207-216	bestimmte	_	_
+1-40	217-228	Versprechen	_	_
+1-41	229-236	gegeben	_	_
+1-42	237-238	,	_	_
+1-43	239-242	ihm	_	_
+1-44	243-247	eine	_	_
+1-45	248-253	Tafel	_	_
+1-46	254-257	zum	_	_
+1-47	258-263	Stich	_	_
+1-48	264-274	zuzuweusen	_	_
+1-49	275-276	,	_	_
+1-50	277-284	sondern	_	_
+1-51	285-288	daß	_	_
+1-52	289-292	ich	_	_
+1-53	293-296	ihm	_	_
+1-54	297-300	nur	_	_
+1-55	301-309	zugesagt	_	_
+1-56	310-311	,	_	_
+1-57	312-315	ich	_	_
+1-58	316-321	würde	_	_
+1-59	322-331	versuchen	_	_
+1-60	332-333	,	_	_
+1-61	334-337	ihn	_	_
+1-62	338-341	für	_	_
+1-63	342-345	das	_	_
+1-64	346-354	Institut	*	ORGmentioned
+1-65	355-357	zu	_	_
+1-66	358-370	beschäftigen	_	_
+1-67	371-372	.	_	_
+
+#Text=Trotz aller Mühe aber , die ich mir gegeben , habe ich keine geeignete Tafel zusammenstellen können .
+2-1	373-378	Trotz	_	_
+2-2	379-384	aller	_	_
+2-3	385-389	Mühe	_	_
+2-4	390-394	aber	_	_
+2-5	395-396	,	_	_
+2-6	397-400	die	_	_
+2-7	401-404	ich	_	_
+2-8	405-408	mir	_	_
+2-9	409-416	gegeben	_	_
+2-10	417-418	,	_	_
+2-11	419-423	habe	_	_
+2-12	424-427	ich	_	_
+2-13	428-433	keine	_	_
+2-14	434-443	geeignete	_	_
+2-15	444-449	Tafel	_	_
+2-16	450-465	zusammenstellen	_	_
+2-17	466-472	können	_	_
+2-18	473-474	.	_	_
+
+#Text=Übrigens hat de Sanctis noch mehrere Aggiuntatafeln in Arbeit : CGapuana aus den Scavi Doria ( Colu in Form eines bärtigen Kopfes , Axt mit Widderkopf als Griff u.s.w .
+3-1	475-483	Übrigens	_	_
+3-2	484-487	hat	_	_
+3-3	488-490	de	*[5]	PERmentioned[5]
+3-4	491-498	Sanctis	*[5]	PERmentioned[5]
+3-5	499-503	noch	_	_
+3-6	504-511	mehrere	_	_
+3-7	512-526	Aggiuntatafeln	_	_
+3-8	527-529	in	_	_
+3-9	530-536	Arbeit	_	_
+3-10	537-538	:	_	_
+3-11	539-547	CGapuana	*	MISC
+3-12	548-551	aus	_	_
+3-13	552-555	den	_	_
+3-14	556-561	Scavi	_	_
+3-15	562-567	Doria	*	PERmentioned
+3-16	568-569	(	_	_
+3-17	570-574	Colu	*[6]	OBJ[6]
+3-18	575-577	in	*[6]	OBJ[6]
+3-19	578-582	Form	*[6]	OBJ[6]
+3-20	583-588	eines	*[6]	OBJ[6]
+3-21	589-597	bärtigen	*[6]	OBJ[6]
+3-22	598-604	Kopfes	*[6]	OBJ[6]
+3-23	605-606	,	_	_
+3-24	607-610	Axt	*[7]	OBJ[7]
+3-25	611-614	mit	*[7]	OBJ[7]
+3-26	615-625	Widderkopf	*[7]	OBJ[7]
+3-27	626-629	als	*[7]	OBJ[7]
+3-28	630-635	Griff	*[7]	OBJ[7]
+3-29	636-641	u.s.w	_	_
+3-30	642-643	.	_	_
+
+#Text=) .
+4-1	644-645	)	_	_
+4-2	646-647	.	_	_
+
+#Text=Weitere Arbeit kann ich ihm jetzt mit dem besten Willen nicht zuweisen , da die Cornetaner Vasen doch besser lithographirt , als gestochen werden .
+5-1	648-655	Weitere	_	_
+5-2	656-662	Arbeit	_	_
+5-3	663-667	kann	_	_
+5-4	668-671	ich	_	_
+5-5	672-675	ihm	_	_
+5-6	676-681	jetzt	_	_
+5-7	682-685	mit	_	_
+5-8	686-689	dem	_	_
+5-9	690-696	besten	_	_
+5-10	697-703	Willen	_	_
+5-11	704-709	nicht	_	_
+5-12	710-718	zuweisen	_	_
+5-13	719-720	,	_	_
+5-14	721-723	da	_	_
+5-15	724-727	die	_	_
+5-16	728-738	Cornetaner	*[8]	OBJ[8]
+5-17	739-744	Vasen	*[8]	OBJ[8]
+5-18	745-749	doch	_	_
+5-19	750-756	besser	_	_
+5-20	757-770	lithographirt	_	_
+5-21	771-772	,	_	_
+5-22	773-776	als	_	_
+5-23	777-786	gestochen	_	_
+5-24	787-793	werden	_	_
+5-25	794-795	.	_	_
+
+#Text=Beiliegenden Brief bitte ich an Klügmann zu schicken , dessen gegenwärtige Adresse mir unbekannt ist .
+6-1	796-808	Beiliegenden	_	_
+6-2	809-814	Brief	_	_
+6-3	815-820	bitte	_	_
+6-4	821-824	ich	_	_
+6-5	825-827	an	_	_
+6-6	828-836	Klügmann	*	PERmentioned
+6-7	837-839	zu	_	_
+6-8	840-848	schicken	_	_
+6-9	849-850	,	_	_
+6-10	851-857	dessen	_	_
+6-11	858-870	gegenwärtige	_	_
+6-12	871-878	Adresse	_	_
+6-13	879-882	mir	_	_
+6-14	883-892	unbekannt	_	_
+6-15	893-896	ist	_	_
+6-16	897-898	.	_	_
+
+#Text=Scusi l'incommodo !
+7-1	899-904	Scusi	_	_
+7-2	905-916	l'incommodo	_	_
+7-3	917-918	!	_	_
+
+#Text=Herzliche Grüße Ihr Helbig
+8-1	919-928	Herzliche	_	_
+8-2	929-934	Grüße	_	_
+8-3	935-938	Ihr	_	_
+8-4	939-945	Helbig	*	PERauthor

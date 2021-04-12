@@ -1,0 +1,196 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun 8. März 1837 8/3 37 Lieber Freund .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-19	8.	*[3]	DATEletter[3]
+1-5	20-24	März	*[3]	DATEletter[3]
+1-6	25-29	1837	*[3]	DATEletter[3]
+1-7	30-33	8/3	*[4]	DATEletter[4]
+1-8	34-36	37	*[4]	DATEletter[4]
+1-9	37-43	Lieber	_	_
+1-10	44-50	Freund	_	_
+1-11	51-52	.	_	_
+
+#Text=Hier die zurückverlangte Liste .
+2-1	53-57	Hier	_	_
+2-2	58-61	die	_	_
+2-3	62-77	zurückverlangte	_	_
+2-4	78-83	Liste	_	_
+2-5	84-85	.	_	_
+
+#Text=Das Fest selbst betreffend , so bin ich zwar weit entfernt die mir durch förmliche Gesellschaft zugedachte Ehre und das Wohlwollen mit der solche mir geboten wird zu verkennen oder zu beschränken , wiederhole aber aufrichtig meine gestrige Erklärung daß ich keinen Anspruch darauf mache , auch zurückzukehren hoffe .
+3-1	86-89	Das	_	_
+3-2	90-94	Fest	_	_
+3-3	95-101	selbst	_	_
+3-4	102-112	betreffend	_	_
+3-5	113-114	,	_	_
+3-6	115-117	so	_	_
+3-7	118-121	bin	_	_
+3-8	122-125	ich	_	_
+3-9	126-130	zwar	_	_
+3-10	131-135	weit	_	_
+3-11	136-144	entfernt	_	_
+3-12	145-148	die	_	_
+3-13	149-152	mir	_	_
+3-14	153-158	durch	_	_
+3-15	159-168	förmliche	_	_
+3-16	169-181	Gesellschaft	_	_
+3-17	182-192	zugedachte	_	_
+3-18	193-197	Ehre	_	_
+3-19	198-201	und	_	_
+3-20	202-205	das	_	_
+3-21	206-216	Wohlwollen	_	_
+3-22	217-220	mit	_	_
+3-23	221-224	der	_	_
+3-24	225-231	solche	_	_
+3-25	232-235	mir	_	_
+3-26	236-243	geboten	_	_
+3-27	244-248	wird	_	_
+3-28	249-251	zu	_	_
+3-29	252-261	verkennen	_	_
+3-30	262-266	oder	_	_
+3-31	267-269	zu	_	_
+3-32	270-281	beschränken	_	_
+3-33	282-283	,	_	_
+3-34	284-294	wiederhole	_	_
+3-35	295-299	aber	_	_
+3-36	300-310	aufrichtig	_	_
+3-37	311-316	meine	_	_
+3-38	317-325	gestrige	_	_
+3-39	326-335	Erklärung	_	_
+3-40	336-339	daß	_	_
+3-41	340-343	ich	_	_
+3-42	344-350	keinen	_	_
+3-43	351-359	Anspruch	_	_
+3-44	360-366	darauf	_	_
+3-45	367-372	mache	_	_
+3-46	373-374	,	_	_
+3-47	375-379	auch	_	_
+3-48	380-394	zurückzukehren	_	_
+3-49	395-400	hoffe	_	_
+3-50	401-402	.	_	_
+
+#Text=Sollte es dennoch dazu kommen , so mache ich aufmerksam daß bei der Wahl eines zum Theul so solennen Publikums die gewöhnlichen persönlichen Bedenken entstehen , und neben Gf .
+4-1	403-409	Sollte	_	_
+4-2	410-412	es	_	_
+4-3	413-420	dennoch	_	_
+4-4	421-425	dazu	_	_
+4-5	426-432	kommen	_	_
+4-6	433-434	,	_	_
+4-7	435-437	so	_	_
+4-8	438-443	mache	_	_
+4-9	444-447	ich	_	_
+4-10	448-458	aufmerksam	_	_
+4-11	459-462	daß	_	_
+4-12	463-466	bei	_	_
+4-13	467-470	der	_	_
+4-14	471-475	Wahl	_	_
+4-15	476-481	eines	_	_
+4-16	482-485	zum	_	_
+4-17	486-491	Theul	_	_
+4-18	492-494	so	_	_
+4-19	495-503	solennen	_	_
+4-20	504-513	Publikums	_	_
+4-21	514-517	die	_	_
+4-22	518-530	gewöhnlichen	_	_
+4-23	531-543	persönlichen	_	_
+4-24	544-552	Bedenken	_	_
+4-25	553-562	entstehen	_	_
+4-26	563-564	,	_	_
+4-27	565-568	und	_	_
+4-28	569-574	neben	_	_
+4-29	575-577	Gf	*[5]	PERmentioned[5]
+4-30	578-579	.	*[5]	PERmentioned[5]
+
+#Text=Spaer und Nibby auch , Visconti , Betti , vielleicht sogar Gf .
+5-1	580-585	Spaer	*[5]	PERmentioned[5]
+5-2	586-589	und	_	_
+5-3	590-595	Nibby	*	PERmentioned
+5-4	596-600	auch	_	_
+5-5	601-602	,	_	_
+5-6	603-611	Visconti	*	PERmentioned
+5-7	612-613	,	_	_
+5-8	614-619	Betti	*	PERmentioned
+5-9	620-621	,	_	_
+5-10	622-632	vielleicht	_	_
+5-11	633-638	sogar	_	_
+5-12	639-641	Gf	*[9]	PERmentioned[9]
+5-13	642-643	.	*[9]	PERmentioned[9]
+
+#Text=Liedekeck um die Ehre ihrer Gegenwart gebeten werden müßten .
+6-1	644-653	Liedekeck	*[9]	PERmentioned[9]
+6-2	654-656	um	_	_
+6-3	657-660	die	_	_
+6-4	661-665	Ehre	_	_
+6-5	666-671	ihrer	_	_
+6-6	672-681	Gegenwart	_	_
+6-7	682-689	gebeten	_	_
+6-8	690-696	werden	_	_
+6-9	697-703	müßten	_	_
+6-10	704-705	.	_	_
+
+#Text=Me ri und Rüspi würde ich weg wünschen , dagegen aber , wenn man sonst setzt , der Deutscheit nicht schließlich für einen Bären gelten mögen , und deshalb zum Buchstaben K Krapp , Kolb , Kubler hinzu fügen .
+7-1	706-708	Me	*[10]	PERmentioned[10]
+7-2	709-711	ri	*[10]	PERmentioned[10]
+7-3	712-715	und	_	_
+7-4	716-721	Rüspi	*	PERmentioned
+7-5	722-727	würde	_	_
+7-6	728-731	ich	_	_
+7-7	732-735	weg	_	_
+7-8	736-744	wünschen	_	_
+7-9	745-746	,	_	_
+7-10	747-754	dagegen	_	_
+7-11	755-759	aber	_	_
+7-12	760-761	,	_	_
+7-13	762-766	wenn	_	_
+7-14	767-770	man	_	_
+7-15	771-776	sonst	_	_
+7-16	777-782	setzt	_	_
+7-17	783-784	,	_	_
+7-18	785-788	der	_	_
+7-19	789-799	Deutscheit	_	_
+7-20	800-805	nicht	_	_
+7-21	806-817	schließlich	_	_
+7-22	818-821	für	_	_
+7-23	822-827	einen	_	_
+7-24	828-833	Bären	_	_
+7-25	834-840	gelten	_	_
+7-26	841-846	mögen	_	_
+7-27	847-848	,	_	_
+7-28	849-852	und	_	_
+7-29	853-860	deshalb	_	_
+7-30	861-864	zum	_	_
+7-31	865-875	Buchstaben	_	_
+7-32	876-877	K	*[12]	PERmentioned[12]
+7-33	878-883	Krapp	*[12]	PERmentioned[12]
+7-34	884-885	,	_	_
+7-35	886-890	Kolb	*	PERmentioned
+7-36	891-892	,	_	_
+7-37	893-899	Kubler	*[13]	PERmentioned[13]
+7-38	900-905	hinzu	*[13]	PERmentioned[13]
+7-39	906-911	fügen	_	_
+7-40	912-913	.	_	_
+
+#Text=In somma faccia queilo che crede , ma faccia meglio di nö !
+8-1	914-916	In	_	_
+8-2	917-922	somma	_	_
+8-3	923-929	faccia	_	_
+8-4	930-936	queilo	_	_
+8-5	937-940	che	_	_
+8-6	941-946	crede	_	_
+8-7	947-948	,	_	_
+8-8	949-951	ma	_	_
+8-9	952-958	faccia	_	_
+8-10	959-965	meglio	_	_
+8-11	966-968	di	_	_
+8-12	969-971	nö	_	_
+8-13	972-973	!	_	_
+
+#Text=Herzlichst Ihr Gerhard
+9-1	974-984	Herzlichst	_	_
+9-2	985-988	Ihr	_	_
+9-3	989-996	Gerhard	*	PERauthor

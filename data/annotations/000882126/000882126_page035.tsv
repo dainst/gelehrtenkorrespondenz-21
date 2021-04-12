@@ -1,0 +1,216 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1023 Braun an Gerhard Rom , 10. November 1835 Monumenti 1835 Fasc , 2 .
+1-1	0-4	1023	_	_
+1-2	5-10	Braun	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-25	Rom	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	10.	*[9]	DATEletter[9]
+1-8	32-40	November	*[9]	DATEletter[9]
+1-9	41-45	1835	*[9]	DATEletter[9]
+1-10	46-55	Monumenti	_	_
+1-11	56-60	1835	*	DATEmentioned
+1-12	61-65	Fasc	_	_
+1-13	66-67	,	_	_
+1-14	68-69	2	_	_
+1-15	70-71	.	_	_
+
+#Text=Die Todtenkiste mit dem Streit um die Waffen des Achilles füllt eine Platte anständig aus , wie sich als Endergebniß der darüber angestellten Betrachtungen ergeben hat \; die Circe auch .
+2-1	72-75	Die	_	_
+2-2	76-87	Todtenkiste	*[10]	OBJ[10]
+2-3	88-91	mit	*[10]	OBJ[10]
+2-4	92-95	dem	*[10]	OBJ[10]
+2-5	96-102	Streit	*[10]	OBJ[10]
+2-6	103-105	um	*[10]	OBJ[10]
+2-7	106-109	die	*[10]	OBJ[10]
+2-8	110-116	Waffen	*[10]	OBJ[10]
+2-9	117-120	des	*[10]	OBJ[10]
+2-10	121-129	Achilles	*[10]|*[11]	OBJ[10]|PERmentioned[11]
+2-11	130-135	füllt	_	_
+2-12	136-140	eine	_	_
+2-13	141-147	Platte	_	_
+2-14	148-157	anständig	_	_
+2-15	158-161	aus	_	_
+2-16	162-163	,	_	_
+2-17	164-167	wie	_	_
+2-18	168-172	sich	_	_
+2-19	173-176	als	_	_
+2-20	177-188	Endergebniß	_	_
+2-21	189-192	der	_	_
+2-22	193-200	darüber	_	_
+2-23	201-213	angestellten	_	_
+2-24	214-227	Betrachtungen	_	_
+2-25	228-235	ergeben	_	_
+2-26	236-239	hat	_	_
+2-27	240-241	\;	_	_
+2-28	242-245	die	_	_
+2-29	246-251	Circe	*	OBJ
+2-30	252-256	auch	_	_
+2-31	257-258	.	_	_
+
+#Text=Ich würde Ihnen also vorschlagen , die Circe als neunte Tafel zu geben , wenn überhaupt eine 9.te Tafel von Ihnen verlangt wird .
+3-1	259-262	Ich	_	_
+3-2	263-268	würde	_	_
+3-3	269-274	Ihnen	_	_
+3-4	275-279	also	_	_
+3-5	280-291	vorschlagen	_	_
+3-6	292-293	,	_	_
+3-7	294-297	die	_	_
+3-8	298-303	Circe	*	OBJ
+3-9	304-307	als	_	_
+3-10	308-314	neunte	_	_
+3-11	315-320	Tafel	_	_
+3-12	321-323	zu	_	_
+3-13	324-329	geben	_	_
+3-14	330-331	,	_	_
+3-15	332-336	wenn	_	_
+3-16	337-346	überhaupt	_	_
+3-17	347-351	eine	_	_
+3-18	352-356	9.te	_	_
+3-19	357-362	Tafel	_	_
+3-20	363-366	von	_	_
+3-21	367-372	Ihnen	_	_
+3-22	373-381	verlangt	_	_
+3-23	382-386	wird	_	_
+3-24	387-388	.	_	_
+
+#Text=VUebringens ist auch noch eine Flatte mit den 2 Vasen archaischer Kunst und Schrift disponibel und kann sofort mit ausgegeben werden , wenn man sie nicht sparen will , Ich schicke das ganze Heft unter Band zugleich mit diesem Brief ab .
+4-1	389-400	VUebringens	_	_
+4-2	401-404	ist	_	_
+4-3	405-409	auch	_	_
+4-4	410-414	noch	_	_
+4-5	415-419	eine	_	_
+4-6	420-426	Flatte	_	_
+4-7	427-430	mit	_	_
+4-8	431-434	den	_	_
+4-9	435-436	2	*[12]	OBJ[12]
+4-10	437-442	Vasen	*[12]	OBJ[12]
+4-11	443-454	archaischer	*[12]	OBJ[12]
+4-12	455-460	Kunst	*[12]	OBJ[12]
+4-13	461-464	und	_	_
+4-14	465-472	Schrift	_	_
+4-15	473-483	disponibel	_	_
+4-16	484-487	und	_	_
+4-17	488-492	kann	_	_
+4-18	493-499	sofort	_	_
+4-19	500-503	mit	_	_
+4-20	504-514	ausgegeben	_	_
+4-21	515-521	werden	_	_
+4-22	522-523	,	_	_
+4-23	524-528	wenn	_	_
+4-24	529-532	man	_	_
+4-25	533-536	sie	_	_
+4-26	537-542	nicht	_	_
+4-27	543-549	sparen	_	_
+4-28	550-554	will	_	_
+4-29	555-556	,	_	_
+4-30	557-560	Ich	_	_
+4-31	561-568	schicke	_	_
+4-32	569-572	das	_	_
+4-33	573-578	ganze	_	_
+4-34	579-583	Heft	_	_
+4-35	584-589	unter	_	_
+4-36	590-594	Band	_	_
+4-37	595-603	zugleich	_	_
+4-38	604-607	mit	_	_
+4-39	608-614	diesem	_	_
+4-40	615-620	Brief	_	_
+4-41	621-623	ab	_	_
+4-42	624-625	.	_	_
+
+#Text=10 Novembre 1835 , Der Vorschlag 2 Bogen Bull .
+5-1	626-628	10	*[13]	DATEletter[13]
+5-2	629-637	Novembre	*[13]	DATEletter[13]
+5-3	638-642	1835	*[13]	DATEletter[13]
+5-4	643-644	,	_	_
+5-5	645-648	Der	_	_
+5-6	649-658	Vorschlag	_	_
+5-7	659-660	2	_	_
+5-8	661-666	Bogen	_	_
+5-9	667-671	Bull	_	_
+5-10	672-673	.	_	_
+
+#Text=zusammenzudrucken rührt von Lanci her , Er ist direct an Bunsen gemacht worden und hat Approbation gefunden .
+6-1	674-691	zusammenzudrucken	_	_
+6-2	692-697	rührt	_	_
+6-3	698-701	von	_	_
+6-4	702-707	Lanci	*	PERmentioned
+6-5	708-711	her	_	_
+6-6	712-713	,	_	_
+6-7	714-716	Er	_	_
+6-8	717-720	ist	_	_
+6-9	721-727	direct	_	_
+6-10	728-730	an	_	_
+6-11	731-737	Bunsen	*	PERmentioned
+6-12	738-745	gemacht	_	_
+6-13	746-752	worden	_	_
+6-14	753-756	und	_	_
+6-15	757-760	hat	_	_
+6-16	761-772	Approbation	_	_
+6-17	773-781	gefunden	_	_
+6-18	782-783	.	_	_
+
+#Text=Ich habe daher keine Verantwortlichkeit dabei .
+7-1	784-787	Ich	_	_
+7-2	788-792	habe	_	_
+7-3	793-798	daher	_	_
+7-4	799-804	keine	_	_
+7-5	805-823	Verantwortlichkeit	_	_
+7-6	824-829	dabei	_	_
+7-7	830-831	.	_	_
+
+#Text=Ich habe abgebrochen und sofort einen Ausgrabungsbericht zu Papier gebracht , Er ist nur auf nothdürftige Aushülfe berechnet .
+8-1	832-835	Ich	_	_
+8-2	836-840	habe	_	_
+8-3	841-852	abgebrochen	_	_
+8-4	853-856	und	_	_
+8-5	857-863	sofort	_	_
+8-6	864-869	einen	_	_
+8-7	870-888	Ausgrabungsbericht	_	_
+8-8	889-891	zu	_	_
+8-9	892-898	Papier	_	_
+8-10	899-907	gebracht	_	_
+8-11	908-909	,	_	_
+8-12	910-912	Er	_	_
+8-13	913-916	ist	_	_
+8-14	917-920	nur	_	_
+8-15	921-924	auf	_	_
+8-16	925-937	nothdürftige	_	_
+8-17	938-946	Aushülfe	_	_
+8-18	947-956	berechnet	_	_
+8-19	957-958	.	_	_
+
+#Text=Sie können ihn redigiren wie Sie wollen , oder auch ganz unterdrücken .
+9-1	959-962	Sie	_	_
+9-2	963-969	können	_	_
+9-3	970-973	ihn	_	_
+9-4	974-983	redigiren	_	_
+9-5	984-987	wie	_	_
+9-6	988-991	Sie	_	_
+9-7	992-998	wollen	_	_
+9-8	999-1000	,	_	_
+9-9	1001-1005	oder	_	_
+9-10	1006-1010	auch	_	_
+9-11	1011-1015	ganz	_	_
+9-12	1016-1028	unterdrücken	_	_
+9-13	1029-1030	.	_	_
+
+#Text=Die Fortsetzung schicke ich mit nächster Donnerstagspost .
+10-1	1031-1034	Die	_	_
+10-2	1035-1046	Fortsetzung	_	_
+10-3	1047-1054	schicke	_	_
+10-4	1055-1058	ich	_	_
+10-5	1059-1062	mit	_	_
+10-6	1063-1071	nächster	_	_
+10-7	1072-1087	Donnerstagspost	_	_
+10-8	1088-1089	.	_	_
+
+#Text=Ihr treuer EBraun .
+11-1	1090-1093	Ihr	_	_
+11-2	1094-1100	treuer	_	_
+11-3	1101-1107	EBraun	*	PERauthor
+11-4	1108-1109	.	_	_

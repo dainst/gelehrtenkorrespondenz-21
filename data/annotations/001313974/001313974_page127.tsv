@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=286 Helbig an Henzen Rom , 6. Juli 1870 11/7 70 Roma , li 6. Juli 1870 Lieber Herr Professor Ihren Brief vom 2. an Hinck beantworte ich .
+1-1	0-3	286	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	6.	*[1]	DATEletter[1]
+1-8	30-34	Juli	*[1]	DATEletter[1]
+1-9	35-39	1870	*[1]	DATEletter[1]
+1-10	40-44	11/7	*[2]	DATErecieved[2]
+1-11	45-47	70	*[2]	DATErecieved[2]
+1-12	48-52	Roma	*	PLACEfrom
+1-13	53-54	,	_	_
+1-14	55-57	li	_	_
+1-15	58-60	6.	_	_
+1-16	61-65	Juli	*[3]	DATEletter[3]
+1-17	66-70	1870	*[3]	DATEletter[3]
+1-18	71-77	Lieber	_	_
+1-19	78-82	Herr	_	_
+1-20	83-92	Professor	_	_
+1-21	93-98	Ihren	_	_
+1-22	99-104	Brief	_	_
+1-23	105-108	vom	_	_
+1-24	109-111	2.	*[4]	DATEmentioned[4]
+1-25	112-114	an	_	_
+1-26	115-120	Hinck	*	PERmentioned
+1-27	121-131	beantworte	_	_
+1-28	132-135	ich	_	_
+1-29	136-137	.	_	_
+
+#Text=Hinck hat vorgestern einen Blutsturz gehabt .
+2-1	138-143	Hinck	*	PERmentioned
+2-2	144-147	hat	_	_
+2-3	148-158	vorgestern	_	_
+2-4	159-164	einen	_	_
+2-5	165-174	Blutsturz	_	_
+2-6	175-181	gehabt	_	_
+2-7	182-183	.	_	_
+
+#Text=Gestern stand er auf , obwohl wir uns alle Mühe geben , ihn im Bette zu halten .
+3-1	184-191	Gestern	_	_
+3-2	192-197	stand	_	_
+3-3	198-200	er	_	_
+3-4	201-204	auf	_	_
+3-5	205-206	,	_	_
+3-6	207-213	obwohl	_	_
+3-7	214-217	wir	_	_
+3-8	218-221	uns	_	_
+3-9	222-226	alle	_	_
+3-10	227-231	Mühe	_	_
+3-11	232-237	geben	_	_
+3-12	238-239	,	_	_
+3-13	240-243	ihn	_	_
+3-14	244-246	im	_	_
+3-15	247-252	Bette	_	_
+3-16	253-255	zu	_	_
+3-17	256-262	halten	_	_
+3-18	263-264	.	_	_
+
+#Text=In Folge dessen hat er seit gestern Mittag bis heute Morgen drei weitere Anfälle gehabt .
+4-1	265-267	In	_	_
+4-2	268-273	Folge	_	_
+4-3	274-280	dessen	_	_
+4-4	281-284	hat	_	_
+4-5	285-287	er	_	_
+4-6	288-292	seit	_	_
+4-7	293-300	gestern	_	_
+4-8	301-307	Mittag	_	_
+4-9	308-311	bis	_	_
+4-10	312-317	heute	_	_
+4-11	318-324	Morgen	_	_
+4-12	325-329	drei	_	_
+4-13	330-337	weitere	_	_
+4-14	338-345	Anfälle	_	_
+4-15	346-352	gehabt	_	_
+4-16	353-354	.	_	_
+
+#Text=Sein Zustand scheint mir in der That nicht ohne Bedenken zu sein .
+5-1	355-359	Sein	_	_
+5-2	360-367	Zustand	_	_
+5-3	368-375	scheint	_	_
+5-4	376-379	mir	_	_
+5-5	380-382	in	_	_
+5-6	383-386	der	_	_
+5-7	387-391	That	_	_
+5-8	392-397	nicht	_	_
+5-9	398-402	ohne	_	_
+5-10	403-411	Bedenken	_	_
+5-11	412-414	zu	_	_
+5-12	415-419	sein	_	_
+5-13	420-421	.	_	_
+
+#Text=Hoffen wir das Beste .
+6-1	422-428	Hoffen	_	_
+6-2	429-432	wir	_	_
+6-3	433-436	das	_	_
+6-4	437-442	Beste	_	_
+6-5	443-444	.	_	_
+
+#Text=Ihre Briefe an de Rossi und Nest werde ich besorgen .
+7-1	445-449	Ihre	_	_
+7-2	450-456	Briefe	_	_
+7-3	457-459	an	_	_
+7-4	460-462	de	*[5]	PERmentioned[5]
+7-5	463-468	Rossi	*[5]	PERmentioned[5]
+7-6	469-472	und	_	_
+7-7	473-477	Nest	_	_
+7-8	478-483	werde	_	_
+7-9	484-487	ich	_	_
+7-10	488-496	besorgen	_	_
+7-11	497-498	.	_	_
+
+#Text=Ich sehe übrigens mit Schmerzen , daß ein Brief von mir mit Einlage einiger Zeilen von Michaelis , den ich am 27. an Sie abschickte , verloren gegangen ist .
+8-1	499-502	Ich	_	_
+8-2	503-507	sehe	_	_
+8-3	508-516	übrigens	_	_
+8-4	517-520	mit	_	_
+8-5	521-530	Schmerzen	_	_
+8-6	531-532	,	_	_
+8-7	533-536	daß	_	_
+8-8	537-540	ein	_	_
+8-9	541-546	Brief	_	_
+8-10	547-550	von	_	_
+8-11	551-554	mir	_	_
+8-12	555-558	mit	_	_
+8-13	559-566	Einlage	_	_
+8-14	567-574	einiger	_	_
+8-15	575-581	Zeilen	_	_
+8-16	582-585	von	_	_
+8-17	586-595	Michaelis	*	PERmentioned
+8-18	596-597	,	_	_
+8-19	598-601	den	_	_
+8-20	602-605	ich	_	_
+8-21	606-608	am	_	_
+8-22	609-612	27.	*[6]	DATEmentioned[6]
+8-23	613-615	an	_	_
+8-24	616-619	Sie	_	_
+8-25	620-630	abschickte	_	_
+8-26	631-632	,	_	_
+8-27	633-641	verloren	_	_
+8-28	642-650	gegangen	_	_
+8-29	651-654	ist	_	_
+8-30	655-656	.	_	_
+
+#Text=Fast möchte ich annehmen , daß ich Ihre Adresse statt 5 Wilhelmsplatz 5 Wilhelmstraße geschrieben habe .
+9-1	657-661	Fast	_	_
+9-2	662-668	möchte	_	_
+9-3	669-672	ich	_	_
+9-4	673-681	annehmen	_	_
+9-5	682-683	,	_	_
+9-6	684-687	daß	_	_
+9-7	688-691	ich	_	_
+9-8	692-696	Ihre	_	_
+9-9	697-704	Adresse	_	_
+9-10	705-710	statt	_	_
+9-11	711-712	5	_	_
+9-12	713-726	Wilhelmsplatz	_	_
+9-13	727-728	5	_	_
+9-14	729-742	Wilhelmstraße	_	_
+9-15	743-754	geschrieben	_	_
+9-16	755-759	habe	_	_
+9-17	760-761	.	_	_
+
+#Text=Geschäftliches von Bedeutung liegt nicht vor .
+10-1	762-776	Geschäftliches	_	_
+10-2	777-780	von	_	_
+10-3	781-790	Bedeutung	_	_
+10-4	791-796	liegt	_	_
+10-5	797-802	nicht	_	_
+10-6	803-806	vor	_	_
+10-7	807-808	.	_	_
+
+#Text=Das Julibullettino corrigire ich heute fertig , sodaß es Ende der Woche erscheinen kann .
+11-1	809-812	Das	_	_
+11-2	813-827	Julibullettino	_	_
+11-3	828-837	corrigire	_	_
+11-4	838-841	ich	_	_
+11-5	842-847	heute	_	_
+11-6	848-854	fertig	_	_
+11-7	855-856	,	_	_
+11-8	857-862	sodaß	_	_
+11-9	863-865	es	_	_
+11-10	866-870	Ende	_	_
+11-11	871-874	der	_	_
+11-12	875-880	Woche	_	_
+11-13	881-891	erscheinen	_	_
+11-14	892-896	kann	_	_
+11-15	897-898	.	_	_
+
+#Text=Hoffentlich bleiben , da ich es allein corrigire , nicht zu viele Druckfehler stehen .
+12-1	899-910	Hoffentlich	_	_
+12-2	911-918	bleiben	_	_
+12-3	919-920	,	_	_
+12-4	921-923	da	_	_
+12-5	924-927	ich	_	_
+12-6	928-930	es	_	_
+12-7	931-937	allein	_	_
+12-8	938-947	corrigire	_	_
+12-9	948-949	,	_	_
+12-10	950-955	nicht	_	_
+12-11	956-958	zu	_	_
+12-12	959-964	viele	_	_
+12-13	965-976	Druckfehler	_	_
+12-14	977-983	stehen	_	_
+12-15	984-985	.	_	_
+
+#Text=Einen Brief von Leutsch lege ich bei .
+13-1	986-991	Einen	_	_
+13-2	992-997	Brief	_	_
+13-3	998-1001	von	_	_
+13-4	1002-1009	Leutsch	*	PERmentioned
+13-5	1010-1014	lege	_	_
+13-6	1015-1018	ich	_	_
+13-7	1019-1022	bei	_	_
+13-8	1023-1024	.	_	_

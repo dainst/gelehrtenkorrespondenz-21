@@ -1,0 +1,208 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=331 Lepsius an Henzen Berlin , 26. Mai 1877 lich sich bei der mündlichen Besprechung auch davon überzeugt hätten .
+1-1	0-3	331	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	26.	*[1]	DATEletter[1]
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1877	*[1]	DATEletter[1]
+1-10	44-48	lich	_	_
+1-11	49-53	sich	_	_
+1-12	54-57	bei	_	_
+1-13	58-61	der	_	_
+1-14	62-72	mündlichen	_	_
+1-15	73-84	Besprechung	_	_
+1-16	85-89	auch	_	_
+1-17	90-95	davon	_	_
+1-18	96-105	überzeugt	_	_
+1-19	106-112	hätten	_	_
+1-20	113-114	.	_	_
+
+#Text=Noch ist uns keine Antwort vom Auswärtigen Amt zugegangen .
+2-1	115-119	Noch	_	_
+2-2	120-123	ist	_	_
+2-3	124-127	uns	_	_
+2-4	128-133	keine	_	_
+2-5	134-141	Antwort	_	_
+2-6	142-145	vom	_	_
+2-7	146-157	Auswärtigen	*[2]	ORGmentioned[2]
+2-8	158-161	Amt	*[2]	ORGmentioned[2]
+2-9	162-172	zugegangen	_	_
+2-10	173-174	.	_	_
+
+#Text=Vielleicht nach Rom ?
+3-1	175-185	Vielleicht	_	_
+3-2	186-190	nach	_	_
+3-3	191-194	Rom	*	PLACEmentioned
+3-4	195-196	?	_	_
+
+#Text=Lassen Sie uns gefälligst wissen , wie auf anderm Wege die Eingabe der CGentral-Direktion an das Auswärtige Amt zur Kenntnis der Architekten kommen konnte , wie doch aus Ihrem Briefe hervorzugehen scheint .
+4-1	197-203	Lassen	_	_
+4-2	204-207	Sie	_	_
+4-3	208-211	uns	_	_
+4-4	212-222	gefälligst	_	_
+4-5	223-229	wissen	_	_
+4-6	230-231	,	_	_
+4-7	232-235	wie	_	_
+4-8	236-239	auf	_	_
+4-9	240-246	anderm	_	_
+4-10	247-251	Wege	_	_
+4-11	252-255	die	_	_
+4-12	256-263	Eingabe	_	_
+4-13	264-267	der	_	_
+4-14	268-286	CGentral-Direktion	*	ORGmentioned
+4-15	287-289	an	_	_
+4-16	290-293	das	_	_
+4-17	294-304	Auswärtige	*[3]	ORGmentioned[3]
+4-18	305-308	Amt	*[3]	ORGmentioned[3]
+4-19	309-312	zur	_	_
+4-20	313-321	Kenntnis	_	_
+4-21	322-325	der	_	_
+4-22	326-337	Architekten	_	_
+4-23	338-344	kommen	_	_
+4-24	345-351	konnte	_	_
+4-25	352-353	,	_	_
+4-26	354-357	wie	_	_
+4-27	358-362	doch	_	_
+4-28	363-366	aus	_	_
+4-29	367-372	Ihrem	_	_
+4-30	373-379	Briefe	_	_
+4-31	380-393	hervorzugehen	_	_
+4-32	394-401	scheint	_	_
+4-33	402-403	.	_	_
+
+#Text=In Bezug auf Lanci 's Anerbieten eine historische Notiz über das Institut zur Jubelfeier abzufassen , wurde dieses gern angenommen in der Weise , daß er ihr die Form giebt eines von ihm an das Institut oder dessen Sekretariat zu richtenden Schreibens .
+5-1	404-406	In	_	_
+5-2	407-412	Bezug	_	_
+5-3	413-416	auf	_	_
+5-4	417-422	Lanci	*[6]	PERmentioned[6]
+5-5	423-425	's	*[6]	PERmentioned[6]
+5-6	426-436	Anerbieten	_	_
+5-7	437-441	eine	_	_
+5-8	442-453	historische	_	_
+5-9	454-459	Notiz	_	_
+5-10	460-464	über	_	_
+5-11	465-468	das	_	_
+5-12	469-477	Institut	*	ORGmentioned
+5-13	478-481	zur	_	_
+5-14	482-492	Jubelfeier	_	_
+5-15	493-503	abzufassen	_	_
+5-16	504-505	,	_	_
+5-17	506-511	wurde	_	_
+5-18	512-518	dieses	_	_
+5-19	519-523	gern	_	_
+5-20	524-534	angenommen	_	_
+5-21	535-537	in	_	_
+5-22	538-541	der	_	_
+5-23	542-547	Weise	_	_
+5-24	548-549	,	_	_
+5-25	550-553	daß	_	_
+5-26	554-556	er	_	_
+5-27	557-560	ihr	_	_
+5-28	561-564	die	_	_
+5-29	565-569	Form	_	_
+5-30	570-575	giebt	_	_
+5-31	576-581	eines	_	_
+5-32	582-585	von	_	_
+5-33	586-589	ihm	_	_
+5-34	590-592	an	_	_
+5-35	593-596	das	_	_
+5-36	597-605	Institut	*	ORGmentioned
+5-37	606-610	oder	_	_
+5-38	611-617	dessen	_	_
+5-39	618-629	Sekretariat	_	_
+5-40	630-632	zu	_	_
+5-41	633-643	richtenden	_	_
+5-42	644-654	Schreibens	_	_
+5-43	655-656	.	_	_
+
+#Text=Die Druckkosten würde das Institut übernehnen .
+6-1	657-660	Die	_	_
+6-2	661-672	Druckkosten	_	_
+6-3	673-678	würde	_	_
+6-4	679-682	das	_	_
+6-5	683-691	Institut	*	ORGmentioned
+6-6	692-702	übernehnen	_	_
+6-7	703-704	.	_	_
+
+#Text=Die Genehmigung des Kaisers zur Annahme des TestamentsiIvanoff ist bei uns durch das Auswärtige Amt eingegangen .
+7-1	705-708	Die	_	_
+7-2	709-720	Genehmigung	_	_
+7-3	721-724	des	_	_
+7-4	725-732	Kaisers	*	PERmentioned
+7-5	733-736	zur	_	_
+7-6	737-744	Annahme	_	_
+7-7	745-748	des	_	_
+7-8	749-767	TestamentsiIvanoff	*	PERmentioned
+7-9	768-771	ist	_	_
+7-10	772-775	bei	_	_
+7-11	776-779	uns	_	_
+7-12	780-785	durch	_	_
+7-13	786-789	das	_	_
+7-14	790-800	Auswärtige	*[4]	ORGmentioned[4]
+7-15	801-804	Amt	*[4]	ORGmentioned[4]
+7-16	805-816	eingegangen	_	_
+7-17	817-818	.	_	_
+
+#Text=wir stehen nach einer hoffentlich letzten kalten Woche nun wirklich mitten im blüthenreichenfrühling .
+8-1	819-822	wir	_	_
+8-2	823-829	stehen	_	_
+8-3	830-834	nach	_	_
+8-4	835-840	einer	_	_
+8-5	841-852	hoffentlich	_	_
+8-6	853-860	letzten	_	_
+8-7	861-867	kalten	_	_
+8-8	868-873	Woche	_	_
+8-9	874-877	nun	_	_
+8-10	878-886	wirklich	_	_
+8-11	887-893	mitten	_	_
+8-12	894-896	im	_	_
+8-13	897-919	blüthenreichenfrühling	_	_
+8-14	920-921	.	_	_
+
+#Text=Ihr ergebenster R Lepsius Die 11 Kisten Parthey'scher Bücher stehen jetzt zur Absendung bereit .
+9-1	922-925	Ihr	_	_
+9-2	926-937	ergebenster	_	_
+9-3	938-939	R	*[5]	PERauthor[5]
+9-4	940-947	Lepsius	*[5]	PERauthor[5]
+9-5	948-951	Die	_	_
+9-6	952-954	11	_	_
+9-7	955-961	Kisten	_	_
+9-8	962-975	Parthey'scher	*	PERmentioned
+9-9	976-982	Bücher	_	_
+9-10	983-989	stehen	_	_
+9-11	990-995	jetzt	_	_
+9-12	996-999	zur	_	_
+9-13	1000-1009	Absendung	_	_
+9-14	1010-1016	bereit	_	_
+9-15	1017-1018	.	_	_
+
+#Text=Wir haben aber noch keine Antwort vom Italienischen Botschafter über das erbetene lasciapassare .
+10-1	1019-1022	Wir	_	_
+10-2	1023-1028	haben	_	_
+10-3	1029-1033	aber	_	_
+10-4	1034-1038	noch	_	_
+10-5	1039-1044	keine	_	_
+10-6	1045-1052	Antwort	_	_
+10-7	1053-1056	vom	_	_
+10-8	1057-1070	Italienischen	_	_
+10-9	1071-1082	Botschafter	_	_
+10-10	1083-1087	über	_	_
+10-11	1088-1091	das	_	_
+10-12	1092-1100	erbetene	_	_
+10-13	1101-1114	lasciapassare	_	_
+10-14	1115-1116	.	_	_
+
+#Text=Die Verpackungskosten werden Ihnen durch Asher
+11-1	1117-1120	Die	_	_
+11-2	1121-1138	Verpackungskosten	_	_
+11-3	1139-1145	werden	_	_
+11-4	1146-1151	Ihnen	_	_
+11-5	1152-1157	durch	_	_
+11-6	1158-1163	Asher	*	PERmentioned

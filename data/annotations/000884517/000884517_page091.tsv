@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=3 .
+1-1	0-1	3	_	_
+1-2	2-3	.	_	_
+
+#Text=Gerhard an Braun Berlin , 24. Dezember 1844 shesi hat es verschnitten , während ich im besten Zug war seinen Rath zu Henzens Gunsten zu folgen , der freilich auch tändelte .
+2-1	4-11	Gerhard	*	PERauthor
+2-2	12-14	an	_	_
+2-3	15-20	Braun	*	PERaddressee
+2-4	21-27	Berlin	*	PLACEfrom
+2-5	28-29	,	_	_
+2-6	30-33	24.	*[1]	DATEletter[1]
+2-7	34-42	Dezember	*[1]	DATEletter[1]
+2-8	43-47	1844	*[1]	DATEletter[1]
+2-9	48-53	shesi	*	PERmentioned
+2-10	54-57	hat	_	_
+2-11	58-60	es	_	_
+2-12	61-73	verschnitten	_	_
+2-13	74-75	,	_	_
+2-14	76-83	während	_	_
+2-15	84-87	ich	_	_
+2-16	88-90	im	_	_
+2-17	91-97	besten	_	_
+2-18	98-101	Zug	_	_
+2-19	102-105	war	_	_
+2-20	106-112	seinen	_	_
+2-21	113-117	Rath	_	_
+2-22	118-120	zu	_	_
+2-23	121-128	Henzens	*	PERmentioned
+2-24	129-136	Gunsten	_	_
+2-25	137-139	zu	_	_
+2-26	140-146	folgen	_	_
+2-27	147-148	,	_	_
+2-28	149-152	der	_	_
+2-29	153-161	freilich	_	_
+2-30	162-166	auch	_	_
+2-31	167-175	tändelte	_	_
+2-32	176-177	.	_	_
+
+#Text=Wissen Sie eine Form vorzuschlagen ?
+3-1	178-184	Wissen	_	_
+3-2	185-188	Sie	_	_
+3-3	189-193	eine	_	_
+3-4	194-198	Form	_	_
+3-5	199-212	vorzuschlagen	_	_
+3-6	213-214	?	_	_
+
+#Text=Ist Lebas Mitglied unseres Instituts und hat er demselben sich angenähert ?
+4-1	215-218	Ist	_	_
+4-2	219-224	Lebas	*	PERmentioned
+4-3	225-233	Mitglied	_	_
+4-4	234-241	unseres	_	_
+4-5	242-251	Instituts	*	ORGmentioned
+4-6	252-255	und	_	_
+4-7	256-259	hat	_	_
+4-8	260-262	er	_	_
+4-9	263-272	demselben	_	_
+4-10	273-277	sich	_	_
+4-11	278-288	angenähert	_	_
+4-12	289-290	?	_	_
+
+#Text=Rochette ist notorisch keines , sondern von unseren französischen Kollegen ausgestossen .
+5-1	291-299	Rochette	*	PERmentioned
+5-2	300-303	ist	_	_
+5-3	304-313	notorisch	_	_
+5-4	314-320	keines	_	_
+5-5	321-322	,	_	_
+5-6	323-330	sondern	_	_
+5-7	331-334	von	_	_
+5-8	335-342	unseren	_	_
+5-9	343-356	französischen	_	_
+5-10	357-365	Kollegen	_	_
+5-11	366-378	ausgestossen	_	_
+5-12	379-380	.	_	_
+
+#Text=Friedländer ist freilich eckig \; mir , der ich ihm ein numismatisches Verzeichniß für die Archäologische Zeitung angetragen hatte das ihm genehm war , ist er als ich verreist war hier durch gegangen ohne mir irgend eine Zeile oder Bestellung zurückzulassen , hat auch seitdem nicht geschrieben .
+6-1	381-392	Friedländer	*	PERmentioned
+6-2	393-396	ist	_	_
+6-3	397-405	freilich	_	_
+6-4	406-411	eckig	_	_
+6-5	412-413	\;	_	_
+6-6	414-417	mir	_	_
+6-7	418-419	,	_	_
+6-8	420-423	der	_	_
+6-9	424-427	ich	_	_
+6-10	428-431	ihm	_	_
+6-11	432-435	ein	_	_
+6-12	436-450	numismatisches	_	_
+6-13	451-462	Verzeichniß	_	_
+6-14	463-466	für	_	_
+6-15	467-470	die	_	_
+6-16	471-485	Archäologische	_	_
+6-17	486-493	Zeitung	_	_
+6-18	494-504	angetragen	_	_
+6-19	505-510	hatte	_	_
+6-20	511-514	das	_	_
+6-21	515-518	ihm	_	_
+6-22	519-525	genehm	_	_
+6-23	526-529	war	_	_
+6-24	530-531	,	_	_
+6-25	532-535	ist	_	_
+6-26	536-538	er	_	_
+6-27	539-542	als	_	_
+6-28	543-546	ich	_	_
+6-29	547-555	verreist	_	_
+6-30	556-559	war	_	_
+6-31	560-564	hier	_	_
+6-32	565-570	durch	_	_
+6-33	571-579	gegangen	_	_
+6-34	580-584	ohne	_	_
+6-35	585-588	mir	_	_
+6-36	589-595	irgend	_	_
+6-37	596-600	eine	_	_
+6-38	601-606	Zeile	_	_
+6-39	607-611	oder	_	_
+6-40	612-622	Bestellung	_	_
+6-41	623-637	zurückzulassen	_	_
+6-42	638-639	,	_	_
+6-43	640-643	hat	_	_
+6-44	644-648	auch	_	_
+6-45	649-656	seitdem	_	_
+6-46	657-662	nicht	_	_
+6-47	663-674	geschrieben	_	_
+6-48	675-676	.	_	_
+
+#Text=Brunn inkommodiert sich die Sendungen der Bullettini Napoletani mich zahlen zu lassen , die ich durch gelegentliche Sendung zeitig genug erhalten \; nämlich da ohnehin ein andres Exemplar früher hierher kommt .
+7-1	677-682	Brunn	*	PERmentioned
+7-2	683-695	inkommodiert	_	_
+7-3	696-700	sich	_	_
+7-4	701-704	die	_	_
+7-5	705-714	Sendungen	_	_
+7-6	715-718	der	_	_
+7-7	719-729	Bullettini	_	_
+7-8	730-740	Napoletani	_	_
+7-9	741-745	mich	_	_
+7-10	746-752	zahlen	_	_
+7-11	753-755	zu	_	_
+7-12	756-762	lassen	_	_
+7-13	763-764	,	_	_
+7-14	765-768	die	_	_
+7-15	769-772	ich	_	_
+7-16	773-778	durch	_	_
+7-17	779-792	gelegentliche	_	_
+7-18	793-800	Sendung	_	_
+7-19	801-807	zeitig	_	_
+7-20	808-813	genug	_	_
+7-21	814-822	erhalten	_	_
+7-22	823-824	\;	_	_
+7-23	825-832	nämlich	_	_
+7-24	833-835	da	_	_
+7-25	836-843	ohnehin	_	_
+7-26	844-847	ein	_	_
+7-27	848-854	andres	_	_
+7-28	855-863	Exemplar	_	_
+7-29	864-870	früher	_	_
+7-30	871-878	hierher	_	_
+7-31	879-884	kommt	_	_
+7-32	885-886	.	_	_
+
+#Text=Ein Waagen'scher Beischluß ist so dick gesiegelt daß ich das Siegel ausschneide \; ungelesen \| !
+8-1	887-890	Ein	_	_
+8-2	891-903	Waagen'scher	*	PERmentioned
+8-3	904-913	Beischluß	_	_
+8-4	914-917	ist	_	_
+8-5	918-920	so	_	_
+8-6	921-925	dick	_	_
+8-7	926-935	gesiegelt	_	_
+8-8	936-939	daß	_	_
+8-9	940-943	ich	_	_
+8-10	944-947	das	_	_
+8-11	948-954	Siegel	_	_
+8-12	955-966	ausschneide	_	_
+8-13	967-968	\;	_	_
+8-14	969-978	ungelesen	_	_
+8-15	979-980	\|	_	_
+8-16	981-982	!	_	_
+
+#Text=Bei mir geht es über Erwartung übel , ich in bekannter Weise die bessere Zeit erwartend , meine arme Frau aber schon in der 6.ten Woche aufs Haus beschränkt , gezwungen unthätig und von stetem Schmerz heimgesucht .
+9-1	983-986	Bei	_	_
+9-2	987-990	mir	_	_
+9-3	991-995	geht	_	_
+9-4	996-998	es	_	_
+9-5	999-1003	über	_	_
+9-6	1004-1013	Erwartung	_	_
+9-7	1014-1018	übel	_	_
+9-8	1019-1020	,	_	_
+9-9	1021-1024	ich	_	_
+9-10	1025-1027	in	_	_
+9-11	1028-1037	bekannter	_	_
+9-12	1038-1043	Weise	_	_
+9-13	1044-1047	die	_	_
+9-14	1048-1055	bessere	_	_
+9-15	1056-1060	Zeit	_	_
+9-16	1061-1070	erwartend	_	_
+9-17	1071-1072	,	_	_
+9-18	1073-1078	meine	_	_
+9-19	1079-1083	arme	_	_
+9-20	1084-1088	Frau	_	_
+9-21	1089-1093	aber	_	_
+9-22	1094-1099	schon	_	_
+9-23	1100-1102	in	_	_
+9-24	1103-1106	der	_	_
+9-25	1107-1112	6.ten	_	_
+9-26	1113-1118	Woche	_	_
+9-27	1119-1123	aufs	_	_
+9-28	1124-1128	Haus	_	_
+9-29	1129-1139	beschränkt	_	_
+9-30	1140-1141	,	_	_
+9-31	1142-1151	gezwungen	_	_
+9-32	1152-1160	unthätig	_	_
+9-33	1161-1164	und	_	_
+9-34	1165-1168	von	_	_
+9-35	1169-1175	stetem	_	_
+9-36	1176-1183	Schmerz	_	_
+9-37	1184-1195	heimgesucht	_	_
+9-38	1196-1197	.	_	_
+
+#Text=Zwei Versuche die Luft zu ertragen , sehr vorsichtige , brachten Kopf- und Zahnschmerzen heftigster Art hervor :
+10-1	1198-1202	Zwei	_	_
+10-2	1203-1211	Versuche	_	_
+10-3	1212-1215	die	_	_
+10-4	1216-1220	Luft	_	_
+10-5	1221-1223	zu	_	_
+10-6	1224-1232	ertragen	_	_
+10-7	1233-1234	,	_	_
+10-8	1235-1239	sehr	_	_
+10-9	1240-1251	vorsichtige	_	_
+10-10	1252-1253	,	_	_
+10-11	1254-1262	brachten	_	_
+10-12	1263-1268	Kopf-	_	_
+10-13	1269-1272	und	_	_
+10-14	1273-1286	Zahnschmerzen	_	_
+10-15	1287-1297	heftigster	_	_
+10-16	1298-1301	Art	_	_
+10-17	1302-1308	hervor	_	_
+10-18	1309-1310	:	_	_

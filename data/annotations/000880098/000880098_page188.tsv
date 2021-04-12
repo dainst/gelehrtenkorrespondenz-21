@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=327 Braun an Gerhard Durch ein grobes Versehen des Schreiners Bellini sind 5 Gypse der Tasse des Canulejus in die Bonner Kiste gekommen .
+1-1	0-3	327	_	_	
+1-2	4-9	Braun	*	PERauthor	
+1-3	10-12	an	_	_	
+1-4	13-20	Gerhard	*	PERaddressee	
+1-5	21-26	Durch	_	_	
+1-6	27-30	ein	_	_	
+1-7	31-37	grobes	_	_	
+1-8	38-46	Versehen	_	_	
+1-9	47-50	des	_	_	
+1-10	51-61	Schreiners	_	_	
+1-11	62-69	Bellini	*	PERmentioned	
+1-12	70-74	sind	_	_	
+1-13	75-76	5	_	_	
+1-14	77-82	Gypse	_	_	
+1-15	83-86	der	_	_	
+1-16	87-92	Tasse	*[1]	OBJ[1]	
+1-17	93-96	des	*[1]	OBJ[1]	
+1-18	97-106	Canulejus	*[1]	OBJ[1]	
+1-19	107-109	in	_	_	
+1-20	110-113	die	_	_	
+1-21	114-120	Bonner	*	PLACEmentioned	
+1-22	121-126	Kiste	_	_	
+1-23	127-135	gekommen	_	_	
+1-24	136-137	.	_	_	
+
+#Text=Einen davon hatte ich für Welcker bestimmt .
+2-1	138-143	Einen	_	_	
+2-2	144-149	davon	_	_	
+2-3	150-155	hatte	_	_	
+2-4	156-159	ich	_	_	
+2-5	160-163	für	_	_	
+2-6	164-171	Welcker	*	PERmentioned	
+2-7	172-180	bestimmt	_	_	
+2-8	181-182	.	_	_	
+
+#Text=Ich ersuche Sie daher an Marcus die Aufforderung ergehen zu lassen , daß er Ihnen die 4 Kästchen mit den angezeigten Gypsen zustellen lässt .
+3-1	183-186	Ich	_	_	
+3-2	187-194	ersuche	_	_	
+3-3	195-198	Sie	_	_	
+3-4	199-204	daher	_	_	
+3-5	205-207	an	_	_	
+3-6	208-214	Marcus	*	PERmentioned	
+3-7	215-218	die	_	_	
+3-8	219-231	Aufforderung	_	_	
+3-9	232-239	ergehen	_	_	
+3-10	240-242	zu	_	_	
+3-11	243-249	lassen	_	_	
+3-12	250-251	,	_	_	
+3-13	252-255	daß	_	_	
+3-14	256-258	er	_	_	
+3-15	259-264	Ihnen	_	_	
+3-16	265-268	die	_	_	
+3-17	269-270	4	_	_	
+3-18	271-279	Kästchen	_	_	
+3-19	280-283	mit	_	_	
+3-20	284-287	den	_	_	
+3-21	288-299	angezeigten	_	_	
+3-22	300-306	Gypsen	_	_	
+3-23	307-316	zustellen	_	_	
+3-24	317-322	lässt	_	_	
+3-25	323-324	.	_	_	
+
+#Text=Die Tasse ist von Durand erworben und theuer bezahlt worden .
+4-1	325-328	Die	_	_	
+4-2	329-334	Tasse	*	OBJ	
+4-3	335-338	ist	_	_	
+4-4	339-342	von	_	_	
+4-5	343-349	Durand	*	PERmentioned	
+4-6	350-358	erworben	_	_	
+4-7	359-362	und	_	_	
+4-8	363-369	theuer	_	_	
+4-9	370-377	bezahlt	_	_	
+4-10	378-384	worden	_	_	
+4-11	385-386	.	_	_	
+
+#Text=Auch besitzt selbiger eine andere Patera mit dem selben Künstlernamen aber weniser schön .
+5-1	387-391	Auch	_	_	
+5-2	392-399	besitzt	_	_	
+5-3	400-408	selbiger	_	_	
+5-4	409-413	eine	_	_	
+5-5	414-420	andere	_	_	
+5-6	421-427	Patera	*	OBJ	
+5-7	428-431	mit	_	_	
+5-8	432-435	dem	_	_	
+5-9	436-442	selben	_	_	
+5-10	443-456	Künstlernamen	_	_	
+5-11	457-461	aber	_	_	
+5-12	462-469	weniser	_	_	
+5-13	470-475	schön	_	_	
+5-14	476-477	.	_	_	
+
+#Text=Ein gewisser Herrmann in Marburg hat ein Werk über Plato herausgegeben , das er hoffentlich dem Institut geschenkt hat .
+6-1	478-481	Ein	_	_	
+6-2	482-490	gewisser	_	_	
+6-3	491-499	Herrmann	*	PERmentioned	
+6-4	500-502	in	_	_	
+6-5	503-510	Marburg	*	PLACEmentioned	
+6-6	511-514	hat	_	_	
+6-7	515-518	ein	_	_	
+6-8	519-523	Werk	*[2]	LIT[2]	
+6-9	524-528	über	*[2]	LIT[2]	
+6-10	529-534	Plato	*[2]|*[3]	LIT[2]|PERmentioned[3]	
+6-11	535-548	herausgegeben	_	_	
+6-12	549-550	,	_	_	
+6-13	551-554	das	_	_	
+6-14	555-557	er	_	_	
+6-15	558-569	hoffentlich	_	_	
+6-16	570-573	dem	_	_	
+6-17	574-582	Institut	*	ORGmentioned	
+6-18	583-592	geschenkt	_	_	
+6-19	593-596	hat	_	_	
+6-20	597-598	.	_	_	
+
+#Text=Sonst bitte ich un dessen Besorgung .
+7-1	599-604	Sonst	_	_	
+7-2	605-610	bitte	_	_	
+7-3	611-614	ich	_	_	
+7-4	615-617	un	_	_	
+7-5	618-624	dessen	_	_	
+7-6	625-634	Besorgung	_	_	
+7-7	635-636	.	_	_	
+
+#Text=Ghr .
+8-1	637-640	Ghr	_	_	
+8-2	641-642	.	_	_	
+
+#Text=Bunsen ist sehr ungehalten , daß Arnold ( Rugby Coll . ) das Corpus unserer Pubblicationen nicht erhalten hat .
+9-1	643-649	Bunsen	*	PERmentioned	
+9-2	650-653	ist	_	_	
+9-3	654-658	sehr	_	_	
+9-4	659-669	ungehalten	_	_	
+9-5	670-671	,	_	_	
+9-6	672-675	daß	_	_	
+9-7	676-682	Arnold	*	PERmentioned	
+9-8	683-684	(	_	_	
+9-9	685-690	Rugby	*[4]	ORGmentioned[4]	
+9-10	691-695	Coll	*[4]	ORGmentioned[4]	
+9-11	696-697	.	*[4]	ORGmentioned[4]	
+9-12	698-699	)	_	_	
+9-13	700-703	das	_	_	
+9-14	704-710	Corpus	_	_	
+9-15	711-718	unserer	_	_	
+9-16	719-733	Pubblicationen	_	_	
+9-17	734-739	nicht	_	_	
+9-18	740-748	erhalten	_	_	
+9-19	749-752	hat	_	_	
+9-20	753-754	.	_	_	
+
+#Text=Ich sandte sie in Folge Ihres Auftrags den 17 März v. J an Frio Hare , der sie aber zurücksandte .
+10-1	755-758	Ich	_	_	
+10-2	759-765	sandte	_	_	
+10-3	766-769	sie	_	_	
+10-4	770-772	in	_	_	
+10-5	773-778	Folge	_	_	
+10-6	779-784	Ihres	_	_	
+10-7	785-793	Auftrags	_	_	
+10-8	794-797	den	_	_	
+10-9	798-800	17	*[5]	DATEmentioned[5]	
+10-10	801-805	März	*[5]	DATEmentioned[5]	
+10-11	806-808	v.	*[5]	DATEmentioned[5]	
+10-12	809-810	J	*[5]	DATEmentioned[5]	
+10-13	811-813	an	_	_	
+10-14	814-818	Frio	_	_	
+10-15	819-823	Hare	*	PERmentioned	
+10-16	824-825	,	_	_	
+10-17	826-829	der	_	_	
+10-18	830-833	sie	_	_	
+10-19	834-838	aber	_	_	
+10-20	839-851	zurücksandte	_	_	
+10-21	852-853	.	_	_	
+
+#Text=Ich weiß nicht , welchen Weg Sie dann wählten , Hoffentlich ist aber die Sache nicht verschleppt worden .
+11-1	854-857	Ich	_	_	
+11-2	858-862	weiß	_	_	
+11-3	863-868	nicht	_	_	
+11-4	869-870	,	_	_	
+11-5	871-878	welchen	_	_	
+11-6	879-882	Weg	_	_	
+11-7	883-886	Sie	_	_	
+11-8	887-891	dann	_	_	
+11-9	892-899	wählten	_	_	
+11-10	900-901	,	_	_	
+11-11	902-913	Hoffentlich	_	_	
+11-12	914-917	ist	_	_	
+11-13	918-922	aber	_	_	
+11-14	923-926	die	_	_	
+11-15	927-932	Sache	_	_	
+11-16	933-938	nicht	_	_	
+11-17	939-950	verschleppt	_	_	
+11-18	951-957	worden	_	_	
+11-19	958-959	.	_	_	
+
+#Text=Ich harre Ihrer Antwort und halte ein Exemplar bereit , um es mit Spedizionsgelegenheit nach England zu senden .
+12-1	960-963	Ich	_	_	
+12-2	964-969	harre	_	_	
+12-3	970-975	Ihrer	_	_	
+12-4	976-983	Antwort	_	_	
+12-5	984-987	und	_	_	
+12-6	988-993	halte	_	_	
+12-7	994-997	ein	_	_	
+12-8	998-1006	Exemplar	_	_	
+12-9	1007-1013	bereit	_	_	
+12-10	1014-1015	,	_	_	
+12-11	1016-1018	um	_	_	
+12-12	1019-1021	es	_	_	
+12-13	1022-1025	mit	_	_	
+12-14	1026-1047	Spedizionsgelegenheit	_	_	
+12-15	1048-1052	nach	_	_	
+12-16	1053-1060	England	*	PLACEmentioned	
+12-17	1061-1063	zu	_	_	
+12-18	1064-1070	senden	_	_	
+12-19	1071-1072	.	_	_	
+
+#Text=Eiselers Winckelmann ist kein Nachdruck , sondern die vollständigste Ausgabe , welche existirt .
+13-1	1073-1081	Eiselers	*	PERmentioned	
+13-2	1082-1093	Winckelmann	*	PERmentioned	
+13-3	1094-1097	ist	_	_	
+13-4	1098-1102	kein	_	_	
+13-5	1103-1112	Nachdruck	_	_	
+13-6	1113-1114	,	_	_	
+13-7	1115-1122	sondern	_	_	
+13-8	1123-1126	die	_	_	
+13-9	1127-1141	vollständigste	_	_	
+13-10	1142-1149	Ausgabe	_	_	
+13-11	1150-1151	,	_	_	
+13-12	1152-1158	welche	_	_	
+13-13	1159-1167	existirt	_	_	
+13-14	1168-1169	.	_	_	
+
+#Text=Für die Bibl . der Deutschen habe ich die Dresdner angeschafft ; das Institut könnte sie sich von Walther schenken lassen .
+14-1	1170-1173	Für	_	_	
+14-2	1174-1177	die	_	_	
+14-3	1178-1182	Bibl	*[6]	ORGmentioned[6]	
+14-4	1183-1184	.	*[6]	ORGmentioned[6]	
+14-5	1185-1188	der	*[6]	ORGmentioned[6]	
+14-6	1189-1198	Deutschen	*[6]	ORGmentioned[6]	
+14-7	1199-1203	habe	_	_	
+14-8	1204-1207	ich	_	_	
+14-9	1208-1211	die	_	_	
+14-10	1212-1220	Dresdner	*	MISC	
+14-11	1221-1232	angeschafft	_	_	
+14-12	1233-1234	;	_	_	
+14-13	1235-1238	das	_	_	
+14-14	1239-1247	Institut	*	ORGmentioned	
+14-15	1248-1254	könnte	_	_	
+14-16	1255-1258	sie	_	_	
+14-17	1259-1263	sich	_	_	
+14-18	1264-1267	von	_	_	
+14-19	1268-1275	Walther	*	PERmentioned	
+14-20	1276-1284	schenken	_	_	
+14-21	1285-1291	lassen	_	_	
+14-22	1292-1293	.	_	_	

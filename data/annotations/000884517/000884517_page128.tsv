@@ -1,0 +1,190 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=109 Eichhorn an Gerhard zu Gerhard an Braun Berlin , 24. März 1845 Ew .
+1-1	0-3	109	_	_
+1-2	4-12	Eichhorn	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-23	Gerhard	*	PERauthor
+1-5	24-26	zu	_	_
+1-6	27-34	Gerhard	*	PERaddressee
+1-7	35-37	an	_	_
+1-8	38-43	Braun	*	PERaddressee
+1-9	44-50	Berlin	*	PLACEfrom
+1-10	51-52	,	_	_
+1-11	53-56	24.	*[3]	DATEletter[3]
+1-12	57-61	März	*[3]	DATEletter[3]
+1-13	62-66	1845	*[3]	DATEletter[3]
+1-14	67-69	Ew	_	_
+1-15	70-71	.	_	_
+
+#Text=Wohlgeboren benachrichtige ich hierdurch mit Bezugnahme auf Ihren Bericht vom 10 Oktober v. Jhrs , daß des Königs Majestät mittelst allerhöchster Ordre vom 3. v. Mts dem Archäologischen Institut zu Rom auf die Jahre 1845 . 1846 und 1847 zur Anstellung eines zweiten Bekretärs dessen Wahl jedoch jedesmal von der Allerhöchsten Zustimmung abhängig gemacht werden muß , eine Unterstützung von 540 rt jährlich zu bewilligen geruht haben , welche aber wegfallen soll , wenn der Dr. Braun vor Ablauf jenes Zeitraums die Stelle des dirigirenden ersten Sekretärs des Instituts niederlegen möchte .
+2-1	72-83	Wohlgeboren	_	_
+2-2	84-98	benachrichtige	_	_
+2-3	99-102	ich	_	_
+2-4	103-112	hierdurch	_	_
+2-5	113-116	mit	_	_
+2-6	117-127	Bezugnahme	_	_
+2-7	128-131	auf	_	_
+2-8	132-137	Ihren	_	_
+2-9	138-145	Bericht	_	_
+2-10	146-149	vom	_	_
+2-11	150-152	10	*[4]	DATEmentioned[4]
+2-12	153-160	Oktober	*[4]	DATEmentioned[4]
+2-13	161-163	v.	*[4]	DATEmentioned[4]
+2-14	164-168	Jhrs	*[4]	DATEmentioned[4]
+2-15	169-170	,	_	_
+2-16	171-174	daß	_	_
+2-17	175-178	des	_	_
+2-18	179-185	Königs	*[5]	PERmentioned[5]
+2-19	186-194	Majestät	*[5]	PERmentioned[5]
+2-20	195-203	mittelst	_	_
+2-21	204-217	allerhöchster	_	_
+2-22	218-223	Ordre	_	_
+2-23	224-227	vom	_	_
+2-24	228-230	3.	_	_
+2-25	231-233	v.	_	_
+2-26	234-237	Mts	_	_
+2-27	238-241	dem	_	_
+2-28	242-257	Archäologischen	*[6]	ORGmentioned[6]
+2-29	258-266	Institut	*[6]	ORGmentioned[6]
+2-30	267-269	zu	_	_
+2-31	270-273	Rom	*	PLACEmentioned
+2-32	274-277	auf	_	_
+2-33	278-281	die	_	_
+2-34	282-287	Jahre	_	_
+2-35	288-292	1845	*	DATEmentioned
+2-36	293-294	.	_	_
+2-37	295-299	1846	*	DATEmentioned
+2-38	300-303	und	_	_
+2-39	304-308	1847	*	DATEmentioned
+2-40	309-312	zur	_	_
+2-41	313-323	Anstellung	_	_
+2-42	324-329	eines	_	_
+2-43	330-337	zweiten	_	_
+2-44	338-347	Bekretärs	_	_
+2-45	348-354	dessen	_	_
+2-46	355-359	Wahl	_	_
+2-47	360-366	jedoch	_	_
+2-48	367-375	jedesmal	_	_
+2-49	376-379	von	_	_
+2-50	380-383	der	_	_
+2-51	384-397	Allerhöchsten	_	_
+2-52	398-408	Zustimmung	_	_
+2-53	409-417	abhängig	_	_
+2-54	418-425	gemacht	_	_
+2-55	426-432	werden	_	_
+2-56	433-436	muß	_	_
+2-57	437-438	,	_	_
+2-58	439-443	eine	_	_
+2-59	444-457	Unterstützung	_	_
+2-60	458-461	von	_	_
+2-61	462-465	540	_	_
+2-62	466-468	rt	_	_
+2-63	469-477	jährlich	_	_
+2-64	478-480	zu	_	_
+2-65	481-491	bewilligen	_	_
+2-66	492-498	geruht	_	_
+2-67	499-504	haben	_	_
+2-68	505-506	,	_	_
+2-69	507-513	welche	_	_
+2-70	514-518	aber	_	_
+2-71	519-528	wegfallen	_	_
+2-72	529-533	soll	_	_
+2-73	534-535	,	_	_
+2-74	536-540	wenn	_	_
+2-75	541-544	der	_	_
+2-76	545-548	Dr.	*[7]	PERmentioned[7]
+2-77	549-554	Braun	*[7]	PERmentioned[7]
+2-78	555-558	vor	_	_
+2-79	559-565	Ablauf	_	_
+2-80	566-571	jenes	_	_
+2-81	572-581	Zeitraums	_	_
+2-82	582-585	die	_	_
+2-83	586-592	Stelle	_	_
+2-84	593-596	des	_	_
+2-85	597-609	dirigirenden	_	_
+2-86	610-616	ersten	_	_
+2-87	617-626	Sekretärs	_	_
+2-88	627-630	des	_	_
+2-89	631-640	Instituts	*	ORGmentioned
+2-90	641-652	niederlegen	_	_
+2-91	653-659	möchte	_	_
+2-92	660-661	.	_	_
+
+#Text=Zugleich haben Seine Majestät die beabsichtigte Berufung des Dr. Henzen zu der Stelle des zweiten Sekretärs zu genehmigen geruht .
+3-1	662-670	Zugleich	_	_
+3-2	671-676	haben	_	_
+3-3	677-682	Seine	*[8]	PERmentioned[8]
+3-4	683-691	Majestät	*[8]	PERmentioned[8]
+3-5	692-695	die	_	_
+3-6	696-709	beabsichtigte	_	_
+3-7	710-718	Berufung	_	_
+3-8	719-722	des	_	_
+3-9	723-726	Dr.	*[9]	PERmentioned[9]
+3-10	727-733	Henzen	*[9]	PERmentioned[9]
+3-11	734-736	zu	_	_
+3-12	737-740	der	_	_
+3-13	741-747	Stelle	_	_
+3-14	748-751	des	_	_
+3-15	752-759	zweiten	_	_
+3-16	760-769	Sekretärs	_	_
+3-17	770-772	zu	_	_
+3-18	773-783	genehmigen	_	_
+3-19	784-790	geruht	_	_
+3-20	791-792	.	_	_
+
+#Text=In Folge dieser Allerhochsten Bestimmungen ist von mir das Weitere veranlaßt worden .
+4-1	793-795	In	_	_
+4-2	796-801	Folge	_	_
+4-3	802-808	dieser	_	_
+4-4	809-822	Allerhochsten	_	_
+4-5	823-835	Bestimmungen	_	_
+4-6	836-839	ist	_	_
+4-7	840-843	von	_	_
+4-8	844-847	mir	_	_
+4-9	848-851	das	_	_
+4-10	852-859	Weitere	_	_
+4-11	860-869	veranlaßt	_	_
+4-12	870-876	worden	_	_
+4-13	877-878	.	_	_
+
+#Text=Berlin den 17.ten März 1845 .
+5-1	879-885	Berlin	*	PLACEfrom
+5-2	886-889	den	_	_
+5-3	890-896	17.ten	*[10]	DATEletter[10]
+5-4	897-901	März	*[10]	DATEletter[10]
+5-5	902-906	1845	*[10]	DATEletter[10]
+5-6	907-908	.	_	_
+
+#Text=Kgl .
+6-1	909-912	Kgl	_	_
+6-2	913-914	.	_	_
+
+#Text=Ministerium d. geistl .
+7-1	915-926	Ministerium	_	_
+7-2	927-929	d.	_	_
+7-3	930-936	geistl	_	_
+7-4	937-938	.	_	_
+
+#Text=etc. Angelegenheiten Eichhorn An Prof. Gerhard ( Auf demselben Brief von Gerhard an Braun vom 24. März 1845 )
+8-1	939-943	etc.	_	_
+8-2	944-959	Angelegenheiten	_	_
+8-3	960-968	Eichhorn	*	PERauthor
+8-4	969-971	An	_	_
+8-5	972-977	Prof.	*[11]	PERaddressee[11]
+8-6	978-985	Gerhard	*[11]	PERaddressee[11]
+8-7	986-987	(	_	_
+8-8	988-991	Auf	_	_
+8-9	992-1001	demselben	_	_
+8-10	1002-1007	Brief	_	_
+8-11	1008-1011	von	_	_
+8-12	1012-1019	Gerhard	*	PERauthor
+8-13	1020-1022	an	_	_
+8-14	1023-1028	Braun	*	PERaddressee
+8-15	1029-1032	vom	_	_
+8-16	1033-1036	24.	*[12]	DATEletter[12]
+8-17	1037-1041	März	*[12]	DATEletter[12]
+8-18	1042-1046	1845	*[12]	DATEletter[12]
+8-19	1047-1048	)	_	_

@@ -1,0 +1,203 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=297 % Braun an Gerhard Rom , 5. März 1835 platten einen Durchschnittspreis ( en masse ) von 2 Sc. setzen .
+1-1	0-3	297	_	_
+1-2	4-5	%	_	_
+1-3	6-11	Braun	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-22	Gerhard	*	PERaddressee
+1-6	23-26	Rom	*	PLACEfrom
+1-7	27-28	,	_	_
+1-8	29-31	5.	*[1]	DATEletter[1]
+1-9	32-36	März	*[1]	DATEletter[1]
+1-10	37-41	1835	*[1]	DATEletter[1]
+1-11	42-49	platten	_	_
+1-12	50-55	einen	_	_
+1-13	56-74	Durchschnittspreis	_	_
+1-14	75-76	(	_	_
+1-15	77-79	en	_	_
+1-16	80-85	masse	_	_
+1-17	86-87	)	_	_
+1-18	88-91	von	_	_
+1-19	92-93	2	_	_
+1-20	94-97	Sc.	_	_
+1-21	98-104	setzen	_	_
+1-22	105-106	.	_	_
+
+#Text=Für Rom ist das sehr billig .
+2-1	107-110	Für	_	_
+2-2	111-114	Rom	*	PLACEmentioned
+2-3	115-118	ist	_	_
+2-4	119-122	das	_	_
+2-5	123-127	sehr	_	_
+2-6	128-134	billig	_	_
+2-7	135-136	.	_	_
+
+#Text=Die Vaso del papa habe ich für Sc. 15 ( ein Blatt ) an ihn abgegeben \; non c ' & male anzi .
+3-1	137-140	Die	_	_
+3-2	141-145	Vaso	*[2]	OBJ[2]
+3-3	146-149	del	*[2]	OBJ[2]
+3-4	150-154	papa	*[2]	OBJ[2]
+3-5	155-159	habe	_	_
+3-6	160-163	ich	_	_
+3-7	164-167	für	_	_
+3-8	168-171	Sc.	_	_
+3-9	172-174	15	_	_
+3-10	175-176	(	_	_
+3-11	177-180	ein	_	_
+3-12	181-186	Blatt	_	_
+3-13	187-188	)	_	_
+3-14	189-191	an	_	_
+3-15	192-195	ihn	_	_
+3-16	196-205	abgegeben	_	_
+3-17	206-207	\;	_	_
+3-18	208-211	non	_	_
+3-19	212-213	c	_	_
+3-20	214-215	'	_	_
+3-21	216-217	&	_	_
+3-22	218-222	male	_	_
+3-23	223-227	anzi	_	_
+3-24	228-229	.	_	_
+
+#Text=Mit nächstem Courier erhalten Sie Proben von der Durandschen Aetheravase , die sehr gut gerathen ist , selbst zu Durands Zufriedenheit .
+4-1	230-233	Mit	_	_
+4-2	234-242	nächstem	_	_
+4-3	243-250	Courier	_	_
+4-4	251-259	erhalten	_	_
+4-5	260-263	Sie	_	_
+4-6	264-270	Proben	_	_
+4-7	271-274	von	_	_
+4-8	275-278	der	_	_
+4-9	279-290	Durandschen	*	PERmentioned
+4-10	291-302	Aetheravase	*	OBJ
+4-11	303-304	,	_	_
+4-12	305-308	die	_	_
+4-13	309-313	sehr	_	_
+4-14	314-317	gut	_	_
+4-15	318-326	gerathen	_	_
+4-16	327-330	ist	_	_
+4-17	331-332	,	_	_
+4-18	333-339	selbst	_	_
+4-19	340-342	zu	_	_
+4-20	343-350	Durands	*	PERmentioned
+4-21	351-364	Zufriedenheit	_	_
+4-22	365-366	.	_	_
+
+#Text=Meine Oyenica , worunter eine Gemme , die schon bei Micali aber schlecht ist , sind auch nicht übel gerathen , Ems nme Mat mare Inne deren mE Gi Era Gr ER a ame as ame Ich erhalten Ihren Brief vom 11 - 17 Febr .
+5-1	367-372	Meine	_	_
+5-2	373-380	Oyenica	_	_
+5-3	381-382	,	_	_
+5-4	383-391	worunter	_	_
+5-5	392-396	eine	_	_
+5-6	397-402	Gemme	_	_
+5-7	403-404	,	_	_
+5-8	405-408	die	_	_
+5-9	409-414	schon	_	_
+5-10	415-418	bei	_	_
+5-11	419-425	Micali	*	PERmentioned
+5-12	426-430	aber	_	_
+5-13	431-439	schlecht	_	_
+5-14	440-443	ist	_	_
+5-15	444-445	,	_	_
+5-16	446-450	sind	_	_
+5-17	451-455	auch	_	_
+5-18	456-461	nicht	_	_
+5-19	462-466	übel	_	_
+5-20	467-475	gerathen	_	_
+5-21	476-477	,	_	_
+5-22	478-481	Ems	_	_
+5-23	482-485	nme	_	_
+5-24	486-489	Mat	_	_
+5-25	490-494	mare	_	_
+5-26	495-499	Inne	_	_
+5-27	500-505	deren	_	_
+5-28	506-508	mE	_	_
+5-29	509-511	Gi	_	_
+5-30	512-515	Era	_	_
+5-31	516-518	Gr	_	_
+5-32	519-521	ER	_	_
+5-33	522-523	a	_	_
+5-34	524-527	ame	_	_
+5-35	528-530	as	_	_
+5-36	531-534	ame	_	_
+5-37	535-538	Ich	_	_
+5-38	539-547	erhalten	_	_
+5-39	548-553	Ihren	_	_
+5-40	554-559	Brief	_	_
+5-41	560-563	vom	_	_
+5-42	564-566	11	_	_
+5-43	567-568	-	_	_
+5-44	569-571	17	_	_
+5-45	572-576	Febr	_	_
+5-46	577-578	.	_	_
+
+#Text=Bunsen wünscht , daß Welcker , Böckh und Müller Artikel liefern möchten \; daß Luynes wo möglich gewonnen würde , was keinen gelingen könnte wie Ihnen .
+6-1	579-585	Bunsen	*	PERmentioned
+6-2	586-593	wünscht	_	_
+6-3	594-595	,	_	_
+6-4	596-599	daß	_	_
+6-5	600-607	Welcker	*	PERmentioned
+6-6	608-609	,	_	_
+6-7	610-615	Böckh	*	PERmentioned
+6-8	616-619	und	_	_
+6-9	620-626	Müller	*	PERmentioned
+6-10	627-634	Artikel	_	_
+6-11	635-642	liefern	_	_
+6-12	643-650	möchten	_	_
+6-13	651-652	\;	_	_
+6-14	653-656	daß	_	_
+6-15	657-663	Luynes	*	PERmentioned
+6-16	664-666	wo	_	_
+6-17	667-674	möglich	_	_
+6-18	675-683	gewonnen	_	_
+6-19	684-689	würde	_	_
+6-20	690-691	,	_	_
+6-21	692-695	was	_	_
+6-22	696-702	keinen	_	_
+6-23	703-711	gelingen	_	_
+6-24	712-718	könnte	_	_
+6-25	719-722	wie	_	_
+6-26	723-728	Ihnen	_	_
+6-27	729-730	.	_	_
+
+#Text=Daß aber 1834 d . Ann .
+7-1	731-734	Daß	_	_
+7-2	735-739	aber	_	_
+7-3	740-744	1834	_	_
+7-4	745-746	d	_	_
+7-5	747-748	.	_	_
+7-6	749-752	Ann	_	_
+7-7	753-754	.	_	_
+
+#Text=beendigt werden möchte , bevor 1835 ausgegeben wird .
+8-1	755-763	beendigt	_	_
+8-2	764-770	werden	_	_
+8-3	771-777	möchte	_	_
+8-4	778-779	,	_	_
+8-5	780-785	bevor	_	_
+8-6	786-790	1835	_	_
+8-7	791-801	ausgegeben	_	_
+8-8	802-806	wird	_	_
+8-9	807-808	.	_	_
+
+#Text=Durandä ist reich wie Krösus \; eben kam ich mit Bunsen von ihm .
+9-1	809-816	Durandä	*	PERmentioned
+9-2	817-820	ist	_	_
+9-3	821-826	reich	_	_
+9-4	827-830	wie	_	_
+9-5	831-837	Krösus	*	PERmentioned
+9-6	838-839	\;	_	_
+9-7	840-844	eben	_	_
+9-8	845-848	kam	_	_
+9-9	849-852	ich	_	_
+9-10	853-856	mit	_	_
+9-11	857-863	Bunsen	*	PERmentioned
+9-12	864-867	von	_	_
+9-13	868-871	ihm	_	_
+9-14	872-873	.	_	_
+
+#Text=Ihr Braun
+10-1	874-877	Ihr	_	_
+10-2	878-883	Braun	*	PERauthor

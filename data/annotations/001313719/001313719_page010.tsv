@@ -1,0 +1,263 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Plamptoo 670 Gerhard an Henzen Berlin 10/XI/1843 Aff , di Direz .
+1-1	0-8	Plamptoo	_	_	
+1-2	9-12	670	_	_	
+1-3	13-20	Gerhard	*	PERauthor	
+1-4	21-23	an	_	_	
+1-5	24-30	Henzen	*	PERaddressee	
+1-6	31-37	Berlin	*	PLACEfrom	
+1-7	38-48	10/XI/1843	*	DATEletter	
+1-8	49-52	Aff	_	_	
+1-9	53-54	,	_	_	
+1-10	55-57	di	_	_	
+1-11	58-63	Direz	_	_	
+1-12	64-65	.	_	_	
+
+#Text=g . 28/11 43 r . 2/12 43 D. Henzen Berlin 10/191 Nov .
+2-1	66-67	g	_	_	
+2-2	68-69	.	_	_	
+2-3	70-75	28/11	*[1]	DATErecieved[1]	
+2-4	76-78	43	*[1]	DATErecieved[1]	
+2-5	79-80	r	_	_	
+2-6	81-82	.	_	_	
+2-7	83-87	2/12	*[2]	DATEanswered[2]	
+2-8	88-90	43	*[2]	DATEanswered[2]	
+2-9	91-93	D.	_	_	
+2-10	94-100	Henzen	*	PERaddressee	
+2-11	101-107	Berlin	*	PLACEfrom	
+2-12	108-114	10/191	*[3]	DATEletter[3]	
+2-13	115-118	Nov	*[3]	DATEletter[3]	
+2-14	119-120	.	*[3]	DATEletter[3]	
+
+#Text=43 Gestern lieber Freund ist endlich Ihre Wiener Sendung mit den vermißten Papieren mir zugekommen , wonach Blessigs und Horkels Bestellungen unverzüglich realisiert sind .
+3-1	121-123	43	*[3]	DATEletter[3]	
+3-2	124-131	Gestern	_	_	
+3-3	132-138	lieber	_	_	
+3-4	139-145	Freund	_	_	
+3-5	146-149	ist	_	_	
+3-6	150-157	endlich	_	_	
+3-7	158-162	Ihre	_	_	
+3-8	163-169	Wiener	*	PLACEmentioned	
+3-9	170-177	Sendung	_	_	
+3-10	178-181	mit	_	_	
+3-11	182-185	den	_	_	
+3-12	186-195	vermißten	_	_	
+3-13	196-204	Papieren	_	_	
+3-14	205-208	mir	_	_	
+3-15	209-219	zugekommen	_	_	
+3-16	220-221	,	_	_	
+3-17	222-228	wonach	_	_	
+3-18	229-237	Blessigs	*	PERmentioned	
+3-19	238-241	und	_	_	
+3-20	242-249	Horkels	*	PERmentioned	
+3-21	250-262	Bestellungen	_	_	
+3-22	263-275	unverzüglich	_	_	
+3-23	276-286	realisiert	_	_	
+3-24	287-291	sind	_	_	
+3-25	292-293	.	_	_	
+
+#Text=Sagen Sie dies beiden werthen Freunden mit nochmaliger “ ntschuldigung 14 tägiger Verspätung .
+4-1	294-299	Sagen	_	_	
+4-2	300-303	Sie	_	_	
+4-3	304-308	dies	_	_	
+4-4	309-315	beiden	_	_	
+4-5	316-323	werthen	_	_	
+4-6	324-332	Freunden	_	_	
+4-7	333-336	mit	_	_	
+4-8	337-348	nochmaliger	_	_	
+4-9	349-350	“	_	_	
+4-10	351-364	ntschuldigung	_	_	
+4-11	365-367	14	_	_	
+4-12	368-375	tägiger	_	_	
+4-13	376-386	Verspätung	_	_	
+4-14	387-388	.	_	_	
+
+#Text=Avellinos Brief sagte nichts weiter als daß das von ihm für die kgl .
+5-1	389-398	Avellinos	*	PERmentioned	
+5-2	399-404	Brief	_	_	
+5-3	405-410	sagte	_	_	
+5-4	411-417	nichts	_	_	
+5-5	418-424	weiter	_	_	
+5-6	425-428	als	_	_	
+5-7	429-432	daß	_	_	
+5-8	433-436	das	_	_	
+5-9	437-440	von	_	_	
+5-10	441-444	ihm	_	_	
+5-11	445-448	für	_	_	
+5-12	449-452	die	_	_	
+5-13	453-456	kgl	*[4]	ORGmentioned[4]	
+5-14	457-458	.	*[4]	ORGmentioned[4]	
+
+#Text=Bibliothek bei mir bestellte und für diese nach Rom gesandte Ex .
+6-1	459-469	Bibliothek	*[4]	ORGmentioned[4]	
+6-2	470-473	bei	_	_	
+6-3	474-477	mir	_	_	
+6-4	478-487	bestellte	_	_	
+6-5	488-491	und	_	_	
+6-6	492-495	für	_	_	
+6-7	496-501	diese	_	_	
+6-8	502-506	nach	_	_	
+6-9	507-510	Rom	*	PLACEmentioned	
+6-10	511-519	gesandte	_	_	
+6-11	520-522	Ex	_	_	
+6-12	523-524	.	_	_	
+
+#Text=meiner Werke desselben durch Aloe 's hiesige Ankäufe überflüssig geworden ist .
+7-1	525-531	meiner	_	_	
+7-2	532-537	Werke	_	_	
+7-3	538-547	desselben	_	_	
+7-4	548-553	durch	_	_	
+7-5	554-558	Aloe	*[5]	PERmentioned[5]	
+7-6	559-561	's	*[5]	PERmentioned[5]	
+7-7	562-569	hiesige	_	_	
+7-8	570-577	Ankäufe	_	_	
+7-9	578-589	überflüssig	_	_	
+7-10	590-598	geworden	_	_	
+7-11	599-602	ist	_	_	
+7-12	603-604	.	_	_	
+
+#Text=Ich hoffe es läßt sich anderweitig unterbringen , vielleicht bei Santangelo , wundre mich aber daß Aloe der mir mehrere Rssociati versprach und noch nach Rom unverzüglich mir schreiben wollte nichts deshalb hören ließ .
+8-1	605-608	Ich	_	_	
+8-2	609-614	hoffe	_	_	
+8-3	615-617	es	_	_	
+8-4	618-622	läßt	_	_	
+8-5	623-627	sich	_	_	
+8-6	628-639	anderweitig	_	_	
+8-7	640-652	unterbringen	_	_	
+8-8	653-654	,	_	_	
+8-9	655-665	vielleicht	_	_	
+8-10	666-669	bei	_	_	
+8-11	670-680	Santangelo	*	PERmentioned	
+8-12	681-682	,	_	_	
+8-13	683-689	wundre	_	_	
+8-14	690-694	mich	_	_	
+8-15	695-699	aber	_	_	
+8-16	700-703	daß	_	_	
+8-17	704-708	Aloe	*	PERmentioned	
+8-18	709-712	der	_	_	
+8-19	713-716	mir	_	_	
+8-20	717-724	mehrere	_	_	
+8-21	725-734	Rssociati	_	_	
+8-22	735-744	versprach	_	_	
+8-23	745-748	und	_	_	
+8-24	749-753	noch	_	_	
+8-25	754-758	nach	_	_	
+8-26	759-762	Rom	*	PLACEmentioned	
+8-27	763-775	unverzüglich	_	_	
+8-28	776-779	mir	_	_	
+8-29	780-789	schreiben	_	_	
+8-30	790-796	wollte	_	_	
+8-31	797-803	nichts	_	_	
+8-32	804-811	deshalb	_	_	
+8-33	812-817	hören	_	_	
+8-34	818-822	ließ	_	_	
+8-35	823-824	.	_	_	
+
+#Text=Ihrer Besorgung bei Grisi besten Dank ; si & dato 1'incomodo nig durch die Post zu danken .
+9-1	825-830	Ihrer	_	_	
+9-2	831-840	Besorgung	_	_	
+9-3	841-844	bei	_	_	
+9-4	845-850	Grisi	*	PERmentioned	
+9-5	851-857	besten	_	_	
+9-6	858-862	Dank	_	_	
+9-7	863-864	;	_	_	
+9-8	865-867	si	_	_	
+9-9	868-869	&	_	_	
+9-10	870-874	dato	_	_	
+9-11	875-885	1'incomodo	_	_	
+9-12	886-889	nig	_	_	
+9-13	890-895	durch	_	_	
+9-14	896-899	die	_	_	
+9-15	900-904	Post	_	_	
+9-16	905-907	zu	_	_	
+9-17	908-914	danken	_	_	
+9-18	915-916	.	_	_	
+
+#Text=Ich bitte Sie auf ähnliche Weise auch dem Gargallo etliche meiner neuesten Abhandlungen etwa Atlas und Phipos oder auch noch ein drittes was zahlreich da ist nach Neapel zu senden .
+10-1	917-920	Ich	_	_	
+10-2	921-926	bitte	_	_	
+10-3	927-930	Sie	_	_	
+10-4	931-934	auf	_	_	
+10-5	935-943	ähnliche	_	_	
+10-6	944-949	Weise	_	_	
+10-7	950-954	auch	_	_	
+10-8	955-958	dem	_	_	
+10-9	959-967	Gargallo	*	PERmentioned	
+10-10	968-975	etliche	_	_	
+10-11	976-982	meiner	_	_	
+10-12	983-991	neuesten	_	_	
+10-13	992-1004	Abhandlungen	_	_	
+10-14	1005-1009	etwa	_	_	
+10-15	1010-1015	Atlas	_	_	
+10-16	1016-1019	und	_	_	
+10-17	1020-1026	Phipos	_	_	
+10-18	1027-1031	oder	_	_	
+10-19	1032-1036	auch	_	_	
+10-20	1037-1041	noch	_	_	
+10-21	1042-1045	ein	_	_	
+10-22	1046-1053	drittes	_	_	
+10-23	1054-1057	was	_	_	
+10-24	1058-1067	zahlreich	_	_	
+10-25	1068-1070	da	_	_	
+10-26	1071-1074	ist	_	_	
+10-27	1075-1079	nach	_	_	
+10-28	1080-1086	Neapel	*	PLACEmentioned	
+10-29	1087-1089	zu	_	_	
+10-30	1090-1096	senden	_	_	
+10-31	1097-1098	.	_	_	
+
+#Text=Veber Piacentini 's Vasen und deren Preis erwarte ich Ihre Notiz .
+11-1	1099-1104	Veber	_	_	
+11-2	1105-1115	Piacentini	*[6]	PERmentioned[6]	
+11-3	1116-1118	's	*[6]	PERmentioned[6]	
+11-4	1119-1124	Vasen	*	MISC	
+11-5	1125-1128	und	_	_	
+11-6	1129-1134	deren	_	_	
+11-7	1135-1140	Preis	_	_	
+11-8	1141-1148	erwarte	_	_	
+11-9	1149-1152	ich	_	_	
+11-10	1153-1157	Ihre	_	_	
+11-11	1158-1163	Notiz	_	_	
+11-12	1164-1165	.	_	_	
+
+#Text=Die Badevase lerne ich gern aus einer Zeichnung kennen .
+12-1	1166-1169	Die	_	_	
+12-2	1170-1178	Badevase	*	OBJ	
+12-3	1179-1184	lerne	_	_	
+12-4	1185-1188	ich	_	_	
+12-5	1189-1193	gern	_	_	
+12-6	1194-1197	aus	_	_	
+12-7	1198-1203	einer	_	_	
+12-8	1204-1213	Zeichnung	_	_	
+12-9	1214-1220	kennen	_	_	
+12-10	1221-1222	.	_	_	
+
+#Text=De N rase möchte ich gern nächstens publiciren und bitte deshalb deren Rückseite auf der Form ( 1/5 Größe ) gezeichnet mir zu besorgen .
+13-1	1223-1225	De	_	_	
+13-2	1226-1227	N	*[7]	OBJ[7]	
+13-3	1228-1232	rase	*[7]	OBJ[7]	
+13-4	1233-1239	möchte	_	_	
+13-5	1240-1243	ich	_	_	
+13-6	1244-1248	gern	_	_	
+13-7	1249-1258	nächstens	_	_	
+13-8	1259-1269	publiciren	_	_	
+13-9	1270-1273	und	_	_	
+13-10	1274-1279	bitte	_	_	
+13-11	1280-1287	deshalb	_	_	
+13-12	1288-1293	deren	_	_	
+13-13	1294-1303	Rückseite	_	_	
+13-14	1304-1307	auf	_	_	
+13-15	1308-1311	der	_	_	
+13-16	1312-1316	Form	_	_	
+13-17	1317-1318	(	_	_	
+13-18	1319-1322	1/5	_	_	
+13-19	1323-1328	Größe	_	_	
+13-20	1329-1330	)	_	_	
+13-21	1331-1341	gezeichnet	_	_	
+13-22	1342-1345	mir	_	_	
+13-23	1346-1348	zu	_	_	
+13-24	1349-1357	besorgen	_	_	
+13-25	1358-1359	.	_	_	

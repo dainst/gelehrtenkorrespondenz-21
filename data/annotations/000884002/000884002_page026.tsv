@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=270 Brunn an Henzen Perugia , 20.5eptenber 58 A. di Dir .
+1-1	0-3	270	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-42	20.5eptenber	*[1]	DATEletter[1]
+1-8	43-45	58	*[1]	DATEletter[1]
+1-9	46-48	A.	_	_
+1-10	49-51	di	_	_
+1-11	52-55	Dir	_	_
+1-12	56-57	.	_	_
+
+#Text=8 » 23. September 1858 r. Perugia , 20 Sept .
+2-1	58-59	8	_	_
+2-2	60-61	»	_	_
+2-3	62-65	23.	*[2]	DATErecieved[2]
+2-4	66-75	September	*[2]	DATErecieved[2]
+2-5	76-80	1858	*[2]	DATErecieved[2]
+2-6	81-83	r.	_	_
+2-7	84-91	Perugia	*	PLACEfrom
+2-8	92-93	,	_	_
+2-9	94-96	20	*[3]	DATEletter[3]
+2-10	97-101	Sept	*[3]	DATEletter[3]
+2-11	102-103	.	*[3]	DATEletter[3]
+
+#Text=1858 .
+3-1	104-108	1858	*[3]	DATEletter[3]
+3-2	109-110	.	_	_
+
+#Text=Lieber Henzen \| Gestern bin ich von einer neuntägigen Tour nach Chiusi ( und Cortona ) zurückgekehrt .
+4-1	111-117	Lieber	_	_
+4-2	118-124	Henzen	*	PERaddressee
+4-3	125-126	\|	_	_
+4-4	127-134	Gestern	_	_
+4-5	135-138	bin	_	_
+4-6	139-142	ich	_	_
+4-7	143-146	von	_	_
+4-8	147-152	einer	_	_
+4-9	153-164	neuntägigen	_	_
+4-10	165-169	Tour	_	_
+4-11	170-174	nach	_	_
+4-12	175-181	Chiusi	*	PLACEmentioned
+4-13	182-183	(	_	_
+4-14	184-187	und	_	_
+4-15	188-195	Cortona	*	PLACEmentioned
+4-16	196-197	)	_	_
+4-17	198-211	zurückgekehrt	_	_
+4-18	212-213	.	_	_
+
+#Text=Glänzend sind die Ergebnisse zwar nicht \; aber überflüssig war die Reise auch nicht .
+5-1	214-222	Glänzend	_	_
+5-2	223-227	sind	_	_
+5-3	228-231	die	_	_
+5-4	232-242	Ergebnisse	_	_
+5-5	243-247	zwar	_	_
+5-6	248-253	nicht	_	_
+5-7	254-255	\;	_	_
+5-8	256-260	aber	_	_
+5-9	261-272	überflüssig	_	_
+5-10	273-276	war	_	_
+5-11	277-280	die	_	_
+5-12	281-286	Reise	_	_
+5-13	287-291	auch	_	_
+5-14	292-297	nicht	_	_
+5-15	298-299	.	_	_
+
+#Text=Die besten Sache aus Chiusi sind natürlich in alle Welt zerstreut \; die guten in festem Besitz an Ort und Stelle sind meist durch das Museo Chiusino bekannt .
+6-1	300-303	Die	_	_
+6-2	304-310	besten	_	_
+6-3	311-316	Sache	_	_
+6-4	317-320	aus	_	_
+6-5	321-327	Chiusi	*	PLACEmentioned
+6-6	328-332	sind	_	_
+6-7	333-342	natürlich	_	_
+6-8	343-345	in	_	_
+6-9	346-350	alle	_	_
+6-10	351-355	Welt	_	_
+6-11	356-365	zerstreut	_	_
+6-12	366-367	\;	_	_
+6-13	368-371	die	_	_
+6-14	372-377	guten	_	_
+6-15	378-380	in	_	_
+6-16	381-387	festem	_	_
+6-17	388-394	Besitz	_	_
+6-18	395-397	an	_	_
+6-19	398-401	Ort	_	_
+6-20	402-405	und	_	_
+6-21	406-412	Stelle	_	_
+6-22	413-417	sind	_	_
+6-23	418-423	meist	_	_
+6-24	424-429	durch	_	_
+6-25	430-433	das	_	_
+6-26	434-439	Museo	*[4]	ORGmentioned[4]
+6-27	440-448	Chiusino	*[4]	ORGmentioned[4]
+6-28	449-456	bekannt	_	_
+6-29	457-458	.	_	_
+
+#Text=So bleibt eine Masse von unbedeutenden Dingen und Mittelgut , zwischen dem sich einiges Gute mit Mühe herausfischen läßt .
+7-1	459-461	So	_	_
+7-2	462-468	bleibt	_	_
+7-3	469-473	eine	_	_
+7-4	474-479	Masse	_	_
+7-5	480-483	von	_	_
+7-6	484-497	unbedeutenden	_	_
+7-7	498-504	Dingen	_	_
+7-8	505-508	und	_	_
+7-9	509-518	Mittelgut	_	_
+7-10	519-520	,	_	_
+7-11	521-529	zwischen	_	_
+7-12	530-533	dem	_	_
+7-13	534-538	sich	_	_
+7-14	539-546	einiges	_	_
+7-15	547-551	Gute	_	_
+7-16	552-555	mit	_	_
+7-17	556-560	Mühe	_	_
+7-18	561-574	herausfischen	_	_
+7-19	575-579	läßt	_	_
+7-20	580-581	.	_	_
+
+#Text=Ich war anfangs zweifelhaft , ob ich einen Zeichner hinschicken sollte , zumal z.B. der interessanten Tinhun=s Spiegel nicht zu haben ist , indem der ( abwesende ) Bischof zu denen gehört , die glauben , daß ein Monument durch die Publication verliere \; was mir um Gerhards Willen Leid thut .
+8-1	582-585	Ich	_	_
+8-2	586-589	war	_	_
+8-3	590-597	anfangs	_	_
+8-4	598-609	zweifelhaft	_	_
+8-5	610-611	,	_	_
+8-6	612-614	ob	_	_
+8-7	615-618	ich	_	_
+8-8	619-624	einen	_	_
+8-9	625-633	Zeichner	_	_
+8-10	634-645	hinschicken	_	_
+8-11	646-652	sollte	_	_
+8-12	653-654	,	_	_
+8-13	655-660	zumal	_	_
+8-14	661-665	z.B.	_	_
+8-15	666-669	der	_	_
+8-16	670-683	interessanten	_	_
+8-17	684-692	Tinhun=s	*[5]	OBJ[5]
+8-18	693-700	Spiegel	*[5]	OBJ[5]
+8-19	701-706	nicht	_	_
+8-20	707-709	zu	_	_
+8-21	710-715	haben	_	_
+8-22	716-719	ist	_	_
+8-23	720-721	,	_	_
+8-24	722-727	indem	_	_
+8-25	728-731	der	_	_
+8-26	732-733	(	_	_
+8-27	734-743	abwesende	*[6]	MISC[6]
+8-28	744-745	)	*[6]	MISC[6]
+8-29	746-753	Bischof	*[6]	MISC[6]
+8-30	754-756	zu	_	_
+8-31	757-762	denen	_	_
+8-32	763-769	gehört	_	_
+8-33	770-771	,	_	_
+8-34	772-775	die	_	_
+8-35	776-783	glauben	_	_
+8-36	784-785	,	_	_
+8-37	786-789	daß	_	_
+8-38	790-793	ein	_	_
+8-39	794-802	Monument	_	_
+8-40	803-808	durch	_	_
+8-41	809-812	die	_	_
+8-42	813-824	Publication	_	_
+8-43	825-833	verliere	_	_
+8-44	834-835	\;	_	_
+8-45	836-839	was	_	_
+8-46	840-843	mir	_	_
+8-47	844-846	um	_	_
+8-48	847-855	Gerhards	*	PERmentioned
+8-49	856-862	Willen	_	_
+8-50	863-867	Leid	_	_
+8-51	868-872	thut	_	_
+8-52	873-874	.	_	_
+
+#Text=Die Entscheidung , den Zeichner zu schicken , gab mir außer Ihren heutigen höchst erfreulichen Nachrichten die Erwägung , daß die meiste roba verkäuflich und es also zweifelhaft ist , ob sie in 1,2,3 Jahren noch vorhanden ist : es schien mir daher gut , so viel wie möglich , wenn auch manches nur von geringer Bedeutung , zu retten .
+9-1	875-878	Die	_	_
+9-2	879-891	Entscheidung	_	_
+9-3	892-893	,	_	_
+9-4	894-897	den	_	_
+9-5	898-906	Zeichner	_	_
+9-6	907-909	zu	_	_
+9-7	910-918	schicken	_	_
+9-8	919-920	,	_	_
+9-9	921-924	gab	_	_
+9-10	925-928	mir	_	_
+9-11	929-934	außer	_	_
+9-12	935-940	Ihren	_	_
+9-13	941-949	heutigen	_	_
+9-14	950-956	höchst	_	_
+9-15	957-969	erfreulichen	_	_
+9-16	970-981	Nachrichten	_	_
+9-17	982-985	die	_	_
+9-18	986-994	Erwägung	_	_
+9-19	995-996	,	_	_
+9-20	997-1000	daß	_	_
+9-21	1001-1004	die	_	_
+9-22	1005-1011	meiste	_	_
+9-23	1012-1016	roba	_	_
+9-24	1017-1028	verkäuflich	_	_
+9-25	1029-1032	und	_	_
+9-26	1033-1035	es	_	_
+9-27	1036-1040	also	_	_
+9-28	1041-1052	zweifelhaft	_	_
+9-29	1053-1056	ist	_	_
+9-30	1057-1058	,	_	_
+9-31	1059-1061	ob	_	_
+9-32	1062-1065	sie	_	_
+9-33	1066-1068	in	_	_
+9-34	1069-1074	1,2,3	_	_
+9-35	1075-1081	Jahren	_	_
+9-36	1082-1086	noch	_	_
+9-37	1087-1096	vorhanden	_	_
+9-38	1097-1100	ist	_	_
+9-39	1101-1102	:	_	_
+9-40	1103-1105	es	_	_
+9-41	1106-1112	schien	_	_
+9-42	1113-1116	mir	_	_
+9-43	1117-1122	daher	_	_
+9-44	1123-1126	gut	_	_
+9-45	1127-1128	,	_	_
+9-46	1129-1131	so	_	_
+9-47	1132-1136	viel	_	_
+9-48	1137-1140	wie	_	_
+9-49	1141-1148	möglich	_	_
+9-50	1149-1150	,	_	_
+9-51	1151-1155	wenn	_	_
+9-52	1156-1160	auch	_	_
+9-53	1161-1168	manches	_	_
+9-54	1169-1172	nur	_	_
+9-55	1173-1176	von	_	_
+9-56	1177-1185	geringer	_	_
+9-57	1186-1195	Bedeutung	_	_
+9-58	1196-1197	,	_	_
+9-59	1198-1200	zu	_	_
+9-60	1201-1207	retten	_	_
+9-61	1208-1209	.	_	_
+
+#Text=Auf
+10-1	1210-1213	Auf	_	_

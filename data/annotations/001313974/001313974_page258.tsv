@@ -1,0 +1,188 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=420 Helbig an Henzen Siena , 7 .
+1-1	0-3	420	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-26	Siena	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	7	*[1]	DATEletter[1]
+1-8	31-32	.	*[1]	DATEletter[1]
+
+#Text=August 1875 g . 8/8 75 Postkarte Ohne Datum .
+2-1	33-39	August	*[1]	DATEletter[1]
+2-2	40-44	1875	*[1]	DATEletter[1]
+2-3	45-46	g	_	_
+2-4	47-48	.	_	_
+2-5	49-52	8/8	*[2]	DATErecieved[2]
+2-6	53-55	75	*[2]	DATErecieved[2]
+2-7	56-65	Postkarte	_	_
+2-8	66-70	Ohne	_	_
+2-9	71-76	Datum	_	_
+2-10	77-78	.	_	_
+
+#Text=FPoststempel : Biena , 7 .
+3-1	79-91	FPoststempel	_	_
+3-2	92-93	:	_	_
+3-3	94-99	Biena	*	PLACEfrom
+3-4	100-101	,	_	_
+3-5	102-103	7	*[3]	DATEpoststamp[3]
+3-6	104-105	.	*[3]	DATEpoststamp[3]
+
+#Text=August 1875 Lieber Herr Professor !
+4-1	106-112	August	*[3]	DATEpoststamp[3]
+4-2	113-117	1875	*[3]	DATEpoststamp[3]
+4-3	118-124	Lieber	_	_
+4-4	125-129	Herr	_	_
+4-5	130-139	Professor	_	_
+4-6	140-141	!	_	_
+
+#Text=Da ich von nächsten Mittwoch den 11. bis Sanstag den 14. alle Leute , die ich sehen muß , in Chiusi , Cetena und Sarteano antreffe , so bin ich entschieden , meine Reise in diesen Tagen vorzunehmen .
+5-1	142-144	Da	_	_
+5-2	145-148	ich	_	_
+5-3	149-152	von	_	_
+5-4	153-161	nächsten	_	_
+5-5	162-170	Mittwoch	*[4]	DATEmentioned[4]
+5-6	171-174	den	*[4]	DATEmentioned[4]
+5-7	175-178	11.	*[4]	DATEmentioned[4]
+5-8	179-182	bis	_	_
+5-9	183-190	Sanstag	*[5]	DATEmentioned[5]
+5-10	191-194	den	*[5]	DATEmentioned[5]
+5-11	195-198	14.	*[5]	DATEmentioned[5]
+5-12	199-203	alle	_	_
+5-13	204-209	Leute	_	_
+5-14	210-211	,	_	_
+5-15	212-215	die	_	_
+5-16	216-219	ich	_	_
+5-17	220-225	sehen	_	_
+5-18	226-229	muß	_	_
+5-19	230-231	,	_	_
+5-20	232-234	in	_	_
+5-21	235-241	Chiusi	*	PLACEmentioned
+5-22	242-243	,	_	_
+5-23	244-250	Cetena	*	PLACEmentioned
+5-24	251-254	und	_	_
+5-25	255-263	Sarteano	*	PLACEmentioned
+5-26	264-272	antreffe	_	_
+5-27	273-274	,	_	_
+5-28	275-277	so	_	_
+5-29	278-281	bin	_	_
+5-30	282-285	ich	_	_
+5-31	286-297	entschieden	_	_
+5-32	298-299	,	_	_
+5-33	300-305	meine	_	_
+5-34	306-311	Reise	_	_
+5-35	312-314	in	_	_
+5-36	315-321	diesen	_	_
+5-37	322-327	Tagen	_	_
+5-38	328-339	vorzunehmen	_	_
+5-39	340-341	.	_	_
+
+#Text=Doch soll sich deSanctis nicht eher in Bewegung setzen , als bis ich ihm ausdrückliche Weisung zukommen gelassen .
+6-1	342-346	Doch	_	_
+6-2	347-351	soll	_	_
+6-3	352-356	sich	_	_
+6-4	357-366	deSanctis	*	PERmentioned
+6-5	367-372	nicht	_	_
+6-6	373-377	eher	_	_
+6-7	378-380	in	_	_
+6-8	381-389	Bewegung	_	_
+6-9	390-396	setzen	_	_
+6-10	397-398	,	_	_
+6-11	399-402	als	_	_
+6-12	403-406	bis	_	_
+6-13	407-410	ich	_	_
+6-14	411-414	ihm	_	_
+6-15	415-428	ausdrückliche	_	_
+6-16	429-436	Weisung	_	_
+6-17	437-445	zukommen	_	_
+6-18	446-454	gelassen	_	_
+6-19	455-456	.	_	_
+
+#Text=Was Sie betrifft , so wäre es das Beste wir träfen uns entweder den 15. in Chiusi d. h. in der Stadt , die Sie doch gewiß lange nicht besucht ( Lione d ’ oro ) oder den 14. auf der Station ( wenn der 10 Uhr Morgens von Rom abgehende Zug die Station Chiusi passirt ) um die Reise nach Siena zusammen fortzusetzen .
+7-1	457-460	Was	_	_
+7-2	461-464	Sie	_	_
+7-3	465-473	betrifft	_	_
+7-4	474-475	,	_	_
+7-5	476-478	so	_	_
+7-6	479-483	wäre	_	_
+7-7	484-486	es	_	_
+7-8	487-490	das	_	_
+7-9	491-496	Beste	_	_
+7-10	497-500	wir	_	_
+7-11	501-507	träfen	_	_
+7-12	508-511	uns	_	_
+7-13	512-520	entweder	_	_
+7-14	521-524	den	_	_
+7-15	525-528	15.	*[6]	DATEmentioned[6]
+7-16	529-531	in	_	_
+7-17	532-538	Chiusi	*	PLACEmentioned
+7-18	539-541	d.	_	_
+7-19	542-544	h.	_	_
+7-20	545-547	in	_	_
+7-21	548-551	der	_	_
+7-22	552-557	Stadt	_	_
+7-23	558-559	,	_	_
+7-24	560-563	die	_	_
+7-25	564-567	Sie	_	_
+7-26	568-572	doch	_	_
+7-27	573-578	gewiß	_	_
+7-28	579-584	lange	_	_
+7-29	585-590	nicht	_	_
+7-30	591-598	besucht	_	_
+7-31	599-600	(	_	_
+7-32	601-606	Lione	_	_
+7-33	607-608	d	_	_
+7-34	609-610	’	_	_
+7-35	611-614	oro	_	_
+7-36	615-616	)	_	_
+7-37	617-621	oder	_	_
+7-38	622-625	den	_	_
+7-39	626-629	14.	*[7]	DATEmentioned[7]
+7-40	630-633	auf	_	_
+7-41	634-637	der	_	_
+7-42	638-645	Station	_	_
+7-43	646-647	(	_	_
+7-44	648-652	wenn	_	_
+7-45	653-656	der	_	_
+7-46	657-659	10	_	_
+7-47	660-663	Uhr	_	_
+7-48	664-671	Morgens	_	_
+7-49	672-675	von	_	_
+7-50	676-679	Rom	*	PLACEmentioned
+7-51	680-689	abgehende	_	_
+7-52	690-693	Zug	_	_
+7-53	694-697	die	_	_
+7-54	698-705	Station	_	_
+7-55	706-712	Chiusi	*	PLACEmentioned
+7-56	713-720	passirt	_	_
+7-57	721-722	)	_	_
+7-58	723-725	um	_	_
+7-59	726-729	die	_	_
+7-60	730-735	Reise	_	_
+7-61	736-740	nach	_	_
+7-62	741-746	Siena	*	PLACEmentioned
+7-63	747-755	zusammen	_	_
+7-64	756-768	fortzusetzen	_	_
+7-65	769-770	.	_	_
+
+#Text=Herzlichen Gruß \| !
+8-1	771-781	Herzlichen	_	_
+8-2	782-786	Gruß	_	_
+8-3	787-788	\|	_	_
+8-4	789-790	!	_	_
+
+#Text=Ihr Helbig Seit 4 Tagen regnerisches und kühles Wetter .
+9-1	791-794	Ihr	_	_
+9-2	795-801	Helbig	*	PERauthor
+9-3	802-806	Seit	_	_
+9-4	807-808	4	_	_
+9-5	809-814	Tagen	_	_
+9-6	815-827	regnerisches	_	_
+9-7	828-831	und	_	_
+9-8	832-838	kühles	_	_
+9-9	839-845	Wetter	_	_
+9-10	846-847	.	_	_

@@ -1,0 +1,140 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=47 Henzen an Gerhard 26/11/55 von Br . angeführten Dinge sehr curios sind .
+1-1	0-2	47	_	_
+1-2	3-9	Henzen	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-29	26/11/55	*	DATEletter
+1-6	30-33	von	_	_
+1-7	34-36	Br	*[4]	PERmentioned[4]
+1-8	37-38	.	*[4]	PERmentioned[4]
+1-9	39-50	angeführten	_	_
+1-10	51-56	Dinge	_	_
+1-11	57-61	sehr	_	_
+1-12	62-68	curios	_	_
+1-13	69-73	sind	_	_
+1-14	74-75	.	_	_
+
+#Text=- Der Bericht Riccio 's über die Sicilischen Münzfunde wird Sie etwas versöhnt haben \; so scheußlich sein Italienisch , so muß er doch für Numismatiker wichtig sein , u. Freidlaender od . Pinder könnten sich dh .
+2-1	76-77	-	_	_
+2-2	78-81	Der	_	_
+2-3	82-89	Bericht	_	_
+2-4	90-96	Riccio	*[5]	PERmentioned[5]
+2-5	97-99	's	*[5]	PERmentioned[5]
+2-6	100-104	über	_	_
+2-7	105-108	die	_	_
+2-8	109-120	Sicilischen	*[3]	MISC[3]
+2-9	121-130	Münzfunde	*[3]	MISC[3]
+2-10	131-135	wird	_	_
+2-11	136-139	Sie	_	_
+2-12	140-145	etwas	_	_
+2-13	146-154	versöhnt	_	_
+2-14	155-160	haben	_	_
+2-15	161-162	\;	_	_
+2-16	163-165	so	_	_
+2-17	166-176	scheußlich	_	_
+2-18	177-181	sein	_	_
+2-19	182-193	Italienisch	_	_
+2-20	194-195	,	_	_
+2-21	196-198	so	_	_
+2-22	199-202	muß	_	_
+2-23	203-205	er	_	_
+2-24	206-210	doch	_	_
+2-25	211-214	für	_	_
+2-26	215-227	Numismatiker	*	MISC
+2-27	228-235	wichtig	_	_
+2-28	236-240	sein	_	_
+2-29	241-242	,	_	_
+2-30	243-245	u.	_	_
+2-31	246-258	Freidlaender	*	PERmentioned
+2-32	259-261	od	_	_
+2-33	262-263	.	_	_
+2-34	264-270	Pinder	*	PERmentioned
+2-35	271-278	könnten	_	_
+2-36	279-283	sich	_	_
+2-37	284-286	dh	_	_
+2-38	287-288	.	_	_
+
+#Text=einen uns einzusendenden Artikel darüber unsern großen Dank verdienen .
+3-1	289-294	einen	_	_
+3-2	295-298	uns	_	_
+3-3	299-313	einzusendenden	_	_
+3-4	314-321	Artikel	_	_
+3-5	322-329	darüber	_	_
+3-6	330-336	unsern	_	_
+3-7	337-343	großen	_	_
+3-8	344-348	Dank	_	_
+3-9	349-358	verdienen	_	_
+3-10	359-360	.	_	_
+
+#Text=Ueber Mommsen 's Nordetruskische Alphabete glaubte ich für Italien etwas ausführlicher sein zu müssen , als vielleicht für Deutschland passend .
+4-1	361-366	Ueber	_	_
+4-2	367-374	Mommsen	*[6]	PERmentioned[6]
+4-3	375-377	's	*[6]	PERmentioned[6]
+4-4	378-393	Nordetruskische	_	_
+4-5	394-403	Alphabete	_	_
+4-6	404-411	glaubte	_	_
+4-7	412-415	ich	_	_
+4-8	416-419	für	_	_
+4-9	420-427	Italien	*	PLACEmentioned
+4-10	428-433	etwas	_	_
+4-11	434-447	ausführlicher	_	_
+4-12	448-452	sein	_	_
+4-13	453-455	zu	_	_
+4-14	456-462	müssen	_	_
+4-15	463-464	,	_	_
+4-16	465-468	als	_	_
+4-17	469-479	vielleicht	_	_
+4-18	480-483	für	_	_
+4-19	484-495	Deutschland	*	PLACEmentioned
+4-20	496-503	passend	_	_
+4-21	504-505	.	_	_
+
+#Text=Meine Frau befindet sich jetzt recht wohl , unsre arme Emilia desdo schlechter .
+5-1	506-511	Meine	_	_
+5-2	512-516	Frau	_	_
+5-3	517-525	befindet	_	_
+5-4	526-530	sich	_	_
+5-5	531-536	jetzt	_	_
+5-6	537-542	recht	_	_
+5-7	543-547	wohl	_	_
+5-8	548-549	,	_	_
+5-9	550-555	unsre	_	_
+5-10	556-560	arme	_	_
+5-11	561-567	Emilia	*	PERmentioned
+5-12	568-573	desdo	_	_
+5-13	574-584	schlechter	_	_
+5-14	585-586	.	_	_
+
+#Text=Wir haben wenig Hoffnung für sie .
+6-1	587-590	Wir	_	_
+6-2	591-596	haben	_	_
+6-3	597-602	wenig	_	_
+6-4	603-611	Hoffnung	_	_
+6-5	612-615	für	_	_
+6-6	616-619	sie	_	_
+6-7	620-621	.	_	_
+
+#Text=Mit herzlichen Grüßen an Sie u. Ihre 1 .
+7-1	622-625	Mit	_	_
+7-2	626-636	herzlichen	_	_
+7-3	637-643	Grüßen	_	_
+7-4	644-646	an	_	_
+7-5	647-650	Sie	_	_
+7-6	651-653	u.	_	_
+7-7	654-658	Ihre	_	_
+7-8	659-660	1	_	_
+7-9	661-662	.	_	_
+
+#Text=Frau auch von der meinigen Ihr WHz .
+8-1	663-667	Frau	_	_
+8-2	668-672	auch	_	_
+8-3	673-676	von	_	_
+8-4	677-680	der	_	_
+8-5	681-689	meinigen	_	_
+8-6	690-693	Ihr	_	_
+8-7	694-697	WHz	*	PERauthor
+8-8	698-699	.	_	_

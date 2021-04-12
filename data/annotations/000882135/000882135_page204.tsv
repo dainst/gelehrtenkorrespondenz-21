@@ -1,0 +1,158 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=46 Braun an Gerhard Rom , 27. Februar 1840 ten kann .
+1-1	0-2	46	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	27.	*[4]	DATEletter[4]
+1-8	30-37	Februar	*[4]	DATEletter[4]
+1-9	38-42	1840	*[4]	DATEletter[4]
+1-10	43-46	ten	_	_
+1-11	47-51	kann	_	_
+1-12	52-53	.	_	_
+
+#Text=Welckers Recensionen sind mir zugekommen .
+2-1	54-62	Welckers	*	PERmentioned
+2-2	63-74	Recensionen	_	_
+2-3	75-79	sind	_	_
+2-4	80-83	mir	_	_
+2-5	84-94	zugekommen	_	_
+2-6	95-96	.	_	_
+
+#Text=Das Verzeichniß unsrer Mitglieder erhalten Sie nächstens .
+3-1	97-100	Das	_	_
+3-2	101-112	Verzeichniß	_	_
+3-3	113-119	unsrer	_	_
+3-4	120-130	Mitglieder	_	_
+3-5	131-139	erhalten	_	_
+3-6	140-143	Sie	_	_
+3-7	144-153	nächstens	_	_
+3-8	154-155	.	_	_
+
+#Text=Ich bedarf eines solchen auch nothwendig zum Druck eines ganz unentbehrlichen Notizenbüchlein .
+4-1	156-159	Ich	_	_
+4-2	160-166	bedarf	_	_
+4-3	167-172	eines	_	_
+4-4	173-180	solchen	_	_
+4-5	181-185	auch	_	_
+4-6	186-196	nothwendig	_	_
+4-7	197-200	zum	_	_
+4-8	201-206	Druck	_	_
+4-9	207-212	eines	_	_
+4-10	213-217	ganz	_	_
+4-11	218-233	unentbehrlichen	_	_
+4-12	234-249	Notizenbüchlein	_	_
+4-13	250-251	.	_	_
+
+#Text=Ohne ein solches machen wir keinen einzigen Associaten .
+5-1	252-256	Ohne	_	_
+5-2	257-260	ein	_	_
+5-3	261-268	solches	_	_
+5-4	269-275	machen	_	_
+5-5	276-279	wir	_	_
+5-6	280-286	keinen	_	_
+5-7	287-295	einzigen	_	_
+5-8	296-306	Associaten	_	_
+5-9	307-308	.	_	_
+
+#Text=Das Monumentenheft ist fertig 1839 . 2 .
+6-1	309-312	Das	_	_
+6-2	313-327	Monumentenheft	_	_
+6-3	328-331	ist	_	_
+6-4	332-338	fertig	_	_
+6-5	339-343	1839	*	DATEmentioned
+6-6	344-345	.	_	_
+6-7	346-347	2	_	_
+6-8	348-349	.	_	_
+
+#Text=Es ist reich und schön .
+7-1	350-352	Es	_	_
+7-2	353-356	ist	_	_
+7-3	357-362	reich	_	_
+7-4	363-366	und	_	_
+7-5	367-372	schön	_	_
+7-6	373-374	.	_	_
+
+#Text=: 1 .
+8-1	375-376	:	_	_
+8-2	377-378	1	_	_
+8-3	379-380	.	_	_
+
+#Text=Platos Bildnißstatue , nebst Gemmen und einer seit Potin nicht mehr gesehenen Münze .
+9-1	381-387	Platos	*[7]	OBJ[7]
+9-2	388-401	Bildnißstatue	*[7]	OBJ[7]
+9-3	402-403	,	_	_
+9-4	404-409	nebst	_	_
+9-5	410-416	Gemmen	*	OBJ
+9-6	417-420	und	_	_
+9-7	421-426	einer	_	_
+9-8	427-431	seit	_	_
+9-9	432-437	Potin	*	PERmentioned
+9-10	438-443	nicht	_	_
+9-11	444-448	mehr	_	_
+9-12	449-458	gesehenen	_	_
+9-13	459-464	Münze	*	OBJ
+9-14	465-466	.	_	_
+
+#Text=2 .
+10-1	467-468	2	_	_
+10-2	469-470	.	_	_
+
+#Text=Terracotten a. der Arabeskenkopf , bachisch .
+11-1	471-482	Terracotten	*	OBJ
+11-2	483-485	a.	_	_
+11-3	486-489	der	_	_
+11-4	490-503	Arabeskenkopf	*	OBJ
+11-5	504-505	,	_	_
+11-6	506-514	bachisch	_	_
+11-7	515-516	.	_	_
+
+#Text=b. Meduse .
+12-1	517-519	b.	_	_
+12-2	520-526	Meduse	*	OBJ
+12-3	527-528	.	_	_
+
+#Text=3 .
+13-1	529-530	3	_	_
+13-2	531-532	.	_	_
+
+#Text=Arethuse und Alpheus .
+14-1	533-541	Arethuse	*[14]	OBJ[14]
+14-2	542-545	und	*[14]	OBJ[14]
+14-3	546-553	Alpheus	*[14]	OBJ[14]
+14-4	554-555	.	_	_
+
+#Text=\| Yendessäice 4 , 5 . 2 Circenser Festaufzüge nach alten Cartons 6 .
+15-1	556-557	\|	_	_
+15-2	558-569	Yendessäice	_	_
+15-3	570-571	4	_	_
+15-4	572-573	,	_	_
+15-5	574-575	5	_	_
+15-6	576-577	.	_	_
+15-7	578-579	2	_	_
+15-8	580-589	Circenser	*[15]	OBJ[15]
+15-9	590-601	Festaufzüge	*[15]	OBJ[15]
+15-10	602-606	nach	_	_
+15-11	607-612	alten	_	_
+15-12	613-620	Cartons	_	_
+15-13	621-622	6	_	_
+15-14	623-624	.	_	_
+
+#Text=Apollo und Daphne , vulcenter Schaale .
+16-1	625-631	Apollo	*[16]	OBJ[16]
+16-2	632-635	und	*[16]	OBJ[16]
+16-3	636-642	Daphne	*[16]	OBJ[16]
+16-4	643-644	,	_	_
+16-5	645-654	vulcenter	*[17]	OBJ[17]
+16-6	655-662	Schaale	*[17]	OBJ[17]
+16-7	663-664	.	_	_
+
+#Text=Ihr EBraun .
+17-1	665-668	Ihr	_	_
+17-2	669-675	EBraun	*	PERauthor
+17-3	676-677	.	_	_

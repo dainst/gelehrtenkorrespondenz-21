@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=666 Braun an Gerhard Rom , 13 .
+1-1	0-3	666	_	_
+1-2	4-9	Braun	*[13]	PERauthor[13]
+1-3	10-12	an	*[13]	PERauthor[13]
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	13	*[4]	DATEletter[4]
+1-8	30-31	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1838 auf das deutlichste zu verstehen gegeben , daß er einen tüchtigen älteren Gelehrten an meiner Stelle zu sehen wünsche , den man ordentlich bezahlen müßte .
+2-1	32-39	Oktober	*[4]	DATEletter[4]
+2-2	40-44	1838	*[4]	DATEletter[4]
+2-3	45-48	auf	_	_
+2-4	49-52	das	_	_
+2-5	53-64	deutlichste	_	_
+2-6	65-67	zu	_	_
+2-7	68-77	verstehen	_	_
+2-8	78-85	gegeben	_	_
+2-9	86-87	,	_	_
+2-10	88-91	daß	_	_
+2-11	92-94	er	_	_
+2-12	95-100	einen	_	_
+2-13	101-110	tüchtigen	_	_
+2-14	111-118	älteren	_	_
+2-15	119-128	Gelehrten	_	_
+2-16	129-131	an	_	_
+2-17	132-138	meiner	_	_
+2-18	139-145	Stelle	_	_
+2-19	146-148	zu	_	_
+2-20	149-154	sehen	_	_
+2-21	155-162	wünsche	_	_
+2-22	163-164	,	_	_
+2-23	165-168	den	_	_
+2-24	169-172	man	_	_
+2-25	173-183	ordentlich	_	_
+2-26	184-192	bezahlen	_	_
+2-27	193-198	müßte	_	_
+2-28	199-200	.	_	_
+
+#Text=Ich concurrire nie .
+3-1	201-204	Ich	_	_
+3-2	205-215	concurrire	_	_
+3-3	216-219	nie	_	_
+3-4	220-221	.	_	_
+
+#Text=Dabei ist er zu interessirt für Sich und zu neidisch gegen andere .
+4-1	222-227	Dabei	_	_
+4-2	228-231	ist	_	_
+4-3	232-234	er	_	_
+4-4	235-237	zu	_	_
+4-5	238-249	interessirt	_	_
+4-6	250-253	für	_	_
+4-7	254-258	Sich	_	_
+4-8	259-262	und	_	_
+4-9	263-265	zu	_	_
+4-10	266-274	neidisch	_	_
+4-11	275-280	gegen	_	_
+4-12	281-287	andere	_	_
+4-13	288-289	.	_	_
+
+#Text=Meine Stellung bleibt fortwährend so , daß wenn ich nicht beim Institut meine Rechnung finde , ich quittiren werde .
+5-1	290-295	Meine	_	_
+5-2	296-304	Stellung	_	_
+5-3	305-311	bleibt	_	_
+5-4	312-323	fortwährend	_	_
+5-5	324-326	so	_	_
+5-6	327-328	,	_	_
+5-7	329-332	daß	_	_
+5-8	333-337	wenn	_	_
+5-9	338-341	ich	_	_
+5-10	342-347	nicht	_	_
+5-11	348-352	beim	_	_
+5-12	353-361	Institut	*	ORGmentioned
+5-13	362-367	meine	_	_
+5-14	368-376	Rechnung	_	_
+5-15	377-382	finde	_	_
+5-16	383-384	,	_	_
+5-17	385-388	ich	_	_
+5-18	389-398	quittiren	_	_
+5-19	399-404	werde	_	_
+5-20	405-406	.	_	_
+
+#Text=Betteln mag ich nicht \; aufopfern will ich mich aber auch nicht ferner .
+6-1	407-414	Betteln	_	_
+6-2	415-418	mag	_	_
+6-3	419-422	ich	_	_
+6-4	423-428	nicht	_	_
+6-5	429-430	\;	_	_
+6-6	431-440	aufopfern	_	_
+6-7	441-445	will	_	_
+6-8	446-449	ich	_	_
+6-9	450-454	mich	_	_
+6-10	455-459	aber	_	_
+6-11	460-464	auch	_	_
+6-12	465-470	nicht	_	_
+6-13	471-477	ferner	_	_
+6-14	478-479	.	_	_
+
+#Text=Man kann es viel wohlfeiler haben , sich auslachen zu lassen .
+7-1	480-483	Man	_	_
+7-2	484-488	kann	_	_
+7-3	489-491	es	_	_
+7-4	492-496	viel	_	_
+7-5	497-507	wohlfeiler	_	_
+7-6	508-513	haben	_	_
+7-7	514-515	,	_	_
+7-8	516-520	sich	_	_
+7-9	521-530	auslachen	_	_
+7-10	531-533	zu	_	_
+7-11	534-540	lassen	_	_
+7-12	541-542	.	_	_
+
+#Text=Nach Ostern reise ich von hier ab , um wenn ich noch beim Institut sein werde , meine Vacanz ( alle 2 Jahre ) zu benutzen .
+8-1	543-547	Nach	_	_
+8-2	548-554	Ostern	_	_
+8-3	555-560	reise	_	_
+8-4	561-564	ich	_	_
+8-5	565-568	von	_	_
+8-6	569-573	hier	_	_
+8-7	574-576	ab	_	_
+8-8	577-578	,	_	_
+8-9	579-581	um	_	_
+8-10	582-586	wenn	_	_
+8-11	587-590	ich	_	_
+8-12	591-595	noch	_	_
+8-13	596-600	beim	_	_
+8-14	601-609	Institut	*	ORGmentioned
+8-15	610-614	sein	_	_
+8-16	615-620	werde	_	_
+8-17	621-622	,	_	_
+8-18	623-628	meine	_	_
+8-19	629-635	Vacanz	_	_
+8-20	636-637	(	_	_
+8-21	638-642	alle	_	_
+8-22	643-644	2	_	_
+8-23	645-650	Jahre	_	_
+8-24	651-652	)	_	_
+8-25	653-655	zu	_	_
+8-26	656-664	benutzen	_	_
+8-27	665-666	.	_	_
+
+#Text=Vorher muß natürlich alles entschieden werden .
+9-1	667-673	Vorher	_	_
+9-2	674-677	muß	_	_
+9-3	678-687	natürlich	_	_
+9-4	688-693	alles	_	_
+9-5	694-705	entschieden	_	_
+9-6	706-712	werden	_	_
+9-7	713-714	.	_	_
+
+#Text=Gegen jeden andern als gegen Sie werde ich nur faktisch antworten .
+10-1	715-720	Gegen	_	_
+10-2	721-726	jeden	_	_
+10-3	727-733	andern	_	_
+10-4	734-737	als	_	_
+10-5	738-743	gegen	_	_
+10-6	744-747	Sie	_	_
+10-7	748-753	werde	_	_
+10-8	754-757	ich	_	_
+10-9	758-761	nur	_	_
+10-10	762-770	faktisch	_	_
+10-11	771-780	antworten	_	_
+10-12	781-782	.	_	_
+
+#Text=Vorschläge und Bedingungen stelle ich gewiß nie .
+11-1	783-793	Vorschläge	_	_
+11-2	794-797	und	_	_
+11-3	798-809	Bedingungen	_	_
+11-4	810-816	stelle	_	_
+11-5	817-820	ich	_	_
+11-6	821-826	gewiß	_	_
+11-7	827-830	nie	_	_
+11-8	831-832	.	_	_
+
+#Text=Welcker zahlte Ihnen 50 Scudi , wovon Parthey befriedigt wurde und für mich ein kleiner Rest , etwa 10 rt .
+12-1	833-840	Welcker	*	PERmentioned
+12-2	841-847	zahlte	_	_
+12-3	848-853	Ihnen	_	_
+12-4	854-856	50	_	_
+12-5	857-862	Scudi	_	_
+12-6	863-864	,	_	_
+12-7	865-870	wovon	_	_
+12-8	871-878	Parthey	*	PERmentioned
+12-9	879-889	befriedigt	_	_
+12-10	890-895	wurde	_	_
+12-11	896-899	und	_	_
+12-12	900-903	für	_	_
+12-13	904-908	mich	_	_
+12-14	909-912	ein	_	_
+12-15	913-920	kleiner	_	_
+12-16	921-925	Rest	_	_
+12-17	926-927	,	_	_
+12-18	928-932	etwa	_	_
+12-19	933-935	10	_	_
+12-20	936-938	rt	_	_
+12-21	939-940	.	_	_
+
+#Text=blieb .
+13-1	941-946	blieb	_	_
+13-2	947-948	.	_	_
+
+#Text=Ich begreife nicht wie sich bei Ihnen alles verzettelt !
+14-1	949-952	Ich	_	_
+14-2	953-961	begreife	_	_
+14-3	962-967	nicht	_	_
+14-4	968-971	wie	_	_
+14-5	972-976	sich	_	_
+14-6	977-980	bei	_	_
+14-7	981-986	Ihnen	_	_
+14-8	987-992	alles	_	_
+14-9	993-1003	verzettelt	_	_
+14-10	1004-1005	!	_	_
+
+#Text=Welche kleine Sphinx ( T. c. vernic ) ?
+15-1	1006-1012	Welche	_	_
+15-2	1013-1019	kleine	_	_
+15-3	1020-1026	Sphinx	_	_
+15-4	1027-1028	(	_	_
+15-5	1029-1031	T.	_	_
+15-6	1032-1034	c.	_	_
+15-7	1035-1041	vernic	_	_
+15-8	1042-1043	)	_	_
+15-9	1044-1045	?	_	_
+
+#Text=- Ich lasse alles sorgfältig verpacken .
+16-1	1046-1047	-	_	_
+16-2	1048-1051	Ich	_	_
+16-3	1052-1057	lasse	_	_
+16-4	1058-1063	alles	_	_
+16-5	1064-1074	sorgfältig	_	_
+16-6	1075-1084	verpacken	_	_
+16-7	1085-1086	.	_	_
+
+#Text=Die 100 Vasen von Fesch sind fort , Gott weiß wohin \; Nicht einmal Basseggio hat davon Kunde !
+17-1	1087-1090	Die	_	_
+17-2	1091-1094	100	_	_
+17-3	1095-1100	Vasen	*	OBJ
+17-4	1101-1104	von	_	_
+17-5	1105-1110	Fesch	*	PERmentioned
+17-6	1111-1115	sind	_	_
+17-7	1116-1120	fort	_	_
+17-8	1121-1122	,	_	_
+17-9	1123-1127	Gott	_	_
+17-10	1128-1132	weiß	_	_
+17-11	1133-1138	wohin	_	_
+17-12	1139-1140	\;	_	_
+17-13	1141-1146	Nicht	_	_
+17-14	1147-1153	einmal	_	_
+17-15	1154-1163	Basseggio	*	PERmentioned
+17-16	1164-1167	hat	_	_
+17-17	1168-1173	davon	_	_
+17-18	1174-1179	Kunde	_	_
+17-19	1180-1181	!	_	_
+
+#Text=Diesen Nachmittag war Raoul Rochette bei mir .
+18-1	1182-1188	Diesen	_	_
+18-2	1189-1199	Nachmittag	_	_
+18-3	1200-1203	war	_	_
+18-4	1204-1209	Raoul	*[12]	PERmentioned[12]
+18-5	1210-1218	Rochette	*[12]	PERmentioned[12]
+18-6	1219-1222	bei	_	_
+18-7	1223-1226	mir	_	_
+18-8	1227-1228	.	_	_
+
+#Text=Er bleibt nur 14 Tage hier .
+19-1	1229-1231	Er	_	_
+19-2	1232-1238	bleibt	_	_
+19-3	1239-1242	nur	_	_
+19-4	1243-1245	14	_	_
+19-5	1246-1250	Tage	_	_
+19-6	1251-1255	hier	_	_
+19-7	1256-1257	.	_	_
+
+#Text=Ihr treuer EBraun .
+20-1	1258-1261	Ihr	_	_
+20-2	1262-1268	treuer	_	_
+20-3	1269-1275	EBraun	*	PERauthor
+20-4	1276-1277	.	_	_

@@ -1,0 +1,309 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=335 Braun an Gerhard Verona , 23 .
+1-1	0-3	335	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-27	Verona	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	23	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1837 Dafür habe ich in Furlanetto einen gründlichen , ehrenwerthen und uns sehr wohlwollenden Collegen kennen gelernt .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1837	*[1]	DATEletter[1]
+2-3	47-52	Dafür	_	_
+2-4	53-57	habe	_	_
+2-5	58-61	ich	_	_
+2-6	62-64	in	_	_
+2-7	65-75	Furlanetto	*	PERmentioned
+2-8	76-81	einen	_	_
+2-9	82-93	gründlichen	_	_
+2-10	94-95	,	_	_
+2-11	96-108	ehrenwerthen	_	_
+2-12	109-112	und	_	_
+2-13	113-116	uns	_	_
+2-14	117-121	sehr	_	_
+2-15	122-135	wohlwollenden	_	_
+2-16	136-144	Collegen	_	_
+2-17	145-151	kennen	_	_
+2-18	152-159	gelernt	_	_
+2-19	160-161	.	_	_
+
+#Text=Seine Nachträge zum Forcellini enthalten denkenswerthe Wortregister .
+3-1	162-167	Seine	_	_
+3-2	168-177	Nachträge	_	_
+3-3	178-181	zum	_	_
+3-4	182-192	Forcellini	*	PERmentioned
+3-5	193-202	enthalten	_	_
+3-6	203-216	denkenswerthe	_	_
+3-7	217-229	Wortregister	_	_
+3-8	230-231	.	_	_
+
+#Text=Für Lepsius habe ich von ihm die Mittheilung einiger 30 Euganeischer Inschriften ermittelt .
+4-1	232-235	Für	_	_
+4-2	236-243	Lepsius	*	PERmentioned
+4-3	244-248	habe	_	_
+4-4	249-252	ich	_	_
+4-5	253-256	von	_	_
+4-6	257-260	ihm	_	_
+4-7	261-264	die	_	_
+4-8	265-276	Mittheilung	_	_
+4-9	277-284	einiger	_	_
+4-10	285-287	30	*[2]	OBJ[2]
+4-11	288-300	Euganeischer	*[2]	OBJ[2]
+4-12	301-312	Inschriften	*[2]	OBJ[2]
+4-13	313-322	ermittelt	_	_
+4-14	323-324	.	_	_
+
+#Text=Ritschl hat eine historisch interessante sriechische Inschrift aus Dalmazien für das Institut erhalten .
+5-1	325-332	Ritschl	*	PERmentioned
+5-2	333-336	hat	_	_
+5-3	337-341	eine	_	_
+5-4	342-352	historisch	_	_
+5-5	353-365	interessante	_	_
+5-6	366-377	sriechische	*[3]	OBJ[3]
+5-7	378-387	Inschrift	*[3]	OBJ[3]
+5-8	388-391	aus	_	_
+5-9	392-401	Dalmazien	*	PLACEmentioned
+5-10	402-405	für	_	_
+5-11	406-409	das	_	_
+5-12	410-418	Institut	*	ORGmentioned
+5-13	419-427	erhalten	_	_
+5-14	428-429	.	_	_
+
+#Text=Desgleichen bringt dieser eine sehr genaue Kunde von einer lateinischen Inschrift mit , nach der 8avigny durch Spikes hatte fragen lassen .
+6-1	430-441	Desgleichen	_	_
+6-2	442-448	bringt	_	_
+6-3	449-455	dieser	_	_
+6-4	456-460	eine	_	_
+6-5	461-465	sehr	_	_
+6-6	466-472	genaue	_	_
+6-7	473-478	Kunde	_	_
+6-8	479-482	von	_	_
+6-9	483-488	einer	_	_
+6-10	489-501	lateinischen	*[4]	OBJ[4]
+6-11	502-511	Inschrift	*[4]	OBJ[4]
+6-12	512-515	mit	_	_
+6-13	516-517	,	_	_
+6-14	518-522	nach	_	_
+6-15	523-526	der	_	_
+6-16	527-534	8avigny	*	PERmentioned
+6-17	535-540	durch	_	_
+6-18	541-547	Spikes	*	PERmentioned
+6-19	548-553	hatte	_	_
+6-20	554-560	fragen	_	_
+6-21	561-567	lassen	_	_
+6-22	568-569	.	_	_
+
+#Text=Dafür habe ich ihm genaue Mittheilungen von Savigny durch Ritschl versprochen , der mündlich mit ihm conferiren muß und dem Mann in dem Sinne zu antworten hat , in welchem er es wünscht .
+7-1	570-575	Dafür	_	_
+7-2	576-580	habe	_	_
+7-3	581-584	ich	_	_
+7-4	585-588	ihm	_	_
+7-5	589-595	genaue	_	_
+7-6	596-609	Mittheilungen	_	_
+7-7	610-613	von	_	_
+7-8	614-621	Savigny	*	PERmentioned
+7-9	622-627	durch	_	_
+7-10	628-635	Ritschl	*	PERmentioned
+7-11	636-647	versprochen	_	_
+7-12	648-649	,	_	_
+7-13	650-653	der	_	_
+7-14	654-662	mündlich	_	_
+7-15	663-666	mit	_	_
+7-16	667-670	ihm	_	_
+7-17	671-681	conferiren	_	_
+7-18	682-685	muß	_	_
+7-19	686-689	und	_	_
+7-20	690-693	dem	_	_
+7-21	694-698	Mann	_	_
+7-22	699-701	in	_	_
+7-23	702-705	dem	_	_
+7-24	706-711	Sinne	_	_
+7-25	712-714	zu	_	_
+7-26	715-724	antworten	_	_
+7-27	725-728	hat	_	_
+7-28	729-730	,	_	_
+7-29	731-733	in	_	_
+7-30	734-741	welchem	_	_
+7-31	742-744	er	_	_
+7-32	745-747	es	_	_
+7-33	748-755	wünscht	_	_
+7-34	756-757	.	_	_
+
+#Text=Mir selbst endlich hat er die Erlaubniß ermittelt alle in Cattajo befindlichen Monumente zeichnen zu lassen , weshalb ich nach meinem Mailänder Aufenthalt noch einmal dorthin zurückkehren muß .
+8-1	758-761	Mir	_	_
+8-2	762-768	selbst	_	_
+8-3	769-776	endlich	_	_
+8-4	777-780	hat	_	_
+8-5	781-783	er	_	_
+8-6	784-787	die	_	_
+8-7	788-797	Erlaubniß	_	_
+8-8	798-807	ermittelt	_	_
+8-9	808-812	alle	_	_
+8-10	813-815	in	_	_
+8-11	816-823	Cattajo	*	PLACEmentioned
+8-12	824-836	befindlichen	_	_
+8-13	837-846	Monumente	_	_
+8-14	847-855	zeichnen	_	_
+8-15	856-858	zu	_	_
+8-16	859-865	lassen	_	_
+8-17	866-867	,	_	_
+8-18	868-875	weshalb	_	_
+8-19	876-879	ich	_	_
+8-20	880-884	nach	_	_
+8-21	885-891	meinem	_	_
+8-22	892-901	Mailänder	*	PLACEmentioned
+8-23	902-912	Aufenthalt	_	_
+8-24	913-917	noch	_	_
+8-25	918-924	einmal	_	_
+8-26	925-932	dorthin	_	_
+8-27	933-945	zurückkehren	_	_
+8-28	946-949	muß	_	_
+8-29	950-951	.	_	_
+
+#Text=Bei dieser Gelegenheit werde ich dann auch Triest besuchen , woran ich diesmal nicht denken konnte .
+9-1	952-955	Bei	_	_
+9-2	956-962	dieser	_	_
+9-3	963-974	Gelegenheit	_	_
+9-4	975-980	werde	_	_
+9-5	981-984	ich	_	_
+9-6	985-989	dann	_	_
+9-7	990-994	auch	_	_
+9-8	995-1001	Triest	*	PLACEmentioned
+9-9	1002-1010	besuchen	_	_
+9-10	1011-1012	,	_	_
+9-11	1013-1018	woran	_	_
+9-12	1019-1022	ich	_	_
+9-13	1023-1030	diesmal	_	_
+9-14	1031-1036	nicht	_	_
+9-15	1037-1043	denken	_	_
+9-16	1044-1050	konnte	_	_
+9-17	1051-1052	.	_	_
+
+#Text=Die Reliefs von Aquileja sind nach Wien gegangen .
+10-1	1053-1056	Die	_	_
+10-2	1057-1064	Reliefs	*	OBJ
+10-3	1065-1068	von	_	_
+10-4	1069-1077	Aquileja	*	PLACEmentioned
+10-5	1078-1082	sind	_	_
+10-6	1083-1087	nach	_	_
+10-7	1088-1092	Wien	*	PLACEmentioned
+10-8	1093-1101	gegangen	_	_
+10-9	1102-1103	.	_	_
+
+#Text=In Venedig war Weber fast unfreundlich .
+11-1	1104-1106	In	_	_
+11-2	1107-1114	Venedig	*	PLACEmentioned
+11-3	1115-1118	war	_	_
+11-4	1119-1124	Weber	*	PERmentioned
+11-5	1125-1129	fast	_	_
+11-6	1130-1142	unfreundlich	_	_
+11-7	1143-1144	.	_	_
+
+#Text=Er ist mit Kellermanns Erläuterung des Rhodischen Cippus sehr zufrieden , mit der von Franz gar nicht .
+12-1	1145-1147	Er	_	_
+12-2	1148-1151	ist	_	_
+12-3	1152-1155	mit	_	_
+12-4	1156-1167	Kellermanns	*	PERmentioned
+12-5	1168-1179	Erläuterung	_	_
+12-6	1180-1183	des	_	_
+12-7	1184-1194	Rhodischen	*[5]	OBJ[5]
+12-8	1195-1201	Cippus	*[5]	OBJ[5]
+12-9	1202-1206	sehr	_	_
+12-10	1207-1216	zufrieden	_	_
+12-11	1217-1218	,	_	_
+12-12	1219-1222	mit	_	_
+12-13	1223-1226	der	_	_
+12-14	1227-1230	von	_	_
+12-15	1231-1236	Franz	*	PERmentioned
+12-16	1237-1240	gar	_	_
+12-17	1241-1246	nicht	_	_
+12-18	1247-1248	.	_	_
+
+#Text=Er will selbst darüber schreiben .
+13-1	1249-1251	Er	_	_
+13-2	1252-1256	will	_	_
+13-3	1257-1263	selbst	_	_
+13-4	1264-1271	darüber	_	_
+13-5	1272-1281	schreiben	_	_
+13-6	1282-1283	.	_	_
+
+#Text=Aus Ortis Mittheilungen schließe ich , daß er von dem Nichtabdruck einiger von ihm eingesandten Abhandlungen disgustirt ist .
+14-1	1284-1287	Aus	_	_
+14-2	1288-1293	Ortis	*	PERmentioned
+14-3	1294-1307	Mittheilungen	_	_
+14-4	1308-1316	schließe	_	_
+14-5	1317-1320	ich	_	_
+14-6	1321-1322	,	_	_
+14-7	1323-1326	daß	_	_
+14-8	1327-1329	er	_	_
+14-9	1330-1333	von	_	_
+14-10	1334-1337	dem	_	_
+14-11	1338-1350	Nichtabdruck	_	_
+14-12	1351-1358	einiger	_	_
+14-13	1359-1362	von	_	_
+14-14	1363-1366	ihm	_	_
+14-15	1367-1379	eingesandten	_	_
+14-16	1380-1392	Abhandlungen	_	_
+14-17	1393-1403	disgustirt	_	_
+14-18	1404-1407	ist	_	_
+14-19	1408-1409	.	_	_
+
+#Text=Er hat gemeint , das Institut müsse alles drucken , was ihm geschickt würde , worauf dieser sehr schlagend geantwortet hat .
+15-1	1410-1412	Er	_	_
+15-2	1413-1416	hat	_	_
+15-3	1417-1424	gemeint	_	_
+15-4	1425-1426	,	_	_
+15-5	1427-1430	das	_	_
+15-6	1431-1439	Institut	*	ORGmentioned
+15-7	1440-1445	müsse	_	_
+15-8	1446-1451	alles	_	_
+15-9	1452-1459	drucken	_	_
+15-10	1460-1461	,	_	_
+15-11	1462-1465	was	_	_
+15-12	1466-1469	ihm	_	_
+15-13	1470-1479	geschickt	_	_
+15-14	1480-1485	würde	_	_
+15-15	1486-1487	,	_	_
+15-16	1488-1494	worauf	_	_
+15-17	1495-1501	dieser	_	_
+15-18	1502-1506	sehr	_	_
+15-19	1507-1516	schlagend	_	_
+15-20	1517-1528	geantwortet	_	_
+15-21	1529-1532	hat	_	_
+15-22	1533-1534	.	_	_
+
+#Text=Ci sono quei che possono scrivere e mandare dissertazioni per la stampa , ci sono altri poi che devono raccogliere e comunicare , e ci sono infine altri
+16-1	1535-1537	Ci	_	_
+16-2	1538-1542	sono	_	_
+16-3	1543-1547	quei	_	_
+16-4	1548-1551	che	_	_
+16-5	1552-1559	possono	_	_
+16-6	1560-1568	scrivere	_	_
+16-7	1569-1570	e	_	_
+16-8	1571-1578	mandare	_	_
+16-9	1579-1592	dissertazioni	_	_
+16-10	1593-1596	per	_	_
+16-11	1597-1599	la	_	_
+16-12	1600-1606	stampa	_	_
+16-13	1607-1608	,	_	_
+16-14	1609-1611	ci	_	_
+16-15	1612-1616	sono	_	_
+16-16	1617-1622	altri	_	_
+16-17	1623-1626	poi	_	_
+16-18	1627-1630	che	_	_
+16-19	1631-1637	devono	_	_
+16-20	1638-1649	raccogliere	_	_
+16-21	1650-1651	e	_	_
+16-22	1652-1662	comunicare	_	_
+16-23	1663-1664	,	_	_
+16-24	1665-1666	e	_	_
+16-25	1667-1669	ci	_	_
+16-26	1670-1674	sono	_	_
+16-27	1675-1681	infine	_	_
+16-28	1682-1687	altri	_	_

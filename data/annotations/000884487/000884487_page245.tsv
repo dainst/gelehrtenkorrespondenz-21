@@ -1,0 +1,248 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	27	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1837 Dr. Braun g. Terni 1/12 37 Berlin 27 Okt .
+2-1	31-38	Oktober	*[4]	DATEletter[4]
+2-2	39-43	1837	*[4]	DATEletter[4]
+2-3	44-47	Dr.	_	_
+2-4	48-53	Braun	*	PERaddressee
+2-5	54-56	g.	_	_
+2-6	57-62	Terni	*	PLACEto
+2-7	63-67	1/12	*[7]	DATErecieved[7]
+2-8	68-70	37	*[7]	DATErecieved[7]
+2-9	71-77	Berlin	*	PLACEfrom
+2-10	78-80	27	*[9]	DATEletter[9]
+2-11	81-84	Okt	*[9]	DATEletter[9]
+2-12	85-86	.	*[9]	DATEletter[9]
+
+#Text=37 .
+3-1	87-89	37	*[9]	DATEletter[9]
+3-2	90-91	.	_	_
+
+#Text=Ihr langes Stillschweigen hatte mir in der That Angst gemacht \; Gott sei Dank daß Sie wohl sind .
+4-1	92-95	Ihr	_	_
+4-2	96-102	langes	_	_
+4-3	103-117	Stillschweigen	_	_
+4-4	118-123	hatte	_	_
+4-5	124-127	mir	_	_
+4-6	128-130	in	_	_
+4-7	131-134	der	_	_
+4-8	135-139	That	_	_
+4-9	140-145	Angst	_	_
+4-10	146-153	gemacht	_	_
+4-11	154-155	\;	_	_
+4-12	156-160	Gott	_	_
+4-13	161-164	sei	_	_
+4-14	165-169	Dank	_	_
+4-15	170-173	daß	_	_
+4-16	174-177	Sie	_	_
+4-17	178-182	wohl	_	_
+4-18	183-187	sind	_	_
+4-19	188-189	.	_	_
+
+#Text=All Ihr Beginnen freut mich .
+5-1	190-193	All	_	_
+5-2	194-197	Ihr	_	_
+5-3	198-206	Beginnen	_	_
+5-4	207-212	freut	_	_
+5-5	213-217	mich	_	_
+5-6	218-219	.	_	_
+
+#Text=Sie schrieben nichts von Brescia , wenig über Cattaneo , nichts über Labus , leider leider auch gar nichts von Palagi und seine Samnlungen .
+6-1	220-223	Sie	_	_
+6-2	224-233	schrieben	_	_
+6-3	234-240	nichts	_	_
+6-4	241-244	von	_	_
+6-5	245-252	Brescia	*	PLACEmentioned
+6-6	253-254	,	_	_
+6-7	255-260	wenig	_	_
+6-8	261-265	über	_	_
+6-9	266-274	Cattaneo	*	PERmentioned
+6-10	275-276	,	_	_
+6-11	277-283	nichts	_	_
+6-12	284-288	über	_	_
+6-13	289-294	Labus	*	PERmentioned
+6-14	295-296	,	_	_
+6-15	297-303	leider	_	_
+6-16	304-310	leider	_	_
+6-17	311-315	auch	_	_
+6-18	316-319	gar	_	_
+6-19	320-326	nichts	_	_
+6-20	327-330	von	_	_
+6-21	331-337	Palagi	*	PERmentioned
+6-22	338-341	und	_	_
+6-23	342-347	seine	_	_
+6-24	348-358	Samnlungen	_	_
+6-25	359-360	.	_	_
+
+#Text=Den Zandetti zum Correspondenten zu machen ist \\r mehrfach meine Absicht gewesen und hat es nur , da er nicht eben schreibselig schien , an einem Antaß dazu gefehlt .
+7-1	361-364	Den	_	_
+7-2	365-373	Zandetti	*	PERmentioned
+7-3	374-377	zum	_	_
+7-4	378-393	Correspondenten	_	_
+7-5	394-396	zu	_	_
+7-6	397-403	machen	_	_
+7-7	404-407	ist	_	_
+7-8	408-410	\\r	_	_
+7-9	411-419	mehrfach	_	_
+7-10	420-425	meine	_	_
+7-11	426-433	Absicht	_	_
+7-12	434-441	gewesen	_	_
+7-13	442-445	und	_	_
+7-14	446-449	hat	_	_
+7-15	450-452	es	_	_
+7-16	453-456	nur	_	_
+7-17	457-458	,	_	_
+7-18	459-461	da	_	_
+7-19	462-464	er	_	_
+7-20	465-470	nicht	_	_
+7-21	471-475	eben	_	_
+7-22	476-488	schreibselig	_	_
+7-23	489-495	schien	_	_
+7-24	496-497	,	_	_
+7-25	498-500	an	_	_
+7-26	501-506	einem	_	_
+7-27	507-512	Antaß	_	_
+7-28	513-517	dazu	_	_
+7-29	518-525	gefehlt	_	_
+7-30	526-527	.	_	_
+
+#Text=Daß mein vieljähriges Mahnen und Bemühen in Cattaneo zeichnen zu lassen endlich in Ihnen einen Vollstrecker gefunden hat freut mich , und wollen Sie die Sachen herausgeben so ist es mir nun eben so recht als wenn ich es selbst gethan hätte .
+8-1	528-531	Daß	_	_
+8-2	532-536	mein	_	_
+8-3	537-549	vieljähriges	_	_
+8-4	550-556	Mahnen	_	_
+8-5	557-560	und	_	_
+8-6	561-568	Bemühen	_	_
+8-7	569-571	in	_	_
+8-8	572-580	Cattaneo	*	PERmentioned
+8-9	581-589	zeichnen	_	_
+8-10	590-592	zu	_	_
+8-11	593-599	lassen	_	_
+8-12	600-607	endlich	_	_
+8-13	608-610	in	_	_
+8-14	611-616	Ihnen	_	_
+8-15	617-622	einen	_	_
+8-16	623-635	Vollstrecker	_	_
+8-17	636-644	gefunden	_	_
+8-18	645-648	hat	_	_
+8-19	649-654	freut	_	_
+8-20	655-659	mich	_	_
+8-21	660-661	,	_	_
+8-22	662-665	und	_	_
+8-23	666-672	wollen	_	_
+8-24	673-676	Sie	_	_
+8-25	677-680	die	_	_
+8-26	681-687	Sachen	_	_
+8-27	688-699	herausgeben	_	_
+8-28	700-702	so	_	_
+8-29	703-706	ist	_	_
+8-30	707-709	es	_	_
+8-31	710-713	mir	_	_
+8-32	714-717	nun	_	_
+8-33	718-722	eben	_	_
+8-34	723-725	so	_	_
+8-35	726-731	recht	_	_
+8-36	732-735	als	_	_
+8-37	736-740	wenn	_	_
+8-38	741-744	ich	_	_
+8-39	745-747	es	_	_
+8-40	748-754	selbst	_	_
+8-41	755-761	gethan	_	_
+8-42	762-767	hätte	_	_
+8-43	768-769	.	_	_
+
+#Text=Ich schrieb Ihnen glaube ich daß Campanari noch einmal wegen der Statue geschrieben hat , als sei sie disponibel \; bevor Sie es mir aber nicht noch einmal versichern , riskire ich es nicht noch einmal in hiesiger übler Collegenschaft davon zu reden .
+9-1	770-773	Ich	_	_
+9-2	774-781	schrieb	_	_
+9-3	782-787	Ihnen	_	_
+9-4	788-794	glaube	_	_
+9-5	795-798	ich	_	_
+9-6	799-802	daß	_	_
+9-7	803-812	Campanari	*	PERmentioned
+9-8	813-817	noch	_	_
+9-9	818-824	einmal	_	_
+9-10	825-830	wegen	_	_
+9-11	831-834	der	_	_
+9-12	835-841	Statue	*	OBJ
+9-13	842-853	geschrieben	_	_
+9-14	854-857	hat	_	_
+9-15	858-859	,	_	_
+9-16	860-863	als	_	_
+9-17	864-867	sei	_	_
+9-18	868-871	sie	_	_
+9-19	872-882	disponibel	_	_
+9-20	883-884	\;	_	_
+9-21	885-890	bevor	_	_
+9-22	891-894	Sie	_	_
+9-23	895-897	es	_	_
+9-24	898-901	mir	_	_
+9-25	902-906	aber	_	_
+9-26	907-912	nicht	_	_
+9-27	913-917	noch	_	_
+9-28	918-924	einmal	_	_
+9-29	925-935	versichern	_	_
+9-30	936-937	,	_	_
+9-31	938-945	riskire	_	_
+9-32	946-949	ich	_	_
+9-33	950-952	es	_	_
+9-34	953-958	nicht	_	_
+9-35	959-963	noch	_	_
+9-36	964-970	einmal	_	_
+9-37	971-973	in	_	_
+9-38	974-982	hiesiger	_	_
+9-39	983-988	übler	_	_
+9-40	989-1003	Collegenschaft	_	_
+9-41	1004-1009	davon	_	_
+9-42	1010-1012	zu	_	_
+9-43	1013-1018	reden	_	_
+9-44	1019-1020	.	_	_
+
+#Text=Bunsen rechnet fest auf seine Rückkehr circa 4 .
+10-1	1021-1027	Bunsen	*	PERmentioned
+10-2	1028-1035	rechnet	_	_
+10-3	1036-1040	fest	_	_
+10-4	1041-1044	auf	_	_
+10-5	1045-1050	seine	_	_
+10-6	1051-1059	Rückkehr	_	_
+10-7	1060-1065	circa	_	_
+10-8	1066-1067	4	_	_
+10-9	1068-1069	.	_	_
+
+#Text=näher her is Weihnachten \; wer seine g lichen Geschäfte kennt , t hält es auch für unvermeidlich .
+11-1	1070-1075	näher	_	_
+11-2	1076-1079	her	_	_
+11-3	1080-1082	is	_	_
+11-4	1083-1094	Weihnachten	_	_
+11-5	1095-1096	\;	_	_
+11-6	1097-1100	wer	_	_
+11-7	1101-1106	seine	_	_
+11-8	1107-1108	g	_	_
+11-9	1109-1115	lichen	_	_
+11-10	1116-1125	Geschäfte	_	_
+11-11	1126-1131	kennt	_	_
+11-12	1132-1133	,	_	_
+11-13	1134-1135	t	_	_
+11-14	1136-1140	hält	_	_
+11-15	1141-1143	es	_	_
+11-16	1144-1148	auch	_	_
+11-17	1149-1152	für	_	_
+11-18	1153-1166	unvermeidlich	_	_
+11-19	1167-1168	.	_	_
+
+#Text=Ob er Termine hält ist
+12-1	1169-1171	Ob	_	_
+12-2	1172-1174	er	_	_
+12-3	1175-1182	Termine	_	_
+12-4	1183-1187	hält	_	_
+12-5	1188-1191	ist	_	_

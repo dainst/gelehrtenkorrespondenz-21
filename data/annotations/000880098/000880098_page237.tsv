@@ -1,0 +1,193 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=908 Braun an Gerhard Rom , 30. Juni 1835 standen , aber treu eingezeichnet .
+1-1	0-3	908	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[1]	DATEletter[1]
+1-8	31-35	Juni	*[1]	DATEletter[1]
+1-9	36-40	1835	*[1]	DATEletter[1]
+1-10	41-48	standen	_	_
+1-11	49-50	,	_	_
+1-12	51-55	aber	_	_
+1-13	56-60	treu	_	_
+1-14	61-74	eingezeichnet	_	_
+1-15	75-76	.	_	_
+
+#Text=Es handelt sich um die Zahlung der an De Witte abgesandten Exemplare .
+2-1	77-79	Es	_	_
+2-2	80-87	handelt	_	_
+2-3	88-92	sich	_	_
+2-4	93-95	um	_	_
+2-5	96-99	die	_	_
+2-6	100-107	Zahlung	_	_
+2-7	108-111	der	_	_
+2-8	112-114	an	_	_
+2-9	115-117	De	*[2]	PERmentioned[2]
+2-10	118-123	Witte	*[2]	PERmentioned[2]
+2-11	124-135	abgesandten	_	_
+2-12	136-145	Exemplare	_	_
+2-13	146-147	.	_	_
+
+#Text=Denken Sie Sich , daß 3 Sendungen mit Bull .
+3-1	148-154	Denken	_	_
+3-2	155-158	Sie	_	_
+3-3	159-163	Sich	_	_
+3-4	164-165	,	_	_
+3-5	166-169	daß	_	_
+3-6	170-171	3	_	_
+3-7	172-181	Sendungen	_	_
+3-8	182-185	mit	_	_
+3-9	186-190	Bull	*[3]	LIT[3]
+3-10	191-192	.	*[3]	LIT[3]
+
+#Text=wirklich verloren gegangen sind , meine Sendung sogar im duplicat , d.h .
+4-1	193-201	wirklich	_	_
+4-2	202-210	verloren	_	_
+4-3	211-219	gegangen	_	_
+4-4	220-224	sind	_	_
+4-5	225-226	,	_	_
+4-6	227-232	meine	_	_
+4-7	233-240	Sendung	_	_
+4-8	241-246	sogar	_	_
+4-9	247-249	im	_	_
+4-10	250-258	duplicat	_	_
+4-11	259-260	,	_	_
+4-12	261-264	d.h	_	_
+4-13	265-266	.	_	_
+
+#Text=sie wurde 2 Mal gemacht .
+5-1	267-270	sie	_	_
+5-2	271-276	wurde	_	_
+5-3	277-278	2	_	_
+5-4	279-282	Mal	_	_
+5-5	283-290	gemacht	_	_
+5-6	291-292	.	_	_
+
+#Text=Ein großer Schaden !
+6-1	293-296	Ein	_	_
+6-2	297-303	großer	_	_
+6-3	304-311	Schaden	_	_
+6-4	312-313	!	_	_
+
+#Text=Von dem vorjährigen Bull .
+7-1	314-317	Von	_	_
+7-2	318-321	dem	_	_
+7-3	322-333	vorjährigen	_	_
+7-4	334-338	Bull	*[4]	LIT[4]
+7-5	339-340	.	*[4]	LIT[4]
+
+#Text=bleiben so wenig Exemplare auf dem Lage , In England muß erhalten : 1834 : The Margques of Northampton , conto pagamento .
+8-1	341-348	bleiben	_	_
+8-2	349-351	so	_	_
+8-3	352-357	wenig	_	_
+8-4	358-367	Exemplare	_	_
+8-5	368-371	auf	_	_
+8-6	372-375	dem	_	_
+8-7	376-380	Lage	_	_
+8-8	381-382	,	_	_
+8-9	383-385	In	_	_
+8-10	386-393	England	*	PLACEmentioned
+8-11	394-397	muß	_	_
+8-12	398-406	erhalten	_	_
+8-13	407-408	:	_	_
+8-14	409-413	1834	_	_
+8-15	414-415	:	_	_
+8-16	416-419	The	_	_
+8-17	420-428	Margques	*[5]	PERmentioned[5]
+8-18	429-431	of	*[5]	PERmentioned[5]
+8-19	432-443	Northampton	*[5]	PERmentioned[5]
+8-20	444-445	,	_	_
+8-21	446-451	conto	_	_
+8-22	452-461	pagamento	_	_
+8-23	462-463	.	_	_
+
+#Text=( at Mr .
+9-1	464-465	(	_	_
+9-2	466-468	at	_	_
+9-3	469-471	Mr	_	_
+9-4	472-473	.	_	_
+
+#Text=Nummond 's Bankers London ) Conte Stanhope ( gratis , hat hier bezahlt fin al tutto 1834 ) ( aux soins de Mess .
+10-1	474-481	Nummond	*	PERmentioned
+10-2	482-484	's	_	_
+10-3	485-492	Bankers	_	_
+10-4	493-499	London	*	PLACEmentioned
+10-5	500-501	)	_	_
+10-6	502-507	Conte	*[6]	PERmentioned[6]
+10-7	508-516	Stanhope	*[6]	PERmentioned[6]
+10-8	517-518	(	_	_
+10-9	519-525	gratis	_	_
+10-10	526-527	,	_	_
+10-11	528-531	hat	_	_
+10-12	532-536	hier	_	_
+10-13	537-544	bezahlt	_	_
+10-14	545-548	fin	_	_
+10-15	549-551	al	_	_
+10-16	552-557	tutto	_	_
+10-17	558-562	1834	_	_
+10-18	563-564	)	_	_
+10-19	565-566	(	_	_
+10-20	567-570	aux	_	_
+10-21	571-576	soins	_	_
+10-22	577-579	de	_	_
+10-23	580-584	Mess	_	_
+10-24	585-586	.	_	_
+
+#Text=Contts et Comp .
+11-1	587-593	Contts	_	_
+11-2	594-596	et	_	_
+11-3	597-601	Comp	_	_
+11-4	602-603	.	_	_
+
+#Text=& Londres . )
+12-1	604-605	&	_	_
+12-2	606-613	Londres	*	PLACEmentioned
+12-3	614-615	.	_	_
+12-4	616-617	)	_	_
+
+#Text=Beverley ( hat hier bezahlen lassen und zwar durch Torlonia .
+13-1	618-626	Beverley	*	PERmentioned
+13-2	627-628	(	_	_
+13-3	629-632	hat	_	_
+13-4	633-637	hier	_	_
+13-5	638-646	bezahlen	_	_
+13-6	647-653	lassen	_	_
+13-7	654-657	und	_	_
+13-8	658-662	zwar	_	_
+13-9	663-668	durch	_	_
+13-10	669-677	Torlonia	*	PERmentioned
+13-11	678-679	.	_	_
+
+#Text=Stefanini hat sich nicht geweigert die Zahlung anzunehmen , ohne auf die Zustellung der Pubblicaz .
+14-1	680-689	Stefanini	*	PERmentioned
+14-2	690-693	hat	_	_
+14-3	694-698	sich	_	_
+14-4	699-704	nicht	_	_
+14-5	705-714	geweigert	_	_
+14-6	715-718	die	_	_
+14-7	719-726	Zahlung	_	_
+14-8	727-737	anzunehmen	_	_
+14-9	738-739	,	_	_
+14-10	740-744	ohne	_	_
+14-11	745-748	auf	_	_
+14-12	749-752	die	_	_
+14-13	753-763	Zustellung	_	_
+14-14	764-767	der	_	_
+14-15	768-777	Pubblicaz	_	_
+14-16	778-779	.	_	_
+
+#Text=zu denken ) .
+15-1	780-782	zu	_	_
+15-2	783-789	denken	_	_
+15-3	790-791	)	_	_
+15-4	792-793	.	_	_
+
+#Text=Ihr Braun
+16-1	794-797	Ihr	_	_
+16-2	798-803	Braun	*	PERauthor

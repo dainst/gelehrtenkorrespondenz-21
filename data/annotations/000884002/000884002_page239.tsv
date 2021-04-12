@@ -1,0 +1,297 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=476 Brunn an Henzen Venedig , 14 .
+1-1	0-3	476	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Venedig	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	14	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=Okt .
+2-1	35-38	Okt	*[3]	DATEletter[3]
+2-2	39-40	.	*[3]	DATEletter[3]
+
+#Text=71864 für seicento erklärt , weil man den specifischen Charakter der Seubtur nicht erkannt hatte .
+3-1	41-46	71864	*[3]	DATEletter[3]
+3-2	47-50	für	_	_
+3-3	51-59	seicento	_	_
+3-4	60-67	erklärt	_	_
+3-5	68-69	,	_	_
+3-6	70-74	weil	_	_
+3-7	75-78	man	_	_
+3-8	79-82	den	_	_
+3-9	83-95	specifischen	_	_
+3-10	96-105	Charakter	_	_
+3-11	106-109	der	_	_
+3-12	110-117	Seubtur	_	_
+3-13	118-123	nicht	_	_
+3-14	124-131	erkannt	_	_
+3-15	132-137	hatte	_	_
+3-16	138-139	.	_	_
+
+#Text=Diese Thorheiten sprechen nun jetzt gerade für die Originalität !
+4-1	140-145	Diese	_	_
+4-2	146-156	Thorheiten	_	_
+4-3	157-165	sprechen	_	_
+4-4	166-169	nun	_	_
+4-5	170-175	jetzt	_	_
+4-6	176-182	gerade	_	_
+4-7	183-186	für	_	_
+4-8	187-190	die	_	_
+4-9	191-203	Originalität	_	_
+4-10	204-205	!	_	_
+
+#Text=Schade , daß ich nicht wenigstens Gypsabgüsse in der Winckelmannssitzung vorlegen kann .
+5-1	206-212	Schade	_	_
+5-2	213-214	,	_	_
+5-3	215-218	daß	_	_
+5-4	219-222	ich	_	_
+5-5	223-228	nicht	_	_
+5-6	229-239	wenigstens	_	_
+5-7	240-251	Gypsabgüsse	_	_
+5-8	252-254	in	_	_
+5-9	255-258	der	_	_
+5-10	259-278	Winckelmannssitzung	_	_
+5-11	279-287	vorlegen	_	_
+5-12	288-292	kann	_	_
+5-13	293-294	.	_	_
+
+#Text=Für Berlin werde ich sie wohl formen lassen .
+6-1	295-298	Für	_	_
+6-2	299-305	Berlin	*	PLACEmentioned
+6-3	306-311	werde	_	_
+6-4	312-315	ich	_	_
+6-5	316-319	sie	_	_
+6-6	320-324	wohl	_	_
+6-7	325-331	formen	_	_
+6-8	332-338	lassen	_	_
+6-9	339-340	.	_	_
+
+#Text=- Valentinelli ist augenblicklich abwesend \; Veludo hier .
+7-1	341-342	-	_	_
+7-2	343-355	Valentinelli	*	PERmentioned
+7-3	356-359	ist	_	_
+7-4	360-374	augenblicklich	_	_
+7-5	375-383	abwesend	_	_
+7-6	384-385	\;	_	_
+7-7	386-392	Veludo	*	PERmentioned
+7-8	393-397	hier	_	_
+7-9	398-399	.	_	_
+
+#Text=Münster freundlich .
+8-1	400-407	Münster	*	PERmentioned
+8-2	408-418	freundlich	_	_
+8-3	419-420	.	_	_
+
+#Text=Ueber die Institutssachen will ich morgen mit ihm sprechen .
+9-1	421-426	Ueber	_	_
+9-2	427-430	die	_	_
+9-3	431-446	Institutssachen	_	_
+9-4	447-451	will	_	_
+9-5	452-455	ich	_	_
+9-6	456-462	morgen	_	_
+9-7	463-466	mit	_	_
+9-8	467-470	ihm	_	_
+9-9	471-479	sprechen	_	_
+9-10	480-481	.	_	_
+
+#Text=- In Wien war Kenner nicht anwesend \; Sadten führte mich herum : auch dort manches hübsche .
+10-1	482-483	-	_	_
+10-2	484-486	In	_	_
+10-3	487-491	Wien	*	PLACEmentioned
+10-4	492-495	war	_	_
+10-5	496-502	Kenner	*	PERmentioned
+10-6	503-508	nicht	_	_
+10-7	509-517	anwesend	_	_
+10-8	518-519	\;	_	_
+10-9	520-526	Sadten	*	PERmentioned
+10-10	527-533	führte	_	_
+10-11	534-538	mich	_	_
+10-12	539-544	herum	_	_
+10-13	545-546	:	_	_
+10-14	547-551	auch	_	_
+10-15	552-556	dort	_	_
+10-16	557-564	manches	_	_
+10-17	565-572	hübsche	_	_
+10-18	573-574	.	_	_
+
+#Text=Bergmann , der jetzige Director , ein gräßliches pecus , zum Thorschreiber und niedrigem Steuerofficienten geeignet , war auch nicht bösartig .
+11-1	575-583	Bergmann	*	PERmentioned
+11-2	584-585	,	_	_
+11-3	586-589	der	_	_
+11-4	590-597	jetzige	_	_
+11-5	598-606	Director	_	_
+11-6	607-608	,	_	_
+11-7	609-612	ein	_	_
+11-8	613-623	gräßliches	_	_
+11-9	624-629	pecus	_	_
+11-10	630-631	,	_	_
+11-11	632-635	zum	_	_
+11-12	636-649	Thorschreiber	_	_
+11-13	650-653	und	_	_
+11-14	654-663	niedrigem	_	_
+11-15	664-681	Steuerofficienten	_	_
+11-16	682-690	geeignet	_	_
+11-17	691-692	,	_	_
+11-18	693-696	war	_	_
+11-19	697-701	auch	_	_
+11-20	702-707	nicht	_	_
+11-21	708-716	bösartig	_	_
+11-22	717-718	.	_	_
+
+#Text=Besonders viel mit Vaalen und Bonitz verkehrt .
+12-1	719-728	Besonders	_	_
+12-2	729-733	viel	_	_
+12-3	734-737	mit	_	_
+12-4	738-744	Vaalen	*	PERmentioned
+12-5	745-748	und	_	_
+12-6	749-755	Bonitz	*	PERmentioned
+12-7	756-764	verkehrt	_	_
+12-8	765-766	.	_	_
+
+#Text=- - Von Verona gehe ich wohl über Mantua , Bologna Florenz , möglichst schnell : wo möglich möchte ich noch vor Wochenschluß nach Rom \; schreibe aber noch einmal unmittelbar vor der Ankunft .
+13-1	767-768	-	_	_
+13-2	769-770	-	_	_
+13-3	771-774	Von	_	_
+13-4	775-781	Verona	*	PLACEmentioned
+13-5	782-786	gehe	_	_
+13-6	787-790	ich	_	_
+13-7	791-795	wohl	_	_
+13-8	796-800	über	_	_
+13-9	801-807	Mantua	*	PLACEmentioned
+13-10	808-809	,	_	_
+13-11	810-817	Bologna	*	PLACEmentioned
+13-12	818-825	Florenz	*	PLACEmentioned
+13-13	826-827	,	_	_
+13-14	828-837	möglichst	_	_
+13-15	838-845	schnell	_	_
+13-16	846-847	:	_	_
+13-17	848-850	wo	_	_
+13-18	851-858	möglich	_	_
+13-19	859-865	möchte	_	_
+13-20	866-869	ich	_	_
+13-21	870-874	noch	_	_
+13-22	875-878	vor	_	_
+13-23	879-891	Wochenschluß	_	_
+13-24	892-896	nach	_	_
+13-25	897-900	Rom	*	PLACEmentioned
+13-26	901-902	\;	_	_
+13-27	903-911	schreibe	_	_
+13-28	912-916	aber	_	_
+13-29	917-921	noch	_	_
+13-30	922-928	einmal	_	_
+13-31	929-940	unmittelbar	_	_
+13-32	941-944	vor	_	_
+13-33	945-948	der	_	_
+13-34	949-956	Ankunft	_	_
+13-35	957-958	.	_	_
+
+#Text=Vielleicht finde ich noch einige Zeilen von Ihnen in Florenz bei Vieusseux , obwohl ich mich wohl nicht länger als einen Tag dort aufhalten werde , um die meinigen nothdürftig ausruhen zu lassen .
+14-1	959-969	Vielleicht	_	_
+14-2	970-975	finde	_	_
+14-3	976-979	ich	_	_
+14-4	980-984	noch	_	_
+14-5	985-991	einige	_	_
+14-6	992-998	Zeilen	_	_
+14-7	999-1002	von	_	_
+14-8	1003-1008	Ihnen	_	_
+14-9	1009-1011	in	_	_
+14-10	1012-1019	Florenz	*	PLACEmentioned
+14-11	1020-1023	bei	_	_
+14-12	1024-1033	Vieusseux	*	PERmentioned
+14-13	1034-1035	,	_	_
+14-14	1036-1042	obwohl	_	_
+14-15	1043-1046	ich	_	_
+14-16	1047-1051	mich	_	_
+14-17	1052-1056	wohl	_	_
+14-18	1057-1062	nicht	_	_
+14-19	1063-1069	länger	_	_
+14-20	1070-1073	als	_	_
+14-21	1074-1079	einen	_	_
+14-22	1080-1083	Tag	_	_
+14-23	1084-1088	dort	_	_
+14-24	1089-1098	aufhalten	_	_
+14-25	1099-1104	werde	_	_
+14-26	1105-1106	,	_	_
+14-27	1107-1109	um	_	_
+14-28	1110-1113	die	_	_
+14-29	1114-1122	meinigen	_	_
+14-30	1123-1134	nothdürftig	_	_
+14-31	1135-1143	ausruhen	_	_
+14-32	1144-1146	zu	_	_
+14-33	1147-1153	lassen	_	_
+14-34	1154-1155	.	_	_
+
+#Text=” Letarouilly und anderes ist gleichzeitig mit mir von Oranienbaum in einer Kiste abgegangen .
+15-1	1156-1157	”	_	_
+15-2	1158-1169	Letarouilly	*	PERmentioned
+15-3	1170-1173	und	_	_
+15-4	1174-1181	anderes	_	_
+15-5	1182-1185	ist	_	_
+15-6	1186-1198	gleichzeitig	_	_
+15-7	1199-1202	mit	_	_
+15-8	1203-1206	mir	_	_
+15-9	1207-1210	von	_	_
+15-10	1211-1222	Oranienbaum	*	PLACEmentioned
+15-11	1223-1225	in	_	_
+15-12	1226-1231	einer	_	_
+15-13	1232-1237	Kiste	_	_
+15-14	1238-1248	abgegangen	_	_
+15-15	1249-1250	.	_	_
+
+#Text=- Nino und Mariuccia mogen also nun die letzte Hand an unsere Hauseinrichtung legen .
+16-1	1251-1252	-	_	_
+16-2	1253-1257	Nino	*	PERmentioned
+16-3	1258-1261	und	_	_
+16-4	1262-1271	Mariuccia	*	PERmentioned
+16-5	1272-1277	mogen	_	_
+16-6	1278-1282	also	_	_
+16-7	1283-1286	nun	_	_
+16-8	1287-1290	die	_	_
+16-9	1291-1297	letzte	_	_
+16-10	1298-1302	Hand	_	_
+16-11	1303-1305	an	_	_
+16-12	1306-1312	unsere	_	_
+16-13	1313-1328	Hauseinrichtung	_	_
+16-14	1329-1334	legen	_	_
+16-15	1335-1336	.	_	_
+
+#Text=- Ihren Brief fand ich in Wien und danke besonders für die Eisenbahnnotizen .
+17-1	1337-1338	-	_	_
+17-2	1339-1344	Ihren	_	_
+17-3	1345-1350	Brief	_	_
+17-4	1351-1355	fand	_	_
+17-5	1356-1359	ich	_	_
+17-6	1360-1362	in	_	_
+17-7	1363-1367	Wien	*	PLACEmentioned
+17-8	1368-1371	und	_	_
+17-9	1372-1377	danke	_	_
+17-10	1378-1387	besonders	_	_
+17-11	1388-1391	für	_	_
+17-12	1392-1395	die	_	_
+17-13	1396-1412	Eisenbahnnotizen	_	_
+17-14	1413-1414	.	_	_
+
+#Text=- Grüße an alle Capitoliner von mir und den meinigen .
+18-1	1415-1416	-	_	_
+18-2	1417-1422	Grüße	_	_
+18-3	1423-1425	an	_	_
+18-4	1426-1430	alle	_	_
+18-5	1431-1442	Capitoliner	_	_
+18-6	1443-1446	von	_	_
+18-7	1447-1450	mir	_	_
+18-8	1451-1454	und	_	_
+18-9	1455-1458	den	_	_
+18-10	1459-1467	meinigen	_	_
+18-11	1468-1469	.	_	_
+
+#Text=Ihr müder HBrunn .
+19-1	1470-1473	Ihr	_	_
+19-2	1474-1479	müder	_	_
+19-3	1480-1486	HBrunn	*	PERauthor
+19-4	1487-1488	.	_	_

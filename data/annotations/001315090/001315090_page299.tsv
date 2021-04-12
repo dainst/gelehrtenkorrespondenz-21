@@ -1,0 +1,184 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=€ Lepsius an Henzen Berlin , 29. Dezember 1876 N° .
+1-1	0-1	€	_	_
+1-2	2-9	Lepsius	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	29.	*[3]	DATEletter[3]
+1-8	33-41	Dezember	*[3]	DATEletter[3]
+1-9	42-46	1876	*[3]	DATEletter[3]
+1-10	47-49	N°	_	_
+1-11	50-51	.	_	_
+
+#Text=216 8 .
+2-1	52-55	216	_	_
+2-2	56-57	8	_	_
+2-3	58-59	.	_	_
+
+#Text=2/1 77 r . 4/1 77 Berlin , den 29 .
+3-1	60-63	2/1	*[4]	DATErecieved[4]
+3-2	64-66	77	*[4]	DATErecieved[4]
+3-3	67-68	r	_	_
+3-4	69-70	.	_	_
+3-5	71-74	4/1	*[5]	DATEanswered[5]
+3-6	75-77	77	*[5]	DATEanswered[5]
+3-7	78-84	Berlin	*	PLACEfrom
+3-8	85-86	,	_	_
+3-9	87-90	den	_	_
+3-10	91-93	29	*[6]	DATEletter[6]
+3-11	94-95	.	*[6]	DATEletter[6]
+
+#Text=Dez . 1876 Professor Henzen Veehrter Freund Es kam in der heutigen Sitzung der Central-Direktion zur Sprache , daß es doch nöthig sei , im Elenco auch der Archäologischen Zeitung als Institutspublikation zu gedenken .
+4-1	96-99	Dez	*[6]	DATEletter[6]
+4-2	100-101	.	*[6]	DATEletter[6]
+4-3	102-106	1876	*[6]	DATEletter[6]
+4-4	107-116	Professor	_	_
+4-5	117-123	Henzen	*	PERaddressee
+4-6	124-132	Veehrter	_	_
+4-7	133-139	Freund	_	_
+4-8	140-142	Es	_	_
+4-9	143-146	kam	_	_
+4-10	147-149	in	_	_
+4-11	150-153	der	_	_
+4-12	154-162	heutigen	_	_
+4-13	163-170	Sitzung	_	_
+4-14	171-174	der	_	_
+4-15	175-192	Central-Direktion	*	ORGmentioned
+4-16	193-196	zur	_	_
+4-17	197-204	Sprache	_	_
+4-18	205-206	,	_	_
+4-19	207-210	daß	_	_
+4-20	211-213	es	_	_
+4-21	214-218	doch	_	_
+4-22	219-225	nöthig	_	_
+4-23	226-229	sei	_	_
+4-24	230-231	,	_	_
+4-25	232-234	im	_	_
+4-26	235-241	Elenco	_	_
+4-27	242-246	auch	_	_
+4-28	247-250	der	_	_
+4-29	251-266	Archäologischen	_	_
+4-30	267-274	Zeitung	_	_
+4-31	275-278	als	_	_
+4-32	279-299	Institutspublikation	_	_
+4-33	300-302	zu	_	_
+4-34	303-311	gedenken	_	_
+4-35	312-313	.	_	_
+
+#Text=Ich habe Dr. ee esetordert Ihnen die nöthigen Daten dazu zu übersenden .
+5-1	314-317	Ich	_	_
+5-2	318-322	habe	_	_
+5-3	323-326	Dr.	_	_
+5-4	327-329	ee	*	PERmentioned
+5-5	330-340	esetordert	_	_
+5-6	341-346	Ihnen	_	_
+5-7	347-350	die	_	_
+5-8	351-359	nöthigen	_	_
+5-9	360-365	Daten	_	_
+5-10	366-370	dazu	_	_
+5-11	371-373	zu	_	_
+5-12	374-384	übersenden	_	_
+5-13	385-386	.	_	_
+
+#Text=Ferner wird nun auch Prof. Köhler am Schluß der Athenischen Jahresmittheilungen den wesentlichen Inhalt des Elenco deutsch .
+6-1	387-393	Ferner	_	_
+6-2	394-398	wird	_	_
+6-3	399-402	nun	_	_
+6-4	403-407	auch	_	_
+6-5	408-413	Prof.	_	_
+6-6	414-420	Köhler	*	PERmentioned
+6-7	421-423	am	_	_
+6-8	424-430	Schluß	_	_
+6-9	431-434	der	_	_
+6-10	435-446	Athenischen	_	_
+6-11	447-466	Jahresmittheilungen	_	_
+6-12	467-470	den	_	_
+6-13	471-483	wesentlichen	_	_
+6-14	484-490	Inhalt	_	_
+6-15	491-494	des	_	_
+6-16	495-501	Elenco	_	_
+6-17	502-509	deutsch	_	_
+6-18	510-511	.	_	_
+
+#Text=wiederholen und zur Vervollständigung der Mitgliederliste auch Vorschläge für Griechische Kresturen machen .
+7-1	512-523	wiederholen	_	_
+7-2	524-527	und	_	_
+7-3	528-531	zur	_	_
+7-4	532-549	Vervollständigung	_	_
+7-5	550-553	der	_	_
+7-6	554-569	Mitgliederliste	_	_
+7-7	570-574	auch	_	_
+7-8	575-585	Vorschläge	_	_
+7-9	586-589	für	_	_
+7-10	590-601	Griechische	_	_
+7-11	602-611	Kresturen	_	_
+7-12	612-618	machen	_	_
+7-13	619-620	.	_	_
+
+#Text=Er wird sich vielleicht darüber schon mit Ihnen in Verbindung gesetzt haben , oder es nächstens thun \; damit die Römischen und Athenischen Listen etc. mit einender harmonieren .
+8-1	621-623	Er	_	_
+8-2	624-628	wird	_	_
+8-3	629-633	sich	_	_
+8-4	634-644	vielleicht	_	_
+8-5	645-652	darüber	_	_
+8-6	653-658	schon	_	_
+8-7	659-662	mit	_	_
+8-8	663-668	Ihnen	_	_
+8-9	669-671	in	_	_
+8-10	672-682	Verbindung	_	_
+8-11	683-690	gesetzt	_	_
+8-12	691-696	haben	_	_
+8-13	697-698	,	_	_
+8-14	699-703	oder	_	_
+8-15	704-706	es	_	_
+8-16	707-716	nächstens	_	_
+8-17	717-721	thun	_	_
+8-18	722-723	\;	_	_
+8-19	724-729	damit	_	_
+8-20	730-733	die	_	_
+8-21	734-743	Römischen	_	_
+8-22	744-747	und	_	_
+8-23	748-759	Athenischen	_	_
+8-24	760-766	Listen	_	_
+8-25	767-771	etc.	_	_
+8-26	772-775	mit	_	_
+8-27	776-784	einender	_	_
+8-28	785-796	harmonieren	_	_
+8-29	797-798	.	_	_
+
+#Text=Ihr ergebenster Lepsius In den nächsten Tagen wird Ihnen die gedruckte Anzeige zugehen von der Verlobung meiner zweiten Tochter .
+9-1	799-802	Ihr	_	_
+9-2	803-814	ergebenster	_	_
+9-3	815-822	Lepsius	*	PERauthor
+9-4	823-825	In	_	_
+9-5	826-829	den	_	_
+9-6	830-838	nächsten	_	_
+9-7	839-844	Tagen	_	_
+9-8	845-849	wird	_	_
+9-9	850-855	Ihnen	_	_
+9-10	856-859	die	_	_
+9-11	860-869	gedruckte	_	_
+9-12	870-877	Anzeige	_	_
+9-13	878-885	zugehen	_	_
+9-14	886-889	von	_	_
+9-15	890-893	der	_	_
+9-16	894-903	Verlobung	_	_
+9-17	904-910	meiner	_	_
+9-18	911-918	zweiten	_	_
+9-19	919-926	Tochter	_	_
+9-20	927-928	.	_	_
+
+#Text=Ein junger talentvoller Prediger , der schon lange
+10-1	929-932	Ein	_	_
+10-2	933-939	junger	_	_
+10-3	940-952	talentvoller	_	_
+10-4	953-961	Prediger	_	_
+10-5	962-963	,	_	_
+10-6	964-967	der	_	_
+10-7	968-973	schon	_	_
+10-8	974-979	lange	_	_

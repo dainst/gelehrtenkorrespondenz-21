@@ -1,0 +1,169 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=428 Helpig an Henzen Pompei , 13. September 1864 tergekommenen Finanzen.noch mehr zerrütten wird , acht Tage noch in Pompei aufhalten .
+1-1	0-3	428	_	_
+1-2	4-10	Helpig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Pompei	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	13.	*[3]	DATEletter[3]
+1-8	34-43	September	*[3]	DATEletter[3]
+1-9	44-48	1864	*[3]	DATEletter[3]
+1-10	49-62	tergekommenen	_	_
+1-11	63-76	Finanzen.noch	_	_
+1-12	77-81	mehr	_	_
+1-13	82-91	zerrütten	_	_
+1-14	92-96	wird	_	_
+1-15	97-98	,	_	_
+1-16	99-103	acht	_	_
+1-17	104-108	Tage	_	_
+1-18	109-113	noch	_	_
+1-19	114-116	in	_	_
+1-20	117-123	Pompei	*	PLACEmentioned
+1-21	124-133	aufhalten	_	_
+1-22	134-135	.	_	_
+
+#Text=Ganz hübsche und noch nirgends notirte Sachen habe ich bei genauer Durchmusterung des pompeianischen Museums vorgesfunden u. a. eine Terracottengrufßpe mit Aeneas , Anchises und Ascanius , worüber Weiteres im Bullettino .
+2-1	136-140	Ganz	_	_
+2-2	141-148	hübsche	_	_
+2-3	149-152	und	_	_
+2-4	153-157	noch	_	_
+2-5	158-166	nirgends	_	_
+2-6	167-174	notirte	_	_
+2-7	175-181	Sachen	_	_
+2-8	182-186	habe	_	_
+2-9	187-190	ich	_	_
+2-10	191-194	bei	_	_
+2-11	195-202	genauer	_	_
+2-12	203-217	Durchmusterung	_	_
+2-13	218-221	des	_	_
+2-14	222-236	pompeianischen	*[4]	ORGmentioned[4]
+2-15	237-244	Museums	*[4]	ORGmentioned[4]
+2-16	245-257	vorgesfunden	_	_
+2-17	258-260	u.	_	_
+2-18	261-263	a.	_	_
+2-19	264-268	eine	_	_
+2-20	269-287	Terracottengrufßpe	*	OBJ
+2-21	288-291	mit	_	_
+2-22	292-298	Aeneas	*	PERmentioned
+2-23	299-300	,	_	_
+2-24	301-309	Anchises	*	PERmentioned
+2-25	310-313	und	_	_
+2-26	314-322	Ascanius	*	PERmentioned
+2-27	323-324	,	_	_
+2-28	325-332	worüber	_	_
+2-29	333-341	Weiteres	_	_
+2-30	342-344	im	_	_
+2-31	345-355	Bullettino	_	_
+2-32	356-357	.	_	_
+
+#Text=Rechtzeitig ist das von mir in meinem letzten Rapporto nach einer Fiorellischen Zeichnung beschriebene Genrebild im Museum ausgestellt worden .
+3-1	358-369	Rechtzeitig	_	_
+3-2	370-373	ist	_	_
+3-3	374-377	das	_	_
+3-4	378-381	von	_	_
+3-5	382-385	mir	_	_
+3-6	386-388	in	_	_
+3-7	389-395	meinem	_	_
+3-8	396-403	letzten	_	_
+3-9	404-412	Rapporto	_	_
+3-10	413-417	nach	_	_
+3-11	418-423	einer	_	_
+3-12	424-437	Fiorellischen	*	MISC
+3-13	438-447	Zeichnung	_	_
+3-14	448-460	beschriebene	_	_
+3-15	461-470	Genrebild	*	OBJ
+3-16	471-473	im	_	_
+3-17	474-480	Museum	*	ORGmentioned
+3-18	481-492	ausgestellt	_	_
+3-19	493-499	worden	_	_
+3-20	500-501	.	_	_
+
+#Text=Der neapolitanische Zeichner hat sehr liederlich gezeichnet und Fiorelli nicht gerade brillft revidirt , was mich zu beiliegender Rectification veranlaßt .
+4-1	502-505	Der	_	_
+4-2	506-521	neapolitanische	_	_
+4-3	522-530	Zeichner	_	_
+4-4	531-534	hat	_	_
+4-5	535-539	sehr	_	_
+4-6	540-550	liederlich	_	_
+4-7	551-561	gezeichnet	_	_
+4-8	562-565	und	_	_
+4-9	566-574	Fiorelli	*[5]	PERmentioned[5]
+4-10	575-580	nicht	_	_
+4-11	581-587	gerade	_	_
+4-12	588-595	brillft	_	_
+4-13	596-604	revidirt	_	_
+4-14	605-606	,	_	_
+4-15	607-610	was	_	_
+4-16	611-615	mich	_	_
+4-17	616-618	zu	_	_
+4-18	619-631	beiliegender	_	_
+4-19	632-645	Rectification	_	_
+4-20	646-655	veranlaßt	_	_
+4-21	656-657	.	_	_
+
+#Text=Da Fiorelli dies Bild für Gerhard bearbeiten will , so habe ich darauf gedrungen , daß er eine andere Zeichnung anfertigen läßt , was er versprochen hat .
+5-1	658-660	Da	_	_
+5-2	661-669	Fiorelli	*	PERmentioned
+5-3	670-674	dies	_	_
+5-4	675-679	Bild	_	_
+5-5	680-683	für	_	_
+5-6	684-691	Gerhard	*	PERmentioned
+5-7	692-702	bearbeiten	_	_
+5-8	703-707	will	_	_
+5-9	708-709	,	_	_
+5-10	710-712	so	_	_
+5-11	713-717	habe	_	_
+5-12	718-721	ich	_	_
+5-13	722-728	darauf	_	_
+5-14	729-738	gedrungen	_	_
+5-15	739-740	,	_	_
+5-16	741-744	daß	_	_
+5-17	745-747	er	_	_
+5-18	748-752	eine	_	_
+5-19	753-759	andere	_	_
+5-20	760-769	Zeichnung	_	_
+5-21	770-780	anfertigen	_	_
+5-22	781-785	läßt	_	_
+5-23	786-787	,	_	_
+5-24	788-791	was	_	_
+5-25	792-794	er	_	_
+5-26	795-806	versprochen	_	_
+5-27	807-810	hat	_	_
+5-28	811-812	.	_	_
+
+#Text=Mit herzlichen Grüßen an die Frau Professorin Ihr Wolfg .
+6-1	813-816	Mit	_	_
+6-2	817-827	herzlichen	_	_
+6-3	828-834	Grüßen	_	_
+6-4	835-837	an	_	_
+6-5	838-841	die	_	_
+6-6	842-846	Frau	_	_
+6-7	847-858	Professorin	_	_
+6-8	859-862	Ihr	_	_
+6-9	863-868	Wolfg	*[6]	PERauthor[6]
+6-10	869-870	.	*[6]	PERauthor[6]
+
+#Text=Helbig Olfers schweigt immer noch .
+7-1	871-877	Helbig	*[6]	PERauthor[6]
+7-2	878-884	Olfers	*	PERmentioned
+7-3	885-893	schweigt	_	_
+7-4	894-899	immer	_	_
+7-5	900-904	noch	_	_
+7-6	905-906	.	_	_
+
+#Text=Das kommt davon , wenn der Adel den Staat regiert .
+8-1	907-910	Das	_	_
+8-2	911-916	kommt	_	_
+8-3	917-922	davon	_	_
+8-4	923-924	,	_	_
+8-5	925-929	wenn	_	_
+8-6	930-933	der	_	_
+8-7	934-938	Adel	_	_
+8-8	939-942	den	_	_
+8-9	943-948	Staat	_	_
+8-10	949-956	regiert	_	_
+8-11	957-958	.	_	_

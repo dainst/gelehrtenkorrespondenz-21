@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1107 Gerhard an Braun Berlin , 2. November 1835 Herrn Dr. E .
+1-1	0-4	1107	_	_
+1-2	5-12	Gerhard	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-21	Braun	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	2.	*[4]	DATEletter[4]
+1-8	34-42	November	*[4]	DATEletter[4]
+1-9	43-47	1835	*[4]	DATEletter[4]
+1-10	48-53	Herrn	_	_
+1-11	54-57	Dr.	_	_
+1-12	58-59	E	_	_
+1-13	60-61	.	_	_
+
+#Text=Braun Wohlgeboren in Rom Berlin am 2 . ''
+2-1	62-67	Braun	*	PERaddressee
+2-2	68-79	Wohlgeboren	_	_
+2-3	80-82	in	_	_
+2-4	83-86	Rom	*	PLACEto
+2-5	87-93	Berlin	_	_
+2-6	94-96	am	_	_
+2-7	97-98	2	*[7]	DATEletter[7]
+2-8	99-100	.	*[7]	DATEletter[7]
+2-9	101-103	''	*[7]	DATEletter[7]
+
+#Text=Novbr .
+3-1	104-109	Novbr	*[7]	DATEletter[7]
+3-2	110-111	.	*[7]	DATEletter[7]
+
+#Text=1835 Im August erlaubte ich mir Sie , verehrter Herr - und Freund , um gelegentliche Besorgung eider Werke aus Neapel zu ersuchen und Sie zugleich um gütige Beantwortung mehrerer Anfragen zu bitten .
+4-1	112-116	1835	*[7]	DATEletter[7]
+4-2	117-119	Im	_	_
+4-3	120-126	August	*	DATEmentioned
+4-4	127-135	erlaubte	_	_
+4-5	136-139	ich	_	_
+4-6	140-143	mir	_	_
+4-7	144-147	Sie	_	_
+4-8	148-149	,	_	_
+4-9	150-159	verehrter	_	_
+4-10	160-164	Herr	_	_
+4-11	165-166	-	_	_
+4-12	167-170	und	_	_
+4-13	171-177	Freund	_	_
+4-14	178-179	,	_	_
+4-15	180-182	um	_	_
+4-16	183-196	gelegentliche	_	_
+4-17	197-206	Besorgung	_	_
+4-18	207-212	eider	_	_
+4-19	213-218	Werke	_	_
+4-20	219-222	aus	_	_
+4-21	223-229	Neapel	*	PLACEmentioned
+4-22	230-232	zu	_	_
+4-23	233-241	ersuchen	_	_
+4-24	242-245	und	_	_
+4-25	246-249	Sie	_	_
+4-26	250-258	zugleich	_	_
+4-27	259-261	um	_	_
+4-28	262-268	gütige	_	_
+4-29	269-281	Beantwortung	_	_
+4-30	282-290	mehrerer	_	_
+4-31	291-299	Anfragen	_	_
+4-32	300-302	zu	_	_
+4-33	303-309	bitten	_	_
+4-34	310-311	.	_	_
+
+#Text=Durch Herrn Prof. Gerhard habe ich die erfreuliche Nachricht erhalten , daß Sie bereits die Güte gehabt haben die erbotenen Bücher aus Neapel zu verschreiben , eine direkte Antwort auf meinen Brief ist mir jedoch bis heut noch nicht zugekommen .
+5-1	312-317	Durch	_	_
+5-2	318-323	Herrn	_	_
+5-3	324-329	Prof.	_	_
+5-4	330-337	Gerhard	*	PERmentioned
+5-5	338-342	habe	_	_
+5-6	343-346	ich	_	_
+5-7	347-350	die	_	_
+5-8	351-362	erfreuliche	_	_
+5-9	363-372	Nachricht	_	_
+5-10	373-381	erhalten	_	_
+5-11	382-383	,	_	_
+5-12	384-387	daß	_	_
+5-13	388-391	Sie	_	_
+5-14	392-399	bereits	_	_
+5-15	400-403	die	_	_
+5-16	404-408	Güte	_	_
+5-17	409-415	gehabt	_	_
+5-18	416-421	haben	_	_
+5-19	422-425	die	_	_
+5-20	426-435	erbotenen	_	_
+5-21	436-442	Bücher	_	_
+5-22	443-446	aus	_	_
+5-23	447-453	Neapel	*	PLACEmentioned
+5-24	454-456	zu	_	_
+5-25	457-469	verschreiben	_	_
+5-26	470-471	,	_	_
+5-27	472-476	eine	_	_
+5-28	477-484	direkte	_	_
+5-29	485-492	Antwort	_	_
+5-30	493-496	auf	_	_
+5-31	497-503	meinen	_	_
+5-32	504-509	Brief	_	_
+5-33	510-513	ist	_	_
+5-34	514-517	mir	_	_
+5-35	518-524	jedoch	_	_
+5-36	525-528	bis	_	_
+5-37	529-533	heut	_	_
+5-38	534-538	noch	_	_
+5-39	539-544	nicht	_	_
+5-40	545-555	zugekommen	_	_
+5-41	556-557	.	_	_
+
+#Text=Demohngeachtet belästige ich Sie schon wieder mit der Bitte , mif gelegentlich auch noch folgende Werke aus Sizilien kommen zu lassen , vorausgesetzt jedoch daß Ihnen me !
+6-1	558-572	Demohngeachtet	_	_
+6-2	573-582	belästige	_	_
+6-3	583-586	ich	_	_
+6-4	587-590	Sie	_	_
+6-5	591-596	schon	_	_
+6-6	597-603	wieder	_	_
+6-7	604-607	mit	_	_
+6-8	608-611	der	_	_
+6-9	612-617	Bitte	_	_
+6-10	618-619	,	_	_
+6-11	620-623	mif	_	_
+6-12	624-636	gelegentlich	_	_
+6-13	637-641	auch	_	_
+6-14	642-646	noch	_	_
+6-15	647-655	folgende	_	_
+6-16	656-661	Werke	_	_
+6-17	662-665	aus	_	_
+6-18	666-674	Sizilien	*	PLACEmentioned
+6-19	675-681	kommen	_	_
+6-20	682-684	zu	_	_
+6-21	685-691	lassen	_	_
+6-22	692-693	,	_	_
+6-23	694-707	vorausgesetzt	_	_
+6-24	708-714	jedoch	_	_
+6-25	715-718	daß	_	_
+6-26	719-724	Ihnen	_	_
+6-27	725-727	me	_	_
+6-28	728-729	!	_	_
+
+#Text=dadurch mit besondere Unbequemlichkeit verursacht werde \\ und daß sie ohne bedeutende Transportkosten angeschaft werden können , weshalb ich sie ja nicht direkt sondern nur gelegentlich senden zu lassen bitte .
+7-1	730-737	dadurch	_	_
+7-2	738-741	mit	_	_
+7-3	742-751	besondere	_	_
+7-4	752-768	Unbequemlichkeit	_	_
+7-5	769-779	verursacht	_	_
+7-6	780-785	werde	_	_
+7-7	786-787	\\	_	_
+7-8	788-791	und	_	_
+7-9	792-795	daß	_	_
+7-10	796-799	sie	_	_
+7-11	800-804	ohne	_	_
+7-12	805-815	bedeutende	_	_
+7-13	816-831	Transportkosten	_	_
+7-14	832-842	angeschaft	_	_
+7-15	843-849	werden	_	_
+7-16	850-856	können	_	_
+7-17	857-858	,	_	_
+7-18	859-866	weshalb	_	_
+7-19	867-870	ich	_	_
+7-20	871-874	sie	_	_
+7-21	875-877	ja	_	_
+7-22	878-883	nicht	_	_
+7-23	884-890	direkt	_	_
+7-24	891-898	sondern	_	_
+7-25	899-902	nur	_	_
+7-26	903-915	gelegentlich	_	_
+7-27	916-922	senden	_	_
+7-28	923-925	zu	_	_
+7-29	926-932	lassen	_	_
+7-30	933-938	bitte	_	_
+7-31	939-940	.	_	_
+
+#Text=Es sind folgende zwei , zu welchen ich noch ein drittes in Rom erschienene füge , das ich ebenfalls zu erhalten wünsche Any ala On - un ung , : } 41 .
+8-1	941-943	Es	_	_
+8-2	944-948	sind	_	_
+8-3	949-957	folgende	_	_
+8-4	958-962	zwei	_	_
+8-5	963-964	,	_	_
+8-6	965-967	zu	_	_
+8-7	968-975	welchen	_	_
+8-8	976-979	ich	_	_
+8-9	980-984	noch	_	_
+8-10	985-988	ein	_	_
+8-11	989-996	drittes	_	_
+8-12	997-999	in	_	_
+8-13	1000-1003	Rom	_	_
+8-14	1004-1015	erschienene	_	_
+8-15	1016-1020	füge	_	_
+8-16	1021-1022	,	_	_
+8-17	1023-1026	das	_	_
+8-18	1027-1030	ich	_	_
+8-19	1031-1040	ebenfalls	_	_
+8-20	1041-1043	zu	_	_
+8-21	1044-1052	erhalten	_	_
+8-22	1053-1060	wünsche	_	_
+8-23	1061-1064	Any	_	_
+8-24	1065-1068	ala	_	_
+8-25	1069-1071	On	_	_
+8-26	1072-1073	-	_	_
+8-27	1074-1076	un	_	_
+8-28	1077-1080	ung	_	_
+8-29	1081-1082	,	_	_
+8-30	1083-1084	:	_	_
+8-31	1085-1086	}	_	_
+8-32	1087-1089	41	_	_
+8-33	1090-1091	.	_	_
+
+#Text=Monumenti inediti della Sicilia , pubblicati u g Ponna Yı 26 da Niccolo Maggiore .
+9-1	1092-1101	Monumenti	_	_
+9-2	1102-1109	inediti	_	_
+9-3	1110-1115	della	_	_
+9-4	1116-1123	Sicilia	_	_
+9-5	1124-1125	,	_	_
+9-6	1126-1136	pubblicati	_	_
+9-7	1137-1138	u	_	_
+9-8	1139-1140	g	_	_
+9-9	1141-1146	Ponna	_	_
+9-10	1147-1149	Yı	_	_
+9-11	1150-1152	26	_	_
+9-12	1153-1155	da	_	_
+9-13	1156-1163	Niccolo	*[13]	PERmentioned[13]
+9-14	1164-1172	Maggiore	*[13]	PERmentioned[13]
+9-15	1173-1174	.	_	_
+
+#Text=Palermo 1833 .
+10-1	1175-1182	Palermo	*	PLACEmentioned
+10-2	1183-1187	1833	*	DATEmentioned
+10-3	1188-1189	.	_	_
+
+#Text=- x ... Merte Dere < 1. le antichita di 4ere scoperte , dal Barone Judica .
+11-1	1190-1191	-	_	_
+11-2	1192-1193	x	_	_
+11-3	1194-1197	...	_	_
+11-4	1198-1203	Merte	_	_
+11-5	1204-1208	Dere	_	_
+11-6	1209-1210	<	_	_
+11-7	1211-1213	1.	_	_
+11-8	1214-1216	le	_	_
+11-9	1217-1226	antichita	_	_
+11-10	1227-1229	di	_	_
+11-11	1230-1234	4ere	_	_
+11-12	1235-1243	scoperte	_	_
+11-13	1244-1245	,	_	_
+11-14	1246-1249	dal	_	_
+11-15	1250-1256	Barone	*[16]	PERmentioned[16]
+11-16	1257-1263	Judica	*[16]	PERmentioned[16]
+11-17	1264-1265	.	_	_
+
+#Text=Messina 1819. fol . 1 .
+12-1	1266-1273	Messina	*	PLACEmentioned
+12-2	1274-1279	1819.	*	DATEmentioned
+12-3	1280-1283	fol	_	_
+12-4	1284-1285	.	_	_
+12-5	1286-1287	1	*[19]	ORGmentioned[19]
+12-6	1288-1289	.	*[19]	ORGmentioned[19]
+
+#Text=Museo Capitolino dell'Abb .
+13-1	1290-1295	Museo	*[19]	ORGmentioned[19]
+13-2	1296-1306	Capitolino	*[19]	ORGmentioned[19]
+13-3	1307-1315	dell'Abb	_	_
+13-4	1316-1317	.	_	_
+
+#Text=Toffanelli .
+14-1	1318-1328	Toffanelli	*	PERmentioned
+14-2	1329-1330	.	_	_
+
+#Text=alt .
+15-1	1331-1334	alt	_	_
+15-2	1335-1336	.	_	_

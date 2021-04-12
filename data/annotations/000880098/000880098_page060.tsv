@@ -1,0 +1,242 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=633 Braun an Gerhard Rom , 6. September 1834 - 3 - über die Sitten und Gebräuche der alten Aegypter .
+1-1	0-3	633	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	6.	*[1]	DATEletter[1]
+1-8	30-39	September	*[1]	DATEletter[1]
+1-9	40-44	1834	*[1]	DATEletter[1]
+1-10	45-46	-	_	_
+1-11	47-48	3	_	_
+1-12	49-50	-	_	_
+1-13	51-55	über	_	_
+1-14	56-59	die	_	_
+1-15	60-66	Sitten	_	_
+1-16	67-70	und	_	_
+1-17	71-80	Gebräuche	_	_
+1-18	81-84	der	_	_
+1-19	85-90	alten	_	_
+1-20	91-99	Aegypter	_	_
+1-21	100-101	.	_	_
+
+#Text=- Er bescheinigt den Empfang des Rapporto \; auch die Anfrage in Betreff der Tabula honestae Missionis für Borghese kann er erst nach seiner Rückkehr nach Paris antworten .
+2-1	102-103	-	_	_
+2-2	104-106	Er	_	_
+2-3	107-118	bescheinigt	_	_
+2-4	119-122	den	_	_
+2-5	123-130	Empfang	_	_
+2-6	131-134	des	_	_
+2-7	135-143	Rapporto	*	LIT
+2-8	144-145	\;	_	_
+2-9	146-150	auch	_	_
+2-10	151-154	die	_	_
+2-11	155-162	Anfrage	_	_
+2-12	163-165	in	_	_
+2-13	166-173	Betreff	_	_
+2-14	174-177	der	_	_
+2-15	178-184	Tabula	*[2]	LIT[2]
+2-16	185-193	honestae	*[2]	LIT[2]
+2-17	194-203	Missionis	*[2]	LIT[2]
+2-18	204-207	für	_	_
+2-19	208-216	Borghese	*	PERmentioned
+2-20	217-221	kann	_	_
+2-21	222-224	er	_	_
+2-22	225-229	erst	_	_
+2-23	230-234	nach	_	_
+2-24	235-241	seiner	_	_
+2-25	242-250	Rückkehr	_	_
+2-26	251-255	nach	_	_
+2-27	256-261	Paris	*	PLACEmentioned
+2-28	262-271	antworten	_	_
+2-29	272-273	.	_	_
+
+#Text=- Die Zeichnungen des Prinzen von Canino sollen stauenenswerthe Herrlichkeiten enthalten \; er bedauert , daß die Herausgabe noch unterbleiben muß .
+3-1	274-275	-	_	_
+3-2	276-279	Die	_	_
+3-3	280-291	Zeichnungen	_	_
+3-4	292-295	des	_	_
+3-5	296-303	Prinzen	*[3]	PERmentioned[3]
+3-6	304-307	von	*[3]	PERmentioned[3]
+3-7	308-314	Canino	*[3]	PERmentioned[3]
+3-8	315-321	sollen	_	_
+3-9	322-337	stauenenswerthe	_	_
+3-10	338-352	Herrlichkeiten	_	_
+3-11	353-362	enthalten	_	_
+3-12	363-364	\;	_	_
+3-13	365-367	er	_	_
+3-14	368-376	bedauert	_	_
+3-15	377-378	,	_	_
+3-16	379-382	daß	_	_
+3-17	383-386	die	_	_
+3-18	387-397	Herausgabe	_	_
+3-19	398-402	noch	_	_
+3-20	403-415	unterbleiben	_	_
+3-21	416-419	muß	_	_
+3-22	420-421	.	_	_
+
+#Text=- Seine Abreise von London sollte in jenen Tagen erfolgen \; in Paris verweilt er bis den 15 .
+4-1	422-423	-	_	_
+4-2	424-429	Seine	_	_
+4-3	430-437	Abreise	_	_
+4-4	438-441	von	_	_
+4-5	442-448	London	*	PLACEmentioned
+4-6	449-455	sollte	_	_
+4-7	456-458	in	_	_
+4-8	459-464	jenen	_	_
+4-9	465-470	Tagen	_	_
+4-10	471-479	erfolgen	_	_
+4-11	480-481	\;	_	_
+4-12	482-484	in	_	_
+4-13	485-490	Paris	*	PLACEmentioned
+4-14	491-499	verweilt	_	_
+4-15	500-502	er	_	_
+4-16	503-506	bis	_	_
+4-17	507-510	den	_	_
+4-18	511-513	15	*[4]	DATEmentioned[4]
+4-19	514-515	.	*[4]	DATEmentioned[4]
+
+#Text=October , den Winter verbringt er in Florenz .
+5-1	516-523	October	*[4]	DATEmentioned[4]
+5-2	524-525	,	_	_
+5-3	526-529	den	_	_
+5-4	530-536	Winter	*	DATEmentioned
+5-5	537-546	verbringt	_	_
+5-6	547-549	er	_	_
+5-7	550-552	in	_	_
+5-8	553-560	Florenz	*	PLACEmentioned
+5-9	561-562	.	_	_
+
+#Text=- Von Leake 's Reise in Griechenland erscheint der „ ve Theil in 8° - M. ist ohne Antwort von der Berliner Academie .
+6-1	563-564	-	_	_
+6-2	565-568	Von	_	_
+6-3	569-574	Leake	*	PERmentioned
+6-4	575-577	's	_	_
+6-5	578-583	Reise	*[5]	LIT[5]
+6-6	584-586	in	*[5]	LIT[5]
+6-7	587-599	Griechenland	*[5]|*[6]	LIT[5]|PLACEmentioned[6]
+6-8	600-609	erscheint	_	_
+6-9	610-613	der	_	_
+6-10	614-615	„	_	_
+6-11	616-618	ve	_	_
+6-12	619-624	Theil	_	_
+6-13	625-627	in	_	_
+6-14	628-630	8°	_	_
+6-15	631-632	-	_	_
+6-16	633-635	M.	_	_
+6-17	636-639	ist	_	_
+6-18	640-644	ohne	_	_
+6-19	645-652	Antwort	_	_
+6-20	653-656	von	_	_
+6-21	657-660	der	_	_
+6-22	661-669	Berliner	*[7]	ORGmentioned[7]
+6-23	670-678	Academie	*[7]	ORGmentioned[7]
+6-24	679-680	.	_	_
+
+#Text=So schnell wie möglich wenigstens 15 Exemplare der Institutspubblicationen von 1833 nach London \| !
+7-1	681-683	So	_	_
+7-2	684-691	schnell	_	_
+7-3	692-695	wie	_	_
+7-4	696-703	möglich	_	_
+7-5	704-714	wenigstens	_	_
+7-6	715-717	15	_	_
+7-7	718-727	Exemplare	_	_
+7-8	728-731	der	_	_
+7-9	732-755	Institutspubblicationen	*	ORGmentioned
+7-10	756-759	von	_	_
+7-11	760-764	1833	*	DATEmentioned
+7-12	765-769	nach	_	_
+7-13	770-776	London	*	PLACEmentioned
+7-14	777-778	\|	_	_
+7-15	779-780	!	_	_
+
+#Text=RECHNUNGEN UND AUFSTELLUNGEN Supplements Momoires & Rapports N Die Mengler Listen sind schon einige Tage hier , aber durch Frascatische Umwege und Nachlässigkeiten verspätet \; heute ist Tommaso erst danach gegangen .
+8-1	781-791	RECHNUNGEN	_	_
+8-2	792-795	UND	_	_
+8-3	796-809	AUFSTELLUNGEN	_	_
+8-4	810-821	Supplements	_	_
+8-5	822-830	Momoires	_	_
+8-6	831-832	&	_	_
+8-7	833-841	Rapports	_	_
+8-8	842-843	N	_	_
+8-9	844-847	Die	_	_
+8-10	848-855	Mengler	*	PERmentioned
+8-11	856-862	Listen	_	_
+8-12	863-867	sind	_	_
+8-13	868-873	schon	_	_
+8-14	874-880	einige	_	_
+8-15	881-885	Tage	_	_
+8-16	886-890	hier	_	_
+8-17	891-892	,	_	_
+8-18	893-897	aber	_	_
+8-19	898-903	durch	_	_
+8-20	904-916	Frascatische	*	PLACEmentioned
+8-21	917-923	Umwege	_	_
+8-22	924-927	und	_	_
+8-23	928-944	Nachlässigkeiten	_	_
+8-24	945-954	verspätet	_	_
+8-25	955-956	\;	_	_
+8-26	957-962	heute	_	_
+8-27	963-966	ist	_	_
+8-28	967-974	Tommaso	*	PERmentioned
+8-29	975-979	erst	_	_
+8-30	980-986	danach	_	_
+8-31	987-995	gegangen	_	_
+8-32	996-997	.	_	_
+
+#Text=Kellermann ist fieberkrank und wird nach Abekens Bericht wohl nicht so bald wieder aufstehen , was mir recht leid thut .
+9-1	998-1008	Kellermann	*	PERmentioned
+9-2	1009-1012	ist	_	_
+9-3	1013-1024	fieberkrank	_	_
+9-4	1025-1028	und	_	_
+9-5	1029-1033	wird	_	_
+9-6	1034-1038	nach	_	_
+9-7	1039-1046	Abekens	*	PERmentioned
+9-8	1047-1054	Bericht	_	_
+9-9	1055-1059	wohl	_	_
+9-10	1060-1065	nicht	_	_
+9-11	1066-1068	so	_	_
+9-12	1069-1073	bald	_	_
+9-13	1074-1080	wieder	_	_
+9-14	1081-1090	aufstehen	_	_
+9-15	1091-1092	,	_	_
+9-16	1093-1096	was	_	_
+9-17	1097-1100	mir	_	_
+9-18	1101-1106	recht	_	_
+9-19	1107-1111	leid	_	_
+9-20	1112-1116	thut	_	_
+9-21	1117-1118	.	_	_
+
+#Text=-— Lanci ist wohlauf und sehr fleißig über den Büchern .
+10-1	1119-1121	-—	_	_
+10-2	1122-1127	Lanci	*	PERmentioned
+10-3	1128-1131	ist	_	_
+10-4	1132-1139	wohlauf	_	_
+10-5	1140-1143	und	_	_
+10-6	1144-1148	sehr	_	_
+10-7	1149-1156	fleißig	_	_
+10-8	1157-1161	über	_	_
+10-9	1162-1165	den	_	_
+10-10	1166-1173	Büchern	_	_
+10-11	1174-1175	.	_	_
+
+#Text=Wir halten unsere abendlichen Zusammenkünfte fleißig ab und sind fleißig in der Adunanza .
+11-1	1176-1179	Wir	_	_
+11-2	1180-1186	halten	_	_
+11-3	1187-1193	unsere	_	_
+11-4	1194-1205	abendlichen	_	_
+11-5	1206-1220	Zusammenkünfte	_	_
+11-6	1221-1228	fleißig	_	_
+11-7	1229-1231	ab	_	_
+11-8	1232-1235	und	_	_
+11-9	1236-1240	sind	_	_
+11-10	1241-1248	fleißig	_	_
+11-11	1249-1251	in	_	_
+11-12	1252-1255	der	_	_
+11-13	1256-1264	Adunanza	*	MISC
+11-14	1265-1266	.	_	_

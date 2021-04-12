@@ -1,0 +1,299 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Bologna , 29 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Bologna	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	29	*[9]	DATEletter[9]
+1-7	30-31	.	*[9]	DATEletter[9]
+
+#Text=Oktober 1837 diejenigen denen es obliegt über den Nachlaß des sel .
+2-1	32-39	Oktober	*[9]	DATEletter[9]
+2-2	40-44	1837	*[9]	DATEletter[9]
+2-3	45-55	diejenigen	_	_
+2-4	56-61	denen	_	_
+2-5	62-64	es	_	_
+2-6	65-72	obliegt	_	_
+2-7	73-77	über	_	_
+2-8	78-81	den	_	_
+2-9	82-89	Nachlaß	_	_
+2-10	90-93	des	_	_
+2-11	94-97	sel	_	_
+2-12	98-99	.	_	_
+
+#Text=Kellermann zu verfügen , recht ernst erwägen , was sie aus den Händen geben und wem sie es anvertrauen .
+3-1	100-110	Kellermann	*	PERmentioned
+3-2	111-113	zu	_	_
+3-3	114-122	verfügen	_	_
+3-4	123-124	,	_	_
+3-5	125-130	recht	_	_
+3-6	131-136	ernst	_	_
+3-7	137-144	erwägen	_	_
+3-8	145-146	,	_	_
+3-9	147-150	was	_	_
+3-10	151-154	sie	_	_
+3-11	155-158	aus	_	_
+3-12	159-162	den	_	_
+3-13	163-169	Händen	_	_
+3-14	170-175	geben	_	_
+3-15	176-179	und	_	_
+3-16	180-183	wem	_	_
+3-17	184-187	sie	_	_
+3-18	188-190	es	_	_
+3-19	191-202	anvertrauen	_	_
+3-20	203-204	.	_	_
+
+#Text=Während meiner Reise habe ich dem beabsichtigten Werke viel Interesse abgenommen und mit vielen Epigraphen , unter denen Labas der ernsthafteste und ausgezeichnetste ist , darüber verkehrt .
+4-1	205-212	Während	_	_
+4-2	213-219	meiner	_	_
+4-3	220-225	Reise	_	_
+4-4	226-230	habe	_	_
+4-5	231-234	ich	_	_
+4-6	235-238	dem	_	_
+4-7	239-253	beabsichtigten	_	_
+4-8	254-259	Werke	_	_
+4-9	260-264	viel	_	_
+4-10	265-274	Interesse	_	_
+4-11	275-285	abgenommen	_	_
+4-12	286-289	und	_	_
+4-13	290-293	mit	_	_
+4-14	294-300	vielen	_	_
+4-15	301-311	Epigraphen	_	_
+4-16	312-313	,	_	_
+4-17	314-319	unter	_	_
+4-18	320-325	denen	_	_
+4-19	326-331	Labas	*	PERmentioned
+4-20	332-335	der	_	_
+4-21	336-349	ernsthafteste	_	_
+4-22	350-353	und	_	_
+4-23	354-370	ausgezeichnetste	_	_
+4-24	371-374	ist	_	_
+4-25	375-376	,	_	_
+4-26	377-384	darüber	_	_
+4-27	385-393	verkehrt	_	_
+4-28	394-395	.	_	_
+
+#Text=Mit Borghesi ' n werde ich mich bei meinem zunächst beabsichtigten Aufenthalt in 5 .
+5-1	396-399	Mit	_	_
+5-2	400-408	Borghesi	*[12]	PERmentioned[12]
+5-3	409-410	'	*[12]	PERmentioned[12]
+5-4	411-412	n	*[12]	PERmentioned[12]
+5-5	413-418	werde	_	_
+5-6	419-422	ich	_	_
+5-7	423-427	mich	_	_
+5-8	428-431	bei	_	_
+5-9	432-438	meinem	_	_
+5-10	439-447	zunächst	_	_
+5-11	448-462	beabsichtigten	_	_
+5-12	463-473	Aufenthalt	_	_
+5-13	474-476	in	_	_
+5-14	477-478	5	_	_
+5-15	479-480	.	*[10]	PLACEmentioned[10]
+
+#Text=Marino ausführlich darüber unterhalten und von ihm belehren lassen .
+6-1	481-487	Marino	*[10]	PLACEmentioned[10]
+6-2	488-499	ausführlich	_	_
+6-3	500-507	darüber	_	_
+6-4	508-519	unterhalten	_	_
+6-5	520-523	und	_	_
+6-6	524-527	von	_	_
+6-7	528-531	ihm	_	_
+6-8	532-540	belehren	_	_
+6-9	541-547	lassen	_	_
+6-10	548-549	.	_	_
+
+#Text=Vorerst kann ich mir es nur unmöglich denken , daß Kellermann sofort einen Ersatzmann finden wird .
+7-1	550-557	Vorerst	_	_
+7-2	558-562	kann	_	_
+7-3	563-566	ich	_	_
+7-4	567-570	mir	_	_
+7-5	571-573	es	_	_
+7-6	574-577	nur	_	_
+7-7	578-587	unmöglich	_	_
+7-8	588-594	denken	_	_
+7-9	595-596	,	_	_
+7-10	597-600	daß	_	_
+7-11	601-611	Kellermann	*	PERmentioned
+7-12	612-618	sofort	_	_
+7-13	619-624	einen	_	_
+7-14	625-635	Ersatzmann	_	_
+7-15	636-642	finden	_	_
+7-16	643-647	wird	_	_
+7-17	648-649	.	_	_
+
+#Text=Wenn das Institut am Leben bleiben sollte , so kann man mit Borghesis Hülfe einen jüngeren Gelehrten für epigraphische Arbeiten heranziehen , jedenfalls muß aber dann Sorge getragen werden , daß die dem Institut verdankte Verbindung mit Borghesi nicht sofort blos Privatzwecken dienen darf , wie es leider beim sel .
+8-1	650-654	Wenn	_	_
+8-2	655-658	das	_	_
+8-3	659-667	Institut	*	ORGmentioned
+8-4	668-670	am	_	_
+8-5	671-676	Leben	_	_
+8-6	677-684	bleiben	_	_
+8-7	685-691	sollte	_	_
+8-8	692-693	,	_	_
+8-9	694-696	so	_	_
+8-10	697-701	kann	_	_
+8-11	702-705	man	_	_
+8-12	706-709	mit	_	_
+8-13	710-719	Borghesis	*	PERmentioned
+8-14	720-725	Hülfe	_	_
+8-15	726-731	einen	_	_
+8-16	732-740	jüngeren	_	_
+8-17	741-750	Gelehrten	_	_
+8-18	751-754	für	_	_
+8-19	755-768	epigraphische	_	_
+8-20	769-777	Arbeiten	_	_
+8-21	778-789	heranziehen	_	_
+8-22	790-791	,	_	_
+8-23	792-802	jedenfalls	_	_
+8-24	803-806	muß	_	_
+8-25	807-811	aber	_	_
+8-26	812-816	dann	_	_
+8-27	817-822	Sorge	_	_
+8-28	823-831	getragen	_	_
+8-29	832-838	werden	_	_
+8-30	839-840	,	_	_
+8-31	841-844	daß	_	_
+8-32	845-848	die	_	_
+8-33	849-852	dem	_	_
+8-34	853-861	Institut	*	ORGmentioned
+8-35	862-871	verdankte	_	_
+8-36	872-882	Verbindung	_	_
+8-37	883-886	mit	_	_
+8-38	887-895	Borghesi	*	PERmentioned
+8-39	896-901	nicht	_	_
+8-40	902-908	sofort	_	_
+8-41	909-913	blos	_	_
+8-42	914-927	Privatzwecken	_	_
+8-43	928-934	dienen	_	_
+8-44	935-939	darf	_	_
+8-45	940-941	,	_	_
+8-46	942-945	wie	_	_
+8-47	946-948	es	_	_
+8-48	949-955	leider	_	_
+8-49	956-960	beim	_	_
+8-50	961-964	sel	_	_
+8-51	965-966	.	_	_
+
+#Text=Kellermann nur zu sehr der Fall gewesen .
+9-1	967-977	Kellermann	*	PERmentioned
+9-2	978-981	nur	_	_
+9-3	982-984	zu	_	_
+9-4	985-989	sehr	_	_
+9-5	990-993	der	_	_
+9-6	994-998	Fall	_	_
+9-7	999-1006	gewesen	_	_
+9-8	1007-1008	.	_	_
+
+#Text=Ich halte es für billig und recht , daß ein großer Theil der Borghesischen Correspondenz in das Archiv des Instituts zurückkehren müsse .
+10-1	1009-1012	Ich	_	_
+10-2	1013-1018	halte	_	_
+10-3	1019-1021	es	_	_
+10-4	1022-1025	für	_	_
+10-5	1026-1032	billig	_	_
+10-6	1033-1036	und	_	_
+10-7	1037-1042	recht	_	_
+10-8	1043-1044	,	_	_
+10-9	1045-1048	daß	_	_
+10-10	1049-1052	ein	_	_
+10-11	1053-1059	großer	_	_
+10-12	1060-1065	Theil	_	_
+10-13	1066-1069	der	_	_
+10-14	1070-1083	Borghesischen	*	PERmentioned
+10-15	1084-1097	Correspondenz	_	_
+10-16	1098-1100	in	_	_
+10-17	1101-1104	das	_	_
+10-18	1105-1111	Archiv	_	_
+10-19	1112-1115	des	_	_
+10-20	1116-1125	Instituts	*	ORGmentioned
+10-21	1126-1138	zurückkehren	_	_
+10-22	1139-1144	müsse	_	_
+10-23	1145-1146	.	_	_
+
+#Text=- Diese meine Bemerkungen theile ich Ihnen freundschaftlich und nur insofern mit , als Sie eine solche Mittheilung nicht für voreilig und ungehörig erachten \; im letzteren Fall bitte ich dieses Blatt zu verbrennen .
+11-1	1147-1148	-	_	_
+11-2	1149-1154	Diese	_	_
+11-3	1155-1160	meine	_	_
+11-4	1161-1172	Bemerkungen	_	_
+11-5	1173-1179	theile	_	_
+11-6	1180-1183	ich	_	_
+11-7	1184-1189	Ihnen	_	_
+11-8	1190-1206	freundschaftlich	_	_
+11-9	1207-1210	und	_	_
+11-10	1211-1214	nur	_	_
+11-11	1215-1223	insofern	_	_
+11-12	1224-1227	mit	_	_
+11-13	1228-1229	,	_	_
+11-14	1230-1233	als	_	_
+11-15	1234-1237	Sie	_	_
+11-16	1238-1242	eine	_	_
+11-17	1243-1249	solche	_	_
+11-18	1250-1261	Mittheilung	_	_
+11-19	1262-1267	nicht	_	_
+11-20	1268-1271	für	_	_
+11-21	1272-1280	voreilig	_	_
+11-22	1281-1284	und	_	_
+11-23	1285-1294	ungehörig	_	_
+11-24	1295-1303	erachten	_	_
+11-25	1304-1305	\;	_	_
+11-26	1306-1308	im	_	_
+11-27	1309-1318	letzteren	_	_
+11-28	1319-1323	Fall	_	_
+11-29	1324-1329	bitte	_	_
+11-30	1330-1333	ich	_	_
+11-31	1334-1340	dieses	_	_
+11-32	1341-1346	Blatt	_	_
+11-33	1347-1349	zu	_	_
+11-34	1350-1360	verbrennen	_	_
+11-35	1361-1362	.	_	_
+
+#Text=Herr von Liphart kann Gott danken , daß ich seine Abdrücke , wie ich beabsichtigt , noch nicht abgesandt \; die wären alle durchgeräuchert worden .
+12-1	1363-1367	Herr	*[11]	PERmentioned[11]
+12-2	1368-1371	von	*[11]	PERmentioned[11]
+12-3	1372-1379	Liphart	*[11]	PERmentioned[11]
+12-4	1380-1384	kann	_	_
+12-5	1385-1389	Gott	_	_
+12-6	1390-1396	danken	_	_
+12-7	1397-1398	,	_	_
+12-8	1399-1402	daß	_	_
+12-9	1403-1406	ich	_	_
+12-10	1407-1412	seine	_	_
+12-11	1413-1421	Abdrücke	_	_
+12-12	1422-1423	,	_	_
+12-13	1424-1427	wie	_	_
+12-14	1428-1431	ich	_	_
+12-15	1432-1444	beabsichtigt	_	_
+12-16	1445-1446	,	_	_
+12-17	1447-1451	noch	_	_
+12-18	1452-1457	nicht	_	_
+12-19	1458-1467	abgesandt	_	_
+12-20	1468-1469	\;	_	_
+12-21	1470-1473	die	_	_
+12-22	1474-1479	wären	_	_
+12-23	1480-1484	alle	_	_
+12-24	1485-1500	durchgeräuchert	_	_
+12-25	1501-1507	worden	_	_
+12-26	1508-1509	.	_	_
+
+#Text=Bitten Sie ihn um seine Adresse .
+13-1	1510-1516	Bitten	_	_
+13-2	1517-1520	Sie	_	_
+13-3	1521-1524	ihn	_	_
+13-4	1525-1527	um	_	_
+13-5	1528-1533	seine	_	_
+13-6	1534-1541	Adresse	_	_
+13-7	1542-1543	.	_	_
+
+#Text=In Modena bin ich beim Herzog zur Audienz ge-
+14-1	1544-1546	In	_	_
+14-2	1547-1553	Modena	*	PLACEmentioned
+14-3	1554-1557	bin	_	_
+14-4	1558-1561	ich	_	_
+14-5	1562-1566	beim	_	_
+14-6	1567-1573	Herzog	*	PERmentioned
+14-7	1574-1577	zur	_	_
+14-8	1578-1585	Audienz	_	_
+14-9	1586-1589	ge-	_	_

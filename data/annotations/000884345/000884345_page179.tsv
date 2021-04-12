@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gorhaud London , 22 .
+1-1	0-6	Bunsen	_	_
+1-2	7-9	an	_	_
+1-3	10-17	Gorhaud	_	_
+1-4	18-24	London	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	22	*[2]	DATEletter[2]
+1-7	30-31	.	*[2]	DATEletter[2]
+
+#Text=Oktober 1844 London 22 Okt 44 Mein theurer Freund \| !
+2-1	32-39	Oktober	*[2]	DATEletter[2]
+2-2	40-44	1844	*[2]	DATEletter[2]
+2-3	45-51	London	*	PLACEfrom
+2-4	52-54	22	*[4]	DATEletter[4]
+2-5	55-58	Okt	*[4]	DATEletter[4]
+2-6	59-61	44	*[4]	DATEletter[4]
+2-7	62-66	Mein	_	_
+2-8	67-74	theurer	_	_
+2-9	75-81	Freund	_	_
+2-10	82-83	\|	_	_
+2-11	84-85	!	_	_
+
+#Text=Ich habe nur Neumanns Abreise nach Wien abgewartet , damit die so sehr verspätete Sache nun möglichst sicher und schnell beendigt werden könne .
+3-1	86-89	Ich	_	_
+3-2	90-94	habe	_	_
+3-3	95-98	nur	_	_
+3-4	99-107	Neumanns	*	PERmentioned
+3-5	108-115	Abreise	_	_
+3-6	116-120	nach	_	_
+3-7	121-125	Wien	*	PLACEmentioned
+3-8	126-136	abgewartet	_	_
+3-9	137-138	,	_	_
+3-10	139-144	damit	_	_
+3-11	145-148	die	_	_
+3-12	149-151	so	_	_
+3-13	152-156	sehr	_	_
+3-14	157-167	verspätete	_	_
+3-15	168-173	Sache	_	_
+3-16	174-177	nun	_	_
+3-17	178-187	möglichst	_	_
+3-18	188-194	sicher	_	_
+3-19	195-198	und	_	_
+3-20	199-206	schnell	_	_
+3-21	207-215	beendigt	_	_
+3-22	216-222	werden	_	_
+3-23	223-228	könne	_	_
+3-24	229-230	.	_	_
+
+#Text=Ich habe alle fehlenden Namen supplirt , grade wie Sie es auch in Ihrem letzten Schreiben angaben , und dann Herrn von N. einen ostensibeln Brief geschrieben , damit er die Sache sogleich dem Fürsten vorlege , und alsdann dieser das Papier entweder selbst überreiche oder Ihnen zusende nach Berlin , oder mir hierher .
+4-1	231-234	Ich	_	_
+4-2	235-239	habe	_	_
+4-3	240-244	alle	_	_
+4-4	245-254	fehlenden	_	_
+4-5	255-260	Namen	_	_
+4-6	261-269	supplirt	_	_
+4-7	270-271	,	_	_
+4-8	272-277	grade	_	_
+4-9	278-281	wie	_	_
+4-10	282-285	Sie	_	_
+4-11	286-288	es	_	_
+4-12	289-293	auch	_	_
+4-13	294-296	in	_	_
+4-14	297-302	Ihrem	_	_
+4-15	303-310	letzten	_	_
+4-16	311-320	Schreiben	_	_
+4-17	321-328	angaben	_	_
+4-18	329-330	,	_	_
+4-19	331-334	und	_	_
+4-20	335-339	dann	_	_
+4-21	340-345	Herrn	_	_
+4-22	346-349	von	*[7]	PERmentioned[7]
+4-23	350-352	N.	*[7]	PERmentioned[7]
+4-24	353-358	einen	_	_
+4-25	359-370	ostensibeln	_	_
+4-26	371-376	Brief	_	_
+4-27	377-388	geschrieben	_	_
+4-28	389-390	,	_	_
+4-29	391-396	damit	_	_
+4-30	397-399	er	_	_
+4-31	400-403	die	_	_
+4-32	404-409	Sache	_	_
+4-33	410-418	sogleich	_	_
+4-34	419-422	dem	_	_
+4-35	423-430	Fürsten	_	_
+4-36	431-438	vorlege	_	_
+4-37	439-440	,	_	_
+4-38	441-444	und	_	_
+4-39	445-452	alsdann	_	_
+4-40	453-459	dieser	_	_
+4-41	460-463	das	_	_
+4-42	464-470	Papier	_	_
+4-43	471-479	entweder	_	_
+4-44	480-486	selbst	_	_
+4-45	487-497	überreiche	_	_
+4-46	498-502	oder	_	_
+4-47	503-508	Ihnen	_	_
+4-48	509-516	zusende	_	_
+4-49	517-521	nach	_	_
+4-50	522-528	Berlin	*	PLACEmentioned
+4-51	529-530	,	_	_
+4-52	531-535	oder	_	_
+4-53	536-539	mir	_	_
+4-54	540-547	hierher	_	_
+4-55	548-549	.	_	_
+
+#Text=NT hat seine besten officien versprochen .
+5-1	550-552	NT	_	_
+5-2	553-556	hat	_	_
+5-3	557-562	seine	_	_
+5-4	563-569	besten	_	_
+5-5	570-578	officien	_	_
+5-6	579-590	versprochen	_	_
+5-7	591-592	.	_	_
+
+#Text=Ich hoffe , die Sache ist in guten Gange .
+6-1	593-596	Ich	_	_
+6-2	597-602	hoffe	_	_
+6-3	603-604	,	_	_
+6-4	605-608	die	_	_
+6-5	609-614	Sache	_	_
+6-6	615-618	ist	_	_
+6-7	619-621	in	_	_
+6-8	622-627	guten	_	_
+6-9	628-633	Gange	_	_
+6-10	634-635	.	_	_
+
+#Text=Georg wird am 3. November bei Ihnen eintreffen .
+7-1	636-641	Georg	*	PERmentioned
+7-2	642-646	wird	_	_
+7-3	647-649	am	_	_
+7-4	650-652	3.	*[10]	DATEmentioned[10]
+7-5	653-661	November	*[10]	DATEmentioned[10]
+7-6	662-665	bei	_	_
+7-7	666-671	Ihnen	_	_
+7-8	672-682	eintreffen	_	_
+7-9	683-684	.	_	_
+
+#Text=Er hat Jane Mutter hierhergebracht .
+8-1	685-687	Er	_	_
+8-2	688-691	hat	_	_
+8-3	692-696	Jane	_	_
+8-4	697-703	Mutter	_	_
+8-5	704-719	hierhergebracht	_	_
+8-6	720-721	.	_	_
+
+#Text=Ob Emile besser ist auf die Dauer , kann nur die Zeit lehren .
+9-1	722-724	Ob	_	_
+9-2	725-730	Emile	_	_
+9-3	731-737	besser	_	_
+9-4	738-741	ist	_	_
+9-5	742-745	auf	_	_
+9-6	746-749	die	_	_
+9-7	750-755	Dauer	_	_
+9-8	756-757	,	_	_
+9-9	758-762	kann	_	_
+9-10	763-766	nur	_	_
+9-11	767-770	die	_	_
+9-12	771-775	Zeit	_	_
+9-13	776-782	lehren	_	_
+9-14	783-784	.	_	_
+
+#Text=Dank für Ihr liebevolles Andenken !
+10-1	785-789	Dank	_	_
+10-2	790-793	für	_	_
+10-3	794-797	Ihr	_	_
+10-4	798-809	liebevolles	_	_
+10-5	810-818	Andenken	_	_
+10-6	819-820	!	_	_
+
+#Text=lInnige Grüße und Empfehlungen Ihrer lieben Frau .
+11-1	821-828	lInnige	_	_
+11-2	829-834	Grüße	_	_
+11-3	835-838	und	_	_
+11-4	839-851	Empfehlungen	_	_
+11-5	852-857	Ihrer	_	_
+11-6	858-864	lieben	_	_
+11-7	865-869	Frau	_	_
+11-8	870-871	.	_	_
+
+#Text=Mein Ägypten Band I erscheint nun doch erst am 1 .
+12-1	872-876	Mein	_	_
+12-2	877-884	Ägypten	*	PLACEmentioned
+12-3	885-889	Band	_	_
+12-4	890-891	I	_	_
+12-5	892-901	erscheint	_	_
+12-6	902-905	nun	_	_
+12-7	906-910	doch	_	_
+12-8	911-915	erst	_	_
+12-9	916-918	am	_	_
+12-10	919-920	1	*[12]	DATEmentioned[12]
+12-11	921-922	.	*[12]	DATEmentioned[12]
+
+#Text=Januar : dann aber hoffentlich zugleich mit Band II , der seit 6 Monaten gedruckt ist .
+13-1	923-929	Januar	*[12]	DATEmentioned[12]
+13-2	930-931	:	_	_
+13-3	932-936	dann	_	_
+13-4	937-941	aber	_	_
+13-5	942-953	hoffentlich	_	_
+13-6	954-962	zugleich	_	_
+13-7	963-966	mit	_	_
+13-8	967-971	Band	_	_
+13-9	972-974	II	_	_
+13-10	975-976	,	_	_
+13-11	977-980	der	_	_
+13-12	981-985	seit	_	_
+13-13	986-987	6	_	_
+13-14	988-995	Monaten	_	_
+13-15	996-1004	gedruckt	_	_
+13-16	1005-1008	ist	_	_
+13-17	1009-1010	.	_	_
+
+#Text=Mir Band III .
+14-1	1011-1014	Mir	_	_
+14-2	1015-1019	Band	_	_
+14-3	1020-1023	III	_	_
+14-4	1024-1025	.	_	_
+
+#Text=ist das Schlußkapitel schon geschrieben : alles andere gedruckt .
+15-1	1026-1029	ist	_	_
+15-2	1030-1033	das	_	_
+15-3	1034-1047	Schlußkapitel	_	_
+15-4	1048-1053	schon	_	_
+15-5	1054-1065	geschrieben	_	_
+15-6	1066-1067	:	_	_
+15-7	1068-1073	alles	_	_
+15-8	1074-1080	andere	_	_
+15-9	1081-1089	gedruckt	_	_
+15-10	1090-1091	.	_	_
+
+#Text=Herzlich der Ihrige Bunsen
+16-1	1092-1100	Herzlich	_	_
+16-2	1101-1104	der	_	_
+16-3	1105-1111	Ihrige	_	_
+16-4	1112-1118	Bunsen	*	PERauthor

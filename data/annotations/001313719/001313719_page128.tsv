@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin 7/XI1/1847 A. di Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-35	7/XI1/1847	*	DATEletter
+1-6	36-38	A.	_	_
+1-7	39-41	di	_	_
+1-8	42-45	Dir	_	_
+1-9	46-47	.	_	_
+
+#Text=g. r. A7/XII 47 D. Henzen Berlin 7 Nov , 47 Ich bin stark in Ihrer Schuld lieber Freund aber viel Geschäfte bei sehr kurzen trüben Tagen und auch einiger Unpäßlichkeit ließen auch Zeither nicht dazu kommen .
+2-1	48-50	g.	_	_
+2-2	51-53	r.	_	_
+2-3	54-60	A7/XII	*[1]	DATErecieved[1]
+2-4	61-63	47	*[1]	DATErecieved[1]
+2-5	64-66	D.	_	_
+2-6	67-73	Henzen	*	PERaddressee
+2-7	74-80	Berlin	*	PLACEfrom
+2-8	81-82	7	*[2]	DATEletter[2]
+2-9	83-86	Nov	*[2]	DATEletter[2]
+2-10	87-88	,	*[2]	DATEletter[2]
+2-11	89-91	47	*[2]	DATEletter[2]
+2-12	92-95	Ich	_	_
+2-13	96-99	bin	_	_
+2-14	100-105	stark	_	_
+2-15	106-108	in	_	_
+2-16	109-114	Ihrer	_	_
+2-17	115-121	Schuld	_	_
+2-18	122-128	lieber	_	_
+2-19	129-135	Freund	_	_
+2-20	136-140	aber	_	_
+2-21	141-145	viel	_	_
+2-22	146-155	Geschäfte	_	_
+2-23	156-159	bei	_	_
+2-24	160-164	sehr	_	_
+2-25	165-171	kurzen	_	_
+2-26	172-178	trüben	_	_
+2-27	179-184	Tagen	_	_
+2-28	185-188	und	_	_
+2-29	189-193	auch	_	_
+2-30	194-201	einiger	_	_
+2-31	202-215	Unpäßlichkeit	_	_
+2-32	216-222	ließen	_	_
+2-33	223-227	auch	_	_
+2-34	228-235	Zeither	_	_
+2-35	236-241	nicht	_	_
+2-36	242-246	dazu	_	_
+2-37	247-253	kommen	_	_
+2-38	254-255	.	_	_
+
+#Text=Die Aktenstücke erhielt ich richtig und habex \* Bunsen und dem Minister nach Kräften kräftig auch in Ihren Interessen ee , jetzt wünsche ich nur daß man nicht Nachwehen darüber empfinde daß ich , da Braun mich ohne Ziffern ließ , über den Finanzzustand eigentlich nichts faktisches beibringen konnte .
+3-1	256-259	Die	_	_
+3-2	260-271	Aktenstücke	_	_
+3-3	272-279	erhielt	_	_
+3-4	280-283	ich	_	_
+3-5	284-291	richtig	_	_
+3-6	292-295	und	_	_
+3-7	296-301	habex	*[4]	PERmentioned[4]
+3-8	302-303	\*	*[4]	PERmentioned[4]
+3-9	304-310	Bunsen	*[4]	PERmentioned[4]
+3-10	311-314	und	_	_
+3-11	315-318	dem	_	_
+3-12	319-327	Minister	_	_
+3-13	328-332	nach	_	_
+3-14	333-340	Kräften	_	_
+3-15	341-348	kräftig	_	_
+3-16	349-353	auch	_	_
+3-17	354-356	in	_	_
+3-18	357-362	Ihren	_	_
+3-19	363-373	Interessen	_	_
+3-20	374-376	ee	_	_
+3-21	377-378	,	_	_
+3-22	379-384	jetzt	_	_
+3-23	385-392	wünsche	_	_
+3-24	393-396	ich	_	_
+3-25	397-400	nur	_	_
+3-26	401-404	daß	_	_
+3-27	405-408	man	_	_
+3-28	409-414	nicht	_	_
+3-29	415-424	Nachwehen	_	_
+3-30	425-432	darüber	_	_
+3-31	433-441	empfinde	_	_
+3-32	442-445	daß	_	_
+3-33	446-449	ich	_	_
+3-34	450-451	,	_	_
+3-35	452-454	da	_	_
+3-36	455-460	Braun	*	PERmentioned
+3-37	461-465	mich	_	_
+3-38	466-470	ohne	_	_
+3-39	471-478	Ziffern	_	_
+3-40	479-483	ließ	_	_
+3-41	484-485	,	_	_
+3-42	486-490	über	_	_
+3-43	491-494	den	_	_
+3-44	495-508	Finanzzustand	_	_
+3-45	509-519	eigentlich	_	_
+3-46	520-526	nichts	_	_
+3-47	527-537	faktisches	_	_
+3-48	538-548	beibringen	_	_
+3-49	549-555	konnte	_	_
+3-50	556-557	.	_	_
+
+#Text=- Ihre dahin einschlagenden Notizen 2 dankenswerth , erschöpfen aber das Ganze nicht und kamen spät .
+4-1	558-559	-	_	_
+4-2	560-564	Ihre	_	_
+4-3	565-570	dahin	_	_
+4-4	571-585	einschlagenden	_	_
+4-5	586-593	Notizen	_	_
+4-6	594-595	2	_	_
+4-7	596-608	dankenswerth	_	_
+4-8	609-610	,	_	_
+4-9	611-621	erschöpfen	_	_
+4-10	622-626	aber	_	_
+4-11	627-630	das	_	_
+4-12	631-636	Ganze	_	_
+4-13	637-642	nicht	_	_
+4-14	643-646	und	_	_
+4-15	647-652	kamen	_	_
+4-16	653-657	spät	_	_
+4-17	658-659	.	_	_
+
+#Text=Auf die Restitution des Exemplars ist Panofka bedacht .
+5-1	660-663	Auf	_	_
+5-2	664-667	die	_	_
+5-3	668-679	Restitution	_	_
+5-4	680-683	des	_	_
+5-5	684-693	Exemplars	_	_
+5-6	694-697	ist	_	_
+5-7	698-705	Panofka	*	PERmentioned
+5-8	706-713	bedacht	_	_
+5-9	714-715	.	_	_
+
+#Text=- Bullettino habe ich bis Settembre-Ottobre .
+6-1	716-717	-	_	_
+6-2	718-728	Bullettino	_	_
+6-3	729-733	habe	_	_
+6-4	734-737	ich	_	_
+6-5	738-741	bis	_	_
+6-6	742-759	Settembre-Ottobre	_	_
+6-7	760-761	.	_	_
+
+#Text=Neigebaurs Manuscripte wurden nun samt der Gummischachtel für Braun vom Ministerium nachdem sie dort Wochen gelagert zurückgesandt \; Neigebaur hat sie nun selbst mitgenommen ohne daß ich ihm den verschleppten Inhalt des Anvoluts verratähn .
+7-1	762-772	Neigebaurs	*	PERmentioned
+7-2	773-784	Manuscripte	_	_
+7-3	785-791	wurden	_	_
+7-4	792-795	nun	_	_
+7-5	796-800	samt	_	_
+7-6	801-804	der	_	_
+7-7	805-819	Gummischachtel	_	_
+7-8	820-823	für	_	_
+7-9	824-829	Braun	*	PERmentioned
+7-10	830-833	vom	_	_
+7-11	834-845	Ministerium	*	ORGmentioned
+7-12	846-853	nachdem	_	_
+7-13	854-857	sie	_	_
+7-14	858-862	dort	_	_
+7-15	863-869	Wochen	_	_
+7-16	870-878	gelagert	_	_
+7-17	879-892	zurückgesandt	_	_
+7-18	893-894	\;	_	_
+7-19	895-904	Neigebaur	*	PERmentioned
+7-20	905-908	hat	_	_
+7-21	909-912	sie	_	_
+7-22	913-916	nun	_	_
+7-23	917-923	selbst	_	_
+7-24	924-935	mitgenommen	_	_
+7-25	936-940	ohne	_	_
+7-26	941-944	daß	_	_
+7-27	945-948	ich	_	_
+7-28	949-952	ihm	_	_
+7-29	953-956	den	_	_
+7-30	957-970	verschleppten	_	_
+7-31	971-977	Inhalt	_	_
+7-32	978-981	des	_	_
+7-33	982-990	Anvoluts	_	_
+7-34	991-1000	verratähn	_	_
+7-35	1001-1002	.	_	_
+
+#Text=In Italien will er nur den Winter verweilen , vermuthlich in Palermo .
+8-1	1003-1005	In	_	_
+8-2	1006-1013	Italien	*	PLACEmentioned
+8-3	1014-1018	will	_	_
+8-4	1019-1021	er	_	_
+8-5	1022-1025	nur	_	_
+8-6	1026-1029	den	_	_
+8-7	1030-1036	Winter	_	_
+8-8	1037-1046	verweilen	_	_
+8-9	1047-1048	,	_	_
+8-10	1049-1060	vermuthlich	_	_
+8-11	1061-1063	in	_	_
+8-12	1064-1071	Palermo	*	PLACEmentioned
+8-13	1072-1073	.	_	_
+
+#Text=Heißen Sie ihn nächstes Jahr nach Ungarn gehen .
+9-1	1074-1080	Heißen	_	_
+9-2	1081-1084	Sie	_	_
+9-3	1085-1088	ihn	_	_
+9-4	1089-1097	nächstes	_	_
+9-5	1098-1102	Jahr	_	_
+9-6	1103-1107	nach	_	_
+9-7	1108-1114	Ungarn	*	PLACEmentioned
+9-8	1115-1120	gehen	_	_
+9-9	1121-1122	.	_	_
+
+#Text=Er ist demüthig geworden und » ie können ihn kurz halten .
+10-1	1123-1125	Er	_	_
+10-2	1126-1129	ist	_	_
+10-3	1130-1138	demüthig	_	_
+10-4	1139-1147	geworden	_	_
+10-5	1148-1151	und	_	_
+10-6	1152-1153	»	_	_
+10-7	1154-1156	ie	_	_
+10-8	1157-1163	können	_	_
+10-9	1164-1167	ihn	_	_
+10-10	1168-1172	kurz	_	_
+10-11	1173-1179	halten	_	_
+10-12	1180-1181	.	_	_
+
+#Text=Orioli zum 9 Dec .
+11-1	1182-1188	Orioli	*	PERmentioned
+11-2	1189-1192	zum	_	_
+11-3	1193-1194	9	*[3]	DATEmentioned[3]
+11-4	1195-1198	Dec	*[3]	DATEmentioned[3]
+11-5	1199-1200	.	_	_
+
+#Text=ist gut .
+12-1	1201-1204	ist	_	_
+12-2	1205-1208	gut	_	_
+12-3	1209-1210	.	_	_
+
+#Text=Lassen Sie mich den Be- .
+13-1	1211-1217	Lassen	_	_
+13-2	1218-1221	Sie	_	_
+13-3	1222-1226	mich	_	_
+13-4	1227-1230	den	_	_
+13-5	1231-1234	Be-	_	_
+13-6	1235-1236	.	_	_
+
+#Text=LI .
+14-1	1237-1239	LI	_	_
+14-2	1240-1241	.	_	_
+
+#Text=richt der Adunanzea nicht lange vermissen .
+15-1	1242-1247	richt	_	_
+15-2	1248-1251	der	_	_
+15-3	1252-1261	Adunanzea	_	_
+15-4	1262-1267	nicht	_	_
+15-5	1268-1273	lange	_	_
+15-6	1274-1283	vermissen	_	_
+15-7	1284-1285	.	_	_
+
+#Text=Um die Defekte für Erlangen hatte Brockhaus sehr
+16-1	1286-1288	Um	_	_
+16-2	1289-1292	die	_	_
+16-3	1293-1300	Defekte	_	_
+16-4	1301-1304	für	_	_
+16-5	1305-1313	Erlangen	*	PLACEmentioned
+16-6	1314-1319	hatte	_	_
+16-7	1320-1329	Brockhaus	*	ORGmentioned
+16-8	1330-1334	sehr	_	_

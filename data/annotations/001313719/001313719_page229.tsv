@@ -1,0 +1,256 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2723 Gerhard an Henzen Berlin 15/XII/1850 A. di Dir .
+1-1	0-4	2723	_	_
+1-2	5-12	Gerhard	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-22	Henzen	*	PERaddressee
+1-5	23-29	Berlin	*	PLACEfrom
+1-6	30-41	15/XII/1850	*	DATEletter
+1-7	42-44	A.	_	_
+1-8	45-47	di	_	_
+1-9	48-51	Dir	_	_
+1-10	52-53	.	_	_
+
+#Text=8 .
+2-1	54-55	8	_	_
+2-2	56-57	.	_	_
+
+#Text=27/XII 50 r , 30/XII 50 D , Henzen Berlin 15 Dec .
+3-1	58-64	27/XII	*[1]	DATErecieved[1]
+3-2	65-67	50	*[1]	DATErecieved[1]
+3-3	68-69	r	_	_
+3-4	70-71	,	_	_
+3-5	72-78	30/XII	*[2]	DATEanswered[2]
+3-6	79-81	50	*[2]	DATEanswered[2]
+3-7	82-83	D	_	_
+3-8	84-85	,	_	_
+3-9	86-92	Henzen	*	PERaddressee
+3-10	93-99	Berlin	*	PLACEfrom
+3-11	100-102	15	*[3]	DATEletter[3]
+3-12	103-106	Dec	*[3]	DATEletter[3]
+3-13	107-108	.	*[3]	DATEletter[3]
+
+#Text=50 Nurim mo We & rter Freund .
+4-1	109-111	50	*[3]	DATEletter[3]
+4-2	112-117	Nurim	_	_
+4-3	118-120	mo	_	_
+4-4	121-123	We	_	_
+4-5	124-125	&	_	_
+4-6	126-130	rter	_	_
+4-7	131-137	Freund	_	_
+4-8	138-139	.	_	_
+
+#Text=Zu schreiben hatte auch ich Zeither wenig , Sie werden aber unter Kreuzbanä erst Archäol .
+5-1	140-142	Zu	_	_
+5-2	143-152	schreiben	_	_
+5-3	153-158	hatte	_	_
+5-4	159-163	auch	_	_
+5-5	164-167	ich	_	_
+5-6	168-175	Zeither	_	_
+5-7	176-181	wenig	_	_
+5-8	182-183	,	_	_
+5-9	184-187	Sie	_	_
+5-10	188-194	werden	_	_
+5-11	195-199	aber	_	_
+5-12	200-205	unter	_	_
+5-13	206-215	Kreuzbanä	_	_
+5-14	216-220	erst	_	_
+5-15	221-228	Archäol	_	_
+5-16	229-230	.	_	_
+
+#Text=Anzeiger no .
+6-1	231-239	Anzeiger	_	_
+6-2	240-242	no	_	_
+6-3	243-244	.	_	_
+
+#Text=21 . 22 , dann ein Exemplar Myken-Alterthümer erhalten haben .
+7-1	245-247	21	_	_
+7-2	248-249	.	_	_
+7-3	250-252	22	_	_
+7-4	253-254	,	_	_
+7-5	255-259	dann	_	_
+7-6	260-263	ein	_	_
+7-7	264-272	Exemplar	_	_
+7-8	273-290	Myken-Alterthümer	_	_
+7-9	291-299	erhalten	_	_
+7-10	300-305	haben	_	_
+7-11	306-307	.	_	_
+
+#Text=Wann die Sendung zahlreicher Exemplare dieses Frogramms wird erfolgen können weiß ich nicht und sehe noch ungewisser , bevor mit Leipzig festere Abrede genommen ist , nach einer Möglichkeit mich um Ihre Trinkschalen und Gefäße 2° , Heft in 2 Exemplaren eines für das Institut , das andre für Minervini zu senden , nachdem wenn ich nicht irre das erste Heft desselben Werks durch das Institut nach Neapel ging : Fi von Braun und mir gleich schmerzlich vermißtes Manuscript wird vielleicht , anzi hoffentlich , mit Sachen D. Giov .
+8-1	308-312	Wann	_	_
+8-2	313-316	die	_	_
+8-3	317-324	Sendung	_	_
+8-4	325-336	zahlreicher	_	_
+8-5	337-346	Exemplare	_	_
+8-6	347-353	dieses	_	_
+8-7	354-363	Frogramms	_	_
+8-8	364-368	wird	_	_
+8-9	369-377	erfolgen	_	_
+8-10	378-384	können	_	_
+8-11	385-389	weiß	_	_
+8-12	390-393	ich	_	_
+8-13	394-399	nicht	_	_
+8-14	400-403	und	_	_
+8-15	404-408	sehe	_	_
+8-16	409-413	noch	_	_
+8-17	414-424	ungewisser	_	_
+8-18	425-426	,	_	_
+8-19	427-432	bevor	_	_
+8-20	433-436	mit	_	_
+8-21	437-444	Leipzig	*	PLACEmentioned
+8-22	445-452	festere	_	_
+8-23	453-459	Abrede	_	_
+8-24	460-468	genommen	_	_
+8-25	469-472	ist	_	_
+8-26	473-474	,	_	_
+8-27	475-479	nach	_	_
+8-28	480-485	einer	_	_
+8-29	486-497	Möglichkeit	_	_
+8-30	498-502	mich	_	_
+8-31	503-505	um	_	_
+8-32	506-510	Ihre	_	_
+8-33	511-523	Trinkschalen	_	_
+8-34	524-527	und	_	_
+8-35	528-534	Gefäße	_	_
+8-36	535-537	2°	_	_
+8-37	538-539	,	_	_
+8-38	540-544	Heft	_	_
+8-39	545-547	in	_	_
+8-40	548-549	2	_	_
+8-41	550-560	Exemplaren	_	_
+8-42	561-566	eines	_	_
+8-43	567-570	für	_	_
+8-44	571-574	das	_	_
+8-45	575-583	Institut	*	ORGmentioned
+8-46	584-585	,	_	_
+8-47	586-589	das	_	_
+8-48	590-595	andre	_	_
+8-49	596-599	für	_	_
+8-50	600-609	Minervini	*	PERmentioned
+8-51	610-612	zu	_	_
+8-52	613-619	senden	_	_
+8-53	620-621	,	_	_
+8-54	622-629	nachdem	_	_
+8-55	630-634	wenn	_	_
+8-56	635-638	ich	_	_
+8-57	639-644	nicht	_	_
+8-58	645-649	irre	_	_
+8-59	650-653	das	_	_
+8-60	654-659	erste	_	_
+8-61	660-664	Heft	_	_
+8-62	665-674	desselben	_	_
+8-63	675-680	Werks	_	_
+8-64	681-686	durch	_	_
+8-65	687-690	das	_	_
+8-66	691-699	Institut	*	ORGmentioned
+8-67	700-704	nach	_	_
+8-68	705-711	Neapel	*	PLACEmentioned
+8-69	712-716	ging	_	_
+8-70	717-718	:	_	_
+8-71	719-721	Fi	_	_
+8-72	722-725	von	_	_
+8-73	726-731	Braun	*	PERmentioned
+8-74	732-735	und	_	_
+8-75	736-739	mir	_	_
+8-76	740-746	gleich	_	_
+8-77	747-758	schmerzlich	_	_
+8-78	759-768	vermißtes	_	_
+8-79	769-779	Manuscript	_	_
+8-80	780-784	wird	_	_
+8-81	785-795	vielleicht	_	_
+8-82	796-797	,	_	_
+8-83	798-802	anzi	_	_
+8-84	803-814	hoffentlich	_	_
+8-85	815-816	,	_	_
+8-86	817-820	mit	_	_
+8-87	821-827	Sachen	_	_
+8-88	828-830	D.	*[4]	PERmentioned[4]
+8-89	831-835	Giov	*[4]	PERmentioned[4]
+8-90	836-837	.	*[4]	PERmentioned[4]
+
+#Text=Torlonia's auftauchen , da ich es mit Sonstigem was für Kom lagerte im verwichenen Sommer zu dieser guten Gelegenheit rasch nach Leipzig beförderte \; ich bitte hiemit Freund Braun zu trösten .
+9-1	838-848	Torlonia's	*[4]	PERmentioned[4]
+9-2	849-859	auftauchen	_	_
+9-3	860-861	,	_	_
+9-4	862-864	da	_	_
+9-5	865-868	ich	_	_
+9-6	869-871	es	_	_
+9-7	872-875	mit	_	_
+9-8	876-885	Sonstigem	_	_
+9-9	886-889	was	_	_
+9-10	890-893	für	_	_
+9-11	894-897	Kom	*	PLACEmentioned
+9-12	898-905	lagerte	_	_
+9-13	906-908	im	_	_
+9-14	909-920	verwichenen	_	_
+9-15	921-927	Sommer	_	_
+9-16	928-930	zu	_	_
+9-17	931-937	dieser	_	_
+9-18	938-943	guten	_	_
+9-19	944-955	Gelegenheit	_	_
+9-20	956-961	rasch	_	_
+9-21	962-966	nach	_	_
+9-22	967-974	Leipzig	*	PLACEmentioned
+9-23	975-985	beförderte	_	_
+9-24	986-987	\;	_	_
+9-25	988-991	ich	_	_
+9-26	992-997	bitte	_	_
+9-27	998-1004	hiemit	_	_
+9-28	1005-1011	Freund	_	_
+9-29	1012-1017	Braun	*	PERmentioned
+9-30	1018-1020	zu	_	_
+9-31	1021-1028	trösten	_	_
+9-32	1029-1030	.	_	_
+
+#Text=Ihr jetziges gutes Vernehmen mit demselben erstaunt uns beide in hohem Grade und ist Seitens Ihrer beider dankbar anzuerkennen .
+10-1	1031-1034	Ihr	_	_
+10-2	1035-1043	jetziges	_	_
+10-3	1044-1049	gutes	_	_
+10-4	1050-1059	Vernehmen	_	_
+10-5	1060-1063	mit	_	_
+10-6	1064-1073	demselben	_	_
+10-7	1074-1082	erstaunt	_	_
+10-8	1083-1086	uns	_	_
+10-9	1087-1092	beide	_	_
+10-10	1093-1095	in	_	_
+10-11	1096-1101	hohem	_	_
+10-12	1102-1107	Grade	_	_
+10-13	1108-1111	und	_	_
+10-14	1112-1115	ist	_	_
+10-15	1116-1123	Seitens	_	_
+10-16	1124-1129	Ihrer	_	_
+10-17	1130-1136	beider	_	_
+10-18	1137-1144	dankbar	_	_
+10-19	1145-1157	anzuerkennen	_	_
+10-20	1158-1159	.	_	_
+
+#Text=- Mit Jo Schulze hatte ich Gelegenheit neulich zu sprechen und ihm Braun 's Bedenken zu äußern \; er beharrte aber auf guten Zuversicht für folgende
+11-1	1160-1161	-	_	_
+11-2	1162-1165	Mit	_	_
+11-3	1166-1168	Jo	*[5]	PERmentioned[5]
+11-4	1169-1176	Schulze	*[5]	PERmentioned[5]
+11-5	1177-1182	hatte	_	_
+11-6	1183-1186	ich	_	_
+11-7	1187-1198	Gelegenheit	_	_
+11-8	1199-1206	neulich	_	_
+11-9	1207-1209	zu	_	_
+11-10	1210-1218	sprechen	_	_
+11-11	1219-1222	und	_	_
+11-12	1223-1226	ihm	_	_
+11-13	1227-1232	Braun	*[6]	PERmentioned[6]
+11-14	1233-1235	's	*[6]	PERmentioned[6]
+11-15	1236-1244	Bedenken	_	_
+11-16	1245-1247	zu	_	_
+11-17	1248-1254	äußern	_	_
+11-18	1255-1256	\;	_	_
+11-19	1257-1259	er	_	_
+11-20	1260-1268	beharrte	_	_
+11-21	1269-1273	aber	_	_
+11-22	1274-1277	auf	_	_
+11-23	1278-1283	guten	_	_
+11-24	1284-1294	Zuversicht	_	_
+11-25	1295-1298	für	_	_
+11-26	1299-1307	folgende	_	_

@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=871 Braun an Gerhard Prof. Gerhard Rom , 9. Dezember 1834 Roma li 9 Decbre 1834 Verehrtester So eben hat Bunsen den ersten Vortrag über die Topographie geschlossen .
+1-1	0-3	871	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-43	9.	*[2]	DATEletter[2]
+1-10	44-52	Dezember	*[2]	DATEletter[2]
+1-11	53-57	1834	*[2]	DATEletter[2]
+1-12	58-62	Roma	*	PLACEfrom
+1-13	63-65	li	_	_
+1-14	66-67	9	*[3]	DATEletter[3]
+1-15	68-74	Decbre	*[3]	DATEletter[3]
+1-16	75-79	1834	*[3]	DATEletter[3]
+1-17	80-92	Verehrtester	*	PERaddressee
+1-18	93-95	So	_	_
+1-19	96-100	eben	_	_
+1-20	101-104	hat	_	_
+1-21	105-111	Bunsen	*	PERmentioned
+1-22	112-115	den	_	_
+1-23	116-122	ersten	_	_
+1-24	123-130	Vortrag	_	_
+1-25	131-135	über	_	_
+1-26	136-139	die	_	_
+1-27	140-151	Topographie	_	_
+1-28	152-163	geschlossen	_	_
+1-29	164-165	.	_	_
+
+#Text=Einleitende Worte hoben das Festliche des Tages auf eine treffende Weise hervor .
+2-1	166-177	Einleitende	_	_
+2-2	178-183	Worte	_	_
+2-3	184-189	hoben	_	_
+2-4	190-193	das	_	_
+2-5	194-203	Festliche	_	_
+2-6	204-207	des	_	_
+2-7	208-213	Tages	_	_
+2-8	214-217	auf	_	_
+2-9	218-222	eine	_	_
+2-10	223-232	treffende	_	_
+2-11	233-238	Weise	_	_
+2-12	239-245	hervor	_	_
+2-13	246-247	.	_	_
+
+#Text=An Zuhörern ist weder Mangel noch Ueberfluß \; einiges wird immer zusammenkommen .
+3-1	248-250	An	_	_
+3-2	251-259	Zuhörern	_	_
+3-3	260-263	ist	_	_
+3-4	264-269	weder	_	_
+3-5	270-276	Mangel	_	_
+3-6	277-281	noch	_	_
+3-7	282-291	Ueberfluß	_	_
+3-8	292-293	\;	_	_
+3-9	294-301	einiges	_	_
+3-10	302-306	wird	_	_
+3-11	307-312	immer	_	_
+3-12	313-327	zusammenkommen	_	_
+3-13	328-329	.	_	_
+
+#Text=-— Zur Beantwortung der Hauptpunkte Ihres Briefs folgendes : Die Webersche Inschrift Nr. 2 ist freilich edirt .
+4-1	330-332	-—	_	_
+4-2	333-336	Zur	_	_
+4-3	337-349	Beantwortung	_	_
+4-4	350-353	der	_	_
+4-5	354-365	Hauptpunkte	_	_
+4-6	366-371	Ihres	_	_
+4-7	372-378	Briefs	_	_
+4-8	379-388	folgendes	_	_
+4-9	389-390	:	_	_
+4-10	391-394	Die	_	_
+4-11	395-404	Webersche	*[4]	OBJ[4]
+4-12	405-414	Inschrift	*[4]	OBJ[4]
+4-13	415-418	Nr.	*[4]	OBJ[4]
+4-14	419-420	2	*[4]	OBJ[4]
+4-15	421-424	ist	_	_
+4-16	425-433	freilich	_	_
+4-17	434-439	edirt	_	_
+4-18	440-441	.	_	_
+
+#Text=Das wußten wir schon \; Franz ist im Cd .
+5-1	442-445	Das	_	_
+5-2	446-452	wußten	_	_
+5-3	453-456	wir	_	_
+5-4	457-462	schon	_	_
+5-5	463-464	\;	_	_
+5-6	465-470	Franz	*	PERmentioned
+5-7	471-474	ist	_	_
+5-8	475-477	im	_	_
+5-9	478-480	Cd	_	_
+5-10	481-482	.	_	_
+
+#Text=gut zu Hause .
+6-1	483-486	gut	_	_
+6-2	487-489	zu	_	_
+6-3	490-495	Hause	_	_
+6-4	496-497	.	_	_
+
+#Text=Die Achilles-Ajaxvase erhalten Sie mit heutiger oder nächster Diligenzsendung .
+7-1	498-501	Die	_	_
+7-2	502-519	Achilles-Ajaxvase	*[5]	OBJ[5]
+7-3	520-528	erhalten	_	_
+7-4	529-532	Sie	_	_
+7-5	533-536	mit	_	_
+7-6	537-545	heutiger	_	_
+7-7	546-550	oder	_	_
+7-8	551-559	nächster	_	_
+7-9	560-575	Diligenzsendung	_	_
+7-10	576-577	.	_	_
+
+#Text=Ich habe nicht viel darüber zu sagen , wohl aber über andre Vasen , davon ich nun schon einige glücklich erklärt habe .
+8-1	578-581	Ich	_	_
+8-2	582-586	habe	_	_
+8-3	587-592	nicht	_	_
+8-4	593-597	viel	_	_
+8-5	598-605	darüber	_	_
+8-6	606-608	zu	_	_
+8-7	609-614	sagen	_	_
+8-8	615-616	,	_	_
+8-9	617-621	wohl	_	_
+8-10	622-626	aber	_	_
+8-11	627-631	über	_	_
+8-12	632-637	andre	_	_
+8-13	638-643	Vasen	_	_
+8-14	644-645	,	_	_
+8-15	646-651	davon	_	_
+8-16	652-655	ich	_	_
+8-17	656-659	nun	_	_
+8-18	660-665	schon	_	_
+8-19	666-672	einige	_	_
+8-20	673-682	glücklich	_	_
+8-21	683-690	erklärt	_	_
+8-22	691-695	habe	_	_
+8-23	696-697	.	_	_
+
+#Text=Apolloni hat Vorschuß genommen ist aber nicht zurückgekehrt \; seine Vasenzeichnungen taugen nicht viel , weil er nicht viel Kann .
+9-1	698-706	Apolloni	*	PERmentioned
+9-2	707-710	hat	_	_
+9-3	711-719	Vorschuß	_	_
+9-4	720-728	genommen	_	_
+9-5	729-732	ist	_	_
+9-6	733-737	aber	_	_
+9-7	738-743	nicht	_	_
+9-8	744-757	zurückgekehrt	_	_
+9-9	758-759	\;	_	_
+9-10	760-765	seine	_	_
+9-11	766-782	Vasenzeichnungen	_	_
+9-12	783-789	taugen	_	_
+9-13	790-795	nicht	_	_
+9-14	796-800	viel	_	_
+9-15	801-802	,	_	_
+9-16	803-807	weil	_	_
+9-17	808-810	er	_	_
+9-18	811-816	nicht	_	_
+9-19	817-821	viel	_	_
+9-20	822-826	Kann	_	_
+9-21	827-828	.	_	_
+
+#Text=Ich habe Bellog angeworben , um Durands Einkäufe zu vontrolliren .
+10-1	829-832	Ich	_	_
+10-2	833-837	habe	_	_
+10-3	838-844	Bellog	*	PERmentioned
+10-4	845-855	angeworben	_	_
+10-5	856-857	,	_	_
+10-6	858-860	um	_	_
+10-7	861-868	Durands	*	PERmentioned
+10-8	869-877	Einkäufe	_	_
+10-9	878-880	zu	_	_
+10-10	881-893	vontrolliren	_	_
+10-11	894-895	.	_	_
+
+#Text=7 Spiegel hat er ihm bereits ins Haus gegeben \; zu anderen Vasen Erlaubnis zugestanden : Sie glauben nicht , was dieser Glücklichste für Schätze zusammen hat .
+11-1	896-897	7	_	_
+11-2	898-905	Spiegel	_	_
+11-3	906-909	hat	_	_
+11-4	910-912	er	_	_
+11-5	913-916	ihm	_	_
+11-6	917-924	bereits	_	_
+11-7	925-928	ins	_	_
+11-8	929-933	Haus	_	_
+11-9	934-941	gegeben	_	_
+11-10	942-943	\;	_	_
+11-11	944-946	zu	_	_
+11-12	947-954	anderen	_	_
+11-13	955-960	Vasen	_	_
+11-14	961-970	Erlaubnis	_	_
+11-15	971-982	zugestanden	_	_
+11-16	983-984	:	_	_
+11-17	985-988	Sie	_	_
+11-18	989-996	glauben	_	_
+11-19	997-1002	nicht	_	_
+11-20	1003-1004	,	_	_
+11-21	1005-1008	was	_	_
+11-22	1009-1015	dieser	_	_
+11-23	1016-1028	Glücklichste	_	_
+11-24	1029-1032	für	_	_
+11-25	1033-1040	Schätze	_	_
+11-26	1041-1049	zusammen	_	_
+11-27	1050-1053	hat	_	_
+11-28	1054-1055	.	_	_
+
+#Text=Sie haben keine Bestimmungen ertheilt wegen Ernennungen von Sociis .
+12-1	1056-1059	Sie	_	_
+12-2	1060-1065	haben	_	_
+12-3	1066-1071	keine	_	_
+12-4	1072-1084	Bestimmungen	_	_
+12-5	1085-1093	ertheilt	_	_
+12-6	1094-1099	wegen	_	_
+12-7	1100-1111	Ernennungen	_	_
+12-8	1112-1115	von	_	_
+12-9	1116-1122	Sociis	_	_
+12-10	1123-1124	.	_	_
+
+#Text=Hier können wir kein Diplom zustande bringen \; Bunsen wünscht es lateinisch .
+13-1	1125-1129	Hier	_	_
+13-2	1130-1136	können	_	_
+13-3	1137-1140	wir	_	_
+13-4	1141-1145	kein	_	_
+13-5	1146-1152	Diplom	_	_
+13-6	1153-1161	zustande	_	_
+13-7	1162-1169	bringen	_	_
+13-8	1170-1171	\;	_	_
+13-9	1172-1178	Bunsen	*	PERmentioned
+13-10	1179-1186	wünscht	_	_
+13-11	1187-1189	es	_	_
+13-12	1190-1200	lateinisch	_	_
+13-13	1201-1202	.	_	_
+
+#Text=Dann aber müssen Sie Unterschriften sendeR- »
+14-1	1203-1207	Dann	_	_
+14-2	1208-1212	aber	_	_
+14-3	1213-1219	müssen	_	_
+14-4	1220-1223	Sie	_	_
+14-5	1224-1238	Unterschriften	_	_
+14-6	1239-1246	sendeR-	_	_
+14-7	1247-1248	»	_	_

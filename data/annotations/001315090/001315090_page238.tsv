@@ -1,0 +1,96 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=435 Lepsius an Henzen Berlin , 13 .
+1-1	0-3	435	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	13	*[3]	DATEletter[3]
+1-8	34-35	.	*[3]	DATEletter[3]
+
+#Text=August 1875 den alten Sprachen in der obersten Klasse eines Gymnasiums nachgewiesen .
+2-1	36-42	August	*[3]	DATEletter[3]
+2-2	43-47	1875	*[3]	DATEletter[3]
+2-3	48-51	den	_	_
+2-4	52-57	alten	_	_
+2-5	58-66	Sprachen	_	_
+2-6	67-69	in	_	_
+2-7	70-73	der	_	_
+2-8	74-82	obersten	_	_
+2-9	83-89	Klasse	_	_
+2-10	90-95	eines	_	_
+2-11	96-106	Gymnasiums	_	_
+2-12	107-119	nachgewiesen	_	_
+2-13	120-121	.	_	_
+
+#Text=Das kön .
+3-1	122-125	Das	_	_
+3-2	126-129	kön	_	_
+3-3	130-131	.	_	_
+
+#Text=Bayerische Staatsministerium für Kirche- und Schul-Angelegenheiten wünscht daß dem Zipperer die Benutzung der Instituts Mittel in Rom und Athen gestattet werde , und das Auswärtige Amt empfiehlt die möglichste Unterstützung desselben .
+4-1	132-142	Bayerische	*[4]	DATEmentioned[4]
+4-2	143-160	Staatsministerium	*[4]	DATEmentioned[4]
+4-3	161-164	für	*[4]	DATEmentioned[4]
+4-4	165-172	Kirche-	*[4]	DATEmentioned[4]
+4-5	173-176	und	*[4]	DATEmentioned[4]
+4-6	177-198	Schul-Angelegenheiten	*[4]	DATEmentioned[4]
+4-7	199-206	wünscht	_	_
+4-8	207-210	daß	_	_
+4-9	211-214	dem	_	_
+4-10	215-223	Zipperer	*	PERmentioned
+4-11	224-227	die	_	_
+4-12	228-237	Benutzung	_	_
+4-13	238-241	der	_	_
+4-14	242-251	Instituts	*	ORGmentioned
+4-15	252-258	Mittel	_	_
+4-16	259-261	in	_	_
+4-17	262-265	Rom	*	PLACEmentioned
+4-18	266-269	und	_	_
+4-19	270-275	Athen	*	PLACEmentioned
+4-20	276-285	gestattet	_	_
+4-21	286-291	werde	_	_
+4-22	292-293	,	_	_
+4-23	294-297	und	_	_
+4-24	298-301	das	_	_
+4-25	302-312	Auswärtige	*[5]	ORGmentioned[5]
+4-26	313-316	Amt	*[5]	ORGmentioned[5]
+4-27	317-326	empfiehlt	_	_
+4-28	327-330	die	_	_
+4-29	331-341	möglichste	_	_
+4-30	342-355	Unterstützung	_	_
+4-31	356-365	desselben	_	_
+4-32	366-367	.	_	_
+
+#Text=Sie werden ihn gewiß demgemäß aufnehmen und seine Zwecke befördern .
+5-1	368-371	Sie	_	_
+5-2	372-378	werden	_	_
+5-3	379-382	ihn	_	_
+5-4	383-388	gewiß	_	_
+5-5	389-397	demgemäß	_	_
+5-6	398-407	aufnehmen	_	_
+5-7	408-411	und	_	_
+5-8	412-417	seine	_	_
+5-9	418-424	Zwecke	_	_
+5-10	425-434	befördern	_	_
+5-11	435-436	.	_	_
+
+#Text=Das habe ich dem Auswärtigen Amt erwiedert .
+6-1	437-440	Das	_	_
+6-2	441-445	habe	_	_
+6-3	446-449	ich	_	_
+6-4	450-453	dem	_	_
+6-5	454-465	Auswärtigen	*[6]	ORGmentioned[6]
+6-6	466-469	Amt	*[6]	ORGmentioned[6]
+6-7	470-479	erwiedert	_	_
+6-8	480-481	.	_	_
+
+#Text=Ihr ergebester R Lepsius
+7-1	482-485	Ihr	_	_
+7-2	486-496	ergebester	_	_
+7-3	497-498	R	*[7]	PERauthor[7]
+7-4	499-506	Lepsius	*[7]	PERauthor[7]

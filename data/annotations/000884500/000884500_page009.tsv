@@ -1,0 +1,81 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 5 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	5	*[4]	DATEletter[4]
+1-7	28-29	.	*[4]	DATEletter[4]
+
+#Text=Januar 71838 früher als für 1838 sein Verhältniß anfangen zu lassen , zumal wenn , wie ich vdraussetze , die Kisten von Drucksachen des Jahres 1837 schon abgesandt wären .
+2-1	30-36	Januar	*[4]	DATEletter[4]
+2-2	37-42	71838	*[4]	DATEletter[4]
+2-3	43-49	früher	_	_
+2-4	50-53	als	_	_
+2-5	54-57	für	_	_
+2-6	58-62	1838	*	DATEmentioned
+2-7	63-67	sein	_	_
+2-8	68-78	Verhältniß	_	_
+2-9	79-87	anfangen	_	_
+2-10	88-90	zu	_	_
+2-11	91-97	lassen	_	_
+2-12	98-99	,	_	_
+2-13	100-105	zumal	_	_
+2-14	106-110	wenn	_	_
+2-15	111-112	,	_	_
+2-16	113-116	wie	_	_
+2-17	117-120	ich	_	_
+2-18	121-132	vdraussetze	_	_
+2-19	133-134	,	_	_
+2-20	135-138	die	_	_
+2-21	139-145	Kisten	_	_
+2-22	146-149	von	_	_
+2-23	150-161	Drucksachen	_	_
+2-24	162-165	des	_	_
+2-25	166-172	Jahres	_	_
+2-26	173-177	1837	*	DATEmentioned
+2-27	178-183	schon	_	_
+2-28	184-193	abgesandt	_	_
+2-29	194-199	wären	_	_
+2-30	200-201	.	_	_
+
+#Text=Sollte lezteres nicht der Fall sein , so hoffe ich Sie legen mir noch für ein paar Scudi ‚ „ desgleichen für 2 bis 3 Scudi römische Perlenschnüre , des kleinsten CGalibers , bei .
+3-1	202-208	Sollte	_	_
+3-2	209-217	lezteres	_	_
+3-3	218-223	nicht	_	_
+3-4	224-227	der	_	_
+3-5	228-232	Fall	_	_
+3-6	233-237	sein	_	_
+3-7	238-239	,	_	_
+3-8	240-242	so	_	_
+3-9	243-248	hoffe	_	_
+3-10	249-252	ich	_	_
+3-11	253-256	Sie	_	_
+3-12	257-262	legen	_	_
+3-13	263-266	mir	_	_
+3-14	267-271	noch	_	_
+3-15	272-275	für	_	_
+3-16	276-279	ein	_	_
+3-17	280-284	paar	_	_
+3-18	285-290	Scudi	_	_
+3-19	291-292	‚	_	_
+3-20	293-294	„	_	_
+3-21	295-306	desgleichen	_	_
+3-22	307-310	für	_	_
+3-23	311-312	2	_	_
+3-24	313-316	bis	_	_
+3-25	317-318	3	_	_
+3-26	319-324	Scudi	_	_
+3-27	325-333	römische	_	_
+3-28	334-347	Perlenschnüre	_	_
+3-29	348-349	,	_	_
+3-30	350-353	des	_	_
+3-31	354-363	kleinsten	_	_
+3-32	364-373	CGalibers	_	_
+3-33	374-375	,	_	_
+3-34	376-379	bei	_	_
+3-35	380-381	.	_	_

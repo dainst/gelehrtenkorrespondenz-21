@@ -1,0 +1,124 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=79 Gerhard an Braun Berlin , 30 .
+1-1	0-2	79	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	30	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Januar 1844 Wird denn der alberne Junge Cades für alle Ihre Dienste endlich etwas Gutes thun ?
+2-1	34-40	Januar	*[1]	DATEletter[1]
+2-2	41-45	1844	*[1]	DATEletter[1]
+2-3	46-50	Wird	_	_
+2-4	51-55	denn	_	_
+2-5	56-59	der	_	_
+2-6	60-67	alberne	_	_
+2-7	68-73	Junge	_	_
+2-8	74-79	Cades	*	PERmentioned
+2-9	80-83	für	_	_
+2-10	84-88	alle	_	_
+2-11	89-93	Ihre	_	_
+2-12	94-101	Dienste	_	_
+2-13	102-109	endlich	_	_
+2-14	110-115	etwas	_	_
+2-15	116-121	Gutes	_	_
+2-16	122-126	thun	_	_
+2-17	127-128	?	_	_
+
+#Text=wird das Institut denn nicht endlich einmal Prinz Augusts Schuld liquidiren ?
+3-1	129-133	wird	_	_
+3-2	134-137	das	_	_
+3-3	138-146	Institut	*	ORGmentioned
+3-4	147-151	denn	_	_
+3-5	152-157	nicht	_	_
+3-6	158-165	endlich	_	_
+3-7	166-172	einmal	_	_
+3-8	173-178	Prinz	*[2]	PERmentioned[2]
+3-9	179-186	Augusts	*[2]	PERmentioned[2]
+3-10	187-193	Schuld	_	_
+3-11	194-204	liquidiren	_	_
+3-12	205-206	?	_	_
+
+#Text=Soll Lanci für den Verlust dieses Postens einstehen ?
+4-1	207-211	Soll	_	_
+4-2	212-217	Lanci	*	PERmentioned
+4-3	218-221	für	_	_
+4-4	222-225	den	_	_
+4-5	226-233	Verlust	_	_
+4-6	234-240	dieses	_	_
+4-7	241-248	Postens	_	_
+4-8	249-258	einstehen	_	_
+4-9	259-260	?	_	_
+
+#Text=So weit ich begreifen kann , schuldet er wenigstens von 1837 bis incl .
+5-1	261-263	So	_	_
+5-2	264-268	weit	_	_
+5-3	269-272	ich	_	_
+5-4	273-282	begreifen	_	_
+5-5	283-287	kann	_	_
+5-6	288-289	,	_	_
+5-7	290-298	schuldet	_	_
+5-8	299-301	er	_	_
+5-9	302-312	wenigstens	_	_
+5-10	313-316	von	_	_
+5-11	317-321	1837	*	DATEmentioned
+5-12	322-325	bis	_	_
+5-13	326-330	incl	_	_
+5-14	331-332	.	_	_
+
+#Text=1842 \; macht 6 X 14 = 84 rt .
+6-1	333-337	1842	*	DATEmentioned
+6-2	338-339	\;	_	_
+6-3	340-345	macht	_	_
+6-4	346-347	6	_	_
+6-5	348-349	X	_	_
+6-6	350-352	14	_	_
+6-7	353-354	=	_	_
+6-8	355-357	84	_	_
+6-9	358-360	rt	_	_
+6-10	361-362	.	_	_
+
+#Text=Welcker hat eine hübsche Distichensammlung im Rheinischen Museum herausgegeben .
+7-1	363-370	Welcker	*	PERmentioned
+7-2	371-374	hat	_	_
+7-3	375-379	eine	_	_
+7-4	380-387	hübsche	_	_
+7-5	388-405	Distichensammlung	_	_
+7-6	406-408	im	_	_
+7-7	409-420	Rheinischen	*[3]	ORGmentioned[3]
+7-8	421-427	Museum	*[3]	ORGmentioned[3]
+7-9	428-441	herausgegeben	_	_
+7-10	442-443	.	_	_
+
+#Text=Alle guten Freunde — Henzen , Preller , Horkel , Blessig u.s.w .
+8-1	444-448	Alle	_	_
+8-2	449-454	guten	_	_
+8-3	455-462	Freunde	_	_
+8-4	463-464	—	_	_
+8-5	465-471	Henzen	*	PERmentioned
+8-6	472-473	,	_	_
+8-7	474-481	Preller	*	PERmentioned
+8-8	482-483	,	_	_
+8-9	484-490	Horkel	*	PERmentioned
+8-10	491-492	,	_	_
+8-11	493-500	Blessig	*	PERmentioned
+8-12	501-506	u.s.w	_	_
+8-13	507-508	.	_	_
+
+#Text=- bestens zu grüßen .
+9-1	509-510	-	_	_
+9-2	511-518	bestens	_	_
+9-3	519-521	zu	_	_
+9-4	522-528	grüßen	_	_
+9-5	529-530	.	_	_
+
+#Text=Herzlichst Ihr Gerhard
+10-1	531-541	Herzlichst	_	_
+10-2	542-545	Ihr	_	_
+10-3	546-553	Gerhard	*	PERauthor

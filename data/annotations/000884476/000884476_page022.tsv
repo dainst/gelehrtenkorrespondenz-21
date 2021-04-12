@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun München , 19. September 1834 tuts ) befindlichen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	München	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	19.	*[4]	DATEletter[4]
+1-7	31-40	September	*[4]	DATEletter[4]
+1-8	41-45	1834	*[4]	DATEletter[4]
+1-9	46-50	tuts	_	_
+1-10	51-52	)	_	_
+1-11	53-65	befindlichen	_	_
+1-12	66-67	.	_	_
+
+#Text=Nichts von diesen Gegenständen verlange ich durch die nächste Kistensendung , die nun vermuthlich schon fort ist .
+2-1	68-74	Nichts	_	_
+2-2	75-78	von	_	_
+2-3	79-85	diesen	_	_
+2-4	86-98	Gegenständen	_	_
+2-5	99-107	verlange	_	_
+2-6	108-111	ich	_	_
+2-7	112-117	durch	_	_
+2-8	118-121	die	_	_
+2-9	122-129	nächste	_	_
+2-10	130-143	Kistensendung	_	_
+2-11	144-145	,	_	_
+2-12	146-149	die	_	_
+2-13	150-153	nun	_	_
+2-14	154-165	vermuthlich	_	_
+2-15	166-171	schon	_	_
+2-16	172-176	fort	_	_
+2-17	177-180	ist	_	_
+2-18	181-182	.	_	_
+
+#Text=Lassen Sie mich doch das Datum wissen unter dem die Kistensendung nach Bonn spedirt wird oder wurde \; damit ich Manus dadurch vertrösten könne .
+3-1	183-189	Lassen	_	_
+3-2	190-193	Sie	_	_
+3-3	194-198	mich	_	_
+3-4	199-203	doch	_	_
+3-5	204-207	das	_	_
+3-6	208-213	Datum	_	_
+3-7	214-220	wissen	_	_
+3-8	221-226	unter	_	_
+3-9	227-230	dem	_	_
+3-10	231-234	die	_	_
+3-11	235-248	Kistensendung	_	_
+3-12	249-253	nach	_	_
+3-13	254-258	Bonn	*	PLACEmentioned
+3-14	259-266	spedirt	_	_
+3-15	267-271	wird	_	_
+3-16	272-276	oder	_	_
+3-17	277-282	wurde	_	_
+3-18	283-284	\;	_	_
+3-19	285-290	damit	_	_
+3-20	291-294	ich	_	_
+3-21	295-300	Manus	_	_
+3-22	301-308	dadurch	_	_
+3-23	309-319	vertrösten	_	_
+3-24	320-325	könne	_	_
+3-25	326-327	.	_	_
+
+#Text=wir haben doch in der Liste bemerkt daß Micali seine Exemplare für 1834 vollständig und gratis erhielt ?
+4-1	328-331	wir	_	_
+4-2	332-337	haben	_	_
+4-3	338-342	doch	_	_
+4-4	343-345	in	_	_
+4-5	346-349	der	_	_
+4-6	350-355	Liste	_	_
+4-7	356-363	bemerkt	_	_
+4-8	364-367	daß	_	_
+4-9	368-374	Micali	*	PERmentioned
+4-10	375-380	seine	_	_
+4-11	381-390	Exemplare	_	_
+4-12	391-394	für	_	_
+4-13	395-399	1834	*	DATEmentioned
+4-14	400-411	vollständig	_	_
+4-15	412-415	und	_	_
+4-16	416-422	gratis	_	_
+4-17	423-430	erhielt	_	_
+4-18	431-432	?	_	_
+
+#Text=Für Apolloni glaubte ich bemerkt zu haben daß ich die kolorirte Zeichnung der Achilles und Ayaxvase nicht mehr verlange .
+5-1	433-436	Für	_	_
+5-2	437-445	Apolloni	*	PERmentioned
+5-3	446-453	glaubte	_	_
+5-4	454-457	ich	_	_
+5-5	458-465	bemerkt	_	_
+5-6	466-468	zu	_	_
+5-7	469-474	haben	_	_
+5-8	475-478	daß	_	_
+5-9	479-482	ich	_	_
+5-10	483-486	die	_	_
+5-11	487-496	kolorirte	_	_
+5-12	497-506	Zeichnung	_	_
+5-13	507-510	der	_	_
+5-14	511-519	Achilles	*[9]	OBJ[9]
+5-15	520-523	und	*[9]	OBJ[9]
+5-16	524-532	Ayaxvase	*[9]	OBJ[9]
+5-17	533-538	nicht	_	_
+5-18	539-543	mehr	_	_
+5-19	544-552	verlange	_	_
+5-20	553-554	.	_	_
+
+#Text=Drängen Sie ihn aber um die Zeichnung der Cassandravase \; item senden Sie mir die Zeichnung der Archileus und Troilusvase auf Schlangenpapier im Briefbeischluß nach Bonn .
+6-1	555-562	Drängen	_	_
+6-2	563-566	Sie	_	_
+6-3	567-570	ihn	_	_
+6-4	571-575	aber	_	_
+6-5	576-578	um	_	_
+6-6	579-582	die	_	_
+6-7	583-592	Zeichnung	_	_
+6-8	593-596	der	_	_
+6-9	597-610	Cassandravase	*	OBJ
+6-10	611-612	\;	_	_
+6-11	613-617	item	_	_
+6-12	618-624	senden	_	_
+6-13	625-628	Sie	_	_
+6-14	629-632	mir	_	_
+6-15	633-636	die	_	_
+6-16	637-646	Zeichnung	_	_
+6-17	647-650	der	_	_
+6-18	651-660	Archileus	*[11]	OBJ[11]
+6-19	661-664	und	*[11]	OBJ[11]
+6-20	665-676	Troilusvase	*[11]	OBJ[11]
+6-21	677-680	auf	_	_
+6-22	681-696	Schlangenpapier	_	_
+6-23	697-699	im	_	_
+6-24	700-714	Briefbeischluß	_	_
+6-25	715-719	nach	_	_
+6-26	720-724	Bonn	*	PLACEmentioned
+6-27	725-726	.	_	_
+
+#Text=Nach Bonn erwarte ich auch Geh .
+7-1	727-731	Nach	_	_
+7-2	732-736	Bonn	*	PLACEmentioned
+7-3	737-744	erwarte	_	_
+7-4	745-748	ich	_	_
+7-5	749-753	auch	_	_
+7-6	754-757	Geh	_	_
+7-7	758-759	.	_	_
+
+#Text=Rath Bunsens Brief an die Großherzöge von Baden den ich mit Beischluß eines Discours alsdann befördere .
+8-1	760-764	Rath	_	_
+8-2	765-772	Bunsens	*	PERmentioned
+8-3	773-778	Brief	_	_
+8-4	779-781	an	_	_
+8-5	782-785	die	_	_
+8-6	786-797	Großherzöge	*[15]	PERmentioned[15]
+8-7	798-801	von	*[15]	PERmentioned[15]
+8-8	802-807	Baden	*[15]|*[16]	PERmentioned[15]|PLACEmentioned[16]
+8-9	808-811	den	_	_
+8-10	812-815	ich	_	_
+8-11	816-819	mit	_	_
+8-12	820-829	Beischluß	_	_
+8-13	830-835	eines	_	_
+8-14	836-844	Discours	_	_
+8-15	845-852	alsdann	_	_
+8-16	853-862	befördere	_	_
+8-17	863-864	.	_	_
+
+#Text=Erinnern Sie ihn gefälligst daran und senden Sie den Brief nur nach Bonn \; sollte ich dorthin zu früh kommen so wird er mir mit der Postfreiheit nach Berlin nachgeschickt .
+9-1	865-873	Erinnern	_	_
+9-2	874-877	Sie	_	_
+9-3	878-881	ihn	_	_
+9-4	882-892	gefälligst	_	_
+9-5	893-898	daran	_	_
+9-6	899-902	und	_	_
+9-7	903-909	senden	_	_
+9-8	910-913	Sie	_	_
+9-9	914-917	den	_	_
+9-10	918-923	Brief	_	_
+9-11	924-927	nur	_	_
+9-12	928-932	nach	_	_
+9-13	933-937	Bonn	*	PLACEmentioned
+9-14	938-939	\;	_	_
+9-15	940-946	sollte	_	_
+9-16	947-950	ich	_	_
+9-17	951-958	dorthin	_	_
+9-18	959-961	zu	_	_
+9-19	962-966	früh	_	_
+9-20	967-973	kommen	_	_
+9-21	974-976	so	_	_
+9-22	977-981	wird	_	_
+9-23	982-984	er	_	_
+9-24	985-988	mir	_	_
+9-25	989-992	mit	_	_
+9-26	993-996	der	_	_
+9-27	997-1009	Postfreiheit	_	_
+9-28	1010-1014	nach	_	_
+9-29	1015-1021	Berlin	*	PLACEmentioned
+9-30	1022-1035	nachgeschickt	_	_
+9-31	1036-1037	.	_	_
+
+#Text=Die Briefe nach Bonn senden Sie gefälligst poste restante .
+10-1	1038-1041	Die	_	_
+10-2	1042-1048	Briefe	_	_
+10-3	1049-1053	nach	_	_
+10-4	1054-1058	Bonn	*	PLACEmentioned
+10-5	1059-1065	senden	_	_
+10-6	1066-1069	Sie	_	_
+10-7	1070-1080	gefälligst	_	_
+10-8	1081-1086	poste	_	_
+10-9	1087-1095	restante	_	_
+10-10	1096-1097	.	_	_
+
+#Text=Erinnern Sie gefälligst Bunsen an den Brief für Gagaris \; denselben bitte ich mir nach München bis zun 10 Oktober aus ( immerhin auch bis zum 15.ten ) .
+11-1	1098-1106	Erinnern	_	_
+11-2	1107-1110	Sie	_	_
+11-3	1111-1121	gefälligst	_	_
+11-4	1122-1128	Bunsen	*	PERmentioned
+11-5	1129-1131	an	_	_
+11-6	1132-1135	den	_	_
+11-7	1136-1141	Brief	_	_
+11-8	1142-1145	für	_	_
+11-9	1146-1153	Gagaris	*	PERmentioned
+11-10	1154-1155	\;	_	_
+11-11	1156-1165	denselben	_	_
+11-12	1166-1171	bitte	_	_
+11-13	1172-1175	ich	_	_
+11-14	1176-1179	mir	_	_
+11-15	1180-1184	nach	_	_
+11-16	1185-1192	München	*	PLACEmentioned
+11-17	1193-1196	bis	_	_
+11-18	1197-1200	zun	_	_
+11-19	1201-1203	10	*[23]	DATEmentioned[23]
+11-20	1204-1211	Oktober	*[23]	DATEmentioned[23]
+11-21	1212-1215	aus	_	_
+11-22	1216-1217	(	_	_
+11-23	1218-1226	immerhin	_	_
+11-24	1227-1231	auch	_	_
+11-25	1232-1235	bis	_	_
+11-26	1236-1239	zum	_	_
+11-27	1240-1246	15.ten	*	DATEmentioned
+11-28	1247-1248	)	_	_
+11-29	1249-1250	.	_	_
+
+#Text=An Vollard zahlen Sie gefälligst Scudi 4 baj .
+12-1	1251-1253	An	_	_
+12-2	1254-1261	Vollard	*	PERmentioned
+12-3	1262-1268	zahlen	_	_
+12-4	1269-1272	Sie	_	_
+12-5	1273-1283	gefälligst	_	_
+12-6	1284-1289	Scudi	_	_
+12-7	1290-1291	4	_	_
+12-8	1292-1295	baj	_	_
+12-9	1296-1297	.	_	_
+
+#Text=50
+13-1	1298-1300	50	_	_

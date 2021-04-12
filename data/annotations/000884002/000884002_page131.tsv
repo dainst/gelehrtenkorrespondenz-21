@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Florenz , 16 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Florenz	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	16	*[9]	DATEletter[9]
+1-7	29-30	.	*[9]	DATEletter[9]
+
+#Text=Okt .
+2-1	31-34	Okt	*[9]	DATEletter[9]
+2-2	35-36	.	*[9]	DATEletter[9]
+
+#Text=1862 .
+3-1	37-41	1862	*[9]	DATEletter[9]
+3-2	42-43	.	_	_
+
+#Text=18 .
+4-1	44-46	18	*[10]	DATErecieved[10]
+4-2	47-48	.	*[10]	DATErecieved[10]
+
+#Text=Oktober 1862 T. Lieber Henzen Maza 's ist ein harter Brocken : im Gedanken darüber hatte ich ganz übersehen , daß Sie schnelle Antwort wünschten , bin aber trotzdem auch jetzt noch nicht recht im Klaren : einmal freilich müssen wir in den sauren Apfel beißen und Geld ist ja wohl noch vorhanden .
+5-1	49-56	Oktober	*[10]	DATErecieved[10]
+5-2	57-61	1862	*[10]	DATErecieved[10]
+5-3	62-64	T.	_	_
+5-4	65-71	Lieber	_	_
+5-5	72-78	Henzen	*	PERaddressee
+5-6	79-83	Maza	*[13]	MISC[13]
+5-7	84-86	's	*[13]	MISC[13]
+5-8	87-90	ist	_	_
+5-9	91-94	ein	_	_
+5-10	95-101	harter	_	_
+5-11	102-109	Brocken	_	_
+5-12	110-111	:	_	_
+5-13	112-114	im	_	_
+5-14	115-123	Gedanken	_	_
+5-15	124-131	darüber	_	_
+5-16	132-137	hatte	_	_
+5-17	138-141	ich	_	_
+5-18	142-146	ganz	_	_
+5-19	147-156	übersehen	_	_
+5-20	157-158	,	_	_
+5-21	159-162	daß	_	_
+5-22	163-166	Sie	_	_
+5-23	167-175	schnelle	_	_
+5-24	176-183	Antwort	_	_
+5-25	184-193	wünschten	_	_
+5-26	194-195	,	_	_
+5-27	196-199	bin	_	_
+5-28	200-204	aber	_	_
+5-29	205-213	trotzdem	_	_
+5-30	214-218	auch	_	_
+5-31	219-224	jetzt	_	_
+5-32	225-229	noch	_	_
+5-33	230-235	nicht	_	_
+5-34	236-241	recht	_	_
+5-35	242-244	im	_	_
+5-36	245-251	Klaren	_	_
+5-37	252-253	:	_	_
+5-38	254-260	einmal	_	_
+5-39	261-269	freilich	_	_
+5-40	270-276	müssen	_	_
+5-41	277-280	wir	_	_
+5-42	281-283	in	_	_
+5-43	284-287	den	_	_
+5-44	288-294	sauren	_	_
+5-45	295-300	Apfel	_	_
+5-46	301-307	beißen	_	_
+5-47	308-311	und	_	_
+5-48	312-316	Geld	_	_
+5-49	317-320	ist	_	_
+5-50	321-323	ja	_	_
+5-51	324-328	wohl	_	_
+5-52	329-333	noch	_	_
+5-53	334-343	vorhanden	_	_
+5-54	344-345	.	_	_
+
+#Text=Es ist das ein Fall , wo ich würfeln oder sonst einen Schicksalsspruch provociren möchte .
+6-1	346-348	Es	_	_
+6-2	349-352	ist	_	_
+6-3	353-356	das	_	_
+6-4	357-360	ein	_	_
+6-5	361-365	Fall	_	_
+6-6	366-367	,	_	_
+6-7	368-370	wo	_	_
+6-8	371-374	ich	_	_
+6-9	375-382	würfeln	_	_
+6-10	383-387	oder	_	_
+6-11	388-393	sonst	_	_
+6-12	394-399	einen	_	_
+6-13	400-416	Schicksalsspruch	_	_
+6-14	417-427	provociren	_	_
+6-15	428-434	möchte	_	_
+6-16	435-436	.	_	_
+
+#Text=Thun Sie also , wie Ihnen zu Muthe ist : den Berlinern gegenüber übernehme ich gern die Hälfte der Verantwortlichkeit .
+7-1	437-441	Thun	_	_
+7-2	442-445	Sie	_	_
+7-3	446-450	also	_	_
+7-4	451-452	,	_	_
+7-5	453-456	wie	_	_
+7-6	457-462	Ihnen	_	_
+7-7	463-465	zu	_	_
+7-8	466-471	Muthe	_	_
+7-9	472-475	ist	_	_
+7-10	476-477	:	_	_
+7-11	478-481	den	_	_
+7-12	482-491	Berlinern	_	_
+7-13	492-501	gegenüber	_	_
+7-14	502-511	übernehme	_	_
+7-15	512-515	ich	_	_
+7-16	516-520	gern	_	_
+7-17	521-524	die	_	_
+7-18	525-531	Hälfte	_	_
+7-19	532-535	der	_	_
+7-20	536-554	Verantwortlichkeit	_	_
+7-21	555-556	.	_	_
+
+#Text=Von Schnase habe ich die ersten drei Bände und tausche sie gern gegen passende Instituts-Doubletten : Calvary wird dann schon zu completiren wissen .
+8-1	557-560	Von	_	_
+8-2	561-568	Schnase	*	PERmentioned
+8-3	569-573	habe	_	_
+8-4	574-577	ich	_	_
+8-5	578-581	die	_	_
+8-6	582-588	ersten	_	_
+8-7	589-593	drei	_	_
+8-8	594-599	Bände	_	_
+8-9	600-603	und	_	_
+8-10	604-611	tausche	_	_
+8-11	612-615	sie	_	_
+8-12	616-620	gern	_	_
+8-13	621-626	gegen	_	_
+8-14	627-635	passende	_	_
+8-15	636-656	Instituts-Doubletten	_	_
+8-16	657-658	:	_	_
+8-17	659-666	Calvary	*	PERmentioned
+8-18	667-671	wird	_	_
+8-19	672-676	dann	_	_
+8-20	677-682	schon	_	_
+8-21	683-685	zu	_	_
+8-22	686-697	completiren	_	_
+8-23	698-704	wissen	_	_
+8-24	705-706	.	_	_
+
+#Text=Ich bitte Sie , Lanci zu avvisiren , daß des Vergers in einem mir erst in voriger Woche zugekommenen Briefe schreibt , er habe kurz vor seiner Abreise von Paris das Geld für die ori erhalten .
+9-1	707-710	Ich	_	_
+9-2	711-716	bitte	_	_
+9-3	717-720	Sie	_	_
+9-4	721-722	,	_	_
+9-5	723-728	Lanci	*	PERmentioned
+9-6	729-731	zu	_	_
+9-7	732-741	avvisiren	_	_
+9-8	742-743	,	_	_
+9-9	744-747	daß	_	_
+9-10	748-751	des	*[11]	PERmentioned[11]
+9-11	752-759	Vergers	*[11]	PERmentioned[11]
+9-12	760-762	in	_	_
+9-13	763-768	einem	_	_
+9-14	769-772	mir	_	_
+9-15	773-777	erst	_	_
+9-16	778-780	in	_	_
+9-17	781-788	voriger	_	_
+9-18	789-794	Woche	_	_
+9-19	795-807	zugekommenen	_	_
+9-20	808-814	Briefe	_	_
+9-21	815-823	schreibt	_	_
+9-22	824-825	,	_	_
+9-23	826-828	er	_	_
+9-24	829-833	habe	_	_
+9-25	834-838	kurz	_	_
+9-26	839-842	vor	_	_
+9-27	843-849	seiner	_	_
+9-28	850-857	Abreise	_	_
+9-29	858-861	von	_	_
+9-30	862-867	Paris	*	PLACEmentioned
+9-31	868-871	das	_	_
+9-32	872-876	Geld	_	_
+9-33	877-880	für	_	_
+9-34	881-884	die	_	_
+9-35	885-888	ori	_	_
+9-36	889-897	erhalten	_	_
+9-37	898-899	.	_	_
+
+#Text=Demnach braucht Torlonia keinen Anstand mehr zu nehmen , nach des Vergers früherer Anweisung auf Didot für den Betrag von 294 Scudi zu tragiren .
+10-1	900-907	Demnach	_	_
+10-2	908-915	braucht	_	_
+10-3	916-924	Torlonia	*	PERmentioned
+10-4	925-931	keinen	_	_
+10-5	932-939	Anstand	_	_
+10-6	940-944	mehr	_	_
+10-7	945-947	zu	_	_
+10-8	948-954	nehmen	_	_
+10-9	955-956	,	_	_
+10-10	957-961	nach	_	_
+10-11	962-965	des	*[12]	PERmentioned[12]
+10-12	966-973	Vergers	*[12]	PERmentioned[12]
+10-13	974-982	früherer	_	_
+10-14	983-992	Anweisung	_	_
+10-15	993-996	auf	_	_
+10-16	997-1002	Didot	*	PERmentioned
+10-17	1003-1006	für	_	_
+10-18	1007-1010	den	_	_
+10-19	1011-1017	Betrag	_	_
+10-20	1018-1021	von	_	_
+10-21	1022-1025	294	_	_
+10-22	1026-1031	Scudi	_	_
+10-23	1032-1034	zu	_	_
+10-24	1035-1043	tragiren	_	_
+10-25	1044-1045	.	_	_
+
+#Text=Die Lücke im Protokoll kann dann nach meiner Rückkehr ausgefüllt werden .
+11-1	1046-1049	Die	_	_
+11-2	1050-1055	Lücke	_	_
+11-3	1056-1058	im	_	_
+11-4	1059-1068	Protokoll	_	_
+11-5	1069-1073	kann	_	_
+11-6	1074-1078	dann	_	_
+11-7	1079-1083	nach	_	_
+11-8	1084-1090	meiner	_	_
+11-9	1091-1099	Rückkehr	_	_
+11-10	1100-1110	ausgefüllt	_	_
+11-11	1111-1117	werden	_	_
+11-12	1118-1119	.	_	_

@@ -1,0 +1,180 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=89 Gerhard an Braun Berlin , 1 % .
+1-1	0-2	89	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	1	*[3]	DATEletter[3]
+1-8	31-32	%	*[3]	DATEletter[3]
+1-9	33-34	.	*[3]	DATEletter[3]
+
+#Text=April 1849 g . 22/IV 49 Dr. Braun Berlin 99 April 49 Mein theurer Freund .
+2-1	35-40	April	*[3]	DATEletter[3]
+2-2	41-45	1849	*[3]	DATEletter[3]
+2-3	46-47	g	_	_
+2-4	48-49	.	_	_
+2-5	50-55	22/IV	*[4]	DATErecieved[4]
+2-6	56-58	49	*[4]	DATErecieved[4]
+2-7	59-62	Dr.	*[5]	PERaddressee[5]
+2-8	63-68	Braun	*[5]	PERaddressee[5]
+2-9	69-75	Berlin	*	PLACEfrom
+2-10	76-78	99	_	_
+2-11	79-84	April	*[6]	DATEletter[6]
+2-12	85-87	49	*[6]	DATEletter[6]
+2-13	88-92	Mein	_	_
+2-14	93-100	theurer	_	_
+2-15	101-107	Freund	_	_
+2-16	108-109	.	_	_
+
+#Text=Einliegend Panofka 's Glückwunsch zu Ihren uns fortwährend mit Freude erfüllenden Eheprospecten , über welche Sie uns baldmöglichst auch Andern zu sprechen erlauben mögen .
+3-1	110-120	Einliegend	_	_
+3-2	121-128	Panofka	*[7]	PERmentioned[7]
+3-3	129-131	's	*[7]	PERmentioned[7]
+3-4	132-143	Glückwunsch	_	_
+3-5	144-146	zu	_	_
+3-6	147-152	Ihren	_	_
+3-7	153-156	uns	_	_
+3-8	157-168	fortwährend	_	_
+3-9	169-172	mit	_	_
+3-10	173-179	Freude	_	_
+3-11	180-191	erfüllenden	_	_
+3-12	192-205	Eheprospecten	_	_
+3-13	206-207	,	_	_
+3-14	208-212	über	_	_
+3-15	213-219	welche	_	_
+3-16	220-223	Sie	_	_
+3-17	224-227	uns	_	_
+3-18	228-241	baldmöglichst	_	_
+3-19	242-246	auch	_	_
+3-20	247-253	Andern	_	_
+3-21	254-256	zu	_	_
+3-22	257-265	sprechen	_	_
+3-23	266-274	erlauben	_	_
+3-24	275-280	mögen	_	_
+3-25	281-282	.	_	_
+
+#Text=Die Brescianer Greuel erfüllen uns mit Entsetzen , wenn mit Ernst Ähnliches in andern uns werthen italischen Orten möglich sein könnte !
+4-1	283-286	Die	_	_
+4-2	287-297	Brescianer	_	_
+4-3	298-304	Greuel	_	_
+4-4	305-313	erfüllen	_	_
+4-5	314-317	uns	_	_
+4-6	318-321	mit	_	_
+4-7	322-331	Entsetzen	_	_
+4-8	332-333	,	_	_
+4-9	334-338	wenn	_	_
+4-10	339-342	mit	_	_
+4-11	343-348	Ernst	_	_
+4-12	349-358	Ähnliches	_	_
+4-13	359-361	in	_	_
+4-14	362-368	andern	_	_
+4-15	369-372	uns	_	_
+4-16	373-380	werthen	_	_
+4-17	381-391	italischen	_	_
+4-18	392-397	Orten	_	_
+4-19	398-405	möglich	_	_
+4-20	406-410	sein	_	_
+4-21	411-417	könnte	_	_
+4-22	418-419	!	_	_
+
+#Text=Welcker hat hier etwa 4 gesunde und eben so viel verheisende kranke Tage zugebracht , bleibt aber hoffentlich noch etwas hier .
+5-1	420-427	Welcker	*	PERmentioned
+5-2	428-431	hat	_	_
+5-3	432-436	hier	_	_
+5-4	437-441	etwa	_	_
+5-5	442-443	4	_	_
+5-6	444-451	gesunde	_	_
+5-7	452-455	und	_	_
+5-8	456-460	eben	_	_
+5-9	461-463	so	_	_
+5-10	464-468	viel	_	_
+5-11	469-480	verheisende	_	_
+5-12	481-487	kranke	_	_
+5-13	488-492	Tage	_	_
+5-14	493-503	zugebracht	_	_
+5-15	504-505	,	_	_
+5-16	506-512	bleibt	_	_
+5-17	513-517	aber	_	_
+5-18	518-529	hoffentlich	_	_
+5-19	530-534	noch	_	_
+5-20	535-540	etwas	_	_
+5-21	541-545	hier	_	_
+5-22	546-547	.	_	_
+
+#Text=Haben Sie bei dem neulich in Adunanza besproche- F nen Band nun Ihren früheren Gedanken `` Eros im Welt . ``
+6-1	548-553	Haben	_	_
+6-2	554-557	Sie	_	_
+6-3	558-561	bei	_	_
+6-4	562-565	dem	_	_
+6-5	566-573	neulich	_	_
+6-6	574-576	in	_	_
+6-7	577-585	Adunanza	_	_
+6-8	586-596	besproche-	_	_
+6-9	597-598	F	_	_
+6-10	599-602	nen	_	_
+6-11	603-607	Band	_	_
+6-12	608-611	nun	_	_
+6-13	612-617	Ihren	_	_
+6-14	618-626	früheren	_	_
+6-15	627-635	Gedanken	_	_
+6-16	636-638	``	_	_
+6-17	639-643	Eros	_	_
+6-18	644-646	im	_	_
+6-19	647-651	Welt	_	_
+6-20	652-653	.	_	_
+6-21	654-656	``	_	_
+
+#Text=aufgegeben ?
+7-1	657-667	aufgegeben	_	_
+7-2	668-669	?	_	_
+
+#Text=Die Erneuung Ihres Gehalts wird .
+8-1	670-673	Die	_	_
+8-2	674-682	Erneuung	_	_
+8-3	683-688	Ihres	_	_
+8-4	689-696	Gehalts	_	_
+8-5	697-701	wird	_	_
+8-6	702-703	.	_	_
+
+#Text=Ihnen Schulze direkt gemeldet haben .
+9-1	704-709	Ihnen	_	_
+9-2	710-717	Schulze	*	PERmentioned
+9-3	718-724	direkt	_	_
+9-4	725-733	gemeldet	_	_
+9-5	734-739	haben	_	_
+9-6	740-741	.	_	_
+
+#Text=Der Brief an Kort ' ist befördert \; Über die Sache von Papst schreibe ich Ihnen sobald ich etwas weiß .
+10-1	742-745	Der	_	_
+10-2	746-751	Brief	_	_
+10-3	752-754	an	_	_
+10-4	755-759	Kort	*	PERmentioned
+10-5	760-761	'	_	_
+10-6	762-765	ist	_	_
+10-7	766-775	befördert	_	_
+10-8	776-777	\;	_	_
+10-9	778-782	Über	_	_
+10-10	783-786	die	_	_
+10-11	787-792	Sache	_	_
+10-12	793-796	von	_	_
+10-13	797-802	Papst	*	PERmentioned
+10-14	803-811	schreibe	_	_
+10-15	812-815	ich	_	_
+10-16	816-821	Ihnen	_	_
+10-17	822-828	sobald	_	_
+10-18	829-832	ich	_	_
+10-19	833-838	etwas	_	_
+10-20	839-843	weiß	_	_
+10-21	844-845	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+11-1	846-849	Von	_	_
+11-2	850-856	Herzen	_	_
+11-3	857-860	der	_	_
+11-4	861-867	Ihrige	_	_
+11-5	868-875	Gerhard	*	PERauthor

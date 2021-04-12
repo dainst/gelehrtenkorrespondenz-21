@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=392 Braun an Gerhard Narni , 1. Dezember 1837 Narni 1 Debr 1837 .
+1-1	0-3	392	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Narni	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	1.	*[5]	DATEletter[5]
+1-8	32-40	Dezember	*[5]	DATEletter[5]
+1-9	41-45	1837	*[5]	DATEletter[5]
+1-10	46-51	Narni	*	PLACEfrom
+1-11	52-53	1	*[6]	DATEletter[6]
+1-12	54-58	Debr	*[6]	DATEletter[6]
+1-13	59-63	1837	*[6]	DATEletter[6]
+1-14	64-65	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+2-1	66-82	Hochverehrtester	_	_
+2-2	83-89	Freund	_	_
+2-3	90-91	\|	_	_
+2-4	92-93	!	_	_
+
+#Text=Ihre Briefe von 27 .
+3-1	94-98	Ihre	_	_
+3-2	99-105	Briefe	_	_
+3-3	106-109	von	_	_
+3-4	110-112	27	*[7]	DATEletter[7]
+3-5	113-114	.	*[7]	DATEletter[7]
+
+#Text=October 7 . 9. und 10 November kommen mir heute allzumal in Terni zu , wo ich schon vor einigen Tagen auf der Rückreise von Perugia eintreffen wollte , zu schlechtes Wetter und ein noch schlechterer Vetturin haben mich sündlich aufgehalten \; gestern war das eine Pferd davongelaufen .
+4-1	115-122	October	*[7]	DATEletter[7]
+4-2	123-124	7	*[8]	DATEletter[8]
+4-3	125-126	.	*[8]	DATEletter[8]
+4-4	127-129	9.	*[8]	DATEletter[8]
+4-5	130-133	und	*[8]	DATEletter[8]
+4-6	134-136	10	*[8]	DATEletter[8]
+4-7	137-145	November	*[8]	DATEletter[8]
+4-8	146-152	kommen	_	_
+4-9	153-156	mir	_	_
+4-10	157-162	heute	_	_
+4-11	163-171	allzumal	_	_
+4-12	172-174	in	_	_
+4-13	175-180	Terni	*	PLACEmentioned
+4-14	181-183	zu	_	_
+4-15	184-185	,	_	_
+4-16	186-188	wo	_	_
+4-17	189-192	ich	_	_
+4-18	193-198	schon	_	_
+4-19	199-202	vor	_	_
+4-20	203-210	einigen	_	_
+4-21	211-216	Tagen	_	_
+4-22	217-220	auf	_	_
+4-23	221-224	der	_	_
+4-24	225-234	Rückreise	_	_
+4-25	235-238	von	_	_
+4-26	239-246	Perugia	*	PLACEmentioned
+4-27	247-257	eintreffen	_	_
+4-28	258-264	wollte	_	_
+4-29	265-266	,	_	_
+4-30	267-269	zu	_	_
+4-31	270-280	schlechtes	_	_
+4-32	281-287	Wetter	_	_
+4-33	288-291	und	_	_
+4-34	292-295	ein	_	_
+4-35	296-300	noch	_	_
+4-36	301-313	schlechterer	_	_
+4-37	314-322	Vetturin	_	_
+4-38	323-328	haben	_	_
+4-39	329-333	mich	_	_
+4-40	334-342	sündlich	_	_
+4-41	343-354	aufgehalten	_	_
+4-42	355-356	\;	_	_
+4-43	357-364	gestern	_	_
+4-44	365-368	war	_	_
+4-45	369-372	das	_	_
+4-46	373-377	eine	_	_
+4-47	378-383	Pferd	_	_
+4-48	384-397	davongelaufen	_	_
+4-49	398-399	.	_	_
+
+#Text=Nun komme ich erst Sonntags nach Rom und bin also von Perugia aus 5 Tage unterwegs .
+5-1	400-403	Nun	_	_
+5-2	404-409	komme	_	_
+5-3	410-413	ich	_	_
+5-4	414-418	erst	_	_
+5-5	419-427	Sonntags	_	_
+5-6	428-432	nach	_	_
+5-7	433-436	Rom	*	PLACEmentioned
+5-8	437-440	und	_	_
+5-9	441-444	bin	_	_
+5-10	445-449	also	_	_
+5-11	450-453	von	_	_
+5-12	454-461	Perugia	*	PLACEmentioned
+5-13	462-465	aus	_	_
+5-14	466-467	5	_	_
+5-15	468-472	Tage	_	_
+5-16	473-482	unterwegs	_	_
+5-17	483-484	.	_	_
+
+#Text=Pazienza .
+6-1	485-493	Pazienza	_	_
+6-2	494-495	.	_	_
+
+#Text=In 8 .
+7-1	496-498	In	_	_
+7-2	499-500	8	_	_
+7-3	501-502	.	*[9]	PLACEmentioned[9]
+
+#Text=Marino habe ich bei Borghesi 14 Tage verbracht , bei weitem die einträglichste : Station meiner Reise .
+8-1	503-509	Marino	*[9]	PLACEmentioned[9]
+8-2	510-514	habe	_	_
+8-3	515-518	ich	_	_
+8-4	519-522	bei	_	_
+8-5	523-531	Borghesi	*	PERmentioned
+8-6	532-534	14	_	_
+8-7	535-539	Tage	_	_
+8-8	540-549	verbracht	_	_
+8-9	550-551	,	_	_
+8-10	552-555	bei	_	_
+8-11	556-562	weitem	_	_
+8-12	563-566	die	_	_
+8-13	567-581	einträglichste	_	_
+8-14	582-583	:	_	_
+8-15	584-591	Station	_	_
+8-16	592-598	meiner	_	_
+8-17	599-604	Reise	_	_
+8-18	605-606	.	_	_
+
+#Text=Reichhaltiger Verkehr und die staunenswerth schöne Sammlung römischer Münzen haben mich vielseitig belehrt .
+9-1	607-620	Reichhaltiger	_	_
+9-2	621-628	Verkehr	_	_
+9-3	629-632	und	_	_
+9-4	633-636	die	_	_
+9-5	637-650	staunenswerth	_	_
+9-6	651-657	schöne	_	_
+9-7	658-666	Sammlung	_	_
+9-8	667-676	römischer	_	_
+9-9	677-683	Münzen	_	_
+9-10	684-689	haben	_	_
+9-11	690-694	mich	_	_
+9-12	695-705	vielseitig	_	_
+9-13	706-713	belehrt	_	_
+9-14	714-715	.	_	_
+
+#Text=Borghesi hat die Familienmünzen Stück für Stück mit mir durchgangsen und jede einzelne erläütert .
+10-1	716-724	Borghesi	*	PERmentioned
+10-2	725-728	hat	_	_
+10-3	729-732	die	_	_
+10-4	733-747	Familienmünzen	_	_
+10-5	748-753	Stück	_	_
+10-6	754-757	für	_	_
+10-7	758-763	Stück	_	_
+10-8	764-767	mit	_	_
+10-9	768-771	mir	_	_
+10-10	772-784	durchgangsen	_	_
+10-11	785-788	und	_	_
+10-12	789-793	jede	_	_
+10-13	794-802	einzelne	_	_
+10-14	803-812	erläütert	_	_
+10-15	813-814	.	_	_
+
+#Text=- An die Fortsetzung von Kellermanns Werk ist vor der Hand seiner Meinung nach gar nicht zu denken .
+11-1	815-816	-	_	_
+11-2	817-819	An	_	_
+11-3	820-823	die	_	_
+11-4	824-835	Fortsetzung	_	_
+11-5	836-839	von	_	_
+11-6	840-851	Kellermanns	*	PERmentioned
+11-7	852-856	Werk	_	_
+11-8	857-860	ist	_	_
+11-9	861-864	vor	_	_
+11-10	865-868	der	_	_
+11-11	869-873	Hand	_	_
+11-12	874-880	seiner	_	_
+11-13	881-888	Meinung	_	_
+11-14	889-893	nach	_	_
+11-15	894-897	gar	_	_
+11-16	898-903	nicht	_	_
+11-17	904-906	zu	_	_
+11-18	907-913	denken	_	_
+11-19	914-915	.	_	_
+
+#Text=Ihm zufolge sollten die von dem sel .
+12-1	916-919	Ihm	_	_
+12-2	920-927	zufolge	_	_
+12-3	928-935	sollten	_	_
+12-4	936-939	die	_	_
+12-5	940-943	von	_	_
+12-6	944-947	dem	_	_
+12-7	948-951	sel	_	_
+12-8	952-953	.	_	_
+
+#Text=Kellermann hinterlassenen Materialien bei dem Institut aufbewahrt bleiben , bis sich ein Epigraph herangebildet habe oder vielmehr habe heranbilden lassen , Dann sagt er , wenn Kellermann zu epigraphischer Thätigkeit gelangt ist , so ist das nur bei und durch das Institut \; wenn Borghesis Briefwechsel darauf einen Einfluß geübt , so verdanke er dieß lediglich dem Institut .
+13-1	954-964	Kellermann	*	PERmentioned
+13-2	965-979	hinterlassenen	_	_
+13-3	980-991	Materialien	_	_
+13-4	992-995	bei	_	_
+13-5	996-999	dem	_	_
+13-6	1000-1008	Institut	*	ORGmentioned
+13-7	1009-1019	aufbewahrt	_	_
+13-8	1020-1027	bleiben	_	_
+13-9	1028-1029	,	_	_
+13-10	1030-1033	bis	_	_
+13-11	1034-1038	sich	_	_
+13-12	1039-1042	ein	_	_
+13-13	1043-1051	Epigraph	_	_
+13-14	1052-1065	herangebildet	_	_
+13-15	1066-1070	habe	_	_
+13-16	1071-1075	oder	_	_
+13-17	1076-1084	vielmehr	_	_
+13-18	1085-1089	habe	_	_
+13-19	1090-1101	heranbilden	_	_
+13-20	1102-1108	lassen	_	_
+13-21	1109-1110	,	_	_
+13-22	1111-1115	Dann	_	_
+13-23	1116-1120	sagt	_	_
+13-24	1121-1123	er	_	_
+13-25	1124-1125	,	_	_
+13-26	1126-1130	wenn	_	_
+13-27	1131-1141	Kellermann	*	PERmentioned
+13-28	1142-1144	zu	_	_
+13-29	1145-1159	epigraphischer	_	_
+13-30	1160-1170	Thätigkeit	_	_
+13-31	1171-1178	gelangt	_	_
+13-32	1179-1182	ist	_	_
+13-33	1183-1184	,	_	_
+13-34	1185-1187	so	_	_
+13-35	1188-1191	ist	_	_
+13-36	1192-1195	das	_	_
+13-37	1196-1199	nur	_	_
+13-38	1200-1203	bei	_	_
+13-39	1204-1207	und	_	_
+13-40	1208-1213	durch	_	_
+13-41	1214-1217	das	_	_
+13-42	1218-1226	Institut	*	ORGmentioned
+13-43	1227-1228	\;	_	_
+13-44	1229-1233	wenn	_	_
+13-45	1234-1243	Borghesis	*	PERmentioned
+13-46	1244-1256	Briefwechsel	_	_
+13-47	1257-1263	darauf	_	_
+13-48	1264-1269	einen	_	_
+13-49	1270-1277	Einfluß	_	_
+13-50	1278-1283	geübt	_	_
+13-51	1284-1285	,	_	_
+13-52	1286-1288	so	_	_
+13-53	1289-1297	verdanke	_	_
+13-54	1298-1300	er	_	_
+13-55	1301-1305	dieß	_	_
+13-56	1306-1315	lediglich	_	_
+13-57	1316-1319	dem	_	_
+13-58	1320-1328	Institut	*	ORGmentioned
+13-59	1329-1330	.	_	_
+
+#Text=Borghesi fordert seinen Briefwechsel zurück und hat mich mündlich beauftragt gewisse Briefe in Natura nach S. Marino zu schicken , den Rest der Correspondenz überläßt er dem Institut .
+14-1	1331-1339	Borghesi	*	PERmentioned
+14-2	1340-1347	fordert	_	_
+14-3	1348-1354	seinen	_	_
+14-4	1355-1367	Briefwechsel	_	_
+14-5	1368-1374	zurück	_	_
+14-6	1375-1378	und	_	_
+14-7	1379-1382	hat	_	_
+14-8	1383-1387	mich	_	_
+14-9	1388-1396	mündlich	_	_
+14-10	1397-1407	beauftragt	_	_
+14-11	1408-1415	gewisse	_	_
+14-12	1416-1422	Briefe	_	_
+14-13	1423-1425	in	_	_
+14-14	1426-1432	Natura	_	_
+14-15	1433-1437	nach	_	_
+14-16	1438-1440	S.	*[10]	PLACEmentioned[10]
+14-17	1441-1447	Marino	*[10]	PLACEmentioned[10]
+14-18	1448-1450	zu	_	_
+14-19	1451-1459	schicken	_	_
+14-20	1460-1461	,	_	_
+14-21	1462-1465	den	_	_
+14-22	1466-1470	Rest	_	_
+14-23	1471-1474	der	_	_
+14-24	1475-1488	Correspondenz	_	_
+14-25	1489-1497	überläßt	_	_
+14-26	1498-1500	er	_	_
+14-27	1501-1504	dem	_	_
+14-28	1505-1513	Institut	*	ORGmentioned
+14-29	1514-1515	.	_	_
+
+#Text=Eine solche Reclamation sei
+15-1	1516-1520	Eine	_	_
+15-2	1521-1527	solche	_	_
+15-3	1528-1539	Reclamation	_	_
+15-4	1540-1543	sei	_	_

@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 29. Juni 1837 es enthaltend , für ihn bei mir liegt .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	29.	*[4]	DATEletter[4]
+1-7	31-35	Juni	*[4]	DATEletter[4]
+1-8	36-40	1837	*[4]	DATEletter[4]
+1-9	41-43	es	_	_
+1-10	44-54	enthaltend	_	_
+1-11	55-56	,	_	_
+1-12	57-60	für	_	_
+1-13	61-64	ihn	_	_
+1-14	65-68	bei	_	_
+1-15	69-72	mir	_	_
+1-16	73-78	liegt	_	_
+1-17	79-80	.	_	_
+
+#Text=M. gesteht mir wenigstens nichts gefunden zu haben .
+2-1	81-83	M.	_	_
+2-2	84-91	gesteht	_	_
+2-3	92-95	mir	_	_
+2-4	96-106	wenigstens	_	_
+2-5	107-113	nichts	_	_
+2-6	114-122	gefunden	_	_
+2-7	123-125	zu	_	_
+2-8	126-131	haben	_	_
+2-9	132-133	.	_	_
+
+#Text=Ist es wahr daß sich am Como See niedergelassen hat ?
+3-1	134-137	Ist	_	_
+3-2	138-140	es	_	_
+3-3	141-145	wahr	_	_
+3-4	146-149	daß	_	_
+3-5	150-154	sich	_	_
+3-6	155-157	am	_	_
+3-7	158-162	Como	*[5]	PLACEmentioned[5]
+3-8	163-166	See	*[5]	PLACEmentioned[5]
+3-9	167-181	niedergelassen	_	_
+3-10	182-185	hat	_	_
+3-11	186-187	?	_	_
+
+#Text=Die Addresse des Briefs an Bolaffi bitte ich hinzuzufügen \; ich lasse sie leer weil bei der Durchräucherung sonst Modung vorfallen könnte .
+4-1	188-191	Die	_	_
+4-2	192-200	Addresse	_	_
+4-3	201-204	des	_	_
+4-4	205-211	Briefs	_	_
+4-5	212-214	an	_	_
+4-6	215-222	Bolaffi	*	PERmentioned
+4-7	223-228	bitte	_	_
+4-8	229-232	ich	_	_
+4-9	233-245	hinzuzufügen	_	_
+4-10	246-247	\;	_	_
+4-11	248-251	ich	_	_
+4-12	252-257	lasse	_	_
+4-13	258-261	sie	_	_
+4-14	262-266	leer	_	_
+4-15	267-271	weil	_	_
+4-16	272-275	bei	_	_
+4-17	276-279	der	_	_
+4-18	280-295	Durchräucherung	_	_
+4-19	296-301	sonst	_	_
+4-20	302-308	Modung	_	_
+4-21	309-318	vorfallen	_	_
+4-22	319-325	könnte	_	_
+4-23	326-327	.	_	_
+
+#Text=Einige Tage völligen Vegetirens haben mein Auge nur langsam und wenig gebessert \; Sulph .
+5-1	328-334	Einige	_	_
+5-2	335-339	Tage	_	_
+5-3	340-348	völligen	_	_
+5-4	349-359	Vegetirens	_	_
+5-5	360-365	haben	_	_
+5-6	366-370	mein	_	_
+5-7	371-375	Auge	_	_
+5-8	376-379	nur	_	_
+5-9	380-387	langsam	_	_
+5-10	388-391	und	_	_
+5-11	392-397	wenig	_	_
+5-12	398-407	gebessert	_	_
+5-13	408-409	\;	_	_
+5-14	410-415	Sulph	_	_
+5-15	416-417	.	_	_
+
+#Text=und Phosph .
+6-1	418-421	und	_	_
+6-2	422-428	Phosph	_	_
+6-3	429-430	.	_	_
+
+#Text=hatte ich erfolglos eingeschluckt .
+7-1	431-436	hatte	_	_
+7-2	437-440	ich	_	_
+7-3	441-450	erfolglos	_	_
+7-4	451-464	eingeschluckt	_	_
+7-5	465-466	.	_	_
+
+#Text=Ich nehme nur Chinin auf Ihren Rath \; von der Hitze leide ich wenig .
+8-1	467-470	Ich	_	_
+8-2	471-476	nehme	_	_
+8-3	477-480	nur	_	_
+8-4	481-487	Chinin	_	_
+8-5	488-491	auf	_	_
+8-6	492-497	Ihren	_	_
+8-7	498-502	Rath	_	_
+8-8	503-504	\;	_	_
+8-9	505-508	von	_	_
+8-10	509-512	der	_	_
+8-11	513-518	Hitze	_	_
+8-12	519-524	leide	_	_
+8-13	525-528	ich	_	_
+8-14	529-534	wenig	_	_
+8-15	535-536	.	_	_
+
+#Text=Ich komme auf Ihre Reise zurück .
+9-1	537-540	Ich	_	_
+9-2	541-546	komme	_	_
+9-3	547-550	auf	_	_
+9-4	551-555	Ihre	_	_
+9-5	556-561	Reise	_	_
+9-6	562-568	zurück	_	_
+9-7	569-570	.	_	_
+
+#Text=Sie sagen mir nicht was Sie dränst .
+10-1	571-574	Sie	_	_
+10-2	575-580	sagen	_	_
+10-3	581-584	mir	_	_
+10-4	585-590	nicht	_	_
+10-5	591-594	was	_	_
+10-6	595-598	Sie	_	_
+10-7	599-605	dränst	_	_
+10-8	606-607	.	_	_
+
+#Text=Sind es Augustferien der Mailänder Bibliothek und sind es Codices die Sie dort suchen , so lassen Sie Lepsius den Schlüsseh zu meinen Sachen und reisen Sie ab \; fürchten Sie aber die Ferien auch für Cattaneos Sammlungen , ( der Münzen und Bibliothek ) , so glaube ich Sie durch Verweisung auf Zardetti beruhigen zu können und Ritschl .
+11-1	608-612	Sind	_	_
+11-2	613-615	es	_	_
+11-3	616-628	Augustferien	_	_
+11-4	629-632	der	_	_
+11-5	633-642	Mailänder	*[7]	ORGmentioned[7]
+11-6	643-653	Bibliothek	*[7]	ORGmentioned[7]
+11-7	654-657	und	_	_
+11-8	658-662	sind	_	_
+11-9	663-665	es	_	_
+11-10	666-673	Codices	_	_
+11-11	674-677	die	_	_
+11-12	678-681	Sie	_	_
+11-13	682-686	dort	_	_
+11-14	687-693	suchen	_	_
+11-15	694-695	,	_	_
+11-16	696-698	so	_	_
+11-17	699-705	lassen	_	_
+11-18	706-709	Sie	_	_
+11-19	710-717	Lepsius	*	PERmentioned
+11-20	718-721	den	_	_
+11-21	722-731	Schlüsseh	_	_
+11-22	732-734	zu	_	_
+11-23	735-741	meinen	_	_
+11-24	742-748	Sachen	_	_
+11-25	749-752	und	_	_
+11-26	753-759	reisen	_	_
+11-27	760-763	Sie	_	_
+11-28	764-766	ab	_	_
+11-29	767-768	\;	_	_
+11-30	769-777	fürchten	_	_
+11-31	778-781	Sie	_	_
+11-32	782-786	aber	_	_
+11-33	787-790	die	_	_
+11-34	791-797	Ferien	_	_
+11-35	798-802	auch	_	_
+11-36	803-806	für	_	_
+11-37	807-816	Cattaneos	*	PERmentioned
+11-38	817-827	Sammlungen	_	_
+11-39	828-829	,	_	_
+11-40	830-831	(	_	_
+11-41	832-835	der	_	_
+11-42	836-842	Münzen	*	OBJ
+11-43	843-846	und	_	_
+11-44	847-857	Bibliothek	_	_
+11-45	858-859	)	_	_
+11-46	860-861	,	_	_
+11-47	862-864	so	_	_
+11-48	865-871	glaube	_	_
+11-49	872-875	ich	_	_
+11-50	876-879	Sie	_	_
+11-51	880-885	durch	_	_
+11-52	886-896	Verweisung	_	_
+11-53	897-900	auf	_	_
+11-54	901-909	Zardetti	*	PERmentioned
+11-55	910-919	beruhigen	_	_
+11-56	920-922	zu	_	_
+11-57	923-929	können	_	_
+11-58	930-933	und	_	_
+11-59	934-941	Ritschl	*[8]	PERmentioned[8]
+11-60	942-943	.	*[8]	PERmentioned[8]
+
+#Text=könnte Ihnen darüber Auskunft schaffen .
+12-1	944-950	könnte	*[8]	PERmentioned[8]
+12-2	951-956	Ihnen	_	_
+12-3	957-964	darüber	_	_
+12-4	965-973	Auskunft	_	_
+12-5	974-982	schaffen	_	_
+12-6	983-984	.	_	_
+
+#Text=Viel archäolog .
+13-1	985-989	Viel	_	_
+13-2	990-999	archäolog	_	_
+13-3	1000-1001	.	_	_
+
+#Text=Bücherschatz wissen Sie außerdem in Florenz ( Museum und Privatbibliothek des Granduca ) zu finden .
+14-1	1002-1014	Bücherschatz	_	_
+14-2	1015-1021	wissen	_	_
+14-3	1022-1025	Sie	_	_
+14-4	1026-1034	außerdem	_	_
+14-5	1035-1037	in	_	_
+14-6	1038-1045	Florenz	*	PLACEmentioned
+14-7	1046-1047	(	_	_
+14-8	1048-1054	Museum	*	ORGmentioned
+14-9	1055-1058	und	_	_
+14-10	1059-1075	Privatbibliothek	_	_
+14-11	1076-1079	des	_	_
+14-12	1080-1088	Granduca	*	PERmentioned
+14-13	1089-1090	)	_	_
+14-14	1091-1093	zu	_	_
+14-15	1094-1100	finden	_	_
+14-16	1101-1102	.	_	_
+
+#Text=Mehr kann ich , bei Unkenntniß Ihrer Pläne nicht sagen , sondern wiederhole nur daß der Realisirung , Ihnen und der Numismatik zu frönen , ab-
+15-1	1103-1107	Mehr	_	_
+15-2	1108-1112	kann	_	_
+15-3	1113-1116	ich	_	_
+15-4	1117-1118	,	_	_
+15-5	1119-1122	bei	_	_
+15-6	1123-1133	Unkenntniß	_	_
+15-7	1134-1139	Ihrer	_	_
+15-8	1140-1145	Pläne	_	_
+15-9	1146-1151	nicht	_	_
+15-10	1152-1157	sagen	_	_
+15-11	1158-1159	,	_	_
+15-12	1160-1167	sondern	_	_
+15-13	1168-1178	wiederhole	_	_
+15-14	1179-1182	nur	_	_
+15-15	1183-1186	daß	_	_
+15-16	1187-1190	der	_	_
+15-17	1191-1202	Realisirung	_	_
+15-18	1203-1204	,	_	_
+15-19	1205-1210	Ihnen	_	_
+15-20	1211-1214	und	_	_
+15-21	1215-1218	der	_	_
+15-22	1219-1229	Numismatik	_	_
+15-23	1230-1232	zu	_	_
+15-24	1233-1239	frönen	_	_
+15-25	1240-1241	,	_	_
+15-26	1242-1245	ab-	_	_

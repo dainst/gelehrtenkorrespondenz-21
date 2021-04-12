@@ -1,0 +1,264 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=207 Gerhard an Henzen Berlin 7/X/1850 A. di Dir .
+1-1	0-3	207	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	_	_
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-37	7/X/1850	*	DATEletter
+1-7	38-40	A.	_	_
+1-8	41-43	di	_	_
+1-9	44-47	Dir	_	_
+1-10	48-49	.	_	_
+
+#Text=8 . 16 .
+2-1	50-51	8	_	_
+2-2	52-53	.	_	_
+2-3	54-56	16	_	_
+2-4	57-58	.	_	_
+
+#Text=X .
+3-1	59-60	X	_	_
+3-2	61-62	.	_	_
+
+#Text=50 r . 23/X 50 D. Henzen Berlin 7 Okt .
+4-1	63-65	50	_	_
+4-2	66-67	r	_	_
+4-3	68-69	.	_	_
+4-4	70-74	23/X	*[3]	DATEanswered[3]
+4-5	75-77	50	*[3]	DATEanswered[3]
+4-6	78-80	D.	_	_
+4-7	81-87	Henzen	*	PERaddressee
+4-8	88-94	Berlin	*	PLACEfrom
+4-9	95-96	7	*[4]	DATEletter[4]
+4-10	97-100	Okt	*[4]	DATEletter[4]
+4-11	101-102	.	*[4]	DATEletter[4]
+
+#Text=50 Nueim Huusoe Wehrter Freund .
+5-1	103-105	50	_	_
+5-2	106-111	Nueim	_	_
+5-3	112-118	Huusoe	_	_
+5-4	119-126	Wehrter	_	_
+5-5	127-133	Freund	_	_
+5-6	134-135	.	_	_
+
+#Text=Ich habe zwei Briefe von Ihnen zu beantworten : der erste , noch wider Erwartung in Ihr Verhältniß zu Braun wie in einem Rechtshandel vertieft , ließ mich nicht viel Gutes erwarten und Sie können denken daß nächstdem der zweite mich doppelt erfreut hat .
+6-1	136-139	Ich	_	_
+6-2	140-144	habe	_	_
+6-3	145-149	zwei	_	_
+6-4	150-156	Briefe	_	_
+6-5	157-160	von	_	_
+6-6	161-166	Ihnen	_	_
+6-7	167-169	zu	_	_
+6-8	170-181	beantworten	_	_
+6-9	182-183	:	_	_
+6-10	184-187	der	_	_
+6-11	188-193	erste	_	_
+6-12	194-195	,	_	_
+6-13	196-200	noch	_	_
+6-14	201-206	wider	_	_
+6-15	207-216	Erwartung	_	_
+6-16	217-219	in	_	_
+6-17	220-223	Ihr	_	_
+6-18	224-234	Verhältniß	_	_
+6-19	235-237	zu	_	_
+6-20	238-243	Braun	*	PERmentioned
+6-21	244-247	wie	_	_
+6-22	248-250	in	_	_
+6-23	251-256	einem	_	_
+6-24	257-269	Rechtshandel	_	_
+6-25	270-278	vertieft	_	_
+6-26	279-280	,	_	_
+6-27	281-285	ließ	_	_
+6-28	286-290	mich	_	_
+6-29	291-296	nicht	_	_
+6-30	297-301	viel	_	_
+6-31	302-307	Gutes	_	_
+6-32	308-316	erwarten	_	_
+6-33	317-320	und	_	_
+6-34	321-324	Sie	_	_
+6-35	325-331	können	_	_
+6-36	332-338	denken	_	_
+6-37	339-342	daß	_	_
+6-38	343-352	nächstdem	_	_
+6-39	353-356	der	_	_
+6-40	357-363	zweite	_	_
+6-41	364-368	mich	_	_
+6-42	369-376	doppelt	_	_
+6-43	377-384	erfreut	_	_
+6-44	385-388	hat	_	_
+6-45	389-390	.	_	_
+
+#Text=Auf Brauns Persönlichkeit , wie viel Störendes auch darin eingemischt worden sei , Vertrauen zu hegen haben wir viel Grund und Verpflichtung \; wegen Brunn will ich die von Ihnen angedeuteten Schärfen bei Braun auch noch , so viel an mir ist , herunterzustimmen suchen -— , „ thun Sie das dann auch bei Brunn , der vielleicht den richtigen Ton des Verkehrs mit Braun verloren haben mag : ich begreife nicht wie das anfangs so gute Verhältniß sonst so schlecht geworden sein konnte .
+7-1	391-394	Auf	_	_
+7-2	395-401	Brauns	*	PERmentioned
+7-3	402-416	Persönlichkeit	_	_
+7-4	417-418	,	_	_
+7-5	419-422	wie	_	_
+7-6	423-427	viel	_	_
+7-7	428-437	Störendes	_	_
+7-8	438-442	auch	_	_
+7-9	443-448	darin	_	_
+7-10	449-460	eingemischt	_	_
+7-11	461-467	worden	_	_
+7-12	468-471	sei	_	_
+7-13	472-473	,	_	_
+7-14	474-483	Vertrauen	_	_
+7-15	484-486	zu	_	_
+7-16	487-492	hegen	_	_
+7-17	493-498	haben	_	_
+7-18	499-502	wir	_	_
+7-19	503-507	viel	_	_
+7-20	508-513	Grund	_	_
+7-21	514-517	und	_	_
+7-22	518-531	Verpflichtung	_	_
+7-23	532-533	\;	_	_
+7-24	534-539	wegen	_	_
+7-25	540-545	Brunn	*	PERmentioned
+7-26	546-550	will	_	_
+7-27	551-554	ich	_	_
+7-28	555-558	die	_	_
+7-29	559-562	von	_	_
+7-30	563-568	Ihnen	_	_
+7-31	569-581	angedeuteten	_	_
+7-32	582-590	Schärfen	_	_
+7-33	591-594	bei	_	_
+7-34	595-600	Braun	*	PERmentioned
+7-35	601-605	auch	_	_
+7-36	606-610	noch	_	_
+7-37	611-612	,	_	_
+7-38	613-615	so	_	_
+7-39	616-620	viel	_	_
+7-40	621-623	an	_	_
+7-41	624-627	mir	_	_
+7-42	628-631	ist	_	_
+7-43	632-633	,	_	_
+7-44	634-651	herunterzustimmen	_	_
+7-45	652-658	suchen	_	_
+7-46	659-661	-—	_	_
+7-47	662-663	,	_	_
+7-48	664-665	„	_	_
+7-49	666-670	thun	_	_
+7-50	671-674	Sie	_	_
+7-51	675-678	das	_	_
+7-52	679-683	dann	_	_
+7-53	684-688	auch	_	_
+7-54	689-692	bei	_	_
+7-55	693-698	Brunn	*	PERmentioned
+7-56	699-700	,	_	_
+7-57	701-704	der	_	_
+7-58	705-715	vielleicht	_	_
+7-59	716-719	den	_	_
+7-60	720-729	richtigen	_	_
+7-61	730-733	Ton	_	_
+7-62	734-737	des	_	_
+7-63	738-746	Verkehrs	_	_
+7-64	747-750	mit	_	_
+7-65	751-756	Braun	*	PERmentioned
+7-66	757-765	verloren	_	_
+7-67	766-771	haben	_	_
+7-68	772-775	mag	_	_
+7-69	776-777	:	_	_
+7-70	778-781	ich	_	_
+7-71	782-790	begreife	_	_
+7-72	791-796	nicht	_	_
+7-73	797-800	wie	_	_
+7-74	801-804	das	_	_
+7-75	805-812	anfangs	_	_
+7-76	813-815	so	_	_
+7-77	816-820	gute	_	_
+7-78	821-831	Verhältniß	_	_
+7-79	832-837	sonst	_	_
+7-80	838-840	so	_	_
+7-81	841-849	schlecht	_	_
+7-82	850-858	geworden	_	_
+7-83	859-863	sein	_	_
+7-84	864-870	konnte	_	_
+7-85	871-872	.	_	_
+
+#Text=Ich hatte an Braun nach Gotha geschrieben , wo er zum 1 Okt .
+8-1	873-876	Ich	_	_
+8-2	877-882	hatte	_	_
+8-3	883-885	an	_	_
+8-4	886-891	Braun	*	PERmentioned
+8-5	892-896	nach	_	_
+8-6	897-902	Gotha	*	PLACEmentioned
+8-7	903-914	geschrieben	_	_
+8-8	915-916	,	_	_
+8-9	917-919	wo	_	_
+8-10	920-922	er	_	_
+8-11	923-926	zum	_	_
+8-12	927-928	1	_	_
+8-13	929-932	Okt	_	_
+8-14	933-934	.	_	_
+
+#Text=zu einem Familienfest erwartet wurde : daß sein Schwiegervater gefährlich daniederlag war mir bekannt , nicht aber dessen von Ihnen erwähntes Ableben .
+9-1	935-937	zu	_	_
+9-2	938-943	einem	_	_
+9-3	944-956	Familienfest	_	_
+9-4	957-965	erwartet	_	_
+9-5	966-971	wurde	_	_
+9-6	972-973	:	_	_
+9-7	974-977	daß	_	_
+9-8	978-982	sein	_	_
+9-9	983-997	Schwiegervater	_	_
+9-10	998-1008	gefährlich	_	_
+9-11	1009-1020	daniederlag	_	_
+9-12	1021-1024	war	_	_
+9-13	1025-1028	mir	_	_
+9-14	1029-1036	bekannt	_	_
+9-15	1037-1038	,	_	_
+9-16	1039-1044	nicht	_	_
+9-17	1045-1049	aber	_	_
+9-18	1050-1056	dessen	_	_
+9-19	1057-1060	von	_	_
+9-20	1061-1066	Ihnen	_	_
+9-21	1067-1076	erwähntes	_	_
+9-22	1077-1084	Ableben	_	_
+9-23	1085-1086	.	_	_
+
+#Text=Wird nun Braun noch etwas verzögert , so werden Sie es ihm gewiß zu Gute halten .
+10-1	1087-1091	Wird	_	_
+10-2	1092-1095	nun	_	_
+10-3	1096-1101	Braun	*	PERmentioned
+10-4	1102-1106	noch	_	_
+10-5	1107-1112	etwas	_	_
+10-6	1113-1122	verzögert	_	_
+10-7	1123-1124	,	_	_
+10-8	1125-1127	so	_	_
+10-9	1128-1134	werden	_	_
+10-10	1135-1138	Sie	_	_
+10-11	1139-1141	es	_	_
+10-12	1142-1145	ihm	_	_
+10-13	1146-1151	gewiß	_	_
+10-14	1152-1154	zu	_	_
+10-15	1155-1159	Gute	_	_
+10-16	1160-1166	halten	_	_
+10-17	1167-1168	.	_	_
+
+#Text=Ihrer Fri .
+11-1	1169-1174	Ihrer	_	_
+11-2	1175-1178	Fri	_	_
+11-3	1179-1180	.	_	_
+
+#Text=Nichte die nun mit einem alten Dieher vermuthlich morgen reisen wird , um das Triester Schiff vom
+12-1	1181-1187	Nichte	_	_
+12-2	1188-1191	die	_	_
+12-3	1192-1195	nun	_	_
+12-4	1196-1199	mit	_	_
+12-5	1200-1205	einem	_	_
+12-6	1206-1211	alten	_	_
+12-7	1212-1218	Dieher	_	_
+12-8	1219-1230	vermuthlich	_	_
+12-9	1231-1237	morgen	_	_
+12-10	1238-1244	reisen	_	_
+12-11	1245-1249	wird	_	_
+12-12	1250-1251	,	_	_
+12-13	1252-1254	um	_	_
+12-14	1255-1258	das	_	_
+12-15	1259-1267	Triester	*	PLACEmentioned
+12-16	1268-1274	Schiff	_	_
+12-17	1275-1278	vom	_	_

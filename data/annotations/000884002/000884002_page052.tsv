@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=239 Brunn an Henzen ohne Ort/v .
+1-1	0-3	239	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-24	ohne	_	_
+1-6	25-30	Ort/v	_	_
+1-7	31-32	.	_	_
+
+#Text=26 .
+2-1	33-35	26	*[3]	DATEletter[3]
+2-2	36-37	.	*[3]	DATEletter[3]
+
+#Text=Aug . 1859 & .
+3-1	38-41	Aug	*[3]	DATEletter[3]
+3-2	42-43	.	*[3]	DATEletter[3]
+3-3	44-48	1859	*[3]	DATEletter[3]
+3-4	49-50	&	_	_
+3-5	51-52	.	_	_
+
+#Text=26 .
+4-1	53-55	26	*[4]	DATErecieved[4]
+4-2	56-57	.	*[4]	DATErecieved[4]
+
+#Text=August 1859 ncr L. H. Ihre Sendung habe ich heute erhalten , die Correcturen besorgt , so daß sie morgen in Rom sind .
+5-1	58-64	August	*[4]	DATErecieved[4]
+5-2	65-69	1859	*[4]	DATErecieved[4]
+5-3	70-73	ncr	_	_
+5-4	74-76	L.	_	_
+5-5	77-79	H.	*	PERaddressee
+5-6	80-84	Ihre	_	_
+5-7	85-92	Sendung	_	_
+5-8	93-97	habe	_	_
+5-9	98-101	ich	_	_
+5-10	102-107	heute	_	_
+5-11	108-116	erhalten	_	_
+5-12	117-118	,	_	_
+5-13	119-122	die	_	_
+5-14	123-134	Correcturen	_	_
+5-15	135-142	besorgt	_	_
+5-16	143-144	,	_	_
+5-17	145-147	so	_	_
+5-18	148-151	daß	_	_
+5-19	152-155	sie	_	_
+5-20	156-162	morgen	_	_
+5-21	163-165	in	_	_
+5-22	166-169	Rom	*	PLACEmentioned
+5-23	170-174	sind	_	_
+5-24	175-176	.	_	_
+
+#Text=Ivanoff 's Artikel schicke ich gleichfalls mit auf die Druckerei .
+6-1	177-184	Ivanoff	*[7]	PERmentioned[7]
+6-2	185-187	's	*[7]	PERmentioned[7]
+6-3	188-195	Artikel	_	_
+6-4	196-203	schicke	_	_
+6-5	204-207	ich	_	_
+6-6	208-219	gleichfalls	_	_
+6-7	220-223	mit	_	_
+6-8	224-227	auf	_	_
+6-9	228-231	die	_	_
+6-10	232-241	Druckerei	_	_
+6-11	242-243	.	_	_
+
+#Text=Roulez bringe ich Donnerstag mit , wo ich ohnehirinach Rom zu kommen dachte .
+7-1	244-250	Roulez	*	PERmentioned
+7-2	251-257	bringe	_	_
+7-3	258-261	ich	_	_
+7-4	262-272	Donnerstag	*	DATEmentioned
+7-5	273-276	mit	_	_
+7-6	277-278	,	_	_
+7-7	279-281	wo	_	_
+7-8	282-285	ich	_	_
+7-9	286-298	ohnehirinach	_	_
+7-10	299-302	Rom	*	PLACEmentioned
+7-11	303-305	zu	_	_
+7-12	306-312	kommen	_	_
+7-13	313-319	dachte	_	_
+7-14	320-321	.	_	_
+
+#Text=Mein Aufsatz wird dann ( sollte es auch etwa bis auf einen kleinen Rest ) fertig sein \; auf jeden Fall kann ( nach Durchsicht des Italienischen ) mit dem Drucke begonnen werden .
+8-1	322-326	Mein	_	_
+8-2	327-334	Aufsatz	_	_
+8-3	335-339	wird	_	_
+8-4	340-344	dann	_	_
+8-5	345-346	(	_	_
+8-6	347-353	sollte	_	_
+8-7	354-356	es	_	_
+8-8	357-361	auch	_	_
+8-9	362-366	etwa	_	_
+8-10	367-370	bis	_	_
+8-11	371-374	auf	_	_
+8-12	375-380	einen	_	_
+8-13	381-388	kleinen	_	_
+8-14	389-393	Rest	_	_
+8-15	394-395	)	_	_
+8-16	396-402	fertig	_	_
+8-17	403-407	sein	_	_
+8-18	408-409	\;	_	_
+8-19	410-413	auf	_	_
+8-20	414-419	jeden	_	_
+8-21	420-424	Fall	_	_
+8-22	425-429	kann	_	_
+8-23	430-431	(	_	_
+8-24	432-436	nach	_	_
+8-25	437-447	Durchsicht	_	_
+8-26	448-451	des	_	_
+8-27	452-465	Italienischen	_	_
+8-28	466-467	)	_	_
+8-29	468-471	mit	_	_
+8-30	472-475	dem	_	_
+8-31	476-482	Drucke	_	_
+8-32	483-491	begonnen	_	_
+8-33	492-498	werden	_	_
+8-34	499-500	.	_	_
+
+#Text=Die Veberarbeitung geht mir bis jetzt ganz gut von der Hand .
+9-1	501-504	Die	_	_
+9-2	505-519	Veberarbeitung	_	_
+9-3	520-524	geht	_	_
+9-4	525-528	mir	_	_
+9-5	529-532	bis	_	_
+9-6	533-538	jetzt	_	_
+9-7	539-543	ganz	_	_
+9-8	544-547	gut	_	_
+9-9	548-551	von	_	_
+9-10	552-555	der	_	_
+9-11	556-560	Hand	_	_
+9-12	561-562	.	_	_
+
+#Text=Daß Parisotti Ivanoff's Tafel drucken könne , hatte ich ganz zufällig zu bermerken vergessen .
+10-1	563-566	Daß	_	_
+10-2	567-576	Parisotti	*	PERmentioned
+10-3	577-586	Ivanoff's	*	PERmentioned
+10-4	587-592	Tafel	_	_
+10-5	593-600	drucken	_	_
+10-6	601-606	könne	_	_
+10-7	607-608	,	_	_
+10-8	609-614	hatte	_	_
+10-9	615-618	ich	_	_
+10-10	619-623	ganz	_	_
+10-11	624-632	zufällig	_	_
+10-12	633-635	zu	_	_
+10-13	636-645	bermerken	_	_
+10-14	646-655	vergessen	_	_
+10-15	656-657	.	_	_
+
+#Text=-— Bei meinem schwachen Französisch weiß ich nicht , ob correspond .
+11-1	658-660	-—	_	_
+11-2	661-664	Bei	_	_
+11-3	665-671	meinem	_	_
+11-4	672-681	schwachen	_	_
+11-5	682-693	Französisch	_	_
+11-6	694-698	weiß	_	_
+11-7	699-702	ich	_	_
+11-8	703-708	nicht	_	_
+11-9	709-710	,	_	_
+11-10	711-713	ob	_	_
+11-11	714-724	correspond	_	_
+11-12	725-726	.	_	_
+
+#Text=oder corrisp .
+12-1	727-731	oder	_	_
+12-2	732-739	corrisp	_	_
+12-3	740-741	.	_	_
+
+#Text=Jetzt glaube ich ersteres , nachdem es auf dem Papiere steht ( wegen des Annalentitels ) .
+13-1	742-747	Jetzt	_	_
+13-2	748-754	glaube	_	_
+13-3	755-758	ich	_	_
+13-4	759-767	ersteres	_	_
+13-5	768-769	,	_	_
+13-6	770-777	nachdem	_	_
+13-7	778-780	es	_	_
+13-8	781-784	auf	_	_
+13-9	785-788	dem	_	_
+13-10	789-796	Papiere	_	_
+13-11	797-802	steht	_	_
+13-12	803-804	(	_	_
+13-13	805-810	wegen	_	_
+13-14	811-814	des	_	_
+13-15	815-828	Annalentitels	_	_
+13-16	829-830	)	_	_
+13-17	831-832	.	_	_
+
+#Text=Ihr Original werde ich mit Gebrauchsanweisung für Domenico versehen .
+14-1	833-836	Ihr	_	_
+14-2	837-845	Original	_	_
+14-3	846-851	werde	_	_
+14-4	852-855	ich	_	_
+14-5	856-859	mit	_	_
+14-6	860-878	Gebrauchsanweisung	_	_
+14-7	879-882	für	_	_
+14-8	883-891	Domenico	*	PERmentioned
+14-9	892-900	versehen	_	_
+14-10	901-902	.	_	_
+
+#Text=Daß es mit Ihrer Frau immer noch nicht ganz gut gehen will , thut uns leid .
+15-1	903-906	Daß	_	_
+15-2	907-909	es	_	_
+15-3	910-913	mit	_	_
+15-4	914-919	Ihrer	*[5]	PERmentioned[5]
+15-5	920-924	Frau	*[5]	PERmentioned[5]
+15-6	925-930	immer	_	_
+15-7	931-935	noch	_	_
+15-8	936-941	nicht	_	_
+15-9	942-946	ganz	_	_
+15-10	947-950	gut	_	_
+15-11	951-956	gehen	_	_
+15-12	957-961	will	_	_
+15-13	962-963	,	_	_
+15-14	964-968	thut	_	_
+15-15	969-972	uns	_	_
+15-16	973-977	leid	_	_
+15-17	978-979	.	_	_
+
+#Text=Mein Magendrücken ist so gut wie ganz beseitigt , während meine Frau noch über manche mit der Hitze zusammenhängende Kleinigkeiten zu klagen hat .
+16-1	980-984	Mein	_	_
+16-2	985-997	Magendrücken	_	_
+16-3	998-1001	ist	_	_
+16-4	1002-1004	so	_	_
+16-5	1005-1008	gut	_	_
+16-6	1009-1012	wie	_	_
+16-7	1013-1017	ganz	_	_
+16-8	1018-1027	beseitigt	_	_
+16-9	1028-1029	,	_	_
+16-10	1030-1037	während	_	_
+16-11	1038-1043	meine	*[6]	PERmentioned[6]
+16-12	1044-1048	Frau	*[6]	PERmentioned[6]
+16-13	1049-1053	noch	_	_
+16-14	1054-1058	über	_	_
+16-15	1059-1065	manche	_	_
+16-16	1066-1069	mit	_	_
+16-17	1070-1073	der	_	_
+16-18	1074-1079	Hitze	_	_
+16-19	1080-1096	zusammenhängende	_	_
+16-20	1097-1110	Kleinigkeiten	_	_
+16-21	1111-1113	zu	_	_
+16-22	1114-1120	klagen	_	_
+16-23	1121-1124	hat	_	_
+16-24	1125-1126	.	_	_
+
+#Text=An Bartoccini hatte ich allerdings geschrieben , nur den einen gegen Sie erwähnten Punkt hatte ich vergessen .
+17-1	1127-1129	An	_	_
+17-2	1130-1140	Bartoccini	*	PERmentioned
+17-3	1141-1146	hatte	_	_
+17-4	1147-1150	ich	_	_
+17-5	1151-1161	allerdings	_	_
+17-6	1162-1173	geschrieben	_	_
+17-7	1174-1175	,	_	_
+17-8	1176-1179	nur	_	_
+17-9	1180-1183	den	_	_
+17-10	1184-1189	einen	_	_
+17-11	1190-1195	gegen	_	_
+17-12	1196-1199	Sie	_	_
+17-13	1200-1209	erwähnten	_	_
+17-14	1210-1215	Punkt	_	_
+17-15	1216-1221	hatte	_	_
+17-16	1222-1225	ich	_	_
+17-17	1226-1235	vergessen	_	_
+17-18	1236-1237	.	_	_
+
+#Text=Ihr HBrunn .
+18-1	1238-1241	Ihr	_	_
+18-2	1242-1248	HBrunn	*	PERauthor
+18-3	1249-1250	.	_	_

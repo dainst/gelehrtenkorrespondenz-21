@@ -1,0 +1,90 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun 29 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-19	29	*[3]	DATEletter[3]
+1-5	20-21	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1836 Aff .
+2-1	22-29	Oktober	*[3]	DATEletter[3]
+2-2	30-34	1836	*[3]	DATEletter[3]
+2-3	35-38	Aff	_	_
+2-4	39-40	.	_	_
+
+#Text=d . Dir .
+3-1	41-42	d	_	_
+3-2	43-44	.	_	_
+3-3	45-48	Dir	_	_
+3-4	49-50	.	_	_
+
+#Text=COOXC 8 .
+4-1	51-56	COOXC	_	_
+4-2	57-58	8	_	_
+4-3	59-60	.	_	_
+
+#Text=29/10 36 29/10 Hier lieber Freund ? 2 Briefe für den Courier .
+5-1	61-66	29/10	*[4]	DATErecieved[4]
+5-2	67-69	36	*[4]	DATErecieved[4]
+5-3	70-75	29/10	*	DATEletter
+5-4	76-80	Hier	_	_
+5-5	81-87	lieber	_	_
+5-6	88-94	Freund	_	_
+5-7	95-96	?	_	_
+5-8	97-98	2	_	_
+5-9	99-105	Briefe	_	_
+5-10	106-109	für	_	_
+5-11	110-113	den	_	_
+5-12	114-121	Courier	_	_
+5-13	122-123	.	_	_
+
+#Text=Ich bitte um Eckbert vol . 2 . 3. oder wenigstens Heyse wünscht das Bull .
+6-1	124-127	Ich	_	_
+6-2	128-133	bitte	_	_
+6-3	134-136	um	_	_
+6-4	137-144	Eckbert	*	PERmentioned
+6-5	145-148	vol	_	_
+6-6	149-150	.	_	_
+6-7	151-152	2	_	_
+6-8	153-154	.	_	_
+6-9	155-157	3.	_	_
+6-10	158-162	oder	_	_
+6-11	163-173	wenigstens	_	_
+6-12	174-179	Heyse	*	PERmentioned
+6-13	180-187	wünscht	_	_
+6-14	188-191	das	_	_
+6-15	192-196	Bull	_	_
+6-16	197-198	.	_	_
+
+#Text=kennen zu lernen \; ich dächte man schickte ihm die diesjährigen Bogen in spe futuri .
+7-1	199-205	kennen	_	_
+7-2	206-208	zu	_	_
+7-3	209-215	lernen	_	_
+7-4	216-217	\;	_	_
+7-5	218-221	ich	_	_
+7-6	222-228	dächte	_	_
+7-7	229-232	man	_	_
+7-8	233-241	schickte	_	_
+7-9	242-245	ihm	_	_
+7-10	246-249	die	_	_
+7-11	250-262	diesjährigen	_	_
+7-12	263-268	Bogen	_	_
+7-13	269-271	in	_	_
+7-14	272-275	spe	_	_
+7-15	276-282	futuri	_	_
+7-16	283-284	.	_	_
+
+#Text=Um die Abendstunde komme ich wol zu Ihnen Ihr Gerhard
+8-1	285-287	Um	_	_
+8-2	288-291	die	_	_
+8-3	292-303	Abendstunde	_	_
+8-4	304-309	komme	_	_
+8-5	310-313	ich	_	_
+8-6	314-317	wol	_	_
+8-7	318-320	zu	_	_
+8-8	321-326	Ihnen	_	_
+8-9	327-330	Ihr	_	_
+8-10	331-338	Gerhard	*	PERauthor

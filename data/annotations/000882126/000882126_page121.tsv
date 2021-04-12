@@ -1,0 +1,204 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=f oe .
+1-1	0-1	f	_	_
+1-2	2-4	oe	_	_
+1-3	5-6	.	_	_
+
+#Text=Braun an Gerhard Rom , 25. Juni 1836 2 .
+2-1	7-12	Braun	*	PERauthor
+2-2	13-15	an	_	_
+2-3	16-23	Gerhard	*	PERaddressee
+2-4	24-27	Rom	*	PLACEfrom
+2-5	28-29	,	_	_
+2-6	30-33	25.	*[1]	DATEletter[1]
+2-7	34-38	Juni	*[1]	DATEletter[1]
+2-8	39-43	1836	*[1]	DATEletter[1]
+2-9	44-45	2	_	_
+2-10	46-47	.	_	_
+
+#Text=Modification des dermalisen Thatbestandes .
+3-1	48-60	Modification	_	_
+3-2	61-64	des	_	_
+3-3	65-75	dermalisen	_	_
+3-4	76-89	Thatbestandes	_	_
+3-5	90-91	.	_	_
+
+#Text=Eine Modification des dermaligen Thatbestandes zu ermöglichen liegt außerhalb meines Bereiches .
+4-1	92-96	Eine	_	_
+4-2	97-109	Modification	_	_
+4-3	110-113	des	_	_
+4-4	114-124	dermaligen	_	_
+4-5	125-138	Thatbestandes	_	_
+4-6	139-141	zu	_	_
+4-7	142-153	ermöglichen	_	_
+4-8	154-159	liegt	_	_
+4-9	160-169	außerhalb	_	_
+4-10	170-176	meines	_	_
+4-11	177-186	Bereiches	_	_
+4-12	187-188	.	_	_
+
+#Text=Nachdem Panofka seine Theilnahme an der hiesigen Geschäftsführung in der von Bunsen vorgeschlagenen Weise zugesagt hat , zeigt es sich unthunlich die ganze Einrichtung aufs Neue anzugreifen .
+5-1	189-196	Nachdem	_	_
+5-2	197-204	Panofka	*	PERmentioned
+5-3	205-210	seine	_	_
+5-4	211-221	Theilnahme	_	_
+5-5	222-224	an	_	_
+5-6	225-228	der	_	_
+5-7	229-237	hiesigen	_	_
+5-8	238-254	Geschäftsführung	_	_
+5-9	255-257	in	_	_
+5-10	258-261	der	_	_
+5-11	262-265	von	_	_
+5-12	266-272	Bunsen	*	PERmentioned
+5-13	273-288	vorgeschlagenen	_	_
+5-14	289-294	Weise	_	_
+5-15	295-303	zugesagt	_	_
+5-16	304-307	hat	_	_
+5-17	308-309	,	_	_
+5-18	310-315	zeigt	_	_
+5-19	316-318	es	_	_
+5-20	319-323	sich	_	_
+5-21	324-334	unthunlich	_	_
+5-22	335-338	die	_	_
+5-23	339-344	ganze	_	_
+5-24	345-356	Einrichtung	_	_
+5-25	357-361	aufs	_	_
+5-26	362-366	Neue	_	_
+5-27	367-378	anzugreifen	_	_
+5-28	379-380	.	_	_
+
+#Text=Meinen Einwendungen würde man kein Gehör geben , selbst wenn ich sie besser zu machen wüßte , als ich dermalen vermag .
+6-1	381-387	Meinen	_	_
+6-2	388-400	Einwendungen	_	_
+6-3	401-406	würde	_	_
+6-4	407-410	man	_	_
+6-5	411-415	kein	_	_
+6-6	416-421	Gehör	_	_
+6-7	422-427	geben	_	_
+6-8	428-429	,	_	_
+6-9	430-436	selbst	_	_
+6-10	437-441	wenn	_	_
+6-11	442-445	ich	_	_
+6-12	446-449	sie	_	_
+6-13	450-456	besser	_	_
+6-14	457-459	zu	_	_
+6-15	460-466	machen	_	_
+6-16	467-472	wüßte	_	_
+6-17	473-474	,	_	_
+6-18	475-478	als	_	_
+6-19	479-482	ich	_	_
+6-20	483-491	dermalen	_	_
+6-21	492-498	vermag	_	_
+6-22	499-500	.	_	_
+
+#Text=Außerdem hat Bunsen Papiere in Händen , welche jede weitere Einrede niederschlagen .
+7-1	501-509	Außerdem	_	_
+7-2	510-513	hat	_	_
+7-3	514-520	Bunsen	*	PERmentioned
+7-4	521-528	Papiere	_	_
+7-5	529-531	in	_	_
+7-6	532-538	Händen	_	_
+7-7	539-540	,	_	_
+7-8	541-547	welche	_	_
+7-9	548-552	jede	_	_
+7-10	553-560	weitere	_	_
+7-11	561-568	Einrede	_	_
+7-12	569-583	niederschlagen	_	_
+7-13	584-585	.	_	_
+
+#Text=Lepsius ist von Bunsen nach Panofkas in Berlin erfolgter Anstellung an den hiesigen Posten berufen worden .
+8-1	586-593	Lepsius	*	PERmentioned
+8-2	594-597	ist	_	_
+8-3	598-601	von	_	_
+8-4	602-608	Bunsen	*	PERmentioned
+8-5	609-613	nach	_	_
+8-6	614-622	Panofkas	*	PERmentioned
+8-7	623-625	in	_	_
+8-8	626-632	Berlin	*	PLACEmentioned
+8-9	633-642	erfolgter	_	_
+8-10	643-653	Anstellung	_	_
+8-11	654-656	an	_	_
+8-12	657-660	den	_	_
+8-13	661-669	hiesigen	_	_
+8-14	670-676	Posten	_	_
+8-15	677-684	berufen	_	_
+8-16	685-691	worden	_	_
+8-17	692-693	.	_	_
+
+#Text=Durch seine Zusage hat er eher ein Opfer gebracht , als die Erfüllung persönlicher Wünsche erlangt .
+9-1	694-699	Durch	_	_
+9-2	700-705	seine	_	_
+9-3	706-712	Zusage	_	_
+9-4	713-716	hat	_	_
+9-5	717-719	er	_	_
+9-6	720-724	eher	_	_
+9-7	725-728	ein	_	_
+9-8	729-734	Opfer	_	_
+9-9	735-743	gebracht	_	_
+9-10	744-745	,	_	_
+9-11	746-749	als	_	_
+9-12	750-753	die	_	_
+9-13	754-763	Erfüllung	_	_
+9-14	764-776	persönlicher	_	_
+9-15	777-784	Wünsche	_	_
+9-16	785-792	erlangt	_	_
+9-17	793-794	.	_	_
+
+#Text=Nachdem er früher dem verrätherischen De Witte in Paris geopfert worden war , hatte er sich vorgesetzt an den Institutsgeschäften keinen weiteren Antheil je wieder zu nehmen .
+10-1	795-802	Nachdem	_	_
+10-2	803-805	er	_	_
+10-3	806-812	früher	_	_
+10-4	813-816	dem	_	_
+10-5	817-832	verrätherischen	_	_
+10-6	833-835	De	*[2]	PERmentioned[2]
+10-7	836-841	Witte	*[2]	PERmentioned[2]
+10-8	842-844	in	_	_
+10-9	845-850	Paris	*	PLACEmentioned
+10-10	851-859	geopfert	_	_
+10-11	860-866	worden	_	_
+10-12	867-870	war	_	_
+10-13	871-872	,	_	_
+10-14	873-878	hatte	_	_
+10-15	879-881	er	_	_
+10-16	882-886	sich	_	_
+10-17	887-897	vorgesetzt	_	_
+10-18	898-900	an	_	_
+10-19	901-904	den	_	_
+10-20	905-924	Institutsgeschäften	*	DATEmentioned
+10-21	925-931	keinen	_	_
+10-22	932-940	weiteren	_	_
+10-23	941-948	Antheil	_	_
+10-24	949-951	je	_	_
+10-25	952-958	wieder	_	_
+10-26	959-961	zu	_	_
+10-27	962-968	nehmen	_	_
+10-28	969-970	.	_	_
+
+#Text=Daß er gegenwärtig eine Assistentenstelle annehmen soll , ist ihm auch bei Hintansetzung aller Discretion nicht zuzumuthen .
+11-1	971-974	Daß	_	_
+11-2	975-977	er	_	_
+11-3	978-989	gegenwärtig	_	_
+11-4	990-994	eine	_	_
+11-5	995-1012	Assistentenstelle	_	_
+11-6	1013-1021	annehmen	_	_
+11-7	1022-1026	soll	_	_
+11-8	1027-1028	,	_	_
+11-9	1029-1032	ist	_	_
+11-10	1033-1036	ihm	_	_
+11-11	1037-1041	auch	_	_
+11-12	1042-1045	bei	_	_
+11-13	1046-1059	Hintansetzung	_	_
+11-14	1060-1065	aller	_	_
+11-15	1066-1076	Discretion	_	_
+11-16	1077-1082	nicht	_	_
+11-17	1083-1093	zuzumuthen	_	_
+11-18	1094-1095	.	_	_
+
+#Text=( ohne Unterschrift )
+12-1	1096-1097	(	_	_
+12-2	1098-1102	ohne	_	_
+12-3	1103-1115	Unterschrift	_	_
+12-4	1116-1117	)	_	_

@@ -1,0 +1,46 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=vooueoe .
+1-1	0-7	vooueoe	_	_
+1-2	8-9	.	_	_
+
+#Text=Gerhard an Henzen Berlin , 25. Juni 1846 Francs auf 300 , und dessen Recherches auf 50 statt 22 Francs in Kestners Notice gesteigert .
+2-1	10-17	Gerhard	*	PERauthor
+2-2	18-20	an	_	_
+2-3	21-27	Henzen	*	PERaddressee
+2-4	28-34	Berlin	*	PLACEfrom
+2-5	35-36	,	_	_
+2-6	37-40	25.	*[1]	DATEletter[1]
+2-7	41-45	Juni	*[1]	DATEletter[1]
+2-8	46-50	1846	*[1]	DATEletter[1]
+2-9	51-57	Francs	_	_
+2-10	58-61	auf	_	_
+2-11	62-65	300	_	_
+2-12	66-67	,	_	_
+2-13	68-71	und	_	_
+2-14	72-78	dessen	_	_
+2-15	79-89	Recherches	_	_
+2-16	90-93	auf	_	_
+2-17	94-96	50	_	_
+2-18	97-102	statt	_	_
+2-19	103-105	22	_	_
+2-20	106-112	Francs	_	_
+2-21	113-115	in	_	_
+2-22	116-124	Kestners	*	PERmentioned
+2-23	125-131	Notice	_	_
+2-24	132-142	gesteigert	_	_
+2-25	143-144	.	_	_
+
+#Text=Minervini bitte ich 1 Exemplar Venusidole zugehen zu lassen .
+3-1	145-154	Minervini	*	PERmentioned
+3-2	155-160	bitte	_	_
+3-3	161-164	ich	_	_
+3-4	165-166	1	_	_
+3-5	167-175	Exemplar	_	_
+3-6	176-186	Venusidole	_	_
+3-7	187-194	zugehen	_	_
+3-8	195-197	zu	_	_
+3-9	198-204	lassen	_	_
+3-10	205-206	.	_	_

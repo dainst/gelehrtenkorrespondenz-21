@@ -1,0 +1,177 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=188 Lepsius an Henzen Berlin , 29. März 1875 g . 20/4 75 Berlin , den 29 .
+1-1	0-3	188	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	29.	*[1]	DATEletter[1]
+1-8	35-39	März	*[1]	DATEletter[1]
+1-9	40-44	1875	*[1]	DATEletter[1]
+1-10	45-46	g	_	_
+1-11	47-48	.	_	_
+1-12	49-53	20/4	*[2]	DATErecieved[2]
+1-13	54-56	75	*[2]	DATErecieved[2]
+1-14	57-63	Berlin	*	PLACEfrom
+1-15	64-65	,	_	_
+1-16	66-69	den	_	_
+1-17	70-72	29	*[3]	DATEletter[3]
+1-18	73-74	.	*[3]	DATEletter[3]
+
+#Text=Mz 1875 Verehrter Freund Ich schreibe diese Zeilen zur Empfehlung des Überbringers , des Hof- und Dompredigers , Ober Konsistorialrath Dr. Kögel .
+2-1	75-77	Mz	*[3]	DATEletter[3]
+2-2	78-82	1875	*[3]	DATEletter[3]
+2-3	83-92	Verehrter	_	_
+2-4	93-99	Freund	_	_
+2-5	100-103	Ich	_	_
+2-6	104-112	schreibe	_	_
+2-7	113-118	diese	_	_
+2-8	119-125	Zeilen	_	_
+2-9	126-129	zur	_	_
+2-10	130-140	Empfehlung	_	_
+2-11	141-144	des	_	_
+2-12	145-157	Überbringers	_	_
+2-13	158-159	,	_	_
+2-14	160-163	des	_	_
+2-15	164-168	Hof-	_	_
+2-16	169-172	und	_	_
+2-17	173-185	Dompredigers	_	_
+2-18	186-187	,	_	_
+2-19	188-192	Ober	_	_
+2-20	193-209	Konsistorialrath	_	_
+2-21	210-213	Dr.	_	_
+2-22	214-219	Kögel	*	PERmentioned
+2-23	220-221	.	_	_
+
+#Text=Er ist einer der bedeutendsten Prediger die ich überhaupt gekannt habe , hat hier eine dem entsprechende große und wichtige Wirksamkeit und will einmal seiner Geschäftslast für einige Wochen entgehen durch eine Reise nach Rom und Neapel .
+3-1	222-224	Er	_	_
+3-2	225-228	ist	_	_
+3-3	229-234	einer	_	_
+3-4	235-238	der	_	_
+3-5	239-252	bedeutendsten	_	_
+3-6	253-261	Prediger	_	_
+3-7	262-265	die	_	_
+3-8	266-269	ich	_	_
+3-9	270-279	überhaupt	_	_
+3-10	280-287	gekannt	_	_
+3-11	288-292	habe	_	_
+3-12	293-294	,	_	_
+3-13	295-298	hat	_	_
+3-14	299-303	hier	_	_
+3-15	304-308	eine	_	_
+3-16	309-312	dem	_	_
+3-17	313-326	entsprechende	_	_
+3-18	327-332	große	_	_
+3-19	333-336	und	_	_
+3-20	337-345	wichtige	_	_
+3-21	346-357	Wirksamkeit	_	_
+3-22	358-361	und	_	_
+3-23	362-366	will	_	_
+3-24	367-373	einmal	_	_
+3-25	374-380	seiner	_	_
+3-26	381-394	Geschäftslast	_	_
+3-27	395-398	für	_	_
+3-28	399-405	einige	_	_
+3-29	406-412	Wochen	_	_
+3-30	413-421	entgehen	_	_
+3-31	422-427	durch	_	_
+3-32	428-432	eine	_	_
+3-33	433-438	Reise	_	_
+3-34	439-443	nach	_	_
+3-35	444-447	Rom	*	PLACEmentioned
+3-36	448-451	und	_	_
+3-37	452-458	Neapel	*	PLACEmentioned
+3-38	459-460	.	_	_
+
+#Text=Er ist zugleich mir und meiner Familie sehr befreundet , und Sie würden mich daher persönlich sehr verbinden , wenn Sie ihm in Rom Ihre Hülfe gewähren wollten , so weit er ihrer vielleicht bedarf und Sie sie geben können .
+4-1	461-463	Er	_	_
+4-2	464-467	ist	_	_
+4-3	468-476	zugleich	_	_
+4-4	477-480	mir	_	_
+4-5	481-484	und	_	_
+4-6	485-491	meiner	_	_
+4-7	492-499	Familie	_	_
+4-8	500-504	sehr	_	_
+4-9	505-515	befreundet	_	_
+4-10	516-517	,	_	_
+4-11	518-521	und	_	_
+4-12	522-525	Sie	_	_
+4-13	526-532	würden	_	_
+4-14	533-537	mich	_	_
+4-15	538-543	daher	_	_
+4-16	544-554	persönlich	_	_
+4-17	555-559	sehr	_	_
+4-18	560-569	verbinden	_	_
+4-19	570-571	,	_	_
+4-20	572-576	wenn	_	_
+4-21	577-580	Sie	_	_
+4-22	581-584	ihm	_	_
+4-23	585-587	in	_	_
+4-24	588-591	Rom	*	PLACEmentioned
+4-25	592-596	Ihre	_	_
+4-26	597-602	Hülfe	_	_
+4-27	603-611	gewähren	_	_
+4-28	612-619	wollten	_	_
+4-29	620-621	,	_	_
+4-30	622-624	so	_	_
+4-31	625-629	weit	_	_
+4-32	630-632	er	_	_
+4-33	633-638	ihrer	_	_
+4-34	639-649	vielleicht	_	_
+4-35	650-656	bedarf	_	_
+4-36	657-660	und	_	_
+4-37	661-664	Sie	_	_
+4-38	665-668	sie	_	_
+4-39	669-674	geben	_	_
+4-40	675-681	können	_	_
+4-41	682-683	.	_	_
+
+#Text=Vielleicht würden Sie ihm auch in Neapel die Wege bahnen können .
+5-1	684-694	Vielleicht	_	_
+5-2	695-701	würden	_	_
+5-3	702-705	Sie	_	_
+5-4	706-709	ihm	_	_
+5-5	710-714	auch	_	_
+5-6	715-717	in	_	_
+5-7	718-724	Neapel	*	PLACEmentioned
+5-8	725-728	die	_	_
+5-9	729-733	Wege	_	_
+5-10	734-740	bahnen	_	_
+5-11	741-747	können	_	_
+5-12	748-749	.	_	_
+
+#Text=Bitten Sie auch Helbig in meinem Namen um dieselbe Gefälliskeit .
+6-1	750-756	Bitten	_	_
+6-2	757-760	Sie	_	_
+6-3	761-765	auch	_	_
+6-4	766-772	Helbig	*	PERmentioned
+6-5	773-775	in	_	_
+6-6	776-782	meinem	_	_
+6-7	783-788	Namen	_	_
+6-8	789-791	um	_	_
+6-9	792-800	dieselbe	_	_
+6-10	801-813	Gefälliskeit	_	_
+6-11	814-815	.	_	_
+
+#Text=So eben ist Ihr letzter Brief von 25R d. angekommen .
+7-1	816-818	So	_	_
+7-2	819-823	eben	_	_
+7-3	824-827	ist	_	_
+7-4	828-831	Ihr	_	_
+7-5	832-839	letzter	_	_
+7-6	840-845	Brief	_	_
+7-7	846-849	von	_	_
+7-8	850-853	25R	*	DATEmentioned
+7-9	854-856	d.	_	_
+7-10	857-867	angekommen	_	_
+7-11	868-869	.	_	_
+
+#Text=Herzlich Ihr R Lepsius
+8-1	870-878	Herzlich	_	_
+8-2	879-882	Ihr	_	_
+8-3	883-884	R	*[4]	PERauthor[4]
+8-4	885-892	Lepsius	*[4]	PERauthor[4]

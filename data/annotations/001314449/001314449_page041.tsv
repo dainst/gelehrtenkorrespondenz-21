@@ -1,0 +1,298 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ur ( re - \| 72 Henzen an Gerhard 26/I1/52 Verehrter Herr Frofessor !
+1-1	0-2	ur	_	_
+1-2	3-4	(	_	_
+1-3	5-7	re	_	_
+1-4	8-9	-	_	_
+1-5	10-11	\|	_	_
+1-6	12-14	72	_	_
+1-7	15-21	Henzen	*	PERauthor
+1-8	22-24	an	_	_
+1-9	25-32	Gerhard	*	PERaddressee
+1-10	33-41	26/I1/52	*	DATEletter
+1-11	42-51	Verehrter	_	_
+1-12	52-56	Herr	_	_
+1-13	57-66	Frofessor	_	_
+1-14	67-68	!	_	_
+
+#Text=Braun hat direct an Jo .
+2-1	69-74	Braun	*	PERmentioned
+2-2	75-78	hat	_	_
+2-3	79-85	direct	_	_
+2-4	86-88	an	_	_
+2-5	89-91	Jo	*[3]	PERmentioned[3]
+2-6	92-93	.	*[3]	PERmentioned[3]
+
+#Text=Schulze geschrieben .
+3-1	94-101	Schulze	*[3]	PERmentioned[3]
+3-2	102-113	geschrieben	_	_
+3-3	114-115	.	_	_
+
+#Text=Bunsen muß wohl die Sache ganz vergessen haben \; ein heute von ihm eingelaufner Brief gedenkt weder ihrer , noch ds . Instituts überhaupt .
+4-1	116-122	Bunsen	*	PERmentioned
+4-2	123-126	muß	_	_
+4-3	127-131	wohl	_	_
+4-4	132-135	die	_	_
+4-5	136-141	Sache	_	_
+4-6	142-146	ganz	_	_
+4-7	147-156	vergessen	_	_
+4-8	157-162	haben	_	_
+4-9	163-164	\;	_	_
+4-10	165-168	ein	_	_
+4-11	169-174	heute	_	_
+4-12	175-178	von	_	_
+4-13	179-182	ihm	_	_
+4-14	183-195	eingelaufner	_	_
+4-15	196-201	Brief	_	_
+4-16	202-209	gedenkt	_	_
+4-17	210-215	weder	_	_
+4-18	216-221	ihrer	_	_
+4-19	222-223	,	_	_
+4-20	224-228	noch	_	_
+4-21	229-231	ds	_	_
+4-22	232-233	.	_	_
+4-23	234-243	Instituts	*	ORGmentioned
+4-24	244-253	überhaupt	_	_
+4-25	254-255	.	_	_
+
+#Text=Es scheint wohl schl4Hlich bewilligt , aber lange wirds dauern .
+5-1	256-258	Es	_	_
+5-2	259-266	scheint	_	_
+5-3	267-271	wohl	_	_
+5-4	272-282	schl4Hlich	_	_
+5-5	283-292	bewilligt	_	_
+5-6	293-294	,	_	_
+5-7	295-299	aber	_	_
+5-8	300-305	lange	_	_
+5-9	306-311	wirds	_	_
+5-10	312-318	dauern	_	_
+5-11	319-320	.	_	_
+
+#Text=” Braun will von Ihnen gehört haben , es existire in Berlin ein junger Aegyptolog , der Lepsius sehr auf den Dienst passe u , ihm , sowie den andern Hieroglyphikern , viel Verkehrtes nachwiese , Wer dieser sei ?
+6-1	321-322	”	_	_
+6-2	323-328	Braun	*	PERmentioned
+6-3	329-333	will	_	_
+6-4	334-337	von	_	_
+6-5	338-343	Ihnen	_	_
+6-6	344-350	gehört	_	_
+6-7	351-356	haben	_	_
+6-8	357-358	,	_	_
+6-9	359-361	es	_	_
+6-10	362-370	existire	_	_
+6-11	371-373	in	_	_
+6-12	374-380	Berlin	*	PLACEmentioned
+6-13	381-384	ein	_	_
+6-14	385-391	junger	_	_
+6-15	392-402	Aegyptolog	_	_
+6-16	403-404	,	_	_
+6-17	405-408	der	_	_
+6-18	409-416	Lepsius	*	PERmentioned
+6-19	417-421	sehr	_	_
+6-20	422-425	auf	_	_
+6-21	426-429	den	_	_
+6-22	430-436	Dienst	_	_
+6-23	437-442	passe	_	_
+6-24	443-444	u	_	_
+6-25	445-446	,	_	_
+6-26	447-450	ihm	_	_
+6-27	451-452	,	_	_
+6-28	453-458	sowie	_	_
+6-29	459-462	den	_	_
+6-30	463-469	andern	_	_
+6-31	470-485	Hieroglyphikern	_	_
+6-32	486-487	,	_	_
+6-33	488-492	viel	_	_
+6-34	493-503	Verkehrtes	_	_
+6-35	504-513	nachwiese	_	_
+6-36	514-515	,	_	_
+6-37	516-519	Wer	_	_
+6-38	520-526	dieser	_	_
+6-39	527-530	sei	_	_
+6-40	531-532	?	_	_
+
+#Text=Wir sind jetzt schwer von Secchi 's hieroglyphischen Entdeckungen heimgesucht , die seit 4 Wochen die Adunanzen monopolisiren , u , wissen nicht , was davon zu halten .
+7-1	533-536	Wir	_	_
+7-2	537-541	sind	_	_
+7-3	542-547	jetzt	_	_
+7-4	548-554	schwer	_	_
+7-5	555-558	von	_	_
+7-6	559-565	Secchi	*[4]	PERmentioned[4]
+7-7	566-568	's	*[4]	PERmentioned[4]
+7-8	569-585	hieroglyphischen	_	_
+7-9	586-598	Entdeckungen	_	_
+7-10	599-610	heimgesucht	_	_
+7-11	611-612	,	_	_
+7-12	613-616	die	_	_
+7-13	617-621	seit	_	_
+7-14	622-623	4	_	_
+7-15	624-630	Wochen	_	_
+7-16	631-634	die	_	_
+7-17	635-644	Adunanzen	_	_
+7-18	645-658	monopolisiren	_	_
+7-19	659-660	,	_	_
+7-20	661-662	u	_	_
+7-21	663-664	,	_	_
+7-22	665-671	wissen	_	_
+7-23	672-677	nicht	_	_
+7-24	678-679	,	_	_
+7-25	680-683	was	_	_
+7-26	684-689	davon	_	_
+7-27	690-692	zu	_	_
+7-28	693-699	halten	_	_
+7-29	700-701	.	_	_
+
+#Text=Für den Lanci ist sein System in mancher Hinsicht weit entsprechender als das bisherige , wie es wenigstens von ihm selbst dargestellt wird .
+8-1	702-705	Für	_	_
+8-2	706-709	den	_	_
+8-3	710-715	Lanci	*	PERmentioned
+8-4	716-719	ist	_	_
+8-5	720-724	sein	_	_
+8-6	725-731	System	_	_
+8-7	732-734	in	_	_
+8-8	735-742	mancher	_	_
+8-9	743-751	Hinsicht	_	_
+8-10	752-756	weit	_	_
+8-11	757-771	entsprechender	_	_
+8-12	772-775	als	_	_
+8-13	776-779	das	_	_
+8-14	780-789	bisherige	_	_
+8-15	790-791	,	_	_
+8-16	792-795	wie	_	_
+8-17	796-798	es	_	_
+8-18	799-809	wenigstens	_	_
+8-19	810-813	von	_	_
+8-20	814-817	ihm	_	_
+8-21	818-824	selbst	_	_
+8-22	825-836	dargestellt	_	_
+8-23	837-841	wird	_	_
+8-24	842-843	.	_	_
+
+#Text=Ich rühme mich durchaus nicht , ds . Bull .
+9-1	844-847	Ich	_	_
+9-2	848-853	rühme	_	_
+9-3	854-858	mich	_	_
+9-4	859-867	durchaus	_	_
+9-5	868-873	nicht	_	_
+9-6	874-875	,	_	_
+9-7	876-878	ds	_	_
+9-8	879-880	.	_	_
+9-9	881-885	Bull	_	_
+9-10	886-887	.	_	_
+
+#Text=so rein von Druckfehlern zu halten , dß .
+10-1	888-890	so	_	_
+10-2	891-895	rein	_	_
+10-3	896-899	von	_	_
+10-4	900-912	Druckfehlern	_	_
+10-5	913-915	zu	_	_
+10-6	916-922	halten	_	_
+10-7	923-924	,	_	_
+10-8	925-927	dß	_	_
+10-9	928-929	.	_	_
+
+#Text=nichts vorkomme , wogegen Reclamationen gemacht werden könnten , u. kenne sehr gut die Schwierigkeiten der Correctur , namentlich wenn man sämmtliche Correcturen selbst zu bestreiten hat u. dadurch die zu revidirenden Artikel beinahe auswendig weiß .
+11-1	930-936	nichts	_	_
+11-2	937-945	vorkomme	_	_
+11-3	946-947	,	_	_
+11-4	948-955	wogegen	_	_
+11-5	956-969	Reclamationen	_	_
+11-6	970-977	gemacht	_	_
+11-7	978-984	werden	_	_
+11-8	985-992	könnten	_	_
+11-9	993-994	,	_	_
+11-10	995-997	u.	_	_
+11-11	998-1003	kenne	_	_
+11-12	1004-1008	sehr	_	_
+11-13	1009-1012	gut	_	_
+11-14	1013-1016	die	_	_
+11-15	1017-1032	Schwierigkeiten	_	_
+11-16	1033-1036	der	_	_
+11-17	1037-1046	Correctur	_	_
+11-18	1047-1048	,	_	_
+11-19	1049-1059	namentlich	_	_
+11-20	1060-1064	wenn	_	_
+11-21	1065-1068	man	_	_
+11-22	1069-1079	sämmtliche	_	_
+11-23	1080-1091	Correcturen	_	_
+11-24	1092-1098	selbst	_	_
+11-25	1099-1101	zu	_	_
+11-26	1102-1112	bestreiten	_	_
+11-27	1113-1116	hat	_	_
+11-28	1117-1119	u.	_	_
+11-29	1120-1127	dadurch	_	_
+11-30	1128-1131	die	_	_
+11-31	1132-1134	zu	_	_
+11-32	1135-1147	revidirenden	_	_
+11-33	1148-1155	Artikel	_	_
+11-34	1156-1163	beinahe	_	_
+11-35	1164-1173	auswendig	_	_
+11-36	1174-1178	weiß	_	_
+11-37	1179-1180	.	_	_
+
+#Text=Daher bitte ich auch meine Bemerkungen nur als factische Berichtigungen aufzufassen \; die keinen Tadel involviren sollen .
+12-1	1181-1186	Daher	_	_
+12-2	1187-1192	bitte	_	_
+12-3	1193-1196	ich	_	_
+12-4	1197-1201	auch	_	_
+12-5	1202-1207	meine	_	_
+12-6	1208-1219	Bemerkungen	_	_
+12-7	1220-1223	nur	_	_
+12-8	1224-1227	als	_	_
+12-9	1228-1237	factische	_	_
+12-10	1238-1252	Berichtigungen	_	_
+12-11	1253-1264	aufzufassen	_	_
+12-12	1265-1266	\;	_	_
+12-13	1267-1270	die	_	_
+12-14	1271-1277	keinen	_	_
+12-15	1278-1283	Tadel	_	_
+12-16	1284-1294	involviren	_	_
+12-17	1295-1301	sollen	_	_
+12-18	1302-1303	.	_	_
+
+#Text=Anders war es mit den neulich gedruckten Verbesserungen , die Sachliches betrafen , Wenn Sie die Annalenbände 17 - 20 complet aus Aushängebogen zusammenstellen können , so behalten Sie sie ’ doch lieber gleich für ds , der Universität versprochne Exemplar , rue
+13-1	1304-1310	Anders	_	_
+13-2	1311-1314	war	_	_
+13-3	1315-1317	es	_	_
+13-4	1318-1321	mit	_	_
+13-5	1322-1325	den	_	_
+13-6	1326-1333	neulich	_	_
+13-7	1334-1344	gedruckten	_	_
+13-8	1345-1359	Verbesserungen	_	_
+13-9	1360-1361	,	_	_
+13-10	1362-1365	die	_	_
+13-11	1366-1376	Sachliches	_	_
+13-12	1377-1385	betrafen	_	_
+13-13	1386-1387	,	_	_
+13-14	1388-1392	Wenn	_	_
+13-15	1393-1396	Sie	_	_
+13-16	1397-1400	die	_	_
+13-17	1401-1413	Annalenbände	_	_
+13-18	1414-1416	17	_	_
+13-19	1417-1418	-	_	_
+13-20	1419-1421	20	_	_
+13-21	1422-1429	complet	_	_
+13-22	1430-1433	aus	_	_
+13-23	1434-1447	Aushängebogen	_	_
+13-24	1448-1463	zusammenstellen	_	_
+13-25	1464-1470	können	_	_
+13-26	1471-1472	,	_	_
+13-27	1473-1475	so	_	_
+13-28	1476-1484	behalten	_	_
+13-29	1485-1488	Sie	_	_
+13-30	1489-1492	sie	_	_
+13-31	1493-1494	’	_	_
+13-32	1495-1499	doch	_	_
+13-33	1500-1506	lieber	_	_
+13-34	1507-1513	gleich	_	_
+13-35	1514-1517	für	_	_
+13-36	1518-1520	ds	_	_
+13-37	1521-1522	,	_	_
+13-38	1523-1526	der	_	_
+13-39	1527-1538	Universität	*	ORGmentioned
+13-40	1539-1550	versprochne	_	_
+13-41	1551-1559	Exemplar	_	_
+13-42	1560-1561	,	_	_
+13-43	1562-1565	rue	_	_

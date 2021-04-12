@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 8 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	8	_	_
+1-7	25-26	.	_	_
+
+#Text=August 1866 H g.- 3/9 66 2 .
+2-1	27-33	August	*[3]	DATEletter[3]
+2-2	34-38	1866	*[3]	DATEletter[3]
+2-3	39-40	H	_	_
+2-4	41-44	g.-	_	_
+2-5	45-48	3/9	*[4]	DATErecieved[4]
+2-6	49-51	66	*[4]	DATErecieved[4]
+2-7	52-53	2	_	_
+2-8	54-55	.	_	_
+
+#Text=Cc .
+3-1	56-58	Cc	_	_
+3-2	59-60	.	_	_
+
+#Text=TD Roma li 8 .
+4-1	61-63	TD	_	_
+4-2	64-68	Roma	*	PLACEfrom
+4-3	69-71	li	_	_
+4-4	72-73	8	*[5]	DATEletter[5]
+4-5	74-75	.	*[5]	DATEletter[5]
+
+#Text=Agosto 1866 Lieber Herr Professor Ich muß Ihnen gegenwärtig eine wichtige Mittheilung machen , die ich Ihnen vielleicht schon viel früher hätte machen sollen , liebte ich es nicht wie Bismark mit faits accomplis hervorzutreten .
+5-1	76-82	Agosto	*[5]	DATEletter[5]
+5-2	83-87	1866	*[5]	DATEletter[5]
+5-3	88-94	Lieber	_	_
+5-4	95-99	Herr	_	_
+5-5	100-109	Professor	_	_
+5-6	110-113	Ich	_	_
+5-7	114-117	muß	_	_
+5-8	118-123	Ihnen	_	_
+5-9	124-135	gegenwärtig	_	_
+5-10	136-140	eine	_	_
+5-11	141-149	wichtige	_	_
+5-12	150-161	Mittheilung	_	_
+5-13	162-168	machen	_	_
+5-14	169-170	,	_	_
+5-15	171-174	die	_	_
+5-16	175-178	ich	_	_
+5-17	179-184	Ihnen	_	_
+5-18	185-195	vielleicht	_	_
+5-19	196-201	schon	_	_
+5-20	202-206	viel	_	_
+5-21	207-213	früher	_	_
+5-22	214-219	hätte	_	_
+5-23	220-226	machen	_	_
+5-24	227-233	sollen	_	_
+5-25	234-235	,	_	_
+5-26	236-242	liebte	_	_
+5-27	243-246	ich	_	_
+5-28	247-249	es	_	_
+5-29	250-255	nicht	_	_
+5-30	256-259	wie	_	_
+5-31	260-267	Bismark	*	PERmentioned
+5-32	268-271	mit	_	_
+5-33	272-277	faits	_	_
+5-34	278-287	accomplis	_	_
+5-35	288-302	hervorzutreten	_	_
+5-36	303-304	.	_	_
+
+#Text=Da Sie Hydropath sind , wird Ihnen ja die Überraschung nichts schaden .
+6-1	305-307	Da	_	_
+6-2	308-311	Sie	_	_
+6-3	312-321	Hydropath	_	_
+6-4	322-326	sind	_	_
+6-5	327-328	,	_	_
+6-6	329-333	wird	_	_
+6-7	334-339	Ihnen	_	_
+6-8	340-342	ja	_	_
+6-9	343-346	die	_	_
+6-10	347-359	Überraschung	_	_
+6-11	360-366	nichts	_	_
+6-12	367-374	schaden	_	_
+6-13	375-376	.	_	_
+
+#Text=Wissen Sie denn , ich bin seit April mit Nadejda Schakhowkoy verlobt .
+7-1	377-383	Wissen	_	_
+7-2	384-387	Sie	_	_
+7-3	388-392	denn	_	_
+7-4	393-394	,	_	_
+7-5	395-398	ich	_	_
+7-6	399-402	bin	_	_
+7-7	403-407	seit	_	_
+7-8	408-413	April	*	DATEmentioned
+7-9	414-417	mit	_	_
+7-10	418-425	Nadejda	*[6]	PERmentioned[6]
+7-11	426-437	Schakhowkoy	*[6]	PERmentioned[6]
+7-12	438-445	verlobt	_	_
+7-13	446-447	.	_	_
+
+#Text=Unsere Hochzeit sollte nächsten Sommer in Deutschland Statt finden .
+8-1	448-454	Unsere	_	_
+8-2	455-463	Hochzeit	_	_
+8-3	464-470	sollte	_	_
+8-4	471-479	nächsten	_	_
+8-5	480-486	Sommer	_	_
+8-6	487-489	in	_	_
+8-7	490-501	Deutschland	*	PLACEmentioned
+8-8	502-507	Statt	_	_
+8-9	508-514	finden	_	_
+8-10	515-516	.	_	_
+
+#Text=Doch haben sich die Verhältnisse geändert , indem der Vater meiner Braut als Gouverneur nach Tiflis muß .
+9-1	517-521	Doch	_	_
+9-2	522-527	haben	_	_
+9-3	528-532	sich	_	_
+9-4	533-536	die	_	_
+9-5	537-549	Verhältnisse	_	_
+9-6	550-558	geändert	_	_
+9-7	559-560	,	_	_
+9-8	561-566	indem	_	_
+9-9	567-570	der	_	_
+9-10	571-576	Vater	_	_
+9-11	577-583	meiner	_	_
+9-12	584-589	Braut	_	_
+9-13	590-593	als	_	_
+9-14	594-604	Gouverneur	_	_
+9-15	605-609	nach	_	_
+9-16	610-616	Tiflis	*	PLACEmentioned
+9-17	617-620	muß	_	_
+9-18	621-622	.	_	_
+
+#Text=Er hat daher beschlossen , Alles vorher in Ordnung zu bringen und die Hochzeit bereits in diesen JahreStatt finden zu lassen .
+10-1	623-625	Er	_	_
+10-2	626-629	hat	_	_
+10-3	630-635	daher	_	_
+10-4	636-647	beschlossen	_	_
+10-5	648-649	,	_	_
+10-6	650-655	Alles	_	_
+10-7	656-662	vorher	_	_
+10-8	663-665	in	_	_
+10-9	666-673	Ordnung	_	_
+10-10	674-676	zu	_	_
+10-11	677-684	bringen	_	_
+10-12	685-688	und	_	_
+10-13	689-692	die	_	_
+10-14	693-701	Hochzeit	_	_
+10-15	702-709	bereits	_	_
+10-16	710-712	in	_	_
+10-17	713-719	diesen	_	_
+10-18	720-730	JahreStatt	_	_
+10-19	731-737	finden	_	_
+10-20	738-740	zu	_	_
+10-21	741-747	lassen	_	_
+10-22	748-749	.	_	_
+
+#Text=Er will mit seiner Tochter Ende August oder Anfang September nach Florenz kommen , wo die einzige griechische Kirche in Italien ist , und dort sollen wir nach griechischem und protestantischem Ritus getraut werden .
+11-1	750-752	Er	_	_
+11-2	753-757	will	_	_
+11-3	758-761	mit	_	_
+11-4	762-768	seiner	_	_
+11-5	769-776	Tochter	_	_
+11-6	777-781	Ende	_	_
+11-7	782-788	August	*	DATEmentioned
+11-8	789-793	oder	_	_
+11-9	794-800	Anfang	_	_
+11-10	801-810	September	*	DATEmentioned
+11-11	811-815	nach	_	_
+11-12	816-823	Florenz	*	PLACEmentioned
+11-13	824-830	kommen	_	_
+11-14	831-832	,	_	_
+11-15	833-835	wo	_	_
+11-16	836-839	die	_	_
+11-17	840-847	einzige	_	_
+11-18	848-859	griechische	_	_
+11-19	860-866	Kirche	_	_
+11-20	867-869	in	_	_
+11-21	870-877	Italien	*	PLACEmentioned
+11-22	878-881	ist	_	_
+11-23	882-883	,	_	_
+11-24	884-887	und	_	_
+11-25	888-892	dort	_	_
+11-26	893-899	sollen	_	_
+11-27	900-903	wir	_	_
+11-28	904-908	nach	_	_
+11-29	909-921	griechischem	_	_
+11-30	922-925	und	_	_
+11-31	926-942	protestantischem	_	_
+11-32	943-948	Ritus	_	_
+11-33	949-956	getraut	_	_
+11-34	957-963	werden	_	_
+11-35	964-965	.	_	_
+
+#Text=Da die Sachen nun einmal so liegen , kann ich nicht umhin , möglicher Weise einige Zeit vor Ihrer Ankunft in Rom das Institut zu verlassen , und ich bitte Sie , mir umgehend zu schreiben , daß Sie damit einverstanden sind .
+12-1	966-968	Da	_	_
+12-2	969-972	die	_	_
+12-3	973-979	Sachen	_	_
+12-4	980-983	nun	_	_
+12-5	984-990	einmal	_	_
+12-6	991-993	so	_	_
+12-7	994-1000	liegen	_	_
+12-8	1001-1002	,	_	_
+12-9	1003-1007	kann	_	_
+12-10	1008-1011	ich	_	_
+12-11	1012-1017	nicht	_	_
+12-12	1018-1023	umhin	_	_
+12-13	1024-1025	,	_	_
+12-14	1026-1035	möglicher	_	_
+12-15	1036-1041	Weise	_	_
+12-16	1042-1048	einige	_	_
+12-17	1049-1053	Zeit	_	_
+12-18	1054-1057	vor	_	_
+12-19	1058-1063	Ihrer	_	_
+12-20	1064-1071	Ankunft	_	_
+12-21	1072-1074	in	_	_
+12-22	1075-1078	Rom	*	PLACEmentioned
+12-23	1079-1082	das	_	_
+12-24	1083-1091	Institut	*	ORGmentioned
+12-25	1092-1094	zu	_	_
+12-26	1095-1104	verlassen	_	_
+12-27	1105-1106	,	_	_
+12-28	1107-1110	und	_	_
+12-29	1111-1114	ich	_	_
+12-30	1115-1120	bitte	_	_
+12-31	1121-1124	Sie	_	_
+12-32	1125-1126	,	_	_
+12-33	1127-1130	mir	_	_
+12-34	1131-1139	umgehend	_	_
+12-35	1140-1142	zu	_	_
+12-36	1143-1152	schreiben	_	_
+12-37	1153-1154	,	_	_
+12-38	1155-1158	daß	_	_
+12-39	1159-1162	Sie	_	_
+12-40	1163-1168	damit	_	_
+12-41	1169-1182	einverstanden	_	_
+12-42	1183-1187	sind	_	_
+12-43	1188-1189	.	_	_
+
+#Text=Früher als den 20 .
+13-1	1190-1196	Früher	_	_
+13-2	1197-1200	als	_	_
+13-3	1201-1204	den	_	_
+13-4	1205-1207	20	*[7]	DATEmentioned[7]
+13-5	1208-1209	.	*[7]	DATEmentioned[7]
+
+#Text=August wird es sicherlich
+14-1	1210-1216	August	*[7]	DATEmentioned[7]
+14-2	1217-1221	wird	_	_
+14-3	1222-1224	es	_	_
+14-4	1225-1235	sicherlich	_	_

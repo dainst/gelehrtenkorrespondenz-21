@@ -1,0 +1,105 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia , 12. Juli 1863 -5minciai nel Gennaijo , andö in fumo : e pertanto faccia da se , che fara meglio .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Perugia	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	12.	*[5]	DATEletter[5]
+1-7	30-34	Juli	*[5]	DATEletter[5]
+1-8	35-39	1863	*[5]	DATEletter[5]
+1-9	40-49	-5minciai	_	_
+1-10	50-53	nel	_	_
+1-11	54-62	Gennaijo	*	DATEmentioned
+1-12	63-64	,	_	_
+1-13	65-69	andö	_	_
+1-14	70-72	in	_	_
+1-15	73-77	fumo	_	_
+1-16	78-79	:	_	_
+1-17	80-81	e	_	_
+1-18	82-90	pertanto	_	_
+1-19	91-97	faccia	_	_
+1-20	98-100	da	_	_
+1-21	101-103	se	_	_
+1-22	104-105	,	_	_
+1-23	106-109	che	_	_
+1-24	110-114	fara	_	_
+1-25	115-121	meglio	_	_
+1-26	122-123	.	_	_
+
+#Text=Er scheint sehr von nicht wissenschaftlichen Geschäften in Anspruch genommen zu sein .
+2-1	124-126	Er	_	_
+2-2	127-134	scheint	_	_
+2-3	135-139	sehr	_	_
+2-4	140-143	von	_	_
+2-5	144-149	nicht	_	_
+2-6	150-168	wissenschaftlichen	_	_
+2-7	169-179	Geschäften	_	_
+2-8	180-182	in	_	_
+2-9	183-191	Anspruch	_	_
+2-10	192-200	genommen	_	_
+2-11	201-203	zu	_	_
+2-12	204-208	sein	_	_
+2-13	209-210	.	_	_
+
+#Text=Habe ich Ihnen in nächster Zeit zu schreiben , so addressire ich nach Berlin , wo Sie doch wohl Ihre Addresse lassen .
+3-1	211-215	Habe	_	_
+3-2	216-219	ich	_	_
+3-3	220-225	Ihnen	_	_
+3-4	226-228	in	_	_
+3-5	229-237	nächster	_	_
+3-6	238-242	Zeit	_	_
+3-7	243-245	zu	_	_
+3-8	246-255	schreiben	_	_
+3-9	256-257	,	_	_
+3-10	258-260	so	_	_
+3-11	261-271	addressire	_	_
+3-12	272-275	ich	_	_
+3-13	276-280	nach	_	_
+3-14	281-287	Berlin	*	PLACEmentioned
+3-15	288-289	,	_	_
+3-16	290-292	wo	_	_
+3-17	293-296	Sie	_	_
+3-18	297-301	doch	_	_
+3-19	302-306	wohl	_	_
+3-20	307-311	Ihre	_	_
+3-21	312-320	Addresse	_	_
+3-22	321-327	lassen	_	_
+3-23	328-329	.	_	_
+
+#Text=Vom „ ten August an etwa an Ritschl ?
+4-1	330-333	Vom	_	_
+4-2	334-335	„	_	_
+4-3	336-339	ten	*[6]	DATEmentioned[6]
+4-4	340-346	August	*[6]	DATEmentioned[6]
+4-5	347-349	an	_	_
+4-6	350-354	etwa	_	_
+4-7	355-357	an	_	_
+4-8	358-365	Ritschl	*	PERmentioned
+4-9	366-367	?	_	_
+
+#Text=Meine Frau und Bartoccini 's grüßen bestens .
+5-1	368-373	Meine	*[7]	PERmentioned[7]
+5-2	374-378	Frau	*[7]	PERmentioned[7]
+5-3	379-382	und	_	_
+5-4	383-393	Bartoccini	*[9]	PERmentioned[9]
+5-5	394-396	's	*[9]	PERmentioned[9]
+5-6	397-403	grüßen	_	_
+5-7	404-411	bestens	_	_
+5-8	412-413	.	_	_
+
+#Text=Ihr HBrunn .
+6-1	414-417	Ihr	_	_
+6-2	418-424	HBrunn	*	PERauthor
+6-3	425-426	.	_	_
+
+#Text=Perugia , 12 Juli 1863 .
+7-1	427-434	Perugia	*	PLACEfrom
+7-2	435-436	,	_	_
+7-3	437-439	12	*[8]	DATEletter[8]
+7-4	440-444	Juli	*[8]	DATEletter[8]
+7-5	445-449	1863	*[8]	DATEletter[8]
+7-6	450-451	.	_	_

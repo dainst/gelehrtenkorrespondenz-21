@@ -1,0 +1,112 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27. Februar 1838 mag wol in Rom mit Rechnungen erwartet werden .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	27.	*[4]	DATEletter[4]
+1-7	30-37	Februar	*[4]	DATEletter[4]
+1-8	38-42	1838	*[4]	DATEletter[4]
+1-9	43-46	mag	_	_
+1-10	47-50	wol	_	_
+1-11	51-53	in	_	_
+1-12	54-57	Rom	*	PLACEmentioned
+1-13	58-61	mit	_	_
+1-14	62-72	Rechnungen	_	_
+1-15	73-81	erwartet	_	_
+1-16	82-88	werden	_	_
+1-17	89-90	.	_	_
+
+#Text=Müllers Berufung nach Berlin soll dem König vorliegen oder allernächst zugedacht sein .
+2-1	91-98	Müllers	*	PERmentioned
+2-2	99-107	Berufung	_	_
+2-3	108-112	nach	_	_
+2-4	113-119	Berlin	*	PLACEmentioned
+2-5	120-124	soll	_	_
+2-6	125-128	dem	_	_
+2-7	129-134	König	*	PERmentioned
+2-8	135-144	vorliegen	_	_
+2-9	145-149	oder	_	_
+2-10	150-161	allernächst	_	_
+2-11	162-171	zugedacht	_	_
+2-12	172-176	sein	_	_
+2-13	177-178	.	_	_
+
+#Text=- Olfers hat neue Hoffnung zum Museun .
+3-1	179-180	-	_	_
+3-2	181-187	Olfers	*	PERmentioned
+3-3	188-191	hat	_	_
+3-4	192-196	neue	_	_
+3-5	197-205	Hoffnung	_	_
+3-6	206-209	zum	_	_
+3-7	210-216	Museun	*	ORGmentioned
+3-8	217-218	.	_	_
+
+#Text=Sehr wohl hat mir Ihre Erklärung des Gran vaso di Ruvo gefallen , die ich neulich las \; die Figur vor der Minerva diga , megr bei Farbe , war wol nicht.Merker , sondern ein auf seiner Laute gestützter Herkules .
+4-1	219-223	Sehr	_	_
+4-2	224-228	wohl	_	_
+4-3	229-232	hat	_	_
+4-4	233-236	mir	_	_
+4-5	237-241	Ihre	_	_
+4-6	242-251	Erklärung	_	_
+4-7	252-255	des	_	_
+4-8	256-260	Gran	*[11]	OBJ[11]
+4-9	261-265	vaso	*[11]	OBJ[11]
+4-10	266-268	di	*[11]	OBJ[11]
+4-11	269-273	Ruvo	*[11]	OBJ[11]
+4-12	274-282	gefallen	_	_
+4-13	283-284	,	_	_
+4-14	285-288	die	_	_
+4-15	289-292	ich	_	_
+4-16	293-300	neulich	_	_
+4-17	301-304	las	_	_
+4-18	305-306	\;	_	_
+4-19	307-310	die	_	_
+4-20	311-316	Figur	_	_
+4-21	317-320	vor	_	_
+4-22	321-324	der	_	_
+4-23	325-332	Minerva	_	_
+4-24	333-337	diga	_	_
+4-25	338-339	,	_	_
+4-26	340-344	megr	_	_
+4-27	345-348	bei	_	_
+4-28	349-354	Farbe	_	_
+4-29	355-356	,	_	_
+4-30	357-360	war	_	_
+4-31	361-364	wol	_	_
+4-32	365-377	nicht.Merker	_	_
+4-33	378-379	,	_	_
+4-34	380-387	sondern	_	_
+4-35	388-391	ein	_	_
+4-36	392-395	auf	_	_
+4-37	396-402	seiner	_	_
+4-38	403-408	Laute	_	_
+4-39	409-419	gestützter	_	_
+4-40	420-428	Herkules	_	_
+4-41	429-430	.	_	_
+
+#Text=In Wagen kann er ohnehin schwer unterkomnmen .
+5-1	431-433	In	_	_
+5-2	434-439	Wagen	*	PERmentioned
+5-3	440-444	kann	_	_
+5-4	445-447	er	_	_
+5-5	448-455	ohnehin	_	_
+5-6	456-462	schwer	_	_
+5-7	463-475	unterkomnmen	_	_
+5-8	476-477	.	_	_
+
+#Text=Was wird aus meinem Ex , des Conversations Lexikon ?
+6-1	478-481	Was	_	_
+6-2	482-486	wird	_	_
+6-3	487-490	aus	_	_
+6-4	491-497	meinem	_	_
+6-5	498-500	Ex	_	_
+6-6	501-502	,	_	_
+6-7	503-506	des	_	_
+6-8	507-520	Conversations	_	_
+6-9	521-528	Lexikon	_	_
+6-10	529-530	?	_	_

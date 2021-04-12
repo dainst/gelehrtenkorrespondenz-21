@@ -1,0 +1,150 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 21. April 1846 an die Akademie unterblieb gestern aus Zeitmangel und kann nun erst ein Monat später erfolgen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	21.	*[1]	DATEletter[1]
+1-7	30-35	April	*[1]	DATEletter[1]
+1-8	36-40	1846	*[1]	DATEletter[1]
+1-9	41-43	an	_	_
+1-10	44-47	die	_	_
+1-11	48-56	Akademie	*	ORGmentioned
+1-12	57-67	unterblieb	_	_
+1-13	68-75	gestern	_	_
+1-14	76-79	aus	_	_
+1-15	80-90	Zeitmangel	_	_
+1-16	91-94	und	_	_
+1-17	95-99	kann	_	_
+1-18	100-103	nun	_	_
+1-19	104-108	erst	_	_
+1-20	109-112	ein	_	_
+1-21	113-118	Monat	_	_
+1-22	119-125	später	_	_
+1-23	126-134	erfolgen	_	_
+1-24	135-136	.	_	_
+
+#Text=Lepsius sah ich noch nicht \; er ist in Naumburg mit der Braut .
+2-1	137-144	Lepsius	*	PERmentioned
+2-2	145-148	sah	_	_
+2-3	149-152	ich	_	_
+2-4	153-157	noch	_	_
+2-5	158-163	nicht	_	_
+2-6	164-165	\;	_	_
+2-7	166-168	er	_	_
+2-8	169-172	ist	_	_
+2-9	173-175	in	_	_
+2-10	176-184	Naumburg	*	PLACEmentioned
+2-11	185-188	mit	_	_
+2-12	189-192	der	_	_
+2-13	193-198	Braut	_	_
+2-14	199-200	.	_	_
+
+#Text=Lassen Sie mich bald vom Abgang meiner Kiste hören .
+3-1	201-207	Lassen	_	_
+3-2	208-211	Sie	_	_
+3-3	212-216	mich	_	_
+3-4	217-221	bald	_	_
+3-5	222-225	vom	_	_
+3-6	226-232	Abgang	_	_
+3-7	233-239	meiner	_	_
+3-8	240-245	Kiste	_	_
+3-9	246-251	hören	_	_
+3-10	252-253	.	_	_
+
+#Text=Böckh geht nun an die neue Ausgabe seiner Staatshaushaltung .
+4-1	254-259	Böckh	*	PERmentioned
+4-2	260-264	geht	_	_
+4-3	265-268	nun	_	_
+4-4	269-271	an	_	_
+4-5	272-275	die	_	_
+4-6	276-280	neue	_	_
+4-7	281-288	Ausgabe	_	_
+4-8	289-295	seiner	_	_
+4-9	296-313	Staatshaushaltung	_	_
+4-10	314-315	.	_	_
+
+#Text=Die Regionarien von Preller sind heraus \; Text und allerlei Commentar .
+5-1	316-319	Die	_	_
+5-2	320-331	Regionarien	_	_
+5-3	332-335	von	_	_
+5-4	336-343	Preller	*	PERmentioned
+5-5	344-348	sind	_	_
+5-6	349-355	heraus	_	_
+5-7	356-357	\;	_	_
+5-8	358-362	Text	_	_
+5-9	363-366	und	_	_
+5-10	367-375	allerlei	_	_
+5-11	376-385	Commentar	_	_
+5-12	386-387	.	_	_
+
+#Text=Viel Herzliches ans Kapitol , dem nun Usedom nächstertags angehören muß , und an sonstige römische Freunde Gerhard Heraus ist auch das Monumentum Ancyranum von Franz ( der Orestie zu geschweigen ) mit Commentar von Zumpt jun .
+6-1	388-392	Viel	_	_
+6-2	393-403	Herzliches	_	_
+6-3	404-407	ans	_	_
+6-4	408-415	Kapitol	*	PLACEmentioned
+6-5	416-417	,	_	_
+6-6	418-421	dem	_	_
+6-7	422-425	nun	_	_
+6-8	426-432	Usedom	*	PERmentioned
+6-9	433-445	nächstertags	_	_
+6-10	446-455	angehören	_	_
+6-11	456-459	muß	_	_
+6-12	460-461	,	_	_
+6-13	462-465	und	_	_
+6-14	466-468	an	_	_
+6-15	469-477	sonstige	_	_
+6-16	478-486	römische	_	_
+6-17	487-494	Freunde	_	_
+6-18	495-502	Gerhard	*	PERauthor
+6-19	503-509	Heraus	_	_
+6-20	510-513	ist	_	_
+6-21	514-518	auch	_	_
+6-22	519-522	das	_	_
+6-23	523-533	Monumentum	_	_
+6-24	534-543	Ancyranum	_	_
+6-25	544-547	von	_	_
+6-26	548-553	Franz	*	PERmentioned
+6-27	554-555	(	_	_
+6-28	556-559	der	_	_
+6-29	560-567	Orestie	_	_
+6-30	568-570	zu	_	_
+6-31	571-582	geschweigen	_	_
+6-32	583-584	)	_	_
+6-33	585-588	mit	_	_
+6-34	589-598	Commentar	_	_
+6-35	599-602	von	_	_
+6-36	603-608	Zumpt	*	PERmentioned
+6-37	609-612	jun	_	_
+6-38	613-614	.	_	_
+
+#Text=( 19/2 rt ) Quer am Rande Da Kleines am leichtesten sich vergißt so bitte ich Sie die ........ und Ganymedes-Scherben nicht zu vergessen .
+7-1	615-616	(	_	_
+7-2	617-621	19/2	_	_
+7-3	622-624	rt	_	_
+7-4	625-626	)	_	_
+7-5	627-631	Quer	_	_
+7-6	632-634	am	_	_
+7-7	635-640	Rande	_	_
+7-8	641-643	Da	_	_
+7-9	644-651	Kleines	_	_
+7-10	652-654	am	_	_
+7-11	655-666	leichtesten	_	_
+7-12	667-671	sich	_	_
+7-13	672-679	vergißt	_	_
+7-14	680-682	so	_	_
+7-15	683-688	bitte	_	_
+7-16	689-692	ich	_	_
+7-17	693-696	Sie	_	_
+7-18	697-700	die	_	_
+7-19	701-709	........	_	_
+7-20	710-713	und	_	_
+7-21	714-732	Ganymedes-Scherben	*	PERmentioned
+7-22	733-738	nicht	_	_
+7-23	739-741	zu	_	_
+7-24	742-751	vergessen	_	_
+7-25	752-753	.	_	_

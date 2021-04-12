@@ -1,0 +1,162 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=226 Gerhard an Henzen 2Y/X/1850 auch in Edinburgh Schulmäcenversammlung sich durch einen Toast ausgezeichnet .
+1-1	0-3	226	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-31	2Y/X/1850	*	DATEletter
+1-6	32-36	auch	_	_
+1-7	37-39	in	_	_
+1-8	40-49	Edinburgh	*	PERmentioned
+1-9	50-71	Schulmäcenversammlung	_	_
+1-10	72-76	sich	_	_
+1-11	77-82	durch	_	_
+1-12	83-88	einen	_	_
+1-13	89-94	Toast	_	_
+1-14	95-108	ausgezeichnet	_	_
+1-15	109-110	.	_	_
+
+#Text=Bethmann reist in wenigen Wochen nach Ravenna und Rom ab .
+2-1	111-119	Bethmann	*	PERmentioned
+2-2	120-125	reist	_	_
+2-3	126-128	in	_	_
+2-4	129-136	wenigen	_	_
+2-5	137-143	Wochen	_	_
+2-6	144-148	nach	_	_
+2-7	149-156	Ravenna	*	PLACEmentioned
+2-8	157-160	und	_	_
+2-9	161-164	Rom	*	PLACEmentioned
+2-10	165-167	ab	_	_
+2-11	168-169	.	_	_
+
+#Text=Anbei ein Neigebaurianum den Brief zu füttern , er wird bald wieder bei Ihnen sein ( Anz : mit einer Zeichnung und Inschrift I ! )
+3-1	170-175	Anbei	_	_
+3-2	176-179	ein	_	_
+3-3	180-194	Neigebaurianum	_	_
+3-4	195-198	den	_	_
+3-5	199-204	Brief	_	_
+3-6	205-207	zu	_	_
+3-7	208-215	füttern	_	_
+3-8	216-217	,	_	_
+3-9	218-220	er	_	_
+3-10	221-225	wird	_	_
+3-11	226-230	bald	_	_
+3-12	231-237	wieder	_	_
+3-13	238-241	bei	_	_
+3-14	242-247	Ihnen	_	_
+3-15	248-252	sein	_	_
+3-16	253-254	(	_	_
+3-17	255-258	Anz	_	_
+3-18	259-260	:	_	_
+3-19	261-264	mit	_	_
+3-20	265-270	einer	_	_
+3-21	271-280	Zeichnung	_	_
+3-22	281-284	und	_	_
+3-23	285-294	Inschrift	*	OBJ
+3-24	295-296	I	_	_
+3-25	297-298	!	_	_
+3-26	299-300	)	_	_
+
+#Text=nd Mit viel Herzlichem von meiner Frau für die Ihrige , und besten Grüßen an Erauns ek .
+4-1	301-303	nd	_	_
+4-2	304-307	Mit	_	_
+4-3	308-312	viel	_	_
+4-4	313-323	Herzlichem	_	_
+4-5	324-327	von	_	_
+4-6	328-334	meiner	_	_
+4-7	335-339	Frau	_	_
+4-8	340-343	für	_	_
+4-9	344-347	die	_	_
+4-10	348-354	Ihrige	_	_
+4-11	355-356	,	_	_
+4-12	357-360	und	_	_
+4-13	361-367	besten	_	_
+4-14	368-374	Grüßen	_	_
+4-15	375-377	an	_	_
+4-16	378-384	Erauns	*	PERmentioned
+4-17	385-387	ek	_	_
+4-18	388-389	.	_	_
+
+#Text=der Ihre Gerhard Morgen Savigny 's Dr. Jubiläum : J. Grimm und Nerkel haben Geleg .
+5-1	390-393	der	_	_
+5-2	394-398	Ihre	_	_
+5-3	399-406	Gerhard	*	PERauthor
+5-4	407-413	Morgen	_	_
+5-5	414-421	Savigny	*[4]	PERmentioned[4]
+5-6	422-424	's	*[4]	PERmentioned[4]
+5-7	425-428	Dr.	_	_
+5-8	429-437	Jubiläum	_	_
+5-9	438-439	:	_	_
+5-10	440-442	J.	*[3]	PERmentioned[3]
+5-11	443-448	Grimm	*[3]	PERmentioned[3]
+5-12	449-452	und	_	_
+5-13	453-459	Nerkel	*	PERmentioned
+5-14	460-465	haben	_	_
+5-15	466-471	Geleg	_	_
+5-16	472-473	.	_	_
+
+#Text=schriften dazu gedruckt .
+6-1	474-483	schriften	_	_
+6-2	484-488	dazu	_	_
+6-3	489-497	gedruckt	_	_
+6-4	498-499	.	_	_
+
+#Text=Platner 's sehr rüstiger Bruder ist dazu aus Narburg hier .
+7-1	500-507	Platner	*[5]	PERmentioned[5]
+7-2	508-510	's	*[5]	PERmentioned[5]
+7-3	511-515	sehr	_	_
+7-4	516-524	rüstiger	_	_
+7-5	525-531	Bruder	_	_
+7-6	532-535	ist	_	_
+7-7	536-540	dazu	_	_
+7-8	541-544	aus	_	_
+7-9	545-552	Narburg	*	PLACEmentioned
+7-10	553-557	hier	_	_
+7-11	558-559	.	_	_
+
+#Text=Eine Hauptsache vergaß ich : Ihnen für Ihre Clusinischen Bemühungen bestens zu danken .
+8-1	560-564	Eine	_	_
+8-2	565-575	Hauptsache	_	_
+8-3	576-582	vergaß	_	_
+8-4	583-586	ich	_	_
+8-5	587-588	:	_	_
+8-6	589-594	Ihnen	_	_
+8-7	595-598	für	_	_
+8-8	599-603	Ihre	_	_
+8-9	604-616	Clusinischen	_	_
+8-10	617-627	Bemühungen	_	_
+8-11	628-635	bestens	_	_
+8-12	636-638	zu	_	_
+8-13	639-645	danken	_	_
+8-14	646-647	.	_	_
+
+#Text=Die Vase kann mir nicht dienen \; zahlt er die 5 Scudi , so stellen Sie ihm als Quittung das Zeugniß eines gran galantuomo aus .
+9-1	648-651	Die	_	_
+9-2	652-656	Vase	*	OBJ
+9-3	657-661	kann	_	_
+9-4	662-665	mir	_	_
+9-5	666-671	nicht	_	_
+9-6	672-678	dienen	_	_
+9-7	679-680	\;	_	_
+9-8	681-686	zahlt	_	_
+9-9	687-689	er	_	_
+9-10	690-693	die	_	_
+9-11	694-695	5	_	_
+9-12	696-701	Scudi	_	_
+9-13	702-703	,	_	_
+9-14	704-706	so	_	_
+9-15	707-714	stellen	_	_
+9-16	715-718	Sie	_	_
+9-17	719-722	ihm	_	_
+9-18	723-726	als	_	_
+9-19	727-735	Quittung	_	_
+9-20	736-739	das	_	_
+9-21	740-747	Zeugniß	_	_
+9-22	748-753	eines	_	_
+9-23	754-758	gran	_	_
+9-24	759-769	galantuomo	_	_
+9-25	770-773	aus	_	_
+9-26	774-775	.	_	_

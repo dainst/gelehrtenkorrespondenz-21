@@ -1,0 +1,120 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=We Mommsen an Brunn Berlin , 13. Mai 1882 r . 1. Juni 1882 Lieber Freunäl Du wirst gewiß Dich gern anschließen und auch dazu thun , daß noch Andre dort dies thun .
+1-1	0-2	We	_	_
+1-2	3-10	Mommsen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Brunn	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	13.	*[1]	DATEletter[1]
+1-8	33-36	Mai	*[1]	DATEletter[1]
+1-9	37-41	1882	*[1]	DATEletter[1]
+1-10	42-43	r	_	_
+1-11	44-45	.	_	_
+1-12	46-48	1.	*[2]	DATEanswered[2]
+1-13	49-53	Juni	*[2]	DATEanswered[2]
+1-14	54-58	1882	*[2]	DATEanswered[2]
+1-15	59-65	Lieber	_	_
+1-16	66-73	Freunäl	_	_
+1-17	74-76	Du	_	_
+1-18	77-82	wirst	_	_
+1-19	83-88	gewiß	_	_
+1-20	89-93	Dich	_	_
+1-21	94-98	gern	_	_
+1-22	99-110	anschließen	_	_
+1-23	111-114	und	_	_
+1-24	115-119	auch	_	_
+1-25	120-124	dazu	_	_
+1-26	125-129	thun	_	_
+1-27	130-131	,	_	_
+1-28	132-135	daß	_	_
+1-29	136-140	noch	_	_
+1-30	141-146	Andre	_	_
+1-31	147-151	dort	_	_
+1-32	152-156	dies	_	_
+1-33	157-161	thun	_	_
+1-34	162-163	.	_	_
+
+#Text=Gern ersparte ich Dir die Reise , weiß aber keine recht genügende zweite Adresse \; Du giebst vielleicht das zweite Exemplar an jemand der mehr herumläuferisch angethan ist als Du .
+2-1	164-168	Gern	_	_
+2-2	169-177	ersparte	_	_
+2-3	178-181	ich	_	_
+2-4	182-185	Dir	_	_
+2-5	186-189	die	_	_
+2-6	190-195	Reise	_	_
+2-7	196-197	,	_	_
+2-8	198-202	weiß	_	_
+2-9	203-207	aber	_	_
+2-10	208-213	keine	_	_
+2-11	214-219	recht	_	_
+2-12	220-229	genügende	_	_
+2-13	230-236	zweite	_	_
+2-14	237-244	Adresse	_	_
+2-15	245-246	\;	_	_
+2-16	247-249	Du	_	_
+2-17	250-256	giebst	_	_
+2-18	257-267	vielleicht	_	_
+2-19	268-271	das	_	_
+2-20	272-278	zweite	_	_
+2-21	279-287	Exemplar	_	_
+2-22	288-290	an	_	_
+2-23	291-297	jemand	_	_
+2-24	298-301	der	_	_
+2-25	302-306	mehr	_	_
+2-26	307-322	herumläuferisch	_	_
+2-27	323-331	angethan	_	_
+2-28	332-335	ist	_	_
+2-29	336-339	als	_	_
+2-30	340-342	Du	_	_
+2-31	343-344	.	_	_
+
+#Text=Mein zweiter Sohn Karl stuidrt jetzt dort und wird sich Dir vorgestellt haben .
+3-1	345-349	Mein	_	_
+3-2	350-357	zweiter	_	_
+3-3	358-362	Sohn	_	_
+3-4	363-367	Karl	*	PERmentioned
+3-5	368-375	stuidrt	_	_
+3-6	376-381	jetzt	_	_
+3-7	382-386	dort	_	_
+3-8	387-390	und	_	_
+3-9	391-395	wird	_	_
+3-10	396-400	sich	_	_
+3-11	401-404	Dir	_	_
+3-12	405-416	vorgestellt	_	_
+3-13	417-422	haben	_	_
+3-14	423-424	.	_	_
+
+#Text=Er ist Jurist , hat aber Sinn für Kunst , und ich wünsche sehr , daß er dort auch einiges Verständnis sich erwerbe , Dein M. B . 13/5 82
+4-1	425-427	Er	_	_
+4-2	428-431	ist	_	_
+4-3	432-438	Jurist	_	_
+4-4	439-440	,	_	_
+4-5	441-444	hat	_	_
+4-6	445-449	aber	_	_
+4-7	450-454	Sinn	_	_
+4-8	455-458	für	_	_
+4-9	459-464	Kunst	_	_
+4-10	465-466	,	_	_
+4-11	467-470	und	_	_
+4-12	471-474	ich	_	_
+4-13	475-482	wünsche	_	_
+4-14	483-487	sehr	_	_
+4-15	488-489	,	_	_
+4-16	490-493	daß	_	_
+4-17	494-496	er	_	_
+4-18	497-501	dort	_	_
+4-19	502-506	auch	_	_
+4-20	507-514	einiges	_	_
+4-21	515-526	Verständnis	_	_
+4-22	527-531	sich	_	_
+4-23	532-539	erwerbe	_	_
+4-24	540-541	,	_	_
+4-25	542-546	Dein	_	_
+4-26	547-549	M.	*	PERauthor
+4-27	550-551	B	*[4]	PLACEfrom[4]
+4-28	552-553	.	*[4]	PLACEfrom[4]
+4-29	554-558	13/5	*[3]	DATEletter[3]
+4-30	559-561	82	*[3]	DATEletter[3]

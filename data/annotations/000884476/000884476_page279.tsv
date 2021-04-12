@@ -1,0 +1,285 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin 24/X1/1835 Sie unmöglich sobald nicht sagen an welch Befiördenr geschrieben worden ist .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-34	24/X1/1835	*	DATEletter
+1-6	35-38	Sie	_	_
+1-7	39-48	unmöglich	_	_
+1-8	49-55	sobald	_	_
+1-9	56-61	nicht	_	_
+1-10	62-67	sagen	_	_
+1-11	68-70	an	_	_
+1-12	71-76	welch	_	_
+1-13	77-87	Befiördenr	_	_
+1-14	88-99	geschrieben	_	_
+1-15	100-106	worden	_	_
+1-16	107-110	ist	_	_
+1-17	111-112	.	_	_
+
+#Text=Wahrscheinlich Wolff an Sebadow , dann ist die Sache langwierig .
+2-1	113-127	Wahrscheinlich	_	_
+2-2	128-133	Wolff	*	PERmentioned
+2-3	134-136	an	_	_
+2-4	137-144	Sebadow	*	PERmentioned
+2-5	145-146	,	_	_
+2-6	147-151	dann	_	_
+2-7	152-155	ist	_	_
+2-8	156-159	die	_	_
+2-9	160-165	Sache	_	_
+2-10	166-176	langwierig	_	_
+2-11	177-178	.	_	_
+
+#Text=Da es aber schwer ist irgendwo sie kürzer abzumachen , so würde ich rathen mit dem Fer mon \_die Sache so zu behandeln daß er für längeres Warten etwas mehr bekommt .
+3-1	179-181	Da	_	_
+3-2	182-184	es	_	_
+3-3	185-189	aber	_	_
+3-4	190-196	schwer	_	_
+3-5	197-200	ist	_	_
+3-6	201-209	irgendwo	_	_
+3-7	210-213	sie	_	_
+3-8	214-220	kürzer	_	_
+3-9	221-231	abzumachen	_	_
+3-10	232-233	,	_	_
+3-11	234-236	so	_	_
+3-12	237-242	würde	_	_
+3-13	243-246	ich	_	_
+3-14	247-253	rathen	_	_
+3-15	254-257	mit	_	_
+3-16	258-261	dem	_	_
+3-17	262-265	Fer	_	_
+3-18	266-269	mon	_	_
+3-19	270-274	\_die	_	_
+3-20	275-280	Sache	_	_
+3-21	281-283	so	_	_
+3-22	284-286	zu	_	_
+3-23	287-296	behandeln	_	_
+3-24	297-300	daß	_	_
+3-25	301-303	er	_	_
+3-26	304-307	für	_	_
+3-27	308-316	längeres	_	_
+3-28	317-323	Warten	_	_
+3-29	324-329	etwas	_	_
+3-30	330-334	mehr	_	_
+3-31	335-342	bekommt	_	_
+3-32	343-344	.	_	_
+
+#Text=Ist die Sache durch Wolff eingeleitet , so ist es vermuthlich genügend , und mische ich mich dann um so weniger unberufen hinein .
+4-1	345-348	Ist	_	_
+4-2	349-352	die	_	_
+4-3	353-358	Sache	_	_
+4-4	359-364	durch	_	_
+4-5	365-370	Wolff	*	PERmentioned
+4-6	371-382	eingeleitet	_	_
+4-7	383-384	,	_	_
+4-8	385-387	so	_	_
+4-9	388-391	ist	_	_
+4-10	392-394	es	_	_
+4-11	395-406	vermuthlich	_	_
+4-12	407-415	genügend	_	_
+4-13	416-417	,	_	_
+4-14	418-421	und	_	_
+4-15	422-428	mische	_	_
+4-16	429-432	ich	_	_
+4-17	433-437	mich	_	_
+4-18	438-442	dann	_	_
+4-19	443-445	um	_	_
+4-20	446-448	so	_	_
+4-21	449-456	weniger	_	_
+4-22	457-466	unberufen	_	_
+4-23	467-473	hinein	_	_
+4-24	474-475	.	_	_
+
+#Text=Poletti der glaube ich ein ordentlicher Mann “ und immerhin ein vergessenes M. ord .
+5-1	476-483	Poletti	*	PERmentioned
+5-2	484-487	der	_	_
+5-3	488-494	glaube	_	_
+5-4	495-498	ich	_	_
+5-5	499-502	ein	_	_
+5-6	503-515	ordentlicher	_	_
+5-7	516-520	Mann	_	_
+5-8	521-522	“	_	_
+5-9	523-526	und	_	_
+5-10	527-535	immerhin	_	_
+5-11	536-539	ein	_	_
+5-12	540-551	vergessenes	_	_
+5-13	552-554	M.	_	_
+5-14	555-558	ord	_	_
+5-15	559-560	.	_	_
+
+#Text=ist möge die Tombe di Cerveteri ja erklären \; darauf warten können die Annali aber nicht , sobald sie irgend sonst flott werden können .
+6-1	561-564	ist	_	_
+6-2	565-569	möge	_	_
+6-3	570-573	die	_	_
+6-4	574-579	Tombe	*[9]	OBJ[9]
+6-5	580-582	di	*[9]	OBJ[9]
+6-6	583-592	Cerveteri	*[9]	OBJ[9]
+6-7	593-595	ja	_	_
+6-8	596-604	erklären	_	_
+6-9	605-606	\;	_	_
+6-10	607-613	darauf	_	_
+6-11	614-620	warten	_	_
+6-12	621-627	können	_	_
+6-13	628-631	die	_	_
+6-14	632-638	Annali	_	_
+6-15	639-643	aber	_	_
+6-16	644-649	nicht	_	_
+6-17	650-651	,	_	_
+6-18	652-658	sobald	_	_
+6-19	659-662	sie	_	_
+6-20	663-669	irgend	_	_
+6-21	670-675	sonst	_	_
+6-22	676-681	flott	_	_
+6-23	682-688	werden	_	_
+6-24	689-695	können	_	_
+6-25	696-697	.	_	_
+
+#Text=Ist sein Aufsatz gut , so wird er auch vehrliglich willkommen seyn \; vorläufig kann man die Lücke durch Kkam ers Bericht im Bull .
+7-1	698-701	Ist	_	_
+7-2	702-706	sein	_	_
+7-3	707-714	Aufsatz	_	_
+7-4	715-718	gut	_	_
+7-5	719-720	,	_	_
+7-6	721-723	so	_	_
+7-7	724-728	wird	_	_
+7-8	729-731	er	_	_
+7-9	732-736	auch	_	_
+7-10	737-748	vehrliglich	_	_
+7-11	749-759	willkommen	_	_
+7-12	760-764	seyn	_	_
+7-13	765-766	\;	_	_
+7-14	767-776	vorläufig	_	_
+7-15	777-781	kann	_	_
+7-16	782-785	man	_	_
+7-17	786-789	die	_	_
+7-18	790-795	Lücke	_	_
+7-19	796-801	durch	_	_
+7-20	802-806	Kkam	_	_
+7-21	807-810	ers	_	_
+7-22	811-818	Bericht	_	_
+7-23	819-821	im	_	_
+7-24	822-826	Bull	_	_
+7-25	827-828	.	_	_
+
+#Text=anzeigen .
+8-1	829-837	anzeigen	_	_
+8-2	838-839	.	_	_
+
+#Text=Über seine Ernennung an und für sich hätte ich mich nicht beschwert , so wenig als über Ricci etc. \; da aber die widerwärtigsten Dinge aus der Verletzung schuldiger \_ Teomım .
+9-1	840-844	Über	_	_
+9-2	845-850	seine	_	_
+9-3	851-860	Ernennung	_	_
+9-4	861-863	an	_	_
+9-5	864-867	und	_	_
+9-6	868-871	für	_	_
+9-7	872-876	sich	_	_
+9-8	877-882	hätte	_	_
+9-9	883-886	ich	_	_
+9-10	887-891	mich	_	_
+9-11	892-897	nicht	_	_
+9-12	898-907	beschwert	_	_
+9-13	908-909	,	_	_
+9-14	910-912	so	_	_
+9-15	913-918	wenig	_	_
+9-16	919-922	als	_	_
+9-17	923-927	über	_	_
+9-18	928-933	Ricci	*	PERmentioned
+9-19	934-938	etc.	_	_
+9-20	939-940	\;	_	_
+9-21	941-943	da	_	_
+9-22	944-948	aber	_	_
+9-23	949-952	die	_	_
+9-24	953-968	widerwärtigsten	_	_
+9-25	969-974	Dinge	_	_
+9-26	975-978	aus	_	_
+9-27	979-982	der	_	_
+9-28	983-993	Verletzung	_	_
+9-29	994-1004	schuldiger	_	_
+9-30	1005-1006	\_	_	_
+9-31	1007-1013	Teomım	_	_
+9-32	1014-1015	.	_	_
+
+#Text=— hervorgehen , sp mußte ich mich über solche Verletzung auch dann beschweren wo über das Wesentliche keine Differenz gewesen wäre .
+10-1	1016-1017	—	_	_
+10-2	1018-1029	hervorgehen	_	_
+10-3	1030-1031	,	_	_
+10-4	1032-1034	sp	_	_
+10-5	1035-1040	mußte	_	_
+10-6	1041-1044	ich	_	_
+10-7	1045-1049	mich	_	_
+10-8	1050-1054	über	_	_
+10-9	1055-1061	solche	_	_
+10-10	1062-1072	Verletzung	_	_
+10-11	1073-1077	auch	_	_
+10-12	1078-1082	dann	_	_
+10-13	1083-1093	beschweren	_	_
+10-14	1094-1096	wo	_	_
+10-15	1097-1101	über	_	_
+10-16	1102-1105	das	_	_
+10-17	1106-1117	Wesentliche	_	_
+10-18	1118-1123	keine	_	_
+10-19	1124-1133	Differenz	_	_
+10-20	1134-1141	gewesen	_	_
+10-21	1142-1146	wäre	_	_
+10-22	1147-1148	.	_	_
+
+#Text=Die direzione die immer flott we sumant scheint vergessen zu haben daß für die ord .
+11-1	1149-1152	Die	_	_
+11-2	1153-1162	direzione	_	_
+11-3	1163-1166	die	_	_
+11-4	1167-1172	immer	_	_
+11-5	1173-1178	flott	_	_
+11-6	1179-1181	we	_	_
+11-7	1182-1188	sumant	_	_
+11-8	1189-1196	scheint	_	_
+11-9	1197-1206	vergessen	_	_
+11-10	1207-1209	zu	_	_
+11-11	1210-1215	haben	_	_
+11-12	1216-1219	daß	_	_
+11-13	1220-1223	für	_	_
+11-14	1224-1227	die	_	_
+11-15	1228-1231	ord	_	_
+11-16	1232-1233	.	_	_
+
+#Text=ElunMitglieder alle in und außer Rom lebenden Direktionsmitglieder einstimmig seyn müßten , ferner daß für Corresp .
+12-1	1234-1248	ElunMitglieder	_	_
+12-2	1249-1253	alle	_	_
+12-3	1254-1256	in	_	_
+12-4	1257-1260	und	_	_
+12-5	1261-1266	außer	_	_
+12-6	1267-1270	Rom	*	PLACEmentioned
+12-7	1271-1279	lebenden	_	_
+12-8	1280-1300	Direktionsmitglieder	_	_
+12-9	1301-1311	einstimmig	_	_
+12-10	1312-1316	seyn	_	_
+12-11	1317-1323	müßten	_	_
+12-12	1324-1325	,	_	_
+12-13	1326-1332	ferner	_	_
+12-14	1333-1336	daß	_	_
+12-15	1337-1340	für	_	_
+12-16	1341-1348	Corresp	_	_
+12-17	1349-1350	.	_	_
+
+#Text=die Majorität nothwendig ist \; item hatte Sie vergessen daß wenn Sie unterschreiben Sie für meine Beistimmung responsabel
+13-1	1351-1354	die	_	_
+13-2	1355-1364	Majorität	_	_
+13-3	1365-1375	nothwendig	_	_
+13-4	1376-1379	ist	_	_
+13-5	1380-1381	\;	_	_
+13-6	1382-1386	item	_	_
+13-7	1387-1392	hatte	_	_
+13-8	1393-1396	Sie	_	_
+13-9	1397-1406	vergessen	_	_
+13-10	1407-1410	daß	_	_
+13-11	1411-1415	wenn	_	_
+13-12	1416-1419	Sie	_	_
+13-13	1420-1434	unterschreiben	_	_
+13-14	1435-1438	Sie	_	_
+13-15	1439-1442	für	_	_
+13-16	1443-1448	meine	_	_
+13-17	1449-1460	Beistimmung	_	_
+13-18	1461-1472	responsabel	_	_

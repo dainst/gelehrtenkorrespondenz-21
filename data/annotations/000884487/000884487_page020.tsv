@@ -1,0 +1,263 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 18. Februar 1836 Dr. Braun Berlin 18 Febr 36 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	18.	*[4]	DATEletter[4]
+1-7	30-37	Februar	*[4]	DATEletter[4]
+1-8	38-42	1836	*[4]	DATEletter[4]
+1-9	43-46	Dr.	_	_
+1-10	47-52	Braun	*	PERauthor
+1-11	53-59	Berlin	*	PLACEfrom
+1-12	60-62	18	*[7]	DATEletter[7]
+1-13	63-67	Febr	*[7]	DATEletter[7]
+1-14	68-70	36	*[7]	DATEletter[7]
+1-15	71-72	.	_	_
+
+#Text=Ihr Brief war leer lieber Freund und meiner ist es auch \; fast ist es besser als wenn beide sehr voll wären .
+2-1	73-76	Ihr	_	_
+2-2	77-82	Brief	_	_
+2-3	83-86	war	_	_
+2-4	87-91	leer	_	_
+2-5	92-98	lieber	_	_
+2-6	99-105	Freund	_	_
+2-7	106-109	und	_	_
+2-8	110-116	meiner	_	_
+2-9	117-120	ist	_	_
+2-10	121-123	es	_	_
+2-11	124-128	auch	_	_
+2-12	129-130	\;	_	_
+2-13	131-135	fast	_	_
+2-14	136-139	ist	_	_
+2-15	140-142	es	_	_
+2-16	143-149	besser	_	_
+2-17	150-153	als	_	_
+2-18	154-158	wenn	_	_
+2-19	159-164	beide	_	_
+2-20	165-169	sehr	_	_
+2-21	170-174	voll	_	_
+2-22	175-180	wären	_	_
+2-23	181-182	.	_	_
+
+#Text=- Der Dizionario muß weiland von Valentini der es jezt verleugnet bei Röstell bestellt sein , aber 1 1/2 Jahr in Rom gelegen haben .
+3-1	183-184	-	_	_
+3-2	185-188	Der	_	_
+3-3	189-199	Dizionario	_	_
+3-4	200-203	muß	_	_
+3-5	204-211	weiland	_	_
+3-6	212-215	von	_	_
+3-7	216-225	Valentini	*	PERmentioned
+3-8	226-229	der	_	_
+3-9	230-232	es	_	_
+3-10	233-237	jezt	_	_
+3-11	238-248	verleugnet	_	_
+3-12	249-252	bei	_	_
+3-13	253-260	Röstell	*	PERmentioned
+3-14	261-269	bestellt	_	_
+3-15	270-274	sein	_	_
+3-16	275-276	,	_	_
+3-17	277-281	aber	_	_
+3-18	282-283	1	_	_
+3-19	284-287	1/2	_	_
+3-20	288-292	Jahr	_	_
+3-21	293-295	in	_	_
+3-22	296-299	Rom	*	PLACEmentioned
+3-23	300-307	gelegen	_	_
+3-24	308-313	haben	_	_
+3-25	314-315	.	_	_
+
+#Text=Wer hat es bezahlt ?
+4-1	316-319	Wer	_	_
+4-2	320-323	hat	_	_
+4-3	324-326	es	_	_
+4-4	327-334	bezahlt	_	_
+4-5	335-336	?	_	_
+
+#Text=Daß nur keine Fortsetzung gesandt wird .
+5-1	337-340	Daß	_	_
+5-2	341-344	nur	_	_
+5-3	345-350	keine	_	_
+5-4	351-362	Fortsetzung	_	_
+5-5	363-370	gesandt	_	_
+5-6	371-375	wird	_	_
+5-7	376-377	.	_	_
+
+#Text=In der Kiste die nächstertags abgeht erhalten Sie auch den D ( 4xrt ) \; nichts von Dr Groß der um Geduld bittet .
+6-1	378-380	In	_	_
+6-2	381-384	der	_	_
+6-3	385-390	Kiste	_	_
+6-4	391-394	die	_	_
+6-5	395-407	nächstertags	_	_
+6-6	408-414	abgeht	_	_
+6-7	415-423	erhalten	_	_
+6-8	424-427	Sie	_	_
+6-9	428-432	auch	_	_
+6-10	433-436	den	_	_
+6-11	437-438	D	_	_
+6-12	439-440	(	_	_
+6-13	441-445	4xrt	_	_
+6-14	446-447	)	_	_
+6-15	448-449	\;	_	_
+6-16	450-456	nichts	_	_
+6-17	457-460	von	_	_
+6-18	461-463	Dr	*[11]	PLACEmentioned[11]
+6-19	464-468	Groß	*[11]	PLACEmentioned[11]
+6-20	469-472	der	_	_
+6-21	473-475	um	_	_
+6-22	476-482	Geduld	_	_
+6-23	483-489	bittet	_	_
+6-24	490-491	.	_	_
+
+#Text=u , Der Bull .
+7-1	492-493	u	_	_
+7-2	494-495	,	_	_
+7-3	496-499	Der	_	_
+7-4	500-504	Bull	_	_
+7-5	505-506	.	_	_
+
+#Text=bogen 8 2 war gut , Rougemonts Ausbesserung bei seiner Sacvi schimpflich .
+8-1	507-512	bogen	_	_
+8-2	513-514	8	_	_
+8-3	515-516	2	_	_
+8-4	517-520	war	_	_
+8-5	521-524	gut	_	_
+8-6	525-526	,	_	_
+8-7	527-537	Rougemonts	*	PERmentioned
+8-8	538-550	Ausbesserung	_	_
+8-9	551-554	bei	_	_
+8-10	555-561	seiner	_	_
+8-11	562-567	Sacvi	_	_
+8-12	568-579	schimpflich	_	_
+8-13	580-581	.	_	_
+
+#Text=Für die Liste des neuen Jahrgangs Bull natürlich in Rom \; ich bin noch dort .
+9-1	582-585	Für	_	_
+9-2	586-589	die	_	_
+9-3	590-595	Liste	_	_
+9-4	596-599	des	_	_
+9-5	600-605	neuen	_	_
+9-6	606-615	Jahrgangs	_	_
+9-7	616-620	Bull	_	_
+9-8	621-630	natürlich	_	_
+9-9	631-633	in	_	_
+9-10	634-637	Rom	*	PLACEmentioned
+9-11	638-639	\;	_	_
+9-12	640-643	ich	_	_
+9-13	644-647	bin	_	_
+9-14	648-652	noch	_	_
+9-15	653-657	dort	_	_
+9-16	658-659	.	_	_
+
+#Text=Sie haben unterdeß meinen Brief erhalten , nach dem ich mir 8 Tafeln Monum .
+10-1	660-663	Sie	_	_
+10-2	664-669	haben	_	_
+10-3	670-678	unterdeß	_	_
+10-4	679-685	meinen	_	_
+10-5	686-691	Brief	_	_
+10-6	692-700	erhalten	_	_
+10-7	701-702	,	_	_
+10-8	703-707	nach	_	_
+10-9	708-711	dem	_	_
+10-10	712-715	ich	_	_
+10-11	716-719	mir	_	_
+10-12	720-721	8	_	_
+10-13	722-728	Tafeln	_	_
+10-14	729-734	Monum	_	_
+10-15	735-736	.	_	_
+
+#Text=oder wie viel sie wollen , in somma 8 , gern gefallen lasse , aber schön , schön , schön daß endlich die Monum kommen mögen .
+11-1	737-741	oder	_	_
+11-2	742-745	wie	_	_
+11-3	746-750	viel	_	_
+11-4	751-754	sie	_	_
+11-5	755-761	wollen	_	_
+11-6	762-763	,	_	_
+11-7	764-766	in	_	_
+11-8	767-772	somma	_	_
+11-9	773-774	8	_	_
+11-10	775-776	,	_	_
+11-11	777-781	gern	_	_
+11-12	782-790	gefallen	_	_
+11-13	791-796	lasse	_	_
+11-14	797-798	,	_	_
+11-15	799-803	aber	_	_
+11-16	804-809	schön	_	_
+11-17	810-811	,	_	_
+11-18	812-817	schön	_	_
+11-19	818-819	,	_	_
+11-20	820-825	schön	_	_
+11-21	826-829	daß	_	_
+11-22	830-837	endlich	_	_
+11-23	838-841	die	_	_
+11-24	842-847	Monum	_	_
+11-25	848-854	kommen	_	_
+11-26	855-860	mögen	_	_
+11-27	861-862	.	_	_
+
+#Text=Sehnlich erwarte ich Ihre genaue Notiz ob Manus mit Bull .
+12-1	863-871	Sehnlich	_	_
+12-2	872-879	erwarte	_	_
+12-3	880-883	ich	_	_
+12-4	884-888	Ihre	_	_
+12-5	889-895	genaue	_	_
+12-6	896-901	Notiz	_	_
+12-7	902-904	ob	_	_
+12-8	905-910	Manus	_	_
+12-9	911-914	mit	_	_
+12-10	915-919	Bull	_	_
+12-11	920-921	.	_	_
+
+#Text=ersezt ist und an welchem Datum an ihn gesandt ward .
+13-1	922-928	ersezt	_	_
+13-2	929-932	ist	_	_
+13-3	933-936	und	_	_
+13-4	937-939	an	_	_
+13-5	940-947	welchem	_	_
+13-6	948-953	Datum	_	_
+13-7	954-956	an	_	_
+13-8	957-960	ihn	_	_
+13-9	961-968	gesandt	_	_
+13-10	969-973	ward	_	_
+13-11	974-975	.	_	_
+
+#Text=Franzens Rescript folgt endlich mit der Post zurück \; mahnen Sie doch ihn , sich , anzi sich , ihn und sonstige gute Freunde um Beiträge zum Inst .
+14-1	976-984	Franzens	*	PERmentioned
+14-2	985-993	Rescript	_	_
+14-3	994-999	folgt	_	_
+14-4	1000-1007	endlich	_	_
+14-5	1008-1011	mit	_	_
+14-6	1012-1015	der	_	_
+14-7	1016-1020	Post	_	_
+14-8	1021-1027	zurück	_	_
+14-9	1028-1029	\;	_	_
+14-10	1030-1036	mahnen	_	_
+14-11	1037-1040	Sie	_	_
+14-12	1041-1045	doch	_	_
+14-13	1046-1049	ihn	_	_
+14-14	1050-1051	,	_	_
+14-15	1052-1056	sich	_	_
+14-16	1057-1058	,	_	_
+14-17	1059-1063	anzi	_	_
+14-18	1064-1068	sich	_	_
+14-19	1069-1070	,	_	_
+14-20	1071-1074	ihn	_	_
+14-21	1075-1078	und	_	_
+14-22	1079-1087	sonstige	_	_
+14-23	1088-1092	gute	_	_
+14-24	1093-1100	Freunde	_	_
+14-25	1101-1103	um	_	_
+14-26	1104-1112	Beiträge	_	_
+14-27	1113-1116	zum	_	_
+14-28	1117-1121	Inst	_	_
+14-29	1122-1123	.	_	_
+
+#Text=Bl . welches ich
+15-1	1124-1126	Bl	_	_
+15-2	1127-1128	.	_	_
+15-3	1129-1136	welches	_	_
+15-4	1137-1140	ich	_	_

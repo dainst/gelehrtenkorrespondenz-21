@@ -1,0 +1,296 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=un .
+1-1	0-2	un	_	_	
+1-2	3-4	.	_	_	
+
+#Text=N I \\ NER Braun an Gerhard Rom , 25 .
+2-1	5-6	N	_	_	
+2-2	7-8	I	_	_	
+2-3	9-10	\	_	_	
+2-4	11-14	NER	_	_	
+2-5	15-20	Braun	*	PERauthor	
+2-6	21-23	an	_	_	
+2-7	24-31	Gerhard	*	PERaddressee	
+2-8	32-35	Rom	*	PLACEfrom	
+2-9	36-37	,	_	_	
+2-10	38-40	25	*[1]	DATEletter[1]	
+2-11	41-42	.	*[1]	DATEletter[1]	
+
+#Text=Januar 1835 Jetzt zahle ich für eine große Vase Sc. 7 uns für eine kleine baj .
+3-1	43-49	Januar	*[1]	DATEletter[1]	
+3-2	50-54	1835	*[1]	DATEletter[1]	
+3-3	55-60	Jetzt	_	_	
+3-4	61-66	zahle	_	_	
+3-5	67-70	ich	_	_	
+3-6	71-74	für	_	_	
+3-7	75-79	eine	_	_	
+3-8	80-85	große	*[2]	OBJ[2]	
+3-9	86-90	Vase	*[2]	OBJ[2]	
+3-10	91-94	Sc.	_	_	
+3-11	95-96	7	_	_	
+3-12	97-100	uns	_	_	
+3-13	101-104	für	_	_	
+3-14	105-109	eine	_	_	
+3-15	110-116	kleine	_	_	
+3-16	117-120	baj	_	_	
+3-17	121-122	.	_	_	
+
+#Text=50 ; dafür erhalte ich schöne Zeichnungen .
+4-1	123-125	50	_	_	
+4-2	126-127	;	_	_	
+4-3	128-133	dafür	_	_	
+4-4	134-141	erhalte	_	_	
+4-5	142-145	ich	_	_	
+4-6	146-152	schöne	_	_	
+4-7	153-164	Zeichnungen	*	MISC	
+4-8	165-166	.	_	_	
+
+#Text=Respi hat seine sämtlichen Spiegeltalchi dem Institut geschenkt .
+5-1	167-172	Respi	*	PERmentioned	
+5-2	173-176	hat	_	_	
+5-3	177-182	seine	_	_	
+5-4	183-193	sämtlichen	_	_	
+5-5	194-207	Spiegeltalchi	*	MISC	
+5-6	208-211	dem	_	_	
+5-7	212-220	Institut	*	ORGmentioned	
+5-8	221-230	geschenkt	_	_	
+5-9	231-232	.	_	_	
+
+#Text=Mir dünkt , es sei das eine und das andere für Sie unbekannte Stück darunter .
+6-1	233-236	Mir	_	_	
+6-2	237-242	dünkt	_	_	
+6-3	243-244	,	_	_	
+6-4	245-247	es	_	_	
+6-5	248-251	sei	_	_	
+6-6	252-255	das	_	_	
+6-7	256-260	eine	_	_	
+6-8	261-264	und	_	_	
+6-9	265-268	das	_	_	
+6-10	269-275	andere	_	_	
+6-11	276-279	für	_	_	
+6-12	280-283	Sie	_	_	
+6-13	284-294	unbekannte	_	_	
+6-14	295-300	Stück	_	_	
+6-15	301-309	darunter	_	_	
+6-16	310-311	.	_	_	
+
+#Text=Doch ist es äußerst schwer natürlich etwas der Art zu behaupten .
+7-1	312-316	Doch	_	_	
+7-2	317-320	ist	_	_	
+7-3	321-323	es	_	_	
+7-4	324-331	äußerst	_	_	
+7-5	332-338	schwer	_	_	
+7-6	339-348	natürlich	_	_	
+7-7	349-354	etwas	_	_	
+7-8	355-358	der	_	_	
+7-9	359-362	Art	_	_	
+7-10	363-365	zu	_	_	
+7-11	366-375	behaupten	_	_	
+7-12	376-377	.	_	_	
+
+#Text=Wünschen Sie Mittheilungen daraus , so werde ich auf Mittel denken sie Ihnen bekannt zu machen .
+8-1	378-386	Wünschen	_	_	
+8-2	387-390	Sie	_	_	
+8-3	391-404	Mittheilungen	_	_	
+8-4	405-411	daraus	_	_	
+8-5	412-413	,	_	_	
+8-6	414-416	so	_	_	
+8-7	417-422	werde	_	_	
+8-8	423-426	ich	_	_	
+8-9	427-430	auf	_	_	
+8-10	431-437	Mittel	_	_	
+8-11	438-444	denken	_	_	
+8-12	445-448	sie	_	_	
+8-13	449-454	Ihnen	_	_	
+8-14	455-462	bekannt	_	_	
+8-15	463-465	zu	_	_	
+8-16	466-472	machen	_	_	
+8-17	473-474	.	_	_	
+
+#Text=Aus Alres hat ein Hr .
+9-1	475-478	Aus	_	_	
+9-2	479-484	Alres	*	PLACEmentioned	
+9-3	485-488	hat	_	_	
+9-4	489-492	ein	_	_	
+9-5	493-495	Hr	_	_	
+9-6	496-497	.	_	_	
+
+#Text=Baron Longier de Chartrouse an Sie geschrieben und einen Bericht über die seit Jahrhunderten daselbst gemachten Ausgrabungen einige Zeichnungen beigefügt .
+10-1	498-503	Baron	*[3]	PERmentioned[3]	
+10-2	504-511	Longier	*[3]	PERmentioned[3]	
+10-3	512-514	de	*[3]	PERmentioned[3]	
+10-4	515-525	Chartrouse	*[3]	PERmentioned[3]	
+10-5	526-528	an	_	_	
+10-6	529-532	Sie	_	_	
+10-7	533-544	geschrieben	_	_	
+10-8	545-548	und	_	_	
+10-9	549-554	einen	_	_	
+10-10	555-562	Bericht	_	_	
+10-11	563-567	über	_	_	
+10-12	568-571	die	_	_	
+10-13	572-576	seit	_	_	
+10-14	577-590	Jahrhunderten	_	_	
+10-15	591-599	daselbst	_	_	
+10-16	600-609	gemachten	_	_	
+10-17	610-622	Ausgrabungen	_	_	
+10-18	623-629	einige	_	_	
+10-19	630-641	Zeichnungen	_	_	
+10-20	642-651	beigefügt	_	_	
+10-21	652-653	.	_	_	
+
+#Text=Leider aber berührt letztere der Bericht zu wenig ; ich hatte mit Laneileine Tav .
+11-1	654-660	Leider	_	_	
+11-2	661-665	aber	_	_	
+11-3	666-673	berührt	_	_	
+11-4	674-682	letztere	_	_	
+11-5	683-686	der	_	_	
+11-6	687-694	Bericht	_	_	
+11-7	695-697	zu	_	_	
+11-8	698-703	wenig	_	_	
+11-9	704-705	;	_	_	
+11-10	706-709	ich	_	_	
+11-11	710-715	hatte	_	_	
+11-12	716-719	mit	_	_	
+11-13	720-730	Laneileine	*	PERmentioned	
+11-14	731-734	Tav	_	_	
+11-15	735-736	.	_	_	
+
+#Text=d'agg .
+12-1	737-742	d'agg	_	_	
+12-2	743-744	.	_	_	
+
+#Text=gedacht , stehe aber jetzt damit an .
+13-1	745-752	gedacht	_	_	
+13-2	753-754	,	_	_	
+13-3	755-760	stehe	_	_	
+13-4	761-765	aber	_	_	
+13-5	766-771	jetzt	_	_	
+13-6	772-777	damit	_	_	
+13-7	778-780	an	_	_	
+13-8	781-782	.	_	_	
+
+#Text=Für 's Bull .
+14-1	783-786	Für	_	_	
+14-2	787-789	's	_	_	
+14-3	790-794	Bull	_	_	
+14-4	795-796	.	_	_	
+
+#Text=scheint sich der Bericht ebenfalls nicht ganz zu eignen .
+15-1	797-804	scheint	_	_	
+15-2	805-809	sich	_	_	
+15-3	810-813	der	_	_	
+15-4	814-821	Bericht	_	_	
+15-5	822-831	ebenfalls	_	_	
+15-6	832-837	nicht	_	_	
+15-7	838-842	ganz	_	_	
+15-8	843-845	zu	_	_	
+15-9	846-852	eignen	_	_	
+15-10	853-854	.	_	_	
+
+#Text=Viel_ leicht dass wir in der Adunanza zu einem entscheidenden Urtheil darüber gelangen .
+16-1	855-860	Viel_	_	_	
+16-2	861-867	leicht	_	_	
+16-3	868-872	dass	_	_	
+16-4	873-876	wir	_	_	
+16-5	877-879	in	_	_	
+16-6	880-883	der	_	_	
+16-7	884-892	Adunanza	*	MISC	
+16-8	893-895	zu	_	_	
+16-9	896-901	einem	_	_	
+16-10	902-916	entscheidenden	_	_	
+16-11	917-924	Urtheil	_	_	
+16-12	925-932	darüber	_	_	
+16-13	933-941	gelangen	_	_	
+16-14	942-943	.	_	_	
+
+#Text=Vor allem wünschte ich aber Ihre Meinung darüber zu wissen .
+17-1	944-947	Vor	_	_	
+17-2	948-953	allem	_	_	
+17-3	954-962	wünschte	_	_	
+17-4	963-966	ich	_	_	
+17-5	967-971	aber	_	_	
+17-6	972-976	Ihre	_	_	
+17-7	977-984	Meinung	_	_	
+17-8	985-992	darüber	_	_	
+17-9	993-995	zu	_	_	
+17-10	996-1002	wissen	_	_	
+17-11	1003-1004	.	_	_	
+
+#Text=Das Bull .
+18-1	1005-1008	Das	_	_	
+18-2	1009-1013	Bull	_	_	
+18-3	1014-1015	.	_	_	
+
+#Text=1835 will Bunsen mit einem Bericht über die Adunanzen eröffnen .
+19-1	1016-1020	1835	*	DATEmentioned	
+19-2	1021-1025	will	_	_	
+19-3	1026-1032	Bunsen	*	PERmentioned	
+19-4	1033-1036	mit	_	_	
+19-5	1037-1042	einem	_	_	
+19-6	1043-1050	Bericht	_	_	
+19-7	1051-1055	über	_	_	
+19-8	1056-1059	die	_	_	
+19-9	1060-1069	Adunanzen	_	_	
+19-10	1070-1078	eröffnen	_	_	
+19-11	1079-1080	.	_	_	
+
+#Text=Auch verlangt er , daß in das Manifest gesetzt werde , daß er während Ihrer Abwesenheit an der Redaction theil nehme .
+20-1	1081-1085	Auch	_	_	
+20-2	1086-1094	verlangt	_	_	
+20-3	1095-1097	er	_	_	
+20-4	1098-1099	,	_	_	
+20-5	1100-1103	daß	_	_	
+20-6	1104-1106	in	_	_	
+20-7	1107-1110	das	_	_	
+20-8	1111-1119	Manifest	_	_	
+20-9	1120-1127	gesetzt	_	_	
+20-10	1128-1133	werde	_	_	
+20-11	1134-1135	,	_	_	
+20-12	1136-1139	daß	_	_	
+20-13	1140-1142	er	_	_	
+20-14	1143-1150	während	_	_	
+20-15	1151-1156	Ihrer	_	_	
+20-16	1157-1168	Abwesenheit	_	_	
+20-17	1169-1171	an	_	_	
+20-18	1172-1175	der	_	_	
+20-19	1176-1185	Redaction	_	_	
+20-20	1186-1191	theil	_	_	
+20-21	1192-1197	nehme	_	_	
+20-22	1198-1199	.	_	_	
+
+#Text=Wie viel Sie daran gut heißen , weiß ich nicht ; daß ich aber Einwürfe in diesem Fall machen kann , sehen Sie wohl ein .
+21-1	1200-1203	Wie	_	_	
+21-2	1204-1208	viel	_	_	
+21-3	1209-1212	Sie	_	_	
+21-4	1213-1218	daran	_	_	
+21-5	1219-1222	gut	_	_	
+21-6	1223-1229	heißen	_	_	
+21-7	1230-1231	,	_	_	
+21-8	1232-1236	weiß	_	_	
+21-9	1237-1240	ich	_	_	
+21-10	1241-1246	nicht	_	_	
+21-11	1247-1248	;	_	_	
+21-12	1249-1252	daß	_	_	
+21-13	1253-1256	ich	_	_	
+21-14	1257-1261	aber	_	_	
+21-15	1262-1270	Einwürfe	_	_	
+21-16	1271-1273	in	_	_	
+21-17	1274-1280	diesem	_	_	
+21-18	1281-1285	Fall	_	_	
+21-19	1286-1292	machen	_	_	
+21-20	1293-1297	kann	_	_	
+21-21	1298-1299	,	_	_	
+21-22	1300-1305	sehen	_	_	
+21-23	1306-1309	Sie	_	_	
+21-24	1310-1314	wohl	_	_	
+21-25	1315-1318	ein	_	_	
+21-26	1319-1320	.	_	_	
+
+#Text=Ich habe ihn nur
+22-1	1321-1324	Ich	_	_	
+22-2	1325-1329	habe	_	_	
+22-3	1330-1333	ihn	_	_	
+22-4	1334-1337	nur	_	_	

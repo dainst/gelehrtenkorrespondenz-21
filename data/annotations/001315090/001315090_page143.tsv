@@ -1,0 +1,242 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 23. März 1874 27/5 74 Berlin , d . 23 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	23.	*[1]	DATEletter[1]
+1-7	31-35	März	*[1]	DATEletter[1]
+1-8	36-40	1874	*[1]	DATEletter[1]
+1-9	41-45	27/5	*[2]	DATErecieved[2]
+1-10	46-48	74	*[2]	DATErecieved[2]
+1-11	49-55	Berlin	*	PLACEfrom
+1-12	56-57	,	_	_
+1-13	58-59	d	_	_
+1-14	60-61	.	_	_
+1-15	62-64	23	*[3]	DATEletter[3]
+1-16	65-66	.	*[3]	DATEletter[3]
+
+#Text=Mz 1874 Verehrter Freund So eben geht der G . L .
+2-1	67-69	Mz	*[3]	DATEletter[3]
+2-2	70-74	1874	*[3]	DATEletter[3]
+2-3	75-84	Verehrter	_	_
+2-4	85-91	Freund	_	_
+2-5	92-94	So	_	_
+2-6	95-99	eben	_	_
+2-7	100-104	geht	_	_
+2-8	105-108	der	_	_
+2-9	109-110	G	_	_
+2-10	111-112	.	_	_
+2-11	113-114	L	_	_
+2-12	115-116	.	_	_
+
+#Text=R. Hepke von mir , der die Institutssachen bearbeitet , die ich mit ihm durchgesprochen habe .
+3-1	117-119	R.	*[4]	PERmentioned[4]
+3-2	120-125	Hepke	*[4]	PERmentioned[4]
+3-3	126-129	von	_	_
+3-4	130-133	mir	_	_
+3-5	134-135	,	_	_
+3-6	136-139	der	_	_
+3-7	140-143	die	_	_
+3-8	144-159	Institutssachen	_	_
+3-9	160-170	bearbeitet	_	_
+3-10	171-172	,	_	_
+3-11	173-176	die	_	_
+3-12	177-180	ich	_	_
+3-13	181-184	mit	_	_
+3-14	185-188	ihm	_	_
+3-15	189-204	durchgesprochen	_	_
+3-16	205-209	habe	_	_
+3-17	210-211	.	_	_
+
+#Text=Das Statut hat noch immer das Stadium des Bundesraths vor sich \; die genaue Revision hat er aber vollendet .
+4-1	212-215	Das	_	_
+4-2	216-222	Statut	_	_
+4-3	223-226	hat	_	_
+4-4	227-231	noch	_	_
+4-5	232-237	immer	_	_
+4-6	238-241	das	_	_
+4-7	242-249	Stadium	_	_
+4-8	250-253	des	_	_
+4-9	254-265	Bundesraths	*	ORGmentioned
+4-10	266-269	vor	_	_
+4-11	270-274	sich	_	_
+4-12	275-276	\;	_	_
+4-13	277-280	die	_	_
+4-14	281-287	genaue	_	_
+4-15	288-296	Revision	_	_
+4-16	297-300	hat	_	_
+4-17	301-303	er	_	_
+4-18	304-308	aber	_	_
+4-19	309-318	vollendet	_	_
+4-20	319-320	.	_	_
+
+#Text=Früher als das Statut wird uns der neue Etat zugehen , vielleicht noch in dieser Woche .
+5-1	321-327	Früher	_	_
+5-2	328-331	als	_	_
+5-3	332-335	das	_	_
+5-4	336-342	Statut	_	_
+5-5	343-347	wird	_	_
+5-6	348-351	uns	_	_
+5-7	352-355	der	_	_
+5-8	356-360	neue	_	_
+5-9	361-365	Etat	_	_
+5-10	366-373	zugehen	_	_
+5-11	374-375	,	_	_
+5-12	376-386	vielleicht	_	_
+5-13	387-391	noch	_	_
+5-14	392-394	in	_	_
+5-15	395-401	dieser	_	_
+5-16	402-407	Woche	_	_
+5-17	408-409	.	_	_
+
+#Text=Damit können wir dann einstweilen wirthschaften , da uns die Gelder darauf angewiesen werden .
+6-1	410-415	Damit	_	_
+6-2	416-422	können	_	_
+6-3	423-426	wir	_	_
+6-4	427-431	dann	_	_
+6-5	432-443	einstweilen	_	_
+6-6	444-457	wirthschaften	_	_
+6-7	458-459	,	_	_
+6-8	460-462	da	_	_
+6-9	463-466	uns	_	_
+6-10	467-470	die	_	_
+6-11	471-477	Gelder	_	_
+6-12	478-484	darauf	_	_
+6-13	485-495	angewiesen	_	_
+6-14	496-502	werden	_	_
+6-15	503-504	.	_	_
+
+#Text=Unsre Nachtragsforderungen sind dem Reichstag noch nicht vorgelegt worden , kommen also erst für 1875 in Betracht .
+7-1	505-510	Unsre	_	_
+7-2	511-531	Nachtragsforderungen	_	_
+7-3	532-536	sind	_	_
+7-4	537-540	dem	_	_
+7-5	541-550	Reichstag	_	_
+7-6	551-555	noch	_	_
+7-7	556-561	nicht	_	_
+7-8	562-571	vorgelegt	_	_
+7-9	572-578	worden	_	_
+7-10	579-580	,	_	_
+7-11	581-587	kommen	_	_
+7-12	588-592	also	_	_
+7-13	593-597	erst	_	_
+7-14	598-601	für	_	_
+7-15	602-606	1875	*	DATEmentioned
+7-16	607-609	in	_	_
+7-17	610-618	Betracht	_	_
+7-18	619-620	.	_	_
+
+#Text=Inzwischen werden die nöthigen Fonds für Archäologische Zeitung und Ephemeris aus den 4000 r Fonds genommen .
+8-1	621-631	Inzwischen	_	_
+8-2	632-638	werden	_	_
+8-3	639-642	die	_	_
+8-4	643-651	nöthigen	_	_
+8-5	652-657	Fonds	_	_
+8-6	658-661	für	_	_
+8-7	662-676	Archäologische	*[5]	ORGmentioned[5]
+8-8	677-684	Zeitung	*[5]	ORGmentioned[5]
+8-9	685-688	und	_	_
+8-10	689-698	Ephemeris	_	_
+8-11	699-702	aus	_	_
+8-12	703-706	den	_	_
+8-13	707-711	4000	_	_
+8-14	712-713	r	_	_
+8-15	714-719	Fonds	_	_
+8-16	720-728	genommen	_	_
+8-17	729-730	.	_	_
+
+#Text=Auch die Erhöhung der 3600 r auf 4000 r für die Stipendien kann erst 1875 zur Genehmigung kommen .
+9-1	731-735	Auch	_	_
+9-2	736-739	die	_	_
+9-3	740-748	Erhöhung	_	_
+9-4	749-752	der	_	_
+9-5	753-757	3600	_	_
+9-6	758-759	r	_	_
+9-7	760-763	auf	_	_
+9-8	764-768	4000	_	_
+9-9	769-770	r	_	_
+9-10	771-774	für	_	_
+9-11	775-778	die	_	_
+9-12	779-789	Stipendien	_	_
+9-13	790-794	kann	_	_
+9-14	795-799	erst	_	_
+9-15	800-804	1875	_	_
+9-16	805-808	zur	_	_
+9-17	809-820	Genehmigung	_	_
+9-18	821-827	kommen	_	_
+9-19	828-829	.	_	_
+
+#Text=Es werden also für dieses Jahr 1874 vier Stipendien ä 900 r vergeben .
+10-1	830-832	Es	_	_
+10-2	833-839	werden	_	_
+10-3	840-844	also	_	_
+10-4	845-848	für	_	_
+10-5	849-855	dieses	_	_
+10-6	856-860	Jahr	_	_
+10-7	861-865	1874	_	_
+10-8	866-870	vier	_	_
+10-9	871-881	Stipendien	_	_
+10-10	882-883	ä	_	_
+10-11	884-887	900	_	_
+10-12	888-889	r	_	_
+10-13	890-898	vergeben	_	_
+10-14	899-900	.	_	_
+
+#Text=Und zwar können diesmal die Süddeutschen noch nicht mitstimmen , weil die Statuten noch fehlen , und dann erst die Erweiterung der Central Direktion vorgenommen werden kann , die von uns , der Berliner Direktion durch Kooptation ausgeht .
+11-1	901-904	Und	_	_
+11-2	905-909	zwar	_	_
+11-3	910-916	können	_	_
+11-4	917-924	diesmal	_	_
+11-5	925-928	die	_	_
+11-6	929-941	Süddeutschen	_	_
+11-7	942-946	noch	_	_
+11-8	947-952	nicht	_	_
+11-9	953-963	mitstimmen	_	_
+11-10	964-965	,	_	_
+11-11	966-970	weil	_	_
+11-12	971-974	die	_	_
+11-13	975-983	Statuten	_	_
+11-14	984-988	noch	_	_
+11-15	989-995	fehlen	_	_
+11-16	996-997	,	_	_
+11-17	998-1001	und	_	_
+11-18	1002-1006	dann	_	_
+11-19	1007-1011	erst	_	_
+11-20	1012-1015	die	_	_
+11-21	1016-1027	Erweiterung	_	_
+11-22	1028-1031	der	_	_
+11-23	1032-1039	Central	*[6]	ORGmentioned[6]
+11-24	1040-1049	Direktion	*[6]	ORGmentioned[6]
+11-25	1050-1061	vorgenommen	_	_
+11-26	1062-1068	werden	_	_
+11-27	1069-1073	kann	_	_
+11-28	1074-1075	,	_	_
+11-29	1076-1079	die	_	_
+11-30	1080-1083	von	_	_
+11-31	1084-1087	uns	_	_
+11-32	1088-1089	,	_	_
+11-33	1090-1093	der	_	_
+11-34	1094-1102	Berliner	_	_
+11-35	1103-1112	Direktion	_	_
+11-36	1113-1118	durch	_	_
+11-37	1119-1129	Kooptation	_	_
+11-38	1130-1137	ausgeht	_	_
+11-39	1138-1139	.	_	_
+
+#Text=Titel IV und V bittet Hepke ausdrücklich für jetzt noch ge-
+12-1	1140-1145	Titel	_	_
+12-2	1146-1148	IV	_	_
+12-3	1149-1152	und	_	_
+12-4	1153-1154	V	_	_
+12-5	1155-1161	bittet	_	_
+12-6	1162-1167	Hepke	*	PERmentioned
+12-7	1168-1180	ausdrücklich	_	_
+12-8	1181-1184	für	_	_
+12-9	1185-1190	jetzt	_	_
+12-10	1191-1195	noch	_	_
+12-11	1196-1199	ge-	_	_

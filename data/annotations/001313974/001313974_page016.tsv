@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Neapel , 10. Juni 1864 236 H Neapel 0. Juni 1864 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Neapel	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	10.	*[3]	DATEletter[3]
+1-7	30-34	Juni	*[3]	DATEletter[3]
+1-8	35-39	1864	*[3]	DATEletter[3]
+1-9	40-43	236	_	_
+1-10	44-45	H	_	_
+1-11	46-52	Neapel	*	PLACEfrom
+1-12	53-55	0.	*[4]	DATEletter[4]
+1-13	56-60	Juni	*[4]	DATEletter[4]
+1-14	61-65	1864	*[4]	DATEletter[4]
+1-15	66-67	.	_	_
+
+#Text=13/6 64 Tr Geehrtester Herr Professor \| !
+2-1	68-72	13/6	*[5]	DATErecieved[5]
+2-2	73-75	64	*[5]	DATErecieved[5]
+2-3	76-78	Tr	_	_
+2-4	79-90	Geehrtester	_	_
+2-5	91-95	Herr	_	_
+2-6	96-105	Professor	_	_
+2-7	106-107	\|	_	_
+2-8	108-109	!	_	_
+
+#Text=Eben habe ich Ihren Brief erhalten .
+3-1	110-114	Eben	_	_
+3-2	115-119	habe	_	_
+3-3	120-123	ich	_	_
+3-4	124-129	Ihren	_	_
+3-5	130-135	Brief	_	_
+3-6	136-144	erhalten	_	_
+3-7	145-146	.	_	_
+
+#Text=Die Inschriften werde ich möglichst bald besorgen .
+4-1	147-150	Die	_	_
+4-2	151-162	Inschriften	*	OBJ
+4-3	163-168	werde	_	_
+4-4	169-172	ich	_	_
+4-5	173-182	möglichst	_	_
+4-6	183-187	bald	_	_
+4-7	188-196	besorgen	_	_
+4-8	197-198	.	_	_
+
+#Text=Was die von Ihnen zur Rectification empfohlenen Stellen betrifft , so kann ich Ihnen in Bezug auf die Grabschrift des Cocceius Turbo versichern , daß ich Zeile 3 auch an TR dachte , daß aber I R dasteht .
+5-1	199-202	Was	_	_
+5-2	203-206	die	_	_
+5-3	207-210	von	_	_
+5-4	211-216	Ihnen	_	_
+5-5	217-220	zur	_	_
+5-6	221-234	Rectification	_	_
+5-7	235-246	empfohlenen	_	_
+5-8	247-254	Stellen	_	_
+5-9	255-263	betrifft	_	_
+5-10	264-265	,	_	_
+5-11	266-268	so	_	_
+5-12	269-273	kann	_	_
+5-13	274-277	ich	_	_
+5-14	278-283	Ihnen	_	_
+5-15	284-286	in	_	_
+5-16	287-292	Bezug	_	_
+5-17	293-296	auf	_	_
+5-18	297-300	die	_	_
+5-19	301-312	Grabschrift	*	OBJ
+5-20	313-316	des	_	_
+5-21	317-325	Cocceius	*[6]	PERmentioned[6]
+5-22	326-331	Turbo	*[6]	PERmentioned[6]
+5-23	332-342	versichern	_	_
+5-24	343-344	,	_	_
+5-25	345-348	daß	_	_
+5-26	349-352	ich	_	_
+5-27	353-358	Zeile	_	_
+5-28	359-360	3	_	_
+5-29	361-365	auch	_	_
+5-30	366-368	an	_	_
+5-31	369-371	TR	_	_
+5-32	372-378	dachte	_	_
+5-33	379-380	,	_	_
+5-34	381-384	daß	_	_
+5-35	385-389	aber	_	_
+5-36	390-391	I	_	_
+5-37	392-393	R	_	_
+5-38	394-401	dasteht	_	_
+5-39	402-403	.	_	_
+
+#Text=Gestern traf ein Brief von Gerhard ein , worin dieser verlangte , es solle der Revers der großen Decorationsvase aus Armento mit fünf Reihen und der Inschrift zw . gezeichnet werden .
+6-1	404-411	Gestern	_	_
+6-2	412-416	traf	_	_
+6-3	417-420	ein	_	_
+6-4	421-426	Brief	_	_
+6-5	427-430	von	_	_
+6-6	431-438	Gerhard	*	PERmentioned
+6-7	439-442	ein	_	_
+6-8	443-444	,	_	_
+6-9	445-450	worin	_	_
+6-10	451-457	dieser	_	_
+6-11	458-467	verlangte	_	_
+6-12	468-469	,	_	_
+6-13	470-472	es	_	_
+6-14	473-478	solle	_	_
+6-15	479-482	der	_	_
+6-16	483-489	Revers	_	_
+6-17	490-493	der	_	_
+6-18	494-500	großen	_	_
+6-19	501-516	Decorationsvase	*	OBJ
+6-20	517-520	aus	_	_
+6-21	521-528	Armento	*	PLACEmentioned
+6-22	529-532	mit	_	_
+6-23	533-537	fünf	_	_
+6-24	538-544	Reihen	_	_
+6-25	545-548	und	_	_
+6-26	549-552	der	_	_
+6-27	553-562	Inschrift	*	OBJ
+6-28	563-565	zw	_	_
+6-29	566-567	.	_	_
+6-30	568-578	gezeichnet	_	_
+6-31	579-585	werden	_	_
+6-32	586-587	.	_	_
+
+#Text=Die Zeichnung des Averses befindet sich in Rom .
+7-1	588-591	Die	_	_
+7-2	592-601	Zeichnung	_	_
+7-3	602-605	des	_	_
+7-4	606-613	Averses	*	OBJ
+7-5	614-622	befindet	_	_
+7-6	623-627	sich	_	_
+7-7	628-630	in	_	_
+7-8	631-634	Rom	*	PLACEmentioned
+7-9	635-636	.	_	_
+
+#Text=Gerhard schreibt darüber : `` auch hat man dem Zeichner hoffentlich die Zeichnung des Averses eingehändigt , die ich nach Rom geschickt habe , um darnach den Revers entsprechend gezeichnet zu erhalten . ''
+8-1	637-644	Gerhard	*	PERmentioned
+8-2	645-653	schreibt	_	_
+8-3	654-661	darüber	_	_
+8-4	662-663	:	_	_
+8-5	664-666	``	_	_
+8-6	667-671	auch	_	_
+8-7	672-675	hat	_	_
+8-8	676-679	man	_	_
+8-9	680-683	dem	_	_
+8-10	684-692	Zeichner	_	_
+8-11	693-704	hoffentlich	_	_
+8-12	705-708	die	_	_
+8-13	709-718	Zeichnung	_	_
+8-14	719-722	des	_	_
+8-15	723-730	Averses	_	_
+8-16	731-743	eingehändigt	_	_
+8-17	744-745	,	_	_
+8-18	746-749	die	_	_
+8-19	750-753	ich	_	_
+8-20	754-758	nach	_	_
+8-21	759-762	Rom	*	PLACEmentioned
+8-22	763-772	geschickt	_	_
+8-23	773-777	habe	_	_
+8-24	778-779	,	_	_
+8-25	780-782	um	_	_
+8-26	783-790	darnach	_	_
+8-27	791-794	den	_	_
+8-28	795-801	Revers	_	_
+8-29	802-814	entsprechend	_	_
+8-30	815-825	gezeichnet	_	_
+8-31	826-828	zu	_	_
+8-32	829-837	erhalten	_	_
+8-33	838-839	.	_	_
+8-34	840-842	''	_	_
+
+#Text=Dem Zeichner ist nichts Derartiges eingehändigt worden .
+9-1	843-846	Dem	_	_
+9-2	847-855	Zeichner	_	_
+9-3	856-859	ist	_	_
+9-4	860-866	nichts	_	_
+9-5	867-877	Derartiges	_	_
+9-6	878-890	eingehändigt	_	_
+9-7	891-897	worden	_	_
+9-8	898-899	.	_	_
+
+#Text=Da dieser Vorfall dazu beitragan kann , Gerhards üble Laune gegen Brunn zu vermehren , so bitte ich Sie , vorzubeugen , so gut Sie können , die betreffende Zeichnung des Averses in dem Institutsapparat zu suchen und hierher zu schicken .
+10-1	900-902	Da	_	_
+10-2	903-909	dieser	_	_
+10-3	910-917	Vorfall	_	_
+10-4	918-922	dazu	_	_
+10-5	923-932	beitragan	_	_
+10-6	933-937	kann	_	_
+10-7	938-939	,	_	_
+10-8	940-948	Gerhards	*	PERmentioned
+10-9	949-953	üble	_	_
+10-10	954-959	Laune	_	_
+10-11	960-965	gegen	_	_
+10-12	966-971	Brunn	*	PERmentioned
+10-13	972-974	zu	_	_
+10-14	975-984	vermehren	_	_
+10-15	985-986	,	_	_
+10-16	987-989	so	_	_
+10-17	990-995	bitte	_	_
+10-18	996-999	ich	_	_
+10-19	1000-1003	Sie	_	_
+10-20	1004-1005	,	_	_
+10-21	1006-1017	vorzubeugen	_	_
+10-22	1018-1019	,	_	_
+10-23	1020-1022	so	_	_
+10-24	1023-1026	gut	_	_
+10-25	1027-1030	Sie	_	_
+10-26	1031-1037	können	_	_
+10-27	1038-1039	,	_	_
+10-28	1040-1043	die	_	_
+10-29	1044-1055	betreffende	_	_
+10-30	1056-1065	Zeichnung	_	_
+10-31	1066-1069	des	_	_
+10-32	1070-1077	Averses	_	_
+10-33	1078-1080	in	_	_
+10-34	1081-1084	dem	_	_
+10-35	1085-1101	Institutsapparat	_	_
+10-36	1102-1104	zu	_	_
+10-37	1105-1111	suchen	_	_
+10-38	1112-1115	und	_	_
+10-39	1116-1123	hierher	_	_
+10-40	1124-1126	zu	_	_
+10-41	1127-1135	schicken	_	_
+10-42	1136-1137	.	_	_
+
+#Text=Der Zeichner wird vermuthlich bis
+11-1	1138-1141	Der	_	_
+11-2	1142-1150	Zeichner	_	_
+11-3	1151-1155	wird	_	_
+11-4	1156-1167	vermuthlich	_	_
+11-5	1168-1171	bis	_	_

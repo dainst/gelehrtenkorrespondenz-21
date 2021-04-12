@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=277 Braun an Gerhard Rom , 22. Juni 1837 Sig .
+1-1	0-3	277	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	22.	*[11]	DATEletter[11]
+1-8	31-35	Juni	*[11]	DATEletter[11]
+1-9	36-40	1837	*[11]	DATEletter[11]
+1-10	41-44	Sig	_	_
+1-11	45-46	.	_	_
+
+#Text=Cav .
+2-1	47-50	Cav	_	_
+2-2	51-52	.	_	_
+
+#Text=Gerhard Livorno Roma li 22 Giugno 1837 Hochverehrtester Freund \| !
+3-1	53-60	Gerhard	*	PERaddressee
+3-2	61-68	Livorno	*	PLACEto
+3-3	69-73	Roma	*	PLACEfrom
+3-4	74-76	li	_	_
+3-5	77-79	22	*[12]	DATEletter[12]
+3-6	80-86	Giugno	*[12]	DATEletter[12]
+3-7	87-91	1837	*[12]	DATEletter[12]
+3-8	92-108	Hochverehrtester	_	_
+3-9	109-115	Freund	_	_
+3-10	116-117	\|	_	_
+3-11	118-119	!	_	_
+
+#Text=Von meinen traurigen Vorahndungen wären also doch viele eingetreten .
+4-1	120-123	Von	_	_
+4-2	124-130	meinen	_	_
+4-3	131-140	traurigen	_	_
+4-4	141-153	Vorahndungen	_	_
+4-5	154-159	wären	_	_
+4-6	160-164	also	_	_
+4-7	165-169	doch	_	_
+4-8	170-175	viele	_	_
+4-9	176-187	eingetreten	_	_
+4-10	188-189	.	_	_
+
+#Text=Es schmerzt mich nur zu sehr .
+5-1	190-192	Es	_	_
+5-2	193-201	schmerzt	_	_
+5-3	202-206	mich	_	_
+5-4	207-210	nur	_	_
+5-5	211-213	zu	_	_
+5-6	214-218	sehr	_	_
+5-7	219-220	.	_	_
+
+#Text=-— Ich hatte Ihnen Briefe , von einigen Zeilen meiner Hand begleitet , nach Livorno an Bolaffi gesandt \; da Sie mir keine Ordre geben , sie zurückzufordern , So schreibe ich nicht deshalb .
+6-1	221-223	-—	_	_
+6-2	224-227	Ich	_	_
+6-3	228-233	hatte	_	_
+6-4	234-239	Ihnen	_	_
+6-5	240-246	Briefe	_	_
+6-6	247-248	,	_	_
+6-7	249-252	von	_	_
+6-8	253-260	einigen	_	_
+6-9	261-267	Zeilen	_	_
+6-10	268-274	meiner	_	_
+6-11	275-279	Hand	_	_
+6-12	280-289	begleitet	_	_
+6-13	290-291	,	_	_
+6-14	292-296	nach	_	_
+6-15	297-304	Livorno	*	PLACEmentioned
+6-16	305-307	an	_	_
+6-17	308-315	Bolaffi	*	PERmentioned
+6-18	316-323	gesandt	_	_
+6-19	324-325	\;	_	_
+6-20	326-328	da	_	_
+6-21	329-332	Sie	_	_
+6-22	333-336	mir	_	_
+6-23	337-342	keine	_	_
+6-24	343-348	Ordre	_	_
+6-25	349-354	geben	_	_
+6-26	355-356	,	_	_
+6-27	357-360	sie	_	_
+6-28	361-376	zurückzufordern	_	_
+6-29	377-378	,	_	_
+6-30	379-381	So	_	_
+6-31	382-390	schreibe	_	_
+6-32	391-394	ich	_	_
+6-33	395-400	nicht	_	_
+6-34	401-408	deshalb	_	_
+6-35	409-410	.	_	_
+
+#Text=Neapel ist verschlossen .
+7-1	411-417	Neapel	*	PLACEmentioned
+7-2	418-421	ist	_	_
+7-3	422-434	verschlossen	_	_
+7-4	435-436	.	_	_
+
+#Text=Zeichnungen sind dort nicht für Sie .
+8-1	437-448	Zeichnungen	_	_
+8-2	449-453	sind	_	_
+8-3	454-458	dort	_	_
+8-4	459-464	nicht	_	_
+8-5	465-468	für	_	_
+8-6	469-472	Sie	_	_
+8-7	473-474	.	_	_
+
+#Text=Die bei Lamberti vor Freitag angefertigten , wurden an das Institut eingesandt und für die Publication des 2.ten Monumentenheftes verwendet .
+9-1	475-478	Die	_	_
+9-2	479-482	bei	_	_
+9-3	483-491	Lamberti	*	PERmentioned
+9-4	492-495	vor	_	_
+9-5	496-503	Freitag	*	DATEmentioned
+9-6	504-517	angefertigten	_	_
+9-7	518-519	,	_	_
+9-8	520-526	wurden	_	_
+9-9	527-529	an	_	_
+9-10	530-533	das	_	_
+9-11	534-542	Institut	*	ORGmentioned
+9-12	543-553	eingesandt	_	_
+9-13	554-557	und	_	_
+9-14	558-561	für	_	_
+9-15	562-565	die	_	_
+9-16	566-577	Publication	_	_
+9-17	578-581	des	_	_
+9-18	582-587	2.ten	_	_
+9-19	588-604	Monumentenheftes	_	_
+9-20	605-614	verwendet	_	_
+9-21	615-616	.	_	_
+
+#Text=- In Neapel gehts fürchterlich zu \; sogar Schulz ist retirirt .
+10-1	617-618	-	_	_
+10-2	619-621	In	_	_
+10-3	622-628	Neapel	*	PLACEmentioned
+10-4	629-634	gehts	_	_
+10-5	635-647	fürchterlich	_	_
+10-6	648-650	zu	_	_
+10-7	651-652	\;	_	_
+10-8	653-658	sogar	_	_
+10-9	659-665	Schulz	*	PERmentioned
+10-10	666-669	ist	_	_
+10-11	670-678	retirirt	_	_
+10-12	679-680	.	_	_
+
+#Text=Von England habe ich gleichzeitig mit Ihrem Brief äußerst schlechte Nachrichten erhalten .
+11-1	681-684	Von	_	_
+11-2	685-692	England	*	PLACEmentioned
+11-3	693-697	habe	_	_
+11-4	698-701	ich	_	_
+11-5	702-714	gleichzeitig	_	_
+11-6	715-718	mit	_	_
+11-7	719-724	Ihrem	_	_
+11-8	725-730	Brief	_	_
+11-9	731-738	äußerst	_	_
+11-10	739-748	schlechte	_	_
+11-11	749-760	Nachrichten	_	_
+11-12	761-769	erhalten	_	_
+11-13	770-771	.	_	_
+
+#Text=Es kommt darauf an genau zu wissen , wie viel Bohn an Sie ausgezahlt hat .
+12-1	772-774	Es	_	_
+12-2	775-780	kommt	_	_
+12-3	781-787	darauf	_	_
+12-4	788-790	an	_	_
+12-5	791-796	genau	_	_
+12-6	797-799	zu	_	_
+12-7	800-806	wissen	_	_
+12-8	807-808	,	_	_
+12-9	809-812	wie	_	_
+12-10	813-817	viel	_	_
+12-11	818-822	Bohn	*	PERmentioned
+12-12	823-825	an	_	_
+12-13	826-829	Sie	_	_
+12-14	830-840	ausgezahlt	_	_
+12-15	841-844	hat	_	_
+12-16	845-846	.	_	_
+
+#Text=Usedom ist abgereist \; der neue Gesandtschaftsrath von Bach ist vorgestern hier angelangt , er hat Panofkas Okiron mitgebracht \; Reumont wurde von ihm als sein Hülfsschreiber erbeten \; außerdem erwartet man noch ein Attaccatino .
+13-1	847-853	Usedom	*	PERmentioned
+13-2	854-857	ist	_	_
+13-3	858-867	abgereist	_	_
+13-4	868-869	\;	_	_
+13-5	870-873	der	_	_
+13-6	874-878	neue	_	_
+13-7	879-897	Gesandtschaftsrath	_	_
+13-8	898-901	von	*[13]	PERmentioned[13]
+13-9	902-906	Bach	*[13]	PERmentioned[13]
+13-10	907-910	ist	_	_
+13-11	911-921	vorgestern	_	_
+13-12	922-926	hier	_	_
+13-13	927-936	angelangt	_	_
+13-14	937-938	,	_	_
+13-15	939-941	er	_	_
+13-16	942-945	hat	_	_
+13-17	946-954	Panofkas	*	PERmentioned
+13-18	955-961	Okiron	_	_
+13-19	962-973	mitgebracht	_	_
+13-20	974-975	\;	_	_
+13-21	976-983	Reumont	*	PERmentioned
+13-22	984-989	wurde	_	_
+13-23	990-993	von	_	_
+13-24	994-997	ihm	_	_
+13-25	998-1001	als	_	_
+13-26	1002-1006	sein	_	_
+13-27	1007-1021	Hülfsschreiber	_	_
+13-28	1022-1029	erbeten	_	_
+13-29	1030-1031	\;	_	_
+13-30	1032-1040	außerdem	_	_
+13-31	1041-1049	erwartet	_	_
+13-32	1050-1053	man	_	_
+13-33	1054-1058	noch	_	_
+13-34	1059-1062	ein	_	_
+13-35	1063-1074	Attaccatino	_	_
+13-36	1075-1076	.	_	_
+
+#Text=Viel Wolle ?
+14-1	1077-1081	Viel	_	_
+14-2	1082-1087	Wolle	_	_
+14-3	1088-1089	?	_	_
+
+#Text=- Kopitar war für einige Zeit hier \; wir sind dicke Freunde geworden .
+15-1	1090-1091	-	_	_
+15-2	1092-1099	Kopitar	*	PERmentioned
+15-3	1100-1103	war	_	_
+15-4	1104-1107	für	_	_
+15-5	1108-1114	einige	_	_
+15-6	1115-1119	Zeit	_	_
+15-7	1120-1124	hier	_	_
+15-8	1125-1126	\;	_	_
+15-9	1127-1130	wir	_	_
+15-10	1131-1135	sind	_	_
+15-11	1136-1141	dicke	_	_
+15-12	1142-1149	Freunde	_	_
+15-13	1150-1158	geworden	_	_
+15-14	1159-1160	.	_	_
+
+#Text=Soll ich überhaupt reisen , so muß ich in höchstens 14 Tagen fort von hier .
+16-1	1161-1165	Soll	_	_
+16-2	1166-1169	ich	_	_
+16-3	1170-1179	überhaupt	_	_
+16-4	1180-1186	reisen	_	_
+16-5	1187-1188	,	_	_
+16-6	1189-1191	so	_	_
+16-7	1192-1195	muß	_	_
+16-8	1196-1199	ich	_	_
+16-9	1200-1202	in	_	_
+16-10	1203-1212	höchstens	_	_
+16-11	1213-1215	14	_	_
+16-12	1216-1221	Tagen	_	_
+16-13	1222-1226	fort	_	_
+16-14	1227-1230	von	_	_
+16-15	1231-1235	hier	_	_
+16-16	1236-1237	.	_	_
+
+#Text=Wie ich Ihnen aber Ihre Sachen etc. übergeben soll , weiß ich durchaus nicht .
+17-1	1238-1241	Wie	_	_
+17-2	1242-1245	ich	_	_
+17-3	1246-1251	Ihnen	_	_
+17-4	1252-1256	aber	_	_
+17-5	1257-1261	Ihre	_	_
+17-6	1262-1268	Sachen	_	_
+17-7	1269-1273	etc.	_	_
+17-8	1274-1283	übergeben	_	_
+17-9	1284-1288	soll	_	_
+17-10	1289-1290	,	_	_
+17-11	1291-1295	weiß	_	_
+17-12	1296-1299	ich	_	_
+17-13	1300-1308	durchaus	_	_
+17-14	1309-1314	nicht	_	_
+17-15	1315-1316	.	_	_
+
+#Text=-
+18-1	1317-1318	-	_	_

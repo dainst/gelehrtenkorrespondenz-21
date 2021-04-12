@@ -1,0 +1,321 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Leipzig , 10 .
+1-1	0-7	Mommsen	*	PERauthor	
+1-2	8-10	an	_	_	
+1-3	11-16	Brunn	*	PERaddressee	
+1-4	17-24	Leipzig	*	PLACEfrom	
+1-5	25-26	,	_	_	
+1-6	27-29	10	*[1]	DATEletter[1]	
+1-7	30-31	.	*[1]	DATEletter[1]	
+
+#Text=August 1851 Hiebei Briefe für Philippi , für Rossi und Götzlofs .
+2-1	32-38	August	*[1]	DATEletter[1]	
+2-2	39-43	1851	*[1]	DATEletter[1]	
+2-3	44-50	Hiebei	_	_	
+2-4	51-57	Briefe	_	_	
+2-5	58-61	für	_	_	
+2-6	62-70	Philippi	*	PERmentioned	
+2-7	71-72	,	_	_	
+2-8	73-76	für	_	_	
+2-9	77-82	Rossi	*	PERmentioned	
+2-10	83-86	und	_	_	
+2-11	87-95	Götzlofs	*	PERmentioned	
+2-12	96-97	.	_	_	
+
+#Text=Die beiliegenden Inschriften vom Amorgrab sind für Philippi ; es wird aber besser sein , wenn Du sie zurückhälst bis er kommt .
+3-1	98-101	Die	_	_	
+3-2	102-114	beiliegenden	_	_	
+3-3	115-126	Inschriften	*	OBJ	
+3-4	127-130	vom	_	_	
+3-5	131-139	Amorgrab	*	OBJ	
+3-6	140-144	sind	_	_	
+3-7	145-148	für	_	_	
+3-8	149-157	Philippi	*	PERmentioned	
+3-9	158-159	;	_	_	
+3-10	160-162	es	_	_	
+3-11	163-167	wird	_	_	
+3-12	168-172	aber	_	_	
+3-13	173-179	besser	_	_	
+3-14	180-184	sein	_	_	
+3-15	185-186	,	_	_	
+3-16	187-191	wenn	_	_	
+3-17	192-194	Du	_	_	
+3-18	195-198	sie	_	_	
+3-19	199-210	zurückhälst	_	_	
+3-20	211-214	bis	_	_	
+3-21	215-217	er	_	_	
+3-22	218-223	kommt	_	_	
+3-23	224-225	.	_	_	
+
+#Text=Daß er den Brief noch in N. erhält , daran liegt mir .
+4-1	226-229	Daß	_	_	
+4-2	230-232	er	_	_	
+4-3	233-236	den	_	_	
+4-4	237-242	Brief	_	_	
+4-5	243-247	noch	_	_	
+4-6	248-250	in	_	_	
+4-7	251-253	N.	_	_	
+4-8	254-260	erhält	_	_	
+4-9	261-262	,	_	_	
+4-10	263-268	daran	_	_	
+4-11	269-274	liegt	_	_	
+4-12	275-278	mir	_	_	
+4-13	279-280	.	_	_	
+
+#Text=- Das Paket wird an Anselmi in Ancona adressirt , wenn Du nicht schreibst , sollte er abgeliefert haben , so mußt Du sofort mir das mittheilen .
+5-1	281-282	-	_	_	
+5-2	283-286	Das	_	_	
+5-3	287-292	Paket	_	_	
+5-4	293-297	wird	_	_	
+5-5	298-300	an	_	_	
+5-6	301-308	Anselmi	*	PERmentioned	
+5-7	309-311	in	_	_	
+5-8	312-318	Ancona	*	PLACEmentioned	
+5-9	319-328	adressirt	_	_	
+5-10	329-330	,	_	_	
+5-11	331-335	wenn	_	_	
+5-12	336-338	Du	_	_	
+5-13	339-344	nicht	_	_	
+5-14	345-354	schreibst	_	_	
+5-15	355-356	,	_	_	
+5-16	357-363	sollte	_	_	
+5-17	364-366	er	_	_	
+5-18	367-378	abgeliefert	_	_	
+5-19	379-384	haben	_	_	
+5-20	385-386	,	_	_	
+5-21	387-389	so	_	_	
+5-22	390-394	mußt	_	_	
+5-23	395-397	Du	_	_	
+5-24	398-404	sofort	_	_	
+5-25	405-408	mir	_	_	
+5-26	409-412	das	_	_	
+5-27	413-423	mittheilen	_	_	
+5-28	424-425	.	_	_	
+
+#Text=- Von den Leipziger Berichten schicke ich Dir phil . hist . Q. von 1850 , p . 143 , math .
+6-1	426-427	-	_	_	
+6-2	428-431	Von	_	_	
+6-3	432-435	den	_	_	
+6-4	436-445	Leipziger	*	PLACEmentioned	
+6-5	446-455	Berichten	_	_	
+6-6	456-463	schicke	_	_	
+6-7	464-467	ich	_	_	
+6-8	468-471	Dir	_	_	
+6-9	472-476	phil	_	_	
+6-10	477-478	.	_	_	
+6-11	479-483	hist	_	_	
+6-12	484-485	.	_	_	
+6-13	486-488	Q.	_	_	
+6-14	489-492	von	_	_	
+6-15	493-497	1850	*	DATEmentioned	
+6-16	498-499	,	_	_	
+6-17	500-501	p	_	_	
+6-18	502-503	.	_	_	
+6-19	504-507	143	_	_	
+6-20	508-509	,	_	_	
+6-21	510-514	math	_	_	
+6-22	515-516	.	_	_	
+
+#Text=phil . Q. von 1850 p . 1 an , und die Abhandlungen ; Du hast Dich nicht zurecht gefunden weil Du die Philologie glauba ich zu den exarten Wissenschaften ungebührlicher Weise rechnest , Es wundert mich , Es wundert mich , daß Ihr den ersten Band der Abhandlungen noch nicht habt , sieh darüber nach , ebenso wegen der Hefte 1847 I - IV .
+7-1	517-521	phil	_	_	
+7-2	522-523	.	_	_	
+7-3	524-526	Q.	_	_	
+7-4	527-530	von	_	_	
+7-5	531-535	1850	*	DATEmentioned	
+7-6	536-537	p	_	_	
+7-7	538-539	.	_	_	
+7-8	540-541	1	_	_	
+7-9	542-544	an	_	_	
+7-10	545-546	,	_	_	
+7-11	547-550	und	_	_	
+7-12	551-554	die	_	_	
+7-13	555-567	Abhandlungen	_	_	
+7-14	568-569	;	_	_	
+7-15	570-572	Du	_	_	
+7-16	573-577	hast	_	_	
+7-17	578-582	Dich	_	_	
+7-18	583-588	nicht	_	_	
+7-19	589-596	zurecht	_	_	
+7-20	597-605	gefunden	_	_	
+7-21	606-610	weil	_	_	
+7-22	611-613	Du	_	_	
+7-23	614-617	die	_	_	
+7-24	618-628	Philologie	_	_	
+7-25	629-635	glauba	_	_	
+7-26	636-639	ich	_	_	
+7-27	640-642	zu	_	_	
+7-28	643-646	den	_	_	
+7-29	647-654	exarten	_	_	
+7-30	655-669	Wissenschaften	_	_	
+7-31	670-684	ungebührlicher	_	_	
+7-32	685-690	Weise	_	_	
+7-33	691-699	rechnest	_	_	
+7-34	700-701	,	_	_	
+7-35	702-704	Es	_	_	
+7-36	705-712	wundert	_	_	
+7-37	713-717	mich	_	_	
+7-38	718-719	,	_	_	
+7-39	720-722	Es	_	_	
+7-40	723-730	wundert	_	_	
+7-41	731-735	mich	_	_	
+7-42	736-737	,	_	_	
+7-43	738-741	daß	_	_	
+7-44	742-745	Ihr	_	_	
+7-45	746-749	den	_	_	
+7-46	750-756	ersten	_	_	
+7-47	757-761	Band	_	_	
+7-48	762-765	der	_	_	
+7-49	766-778	Abhandlungen	_	_	
+7-50	779-783	noch	_	_	
+7-51	784-789	nicht	_	_	
+7-52	790-794	habt	_	_	
+7-53	795-796	,	_	_	
+7-54	797-801	sieh	_	_	
+7-55	802-809	darüber	_	_	
+7-56	810-814	nach	_	_	
+7-57	815-816	,	_	_	
+7-58	817-823	ebenso	_	_	
+7-59	824-829	wegen	_	_	
+7-60	830-833	der	_	_	
+7-61	834-839	Hefte	_	_	
+7-62	840-844	1847	*	DATEmentioned	
+7-63	845-846	I	_	_	
+7-64	847-848	-	_	_	
+7-65	849-851	IV	_	_	
+7-66	852-853	.	_	_	
+
+#Text=Vi .
+8-1	854-856	Vi	_	_	
+8-2	857-858	.	_	_	
+
+#Text=VIII , die ganz gewiß hingekommen sind .
+9-1	859-863	VIII	_	_	
+9-2	864-865	,	_	_	
+9-3	866-869	die	_	_	
+9-4	870-874	ganz	_	_	
+9-5	875-880	gewiß	_	_	
+9-6	881-892	hingekommen	_	_	
+9-7	893-897	sind	_	_	
+9-8	898-899	.	_	_	
+
+#Text=Sollten sie indeß wirklich fehlen , nicht bloß ausgegeben sein , so schreibe gleich , es wird wahrscheinlich noch Zeit sein .
+10-1	900-907	Sollten	_	_	
+10-2	908-911	sie	_	_	
+10-3	912-917	indeß	_	_	
+10-4	918-926	wirklich	_	_	
+10-5	927-933	fehlen	_	_	
+10-6	934-935	,	_	_	
+10-7	936-941	nicht	_	_	
+10-8	942-946	bloß	_	_	
+10-9	947-957	ausgegeben	_	_	
+10-10	958-962	sein	_	_	
+10-11	963-964	,	_	_	
+10-12	965-967	so	_	_	
+10-13	968-976	schreibe	_	_	
+10-14	977-983	gleich	_	_	
+10-15	984-985	,	_	_	
+10-16	986-988	es	_	_	
+10-17	989-993	wird	_	_	
+10-18	994-1008	wahrscheinlich	_	_	
+10-19	1009-1013	noch	_	_	
+10-20	1014-1018	Zeit	_	_	
+10-21	1019-1023	sein	_	_	
+10-22	1024-1025	.	_	_	
+
+#Text=Auch lasse Dir von Rossi sagen , was ihm von meinen epigr .
+11-1	1026-1030	Auch	_	_	
+11-2	1031-1036	lasse	_	_	
+11-3	1037-1040	Dir	_	_	
+11-4	1041-1044	von	_	_	
+11-5	1045-1050	Rossi	*	PERmentioned	
+11-6	1051-1056	sagen	_	_	
+11-7	1057-1058	,	_	_	
+11-8	1059-1062	was	_	_	
+11-9	1063-1066	ihm	_	_	
+11-10	1067-1070	von	_	_	
+11-11	1071-1077	meinen	_	_	
+11-12	1078-1083	epigr	_	_	
+11-13	1084-1085	.	_	_	
+
+#Text=Annalen fehlt ; das will ich auch beilegen .
+12-1	1086-1093	Annalen	_	_	
+12-2	1094-1099	fehlt	_	_	
+12-3	1100-1101	;	_	_	
+12-4	1102-1105	das	_	_	
+12-5	1106-1110	will	_	_	
+12-6	1111-1114	ich	_	_	
+12-7	1115-1119	auch	_	_	
+12-8	1120-1128	beilegen	_	_	
+12-9	1129-1130	.	_	_	
+
+#Text=- Curtius Peloponnes - eine musterhafte Arbeit - habe ich für Dich verschrieben ; kostet 3 1/3 rtt .
+13-1	1131-1132	-	_	_	
+13-2	1133-1140	Curtius	*	PERmentioned	
+13-3	1141-1151	Peloponnes	*	PLACEmentioned	
+13-4	1152-1153	-	_	_	
+13-5	1154-1158	eine	_	_	
+13-6	1159-1170	musterhafte	_	_	
+13-7	1171-1177	Arbeit	_	_	
+13-8	1178-1179	-	_	_	
+13-9	1180-1184	habe	_	_	
+13-10	1185-1188	ich	_	_	
+13-11	1189-1192	für	_	_	
+13-12	1193-1197	Dich	_	_	
+13-13	1198-1210	verschrieben	_	_	
+13-14	1211-1212	;	_	_	
+13-15	1213-1219	kostet	_	_	
+13-16	1220-1221	3	_	_	
+13-17	1222-1225	1/3	_	_	
+13-18	1226-1229	rtt	_	_	
+13-19	1230-1231	.	_	_	
+
+#Text=deßgleichen quella porchaccia des Franzosen .
+14-1	1232-1243	deßgleichen	_	_	
+14-2	1244-1250	quella	_	_	
+14-3	1251-1261	porchaccia	_	_	
+14-4	1262-1265	des	_	_	
+14-5	1266-1275	Franzosen	_	_	
+14-6	1276-1277	.	_	_	
+
+#Text=- Hermanns Polygnot habe ich selbst ( Du meinst doch `` epikrit , Bem .
+15-1	1278-1279	-	_	_	
+15-2	1280-1288	Hermanns	*	PERmentioned	
+15-3	1289-1297	Polygnot	_	_	
+15-4	1298-1302	habe	_	_	
+15-5	1303-1306	ich	_	_	
+15-6	1307-1313	selbst	_	_	
+15-7	1314-1315	(	_	_	
+15-8	1316-1318	Du	_	_	
+15-9	1319-1325	meinst	_	_	
+15-10	1326-1330	doch	_	_	
+15-11	1331-1333	``	_	_	
+15-12	1334-1341	epikrit	_	_	
+15-13	1342-1343	,	_	_	
+15-14	1344-1347	Bem	_	_	
+15-15	1348-1349	.	_	_	
+
+#Text=über die polygn .
+16-1	1350-1354	über	_	_	
+16-2	1355-1358	die	_	_	
+16-3	1359-1365	polygn	*[2]	OBJ[2]	
+16-4	1366-1367	.	*[2]	OBJ[2]	
+
+#Text=Gemälde '' mit einer Tafel ? )
+17-1	1368-1375	Gemälde	*[2]	OBJ[2]	
+17-2	1376-1378	''	_	_	
+17-3	1379-1382	mit	_	_	
+17-4	1383-1388	einer	_	_	
+17-5	1389-1394	Tafel	_	_	
+17-6	1395-1396	?	_	_	
+17-7	1397-1398	)	_	_	
+
+#Text=und schicke sie dem Würdigeren .
+18-1	1399-1402	und	_	_	
+18-2	1403-1410	schicke	_	_	
+18-3	1411-1414	sie	_	_	
+18-4	1415-1418	dem	_	_	
+18-5	1419-1429	Würdigeren	_	_	
+18-6	1430-1431	.	_	_	

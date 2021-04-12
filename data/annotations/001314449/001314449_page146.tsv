@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ohne Nummer Henzen an Gerhard 25/VIII/53 Weine Frau grüßt herzlich mit mir Sie u. die Ihrige .
+1-1	0-4	Ohne	_	_
+1-2	5-11	Nummer	_	_
+1-3	12-18	Henzen	*	PERauthor
+1-4	19-21	an	_	_
+1-5	22-29	Gerhard	*	PERaddressee
+1-6	30-40	25/VIII/53	*	DATEletter
+1-7	41-46	Weine	_	_
+1-8	47-51	Frau	_	_
+1-9	52-57	grüßt	_	_
+1-10	58-66	herzlich	_	_
+1-11	67-70	mit	_	_
+1-12	71-74	mir	_	_
+1-13	75-78	Sie	_	_
+1-14	79-81	u.	_	_
+1-15	82-85	die	_	_
+1-16	86-92	Ihrige	_	_
+1-17	93-94	.	_	_
+
+#Text=Ihr ergebenster WH , Rocca di Papa 25/VIII 53 , P.S .
+2-1	95-98	Ihr	_	_
+2-2	99-110	ergebenster	_	_
+2-3	111-113	WH	*	PERauthor
+2-4	114-115	,	_	_
+2-5	116-121	Rocca	*[1]	PLACEfrom[1]
+2-6	122-124	di	*[1]	PLACEfrom[1]
+2-7	125-129	Papa	*[1]	PLACEfrom[1]
+2-8	130-137	25/VIII	*[2]	DATEletter[2]
+2-9	138-140	53	*[2]	DATEletter[2]
+2-10	141-142	,	_	_
+2-11	143-146	P.S	_	_
+2-12	147-148	.	_	_
+
+#Text=Nommsen schreibt , Ritschl habe keine Schwieriekeit gesehen , die Ausbeute der Brunnischen Reise nach unsrem Gefallen zu publiciren , u. so werde ich denn nach Br 's Zurückkunft mich vorl & öufie darüber her machen .
+3-1	149-156	Nommsen	*	PERmentioned
+3-2	157-165	schreibt	_	_
+3-3	166-167	,	_	_
+3-4	168-175	Ritschl	*	PERmentioned
+3-5	176-180	habe	_	_
+3-6	181-186	keine	_	_
+3-7	187-200	Schwieriekeit	_	_
+3-8	201-208	gesehen	_	_
+3-9	209-210	,	_	_
+3-10	211-214	die	_	_
+3-11	215-223	Ausbeute	_	_
+3-12	224-227	der	_	_
+3-13	228-239	Brunnischen	_	_
+3-14	240-245	Reise	_	_
+3-15	246-250	nach	_	_
+3-16	251-257	unsrem	_	_
+3-17	258-266	Gefallen	_	_
+3-18	267-269	zu	_	_
+3-19	270-280	publiciren	_	_
+3-20	281-282	,	_	_
+3-21	283-285	u.	_	_
+3-22	286-288	so	_	_
+3-23	289-294	werde	_	_
+3-24	295-298	ich	_	_
+3-25	299-303	denn	_	_
+3-26	304-308	nach	_	_
+3-27	309-311	Br	*[3]	PERmentioned[3]
+3-28	312-314	's	*[3]	PERmentioned[3]
+3-29	315-326	Zurückkunft	_	_
+3-30	327-331	mich	_	_
+3-31	332-336	vorl	_	_
+3-32	337-338	&	_	_
+3-33	339-344	öufie	_	_
+3-34	345-352	darüber	_	_
+3-35	353-356	her	_	_
+3-36	357-363	machen	_	_
+3-37	364-365	.	_	_
+
+#Text=Ich erinnere noch an Pulcinella Garsallo u. an Auskunft über etwaige Hülfsfonds für das G , I.L , , u. bitte um Besorguns einlierender Briefe ,
+4-1	366-369	Ich	_	_
+4-2	370-378	erinnere	_	_
+4-3	379-383	noch	_	_
+4-4	384-386	an	_	_
+4-5	387-397	Pulcinella	_	_
+4-6	398-406	Garsallo	*	PERmentioned
+4-7	407-409	u.	_	_
+4-8	410-412	an	_	_
+4-9	413-421	Auskunft	_	_
+4-10	422-426	über	_	_
+4-11	427-434	etwaige	_	_
+4-12	435-445	Hülfsfonds	_	_
+4-13	446-449	für	_	_
+4-14	450-453	das	_	_
+4-15	454-455	G	_	_
+4-16	456-457	,	_	_
+4-17	458-461	I.L	_	_
+4-18	462-463	,	_	_
+4-19	464-465	,	_	_
+4-20	466-468	u.	_	_
+4-21	469-474	bitte	_	_
+4-22	475-477	um	_	_
+4-23	478-487	Besorguns	_	_
+4-24	488-500	einlierender	_	_
+4-25	501-507	Briefe	_	_
+4-26	508-509	,	_	_

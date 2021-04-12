@@ -1,0 +1,29 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 18 Februar 1836 in meiner Geschäftsbedrängniß allein zu versorgen unfähig bin .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	18	*[4]	DATEletter[4]
+1-7	29-36	Februar	*[4]	DATEletter[4]
+1-8	37-41	1836	*[4]	DATEletter[4]
+1-9	42-44	in	_	_
+1-10	45-51	meiner	_	_
+1-11	52-71	Geschäftsbedrängniß	_	_
+1-12	72-78	allein	_	_
+1-13	79-81	zu	_	_
+1-14	82-91	versorgen	_	_
+1-15	92-99	unfähig	_	_
+1-16	100-103	bin	_	_
+1-17	104-105	.	_	_
+
+#Text=Gott behüte Sie Gerhard !
+2-1	106-110	Gott	_	_
+2-2	111-117	behüte	_	_
+2-3	118-121	Sie	_	_
+2-4	122-129	Gerhard	*	PERauthor
+2-5	130-131	!	_	_

@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=829 Lepsius an Helbig L Berlin , 6. Dezember 1881 Berlin , C. 6. Dezember 71881 Verehrtester Freund Die vermeldete Kiste ist hier noch immer nicht angekommen .
+1-1	0-3	829	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Helbig	*	PERaddressee
+1-5	22-23	L	_	_
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-35	6.	*[1]	DATEletter[1]
+1-9	36-44	Dezember	*[1]	DATEletter[1]
+1-10	45-49	1881	*[1]	DATEletter[1]
+1-11	50-56	Berlin	*	PLACEfrom
+1-12	57-58	,	_	_
+1-13	59-61	C.	_	_
+1-14	62-64	6.	*[2]	DATEletter[2]
+1-15	65-73	Dezember	*[2]	DATEletter[2]
+1-16	74-79	71881	*[2]	DATEletter[2]
+1-17	80-92	Verehrtester	_	_
+1-18	93-99	Freund	_	_
+1-19	100-103	Die	_	_
+1-20	104-114	vermeldete	_	_
+1-21	115-120	Kiste	_	_
+1-22	121-124	ist	_	_
+1-23	125-129	hier	_	_
+1-24	130-134	noch	_	_
+1-25	135-140	immer	_	_
+1-26	141-146	nicht	_	_
+1-27	147-157	angekommen	_	_
+1-28	158-159	.	_	_
+
+#Text=Ich kann Ihnen daher auch noch nicht auf Ihre Frage , wegen des beigepackten Gypses antworten \; wohl aber schon im voraus meinen aufrichtigen Dank für Ihre Mühe und Sorge sagen .
+2-1	160-163	Ich	_	_
+2-2	164-168	kann	_	_
+2-3	169-174	Ihnen	_	_
+2-4	175-180	daher	_	_
+2-5	181-185	auch	_	_
+2-6	186-190	noch	_	_
+2-7	191-196	nicht	_	_
+2-8	197-200	auf	_	_
+2-9	201-205	Ihre	_	_
+2-10	206-211	Frage	_	_
+2-11	212-213	,	_	_
+2-12	214-219	wegen	_	_
+2-13	220-223	des	_	_
+2-14	224-236	beigepackten	_	_
+2-15	237-243	Gypses	_	_
+2-16	244-253	antworten	_	_
+2-17	254-255	\;	_	_
+2-18	256-260	wohl	_	_
+2-19	261-265	aber	_	_
+2-20	266-271	schon	_	_
+2-21	272-274	im	_	_
+2-22	275-281	voraus	_	_
+2-23	282-288	meinen	_	_
+2-24	289-301	aufrichtigen	_	_
+2-25	302-306	Dank	_	_
+2-26	307-310	für	_	_
+2-27	311-315	Ihre	_	_
+2-28	316-320	Mühe	_	_
+2-29	321-324	und	_	_
+2-30	325-330	Sorge	_	_
+2-31	331-336	sagen	_	_
+2-32	337-338	.	_	_
+
+#Text=Nur für meinen Dankbrief an den oder die bitte ich mir noch die Adresse aus .
+3-1	339-342	Nur	_	_
+3-2	343-346	für	_	_
+3-3	347-353	meinen	_	_
+3-4	354-363	Dankbrief	_	_
+3-5	364-366	an	_	_
+3-6	367-370	den	_	_
+3-7	371-375	oder	_	_
+3-8	376-379	die	_	_
+3-9	380-385	bitte	_	_
+3-10	386-389	ich	_	_
+3-11	390-393	mir	_	_
+3-12	394-398	noch	_	_
+3-13	399-402	die	_	_
+3-14	403-410	Adresse	_	_
+3-15	411-414	aus	_	_
+3-16	415-416	.	_	_
+
+#Text=Die 85 Lire werden bei der Ankunft hier gezahlt .
+4-1	417-420	Die	_	_
+4-2	421-423	85	_	_
+4-3	424-428	Lire	_	_
+4-4	429-435	werden	_	_
+4-5	436-439	bei	_	_
+4-6	440-443	der	_	_
+4-7	444-451	Ankunft	_	_
+4-8	452-456	hier	_	_
+4-9	457-464	gezahlt	_	_
+4-10	465-466	.	_	_
+
+#Text=Es wäre ja sehr schön , wenn Ihre Vermuthung wegen des Nebukadnezar Steins sich erfüllte .
+5-1	467-469	Es	_	_
+5-2	470-474	wäre	_	_
+5-3	475-477	ja	_	_
+5-4	478-482	sehr	_	_
+5-5	483-488	schön	_	_
+5-6	489-490	,	_	_
+5-7	491-495	wenn	_	_
+5-8	496-500	Ihre	_	_
+5-9	501-511	Vermuthung	_	_
+5-10	512-517	wegen	_	_
+5-11	518-521	des	_	_
+5-12	522-534	Nebukadnezar	*[3]	OBJ[3]
+5-13	535-541	Steins	*[3]	OBJ[3]
+5-14	542-546	sich	_	_
+5-15	547-555	erfüllte	_	_
+5-16	556-557	.	_	_
+
+#Text=Doch werde ich so lange darüber schweigen , bis Sie mir das Siegel lösen , und die Versicherung bezahlen .
+6-1	558-562	Doch	_	_
+6-2	563-568	werde	_	_
+6-3	569-572	ich	_	_
+6-4	573-575	so	_	_
+6-5	576-581	lange	_	_
+6-6	582-589	darüber	_	_
+6-7	590-599	schweigen	_	_
+6-8	600-601	,	_	_
+6-9	602-605	bis	_	_
+6-10	606-609	Sie	_	_
+6-11	610-613	mir	_	_
+6-12	614-617	das	_	_
+6-13	618-624	Siegel	_	_
+6-14	625-630	lösen	_	_
+6-15	631-632	,	_	_
+6-16	633-636	und	_	_
+6-17	637-640	die	_	_
+6-18	641-653	Versicherung	_	_
+6-19	654-662	bezahlen	_	_
+6-20	663-664	.	_	_
+
+#Text=Ich hoffe nur daß Alles gut hier ankommt .
+7-1	665-668	Ich	_	_
+7-2	669-674	hoffe	_	_
+7-3	675-678	nur	_	_
+7-4	679-682	daß	_	_
+7-5	683-688	Alles	_	_
+7-6	689-692	gut	_	_
+7-7	693-697	hier	_	_
+7-8	698-705	ankommt	_	_
+7-9	706-707	.	_	_
+
+#Text=Nur wenn die Speditionszeit Ihnen über Gebühr lang scheint , bitte ich beim Spediteur nachzufragen .
+8-1	708-711	Nur	_	_
+8-2	712-716	wenn	_	_
+8-3	717-720	die	_	_
+8-4	721-735	Speditionszeit	_	_
+8-5	736-741	Ihnen	_	_
+8-6	742-746	über	_	_
+8-7	747-753	Gebühr	_	_
+8-8	754-758	lang	_	_
+8-9	759-766	scheint	_	_
+8-10	767-768	,	_	_
+8-11	769-774	bitte	_	_
+8-12	775-778	ich	_	_
+8-13	779-783	beim	_	_
+8-14	784-793	Spediteur	_	_
+8-15	794-806	nachzufragen	_	_
+8-16	807-808	.	_	_
+
+#Text=Hier frösteln wir zwischen Herbst und Winter fort .
+9-1	809-813	Hier	_	_
+9-2	814-822	frösteln	_	_
+9-3	823-826	wir	_	_
+9-4	827-835	zwischen	_	_
+9-5	836-842	Herbst	_	_
+9-6	843-846	und	_	_
+9-7	847-853	Winter	_	_
+9-8	854-858	fort	_	_
+9-9	859-860	.	_	_
+
+#Text=Noch haben wir keinen Schnee gehabt .
+10-1	861-865	Noch	_	_
+10-2	866-871	haben	_	_
+10-3	872-875	wir	_	_
+10-4	876-882	keinen	_	_
+10-5	883-889	Schnee	_	_
+10-6	890-896	gehabt	_	_
+10-7	897-898	.	_	_
+
+#Text=Ich bitte Henzen von mir herzlich zu grüßen .
+11-1	899-902	Ich	_	_
+11-2	903-908	bitte	_	_
+11-3	909-915	Henzen	*	PERmentioned
+11-4	916-919	von	_	_
+11-5	920-923	mir	_	_
+11-6	924-932	herzlich	_	_
+11-7	933-935	zu	_	_
+11-8	936-942	grüßen	_	_
+11-9	943-944	.	_	_
+
+#Text=Leben Sie wohl .
+12-1	945-950	Leben	_	_
+12-2	951-954	Sie	_	_
+12-3	955-959	wohl	_	_
+12-4	960-961	.	_	_
+
+#Text=Ihr treu ergebner R Lepsius
+13-1	962-965	Ihr	_	_
+13-2	966-970	treu	_	_
+13-3	971-979	ergebner	_	_
+13-4	980-981	R	*[4]	PERauthor[4]
+13-5	982-989	Lepsius	*[4]	PERauthor[4]

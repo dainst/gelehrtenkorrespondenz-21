@@ -1,0 +1,173 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=381 Helbig an Henzen Neapel , 16 .
+1-1	0-3	381	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	16	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=August 1864 dersegens .
+2-1	35-41	August	*[3]	DATEletter[3]
+2-2	42-46	1864	*[3]	DATEletter[3]
+2-3	47-56	dersegens	_	_
+2-4	57-58	.	_	_
+
+#Text=Von der Inschrift von Calvi werde ich Ihnen nächstens einen Abklatsch schicken können , da sie binnen Kurzem dem Museum einverleibt werden wird .
+3-1	59-62	Von	_	_
+3-2	63-66	der	_	_
+3-3	67-76	Inschrift	*	OBJ
+3-4	77-80	von	_	_
+3-5	81-86	Calvi	*	PLACEmentioned
+3-6	87-92	werde	_	_
+3-7	93-96	ich	_	_
+3-8	97-102	Ihnen	_	_
+3-9	103-112	nächstens	_	_
+3-10	113-118	einen	_	_
+3-11	119-128	Abklatsch	_	_
+3-12	129-137	schicken	_	_
+3-13	138-144	können	_	_
+3-14	145-146	,	_	_
+3-15	147-149	da	_	_
+3-16	150-153	sie	_	_
+3-17	154-160	binnen	_	_
+3-18	161-167	Kurzem	_	_
+3-19	168-171	dem	_	_
+3-20	172-178	Museum	*	ORGmentioned
+3-21	179-190	einverleibt	_	_
+3-22	191-197	werden	_	_
+3-23	198-202	wird	_	_
+3-24	203-204	.	_	_
+
+#Text=De Vecchi ist der bekannte Deputirte .
+4-1	205-207	De	*[4]	PERmentioned[4]
+4-2	208-214	Vecchi	*[4]	PERmentioned[4]
+4-3	215-218	ist	_	_
+4-4	219-222	der	_	_
+4-5	223-231	bekannte	_	_
+4-6	232-241	Deputirte	_	_
+4-7	242-243	.	_	_
+
+#Text=Adresse Torino p. i. del parlamento nazionale .
+5-1	244-251	Adresse	_	_
+5-2	252-258	Torino	*	PLACEmentioned
+5-3	259-261	p.	_	_
+5-4	262-264	i.	_	_
+5-5	265-268	del	_	_
+5-6	269-279	parlamento	_	_
+5-7	280-289	nazionale	_	_
+5-8	290-291	.	_	_
+
+#Text=Von Gerhard traf vor einigen Tagen ein Brief ein , wie gewöhnlich vergnüglich und hoffnungsreich .
+6-1	292-295	Von	_	_
+6-2	296-303	Gerhard	*	PERmentioned
+6-3	304-308	traf	_	_
+6-4	309-312	vor	_	_
+6-5	313-320	einigen	_	_
+6-6	321-326	Tagen	_	_
+6-7	327-330	ein	_	_
+6-8	331-336	Brief	_	_
+6-9	337-340	ein	_	_
+6-10	341-342	,	_	_
+6-11	343-346	wie	_	_
+6-12	347-357	gewöhnlich	_	_
+6-13	358-369	vergnüglich	_	_
+6-14	370-373	und	_	_
+6-15	374-388	hoffnungsreich	_	_
+6-16	389-390	.	_	_
+
+#Text=Ich bitte ihm von meinem Pumpe nichts zu schreiben .
+7-1	391-394	Ich	_	_
+7-2	395-400	bitte	_	_
+7-3	401-404	ihm	_	_
+7-4	405-408	von	_	_
+7-5	409-415	meinem	_	_
+7-6	416-421	Pumpe	_	_
+7-7	422-428	nichts	_	_
+7-8	429-431	zu	_	_
+7-9	432-441	schreiben	_	_
+7-10	442-443	.	_	_
+
+#Text=Sonst verläßt er sich darauf und denkt , ich kann mich verschiedene Jahre so durchpumpen .
+8-1	444-449	Sonst	_	_
+8-2	450-457	verläßt	_	_
+8-3	458-460	er	_	_
+8-4	461-465	sich	_	_
+8-5	466-472	darauf	_	_
+8-6	473-476	und	_	_
+8-7	477-482	denkt	_	_
+8-8	483-484	,	_	_
+8-9	485-488	ich	_	_
+8-10	489-493	kann	_	_
+8-11	494-498	mich	_	_
+8-12	499-511	verschiedene	_	_
+8-13	512-517	Jahre	_	_
+8-14	518-520	so	_	_
+8-15	521-532	durchpumpen	_	_
+8-16	533-534	.	_	_
+
+#Text=In 12 Tagen siedle ich nach Pompei über .
+9-1	535-537	In	_	_
+9-2	538-540	12	_	_
+9-3	541-546	Tagen	_	_
+9-4	547-553	siedle	_	_
+9-5	554-557	ich	_	_
+9-6	558-562	nach	_	_
+9-7	563-569	Pompei	*	PLACEmentioned
+9-8	570-574	über	_	_
+9-9	575-576	.	_	_
+
+#Text=Der ribasso , um welchen ich beim Minister eingekommen war , ist mir nicht bewilligt worden .
+10-1	577-580	Der	_	_
+10-2	581-588	ribasso	_	_
+10-3	589-590	,	_	_
+10-4	591-593	um	_	_
+10-5	594-601	welchen	_	_
+10-6	602-605	ich	_	_
+10-7	606-610	beim	_	_
+10-8	611-619	Minister	*	PERmentioned
+10-9	620-631	eingekommen	_	_
+10-10	632-635	war	_	_
+10-11	636-637	,	_	_
+10-12	638-641	ist	_	_
+10-13	642-645	mir	_	_
+10-14	646-651	nicht	_	_
+10-15	652-661	bewilligt	_	_
+10-16	662-668	worden	_	_
+10-17	669-670	.	_	_
+
+#Text=Er hat mir einen höflichen Brief geschrieben , jedoch erklärt , es dürfe in dieser Hinsicht keine Ausnahme gemacht werden .
+11-1	671-673	Er	_	_
+11-2	674-677	hat	_	_
+11-3	678-681	mir	_	_
+11-4	682-687	einen	_	_
+11-5	688-697	höflichen	_	_
+11-6	698-703	Brief	_	_
+11-7	704-715	geschrieben	_	_
+11-8	716-717	,	_	_
+11-9	718-724	jedoch	_	_
+11-10	725-732	erklärt	_	_
+11-11	733-734	,	_	_
+11-12	735-737	es	_	_
+11-13	738-743	dürfe	_	_
+11-14	744-746	in	_	_
+11-15	747-753	dieser	_	_
+11-16	754-762	Hinsicht	_	_
+11-17	763-768	keine	_	_
+11-18	769-777	Ausnahme	_	_
+11-19	778-785	gemacht	_	_
+11-20	786-792	werden	_	_
+11-21	793-794	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr Wolfgang Helbig
+12-1	795-798	Mit	_	_
+12-2	799-809	herzlichen	_	_
+12-3	810-816	Grüßen	_	_
+12-4	817-820	Ihr	_	_
+12-5	821-829	Wolfgang	*[5]	PERauthor[5]
+12-6	830-836	Helbig	*[5]	PERauthor[5]

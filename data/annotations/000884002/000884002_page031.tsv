@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=275 Brunn an Henzen Perugia , 27 .
+1-1	0-3	275	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	27	*[5]	DATEletter[5]
+1-8	33-34	.	*[5]	DATEletter[5]
+
+#Text=Sept .
+2-1	35-39	Sept	*[5]	DATEletter[5]
+2-2	40-41	.	*[5]	DATEletter[5]
+
+#Text=1858 A. di Dir .
+3-1	42-46	1858	*[5]	DATEletter[5]
+3-2	47-49	A.	_	_
+3-3	50-52	di	_	_
+3-4	53-56	Dir	_	_
+3-5	57-58	.	_	_
+
+#Text=8 . 29. September 71858 r . 30. September 1858 Perugia , 27 Sept .
+4-1	59-60	8	_	_
+4-2	61-62	.	_	_
+4-3	63-66	29.	*[6]	DATErecieved[6]
+4-4	67-76	September	*[6]	DATErecieved[6]
+4-5	77-82	71858	*[6]	DATErecieved[6]
+4-6	83-84	r	_	_
+4-7	85-86	.	_	_
+4-8	87-90	30.	*[7]	DATEanswered[7]
+4-9	91-100	September	*[7]	DATEanswered[7]
+4-10	101-105	1858	*[7]	DATEanswered[7]
+4-11	106-113	Perugia	*	PLACEfrom
+4-12	114-115	,	_	_
+4-13	116-118	27	*[8]	DATEletter[8]
+4-14	119-123	Sept	*[8]	DATEletter[8]
+4-15	124-125	.	*[8]	DATEletter[8]
+
+#Text=1858 .
+5-1	126-130	1858	*[8]	DATEletter[8]
+5-2	131-132	.	_	_
+
+#Text=Lieber Henzen Sie erhalten sofort die beiden Welcker'schen Artidkfl zurück .
+6-1	133-139	Lieber	_	_
+6-2	140-146	Henzen	*	PERaddressee
+6-3	147-150	Sie	_	_
+6-4	151-159	erhalten	_	_
+6-5	160-166	sofort	_	_
+6-6	167-170	die	_	_
+6-7	171-177	beiden	_	_
+6-8	178-191	Welcker'schen	*	MISC
+6-9	192-200	Artidkfl	_	_
+6-10	201-207	zurück	_	_
+6-11	208-209	.	_	_
+
+#Text=Die Sapho hatten wir allerdings Jahn cedirt \; ich habe ihm sogar die Zeichnung geschickt und nur einen Centaur behalten ( doch ist sie bis dato noch nicht publicirt ) .
+7-1	210-213	Die	_	_
+7-2	214-219	Sapho	*	PERmentioned
+7-3	220-226	hatten	_	_
+7-4	227-230	wir	_	_
+7-5	231-241	allerdings	_	_
+7-6	242-246	Jahn	*	PERmentioned
+7-7	247-253	cedirt	_	_
+7-8	254-255	\;	_	_
+7-9	256-259	ich	_	_
+7-10	260-264	habe	_	_
+7-11	265-268	ihm	_	_
+7-12	269-274	sogar	_	_
+7-13	275-278	die	_	_
+7-14	279-288	Zeichnung	_	_
+7-15	289-298	geschickt	_	_
+7-16	299-302	und	_	_
+7-17	303-306	nur	_	_
+7-18	307-312	einen	_	_
+7-19	313-320	Centaur	_	_
+7-20	321-329	behalten	_	_
+7-21	330-331	(	_	_
+7-22	332-336	doch	_	_
+7-23	337-340	ist	_	_
+7-24	341-344	sie	_	_
+7-25	345-348	bis	_	_
+7-26	349-353	dato	_	_
+7-27	354-358	noch	_	_
+7-28	359-364	nicht	_	_
+7-29	365-374	publicirt	_	_
+7-30	375-376	)	_	_
+7-31	377-378	.	_	_
+
+#Text=Aber warum instruirt er Weilcker nicht ?
+8-1	379-383	Aber	_	_
+8-2	384-389	warum	_	_
+8-3	390-399	instruirt	_	_
+8-4	400-402	er	_	_
+8-5	403-411	Weilcker	*	PERmentioned
+8-6	412-417	nicht	_	_
+8-7	418-419	?	_	_
+
+#Text=Von Steinhaeuser können wir ja leicht das Fragment für eine neue Zeichnung wiedererhalten .
+9-1	420-423	Von	_	_
+9-2	424-436	Steinhaeuser	*	PERmentioned
+9-3	437-443	können	_	_
+9-4	444-447	wir	_	_
+9-5	448-450	ja	_	_
+9-6	451-457	leicht	_	_
+9-7	458-461	das	_	_
+9-8	462-470	Fragment	_	_
+9-9	471-474	für	_	_
+9-10	475-479	eine	_	_
+9-11	480-484	neue	_	_
+9-12	485-494	Zeichnung	_	_
+9-13	495-509	wiedererhalten	_	_
+9-14	510-511	.	_	_
+
+#Text=Uebrigens ist es ein eigenthümliches Pech , daß wir von Welcker fast keine Artikel ohne Unbegreiflichkeiten erhalten : so spricht er bei der Saffo immer wie von einem Vasengemälde .
+10-1	512-521	Uebrigens	_	_
+10-2	522-525	ist	_	_
+10-3	526-528	es	_	_
+10-4	529-532	ein	_	_
+10-5	533-548	eigenthümliches	_	_
+10-6	549-553	Pech	_	_
+10-7	554-555	,	_	_
+10-8	556-559	daß	_	_
+10-9	560-563	wir	_	_
+10-10	564-567	von	_	_
+10-11	568-575	Welcker	*	PERmentioned
+10-12	576-580	fast	_	_
+10-13	581-586	keine	_	_
+10-14	587-594	Artikel	_	_
+10-15	595-599	ohne	_	_
+10-16	600-619	Unbegreiflichkeiten	_	_
+10-17	620-628	erhalten	_	_
+10-18	629-630	:	_	_
+10-19	631-633	so	_	_
+10-20	634-641	spricht	_	_
+10-21	642-644	er	_	_
+10-22	645-648	bei	_	_
+10-23	649-652	der	_	_
+10-24	653-658	Saffo	*	PERmentioned
+10-25	659-664	immer	_	_
+10-26	665-668	wie	_	_
+10-27	669-672	von	_	_
+10-28	673-678	einem	_	_
+10-29	679-691	Vasengemälde	*	OBJ
+10-30	692-693	.	_	_
+
+#Text=Schlimmer ist es bei der Ismene , wo er das Bett , auf dem diese liegt , nicht erkennt und daraus mit Gewalt einen Brunnen machen möchte , während eine in seinem Aufsatz erwähnte , aber ohne weiteres verworfene Version des Mythus mir alles aufs schönste aufzuklären scheint .
+11-1	694-703	Schlimmer	_	_
+11-2	704-707	ist	_	_
+11-3	708-710	es	_	_
+11-4	711-714	bei	_	_
+11-5	715-718	der	_	_
+11-6	719-725	Ismene	*	PERmentioned
+11-7	726-727	,	_	_
+11-8	728-730	wo	_	_
+11-9	731-733	er	_	_
+11-10	734-737	das	_	_
+11-11	738-742	Bett	_	_
+11-12	743-744	,	_	_
+11-13	745-748	auf	_	_
+11-14	749-752	dem	_	_
+11-15	753-758	diese	_	_
+11-16	759-764	liegt	_	_
+11-17	765-766	,	_	_
+11-18	767-772	nicht	_	_
+11-19	773-780	erkennt	_	_
+11-20	781-784	und	_	_
+11-21	785-791	daraus	_	_
+11-22	792-795	mit	_	_
+11-23	796-802	Gewalt	_	_
+11-24	803-808	einen	_	_
+11-25	809-816	Brunnen	_	_
+11-26	817-823	machen	_	_
+11-27	824-830	möchte	_	_
+11-28	831-832	,	_	_
+11-29	833-840	während	_	_
+11-30	841-845	eine	_	_
+11-31	846-848	in	_	_
+11-32	849-855	seinem	_	_
+11-33	856-863	Aufsatz	_	_
+11-34	864-872	erwähnte	_	_
+11-35	873-874	,	_	_
+11-36	875-879	aber	_	_
+11-37	880-884	ohne	_	_
+11-38	885-893	weiteres	_	_
+11-39	894-904	verworfene	_	_
+11-40	905-912	Version	_	_
+11-41	913-916	des	_	_
+11-42	917-923	Mythus	_	_
+11-43	924-927	mir	_	_
+11-44	928-933	alles	_	_
+11-45	934-938	aufs	_	_
+11-46	939-947	schönste	_	_
+11-47	948-959	aufzuklären	_	_
+11-48	960-967	scheint	_	_
+11-49	968-969	.	_	_
+
+#Text=Ich habe hier nicht die Mittel alles aufzusuchen .
+12-1	970-973	Ich	_	_
+12-2	974-978	habe	_	_
+12-3	979-983	hier	_	_
+12-4	984-989	nicht	_	_
+12-5	990-993	die	_	_
+12-6	994-1000	Mittel	_	_
+12-7	1001-1006	alles	_	_
+12-8	1007-1018	aufzusuchen	_	_
+12-9	1019-1020	.	_	_
+
+#Text=Finde ich aber alles so , wie ich vermuthe , so riskire ich vielleicht noch einen Exträrtikel nachträglich , zumal mir Welcker in seinem letzten Brief eine General- Erlaubniß zu Bemerkungen pro und contra bei seinen Aufsätzen ertheilt , von denen natürlich der vorsichtigste Gebrauch zu machen ist .
+13-1	1021-1026	Finde	_	_
+13-2	1027-1030	ich	_	_
+13-3	1031-1035	aber	_	_
+13-4	1036-1041	alles	_	_
+13-5	1042-1044	so	_	_
+13-6	1045-1046	,	_	_
+13-7	1047-1050	wie	_	_
+13-8	1051-1054	ich	_	_
+13-9	1055-1063	vermuthe	_	_
+13-10	1064-1065	,	_	_
+13-11	1066-1068	so	_	_
+13-12	1069-1076	riskire	_	_
+13-13	1077-1080	ich	_	_
+13-14	1081-1091	vielleicht	_	_
+13-15	1092-1096	noch	_	_
+13-16	1097-1102	einen	_	_
+13-17	1103-1114	Exträrtikel	_	_
+13-18	1115-1127	nachträglich	_	_
+13-19	1128-1129	,	_	_
+13-20	1130-1135	zumal	_	_
+13-21	1136-1139	mir	_	_
+13-22	1140-1147	Welcker	*	PERmentioned
+13-23	1148-1150	in	_	_
+13-24	1151-1157	seinem	_	_
+13-25	1158-1165	letzten	_	_
+13-26	1166-1171	Brief	_	_
+13-27	1172-1176	eine	_	_
+13-28	1177-1185	General-	_	_
+13-29	1186-1195	Erlaubniß	_	_
+13-30	1196-1198	zu	_	_
+13-31	1199-1210	Bemerkungen	_	_
+13-32	1211-1214	pro	_	_
+13-33	1215-1218	und	_	_
+13-34	1219-1225	contra	_	_
+13-35	1226-1229	bei	_	_
+13-36	1230-1236	seinen	_	_
+13-37	1237-1246	Aufsätzen	_	_
+13-38	1247-1255	ertheilt	_	_
+13-39	1256-1257	,	_	_
+13-40	1258-1261	von	_	_
+13-41	1262-1267	denen	_	_
+13-42	1268-1277	natürlich	_	_
+13-43	1278-1281	der	_	_
+13-44	1282-1295	vorsichtigste	_	_
+13-45	1296-1304	Gebrauch	_	_
+13-46	1305-1307	zu	_	_
+13-47	1308-1314	machen	_	_
+13-48	1315-1318	ist	_	_
+13-49	1319-1320	.	_	_
+
+#Text=Unterdessen drucken Sie aber nur zu ,
+14-1	1321-1332	Unterdessen	_	_
+14-2	1333-1340	drucken	_	_
+14-3	1341-1344	Sie	_	_
+14-4	1345-1349	aber	_	_
+14-5	1350-1353	nur	_	_
+14-6	1354-1356	zu	_	_
+14-7	1357-1358	,	_	_

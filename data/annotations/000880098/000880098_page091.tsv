@@ -1,0 +1,160 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=688 Braun an Gerhard Rom , 1. November 1834 -5dieser haust seit Anfang October in Rom und jetzt logiert er bei Bunsen und schläft im Institut .
+1-1	0-3	688	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	1.	*[1]	DATEletter[1]
+1-8	30-38	November	*[1]	DATEletter[1]
+1-9	39-43	1834	*[1]	DATEletter[1]
+1-10	44-52	-5dieser	_	_
+1-11	53-58	haust	_	_
+1-12	59-63	seit	_	_
+1-13	64-70	Anfang	*[2]	DATEmentioned[2]
+1-14	71-78	October	*[2]	DATEmentioned[2]
+1-15	79-81	in	_	_
+1-16	82-85	Rom	*	PLACEmentioned
+1-17	86-89	und	_	_
+1-18	90-95	jetzt	_	_
+1-19	96-103	logiert	_	_
+1-20	104-106	er	_	_
+1-21	107-110	bei	_	_
+1-22	111-117	Bunsen	*	PERmentioned
+1-23	118-121	und	_	_
+1-24	122-129	schläft	_	_
+1-25	130-132	im	_	_
+1-26	133-141	Institut	*	ORGmentioned
+1-27	142-143	.	_	_
+
+#Text=Ruspi hat den König begleitet und auf diesen Weg hoffe ich zur Zeichnung der Aethrsvase zu gelangen , die ich sofort stechen lassen werde um sie herauszugeben .
+2-1	144-149	Ruspi	*	PERmentioned
+2-2	150-153	hat	_	_
+2-3	154-157	den	_	_
+2-4	158-163	König	*	PERmentioned
+2-5	164-173	begleitet	_	_
+2-6	174-177	und	_	_
+2-7	178-181	auf	_	_
+2-8	182-188	diesen	_	_
+2-9	189-192	Weg	_	_
+2-10	193-198	hoffe	_	_
+2-11	199-202	ich	_	_
+2-12	203-206	zur	_	_
+2-13	207-216	Zeichnung	_	_
+2-14	217-220	der	_	_
+2-15	221-231	Aethrsvase	*	OBJ
+2-16	232-234	zu	_	_
+2-17	235-243	gelangen	_	_
+2-18	244-245	,	_	_
+2-19	246-249	die	_	_
+2-20	250-253	ich	_	_
+2-21	254-260	sofort	_	_
+2-22	261-268	stechen	_	_
+2-23	269-275	lassen	_	_
+2-24	276-281	werde	_	_
+2-25	282-284	um	_	_
+2-26	285-288	sie	_	_
+2-27	289-302	herauszugeben	_	_
+2-28	303-304	.	_	_
+
+#Text=Bunsen scheint den Dr. Franz ganz günstig zu beurtheilen \; es wäre so leicht ihn ganz für das Institut zu gewinnen , aber ich habe weder Zeit noch darf ich daran denken und Bunsen ist auch zu sehr absorbiert .
+3-1	305-311	Bunsen	*	PERmentioned
+3-2	312-319	scheint	_	_
+3-3	320-323	den	_	_
+3-4	324-327	Dr.	_	_
+3-5	328-333	Franz	*	PERmentioned
+3-6	334-338	ganz	_	_
+3-7	339-346	günstig	_	_
+3-8	347-349	zu	_	_
+3-9	350-361	beurtheilen	_	_
+3-10	362-363	\;	_	_
+3-11	364-366	es	_	_
+3-12	367-371	wäre	_	_
+3-13	372-374	so	_	_
+3-14	375-381	leicht	_	_
+3-15	382-385	ihn	_	_
+3-16	386-390	ganz	_	_
+3-17	391-394	für	_	_
+3-18	395-398	das	_	_
+3-19	399-407	Institut	*	ORGmentioned
+3-20	408-410	zu	_	_
+3-21	411-419	gewinnen	_	_
+3-22	420-421	,	_	_
+3-23	422-426	aber	_	_
+3-24	427-430	ich	_	_
+3-25	431-435	habe	_	_
+3-26	436-441	weder	_	_
+3-27	442-446	Zeit	_	_
+3-28	447-451	noch	_	_
+3-29	452-456	darf	_	_
+3-30	457-460	ich	_	_
+3-31	461-466	daran	_	_
+3-32	467-473	denken	_	_
+3-33	474-477	und	_	_
+3-34	478-484	Bunsen	*	ORGmentioned
+3-35	485-488	ist	_	_
+3-36	489-493	auch	_	_
+3-37	494-496	zu	_	_
+3-38	497-501	sehr	_	_
+3-39	502-512	absorbiert	_	_
+3-40	513-514	.	_	_
+
+#Text=In den Vorschlag den Pausanias ihn erklären zu lassen ist er übrigens eingegangen nur wird er wegen der Unmöglichkeit es ihm vom Institut wegen lucrativ zu machen , einen gesonderten Cursus eröffnen müssen .
+4-1	515-517	In	_	_
+4-2	518-521	den	_	_
+4-3	522-531	Vorschlag	_	_
+4-4	532-535	den	_	_
+4-5	536-545	Pausanias	*	PERmentioned
+4-6	546-549	ihn	_	_
+4-7	550-558	erklären	_	_
+4-8	559-561	zu	_	_
+4-9	562-568	lassen	_	_
+4-10	569-572	ist	_	_
+4-11	573-575	er	_	_
+4-12	576-584	übrigens	_	_
+4-13	585-596	eingegangen	_	_
+4-14	597-600	nur	_	_
+4-15	601-605	wird	_	_
+4-16	606-608	er	_	_
+4-17	609-614	wegen	_	_
+4-18	615-618	der	_	_
+4-19	619-632	Unmöglichkeit	_	_
+4-20	633-635	es	_	_
+4-21	636-639	ihm	_	_
+4-22	640-643	vom	_	_
+4-23	644-652	Institut	*	ORGmentioned
+4-24	653-658	wegen	_	_
+4-25	659-667	lucrativ	_	_
+4-26	668-670	zu	_	_
+4-27	671-677	machen	_	_
+4-28	678-679	,	_	_
+4-29	680-685	einen	_	_
+4-30	686-697	gesonderten	_	_
+4-31	698-704	Cursus	_	_
+4-32	705-713	eröffnen	_	_
+4-33	714-720	müssen	_	_
+4-34	721-722	.	_	_
+
+#Text=Schade , daß Sie nicht hier sind .
+5-1	723-729	Schade	_	_
+5-2	730-731	,	_	_
+5-3	732-735	daß	_	_
+5-4	736-739	Sie	_	_
+5-5	740-745	nicht	_	_
+5-6	746-750	hier	_	_
+5-7	751-755	sind	_	_
+5-8	756-757	.	_	_
+
+#Text=- In Hoffnung baldiger fröhlicher Nachrichten Ihr Braun
+6-1	758-759	-	_	_
+6-2	760-762	In	_	_
+6-3	763-771	Hoffnung	_	_
+6-4	772-780	baldiger	_	_
+6-5	781-791	fröhlicher	_	_
+6-6	792-803	Nachrichten	_	_
+6-7	804-807	Ihr	_	_
+6-8	808-813	Braun	*	PERauthor

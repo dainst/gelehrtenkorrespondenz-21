@@ -1,0 +1,85 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=586 Lepsius an Henzen Berlin , 20. Dezember 1875 schreiben und angeben , was für eine Vergütung Ihnen angemessen erscheine .
+1-1	0-3	586	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	20.	*[1]	DATEletter[1]
+1-8	35-43	Dezember	*[1]	DATEletter[1]
+1-9	44-48	1875	*[1]	DATEletter[1]
+1-10	49-58	schreiben	_	_
+1-11	59-62	und	_	_
+1-12	63-70	angeben	_	_
+1-13	71-72	,	_	_
+1-14	73-76	was	_	_
+1-15	77-80	für	_	_
+1-16	81-85	eine	_	_
+1-17	86-95	Vergütung	_	_
+1-18	96-101	Ihnen	_	_
+1-19	102-112	angemessen	_	_
+1-20	113-122	erscheine	_	_
+1-21	123-124	.	_	_
+
+#Text=Für das Durand'sche Depot werde wohl das neue Haus in Rom der richtigste Aufbewahrungsort sein .
+2-1	125-128	Für	_	_
+2-2	129-132	das	_	_
+2-3	133-144	Durand'sche	_	_
+2-4	145-150	Depot	_	_
+2-5	151-156	werde	_	_
+2-6	157-161	wohl	_	_
+2-7	162-165	das	_	_
+2-8	166-170	neue	_	_
+2-9	171-175	Haus	_	_
+2-10	176-178	in	_	_
+2-11	179-182	Rom	*	PLACEmentioned
+2-12	183-186	der	_	_
+2-13	187-197	richtigste	_	_
+2-14	198-214	Aufbewahrungsort	_	_
+2-15	215-219	sein	_	_
+2-16	220-221	.	_	_
+
+#Text=Bis dahin könne die Übersiedelung wohl noch warten .
+3-1	222-225	Bis	_	_
+3-2	226-231	dahin	_	_
+3-3	232-237	könne	_	_
+3-4	238-241	die	_	_
+3-5	242-255	Übersiedelung	_	_
+3-6	256-260	wohl	_	_
+3-7	261-265	noch	_	_
+3-8	266-272	warten	_	_
+3-9	273-274	.	_	_
+
+#Text=Der Unterschied der Transportkosten hierher oder dorthin werde nicht bedeutend sein .
+4-1	275-278	Der	_	_
+4-2	279-290	Unterschied	_	_
+4-3	291-294	der	_	_
+4-4	295-310	Transportkosten	_	_
+4-5	311-318	hierher	_	_
+4-6	319-323	oder	_	_
+4-7	324-331	dorthin	_	_
+4-8	332-337	werde	_	_
+4-9	338-343	nicht	_	_
+4-10	344-353	bedeutend	_	_
+4-11	354-358	sein	_	_
+4-12	359-360	.	_	_
+
+#Text=Ihren letzten Brief vom 14. Dezember habe ich erhalten .
+5-1	361-366	Ihren	_	_
+5-2	367-374	letzten	_	_
+5-3	375-380	Brief	_	_
+5-4	381-384	vom	_	_
+5-5	385-388	14.	*[2]	DATEmentioned[2]
+5-6	389-397	Dezember	*[2]	DATEmentioned[2]
+5-7	398-402	habe	_	_
+5-8	403-406	ich	_	_
+5-9	407-415	erhalten	_	_
+5-10	416-417	.	_	_
+
+#Text=R Lepsius
+6-1	418-419	R	*[3]	PERauthor[3]
+6-2	420-427	Lepsius	*[3]	PERauthor[3]

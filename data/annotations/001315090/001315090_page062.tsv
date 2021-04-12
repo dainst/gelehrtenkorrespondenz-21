@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=499 Lepsius an Henzen Berlin , 24. November 1872 g . 27/XI 72 Berlin den 24 .
+1-1	0-3	499	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	24.	*[1]	DATEletter[1]
+1-8	35-43	November	*[1]	DATEletter[1]
+1-9	44-48	1872	*[1]	DATEletter[1]
+1-10	49-50	g	_	_
+1-11	51-52	.	_	_
+1-12	53-58	27/XI	*[2]	DATErecieved[2]
+1-13	59-61	72	*[2]	DATErecieved[2]
+1-14	62-68	Berlin	*	PLACEfrom
+1-15	69-72	den	_	_
+1-16	73-75	24	*[3]	DATEletter[3]
+1-17	76-77	.	*[3]	DATEletter[3]
+
+#Text=Nov .
+2-1	78-81	Nov	*[3]	DATEletter[3]
+2-2	82-83	.	*[3]	DATEletter[3]
+
+#Text=1872 Besten Dank , verehrter Freund , für Ihren letzten Brief mit allerlei Nachrichten über Sie und Ihre Kolonie .
+3-1	84-88	1872	*[3]	DATEletter[3]
+3-2	89-95	Besten	_	_
+3-3	96-100	Dank	_	_
+3-4	101-102	,	_	_
+3-5	103-112	verehrter	_	_
+3-6	113-119	Freund	_	_
+3-7	120-121	,	_	_
+3-8	122-125	für	_	_
+3-9	126-131	Ihren	_	_
+3-10	132-139	letzten	_	_
+3-11	140-145	Brief	_	_
+3-12	146-149	mit	_	_
+3-13	150-158	allerlei	_	_
+3-14	159-170	Nachrichten	_	_
+3-15	171-175	über	_	_
+3-16	176-179	Sie	_	_
+3-17	180-183	und	_	_
+3-18	184-188	Ihre	_	_
+3-19	189-196	Kolonie	_	_
+3-20	197-198	.	_	_
+
+#Text=Daß Sie gestärkt wieder eingezogen sind in die veränderte Weltstadt , die schwerlich durch Vittorio Emamuele an Behaglichkeit gewonnen hat , freut mich sehr \; auch bei uns saust der Webstuhl der Zeit etwas lauter als früher , wie Sie denken können , und , wer kann oder will sich in solchen Zeiten die Ohren verschließen .
+4-1	199-202	Daß	_	_
+4-2	203-206	Sie	_	_
+4-3	207-215	gestärkt	_	_
+4-4	216-222	wieder	_	_
+4-5	223-233	eingezogen	_	_
+4-6	234-238	sind	_	_
+4-7	239-241	in	_	_
+4-8	242-245	die	_	_
+4-9	246-256	veränderte	_	_
+4-10	257-266	Weltstadt	_	_
+4-11	267-268	,	_	_
+4-12	269-272	die	_	_
+4-13	273-283	schwerlich	_	_
+4-14	284-289	durch	_	_
+4-15	290-298	Vittorio	*[4]	PERmentioned[4]
+4-16	299-307	Emamuele	*[4]	PERmentioned[4]
+4-17	308-310	an	_	_
+4-18	311-324	Behaglichkeit	_	_
+4-19	325-333	gewonnen	_	_
+4-20	334-337	hat	_	_
+4-21	338-339	,	_	_
+4-22	340-345	freut	_	_
+4-23	346-350	mich	_	_
+4-24	351-355	sehr	_	_
+4-25	356-357	\;	_	_
+4-26	358-362	auch	_	_
+4-27	363-366	bei	_	_
+4-28	367-370	uns	_	_
+4-29	371-376	saust	_	_
+4-30	377-380	der	_	_
+4-31	381-389	Webstuhl	_	_
+4-32	390-393	der	_	_
+4-33	394-398	Zeit	_	_
+4-34	399-404	etwas	_	_
+4-35	405-411	lauter	_	_
+4-36	412-415	als	_	_
+4-37	416-422	früher	_	_
+4-38	423-424	,	_	_
+4-39	425-428	wie	_	_
+4-40	429-432	Sie	_	_
+4-41	433-439	denken	_	_
+4-42	440-446	können	_	_
+4-43	447-448	,	_	_
+4-44	449-452	und	_	_
+4-45	453-454	,	_	_
+4-46	455-458	wer	_	_
+4-47	459-463	kann	_	_
+4-48	464-468	oder	_	_
+4-49	469-473	will	_	_
+4-50	474-478	sich	_	_
+4-51	479-481	in	_	_
+4-52	482-489	solchen	_	_
+4-53	490-496	Zeiten	_	_
+4-54	497-500	die	_	_
+4-55	501-506	Ohren	_	_
+4-56	507-519	verschließen	_	_
+4-57	520-521	.	_	_
+
+#Text=Die Gehaltsquittungen habe ich sogleich eingesendet \; es wird nun Alles in Ordnung sein .
+5-1	522-525	Die	_	_
+5-2	526-543	Gehaltsquittungen	_	_
+5-3	544-548	habe	_	_
+5-4	549-552	ich	_	_
+5-5	553-561	sogleich	_	_
+5-6	562-573	eingesendet	_	_
+5-7	574-575	\;	_	_
+5-8	576-578	es	_	_
+5-9	579-583	wird	_	_
+5-10	584-587	nun	_	_
+5-11	588-593	Alles	_	_
+5-12	594-596	in	_	_
+5-13	597-604	Ordnung	_	_
+5-14	605-609	sein	_	_
+5-15	610-611	.	_	_
+
+#Text=Sobald die Gehaltserhöhungen definitiv geworden , werde ich an Helbig officielle Anzeige machen .
+6-1	612-618	Sobald	_	_
+6-2	619-622	die	_	_
+6-3	623-640	Gehaltserhöhungen	_	_
+6-4	641-650	definitiv	_	_
+6-5	651-659	geworden	_	_
+6-6	660-661	,	_	_
+6-7	662-667	werde	_	_
+6-8	668-671	ich	_	_
+6-9	672-674	an	_	_
+6-10	675-681	Helbig	*	PERmentioned
+6-11	682-692	officielle	_	_
+6-12	693-700	Anzeige	_	_
+6-13	701-707	machen	_	_
+6-14	708-709	.	_	_
+
+#Text=Der von uns beantragte Unterschied wäre ihm wohl befremdend gewesen \; der jetzige meine ich kann es nicht sein .
+7-1	710-713	Der	_	_
+7-2	714-717	von	_	_
+7-3	718-721	uns	_	_
+7-4	722-732	beantragte	_	_
+7-5	733-744	Unterschied	_	_
+7-6	745-749	wäre	_	_
+7-7	750-753	ihm	_	_
+7-8	754-758	wohl	_	_
+7-9	759-769	befremdend	_	_
+7-10	770-777	gewesen	_	_
+7-11	778-779	\;	_	_
+7-12	780-783	der	_	_
+7-13	784-791	jetzige	_	_
+7-14	792-797	meine	_	_
+7-15	798-801	ich	_	_
+7-16	802-806	kann	_	_
+7-17	807-809	es	_	_
+7-18	810-815	nicht	_	_
+7-19	816-820	sein	_	_
+7-20	821-822	.	_	_
+
+#Text=Ich bin begierig zu hören wie es mit der Russischen Stelle werden wird .
+8-1	823-826	Ich	_	_
+8-2	827-830	bin	_	_
+8-3	831-839	begierig	_	_
+8-4	840-842	zu	_	_
+8-5	843-848	hören	_	_
+8-6	849-852	wie	_	_
+8-7	853-855	es	_	_
+8-8	856-859	mit	_	_
+8-9	860-863	der	_	_
+8-10	864-874	Russischen	*[5]	ORGmentioned[5]
+8-11	875-881	Stelle	*[5]	ORGmentioned[5]
+8-12	882-888	werden	_	_
+8-13	889-893	wird	_	_
+8-14	894-895	.	_	_
+
+#Text=Die Museumsdirektion war kürzlich sehr verwundert über eine scheinbar wenig gerechtfertigte Begünstigung Rußlands .
+9-1	896-899	Die	_	_
+9-2	900-916	Museumsdirektion	*	ORGmentioned
+9-3	917-920	war	_	_
+9-4	921-929	kürzlich	_	_
+9-5	930-934	sehr	_	_
+9-6	935-945	verwundert	_	_
+9-7	946-950	über	_	_
+9-8	951-955	eine	_	_
+9-9	956-965	scheinbar	_	_
+9-10	966-971	wenig	_	_
+9-11	972-987	gerechtfertigte	_	_
+9-12	988-1000	Begünstigung	_	_
+9-13	1001-1009	Rußlands	*	PLACEmentioned
+9-14	1010-1011	.	_	_
+
+#Text=Mommsen hat mir vor einigen Tagen die Briefe von 0 .
+10-1	1012-1019	Mommsen	*	PERmentioned
+10-2	1020-1023	hat	_	_
+10-3	1024-1027	mir	_	_
+10-4	1028-1031	vor	_	_
+10-5	1032-1039	einigen	_	_
+10-6	1040-1045	Tagen	_	_
+10-7	1046-1049	die	_	_
+10-8	1050-1056	Briefe	_	_
+10-9	1057-1060	von	_	_
+10-10	1061-1062	0	_	_
+10-11	1063-1064	.	*[6]	PERmentioned[6]
+
+#Text=Müller übergeben , die Sie an Calvary gelangen lassen wollten .
+11-1	1065-1071	Müller	*[6]	PERmentioned[6]
+11-2	1072-1081	übergeben	_	_
+11-3	1082-1083	,	_	_
+11-4	1084-1087	die	_	_
+11-5	1088-1091	Sie	_	_
+11-6	1092-1094	an	_	_
+11-7	1095-1102	Calvary	*	PERmentioned
+11-8	1103-1111	gelangen	_	_
+11-9	1112-1118	lassen	_	_
+11-10	1119-1126	wollten	_	_
+11-11	1127-1128	.	_	_
+
+#Text=Die Beschwerden über Calvary sind hier so sroß und der Bruch mit ihm so vollständig , daß man hier
+12-1	1129-1132	Die	_	_
+12-2	1133-1144	Beschwerden	_	_
+12-3	1145-1149	über	_	_
+12-4	1150-1157	Calvary	*	PERmentioned
+12-5	1158-1162	sind	_	_
+12-6	1163-1167	hier	_	_
+12-7	1168-1170	so	_	_
+12-8	1171-1175	sroß	_	_
+12-9	1176-1179	und	_	_
+12-10	1180-1183	der	_	_
+12-11	1184-1189	Bruch	_	_
+12-12	1190-1193	mit	_	_
+12-13	1194-1197	ihm	_	_
+12-14	1198-1200	so	_	_
+12-15	1201-1212	vollständig	_	_
+12-16	1213-1214	,	_	_
+12-17	1215-1218	daß	_	_
+12-18	1219-1222	man	_	_
+12-19	1223-1227	hier	_	_

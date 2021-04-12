@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Bern , 29 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-21	Bern	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-26	29	*[4]	DATEletter[4]
+1-7	27-28	.	*[4]	DATEletter[4]
+
+#Text=August 1836 Dr. Braun Dir .
+2-1	29-35	August	*[4]	DATEletter[4]
+2-2	36-40	1836	*[4]	DATEletter[4]
+2-3	41-44	Dr.	_	_
+2-4	45-50	Braun	*	PERaddressee
+2-5	51-54	Dir	_	_
+2-6	55-56	.	_	_
+
+#Text=Rom .
+3-1	57-60	Rom	*	PLACEto
+3-2	61-62	.	_	_
+
+#Text=CCCX 8 .
+4-1	63-67	CCCX	_	_
+4-2	68-69	8	_	_
+4-3	70-71	.	_	_
+
+#Text=8/9 36 Bern den 29 Aug . 1836 .
+5-1	72-75	8/9	*[7]	DATErecieved[7]
+5-2	76-78	36	*[7]	DATErecieved[7]
+5-3	79-83	Bern	*	PLACEfrom
+5-4	84-87	den	_	_
+5-5	88-90	29	*[9]	DATEletter[9]
+5-6	91-94	Aug	*[9]	DATEletter[9]
+5-7	95-96	.	*[9]	DATEletter[9]
+5-8	97-101	1836	*[9]	DATEletter[9]
+5-9	102-103	.	_	_
+
+#Text=Nothgedrungen lieber Freund bin ich dann über die Schweiz gegangen , habe für einige schöne Tage in den Bergen und wenig erf @ uliche Begegnungen in den Städten viel Geld ausgegeben , ziehe heute weiter gegen Lausanne und Genf und rechne darauf falls das Schiff von Marseille wirklich am 5.ten abgeht , was ich erst in Genf konstatiren kann , in der Mitte des September bei Ihnen zu sein .
+6-1	104-117	Nothgedrungen	_	_
+6-2	118-124	lieber	_	_
+6-3	125-131	Freund	_	_
+6-4	132-135	bin	_	_
+6-5	136-139	ich	_	_
+6-6	140-144	dann	_	_
+6-7	145-149	über	_	_
+6-8	150-153	die	_	_
+6-9	154-161	Schweiz	*	PLACEmentioned
+6-10	162-170	gegangen	_	_
+6-11	171-172	,	_	_
+6-12	173-177	habe	_	_
+6-13	178-181	für	_	_
+6-14	182-188	einige	_	_
+6-15	189-195	schöne	_	_
+6-16	196-200	Tage	_	_
+6-17	201-203	in	_	_
+6-18	204-207	den	_	_
+6-19	208-214	Bergen	_	_
+6-20	215-218	und	_	_
+6-21	219-224	wenig	_	_
+6-22	225-228	erf	_	_
+6-23	229-230	@	_	_
+6-24	231-237	uliche	_	_
+6-25	238-249	Begegnungen	_	_
+6-26	250-252	in	_	_
+6-27	253-256	den	_	_
+6-28	257-264	Städten	_	_
+6-29	265-269	viel	_	_
+6-30	270-274	Geld	_	_
+6-31	275-285	ausgegeben	_	_
+6-32	286-287	,	_	_
+6-33	288-293	ziehe	_	_
+6-34	294-299	heute	_	_
+6-35	300-306	weiter	_	_
+6-36	307-312	gegen	_	_
+6-37	313-321	Lausanne	*	PLACEmentioned
+6-38	322-325	und	_	_
+6-39	326-330	Genf	*	PLACEmentioned
+6-40	331-334	und	_	_
+6-41	335-341	rechne	_	_
+6-42	342-348	darauf	_	_
+6-43	349-354	falls	_	_
+6-44	355-358	das	_	_
+6-45	359-365	Schiff	_	_
+6-46	366-369	von	_	_
+6-47	370-379	Marseille	*	PLACEmentioned
+6-48	380-388	wirklich	_	_
+6-49	389-391	am	_	_
+6-50	392-397	5.ten	*	DATEmentioned
+6-51	398-404	abgeht	_	_
+6-52	405-406	,	_	_
+6-53	407-410	was	_	_
+6-54	411-414	ich	_	_
+6-55	415-419	erst	_	_
+6-56	420-422	in	_	_
+6-57	423-427	Genf	*	PLACEmentioned
+6-58	428-439	konstatiren	_	_
+6-59	440-444	kann	_	_
+6-60	445-446	,	_	_
+6-61	447-449	in	_	_
+6-62	450-453	der	_	_
+6-63	454-459	Mitte	_	_
+6-64	460-463	des	_	_
+6-65	464-473	September	*	DATEmentioned
+6-66	474-477	bei	_	_
+6-67	478-483	Ihnen	_	_
+6-68	484-486	zu	_	_
+6-69	487-491	sein	_	_
+6-70	492-493	.	_	_
+
+#Text=Wann ich komme werden Sie demnach besser berechnen können als ich es in Ermangelung hinlänglicher Dampfschiffnotizen dato kann \; nämlich , ohne in Genua und Livorno auszusteigen ( so wird es vermuthlich nöthig sein ) mit demjenigen Dampfschiff was am 5.ten oder zunächst nach dem 5.ten von Marseille abgeht .
+7-1	494-498	Wann	_	_
+7-2	499-502	ich	_	_
+7-3	503-508	komme	_	_
+7-4	509-515	werden	_	_
+7-5	516-519	Sie	_	_
+7-6	520-527	demnach	_	_
+7-7	528-534	besser	_	_
+7-8	535-544	berechnen	_	_
+7-9	545-551	können	_	_
+7-10	552-555	als	_	_
+7-11	556-559	ich	_	_
+7-12	560-562	es	_	_
+7-13	563-565	in	_	_
+7-14	566-577	Ermangelung	_	_
+7-15	578-591	hinlänglicher	_	_
+7-16	592-610	Dampfschiffnotizen	_	_
+7-17	611-615	dato	_	_
+7-18	616-620	kann	_	_
+7-19	621-622	\;	_	_
+7-20	623-630	nämlich	_	_
+7-21	631-632	,	_	_
+7-22	633-637	ohne	_	_
+7-23	638-640	in	_	_
+7-24	641-646	Genua	*	PLACEmentioned
+7-25	647-650	und	_	_
+7-26	651-658	Livorno	*	PLACEmentioned
+7-27	659-671	auszusteigen	_	_
+7-28	672-673	(	_	_
+7-29	674-676	so	_	_
+7-30	677-681	wird	_	_
+7-31	682-684	es	_	_
+7-32	685-696	vermuthlich	_	_
+7-33	697-703	nöthig	_	_
+7-34	704-708	sein	_	_
+7-35	709-710	)	_	_
+7-36	711-714	mit	_	_
+7-37	715-725	demjenigen	_	_
+7-38	726-737	Dampfschiff	_	_
+7-39	738-741	was	_	_
+7-40	742-744	am	_	_
+7-41	745-750	5.ten	*	DATEmentioned
+7-42	751-755	oder	_	_
+7-43	756-764	zunächst	_	_
+7-44	765-769	nach	_	_
+7-45	770-773	dem	_	_
+7-46	774-779	5.ten	*	DATEmentioned
+7-47	780-783	von	_	_
+7-48	784-793	Marseille	*	PLACEmentioned
+7-49	794-800	abgeht	_	_
+7-50	801-802	.	_	_
+
+#Text=Ich werde in Livorno , falls ich auch nicht aussteige , nach Briefen von Ihnen fragen lassen , desgleichen in Civitavecchia auf der Post .
+8-1	803-806	Ich	_	_
+8-2	807-812	werde	_	_
+8-3	813-815	in	_	_
+8-4	816-823	Livorno	*	PLACEmentioned
+8-5	824-825	,	_	_
+8-6	826-831	falls	_	_
+8-7	832-835	ich	_	_
+8-8	836-840	auch	_	_
+8-9	841-846	nicht	_	_
+8-10	847-856	aussteige	_	_
+8-11	857-858	,	_	_
+8-12	859-863	nach	_	_
+8-13	864-871	Briefen	_	_
+8-14	872-875	von	_	_
+8-15	876-881	Ihnen	_	_
+8-16	882-888	fragen	_	_
+8-17	889-895	lassen	_	_
+8-18	896-897	,	_	_
+8-19	898-909	desgleichen	_	_
+8-20	910-912	in	_	_
+8-21	913-926	Civitavecchia	*	PLACEmentioned
+8-22	927-930	auf	_	_
+8-23	931-934	der	_	_
+8-24	935-939	Post	_	_
+8-25	940-941	.	_	_
+
+#Text=Geht es so rasch wie es sollte , so bin ich am Ende eher da als dieser Brief \; jedenfalls beeile ich mich ihn abzusenden , noch von hier .
+9-1	942-946	Geht	_	_
+9-2	947-949	es	_	_
+9-3	950-952	so	_	_
+9-4	953-958	rasch	_	_
+9-5	959-962	wie	_	_
+9-6	963-965	es	_	_
+9-7	966-972	sollte	_	_
+9-8	973-974	,	_	_
+9-9	975-977	so	_	_
+9-10	978-981	bin	_	_
+9-11	982-985	ich	_	_
+9-12	986-988	am	_	_
+9-13	989-993	Ende	_	_
+9-14	994-998	eher	_	_
+9-15	999-1001	da	_	_
+9-16	1002-1005	als	_	_
+9-17	1006-1012	dieser	_	_
+9-18	1013-1018	Brief	_	_
+9-19	1019-1020	\;	_	_
+9-20	1021-1031	jedenfalls	_	_
+9-21	1032-1038	beeile	_	_
+9-22	1039-1042	ich	_	_
+9-23	1043-1047	mich	_	_
+9-24	1048-1051	ihn	_	_
+9-25	1052-1062	abzusenden	_	_
+9-26	1063-1064	,	_	_
+9-27	1065-1069	noch	_	_
+9-28	1070-1073	von	_	_
+9-29	1074-1078	hier	_	_
+9-30	1079-1080	.	_	_
+
+#Text=Oberst Hogginer , Ihres Herzogs Adjutant , dessen Abgesandter nach Portugall , ist ein Stück Weges
+10-1	1081-1087	Oberst	_	_
+10-2	1088-1096	Hogginer	*	PERmentioned
+10-3	1097-1098	,	_	_
+10-4	1099-1104	Ihres	_	_
+10-5	1105-1112	Herzogs	_	_
+10-6	1113-1121	Adjutant	_	_
+10-7	1122-1123	,	_	_
+10-8	1124-1130	dessen	_	_
+10-9	1131-1142	Abgesandter	_	_
+10-10	1143-1147	nach	_	_
+10-11	1148-1157	Portugall	*	PLACEmentioned
+10-12	1158-1159	,	_	_
+10-13	1160-1163	ist	_	_
+10-14	1164-1167	ein	_	_
+10-15	1168-1173	Stück	_	_
+10-16	1174-1179	Weges	_	_

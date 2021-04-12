@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=eo 100 Lepsius an Haze { Berlin , 4. März 1872 8 .
+1-1	0-2	eo	_	_	
+1-2	3-6	100	_	_	
+1-3	7-14	Lepsius	*	PERauthor	
+1-4	15-17	an	_	_	
+1-5	18-22	Haze	*	PERaddressee	
+1-6	23-24	{	_	_	
+1-7	25-31	Berlin	*	PLACEfrom	
+1-8	32-33	,	_	_	
+1-9	34-36	4.	*[1]	DATEletter[1]	
+1-10	37-41	März	*[1]	DATEletter[1]	
+1-11	42-46	1872	*[1]	DATEletter[1]	
+1-12	47-48	8	_	_	
+1-13	49-50	.	_	_	
+
+#Text=7/3 72 r . 10/3 72 Berlin d . 4 .
+2-1	51-54	7/3	*[2]	DATErecieved[2]	
+2-2	55-57	72	*[2]	DATErecieved[2]	
+2-3	58-59	r	_	_	
+2-4	60-61	.	_	_	
+2-5	62-66	10/3	*[3]	DATEanswered[3]	
+2-6	67-69	72	*[3]	DATEanswered[3]	
+2-7	70-76	Berlin	*	PLACEfrom	
+2-8	77-78	d	_	_	
+2-9	79-80	.	_	_	
+2-10	81-82	4	*[4]	DATEletter[4]	
+2-11	83-84	.	*[4]	DATEletter[4]	
+
+#Text=Mz .
+3-1	85-87	Mz	*[4]	DATEletter[4]	
+3-2	88-89	.	*[4]	DATEletter[4]	
+
+#Text=1872 .
+4-1	90-94	1872	*[4]	DATEletter[4]	
+4-2	95-96	.	_	_	
+
+#Text=Verehrter Freund Es war gestern die einstimmige Ansicht , daß ein Bau mit diesem Kostenaufwande von uns bei den Ministerien nicht befürwortet werden könne .
+5-1	97-106	Verehrter	_	_	
+5-2	107-113	Freund	_	_	
+5-3	114-116	Es	_	_	
+5-4	117-120	war	_	_	
+5-5	121-128	gestern	_	_	
+5-6	129-132	die	_	_	
+5-7	133-144	einstimmige	_	_	
+5-8	145-152	Ansicht	_	_	
+5-9	153-154	,	_	_	
+5-10	155-158	daß	_	_	
+5-11	159-162	ein	_	_	
+5-12	163-166	Bau	_	_	
+5-13	167-170	mit	_	_	
+5-14	171-177	diesem	_	_	
+5-15	178-192	Kostenaufwande	_	_	
+5-16	193-196	von	_	_	
+5-17	197-200	uns	_	_	
+5-18	201-204	bei	_	_	
+5-19	205-208	den	_	_	
+5-20	209-220	Ministerien	_	_	
+5-21	221-226	nicht	_	_	
+5-22	227-238	befürwortet	_	_	
+5-23	239-245	werden	_	_	
+5-24	246-251	könne	_	_	
+5-25	252-253	.	_	_	
+
+#Text=Es kam also darauf an , ob und wie sich die Kosten vermindern lassen ohne die Hauptbedürfnisse unbefriedigt zu lassen .
+6-1	254-256	Es	_	_	
+6-2	257-260	kam	_	_	
+6-3	261-265	also	_	_	
+6-4	266-272	darauf	_	_	
+6-5	273-275	an	_	_	
+6-6	276-277	,	_	_	
+6-7	278-280	ob	_	_	
+6-8	281-284	und	_	_	
+6-9	285-288	wie	_	_	
+6-10	289-293	sich	_	_	
+6-11	294-297	die	_	_	
+6-12	298-304	Kosten	_	_	
+6-13	305-315	vermindern	_	_	
+6-14	316-322	lassen	_	_	
+6-15	323-327	ohne	_	_	
+6-16	328-331	die	_	_	
+6-17	332-348	Hauptbedürfnisse	_	_	
+6-18	349-361	unbefriedigt	_	_	
+6-19	362-364	zu	_	_	
+6-20	365-371	lassen	_	_	
+6-21	372-373	.	_	_	
+
+#Text=Abgesehen von all den Kubikmetern die in dem neu aufzubauenden nur als Unterbau dienenden Granaro liegen , schien uns auch , daß unser Ihnen theils direkt theils durch das Ministerium mitgetheiltes Programm mehrfach überschritten , auch die Räumlichkeiten überhaupt über das eigentliche Bedürfnis erweitert worden seien .
+7-1	374-383	Abgesehen	_	_	
+7-2	384-387	von	_	_	
+7-3	388-391	all	_	_	
+7-4	392-395	den	_	_	
+7-5	396-407	Kubikmetern	_	_	
+7-6	408-411	die	_	_	
+7-7	412-414	in	_	_	
+7-8	415-418	dem	_	_	
+7-9	419-422	neu	_	_	
+7-10	423-436	aufzubauenden	_	_	
+7-11	437-440	nur	_	_	
+7-12	441-444	als	_	_	
+7-13	445-453	Unterbau	_	_	
+7-14	454-463	dienenden	_	_	
+7-15	464-471	Granaro	_	_	
+7-16	472-478	liegen	_	_	
+7-17	479-480	,	_	_	
+7-18	481-487	schien	_	_	
+7-19	488-491	uns	_	_	
+7-20	492-496	auch	_	_	
+7-21	497-498	,	_	_	
+7-22	499-502	daß	_	_	
+7-23	503-508	unser	_	_	
+7-24	509-514	Ihnen	_	_	
+7-25	515-521	theils	_	_	
+7-26	522-528	direkt	_	_	
+7-27	529-535	theils	_	_	
+7-28	536-541	durch	_	_	
+7-29	542-545	das	_	_	
+7-30	546-557	Ministerium	*	ORGmentioned	
+7-31	558-571	mitgetheiltes	_	_	
+7-32	572-580	Programm	_	_	
+7-33	581-589	mehrfach	_	_	
+7-34	590-603	überschritten	_	_	
+7-35	604-605	,	_	_	
+7-36	606-610	auch	_	_	
+7-37	611-614	die	_	_	
+7-38	615-629	Räumlichkeiten	_	_	
+7-39	630-639	überhaupt	_	_	
+7-40	640-644	über	_	_	
+7-41	645-648	das	_	_	
+7-42	649-660	eigentliche	_	_	
+7-43	661-670	Bedürfnis	_	_	
+7-44	671-680	erweitert	_	_	
+7-45	681-687	worden	_	_	
+7-46	688-693	seien	_	_	
+7-47	694-695	.	_	_	
+
+#Text=Auf zwei Hauptpunkte , wenn die schwere und kostbare Bibliothek auf den Granaro gesetzt werden sollte , auf die Sicherheit gegen Einsturz und gegen Feuersgefahr , war von Anfang an besonders aufmerksam gemacht worden .
+8-1	696-699	Auf	_	_	
+8-2	700-704	zwei	_	_	
+8-3	705-716	Hauptpunkte	_	_	
+8-4	717-718	,	_	_	
+8-5	719-723	wenn	_	_	
+8-6	724-727	die	_	_	
+8-7	728-735	schwere	_	_	
+8-8	736-739	und	_	_	
+8-9	740-748	kostbare	_	_	
+8-10	749-759	Bibliothek	_	_	
+8-11	760-763	auf	_	_	
+8-12	764-767	den	_	_	
+8-13	768-775	Granaro	_	_	
+8-14	776-783	gesetzt	_	_	
+8-15	784-790	werden	_	_	
+8-16	791-797	sollte	_	_	
+8-17	798-799	,	_	_	
+8-18	800-803	auf	_	_	
+8-19	804-807	die	_	_	
+8-20	808-818	Sicherheit	_	_	
+8-21	819-824	gegen	_	_	
+8-22	825-833	Einsturz	_	_	
+8-23	834-837	und	_	_	
+8-24	838-843	gegen	_	_	
+8-25	844-856	Feuersgefahr	_	_	
+8-26	857-858	,	_	_	
+8-27	859-862	war	_	_	
+8-28	863-866	von	_	_	
+8-29	867-873	Anfang	_	_	
+8-30	874-876	an	_	_	
+8-31	877-886	besonders	_	_	
+8-32	887-897	aufmerksam	_	_	
+8-33	898-905	gemacht	_	_	
+8-34	906-912	worden	_	_	
+8-35	913-914	.	_	_	
+
+#Text=Die schließlich erkannte Nothwendigkeit den Granaro fast ganz abzubrechen , ihn fester wieder aufzubauen und doppelt zu wölben , hat die Kosten ohne Zweifel wesentlich erhöht .
+9-1	915-918	Die	_	_	
+9-2	919-930	schließlich	_	_	
+9-3	931-939	erkannte	_	_	
+9-4	940-954	Nothwendigkeit	_	_	
+9-5	955-958	den	_	_	
+9-6	959-966	Granaro	_	_	
+9-7	967-971	fast	_	_	
+9-8	972-976	ganz	_	_	
+9-9	977-988	abzubrechen	_	_	
+9-10	989-990	,	_	_	
+9-11	991-994	ihn	_	_	
+9-12	995-1001	fester	_	_	
+9-13	1002-1008	wieder	_	_	
+9-14	1009-1019	aufzubauen	_	_	
+9-15	1020-1023	und	_	_	
+9-16	1024-1031	doppelt	_	_	
+9-17	1032-1034	zu	_	_	
+9-18	1035-1041	wölben	_	_	
+9-19	1042-1043	,	_	_	
+9-20	1044-1047	hat	_	_	
+9-21	1048-1051	die	_	_	
+9-22	1052-1058	Kosten	_	_	
+9-23	1059-1063	ohne	_	_	
+9-24	1064-1071	Zweifel	_	_	
+9-25	1072-1082	wesentlich	_	_	
+9-26	1083-1089	erhöht	_	_	
+9-27	1090-1091	.	_	_	
+
+#Text=Auch eine Anzahl Zimmer , sowohl Wohnungs- als Arbeitsräume schien uns unter den jetzigen Umständen
+10-1	1092-1096	Auch	_	_	
+10-2	1097-1101	eine	_	_	
+10-3	1102-1108	Anzahl	_	_	
+10-4	1109-1115	Zimmer	_	_	
+10-5	1116-1117	,	_	_	
+10-6	1118-1124	sowohl	_	_	
+10-7	1125-1134	Wohnungs-	_	_	
+10-8	1135-1138	als	_	_	
+10-9	1139-1151	Arbeitsräume	_	_	
+10-10	1152-1158	schien	_	_	
+10-11	1159-1162	uns	_	_	
+10-12	1163-1168	unter	_	_	
+10-13	1169-1172	den	_	_	
+10-14	1173-1181	jetzigen	_	_	
+10-15	1182-1191	Umständen	_	_	

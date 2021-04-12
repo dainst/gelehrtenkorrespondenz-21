@@ -1,0 +1,201 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27. April 1846 namentlich auch alle meine Zeichnungen die damit gehen sollten .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	27.	*[1]	DATEletter[1]
+1-7	30-35	April	*[1]	DATEletter[1]
+1-8	36-40	1846	*[1]	DATEletter[1]
+1-9	41-51	namentlich	_	_
+1-10	52-56	auch	_	_
+1-11	57-61	alle	_	_
+1-12	62-67	meine	_	_
+1-13	68-79	Zeichnungen	_	_
+1-14	80-83	die	_	_
+1-15	84-89	damit	_	_
+1-16	90-95	gehen	_	_
+1-17	96-103	sollten	_	_
+1-18	104-105	.	_	_
+
+#Text=Ferner Manuscripte in Institutssachen \; Folgendes ist durchgestrichen und am Rande dazu bemerkt : ich muß nun bitten daß Sie mir die Liste der zum 21 April vorgeschlagenen Mitglieder aus dem an Metternich gesandten Brief im nächsten Brief abschriftlich ausgezogen mitsenden .
+2-1	106-112	Ferner	_	_
+2-2	113-124	Manuscripte	_	_
+2-3	125-127	in	_	_
+2-4	128-143	Institutssachen	_	_
+2-5	144-145	\;	_	_
+2-6	146-155	Folgendes	_	_
+2-7	156-159	ist	_	_
+2-8	160-175	durchgestrichen	_	_
+2-9	176-179	und	_	_
+2-10	180-182	am	_	_
+2-11	183-188	Rande	_	_
+2-12	189-193	dazu	_	_
+2-13	194-201	bemerkt	_	_
+2-14	202-203	:	_	_
+2-15	204-207	ich	_	_
+2-16	208-211	muß	_	_
+2-17	212-215	nun	_	_
+2-18	216-222	bitten	_	_
+2-19	223-226	daß	_	_
+2-20	227-230	Sie	_	_
+2-21	231-234	mir	_	_
+2-22	235-238	die	_	_
+2-23	239-244	Liste	_	_
+2-24	245-248	der	_	_
+2-25	249-252	zum	_	_
+2-26	253-255	21	*[2]	DATEmentioned[2]
+2-27	256-261	April	*[2]	DATEmentioned[2]
+2-28	262-277	vorgeschlagenen	_	_
+2-29	278-288	Mitglieder	_	_
+2-30	289-292	aus	_	_
+2-31	293-296	dem	_	_
+2-32	297-299	an	_	_
+2-33	300-310	Metternich	*	PERmentioned
+2-34	311-320	gesandten	_	_
+2-35	321-326	Brief	_	_
+2-36	327-329	im	_	_
+2-37	330-338	nächsten	_	_
+2-38	339-344	Brief	_	_
+2-39	345-358	abschriftlich	_	_
+2-40	359-369	ausgezogen	_	_
+2-41	370-379	mitsenden	_	_
+2-42	380-381	.	_	_
+
+#Text=Hat sich gefunden .
+3-1	382-385	Hat	_	_
+3-2	386-390	sich	_	_
+3-3	391-399	gefunden	_	_
+3-4	400-401	.	_	_
+
+#Text=Avellino schreibt mir , von keinen Gesuch ( Fiorelli's oder Sonstigen ) wegen des etruskischen Herkules zu wissen , aber als meiniges vom Minister die Zeichnung zu erbitten .
+4-1	402-410	Avellino	*	PERmentioned
+4-2	411-419	schreibt	_	_
+4-3	420-423	mir	_	_
+4-4	424-425	,	_	_
+4-5	426-429	von	_	_
+4-6	430-436	keinen	_	_
+4-7	437-443	Gesuch	_	_
+4-8	444-445	(	_	_
+4-9	446-456	Fiorelli's	*	PERmentioned
+4-10	457-461	oder	_	_
+4-11	462-471	Sonstigen	_	_
+4-12	472-473	)	_	_
+4-13	474-479	wegen	_	_
+4-14	480-483	des	_	_
+4-15	484-496	etruskischen	*[3]	OBJ[3]
+4-16	497-505	Herkules	*[3]	OBJ[3]
+4-17	506-508	zu	_	_
+4-18	509-515	wissen	_	_
+4-19	516-517	,	_	_
+4-20	518-522	aber	_	_
+4-21	523-526	als	_	_
+4-22	527-535	meiniges	_	_
+4-23	536-539	vom	_	_
+4-24	540-548	Minister	*	PERmentioned
+4-25	549-552	die	_	_
+4-26	553-562	Zeichnung	_	_
+4-27	563-565	zu	_	_
+4-28	566-574	erbitten	_	_
+4-29	575-576	.	_	_
+
+#Text=Steinhäuser war beim König \; ich sah ihn nicht .
+5-1	577-588	Steinhäuser	*	PERmentioned
+5-2	589-592	war	_	_
+5-3	593-597	beim	_	_
+5-4	598-603	König	*	PERmentioned
+5-5	604-605	\;	_	_
+5-6	606-609	ich	_	_
+5-7	610-613	sah	_	_
+5-8	614-617	ihn	_	_
+5-9	618-623	nicht	_	_
+5-10	624-625	.	_	_
+
+#Text=Seine Gruppe macht hier Furore .
+6-1	626-631	Seine	_	_
+6-2	632-638	Gruppe	_	_
+6-3	639-644	macht	_	_
+6-4	645-649	hier	_	_
+6-5	650-656	Furore	_	_
+6-6	657-658	.	_	_
+
+#Text=Den Castellanos , den wir zum Correspondenten nmachen , habe ich aufgefordert Inschriften zu senden .
+7-1	659-662	Den	_	_
+7-2	663-674	Castellanos	*	PERmentioned
+7-3	675-676	,	_	_
+7-4	677-680	den	_	_
+7-5	681-684	wir	_	_
+7-6	685-688	zum	_	_
+7-7	689-704	Correspondenten	_	_
+7-8	705-712	nmachen	_	_
+7-9	713-714	,	_	_
+7-10	715-719	habe	_	_
+7-11	720-723	ich	_	_
+7-12	724-736	aufgefordert	_	_
+7-13	737-748	Inschriften	_	_
+7-14	749-751	zu	_	_
+7-15	752-758	senden	_	_
+7-16	759-760	.	_	_
+
+#Text=Das unglückliche Paket Bellotti'scher Zeichnungen habe ich für fast 2 rt eingelöst .
+8-1	761-764	Das	_	_
+8-2	765-777	unglückliche	_	_
+8-3	778-783	Paket	_	_
+8-4	784-798	Bellotti'scher	*	PERmentioned
+8-5	799-810	Zeichnungen	_	_
+8-6	811-815	habe	_	_
+8-7	816-819	ich	_	_
+8-8	820-823	für	_	_
+8-9	824-828	fast	_	_
+8-10	829-830	2	_	_
+8-11	831-833	rt	_	_
+8-12	834-843	eingelöst	_	_
+8-13	844-845	.	_	_
+
+#Text=Russo verlangt noch eine Nachzahlung dafür \; Bellotti mag ihm noch 2 Piaster anbieten , falls er sich meldet .
+9-1	846-851	Russo	*	PERmentioned
+9-2	852-860	verlangt	_	_
+9-3	861-865	noch	_	_
+9-4	866-870	eine	_	_
+9-5	871-882	Nachzahlung	_	_
+9-6	883-888	dafür	_	_
+9-7	889-890	\;	_	_
+9-8	891-899	Bellotti	*	PERmentioned
+9-9	900-903	mag	_	_
+9-10	904-907	ihm	_	_
+9-11	908-912	noch	_	_
+9-12	913-914	2	_	_
+9-13	915-922	Piaster	_	_
+9-14	923-931	anbieten	_	_
+9-15	932-933	,	_	_
+9-16	934-939	falls	_	_
+9-17	940-942	er	_	_
+9-18	943-947	sich	_	_
+9-19	948-954	meldet	_	_
+9-20	955-956	.	_	_
+
+#Text=Die Erzählung über Garucci hört sich ja sehr gut an \; danken Sie Henzen dafür wie für sonstigen Inhalt sei-
+10-1	957-960	Die	_	_
+10-2	961-970	Erzählung	_	_
+10-3	971-975	über	_	_
+10-4	976-983	Garucci	*	PERmentioned
+10-5	984-988	hört	_	_
+10-6	989-993	sich	_	_
+10-7	994-996	ja	_	_
+10-8	997-1001	sehr	_	_
+10-9	1002-1005	gut	_	_
+10-10	1006-1008	an	_	_
+10-11	1009-1010	\;	_	_
+10-12	1011-1017	danken	_	_
+10-13	1018-1021	Sie	_	_
+10-14	1022-1028	Henzen	*	PERmentioned
+10-15	1029-1034	dafür	_	_
+10-16	1035-1038	wie	_	_
+10-17	1039-1042	für	_	_
+10-18	1043-1052	sonstigen	_	_
+10-19	1053-1059	Inhalt	_	_
+10-20	1060-1064	sei-	_	_

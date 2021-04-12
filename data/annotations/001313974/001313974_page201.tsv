@@ -1,0 +1,189 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=291 Helbig an Henzen Achern , 27 .
+1-1	0-3	291	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Achern	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	27	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1873 so darf man sagen , daß sie so leidlich ausgefallen sind .
+2-1	35-42	Oktober	*[3]	DATEletter[3]
+2-2	43-47	1873	*[3]	DATEletter[3]
+2-3	48-50	so	_	_
+2-4	51-55	darf	_	_
+2-5	56-59	man	_	_
+2-6	60-65	sagen	_	_
+2-7	66-67	,	_	_
+2-8	68-71	daß	_	_
+2-9	72-75	sie	_	_
+2-10	76-78	so	_	_
+2-11	79-87	leidlich	_	_
+2-12	88-99	ausgefallen	_	_
+2-13	100-104	sind	_	_
+2-14	105-106	.	_	_
+
+#Text=Dagegen ist kein Gedanke daran , daß De Sanctis sie stechen könne .
+3-1	107-114	Dagegen	_	_
+3-2	115-118	ist	_	_
+3-3	119-123	kein	_	_
+3-4	124-131	Gedanke	_	_
+3-5	132-137	daran	_	_
+3-6	138-139	,	_	_
+3-7	140-143	daß	_	_
+3-8	144-146	De	*[4]	PERmentioned[4]
+3-9	147-154	Sanctis	*[4]	PERmentioned[4]
+3-10	155-158	sie	_	_
+3-11	159-166	stechen	_	_
+3-12	167-172	könne	_	_
+3-13	173-174	.	_	_
+
+#Text=Wenn derselbe nicht einmal befähigt ist , nach einer so deutlichen Photographie wie den Lüdersschen „ zu stechen , dann findet er sich in die blasse Manier eines in Hübners Atelier gebildeten Zeichners erst recht nicht hinein .
+4-1	175-179	Wenn	_	_
+4-2	180-188	derselbe	_	_
+4-3	189-194	nicht	_	_
+4-4	195-201	einmal	_	_
+4-5	202-210	befähigt	_	_
+4-6	211-214	ist	_	_
+4-7	215-216	,	_	_
+4-8	217-221	nach	_	_
+4-9	222-227	einer	_	_
+4-10	228-230	so	_	_
+4-11	231-241	deutlichen	_	_
+4-12	242-254	Photographie	_	_
+4-13	255-258	wie	_	_
+4-14	259-262	den	_	_
+4-15	263-274	Lüdersschen	*	MISC
+4-16	275-276	„	_	_
+4-17	277-279	zu	_	_
+4-18	280-287	stechen	_	_
+4-19	288-289	,	_	_
+4-20	290-294	dann	_	_
+4-21	295-301	findet	_	_
+4-22	302-304	er	_	_
+4-23	305-309	sich	_	_
+4-24	310-312	in	_	_
+4-25	313-316	die	_	_
+4-26	317-323	blasse	_	_
+4-27	324-330	Manier	_	_
+4-28	331-336	eines	_	_
+4-29	337-339	in	_	_
+4-30	340-347	Hübners	*	PERmentioned
+4-31	348-355	Atelier	_	_
+4-32	356-366	gebildeten	_	_
+4-33	367-376	Zeichners	_	_
+4-34	377-381	erst	_	_
+4-35	382-387	recht	_	_
+4-36	388-393	nicht	_	_
+4-37	394-400	hinein	_	_
+4-38	401-402	.	_	_
+
+#Text=Ich schreibe an Schulz : unter Overbecks Adresse .
+5-1	403-406	Ich	_	_
+5-2	407-415	schreibe	_	_
+5-3	416-418	an	_	_
+5-4	419-425	Schulz	*	PERmentioned
+5-5	426-427	:	_	_
+5-6	428-433	unter	_	_
+5-7	434-443	Overbecks	*	PERmentioned
+5-8	444-451	Adresse	_	_
+5-9	452-453	.	_	_
+
+#Text=Übrigens wünscht Michaelis - was nur sehr angenehm ist - die Publication in zwei Jahrgänge zu theilen , zwei Monumententafeln mit den Statuen in dem nächsten , vier mit den Reliefs in dem Jahrgang 1875 .
+6-1	454-462	Übrigens	_	_
+6-2	463-470	wünscht	_	_
+6-3	471-480	Michaelis	*	PERmentioned
+6-4	481-482	-	_	_
+6-5	483-486	was	_	_
+6-6	487-490	nur	_	_
+6-7	491-495	sehr	_	_
+6-8	496-504	angenehm	_	_
+6-9	505-508	ist	_	_
+6-10	509-510	-	_	_
+6-11	511-514	die	_	_
+6-12	515-526	Publication	_	_
+6-13	527-529	in	_	_
+6-14	530-534	zwei	_	_
+6-15	535-544	Jahrgänge	_	_
+6-16	545-547	zu	_	_
+6-17	548-555	theilen	_	_
+6-18	556-557	,	_	_
+6-19	558-562	zwei	_	_
+6-20	563-579	Monumententafeln	_	_
+6-21	580-583	mit	_	_
+6-22	584-587	den	_	_
+6-23	588-595	Statuen	*	OBJ
+6-24	596-598	in	_	_
+6-25	599-602	dem	_	_
+6-26	603-611	nächsten	_	_
+6-27	612-613	,	_	_
+6-28	614-618	vier	_	_
+6-29	619-622	mit	_	_
+6-30	623-626	den	_	_
+6-31	627-634	Reliefs	*	OBJ
+6-32	635-637	in	_	_
+6-33	638-641	dem	_	_
+6-34	642-650	Jahrgang	_	_
+6-35	651-655	1875	*	DATEmentioned
+6-36	656-657	.	_	_
+
+#Text=Beiliegendes Billet bitte ich Sie durch Nino an Dantone befördern zu lassen .
+7-1	658-670	Beiliegendes	_	_
+7-2	671-677	Billet	_	_
+7-3	678-683	bitte	_	_
+7-4	684-687	ich	_	_
+7-5	688-691	Sie	_	_
+7-6	692-697	durch	_	_
+7-7	698-702	Nino	*	PERmentioned
+7-8	703-705	an	_	_
+7-9	706-713	Dantone	*	PERmentioned
+7-10	714-723	befördern	_	_
+7-11	724-726	zu	_	_
+7-12	727-733	lassen	_	_
+7-13	734-735	.	_	_
+
+#Text=Ich weiß die Nummer nicht mehr .
+8-1	736-739	Ich	_	_
+8-2	740-744	weiß	_	_
+8-3	745-748	die	_	_
+8-4	749-755	Nummer	_	_
+8-5	756-761	nicht	_	_
+8-6	762-766	mehr	_	_
+8-7	767-768	.	_	_
+
+#Text=Außerdem bitte ich Sie , daß Sie , wenn Sie mein Telegramm erhalten haben , sofort Valentine den Inhalt wissen lassen .
+9-1	769-777	Außerdem	_	_
+9-2	778-783	bitte	_	_
+9-3	784-787	ich	_	_
+9-4	788-791	Sie	_	_
+9-5	792-793	,	_	_
+9-6	794-797	daß	_	_
+9-7	798-801	Sie	_	_
+9-8	802-803	,	_	_
+9-9	804-808	wenn	_	_
+9-10	809-812	Sie	_	_
+9-11	813-817	mein	_	_
+9-12	818-827	Telegramm	_	_
+9-13	828-836	erhalten	_	_
+9-14	837-842	haben	_	_
+9-15	843-844	,	_	_
+9-16	845-851	sofort	_	_
+9-17	852-861	Valentine	*	PERmentioned
+9-18	862-865	den	_	_
+9-19	866-872	Inhalt	_	_
+9-20	873-879	wissen	_	_
+9-21	880-886	lassen	_	_
+9-22	887-888	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr ergebener Helbig
+10-1	889-892	Mit	_	_
+10-2	893-903	herzlichen	_	_
+10-3	904-910	Grüßen	_	_
+10-4	911-914	Ihr	_	_
+10-5	915-924	ergebener	_	_
+10-6	925-931	Helbig	*	PERauthor

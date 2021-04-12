@@ -1,0 +1,48 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 28. September 1837 Von abgegangener Kiste ( ich dachte mit Ex , der Inst.-werke bald nach Ihrer Abreise ? )
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	28.	*[4]	DATEletter[4]
+1-7	30-39	September	*[4]	DATEletter[4]
+1-8	40-44	1837	*[4]	DATEletter[4]
+1-9	45-48	Von	_	_
+1-10	49-61	abgegangener	_	_
+1-11	62-67	Kiste	_	_
+1-12	68-69	(	_	_
+1-13	70-73	ich	_	_
+1-14	74-80	dachte	_	_
+1-15	81-84	mit	_	_
+1-16	85-87	Ex	_	_
+1-17	88-89	,	_	_
+1-18	90-93	der	_	_
+1-19	94-105	Inst.-werke	_	_
+1-20	106-110	bald	_	_
+1-21	111-115	nach	_	_
+1-22	116-121	Ihrer	_	_
+1-23	122-129	Abreise	_	_
+1-24	130-131	?	_	_
+1-25	132-133	)	_	_
+
+#Text=hat Gerstäcker keine Kunde .
+2-1	134-137	hat	_	_
+2-2	138-148	Gerstäcker	*	PERmentioned
+2-3	149-154	keine	_	_
+2-4	155-160	Kunde	_	_
+2-5	161-162	.	_	_
+
+#Text=Ich schmachte nach den fehlenden Probedrücken der Monun .
+3-1	163-166	Ich	_	_
+3-2	167-176	schmachte	_	_
+3-3	177-181	nach	_	_
+3-4	182-185	den	_	_
+3-5	186-195	fehlenden	_	_
+3-6	196-208	Probedrücken	_	_
+3-7	209-212	der	_	_
+3-8	213-218	Monun	_	_
+3-9	219-220	.	_	_

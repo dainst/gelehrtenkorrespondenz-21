@@ -1,0 +1,60 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Breslau 12/IX/1835 furono da lui gia pagati all'Instituto .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-35	12/IX/1835	*	DATEletter
+1-6	36-42	furono	_	_
+1-7	43-45	da	_	_
+1-8	46-49	lui	_	_
+1-9	50-53	gia	_	_
+1-10	54-60	pagati	_	_
+1-11	61-74	all'Instituto	*	ORGmentioned
+1-12	75-76	.	_	_
+
+#Text=- Disse inoltre che il Magdalen College Cambridge aveva pagato il 1832 .
+2-1	77-78	-	_	_
+2-2	79-84	Disse	_	_
+2-3	85-92	inoltre	_	_
+2-4	93-96	che	_	_
+2-5	97-99	il	_	_
+2-6	100-108	Magdalen	*[6]	ORGmentioned[6]
+2-7	109-116	College	*[6]	ORGmentioned[6]
+2-8	117-126	Cambridge	*	PLACEmentioned
+2-9	127-132	aveva	_	_
+2-10	133-139	pagato	_	_
+2-11	140-142	il	_	_
+2-12	143-147	1832	*	DATEmentioned
+2-13	148-149	.	_	_
+
+#Text=- Disse inoltre ( almeno sembra cosi da me notato ) che König gli avea pagato il 1829 e 1830 .
+3-1	150-151	-	_	_
+3-2	152-157	Disse	_	_
+3-3	158-165	inoltre	_	_
+3-4	166-167	(	_	_
+3-5	168-174	almeno	_	_
+3-6	175-181	sembra	_	_
+3-7	182-186	cosi	_	_
+3-8	187-189	da	_	_
+3-9	190-192	me	_	_
+3-10	193-199	notato	_	_
+3-11	200-201	)	_	_
+3-12	202-205	che	_	_
+3-13	206-211	König	*	PERmentioned
+3-14	212-215	gli	_	_
+3-15	216-220	avea	_	_
+3-16	221-227	pagato	_	_
+3-17	228-230	il	_	_
+3-18	231-235	1829	*	DATEmentioned
+3-19	236-237	e	_	_
+3-20	238-242	1830	*	DATEmentioned
+3-21	243-244	.	_	_
+
+#Text=Herzlichst Ihr Gerhard
+4-1	245-255	Herzlichst	_	_
+4-2	256-259	Ihr	_	_
+4-3	260-267	Gerhard	*	PERauthor

@@ -1,0 +1,319 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=24 Braun an Gerhard Rom , 23 .
+1-1	0-2	24	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	23	_	_
+1-8	29-30	.	_	_
+
+#Text=Januar 1840 Sig .
+2-1	31-37	Januar	*[6]	DATEletter[6]
+2-2	38-42	1840	*[6]	DATEletter[6]
+2-3	43-46	Sig	_	_
+2-4	47-48	.	_	_
+
+#Text=Cav .
+3-1	49-52	Cav	_	_
+3-2	53-54	.	_	_
+
+#Text=Gerhard Berlino Roma li 23 Gennajo 1840 .
+4-1	55-62	Gerhard	*	PERaddressee
+4-2	63-70	Berlino	*	PLACEto
+4-3	71-75	Roma	*	PLACEfrom
+4-4	76-78	li	_	_
+4-5	79-81	23	*[8]	DATEletter[8]
+4-6	82-89	Gennajo	*[8]	DATEletter[8]
+4-7	90-94	1840	*[8]	DATEletter[8]
+4-8	95-96	.	_	_
+
+#Text=Ihr lieber Brief vom 7 1 .
+5-1	97-100	Ihr	_	_
+5-2	101-107	lieber	_	_
+5-3	108-113	Brief	_	_
+5-4	114-117	vom	_	_
+5-5	118-119	7	*[9]	DATEmentioned[9]
+5-6	120-121	1	*[9]	DATEmentioned[9]
+5-7	122-123	.	*[9]	DATEmentioned[9]
+
+#Text=M. enthält wenig Stoff zur Beantwortung .
+6-1	124-126	M.	_	_
+6-2	127-134	enthält	_	_
+6-3	135-140	wenig	_	_
+6-4	141-146	Stoff	_	_
+6-5	147-150	zur	_	_
+6-6	151-163	Beantwortung	_	_
+6-7	164-165	.	_	_
+
+#Text=Das Geschäft der beiden Reliefs wird nun Wolff zu Ende führen .
+7-1	166-169	Das	_	_
+7-2	170-178	Geschäft	_	_
+7-3	179-182	der	_	_
+7-4	183-189	beiden	_	_
+7-5	190-197	Reliefs	*	OBJ
+7-6	198-202	wird	_	_
+7-7	203-206	nun	_	_
+7-8	207-212	Wolff	*	PERmentioned
+7-9	213-215	zu	_	_
+7-10	216-220	Ende	_	_
+7-11	221-227	führen	_	_
+7-12	228-229	.	_	_
+
+#Text=Bei der Ausfuhr derselben gehen die Vasen jedenfalls bequemer mit als allein , ich werde indessen alles bereit halten , so daß sie jede Stunde reisen können .
+8-1	230-233	Bei	_	_
+8-2	234-237	der	_	_
+8-3	238-245	Ausfuhr	_	_
+8-4	246-255	derselben	_	_
+8-5	256-261	gehen	_	_
+8-6	262-265	die	_	_
+8-7	266-271	Vasen	*	OBJ
+8-8	272-282	jedenfalls	_	_
+8-9	283-291	bequemer	_	_
+8-10	292-295	mit	_	_
+8-11	296-299	als	_	_
+8-12	300-306	allein	_	_
+8-13	307-308	,	_	_
+8-14	309-312	ich	_	_
+8-15	313-318	werde	_	_
+8-16	319-327	indessen	_	_
+8-17	328-333	alles	_	_
+8-18	334-340	bereit	_	_
+8-19	341-347	halten	_	_
+8-20	348-349	,	_	_
+8-21	350-352	so	_	_
+8-22	353-356	daß	_	_
+8-23	357-360	sie	_	_
+8-24	361-365	jede	_	_
+8-25	366-372	Stunde	_	_
+8-26	373-379	reisen	_	_
+8-27	380-386	können	_	_
+8-28	387-388	.	_	_
+
+#Text=Unsre Geldnoth dauert fort .
+9-1	389-394	Unsre	_	_
+9-2	395-403	Geldnoth	_	_
+9-3	404-410	dauert	_	_
+9-4	411-415	fort	_	_
+9-5	416-417	.	_	_
+
+#Text=Von keiner Seite Briefe oder gar Geldrimessen , dagegen viel Anforderungen .
+10-1	418-421	Von	_	_
+10-2	422-428	keiner	_	_
+10-3	429-434	Seite	_	_
+10-4	435-441	Briefe	_	_
+10-5	442-446	oder	_	_
+10-6	447-450	gar	_	_
+10-7	451-463	Geldrimessen	_	_
+10-8	464-465	,	_	_
+10-9	466-473	dagegen	_	_
+10-10	474-478	viel	_	_
+10-11	479-492	Anforderungen	_	_
+10-12	493-494	.	_	_
+
+#Text=Dabei endlich dieselbe Noth mit dem Hospital , wo man alles vorweg verausgabt hat .
+11-1	495-500	Dabei	_	_
+11-2	501-508	endlich	_	_
+11-3	509-517	dieselbe	_	_
+11-4	518-522	Noth	_	_
+11-5	523-526	mit	_	_
+11-6	527-530	dem	_	_
+11-7	531-539	Hospital	_	_
+11-8	540-541	,	_	_
+11-9	542-544	wo	_	_
+11-10	545-548	man	_	_
+11-11	549-554	alles	_	_
+11-12	555-561	vorweg	_	_
+11-13	562-572	verausgabt	_	_
+11-14	573-576	hat	_	_
+11-15	577-578	.	_	_
+
+#Text=Jahn hat gut Vasen publiciren .
+12-1	579-583	Jahn	*	PERmentioned
+12-2	584-587	hat	_	_
+12-3	588-591	gut	_	_
+12-4	592-597	Vasen	*	OBJ
+12-5	598-608	publiciren	_	_
+12-6	609-610	.	_	_
+
+#Text=Mir hat er bis dahin weder Stich noch Zeichnungen bezahlt \; eine Schuld die fühlbar wird bei gänzlichem Geldmangel .
+13-1	611-614	Mir	_	_
+13-2	615-618	hat	_	_
+13-3	619-621	er	_	_
+13-4	622-625	bis	_	_
+13-5	626-631	dahin	_	_
+13-6	632-637	weder	_	_
+13-7	638-643	Stich	_	_
+13-8	644-648	noch	_	_
+13-9	649-660	Zeichnungen	_	_
+13-10	661-668	bezahlt	_	_
+13-11	669-670	\;	_	_
+13-12	671-675	eine	_	_
+13-13	676-682	Schuld	_	_
+13-14	683-686	die	_	_
+13-15	687-694	fühlbar	_	_
+13-16	695-699	wird	_	_
+13-17	700-703	bei	_	_
+13-18	704-714	gänzlichem	_	_
+13-19	715-725	Geldmangel	_	_
+13-20	726-727	.	_	_
+
+#Text=Für das Institut stehe ich mit 400 Scudi in Vorschuß .
+14-1	728-731	Für	_	_
+14-2	732-735	das	_	_
+14-3	736-744	Institut	*	ORGmentioned
+14-4	745-750	stehe	_	_
+14-5	751-754	ich	_	_
+14-6	755-758	mit	_	_
+14-7	759-762	400	_	_
+14-8	763-768	Scudi	_	_
+14-9	769-771	in	_	_
+14-10	772-780	Vorschuß	_	_
+14-11	781-782	.	_	_
+
+#Text=- Schicken Sie mir das Spiegelgeld ja möglichst rasch hierher .
+15-1	783-784	-	_	_
+15-2	785-793	Schicken	_	_
+15-3	794-797	Sie	_	_
+15-4	798-801	mir	_	_
+15-5	802-805	das	_	_
+15-6	806-817	Spiegelgeld	_	_
+15-7	818-820	ja	_	_
+15-8	821-830	möglichst	_	_
+15-9	831-836	rasch	_	_
+15-10	837-844	hierher	_	_
+15-11	845-846	.	_	_
+
+#Text=Jahn hat alle Zeichnungen von mir bekommen .
+16-1	847-851	Jahn	*	PERmentioned
+16-2	852-855	hat	_	_
+16-3	856-860	alle	_	_
+16-4	861-872	Zeichnungen	_	_
+16-5	873-876	von	_	_
+16-6	877-880	mir	_	_
+16-7	881-889	bekommen	_	_
+16-8	890-891	.	_	_
+
+#Text=Ich besitze von den meisten neapolitanischen Prachtstücken , selbst von der Phineusvase selbstständige Zeichnungen .
+17-1	892-895	Ich	_	_
+17-2	896-903	besitze	_	_
+17-3	904-907	von	_	_
+17-4	908-911	den	_	_
+17-5	912-919	meisten	_	_
+17-6	920-936	neapolitanischen	*	PLACEmentioned
+17-7	937-950	Prachtstücken	_	_
+17-8	951-952	,	_	_
+17-9	953-959	selbst	_	_
+17-10	960-963	von	_	_
+17-11	964-967	der	_	_
+17-12	968-979	Phineusvase	*	OBJ
+17-13	980-994	selbstständige	_	_
+17-14	995-1006	Zeichnungen	_	_
+17-15	1007-1008	.	_	_
+
+#Text=Schöll hat ein Gedicht auf Winckelmann gemacht und sonst aller Welt verkündet , daß M. der größte lebende Archäolog ist .
+18-1	1009-1015	Schöll	*	PERmentioned
+18-2	1016-1019	hat	_	_
+18-3	1020-1023	ein	_	_
+18-4	1024-1031	Gedicht	_	_
+18-5	1032-1035	auf	_	_
+18-6	1036-1047	Winckelmann	*	PERmentioned
+18-7	1048-1055	gemacht	_	_
+18-8	1056-1059	und	_	_
+18-9	1060-1065	sonst	_	_
+18-10	1066-1071	aller	_	_
+18-11	1072-1076	Welt	_	_
+18-12	1077-1086	verkündet	_	_
+18-13	1087-1088	,	_	_
+18-14	1089-1092	daß	_	_
+18-15	1093-1095	M.	_	_
+18-16	1096-1099	der	_	_
+18-17	1100-1106	größte	_	_
+18-18	1107-1114	lebende	_	_
+18-19	1115-1124	Archäolog	_	_
+18-20	1125-1128	ist	_	_
+18-21	1129-1130	.	_	_
+
+#Text=Sonst weiß ich nichts von ihm ... Ich habe ihn sehr wenig gesehen , immer nur am dritten Ort .
+19-1	1131-1136	Sonst	_	_
+19-2	1137-1141	weiß	_	_
+19-3	1142-1145	ich	_	_
+19-4	1146-1152	nichts	_	_
+19-5	1153-1156	von	_	_
+19-6	1157-1160	ihm	_	_
+19-7	1161-1164	...	_	_
+19-8	1165-1168	Ich	_	_
+19-9	1169-1173	habe	_	_
+19-10	1174-1177	ihn	_	_
+19-11	1178-1182	sehr	_	_
+19-12	1183-1188	wenig	_	_
+19-13	1189-1196	gesehen	_	_
+19-14	1197-1198	,	_	_
+19-15	1199-1204	immer	_	_
+19-16	1205-1208	nur	_	_
+19-17	1209-1211	am	_	_
+19-18	1212-1219	dritten	_	_
+19-19	1220-1223	Ort	_	_
+19-20	1224-1225	.	_	_
+
+#Text=Das 2.te Heft der Monum .
+20-1	1226-1229	Das	_	_
+20-2	1230-1234	2.te	_	_
+20-3	1235-1239	Heft	_	_
+20-4	1240-1243	der	_	_
+20-5	1244-1249	Monum	_	_
+20-6	1250-1251	.	_	_
+
+#Text=1838 ist doch so mager durch seinen Inhalt nicht .
+21-1	1252-1256	1838	*	DATEmentioned
+21-2	1257-1260	ist	_	_
+21-3	1261-1265	doch	_	_
+21-4	1266-1268	so	_	_
+21-5	1269-1274	mager	_	_
+21-6	1275-1280	durch	_	_
+21-7	1281-1287	seinen	_	_
+21-8	1288-1294	Inhalt	_	_
+21-9	1295-1300	nicht	_	_
+21-10	1301-1302	.	_	_
+
+#Text=Ich meine es wären schöne Blätter darunter .
+22-1	1303-1306	Ich	_	_
+22-2	1307-1312	meine	_	_
+22-3	1313-1315	es	_	_
+22-4	1316-1321	wären	_	_
+22-5	1322-1328	schöne	_	_
+22-6	1329-1336	Blätter	_	_
+22-7	1337-1345	darunter	_	_
+22-8	1346-1347	.	_	_
+
+#Text=Mir war es von Anfang an zuwider die Zahl der Blätter zu ändern , das schickt sich eben vom Jahr 1836 her .
+23-1	1348-1351	Mir	_	_
+23-2	1352-1355	war	_	_
+23-3	1356-1358	es	_	_
+23-4	1359-1362	von	_	_
+23-5	1363-1369	Anfang	_	_
+23-6	1370-1372	an	_	_
+23-7	1373-1380	zuwider	_	_
+23-8	1381-1384	die	_	_
+23-9	1385-1389	Zahl	_	_
+23-10	1390-1393	der	_	_
+23-11	1394-1401	Blätter	_	_
+23-12	1402-1404	zu	_	_
+23-13	1405-1411	ändern	_	_
+23-14	1412-1413	,	_	_
+23-15	1414-1417	das	_	_
+23-16	1418-1425	schickt	_	_
+23-17	1426-1430	sich	_	_
+23-18	1431-1435	eben	_	_
+23-19	1436-1439	vom	_	_
+23-20	1440-1444	Jahr	_	_
+23-21	1445-1449	1836	*	DATEmentioned
+23-22	1450-1453	her	_	_
+23-23	1454-1455	.	_	_
+
+#Text=g
+24-1	1456-1457	g	_	_

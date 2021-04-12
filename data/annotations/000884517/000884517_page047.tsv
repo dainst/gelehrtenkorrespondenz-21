@@ -1,0 +1,254 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=191 Gerhard an Braun Berlin , 22. April 1844 Subscription für Exemplare .
+1-1	0-3	191	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	22.	*[3]	DATEletter[3]
+1-8	34-39	April	*[3]	DATEletter[3]
+1-9	40-44	1844	*[3]	DATEletter[3]
+1-10	45-57	Subscription	_	_
+1-11	58-61	für	_	_
+1-12	62-71	Exemplare	_	_
+1-13	72-73	.	_	_
+
+#Text=Was ist das für ein neues `` Grabmal des Porsenna '' bei Cetona , welches auf Sozzi 's und eines Hamiltons Autorität im Kunstblatt N® 24 beschrieben ist .
+2-1	74-77	Was	_	_
+2-2	78-81	ist	_	_
+2-3	82-85	das	_	_
+2-4	86-89	für	_	_
+2-5	90-93	ein	_	_
+2-6	94-99	neues	_	_
+2-7	100-102	``	_	_
+2-8	103-110	Grabmal	*[4]	OBJ[4]
+2-9	111-114	des	*[4]	OBJ[4]
+2-10	115-123	Porsenna	*[4]	OBJ[4]
+2-11	124-126	''	_	_
+2-12	127-130	bei	_	_
+2-13	131-137	Cetona	*	PERmentioned
+2-14	138-139	,	_	_
+2-15	140-147	welches	_	_
+2-16	148-151	auf	_	_
+2-17	152-157	Sozzi	*[7]	PERmentioned[7]
+2-18	158-160	's	*[7]	PERmentioned[7]
+2-19	161-164	und	_	_
+2-20	165-170	eines	_	_
+2-21	171-180	Hamiltons	*	PERmentioned
+2-22	181-190	Autorität	_	_
+2-23	191-193	im	_	_
+2-24	194-204	Kunstblatt	_	_
+2-25	205-207	N®	_	_
+2-26	208-210	24	_	_
+2-27	211-222	beschrieben	_	_
+2-28	223-226	ist	_	_
+2-29	227-228	.	_	_
+
+#Text=Römische Bäder ?
+3-1	229-237	Römische	*[5]	OBJ[5]
+3-2	238-243	Bäder	*[5]	OBJ[5]
+3-3	244-245	?	_	_
+
+#Text=Die Halbirung der Annalen ist gewiß übel \; deshalb aber würde ich das bisherige Verhältnis von Annali und Bullettino noch nicht zerreißen .
+4-1	246-249	Die	_	_
+4-2	250-259	Halbirung	_	_
+4-3	260-263	der	_	_
+4-4	264-271	Annalen	_	_
+4-5	272-275	ist	_	_
+4-6	276-281	gewiß	_	_
+4-7	282-286	übel	_	_
+4-8	287-288	\;	_	_
+4-9	289-296	deshalb	_	_
+4-10	297-301	aber	_	_
+4-11	302-307	würde	_	_
+4-12	308-311	ich	_	_
+4-13	312-315	das	_	_
+4-14	316-325	bisherige	_	_
+4-15	326-336	Verhältnis	_	_
+4-16	337-340	von	_	_
+4-17	341-347	Annali	_	_
+4-18	348-351	und	_	_
+4-19	352-362	Bullettino	*	PERmentioned
+4-20	363-367	noch	_	_
+4-21	368-373	nicht	_	_
+4-22	374-383	zerreißen	_	_
+4-23	384-385	.	_	_
+
+#Text=Die Franzosen können ja lieber einen ganzen Jahrgang übernehnen .
+5-1	386-389	Die	_	_
+5-2	390-399	Franzosen	_	_
+5-3	400-406	können	_	_
+5-4	407-409	ja	_	_
+5-5	410-416	lieber	_	_
+5-6	417-422	einen	_	_
+5-7	423-429	ganzen	_	_
+5-8	430-438	Jahrgang	_	_
+5-9	439-449	übernehnen	_	_
+5-10	450-451	.	_	_
+
+#Text=Die Lotzbecksche Zueignung scheint mir gut \; ich werde sie an Bunsen Ihrem Wunsch gemäß zeigen , sie wird ihm ebenso recht sein .
+6-1	452-455	Die	_	_
+6-2	456-468	Lotzbecksche	*	PERmentioned
+6-3	469-478	Zueignung	_	_
+6-4	479-486	scheint	_	_
+6-5	487-490	mir	_	_
+6-6	491-494	gut	_	_
+6-7	495-496	\;	_	_
+6-8	497-500	ich	_	_
+6-9	501-506	werde	_	_
+6-10	507-510	sie	_	_
+6-11	511-513	an	_	_
+6-12	514-520	Bunsen	*	PERmentioned
+6-13	521-526	Ihrem	_	_
+6-14	527-533	Wunsch	_	_
+6-15	534-539	gemäß	_	_
+6-16	540-546	zeigen	_	_
+6-17	547-548	,	_	_
+6-18	549-552	sie	_	_
+6-19	553-557	wird	_	_
+6-20	558-561	ihm	_	_
+6-21	562-568	ebenso	_	_
+6-22	569-574	recht	_	_
+6-23	575-579	sein	_	_
+6-24	580-581	.	_	_
+
+#Text=Der König bekommt allerhöchstdero nach dem Curialstyl : `` allerhöchstdieselben brachten dem Höchsten ihre Andacht dar . ''
+7-1	582-585	Der	_	_
+7-2	586-591	König	*	PERmentioned
+7-3	592-599	bekommt	_	_
+7-4	600-615	allerhöchstdero	_	_
+7-5	616-620	nach	_	_
+7-6	621-624	dem	_	_
+7-7	625-635	Curialstyl	_	_
+7-8	636-637	:	_	_
+7-9	638-640	``	_	_
+7-10	641-661	allerhöchstdieselben	_	_
+7-11	662-670	brachten	_	_
+7-12	671-674	dem	_	_
+7-13	675-683	Höchsten	_	_
+7-14	684-688	ihre	_	_
+7-15	689-696	Andacht	_	_
+7-16	697-700	dar	_	_
+7-17	701-702	.	_	_
+7-18	703-705	''	_	_
+
+#Text=Unsre gestrige FPaliliengesellschaft von Bunsen geladen - 13 Personen , absit omen !
+8-1	706-711	Unsre	_	_
+8-2	712-720	gestrige	_	_
+8-3	721-742	FPaliliengesellschaft	_	_
+8-4	743-746	von	_	_
+8-5	747-753	Bunsen	*	PERmentioned
+8-6	754-761	geladen	_	_
+8-7	762-763	-	_	_
+8-8	764-766	13	_	_
+8-9	767-775	Personen	_	_
+8-10	776-777	,	_	_
+8-11	778-783	absit	_	_
+8-12	784-788	omen	_	_
+8-13	789-790	!	_	_
+
+#Text=- bestand außer Bunsen und Söhne , Panofka und mir , nur Usedom , Liphart ( der aber wieder an den Rhein geht ) , Franz , Kramer , Röstell , Reumont , des rühmlichen Namens wegen auch M. Niebuhr .
+9-1	791-792	-	_	_
+9-2	793-800	bestand	_	_
+9-3	801-806	außer	_	_
+9-4	807-813	Bunsen	*	PERmentioned
+9-5	814-817	und	_	_
+9-6	818-823	Söhne	_	_
+9-7	824-825	,	_	_
+9-8	826-833	Panofka	*	PERmentioned
+9-9	834-837	und	_	_
+9-10	838-841	mir	_	_
+9-11	842-843	,	_	_
+9-12	844-847	nur	_	_
+9-13	848-854	Usedom	*	PERmentioned
+9-14	855-856	,	_	_
+9-15	857-864	Liphart	*	PERmentioned
+9-16	865-866	(	_	_
+9-17	867-870	der	_	_
+9-18	871-875	aber	_	_
+9-19	876-882	wieder	_	_
+9-20	883-885	an	_	_
+9-21	886-889	den	_	_
+9-22	890-895	Rhein	*	PLACEmentioned
+9-23	896-900	geht	_	_
+9-24	901-902	)	_	_
+9-25	903-904	,	_	_
+9-26	905-910	Franz	*	PERmentioned
+9-27	911-912	,	_	_
+9-28	913-919	Kramer	*	PERmentioned
+9-29	920-921	,	_	_
+9-30	922-929	Röstell	*	PERmentioned
+9-31	930-931	,	_	_
+9-32	932-939	Reumont	*	PERmentioned
+9-33	940-941	,	_	_
+9-34	942-945	des	_	_
+9-35	946-956	rühmlichen	_	_
+9-36	957-963	Namens	_	_
+9-37	964-969	wegen	_	_
+9-38	970-974	auch	_	_
+9-39	975-977	M.	*[6]	PERmentioned[6]
+9-40	978-985	Niebuhr	*[6]	PERmentioned[6]
+9-41	986-987	.	_	_
+
+#Text=En Ihre Decaden haben guten Succeß \; Schwark in der Hallischen Litteratur Zeitung und Hermann in dem Göttinger G 1 .
+10-1	988-990	En	_	_
+10-2	991-995	Ihre	_	_
+10-3	996-1003	Decaden	_	_
+10-4	1004-1009	haben	_	_
+10-5	1010-1015	guten	_	_
+10-6	1016-1022	Succeß	_	_
+10-7	1023-1024	\;	_	_
+10-8	1025-1032	Schwark	*	PERmentioned
+10-9	1033-1035	in	_	_
+10-10	1036-1039	der	_	_
+10-11	1040-1050	Hallischen	*	PLACEmentioned
+10-12	1051-1061	Litteratur	_	_
+10-13	1062-1069	Zeitung	_	_
+10-14	1070-1073	und	_	_
+10-15	1074-1081	Hermann	*	PERmentioned
+10-16	1082-1084	in	_	_
+10-17	1085-1088	dem	_	_
+10-18	1089-1098	Göttinger	*	PLACEmentioned
+10-19	1099-1100	G	_	_
+10-20	1101-1102	1	_	_
+10-21	1103-1104	.	_	_
+
+#Text=Anzeiger haben viel daran gelobt und gezupft .
+11-1	1105-1113	Anzeiger	_	_
+11-2	1114-1119	haben	_	_
+11-3	1120-1124	viel	_	_
+11-4	1125-1130	daran	_	_
+11-5	1131-1137	gelobt	_	_
+11-6	1138-1141	und	_	_
+11-7	1142-1149	gezupft	_	_
+11-8	1150-1151	.	_	_
+
+#Text=Letzteres lege ich der Sendung archäologische Zeitung bei , die ich Ihnen am Ende doch unter Band schicken muß - , gleich heute .
+12-1	1152-1161	Letzteres	_	_
+12-2	1162-1166	lege	_	_
+12-3	1167-1170	ich	_	_
+12-4	1171-1174	der	_	_
+12-5	1175-1182	Sendung	_	_
+12-6	1183-1197	archäologische	_	_
+12-7	1198-1205	Zeitung	_	_
+12-8	1206-1209	bei	_	_
+12-9	1210-1211	,	_	_
+12-10	1212-1215	die	_	_
+12-11	1216-1219	ich	_	_
+12-12	1220-1225	Ihnen	_	_
+12-13	1226-1228	am	_	_
+12-14	1229-1233	Ende	_	_
+12-15	1234-1238	doch	_	_
+12-16	1239-1244	unter	_	_
+12-17	1245-1249	Band	_	_
+12-18	1250-1258	schicken	_	_
+12-19	1259-1262	muß	_	_
+12-20	1263-1264	-	_	_
+12-21	1265-1266	,	_	_
+12-22	1267-1273	gleich	_	_
+12-23	1274-1279	heute	_	_
+12-24	1280-1281	.	_	_

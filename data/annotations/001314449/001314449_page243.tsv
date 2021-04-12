@@ -1,0 +1,123 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ohne Nummer Henzen an Gerhard 4/V1/55 \| freu : sich des baldigen Wiedersehens .
+1-1	0-4	Ohne	_	_
+1-2	5-11	Nummer	_	_
+1-3	12-18	Henzen	*	PERauthor
+1-4	19-21	an	_	_
+1-5	22-29	Gerhard	*	PERaddressee
+1-6	30-37	4/V1/55	_	_
+1-7	38-39	\|	_	_
+1-8	40-44	freu	_	_
+1-9	45-46	:	_	_
+1-10	47-51	sich	_	_
+1-11	52-55	des	_	_
+1-12	56-64	baldigen	_	_
+1-13	65-77	Wiedersehens	_	_
+1-14	78-79	.	_	_
+
+#Text=Mommsen grüßt .
+2-1	80-87	Mommsen	*	PERmentioned
+2-2	88-93	grüßt	_	_
+2-3	94-95	.	_	_
+
+#Text=Leben ®ie recht wohl .
+3-1	96-101	Leben	_	_
+3-2	102-105	®ie	_	_
+3-3	106-111	recht	_	_
+3-4	112-116	wohl	_	_
+3-5	117-118	.	_	_
+
+#Text=Ihr ergebner W. Henzen Breslau 4/VI 55 PS .
+4-1	119-122	Ihr	_	_
+4-2	123-131	ergebner	_	_
+4-3	132-134	W.	*[3]	PERauthor[3]
+4-4	135-141	Henzen	*[3]	PERauthor[3]
+4-5	142-149	Breslau	*	PLACEfrom
+4-6	150-154	4/VI	*[1]|*[2]	DATEletter[1]|DATEletter[2]
+4-7	155-157	55	*[1]|*[2]	DATEletter[1]|DATEletter[2]
+4-8	158-160	PS	_	_
+4-9	161-162	.	_	_
+
+#Text=Mommsen bittet die Akademie , ihm Anweisung zu geben , wie u. an wen er die Zumptischen Zettelkasten , die uns ganz unnütz sind , abgeben könne , da er sein Logis räux nen musse , Nächstens werde ich die Rechnungen über die Hülfsselder einsenden , um für den Winter eine neue Bewilligung zu erlangen .
+5-1	163-170	Mommsen	*	PERmentioned
+5-2	171-177	bittet	_	_
+5-3	178-181	die	_	_
+5-4	182-190	Akademie	*	ORGmentioned
+5-5	191-192	,	_	_
+5-6	193-196	ihm	_	_
+5-7	197-206	Anweisung	_	_
+5-8	207-209	zu	_	_
+5-9	210-215	geben	_	_
+5-10	216-217	,	_	_
+5-11	218-221	wie	_	_
+5-12	222-224	u.	_	_
+5-13	225-227	an	_	_
+5-14	228-231	wen	_	_
+5-15	232-234	er	_	_
+5-16	235-238	die	_	_
+5-17	239-250	Zumptischen	_	_
+5-18	251-263	Zettelkasten	_	_
+5-19	264-265	,	_	_
+5-20	266-269	die	_	_
+5-21	270-273	uns	_	_
+5-22	274-278	ganz	_	_
+5-23	279-285	unnütz	_	_
+5-24	286-290	sind	_	_
+5-25	291-292	,	_	_
+5-26	293-300	abgeben	_	_
+5-27	301-306	könne	_	_
+5-28	307-308	,	_	_
+5-29	309-311	da	_	_
+5-30	312-314	er	_	_
+5-31	315-319	sein	_	_
+5-32	320-325	Logis	_	_
+5-33	326-330	räux	_	_
+5-34	331-334	nen	_	_
+5-35	335-340	musse	_	_
+5-36	341-342	,	_	_
+5-37	343-352	Nächstens	_	_
+5-38	353-358	werde	_	_
+5-39	359-362	ich	_	_
+5-40	363-366	die	_	_
+5-41	367-377	Rechnungen	_	_
+5-42	378-382	über	_	_
+5-43	383-386	die	_	_
+5-44	387-398	Hülfsselder	_	_
+5-45	399-408	einsenden	_	_
+5-46	409-410	,	_	_
+5-47	411-413	um	_	_
+5-48	414-417	für	_	_
+5-49	418-421	den	_	_
+5-50	422-428	Winter	_	_
+5-51	429-433	eine	_	_
+5-52	434-438	neue	_	_
+5-53	439-450	Bewilligung	_	_
+5-54	451-453	zu	_	_
+5-55	454-462	erlangen	_	_
+5-56	463-464	.	_	_
+
+#Text=en ERST — E f x of .
+6-1	465-467	en	_	_
+6-2	468-472	ERST	_	_
+6-3	473-474	—	_	_
+6-4	475-476	E	_	_
+6-5	477-478	f	_	_
+6-6	479-480	x	_	_
+6-7	481-483	of	_	_
+6-8	484-485	.	_	_
+
+#Text=Meat !
+7-1	486-490	Meat	_	_
+7-2	491-492	!	_	_
+
+#Text=‚A Paar nen Ari 1 P- 20
+8-1	493-495	‚A	_	_
+8-2	496-500	Paar	_	_
+8-3	501-504	nen	_	_
+8-4	505-508	Ari	_	_
+8-5	509-510	1	_	_
+8-6	511-513	P-	_	_
+8-7	514-516	20	_	_

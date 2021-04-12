@@ -1,0 +1,245 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Achern , 7 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Achern	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	7	_	_
+1-7	28-29	.	_	_
+
+#Text=Oktober 1873 H g . 11/10 73 r . 13/10 73 Achern ( Haus Villinger ) Großherzogthum Baden 7 .
+2-1	30-37	Oktober	*[3]	DATEletter[3]
+2-2	38-42	1873	*[3]	DATEletter[3]
+2-3	43-44	H	_	_
+2-4	45-46	g	_	_
+2-5	47-48	.	_	_
+2-6	49-54	11/10	*[4]	DATErecieved[4]
+2-7	55-57	73	*[4]	DATErecieved[4]
+2-8	58-59	r	_	_
+2-9	60-61	.	_	_
+2-10	62-67	13/10	*[5]	DATEanswered[5]
+2-11	68-70	73	*[5]	DATEanswered[5]
+2-12	71-77	Achern	*	PLACEfrom
+2-13	78-79	(	_	_
+2-14	80-84	Haus	_	_
+2-15	85-94	Villinger	_	_
+2-16	95-96	)	_	_
+2-17	97-111	Großherzogthum	*[6]	PLACEmentioned[6]
+2-18	112-117	Baden	*[6]	PLACEmentioned[6]
+2-19	118-119	7	*[7]	DATEletter[7]
+2-20	120-121	.	*[7]	DATEletter[7]
+
+#Text=Oct .
+3-1	122-125	Oct	*[7]	DATEletter[7]
+3-2	126-127	.	*[7]	DATEletter[7]
+
+#Text=1873 Lieber Herr Professor Ihren freundlichen Brief vom 5. beantworte ich umgehend .
+4-1	128-132	1873	*[7]	DATEletter[7]
+4-2	133-139	Lieber	_	_
+4-3	140-144	Herr	_	_
+4-4	145-154	Professor	_	_
+4-5	155-160	Ihren	_	_
+4-6	161-173	freundlichen	_	_
+4-7	174-179	Brief	_	_
+4-8	180-183	vom	_	_
+4-9	184-186	5.	*[8]	DATEmentioned[8]
+4-10	187-197	beantworte	_	_
+4-11	198-201	ich	_	_
+4-12	202-210	umgehend	_	_
+4-13	211-212	.	_	_
+
+#Text=Das in unserem Hause erwartete Ereignis wird wohl heute oder morgen eintreten .
+5-1	213-216	Das	_	_
+5-2	217-219	in	_	_
+5-3	220-227	unserem	_	_
+5-4	228-233	Hause	_	_
+5-5	234-243	erwartete	_	_
+5-6	244-252	Ereignis	_	_
+5-7	253-257	wird	_	_
+5-8	258-262	wohl	_	_
+5-9	263-268	heute	_	_
+5-10	269-273	oder	_	_
+5-11	274-280	morgen	_	_
+5-12	281-290	eintreten	_	_
+5-13	291-292	.	_	_
+
+#Text=Gestern Abend stellten sich die ersten Anzeigen ein .
+6-1	293-300	Gestern	_	_
+6-2	301-306	Abend	_	_
+6-3	307-315	stellten	_	_
+6-4	316-320	sich	_	_
+6-5	321-324	die	_	_
+6-6	325-331	ersten	_	_
+6-7	332-340	Anzeigen	_	_
+6-8	341-344	ein	_	_
+6-9	345-346	.	_	_
+
+#Text=Ich schreibe Ihnen sofort wieder , nachdem die Entbindung erfolgt ist .
+7-1	347-350	Ich	_	_
+7-2	351-359	schreibe	_	_
+7-3	360-365	Ihnen	_	_
+7-4	366-372	sofort	_	_
+7-5	373-379	wieder	_	_
+7-6	380-381	,	_	_
+7-7	382-389	nachdem	_	_
+7-8	390-393	die	_	_
+7-9	394-404	Entbindung	_	_
+7-10	405-412	erfolgt	_	_
+7-11	413-416	ist	_	_
+7-12	417-418	.	_	_
+
+#Text=Das Befinden meiner Frau ist , soweit es ihr Zustand zuläßt , nach Wunsche .
+8-1	419-422	Das	_	_
+8-2	423-431	Befinden	_	_
+8-3	432-438	meiner	_	_
+8-4	439-443	Frau	_	_
+8-5	444-447	ist	_	_
+8-6	448-449	,	_	_
+8-7	450-456	soweit	_	_
+8-8	457-459	es	_	_
+8-9	460-463	ihr	_	_
+8-10	464-471	Zustand	_	_
+8-11	472-478	zuläßt	_	_
+8-12	479-480	,	_	_
+8-13	481-485	nach	_	_
+8-14	486-493	Wunsche	_	_
+8-15	494-495	.	_	_
+
+#Text=Lili befindet sich ganz wohl .
+9-1	496-500	Lili	*	PERmentioned
+9-2	501-509	befindet	_	_
+9-3	510-514	sich	_	_
+9-4	515-519	ganz	_	_
+9-5	520-524	wohl	_	_
+9-6	525-526	.	_	_
+
+#Text=Was die Publicationen des Instituts betrifft , so wird Kekul & s Aufsatz ( Spiegel ) wohl unterdeß in Rom eingetroffen sein .
+10-1	527-530	Was	_	_
+10-2	531-534	die	_	_
+10-3	535-548	Publicationen	_	_
+10-4	549-552	des	_	_
+10-5	553-562	Instituts	*	ORGmentioned
+10-6	563-571	betrifft	_	_
+10-7	572-573	,	_	_
+10-8	574-576	so	_	_
+10-9	577-581	wird	_	_
+10-10	582-587	Kekul	*[9]	PERmentioned[9]
+10-11	588-589	&	*[9]	PERmentioned[9]
+10-12	590-591	s	*[9]	PERmentioned[9]
+10-13	592-599	Aufsatz	_	_
+10-14	600-601	(	_	_
+10-15	602-609	Spiegel	*	OBJ
+10-16	610-611	)	_	_
+10-17	612-616	wohl	_	_
+10-18	617-625	unterdeß	_	_
+10-19	626-628	in	_	_
+10-20	629-632	Rom	*	PLACEmentioned
+10-21	633-645	eingetroffen	_	_
+10-22	646-650	sein	_	_
+10-23	651-652	.	_	_
+
+#Text=Ich bitte darum , daß die Nummern der Spiegel richtig in den Text gesetzt werden .
+11-1	653-656	Ich	_	_
+11-2	657-662	bitte	_	_
+11-3	663-668	darum	_	_
+11-4	669-670	,	_	_
+11-5	671-674	daß	_	_
+11-6	675-678	die	_	_
+11-7	679-686	Nummern	_	_
+11-8	687-690	der	_	_
+11-9	691-698	Spiegel	*	OBJ
+11-10	699-706	richtig	_	_
+11-11	707-709	in	_	_
+11-12	710-713	den	_	_
+11-13	714-718	Text	_	_
+11-14	719-726	gesetzt	_	_
+11-15	727-733	werden	_	_
+11-16	734-735	.	_	_
+
+#Text=Michaelis , der noch in England ist , hat mir versprochen , daß er mir seinen Aufsatz über die Inschriftencista nach Rom mitgeben wird .
+12-1	736-745	Michaelis	*	PERmentioned
+12-2	746-747	,	_	_
+12-3	748-751	der	_	_
+12-4	752-756	noch	_	_
+12-5	757-759	in	_	_
+12-6	760-767	England	*	PLACEmentioned
+12-7	768-771	ist	_	_
+12-8	772-773	,	_	_
+12-9	774-777	hat	_	_
+12-10	778-781	mir	_	_
+12-11	782-793	versprochen	_	_
+12-12	794-795	,	_	_
+12-13	796-799	daß	_	_
+12-14	800-802	er	_	_
+12-15	803-806	mir	_	_
+12-16	807-813	seinen	_	_
+12-17	814-821	Aufsatz	_	_
+12-18	822-826	über	_	_
+12-19	827-830	die	_	_
+12-20	831-847	Inschriftencista	*	OBJ
+12-21	848-852	nach	_	_
+12-22	853-856	Rom	*	PLACEmentioned
+12-23	857-865	mitgeben	_	_
+12-24	866-870	wird	_	_
+12-25	871-872	.	_	_
+
+#Text=Was Adler mit den Fundnotizen will , verstehe ich nicht .
+13-1	873-876	Was	_	_
+13-2	877-882	Adler	*	PERmentioned
+13-3	883-886	mit	_	_
+13-4	887-890	den	_	_
+13-5	891-902	Fundnotizen	_	_
+13-6	903-907	will	_	_
+13-7	908-909	,	_	_
+13-8	910-918	verstehe	_	_
+13-9	919-922	ich	_	_
+13-10	923-928	nicht	_	_
+13-11	929-930	.	_	_
+
+#Text=Meinen Grenzbotenartikel hat er bereits seit langer Zeit in den Händen und darin findet sich das ganze Material .
+14-1	931-937	Meinen	_	_
+14-2	938-955	Grenzbotenartikel	_	_
+14-3	956-959	hat	_	_
+14-4	960-962	er	_	_
+14-5	963-970	bereits	_	_
+14-6	971-975	seit	_	_
+14-7	976-982	langer	_	_
+14-8	983-987	Zeit	_	_
+14-9	988-990	in	_	_
+14-10	991-994	den	_	_
+14-11	995-1001	Händen	_	_
+14-12	1002-1005	und	_	_
+14-13	1006-1011	darin	_	_
+14-14	1012-1018	findet	_	_
+14-15	1019-1023	sich	_	_
+14-16	1024-1027	das	_	_
+14-17	1028-1033	ganze	_	_
+14-18	1034-1042	Material	_	_
+14-19	1043-1044	.	_	_
+
+#Text=Doch werde ich ihn erinnern .
+15-1	1045-1049	Doch	_	_
+15-2	1050-1055	werde	_	_
+15-3	1056-1059	ich	_	_
+15-4	1060-1063	ihn	_	_
+15-5	1064-1072	erinnern	_	_
+15-6	1073-1074	.	_	_
+
+#Text=Liefert er die Notizen nicht , dann trete ich mit den zwei Monumen-
+16-1	1075-1082	Liefert	_	_
+16-2	1083-1085	er	_	_
+16-3	1086-1089	die	_	_
+16-4	1090-1097	Notizen	_	_
+16-5	1098-1103	nicht	_	_
+16-6	1104-1105	,	_	_
+16-7	1106-1110	dann	_	_
+16-8	1111-1116	trete	_	_
+16-9	1117-1120	ich	_	_
+16-10	1121-1124	mit	_	_
+16-11	1125-1128	den	_	_
+16-12	1129-1133	zwei	_	_
+16-13	1134-1142	Monumen-	_	_

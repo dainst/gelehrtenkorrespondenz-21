@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=170 Gerhard an Braun Berlin , 1. April 1844 Daß sich mit Calandrelli nichts anfangen ließ schrieb ich Ihnen .
+1-1	0-3	170	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	1.	*[1]	DATEletter[1]
+1-8	33-38	April	*[1]	DATEletter[1]
+1-9	39-43	1844	*[1]	DATEletter[1]
+1-10	44-47	Daß	_	_
+1-11	48-52	sich	_	_
+1-12	53-56	mit	_	_
+1-13	57-68	Calandrelli	*	PERmentioned
+1-14	69-75	nichts	_	_
+1-15	76-84	anfangen	_	_
+1-16	85-89	ließ	_	_
+1-17	90-97	schrieb	_	_
+1-18	98-101	ich	_	_
+1-19	102-107	Ihnen	_	_
+1-20	108-109	.	_	_
+
+#Text=Falbe sagt daß in Kopenhagen 5 Exemplare Institutswerke , sämtlich incomplet , sind \; Bravo habe die Verwirrung nur größer gemacht , an Fortsetzung seit 1838 denke man lieber gar nicht .
+2-1	110-115	Falbe	_	_
+2-2	116-120	sagt	_	_
+2-3	121-124	daß	_	_
+2-4	125-127	in	_	_
+2-5	128-138	Kopenhagen	*	PLACEmentioned
+2-6	139-140	5	_	_
+2-7	141-150	Exemplare	_	_
+2-8	151-165	Institutswerke	_	_
+2-9	166-167	,	_	_
+2-10	168-176	sämtlich	_	_
+2-11	177-186	incomplet	_	_
+2-12	187-188	,	_	_
+2-13	189-193	sind	_	_
+2-14	194-195	\;	_	_
+2-15	196-201	Bravo	*	PERmentioned
+2-16	202-206	habe	_	_
+2-17	207-210	die	_	_
+2-18	211-221	Verwirrung	_	_
+2-19	222-225	nur	_	_
+2-20	226-232	größer	_	_
+2-21	233-240	gemacht	_	_
+2-22	241-242	,	_	_
+2-23	243-245	an	_	_
+2-24	246-257	Fortsetzung	_	_
+2-25	258-262	seit	_	_
+2-26	263-267	1838	_	_
+2-27	268-273	denke	_	_
+2-28	274-277	man	_	_
+2-29	278-284	lieber	_	_
+2-30	285-288	gar	_	_
+2-31	289-294	nicht	_	_
+2-32	295-296	.	_	_
+
+#Text=Ich habe ihn aufgefordert seine Defekte mir nun zu liquidiren und wird es wol besser sein fernerhin dies ohne Bravo abzumachen \; oder hat dieser seit 1838 die Zahlung geschafft ?
+3-1	297-300	Ich	_	_
+3-2	301-305	habe	_	_
+3-3	306-309	ihn	_	_
+3-4	310-322	aufgefordert	_	_
+3-5	323-328	seine	_	_
+3-6	329-336	Defekte	_	_
+3-7	337-340	mir	_	_
+3-8	341-344	nun	_	_
+3-9	345-347	zu	_	_
+3-10	348-358	liquidiren	_	_
+3-11	359-362	und	_	_
+3-12	363-367	wird	_	_
+3-13	368-370	es	_	_
+3-14	371-374	wol	_	_
+3-15	375-381	besser	_	_
+3-16	382-386	sein	_	_
+3-17	387-396	fernerhin	_	_
+3-18	397-401	dies	_	_
+3-19	402-406	ohne	_	_
+3-20	407-412	Bravo	_	_
+3-21	413-423	abzumachen	_	_
+3-22	424-425	\;	_	_
+3-23	426-430	oder	_	_
+3-24	431-434	hat	_	_
+3-25	435-441	dieser	_	_
+3-26	442-446	seit	_	_
+3-27	447-451	1838	*	DATEmentioned
+3-28	452-455	die	_	_
+3-29	456-463	Zahlung	_	_
+3-30	464-473	geschafft	_	_
+3-31	474-475	?	_	_
+
+#Text=Ist dies nicht der Fall und werden nicht Procente erspart , so ist ja Brockhaus der natürlichste Mittelsmann .
+4-1	476-479	Ist	_	_
+4-2	480-484	dies	_	_
+4-3	485-490	nicht	_	_
+4-4	491-494	der	_	_
+4-5	495-499	Fall	_	_
+4-6	500-503	und	_	_
+4-7	504-510	werden	_	_
+4-8	511-516	nicht	_	_
+4-9	517-525	Procente	_	_
+4-10	526-533	erspart	_	_
+4-11	534-535	,	_	_
+4-12	536-538	so	_	_
+4-13	539-542	ist	_	_
+4-14	543-545	ja	_	_
+4-15	546-555	Brockhaus	*	ORGmentioned
+4-16	556-559	der	_	_
+4-17	560-572	natürlichste	_	_
+4-18	573-584	Mittelsmann	_	_
+4-19	585-586	.	_	_
+
+#Text=Jahn und Schulz sind hier und grüßen .
+5-1	587-591	Jahn	*	PERmentioned
+5-2	592-595	und	_	_
+5-3	596-602	Schulz	*	PERmentioned
+5-4	603-607	sind	_	_
+5-5	608-612	hier	_	_
+5-6	613-616	und	_	_
+5-7	617-623	grüßen	_	_
+5-8	624-625	.	_	_
+
+#Text=Jahn bereitet ein Bändchen archäologische Abhandlung , Schulz sein Manifest , nachdem eben Baltards Werk zu seinem Schrecken erschienen ist .
+6-1	626-630	Jahn	*	PERmentioned
+6-2	631-639	bereitet	_	_
+6-3	640-643	ein	_	_
+6-4	644-652	Bändchen	_	_
+6-5	653-667	archäologische	_	_
+6-6	668-678	Abhandlung	_	_
+6-7	679-680	,	_	_
+6-8	681-687	Schulz	*	PERmentioned
+6-9	688-692	sein	_	_
+6-10	693-701	Manifest	_	_
+6-11	702-703	,	_	_
+6-12	704-711	nachdem	_	_
+6-13	712-716	eben	_	_
+6-14	717-725	Baltards	*	PERmentioned
+6-15	726-730	Werk	_	_
+6-16	731-733	zu	_	_
+6-17	734-740	seinem	_	_
+6-18	741-750	Schrecken	_	_
+6-19	751-761	erschienen	_	_
+6-20	762-765	ist	_	_
+6-21	766-767	.	_	_
+
+#Text=Er versicherfmit Ihnen in Ordnung zu sein .
+7-1	768-770	Er	_	_
+7-2	771-784	versicherfmit	_	_
+7-3	785-790	Ihnen	_	_
+7-4	791-793	in	_	_
+7-5	794-801	Ordnung	_	_
+7-6	802-804	zu	_	_
+7-7	805-809	sein	_	_
+7-8	810-811	.	_	_
+
+#Text=Millingen hat mir kürzlich geschrieben \; auf Olfers Veranlassung hatte ich sein Anerbieten eines silbernen Kandelabers mit der Aufforderung beantwortet er möge zusammenstellen und taxiren was er sonst uns anbieten und cediren möge .
+8-1	812-821	Millingen	*	PERmentioned
+8-2	822-825	hat	_	_
+8-3	826-829	mir	_	_
+8-4	830-838	kürzlich	_	_
+8-5	839-850	geschrieben	_	_
+8-6	851-852	\;	_	_
+8-7	853-856	auf	_	_
+8-8	857-863	Olfers	*	PERmentioned
+8-9	864-876	Veranlassung	_	_
+8-10	877-882	hatte	_	_
+8-11	883-886	ich	_	_
+8-12	887-891	sein	_	_
+8-13	892-902	Anerbieten	_	_
+8-14	903-908	eines	_	_
+8-15	909-918	silbernen	_	_
+8-16	919-930	Kandelabers	_	_
+8-17	931-934	mit	_	_
+8-18	935-938	der	_	_
+8-19	939-951	Aufforderung	_	_
+8-20	952-963	beantwortet	_	_
+8-21	964-966	er	_	_
+8-22	967-971	möge	_	_
+8-23	972-987	zusammenstellen	_	_
+8-24	988-991	und	_	_
+8-25	992-999	taxiren	_	_
+8-26	1000-1003	was	_	_
+8-27	1004-1006	er	_	_
+8-28	1007-1012	sonst	_	_
+8-29	1013-1016	uns	_	_
+8-30	1017-1025	anbieten	_	_
+8-31	1026-1029	und	_	_
+8-32	1030-1037	cediren	_	_
+8-33	1038-1042	möge	_	_
+8-34	1043-1044	.	_	_
+
+#Text=Er antwortet , Sie möchten Auswahl und Taxe über Sich nehmen , wenn Sie einmal nach Florenz kämen .
+9-1	1045-1047	Er	_	_
+9-2	1048-1057	antwortet	_	_
+9-3	1058-1059	,	_	_
+9-4	1060-1063	Sie	_	_
+9-5	1064-1071	möchten	_	_
+9-6	1072-1079	Auswahl	_	_
+9-7	1080-1083	und	_	_
+9-8	1084-1088	Taxe	_	_
+9-9	1089-1093	über	_	_
+9-10	1094-1098	Sich	_	_
+9-11	1099-1105	nehmen	_	_
+9-12	1106-1107	,	_	_
+9-13	1108-1112	wenn	_	_
+9-14	1113-1116	Sie	_	_
+9-15	1117-1123	einmal	_	_
+9-16	1124-1128	nach	_	_
+9-17	1129-1136	Florenz	*	PLACEmentioned
+9-18	1137-1142	kämen	_	_
+9-19	1143-1144	.	_	_
+
+#Text=Des Straßburger Schweigkürcher 's am 124 März d. J. erfolgter Tod wird dem Institut von dessen Familie
+10-1	1145-1148	Des	_	_
+10-2	1149-1160	Straßburger	_	_
+10-3	1161-1175	Schweigkürcher	_	_
+10-4	1176-1178	's	_	_
+10-5	1179-1181	am	_	_
+10-6	1182-1185	124	*[2]	DATEmentioned[2]
+10-7	1186-1190	März	*[2]	DATEmentioned[2]
+10-8	1191-1193	d.	*[2]	DATEmentioned[2]
+10-9	1194-1196	J.	*[2]	DATEmentioned[2]
+10-10	1197-1206	erfolgter	_	_
+10-11	1207-1210	Tod	_	_
+10-12	1211-1215	wird	_	_
+10-13	1216-1219	dem	_	_
+10-14	1220-1228	Institut	*	ORGmentioned
+10-15	1229-1232	von	_	_
+10-16	1233-1239	dessen	_	_
+10-17	1240-1247	Familie	_	_

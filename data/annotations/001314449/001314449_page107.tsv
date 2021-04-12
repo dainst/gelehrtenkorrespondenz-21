@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=124 Henzen an Gerhard a1r/IV/53 — \; machen müssen .
+1-1	0-3	124	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-31	a1r/IV/53	*	DATEletter
+1-6	32-33	—	_	_
+1-7	34-35	\;	_	_
+1-8	36-42	machen	_	_
+1-9	43-49	müssen	_	_
+1-10	50-51	.	_	_
+
+#Text=-— Vorgestern starb Wahle an Bauchwassersucht \; ein Sohn wird das Geschäft fortsetzen , der freilich eben erst von der Universität kommt .
+2-1	52-54	-—	_	_
+2-2	55-65	Vorgestern	_	_
+2-3	66-71	starb	_	_
+2-4	72-77	Wahle	*	PERmentioned
+2-5	78-80	an	_	_
+2-6	81-97	Bauchwassersucht	_	_
+2-7	98-99	\;	_	_
+2-8	100-103	ein	_	_
+2-9	104-108	Sohn	_	_
+2-10	109-113	wird	_	_
+2-11	114-117	das	_	_
+2-12	118-126	Geschäft	_	_
+2-13	127-137	fortsetzen	_	_
+2-14	138-139	,	_	_
+2-15	140-143	der	_	_
+2-16	144-152	freilich	_	_
+2-17	153-157	eben	_	_
+2-18	158-162	erst	_	_
+2-19	163-166	von	_	_
+2-20	167-170	der	_	_
+2-21	171-182	Universität	*	ORGmentioned
+2-22	183-188	kommt	_	_
+2-23	189-190	.	_	_
+
+#Text=-— Einliegenden Brief sind Sie wohl so gut , sei es in Berlin , sei es \\ nach Leipzig zu besorgen , - Leben Sie recht wohl u. empfehlen mich bestens Ihrer 1 .
+3-1	191-193	-—	_	_
+3-2	194-206	Einliegenden	_	_
+3-3	207-212	Brief	_	_
+3-4	213-217	sind	_	_
+3-5	218-221	Sie	_	_
+3-6	222-226	wohl	_	_
+3-7	227-229	so	_	_
+3-8	230-233	gut	_	_
+3-9	234-235	,	_	_
+3-10	236-239	sei	_	_
+3-11	240-242	es	_	_
+3-12	243-245	in	_	_
+3-13	246-252	Berlin	*	PLACEmentioned
+3-14	253-254	,	_	_
+3-15	255-258	sei	_	_
+3-16	259-261	es	_	_
+3-17	262-263	\\	_	_
+3-18	264-268	nach	_	_
+3-19	269-276	Leipzig	*	PLACEmentioned
+3-20	277-279	zu	_	_
+3-21	280-288	besorgen	_	_
+3-22	289-290	,	_	_
+3-23	291-292	-	_	_
+3-24	293-298	Leben	_	_
+3-25	299-302	Sie	_	_
+3-26	303-308	recht	_	_
+3-27	309-313	wohl	_	_
+3-28	314-316	u.	_	_
+3-29	317-326	empfehlen	_	_
+3-30	327-331	mich	_	_
+3-31	332-339	bestens	_	_
+3-32	340-345	Ihrer	_	_
+3-33	346-347	1	_	_
+3-34	348-349	.	_	_
+
+#Text=Frau , für die eine lange Epistel beiliegt , .
+4-1	350-354	Frau	_	_
+4-2	355-356	,	_	_
+4-3	357-360	für	_	_
+4-4	361-364	die	_	_
+4-5	365-369	eine	_	_
+4-6	370-375	lange	_	_
+4-7	376-383	Epistel	_	_
+4-8	384-392	beiliegt	_	_
+4-9	393-394	,	_	_
+4-10	395-396	.	_	_
+
+#Text=Ihr WHz , Rom 11/IV 53 Wie gefallen denn in Berlin Nommsen 's An 1 kten ?
+5-1	397-400	Ihr	_	_
+5-2	401-404	WHz	*	PERauthor
+5-3	405-406	,	_	_
+5-4	407-410	Rom	*	PLACEfrom
+5-5	411-416	11/IV	*[3]	DATEletter[3]
+5-6	417-419	53	*[3]	DATEletter[3]
+5-7	420-423	Wie	_	_
+5-8	424-432	gefallen	_	_
+5-9	433-437	denn	_	_
+5-10	438-440	in	_	_
+5-11	441-447	Berlin	*	PLACEmentioned
+5-12	448-455	Nommsen	*[4]	PERmentioned[4]
+5-13	456-458	's	*[4]	PERmentioned[4]
+5-14	459-461	An	_	_
+5-15	462-463	1	_	_
+5-16	464-468	kten	_	_
+5-17	469-470	?	_	_
+
+#Text=Die Akademie thäte doch wohl daran , die betreffenden Partien ds . C.1.Gr .
+6-1	471-474	Die	_	_
+6-2	475-483	Akademie	*	ORGmentioned
+6-3	484-489	thäte	_	_
+6-4	490-494	doch	_	_
+6-5	495-499	wohl	_	_
+6-6	500-505	daran	_	_
+6-7	506-507	,	_	_
+6-8	508-511	die	_	_
+6-9	512-524	betreffenden	_	_
+6-10	525-532	Partien	_	_
+6-11	533-535	ds	_	_
+6-12	536-537	.	_	_
+6-13	538-544	C.1.Gr	_	_
+6-14	545-546	.	_	_
+
+#Text=zu cassiren u. umzudrucken , Es ist eine öchande für sie , Ligorio nicht zu kennen .
+7-1	547-549	zu	_	_
+7-2	550-558	cassiren	_	_
+7-3	559-561	u.	_	_
+7-4	562-573	umzudrucken	_	_
+7-5	574-575	,	_	_
+7-6	576-578	Es	_	_
+7-7	579-582	ist	_	_
+7-8	583-587	eine	_	_
+7-9	588-595	öchande	_	_
+7-10	596-599	für	_	_
+7-11	600-603	sie	_	_
+7-12	604-605	,	_	_
+7-13	606-613	Ligorio	*	PERmentioned
+7-14	614-619	nicht	_	_
+7-15	620-622	zu	_	_
+7-16	623-629	kennen	_	_
+7-17	630-631	.	_	_
+
+#Text=Für Riccio , den Ihnen die Kiste bringst , schulden Sie dem Institut Sc. 2,65 Papier = vf .
+8-1	632-635	Für	_	_
+8-2	636-642	Riccio	*	PERmentioned
+8-3	643-644	,	_	_
+8-4	645-648	den	_	_
+8-5	649-654	Ihnen	_	_
+8-6	655-658	die	_	_
+8-7	659-664	Kiste	_	_
+8-8	665-672	bringst	_	_
+8-9	673-674	,	_	_
+8-10	675-683	schulden	_	_
+8-11	684-687	Sie	_	_
+8-12	688-691	dem	_	_
+8-13	692-700	Institut	*	ORGmentioned
+8-14	701-704	Sc.	_	_
+8-15	705-709	2,65	_	_
+8-16	710-716	Papier	_	_
+8-17	717-718	=	_	_
+8-18	719-721	vf	_	_
+8-19	722-723	.	_	_
+
+#Text=3 - 25 Sgo .
+9-1	724-725	3	_	_
+9-2	726-727	-	_	_
+9-3	728-730	25	_	_
+9-4	731-734	Sgo	_	_
+9-5	735-736	.	_	_
+
+#Text=circa , demmenamın una nt , 1 + 3 12/IV Die Ankunft Ihres 1 .
+10-1	737-742	circa	_	_
+10-2	743-744	,	_	_
+10-3	745-755	demmenamın	_	_
+10-4	756-759	una	_	_
+10-5	760-762	nt	_	_
+10-6	763-764	,	_	_
+10-7	765-766	1	_	_
+10-8	767-768	+	_	_
+10-9	769-770	3	_	_
+10-10	771-776	12/IV	_	_
+10-11	777-780	Die	_	_
+10-12	781-788	Ankunft	_	_
+10-13	789-794	Ihres	_	_
+10-14	795-796	1	_	_
+10-15	797-798	.	_	_
+
+#Text=Bri @ fs vom 27 veranlasste mich , vorstehende Zeilen noch zurückzuhalten .
+11-1	799-802	Bri	_	_
+11-2	803-804	@	_	_
+11-3	805-807	fs	_	_
+11-4	808-811	vom	_	_
+11-5	812-814	27	_	_
+11-6	815-826	veranlasste	_	_
+11-7	827-831	mich	_	_
+11-8	832-833	,	_	_
+11-9	834-845	vorstehende	_	_
+11-10	846-852	Zeilen	_	_
+11-11	853-857	noch	_	_
+11-12	858-872	zurückzuhalten	_	_
+11-13	873-874	.	_	_
+
+#Text=-— Den Vorschlag , Usedom zum Honorarpräsidenten zu machen , modifieire ich ( u. Welcker u. Braun stimmen bei ) dahin , diesen Titel dem jedesmaligen Preußischen Gesandten beizulegen , wozu freilich vielleicht die königl .
+12-1	875-877	-—	_	_
+12-2	878-881	Den	_	_
+12-3	882-891	Vorschlag	_	_
+12-4	892-893	,	_	_
+12-5	894-900	Usedom	*	PERmentioned
+12-6	901-904	zum	_	_
+12-7	905-923	Honorarpräsidenten	_	_
+12-8	924-926	zu	_	_
+12-9	927-933	machen	_	_
+12-10	934-935	,	_	_
+12-11	936-946	modifieire	_	_
+12-12	947-950	ich	_	_
+12-13	951-952	(	_	_
+12-14	953-955	u.	_	_
+12-15	956-963	Welcker	*	PERmentioned
+12-16	964-966	u.	_	_
+12-17	967-972	Braun	*	PERmentioned
+12-18	973-980	stimmen	_	_
+12-19	981-984	bei	_	_
+12-20	985-986	)	_	_
+12-21	987-992	dahin	_	_
+12-22	993-994	,	_	_
+12-23	995-1001	diesen	_	_
+12-24	1002-1007	Titel	_	_
+12-25	1008-1011	dem	_	_
+12-26	1012-1024	jedesmaligen	_	_
+12-27	1025-1036	Preußischen	_	_
+12-28	1037-1046	Gesandten	_	_
+12-29	1047-1057	beizulegen	_	_
+12-30	1058-1059	,	_	_
+12-31	1060-1064	wozu	_	_
+12-32	1065-1073	freilich	_	_
+12-33	1074-1084	vielleicht	_	_
+12-34	1085-1088	die	_	_
+12-35	1089-1095	königl	_	_
+12-36	1096-1097	.	_	_
+
+#Text=Genehmigung nothwendig .
+13-1	1098-1109	Genehmigung	_	_
+13-2	1110-1120	nothwendig	_	_
+13-3	1121-1122	.	_	_
+
+#Text=Wir brauchen eine Stütze der Art \; man slaubt hier an eine viel directere Unterstützung des Instituts , als sie es wir-
+14-1	1123-1126	Wir	_	_
+14-2	1127-1135	brauchen	_	_
+14-3	1136-1140	eine	_	_
+14-4	1141-1147	Stütze	_	_
+14-5	1148-1151	der	_	_
+14-6	1152-1155	Art	_	_
+14-7	1156-1157	\;	_	_
+14-8	1158-1161	man	_	_
+14-9	1162-1168	slaubt	_	_
+14-10	1169-1173	hier	_	_
+14-11	1174-1176	an	_	_
+14-12	1177-1181	eine	_	_
+14-13	1182-1186	viel	_	_
+14-14	1187-1196	directere	_	_
+14-15	1197-1210	Unterstützung	_	_
+14-16	1211-1214	des	_	_
+14-17	1215-1224	Instituts	*	ORGmentioned
+14-18	1225-1226	,	_	_
+14-19	1227-1230	als	_	_
+14-20	1231-1234	sie	_	_
+14-21	1235-1237	es	_	_
+14-22	1238-1242	wir-	_	_

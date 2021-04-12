@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=268 Braun an Gerhard Prof. Gerhard Rom , 19 , Februar 1835 Roma 1i 19 febbrajo 1835 Ich bitte vorerst auf meinen 1 .
+1-1	0-3	268	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-43	19	*[2]	DATEletter[2]
+1-10	44-45	,	*[2]	DATEletter[2]
+1-11	46-53	Februar	*[2]	DATEletter[2]
+1-12	54-58	1835	*[2]	DATEletter[2]
+1-13	59-63	Roma	*	PLACEfrom
+1-14	64-66	1i	_	_
+1-15	67-69	19	*[3]	DATEletter[3]
+1-16	70-78	febbrajo	*[3]	DATEletter[3]
+1-17	79-83	1835	*[3]	DATEletter[3]
+1-18	84-87	Ich	_	_
+1-19	88-93	bitte	_	_
+1-20	94-101	vorerst	_	_
+1-21	102-105	auf	_	_
+1-22	106-112	meinen	_	_
+1-23	113-114	1	_	_
+1-24	115-116	.	_	_
+
+#Text=Brief vom 12 .
+2-1	117-122	Brief	_	_
+2-2	123-126	vom	_	_
+2-3	127-129	12	*[4]	DATEmentioned[4]
+2-4	130-131	.	*[4]	DATEmentioned[4]
+
+#Text=Febr .
+3-1	132-136	Febr	*[4]	DATEmentioned[4]
+3-2	137-138	.	*[4]	DATEmentioned[4]
+
+#Text=die Nr. 247 zu ergänzen , da ich sie vergaß .
+4-1	139-142	die	_	_
+4-2	143-146	Nr.	_	_
+4-3	147-150	247	_	_
+4-4	151-153	zu	_	_
+4-5	154-162	ergänzen	_	_
+4-6	163-164	,	_	_
+4-7	165-167	da	_	_
+4-8	168-171	ich	_	_
+4-9	172-175	sie	_	_
+4-10	176-182	vergaß	_	_
+4-11	183-184	.	_	_
+
+#Text=Der Telephasspiegel gehört Ihnen für 30 \; 40 wurden mir den a. Tag geboten .
+5-1	185-188	Der	_	_
+5-2	189-204	Telephasspiegel	*	OBJ
+5-3	205-211	gehört	_	_
+5-4	212-217	Ihnen	_	_
+5-5	218-221	für	_	_
+5-6	222-224	30	_	_
+5-7	225-226	\;	_	_
+5-8	227-229	40	_	_
+5-9	230-236	wurden	_	_
+5-10	237-240	mir	_	_
+5-11	241-244	den	_	_
+5-12	245-247	a.	_	_
+5-13	248-251	Tag	_	_
+5-14	252-259	geboten	_	_
+5-15	260-261	.	_	_
+
+#Text=Auch hatte ich sämtliche Spiegel del Prete für 45 Sc. angekauft , aber zuviel gegeben .
+6-1	262-266	Auch	_	_
+6-2	267-272	hatte	_	_
+6-3	273-276	ich	_	_
+6-4	277-286	sämtliche	_	_
+6-5	287-294	Spiegel	_	_
+6-6	295-298	del	_	_
+6-7	299-304	Prete	*	PERmentioned
+6-8	305-308	für	_	_
+6-9	309-311	45	_	_
+6-10	312-315	Sc.	_	_
+6-11	316-325	angekauft	_	_
+6-12	326-327	,	_	_
+6-13	328-332	aber	_	_
+6-14	333-339	zuviel	_	_
+6-15	340-347	gegeben	_	_
+6-16	348-349	.	_	_
+
+#Text=Die Zahlung hatte Zeit \; wollen Sie sie noch , so können Sie auch noch für die 60 Sc. auf die ich gehandelt einen schönen kleinen Candelaber obenein haben .
+7-1	350-353	Die	_	_
+7-2	354-361	Zahlung	_	_
+7-3	362-367	hatte	_	_
+7-4	368-372	Zeit	_	_
+7-5	373-374	\;	_	_
+7-6	375-381	wollen	_	_
+7-7	382-385	Sie	_	_
+7-8	386-389	sie	_	_
+7-9	390-394	noch	_	_
+7-10	395-396	,	_	_
+7-11	397-399	so	_	_
+7-12	400-406	können	_	_
+7-13	407-410	Sie	_	_
+7-14	411-415	auch	_	_
+7-15	416-420	noch	_	_
+7-16	421-424	für	_	_
+7-17	425-428	die	_	_
+7-18	429-431	60	_	_
+7-19	432-435	Sc.	_	_
+7-20	436-439	auf	_	_
+7-21	440-443	die	_	_
+7-22	444-447	ich	_	_
+7-23	448-457	gehandelt	_	_
+7-24	458-463	einen	_	_
+7-25	464-471	schönen	_	_
+7-26	472-479	kleinen	_	_
+7-27	480-490	Candelaber	*	OBJ
+7-28	491-498	obenein	_	_
+7-29	499-504	haben	_	_
+7-30	505-506	.	_	_
+
+#Text=Durand ist noch hier und kauft terrible schöne Sachen zusammen .
+8-1	507-513	Durand	_	_
+8-2	514-517	ist	_	_
+8-3	518-522	noch	_	_
+8-4	523-527	hier	_	_
+8-5	528-531	und	_	_
+8-6	532-537	kauft	_	_
+8-7	538-546	terrible	_	_
+8-8	547-553	schöne	_	_
+8-9	554-560	Sachen	_	_
+8-10	561-569	zusammen	_	_
+8-11	570-571	.	_	_
+
+#Text=Ein Agnardis ist das schönste was ich der Art gesehen .
+9-1	572-575	Ein	_	_
+9-2	576-584	Agnardis	*	OBJ
+9-3	585-588	ist	_	_
+9-4	589-592	das	_	_
+9-5	593-601	schönste	_	_
+9-6	602-605	was	_	_
+9-7	606-609	ich	_	_
+9-8	610-613	der	_	_
+9-9	614-617	Art	_	_
+9-10	618-625	gesehen	_	_
+9-11	626-627	.	_	_
+
+#Text=Unberührt und fein wie kein anderes Gefäß , Bellog zeichnet ihn heute , Meine Monum .
+10-1	628-637	Unberührt	_	_
+10-2	638-641	und	_	_
+10-3	642-646	fein	_	_
+10-4	647-650	wie	_	_
+10-5	651-655	kein	_	_
+10-6	656-663	anderes	_	_
+10-7	664-669	Gefäß	_	_
+10-8	670-671	,	_	_
+10-9	672-678	Bellog	*	PERmentioned
+10-10	679-687	zeichnet	_	_
+10-11	688-691	ihn	_	_
+10-12	692-697	heute	_	_
+10-13	698-699	,	_	_
+10-14	700-705	Meine	_	_
+10-15	706-711	Monum	_	_
+10-16	712-713	.	_	_
+
+#Text=1835 fasc . II sind fast fertig und können zur Ersparung von Umschlägen und um das Pubblicum zu befriedigen mit fasc .
+11-1	714-718	1835	_	_
+11-2	719-723	fasc	_	_
+11-3	724-725	.	_	_
+11-4	726-728	II	_	_
+11-5	729-733	sind	_	_
+11-6	734-738	fast	_	_
+11-7	739-745	fertig	_	_
+11-8	746-749	und	_	_
+11-9	750-756	können	_	_
+11-10	757-760	zur	_	_
+11-11	761-770	Ersparung	_	_
+11-12	771-774	von	_	_
+11-13	775-785	Umschlägen	_	_
+11-14	786-789	und	_	_
+11-15	790-792	um	_	_
+11-16	793-796	das	_	_
+11-17	797-806	Pubblicum	_	_
+11-18	807-809	zu	_	_
+11-19	810-821	befriedigen	_	_
+11-20	822-825	mit	_	_
+11-21	826-830	fasc	_	_
+11-22	831-832	.	_	_
+
+#Text=I. gleichzeitig ausgegeben werden .
+12-1	833-835	I.	_	_
+12-2	836-848	gleichzeitig	_	_
+12-3	849-859	ausgegeben	_	_
+12-4	860-866	werden	_	_
+12-5	867-868	.	_	_
+
+#Text=Stollten die Annalen je hier gedruckt werden , so bitte ich mir Gelegenheit zu schaffen , um dasselbe System zu befolgen .
+13-1	869-877	Stollten	_	_
+13-2	878-881	die	_	_
+13-3	882-889	Annalen	_	_
+13-4	890-892	je	_	_
+13-5	893-897	hier	_	_
+13-6	898-906	gedruckt	_	_
+13-7	907-913	werden	_	_
+13-8	914-915	,	_	_
+13-9	916-918	so	_	_
+13-10	919-924	bitte	_	_
+13-11	925-928	ich	_	_
+13-12	929-932	mir	_	_
+13-13	933-944	Gelegenheit	_	_
+13-14	945-947	zu	_	_
+13-15	948-956	schaffen	_	_
+13-16	957-958	,	_	_
+13-17	959-961	um	_	_
+13-18	962-970	dasselbe	_	_
+13-19	971-977	System	_	_
+13-20	978-980	zu	_	_
+13-21	981-989	befolgen	_	_
+13-22	990-991	.	_	_
+
+#Text=Die Sachen müssen rasch folgen und das Pubblicum mehr beschäftigen als hinhalten .
+14-1	992-995	Die	_	_
+14-2	996-1002	Sachen	_	_
+14-3	1003-1009	müssen	_	_
+14-4	1010-1015	rasch	_	_
+14-5	1016-1022	folgen	_	_
+14-6	1023-1026	und	_	_
+14-7	1027-1030	das	_	_
+14-8	1031-1040	Pubblicum	_	_
+14-9	1041-1045	mehr	_	_
+14-10	1046-1058	beschäftigen	_	_
+14-11	1059-1062	als	_	_
+14-12	1063-1072	hinhalten	_	_
+14-13	1073-1074	.	_	_
+
+#Text=Spaer verkauft keine Bücher \; ich soll aber seine Bücher ordnen und benutzen .
+15-1	1075-1080	Spaer	_	_
+15-2	1081-1089	verkauft	_	_
+15-3	1090-1095	keine	_	_
+15-4	1096-1102	Bücher	_	_
+15-5	1103-1104	\;	_	_
+15-6	1105-1108	ich	_	_
+15-7	1109-1113	soll	_	_
+15-8	1114-1118	aber	_	_
+15-9	1119-1124	seine	_	_
+15-10	1125-1131	Bücher	_	_
+15-11	1132-1138	ordnen	_	_
+15-12	1139-1142	und	_	_
+15-13	1143-1151	benutzen	_	_
+15-14	1152-1153	.	_	_
+
+#Text=Das Bull. , welches Kellermann früher ohne alles überlassen wurde , will Bunsen jetzt nicht » ie & t allein anvertrauen .
+16-1	1154-1157	Das	_	_
+16-2	1158-1163	Bull.	_	_
+16-3	1164-1165	,	_	_
+16-4	1166-1173	welches	_	_
+16-5	1174-1184	Kellermann	*	PERmentioned
+16-6	1185-1191	früher	_	_
+16-7	1192-1196	ohne	_	_
+16-8	1197-1202	alles	_	_
+16-9	1203-1213	überlassen	_	_
+16-10	1214-1219	wurde	_	_
+16-11	1220-1221	,	_	_
+16-12	1222-1226	will	_	_
+16-13	1227-1233	Bunsen	*	PERmentioned
+16-14	1234-1239	jetzt	_	_
+16-15	1240-1245	nicht	_	_
+16-16	1246-1247	»	_	_
+16-17	1248-1250	ie	_	_
+16-18	1251-1252	&	_	_
+16-19	1253-1254	t	_	_
+16-20	1255-1261	allein	_	_
+16-21	1262-1273	anvertrauen	_	_
+16-22	1274-1275	.	_	_
+
+#Text=Lanci ist darüber wild und will keinen Antheil
+17-1	1276-1281	Lanci	*	PERmentioned
+17-2	1282-1285	ist	_	_
+17-3	1286-1293	darüber	_	_
+17-4	1294-1298	wild	_	_
+17-5	1299-1302	und	_	_
+17-6	1303-1307	will	_	_
+17-7	1308-1314	keinen	_	_
+17-8	1315-1322	Antheil	_	_

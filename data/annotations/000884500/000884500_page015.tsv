@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	16	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 Sie dann wol dem Dellantonis die Pille schuldiger Abzüge wegen der beiden früheren Sendungen zuzuschieben wissen ( Nb .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-46	Sie	_	_
+2-4	47-51	dann	_	_
+2-5	52-55	wol	_	_
+2-6	56-59	dem	_	_
+2-7	60-71	Dellantonis	*	PERmentioned
+2-8	72-75	die	_	_
+2-9	76-81	Pille	_	_
+2-10	82-92	schuldiger	_	_
+2-11	93-99	Abzüge	_	_
+2-12	100-105	wegen	_	_
+2-13	106-109	der	_	_
+2-14	110-116	beiden	_	_
+2-15	117-125	früheren	_	_
+2-16	126-135	Sendungen	_	_
+2-17	136-148	zuzuschieben	_	_
+2-18	149-155	wissen	_	_
+2-19	156-157	(	_	_
+2-20	158-160	Nb	_	_
+2-21	161-162	.	_	_
+
+#Text=ohne jene frühere Zahlung die ich trage , mit dem nächsten Vasentransport zu vermengen , die das Museum angeht . )
+3-1	163-167	ohne	_	_
+3-2	168-172	jene	_	_
+3-3	173-180	frühere	_	_
+3-4	181-188	Zahlung	_	_
+3-5	189-192	die	_	_
+3-6	193-196	ich	_	_
+3-7	197-202	trage	_	_
+3-8	203-204	,	_	_
+3-9	205-208	mit	_	_
+3-10	209-212	dem	_	_
+3-11	213-221	nächsten	_	_
+3-12	222-236	Vasentransport	_	_
+3-13	237-239	zu	_	_
+3-14	240-249	vermengen	_	_
+3-15	250-251	,	_	_
+3-16	252-255	die	_	_
+3-17	256-259	das	_	_
+3-18	260-266	Museum	*	ORGmentioned
+3-19	267-273	angeht	_	_
+3-20	274-275	.	_	_
+3-21	276-277	)	_	_
+
+#Text=Gleichzeitig rechnen Sie dann wol auch , den Betrag der Ihrerseits mir adirten aber noch unberechneten Veasenfragmente und 3 3/4 rt für die Ex .
+4-1	278-290	Gleichzeitig	_	_
+4-2	291-298	rechnen	_	_
+4-3	299-302	Sie	_	_
+4-4	303-307	dann	_	_
+4-5	308-311	wol	_	_
+4-6	312-316	auch	_	_
+4-7	317-318	,	_	_
+4-8	319-322	den	_	_
+4-9	323-329	Betrag	_	_
+4-10	330-333	der	_	_
+4-11	334-344	Ihrerseits	_	_
+4-12	345-348	mir	_	_
+4-13	349-356	adirten	_	_
+4-14	357-361	aber	_	_
+4-15	362-366	noch	_	_
+4-16	367-380	unberechneten	_	_
+4-17	381-396	Veasenfragmente	_	_
+4-18	397-400	und	_	_
+4-19	401-402	3	_	_
+4-20	403-406	3/4	_	_
+4-21	407-409	rt	_	_
+4-22	410-413	für	_	_
+4-23	414-417	die	_	_
+4-24	418-420	Ex	_	_
+4-25	421-422	.	_	_
+
+#Text=des Müller hinzufügend , unser jetziges Credit und Debet zusammen .
+5-1	423-426	des	_	_
+5-2	427-433	Müller	*	PERmentioned
+5-3	434-445	hinzufügend	_	_
+5-4	446-447	,	_	_
+5-5	448-453	unser	_	_
+5-6	454-462	jetziges	_	_
+5-7	463-469	Credit	_	_
+5-8	470-473	und	_	_
+5-9	474-479	Debet	_	_
+5-10	480-488	zusammen	_	_
+5-11	489-490	.	_	_
+
+#Text=Der Großherzog von Weimar hat sein Inst.exemplar gekündigt \; minder gravos wäre es gewesen , wenn das Institut den Namen der Bibliothek statt des Souverains verloren hätte .
+6-1	491-494	Der	_	_
+6-2	495-505	Großherzog	*[8]	PERmentioned[8]
+6-3	506-509	von	*[8]	PERmentioned[8]
+6-4	510-516	Weimar	*[8]|*[9]	PERmentioned[8]|PLACEmentioned[9]
+6-5	517-520	hat	_	_
+6-6	521-525	sein	_	_
+6-7	526-539	Inst.exemplar	_	_
+6-8	540-549	gekündigt	_	_
+6-9	550-551	\;	_	_
+6-10	552-558	minder	_	_
+6-11	559-565	gravos	_	_
+6-12	566-570	wäre	_	_
+6-13	571-573	es	_	_
+6-14	574-581	gewesen	_	_
+6-15	582-583	,	_	_
+6-16	584-588	wenn	_	_
+6-17	589-592	das	_	_
+6-18	593-601	Institut	*	ORGmentioned
+6-19	602-605	den	_	_
+6-20	606-611	Namen	_	_
+6-21	612-615	der	_	_
+6-22	616-626	Bibliothek	*	ORGmentioned
+6-23	627-632	statt	_	_
+6-24	633-636	des	_	_
+6-25	637-647	Souverains	_	_
+6-26	648-656	verloren	_	_
+6-27	657-662	hätte	_	_
+6-28	663-664	.	_	_
+
+#Text=Ich stelle anheim ob Sie die Sache , die wohl hätte vermieden werden können , gelegentlich bei Schoen anregen wollten .
+7-1	665-668	Ich	_	_
+7-2	669-675	stelle	_	_
+7-3	676-682	anheim	_	_
+7-4	683-685	ob	_	_
+7-5	686-689	Sie	_	_
+7-6	690-693	die	_	_
+7-7	694-699	Sache	_	_
+7-8	700-701	,	_	_
+7-9	702-705	die	_	_
+7-10	706-710	wohl	_	_
+7-11	711-716	hätte	_	_
+7-12	717-726	vermieden	_	_
+7-13	727-733	werden	_	_
+7-14	734-740	können	_	_
+7-15	741-742	,	_	_
+7-16	743-755	gelegentlich	_	_
+7-17	756-759	bei	_	_
+7-18	760-766	Schoen	*	PERmentioned
+7-19	767-774	anregen	_	_
+7-20	775-782	wollten	_	_
+7-21	783-784	.	_	_
+
+#Text=Die Mitgliederliste des Instituts ist reich an fatalen Irrungen \; die einzige schon daß Letonne M. ord .
+8-1	785-788	Die	_	_
+8-2	789-804	Mitgliederliste	_	_
+8-3	805-808	des	_	_
+8-4	809-818	Instituts	*	ORGmentioned
+8-5	819-822	ist	_	_
+8-6	823-828	reich	_	_
+8-7	829-831	an	_	_
+8-8	832-839	fatalen	_	_
+8-9	840-848	Irrungen	_	_
+8-10	849-850	\;	_	_
+8-11	851-854	die	_	_
+8-12	855-862	einzige	_	_
+8-13	863-868	schon	_	_
+8-14	869-872	daß	_	_
+8-15	873-880	Letonne	*	PERmentioned
+8-16	881-883	M.	_	_
+8-17	884-887	ord	_	_
+8-18	888-889	.	_	_
+
+#Text=d . Dir .
+9-1	890-891	d	_	_
+9-2	892-893	.	_	_
+9-3	894-897	Dir	_	_
+9-4	898-899	.	_	_
+
+#Text=heißt würde genügt haben sie lieber zu unterdrücken als nach Frankreich gelangen zu lassen .
+10-1	900-905	heißt	_	_
+10-2	906-911	würde	_	_
+10-3	912-918	genügt	_	_
+10-4	919-924	haben	_	_
+10-5	925-928	sie	_	_
+10-6	929-935	lieber	_	_
+10-7	936-938	zu	_	_
+10-8	939-951	unterdrücken	_	_
+10-9	952-955	als	_	_
+10-10	956-960	nach	_	_
+10-11	961-971	Frankreich	*	PLACEmentioned
+10-12	972-980	gelangen	_	_
+10-13	981-983	zu	_	_
+10-14	984-990	lassen	_	_
+10-15	991-992	.	_	_
+
+#Text=Haben Sie wol noch Gieselers Sendung gemacht - „ Fortsetzungen für Panofka , Roß etc. ?
+11-1	993-998	Haben	_	_
+11-2	999-1002	Sie	_	_
+11-3	1003-1006	wol	_	_
+11-4	1007-1011	noch	_	_
+11-5	1012-1021	Gieselers	*	PERmentioned
+11-6	1022-1029	Sendung	_	_
+11-7	1030-1037	gemacht	_	_
+11-8	1038-1039	-	_	_
+11-9	1040-1041	„	_	_
+11-10	1042-1055	Fortsetzungen	_	_
+11-11	1056-1059	für	_	_
+11-12	1060-1067	Panofka	*	PERmentioned
+11-13	1068-1069	,	_	_
+11-14	1070-1073	Roß	*	PERmentioned
+11-15	1074-1078	etc.	_	_
+11-16	1079-1080	?	_	_
+
+#Text=An Conte Cand no Roma in Zante schrieb ich d. d . 12 Oktober und erhielt bisher keine Antwort , so wenig als von Orioli .
+12-1	1081-1083	An	_	_
+12-2	1084-1089	Conte	*[19]	PERmentioned[19]
+12-3	1090-1094	Cand	*[19]	PERmentioned[19]
+12-4	1095-1097	no	*[19]	PERmentioned[19]
+12-5	1098-1102	Roma	*[19]	PERmentioned[19]
+12-6	1103-1105	in	_	_
+12-7	1106-1111	Zante	*	PLACEmentioned
+12-8	1112-1119	schrieb	_	_
+12-9	1120-1123	ich	_	_
+12-10	1124-1126	d.	_	_
+12-11	1127-1128	d	*[21]	DATEmentioned[21]
+12-12	1129-1130	.	*[21]	DATEmentioned[21]
+12-13	1131-1133	12	*[21]	DATEmentioned[21]
+12-14	1134-1141	Oktober	*[21]	DATEmentioned[21]
+12-15	1142-1145	und	_	_
+12-16	1146-1153	erhielt	_	_
+12-17	1154-1160	bisher	_	_
+12-18	1161-1166	keine	_	_
+12-19	1167-1174	Antwort	_	_
+12-20	1175-1176	,	_	_
+12-21	1177-1179	so	_	_
+12-22	1180-1185	wenig	_	_
+12-23	1186-1189	als	_	_
+12-24	1190-1193	von	_	_
+12-25	1194-1200	Orioli	*	PERmentioned
+12-26	1201-1202	.	_	_
+
+#Text=Nicht unmöglich daß die Briefe verloren gingen .
+13-1	1203-1208	Nicht	_	_
+13-2	1209-1218	unmöglich	_	_
+13-3	1219-1222	daß	_	_
+13-4	1223-1226	die	_	_
+13-5	1227-1233	Briefe	_	_
+13-6	1234-1242	verloren	_	_
+13-7	1243-1249	gingen	_	_
+13-8	1250-1251	.	_	_
+
+#Text=Wollen Sie das von Roma begehrte vollständige Ex .
+14-1	1252-1258	Wollen	_	_
+14-2	1259-1262	Sie	_	_
+14-3	1263-1266	das	_	_
+14-4	1267-1270	von	_	_
+14-5	1271-1275	Roma	*	PERmentioned
+14-6	1276-1284	begehrte	_	_
+14-7	1285-1297	vollständige	_	_
+14-8	1298-1300	Ex	_	_
+14-9	1301-1302	.	_	_
+
+#Text=der Inst.werke
+15-1	1303-1306	der	_	_
+15-2	1307-1317	Inst.werke	_	_

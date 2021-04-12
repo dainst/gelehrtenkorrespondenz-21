@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brum an Henzen Rom , 31. Mai 1862 8 . 3. Juni 1862 Te Rom , 31 Mai 1862 .
+1-1	0-4	Brum	*	PERauthor
+1-2	5-7	an	_	_
+1-3	8-14	Henzen	*	PERaddressee
+1-4	15-18	Rom	*	PLACEfrom
+1-5	19-20	,	_	_
+1-6	21-24	31.	*[5]	DATEletter[5]
+1-7	25-28	Mai	*[5]	DATEletter[5]
+1-8	29-33	1862	*[5]	DATEletter[5]
+1-9	34-35	8	_	_
+1-10	36-37	.	_	_
+1-11	38-40	3.	*[6]	DATErecieved[6]
+1-12	41-45	Juni	*[6]	DATErecieved[6]
+1-13	46-50	1862	*[6]	DATErecieved[6]
+1-14	51-53	Te	_	_
+1-15	54-57	Rom	*	PLACEfrom
+1-16	58-59	,	_	_
+1-17	60-62	31	_	_
+1-18	63-66	Mai	*[7]	DATEletter[7]
+1-19	67-71	1862	*[7]	DATEletter[7]
+1-20	72-73	.	_	_
+
+#Text=Lieber Henzen \| !
+2-1	74-80	Lieber	_	_
+2-2	81-87	Henzen	*	PERaddressee
+2-3	88-89	\|	_	_
+2-4	90-91	!	_	_
+
+#Text=Kellermann und Visitenkarten erhalten Sie mit diesem Briefe durch Wachsmuth .
+3-1	92-102	Kellermann	*	PERmentioned
+3-2	103-106	und	_	_
+3-3	107-120	Visitenkarten	_	_
+3-4	121-129	erhalten	_	_
+3-5	130-133	Sie	_	_
+3-6	134-137	mit	_	_
+3-7	138-144	diesem	_	_
+3-8	145-151	Briefe	_	_
+3-9	152-157	durch	_	_
+3-10	158-167	Wachsmuth	*	PERmentioned
+3-11	168-169	.	_	_
+
+#Text=Die Borghesi'schen Aushängebogen schicke ich also nicht an de Vit .
+4-1	170-173	Die	_	_
+4-2	174-188	Borghesi'schen	*	MISC
+4-3	189-202	Aushängebogen	_	_
+4-4	203-210	schicke	_	_
+4-5	211-214	ich	_	_
+4-6	215-219	also	_	_
+4-7	220-225	nicht	_	_
+4-8	226-228	an	_	_
+4-9	229-231	de	*[8]	PERmentioned[8]
+4-10	232-235	Vit	*[8]	PERmentioned[8]
+4-11	236-237	.	_	_
+
+#Text=Forcella war gestern nicht da , ist auch heute noch nicht gekommen .
+5-1	238-246	Forcella	*	PERmentioned
+5-2	247-250	war	_	_
+5-3	251-258	gestern	_	_
+5-4	259-264	nicht	_	_
+5-5	265-267	da	_	_
+5-6	268-269	,	_	_
+5-7	270-273	ist	_	_
+5-8	274-278	auch	_	_
+5-9	279-284	heute	_	_
+5-10	285-289	noch	_	_
+5-11	290-295	nicht	_	_
+5-12	296-304	gekommen	_	_
+5-13	305-306	.	_	_
+
+#Text=Sehr möglicher Weise unwohl .
+6-1	307-311	Sehr	_	_
+6-2	312-321	möglicher	_	_
+6-3	322-327	Weise	_	_
+6-4	328-334	unwohl	_	_
+6-5	335-336	.	_	_
+
+#Text=Die Vaticana ist gestern auf 14 Tage geschlossen wegen der Bischofswirthschaft .
+7-1	337-340	Die	_	_
+7-2	341-349	Vaticana	*	ORGmentioned
+7-3	350-353	ist	_	_
+7-4	354-361	gestern	_	_
+7-5	362-365	auf	_	_
+7-6	366-368	14	_	_
+7-7	369-373	Tage	_	_
+7-8	374-385	geschlossen	_	_
+7-9	386-391	wegen	_	_
+7-10	392-395	der	_	_
+7-11	396-415	Bischofswirthschaft	_	_
+7-12	416-417	.	_	_
+
+#Text=Das Bull .
+8-1	418-421	Das	_	_
+8-2	422-426	Bull	_	_
+8-3	427-428	.	_	_
+
+#Text=ist noch nicht impaginirt , da Hübner's Artikel noch nicht componirt ist .
+9-1	429-432	ist	_	_
+9-2	433-437	noch	_	_
+9-3	438-443	nicht	_	_
+9-4	444-454	impaginirt	_	_
+9-5	455-456	,	_	_
+9-6	457-459	da	_	_
+9-7	460-468	Hübner's	*	PERmentioned
+9-8	469-476	Artikel	_	_
+9-9	477-481	noch	_	_
+9-10	482-487	nicht	_	_
+9-11	488-497	componirt	_	_
+9-12	498-501	ist	_	_
+9-13	502-503	.	_	_
+
+#Text=Das Mithrasmonument beschreibe ich einmal , wo gerade eine Seite fehlt .
+10-1	504-507	Das	_	_
+10-2	508-523	Mithrasmonument	*	OBJ
+10-3	524-534	beschreibe	_	_
+10-4	535-538	ich	_	_
+10-5	539-545	einmal	_	_
+10-6	546-547	,	_	_
+10-7	548-550	wo	_	_
+10-8	551-557	gerade	_	_
+10-9	558-562	eine	_	_
+10-10	563-568	Seite	_	_
+10-11	569-574	fehlt	_	_
+10-12	575-576	.	_	_
+
+#Text=Mit Fortunati warte ich wohl besser noch , da er gerade in dieser Woche in seiner Vigne zu graben angefangen .
+11-1	577-580	Mit	_	_
+11-2	581-590	Fortunati	*	PERmentioned
+11-3	591-596	warte	_	_
+11-4	597-600	ich	_	_
+11-5	601-605	wohl	_	_
+11-6	606-612	besser	_	_
+11-7	613-617	noch	_	_
+11-8	618-619	,	_	_
+11-9	620-622	da	_	_
+11-10	623-625	er	_	_
+11-11	626-632	gerade	_	_
+11-12	633-635	in	_	_
+11-13	636-642	dieser	_	_
+11-14	643-648	Woche	_	_
+11-15	649-651	in	_	_
+11-16	652-658	seiner	_	_
+11-17	659-664	Vigne	*	PLACEmentioned
+11-18	665-667	zu	_	_
+11-19	668-674	graben	_	_
+11-20	675-685	angefangen	_	_
+11-21	686-687	.	_	_
+
+#Text=Den Nero werde ich beilegen .
+12-1	688-691	Den	_	_
+12-2	692-696	Nero	*	OBJ
+12-3	697-702	werde	_	_
+12-4	703-706	ich	_	_
+12-5	707-715	beilegen	_	_
+12-6	716-717	.	_	_
+
+#Text=\| Bergan und Pinder immer noch nicht fertig , thut auch nichts , da noch immer ein Stückchen auszugraben bleibt .
+13-1	718-719	\|	_	_
+13-2	720-726	Bergan	*	PERmentioned
+13-3	727-730	und	_	_
+13-4	731-737	Pinder	*	PERmentioned
+13-5	738-743	immer	_	_
+13-6	744-748	noch	_	_
+13-7	749-754	nicht	_	_
+13-8	755-761	fertig	_	_
+13-9	762-763	,	_	_
+13-10	764-768	thut	_	_
+13-11	769-773	auch	_	_
+13-12	774-780	nichts	_	_
+13-13	781-782	,	_	_
+13-14	783-785	da	_	_
+13-15	786-790	noch	_	_
+13-16	791-796	immer	_	_
+13-17	797-800	ein	_	_
+13-18	801-810	Stückchen	_	_
+13-19	811-822	auszugraben	_	_
+13-20	823-829	bleibt	_	_
+13-21	830-831	.	_	_
+
+#Text=Daß Sie sich über Gerhard ärgern glaube ich \; und ich kann Ihren Ärger nicht mindern , wenn ich bemerke , daß sein Conto besteht zunächst aus den von Garrucci speciell ihm gelieferten Zeichnungen , die irgend zu benutzen wir
+14-1	832-835	Daß	_	_
+14-2	836-839	Sie	_	_
+14-3	840-844	sich	_	_
+14-4	845-849	über	_	_
+14-5	850-857	Gerhard	*	PERmentioned
+14-6	858-864	ärgern	_	_
+14-7	865-871	glaube	_	_
+14-8	872-875	ich	_	_
+14-9	876-877	\;	_	_
+14-10	878-881	und	_	_
+14-11	882-885	ich	_	_
+14-12	886-890	kann	_	_
+14-13	891-896	Ihren	_	_
+14-14	897-902	Ärger	_	_
+14-15	903-908	nicht	_	_
+14-16	909-916	mindern	_	_
+14-17	917-918	,	_	_
+14-18	919-923	wenn	_	_
+14-19	924-927	ich	_	_
+14-20	928-935	bemerke	_	_
+14-21	936-937	,	_	_
+14-22	938-941	daß	_	_
+14-23	942-946	sein	_	_
+14-24	947-952	Conto	_	_
+14-25	953-960	besteht	_	_
+14-26	961-969	zunächst	_	_
+14-27	970-973	aus	_	_
+14-28	974-977	den	_	_
+14-29	978-981	von	_	_
+14-30	982-990	Garrucci	*	PERmentioned
+14-31	991-999	speciell	_	_
+14-32	1000-1003	ihm	_	_
+14-33	1004-1015	gelieferten	_	_
+14-34	1016-1027	Zeichnungen	_	_
+14-35	1028-1029	,	_	_
+14-36	1030-1033	die	_	_
+14-37	1034-1040	irgend	_	_
+14-38	1041-1043	zu	_	_
+14-39	1044-1052	benutzen	_	_
+14-40	1053-1056	wir	_	_

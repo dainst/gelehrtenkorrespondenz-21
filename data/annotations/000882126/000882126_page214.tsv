@@ -1,0 +1,316 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Bologna , 29 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Bologna	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	29	*[9]	DATEletter[9]
+1-7	30-31	.	*[9]	DATEletter[9]
+
+#Text=Oktober 1837 - 4 —wesen , habe eine sehr freundliche Aufnahme gefunden und sofort die Erlaubniß erhalten , in Cattajo nach Belieben zeichnen zu lassen .
+2-1	32-39	Oktober	*[9]	DATEletter[9]
+2-2	40-44	1837	*[9]	DATEletter[9]
+2-3	45-46	-	_	_
+2-4	47-48	4	_	_
+2-5	49-55	—wesen	_	_
+2-6	56-57	,	_	_
+2-7	58-62	habe	_	_
+2-8	63-67	eine	_	_
+2-9	68-72	sehr	_	_
+2-10	73-84	freundliche	_	_
+2-11	85-93	Aufnahme	_	_
+2-12	94-102	gefunden	_	_
+2-13	103-106	und	_	_
+2-14	107-113	sofort	_	_
+2-15	114-117	die	_	_
+2-16	118-127	Erlaubniß	_	_
+2-17	128-136	erhalten	_	_
+2-18	137-138	,	_	_
+2-19	139-141	in	_	_
+2-20	142-149	Cattajo	*	PLACEmentioned
+2-21	150-154	nach	_	_
+2-22	155-163	Belieben	_	_
+2-23	164-172	zeichnen	_	_
+2-24	173-175	zu	_	_
+2-25	176-182	lassen	_	_
+2-26	183-184	.	_	_
+
+#Text=Ich lege also sofort Hand an einen Band neubekanntgemachter Denkmäler .
+3-1	185-188	Ich	_	_
+3-2	189-193	lege	_	_
+3-3	194-198	also	_	_
+3-4	199-205	sofort	_	_
+3-5	206-210	Hand	_	_
+3-6	211-213	an	_	_
+3-7	214-219	einen	_	_
+3-8	220-224	Band	_	_
+3-9	225-244	neubekanntgemachter	_	_
+3-10	245-254	Denkmäler	_	_
+3-11	255-256	.	_	_
+
+#Text=Unter den Sarkophagen befindet sich vielleicht die besterhaltenste Darstellung des Proserpinaraubs .
+4-1	257-262	Unter	_	_
+4-2	263-266	den	_	_
+4-3	267-278	Sarkophagen	*	OBJ
+4-4	279-287	befindet	_	_
+4-5	288-292	sich	_	_
+4-6	293-303	vielleicht	_	_
+4-7	304-307	die	_	_
+4-8	308-323	besterhaltenste	_	_
+4-9	324-335	Darstellung	_	_
+4-10	336-339	des	_	_
+4-11	340-355	Proserpinaraubs	*	OBJ
+4-12	356-357	.	_	_
+
+#Text=Der Oreiaverein , von dem Sie mir sprechen , scheint mir schon aus Venezianer Museen ( etwa Noni ) bekannt zu Sein .
+5-1	358-361	Der	_	_
+5-2	362-373	Oreiaverein	*[10]	OBJ[10]
+5-3	374-375	,	*[10]	OBJ[10]
+5-4	376-379	von	*[10]	OBJ[10]
+5-5	380-383	dem	_	_
+5-6	384-387	Sie	_	_
+5-7	388-391	mir	_	_
+5-8	392-400	sprechen	_	_
+5-9	401-402	,	_	_
+5-10	403-410	scheint	_	_
+5-11	411-414	mir	_	_
+5-12	415-420	schon	_	_
+5-13	421-424	aus	_	_
+5-14	425-435	Venezianer	*[11]	ORGmentioned[11]
+5-15	436-442	Museen	*[11]	ORGmentioned[11]
+5-16	443-444	(	_	_
+5-17	445-449	etwa	_	_
+5-18	450-454	Noni	*	PERmentioned
+5-19	455-456	)	_	_
+5-20	457-464	bekannt	_	_
+5-21	465-467	zu	_	_
+5-22	468-472	Sein	_	_
+5-23	473-474	.	_	_
+
+#Text=Cavedoni ist außer seiner Vielbeschäftigkeit auch noch obenein sehr kränklich .
+6-1	475-483	Cavedoni	*	PERmentioned
+6-2	484-487	ist	_	_
+6-3	488-493	außer	_	_
+6-4	494-500	seiner	_	_
+6-5	501-519	Vielbeschäftigkeit	_	_
+6-6	520-524	auch	_	_
+6-7	525-529	noch	_	_
+6-8	530-537	obenein	_	_
+6-9	538-542	sehr	_	_
+6-10	543-552	kränklich	_	_
+6-11	553-554	.	_	_
+
+#Text=Er ist allerdings , wie Sie vorausgesehen , ein sehr gründlicher und vielfach instruirter Gelehrter .
+7-1	555-557	Er	_	_
+7-2	558-561	ist	_	_
+7-3	562-572	allerdings	_	_
+7-4	573-574	,	_	_
+7-5	575-578	wie	_	_
+7-6	579-582	Sie	_	_
+7-7	583-596	vorausgesehen	_	_
+7-8	597-598	,	_	_
+7-9	599-602	ein	_	_
+7-10	603-607	sehr	_	_
+7-11	608-619	gründlicher	_	_
+7-12	620-623	und	_	_
+7-13	624-632	vielfach	_	_
+7-14	633-644	instruirter	_	_
+7-15	645-654	Gelehrter	_	_
+7-16	655-656	.	_	_
+
+#Text=Das Münzfach ist sein Hauptfach .
+8-1	657-660	Das	_	_
+8-2	661-669	Münzfach	_	_
+8-3	670-673	ist	_	_
+8-4	674-678	sein	_	_
+8-5	679-688	Hauptfach	_	_
+8-6	689-690	.	_	_
+
+#Text=Strebers Münzabhandlung rühmt er , meint aber sie sei etwas weitläufig .
+9-1	691-699	Strebers	*	PERmentioned
+9-2	700-714	Münzabhandlung	_	_
+9-3	715-720	rühmt	_	_
+9-4	721-723	er	_	_
+9-5	724-725	,	_	_
+9-6	726-731	meint	_	_
+9-7	732-736	aber	_	_
+9-8	737-740	sie	_	_
+9-9	741-744	sei	_	_
+9-10	745-750	etwas	_	_
+9-11	751-761	weitläufig	_	_
+9-12	762-763	.	_	_
+
+#Text=Er publicirt soeben ein Werkchen über griechische Numismatik , worin.er : a salti dieselbe durchgeht \; über seine athenischen Münzen werden Sie einen Aufsatz von mir in dem Bullettino lesen .
+10-1	764-766	Er	_	_
+10-2	767-776	publicirt	_	_
+10-3	777-783	soeben	_	_
+10-4	784-787	ein	_	_
+10-5	788-796	Werkchen	_	_
+10-6	797-801	über	_	_
+10-7	802-813	griechische	*	MISC
+10-8	814-824	Numismatik	_	_
+10-9	825-826	,	_	_
+10-10	827-835	worin.er	_	_
+10-11	836-837	:	_	_
+10-12	838-839	a	_	_
+10-13	840-845	salti	_	_
+10-14	846-854	dieselbe	_	_
+10-15	855-864	durchgeht	_	_
+10-16	865-866	\;	_	_
+10-17	867-871	über	_	_
+10-18	872-877	seine	_	_
+10-19	878-889	athenischen	*	MISC
+10-20	890-896	Münzen	_	_
+10-21	897-903	werden	_	_
+10-22	904-907	Sie	_	_
+10-23	908-913	einen	_	_
+10-24	914-921	Aufsatz	_	_
+10-25	922-925	von	_	_
+10-26	926-929	mir	_	_
+10-27	930-932	in	_	_
+10-28	933-936	dem	_	_
+10-29	937-947	Bullettino	_	_
+10-30	948-953	lesen	_	_
+10-31	954-955	.	_	_
+
+#Text=Ann .
+11-1	956-959	Ann	_	_
+11-2	960-961	.	_	_
+
+#Text=1836 .
+12-1	962-966	1836	*	DATEmentioned
+12-2	967-968	.	_	_
+
+#Text=Fasc .
+13-1	969-973	Fasc	_	_
+13-2	974-975	.	_	_
+
+#Text=2 . 3. sind beendigt und werden versandt , ebenso Monum .
+14-1	976-977	2	_	_
+14-2	978-979	.	_	_
+14-3	980-982	3.	_	_
+14-4	983-987	sind	_	_
+14-5	988-996	beendigt	_	_
+14-6	997-1000	und	_	_
+14-7	1001-1007	werden	_	_
+14-8	1008-1016	versandt	_	_
+14-9	1017-1018	,	_	_
+14-10	1019-1025	ebenso	_	_
+14-11	1026-1031	Monum	_	_
+14-12	1032-1033	.	_	_
+
+#Text=1837 . 2 .
+15-1	1034-1038	1837	*	DATEmentioned
+15-2	1039-1040	.	_	_
+15-3	1041-1042	2	_	_
+15-4	1043-1044	.	_	_
+
+#Text=Ich muß fast fürchten , daß meine Charontica nicht in Ann .
+16-1	1045-1048	Ich	_	_
+16-2	1049-1052	muß	_	_
+16-3	1053-1057	fast	_	_
+16-4	1058-1066	fürchten	_	_
+16-5	1067-1068	,	_	_
+16-6	1069-1072	daß	_	_
+16-7	1073-1078	meine	_	_
+16-8	1079-1089	Charontica	_	_
+16-9	1090-1095	nicht	_	_
+16-10	1096-1098	in	_	_
+16-11	1099-1102	Ann	_	_
+16-12	1103-1104	.	_	_
+
+#Text=1837 . 2. erscheinen werden , obwohl ich es Lepsius anempfohlen habe \; es wäre mir leid , denn ich glaube darin manches richtig getroffen zu haben .
+17-1	1105-1109	1837	*	DATEmentioned
+17-2	1110-1111	.	_	_
+17-3	1112-1114	2.	_	_
+17-4	1115-1125	erscheinen	_	_
+17-5	1126-1132	werden	_	_
+17-6	1133-1134	,	_	_
+17-7	1135-1141	obwohl	_	_
+17-8	1142-1145	ich	_	_
+17-9	1146-1148	es	_	_
+17-10	1149-1156	Lepsius	*	PERmentioned
+17-11	1157-1168	anempfohlen	_	_
+17-12	1169-1173	habe	_	_
+17-13	1174-1175	\;	_	_
+17-14	1176-1178	es	_	_
+17-15	1179-1183	wäre	_	_
+17-16	1184-1187	mir	_	_
+17-17	1188-1192	leid	_	_
+17-18	1193-1194	,	_	_
+17-19	1195-1199	denn	_	_
+17-20	1200-1203	ich	_	_
+17-21	1204-1210	glaube	_	_
+17-22	1211-1216	darin	_	_
+17-23	1217-1224	manches	_	_
+17-24	1225-1232	richtig	_	_
+17-25	1233-1242	getroffen	_	_
+17-26	1243-1245	zu	_	_
+17-27	1246-1251	haben	_	_
+17-28	1252-1253	.	_	_
+
+#Text=Hier habe ich einen vergeblichen Versuch gemacht Siegelabdrücke zu machen .
+18-1	1254-1258	Hier	_	_
+18-2	1259-1263	habe	_	_
+18-3	1264-1267	ich	_	_
+18-4	1268-1273	einen	_	_
+18-5	1274-1286	vergeblichen	_	_
+18-6	1287-1294	Versuch	_	_
+18-7	1295-1302	gemacht	_	_
+18-8	1303-1317	Siegelabdrücke	_	_
+18-9	1318-1320	zu	_	_
+18-10	1321-1327	machen	_	_
+18-11	1328-1329	.	_	_
+
+#Text=Ich habe für 8 Paoli Siegellack gekauft und einige Stangen verschmiert , allein die Sache führt zu weit und wird doch nicht gut .
+19-1	1330-1333	Ich	_	_
+19-2	1334-1338	habe	_	_
+19-3	1339-1342	für	_	_
+19-4	1343-1344	8	_	_
+19-5	1345-1350	Paoli	_	_
+19-6	1351-1361	Siegellack	_	_
+19-7	1362-1369	gekauft	_	_
+19-8	1370-1373	und	_	_
+19-9	1374-1380	einige	_	_
+19-10	1381-1388	Stangen	_	_
+19-11	1389-1400	verschmiert	_	_
+19-12	1401-1402	,	_	_
+19-13	1403-1409	allein	_	_
+19-14	1410-1413	die	_	_
+19-15	1414-1419	Sache	_	_
+19-16	1420-1425	führt	_	_
+19-17	1426-1428	zu	_	_
+19-18	1429-1433	weit	_	_
+19-19	1434-1437	und	_	_
+19-20	1438-1442	wird	_	_
+19-21	1443-1447	doch	_	_
+19-22	1448-1453	nicht	_	_
+19-23	1454-1457	gut	_	_
+19-24	1458-1459	.	_	_
+
+#Text=Der hiesige Siegellack ist zu schlecht \; der Siegel sind zu viele .
+20-1	1460-1463	Der	_	_
+20-2	1464-1471	hiesige	_	_
+20-3	1472-1482	Siegellack	_	_
+20-4	1483-1486	ist	_	_
+20-5	1487-1489	zu	_	_
+20-6	1490-1498	schlecht	_	_
+20-7	1499-1500	\;	_	_
+20-8	1501-1504	der	_	_
+20-9	1505-1511	Siegel	_	_
+20-10	1512-1516	sind	_	_
+20-11	1517-1519	zu	_	_
+20-12	1520-1525	viele	_	_
+20-13	1526-1527	.	_	_
+
+#Text=Die Zeit reicht nicht aus und
+21-1	1528-1531	Die	_	_
+21-2	1532-1536	Zeit	_	_
+21-3	1537-1543	reicht	_	_
+21-4	1544-1549	nicht	_	_
+21-5	1550-1553	aus	_	_
+21-6	1554-1557	und	_	_

@@ -1,0 +1,62 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=283 Brunn an Henzen Perugia , 4 .
+1-1	0-3	283	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	4	*[3]	DATEletter[3]
+1-8	32-33	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1858 - 3 - Meine Frau selbst hat immer noch mit einzelnen Kleinigkeiten zu kämpfen .
+2-1	34-41	Oktober	*[3]	DATEletter[3]
+2-2	42-46	1858	*[3]	DATEletter[3]
+2-3	47-48	-	_	_
+2-4	49-50	3	_	_
+2-5	51-52	-	_	_
+2-6	53-58	Meine	*[4]	PERmentioned[4]
+2-7	59-63	Frau	*[4]	PERmentioned[4]
+2-8	64-70	selbst	_	_
+2-9	71-74	hat	_	_
+2-10	75-80	immer	_	_
+2-11	81-85	noch	_	_
+2-12	86-89	mit	_	_
+2-13	90-99	einzelnen	_	_
+2-14	100-113	Kleinigkeiten	_	_
+2-15	114-116	zu	_	_
+2-16	117-124	kämpfen	_	_
+2-17	125-126	.	_	_
+
+#Text=Vielleicht daß jetzt Abwechslung wieder einmal gut ist .
+3-1	127-137	Vielleicht	_	_
+3-2	138-141	daß	_	_
+3-3	142-147	jetzt	_	_
+3-4	148-159	Abwechslung	_	_
+3-5	160-166	wieder	_	_
+3-6	167-173	einmal	_	_
+3-7	174-177	gut	_	_
+3-8	178-181	ist	_	_
+3-9	182-183	.	_	_
+
+#Text=Mit beiderseitigen Grüßen Ihr HBrunn .
+4-1	184-187	Mit	_	_
+4-2	188-202	beiderseitigen	_	_
+4-3	203-209	Grüßen	_	_
+4-4	210-213	Ihr	_	_
+4-5	214-220	HBrunn	*	PERauthor
+4-6	221-222	.	_	_
+
+#Text=Perugia , 4 Oct .
+5-1	223-230	Perugia	*	PLACEfrom
+5-2	231-232	,	_	_
+5-3	233-234	4	*[5]	DATEletter[5]
+5-4	235-238	Oct	*[5]	DATEletter[5]
+5-5	239-240	.	*[5]	DATEletter[5]
+
+#Text=58 .
+6-1	241-243	58	*[5]	DATEletter[5]
+6-2	244-245	.	_	_

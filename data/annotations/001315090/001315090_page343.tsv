@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=652 Lepsius an Henzen Berlin , 18 .
+1-1	0-3	652	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	18	_	_
+1-8	34-35	.	*[3]	DATEletter[3]
+
+#Text=August 1879 gs .
+2-1	36-42	August	*[3]	DATEletter[3]
+2-2	43-47	1879	*[3]	DATEletter[3]
+2-3	48-50	gs	_	_
+2-4	51-52	.	_	_
+
+#Text=21/8 79 Prof. Henzen Berlin , C. 18 .
+3-1	53-57	21/8	*[4]	DATErecieved[4]
+3-2	58-60	79	*[4]	DATErecieved[4]
+3-3	61-66	Prof.	_	_
+3-4	67-73	Henzen	*	PERaddressee
+3-5	74-80	Berlin	*	PLACEfrom
+3-6	81-82	,	_	_
+3-7	83-85	C.	_	_
+3-8	86-88	18	*[5]	DATEletter[5]
+3-9	89-90	.	*[5]	DATEletter[5]
+
+#Text=Aug . 1879 Verehrter Freund Mein College Prof. Schrader der Assyriolog hat eine besondere Nachforschung über den Nebucadnezar Kopf gemacht , den unser Museum in einer Glaspaste besitzt .
+4-1	91-94	Aug	*[5]	DATEletter[5]
+4-2	95-96	.	*[5]	DATEletter[5]
+4-3	97-101	1879	*[5]	DATEletter[5]
+4-4	102-111	Verehrter	_	_
+4-5	112-118	Freund	_	_
+4-6	119-123	Mein	_	_
+4-7	124-131	College	_	_
+4-8	132-137	Prof.	_	_
+4-9	138-146	Schrader	*	PERmentioned
+4-10	147-150	der	_	_
+4-11	151-161	Assyriolog	_	_
+4-12	162-165	hat	_	_
+4-13	166-170	eine	_	_
+4-14	171-180	besondere	_	_
+4-15	181-194	Nachforschung	_	_
+4-16	195-199	über	_	_
+4-17	200-203	den	_	_
+4-18	204-216	Nebucadnezar	*[6]	OBJ[6]
+4-19	217-221	Kopf	*[6]	OBJ[6]
+4-20	222-229	gemacht	_	_
+4-21	230-231	,	_	_
+4-22	232-235	den	_	_
+4-23	236-241	unser	_	_
+4-24	242-248	Museum	*	ORGmentioned
+4-25	249-251	in	_	_
+4-26	252-257	einer	_	_
+4-27	258-267	Glaspaste	_	_
+4-28	268-275	besitzt	_	_
+4-29	276-277	.	_	_
+
+#Text=Es findet sich daß das Original dazu in der Sammlung eines Prior Daini in Rom vorhanden war nach einer Notiz von Raspe in Tassie 's Catalogue , London I ( 1791 ) p . 64 , Nn° 653 : `` Cameo , formerly in the Cab .
+5-1	278-280	Es	_	_
+5-2	281-287	findet	_	_
+5-3	288-292	sich	_	_
+5-4	293-296	daß	_	_
+5-5	297-300	das	_	_
+5-6	301-309	Original	_	_
+5-7	310-314	dazu	_	_
+5-8	315-317	in	_	_
+5-9	318-321	der	_	_
+5-10	322-330	Sammlung	_	_
+5-11	331-336	eines	_	_
+5-12	337-342	Prior	*[7]	PERmentioned[7]
+5-13	343-348	Daini	*[7]	PERmentioned[7]
+5-14	349-351	in	_	_
+5-15	352-355	Rom	*	PLACEmentioned
+5-16	356-365	vorhanden	_	_
+5-17	366-369	war	_	_
+5-18	370-374	nach	_	_
+5-19	375-380	einer	_	_
+5-20	381-386	Notiz	_	_
+5-21	387-390	von	_	_
+5-22	391-396	Raspe	*	PERmentioned
+5-23	397-399	in	_	_
+5-24	400-406	Tassie	*[11]	PERmentioned[11]
+5-25	407-409	's	*[11]	PERmentioned[11]
+5-26	410-419	Catalogue	_	_
+5-27	420-421	,	_	_
+5-28	422-428	London	*	PLACEmentioned
+5-29	429-430	I	_	_
+5-30	431-432	(	_	_
+5-31	433-437	1791	_	_
+5-32	438-439	)	_	_
+5-33	440-441	p	_	_
+5-34	442-443	.	_	_
+5-35	444-446	64	_	_
+5-36	447-448	,	_	_
+5-37	449-452	Nn°	_	_
+5-38	453-456	653	_	_
+5-39	457-458	:	_	_
+5-40	459-461	``	_	_
+5-41	462-467	Cameo	*	OBJ
+5-42	468-469	,	_	_
+5-43	470-478	formerly	_	_
+5-44	479-481	in	_	_
+5-45	482-485	the	_	_
+5-46	486-489	Cab	_	_
+5-47	490-491	.	_	_
+
+#Text=of Prieur Daini at Rome \; the paste is in the Cab .
+6-1	492-494	of	_	_
+6-2	495-501	Prieur	*[8]	PERmentioned[8]
+6-3	502-507	Daini	*[8]	PERmentioned[8]
+6-4	508-510	at	*[8]	PERmentioned[8]
+6-5	511-515	Rome	_	_
+6-6	516-517	\;	_	_
+6-7	518-521	the	_	_
+6-8	522-527	paste	_	_
+6-9	528-530	is	_	_
+6-10	531-533	in	_	_
+6-11	534-537	the	_	_
+6-12	538-541	Cab	_	_
+6-13	542-543	.	_	_
+
+#Text=of Prussia .
+7-1	544-546	of	_	_
+7-2	547-554	Prussia	*	PLACEmentioned
+7-3	555-556	.	_	_
+
+#Text=Winck ( elmann ) Cab .
+8-1	557-562	Winck	*[12]	PERmentioned[12]
+8-2	563-564	(	*[12]	PERmentioned[12]
+8-3	565-571	elmann	*[12]	PERmentioned[12]
+8-4	572-573	)	*[12]	PERmentioned[12]
+8-5	574-577	Cab	_	_
+8-6	578-579	.	_	_
+
+#Text=de Stosch p . 28 N° 126 . ''
+9-1	580-582	de	*[9]	PERmentioned[9]
+9-2	583-589	Stosch	*[9]	PERmentioned[9]
+9-3	590-591	p	_	_
+9-4	592-593	.	_	_
+9-5	594-596	28	_	_
+9-6	597-599	N°	_	_
+9-7	600-603	126	_	_
+9-8	604-605	.	_	_
+9-9	606-608	''	_	_
+
+#Text=Es liegt ihm viel daran , und es wäre auch dem Museum sehr wünschenswerth , wenn ermittelt werden könnte , wo diese Sammlung Daini hingekommen ist , und mit ihr das bezeichnete Original .
+10-1	609-611	Es	_	_
+10-2	612-617	liegt	_	_
+10-3	618-621	ihm	_	_
+10-4	622-626	viel	_	_
+10-5	627-632	daran	_	_
+10-6	633-634	,	_	_
+10-7	635-638	und	_	_
+10-8	639-641	es	_	_
+10-9	642-646	wäre	_	_
+10-10	647-651	auch	_	_
+10-11	652-655	dem	_	_
+10-12	656-662	Museum	*	ORGmentioned
+10-13	663-667	sehr	_	_
+10-14	668-682	wünschenswerth	_	_
+10-15	683-684	,	_	_
+10-16	685-689	wenn	_	_
+10-17	690-699	ermittelt	_	_
+10-18	700-706	werden	_	_
+10-19	707-713	könnte	_	_
+10-20	714-715	,	_	_
+10-21	716-718	wo	_	_
+10-22	719-724	diese	_	_
+10-23	725-733	Sammlung	_	_
+10-24	734-739	Daini	*	PERmentioned
+10-25	740-751	hingekommen	_	_
+10-26	752-755	ist	_	_
+10-27	756-757	,	_	_
+10-28	758-761	und	_	_
+10-29	762-765	mit	_	_
+10-30	766-769	ihr	_	_
+10-31	770-773	das	_	_
+10-32	774-785	bezeichnete	_	_
+10-33	786-794	Original	_	_
+10-34	795-796	.	_	_
+
+#Text=Die Paste ist von dieser Größe Mehr darüber und über die ganze Untersuchung ist von ihm sesagt im Berliner Akademischen Monatsbericht vom 717. März 1879 , wo auch die Photogfaphie davon ist .
+11-1	797-800	Die	_	_
+11-2	801-806	Paste	_	_
+11-3	807-810	ist	_	_
+11-4	811-814	von	_	_
+11-5	815-821	dieser	_	_
+11-6	822-827	Größe	_	_
+11-7	828-832	Mehr	_	_
+11-8	833-840	darüber	_	_
+11-9	841-844	und	_	_
+11-10	845-849	über	_	_
+11-11	850-853	die	_	_
+11-12	854-859	ganze	_	_
+11-13	860-872	Untersuchung	_	_
+11-14	873-876	ist	_	_
+11-15	877-880	von	_	_
+11-16	881-884	ihm	_	_
+11-17	885-891	sesagt	_	_
+11-18	892-894	im	_	_
+11-19	895-903	Berliner	*	PLACEmentioned
+11-20	904-916	Akademischen	_	_
+11-21	917-930	Monatsbericht	_	_
+11-22	931-934	vom	_	_
+11-23	935-939	717.	*[10]	DATEmentioned[10]
+11-24	940-944	März	*[10]	DATEmentioned[10]
+11-25	945-949	1879	*[10]	DATEmentioned[10]
+11-26	950-951	,	_	_
+11-27	952-954	wo	_	_
+11-28	955-959	auch	_	_
+11-29	960-963	die	_	_
+11-30	964-976	Photogfaphie	_	_
+11-31	977-982	davon	_	_
+11-32	983-986	ist	_	_
+11-33	987-988	.	_	_
+
+#Text=Darf ich Ihnen und Freund Helbig , der noch auf Reisen ist , die Sache empfehlen und um Auskunft bitten , ot
+12-1	989-993	Darf	_	_
+12-2	994-997	ich	_	_
+12-3	998-1003	Ihnen	_	_
+12-4	1004-1007	und	_	_
+12-5	1008-1014	Freund	_	_
+12-6	1015-1021	Helbig	*	PERmentioned
+12-7	1022-1023	,	_	_
+12-8	1024-1027	der	_	_
+12-9	1028-1032	noch	_	_
+12-10	1033-1036	auf	_	_
+12-11	1037-1043	Reisen	_	_
+12-12	1044-1047	ist	_	_
+12-13	1048-1049	,	_	_
+12-14	1050-1053	die	_	_
+12-15	1054-1059	Sache	_	_
+12-16	1060-1069	empfehlen	_	_
+12-17	1070-1073	und	_	_
+12-18	1074-1076	um	_	_
+12-19	1077-1085	Auskunft	_	_
+12-20	1086-1092	bitten	_	_
+12-21	1093-1094	,	_	_
+12-22	1095-1097	ot	_	_

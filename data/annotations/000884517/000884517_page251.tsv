@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 28 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	28	*[3]	DATEletter[3]
+1-7	29-30	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1848 G . 8/XI 48 r . 9/XII 48 ... 20,00 ® .
+2-1	31-38	Oktober	*[3]	DATEletter[3]
+2-2	39-43	1848	*[3]	DATEletter[3]
+2-3	44-45	G	_	_
+2-4	46-47	.	_	_
+2-5	48-52	8/XI	*[4]	DATErecieved[4]
+2-6	53-55	48	*[4]	DATErecieved[4]
+2-7	56-57	r	_	_
+2-8	58-59	.	_	_
+2-9	60-65	9/XII	*[5]	DATEanswered[5]
+2-10	66-68	48	*[5]	DATEanswered[5]
+2-11	69-72	...	_	_
+2-12	73-78	20,00	_	_
+2-13	79-80	®	_	_
+2-14	81-82	.	_	_
+
+#Text=Ihr schwerer Verlust muß bei allen Ihren Freunden wie zunächst bei uns die lebhafteste Theilnahme erregen \; hoffentlich kommen Sie dem Thäter noch auf die Spur .
+3-1	83-86	Ihr	_	_
+3-2	87-95	schwerer	_	_
+3-3	96-103	Verlust	_	_
+3-4	104-107	muß	_	_
+3-5	108-111	bei	_	_
+3-6	112-117	allen	_	_
+3-7	118-123	Ihren	_	_
+3-8	124-132	Freunden	_	_
+3-9	133-136	wie	_	_
+3-10	137-145	zunächst	_	_
+3-11	146-149	bei	_	_
+3-12	150-153	uns	_	_
+3-13	154-157	die	_	_
+3-14	158-169	lebhafteste	_	_
+3-15	170-180	Theilnahme	_	_
+3-16	181-188	erregen	_	_
+3-17	189-190	\;	_	_
+3-18	191-202	hoffentlich	_	_
+3-19	203-209	kommen	_	_
+3-20	210-213	Sie	_	_
+3-21	214-217	dem	_	_
+3-22	218-224	Thäter	_	_
+3-23	225-229	noch	_	_
+3-24	230-233	auf	_	_
+3-25	234-237	die	_	_
+3-26	238-242	Spur	_	_
+3-27	243-244	.	_	_
+
+#Text=Ich kann mir lebhaft denken wie außer dem pecuniären Verlust auch noch Angedenken und antiquarische Preziosen mit ins Spiel kommen .
+4-1	245-248	Ich	_	_
+4-2	249-253	kann	_	_
+4-3	254-257	mir	_	_
+4-4	258-265	lebhaft	_	_
+4-5	266-272	denken	_	_
+4-6	273-276	wie	_	_
+4-7	277-282	außer	_	_
+4-8	283-286	dem	_	_
+4-9	287-297	pecuniären	_	_
+4-10	298-305	Verlust	_	_
+4-11	306-310	auch	_	_
+4-12	311-315	noch	_	_
+4-13	316-326	Angedenken	_	_
+4-14	327-330	und	_	_
+4-15	331-344	antiquarische	_	_
+4-16	345-354	Preziosen	_	_
+4-17	355-358	mit	_	_
+4-18	359-362	ins	_	_
+4-19	363-368	Spiel	_	_
+4-20	369-375	kommen	_	_
+4-21	376-377	.	_	_
+
+#Text=An Herrn von Olfers ließ ich Ihren Brief abgehen , ohne die Kollision mit meinen noch völlig ungedeckten Ankäufen bei ihm zu fürchten .
+5-1	378-380	An	_	_
+5-2	381-386	Herrn	_	_
+5-3	387-390	von	*[6]	PERmentioned[6]
+5-4	391-397	Olfers	*[6]	PERmentioned[6]
+5-5	398-402	ließ	_	_
+5-6	403-406	ich	_	_
+5-7	407-412	Ihren	_	_
+5-8	413-418	Brief	_	_
+5-9	419-426	abgehen	_	_
+5-10	427-428	,	_	_
+5-11	429-433	ohne	_	_
+5-12	434-437	die	_	_
+5-13	438-447	Kollision	_	_
+5-14	448-451	mit	_	_
+5-15	452-458	meinen	_	_
+5-16	459-463	noch	_	_
+5-17	464-470	völlig	_	_
+5-18	471-482	ungedeckten	_	_
+5-19	483-491	Ankäufen	_	_
+5-20	492-495	bei	_	_
+5-21	496-499	ihm	_	_
+5-22	500-502	zu	_	_
+5-23	503-511	fürchten	_	_
+5-24	512-513	.	_	_
+
+#Text=Jetzt dürfte darüber verhandelt werden .
+6-1	514-519	Jetzt	_	_
+6-2	520-526	dürfte	_	_
+6-3	527-534	darüber	_	_
+6-4	535-545	verhandelt	_	_
+6-5	546-552	werden	_	_
+6-6	553-554	.	_	_
+
+#Text=Mit dem neuen Jahr oder gegen dasselbe rathe ich Ihnen das Anerbieten der Grotta egizia nochmals zu stellen .
+7-1	555-558	Mit	_	_
+7-2	559-562	dem	_	_
+7-3	563-568	neuen	_	_
+7-4	569-573	Jahr	_	_
+7-5	574-578	oder	_	_
+7-6	579-584	gegen	_	_
+7-7	585-593	dasselbe	_	_
+7-8	594-599	rathe	_	_
+7-9	600-603	ich	_	_
+7-10	604-609	Ihnen	_	_
+7-11	610-613	das	_	_
+7-12	614-624	Anerbieten	_	_
+7-13	625-628	der	_	_
+7-14	629-635	Grotta	*[7]	OBJ[7]
+7-15	636-642	egizia	*[7]	OBJ[7]
+7-16	643-651	nochmals	_	_
+7-17	652-654	zu	_	_
+7-18	655-662	stellen	_	_
+7-19	663-664	.	_	_
+
+#Text=An Usedom habe ich den Inhalt Ihres Briefs sofort mitgetheilt .
+8-1	665-667	An	_	_
+8-2	668-674	Usedom	*	PERmentioned
+8-3	675-679	habe	_	_
+8-4	680-683	ich	_	_
+8-5	684-687	den	_	_
+8-6	688-694	Inhalt	_	_
+8-7	695-700	Ihres	_	_
+8-8	701-707	Briefs	_	_
+8-9	708-714	sofort	_	_
+8-10	715-726	mitgetheilt	_	_
+8-11	727-728	.	_	_
+
+#Text=Pabst hat unterdeß 400 Scudi bekonmen .
+9-1	729-734	Pabst	*	PERmentioned
+9-2	735-738	hat	_	_
+9-3	739-747	unterdeß	_	_
+9-4	748-751	400	_	_
+9-5	752-757	Scudi	_	_
+9-6	758-766	bekonmen	_	_
+9-7	767-768	.	_	_
+
+#Text=Usedoms Abreise ist noch nicht nahe \; er denkt nun doch auch noch nach Rügen zu gehen , was er lange nicht mochte .
+10-1	769-776	Usedoms	*	PERmentioned
+10-2	777-784	Abreise	_	_
+10-3	785-788	ist	_	_
+10-4	789-793	noch	_	_
+10-5	794-799	nicht	_	_
+10-6	800-804	nahe	_	_
+10-7	805-806	\;	_	_
+10-8	807-809	er	_	_
+10-9	810-815	denkt	_	_
+10-10	816-819	nun	_	_
+10-11	820-824	doch	_	_
+10-12	825-829	auch	_	_
+10-13	830-834	noch	_	_
+10-14	835-839	nach	_	_
+10-15	840-845	Rügen	*	PLACEmentioned
+10-16	846-848	zu	_	_
+10-17	849-854	gehen	_	_
+10-18	855-856	,	_	_
+10-19	857-860	was	_	_
+10-20	861-863	er	_	_
+10-21	864-869	lange	_	_
+10-22	870-875	nicht	_	_
+10-23	876-882	mochte	_	_
+10-24	883-884	.	_	_
+
+#Text=Für das Institut gibt er nach langem Darübersprechen gar keine Hoffnung .
+11-1	885-888	Für	_	_
+11-2	889-892	das	_	_
+11-3	893-901	Institut	*	ORGmentioned
+11-4	902-906	gibt	_	_
+11-5	907-909	er	_	_
+11-6	910-914	nach	_	_
+11-7	915-921	langem	_	_
+11-8	922-937	Darübersprechen	_	_
+11-9	938-941	gar	_	_
+11-10	942-947	keine	_	_
+11-11	948-956	Hoffnung	_	_
+11-12	957-958	.	_	_
+
+#Text=Die Zahlung zu erneuern hängt , nachdem der König geneigtest für 6 Jahr ausgesprochen hat , jetzt an Ladenberg ( Schulze 's ) Enmpfehlung und am guten Willen des Rathes im Finanzminis-
+12-1	959-962	Die	_	_
+12-2	963-970	Zahlung	_	_
+12-3	971-973	zu	_	_
+12-4	974-982	erneuern	_	_
+12-5	983-988	hängt	_	_
+12-6	989-990	,	_	_
+12-7	991-998	nachdem	_	_
+12-8	999-1002	der	_	_
+12-9	1003-1008	König	*	PERmentioned
+12-10	1009-1019	geneigtest	_	_
+12-11	1020-1023	für	_	_
+12-12	1024-1025	6	_	_
+12-13	1026-1030	Jahr	_	_
+12-14	1031-1044	ausgesprochen	_	_
+12-15	1045-1048	hat	_	_
+12-16	1049-1050	,	_	_
+12-17	1051-1056	jetzt	_	_
+12-18	1057-1059	an	_	_
+12-19	1060-1069	Ladenberg	*	PERmentioned
+12-20	1070-1071	(	_	_
+12-21	1072-1079	Schulze	*[8]	PERmentioned[8]
+12-22	1080-1082	's	*[8]	PERmentioned[8]
+12-23	1083-1084	)	_	_
+12-24	1085-1096	Enmpfehlung	_	_
+12-25	1097-1100	und	_	_
+12-26	1101-1103	am	_	_
+12-27	1104-1109	guten	_	_
+12-28	1110-1116	Willen	_	_
+12-29	1117-1120	des	_	_
+12-30	1121-1127	Rathes	_	_
+12-31	1128-1130	im	_	_
+12-32	1131-1143	Finanzminis-	_	_

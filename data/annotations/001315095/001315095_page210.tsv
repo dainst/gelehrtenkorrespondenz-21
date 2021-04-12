@@ -1,0 +1,296 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , Mai 1893 Die Königliche Akademie der Wissenschaften in Berlin würde ersucht werden , weiterhin die Verwaltung dieser Mommsen-Stiftung zu übernehmen .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	Mai	*[1]	DATEletter[1]
+1-7	30-34	1893	*[1]	DATEletter[1]
+1-8	35-38	Die	_	_
+1-9	39-49	Königliche	_	_
+1-10	50-58	Akademie	*[2]	ORGmentioned[2]
+1-11	59-62	der	*[2]	ORGmentioned[2]
+1-12	63-77	Wissenschaften	*[2]	ORGmentioned[2]
+1-13	78-80	in	_	_
+1-14	81-87	Berlin	*	PLACEmentioned
+1-15	88-93	würde	_	_
+1-16	94-101	ersucht	_	_
+1-17	102-108	werden	_	_
+1-18	109-110	,	_	_
+1-19	111-120	weiterhin	_	_
+1-20	121-124	die	_	_
+1-21	125-135	Verwaltung	_	_
+1-22	136-142	dieser	_	_
+1-23	143-159	Mommsen-Stiftung	_	_
+1-24	160-162	zu	_	_
+1-25	163-173	übernehmen	_	_
+1-26	174-175	.	_	_
+
+#Text=Geldsendungen bitten wir an Herrn Ludwig Delbrück ( i.F .
+2-1	176-189	Geldsendungen	_	_
+2-2	190-196	bitten	_	_
+2-3	197-200	wir	_	_
+2-4	201-203	an	_	_
+2-5	204-209	Herrn	_	_
+2-6	210-216	Ludwig	*[3]	PERmentioned[3]
+2-7	217-225	Delbrück	*[3]	PERmentioned[3]
+2-8	226-227	(	_	_
+2-9	228-231	i.F	_	_
+2-10	232-233	.	_	_
+
+#Text=Delbrück , Leo u .
+3-1	234-242	Delbrück	*[4]	ORGmentioned[4]
+3-2	243-244	,	*[4]	ORGmentioned[4]
+3-3	245-248	Leo	*[4]	ORGmentioned[4]
+3-4	249-250	u	*[4]	ORGmentioned[4]
+3-5	251-252	.	*[4]	ORGmentioned[4]
+
+#Text=Co . )
+4-1	253-255	Co	*[4]	ORGmentioned[4]
+4-2	256-257	.	*[4]	ORGmentioned[4]
+4-3	258-259	)	_	_
+
+#Text=zu Berlin , Mauerstraße 61/62 , briefliche Zuschriften an Herrn Professor Hirschfeld , Charlottenburg bei Berlin , Carmerstraße 3 , zu richten .
+5-1	260-262	zu	_	_
+5-2	263-269	Berlin	*	PLACEmentioned
+5-3	270-271	,	_	_
+5-4	272-283	Mauerstraße	*[5]	PLACEmentioned[5]
+5-5	284-289	61/62	*[5]	PLACEmentioned[5]
+5-6	290-291	,	_	_
+5-7	292-302	briefliche	_	_
+5-8	303-314	Zuschriften	_	_
+5-9	315-317	an	_	_
+5-10	318-323	Herrn	_	_
+5-11	324-333	Professor	_	_
+5-12	334-344	Hirschfeld	*	PERmentioned
+5-13	345-346	,	_	_
+5-14	347-361	Charlottenburg	*	PLACEmentioned
+5-15	362-365	bei	_	_
+5-16	366-372	Berlin	*	PLACEmentioned
+5-17	373-374	,	_	_
+5-18	375-387	Carmerstraße	*[6]	PLACEmentioned[6]
+5-19	388-389	3	*[6]	PLACEmentioned[6]
+5-20	390-391	,	_	_
+5-21	392-394	zu	_	_
+5-22	395-402	richten	_	_
+5-23	403-404	.	_	_
+
+#Text=wir empfehlen unser Vorhaben der thätigen Unterstützung aller Freunde der historischen Wissenschaften .
+6-1	405-408	wir	_	_
+6-2	409-418	empfehlen	_	_
+6-3	419-424	unser	_	_
+6-4	425-433	Vorhaben	_	_
+6-5	434-437	der	_	_
+6-6	438-446	thätigen	_	_
+6-7	447-460	Unterstützung	_	_
+6-8	461-466	aller	_	_
+6-9	467-474	Freunde	_	_
+6-10	475-478	der	_	_
+6-11	479-491	historischen	_	_
+6-12	492-506	Wissenschaften	_	_
+6-13	507-508	.	_	_
+
+#Text=Althoff , F. , Professor Dr. , Geh .
+7-1	509-516	Althoff	*[7]	PERauthor[7]
+7-2	517-518	,	*[7]	PERauthor[7]
+7-3	519-521	F.	*[7]	PERauthor[7]
+7-4	522-523	,	_	_
+7-5	524-533	Professor	_	_
+7-6	534-537	Dr.	_	_
+7-7	538-539	,	_	_
+7-8	540-543	Geh	_	_
+7-9	544-545	.	_	_
+
+#Text=Ob.-Reg.-Rath , Berlin .
+8-1	546-559	Ob.-Reg.-Rath	_	_
+8-2	560-561	,	_	_
+8-3	562-568	Berlin	*	PLACEmentioned
+8-4	569-570	.	_	_
+
+#Text=von Arneth , A. , Dr. , Wirkl .
+9-1	571-574	von	*[8]	PERauthor[8]
+9-2	575-581	Arneth	*[8]	PERauthor[8]
+9-3	582-583	,	*[8]	PERauthor[8]
+9-4	584-586	A.	*[8]	PERauthor[8]
+9-5	587-588	,	_	_
+9-6	589-592	Dr.	_	_
+9-7	593-594	,	_	_
+9-8	595-600	Wirkl	_	_
+9-9	601-602	.	_	_
+
+#Text=Geheimer Rath , Wien .
+10-1	603-611	Geheimer	_	_
+10-2	612-616	Rath	_	_
+10-3	617-618	,	_	_
+10-4	619-623	Wien	*	PLACEmentioned
+10-5	624-625	.	_	_
+
+#Text=Ascoli , G. J. , Professor , Mailand .
+11-1	626-632	Ascoli	*[9]	PERauthor[9]
+11-2	633-634	,	*[9]	PERauthor[9]
+11-3	635-637	G.	*[9]	PERauthor[9]
+11-4	638-640	J.	_	_
+11-5	641-642	,	_	_
+11-6	643-652	Professor	_	_
+11-7	653-654	,	_	_
+11-8	655-662	Mailand	*	PLACEmentioned
+11-9	663-664	.	_	_
+
+#Text=Auwers , A. , Professor Dr. , Geheimrath , Berlin .
+12-1	665-671	Auwers	*[10]	PERauthor[10]
+12-2	672-673	,	*[10]	PERauthor[10]
+12-3	674-676	A.	*[10]	PERauthor[10]
+12-4	677-678	,	_	_
+12-5	679-688	Professor	_	_
+12-6	689-692	Dr.	_	_
+12-7	693-694	,	_	_
+12-8	695-705	Geheimrath	_	_
+12-9	706-707	,	_	_
+12-10	708-714	Berlin	*	PLACEmentioned
+12-11	715-716	.	_	_
+
+#Text=Bamberger , L. , Dr. , Mitglied des Reichstags , Berlin .
+13-1	717-726	Bamberger	*[11]	PERauthor[11]
+13-2	727-728	,	*[11]	PERauthor[11]
+13-3	729-731	L.	*[11]	PERauthor[11]
+13-4	732-733	,	_	_
+13-5	734-737	Dr.	_	_
+13-6	738-739	,	_	_
+13-7	740-748	Mitglied	_	_
+13-8	749-752	des	_	_
+13-9	753-763	Reichstags	_	_
+13-10	764-765	,	_	_
+13-11	766-772	Berlin	*	PLACEmentioned
+13-12	773-774	.	_	_
+
+#Text=Bardt , G. , Director Dr. , Berlin .
+14-1	775-780	Bardt	*[12]	PERauthor[12]
+14-2	781-782	,	*[12]	PERauthor[12]
+14-3	783-785	G.	*[12]	PERauthor[12]
+14-4	786-787	,	_	_
+14-5	788-796	Director	_	_
+14-6	797-800	Dr.	_	_
+14-7	801-802	,	_	_
+14-8	803-809	Berlin	*	PLACEmentioned
+14-9	810-811	.	_	_
+
+#Text=Bekker , I. , Professor Dr. , Geheimrath , Heidelberg .
+15-1	812-818	Bekker	*[13]	PERauthor[13]
+15-2	819-820	,	*[13]	PERauthor[13]
+15-3	821-823	I.	*[13]	PERauthor[13]
+15-4	824-825	,	_	_
+15-5	826-835	Professor	_	_
+15-6	836-839	Dr.	_	_
+15-7	840-841	,	_	_
+15-8	842-852	Geheimrath	_	_
+15-9	853-854	,	_	_
+15-10	855-865	Heidelberg	*	PLACEmentioned
+15-11	866-867	.	_	_
+
+#Text=Benndorf , O. , Professor Dr. , Hofrath , Wien .
+16-1	868-876	Benndorf	*[14]	PERauthor[14]
+16-2	877-878	,	*[14]	PERauthor[14]
+16-3	879-881	O.	_	_
+16-4	882-883	,	_	_
+16-5	884-893	Professor	_	_
+16-6	894-897	Dr.	_	_
+16-7	898-899	,	_	_
+16-8	900-907	Hofrath	_	_
+16-9	908-909	,	_	_
+16-10	910-914	Wien	*	PLACEmentioned
+16-11	915-916	.	_	_
+
+#Text=de Berlanga , M. R. , Dr. , Malaga .
+17-1	917-919	de	*[15]	PERauthor[15]
+17-2	920-928	Berlanga	*[15]	PERauthor[15]
+17-3	929-930	,	*[15]	PERauthor[15]
+17-4	931-933	M.	*[15]	PERauthor[15]
+17-5	934-936	R.	*[15]	PERauthor[15]
+17-6	937-938	,	_	_
+17-7	939-942	Dr.	_	_
+17-8	943-944	,	_	_
+17-9	945-951	Malaga	*	PLACEmentioned
+17-10	952-953	.	_	_
+
+#Text=Binding , L. , Professor Dr. , Geheimrath , Leipzig .
+18-1	954-961	Binding	*[16]	PERauthor[16]
+18-2	962-963	,	*[16]	PERauthor[16]
+18-3	964-966	L.	*[16]	PERauthor[16]
+18-4	967-968	,	_	_
+18-5	969-978	Professor	_	_
+18-6	979-982	Dr.	_	_
+18-7	983-984	,	_	_
+18-8	985-995	Geheimrath	_	_
+18-9	996-997	,	_	_
+18-10	998-1005	Leipzig	*	PLACEmentioned
+18-11	1006-1007	.	_	_
+
+#Text=Blümer , H. , Professor Dr. , Zürich .
+19-1	1008-1014	Blümer	*[17]	PERauthor[17]
+19-2	1015-1016	,	*[17]	PERauthor[17]
+19-3	1017-1019	H.	*[17]	PERauthor[17]
+19-4	1020-1021	,	_	_
+19-5	1022-1031	Professor	_	_
+19-6	1032-1035	Dr.	_	_
+19-7	1036-1037	,	_	_
+19-8	1038-1044	Zürich	*	PLACEmentioned
+19-9	1045-1046	.	_	_
+
+#Text=du Bois-Reymond , E. , Professor Dr. , Geh .
+20-1	1047-1049	du	*[18]	PERauthor[18]
+20-2	1050-1062	Bois-Reymond	*[18]	PERauthor[18]
+20-3	1063-1064	,	*[18]	PERauthor[18]
+20-4	1065-1067	E.	*[18]	PERauthor[18]
+20-5	1068-1069	,	_	_
+20-6	1070-1079	Professor	_	_
+20-7	1080-1083	Dr.	_	_
+20-8	1084-1085	,	_	_
+20-9	1086-1089	Geh	_	_
+20-10	1090-1091	.	_	_
+
+#Text=Ob.-Med.-Rath , Berlin .
+21-1	1092-1105	Ob.-Med.-Rath	*[22]	PLACEmentioned[22]
+21-2	1106-1107	,	*[22]	PLACEmentioned[22]
+21-3	1108-1114	Berlin	*[22]	PLACEmentioned[22]
+21-4	1115-1116	.	_	_
+
+#Text=Boissevain , U . Ph. , Professor Dr. , Groningen .
+22-1	1117-1127	Boissevain	*[19]	PERauthor[19]
+22-2	1128-1129	,	*[19]	PERauthor[19]
+22-3	1130-1131	U	*[19]	PERauthor[19]
+22-4	1132-1133	.	*[19]	PERauthor[19]
+22-5	1134-1137	Ph.	*[19]	PERauthor[19]
+22-6	1138-1139	,	_	_
+22-7	1140-1149	Professor	_	_
+22-8	1150-1153	Dr.	_	_
+22-9	1154-1155	,	_	_
+22-10	1156-1165	Groningen	*	PLACEmentioned
+22-11	1166-1167	.	_	_
+
+#Text=Boissier , G. , Membre de l'Acad & mie , Paris .
+23-1	1168-1176	Boissier	*[20]	PERauthor[20]
+23-2	1177-1178	,	*[20]	PERauthor[20]
+23-3	1179-1181	G.	*[20]	PERauthor[20]
+23-4	1182-1183	,	_	_
+23-5	1184-1190	Membre	_	_
+23-6	1191-1193	de	_	_
+23-7	1194-1200	l'Acad	*[23]	ORGmentioned[23]
+23-8	1201-1202	&	*[23]	ORGmentioned[23]
+23-9	1203-1206	mie	*[23]	ORGmentioned[23]
+23-10	1207-1208	,	_	_
+23-11	1209-1214	Paris	*	PLACEmentioned
+23-12	1215-1216	.	_	_
+
+#Text=Bormann , E. , Professor Dr. , Wien
+24-1	1217-1224	Bormann	*[21]	PERauthor[21]
+24-2	1225-1226	,	*[21]	PERauthor[21]
+24-3	1227-1229	E.	*[21]	PERauthor[21]
+24-4	1230-1231	,	_	_
+24-5	1232-1241	Professor	_	_
+24-6	1242-1245	Dr.	_	_
+24-7	1246-1247	,	_	_
+24-8	1248-1252	Wien	*	PLACEmentioned

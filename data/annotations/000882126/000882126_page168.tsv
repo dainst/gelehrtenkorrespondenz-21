@@ -1,0 +1,267 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=269 Braun an Gerhard Rom , 15. Juni 1837 Sig .
+1-1	0-3	269	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	15.	*[14]	DATEletter[14]
+1-8	31-35	Juni	*[14]	DATEletter[14]
+1-9	36-40	1837	*[14]	DATEletter[14]
+1-10	41-44	Sig	*[13]	PERaddressee[13]
+1-11	45-46	.	*[13]	PERaddressee[13]
+
+#Text=Cav .
+2-1	47-50	Cav	*[13]	PERaddressee[13]
+2-2	51-52	.	*[13]	PERaddressee[13]
+
+#Text=Od . Gerhard Ancona Roma li 15 Giugno 1837 .
+3-1	53-55	Od	*[13]	PERaddressee[13]
+3-2	56-57	.	*[13]	PERaddressee[13]
+3-3	58-65	Gerhard	*[13]	PERaddressee[13]
+3-4	66-72	Ancona	*	PLACEto
+3-5	73-77	Roma	*	PLACEfrom
+3-6	78-80	li	_	_
+3-7	81-83	15	*[15]	DATEletter[15]
+3-8	84-90	Giugno	*[15]	DATEletter[15]
+3-9	91-95	1837	*[15]	DATEletter[15]
+3-10	96-97	.	_	_
+
+#Text=Hochverehrtester Freund !
+4-1	98-114	Hochverehrtester	_	_
+4-2	115-121	Freund	_	_
+4-3	122-123	!	_	_
+
+#Text=Ich übersende Ihnen anbei nicht weniger als 15 Briefe , die für Sie eingekommen sind und die Sie hoffentlich gesund und wohlbehalten in Ancona treffen sollen .
+5-1	124-127	Ich	_	_
+5-2	128-137	übersende	_	_
+5-3	138-143	Ihnen	_	_
+5-4	144-149	anbei	_	_
+5-5	150-155	nicht	_	_
+5-6	156-163	weniger	_	_
+5-7	164-167	als	_	_
+5-8	168-170	15	_	_
+5-9	171-177	Briefe	_	_
+5-10	178-179	,	_	_
+5-11	180-183	die	_	_
+5-12	184-187	für	_	_
+5-13	188-191	Sie	_	_
+5-14	192-203	eingekommen	_	_
+5-15	204-208	sind	_	_
+5-16	209-212	und	_	_
+5-17	213-216	die	_	_
+5-18	217-220	Sie	_	_
+5-19	221-232	hoffentlich	_	_
+5-20	233-239	gesund	_	_
+5-21	240-243	und	_	_
+5-22	244-256	wohlbehalten	_	_
+5-23	257-259	in	_	_
+5-24	260-266	Ancona	*	PLACEmentioned
+5-25	267-274	treffen	_	_
+5-26	275-281	sollen	_	_
+5-27	282-283	.	_	_
+
+#Text=Von Neapel werden Ihnen die traurigen Sanitätsnachrichten bereits zugekommen sein .
+6-1	284-287	Von	_	_
+6-2	288-294	Neapel	*	PLACEmentioned
+6-3	295-301	werden	_	_
+6-4	302-307	Ihnen	_	_
+6-5	308-311	die	_	_
+6-6	312-321	traurigen	_	_
+6-7	322-341	Sanitätsnachrichten	_	_
+6-8	342-349	bereits	_	_
+6-9	350-360	zugekommen	_	_
+6-10	361-365	sein	_	_
+6-11	366-367	.	_	_
+
+#Text=An eine Reise dahin ist also gar nicht zu denken .
+7-1	368-370	An	_	_
+7-2	371-375	eine	_	_
+7-3	376-381	Reise	_	_
+7-4	382-387	dahin	_	_
+7-5	388-391	ist	_	_
+7-6	392-396	also	_	_
+7-7	397-400	gar	_	_
+7-8	401-406	nicht	_	_
+7-9	407-409	zu	_	_
+7-10	410-416	denken	_	_
+7-11	417-418	.	_	_
+
+#Text=Es hat Tage gegeben wo 187 Fälle vorgekommen sind , eben heute vor 8 Tagen .
+8-1	419-421	Es	_	_
+8-2	422-425	hat	_	_
+8-3	426-430	Tage	_	_
+8-4	431-438	gegeben	_	_
+8-5	439-441	wo	_	_
+8-6	442-445	187	_	_
+8-7	446-451	Fälle	_	_
+8-8	452-463	vorgekommen	_	_
+8-9	464-468	sind	_	_
+8-10	469-470	,	_	_
+8-11	471-475	eben	_	_
+8-12	476-481	heute	_	_
+8-13	482-485	vor	_	_
+8-14	486-487	8	_	_
+8-15	488-493	Tagen	_	_
+8-16	494-495	.	_	_
+
+#Text=Bellotti schreibt sehr bestürzt .
+9-1	496-504	Bellotti	*	PERmentioned
+9-2	505-513	schreibt	_	_
+9-3	514-518	sehr	_	_
+9-4	519-527	bestürzt	_	_
+9-5	528-529	.	_	_
+
+#Text=Dennoch würde es wichtig und erwünscht sein , wenn Sie hierher kommen wollten .
+10-1	530-537	Dennoch	_	_
+10-2	538-543	würde	_	_
+10-3	544-546	es	_	_
+10-4	547-554	wichtig	_	_
+10-5	555-558	und	_	_
+10-6	559-568	erwünscht	_	_
+10-7	569-573	sein	_	_
+10-8	574-575	,	_	_
+10-9	576-580	wenn	_	_
+10-10	581-584	Sie	_	_
+10-11	585-592	hierher	_	_
+10-12	593-599	kommen	_	_
+10-13	600-607	wollten	_	_
+10-14	608-609	.	_	_
+
+#Text=Campanaris haben ihre Sachen hierher gebracht und die Theilung bereits begonnen .
+11-1	610-620	Campanaris	*	PERmentioned
+11-2	621-626	haben	_	_
+11-3	627-631	ihre	_	_
+11-4	632-638	Sachen	_	_
+11-5	639-646	hierher	_	_
+11-6	647-655	gebracht	_	_
+11-7	656-659	und	_	_
+11-8	660-663	die	_	_
+11-9	664-672	Theilung	_	_
+11-10	673-680	bereits	_	_
+11-11	681-689	begonnen	_	_
+11-12	690-691	.	_	_
+
+#Text=Es wird sich mit ihnen manches gute Geschäft einleiten lassen .
+12-1	692-694	Es	_	_
+12-2	695-699	wird	_	_
+12-3	700-704	sich	_	_
+12-4	705-708	mit	_	_
+12-5	709-714	ihnen	_	_
+12-6	715-722	manches	_	_
+12-7	723-727	gute	_	_
+12-8	728-736	Geschäft	_	_
+12-9	737-746	einleiten	_	_
+12-10	747-753	lassen	_	_
+12-11	754-755	.	_	_
+
+#Text=Unter den gefundenen Gegenständen befinden sich allein 15 - 20 Spiegel .
+13-1	756-761	Unter	_	_
+13-2	762-765	den	_	_
+13-3	766-776	gefundenen	_	_
+13-4	777-789	Gegenständen	_	_
+13-5	790-798	befinden	_	_
+13-6	799-803	sich	_	_
+13-7	804-810	allein	_	_
+13-8	811-813	15	*[16]	OBJ[16]
+13-9	814-815	-	*[16]	OBJ[16]
+13-10	816-818	20	*[16]	OBJ[16]
+13-11	819-826	Spiegel	*[16]	OBJ[16]
+13-12	827-828	.	_	_
+
+#Text=In kunsthändlerischer Rücksicht empfehlen sich ferner bei Depoletti zwei schöne Marmorfragmente in Basreliefs \; und ein Venustorso , den Mahler der Venus des Capitol voranstellt \; Preis 2000 Scudi restaurirt .
+14-1	829-831	In	_	_
+14-2	832-850	kunsthändlerischer	_	_
+14-3	851-860	Rücksicht	_	_
+14-4	861-870	empfehlen	_	_
+14-5	871-875	sich	_	_
+14-6	876-882	ferner	_	_
+14-7	883-886	bei	_	_
+14-8	887-896	Depoletti	*	PERmentioned
+14-9	897-901	zwei	*[17]	OBJ[17]
+14-10	902-908	schöne	*[17]	OBJ[17]
+14-11	909-924	Marmorfragmente	*[17]	OBJ[17]
+14-12	925-927	in	*[17]	OBJ[17]
+14-13	928-938	Basreliefs	*[17]	OBJ[17]
+14-14	939-940	\;	_	_
+14-15	941-944	und	_	_
+14-16	945-948	ein	_	_
+14-17	949-959	Venustorso	*	OBJ
+14-18	960-961	,	_	_
+14-19	962-965	den	_	_
+14-20	966-972	Mahler	*	PERmentioned
+14-21	973-976	der	_	_
+14-22	977-982	Venus	*[18]	OBJ[18]
+14-23	983-986	des	*[18]	OBJ[18]
+14-24	987-994	Capitol	*[18]	OBJ[18]
+14-25	995-1006	voranstellt	_	_
+14-26	1007-1008	\;	_	_
+14-27	1009-1014	Preis	_	_
+14-28	1015-1019	2000	_	_
+14-29	1020-1025	Scudi	_	_
+14-30	1026-1036	restaurirt	_	_
+14-31	1037-1038	.	_	_
+
+#Text=Lepsius reist in 8 Tagen nach Livorno um die von Drovetti angekauften Alterthümer einpacken zu lassen .
+15-1	1039-1046	Lepsius	*	PERmentioned
+15-2	1047-1052	reist	_	_
+15-3	1053-1055	in	_	_
+15-4	1056-1057	8	_	_
+15-5	1058-1063	Tagen	_	_
+15-6	1064-1068	nach	_	_
+15-7	1069-1076	Livorno	*	PLACEmentioned
+15-8	1077-1079	um	_	_
+15-9	1080-1083	die	_	_
+15-10	1084-1087	von	_	_
+15-11	1088-1096	Drovetti	*	PERmentioned
+15-12	1097-1108	angekauften	_	_
+15-13	1109-1120	Alterthümer	_	_
+15-14	1121-1130	einpacken	_	_
+15-15	1131-1133	zu	_	_
+15-16	1134-1140	lassen	_	_
+15-17	1141-1142	.	_	_
+
+#Text=Ich komme daher nicht vor Anfang Juli von hier weg .
+16-1	1143-1146	Ich	_	_
+16-2	1147-1152	komme	_	_
+16-3	1153-1158	daher	_	_
+16-4	1159-1164	nicht	_	_
+16-5	1165-1168	vor	_	_
+16-6	1169-1175	Anfang	_	_
+16-7	1176-1180	Juli	*	DATEmentioned
+16-8	1181-1184	von	_	_
+16-9	1185-1189	hier	_	_
+16-10	1190-1193	weg	_	_
+16-11	1194-1195	.	_	_
+
+#Text=Sie erinnern sich , daß es mir rund abgeschlagen wurde auf 14 Tage nach Neapel zu gehen , so etwas wird aber nur mir abgeschlagen .
+17-1	1196-1199	Sie	_	_
+17-2	1200-1208	erinnern	_	_
+17-3	1209-1213	sich	_	_
+17-4	1214-1215	,	_	_
+17-5	1216-1219	daß	_	_
+17-6	1220-1222	es	_	_
+17-7	1223-1226	mir	_	_
+17-8	1227-1231	rund	_	_
+17-9	1232-1244	abgeschlagen	_	_
+17-10	1245-1250	wurde	_	_
+17-11	1251-1254	auf	_	_
+17-12	1255-1257	14	_	_
+17-13	1258-1262	Tage	_	_
+17-14	1263-1267	nach	_	_
+17-15	1268-1274	Neapel	*	PLACEmentioned
+17-16	1275-1277	zu	_	_
+17-17	1278-1283	gehen	_	_
+17-18	1284-1285	,	_	_
+17-19	1286-1288	so	_	_
+17-20	1289-1294	etwas	_	_
+17-21	1295-1299	wird	_	_
+17-22	1300-1304	aber	_	_
+17-23	1305-1308	nur	_	_
+17-24	1309-1312	mir	_	_
+17-25	1313-1325	abgeschlagen	_	_
+17-26	1326-1327	.	_	_

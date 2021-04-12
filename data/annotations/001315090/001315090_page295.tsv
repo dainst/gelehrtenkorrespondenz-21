@@ -1,0 +1,174 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=683 Lepsius an Henzen Berlin , 20. November 1gB6 g . 23/XI 76 Berlin , den 20 .
+1-1	0-3	683	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	20.	*[1]	DATEletter[1]
+1-8	35-43	November	*[1]	DATEletter[1]
+1-9	44-48	1gB6	_	_
+1-10	49-50	g	_	_
+1-11	51-52	.	_	_
+1-12	53-58	23/XI	*[2]	DATErecieved[2]
+1-13	59-61	76	*[2]	DATErecieved[2]
+1-14	62-68	Berlin	*	PLACEfrom
+1-15	69-70	,	_	_
+1-16	71-74	den	_	_
+1-17	75-77	20	*[3]	DATEletter[3]
+1-18	78-79	.	*[3]	DATEletter[3]
+
+#Text=Nov .
+2-1	80-83	Nov	*[3]	DATEletter[3]
+2-2	84-85	.	*[3]	DATEletter[3]
+
+#Text=1876 Verehrter Freund Ich zeige Ihnen nur den Eingang Ihres Briefes vom 4. d. an , und danke bestens für die Liste .
+3-1	86-90	1876	*[3]	DATEletter[3]
+3-2	91-100	Verehrter	_	_
+3-3	101-107	Freund	_	_
+3-4	108-111	Ich	_	_
+3-5	112-117	zeige	_	_
+3-6	118-123	Ihnen	_	_
+3-7	124-127	nur	_	_
+3-8	128-131	den	_	_
+3-9	132-139	Eingang	_	_
+3-10	140-145	Ihres	_	_
+3-11	146-153	Briefes	_	_
+3-12	154-157	vom	_	_
+3-13	158-160	4.	*[4]	DATEmentioned[4]
+3-14	161-163	d.	*[4]	DATEmentioned[4]
+3-15	164-166	an	_	_
+3-16	167-168	,	_	_
+3-17	169-172	und	_	_
+3-18	173-178	danke	_	_
+3-19	179-186	bestens	_	_
+3-20	187-190	für	_	_
+3-21	191-194	die	_	_
+3-22	195-200	Liste	_	_
+3-23	201-202	.	_	_
+
+#Text=Nun sind auch die Exemplare der Photographien des Hauses eingegangen , wofür wir Herrn Laspeyres sehr dankbar sind .
+4-1	203-206	Nun	_	_
+4-2	207-211	sind	_	_
+4-3	212-216	auch	_	_
+4-4	217-220	die	_	_
+4-5	221-230	Exemplare	_	_
+4-6	231-234	der	_	_
+4-7	235-248	Photographien	_	_
+4-8	249-252	des	_	_
+4-9	253-259	Hauses	_	_
+4-10	260-271	eingegangen	_	_
+4-11	272-273	,	_	_
+4-12	274-279	wofür	_	_
+4-13	280-283	wir	_	_
+4-14	284-289	Herrn	_	_
+4-15	290-299	Laspeyres	*	PERmentioned
+4-16	300-304	sehr	_	_
+4-17	305-312	dankbar	_	_
+4-18	313-317	sind	_	_
+4-19	318-319	.	_	_
+
+#Text=Es ist ohne Zweifel die günstigste und sehr ansprechende Ansicht \; der Standort muß wohl auf einem wohlgelegenen Dache ausfindig gemacht worden sein .
+5-1	320-322	Es	_	_
+5-2	323-326	ist	_	_
+5-3	327-331	ohne	_	_
+5-4	332-339	Zweifel	_	_
+5-5	340-343	die	_	_
+5-6	344-354	günstigste	_	_
+5-7	355-358	und	_	_
+5-8	359-363	sehr	_	_
+5-9	364-376	ansprechende	_	_
+5-10	377-384	Ansicht	_	_
+5-11	385-386	\;	_	_
+5-12	387-390	der	_	_
+5-13	391-399	Standort	_	_
+5-14	400-403	muß	_	_
+5-15	404-408	wohl	_	_
+5-16	409-412	auf	_	_
+5-17	413-418	einem	_	_
+5-18	419-432	wohlgelegenen	_	_
+5-19	433-438	Dache	_	_
+5-20	439-448	ausfindig	_	_
+5-21	449-456	gemacht	_	_
+5-22	457-463	worden	_	_
+5-23	464-468	sein	_	_
+5-24	469-470	.	_	_
+
+#Text=Leider war die Verpackung nicht ganz wasserdicht gewesen .
+6-1	471-477	Leider	_	_
+6-2	478-481	war	_	_
+6-3	482-485	die	_	_
+6-4	486-496	Verpackung	_	_
+6-5	497-502	nicht	_	_
+6-6	503-507	ganz	_	_
+6-7	508-519	wasserdicht	_	_
+6-8	520-527	gewesen	_	_
+6-9	528-529	.	_	_
+
+#Text=Ich werde die Blätter nachdem ich sie gepreßt nun vertheilen .
+7-1	530-533	Ich	_	_
+7-2	534-539	werde	_	_
+7-3	540-543	die	_	_
+7-4	544-551	Blätter	_	_
+7-5	552-559	nachdem	_	_
+7-6	560-563	ich	_	_
+7-7	564-567	sie	_	_
+7-8	568-575	gepreßt	_	_
+7-9	576-579	nun	_	_
+7-10	580-590	vertheilen	_	_
+7-11	591-592	.	_	_
+
+#Text=Über die Künstlerbibliothek kann ich noch nichts berichten .
+8-1	593-597	Über	_	_
+8-2	598-601	die	_	_
+8-3	602-620	Künstlerbibliothek	*	ORGmentioned
+8-4	621-625	kann	_	_
+8-5	626-629	ich	_	_
+8-6	630-634	noch	_	_
+8-7	635-641	nichts	_	_
+8-8	642-651	berichten	_	_
+8-9	652-653	.	_	_
+
+#Text=Minister Krüger ist jetzt immer sehr beschäftigt und hat noch nicht Rücksprache genommen .
+9-1	654-662	Minister	_	_
+9-2	663-669	Krüger	*	PERmentioned
+9-3	670-673	ist	_	_
+9-4	674-679	jetzt	_	_
+9-5	680-685	immer	_	_
+9-6	686-690	sehr	_	_
+9-7	691-702	beschäftigt	_	_
+9-8	703-706	und	_	_
+9-9	707-710	hat	_	_
+9-10	711-715	noch	_	_
+9-11	716-721	nicht	_	_
+9-12	722-733	Rücksprache	_	_
+9-13	734-742	genommen	_	_
+9-14	743-744	.	_	_
+
+#Text=Ihr ergebenster R Lepsius Köhler schreibt mir so eben daß Herr v. Duhn ihn für 8 Monate in Athen assistiren will .
+10-1	745-748	Ihr	_	_
+10-2	749-760	ergebenster	_	_
+10-3	761-762	R	*[5]	PERauthor[5]
+10-4	763-770	Lepsius	*[5]	PERauthor[5]
+10-5	771-777	Köhler	*	PERmentioned
+10-6	778-786	schreibt	_	_
+10-7	787-790	mir	_	_
+10-8	791-793	so	_	_
+10-9	794-798	eben	_	_
+10-10	799-802	daß	_	_
+10-11	803-807	Herr	_	_
+10-12	808-810	v.	*[6]	PERmentioned[6]
+10-13	811-815	Duhn	*[6]	PERmentioned[6]
+10-14	816-819	ihn	_	_
+10-15	820-823	für	_	_
+10-16	824-825	8	_	_
+10-17	826-832	Monate	_	_
+10-18	833-835	in	_	_
+10-19	836-841	Athen	*	PLACEmentioned
+10-20	842-852	assistiren	_	_
+10-21	853-857	will	_	_
+10-22	858-859	.	_	_

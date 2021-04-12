@@ -1,0 +1,61 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an das Institut Neapel , 6. Mai 1864 Fiorelli grüßen .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-13	das	_	_
+1-4	14-22	Institut	*	ORGaddressee
+1-5	23-29	Neapel	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-34	6.	*[3]	DATEletter[3]
+1-8	35-38	Mai	*[3]	DATEletter[3]
+1-9	39-43	1864	*[3]	DATEletter[3]
+1-10	44-52	Fiorelli	*	PERmentioned
+1-11	53-59	grüßen	_	_
+1-12	60-61	.	_	_
+
+#Text=Letzterer bittet , um eine Zeichnung des Instituts , welche einen passenden Artikel für den Gerhardschen Jubelband abwerfen könnte .
+2-1	62-71	Letzterer	_	_
+2-2	72-78	bittet	_	_
+2-3	79-80	,	_	_
+2-4	81-83	um	_	_
+2-5	84-88	eine	_	_
+2-6	89-98	Zeichnung	_	_
+2-7	99-102	des	_	_
+2-8	103-112	Instituts	*	ORGmentioned
+2-9	113-114	,	_	_
+2-10	115-121	welche	_	_
+2-11	122-127	einen	_	_
+2-12	128-137	passenden	_	_
+2-13	138-145	Artikel	_	_
+2-14	146-149	für	_	_
+2-15	150-153	den	_	_
+2-16	154-166	Gerhardschen	_	_
+2-17	167-176	Jubelband	_	_
+2-18	177-185	abwerfen	_	_
+2-19	186-192	könnte	_	_
+2-20	193-194	.	_	_
+
+#Text=Mit vielen Grüßen Ihr Wolfgang Helbig .
+3-1	195-198	Mit	_	_
+3-2	199-205	vielen	_	_
+3-3	206-212	Grüßen	_	_
+3-4	213-216	Ihr	_	_
+3-5	217-225	Wolfgang	*[4]	PERauthor[4]
+3-6	226-232	Helbig	*[4]	PERauthor[4]
+3-7	233-234	.	_	_
+
+#Text== !
+4-1	235-236	=	_	_
+4-2	237-238	!	_	_
+
+#Text=Briefe nach wie vor an Detken .
+5-1	239-245	Briefe	_	_
+5-2	246-250	nach	_	_
+5-3	251-254	wie	_	_
+5-4	255-258	vor	_	_
+5-5	259-261	an	_	_
+5-6	262-268	Detken	*	PERmentioned
+5-7	269-270	.	_	_

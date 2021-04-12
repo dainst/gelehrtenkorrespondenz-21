@@ -1,0 +1,31 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=243 Braun an Gerhard Rom , 23. Dezember 1839 Feuerbach ist hier \; er hat Auge und Sinn für Bildwerke .
+1-1	0-3	243	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	23.	*[4]	DATEletter[4]
+1-8	31-39	Dezember	*[4]	DATEletter[4]
+1-9	40-44	1839	*[4]	DATEletter[4]
+1-10	45-54	Feuerbach	*	PERmentioned
+1-11	55-58	ist	_	_
+1-12	59-63	hier	_	_
+1-13	64-65	\;	_	_
+1-14	66-68	er	_	_
+1-15	69-72	hat	_	_
+1-16	73-77	Auge	_	_
+1-17	78-81	und	_	_
+1-18	82-86	Sinn	_	_
+1-19	87-90	für	_	_
+1-20	91-100	Bildwerke	_	_
+1-21	101-102	.	_	_
+
+#Text=Ihr EBraun .
+2-1	103-106	Ihr	_	_
+2-2	107-113	EBraun	*	PERauthor
+2-3	114-115	.	_	_

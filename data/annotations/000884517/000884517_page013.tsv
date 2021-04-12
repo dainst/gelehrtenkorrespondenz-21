@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=46 Gerhard an Braun Berlin , 11 .
+1-1	0-2	46	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	11	*[3]	DATEletter[3]
+1-8	32-33	.	*[3]	DATEletter[3]
+
+#Text=Januar 1844 Bunsen behauptet Howard Vyse sei noch nicht Ehrenmitglied und verlangt Erklärung und Entschuldigung darüber .
+2-1	34-40	Januar	*[3]	DATEletter[3]
+2-2	41-45	1844	*[3]	DATEletter[3]
+2-3	46-52	Bunsen	*	PERmentioned
+2-4	53-62	behauptet	_	_
+2-5	63-69	Howard	*[4]	PERmentioned[4]
+2-6	70-74	Vyse	*[4]	PERmentioned[4]
+2-7	75-78	sei	_	_
+2-8	79-83	noch	_	_
+2-9	84-89	nicht	_	_
+2-10	90-103	Ehrenmitglied	_	_
+2-11	104-107	und	_	_
+2-12	108-116	verlangt	_	_
+2-13	117-126	Erklärung	_	_
+2-14	127-130	und	_	_
+2-15	131-145	Entschuldigung	_	_
+2-16	146-153	darüber	_	_
+2-17	154-155	.	_	_
+
+#Text=In den Listen finde ich ihn wirklich nicht \; es mag eine Vernachlässigung aus Lepsius ' Zeit sein 0der wissen Sie andres ?
+3-1	156-158	In	_	_
+3-2	159-162	den	_	_
+3-3	163-169	Listen	_	_
+3-4	170-175	finde	_	_
+3-5	176-179	ich	_	_
+3-6	180-183	ihn	_	_
+3-7	184-192	wirklich	_	_
+3-8	193-198	nicht	_	_
+3-9	199-200	\;	_	_
+3-10	201-203	es	_	_
+3-11	204-207	mag	_	_
+3-12	208-212	eine	_	_
+3-13	213-229	Vernachlässigung	_	_
+3-14	230-233	aus	_	_
+3-15	234-241	Lepsius	*	PERmentioned
+3-16	242-243	'	_	_
+3-17	244-248	Zeit	_	_
+3-18	249-253	sein	_	_
+3-19	254-258	0der	_	_
+3-20	259-265	wissen	_	_
+3-21	266-269	Sie	_	_
+3-22	270-276	andres	_	_
+3-23	277-278	?	_	_
+
+#Text=Zum 21 April muß es gut gemacht werden .
+4-1	279-282	Zum	_	_
+4-2	283-285	21	*[5]	DATEmentioned[5]
+4-3	286-291	April	*[5]	DATEmentioned[5]
+4-4	292-295	muß	_	_
+4-5	296-298	es	_	_
+4-6	299-302	gut	_	_
+4-7	303-310	gemacht	_	_
+4-8	311-317	werden	_	_
+4-9	318-319	.	_	_
+
+#Text=Rosellini ' n waren wir ein offenkundiges Andenken schuldig \; Etwas was ich der Art für mein Blatt auszog , ward mir zu lang und mag nun , da Sie nicht dazu Zeit fanden , in die Allgemeine Zeitung gehen , obwohl ich sonst nie in dieselbe etwas sandte .
+5-1	320-329	Rosellini	*[7]	PERmentioned[7]
+5-2	330-331	'	*[7]	PERmentioned[7]
+5-3	332-333	n	*[7]	PERmentioned[7]
+5-4	334-339	waren	_	_
+5-5	340-343	wir	_	_
+5-6	344-347	ein	_	_
+5-7	348-361	offenkundiges	_	_
+5-8	362-370	Andenken	_	_
+5-9	371-379	schuldig	_	_
+5-10	380-381	\;	_	_
+5-11	382-387	Etwas	_	_
+5-12	388-391	was	_	_
+5-13	392-395	ich	_	_
+5-14	396-399	der	_	_
+5-15	400-403	Art	_	_
+5-16	404-407	für	_	_
+5-17	408-412	mein	_	_
+5-18	413-418	Blatt	_	_
+5-19	419-425	auszog	_	_
+5-20	426-427	,	_	_
+5-21	428-432	ward	_	_
+5-22	433-436	mir	_	_
+5-23	437-439	zu	_	_
+5-24	440-444	lang	_	_
+5-25	445-448	und	_	_
+5-26	449-452	mag	_	_
+5-27	453-456	nun	_	_
+5-28	457-458	,	_	_
+5-29	459-461	da	_	_
+5-30	462-465	Sie	_	_
+5-31	466-471	nicht	_	_
+5-32	472-476	dazu	_	_
+5-33	477-481	Zeit	_	_
+5-34	482-488	fanden	_	_
+5-35	489-490	,	_	_
+5-36	491-493	in	_	_
+5-37	494-497	die	_	_
+5-38	498-508	Allgemeine	_	_
+5-39	509-516	Zeitung	_	_
+5-40	517-522	gehen	_	_
+5-41	523-524	,	_	_
+5-42	525-531	obwohl	_	_
+5-43	532-535	ich	_	_
+5-44	536-541	sonst	_	_
+5-45	542-545	nie	_	_
+5-46	546-548	in	_	_
+5-47	549-557	dieselbe	_	_
+5-48	558-563	etwas	_	_
+5-49	564-570	sandte	_	_
+5-50	571-572	.	_	_
+
+#Text=Sollte die Kiste noch nicht fort sein , so bitte ich um Fortsetzung meiner 2 Exemplare der Campanischen Rafaelzeichnungen die ich in 28 Blatt bis jetzt habe .
+6-1	573-579	Sollte	_	_
+6-2	580-583	die	_	_
+6-3	584-589	Kiste	_	_
+6-4	590-594	noch	_	_
+6-5	595-600	nicht	_	_
+6-6	601-605	fort	_	_
+6-7	606-610	sein	_	_
+6-8	611-612	,	_	_
+6-9	613-615	so	_	_
+6-10	616-621	bitte	_	_
+6-11	622-625	ich	_	_
+6-12	626-628	um	_	_
+6-13	629-640	Fortsetzung	_	_
+6-14	641-647	meiner	_	_
+6-15	648-649	2	_	_
+6-16	650-659	Exemplare	_	_
+6-17	660-663	der	_	_
+6-18	664-676	Campanischen	_	_
+6-19	677-694	Rafaelzeichnungen	_	_
+6-20	695-698	die	_	_
+6-21	699-702	ich	_	_
+6-22	703-705	in	_	_
+6-23	706-708	28	_	_
+6-24	709-714	Blatt	_	_
+6-25	715-718	bis	_	_
+6-26	719-724	jetzt	_	_
+6-27	725-729	habe	_	_
+6-28	730-731	.	_	_
+
+#Text=- Ihres Weihnachtspoems bleibe ich gewärtig !
+7-1	732-733	-	_	_
+7-2	734-739	Ihres	_	_
+7-3	740-755	Weihnachtspoems	_	_
+7-4	756-762	bleibe	_	_
+7-5	763-766	ich	_	_
+7-6	767-775	gewärtig	_	_
+7-7	776-777	!	_	_
+
+#Text=Eh viva la compania ! !
+8-1	778-780	Eh	_	_
+8-2	781-785	viva	_	_
+8-3	786-788	la	_	_
+8-4	789-797	compania	_	_
+8-5	798-799	!	_	_
+8-6	800-801	!	_	_
+
+#Text=Eine kleine Ausgabe der Institutsmonumente zu veranstalten kann keine Schwierigkeit haben \; nur dieses kann auch Misereanlaß haben , nicht daß Sie ohne Geld dazu zu haben eine machen sollen .
+9-1	802-806	Eine	_	_
+9-2	807-813	kleine	_	_
+9-3	814-821	Ausgabe	_	_
+9-4	822-825	der	_	_
+9-5	826-844	Institutsmonumente	_	_
+9-6	845-847	zu	_	_
+9-7	848-860	veranstalten	_	_
+9-8	861-865	kann	_	_
+9-9	866-871	keine	_	_
+9-10	872-885	Schwierigkeit	_	_
+9-11	886-891	haben	_	_
+9-12	892-893	\;	_	_
+9-13	894-897	nur	_	_
+9-14	898-904	dieses	_	_
+9-15	905-909	kann	_	_
+9-16	910-914	auch	_	_
+9-17	915-926	Misereanlaß	_	_
+9-18	927-932	haben	_	_
+9-19	933-934	,	_	_
+9-20	935-940	nicht	_	_
+9-21	941-944	daß	_	_
+9-22	945-948	Sie	_	_
+9-23	949-953	ohne	_	_
+9-24	954-958	Geld	_	_
+9-25	959-963	dazu	_	_
+9-26	964-966	zu	_	_
+9-27	967-972	haben	_	_
+9-28	973-977	eine	_	_
+9-29	978-984	machen	_	_
+9-30	985-991	sollen	_	_
+9-31	992-993	.	_	_
+
+#Text=Stephani 's nackter Minotaur ist ein Preziosum , wie auch er selbst ein capo d'opera ist .
+10-1	994-1002	Stephani	*[8]	PERmentioned[8]
+10-2	1003-1005	's	*[8]	PERmentioned[8]
+10-3	1006-1013	nackter	_	_
+10-4	1014-1022	Minotaur	*	OBJ
+10-5	1023-1026	ist	_	_
+10-6	1027-1030	ein	_	_
+10-7	1031-1040	Preziosum	_	_
+10-8	1041-1042	,	_	_
+10-9	1043-1046	wie	_	_
+10-10	1047-1051	auch	_	_
+10-11	1052-1054	er	_	_
+10-12	1055-1061	selbst	_	_
+10-13	1062-1065	ein	_	_
+10-14	1066-1070	capo	_	_
+10-15	1071-1078	d'opera	_	_
+10-16	1079-1082	ist	_	_
+10-17	1083-1084	.	_	_
+
+#Text=Von Brockhaus noch immer keine französischen Exemplare Annalen .
+11-1	1085-1088	Von	_	_
+11-2	1089-1098	Brockhaus	*	ORGmentioned
+11-3	1099-1103	noch	_	_
+11-4	1104-1109	immer	_	_
+11-5	1110-1115	keine	_	_
+11-6	1116-1129	französischen	_	_
+11-7	1130-1139	Exemplare	_	_
+11-8	1140-1147	Annalen	_	_
+11-9	1148-1149	.	_	_
+
+#Text=Heute Archäologische Gesellschaft in welcher ich
+12-1	1150-1155	Heute	_	_
+12-2	1156-1170	Archäologische	*[6]	ORGmentioned[6]
+12-3	1171-1183	Gesellschaft	*[6]	ORGmentioned[6]
+12-4	1184-1186	in	_	_
+12-5	1187-1194	welcher	_	_
+12-6	1195-1198	ich	_	_

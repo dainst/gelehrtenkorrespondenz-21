@@ -1,0 +1,96 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=52 .
+1-1	0-2	52	_	_
+1-2	3-4	.	_	_
+
+#Text=Gerhard an Braun Berlin , 27. Dezember 1844 g . 11/II 45 Herrn Dr. Braun .
+2-1	5-12	Gerhard	*	PERauthor
+2-2	13-15	an	_	_
+2-3	16-21	Braun	*	PERaddressee
+2-4	22-28	Berlin	*	PLACEfrom
+2-5	29-30	,	_	_
+2-6	31-34	27.	*[1]	DATEletter[1]
+2-7	35-43	Dezember	*[1]	DATEletter[1]
+2-8	44-48	1844	*[1]	DATEletter[1]
+2-9	49-50	g	_	_
+2-10	51-52	.	_	_
+2-11	53-58	11/II	*[2]	DATErecieved[2]
+2-12	59-61	45	*[2]	DATErecieved[2]
+2-13	62-67	Herrn	_	_
+2-14	68-71	Dr.	*[3]	PERaddressee[3]
+2-15	72-77	Braun	*[3]	PERaddressee[3]
+2-16	78-79	.	_	_
+
+#Text=Rom Überbringer dieser Zuschrift Herr Candicatus Juris .
+3-1	80-83	Rom	*	PLACEto
+3-2	84-95	Überbringer	_	_
+3-3	96-102	dieser	_	_
+3-4	103-112	Zuschrift	_	_
+3-5	113-117	Herr	_	_
+3-6	118-128	Candicatus	_	_
+3-7	129-134	Juris	_	_
+3-8	135-136	.	_	_
+
+#Text=Merkel aus Nürnberg , ( Neffe des Herrn Prasidenten Roth zu München ) begiebt sich nach Rom um juristische Litterargeschichte hauptsächlich des Mittelalters durch Benutzung der Vaticana zu fördern .
+4-1	137-143	Merkel	*	PERmentioned
+4-2	144-147	aus	_	_
+4-3	148-156	Nürnberg	*	PLACEmentioned
+4-4	157-158	,	_	_
+4-5	159-160	(	_	_
+4-6	161-166	Neffe	_	_
+4-7	167-170	des	_	_
+4-8	171-176	Herrn	_	_
+4-9	177-188	Prasidenten	_	_
+4-10	189-193	Roth	*	PERmentioned
+4-11	194-196	zu	_	_
+4-12	197-204	München	*	PLACEmentioned
+4-13	205-206	)	_	_
+4-14	207-214	begiebt	_	_
+4-15	215-219	sich	_	_
+4-16	220-224	nach	_	_
+4-17	225-228	Rom	*	PLACEmentioned
+4-18	229-231	um	_	_
+4-19	232-243	juristische	_	_
+4-20	244-262	Litterargeschichte	_	_
+4-21	263-276	hauptsächlich	_	_
+4-22	277-280	des	_	_
+4-23	281-293	Mittelalters	_	_
+4-24	294-299	durch	_	_
+4-25	300-309	Benutzung	_	_
+4-26	310-313	der	_	_
+4-27	314-322	Vaticana	*	ORGmentioned
+4-28	323-325	zu	_	_
+4-29	326-333	fördern	_	_
+4-30	334-335	.	_	_
+
+#Text=Ich bitte Sie angelegentlichst in diesem und anderen Zwecken Ihren gewohnten thätigen Beistand ihm angedeihen zu lassen .
+5-1	336-339	Ich	_	_
+5-2	340-345	bitte	_	_
+5-3	346-349	Sie	_	_
+5-4	350-366	angelegentlichst	_	_
+5-5	367-369	in	_	_
+5-6	370-376	diesem	_	_
+5-7	377-380	und	_	_
+5-8	381-388	anderen	_	_
+5-9	389-396	Zwecken	_	_
+5-10	397-402	Ihren	_	_
+5-11	403-412	gewohnten	_	_
+5-12	413-421	thätigen	_	_
+5-13	422-430	Beistand	_	_
+5-14	431-434	ihm	_	_
+5-15	435-445	angedeihen	_	_
+5-16	446-448	zu	_	_
+5-17	449-455	lassen	_	_
+5-18	456-457	.	_	_
+
+#Text=Ganz der Ihrige Gerhard Berlin 27/12 44
+6-1	458-462	Ganz	_	_
+6-2	463-466	der	_	_
+6-3	467-473	Ihrige	_	_
+6-4	474-481	Gerhard	*	PERauthor
+6-5	482-488	Berlin	*	PLACEfrom
+6-6	489-494	27/12	*[4]	DATEletter[4]
+6-7	495-497	44	*[4]	DATEletter[4]

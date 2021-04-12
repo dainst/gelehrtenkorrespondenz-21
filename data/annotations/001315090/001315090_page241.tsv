@@ -1,0 +1,222 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 19 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	19	*[1]	DATEletter[1]
+1-7	30-31	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1875 zul besonders unangenehm ist , wenn bei Herrn v. K. eine Verstimmung eintreten sollte .
+2-1	32-39	Oktober	*[1]	DATEletter[1]
+2-2	40-44	1875	*[1]	DATEletter[1]
+2-3	45-48	zul	_	_
+2-4	49-58	besonders	_	_
+2-5	59-69	unangenehm	_	_
+2-6	70-73	ist	_	_
+2-7	74-75	,	_	_
+2-8	76-80	wenn	_	_
+2-9	81-84	bei	_	_
+2-10	85-90	Herrn	_	_
+2-11	91-93	v.	*[2]	PERmentioned[2]
+2-12	94-96	K.	*[2]	PERmentioned[2]
+2-13	97-101	eine	_	_
+2-14	102-113	Verstimmung	_	_
+2-15	114-123	eintreten	_	_
+2-16	124-130	sollte	_	_
+2-17	131-132	.	_	_
+
+#Text=Wären wir vorher unter der Hand befragt worden , so würden wir unsere Gründe dagegen haben geltend machen können , die sich wohl zur Erwägung geeignet haben würden , wenn sie Herrn v. ke Unter der Hand mitgetheilt worden wären .
+3-1	133-138	Wären	_	_
+3-2	139-142	wir	_	_
+3-3	143-149	vorher	_	_
+3-4	150-155	unter	_	_
+3-5	156-159	der	_	_
+3-6	160-164	Hand	_	_
+3-7	165-172	befragt	_	_
+3-8	173-179	worden	_	_
+3-9	180-181	,	_	_
+3-10	182-184	so	_	_
+3-11	185-191	würden	_	_
+3-12	192-195	wir	_	_
+3-13	196-202	unsere	_	_
+3-14	203-209	Gründe	_	_
+3-15	210-217	dagegen	_	_
+3-16	218-223	haben	_	_
+3-17	224-231	geltend	_	_
+3-18	232-238	machen	_	_
+3-19	239-245	können	_	_
+3-20	246-247	,	_	_
+3-21	248-251	die	_	_
+3-22	252-256	sich	_	_
+3-23	257-261	wohl	_	_
+3-24	262-265	zur	_	_
+3-25	266-274	Erwägung	_	_
+3-26	275-283	geeignet	_	_
+3-27	284-289	haben	_	_
+3-28	290-296	würden	_	_
+3-29	297-298	,	_	_
+3-30	299-303	wenn	_	_
+3-31	304-307	sie	_	_
+3-32	308-313	Herrn	_	_
+3-33	314-316	v.	*[3]	PERmentioned[3]
+3-34	317-319	ke	_	_
+3-35	320-325	Unter	_	_
+3-36	326-329	der	_	_
+3-37	330-334	Hand	_	_
+3-38	335-346	mitgetheilt	_	_
+3-39	347-353	worden	_	_
+3-40	354-359	wären	_	_
+3-41	360-361	.	_	_
+
+#Text=Wir haben nun mit nicht geringer Mühe Köhler von Straßburg losgeeist .
+4-1	362-365	Wir	_	_
+4-2	366-371	haben	_	_
+4-3	372-375	nun	_	_
+4-4	376-379	mit	_	_
+4-5	380-385	nicht	_	_
+4-6	386-394	geringer	_	_
+4-7	395-399	Mühe	_	_
+4-8	400-406	Köhler	*	PERmentioned
+4-9	407-410	von	_	_
+4-10	411-420	Straßburg	*	PLACEmentioned
+4-11	421-430	losgeeist	_	_
+4-12	431-432	.	_	_
+
+#Text=Er wird am 24. abreisen direkt nach Athen , wo er am 2. November einzutreffen denkt .
+5-1	433-435	Er	_	_
+5-2	436-440	wird	_	_
+5-3	441-443	am	_	_
+5-4	444-447	24.	*[4]	DATEmentioned[4]
+5-5	448-456	abreisen	_	_
+5-6	457-463	direkt	_	_
+5-7	464-468	nach	_	_
+5-8	469-474	Athen	*	PLACEmentioned
+5-9	475-476	,	_	_
+5-10	477-479	wo	_	_
+5-11	480-482	er	_	_
+5-12	483-485	am	_	_
+5-13	486-488	2.	*[5]	DATEmentioned[5]
+5-14	489-497	November	*[5]	DATEmentioned[5]
+5-15	498-510	einzutreffen	_	_
+5-16	511-516	denkt	_	_
+5-17	517-518	.	_	_
+
+#Text=Den Bericht von Julius habe ich gestern mitgetheilt \; die Empfehlung für Zippener werden Sie in einem früheren Briefe erhalten haben \; auch die Zustimmung zur Betheiligung an der Accademia dei Lincei .
+6-1	519-522	Den	_	_
+6-2	523-530	Bericht	_	_
+6-3	531-534	von	_	_
+6-4	535-541	Julius	*	PERmentioned
+6-5	542-546	habe	_	_
+6-6	547-550	ich	_	_
+6-7	551-558	gestern	_	_
+6-8	559-570	mitgetheilt	_	_
+6-9	571-572	\;	_	_
+6-10	573-576	die	_	_
+6-11	577-587	Empfehlung	_	_
+6-12	588-591	für	_	_
+6-13	592-600	Zippener	*	PERmentioned
+6-14	601-607	werden	_	_
+6-15	608-611	Sie	_	_
+6-16	612-614	in	_	_
+6-17	615-620	einem	_	_
+6-18	621-629	früheren	_	_
+6-19	630-636	Briefe	_	_
+6-20	637-645	erhalten	_	_
+6-21	646-651	haben	_	_
+6-22	652-653	\;	_	_
+6-23	654-658	auch	_	_
+6-24	659-662	die	_	_
+6-25	663-673	Zustimmung	_	_
+6-26	674-677	zur	_	_
+6-27	678-690	Betheiligung	_	_
+6-28	691-693	an	_	_
+6-29	694-697	der	_	_
+6-30	698-707	Accademia	*[6]	ORGmentioned[6]
+6-31	708-711	dei	*[6]	ORGmentioned[6]
+6-32	712-718	Lincei	*[6]	ORGmentioned[6]
+6-33	719-720	.	_	_
+
+#Text=Ich hoffe , daß Ihnen die Ferien eine gründliche Erholung eingebracht haben werden .
+7-1	721-724	Ich	_	_
+7-2	725-730	hoffe	_	_
+7-3	731-732	,	_	_
+7-4	733-736	daß	_	_
+7-5	737-742	Ihnen	_	_
+7-6	743-746	die	_	_
+7-7	747-753	Ferien	_	_
+7-8	754-758	eine	_	_
+7-9	759-769	gründliche	_	_
+7-10	770-778	Erholung	_	_
+7-11	779-790	eingebracht	_	_
+7-12	791-796	haben	_	_
+7-13	797-803	werden	_	_
+7-14	804-805	.	_	_
+
+#Text=Erst seit wenigen Tagen bin auch ich hierher zurückgekehrt aus dem schönen Marienthal bei Eisenach .
+8-1	806-810	Erst	_	_
+8-2	811-815	seit	_	_
+8-3	816-823	wenigen	_	_
+8-4	824-829	Tagen	_	_
+8-5	830-833	bin	_	_
+8-6	834-838	auch	_	_
+8-7	839-842	ich	_	_
+8-8	843-850	hierher	_	_
+8-9	851-864	zurückgekehrt	_	_
+8-10	865-868	aus	_	_
+8-11	869-872	dem	_	_
+8-12	873-880	schönen	_	_
+8-13	881-891	Marienthal	*	PLACEmentioned
+8-14	892-895	bei	_	_
+8-15	896-904	Eisenach	*	PLACEmentioned
+8-16	905-906	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr ergebenster R Lepsius Quer quf der 4 .
+9-1	907-910	Mit	_	_
+9-2	911-921	herzlichem	_	_
+9-3	922-926	Gruß	_	_
+9-4	927-930	Ihr	_	_
+9-5	931-942	ergebenster	_	_
+9-6	943-944	R	*[7]	PERauthor[7]
+9-7	945-952	Lepsius	*[7]	PERauthor[7]
+9-8	953-957	Quer	_	_
+9-9	958-961	quf	_	_
+9-10	962-965	der	_	_
+9-11	966-967	4	_	_
+9-12	968-969	.	_	_
+
+#Text=Seite Ich bemerke noch , daß eine officielle Anzeige an Helbig vom Ausgang seines Antrags durch Herrn v. K nicht angezeigt war , auch jetzt nicht erfolgen wird , da
+10-1	970-975	Seite	_	_
+10-2	976-979	Ich	_	_
+10-3	980-987	bemerke	_	_
+10-4	988-992	noch	_	_
+10-5	993-994	,	_	_
+10-6	995-998	daß	_	_
+10-7	999-1003	eine	_	_
+10-8	1004-1014	officielle	_	_
+10-9	1015-1022	Anzeige	_	_
+10-10	1023-1025	an	_	_
+10-11	1026-1032	Helbig	*	PERmentioned
+10-12	1033-1036	vom	_	_
+10-13	1037-1044	Ausgang	_	_
+10-14	1045-1051	seines	_	_
+10-15	1052-1059	Antrags	_	_
+10-16	1060-1065	durch	_	_
+10-17	1066-1071	Herrn	_	_
+10-18	1072-1074	v.	*[8]	PERmentioned[8]
+10-19	1075-1076	K	*[8]	PERmentioned[8]
+10-20	1077-1082	nicht	_	_
+10-21	1083-1092	angezeigt	_	_
+10-22	1093-1096	war	_	_
+10-23	1097-1098	,	_	_
+10-24	1099-1103	auch	_	_
+10-25	1104-1109	jetzt	_	_
+10-26	1110-1115	nicht	_	_
+10-27	1116-1124	erfolgen	_	_
+10-28	1125-1129	wird	_	_
+10-29	1130-1131	,	_	_
+10-30	1132-1134	da	_	_

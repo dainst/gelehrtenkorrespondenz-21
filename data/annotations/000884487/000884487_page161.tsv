@@ -1,0 +1,139 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=T Gerhard an Braun .
+1-1	0-1	T	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-20	.	_	_
+
+#Text=Rom , 15. März 1837 Dem geehrten Wunsche des Instituts der archäologischen Correspondenz in Rom nachkommend , beehre ich mich Demselben im Namen der Königlichen Akademie der Wissenschaften hier selbst Ein Exemplar des Corpus Inscriptionum graccorum Vol . I Fasc .
+2-1	21-24	Rom	*	PLACEfrom
+2-2	25-26	,	_	_
+2-3	27-30	15.	*[4]	DATEletter[4]
+2-4	31-35	März	*[4]	DATEletter[4]
+2-5	36-40	1837	*[4]	DATEletter[4]
+2-6	41-44	Dem	_	_
+2-7	45-53	geehrten	_	_
+2-8	54-61	Wunsche	_	_
+2-9	62-65	des	_	_
+2-10	66-75	Instituts	*[5]	ORGmentioned[5]
+2-11	76-79	der	*[5]	ORGmentioned[5]
+2-12	80-95	archäologischen	*[5]	ORGmentioned[5]
+2-13	96-109	Correspondenz	*[5]	ORGmentioned[5]
+2-14	110-112	in	_	_
+2-15	113-116	Rom	*	PLACEmentioned
+2-16	117-128	nachkommend	_	_
+2-17	129-130	,	_	_
+2-18	131-137	beehre	_	_
+2-19	138-141	ich	_	_
+2-20	142-146	mich	_	_
+2-21	147-156	Demselben	_	_
+2-22	157-159	im	_	_
+2-23	160-165	Namen	_	_
+2-24	166-169	der	_	_
+2-25	170-181	Königlichen	*[7]	ORGmentioned[7]
+2-26	182-190	Akademie	*[7]	ORGmentioned[7]
+2-27	191-194	der	*[7]	ORGmentioned[7]
+2-28	195-209	Wissenschaften	*[7]	ORGmentioned[7]
+2-29	210-214	hier	_	_
+2-30	215-221	selbst	_	_
+2-31	222-225	Ein	_	_
+2-32	226-234	Exemplar	_	_
+2-33	235-238	des	_	_
+2-34	239-245	Corpus	_	_
+2-35	246-259	Inscriptionum	_	_
+2-36	260-269	graccorum	_	_
+2-37	270-273	Vol	_	_
+2-38	274-275	.	_	_
+2-39	276-277	I	_	_
+2-40	278-282	Fasc	_	_
+2-41	283-284	.	_	_
+
+#Text=1 - 3 und Vol . II Fasc .
+3-1	285-286	1	_	_
+3-2	287-288	-	_	_
+3-3	289-290	3	_	_
+3-4	291-294	und	_	_
+3-5	295-298	Vol	_	_
+3-6	299-300	.	_	_
+3-7	301-303	II	_	_
+3-8	304-308	Fasc	_	_
+3-9	309-310	.	_	_
+
+#Text=1. durch die Handlung der Herren Schenk und Gerstäcker ersebenst zu übersenden .
+4-1	311-313	1.	_	_
+4-2	314-319	durch	_	_
+4-3	320-323	die	_	_
+4-4	324-332	Handlung	_	_
+4-5	333-336	der	_	_
+4-6	337-343	Herren	_	_
+4-7	344-350	Schenk	*	PERmentioned
+4-8	351-354	und	_	_
+4-9	355-365	Gerstäcker	*	PERmentioned
+4-10	366-375	ersebenst	_	_
+4-11	376-378	zu	_	_
+4-12	379-389	übersenden	_	_
+4-13	390-391	.	_	_
+
+#Text=Berlin den 1.sten December 1834 Der vdkitzende Sekretär der Königlichen Akademie der Wissenschaften Böckh In contracambio di tanti favori della R. Accademia converrebbe completare le copie giaä inviatele delle opere deli'Instituto : del che , se credono i 85. colleghi , assumerö io l'incarico dopo il mio ritorno a Berlino , .
+5-1	392-398	Berlin	*	PLACEfrom
+5-2	399-402	den	_	_
+5-3	403-409	1.sten	*[11]	DATEletter[11]
+5-4	410-418	December	*[11]	DATEletter[11]
+5-5	419-423	1834	*[11]	DATEletter[11]
+5-6	424-427	Der	_	_
+5-7	428-438	vdkitzende	_	_
+5-8	439-447	Sekretär	_	_
+5-9	448-451	der	_	_
+5-10	452-463	Königlichen	*[12]	ORGmentioned[12]
+5-11	464-472	Akademie	*[12]	ORGmentioned[12]
+5-12	473-476	der	*[12]	ORGmentioned[12]
+5-13	477-491	Wissenschaften	*[12]	ORGmentioned[12]
+5-14	492-497	Böckh	*	PERmentioned
+5-15	498-500	In	_	_
+5-16	501-513	contracambio	_	_
+5-17	514-516	di	_	_
+5-18	517-522	tanti	_	_
+5-19	523-529	favori	_	_
+5-20	530-535	della	_	_
+5-21	536-538	R.	*[14]	ORGmentioned[14]
+5-22	539-548	Accademia	*[14]	ORGmentioned[14]
+5-23	549-560	converrebbe	_	_
+5-24	561-571	completare	_	_
+5-25	572-574	le	_	_
+5-26	575-580	copie	_	_
+5-27	581-585	giaä	_	_
+5-28	586-595	inviatele	_	_
+5-29	596-601	delle	_	_
+5-30	602-607	opere	_	_
+5-31	608-622	deli'Instituto	_	_
+5-32	623-624	:	_	_
+5-33	625-628	del	_	_
+5-34	629-632	che	_	_
+5-35	633-634	,	_	_
+5-36	635-637	se	_	_
+5-37	638-645	credono	_	_
+5-38	646-647	i	_	_
+5-39	648-651	85.	_	_
+5-40	652-660	colleghi	_	_
+5-41	661-662	,	_	_
+5-42	663-671	assumerö	_	_
+5-43	672-674	io	_	_
+5-44	675-685	l'incarico	_	_
+5-45	686-690	dopo	_	_
+5-46	691-693	il	_	_
+5-47	694-697	mio	_	_
+5-48	698-705	ritorno	_	_
+5-49	706-707	a	_	_
+5-50	708-715	Berlino	*	PLACEmentioned
+5-51	716-717	,	_	_
+5-52	718-719	.	_	_
+
+#Text=Gerhard Roma 15/3 37
+6-1	720-727	Gerhard	*	PERauthor
+6-2	728-732	Roma	*	PLACEfrom
+6-3	733-737	15/3	*[18]	DATEletter[18]
+6-4	738-740	37	*[18]	DATEletter[18]

@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Breslau 12/IX/1835 Dr. Braun Breslau 12 Sept .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-35	12/IX/1835	*	DATEletter
+1-6	36-39	Dr.	_	_
+1-7	40-45	Braun	*	PERaddressee
+1-8	46-53	Breslau	*	PLACEfrom
+1-9	54-56	12	*[7]	DATEletter[7]
+1-10	57-61	Sept	*[7]	DATEletter[7]
+1-11	62-63	.	*[7]	DATEletter[7]
+
+#Text=35 Von Bonn her 1 .
+2-1	64-66	35	*[7]	DATEletter[7]
+2-2	67-70	Von	_	_
+2-3	71-75	Bonn	*	PLACEmentioned
+2-4	76-79	her	_	_
+2-5	80-81	1	_	_
+2-6	82-83	.	_	_
+
+#Text=Fr. liegt ein Blatt für Sie bereit , welches durch die unter zu gelegentlicher Beförderung aufgehobnen Notizen für Sie bestimmt ist .
+3-1	84-87	Fr.	_	_
+3-2	88-93	liegt	_	_
+3-3	94-97	ein	_	_
+3-4	98-103	Blatt	_	_
+3-5	104-107	für	_	_
+3-6	108-111	Sie	_	_
+3-7	112-118	bereit	_	_
+3-8	119-120	,	_	_
+3-9	121-128	welches	_	_
+3-10	129-134	durch	_	_
+3-11	135-138	die	_	_
+3-12	139-144	unter	_	_
+3-13	145-147	zu	_	_
+3-14	148-162	gelegentlicher	_	_
+3-15	163-174	Beförderung	_	_
+3-16	175-186	aufgehobnen	_	_
+3-17	187-194	Notizen	_	_
+3-18	195-198	für	_	_
+3-19	199-202	Sie	_	_
+3-20	203-211	bestimmt	_	_
+3-21	212-215	ist	_	_
+3-22	216-217	.	_	_
+
+#Text=Hier hatte ich auf Briefe von Ihnen gerechnet , und da keine da sind melde ich mich dennoch bei Ihnen .
+4-1	218-222	Hier	_	_
+4-2	223-228	hatte	_	_
+4-3	229-232	ich	_	_
+4-4	233-236	auf	_	_
+4-5	237-243	Briefe	_	_
+4-6	244-247	von	_	_
+4-7	248-253	Ihnen	_	_
+4-8	254-263	gerechnet	_	_
+4-9	264-265	,	_	_
+4-10	266-269	und	_	_
+4-11	270-272	da	_	_
+4-12	273-278	keine	_	_
+4-13	279-281	da	_	_
+4-14	282-286	sind	_	_
+4-15	287-292	melde	_	_
+4-16	293-296	ich	_	_
+4-17	297-301	mich	_	_
+4-18	302-309	dennoch	_	_
+4-19	310-313	bei	_	_
+4-20	314-319	Ihnen	_	_
+4-21	320-321	.	_	_
+
+#Text=München und Dresden wurden seitdem bereist \; Sie erfahren allerlei Nachträgliches bei geringer ELl£ \_ als die heutige ist .
+5-1	322-329	München	*	PLACEmentioned
+5-2	330-333	und	_	_
+5-3	334-341	Dresden	*	PLACEmentioned
+5-4	342-348	wurden	_	_
+5-5	349-356	seitdem	_	_
+5-6	357-364	bereist	_	_
+5-7	365-366	\;	_	_
+5-8	367-370	Sie	_	_
+5-9	371-379	erfahren	_	_
+5-10	380-388	allerlei	_	_
+5-11	389-403	Nachträgliches	_	_
+5-12	404-407	bei	_	_
+5-13	408-416	geringer	_	_
+5-14	417-421	ELl£	_	_
+5-15	422-423	\_	_	_
+5-16	424-427	als	_	_
+5-17	428-431	die	_	_
+5-18	432-439	heutige	_	_
+5-19	440-443	ist	_	_
+5-20	444-445	.	_	_
+
+#Text=Heute hauptsächlich die Nachricht daß meine Reise auf die Neige geht \; am 20.sten denke ich zurück zu seyn in Berlin .
+6-1	446-451	Heute	_	_
+6-2	452-465	hauptsächlich	_	_
+6-3	466-469	die	_	_
+6-4	470-479	Nachricht	_	_
+6-5	480-483	daß	_	_
+6-6	484-489	meine	_	_
+6-7	490-495	Reise	_	_
+6-8	496-499	auf	_	_
+6-9	500-503	die	_	_
+6-10	504-509	Neige	_	_
+6-11	510-514	geht	_	_
+6-12	515-516	\;	_	_
+6-13	517-519	am	_	_
+6-14	520-527	20.sten	*	DATEmentioned
+6-15	528-533	denke	_	_
+6-16	534-537	ich	_	_
+6-17	538-544	zurück	_	_
+6-18	545-547	zu	_	_
+6-19	548-552	seyn	_	_
+6-20	553-555	in	_	_
+6-21	556-562	Berlin	*	PLACEmentioned
+6-22	563-564	.	_	_
+
+#Text=ac Welche Nachrichten empfingen mich in Desdren .
+7-1	565-567	ac	_	_
+7-2	568-574	Welche	_	_
+7-3	575-586	Nachrichten	_	_
+7-4	587-596	empfingen	_	_
+7-5	597-601	mich	_	_
+7-6	602-604	in	_	_
+7-7	605-612	Desdren	*	PLACEmentioned
+7-8	613-614	.	_	_
+
+#Text=Stkelbergs Gesundheit und Geisteszustand war so zerrüttet , daß er die Gesellschaften in mitleidwürdiger Schattenbildung von seinen Freunden nach Rußland endlich wirklich abzugeisen wizekl3eh genöthigt wurde .
+8-1	615-625	Stkelbergs	*	PERmentioned
+8-2	626-636	Gesundheit	_	_
+8-3	637-640	und	_	_
+8-4	641-655	Geisteszustand	_	_
+8-5	656-659	war	_	_
+8-6	660-662	so	_	_
+8-7	663-672	zerrüttet	_	_
+8-8	673-674	,	_	_
+8-9	675-678	daß	_	_
+8-10	679-681	er	_	_
+8-11	682-685	die	_	_
+8-12	686-700	Gesellschaften	_	_
+8-13	701-703	in	_	_
+8-14	704-719	mitleidwürdiger	_	_
+8-15	720-735	Schattenbildung	_	_
+8-16	736-739	von	_	_
+8-17	740-746	seinen	_	_
+8-18	747-755	Freunden	_	_
+8-19	756-760	nach	_	_
+8-20	761-768	Rußland	*	PLACEmentioned
+8-21	769-776	endlich	_	_
+8-22	777-785	wirklich	_	_
+8-23	786-796	abzugeisen	_	_
+8-24	797-806	wizekl3eh	_	_
+8-25	807-816	genöthigt	_	_
+8-26	817-822	wurde	_	_
+8-27	823-824	.	_	_
+
+#Text=Ich betrachte sein litterarisches Leben für abgeschlossen \; für seine Yıum - kommen werden , wenn es so bleiben sollte , 2 und ich sorgen .
+9-1	825-828	Ich	_	_
+9-2	829-838	betrachte	_	_
+9-3	839-843	sein	_	_
+9-4	844-858	litterarisches	_	_
+9-5	859-864	Leben	_	_
+9-6	865-868	für	_	_
+9-7	869-882	abgeschlossen	_	_
+9-8	883-884	\;	_	_
+9-9	885-888	für	_	_
+9-10	889-894	seine	_	_
+9-11	895-899	Yıum	_	_
+9-12	900-901	-	_	_
+9-13	902-908	kommen	_	_
+9-14	909-915	werden	_	_
+9-15	916-917	,	_	_
+9-16	918-922	wenn	_	_
+9-17	923-925	es	_	_
+9-18	926-928	so	_	_
+9-19	929-936	bleiben	_	_
+9-20	937-943	sollte	_	_
+9-21	944-945	,	_	_
+9-22	946-947	2	_	_
+9-23	948-951	und	_	_
+9-24	952-955	ich	_	_
+9-25	956-962	sorgen	_	_
+9-26	963-964	.	_	_
+
+#Text=ut Lauda Aula habe ich wohl auf denBeden gefunen , 7 \\ den \; \\ und .enze waren abwesend .
+10-1	965-967	ut	_	_
+10-2	968-973	Lauda	_	_
+10-3	974-978	Aula	_	_
+10-4	979-983	habe	_	_
+10-5	984-987	ich	_	_
+10-6	988-992	wohl	_	_
+10-7	993-996	auf	_	_
+10-8	997-1005	denBeden	_	_
+10-9	1006-1013	gefunen	_	_
+10-10	1014-1015	,	_	_
+10-11	1016-1017	7	_	_
+10-12	1018-1019	\\	_	_
+10-13	1020-1023	den	_	_
+10-14	1024-1025	\;	_	_
+10-15	1026-1027	\\	_	_
+10-16	1028-1031	und	_	_
+10-17	1032-1037	.enze	_	_
+10-18	1038-1043	waren	_	_
+10-19	1044-1052	abwesend	_	_
+10-20	1053-1054	.	_	_
+
+#Text=Nach Ihnen bin ich vielfach gefragt worden \; ich habe nur Erfreuliches erzählen können .
+11-1	1055-1059	Nach	_	_
+11-2	1060-1065	Ihnen	_	_
+11-3	1066-1069	bin	_	_
+11-4	1070-1073	ich	_	_
+11-5	1074-1082	vielfach	_	_
+11-6	1083-1090	gefragt	_	_
+11-7	1091-1097	worden	_	_
+11-8	1098-1099	\;	_	_
+11-9	1100-1103	ich	_	_
+11-10	1104-1108	habe	_	_
+11-11	1109-1112	nur	_	_
+11-12	1113-1125	Erfreuliches	_	_
+11-13	1126-1134	erzählen	_	_
+11-14	1135-1141	können	_	_
+11-15	1142-1143	.	_	_

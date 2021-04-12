@@ -1,0 +1,134 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=221 Braun an Gerhard Rom , 17. Februar 1838 auch Sie um Verzeihung bitten .
+1-1	0-3	221	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	17.	*[4]	DATEletter[4]
+1-8	31-38	Februar	*[4]	DATEletter[4]
+1-9	39-43	1838	*[4]	DATEletter[4]
+1-10	44-48	auch	_	_
+1-11	49-52	Sie	_	_
+1-12	53-55	um	_	_
+1-13	56-66	Verzeihung	_	_
+1-14	67-73	bitten	_	_
+1-15	74-75	.	_	_
+
+#Text=Heute habe ich ( an dem ersten Tage des ( Carneval ) Vorlesungen gehalten und jetzt muß ich den ganzen Tag bei dem ersten schönen Wetter sitzen und Briefe schreiben .
+2-1	76-81	Heute	_	_
+2-2	82-86	habe	_	_
+2-3	87-90	ich	_	_
+2-4	91-92	(	_	_
+2-5	93-95	an	_	_
+2-6	96-99	dem	_	_
+2-7	100-106	ersten	_	_
+2-8	107-111	Tage	_	_
+2-9	112-115	des	_	_
+2-10	116-117	(	_	_
+2-11	118-126	Carneval	_	_
+2-12	127-128	)	_	_
+2-13	129-140	Vorlesungen	_	_
+2-14	141-149	gehalten	_	_
+2-15	150-153	und	_	_
+2-16	154-159	jetzt	_	_
+2-17	160-163	muß	_	_
+2-18	164-167	ich	_	_
+2-19	168-171	den	_	_
+2-20	172-178	ganzen	_	_
+2-21	179-182	Tag	_	_
+2-22	183-186	bei	_	_
+2-23	187-190	dem	_	_
+2-24	191-197	ersten	_	_
+2-25	198-205	schönen	_	_
+2-26	206-212	Wetter	_	_
+2-27	213-219	sitzen	_	_
+2-28	220-223	und	_	_
+2-29	224-230	Briefe	_	_
+2-30	231-240	schreiben	_	_
+2-31	241-242	.	_	_
+
+#Text=Auch bitter !
+3-1	243-247	Auch	_	_
+3-2	248-254	bitter	_	_
+3-3	255-256	!	_	_
+
+#Text=Ma pare ci vuol pazienza \| !
+4-1	257-259	Ma	_	_
+4-2	260-264	pare	_	_
+4-3	265-267	ci	_	_
+4-4	268-272	vuol	_	_
+4-5	273-281	pazienza	_	_
+4-6	282-283	\|	_	_
+4-7	284-285	!	_	_
+
+#Text=Vermiglioli wünscht biographische data über Unden .
+5-1	286-297	Vermiglioli	*	PERmentioned
+5-2	298-305	wünscht	_	_
+5-3	306-319	biographische	_	_
+5-4	320-324	data	_	_
+5-5	325-329	über	_	_
+5-6	330-335	Unden	*	PERmentioned
+5-7	336-337	.	_	_
+
+#Text=Marcus wünscht 2 Exemplare Memorie 1 - 3. die Sie ihm vom Berliner Deposito zukommen lassen könnten , indem wir keine mehr haben .
+6-1	338-344	Marcus	*	PERmentioned
+6-2	345-352	wünscht	_	_
+6-3	353-354	2	_	_
+6-4	355-364	Exemplare	_	_
+6-5	365-372	Memorie	_	_
+6-6	373-374	1	_	_
+6-7	375-376	-	_	_
+6-8	377-379	3.	_	_
+6-9	380-383	die	_	_
+6-10	384-387	Sie	_	_
+6-11	388-391	ihm	_	_
+6-12	392-395	vom	_	_
+6-13	396-404	Berliner	*	PLACEmentioned
+6-14	405-413	Deposito	_	_
+6-15	414-422	zukommen	_	_
+6-16	423-429	lassen	_	_
+6-17	430-437	könnten	_	_
+6-18	438-439	,	_	_
+6-19	440-445	indem	_	_
+6-20	446-449	wir	_	_
+6-21	450-455	keine	_	_
+6-22	456-460	mehr	_	_
+6-23	461-466	haben	_	_
+6-24	467-468	.	_	_
+
+#Text=Die heutige Post hat nichts gebracht .
+7-1	469-472	Die	_	_
+7-2	473-480	heutige	_	_
+7-3	481-485	Post	_	_
+7-4	486-489	hat	_	_
+7-5	490-496	nichts	_	_
+7-6	497-505	gebracht	_	_
+7-7	506-507	.	_	_
+
+#Text=Ihr EBraun .
+8-1	508-511	Ihr	_	_
+8-2	512-518	EBraun	*	PERauthor
+8-3	519-520	.	_	_
+
+#Text=Vollard 's Frau ist 3 Wochen lang krank gewesen , ist aber wieder außer Bett .
+9-1	521-528	Vollard	*[5]	PERmentioned[5]
+9-2	529-531	's	*[5]	PERmentioned[5]
+9-3	532-536	Frau	_	_
+9-4	537-540	ist	_	_
+9-5	541-542	3	_	_
+9-6	543-549	Wochen	_	_
+9-7	550-554	lang	_	_
+9-8	555-560	krank	_	_
+9-9	561-568	gewesen	_	_
+9-10	569-570	,	_	_
+9-11	571-574	ist	_	_
+9-12	575-579	aber	_	_
+9-13	580-586	wieder	_	_
+9-14	587-592	außer	_	_
+9-15	593-597	Bett	_	_
+9-16	598-599	.	_	_

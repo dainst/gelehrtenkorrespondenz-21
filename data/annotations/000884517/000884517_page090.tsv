@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2 .
+1-1	0-1	2	_	_
+1-2	2-3	.	_	_
+
+#Text=Gerhard an Braun Berlin , 24. Dezember 1844 A. dd .
+2-1	4-11	Gerhard	*	PERauthor
+2-2	12-14	an	_	_
+2-3	15-20	Braun	*	PERaddressee
+2-4	21-27	Berlin	*	PLACEfrom
+2-5	28-29	,	_	_
+2-6	30-33	24.	*[1]	DATEletter[1]
+2-7	34-42	Dezember	*[1]	DATEletter[1]
+2-8	43-47	1844	*[1]	DATEletter[1]
+2-9	48-50	A.	_	_
+2-10	51-53	dd	_	_
+2-11	54-55	.	_	_
+
+#Text=Dir .
+3-1	56-59	Dir	_	_
+3-2	60-61	.	_	_
+
+#Text=g . 4/I 45 r . 6/I 45 Dr. Braun Berlin 24 Dec 44 Ihr soeben angelangtes war nur erwartet worden um Ihnen zu schreiben .
+4-1	62-63	g	_	_
+4-2	64-65	.	_	_
+4-3	66-69	4/I	*[2]	DATErecieved[2]
+4-4	70-72	45	*[2]	DATErecieved[2]
+4-5	73-74	r	_	_
+4-6	75-76	.	_	_
+4-7	77-80	6/I	*[3]	DATEanswered[3]
+4-8	81-83	45	*[3]	DATEanswered[3]
+4-9	84-87	Dr.	*[4]	PERaddressee[4]
+4-10	88-93	Braun	*[4]	PERaddressee[4]
+4-11	94-100	Berlin	*	PLACEfrom
+4-12	101-103	24	*[5]	DATEletter[5]
+4-13	104-107	Dec	*[5]	DATEletter[5]
+4-14	108-110	44	*[5]	DATEletter[5]
+4-15	111-114	Ihr	_	_
+4-16	115-121	soeben	_	_
+4-17	122-133	angelangtes	_	_
+4-18	134-137	war	_	_
+4-19	138-141	nur	_	_
+4-20	142-150	erwartet	_	_
+4-21	151-157	worden	_	_
+4-22	158-160	um	_	_
+4-23	161-166	Ihnen	_	_
+4-24	167-169	zu	_	_
+4-25	170-179	schreiben	_	_
+4-26	180-181	.	_	_
+
+#Text=In Besorgung der Diplome stört mich mehreres .
+5-1	182-184	In	_	_
+5-2	185-194	Besorgung	_	_
+5-3	195-198	der	_	_
+5-4	199-206	Diplome	_	_
+5-5	207-212	stört	_	_
+5-6	213-217	mich	_	_
+5-7	218-226	mehreres	_	_
+5-8	227-228	.	_	_
+
+#Text=Ich lasse jetzt neue abziehen die Bunsen unterzeichnen mag , wenn sie nicht in den Schlund fallen \; dann ist Wagner an Thorwaldsen 's Stelle unterzeichnet .
+6-1	229-232	Ich	_	_
+6-2	233-238	lasse	_	_
+6-3	239-244	jetzt	_	_
+6-4	245-249	neue	_	_
+6-5	250-258	abziehen	_	_
+6-6	259-262	die	_	_
+6-7	263-269	Bunsen	*	PERmentioned
+6-8	270-283	unterzeichnen	_	_
+6-9	284-287	mag	_	_
+6-10	288-289	,	_	_
+6-11	290-294	wenn	_	_
+6-12	295-298	sie	_	_
+6-13	299-304	nicht	_	_
+6-14	305-307	in	_	_
+6-15	308-311	den	_	_
+6-16	312-319	Schlund	_	_
+6-17	320-326	fallen	_	_
+6-18	327-328	\;	_	_
+6-19	329-333	dann	_	_
+6-20	334-337	ist	_	_
+6-21	338-344	Wagner	*	PERmentioned
+6-22	345-347	an	_	_
+6-23	348-359	Thorwaldsen	*[7]	PERmentioned[7]
+6-24	360-362	's	*[7]	PERmentioned[7]
+6-25	363-369	Stelle	_	_
+6-26	370-383	unterzeichnet	_	_
+6-27	384-385	.	_	_
+
+#Text=Um aber dieselben gebrauchen zu können ist es erforderlich daß Wagner 's Ernennung zum Membro onorario della Direzione datiert vom 21 April d. J. förmlich abgemacht sei .
+7-1	386-388	Um	_	_
+7-2	389-393	aber	_	_
+7-3	394-403	dieselben	_	_
+7-4	404-414	gebrauchen	_	_
+7-5	415-417	zu	_	_
+7-6	418-424	können	_	_
+7-7	425-428	ist	_	_
+7-8	429-431	es	_	_
+7-9	432-444	erforderlich	_	_
+7-10	445-448	daß	_	_
+7-11	449-455	Wagner	*[8]	PERmentioned[8]
+7-12	456-458	's	*[8]	PERmentioned[8]
+7-13	459-468	Ernennung	_	_
+7-14	469-472	zum	_	_
+7-15	473-479	Membro	_	_
+7-16	480-488	onorario	_	_
+7-17	489-494	della	_	_
+7-18	495-504	Direzione	_	_
+7-19	505-512	datiert	_	_
+7-20	513-516	vom	_	_
+7-21	517-519	21	*[6]	DATEmentioned[6]
+7-22	520-525	April	*[6]	DATEmentioned[6]
+7-23	526-528	d.	*[6]	DATEmentioned[6]
+7-24	529-531	J.	*[6]	DATEmentioned[6]
+7-25	532-540	förmlich	_	_
+7-26	541-550	abgemacht	_	_
+7-27	551-554	sei	_	_
+7-28	555-556	.	_	_
+
+#Text=Ist das noch nicht geschehen , so muß ein förmliches von Kestner signiert an ihn ergehen und von ihm beantwortet sein \; ich setze voraus daß dies sofort geschehe , und versorge in dieser Voraussetzung Gilles , Beeskow und andere baldisst .
+8-1	557-560	Ist	_	_
+8-2	561-564	das	_	_
+8-3	565-569	noch	_	_
+8-4	570-575	nicht	_	_
+8-5	576-585	geschehen	_	_
+8-6	586-587	,	_	_
+8-7	588-590	so	_	_
+8-8	591-594	muß	_	_
+8-9	595-598	ein	_	_
+8-10	599-609	förmliches	_	_
+8-11	610-613	von	_	_
+8-12	614-621	Kestner	*	PERmentioned
+8-13	622-630	signiert	_	_
+8-14	631-633	an	_	_
+8-15	634-637	ihn	_	_
+8-16	638-645	ergehen	_	_
+8-17	646-649	und	_	_
+8-18	650-653	von	_	_
+8-19	654-657	ihm	_	_
+8-20	658-669	beantwortet	_	_
+8-21	670-674	sein	_	_
+8-22	675-676	\;	_	_
+8-23	677-680	ich	_	_
+8-24	681-686	setze	_	_
+8-25	687-693	voraus	_	_
+8-26	694-697	daß	_	_
+8-27	698-702	dies	_	_
+8-28	703-709	sofort	_	_
+8-29	710-718	geschehe	_	_
+8-30	719-720	,	_	_
+8-31	721-724	und	_	_
+8-32	725-733	versorge	_	_
+8-33	734-736	in	_	_
+8-34	737-743	dieser	_	_
+8-35	744-757	Voraussetzung	_	_
+8-36	758-764	Gilles	*	PERmentioned
+8-37	765-766	,	_	_
+8-38	767-774	Beeskow	*	PERmentioned
+8-39	775-778	und	_	_
+8-40	779-785	andere	_	_
+8-41	786-794	baldisst	_	_
+8-42	795-796	.	_	_
+
+#Text=Wenn Beeskow kein notorischer Sammler ist , so kann man ihn nur zum Korrespondenten machen .
+9-1	797-801	Wenn	_	_
+9-2	802-809	Beeskow	*	PERmentioned
+9-3	810-814	kein	_	_
+9-4	815-826	notorischer	_	_
+9-5	827-834	Sammler	_	_
+9-6	835-838	ist	_	_
+9-7	839-840	,	_	_
+9-8	841-843	so	_	_
+9-9	844-848	kann	_	_
+9-10	849-852	man	_	_
+9-11	853-856	ihn	_	_
+9-12	857-860	nur	_	_
+9-13	861-864	zum	_	_
+9-14	865-880	Korrespondenten	_	_
+9-15	881-887	machen	_	_
+9-16	888-889	.	_	_
+
+#Text=Weiß aber Kestner ihn als Mäcen nachzuweisen so ist es uns für einen Hofmarschall angenehmer .
+10-1	890-894	Weiß	_	_
+10-2	895-899	aber	_	_
+10-3	900-907	Kestner	*	PERmentioned
+10-4	908-911	ihn	_	_
+10-5	912-915	als	_	_
+10-6	916-921	Mäcen	_	_
+10-7	922-934	nachzuweisen	_	_
+10-8	935-937	so	_	_
+10-9	938-941	ist	_	_
+10-10	942-944	es	_	_
+10-11	945-948	uns	_	_
+10-12	949-952	für	_	_
+10-13	953-958	einen	_	_
+10-14	959-971	Hofmarschall	_	_
+10-15	972-982	angenehmer	_	_
+10-16	983-984	.	_	_
+
+#Text=Ich werde diese Sache rasch besorgen \; etwas aber können Sie Auctor Fogelberg hierauf noch antworten .
+11-1	985-988	Ich	_	_
+11-2	989-994	werde	_	_
+11-3	995-1000	diese	_	_
+11-4	1001-1006	Sache	_	_
+11-5	1007-1012	rasch	_	_
+11-6	1013-1021	besorgen	_	_
+11-7	1022-1023	\;	_	_
+11-8	1024-1029	etwas	_	_
+11-9	1030-1034	aber	_	_
+11-10	1035-1041	können	_	_
+11-11	1042-1045	Sie	_	_
+11-12	1046-1052	Auctor	_	_
+11-13	1053-1062	Fogelberg	*	PERmentioned
+11-14	1063-1070	hierauf	_	_
+11-15	1071-1075	noch	_	_
+11-16	1076-1085	antworten	_	_
+11-17	1086-1087	.	_	_
+
+#Text=Unsere Akademie für die frazösische Episraphik zu interessiren fehlt mir jeder Anknüpfungspunkt \; Bor-
+12-1	1088-1094	Unsere	_	_
+12-2	1095-1103	Akademie	*	ORGmentioned
+12-3	1104-1107	für	_	_
+12-4	1108-1111	die	_	_
+12-5	1112-1123	frazösische	_	_
+12-6	1124-1134	Episraphik	_	_
+12-7	1135-1137	zu	_	_
+12-8	1138-1150	interessiren	_	_
+12-9	1151-1156	fehlt	_	_
+12-10	1157-1160	mir	_	_
+12-11	1161-1166	jeder	_	_
+12-12	1167-1183	Anknüpfungspunkt	_	_
+12-13	1184-1185	\;	_	_
+12-14	1186-1190	Bor-	*	PERmentioned

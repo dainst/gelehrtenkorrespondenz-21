@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Momnsen an Brunn Berlin , 30 .
+1-1	0-7	Momnsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	30	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1858 Es käme darauf an die Masse der Inschriften festzustellen in Beziehung auf aus vorhandenen Mauerreste und wo möglich zu ermitteln , welchen Theil der Mauern die beiden Municipalcensoren vorfanden und welchen sie erbauten .
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-43	1858	*[1]	DATEletter[1]
+2-3	44-46	Es	_	_
+2-4	47-51	käme	_	_
+2-5	52-58	darauf	_	_
+2-6	59-61	an	_	_
+2-7	62-65	die	_	_
+2-8	66-71	Masse	_	_
+2-9	72-75	der	_	_
+2-10	76-87	Inschriften	*	OBJ
+2-11	88-101	festzustellen	_	_
+2-12	102-104	in	_	_
+2-13	105-114	Beziehung	_	_
+2-14	115-118	auf	_	_
+2-15	119-122	aus	_	_
+2-16	123-134	vorhandenen	_	_
+2-17	135-145	Mauerreste	*	OBJ
+2-18	146-149	und	_	_
+2-19	150-152	wo	_	_
+2-20	153-160	möglich	_	_
+2-21	161-163	zu	_	_
+2-22	164-173	ermitteln	_	_
+2-23	174-175	,	_	_
+2-24	176-183	welchen	_	_
+2-25	184-189	Theil	_	_
+2-26	190-193	der	_	_
+2-27	194-200	Mauern	*	OBJ
+2-28	201-204	die	_	_
+2-29	205-211	beiden	_	_
+2-30	212-229	Municipalcensoren	_	_
+2-31	230-239	vorfanden	_	_
+2-32	240-243	und	_	_
+2-33	244-251	welchen	_	_
+2-34	252-255	sie	_	_
+2-35	256-264	erbauten	_	_
+2-36	265-266	.	_	_
+
+#Text=Könntest Du gleich lateinisch schreiben , wäre es mir lieb \; Nachputzen will ich schon , aber die Kunstausdrücke sind mir nicht geläufig .
+3-1	267-275	Könntest	_	_
+3-2	276-278	Du	_	_
+3-3	279-285	gleich	_	_
+3-4	286-296	lateinisch	_	_
+3-5	297-306	schreiben	_	_
+3-6	307-308	,	_	_
+3-7	309-313	wäre	_	_
+3-8	314-316	es	_	_
+3-9	317-320	mir	_	_
+3-10	321-325	lieb	_	_
+3-11	326-327	\;	_	_
+3-12	328-338	Nachputzen	_	_
+3-13	339-343	will	_	_
+3-14	344-347	ich	_	_
+3-15	348-353	schon	_	_
+3-16	354-355	,	_	_
+3-17	356-360	aber	_	_
+3-18	361-364	die	_	_
+3-19	365-379	Kunstausdrücke	_	_
+3-20	380-384	sind	_	_
+3-21	385-388	mir	_	_
+3-22	389-394	nicht	_	_
+3-23	395-403	geläufig	_	_
+3-24	404-405	.	_	_
+
+#Text=Du hast vor Zeiten ein Secchisches Gefäß an Ritschl mitgetheilt , mit der Aufschrift COERAE POCOLO Der Grund davon zu schweigen ist doch jetzt weggefallen ?
+4-1	406-408	Du	_	_
+4-2	409-413	hast	_	_
+4-3	414-417	vor	_	_
+4-4	418-424	Zeiten	_	_
+4-5	425-428	ein	_	_
+4-6	429-440	Secchisches	*[2]	OBJ[2]
+4-7	441-446	Gefäß	*[2]	OBJ[2]
+4-8	447-449	an	_	_
+4-9	450-457	Ritschl	*	PERmentioned
+4-10	458-469	mitgetheilt	_	_
+4-11	470-471	,	_	_
+4-12	472-475	mit	_	_
+4-13	476-479	der	_	_
+4-14	480-490	Aufschrift	_	_
+4-15	491-497	COERAE	_	_
+4-16	498-504	POCOLO	_	_
+4-17	505-508	Der	_	_
+4-18	509-514	Grund	_	_
+4-19	515-520	davon	_	_
+4-20	521-523	zu	_	_
+4-21	524-533	schweigen	_	_
+4-22	534-537	ist	_	_
+4-23	538-542	doch	_	_
+4-24	543-548	jetzt	_	_
+4-25	549-560	weggefallen	_	_
+4-26	561-562	?	_	_
+
+#Text=Ich hätte gern genaue Abschrift und Notizen über die bildliche Verzierung und Fund= und Aufbewahrungsort .
+5-1	563-566	Ich	_	_
+5-2	567-572	hätte	_	_
+5-3	573-577	gern	_	_
+5-4	578-584	genaue	_	_
+5-5	585-594	Abschrift	_	_
+5-6	595-598	und	_	_
+5-7	599-606	Notizen	_	_
+5-8	607-611	über	_	_
+5-9	612-615	die	_	_
+5-10	616-625	bildliche	_	_
+5-11	626-636	Verzierung	_	_
+5-12	637-640	und	_	_
+5-13	641-646	Fund=	_	_
+5-14	647-650	und	_	_
+5-15	651-667	Aufbewahrungsort	_	_
+5-16	668-669	.	_	_
+
+#Text=Dies eilt .
+6-1	670-674	Dies	_	_
+6-2	675-679	eilt	_	_
+6-3	680-681	.	_	_
+
+#Text=Wo ferner ist SANTVRNI POCOLOM ( mus .
+7-1	682-684	Wo	_	_
+7-2	685-691	ferner	_	_
+7-3	692-695	ist	_	_
+7-4	696-704	SANTVRNI	_	_
+7-5	705-712	POCOLOM	_	_
+7-6	713-714	(	_	_
+7-7	715-718	mus	*[3]	ORGmentioned[3]
+7-8	719-720	.	*[3]	ORGmentioned[3]
+
+#Text=Camp . )
+8-1	721-725	Camp	*[3]	ORGmentioned[3]
+8-2	726-727	.	_	_
+8-3	728-729	)	_	_
+
+#Text=gefunden ?
+9-1	730-738	gefunden	_	_
+9-2	739-740	?	_	_
+
+#Text=Auch fehlt die Beschreibung .
+10-1	741-745	Auch	_	_
+10-2	746-751	fehlt	_	_
+10-3	752-755	die	_	_
+10-4	756-768	Beschreibung	_	_
+10-5	769-770	.	_	_
+
+#Text=Schwarzer Thon ?
+11-1	771-780	Schwarzer	_	_
+11-2	781-785	Thon	_	_
+11-3	786-787	?	_	_
+
+#Text=Schließlich möchte ich Dich überhaupt die monumenta litterata in Bezug auf Material , Fabrik u. dgl .
+12-1	788-799	Schließlich	_	_
+12-2	800-806	möchte	_	_
+12-3	807-810	ich	_	_
+12-4	811-815	Dich	_	_
+12-5	816-825	überhaupt	_	_
+12-6	826-829	die	_	_
+12-7	830-839	monumenta	_	_
+12-8	840-849	litterata	_	_
+12-9	850-852	in	_	_
+12-10	853-858	Bezug	_	_
+12-11	859-862	auf	_	_
+12-12	863-871	Material	_	_
+12-13	872-873	,	_	_
+12-14	874-880	Fabrik	_	_
+12-15	881-883	u.	_	_
+12-16	884-887	dgl	_	_
+12-17	888-889	.	_	_
+
+#Text=in Gedanken durchznehmen und das zu übertragen , was aus Deiner Wissenschaft , namentlich für chronologische Fixirung derselben , sich beitragen läßt .
+13-1	890-892	in	_	_
+13-2	893-901	Gedanken	_	_
+13-3	902-914	durchznehmen	_	_
+13-4	915-918	und	_	_
+13-5	919-922	das	_	_
+13-6	923-925	zu	_	_
+13-7	926-936	übertragen	_	_
+13-8	937-938	,	_	_
+13-9	939-942	was	_	_
+13-10	943-946	aus	_	_
+13-11	947-953	Deiner	_	_
+13-12	954-966	Wissenschaft	_	_
+13-13	967-968	,	_	_
+13-14	969-979	namentlich	_	_
+13-15	980-983	für	_	_
+13-16	984-998	chronologische	_	_
+13-17	999-1007	Fixirung	_	_
+13-18	1008-1017	derselben	_	_
+13-19	1018-1019	,	_	_
+13-20	1020-1024	sich	_	_
+13-21	1025-1034	beitragen	_	_
+13-22	1035-1039	läßt	_	_
+13-23	1040-1041	.	_	_
+
+#Text=Läßt sich zum Beispiel einigermaßen feststallen , wann Travertin an die Stelle von Peprin trat ?
+14-1	1042-1046	Läßt	_	_
+14-2	1047-1051	sich	_	_
+14-3	1052-1055	zum	_	_
+14-4	1056-1064	Beispiel	_	_
+14-5	1065-1077	einigermaßen	_	_
+14-6	1078-1089	feststallen	_	_
+14-7	1090-1091	,	_	_
+14-8	1092-1096	wann	_	_
+14-9	1097-1106	Travertin	_	_
+14-10	1107-1109	an	_	_
+14-11	1110-1113	die	_	_
+14-12	1114-1120	Stelle	_	_
+14-13	1121-1124	von	_	_
+14-14	1125-1131	Peprin	_	_
+14-15	1132-1136	trat	_	_
+14-16	1137-1138	?	_	_
+
+#Text=Das wäre wichtig für den Stein der Paulla Cornelia palli .
+15-1	1139-1142	Das	_	_
+15-2	1143-1147	wäre	_	_
+15-3	1148-1155	wichtig	_	_
+15-4	1156-1159	für	_	_
+15-5	1160-1163	den	_	_
+15-6	1164-1169	Stein	*[4]	OBJ[4]
+15-7	1170-1173	der	*[4]	OBJ[4]
+15-8	1174-1180	Paulla	*[4]	OBJ[4]
+15-9	1181-1189	Cornelia	*[4]	OBJ[4]
+15-10	1190-1195	palli	*[4]	OBJ[4]
+15-11	1196-1197	.	_	_

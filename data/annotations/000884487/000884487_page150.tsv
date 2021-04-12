@@ -1,0 +1,116 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Ohne Datun Dr. Braun Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datun	_	_
+1-6	28-31	Dr.	_	_
+1-7	32-37	Braun	*	PERaddressee
+1-8	38-41	Dir	_	_
+1-9	42-43	.	_	_
+
+#Text=Rom .
+2-1	44-47	Rom	*	PLACEto
+2-2	48-49	.	_	_
+
+#Text=Gerh .
+3-1	50-54	Gerh	_	_
+3-2	55-56	.	_	_
+
+#Text=XLIV g . 16/2 37 Bitte um Müllers 5 Bilderhefte .
+4-1	57-61	XLIV	_	_
+4-2	62-63	g	_	_
+4-3	64-65	.	_	_
+4-4	66-70	16/2	*[5]	DATErecieved[5]
+4-5	71-73	37	*[5]	DATErecieved[5]
+4-6	74-79	Bitte	_	_
+4-7	80-82	um	_	_
+4-8	83-90	Müllers	*	PERmentioned
+4-9	91-92	5	_	_
+4-10	93-104	Bilderhefte	_	_
+4-11	105-106	.	_	_
+
+#Text=Ist wol ein Ex .
+5-1	107-110	Ist	_	_
+5-2	111-114	wol	_	_
+5-3	115-118	ein	_	_
+5-4	119-121	Ex	_	_
+5-5	122-123	.	_	_
+
+#Text=von Micchel Agnolos Sonnetten aufzutreiben ?
+6-1	124-127	von	_	_
+6-2	128-135	Micchel	*[7]	PERmentioned[7]
+6-3	136-143	Agnolos	*[7]	PERmentioned[7]
+6-4	144-153	Sonnetten	_	_
+6-5	154-166	aufzutreiben	_	_
+6-6	167-168	?	_	_
+
+#Text=Die Französische Angelegenheit werde ich meinerseits erwägen , sobald ich durch Abschrift von Luynes Brief dazu in den Stand gesetzt werde .
+7-1	169-172	Die	_	_
+7-2	173-185	Französische	_	_
+7-3	186-199	Angelegenheit	_	_
+7-4	200-205	werde	_	_
+7-5	206-209	ich	_	_
+7-6	210-221	meinerseits	_	_
+7-7	222-229	erwägen	_	_
+7-8	230-231	,	_	_
+7-9	232-238	sobald	_	_
+7-10	239-242	ich	_	_
+7-11	243-248	durch	_	_
+7-12	249-258	Abschrift	_	_
+7-13	259-262	von	_	_
+7-14	263-269	Luynes	*	PERmentioned
+7-15	270-275	Brief	_	_
+7-16	276-280	dazu	_	_
+7-17	281-283	in	_	_
+7-18	284-287	den	_	_
+7-19	288-293	Stand	_	_
+7-20	294-301	gesetzt	_	_
+7-21	302-307	werde	_	_
+7-22	308-309	.	_	_
+
+#Text=Dem Maze muß der eingenmächtige Ausdruck Section romaine jedenfalls verwiesen werden .
+8-1	310-313	Dem	_	_
+8-2	314-318	Maze	*	PERmentioned
+8-3	319-322	muß	_	_
+8-4	323-326	der	_	_
+8-5	327-341	eingenmächtige	_	_
+8-6	342-350	Ausdruck	_	_
+8-7	351-358	Section	_	_
+8-8	359-366	romaine	_	_
+8-9	367-377	jedenfalls	_	_
+8-10	378-387	verwiesen	_	_
+8-11	388-394	werden	_	_
+8-12	395-396	.	_	_
+
+#Text=Ich habe des Nachts nicht geschlafen , laboriere an Kopfweh und weiß nicht ob ich heute aufs Capitol konme , hoffe jedoch .
+9-1	397-400	Ich	_	_
+9-2	401-405	habe	_	_
+9-3	406-409	des	_	_
+9-4	410-416	Nachts	_	_
+9-5	417-422	nicht	_	_
+9-6	423-433	geschlafen	_	_
+9-7	434-435	,	_	_
+9-8	436-445	laboriere	_	_
+9-9	446-448	an	_	_
+9-10	449-456	Kopfweh	_	_
+9-11	457-460	und	_	_
+9-12	461-465	weiß	_	_
+9-13	466-471	nicht	_	_
+9-14	472-474	ob	_	_
+9-15	475-478	ich	_	_
+9-16	479-484	heute	_	_
+9-17	485-489	aufs	_	_
+9-18	490-497	Capitol	*	PLACEmentioned
+9-19	498-503	konme	_	_
+9-20	504-505	,	_	_
+9-21	506-511	hoffe	_	_
+9-22	512-518	jedoch	_	_
+9-23	519-520	.	_	_
+
+#Text=Gerhard
+10-1	521-528	Gerhard	*	PERauthor

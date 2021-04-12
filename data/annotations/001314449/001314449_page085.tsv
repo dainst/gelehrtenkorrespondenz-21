@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Y \| j x ES +4 RB , rn 34 Henzen an Gerhard 22/X/52 herzlich Sie u. die Ihrige .
+1-1	0-1	Y	_	_
+1-2	2-3	\|	_	_
+1-3	4-5	j	_	_
+1-4	6-7	x	_	_
+1-5	8-10	ES	_	_
+1-6	11-13	+4	_	_
+1-7	14-16	RB	_	_
+1-8	17-18	,	_	_
+1-9	19-21	rn	_	_
+1-10	22-24	34	_	_
+1-11	25-31	Henzen	*	PERauthor
+1-12	32-34	an	_	_
+1-13	35-42	Gerhard	*	PERaddressee
+1-14	43-50	22/X/52	*	DATEletter
+1-15	51-59	herzlich	_	_
+1-16	60-63	Sie	_	_
+1-17	64-66	u.	_	_
+1-18	67-70	die	_	_
+1-19	71-77	Ihrige	_	_
+1-20	78-79	.	_	_
+
+#Text=Ihr WH Rom 22/X 52 .
+2-1	80-83	Ihr	_	_
+2-2	84-86	WH	*	PERauthor
+2-3	87-90	Rom	*	PLACEfrom
+2-4	91-95	22/X	*[1]	DATEletter[1]
+2-5	96-98	52	*[1]	DATEletter[1]
+2-6	99-100	.	_	_
+
+#Text=Herrn Prof. Gerhard Berlin Rom 22 Oct ? ''
+3-1	101-106	Herrn	_	_
+3-2	107-112	Prof.	_	_
+3-3	113-120	Gerhard	*	PERaddressee
+3-4	121-127	Berlin	*	PLACEto
+3-5	128-131	Rom	*	PLACEfrom
+3-6	132-134	22	*[2]	DATEletter[2]
+3-7	135-138	Oct	*[2]	DATEletter[2]
+3-8	139-140	?	*[2]	DATEletter[2]
+3-9	141-143	''	*[2]	DATEletter[2]
+
+#Text=1852 Hochverehrtester Freund !
+4-1	144-148	1852	*[2]	DATEletter[2]
+4-2	149-165	Hochverehrtester	_	_
+4-3	166-172	Freund	_	_
+4-4	173-174	!	_	_
+
+#Text=Für einen guten Äbguß des Hercules mit dem Hirsch werde ich dem Zahn d. Z. dankbar sein .
+5-1	175-178	Für	_	_
+5-2	179-184	einen	_	_
+5-3	185-190	guten	_	_
+5-4	191-196	Äbguß	_	_
+5-5	197-200	des	_	_
+5-6	201-209	Hercules	*[3]	OBJ[3]
+5-7	210-213	mit	*[3]	OBJ[3]
+5-8	214-217	dem	*[3]	OBJ[3]
+5-9	218-224	Hirsch	*[3]	OBJ[3]
+5-10	225-230	werde	_	_
+5-11	231-234	ich	_	_
+5-12	235-238	dem	_	_
+5-13	239-243	Zahn	*	PLACEto
+5-14	244-246	d.	_	_
+5-15	247-249	Z.	_	_
+5-16	250-257	dankbar	_	_
+5-17	258-262	sein	_	_
+5-18	263-264	.	_	_
+
+#Text=Ich wünsche ihn in Stücken verpackt zu erhalten , wodurch die Gefahr des Zerbrechens vermindert wird .
+6-1	265-268	Ich	_	_
+6-2	269-276	wünsche	_	_
+6-3	277-280	ihn	_	_
+6-4	281-283	in	_	_
+6-5	284-291	Stücken	_	_
+6-6	292-300	verpackt	_	_
+6-7	301-303	zu	_	_
+6-8	304-312	erhalten	_	_
+6-9	313-314	,	_	_
+6-10	315-322	wodurch	_	_
+6-11	323-326	die	_	_
+6-12	327-333	Gefahr	_	_
+6-13	334-337	des	_	_
+6-14	338-349	Zerbrechens	_	_
+6-15	350-360	vermindert	_	_
+6-16	361-365	wird	_	_
+6-17	366-367	.	_	_
+
+#Text=Kann er mir sonst gute Abgüsse von Pompejanis ( die Centaurenvasen habe ich ) verschaffen , so sind auch diese willkommen .
+7-1	368-372	Kann	_	_
+7-2	373-375	er	_	_
+7-3	376-379	mir	_	_
+7-4	380-385	sonst	_	_
+7-5	386-390	gute	_	_
+7-6	391-398	Abgüsse	_	_
+7-7	399-402	von	_	_
+7-8	403-413	Pompejanis	*	MISC
+7-9	414-415	(	_	_
+7-10	416-419	die	_	_
+7-11	420-434	Centaurenvasen	*	OBJ
+7-12	435-439	habe	_	_
+7-13	440-443	ich	_	_
+7-14	444-445	)	_	_
+7-15	446-457	verschaffen	_	_
+7-16	458-459	,	_	_
+7-17	460-462	so	_	_
+7-18	463-467	sind	_	_
+7-19	468-472	auch	_	_
+7-20	473-478	diese	_	_
+7-21	479-489	willkommen	_	_
+7-22	490-491	.	_	_
+
+#Text=Das von Maler Roß angekaufte Fresco kam Brunn ' n verdächtig vor , mir nach der Beschreibung auch .
+8-1	492-495	Das	_	_
+8-2	496-499	von	_	_
+8-3	500-505	Maler	_	_
+8-4	506-509	Roß	*	PERmentioned
+8-5	510-520	angekaufte	_	_
+8-6	521-527	Fresco	*	OBJ
+8-7	528-531	kam	_	_
+8-8	532-537	Brunn	*	PERmentioned
+8-9	538-539	'	_	_
+8-10	540-541	n	_	_
+8-11	542-552	verdächtig	_	_
+8-12	553-556	vor	_	_
+8-13	557-558	,	_	_
+8-14	559-562	mir	_	_
+8-15	563-567	nach	_	_
+8-16	568-571	der	_	_
+8-17	572-584	Beschreibung	_	_
+8-18	585-589	auch	_	_
+8-19	590-591	.	_	_
+
+#Text=Jedenfalls ist ein gutes Procentage Ruspi darin , Welcker findet sich ganz behaglich bei uns .
+9-1	592-602	Jedenfalls	_	_
+9-2	603-606	ist	_	_
+9-3	607-610	ein	_	_
+9-4	611-616	gutes	_	_
+9-5	617-627	Procentage	_	_
+9-6	628-633	Ruspi	*	PERmentioned
+9-7	634-639	darin	_	_
+9-8	640-641	,	_	_
+9-9	642-649	Welcker	*	PERmentioned
+9-10	650-656	findet	_	_
+9-11	657-661	sich	_	_
+9-12	662-666	ganz	_	_
+9-13	667-676	behaglich	_	_
+9-14	677-680	bei	_	_
+9-15	681-684	uns	_	_
+9-16	685-686	.	_	_
+
+#Text=Er arbeitet sehr fleißig und schont sich sonst , ist aber doch sehr stumpf geworden , der zornigsen Reizbarkeit unbeschadet .
+10-1	687-689	Er	_	_
+10-2	690-698	arbeitet	_	_
+10-3	699-703	sehr	_	_
+10-4	704-711	fleißig	_	_
+10-5	712-715	und	_	_
+10-6	716-722	schont	_	_
+10-7	723-727	sich	_	_
+10-8	728-733	sonst	_	_
+10-9	734-735	,	_	_
+10-10	736-739	ist	_	_
+10-11	740-744	aber	_	_
+10-12	745-749	doch	_	_
+10-13	750-754	sehr	_	_
+10-14	755-761	stumpf	_	_
+10-15	762-770	geworden	_	_
+10-16	771-772	,	_	_
+10-17	773-776	der	_	_
+10-18	777-786	zornigsen	_	_
+10-19	787-798	Reizbarkeit	_	_
+10-20	799-810	unbeschadet	_	_
+10-21	811-812	.	_	_
+
+#Text=Nachdem die Sache mit 5 .
+11-1	813-820	Nachdem	_	_
+11-2	821-824	die	_	_
+11-3	825-830	Sache	_	_
+11-4	831-834	mit	_	_
+11-5	835-836	5	_	_
+11-6	837-838	.	*[4]	PLACEmentioned[4]
+
+#Text=Salvadore in maximis endlich einer Krisis nahe gebracht war , /Hr .
+12-1	839-848	Salvadore	*[4]	PLACEmentioned[4]
+12-2	849-851	in	_	_
+12-3	852-859	maximis	_	_
+12-4	860-867	endlich	_	_
+12-5	868-873	einer	_	_
+12-6	874-880	Krisis	_	_
+12-7	881-885	nahe	_	_
+12-8	886-894	gebracht	_	_
+12-9	895-898	war	_	_
+12-10	899-900	,	_	_
+12-11	901-904	/Hr	_	_
+12-12	905-906	.	_	_
+
+#Text=vUsedom nach Florenz abgereist und wird - Gott weiß wenn — wiederkommen .
+13-1	907-914	vUsedom	*	PERmentioned
+13-2	915-919	nach	_	_
+13-3	920-927	Florenz	*	PLACEmentioned
+13-4	928-937	abgereist	_	_
+13-5	938-941	und	_	_
+13-6	942-946	wird	_	_
+13-7	947-948	-	_	_
+13-8	949-953	Gott	_	_
+13-9	954-958	weiß	_	_
+13-10	959-963	wenn	_	_
+13-11	964-965	—	_	_
+13-12	966-978	wiederkommen	_	_
+13-13	979-980	.	_	_
+
+#Text=Ich bin in bangen Aenssten .
+14-1	981-984	Ich	_	_
+14-2	985-988	bin	_	_
+14-3	989-991	in	_	_
+14-4	992-998	bangen	_	_
+14-5	999-1007	Aenssten	_	_
+14-6	1008-1009	.	_	_
+
+#Text=Die Sache wird zu lau betrieben und ich bin der D idenarbeit müde .
+15-1	1010-1013	Die	_	_
+15-2	1014-1019	Sache	_	_
+15-3	1020-1024	wird	_	_
+15-4	1025-1027	zu	_	_
+15-5	1028-1031	lau	_	_
+15-6	1032-1041	betrieben	_	_
+15-7	1042-1045	und	_	_
+15-8	1046-1049	ich	_	_
+15-9	1050-1053	bin	_	_
+15-10	1054-1057	der	_	_
+15-11	1058-1059	D	_	_
+15-12	1060-1070	idenarbeit	_	_
+15-13	1071-1075	müde	_	_
+15-14	1076-1077	.	_	_

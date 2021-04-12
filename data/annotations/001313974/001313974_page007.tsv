@@ -1,0 +1,178 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Neapel , 29. Dezember 1863 354 Neapel 29 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Neapel	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	29.	*[3]	DATEletter[3]
+1-7	30-38	Dezember	*[3]	DATEletter[3]
+1-8	39-43	1863	*[3]	DATEletter[3]
+1-9	44-47	354	_	_
+1-10	48-54	Neapel	*	PLACEfrom
+1-11	55-57	29	*[4]	DATEletter[4]
+1-12	58-59	.	*[4]	DATEletter[4]
+
+#Text=Dec .
+2-1	60-63	Dec	*[4]	DATEletter[4]
+2-2	64-65	.	*[4]	DATEletter[4]
+
+#Text=1863 H g . 1/64 r 4/64 Geehrtester Herr Professor \| !
+3-1	66-70	1863	*[4]	DATEletter[4]
+3-2	71-72	H	_	_
+3-3	73-74	g	_	_
+3-4	75-76	.	_	_
+3-5	77-81	1/64	*	DATErecieved
+3-6	82-83	r	_	_
+3-7	84-88	4/64	*	DATEanswered
+3-8	89-100	Geehrtester	_	_
+3-9	101-105	Herr	_	_
+3-10	106-115	Professor	_	_
+3-11	116-117	\|	_	_
+3-12	118-119	!	_	_
+
+#Text=Fiorelli hat mich soeben in einem nach Turin geschickten Schreiben zum Professor der Archäologie in Neapel vorgeschlagen .
+4-1	120-128	Fiorelli	*	PERmentioned
+4-2	129-132	hat	_	_
+4-3	133-137	mich	_	_
+4-4	138-144	soeben	_	_
+4-5	145-147	in	_	_
+4-6	148-153	einem	_	_
+4-7	154-158	nach	_	_
+4-8	159-164	Turin	*	PLACEmentioned
+4-9	165-176	geschickten	_	_
+4-10	177-186	Schreiben	_	_
+4-11	187-190	zum	_	_
+4-12	191-200	Professor	_	_
+4-13	201-204	der	_	_
+4-14	205-216	Archäologie	_	_
+4-15	217-219	in	_	_
+4-16	220-226	Neapel	*	PLACEmentioned
+4-17	227-240	vorgeschlagen	_	_
+4-18	241-242	.	_	_
+
+#Text=Zugleich theilt er mir mit , daß mir die Empfehlung des Instituts zur Erlangung dieser Stelle von großem Nutzen sein würde .
+5-1	243-251	Zugleich	_	_
+5-2	252-258	theilt	_	_
+5-3	259-261	er	_	_
+5-4	262-265	mir	_	_
+5-5	266-269	mit	_	_
+5-6	270-271	,	_	_
+5-7	272-275	daß	_	_
+5-8	276-279	mir	_	_
+5-9	280-283	die	_	_
+5-10	284-294	Empfehlung	_	_
+5-11	295-298	des	_	_
+5-12	299-308	Instituts	*	ORGmentioned
+5-13	309-312	zur	_	_
+5-14	313-322	Erlangung	_	_
+5-15	323-329	dieser	_	_
+5-16	330-336	Stelle	_	_
+5-17	337-340	von	_	_
+5-18	341-347	großem	_	_
+5-19	348-354	Nutzen	_	_
+5-20	355-359	sein	_	_
+5-21	360-365	würde	_	_
+5-22	366-367	.	_	_
+
+#Text=Ich bitte Sie und Professor Brunn , möglichst rasch eine derartige Empfehlung an den Minister Amari abgehen zu lassen .
+6-1	368-371	Ich	_	_
+6-2	372-377	bitte	_	_
+6-3	378-381	Sie	_	_
+6-4	382-385	und	_	_
+6-5	386-395	Professor	*[5]	PERmentioned[5]
+6-6	396-401	Brunn	*[5]	PERmentioned[5]
+6-7	402-403	,	_	_
+6-8	404-413	möglichst	_	_
+6-9	414-419	rasch	_	_
+6-10	420-424	eine	_	_
+6-11	425-434	derartige	_	_
+6-12	435-445	Empfehlung	_	_
+6-13	446-448	an	_	_
+6-14	449-452	den	_	_
+6-15	453-461	Minister	*[6]	PERmentioned[6]
+6-16	462-467	Amari	*[6]	PERmentioned[6]
+6-17	468-475	abgehen	_	_
+6-18	476-478	zu	_	_
+6-19	479-485	lassen	_	_
+6-20	486-487	.	_	_
+
+#Text=Vor lauter Aufregung schreibe ich Ihnen weiter nichts als herzltöhen Glückwunsch zum neuen Jahre für Sie , Ihre Familie , Brunn und Familie .
+7-1	488-491	Vor	_	_
+7-2	492-498	lauter	_	_
+7-3	499-508	Aufregung	_	_
+7-4	509-517	schreibe	_	_
+7-5	518-521	ich	_	_
+7-6	522-527	Ihnen	_	_
+7-7	528-534	weiter	_	_
+7-8	535-541	nichts	_	_
+7-9	542-545	als	_	_
+7-10	546-556	herzltöhen	_	_
+7-11	557-568	Glückwunsch	_	_
+7-12	569-572	zum	_	_
+7-13	573-578	neuen	_	_
+7-14	579-584	Jahre	_	_
+7-15	585-588	für	_	_
+7-16	589-592	Sie	_	_
+7-17	593-594	,	_	_
+7-18	595-599	Ihre	_	_
+7-19	600-607	Familie	_	_
+7-20	608-609	,	_	_
+7-21	610-615	Brunn	*	PERmentioned
+7-22	616-619	und	_	_
+7-23	620-627	Familie	_	_
+7-24	628-629	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr Wolfgang Helbig .
+8-1	630-633	Mit	_	_
+8-2	634-644	herzlichen	_	_
+8-3	645-651	Grüßen	_	_
+8-4	652-655	Ihr	_	_
+8-5	656-664	Wolfgang	*[7]	PERauthor[7]
+8-6	665-671	Helbig	*[7]	PERauthor[7]
+8-7	672-673	.	_	_
+
+#Text=NB .
+9-1	674-676	NB	_	_
+9-2	677-678	.	_	_
+
+#Text=Von den pitture cornetane bitte ich 50 Abdrücke zu bestellen .
+10-1	679-682	Von	_	_
+10-2	683-686	den	_	_
+10-3	687-694	pitture	_	_
+10-4	695-704	cornetane	_	_
+10-5	705-710	bitte	_	_
+10-6	711-714	ich	_	_
+10-7	715-717	50	_	_
+10-8	718-726	Abdrücke	_	_
+10-9	727-729	zu	_	_
+10-10	730-739	bestellen	_	_
+10-11	740-741	.	_	_
+
+#Text=Grüße an die ragazzi .
+11-1	742-747	Grüße	_	_
+11-2	748-750	an	_	_
+11-3	751-754	die	_	_
+11-4	755-762	ragazzi	_	_
+11-5	763-764	.	_	_
+
+#Text=Ich würde die Stelle um Ostern antreten müssen .
+12-1	765-768	Ich	_	_
+12-2	769-774	würde	_	_
+12-3	775-778	die	_	_
+12-4	779-785	Stelle	_	_
+12-5	786-788	um	_	_
+12-6	789-795	Ostern	_	_
+12-7	796-804	antreten	_	_
+12-8	805-811	müssen	_	_
+12-9	812-813	.	_	_
+
+#Text=Für Fiorelli rothen Piepvogel .
+13-1	814-817	Für	_	_
+13-2	818-826	Fiorelli	*	PERmentioned
+13-3	827-833	rothen	_	_
+13-4	834-843	Piepvogel	_	_
+13-5	844-845	.	_	_

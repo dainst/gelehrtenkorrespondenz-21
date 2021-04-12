@@ -1,0 +1,334 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 30 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	30	*[4]	DATEletter[4]
+1-7	26-27	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 - 4 \_ich gar nichts hören , denn ich habe sie buchstäblich nicht angesehen \; ich weiche zu sehr von den Prinzipien eines solchen Elenco ab , als daß ich damit etwas dazu thuen haben möchte , obwohl vielleicht in meinen Händen die exactesten Materialien dazu vorhanden sind .
+2-1	28-34	Januar	*[4]	DATEletter[4]
+2-2	35-39	1838	*[4]	DATEletter[4]
+2-3	40-41	-	_	_
+2-4	42-43	4	_	_
+2-5	44-48	\_ich	_	_
+2-6	49-52	gar	_	_
+2-7	53-59	nichts	_	_
+2-8	60-65	hören	_	_
+2-9	66-67	,	_	_
+2-10	68-72	denn	_	_
+2-11	73-76	ich	_	_
+2-12	77-81	habe	_	_
+2-13	82-85	sie	_	_
+2-14	86-98	buchstäblich	_	_
+2-15	99-104	nicht	_	_
+2-16	105-114	angesehen	_	_
+2-17	115-116	\;	_	_
+2-18	117-120	ich	_	_
+2-19	121-127	weiche	_	_
+2-20	128-130	zu	_	_
+2-21	131-135	sehr	_	_
+2-22	136-139	von	_	_
+2-23	140-143	den	_	_
+2-24	144-154	Prinzipien	_	_
+2-25	155-160	eines	_	_
+2-26	161-168	solchen	_	_
+2-27	169-175	Elenco	_	_
+2-28	176-178	ab	_	_
+2-29	179-180	,	_	_
+2-30	181-184	als	_	_
+2-31	185-188	daß	_	_
+2-32	189-192	ich	_	_
+2-33	193-198	damit	_	_
+2-34	199-204	etwas	_	_
+2-35	205-209	dazu	_	_
+2-36	210-215	thuen	_	_
+2-37	216-221	haben	_	_
+2-38	222-228	möchte	_	_
+2-39	229-230	,	_	_
+2-40	231-237	obwohl	_	_
+2-41	238-248	vielleicht	_	_
+2-42	249-251	in	_	_
+2-43	252-258	meinen	_	_
+2-44	259-265	Händen	_	_
+2-45	266-269	die	_	_
+2-46	270-280	exactesten	_	_
+2-47	281-292	Materialien	_	_
+2-48	293-297	dazu	_	_
+2-49	298-307	vorhanden	_	_
+2-50	308-312	sind	_	_
+2-51	313-314	.	_	_
+
+#Text=- An Orioli ist die Sendung , die Sie zurückgelassen hatten zugleich mit den Centurien für König Otto abgegangen .
+3-1	315-316	-	_	_
+3-2	317-319	An	_	_
+3-3	320-326	Orioli	*	PERmentioned
+3-4	327-330	ist	_	_
+3-5	331-334	die	_	_
+3-6	335-342	Sendung	_	_
+3-7	343-344	,	_	_
+3-8	345-348	die	_	_
+3-9	349-352	Sie	_	_
+3-10	353-367	zurückgelassen	_	_
+3-11	368-374	hatten	_	_
+3-12	375-383	zugleich	_	_
+3-13	384-387	mit	_	_
+3-14	388-391	den	_	_
+3-15	392-401	Centurien	_	_
+3-16	402-405	für	_	_
+3-17	406-411	König	*[6]	PERmentioned[6]
+3-18	412-416	Otto	*[6]	PERmentioned[6]
+3-19	417-427	abgegangen	_	_
+3-20	428-429	.	_	_
+
+#Text=Den Conte Cand . ?
+4-1	430-433	Den	_	_
+4-2	434-439	Conte	*[7]	PERmentioned[7]
+4-3	440-444	Cand	*[7]	PERmentioned[7]
+4-4	445-446	.	*[7]	PERmentioned[7]
+4-5	447-448	?	*[7]	PERmentioned[7]
+
+#Text=Roma in Zante will ich im Conseil erwähnen .
+5-1	449-453	Roma	*[7]	PERmentioned[7]
+5-2	454-456	in	_	_
+5-3	457-462	Zante	*	PLACEmentioned
+5-4	463-467	will	_	_
+5-5	468-471	ich	_	_
+5-6	472-474	im	_	_
+5-7	475-482	Conseil	_	_
+5-8	483-491	erwähnen	_	_
+5-9	492-493	.	_	_
+
+#Text=- Es wäre mir lieb zu wissen , in wiefern Ihre Zeichnungen aus Villa Pamfili in Ihren letzten Bildwerken publizirt oder unedirt geblieben sind .
+6-1	494-495	-	_	_
+6-2	496-498	Es	_	_
+6-3	499-503	wäre	_	_
+6-4	504-507	mir	_	_
+6-5	508-512	lieb	_	_
+6-6	513-515	zu	_	_
+6-7	516-522	wissen	_	_
+6-8	523-524	,	_	_
+6-9	525-527	in	_	_
+6-10	528-535	wiefern	_	_
+6-11	536-540	Ihre	_	_
+6-12	541-552	Zeichnungen	_	_
+6-13	553-556	aus	_	_
+6-14	557-562	Villa	*[9]	PLACEmentioned[9]
+6-15	563-570	Pamfili	*[9]	PLACEmentioned[9]
+6-16	571-573	in	_	_
+6-17	574-579	Ihren	_	_
+6-18	580-587	letzten	_	_
+6-19	588-598	Bildwerken	_	_
+6-20	599-608	publizirt	_	_
+6-21	609-613	oder	_	_
+6-22	614-621	unedirt	_	_
+6-23	622-631	geblieben	_	_
+6-24	632-636	sind	_	_
+6-25	637-638	.	_	_
+
+#Text=Collision ist sonst nicht zu vermeiden .
+7-1	639-648	Collision	_	_
+7-2	649-652	ist	_	_
+7-3	653-658	sonst	_	_
+7-4	659-664	nicht	_	_
+7-5	665-667	zu	_	_
+7-6	668-677	vermeiden	_	_
+7-7	678-679	.	_	_
+
+#Text=- Die Zeichnung in Welckers Zeitschrift von der Demeter Thesmophore ist greuelhaft inexact .
+8-1	680-681	-	_	_
+8-2	682-685	Die	_	_
+8-3	686-695	Zeichnung	_	_
+8-4	696-698	in	_	_
+8-5	699-707	Welckers	*	PERmentioned
+8-6	708-719	Zeitschrift	_	_
+8-7	720-723	von	_	_
+8-8	724-727	der	_	_
+8-9	728-735	Demeter	*[11]	MISC[11]
+8-10	736-747	Thesmophore	*[11]	MISC[11]
+8-11	748-751	ist	_	_
+8-12	752-762	greuelhaft	_	_
+8-13	763-770	inexact	_	_
+8-14	771-772	.	_	_
+
+#Text=Ich werde sie auf einer Hülfstafel publiziren .
+9-1	773-776	Ich	_	_
+9-2	777-782	werde	_	_
+9-3	783-786	sie	_	_
+9-4	787-790	auf	_	_
+9-5	791-796	einer	_	_
+9-6	797-807	Hülfstafel	_	_
+9-7	808-818	publiziren	_	_
+9-8	819-820	.	_	_
+
+#Text=- Melchiorri 's Abhandlung ist noch nicht gedruckt , ich werde sofort davon Gebrauch machen , wenn ich das Fragment von Zeus und Aegina publizire , das auch ihm unbekannt geblieben zu sein scheint .
+10-1	821-822	-	_	_
+10-2	823-833	Melchiorri	*[18]	PERmentioned[18]
+10-3	834-836	's	*[18]	PERmentioned[18]
+10-4	837-847	Abhandlung	_	_
+10-5	848-851	ist	_	_
+10-6	852-856	noch	_	_
+10-7	857-862	nicht	_	_
+10-8	863-871	gedruckt	_	_
+10-9	872-873	,	_	_
+10-10	874-877	ich	_	_
+10-11	878-883	werde	_	_
+10-12	884-890	sofort	_	_
+10-13	891-896	davon	_	_
+10-14	897-905	Gebrauch	_	_
+10-15	906-912	machen	_	_
+10-16	913-914	,	_	_
+10-17	915-919	wenn	_	_
+10-18	920-923	ich	_	_
+10-19	924-927	das	_	_
+10-20	928-936	Fragment	*[13]	OBJ[13]
+10-21	937-940	von	*[13]	OBJ[13]
+10-22	941-945	Zeus	*[13]	OBJ[13]
+10-23	946-949	und	*[13]	OBJ[13]
+10-24	950-956	Aegina	*[13]	OBJ[13]
+10-25	957-966	publizire	_	_
+10-26	967-968	,	_	_
+10-27	969-972	das	_	_
+10-28	973-977	auch	_	_
+10-29	978-981	ihm	_	_
+10-30	982-991	unbekannt	_	_
+10-31	992-1001	geblieben	_	_
+10-32	1002-1004	zu	_	_
+10-33	1005-1009	sein	_	_
+10-34	1010-1017	scheint	_	_
+10-35	1018-1019	.	_	_
+
+#Text=Sie schreiben mir nicht ob ich Probedrücke sous bande zu senden wagen darf .
+11-1	1020-1023	Sie	_	_
+11-2	1024-1033	schreiben	_	_
+11-3	1034-1037	mir	_	_
+11-4	1038-1043	nicht	_	_
+11-5	1044-1046	ob	_	_
+11-6	1047-1050	ich	_	_
+11-7	1051-1062	Probedrücke	_	_
+11-8	1063-1067	sous	_	_
+11-9	1068-1073	bande	_	_
+11-10	1074-1076	zu	_	_
+11-11	1077-1083	senden	_	_
+11-12	1084-1089	wagen	_	_
+11-13	1090-1094	darf	_	_
+11-14	1095-1096	.	_	_
+
+#Text=- Von Apollonischen Spiegelzeichnungen habe ich nichts in Händen \; Er hat die Talchi noch nicht übertragen .
+12-1	1097-1098	-	_	_
+12-2	1099-1102	Von	_	_
+12-3	1103-1116	Apollonischen	*	PERmentioned
+12-4	1117-1135	Spiegelzeichnungen	_	_
+12-5	1136-1140	habe	_	_
+12-6	1141-1144	ich	_	_
+12-7	1145-1151	nichts	_	_
+12-8	1152-1154	in	_	_
+12-9	1155-1161	Händen	_	_
+12-10	1162-1163	\;	_	_
+12-11	1164-1166	Er	_	_
+12-12	1167-1170	hat	_	_
+12-13	1171-1174	die	_	_
+12-14	1175-1181	Talchi	_	_
+12-15	1182-1186	noch	_	_
+12-16	1187-1192	nicht	_	_
+12-17	1193-1203	übertragen	_	_
+12-18	1204-1205	.	_	_
+
+#Text=Derarme Mensch ist fürchterlich beschäftigt und schwer zu haben .
+13-1	1206-1213	Derarme	_	_
+13-2	1214-1220	Mensch	_	_
+13-3	1221-1224	ist	_	_
+13-4	1225-1237	fürchterlich	_	_
+13-5	1238-1249	beschäftigt	_	_
+13-6	1250-1253	und	_	_
+13-7	1254-1260	schwer	_	_
+13-8	1261-1263	zu	_	_
+13-9	1264-1269	haben	_	_
+13-10	1270-1271	.	_	_
+
+#Text=- Das Manuel des Consuls ist bereits an Bellotti abgegangen .
+14-1	1272-1273	-	_	_
+14-2	1274-1277	Das	_	_
+14-3	1278-1284	Manuel	_	_
+14-4	1285-1288	des	_	_
+14-5	1289-1296	Consuls	_	_
+14-6	1297-1300	ist	_	_
+14-7	1301-1308	bereits	_	_
+14-8	1309-1311	an	_	_
+14-9	1312-1320	Bellotti	*	PERmentioned
+14-10	1321-1331	abgegangen	_	_
+14-11	1332-1333	.	_	_
+
+#Text=- Dr. Frank heirathet Fräulein Hunter und denkt nach Bonn zu gehen .
+15-1	1334-1335	-	_	_
+15-2	1336-1339	Dr.	*[16]	PERmentioned[16]
+15-3	1340-1345	Frank	*[16]	PERmentioned[16]
+15-4	1346-1355	heirathet	_	_
+15-5	1356-1364	Fräulein	*[17]	PERmentioned[17]
+15-6	1365-1371	Hunter	*[17]	PERmentioned[17]
+15-7	1372-1375	und	_	_
+15-8	1376-1381	denkt	_	_
+15-9	1382-1386	nach	_	_
+15-10	1387-1391	Bonn	*	PLACEmentioned
+15-11	1392-1394	zu	_	_
+15-12	1395-1400	gehen	_	_
+15-13	1401-1402	.	_	_
+
+#Text=Man spricht so laut davon , daß nicht daran gezweifelt werden darf .
+16-1	1403-1406	Man	_	_
+16-2	1407-1414	spricht	_	_
+16-3	1415-1417	so	_	_
+16-4	1418-1422	laut	_	_
+16-5	1423-1428	davon	_	_
+16-6	1429-1430	,	_	_
+16-7	1431-1434	daß	_	_
+16-8	1435-1440	nicht	_	_
+16-9	1441-1446	daran	_	_
+16-10	1447-1457	gezweifelt	_	_
+16-11	1458-1464	werden	_	_
+16-12	1465-1469	darf	_	_
+16-13	1470-1471	.	_	_
+
+#Text=Sie wissen , ich bekümmere mich um solche Dinge nicht , und sehe Niemand außer Boisser & e und Mendelson .
+17-1	1472-1475	Sie	_	_
+17-2	1476-1482	wissen	_	_
+17-3	1483-1484	,	_	_
+17-4	1485-1488	ich	_	_
+17-5	1489-1498	bekümmere	_	_
+17-6	1499-1503	mich	_	_
+17-7	1504-1506	um	_	_
+17-8	1507-1513	solche	_	_
+17-9	1514-1519	Dinge	_	_
+17-10	1520-1525	nicht	_	_
+17-11	1526-1527	,	_	_
+17-12	1528-1531	und	_	_
+17-13	1532-1536	sehe	_	_
+17-14	1537-1544	Niemand	_	_
+17-15	1545-1550	außer	_	_
+17-16	1551-1558	Boisser	*	PERmentioned
+17-17	1559-1560	&	_	_
+17-18	1561-1562	e	_	_
+17-19	1563-1566	und	_	_
+17-20	1567-1576	Mendelson	*	PERmentioned
+17-21	1577-1578	.	_	_
+
+#Text=- Heyse ist allerdings hier .
+18-1	1579-1580	-	_	_
+18-2	1581-1586	Heyse	*	PERmentioned
+18-3	1587-1590	ist	_	_
+18-4	1591-1601	allerdings	_	_
+18-5	1602-1606	hier	_	_
+18-6	1607-1608	.	_	_
+
+#Text=- Ich würde gern im Früh-
+19-1	1609-1610	-	_	_
+19-2	1611-1614	Ich	_	_
+19-3	1615-1620	würde	_	_
+19-4	1621-1625	gern	_	_
+19-5	1626-1628	im	_	_
+19-6	1629-1634	Früh-	_	_

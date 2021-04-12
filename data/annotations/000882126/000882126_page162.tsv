@@ -1,0 +1,285 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=A Braun an Gerhard Rom , 1 .
+1-1	0-1	A	_	_
+1-2	2-7	Braun	*	PERauthor
+1-3	8-10	an	_	_
+1-4	11-18	Gerhard	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-26	1	*[11]	DATEletter[11]
+1-8	27-28	.	*[11]	DATEletter[11]
+
+#Text=Januar 1837 Roma 1 Januar 1837 .
+2-1	29-35	Januar	*[11]	DATEletter[11]
+2-2	36-40	1837	*[11]	DATEletter[11]
+2-3	41-45	Roma	*	PLACEfrom
+2-4	46-47	1	*[12]	DATEletter[12]
+2-5	48-54	Januar	*[12]	DATEletter[12]
+2-6	55-59	1837	*[12]	DATEletter[12]
+2-7	60-61	.	_	_
+
+#Text=Hochzuverehrender Freund !
+3-1	62-79	Hochzuverehrender	_	_
+3-2	80-86	Freund	_	_
+3-3	87-88	!	_	_
+
+#Text=Ich erhalte Ihren lieben Brief d. d . 18 v. J. gerade am Neujahrstag .
+4-1	89-92	Ich	_	_
+4-2	93-100	erhalte	_	_
+4-3	101-106	Ihren	_	_
+4-4	107-113	lieben	_	_
+4-5	114-119	Brief	_	_
+4-6	120-122	d.	_	_
+4-7	123-124	d	_	_
+4-8	125-126	.	_	_
+4-9	127-129	18	*[13]	DATEmentioned[13]
+4-10	130-132	v.	*[13]	DATEmentioned[13]
+4-11	133-135	J.	*[13]	DATEmentioned[13]
+4-12	136-142	gerade	_	_
+4-13	143-145	am	_	_
+4-14	146-157	Neujahrstag	_	_
+4-15	158-159	.	_	_
+
+#Text=Herzlichen Dank für so viel Freundliches das Sie mir sagen !
+5-1	160-170	Herzlichen	_	_
+5-2	171-175	Dank	_	_
+5-3	176-179	für	_	_
+5-4	180-182	so	_	_
+5-5	183-187	viel	_	_
+5-6	188-200	Freundliches	_	_
+5-7	201-204	das	_	_
+5-8	205-208	Sie	_	_
+5-9	209-212	mir	_	_
+5-10	213-218	sagen	_	_
+5-11	219-220	!	_	_
+
+#Text=Gott möge das Werk Ihrer Hände fördern !
+6-1	221-225	Gott	_	_
+6-2	226-230	möge	_	_
+6-3	231-234	das	_	_
+6-4	235-239	Werk	_	_
+6-5	240-245	Ihrer	_	_
+6-6	246-251	Hände	_	_
+6-7	252-259	fördern	_	_
+6-8	260-261	!	_	_
+
+#Text=Bleiben Sie frohen Muths und gesund !
+7-1	262-269	Bleiben	_	_
+7-2	270-273	Sie	_	_
+7-3	274-280	frohen	_	_
+7-4	281-286	Muths	_	_
+7-5	287-290	und	_	_
+7-6	291-297	gesund	_	_
+7-7	298-299	!	_	_
+
+#Text=Müller hat in seinem Handbuch d . A. d. K. der Chablaischen Herme Erwähnung gethan .
+8-1	300-306	Müller	*	PERmentioned
+8-2	307-310	hat	_	_
+8-3	311-313	in	_	_
+8-4	314-320	seinem	_	_
+8-5	321-329	Handbuch	_	_
+8-6	330-331	d	_	_
+8-7	332-333	.	_	_
+8-8	334-336	A.	_	_
+8-9	337-339	d.	_	_
+8-10	340-342	K.	_	_
+8-11	343-346	der	_	_
+8-12	347-359	Chablaischen	*[14]	OBJ[14]
+8-13	360-365	Herme	*[14]	OBJ[14]
+8-14	366-375	Erwähnung	_	_
+8-15	376-382	gethan	_	_
+8-16	383-384	.	_	_
+
+#Text=Die Figuren zu Füßen derselben erinnern ihn an den Gebrauch in Hermenschränken Bilder aufzubewahren .
+9-1	385-388	Die	_	_
+9-2	389-396	Figuren	_	_
+9-3	397-399	zu	_	_
+9-4	400-405	Füßen	_	_
+9-5	406-415	derselben	_	_
+9-6	416-424	erinnern	_	_
+9-7	425-428	ihn	_	_
+9-8	429-431	an	_	_
+9-9	432-435	den	_	_
+9-10	436-444	Gebrauch	_	_
+9-11	445-447	in	_	_
+9-12	448-463	Hermenschränken	_	_
+9-13	464-470	Bilder	_	_
+9-14	471-484	aufzubewahren	_	_
+9-15	485-486	.	_	_
+
+#Text=Der alte Wagner jauchzt lauf auf über diese lustige Erudition .
+10-1	487-490	Der	_	_
+10-2	491-495	alte	_	_
+10-3	496-502	Wagner	*	PERmentioned
+10-4	503-510	jauchzt	_	_
+10-5	511-515	lauf	_	_
+10-6	516-519	auf	_	_
+10-7	520-524	über	_	_
+10-8	525-530	diese	_	_
+10-9	531-538	lustige	_	_
+10-10	539-548	Erudition	_	_
+10-11	549-550	.	_	_
+
+#Text=Marcus und Gerstäcker müssen Geld schicken , wenn das Institut nicht banquerott machen soll .
+11-1	551-557	Marcus	*	PERmentioned
+11-2	558-561	und	_	_
+11-3	562-572	Gerstäcker	*	PERmentioned
+11-4	573-579	müssen	_	_
+11-5	580-584	Geld	_	_
+11-6	585-593	schicken	_	_
+11-7	594-595	,	_	_
+11-8	596-600	wenn	_	_
+11-9	601-604	das	_	_
+11-10	605-613	Institut	*	ORGmentioned
+11-11	614-619	nicht	_	_
+11-12	620-630	banquerott	_	_
+11-13	631-637	machen	_	_
+11-14	638-642	soll	_	_
+11-15	643-644	.	_	_
+
+#Text=Es ist ganz unmöglich daß unter solchen Bedingungen die Geschäfte weitergeführt werden können .
+12-1	645-647	Es	_	_
+12-2	648-651	ist	_	_
+12-3	652-656	ganz	_	_
+12-4	657-666	unmöglich	_	_
+12-5	667-670	daß	_	_
+12-6	671-676	unter	_	_
+12-7	677-684	solchen	_	_
+12-8	685-696	Bedingungen	_	_
+12-9	697-700	die	_	_
+12-10	701-710	Geschäfte	_	_
+12-11	711-724	weitergeführt	_	_
+12-12	725-731	werden	_	_
+12-13	732-738	können	_	_
+12-14	739-740	.	_	_
+
+#Text=Ich würde Ihre Urnensamnlung gern einsehen , wenn ich wüßte , wie ich es machen sollte .
+13-1	741-744	Ich	_	_
+13-2	745-750	würde	_	_
+13-3	751-755	Ihre	_	_
+13-4	756-769	Urnensamnlung	*	MISC
+13-5	770-774	gern	_	_
+13-6	775-783	einsehen	_	_
+13-7	784-785	,	_	_
+13-8	786-790	wenn	_	_
+13-9	791-794	ich	_	_
+13-10	795-800	wüßte	_	_
+13-11	801-802	,	_	_
+13-12	803-806	wie	_	_
+13-13	807-810	ich	_	_
+13-14	811-813	es	_	_
+13-15	814-820	machen	_	_
+13-16	821-827	sollte	_	_
+13-17	828-829	.	_	_
+
+#Text=Nach Berlin kann ich deshalb nicht reisen .
+14-1	830-834	Nach	_	_
+14-2	835-841	Berlin	*	PLACEmentioned
+14-3	842-846	kann	_	_
+14-4	847-850	ich	_	_
+14-5	851-858	deshalb	_	_
+14-6	859-864	nicht	_	_
+14-7	865-871	reisen	_	_
+14-8	872-873	.	_	_
+
+#Text=Von dem Leierspielenden Hermes sollen Sie nächstens einen Probestich erhalten .
+15-1	874-877	Von	_	_
+15-2	878-881	dem	_	_
+15-3	882-897	Leierspielenden	*[15]	OBJ[15]
+15-4	898-904	Hermes	*[15]	OBJ[15]
+15-5	905-911	sollen	_	_
+15-6	912-915	Sie	_	_
+15-7	916-925	nächstens	_	_
+15-8	926-931	einen	_	_
+15-9	932-942	Probestich	_	_
+15-10	943-951	erhalten	_	_
+15-11	952-953	.	_	_
+
+#Text=Er befindet sich in Gotha und stammt aus Neapel .
+16-1	954-956	Er	_	_
+16-2	957-965	befindet	_	_
+16-3	966-970	sich	_	_
+16-4	971-973	in	_	_
+16-5	974-979	Gotha	*	PLACEmentioned
+16-6	980-983	und	_	_
+16-7	984-990	stammt	_	_
+16-8	991-994	aus	_	_
+16-9	995-1001	Neapel	*	PLACEmentioned
+16-10	1002-1003	.	_	_
+
+#Text=- Ihre leierspielende Minerva werden Sie selber publiciren wollen ?
+17-1	1004-1005	-	_	_
+17-2	1006-1010	Ihre	_	_
+17-3	1011-1025	leierspielende	*[16]	OBJ[16]
+17-4	1026-1033	Minerva	*[16]	OBJ[16]
+17-5	1034-1040	werden	_	_
+17-6	1041-1044	Sie	_	_
+17-7	1045-1051	selber	_	_
+17-8	1052-1062	publiciren	_	_
+17-9	1063-1069	wollen	_	_
+17-10	1070-1071	?	_	_
+
+#Text=Sie ist jetzt ganz gut hergestellt .
+18-1	1072-1075	Sie	_	_
+18-2	1076-1079	ist	_	_
+18-3	1080-1085	jetzt	_	_
+18-4	1086-1090	ganz	_	_
+18-5	1091-1094	gut	_	_
+18-6	1095-1106	hergestellt	_	_
+18-7	1107-1108	.	_	_
+
+#Text=Die Vulcenter Bronzestatue ist von Wagner für den König von Bayern angekauft worden .
+19-1	1109-1112	Die	_	_
+19-2	1113-1122	Vulcenter	*	MISC
+19-3	1123-1135	Bronzestatue	*	OBJ
+19-4	1136-1139	ist	_	_
+19-5	1140-1143	von	_	_
+19-6	1144-1150	Wagner	*	PERmentioned
+19-7	1151-1154	für	_	_
+19-8	1155-1158	den	_	_
+19-9	1159-1164	König	*[17]	PERmentioned[17]
+19-10	1165-1168	von	*[17]	PERmentioned[17]
+19-11	1169-1175	Bayern	*[17]	PERmentioned[17]
+19-12	1176-1185	angekauft	_	_
+19-13	1186-1192	worden	_	_
+19-14	1193-1194	.	_	_
+
+#Text=Er hat ohne Weiteres 4.400 Scudi bezahlt .
+20-1	1195-1197	Er	_	_
+20-2	1198-1201	hat	_	_
+20-3	1202-1206	ohne	_	_
+20-4	1207-1215	Weiteres	_	_
+20-5	1216-1221	4.400	_	_
+20-6	1222-1227	Scudi	_	_
+20-7	1228-1235	bezahlt	_	_
+20-8	1236-1237	.	_	_
+
+#Text=Man schätzt sie bereits auf 6.000 Scudi und beklagt allgemein ihren Verlust für Rom .
+21-1	1238-1241	Man	_	_
+21-2	1242-1249	schätzt	_	_
+21-3	1250-1253	sie	_	_
+21-4	1254-1261	bereits	_	_
+21-5	1262-1265	auf	_	_
+21-6	1266-1271	6.000	_	_
+21-7	1272-1277	Scudi	_	_
+21-8	1278-1281	und	_	_
+21-9	1282-1289	beklagt	_	_
+21-10	1290-1299	allgemein	_	_
+21-11	1300-1305	ihren	_	_
+21-12	1306-1313	Verlust	_	_
+21-13	1314-1317	für	_	_
+21-14	1318-1321	Rom	*	PLACEmentioned
+21-15	1322-1323	.	_	_
+
+#Text=Bronzestatuen von dieser Größe sind nicht häufig \;
+22-1	1324-1337	Bronzestatuen	*	OBJ
+22-2	1338-1341	von	_	_
+22-3	1342-1348	dieser	_	_
+22-4	1349-1354	Größe	_	_
+22-5	1355-1359	sind	_	_
+22-6	1360-1365	nicht	_	_
+22-7	1366-1372	häufig	_	_
+22-8	1373-1374	\;	_	_

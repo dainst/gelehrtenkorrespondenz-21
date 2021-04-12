@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=um Gerhard an Braun Bonn , 5 .
+1-1	0-2	um	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-24	Bonn	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-28	5	*[4]	DATEletter[4]
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 bei Ihnen .
+2-1	31-38	Oktober	*[4]	DATEletter[4]
+2-2	39-43	1834	*[4]	DATEletter[4]
+2-3	44-47	bei	_	_
+2-4	48-53	Ihnen	_	_
+2-5	54-55	.	_	_
+
+#Text=Bitte vergleichen Sie beide mit den Originalen , wenigstens die Inschriften , zumal der tn vase .
+3-1	56-61	Bitte	_	_
+3-2	62-73	vergleichen	_	_
+3-3	74-77	Sie	_	_
+3-4	78-83	beide	_	_
+3-5	84-87	mit	_	_
+3-6	88-91	den	_	_
+3-7	92-102	Originalen	_	_
+3-8	103-104	,	_	_
+3-9	105-115	wenigstens	_	_
+3-10	116-119	die	_	_
+3-11	120-131	Inschriften	_	_
+3-12	132-133	,	_	_
+3-13	134-139	zumal	_	_
+3-14	140-143	der	_	_
+3-15	144-146	tn	_	_
+3-16	147-151	vase	*	OBJ
+3-17	152-153	.	_	_
+
+#Text=- Die von Ihnen gemeldeten Ankäufe des Governo sind bereits 3 Monat alt \; hat Apolloni den kolorierten etruskische Todtenciste des guerriero ferito beim Cav .
+4-1	154-155	-	_	_
+4-2	156-159	Die	_	_
+4-3	160-163	von	_	_
+4-4	164-169	Ihnen	_	_
+4-5	170-180	gemeldeten	_	_
+4-6	181-188	Ankäufe	_	_
+4-7	189-192	des	_	_
+4-8	193-200	Governo	*	ORGmentioned
+4-9	201-205	sind	_	_
+4-10	206-213	bereits	_	_
+4-11	214-215	3	_	_
+4-12	216-221	Monat	_	_
+4-13	222-225	alt	_	_
+4-14	226-227	\;	_	_
+4-15	228-231	hat	_	_
+4-16	232-240	Apolloni	*	PERmentioned
+4-17	241-244	den	_	_
+4-18	245-256	kolorierten	*[8]	OBJ[8]
+4-19	257-268	etruskische	*[8]	OBJ[8]
+4-20	269-280	Todtenciste	*[8]	OBJ[8]
+4-21	281-284	des	*[8]	OBJ[8]
+4-22	285-294	guerriero	*[8]	OBJ[8]
+4-23	295-301	ferito	*[8]	OBJ[8]
+4-24	302-306	beim	_	_
+4-25	307-310	Cav	*[9]	PERmentioned[9]
+4-26	311-312	.	*[9]	PERmentioned[9]
+
+#Text=Sossi , Piazza d ! '
+5-1	313-318	Sossi	*[9]	PERmentioned[9]
+5-2	319-320	,	_	_
+5-3	321-327	Piazza	*[10]	PLACEmentioned[10]
+5-4	328-329	d	*[10]	PLACEmentioned[10]
+5-5	330-331	!	*[10]	PLACEmentioned[10]
+5-6	332-333	'	*[10]	PLACEmentioned[10]
+
+#Text=Pietra 39 ( dem Corlelli von Toscanella zugehörig ) gezeichnet ehe derselbe in die Klauen des Governo fällt ?
+6-1	334-340	Pietra	*[10]	PLACEmentioned[10]
+6-2	341-343	39	*[10]	PLACEmentioned[10]
+6-3	344-345	(	_	_
+6-4	346-349	dem	_	_
+6-5	350-358	Corlelli	*	PERmentioned
+6-6	359-362	von	_	_
+6-7	363-373	Toscanella	*	PLACEmentioned
+6-8	374-383	zugehörig	_	_
+6-9	384-385	)	_	_
+6-10	386-396	gezeichnet	_	_
+6-11	397-400	ehe	_	_
+6-12	401-409	derselbe	_	_
+6-13	410-412	in	_	_
+6-14	413-416	die	_	_
+6-15	417-423	Klauen	_	_
+6-16	424-427	des	_	_
+6-17	428-435	Governo	*	ORGmentioned
+6-18	436-441	fällt	_	_
+6-19	442-443	?	_	_
+
+#Text=Der Eigenthünmer hatte es erlaubt \; ich schickte Apolloni kurz vor meiner Abreise dahin , es liegt sehr daran .
+7-1	444-447	Der	_	_
+7-2	448-460	Eigenthünmer	_	_
+7-3	461-466	hatte	_	_
+7-4	467-469	es	_	_
+7-5	470-477	erlaubt	_	_
+7-6	478-479	\;	_	_
+7-7	480-483	ich	_	_
+7-8	484-492	schickte	_	_
+7-9	493-501	Apolloni	*	PERmentioned
+7-10	502-506	kurz	_	_
+7-11	507-510	vor	_	_
+7-12	511-517	meiner	_	_
+7-13	518-525	Abreise	_	_
+7-14	526-531	dahin	_	_
+7-15	532-533	,	_	_
+7-16	534-536	es	_	_
+7-17	537-542	liegt	_	_
+7-18	543-547	sehr	_	_
+7-19	548-553	daran	_	_
+7-20	554-555	.	_	_
+
+#Text=- Wegen Ba !
+8-1	556-557	-	_	_
+8-2	558-563	Wegen	_	_
+8-3	564-566	Ba	_	_
+8-4	567-568	!	_	_
+
+#Text=is Empfohlenem danken Sie wol jenem \; Sie haben sich des Barons löblichst abgenonmen , hoffentlich auch in die Arme des Instituts geführt .
+9-1	569-571	is	_	_
+9-2	572-583	Empfohlenem	_	_
+9-3	584-590	danken	_	_
+9-4	591-594	Sie	_	_
+9-5	595-598	wol	_	_
+9-6	599-604	jenem	_	_
+9-7	605-606	\;	_	_
+9-8	607-610	Sie	_	_
+9-9	611-616	haben	_	_
+9-10	617-621	sich	_	_
+9-11	622-625	des	_	_
+9-12	626-632	Barons	*	PERmentioned
+9-13	633-642	löblichst	_	_
+9-14	643-653	abgenonmen	_	_
+9-15	654-655	,	_	_
+9-16	656-667	hoffentlich	_	_
+9-17	668-672	auch	_	_
+9-18	673-675	in	_	_
+9-19	676-679	die	_	_
+9-20	680-684	Arme	_	_
+9-21	685-688	des	_	_
+9-22	689-698	Instituts	*	ORGmentioned
+9-23	699-706	geführt	_	_
+9-24	707-708	.	_	_
+
+#Text=- Meine Pariser Bücher erhielten Sie hoffentlich \; ich bin von dort auch Institutshalber mit viel Genugthuung abgereist .
+10-1	709-710	-	_	_
+10-2	711-716	Meine	_	_
+10-3	717-724	Pariser	*	PLACEmentioned
+10-4	725-731	Bücher	_	_
+10-5	732-741	erhielten	_	_
+10-6	742-745	Sie	_	_
+10-7	746-757	hoffentlich	_	_
+10-8	758-759	\;	_	_
+10-9	760-763	ich	_	_
+10-10	764-767	bin	_	_
+10-11	768-771	von	_	_
+10-12	772-776	dort	_	_
+10-13	777-781	auch	_	_
+10-14	782-797	Institutshalber	_	_
+10-15	798-801	mit	_	_
+10-16	802-806	viel	_	_
+10-17	807-818	Genugthuung	_	_
+10-18	819-828	abgereist	_	_
+10-19	829-830	.	_	_
+
+#Text=Von hier hoffe ich noch an Bunsen zu schreiben , übermorgen jedoch schon abzureisen um etwa zum 18 oder 20 in Berlin zu seyn .
+11-1	831-834	Von	_	_
+11-2	835-839	hier	_	_
+11-3	840-845	hoffe	_	_
+11-4	846-849	ich	_	_
+11-5	850-854	noch	_	_
+11-6	855-857	an	_	_
+11-7	858-864	Bunsen	*	PERmentioned
+11-8	865-867	zu	_	_
+11-9	868-877	schreiben	_	_
+11-10	878-879	,	_	_
+11-11	880-890	übermorgen	_	_
+11-12	891-897	jedoch	_	_
+11-13	898-903	schon	_	_
+11-14	904-914	abzureisen	_	_
+11-15	915-917	um	_	_
+11-16	918-922	etwa	_	_
+11-17	923-926	zum	_	_
+11-18	927-929	18	*	DATEmentioned
+11-19	930-934	oder	_	_
+11-20	935-937	20	*	DATEmentioned
+11-21	938-940	in	_	_
+11-22	941-947	Berlin	*	PLACEmentioned
+11-23	948-950	zu	_	_
+11-24	951-955	seyn	_	_
+11-25	956-957	.	_	_
+
+#Text=Lassen Sie es Sich nicht verdrießen mir lieber einmal zu viel als zu wenig zu schreiben , grüßen Sie Reihe herum herzlichst und bleiben Sie getreu Ihren Gerhard
+12-1	958-964	Lassen	_	_
+12-2	965-968	Sie	_	_
+12-3	969-971	es	_	_
+12-4	972-976	Sich	_	_
+12-5	977-982	nicht	_	_
+12-6	983-993	verdrießen	_	_
+12-7	994-997	mir	_	_
+12-8	998-1004	lieber	_	_
+12-9	1005-1011	einmal	_	_
+12-10	1012-1014	zu	_	_
+12-11	1015-1019	viel	_	_
+12-12	1020-1023	als	_	_
+12-13	1024-1026	zu	_	_
+12-14	1027-1032	wenig	_	_
+12-15	1033-1035	zu	_	_
+12-16	1036-1045	schreiben	_	_
+12-17	1046-1047	,	_	_
+12-18	1048-1054	grüßen	_	_
+12-19	1055-1058	Sie	_	_
+12-20	1059-1064	Reihe	_	_
+12-21	1065-1070	herum	_	_
+12-22	1071-1081	herzlichst	_	_
+12-23	1082-1085	und	_	_
+12-24	1086-1093	bleiben	_	_
+12-25	1094-1097	Sie	_	_
+12-26	1098-1104	getreu	_	_
+12-27	1105-1110	Ihren	_	_
+12-28	1111-1118	Gerhard	*	PERauthor

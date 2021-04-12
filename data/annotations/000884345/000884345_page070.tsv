@@ -1,0 +1,281 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Frascati 6. Juli 1833 der Klassiker gegen Tausch ?
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-26	Frascati	*	PLACEfrom
+1-5	27-29	6.	*[4]	DATEletter[4]
+1-6	30-34	Juli	*[4]	DATEletter[4]
+1-7	35-39	1833	*[4]	DATEletter[4]
+1-8	40-43	der	_	_
+1-9	44-53	Klassiker	_	_
+1-10	54-59	gegen	_	_
+1-11	60-66	Tausch	_	_
+1-12	67-68	?	_	_
+
+#Text=oder mit den Hildburghauser Leuten , von denen wir allerdings einiges schon haben ?
+2-1	69-73	oder	_	_
+2-2	74-77	mit	_	_
+2-3	78-81	den	_	_
+2-4	82-96	Hildburghauser	_	_
+2-5	97-103	Leuten	_	_
+2-6	104-105	,	_	_
+2-7	106-109	von	_	_
+2-8	110-115	denen	_	_
+2-9	116-119	wir	_	_
+2-10	120-130	allerdings	_	_
+2-11	131-138	einiges	_	_
+2-12	139-144	schon	_	_
+2-13	145-150	haben	_	_
+2-14	151-152	?	_	_
+
+#Text=Härtel hat sein Wort schon gelöst , es ist alles da , außer die Rechnung über Einband , worüber ich ihm schreiben werde .
+3-1	153-159	Härtel	*	PERmentioned
+3-2	160-163	hat	_	_
+3-3	164-168	sein	_	_
+3-4	169-173	Wort	_	_
+3-5	174-179	schon	_	_
+3-6	180-186	gelöst	_	_
+3-7	187-188	,	_	_
+3-8	189-191	es	_	_
+3-9	192-195	ist	_	_
+3-10	196-201	alles	_	_
+3-11	202-204	da	_	_
+3-12	205-206	,	_	_
+3-13	207-212	außer	_	_
+3-14	213-216	die	_	_
+3-15	217-225	Rechnung	_	_
+3-16	226-230	über	_	_
+3-17	231-238	Einband	_	_
+3-18	239-240	,	_	_
+3-19	241-248	worüber	_	_
+3-20	249-252	ich	_	_
+3-21	253-256	ihm	_	_
+3-22	257-266	schreiben	_	_
+3-23	267-272	werde	_	_
+3-24	273-274	.	_	_
+
+#Text=Nun noch über eine sehr wichtige Museums Angelegenheit .
+4-1	275-278	Nun	_	_
+4-2	279-283	noch	_	_
+4-3	284-288	über	_	_
+4-4	289-293	eine	_	_
+4-5	294-298	sehr	_	_
+4-6	299-307	wichtige	_	_
+4-7	308-315	Museums	*	ORGmentioned
+4-8	316-329	Angelegenheit	_	_
+4-9	330-331	.	_	_
+
+#Text=Ich sah bei P. della Badia mit Kestner p 3 Pateren vom ersten Styl a ) Theseus den Skyron vom Felsen stürzend ( inwehe ) draußen : Kampf mit demselben Kerl .
+5-1	332-335	Ich	_	_
+5-2	336-339	sah	_	_
+5-3	340-343	bei	_	_
+5-4	344-346	P.	*[7]	PLACEmentioned[7]
+5-5	347-352	della	*[7]	PLACEmentioned[7]
+5-6	353-358	Badia	*[7]	PLACEmentioned[7]
+5-7	359-362	mit	_	_
+5-8	363-370	Kestner	*	PERmentioned
+5-9	371-372	p	_	_
+5-10	373-374	3	_	_
+5-11	375-382	Pateren	*	MISC
+5-12	383-386	vom	_	_
+5-13	387-393	ersten	_	_
+5-14	394-398	Styl	_	_
+5-15	399-400	a	_	_
+5-16	401-402	)	_	_
+5-17	403-410	Theseus	*[10]	OBJ[10]
+5-18	411-414	den	*[10]	OBJ[10]
+5-19	415-421	Skyron	*[10]	OBJ[10]
+5-20	422-425	vom	*[10]	OBJ[10]
+5-21	426-432	Felsen	*[10]	OBJ[10]
+5-22	433-441	stürzend	*[10]	OBJ[10]
+5-23	442-443	(	_	_
+5-24	444-450	inwehe	_	_
+5-25	451-452	)	_	_
+5-26	453-460	draußen	_	_
+5-27	461-462	:	_	_
+5-28	463-468	Kampf	_	_
+5-29	469-472	mit	_	_
+5-30	473-482	demselben	_	_
+5-31	483-487	Kerl	_	_
+5-32	488-489	.	_	_
+
+#Text=b ) Thetis mit Proteus ( inwendig ) draußen unzüchtige Faune .
+6-1	490-491	b	_	_
+6-2	492-493	)	_	_
+6-3	494-500	Thetis	*[11]	OBJ[11]
+6-4	501-504	mit	*[11]	OBJ[11]
+6-5	505-512	Proteus	*[11]	OBJ[11]
+6-6	513-514	(	*[11]	OBJ[11]
+6-7	515-523	inwendig	*[11]	OBJ[11]
+6-8	524-525	)	*[11]	OBJ[11]
+6-9	526-533	draußen	*[11]	OBJ[11]
+6-10	534-544	unzüchtige	*[11]	OBJ[11]
+6-11	545-550	Faune	*[11]	OBJ[11]
+6-12	551-552	.	_	_
+
+#Text=c ) eine geflügelte Göttin mit Quadriga \; draußen der große Kampf der Götter mit den Giganten .
+7-1	553-554	c	_	_
+7-2	555-556	)	_	_
+7-3	557-561	eine	*[12]	OBJ[12]
+7-4	562-572	geflügelte	*[12]	OBJ[12]
+7-5	573-579	Göttin	*[12]	OBJ[12]
+7-6	580-583	mit	*[12]	OBJ[12]
+7-7	584-592	Quadriga	*[12]	OBJ[12]
+7-8	593-594	\;	*[12]	OBJ[12]
+7-9	595-602	draußen	*[12]	OBJ[12]
+7-10	603-606	der	*[12]	OBJ[12]
+7-11	607-612	große	*[12]	OBJ[12]
+7-12	613-618	Kampf	*[12]	OBJ[12]
+7-13	619-622	der	*[12]	OBJ[12]
+7-14	623-629	Götter	*[12]	OBJ[12]
+7-15	630-633	mit	*[12]	OBJ[12]
+7-16	634-637	den	*[12]	OBJ[12]
+7-17	638-646	Giganten	*[12]	OBJ[12]
+7-18	647-648	.	_	_
+
+#Text=Sie wurden mir für 180 Scudi jeder angeboten : die Größe ist wie die des Sosias , oder wenig geringer : der Styl weniger streng , aber schöner .
+8-1	649-652	Sie	_	_
+8-2	653-659	wurden	_	_
+8-3	660-663	mir	_	_
+8-4	664-667	für	_	_
+8-5	668-671	180	_	_
+8-6	672-677	Scudi	_	_
+8-7	678-683	jeder	_	_
+8-8	684-693	angeboten	_	_
+8-9	694-695	:	_	_
+8-10	696-699	die	_	_
+8-11	700-705	Größe	_	_
+8-12	706-709	ist	_	_
+8-13	710-713	wie	_	_
+8-14	714-717	die	_	_
+8-15	718-721	des	_	_
+8-16	722-728	Sosias	*	MISC
+8-17	729-730	,	_	_
+8-18	731-735	oder	_	_
+8-19	736-741	wenig	_	_
+8-20	742-750	geringer	_	_
+8-21	751-752	:	_	_
+8-22	753-756	der	_	_
+8-23	757-761	Styl	_	_
+8-24	762-769	weniger	_	_
+8-25	770-776	streng	_	_
+8-26	777-778	,	_	_
+8-27	779-783	aber	_	_
+8-28	784-791	schöner	_	_
+8-29	792-793	.	_	_
+
+#Text=Endlich ein Gefäß mit der schönsten Composition : Aegisthus , wie Orest ihn ersticht hinter dem Sohn steht die Mutter , drohend das Beil erhebend : ihr gegenüber Electra mit großartigem Zorn ihn ermunternd : alle mit Namen : gegenüber hat das Gefäß sehr gelitten , doch sind die Haupttheile der vier Figuren erhalten .
+9-1	794-801	Endlich	_	_
+9-2	802-805	ein	_	_
+9-3	806-811	Gefäß	*	OBJ
+9-4	812-815	mit	_	_
+9-5	816-819	der	_	_
+9-6	820-829	schönsten	_	_
+9-7	830-841	Composition	_	_
+9-8	842-843	:	_	_
+9-9	844-853	Aegisthus	*	MISC
+9-10	854-855	,	_	_
+9-11	856-859	wie	_	_
+9-12	860-865	Orest	*	MISC
+9-13	866-869	ihn	_	_
+9-14	870-878	ersticht	_	_
+9-15	879-885	hinter	_	_
+9-16	886-889	dem	_	_
+9-17	890-894	Sohn	_	_
+9-18	895-900	steht	_	_
+9-19	901-904	die	_	_
+9-20	905-911	Mutter	_	_
+9-21	912-913	,	_	_
+9-22	914-921	drohend	_	_
+9-23	922-925	das	_	_
+9-24	926-930	Beil	_	_
+9-25	931-939	erhebend	_	_
+9-26	940-941	:	_	_
+9-27	942-945	ihr	_	_
+9-28	946-955	gegenüber	_	_
+9-29	956-963	Electra	*	MISC
+9-30	964-967	mit	_	_
+9-31	968-979	großartigem	_	_
+9-32	980-984	Zorn	_	_
+9-33	985-988	ihn	_	_
+9-34	989-999	ermunternd	_	_
+9-35	1000-1001	:	_	_
+9-36	1002-1006	alle	_	_
+9-37	1007-1010	mit	_	_
+9-38	1011-1016	Namen	_	_
+9-39	1017-1018	:	_	_
+9-40	1019-1028	gegenüber	_	_
+9-41	1029-1032	hat	_	_
+9-42	1033-1036	das	_	_
+9-43	1037-1042	Gefäß	_	_
+9-44	1043-1047	sehr	_	_
+9-45	1048-1056	gelitten	_	_
+9-46	1057-1058	,	_	_
+9-47	1059-1063	doch	_	_
+9-48	1064-1068	sind	_	_
+9-49	1069-1072	die	_	_
+9-50	1073-1084	Haupttheile	_	_
+9-51	1085-1088	der	_	_
+9-52	1089-1093	vier	_	_
+9-53	1094-1101	Figuren	_	_
+9-54	1102-1110	erhalten	_	_
+9-55	1111-1112	.	_	_
+
+#Text=Hiefür forderte er 280 Scudi , als restaurato .
+10-1	1113-1119	Hiefür	_	_
+10-2	1120-1128	forderte	_	_
+10-3	1129-1131	er	_	_
+10-4	1132-1135	280	_	_
+10-5	1136-1141	Scudi	_	_
+10-6	1142-1143	,	_	_
+10-7	1144-1147	als	_	_
+10-8	1148-1158	restaurato	_	_
+10-9	1159-1160	.	_	_
+
+#Text=Ich machte aus , sie sollten mir zugeschickt werden , und bis 20 August ich Zeit habe Antwort zu haben .
+11-1	1161-1164	Ich	_	_
+11-2	1165-1171	machte	_	_
+11-3	1172-1175	aus	_	_
+11-4	1176-1177	,	_	_
+11-5	1178-1181	sie	_	_
+11-6	1182-1189	sollten	_	_
+11-7	1190-1193	mir	_	_
+11-8	1194-1205	zugeschickt	_	_
+11-9	1206-1212	werden	_	_
+11-10	1213-1214	,	_	_
+11-11	1215-1218	und	_	_
+11-12	1219-1222	bis	_	_
+11-13	1223-1225	20	*[18]	DATEmentioned[18]
+11-14	1226-1232	August	*[18]	DATEmentioned[18]
+11-15	1233-1236	ich	_	_
+11-16	1237-1241	Zeit	_	_
+11-17	1242-1246	habe	_	_
+11-18	1247-1254	Antwort	_	_
+11-19	1255-1257	zu	_	_
+11-20	1258-1263	haben	_	_
+11-21	1264-1265	.	_	_
+
+#Text=Erst vor einigen Tagen sind sie beisammen .
+12-1	1266-1270	Erst	_	_
+12-2	1271-1274	vor	_	_
+12-3	1275-1282	einigen	_	_
+12-4	1283-1288	Tagen	_	_
+12-5	1289-1293	sind	_	_
+12-6	1294-1297	sie	_	_
+12-7	1298-1307	beisammen	_	_
+12-8	1308-1309	.	_	_
+
+#Text=Dienstag 9 ten d. gehn .
+13-1	1310-1318	Dienstag	*[19]	DATEmentioned[19]
+13-2	1319-1320	9	*[19]	DATEmentioned[19]
+13-3	1321-1324	ten	*[19]	DATEmentioned[19]
+13-4	1325-1327	d.	_	_
+13-5	1328-1332	gehn	_	_
+13-6	1333-1334	.	_	_
+
+#Text=°
+14-1	1335-1336	°	_	_

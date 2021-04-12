@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.
+1-1	0-1	.	_	_
+
+#Text=114 Henzen an Gerhard 30/IV/55 Verehrter Herr Professor !
+2-1	2-5	114	_	_
+2-2	6-12	Henzen	*	PERauthor
+2-3	13-15	an	_	_
+2-4	16-23	Gerhard	*	PERaddressee
+2-5	24-32	30/IV/55	*	DATEletter
+2-6	33-42	Verehrter	_	_
+2-7	43-47	Herr	_	_
+2-8	48-57	Professor	_	_
+2-9	58-59	!	_	_
+
+#Text=Alla vigilia della partenza !
+3-1	60-64	Alla	_	_
+3-2	65-72	vigilia	_	_
+3-3	73-78	della	_	_
+3-4	79-87	partenza	_	_
+3-5	88-89	!	_	_
+
+#Text=- Sollte ich nach Berlin kommen , so besprechen wir wohl mündlich u. gründlich alle Calamitäten u. dem Institut drohende Gefahren .
+4-1	90-91	-	_	_
+4-2	92-98	Sollte	_	_
+4-3	99-102	ich	_	_
+4-4	103-107	nach	_	_
+4-5	108-114	Berlin	*	PLACEmentioned
+4-6	115-121	kommen	_	_
+4-7	122-123	,	_	_
+4-8	124-126	so	_	_
+4-9	127-137	besprechen	_	_
+4-10	138-141	wir	_	_
+4-11	142-146	wohl	_	_
+4-12	147-155	mündlich	_	_
+4-13	156-158	u.	_	_
+4-14	159-168	gründlich	_	_
+4-15	169-173	alle	_	_
+4-16	174-185	Calamitäten	_	_
+4-17	186-188	u.	_	_
+4-18	189-192	dem	_	_
+4-19	193-201	Institut	*	ORGmentioned
+4-20	202-210	drohende	_	_
+4-21	211-219	Gefahren	_	_
+4-22	220-221	.	_	_
+
+#Text=- Annali 54 fertig \; nur noch nicht fertig eingeklebt u. gebunden .
+5-1	222-223	-	_	_
+5-2	224-230	Annali	_	_
+5-3	231-233	54	_	_
+5-4	234-240	fertig	_	_
+5-5	241-242	\;	_	_
+5-6	243-246	nur	_	_
+5-7	247-251	noch	_	_
+5-8	252-257	nicht	_	_
+5-9	258-264	fertig	_	_
+5-10	265-275	eingeklebt	_	_
+5-11	276-278	u.	_	_
+5-12	279-287	gebunden	_	_
+5-13	288-289	.	_	_
+
+#Text=Index werde ich in Breslau nach Kräften fördern .
+6-1	290-295	Index	_	_
+6-2	296-301	werde	_	_
+6-3	302-305	ich	_	_
+6-4	306-308	in	_	_
+6-5	309-316	Breslau	*	PLACEmentioned
+6-6	317-321	nach	_	_
+6-7	322-329	Kräften	_	_
+6-8	330-337	fördern	_	_
+6-9	338-339	.	_	_
+
+#Text=-— Für 55 neue , wirklich schöne Lettern angeschafft , denen zu Gefallen Braun um 2 - 3 Wochen ds . Bullettino suspendirt , für das bereits das NMss .
+7-1	340-342	-—	_	_
+7-2	343-346	Für	_	_
+7-3	347-349	55	_	_
+7-4	350-354	neue	_	_
+7-5	355-356	,	_	_
+7-6	357-365	wirklich	_	_
+7-7	366-372	schöne	_	_
+7-8	373-380	Lettern	_	_
+7-9	381-392	angeschafft	_	_
+7-10	393-394	,	_	_
+7-11	395-400	denen	_	_
+7-12	401-403	zu	_	_
+7-13	404-412	Gefallen	_	_
+7-14	413-418	Braun	*	PERmentioned
+7-15	419-421	um	_	_
+7-16	422-423	2	_	_
+7-17	424-425	-	_	_
+7-18	426-427	3	_	_
+7-19	428-434	Wochen	_	_
+7-20	435-437	ds	_	_
+7-21	438-439	.	_	_
+7-22	440-450	Bullettino	_	_
+7-23	451-461	suspendirt	_	_
+7-24	462-463	,	_	_
+7-25	464-467	für	_	_
+7-26	468-471	das	_	_
+7-27	472-479	bereits	_	_
+7-28	480-483	das	_	_
+7-29	484-488	NMss	_	_
+7-30	489-490	.	_	_
+
+#Text=in der Druckerei war .
+8-1	491-493	in	_	_
+8-2	494-497	der	_	_
+8-3	498-507	Druckerei	_	_
+8-4	508-511	war	_	_
+8-5	512-513	.	_	_
+
+#Text=ug Einen Achill kennt Br . nicht .
+9-1	514-516	ug	_	_
+9-2	517-522	Einen	_	_
+9-3	523-529	Achill	*	PERmentioned
+9-4	530-535	kennt	_	_
+9-5	536-538	Br	*[4]	PERmentioned[4]
+9-6	539-540	.	*[4]	PERmentioned[4]
+9-7	541-546	nicht	_	_
+9-8	547-548	.	_	_
+
+#Text=Einer der Kolosse von M. Cavallo sei möglicher Weise Lysippisch .
+10-1	549-554	Einer	_	_
+10-2	555-558	der	_	_
+10-3	559-566	Kolosse	*	OBJ
+10-4	567-570	von	_	_
+10-5	571-573	M.	*[1]	PLACEmentioned[1]
+10-6	574-581	Cavallo	*[1]	PLACEmentioned[1]
+10-7	582-585	sei	_	_
+10-8	586-595	möglicher	_	_
+10-9	596-601	Weise	_	_
+10-10	602-612	Lysippisch	_	_
+10-11	613-614	.	_	_
+
+#Text=en Vorgestern bis 2 Uhr noch im Vatican , habe ich die Abschrift ds . ganzen Museuns fertig gekriegt \; seit Ostern furchtbar gearbeitet .
+11-1	615-617	en	_	_
+11-2	618-628	Vorgestern	_	_
+11-3	629-632	bis	_	_
+11-4	633-634	2	_	_
+11-5	635-638	Uhr	_	_
+11-6	639-643	noch	_	_
+11-7	644-646	im	_	_
+11-8	647-654	Vatican	*	PLACEmentioned
+11-9	655-656	,	_	_
+11-10	657-661	habe	_	_
+11-11	662-665	ich	_	_
+11-12	666-669	die	_	_
+11-13	670-679	Abschrift	_	_
+11-14	680-682	ds	_	_
+11-15	683-684	.	_	_
+11-16	685-691	ganzen	_	_
+11-17	692-699	Museuns	*	ORGmentioned
+11-18	700-706	fertig	_	_
+11-19	707-715	gekriegt	_	_
+11-20	716-717	\;	_	_
+11-21	718-722	seit	_	_
+11-22	723-729	Ostern	_	_
+11-23	730-739	furchtbar	_	_
+11-24	740-750	gearbeitet	_	_
+11-25	751-752	.	_	_
+
+#Text=Es mußte aber abgemacht werden , um so mehr , da ja Preußen ’ s Angelegenheiten hier immer etwas schwanken .
+12-1	753-755	Es	_	_
+12-2	756-761	mußte	_	_
+12-3	762-766	aber	_	_
+12-4	767-776	abgemacht	_	_
+12-5	777-783	werden	_	_
+12-6	784-785	,	_	_
+12-7	786-788	um	_	_
+12-8	789-791	so	_	_
+12-9	792-796	mehr	_	_
+12-10	797-798	,	_	_
+12-11	799-801	da	_	_
+12-12	802-804	ja	_	_
+12-13	805-812	Preußen	_	_
+12-14	813-814	’	_	_
+12-15	815-816	s	_	_
+12-16	817-832	Angelegenheiten	_	_
+12-17	833-837	hier	_	_
+12-18	838-843	immer	_	_
+12-19	844-849	etwas	_	_
+12-20	850-859	schwanken	_	_
+12-21	860-861	.	_	_
+
+#Text=- \] Vom 20° .
+13-1	862-863	-	_	_
+13-2	864-865	\]	_	_
+13-3	866-869	Vom	_	_
+13-4	870-873	20°	*[2]	DATEmentioned[2]
+13-5	874-875	.	*[2]	DATEmentioned[2]
+
+#Text=Mai an wird ein Copist suspendirt \; der PL 27 rn andre bessere bleibt auch im Sommer , u. lasse ich de Rossi 76 Scudi zur Bestreitung der Kosten bis October .
+14-1	876-879	Mai	*[2]	DATEmentioned[2]
+14-2	880-882	an	_	_
+14-3	883-887	wird	_	_
+14-4	888-891	ein	_	_
+14-5	892-898	Copist	_	_
+14-6	899-909	suspendirt	_	_
+14-7	910-911	\;	_	_
+14-8	912-915	der	_	_
+14-9	916-918	PL	_	_
+14-10	919-921	27	_	_
+14-11	922-924	rn	_	_
+14-12	925-930	andre	_	_
+14-13	931-938	bessere	_	_
+14-14	939-945	bleibt	_	_
+14-15	946-950	auch	_	_
+14-16	951-953	im	_	_
+14-17	954-960	Sommer	_	_
+14-18	961-962	,	_	_
+14-19	963-965	u.	_	_
+14-20	966-971	lasse	_	_
+14-21	972-975	ich	_	_
+14-22	976-978	de	*[3]	PERmentioned[3]
+14-23	979-984	Rossi	*[3]	PERmentioned[3]
+14-24	985-987	76	_	_
+14-25	988-993	Scudi	_	_
+14-26	994-997	zur	_	_
+14-27	998-1009	Bestreitung	_	_
+14-28	1010-1013	der	_	_
+14-29	1014-1020	Kosten	_	_
+14-30	1021-1024	bis	_	_
+14-31	1025-1032	October	*	DATEmentioned
+14-32	1033-1034	.	_	_
+
+#Text=Von , „ Breslau aus lege ich Rechnung ab u. werde um neue Fonds \| für den Winter bitten .
+15-1	1035-1038	Von	_	_
+15-2	1039-1040	,	_	_
+15-3	1041-1042	„	_	_
+15-4	1043-1050	Breslau	*	PLACEmentioned
+15-5	1051-1054	aus	_	_
+15-6	1055-1059	lege	_	_
+15-7	1060-1063	ich	_	_
+15-8	1064-1072	Rechnung	_	_
+15-9	1073-1075	ab	_	_
+15-10	1076-1078	u.	_	_
+15-11	1079-1084	werde	_	_
+15-12	1085-1087	um	_	_
+15-13	1088-1092	neue	_	_
+15-14	1093-1098	Fonds	_	_
+15-15	1099-1100	\|	_	_
+15-16	1101-1104	für	_	_
+15-17	1105-1108	den	_	_
+15-18	1109-1115	Winter	_	_
+15-19	1116-1122	bitten	_	_
+15-20	1123-1124	.	_	_
+
+#Text=Minervini sehnt sich , M. ord .
+16-1	1125-1134	Minervini	*	PERmentioned
+16-2	1135-1140	sehnt	_	_
+16-3	1141-1145	sich	_	_
+16-4	1146-1147	,	_	_
+16-5	1148-1150	M.	_	_
+16-6	1151-1154	ord	_	_
+16-7	1155-1156	.	_	_
+
+#Text=zu werden , \| Meine Frau hatte vor 8 Tagen schon einen ganz leichten nn ihres Uebels , ist aber völlig hergestellt u. befindet sich bei eingetretner kühler Witterung sehr wohl .
+17-1	1157-1159	zu	_	_
+17-2	1160-1166	werden	_	_
+17-3	1167-1168	,	_	_
+17-4	1169-1170	\|	_	_
+17-5	1171-1176	Meine	_	_
+17-6	1177-1181	Frau	_	_
+17-7	1182-1187	hatte	_	_
+17-8	1188-1191	vor	_	_
+17-9	1192-1193	8	_	_
+17-10	1194-1199	Tagen	_	_
+17-11	1200-1205	schon	_	_
+17-12	1206-1211	einen	_	_
+17-13	1212-1216	ganz	_	_
+17-14	1217-1225	leichten	_	_
+17-15	1226-1228	nn	_	_
+17-16	1229-1234	ihres	_	_
+17-17	1235-1241	Uebels	_	_
+17-18	1242-1243	,	_	_
+17-19	1244-1247	ist	_	_
+17-20	1248-1252	aber	_	_
+17-21	1253-1259	völlig	_	_
+17-22	1260-1271	hergestellt	_	_
+17-23	1272-1274	u.	_	_
+17-24	1275-1283	befindet	_	_
+17-25	1284-1288	sich	_	_
+17-26	1289-1292	bei	_	_
+17-27	1293-1305	eingetretner	_	_
+17-28	1306-1312	kühler	_	_
+17-29	1313-1322	Witterung	_	_
+17-30	1323-1327	sehr	_	_
+17-31	1328-1332	wohl	_	_
+17-32	1333-1334	.	_	_

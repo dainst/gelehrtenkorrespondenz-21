@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N ‚ 537 Helbig an Henzen Neapel , 28. Juli 1864 1/8 64 Neapel 28. Juli 1864 .
+1-1	0-1	N	_	_
+1-2	2-3	‚	_	_
+1-3	4-7	537	_	_
+1-4	8-14	Helbig	*	PERauthor
+1-5	15-17	an	_	_
+1-6	18-24	Henzen	*	PERaddressee
+1-7	25-31	Neapel	*	PLACEfrom
+1-8	32-33	,	_	_
+1-9	34-37	28.	*[1]	DATEletter[1]
+1-10	38-42	Juli	*[1]	DATEletter[1]
+1-11	43-47	1864	*[1]	DATEletter[1]
+1-12	48-51	1/8	*[2]	DATErecieved[2]
+1-13	52-54	64	*[2]	DATErecieved[2]
+1-14	55-61	Neapel	*	PLACEfrom
+1-15	62-65	28.	*[3]	DATEletter[3]
+1-16	66-70	Juli	*[3]	DATEletter[3]
+1-17	71-75	1864	*[3]	DATEletter[3]
+1-18	76-77	.	_	_
+
+#Text=Geehrtester Herr Professor !
+2-1	78-89	Geehrtester	_	_
+2-2	90-94	Herr	_	_
+2-3	95-104	Professor	_	_
+2-4	105-106	!	_	_
+
+#Text=Beiliegend Scavi di Calvi .
+3-1	107-117	Beiliegend	_	_
+3-2	118-123	Scavi	_	_
+3-3	124-126	di	_	_
+3-4	127-132	Calvi	*	PLACEmentioned
+3-5	133-134	.	_	_
+
+#Text=Daß ich die große Inschrift nicht copiren durfte , liegt nicht an Novi , sondern an Minervini , welcher eifersüchtig darum herum nörgelt .
+4-1	135-138	Daß	_	_
+4-2	139-142	ich	_	_
+4-3	143-146	die	_	_
+4-4	147-152	große	_	_
+4-5	153-162	Inschrift	*	OBJ
+4-6	163-168	nicht	_	_
+4-7	169-176	copiren	_	_
+4-8	177-183	durfte	_	_
+4-9	184-185	,	_	_
+4-10	186-191	liegt	_	_
+4-11	192-197	nicht	_	_
+4-12	198-200	an	_	_
+4-13	201-205	Novi	*	PERmentioned
+4-14	206-207	,	_	_
+4-15	208-215	sondern	_	_
+4-16	216-218	an	_	_
+4-17	219-228	Minervini	*	PERmentioned
+4-18	229-230	,	_	_
+4-19	231-238	welcher	_	_
+4-20	239-251	eifersüchtig	_	_
+4-21	252-257	darum	_	_
+4-22	258-263	herum	_	_
+4-23	264-271	nörgelt	_	_
+4-24	272-273	.	_	_
+
+#Text=Novi hat mich sehr freundlich aufgenommen und dankt für das Diplom .
+5-1	274-278	Novi	*	PERmentioned
+5-2	279-282	hat	_	_
+5-3	283-287	mich	_	_
+5-4	288-292	sehr	_	_
+5-5	293-303	freundlich	_	_
+5-6	304-315	aufgenommen	_	_
+5-7	316-319	und	_	_
+5-8	320-325	dankt	_	_
+5-9	326-329	für	_	_
+5-10	330-333	das	_	_
+5-11	334-340	Diplom	_	_
+5-12	341-342	.	_	_
+
+#Text=Da er eitel , aber nützlich ist , bitte ich meine Lobesfloskel stehen zu lassen .
+6-1	343-345	Da	_	_
+6-2	346-348	er	_	_
+6-3	349-354	eitel	_	_
+6-4	355-356	,	_	_
+6-5	357-361	aber	_	_
+6-6	362-370	nützlich	_	_
+6-7	371-374	ist	_	_
+6-8	375-376	,	_	_
+6-9	377-382	bitte	_	_
+6-10	383-386	ich	_	_
+6-11	387-392	meine	_	_
+6-12	393-405	Lobesfloskel	_	_
+6-13	406-412	stehen	_	_
+6-14	413-415	zu	_	_
+6-15	416-422	lassen	_	_
+6-16	423-424	.	_	_
+
+#Text=An neuen Entdeckungen die Hülle und Fülle : in Paestum ein wahrscheinlich oskisches Grab mit Gemälden .
+7-1	425-427	An	_	_
+7-2	428-433	neuen	_	_
+7-3	434-446	Entdeckungen	_	_
+7-4	447-450	die	_	_
+7-5	451-456	Hülle	_	_
+7-6	457-460	und	_	_
+7-7	461-466	Fülle	_	_
+7-8	467-468	:	_	_
+7-9	469-471	in	_	_
+7-10	472-479	Paestum	*	PLACEmentioned
+7-11	480-483	ein	_	_
+7-12	484-498	wahrscheinlich	_	_
+7-13	499-508	oskisches	*[4]	OBJ[4]
+7-14	509-513	Grab	*[4]	OBJ[4]
+7-15	514-517	mit	_	_
+7-16	518-526	Gemälden	*	OBJ
+7-17	527-528	.	_	_
+
+#Text=Außerdem habe ich in Erfahrung gebracht , daß ein Marchese Bellisle in einem bei Paestum gelegenen Casino eine Menge der in Paestum in den letzten Jahren gefundenen Vasen und Terracotten aufgespeichert hat und er sie nächstens zu verkaufen gedenkt ( Berliner Museum ? )
+8-1	529-537	Außerdem	_	_
+8-2	538-542	habe	_	_
+8-3	543-546	ich	_	_
+8-4	547-549	in	_	_
+8-5	550-559	Erfahrung	_	_
+8-6	560-568	gebracht	_	_
+8-7	569-570	,	_	_
+8-8	571-574	daß	_	_
+8-9	575-578	ein	_	_
+8-10	579-587	Marchese	*[5]	PERmentioned[5]
+8-11	588-596	Bellisle	*[5]	PERmentioned[5]
+8-12	597-599	in	_	_
+8-13	600-605	einem	_	_
+8-14	606-609	bei	_	_
+8-15	610-617	Paestum	*	PLACEmentioned
+8-16	618-627	gelegenen	_	_
+8-17	628-634	Casino	_	_
+8-18	635-639	eine	_	_
+8-19	640-645	Menge	_	_
+8-20	646-649	der	_	_
+8-21	650-652	in	_	_
+8-22	653-660	Paestum	*	PLACEmentioned
+8-23	661-663	in	_	_
+8-24	664-667	den	_	_
+8-25	668-675	letzten	_	_
+8-26	676-682	Jahren	_	_
+8-27	683-693	gefundenen	_	_
+8-28	694-699	Vasen	*	OBJ
+8-29	700-703	und	_	_
+8-30	704-715	Terracotten	*	OBJ
+8-31	716-730	aufgespeichert	_	_
+8-32	731-734	hat	_	_
+8-33	735-738	und	_	_
+8-34	739-741	er	_	_
+8-35	742-745	sie	_	_
+8-36	746-755	nächstens	_	_
+8-37	756-758	zu	_	_
+8-38	759-768	verkaufen	_	_
+8-39	769-776	gedenkt	_	_
+8-40	777-778	(	_	_
+8-41	779-787	Berliner	*[6]	ORGmentioned[6]
+8-42	788-794	Museum	*[6]	ORGmentioned[6]
+8-43	795-796	?	_	_
+8-44	797-798	)	_	_
+
+#Text=.
+9-1	799-800	.	_	_
+
+#Text=Drittens habe ich eine Notiz von Peytriguet in Pagani erhalten , worin er mir mittheilt , daß er eine Sammlung nolaner und paestumer Terracotten aquirirt hat .
+10-1	801-809	Drittens	_	_
+10-2	810-814	habe	_	_
+10-3	815-818	ich	_	_
+10-4	819-823	eine	_	_
+10-5	824-829	Notiz	_	_
+10-6	830-833	von	_	_
+10-7	834-844	Peytriguet	*	PERmentioned
+10-8	845-847	in	_	_
+10-9	848-854	Pagani	*	PLACEmentioned
+10-10	855-863	erhalten	_	_
+10-11	864-865	,	_	_
+10-12	866-871	worin	_	_
+10-13	872-874	er	_	_
+10-14	875-878	mir	_	_
+10-15	879-888	mittheilt	_	_
+10-16	889-890	,	_	_
+10-17	891-894	daß	_	_
+10-18	895-897	er	_	_
+10-19	898-902	eine	_	_
+10-20	903-911	Sammlung	_	_
+10-21	912-919	nolaner	*	MISC
+10-22	920-923	und	_	_
+10-23	924-933	paestumer	*	MISC
+10-24	934-945	Terracotten	_	_
+10-25	946-954	aquirirt	_	_
+10-26	955-958	hat	_	_
+10-27	959-960	.	_	_
+
+#Text=Sollen diese Dinge ausgebeutet werden oder nicht ?
+11-1	961-967	Sollen	_	_
+11-2	968-973	diese	_	_
+11-3	974-979	Dinge	_	_
+11-4	980-991	ausgebeutet	_	_
+11-5	992-998	werden	_	_
+11-6	999-1003	oder	_	_
+11-7	1004-1009	nicht	_	_
+11-8	1010-1011	?	_	_
+
+#Text=Ich habe kein Geld für derartige Touren , zumal unter obwaltenden Umständen , wo ein dreiwöchentliches Stillschweigen von Seiten Gerhards nach der bisher sehr regen Correspondenz auf nichts Gutes deutet .
+12-1	1012-1015	Ich	_	_
+12-2	1016-1020	habe	_	_
+12-3	1021-1025	kein	_	_
+12-4	1026-1030	Geld	_	_
+12-5	1031-1034	für	_	_
+12-6	1035-1044	derartige	_	_
+12-7	1045-1051	Touren	_	_
+12-8	1052-1053	,	_	_
+12-9	1054-1059	zumal	_	_
+12-10	1060-1065	unter	_	_
+12-11	1066-1077	obwaltenden	_	_
+12-12	1078-1087	Umständen	_	_
+12-13	1088-1089	,	_	_
+12-14	1090-1092	wo	_	_
+12-15	1093-1096	ein	_	_
+12-16	1097-1114	dreiwöchentliches	_	_
+12-17	1115-1129	Stillschweigen	_	_
+12-18	1130-1133	von	_	_
+12-19	1134-1140	Seiten	_	_
+12-20	1141-1149	Gerhards	*	PERmentioned
+12-21	1150-1154	nach	_	_
+12-22	1155-1158	der	_	_
+12-23	1159-1165	bisher	_	_
+12-24	1166-1170	sehr	_	_
+12-25	1171-1176	regen	_	_
+12-26	1177-1190	Correspondenz	_	_
+12-27	1191-1194	auf	_	_
+12-28	1195-1201	nichts	_	_
+12-29	1202-1207	Gutes	_	_
+12-30	1208-1214	deutet	_	_
+12-31	1215-1216	.	_	_
+
+#Text=Es
+13-1	1217-1219	Es	_	_

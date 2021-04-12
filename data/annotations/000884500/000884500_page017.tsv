@@ -1,0 +1,166 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	16	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Janugr 1838 - 6 - pfehlen .
+2-1	31-37	Janugr	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-44	-	_	_
+2-4	45-46	6	_	_
+2-5	47-48	-	_	_
+2-6	49-56	pfehlen	_	_
+2-7	57-58	.	_	_
+
+#Text=- Daß Parthey Franzens Sach übernimmt wird Ritschl ausführlich geschrieben haben .
+3-1	59-60	-	_	_
+3-2	61-64	Daß	_	_
+3-3	65-72	Parthey	*	PERmentioned
+3-4	73-81	Franzens	*	PERmentioned
+3-5	82-86	Sach	_	_
+3-6	87-96	übernimmt	_	_
+3-7	97-101	wird	_	_
+3-8	102-109	Ritschl	*	PERmentioned
+3-9	110-121	ausführlich	_	_
+3-10	122-133	geschrieben	_	_
+3-11	134-139	haben	_	_
+3-12	140-141	.	_	_
+
+#Text=- Daß Vollard so bedeutend für mich im Vorschuß so lange gewesen ist , ist mir überraschend und leid \; entschuldigen Sie es bestens .
+4-1	142-143	-	_	_
+4-2	144-147	Daß	_	_
+4-3	148-155	Vollard	*	PERmentioned
+4-4	156-158	so	_	_
+4-5	159-168	bedeutend	_	_
+4-6	169-172	für	_	_
+4-7	173-177	mich	_	_
+4-8	178-180	im	_	_
+4-9	181-189	Vorschuß	_	_
+4-10	190-192	so	_	_
+4-11	193-198	lange	_	_
+4-12	199-206	gewesen	_	_
+4-13	207-210	ist	_	_
+4-14	211-212	,	_	_
+4-15	213-216	ist	_	_
+4-16	217-220	mir	_	_
+4-17	221-233	überraschend	_	_
+4-18	234-237	und	_	_
+4-19	238-242	leid	_	_
+4-20	243-244	\;	_	_
+4-21	245-258	entschuldigen	_	_
+4-22	259-262	Sie	_	_
+4-23	263-265	es	_	_
+4-24	266-273	bestens	_	_
+4-25	274-275	.	_	_
+
+#Text=- Was ist an dem Gerücht von Dr. F 11's Heirathsprojekten ?
+5-1	276-277	-	_	_
+5-2	278-281	Was	_	_
+5-3	282-285	ist	_	_
+5-4	286-288	an	_	_
+5-5	289-292	dem	_	_
+5-6	293-300	Gerücht	_	_
+5-7	301-304	von	_	_
+5-8	305-308	Dr.	*[9]	PERmentioned[9]
+5-9	309-310	F	*[9]	PERmentioned[9]
+5-10	311-315	11's	*[9]	PERmentioned[9]
+5-11	316-333	Heirathsprojekten	_	_
+5-12	334-335	?	_	_
+
+#Text=- Ist Heyse wieder in Rom ?
+6-1	336-337	-	_	_
+6-2	338-341	Ist	_	_
+6-3	342-347	Heyse	*	PERmentioned
+6-4	348-354	wieder	_	_
+6-5	355-357	in	_	_
+6-6	358-361	Rom	*	PLACEmentioned
+6-7	362-363	?	_	_
+
+#Text=- Da ich höre daß Schulz noch in Neapel sei , lege ich noch einen Zettel für ihn bei .
+7-1	364-365	-	_	_
+7-2	366-368	Da	_	_
+7-3	369-372	ich	_	_
+7-4	373-377	höre	_	_
+7-5	378-381	daß	_	_
+7-6	382-388	Schulz	*	PERmentioned
+7-7	389-393	noch	_	_
+7-8	394-396	in	_	_
+7-9	397-403	Neapel	*	PLACEmentioned
+7-10	404-407	sei	_	_
+7-11	408-409	,	_	_
+7-12	410-414	lege	_	_
+7-13	415-418	ich	_	_
+7-14	419-423	noch	_	_
+7-15	424-429	einen	_	_
+7-16	430-436	Zettel	_	_
+7-17	437-440	für	_	_
+7-18	441-444	ihn	_	_
+7-19	445-448	bei	_	_
+7-20	449-450	.	_	_
+
+#Text=Wäre es nicht jezt Zeit an dortige Zeichnungen zu denken oder glauben Sie selbst im Frühjahr nach Neapel zu kommen .
+8-1	451-455	Wäre	_	_
+8-2	456-458	es	_	_
+8-3	459-464	nicht	_	_
+8-4	465-469	jezt	_	_
+8-5	470-474	Zeit	_	_
+8-6	475-477	an	_	_
+8-7	478-485	dortige	_	_
+8-8	486-497	Zeichnungen	_	_
+8-9	498-500	zu	_	_
+8-10	501-507	denken	_	_
+8-11	508-512	oder	_	_
+8-12	513-520	glauben	_	_
+8-13	521-524	Sie	_	_
+8-14	525-531	selbst	_	_
+8-15	532-534	im	_	_
+8-16	535-543	Frühjahr	_	_
+8-17	544-548	nach	_	_
+8-18	549-555	Neapel	*	PLACEmentioned
+8-19	556-558	zu	_	_
+8-20	559-565	kommen	_	_
+8-21	566-567	.	_	_
+
+#Text=- Hier werden wir erst freier athmen wenn Göttingen und Köln , item Rom , wieder beruhigt sind .
+9-1	568-569	-	_	_
+9-2	570-574	Hier	_	_
+9-3	575-581	werden	_	_
+9-4	582-585	wir	_	_
+9-5	586-590	erst	_	_
+9-6	591-597	freier	_	_
+9-7	598-604	athmen	_	_
+9-8	605-609	wenn	_	_
+9-9	610-619	Göttingen	*	PLACEmentioned
+9-10	620-623	und	_	_
+9-11	624-628	Köln	*	PLACEmentioned
+9-12	629-630	,	_	_
+9-13	631-635	item	_	_
+9-14	636-639	Rom	*	PLACEmentioned
+9-15	640-641	,	_	_
+9-16	642-648	wieder	_	_
+9-17	649-657	beruhigt	_	_
+9-18	658-662	sind	_	_
+9-19	663-664	.	_	_
+
+#Text=Lepsio S. P. andre gute Freunde desgleichen .
+10-1	665-671	Lepsio	*	PERmentioned
+10-2	672-674	S.	_	_
+10-3	675-677	P.	_	_
+10-4	678-683	andre	_	_
+10-5	684-688	gute	_	_
+10-6	689-696	Freunde	_	_
+10-7	697-708	desgleichen	_	_
+10-8	709-710	.	_	_
+
+#Text=Herzlichst Ihr Gerhard
+11-1	711-721	Herzlichst	_	_
+11-2	722-725	Ihr	_	_
+11-3	726-733	Gerhard	*	PERauthor

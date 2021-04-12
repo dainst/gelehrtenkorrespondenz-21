@@ -1,0 +1,279 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=A f Braun an Gerhard Berlin , 12 .
+1-1	0-1	A	_	_
+1-2	2-3	f	_	_
+1-3	4-9	Braun	*	PERauthor
+1-4	10-12	an	_	_
+1-5	13-20	Gerhard	*	PERaddressee
+1-6	21-27	Berlin	*	PLACEfrom
+1-7	28-29	,	_	_
+1-8	30-32	12	*[1]	DATEletter[1]
+1-9	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1833 Ich hätte meinen sollen , Sie hätten mancherlei Notizen von mir erhalten .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1833	*[1]	DATEletter[1]
+2-3	47-50	Ich	_	_
+2-4	51-56	hätte	_	_
+2-5	57-63	meinen	_	_
+2-6	64-70	sollen	_	_
+2-7	71-72	,	_	_
+2-8	73-76	Sie	_	_
+2-9	77-83	hätten	_	_
+2-10	84-94	mancherlei	_	_
+2-11	95-102	Notizen	_	_
+2-12	103-106	von	_	_
+2-13	107-110	mir	_	_
+2-14	111-119	erhalten	_	_
+2-15	120-121	.	_	_
+
+#Text=VUebrigens ists hier sehr todt und stille , nachdem alle Freunde und Bekannte abgereist sind .
+3-1	122-132	VUebrigens	_	_
+3-2	133-137	ists	_	_
+3-3	138-142	hier	_	_
+3-4	143-147	sehr	_	_
+3-5	148-152	todt	_	_
+3-6	153-156	und	_	_
+3-7	157-163	stille	_	_
+3-8	164-165	,	_	_
+3-9	166-173	nachdem	_	_
+3-10	174-178	alle	_	_
+3-11	179-186	Freunde	_	_
+3-12	187-190	und	_	_
+3-13	191-199	Bekannte	_	_
+3-14	200-209	abgereist	_	_
+3-15	210-214	sind	_	_
+3-16	215-216	.	_	_
+
+#Text=- Am politischen Himmel soll es bedenklich aussehen .
+4-1	217-218	-	_	_
+4-2	219-221	Am	_	_
+4-3	222-233	politischen	_	_
+4-4	234-240	Himmel	_	_
+4-5	241-245	soll	_	_
+4-6	246-248	es	_	_
+4-7	249-259	bedenklich	_	_
+4-8	260-268	aussehen	_	_
+4-9	269-270	.	_	_
+
+#Text=Der König von Töplitz von den Wiener und Berliner französischen Gesandten umlagert , soll sehr bänglich aussehen .
+5-1	271-274	Der	_	_
+5-2	275-280	König	_	_
+5-3	281-284	von	_	_
+5-4	285-292	Töplitz	_	_
+5-5	293-296	von	_	_
+5-6	297-300	den	_	_
+5-7	301-307	Wiener	*	PLACEmentioned
+5-8	308-311	und	_	_
+5-9	312-320	Berliner	*	PLACEmentioned
+5-10	321-334	französischen	*[2]	PERmentioned[2]
+5-11	335-344	Gesandten	*[2]	PERmentioned[2]
+5-12	345-353	umlagert	_	_
+5-13	354-355	,	_	_
+5-14	356-360	soll	_	_
+5-15	361-365	sehr	_	_
+5-16	366-374	bänglich	_	_
+5-17	375-383	aussehen	_	_
+5-18	384-385	.	_	_
+
+#Text=Kurz sie Portugisische Sache erregt großes Bedenken .
+6-1	386-390	Kurz	_	_
+6-2	391-394	sie	_	_
+6-3	395-408	Portugisische	_	_
+6-4	409-414	Sache	_	_
+6-5	415-421	erregt	_	_
+6-6	422-428	großes	_	_
+6-7	429-437	Bedenken	_	_
+6-8	438-439	.	_	_
+
+#Text=Die tausend Noten des Rapporto Volcente ins Register einzutragen , wie es doch geschehen muß , macht viel Mühe und viele ganze Tage von Zeit .
+7-1	440-443	Die	_	_
+7-2	444-451	tausend	_	_
+7-3	452-457	Noten	_	_
+7-4	458-461	des	_	_
+7-5	462-470	Rapporto	*[3]	LIT[3]
+7-6	471-479	Volcente	*[3]	LIT[3]
+7-7	480-483	ins	_	_
+7-8	484-492	Register	_	_
+7-9	493-504	einzutragen	_	_
+7-10	505-506	,	_	_
+7-11	507-510	wie	_	_
+7-12	511-513	es	_	_
+7-13	514-518	doch	_	_
+7-14	519-528	geschehen	_	_
+7-15	529-532	muß	_	_
+7-16	533-534	,	_	_
+7-17	535-540	macht	_	_
+7-18	541-545	viel	_	_
+7-19	546-550	Mühe	_	_
+7-20	551-554	und	_	_
+7-21	555-560	viele	_	_
+7-22	561-566	ganze	_	_
+7-23	567-571	Tage	_	_
+7-24	572-575	von	_	_
+7-25	576-580	Zeit	_	_
+7-26	581-582	.	_	_
+
+#Text=Vebrigens habe ich von dieser Ihrer Arbeit einen unendlichen Rapport bekommen .
+8-1	583-592	Vebrigens	_	_
+8-2	593-597	habe	_	_
+8-3	598-601	ich	_	_
+8-4	602-605	von	_	_
+8-5	606-612	dieser	_	_
+8-6	613-618	Ihrer	_	_
+8-7	619-625	Arbeit	_	_
+8-8	626-631	einen	_	_
+8-9	632-643	unendlichen	_	_
+8-10	644-651	Rapport	_	_
+8-11	652-660	bekommen	_	_
+8-12	661-662	.	_	_
+
+#Text=Sie wird schwerlich durch irgend etwas Aehnliches übertroffen werden .
+9-1	663-666	Sie	_	_
+9-2	667-671	wird	_	_
+9-3	672-682	schwerlich	_	_
+9-4	683-688	durch	_	_
+9-5	689-695	irgend	_	_
+9-6	696-701	etwas	_	_
+9-7	702-712	Aehnliches	_	_
+9-8	713-724	übertroffen	_	_
+9-9	725-731	werden	_	_
+9-10	732-733	.	_	_
+
+#Text=Vor dem 2Osten kann ich an meine Abreise nach Gotha demnach gar nicht denken , und dort muß ich mich nothwendig einige Wochen aufhalten .
+10-1	734-737	Vor	_	_
+10-2	738-741	dem	_	_
+10-3	742-748	2Osten	*	DATEmentioned
+10-4	749-753	kann	_	_
+10-5	754-757	ich	_	_
+10-6	758-760	an	_	_
+10-7	761-766	meine	_	_
+10-8	767-774	Abreise	_	_
+10-9	775-779	nach	_	_
+10-10	780-785	Gotha	*	PLACEmentioned
+10-11	786-793	demnach	_	_
+10-12	794-797	gar	_	_
+10-13	798-803	nicht	_	_
+10-14	804-810	denken	_	_
+10-15	811-812	,	_	_
+10-16	813-816	und	_	_
+10-17	817-821	dort	_	_
+10-18	822-825	muß	_	_
+10-19	826-829	ich	_	_
+10-20	830-834	mich	_	_
+10-21	835-845	nothwendig	_	_
+10-22	846-852	einige	_	_
+10-23	853-859	Wochen	_	_
+10-24	860-869	aufhalten	_	_
+10-25	870-871	.	_	_
+
+#Text=Haben Sie doch die Güte mich stets wissen zu lassen , wie schnell Sie reisen und an welchen Tagen Sie an den verschiedenen Stationen Ihrer Tour einzutreffen gedenken \; endlich die Zeit genau anzugeben , wann ich spätestens in Rom sein muß .
+11-1	872-877	Haben	_	_
+11-2	878-881	Sie	_	_
+11-3	882-886	doch	_	_
+11-4	887-890	die	_	_
+11-5	891-895	Güte	_	_
+11-6	896-900	mich	_	_
+11-7	901-906	stets	_	_
+11-8	907-913	wissen	_	_
+11-9	914-916	zu	_	_
+11-10	917-923	lassen	_	_
+11-11	924-925	,	_	_
+11-12	926-929	wie	_	_
+11-13	930-937	schnell	_	_
+11-14	938-941	Sie	_	_
+11-15	942-948	reisen	_	_
+11-16	949-952	und	_	_
+11-17	953-955	an	_	_
+11-18	956-963	welchen	_	_
+11-19	964-969	Tagen	_	_
+11-20	970-973	Sie	_	_
+11-21	974-976	an	_	_
+11-22	977-980	den	_	_
+11-23	981-994	verschiedenen	_	_
+11-24	995-1004	Stationen	_	_
+11-25	1005-1010	Ihrer	_	_
+11-26	1011-1015	Tour	_	_
+11-27	1016-1028	einzutreffen	_	_
+11-28	1029-1037	gedenken	_	_
+11-29	1038-1039	\;	_	_
+11-30	1040-1047	endlich	_	_
+11-31	1048-1051	die	_	_
+11-32	1052-1056	Zeit	_	_
+11-33	1057-1062	genau	_	_
+11-34	1063-1072	anzugeben	_	_
+11-35	1073-1074	,	_	_
+11-36	1075-1079	wann	_	_
+11-37	1080-1083	ich	_	_
+11-38	1084-1094	spätestens	_	_
+11-39	1095-1097	in	_	_
+11-40	1098-1101	Rom	*	PLACEmentioned
+11-41	1102-1106	sein	_	_
+11-42	1107-1110	muß	_	_
+11-43	1111-1112	.	_	_
+
+#Text=Denn auch wenn ich nicht nach Wien gehe , so muß ich doch in Deutschland noch mehreres aufbrauchen , um in so langer Abwesenheit einigermaßen literarisch ausdauern zu können .
+12-1	1113-1117	Denn	_	_
+12-2	1118-1122	auch	_	_
+12-3	1123-1127	wenn	_	_
+12-4	1128-1131	ich	_	_
+12-5	1132-1137	nicht	_	_
+12-6	1138-1142	nach	_	_
+12-7	1143-1147	Wien	*	PLACEmentioned
+12-8	1148-1152	gehe	_	_
+12-9	1153-1154	,	_	_
+12-10	1155-1157	so	_	_
+12-11	1158-1161	muß	_	_
+12-12	1162-1165	ich	_	_
+12-13	1166-1170	doch	_	_
+12-14	1171-1173	in	_	_
+12-15	1174-1185	Deutschland	*	PLACEmentioned
+12-16	1186-1190	noch	_	_
+12-17	1191-1199	mehreres	_	_
+12-18	1200-1211	aufbrauchen	_	_
+12-19	1212-1213	,	_	_
+12-20	1214-1216	um	_	_
+12-21	1217-1219	in	_	_
+12-22	1220-1222	so	_	_
+12-23	1223-1229	langer	_	_
+12-24	1230-1241	Abwesenheit	_	_
+12-25	1242-1254	einigermaßen	_	_
+12-26	1255-1266	literarisch	_	_
+12-27	1267-1276	ausdauern	_	_
+12-28	1277-1279	zu	_	_
+12-29	1280-1286	können	_	_
+12-30	1287-1288	.	_	_
+
+#Text=Ambrosch sah ich gestern nicht , Die Reise ist im Manuscript beendigt , wie ich glaube , und er denkt sie direkt an Mayer nach Halle zu senden .
+13-1	1289-1297	Ambrosch	_	_
+13-2	1298-1301	sah	_	_
+13-3	1302-1305	ich	_	_
+13-4	1306-1313	gestern	_	_
+13-5	1314-1319	nicht	_	_
+13-6	1320-1321	,	_	_
+13-7	1322-1325	Die	_	_
+13-8	1326-1331	Reise	_	_
+13-9	1332-1335	ist	_	_
+13-10	1336-1338	im	_	_
+13-11	1339-1349	Manuscript	_	_
+13-12	1350-1358	beendigt	_	_
+13-13	1359-1360	,	_	_
+13-14	1361-1364	wie	_	_
+13-15	1365-1368	ich	_	_
+13-16	1369-1375	glaube	_	_
+13-17	1376-1377	,	_	_
+13-18	1378-1381	und	_	_
+13-19	1382-1384	er	_	_
+13-20	1385-1390	denkt	_	_
+13-21	1391-1394	sie	_	_
+13-22	1395-1401	direkt	_	_
+13-23	1402-1404	an	_	_
+13-24	1405-1410	Mayer	*	PERmentioned
+13-25	1411-1415	nach	_	_
+13-26	1416-1421	Halle	*	PLACEmentioned
+13-27	1422-1424	zu	_	_
+13-28	1425-1431	senden	_	_
+13-29	1432-1433	.	_	_

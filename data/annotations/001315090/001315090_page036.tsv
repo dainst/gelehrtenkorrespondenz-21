@@ -1,0 +1,235 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=199 Lepsius an Henzen Berlin , 10. Mai 1872 g . 14/5 72 B. d . 10. Mai 1872 .
+1-1	0-3	199	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	10.	*[1]	DATEletter[1]
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1872	*[1]	DATEletter[1]
+1-10	44-45	g	_	_
+1-11	46-47	.	_	_
+1-12	48-52	14/5	*[2]	DATErecieved[2]
+1-13	53-55	72	*[2]	DATErecieved[2]
+1-14	56-58	B.	_	_
+1-15	59-60	d	_	_
+1-16	61-62	.	_	_
+1-17	63-66	10.	*[3]	DATEletter[3]
+1-18	67-70	Mai	*[3]	DATEletter[3]
+1-19	71-75	1872	*[3]	DATEletter[3]
+1-20	76-77	.	_	_
+
+#Text=Verehrter Freund Ihre Vorschläge vom 21. April sind angenommen .
+2-1	78-87	Verehrter	_	_
+2-2	88-94	Freund	_	_
+2-3	95-99	Ihre	_	_
+2-4	100-110	Vorschläge	_	_
+2-5	111-114	vom	_	_
+2-6	115-118	21.	*[4]	DATEmentioned[4]
+2-7	119-124	April	*[4]	DATEmentioned[4]
+2-8	125-129	sind	_	_
+2-9	130-140	angenommen	_	_
+2-10	141-142	.	_	_
+
+#Text=Können Sie nicht den Vornamen des Herrn Prakhof und seine condizione , so wie die des Sig .
+3-1	143-149	Können	_	_
+3-2	150-153	Sie	_	_
+3-3	154-159	nicht	_	_
+3-4	160-163	den	_	_
+3-5	164-172	Vornamen	_	_
+3-6	173-176	des	_	_
+3-7	177-182	Herrn	_	_
+3-8	183-190	Prakhof	*	PERmentioned
+3-9	191-194	und	_	_
+3-10	195-200	seine	_	_
+3-11	201-211	condizione	_	_
+3-12	212-213	,	_	_
+3-13	214-216	so	_	_
+3-14	217-220	wie	_	_
+3-15	221-224	die	_	_
+3-16	225-228	des	_	_
+3-17	229-232	Sig	_	_
+3-18	233-234	.	_	_
+
+#Text=Ant . Monti beschaffen ?
+4-1	235-238	Ant	*[5]	PERmentioned[5]
+4-2	239-240	.	*[5]	PERmentioned[5]
+4-3	241-246	Monti	*[5]	PERmentioned[5]
+4-4	247-257	beschaffen	_	_
+4-5	258-259	?	_	_
+
+#Text=Curtius hat auch zugefügt den Architekt Carl Humann in Bergamo \; Mommsen die Dalmatiner Giacomo Brosli , Professor des Gymnasiuns in Zara , Gius .
+5-1	260-267	Curtius	*	PERmentioned
+5-2	268-271	hat	_	_
+5-3	272-276	auch	_	_
+5-4	277-285	zugefügt	_	_
+5-5	286-289	den	_	_
+5-6	290-299	Architekt	_	_
+5-7	300-304	Carl	*[6]	PERmentioned[6]
+5-8	305-311	Humann	*[6]	PERmentioned[6]
+5-9	312-314	in	_	_
+5-10	315-322	Bergamo	*	PLACEmentioned
+5-11	323-324	\;	_	_
+5-12	325-332	Mommsen	*	PERmentioned
+5-13	333-336	die	_	_
+5-14	337-347	Dalmatiner	_	_
+5-15	348-355	Giacomo	*[7]	PERmentioned[7]
+5-16	356-362	Brosli	*[7]	PERmentioned[7]
+5-17	363-364	,	_	_
+5-18	365-374	Professor	_	_
+5-19	375-378	des	_	_
+5-20	379-389	Gymnasiuns	_	_
+5-21	390-392	in	_	_
+5-22	393-397	Zara	*	PLACEmentioned
+5-23	398-399	,	_	_
+5-24	400-404	Gius	*[8]	PERmentioned[8]
+5-25	405-406	.	*[8]	PERmentioned[8]
+
+#Text=Allarevich , Distriktsrichter , giudice distrettuale , in Knin , Gius .
+6-1	407-417	Allarevich	*[8]	PERmentioned[8]
+6-2	418-419	,	_	_
+6-3	420-436	Distriktsrichter	_	_
+6-4	437-438	,	_	_
+6-5	439-446	giudice	_	_
+6-6	447-459	distrettuale	_	_
+6-7	460-461	,	_	_
+6-8	462-464	in	_	_
+6-9	465-469	Knin	*	PLACEmentioned
+6-10	470-471	,	_	_
+6-11	472-476	Gius	*[9]	PERmentioned[9]
+6-12	477-478	.	*[9]	PERmentioned[9]
+
+#Text=Reiter , K .
+7-1	479-485	Reiter	*[9]	PERmentioned[9]
+7-2	486-487	,	_	_
+7-3	488-489	K	_	_
+7-4	490-491	.	_	_
+
+#Text=K. Prem , Lieutenant und Festungskommandant in Chissa presso Spalato , primo tenente di artiglieria e comandante della fortezza .
+8-1	492-494	K.	_	_
+8-2	495-499	Prem	*[10]	PERmentioned[10]
+8-3	500-501	,	_	_
+8-4	502-512	Lieutenant	_	_
+8-5	513-516	und	_	_
+8-6	517-535	Festungskommandant	_	_
+8-7	536-538	in	_	_
+8-8	539-545	Chissa	*	PLACEmentioned
+8-9	546-552	presso	_	_
+8-10	553-560	Spalato	*	PLACEmentioned
+8-11	561-562	,	_	_
+8-12	563-568	primo	_	_
+8-13	569-576	tenente	_	_
+8-14	577-579	di	_	_
+8-15	580-591	artiglieria	_	_
+8-16	592-593	e	_	_
+8-17	594-604	comandante	_	_
+8-18	605-610	della	_	_
+8-19	611-619	fortezza	_	_
+8-20	620-621	.	_	_
+
+#Text=Die Diplome sind noch im Rückstand , weil die Meinungen verschieden waren , ob die Formel von dem Übergange ans Reich zu verändem sei .
+9-1	622-625	Die	_	_
+9-2	626-633	Diplome	_	_
+9-3	634-638	sind	_	_
+9-4	639-643	noch	_	_
+9-5	644-646	im	_	_
+9-6	647-656	Rückstand	_	_
+9-7	657-658	,	_	_
+9-8	659-663	weil	_	_
+9-9	664-667	die	_	_
+9-10	668-677	Meinungen	_	_
+9-11	678-689	verschieden	_	_
+9-12	690-695	waren	_	_
+9-13	696-697	,	_	_
+9-14	698-700	ob	_	_
+9-15	701-704	die	_	_
+9-16	705-711	Formel	_	_
+9-17	712-715	von	_	_
+9-18	716-719	dem	_	_
+9-19	720-729	Übergange	_	_
+9-20	730-733	ans	_	_
+9-21	734-739	Reich	_	_
+9-22	740-742	zu	_	_
+9-23	743-751	verändem	_	_
+9-24	752-755	sei	_	_
+9-25	756-757	.	_	_
+
+#Text=Nun soll sie bereits jetzt umgedruckt werden , d. h. der Titel des Protektors lauten : 5 .
+10-1	758-761	Nun	_	_
+10-2	762-766	soll	_	_
+10-3	767-770	sie	_	_
+10-4	771-778	bereits	_	_
+10-5	779-784	jetzt	_	_
+10-6	785-795	umgedruckt	_	_
+10-7	796-802	werden	_	_
+10-8	803-804	,	_	_
+10-9	805-807	d.	_	_
+10-10	808-810	h.	_	_
+10-11	811-814	der	_	_
+10-12	815-820	Titel	_	_
+10-13	821-824	des	_	_
+10-14	825-835	Protektors	_	_
+10-15	836-842	lauten	_	_
+10-16	843-844	:	_	_
+10-17	845-846	5	_	_
+10-18	847-848	.	*[11]	PERmentioned[11]
+
+#Text=M. Guglielmo Imperatore di Germania Re di Prussia .
+11-1	849-851	M.	*[11]	PERmentioned[11]
+11-2	852-861	Guglielmo	*[11]	PERmentioned[11]
+11-3	862-872	Imperatore	*[11]	PERmentioned[11]
+11-4	873-875	di	*[11]	PERmentioned[11]
+11-5	876-884	Germania	*[11]	PERmentioned[11]
+11-6	885-887	Re	*[11]	PERmentioned[11]
+11-7	888-890	di	*[11]	PERmentioned[11]
+11-8	891-898	Prussia	*[11]	PERmentioned[11]
+11-9	899-900	.	_	_
+
+#Text=Das Übrige bleibt : L'Instituto archeologico che fu in Roma fondato dall'anno 1829 , inteso com ' & incessantemente a promuovere e propagare gli studi delle antichita classiche e la cultura d'ogni ramo di sapere che all'archeologia si rapporti , consapevole quan-
+12-1	901-904	Das	_	_
+12-2	905-911	Übrige	_	_
+12-3	912-918	bleibt	_	_
+12-4	919-920	:	_	_
+12-5	921-932	L'Instituto	*[12]	ORGmentioned[12]
+12-6	933-945	archeologico	*[12]	ORGmentioned[12]
+12-7	946-949	che	_	_
+12-8	950-952	fu	_	_
+12-9	953-955	in	_	_
+12-10	956-960	Roma	*	PLACEmentioned
+12-11	961-968	fondato	_	_
+12-12	969-978	dall'anno	_	_
+12-13	979-983	1829	*	DATEmentioned
+12-14	984-985	,	_	_
+12-15	986-992	inteso	_	_
+12-16	993-996	com	_	_
+12-17	997-998	'	_	_
+12-18	999-1000	&	_	_
+12-19	1001-1016	incessantemente	_	_
+12-20	1017-1018	a	_	_
+12-21	1019-1029	promuovere	_	_
+12-22	1030-1031	e	_	_
+12-23	1032-1041	propagare	_	_
+12-24	1042-1045	gli	_	_
+12-25	1046-1051	studi	_	_
+12-26	1052-1057	delle	_	_
+12-27	1058-1067	antichita	_	_
+12-28	1068-1077	classiche	_	_
+12-29	1078-1079	e	_	_
+12-30	1080-1082	la	_	_
+12-31	1083-1090	cultura	_	_
+12-32	1091-1097	d'ogni	_	_
+12-33	1098-1102	ramo	_	_
+12-34	1103-1105	di	_	_
+12-35	1106-1112	sapere	_	_
+12-36	1113-1116	che	_	_
+12-37	1117-1132	all'archeologia	_	_
+12-38	1133-1135	si	_	_
+12-39	1136-1144	rapporti	_	_
+12-40	1145-1146	,	_	_
+12-41	1147-1158	consapevole	_	_
+12-42	1159-1164	quan-	_	_

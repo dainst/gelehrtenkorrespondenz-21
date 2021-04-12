@@ -1,0 +1,261 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=243 Braun an Gerhard Rom , 1. März 1836 Prof. Gerhard Roma li 1 Marzo 1836 .
+1-1	0-3	243	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	1.	*[9]	DATEletter[9]
+1-8	30-34	März	*[9]	DATEletter[9]
+1-9	35-39	1836	*[9]	DATEletter[9]
+1-10	40-45	Prof.	_	_
+1-11	46-53	Gerhard	*	PERaddressee
+1-12	54-58	Roma	*	PLACEfrom
+1-13	59-61	li	_	_
+1-14	62-63	1	*[10]	DATEletter[10]
+1-15	64-69	Marzo	*[10]	DATEletter[10]
+1-16	70-74	1836	*[10]	DATEletter[10]
+1-17	75-76	.	_	_
+
+#Text=Hochverehrtester Freund !
+2-1	77-93	Hochverehrtester	_	_
+2-2	94-100	Freund	_	_
+2-3	101-102	!	_	_
+
+#Text=Unsere Geldnoth ist forthin sehr groß .
+3-1	103-109	Unsere	_	_
+3-2	110-118	Geldnoth	_	_
+3-3	119-122	ist	_	_
+3-4	123-130	forthin	_	_
+3-5	131-135	sehr	_	_
+3-6	136-140	groß	_	_
+3-7	141-142	.	_	_
+
+#Text=Dieser Punkt allein ist mehr als hinreichend die Verspätung der Monumente zu entschuldigen .
+4-1	143-149	Dieser	_	_
+4-2	150-155	Punkt	_	_
+4-3	156-162	allein	_	_
+4-4	163-166	ist	_	_
+4-5	167-171	mehr	_	_
+4-6	172-175	als	_	_
+4-7	176-187	hinreichend	_	_
+4-8	188-191	die	_	_
+4-9	192-202	Verspätung	_	_
+4-10	203-206	der	_	_
+4-11	207-216	Monumente	_	_
+4-12	217-219	zu	_	_
+4-13	220-233	entschuldigen	_	_
+4-14	234-235	.	_	_
+
+#Text=Sie würden noch nicht flott sein , wenn ich es nicht durch eigenen Zuschuß ermöglicht hätte .
+5-1	236-239	Sie	_	_
+5-2	240-246	würden	_	_
+5-3	247-251	noch	_	_
+5-4	252-257	nicht	_	_
+5-5	258-263	flott	_	_
+5-6	264-268	sein	_	_
+5-7	269-270	,	_	_
+5-8	271-275	wenn	_	_
+5-9	276-279	ich	_	_
+5-10	280-282	es	_	_
+5-11	283-288	nicht	_	_
+5-12	289-294	durch	_	_
+5-13	295-302	eigenen	_	_
+5-14	303-310	Zuschuß	_	_
+5-15	311-321	ermöglicht	_	_
+5-16	322-327	hätte	_	_
+5-17	328-329	.	_	_
+
+#Text=Valentini hat das Dizionario italiano durch Herrn von Sydow bestellt .
+6-1	330-339	Valentini	*	PERmentioned
+6-2	340-343	hat	_	_
+6-3	344-347	das	_	_
+6-4	348-358	Dizionario	_	_
+6-5	359-367	italiano	_	_
+6-6	368-373	durch	_	_
+6-7	374-379	Herrn	*[11]	PERmentioned[11]
+6-8	380-383	von	*[11]	PERmentioned[11]
+6-9	384-389	Sydow	*[11]	PERmentioned[11]
+6-10	390-398	bestellt	_	_
+6-11	399-400	.	_	_
+
+#Text=Blos in Rücksicht auf letzteren habe ich die gar nicht angenehme Commission übernommen .
+7-1	401-405	Blos	_	_
+7-2	406-408	in	_	_
+7-3	409-418	Rücksicht	_	_
+7-4	419-422	auf	_	_
+7-5	423-432	letzteren	_	_
+7-6	433-437	habe	_	_
+7-7	438-441	ich	_	_
+7-8	442-445	die	_	_
+7-9	446-449	gar	_	_
+7-10	450-455	nicht	_	_
+7-11	456-465	angenehme	_	_
+7-12	466-476	Commission	_	_
+7-13	477-487	übernommen	_	_
+7-14	488-489	.	_	_
+
+#Text=Mit diesem muß also gesprochen werden .
+8-1	490-493	Mit	_	_
+8-2	494-500	diesem	_	_
+8-3	501-504	muß	_	_
+8-4	505-509	also	_	_
+8-5	510-520	gesprochen	_	_
+8-6	521-527	werden	_	_
+8-7	528-529	.	_	_
+
+#Text=Canina fragt an , ob er Ihnen die Fortsetzung von den Ihnen anvertrauten Exemplaren seines unsterblichen Werkes schicken soll .
+9-1	530-536	Canina	*	PERmentioned
+9-2	537-542	fragt	_	_
+9-3	543-545	an	_	_
+9-4	546-547	,	_	_
+9-5	548-550	ob	_	_
+9-6	551-553	er	_	_
+9-7	554-559	Ihnen	_	_
+9-8	560-563	die	_	_
+9-9	564-575	Fortsetzung	_	_
+9-10	576-579	von	_	_
+9-11	580-583	den	_	_
+9-12	584-589	Ihnen	_	_
+9-13	590-602	anvertrauten	_	_
+9-14	603-613	Exemplaren	_	_
+9-15	614-620	seines	_	_
+9-16	621-634	unsterblichen	_	_
+9-17	635-641	Werkes	_	_
+9-18	642-650	schicken	_	_
+9-19	651-655	soll	_	_
+9-20	656-657	.	_	_
+
+#Text=Es wäre wohl gut , wenn Sie ihm einmal ein Paar Zeilen schrieben .
+10-1	658-660	Es	_	_
+10-2	661-665	wäre	_	_
+10-3	666-670	wohl	_	_
+10-4	671-674	gut	_	_
+10-5	675-676	,	_	_
+10-6	677-681	wenn	_	_
+10-7	682-685	Sie	_	_
+10-8	686-689	ihm	_	_
+10-9	690-696	einmal	_	_
+10-10	697-700	ein	_	_
+10-11	701-705	Paar	_	_
+10-12	706-712	Zeilen	_	_
+10-13	713-722	schrieben	_	_
+10-14	723-724	.	_	_
+
+#Text=Die Tamirisvase hat Lanci zu erklären übernonmen \; anbei folgt sein Aufsatz darüber .
+11-1	725-728	Die	_	_
+11-2	729-740	Tamirisvase	*	OBJ
+11-3	741-744	hat	_	_
+11-4	745-750	Lanci	*	PERmentioned
+11-5	751-753	zu	_	_
+11-6	754-762	erklären	_	_
+11-7	763-773	übernonmen	_	_
+11-8	774-775	\;	_	_
+11-9	776-781	anbei	_	_
+11-10	782-787	folgt	_	_
+11-11	788-792	sein	_	_
+11-12	793-800	Aufsatz	_	_
+11-13	801-808	darüber	_	_
+11-14	809-810	.	_	_
+
+#Text=Er wünscht daß man darüber disponire oder aber ihn tale quale , allenfalls mit einigen Noten drucke .
+12-1	811-813	Er	_	_
+12-2	814-821	wünscht	_	_
+12-3	822-825	daß	_	_
+12-4	826-829	man	_	_
+12-5	830-837	darüber	_	_
+12-6	838-847	disponire	_	_
+12-7	848-852	oder	_	_
+12-8	853-857	aber	_	_
+12-9	858-861	ihn	_	_
+12-10	862-866	tale	_	_
+12-11	867-872	quale	_	_
+12-12	873-874	,	_	_
+12-13	875-885	allenfalls	_	_
+12-14	886-889	mit	_	_
+12-15	890-897	einigen	_	_
+12-16	898-903	Noten	_	_
+12-17	904-910	drucke	_	_
+12-18	911-912	.	_	_
+
+#Text=Meyer hat mir die Erklärung der Todtenkiste noch nicht beigeschafft .
+13-1	913-918	Meyer	*	PERmentioned
+13-2	919-922	hat	_	_
+13-3	923-926	mir	_	_
+13-4	927-930	die	_	_
+13-5	931-940	Erklärung	_	_
+13-6	941-944	der	_	_
+13-7	945-956	Todtenkiste	*	OBJ
+13-8	957-961	noch	_	_
+13-9	962-967	nicht	_	_
+13-10	968-980	beigeschafft	_	_
+13-11	981-982	.	_	_
+
+#Text=Er ist krank und das allein hat ihn behindert .
+14-1	983-985	Er	_	_
+14-2	986-989	ist	_	_
+14-3	990-995	krank	_	_
+14-4	996-999	und	_	_
+14-5	1000-1003	das	_	_
+14-6	1004-1010	allein	_	_
+14-7	1011-1014	hat	_	_
+14-8	1015-1018	ihn	_	_
+14-9	1019-1028	behindert	_	_
+14-10	1029-1030	.	_	_
+
+#Text=Ich glaube er hat eine hübsche Arbeit darüber gemacht .
+15-1	1031-1034	Ich	_	_
+15-2	1035-1041	glaube	_	_
+15-3	1042-1044	er	_	_
+15-4	1045-1048	hat	_	_
+15-5	1049-1053	eine	_	_
+15-6	1054-1061	hübsche	_	_
+15-7	1062-1068	Arbeit	_	_
+15-8	1069-1076	darüber	_	_
+15-9	1077-1084	gemacht	_	_
+15-10	1085-1086	.	_	_
+
+#Text=Der Zeitungsartikel ist aus einer Privatmittheilung geflossen , die auch andere Mißverständnisse veranlaßt hat .
+16-1	1087-1090	Der	_	_
+16-2	1091-1106	Zeitungsartikel	_	_
+16-3	1107-1110	ist	_	_
+16-4	1111-1114	aus	_	_
+16-5	1115-1120	einer	_	_
+16-6	1121-1138	Privatmittheilung	_	_
+16-7	1139-1148	geflossen	_	_
+16-8	1149-1150	,	_	_
+16-9	1151-1154	die	_	_
+16-10	1155-1159	auch	_	_
+16-11	1160-1166	andere	_	_
+16-12	1167-1183	Mißverständnisse	_	_
+16-13	1184-1193	veranlaßt	_	_
+16-14	1194-1197	hat	_	_
+16-15	1198-1199	.	_	_
+
+#Text=Die Statue von Todi ist wohl nicht zu haben , wenn auch noch nicht verkauft .
+17-1	1200-1203	Die	_	_
+17-2	1204-1210	Statue	*	OBJ
+17-3	1211-1214	von	_	_
+17-4	1215-1219	Todi	*	PLACEmentioned
+17-5	1220-1223	ist	_	_
+17-6	1224-1228	wohl	_	_
+17-7	1229-1234	nicht	_	_
+17-8	1235-1237	zu	_	_
+17-9	1238-1243	haben	_	_
+17-10	1244-1245	,	_	_
+17-11	1246-1250	wenn	_	_
+17-12	1251-1255	auch	_	_
+17-13	1256-1260	noch	_	_
+17-14	1261-1266	nicht	_	_
+17-15	1267-1275	verkauft	_	_
+17-16	1276-1277	.	_	_
+
+#Text=die andern beiden Sta-
+18-1	1278-1281	die	_	_
+18-2	1282-1288	andern	_	_
+18-3	1289-1295	beiden	_	_
+18-4	1296-1300	Sta-	*	OBJ

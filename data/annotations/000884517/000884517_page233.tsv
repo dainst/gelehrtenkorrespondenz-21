@@ -1,0 +1,218 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 8 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	8	_	_
+1-7	28-29	.	*[1]	DATEletter[1]
+
+#Text=August 1846 g . 20/VIII 46 r . 22/VIII 46 Dr. Braun Berlin 8 Aug 4€ Lieber Freund .
+2-1	30-36	August	*[1]	DATEletter[1]
+2-2	37-41	1846	*[1]	DATEletter[1]
+2-3	42-43	g	_	_
+2-4	44-45	.	_	_
+2-5	46-53	20/VIII	*[2]	DATErecieved[2]
+2-6	54-56	46	*[2]	DATErecieved[2]
+2-7	57-58	r	_	_
+2-8	59-60	.	_	_
+2-9	61-68	22/VIII	*[3]	DATEanswered[3]
+2-10	69-71	46	*[3]	DATEanswered[3]
+2-11	72-75	Dr.	*[4]	PERaddressee[4]
+2-12	76-81	Braun	*[4]	PERaddressee[4]
+2-13	82-88	Berlin	*	PLACEfrom
+2-14	89-90	8	*[5]	DATEletter[5]
+2-15	91-94	Aug	*[5]	DATEletter[5]
+2-16	95-97	4€	*[5]	DATEletter[5]
+2-17	98-104	Lieber	_	_
+2-18	105-111	Freund	_	_
+2-19	112-113	.	_	_
+
+#Text=Wegen Sanguinetti werde ich mich bemühen \; es kann ja wol auch Wolff dazu thun ?
+3-1	114-119	Wegen	_	_
+3-2	120-131	Sanguinetti	_	_
+3-3	132-137	werde	_	_
+3-4	138-141	ich	_	_
+3-5	142-146	mich	_	_
+3-6	147-154	bemühen	_	_
+3-7	155-156	\;	_	_
+3-8	157-159	es	_	_
+3-9	160-164	kann	_	_
+3-10	165-167	ja	_	_
+3-11	168-171	wol	_	_
+3-12	172-176	auch	_	_
+3-13	177-182	Wolff	*	PERmentioned
+3-14	183-187	dazu	_	_
+3-15	188-192	thun	_	_
+3-16	193-194	?	_	_
+
+#Text=- Die Borgianische Cista ist in meinem Spiegelwerk 8 . 26 ff. besprochen , Ohne Zeichnung .
+4-1	195-196	-	_	_
+4-2	197-200	Die	_	_
+4-3	201-213	Borgianische	*[6]	OBJ[6]
+4-4	214-219	Cista	*[6]	OBJ[6]
+4-5	220-223	ist	_	_
+4-6	224-226	in	_	_
+4-7	227-233	meinem	_	_
+4-8	234-245	Spiegelwerk	_	_
+4-9	246-247	8	_	_
+4-10	248-249	.	_	_
+4-11	250-252	26	_	_
+4-12	253-256	ff.	_	_
+4-13	257-267	besprochen	_	_
+4-14	268-269	,	_	_
+4-15	270-274	Ohne	_	_
+4-16	275-284	Zeichnung	_	_
+4-17	285-286	.	_	_
+
+#Text=- Vermiglioli !
+5-1	287-288	-	_	_
+5-2	289-300	Vermiglioli	*	PERmentioned
+5-3	301-302	!	_	_
+
+#Text=Requiescat in pace .
+6-1	303-313	Requiescat	_	_
+6-2	314-316	in	_	_
+6-3	317-321	pace	_	_
+6-4	322-323	.	_	_
+
+#Text=Die Paläographie nimmt wol auch nur andre italienische Liebhaber : - Weiter geben Sie mir nichts zu beantworten .
+7-1	324-327	Die	_	_
+7-2	328-340	Paläographie	_	_
+7-3	341-346	nimmt	_	_
+7-4	347-350	wol	_	_
+7-5	351-355	auch	_	_
+7-6	356-359	nur	_	_
+7-7	360-365	andre	_	_
+7-8	366-378	italienische	_	_
+7-9	379-388	Liebhaber	_	_
+7-10	389-390	:	_	_
+7-11	391-392	-	_	_
+7-12	393-399	Weiter	_	_
+7-13	400-405	geben	_	_
+7-14	406-409	Sie	_	_
+7-15	410-413	mir	_	_
+7-16	414-420	nichts	_	_
+7-17	421-423	zu	_	_
+7-18	424-435	beantworten	_	_
+7-19	436-437	.	_	_
+
+#Text=In der Voraussetzung Henzen werde wol noch oder wieder in Rom sein , habe ich den Prof. Geppert dem ich irgend eine Adresse nicht versagen konnte , an ihn adressirt \; lIrgend etwas wird wol auch in Henzen 's Abwesenheit für ihn geschehen können , um uns nicht mit Ungefälligkeit ins Geschrei zu bringen .
+8-1	438-440	In	_	_
+8-2	441-444	der	_	_
+8-3	445-458	Voraussetzung	_	_
+8-4	459-465	Henzen	*	PERmentioned
+8-5	466-471	werde	_	_
+8-6	472-475	wol	_	_
+8-7	476-480	noch	_	_
+8-8	481-485	oder	_	_
+8-9	486-492	wieder	_	_
+8-10	493-495	in	_	_
+8-11	496-499	Rom	*	PLACEmentioned
+8-12	500-504	sein	_	_
+8-13	505-506	,	_	_
+8-14	507-511	habe	_	_
+8-15	512-515	ich	_	_
+8-16	516-519	den	_	_
+8-17	520-525	Prof.	*[7]	PERmentioned[7]
+8-18	526-533	Geppert	*[7]	PERmentioned[7]
+8-19	534-537	dem	_	_
+8-20	538-541	ich	_	_
+8-21	542-548	irgend	_	_
+8-22	549-553	eine	_	_
+8-23	554-561	Adresse	_	_
+8-24	562-567	nicht	_	_
+8-25	568-576	versagen	_	_
+8-26	577-583	konnte	_	_
+8-27	584-585	,	_	_
+8-28	586-588	an	_	_
+8-29	589-592	ihn	_	_
+8-30	593-602	adressirt	_	_
+8-31	603-604	\;	_	_
+8-32	605-612	lIrgend	_	_
+8-33	613-618	etwas	_	_
+8-34	619-623	wird	_	_
+8-35	624-627	wol	_	_
+8-36	628-632	auch	_	_
+8-37	633-635	in	_	_
+8-38	636-642	Henzen	*	PERmentioned
+8-39	643-645	's	_	_
+8-40	646-657	Abwesenheit	_	_
+8-41	658-661	für	_	_
+8-42	662-665	ihn	_	_
+8-43	666-675	geschehen	_	_
+8-44	676-682	können	_	_
+8-45	683-684	,	_	_
+8-46	685-687	um	_	_
+8-47	688-691	uns	_	_
+8-48	692-697	nicht	_	_
+8-49	698-701	mit	_	_
+8-50	702-716	Ungefälligkeit	_	_
+8-51	717-720	ins	_	_
+8-52	721-729	Geschrei	_	_
+8-53	730-732	zu	_	_
+8-54	733-740	bringen	_	_
+8-55	741-742	.	_	_
+
+#Text=Sie und Brunn mochte ich mit meinem Gegner Ritschl und mir selbst fernstehenden Mann nicht behelligen \; einige Archäologische Zeitung bringt er Ihnen mit .
+9-1	743-746	Sie	_	_
+9-2	747-750	und	_	_
+9-3	751-756	Brunn	*	PERmentioned
+9-4	757-763	mochte	_	_
+9-5	764-767	ich	_	_
+9-6	768-771	mit	_	_
+9-7	772-778	meinem	_	_
+9-8	779-785	Gegner	_	_
+9-9	786-793	Ritschl	*	PERmentioned
+9-10	794-797	und	_	_
+9-11	798-801	mir	_	_
+9-12	802-808	selbst	_	_
+9-13	809-822	fernstehenden	_	_
+9-14	823-827	Mann	_	_
+9-15	828-833	nicht	_	_
+9-16	834-844	behelligen	_	_
+9-17	845-846	\;	_	_
+9-18	847-853	einige	_	_
+9-19	854-868	Archäologische	_	_
+9-20	869-876	Zeitung	_	_
+9-21	877-883	bringt	_	_
+9-22	884-886	er	_	_
+9-23	887-892	Ihnen	_	_
+9-24	893-896	mit	_	_
+9-25	897-898	.	_	_
+
+#Text=- Außerdem ist kürzlich ein eifriger Zuhörer , Leontiew , künftiger Archäolog für Moskau , abgegangen und Ihnen empfohlen .
+10-1	899-900	-	_	_
+10-2	901-909	Außerdem	_	_
+10-3	910-913	ist	_	_
+10-4	914-922	kürzlich	_	_
+10-5	923-926	ein	_	_
+10-6	927-935	eifriger	_	_
+10-7	936-943	Zuhörer	_	_
+10-8	944-945	,	_	_
+10-9	946-954	Leontiew	*	PERmentioned
+10-10	955-956	,	_	_
+10-11	957-966	künftiger	_	_
+10-12	967-976	Archäolog	_	_
+10-13	977-980	für	_	_
+10-14	981-987	Moskau	*	PLACEmentioned
+10-15	988-989	,	_	_
+10-16	990-1000	abgegangen	_	_
+10-17	1001-1004	und	_	_
+10-18	1005-1010	Ihnen	_	_
+10-19	1011-1020	empfohlen	_	_
+10-20	1021-1022	.	_	_
+
+#Text=Sollte Herr Olfers Ihnen wegen des Balsamars der
+11-1	1023-1029	Sollte	_	_
+11-2	1030-1034	Herr	_	_
+11-3	1035-1041	Olfers	*	PERmentioned
+11-4	1042-1047	Ihnen	_	_
+11-5	1048-1053	wegen	_	_
+11-6	1054-1057	des	_	_
+11-7	1058-1067	Balsamars	*	OBJ
+11-8	1068-1071	der	_	_

@@ -1,0 +1,117 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen R ( om ) , 28 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-17	R	*[5]	PLACEfrom[5]
+1-5	18-19	(	*[5]	PLACEfrom[5]
+1-6	20-22	om	*[5]	PLACEfrom[5]
+1-7	23-24	)	*[5]	PLACEfrom[5]
+1-8	25-26	,	_	_
+1-9	27-29	28	*[3]	DATEletter[3]
+1-10	30-31	.	*[3]	DATEletter[3]
+
+#Text=August 186 Eben Nachricht von der Dogana , daß die Kupfertafeln zollfrei geliefert werden .
+2-1	32-38	August	*[3]	DATEletter[3]
+2-2	39-42	186	*[3]	DATEletter[3]
+2-3	43-47	Eben	_	_
+2-4	48-57	Nachricht	_	_
+2-5	58-61	von	_	_
+2-6	62-65	der	_	_
+2-7	66-72	Dogana	_	_
+2-8	73-74	,	_	_
+2-9	75-78	daß	_	_
+2-10	79-82	die	_	_
+2-11	83-95	Kupfertafeln	_	_
+2-12	96-104	zollfrei	_	_
+2-13	105-114	geliefert	_	_
+2-14	115-121	werden	_	_
+2-15	122-123	.	_	_
+
+#Text=Ich war heute bei Garrucci , der auf alle Welt schimpft und dafür gegen mich desto zärtlicher war .
+3-1	124-127	Ich	_	_
+3-2	128-131	war	_	_
+3-3	132-137	heute	_	_
+3-4	138-141	bei	_	_
+3-5	142-150	Garrucci	*	PERmentioned
+3-6	151-152	,	_	_
+3-7	153-156	der	_	_
+3-8	157-160	auf	_	_
+3-9	161-165	alle	_	_
+3-10	166-170	Welt	_	_
+3-11	171-179	schimpft	_	_
+3-12	180-183	und	_	_
+3-13	184-189	dafür	_	_
+3-14	190-195	gegen	_	_
+3-15	196-200	mich	_	_
+3-16	201-206	desto	_	_
+3-17	207-217	zärtlicher	_	_
+3-18	218-221	war	_	_
+3-19	222-223	.	_	_
+
+#Text=Bei ihm sah ich die ersten drei Nummern von einem Minervinischen : Bull .
+4-1	224-227	Bei	_	_
+4-2	228-231	ihm	_	_
+4-3	232-235	sah	_	_
+4-4	236-239	ich	_	_
+4-5	240-243	die	_	_
+4-6	244-250	ersten	_	_
+4-7	251-255	drei	_	_
+4-8	256-263	Nummern	_	_
+4-9	264-267	von	_	_
+4-10	268-273	einem	_	_
+4-11	274-288	Minervinischen	*	MISC
+4-12	289-290	:	_	_
+4-13	291-295	Bull	_	_
+4-14	296-297	.	_	_
+
+#Text=arch . italianao vorüber G. sehr spottete .
+5-1	298-302	arch	_	_
+5-2	303-304	.	_	_
+5-3	305-314	italianao	_	_
+5-4	315-322	vorüber	_	_
+5-5	323-325	G.	*	PERmentioned
+5-6	326-330	sehr	_	_
+5-7	331-339	spottete	_	_
+5-8	340-341	.	_	_
+
+#Text=Die Cistenzeichnung wird wohl Sonnabend an Bartoccini abgehen können .
+6-1	342-345	Die	_	_
+6-2	346-361	Cistenzeichnung	*	MISC
+6-3	362-366	wird	_	_
+6-4	367-371	wohl	_	_
+6-5	372-381	Sonnabend	*	DATEmentioned
+6-6	382-384	an	_	_
+6-7	385-395	Bartoccini	*	PERmentioned
+6-8	396-403	abgehen	_	_
+6-9	404-410	können	_	_
+6-10	411-412	.	_	_
+
+#Text=3 Briefe und 2 Zeitungen .
+7-1	413-414	3	_	_
+7-2	415-421	Briefe	_	_
+7-3	422-425	und	_	_
+7-4	426-427	2	_	_
+7-5	428-437	Zeitungen	_	_
+7-6	438-439	.	_	_
+
+#Text=Mit besten Grüßen Ihr HBr .
+8-1	440-443	Mit	_	_
+8-2	444-450	besten	_	_
+8-3	451-457	Grüßen	_	_
+8-4	458-461	Ihr	_	_
+8-5	462-465	HBr	*	PERauthor
+8-6	466-467	.	_	_
+
+#Text=R . 28 : VIII , 6 %
+9-1	468-469	R	*[6]	PLACEfrom[6]
+9-2	470-471	.	*[6]	PLACEfrom[6]
+9-3	472-474	28	*[4]	DATEletter[4]
+9-4	475-476	:	*[4]	DATEletter[4]
+9-5	477-481	VIII	*[4]	DATEletter[4]
+9-6	482-483	,	*[4]	DATEletter[4]
+9-7	484-485	6	_	_
+9-8	486-487	%	_	_

@@ -1,0 +1,43 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Au2 Henzen an Gerhard 31/77/54 richten schuld ist , Finder ist sehr fleißig und grüßt bestens .
+1-1	0-3	Au2	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-30	31/77/54	*	DATEletter
+1-6	31-38	richten	_	_
+1-7	39-45	schuld	_	_
+1-8	46-49	ist	_	_
+1-9	50-51	,	_	_
+1-10	52-58	Finder	*	PERmentioned
+1-11	59-62	ist	_	_
+1-12	63-67	sehr	_	_
+1-13	68-75	fleißig	_	_
+1-14	76-79	und	_	_
+1-15	80-85	grüßt	_	_
+1-16	86-93	bestens	_	_
+1-17	94-95	.	_	_
+
+#Text=Ihr ergebner W. Benzen .
+2-1	96-99	Ihr	_	_
+2-2	100-108	ergebner	_	_
+2-3	109-111	W.	*[1]	PERauthor[1]
+2-4	112-118	Benzen	*[1]	PERauthor[1]
+2-5	119-120	.	_	_
+
+#Text=Rom 31/7 54 , Ich bitte um sefällise Beförderung einliegender Briefe ,
+3-1	121-124	Rom	*	PLACEfrom
+3-2	125-129	31/7	*[2]	DATEletter[2]
+3-3	130-132	54	*[2]	DATEletter[2]
+3-4	133-134	,	_	_
+3-5	135-138	Ich	_	_
+3-6	139-144	bitte	_	_
+3-7	145-147	um	_	_
+3-8	148-157	sefällise	_	_
+3-9	158-169	Beförderung	_	_
+3-10	170-182	einliegender	_	_
+3-11	183-189	Briefe	_	_
+3-12	190-191	,	_	_

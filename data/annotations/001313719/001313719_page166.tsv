@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=97 Gerhard an Henzen Berlin 5/V/1849 A. di Dir , g . 17/9 49 r . 25/V 49 D , Henzen Berlin 5 Mai 49 Nuam Hewsıwı Verehrter Freund .
+1-1	0-2	97	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*[1]	PERaddressee[1]
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-36	5/V/1849	*	DATEletter
+1-7	37-39	A.	_	_
+1-8	40-42	di	_	_
+1-9	43-46	Dir	_	_
+1-10	47-48	,	_	_
+1-11	49-50	g	_	_
+1-12	51-52	.	_	_
+1-13	53-57	17/9	*[2]	DATErecieved[2]
+1-14	58-60	49	*[2]	DATErecieved[2]
+1-15	61-62	r	_	_
+1-16	63-64	.	_	_
+1-17	65-69	25/V	*[3]	DATEanswered[3]
+1-18	70-72	49	*[3]	DATEanswered[3]
+1-19	73-74	D	_	_
+1-20	75-76	,	_	_
+1-21	77-83	Henzen	*	PERaddressee
+1-22	84-90	Berlin	*	PLACEfrom
+1-23	91-92	5	*[4]	DATEletter[4]
+1-24	93-96	Mai	*[4]	DATEletter[4]
+1-25	97-99	49	*[4]	DATEletter[4]
+1-26	100-104	Nuam	_	_
+1-27	105-112	Hewsıwı	_	_
+1-28	113-122	Verehrter	_	_
+1-29	123-129	Freund	_	_
+1-30	130-131	.	_	_
+
+#Text=Auf Ihr Briefliches habe nur dankend zu antworten , ohne viel Inhalt .
+2-1	132-135	Auf	_	_
+2-2	136-139	Ihr	_	_
+2-3	140-151	Briefliches	_	_
+2-4	152-156	habe	_	_
+2-5	157-160	nur	_	_
+2-6	161-168	dankend	_	_
+2-7	169-171	zu	_	_
+2-8	172-181	antworten	_	_
+2-9	182-183	,	_	_
+2-10	184-188	ohne	_	_
+2-11	189-193	viel	_	_
+2-12	194-200	Inhalt	_	_
+2-13	201-202	.	_	_
+
+#Text=Des Instituts Vermögen gereicht mir zu angenehmer Üeberraschung , Ammwtie und letztes Wort Ihnen doppelt gegönnt .
+3-1	203-206	Des	_	_
+3-2	207-216	Instituts	*	ORGmentioned
+3-3	217-225	Vermögen	_	_
+3-4	226-234	gereicht	_	_
+3-5	235-238	mir	_	_
+3-6	239-241	zu	_	_
+3-7	242-252	angenehmer	_	_
+3-8	253-266	Üeberraschung	_	_
+3-9	267-268	,	_	_
+3-10	269-276	Ammwtie	_	_
+3-11	277-280	und	_	_
+3-12	281-288	letztes	_	_
+3-13	289-293	Wort	_	_
+3-14	294-299	Ihnen	_	_
+3-15	300-307	doppelt	_	_
+3-16	308-315	gegönnt	_	_
+3-17	316-317	.	_	_
+
+#Text=Niemand reist diesmal nach Rom , wie sollte es auch \| !
+4-1	318-325	Niemand	_	_
+4-2	326-331	reist	_	_
+4-3	332-339	diesmal	_	_
+4-4	340-344	nach	_	_
+4-5	345-348	Rom	*	PLACEmentioned
+4-6	349-350	,	_	_
+4-7	351-354	wie	_	_
+4-8	355-361	sollte	_	_
+4-9	362-364	es	_	_
+4-10	365-369	auch	_	_
+4-11	370-371	\|	_	_
+4-12	372-373	!	_	_
+
+#Text=Und so bleiben für Sie und andre Freunde alle Sendungen liegen , namentlich auch die Leemansschen \| !
+5-1	374-377	Und	_	_
+5-2	378-380	so	_	_
+5-3	381-388	bleiben	_	_
+5-4	389-392	für	_	_
+5-5	393-396	Sie	_	_
+5-6	397-400	und	_	_
+5-7	401-406	andre	_	_
+5-8	407-414	Freunde	_	_
+5-9	415-419	alle	_	_
+5-10	420-429	Sendungen	_	_
+5-11	430-436	liegen	_	_
+5-12	437-438	,	_	_
+5-13	439-449	namentlich	_	_
+5-14	450-454	auch	_	_
+5-15	455-458	die	_	_
+5-16	459-471	Leemansschen	_	_
+5-17	472-473	\|	_	_
+5-18	474-475	!	_	_
+
+#Text=Tagesordnung : Dresdener Barikaden , Polnischer Srieg in Ungarn , Frankfurter Konvent - , wobei ein preußisches Ministerium , wie eat Schuld es durch späten und unseschickten Protest gegen eine unmögliche und incurable Verfassung auch haben mag , zum Heile der Gegenwart dato noch ehrenfest und unverändert bleibt .
+6-1	476-488	Tagesordnung	_	_
+6-2	489-490	:	_	_
+6-3	491-500	Dresdener	*	PLACEmentioned
+6-4	501-510	Barikaden	_	_
+6-5	511-512	,	_	_
+6-6	513-523	Polnischer	*	PLACEmentioned
+6-7	524-529	Srieg	_	_
+6-8	530-532	in	_	_
+6-9	533-539	Ungarn	*	PLACEmentioned
+6-10	540-541	,	_	_
+6-11	542-553	Frankfurter	*	PLACEmentioned
+6-12	554-561	Konvent	_	_
+6-13	562-563	-	_	_
+6-14	564-565	,	_	_
+6-15	566-571	wobei	_	_
+6-16	572-575	ein	_	_
+6-17	576-587	preußisches	_	_
+6-18	588-599	Ministerium	_	_
+6-19	600-601	,	_	_
+6-20	602-605	wie	_	_
+6-21	606-609	eat	_	_
+6-22	610-616	Schuld	_	_
+6-23	617-619	es	_	_
+6-24	620-625	durch	_	_
+6-25	626-632	späten	_	_
+6-26	633-636	und	_	_
+6-27	637-650	unseschickten	_	_
+6-28	651-658	Protest	_	_
+6-29	659-664	gegen	_	_
+6-30	665-669	eine	_	_
+6-31	670-680	unmögliche	_	_
+6-32	681-684	und	_	_
+6-33	685-694	incurable	_	_
+6-34	695-705	Verfassung	_	_
+6-35	706-710	auch	_	_
+6-36	711-716	haben	_	_
+6-37	717-720	mag	_	_
+6-38	721-722	,	_	_
+6-39	723-726	zum	_	_
+6-40	727-732	Heile	_	_
+6-41	733-736	der	_	_
+6-42	737-746	Gegenwart	_	_
+6-43	747-751	dato	_	_
+6-44	752-756	noch	_	_
+6-45	757-766	ehrenfest	_	_
+6-46	767-770	und	_	_
+6-47	771-782	unverändert	_	_
+6-48	783-789	bleibt	_	_
+6-49	790-791	.	_	_
+
+#Text=Daß auf Polen Russen gehören bleibt Gott geklagt , ist aber nicht zu ändern , und wir riefen sie nicht herbei .
+7-1	792-795	Daß	_	_
+7-2	796-799	auf	_	_
+7-3	800-805	Polen	*	PLACEmentioned
+7-4	806-812	Russen	_	_
+7-5	813-820	gehören	_	_
+7-6	821-827	bleibt	_	_
+7-7	828-832	Gott	_	_
+7-8	833-840	geklagt	_	_
+7-9	841-842	,	_	_
+7-10	843-846	ist	_	_
+7-11	847-851	aber	_	_
+7-12	852-857	nicht	_	_
+7-13	858-860	zu	_	_
+7-14	861-867	ändern	_	_
+7-15	868-869	,	_	_
+7-16	870-873	und	_	_
+7-17	874-877	wir	_	_
+7-18	878-884	riefen	_	_
+7-19	885-888	sie	_	_
+7-20	889-894	nicht	_	_
+7-21	895-901	herbei	_	_
+7-22	902-903	.	_	_
+
+#Text=So behält Prokesch Recht , dem ich seit er hier ist wegen der politischen Stimmungen gegen Oesterfreich aus dem Wege ging .
+8-1	904-906	So	_	_
+8-2	907-913	behält	_	_
+8-3	914-922	Prokesch	*	PERmentioned
+8-4	923-928	Recht	_	_
+8-5	929-930	,	_	_
+8-6	931-934	dem	_	_
+8-7	935-938	ich	_	_
+8-8	939-943	seit	_	_
+8-9	944-946	er	_	_
+8-10	947-951	hier	_	_
+8-11	952-955	ist	_	_
+8-12	956-961	wegen	_	_
+8-13	962-965	der	_	_
+8-14	966-977	politischen	_	_
+8-15	978-988	Stimmungen	_	_
+8-16	989-994	gegen	_	_
+8-17	995-1007	Oesterfreich	*	PLACEmentioned
+8-18	1008-1011	aus	_	_
+8-19	1012-1015	dem	_	_
+8-20	1016-1020	Wege	_	_
+8-21	1021-1025	ging	_	_
+8-22	1026-1027	.	_	_
+
+#Text=Wir erfreuen uns für die nächsten Wochen des Besuchs meines Schwiegervaters , der meiner Frau zunächst nur die besten Grüße der Ihrigen zu senden gestattet .
+9-1	1028-1031	Wir	_	_
+9-2	1032-1040	erfreuen	_	_
+9-3	1041-1044	uns	_	_
+9-4	1045-1048	für	_	_
+9-5	1049-1052	die	_	_
+9-6	1053-1061	nächsten	_	_
+9-7	1062-1068	Wochen	_	_
+9-8	1069-1072	des	_	_
+9-9	1073-1080	Besuchs	_	_
+9-10	1081-1087	meines	_	_
+9-11	1088-1103	Schwiegervaters	_	_
+9-12	1104-1105	,	_	_
+9-13	1106-1109	der	_	_
+9-14	1110-1116	meiner	_	_
+9-15	1117-1121	Frau	_	_
+9-16	1122-1130	zunächst	_	_
+9-17	1131-1134	nur	_	_
+9-18	1135-1138	die	_	_
+9-19	1139-1145	besten	_	_
+9-20	1146-1151	Grüße	_	_
+9-21	1152-1155	der	_	_
+9-22	1156-1163	Ihrigen	_	_
+9-23	1164-1166	zu	_	_
+9-24	1167-1173	senden	_	_
+9-25	1174-1183	gestattet	_	_
+9-26	1184-1185	.	_	_
+
+#Text=Herzlichst der Ihrige Gerhard
+10-1	1186-1196	Herzlichst	_	_
+10-2	1197-1200	der	_	_
+10-3	1201-1207	Ihrige	_	_
+10-4	1208-1215	Gerhard	*	PERauthor

@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=484 Brunn an Henzen Florenz , 20 .
+1-1	0-3	484	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Florenz	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	20	*[7]	DATEletter[7]
+1-8	33-34	.	*[7]	DATEletter[7]
+
+#Text=Oktober 1864 g . 22 .
+2-1	35-42	Oktober	*[7]	DATEletter[7]
+2-2	43-47	1864	*[7]	DATEletter[7]
+2-3	48-49	g	_	_
+2-4	50-51	.	_	_
+2-5	52-54	22	*[8]	DATErecieved[8]
+2-6	55-56	.	*[8]	DATErecieved[8]
+
+#Text=Oktober 71864 ncr Florenz , Donnerstag 20 October 186 # .
+3-1	57-64	Oktober	*[8]	DATErecieved[8]
+3-2	65-70	71864	*[8]	DATErecieved[8]
+3-3	71-74	ncr	_	_
+3-4	75-82	Florenz	*	PLACEfrom
+3-5	83-84	,	_	_
+3-6	85-95	Donnerstag	_	_
+3-7	96-98	20	*[9]	DATEletter[9]
+3-8	99-106	October	*[9]	DATEletter[9]
+3-9	107-110	186	*[9]	DATEletter[9]
+3-10	111-112	#	_	_
+3-11	113-114	.	_	_
+
+#Text=Lieber Henzen Gestern Nachmittag hier angelangt , nachdem wir zwischen Verona und hier nur 7 Stunden in der Nacht in Bologna verweilt .
+4-1	115-121	Lieber	_	_
+4-2	122-128	Henzen	*	PERaddressee
+4-3	129-136	Gestern	_	_
+4-4	137-147	Nachmittag	_	_
+4-5	148-152	hier	_	_
+4-6	153-162	angelangt	_	_
+4-7	163-164	,	_	_
+4-8	165-172	nachdem	_	_
+4-9	173-176	wir	_	_
+4-10	177-185	zwischen	_	_
+4-11	186-192	Verona	*	PLACEmentioned
+4-12	193-196	und	_	_
+4-13	197-201	hier	_	_
+4-14	202-205	nur	_	_
+4-15	206-207	7	_	_
+4-16	208-215	Stunden	_	_
+4-17	216-218	in	_	_
+4-18	219-222	der	_	_
+4-19	223-228	Nacht	_	_
+4-20	229-231	in	_	_
+4-21	232-239	Bologna	*	PLACEmentioned
+4-22	240-248	verweilt	_	_
+4-23	249-250	.	_	_
+
+#Text=Heute hier der letzte Ruhetag .
+5-1	251-256	Heute	_	_
+5-2	257-261	hier	_	_
+5-3	262-265	der	_	_
+5-4	266-272	letzte	_	_
+5-5	273-280	Ruhetag	_	_
+5-6	281-282	.	_	_
+
+#Text=Für die Weiterreise bleibt nach reiflicher .
+6-1	283-286	Für	_	_
+6-2	287-290	die	_	_
+6-3	291-302	Weiterreise	_	_
+6-4	303-309	bleibt	_	_
+6-5	310-314	nach	_	_
+6-6	315-325	reiflicher	_	_
+6-7	326-327	.	_	_
+
+#Text=Erwägung nur Folgender übrig .
+7-1	328-336	Erwägung	_	_
+7-2	337-340	nur	_	_
+7-3	341-350	Folgender	_	_
+7-4	351-356	übrig	_	_
+7-5	357-358	.	_	_
+
+#Text=Morgen früh 1/2 5 Uhr fort , bei Livorno vorbei nach Nunziatella : Endpunkt der Maremmenbahn nahe an der pästlichen Grenze , Dort Zwischen 2-3 \; wo hoffentlich irgend ein Fuhrwerk bis Corneto aufzutreiben ist : nicht nach Civitavecchia , um die dortigen Gasthöfe und noch mehr , um die nochmalige , in Civittavecchia sehr unangenehme Revision der Sachen zu vermeiden .
+8-1	359-365	Morgen	_	_
+8-2	366-370	früh	_	_
+8-3	371-374	1/2	_	_
+8-4	375-376	5	_	_
+8-5	377-380	Uhr	_	_
+8-6	381-385	fort	_	_
+8-7	386-387	,	_	_
+8-8	388-391	bei	_	_
+8-9	392-399	Livorno	*	PLACEmentioned
+8-10	400-406	vorbei	_	_
+8-11	407-411	nach	_	_
+8-12	412-423	Nunziatella	*	PLACEmentioned
+8-13	424-425	:	_	_
+8-14	426-434	Endpunkt	_	_
+8-15	435-438	der	_	_
+8-16	439-451	Maremmenbahn	_	_
+8-17	452-456	nahe	_	_
+8-18	457-459	an	_	_
+8-19	460-463	der	_	_
+8-20	464-474	pästlichen	_	_
+8-21	475-481	Grenze	_	_
+8-22	482-483	,	_	_
+8-23	484-488	Dort	_	_
+8-24	489-497	Zwischen	_	_
+8-25	498-501	2-3	_	_
+8-26	502-503	\;	_	_
+8-27	504-506	wo	_	_
+8-28	507-518	hoffentlich	_	_
+8-29	519-525	irgend	_	_
+8-30	526-529	ein	_	_
+8-31	530-538	Fuhrwerk	_	_
+8-32	539-542	bis	_	_
+8-33	543-550	Corneto	*	PLACEmentioned
+8-34	551-563	aufzutreiben	_	_
+8-35	564-567	ist	_	_
+8-36	568-569	:	_	_
+8-37	570-575	nicht	_	_
+8-38	576-580	nach	_	_
+8-39	581-594	Civitavecchia	*	PLACEmentioned
+8-40	595-596	,	_	_
+8-41	597-599	um	_	_
+8-42	600-603	die	_	_
+8-43	604-612	dortigen	_	_
+8-44	613-621	Gasthöfe	_	_
+8-45	622-625	und	_	_
+8-46	626-630	noch	_	_
+8-47	631-635	mehr	_	_
+8-48	636-637	,	_	_
+8-49	638-640	um	_	_
+8-50	641-644	die	_	_
+8-51	645-655	nochmalige	_	_
+8-52	656-657	,	_	_
+8-53	658-660	in	_	_
+8-54	661-675	Civittavecchia	*	PLACEmentioned
+8-55	676-680	sehr	_	_
+8-56	681-692	unangenehme	_	_
+8-57	693-701	Revision	_	_
+8-58	702-705	der	_	_
+8-59	706-712	Sachen	_	_
+8-60	713-715	zu	_	_
+8-61	716-725	vermeiden	_	_
+8-62	726-727	.	_	_
+
+#Text=Sonnabend früh nach Corneto außerhalb CV .
+9-1	728-737	Sonnabend	_	_
+9-2	738-742	früh	_	_
+9-3	743-747	nach	_	_
+9-4	748-755	Corneto	*	PLACEmentioned
+9-5	756-765	außerhalb	_	_
+9-6	766-768	CV	_	_
+9-7	769-770	.	_	_
+
+#Text=nach dem Bahnhof , um mit dem Mittagszuge nach Rom zu fahren .
+10-1	771-775	nach	_	_
+10-2	776-779	dem	_	_
+10-3	780-787	Bahnhof	_	_
+10-4	788-789	,	_	_
+10-5	790-792	um	_	_
+10-6	793-796	mit	_	_
+10-7	797-800	dem	_	_
+10-8	801-812	Mittagszuge	_	_
+10-9	813-817	nach	_	_
+10-10	818-821	Rom	*	PLACEmentioned
+10-11	822-824	zu	_	_
+10-12	825-831	fahren	_	_
+10-13	832-833	.	_	_
+
+#Text=Hoffentlich treffen uns auf dieser letzten Strecke keine unangenehmen Zwischenfälle und Sie dürfen uns also Sonnabend gegen 2 Uhr erwarten .
+11-1	834-845	Hoffentlich	_	_
+11-2	846-853	treffen	_	_
+11-3	854-857	uns	_	_
+11-4	858-861	auf	_	_
+11-5	862-868	dieser	_	_
+11-6	869-876	letzten	_	_
+11-7	877-884	Strecke	_	_
+11-8	885-890	keine	_	_
+11-9	891-903	unangenehmen	_	_
+11-10	904-917	Zwischenfälle	_	_
+11-11	918-921	und	_	_
+11-12	922-925	Sie	_	_
+11-13	926-932	dürfen	_	_
+11-14	933-936	uns	_	_
+11-15	937-941	also	_	_
+11-16	942-951	Sonnabend	*	DATEmentioned
+11-17	952-957	gegen	_	_
+11-18	958-959	2	_	_
+11-19	960-963	Uhr	_	_
+11-20	964-972	erwarten	_	_
+11-21	973-974	.	_	_
+
+#Text=Mariuccia mag für eine Tasse Bouillon und ein Stück Fleisch sorgen , was sich auch bis Abends hält , sofern wir ja unterwegs aufgehalten werden sollten .
+12-1	975-984	Mariuccia	*	PERmentioned
+12-2	985-988	mag	_	_
+12-3	989-992	für	_	_
+12-4	993-997	eine	_	_
+12-5	998-1003	Tasse	_	_
+12-6	1004-1012	Bouillon	_	_
+12-7	1013-1016	und	_	_
+12-8	1017-1020	ein	_	_
+12-9	1021-1026	Stück	_	_
+12-10	1027-1034	Fleisch	_	_
+12-11	1035-1041	sorgen	_	_
+12-12	1042-1043	,	_	_
+12-13	1044-1047	was	_	_
+12-14	1048-1052	sich	_	_
+12-15	1053-1057	auch	_	_
+12-16	1058-1061	bis	_	_
+12-17	1062-1068	Abends	_	_
+12-18	1069-1073	hält	_	_
+12-19	1074-1075	,	_	_
+12-20	1076-1082	sofern	_	_
+12-21	1083-1086	wir	_	_
+12-22	1087-1089	ja	_	_
+12-23	1090-1099	unterwegs	_	_
+12-24	1100-1111	aufgehalten	_	_
+12-25	1112-1118	werden	_	_
+12-26	1119-1126	sollten	_	_
+12-27	1127-1128	.	_	_
+
+#Text=Willmanns getroffen .
+13-1	1129-1138	Willmanns	*	PERmentioned
+13-2	1139-1148	getroffen	_	_
+13-3	1149-1150	.	_	_

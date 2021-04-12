@@ -1,0 +1,138 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Zürich ?
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Zürich	*	PLACEfrom
+1-5	24-25	?	*[1]	DATEletter[1]
+
+#Text=Dezember 1853 Ich habe nun das liebe Land Nach Nord und Süd durchschritten \; Im Süden bin ich wohlbekannt , Im Norden wohlgelitten .
+2-1	26-34	Dezember	*[1]	DATEletter[1]
+2-2	35-39	1853	*[1]	DATEletter[1]
+2-3	40-43	Ich	_	_
+2-4	44-48	habe	_	_
+2-5	49-52	nun	_	_
+2-6	53-56	das	_	_
+2-7	57-62	liebe	_	_
+2-8	63-67	Land	_	_
+2-9	68-72	Nach	_	_
+2-10	73-77	Nord	_	_
+2-11	78-81	und	_	_
+2-12	82-85	Süd	_	_
+2-13	86-100	durchschritten	_	_
+2-14	101-102	\;	_	_
+2-15	103-105	Im	_	_
+2-16	106-111	Süden	_	_
+2-17	112-115	bin	_	_
+2-18	116-119	ich	_	_
+2-19	120-131	wohlbekannt	_	_
+2-20	132-133	,	_	_
+2-21	134-136	Im	_	_
+2-22	137-143	Norden	_	_
+2-23	144-156	wohlgelitten	_	_
+2-24	157-158	.	_	_
+
+#Text=Die Einzelländer ziehn daher Und bleiben keinem schuldig - O liebes Herz , was willst du mehr ?
+3-1	159-162	Die	_	_
+3-2	163-175	Einzelländer	_	_
+3-3	176-181	ziehn	_	_
+3-4	182-187	daher	_	_
+3-5	188-191	Und	_	_
+3-6	192-199	bleiben	_	_
+3-7	200-206	keinem	_	_
+3-8	207-215	schuldig	_	_
+3-9	216-217	-	_	_
+3-10	218-219	O	_	_
+3-11	220-226	liebes	_	_
+3-12	227-231	Herz	_	_
+3-13	232-233	,	_	_
+3-14	234-237	was	_	_
+3-15	238-244	willst	_	_
+3-16	245-247	du	_	_
+3-17	248-252	mehr	_	_
+3-18	253-254	?	_	_
+
+#Text=Mein Herz so ungeduldig \| Du möchtest wohl an Berg und Fluß Vor manchem Hause pochen \; Mit Schleswig-Holsteins Ehrengruß Mit Idstedt nicht gerochen .
+4-1	255-259	Mein	_	_
+4-2	260-264	Herz	_	_
+4-3	265-267	so	_	_
+4-4	268-278	ungeduldig	_	_
+4-5	279-280	\|	_	_
+4-6	281-283	Du	_	_
+4-7	284-292	möchtest	_	_
+4-8	293-297	wohl	_	_
+4-9	298-300	an	_	_
+4-10	301-305	Berg	_	_
+4-11	306-309	und	_	_
+4-12	310-314	Fluß	_	_
+4-13	315-318	Vor	_	_
+4-14	319-326	manchem	_	_
+4-15	327-332	Hause	_	_
+4-16	333-339	pochen	_	_
+4-17	340-341	\;	_	_
+4-18	342-345	Mit	_	_
+4-19	346-365	Schleswig-Holsteins	*	PLACEmentioned
+4-20	366-375	Ehrengruß	_	_
+4-21	376-379	Mit	_	_
+4-22	380-387	Idstedt	*	PLACEmentioned
+4-23	388-393	nicht	_	_
+4-24	394-402	gerochen	_	_
+4-25	403-404	.	_	_
+
+#Text=O liebes Herz , du harre aus \| !
+5-1	405-406	O	_	_
+5-2	407-413	liebes	_	_
+5-3	414-418	Herz	_	_
+5-4	419-420	,	_	_
+5-5	421-423	du	_	_
+5-6	424-429	harre	_	_
+5-7	430-433	aus	_	_
+5-8	434-435	\|	_	_
+5-9	436-437	!	_	_
+
+#Text=Gedenke nicht der Deinen , Es wird um unser hohes Haus Noch manche Sonne scheinen .
+6-1	438-445	Gedenke	_	_
+6-2	446-451	nicht	_	_
+6-3	452-455	der	_	_
+6-4	456-462	Deinen	_	_
+6-5	463-464	,	_	_
+6-6	465-467	Es	_	_
+6-7	468-472	wird	_	_
+6-8	473-475	um	_	_
+6-9	476-481	unser	_	_
+6-10	482-487	hohes	_	_
+6-11	488-492	Haus	_	_
+6-12	493-497	Noch	_	_
+6-13	498-504	manche	_	_
+6-14	505-510	Sonne	_	_
+6-15	511-519	scheinen	_	_
+6-16	520-521	.	_	_
+
+#Text=Es wird um unsern stolzen Bau Die volle Sonne glänzen \; Jetzt schweige still \; noch weht es rauh in unsren rauhen Lenzen .
+7-1	522-524	Es	_	_
+7-2	525-529	wird	_	_
+7-3	530-532	um	_	_
+7-4	533-539	unsern	_	_
+7-5	540-547	stolzen	_	_
+7-6	548-551	Bau	_	_
+7-7	552-555	Die	_	_
+7-8	556-561	volle	_	_
+7-9	562-567	Sonne	_	_
+7-10	568-575	glänzen	_	_
+7-11	576-577	\;	_	_
+7-12	578-583	Jetzt	_	_
+7-13	584-592	schweige	_	_
+7-14	593-598	still	_	_
+7-15	599-600	\;	_	_
+7-16	601-605	noch	_	_
+7-17	606-610	weht	_	_
+7-18	611-613	es	_	_
+7-19	614-618	rauh	_	_
+7-20	619-621	in	_	_
+7-21	622-628	unsren	_	_
+7-22	629-635	rauhen	_	_
+7-23	636-642	Lenzen	_	_
+7-24	643-644	.	_	_

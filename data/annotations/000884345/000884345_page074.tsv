@@ -1,0 +1,32 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard 1. März 1834 Ich bete für Abschluß der Institus Rechnungen .
+1-1	0-6	Bunsen	*	PERauthor	
+1-2	7-9	an	_	_	
+1-3	10-17	Gerhard	*	PERaddressee	
+1-4	18-20	1.	*[1]	DATEletter[1]	
+1-5	21-25	März	*[1]	DATEletter[1]	
+1-6	26-30	1834	*[1]	DATEletter[1]	
+1-7	31-34	Ich	_	_	
+1-8	35-39	bete	_	_	
+1-9	40-43	für	_	_	
+1-10	44-52	Abschluß	_	_	
+1-11	53-56	der	_	_	
+1-12	57-65	Institus	*	ORGmentioned	
+1-13	66-76	Rechnungen	_	_	
+1-14	77-78	.	_	_	
+
+#Text=Nächste Woche bin ich bereit für die Sitzung mit Kestner .
+2-1	79-86	Nächste	_	_	
+2-2	87-92	Woche	_	_	
+2-3	93-96	bin	_	_	
+2-4	97-100	ich	_	_	
+2-5	101-107	bereit	_	_	
+2-6	108-111	für	_	_	
+2-7	112-115	die	_	_	
+2-8	116-123	Sitzung	_	_	
+2-9	124-127	mit	_	_	
+2-10	128-135	Kestner	*	PERmentioned	
+2-11	136-137	.	_	_	

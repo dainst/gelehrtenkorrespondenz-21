@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=310 Braun an Gerhard Rom , 18. Juli 1837 ist und die ich für einzig halte .
+1-1	0-3	310	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	18.	*[1]	DATEletter[1]
+1-8	31-35	Juli	*[1]	DATEletter[1]
+1-9	36-40	1837	*[1]	DATEletter[1]
+1-10	41-44	ist	_	_
+1-11	45-48	und	_	_
+1-12	49-52	die	_	_
+1-13	53-56	ich	_	_
+1-14	57-60	für	_	_
+1-15	61-67	einzig	_	_
+1-16	68-73	halte	_	_
+1-17	74-75	.	_	_
+
+#Text=Der Name steht auf dem Fuß und in der Schaale geschrieben .
+2-1	76-79	Der	_	_
+2-2	80-84	Name	_	_
+2-3	85-90	steht	_	_
+2-4	91-94	auf	_	_
+2-5	95-98	dem	_	_
+2-6	99-102	Fuß	_	_
+2-7	103-106	und	_	_
+2-8	107-109	in	_	_
+2-9	110-113	der	_	_
+2-10	114-121	Schaale	*	OBJ
+2-11	122-133	geschrieben	_	_
+2-12	134-135	.	_	_
+
+#Text=Außen sind rothe Figuren , innen zwei farbige Köpfe auf weißen Grund , großartig wie die Kolosse von Montecavallo .
+3-1	136-141	Außen	_	_
+3-2	142-146	sind	_	_
+3-3	147-152	rothe	_	_
+3-4	153-160	Figuren	_	_
+3-5	161-162	,	_	_
+3-6	163-168	innen	_	_
+3-7	169-173	zwei	_	_
+3-8	174-181	farbige	_	_
+3-9	182-187	Köpfe	_	_
+3-10	188-191	auf	_	_
+3-11	192-198	weißen	_	_
+3-12	199-204	Grund	_	_
+3-13	205-206	,	_	_
+3-14	207-216	großartig	_	_
+3-15	217-220	wie	_	_
+3-16	221-224	die	_	_
+3-17	225-232	Kolosse	*[2]	OBJ[2]
+3-18	233-236	von	*[2]	OBJ[2]
+3-19	237-249	Montecavallo	*[2]	OBJ[2]
+3-20	250-251	.	_	_
+
+#Text=Wenn man die gesehen hat , kann man sterben .
+4-1	252-256	Wenn	_	_
+4-2	257-260	man	_	_
+4-3	261-264	die	_	_
+4-4	265-272	gesehen	_	_
+4-5	273-276	hat	_	_
+4-6	277-278	,	_	_
+4-7	279-283	kann	_	_
+4-8	284-287	man	_	_
+4-9	288-295	sterben	_	_
+4-10	296-297	.	_	_
+
+#Text=Diese Fragmente treten an Schönheit und erhabenem Styl unmittelbar neben die Graphite von der Cista im Kircherianun .
+5-1	298-303	Diese	_	_
+5-2	304-313	Fragmente	_	_
+5-3	314-320	treten	_	_
+5-4	321-323	an	_	_
+5-5	324-333	Schönheit	_	_
+5-6	334-337	und	_	_
+5-7	338-347	erhabenem	_	_
+5-8	348-352	Styl	_	_
+5-9	353-364	unmittelbar	_	_
+5-10	365-370	neben	_	_
+5-11	371-374	die	_	_
+5-12	375-383	Graphite	_	_
+5-13	384-387	von	_	_
+5-14	388-391	der	_	_
+5-15	392-397	Cista	*	OBJ
+5-16	398-400	im	_	_
+5-17	401-413	Kircherianun	*	ORGmentioned
+5-18	414-415	.	_	_
+
+#Text=Spiegel haben die Campanaris etwa 17 behalten .
+6-1	416-423	Spiegel	*	OBJ
+6-2	424-429	haben	_	_
+6-3	430-433	die	_	_
+6-4	434-444	Campanaris	*	PERmentioned
+6-5	445-449	etwa	_	_
+6-6	450-452	17	_	_
+6-7	453-461	behalten	_	_
+6-8	462-463	.	_	_
+
+#Text=Sechs davon sind ziemlich interessant .
+7-1	464-469	Sechs	_	_
+7-2	470-475	davon	_	_
+7-3	476-480	sind	_	_
+7-4	481-489	ziemlich	_	_
+7-5	490-501	interessant	_	_
+7-6	502-503	.	_	_
+
+#Text=Der interessanteste zeigt einen gefesselten Prometheus zwischen Herakles und Apollon .
+8-1	504-507	Der	*[3]	OBJ[3]
+8-2	508-523	interessanteste	*[3]	OBJ[3]
+8-3	524-529	zeigt	_	_
+8-4	530-535	einen	_	_
+8-5	536-547	gefesselten	_	_
+8-6	548-558	Prometheus	*	PERmentioned
+8-7	559-567	zwischen	_	_
+8-8	568-576	Herakles	*	PERmentioned
+8-9	577-580	und	_	_
+8-10	581-588	Apollon	*	PERmentioned
+8-11	589-590	.	_	_
+
+#Text=Der Jüngling also welcher auf dem Micalischen Spiegel dem Collinike entspricht scheint Apollo zu sein und Collinike ist unbestritten Herakles .
+9-1	591-594	Der	_	_
+9-2	595-603	Jüngling	_	_
+9-3	604-608	also	_	_
+9-4	609-616	welcher	_	_
+9-5	617-620	auf	_	_
+9-6	621-624	dem	_	_
+9-7	625-636	Micalischen	*[4]	OBJ[4]
+9-8	637-644	Spiegel	*[4]	OBJ[4]
+9-9	645-648	dem	_	_
+9-10	649-658	Collinike	*	PERmentioned
+9-11	659-669	entspricht	_	_
+9-12	670-677	scheint	_	_
+9-13	678-684	Apollo	*	PERmentioned
+9-14	685-687	zu	_	_
+9-15	688-692	sein	_	_
+9-16	693-696	und	_	_
+9-17	697-706	Collinike	*	PERmentioned
+9-18	707-710	ist	_	_
+9-19	711-723	unbestritten	_	_
+9-20	724-732	Herakles	*	PERmentioned
+9-21	733-734	.	_	_
+
+#Text=Unter den Vasen , die das Governo nicht genommen hat , ist manche partikoläre Form und sonst viel Varianten in übrigens bekannten Darstellungen .
+10-1	735-740	Unter	_	_
+10-2	741-744	den	_	_
+10-3	745-750	Vasen	*	OBJ
+10-4	751-752	,	_	_
+10-5	753-756	die	_	_
+10-6	757-760	das	_	_
+10-7	761-768	Governo	*	ORGmentioned
+10-8	769-774	nicht	_	_
+10-9	775-783	genommen	_	_
+10-10	784-787	hat	_	_
+10-11	788-789	,	_	_
+10-12	790-793	ist	_	_
+10-13	794-800	manche	_	_
+10-14	801-812	partikoläre	_	_
+10-15	813-817	Form	_	_
+10-16	818-821	und	_	_
+10-17	822-827	sonst	_	_
+10-18	828-832	viel	_	_
+10-19	833-842	Varianten	_	_
+10-20	843-845	in	_	_
+10-21	846-854	übrigens	_	_
+10-22	855-864	bekannten	_	_
+10-23	865-878	Darstellungen	_	_
+10-24	879-880	.	_	_
+
+#Text=Ihrem Systen nach müssen fast alle gezeichnet werden .
+11-1	881-886	Ihrem	_	_
+11-2	887-893	Systen	_	_
+11-3	894-898	nach	_	_
+11-4	899-905	müssen	_	_
+11-5	906-910	fast	_	_
+11-6	911-915	alle	_	_
+11-7	916-926	gezeichnet	_	_
+11-8	927-933	werden	_	_
+11-9	934-935	.	_	_
+
+#Text=Linige die das Governo nachträglich von Campanari gekauft hat , habe ich bereits zeichnen lassen .
+12-1	936-942	Linige	_	_
+12-2	943-946	die	_	_
+12-3	947-950	das	_	_
+12-4	951-958	Governo	*	ORGmentioned
+12-5	959-971	nachträglich	_	_
+12-6	972-975	von	_	_
+12-7	976-985	Campanari	*	PERmentioned
+12-8	986-993	gekauft	_	_
+12-9	994-997	hat	_	_
+12-10	998-999	,	_	_
+12-11	1000-1004	habe	_	_
+12-12	1005-1008	ich	_	_
+12-13	1009-1016	bereits	_	_
+12-14	1017-1025	zeichnen	_	_
+12-15	1026-1032	lassen	_	_
+12-16	1033-1034	.	_	_
+
+#Text=Darunter eine seltene Perseus Darstellung .
+13-1	1035-1043	Darunter	_	_
+13-2	1044-1048	eine	_	_
+13-3	1049-1056	seltene	_	_
+13-4	1057-1064	Perseus	*[5]	OBJ[5]
+13-5	1065-1076	Darstellung	*[5]	OBJ[5]
+13-6	1077-1078	.	_	_
+
+#Text=FPerseus mit Harpe und Reisesack vor einer Frau mit einem Hirschkopf , rechts eilt eine Flügelfrau hinweg .
+14-1	1079-1087	FPerseus	*	PERmentioned
+14-2	1088-1091	mit	_	_
+14-3	1092-1097	Harpe	_	_
+14-4	1098-1101	und	_	_
+14-5	1102-1111	Reisesack	_	_
+14-6	1112-1115	vor	_	_
+14-7	1116-1121	einer	_	_
+14-8	1122-1126	Frau	_	_
+14-9	1127-1130	mit	_	_
+14-10	1131-1136	einem	_	_
+14-11	1137-1147	Hirschkopf	_	_
+14-12	1148-1149	,	_	_
+14-13	1150-1156	rechts	_	_
+14-14	1157-1161	eilt	_	_
+14-15	1162-1166	eine	_	_
+14-16	1167-1177	Flügelfrau	_	_
+14-17	1178-1184	hinweg	_	_
+14-18	1185-1186	.	_	_
+
+#Text=Die Vase ist von etruskischer Provinzialfabrik aber ziemlich gut .
+15-1	1187-1190	Die	_	_
+15-2	1191-1195	Vase	*	OBJ
+15-3	1196-1199	ist	_	_
+15-4	1200-1203	von	_	_
+15-5	1204-1216	etruskischer	_	_
+15-6	1217-1233	Provinzialfabrik	_	_
+15-7	1234-1238	aber	_	_
+15-8	1239-1247	ziemlich	_	_
+15-9	1248-1251	gut	_	_
+15-10	1252-1253	.	_	_
+
+#Text=Ich wollte die Zeichnung anfangs für mich behalten , indeß - - Die Kunsthändler haben in diesem phantastischen Wesen eine Grän entdeckt .
+16-1	1254-1257	Ich	_	_
+16-2	1258-1264	wollte	_	_
+16-3	1265-1268	die	_	_
+16-4	1269-1278	Zeichnung	_	_
+16-5	1279-1286	anfangs	_	_
+16-6	1287-1290	für	_	_
+16-7	1291-1295	mich	_	_
+16-8	1296-1304	behalten	_	_
+16-9	1305-1306	,	_	_
+16-10	1307-1312	indeß	_	_
+16-11	1313-1314	-	_	_
+16-12	1315-1316	-	_	_
+16-13	1317-1320	Die	_	_
+16-14	1321-1333	Kunsthändler	_	_
+16-15	1334-1339	haben	_	_
+16-16	1340-1342	in	_	_
+16-17	1343-1349	diesem	_	_
+16-18	1350-1364	phantastischen	_	_
+16-19	1365-1370	Wesen	_	_
+16-20	1371-1375	eine	_	_
+16-21	1376-1380	Grän	_	_
+16-22	1381-1389	entdeckt	_	_
+16-23	1390-1391	.	_	_
+
+#Text=Ich schreite jetzt zur Beantwortung der einzelnen Punkte Ihres Briefs vom 12 - 13 1 .
+17-1	1392-1395	Ich	_	_
+17-2	1396-1404	schreite	_	_
+17-3	1405-1410	jetzt	_	_
+17-4	1411-1414	zur	_	_
+17-5	1415-1427	Beantwortung	_	_
+17-6	1428-1431	der	_	_
+17-7	1432-1441	einzelnen	_	_
+17-8	1442-1448	Punkte	_	_
+17-9	1449-1454	Ihres	_	_
+17-10	1455-1461	Briefs	_	_
+17-11	1462-1465	vom	_	_
+17-12	1466-1468	12	*[6]	DATEmentioned[6]
+17-13	1469-1470	-	*[6]	DATEmentioned[6]
+17-14	1471-1473	13	*[6]	DATEmentioned[6]
+17-15	1474-1475	1	*[6]	DATEmentioned[6]
+17-16	1476-1477	.	*[6]	DATEmentioned[6]
+
+#Text=M. Wenn ich mich recht erinnere , so hat Basseggios Geryonvase nicht viel Ristauro nöthig .
+18-1	1478-1480	M.	*[6]	DATEmentioned[6]
+18-2	1481-1485	Wenn	_	_
+18-3	1486-1489	ich	_	_
+18-4	1490-1494	mich	_	_
+18-5	1495-1500	recht	_	_
+18-6	1501-1509	erinnere	_	_
+18-7	1510-1511	,	_	_
+18-8	1512-1514	so	_	_
+18-9	1515-1518	hat	_	_
+18-10	1519-1529	Basseggios	*	PERmentioned
+18-11	1530-1540	Geryonvase	*	OBJ
+18-12	1541-1546	nicht	_	_
+18-13	1547-1551	viel	_	_
+18-14	1552-1560	Ristauro	_	_
+18-15	1561-1567	nöthig	_	_
+18-16	1568-1569	.	_	_
+
+#Text=Heut zu
+19-1	1570-1574	Heut	_	_
+19-2	1575-1577	zu	_	_

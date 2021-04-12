@@ -1,0 +1,154 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=15 Lapsius an Henzen Berlin , 5 .
+1-1	0-2	15	_	_
+1-2	3-10	Lapsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	5	*[3]	DATEletter[3]
+1-8	32-33	.	*[3]	DATEletter[3]
+
+#Text=Januar 1874 wenn nicht , so ist er nur den Korrespondenten noch zuzufügen .
+2-1	34-40	Januar	*[3]	DATEletter[3]
+2-2	41-45	1874	*[3]	DATEletter[3]
+2-3	46-50	wenn	_	_
+2-4	51-56	nicht	_	_
+2-5	57-58	,	_	_
+2-6	59-61	so	_	_
+2-7	62-65	ist	_	_
+2-8	66-68	er	_	_
+2-9	69-72	nur	_	_
+2-10	73-76	den	_	_
+2-11	77-92	Korrespondenten	_	_
+2-12	93-97	noch	_	_
+2-13	98-107	zuzufügen	_	_
+2-14	108-109	.	_	_
+
+#Text=So eben erhalte ich Ihren Brief vom 2 . `` .
+3-1	110-112	So	_	_
+3-2	113-117	eben	_	_
+3-3	118-125	erhalte	_	_
+3-4	126-129	ich	_	_
+3-5	130-135	Ihren	_	_
+3-6	136-141	Brief	_	_
+3-7	142-145	vom	_	_
+3-8	146-147	2	*[4]	DATEmentioned[4]
+3-9	148-149	.	*[4]	DATEmentioned[4]
+3-10	150-152	``	_	_
+3-11	153-154	.	_	_
+
+#Text=Die Gesandfschaft wird wohl noch angewiesen werden , wenn H. v. er seine Anfrage noch keine Antwort hat .
+4-1	155-158	Die	_	_
+4-2	159-172	Gesandfschaft	*	ORGmentioned
+4-3	173-177	wird	_	_
+4-4	178-182	wohl	_	_
+4-5	183-187	noch	_	_
+4-6	188-198	angewiesen	_	_
+4-7	199-205	werden	_	_
+4-8	206-207	,	_	_
+4-9	208-212	wenn	_	_
+4-10	213-215	H.	_	_
+4-11	216-218	v.	_	_
+4-12	219-221	er	_	_
+4-13	222-227	seine	_	_
+4-14	228-235	Anfrage	_	_
+4-15	236-240	noch	_	_
+4-16	241-246	keine	_	_
+4-17	247-254	Antwort	_	_
+4-18	255-258	hat	_	_
+4-19	259-260	.	_	_
+
+#Text=Wäre hier die Sache nicht in Ordnung , so hätte mir wohl Hepke geantwortet .
+5-1	261-265	Wäre	_	_
+5-2	266-270	hier	_	_
+5-3	271-274	die	_	_
+5-4	275-280	Sache	_	_
+5-5	281-286	nicht	_	_
+5-6	287-289	in	_	_
+5-7	290-297	Ordnung	_	_
+5-8	298-299	,	_	_
+5-9	300-302	so	_	_
+5-10	303-308	hätte	_	_
+5-11	309-312	mir	_	_
+5-12	313-317	wohl	_	_
+5-13	318-323	Hepke	*	PERmentioned
+5-14	324-335	geantwortet	_	_
+5-15	336-337	.	_	_
+
+#Text=Ich will nun aber hier weiter forschen und drängen .
+6-1	338-341	Ich	_	_
+6-2	342-346	will	_	_
+6-3	347-350	nun	_	_
+6-4	351-355	aber	_	_
+6-5	356-360	hier	_	_
+6-6	361-367	weiter	_	_
+6-7	368-376	forschen	_	_
+6-8	377-380	und	_	_
+6-9	381-388	drängen	_	_
+6-10	389-390	.	_	_
+
+#Text=Auch über den Bibliotheks Diener werden wir in der nächsten Konferenz sprechen .
+7-1	391-395	Auch	_	_
+7-2	396-400	über	_	_
+7-3	401-404	den	_	_
+7-4	405-416	Bibliotheks	_	_
+7-5	417-423	Diener	_	_
+7-6	424-430	werden	_	_
+7-7	431-434	wir	_	_
+7-8	435-437	in	_	_
+7-9	438-441	der	_	_
+7-10	442-450	nächsten	_	_
+7-11	451-460	Konferenz	_	_
+7-12	461-469	sprechen	_	_
+7-13	470-471	.	_	_
+
+#Text=Desgleichen über die Offerte der Institutswerke an die französische Sektion in Rom , die gewiß bewilligt wird .
+8-1	472-483	Desgleichen	_	_
+8-2	484-488	über	_	_
+8-3	489-492	die	_	_
+8-4	493-500	Offerte	_	_
+8-5	501-504	der	_	_
+8-6	505-519	Institutswerke	_	_
+8-7	520-522	an	_	_
+8-8	523-526	die	_	_
+8-9	527-539	französische	*[5]	ORGmentioned[5]
+8-10	540-547	Sektion	*[5]	ORGmentioned[5]
+8-11	548-550	in	_	_
+8-12	551-554	Rom	*	PLACEmentioned
+8-13	555-556	,	_	_
+8-14	557-560	die	_	_
+8-15	561-566	gewiß	_	_
+8-16	567-576	bewilligt	_	_
+8-17	577-581	wird	_	_
+8-18	582-583	.	_	_
+
+#Text=Kirchhoff wird nächsten Donnerstag noch besonders 1 Exemplar der Inscr .
+9-1	584-593	Kirchhoff	*	PERmentioned
+9-2	594-598	wird	_	_
+9-3	599-607	nächsten	_	_
+9-4	608-618	Donnerstag	_	_
+9-5	619-623	noch	_	_
+9-6	624-633	besonders	_	_
+9-7	634-635	1	_	_
+9-8	636-644	Exemplar	_	_
+9-9	645-648	der	_	_
+9-10	649-654	Inscr	_	_
+9-11	655-656	.	_	_
+
+#Text=Att . für Sie beantragen .
+10-1	657-660	Att	_	_
+10-2	661-662	.	_	_
+10-3	663-666	für	_	_
+10-4	667-670	Sie	_	_
+10-5	671-681	beantragen	_	_
+10-6	682-683	.	_	_
+
+#Text=Der Ihrige R Lepsius
+11-1	684-687	Der	_	_
+11-2	688-694	Ihrige	_	_
+11-3	695-696	R	*[6]	PERauthor[6]
+11-4	697-704	Lepsius	*[6]	PERauthor[6]

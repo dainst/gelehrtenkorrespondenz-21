@@ -1,0 +1,219 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 20. März 1874 Berlin , den 20.ten März 1874 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	20.	*[1]	DATEletter[1]
+1-7	31-35	März	*[1]	DATEletter[1]
+1-8	36-40	1874	*[1]	DATEletter[1]
+1-9	41-47	Berlin	*	PLACEfrom
+1-10	48-49	,	_	_
+1-11	50-53	den	_	_
+1-12	54-60	20.ten	*[2]	DATEletter[2]
+1-13	61-65	März	*[2]	DATEletter[2]
+1-14	66-70	1874	*[2]	DATEletter[2]
+1-15	71-72	.	_	_
+
+#Text=Verehrter Freund Ihre Anfragen zu beantworten mußte erst unsre Sitzung vorüber sein .
+2-1	73-82	Verehrter	_	_
+2-2	83-89	Freund	_	_
+2-3	90-94	Ihre	_	_
+2-4	95-103	Anfragen	_	_
+2-5	104-106	zu	_	_
+2-6	107-118	beantworten	_	_
+2-7	119-124	mußte	_	_
+2-8	125-129	erst	_	_
+2-9	130-135	unsre	_	_
+2-10	136-143	Sitzung	_	_
+2-11	144-151	vorüber	_	_
+2-12	152-156	sein	_	_
+2-13	157-158	.	_	_
+
+#Text=Jetzt eile ich Ihnen mitzutheilen was beschlossen worden ist .
+3-1	159-164	Jetzt	_	_
+3-2	165-169	eile	_	_
+3-3	170-173	ich	_	_
+3-4	174-179	Ihnen	_	_
+3-5	180-192	mitzutheilen	_	_
+3-6	193-196	was	_	_
+3-7	197-208	beschlossen	_	_
+3-8	209-215	worden	_	_
+3-9	216-219	ist	_	_
+3-10	220-221	.	_	_
+
+#Text=Auf den Antrag von Zangemeister , den Mommsen vorlegte , ist Mr .
+4-1	222-225	Auf	_	_
+4-2	226-229	den	_	_
+4-3	230-236	Antrag	_	_
+4-4	237-240	von	_	_
+4-5	241-253	Zangemeister	*	PERmentioned
+4-6	254-255	,	_	_
+4-7	256-259	den	_	_
+4-8	260-267	Mommsen	*	PERmentioned
+4-9	268-276	vorlegte	_	_
+4-10	277-278	,	_	_
+4-11	279-282	ist	_	_
+4-12	283-285	Mr	_	_
+4-13	286-287	.	_	_
+
+#Text=Ferdinand Bompois in Marzy bei Nevers zum Korrespondenten aufgenommen worden .
+5-1	288-297	Ferdinand	*[3]	PERmentioned[3]
+5-2	298-305	Bompois	*[3]	PERmentioned[3]
+5-3	306-308	in	_	_
+5-4	309-314	Marzy	*	PLACEmentioned
+5-5	315-318	bei	_	_
+5-6	319-325	Nevers	*	PLACEmentioned
+5-7	326-329	zum	_	_
+5-8	330-345	Korrespondenten	_	_
+5-9	346-357	aufgenommen	_	_
+5-10	358-364	worden	_	_
+5-11	365-366	.	_	_
+
+#Text=Die Dankschreiben von Dumont an Dr. Klügmann , so wie den neuen Elenco habe ich vorgelegt .
+6-1	367-370	Die	_	_
+6-2	371-384	Dankschreiben	_	_
+6-3	385-388	von	_	_
+6-4	389-395	Dumont	*	PERmentioned
+6-5	396-398	an	_	_
+6-6	399-402	Dr.	_	_
+6-7	403-411	Klügmann	*	PERmentioned
+6-8	412-413	,	_	_
+6-9	414-416	so	_	_
+6-10	417-420	wie	_	_
+6-11	421-424	den	_	_
+6-12	425-430	neuen	_	_
+6-13	431-437	Elenco	_	_
+6-14	438-442	habe	_	_
+6-15	443-446	ich	_	_
+6-16	447-456	vorgelegt	_	_
+6-17	457-458	.	_	_
+
+#Text=Ebenso das Schreiben vom Staats Sekretär von Bülow , für welchen ich die Skizzen des Hauses von Ihnen verlangt und erhalten habe .
+7-1	459-465	Ebenso	_	_
+7-2	466-469	das	_	_
+7-3	470-479	Schreiben	_	_
+7-4	480-483	vom	_	_
+7-5	484-490	Staats	_	_
+7-6	491-499	Sekretär	_	_
+7-7	500-503	von	*[4]	PERmentioned[4]
+7-8	504-509	Bülow	*[4]	PERmentioned[4]
+7-9	510-511	,	_	_
+7-10	512-515	für	_	_
+7-11	516-523	welchen	_	_
+7-12	524-527	ich	_	_
+7-13	528-531	die	_	_
+7-14	532-539	Skizzen	_	_
+7-15	540-543	des	_	_
+7-16	544-550	Hauses	_	_
+7-17	551-554	von	_	_
+7-18	555-560	Ihnen	_	_
+7-19	561-569	verlangt	_	_
+7-20	570-573	und	_	_
+7-21	574-582	erhalten	_	_
+7-22	583-587	habe	_	_
+7-23	588-589	.	_	_
+
+#Text=Prof. Matz hat wieder 200 r für H. Eichler in Rom und 600 r für denselben für Paris und Frankreich beentragt und bewilligt erhalten .
+8-1	590-595	Prof.	_	_
+8-2	596-600	Matz	*	PERmentioned
+8-3	601-604	hat	_	_
+8-4	605-611	wieder	_	_
+8-5	612-615	200	_	_
+8-6	616-617	r	_	_
+8-7	618-621	für	_	_
+8-8	622-624	H.	*[5]	PERmentioned[5]
+8-9	625-632	Eichler	*[5]	PERmentioned[5]
+8-10	633-635	in	_	_
+8-11	636-639	Rom	*	PLACEmentioned
+8-12	640-643	und	_	_
+8-13	644-647	600	_	_
+8-14	648-649	r	_	_
+8-15	650-653	für	_	_
+8-16	654-663	denselben	_	_
+8-17	664-667	für	_	_
+8-18	668-673	Paris	*	PLACEmentioned
+8-19	674-677	und	_	_
+8-20	678-688	Frankreich	*	PLACEmentioned
+8-21	689-698	beentragt	_	_
+8-22	699-702	und	_	_
+8-23	703-712	bewilligt	_	_
+8-24	713-721	erhalten	_	_
+8-25	722-723	.	_	_
+
+#Text=Darauf trug ich Ihren ganzen Jahresbericht vor und legte die Rechnungen nebst Beilagen vor .
+9-1	724-730	Darauf	_	_
+9-2	731-735	trug	_	_
+9-3	736-739	ich	_	_
+9-4	740-745	Ihren	_	_
+9-5	746-752	ganzen	_	_
+9-6	753-766	Jahresbericht	_	_
+9-7	767-770	vor	_	_
+9-8	771-774	und	_	_
+9-9	775-780	legte	_	_
+9-10	781-784	die	_	_
+9-11	785-795	Rechnungen	_	_
+9-12	796-801	nebst	_	_
+9-13	802-810	Beilagen	_	_
+9-14	811-814	vor	_	_
+9-15	815-816	.	_	_
+
+#Text=Dabei wurden folgende Bemerkungen gemacht .
+10-1	817-822	Dabei	_	_
+10-2	823-829	wurden	_	_
+10-3	830-838	folgende	_	_
+10-4	839-850	Bemerkungen	_	_
+10-5	851-858	gemacht	_	_
+10-6	859-860	.	_	_
+
+#Text=In Bezug auf die Monumenti wurden die Schwierigkeiten erkannt , die Sie hervorhoben .
+11-1	861-863	In	_	_
+11-2	864-869	Bezug	_	_
+11-3	870-873	auf	_	_
+11-4	874-877	die	_	_
+11-5	878-887	Monumenti	_	_
+11-6	888-894	wurden	_	_
+11-7	895-898	die	_	_
+11-8	899-914	Schwierigkeiten	_	_
+11-9	915-922	erkannt	_	_
+11-10	923-924	,	_	_
+11-11	925-928	die	_	_
+11-12	929-932	Sie	_	_
+11-13	933-944	hervorhoben	_	_
+11-14	945-946	.	_	_
+
+#Text=Man war der Meinung , es werde zum Theil geholfen werden können und auch sonst zweckmäßig sein , wenn von den für die großen Reichpublikationen bestimmten Zeichnungen zuerst für die
+12-1	947-950	Man	_	_
+12-2	951-954	war	_	_
+12-3	955-958	der	_	_
+12-4	959-966	Meinung	_	_
+12-5	967-968	,	_	_
+12-6	969-971	es	_	_
+12-7	972-977	werde	_	_
+12-8	978-981	zum	_	_
+12-9	982-987	Theil	_	_
+12-10	988-996	geholfen	_	_
+12-11	997-1003	werden	_	_
+12-12	1004-1010	können	_	_
+12-13	1011-1014	und	_	_
+12-14	1015-1019	auch	_	_
+12-15	1020-1025	sonst	_	_
+12-16	1026-1036	zweckmäßig	_	_
+12-17	1037-1041	sein	_	_
+12-18	1042-1043	,	_	_
+12-19	1044-1048	wenn	_	_
+12-20	1049-1052	von	_	_
+12-21	1053-1056	den	_	_
+12-22	1057-1060	für	_	_
+12-23	1061-1064	die	_	_
+12-24	1065-1071	großen	_	_
+12-25	1072-1090	Reichpublikationen	_	_
+12-26	1091-1101	bestimmten	_	_
+12-27	1102-1113	Zeichnungen	_	_
+12-28	1114-1120	zuerst	_	_
+12-29	1121-1124	für	_	_
+12-30	1125-1128	die	_	_

@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=19 Helbig an Henzen Rom , 21 .
+1-1	0-2	19	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	21	*[1]	DATEletter[1]
+1-8	29-30	.	*[1]	DATEletter[1]
+
+#Text=August 1865 H g . 23/8 65 r . 24/8 65 Rom 21/8 65 .
+2-1	31-37	August	*[1]	DATEletter[1]
+2-2	38-42	1865	*[1]	DATEletter[1]
+2-3	43-44	H	_	_
+2-4	45-46	g	_	_
+2-5	47-48	.	_	_
+2-6	49-53	23/8	*[2]	DATErecieved[2]
+2-7	54-56	65	*[2]	DATErecieved[2]
+2-8	57-58	r	_	_
+2-9	59-60	.	_	_
+2-10	61-65	24/8	*[3]	DATEanswered[3]
+2-11	66-68	65	*[3]	DATEanswered[3]
+2-12	69-72	Rom	*	PLACEfrom
+2-13	73-77	21/8	*[4]	DATEletter[4]
+2-14	78-80	65	*[4]	DATEletter[4]
+2-15	81-82	.	_	_
+
+#Text=Lieber Herr Professor !
+3-1	83-89	Lieber	_	_
+3-2	90-94	Herr	_	_
+3-3	95-104	Professor	_	_
+3-4	105-106	!	_	_
+
+#Text=Erst heut habe ich Ihren lieben Brief vom 17. erhalten .
+4-1	107-111	Erst	_	_
+4-2	112-116	heut	_	_
+4-3	117-121	habe	_	_
+4-4	122-125	ich	_	_
+4-5	126-131	Ihren	_	_
+4-6	132-138	lieben	_	_
+4-7	139-144	Brief	_	_
+4-8	145-148	vom	_	_
+4-9	149-152	17.	*[5]	DATEmentioned[5]
+4-10	153-161	erhalten	_	_
+4-11	162-163	.	_	_
+
+#Text=Die Hoffnung , Sie in Olevano auf einige Tage besuchen zu können , ist wiederum zu Wasser geworden , diesmal durch wirklich ganz unverantwortliche Nachlässigkeit des Chefs der Druckerei .
+5-1	164-167	Die	_	_
+5-2	168-176	Hoffnung	_	_
+5-3	177-178	,	_	_
+5-4	179-182	Sie	_	_
+5-5	183-185	in	_	_
+5-6	186-193	Olevano	*	PLACEmentioned
+5-7	194-197	auf	_	_
+5-8	198-204	einige	_	_
+5-9	205-209	Tage	_	_
+5-10	210-218	besuchen	_	_
+5-11	219-221	zu	_	_
+5-12	222-228	können	_	_
+5-13	229-230	,	_	_
+5-14	231-234	ist	_	_
+5-15	235-243	wiederum	_	_
+5-16	244-246	zu	_	_
+5-17	247-253	Wasser	_	_
+5-18	254-262	geworden	_	_
+5-19	263-264	,	_	_
+5-20	265-272	diesmal	_	_
+5-21	273-278	durch	_	_
+5-22	279-287	wirklich	_	_
+5-23	288-292	ganz	_	_
+5-24	293-310	unverantwortliche	_	_
+5-25	311-325	Nachlässigkeit	_	_
+5-26	326-329	des	_	_
+5-27	330-335	Chefs	_	_
+5-28	336-339	der	_	_
+5-29	340-349	Druckerei	_	_
+5-30	350-351	.	_	_
+
+#Text=Bereits Donnerstag hatte ich für das erste Foglio des Bullettino das `` si stampi '' gegeben und trotzdem hat dieser Lump erst heut sich dazu bequemt , den Druck zu beginnen .
+6-1	352-359	Bereits	_	_
+6-2	360-370	Donnerstag	*	DATEmentioned
+6-3	371-376	hatte	_	_
+6-4	377-380	ich	_	_
+6-5	381-384	für	_	_
+6-6	385-388	das	_	_
+6-7	389-394	erste	_	_
+6-8	395-401	Foglio	_	_
+6-9	402-405	des	_	_
+6-10	406-416	Bullettino	_	_
+6-11	417-420	das	_	_
+6-12	421-423	``	_	_
+6-13	424-426	si	_	_
+6-14	427-433	stampi	_	_
+6-15	434-436	''	_	_
+6-16	437-444	gegeben	_	_
+6-17	445-448	und	_	_
+6-18	449-457	trotzdem	_	_
+6-19	458-461	hat	_	_
+6-20	462-468	dieser	_	_
+6-21	469-473	Lump	_	_
+6-22	474-478	erst	_	_
+6-23	479-483	heut	_	_
+6-24	484-488	sich	_	_
+6-25	489-493	dazu	_	_
+6-26	494-501	bequemt	_	_
+6-27	502-503	,	_	_
+6-28	504-507	den	_	_
+6-29	508-513	Druck	_	_
+6-30	514-516	zu	_	_
+6-31	517-525	beginnen	_	_
+6-32	526-527	.	_	_
+
+#Text=Es ist nunmehr das zweite Foglio vorzunehmen , wo für die Garruccischen Siglen , die fast stets nur einmal wiederkehren , derselbe Tanz beginnen wird .
+7-1	528-530	Es	_	_
+7-2	531-534	ist	_	_
+7-3	535-542	nunmehr	_	_
+7-4	543-546	das	_	_
+7-5	547-553	zweite	_	_
+7-6	554-560	Foglio	_	_
+7-7	561-572	vorzunehmen	_	_
+7-8	573-574	,	_	_
+7-9	575-577	wo	_	_
+7-10	578-581	für	_	_
+7-11	582-585	die	_	_
+7-12	586-599	Garruccischen	*	MISC
+7-13	600-606	Siglen	_	_
+7-14	607-608	,	_	_
+7-15	609-612	die	_	_
+7-16	613-617	fast	_	_
+7-17	618-623	stets	_	_
+7-18	624-627	nur	_	_
+7-19	628-634	einmal	_	_
+7-20	635-647	wiederkehren	_	_
+7-21	648-649	,	_	_
+7-22	650-658	derselbe	_	_
+7-23	659-663	Tanz	_	_
+7-24	664-672	beginnen	_	_
+7-25	673-677	wird	_	_
+7-26	678-679	.	_	_
+
+#Text=Ich habe an Puccinelli einen fulminanten Brief gerichtet .
+8-1	680-683	Ich	_	_
+8-2	684-688	habe	_	_
+8-3	689-691	an	_	_
+8-4	692-702	Puccinelli	*	PERmentioned
+8-5	703-708	einen	_	_
+8-6	709-720	fulminanten	_	_
+8-7	721-726	Brief	_	_
+8-8	727-736	gerichtet	_	_
+8-9	737-738	.	_	_
+
+#Text=Wiederholte Mahnungen an Viscontino , die Gemälde von Ostia zum Stiche zu schicken , sind ebenfalls erfolglos geblieben : der Mensch macht in Frascati Villeggiatur und kommt nie nach Rom .
+9-1	739-750	Wiederholte	_	_
+9-2	751-760	Mahnungen	_	_
+9-3	761-763	an	_	_
+9-4	764-774	Viscontino	*	PERmentioned
+9-5	775-776	,	_	_
+9-6	777-780	die	_	_
+9-7	781-788	Gemälde	*	OBJ
+9-8	789-792	von	_	_
+9-9	793-798	Ostia	*	PLACEmentioned
+9-10	799-802	zum	_	_
+9-11	803-809	Stiche	_	_
+9-12	810-812	zu	_	_
+9-13	813-821	schicken	_	_
+9-14	822-823	,	_	_
+9-15	824-828	sind	_	_
+9-16	829-838	ebenfalls	_	_
+9-17	839-848	erfolglos	_	_
+9-18	849-858	geblieben	_	_
+9-19	859-860	:	_	_
+9-20	861-864	der	_	_
+9-21	865-871	Mensch	_	_
+9-22	872-877	macht	_	_
+9-23	878-880	in	_	_
+9-24	881-889	Frascati	*	PLACEmentioned
+9-25	890-902	Villeggiatur	_	_
+9-26	903-906	und	_	_
+9-27	907-912	kommt	_	_
+9-28	913-916	nie	_	_
+9-29	917-921	nach	_	_
+9-30	922-925	Rom	*	PLACEmentioned
+9-31	926-927	.	_	_
+
+#Text=Es schiene mir sehr am Flatze , ein Exempel zu statuiren und seinen ohnehin vermuthlich nichtssagenden Artikel für den nächsten Jahrgang aufzusparen .
+10-1	928-930	Es	_	_
+10-2	931-938	schiene	_	_
+10-3	939-942	mir	_	_
+10-4	943-947	sehr	_	_
+10-5	948-950	am	_	_
+10-6	951-957	Flatze	_	_
+10-7	958-959	,	_	_
+10-8	960-963	ein	_	_
+10-9	964-971	Exempel	_	_
+10-10	972-974	zu	_	_
+10-11	975-984	statuiren	_	_
+10-12	985-988	und	_	_
+10-13	989-995	seinen	_	_
+10-14	996-1003	ohnehin	_	_
+10-15	1004-1015	vermuthlich	_	_
+10-16	1016-1030	nichtssagenden	_	_
+10-17	1031-1038	Artikel	_	_
+10-18	1039-1042	für	_	_
+10-19	1043-1046	den	_	_
+10-20	1047-1055	nächsten	_	_
+10-21	1056-1064	Jahrgang	_	_
+10-22	1065-1076	aufzusparen	_	_
+10-23	1077-1078	.	_	_
+
+#Text=Von Brunn ebenfalls sehe ich der Antwort betreffs der Cornetaner Gemälde vergeblich entgegen .
+11-1	1079-1082	Von	_	_
+11-2	1083-1088	Brunn	*	PERmentioned
+11-3	1089-1098	ebenfalls	_	_
+11-4	1099-1103	sehe	_	_
+11-5	1104-1107	ich	_	_
+11-6	1108-1111	der	_	_
+11-7	1112-1119	Antwort	_	_
+11-8	1120-1128	betreffs	_	_
+11-9	1129-1132	der	_	_
+11-10	1133-1143	Cornetaner	*[6]	OBJ[6]
+11-11	1144-1151	Gemälde	*[6]	OBJ[6]
+11-12	1152-1162	vergeblich	_	_
+11-13	1163-1171	entgegen	_	_
+11-14	1172-1173	.	_	_

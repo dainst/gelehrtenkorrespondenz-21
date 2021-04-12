@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.
+1-1	0-1	.	_	_
+
+#Text=Rat ı Me 456 Gerhard an Braun Berlin 2/IV/1835 Dr. Braun Berlin 2 April 35 L .
+2-1	2-5	Rat	_	_
+2-2	6-7	ı	_	_
+2-3	8-10	Me	_	_
+2-4	11-14	456	_	_
+2-5	15-22	Gerhard	*	PERauthor
+2-6	23-25	an	_	_
+2-7	26-31	Braun	*	PERaddressee
+2-8	32-38	Berlin	*	PLACEfrom
+2-9	39-48	2/IV/1835	*	DATEletter
+2-10	49-52	Dr.	_	_
+2-11	53-58	Braun	*	PERaddressee
+2-12	59-65	Berlin	*	PLACEfrom
+2-13	66-67	2	*[7]	DATEletter[7]
+2-14	68-73	April	*[7]	DATEletter[7]
+2-15	74-76	35	_	_
+2-16	77-78	L	_	_
+2-17	79-80	.	_	_
+
+#Text=Fr. Antwort auf den Brief vom 19 März .
+3-1	81-84	Fr.	_	_
+3-2	85-92	Antwort	_	_
+3-3	93-96	auf	_	_
+3-4	97-100	den	_	_
+3-5	101-106	Brief	_	_
+3-6	107-110	vom	_	_
+3-7	111-113	19	*[8]	DATEmentioned[8]
+3-8	114-118	März	*[8]	DATEmentioned[8]
+3-9	119-120	.	_	_
+
+#Text=Kestnersvortrefflichen Freund Kramer viel Heil zu den guten griechischen Reiseschriften und Wendungen die er unternehmen soll \; möge er seine Freunde und das Institut nicht dabei vergessen .
+4-1	121-143	Kestnersvortrefflichen	_	_
+4-2	144-150	Freund	_	_
+4-3	151-157	Kramer	*	PERmentioned
+4-4	158-162	viel	_	_
+4-5	163-167	Heil	_	_
+4-6	168-170	zu	_	_
+4-7	171-174	den	_	_
+4-8	175-180	guten	_	_
+4-9	181-193	griechischen	_	_
+4-10	194-208	Reiseschriften	_	_
+4-11	209-212	und	_	_
+4-12	213-222	Wendungen	_	_
+4-13	223-226	die	_	_
+4-14	227-229	er	_	_
+4-15	230-241	unternehmen	_	_
+4-16	242-246	soll	_	_
+4-17	247-248	\;	_	_
+4-18	249-253	möge	_	_
+4-19	254-256	er	_	_
+4-20	257-262	seine	_	_
+4-21	263-270	Freunde	_	_
+4-22	271-274	und	_	_
+4-23	275-278	das	_	_
+4-24	279-287	Institut	*	ORGmentioned
+4-25	288-293	nicht	_	_
+4-26	294-299	dabei	_	_
+4-27	300-309	vergessen	_	_
+4-28	310-311	.	_	_
+
+#Text=- Hermann über Plato werde ich besorgen \; wie soll man aber Geschenke veranlassen , für Weber dem Ber .
+5-1	312-313	-	_	_
+5-2	314-321	Hermann	*	PERmentioned
+5-3	322-326	über	_	_
+5-4	327-332	Plato	_	_
+5-5	333-338	werde	_	_
+5-6	339-342	ich	_	_
+5-7	343-351	besorgen	_	_
+5-8	352-353	\;	_	_
+5-9	354-357	wie	_	_
+5-10	358-362	soll	_	_
+5-11	363-366	man	_	_
+5-12	367-371	aber	_	_
+5-13	372-381	Geschenke	_	_
+5-14	382-393	veranlassen	_	_
+5-15	394-395	,	_	_
+5-16	396-399	für	_	_
+5-17	400-405	Weber	*	PERmentioned
+5-18	406-409	dem	_	_
+5-19	410-413	Ber	_	_
+5-20	414-415	.	_	_
+
+#Text=der Byzantiner und einem Buchhändler nicht dann und wann eine Begünstigung abfällt ?
+6-1	416-419	der	_	_
+6-2	420-430	Byzantiner	_	_
+6-3	431-434	und	_	_
+6-4	435-440	einem	_	_
+6-5	441-452	Buchhändler	_	_
+6-6	453-458	nicht	_	_
+6-7	459-463	dann	_	_
+6-8	464-467	und	_	_
+6-9	468-472	wann	_	_
+6-10	473-477	eine	_	_
+6-11	478-490	Begünstigung	_	_
+6-12	491-498	abfällt	_	_
+6-13	499-500	?	_	_
+
+#Text=Von Brockhaus wie von Hirtel bin ich ohne Antwort auf längst ee BE .
+7-1	501-504	Von	_	_
+7-2	505-514	Brockhaus	*	ORGmentioned
+7-3	515-518	wie	_	_
+7-4	519-522	von	_	_
+7-5	523-529	Hirtel	*	PERmentioned
+7-6	530-533	bin	_	_
+7-7	534-537	ich	_	_
+7-8	538-542	ohne	_	_
+7-9	543-550	Antwort	_	_
+7-10	551-554	auf	_	_
+7-11	555-561	längst	_	_
+7-12	562-564	ee	_	_
+7-13	565-567	BE	_	_
+7-14	568-569	.	_	_
+
+#Text=- Wegen Arnold schreibe ich beiliegend an Bunsen .
+8-1	570-571	-	_	_
+8-2	572-577	Wegen	_	_
+8-3	578-584	Arnold	*	PERmentioned
+8-4	585-593	schreibe	_	_
+8-5	594-597	ich	_	_
+8-6	598-608	beiliegend	_	_
+8-7	609-611	an	_	_
+8-8	612-618	Bunsen	*	PERmentioned
+8-9	619-620	.	_	_
+
+#Text=- Die Anordnung des 2.ten Mon .
+9-1	621-622	-	_	_
+9-2	623-626	Die	_	_
+9-3	627-636	Anordnung	_	_
+9-4	637-640	des	_	_
+9-5	641-646	2.ten	_	_
+9-6	647-650	Mon	_	_
+9-7	651-652	.	_	_
+
+#Text=Heftes mache ich folgendermaßen : 19 .
+10-1	653-659	Heftes	_	_
+10-2	660-665	mache	_	_
+10-3	666-669	ich	_	_
+10-4	670-684	folgendermaßen	_	_
+10-5	685-686	:	_	_
+10-6	687-689	19	_	_
+10-7	690-691	.	_	_
+
+#Text=Tombe di Cerveteri .
+11-1	692-697	Tombe	*[17]	OBJ[17]
+11-2	698-700	di	*[17]	OBJ[17]
+11-3	701-710	Cerveteri	*[17]	OBJ[17]
+11-4	711-712	.	_	_
+
+#Text=20 .
+12-1	713-715	20	_	_
+12-2	716-717	.	_	_
+
+#Text=Capitelli etruschi .
+13-1	718-727	Capitelli	*[18]	OBJ[18]
+13-2	728-736	etruschi	*[18]	OBJ[18]
+13-3	737-738	.	_	_
+
+#Text=- 22 .
+14-1	739-740	-	_	_
+14-2	741-743	22	_	_
+14-3	744-745	.	_	_
+
+#Text=Achille ed Aiace , Cru goto de ' Dioscuri .
+15-1	746-753	Achille	*[19]	OBJ[19]
+15-2	754-756	ed	*[19]	OBJ[19]
+15-3	757-762	Aiace	*[19]	OBJ[19]
+15-4	763-764	,	_	_
+15-5	765-768	Cru	_	_
+15-6	769-773	goto	_	_
+15-7	774-776	de	_	_
+15-8	777-778	'	_	_
+15-9	779-787	Dioscuri	_	_
+15-10	788-789	.	_	_
+
+#Text=Vorher ? 1 ( das Relief kn ) Dlisse und Aiace , - 23 Tamiri .
+16-1	790-796	Vorher	_	_
+16-2	797-798	?	_	_
+16-3	799-800	1	_	_
+16-4	801-802	(	_	_
+16-5	803-806	das	_	_
+16-6	807-813	Relief	*[20]	OBJ[20]
+16-7	814-816	kn	*[20]	OBJ[20]
+16-8	817-818	)	*[20]	OBJ[20]
+16-9	819-825	Dlisse	*[20]	OBJ[20]
+16-10	826-829	und	*[20]	OBJ[20]
+16-11	830-835	Aiace	*[20]	OBJ[20]
+16-12	836-837	,	_	_
+16-13	838-839	-	_	_
+16-14	840-842	23	_	_
+16-15	843-849	Tamiri	*	OBJ
+16-16	850-851	.	_	_
+
+#Text=- 24 , la vondinella .
+17-1	852-853	-	_	_
+17-2	854-856	24	_	_
+17-3	857-858	,	_	_
+17-4	859-861	la	_	_
+17-5	862-872	vondinella	*	OBJ
+17-6	873-874	.	_	_
+
+#Text=am Inschriften müssen darunter unter jede Platte .
+18-1	875-877	am	_	_
+18-2	878-889	Inschriften	_	_
+18-3	890-896	müssen	_	_
+18-4	897-905	darunter	_	_
+18-5	906-911	unter	_	_
+18-6	912-916	jede	_	_
+18-7	917-923	Platte	_	_
+18-8	924-925	.	_	_
+
+#Text=Ver : nun GRMR.B .
+19-1	926-929	Ver	_	_
+19-2	930-931	:	_	_
+19-3	932-935	nun	_	_
+19-4	936-942	GRMR.B	_	_
+19-5	943-944	.	_	_
+
+#Text=noch eine große Platte Spiegel , ohmartıtet meiner Vorstellungen daß dergleichen mir Eintrag thut und dem mkönbils Lebemdem Publikum wenig Freude macht , so würde ich in meinem sonst reichen Heften eher die Thandksvasen weglassen als die Kapitelle , da es an Vasen sonst nicht fehlt .
+20-1	945-949	noch	_	_
+20-2	950-954	eine	_	_
+20-3	955-960	große	_	_
+20-4	961-967	Platte	_	_
+20-5	968-975	Spiegel	*	OBJ
+20-6	976-977	,	_	_
+20-7	978-988	ohmartıtet	_	_
+20-8	989-995	meiner	_	_
+20-9	996-1009	Vorstellungen	_	_
+20-10	1010-1013	daß	_	_
+20-11	1014-1025	dergleichen	_	_
+20-12	1026-1029	mir	_	_
+20-13	1030-1037	Eintrag	_	_
+20-14	1038-1042	thut	_	_
+20-15	1043-1046	und	_	_
+20-16	1047-1050	dem	_	_
+20-17	1051-1059	mkönbils	_	_
+20-18	1060-1068	Lebemdem	_	_
+20-19	1069-1077	Publikum	_	_
+20-20	1078-1083	wenig	_	_
+20-21	1084-1090	Freude	_	_
+20-22	1091-1096	macht	_	_
+20-23	1097-1098	,	_	_
+20-24	1099-1101	so	_	_
+20-25	1102-1107	würde	_	_
+20-26	1108-1111	ich	_	_
+20-27	1112-1114	in	_	_
+20-28	1115-1121	meinem	_	_
+20-29	1122-1127	sonst	_	_
+20-30	1128-1135	reichen	_	_
+20-31	1136-1142	Heften	_	_
+20-32	1143-1147	eher	_	_
+20-33	1148-1151	die	_	_
+20-34	1152-1164	Thandksvasen	*[24]	OBJ[24]
+20-35	1165-1174	weglassen	_	_
+20-36	1175-1178	als	_	_
+20-37	1179-1182	die	_	_
+20-38	1183-1192	Kapitelle	*	OBJ
+20-39	1193-1194	,	_	_
+20-40	1195-1197	da	_	_
+20-41	1198-1200	es	_	_
+20-42	1201-1203	an	_	_
+20-43	1204-1209	Vasen	*	OBJ
+20-44	1210-1215	sonst	_	_
+20-45	1216-1221	nicht	_	_
+20-46	1222-1227	fehlt	_	_
+20-47	1228-1229	.	_	_
+
+#Text=- Die Sc. 12.60 an Kellermann auszuzahlen hatte ich , da wenig Geld disponibel und er dem In-
+21-1	1230-1231	-	_	_
+21-2	1232-1235	Die	_	_
+21-3	1236-1239	Sc.	_	_
+21-4	1240-1245	12.60	_	_
+21-5	1246-1248	an	_	_
+21-6	1249-1259	Kellermann	*	PERmentioned
+21-7	1260-1271	auszuzahlen	_	_
+21-8	1272-1277	hatte	_	_
+21-9	1278-1281	ich	_	_
+21-10	1282-1283	,	_	_
+21-11	1284-1286	da	_	_
+21-12	1287-1292	wenig	_	_
+21-13	1293-1297	Geld	_	_
+21-14	1298-1308	disponibel	_	_
+21-15	1309-1312	und	_	_
+21-16	1313-1315	er	_	_
+21-17	1316-1319	dem	_	_
+21-18	1320-1323	In-	_	_

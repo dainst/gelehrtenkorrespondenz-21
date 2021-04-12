@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=E 361 Lepsius an Henzen Berlin , 7. Juni 71877 That sehr lästig .
+1-1	0-1	E	_	_
+1-2	2-5	361	_	_
+1-3	6-13	Lepsius	*	PERauthor
+1-4	14-16	an	_	_
+1-5	17-23	Henzen	*	PERaddressee
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-35	7.	*[1]	DATEletter[1]
+1-9	36-40	Juni	*[1]	DATEletter[1]
+1-10	41-46	71877	*[1]	DATEletter[1]
+1-11	47-51	That	_	_
+1-12	52-56	sehr	_	_
+1-13	57-63	lästig	_	_
+1-14	64-65	.	_	_
+
+#Text=Ich ging gleich darauf zu Krüger , der derselben Meinung war , und so meine ich werden auch die andern Herren , die das Bedenken vorbrachten , damit einverstanden sein , die ich heute noch sprechen werde .
+2-1	66-69	Ich	_	_
+2-2	70-74	ging	_	_
+2-3	75-81	gleich	_	_
+2-4	82-88	darauf	_	_
+2-5	89-91	zu	_	_
+2-6	92-98	Krüger	*	PERmentioned
+2-7	99-100	,	_	_
+2-8	101-104	der	_	_
+2-9	105-114	derselben	_	_
+2-10	115-122	Meinung	_	_
+2-11	123-126	war	_	_
+2-12	127-128	,	_	_
+2-13	129-132	und	_	_
+2-14	133-135	so	_	_
+2-15	136-141	meine	_	_
+2-16	142-145	ich	_	_
+2-17	146-152	werden	_	_
+2-18	153-157	auch	_	_
+2-19	158-161	die	_	_
+2-20	162-168	andern	_	_
+2-21	169-175	Herren	_	_
+2-22	176-177	,	_	_
+2-23	178-181	die	_	_
+2-24	182-185	das	_	_
+2-25	186-194	Bedenken	_	_
+2-26	195-206	vorbrachten	_	_
+2-27	207-208	,	_	_
+2-28	209-214	damit	_	_
+2-29	215-228	einverstanden	_	_
+2-30	229-233	sein	_	_
+2-31	234-235	,	_	_
+2-32	236-239	die	_	_
+2-33	240-243	ich	_	_
+2-34	244-249	heute	_	_
+2-35	250-254	noch	_	_
+2-36	255-263	sprechen	_	_
+2-37	264-269	werde	_	_
+2-38	270-271	.	_	_
+
+#Text=Aus Ihrem heutigen Briefe scheint hervozugehen , daß Sie eine Sendung von mir nicht erhalten haben .
+3-1	272-275	Aus	_	_
+3-2	276-281	Ihrem	_	_
+3-3	282-290	heutigen	_	_
+3-4	291-297	Briefe	_	_
+3-5	298-305	scheint	_	_
+3-6	306-318	hervozugehen	_	_
+3-7	319-320	,	_	_
+3-8	321-324	daß	_	_
+3-9	325-328	Sie	_	_
+3-10	329-333	eine	_	_
+3-11	334-341	Sendung	_	_
+3-12	342-345	von	_	_
+3-13	346-349	mir	_	_
+3-14	350-355	nicht	_	_
+3-15	356-364	erhalten	_	_
+3-16	365-370	haben	_	_
+3-17	371-372	.	_	_
+
+#Text=Ich sendete Ihnen unter dem 24 . ''
+4-1	373-376	Ich	_	_
+4-2	377-384	sendete	_	_
+4-3	385-390	Ihnen	_	_
+4-4	391-396	unter	_	_
+4-5	397-400	dem	_	_
+4-6	401-403	24	*[2]	DATEmentioned[2]
+4-7	404-405	.	*[2]	DATEmentioned[2]
+4-8	406-408	''	*[2]	DATEmentioned[2]
+
+#Text=April eine Abschrift unsres Berichts vom 20. April über die Römische Verwaltungsangelegenheit , den also Herr von Keudell vom Auswärtigen Amte erhalten und dem Architekten und Ihnen mitgetheilt hat desgleichen Abschrift unsres Berichts vom 21 .
+5-1	409-414	April	*[2]	DATEmentioned[2]
+5-2	415-419	eine	_	_
+5-3	420-429	Abschrift	_	_
+5-4	430-436	unsres	_	_
+5-5	437-445	Berichts	_	_
+5-6	446-449	vom	_	_
+5-7	450-453	20.	*[3]	DATEmentioned[3]
+5-8	454-459	April	*[3]	DATEmentioned[3]
+5-9	460-464	über	_	_
+5-10	465-468	die	_	_
+5-11	469-477	Römische	_	_
+5-12	478-502	Verwaltungsangelegenheit	_	_
+5-13	503-504	,	_	_
+5-14	505-508	den	_	_
+5-15	509-513	also	_	_
+5-16	514-518	Herr	_	_
+5-17	519-522	von	*[4]	PERmentioned[4]
+5-18	523-530	Keudell	*[4]	PERmentioned[4]
+5-19	531-534	vom	_	_
+5-20	535-546	Auswärtigen	*[5]	ORGmentioned[5]
+5-21	547-551	Amte	*[5]	ORGmentioned[5]
+5-22	552-560	erhalten	_	_
+5-23	561-564	und	_	_
+5-24	565-568	dem	_	_
+5-25	569-580	Architekten	_	_
+5-26	581-584	und	_	_
+5-27	585-590	Ihnen	_	_
+5-28	591-602	mitgetheilt	_	_
+5-29	603-606	hat	_	_
+5-30	607-618	desgleichen	_	_
+5-31	619-628	Abschrift	_	_
+5-32	629-635	unsres	_	_
+5-33	636-644	Berichts	_	_
+5-34	645-648	vom	_	_
+5-35	649-651	21	*[6]	DATEmentioned[6]
+5-36	652-653	.	*[6]	DATEmentioned[6]
+
+#Text=Awe pril Klügmann betreffend .
+6-1	654-657	Awe	*[6]	DATEmentioned[6]
+6-2	658-662	pril	*[6]	DATEmentioned[6]
+6-3	663-671	Klügmann	*	PERmentioned
+6-4	672-682	betreffend	_	_
+6-5	683-684	.	_	_
+
+#Text=Auch lag eine Anweisung für Körte bei .
+7-1	685-689	Auch	_	_
+7-2	690-693	lag	_	_
+7-3	694-698	eine	_	_
+7-4	699-708	Anweisung	_	_
+7-5	709-712	für	_	_
+7-6	713-718	Körte	*	PERmentioned
+7-7	719-722	bei	_	_
+7-8	723-724	.	_	_
+
+#Text=Wollen Sie verificiren , ob dieser Brief von mir bei Ihnen eingegangen ist .
+8-1	725-731	Wollen	_	_
+8-2	732-735	Sie	_	_
+8-3	736-747	verificiren	_	_
+8-4	748-749	,	_	_
+8-5	750-752	ob	_	_
+8-6	753-759	dieser	_	_
+8-7	760-765	Brief	_	_
+8-8	766-769	von	_	_
+8-9	770-773	mir	_	_
+8-10	774-777	bei	_	_
+8-11	778-783	Ihnen	_	_
+8-12	784-795	eingegangen	_	_
+8-13	796-799	ist	_	_
+8-14	800-801	.	_	_
+
+#Text=Über die Wohnung Klügmann 's werden nun hier neue Schwierigkeiten erhoben .
+9-1	802-806	Über	_	_
+9-2	807-810	die	_	_
+9-3	811-818	Wohnung	_	_
+9-4	819-827	Klügmann	*[10]	PERmentioned[10]
+9-5	828-830	's	*[10]	PERmentioned[10]
+9-6	831-837	werden	_	_
+9-7	838-841	nun	_	_
+9-8	842-846	hier	_	_
+9-9	847-851	neue	_	_
+9-10	852-867	Schwierigkeiten	_	_
+9-11	868-875	erhoben	_	_
+9-12	876-877	.	_	_
+
+#Text=Ich höre , daß es als ganz unangänglich angesehen wird , die für den Umbau des Hospitals Behufs einer Wohnung für den 1 .
+10-1	878-881	Ich	_	_
+10-2	882-886	höre	_	_
+10-3	887-888	,	_	_
+10-4	889-892	daß	_	_
+10-5	893-895	es	_	_
+10-6	896-899	als	_	_
+10-7	900-904	ganz	_	_
+10-8	905-917	unangänglich	_	_
+10-9	918-927	angesehen	_	_
+10-10	928-932	wird	_	_
+10-11	933-934	,	_	_
+10-12	935-938	die	_	_
+10-13	939-942	für	_	_
+10-14	943-946	den	_	_
+10-15	947-952	Umbau	_	_
+10-16	953-956	des	_	_
+10-17	957-966	Hospitals	_	_
+10-18	967-973	Behufs	_	_
+10-19	974-979	einer	_	_
+10-20	980-987	Wohnung	_	_
+10-21	988-991	für	_	_
+10-22	992-995	den	_	_
+10-23	996-997	1	_	_
+10-24	998-999	.	_	_
+
+#Text=Sekretär der Boschaft erbetenen und bewilligten Gelder vom Reichstage , zu andern Zwecken , wie zu einer Miethswohnung für Klügmann zu gebrauchen .
+11-1	1000-1008	Sekretär	_	_
+11-2	1009-1012	der	_	_
+11-3	1013-1021	Boschaft	*	ORGmentioned
+11-4	1022-1031	erbetenen	_	_
+11-5	1032-1035	und	_	_
+11-6	1036-1047	bewilligten	_	_
+11-7	1048-1054	Gelder	_	_
+11-8	1055-1058	vom	_	_
+11-9	1059-1069	Reichstage	*	ORGmentioned
+11-10	1070-1071	,	_	_
+11-11	1072-1074	zu	_	_
+11-12	1075-1081	andern	_	_
+11-13	1082-1089	Zwecken	_	_
+11-14	1090-1091	,	_	_
+11-15	1092-1095	wie	_	_
+11-16	1096-1098	zu	_	_
+11-17	1099-1104	einer	_	_
+11-18	1105-1118	Miethswohnung	_	_
+11-19	1119-1122	für	_	_
+11-20	1123-1131	Klügmann	*	PERmentioned
+11-21	1132-1134	zu	_	_
+11-22	1135-1145	gebrauchen	_	_
+11-23	1146-1147	.	_	_
+
+#Text=In diesem Sinne ist bereits an Herm von Keudell geschrieben worden mit der Aufforderung für Klügmann , dessen W “ man im Auswärtigen Amte durchaus zu Schätzen weiß , wo möglich anders zu sorgen .
+12-1	1148-1150	In	_	_
+12-2	1151-1157	diesem	_	_
+12-3	1158-1163	Sinne	_	_
+12-4	1164-1167	ist	_	_
+12-5	1168-1175	bereits	_	_
+12-6	1176-1178	an	_	_
+12-7	1179-1183	Herm	_	_
+12-8	1184-1187	von	*[7]	PERmentioned[7]
+12-9	1188-1195	Keudell	*[7]	PERmentioned[7]
+12-10	1196-1207	geschrieben	_	_
+12-11	1208-1214	worden	_	_
+12-12	1215-1218	mit	_	_
+12-13	1219-1222	der	_	_
+12-14	1223-1235	Aufforderung	_	_
+12-15	1236-1239	für	_	_
+12-16	1240-1248	Klügmann	*	PERmentioned
+12-17	1249-1250	,	_	_
+12-18	1251-1257	dessen	_	_
+12-19	1258-1259	W	_	_
+12-20	1260-1261	“	_	_
+12-21	1262-1265	man	_	_
+12-22	1266-1268	im	_	_
+12-23	1269-1280	Auswärtigen	*[8]	ORGmentioned[8]
+12-24	1281-1285	Amte	*[8]	ORGmentioned[8]
+12-25	1286-1294	durchaus	_	_
+12-26	1295-1297	zu	_	_
+12-27	1298-1306	Schätzen	_	_
+12-28	1307-1311	weiß	_	_
+12-29	1312-1313	,	_	_
+12-30	1314-1316	wo	_	_
+12-31	1317-1324	möglich	_	_
+12-32	1325-1331	anders	_	_
+12-33	1332-1334	zu	_	_
+12-34	1335-1341	sorgen	_	_
+12-35	1342-1343	.	_	_
+
+#Text=Berathen Sie nun mit Herrn von Keudell wie das möglich ist .
+13-1	1344-1352	Berathen	_	_
+13-2	1353-1356	Sie	_	_
+13-3	1357-1360	nun	_	_
+13-4	1361-1364	mit	_	_
+13-5	1365-1370	Herrn	_	_
+13-6	1371-1374	von	*[9]	PERmentioned[9]
+13-7	1375-1382	Keudell	*[9]	PERmentioned[9]
+13-8	1383-1386	wie	_	_
+13-9	1387-1390	das	_	_
+13-10	1391-1398	möglich	_	_
+13-11	1399-1402	ist	_	_
+13-12	1403-1404	.	_	_
+
+#Text=Wie
+14-1	1405-1408	Wie	_	_

@@ -1,0 +1,200 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=164 Gerhard an Braun Berlin , 26. Mai 1836 Dr. Braun Berlin den 26.ten Mai 1836 Mein theurer Freund .
+1-1	0-3	164	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	26.	*[4]	DATEletter[4]
+1-8	34-37	Mai	*[4]	DATEletter[4]
+1-9	38-42	1836	*[4]	DATEletter[4]
+1-10	43-46	Dr.	_	_
+1-11	47-52	Braun	*	PERaddressee
+1-12	53-59	Berlin	*	PLACEfrom
+1-13	60-63	den	_	_
+1-14	64-70	26.ten	*[7]	DATEletter[7]
+1-15	71-74	Mai	*[7]	DATEletter[7]
+1-16	75-79	1836	*[7]	DATEletter[7]
+1-17	80-84	Mein	_	_
+1-18	85-92	theurer	_	_
+1-19	93-99	Freund	_	_
+1-20	100-101	.	_	_
+
+#Text=Noch immer kein Brief von Ihnen \; ich mag nicht länger es aufschieben Ihnen zu schreiben .
+2-1	102-106	Noch	_	_
+2-2	107-112	immer	_	_
+2-3	113-117	kein	_	_
+2-4	118-123	Brief	_	_
+2-5	124-127	von	_	_
+2-6	128-133	Ihnen	_	_
+2-7	134-135	\;	_	_
+2-8	136-139	ich	_	_
+2-9	140-143	mag	_	_
+2-10	144-149	nicht	_	_
+2-11	150-156	länger	_	_
+2-12	157-159	es	_	_
+2-13	160-171	aufschieben	_	_
+2-14	172-177	Ihnen	_	_
+2-15	178-180	zu	_	_
+2-16	181-190	schreiben	_	_
+2-17	191-192	.	_	_
+
+#Text=Hoffentlich bedeutet Ihr Stillschweigen nichts übles , sonekn nur eine Verlängerung Ihrer seit langem gewünschten Reise .
+3-1	193-204	Hoffentlich	_	_
+3-2	205-213	bedeutet	_	_
+3-3	214-217	Ihr	_	_
+3-4	218-232	Stillschweigen	_	_
+3-5	233-239	nichts	_	_
+3-6	240-245	übles	_	_
+3-7	246-247	,	_	_
+3-8	248-254	sonekn	_	_
+3-9	255-258	nur	_	_
+3-10	259-263	eine	_	_
+3-11	264-276	Verlängerung	_	_
+3-12	277-282	Ihrer	_	_
+3-13	283-287	seit	_	_
+3-14	288-294	langem	_	_
+3-15	295-306	gewünschten	_	_
+3-16	307-312	Reise	_	_
+3-17	313-314	.	_	_
+
+#Text=Inliegend ein Protestbrief von Os wegen der ungeheißnen Bull .
+4-1	315-324	Inliegend	_	_
+4-2	325-328	ein	_	_
+4-3	329-341	Protestbrief	_	_
+4-4	342-345	von	_	_
+4-5	346-348	Os	_	_
+4-6	349-354	wegen	_	_
+4-7	355-358	der	_	_
+4-8	359-370	ungeheißnen	_	_
+4-9	371-375	Bull	_	_
+4-10	376-377	.	_	_
+
+#Text=sendungen , item ein Brief an Lepsius den Sie ( immerhin ungelesen ) verkleben und , da er wol angelangt sein wird , ihm zustellen können .
+5-1	378-387	sendungen	_	_
+5-2	388-389	,	_	_
+5-3	390-394	item	_	_
+5-4	395-398	ein	_	_
+5-5	399-404	Brief	_	_
+5-6	405-407	an	_	_
+5-7	408-415	Lepsius	*	PERmentioned
+5-8	416-419	den	_	_
+5-9	420-423	Sie	_	_
+5-10	424-425	(	_	_
+5-11	426-434	immerhin	_	_
+5-12	435-444	ungelesen	_	_
+5-13	445-446	)	_	_
+5-14	447-456	verkleben	_	_
+5-15	457-460	und	_	_
+5-16	461-462	,	_	_
+5-17	463-465	da	_	_
+5-18	466-468	er	_	_
+5-19	469-472	wol	_	_
+5-20	473-482	angelangt	_	_
+5-21	483-487	sein	_	_
+5-22	488-492	wird	_	_
+5-23	493-494	,	_	_
+5-24	495-498	ihm	_	_
+5-25	499-508	zustellen	_	_
+5-26	509-515	können	_	_
+5-27	516-517	.	_	_
+
+#Text=Mit nächster Post schreibe ich an Cades \; Colandelli reist den nächsten Monat , seinen Ausflüchten wegen des Geldes kann ich nichts entgegensetzen , obwohl ich sie für Ausflüchte halte .
+6-1	518-521	Mit	_	_
+6-2	522-530	nächster	_	_
+6-3	531-535	Post	_	_
+6-4	536-544	schreibe	_	_
+6-5	545-548	ich	_	_
+6-6	549-551	an	_	_
+6-7	552-557	Cades	*	PERmentioned
+6-8	558-559	\;	_	_
+6-9	560-570	Colandelli	*	PERmentioned
+6-10	571-576	reist	_	_
+6-11	577-580	den	_	_
+6-12	581-589	nächsten	_	_
+6-13	590-595	Monat	_	_
+6-14	596-597	,	_	_
+6-15	598-604	seinen	_	_
+6-16	605-616	Ausflüchten	_	_
+6-17	617-622	wegen	_	_
+6-18	623-626	des	_	_
+6-19	627-633	Geldes	_	_
+6-20	634-638	kann	_	_
+6-21	639-642	ich	_	_
+6-22	643-649	nichts	_	_
+6-23	650-664	entgegensetzen	_	_
+6-24	665-666	,	_	_
+6-25	667-673	obwohl	_	_
+6-26	674-677	ich	_	_
+6-27	678-681	sie	_	_
+6-28	682-685	für	_	_
+6-29	686-696	Ausflüchte	_	_
+6-30	697-702	halte	_	_
+6-31	703-704	.	_	_
+
+#Text=Meine Gesundheit geht leidlich , meine Arbeiten \_ rücken vorwärts , mein Gemüth ist erkältet \; die Zeiten sind nicht schlecht , aber ich bitte den Himmel dennoch um bessere .
+7-1	705-710	Meine	_	_
+7-2	711-721	Gesundheit	_	_
+7-3	722-726	geht	_	_
+7-4	727-735	leidlich	_	_
+7-5	736-737	,	_	_
+7-6	738-743	meine	_	_
+7-7	744-752	Arbeiten	_	_
+7-8	753-754	\_	_	_
+7-9	755-761	rücken	_	_
+7-10	762-770	vorwärts	_	_
+7-11	771-772	,	_	_
+7-12	773-777	mein	_	_
+7-13	778-784	Gemüth	_	_
+7-14	785-788	ist	_	_
+7-15	789-797	erkältet	_	_
+7-16	798-799	\;	_	_
+7-17	800-803	die	_	_
+7-18	804-810	Zeiten	_	_
+7-19	811-815	sind	_	_
+7-20	816-821	nicht	_	_
+7-21	822-830	schlecht	_	_
+7-22	831-832	,	_	_
+7-23	833-837	aber	_	_
+7-24	838-841	ich	_	_
+7-25	842-847	bitte	_	_
+7-26	848-851	den	_	_
+7-27	852-858	Himmel	_	_
+7-28	859-866	dennoch	_	_
+7-29	867-869	um	_	_
+7-30	870-877	bessere	_	_
+7-31	878-879	.	_	_
+
+#Text=Dem lieben Vollard bitte ich vorläufig für seinen Brief herzlich zu danken .
+8-1	880-883	Dem	_	_
+8-2	884-890	lieben	_	_
+8-3	891-898	Vollard	*	PERmentioned
+8-4	899-904	bitte	_	_
+8-5	905-908	ich	_	_
+8-6	909-918	vorläufig	_	_
+8-7	919-922	für	_	_
+8-8	923-929	seinen	_	_
+8-9	930-935	Brief	_	_
+8-10	936-944	herzlich	_	_
+8-11	945-947	zu	_	_
+8-12	948-954	danken	_	_
+8-13	955-956	.	_	_
+
+#Text=Gerstäckers Antwort an Bunsen ist ohne mein Wissen geschrieben und abgeschickt worden .
+9-1	957-968	Gerstäckers	*	PERmentioned
+9-2	969-976	Antwort	_	_
+9-3	977-979	an	_	_
+9-4	980-986	Bunsen	*	PERmentioned
+9-5	987-990	ist	_	_
+9-6	991-995	ohne	_	_
+9-7	996-1000	mein	_	_
+9-8	1001-1007	Wissen	_	_
+9-9	1008-1019	geschrieben	_	_
+9-10	1020-1023	und	_	_
+9-11	1024-1035	abgeschickt	_	_
+9-12	1036-1042	worden	_	_
+9-13	1043-1044	.	_	_

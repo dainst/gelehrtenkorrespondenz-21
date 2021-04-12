@@ -1,0 +1,140 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=290 Helbig an Henzen Rom , 13. Juli 1870 in der That in einer sehr unangenehmen Lage , der ich möglichst bald ein Ende machen muß .
+1-1	0-3	290	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[3]	DATEletter[3]
+1-8	31-35	Juli	*[3]	DATEletter[3]
+1-9	36-40	1870	*[3]	DATEletter[3]
+1-10	41-43	in	_	_
+1-11	44-47	der	_	_
+1-12	48-52	That	_	_
+1-13	53-55	in	_	_
+1-14	56-61	einer	_	_
+1-15	62-66	sehr	_	_
+1-16	67-79	unangenehmen	_	_
+1-17	80-84	Lage	_	_
+1-18	85-86	,	_	_
+1-19	87-90	der	_	_
+1-20	91-94	ich	_	_
+1-21	95-104	möglichst	_	_
+1-22	105-109	bald	_	_
+1-23	110-113	ein	_	_
+1-24	114-118	Ende	_	_
+1-25	119-125	machen	_	_
+1-26	126-129	muß	_	_
+1-27	130-131	.	_	_
+
+#Text=Von Lepsius , der sonst im Schreiben so präcis ist , habe ich in der ganzen Zeit seit meiner Abreise von Rom kein Wort gehört .
+2-1	132-135	Von	_	_
+2-2	136-143	Lepsius	*	PERmentioned
+2-3	144-145	,	_	_
+2-4	146-149	der	_	_
+2-5	150-155	sonst	_	_
+2-6	156-158	im	_	_
+2-7	159-168	Schreiben	_	_
+2-8	169-171	so	_	_
+2-9	172-178	präcis	_	_
+2-10	179-182	ist	_	_
+2-11	183-184	,	_	_
+2-12	185-189	habe	_	_
+2-13	190-193	ich	_	_
+2-14	194-196	in	_	_
+2-15	197-200	der	_	_
+2-16	201-207	ganzen	_	_
+2-17	208-212	Zeit	_	_
+2-18	213-217	seit	_	_
+2-19	218-224	meiner	_	_
+2-20	225-232	Abreise	_	_
+2-21	233-236	von	_	_
+2-22	237-240	Rom	*	PLACEmentioned
+2-23	241-245	kein	_	_
+2-24	246-250	Wort	_	_
+2-25	251-257	gehört	_	_
+2-26	258-259	.	_	_
+
+#Text=Ich fange an zu glauben , daß Briefe verloren gegangen sind - unangenehm , da ich darin Concilscandal besprochen habe .
+3-1	260-263	Ich	_	_
+3-2	264-269	fange	_	_
+3-3	270-272	an	_	_
+3-4	273-275	zu	_	_
+3-5	276-283	glauben	_	_
+3-6	284-285	,	_	_
+3-7	286-289	daß	_	_
+3-8	290-296	Briefe	_	_
+3-9	297-305	verloren	_	_
+3-10	306-314	gegangen	_	_
+3-11	315-319	sind	_	_
+3-12	320-321	-	_	_
+3-13	322-332	unangenehm	_	_
+3-14	333-334	,	_	_
+3-15	335-337	da	_	_
+3-16	338-341	ich	_	_
+3-17	342-347	darin	_	_
+3-18	348-361	Concilscandal	_	_
+3-19	362-372	besprochen	_	_
+3-20	373-377	habe	_	_
+3-21	378-379	.	_	_
+
+#Text=Soviel für heute .
+4-1	380-386	Soviel	_	_
+4-2	387-390	für	_	_
+4-3	391-396	heute	_	_
+4-4	397-398	.	_	_
+
+#Text=Meine Empfehlungen an die Herrn der Centraldirection .
+5-1	399-404	Meine	_	_
+5-2	405-417	Empfehlungen	_	_
+5-3	418-420	an	_	_
+5-4	421-424	die	_	_
+5-5	425-430	Herrn	_	_
+5-6	431-434	der	_	_
+5-7	435-451	Centraldirection	*	ORGmentioned
+5-8	452-453	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr ergebener Helbig Bormann , Schulz , Schöll , Hinck grüßen Sie vielmals .
+6-1	454-457	Mit	_	_
+6-2	458-468	herzlichen	_	_
+6-3	469-475	Grüßen	_	_
+6-4	476-479	Ihr	_	_
+6-5	480-489	ergebener	_	_
+6-6	490-496	Helbig	*	PERauthor
+6-7	497-504	Bormann	*	PERmentioned
+6-8	505-506	,	_	_
+6-9	507-513	Schulz	*	PERmentioned
+6-10	514-515	,	_	_
+6-11	516-522	Schöll	*	PERmentioned
+6-12	523-524	,	_	_
+6-13	525-530	Hinck	*	PERmentioned
+6-14	531-537	grüßen	_	_
+6-15	538-541	Sie	_	_
+6-16	542-550	vielmals	_	_
+6-17	551-552	.	_	_
+
+#Text=Ersterer sieht erschrecklich erschöpft und elend aus \; er mag machen , daß er bald wieder nach Norden kommt .
+7-1	553-561	Ersterer	_	_
+7-2	562-567	sieht	_	_
+7-3	568-581	erschrecklich	_	_
+7-4	582-591	erschöpft	_	_
+7-5	592-595	und	_	_
+7-6	596-601	elend	_	_
+7-7	602-605	aus	_	_
+7-8	606-607	\;	_	_
+7-9	608-610	er	_	_
+7-10	611-614	mag	_	_
+7-11	615-621	machen	_	_
+7-12	622-623	,	_	_
+7-13	624-627	daß	_	_
+7-14	628-630	er	_	_
+7-15	631-635	bald	_	_
+7-16	636-642	wieder	_	_
+7-17	643-647	nach	_	_
+7-18	648-654	Norden	_	_
+7-19	655-660	kommt	_	_
+7-20	661-662	.	_	_

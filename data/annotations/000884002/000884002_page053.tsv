@@ -1,0 +1,190 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=243 Brunn an Henzen ohne Ort/vor 5.8ept.1859 g . 5. September 1859 ncr L. H. Lanci 's Schema behagt mir wenig .
+1-1	0-3	243	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-24	ohne	_	_
+1-6	25-32	Ort/vor	*[3]	DATEletter[3]
+1-7	33-44	5.8ept.1859	*[3]	DATEletter[3]
+1-8	45-46	g	_	_
+1-9	47-48	.	_	_
+1-10	49-51	5.	*[4]	DATErecieved[4]
+1-11	52-61	September	*[4]	DATErecieved[4]
+1-12	62-66	1859	*[4]	DATErecieved[4]
+1-13	67-70	ncr	_	_
+1-14	71-73	L.	_	_
+1-15	74-76	H.	*	PERaddressee
+1-16	77-82	Lanci	*[5]	PERmentioned[5]
+1-17	83-85	's	*[5]	PERmentioned[5]
+1-18	86-92	Schema	_	_
+1-19	93-99	behagt	_	_
+1-20	100-103	mir	_	_
+1-21	104-109	wenig	_	_
+1-22	110-111	.	_	_
+
+#Text=Erstens muß doch nothwendig auf dem Titel das Institut erwähnt werden .
+2-1	112-119	Erstens	_	_
+2-2	120-123	muß	_	_
+2-3	124-128	doch	_	_
+2-4	129-139	nothwendig	_	_
+2-5	140-143	auf	_	_
+2-6	144-147	dem	_	_
+2-7	148-153	Titel	_	_
+2-8	154-157	das	_	_
+2-9	158-166	Institut	*	ORGmentioned
+2-10	167-174	erwähnt	_	_
+2-11	175-181	werden	_	_
+2-12	182-183	.	_	_
+
+#Text=Sodann giebt vielleicht die Erwähnung von Bonn von en Batze gegenüber zur Zweideutigkeit Anlaß , als ob W. 50 Jahre in Bonn gelehrt \; andererseits erscheint das bloße al ch . prof. F , T.W .
+3-1	184-190	Sodann	_	_
+3-2	191-196	giebt	_	_
+3-3	197-207	vielleicht	_	_
+3-4	208-211	die	_	_
+3-5	212-221	Erwähnung	_	_
+3-6	222-225	von	_	_
+3-7	226-230	Bonn	*	PLACEmentioned
+3-8	231-234	von	_	_
+3-9	235-237	en	_	_
+3-10	238-243	Batze	_	_
+3-11	244-253	gegenüber	_	_
+3-12	254-257	zur	_	_
+3-13	258-272	Zweideutigkeit	_	_
+3-14	273-278	Anlaß	_	_
+3-15	279-280	,	_	_
+3-16	281-284	als	_	_
+3-17	285-287	ob	_	_
+3-18	288-290	W.	*	PERmentioned
+3-19	291-293	50	_	_
+3-20	294-299	Jahre	_	_
+3-21	300-302	in	_	_
+3-22	303-307	Bonn	*	PLACEmentioned
+3-23	308-315	gelehrt	_	_
+3-24	316-317	\;	_	_
+3-25	318-330	andererseits	_	_
+3-26	331-340	erscheint	_	_
+3-27	341-344	das	_	_
+3-28	345-350	bloße	_	_
+3-29	351-353	al	_	_
+3-30	354-356	ch	_	_
+3-31	357-358	.	_	_
+3-32	359-364	prof.	_	_
+3-33	365-366	F	*[6]	PERmentioned[6]
+3-34	367-368	,	*[6]	PERmentioned[6]
+3-35	369-372	T.W	*[6]	PERmentioned[6]
+3-36	373-374	.	_	_
+
+#Text=etwas kahl und selbst neben pubblica cattedra muß doch wohl das Wort Universität noch besonders erwähnt werden .
+4-1	375-380	etwas	_	_
+4-2	381-385	kahl	_	_
+4-3	386-389	und	_	_
+4-4	390-396	selbst	_	_
+4-5	397-402	neben	_	_
+4-6	403-411	pubblica	_	_
+4-7	412-420	cattedra	_	_
+4-8	421-424	muß	_	_
+4-9	425-429	doch	_	_
+4-10	430-434	wohl	_	_
+4-11	435-438	das	_	_
+4-12	439-443	Wort	_	_
+4-13	444-455	Universität	_	_
+4-14	456-460	noch	_	_
+4-15	461-470	besonders	_	_
+4-16	471-478	erwähnt	_	_
+4-17	479-485	werden	_	_
+4-18	486-487	.	_	_
+
+#Text=Oder ließe sich nach dem Namen die Professur in Giessen , Göttingen , Bonn erwähnen ?
+5-1	488-492	Oder	_	_
+5-2	493-498	ließe	_	_
+5-3	499-503	sich	_	_
+5-4	504-508	nach	_	_
+5-5	509-512	dem	_	_
+5-6	513-518	Namen	_	_
+5-7	519-522	die	_	_
+5-8	523-532	Professur	_	_
+5-9	533-535	in	_	_
+5-10	536-543	Giessen	*	PERmentioned
+5-11	544-545	,	_	_
+5-12	546-555	Göttingen	*	PLACEmentioned
+5-13	556-557	,	_	_
+5-14	558-562	Bonn	*	PLACEmentioned
+5-15	563-571	erwähnen	_	_
+5-16	572-573	?	_	_
+
+#Text=Ich vermag nicht gleich die richtige Form zu finden .
+6-1	574-577	Ich	_	_
+6-2	578-584	vermag	_	_
+6-3	585-590	nicht	_	_
+6-4	591-597	gleich	_	_
+6-5	598-601	die	_	_
+6-6	602-610	richtige	_	_
+6-7	611-615	Form	_	_
+6-8	616-618	zu	_	_
+6-9	619-625	finden	_	_
+6-10	626-627	.	_	_
+
+#Text=Viellächt sind Sie glücklicher , während auch ich noch weiter darüber nachdenken will .
+7-1	628-637	Viellächt	_	_
+7-2	638-642	sind	_	_
+7-3	643-646	Sie	_	_
+7-4	647-658	glücklicher	_	_
+7-5	659-660	,	_	_
+7-6	661-668	während	_	_
+7-7	669-673	auch	_	_
+7-8	674-677	ich	_	_
+7-9	678-682	noch	_	_
+7-10	683-689	weiter	_	_
+7-11	690-697	darüber	_	_
+7-12	698-708	nachdenken	_	_
+7-13	709-713	will	_	_
+7-14	714-715	.	_	_
+
+#Text=Sonst giebt es hier nichts zu melden .
+8-1	716-721	Sonst	_	_
+8-2	722-727	giebt	_	_
+8-3	728-730	es	_	_
+8-4	731-735	hier	_	_
+8-5	736-742	nichts	_	_
+8-6	743-745	zu	_	_
+8-7	746-752	melden	_	_
+8-8	753-754	.	_	_
+
+#Text=Die Rabert wird wohl Dienstag herkommen und die weiteren Touren mit uns machen .
+9-1	755-758	Die	_	_
+9-2	759-765	Rabert	*	PERmentioned
+9-3	766-770	wird	_	_
+9-4	771-775	wohl	_	_
+9-5	776-784	Dienstag	*	DATEmentioned
+9-6	785-794	herkommen	_	_
+9-7	795-798	und	_	_
+9-8	799-802	die	_	_
+9-9	803-811	weiteren	_	_
+9-10	812-818	Touren	_	_
+9-11	819-822	mit	_	_
+9-12	823-826	uns	_	_
+9-13	827-833	machen	_	_
+9-14	834-835	.	_	_
+
+#Text=Zunächst denke ich noch Freitag Frascati zu erreichen .
+10-1	836-844	Zunächst	_	_
+10-2	845-850	denke	_	_
+10-3	851-854	ich	_	_
+10-4	855-859	noch	_	_
+10-5	860-867	Freitag	*	DATEmentioned
+10-6	868-876	Frascati	*	PLACEmentioned
+10-7	877-879	zu	_	_
+10-8	880-889	erreichen	_	_
+10-9	890-891	.	_	_
+
+#Text=Ihr HBrunn Lanci : Anacreonte .
+11-1	892-895	Ihr	_	_
+11-2	896-902	HBrunn	*	PERauthor
+11-3	903-908	Lanci	*	PERmentioned
+11-4	909-910	:	_	_
+11-5	911-921	Anacreonte	*	OBJ
+11-6	922-923	.	_	_

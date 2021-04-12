@@ -1,0 +1,248 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	16	*[5]	DATEletter[5]
+1-7	29-30	.	*[5]	DATEletter[5]
+
+#Text=Januar 1838 Dr. Braun g . 29/1 38 Aff , .
+2-1	31-37	Januar	*[5]	DATEletter[5]
+2-2	38-42	1838	*[5]	DATEletter[5]
+2-3	43-46	Dr.	_	_
+2-4	47-52	Braun	*	PERaddressee
+2-5	53-54	g	_	_
+2-6	55-56	.	_	_
+2-7	57-61	29/1	*[6]	DATErecieved[6]
+2-8	62-64	38	*[6]	DATErecieved[6]
+2-9	65-68	Aff	_	_
+2-10	69-70	,	_	_
+2-11	71-72	.	_	_
+
+#Text=da .
+3-1	73-75	da	_	_
+3-2	76-77	.	_	_
+
+#Text=Dir .
+4-1	78-81	Dir	_	_
+4-2	82-83	.	_	_
+
+#Text=XLIV r . 30/1 38 Berlin 16 jan 37 „ ie !
+5-1	84-88	XLIV	_	_
+5-2	89-90	r	_	_
+5-3	91-92	.	_	_
+5-4	93-97	30/1	*[7]	DATEanswered[7]
+5-5	98-100	38	*[7]	DATEanswered[7]
+5-6	101-107	Berlin	*	PLACEfrom
+5-7	108-110	16	*[9]	DATEletter[9]
+5-8	111-114	jan	*[9]	DATEletter[9]
+5-9	115-117	37	*[9]	DATEletter[9]
+5-10	118-119	„	_	_
+5-11	120-122	ie	_	_
+5-12	123-124	!	_	_
+
+#Text=Nebst Ein lage die ich an Dr. Abeken , Sdulz , ‚Meier flott zu machen bitte .
+6-1	125-130	Nebst	_	_
+6-2	131-134	Ein	_	_
+6-3	135-139	lage	_	_
+6-4	140-143	die	_	_
+6-5	144-147	ich	_	_
+6-6	148-150	an	_	_
+6-7	151-154	Dr.	_	_
+6-8	155-161	Abeken	*	PERauthor
+6-9	162-163	,	_	_
+6-10	164-169	Sdulz	*	PERauthor
+6-11	170-171	,	_	_
+6-12	172-178	‚Meier	*	PERauthor
+6-13	179-184	flott	_	_
+6-14	185-187	zu	_	_
+6-15	188-194	machen	_	_
+6-16	195-200	bitte	_	_
+6-17	201-202	.	_	_
+
+#Text=Vielen Dank lieber Freund Ihnen und Lepsius für die durch Urlichs mir zugekommenen Fortsetzungen der Institutswerke , deren Gesafeindruck sehr erfreulich ist , auch nach Panofkas Urtheil .
+7-1	203-209	Vielen	_	_
+7-2	210-214	Dank	_	_
+7-3	215-221	lieber	_	_
+7-4	222-228	Freund	_	_
+7-5	229-234	Ihnen	_	_
+7-6	235-238	und	_	_
+7-7	239-246	Lepsius	*	PERmentioned
+7-8	247-250	für	_	_
+7-9	251-254	die	_	_
+7-10	255-260	durch	_	_
+7-11	261-268	Urlichs	*	PERmentioned
+7-12	269-272	mir	_	_
+7-13	273-285	zugekommenen	_	_
+7-14	286-299	Fortsetzungen	_	_
+7-15	300-303	der	_	_
+7-16	304-318	Institutswerke	_	_
+7-17	319-320	,	_	_
+7-18	321-326	deren	_	_
+7-19	327-340	Gesafeindruck	_	_
+7-20	341-345	sehr	_	_
+7-21	346-356	erfreulich	_	_
+7-22	357-360	ist	_	_
+7-23	361-362	,	_	_
+7-24	363-367	auch	_	_
+7-25	368-372	nach	_	_
+7-26	373-381	Panofkas	*	PERmentioned
+7-27	382-389	Urtheil	_	_
+7-28	390-391	.	_	_
+
+#Text=In Rücksicht litter .
+8-1	392-394	In	_	_
+8-2	395-404	Rücksicht	_	_
+8-3	405-411	litter	_	_
+8-4	412-413	.	_	_
+
+#Text=Anstands , wissen Sie schon , mache ich manchmal ob Ansichten geltend \; im Manifest einen Schund Guattinischer Delikte aufzunehmen scheint mir ungehörig , auch wünschte ich öfter die Ausdrücke hypokritischen Lobes beschränkt , wäre es auch für gute Freunde von Ritschls Verdienst ( NB .
+9-1	414-422	Anstands	_	_
+9-2	423-424	,	_	_
+9-3	425-431	wissen	_	_
+9-4	432-435	Sie	_	_
+9-5	436-441	schon	_	_
+9-6	442-443	,	_	_
+9-7	444-449	mache	_	_
+9-8	450-453	ich	_	_
+9-9	454-462	manchmal	_	_
+9-10	463-465	ob	_	_
+9-11	466-475	Ansichten	_	_
+9-12	476-483	geltend	_	_
+9-13	484-485	\;	_	_
+9-14	486-488	im	_	_
+9-15	489-497	Manifest	_	_
+9-16	498-503	einen	_	_
+9-17	504-510	Schund	_	_
+9-18	511-524	Guattinischer	*	PERauthor
+9-19	525-532	Delikte	_	_
+9-20	533-544	aufzunehmen	_	_
+9-21	545-552	scheint	_	_
+9-22	553-556	mir	_	_
+9-23	557-566	ungehörig	_	_
+9-24	567-568	,	_	_
+9-25	569-573	auch	_	_
+9-26	574-582	wünschte	_	_
+9-27	583-586	ich	_	_
+9-28	587-592	öfter	_	_
+9-29	593-596	die	_	_
+9-30	597-606	Ausdrücke	_	_
+9-31	607-621	hypokritischen	_	_
+9-32	622-627	Lobes	_	_
+9-33	628-638	beschränkt	_	_
+9-34	639-640	,	_	_
+9-35	641-645	wäre	_	_
+9-36	646-648	es	_	_
+9-37	649-653	auch	_	_
+9-38	654-657	für	_	_
+9-39	658-662	gute	_	_
+9-40	663-670	Freunde	_	_
+9-41	671-674	von	_	_
+9-42	675-683	Ritschls	*	PERmentioned
+9-43	684-693	Verdienst	_	_
+9-44	694-695	(	_	_
+9-45	696-698	NB	_	_
+9-46	699-700	.	_	_
+
+#Text=das Prädikat sapiente wird im Ausland allzeit belächelt ) Im Aufsatz über Skiron haben Sie wie mir scheint etwas allzuviel , und für Gelehrte von Panofkas Bedeutung unverhältnißmäßig viel , geschulmeistert .
+10-1	701-704	das	_	_
+10-2	705-713	Prädikat	_	_
+10-3	714-722	sapiente	_	_
+10-4	723-727	wird	_	_
+10-5	728-730	im	_	_
+10-6	731-738	Ausland	_	_
+10-7	739-746	allzeit	_	_
+10-8	747-756	belächelt	_	_
+10-9	757-758	)	_	_
+10-10	759-761	Im	_	_
+10-11	762-769	Aufsatz	_	_
+10-12	770-774	über	_	_
+10-13	775-781	Skiron	_	_
+10-14	782-787	haben	_	_
+10-15	788-791	Sie	_	_
+10-16	792-795	wie	_	_
+10-17	796-799	mir	_	_
+10-18	800-807	scheint	_	_
+10-19	808-813	etwas	_	_
+10-20	814-823	allzuviel	_	_
+10-21	824-825	,	_	_
+10-22	826-829	und	_	_
+10-23	830-833	für	_	_
+10-24	834-842	Gelehrte	_	_
+10-25	843-846	von	_	_
+10-26	847-855	Panofkas	*	PERmentioned
+10-27	856-865	Bedeutung	_	_
+10-28	866-883	unverhältnißmäßig	_	_
+10-29	884-888	viel	_	_
+10-30	889-890	,	_	_
+10-31	891-906	geschulmeistert	_	_
+10-32	907-908	.	_	_
+
+#Text=mehr als es nützen kann wenn man seine überreichende Ansicht nicht mit einer überführlichen Begründung versehen kann .
+11-1	909-913	mehr	_	_
+11-2	914-917	als	_	_
+11-3	918-920	es	_	_
+11-4	921-927	nützen	_	_
+11-5	928-932	kann	_	_
+11-6	933-937	wenn	_	_
+11-7	938-941	man	_	_
+11-8	942-947	seine	_	_
+11-9	948-961	überreichende	_	_
+11-10	962-969	Ansicht	_	_
+11-11	970-975	nicht	_	_
+11-12	976-979	mit	_	_
+11-13	980-985	einer	_	_
+11-14	986-1000	überführlichen	_	_
+11-15	1001-1011	Begründung	_	_
+11-16	1012-1020	versehen	_	_
+11-17	1021-1025	kann	_	_
+11-18	1026-1027	.	_	_
+
+#Text=Das erst jezt mir zugesandte Kupferheft 18356 . 1 macht , die Aegypt .
+12-1	1028-1031	Das	_	_
+12-2	1032-1036	erst	_	_
+12-3	1037-1041	jezt	_	_
+12-4	1042-1045	mir	_	_
+12-5	1046-1056	zugesandte	_	_
+12-6	1057-1067	Kupferheft	_	_
+12-7	1068-1073	18356	*	DATEmentioned
+12-8	1074-1075	.	_	_
+12-9	1076-1077	1	_	_
+12-10	1078-1083	macht	_	_
+12-11	1084-1085	,	_	_
+12-12	1086-1089	die	_	_
+12-13	1090-1096	Aegypt	_	_
+12-14	1097-1098	.	_	_
+
+#Text=nicht ausgenommen , einen recht gefälligen Eindruck \; nur der Stich der test r , schale ist minder genügend .
+13-1	1099-1104	nicht	_	_
+13-2	1105-1116	ausgenommen	_	_
+13-3	1117-1118	,	_	_
+13-4	1119-1124	einen	_	_
+13-5	1125-1130	recht	_	_
+13-6	1131-1141	gefälligen	_	_
+13-7	1142-1150	Eindruck	_	_
+13-8	1151-1152	\;	_	_
+13-9	1153-1156	nur	_	_
+13-10	1157-1160	der	_	_
+13-11	1161-1166	Stich	_	_
+13-12	1167-1170	der	_	_
+13-13	1171-1175	test	_	_
+13-14	1176-1177	r	_	_
+13-15	1178-1179	,	_	_
+13-16	1180-1186	schale	_	_
+13-17	1187-1190	ist	_	_
+13-18	1191-1197	minder	_	_
+13-19	1198-1206	genügend	_	_
+13-20	1207-1208	.	_	_
+
+#Text=Der Forumaufsatz macht sich
+14-1	1209-1212	Der	_	_
+14-2	1213-1225	Forumaufsatz	*	OBJ
+14-3	1226-1231	macht	_	_
+14-4	1232-1236	sich	_	_

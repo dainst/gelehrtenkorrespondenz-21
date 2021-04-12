@@ -1,0 +1,67 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Dresden , 30 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Dresden	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	30	*[1]	DATEletter[1]
+1-7	30-31	.	*[1]	DATEletter[1]
+
+#Text=Oktober 71832 - 3 - Verzeihen Sie für diesmal meine Eile \; die Umstände müssen mich entschuldigen .
+2-1	32-39	Oktober	*[1]	DATEletter[1]
+2-2	40-45	71832	*[1]	DATEletter[1]
+2-3	46-47	-	_	_
+2-4	48-49	3	_	_
+2-5	50-51	-	_	_
+2-6	52-61	Verzeihen	_	_
+2-7	62-65	Sie	_	_
+2-8	66-69	für	_	_
+2-9	70-77	diesmal	_	_
+2-10	78-83	meine	_	_
+2-11	84-88	Eile	_	_
+2-12	89-90	\;	_	_
+2-13	91-94	die	_	_
+2-14	95-103	Umstände	_	_
+2-15	104-110	müssen	_	_
+2-16	111-115	mich	_	_
+2-17	116-129	entschuldigen	_	_
+2-18	130-131	.	_	_
+
+#Text=Grüßen Sie Lachmann und versichern Sie ihn meiner Hochachtung .
+3-1	132-138	Grüßen	_	_
+3-2	139-142	Sie	_	_
+3-3	143-151	Lachmann	*	PERmentioned
+3-4	152-155	und	_	_
+3-5	156-166	versichern	_	_
+3-6	167-170	Sie	_	_
+3-7	171-174	ihn	_	_
+3-8	175-181	meiner	_	_
+3-9	182-193	Hochachtung	_	_
+3-10	194-195	.	_	_
+
+#Text=Leben Sie wohl und lassen mich bald oder nicht bald etwas von Ihnen hören .
+4-1	196-201	Leben	_	_
+4-2	202-205	Sie	_	_
+4-3	206-210	wohl	_	_
+4-4	211-214	und	_	_
+4-5	215-221	lassen	_	_
+4-6	222-226	mich	_	_
+4-7	227-231	bald	_	_
+4-8	232-236	oder	_	_
+4-9	237-242	nicht	_	_
+4-10	243-247	bald	_	_
+4-11	248-253	etwas	_	_
+4-12	254-257	von	_	_
+4-13	258-263	Ihnen	_	_
+4-14	264-269	hören	_	_
+4-15	270-271	.	_	_
+
+#Text=Ihr dankbarer Emil Braun
+5-1	272-275	Ihr	_	_
+5-2	276-285	dankbarer	_	_
+5-3	286-290	Emil	*[2]	PERauthor[2]
+5-4	291-296	Braun	*[2]	PERauthor[2]

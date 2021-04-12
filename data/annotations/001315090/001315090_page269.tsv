@@ -1,0 +1,35 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=174 Lepsius an Henzen Berlin , 28. März 1876 Stipendien eines für klassische Archäologie zu bestimmen .
+1-1	0-3	174	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	28.	*[1]	DATEletter[1]
+1-8	35-39	März	*[1]	DATEletter[1]
+1-9	40-44	1876	*[1]	DATEletter[1]
+1-10	45-55	Stipendien	_	_
+1-11	56-61	eines	_	_
+1-12	62-65	für	_	_
+1-13	66-76	klassische	_	_
+1-14	77-88	Archäologie	_	_
+1-15	89-91	zu	_	_
+1-16	92-101	bestimmen	_	_
+1-17	102-103	.	_	_
+
+#Text=Für den Fall der Gewährung wurde eventuell Dr. Milchhöfer gewählt .
+2-1	104-107	Für	_	_
+2-2	108-111	den	_	_
+2-3	112-116	Fall	_	_
+2-4	117-120	der	_	_
+2-5	121-130	Gewährung	_	_
+2-6	131-136	wurde	_	_
+2-7	137-146	eventuell	_	_
+2-8	147-150	Dr.	_	_
+2-9	151-161	Milchhöfer	*	PERmentioned
+2-10	162-169	gewählt	_	_
+2-11	170-171	.	_	_

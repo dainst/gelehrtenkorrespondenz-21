@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=327 Helbig an Henzen Zürich , 14. September 1870 Reise nach Zürich anzutreten , um sie abzuholen .
+1-1	0-3	327	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zürich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	14.	*[3]	DATEletter[3]
+1-8	34-43	September	*[3]	DATEletter[3]
+1-9	44-48	1870	*[3]	DATEletter[3]
+1-10	49-54	Reise	_	_
+1-11	55-59	nach	_	_
+1-12	60-66	Zürich	*	PLACEmentioned
+1-13	67-77	anzutreten	_	_
+1-14	78-79	,	_	_
+1-15	80-82	um	_	_
+1-16	83-86	sie	_	_
+1-17	87-96	abzuholen	_	_
+1-18	97-98	.	_	_
+
+#Text=Was Hinck betrifft , so fange ich an , mich seinetwegen sehr zu beunruhigen .
+2-1	99-102	Was	_	_
+2-2	103-108	Hinck	*	PERmentioned
+2-3	109-117	betrifft	_	_
+2-4	118-119	,	_	_
+2-5	120-122	so	_	_
+2-6	123-128	fange	_	_
+2-7	129-132	ich	_	_
+2-8	133-135	an	_	_
+2-9	136-137	,	_	_
+2-10	138-142	mich	_	_
+2-11	143-154	seinetwegen	_	_
+2-12	155-159	sehr	_	_
+2-13	160-162	zu	_	_
+2-14	163-174	beunruhigen	_	_
+2-15	175-176	.	_	_
+
+#Text=Ein Brief von mir vom 20 .
+3-1	177-180	Ein	_	_
+3-2	181-186	Brief	_	_
+3-3	187-190	von	_	_
+3-4	191-194	mir	_	_
+3-5	195-198	vom	_	_
+3-6	199-201	20	_	_
+3-7	202-203	.	*[4]	DATEmentioned[4]
+
+#Text=August , ein anderer von Benndorf vom 24. , beide um umgehende Antwort bittend , sind ohne Antwort geblieben .
+4-1	204-210	August	*[4]	DATEmentioned[4]
+4-2	211-212	,	_	_
+4-3	213-216	ein	_	_
+4-4	217-224	anderer	_	_
+4-5	225-228	von	_	_
+4-6	229-237	Benndorf	*	PERmentioned
+4-7	238-241	vom	_	_
+4-8	242-245	24.	*[5]	DATEmentioned[5]
+4-9	246-247	,	_	_
+4-10	248-253	beide	_	_
+4-11	254-256	um	_	_
+4-12	257-266	umgehende	_	_
+4-13	267-274	Antwort	_	_
+4-14	275-282	bittend	_	_
+4-15	283-284	,	_	_
+4-16	285-289	sind	_	_
+4-17	290-294	ohne	_	_
+4-18	295-302	Antwort	_	_
+4-19	303-312	geblieben	_	_
+4-20	313-314	.	_	_
+
+#Text=Wissen Sie etwas von ihm ?
+5-1	315-321	Wissen	_	_
+5-2	322-325	Sie	_	_
+5-3	326-331	etwas	_	_
+5-4	332-335	von	_	_
+5-5	336-339	ihm	_	_
+5-6	340-341	?	_	_
+
+#Text=Ich habe vor drei Tagen auf Neue an ihn geschrieben .
+6-1	342-345	Ich	_	_
+6-2	346-350	habe	_	_
+6-3	351-354	vor	_	_
+6-4	355-359	drei	_	_
+6-5	360-365	Tagen	_	_
+6-6	366-369	auf	_	_
+6-7	370-374	Neue	_	_
+6-8	375-377	an	_	_
+6-9	378-381	ihn	_	_
+6-10	382-393	geschrieben	_	_
+6-11	394-395	.	_	_
+
+#Text=Kekul & und de Witte , die ich wegen ihrer Artikel gemahnt , haben bis jetzt ebenfalls nichts von sich hören lassen .
+7-1	396-401	Kekul	*	PERmentioned
+7-2	402-403	&	_	_
+7-3	404-407	und	_	_
+7-4	408-410	de	*[6]	PERmentioned[6]
+7-5	411-416	Witte	*[6]	PERmentioned[6]
+7-6	417-418	,	_	_
+7-7	419-422	die	_	_
+7-8	423-426	ich	_	_
+7-9	427-432	wegen	_	_
+7-10	433-438	ihrer	_	_
+7-11	439-446	Artikel	_	_
+7-12	447-454	gemahnt	_	_
+7-13	455-456	,	_	_
+7-14	457-462	haben	_	_
+7-15	463-466	bis	_	_
+7-16	467-472	jetzt	_	_
+7-17	473-482	ebenfalls	_	_
+7-18	483-489	nichts	_	_
+7-19	490-493	von	_	_
+7-20	494-498	sich	_	_
+7-21	499-504	hören	_	_
+7-22	505-511	lassen	_	_
+7-23	512-513	.	_	_
+
+#Text=Brunn ist uns doch hoffentlich sicher- ?
+8-1	514-519	Brunn	*	PERmentioned
+8-2	520-523	ist	_	_
+8-3	524-527	uns	_	_
+8-4	528-532	doch	_	_
+8-5	533-544	hoffentlich	_	_
+8-6	545-552	sicher-	_	_
+8-7	553-554	?	_	_
+
+#Text=Die Schwietzer fangen wiederum an , sich recht dumm zu benehmen .
+9-1	555-558	Die	_	_
+9-2	559-569	Schwietzer	_	_
+9-3	570-576	fangen	_	_
+9-4	577-585	wiederum	_	_
+9-5	586-588	an	_	_
+9-6	589-590	,	_	_
+9-7	591-595	sich	_	_
+9-8	596-601	recht	_	_
+9-9	602-606	dumm	_	_
+9-10	607-609	zu	_	_
+9-11	610-618	benehmen	_	_
+9-12	619-620	.	_	_
+
+#Text=Nachdem nach den ersten deutschen Siegen eine vernünftigere Richtung , welche sich mehr der deutschen Sache zuwendete , eingetreten war , hat auf einmal die Proclamirung der Republik den Leuten die Köpfe vollständig verdreht .
+10-1	621-628	Nachdem	_	_
+10-2	629-633	nach	_	_
+10-3	634-637	den	_	_
+10-4	638-644	ersten	_	_
+10-5	645-654	deutschen	_	_
+10-6	655-661	Siegen	_	_
+10-7	662-666	eine	_	_
+10-8	667-680	vernünftigere	_	_
+10-9	681-689	Richtung	_	_
+10-10	690-691	,	_	_
+10-11	692-698	welche	_	_
+10-12	699-703	sich	_	_
+10-13	704-708	mehr	_	_
+10-14	709-712	der	_	_
+10-15	713-722	deutschen	_	_
+10-16	723-728	Sache	_	_
+10-17	729-738	zuwendete	_	_
+10-18	739-740	,	_	_
+10-19	741-752	eingetreten	_	_
+10-20	753-756	war	_	_
+10-21	757-758	,	_	_
+10-22	759-762	hat	_	_
+10-23	763-766	auf	_	_
+10-24	767-773	einmal	_	_
+10-25	774-777	die	_	_
+10-26	778-790	Proclamirung	_	_
+10-27	791-794	der	_	_
+10-28	795-803	Republik	_	_
+10-29	804-807	den	_	_
+10-30	808-814	Leuten	_	_
+10-31	815-818	die	_	_
+10-32	819-824	Köpfe	_	_
+10-33	825-836	vollständig	_	_
+10-34	837-845	verdreht	_	_
+10-35	846-847	.	_	_
+
+#Text=Die Blätter wimmeln wieder von Ausfälle gegen das eroberungslustige Deutschland mit seinem Feudalismus und Gottesgnadenthum .
+11-1	848-851	Die	_	_
+11-2	852-859	Blätter	_	_
+11-3	860-867	wimmeln	_	_
+11-4	868-874	wieder	_	_
+11-5	875-878	von	_	_
+11-6	879-887	Ausfälle	_	_
+11-7	888-893	gegen	_	_
+11-8	894-897	das	_	_
+11-9	898-915	eroberungslustige	_	_
+11-10	916-927	Deutschland	*	PLACEmentioned
+11-11	928-931	mit	_	_
+11-12	932-938	seinem	_	_
+11-13	939-950	Feudalismus	_	_
+11-14	951-954	und	_	_
+11-15	955-971	Gottesgnadenthum	_	_
+11-16	972-973	.	_	_
+
+#Text=Merkwürdig , wie tief das französische Prestige den Leuten in den Knochen sitzt .
+12-1	974-984	Merkwürdig	_	_
+12-2	985-986	,	_	_
+12-3	987-990	wie	_	_
+12-4	991-995	tief	_	_
+12-5	996-999	das	_	_
+12-6	1000-1012	französische	_	_
+12-7	1013-1021	Prestige	_	_
+12-8	1022-1025	den	_	_
+12-9	1026-1032	Leuten	_	_
+12-10	1033-1035	in	_	_
+12-11	1036-1039	den	_	_
+12-12	1040-1047	Knochen	_	_
+12-13	1048-1053	sitzt	_	_
+12-14	1054-1055	.	_	_
+
+#Text=Ein Republikaner von 48 , Dufraisse , der bisher Professor am hiesigen Polytechnicum war , ist von der Republik zum Gesandten in Bern ernennt worden .
+13-1	1056-1059	Ein	_	_
+13-2	1060-1072	Republikaner	_	_
+13-3	1073-1076	von	_	_
+13-4	1077-1079	48	_	_
+13-5	1080-1081	,	_	_
+13-6	1082-1091	Dufraisse	*	PERmentioned
+13-7	1092-1093	,	_	_
+13-8	1094-1097	der	_	_
+13-9	1098-1104	bisher	_	_
+13-10	1105-1114	Professor	_	_
+13-11	1115-1117	am	_	_
+13-12	1118-1126	hiesigen	_	_
+13-13	1127-1140	Polytechnicum	*	ORGmentioned
+13-14	1141-1144	war	_	_
+13-15	1145-1146	,	_	_
+13-16	1147-1150	ist	_	_
+13-17	1151-1154	von	_	_
+13-18	1155-1158	der	_	_
+13-19	1159-1167	Republik	_	_
+13-20	1168-1171	zum	_	_
+13-21	1172-1181	Gesandten	_	_
+13-22	1182-1184	in	_	_
+13-23	1185-1189	Bern	*	PLACEmentioned
+13-24	1190-1197	ernennt	_	_
+13-25	1198-1204	worden	_	_
+13-26	1205-1206	.	_	_
+
+#Text=Die Angst , welche die Leute hier haben , er möge als Vertreter der grande Nation ihnen etwaige in seiner züricher Stellung erfahrene Unannehmlichkeiten entgelten lassen , ist gera-
+14-1	1207-1210	Die	_	_
+14-2	1211-1216	Angst	_	_
+14-3	1217-1218	,	_	_
+14-4	1219-1225	welche	_	_
+14-5	1226-1229	die	_	_
+14-6	1230-1235	Leute	_	_
+14-7	1236-1240	hier	_	_
+14-8	1241-1246	haben	_	_
+14-9	1247-1248	,	_	_
+14-10	1249-1251	er	_	_
+14-11	1252-1256	möge	_	_
+14-12	1257-1260	als	_	_
+14-13	1261-1270	Vertreter	_	_
+14-14	1271-1274	der	_	_
+14-15	1275-1281	grande	_	_
+14-16	1282-1288	Nation	_	_
+14-17	1289-1294	ihnen	_	_
+14-18	1295-1302	etwaige	_	_
+14-19	1303-1305	in	_	_
+14-20	1306-1312	seiner	_	_
+14-21	1313-1321	züricher	_	_
+14-22	1322-1330	Stellung	_	_
+14-23	1331-1340	erfahrene	_	_
+14-24	1341-1359	Unannehmlichkeiten	_	_
+14-25	1360-1369	entgelten	_	_
+14-26	1370-1376	lassen	_	_
+14-27	1377-1378	,	_	_
+14-28	1379-1382	ist	_	_
+14-29	1383-1388	gera-	_	_

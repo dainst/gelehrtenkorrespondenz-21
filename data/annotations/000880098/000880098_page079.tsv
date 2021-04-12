@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=687 Braun an Gerhard Prof , Dott .
+1-1	0-3	687	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-25	Prof	*[1]	PERaddressee[1]
+1-6	26-27	,	*[1]	PERaddressee[1]
+1-7	28-32	Dott	*[1]	PERaddressee[1]
+1-8	33-34	.	*[1]	PERaddressee[1]
+
+#Text=Ord .
+2-1	35-38	Ord	*[1]	PERaddressee[1]
+2-2	39-40	.	*[1]	PERaddressee[1]
+
+#Text=Gerhard .
+3-1	41-48	Gerhard	*[1]	PERaddressee[1]
+3-2	49-50	.	_	_
+
+#Text=Rom , 28 .
+4-1	51-54	Rom	*	PLACEfrom
+4-2	55-56	,	_	_
+4-3	57-59	28	*[2]	DATEletter[2]
+4-4	60-61	.	*[2]	DATEletter[2]
+
+#Text=Oktober 1834 Roma li 28 Ottobre 1834 Hochverehrter Freund !
+5-1	62-69	Oktober	*[2]	DATEletter[2]
+5-2	70-74	1834	_	_
+5-3	75-79	Roma	*	PLACEfrom
+5-4	80-82	li	_	_
+5-5	83-85	28	*[3]	DATEletter[3]
+5-6	86-93	Ottobre	*[3]	DATEletter[3]
+5-7	94-98	1834	_	_
+5-8	99-112	Hochverehrter	*[4]	PERaddressee[4]
+5-9	113-119	Freund	_	_
+5-10	120-121	!	_	_
+
+#Text=Borani , den ich vergebens aufgesucht , schreibt mir einen Entschuldigungsbrief , daß er die Platte nicht bis zum bestimmten Termin beendigen könne \; es sei ihm ein Stein auf den Fuß gefallen , der ihm dem Chirurgen in die Hände geliefert habe .
+6-1	122-128	Borani	*	PERmentioned
+6-2	129-130	,	_	_
+6-3	131-134	den	_	_
+6-4	135-138	ich	_	_
+6-5	139-148	vergebens	_	_
+6-6	149-159	aufgesucht	_	_
+6-7	160-161	,	_	_
+6-8	162-170	schreibt	_	_
+6-9	171-174	mir	_	_
+6-10	175-180	einen	_	_
+6-11	181-201	Entschuldigungsbrief	_	_
+6-12	202-203	,	_	_
+6-13	204-207	daß	_	_
+6-14	208-210	er	_	_
+6-15	211-214	die	_	_
+6-16	215-221	Platte	_	_
+6-17	222-227	nicht	_	_
+6-18	228-231	bis	_	_
+6-19	232-235	zum	_	_
+6-20	236-246	bestimmten	_	_
+6-21	247-253	Termin	_	_
+6-22	254-263	beendigen	_	_
+6-23	264-269	könne	_	_
+6-24	270-271	\;	_	_
+6-25	272-274	es	_	_
+6-26	275-278	sei	_	_
+6-27	279-282	ihm	_	_
+6-28	283-286	ein	_	_
+6-29	287-292	Stein	_	_
+6-30	293-296	auf	_	_
+6-31	297-300	den	_	_
+6-32	301-304	Fuß	_	_
+6-33	305-313	gefallen	_	_
+6-34	314-315	,	_	_
+6-35	316-319	der	_	_
+6-36	320-323	ihm	_	_
+6-37	324-327	dem	_	_
+6-38	328-337	Chirurgen	_	_
+6-39	338-340	in	_	_
+6-40	341-344	die	_	_
+6-41	345-350	Hände	_	_
+6-42	351-360	geliefert	_	_
+6-43	361-365	habe	_	_
+6-44	366-367	.	_	_
+
+#Text=Doch hofft er die Arbeit Ende d. M. wiederbeginnen zu können .
+7-1	368-372	Doch	_	_
+7-2	373-378	hofft	_	_
+7-3	379-381	er	_	_
+7-4	382-385	die	_	_
+7-5	386-392	Arbeit	_	_
+7-6	393-397	Ende	*[5]	DATEmentioned[5]
+7-7	398-400	d.	*[5]	DATEmentioned[5]
+7-8	401-403	M.	*[5]	DATEmentioned[5]
+7-9	404-418	wiederbeginnen	_	_
+7-10	419-421	zu	_	_
+7-11	422-428	können	_	_
+7-12	429-430	.	_	_
+
+#Text=Ich erhielt den Brief während einer kleinen Abwesenheit , durch eine Reise nach Cora , Segni und Praeneste veranlasst , und habe daher die Antwort anstehen lassen , indem .
+8-1	431-434	Ich	_	_
+8-2	435-442	erhielt	_	_
+8-3	443-446	den	_	_
+8-4	447-452	Brief	_	_
+8-5	453-460	während	_	_
+8-6	461-466	einer	_	_
+8-7	467-474	kleinen	_	_
+8-8	475-486	Abwesenheit	_	_
+8-9	487-488	,	_	_
+8-10	489-494	durch	_	_
+8-11	495-499	eine	_	_
+8-12	500-505	Reise	_	_
+8-13	506-510	nach	_	_
+8-14	511-515	Cora	*	PLACEmentioned
+8-15	516-517	,	_	_
+8-16	518-523	Segni	*	PLACEmentioned
+8-17	524-527	und	_	_
+8-18	528-537	Praeneste	*	PLACEmentioned
+8-19	538-548	veranlasst	_	_
+8-20	549-550	,	_	_
+8-21	551-554	und	_	_
+8-22	555-559	habe	_	_
+8-23	560-565	daher	_	_
+8-24	566-569	die	_	_
+8-25	570-577	Antwort	_	_
+8-26	578-586	anstehen	_	_
+8-27	587-593	lassen	_	_
+8-28	594-595	,	_	_
+8-29	596-601	indem	_	_
+8-30	602-603	.	_	_
+
+#Text=ich im Augenblick keinen anderen Stecher aufzutreiben gewußt hätte , Serradufalco wünscht zu neuer Besorgung Hirts Gesch .
+9-1	604-607	ich	_	_
+9-2	608-610	im	_	_
+9-3	611-621	Augenblick	_	_
+9-4	622-628	keinen	_	_
+9-5	629-636	anderen	_	_
+9-6	637-644	Stecher	_	_
+9-7	645-657	aufzutreiben	_	_
+9-8	658-664	gewußt	_	_
+9-9	665-670	hätte	_	_
+9-10	671-672	,	_	_
+9-11	673-685	Serradufalco	*[6]	PERmentioned[6]
+9-12	686-693	wünscht	_	_
+9-13	694-696	zu	_	_
+9-14	697-702	neuer	_	_
+9-15	703-712	Besorgung	_	_
+9-16	713-718	Hirts	*	PERmentioned
+9-17	719-724	Gesch	*[7]	LIT[7]
+9-18	725-726	.	*[7]	LIT[7]
+
+#Text=der Baulyfst und Sieglitz Archäologie der Baukunst .
+10-1	727-730	der	*[7]	LIT[7]
+10-2	731-739	Baulyfst	*[7]	LIT[7]
+10-3	740-743	und	_	_
+10-4	744-752	Sieglitz	*	PERmentioned
+10-5	753-764	Archäologie	*[8]	LIT[8]
+10-6	765-768	der	*[8]	LIT[8]
+10-7	769-777	Baukunst	*[8]	LIT[8]
+10-8	778-779	.	_	_
+
+#Text=Sein Brief an Sie lautet folgendermassen : Palermo 28 Settembre 1834 Mio Sig .
+11-1	780-784	Sein	_	_
+11-2	785-790	Brief	_	_
+11-3	791-793	an	_	_
+11-4	794-797	Sie	_	_
+11-5	798-804	lautet	_	_
+11-6	805-820	folgendermassen	_	_
+11-7	821-822	:	_	_
+11-8	823-830	Palermo	*	PLACEmentioned
+11-9	831-833	28	*[9]	DATEmentioned[9]
+11-10	834-843	Settembre	*[9]	DATEmentioned[9]
+11-11	844-848	1834	*[9]	DATEmentioned[9]
+11-12	849-852	Mio	_	_
+11-13	853-856	Sig	_	_
+11-14	857-858	.	_	_
+
+#Text=Professore Veneratissimo .
+12-1	859-869	Professore	_	_
+12-2	870-883	Veneratissimo	_	_
+12-3	884-885	.	_	_
+
+#Text=- Insieme al suo graditissimo foglio delli 29 Agosto passato ho ricevute alcune copie dell'ultimo Bullettino , nel quale & inserito il suo bellissimo articolo intorno alle mie antichitä Selinuntine .
+13-1	886-887	-	_	_
+13-2	888-895	Insieme	_	_
+13-3	896-898	al	_	_
+13-4	899-902	suo	_	_
+13-5	903-915	graditissimo	_	_
+13-6	916-922	foglio	_	_
+13-7	923-928	delli	_	_
+13-8	929-931	29	*[10]	DATEmentioned[10]
+13-9	932-938	Agosto	*[10]	DATEmentioned[10]
+13-10	939-946	passato	_	_
+13-11	947-949	ho	_	_
+13-12	950-958	ricevute	_	_
+13-13	959-965	alcune	_	_
+13-14	966-971	copie	_	_
+13-15	972-983	dell'ultimo	_	_
+13-16	984-994	Bullettino	*	LIT
+13-17	995-996	,	_	_
+13-18	997-1000	nel	_	_
+13-19	1001-1006	quale	_	_
+13-20	1007-1008	&	_	_
+13-21	1009-1017	inserito	_	_
+13-22	1018-1020	il	_	_
+13-23	1021-1024	suo	_	_
+13-24	1025-1035	bellissimo	_	_
+13-25	1036-1044	articolo	_	_
+13-26	1045-1052	intorno	_	_
+13-27	1053-1057	alle	_	_
+13-28	1058-1061	mie	_	_
+13-29	1062-1071	antichitä	*[11]	LIT[11]
+13-30	1072-1083	Selinuntine	*[11]	LIT[11]
+13-31	1084-1085	.	_	_
+
+#Text=Io la ringrazio denque della bontä colla quale si & compiacuuto di riguardare il mio lavoro , e mi reputo onoratissimo delle sue pregevolissime osservazioni .
+14-1	1086-1088	Io	_	_
+14-2	1089-1091	la	_	_
+14-3	1092-1101	ringrazio	_	_
+14-4	1102-1108	denque	_	_
+14-5	1109-1114	della	_	_
+14-6	1115-1120	bontä	_	_
+14-7	1121-1126	colla	_	_
+14-8	1127-1132	quale	_	_
+14-9	1133-1135	si	_	_
+14-10	1136-1137	&	_	_
+14-11	1138-1149	compiacuuto	_	_
+14-12	1150-1152	di	_	_
+14-13	1153-1163	riguardare	_	_
+14-14	1164-1166	il	_	_
+14-15	1167-1170	mio	_	_
+14-16	1171-1177	lavoro	_	_
+14-17	1178-1179	,	_	_
+14-18	1180-1181	e	_	_
+14-19	1182-1184	mi	_	_
+14-20	1185-1191	reputo	_	_
+14-21	1192-1204	onoratissimo	_	_
+14-22	1205-1210	delle	_	_
+14-23	1211-1214	sue	_	_
+14-24	1215-1229	pregevolissime	_	_
+14-25	1230-1242	osservazioni	_	_
+14-26	1243-1244	.	_	_

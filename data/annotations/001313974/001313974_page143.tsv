@@ -1,0 +1,64 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=302 Helbig an Henzen Zürich , 3 .
+1-1	0-3	302	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zürich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	3	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=August 1870 nachgeschickt zu erhalten .
+2-1	34-40	August	*[1]	DATEletter[1]
+2-2	41-45	1870	*[1]	DATEletter[1]
+2-3	46-59	nachgeschickt	_	_
+2-4	60-62	zu	_	_
+2-5	63-71	erhalten	_	_
+2-6	72-73	.	_	_
+
+#Text=Daß Garrucci seine beiden Memorie geschenkt hat , habe ich Ihnen wohl schon geschrieben .
+3-1	74-77	Daß	_	_
+3-2	78-86	Garrucci	*	PERmentioned
+3-3	87-92	seine	_	_
+3-4	93-99	beiden	_	_
+3-5	100-107	Memorie	_	_
+3-6	108-117	geschenkt	_	_
+3-7	118-121	hat	_	_
+3-8	122-123	,	_	_
+3-9	124-128	habe	_	_
+3-10	129-132	ich	_	_
+3-11	133-138	Ihnen	_	_
+3-12	139-143	wohl	_	_
+3-13	144-149	schon	_	_
+3-14	150-161	geschrieben	_	_
+3-15	162-163	.	_	_
+
+#Text=Er war liebenswürdig wie nie und grüßte Sie auf das Zärtlichste .
+4-1	164-166	Er	_	_
+4-2	167-170	war	_	_
+4-3	171-184	liebenswürdig	_	_
+4-4	185-188	wie	_	_
+4-5	189-192	nie	_	_
+4-6	193-196	und	_	_
+4-7	197-203	grüßte	_	_
+4-8	204-207	Sie	_	_
+4-9	208-211	auf	_	_
+4-10	212-215	das	_	_
+4-11	216-227	Zärtlichste	_	_
+4-12	228-229	.	_	_
+
+#Text=Viele Grüße von meiner Frau .
+5-1	230-235	Viele	_	_
+5-2	236-241	Grüße	_	_
+5-3	242-245	von	_	_
+5-4	246-252	meiner	_	_
+5-5	253-257	Frau	_	_
+5-6	258-259	.	_	_
+
+#Text=Ihr Helbig
+6-1	260-263	Ihr	_	_
+6-2	264-270	Helbig	*	PERauthor

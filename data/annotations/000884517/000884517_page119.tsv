@@ -1,0 +1,54 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=100 br Gerhard an Braun Berlin , 14. März 1845 Berlin 14/3 45 Sie erhalten anbei lieber Freund # 4 Diplome an denen nur Borghesi 's Unterschrift noch fehlt und ein seit Jahr und Tag liegen gebliebenes Exemplar einer von Hermann Ihnen adressirten Recension .
+1-1	0-3	100	_	_
+1-2	4-6	br	_	_
+1-3	7-14	Gerhard	*	PERauthor
+1-4	15-17	an	_	_
+1-5	18-23	Braun	*	PERaddressee
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-36	14.	*[1]	DATEletter[1]
+1-9	37-41	März	*[1]	DATEletter[1]
+1-10	42-46	1845	*[1]	DATEletter[1]
+1-11	47-53	Berlin	*	PLACEfrom
+1-12	54-58	14/3	*[2]	DATEletter[2]
+1-13	59-61	45	*[2]	DATEletter[2]
+1-14	62-65	Sie	_	_
+1-15	66-74	erhalten	_	_
+1-16	75-80	anbei	_	_
+1-17	81-87	lieber	_	_
+1-18	88-94	Freund	_	_
+1-19	95-96	#	_	_
+1-20	97-98	4	_	_
+1-21	99-106	Diplome	_	_
+1-22	107-109	an	_	_
+1-23	110-115	denen	_	_
+1-24	116-119	nur	_	_
+1-25	120-128	Borghesi	*	PERmentioned
+1-26	129-131	's	_	_
+1-27	132-144	Unterschrift	_	_
+1-28	145-149	noch	_	_
+1-29	150-155	fehlt	_	_
+1-30	156-159	und	_	_
+1-31	160-163	ein	_	_
+1-32	164-168	seit	_	_
+1-33	169-173	Jahr	_	_
+1-34	174-177	und	_	_
+1-35	178-181	Tag	_	_
+1-36	182-188	liegen	_	_
+1-37	189-200	gebliebenes	_	_
+1-38	201-209	Exemplar	_	_
+1-39	210-215	einer	_	_
+1-40	216-219	von	_	_
+1-41	220-227	Hermann	*	PERmentioned
+1-42	228-233	Ihnen	_	_
+1-43	234-245	adressirten	_	_
+1-44	246-255	Recension	_	_
+1-45	256-257	.	_	_
+
+#Text=Ihr Gerhard
+2-1	258-261	Ihr	_	_
+2-2	262-269	Gerhard	*	PERauthor

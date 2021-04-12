@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Bologna , 1. November 1837 Sig .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Bologna	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	1.	*[23]	DATEletter[23]
+1-7	30-38	November	*[23]	DATEletter[23]
+1-8	39-43	1837	*[23]	DATEletter[23]
+1-9	44-47	Sig	_	_
+1-10	48-49	.	_	_
+
+#Text=Prof. Gerhard Bologna 71 Nobre 1837 .
+2-1	50-55	Prof.	_	_
+2-2	56-63	Gerhard	*	PERaddressee
+2-3	64-71	Bologna	*	PLACEfrom
+2-4	72-74	71	*[24]	DATEletter[24]
+2-5	75-80	Nobre	*[24]	DATEletter[24]
+2-6	81-85	1837	*[24]	DATEletter[24]
+2-7	86-87	.	_	_
+
+#Text=Hochgeehrtester Freund !
+3-1	88-103	Hochgeehrtester	_	_
+3-2	104-110	Freund	_	_
+3-3	111-112	!	_	_
+
+#Text=Ich bin unendlich betroffen über die von Ihnen genommene Maßregel , Partheyn Statt ihn wie ich Sie schriftlich und mündlich , ja sogar mit der Clausel ihn die durch Ihre griechische Reise veranlaßte Verspätung zu beruhigen , gebeten hatte , mit den von Welcker einzukassirenden 50 Scudi ( Parthey hat etwa 62 rt .
+4-1	113-116	Ich	_	_
+4-2	117-120	bin	_	_
+4-3	121-130	unendlich	_	_
+4-4	131-140	betroffen	_	_
+4-5	141-145	über	_	_
+4-6	146-149	die	_	_
+4-7	150-153	von	_	_
+4-8	154-159	Ihnen	_	_
+4-9	160-169	genommene	_	_
+4-10	170-178	Maßregel	_	_
+4-11	179-180	,	_	_
+4-12	181-189	Partheyn	*	PERmentioned
+4-13	190-195	Statt	_	_
+4-14	196-199	ihn	_	_
+4-15	200-203	wie	_	_
+4-16	204-207	ich	_	_
+4-17	208-211	Sie	_	_
+4-18	212-223	schriftlich	_	_
+4-19	224-227	und	_	_
+4-20	228-236	mündlich	_	_
+4-21	237-238	,	_	_
+4-22	239-241	ja	_	_
+4-23	242-247	sogar	_	_
+4-24	248-251	mit	_	_
+4-25	252-255	der	_	_
+4-26	256-263	Clausel	_	_
+4-27	264-267	ihn	_	_
+4-28	268-271	die	_	_
+4-29	272-277	durch	_	_
+4-30	278-282	Ihre	_	_
+4-31	283-294	griechische	_	_
+4-32	295-300	Reise	_	_
+4-33	301-311	veranlaßte	_	_
+4-34	312-322	Verspätung	_	_
+4-35	323-325	zu	_	_
+4-36	326-335	beruhigen	_	_
+4-37	336-337	,	_	_
+4-38	338-345	gebeten	_	_
+4-39	346-351	hatte	_	_
+4-40	352-353	,	_	_
+4-41	354-357	mit	_	_
+4-42	358-361	den	_	_
+4-43	362-365	von	_	_
+4-44	366-373	Welcker	*	PERmentioned
+4-45	374-390	einzukassirenden	_	_
+4-46	391-393	50	_	_
+4-47	394-399	Scudi	_	_
+4-48	400-401	(	_	_
+4-49	402-409	Parthey	*	PERmentioned
+4-50	410-413	hat	_	_
+4-51	414-418	etwa	_	_
+4-52	419-421	62	_	_
+4-53	422-424	rt	_	_
+4-54	425-426	.	_	_
+
+#Text=zu haben ) zu bezahlen , an Bunsen zu adressiren , der mit diesem Geschäft nichts weiter zu tun , ja es sogar schon seit längerer Zeit aus den Institutsrechnungen hat verbannt wissen wollen .
+5-1	427-429	zu	_	_
+5-2	430-435	haben	_	_
+5-3	436-437	)	_	_
+5-4	438-440	zu	_	_
+5-5	441-449	bezahlen	_	_
+5-6	450-451	,	_	_
+5-7	452-454	an	_	_
+5-8	455-461	Bunsen	*	PERmentioned
+5-9	462-464	zu	_	_
+5-10	465-475	adressiren	_	_
+5-11	476-477	,	_	_
+5-12	478-481	der	_	_
+5-13	482-485	mit	_	_
+5-14	486-492	diesem	_	_
+5-15	493-501	Geschäft	_	_
+5-16	502-508	nichts	_	_
+5-17	509-515	weiter	_	_
+5-18	516-518	zu	_	_
+5-19	519-522	tun	_	_
+5-20	523-524	,	_	_
+5-21	525-527	ja	_	_
+5-22	528-530	es	_	_
+5-23	531-536	sogar	_	_
+5-24	537-542	schon	_	_
+5-25	543-547	seit	_	_
+5-26	548-556	längerer	_	_
+5-27	557-561	Zeit	_	_
+5-28	562-565	aus	_	_
+5-29	566-569	den	_	_
+5-30	570-589	Institutsrechnungen	_	_
+5-31	590-593	hat	_	_
+5-32	594-602	verbannt	_	_
+5-33	603-609	wissen	_	_
+5-34	610-616	wollen	_	_
+5-35	617-618	.	_	_
+
+#Text=Ich lege Ihnen eine Quittung für Welcker bei und ersuche Sie angelegentlichst die Sache zu irgend einem Ende zu bringen .
+6-1	619-622	Ich	_	_
+6-2	623-627	lege	_	_
+6-3	628-633	Ihnen	_	_
+6-4	634-638	eine	_	_
+6-5	639-647	Quittung	_	_
+6-6	648-651	für	_	_
+6-7	652-659	Welcker	*	PERmentioned
+6-8	660-663	bei	_	_
+6-9	664-667	und	_	_
+6-10	668-675	ersuche	_	_
+6-11	676-679	Sie	_	_
+6-12	680-696	angelegentlichst	_	_
+6-13	697-700	die	_	_
+6-14	701-706	Sache	_	_
+6-15	707-709	zu	_	_
+6-16	710-716	irgend	_	_
+6-17	717-722	einem	_	_
+6-18	723-727	Ende	_	_
+6-19	728-730	zu	_	_
+6-20	731-738	bringen	_	_
+6-21	739-740	.	_	_
+
+#Text=Welckern habe ich noch von Mailand aus auf seine an mich gerichteten Klagen , umgehends geantwortet , seinen weiteren Befehlen aber bis dahin vergeblich entgegengesehen .
+7-1	741-749	Welckern	*	PERmentioned
+7-2	750-754	habe	_	_
+7-3	755-758	ich	_	_
+7-4	759-763	noch	_	_
+7-5	764-767	von	_	_
+7-6	768-775	Mailand	*	PLACEmentioned
+7-7	776-779	aus	_	_
+7-8	780-783	auf	_	_
+7-9	784-789	seine	_	_
+7-10	790-792	an	_	_
+7-11	793-797	mich	_	_
+7-12	798-809	gerichteten	_	_
+7-13	810-816	Klagen	_	_
+7-14	817-818	,	_	_
+7-15	819-828	umgehends	_	_
+7-16	829-840	geantwortet	_	_
+7-17	841-842	,	_	_
+7-18	843-849	seinen	_	_
+7-19	850-858	weiteren	_	_
+7-20	859-867	Befehlen	_	_
+7-21	868-872	aber	_	_
+7-22	873-876	bis	_	_
+7-23	877-882	dahin	_	_
+7-24	883-893	vergeblich	_	_
+7-25	894-909	entgegengesehen	_	_
+7-26	910-911	.	_	_
+
+#Text=- Parthey erhält rt .
+8-1	912-913	-	_	_
+8-2	914-921	Parthey	*	PERmentioned
+8-3	922-928	erhält	_	_
+8-4	929-931	rt	_	_
+8-5	932-933	.	_	_
+
+#Text=62.16 , worauf er schon mit den Bonner Geldern vom 4 März angewiesen worden .
+9-1	934-939	62.16	_	_
+9-2	940-941	,	_	_
+9-3	942-948	worauf	_	_
+9-4	949-951	er	_	_
+9-5	952-957	schon	_	_
+9-6	958-961	mit	_	_
+9-7	962-965	den	_	_
+9-8	966-972	Bonner	*	PLACEmentioned
+9-9	973-980	Geldern	_	_
+9-10	981-984	vom	_	_
+9-11	985-986	4	*[25]	DATEmentioned[25]
+9-12	987-991	März	*[25]	DATEmentioned[25]
+9-13	992-1002	angewiesen	_	_
+9-14	1003-1009	worden	_	_
+9-15	1010-1011	.	_	_
+
+#Text=Daß er sich nach dieser Zeit nichts gehört zu haben wundert , finde ich sehr begreiflich , aber Sie werden mich wenigstens entschuldigt finden , wenn Sie Sich meiner dahin einschlasenden Bitten von jener Zeit her erinnern .
+10-1	1012-1015	Daß	_	_
+10-2	1016-1018	er	_	_
+10-3	1019-1023	sich	_	_
+10-4	1024-1028	nach	_	_
+10-5	1029-1035	dieser	_	_
+10-6	1036-1040	Zeit	_	_
+10-7	1041-1047	nichts	_	_
+10-8	1048-1054	gehört	_	_
+10-9	1055-1057	zu	_	_
+10-10	1058-1063	haben	_	_
+10-11	1064-1071	wundert	_	_
+10-12	1072-1073	,	_	_
+10-13	1074-1079	finde	_	_
+10-14	1080-1083	ich	_	_
+10-15	1084-1088	sehr	_	_
+10-16	1089-1100	begreiflich	_	_
+10-17	1101-1102	,	_	_
+10-18	1103-1107	aber	_	_
+10-19	1108-1111	Sie	_	_
+10-20	1112-1118	werden	_	_
+10-21	1119-1123	mich	_	_
+10-22	1124-1134	wenigstens	_	_
+10-23	1135-1147	entschuldigt	_	_
+10-24	1148-1154	finden	_	_
+10-25	1155-1156	,	_	_
+10-26	1157-1161	wenn	_	_
+10-27	1162-1165	Sie	_	_
+10-28	1166-1170	Sich	_	_
+10-29	1171-1177	meiner	_	_
+10-30	1178-1183	dahin	_	_
+10-31	1184-1198	einschlasenden	_	_
+10-32	1199-1205	Bitten	_	_
+10-33	1206-1209	von	_	_
+10-34	1210-1215	jener	_	_
+10-35	1216-1220	Zeit	_	_
+10-36	1221-1224	her	_	_
+10-37	1225-1233	erinnern	_	_
+10-38	1234-1235	.	_	_
+
+#Text=Verzeihen Sie die Auflastung dieses unangenehmen Geschäfts , aber nach den precedentibus wüßte ich kaum an wem ich mich wenden sollte .
+11-1	1236-1245	Verzeihen	_	_
+11-2	1246-1249	Sie	_	_
+11-3	1250-1253	die	_	_
+11-4	1254-1264	Auflastung	_	_
+11-5	1265-1271	dieses	_	_
+11-6	1272-1284	unangenehmen	_	_
+11-7	1285-1294	Geschäfts	_	_
+11-8	1295-1296	,	_	_
+11-9	1297-1301	aber	_	_
+11-10	1302-1306	nach	_	_
+11-11	1307-1310	den	_	_
+11-12	1311-1324	precedentibus	_	_
+11-13	1325-1330	wüßte	_	_
+11-14	1331-1334	ich	_	_
+11-15	1335-1339	kaum	_	_
+11-16	1340-1342	an	_	_
+11-17	1343-1346	wem	_	_
+11-18	1347-1350	ich	_	_
+11-19	1351-1355	mich	_	_
+11-20	1356-1362	wenden	_	_
+11-21	1363-1369	sollte	_	_
+11-22	1370-1371	.	_	_
+
+#Text=In Rom ist die Geldnoth groß \; ich zittere und
+12-1	1372-1374	In	_	_
+12-2	1375-1378	Rom	*	PLACEmentioned
+12-3	1379-1382	ist	_	_
+12-4	1383-1386	die	_	_
+12-5	1387-1395	Geldnoth	_	_
+12-6	1396-1400	groß	_	_
+12-7	1401-1402	\;	_	_
+12-8	1403-1406	ich	_	_
+12-9	1407-1414	zittere	_	_
+12-10	1415-1418	und	_	_

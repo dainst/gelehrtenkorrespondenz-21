@@ -1,0 +1,254 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=32 Gerhard an Braun Berlin , 6 .
+1-1	0-2	32	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	6	*[4]	DATEletter[4]
+1-8	31-32	.	*[4]	DATEletter[4]
+
+#Text=Januar 1835 ( Nachtrag von Gerhard 's Hand - völlig unleserlich ) : ed .
+2-1	33-39	Januar	*[4]	DATEletter[4]
+2-2	40-44	1835	*[4]	DATEletter[4]
+2-3	45-46	(	_	_
+2-4	47-55	Nachtrag	_	_
+2-5	56-59	von	_	_
+2-6	60-67	Gerhard	_	_
+2-7	68-70	's	_	_
+2-8	71-75	Hand	_	_
+2-9	76-77	-	_	_
+2-10	78-84	völlig	_	_
+2-11	85-96	unleserlich	_	_
+2-12	97-98	)	_	_
+2-13	99-100	:	_	_
+2-14	101-103	ed	_	_
+2-15	104-105	.	_	_
+
+#Text=Dave ® Ich suche vergebens für Cattaneo , 0 .
+3-1	106-110	Dave	_	_
+3-2	111-112	®	_	_
+3-3	113-116	Ich	_	_
+3-4	117-122	suche	_	_
+3-5	123-132	vergebens	_	_
+3-6	133-136	für	_	_
+3-7	137-145	Cattaneo	*	PERmentioned
+3-8	146-147	,	_	_
+3-9	148-149	0	_	_
+3-10	150-151	.	*[6]	PERmentioned[6]
+
+#Text=Marcos und etliche etwanige andre neue Mitglieder noch Ernennungsformulare und bitte Sie daher mir möglichst bald ein Dutzend derselben mit Bunsens Unterschrift zu schic- A ken .
+4-1	152-158	Marcos	*[6]	PERmentioned[6]
+4-2	159-162	und	_	_
+4-3	163-170	etliche	_	_
+4-4	171-179	etwanige	_	_
+4-5	180-185	andre	_	_
+4-6	186-190	neue	_	_
+4-7	191-201	Mitglieder	_	_
+4-8	202-206	noch	_	_
+4-9	207-226	Ernennungsformulare	_	_
+4-10	227-230	und	_	_
+4-11	231-236	bitte	_	_
+4-12	237-240	Sie	_	_
+4-13	241-246	daher	_	_
+4-14	247-250	mir	_	_
+4-15	251-260	möglichst	_	_
+4-16	261-265	bald	_	_
+4-17	266-269	ein	_	_
+4-18	270-277	Dutzend	_	_
+4-19	278-287	derselben	_	_
+4-20	288-291	mit	_	_
+4-21	292-299	Bunsens	*	PERmentioned
+4-22	300-312	Unterschrift	_	_
+4-23	313-315	zu	_	_
+4-24	316-322	schic-	_	_
+4-25	323-324	A	_	_
+4-26	325-328	ken	_	_
+4-27	329-330	.	_	_
+
+#Text=Ueber Solemann Palumbi will ich mit Panofka deliberiren \; wobei nichts hindert Eurerseits etwas Schickliches unterdeß auszuklügeln und vorzuschlagen .
+5-1	331-336	Ueber	_	_
+5-2	337-345	Solemann	*	PERmentioned
+5-3	346-353	Palumbi	*	PERmentioned
+5-4	354-358	will	_	_
+5-5	359-362	ich	_	_
+5-6	363-366	mit	_	_
+5-7	367-374	Panofka	*	PERmentioned
+5-8	375-386	deliberiren	_	_
+5-9	387-388	\;	_	_
+5-10	389-394	wobei	_	_
+5-11	395-401	nichts	_	_
+5-12	402-409	hindert	_	_
+5-13	410-420	Eurerseits	_	_
+5-14	421-426	etwas	_	_
+5-15	427-439	Schickliches	_	_
+5-16	440-448	unterdeß	_	_
+5-17	449-461	auszuklügeln	_	_
+5-18	462-465	und	_	_
+5-19	466-479	vorzuschlagen	_	_
+5-20	480-481	.	_	_
+
+#Text=Italienisch wird die Sprache wol bleiben müssen \; Papier und Format , dazu das Formular selbst scheint mir einigen Glanzes mehr zu bedürfen , besonders mit der Zugabe eines gestochenen und neu zu koncipirenden Institutssiegels .
+6-1	482-493	Italienisch	_	_
+6-2	494-498	wird	_	_
+6-3	499-502	die	_	_
+6-4	503-510	Sprache	_	_
+6-5	511-514	wol	_	_
+6-6	515-522	bleiben	_	_
+6-7	523-529	müssen	_	_
+6-8	530-531	\;	_	_
+6-9	532-538	Papier	_	_
+6-10	539-542	und	_	_
+6-11	543-549	Format	_	_
+6-12	550-551	,	_	_
+6-13	552-556	dazu	_	_
+6-14	557-560	das	_	_
+6-15	561-569	Formular	_	_
+6-16	570-576	selbst	_	_
+6-17	577-584	scheint	_	_
+6-18	585-588	mir	_	_
+6-19	589-596	einigen	_	_
+6-20	597-604	Glanzes	_	_
+6-21	605-609	mehr	_	_
+6-22	610-612	zu	_	_
+6-23	613-621	bedürfen	_	_
+6-24	622-623	,	_	_
+6-25	624-633	besonders	_	_
+6-26	634-637	mit	_	_
+6-27	638-641	der	_	_
+6-28	642-648	Zugabe	_	_
+6-29	649-654	eines	_	_
+6-30	655-666	gestochenen	_	_
+6-31	667-670	und	_	_
+6-32	671-674	neu	_	_
+6-33	675-677	zu	_	_
+6-34	678-691	koncipirenden	_	_
+6-35	692-708	Institutssiegels	_	_
+6-36	709-710	.	_	_
+
+#Text=Beikommend eine Briefliste .
+7-1	711-721	Beikommend	_	_
+7-2	722-726	eine	_	_
+7-3	727-737	Briefliste	_	_
+7-4	738-739	.	_	_
+
+#Text=- Den sichtlichen Stillstand von Stiglitz ' Frau werden Sie vernommen haben \; sie lebt der Selbstaufopferung für einen halb verrükten Mann , in der .
+8-1	740-741	-	_	_
+8-2	742-745	Den	_	_
+8-3	746-757	sichtlichen	_	_
+8-4	758-768	Stillstand	_	_
+8-5	769-772	von	_	_
+8-6	773-781	Stiglitz	*	PERmentioned
+8-7	782-783	'	_	_
+8-8	784-788	Frau	_	_
+8-9	789-795	werden	_	_
+8-10	796-799	Sie	_	_
+8-11	800-809	vernommen	_	_
+8-12	810-815	haben	_	_
+8-13	816-817	\;	_	_
+8-14	818-821	sie	_	_
+8-15	822-826	lebt	_	_
+8-16	827-830	der	_	_
+8-17	831-848	Selbstaufopferung	_	_
+8-18	849-852	für	_	_
+8-19	853-858	einen	_	_
+8-20	859-863	halb	_	_
+8-21	864-873	verrükten	_	_
+8-22	874-878	Mann	_	_
+8-23	879-880	,	_	_
+8-24	881-883	in	_	_
+8-25	884-887	der	_	_
+8-26	888-889	.	_	_
+
+#Text=Absicht ausgeführt ihn durch wahrhaftes Unglück ruhiger zu stimmen .
+9-1	890-897	Absicht	_	_
+9-2	898-908	ausgeführt	_	_
+9-3	909-912	ihn	_	_
+9-4	913-918	durch	_	_
+9-5	919-929	wahrhaftes	_	_
+9-6	930-937	Unglück	_	_
+9-7	938-945	ruhiger	_	_
+9-8	946-948	zu	_	_
+9-9	949-956	stimmen	_	_
+9-10	957-958	.	_	_
+
+#Text=Hynis ' Opuscula der Kiste noch einverleibt , deren Inhaltsanzeige nächstens folgt .
+10-1	959-964	Hynis	*	PERmentioned
+10-2	965-966	'	_	_
+10-3	967-975	Opuscula	_	_
+10-4	976-979	der	_	_
+10-5	980-985	Kiste	_	_
+10-6	986-990	noch	_	_
+10-7	991-1002	einverleibt	_	_
+10-8	1003-1004	,	_	_
+10-9	1005-1010	deren	_	_
+10-10	1011-1025	Inhaltsanzeige	_	_
+10-11	1026-1035	nächstens	_	_
+10-12	1036-1041	folgt	_	_
+10-13	1042-1043	.	_	_
+
+#Text=Lepsius Sache soll heute in der Akademie vorkommen .
+11-1	1044-1051	Lepsius	*	PERmentioned
+11-2	1052-1057	Sache	_	_
+11-3	1058-1062	soll	_	_
+11-4	1063-1068	heute	_	_
+11-5	1069-1071	in	_	_
+11-6	1072-1075	der	_	_
+11-7	1076-1084	Akademie	*	ORGmentioned
+11-8	1085-1094	vorkommen	_	_
+11-9	1095-1096	.	_	_
+
+#Text=- Das Bull .
+12-1	1097-1098	-	_	_
+12-2	1099-1102	Das	_	_
+12-3	1103-1107	Bull	_	_
+12-4	1108-1109	.	_	_
+
+#Text=mit der Micali Recension fehlt mir noch immer .
+13-1	1110-1113	mit	_	_
+13-2	1114-1117	der	_	_
+13-3	1118-1124	Micali	*	PERmentioned
+13-4	1125-1134	Recension	_	_
+13-5	1135-1140	fehlt	_	_
+13-6	1141-1144	mir	_	_
+13-7	1145-1149	noch	_	_
+13-8	1150-1155	immer	_	_
+13-9	1156-1157	.	_	_
+
+#Text=- Meine Gesundheit ist seit etlichen Tagen wieder etwas besser , doch schwerlich in Folge der Silicia .
+14-1	1158-1159	-	_	_
+14-2	1160-1165	Meine	_	_
+14-3	1166-1176	Gesundheit	_	_
+14-4	1177-1180	ist	_	_
+14-5	1181-1185	seit	_	_
+14-6	1186-1194	etlichen	_	_
+14-7	1195-1200	Tagen	_	_
+14-8	1201-1207	wieder	_	_
+14-9	1208-1213	etwas	_	_
+14-10	1214-1220	besser	_	_
+14-11	1221-1222	,	_	_
+14-12	1223-1227	doch	_	_
+14-13	1228-1238	schwerlich	_	_
+14-14	1239-1241	in	_	_
+14-15	1242-1247	Folge	_	_
+14-16	1248-1251	der	_	_
+14-17	1252-1259	Silicia	_	_
+14-18	1260-1261	.	_	_
+
+#Text=Ich pausire nun und erwarte vom Medikus Schwefel oder was er sonst
+15-1	1262-1265	Ich	_	_
+15-2	1266-1273	pausire	_	_
+15-3	1274-1277	nun	_	_
+15-4	1278-1281	und	_	_
+15-5	1282-1289	erwarte	_	_
+15-6	1290-1293	vom	_	_
+15-7	1294-1301	Medikus	_	_
+15-8	1302-1310	Schwefel	_	_
+15-9	1311-1315	oder	_	_
+15-10	1316-1319	was	_	_
+15-11	1320-1322	er	_	_
+15-12	1323-1328	sonst	_	_

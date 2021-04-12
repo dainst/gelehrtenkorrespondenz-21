@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=406 Lepsius an Henzen Berlin , I2 .
+1-1	0-3	406	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	I2	_	_
+1-8	34-35	.	_	_
+
+#Text=Dezember 1873 g . 15/12 73 r . 18/12 Berlin , d . 12- Dez . 1873 Verehrtester Freund Ich bin selbst über meine Schreibepause verwundert .
+2-1	36-44	Dezember	*[1]	DATEletter[1]
+2-2	45-49	1873	*[1]	DATEletter[1]
+2-3	50-51	g	_	_
+2-4	52-53	.	_	_
+2-5	54-59	15/12	*[2]	DATErecieved[2]
+2-6	60-62	73	*[2]	DATErecieved[2]
+2-7	63-64	r	_	_
+2-8	65-66	.	_	_
+2-9	67-72	18/12	*	DATEanswered
+2-10	73-79	Berlin	*	PLACEfrom
+2-11	80-81	,	_	_
+2-12	82-83	d	_	_
+2-13	84-85	.	_	_
+2-14	86-89	12-	*[3]	DATEletter[3]
+2-15	90-93	Dez	*[3]	DATEletter[3]
+2-16	94-95	.	*[3]	DATEletter[3]
+2-17	96-100	1873	*[3]	DATEletter[3]
+2-18	101-113	Verehrtester	_	_
+2-19	114-120	Freund	_	_
+2-20	121-124	Ich	_	_
+2-21	125-128	bin	_	_
+2-22	129-135	selbst	_	_
+2-23	136-140	über	_	_
+2-24	141-146	meine	_	_
+2-25	147-160	Schreibepause	_	_
+2-26	161-171	verwundert	_	_
+2-27	172-173	.	_	_
+
+#Text=Sie hat aber ihre Richtigkeit .
+3-1	174-177	Sie	_	_
+3-2	178-181	hat	_	_
+3-3	182-186	aber	_	_
+3-4	187-191	ihre	_	_
+3-5	192-203	Richtigkeit	_	_
+3-6	204-205	.	_	_
+
+#Text=Als ich Ihnen nach unsrer letzten Konferenz schreiben wollte , hatte ich es mit einigen Berichten zu thun , die mich absorbirten .
+4-1	206-209	Als	_	_
+4-2	210-213	ich	_	_
+4-3	214-219	Ihnen	_	_
+4-4	220-224	nach	_	_
+4-5	225-231	unsrer	_	_
+4-6	232-239	letzten	_	_
+4-7	240-249	Konferenz	_	_
+4-8	250-259	schreiben	_	_
+4-9	260-266	wollte	_	_
+4-10	267-268	,	_	_
+4-11	269-274	hatte	_	_
+4-12	275-278	ich	_	_
+4-13	279-281	es	_	_
+4-14	282-285	mit	_	_
+4-15	286-293	einigen	_	_
+4-16	294-303	Berichten	_	_
+4-17	304-306	zu	_	_
+4-18	307-311	thun	_	_
+4-19	312-313	,	_	_
+4-20	314-317	die	_	_
+4-21	318-322	mich	_	_
+4-22	323-334	absorbirten	_	_
+4-23	335-336	.	_	_
+
+#Text=Ich hole jetzt kurz nach .
+5-1	337-340	Ich	_	_
+5-2	341-345	hole	_	_
+5-3	346-351	jetzt	_	_
+5-4	352-356	kurz	_	_
+5-5	357-361	nach	_	_
+5-6	362-363	.	_	_
+
+#Text=Es ist bewilligt , daß daß der Zeichner des Matz statt nach Paris den Winter nach Rom gehe \; er wird wohl nächstens dahin abreisen .
+6-1	364-366	Es	_	_
+6-2	367-370	ist	_	_
+6-3	371-380	bewilligt	_	_
+6-4	381-382	,	_	_
+6-5	383-386	daß	_	_
+6-6	387-390	daß	_	_
+6-7	391-394	der	_	_
+6-8	395-403	Zeichner	_	_
+6-9	404-407	des	_	_
+6-10	408-412	Matz	*	PERmentioned
+6-11	413-418	statt	_	_
+6-12	419-423	nach	_	_
+6-13	424-429	Paris	*	PLACEmentioned
+6-14	430-433	den	_	_
+6-15	434-440	Winter	_	_
+6-16	441-445	nach	_	_
+6-17	446-449	Rom	*	PLACEmentioned
+6-18	450-454	gehe	_	_
+6-19	455-456	\;	_	_
+6-20	457-459	er	_	_
+6-21	460-464	wird	_	_
+6-22	465-469	wohl	_	_
+6-23	470-479	nächstens	_	_
+6-24	480-485	dahin	_	_
+6-25	486-494	abreisen	_	_
+6-26	495-496	.	_	_
+
+#Text=Es sind dazu 600 r ausgesetzt , zu deren Zahlung ich Asher autorisirt habe , und worüber er sich mit Ihnen zu berechnen hat .
+7-1	497-499	Es	_	_
+7-2	500-504	sind	_	_
+7-3	505-509	dazu	_	_
+7-4	510-513	600	_	_
+7-5	514-515	r	_	_
+7-6	516-526	ausgesetzt	_	_
+7-7	527-528	,	_	_
+7-8	529-531	zu	_	_
+7-9	532-537	deren	_	_
+7-10	538-545	Zahlung	_	_
+7-11	546-549	ich	_	_
+7-12	550-555	Asher	*	PERmentioned
+7-13	556-566	autorisirt	_	_
+7-14	567-571	habe	_	_
+7-15	572-573	,	_	_
+7-16	574-577	und	_	_
+7-17	578-585	worüber	_	_
+7-18	586-588	er	_	_
+7-19	589-593	sich	_	_
+7-20	594-597	mit	_	_
+7-21	598-603	Ihnen	_	_
+7-22	604-606	zu	_	_
+7-23	607-616	berechnen	_	_
+7-24	617-620	hat	_	_
+7-25	621-622	.	_	_
+
+#Text=Dazu kommt eine kleine Rechnung für Kopialien für die Central Direktion .
+8-1	623-627	Dazu	_	_
+8-2	628-633	kommt	_	_
+8-3	634-638	eine	_	_
+8-4	639-645	kleine	_	_
+8-5	646-654	Rechnung	_	_
+8-6	655-658	für	_	_
+8-7	659-668	Kopialien	_	_
+8-8	669-672	für	_	_
+8-9	673-676	die	_	_
+8-10	677-684	Central	*[4]	ORGmentioned[4]
+8-11	685-694	Direktion	*[4]	ORGmentioned[4]
+8-12	695-696	.	_	_
+
+#Text=- Sie werden ja sehen , was Sie etwa mit Herrn Eichler dem Zeichner auch für dortige Bedürfnisse anfangen können .
+9-1	697-698	-	_	_
+9-2	699-702	Sie	_	_
+9-3	703-709	werden	_	_
+9-4	710-712	ja	_	_
+9-5	713-718	sehen	_	_
+9-6	719-720	,	_	_
+9-7	721-724	was	_	_
+9-8	725-728	Sie	_	_
+9-9	729-733	etwa	_	_
+9-10	734-737	mit	_	_
+9-11	738-743	Herrn	_	_
+9-12	744-751	Eichler	*	PERmentioned
+9-13	752-755	dem	_	_
+9-14	756-764	Zeichner	_	_
+9-15	765-769	auch	_	_
+9-16	770-773	für	_	_
+9-17	774-781	dortige	_	_
+9-18	782-793	Bedürfnisse	_	_
+9-19	794-802	anfangen	_	_
+9-20	803-809	können	_	_
+9-21	810-811	.	_	_
+
+#Text=Wir haben geglaubt , daß er Ihnen bei dem Mangel an guten Zeichnern nur willkommen sein werde .
+10-1	812-815	Wir	_	_
+10-2	816-821	haben	_	_
+10-3	822-830	geglaubt	_	_
+10-4	831-832	,	_	_
+10-5	833-836	daß	_	_
+10-6	837-839	er	_	_
+10-7	840-845	Ihnen	_	_
+10-8	846-849	bei	_	_
+10-9	850-853	dem	_	_
+10-10	854-860	Mangel	_	_
+10-11	861-863	an	_	_
+10-12	864-869	guten	_	_
+10-13	870-879	Zeichnern	_	_
+10-14	880-883	nur	_	_
+10-15	884-894	willkommen	_	_
+10-16	895-899	sein	_	_
+10-17	900-905	werde	_	_
+10-18	906-907	.	_	_
+
+#Text=Kekul & wünscht seine Terrakotten unter die Flügel des Instituts zu stellen .
+11-1	908-913	Kekul	*	PERmentioned
+11-2	914-915	&	_	_
+11-3	916-923	wünscht	_	_
+11-4	924-929	seine	_	_
+11-5	930-941	Terrakotten	*	OBJ
+11-6	942-947	unter	_	_
+11-7	948-951	die	_	_
+11-8	952-958	Flügel	_	_
+11-9	959-962	des	_	_
+11-10	963-972	Instituts	*	ORGmentioned
+11-11	973-975	zu	_	_
+11-12	976-983	stellen	_	_
+11-13	984-985	.	_	_
+
+#Text=Seine Wünsche gehen etwas weit und ins Unbestimmte .
+12-1	986-991	Seine	_	_
+12-2	992-999	Wünsche	_	_
+12-3	1000-1005	gehen	_	_
+12-4	1006-1011	etwas	_	_
+12-5	1012-1016	weit	_	_
+12-6	1017-1020	und	_	_
+12-7	1021-1024	ins	_	_
+12-8	1025-1036	Unbestimmte	_	_
+12-9	1037-1038	.	_	_
+
+#Text=Wir haben ihm vorläufig wieder 150 r zur Fortsetzung der Vorarbeiten bewilligt \;
+13-1	1039-1042	Wir	_	_
+13-2	1043-1048	haben	_	_
+13-3	1049-1052	ihm	_	_
+13-4	1053-1062	vorläufig	_	_
+13-5	1063-1069	wieder	_	_
+13-6	1070-1073	150	_	_
+13-7	1074-1075	r	_	_
+13-8	1076-1079	zur	_	_
+13-9	1080-1091	Fortsetzung	_	_
+13-10	1092-1095	der	_	_
+13-11	1096-1107	Vorarbeiten	_	_
+13-12	1108-1117	bewilligt	_	_
+13-13	1118-1119	\;	_	_

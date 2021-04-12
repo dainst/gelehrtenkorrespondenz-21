@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\_ # Braun an Gerhard Rom , 17 .
+1-1	0-1	\_	_	_
+1-2	2-3	#	_	_
+1-3	4-9	Braun	*	PERauthor
+1-4	10-12	an	_	_
+1-5	13-20	Gerhard	*	PERaddressee
+1-6	21-24	Rom	*	PLACEfrom
+1-7	25-26	,	_	_
+1-8	27-29	17	_	_
+1-9	30-31	.	_	_
+
+#Text=Januar 1839 19 .
+2-1	32-38	Januar	_	_
+2-2	39-43	1839	_	_
+2-3	44-46	19	*[4]	DATEletter[4]
+2-4	47-48	.	*[4]	DATEletter[4]
+
+#Text=Januar 1839 .
+3-1	49-55	Januar	*[4]	DATEletter[4]
+3-2	56-60	1839	*[4]	DATEletter[4]
+3-3	61-62	.	_	_
+
+#Text=Gestern habe ich mit Kestner und Lanci wiederum eine allerliebste Administrationssitzung abgehalten , bei welcher wenig fehlte , daß ich beiden Herren den ganzen Plunder vor die Füße warf .
+4-1	63-70	Gestern	_	_
+4-2	71-75	habe	_	_
+4-3	76-79	ich	_	_
+4-4	80-83	mit	_	_
+4-5	84-91	Kestner	*	PERmentioned
+4-6	92-95	und	_	_
+4-7	96-101	Lanci	*	PERmentioned
+4-8	102-110	wiederum	_	_
+4-9	111-115	eine	_	_
+4-10	116-128	allerliebste	_	_
+4-11	129-151	Administrationssitzung	_	_
+4-12	152-162	abgehalten	_	_
+4-13	163-164	,	_	_
+4-14	165-168	bei	_	_
+4-15	169-176	welcher	_	_
+4-16	177-182	wenig	_	_
+4-17	183-189	fehlte	_	_
+4-18	190-191	,	_	_
+4-19	192-195	daß	_	_
+4-20	196-199	ich	_	_
+4-21	200-206	beiden	_	_
+4-22	207-213	Herren	_	_
+4-23	214-217	den	_	_
+4-24	218-224	ganzen	_	_
+4-25	225-232	Plunder	_	_
+4-26	233-236	vor	_	_
+4-27	237-240	die	_	_
+4-28	241-245	Füße	_	_
+4-29	246-250	warf	_	_
+4-30	251-252	.	_	_
+
+#Text=Lanci 's lästerzunge ist ebenso unausstehlich und widerlich , als seine grenzenlose Faulheit den Institutsgeschäften positiv nachtheilig ist .
+5-1	253-258	Lanci	*[5]	PERmentioned[5]
+5-2	259-261	's	*[5]	PERmentioned[5]
+5-3	262-273	lästerzunge	_	_
+5-4	274-277	ist	_	_
+5-5	278-284	ebenso	_	_
+5-6	285-298	unausstehlich	_	_
+5-7	299-302	und	_	_
+5-8	303-312	widerlich	_	_
+5-9	313-314	,	_	_
+5-10	315-318	als	_	_
+5-11	319-324	seine	_	_
+5-12	325-336	grenzenlose	_	_
+5-13	337-345	Faulheit	_	_
+5-14	346-349	den	_	_
+5-15	350-369	Institutsgeschäften	_	_
+5-16	370-377	positiv	_	_
+5-17	378-389	nachtheilig	_	_
+5-18	390-393	ist	_	_
+5-19	394-395	.	_	_
+
+#Text=Nichts als Schmähworte , lügenhafte Vebertreibungen , aber Mangel an aller geregelten Thätigkeit .
+6-1	396-402	Nichts	_	_
+6-2	403-406	als	_	_
+6-3	407-418	Schmähworte	_	_
+6-4	419-420	,	_	_
+6-5	421-431	lügenhafte	_	_
+6-6	432-447	Vebertreibungen	_	_
+6-7	448-449	,	_	_
+6-8	450-454	aber	_	_
+6-9	455-461	Mangel	_	_
+6-10	462-464	an	_	_
+6-11	465-470	aller	_	_
+6-12	471-481	geregelten	_	_
+6-13	482-492	Thätigkeit	_	_
+6-14	493-494	.	_	_
+
+#Text=Kestner machte die sehr passende Bemerkung , daß er nicht gewußt unter welchen französischen Titel er ihn dem Großfürsten vorstellen sollte , indem Ragioniere einen Raisoneur giebt .
+7-1	495-502	Kestner	*	PERmentioned
+7-2	503-509	machte	_	_
+7-3	510-513	die	_	_
+7-4	514-518	sehr	_	_
+7-5	519-527	passende	_	_
+7-6	528-537	Bemerkung	_	_
+7-7	538-539	,	_	_
+7-8	540-543	daß	_	_
+7-9	544-546	er	_	_
+7-10	547-552	nicht	_	_
+7-11	553-559	gewußt	_	_
+7-12	560-565	unter	_	_
+7-13	566-573	welchen	_	_
+7-14	574-587	französischen	_	_
+7-15	588-593	Titel	_	_
+7-16	594-596	er	_	_
+7-17	597-600	ihn	_	_
+7-18	601-604	dem	_	_
+7-19	605-616	Großfürsten	_	_
+7-20	617-627	vorstellen	_	_
+7-21	628-634	sollte	_	_
+7-22	635-636	,	_	_
+7-23	637-642	indem	_	_
+7-24	643-653	Ragioniere	_	_
+7-25	654-659	einen	_	_
+7-26	660-669	Raisoneur	_	_
+7-27	670-675	giebt	_	_
+7-28	676-677	.	_	_
+
+#Text=Inghiranis Lett .
+8-1	678-688	Inghiranis	*	PERmentioned
+8-2	689-693	Lett	_	_
+8-3	694-695	.	_	_
+
+#Text=di erudizione etrusca werden Ihnen durch Reumont 's Kistensendung zukommen .
+9-1	696-698	di	_	_
+9-2	699-709	erudizione	_	_
+9-3	710-717	etrusca	_	_
+9-4	718-724	werden	_	_
+9-5	725-730	Ihnen	_	_
+9-6	731-736	durch	_	_
+9-7	737-744	Reumont	*[6]	PERmentioned[6]
+9-8	745-747	's	*[6]	PERmentioned[6]
+9-9	748-761	Kistensendung	_	_
+9-10	762-770	zukommen	_	_
+9-11	771-772	.	_	_
+
+#Text=Von den Todtenkisten etc. besitzt er weder Kupfer noch Exemplare mehr .
+10-1	773-776	Von	_	_
+10-2	777-780	den	_	_
+10-3	781-793	Todtenkisten	*	OBJ
+10-4	794-798	etc.	_	_
+10-5	799-806	besitzt	_	_
+10-6	807-809	er	_	_
+10-7	810-815	weder	_	_
+10-8	816-822	Kupfer	_	_
+10-9	823-827	noch	_	_
+10-10	828-837	Exemplare	_	_
+10-11	838-842	mehr	_	_
+10-12	843-844	.	_	_
+
+#Text=Alles verbeilt \| Mit dem Quartformat , das unseren Institutsschriften allgemein erwünscht worden , haben Sie sich kurios benommen .
+11-1	845-850	Alles	_	_
+11-2	851-859	verbeilt	_	_
+11-3	860-861	\|	_	_
+11-4	862-865	Mit	_	_
+11-5	866-869	dem	_	_
+11-6	870-881	Quartformat	_	_
+11-7	882-883	,	_	_
+11-8	884-887	das	_	_
+11-9	888-895	unseren	_	_
+11-10	896-914	Institutsschriften	_	_
+11-11	915-924	allgemein	_	_
+11-12	925-934	erwünscht	_	_
+11-13	935-941	worden	_	_
+11-14	942-943	,	_	_
+11-15	944-949	haben	_	_
+11-16	950-953	Sie	_	_
+11-17	954-958	sich	_	_
+11-18	959-965	kurios	_	_
+11-19	966-974	benommen	_	_
+11-20	975-976	.	_	_
+
+#Text=Erst nachdem man dasselbe nach langen Discussionen verlassen , werden Sie desselben geneitgt .
+12-1	977-981	Erst	_	_
+12-2	982-989	nachdem	_	_
+12-3	990-993	man	_	_
+12-4	994-1002	dasselbe	_	_
+12-5	1003-1007	nach	_	_
+12-6	1008-1014	langen	_	_
+12-7	1015-1027	Discussionen	_	_
+12-8	1028-1037	verlassen	_	_
+12-9	1038-1039	,	_	_
+12-10	1040-1046	werden	_	_
+12-11	1047-1050	Sie	_	_
+12-12	1051-1060	desselben	_	_
+12-13	1061-1069	geneitgt	_	_
+12-14	1070-1071	.	_	_
+
+#Text=Die sogenannte inschrift Tporkosvase muß unter Ihren Zeichnungen sich vorfinden .
+13-1	1072-1075	Die	_	_
+13-2	1076-1086	sogenannte	_	_
+13-3	1087-1096	inschrift	_	_
+13-4	1097-1108	Tporkosvase	*	OBJ
+13-5	1109-1112	muß	_	_
+13-6	1113-1118	unter	_	_
+13-7	1119-1124	Ihren	_	_
+13-8	1125-1136	Zeichnungen	_	_
+13-9	1137-1141	sich	_	_
+13-10	1142-1151	vorfinden	_	_
+13-11	1152-1153	.	_	_
+
+#Text=Ich weiß es zu bestimmt , daß dieselbe an Sie abgegangen ist .
+14-1	1154-1157	Ich	_	_
+14-2	1158-1162	weiß	_	_
+14-3	1163-1165	es	_	_
+14-4	1166-1168	zu	_	_
+14-5	1169-1177	bestimmt	_	_
+14-6	1178-1179	,	_	_
+14-7	1180-1183	daß	_	_
+14-8	1184-1192	dieselbe	_	_
+14-9	1193-1195	an	_	_
+14-10	1196-1199	Sie	_	_
+14-11	1200-1210	abgegangen	_	_
+14-12	1211-1214	ist	_	_
+14-13	1215-1216	.	_	_
+
+#Text=Uebrigens hege ich in Betreff des Tporkos bedeutende Zweifel und rechne zu den Darstellungen des Tporkos ganz andere Vasenzeichnungen .
+15-1	1217-1226	Uebrigens	_	_
+15-2	1227-1231	hege	_	_
+15-3	1232-1235	ich	_	_
+15-4	1236-1238	in	_	_
+15-5	1239-1246	Betreff	_	_
+15-6	1247-1250	des	_	_
+15-7	1251-1258	Tporkos	*	OBJ
+15-8	1259-1269	bedeutende	_	_
+15-9	1270-1277	Zweifel	_	_
+15-10	1278-1281	und	_	_
+15-11	1282-1288	rechne	_	_
+15-12	1289-1291	zu	_	_
+15-13	1292-1295	den	_	_
+15-14	1296-1309	Darstellungen	_	_
+15-15	1310-1313	des	_	_
+15-16	1314-1321	Tporkos	*	OBJ
+15-17	1322-1326	ganz	_	_
+15-18	1327-1333	andere	_	_
+15-19	1334-1350	Vasenzeichnungen	_	_
+15-20	1351-1352	.	_	_
+
+#Text=Das Original ist nach England gewandert .
+16-1	1353-1356	Das	_	_
+16-2	1357-1365	Original	_	_
+16-3	1366-1369	ist	_	_
+16-4	1370-1374	nach	_	_
+16-5	1375-1382	England	*	PLACEmentioned
+16-6	1383-1392	gewandert	_	_
+16-7	1393-1394	.	_	_
+
+#Text=Ritschls Versetzung nach Bonn freut mich von ganzen Herzen .
+17-1	1395-1403	Ritschls	*	PERmentioned
+17-2	1404-1414	Versetzung	_	_
+17-3	1415-1419	nach	_	_
+17-4	1420-1424	Bonn	*	PLACEmentioned
+17-5	1425-1430	freut	_	_
+17-6	1431-1435	mich	_	_
+17-7	1436-1439	von	_	_
+17-8	1440-1446	ganzen	_	_
+17-9	1447-1453	Herzen	_	_
+17-10	1454-1455	.	_	_
+
+#Text=Ihr .
+18-1	1456-1459	Ihr	_	_
+18-2	1460-1461	.	_	_
+
+#Text=EBraun .
+19-1	1462-1468	EBraun	*	PERauthor
+19-2	1469-1470	.	_	_

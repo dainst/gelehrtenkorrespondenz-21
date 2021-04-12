@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.or \] \|0.0n Gerhard an Henzen Frankfurt , 11. April 1846 Meine Frau dankt der Ihrigen bestens für Ihren freundlichen Brief .
+1-1	0-3	.or	_	_
+1-2	4-5	\]	_	_
+1-3	6-11	\|0.0n	_	_
+1-4	12-19	Gerhard	*	PERauthor
+1-5	20-22	an	_	_
+1-6	23-29	Henzen	*	PERaddressee
+1-7	30-39	Frankfurt	*	PLACEfrom
+1-8	40-41	,	_	_
+1-9	42-45	11.	*[1]	DATEletter[1]
+1-10	46-51	April	*[1]	DATEletter[1]
+1-11	52-56	1846	*[1]	DATEletter[1]
+1-12	57-62	Meine	_	_
+1-13	63-67	Frau	_	_
+1-14	68-73	dankt	_	_
+1-15	74-77	der	_	_
+1-16	78-85	Ihrigen	_	_
+1-17	86-93	bestens	_	_
+1-18	94-97	für	_	_
+1-19	98-103	Ihren	_	_
+1-20	104-116	freundlichen	_	_
+1-21	117-122	Brief	_	_
+1-22	123-124	.	_	_
+
+#Text=Wir haben gute Reise gemacht , auch in 5 stündiger ängstlicher Schlittenfahrt durch den Gotthardschnee , den man in Verona und Mailand verleugnete .
+2-1	125-128	Wir	_	_
+2-2	129-134	haben	_	_
+2-3	135-139	gute	_	_
+2-4	140-145	Reise	_	_
+2-5	146-153	gemacht	_	_
+2-6	154-155	,	_	_
+2-7	156-160	auch	_	_
+2-8	161-163	in	_	_
+2-9	164-165	5	_	_
+2-10	166-175	stündiger	_	_
+2-11	176-187	ängstlicher	_	_
+2-12	188-202	Schlittenfahrt	_	_
+2-13	203-208	durch	_	_
+2-14	209-212	den	_	_
+2-15	213-227	Gotthardschnee	_	_
+2-16	228-229	,	_	_
+2-17	230-233	den	_	_
+2-18	234-237	man	_	_
+2-19	238-240	in	_	_
+2-20	241-247	Verona	*	PLACEmentioned
+2-21	248-251	und	_	_
+2-22	252-259	Mailand	*	PLACEmentioned
+2-23	260-271	verleugnete	_	_
+2-24	272-273	.	_	_
+
+#Text=Hier erfreut uns als neues Familienereignis die Verlobung meines Schwagers in Kassel .
+3-1	274-278	Hier	_	_
+3-2	279-286	erfreut	_	_
+3-3	287-290	uns	_	_
+3-4	291-294	als	_	_
+3-5	295-300	neues	_	_
+3-6	301-317	Familienereignis	_	_
+3-7	318-321	die	_	_
+3-8	322-331	Verlobung	_	_
+3-9	332-338	meines	_	_
+3-10	339-348	Schwagers	_	_
+3-11	349-351	in	_	_
+3-12	352-358	Kassel	*	PLACEmentioned
+3-13	359-360	.	_	_
+
+#Text=Sie schreiben nichts von Friedländer der dem Vernehmen nach in Rom bleibt ?
+4-1	361-364	Sie	_	_
+4-2	365-374	schreiben	_	_
+4-3	375-381	nichts	_	_
+4-4	382-385	von	_	_
+4-5	386-397	Friedländer	*	PERmentioned
+4-6	398-401	der	_	_
+4-7	402-405	dem	_	_
+4-8	406-415	Vernehmen	_	_
+4-9	416-420	nach	_	_
+4-10	421-423	in	_	_
+4-11	424-427	Rom	*	PLACEmentioned
+4-12	428-434	bleibt	_	_
+4-13	435-436	?	_	_
+
+#Text=Aus Berlin wird mir Waagens 6 monatliche Reise nach Belgien und Paris , ferner Lepsius Verlobung mit einer reichen Nichte des D. Parthey's gemeldet \; interessanter fürs Institut ist Secchi 's endlich erlangte akademische Ernennung , die ich beigehend an Campana berichte .
+5-1	437-440	Aus	_	_
+5-2	441-447	Berlin	*	PLACEmentioned
+5-3	448-452	wird	_	_
+5-4	453-456	mir	_	_
+5-5	457-464	Waagens	*	PERmentioned
+5-6	465-466	6	_	_
+5-7	467-477	monatliche	_	_
+5-8	478-483	Reise	_	_
+5-9	484-488	nach	_	_
+5-10	489-496	Belgien	*	PLACEmentioned
+5-11	497-500	und	_	_
+5-12	501-506	Paris	*	PLACEmentioned
+5-13	507-508	,	_	_
+5-14	509-515	ferner	_	_
+5-15	516-523	Lepsius	*	PERmentioned
+5-16	524-533	Verlobung	_	_
+5-17	534-537	mit	_	_
+5-18	538-543	einer	_	_
+5-19	544-551	reichen	_	_
+5-20	552-558	Nichte	_	_
+5-21	559-562	des	_	_
+5-22	563-565	D.	*[2]	PERmentioned[2]
+5-23	566-575	Parthey's	*[2]	PERmentioned[2]
+5-24	576-584	gemeldet	_	_
+5-25	585-586	\;	_	_
+5-26	587-600	interessanter	_	_
+5-27	601-605	fürs	_	_
+5-28	606-614	Institut	*	ORGmentioned
+5-29	615-618	ist	_	_
+5-30	619-625	Secchi	*	PERmentioned
+5-31	626-628	's	_	_
+5-32	629-636	endlich	_	_
+5-33	637-645	erlangte	_	_
+5-34	646-657	akademische	_	_
+5-35	658-667	Ernennung	_	_
+5-36	668-669	,	_	_
+5-37	670-673	die	_	_
+5-38	674-677	ich	_	_
+5-39	678-687	beigehend	_	_
+5-40	688-690	an	_	_
+5-41	691-698	Campana	*	PERmentioned
+5-42	699-707	berichte	_	_
+5-43	708-709	.	_	_
+
+#Text=Alles heirathet : auch der Duc de Iuynes die Schwiegermutter seines Sohnes \; wiederum aber soll das Institut darüber sich freuen daß seine fernere Großmuth für dasselbe bis jetzt nicht bezweifelt wird .
+6-1	710-715	Alles	_	_
+6-2	716-725	heirathet	_	_
+6-3	726-727	:	_	_
+6-4	728-732	auch	_	_
+6-5	733-736	der	_	_
+6-6	737-740	Duc	*[3]	PERmentioned[3]
+6-7	741-743	de	*[3]	PERmentioned[3]
+6-8	744-750	Iuynes	*[3]	PERmentioned[3]
+6-9	751-754	die	_	_
+6-10	755-770	Schwiegermutter	_	_
+6-11	771-777	seines	_	_
+6-12	778-784	Sohnes	_	_
+6-13	785-786	\;	_	_
+6-14	787-795	wiederum	_	_
+6-15	796-800	aber	_	_
+6-16	801-805	soll	_	_
+6-17	806-809	das	_	_
+6-18	810-818	Institut	*	ORGmentioned
+6-19	819-826	darüber	_	_
+6-20	827-831	sich	_	_
+6-21	832-838	freuen	_	_
+6-22	839-842	daß	_	_
+6-23	843-848	seine	_	_
+6-24	849-856	fernere	_	_
+6-25	857-865	Großmuth	_	_
+6-26	866-869	für	_	_
+6-27	870-878	dasselbe	_	_
+6-28	879-882	bis	_	_
+6-29	883-888	jetzt	_	_
+6-30	889-894	nicht	_	_
+6-31	895-905	bezweifelt	_	_
+6-32	906-910	wird	_	_
+6-33	911-912	.	_	_
+
+#Text=De Witte , der so meint , versichert aufs Neue daß Frank's Insolenz trostlos sei \; es muß für den französischen Vertrieb ohne neues Zögern etwas Durchgreifendes geschehen !
+7-1	913-915	De	*[4]	PERmentioned[4]
+7-2	916-921	Witte	*[4]	PERmentioned[4]
+7-3	922-923	,	_	_
+7-4	924-927	der	_	_
+7-5	928-930	so	_	_
+7-6	931-936	meint	_	_
+7-7	937-938	,	_	_
+7-8	939-949	versichert	_	_
+7-9	950-954	aufs	_	_
+7-10	955-959	Neue	_	_
+7-11	960-963	daß	_	_
+7-12	964-971	Frank's	*	PERmentioned
+7-13	972-980	Insolenz	_	_
+7-14	981-989	trostlos	_	_
+7-15	990-993	sei	_	_
+7-16	994-995	\;	_	_
+7-17	996-998	es	_	_
+7-18	999-1002	muß	_	_
+7-19	1003-1006	für	_	_
+7-20	1007-1010	den	_	_
+7-21	1011-1024	französischen	_	_
+7-22	1025-1033	Vertrieb	_	_
+7-23	1034-1038	ohne	_	_
+7-24	1039-1044	neues	_	_
+7-25	1045-1051	Zögern	_	_
+7-26	1052-1057	etwas	_	_
+7-27	1058-1073	Durchgreifendes	_	_
+7-28	1074-1083	geschehen	_	_
+7-29	1084-1085	!	_	_
+
+#Text=eeoo .... grüßen Sie Brauns , Mommsen und andre Freunde .
+8-1	1086-1090	eeoo	_	_
+8-2	1091-1095	....	_	_
+8-3	1096-1102	grüßen	_	_
+8-4	1103-1106	Sie	_	_
+8-5	1107-1113	Brauns	*	PERmentioned
+8-6	1114-1115	,	_	_
+8-7	1116-1123	Mommsen	*	PERmentioned
+8-8	1124-1127	und	_	_
+8-9	1128-1133	andre	_	_
+8-10	1134-1141	Freunde	_	_
+8-11	1142-1143	.	_	_
+
+#Text=Brunn läßt mich eine Fortsetzung des Processo verbale wol in Berlin vorfinden .
+9-1	1144-1149	Brunn	*	PERmentioned
+9-2	1150-1154	läßt	_	_
+9-3	1155-1159	mich	_	_
+9-4	1160-1164	eine	_	_
+9-5	1165-1176	Fortsetzung	_	_
+9-6	1177-1180	des	_	_
+9-7	1181-1189	Processo	_	_
+9-8	1190-1197	verbale	_	_
+9-9	1198-1201	wol	_	_
+9-10	1202-1204	in	_	_
+9-11	1205-1211	Berlin	*	PLACEmentioned
+9-12	1212-1221	vorfinden	_	_
+9-13	1222-1223	.	_	_
+
+#Text=Nach Heidel ........ e ... bach noch zu kommen \; das Gerücht über Lersch scheint falsch gewesen zu sein .
+10-1	1224-1228	Nach	_	_
+10-2	1229-1235	Heidel	_	_
+10-3	1236-1244	........	_	_
+10-4	1245-1246	e	_	_
+10-5	1247-1250	...	_	_
+10-6	1251-1255	bach	_	_
+10-7	1256-1260	noch	_	_
+10-8	1261-1263	zu	_	_
+10-9	1264-1270	kommen	_	_
+10-10	1271-1272	\;	_	_
+10-11	1273-1276	das	_	_
+10-12	1277-1284	Gerücht	_	_
+10-13	1285-1289	über	_	_
+10-14	1290-1296	Lersch	*	PERmentioned
+10-15	1297-1304	scheint	_	_
+10-16	1305-1311	falsch	_	_
+10-17	1312-1319	gewesen	_	_
+10-18	1320-1322	zu	_	_
+10-19	1323-1327	sein	_	_
+10-20	1328-1329	.	_	_
+
+#Text=lassen Sie mir doch eine Ant-
+11-1	1330-1336	lassen	_	_
+11-2	1337-1340	Sie	_	_
+11-3	1341-1344	mir	_	_
+11-4	1345-1349	doch	_	_
+11-5	1350-1354	eine	_	_
+11-6	1355-1359	Ant-	_	_

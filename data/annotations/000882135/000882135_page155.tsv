@@ -1,0 +1,299 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=87 Braun an Gerhard Rom , 16. Mai 1839 Rom 16 Mai 1839 .
+1-1	0-2	87	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	16.	*[4]	DATEletter[4]
+1-8	30-33	Mai	*[4]	DATEletter[4]
+1-9	34-38	1839	*[4]	DATEletter[4]
+1-10	39-42	Rom	*	PLACEfrom
+1-11	43-45	16	*[6]	DATEletter[6]
+1-12	46-49	Mai	*[6]	DATEletter[6]
+1-13	50-54	1839	*[6]	DATEletter[6]
+1-14	55-56	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+2-1	57-73	Hochverehrtester	_	_
+2-2	74-80	Freund	_	_
+2-3	81-82	\|	_	_
+2-4	83-84	!	_	_
+
+#Text=Ich beantworte Ihren Brief vom 18 April .
+3-1	85-88	Ich	_	_
+3-2	89-99	beantworte	_	_
+3-3	100-105	Ihren	_	_
+3-4	106-111	Brief	_	_
+3-5	112-115	vom	_	_
+3-6	116-118	18	*[7]	DATEmentioned[7]
+3-7	119-124	April	*[7]	DATEmentioned[7]
+3-8	125-126	.	_	_
+
+#Text=Wegen der Mitgliederliste beruhigen Sie sich .
+4-1	127-132	Wegen	_	_
+4-2	133-136	der	_	_
+4-3	137-152	Mitgliederliste	_	_
+4-4	153-162	beruhigen	_	_
+4-5	163-166	Sie	_	_
+4-6	167-171	sich	_	_
+4-7	172-173	.	_	_
+
+#Text=Das Bullettino circulirt unterdessen ohne Titel .
+5-1	174-177	Das	_	_
+5-2	178-188	Bullettino	_	_
+5-3	189-198	circulirt	_	_
+5-4	199-210	unterdessen	_	_
+5-5	211-215	ohne	_	_
+5-6	216-221	Titel	_	_
+5-7	222-223	.	_	_
+
+#Text=Mir kann so wenig als dem alten Wagner etwas daran liegen von dem Institut einrangiert zu werden .
+6-1	224-227	Mir	_	_
+6-2	228-232	kann	_	_
+6-3	233-235	so	_	_
+6-4	236-241	wenig	_	_
+6-5	242-245	als	_	_
+6-6	246-249	dem	_	_
+6-7	250-255	alten	_	_
+6-8	256-262	Wagner	*	PERmentioned
+6-9	263-268	etwas	_	_
+6-10	269-274	daran	_	_
+6-11	275-281	liegen	_	_
+6-12	282-285	von	_	_
+6-13	286-289	dem	_	_
+6-14	290-298	Institut	*	ORGmentioned
+6-15	299-310	einrangiert	_	_
+6-16	311-313	zu	_	_
+6-17	314-320	werden	_	_
+6-18	321-322	.	_	_
+
+#Text=Es soll und wird auch nie geschehen .
+7-1	323-325	Es	_	_
+7-2	326-330	soll	_	_
+7-3	331-334	und	_	_
+7-4	335-339	wird	_	_
+7-5	340-344	auch	_	_
+7-6	345-348	nie	_	_
+7-7	349-358	geschehen	_	_
+7-8	359-360	.	_	_
+
+#Text=Was ich andeutete , war nur ein Wunsch mich nicht blos von Waschlappen und groben Intriguanten umgeben zu sehen .
+8-1	361-364	Was	_	_
+8-2	365-368	ich	_	_
+8-3	369-378	andeutete	_	_
+8-4	379-380	,	_	_
+8-5	381-384	war	_	_
+8-6	385-388	nur	_	_
+8-7	389-392	ein	_	_
+8-8	393-399	Wunsch	_	_
+8-9	400-404	mich	_	_
+8-10	405-410	nicht	_	_
+8-11	411-415	blos	_	_
+8-12	416-419	von	_	_
+8-13	420-431	Waschlappen	_	_
+8-14	432-435	und	_	_
+8-15	436-442	groben	_	_
+8-16	443-455	Intriguanten	_	_
+8-17	456-463	umgeben	_	_
+8-18	464-466	zu	_	_
+8-19	467-472	sehen	_	_
+8-20	473-474	.	_	_
+
+#Text=Es gehört in der That eine Pferdegeduld und noch viel mehr dazu , um gas Institut zu halten .
+9-1	475-477	Es	_	_
+9-2	478-484	gehört	_	_
+9-3	485-487	in	_	_
+9-4	488-491	der	_	_
+9-5	492-496	That	_	_
+9-6	497-501	eine	_	_
+9-7	502-514	Pferdegeduld	_	_
+9-8	515-518	und	_	_
+9-9	519-523	noch	_	_
+9-10	524-528	viel	_	_
+9-11	529-533	mehr	_	_
+9-12	534-538	dazu	_	_
+9-13	539-540	,	_	_
+9-14	541-543	um	_	_
+9-15	544-547	gas	_	_
+9-16	548-556	Institut	*	ORGmentioned
+9-17	557-559	zu	_	_
+9-18	560-566	halten	_	_
+9-19	567-568	.	_	_
+
+#Text=Lanci hat mich bei dem Druck des eben abgeschlossenen 2.ten Annalenheftes 1838 so sträflich aufgehalten , daß ich fast außer mir darüber bin .
+10-1	569-574	Lanci	*	PERmentioned
+10-2	575-578	hat	_	_
+10-3	579-583	mich	_	_
+10-4	584-587	bei	_	_
+10-5	588-591	dem	_	_
+10-6	592-597	Druck	_	_
+10-7	598-601	des	_	_
+10-8	602-606	eben	_	_
+10-9	607-622	abgeschlossenen	_	_
+10-10	623-628	2.ten	_	_
+10-11	629-642	Annalenheftes	_	_
+10-12	643-647	1838	*	DATEmentioned
+10-13	648-650	so	_	_
+10-14	651-660	sträflich	_	_
+10-15	661-672	aufgehalten	_	_
+10-16	673-674	,	_	_
+10-17	675-678	daß	_	_
+10-18	679-682	ich	_	_
+10-19	683-687	fast	_	_
+10-20	688-693	außer	_	_
+10-21	694-697	mir	_	_
+10-22	698-705	darüber	_	_
+10-23	706-709	bin	_	_
+10-24	710-711	.	_	_
+
+#Text=Seine Lebensversicherungsanstalt kostet ihm alle Zeit , keinen Abend mehr bei Hause , bis Nachts 2 Uhr in dem Bureau thätig .
+11-1	712-717	Seine	_	_
+11-2	718-744	Lebensversicherungsanstalt	_	_
+11-3	745-751	kostet	_	_
+11-4	752-755	ihm	_	_
+11-5	756-760	alle	_	_
+11-6	761-765	Zeit	_	_
+11-7	766-767	,	_	_
+11-8	768-774	keinen	_	_
+11-9	775-780	Abend	_	_
+11-10	781-785	mehr	_	_
+11-11	786-789	bei	_	_
+11-12	790-795	Hause	_	_
+11-13	796-797	,	_	_
+11-14	798-801	bis	_	_
+11-15	802-808	Nachts	_	_
+11-16	809-810	2	_	_
+11-17	811-814	Uhr	_	_
+11-18	815-817	in	_	_
+11-19	818-821	dem	_	_
+11-20	822-828	Bureau	_	_
+11-21	829-835	thätig	_	_
+11-22	836-837	.	_	_
+
+#Text=Das 1.ste Annalenheft nebst Monumenten 71839 ist im Manuscript und in Stichen bereits zusammen .
+12-1	838-841	Das	_	_
+12-2	842-847	1.ste	_	_
+12-3	848-859	Annalenheft	_	_
+12-4	860-865	nebst	_	_
+12-5	866-876	Monumenten	_	_
+12-6	877-882	71839	*	DATEmentioned
+12-7	883-886	ist	_	_
+12-8	887-889	im	_	_
+12-9	890-900	Manuscript	_	_
+12-10	901-904	und	_	_
+12-11	905-907	in	_	_
+12-12	908-915	Stichen	_	_
+12-13	916-923	bereits	_	_
+12-14	924-932	zusammen	_	_
+12-15	933-934	.	_	_
+
+#Text=Den Druck desselben werde ich nicht beendigen können , wohl aber beginnen .
+13-1	935-938	Den	_	_
+13-2	939-944	Druck	_	_
+13-3	945-954	desselben	_	_
+13-4	955-960	werde	_	_
+13-5	961-964	ich	_	_
+13-6	965-970	nicht	_	_
+13-7	971-980	beendigen	_	_
+13-8	981-987	können	_	_
+13-9	988-989	,	_	_
+13-10	990-994	wohl	_	_
+13-11	995-999	aber	_	_
+13-12	1000-1008	beginnen	_	_
+13-13	1009-1010	.	_	_
+
+#Text=Es enthält das Monumentenheft : I. Teatro di Vallerone , architectur .
+14-1	1011-1013	Es	_	_
+14-2	1014-1021	enthält	_	_
+14-3	1022-1025	das	_	_
+14-4	1026-1040	Monumentenheft	_	_
+14-5	1041-1042	:	_	_
+14-6	1043-1045	I.	_	_
+14-7	1046-1052	Teatro	*[14]	OBJ[14]
+14-8	1053-1055	di	*[14]	OBJ[14]
+14-9	1056-1065	Vallerone	*[14]	OBJ[14]
+14-10	1066-1067	,	_	_
+14-11	1068-1079	architectur	_	_
+14-12	1080-1081	.	_	_
+
+#Text=Grund- und Aufriß .
+15-1	1082-1088	Grund-	_	_
+15-2	1089-1092	und	_	_
+15-3	1093-1099	Aufriß	_	_
+15-4	1100-1101	.	_	_
+
+#Text=II .
+16-1	1102-1104	II	_	_
+16-2	1105-1106	.	_	_
+
+#Text=Sculture di Vallerone , die vorzüglichsten in diesem Gebäude gefundenen Statuentorsen .
+17-1	1107-1115	Sculture	*[15]	OBJ[15]
+17-2	1116-1118	di	*[15]	OBJ[15]
+17-3	1119-1128	Vallerone	*[15]	OBJ[15]
+17-4	1129-1130	,	_	_
+17-5	1131-1134	die	_	_
+17-6	1135-1149	vorzüglichsten	_	_
+17-7	1150-1152	in	_	_
+17-8	1153-1159	diesem	_	_
+17-9	1160-1167	Gebäude	_	_
+17-10	1168-1178	gefundenen	_	_
+17-11	1179-1192	Statuentorsen	*	OBJ
+17-12	1193-1194	.	_	_
+
+#Text=III .
+18-1	1195-1198	III	_	_
+18-2	1199-1200	.	_	_
+
+#Text=Il Giudizio di Paride in Villa Pamfili , descritto dallo Zoega , e tolto dall'obblio per Welcker , eine Ohrfeige für Raoul Rochette .
+19-1	1201-1203	Il	_	_
+19-2	1204-1212	Giudizio	*[17]	OBJ[17]
+19-3	1213-1215	di	*[17]	OBJ[17]
+19-4	1216-1222	Paride	*[17]	OBJ[17]
+19-5	1223-1225	in	_	_
+19-6	1226-1231	Villa	*[18]	PLACEmentioned[18]
+19-7	1232-1239	Pamfili	*[18]	PLACEmentioned[18]
+19-8	1240-1241	,	_	_
+19-9	1242-1251	descritto	_	_
+19-10	1252-1257	dallo	_	_
+19-11	1258-1263	Zoega	*	PERmentioned
+19-12	1264-1265	,	_	_
+19-13	1266-1267	e	_	_
+19-14	1268-1273	tolto	_	_
+19-15	1274-1285	dall'obblio	_	_
+19-16	1286-1289	per	_	_
+19-17	1290-1297	Welcker	*	PERmentioned
+19-18	1298-1299	,	_	_
+19-19	1300-1304	eine	_	_
+19-20	1305-1313	Ohrfeige	_	_
+19-21	1314-1317	für	_	_
+19-22	1318-1323	Raoul	*[21]	PERmentioned[21]
+19-23	1324-1332	Rochette	*[21]	PERmentioned[21]
+19-24	1333-1334	.	_	_
+
+#Text=IV .
+20-1	1335-1337	IV	_	_
+20-2	1338-1339	.	_	_
+
+#Text=Tazza d'Aquileia , illustrata dal Müller , ein etwas schmales Blatt , aber schwer mit etwas an-
+21-1	1340-1345	Tazza	*[22]	OBJ[22]
+21-2	1346-1356	d'Aquileia	*[22]	OBJ[22]
+21-3	1357-1358	,	_	_
+21-4	1359-1369	illustrata	_	_
+21-5	1370-1373	dal	_	_
+21-6	1374-1380	Müller	*	PERmentioned
+21-7	1381-1382	,	_	_
+21-8	1383-1386	ein	_	_
+21-9	1387-1392	etwas	_	_
+21-10	1393-1401	schmales	_	_
+21-11	1402-1407	Blatt	_	_
+21-12	1408-1409	,	_	_
+21-13	1410-1414	aber	_	_
+21-14	1415-1421	schwer	_	_
+21-15	1422-1425	mit	_	_
+21-16	1426-1431	etwas	_	_
+21-17	1432-1435	an-	_	_

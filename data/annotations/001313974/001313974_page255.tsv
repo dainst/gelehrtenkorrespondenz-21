@@ -1,0 +1,109 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=a 491 Helbig an Henzen Siena , 3 .
+1-1	0-1	a	_	_
+1-2	2-5	491	_	_
+1-3	6-12	Helbig	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-22	Henzen	*	PERaddressee
+1-6	23-28	Siena	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-32	3	*[3]	DATEletter[3]
+1-9	33-34	.	*[3]	DATEletter[3]
+
+#Text=August 1875 darbitet , gewiß befriedigt fühlen .
+2-1	35-41	August	*[3]	DATEletter[3]
+2-2	42-46	1875	*[3]	DATEletter[3]
+2-3	47-55	darbitet	_	_
+2-4	56-57	,	_	_
+2-5	58-63	gewiß	_	_
+2-6	64-74	befriedigt	_	_
+2-7	75-81	fühlen	_	_
+2-8	82-83	.	_	_
+
+#Text=Mein hiesiges Stilleben wird bisher nur durch die seccature unterbröchen , welche die hiesigen Gypsarbeiter verursachen , indem sie von mir Geld für die für das Berliner Museum ausgeführten Arbeiten verlangen .
+3-1	84-88	Mein	_	_
+3-2	89-97	hiesiges	_	_
+3-3	98-107	Stilleben	_	_
+3-4	108-112	wird	_	_
+3-5	113-119	bisher	_	_
+3-6	120-123	nur	_	_
+3-7	124-129	durch	_	_
+3-8	130-133	die	_	_
+3-9	134-143	seccature	_	_
+3-10	144-156	unterbröchen	_	_
+3-11	157-158	,	_	_
+3-12	159-165	welche	_	_
+3-13	166-169	die	_	_
+3-14	170-178	hiesigen	_	_
+3-15	179-191	Gypsarbeiter	_	_
+3-16	192-203	verursachen	_	_
+3-17	204-205	,	_	_
+3-18	206-211	indem	_	_
+3-19	212-215	sie	_	_
+3-20	216-219	von	_	_
+3-21	220-223	mir	_	_
+3-22	224-228	Geld	_	_
+3-23	229-232	für	_	_
+3-24	233-236	die	_	_
+3-25	237-240	für	_	_
+3-26	241-244	das	_	_
+3-27	245-253	Berliner	*[4]	ORGmentioned[4]
+3-28	254-260	Museum	*[4]	ORGmentioned[4]
+3-29	261-273	ausgeführten	_	_
+3-30	274-282	Arbeiten	_	_
+3-31	283-292	verlangen	_	_
+3-32	293-294	.	_	_
+
+#Text=Ich habe darüber ah Lepsius und an Curtius geschrieben - aber keine Antwort .
+4-1	295-298	Ich	_	_
+4-2	299-303	habe	_	_
+4-3	304-311	darüber	_	_
+4-4	312-314	ah	_	_
+4-5	315-322	Lepsius	*	PERmentioned
+4-6	323-326	und	_	_
+4-7	327-329	an	_	_
+4-8	330-337	Curtius	*	PERmentioned
+4-9	338-349	geschrieben	_	_
+4-10	350-351	-	_	_
+4-11	352-356	aber	_	_
+4-12	357-362	keine	_	_
+4-13	363-370	Antwort	_	_
+4-14	371-372	.	_	_
+
+#Text=\| Meine Frau wird an die arme Frau Fronanz schreiben - doch wohl unter der Berliner Adresse ?
+5-1	373-374	\|	_	_
+5-2	375-380	Meine	_	_
+5-3	381-385	Frau	_	_
+5-4	386-390	wird	_	_
+5-5	391-393	an	_	_
+5-6	394-397	die	_	_
+5-7	398-402	arme	_	_
+5-8	403-407	Frau	_	_
+5-9	408-415	Fronanz	*	PERmentioned
+5-10	416-425	schreiben	_	_
+5-11	426-427	-	_	_
+5-12	428-432	doch	_	_
+5-13	433-437	wohl	_	_
+5-14	438-443	unter	_	_
+5-15	444-447	der	_	_
+5-16	448-456	Berliner	*	PLACEmentioned
+5-17	457-464	Adresse	_	_
+5-18	465-466	?	_	_
+
+#Text=Stia bene !
+6-1	467-471	Stia	_	_
+6-2	472-476	bene	_	_
+6-3	477-478	!	_	_
+
+#Text=Tanti saluti !
+7-1	479-484	Tanti	_	_
+7-2	485-491	saluti	_	_
+7-3	492-493	!	_	_
+
+#Text=Ihr ergebener Helbig
+8-1	494-497	Ihr	_	_
+8-2	498-507	ergebener	_	_
+8-3	508-514	Helbig	*	PERauthor

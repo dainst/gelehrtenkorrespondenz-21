@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Breslau , 28 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	28	*[4]	DATEletter[4]
+1-7	30-31	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 recht \; er war im Begriff ähnliche Desiderien durch Ambrosch an einen Dr .
+2-1	32-39	Oktober	*[4]	DATEletter[4]
+2-2	40-44	1834	*[4]	DATEletter[4]
+2-3	45-50	recht	_	_
+2-4	51-52	\;	_	_
+2-5	53-55	er	_	_
+2-6	56-59	war	_	_
+2-7	60-62	im	_	_
+2-8	63-70	Begriff	_	_
+2-9	71-79	ähnliche	_	_
+2-10	80-90	Desiderien	_	_
+2-11	91-96	durch	_	_
+2-12	97-105	Ambrosch	*	PERmentioned
+2-13	106-108	an	_	_
+2-14	109-114	einen	_	_
+2-15	115-117	Dr	*[6]	PERmentioned[6]
+2-16	118-119	.	*[6]	PERmentioned[6]
+
+#Text=Jünger zu wenden , und addressirt nun um so sicherer alles an Sie .
+3-1	120-126	Jünger	*[6]	PERmentioned[6]
+3-2	127-129	zu	_	_
+3-3	130-136	wenden	_	_
+3-4	137-138	,	_	_
+3-5	139-142	und	_	_
+3-6	143-153	addressirt	_	_
+3-7	154-157	nun	_	_
+3-8	158-160	um	_	_
+3-9	161-163	so	_	_
+3-10	164-172	sicherer	_	_
+3-11	173-178	alles	_	_
+3-12	179-181	an	_	_
+3-13	182-185	Sie	_	_
+3-14	186-187	.	_	_
+
+#Text=Lajars Vasenbearbeitung wird fürs Institut bei > Seite gelegt \; er hat 24 Vasenformen und Facsimiles , weil Color \\ !
+4-1	188-194	Lajars	*[18]	PERmentioned[18]
+4-2	195-211	Vasenbearbeitung	*[18]	PERmentioned[18]
+4-3	212-216	wird	_	_
+4-4	217-221	fürs	_	_
+4-5	222-230	Institut	*	ORGmentioned
+4-6	231-234	bei	_	_
+4-7	235-236	>	_	_
+4-8	237-242	Seite	_	_
+4-9	243-249	gelegt	_	_
+4-10	250-251	\;	_	_
+4-11	252-254	er	_	_
+4-12	255-258	hat	_	_
+4-13	259-261	24	_	_
+4-14	262-273	Vasenformen	_	_
+4-15	274-277	und	_	_
+4-16	278-288	Facsimiles	_	_
+4-17	289-290	,	_	_
+4-18	291-295	weil	_	_
+4-19	296-301	Color	_	_
+4-20	302-303	\\	_	_
+4-21	304-305	!	_	_
+
+#Text=- Mein Micali vat . ist erst eben jetzt abgedruckt .
+5-1	306-307	-	_	_
+5-2	308-312	Mein	_	_
+5-3	313-319	Micali	*	PERmentioned
+5-4	320-323	vat	_	_
+5-5	324-325	.	_	_
+5-6	326-329	ist	_	_
+5-7	330-334	erst	_	_
+5-8	335-339	eben	_	_
+5-9	340-345	jetzt	_	_
+5-10	346-356	abgedruckt	_	_
+5-11	357-358	.	_	_
+
+#Text=Tölker läßt am G katalog eifrig - drucken .
+6-1	359-365	Tölker	*	PERmentioned
+6-2	366-370	läßt	_	_
+6-3	371-373	am	_	_
+6-4	374-375	G	_	_
+6-5	376-383	katalog	_	_
+6-6	384-390	eifrig	_	_
+6-7	391-392	-	_	_
+6-8	393-400	drucken	_	_
+6-9	401-402	.	_	_
+
+#Text=Es gibt wol 2 Bände .
+7-1	403-405	Es	_	_
+7-2	406-410	gibt	_	_
+7-3	411-414	wol	_	_
+7-4	415-416	2	_	_
+7-5	417-422	Bände	_	_
+7-6	423-424	.	_	_
+
+#Text=Der Druck ist sehr groß , die Arbeit vermuthlich nicht schlecht , die Konfusion aber gewiß größer die daraus entstehen wird daß kein früher bekanntes Monument mit seinen frühreren Citaten versehen ist .
+8-1	425-428	Der	_	_
+8-2	429-434	Druck	_	_
+8-3	435-438	ist	_	_
+8-4	439-443	sehr	_	_
+8-5	444-448	groß	_	_
+8-6	449-450	,	_	_
+8-7	451-454	die	_	_
+8-8	455-461	Arbeit	_	_
+8-9	462-473	vermuthlich	_	_
+8-10	474-479	nicht	_	_
+8-11	480-488	schlecht	_	_
+8-12	489-490	,	_	_
+8-13	491-494	die	_	_
+8-14	495-504	Konfusion	_	_
+8-15	505-509	aber	_	_
+8-16	510-515	gewiß	_	_
+8-17	516-522	größer	_	_
+8-18	523-526	die	_	_
+8-19	527-533	daraus	_	_
+8-20	534-543	entstehen	_	_
+8-21	544-548	wird	_	_
+8-22	549-552	daß	_	_
+8-23	553-557	kein	_	_
+8-24	558-564	früher	_	_
+8-25	565-574	bekanntes	_	_
+8-26	575-583	Monument	_	_
+8-27	584-587	mit	_	_
+8-28	588-594	seinen	_	_
+8-29	595-604	frühreren	_	_
+8-30	605-612	Citaten	_	_
+8-31	613-621	versehen	_	_
+8-32	622-625	ist	_	_
+8-33	626-627	.	_	_
+
+#Text=St genügt zur Anzeige daß man einen Stein unter dem St schon genau zu suchen habe .
+9-1	628-630	St	_	_
+9-2	631-637	genügt	_	_
+9-3	638-641	zur	_	_
+9-4	642-649	Anzeige	_	_
+9-5	650-653	daß	_	_
+9-6	654-657	man	_	_
+9-7	658-663	einen	_	_
+9-8	664-669	Stein	_	_
+9-9	670-675	unter	_	_
+9-10	676-679	dem	_	_
+9-11	680-682	St	_	_
+9-12	683-688	schon	_	_
+9-13	689-694	genau	_	_
+9-14	695-697	zu	_	_
+9-15	698-704	suchen	_	_
+9-16	705-709	habe	_	_
+9-17	710-711	.	_	_
+
+#Text=- i Die Böckhschen Inschriften soll Finder wirklich übernommen haben .
+10-1	712-713	-	_	_
+10-2	714-715	i	_	_
+10-3	716-719	Die	_	_
+10-4	720-730	Böckhschen	*	PERmentioned
+10-5	731-742	Inschriften	*	MISC
+10-6	743-747	soll	_	_
+10-7	748-754	Finder	*	PERmentioned
+10-8	755-763	wirklich	_	_
+10-9	764-774	übernommen	_	_
+10-10	775-780	haben	_	_
+10-11	781-782	.	_	_
+
+#Text=- Verzeihen Sie diesen mangelhaften Bogen , der meinen heutigen Brief entstellt .
+11-1	783-784	-	_	_
+11-2	785-794	Verzeihen	_	_
+11-3	795-798	Sie	_	_
+11-4	799-805	diesen	_	_
+11-5	806-818	mangelhaften	_	_
+11-6	819-824	Bogen	_	_
+11-7	825-826	,	_	_
+11-8	827-830	der	_	_
+11-9	831-837	meinen	_	_
+11-10	838-846	heutigen	_	_
+11-11	847-852	Brief	_	_
+11-12	853-862	entstellt	_	_
+11-13	863-864	.	_	_
+
+#Text=- Meine Schwester denke ich wieder nach Breslau zu führen \; leider ist ihr Organ zum Vorlesen fast untauglich geworden .
+12-1	865-866	-	_	_
+12-2	867-872	Meine	_	_
+12-3	873-882	Schwester	_	_
+12-4	883-888	denke	_	_
+12-5	889-892	ich	_	_
+12-6	893-899	wieder	_	_
+12-7	900-904	nach	_	_
+12-8	905-912	Breslau	*	PLACEmentioned
+12-9	913-915	zu	_	_
+12-10	916-922	führen	_	_
+12-11	923-924	\;	_	_
+12-12	925-931	leider	_	_
+12-13	932-935	ist	_	_
+12-14	936-939	ihr	_	_
+12-15	940-945	Organ	_	_
+12-16	946-949	zum	_	_
+12-17	950-958	Vorlesen	_	_
+12-18	959-963	fast	_	_
+12-19	964-974	untauglich	_	_
+12-20	975-983	geworden	_	_
+12-21	984-985	.	_	_
+
+#Text=Meine beiden Schwestern werden in solchem Fall heiser , und da ich an Kellermann und T denke , mag ich sie nicht anstrengen .
+13-1	986-991	Meine	_	_
+13-2	992-998	beiden	_	_
+13-3	999-1009	Schwestern	_	_
+13-4	1010-1016	werden	_	_
+13-5	1017-1019	in	_	_
+13-6	1020-1027	solchem	_	_
+13-7	1028-1032	Fall	_	_
+13-8	1033-1039	heiser	_	_
+13-9	1040-1041	,	_	_
+13-10	1042-1045	und	_	_
+13-11	1046-1048	da	_	_
+13-12	1049-1052	ich	_	_
+13-13	1053-1055	an	_	_
+13-14	1056-1066	Kellermann	*	PERmentioned
+13-15	1067-1070	und	_	_
+13-16	1071-1072	T	_	_
+13-17	1073-1078	denke	_	_
+13-18	1079-1080	,	_	_
+13-19	1081-1084	mag	_	_
+13-20	1085-1088	ich	_	_
+13-21	1089-1092	sie	_	_
+13-22	1093-1098	nicht	_	_
+13-23	1099-1109	anstrengen	_	_
+13-24	1110-1111	.	_	_
+
+#Text=Ihnen schickt sie viel Grüße und herzliche Wünsche \; Gerstäckers desgleichen und auch Scho + den ich als Landgerichtsvertreter in Halle aufsuchte .
+14-1	1112-1117	Ihnen	_	_
+14-2	1118-1125	schickt	_	_
+14-3	1126-1129	sie	_	_
+14-4	1130-1134	viel	_	_
+14-5	1135-1140	Grüße	_	_
+14-6	1141-1144	und	_	_
+14-7	1145-1154	herzliche	_	_
+14-8	1155-1162	Wünsche	_	_
+14-9	1163-1164	\;	_	_
+14-10	1165-1176	Gerstäckers	*	PERmentioned
+14-11	1177-1188	desgleichen	_	_
+14-12	1189-1192	und	_	_
+14-13	1193-1197	auch	_	_
+14-14	1198-1202	Scho	*[17]	PERmentioned[17]
+14-15	1203-1204	+	*[17]	PERmentioned[17]
+14-16	1205-1208	den	_	_
+14-17	1209-1212	ich	_	_
+14-18	1213-1216	als	_	_
+14-19	1217-1238	Landgerichtsvertreter	_	_
+14-20	1239-1241	in	_	_
+14-21	1242-1247	Halle	*	PLACEmentioned
+14-22	1248-1257	aufsuchte	_	_
+14-23	1258-1259	.	_	_
+
+#Text=- Ritschl rüstet sich zur welschen Reise fürs nächste Jahr .
+15-1	1260-1261	-	_	_
+15-2	1262-1269	Ritschl	*	PERmentioned
+15-3	1270-1276	rüstet	_	_
+15-4	1277-1281	sich	_	_
+15-5	1282-1285	zur	_	_
+15-6	1286-1294	welschen	_	_
+15-7	1295-1300	Reise	_	_
+15-8	1301-1305	fürs	_	_
+15-9	1306-1313	nächste	_	_
+15-10	1314-1318	Jahr	_	_
+15-11	1319-1320	.	_	_

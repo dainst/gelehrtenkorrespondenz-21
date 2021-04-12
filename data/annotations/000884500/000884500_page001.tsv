@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 2 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	2	*[5]	DATEletter[5]
+1-7	28-29	.	*[5]	DATEletter[5]
+
+#Text=Januar 1838 Dr. Braun g . 15/1 38 Aff .
+2-1	30-36	Januar	*[5]	DATEletter[5]
+2-2	37-41	1838	*[5]	DATEletter[5]
+2-3	42-45	Dr.	_	_
+2-4	46-51	Braun	*	PERaddressee
+2-5	52-53	g	_	_
+2-6	54-55	.	_	_
+2-7	56-60	15/1	*[6]	DATErecieved[6]
+2-8	61-63	38	*[6]	DATErecieved[6]
+2-9	64-67	Aff	_	_
+2-10	68-69	.	_	_
+
+#Text=d . Dir .
+3-1	70-71	d	_	_
+3-2	72-73	.	_	_
+3-3	74-77	Dir	_	_
+3-4	78-79	.	_	_
+
+#Text=XXX r . 16/1 38 Beiliegend lieber Freund ein Brief an Bunsen dem ich noch Einiges , bei Gelegenheit Ihrer Antwort an Brockhaus festzustellende , anheim gebe .
+4-1	80-83	XXX	_	_
+4-2	84-85	r	_	_
+4-3	86-87	.	_	_
+4-4	88-92	16/1	*[7]	DATEanswered[7]
+4-5	93-95	38	*[7]	DATEanswered[7]
+4-6	96-106	Beiliegend	_	_
+4-7	107-113	lieber	_	_
+4-8	114-120	Freund	_	_
+4-9	121-124	ein	_	_
+4-10	125-130	Brief	_	_
+4-11	131-133	an	_	_
+4-12	134-140	Bunsen	*	PERmentioned
+4-13	141-144	dem	_	_
+4-14	145-148	ich	_	_
+4-15	149-153	noch	_	_
+4-16	154-161	Einiges	_	_
+4-17	162-163	,	_	_
+4-18	164-167	bei	_	_
+4-19	168-179	Gelegenheit	_	_
+4-20	180-185	Ihrer	_	_
+4-21	186-193	Antwort	_	_
+4-22	194-196	an	_	_
+4-23	197-206	Brockhaus	*	ORGmentioned
+4-24	207-222	festzustellende	_	_
+4-25	223-224	,	_	_
+4-26	225-231	anheim	_	_
+4-27	232-236	gebe	_	_
+4-28	237-238	.	_	_
+
+#Text=Verkleben Sie ihn gefälligst ehe Sie ihn abgeben .
+5-1	239-248	Verkleben	_	_
+5-2	249-252	Sie	_	_
+5-3	253-256	ihn	_	_
+5-4	257-267	gefälligst	_	_
+5-5	268-271	ehe	_	_
+5-6	272-275	Sie	_	_
+5-7	276-279	ihn	_	_
+5-8	280-287	abgeben	_	_
+5-9	288-289	.	_	_
+
+#Text=Ich wünsche und verhoffe uns ein gutes neues Jahr , um So zuversichtlicher je überfüllter mit Verdrießlichkeiten das so eben abgelegte bis an sein Ende für mich gewesen ist .
+6-1	290-293	Ich	_	_
+6-2	294-301	wünsche	_	_
+6-3	302-305	und	_	_
+6-4	306-314	verhoffe	_	_
+6-5	315-318	uns	_	_
+6-6	319-322	ein	_	_
+6-7	323-328	gutes	_	_
+6-8	329-334	neues	_	_
+6-9	335-339	Jahr	_	_
+6-10	340-341	,	_	_
+6-11	342-344	um	_	_
+6-12	345-347	So	_	_
+6-13	348-364	zuversichtlicher	_	_
+6-14	365-367	je	_	_
+6-15	368-379	überfüllter	_	_
+6-16	380-383	mit	_	_
+6-17	384-402	Verdrießlichkeiten	_	_
+6-18	403-406	das	_	_
+6-19	407-409	so	_	_
+6-20	410-414	eben	_	_
+6-21	415-424	abgelegte	_	_
+6-22	425-428	bis	_	_
+6-23	429-431	an	_	_
+6-24	432-436	sein	_	_
+6-25	437-441	Ende	_	_
+6-26	442-445	für	_	_
+6-27	446-450	mich	_	_
+6-28	451-458	gewesen	_	_
+6-29	459-462	ist	_	_
+6-30	463-464	.	_	_
+
+#Text=So verdrießlich alle Verhandlungen mit hiesigen Collegen , namentlich in Ankaufssachen für mich ausschlagen , so Sehr muß ich doch wünschen daß Sie nur bald an mich abgehn lassen was fertig restaurirt ist .
+7-1	465-467	So	_	_
+7-2	468-480	verdrießlich	_	_
+7-3	481-485	alle	_	_
+7-4	486-499	Verhandlungen	_	_
+7-5	500-503	mit	_	_
+7-6	504-512	hiesigen	_	_
+7-7	513-521	Collegen	_	_
+7-8	522-523	,	_	_
+7-9	524-534	namentlich	_	_
+7-10	535-537	in	_	_
+7-11	538-551	Ankaufssachen	_	_
+7-12	552-555	für	_	_
+7-13	556-560	mich	_	_
+7-14	561-572	ausschlagen	_	_
+7-15	573-574	,	_	_
+7-16	575-577	so	_	_
+7-17	578-582	Sehr	_	_
+7-18	583-586	muß	_	_
+7-19	587-590	ich	_	_
+7-20	591-595	doch	_	_
+7-21	596-604	wünschen	_	_
+7-22	605-608	daß	_	_
+7-23	609-612	Sie	_	_
+7-24	613-616	nur	_	_
+7-25	617-621	bald	_	_
+7-26	622-624	an	_	_
+7-27	625-629	mich	_	_
+7-28	630-636	abgehn	_	_
+7-29	637-643	lassen	_	_
+7-30	644-647	was	_	_
+7-31	648-654	fertig	_	_
+7-32	655-665	restaurirt	_	_
+7-33	666-669	ist	_	_
+7-34	670-671	.	_	_
+
+#Text=Alle meine Rechnungen bleiben bis dahin hier unerledigt \; selbst zum Abschluß der ersten und kleinsten fehlt mir die obscöne Schale vor freier Arbeit dieser Fig . und die FPegasusschale .
+8-1	672-676	Alle	_	_
+8-2	677-682	meine	_	_
+8-3	683-693	Rechnungen	_	_
+8-4	694-701	bleiben	_	_
+8-5	702-705	bis	_	_
+8-6	706-711	dahin	_	_
+8-7	712-716	hier	_	_
+8-8	717-727	unerledigt	_	_
+8-9	728-729	\;	_	_
+8-10	730-736	selbst	_	_
+8-11	737-740	zum	_	_
+8-12	741-749	Abschluß	_	_
+8-13	750-753	der	_	_
+8-14	754-760	ersten	_	_
+8-15	761-764	und	_	_
+8-16	765-774	kleinsten	_	_
+8-17	775-780	fehlt	_	_
+8-18	781-784	mir	_	_
+8-19	785-788	die	_	_
+8-20	789-796	obscöne	_	_
+8-21	797-803	Schale	_	_
+8-22	804-807	vor	_	_
+8-23	808-814	freier	_	_
+8-24	815-821	Arbeit	_	_
+8-25	822-828	dieser	_	_
+8-26	829-832	Fig	_	_
+8-27	833-834	.	_	_
+8-28	835-838	und	_	_
+8-29	839-842	die	_	_
+8-30	843-857	FPegasusschale	*	OBJ
+8-31	858-859	.	_	_
+
+#Text=Demnächst passe ich am meisten auf die o yteser Amphore von Priamostod , die Hierönsschale und sonstige Schalen mit Künstlernamen , die schwarze bärtige Sirene etc .
+9-1	860-869	Demnächst	_	_
+9-2	870-875	passe	_	_
+9-3	876-879	ich	_	_
+9-4	880-882	am	_	_
+9-5	883-890	meisten	_	_
+9-6	891-894	auf	_	_
+9-7	895-898	die	_	_
+9-8	899-900	o	_	_
+9-9	901-907	yteser	_	_
+9-10	908-915	Amphore	*[11]	OBJ[11]
+9-11	916-919	von	*[11]	OBJ[11]
+9-12	920-930	Priamostod	*[11]	OBJ[11]
+9-13	931-932	,	_	_
+9-14	933-936	die	_	_
+9-15	937-950	Hierönsschale	*	OBJ
+9-16	951-954	und	_	_
+9-17	955-963	sonstige	_	_
+9-18	964-971	Schalen	_	_
+9-19	972-975	mit	_	_
+9-20	976-989	Künstlernamen	_	_
+9-21	990-991	,	_	_
+9-22	992-995	die	_	_
+9-23	996-1004	schwarze	*[13]	OBJ[13]
+9-24	1005-1012	bärtige	*[13]	OBJ[13]
+9-25	1013-1019	Sirene	*[13]	OBJ[13]
+9-26	1020-1023	etc	_	_
+9-27	1024-1025	.	_	_
+
+#Text=Fordern Sie aber ohne sonstige Specification nur auf mir unter meiner Addresse hieher zu senden was von Vasen und Bronzeankäufen des vorigen römischen Aufenthalts eben vorhanden ist \; den früheren Besitz oder was
+10-1	1026-1033	Fordern	_	_
+10-2	1034-1037	Sie	_	_
+10-3	1038-1042	aber	_	_
+10-4	1043-1047	ohne	_	_
+10-5	1048-1056	sonstige	_	_
+10-6	1057-1070	Specification	_	_
+10-7	1071-1074	nur	_	_
+10-8	1075-1078	auf	_	_
+10-9	1079-1082	mir	_	_
+10-10	1083-1088	unter	_	_
+10-11	1089-1095	meiner	_	_
+10-12	1096-1104	Addresse	_	_
+10-13	1105-1111	hieher	_	_
+10-14	1112-1114	zu	_	_
+10-15	1115-1121	senden	_	_
+10-16	1122-1125	was	_	_
+10-17	1126-1129	von	_	_
+10-18	1130-1135	Vasen	*	OBJ
+10-19	1136-1139	und	_	_
+10-20	1140-1154	Bronzeankäufen	*	OBJ
+10-21	1155-1158	des	_	_
+10-22	1159-1166	vorigen	_	_
+10-23	1167-1176	römischen	_	_
+10-24	1177-1188	Aufenthalts	_	_
+10-25	1189-1193	eben	_	_
+10-26	1194-1203	vorhanden	_	_
+10-27	1204-1207	ist	_	_
+10-28	1208-1209	\;	_	_
+10-29	1210-1213	den	_	_
+10-30	1214-1222	früheren	_	_
+10-31	1223-1229	Besitz	_	_
+10-32	1230-1234	oder	_	_
+10-33	1235-1238	was	_	_

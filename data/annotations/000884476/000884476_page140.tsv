@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=409 Gerhard an Braun Berlin 26/II/1835 Dr. Braun .
+1-1	0-3	409	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-38	26/II/1835	*	DATEletter
+1-7	39-42	Dr.	_	_
+1-8	43-48	Braun	*	PERaddressee
+1-9	49-50	.	_	_
+
+#Text=Berlin 26 Febr .
+2-1	51-57	Berlin	*	PLACEfrom
+2-2	58-60	26	*[7]	DATEletter[7]
+2-3	61-65	Febr	*[7]	DATEletter[7]
+2-4	66-67	.	*[7]	DATEletter[7]
+
+#Text=35 Nurm Yu T , Teund .
+3-1	68-70	35	*[7]	DATEletter[7]
+3-2	71-75	Nurm	_	_
+3-3	76-78	Yu	_	_
+3-4	79-80	T	_	_
+3-5	81-82	,	_	_
+3-6	83-88	Teund	_	_
+3-7	89-90	.	_	_
+
+#Text=Ihr Paket vom 10 Jan .
+4-1	91-94	Ihr	_	_
+4-2	95-100	Paket	_	_
+4-3	101-104	vom	_	_
+4-4	105-107	10	*[8]	DATEmentioned[8]
+4-5	108-111	Jan	*[8]	DATEmentioned[8]
+4-6	112-113	.	*[8]	DATEmentioned[8]
+
+#Text=ist angekommen \; die Collationen an Ritschl gehen sofort heute ab , dagegen das Paket an Hr .
+5-1	114-117	ist	_	_
+5-2	118-128	angekommen	_	_
+5-3	129-130	\;	_	_
+5-4	131-134	die	_	_
+5-5	135-146	Collationen	_	_
+5-6	147-149	an	_	_
+5-7	150-157	Ritschl	*	PERmentioned
+5-8	158-163	gehen	_	_
+5-9	164-170	sofort	_	_
+5-10	171-176	heute	_	_
+5-11	177-179	ab	_	_
+5-12	180-181	,	_	_
+5-13	182-189	dagegen	_	_
+5-14	190-193	das	_	_
+5-15	194-199	Paket	_	_
+5-16	200-202	an	_	_
+5-17	203-205	Hr	*[9]	PERmentioned[9]
+5-18	206-207	.	*[9]	PERmentioned[9]
+
+#Text=Wetzdorf sogleich abgegangen ist .
+6-1	208-216	Wetzdorf	*[9]	PERmentioned[9]
+6-2	217-225	sogleich	_	_
+6-3	226-236	abgegangen	_	_
+6-4	237-240	ist	_	_
+6-5	241-242	.	_	_
+
+#Text=Letzteres machte Schwierigkeit wegen des vrakieoliuen Siegels \; Mat ähnliche Convolute werden auf der Fost 2 t. Ist es irgend zu rechtfertigen , so wählen Sie in ähnlichen Fällen das Institutssiegel \; so wie , als möglich verkleben Sie Beschlüsse ohne Siegellack .
+7-1	243-252	Letzteres	_	_
+7-2	253-259	machte	_	_
+7-3	260-273	Schwierigkeit	_	_
+7-4	274-279	wegen	_	_
+7-5	280-283	des	_	_
+7-6	284-296	vrakieoliuen	_	_
+7-7	297-304	Siegels	_	_
+7-8	305-306	\;	_	_
+7-9	307-310	Mat	_	_
+7-10	311-319	ähnliche	_	_
+7-11	320-329	Convolute	_	_
+7-12	330-336	werden	_	_
+7-13	337-340	auf	_	_
+7-14	341-344	der	_	_
+7-15	345-349	Fost	_	_
+7-16	350-351	2	_	_
+7-17	352-354	t.	_	_
+7-18	355-358	Ist	_	_
+7-19	359-361	es	_	_
+7-20	362-368	irgend	_	_
+7-21	369-371	zu	_	_
+7-22	372-385	rechtfertigen	_	_
+7-23	386-387	,	_	_
+7-24	388-390	so	_	_
+7-25	391-397	wählen	_	_
+7-26	398-401	Sie	_	_
+7-27	402-404	in	_	_
+7-28	405-414	ähnlichen	_	_
+7-29	415-421	Fällen	_	_
+7-30	422-425	das	_	_
+7-31	426-441	Institutssiegel	_	_
+7-32	442-443	\;	_	_
+7-33	444-446	so	_	_
+7-34	447-450	wie	_	_
+7-35	451-452	,	_	_
+7-36	453-456	als	_	_
+7-37	457-464	möglich	_	_
+7-38	465-474	verkleben	_	_
+7-39	475-478	Sie	_	_
+7-40	479-489	Beschlüsse	_	_
+7-41	490-494	ohne	_	_
+7-42	495-505	Siegellack	_	_
+7-43	506-507	.	_	_
+
+#Text=Uebrigens habe ich , da das Institut nur den uralten Bull.bogen und 2 Probedrücke bekam , von den 55 sgr Porto die Hälfte an Ritschl berechnet .
+8-1	508-517	Uebrigens	_	_
+8-2	518-522	habe	_	_
+8-3	523-526	ich	_	_
+8-4	527-528	,	_	_
+8-5	529-531	da	_	_
+8-6	532-535	das	_	_
+8-7	536-544	Institut	*	ORGmentioned
+8-8	545-548	nur	_	_
+8-9	549-552	den	_	_
+8-10	553-560	uralten	_	_
+8-11	561-571	Bull.bogen	_	_
+8-12	572-575	und	_	_
+8-13	576-577	2	_	_
+8-14	578-589	Probedrücke	_	_
+8-15	590-595	bekam	_	_
+8-16	596-597	,	_	_
+8-17	598-601	von	_	_
+8-18	602-605	den	_	_
+8-19	606-608	55	_	_
+8-20	609-612	sgr	_	_
+8-21	613-618	Porto	_	_
+8-22	619-622	die	_	_
+8-23	623-629	Hälfte	_	_
+8-24	630-632	an	_	_
+8-25	633-640	Ritschl	*	PERmentioned
+8-26	641-650	berechnet	_	_
+8-27	651-652	.	_	_
+
+#Text=Meine Vorlesungen gehen besucht vorwärts \; über 300 Billets sind an Herren und Damen vertheilt .
+9-1	653-658	Meine	_	_
+9-2	659-670	Vorlesungen	_	_
+9-3	671-676	gehen	_	_
+9-4	677-684	besucht	_	_
+9-5	685-693	vorwärts	_	_
+9-6	694-695	\;	_	_
+9-7	696-700	über	_	_
+9-8	701-704	300	_	_
+9-9	705-712	Billets	_	_
+9-10	713-717	sind	_	_
+9-11	718-720	an	_	_
+9-12	721-727	Herren	_	_
+9-13	728-731	und	_	_
+9-14	732-737	Damen	_	_
+9-15	738-747	vertheilt	_	_
+9-16	748-749	.	_	_
+
+#Text=Ich lese ela K , » sche Ankauf mich im leeren Raum der Antike , da der Ye Kuppe ntich Comer aus dem Saal des n Betrtebs vertrieben .
+10-1	750-753	Ich	_	_
+10-2	754-758	lese	_	_
+10-3	759-762	ela	_	_
+10-4	763-764	K	_	_
+10-5	765-766	,	_	_
+10-6	767-768	»	_	_
+10-7	769-773	sche	_	_
+10-8	774-780	Ankauf	_	_
+10-9	781-785	mich	_	_
+10-10	786-788	im	_	_
+10-11	789-795	leeren	_	_
+10-12	796-800	Raum	_	_
+10-13	801-804	der	_	_
+10-14	805-811	Antike	_	_
+10-15	812-813	,	_	_
+10-16	814-816	da	_	_
+10-17	817-820	der	_	_
+10-18	821-823	Ye	_	_
+10-19	824-829	Kuppe	_	_
+10-20	830-835	ntich	_	_
+10-21	836-841	Comer	_	_
+10-22	842-845	aus	_	_
+10-23	846-849	dem	_	_
+10-24	850-854	Saal	_	_
+10-25	855-858	des	_	_
+10-26	859-860	n	_	_
+10-27	861-869	Betrtebs	_	_
+10-28	870-880	vertrieben	_	_
+10-29	881-882	.	_	_
+
+#Text=Es geht mir mitunter recht wohl , dazwischen stellte sich neulich wieder einmal ein Fieber ein , ab und zu unverhältnißler Abspannung rot völligem Zurückziehens aus allef ATn teauben Gesellschaften und stetiger Diät .
+11-1	883-885	Es	_	_
+11-2	886-890	geht	_	_
+11-3	891-894	mir	_	_
+11-4	895-903	mitunter	_	_
+11-5	904-909	recht	_	_
+11-6	910-914	wohl	_	_
+11-7	915-916	,	_	_
+11-8	917-927	dazwischen	_	_
+11-9	928-935	stellte	_	_
+11-10	936-940	sich	_	_
+11-11	941-948	neulich	_	_
+11-12	949-955	wieder	_	_
+11-13	956-962	einmal	_	_
+11-14	963-966	ein	_	_
+11-15	967-973	Fieber	_	_
+11-16	974-977	ein	_	_
+11-17	978-979	,	_	_
+11-18	980-982	ab	_	_
+11-19	983-986	und	_	_
+11-20	987-989	zu	_	_
+11-21	990-1005	unverhältnißler	_	_
+11-22	1006-1016	Abspannung	_	_
+11-23	1017-1020	rot	_	_
+11-24	1021-1029	völligem	_	_
+11-25	1030-1043	Zurückziehens	_	_
+11-26	1044-1047	aus	_	_
+11-27	1048-1053	allef	_	_
+11-28	1054-1057	ATn	_	_
+11-29	1058-1065	teauben	_	_
+11-30	1066-1080	Gesellschaften	_	_
+11-31	1081-1084	und	_	_
+11-32	1085-1093	stetiger	_	_
+11-33	1094-1098	Diät	_	_
+11-34	1099-1100	.	_	_
+
+#Text=alırn eos Eiekters Werkelein perhorrescirt der hiesige Buch-
+12-1	1101-1106	alırn	_	_
+12-2	1107-1110	eos	_	_
+12-3	1111-1119	Eiekters	_	_
+12-4	1120-1129	Werkelein	_	_
+12-5	1130-1143	perhorrescirt	_	_
+12-6	1144-1147	der	_	_
+12-7	1148-1155	hiesige	_	_
+12-8	1156-1161	Buch-	_	_

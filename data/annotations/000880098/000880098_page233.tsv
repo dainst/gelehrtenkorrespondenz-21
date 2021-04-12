@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=908 Braun an Gerhard Rom , 30. Juni 1835 frankiren braucht .
+1-1	0-3	908	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[1]	DATEletter[1]
+1-8	31-35	Juni	*[1]	DATEletter[1]
+1-9	36-40	1835	*[1]	DATEletter[1]
+1-10	41-50	frankiren	_	_
+1-11	51-58	braucht	_	_
+1-12	59-60	.	_	_
+
+#Text=Wollen Sie einen Versuch erläuben ?
+2-1	61-67	Wollen	_	_
+2-2	68-71	Sie	_	_
+2-3	72-77	einen	_	_
+2-4	78-85	Versuch	_	_
+2-5	86-94	erläuben	_	_
+2-6	95-96	?	_	_
+
+#Text=- Jetzt ‘ \; verlangen Sie eine Feststellung der Bogen diesjährigen Kupferplatten : ich glaubte nach so viel Hin- und Herreden , die Zahl derselben bleiben auf 12 beschränkt .
+3-1	97-98	-	_	_
+3-2	99-104	Jetzt	_	_
+3-3	105-106	‘	_	_
+3-4	107-108	\;	_	_
+3-5	109-118	verlangen	_	_
+3-6	119-122	Sie	_	_
+3-7	123-127	eine	_	_
+3-8	128-140	Feststellung	_	_
+3-9	141-144	der	_	_
+3-10	145-150	Bogen	_	_
+3-11	151-163	diesjährigen	_	_
+3-12	164-177	Kupferplatten	_	_
+3-13	178-179	:	_	_
+3-14	180-183	ich	_	_
+3-15	184-191	glaubte	_	_
+3-16	192-196	nach	_	_
+3-17	197-199	so	_	_
+3-18	200-204	viel	_	_
+3-19	205-209	Hin-	_	_
+3-20	210-213	und	_	_
+3-21	214-222	Herreden	_	_
+3-22	223-224	,	_	_
+3-23	225-228	die	_	_
+3-24	229-233	Zahl	_	_
+3-25	234-243	derselben	_	_
+3-26	244-251	bleiben	_	_
+3-27	252-255	auf	_	_
+3-28	256-258	12	_	_
+3-29	259-269	beschränkt	_	_
+3-30	270-271	.	_	_
+
+#Text=Ich kann noch die Aetheravase und eine andere schöne Durandsche Amasisvase anbieten .
+4-1	272-275	Ich	_	_
+4-2	276-280	kann	_	_
+4-3	281-285	noch	_	_
+4-4	286-289	die	_	_
+4-5	290-301	Aetheravase	*	OBJ
+4-6	302-305	und	_	_
+4-7	306-310	eine	_	_
+4-8	311-317	andere	_	_
+4-9	318-324	schöne	_	_
+4-10	325-335	Durandsche	*[2]|*[3]	OBJ[2]|PERmentioned[3]
+4-11	336-346	Amasisvase	*[2]	OBJ[2]
+4-12	347-355	anbieten	_	_
+4-13	356-357	.	_	_
+
+#Text=Wann sollen dann aber die drei ausgegeben werden \; 9 zusammen oder drei nachträglich .
+5-1	358-362	Wann	_	_
+5-2	363-369	sollen	_	_
+5-3	370-374	dann	_	_
+5-4	375-379	aber	_	_
+5-5	380-383	die	_	_
+5-6	384-388	drei	_	_
+5-7	389-399	ausgegeben	_	_
+5-8	400-406	werden	_	_
+5-9	407-408	\;	_	_
+5-10	409-410	9	_	_
+5-11	411-419	zusammen	_	_
+5-12	420-424	oder	_	_
+5-13	425-429	drei	_	_
+5-14	430-442	nachträglich	_	_
+5-15	443-444	.	_	_
+
+#Text=- Ich habe bereits angefangen drucken zu lassen , habe aber kein Geld .
+6-1	445-446	-	_	_
+6-2	447-450	Ich	_	_
+6-3	451-455	habe	_	_
+6-4	456-463	bereits	_	_
+6-5	464-474	angefangen	_	_
+6-6	475-482	drucken	_	_
+6-7	483-485	zu	_	_
+6-8	486-492	lassen	_	_
+6-9	493-494	,	_	_
+6-10	495-499	habe	_	_
+6-11	500-504	aber	_	_
+6-12	505-509	kein	_	_
+6-13	510-514	Geld	_	_
+6-14	515-516	.	_	_
+
+#Text=Ich muß nothwendig von Ihnen eine Anweisung erwarten : Bullett.Druck , Papier und Monumentendruck verlangen anständige Sümmchen .
+7-1	517-520	Ich	_	_
+7-2	521-524	muß	_	_
+7-3	525-535	nothwendig	_	_
+7-4	536-539	von	_	_
+7-5	540-545	Ihnen	_	_
+7-6	546-550	eine	_	_
+7-7	551-560	Anweisung	_	_
+7-8	561-569	erwarten	_	_
+7-9	570-571	:	_	_
+7-10	572-585	Bullett.Druck	_	_
+7-11	586-587	,	_	_
+7-12	588-594	Papier	_	_
+7-13	595-598	und	_	_
+7-14	599-614	Monumentendruck	_	_
+7-15	615-624	verlangen	_	_
+7-16	625-635	anständige	_	_
+7-17	636-644	Sümmchen	_	_
+7-18	645-646	.	_	_
+
+#Text=Ich lege den Rechnungsauszug von Volke mit dem Guthaben an Bunsen bei .
+8-1	647-650	Ich	_	_
+8-2	651-655	lege	_	_
+8-3	656-659	den	_	_
+8-4	660-675	Rechnungsauszug	_	_
+8-5	676-679	von	_	_
+8-6	680-685	Volke	_	_
+8-7	686-689	mit	_	_
+8-8	690-693	dem	_	_
+8-9	694-702	Guthaben	_	_
+8-10	703-705	an	_	_
+8-11	706-712	Bunsen	*	PERmentioned
+8-12	713-716	bei	_	_
+8-13	717-718	.	_	_
+
+#Text=B. hat sich „ .. schriftlich zu der Schuld von S. 3842 bekannt , da ich den Bougnolschen Niebuphsverkauft und mit dem 2ten Theil von Bunsens Exemplaren ergänzt habe .
+9-1	719-721	B.	_	_
+9-2	722-725	hat	_	_
+9-3	726-730	sich	_	_
+9-4	731-732	„	_	_
+9-5	733-735	..	_	_
+9-6	736-747	schriftlich	_	_
+9-7	748-750	zu	_	_
+9-8	751-754	der	_	_
+9-9	755-761	Schuld	_	_
+9-10	762-765	von	_	_
+9-11	766-768	S.	_	_
+9-12	769-773	3842	_	_
+9-13	774-781	bekannt	_	_
+9-14	782-783	,	_	_
+9-15	784-786	da	_	_
+9-16	787-790	ich	_	_
+9-17	791-794	den	_	_
+9-18	795-807	Bougnolschen	*	PERmentioned
+9-19	808-824	Niebuphsverkauft	_	_
+9-20	825-828	und	_	_
+9-21	829-832	mit	_	_
+9-22	833-836	dem	_	_
+9-23	837-841	2ten	_	_
+9-24	842-847	Theil	_	_
+9-25	848-851	von	_	_
+9-26	852-859	Bunsens	_	_
+9-27	860-870	Exemplaren	*	PERmentioned
+9-28	871-878	ergänzt	_	_
+9-29	879-883	habe	_	_
+9-30	884-885	.	_	_
+
+#Text=Letzteren schuldet ihm das Institut .
+10-1	886-895	Letzteren	_	_
+10-2	896-904	schuldet	_	_
+10-3	905-908	ihm	_	_
+10-4	909-912	das	_	_
+10-5	913-921	Institut	*	ORGmentioned
+10-6	922-923	.	_	_
+
+#Text=- Ich sende dieses Document an Sie , damit Sie es gefälligst in Ordnung bringen mögen , indem ich von der Sache zu wenig weiß um mich ihrer Abfertigung unteräehen zu können .
+11-1	924-925	-	_	_
+11-2	926-929	Ich	_	_
+11-3	930-935	sende	_	_
+11-4	936-942	dieses	_	_
+11-5	943-951	Document	_	_
+11-6	952-954	an	_	_
+11-7	955-958	Sie	_	_
+11-8	959-960	,	_	_
+11-9	961-966	damit	_	_
+11-10	967-970	Sie	_	_
+11-11	971-973	es	_	_
+11-12	974-984	gefälligst	_	_
+11-13	985-987	in	_	_
+11-14	988-995	Ordnung	_	_
+11-15	996-1003	bringen	_	_
+11-16	1004-1009	mögen	_	_
+11-17	1010-1011	,	_	_
+11-18	1012-1017	indem	_	_
+11-19	1018-1021	ich	_	_
+11-20	1022-1025	von	_	_
+11-21	1026-1029	der	_	_
+11-22	1030-1035	Sache	_	_
+11-23	1036-1038	zu	_	_
+11-24	1039-1044	wenig	_	_
+11-25	1045-1049	weiß	_	_
+11-26	1050-1052	um	_	_
+11-27	1053-1057	mich	_	_
+11-28	1058-1063	ihrer	_	_
+11-29	1064-1075	Abfertigung	_	_
+11-30	1076-1086	unteräehen	_	_
+11-31	1087-1089	zu	_	_
+11-32	1090-1096	können	_	_
+11-33	1097-1098	.	_	_
+
+#Text=Das Zaccariasche Inschriftenbuch war ja der letzten Sendung beigeschlossen .
+12-1	1099-1102	Das	_	_
+12-2	1103-1115	Zaccariasche	*	PERmentioned
+12-3	1116-1131	Inschriftenbuch	*	LIT
+12-4	1132-1135	war	_	_
+12-5	1136-1138	ja	_	_
+12-6	1139-1142	der	_	_
+12-7	1143-1150	letzten	_	_
+12-8	1151-1158	Sendung	_	_
+12-9	1159-1173	beigeschlossen	_	_
+12-10	1174-1175	.	_	_
+
+#Text=Haben Sie es nicht gefunden ?
+13-1	1176-1181	Haben	_	_
+13-2	1182-1185	Sie	_	_
+13-3	1186-1188	es	_	_
+13-4	1189-1194	nicht	_	_
+13-5	1195-1203	gefunden	_	_
+13-6	1204-1205	?	_	_
+
+#Text=Die Fortsetzung des Nus .
+14-1	1206-1209	Die	_	_
+14-2	1210-1221	Fortsetzung	_	_
+14-3	1222-1225	des	_	_
+14-4	1226-1229	Nus	*[4]	ORGmentioned[4]
+14-5	1230-1231	.	*[4]	ORGmentioned[4]
+
+#Text=Capitol .
+15-1	1232-1239	Capitol	*[4]	ORGmentioned[4]
+15-2	1240-1241	.	*[4]	ORGmentioned[4]
+
+#Text=beabsichtige ich immer , finde aber Schwierigkeiten sie zu bewerkstelligen .
+16-1	1242-1254	beabsichtige	_	_
+16-2	1255-1258	ich	_	_
+16-3	1259-1264	immer	_	_
+16-4	1265-1266	,	_	_
+16-5	1267-1272	finde	_	_
+16-6	1273-1277	aber	_	_
+16-7	1278-1293	Schwierigkeiten	_	_
+16-8	1294-1297	sie	_	_
+16-9	1298-1300	zu	_	_
+16-10	1301-1316	bewerkstelligen	_	_
+16-11	1317-1318	.	_	_

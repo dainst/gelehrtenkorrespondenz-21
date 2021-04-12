@@ -1,0 +1,112 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=MA .
+1-1	0-2	MA	_	_
+1-2	3-4	.	_	_
+
+#Text=3671 Lepsius an Henzen Berlin , 7. Juni 1877 ist es mit der Casa Lelli , in der man vielleicht nur eine Wohnung zu kündigen braucht ?
+2-1	5-9	3671	_	_
+2-2	10-17	Lepsius	*	PERauthor
+2-3	18-20	an	_	_
+2-4	21-27	Henzen	*	PERaddressee
+2-5	28-34	Berlin	*	PLACEfrom
+2-6	35-36	,	_	_
+2-7	37-39	7.	*[1]	DATEletter[1]
+2-8	40-44	Juni	*[1]	DATEletter[1]
+2-9	45-49	1877	*[1]	DATEletter[1]
+2-10	50-53	ist	_	_
+2-11	54-56	es	_	_
+2-12	57-60	mit	_	_
+2-13	61-64	der	_	_
+2-14	65-69	Casa	*[2]	PLACEmentioned[2]
+2-15	70-75	Lelli	*[2]	PLACEmentioned[2]
+2-16	76-77	,	_	_
+2-17	78-80	in	_	_
+2-18	81-84	der	_	_
+2-19	85-88	man	_	_
+2-20	89-99	vielleicht	_	_
+2-21	100-103	nur	_	_
+2-22	104-108	eine	_	_
+2-23	109-116	Wohnung	_	_
+2-24	117-119	zu	_	_
+2-25	120-128	kündigen	_	_
+2-26	129-136	braucht	_	_
+2-27	137-138	?	_	_
+
+#Text=Wir haben nicht geglaubt daß die Sache hier Schwierigkeiten machen würde .
+3-1	139-142	Wir	_	_
+3-2	143-148	haben	_	_
+3-3	149-154	nicht	_	_
+3-4	155-163	geglaubt	_	_
+3-5	164-167	daß	_	_
+3-6	168-171	die	_	_
+3-7	172-177	Sache	_	_
+3-8	178-182	hier	_	_
+3-9	183-198	Schwierigkeiten	_	_
+3-10	199-205	machen	_	_
+3-11	206-211	würde	_	_
+3-12	212-213	.	_	_
+
+#Text=Und kann den Klügmann 's Wohnung nicht in dem Theile des Hospitals sein , der nicht ausgebaut wird ?
+4-1	214-217	Und	_	_
+4-2	218-222	kann	_	_
+4-3	223-226	den	_	_
+4-4	227-235	Klügmann	*[4]	PERmentioned[4]
+4-5	236-238	's	*[4]	PERmentioned[4]
+4-6	239-246	Wohnung	_	_
+4-7	247-252	nicht	_	_
+4-8	253-255	in	_	_
+4-9	256-259	dem	_	_
+4-10	260-266	Theile	_	_
+4-11	267-270	des	_	_
+4-12	271-280	Hospitals	_	_
+4-13	281-285	sein	_	_
+4-14	286-287	,	_	_
+4-15	288-291	der	_	_
+4-16	292-297	nicht	_	_
+4-17	298-307	ausgebaut	_	_
+4-18	308-312	wird	_	_
+4-19	313-314	?	_	_
+
+#Text=Vielleicht hilft auch schon eine neue Reklamation des Botschafters , wenn irgendwie die Form gerettet werden kann .
+5-1	315-325	Vielleicht	_	_
+5-2	326-331	hilft	_	_
+5-3	332-336	auch	_	_
+5-4	337-342	schon	_	_
+5-5	343-347	eine	_	_
+5-6	348-352	neue	_	_
+5-7	353-364	Reklamation	_	_
+5-8	365-368	des	_	_
+5-9	369-381	Botschafters	_	_
+5-10	382-383	,	_	_
+5-11	384-388	wenn	_	_
+5-12	389-398	irgendwie	_	_
+5-13	399-402	die	_	_
+5-14	403-407	Form	_	_
+5-15	408-416	gerettet	_	_
+5-16	417-423	werden	_	_
+5-17	424-428	kann	_	_
+5-18	429-430	.	_	_
+
+#Text=Schreiben Sie mir Vorschläge , die wir dann hier gern unterstützen werden .
+6-1	431-440	Schreiben	_	_
+6-2	441-444	Sie	_	_
+6-3	445-448	mir	_	_
+6-4	449-459	Vorschläge	_	_
+6-5	460-461	,	_	_
+6-6	462-465	die	_	_
+6-7	466-469	wir	_	_
+6-8	470-474	dann	_	_
+6-9	475-479	hier	_	_
+6-10	480-484	gern	_	_
+6-11	485-497	unterstützen	_	_
+6-12	498-504	werden	_	_
+6-13	505-506	.	_	_
+
+#Text=Ihr ergebenster R Lepsius
+7-1	507-510	Ihr	_	_
+7-2	511-522	ergebenster	_	_
+7-3	523-524	R	*[3]	PERauthor[3]
+7-4	525-532	Lepsius	*[3]	PERauthor[3]

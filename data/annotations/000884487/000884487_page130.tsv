@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun München , 718 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	München	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	718	*[4]	DATEletter[4]
+1-7	31-32	.	*[4]	DATEletter[4]
+
+#Text=August 1836 Dr. Braun Dir .
+2-1	33-39	August	*[4]	DATEletter[4]
+2-2	40-44	1836	*[4]	DATEletter[4]
+2-3	45-48	Dr.	_	_
+2-4	49-54	Braun	*	PERaddressee
+2-5	55-58	Dir	_	_
+2-6	59-60	.	_	_
+
+#Text=Rom .
+3-1	61-64	Rom	*	PLACEto
+3-2	65-66	.	_	_
+
+#Text=CCILXXXV 27/8 36 München 8 Aug . 36 .
+4-1	67-75	CCILXXXV	_	_
+4-2	76-80	27/8	*[7]	DATErecieved[7]
+4-3	81-83	36	*[7]	DATErecieved[7]
+4-4	84-91	München	*	PLACEfrom
+4-5	92-93	8	*[9]	DATEletter[9]
+4-6	94-97	Aug	*[9]	DATEletter[9]
+4-7	98-99	.	*[9]	DATEletter[9]
+4-8	100-102	36	*[9]	DATEletter[9]
+4-9	103-104	.	_	_
+
+#Text=Mein theurer Freund .
+5-1	105-109	Mein	_	_
+5-2	110-117	theurer	_	_
+5-3	118-124	Freund	_	_
+5-4	125-126	.	_	_
+
+#Text=Der verdrießlichen Stimmung meines vorigen Briefes helfe ich zumindest durch die Notiz nach , daß Panofka die von Ihnen eingesandten und nach meiner Abreise in Berlin angelangten Abdrücke der großen Amazonenvase sehr löblich findet .
+6-1	127-130	Der	_	_
+6-2	131-145	verdrießlichen	_	_
+6-3	146-154	Stimmung	_	_
+6-4	155-161	meines	_	_
+6-5	162-169	vorigen	_	_
+6-6	170-177	Briefes	_	_
+6-7	178-183	helfe	_	_
+6-8	184-187	ich	_	_
+6-9	188-197	zumindest	_	_
+6-10	198-203	durch	_	_
+6-11	204-207	die	_	_
+6-12	208-213	Notiz	_	_
+6-13	214-218	nach	_	_
+6-14	219-220	,	_	_
+6-15	221-224	daß	_	_
+6-16	225-232	Panofka	*	PERmentioned
+6-17	233-236	die	_	_
+6-18	237-240	von	_	_
+6-19	241-246	Ihnen	_	_
+6-20	247-259	eingesandten	_	_
+6-21	260-263	und	_	_
+6-22	264-268	nach	_	_
+6-23	269-275	meiner	_	_
+6-24	276-283	Abreise	_	_
+6-25	284-286	in	_	_
+6-26	287-293	Berlin	*	PLACEmentioned
+6-27	294-305	angelangten	_	_
+6-28	306-314	Abdrücke	_	_
+6-29	315-318	der	_	_
+6-30	319-325	großen	_	_
+6-31	326-338	Amazonenvase	*	OBJ
+6-32	339-343	sehr	_	_
+6-33	344-351	löblich	_	_
+6-34	352-358	findet	_	_
+6-35	359-360	.	_	_
+
+#Text=Mit vielem Widerstreben habe ich mich darin ergeben über Marseille zu reisen \; es ist aber gut seinen Willen dann und wann zu beugen , und im gegenwärtigen Fall ist es mir lieb daß mein dehaliger Entschluß Ihrem Wunsche mich bald in Rom zu sehen sich fügt .
+7-1	361-364	Mit	_	_
+7-2	365-371	vielem	_	_
+7-3	372-384	Widerstreben	_	_
+7-4	385-389	habe	_	_
+7-5	390-393	ich	_	_
+7-6	394-398	mich	_	_
+7-7	399-404	darin	_	_
+7-8	405-412	ergeben	_	_
+7-9	413-417	über	_	_
+7-10	418-427	Marseille	*	PLACEmentioned
+7-11	428-430	zu	_	_
+7-12	431-437	reisen	_	_
+7-13	438-439	\;	_	_
+7-14	440-442	es	_	_
+7-15	443-446	ist	_	_
+7-16	447-451	aber	_	_
+7-17	452-455	gut	_	_
+7-18	456-462	seinen	_	_
+7-19	463-469	Willen	_	_
+7-20	470-474	dann	_	_
+7-21	475-478	und	_	_
+7-22	479-483	wann	_	_
+7-23	484-486	zu	_	_
+7-24	487-493	beugen	_	_
+7-25	494-495	,	_	_
+7-26	496-499	und	_	_
+7-27	500-502	im	_	_
+7-28	503-516	gegenwärtigen	_	_
+7-29	517-521	Fall	_	_
+7-30	522-525	ist	_	_
+7-31	526-528	es	_	_
+7-32	529-532	mir	_	_
+7-33	533-537	lieb	_	_
+7-34	538-541	daß	_	_
+7-35	542-546	mein	_	_
+7-36	547-556	dehaliger	_	_
+7-37	557-566	Entschluß	_	_
+7-38	567-572	Ihrem	_	_
+7-39	573-580	Wunsche	_	_
+7-40	581-585	mich	_	_
+7-41	586-590	bald	_	_
+7-42	591-593	in	_	_
+7-43	594-597	Rom	*	PLACEmentioned
+7-44	598-600	zu	_	_
+7-45	601-606	sehen	_	_
+7-46	607-611	sich	_	_
+7-47	612-616	fügt	_	_
+7-48	617-618	.	_	_
+
+#Text=Nicht unmöglich daß ich schon am 5.ten September von Marseille abfahre , sonst hoffentlich am 15.ten .
+8-1	619-624	Nicht	_	_
+8-2	625-634	unmöglich	_	_
+8-3	635-638	daß	_	_
+8-4	639-642	ich	_	_
+8-5	643-648	schon	_	_
+8-6	649-651	am	_	_
+8-7	652-657	5.ten	*[15]	DATEmentioned[15]
+8-8	658-667	September	*[15]	DATEmentioned[15]
+8-9	668-671	von	_	_
+8-10	672-681	Marseille	*	PLACEmentioned
+8-11	682-689	abfahre	_	_
+8-12	690-691	,	_	_
+8-13	692-697	sonst	_	_
+8-14	698-709	hoffentlich	_	_
+8-15	710-712	am	_	_
+8-16	713-719	15.ten	*	DATEmentioned
+8-17	720-721	.	_	_
+
+#Text=Ich empfehle daher dringend die Beilage , in der ich Bunsen um Hülfe und willigerweise Briefe nach Livorno bitte .
+9-1	722-725	Ich	_	_
+9-2	726-734	empfehle	_	_
+9-3	735-740	daher	_	_
+9-4	741-749	dringend	_	_
+9-5	750-753	die	_	_
+9-6	754-761	Beilage	_	_
+9-7	762-763	,	_	_
+9-8	764-766	in	_	_
+9-9	767-770	der	_	_
+9-10	771-774	ich	_	_
+9-11	775-781	Bunsen	*	PERmentioned
+9-12	782-784	um	_	_
+9-13	785-790	Hülfe	_	_
+9-14	791-794	und	_	_
+9-15	795-808	willigerweise	_	_
+9-16	809-815	Briefe	_	_
+9-17	816-820	nach	_	_
+9-18	821-828	Livorno	*	PLACEmentioned
+9-19	829-834	bitte	_	_
+9-20	835-836	.	_	_
+
+#Text=Hättet Ihr lieben Herren von Einladungen nach Rom früher ein wenig mehr und sichere Notizen darüber beigefügt , wie man da hinkomme , so hättet ihr mir manche Noth erspart .
+10-1	837-843	Hättet	_	_
+10-2	844-847	Ihr	_	_
+10-3	848-854	lieben	_	_
+10-4	855-861	Herren	_	_
+10-5	862-865	von	_	_
+10-6	866-877	Einladungen	_	_
+10-7	878-882	nach	_	_
+10-8	883-886	Rom	*	PLACEmentioned
+10-9	887-893	früher	_	_
+10-10	894-897	ein	_	_
+10-11	898-903	wenig	_	_
+10-12	904-908	mehr	_	_
+10-13	909-912	und	_	_
+10-14	913-920	sichere	_	_
+10-15	921-928	Notizen	_	_
+10-16	929-936	darüber	_	_
+10-17	937-946	beigefügt	_	_
+10-18	947-948	,	_	_
+10-19	949-952	wie	_	_
+10-20	953-956	man	_	_
+10-21	957-959	da	_	_
+10-22	960-968	hinkomme	_	_
+10-23	969-970	,	_	_
+10-24	971-973	so	_	_
+10-25	974-980	hättet	_	_
+10-26	981-984	ihr	_	_
+10-27	985-988	mir	_	_
+10-28	989-995	manche	_	_
+10-29	996-1000	Noth	_	_
+10-30	1001-1008	erspart	_	_
+10-31	1009-1010	.	_	_
+
+#Text=Herr X kat ist mir hier begegnet und grüßt .
+11-1	1011-1015	Herr	_	_
+11-2	1016-1017	X	_	_
+11-3	1018-1021	kat	*[21]	PERmentioned[21]
+11-4	1022-1025	ist	_	_
+11-5	1026-1029	mir	_	_
+11-6	1030-1034	hier	_	_
+11-7	1035-1043	begegnet	_	_
+11-8	1044-1047	und	_	_
+11-9	1048-1053	grüßt	_	_
+11-10	1054-1055	.	_	_
+
+#Text=- Ihr Münchner Gönner und Freund Schelling desgleichen .
+12-1	1056-1057	-	_	_
+12-2	1058-1061	Ihr	_	_
+12-3	1062-1070	Münchner	*	PLACEmentioned
+12-4	1071-1077	Gönner	_	_
+12-5	1078-1081	und	_	_
+12-6	1082-1088	Freund	_	_
+12-7	1089-1098	Schelling	*	PERmentioned
+12-8	1099-1110	desgleichen	_	_
+12-9	1111-1112	.	_	_

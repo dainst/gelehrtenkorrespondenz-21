@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=31 Helbig an Henzen Rom , 14. Juli 1866 20/7 66 Roma li 14 .
+1-1	0-2	31	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	14.	*[1]	DATEletter[1]
+1-8	30-34	Juli	*[1]	DATEletter[1]
+1-9	35-39	1866	*[1]	DATEletter[1]
+1-10	40-44	20/7	*[2]	DATErecieved[2]
+1-11	45-47	66	*[2]	DATErecieved[2]
+1-12	48-52	Roma	*	PLACEfrom
+1-13	53-55	li	_	_
+1-14	56-58	14	*[3]	DATEletter[3]
+1-15	59-60	.	*[3]	DATEletter[3]
+
+#Text=Iuglio 71866 .
+2-1	61-67	Iuglio	*[3]	DATEletter[3]
+2-2	68-73	71866	*[3]	DATEletter[3]
+2-3	74-75	.	_	_
+
+#Text=Lieber Herr Professor Ihren freundlichen Brief vom 10. beantworte ich sofort .
+3-1	76-82	Lieber	_	_
+3-2	83-87	Herr	_	_
+3-3	88-97	Professor	_	_
+3-4	98-103	Ihren	_	_
+3-5	104-116	freundlichen	_	_
+3-6	117-122	Brief	_	_
+3-7	123-126	vom	_	_
+3-8	127-130	10.	*[4]	DATEmentioned[4]
+3-9	131-141	beantworte	_	_
+3-10	142-145	ich	_	_
+3-11	146-152	sofort	_	_
+3-12	153-154	.	_	_
+
+#Text=Die Separatabdrücke für Wescher sind bestellt .
+4-1	155-158	Die	_	_
+4-2	159-174	Separatabdrücke	_	_
+4-3	175-178	für	_	_
+4-4	179-186	Wescher	*	PERmentioned
+4-5	187-191	sind	_	_
+4-6	192-200	bestellt	_	_
+4-7	201-202	.	_	_
+
+#Text=Was den Druck betrifft , so sind die Annali bis Foglio 12 gediehen .
+5-1	203-206	Was	_	_
+5-2	207-210	den	_	_
+5-3	211-216	Druck	_	_
+5-4	217-225	betrifft	_	_
+5-5	226-227	,	_	_
+5-6	228-230	so	_	_
+5-7	231-235	sind	_	_
+5-8	236-239	die	_	_
+5-9	240-246	Annali	_	_
+5-10	247-250	bis	_	_
+5-11	251-257	Foglio	_	_
+5-12	258-260	12	_	_
+5-13	261-269	gediehen	_	_
+5-14	270-271	.	_	_
+
+#Text=Nach Schönes Aufsatz wird Reiffefischeids folgen , dann meiner über Alkibiades , dann Benndorfs Hektorvase .
+6-1	272-276	Nach	_	_
+6-2	277-284	Schönes	*	PERmentioned
+6-3	285-292	Aufsatz	_	_
+6-4	293-297	wird	_	_
+6-5	298-313	Reiffefischeids	*	PERmentioned
+6-6	314-320	folgen	_	_
+6-7	321-322	,	_	_
+6-8	323-327	dann	_	_
+6-9	328-334	meiner	_	_
+6-10	335-339	über	_	_
+6-11	340-350	Alkibiades	*	PERmentioned
+6-12	351-352	,	_	_
+6-13	353-357	dann	_	_
+6-14	358-367	Benndorfs	*	PERmentioned
+6-15	368-378	Hektorvase	*	OBJ
+6-16	379-380	.	_	_
+
+#Text=Die Sache geht bis dahin so leidlich , allerdings unter gehörigen Anstrengungen meinerseits , da ich fast alle Correcturen selbst machen muß .
+7-1	381-384	Die	_	_
+7-2	385-390	Sache	_	_
+7-3	391-395	geht	_	_
+7-4	396-399	bis	_	_
+7-5	400-405	dahin	_	_
+7-6	406-408	so	_	_
+7-7	409-417	leidlich	_	_
+7-8	418-419	,	_	_
+7-9	420-430	allerdings	_	_
+7-10	431-436	unter	_	_
+7-11	437-446	gehörigen	_	_
+7-12	447-460	Anstrengungen	_	_
+7-13	461-472	meinerseits	_	_
+7-14	473-474	,	_	_
+7-15	475-477	da	_	_
+7-16	478-481	ich	_	_
+7-17	482-486	fast	_	_
+7-18	487-491	alle	_	_
+7-19	492-503	Correcturen	_	_
+7-20	504-510	selbst	_	_
+7-21	511-517	machen	_	_
+7-22	518-521	muß	_	_
+7-23	522-523	.	_	_
+
+#Text=Schöne geht morgen nach Neapel , Reifferscheid nach drei Tagen nach Monte Cassino .
+8-1	524-530	Schöne	*	PERmentioned
+8-2	531-535	geht	_	_
+8-3	536-542	morgen	_	_
+8-4	543-547	nach	_	_
+8-5	548-554	Neapel	*	PLACEmentioned
+8-6	555-556	,	_	_
+8-7	557-570	Reifferscheid	*	PERmentioned
+8-8	571-575	nach	_	_
+8-9	576-580	drei	_	_
+8-10	581-586	Tagen	_	_
+8-11	587-591	nach	_	_
+8-12	592-597	Monte	*[5]	PLACEmentioned[5]
+8-13	598-605	Cassino	*[5]	PLACEmentioned[5]
+8-14	606-607	.	_	_
+
+#Text=Nur Benndorf wird den Sommer über in Rom bleiben .
+9-1	608-611	Nur	_	_
+9-2	612-620	Benndorf	*	PERmentioned
+9-3	621-625	wird	_	_
+9-4	626-629	den	_	_
+9-5	630-636	Sommer	_	_
+9-6	637-641	über	_	_
+9-7	642-644	in	_	_
+9-8	645-648	Rom	*	PLACEmentioned
+9-9	649-656	bleiben	_	_
+9-10	657-658	.	_	_
+
+#Text=Kekul & hat seinen Aufsatz leider nicht hinterlassen .
+10-1	659-664	Kekul	*	PERmentioned
+10-2	665-666	&	_	_
+10-3	667-670	hat	_	_
+10-4	671-677	seinen	_	_
+10-5	678-685	Aufsatz	_	_
+10-6	686-692	leider	_	_
+10-7	693-698	nicht	_	_
+10-8	699-711	hinterlassen	_	_
+10-9	712-713	.	_	_
+
+#Text=Machen Sie ihm aber darüber keinenVorwurf \; es thut ihm sehr leid und er war in den letzten Tagen durch die Revision/Eeiner Collationen für Benoft sehr abgehetzt .
+11-1	714-720	Machen	_	_
+11-2	721-724	Sie	_	_
+11-3	725-728	ihm	_	_
+11-4	729-733	aber	_	_
+11-5	734-741	darüber	_	_
+11-6	742-755	keinenVorwurf	_	_
+11-7	756-757	\;	_	_
+11-8	758-760	es	_	_
+11-9	761-765	thut	_	_
+11-10	766-769	ihm	_	_
+11-11	770-774	sehr	_	_
+11-12	775-779	leid	_	_
+11-13	780-783	und	_	_
+11-14	784-786	er	_	_
+11-15	787-790	war	_	_
+11-16	791-793	in	_	_
+11-17	794-797	den	_	_
+11-18	798-805	letzten	_	_
+11-19	806-811	Tagen	_	_
+11-20	812-817	durch	_	_
+11-21	818-821	die	_	_
+11-22	822-837	Revision/Eeiner	_	_
+11-23	838-849	Collationen	_	_
+11-24	850-853	für	_	_
+11-25	854-860	Benoft	*	PERmentioned
+11-26	861-865	sehr	_	_
+11-27	866-875	abgehetzt	_	_
+11-28	876-877	.	_	_
+
+#Text=Bis etwa in die Mitte August liegt noch Material vor \; dann aber wird ein Stillstand eintreten um so mehr , da mir Ambrosi angezeigt hat , daß er um diese Zeit auf einige Wochen in das Bad reist .
+12-1	878-881	Bis	_	_
+12-2	882-886	etwa	_	_
+12-3	887-889	in	_	_
+12-4	890-893	die	_	_
+12-5	894-899	Mitte	_	_
+12-6	900-906	August	*	DATEmentioned
+12-7	907-912	liegt	_	_
+12-8	913-917	noch	_	_
+12-9	918-926	Material	_	_
+12-10	927-930	vor	_	_
+12-11	931-932	\;	_	_
+12-12	933-937	dann	_	_
+12-13	938-942	aber	_	_
+12-14	943-947	wird	_	_
+12-15	948-951	ein	_	_
+12-16	952-962	Stillstand	_	_
+12-17	963-972	eintreten	_	_
+12-18	973-975	um	_	_
+12-19	976-978	so	_	_
+12-20	979-983	mehr	_	_
+12-21	984-985	,	_	_
+12-22	986-988	da	_	_
+12-23	989-992	mir	_	_
+12-24	993-1000	Ambrosi	*	PERmentioned
+12-25	1001-1010	angezeigt	_	_
+12-26	1011-1014	hat	_	_
+12-27	1015-1016	,	_	_
+12-28	1017-1020	daß	_	_
+12-29	1021-1023	er	_	_
+12-30	1024-1026	um	_	_
+12-31	1027-1032	diese	_	_
+12-32	1033-1037	Zeit	_	_
+12-33	1038-1041	auf	_	_
+12-34	1042-1048	einige	_	_
+12-35	1049-1055	Wochen	_	_
+12-36	1056-1058	in	_	_
+12-37	1059-1062	das	_	_
+12-38	1063-1066	Bad	*	PLACEmentioned
+12-39	1067-1072	reist	_	_
+12-40	1073-1074	.	_	_
+
+#Text=Der Druck der Monumenti geht in zufriedenstellender Weise vor sich .
+13-1	1075-1078	Der	_	_
+13-2	1079-1084	Druck	_	_
+13-3	1085-1088	der	_	_
+13-4	1089-1098	Monumenti	_	_
+13-5	1099-1103	geht	_	_
+13-6	1104-1106	in	_	_
+13-7	1107-1126	zufriedenstellender	_	_
+13-8	1127-1132	Weise	_	_
+13-9	1133-1136	vor	_	_
+13-10	1137-1141	sich	_	_
+13-11	1142-1143	.	_	_
+
+#Text=Überhaupt bin ich mit dem Gange der Geschäftsführung nicht unzufrieden \;
+14-1	1144-1153	Überhaupt	_	_
+14-2	1154-1157	bin	_	_
+14-3	1158-1161	ich	_	_
+14-4	1162-1165	mit	_	_
+14-5	1166-1169	dem	_	_
+14-6	1170-1175	Gange	_	_
+14-7	1176-1179	der	_	_
+14-8	1180-1196	Geschäftsführung	_	_
+14-9	1197-1202	nicht	_	_
+14-10	1203-1214	unzufrieden	_	_
+14-11	1215-1216	\;	_	_

@@ -1,0 +1,254 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=378 Brunn an Henzen Ariccia , 9 .
+1-1	0-3	378	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Ariccia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	9	*[7]	DATEletter[7]
+1-8	32-33	.	*[7]	DATEletter[7]
+
+#Text=Sept .
+2-1	34-38	Sept	*[7]	DATEletter[7]
+2-2	39-40	.	*[7]	DATEletter[7]
+
+#Text=71860 8 . 9. September 1860 r . 13 .
+3-1	41-46	71860	*[7]	DATEletter[7]
+3-2	47-48	8	_	_
+3-3	49-50	.	_	_
+3-4	51-53	9.	*[8]	DATErecieved[8]
+3-5	54-63	September	*[8]	DATErecieved[8]
+3-6	64-68	1860	*[8]	DATErecieved[8]
+3-7	69-70	r	_	_
+3-8	71-72	.	_	_
+3-9	73-75	13	*[9]	DATEanswered[9]
+3-10	76-77	.	*[9]	DATEanswered[9]
+
+#Text=Beptember 1860 Lieber Henzen Trotzdem daß ich zwei Vormittage drangab und außerdem meine ganze gute Laune einbüßte , vermochte ich zum Freitag Stark 's Aufsatz nicht fertig zu bringen .
+4-1	78-87	Beptember	*[9]	DATEanswered[9]
+4-2	88-92	1860	*[9]	DATEanswered[9]
+4-3	93-99	Lieber	_	_
+4-4	100-106	Henzen	*	PERaddressee
+4-5	107-115	Trotzdem	_	_
+4-6	116-119	daß	_	_
+4-7	120-123	ich	_	_
+4-8	124-128	zwei	_	_
+4-9	129-139	Vormittage	_	_
+4-10	140-147	drangab	_	_
+4-11	148-151	und	_	_
+4-12	152-160	außerdem	_	_
+4-13	161-166	meine	_	_
+4-14	167-172	ganze	_	_
+4-15	173-177	gute	_	_
+4-16	178-183	Laune	_	_
+4-17	184-192	einbüßte	_	_
+4-18	193-194	,	_	_
+4-19	195-204	vermochte	_	_
+4-20	205-208	ich	_	_
+4-21	209-212	zum	_	_
+4-22	213-220	Freitag	*	DATEmentioned
+4-23	221-226	Stark	*[13]	PERmentioned[13]
+4-24	227-229	's	*[13]	PERmentioned[13]
+4-25	230-237	Aufsatz	_	_
+4-26	238-243	nicht	_	_
+4-27	244-250	fertig	_	_
+4-28	251-253	zu	_	_
+4-29	254-261	bringen	_	_
+4-30	262-263	.	_	_
+
+#Text=Sehen Sie seine Handschrift an , so haben sie seinen Stil und seine Darstellung , lodderig , ohne die geringste Präcision , so daß dadurch die Vebersetzung zu einer wahren Qual wurde .
+5-1	264-269	Sehen	_	_
+5-2	270-273	Sie	_	_
+5-3	274-279	seine	_	_
+5-4	280-291	Handschrift	_	_
+5-5	292-294	an	_	_
+5-6	295-296	,	_	_
+5-7	297-299	so	_	_
+5-8	300-305	haben	_	_
+5-9	306-309	sie	_	_
+5-10	310-316	seinen	_	_
+5-11	317-321	Stil	_	_
+5-12	322-325	und	_	_
+5-13	326-331	seine	_	_
+5-14	332-343	Darstellung	_	_
+5-15	344-345	,	_	_
+5-16	346-354	lodderig	_	_
+5-17	355-356	,	_	_
+5-18	357-361	ohne	_	_
+5-19	362-365	die	_	_
+5-20	366-375	geringste	_	_
+5-21	376-385	Präcision	_	_
+5-22	386-387	,	_	_
+5-23	388-390	so	_	_
+5-24	391-394	daß	_	_
+5-25	395-402	dadurch	_	_
+5-26	403-406	die	_	_
+5-27	407-419	Vebersetzung	_	_
+5-28	420-422	zu	_	_
+5-29	423-428	einer	_	_
+5-30	429-435	wahren	_	_
+5-31	436-440	Qual	_	_
+5-32	441-446	wurde	_	_
+5-33	447-448	.	_	_
+
+#Text=Sie mögen sie daher erst noch einmal ansehen , aber geben Sie sich nicht zu viel Mühe : denn aus schlechtem Deutsch vorzügliches Italienisch zu machen , kann man wirklich von uns nicht verlangen , ä 27 1/2 Baj .
+6-1	449-452	Sie	_	_
+6-2	453-458	mögen	_	_
+6-3	459-462	sie	_	_
+6-4	463-468	daher	_	_
+6-5	469-473	erst	_	_
+6-6	474-478	noch	_	_
+6-7	479-485	einmal	_	_
+6-8	486-493	ansehen	_	_
+6-9	494-495	,	_	_
+6-10	496-500	aber	_	_
+6-11	501-506	geben	_	_
+6-12	507-510	Sie	_	_
+6-13	511-515	sich	_	_
+6-14	516-521	nicht	_	_
+6-15	522-524	zu	_	_
+6-16	525-529	viel	_	_
+6-17	530-534	Mühe	_	_
+6-18	535-536	:	_	_
+6-19	537-541	denn	_	_
+6-20	542-545	aus	_	_
+6-21	546-556	schlechtem	_	_
+6-22	557-564	Deutsch	_	_
+6-23	565-577	vorzügliches	_	_
+6-24	578-589	Italienisch	_	_
+6-25	590-592	zu	_	_
+6-26	593-599	machen	_	_
+6-27	600-601	,	_	_
+6-28	602-606	kann	_	_
+6-29	607-610	man	_	_
+6-30	611-619	wirklich	_	_
+6-31	620-623	von	_	_
+6-32	624-627	uns	_	_
+6-33	628-633	nicht	_	_
+6-34	634-643	verlangen	_	_
+6-35	644-645	,	_	_
+6-36	646-647	ä	_	_
+6-37	648-650	27	_	_
+6-38	651-654	1/2	_	_
+6-39	655-658	Baj	_	_
+6-40	659-660	.	_	_
+
+#Text=die Druckseite .
+7-1	661-664	die	_	_
+7-2	665-675	Druckseite	_	_
+7-3	676-677	.	_	_
+
+#Text=- Die Neapol .
+8-1	678-679	-	_	_
+8-2	680-683	Die	_	_
+8-3	684-690	Neapol	*[10]	MISC[10]
+8-4	691-692	.	*[10]	MISC[10]
+
+#Text=Vasenzeichnung wird für einen andern nicht ganz leicht zu finden sein , daß ich deshalb nach Rom gehe , ist aber doch auch nicht zu verlangen .
+9-1	693-707	Vasenzeichnung	*[10]	MISC[10]
+9-2	708-712	wird	_	_
+9-3	713-716	für	_	_
+9-4	717-722	einen	_	_
+9-5	723-729	andern	_	_
+9-6	730-735	nicht	_	_
+9-7	736-740	ganz	_	_
+9-8	741-747	leicht	_	_
+9-9	748-750	zu	_	_
+9-10	751-757	finden	_	_
+9-11	758-762	sein	_	_
+9-12	763-764	,	_	_
+9-13	765-768	daß	_	_
+9-14	769-772	ich	_	_
+9-15	773-780	deshalb	_	_
+9-16	781-785	nach	_	_
+9-17	786-789	Rom	*	PLACEmentioned
+9-18	790-794	gehe	_	_
+9-19	795-796	,	_	_
+9-20	797-800	ist	_	_
+9-21	801-805	aber	_	_
+9-22	806-810	doch	_	_
+9-23	811-815	auch	_	_
+9-24	816-821	nicht	_	_
+9-25	822-824	zu	_	_
+9-26	825-834	verlangen	_	_
+9-27	835-836	.	_	_
+
+#Text=Ich werde aber Petersen so gut als irgend möglich instruiren .
+10-1	837-840	Ich	_	_
+10-2	841-846	werde	_	_
+10-3	847-851	aber	_	_
+10-4	852-860	Petersen	*	PERmentioned
+10-5	861-863	so	_	_
+10-6	864-867	gut	_	_
+10-7	868-871	als	_	_
+10-8	872-878	irgend	_	_
+10-9	879-886	möglich	_	_
+10-10	887-897	instruiren	_	_
+10-11	898-899	.	_	_
+
+#Text=- Am a5ten selbst werde ich noch nicht in Rom sein , sondern wenigstens noch den Sonntag hier abwarten \; wabrscheinlich Montag kommen wir .
+11-1	900-901	-	_	_
+11-2	902-904	Am	_	_
+11-3	905-910	a5ten	*[11]	DATEmentioned[11]
+11-4	911-917	selbst	_	_
+11-5	918-923	werde	_	_
+11-6	924-927	ich	_	_
+11-7	928-932	noch	_	_
+11-8	933-938	nicht	_	_
+11-9	939-941	in	_	_
+11-10	942-945	Rom	*	PLACEmentioned
+11-11	946-950	sein	_	_
+11-12	951-952	,	_	_
+11-13	953-960	sondern	_	_
+11-14	961-971	wenigstens	_	_
+11-15	972-976	noch	_	_
+11-16	977-980	den	_	_
+11-17	981-988	Sonntag	*	DATEmentioned
+11-18	989-993	hier	_	_
+11-19	994-1002	abwarten	_	_
+11-20	1003-1004	\;	_	_
+11-21	1005-1019	wabrscheinlich	_	_
+11-22	1020-1026	Montag	*	DATEmentioned
+11-23	1027-1033	kommen	_	_
+11-24	1034-1037	wir	_	_
+11-25	1038-1039	.	_	_
+
+#Text=Es treibt uns eigentlich wieder nach Rom , da meine Frau namentlich von den hiesigen Aufenthalt zu wenig Vortheil hat , jetzt besonders , wo sie Mariuccia wieder nach Rom geschickt hat , um
+12-1	1040-1042	Es	_	_
+12-2	1043-1049	treibt	_	_
+12-3	1050-1053	uns	_	_
+12-4	1054-1064	eigentlich	_	_
+12-5	1065-1071	wieder	_	_
+12-6	1072-1076	nach	_	_
+12-7	1077-1080	Rom	*	PLACEmentioned
+12-8	1081-1082	,	_	_
+12-9	1083-1085	da	_	_
+12-10	1086-1091	meine	*[12]	PERmentioned[12]
+12-11	1092-1096	Frau	*[12]	PERmentioned[12]
+12-12	1097-1107	namentlich	_	_
+12-13	1108-1111	von	_	_
+12-14	1112-1115	den	_	_
+12-15	1116-1124	hiesigen	_	_
+12-16	1125-1135	Aufenthalt	_	_
+12-17	1136-1138	zu	_	_
+12-18	1139-1144	wenig	_	_
+12-19	1145-1153	Vortheil	_	_
+12-20	1154-1157	hat	_	_
+12-21	1158-1159	,	_	_
+12-22	1160-1165	jetzt	_	_
+12-23	1166-1175	besonders	_	_
+12-24	1176-1177	,	_	_
+12-25	1178-1180	wo	_	_
+12-26	1181-1184	sie	_	_
+12-27	1185-1194	Mariuccia	*	PERmentioned
+12-28	1195-1201	wieder	_	_
+12-29	1202-1206	nach	_	_
+12-30	1207-1210	Rom	*	PLACEmentioned
+12-31	1211-1220	geschickt	_	_
+12-32	1221-1224	hat	_	_
+12-33	1225-1226	,	_	_
+12-34	1227-1229	um	_	_

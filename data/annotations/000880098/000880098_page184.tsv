@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=318 38. en 39 . 40 . 42 . 43 .
+1-1	0-3	318	_	_
+1-2	4-7	38.	_	_
+1-3	8-10	en	_	_
+1-4	11-13	39	_	_
+1-5	14-15	.	_	_
+1-6	16-18	40	_	_
+1-7	19-20	.	_	_
+1-8	21-23	42	_	_
+1-9	24-25	.	_	_
+1-10	26-28	43	_	_
+1-11	29-30	.	_	_
+
+#Text=Y 45 . 46 .
+2-1	31-32	Y	_	_
+2-2	33-35	45	_	_
+2-3	36-37	.	_	_
+2-4	38-40	46	_	_
+2-5	41-42	.	_	_
+
+#Text=47 % 48 % 49 % 50 .
+3-1	43-45	47	_	_
+3-2	46-47	%	_	_
+3-3	48-50	48	_	_
+3-4	51-52	%	_	_
+3-5	53-55	49	_	_
+3-6	56-57	%	_	_
+3-7	58-60	50	_	_
+3-8	61-62	.	_	_
+
+#Text=Braun an Gerhard Rom , 12. März 71835 - 3 - Circevase ( Restauriert v. De Domenicis ä 8.4 Tazza coll ' ’ Ercole rosso ( detto ) 8 . 13 Einen Kandelaberbronze v. Basseggio .
+4-1	63-68	Braun	*	PERauthor
+4-2	69-71	an	_	_
+4-3	72-79	Gerhard	*	PERaddressee
+4-4	80-83	Rom	*	PLACEfrom
+4-5	84-85	,	_	_
+4-6	86-89	12.	*[1]	DATEletter[1]
+4-7	90-94	März	*[1]	DATEletter[1]
+4-8	95-100	71835	*[1]	DATEletter[1]
+4-9	101-102	-	_	_
+4-10	103-104	3	_	_
+4-11	105-106	-	_	_
+4-12	107-116	Circevase	*	OBJ
+4-13	117-118	(	_	_
+4-14	119-130	Restauriert	_	_
+4-15	131-133	v.	_	_
+4-16	134-136	De	*[2]	PERmentioned[2]
+4-17	137-146	Domenicis	*[2]	PERmentioned[2]
+4-18	147-148	ä	_	_
+4-19	149-152	8.4	_	_
+4-20	153-158	Tazza	*[3]	OBJ[3]
+4-21	159-163	coll	*[3]	OBJ[3]
+4-22	164-165	'	*[3]	OBJ[3]
+4-23	166-167	’	*[3]	OBJ[3]
+4-24	168-174	Ercole	*[3]	OBJ[3]
+4-25	175-180	rosso	*[3]	OBJ[3]
+4-26	181-182	(	_	_
+4-27	183-188	detto	_	_
+4-28	189-190	)	_	_
+4-29	191-192	8	_	_
+4-30	193-194	.	_	_
+4-31	195-197	13	_	_
+4-32	198-203	Einen	_	_
+4-33	204-220	Kandelaberbronze	*	OBJ
+4-34	221-223	v.	_	_
+4-35	224-233	Basseggio	*	PERmentioned
+4-36	234-235	.	_	_
+
+#Text=Form des Woltr lschen Porträts .
+5-1	236-240	Form	*[4]	MISC[4]
+5-2	241-244	des	*[4]	MISC[4]
+5-3	245-250	Woltr	*[4]|*[5]	MISC[4]|PERmentioned[5]
+5-4	251-257	lschen	*[4]	MISC[4]
+5-5	258-266	Porträts	*[4]	MISC[4]
+5-6	267-268	.	_	_
+
+#Text=Vase mit ( 2 Napoldi ) Die Knochenfragmente von Basseggio ( S. 6 ) Schaale mit den Occhioni und Liber-Libera ( S.22 ) Vasetto col ratto del tripode Tessere mit der Inschrift ( S. 5 ) Zeichnungen von Vasen , Spiegeln etc. ( 1 Portefeuille und 1 Rotolo ) Becchio , Tombe cristiane ( Manifeste und Proben von einem trefflichen Incisore , dem an Subscribenten gelegen wäre . ) .
+6-1	269-273	Vase	*[6]	OBJ[6]
+6-2	274-277	mit	*[6]	OBJ[6]
+6-3	278-279	(	_	_
+6-4	280-281	2	_	_
+6-5	282-289	Napoldi	_	_
+6-6	290-291	)	_	_
+6-7	292-295	Die	_	_
+6-8	296-312	Knochenfragmente	_	_
+6-9	313-316	von	_	_
+6-10	317-326	Basseggio	*	PERmentioned
+6-11	327-328	(	_	_
+6-12	329-331	S.	_	_
+6-13	332-333	6	_	_
+6-14	334-335	)	_	_
+6-15	336-343	Schaale	*[7]	OBJ[7]
+6-16	344-347	mit	*[7]	OBJ[7]
+6-17	348-351	den	*[7]	OBJ[7]
+6-18	352-360	Occhioni	*[7]	OBJ[7]
+6-19	361-364	und	*[7]	OBJ[7]
+6-20	365-377	Liber-Libera	*[7]	OBJ[7]
+6-21	378-379	(	_	_
+6-22	380-384	S.22	_	_
+6-23	385-386	)	_	_
+6-24	387-394	Vasetto	*[8]	OBJ[8]
+6-25	395-398	col	*[8]	OBJ[8]
+6-26	399-404	ratto	*[8]	OBJ[8]
+6-27	405-408	del	*[8]	OBJ[8]
+6-28	409-416	tripode	*[8]	OBJ[8]
+6-29	417-424	Tessere	*[9]	OBJ[9]
+6-30	425-428	mit	*[9]	OBJ[9]
+6-31	429-432	der	*[9]	OBJ[9]
+6-32	433-442	Inschrift	*[9]	OBJ[9]
+6-33	443-444	(	_	_
+6-34	445-447	S.	_	_
+6-35	448-449	5	_	_
+6-36	450-451	)	_	_
+6-37	452-463	Zeichnungen	*[10]	MISC[10]
+6-38	464-467	von	*[10]	MISC[10]
+6-39	468-473	Vasen	*[10]	MISC[10]
+6-40	474-475	,	*[10]	MISC[10]
+6-41	476-484	Spiegeln	*[10]	MISC[10]
+6-42	485-489	etc.	*[10]	MISC[10]
+6-43	490-491	(	*[10]	MISC[10]
+6-44	492-493	1	*[10]	MISC[10]
+6-45	494-506	Portefeuille	*[10]	MISC[10]
+6-46	507-510	und	*[10]	MISC[10]
+6-47	511-512	1	*[10]	MISC[10]
+6-48	513-519	Rotolo	*[10]	MISC[10]
+6-49	520-521	)	*[10]	MISC[10]
+6-50	522-529	Becchio	*	PERmentioned
+6-51	530-531	,	_	_
+6-52	532-537	Tombe	*[11]	LIT[11]
+6-53	538-547	cristiane	*[11]	LIT[11]
+6-54	548-549	(	_	_
+6-55	550-559	Manifeste	_	_
+6-56	560-563	und	_	_
+6-57	564-570	Proben	_	_
+6-58	571-574	von	_	_
+6-59	575-580	einem	_	_
+6-60	581-592	trefflichen	_	_
+6-61	593-601	Incisore	_	_
+6-62	602-603	,	_	_
+6-63	604-607	dem	_	_
+6-64	608-610	an	_	_
+6-65	611-624	Subscribenten	_	_
+6-66	625-632	gelegen	_	_
+6-67	633-637	wäre	_	_
+6-68	638-639	.	_	_
+6-69	640-641	)	_	_
+6-70	642-643	.	_	_
+
+#Text=Ein Paket Bull .
+7-1	644-647	Ein	_	_
+7-2	648-653	Paket	_	_
+7-3	654-658	Bull	*	LIT
+7-4	659-660	.	_	_
+
+#Text=manifeste für Gerstäcker Rotolo von Vollarä ( nach Bericht zu verfahren ) Verschiedne ( 3 ) Scatolette mit der von mir hinzugefügten Aufschrift von Vollard , nebst der Bronzestatue ( S. 5.90 ) Im Allgemein für ich Ihnen die Bermerkung hinzu , daß die Sachen gut verpackt , aber vielfach , zur Raumersparniß , versteckt sind .
+8-1	661-670	manifeste	_	_
+8-2	671-674	für	_	_
+8-3	675-685	Gerstäcker	*[12]	PERmentioned[12]
+8-4	686-692	Rotolo	_	_
+8-5	693-696	von	_	_
+8-6	697-704	Vollarä	*	PERmentioned
+8-7	705-706	(	_	_
+8-8	707-711	nach	_	_
+8-9	712-719	Bericht	_	_
+8-10	720-722	zu	_	_
+8-11	723-732	verfahren	_	_
+8-12	733-734	)	_	_
+8-13	735-746	Verschiedne	_	_
+8-14	747-748	(	_	_
+8-15	749-750	3	_	_
+8-16	751-752	)	_	_
+8-17	753-763	Scatolette	_	_
+8-18	764-767	mit	_	_
+8-19	768-771	der	_	_
+8-20	772-775	von	_	_
+8-21	776-779	mir	_	_
+8-22	780-793	hinzugefügten	_	_
+8-23	794-804	Aufschrift	_	_
+8-24	805-808	von	_	_
+8-25	809-816	Vollard	*	PERmentioned
+8-26	817-818	,	_	_
+8-27	819-824	nebst	_	_
+8-28	825-828	der	_	_
+8-29	829-841	Bronzestatue	*	OBJ
+8-30	842-843	(	_	_
+8-31	844-846	S.	_	_
+8-32	847-851	5.90	_	_
+8-33	852-853	)	_	_
+8-34	854-856	Im	_	_
+8-35	857-866	Allgemein	_	_
+8-36	867-870	für	_	_
+8-37	871-874	ich	_	_
+8-38	875-880	Ihnen	_	_
+8-39	881-884	die	_	_
+8-40	885-895	Bermerkung	_	_
+8-41	896-901	hinzu	_	_
+8-42	902-903	,	_	_
+8-43	904-907	daß	_	_
+8-44	908-911	die	_	_
+8-45	912-918	Sachen	_	_
+8-46	919-922	gut	_	_
+8-47	923-931	verpackt	_	_
+8-48	932-933	,	_	_
+8-49	934-938	aber	_	_
+8-50	939-947	vielfach	_	_
+8-51	948-949	,	_	_
+8-52	950-953	zur	_	_
+8-53	954-967	Raumersparniß	_	_
+8-54	968-969	,	_	_
+8-55	970-979	versteckt	_	_
+8-56	980-984	sind	_	_
+8-57	985-986	.	_	_
+
+#Text=Ich empfehle daher eine vorsichtige Eröffnung sehr angelegentlich an .
+9-1	987-990	Ich	_	_
+9-2	991-999	empfehle	_	_
+9-3	1000-1005	daher	_	_
+9-4	1006-1010	eine	_	_
+9-5	1011-1022	vorsichtige	_	_
+9-6	1023-1032	Eröffnung	_	_
+9-7	1033-1037	sehr	_	_
+9-8	1038-1052	angelegentlich	_	_
+9-9	1053-1055	an	_	_
+9-10	1056-1057	.	_	_
+
+#Text=Hoffentlich habe ich alles
+10-1	1058-1069	Hoffentlich	_	_
+10-2	1070-1074	habe	_	_
+10-3	1075-1078	ich	_	_
+10-4	1079-1084	alles	_	_

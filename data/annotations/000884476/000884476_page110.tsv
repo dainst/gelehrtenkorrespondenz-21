@@ -1,0 +1,247 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=125 Gerhard an Braun Berlin 15/1/1835 4 .
+1-1	0-3	125	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-37	15/1/1835	*	DATEletter
+1-7	38-39	4	_	_
+1-8	40-41	.	_	_
+
+#Text=Bullini soll künftig alle Vasen mit Papierschnitzeln , nicht mit Sägespänen , packen .
+2-1	42-49	Bullini	*	PERmentioned
+2-2	50-54	soll	_	_
+2-3	55-62	künftig	_	_
+2-4	63-67	alle	_	_
+2-5	68-73	Vasen	_	_
+2-6	74-77	mit	_	_
+2-7	78-94	Papierschnitzeln	_	_
+2-8	95-96	,	_	_
+2-9	97-102	nicht	_	_
+2-10	103-106	mit	_	_
+2-11	107-117	Sägespänen	_	_
+2-12	118-119	,	_	_
+2-13	120-126	packen	_	_
+2-14	127-128	.	_	_
+
+#Text=Die Segatura pflegt sie zu verdicken und hat in den letzten Transporten erhebliche % chaden angerichtet .
+3-1	129-132	Die	_	_
+3-2	133-141	Segatura	_	_
+3-3	142-148	pflegt	_	_
+3-4	149-152	sie	_	_
+3-5	153-155	zu	_	_
+3-6	156-165	verdicken	_	_
+3-7	166-169	und	_	_
+3-8	170-173	hat	_	_
+3-9	174-176	in	_	_
+3-10	177-180	den	_	_
+3-11	181-188	letzten	_	_
+3-12	189-200	Transporten	_	_
+3-13	201-211	erhebliche	_	_
+3-14	212-213	%	_	_
+3-15	214-220	chaden	_	_
+3-16	221-232	angerichtet	_	_
+3-17	233-234	.	_	_
+
+#Text=Das 3 henklige Gefäß mit dem Bachanal war ganz in Stücken , was Sie auch dem Restaurateur erzählen können .
+4-1	235-238	Das	_	_
+4-2	239-240	3	*[6]	OBJ[6]
+4-3	241-249	henklige	*[6]	OBJ[6]
+4-4	250-255	Gefäß	*[6]	OBJ[6]
+4-5	256-259	mit	*[6]	OBJ[6]
+4-6	260-263	dem	*[6]	OBJ[6]
+4-7	264-272	Bachanal	*[6]	OBJ[6]
+4-8	273-276	war	_	_
+4-9	277-281	ganz	_	_
+4-10	282-284	in	_	_
+4-11	285-292	Stücken	_	_
+4-12	293-294	,	_	_
+4-13	295-298	was	_	_
+4-14	299-302	Sie	_	_
+4-15	303-307	auch	_	_
+4-16	308-311	dem	_	_
+4-17	312-324	Restaurateur	_	_
+4-18	325-333	erzählen	_	_
+4-19	334-340	können	_	_
+4-20	341-342	.	_	_
+
+#Text=5 .
+5-1	343-344	5	_	_
+5-2	345-346	.	_	_
+
+#Text=Bullini soll sich mit dem Zunageln in Acht nehmen \; ein Exemplar der Centurien mußte von tiefer Nagelspur abgelöst werden .
+6-1	347-354	Bullini	*	PERmentioned
+6-2	355-359	soll	_	_
+6-3	360-364	sich	_	_
+6-4	365-368	mit	_	_
+6-5	369-372	dem	_	_
+6-6	373-381	Zunageln	_	_
+6-7	382-384	in	_	_
+6-8	385-389	Acht	_	_
+6-9	390-396	nehmen	_	_
+6-10	397-398	\;	_	_
+6-11	399-402	ein	_	_
+6-12	403-411	Exemplar	_	_
+6-13	412-415	der	_	_
+6-14	416-425	Centurien	_	_
+6-15	426-431	mußte	_	_
+6-16	432-435	von	_	_
+6-17	436-442	tiefer	_	_
+6-18	443-452	Nagelspur	_	_
+6-19	453-461	abgelöst	_	_
+6-20	462-468	werden	_	_
+6-21	469-470	.	_	_
+
+#Text=6 .
+7-1	471-472	6	_	_
+7-2	473-474	.	_	_
+
+#Text=Um anständige Büchereinbände muß künftig Stück vor Stück weiches Fapier geschlagen werden \; mehrere Exemplare von Serradifalco 's Werk sind beschmutzt und berieben .
+8-1	475-477	Um	_	_
+8-2	478-488	anständige	_	_
+8-3	489-503	Büchereinbände	_	_
+8-4	504-507	muß	_	_
+8-5	508-515	künftig	_	_
+8-6	516-521	Stück	_	_
+8-7	522-525	vor	_	_
+8-8	526-531	Stück	_	_
+8-9	532-539	weiches	_	_
+8-10	540-546	Fapier	_	_
+8-11	547-557	geschlagen	_	_
+8-12	558-564	werden	_	_
+8-13	565-566	\;	_	_
+8-14	567-574	mehrere	_	_
+8-15	575-584	Exemplare	_	_
+8-16	585-588	von	_	_
+8-17	589-601	Serradifalco	*[11]	PERmentioned[11]
+8-18	602-604	's	*[11]	PERmentioned[11]
+8-19	605-609	Werk	_	_
+8-20	610-614	sind	_	_
+8-21	615-625	beschmutzt	_	_
+8-22	626-629	und	_	_
+8-23	630-638	berieben	_	_
+8-24	639-640	.	_	_
+
+#Text=So viel sind der ärgerlichen Dinge und guten Lehren , die Sie unserm Dienstpersonal einschärfen mögen .
+9-1	641-643	So	_	_
+9-2	644-648	viel	_	_
+9-3	649-653	sind	_	_
+9-4	654-657	der	_	_
+9-5	658-669	ärgerlichen	_	_
+9-6	670-675	Dinge	_	_
+9-7	676-679	und	_	_
+9-8	680-685	guten	_	_
+9-9	686-692	Lehren	_	_
+9-10	693-694	,	_	_
+9-11	695-698	die	_	_
+9-12	699-702	Sie	_	_
+9-13	703-709	unserm	_	_
+9-14	710-724	Dienstpersonal	_	_
+9-15	725-736	einschärfen	_	_
+9-16	737-742	mögen	_	_
+9-17	743-744	.	_	_
+
+#Text=Nußerdem ist wenig zu antworten .
+10-1	745-753	Nußerdem	_	_
+10-2	754-757	ist	_	_
+10-3	758-763	wenig	_	_
+10-4	764-766	zu	_	_
+10-5	767-776	antworten	_	_
+10-6	777-778	.	_	_
+
+#Text=Daß Sie Hie .
+11-1	779-782	Daß	_	_
+11-2	783-786	Sie	_	_
+11-3	787-790	Hie	_	_
+11-4	791-792	.	_	_
+
+#Text=Schwalbenvase stechen lassen , ist recht gut , obwohl die Zeichnung , die ich doppelt habe , sich hätte ersparen lassen .
+12-1	793-806	Schwalbenvase	*[12]	OBJ[12]
+12-2	807-814	stechen	*[12]	OBJ[12]
+12-3	815-821	lassen	_	_
+12-4	822-823	,	_	_
+12-5	824-827	ist	_	_
+12-6	828-833	recht	_	_
+12-7	834-837	gut	_	_
+12-8	838-839	,	_	_
+12-9	840-846	obwohl	_	_
+12-10	847-850	die	_	_
+12-11	851-860	Zeichnung	_	_
+12-12	861-862	,	_	_
+12-13	863-866	die	_	_
+12-14	867-870	ich	_	_
+12-15	871-878	doppelt	_	_
+12-16	879-883	habe	_	_
+12-17	884-885	,	_	_
+12-18	886-890	sich	_	_
+12-19	891-896	hätte	_	_
+12-20	897-905	ersparen	_	_
+12-21	906-912	lassen	_	_
+12-22	913-914	.	_	_
+
+#Text=Die Schale des Jason werde ich wohl hier stehen lassen \; doch sind die Kostenverhältnisse hiesigen Druckes noch so unklar und besorglich , daß , wenn die neueste Kistensendung noch nicht abging , dieselbe wegen möglichen Kupferabdrucks in Rom einstweilen ohne die fertigen Platten abgehen kann .
+13-1	915-918	Die	_	_
+13-2	919-925	Schale	*[10]	OBJ[10]
+13-3	926-929	des	*[10]	OBJ[10]
+13-4	930-935	Jason	*[10]	OBJ[10]
+13-5	936-941	werde	_	_
+13-6	942-945	ich	_	_
+13-7	946-950	wohl	_	_
+13-8	951-955	hier	_	_
+13-9	956-962	stehen	_	_
+13-10	963-969	lassen	_	_
+13-11	970-971	\;	_	_
+13-12	972-976	doch	_	_
+13-13	977-981	sind	_	_
+13-14	982-985	die	_	_
+13-15	986-1004	Kostenverhältnisse	_	_
+13-16	1005-1013	hiesigen	_	_
+13-17	1014-1021	Druckes	_	_
+13-18	1022-1026	noch	_	_
+13-19	1027-1029	so	_	_
+13-20	1030-1036	unklar	_	_
+13-21	1037-1040	und	_	_
+13-22	1041-1051	besorglich	_	_
+13-23	1052-1053	,	_	_
+13-24	1054-1057	daß	_	_
+13-25	1058-1059	,	_	_
+13-26	1060-1064	wenn	_	_
+13-27	1065-1068	die	_	_
+13-28	1069-1076	neueste	_	_
+13-29	1077-1090	Kistensendung	_	_
+13-30	1091-1095	noch	_	_
+13-31	1096-1101	nicht	_	_
+13-32	1102-1108	abging	_	_
+13-33	1109-1110	,	_	_
+13-34	1111-1119	dieselbe	_	_
+13-35	1120-1125	wegen	_	_
+13-36	1126-1135	möglichen	_	_
+13-37	1136-1150	Kupferabdrucks	_	_
+13-38	1151-1153	in	_	_
+13-39	1154-1157	Rom	*	PLACEmentioned
+13-40	1158-1169	einstweilen	_	_
+13-41	1170-1174	ohne	_	_
+13-42	1175-1178	die	_	_
+13-43	1179-1187	fertigen	_	_
+13-44	1188-1195	Platten	_	_
+13-45	1196-1203	abgehen	_	_
+13-46	1204-1208	kann	_	_
+13-47	1209-1210	.	_	_
+
+#Text=Vergessen Sie nicht , diese Sendung an Vollard zum Beischluß anzubieten .
+14-1	1211-1220	Vergessen	_	_
+14-2	1221-1224	Sie	_	_
+14-3	1225-1230	nicht	_	_
+14-4	1231-1232	,	_	_
+14-5	1233-1238	diese	_	_
+14-6	1239-1246	Sendung	_	_
+14-7	1247-1249	an	_	_
+14-8	1250-1257	Vollard	*	PERmentioned
+14-9	1258-1261	zum	_	_
+14-10	1262-1271	Beischluß	_	_
+14-11	1272-1282	anzubieten	_	_
+14-12	1283-1284	.	_	_

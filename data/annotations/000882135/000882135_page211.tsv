@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=99 Braun an Gerhard Rom , 17. März 1840 Angeschlossen erhalten Sie das Dankschreiben für den Nibbybeitrag .
+1-1	0-2	99	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	17.	*[4]	DATEletter[4]
+1-8	30-34	März	*[4]	DATEletter[4]
+1-9	35-39	1840	*[4]	DATEletter[4]
+1-10	40-53	Angeschlossen	_	_
+1-11	54-62	erhalten	_	_
+1-12	63-66	Sie	_	_
+1-13	67-70	das	_	_
+1-14	71-84	Dankschreiben	_	_
+1-15	85-88	für	_	_
+1-16	89-92	den	_	_
+1-17	93-105	Nibbybeitrag	*	PERmentioned
+1-18	106-107	.	_	_
+
+#Text=Brockhaus hat Geld geschickt , auch Bunsen die Anweisung auf die 200 rt .
+2-1	108-117	Brockhaus	*	ORGmentioned
+2-2	118-121	hat	_	_
+2-3	122-126	Geld	_	_
+2-4	127-136	geschickt	_	_
+2-5	137-138	,	_	_
+2-6	139-143	auch	_	_
+2-7	144-150	Bunsen	*	PERmentioned
+2-8	151-154	die	_	_
+2-9	155-164	Anweisung	_	_
+2-10	165-168	auf	_	_
+2-11	169-172	die	_	_
+2-12	173-176	200	_	_
+2-13	177-179	rt	_	_
+2-14	180-181	.	_	_
+
+#Text=vom König .
+3-1	182-185	vom	_	_
+3-2	186-191	König	*	PERmentioned
+3-3	192-193	.	_	_
+
+#Text=Vorige Woche hat Visconti , Odescalchi und Borshetti den neuen Band der Acta der arch . Akademie dem Papst überreicht .
+4-1	194-200	Vorige	_	_
+4-2	201-206	Woche	_	_
+4-3	207-210	hat	_	_
+4-4	211-219	Visconti	*	PERmentioned
+4-5	220-221	,	_	_
+4-6	222-232	Odescalchi	*	PERmentioned
+4-7	233-236	und	_	_
+4-8	237-246	Borshetti	*	PERmentioned
+4-9	247-250	den	_	_
+4-10	251-256	neuen	_	_
+4-11	257-261	Band	_	_
+4-12	262-265	der	_	_
+4-13	266-270	Acta	_	_
+4-14	271-274	der	_	_
+4-15	275-279	arch	_	_
+4-16	280-281	.	*[12]	ORGmentioned[12]
+4-17	282-290	Akademie	*[12]	ORGmentioned[12]
+4-18	291-294	dem	_	_
+4-19	295-300	Papst	*	PERmentioned
+4-20	301-311	überreicht	_	_
+4-21	312-313	.	_	_
+
+#Text=Bei dieser Gelegenheit hat man viel Klagen gegen uns vorgebracht \; dieselben hat Lambruschini angehört .
+5-1	314-317	Bei	_	_
+5-2	318-324	dieser	_	_
+5-3	325-336	Gelegenheit	_	_
+5-4	337-340	hat	_	_
+5-5	341-344	man	_	_
+5-6	345-349	viel	_	_
+5-7	350-356	Klagen	_	_
+5-8	357-362	gegen	_	_
+5-9	363-366	uns	_	_
+5-10	367-378	vorgebracht	_	_
+5-11	379-380	\;	_	_
+5-12	381-390	dieselben	_	_
+5-13	391-394	hat	_	_
+5-14	395-407	Lambruschini	*	PERmentioned
+5-15	408-416	angehört	_	_
+5-16	417-418	.	_	_
+
+#Text=Li buggereremo quei qua sü !
+6-1	419-421	Li	_	_
+6-2	422-433	buggereremo	_	_
+6-3	434-438	quei	_	_
+6-4	439-442	qua	_	_
+6-5	443-445	sü	_	_
+6-6	446-447	!	_	_
+
+#Text=Wie erwünscht daher gerade jetzt die Ernennung eines gewichtigen Präsidenten sein muß , sehen Sie daraus .
+7-1	448-451	Wie	_	_
+7-2	452-461	erwünscht	_	_
+7-3	462-467	daher	_	_
+7-4	468-474	gerade	_	_
+7-5	475-480	jetzt	_	_
+7-6	481-484	die	_	_
+7-7	485-494	Ernennung	_	_
+7-8	495-500	eines	_	_
+7-9	501-512	gewichtigen	_	_
+7-10	513-524	Präsidenten	_	_
+7-11	525-529	sein	_	_
+7-12	530-533	muß	_	_
+7-13	534-535	,	_	_
+7-14	536-541	sehen	_	_
+7-15	542-545	Sie	_	_
+7-16	546-552	daraus	_	_
+7-17	553-554	.	_	_
+
+#Text=Ich habe also nicht blos Gespenster gesehen .
+8-1	555-558	Ich	_	_
+8-2	559-563	habe	_	_
+8-3	564-568	also	_	_
+8-4	569-574	nicht	_	_
+8-5	575-579	blos	_	_
+8-6	580-590	Gespenster	_	_
+8-7	591-598	gesehen	_	_
+8-8	599-600	.	_	_
+
+#Text=Auch kenne ich meine Leute \; hier paßt man auf alles auf .
+9-1	601-605	Auch	_	_
+9-2	606-611	kenne	_	_
+9-3	612-615	ich	_	_
+9-4	616-621	meine	_	_
+9-5	622-627	Leute	_	_
+9-6	628-629	\;	_	_
+9-7	630-634	hier	_	_
+9-8	635-639	paßt	_	_
+9-9	640-643	man	_	_
+9-10	644-647	auf	_	_
+9-11	648-653	alles	_	_
+9-12	654-657	auf	_	_
+9-13	658-659	.	_	_
+
+#Text=Lanci 's Rechnungen schlafen aufs Neue .
+10-1	660-665	Lanci	*[31]	PERmentioned[31]
+10-2	666-668	's	*[31]	PERmentioned[31]
+10-3	669-679	Rechnungen	_	_
+10-4	680-688	schlafen	_	_
+10-5	689-693	aufs	_	_
+10-6	694-698	Neue	_	_
+10-7	699-700	.	_	_
+
+#Text=Il giovane che prestava assistenza non puö venir piü .
+11-1	701-703	Il	_	_
+11-2	704-711	giovane	_	_
+11-3	712-715	che	_	_
+11-4	716-724	prestava	_	_
+11-5	725-735	assistenza	_	_
+11-6	736-739	non	_	_
+11-7	740-743	puö	_	_
+11-8	744-749	venir	_	_
+11-9	750-753	piü	_	_
+11-10	754-755	.	_	_
+
+#Text=Die Sache wird ernst .
+12-1	756-759	Die	_	_
+12-2	760-765	Sache	_	_
+12-3	766-770	wird	_	_
+12-4	771-776	ernst	_	_
+12-5	777-778	.	_	_
+
+#Text=Lassen Sie ihn nichts merken , daß ich darauf hingedeutet .
+13-1	779-785	Lassen	_	_
+13-2	786-789	Sie	_	_
+13-3	790-793	ihn	_	_
+13-4	794-800	nichts	_	_
+13-5	801-807	merken	_	_
+13-6	808-809	,	_	_
+13-7	810-813	daß	_	_
+13-8	814-817	ich	_	_
+13-9	818-824	darauf	_	_
+13-10	825-836	hingedeutet	_	_
+13-11	837-838	.	_	_
+
+#Text=Se nd , guai !
+14-1	839-841	Se	_	_
+14-2	842-844	nd	_	_
+14-3	845-846	,	_	_
+14-4	847-851	guai	_	_
+14-5	852-853	!	_	_
+
+#Text=Forchhammer ist aus Etrurien zurück .
+15-1	854-865	Forchhammer	*	PERmentioned
+15-2	866-869	ist	_	_
+15-3	870-873	aus	_	_
+15-4	874-882	Etrurien	*	PLACEmentioned
+15-5	883-889	zurück	_	_
+15-6	890-891	.	_	_
+
+#Text=Die Vasenschätze des Prinzen sind bedeutend .
+16-1	892-895	Die	_	_
+16-2	896-908	Vasenschätze	_	_
+16-3	909-912	des	_	_
+16-4	913-920	Prinzen	*	PERmentioned
+16-5	921-925	sind	_	_
+16-6	926-935	bedeutend	_	_
+16-7	936-937	.	_	_
+
+#Text=Cadmus den Drachen tötend , Harmonia , Thebe , Apollon , Artemis etc. alle bis auf 2 mit Namen .
+17-1	938-944	Cadmus	*[19]	OBJ[19]
+17-2	945-948	den	*[19]	OBJ[19]
+17-3	949-956	Drachen	*[19]	OBJ[19]
+17-4	957-963	tötend	*[19]	OBJ[19]
+17-5	964-965	,	_	_
+17-6	966-974	Harmonia	*	MISC
+17-7	975-976	,	_	_
+17-8	977-982	Thebe	*	MISC
+17-9	983-984	,	_	_
+17-10	985-992	Apollon	*	MISC
+17-11	993-994	,	_	_
+17-12	995-1002	Artemis	*	MISC
+17-13	1003-1007	etc.	_	_
+17-14	1008-1012	alle	_	_
+17-15	1013-1016	bis	_	_
+17-16	1017-1020	auf	_	_
+17-17	1021-1022	2	_	_
+17-18	1023-1026	mit	_	_
+17-19	1027-1032	Namen	_	_
+17-20	1033-1034	.	_	_
+
+#Text=Parisurtheil , nur Himeros hat Namen .
+18-1	1035-1047	Parisurtheil	*	OBJ
+18-2	1048-1049	,	_	_
+18-3	1050-1053	nur	_	_
+18-4	1054-1061	Himeros	*	MISC
+18-5	1062-1065	hat	_	_
+18-6	1066-1071	Namen	_	_
+18-7	1072-1073	.	_	_
+
+#Text=Schaale mit kleinen Figuren , die ganze athen .
+19-1	1074-1081	Schaale	*[26]|*[27]	OBJ[26]|PERmentioned[27]
+19-2	1082-1085	mit	*[26]	OBJ[26]
+19-3	1086-1093	kleinen	*[26]	OBJ[26]
+19-4	1094-1101	Figuren	*[26]	OBJ[26]
+19-5	1102-1103	,	_	_
+19-6	1104-1107	die	_	_
+19-7	1108-1113	ganze	_	_
+19-8	1114-1119	athen	_	_
+19-9	1120-1121	.	_	_
+
+#Text=Heroensippschaft Aegeus , Theseus etc. jedesmal eine Mantelfigur und ein nackter , Vater und Sohn oder ähnlich .
+20-1	1122-1138	Heroensippschaft	_	_
+20-2	1139-1145	Aegeus	*	MISC
+20-3	1146-1147	,	_	_
+20-4	1148-1155	Theseus	*	MISC
+20-5	1156-1160	etc.	_	_
+20-6	1161-1169	jedesmal	_	_
+20-7	1170-1174	eine	_	_
+20-8	1175-1186	Mantelfigur	_	_
+20-9	1187-1190	und	_	_
+20-10	1191-1194	ein	_	_
+20-11	1195-1202	nackter	_	_
+20-12	1203-1204	,	_	_
+20-13	1205-1210	Vater	_	_
+20-14	1211-1214	und	_	_
+20-15	1215-1219	Sohn	_	_
+20-16	1220-1224	oder	_	_
+20-17	1225-1232	ähnlich	_	_
+20-18	1233-1234	.	_	_
+
+#Text=Die Jesuitenfehde über das Aes grave dauert fort .
+21-1	1235-1238	Die	_	_
+21-2	1239-1252	Jesuitenfehde	_	_
+21-3	1253-1257	über	_	_
+21-4	1258-1261	das	_	_
+21-5	1262-1265	Aes	*[30]	OBJ[30]
+21-6	1266-1271	grave	*[30]	OBJ[30]
+21-7	1272-1278	dauert	_	_
+21-8	1279-1283	fort	_	_
+21-9	1284-1285	.	_	_
+
+#Text=Borghesi scheint auf Cavedonis Seite zu sein , will aber an dem Streit nicht Theil nehmen und schweigt
+22-1	1286-1294	Borghesi	*	PERmentioned
+22-2	1295-1302	scheint	_	_
+22-3	1303-1306	auf	_	_
+22-4	1307-1316	Cavedonis	*	PERmentioned
+22-5	1317-1322	Seite	_	_
+22-6	1323-1325	zu	_	_
+22-7	1326-1330	sein	_	_
+22-8	1331-1332	,	_	_
+22-9	1333-1337	will	_	_
+22-10	1338-1342	aber	_	_
+22-11	1343-1345	an	_	_
+22-12	1346-1349	dem	_	_
+22-13	1350-1356	Streit	_	_
+22-14	1357-1362	nicht	_	_
+22-15	1363-1368	Theil	_	_
+22-16	1369-1375	nehmen	_	_
+22-17	1376-1379	und	_	_
+22-18	1380-1388	schweigt	_	_

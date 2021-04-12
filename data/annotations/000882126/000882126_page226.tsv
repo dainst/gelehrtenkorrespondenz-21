@@ -1,0 +1,151 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=394 Braun an Gerhard Rom , 5. Dezember 1837 fein behandelt , die Erhaltung ........ d. h. die Nase fehlt .
+1-1	0-3	394	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	5.	*[3]	DATEletter[3]
+1-8	30-38	Dezember	*[3]	DATEletter[3]
+1-9	39-43	1837	*[3]	DATEletter[3]
+1-10	44-48	fein	_	_
+1-11	49-58	behandelt	_	_
+1-12	59-60	,	_	_
+1-13	61-64	die	_	_
+1-14	65-74	Erhaltung	_	_
+1-15	75-83	........	_	_
+1-16	84-86	d.	_	_
+1-17	87-89	h.	_	_
+1-18	90-93	die	_	_
+1-19	94-98	Nase	_	_
+1-20	99-104	fehlt	_	_
+1-21	105-106	.	_	_
+
+#Text=In Vulci haben die Ausgrabungen äußerst günstigen Fortgang .
+2-1	107-109	In	_	_
+2-2	110-115	Vulci	*	PLACEmentioned
+2-3	116-121	haben	_	_
+2-4	122-125	die	_	_
+2-5	126-138	Ausgrabungen	_	_
+2-6	139-146	äußerst	_	_
+2-7	147-156	günstigen	_	_
+2-8	157-165	Fortgang	_	_
+2-9	166-167	.	_	_
+
+#Text=Man spricht von 7 - 8 runden Hügeln mit den reichsten Gräbern .
+3-1	168-171	Man	_	_
+3-2	172-179	spricht	_	_
+3-3	180-183	von	_	_
+3-4	184-185	7	_	_
+3-5	186-187	-	_	_
+3-6	188-189	8	_	_
+3-7	190-196	runden	_	_
+3-8	197-203	Hügeln	_	_
+3-9	204-207	mit	_	_
+3-10	208-211	den	_	_
+3-11	212-221	reichsten	_	_
+3-12	222-229	Gräbern	_	_
+3-13	230-231	.	_	_
+
+#Text=Außer vielen Scarabeen sind viele Goldarbeiten gefunden worden , unter anderen eine Fibula mit der Aufschrift Memento romane .
+4-1	232-237	Außer	_	_
+4-2	238-244	vielen	_	_
+4-3	245-254	Scarabeen	*	OBJ
+4-4	255-259	sind	_	_
+4-5	260-265	viele	_	_
+4-6	266-278	Goldarbeiten	*	OBJ
+4-7	279-287	gefunden	_	_
+4-8	288-294	worden	_	_
+4-9	295-296	,	_	_
+4-10	297-302	unter	_	_
+4-11	303-310	anderen	_	_
+4-12	311-315	eine	_	_
+4-13	316-322	Fibula	*	OBJ
+4-14	323-326	mit	_	_
+4-15	327-330	der	_	_
+4-16	331-341	Aufschrift	_	_
+4-17	342-349	Memento	_	_
+4-18	350-356	romane	_	_
+4-19	357-358	.	_	_
+
+#Text=Der kleine Abeken ist mit Gorgonenuntersuchungen beschäftigt und soll männliche Gorgonen entdeckt haben .
+5-1	359-362	Der	_	_
+5-2	363-369	kleine	_	_
+5-3	370-376	Abeken	*	PERmentioned
+5-4	377-380	ist	_	_
+5-5	381-384	mit	_	_
+5-6	385-407	Gorgonenuntersuchungen	_	_
+5-7	408-419	beschäftigt	_	_
+5-8	420-423	und	_	_
+5-9	424-428	soll	_	_
+5-10	429-438	männliche	_	_
+5-11	439-447	Gorgonen	_	_
+5-12	448-456	entdeckt	_	_
+5-13	457-462	haben	_	_
+5-14	463-464	.	_	_
+
+#Text=Hier ist eine ebenso replik des berühmten borshesischen Amor mit Fußketten zum Vorschein gekommen .
+6-1	465-469	Hier	_	_
+6-2	470-473	ist	_	_
+6-3	474-478	eine	*[4]	OBJ[4]
+6-4	479-485	ebenso	*[4]	OBJ[4]
+6-5	486-492	replik	*[4]	OBJ[4]
+6-6	493-496	des	_	_
+6-7	497-506	berühmten	_	_
+6-8	507-520	borshesischen	*[5]	OBJ[5]
+6-9	521-525	Amor	*[5]	OBJ[5]
+6-10	526-529	mit	_	_
+6-11	530-539	Fußketten	_	_
+6-12	540-543	zum	_	_
+6-13	544-553	Vorschein	_	_
+6-14	554-562	gekommen	_	_
+6-15	563-564	.	_	_
+
+#Text=Es soll ungewiß sein , ob der ebenso oder der borghesische Original ist .
+7-1	565-567	Es	_	_
+7-2	568-572	soll	_	_
+7-3	573-580	ungewiß	_	_
+7-4	581-585	sein	_	_
+7-5	586-587	,	_	_
+7-6	588-590	ob	_	_
+7-7	591-594	der	*[6]	OBJ[6]
+7-8	595-601	ebenso	*[6]	OBJ[6]
+7-9	602-606	oder	_	_
+7-10	607-610	der	*[7]	OBJ[7]
+7-11	611-623	borghesische	*[7]	OBJ[7]
+7-12	624-632	Original	_	_
+7-13	633-636	ist	_	_
+7-14	637-638	.	_	_
+
+#Text=Die Darstellung ist Ihnen aus Genmen mit dem trauernden gefesselten Amor der sich auf eine Hecke lehnt , geläufig .
+8-1	639-642	Die	_	_
+8-2	643-654	Darstellung	_	_
+8-3	655-658	ist	_	_
+8-4	659-664	Ihnen	_	_
+8-5	665-668	aus	_	_
+8-6	669-675	Genmen	_	_
+8-7	676-679	mit	_	_
+8-8	680-683	dem	_	_
+8-9	684-694	trauernden	_	_
+8-10	695-706	gefesselten	_	_
+8-11	707-711	Amor	*	PERmentioned
+8-12	712-715	der	_	_
+8-13	716-720	sich	_	_
+8-14	721-724	auf	_	_
+8-15	725-729	eine	_	_
+8-16	730-735	Hecke	_	_
+8-17	736-741	lehnt	_	_
+8-18	742-743	,	_	_
+8-19	744-752	geläufig	_	_
+8-20	753-754	.	_	_
+
+#Text=- Ihr treuer EBraun .
+9-1	755-756	-	_	_
+9-2	757-760	Ihr	_	_
+9-3	761-767	treuer	_	_
+9-4	768-774	EBraun	*	PERauthor
+9-5	775-776	.	_	_

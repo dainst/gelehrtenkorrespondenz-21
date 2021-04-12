@@ -1,0 +1,189 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 23. Juni 1862 - 3 - Abwarten .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	23.	*[3]	DATEletter[3]
+1-7	26-30	Juni	*[3]	DATEletter[3]
+1-8	31-35	1862	*[3]	DATEletter[3]
+1-9	36-37	-	_	_
+1-10	38-39	3	_	_
+1-11	40-41	-	_	_
+1-12	42-50	Abwarten	_	_
+1-13	51-52	.	_	_
+
+#Text=Pazienza , Caterina , sagte Cicero nach Angabe von Brandis Eseltreiber in Frascati .
+2-1	53-61	Pazienza	_	_
+2-2	62-63	,	_	_
+2-3	64-72	Caterina	_	_
+2-4	73-74	,	_	_
+2-5	75-80	sagte	_	_
+2-6	81-87	Cicero	_	_
+2-7	88-92	nach	_	_
+2-8	93-99	Angabe	_	_
+2-9	100-103	von	_	_
+2-10	104-111	Brandis	*	PERmentioned
+2-11	112-123	Eseltreiber	_	_
+2-12	124-126	in	_	_
+2-13	127-135	Frascati	*	PLACEmentioned
+2-14	136-137	.	_	_
+
+#Text=Seit 3 Tagen wieder schlechtes Wetter .
+3-1	138-142	Seit	_	_
+3-2	143-144	3	_	_
+3-3	145-150	Tagen	_	_
+3-4	151-157	wieder	_	_
+3-5	158-168	schlechtes	_	_
+3-6	169-175	Wetter	_	_
+3-7	176-177	.	_	_
+
+#Text=wird der S. Domenico ( Namenstags ) Scudo auch auf Nino übertragen ?
+4-1	178-182	wird	_	_
+4-2	183-186	der	_	_
+4-3	187-189	S.	_	_
+4-4	190-198	Domenico	_	_
+4-5	199-200	(	_	_
+4-6	201-211	Namenstags	_	_
+4-7	212-213	)	_	_
+4-8	214-219	Scudo	_	_
+4-9	220-224	auch	_	_
+4-10	225-228	auf	_	_
+4-11	229-233	Nino	*	PERmentioned
+4-12	234-244	übertragen	_	_
+4-13	245-246	?	_	_
+
+#Text=Das wäre morgen .
+5-1	247-250	Das	_	_
+5-2	251-255	wäre	_	_
+5-3	256-262	morgen	_	_
+5-4	263-264	.	_	_
+
+#Text=Um nichts zu präjudiciren , schweige ich vorläufig ganz drüber .
+6-1	265-267	Um	_	_
+6-2	268-274	nichts	_	_
+6-3	275-277	zu	_	_
+6-4	278-290	präjudiciren	_	_
+6-5	291-292	,	_	_
+6-6	293-301	schweige	_	_
+6-7	302-305	ich	_	_
+6-8	306-315	vorläufig	_	_
+6-9	316-320	ganz	_	_
+6-10	321-327	drüber	_	_
+6-11	328-329	.	_	_
+
+#Text=Bitte um irgend eine Antwort für Forcella .
+7-1	330-335	Bitte	_	_
+7-2	336-338	um	_	_
+7-3	339-345	irgend	_	_
+7-4	346-350	eine	_	_
+7-5	351-358	Antwort	_	_
+7-6	359-362	für	_	_
+7-7	363-371	Forcella	*	PERmentioned
+7-8	372-373	.	_	_
+
+#Text=Im ungünstigen Falle wünscht er Rücksendung des Catalog .
+8-1	374-376	Im	_	_
+8-2	377-388	ungünstigen	_	_
+8-3	389-394	Falle	_	_
+8-4	395-402	wünscht	_	_
+8-5	403-405	er	_	_
+8-6	406-417	Rücksendung	_	_
+8-7	418-421	des	_	_
+8-8	422-429	Catalog	_	_
+8-9	430-431	.	_	_
+
+#Text=Rosa war einen Tag unwohl , aber wiederhergestellt .
+9-1	432-436	Rosa	*	PERmentioned
+9-2	437-440	war	_	_
+9-3	441-446	einen	_	_
+9-4	447-450	Tag	_	_
+9-5	451-457	unwohl	_	_
+9-6	458-459	,	_	_
+9-7	460-464	aber	_	_
+9-8	465-482	wiederhergestellt	_	_
+9-9	483-484	.	_	_
+
+#Text=Miscio un po ' sciuppato aus Traurigkeit .
+10-1	485-491	Miscio	*	PERmentioned
+10-2	492-494	un	_	_
+10-3	495-497	po	_	_
+10-4	498-499	'	_	_
+10-5	500-509	sciuppato	_	_
+10-6	510-513	aus	_	_
+10-7	514-525	Traurigkeit	_	_
+10-8	526-527	.	_	_
+
+#Text=Finder vorgesternrach Rocca di Papa übergesiedelt .
+11-1	528-534	Finder	*	PERmentioned
+11-2	535-549	vorgesternrach	_	_
+11-3	550-555	Rocca	*[4]	PLACEmentioned[4]
+11-4	556-558	di	*[4]	PLACEmentioned[4]
+11-5	559-563	Papa	*[4]	PLACEmentioned[4]
+11-6	564-577	übergesiedelt	_	_
+11-7	578-579	.	_	_
+
+#Text=Aufsatz abgeliefert .
+12-1	580-587	Aufsatz	_	_
+12-2	588-599	abgeliefert	_	_
+12-3	600-601	.	_	_
+
+#Text=- Reitferscheidfuckst immer nach .
+13-1	602-603	-	_	_
+13-2	604-623	Reitferscheidfuckst	*	PERmentioned
+13-3	624-629	immer	_	_
+13-4	630-634	nach	_	_
+13-5	635-636	.	_	_
+
+#Text=Vorige Woche habe ich wieder in der Bibliothek gewirthschaftet , werde aber noch ein Paar Wochen zu thun haben .
+14-1	637-643	Vorige	_	_
+14-2	644-649	Woche	_	_
+14-3	650-654	habe	_	_
+14-4	655-658	ich	_	_
+14-5	659-665	wieder	_	_
+14-6	666-668	in	_	_
+14-7	669-672	der	_	_
+14-8	673-683	Bibliothek	*	ORGmentioned
+14-9	684-699	gewirthschaftet	_	_
+14-10	700-701	,	_	_
+14-11	702-707	werde	_	_
+14-12	708-712	aber	_	_
+14-13	713-717	noch	_	_
+14-14	718-721	ein	_	_
+14-15	722-726	Paar	_	_
+14-16	727-733	Wochen	_	_
+14-17	734-736	zu	_	_
+14-18	737-741	thun	_	_
+14-19	742-747	haben	_	_
+14-20	748-749	.	_	_
+
+#Text=Sonst alles in Ordnung .
+15-1	750-755	Sonst	_	_
+15-2	756-761	alles	_	_
+15-3	762-764	in	_	_
+15-4	765-772	Ordnung	_	_
+15-5	773-774	.	_	_
+
+#Text=Mit besten Grüßen allerseits .
+16-1	775-778	Mit	_	_
+16-2	779-785	besten	_	_
+16-3	786-792	Grüßen	_	_
+16-4	793-803	allerseits	_	_
+16-5	804-805	.	_	_
+
+#Text=Ihr HBrunn .
+17-1	806-809	Ihr	_	_
+17-2	810-816	HBrunn	*	PERauthor
+17-3	817-818	.	_	_
+
+#Text=Rom 23/VI , & 2 .
+18-1	819-822	Rom	*	PLACEfrom
+18-2	823-828	23/VI	*[5]	DATEletter[5]
+18-3	829-830	,	_	_
+18-4	831-832	&	_	_
+18-5	833-834	2	_	_
+18-6	835-836	.	_	_

@@ -1,0 +1,290 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=371 Braun an Gerhard Modena , 26 .
+1-1	0-3	371	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-27	Modena	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	26	*[17]	DATEletter[17]
+1-8	33-34	.	*[17]	DATEletter[17]
+
+#Text=Oktober 1837 Modena 26 Octbr 1837 .
+2-1	35-42	Oktober	*[17]	DATEletter[17]
+2-2	43-47	1837	*[17]	DATEletter[17]
+2-3	48-54	Modena	*	PLACEfrom
+2-4	55-57	26	*[18]	DATEletter[18]
+2-5	58-63	Octbr	*[18]	DATEletter[18]
+2-6	64-68	1837	*[18]	DATEletter[18]
+2-7	69-70	.	_	_
+
+#Text=Hochverehrtester Freund !
+3-1	71-87	Hochverehrtester	_	_
+3-2	88-94	Freund	_	_
+3-3	95-96	!	_	_
+
+#Text=Nachdem ich endlich eine bis zum Sterben langweilige Quarantäne überstanden , treffe ich hier erst Ihren Brief vom 28 September an , der mich in Mailand und Verona verfehlt hatte und nach Modena vorausgeschickt worden war .
+4-1	97-104	Nachdem	_	_
+4-2	105-108	ich	_	_
+4-3	109-116	endlich	_	_
+4-4	117-121	eine	_	_
+4-5	122-125	bis	_	_
+4-6	126-129	zum	_	_
+4-7	130-137	Sterben	_	_
+4-8	138-149	langweilige	_	_
+4-9	150-160	Quarantäne	_	_
+4-10	161-172	überstanden	_	_
+4-11	173-174	,	_	_
+4-12	175-181	treffe	_	_
+4-13	182-185	ich	_	_
+4-14	186-190	hier	_	_
+4-15	191-195	erst	_	_
+4-16	196-201	Ihren	_	_
+4-17	202-207	Brief	_	_
+4-18	208-211	vom	_	_
+4-19	212-214	28	*[19]	DATEmentioned[19]
+4-20	215-224	September	*[19]	DATEmentioned[19]
+4-21	225-227	an	_	_
+4-22	228-229	,	_	_
+4-23	230-233	der	_	_
+4-24	234-238	mich	_	_
+4-25	239-241	in	_	_
+4-26	242-249	Mailand	*	PLACEmentioned
+4-27	250-253	und	_	_
+4-28	254-260	Verona	*	PLACEmentioned
+4-29	261-269	verfehlt	_	_
+4-30	270-275	hatte	_	_
+4-31	276-279	und	_	_
+4-32	280-284	nach	_	_
+4-33	285-291	Modena	*	PLACEmentioned
+4-34	292-307	vorausgeschickt	_	_
+4-35	308-314	worden	_	_
+4-36	315-318	war	_	_
+4-37	319-320	.	_	_
+
+#Text=Ich beeile mich Ihnen in Betreff der Kistensendungen Folgendes eiligst anzudeuten .
+5-1	321-324	Ich	_	_
+5-2	325-331	beeile	_	_
+5-3	332-336	mich	_	_
+5-4	337-342	Ihnen	_	_
+5-5	343-345	in	_	_
+5-6	346-353	Betreff	_	_
+5-7	354-357	der	_	_
+5-8	358-373	Kistensendungen	_	_
+5-9	374-383	Folgendes	_	_
+5-10	384-391	eiligst	_	_
+5-11	392-402	anzudeuten	_	_
+5-12	403-404	.	_	_
+
+#Text=Wegen der Livorneser Sendung habe ich schon vor längerer Zeit an Lepsius geschrieben , daß er das Ungeheuer den De : Antonis vorläufig rädeln soll .
+6-1	405-410	Wegen	_	_
+6-2	411-414	der	_	_
+6-3	415-425	Livorneser	*	MISC
+6-4	426-433	Sendung	_	_
+6-5	434-438	habe	_	_
+6-6	439-442	ich	_	_
+6-7	443-448	schon	_	_
+6-8	449-452	vor	_	_
+6-9	453-461	längerer	_	_
+6-10	462-466	Zeit	_	_
+6-11	467-469	an	_	_
+6-12	470-477	Lepsius	*	PERmentioned
+6-13	478-489	geschrieben	_	_
+6-14	490-491	,	_	_
+6-15	492-495	daß	_	_
+6-16	496-498	er	_	_
+6-17	499-502	das	_	_
+6-18	503-512	Ungeheuer	_	_
+6-19	513-516	den	_	_
+6-20	517-519	De	*[21]	PERmentioned[21]
+6-21	520-521	:	*[21]	PERmentioned[21]
+6-22	522-529	Antonis	*[21]	PERmentioned[21]
+6-23	530-539	vorläufig	_	_
+6-24	540-546	rädeln	_	_
+6-25	547-551	soll	_	_
+6-26	552-553	.	_	_
+
+#Text=Hüten Sie sich nur vor sofortigen Auszahlungen !
+7-1	554-559	Hüten	_	_
+7-2	560-563	Sie	_	_
+7-3	564-568	sich	_	_
+7-4	569-572	nur	_	_
+7-5	573-576	vor	_	_
+7-6	577-587	sofortigen	_	_
+7-7	588-600	Auszahlungen	_	_
+7-8	601-602	!	_	_
+
+#Text=In Rom habe ich den De Antonis schon in meiner Gewalt .
+8-1	603-605	In	_	_
+8-2	606-609	Rom	*	PLACEmentioned
+8-3	610-614	habe	_	_
+8-4	615-618	ich	_	_
+8-5	619-622	den	_	_
+8-6	623-625	De	*[20]	PERmentioned[20]
+8-7	626-633	Antonis	*[20]	PERmentioned[20]
+8-8	634-639	schon	_	_
+8-9	640-642	in	_	_
+8-10	643-649	meiner	_	_
+8-11	650-656	Gewalt	_	_
+8-12	657-658	.	_	_
+
+#Text=Veberhaupt ist es besser alle Zahlungen in Rom zu machen und vorher alle Mißhelliskeiten mit den zwischenliegenden Spediteurs auszugleichen .
+9-1	659-669	Veberhaupt	_	_
+9-2	670-673	ist	_	_
+9-3	674-676	es	_	_
+9-4	677-683	besser	_	_
+9-5	684-688	alle	_	_
+9-6	689-698	Zahlungen	_	_
+9-7	699-701	in	_	_
+9-8	702-705	Rom	*	PLACEmentioned
+9-9	706-708	zu	_	_
+9-10	709-715	machen	_	_
+9-11	716-719	und	_	_
+9-12	720-726	vorher	_	_
+9-13	727-731	alle	_	_
+9-14	732-747	Mißhelliskeiten	_	_
+9-15	748-751	mit	_	_
+9-16	752-755	den	_	_
+9-17	756-773	zwischenliegenden	_	_
+9-18	774-784	Spediteurs	_	_
+9-19	785-798	auszugleichen	_	_
+9-20	799-800	.	_	_
+
+#Text=- Kommen Ihre Kisten in Berlin an , so lassen Sie ihr Gewicht sofort neu aufnehmen und auf römische Pfunde reduciren .
+10-1	801-802	-	_	_
+10-2	803-809	Kommen	_	_
+10-3	810-814	Ihre	_	_
+10-4	815-821	Kisten	_	_
+10-5	822-824	in	_	_
+10-6	825-831	Berlin	*	PLACEmentioned
+10-7	832-834	an	_	_
+10-8	835-836	,	_	_
+10-9	837-839	so	_	_
+10-10	840-846	lassen	_	_
+10-11	847-850	Sie	_	_
+10-12	851-854	ihr	_	_
+10-13	855-862	Gewicht	_	_
+10-14	863-869	sofort	_	_
+10-15	870-873	neu	_	_
+10-16	874-883	aufnehmen	_	_
+10-17	884-887	und	_	_
+10-18	888-891	auf	_	_
+10-19	892-900	römische	_	_
+10-20	901-907	Pfunde	_	_
+10-21	908-917	reduciren	_	_
+10-22	918-919	.	_	_
+
+#Text=Man wird dann sehen , ob sie nicht zu leicht gewogen , wovon ich Beispiele habe .
+11-1	920-923	Man	_	_
+11-2	924-928	wird	_	_
+11-3	929-933	dann	_	_
+11-4	934-939	sehen	_	_
+11-5	940-941	,	_	_
+11-6	942-944	ob	_	_
+11-7	945-948	sie	_	_
+11-8	949-954	nicht	_	_
+11-9	955-957	zu	_	_
+11-10	958-964	leicht	_	_
+11-11	965-972	gewogen	_	_
+11-12	973-974	,	_	_
+11-13	975-980	wovon	_	_
+11-14	981-984	ich	_	_
+11-15	985-994	Beispiele	_	_
+11-16	995-999	habe	_	_
+11-17	1000-1001	.	_	_
+
+#Text=Dieses Gewicht schreiben Sie mir schleunigsst mit allen sonstigen Umständen .
+12-1	1002-1008	Dieses	_	_
+12-2	1009-1016	Gewicht	_	_
+12-3	1017-1026	schreiben	_	_
+12-4	1027-1030	Sie	_	_
+12-5	1031-1034	mir	_	_
+12-6	1035-1047	schleunigsst	_	_
+12-7	1048-1051	mit	_	_
+12-8	1052-1057	allen	_	_
+12-9	1058-1067	sonstigen	_	_
+12-10	1068-1077	Umständen	_	_
+12-11	1078-1079	.	_	_
+
+#Text=Die Zahlung suchen Sie auf den römischen Spediteur zu redressiren .
+13-1	1080-1083	Die	_	_
+13-2	1084-1091	Zahlung	_	_
+13-3	1092-1098	suchen	_	_
+13-4	1099-1102	Sie	_	_
+13-5	1103-1106	auf	_	_
+13-6	1107-1110	den	_	_
+13-7	1111-1120	römischen	_	_
+13-8	1121-1130	Spediteur	_	_
+13-9	1131-1133	zu	_	_
+13-10	1134-1145	redressiren	_	_
+13-11	1146-1147	.	_	_
+
+#Text=Das scheint mir unter allen von Bunsen , mir und andern versuchten Mitteln das einzige zu sein , welches einigen Erfolg verspricht .
+14-1	1148-1151	Das	_	_
+14-2	1152-1159	scheint	_	_
+14-3	1160-1163	mir	_	_
+14-4	1164-1169	unter	_	_
+14-5	1170-1175	allen	_	_
+14-6	1176-1179	von	_	_
+14-7	1180-1186	Bunsen	*	PERmentioned
+14-8	1187-1188	,	_	_
+14-9	1189-1192	mir	_	_
+14-10	1193-1196	und	_	_
+14-11	1197-1203	andern	_	_
+14-12	1204-1214	versuchten	_	_
+14-13	1215-1222	Mitteln	_	_
+14-14	1223-1226	das	_	_
+14-15	1227-1234	einzige	_	_
+14-16	1235-1237	zu	_	_
+14-17	1238-1242	sein	_	_
+14-18	1243-1244	,	_	_
+14-19	1245-1252	welches	_	_
+14-20	1253-1260	einigen	_	_
+14-21	1261-1267	Erfolg	_	_
+14-22	1268-1278	verspricht	_	_
+14-23	1279-1280	.	_	_
+
+#Text=Sie werden schon geschäftsmäßige Mittel finden eine unzeitige Zahlung zu vermeiden , ohne Ihre Sachen deshalb zurückbehalten zu sehen .
+15-1	1281-1284	Sie	_	_
+15-2	1285-1291	werden	_	_
+15-3	1292-1297	schon	_	_
+15-4	1298-1313	geschäftsmäßige	_	_
+15-5	1314-1320	Mittel	_	_
+15-6	1321-1327	finden	_	_
+15-7	1328-1332	eine	_	_
+15-8	1333-1342	unzeitige	_	_
+15-9	1343-1350	Zahlung	_	_
+15-10	1351-1353	zu	_	_
+15-11	1354-1363	vermeiden	_	_
+15-12	1364-1365	,	_	_
+15-13	1366-1370	ohne	_	_
+15-14	1371-1375	Ihre	_	_
+15-15	1376-1382	Sachen	_	_
+15-16	1383-1390	deshalb	_	_
+15-17	1391-1405	zurückbehalten	_	_
+15-18	1406-1408	zu	_	_
+15-19	1409-1414	sehen	_	_
+15-20	1415-1416	.	_	_
+
+#Text=Lepsius hat so viel ich weiß bis dato keine Spedizion gemacht .
+16-1	1417-1424	Lepsius	*	PERmentioned
+16-2	1425-1428	hat	_	_
+16-3	1429-1431	so	_	_
+16-4	1432-1436	viel	_	_
+16-5	1437-1440	ich	_	_
+16-6	1441-1445	weiß	_	_
+16-7	1446-1449	bis	_	_
+16-8	1450-1454	dato	_	_
+16-9	1455-1460	keine	_	_
+16-10	1461-1470	Spedizion	_	_
+16-11	1471-1478	gemacht	_	_
+16-12	1479-1480	.	_	_
+
+#Text=Choleradrang und eigene Reisen
+17-1	1481-1493	Choleradrang	_	_
+17-2	1494-1497	und	_	_
+17-3	1498-1504	eigene	_	_
+17-4	1505-1511	Reisen	_	_

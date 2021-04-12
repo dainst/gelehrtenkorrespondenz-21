@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=273 Braun an Gerhard Prof , Gerhard Rom , 26. Februar 1835 Roma , li 26 febbrajo 1835 Hochverehrtester Freund !
+1-1	0-3	273	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-25	Prof	*[1]	PERaddressee[1]
+1-6	26-27	,	*[1]	PERaddressee[1]
+1-7	28-35	Gerhard	*[1]	PERaddressee[1]
+1-8	36-39	Rom	*	PLACEfrom
+1-9	40-41	,	_	_
+1-10	42-45	26.	*[2]	DATEletter[2]
+1-11	46-53	Februar	*[2]	DATEletter[2]
+1-12	54-58	1835	*[2]	DATEletter[2]
+1-13	59-63	Roma	*	PLACEfrom
+1-14	64-65	,	_	_
+1-15	66-68	li	_	_
+1-16	69-71	26	*[3]	DATEletter[3]
+1-17	72-80	febbrajo	*[3]	DATEletter[3]
+1-18	81-85	1835	*[3]	DATEletter[3]
+1-19	86-102	Hochverehrtester	*[4]	PERaddressee[4]
+1-20	103-109	Freund	*[4]	PERaddressee[4]
+1-21	110-111	!	*[4]	PERaddressee[4]
+
+#Text=Ihren Wechsel habe ich mit heutiger Post erhalten .
+2-1	112-117	Ihren	_	_
+2-2	118-125	Wechsel	_	_
+2-3	126-130	habe	_	_
+2-4	131-134	ich	_	_
+2-5	135-138	mit	_	_
+2-6	139-147	heutiger	_	_
+2-7	148-152	Post	_	_
+2-8	153-161	erhalten	_	_
+2-9	162-163	.	_	_
+
+#Text=Valentini zahlte dafür ( Vacanza .
+3-1	164-173	Valentini	*	PERmentioned
+3-2	174-180	zahlte	_	_
+3-3	181-186	dafür	_	_
+3-4	187-188	(	_	_
+3-5	189-196	Vacanza	_	_
+3-6	197-198	.	_	_
+
+#Text=Giovedi grasso ) Abschrift des Preventivo : - -folgt eine Aufstellung von Namen und Ziffern - - Meinen herzlichsten Glückwunsch zu der glänzenden Eröffnung Ihrer Vorlesungen \| !
+4-1	199-206	Giovedi	_	_
+4-2	207-213	grasso	_	_
+4-3	214-215	)	_	_
+4-4	216-225	Abschrift	_	_
+4-5	226-229	des	_	_
+4-6	230-240	Preventivo	_	_
+4-7	241-242	:	_	_
+4-8	243-244	-	_	_
+4-9	245-251	-folgt	_	_
+4-10	252-256	eine	_	_
+4-11	257-268	Aufstellung	_	_
+4-12	269-272	von	_	_
+4-13	273-278	Namen	_	_
+4-14	279-282	und	_	_
+4-15	283-290	Ziffern	_	_
+4-16	291-292	-	_	_
+4-17	293-294	-	_	_
+4-18	295-301	Meinen	_	_
+4-19	302-314	herzlichsten	_	_
+4-20	315-326	Glückwunsch	_	_
+4-21	327-329	zu	_	_
+4-22	330-333	der	_	_
+4-23	334-344	glänzenden	_	_
+4-24	345-354	Eröffnung	_	_
+4-25	355-360	Ihrer	_	_
+4-26	361-372	Vorlesungen	_	_
+4-27	373-374	\|	_	_
+4-28	375-376	!	_	_
+
+#Text=Die 80 Scudi habe ich auf Ihren Namen , nicht Ihnen zur Last geschrieben , wie Sie es angeordnet .
+5-1	377-380	Die	_	_
+5-2	381-383	80	_	_
+5-3	384-389	Scudi	_	_
+5-4	390-394	habe	_	_
+5-5	395-398	ich	_	_
+5-6	399-402	auf	_	_
+5-7	403-408	Ihren	_	_
+5-8	409-414	Namen	_	_
+5-9	415-416	,	_	_
+5-10	417-422	nicht	_	_
+5-11	423-428	Ihnen	_	_
+5-12	429-432	zur	_	_
+5-13	433-437	Last	_	_
+5-14	438-449	geschrieben	_	_
+5-15	450-451	,	_	_
+5-16	452-455	wie	_	_
+5-17	456-459	Sie	_	_
+5-18	460-462	es	_	_
+5-19	463-473	angeordnet	_	_
+5-20	474-475	.	_	_
+
+#Text=Sie schrieben mir mehrfach , daß Sie Sorge haben würden diesen Zuschuß ( 30 se .
+6-1	476-479	Sie	_	_
+6-2	480-489	schrieben	_	_
+6-3	490-493	mir	_	_
+6-4	494-502	mehrfach	_	_
+6-5	503-504	,	_	_
+6-6	505-508	daß	_	_
+6-7	509-512	Sie	_	_
+6-8	513-518	Sorge	_	_
+6-9	519-524	haben	_	_
+6-10	525-531	würden	_	_
+6-11	532-538	diesen	_	_
+6-12	539-546	Zuschuß	_	_
+6-13	547-548	(	_	_
+6-14	549-551	30	_	_
+6-15	552-554	se	_	_
+6-16	555-556	.	_	_
+
+#Text=Ihrer Reise mehr ) unter irgend einer Form zu vertreten .
+7-1	557-562	Ihrer	_	_
+7-2	563-568	Reise	_	_
+7-3	569-573	mehr	_	_
+7-4	574-575	)	_	_
+7-5	576-581	unter	_	_
+7-6	582-588	irgend	_	_
+7-7	589-594	einer	_	_
+7-8	595-599	Form	_	_
+7-9	600-602	zu	_	_
+7-10	603-612	vertreten	_	_
+7-11	613-614	.	_	_
+
+#Text=Blos deshalb , in dieser Aufführung \| !
+8-1	615-619	Blos	_	_
+8-2	620-627	deshalb	_	_
+8-3	628-629	,	_	_
+8-4	630-632	in	_	_
+8-5	633-639	dieser	_	_
+8-6	640-650	Aufführung	_	_
+8-7	651-652	\|	_	_
+8-8	653-654	!	_	_
+
+#Text=Temmel wurde erinnert , schien die Zahlung auf Ihre Rückkehr versparen zu wollen und bezahlt nur in diesen Tagen .
+9-1	655-661	Temmel	_	_
+9-2	662-667	wurde	_	_
+9-3	668-676	erinnert	_	_
+9-4	677-678	,	_	_
+9-5	679-685	schien	_	_
+9-6	686-689	die	_	_
+9-7	690-697	Zahlung	_	_
+9-8	698-701	auf	_	_
+9-9	702-706	Ihre	_	_
+9-10	707-715	Rückkehr	_	_
+9-11	716-725	versparen	_	_
+9-12	726-728	zu	_	_
+9-13	729-735	wollen	_	_
+9-14	736-739	und	_	_
+9-15	740-747	bezahlt	_	_
+9-16	748-751	nur	_	_
+9-17	752-754	in	_	_
+9-18	755-761	diesen	_	_
+9-19	762-767	Tagen	_	_
+9-20	768-769	.	_	_
+
+#Text=\| Für Mosaiken zahlte ich im September an Vollard Sc. 7 baj .
+10-1	770-771	\|	_	_
+10-2	772-775	Für	_	_
+10-3	776-784	Mosaiken	_	_
+10-4	785-791	zahlte	_	_
+10-5	792-795	ich	_	_
+10-6	796-798	im	_	_
+10-7	799-808	September	_	_
+10-8	809-811	an	_	_
+10-9	812-819	Vollard	_	_
+10-10	820-823	Sc.	_	_
+10-11	824-825	7	_	_
+10-12	826-829	baj	_	_
+10-13	830-831	.	_	_
+
+#Text=60 .
+11-1	832-834	60	_	_
+11-2	835-836	.	_	_
+
+#Text=- Hoffentlich haben Sie sie durch Abich erhalten .
+12-1	837-838	-	_	_
+12-2	839-850	Hoffentlich	_	_
+12-3	851-856	haben	_	_
+12-4	857-860	Sie	_	_
+12-5	861-864	sie	_	_
+12-6	865-870	durch	_	_
+12-7	871-876	Abich	*	PERmentioned
+12-8	877-885	erhalten	_	_
+12-9	886-887	.	_	_
+
+#Text=Für neuen Kistenbeischluß soll ich jetzt eine Rechnung von etwa 717 Sc. zahlen , compresavi la statua etrusca con piedestallo , .
+13-1	888-891	Für	_	_
+13-2	892-897	neuen	_	_
+13-3	898-913	Kistenbeischluß	_	_
+13-4	914-918	soll	_	_
+13-5	919-922	ich	_	_
+13-6	923-928	jetzt	_	_
+13-7	929-933	eine	_	_
+13-8	934-942	Rechnung	_	_
+13-9	943-946	von	_	_
+13-10	947-951	etwa	_	_
+13-11	952-955	717	_	_
+13-12	956-959	Sc.	_	_
+13-13	960-966	zahlen	_	_
+13-14	967-968	,	_	_
+13-15	969-979	compresavi	_	_
+13-16	980-982	la	_	_
+13-17	983-989	statua	_	_
+13-18	990-997	etrusca	*[5]	OBJ[5]
+13-19	998-1001	con	*[5]	OBJ[5]
+13-20	1002-1013	piedestallo	*[5]	OBJ[5]
+13-21	1014-1015	,	_	_
+13-22	1016-1017	.	_	_
+
+#Text=Der Penthesileaspiegel wurde von Durand bereits nach Paris spedirt ist aber von Campanari reclamirt worden und letzterer verschiedene Rückstände nur unter dieser
+14-1	1018-1021	Der	_	_
+14-2	1022-1040	Penthesileaspiegel	*	OBJ
+14-3	1041-1046	wurde	_	_
+14-4	1047-1050	von	_	_
+14-5	1051-1057	Durand	*	PERmentioned
+14-6	1058-1065	bereits	_	_
+14-7	1066-1070	nach	_	_
+14-8	1071-1076	Paris	*	PLACEmentioned
+14-9	1077-1084	spedirt	_	_
+14-10	1085-1088	ist	_	_
+14-11	1089-1093	aber	_	_
+14-12	1094-1097	von	_	_
+14-13	1098-1107	Campanari	*	PERmentioned
+14-14	1108-1117	reclamirt	_	_
+14-15	1118-1124	worden	_	_
+14-16	1125-1128	und	_	_
+14-17	1129-1138	letzterer	_	_
+14-18	1139-1151	verschiedene	_	_
+14-19	1152-1162	Rückstände	_	_
+14-20	1163-1166	nur	_	_
+14-21	1167-1172	unter	_	_
+14-22	1173-1179	dieser	_	_

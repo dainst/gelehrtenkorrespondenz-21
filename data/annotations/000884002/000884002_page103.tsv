@@ -1,0 +1,181 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 7. Juni ?
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-24	7.	*[1]	DATEletter[1]
+1-7	25-29	Juni	*[1]	DATEletter[1]
+1-8	30-31	?	*[1]	DATEletter[1]
+
+#Text=1862 \_ 5 - Von des Vergers , der am 2 April mir schrieb , er schicke en möme temps Ordre nach Rimini , mir meine 120 Scudi für die Restaurationen zu senden , noch immer nichts \; eben so wenig über d. Bezahlung der Goldsachen .
+2-1	32-36	1862	*[1]	DATEletter[1]
+2-2	37-38	\_	_	_
+2-3	39-40	5	_	_
+2-4	41-42	-	_	_
+2-5	43-46	Von	_	_
+2-6	47-50	des	*[2]	PERmentioned[2]
+2-7	51-58	Vergers	*[2]	PERmentioned[2]
+2-8	59-60	,	_	_
+2-9	61-64	der	_	_
+2-10	65-67	am	_	_
+2-11	68-69	2	*[3]	DATEmentioned[3]
+2-12	70-75	April	*[3]	DATEmentioned[3]
+2-13	76-79	mir	_	_
+2-14	80-87	schrieb	_	_
+2-15	88-89	,	_	_
+2-16	90-92	er	_	_
+2-17	93-100	schicke	_	_
+2-18	101-103	en	_	_
+2-19	104-108	möme	_	_
+2-20	109-114	temps	_	_
+2-21	115-120	Ordre	_	_
+2-22	121-125	nach	_	_
+2-23	126-132	Rimini	*	PLACEmentioned
+2-24	133-134	,	_	_
+2-25	135-138	mir	_	_
+2-26	139-144	meine	_	_
+2-27	145-148	120	_	_
+2-28	149-154	Scudi	_	_
+2-29	155-158	für	_	_
+2-30	159-162	die	_	_
+2-31	163-177	Restaurationen	_	_
+2-32	178-180	zu	_	_
+2-33	181-187	senden	_	_
+2-34	188-189	,	_	_
+2-35	190-194	noch	_	_
+2-36	195-200	immer	_	_
+2-37	201-207	nichts	_	_
+2-38	208-209	\;	_	_
+2-39	210-214	eben	_	_
+2-40	215-217	so	_	_
+2-41	218-223	wenig	_	_
+2-42	224-228	über	_	_
+2-43	229-231	d.	_	_
+2-44	232-241	Bezahlung	_	_
+2-45	242-245	der	_	_
+2-46	246-256	Goldsachen	*	OBJ
+2-47	257-258	.	_	_
+
+#Text=Solche Bummelei fängt dann doch an zu arg zu werden .
+3-1	259-265	Solche	_	_
+3-2	266-274	Bummelei	_	_
+3-3	275-280	fängt	_	_
+3-4	281-285	dann	_	_
+3-5	286-290	doch	_	_
+3-6	291-293	an	_	_
+3-7	294-296	zu	_	_
+3-8	297-300	arg	_	_
+3-9	301-303	zu	_	_
+3-10	304-310	werden	_	_
+3-11	311-312	.	_	_
+
+#Text=Wegen des Fußbodens werde ich Schulz möglichst drängen .
+4-1	313-318	Wegen	_	_
+4-2	319-322	des	_	_
+4-3	323-332	Fußbodens	_	_
+4-4	333-338	werde	_	_
+4-5	339-342	ich	_	_
+4-6	343-349	Schulz	*	PERmentioned
+4-7	350-359	möglichst	_	_
+4-8	360-367	drängen	_	_
+4-9	368-369	.	_	_
+
+#Text=Fortunati soll eine Amor= und Psyche-Gruppe ( schön ) gefunden habe .
+5-1	370-379	Fortunati	*	PERmentioned
+5-2	380-384	soll	_	_
+5-3	385-389	eine	_	_
+5-4	390-395	Amor=	*[4]	OBJ[4]
+5-5	396-399	und	*[4]	OBJ[4]
+5-6	400-413	Psyche-Gruppe	*[4]	OBJ[4]
+5-7	414-415	(	_	_
+5-8	416-421	schön	_	_
+5-9	422-423	)	_	_
+5-10	424-432	gefunden	_	_
+5-11	433-437	habe	_	_
+5-12	438-439	.	_	_
+
+#Text=Ich werde in den nächsten Tagen Inspiciren .
+6-1	440-443	Ich	_	_
+6-2	444-449	werde	_	_
+6-3	450-452	in	_	_
+6-4	453-456	den	_	_
+6-5	457-465	nächsten	_	_
+6-6	466-471	Tagen	_	_
+6-7	472-482	Inspiciren	_	_
+6-8	483-484	.	_	_
+
+#Text=Forcella ist mit Einregistrirung der cod . des 15 Saec .
+7-1	485-493	Forcella	*	PERmentioned
+7-2	494-497	ist	_	_
+7-3	498-501	mit	_	_
+7-4	502-517	Einregistrirung	_	_
+7-5	518-521	der	_	_
+7-6	522-525	cod	_	_
+7-7	526-527	.	_	_
+7-8	528-531	des	_	_
+7-9	532-534	15	_	_
+7-10	535-539	Saec	_	_
+7-11	540-541	.	_	_
+
+#Text=beschäftigt , eben am Cod . Oliv .
+8-1	542-553	beschäftigt	_	_
+8-2	554-555	,	_	_
+8-3	556-560	eben	_	_
+8-4	561-563	am	_	_
+8-5	564-567	Cod	_	_
+8-6	568-569	.	_	_
+8-7	570-574	Oliv	_	_
+8-8	575-576	.	_	_
+
+#Text=Ich sehe ihn natürlich selten , doch sagt Rosa , daß er mit Ausnahme des Mittwochs , wo er unwohl , in dieser Woche regelmäßig dagewesen sei .
+9-1	577-580	Ich	_	_
+9-2	581-585	sehe	_	_
+9-3	586-589	ihn	_	_
+9-4	590-599	natürlich	_	_
+9-5	600-606	selten	_	_
+9-6	607-608	,	_	_
+9-7	609-613	doch	_	_
+9-8	614-618	sagt	_	_
+9-9	619-623	Rosa	*	PERmentioned
+9-10	624-625	,	_	_
+9-11	626-629	daß	_	_
+9-12	630-632	er	_	_
+9-13	633-636	mit	_	_
+9-14	637-645	Ausnahme	_	_
+9-15	646-649	des	_	_
+9-16	650-659	Mittwochs	*	DATEmentioned
+9-17	660-661	,	_	_
+9-18	662-664	wo	_	_
+9-19	665-667	er	_	_
+9-20	668-674	unwohl	_	_
+9-21	675-676	,	_	_
+9-22	677-679	in	_	_
+9-23	680-686	dieser	_	_
+9-24	687-692	Woche	_	_
+9-25	693-703	regelmäßig	_	_
+9-26	704-713	dagewesen	_	_
+9-27	714-717	sei	_	_
+9-28	718-719	.	_	_
+
+#Text=In casa va bene und alles grüßt bestens .
+10-1	720-722	In	_	_
+10-2	723-727	casa	_	_
+10-3	728-730	va	_	_
+10-4	731-735	bene	_	_
+10-5	736-739	und	_	_
+10-6	740-745	alles	_	_
+10-7	746-751	grüßt	_	_
+10-8	752-759	bestens	_	_
+10-9	760-761	.	_	_
+
+#Text=So auch Ihr HBrunn .
+11-1	762-764	So	_	_
+11-2	765-769	auch	_	_
+11-3	770-773	Ihr	_	_
+11-4	774-780	HBrunn	*	PERauthor
+11-5	781-782	.	_	_

@@ -1,0 +1,161 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=87 Braun an Gerhard Rom , 16. Mai 1839 Sie nicht .
+1-1	0-2	87	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	16.	_	_
+1-8	30-33	Mai	*[4]	DATEletter[4]
+1-9	34-38	1839	*[4]	DATEletter[4]
+1-10	39-42	Sie	_	_
+1-11	43-48	nicht	_	_
+1-12	49-50	.	_	_
+
+#Text=Gerstäckers Rechnungsabschluß ( bei dem mir die specificirten Rechnungen der früheren Bücherstesur eine unendliche Wohlthat wären : Lanci hat den Gesantbetrag auf meinen Namen als Schuld aufgeschrieben \| ) würde am besten Französisch eingesandt .
+2-1	51-62	Gerstäckers	*	PERmentioned
+2-2	63-80	Rechnungsabschluß	_	_
+2-3	81-82	(	_	_
+2-4	83-86	bei	_	_
+2-5	87-90	dem	_	_
+2-6	91-94	mir	_	_
+2-7	95-98	die	_	_
+2-8	99-112	specificirten	_	_
+2-9	113-123	Rechnungen	_	_
+2-10	124-127	der	_	_
+2-11	128-136	früheren	_	_
+2-12	137-149	Bücherstesur	_	_
+2-13	150-154	eine	_	_
+2-14	155-165	unendliche	_	_
+2-15	166-174	Wohlthat	_	_
+2-16	175-180	wären	_	_
+2-17	181-182	:	_	_
+2-18	183-188	Lanci	*	PERmentioned
+2-19	189-192	hat	_	_
+2-20	193-196	den	_	_
+2-21	197-209	Gesantbetrag	_	_
+2-22	210-213	auf	_	_
+2-23	214-220	meinen	_	_
+2-24	221-226	Namen	_	_
+2-25	227-230	als	_	_
+2-26	231-237	Schuld	_	_
+2-27	238-252	aufgeschrieben	_	_
+2-28	253-254	\|	_	_
+2-29	255-256	)	_	_
+2-30	257-262	würde	_	_
+2-31	263-265	am	_	_
+2-32	266-272	besten	_	_
+2-33	273-284	Französisch	_	_
+2-34	285-295	eingesandt	_	_
+2-35	296-297	.	_	_
+
+#Text=Metope di Delfi sind die aus Olimpia ( ohne nachzusehen ) .
+3-1	298-304	Metope	*[7]	OBJ[7]
+3-2	305-307	di	*[7]	OBJ[7]
+3-3	308-313	Delfi	*[7]|*[8]	OBJ[7]|PLACEmentioned[8]
+3-4	314-318	sind	_	_
+3-5	319-322	die	_	_
+3-6	323-326	aus	_	_
+3-7	327-334	Olimpia	*	PLACEmentioned
+3-8	335-336	(	_	_
+3-9	337-341	ohne	_	_
+3-10	342-353	nachzusehen	_	_
+3-11	354-355	)	_	_
+3-12	356-357	.	_	_
+
+#Text=Lanci der es nicht hat lassen können meinen Französisch gefaßten und bei dem Vortrag beifällig aufgenommenen Artikel in 's Italienische zu übersetzen , wird diesen sbaglio wohl auf dem Gewissen haben .
+4-1	358-363	Lanci	*	PERmentioned
+4-2	364-367	der	_	_
+4-3	368-370	es	_	_
+4-4	371-376	nicht	_	_
+4-5	377-380	hat	_	_
+4-6	381-387	lassen	_	_
+4-7	388-394	können	_	_
+4-8	395-401	meinen	_	_
+4-9	402-413	Französisch	_	_
+4-10	414-422	gefaßten	_	_
+4-11	423-426	und	_	_
+4-12	427-430	bei	_	_
+4-13	431-434	dem	_	_
+4-14	435-442	Vortrag	_	_
+4-15	443-452	beifällig	_	_
+4-16	453-466	aufgenommenen	_	_
+4-17	467-474	Artikel	_	_
+4-18	475-477	in	_	_
+4-19	478-480	's	_	_
+4-20	481-493	Italienische	_	_
+4-21	494-496	zu	_	_
+4-22	497-507	übersetzen	_	_
+4-23	508-509	,	_	_
+4-24	510-514	wird	_	_
+4-25	515-521	diesen	_	_
+4-26	522-529	sbaglio	_	_
+4-27	530-534	wohl	_	_
+4-28	535-538	auf	_	_
+4-29	539-542	dem	_	_
+4-30	543-551	Gewissen	_	_
+4-31	552-557	haben	_	_
+4-32	558-559	.	_	_
+
+#Text=Jahn ist nach Sicilien abgereist .
+5-1	560-564	Jahn	*	PERmentioned
+5-2	565-568	ist	_	_
+5-3	569-573	nach	_	_
+5-4	574-582	Sicilien	*	PLACEmentioned
+5-5	583-592	abgereist	_	_
+5-6	593-594	.	_	_
+
+#Text=Lepsius wird sich wohl noch in London treffen lassen .
+6-1	595-602	Lepsius	*	PERmentioned
+6-2	603-607	wird	_	_
+6-3	608-612	sich	_	_
+6-4	613-617	wohl	_	_
+6-5	618-622	noch	_	_
+6-6	623-625	in	_	_
+6-7	626-632	London	*	PLACEmentioned
+6-8	633-640	treffen	_	_
+6-9	641-647	lassen	_	_
+6-10	648-649	.	_	_
+
+#Text=Er schreibt heute vom 3.ten Mai daher , seine Verdienste um das Institut hoch anpreisend .
+7-1	650-652	Er	_	_
+7-2	653-661	schreibt	_	_
+7-3	662-667	heute	_	_
+7-4	668-671	vom	_	_
+7-5	672-677	3.ten	*[15]	DATEmentioned[15]
+7-6	678-681	Mai	*[15]	DATEmentioned[15]
+7-7	682-687	daher	_	_
+7-8	688-689	,	_	_
+7-9	690-695	seine	_	_
+7-10	696-706	Verdienste	_	_
+7-11	707-709	um	_	_
+7-12	710-713	das	_	_
+7-13	714-722	Institut	*	ORGmentioned
+7-14	723-727	hoch	_	_
+7-15	728-738	anpreisend	_	_
+7-16	739-740	.	_	_
+
+#Text=Mühe scheint er sich allerdings gegeben zu haben .
+8-1	741-745	Mühe	_	_
+8-2	746-753	scheint	_	_
+8-3	754-756	er	_	_
+8-4	757-761	sich	_	_
+8-5	762-772	allerdings	_	_
+8-6	773-780	gegeben	_	_
+8-7	781-783	zu	_	_
+8-8	784-789	haben	_	_
+8-9	790-791	.	_	_
+
+#Text=Für jetzt genug .
+9-1	792-795	Für	_	_
+9-2	796-801	jetzt	_	_
+9-3	802-807	genug	_	_
+9-4	808-809	.	_	_
+
+#Text=Ihr EBraun
+10-1	810-813	Ihr	_	_
+10-2	814-820	EBraun	*	PERauthor

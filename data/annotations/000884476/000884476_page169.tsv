@@ -1,0 +1,261 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=460 Gerhard an Braun Berlin 7/IV/1835 Dr. Braun Berlin 7 April 35 Gleichzeitig 1 .
+1-1	0-3	460	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERauthor
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-37	7/IV/1835	*[4]	DATEletter[4]
+1-7	38-41	Dr.	*[4]	DATEletter[4]
+1-8	42-47	Braun	*	PERaddressee
+1-9	48-54	Berlin	*	PLACEfrom
+1-10	55-56	7	*[7]	DATEletter[7]
+1-11	57-62	April	*[7]	DATEletter[7]
+1-12	63-65	35	*[7]	DATEletter[7]
+1-13	66-78	Gleichzeitig	_	_
+1-14	79-80	1	_	_
+1-15	81-82	.	_	_
+
+#Text=Fr. habe ich Ihren Brief no 337 sine loco & anno , und die Sendung blibliogr .
+2-1	83-86	Fr.	_	_
+2-2	87-91	habe	_	_
+2-3	92-95	ich	_	_
+2-4	96-101	Ihren	_	_
+2-5	102-107	Brief	_	_
+2-6	108-110	no	_	_
+2-7	111-114	337	_	_
+2-8	115-119	sine	_	_
+2-9	120-124	loco	_	_
+2-10	125-126	&	_	_
+2-11	127-131	anno	_	_
+2-12	132-133	,	_	_
+2-13	134-137	und	_	_
+2-14	138-141	die	_	_
+2-15	142-149	Sendung	_	_
+2-16	150-159	blibliogr	_	_
+2-17	160-161	.	_	_
+
+#Text=Notizen und Probedrücke des 7 März erhalten .
+3-1	162-169	Notizen	_	_
+3-2	170-173	und	_	_
+3-3	174-185	Probedrücke	_	_
+3-4	186-189	des	_	_
+3-5	190-191	7	*[8]	DATEmentioned[8]
+3-6	192-196	März	*[8]	DATEmentioned[8]
+3-7	197-205	erhalten	_	_
+3-8	206-207	.	_	_
+
+#Text=- Wie die früheren , sind auch diese Probedrücke wellkomnen , am meisten die Aetheravasi .
+4-1	208-209	-	_	_
+4-2	210-213	Wie	_	_
+4-3	214-217	die	_	_
+4-4	218-226	früheren	_	_
+4-5	227-228	,	_	_
+4-6	229-233	sind	_	_
+4-7	234-238	auch	_	_
+4-8	239-244	diese	_	_
+4-9	245-256	Probedrücke	_	_
+4-10	257-267	wellkomnen	_	_
+4-11	268-269	,	_	_
+4-12	270-272	am	_	_
+4-13	273-280	meisten	_	_
+4-14	281-284	die	_	_
+4-15	285-296	Aetheravasi	*	OBJ
+4-16	297-298	.	_	_
+
+#Text=Der 3 Tu obwohl man nichts Neues dabei u kann mitlaufen , weil er hübsch ist \; wo bleibt aber die Vasenform ?
+5-1	299-302	Der	_	_
+5-2	303-304	3	_	_
+5-3	305-307	Tu	_	_
+5-4	308-314	obwohl	_	_
+5-5	315-318	man	_	_
+5-6	319-325	nichts	_	_
+5-7	326-331	Neues	_	_
+5-8	332-337	dabei	_	_
+5-9	338-339	u	_	_
+5-10	340-344	kann	_	_
+5-11	345-354	mitlaufen	_	_
+5-12	355-356	,	_	_
+5-13	357-361	weil	_	_
+5-14	362-364	er	_	_
+5-15	365-371	hübsch	_	_
+5-16	372-375	ist	_	_
+5-17	376-377	\;	_	_
+5-18	378-380	wo	_	_
+5-19	381-387	bleibt	_	_
+5-20	388-392	aber	_	_
+5-21	393-396	die	_	_
+5-22	397-406	Vasenform	_	_
+5-23	407-408	?	_	_
+
+#Text=Auf dem Kenia begreife ich nicht was die kleine Amazonenvase oben soll \; die Zeichnung der Gemme ist Surta di Ruspi und wird in Paris haudmißfallen .
+6-1	409-412	Auf	_	_
+6-2	413-416	dem	_	_
+6-3	417-422	Kenia	_	_
+6-4	423-431	begreife	_	_
+6-5	432-435	ich	_	_
+6-6	436-441	nicht	_	_
+6-7	442-445	was	_	_
+6-8	446-449	die	_	_
+6-9	450-456	kleine	_	_
+6-10	457-469	Amazonenvase	*	OBJ
+6-11	470-474	oben	_	_
+6-12	475-479	soll	_	_
+6-13	480-481	\;	_	_
+6-14	482-485	die	_	_
+6-15	486-495	Zeichnung	_	_
+6-16	496-499	der	_	_
+6-17	500-505	Gemme	*	OBJ
+6-18	506-509	ist	_	_
+6-19	510-515	Surta	_	_
+6-20	516-518	di	_	_
+6-21	519-524	Ruspi	*	PERmentioned
+6-22	525-528	und	_	_
+6-23	529-533	wird	_	_
+6-24	534-536	in	_	_
+6-25	537-542	Paris	*	PLACEmentioned
+6-26	543-556	haudmißfallen	_	_
+6-27	557-558	.	_	_
+
+#Text=- Ich merke jetzt erst daß der 3 Fußeub vere muthlich Rückseite der Aethiravase ist .
+7-1	559-560	-	_	_
+7-2	561-564	Ich	_	_
+7-3	565-570	merke	_	_
+7-4	571-576	jetzt	_	_
+7-5	577-581	erst	_	_
+7-6	582-585	daß	_	_
+7-7	586-589	der	_	_
+7-8	590-591	3	_	_
+7-9	592-598	Fußeub	_	_
+7-10	599-603	vere	_	_
+7-11	604-612	muthlich	_	_
+7-12	613-622	Rückseite	_	_
+7-13	623-626	der	_	_
+7-14	627-638	Aethiravase	*	OBJ
+7-15	639-642	ist	_	_
+7-16	643-644	.	_	_
+
+#Text=- Daß meine Kyk - Mosvasek gestochen werden ist mir ganz recht , aber dazu müßten doch die fehlenden Theile ergänzt werden .
+8-1	645-646	-	_	_
+8-2	647-650	Daß	_	_
+8-3	651-656	meine	_	_
+8-4	657-660	Kyk	_	_
+8-5	661-662	-	_	_
+8-6	663-671	Mosvasek	*	OBJ
+8-7	672-681	gestochen	_	_
+8-8	682-688	werden	_	_
+8-9	689-692	ist	_	_
+8-10	693-696	mir	_	_
+8-11	697-701	ganz	_	_
+8-12	702-707	recht	_	_
+8-13	708-709	,	_	_
+8-14	710-714	aber	_	_
+8-15	715-719	dazu	_	_
+8-16	720-726	müßten	_	_
+8-17	727-731	doch	_	_
+8-18	732-735	die	_	_
+8-19	736-745	fehlenden	_	_
+8-20	746-752	Theile	_	_
+8-21	753-760	ergänzt	_	_
+8-22	761-767	werden	_	_
+8-23	768-769	.	_	_
+
+#Text=VUebrigens mache ich Sie aufmerksam Erklärungen der gesandten Probedrücke , die Sie etwa erläutern wollen , mir baldmöglichst zuzuschicken , da es vermuthlich plötzlitwh einmal zu einem hiesigen Annalendruck kommt , in welchem nueemume und nothdürftige Erklärung der Monumenti unsre erste Bedingung ist .
+9-1	770-780	VUebrigens	_	_
+9-2	781-786	mache	_	_
+9-3	787-790	ich	_	_
+9-4	791-794	Sie	_	_
+9-5	795-805	aufmerksam	_	_
+9-6	806-817	Erklärungen	_	_
+9-7	818-821	der	_	_
+9-8	822-831	gesandten	_	_
+9-9	832-843	Probedrücke	_	_
+9-10	844-845	,	_	_
+9-11	846-849	die	_	_
+9-12	850-853	Sie	_	_
+9-13	854-858	etwa	_	_
+9-14	859-868	erläutern	_	_
+9-15	869-875	wollen	_	_
+9-16	876-877	,	_	_
+9-17	878-881	mir	_	_
+9-18	882-895	baldmöglichst	_	_
+9-19	896-908	zuzuschicken	_	_
+9-20	909-910	,	_	_
+9-21	911-913	da	_	_
+9-22	914-916	es	_	_
+9-23	917-928	vermuthlich	_	_
+9-24	929-939	plötzlitwh	_	_
+9-25	940-946	einmal	_	_
+9-26	947-949	zu	_	_
+9-27	950-955	einem	_	_
+9-28	956-964	hiesigen	_	_
+9-29	965-977	Annalendruck	_	_
+9-30	978-983	kommt	_	_
+9-31	984-985	,	_	_
+9-32	986-988	in	_	_
+9-33	989-996	welchem	_	_
+9-34	997-1005	nueemume	_	_
+9-35	1006-1009	und	_	_
+9-36	1010-1022	nothdürftige	_	_
+9-37	1023-1032	Erklärung	_	_
+9-38	1033-1036	der	_	_
+9-39	1037-1046	Monumenti	_	_
+9-40	1047-1052	unsre	_	_
+9-41	1053-1058	erste	_	_
+9-42	1059-1068	Bedingung	_	_
+9-43	1069-1072	ist	_	_
+9-44	1073-1074	.	_	_
+
+#Text=Die Pariser drohen mit ihrer Publikation und nöthigen uns deshalb Maßregeln schleuniger Bekanntmacing zu ergreifen .
+10-1	1075-1078	Die	_	_
+10-2	1079-1086	Pariser	*	PLACEmentioned
+10-3	1087-1093	drohen	_	_
+10-4	1094-1097	mit	_	_
+10-5	1098-1103	ihrer	_	_
+10-6	1104-1115	Publikation	_	_
+10-7	1116-1119	und	_	_
+10-8	1120-1128	nöthigen	_	_
+10-9	1129-1132	uns	_	_
+10-10	1133-1140	deshalb	_	_
+10-11	1141-1150	Maßregeln	_	_
+10-12	1151-1162	schleuniger	_	_
+10-13	1163-1176	Bekanntmacing	_	_
+10-14	1177-1179	zu	_	_
+10-15	1180-1189	ergreifen	_	_
+10-16	1190-1191	.	_	_
+
+#Text=- Fürchterlich daß die Pariser Kiste noch nicht bei Ihnen ist , - es mag aber wohl an der Cholera in Marseille liegen .
+11-1	1192-1193	-	_	_
+11-2	1194-1206	Fürchterlich	_	_
+11-3	1207-1210	daß	_	_
+11-4	1211-1214	die	_	_
+11-5	1215-1222	Pariser	*	PLACEmentioned
+11-6	1223-1228	Kiste	_	_
+11-7	1229-1233	noch	_	_
+11-8	1234-1239	nicht	_	_
+11-9	1240-1243	bei	_	_
+11-10	1244-1249	Ihnen	_	_
+11-11	1250-1253	ist	_	_
+11-12	1254-1255	,	_	_
+11-13	1256-1257	-	_	_
+11-14	1258-1260	es	_	_
+11-15	1261-1264	mag	_	_
+11-16	1265-1269	aber	_	_
+11-17	1270-1274	wohl	_	_
+11-18	1275-1277	an	_	_
+11-19	1278-1281	der	_	_
+11-20	1282-1289	Cholera	_	_
+11-21	1290-1292	in	_	_
+11-22	1293-1302	Marseille	*	PLACEmentioned
+11-23	1303-1309	liegen	_	_
+11-24	1310-1311	.	_	_
+
+#Text=- Ihre Bildung des Kupferste-
+12-1	1312-1313	-	_	_
+12-2	1314-1318	Ihre	_	_
+12-3	1319-1326	Bildung	_	_
+12-4	1327-1330	des	_	_
+12-5	1331-1341	Kupferste-	_	_

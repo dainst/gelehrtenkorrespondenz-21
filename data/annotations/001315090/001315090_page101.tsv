@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2 mA , Lepsius an Henzen Berlin , 28. Juli 1873 28/7 73 B. d . 28. Juli 1873 Verehrter Freund Hierbei übersende ich Ihnen 13 Diplome zu deren Kreaturen Sie sich durch Unterschrift bet \\ sollen .
+1-1	0-1	2	_	_
+1-2	2-4	mA	_	_
+1-3	5-6	,	_	_
+1-4	7-14	Lepsius	*	PERauthor
+1-5	15-17	an	_	_
+1-6	18-24	Henzen	*	PERaddressee
+1-7	25-31	Berlin	*	PLACEfrom
+1-8	32-33	,	_	_
+1-9	34-37	28.	*[1]	DATEletter[1]
+1-10	38-42	Juli	*[1]	DATEletter[1]
+1-11	43-47	1873	*[1]	DATEletter[1]
+1-12	48-52	28/7	*[2]	DATErecieved[2]
+1-13	53-55	73	*[2]	DATErecieved[2]
+1-14	56-58	B.	_	_
+1-15	59-60	d	_	_
+1-16	61-62	.	_	_
+1-17	63-66	28.	*[3]	DATEletter[3]
+1-18	67-71	Juli	*[3]	DATEletter[3]
+1-19	72-76	1873	*[3]	DATEletter[3]
+1-20	77-86	Verehrter	_	_
+1-21	87-93	Freund	_	_
+1-22	94-101	Hierbei	_	_
+1-23	102-111	übersende	_	_
+1-24	112-115	ich	_	_
+1-25	116-121	Ihnen	_	_
+1-26	122-124	13	_	_
+1-27	125-132	Diplome	_	_
+1-28	133-135	zu	_	_
+1-29	136-141	deren	_	_
+1-30	142-151	Kreaturen	_	_
+1-31	152-155	Sie	_	_
+1-32	156-160	sich	_	_
+1-33	161-166	durch	_	_
+1-34	167-179	Unterschrift	_	_
+1-35	180-183	bet	_	_
+1-36	184-185	\\	_	_
+1-37	186-192	sollen	_	_
+1-38	193-194	.	_	_
+
+#Text=Ich habe sie Ihnen expreß aufgehoben .
+2-1	195-198	Ich	_	_
+2-2	199-203	habe	_	_
+2-3	204-207	sie	_	_
+2-4	208-213	Ihnen	_	_
+2-5	214-220	expreß	_	_
+2-6	221-231	aufgehoben	_	_
+2-7	232-233	.	_	_
+
+#Text=Wenn Sie gezeichnet haben , können Sie einige vielleicht am besten bei sich behalten und auf Ihre Rückreise mitnehmen , andre zur Weiterbeförderung mir wieder zustellen .
+3-1	234-238	Wenn	_	_
+3-2	239-242	Sie	_	_
+3-3	243-253	gezeichnet	_	_
+3-4	254-259	haben	_	_
+3-5	260-261	,	_	_
+3-6	262-268	können	_	_
+3-7	269-272	Sie	_	_
+3-8	273-279	einige	_	_
+3-9	280-290	vielleicht	_	_
+3-10	291-293	am	_	_
+3-11	294-300	besten	_	_
+3-12	301-304	bei	_	_
+3-13	305-309	sich	_	_
+3-14	310-318	behalten	_	_
+3-15	319-322	und	_	_
+3-16	323-326	auf	_	_
+3-17	327-331	Ihre	_	_
+3-18	332-341	Rückreise	_	_
+3-19	342-351	mitnehmen	_	_
+3-20	352-353	,	_	_
+3-21	354-359	andre	_	_
+3-22	360-363	zur	_	_
+3-23	364-381	Weiterbeförderung	_	_
+3-24	382-385	mir	_	_
+3-25	386-392	wieder	_	_
+3-26	393-402	zustellen	_	_
+3-27	403-404	.	_	_
+
+#Text=An Mommsen war das Skriptum schon abgeschickt worden .
+4-1	405-407	An	_	_
+4-2	408-415	Mommsen	*	PERmentioned
+4-3	416-419	war	_	_
+4-4	420-423	das	_	_
+4-5	424-432	Skriptum	_	_
+4-6	433-438	schon	_	_
+4-7	439-450	abgeschickt	_	_
+4-8	451-457	worden	_	_
+4-9	458-459	.	_	_
+
+#Text=Es eilt allerdings .
+5-1	460-462	Es	_	_
+5-2	463-467	eilt	_	_
+5-3	468-478	allerdings	_	_
+5-4	479-480	.	_	_
+
+#Text=Ihr R Lepsius
+6-1	481-484	Ihr	_	_
+6-2	485-486	R	*[4]	PERauthor[4]
+6-3	487-494	Lepsius	*[4]	PERauthor[4]

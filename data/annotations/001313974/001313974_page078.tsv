@@ -1,0 +1,55 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 1. Juli 1866 Paedagogisch ist es übrigens für die Italiener ganz gut , daß sie diese Lection erhalten haben .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	1.	*[5]	DATEletter[5]
+1-7	26-30	Juli	*[5]	DATEletter[5]
+1-8	31-35	1866	*[5]	DATEletter[5]
+1-9	36-48	Paedagogisch	_	_
+1-10	49-52	ist	_	_
+1-11	53-55	es	_	_
+1-12	56-64	übrigens	_	_
+1-13	65-68	für	_	_
+1-14	69-72	die	_	_
+1-15	73-82	Italiener	_	_
+1-16	83-87	ganz	_	_
+1-17	88-91	gut	_	_
+1-18	92-93	,	_	_
+1-19	94-97	daß	_	_
+1-20	98-101	sie	_	_
+1-21	102-107	diese	_	_
+1-22	108-115	Lection	_	_
+1-23	116-124	erhalten	_	_
+1-24	125-130	haben	_	_
+1-25	131-132	.	_	_
+
+#Text=Hoffentlich bleiben uns ähnliche Lehren erspart .
+2-1	133-144	Hoffentlich	_	_
+2-2	145-152	bleiben	_	_
+2-3	153-156	uns	_	_
+2-4	157-165	ähnliche	_	_
+2-5	166-172	Lehren	_	_
+2-6	173-180	erspart	_	_
+2-7	181-182	.	_	_
+
+#Text=Baldigst mehr !
+3-1	183-191	Baldigst	_	_
+3-2	192-196	mehr	_	_
+3-3	197-198	!	_	_
+
+#Text=Mit herzlichen Grüßen Wolfgang Helbig .
+4-1	199-202	Mit	_	_
+4-2	203-213	herzlichen	_	_
+4-3	214-220	Grüßen	_	_
+4-4	221-229	Wolfgang	*[6]	PERauthor[6]
+4-5	230-236	Helbig	*[6]	PERauthor[6]
+4-6	237-238	.	_	_
+
+#Text=%
+5-1	239-240	%	_	_

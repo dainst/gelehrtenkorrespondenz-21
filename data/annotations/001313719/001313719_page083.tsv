@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=zero ... Gerhard an Henzen Berlin , 8. November 71846 mannprogramms unter Kreuzband dem Institut abzusenden .
+1-1	0-4	zero	_	_
+1-2	5-8	...	_	_
+1-3	9-16	Gerhard	*	PERauthor
+1-4	17-19	an	_	_
+1-5	20-26	Henzen	*	PERaddressee
+1-6	27-33	Berlin	*	PLACEfrom
+1-7	34-35	,	_	_
+1-8	36-38	8.	*[3]	DATEletter[3]
+1-9	39-47	November	*[3]	DATEletter[3]
+1-10	48-53	71846	*[3]	DATEletter[3]
+1-11	54-67	mannprogramms	_	_
+1-12	68-73	unter	_	_
+1-13	74-83	Kreuzband	_	_
+1-14	84-87	dem	_	_
+1-15	88-96	Institut	*	ORGmentioned
+1-16	97-107	abzusenden	_	_
+1-17	108-109	.	_	_
+
+#Text=- Was im officiellen Protokoll der Archäologischen Gesellschaft vom dort kaum erwähnten Konsularfragment der Frau Mertens und dann eben darüber in einem eignen kurzen Artikel , nach vollständiger Abwartung Ihrer Rückäußerung , eben erst gesetzt wird , erhalten Sie auf gleichem Weg .
+2-1	110-111	-	_	_
+2-2	112-115	Was	_	_
+2-3	116-118	im	_	_
+2-4	119-130	officiellen	_	_
+2-5	131-140	Protokoll	_	_
+2-6	141-144	der	_	_
+2-7	145-160	Archäologischen	*[4]	ORGmentioned[4]
+2-8	161-173	Gesellschaft	*[4]	ORGmentioned[4]
+2-9	174-177	vom	_	_
+2-10	178-182	dort	_	_
+2-11	183-187	kaum	_	_
+2-12	188-197	erwähnten	_	_
+2-13	198-214	Konsularfragment	_	_
+2-14	215-218	der	_	_
+2-15	219-223	Frau	_	_
+2-16	224-231	Mertens	*	PERmentioned
+2-17	232-235	und	_	_
+2-18	236-240	dann	_	_
+2-19	241-245	eben	_	_
+2-20	246-253	darüber	_	_
+2-21	254-256	in	_	_
+2-22	257-262	einem	_	_
+2-23	263-269	eignen	_	_
+2-24	270-276	kurzen	_	_
+2-25	277-284	Artikel	_	_
+2-26	285-286	,	_	_
+2-27	287-291	nach	_	_
+2-28	292-305	vollständiger	_	_
+2-29	306-315	Abwartung	_	_
+2-30	316-321	Ihrer	_	_
+2-31	322-334	Rückäußerung	_	_
+2-32	335-336	,	_	_
+2-33	337-341	eben	_	_
+2-34	342-346	erst	_	_
+2-35	347-354	gesetzt	_	_
+2-36	355-359	wird	_	_
+2-37	360-361	,	_	_
+2-38	362-370	erhalten	_	_
+2-39	371-374	Sie	_	_
+2-40	375-378	auf	_	_
+2-41	379-387	gleichem	_	_
+2-42	388-391	Weg	_	_
+2-43	392-393	.	_	_
+
+#Text=- Horkel hat Ihnen also durch Dr. Reimer geschrieben \; er rüstet sich zum Oberlehrerexamen , und zieht in dasselbe Haus ein wo Grimms wohnen werden , vor dem Thor .
+3-1	394-395	-	_	_
+3-2	396-402	Horkel	*	PERmentioned
+3-3	403-406	hat	_	_
+3-4	407-412	Ihnen	_	_
+3-5	413-417	also	_	_
+3-6	418-423	durch	_	_
+3-7	424-427	Dr.	_	_
+3-8	428-434	Reimer	*	PERmentioned
+3-9	435-446	geschrieben	_	_
+3-10	447-448	\;	_	_
+3-11	449-451	er	_	_
+3-12	452-458	rüstet	_	_
+3-13	459-463	sich	_	_
+3-14	464-467	zum	_	_
+3-15	468-484	Oberlehrerexamen	_	_
+3-16	485-486	,	_	_
+3-17	487-490	und	_	_
+3-18	491-496	zieht	_	_
+3-19	497-499	in	_	_
+3-20	500-508	dasselbe	_	_
+3-21	509-513	Haus	_	_
+3-22	514-517	ein	_	_
+3-23	518-520	wo	_	_
+3-24	521-527	Grimms	*	PERmentioned
+3-25	528-534	wohnen	_	_
+3-26	535-541	werden	_	_
+3-27	542-543	,	_	_
+3-28	544-547	vor	_	_
+3-29	548-551	dem	_	_
+3-30	552-556	Thor	_	_
+3-31	557-558	.	_	_
+
+#Text=Meine Frau grüßt bestens und schreibt der Ihrigen , sobald sie vor kurzen Tagen und Weihnachtsmühen ein wenig luft schöpfen kann .
+4-1	559-564	Meine	_	_
+4-2	565-569	Frau	_	_
+4-3	570-575	grüßt	_	_
+4-4	576-583	bestens	_	_
+4-5	584-587	und	_	_
+4-6	588-596	schreibt	_	_
+4-7	597-600	der	_	_
+4-8	601-608	Ihrigen	_	_
+4-9	609-610	,	_	_
+4-10	611-617	sobald	_	_
+4-11	618-621	sie	_	_
+4-12	622-625	vor	_	_
+4-13	626-632	kurzen	_	_
+4-14	633-638	Tagen	_	_
+4-15	639-642	und	_	_
+4-16	643-658	Weihnachtsmühen	_	_
+4-17	659-662	ein	_	_
+4-18	663-668	wenig	_	_
+4-19	669-673	luft	_	_
+4-20	674-682	schöpfen	_	_
+4-21	683-687	kann	_	_
+4-22	688-689	.	_	_
+
+#Text=Herzlich der Ihrige Gerhard
+5-1	690-698	Herzlich	_	_
+5-2	699-702	der	_	_
+5-3	703-709	Ihrige	_	_
+5-4	710-717	Gerhard	*	PERauthor

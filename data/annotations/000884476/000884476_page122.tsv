@@ -1,0 +1,194 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ad , 136 Gerhard an Braun Berlin , 29 .
+1-1	0-2	ad	_	_
+1-2	3-4	,	_	_
+1-3	5-8	136	_	_
+1-4	9-16	Gerhard	*	PERauthor
+1-5	17-19	an	_	_
+1-6	20-25	Braun	*	PERaddressee
+1-7	26-32	Berlin	*	PLACEfrom
+1-8	33-34	,	_	_
+1-9	35-37	29	*[4]	DATEletter[4]
+1-10	38-39	.	*[4]	DATEletter[4]
+
+#Text=Januar 1835 ( Zusatz von Gerhard 's Hand - fast unleserlich ) : Da die Akademie für meine Spiegel wieder Geld zu geben anfangt ( 4000 rt .
+2-1	40-46	Januar	*[4]	DATEletter[4]
+2-2	47-51	1835	*[4]	DATEletter[4]
+2-3	52-53	(	_	_
+2-4	54-60	Zusatz	_	_
+2-5	61-64	von	_	_
+2-6	65-72	Gerhard	_	_
+2-7	73-75	's	_	_
+2-8	76-80	Hand	_	_
+2-9	81-82	-	_	_
+2-10	83-87	fast	_	_
+2-11	88-99	unleserlich	_	_
+2-12	100-101	)	_	_
+2-13	102-103	:	_	_
+2-14	104-106	Da	_	_
+2-15	107-110	die	_	_
+2-16	111-119	Akademie	*	ORGmentioned
+2-17	120-123	für	_	_
+2-18	124-129	meine	_	_
+2-19	130-137	Spiegel	_	_
+2-20	138-144	wieder	_	_
+2-21	145-149	Geld	_	_
+2-22	150-152	zu	_	_
+2-23	153-158	geben	_	_
+2-24	159-166	anfangt	_	_
+2-25	167-168	(	_	_
+2-26	169-173	4000	_	_
+2-27	174-176	rt	_	_
+2-28	177-178	.	_	_
+
+#Text=für Etruska \; ich fange nun an zu publiciren , so wenig es ist ) so sind die Spiegel eine Ehrensache für mich .
+3-1	179-182	für	_	_
+3-2	183-190	Etruska	*	MISC
+3-3	191-192	\;	_	_
+3-4	193-196	ich	_	_
+3-5	197-202	fange	_	_
+3-6	203-206	nun	_	_
+3-7	207-209	an	_	_
+3-8	210-212	zu	_	_
+3-9	213-223	publiciren	_	_
+3-10	224-225	,	_	_
+3-11	226-228	so	_	_
+3-12	229-234	wenig	_	_
+3-13	235-237	es	_	_
+3-14	238-241	ist	_	_
+3-15	242-243	)	_	_
+3-16	244-246	so	_	_
+3-17	247-251	sind	_	_
+3-18	252-255	die	_	_
+3-19	256-263	Spiegel	*	OBJ
+3-20	264-268	eine	_	_
+3-21	269-279	Ehrensache	_	_
+3-22	280-283	für	_	_
+3-23	284-288	mich	_	_
+3-24	289-290	.	_	_
+
+#Text=Kaufen Sie daher \; im Nothfall schicke ich Geld nach .
+4-1	291-297	Kaufen	_	_
+4-2	298-301	Sie	_	_
+4-3	302-307	daher	_	_
+4-4	308-309	\;	_	_
+4-5	310-312	im	_	_
+4-6	313-321	Nothfall	_	_
+4-7	322-329	schicke	_	_
+4-8	330-333	ich	_	_
+4-9	334-338	Geld	_	_
+4-10	339-343	nach	_	_
+4-11	344-345	.	_	_
+
+#Text=Alles jedoch ganz im Stillen .
+5-1	346-351	Alles	_	_
+5-2	352-358	jedoch	_	_
+5-3	359-363	ganz	_	_
+5-4	364-366	im	_	_
+5-5	367-374	Stillen	_	_
+5-6	375-376	.	_	_
+
+#Text=Die B '' tspielvase ist durch Nibby 's Publikation höchstens für Rom sverginirt , allem Ausland höchst willkommen .
+6-1	377-380	Die	_	_
+6-2	381-382	B	_	_
+6-3	383-385	''	_	_
+6-4	386-396	tspielvase	*	OBJ
+6-5	397-400	ist	_	_
+6-6	401-406	durch	_	_
+6-7	407-412	Nibby	*	PERmentioned
+6-8	413-415	's	_	_
+6-9	416-427	Publikation	_	_
+6-10	428-437	höchstens	_	_
+6-11	438-441	für	_	_
+6-12	442-445	Rom	*	PLACEmentioned
+6-13	446-456	sverginirt	_	_
+6-14	457-458	,	_	_
+6-15	459-464	allem	_	_
+6-16	465-472	Ausland	_	_
+6-17	473-479	höchst	_	_
+6-18	480-490	willkommen	_	_
+6-19	491-492	.	_	_
+
+#Text=Überlegen Sie ob alles verkleinert und auf eine Platte zusammengedrängt für einen erträglichen Preis sich hübsch erhalten ließe zum 2.ten Institutsheft .
+7-1	493-502	Überlegen	_	_
+7-2	503-506	Sie	_	_
+7-3	507-509	ob	_	_
+7-4	510-515	alles	_	_
+7-5	516-527	verkleinert	_	_
+7-6	528-531	und	_	_
+7-7	532-535	auf	_	_
+7-8	536-540	eine	_	_
+7-9	541-547	Platte	_	_
+7-10	548-564	zusammengedrängt	_	_
+7-11	565-568	für	_	_
+7-12	569-574	einen	_	_
+7-13	575-587	erträglichen	_	_
+7-14	588-593	Preis	_	_
+7-15	594-598	sich	_	_
+7-16	599-605	hübsch	_	_
+7-17	606-614	erhalten	_	_
+7-18	615-620	ließe	_	_
+7-19	621-624	zum	_	_
+7-20	625-630	2.ten	_	_
+7-21	631-644	Institutsheft	_	_
+7-22	645-646	.	_	_
+
+#Text=Den Durchschnittspreis der Platten rechnen Sie 20 Scudi \; für eine so gedrängte kann man auch 30 geben , alles aber doch wohl a figure nere .
+8-1	647-650	Den	_	_
+8-2	651-669	Durchschnittspreis	_	_
+8-3	670-673	der	_	_
+8-4	674-681	Platten	_	_
+8-5	682-689	rechnen	_	_
+8-6	690-693	Sie	_	_
+8-7	694-696	20	_	_
+8-8	697-702	Scudi	_	_
+8-9	703-704	\;	_	_
+8-10	705-708	für	_	_
+8-11	709-713	eine	_	_
+8-12	714-716	so	_	_
+8-13	717-726	gedrängte	_	_
+8-14	727-731	kann	_	_
+8-15	732-735	man	_	_
+8-16	736-740	auch	_	_
+8-17	741-743	30	_	_
+8-18	744-749	geben	_	_
+8-19	750-751	,	_	_
+8-20	752-757	alles	_	_
+8-21	758-762	aber	_	_
+8-22	763-767	doch	_	_
+8-23	768-772	wohl	_	_
+8-24	773-774	a	_	_
+8-25	775-781	figure	_	_
+8-26	782-786	nere	_	_
+8-27	787-788	.	_	_
+
+#Text=Meine Vorlesungen habe ich krankheitshalber auf den 10. Februar verschoben .
+9-1	789-794	Meine	_	_
+9-2	795-806	Vorlesungen	_	_
+9-3	807-811	habe	_	_
+9-4	812-815	ich	_	_
+9-5	816-832	krankheitshalber	_	_
+9-6	833-836	auf	_	_
+9-7	837-840	den	_	_
+9-8	841-844	10.	_	_
+9-9	845-852	Februar	_	_
+9-10	853-863	verschoben	_	_
+9-11	864-865	.	_	_
+
+#Text=Depolettis Pan -Gefäß denke ich zu kaufen .
+10-1	866-876	Depolettis	*	PERmentioned
+10-2	877-880	Pan	*[12]	OBJ[12]
+10-3	881-887	-Gefäß	*[12]	OBJ[12]
+10-4	888-893	denke	_	_
+10-5	894-897	ich	_	_
+10-6	898-900	zu	_	_
+10-7	901-907	kaufen	_	_
+10-8	908-909	.	_	_
+
+#Text=Nächstens mehr .
+11-1	910-919	Nächstens	_	_
+11-2	920-924	mehr	_	_
+11-3	925-926	.	_	_

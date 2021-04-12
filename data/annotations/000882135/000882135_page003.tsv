@@ -1,0 +1,298 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=EunesT TE PTTTTTTRTT STIRBT TE RES TETERRNTT 24 Braun an Gerhard Rom , 9 .
+1-1	0-6	EunesT	_	_
+1-2	7-9	TE	_	_
+1-3	10-20	PTTTTTTRTT	_	_
+1-4	21-27	STIRBT	_	_
+1-5	28-30	TE	_	_
+1-6	31-34	RES	_	_
+1-7	35-44	TETERRNTT	_	_
+1-8	45-47	24	_	_
+1-9	48-53	Braun	*	PERauthor
+1-10	54-56	an	_	_
+1-11	57-64	Gerhard	*	PERaddressee
+1-12	65-68	Rom	*	PLACEfrom
+1-13	69-70	,	_	_
+1-14	71-72	9	_	_
+1-15	73-74	.	_	_
+
+#Text=Januar 1838 1 .
+2-1	75-81	Januar	*[5]	DATEletter[5]
+2-2	82-86	1838	*[5]	DATEletter[5]
+2-3	87-88	1	_	_
+2-4	89-90	.	_	_
+
+#Text=Francia Farigi : Viscomte de Cussy .
+3-1	91-98	Francia	*	PLACEmentioned
+3-2	99-105	Farigi	*[6]	PLACEmentioned[6]
+3-3	106-107	:	_	_
+3-4	108-116	Viscomte	*[7]	PERmentioned[7]
+3-5	117-119	de	*[7]	PERmentioned[7]
+3-6	120-125	Cussy	*[7]	PERmentioned[7]
+3-7	126-127	.	_	_
+
+#Text=Vorgeschlagen von Lepsius als Corrispondent .
+4-1	128-141	Vorgeschlagen	_	_
+4-2	142-145	von	_	_
+4-3	146-153	Lepsius	*	PERmentioned
+4-4	154-157	als	_	_
+4-5	158-171	Corrispondent	_	_
+4-6	172-173	.	_	_
+
+#Text=2 .
+5-1	174-175	2	_	_
+5-2	176-177	.	_	_
+
+#Text=Olanda .
+6-1	178-184	Olanda	*	PLACEmentioned
+6-2	185-186	.	_	_
+
+#Text=Leida : Do cemanns , primo conserv .
+7-1	187-192	Leida	*	PLACEmentioned
+7-2	193-194	:	_	_
+7-3	195-197	Do	*[11]	PERmentioned[11]
+7-4	198-205	cemanns	*[11]	PERmentioned[11]
+7-5	206-207	,	_	_
+7-6	208-213	primo	_	_
+7-7	214-221	conserv	_	_
+7-8	222-223	.	_	_
+
+#Text=del Museo patrio .
+8-1	224-227	del	_	_
+8-2	228-233	Museo	*[12]	ORGmentioned[12]
+8-3	234-240	patrio	*[12]	ORGmentioned[12]
+8-4	241-242	.	_	_
+
+#Text=Lepsius .
+9-1	243-250	Lepsius	*	PERmentioned
+9-2	251-252	.	_	_
+
+#Text=3 .
+10-1	253-254	3	_	_
+10-2	255-256	.	_	_
+
+#Text=JInghilterra .
+11-1	257-269	JInghilterra	*	PLACEmentioned
+11-2	270-271	.	_	_
+
+#Text=Londra : G . A. Ho kins .
+12-1	272-278	Londra	*	PLACEmentioned
+12-2	279-280	:	_	_
+12-3	281-282	G	*[16]	PERmentioned[16]
+12-4	283-284	.	*[16]	PERmentioned[16]
+12-5	285-287	A.	*[16]	PERmentioned[16]
+12-6	288-290	Ho	*[16]	PERmentioned[16]
+12-7	291-295	kins	*[16]	PERmentioned[16]
+12-8	296-297	.	_	_
+
+#Text=Membro O0 .
+13-1	298-304	Membro	_	_
+13-2	305-307	O0	_	_
+13-3	308-309	.	_	_
+
+#Text=Lepius .
+14-1	310-316	Lepius	*	PERmentioned
+14-2	317-318	.	_	_
+
+#Text=( schon angezeigt im Bull ) 4 , Germania .
+15-1	319-320	(	_	_
+15-2	321-326	schon	_	_
+15-3	327-336	angezeigt	_	_
+15-4	337-339	im	_	_
+15-5	340-344	Bull	_	_
+15-6	345-346	)	_	_
+15-7	347-348	4	_	_
+15-8	349-350	,	_	_
+15-9	351-359	Germania	*	PLACEmentioned
+15-10	360-361	.	_	_
+
+#Text=Breslavia : Prof. Ritschl .
+16-1	362-371	Breslavia	*	PLACEmentioned
+16-2	372-373	:	_	_
+16-3	374-379	Prof.	*[20]	PERmentioned[20]
+16-4	380-387	Ritschl	*[20]	PERmentioned[20]
+16-5	388-389	.	_	_
+
+#Text=Membro o. Lapsius .
+17-1	390-396	Membro	_	_
+17-2	397-399	o.	_	_
+17-3	400-407	Lapsius	*	PERmentioned
+17-4	408-409	.	_	_
+
+#Text=5 .
+18-1	410-411	5	_	_
+18-2	412-413	.	_	_
+
+#Text=Italia .
+19-1	414-420	Italia	*	PLACEmentioned
+19-2	421-422	.	_	_
+
+#Text=a. Sardegna : Torino : Avv.° Barucchi , Direttore di quel Museo .
+20-1	423-425	a.	_	_
+20-2	426-434	Sardegna	*	PLACEmentioned
+20-3	435-436	:	_	_
+20-4	437-443	Torino	*	PLACEmentioned
+20-5	444-445	:	_	_
+20-6	446-451	Avv.°	_	_
+20-7	452-460	Barucchi	*	PERmentioned
+20-8	461-462	,	_	_
+20-9	463-472	Direttore	_	_
+20-10	473-475	di	_	_
+20-11	476-480	quel	_	_
+20-12	481-486	Museo	*[26]	ORGmentioned[26]
+20-13	487-488	.	*[26]	ORGmentioned[26]
+
+#Text=Lepsius .
+21-1	489-496	Lepsius	*	PERmentioned
+21-2	497-498	.	_	_
+
+#Text=- Baracco , assistente al medesimo museo .
+22-1	499-500	-	_	_
+22-2	501-508	Baracco	*	PERmentioned
+22-3	509-510	,	_	_
+22-4	511-521	assistente	_	_
+22-5	522-524	al	_	_
+22-6	525-533	medesimo	_	_
+22-7	534-539	museo	_	_
+22-8	540-541	.	_	_
+
+#Text=Lepsius .
+23-1	542-549	Lepsius	*	PERmentioned
+23-2	550-551	.	_	_
+
+#Text=Novara : Abb . Carlo Rana .
+24-1	552-558	Novara	*	PLACEmentioned
+24-2	559-560	:	_	_
+24-3	561-564	Abb	_	_
+24-4	565-566	.	_	_
+24-5	567-572	Carlo	*[31]	PERmentioned[31]
+24-6	573-577	Rana	*[31]	PERmentioned[31]
+24-7	578-579	.	*[31]	PERmentioned[31]
+
+#Text=Orti hat Inschriften mitgetheilt .
+25-1	580-584	Orti	*[31]	PERmentioned[31]
+25-2	585-588	hat	_	_
+25-3	589-600	Inschriften	_	_
+25-4	601-612	mitgetheilt	_	_
+25-5	613-614	.	_	_
+
+#Text=db .
+26-1	615-617	db	_	_
+26-2	618-619	.	_	_
+
+#Text=Lombardia .
+27-1	620-629	Lombardia	*	PLACEmentioned
+27-2	630-631	.	_	_
+
+#Text=Milano : Zardetti , Membro ord .
+28-1	632-638	Milano	*	PLACEmentioned
+28-2	639-640	:	_	_
+28-3	641-649	Zardetti	*	PERmentioned
+28-4	650-651	,	_	_
+28-5	652-658	Membro	_	_
+28-6	659-662	ord	_	_
+28-7	663-664	.	_	_
+
+#Text=Braun .
+29-1	665-670	Braun	*	PERmentioned
+29-2	671-672	.	_	_
+
+#Text=Labus , - - - Brescia : Jolli , Custode del Museo patrio .
+30-1	673-678	Labus	*[38]	PERmentioned[38]
+30-2	679-680	,	*[38]	PERmentioned[38]
+30-3	681-682	-	_	_
+30-4	683-684	-	_	_
+30-5	685-686	-	_	_
+30-6	687-694	Brescia	*	PLACEmentioned
+30-7	695-696	:	_	_
+30-8	697-702	Jolli	_	_
+30-9	703-704	,	_	_
+30-10	705-712	Custode	_	_
+30-11	713-716	del	_	_
+30-12	717-722	Museo	*[39]	ORGmentioned[39]
+30-13	723-729	patrio	*[39]	ORGmentioned[39]
+30-14	730-731	.	_	_
+
+#Text=?
+31-1	732-733	?	_	_
+
+#Text=Mantova : Mainardi , Corrispondente .
+32-1	734-741	Mantova	*	PLACEmentioned
+32-2	742-743	:	_	_
+32-3	744-752	Mainardi	*	PERmentioned
+32-4	753-754	,	_	_
+32-5	755-769	Corrispondente	_	_
+32-6	770-771	.	_	_
+
+#Text=Braun .
+33-1	772-777	Braun	*	PERmentioned|PERmentioned
+33-2	778-779	.	_	_
+
+#Text=Greggiati , Bibliotecario e Direttore del Museo .
+34-1	780-789	Greggiati	*	PERmentioned
+34-2	790-791	,	_	_
+34-3	792-805	Bibliotecario	_	_
+34-4	806-807	e	_	_
+34-5	808-817	Direttore	_	_
+34-6	818-821	del	_	_
+34-7	822-827	Museo	*[43]	ORGmentioned[43]
+34-8	828-829	.	*[43]	ORGmentioned[43]
+
+#Text=Braun .
+35-1	830-835	Braun	*	PERmentioned
+35-2	836-837	.	_	_
+
+#Text=c. Veneto .
+36-1	838-840	c.	_	_
+36-2	841-847	Veneto	*	PLACEmentioned
+36-3	848-849	.	_	_
+
+#Text=Verona : Membro onorario .
+37-1	850-856	Verona	*	PLACEmentioned
+37-2	857-858	:	_	_
+37-3	859-865	Membro	_	_
+37-4	866-874	onorario	_	_
+37-5	875-876	.	_	_
+
+#Text=Braun .
+38-1	877-882	Braun	*	PERmentioned
+38-2	883-884	.	_	_
+
+#Text=v. Bull .
+39-1	885-887	v.	_	_
+39-2	888-892	Bull	_	_
+39-3	893-894	.	_	_
+
+#Text=Novembre 1837. d. Stato Phtificio .
+40-1	895-903	Novembre	_	_
+40-2	904-909	1837.	_	_
+40-3	910-912	d.	_	_
+40-4	913-918	Stato	*[48]	PLACEmentioned[48]
+40-5	919-928	Phtificio	*[48]	PLACEmentioned[48]
+40-6	929-930	.	_	_
+
+#Text=Roma : Reinhardt .
+41-1	931-935	Roma	*	PLACEmentioned
+41-2	936-937	:	_	_
+41-3	938-947	Reinhardt	*	PERmentioned
+41-4	948-949	.	_	_
+
+#Text=Braun Abeken , jun .
+42-1	950-955	Braun	*	PERmentioned
+42-2	956-962	Abeken	*[52]	PERmentioned[52]
+42-3	963-964	,	*[52]	PERmentioned[52]
+42-4	965-968	jun	*[52]	PERmentioned[52]
+42-5	969-970	.	*[52]	PERmentioned[52]
+
+#Text=Braun .
+43-1	971-976	Braun	*	PERmentioned
+43-2	977-978	.	_	_
+
+#Text=Fossati , Braun .
+44-1	979-986	Fossati	*	PERmentioned
+44-2	987-988	,	_	_
+44-3	989-994	Braun	_	_
+44-4	995-996	.	_	_

@@ -1,0 +1,262 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=337 Braun an Gerhard Prof. Gerhard Rom , ohne Datum A : 24 55 g NN , April ?
+1-1	0-3	337	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-45	ohne	_	_
+1-10	46-51	Datum	_	_
+1-11	52-53	A	_	_
+1-12	54-55	:	_	_
+1-13	56-58	24	_	_
+1-14	59-61	55	_	_
+1-15	62-63	g	_	_
+1-16	64-66	NN	_	_
+1-17	67-68	,	_	_
+1-18	69-74	April	*[2]	DATEletter[2]
+1-19	75-76	?	*[2]	DATEletter[2]
+
+#Text=1835 nebst Brief von Westreenen de Tiellandt Hochverehrtester Freund \| Um das voranstehende Blatt in seinem rapiden Anlelt auf Sie nicht aufzuhalten , wähle ich den Raum dieses Blattes um Ihren Zuschriften , wenn auch nur flüchtig zu antworten .
+2-1	77-81	1835	*[2]	DATEletter[2]
+2-2	82-87	nebst	_	_
+2-3	88-93	Brief	_	_
+2-4	94-97	von	_	_
+2-5	98-108	Westreenen	*[3]	PERmentioned[3]
+2-6	109-111	de	*[3]	PERmentioned[3]
+2-7	112-121	Tiellandt	*[3]	PERmentioned[3]
+2-8	122-138	Hochverehrtester	_	_
+2-9	139-145	Freund	_	_
+2-10	146-147	\|	_	_
+2-11	148-150	Um	_	_
+2-12	151-154	das	_	_
+2-13	155-168	voranstehende	_	_
+2-14	169-174	Blatt	_	_
+2-15	175-177	in	_	_
+2-16	178-184	seinem	_	_
+2-17	185-192	rapiden	_	_
+2-18	193-199	Anlelt	_	_
+2-19	200-203	auf	_	_
+2-20	204-207	Sie	_	_
+2-21	208-213	nicht	_	_
+2-22	214-225	aufzuhalten	_	_
+2-23	226-227	,	_	_
+2-24	228-233	wähle	_	_
+2-25	234-237	ich	_	_
+2-26	238-241	den	_	_
+2-27	242-246	Raum	_	_
+2-28	247-253	dieses	_	_
+2-29	254-261	Blattes	_	_
+2-30	262-264	um	_	_
+2-31	265-270	Ihren	_	_
+2-32	271-282	Zuschriften	_	_
+2-33	283-284	,	_	_
+2-34	285-289	wenn	_	_
+2-35	290-294	auch	_	_
+2-36	295-298	nur	_	_
+2-37	299-307	flüchtig	_	_
+2-38	308-310	zu	_	_
+2-39	311-320	antworten	_	_
+2-40	321-322	.	_	_
+
+#Text=\| \| Die Pariser Kiste ist noch nicht einmal avisirt .
+3-1	323-324	\|	_	_
+3-2	325-326	\|	_	_
+3-3	327-330	Die	_	_
+3-4	331-338	Pariser	*	PLACEmentioned
+3-5	339-344	Kiste	_	_
+3-6	345-348	ist	_	_
+3-7	349-353	noch	_	_
+3-8	354-359	nicht	_	_
+3-9	360-366	einmal	_	_
+3-10	367-374	avisirt	_	_
+3-11	375-376	.	_	_
+
+#Text=Es ist Unglück zu befürchten .
+4-1	377-379	Es	_	_
+4-2	380-383	ist	_	_
+4-3	384-391	Unglück	_	_
+4-4	392-394	zu	_	_
+4-5	395-405	befürchten	_	_
+4-6	406-407	.	_	_
+
+#Text=De Witte mit seiner alberen Maßregel , nur jeden Monat 1 Mal zu schreiben , giebt weder Trost noch Antwort .
+5-1	408-410	De	*[4]	PERmentioned[4]
+5-2	411-416	Witte	*[4]	PERmentioned[4]
+5-3	417-420	mit	_	_
+5-4	421-427	seiner	_	_
+5-5	428-435	alberen	_	_
+5-6	436-444	Maßregel	_	_
+5-7	445-446	,	_	_
+5-8	447-450	nur	_	_
+5-9	451-456	jeden	_	_
+5-10	457-462	Monat	_	_
+5-11	463-464	1	_	_
+5-12	465-468	Mal	_	_
+5-13	469-471	zu	_	_
+5-14	472-481	schreiben	_	_
+5-15	482-483	,	_	_
+5-16	484-489	giebt	_	_
+5-17	490-495	weder	_	_
+5-18	496-501	Trost	_	_
+5-19	502-506	noch	_	_
+5-20	507-514	Antwort	_	_
+5-21	515-516	.	_	_
+
+#Text=Nach den letzten Vorfällen muß ich seinem Character mißtrauen .
+6-1	517-521	Nach	_	_
+6-2	522-525	den	_	_
+6-3	526-533	letzten	_	_
+6-4	534-543	Vorfällen	_	_
+6-5	544-547	muß	_	_
+6-6	548-551	ich	_	_
+6-7	552-558	seinem	_	_
+6-8	559-568	Character	_	_
+6-9	569-578	mißtrauen	_	_
+6-10	579-580	.	_	_
+
+#Text=Eine anvertraute Direction so zu mißbrauchen !
+7-1	581-585	Eine	_	_
+7-2	586-597	anvertraute	_	_
+7-3	598-607	Direction	_	_
+7-4	608-610	so	_	_
+7-5	611-613	zu	_	_
+7-6	614-625	mißbrauchen	_	_
+7-7	626-627	!	_	_
+
+#Text=\| Die Berliner Kiste ist abgegangen mit dem von HE .
+8-1	628-629	\|	_	_
+8-2	630-633	Die	_	_
+8-3	634-642	Berliner	*	PLACEmentioned
+8-4	643-648	Kiste	_	_
+8-5	649-652	ist	_	_
+8-6	653-663	abgegangen	_	_
+8-7	664-667	mit	_	_
+8-8	668-671	dem	_	_
+8-9	672-675	von	_	_
+8-10	676-678	HE	*[5]	PERmentioned[5]
+8-11	679-680	.	*[5]	PERmentioned[5]
+
+#Text=Gerstäcker und Ihren verlangten Mon .
+9-1	681-691	Gerstäcker	*[5]	PERmentioned[5]
+9-2	692-695	und	_	_
+9-3	696-701	Ihren	_	_
+9-4	702-712	verlangten	_	_
+9-5	713-716	Mon	*[6]	LIT[6]
+9-6	717-718	.	*[6]	LIT[6]
+
+#Text=T. 37 - 42. cop .
+10-1	719-721	T.	*[6]	LIT[6]
+10-2	722-724	37	*[6]	LIT[6]
+10-3	725-726	-	*[6]	LIT[6]
+10-4	727-730	42.	*[6]	LIT[6]
+10-5	731-734	cop	_	_
+10-6	735-736	.	_	_
+
+#Text=10.- 8 Bull .
+11-1	737-741	10.-	_	_
+11-2	742-743	8	_	_
+11-3	744-748	Bull	*[7]	LIT[7]
+11-4	749-750	.	*[7]	LIT[7]
+
+#Text=1831 .
+12-1	751-755	1831	*[7]	LIT[7]
+12-2	756-757	.	*[7]	LIT[7]
+
+#Text=- 8 detto 1832 .
+13-1	758-759	-	*[7]	LIT[7]
+13-2	760-761	8	*[7]	LIT[7]
+13-3	762-767	detto	*[7]	LIT[7]
+13-4	768-772	1832	*[7]	LIT[7]
+13-5	773-774	.	*[7]	LIT[7]
+
+#Text=- 10 detto .
+14-1	775-776	-	*[7]	LIT[7]
+14-2	777-779	10	*[7]	LIT[7]
+14-3	780-785	detto	*[7]	LIT[7]
+14-4	786-787	.	*[7]	LIT[7]
+
+#Text=1834 . 10 Memorie fasc .
+15-1	788-792	1834	*[7]	LIT[7]
+15-2	793-794	.	_	_
+15-3	795-797	10	_	_
+15-4	798-805	Memorie	*[8]	LIT[8]
+15-5	806-810	fasc	*[8]	LIT[8]
+15-6	811-812	.	*[8]	LIT[8]
+
+#Text=3 .
+16-1	813-814	3	*[8]	LIT[8]
+16-2	815-816	.	*[8]	LIT[8]
+
+#Text=Außerdem die drei Kisten mit Vollards Pasten und die verlangten Bullettini 1831 - 32 zum gelegentlichen Verschenken .
+17-1	817-825	Außerdem	_	_
+17-2	826-829	die	_	_
+17-3	830-834	drei	_	_
+17-4	835-841	Kisten	_	_
+17-5	842-845	mit	_	_
+17-6	846-854	Vollards	*	PERmentioned
+17-7	855-861	Pasten	_	_
+17-8	862-865	und	_	_
+17-9	866-869	die	_	_
+17-10	870-880	verlangten	_	_
+17-11	881-891	Bullettini	*[9]	LIT[9]
+17-12	892-896	1831	*[9]	LIT[9]
+17-13	897-898	-	*[9]	LIT[9]
+17-14	899-901	32	*[9]	LIT[9]
+17-15	902-905	zum	_	_
+17-16	906-920	gelegentlichen	_	_
+17-17	921-932	Verschenken	_	_
+17-18	933-934	.	_	_
+
+#Text=Ein ganzes Exemplar des Piale ist in die Kiste gekommen , 1 andres liegt noch käuflich hier und ich hoffe auch Ihnen noch durch Eintausch vereinzelter Hefte das bei Ihnen befindliche Exemplar zu ergänzen .
+18-1	935-938	Ein	_	_
+18-2	939-945	ganzes	_	_
+18-3	946-954	Exemplar	_	_
+18-4	955-958	des	_	_
+18-5	959-964	Piale	*	LIT
+18-6	965-968	ist	_	_
+18-7	969-971	in	_	_
+18-8	972-975	die	_	_
+18-9	976-981	Kiste	_	_
+18-10	982-990	gekommen	_	_
+18-11	991-992	,	_	_
+18-12	993-994	1	_	_
+18-13	995-1001	andres	_	_
+18-14	1002-1007	liegt	_	_
+18-15	1008-1012	noch	_	_
+18-16	1013-1021	käuflich	_	_
+18-17	1022-1026	hier	_	_
+18-18	1027-1030	und	_	_
+18-19	1031-1034	ich	_	_
+18-20	1035-1040	hoffe	_	_
+18-21	1041-1045	auch	_	_
+18-22	1046-1051	Ihnen	_	_
+18-23	1052-1056	noch	_	_
+18-24	1057-1062	durch	_	_
+18-25	1063-1072	Eintausch	_	_
+18-26	1073-1085	vereinzelter	_	_
+18-27	1086-1091	Hefte	_	_
+18-28	1092-1095	das	_	_
+18-29	1096-1099	bei	_	_
+18-30	1100-1105	Ihnen	_	_
+18-31	1106-1117	befindliche	_	_
+18-32	1118-1126	Exemplar	_	_
+18-33	1127-1129	zu	_	_
+18-34	1130-1138	ergänzen	_	_
+18-35	1139-1140	.	_	_
+
+#Text=Kellermann ist unerreachlich \; es könnte dem Insti-
+19-1	1141-1151	Kellermann	*	PERmentioned
+19-2	1152-1155	ist	_	_
+19-3	1156-1169	unerreachlich	_	_
+19-4	1170-1171	\;	_	_
+19-5	1172-1174	es	_	_
+19-6	1175-1181	könnte	_	_
+19-7	1182-1185	dem	_	_
+19-8	1186-1192	Insti-	*	ORGmentioned

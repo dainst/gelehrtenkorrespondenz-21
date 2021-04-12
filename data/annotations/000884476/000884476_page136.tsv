@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin 11-17/1I1/1835 auch mehr Ex .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-38	11-17/1I1/1835	*	DATEletter
+1-6	39-43	auch	_	_
+1-7	44-48	mehr	_	_
+1-8	49-51	Ex	_	_
+1-9	52-53	.	_	_
+
+#Text=von Memorie 3 , ® begehrt .
+2-1	54-57	von	_	_
+2-2	58-65	Memorie	_	_
+2-3	66-67	3	_	_
+2-4	68-69	,	_	_
+2-5	70-71	®	_	_
+2-6	72-79	begehrt	_	_
+2-7	80-81	.	_	_
+
+#Text=Sie wissen daß letzteres Heft auch hier noch völlig fehlt \| !
+3-1	82-85	Sie	_	_
+3-2	86-92	wissen	_	_
+3-3	93-96	daß	_	_
+3-4	97-106	letzteres	_	_
+3-5	107-111	Heft	_	_
+3-6	112-116	auch	_	_
+3-7	117-121	hier	_	_
+3-8	122-126	noch	_	_
+3-9	127-133	völlig	_	_
+3-10	134-139	fehlt	_	_
+3-11	140-141	\|	_	_
+3-12	142-143	!	_	_
+
+#Text=Das 3 , ve Heft von Welckers Zeitschrift , im v. Jd .
+4-1	144-147	Das	_	_
+4-2	148-149	3	_	_
+4-3	150-151	,	_	_
+4-4	152-154	ve	_	_
+4-5	155-159	Heft	_	_
+4-6	160-163	von	_	_
+4-7	164-172	Welckers	*	PERmentioned
+4-8	173-184	Zeitschrift	_	_
+4-9	185-186	,	_	_
+4-10	187-189	im	_	_
+4-11	190-192	v.	_	_
+4-12	193-195	Jd	_	_
+4-13	196-197	.	_	_
+
+#Text=mir nach Rom nachgesandt , um mein Ex .
+5-1	198-201	mir	_	_
+5-2	202-206	nach	_	_
+5-3	207-210	Rom	*	PLACEmentioned
+5-4	211-222	nachgesandt	_	_
+5-5	223-224	,	_	_
+5-6	225-227	um	_	_
+5-7	228-232	mein	_	_
+5-8	233-235	Ex	_	_
+5-9	236-237	.	_	_
+
+#Text=zu vervollständigen suchte ich vergebens in der letzten Kiste , Sind nicht auch die 2 Ex .
+6-1	238-240	zu	_	_
+6-2	241-257	vervollständigen	_	_
+6-3	258-264	suchte	_	_
+6-4	265-268	ich	_	_
+6-5	269-278	vergebens	_	_
+6-6	279-281	in	_	_
+6-7	282-285	der	_	_
+6-8	286-293	letzten	_	_
+6-9	294-299	Kiste	_	_
+6-10	300-301	,	_	_
+6-11	302-306	Sind	_	_
+6-12	307-312	nicht	_	_
+6-13	313-317	auch	_	_
+6-14	318-321	die	_	_
+6-15	322-323	2	_	_
+6-16	324-326	Ex	_	_
+6-17	327-328	.	_	_
+
+#Text=Men 's Vedute in Rom geblieben , die ich in der Hoffnung sie durch Gerstäcker absetzten zu können dem re mit 6 Scudi Auslage sofort bezahlte ?
+7-1	329-332	Men	_	_
+7-2	333-335	's	_	_
+7-3	336-342	Vedute	_	_
+7-4	343-345	in	_	_
+7-5	346-349	Rom	*	PLACEmentioned
+7-6	350-359	geblieben	_	_
+7-7	360-361	,	_	_
+7-8	362-365	die	_	_
+7-9	366-369	ich	_	_
+7-10	370-372	in	_	_
+7-11	373-376	der	_	_
+7-12	377-385	Hoffnung	_	_
+7-13	386-389	sie	_	_
+7-14	390-395	durch	_	_
+7-15	396-406	Gerstäcker	*	ORGmentioned
+7-16	407-416	absetzten	_	_
+7-17	417-419	zu	_	_
+7-18	420-426	können	_	_
+7-19	427-430	dem	_	_
+7-20	431-433	re	_	_
+7-21	434-437	mit	_	_
+7-22	438-439	6	_	_
+7-23	440-445	Scudi	_	_
+7-24	446-453	Auslage	_	_
+7-25	454-460	sofort	_	_
+7-26	461-469	bezahlte	_	_
+7-27	470-471	?	_	_
+
+#Text=Haben Sie noch keine Vasenberechnung mit Wagner gehabt ?
+8-1	472-477	Haben	_	_
+8-2	478-481	Sie	_	_
+8-3	482-486	noch	_	_
+8-4	487-492	keine	_	_
+8-5	493-508	Vasenberechnung	_	_
+8-6	509-512	mit	_	_
+8-7	513-519	Wagner	*	PERmentioned
+8-8	520-526	gehabt	_	_
+8-9	527-528	?	_	_
+
+#Text=17 .
+9-1	529-531	17	*[10]	DATEletter[10]
+9-2	532-533	.	*[10]	DATEletter[10]
+
+#Text=Febr .
+10-1	534-538	Febr	*[10]	DATEletter[10]
+10-2	539-540	.	*[10]	DATEletter[10]
+
+#Text=Also de Witte schickt vas ohne von den Druckbogen etwas zu schreiben und luynes will desgleichen un= schicken .
+11-1	541-545	Also	_	_
+11-2	546-548	de	*[11]	PERmentioned[11]
+11-3	549-554	Witte	*[11]	PERmentioned[11]
+11-4	555-562	schickt	_	_
+11-5	563-566	vas	_	_
+11-6	567-571	ohne	_	_
+11-7	572-575	von	_	_
+11-8	576-579	den	_	_
+11-9	580-590	Druckbogen	_	_
+11-10	591-596	etwas	_	_
+11-11	597-599	zu	_	_
+11-12	600-609	schreiben	_	_
+11-13	610-613	und	_	_
+11-14	614-620	luynes	*	PERmentioned
+11-15	621-625	will	_	_
+11-16	626-637	desgleichen	_	_
+11-17	638-641	un=	_	_
+11-18	642-650	schicken	_	_
+11-19	651-652	.	_	_
+
+#Text=Es bleibt bei der Herausgabe in Rom und Berlin \; das Institut soll doch wol auch ohne die Franzosen bestehen können .
+12-1	653-655	Es	_	_
+12-2	656-662	bleibt	_	_
+12-3	663-666	bei	_	_
+12-4	667-670	der	_	_
+12-5	671-681	Herausgabe	_	_
+12-6	682-684	in	_	_
+12-7	685-688	Rom	*	PLACEmentioned
+12-8	689-692	und	_	_
+12-9	693-699	Berlin	*	PLACEmentioned
+12-10	700-701	\;	_	_
+12-11	702-705	das	_	_
+12-12	706-714	Institut	*	ORGmentioned
+12-13	715-719	soll	_	_
+12-14	720-724	doch	_	_
+12-15	725-728	wol	_	_
+12-16	729-733	auch	_	_
+12-17	734-738	ohne	_	_
+12-18	739-742	die	_	_
+12-19	743-752	Franzosen	_	_
+12-20	753-761	bestehen	_	_
+12-21	762-768	können	_	_
+12-22	769-770	.	_	_
+
+#Text=Weiter ist wol heute nichts \; Ihre Depeschen wurden vergeblich erwartet .
+13-1	771-777	Weiter	_	_
+13-2	778-781	ist	_	_
+13-3	782-785	wol	_	_
+13-4	786-791	heute	_	_
+13-5	792-798	nichts	_	_
+13-6	799-800	\;	_	_
+13-7	801-805	Ihre	_	_
+13-8	806-815	Depeschen	_	_
+13-9	816-822	wurden	_	_
+13-10	823-833	vergeblich	_	_
+13-11	834-842	erwartet	_	_
+13-12	843-844	.	_	_
+
+#Text=Das Wichtigste vergaß ich , nämlich daß de Wittes ostensible Hauptbeschwerde in der Ferordnung des Bull .
+14-1	845-848	Das	_	_
+14-2	849-859	Wichtigste	_	_
+14-3	860-866	vergaß	_	_
+14-4	867-870	ich	_	_
+14-5	871-872	,	_	_
+14-6	873-880	nämlich	_	_
+14-7	881-884	daß	_	_
+14-8	885-887	de	*[16]	PERmentioned[16]
+14-9	888-894	Wittes	*[16]	PERmentioned[16]
+14-10	895-905	ostensible	_	_
+14-11	906-921	Hauptbeschwerde	_	_
+14-12	922-924	in	_	_
+14-13	925-928	der	_	_
+14-14	929-939	Ferordnung	_	_
+14-15	940-943	des	_	_
+14-16	944-948	Bull	_	_
+14-17	949-950	.	_	_
+
+#Text=sich ausspreche , von dem No 15 Fesselekt sei , Bogen 13 und 14 aber nicht .
+15-1	951-955	sich	_	_
+15-2	956-966	ausspreche	_	_
+15-3	967-968	,	_	_
+15-4	969-972	von	_	_
+15-5	973-976	dem	_	_
+15-6	977-979	No	_	_
+15-7	980-982	15	_	_
+15-8	983-992	Fesselekt	_	_
+15-9	993-996	sei	_	_
+15-10	997-998	,	_	_
+15-11	999-1004	Bogen	_	_
+15-12	1005-1007	13	_	_
+15-13	1008-1011	und	_	_
+15-14	1012-1014	14	_	_
+15-15	1015-1019	aber	_	_
+15-16	1020-1025	nicht	_	_
+15-17	1026-1027	.	_	_
+
+#Text=Ist denn die Kiste abgeschickt , und der Defekt von Numarews Merus ?
+16-1	1028-1031	Ist	_	_
+16-2	1032-1036	denn	_	_
+16-3	1037-1040	die	_	_
+16-4	1041-1046	Kiste	_	_
+16-5	1047-1058	abgeschickt	_	_
+16-6	1059-1060	,	_	_
+16-7	1061-1064	und	_	_
+16-8	1065-1068	der	_	_
+16-9	1069-1075	Defekt	_	_
+16-10	1076-1079	von	_	_
+16-11	1080-1088	Numarews	_	_
+16-12	1089-1094	Merus	_	_
+16-13	1095-1096	?	_	_
+
+#Text=Ihr Gerhard
+17-1	1097-1100	Ihr	_	_
+17-2	1101-1108	Gerhard	*	PERauthor

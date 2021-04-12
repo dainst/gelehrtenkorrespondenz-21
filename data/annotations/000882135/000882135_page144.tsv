@@ -1,0 +1,319 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=45 Braun an Gerhard Rom , 23. März 1839 Rom 23 März 1839 .
+1-1	0-2	45	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	23.	*[4]	DATEletter[4]
+1-8	30-34	März	*[4]	DATEletter[4]
+1-9	35-39	1839	*[4]	DATEletter[4]
+1-10	40-43	Rom	*	PLACEfrom
+1-11	44-46	23	*[6]	DATEletter[6]
+1-12	47-51	März	*[6]	DATEletter[6]
+1-13	52-56	1839	*[6]	DATEletter[6]
+1-14	57-58	.	_	_
+
+#Text=So eben erhalte ich einen Brief von Lepsius der Maze 's nun wirklich stattgehabten Bankeroutt anzeigt .
+2-1	59-61	So	_	_
+2-2	62-66	eben	_	_
+2-3	67-74	erhalte	_	_
+2-4	75-78	ich	_	_
+2-5	79-84	einen	_	_
+2-6	85-90	Brief	_	_
+2-7	91-94	von	_	_
+2-8	95-102	Lepsius	*	PERmentioned
+2-9	103-106	der	_	_
+2-10	107-111	Maze	*[7]	PERmentioned[7]
+2-11	112-114	's	*[7]	PERmentioned[7]
+2-12	115-118	nun	_	_
+2-13	119-127	wirklich	_	_
+2-14	128-141	stattgehabten	_	_
+2-15	142-152	Bankeroutt	_	_
+2-16	153-160	anzeigt	_	_
+2-17	161-162	.	_	_
+
+#Text=Ich begreife die Kaltblütigkeit nicht , mit der er mir diese Mittheilung macht .
+3-1	163-166	Ich	_	_
+3-2	167-175	begreife	_	_
+3-3	176-179	die	_	_
+3-4	180-194	Kaltblütigkeit	_	_
+3-5	195-200	nicht	_	_
+3-6	201-202	,	_	_
+3-7	203-206	mit	_	_
+3-8	207-210	der	_	_
+3-9	211-213	er	_	_
+3-10	214-217	mir	_	_
+3-11	218-223	diese	_	_
+3-12	224-235	Mittheilung	_	_
+3-13	236-241	macht	_	_
+3-14	242-243	.	_	_
+
+#Text=Blos um einen So schmerzhaften damals schon von mir befürchteten Verlust vorzubeugen , habe ich darauf gedrungen , daß das Institut einen Sachwalter nach Paris senden möge .
+4-1	244-248	Blos	_	_
+4-2	249-251	um	_	_
+4-3	252-257	einen	_	_
+4-4	258-260	So	_	_
+4-5	261-274	schmerzhaften	_	_
+4-6	275-281	damals	_	_
+4-7	282-287	schon	_	_
+4-8	288-291	von	_	_
+4-9	292-295	mir	_	_
+4-10	296-308	befürchteten	_	_
+4-11	309-316	Verlust	_	_
+4-12	317-328	vorzubeugen	_	_
+4-13	329-330	,	_	_
+4-14	331-335	habe	_	_
+4-15	336-339	ich	_	_
+4-16	340-346	darauf	_	_
+4-17	347-356	gedrungen	_	_
+4-18	357-358	,	_	_
+4-19	359-362	daß	_	_
+4-20	363-366	das	_	_
+4-21	367-375	Institut	*	ORGmentioned
+4-22	376-381	einen	_	_
+4-23	382-392	Sachwalter	_	_
+4-24	393-397	nach	_	_
+4-25	398-403	Paris	*	PLACEmentioned
+4-26	404-410	senden	_	_
+4-27	411-415	möge	_	_
+4-28	416-417	.	_	_
+
+#Text=Lepsius hat nun die Sache so schlecht gemacht , daß es unmöglich irgend Jemand schlechter hätte machen können .
+5-1	418-425	Lepsius	*	PERmentioned
+5-2	426-429	hat	_	_
+5-3	430-433	nun	_	_
+5-4	434-437	die	_	_
+5-5	438-443	Sache	_	_
+5-6	444-446	so	_	_
+5-7	447-455	schlecht	_	_
+5-8	456-463	gemacht	_	_
+5-9	464-465	,	_	_
+5-10	466-469	daß	_	_
+5-11	470-472	es	_	_
+5-12	473-482	unmöglich	_	_
+5-13	483-489	irgend	_	_
+5-14	490-496	Jemand	_	_
+5-15	497-507	schlechter	_	_
+5-16	508-513	hätte	_	_
+5-17	514-520	machen	_	_
+5-18	521-527	können	_	_
+5-19	528-529	.	_	_
+
+#Text=Statt nicht vom , Platze zu weichen , bevor die Zahlung erfolgt war , ist er guten Muthes davon gereist und hat uns den Kack erst noch recht in Treck geschoben .
+6-1	530-535	Statt	_	_
+6-2	536-541	nicht	_	_
+6-3	542-545	vom	_	_
+6-4	546-547	,	_	_
+6-5	548-554	Platze	_	_
+6-6	555-557	zu	_	_
+6-7	558-565	weichen	_	_
+6-8	566-567	,	_	_
+6-9	568-573	bevor	_	_
+6-10	574-577	die	_	_
+6-11	578-585	Zahlung	_	_
+6-12	586-593	erfolgt	_	_
+6-13	594-597	war	_	_
+6-14	598-599	,	_	_
+6-15	600-603	ist	_	_
+6-16	604-606	er	_	_
+6-17	607-612	guten	_	_
+6-18	613-619	Muthes	_	_
+6-19	620-625	davon	_	_
+6-20	626-633	gereist	_	_
+6-21	634-637	und	_	_
+6-22	638-641	hat	_	_
+6-23	642-645	uns	_	_
+6-24	646-649	den	_	_
+6-25	650-654	Kack	_	_
+6-26	655-659	erst	_	_
+6-27	660-664	noch	_	_
+6-28	665-670	recht	_	_
+6-29	671-673	in	_	_
+6-30	674-679	Treck	_	_
+6-31	680-689	geschoben	_	_
+6-32	690-691	.	_	_
+
+#Text=- In London gehen die Sachen , wie es scheint , nicht so viel besser , daß wir über der Einkassirung von früher versprochenen 3000 Scudis den französischen Schaden vergessen könnten .
+7-1	692-693	-	_	_
+7-2	694-696	In	_	_
+7-3	697-703	London	*	PLACEmentioned
+7-4	704-709	gehen	_	_
+7-5	710-713	die	_	_
+7-6	714-720	Sachen	_	_
+7-7	721-722	,	_	_
+7-8	723-726	wie	_	_
+7-9	727-729	es	_	_
+7-10	730-737	scheint	_	_
+7-11	738-739	,	_	_
+7-12	740-745	nicht	_	_
+7-13	746-748	so	_	_
+7-14	749-753	viel	_	_
+7-15	754-760	besser	_	_
+7-16	761-762	,	_	_
+7-17	763-766	daß	_	_
+7-18	767-770	wir	_	_
+7-19	771-775	über	_	_
+7-20	776-779	der	_	_
+7-21	780-792	Einkassirung	_	_
+7-22	793-796	von	_	_
+7-23	797-803	früher	_	_
+7-24	804-817	versprochenen	_	_
+7-25	818-822	3000	_	_
+7-26	823-829	Scudis	_	_
+7-27	830-833	den	_	_
+7-28	834-847	französischen	_	_
+7-29	848-855	Schaden	_	_
+7-30	856-865	vergessen	_	_
+7-31	866-873	könnten	_	_
+7-32	874-875	.	_	_
+
+#Text=Bunsens wahnwitzige Maxime das Unglück nicht eher einzugestehen als bis sich die Klagen darüber nicht mehr verbergen lassen , hat sich Lepsio auf eine für uns äußerst nachtheilige Weise geimpft .
+8-1	876-883	Bunsens	*	PERmentioned
+8-2	884-895	wahnwitzige	_	_
+8-3	896-902	Maxime	_	_
+8-4	903-906	das	_	_
+8-5	907-914	Unglück	_	_
+8-6	915-920	nicht	_	_
+8-7	921-925	eher	_	_
+8-8	926-939	einzugestehen	_	_
+8-9	940-943	als	_	_
+8-10	944-947	bis	_	_
+8-11	948-952	sich	_	_
+8-12	953-956	die	_	_
+8-13	957-963	Klagen	_	_
+8-14	964-971	darüber	_	_
+8-15	972-977	nicht	_	_
+8-16	978-982	mehr	_	_
+8-17	983-992	verbergen	_	_
+8-18	993-999	lassen	_	_
+8-19	1000-1001	,	_	_
+8-20	1002-1005	hat	_	_
+8-21	1006-1010	sich	_	_
+8-22	1011-1017	Lepsio	*	PERmentioned
+8-23	1018-1021	auf	_	_
+8-24	1022-1026	eine	_	_
+8-25	1027-1030	für	_	_
+8-26	1031-1034	uns	_	_
+8-27	1035-1042	äußerst	_	_
+8-28	1043-1055	nachtheilige	_	_
+8-29	1056-1061	Weise	_	_
+8-30	1062-1069	geimpft	_	_
+8-31	1070-1071	.	_	_
+
+#Text=Er ist in seinem Unsinn so weit gegangen selbst in London publiciren zu wollen , d. h. mit andern Worten dem Institut den Garaus zu machen und darin sei er , schreibt er mir , sei er von Ihnen gebilligt und bestärkt worden .
+9-1	1072-1074	Er	_	_
+9-2	1075-1078	ist	_	_
+9-3	1079-1081	in	_	_
+9-4	1082-1088	seinem	_	_
+9-5	1089-1095	Unsinn	_	_
+9-6	1096-1098	so	_	_
+9-7	1099-1103	weit	_	_
+9-8	1104-1112	gegangen	_	_
+9-9	1113-1119	selbst	_	_
+9-10	1120-1122	in	_	_
+9-11	1123-1129	London	*	PLACEmentioned
+9-12	1130-1140	publiciren	_	_
+9-13	1141-1143	zu	_	_
+9-14	1144-1150	wollen	_	_
+9-15	1151-1152	,	_	_
+9-16	1153-1155	d.	_	_
+9-17	1156-1158	h.	_	_
+9-18	1159-1162	mit	_	_
+9-19	1163-1169	andern	_	_
+9-20	1170-1176	Worten	_	_
+9-21	1177-1180	dem	_	_
+9-22	1181-1189	Institut	*	ORGmentioned
+9-23	1190-1193	den	_	_
+9-24	1194-1200	Garaus	_	_
+9-25	1201-1203	zu	_	_
+9-26	1204-1210	machen	_	_
+9-27	1211-1214	und	_	_
+9-28	1215-1220	darin	_	_
+9-29	1221-1224	sei	_	_
+9-30	1225-1227	er	_	_
+9-31	1228-1229	,	_	_
+9-32	1230-1238	schreibt	_	_
+9-33	1239-1241	er	_	_
+9-34	1242-1245	mir	_	_
+9-35	1246-1247	,	_	_
+9-36	1248-1251	sei	_	_
+9-37	1252-1254	er	_	_
+9-38	1255-1258	von	_	_
+9-39	1259-1264	Ihnen	_	_
+9-40	1265-1274	gebilligt	_	_
+9-41	1275-1278	und	_	_
+9-42	1279-1287	bestärkt	_	_
+9-43	1288-1294	worden	_	_
+9-44	1295-1296	.	_	_
+
+#Text=Ist das wahr ?
+10-1	1297-1300	Ist	_	_
+10-2	1301-1304	das	_	_
+10-3	1305-1309	wahr	_	_
+10-4	1310-1311	?	_	_
+
+#Text=Von der H 11 .
+11-1	1312-1315	Von	_	_
+11-2	1316-1319	der	_	_
+11-3	1320-1321	H	_	_
+11-4	1322-1324	11	_	_
+11-5	1325-1326	.	_	_
+
+#Text=1835. ar .
+12-1	1327-1332	1835.	_	_
+12-2	1333-1335	ar	_	_
+12-3	1336-1337	.	_	_
+
+#Text=148 - 152. sind 2 Bogen von mir abgedruckt , möglichst knauserig berechnet .
+13-1	1338-1341	148	_	_
+13-2	1342-1343	-	_	_
+13-3	1344-1348	152.	_	_
+13-4	1349-1353	sind	_	_
+13-5	1354-1355	2	_	_
+13-6	1356-1361	Bogen	_	_
+13-7	1362-1365	von	_	_
+13-8	1366-1369	mir	_	_
+13-9	1370-1380	abgedruckt	_	_
+13-10	1381-1382	,	_	_
+13-11	1383-1392	möglichst	_	_
+13-12	1393-1402	knauserig	_	_
+13-13	1403-1412	berechnet	_	_
+13-14	1413-1414	.	_	_
+
+#Text=Können Sie mir 30 rt .
+14-1	1415-1421	Können	_	_
+14-2	1422-1425	Sie	_	_
+14-3	1426-1429	mir	_	_
+14-4	1430-1432	30	_	_
+14-5	1433-1435	rt	_	_
+14-6	1436-1437	.	_	_
+
+#Text=dafür verschaffen , so sollen Sie schönstens bedankt sein .
+15-1	1438-1443	dafür	_	_
+15-2	1444-1455	verschaffen	_	_
+15-3	1456-1457	,	_	_
+15-4	1458-1460	so	_	_
+15-5	1461-1467	sollen	_	_
+15-6	1468-1471	Sie	_	_
+15-7	1472-1482	schönstens	_	_
+15-8	1483-1490	bedankt	_	_
+15-9	1491-1495	sein	_	_
+15-10	1496-1497	.	_	_
+
+#Text=Sie glauben mir , wie es scheint , erst jetzt ,
+16-1	1498-1501	Sie	_	_
+16-2	1502-1509	glauben	_	_
+16-3	1510-1513	mir	_	_
+16-4	1514-1515	,	_	_
+16-5	1516-1519	wie	_	_
+16-6	1520-1522	es	_	_
+16-7	1523-1530	scheint	_	_
+16-8	1531-1532	,	_	_
+16-9	1533-1537	erst	_	_
+16-10	1538-1543	jetzt	_	_
+16-11	1544-1545	,	_	_

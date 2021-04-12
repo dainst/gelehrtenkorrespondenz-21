@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=@ 2a e 4 vd Ayo di !
+1-1	0-1	@	_	_
+1-2	2-4	2a	_	_
+1-3	5-6	e	_	_
+1-4	7-8	4	_	_
+1-5	9-11	vd	_	_
+1-6	12-15	Ayo	_	_
+1-7	16-18	di	_	_
+1-8	19-20	!	_	_
+
+#Text=Gerhard an Braun Berlin 19/1/1836 Dr. Braun .
+2-1	21-28	Gerhard	*	PERauthor
+2-2	29-31	an	_	_
+2-3	32-37	Braun	*	PERaddressee
+2-4	38-44	Berlin	*	PLACEfrom
+2-5	45-54	19/1/1836	*	DATEletter
+2-6	55-58	Dr.	_	_
+2-7	59-64	Braun	*	PERaddressee
+2-8	65-66	.	_	_
+
+#Text=Nebst Belege an Dr. Franz .
+3-1	67-72	Nebst	_	_
+3-2	73-79	Belege	_	_
+3-3	80-82	an	_	_
+3-4	83-86	Dr.	_	_
+3-5	87-92	Franz	*	PERmentioned
+3-6	93-94	.	_	_
+
+#Text=Berlin 19 Jan .
+4-1	95-101	Berlin	*	PLACEfrom
+4-2	102-104	19	*[8]	DATEletter[8]
+4-3	105-108	Jan	*[8]	DATEletter[8]
+4-4	109-110	.	*[8]	DATEletter[8]
+
+#Text=36 .
+5-1	111-113	36	*[8]	DATEletter[8]
+5-2	114-115	.	_	_
+
+#Text=Ihr beklommener Brief lieber Freund vom 5.ten d. M. findet mich leider in entsprechender Stimmung , diesmal vermehrt durch plötzliche Umwandlung meines bisherigen seit Jahr und Tag wie ich glaubte dur/Carthäuserdiät und unsichtbare Pulver bestätigten Wohlbefindens .
+6-1	116-119	Ihr	_	_
+6-2	120-131	beklommener	_	_
+6-3	132-137	Brief	_	_
+6-4	138-144	lieber	_	_
+6-5	145-151	Freund	_	_
+6-6	152-155	vom	_	_
+6-7	156-161	5.ten	*[9]	DATEmentioned[9]
+6-8	162-164	d.	*[9]	DATEmentioned[9]
+6-9	165-167	M.	*[9]	DATEmentioned[9]
+6-10	168-174	findet	_	_
+6-11	175-179	mich	_	_
+6-12	180-186	leider	_	_
+6-13	187-189	in	_	_
+6-14	190-204	entsprechender	_	_
+6-15	205-213	Stimmung	_	_
+6-16	214-215	,	_	_
+6-17	216-223	diesmal	_	_
+6-18	224-232	vermehrt	_	_
+6-19	233-238	durch	_	_
+6-20	239-249	plötzliche	_	_
+6-21	250-260	Umwandlung	_	_
+6-22	261-267	meines	_	_
+6-23	268-278	bisherigen	_	_
+6-24	279-283	seit	_	_
+6-25	284-288	Jahr	_	_
+6-26	289-292	und	_	_
+6-27	293-296	Tag	_	_
+6-28	297-300	wie	_	_
+6-29	301-304	ich	_	_
+6-30	305-312	glaubte	_	_
+6-31	313-331	dur/Carthäuserdiät	_	_
+6-32	332-335	und	_	_
+6-33	336-347	unsichtbare	_	_
+6-34	348-354	Pulver	_	_
+6-35	355-366	bestätigten	_	_
+6-36	367-380	Wohlbefindens	_	_
+6-37	381-382	.	_	_
+
+#Text=Pazienza \| Es bleibt dabei daß im Iauf des Jahres P. oder ich romwärts müssen , und mehr kann ich Ihnen bei solcher Verwickelung der Dinge nicht sagen .
+7-1	383-391	Pazienza	_	_
+7-2	392-393	\|	_	_
+7-3	394-396	Es	_	_
+7-4	397-403	bleibt	_	_
+7-5	404-409	dabei	_	_
+7-6	410-413	daß	_	_
+7-7	414-416	im	_	_
+7-8	417-421	Iauf	_	_
+7-9	422-425	des	_	_
+7-10	426-432	Jahres	_	_
+7-11	433-435	P.	_	_
+7-12	436-440	oder	_	_
+7-13	441-444	ich	_	_
+7-14	445-453	romwärts	_	_
+7-15	454-460	müssen	_	_
+7-16	461-462	,	_	_
+7-17	463-466	und	_	_
+7-18	467-471	mehr	_	_
+7-19	472-476	kann	_	_
+7-20	477-480	ich	_	_
+7-21	481-486	Ihnen	_	_
+7-22	487-490	bei	_	_
+7-23	491-498	solcher	_	_
+7-24	499-511	Verwickelung	_	_
+7-25	512-515	der	_	_
+7-26	516-521	Dinge	_	_
+7-27	522-527	nicht	_	_
+7-28	528-533	sagen	_	_
+7-29	534-535	.	_	_
+
+#Text=So wenig das nun ist , so sehr geht daraus hervor wie sehr Sie Grund haben provisorische Einrichtungen so zu nehmen als wären es der festesten .
+8-1	536-538	So	_	_
+8-2	539-544	wenig	_	_
+8-3	545-548	das	_	_
+8-4	549-552	nun	_	_
+8-5	553-556	ist	_	_
+8-6	557-558	,	_	_
+8-7	559-561	so	_	_
+8-8	562-566	sehr	_	_
+8-9	567-571	geht	_	_
+8-10	572-578	daraus	_	_
+8-11	579-585	hervor	_	_
+8-12	586-589	wie	_	_
+8-13	590-594	sehr	_	_
+8-14	595-598	Sie	_	_
+8-15	599-604	Grund	_	_
+8-16	605-610	haben	_	_
+8-17	611-624	provisorische	_	_
+8-18	625-638	Einrichtungen	_	_
+8-19	639-641	so	_	_
+8-20	642-644	zu	_	_
+8-21	645-651	nehmen	_	_
+8-22	652-655	als	_	_
+8-23	656-661	wären	_	_
+8-24	662-664	es	_	_
+8-25	665-668	der	_	_
+8-26	669-678	festesten	_	_
+8-27	679-680	.	_	_
+
+#Text=Sollen Sie Sich mit Franz ein Geschäft theilen , Lieber , so thun Sie es doch ja dergestalt daß als Grund der Theilung hauptsächlich Ihr Wunsch hervortritt den litterarischen Theil der Institutsarbeiten ausschließlich zu treiben statt durch Ausscheidung desselben mit der Bürde der materiellen Arbeiten nur noch schwerer belastet zu werden .
+9-1	681-687	Sollen	_	_
+9-2	688-691	Sie	_	_
+9-3	692-696	Sich	_	_
+9-4	697-700	mit	_	_
+9-5	701-706	Franz	*	PERmentioned
+9-6	707-710	ein	_	_
+9-7	711-719	Geschäft	_	_
+9-8	720-727	theilen	_	_
+9-9	728-729	,	_	_
+9-10	730-736	Lieber	_	_
+9-11	737-738	,	_	_
+9-12	739-741	so	_	_
+9-13	742-746	thun	_	_
+9-14	747-750	Sie	_	_
+9-15	751-753	es	_	_
+9-16	754-758	doch	_	_
+9-17	759-761	ja	_	_
+9-18	762-772	dergestalt	_	_
+9-19	773-776	daß	_	_
+9-20	777-780	als	_	_
+9-21	781-786	Grund	_	_
+9-22	787-790	der	_	_
+9-23	791-799	Theilung	_	_
+9-24	800-813	hauptsächlich	_	_
+9-25	814-817	Ihr	_	_
+9-26	818-824	Wunsch	_	_
+9-27	825-836	hervortritt	_	_
+9-28	837-840	den	_	_
+9-29	841-855	litterarischen	_	_
+9-30	856-861	Theil	_	_
+9-31	862-865	der	_	_
+9-32	866-883	Institutsarbeiten	_	_
+9-33	884-898	ausschließlich	_	_
+9-34	899-901	zu	_	_
+9-35	902-909	treiben	_	_
+9-36	910-915	statt	_	_
+9-37	916-921	durch	_	_
+9-38	922-934	Ausscheidung	_	_
+9-39	935-944	desselben	_	_
+9-40	945-948	mit	_	_
+9-41	949-952	der	_	_
+9-42	953-958	Bürde	_	_
+9-43	959-962	der	_	_
+9-44	963-974	materiellen	_	_
+9-45	975-983	Arbeiten	_	_
+9-46	984-987	nur	_	_
+9-47	988-992	noch	_	_
+9-48	993-1001	schwerer	_	_
+9-49	1002-1010	belastet	_	_
+9-50	1011-1013	zu	_	_
+9-51	1014-1020	werden	_	_
+9-52	1021-1022	.	_	_
+
+#Text=\| Von der Stellung der Geldsacher .
+10-1	1023-1024	\|	_	_
+10-2	1025-1028	Von	_	_
+10-3	1029-1032	der	_	_
+10-4	1033-1041	Stellung	_	_
+10-5	1042-1045	der	_	_
+10-6	1046-1056	Geldsacher	_	_
+10-7	1057-1058	.	_	_
+
+#Text=hängt so viel ab \; wie ist es möglich daß P. reisen , wenn sie nicht durchaus gesichert ist .
+11-1	1059-1064	hängt	_	_
+11-2	1065-1067	so	_	_
+11-3	1068-1072	viel	_	_
+11-4	1073-1075	ab	_	_
+11-5	1076-1077	\;	_	_
+11-6	1078-1081	wie	_	_
+11-7	1082-1085	ist	_	_
+11-8	1086-1088	es	_	_
+11-9	1089-1096	möglich	_	_
+11-10	1097-1100	daß	_	_
+11-11	1101-1103	P.	_	_
+11-12	1104-1110	reisen	_	_
+11-13	1111-1112	,	_	_
+11-14	1113-1117	wenn	_	_
+11-15	1118-1121	sie	_	_
+11-16	1122-1127	nicht	_	_
+11-17	1128-1136	durchaus	_	_
+11-18	1137-1146	gesichert	_	_
+11-19	1147-1150	ist	_	_
+11-20	1151-1152	.	_	_
+
+#Text=Nun verfährt aber Lanci wie ein alt Weib .
+12-1	1153-1156	Nun	_	_
+12-2	1157-1165	verfährt	_	_
+12-3	1166-1170	aber	_	_
+12-4	1171-1176	Lanci	*	PERmentioned
+12-5	1177-1180	wie	_	_
+12-6	1181-1184	ein	_	_
+12-7	1185-1188	alt	_	_
+12-8	1189-1193	Weib	_	_
+12-9	1194-1195	.	_	_
+
+#Text=Im Bull .
+13-1	1196-1198	Im	_	_
+13-2	1199-1203	Bull	_	_
+13-3	1204-1205	.	_	_
+
+#Text=hat er die Rechnungen wohl können abdrucken lassen , nicht aber sich entschließen im
+14-1	1206-1209	hat	_	_
+14-2	1210-1212	er	_	_
+14-3	1213-1216	die	_	_
+14-4	1217-1227	Rechnungen	_	_
+14-5	1228-1232	wohl	_	_
+14-6	1233-1239	können	_	_
+14-7	1240-1249	abdrucken	_	_
+14-8	1250-1256	lassen	_	_
+14-9	1257-1258	,	_	_
+14-10	1259-1264	nicht	_	_
+14-11	1265-1269	aber	_	_
+14-12	1270-1274	sich	_	_
+14-13	1275-1287	entschließen	_	_
+14-14	1288-1290	im	_	_

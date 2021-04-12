@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 1. Juni 1863 8 . 4. Juni 1853 r . 5. Juni 1863 Rom , 1 Juni 1863 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-24	1.	*[7]	DATEletter[7]
+1-7	25-29	Juni	*[7]	DATEletter[7]
+1-8	30-34	1863	*[7]	DATEletter[7]
+1-9	35-36	8	_	_
+1-10	37-38	.	_	_
+1-11	39-41	4.	*[8]	DATErecieved[8]
+1-12	42-46	Juni	*[8]	DATErecieved[8]
+1-13	47-51	1853	*[8]	DATErecieved[8]
+1-14	52-53	r	_	_
+1-15	54-55	.	_	_
+1-16	56-58	5.	*[9]	DATEanswered[9]
+1-17	59-63	Juni	*[9]	DATEanswered[9]
+1-18	64-68	1863	*[9]	DATEanswered[9]
+1-19	69-72	Rom	*	PLACEfrom
+1-20	73-74	,	_	_
+1-21	75-76	1	_	_
+1-22	77-81	Juni	*[10]	DATEletter[10]
+1-23	82-86	1863	*[10]	DATEletter[10]
+1-24	87-88	.	_	_
+
+#Text=Lieber Henzen !
+2-1	89-95	Lieber	_	_
+2-2	96-102	Henzen	*	PERaddressee
+2-3	103-104	!	_	_
+
+#Text=Obwohl ich nichts besonderes zu berichten haben , will ich doch auf Ihrm eben anlangenden Brief vom agren antworten .
+3-1	105-111	Obwohl	_	_
+3-2	112-115	ich	_	_
+3-3	116-122	nichts	_	_
+3-4	123-133	besonderes	_	_
+3-5	134-136	zu	_	_
+3-6	137-146	berichten	_	_
+3-7	147-152	haben	_	_
+3-8	153-154	,	_	_
+3-9	155-159	will	_	_
+3-10	160-163	ich	_	_
+3-11	164-168	doch	_	_
+3-12	169-172	auf	_	_
+3-13	173-177	Ihrm	_	_
+3-14	178-182	eben	_	_
+3-15	183-194	anlangenden	_	_
+3-16	195-200	Brief	_	_
+3-17	201-204	vom	_	_
+3-18	205-210	agren	*[11]	DATEmentioned[11]
+3-19	211-220	antworten	_	_
+3-20	221-222	.	_	_
+
+#Text=Sie werden unterdessen den meinigen vom ayten erhalten haben .
+4-1	223-226	Sie	_	_
+4-2	227-233	werden	_	_
+4-3	234-245	unterdessen	_	_
+4-4	246-249	den	_	_
+4-5	250-258	meinigen	_	_
+4-6	259-262	vom	_	_
+4-7	263-268	ayten	*[12]	DATEmentioned[12]
+4-8	269-277	erhalten	_	_
+4-9	278-283	haben	_	_
+4-10	284-285	.	_	_
+
+#Text=Ihre Cousine ist , nachdem das Begräbniß Donnerstag stattgefunden , gestern , Sonntag , früh abgereist .
+5-1	286-290	Ihre	*[13]	PERmentioned[13]
+5-2	291-298	Cousine	*[13]	PERmentioned[13]
+5-3	299-302	ist	_	_
+5-4	303-304	,	_	_
+5-5	305-312	nachdem	_	_
+5-6	313-316	das	_	_
+5-7	317-326	Begräbniß	_	_
+5-8	327-337	Donnerstag	*	DATEmentioned
+5-9	338-351	stattgefunden	_	_
+5-10	352-353	,	_	_
+5-11	354-361	gestern	_	_
+5-12	362-363	,	_	_
+5-13	364-371	Sonntag	*	DATEmentioned
+5-14	372-373	,	_	_
+5-15	374-378	früh	_	_
+5-16	379-388	abgereist	_	_
+5-17	389-390	.	_	_
+
+#Text=Einige Zeilen von ihr folgen anbei .
+6-1	391-397	Einige	_	_
+6-2	398-404	Zeilen	_	_
+6-3	405-408	von	_	_
+6-4	409-412	ihr	_	_
+6-5	413-419	folgen	_	_
+6-6	420-425	anbei	_	_
+6-7	426-427	.	_	_
+
+#Text=Aus Gerhard 's Andeutungen hatte ich ganz das richtige herausgelesen , wie ich aus Ihrem Briefe sehe .
+7-1	428-431	Aus	_	_
+7-2	432-439	Gerhard	*[14]	PERmentioned[14]
+7-3	440-442	's	*[14]	PERmentioned[14]
+7-4	443-454	Andeutungen	_	_
+7-5	455-460	hatte	_	_
+7-6	461-464	ich	_	_
+7-7	465-469	ganz	_	_
+7-8	470-473	das	_	_
+7-9	474-482	richtige	_	_
+7-10	483-496	herausgelesen	_	_
+7-11	497-498	,	_	_
+7-12	499-502	wie	_	_
+7-13	503-506	ich	_	_
+7-14	507-510	aus	_	_
+7-15	511-516	Ihrem	_	_
+7-16	517-523	Briefe	_	_
+7-17	524-528	sehe	_	_
+7-18	529-530	.	_	_
+
+#Text=Ich bin , wie Sie sich denken können , mit Ihnen vollkommen einverstanden .
+8-1	531-534	Ich	_	_
+8-2	535-538	bin	_	_
+8-3	539-540	,	_	_
+8-4	541-544	wie	_	_
+8-5	545-548	Sie	_	_
+8-6	549-553	sich	_	_
+8-7	554-560	denken	_	_
+8-8	561-567	können	_	_
+8-9	568-569	,	_	_
+8-10	570-573	mit	_	_
+8-11	574-579	Ihnen	_	_
+8-12	580-590	vollkommen	_	_
+8-13	591-604	einverstanden	_	_
+8-14	605-606	.	_	_
+
+#Text=Ich will versuchen , mich vorläufig so viel als möglich zurückzuhalten , fürchte aber trotzden , daß es ohne Eclat nicht abgeht .
+9-1	607-610	Ich	_	_
+9-2	611-615	will	_	_
+9-3	616-625	versuchen	_	_
+9-4	626-627	,	_	_
+9-5	628-632	mich	_	_
+9-6	633-642	vorläufig	_	_
+9-7	643-645	so	_	_
+9-8	646-650	viel	_	_
+9-9	651-654	als	_	_
+9-10	655-662	möglich	_	_
+9-11	663-677	zurückzuhalten	_	_
+9-12	678-679	,	_	_
+9-13	680-687	fürchte	_	_
+9-14	688-692	aber	_	_
+9-15	693-701	trotzden	_	_
+9-16	702-703	,	_	_
+9-17	704-707	daß	_	_
+9-18	708-710	es	_	_
+9-19	711-715	ohne	_	_
+9-20	716-721	Eclat	_	_
+9-21	722-727	nicht	_	_
+9-22	728-734	abgeht	_	_
+9-23	735-736	.	_	_
+
+#Text=Ich sehe kaum eine Möglichkeit , mit Gerhard noch länger perönlich zu verkehren .
+10-1	737-740	Ich	_	_
+10-2	741-745	sehe	_	_
+10-3	746-750	kaum	_	_
+10-4	751-755	eine	_	_
+10-5	756-767	Möglichkeit	_	_
+10-6	768-769	,	_	_
+10-7	770-773	mit	_	_
+10-8	774-781	Gerhard	*	PERmentioned
+10-9	782-786	noch	_	_
+10-10	787-793	länger	_	_
+10-11	794-803	perönlich	_	_
+10-12	804-806	zu	_	_
+10-13	807-816	verkehren	_	_
+10-14	817-818	.	_	_
+
+#Text=Denn jeder Schritt , den man ihm entgegen thut , führt nur zu neuen Prätentionen und auf jeden Gefallen , den man ihm thut , gründet er sofort einen Rechtsanspruch .
+11-1	819-823	Denn	_	_
+11-2	824-829	jeder	_	_
+11-3	830-837	Schritt	_	_
+11-4	838-839	,	_	_
+11-5	840-843	den	_	_
+11-6	844-847	man	_	_
+11-7	848-851	ihm	_	_
+11-8	852-860	entgegen	_	_
+11-9	861-865	thut	_	_
+11-10	866-867	,	_	_
+11-11	868-873	führt	_	_
+11-12	874-877	nur	_	_
+11-13	878-880	zu	_	_
+11-14	881-886	neuen	_	_
+11-15	887-899	Prätentionen	_	_
+11-16	900-903	und	_	_
+11-17	904-907	auf	_	_
+11-18	908-913	jeden	_	_
+11-19	914-922	Gefallen	_	_
+11-20	923-924	,	_	_
+11-21	925-928	den	_	_
+11-22	929-932	man	_	_
+11-23	933-936	ihm	_	_
+11-24	937-941	thut	_	_
+11-25	942-943	,	_	_
+11-26	944-951	gründet	_	_
+11-27	952-954	er	_	_
+11-28	955-961	sofort	_	_
+11-29	962-967	einen	_	_
+11-30	968-982	Rechtsanspruch	_	_
+11-31	983-984	.	_	_
+
+#Text=Das ist nicht länger auszuhalten und wenn ich ordentlich arbeiten soll , so müssen die so ziemlich alle 14 Tage sich
+12-1	985-988	Das	_	_
+12-2	989-992	ist	_	_
+12-3	993-998	nicht	_	_
+12-4	999-1005	länger	_	_
+12-5	1006-1017	auszuhalten	_	_
+12-6	1018-1021	und	_	_
+12-7	1022-1026	wenn	_	_
+12-8	1027-1030	ich	_	_
+12-9	1031-1041	ordentlich	_	_
+12-10	1042-1050	arbeiten	_	_
+12-11	1051-1055	soll	_	_
+12-12	1056-1057	,	_	_
+12-13	1058-1060	so	_	_
+12-14	1061-1067	müssen	_	_
+12-15	1068-1071	die	_	_
+12-16	1072-1074	so	_	_
+12-17	1075-1083	ziemlich	_	_
+12-18	1084-1088	alle	_	_
+12-19	1089-1091	14	_	_
+12-20	1092-1096	Tage	_	_
+12-21	1097-1101	sich	_	_

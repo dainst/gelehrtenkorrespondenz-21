@@ -1,0 +1,288 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=404 Braun an Gerhard Rom , 14. Juni 1838 Sig .
+1-1	0-3	404	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	14.	*[6]	DATEletter[6]
+1-8	31-35	Juni	*[6]	DATEletter[6]
+1-9	36-40	1838	*[6]	DATEletter[6]
+1-10	41-44	Sig	_	_
+1-11	45-46	.	_	_
+
+#Text=Cav .
+2-1	47-50	Cav	_	_
+2-2	51-52	.	_	_
+
+#Text=Gerhard Berlino .
+3-1	53-60	Gerhard	*	PERaddressee
+3-2	61-68	Berlino	*	PLACEto
+3-3	69-70	.	_	_
+
+#Text=Roma li 14 Giugno 1838 .
+4-1	71-75	Roma	*	PLACEfrom
+4-2	76-78	li	_	_
+4-3	79-81	14	*[8]	DATEletter[8]
+4-4	82-88	Giugno	*[8]	DATEletter[8]
+4-5	89-93	1838	*[8]	DATEletter[8]
+4-6	94-95	.	_	_
+
+#Text=Hochverehrtester Freund !
+5-1	96-112	Hochverehrtester	_	_
+5-2	113-119	Freund	_	_
+5-3	120-121	!	_	_
+
+#Text=Die griechische Gesellschaft hat seitdem dem Institut durch Mure zwei Hefte Ihrer Publikazionen übersandt .
+6-1	122-125	Die	_	_
+6-2	126-137	griechische	*[9]	ORGmentioned[9]
+6-3	138-150	Gesellschaft	*[9]	ORGmentioned[9]
+6-4	151-154	hat	_	_
+6-5	155-162	seitdem	_	_
+6-6	163-166	dem	_	_
+6-7	167-175	Institut	*	ORGmentioned
+6-8	176-181	durch	_	_
+6-9	182-186	Mure	*	PERmentioned
+6-10	187-191	zwei	_	_
+6-11	192-197	Hefte	_	_
+6-12	198-203	Ihrer	_	_
+6-13	204-217	Publikazionen	_	_
+6-14	218-227	übersandt	_	_
+6-15	228-229	.	_	_
+
+#Text=Da man nicht darauf zu antworten braucht , um so besser .
+7-1	230-232	Da	_	_
+7-2	233-236	man	_	_
+7-3	237-242	nicht	_	_
+7-4	243-249	darauf	_	_
+7-5	250-252	zu	_	_
+7-6	253-262	antworten	_	_
+7-7	263-270	braucht	_	_
+7-8	271-272	,	_	_
+7-9	273-275	um	_	_
+7-10	276-278	so	_	_
+7-11	279-285	besser	_	_
+7-12	286-287	.	_	_
+
+#Text=Micali hatte das Manifest eingesandt mit der Bitte seiner dabei als illenempfänger zu erwähnen .
+8-1	288-294	Micali	*	PERmentioned
+8-2	295-300	hatte	_	_
+8-3	301-304	das	_	_
+8-4	305-313	Manifest	_	_
+8-5	314-324	eingesandt	_	_
+8-6	325-328	mit	_	_
+8-7	329-332	der	_	_
+8-8	333-338	Bitte	_	_
+8-9	339-345	seiner	_	_
+8-10	346-351	dabei	_	_
+8-11	352-355	als	_	_
+8-12	356-370	illenempfänger	_	_
+8-13	371-373	zu	_	_
+8-14	374-382	erwähnen	_	_
+8-15	383-384	.	_	_
+
+#Text=Letzteres schien auch mir höchst ungehörig \; indessen wurde aus Rücksichten nachgegeben \; mehr noch eigentlich weil ich den archäologischen Saukerl nicht ausstehen kann und man seine Feinde gut behandeln muß .
+9-1	385-394	Letzteres	_	_
+9-2	395-401	schien	_	_
+9-3	402-406	auch	_	_
+9-4	407-410	mir	_	_
+9-5	411-417	höchst	_	_
+9-6	418-427	ungehörig	_	_
+9-7	428-429	\;	_	_
+9-8	430-438	indessen	_	_
+9-9	439-444	wurde	_	_
+9-10	445-448	aus	_	_
+9-11	449-460	Rücksichten	_	_
+9-12	461-472	nachgegeben	_	_
+9-13	473-474	\;	_	_
+9-14	475-479	mehr	_	_
+9-15	480-484	noch	_	_
+9-16	485-495	eigentlich	_	_
+9-17	496-500	weil	_	_
+9-18	501-504	ich	_	_
+9-19	505-508	den	_	_
+9-20	509-524	archäologischen	_	_
+9-21	525-532	Saukerl	_	_
+9-22	533-538	nicht	_	_
+9-23	539-548	ausstehen	_	_
+9-24	549-553	kann	_	_
+9-25	554-557	und	_	_
+9-26	558-561	man	_	_
+9-27	562-567	seine	_	_
+9-28	568-574	Feinde	_	_
+9-29	575-578	gut	_	_
+9-30	579-588	behandeln	_	_
+9-31	589-592	muß	_	_
+9-32	593-594	.	_	_
+
+#Text=Daß der arme Schüler des Minutoli in meiner Anzeige übel weggekommen ist , thut mir leid .
+10-1	595-598	Daß	_	_
+10-2	599-602	der	_	_
+10-3	603-607	arme	_	_
+10-4	608-615	Schüler	_	_
+10-5	616-619	des	_	_
+10-6	620-628	Minutoli	*	PERmentioned
+10-7	629-631	in	_	_
+10-8	632-638	meiner	_	_
+10-9	639-646	Anzeige	_	_
+10-10	647-651	übel	_	_
+10-11	652-663	weggekommen	_	_
+10-12	664-667	ist	_	_
+10-13	668-669	,	_	_
+10-14	670-674	thut	_	_
+10-15	675-678	mir	_	_
+10-16	679-683	leid	_	_
+10-17	684-685	.	_	_
+
+#Text=Ich habe mich recht eigentlich gezwungen , ihn so lobend zu behandeln als es nur immer ohne der Wahrheit untreu zu werden möglich war .
+11-1	686-689	Ich	_	_
+11-2	690-694	habe	_	_
+11-3	695-699	mich	_	_
+11-4	700-705	recht	_	_
+11-5	706-716	eigentlich	_	_
+11-6	717-726	gezwungen	_	_
+11-7	727-728	,	_	_
+11-8	729-732	ihn	_	_
+11-9	733-735	so	_	_
+11-10	736-742	lobend	_	_
+11-11	743-745	zu	_	_
+11-12	746-755	behandeln	_	_
+11-13	756-759	als	_	_
+11-14	760-762	es	_	_
+11-15	763-766	nur	_	_
+11-16	767-772	immer	_	_
+11-17	773-777	ohne	_	_
+11-18	778-781	der	_	_
+11-19	782-790	Wahrheit	_	_
+11-20	791-797	untreu	_	_
+11-21	798-800	zu	_	_
+11-22	801-807	werden	_	_
+11-23	808-815	möglich	_	_
+11-24	816-819	war	_	_
+11-25	820-821	.	_	_
+
+#Text=Das Buch ist gar nichts werth .
+12-1	822-825	Das	_	_
+12-2	826-830	Buch	_	_
+12-3	831-834	ist	_	_
+12-4	835-838	gar	_	_
+12-5	839-845	nichts	_	_
+12-6	846-851	werth	_	_
+12-7	852-853	.	_	_
+
+#Text=Er hat einige Glassachen zeichnen , aber nicht einmal von anderen ansehen lassen , geschweige denn selbst Beobachtungen angestellt .
+13-1	854-856	Er	_	_
+13-2	857-860	hat	_	_
+13-3	861-867	einige	_	_
+13-4	868-878	Glassachen	_	_
+13-5	879-887	zeichnen	_	_
+13-6	888-889	,	_	_
+13-7	890-894	aber	_	_
+13-8	895-900	nicht	_	_
+13-9	901-907	einmal	_	_
+13-10	908-911	von	_	_
+13-11	912-919	anderen	_	_
+13-12	920-927	ansehen	_	_
+13-13	928-934	lassen	_	_
+13-14	935-936	,	_	_
+13-15	937-947	geschweige	_	_
+13-16	948-952	denn	_	_
+13-17	953-959	selbst	_	_
+13-18	960-973	Beobachtungen	_	_
+13-19	974-984	angestellt	_	_
+13-20	985-986	.	_	_
+
+#Text=Sein Ton macht sich breit und Derer , welche das Studium dieses technischen Kunstzweigs zuerst aufgebracht haben , geschieht kaum irgend eine Erwähnung .
+14-1	987-991	Sein	_	_
+14-2	992-995	Ton	_	_
+14-3	996-1001	macht	_	_
+14-4	1002-1006	sich	_	_
+14-5	1007-1012	breit	_	_
+14-6	1013-1016	und	_	_
+14-7	1017-1022	Derer	_	_
+14-8	1023-1024	,	_	_
+14-9	1025-1031	welche	_	_
+14-10	1032-1035	das	_	_
+14-11	1036-1043	Studium	_	_
+14-12	1044-1050	dieses	_	_
+14-13	1051-1062	technischen	_	_
+14-14	1063-1074	Kunstzweigs	_	_
+14-15	1075-1081	zuerst	_	_
+14-16	1082-1093	aufgebracht	_	_
+14-17	1094-1099	haben	_	_
+14-18	1100-1101	,	_	_
+14-19	1102-1111	geschieht	_	_
+14-20	1112-1116	kaum	_	_
+14-21	1117-1123	irgend	_	_
+14-22	1124-1128	eine	_	_
+14-23	1129-1138	Erwähnung	_	_
+14-24	1139-1140	.	_	_
+
+#Text=Ich darf Ihnen versichern , daß wenn ich nicht die Rücksichten streng genommen hätte , die Sie mir jetzt mit Recht vorführen , dieses erbärmliche Werk wahrscheinlich von mir auf eine vernichtende Weise behandelt worden wäre .
+15-1	1141-1144	Ich	_	_
+15-2	1145-1149	darf	_	_
+15-3	1150-1155	Ihnen	_	_
+15-4	1156-1166	versichern	_	_
+15-5	1167-1168	,	_	_
+15-6	1169-1172	daß	_	_
+15-7	1173-1177	wenn	_	_
+15-8	1178-1181	ich	_	_
+15-9	1182-1187	nicht	_	_
+15-10	1188-1191	die	_	_
+15-11	1192-1203	Rücksichten	_	_
+15-12	1204-1210	streng	_	_
+15-13	1211-1219	genommen	_	_
+15-14	1220-1225	hätte	_	_
+15-15	1226-1227	,	_	_
+15-16	1228-1231	die	_	_
+15-17	1232-1235	Sie	_	_
+15-18	1236-1239	mir	_	_
+15-19	1240-1245	jetzt	_	_
+15-20	1246-1249	mit	_	_
+15-21	1250-1255	Recht	_	_
+15-22	1256-1265	vorführen	_	_
+15-23	1266-1267	,	_	_
+15-24	1268-1274	dieses	_	_
+15-25	1275-1286	erbärmliche	_	_
+15-26	1287-1291	Werk	_	_
+15-27	1292-1306	wahrscheinlich	_	_
+15-28	1307-1310	von	_	_
+15-29	1311-1314	mir	_	_
+15-30	1315-1318	auf	_	_
+15-31	1319-1323	eine	_	_
+15-32	1324-1336	vernichtende	_	_
+15-33	1337-1342	Weise	_	_
+15-34	1343-1352	behandelt	_	_
+15-35	1353-1359	worden	_	_
+15-36	1360-1364	wäre	_	_
+15-37	1365-1366	.	_	_
+
+#Text=Wenn sich unter den Berliner Größen Niemand andres mit der Archäologie beschäftigen will , so soll man Gott danken , daß sich die Gro-
+16-1	1367-1371	Wenn	_	_
+16-2	1372-1376	sich	_	_
+16-3	1377-1382	unter	_	_
+16-4	1383-1386	den	_	_
+16-5	1387-1395	Berliner	*	PLACEmentioned
+16-6	1396-1402	Größen	_	_
+16-7	1403-1410	Niemand	_	_
+16-8	1411-1417	andres	_	_
+16-9	1418-1421	mit	_	_
+16-10	1422-1425	der	_	_
+16-11	1426-1437	Archäologie	_	_
+16-12	1438-1450	beschäftigen	_	_
+16-13	1451-1455	will	_	_
+16-14	1456-1457	,	_	_
+16-15	1458-1460	so	_	_
+16-16	1461-1465	soll	_	_
+16-17	1466-1469	man	_	_
+16-18	1470-1474	Gott	_	_
+16-19	1475-1481	danken	_	_
+16-20	1482-1483	,	_	_
+16-21	1484-1487	daß	_	_
+16-22	1488-1492	sich	_	_
+16-23	1493-1496	die	_	_
+16-24	1497-1501	Gro-	_	_

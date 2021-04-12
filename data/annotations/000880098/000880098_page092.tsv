@@ -1,0 +1,281 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=697 Braun an Gerhard Prof. Gerhard , Rom , 13 , November 1834 Roma li 13 - 15 Nbre 1834 Hochverehrtester Freund \| Seit mehreren Tagen im Begriff zu schreiben , wird es mir doch erst heute möglich \; die Visiten nehmen seit der Rückkehr der Fremden zu sehr überhand , nicht die ich mache , sondern die ich erdulden muß .
+1-1	0-3	697	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-36	,	_	_
+1-8	37-40	Rom	*	PLACEfrom
+1-9	41-42	,	_	_
+1-10	43-45	13	*[2]	DATEletter[2]
+1-11	46-47	,	*[2]	DATEletter[2]
+1-12	48-56	November	*[2]	DATEletter[2]
+1-13	57-61	1834	*[2]	DATEletter[2]
+1-14	62-66	Roma	*	PLACEfrom
+1-15	67-69	li	_	_
+1-16	70-72	13	*[3]	DATEletter[3]
+1-17	73-74	-	*[3]	DATEletter[3]
+1-18	75-77	15	*[3]	DATEletter[3]
+1-19	78-82	Nbre	*[3]	DATEletter[3]
+1-20	83-87	1834	*[3]	DATEletter[3]
+1-21	88-104	Hochverehrtester	*[4]	PERaddressee[4]
+1-22	105-111	Freund	*[4]	PERaddressee[4]
+1-23	112-113	\|	_	_
+1-24	114-118	Seit	_	_
+1-25	119-127	mehreren	_	_
+1-26	128-133	Tagen	_	_
+1-27	134-136	im	_	_
+1-28	137-144	Begriff	_	_
+1-29	145-147	zu	_	_
+1-30	148-157	schreiben	_	_
+1-31	158-159	,	_	_
+1-32	160-164	wird	_	_
+1-33	165-167	es	_	_
+1-34	168-171	mir	_	_
+1-35	172-176	doch	_	_
+1-36	177-181	erst	_	_
+1-37	182-187	heute	_	_
+1-38	188-195	möglich	_	_
+1-39	196-197	\;	_	_
+1-40	198-201	die	_	_
+1-41	202-209	Visiten	_	_
+1-42	210-216	nehmen	_	_
+1-43	217-221	seit	_	_
+1-44	222-225	der	_	_
+1-45	226-234	Rückkehr	_	_
+1-46	235-238	der	_	_
+1-47	239-246	Fremden	_	_
+1-48	247-249	zu	_	_
+1-49	250-254	sehr	_	_
+1-50	255-263	überhand	_	_
+1-51	264-265	,	_	_
+1-52	266-271	nicht	_	_
+1-53	272-275	die	_	_
+1-54	276-279	ich	_	_
+1-55	280-285	mache	_	_
+1-56	286-287	,	_	_
+1-57	288-295	sondern	_	_
+1-58	296-299	die	_	_
+1-59	300-303	ich	_	_
+1-60	304-312	erdulden	_	_
+1-61	313-316	muß	_	_
+1-62	317-318	.	_	_
+
+#Text=Außerdem giebt es nicht wenig anderes zu thuen .
+2-1	319-327	Außerdem	_	_
+2-2	328-333	giebt	_	_
+2-3	334-336	es	_	_
+2-4	337-342	nicht	_	_
+2-5	343-348	wenig	_	_
+2-6	349-356	anderes	_	_
+2-7	357-359	zu	_	_
+2-8	360-365	thuen	_	_
+2-9	366-367	.	_	_
+
+#Text=- Platner fragt nach Ihrer Edition des Alcestissarkophags in P Clera ?
+3-1	368-369	-	_	_
+3-2	370-377	Platner	*	PERmentioned
+3-3	378-383	fragt	_	_
+3-4	384-388	nach	_	_
+3-5	389-394	Ihrer	_	_
+3-6	395-402	Edition	*	LIT
+3-7	403-406	des	_	_
+3-8	407-425	Alcestissarkophags	*	OBJ
+3-9	426-428	in	_	_
+3-10	429-430	P	*[5]	PLACEmentioned[5]
+3-11	431-436	Clera	*[5]	PLACEmentioned[5]
+3-12	437-438	?	_	_
+
+#Text=Im Augenblick habe ich es nicht gegenwärtig .
+4-1	439-441	Im	_	_
+4-2	442-452	Augenblick	_	_
+4-3	453-457	habe	_	_
+4-4	458-461	ich	_	_
+4-5	462-464	es	_	_
+4-6	465-470	nicht	_	_
+4-7	471-482	gegenwärtig	_	_
+4-8	483-484	.	_	_
+
+#Text=Die Intelligenzblätter haben sich gefunden , als ich das Institut schön machte .
+5-1	485-488	Die	_	_
+5-2	489-507	Intelligenzblätter	*	LIT
+5-3	508-513	haben	_	_
+5-4	514-518	sich	_	_
+5-5	519-527	gefunden	_	_
+5-6	528-529	,	_	_
+5-7	530-533	als	_	_
+5-8	534-537	ich	_	_
+5-9	538-541	das	_	_
+5-10	542-550	Institut	*	ORGmentioned
+5-11	551-556	schön	_	_
+5-12	557-563	machte	_	_
+5-13	564-565	.	_	_
+
+#Text=Ich habe davon das Exemplar des Instituts vervollständigt , und ein anderes vollständises Exemplar zu Ihrer Disposition bei Seite gelegt .
+6-1	566-569	Ich	_	_
+6-2	570-574	habe	_	_
+6-3	575-580	davon	_	_
+6-4	581-584	das	_	_
+6-5	585-593	Exemplar	_	_
+6-6	594-597	des	_	_
+6-7	598-607	Instituts	*	ORGmentioned
+6-8	608-623	vervollständigt	_	_
+6-9	624-625	,	_	_
+6-10	626-629	und	_	_
+6-11	630-633	ein	_	_
+6-12	634-641	anderes	_	_
+6-13	642-655	vollständises	_	_
+6-14	656-664	Exemplar	_	_
+6-15	665-667	zu	_	_
+6-16	668-673	Ihrer	_	_
+6-17	674-685	Disposition	_	_
+6-18	686-689	bei	_	_
+6-19	690-695	Seite	_	_
+6-20	696-702	gelegt	_	_
+6-21	703-704	.	_	_
+
+#Text=Sonst sind 7 Exemplare von 1833 I - VI .
+7-1	705-710	Sonst	_	_
+7-2	711-715	sind	_	_
+7-3	716-717	7	_	_
+7-4	718-727	Exemplare	_	_
+7-5	728-731	von	_	_
+7-6	732-736	1833	_	_
+7-7	737-738	I	_	_
+7-8	739-740	-	_	_
+7-9	741-743	VI	_	_
+7-10	744-745	.	_	_
+
+#Text=da \; 3 Ex .
+8-1	746-748	da	_	_
+8-2	749-750	\;	_	_
+8-3	751-752	3	_	_
+8-4	753-755	Ex	_	_
+8-5	756-757	.	_	_
+
+#Text=IX - XIV \; 2 Ex .
+9-1	758-760	IX	_	_
+9-2	761-762	-	_	_
+9-3	763-766	XIV	_	_
+9-4	767-768	\;	_	_
+9-5	769-770	2	_	_
+9-6	771-773	Ex	_	_
+9-7	774-775	.	_	_
+
+#Text=I - IV 1834 .
+10-1	776-777	I	_	_
+10-2	778-779	-	_	_
+10-3	780-782	IV	_	_
+10-4	783-787	1834	_	_
+10-5	788-789	.	_	_
+
+#Text=Außerdem wird sich wohl von den Ex , I - VI noch ein und das andere Exemplar in übermachten Besitz befinden .
+11-1	790-798	Außerdem	_	_
+11-2	799-803	wird	_	_
+11-3	804-808	sich	_	_
+11-4	809-813	wohl	_	_
+11-5	814-817	von	_	_
+11-6	818-821	den	_	_
+11-7	822-824	Ex	_	_
+11-8	825-826	,	_	_
+11-9	827-828	I	_	_
+11-10	829-830	-	_	_
+11-11	831-833	VI	_	_
+11-12	834-838	noch	_	_
+11-13	839-842	ein	_	_
+11-14	843-846	und	_	_
+11-15	847-850	das	_	_
+11-16	851-857	andere	_	_
+11-17	858-866	Exemplar	_	_
+11-18	867-869	in	_	_
+11-19	870-881	übermachten	_	_
+11-20	882-888	Besitz	_	_
+11-21	889-897	befinden	_	_
+11-22	898-899	.	_	_
+
+#Text=Von dem Museo Chiusiono habe ich den Beschluss erhalten .
+12-1	900-903	Von	_	_
+12-2	904-907	dem	_	_
+12-3	908-913	Museo	*[6]	LIT[6]
+12-4	914-923	Chiusiono	*[6]	LIT[6]
+12-5	924-928	habe	_	_
+12-6	929-932	ich	_	_
+12-7	933-936	den	_	_
+12-8	937-946	Beschluss	_	_
+12-9	947-955	erhalten	_	_
+12-10	956-957	.	_	_
+
+#Text=- Inghiramis Vasi Fittili fasc .
+13-1	958-959	-	_	_
+13-2	960-970	Inghiramis	*	PERmentioned
+13-3	971-975	Vasi	*[7]	LIT[7]
+13-4	976-983	Fittili	*[7]	LIT[7]
+13-5	984-988	fasc	_	_
+13-6	989-990	.	_	_
+
+#Text=XV sind ebenfalls eingetrieben .
+14-1	991-993	XV	_	_
+14-2	994-998	sind	_	_
+14-3	999-1008	ebenfalls	_	_
+14-4	1009-1021	eingetrieben	_	_
+14-5	1022-1023	.	_	_
+
+#Text=Der Princ .
+15-1	1024-1027	Der	_	_
+15-2	1028-1033	Princ	*[8]	PERmentioned[8]
+15-3	1034-1035	.	*[8]	PERmentioned[8]
+
+#Text=d'Aglora schreibt an Sie vom 1 .
+16-1	1036-1044	d'Aglora	*[8]	PERmentioned[8]
+16-2	1045-1053	schreibt	_	_
+16-3	1054-1056	an	_	_
+16-4	1057-1060	Sie	_	_
+16-5	1061-1064	vom	_	_
+16-6	1065-1066	1	*[9]	DATEmentioned[9]
+16-7	1067-1068	.	*[9]	DATEmentioned[9]
+
+#Text=Oct .
+17-1	1069-1072	Oct	*[9]	DATEmentioned[9]
+17-2	1073-1074	.	*[9]	DATEmentioned[9]
+
+#Text=aus Siviglia \; sein Brief ist äußerst freundlich .
+18-1	1075-1078	aus	_	_
+18-2	1079-1087	Siviglia	*	PLACEmentioned
+18-3	1088-1089	\;	_	_
+18-4	1090-1094	sein	_	_
+18-5	1095-1100	Brief	_	_
+18-6	1101-1104	ist	_	_
+18-7	1105-1112	äußerst	_	_
+18-8	1113-1123	freundlich	_	_
+18-9	1124-1125	.	_	_
+
+#Text=Er beklagt von dem Institut nichts erhalten zu haben , seitden er von Italien abwesend sei .
+19-1	1126-1128	Er	_	_
+19-2	1129-1136	beklagt	_	_
+19-3	1137-1140	von	_	_
+19-4	1141-1144	dem	_	_
+19-5	1145-1153	Institut	*	ORGmentioned
+19-6	1154-1160	nichts	_	_
+19-7	1161-1169	erhalten	_	_
+19-8	1170-1172	zu	_	_
+19-9	1173-1178	haben	_	_
+19-10	1179-1180	,	_	_
+19-11	1181-1188	seitden	_	_
+19-12	1189-1191	er	_	_
+19-13	1192-1195	von	_	_
+19-14	1196-1203	Italien	*	PLACEmentioned
+19-15	1204-1212	abwesend	_	_
+19-16	1213-1216	sei	_	_
+19-17	1217-1218	.	_	_
+
+#Text=Die Sachen durch Grecco hat
+20-1	1219-1222	Die	_	_
+20-2	1223-1229	Sachen	_	_
+20-3	1230-1235	durch	_	_
+20-4	1236-1242	Grecco	*	PERmentioned
+20-5	1243-1246	hat	_	_

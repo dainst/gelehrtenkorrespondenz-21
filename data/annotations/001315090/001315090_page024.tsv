@@ -1,0 +1,47 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> 93 Lepsius an Hl f Berlin , 28. Februar 1872 Es freut mich von Professor Henzen bessere Nachricht durch Sie zu erhalten .
+1-1	0-1	>	_	_	
+1-2	2-4	93	_	_	
+1-3	5-12	Lepsius	*	PERauthor	
+1-4	13-15	an	_	_	
+1-5	16-18	Hl	*[1]	PERaddressee[1]	
+1-6	19-20	f	*[1]	PERaddressee[1]	
+1-7	21-27	Berlin	*	PLACEfrom	
+1-8	28-29	,	_	_	
+1-9	30-33	28.	*[2]	DATEletter[2]	
+1-10	34-41	Februar	*[2]	DATEletter[2]	
+1-11	42-46	1872	*[2]	DATEletter[2]	
+1-12	47-49	Es	_	_	
+1-13	50-55	freut	_	_	
+1-14	56-60	mich	_	_	
+1-15	61-64	von	_	_	
+1-16	65-74	Professor	_	_	
+1-17	75-81	Henzen	*	PERmentioned	
+1-18	82-89	bessere	_	_	
+1-19	90-99	Nachricht	_	_	
+1-20	100-105	durch	_	_	
+1-21	106-109	Sie	_	_	
+1-22	110-112	zu	_	_	
+1-23	113-121	erhalten	_	_	
+1-24	122-123	.	_	_	
+
+#Text=Grüßen Sie ihn und seine Frau bestens von mir .
+2-1	124-130	Grüßen	_	_	
+2-2	131-134	Sie	_	_	
+2-3	135-138	ihn	_	_	
+2-4	139-142	und	_	_	
+2-5	143-148	seine	_	_	
+2-6	149-153	Frau	_	_	
+2-7	154-161	bestens	_	_	
+2-8	162-165	von	_	_	
+2-9	166-169	mir	_	_	
+2-10	170-171	.	_	_	
+
+#Text=Ihr ergebenster R Lepsius
+3-1	172-175	Ihr	_	_	
+3-2	176-187	ergebenster	_	_	
+3-3	188-189	R	*[3]	PERauthor[3]	
+3-4	190-197	Lepsius	*[3]	PERauthor[3]	

@@ -1,0 +1,111 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Bonn , 10 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-22	Bonn	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	10	*[4]	DATEletter[4]
+1-7	28-29	.	*[4]	DATEletter[4]
+
+#Text=August 1835 ference qguelconque de son avis particulier .
+2-1	30-36	August	*[4]	DATEletter[4]
+2-2	37-41	1835	*[4]	DATEletter[4]
+2-3	42-49	ference	_	_
+2-4	50-61	qguelconque	_	_
+2-5	62-64	de	_	_
+2-6	65-68	son	_	_
+2-7	69-73	avis	_	_
+2-8	74-85	particulier	_	_
+2-9	86-87	.	_	_
+
+#Text=Paris 1 ut 1835 E Gerhard J'adhere tout & fait ä la maniere de vous exprimer dans cet & crit de notre confrere Mr .
+3-1	88-93	Paris	*	PLACEfrom
+3-2	94-95	1	*[6]	DATEletter[6]
+3-3	96-98	ut	*[6]	DATEletter[6]
+3-4	99-103	1835	*[6]	DATEletter[6]
+3-5	104-105	E	_	_
+3-6	106-113	Gerhard	*	PERmentioned
+3-7	114-122	J'adhere	_	_
+3-8	123-127	tout	_	_
+3-9	128-129	&	_	_
+3-10	130-134	fait	_	_
+3-11	135-136	ä	_	_
+3-12	137-139	la	_	_
+3-13	140-147	maniere	_	_
+3-14	148-150	de	_	_
+3-15	151-155	vous	_	_
+3-16	156-164	exprimer	_	_
+3-17	165-169	dans	_	_
+3-18	170-173	cet	_	_
+3-19	174-175	&	_	_
+3-20	176-180	crit	_	_
+3-21	181-183	de	_	_
+3-22	184-189	notre	_	_
+3-23	190-198	confrere	_	_
+3-24	199-201	Mr	_	_
+3-25	202-203	.	_	_
+
+#Text=Gerhard Raoul Rochette Je partage tout & fait l'opinion de Mr .
+4-1	204-211	Gerhard	*	PERmentioned
+4-2	212-217	Raoul	*[9]	PERmentioned[9]
+4-3	218-226	Rochette	*[9]	PERmentioned[9]
+4-4	227-229	Je	_	_
+4-5	230-237	partage	_	_
+4-6	238-242	tout	_	_
+4-7	243-244	&	_	_
+4-8	245-249	fait	_	_
+4-9	250-259	l'opinion	_	_
+4-10	260-262	de	_	_
+4-11	263-265	Mr	*[10]	PERmentioned[10]
+4-12	266-267	.	*[10]	PERmentioned[10]
+
+#Text=R. Rochette Letronne J ' entierement l'opinion des Mrs R. et L. Lenormant J'adhere plainepment ä l'opinion de Mrss RR , L .
+5-1	268-270	R.	*[10]	PERmentioned[10]
+5-2	271-279	Rochette	*[10]	PERmentioned[10]
+5-3	280-288	Letronne	*	PERmentioned
+5-4	289-290	J	_	_
+5-5	291-292	'	_	_
+5-6	293-304	entierement	_	_
+5-7	305-314	l'opinion	_	_
+5-8	315-318	des	_	_
+5-9	319-322	Mrs	_	_
+5-10	323-325	R.	_	_
+5-11	326-328	et	_	_
+5-12	329-331	L.	*[12]	PERmentioned[12]
+5-13	332-341	Lenormant	*[12]	PERmentioned[12]
+5-14	342-350	J'adhere	_	_
+5-15	351-362	plainepment	_	_
+5-16	363-364	ä	_	_
+5-17	365-374	l'opinion	_	_
+5-18	375-377	de	_	_
+5-19	378-382	Mrss	_	_
+5-20	383-385	RR	_	_
+5-21	386-387	,	_	_
+5-22	388-389	L	_	_
+5-23	390-391	.	_	_
+
+#Text=& L. Lajard J'adhöre compaltement ä l'opinion ’ de Mm RR- L.L .
+6-1	392-393	&	_	_
+6-2	394-396	L.	_	_
+6-3	397-403	Lajard	*	PERmentioned
+6-4	404-412	J'adhöre	_	_
+6-5	413-425	compaltement	_	_
+6-6	426-427	ä	_	_
+6-7	428-437	l'opinion	_	_
+6-8	438-439	’	_	_
+6-9	440-442	de	_	_
+6-10	443-445	Mm	_	_
+6-11	446-449	RR-	_	_
+6-12	450-453	L.L	_	_
+6-13	454-455	.	_	_
+
+#Text=& L J de Witte
+7-1	456-457	&	_	_
+7-2	458-459	L	_	_
+7-3	460-461	J	_	_
+7-4	462-464	de	*[14]	PERmentioned[14]
+7-5	465-470	Witte	*[14]	PERmentioned[14]

@@ -1,0 +1,137 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 29. Mai 1833 Berlin 29/5 33 Hier lieber Freund neues Futter für den Drucker .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	29.	*[4]	DATEletter[4]
+1-7	30-33	Mai	*[4]	DATEletter[4]
+1-8	34-38	1833	*[4]	DATEletter[4]
+1-9	39-45	Berlin	*	PLACEfrom
+1-10	46-50	29/5	*[6]	DATEletter[6]
+1-11	51-53	33	*[6]	DATEletter[6]
+1-12	54-58	Hier	_	_
+1-13	59-65	lieber	_	_
+1-14	66-72	Freund	_	_
+1-15	73-78	neues	_	_
+1-16	79-85	Futter	_	_
+1-17	86-89	für	_	_
+1-18	90-93	den	_	_
+1-19	94-101	Drucker	_	_
+1-20	102-103	.	_	_
+
+#Text=Erst nach pag .
+2-1	104-108	Erst	_	_
+2-2	109-113	nach	_	_
+2-3	114-117	pag	_	_
+2-4	118-119	.	_	_
+
+#Text=19 folgen die früher mit 96 cd bezeichneten ( Ihnen gestern zur Revision beigelegten ) Kampanischen Ausgrabungen , die Sie aber noch an Sich halten mögen .
+3-1	120-122	19	_	_
+3-2	123-129	folgen	_	_
+3-3	130-133	die	_	_
+3-4	134-140	früher	_	_
+3-5	141-144	mit	_	_
+3-6	145-147	96	_	_
+3-7	148-150	cd	_	_
+3-8	151-163	bezeichneten	_	_
+3-9	164-165	(	_	_
+3-10	166-171	Ihnen	_	_
+3-11	172-179	gestern	_	_
+3-12	180-183	zur	_	_
+3-13	184-192	Revision	_	_
+3-14	193-204	beigelegten	_	_
+3-15	205-206	)	_	_
+3-16	207-219	Kampanischen	*	PERmentioned
+3-17	220-232	Ausgrabungen	_	_
+3-18	233-234	,	_	_
+3-19	235-238	die	_	_
+3-20	239-242	Sie	_	_
+3-21	243-247	aber	_	_
+3-22	248-252	noch	_	_
+3-23	253-255	an	_	_
+3-24	256-260	Sich	_	_
+3-25	261-267	halten	_	_
+3-26	268-273	mögen	_	_
+3-27	274-275	.	_	_
+
+#Text=Bei meinem mit meiner Schwester beabsichtigten Reiseplan bleibt es , so wie bei meiner Voraussetzung daß Sie mir die Wohnung fixiren .
+4-1	276-279	Bei	_	_
+4-2	280-286	meinem	_	_
+4-3	287-290	mit	_	_
+4-4	291-297	meiner	_	_
+4-5	298-307	Schwester	_	_
+4-6	308-322	beabsichtigten	_	_
+4-7	323-332	Reiseplan	_	_
+4-8	333-339	bleibt	_	_
+4-9	340-342	es	_	_
+4-10	343-344	,	_	_
+4-11	345-347	so	_	_
+4-12	348-351	wie	_	_
+4-13	352-355	bei	_	_
+4-14	356-362	meiner	_	_
+4-15	363-376	Voraussetzung	_	_
+4-16	377-380	daß	_	_
+4-17	381-384	Sie	_	_
+4-18	385-388	mir	_	_
+4-19	389-392	die	_	_
+4-20	393-400	Wohnung	_	_
+4-21	401-408	fixiren	_	_
+4-22	409-410	.	_	_
+
+#Text=Herzlich Ihr Gerhard Als der Brief schon zugesiegelt ist erinnere ich mich unter dem Aufsatz für den Drucker Ostia , Bronzefragment “ die Klein C J und die Note A .
+5-1	411-419	Herzlich	_	_
+5-2	420-423	Ihr	_	_
+5-3	424-431	Gerhard	*	PERauthor
+5-4	432-435	Als	_	_
+5-5	436-439	der	_	_
+5-6	440-445	Brief	_	_
+5-7	446-451	schon	_	_
+5-8	452-463	zugesiegelt	_	_
+5-9	464-467	ist	_	_
+5-10	468-476	erinnere	_	_
+5-11	477-480	ich	_	_
+5-12	481-485	mich	_	_
+5-13	486-491	unter	_	_
+5-14	492-495	dem	_	_
+5-15	496-503	Aufsatz	_	_
+5-16	504-507	für	_	_
+5-17	508-511	den	_	_
+5-18	512-519	Drucker	_	_
+5-19	520-525	Ostia	*	PLACEmentioned
+5-20	526-527	,	_	_
+5-21	528-542	Bronzefragment	*	OBJ
+5-22	543-544	“	_	_
+5-23	545-548	die	_	_
+5-24	549-554	Klein	_	_
+5-25	555-556	C	_	_
+5-26	557-558	J	_	_
+5-27	559-562	und	_	_
+5-28	563-566	die	_	_
+5-29	567-571	Note	_	_
+5-30	572-573	A	_	_
+5-31	574-575	.	_	_
+
+#Text=dem Kunstblatt ?
+6-1	576-579	dem	_	_
+6-2	580-590	Kunstblatt	_	_
+6-3	591-592	?	_	_
+
+#Text=vergessen zu haben .
+7-1	593-602	vergessen	_	_
+7-2	603-605	zu	_	_
+7-3	606-611	haben	_	_
+7-4	612-613	.	_	_
+
+#Text=Ich bitte Sie dies zu ergänzen .
+8-1	614-617	Ich	_	_
+8-2	618-623	bitte	_	_
+8-3	624-627	Sie	_	_
+8-4	628-632	dies	_	_
+8-5	633-635	zu	_	_
+8-6	636-644	ergänzen	_	_
+8-7	645-646	.	_	_

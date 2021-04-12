@@ -1,0 +1,168 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=' y DD nm Mommsen an Brunn Leipzig , 10 .
+1-1	0-1	'	_	_
+1-2	2-3	y	_	_
+1-3	4-6	DD	_	_
+1-4	7-9	nm	_	_
+1-5	10-17	Mommsen	*	PERauthor
+1-6	18-20	an	_	_
+1-7	21-26	Brunn	*	PERaddressee
+1-8	27-34	Leipzig	*	PLACEfrom
+1-9	35-36	,	_	_
+1-10	37-39	10	_	_
+1-11	40-41	.	*[3]	DATEletter[3]
+
+#Text=August 1851 Brief von dorther .
+2-1	42-48	August	*[3]	DATEletter[3]
+2-2	49-53	1851	*[3]	DATEletter[3]
+2-3	54-59	Brief	_	_
+2-4	60-63	von	_	_
+2-5	64-71	dorther	_	_
+2-6	72-73	.	_	_
+
+#Text=Jahn , der kürzlich seine Frau verloren hat ( Du weißt ja wohl von ihren unglücklichen Zustand ) ist noch in Kiel \; die Hundewiese wdtet seiner bei der Rückkehr .
+3-1	74-78	Jahn	*	PERmentioned
+3-2	79-80	,	_	_
+3-3	81-84	der	_	_
+3-4	85-93	kürzlich	_	_
+3-5	94-99	seine	_	_
+3-6	100-104	Frau	*	PERmentioned
+3-7	105-113	verloren	_	_
+3-8	114-117	hat	_	_
+3-9	118-119	(	_	_
+3-10	120-122	Du	_	_
+3-11	123-128	weißt	_	_
+3-12	129-131	ja	_	_
+3-13	132-136	wohl	_	_
+3-14	137-140	von	_	_
+3-15	141-146	ihren	_	_
+3-16	147-160	unglücklichen	_	_
+3-17	161-168	Zustand	_	_
+3-18	169-170	)	_	_
+3-19	171-174	ist	_	_
+3-20	175-179	noch	_	_
+3-21	180-182	in	_	_
+3-22	183-187	Kiel	*	PLACEmentioned
+3-23	188-189	\;	_	_
+3-24	190-193	die	_	_
+3-25	194-204	Hundewiese	_	_
+3-26	205-210	wdtet	_	_
+3-27	211-217	seiner	_	_
+3-28	218-221	bei	_	_
+3-29	222-225	der	_	_
+3-30	226-234	Rückkehr	_	_
+3-31	235-236	.	_	_
+
+#Text=Lebewohl. , M , L .
+4-1	237-246	Lebewohl.	_	_
+4-2	247-248	,	_	_
+4-3	249-250	M	*[4]	PERauthor[4]
+4-4	251-252	,	*[4]	PERauthor[4]
+4-5	253-254	L	*[4]	PERauthor[4]
+4-6	255-256	.	*[4]|*[5]	PERauthor[4]|DATEletter[5]
+
+#Text=10 Aug . 1851. angelegentlich , er ist doch ein guter Kerl so ( fehlende Stellen im Mikrofilm ! )
+5-1	257-259	10	*[5]	DATEletter[5]
+5-2	260-263	Aug	*[5]	DATEletter[5]
+5-3	264-265	.	*[5]	DATEletter[5]
+5-4	266-271	1851.	*[5]	DATEletter[5]
+5-5	272-286	angelegentlich	_	_
+5-6	287-288	,	_	_
+5-7	289-291	er	_	_
+5-8	292-295	ist	_	_
+5-9	296-300	doch	_	_
+5-10	301-304	ein	_	_
+5-11	305-310	guter	_	_
+5-12	311-315	Kerl	_	_
+5-13	316-318	so	_	_
+5-14	319-320	(	_	_
+5-15	321-329	fehlende	_	_
+5-16	330-337	Stellen	_	_
+5-17	338-340	im	_	_
+5-18	341-350	Mikrofilm	_	_
+5-19	351-352	!	_	_
+5-20	353-354	)	_	_
+
+#Text=( über dem Kopf des Briefes ) : Keil ist in Paris , oder jetzt vielmehr in Montpellier \; vergleicht Codices wie sonst .
+6-1	355-356	(	_	_
+6-2	357-361	über	_	_
+6-3	362-365	dem	_	_
+6-4	366-370	Kopf	_	_
+6-5	371-374	des	_	_
+6-6	375-382	Briefes	_	_
+6-7	383-384	)	_	_
+6-8	385-386	:	_	_
+6-9	387-391	Keil	*	PERmentioned
+6-10	392-395	ist	_	_
+6-11	396-398	in	_	_
+6-12	399-404	Paris	*	PLACEmentioned
+6-13	405-406	,	_	_
+6-14	407-411	oder	_	_
+6-15	412-417	jetzt	_	_
+6-16	418-426	vielmehr	_	_
+6-17	427-429	in	_	_
+6-18	430-441	Montpellier	*	PLACEmentioned
+6-19	442-443	\;	_	_
+6-20	444-454	vergleicht	_	_
+6-21	455-462	Codices	_	_
+6-22	463-466	wie	_	_
+6-23	467-472	sonst	_	_
+6-24	473-474	.	_	_
+
+#Text=Merkel ist St und macht Courier \; ‚ er ist in Königsberg Professor .
+7-1	475-481	Merkel	*	PERmentioned
+7-2	482-485	ist	_	_
+7-3	486-488	St	_	_
+7-4	489-492	und	_	_
+7-5	493-498	macht	_	_
+7-6	499-506	Courier	_	_
+7-7	507-508	\;	_	_
+7-8	509-510	‚	_	_
+7-9	511-513	er	_	_
+7-10	514-517	ist	_	_
+7-11	518-520	in	_	_
+7-12	521-531	Königsberg	*	PLACEmentioned
+7-13	532-541	Professor	_	_
+7-14	542-543	.	_	_
+
+#Text=( über dem Kopf der 1 .
+8-1	544-545	(	_	_
+8-2	546-550	über	_	_
+8-3	551-554	dem	_	_
+8-4	555-559	Kopf	_	_
+8-5	560-563	der	_	_
+8-6	564-565	1	_	_
+8-7	566-567	.	_	_
+
+#Text=Seite ) : Für den somme in San Marino lege ich einen kleinen Zettel ein , den Du gelegentlich spedirst .
+9-1	568-573	Seite	_	_
+9-2	574-575	)	_	_
+9-3	576-577	:	_	_
+9-4	578-581	Für	_	_
+9-5	582-585	den	_	_
+9-6	586-591	somme	_	_
+9-7	592-594	in	_	_
+9-8	595-598	San	*[6]	PLACEmentioned[6]
+9-9	599-605	Marino	*[6]	PLACEmentioned[6]
+9-10	606-610	lege	_	_
+9-11	611-614	ich	_	_
+9-12	615-620	einen	_	_
+9-13	621-628	kleinen	_	_
+9-14	629-635	Zettel	_	_
+9-15	636-639	ein	_	_
+9-16	640-641	,	_	_
+9-17	642-645	den	_	_
+9-18	646-648	Du	_	_
+9-19	649-661	gelegentlich	_	_
+9-20	662-670	spedirst	_	_
+9-21	671-672	.	_	_
+
+#Text=Er hat nicht Eile .
+10-1	673-675	Er	_	_
+10-2	676-679	hat	_	_
+10-3	680-685	nicht	_	_
+10-4	686-690	Eile	_	_
+10-5	691-692	.	_	_

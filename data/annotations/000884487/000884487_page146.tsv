@@ -1,0 +1,77 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Ohne Datum Dr. Braun Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datum	_	_
+1-6	28-31	Dr.	_	_
+1-7	32-37	Braun	*	PERaddressee
+1-8	38-41	Dir	_	_
+1-9	42-43	.	_	_
+
+#Text=Rom .
+2-1	44-47	Rom	*	PLACEto
+2-2	48-49	.	_	_
+
+#Text=XV g . 14/1 37 Von Bücherspenden 4 Depolettische Blätter laufen 2 nur als Steifleinwand mit \; eines enthielt die glücklich herausgefundnen Jasonzeichnungen und das 4.te allerlei , wovon Sie mir von dem Durchzeichner des Jason blattes dasjenige Segment mögen lucidiren lassen , auf welchem die mit Caduceus schwebende Iris sich befindet .
+3-1	50-52	XV	_	_
+3-2	53-54	g	_	_
+3-3	55-56	.	_	_
+3-4	57-61	14/1	*[5]	DATErecieved[5]
+3-5	62-64	37	*[5]	DATErecieved[5]
+3-6	65-68	Von	_	_
+3-7	69-82	Bücherspenden	_	_
+3-8	83-84	4	_	_
+3-9	85-98	Depolettische	*	PERmentioned
+3-10	99-106	Blätter	_	_
+3-11	107-113	laufen	_	_
+3-12	114-115	2	_	_
+3-13	116-119	nur	_	_
+3-14	120-123	als	_	_
+3-15	124-137	Steifleinwand	_	_
+3-16	138-141	mit	_	_
+3-17	142-143	\;	_	_
+3-18	144-149	eines	_	_
+3-19	150-158	enthielt	_	_
+3-20	159-162	die	_	_
+3-21	163-172	glücklich	_	_
+3-22	173-188	herausgefundnen	_	_
+3-23	189-205	Jasonzeichnungen	_	_
+3-24	206-209	und	_	_
+3-25	210-213	das	_	_
+3-26	214-218	4.te	_	_
+3-27	219-227	allerlei	_	_
+3-28	228-229	,	_	_
+3-29	230-235	wovon	_	_
+3-30	236-239	Sie	_	_
+3-31	240-243	mir	_	_
+3-32	244-247	von	_	_
+3-33	248-251	dem	_	_
+3-34	252-265	Durchzeichner	_	_
+3-35	266-269	des	_	_
+3-36	270-275	Jason	*[7]	OBJ[7]
+3-37	276-283	blattes	*[7]	OBJ[7]
+3-38	284-293	dasjenige	_	_
+3-39	294-301	Segment	_	_
+3-40	302-307	mögen	_	_
+3-41	308-317	lucidiren	_	_
+3-42	318-324	lassen	_	_
+3-43	325-326	,	_	_
+3-44	327-330	auf	_	_
+3-45	331-338	welchem	_	_
+3-46	339-342	die	_	_
+3-47	343-346	mit	_	_
+3-48	347-355	Caduceus	*	MISC
+3-49	356-366	schwebende	_	_
+3-50	367-371	Iris	*	MISC
+3-51	372-376	sich	_	_
+3-52	377-385	befindet	_	_
+3-53	386-387	.	_	_
+
+#Text=Ohne Unterschrift
+4-1	388-392	Ohne	_	_
+4-2	393-405	Unterschrift	_	_

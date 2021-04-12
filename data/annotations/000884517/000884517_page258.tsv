@@ -1,0 +1,82 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 15. November 1848 Von Annali 1848 hatte mir Mommsen sein Messapisches Heft gegeben , ist aber verloren gegangen und wird doppelt schmerzlich vermißt da ein früherer Zuhörer ( Aufrecht , ein Sanskritist ) eben über die Eugubinischen Tafeln drucken läßt .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	15.	*[3]	DATEletter[3]
+1-7	30-38	November	*[3]	DATEletter[3]
+1-8	39-43	1848	*[3]	DATEletter[3]
+1-9	44-47	Von	_	_
+1-10	48-54	Annali	_	_
+1-11	55-59	1848	*	DATEmentioned
+1-12	60-65	hatte	_	_
+1-13	66-69	mir	_	_
+1-14	70-77	Mommsen	*	PERmentioned
+1-15	78-82	sein	_	_
+1-16	83-95	Messapisches	_	_
+1-17	96-100	Heft	_	_
+1-18	101-108	gegeben	_	_
+1-19	109-110	,	_	_
+1-20	111-114	ist	_	_
+1-21	115-119	aber	_	_
+1-22	120-128	verloren	_	_
+1-23	129-137	gegangen	_	_
+1-24	138-141	und	_	_
+1-25	142-146	wird	_	_
+1-26	147-154	doppelt	_	_
+1-27	155-166	schmerzlich	_	_
+1-28	167-174	vermißt	_	_
+1-29	175-177	da	_	_
+1-30	178-181	ein	_	_
+1-31	182-190	früherer	_	_
+1-32	191-198	Zuhörer	_	_
+1-33	199-200	(	_	_
+1-34	201-209	Aufrecht	*	PERmentioned
+1-35	210-211	,	_	_
+1-36	212-215	ein	_	_
+1-37	216-227	Sanskritist	_	_
+1-38	228-229	)	_	_
+1-39	230-234	eben	_	_
+1-40	235-239	über	_	_
+1-41	240-243	die	_	_
+1-42	244-257	Eugubinischen	*[4]	OBJ[4]
+1-43	258-264	Tafeln	*[4]	OBJ[4]
+1-44	265-272	drucken	_	_
+1-45	273-277	läßt	_	_
+1-46	278-279	.	_	_
+
+#Text=Gäbe es noch einen Separatabdruck davon ?
+2-1	280-284	Gäbe	_	_
+2-2	285-287	es	_	_
+2-3	288-292	noch	_	_
+2-4	293-298	einen	_	_
+2-5	299-313	Separatabdruck	_	_
+2-6	314-319	davon	_	_
+2-7	320-321	?	_	_
+
+#Text=Von Mommsen selbst hörte ich allzu lange nichts um ihn danach zu fragen .
+3-1	322-325	Von	_	_
+3-2	326-333	Mommsen	*	PERmentioned
+3-3	334-340	selbst	_	_
+3-4	341-346	hörte	_	_
+3-5	347-350	ich	_	_
+3-6	351-356	allzu	_	_
+3-7	357-362	lange	_	_
+3-8	363-369	nichts	_	_
+3-9	370-372	um	_	_
+3-10	373-376	ihn	_	_
+3-11	377-383	danach	_	_
+3-12	384-386	zu	_	_
+3-13	387-393	fragen	_	_
+3-14	394-395	.	_	_
+
+#Text=Getreulichst der Ihrige Gerhard
+4-1	396-408	Getreulichst	_	_
+4-2	409-412	der	_	_
+4-3	413-419	Ihrige	_	_
+4-4	420-427	Gerhard	*	PERauthor

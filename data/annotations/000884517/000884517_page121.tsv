@@ -1,0 +1,195 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=100 Gerhard an Braun Berlin , 19. März 1845 kation im Stich lassen und das Manuscript ihm nicht abfordern .
+1-1	0-3	100	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	19.	*[1]	DATEletter[1]
+1-8	34-38	März	*[1]	DATEletter[1]
+1-9	39-43	1845	*[1]	DATEletter[1]
+1-10	44-50	kation	_	_
+1-11	51-53	im	_	_
+1-12	54-59	Stich	_	_
+1-13	60-66	lassen	_	_
+1-14	67-70	und	_	_
+1-15	71-74	das	_	_
+1-16	75-85	Manuscript	_	_
+1-17	86-89	ihm	_	_
+1-18	90-95	nicht	_	_
+1-19	96-105	abfordern	_	_
+1-20	106-107	.	_	_
+
+#Text=Panofka 's Abhandlung über die Heilgötter findet Beifall \; Curtius der rasch bei der Hand ist hat dadurch Anlaß zu einer hübschen Zusammenstellung über griechische Heilanstalten gefunden .
+2-1	108-115	Panofka	*[2]	PERmentioned[2]
+2-2	116-118	's	*[2]	PERmentioned[2]
+2-3	119-129	Abhandlung	_	_
+2-4	130-134	über	_	_
+2-5	135-138	die	_	_
+2-6	139-149	Heilgötter	_	_
+2-7	150-156	findet	_	_
+2-8	157-164	Beifall	_	_
+2-9	165-166	\;	_	_
+2-10	167-174	Curtius	*	PERmentioned
+2-11	175-178	der	_	_
+2-12	179-184	rasch	_	_
+2-13	185-188	bei	_	_
+2-14	189-192	der	_	_
+2-15	193-197	Hand	_	_
+2-16	198-201	ist	_	_
+2-17	202-205	hat	_	_
+2-18	206-213	dadurch	_	_
+2-19	214-219	Anlaß	_	_
+2-20	220-222	zu	_	_
+2-21	223-228	einer	_	_
+2-22	229-237	hübschen	_	_
+2-23	238-254	Zusammenstellung	_	_
+2-24	255-259	über	_	_
+2-25	260-271	griechische	_	_
+2-26	272-285	Heilanstalten	_	_
+2-27	286-294	gefunden	_	_
+2-28	295-296	.	_	_
+
+#Text=Ihre Nachrichten entbehre ich seit langem , und schreibe heute eigentlich nur weil es so lange hin ist \; auch um mich Ihnen weniger verdrießlich zu zeigen als neulich .
+3-1	297-301	Ihre	_	_
+3-2	302-313	Nachrichten	_	_
+3-3	314-322	entbehre	_	_
+3-4	323-326	ich	_	_
+3-5	327-331	seit	_	_
+3-6	332-338	langem	_	_
+3-7	339-340	,	_	_
+3-8	341-344	und	_	_
+3-9	345-353	schreibe	_	_
+3-10	354-359	heute	_	_
+3-11	360-370	eigentlich	_	_
+3-12	371-374	nur	_	_
+3-13	375-379	weil	_	_
+3-14	380-382	es	_	_
+3-15	383-385	so	_	_
+3-16	386-391	lange	_	_
+3-17	392-395	hin	_	_
+3-18	396-399	ist	_	_
+3-19	400-401	\;	_	_
+3-20	402-406	auch	_	_
+3-21	407-409	um	_	_
+3-22	410-414	mich	_	_
+3-23	415-420	Ihnen	_	_
+3-24	421-428	weniger	_	_
+3-25	429-441	verdrießlich	_	_
+3-26	442-444	zu	_	_
+3-27	445-451	zeigen	_	_
+3-28	452-455	als	_	_
+3-29	456-463	neulich	_	_
+3-30	464-465	.	_	_
+
+#Text=Lepsius verficht in hiesiger Zeitung seine äthiopischen Entdeckungen gegen Herrn Quast 's petulanten Ansriff daß dies nichts Neues sei \; Quast antwortet mit selehrtem Aufputz , höflichst .
+4-1	466-473	Lepsius	*	PERmentioned
+4-2	474-482	verficht	_	_
+4-3	483-485	in	_	_
+4-4	486-494	hiesiger	_	_
+4-5	495-502	Zeitung	_	_
+4-6	503-508	seine	_	_
+4-7	509-521	äthiopischen	*	MISC
+4-8	522-534	Entdeckungen	_	_
+4-9	535-540	gegen	_	_
+4-10	541-546	Herrn	_	_
+4-11	547-552	Quast	*[3]	PERmentioned[3]
+4-12	553-555	's	*[3]	PERmentioned[3]
+4-13	556-566	petulanten	_	_
+4-14	567-574	Ansriff	_	_
+4-15	575-578	daß	_	_
+4-16	579-583	dies	_	_
+4-17	584-590	nichts	_	_
+4-18	591-596	Neues	_	_
+4-19	597-600	sei	_	_
+4-20	601-602	\;	_	_
+4-21	603-608	Quast	*	PERmentioned
+4-22	609-618	antwortet	_	_
+4-23	619-622	mit	_	_
+4-24	623-632	selehrtem	_	_
+4-25	633-640	Aufputz	_	_
+4-26	641-642	,	_	_
+4-27	643-652	höflichst	_	_
+4-28	653-654	.	_	_
+
+#Text=Über den Mangel eines katholischen Professors der Philosophie in Bonn giebt die Zeitung alle Landtagsbeschwerden \; für dies und Ähnliches lagert Bethmann-Hollweg hier .
+5-1	655-659	Über	_	_
+5-2	660-663	den	_	_
+5-3	664-670	Mangel	_	_
+5-4	671-676	eines	_	_
+5-5	677-689	katholischen	_	_
+5-6	690-700	Professors	_	_
+5-7	701-704	der	_	_
+5-8	705-716	Philosophie	_	_
+5-9	717-719	in	_	_
+5-10	720-724	Bonn	*	PLACEmentioned
+5-11	725-730	giebt	_	_
+5-12	731-734	die	_	_
+5-13	735-742	Zeitung	_	_
+5-14	743-747	alle	_	_
+5-15	748-767	Landtagsbeschwerden	_	_
+5-16	768-769	\;	_	_
+5-17	770-773	für	_	_
+5-18	774-778	dies	_	_
+5-19	779-782	und	_	_
+5-20	783-792	Ähnliches	_	_
+5-21	793-799	lagert	_	_
+5-22	800-816	Bethmann-Hollweg	*	PERmentioned
+5-23	817-821	hier	_	_
+5-24	822-823	.	_	_
+
+#Text=Für Ronge und Co ist eine große d. i. von viel halbbekannten Leuten , auch Bellermann , unterzeichnete Subscription in den Zeitungen eröffnet .
+6-1	824-827	Für	_	_
+6-2	828-833	Ronge	*	PERmentioned
+6-3	834-837	und	_	_
+6-4	838-840	Co	_	_
+6-5	841-844	ist	_	_
+6-6	845-849	eine	_	_
+6-7	850-855	große	_	_
+6-8	856-858	d.	_	_
+6-9	859-861	i.	_	_
+6-10	862-865	von	_	_
+6-11	866-870	viel	_	_
+6-12	871-884	halbbekannten	_	_
+6-13	885-891	Leuten	_	_
+6-14	892-893	,	_	_
+6-15	894-898	auch	_	_
+6-16	899-909	Bellermann	*	PERmentioned
+6-17	910-911	,	_	_
+6-18	912-926	unterzeichnete	_	_
+6-19	927-939	Subscription	_	_
+6-20	940-942	in	_	_
+6-21	943-946	den	_	_
+6-22	947-956	Zeitungen	_	_
+6-23	957-965	eröffnet	_	_
+6-24	966-967	.	_	_
+
+#Text=Sonst geht es uns leidlich .
+7-1	968-973	Sonst	_	_
+7-2	974-978	geht	_	_
+7-3	979-981	es	_	_
+7-4	982-985	uns	_	_
+7-5	986-994	leidlich	_	_
+7-6	995-996	.	_	_
+
+#Text=Viel gute Wünsche für Sie , Ihre Frau und allen Freunden .
+8-1	997-1001	Viel	_	_
+8-2	1002-1006	gute	_	_
+8-3	1007-1014	Wünsche	_	_
+8-4	1015-1018	für	_	_
+8-5	1019-1022	Sie	_	_
+8-6	1023-1024	,	_	_
+8-7	1025-1029	Ihre	_	_
+8-8	1030-1034	Frau	_	_
+8-9	1035-1038	und	_	_
+8-10	1039-1044	allen	_	_
+8-11	1045-1053	Freunden	_	_
+8-12	1054-1055	.	_	_
+
+#Text=Ihr Gerhard
+9-1	1056-1059	Ihr	_	_
+9-2	1060-1067	Gerhard	*	PERauthor

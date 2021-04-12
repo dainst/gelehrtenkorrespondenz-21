@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=849 Braun an Gerhard Rom , 29. November 182 % Signor Professor Gerhard Hochverehrtester Freund !
+1-1	0-3	849	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	29.	*[1]	DATEletter[1]
+1-8	31-39	November	*[1]	DATEletter[1]
+1-9	40-43	182	*[1]	DATEletter[1]
+1-10	44-45	%	_	_
+1-11	46-52	Signor	_	_
+1-12	53-62	Professor	*[2]	PERaddressee[2]
+1-13	63-70	Gerhard	*[2]	PERaddressee[2]
+1-14	71-87	Hochverehrtester	_	_
+1-15	88-94	Freund	_	_
+1-16	95-96	!	_	_
+
+#Text=Das Motiv meines heutigen Schreibens ist der deutsche Buchhändlergeschenkcatalog .
+2-1	97-100	Das	_	_
+2-2	101-106	Motiv	_	_
+2-3	107-113	meines	_	_
+2-4	114-122	heutigen	_	_
+2-5	123-133	Schreibens	_	_
+2-6	134-137	ist	_	_
+2-7	138-141	der	_	_
+2-8	142-150	deutsche	_	_
+2-9	151-177	Buchhändlergeschenkcatalog	_	_
+2-10	178-179	.	_	_
+
+#Text=Es war mir unmöglich früher daran zu kommen .
+3-1	180-182	Es	_	_
+3-2	183-186	war	_	_
+3-3	187-190	mir	_	_
+3-4	191-200	unmöglich	_	_
+3-5	201-207	früher	_	_
+3-6	208-213	daran	_	_
+3-7	214-216	zu	_	_
+3-8	217-223	kommen	_	_
+3-9	224-225	.	_	_
+
+#Text=Zum Behuf sofortigen Gebrauchs schreibe ich ihn klein auf das folgende Blatt und lasse hier einige Notizen voraus gehen .
+4-1	226-229	Zum	_	_
+4-2	230-235	Behuf	_	_
+4-3	236-246	sofortigen	_	_
+4-4	247-256	Gebrauchs	_	_
+4-5	257-265	schreibe	_	_
+4-6	266-269	ich	_	_
+4-7	270-273	ihn	_	_
+4-8	274-279	klein	_	_
+4-9	280-283	auf	_	_
+4-10	284-287	das	_	_
+4-11	288-296	folgende	_	_
+4-12	297-302	Blatt	_	_
+4-13	303-306	und	_	_
+4-14	307-312	lasse	_	_
+4-15	313-317	hier	_	_
+4-16	318-324	einige	_	_
+4-17	325-332	Notizen	_	_
+4-18	333-339	voraus	_	_
+4-19	340-345	gehen	_	_
+4-20	346-347	.	_	_
+
+#Text=Bunsen scheint nun endlich mit seinen Forschungen über den Spiegel zu Rande zu sein \; in der gestrigen Adunanza welche Durand mit seiner Gegenwart beehrte , wurde zum 4ten Male darüber gesprochen .
+5-1	348-354	Bunsen	*	PERmentioned
+5-2	355-362	scheint	_	_
+5-3	363-366	nun	_	_
+5-4	367-374	endlich	_	_
+5-5	375-378	mit	_	_
+5-6	379-385	seinen	_	_
+5-7	386-397	Forschungen	_	_
+5-8	398-402	über	_	_
+5-9	403-406	den	_	_
+5-10	407-414	Spiegel	*	OBJ
+5-11	415-417	zu	_	_
+5-12	418-423	Rande	_	_
+5-13	424-426	zu	_	_
+5-14	427-431	sein	_	_
+5-15	432-433	\;	_	_
+5-16	434-436	in	_	_
+5-17	437-440	der	_	_
+5-18	441-450	gestrigen	_	_
+5-19	451-459	Adunanza	*	MISC
+5-20	460-466	welche	_	_
+5-21	467-473	Durand	*	PERmentioned
+5-22	474-477	mit	_	_
+5-23	478-484	seiner	_	_
+5-24	485-494	Gegenwart	_	_
+5-25	495-502	beehrte	_	_
+5-26	503-504	,	_	_
+5-27	505-510	wurde	_	_
+5-28	511-514	zum	_	_
+5-29	515-519	4ten	_	_
+5-30	520-524	Male	_	_
+5-31	525-532	darüber	_	_
+5-32	533-543	gesprochen	_	_
+5-33	544-545	.	_	_
+
+#Text=Er will den Artikel baldigst abliefern .
+6-1	546-548	Er	_	_
+6-2	549-553	will	_	_
+6-3	554-557	den	_	_
+6-4	558-565	Artikel	_	_
+6-5	566-574	baldigst	_	_
+6-6	575-584	abliefern	_	_
+6-7	585-586	.	_	_
+
+#Text=Orioli schreibt auch darüber .
+7-1	587-593	Orioli	*	PERmentioned
+7-2	594-602	schreibt	_	_
+7-3	603-607	auch	_	_
+7-4	608-615	darüber	_	_
+7-5	616-617	.	_	_
+
+#Text=De Witte schreibt mir heute , ohne meinen Brief vorher abgewartet zu haben .
+8-1	618-620	De	_	_
+8-2	621-626	Witte	*[3]	PERmentioned[3]
+8-3	627-635	schreibt	_	_
+8-4	636-639	mir	_	_
+8-5	640-645	heute	_	_
+8-6	646-647	,	_	_
+8-7	648-652	ohne	_	_
+8-8	653-659	meinen	_	_
+8-9	660-665	Brief	_	_
+8-10	666-672	vorher	_	_
+8-11	673-683	abgewartet	_	_
+8-12	684-686	zu	_	_
+8-13	687-692	haben	_	_
+8-14	693-694	.	_	_
+
+#Text=Seine Ausdrücke sind pretenziös wie gewöhnlich und man könnte sie übel nehmen , zumal da er ins Tageslicht hineinredet .
+9-1	695-700	Seine	_	_
+9-2	701-710	Ausdrücke	_	_
+9-3	711-715	sind	_	_
+9-4	716-726	pretenziös	_	_
+9-5	727-730	wie	_	_
+9-6	731-741	gewöhnlich	_	_
+9-7	742-745	und	_	_
+9-8	746-749	man	_	_
+9-9	750-756	könnte	_	_
+9-10	757-760	sie	_	_
+9-11	761-765	übel	_	_
+9-12	766-772	nehmen	_	_
+9-13	773-774	,	_	_
+9-14	775-780	zumal	_	_
+9-15	781-783	da	_	_
+9-16	784-786	er	_	_
+9-17	787-790	ins	_	_
+9-18	791-801	Tageslicht	_	_
+9-19	802-813	hineinredet	_	_
+9-20	814-815	.	_	_
+
+#Text=Diesmal habe ich ihm noch sehr verbindlich geantwortet , jedoch mit Rücksicht auf seine Ausdrücke , die ich auf ein Mißverständniß beziehe .
+10-1	816-823	Diesmal	_	_
+10-2	824-828	habe	_	_
+10-3	829-832	ich	_	_
+10-4	833-836	ihm	_	_
+10-5	837-841	noch	_	_
+10-6	842-846	sehr	_	_
+10-7	847-858	verbindlich	_	_
+10-8	859-870	geantwortet	_	_
+10-9	871-872	,	_	_
+10-10	873-879	jedoch	_	_
+10-11	880-883	mit	_	_
+10-12	884-893	Rücksicht	_	_
+10-13	894-897	auf	_	_
+10-14	898-903	seine	_	_
+10-15	904-913	Ausdrücke	_	_
+10-16	914-915	,	_	_
+10-17	916-919	die	_	_
+10-18	920-923	ich	_	_
+10-19	924-927	auf	_	_
+10-20	928-931	ein	_	_
+10-21	932-946	Mißverständniß	_	_
+10-22	947-954	beziehe	_	_
+10-23	955-956	.	_	_
+
+#Text=Auch bitte ich Sie nichts davon zu erwähnen .
+11-1	957-961	Auch	_	_
+11-2	962-967	bitte	_	_
+11-3	968-971	ich	_	_
+11-4	972-975	Sie	_	_
+11-5	976-982	nichts	_	_
+11-6	983-988	davon	_	_
+11-7	989-991	zu	_	_
+11-8	992-1000	erwähnen	_	_
+11-9	1001-1002	.	_	_
+
+#Text=Später kann ich wohl ähnliche aber dann motivierte Ausdrükke finden , um ihn zurecht zu weisen .
+12-1	1003-1009	Später	_	_
+12-2	1010-1014	kann	_	_
+12-3	1015-1018	ich	_	_
+12-4	1019-1023	wohl	_	_
+12-5	1024-1032	ähnliche	_	_
+12-6	1033-1037	aber	_	_
+12-7	1038-1042	dann	_	_
+12-8	1043-1053	motivierte	_	_
+12-9	1054-1063	Ausdrükke	_	_
+12-10	1064-1070	finden	_	_
+12-11	1071-1072	,	_	_
+12-12	1073-1075	um	_	_
+12-13	1076-1079	ihn	_	_
+12-14	1080-1087	zurecht	_	_
+12-15	1088-1090	zu	_	_
+12-16	1091-1097	weisen	_	_
+12-17	1098-1099	.	_	_
+
+#Text=Wie kann er mir drohen mich bei Bunsen zu verklagen ?
+13-1	1100-1103	Wie	_	_
+13-2	1104-1108	kann	_	_
+13-3	1109-1111	er	_	_
+13-4	1112-1115	mir	_	_
+13-5	1116-1122	drohen	_	_
+13-6	1123-1127	mich	_	_
+13-7	1128-1131	bei	_	_
+13-8	1132-1138	Bunsen	*	PERmentioned
+13-9	1139-1141	zu	_	_
+13-10	1142-1151	verklagen	_	_
+13-11	1152-1153	?	_	_

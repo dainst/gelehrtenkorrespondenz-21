@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Gotha , 13. September 1833 Gotha 13 Septbr .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-22	Gotha	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-28	13.	*[1]	DATEletter[1]
+1-7	29-38	September	*[1]	DATEletter[1]
+1-8	39-43	1833	*[1]	DATEletter[1]
+1-9	44-49	Gotha	*	PLACEfrom
+1-10	50-52	13	*[2]	DATEletter[2]
+1-11	53-59	Septbr	*[2]	DATEletter[2]
+1-12	60-61	.	*[2]	DATEletter[2]
+
+#Text=1833 Mein hochverehrtester und theuerster Freund !
+2-1	62-66	1833	*[2]	DATEletter[2]
+2-2	67-71	Mein	*[3]	PERaddressee[3]
+2-3	72-88	hochverehrtester	*[3]	PERaddressee[3]
+2-4	89-92	und	*[3]	PERaddressee[3]
+2-5	93-103	theuerster	*[3]	PERaddressee[3]
+2-6	104-110	Freund	*[3]	PERaddressee[3]
+2-7	111-112	!	_	_
+
+#Text=Sie werden mir böse sein , dass ich den lezten Augenblick habe herbeikommen lassen , in welchem Sie meine Briefe noch treffen koennen .
+3-1	113-116	Sie	_	_
+3-2	117-123	werden	_	_
+3-3	124-127	mir	_	_
+3-4	128-132	böse	_	_
+3-5	133-137	sein	_	_
+3-6	138-139	,	_	_
+3-7	140-144	dass	_	_
+3-8	145-148	ich	_	_
+3-9	149-152	den	_	_
+3-10	153-159	lezten	_	_
+3-11	160-170	Augenblick	_	_
+3-12	171-175	habe	_	_
+3-13	176-188	herbeikommen	_	_
+3-14	189-195	lassen	_	_
+3-15	196-197	,	_	_
+3-16	198-200	in	_	_
+3-17	201-208	welchem	_	_
+3-18	209-212	Sie	_	_
+3-19	213-218	meine	_	_
+3-20	219-225	Briefe	_	_
+3-21	226-230	noch	_	_
+3-22	231-238	treffen	_	_
+3-23	239-246	koennen	_	_
+3-24	247-248	.	_	_
+
+#Text=Ich wollte mehr Gewissheit haben , als ich hatte und haben konnte .
+4-1	249-252	Ich	_	_
+4-2	253-259	wollte	_	_
+4-3	260-264	mehr	_	_
+4-4	265-275	Gewissheit	_	_
+4-5	276-281	haben	_	_
+4-6	282-283	,	_	_
+4-7	284-287	als	_	_
+4-8	288-291	ich	_	_
+4-9	292-297	hatte	_	_
+4-10	298-301	und	_	_
+4-11	302-307	haben	_	_
+4-12	308-314	konnte	_	_
+4-13	315-316	.	_	_
+
+#Text=Es liegt mir doch sehr am Herzen einigen Rückhalt zu gewinnen , vevor ich mich in in das immer noch ferne Land wagen möchte .
+5-1	317-319	Es	_	_
+5-2	320-325	liegt	_	_
+5-3	326-329	mir	_	_
+5-4	330-334	doch	_	_
+5-5	335-339	sehr	_	_
+5-6	340-342	am	_	_
+5-7	343-349	Herzen	_	_
+5-8	350-357	einigen	_	_
+5-9	358-366	Rückhalt	_	_
+5-10	367-369	zu	_	_
+5-11	370-378	gewinnen	_	_
+5-12	379-380	,	_	_
+5-13	381-386	vevor	_	_
+5-14	387-390	ich	_	_
+5-15	391-395	mich	_	_
+5-16	396-398	in	_	_
+5-17	399-401	in	_	_
+5-18	402-405	das	_	_
+5-19	406-411	immer	_	_
+5-20	412-416	noch	_	_
+5-21	417-422	ferne	_	_
+5-22	423-427	Land	_	_
+5-23	428-433	wagen	_	_
+5-24	434-440	möchte	_	_
+5-25	441-442	.	_	_
+
+#Text=Nun ist mein Herzog in diesem Augenblick nicht habhaft wie sein Minister .
+6-1	443-446	Nun	_	_
+6-2	447-450	ist	_	_
+6-3	451-455	mein	_	_
+6-4	456-462	Herzog	*	PERmentioned
+6-5	463-465	in	_	_
+6-6	466-472	diesem	_	_
+6-7	473-483	Augenblick	_	_
+6-8	484-489	nicht	_	_
+6-9	490-497	habhaft	_	_
+6-10	498-501	wie	_	_
+6-11	502-506	sein	_	_
+6-12	507-515	Minister	*	PERmentioned
+6-13	516-517	.	_	_
+
+#Text=Ich muß deshalb noch einige Zeit warten , bis er sicher hier eintrifft , um wenigstens mein Gewissen vor Leichtsinn zu verwahren .
+7-1	518-521	Ich	_	_
+7-2	522-525	muß	_	_
+7-3	526-533	deshalb	_	_
+7-4	534-538	noch	_	_
+7-5	539-545	einige	_	_
+7-6	546-550	Zeit	_	_
+7-7	551-557	warten	_	_
+7-8	558-559	,	_	_
+7-9	560-563	bis	_	_
+7-10	564-566	er	_	_
+7-11	567-573	sicher	_	_
+7-12	574-578	hier	_	_
+7-13	579-588	eintrifft	_	_
+7-14	589-590	,	_	_
+7-15	591-593	um	_	_
+7-16	594-604	wenigstens	_	_
+7-17	605-609	mein	_	_
+7-18	610-618	Gewissen	_	_
+7-19	619-622	vor	_	_
+7-20	623-633	Leichtsinn	_	_
+7-21	634-636	zu	_	_
+7-22	637-646	verwahren	_	_
+7-23	647-648	.	_	_
+
+#Text=In München muß ich ferner noch eine starke Nachlese für die Bibliographie halten \; deshalb dürfte ich auch nicht so schnell dort loskommen .
+8-1	649-651	In	_	_
+8-2	652-659	München	*	PLACEmentioned
+8-3	660-663	muß	_	_
+8-4	664-667	ich	_	_
+8-5	668-674	ferner	_	_
+8-6	675-679	noch	_	_
+8-7	680-684	eine	_	_
+8-8	685-691	starke	_	_
+8-9	692-700	Nachlese	_	_
+8-10	701-704	für	_	_
+8-11	705-708	die	_	_
+8-12	709-722	Bibliographie	_	_
+8-13	723-729	halten	_	_
+8-14	730-731	\;	_	_
+8-15	732-739	deshalb	_	_
+8-16	740-746	dürfte	_	_
+8-17	747-750	ich	_	_
+8-18	751-755	auch	_	_
+8-19	756-761	nicht	_	_
+8-20	762-764	so	_	_
+8-21	765-772	schnell	_	_
+8-22	773-777	dort	_	_
+8-23	778-787	loskommen	_	_
+8-24	788-789	.	_	_
+
+#Text=Zudem versprechen die dortigen Institute für meinen Zweck mehr als die Berliner .
+9-1	790-795	Zudem	_	_
+9-2	796-807	versprechen	_	_
+9-3	808-811	die	_	_
+9-4	812-820	dortigen	_	_
+9-5	821-830	Institute	*	ORGmentioned
+9-6	831-834	für	_	_
+9-7	835-841	meinen	_	_
+9-8	842-847	Zweck	_	_
+9-9	848-852	mehr	_	_
+9-10	853-856	als	_	_
+9-11	857-860	die	_	_
+9-12	861-869	Berliner	*[4]|*[5]	ORGmentioned[4]|PLACEmentioned[5]
+9-13	870-871	.	_	_
+
+#Text=- Auf meiner ganzen Route kommt man mir übrigens mit der bedauernden Bermerkung entgegen , dass die Institutswerke mit diesem Jahre beschlossen würden .
+10-1	872-873	-	_	_
+10-2	874-877	Auf	_	_
+10-3	878-884	meiner	_	_
+10-4	885-891	ganzen	_	_
+10-5	892-897	Route	_	_
+10-6	898-903	kommt	_	_
+10-7	904-907	man	_	_
+10-8	908-911	mir	_	_
+10-9	912-920	übrigens	_	_
+10-10	921-924	mit	_	_
+10-11	925-928	der	_	_
+10-12	929-940	bedauernden	_	_
+10-13	941-951	Bermerkung	_	_
+10-14	952-960	entgegen	_	_
+10-15	961-962	,	_	_
+10-16	963-967	dass	_	_
+10-17	968-971	die	_	_
+10-18	972-986	Institutswerke	*	LIT
+10-19	987-990	mit	_	_
+10-20	991-997	diesem	_	_
+10-21	998-1003	Jahre	_	_
+10-22	1004-1015	beschlossen	_	_
+10-23	1016-1022	würden	_	_
+10-24	1023-1024	.	_	_
+
+#Text=Waagen hat es bestätigt oder neu verbreitet .
+11-1	1025-1031	Waagen	*	PERmentioned
+11-2	1032-1035	hat	_	_
+11-3	1036-1038	es	_	_
+11-4	1039-1048	bestätigt	_	_
+11-5	1049-1053	oder	_	_
+11-6	1054-1057	neu	_	_
+11-7	1058-1068	verbreitet	_	_
+11-8	1069-1070	.	_	_
+
+#Text=Was sollte dann aus meiner Bibliosraphie werden ?
+12-1	1071-1074	Was	_	_
+12-2	1075-1081	sollte	_	_
+12-3	1082-1086	dann	_	_
+12-4	1087-1090	aus	_	_
+12-5	1091-1097	meiner	_	_
+12-6	1098-1111	Bibliosraphie	_	_
+12-7	1112-1118	werden	_	_
+12-8	1119-1120	?	_	_
+
+#Text=Wozu dann diese Plackerei ?
+13-1	1121-1125	Wozu	_	_
+13-2	1126-1130	dann	_	_
+13-3	1131-1136	diese	_	_
+13-4	1137-1146	Plackerei	_	_
+13-5	1147-1148	?	_	_
+
+#Text=Denn ich für meine Zwecke reicht mit dem aus was ich mir angemerkt .
+14-1	1149-1153	Denn	_	_
+14-2	1154-1157	ich	_	_
+14-3	1158-1161	für	_	_
+14-4	1162-1167	meine	_	_
+14-5	1168-1174	Zwecke	_	_
+14-6	1175-1181	reicht	_	_
+14-7	1182-1185	mit	_	_
+14-8	1186-1189	dem	_	_
+14-9	1190-1193	aus	_	_
+14-10	1194-1197	was	_	_
+14-11	1198-1201	ich	_	_
+14-12	1202-1205	mir	_	_
+14-13	1206-1215	angemerkt	_	_
+14-14	1216-1217	.	_	_
+
+#Text=Ich hoffe jedoch , daß das Gerücht voreilig sein soll .
+15-1	1218-1221	Ich	_	_
+15-2	1222-1227	hoffe	_	_
+15-3	1228-1234	jedoch	_	_
+15-4	1235-1236	,	_	_
+15-5	1237-1240	daß	_	_
+15-6	1241-1244	das	_	_
+15-7	1245-1252	Gerücht	_	_
+15-8	1253-1261	voreilig	_	_
+15-9	1262-1266	sein	_	_
+15-10	1267-1271	soll	_	_
+15-11	1272-1273	.	_	_
+
+#Text=Denn man erzählte sich ja in Berlin , der König habe 500 rt .
+16-1	1274-1278	Denn	_	_
+16-2	1279-1282	man	_	_
+16-3	1283-1291	erzählte	_	_
+16-4	1292-1296	sich	_	_
+16-5	1297-1299	ja	_	_
+16-6	1300-1302	in	_	_
+16-7	1303-1309	Berlin	*	PLACEmentioned
+16-8	1310-1311	,	_	_
+16-9	1312-1315	der	_	_
+16-10	1316-1321	König	*	PERmentioned
+16-11	1322-1326	habe	_	_
+16-12	1327-1330	500	_	_
+16-13	1331-1333	rt	_	_
+16-14	1334-1335	.	_	_
+
+#Text=jährliche Beiträge dem Institut zugesichert .
+17-1	1336-1345	jährliche	_	_
+17-2	1346-1354	Beiträge	_	_
+17-3	1355-1358	dem	_	_
+17-4	1359-1367	Institut	_	_
+17-5	1368-1379	zugesichert	_	_
+17-6	1380-1381	.	_	_
+
+#Text=Uhden soll sich besonders thätig dabei gezeigt haben .
+18-1	1382-1387	Uhden	*	PERmentioned
+18-2	1388-1392	soll	_	_
+18-3	1393-1397	sich	_	_
+18-4	1398-1407	besonders	_	_
+18-5	1408-1414	thätig	_	_
+18-6	1415-1420	dabei	_	_
+18-7	1421-1428	gezeigt	_	_
+18-8	1429-1434	haben	_	_
+18-9	1435-1436	.	_	_

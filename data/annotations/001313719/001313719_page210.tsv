@@ -1,0 +1,142 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=130 Gerhard an Henzen Berlin 16/V/1850 A. di Dir .
+1-1	0-3	130	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-38	16/V/1850	*	DATEletter
+1-7	39-41	A.	_	_
+1-8	42-44	di	_	_
+1-9	45-48	Dir	_	_
+1-10	49-50	.	_	_
+
+#Text=HH .
+2-1	51-53	HH	_	_
+2-2	54-55	.	_	_
+
+#Text=D . Braun , Henzen , Brunn : Denjenigen kapitolinischen Freund welcher die beigehende archäologische Sendung eröffnet , bitte ich die gefällige Veberbringerin desselben Fräulein Ludendorff aus Hamburg vorkommenden Falls für römische Beschauungen zu unterstützen .
+3-1	56-57	D	_	_
+3-2	58-59	.	_	_
+3-3	60-65	Braun	*	PERaddressee
+3-4	66-67	,	_	_
+3-5	68-74	Henzen	*	PERaddressee
+3-6	75-76	,	_	_
+3-7	77-82	Brunn	*	PERaddressee
+3-8	83-84	:	_	_
+3-9	85-95	Denjenigen	_	_
+3-10	96-111	kapitolinischen	_	_
+3-11	112-118	Freund	_	_
+3-12	119-126	welcher	_	_
+3-13	127-130	die	_	_
+3-14	131-141	beigehende	_	_
+3-15	142-156	archäologische	_	_
+3-16	157-164	Sendung	_	_
+3-17	165-173	eröffnet	_	_
+3-18	174-175	,	_	_
+3-19	176-181	bitte	_	_
+3-20	182-185	ich	_	_
+3-21	186-189	die	_	_
+3-22	190-199	gefällige	_	_
+3-23	200-214	Veberbringerin	_	_
+3-24	215-224	desselben	_	_
+3-25	225-233	Fräulein	*[1]	PERmentioned[1]
+3-26	234-244	Ludendorff	*[1]	PERmentioned[1]
+3-27	245-248	aus	_	_
+3-28	249-256	Hamburg	*	PLACEmentioned
+3-29	257-269	vorkommenden	_	_
+3-30	270-275	Falls	_	_
+3-31	276-279	für	_	_
+3-32	280-288	römische	_	_
+3-33	289-301	Beschauungen	_	_
+3-34	302-304	zu	_	_
+3-35	305-317	unterstützen	_	_
+3-36	318-319	.	_	_
+
+#Text=Obwohl dieselbe nur den Gesamteindruck Rons sucht und mit einem bereits in Rom gewesenen ärd'glichen Freunde reist , so wird sie doch einen Besuch und etwaige Nachweisungen - für Villa Mills , Villa Ludovisi se mai und dgl .
+4-1	320-326	Obwohl	_	_
+4-2	327-335	dieselbe	_	_
+4-3	336-339	nur	_	_
+4-4	340-343	den	_	_
+4-5	344-358	Gesamteindruck	_	_
+4-6	359-363	Rons	_	_
+4-7	364-369	sucht	_	_
+4-8	370-373	und	_	_
+4-9	374-377	mit	_	_
+4-10	378-383	einem	_	_
+4-11	384-391	bereits	_	_
+4-12	392-394	in	_	_
+4-13	395-398	Rom	*	PLACEmentioned|PLACEmentioned
+4-14	399-408	gewesenen	_	_
+4-15	409-420	ärd'glichen	_	_
+4-16	421-428	Freunde	_	_
+4-17	429-434	reist	_	_
+4-18	435-436	,	_	_
+4-19	437-439	so	_	_
+4-20	440-444	wird	_	_
+4-21	445-448	sie	_	_
+4-22	449-453	doch	_	_
+4-23	454-459	einen	_	_
+4-24	460-466	Besuch	_	_
+4-25	467-470	und	_	_
+4-26	471-478	etwaige	_	_
+4-27	479-492	Nachweisungen	_	_
+4-28	493-494	-	_	_
+4-29	495-498	für	_	_
+4-30	499-504	Villa	*[2]	PLACEmentioned[2]
+4-31	505-510	Mills	*[2]	PLACEmentioned[2]
+4-32	511-512	,	_	_
+4-33	513-518	Villa	*[3]	PLACEmentioned[3]
+4-34	519-527	Ludovisi	*[3]	PLACEmentioned[3]
+4-35	528-530	se	_	_
+4-36	531-534	mai	_	_
+4-37	535-538	und	_	_
+4-38	539-542	dgl	_	_
+4-39	543-544	.	_	_
+
+#Text=- dankbar zu schätzen wissen .
+5-1	545-546	-	_	_
+5-2	547-554	dankbar	_	_
+5-3	555-557	zu	_	_
+5-4	558-566	schätzen	_	_
+5-5	567-573	wissen	_	_
+5-6	574-575	.	_	_
+
+#Text=Herzlich grüßend Gerhard Berlin 16/5 .
+6-1	576-584	Herzlich	_	_
+6-2	585-592	grüßend	_	_
+6-3	593-600	Gerhard	*	PERauthor
+6-4	601-607	Berlin	*	PLACEfrom
+6-5	608-612	16/5	*	DATEletter
+6-6	613-614	.	_	_
+
+#Text=50 Ich sende die 3 dringendsten Exemplare der Archäol .
+7-1	615-617	50	_	_
+7-2	618-621	Ich	_	_
+7-3	622-627	sende	_	_
+7-4	628-631	die	_	_
+7-5	632-633	3	_	_
+7-6	634-646	dringendsten	_	_
+7-7	647-656	Exemplare	_	_
+7-8	657-660	der	_	_
+7-9	661-668	Archäol	_	_
+7-10	669-670	.	_	_
+
+#Text=Zeitung , und halte das für Freund Henzen wegen Raumersparniß auch diesmal zurück .
+8-1	671-678	Zeitung	_	_
+8-2	679-680	,	_	_
+8-3	681-684	und	_	_
+8-4	685-690	halte	_	_
+8-5	691-694	das	_	_
+8-6	695-698	für	_	_
+8-7	699-705	Freund	_	_
+8-8	706-712	Henzen	*	PERmentioned
+8-9	713-718	wegen	_	_
+8-10	719-732	Raumersparniß	_	_
+8-11	733-737	auch	_	_
+8-12	738-745	diesmal	_	_
+8-13	746-752	zurück	_	_
+8-14	753-754	.	_	_

@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 1. Mai 1838 Dr. Braun g . 17/5 38 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	1.	*[5]	DATEletter[5]
+1-7	29-32	Mai	*[5]	DATEletter[5]
+1-8	33-37	1838	*[5]	DATEletter[5]
+1-9	38-41	Dr.	_	_
+1-10	42-47	Braun	*	PERaddressee
+1-11	48-49	g	_	_
+1-12	50-51	.	_	_
+1-13	52-56	17/5	*[6]	DATErecieved[6]
+1-14	57-59	38	*[6]	DATErecieved[6]
+1-15	60-63	Aff	_	_
+1-16	64-65	.	_	_
+
+#Text=d , Dir .
+2-1	66-67	d	_	_
+2-2	68-69	,	_	_
+2-3	70-73	Dir	_	_
+2-4	74-75	.	_	_
+
+#Text=CCXKXI r . 17/5 38 Berlin 1 Msi 38 Ich antworte auf Ihren Brief vom 17 April lieber Freund .
+3-1	76-82	CCXKXI	_	_
+3-2	83-84	r	_	_
+3-3	85-86	.	_	_
+3-4	87-91	17/5	*[7]	DATEanswered[7]
+3-5	92-94	38	*[7]	DATEanswered[7]
+3-6	95-101	Berlin	*	PLACEfrom
+3-7	102-103	1	*[9]	DATEletter[9]
+3-8	104-107	Msi	*[9]	DATEletter[9]
+3-9	108-110	38	*[9]	DATEletter[9]
+3-10	111-114	Ich	_	_
+3-11	115-123	antworte	_	_
+3-12	124-127	auf	_	_
+3-13	128-133	Ihren	_	_
+3-14	134-139	Brief	_	_
+3-15	140-143	vom	_	_
+3-16	144-146	17	*[10]	DATEmentioned[10]
+3-17	147-152	April	*[10]	DATEmentioned[10]
+3-18	153-159	lieber	_	_
+3-19	160-166	Freund	_	_
+3-20	167-168	.	_	_
+
+#Text=An allerlei Aerger meiner Ant . Bildw .
+4-1	169-171	An	_	_
+4-2	172-180	allerlei	_	_
+4-3	181-187	Aerger	_	_
+4-4	188-194	meiner	_	_
+4-5	195-198	Ant	_	_
+4-6	199-200	.	_	_
+4-7	201-206	Bildw	_	_
+4-8	207-208	.	_	_
+
+#Text=mögen Sie Sich nicht ärgern \; vor 10 Jahren wußte man mit Zeichnern und Büchern weniger umzugehn als jezt , daher denn auch zur Vervollständigung an Stichen gern aufgenommen wurde .
+5-1	209-214	mögen	_	_
+5-2	215-218	Sie	_	_
+5-3	219-223	Sich	_	_
+5-4	224-229	nicht	_	_
+5-5	230-236	ärgern	_	_
+5-6	237-238	\;	_	_
+5-7	239-242	vor	_	_
+5-8	243-245	10	_	_
+5-9	246-252	Jahren	_	_
+5-10	253-258	wußte	_	_
+5-11	259-262	man	_	_
+5-12	263-266	mit	_	_
+5-13	267-276	Zeichnern	_	_
+5-14	277-280	und	_	_
+5-15	281-288	Büchern	_	_
+5-16	289-296	weniger	_	_
+5-17	297-305	umzugehn	_	_
+5-18	306-309	als	_	_
+5-19	310-314	jezt	_	_
+5-20	315-316	,	_	_
+5-21	317-322	daher	_	_
+5-22	323-327	denn	_	_
+5-23	328-332	auch	_	_
+5-24	333-336	zur	_	_
+5-25	337-354	Vervollständigung	_	_
+5-26	355-357	an	_	_
+5-27	358-365	Stichen	_	_
+5-28	366-370	gern	_	_
+5-29	371-382	aufgenommen	_	_
+5-30	383-388	wurde	_	_
+5-31	389-390	.	_	_
+
+#Text=was Ihnen jezt als publicirt bei Franconi und W zur Hand ist .
+6-1	391-394	was	_	_
+6-2	395-400	Ihnen	_	_
+6-3	401-405	jezt	_	_
+6-4	406-409	als	_	_
+6-5	410-419	publicirt	_	_
+6-6	420-423	bei	_	_
+6-7	424-432	Franconi	*	PERmentioned
+6-8	433-436	und	_	_
+6-9	437-438	W	_	_
+6-10	439-442	zur	_	_
+6-11	443-447	Hand	_	_
+6-12	448-451	ist	_	_
+6-13	452-453	.	_	_
+
+#Text=Auf die Färbung meines Wasenwerks lege ich selbst wenig Gewicht \; da ich aber auf verkleinertes Format und auf Ansprache ans große Publikum verwiesen bin , so ist es mir ganz recht daß eine ungefälligere und zur größten Verbreitung des Werks genügender Farbendruck sehr wenig mehr kosten als einfachere Umrisse .
+7-1	454-457	Auf	_	_
+7-2	458-461	die	_	_
+7-3	462-469	Färbung	_	_
+7-4	470-476	meines	_	_
+7-5	477-487	Wasenwerks	_	_
+7-6	488-492	lege	_	_
+7-7	493-496	ich	_	_
+7-8	497-503	selbst	_	_
+7-9	504-509	wenig	_	_
+7-10	510-517	Gewicht	_	_
+7-11	518-519	\;	_	_
+7-12	520-522	da	_	_
+7-13	523-526	ich	_	_
+7-14	527-531	aber	_	_
+7-15	532-535	auf	_	_
+7-16	536-549	verkleinertes	_	_
+7-17	550-556	Format	_	_
+7-18	557-560	und	_	_
+7-19	561-564	auf	_	_
+7-20	565-574	Ansprache	_	_
+7-21	575-578	ans	_	_
+7-22	579-584	große	_	_
+7-23	585-593	Publikum	_	_
+7-24	594-603	verwiesen	_	_
+7-25	604-607	bin	_	_
+7-26	608-609	,	_	_
+7-27	610-612	so	_	_
+7-28	613-616	ist	_	_
+7-29	617-619	es	_	_
+7-30	620-623	mir	_	_
+7-31	624-628	ganz	_	_
+7-32	629-634	recht	_	_
+7-33	635-638	daß	_	_
+7-34	639-643	eine	_	_
+7-35	644-657	ungefälligere	_	_
+7-36	658-661	und	_	_
+7-37	662-665	zur	_	_
+7-38	666-673	größten	_	_
+7-39	674-685	Verbreitung	_	_
+7-40	686-689	des	_	_
+7-41	690-695	Werks	_	_
+7-42	696-706	genügender	_	_
+7-43	707-718	Farbendruck	_	_
+7-44	719-723	sehr	_	_
+7-45	724-729	wenig	_	_
+7-46	730-734	mehr	_	_
+7-47	735-741	kosten	_	_
+7-48	742-745	als	_	_
+7-49	746-756	einfachere	_	_
+7-50	757-764	Umrisse	_	_
+7-51	765-766	.	_	_
+
+#Text=Vebrigens wird die Lithographie fortgesetzt ohne daß der Verlag schon in Ordnung wäre .
+8-1	767-776	Vebrigens	_	_
+8-2	777-781	wird	_	_
+8-3	782-785	die	_	_
+8-4	786-798	Lithographie	_	_
+8-5	799-810	fortgesetzt	_	_
+8-6	811-815	ohne	_	_
+8-7	816-819	daß	_	_
+8-8	820-823	der	_	_
+8-9	824-830	Verlag	_	_
+8-10	831-836	schon	_	_
+8-11	837-839	in	_	_
+8-12	840-847	Ordnung	_	_
+8-13	848-852	wäre	_	_
+8-14	853-854	.	_	_
+
+#Text=Daß manches Publicirte , namentlich eine bereits von De Witte aus Ingh .
+9-1	855-858	Daß	_	_
+9-2	859-866	manches	_	_
+9-3	867-877	Publicirte	_	_
+9-4	878-879	,	_	_
+9-5	880-890	namentlich	_	_
+9-6	891-895	eine	_	_
+9-7	896-903	bereits	_	_
+9-8	904-907	von	_	_
+9-9	908-910	De	*[12]	PERmentioned[12]
+9-10	911-916	Witte	*[12]	PERmentioned[12]
+9-11	917-920	aus	_	_
+9-12	921-925	Ingh	*	PERmentioned
+9-13	926-927	.	_	_
+
+#Text=entnommene Gigantenvase mitunterläuft , ist mir fatal , solches aber schwer zu verhüten .
+10-1	928-938	entnommene	_	_
+10-2	939-951	Gigantenvase	*	OBJ
+10-3	952-965	mitunterläuft	_	_
+10-4	966-967	,	_	_
+10-5	968-971	ist	_	_
+10-6	972-975	mir	_	_
+10-7	976-981	fatal	_	_
+10-8	982-983	,	_	_
+10-9	984-991	solches	_	_
+10-10	992-996	aber	_	_
+10-11	997-1003	schwer	_	_
+10-12	1004-1006	zu	_	_
+10-13	1007-1015	verhüten	_	_
+10-14	1016-1017	.	_	_
+
+#Text=So ist auch eine Durchzeichnung des Lek .
+11-1	1018-1020	So	_	_
+11-2	1021-1024	ist	_	_
+11-3	1025-1029	auch	_	_
+11-4	1030-1034	eine	_	_
+11-5	1035-1049	Durchzeichnung	_	_
+11-6	1050-1053	des	_	_
+11-7	1054-1057	Lek	_	_
+11-8	1058-1059	.	_	_
+
+#Text=den Sie für ein Kyknosbild halten , aus einer Durchzeichnung des Gefäßes lithographirt worden , obwohl ich mich jezt zu erinnern glaube eben dies Vasenbild in einem Ihrer Probedrücke gesehen
+12-1	1060-1063	den	_	_
+12-2	1064-1067	Sie	_	_
+12-3	1068-1071	für	_	_
+12-4	1072-1075	ein	_	_
+12-5	1076-1086	Kyknosbild	_	_
+12-6	1087-1093	halten	_	_
+12-7	1094-1095	,	_	_
+12-8	1096-1099	aus	_	_
+12-9	1100-1105	einer	_	_
+12-10	1106-1120	Durchzeichnung	_	_
+12-11	1121-1124	des	_	_
+12-12	1125-1132	Gefäßes	_	_
+12-13	1133-1146	lithographirt	_	_
+12-14	1147-1153	worden	_	_
+12-15	1154-1155	,	_	_
+12-16	1156-1162	obwohl	_	_
+12-17	1163-1166	ich	_	_
+12-18	1167-1171	mich	_	_
+12-19	1172-1176	jezt	_	_
+12-20	1177-1179	zu	_	_
+12-21	1180-1188	erinnern	_	_
+12-22	1189-1195	glaube	_	_
+12-23	1196-1200	eben	_	_
+12-24	1201-1205	dies	_	_
+12-25	1206-1215	Vasenbild	_	_
+12-26	1216-1218	in	_	_
+12-27	1219-1224	einem	_	_
+12-28	1225-1230	Ihrer	_	_
+12-29	1231-1242	Probedrücke	_	_
+12-30	1243-1250	gesehen	_	_

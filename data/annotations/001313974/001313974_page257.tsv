@@ -1,0 +1,131 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=419 Helbig an Henzen Ohne Datum .
+1-1	0-3	419	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-25	Ohne	_	_
+1-6	26-31	Datum	_	_
+1-7	32-33	.	_	_
+
+#Text=Poststempel Siena , 6 .
+2-1	34-45	Poststempel	_	_
+2-2	46-51	Siena	*	PLACEfrom
+2-3	52-53	,	_	_
+2-4	54-55	6	*[1]	DATEpoststamp[1]
+2-5	56-57	.	*[1]	DATEpoststamp[1]
+
+#Text=August 1875 8 . 878 75 Postkarte Ohne Datum Habe die Cornetanatafel an Heydemann geschickt .
+3-1	58-64	August	*[1]	DATEpoststamp[1]
+3-2	65-69	1875	*[1]	DATEpoststamp[1]
+3-3	70-71	8	_	_
+3-4	72-73	.	_	_
+3-5	74-77	878	_	_
+3-6	78-80	75	_	_
+3-7	81-90	Postkarte	_	_
+3-8	91-95	Ohne	_	_
+3-9	96-101	Datum	_	_
+3-10	102-106	Habe	_	_
+3-11	107-110	die	_	_
+3-12	111-125	Cornetanatafel	*	MISC
+3-13	126-128	an	_	_
+3-14	129-138	Heydemann	*	PERmentioned
+3-15	139-148	geschickt	_	_
+3-16	149-150	.	_	_
+
+#Text=Doch bezweifle ich sehr , daß er sich durch die Menge der Bemerkungen durchfindet , und scheint es mir unerläßlich , daß er ein reinliches Exemplar erhalte .
+4-1	151-155	Doch	_	_
+4-2	156-165	bezweifle	_	_
+4-3	166-169	ich	_	_
+4-4	170-174	sehr	_	_
+4-5	175-176	,	_	_
+4-6	177-180	daß	_	_
+4-7	181-183	er	_	_
+4-8	184-188	sich	_	_
+4-9	189-194	durch	_	_
+4-10	195-198	die	_	_
+4-11	199-204	Menge	_	_
+4-12	205-208	der	_	_
+4-13	209-220	Bemerkungen	_	_
+4-14	221-232	durchfindet	_	_
+4-15	233-234	,	_	_
+4-16	235-238	und	_	_
+4-17	239-246	scheint	_	_
+4-18	247-249	es	_	_
+4-19	250-253	mir	_	_
+4-20	254-265	unerläßlich	_	_
+4-21	266-267	,	_	_
+4-22	268-271	daß	_	_
+4-23	272-274	er	_	_
+4-24	275-278	ein	_	_
+4-25	279-289	reinliches	_	_
+4-26	290-298	Exemplar	_	_
+4-27	299-306	erhalte	_	_
+4-28	307-308	.	_	_
+
+#Text=Wenn Mariani störrisch ist , muß man ihm einmal tüchtig die Meinung sagen .
+5-1	309-313	Wenn	_	_
+5-2	314-321	Mariani	*	PERmentioned
+5-3	322-331	störrisch	_	_
+5-4	332-335	ist	_	_
+5-5	336-337	,	_	_
+5-6	338-341	muß	_	_
+5-7	342-345	man	_	_
+5-8	346-349	ihm	_	_
+5-9	350-356	einmal	_	_
+5-10	357-364	tüchtig	_	_
+5-11	365-368	die	_	_
+5-12	369-376	Meinung	_	_
+5-13	377-382	sagen	_	_
+5-14	383-384	.	_	_
+
+#Text=Nach Chiusi kann ich augenblicklich nicht gehen , da ich - vielleicht in Folge des Essens von unreifem Obste - eine kleine Indisposition habe , die mich an der Villa fesselt .
+6-1	385-389	Nach	_	_
+6-2	390-396	Chiusi	*	PLACEmentioned
+6-3	397-401	kann	_	_
+6-4	402-405	ich	_	_
+6-5	406-420	augenblicklich	_	_
+6-6	421-426	nicht	_	_
+6-7	427-432	gehen	_	_
+6-8	433-434	,	_	_
+6-9	435-437	da	_	_
+6-10	438-441	ich	_	_
+6-11	442-443	-	_	_
+6-12	444-454	vielleicht	_	_
+6-13	455-457	in	_	_
+6-14	458-463	Folge	_	_
+6-15	464-467	des	_	_
+6-16	468-474	Essens	_	_
+6-17	475-478	von	_	_
+6-18	479-487	unreifem	_	_
+6-19	488-493	Obste	_	_
+6-20	494-495	-	_	_
+6-21	496-500	eine	_	_
+6-22	501-507	kleine	_	_
+6-23	508-521	Indisposition	_	_
+6-24	522-526	habe	_	_
+6-25	527-528	,	_	_
+6-26	529-532	die	_	_
+6-27	533-537	mich	_	_
+6-28	538-540	an	_	_
+6-29	541-544	der	_	_
+6-30	545-550	Villa	_	_
+6-31	551-558	fesselt	_	_
+6-32	559-560	.	_	_
+
+#Text=Baldisst Weiteres .
+7-1	561-569	Baldisst	_	_
+7-2	570-578	Weiteres	_	_
+7-3	579-580	.	_	_
+
+#Text=Herzlichen Gruß !
+8-1	581-591	Herzlichen	_	_
+8-2	592-596	Gruß	_	_
+8-3	597-598	!	_	_
+
+#Text=Ihr Helbig
+9-1	599-602	Ihr	_	_
+9-2	603-609	Helbig	*	PERauthor

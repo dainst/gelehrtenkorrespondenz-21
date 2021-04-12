@@ -1,0 +1,195 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 6. Mai 1836 Herrn Dr. Braun Wohlgeboren in Rom Berlin am 6 Mai 1836 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	6.	*[4]	DATEletter[4]
+1-7	29-32	Mai	*[4]	DATEletter[4]
+1-8	33-37	1836	*[4]	DATEletter[4]
+1-9	38-43	Herrn	_	_
+1-10	44-47	Dr.	_	_
+1-11	48-53	Braun	*	PERaddressee
+1-12	54-65	Wohlgeboren	_	_
+1-13	66-68	in	_	_
+1-14	69-72	Rom	*	PLACEto
+1-15	73-79	Berlin	*	PLACEfrom
+1-16	80-82	am	_	_
+1-17	83-84	6	*[8]	DATEletter[8]
+1-18	85-88	Mai	*[8]	DATEletter[8]
+1-19	89-93	1836	*[8]	DATEletter[8]
+1-20	94-95	.	_	_
+
+#Text=Am 22.2 vor .
+2-1	96-98	Am	_	_
+2-2	99-103	22.2	_	_
+2-3	104-107	vor	_	_
+2-4	108-109	.	_	_
+
+#Text=Mon .
+3-1	110-113	Mon	_	_
+3-2	114-115	.	_	_
+
+#Text=sandte ich durch Vermittlung des Herrn A. Toussaint in Nürnberg unter Adresse 8.r Excellenz des Herrn Minister Bunsen an Sie ab : H. M. B . Eine emballirte Kiste , an Gewicht 88 , „ enthaltend : 210 .
+4-1	116-122	sandte	_	_
+4-2	123-126	ich	_	_
+4-3	127-132	durch	_	_
+4-4	133-144	Vermittlung	_	_
+4-5	145-148	des	_	_
+4-6	149-154	Herrn	_	_
+4-7	155-157	A.	_	_
+4-8	158-167	Toussaint	*[9]	PERmentioned[9]
+4-9	168-170	in	_	_
+4-10	171-179	Nürnberg	*	PLACEmentioned
+4-11	180-185	unter	_	_
+4-12	186-193	Adresse	_	_
+4-13	194-197	8.r	_	_
+4-14	198-207	Excellenz	_	_
+4-15	208-211	des	_	_
+4-16	212-217	Herrn	_	_
+4-17	218-226	Minister	*[11]	PERmentioned[11]
+4-18	227-233	Bunsen	*[11]	PERmentioned[11]
+4-19	234-236	an	_	_
+4-20	237-240	Sie	_	_
+4-21	241-243	ab	_	_
+4-22	244-245	:	_	_
+4-23	246-248	H.	_	_
+4-24	249-251	M.	_	_
+4-25	252-253	B	_	_
+4-26	254-255	.	_	_
+4-27	256-260	Eine	_	_
+4-28	261-271	emballirte	_	_
+4-29	272-277	Kiste	_	_
+4-30	278-279	,	_	_
+4-31	280-282	an	_	_
+4-32	283-290	Gewicht	_	_
+4-33	291-293	88	_	_
+4-34	294-295	,	_	_
+4-35	296-297	„	_	_
+4-36	298-308	enthaltend	_	_
+4-37	309-310	:	_	_
+4-38	311-314	210	_	_
+4-39	315-316	.	_	_
+
+#Text=Annali des Inst , T. VII1 .
+5-1	317-323	Annali	_	_
+5-2	324-327	des	_	_
+5-3	328-332	Inst	_	_
+5-4	333-334	,	_	_
+5-5	335-337	T.	_	_
+5-6	338-342	VII1	_	_
+5-7	343-344	.	_	_
+
+#Text=2 18 Abhandl .
+6-1	345-346	2	_	_
+6-2	347-349	18	_	_
+6-3	350-357	Abhandl	_	_
+6-4	358-359	.	_	_
+
+#Text=Dr. Panofka 1 Bsch an Herrn Dr. Braun von Herrn Prof Gerhard 3. desgl .
+7-1	360-363	Dr.	_	_
+7-2	364-371	Panofka	*	PERmentioned
+7-3	372-373	1	_	_
+7-4	374-378	Bsch	_	_
+7-5	379-381	an	_	_
+7-6	382-387	Herrn	_	_
+7-7	388-391	Dr.	_	_
+7-8	392-397	Braun	*	PERmentioned
+7-9	398-401	von	_	_
+7-10	402-407	Herrn	_	_
+7-11	408-412	Prof	*[14]	PERmentioned[14]
+7-12	413-420	Gerhard	*[14]	PERmentioned[14]
+7-13	421-423	3.	_	_
+7-14	424-429	desgl	_	_
+7-15	430-431	.	_	_
+
+#Text=an dens .
+8-1	432-434	an	_	_
+8-2	435-439	dens	_	_
+8-3	440-441	.	_	_
+
+#Text=von Brockhaus ferner für Avellino in Neapel 1 .
+9-1	442-445	von	_	_
+9-2	446-455	Brockhaus	*	ORGmentioned
+9-3	456-462	ferner	_	_
+9-4	463-466	für	_	_
+9-5	467-475	Avellino	*	PERmentioned
+9-6	476-478	in	_	_
+9-7	479-485	Neapel	*	PLACEmentioned
+9-8	486-487	1	_	_
+9-9	488-489	.	_	_
+
+#Text=Hallische Literaturzeitung 1836 .
+10-1	490-499	Hallische	*	PLACEmentioned
+10-2	500-516	Literaturzeitung	_	_
+10-3	517-521	1836	_	_
+10-4	522-523	.	_	_
+
+#Text=Janr .
+11-1	524-528	Janr	_	_
+11-2	529-530	.	_	_
+
+#Text=bis März d. Jahg 12 . 15 1 .
+12-1	531-534	bis	_	_
+12-2	535-539	März	_	_
+12-3	540-542	d.	_	_
+12-4	543-547	Jahg	_	_
+12-5	548-550	12	_	_
+12-6	551-552	.	_	_
+12-7	553-555	15	_	_
+12-8	556-557	1	_	_
+12-9	558-559	.	_	_
+
+#Text=Heidelberger Jahrbücher 1835 December als Rest 712 . 15 1. desgleichen 1836 .
+13-1	560-572	Heidelberger	*	PLACEmentioned
+13-2	573-583	Jahrbücher	_	_
+13-3	584-588	1835	_	_
+13-4	589-597	December	_	_
+13-5	598-601	als	_	_
+13-6	602-606	Rest	_	_
+13-7	607-610	712	_	_
+13-8	611-612	.	_	_
+13-9	613-615	15	_	_
+13-10	616-618	1.	_	_
+13-11	619-630	desgleichen	_	_
+13-12	631-635	1836	_	_
+13-13	636-637	.	_	_
+
+#Text=Janr .
+14-1	638-642	Janr	_	_
+14-2	643-644	.	_	_
+
+#Text=Febr .
+15-1	645-649	Febr	_	_
+15-2	650-651	.	_	_
+
+#Text=Preis des Jahrganss 8 - 1 .
+16-1	652-657	Preis	_	_
+16-2	658-661	des	_	_
+16-3	662-671	Jahrganss	_	_
+16-4	672-673	8	_	_
+16-5	674-675	-	_	_
+16-6	676-677	1	_	_
+16-7	678-679	.	_	_
+
+#Text=Göttinger Anzeiger 1836 N . 25 bis als Rest 8. -- R 20 . 15 sgr
+17-1	680-689	Göttinger	*	PLACEmentioned
+17-2	690-698	Anzeiger	_	_
+17-3	699-703	1836	_	_
+17-4	704-705	N	_	_
+17-5	706-707	.	_	_
+17-6	708-710	25	_	_
+17-7	711-714	bis	_	_
+17-8	715-718	als	_	_
+17-9	719-723	Rest	_	_
+17-10	724-726	8.	_	_
+17-11	727-729	--	_	_
+17-12	730-731	R	_	_
+17-13	732-734	20	_	_
+17-14	735-736	.	_	_
+17-15	737-739	15	_	_
+17-16	740-743	sgr	_	_

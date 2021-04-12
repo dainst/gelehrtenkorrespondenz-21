@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=247 Brunn an Henzen Perugia , 17 .
+1-1	0-3	247	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	17	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1858 -3- Massimini an Fiazza Colonna , oder Manche am Corso zu haben .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1858	*[1]	DATEletter[1]
+2-3	47-50	-3-	_	_
+2-4	51-60	Massimini	*	PERmentioned
+2-5	61-63	an	_	_
+2-6	64-70	Fiazza	*[2]	PLACEmentioned[2]
+2-7	71-78	Colonna	*[2]	PLACEmentioned[2]
+2-8	79-80	,	_	_
+2-9	81-85	oder	_	_
+2-10	86-92	Manche	_	_
+2-11	93-95	am	_	_
+2-12	96-101	Corso	*	PLACEmentioned
+2-13	102-104	zu	_	_
+2-14	105-110	haben	_	_
+2-15	111-112	.	_	_
+
+#Text=Packete lassen sich übrigens spediren durch Fuhrleute an Piazza Pöllarola : Bartoccini empfiehlt Castellini oder Ciurnella ( aus Perugia ) \; denen es durch Facchino Angelo an O0 .
+3-1	113-120	Packete	_	_
+3-2	121-127	lassen	_	_
+3-3	128-132	sich	_	_
+3-4	133-141	übrigens	_	_
+3-5	142-150	spediren	_	_
+3-6	151-156	durch	_	_
+3-7	157-166	Fuhrleute	_	_
+3-8	167-169	an	_	_
+3-9	170-176	Piazza	*[3]	PLACEmentioned[3]
+3-10	177-186	Pöllarola	*[3]	PLACEmentioned[3]
+3-11	187-188	:	_	_
+3-12	189-199	Bartoccini	*	PERmentioned
+3-13	200-209	empfiehlt	_	_
+3-14	210-220	Castellini	*	PERmentioned
+3-15	221-225	oder	_	_
+3-16	226-235	Ciurnella	*	PERmentioned
+3-17	236-237	(	_	_
+3-18	238-241	aus	_	_
+3-19	242-249	Perugia	*	PLACEmentioned
+3-20	250-251	)	_	_
+3-21	252-253	\;	_	_
+3-22	254-259	denen	_	_
+3-23	260-262	es	_	_
+3-24	263-268	durch	_	_
+3-25	269-277	Facchino	_	_
+3-26	278-284	Angelo	*	PERmentioned
+3-27	285-287	an	_	_
+3-28	288-290	O0	*[4]	PERmentioned[4]
+3-29	291-292	.	*[4]	PERmentioned[4]
+
+#Text=Pollar , übergeben wird , der mich durch die Weinspedition kennt .
+4-1	293-299	Pollar	*[4]	PERmentioned[4]
+4-2	300-301	,	_	_
+4-3	302-311	übergeben	_	_
+4-4	312-316	wird	_	_
+4-5	317-318	,	_	_
+4-6	319-322	der	_	_
+4-7	323-327	mich	_	_
+4-8	328-333	durch	_	_
+4-9	334-337	die	_	_
+4-10	338-351	Weinspedition	_	_
+4-11	352-357	kennt	_	_
+4-12	358-359	.	_	_
+
+#Text=Von dem Chiusiner Sarkophag ist die eine ( obscöne ) Sorte nicht mit aufgestellt .
+5-1	360-363	Von	_	_
+5-2	364-367	dem	_	_
+5-3	368-377	Chiusiner	*[5]	OBJ[5]
+5-4	378-387	Sarkophag	*[5]	OBJ[5]
+5-5	388-391	ist	_	_
+5-6	392-395	die	_	_
+5-7	396-400	eine	_	_
+5-8	401-402	(	_	_
+5-9	403-410	obscöne	_	_
+5-10	411-412	)	_	_
+5-11	413-418	Sorte	_	_
+5-12	419-424	nicht	_	_
+5-13	425-428	mit	_	_
+5-14	429-440	aufgestellt	_	_
+5-15	441-442	.	_	_
+
+#Text=- Mit meiner Frau geht es wieder gut .
+6-1	443-444	-	_	_
+6-2	445-448	Mit	_	_
+6-3	449-455	meiner	*[6]	OBJ[6]
+6-4	456-460	Frau	*[6]	OBJ[6]
+6-5	461-465	geht	_	_
+6-6	466-468	es	_	_
+6-7	469-475	wieder	_	_
+6-8	476-479	gut	_	_
+6-9	480-481	.	_	_
+
+#Text=Ich eile , weil ich mit ihr und Bartoccini's zu den Volumniern will .
+7-1	482-485	Ich	_	_
+7-2	486-490	eile	_	_
+7-3	491-492	,	_	_
+7-4	493-497	weil	_	_
+7-5	498-501	ich	_	_
+7-6	502-505	mit	_	_
+7-7	506-509	ihr	_	_
+7-8	510-513	und	_	_
+7-9	514-526	Bartoccini's	*	PERmentioned
+7-10	527-529	zu	_	_
+7-11	530-533	den	_	_
+7-12	534-544	Volumniern	*	OBJ
+7-13	545-549	will	_	_
+7-14	550-551	.	_	_
+
+#Text=Einige Urnen sah ich heute früh bei Meniconi , die ich wohl zeichnen lasse .
+8-1	552-558	Einige	_	_
+8-2	559-564	Urnen	*	OBJ
+8-3	565-568	sah	_	_
+8-4	569-572	ich	_	_
+8-5	573-578	heute	_	_
+8-6	579-583	früh	_	_
+8-7	584-587	bei	_	_
+8-8	588-596	Meniconi	*	PERmentioned
+8-9	597-598	,	_	_
+8-10	599-602	die	_	_
+8-11	603-606	ich	_	_
+8-12	607-611	wohl	_	_
+8-13	612-620	zeichnen	_	_
+8-14	621-626	lasse	_	_
+8-15	627-628	.	_	_
+
+#Text=Lossers und meine Frau grüßen .
+9-1	629-636	Lossers	*	PERmentioned
+9-2	637-640	und	_	_
+9-3	641-646	meine	*[7]	PERmentioned[7]
+9-4	647-651	Frau	*[7]	PERmentioned[7]
+9-5	652-658	grüßen	_	_
+9-6	659-660	.	_	_
+
+#Text=Ihr HBrunn .
+10-1	661-664	Ihr	_	_
+10-2	665-671	HBrunn	*	PERauthor
+10-3	672-673	.	_	_
+
+#Text=Il sig .
+11-1	674-676	Il	_	_
+11-2	677-680	sig	_	_
+11-3	681-682	.	_	_
+
+#Text=Bossi potrebbe disegnar al Monte di Pieta \; A ) tre lastre in terracotta a alto rilievo , alquanto frammentale \; Amazzoni e Centauri ( ?
+12-1	683-688	Bossi	*	PERmentioned
+12-2	689-697	potrebbe	_	_
+12-3	698-706	disegnar	_	_
+12-4	707-709	al	_	_
+12-5	710-715	Monte	*[8]	PLACEmentioned[8]
+12-6	716-718	di	*[8]	PLACEmentioned[8]
+12-7	719-724	Pieta	*[8]	PLACEmentioned[8]
+12-8	725-726	\;	_	_
+12-9	727-728	A	_	_
+12-10	729-730	)	_	_
+12-11	731-734	tre	_	_
+12-12	735-741	lastre	*[9]	OBJ[9]
+12-13	742-744	in	*[9]	OBJ[9]
+12-14	745-755	terracotta	*[9]	OBJ[9]
+12-15	756-757	a	*[9]	OBJ[9]
+12-16	758-762	alto	*[9]	OBJ[9]
+12-17	763-770	rilievo	*[9]	OBJ[9]
+12-18	771-772	,	_	_
+12-19	773-781	alquanto	_	_
+12-20	782-793	frammentale	_	_
+12-21	794-795	\;	_	_
+12-22	796-804	Amazzoni	_	_
+12-23	805-806	e	_	_
+12-24	807-815	Centauri	_	_
+12-25	816-817	(	_	_
+12-26	818-819	?	_	_
+
+#Text=) , nelle proporzione r .
+13-1	820-821	)	_	_
+13-2	822-823	,	_	_
+13-3	824-829	nelle	_	_
+13-4	830-841	proporzione	_	_
+13-5	842-843	r	_	_
+13-6	844-845	.	_	_
+
+#Text=metr .
+14-1	846-850	metr	_	_
+14-2	851-852	.	_	_
+
+#Text=ciascuche in altrezza non superassero 0,15-0,17 na , 2 ) vi sono tre o quattoo figure o gruppi in terracotta di Ardea , dell'altezza di appena un metro : uno , una figura assisa con due vascetti nelle mani , dovrebbe esser disegnata dal davanti e dal fianco , per far vedere la
+15-1	853-862	ciascuche	_	_
+15-2	863-865	in	_	_
+15-3	866-874	altrezza	_	_
+15-4	875-878	non	_	_
+15-5	879-890	superassero	_	_
+15-6	891-900	0,15-0,17	_	_
+15-7	901-903	na	_	_
+15-8	904-905	,	_	_
+15-9	906-907	2	_	_
+15-10	908-909	)	_	_
+15-11	910-912	vi	_	_
+15-12	913-917	sono	_	_
+15-13	918-921	tre	_	_
+15-14	922-923	o	_	_
+15-15	924-931	quattoo	_	_
+15-16	932-938	figure	_	_
+15-17	939-940	o	_	_
+15-18	941-947	gruppi	*[10]	OBJ[10]
+15-19	948-950	in	*[10]	OBJ[10]
+15-20	951-961	terracotta	*[10]	OBJ[10]
+15-21	962-964	di	_	_
+15-22	965-970	Ardea	*	PLACEmentioned
+15-23	971-972	,	_	_
+15-24	973-985	dell'altezza	_	_
+15-25	986-988	di	_	_
+15-26	989-995	appena	_	_
+15-27	996-998	un	_	_
+15-28	999-1004	metro	_	_
+15-29	1005-1006	:	_	_
+15-30	1007-1010	uno	_	_
+15-31	1011-1012	,	_	_
+15-32	1013-1016	una	_	_
+15-33	1017-1023	figura	_	_
+15-34	1024-1030	assisa	_	_
+15-35	1031-1034	con	_	_
+15-36	1035-1038	due	_	_
+15-37	1039-1047	vascetti	_	_
+15-38	1048-1053	nelle	_	_
+15-39	1054-1058	mani	_	_
+15-40	1059-1060	,	_	_
+15-41	1061-1069	dovrebbe	_	_
+15-42	1070-1075	esser	_	_
+15-43	1076-1085	disegnata	_	_
+15-44	1086-1089	dal	_	_
+15-45	1090-1097	davanti	_	_
+15-46	1098-1099	e	_	_
+15-47	1100-1103	dal	_	_
+15-48	1104-1110	fianco	_	_
+15-49	1111-1112	,	_	_
+15-50	1113-1116	per	_	_
+15-51	1117-1120	far	_	_
+15-52	1121-1127	vedere	_	_
+15-53	1128-1130	la	_	_

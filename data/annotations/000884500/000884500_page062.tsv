@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 16. März 1838 Dr. Braun g . 29/3 38 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	16.	*[4]	DATEletter[4]
+1-7	30-34	März	*[4]	DATEletter[4]
+1-8	35-39	1838	*[4]	DATEletter[4]
+1-9	40-43	Dr.	_	_
+1-10	44-49	Braun	*	PERaddressee
+1-11	50-51	g	_	_
+1-12	52-53	.	_	_
+1-13	54-58	29/3	*[6]	DATErecieved[6]
+1-14	59-61	38	*[6]	DATErecieved[6]
+1-15	62-65	Aff	_	_
+1-16	66-67	.	_	_
+
+#Text=d . Dir .
+2-1	68-69	d	_	_
+2-2	70-71	.	_	_
+2-3	72-75	Dir	_	_
+2-4	76-77	.	_	_
+
+#Text=OXXV r . 31/3 38 Berlin 16 März 38 Gerstäckers Rechnung habe ich endlich richtig aufgetrieben \; sorgen Sie nun daß er bald seine beigehende Abschrift bescheinigt zurückerhalte .
+3-1	78-82	OXXV	_	_
+3-2	83-84	r	_	_
+3-3	85-86	.	_	_
+3-4	87-91	31/3	*[7]	DATEanswered[7]
+3-5	92-94	38	*[7]	DATEanswered[7]
+3-6	95-101	Berlin	*	PLACEfrom
+3-7	102-104	16	*[9]	DATEletter[9]
+3-8	105-109	März	*[9]	DATEletter[9]
+3-9	110-112	38	*[9]	DATEletter[9]
+3-10	113-124	Gerstäckers	*	PERmentioned
+3-11	125-133	Rechnung	_	_
+3-12	134-138	habe	_	_
+3-13	139-142	ich	_	_
+3-14	143-150	endlich	_	_
+3-15	151-158	richtig	_	_
+3-16	159-171	aufgetrieben	_	_
+3-17	172-173	\;	_	_
+3-18	174-180	sorgen	_	_
+3-19	181-184	Sie	_	_
+3-20	185-188	nun	_	_
+3-21	189-192	daß	_	_
+3-22	193-195	er	_	_
+3-23	196-200	bald	_	_
+3-24	201-206	seine	_	_
+3-25	207-217	beigehende	_	_
+3-26	218-227	Abschrift	_	_
+3-27	228-239	bescheinigt	_	_
+3-28	240-253	zurückerhalte	_	_
+3-29	254-255	.	_	_
+
+#Text=Die Artikel scheinen mir alle klar \; wird der Inhalt derselben gutgeheißen , so werden dadurch mögliche Reklamationen fehlender Artikel für die Zukunft nicht abgeschnitten .
+4-1	256-259	Die	_	_
+4-2	260-267	Artikel	_	_
+4-3	268-276	scheinen	_	_
+4-4	277-280	mir	_	_
+4-5	281-285	alle	_	_
+4-6	286-290	klar	_	_
+4-7	291-292	\;	_	_
+4-8	293-297	wird	_	_
+4-9	298-301	der	_	_
+4-10	302-308	Inhalt	_	_
+4-11	309-318	derselben	_	_
+4-12	319-330	gutgeheißen	_	_
+4-13	331-332	,	_	_
+4-14	333-335	so	_	_
+4-15	336-342	werden	_	_
+4-16	343-350	dadurch	_	_
+4-17	351-359	mögliche	_	_
+4-18	360-373	Reklamationen	_	_
+4-19	374-383	fehlender	_	_
+4-20	384-391	Artikel	_	_
+4-21	392-395	für	_	_
+4-22	396-399	die	_	_
+4-23	400-407	Zukunft	_	_
+4-24	408-413	nicht	_	_
+4-25	414-427	abgeschnitten	_	_
+4-26	428-429	.	_	_
+
+#Text=Es schien mir zweckmäßig daß Sie diese Sendung ein paar Tage früher erhalten und besprechen könnten als Urlichs nun er 20ssten 'abreisen soll mit seinen Neuigkeiten eintrifft , die das ganze Capitol mit Reisegährung erfüllen werden .
+5-1	430-432	Es	_	_
+5-2	433-439	schien	_	_
+5-3	440-443	mir	_	_
+5-4	444-454	zweckmäßig	_	_
+5-5	455-458	daß	_	_
+5-6	459-462	Sie	_	_
+5-7	463-468	diese	_	_
+5-8	469-476	Sendung	_	_
+5-9	477-480	ein	_	_
+5-10	481-485	paar	_	_
+5-11	486-490	Tage	_	_
+5-12	491-497	früher	_	_
+5-13	498-506	erhalten	_	_
+5-14	507-510	und	_	_
+5-15	511-521	besprechen	_	_
+5-16	522-529	könnten	_	_
+5-17	530-533	als	_	_
+5-18	534-541	Urlichs	*	PERmentioned
+5-19	542-545	nun	_	_
+5-20	546-548	er	_	_
+5-21	549-556	20ssten	_	_
+5-22	557-566	'abreisen	_	_
+5-23	567-571	soll	_	_
+5-24	572-575	mit	_	_
+5-25	576-582	seinen	_	_
+5-26	583-594	Neuigkeiten	_	_
+5-27	595-604	eintrifft	_	_
+5-28	605-606	,	_	_
+5-29	607-610	die	_	_
+5-30	611-614	das	_	_
+5-31	615-620	ganze	_	_
+5-32	621-628	Capitol	*	PLACEmentioned
+5-33	629-632	mit	_	_
+5-34	633-645	Reisegährung	_	_
+5-35	646-654	erfüllen	_	_
+5-36	655-661	werden	_	_
+5-37	662-663	.	_	_
+
+#Text=Sie erhalten durch ihn Ant . Bildwerke , Probedrücke und a. was ich Ihnen wol besser gleichzeitig mit der Sendung specificiere .
+6-1	664-667	Sie	_	_
+6-2	668-676	erhalten	_	_
+6-3	677-682	durch	_	_
+6-4	683-686	ihn	_	_
+6-5	687-690	Ant	_	_
+6-6	691-692	.	_	_
+6-7	693-702	Bildwerke	_	_
+6-8	703-704	,	_	_
+6-9	705-716	Probedrücke	_	_
+6-10	717-720	und	_	_
+6-11	721-723	a.	_	_
+6-12	724-727	was	_	_
+6-13	728-731	ich	_	_
+6-14	732-737	Ihnen	_	_
+6-15	738-741	wol	_	_
+6-16	742-748	besser	_	_
+6-17	749-761	gleichzeitig	_	_
+6-18	762-765	mit	_	_
+6-19	766-769	der	_	_
+6-20	770-777	Sendung	_	_
+6-21	778-790	specificiere	_	_
+6-22	791-792	.	_	_
+
+#Text=In Bezug auf die Tho vase ist immer noch nicht klar , warum die 3.te weißhaarige Figur männlich sein soll , welches Monitum Panofka 3 fach erhalten hat .
+7-1	793-795	In	_	_
+7-2	796-801	Bezug	_	_
+7-3	802-805	auf	_	_
+7-4	806-809	die	_	_
+7-5	810-813	Tho	*[13]	OBJ[13]
+7-6	814-818	vase	*[13]	OBJ[13]
+7-7	819-822	ist	_	_
+7-8	823-828	immer	_	_
+7-9	829-833	noch	_	_
+7-10	834-839	nicht	_	_
+7-11	840-844	klar	_	_
+7-12	845-846	,	_	_
+7-13	847-852	warum	_	_
+7-14	853-856	die	_	_
+7-15	857-861	3.te	_	_
+7-16	862-873	weißhaarige	_	_
+7-17	874-879	Figur	_	_
+7-18	880-888	männlich	_	_
+7-19	889-893	sein	_	_
+7-20	894-898	soll	_	_
+7-21	899-900	,	_	_
+7-22	901-908	welches	_	_
+7-23	909-916	Monitum	_	_
+7-24	917-924	Panofka	*	PERmentioned
+7-25	925-926	3	_	_
+7-26	927-931	fach	_	_
+7-27	932-940	erhalten	_	_
+7-28	941-944	hat	_	_
+7-29	945-946	.	_	_
+
+#Text=Als alte Frau könnte es immerhin die Musenmutter sein .
+8-1	947-950	Als	_	_
+8-2	951-955	alte	_	_
+8-3	956-960	Frau	_	_
+8-4	961-967	könnte	_	_
+8-5	968-970	es	_	_
+8-6	971-979	immerhin	_	_
+8-7	980-983	die	_	_
+8-8	984-995	Musenmutter	_	_
+8-9	996-1000	sein	_	_
+8-10	1001-1002	.	_	_
+
+#Text=Inghirani erwähnt eiserne Spiegel als eine bekannte Sache \; kennen Sie deren ?
+9-1	1003-1012	Inghirani	*	PERmentioned
+9-2	1013-1020	erwähnt	_	_
+9-3	1021-1028	eiserne	*[16]	OBJ[16]
+9-4	1029-1036	Spiegel	*[16]	OBJ[16]
+9-5	1037-1040	als	_	_
+9-6	1041-1045	eine	_	_
+9-7	1046-1054	bekannte	_	_
+9-8	1055-1060	Sache	_	_
+9-9	1061-1062	\;	_	_
+9-10	1063-1069	kennen	_	_
+9-11	1070-1073	Sie	_	_
+9-12	1074-1079	deren	_	_
+9-13	1080-1081	?	_	_
+
+#Text=Ich habe keinen .
+10-1	1082-1085	Ich	_	_
+10-2	1086-1090	habe	_	_
+10-3	1091-1097	keinen	_	_
+10-4	1098-1099	.	_	_
+
+#Text=Der Kopf an den Griffen der Spiegel scheint fast durchgängig derselbige \; mir scheint er eher ein Esels-
+11-1	1100-1103	Der	_	_
+11-2	1104-1108	Kopf	_	_
+11-3	1109-1111	an	_	_
+11-4	1112-1115	den	_	_
+11-5	1116-1123	Griffen	_	_
+11-6	1124-1127	der	_	_
+11-7	1128-1135	Spiegel	_	_
+11-8	1136-1143	scheint	_	_
+11-9	1144-1148	fast	_	_
+11-10	1149-1160	durchgängig	_	_
+11-11	1161-1171	derselbige	_	_
+11-12	1172-1173	\;	_	_
+11-13	1174-1177	mir	_	_
+11-14	1178-1185	scheint	_	_
+11-15	1186-1188	er	_	_
+11-16	1189-1193	eher	_	_
+11-17	1194-1197	ein	_	_
+11-18	1198-1204	Esels-	_	_

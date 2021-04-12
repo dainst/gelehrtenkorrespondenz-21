@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=447 Brunn an Henzen Oranienbaum,21.8ept.1864 g . 27. September 1864 Oranienbaum 21 Sept .
+1-1	0-3	447	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-44	Oranienbaum,21.8ept.1864	_	_
+1-6	45-46	g	_	_
+1-7	47-48	.	_	_
+1-8	49-52	27.	*[9]	DATErecieved[9]
+1-9	53-62	September	*[9]	DATErecieved[9]
+1-10	63-67	1864	*[9]	DATErecieved[9]
+1-11	68-79	Oranienbaum	*	PLACEfrom
+1-12	80-82	21	*[10]	DATEletter[10]
+1-13	83-87	Sept	*[10]	DATEletter[10]
+1-14	88-89	.	*[10]	DATEletter[10]
+
+#Text=1864 .
+2-1	90-94	1864	*[10]	DATEletter[10]
+2-2	95-96	.	_	_
+
+#Text=Lieber Henzen \| !
+3-1	97-103	Lieber	_	_
+3-2	104-110	Henzen	*	PERaddressee
+3-3	111-112	\|	_	_
+3-4	113-114	!	_	_
+
+#Text=Ihre beiden Briefe sind richtig angelangt , der erste traf mich unterwegs , während ich wieder längere Zeit von hier abwesend war .
+4-1	115-119	Ihre	_	_
+4-2	120-126	beiden	_	_
+4-3	127-133	Briefe	_	_
+4-4	134-138	sind	_	_
+4-5	139-146	richtig	_	_
+4-6	147-156	angelangt	_	_
+4-7	157-158	,	_	_
+4-8	159-162	der	_	_
+4-9	163-168	erste	_	_
+4-10	169-173	traf	_	_
+4-11	174-178	mich	_	_
+4-12	179-188	unterwegs	_	_
+4-13	189-190	,	_	_
+4-14	191-198	während	_	_
+4-15	199-202	ich	_	_
+4-16	203-209	wieder	_	_
+4-17	210-217	längere	_	_
+4-18	218-222	Zeit	_	_
+4-19	223-226	von	_	_
+4-20	227-231	hier	_	_
+4-21	232-240	abwesend	_	_
+4-22	241-244	war	_	_
+4-23	245-246	.	_	_
+
+#Text=Jetzt wird längerem Bleibens nicht mehr sein : nächste Woche noch nach der FPhilologenversamnmlung , dann sofort Einpacken , so daß wir am zten Oct .
+5-1	247-252	Jetzt	_	_
+5-2	253-257	wird	_	_
+5-3	258-266	längerem	_	_
+5-4	267-275	Bleibens	_	_
+5-5	276-281	nicht	_	_
+5-6	282-286	mehr	_	_
+5-7	287-291	sein	_	_
+5-8	292-293	:	_	_
+5-9	294-301	nächste	_	_
+5-10	302-307	Woche	_	_
+5-11	308-312	noch	_	_
+5-12	313-317	nach	_	_
+5-13	318-321	der	_	_
+5-14	322-345	FPhilologenversamnmlung	_	_
+5-15	346-347	,	_	_
+5-16	348-352	dann	_	_
+5-17	353-359	sofort	_	_
+5-18	360-369	Einpacken	_	_
+5-19	370-371	,	_	_
+5-20	372-374	so	_	_
+5-21	375-378	daß	_	_
+5-22	379-382	wir	_	_
+5-23	383-385	am	_	_
+5-24	386-390	zten	_	_
+5-25	391-394	Oct	_	_
+5-26	395-396	.	_	_
+
+#Text=die Rückreise anzutreten gedenken , über Wien , Venedig , Verona : wie von da weiter , weiß ich nicht : das kürzeste würde Genua sein \; doch fürchte ich etwas die Seefahrt , die im October leicht unangenehm sein kann .
+6-1	397-400	die	_	_
+6-2	401-410	Rückreise	_	_
+6-3	411-421	anzutreten	_	_
+6-4	422-430	gedenken	_	_
+6-5	431-432	,	_	_
+6-6	433-437	über	_	_
+6-7	438-442	Wien	*	PLACEmentioned
+6-8	443-444	,	_	_
+6-9	445-452	Venedig	*	PLACEmentioned
+6-10	453-454	,	_	_
+6-11	455-461	Verona	*	PLACEmentioned
+6-12	462-463	:	_	_
+6-13	464-467	wie	_	_
+6-14	468-471	von	_	_
+6-15	472-474	da	_	_
+6-16	475-481	weiter	_	_
+6-17	482-483	,	_	_
+6-18	484-488	weiß	_	_
+6-19	489-492	ich	_	_
+6-20	493-498	nicht	_	_
+6-21	499-500	:	_	_
+6-22	501-504	das	_	_
+6-23	505-513	kürzeste	_	_
+6-24	514-519	würde	_	_
+6-25	520-525	Genua	*	PLACEmentioned
+6-26	526-530	sein	_	_
+6-27	531-532	\;	_	_
+6-28	533-537	doch	_	_
+6-29	538-545	fürchte	_	_
+6-30	546-549	ich	_	_
+6-31	550-555	etwas	_	_
+6-32	556-559	die	_	_
+6-33	560-568	Seefahrt	_	_
+6-34	569-570	,	_	_
+6-35	571-574	die	_	_
+6-36	575-577	im	_	_
+6-37	578-585	October	*	DATEmentioned
+6-38	586-592	leicht	_	_
+6-39	593-603	unangenehm	_	_
+6-40	604-608	sein	_	_
+6-41	609-613	kann	_	_
+6-42	614-615	.	_	_
+
+#Text=Turin kann ich wohl aufgeben , da Sie es überflüssig finden .
+7-1	616-621	Turin	*	PLACEmentioned
+7-2	622-626	kann	_	_
+7-3	627-630	ich	_	_
+7-4	631-635	wohl	_	_
+7-5	636-644	aufgeben	_	_
+7-6	645-646	,	_	_
+7-7	647-649	da	_	_
+7-8	650-653	Sie	_	_
+7-9	654-656	es	_	_
+7-10	657-668	überflüssig	_	_
+7-11	669-675	finden	_	_
+7-12	676-677	.	_	_
+
+#Text=Dagegen können Sie wohl sagen , ob Sie , resp .
+8-1	678-685	Dagegen	_	_
+8-2	686-692	können	_	_
+8-3	693-696	Sie	_	_
+8-4	697-701	wohl	_	_
+8-5	702-707	sagen	_	_
+8-6	708-709	,	_	_
+8-7	710-712	ob	_	_
+8-8	713-716	Sie	_	_
+8-9	717-718	,	_	_
+8-10	719-723	resp	_	_
+8-11	724-725	.	_	_
+
+#Text=Conestabile es wünschenswerth halten , daß ich die Orvietaner Zeichnungen revidire , auch wenn wir sie nicht publiciren .
+9-1	726-737	Conestabile	*	PERmentioned
+9-2	738-740	es	_	_
+9-3	741-755	wünschenswerth	_	_
+9-4	756-762	halten	_	_
+9-5	763-764	,	_	_
+9-6	765-768	daß	_	_
+9-7	769-772	ich	_	_
+9-8	773-776	die	_	_
+9-9	777-787	Orvietaner	*	MISC
+9-10	788-799	Zeichnungen	_	_
+9-11	800-808	revidire	_	_
+9-12	809-810	,	_	_
+9-13	811-815	auch	_	_
+9-14	816-820	wenn	_	_
+9-15	821-824	wir	_	_
+9-16	825-828	sie	_	_
+9-17	829-834	nicht	_	_
+9-18	835-845	publiciren	_	_
+9-19	846-847	.	_	_
+
+#Text=- Ihrem Wunsch wegen des Junoaufsatzes würde ich gern willfahren , wenn ich könnte : aber meine ganze hiesige Existenz ist nun so zerfahren , daß von Arbeiten gar nicht die Rede ist .
+10-1	848-849	-	_	_
+10-2	850-855	Ihrem	_	_
+10-3	856-862	Wunsch	_	_
+10-4	863-868	wegen	_	_
+10-5	869-872	des	_	_
+10-6	873-886	Junoaufsatzes	_	_
+10-7	887-892	würde	_	_
+10-8	893-896	ich	_	_
+10-9	897-901	gern	_	_
+10-10	902-912	willfahren	_	_
+10-11	913-914	,	_	_
+10-12	915-919	wenn	_	_
+10-13	920-923	ich	_	_
+10-14	924-930	könnte	_	_
+10-15	931-932	:	_	_
+10-16	933-937	aber	_	_
+10-17	938-943	meine	_	_
+10-18	944-949	ganze	_	_
+10-19	950-957	hiesige	_	_
+10-20	958-966	Existenz	_	_
+10-21	967-970	ist	_	_
+10-22	971-974	nun	_	_
+10-23	975-977	so	_	_
+10-24	978-987	zerfahren	_	_
+10-25	988-989	,	_	_
+10-26	990-993	daß	_	_
+10-27	994-997	von	_	_
+10-28	998-1006	Arbeiten	_	_
+10-29	1007-1010	gar	_	_
+10-30	1011-1016	nicht	_	_
+10-31	1017-1020	die	_	_
+10-32	1021-1025	Rede	_	_
+10-33	1026-1029	ist	_	_
+10-34	1030-1031	.	_	_
+
+#Text=Gute Freunde und Verwandte sind eine schöne Sache \; aber es giebt auch darin ein zuviel , an dem ich laborire .
+11-1	1032-1036	Gute	_	_
+11-2	1037-1044	Freunde	_	_
+11-3	1045-1048	und	_	_
+11-4	1049-1058	Verwandte	_	_
+11-5	1059-1063	sind	_	_
+11-6	1064-1068	eine	_	_
+11-7	1069-1075	schöne	_	_
+11-8	1076-1081	Sache	_	_
+11-9	1082-1083	\;	_	_
+11-10	1084-1088	aber	_	_
+11-11	1089-1091	es	_	_
+11-12	1092-1097	giebt	_	_
+11-13	1098-1102	auch	_	_
+11-14	1103-1108	darin	_	_
+11-15	1109-1112	ein	_	_
+11-16	1113-1119	zuviel	_	_
+11-17	1120-1121	,	_	_
+11-18	1122-1124	an	_	_
+11-19	1125-1128	dem	_	_
+11-20	1129-1132	ich	_	_
+11-21	1133-1141	laborire	_	_
+11-22	1142-1143	.	_	_
+
+#Text=Dafür wächst aber um so mehr die Sehnsucht und das Bedürfniß nach ruhi-
+12-1	1144-1149	Dafür	_	_
+12-2	1150-1156	wächst	_	_
+12-3	1157-1161	aber	_	_
+12-4	1162-1164	um	_	_
+12-5	1165-1167	so	_	_
+12-6	1168-1172	mehr	_	_
+12-7	1173-1176	die	_	_
+12-8	1177-1186	Sehnsucht	_	_
+12-9	1187-1190	und	_	_
+12-10	1191-1194	das	_	_
+12-11	1195-1204	Bedürfniß	_	_
+12-12	1205-1209	nach	_	_
+12-13	1210-1215	ruhi-	_	_

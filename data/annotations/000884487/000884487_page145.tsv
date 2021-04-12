@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun \_ 13 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-18	\_	_	_
+1-5	19-21	13	*[3]	DATEletter[3]
+1-6	22-23	.	*[3]	DATEletter[3]
+
+#Text=Januar 1837 HH .
+2-1	24-30	Januar	*[3]	DATEletter[3]
+2-2	31-35	1837	*[3]	DATEletter[3]
+2-3	36-38	HH	_	_
+2-4	39-40	.	_	_
+
+#Text=Braun und Lepsius Dir .
+3-1	41-46	Braun	*	PERaddressee
+3-2	47-50	und	_	_
+3-3	51-58	Lepsius	*	PERaddressee
+3-4	59-62	Dir	_	_
+3-5	63-64	.	_	_
+
+#Text=Rom .
+4-1	65-68	Rom	*	PLACEto
+4-2	69-70	.	_	_
+
+#Text=XIV Meine Bronzen sind seit 5 Wochen auf dem Institut verblieben \; dergleichen sollte billig unerinnert allzeit dem Vorgänger zurückgestellt werden .
+5-1	71-74	XIV	_	_
+5-2	75-80	Meine	_	_
+5-3	81-88	Bronzen	*	OBJ
+5-4	89-93	sind	_	_
+5-5	94-98	seit	_	_
+5-6	99-100	5	_	_
+5-7	101-107	Wochen	_	_
+5-8	108-111	auf	_	_
+5-9	112-115	dem	_	_
+5-10	116-124	Institut	*	ORGmentioned
+5-11	125-135	verblieben	_	_
+5-12	136-137	\;	_	_
+5-13	138-149	dergleichen	_	_
+5-14	150-156	sollte	_	_
+5-15	157-163	billig	_	_
+5-16	164-174	unerinnert	_	_
+5-17	175-182	allzeit	_	_
+5-18	183-186	dem	_	_
+5-19	187-196	Vorgänger	_	_
+5-20	197-211	zurückgestellt	_	_
+5-21	212-218	werden	_	_
+5-22	219-220	.	_	_
+
+#Text=Ich bin bereit über die Hälfte meiner im Institut gelassenen Rollen von Zeichnungen zu sprechen ( wenn nichts andres da ist ) \; für solchen Fall könne sie in die 6 Rahmen eingepaßt werden .
+6-1	221-224	Ich	_	_
+6-2	225-228	bin	_	_
+6-3	229-235	bereit	_	_
+6-4	236-240	über	_	_
+6-5	241-244	die	_	_
+6-6	245-251	Hälfte	_	_
+6-7	252-258	meiner	_	_
+6-8	259-261	im	_	_
+6-9	262-270	Institut	*	ORGmentioned
+6-10	271-281	gelassenen	_	_
+6-11	282-288	Rollen	_	_
+6-12	289-292	von	_	_
+6-13	293-304	Zeichnungen	_	_
+6-14	305-307	zu	_	_
+6-15	308-316	sprechen	_	_
+6-16	317-318	(	_	_
+6-17	319-323	wenn	_	_
+6-18	324-330	nichts	_	_
+6-19	331-337	andres	_	_
+6-20	338-340	da	_	_
+6-21	341-344	ist	_	_
+6-22	345-346	)	_	_
+6-23	347-348	\;	_	_
+6-24	349-352	für	_	_
+6-25	353-360	solchen	_	_
+6-26	361-365	Fall	_	_
+6-27	366-371	könne	_	_
+6-28	372-375	sie	_	_
+6-29	376-378	in	_	_
+6-30	379-382	die	_	_
+6-31	383-384	6	_	_
+6-32	385-391	Rahmen	_	_
+6-33	392-401	eingepaßt	_	_
+6-34	402-408	werden	_	_
+6-35	409-410	.	_	_
+
+#Text=Gerhard 13/1 .
+7-1	411-418	Gerhard	*	PERauthor
+7-2	419-423	13/1	*	DATEletter
+7-3	424-425	.	_	_
+
+#Text=gs .
+8-1	426-428	gs	_	_
+8-2	429-430	.	_	_
+
+#Text=13/1 37 .
+9-1	431-435	13/1	*[12]	DATErecieved[12]
+9-2	436-438	37	*[12]	DATErecieved[12]
+9-3	439-440	.	_	_

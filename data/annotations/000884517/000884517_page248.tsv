@@ -1,0 +1,127 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 12 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	12	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1848 keiten , vermuthlich noch für eine Weile \; bis wir vollständig unterwühlt sind tritt die Linke gemäßigt auf .
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-43	1848	*[1]	DATEletter[1]
+2-3	44-50	keiten	_	_
+2-4	51-52	,	_	_
+2-5	53-64	vermuthlich	_	_
+2-6	65-69	noch	_	_
+2-7	70-73	für	_	_
+2-8	74-78	eine	_	_
+2-9	79-84	Weile	_	_
+2-10	85-86	\;	_	_
+2-11	87-90	bis	_	_
+2-12	91-94	wir	_	_
+2-13	95-106	vollständig	_	_
+2-14	107-117	unterwühlt	_	_
+2-15	118-122	sind	_	_
+2-16	123-128	tritt	_	_
+2-17	129-132	die	_	_
+2-18	133-138	Linke	_	_
+2-19	139-147	gemäßigt	_	_
+2-20	148-151	auf	_	_
+2-21	152-153	.	_	_
+
+#Text=Heute endlich ist die Berathung des Verfassungsentwurfs mit Abschaffung von Von Gottes Gnaden , eröffnet .
+3-1	154-159	Heute	_	_
+3-2	160-167	endlich	_	_
+3-3	168-171	ist	_	_
+3-4	172-175	die	_	_
+3-5	176-185	Berathung	_	_
+3-6	186-189	des	_	_
+3-7	190-209	Verfassungsentwurfs	_	_
+3-8	210-213	mit	_	_
+3-9	214-225	Abschaffung	_	_
+3-10	226-229	von	_	_
+3-11	230-233	Von	_	_
+3-12	234-240	Gottes	_	_
+3-13	241-247	Gnaden	_	_
+3-14	248-249	,	_	_
+3-15	250-258	eröffnet	_	_
+3-16	259-260	.	_	_
+
+#Text=Zum 15 .
+4-1	261-264	Zum	_	_
+4-2	265-267	15	*[2]	DATEmentioned[2]
+4-3	268-269	.	*[2]	DATEmentioned[2]
+
+#Text=Oktober wird es Paraden , Demonstrationen , Zweckessen geben , schwerlich viel Drangsal : nicht gemordet sollen wir werden , sondern zerbröckeln und zerfallen , Gott bessers !
+5-1	270-277	Oktober	*[2]	DATEmentioned[2]
+5-2	278-282	wird	_	_
+5-3	283-285	es	_	_
+5-4	286-293	Paraden	_	_
+5-5	294-295	,	_	_
+5-6	296-311	Demonstrationen	_	_
+5-7	312-313	,	_	_
+5-8	314-324	Zweckessen	_	_
+5-9	325-330	geben	_	_
+5-10	331-332	,	_	_
+5-11	333-343	schwerlich	_	_
+5-12	344-348	viel	_	_
+5-13	349-357	Drangsal	_	_
+5-14	358-359	:	_	_
+5-15	360-365	nicht	_	_
+5-16	366-374	gemordet	_	_
+5-17	375-381	sollen	_	_
+5-18	382-385	wir	_	_
+5-19	386-392	werden	_	_
+5-20	393-394	,	_	_
+5-21	395-402	sondern	_	_
+5-22	403-414	zerbröckeln	_	_
+5-23	415-418	und	_	_
+5-24	419-428	zerfallen	_	_
+5-25	429-430	,	_	_
+5-26	431-435	Gott	_	_
+5-27	436-443	bessers	_	_
+5-28	444-445	!	_	_
+
+#Text=Von gelehrten Dingen wüßte ich nichts hinzuzusetzen : Lepsius ist mit seinen Operationen wieder im Gang , im Museum werden die Gypse rüstig aufgestellt .
+6-1	446-449	Von	_	_
+6-2	450-459	gelehrten	_	_
+6-3	460-466	Dingen	_	_
+6-4	467-472	wüßte	_	_
+6-5	473-476	ich	_	_
+6-6	477-483	nichts	_	_
+6-7	484-497	hinzuzusetzen	_	_
+6-8	498-499	:	_	_
+6-9	500-507	Lepsius	*	PERmentioned
+6-10	508-511	ist	_	_
+6-11	512-515	mit	_	_
+6-12	516-522	seinen	_	_
+6-13	523-534	Operationen	_	_
+6-14	535-541	wieder	_	_
+6-15	542-544	im	_	_
+6-16	545-549	Gang	_	_
+6-17	550-551	,	_	_
+6-18	552-554	im	_	_
+6-19	555-561	Museum	*	ORGmentioned
+6-20	562-568	werden	_	_
+6-21	569-572	die	_	_
+6-22	573-578	Gypse	_	_
+6-23	579-585	rüstig	_	_
+6-24	586-597	aufgestellt	_	_
+6-25	598-599	.	_	_
+
+#Text=Meine Frau grüßt bestens .
+7-1	600-605	Meine	_	_
+7-2	606-610	Frau	_	_
+7-3	611-616	grüßt	_	_
+7-4	617-624	bestens	_	_
+7-5	625-626	.	_	_
+
+#Text=Der Ihrige Gerhard
+8-1	627-630	Der	_	_
+8-2	631-637	Ihrige	_	_
+8-3	638-645	Gerhard	*	PERauthor

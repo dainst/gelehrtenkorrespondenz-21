@@ -1,0 +1,150 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=132 Lepsius an Henzen Berlin , 16. März 1875 g . 20/3 75 r . 2/3 795 Berlin d . 16 .
+1-1	0-3	132	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	16.	*[1]	DATEletter[1]
+1-8	35-39	März	*[1]	DATEletter[1]
+1-9	40-44	1875	*[1]	DATEletter[1]
+1-10	45-46	g	_	_
+1-11	47-48	.	_	_
+1-12	49-53	20/3	*[2]	DATErecieved[2]
+1-13	54-56	75	*[2]	DATErecieved[2]
+1-14	57-58	r	_	_
+1-15	59-60	.	_	_
+1-16	61-64	2/3	*[3]	DATEanswered[3]
+1-17	65-68	795	*[3]	DATEanswered[3]
+1-18	69-75	Berlin	*	PLACEfrom
+1-19	76-77	d	_	_
+1-20	78-79	.	_	_
+1-21	80-82	16	*[4]	DATEletter[4]
+1-22	83-84	.	*[4]	DATEletter[4]
+
+#Text=Mz .
+2-1	85-87	Mz	*[4]	DATEletter[4]
+2-2	88-89	.	*[4]	DATEletter[4]
+
+#Text=71875 Verehrter Freund Ich erhielt heute Ihre Sendung durch das Auswärtige Amt .
+3-1	90-95	71875	*[4]	DATEletter[4]
+3-2	96-105	Verehrter	_	_
+3-3	106-112	Freund	_	_
+3-4	113-116	Ich	_	_
+3-5	117-124	erhielt	_	_
+3-6	125-130	heute	_	_
+3-7	131-135	Ihre	_	_
+3-8	136-143	Sendung	_	_
+3-9	144-149	durch	_	_
+3-10	150-153	das	_	_
+3-11	154-164	Auswärtige	*[5]	ORGmentioned[5]
+3-12	165-168	Amt	*[5]	ORGmentioned[5]
+3-13	169-170	.	_	_
+
+#Text=Die Urnentafeln werden der Generalversammlung vorgelegt werden und Brunn bei dieser Gelegenheit interpellirt .
+4-1	171-174	Die	_	_
+4-2	175-186	Urnentafeln	_	_
+4-3	187-193	werden	_	_
+4-4	194-197	der	_	_
+4-5	198-216	Generalversammlung	_	_
+4-6	217-226	vorgelegt	_	_
+4-7	227-233	werden	_	_
+4-8	234-237	und	_	_
+4-9	238-243	Brunn	*	PERmentioned
+4-10	244-247	bei	_	_
+4-11	248-254	dieser	_	_
+4-12	255-266	Gelegenheit	_	_
+4-13	267-279	interpellirt	_	_
+4-14	280-281	.	_	_
+
+#Text=An Mommsen ist das Übrige abgegeben worden .
+5-1	282-284	An	_	_
+5-2	285-292	Mommsen	*	PERmentioned
+5-3	293-296	ist	_	_
+5-4	297-300	das	_	_
+5-5	301-307	Übrige	_	_
+5-6	308-317	abgegeben	_	_
+5-7	318-324	worden	_	_
+5-8	325-326	.	_	_
+
+#Text=Ihre Rechnungen habe ich erhalten mit Ihrer Unterschrift und an die Kasse abgeliefert .
+6-1	327-331	Ihre	_	_
+6-2	332-342	Rechnungen	_	_
+6-3	343-347	habe	_	_
+6-4	348-351	ich	_	_
+6-5	352-360	erhalten	_	_
+6-6	361-364	mit	_	_
+6-7	365-370	Ihrer	_	_
+6-8	371-383	Unterschrift	_	_
+6-9	384-387	und	_	_
+6-10	388-390	an	_	_
+6-11	391-394	die	_	_
+6-12	395-400	Kasse	_	_
+6-13	401-412	abgeliefert	_	_
+6-14	413-414	.	_	_
+
+#Text=So eben geht mir vom Auswärtigen Amte die Anzeige zu , daß der Bundesrath unsre Vorschläge wegen Ihrer Pensionierung genehmigt hat .
+7-1	415-417	So	_	_
+7-2	418-422	eben	_	_
+7-3	423-427	geht	_	_
+7-4	428-431	mir	_	_
+7-5	432-435	vom	_	_
+7-6	436-447	Auswärtigen	*[6]	ORGmentioned[6]
+7-7	448-452	Amte	*[6]	ORGmentioned[6]
+7-8	453-456	die	_	_
+7-9	457-464	Anzeige	_	_
+7-10	465-467	zu	_	_
+7-11	468-469	,	_	_
+7-12	470-473	daß	_	_
+7-13	474-477	der	_	_
+7-14	478-488	Bundesrath	*	ORGmentioned
+7-15	489-494	unsre	_	_
+7-16	495-505	Vorschläge	_	_
+7-17	506-511	wegen	_	_
+7-18	512-517	Ihrer	_	_
+7-19	518-531	Pensionierung	_	_
+7-20	532-541	genehmigt	_	_
+7-21	542-545	hat	_	_
+7-22	546-547	.	_	_
+
+#Text=Vom beigelegten Beschlusse lege ich Ihnen eine Abschrift bei .
+8-1	548-551	Vom	_	_
+8-2	552-563	beigelegten	_	_
+8-3	564-574	Beschlusse	_	_
+8-4	575-579	lege	_	_
+8-5	580-583	ich	_	_
+8-6	584-589	Ihnen	_	_
+8-7	590-594	eine	_	_
+8-8	595-604	Abschrift	_	_
+8-9	605-608	bei	_	_
+8-10	609-610	.	_	_
+
+#Text=Es ist Alles mit viel Wohlwollen behandelt worden und Krüger ist für uns ein vorzügliches Vermittlungsglied .
+9-1	611-613	Es	_	_
+9-2	614-617	ist	_	_
+9-3	618-623	Alles	_	_
+9-4	624-627	mit	_	_
+9-5	628-632	viel	_	_
+9-6	633-643	Wohlwollen	_	_
+9-7	644-653	behandelt	_	_
+9-8	654-660	worden	_	_
+9-9	661-664	und	_	_
+9-10	665-671	Krüger	*	PERmentioned
+9-11	672-675	ist	_	_
+9-12	676-679	für	_	_
+9-13	680-683	uns	_	_
+9-14	684-687	ein	_	_
+9-15	688-700	vorzügliches	_	_
+9-16	701-718	Vermittlungsglied	_	_
+9-17	719-720	.	_	_
+
+#Text=Herzlich der Ihrige R Lepsius
+10-1	721-729	Herzlich	_	_
+10-2	730-733	der	_	_
+10-3	734-740	Ihrige	_	_
+10-4	741-742	R	*[7]	PERauthor[7]
+10-5	743-750	Lepsius	*[7]	PERauthor[7]

@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=136 Gerhard an Braun Berlin 29/1 % /1835 mit der Micali-Rec ! ” % ” ...
+1-1	0-3	136	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-32	29/1	*[4]	DATEletter[4]
+1-7	33-34	%	*[4]	DATEletter[4]
+1-8	35-40	/1835	*[4]	DATEletter[4]
+1-9	41-44	mit	_	_
+1-10	45-48	der	_	_
+1-11	49-59	Micali-Rec	_	_
+1-12	60-61	!	_	_
+1-13	62-63	”	_	_
+1-14	64-65	%	_	_
+1-15	66-67	”	_	_
+1-16	68-71	...	_	_
+
+#Text=Hat Canina noch nichtsüber die Sachen von Cividale aufgeschrieben ?
+2-1	72-75	Hat	_	_
+2-2	76-82	Canina	*	PERmentioned
+2-3	83-87	noch	_	_
+2-4	88-98	nichtsüber	_	_
+2-5	99-102	die	_	_
+2-6	103-109	Sachen	_	_
+2-7	110-113	von	_	_
+2-8	114-122	Cividale	*	PLACEmentioned
+2-9	123-137	aufgeschrieben	_	_
+2-10	138-139	?	_	_
+
+#Text=Etwas muß doch geantwortet werden .
+3-1	140-145	Etwas	_	_
+3-2	146-149	muß	_	_
+3-3	150-154	doch	_	_
+3-4	155-166	geantwortet	_	_
+3-5	167-173	werden	_	_
+3-6	174-175	.	_	_
+
+#Text=Daß Sie ernstlich für meine Spiegel besorgt sind , ist mir lieb \; für den schönen Achilles-Spiegel , der sonst bei Capranesi war , bin ich mit Ihnen eifrerstanden , daß er bis gegen 40 Scudi werth ist .
+4-1	176-179	Daß	_	_
+4-2	180-183	Sie	_	_
+4-3	184-193	ernstlich	_	_
+4-4	194-197	für	_	_
+4-5	198-203	meine	_	_
+4-6	204-211	Spiegel	_	_
+4-7	212-219	besorgt	_	_
+4-8	220-224	sind	_	_
+4-9	225-226	,	_	_
+4-10	227-230	ist	_	_
+4-11	231-234	mir	_	_
+4-12	235-239	lieb	_	_
+4-13	240-241	\;	_	_
+4-14	242-245	für	_	_
+4-15	246-249	den	_	_
+4-16	250-257	schönen	_	_
+4-17	258-274	Achilles-Spiegel	*	OBJ
+4-18	275-276	,	_	_
+4-19	277-280	der	_	_
+4-20	281-286	sonst	_	_
+4-21	287-290	bei	_	_
+4-22	291-300	Capranesi	*	PERmentioned
+4-23	301-304	war	_	_
+4-24	305-306	,	_	_
+4-25	307-310	bin	_	_
+4-26	311-314	ich	_	_
+4-27	315-318	mit	_	_
+4-28	319-324	Ihnen	_	_
+4-29	325-338	eifrerstanden	_	_
+4-30	339-340	,	_	_
+4-31	341-344	daß	_	_
+4-32	345-347	er	_	_
+4-33	348-351	bis	_	_
+4-34	352-357	gegen	_	_
+4-35	358-360	40	_	_
+4-36	361-366	Scudi	_	_
+4-37	367-372	werth	_	_
+4-38	373-376	ist	_	_
+4-39	377-378	.	_	_
+
+#Text=Sollten Campanari's uns mit dem Penthesilea-Spiegel untreu werden , so sind sie mir ein ähnliches Hauptstück schuldig , ehe es Durand gesehen .
+5-1	379-386	Sollten	_	_
+5-2	387-398	Campanari's	*	PERmentioned
+5-3	399-402	uns	_	_
+5-4	403-406	mit	_	_
+5-5	407-410	dem	_	_
+5-6	411-430	Penthesilea-Spiegel	*	OBJ
+5-7	431-437	untreu	_	_
+5-8	438-444	werden	_	_
+5-9	445-446	,	_	_
+5-10	447-449	so	_	_
+5-11	450-454	sind	_	_
+5-12	455-458	sie	_	_
+5-13	459-462	mir	_	_
+5-14	463-466	ein	_	_
+5-15	467-476	ähnliches	_	_
+5-16	477-487	Hauptstück	_	_
+5-17	488-496	schuldig	_	_
+5-18	497-498	,	_	_
+5-19	499-502	ehe	_	_
+5-20	503-505	es	_	_
+5-21	506-512	Durand	*	PERmentioned
+5-22	513-520	gesehen	_	_
+5-23	521-522	.	_	_
+
+#Text=Es wundert mich , von andern guten Spiegeln bei Vescovali , Basseggio u.s.w .
+6-1	523-525	Es	_	_
+6-2	526-533	wundert	_	_
+6-3	534-538	mich	_	_
+6-4	539-540	,	_	_
+6-5	541-544	von	_	_
+6-6	545-551	andern	_	_
+6-7	552-557	guten	_	_
+6-8	558-566	Spiegeln	*	OBJ
+6-9	567-570	bei	_	_
+6-10	571-580	Vescovali	*	PERmentioned
+6-11	581-582	,	_	_
+6-12	583-592	Basseggio	*	PERmentioned
+6-13	593-598	u.s.w	_	_
+6-14	599-600	.	_	_
+
+#Text=nichts neues zu vernehmen \; für schöne und merkwürdige Stücke dieser Art bin ich zu den Auslagen gern bereit .
+7-1	601-607	nichts	_	_
+7-2	608-613	neues	_	_
+7-3	614-616	zu	_	_
+7-4	617-626	vernehmen	_	_
+7-5	627-628	\;	_	_
+7-6	629-632	für	_	_
+7-7	633-639	schöne	_	_
+7-8	640-643	und	_	_
+7-9	644-655	merkwürdige	_	_
+7-10	656-662	Stücke	_	_
+7-11	663-669	dieser	_	_
+7-12	670-673	Art	_	_
+7-13	674-677	bin	_	_
+7-14	678-681	ich	_	_
+7-15	682-684	zu	_	_
+7-16	685-688	den	_	_
+7-17	689-697	Auslagen	_	_
+7-18	698-702	gern	_	_
+7-19	703-709	bereit	_	_
+7-20	710-711	.	_	_
+
+#Text=Es ist mir sehr lieb , daß die Spiegel des Prete gezeichnet sind .
+8-1	712-714	Es	_	_
+8-2	715-718	ist	_	_
+8-3	719-722	mir	_	_
+8-4	723-727	sehr	_	_
+8-5	728-732	lieb	_	_
+8-6	733-734	,	_	_
+8-7	735-738	daß	_	_
+8-8	739-742	die	_	_
+8-9	743-750	Spiegel	*	OBJ
+8-10	751-754	des	_	_
+8-11	755-760	Prete	*	PERmentioned
+8-12	761-771	gezeichnet	_	_
+8-13	772-776	sind	_	_
+8-14	777-778	.	_	_
+
+#Text=Sind die Sachen von Spagna jetzt ans Governo abgeliefert ?
+9-1	779-783	Sind	_	_
+9-2	784-787	die	_	_
+9-3	788-794	Sachen	_	_
+9-4	795-798	von	_	_
+9-5	799-805	Spagna	*	PERmentioned
+9-6	806-811	jetzt	_	_
+9-7	812-815	ans	_	_
+9-8	816-823	Governo	*	ORGmentioned
+9-9	824-835	abgeliefert	_	_
+9-10	836-837	?	_	_
+
+#Text=Den dort befindlichen Spiegel versprach mir Grigi zeichnen zu lassen , sobald er bei ihm im Hause wäre .
+10-1	838-841	Den	_	_
+10-2	842-846	dort	_	_
+10-3	847-859	befindlichen	_	_
+10-4	860-867	Spiegel	*	OBJ
+10-5	868-877	versprach	_	_
+10-6	878-881	mir	_	_
+10-7	882-887	Grigi	*	PERmentioned
+10-8	888-896	zeichnen	_	_
+10-9	897-899	zu	_	_
+10-10	900-906	lassen	_	_
+10-11	907-908	,	_	_
+10-12	909-915	sobald	_	_
+10-13	916-918	er	_	_
+10-14	919-922	bei	_	_
+10-15	923-926	ihm	_	_
+10-16	927-929	im	_	_
+10-17	930-935	Hause	_	_
+10-18	936-940	wäre	_	_
+10-19	941-942	.	_	_
+
+#Text=Sind Sie in keine Berührung mit diesem vielversprechenden und hochmögenden Laffen gekommen ?
+11-1	943-947	Sind	_	_
+11-2	948-951	Sie	_	_
+11-3	952-954	in	_	_
+11-4	955-960	keine	_	_
+11-5	961-970	Berührung	_	_
+11-6	971-974	mit	_	_
+11-7	975-981	diesem	_	_
+11-8	982-1000	vielversprechenden	_	_
+11-9	1001-1004	und	_	_
+11-10	1005-1017	hochmögenden	_	_
+11-11	1018-1024	Laffen	_	_
+11-12	1025-1033	gekommen	_	_
+11-13	1034-1035	?	_	_
+
+#Text=Undens Tod ( 21 Jan . )
+12-1	1036-1042	Undens	*	PERmentioned
+12-2	1043-1046	Tod	_	_
+12-3	1047-1048	(	_	_
+12-4	1049-1051	21	_	_
+12-5	1052-1055	Jan	_	_
+12-6	1056-1057	.	_	_
+12-7	1058-1059	)	_	_
+
+#Text=mögen Sie im Bullettino anzeigen \; sein längeres Leben in Italien und seine Abhandlungen über Etruskisches können , wenn Sie wollen , betont werden .
+13-1	1060-1065	mögen	_	_
+13-2	1066-1069	Sie	_	_
+13-3	1070-1072	im	_	_
+13-4	1073-1083	Bullettino	_	_
+13-5	1084-1092	anzeigen	_	_
+13-6	1093-1094	\;	_	_
+13-7	1095-1099	sein	_	_
+13-8	1100-1108	längeres	_	_
+13-9	1109-1114	Leben	_	_
+13-10	1115-1117	in	_	_
+13-11	1118-1125	Italien	*	PLACEmentioned
+13-12	1126-1129	und	_	_
+13-13	1130-1135	seine	_	_
+13-14	1136-1148	Abhandlungen	_	_
+13-15	1149-1153	über	_	_
+13-16	1154-1166	Etruskisches	_	_
+13-17	1167-1173	können	_	_
+13-18	1174-1175	,	_	_
+13-19	1176-1180	wenn	_	_
+13-20	1181-1184	Sie	_	_
+13-21	1185-1191	wollen	_	_
+13-22	1192-1193	,	_	_
+13-23	1194-1200	betont	_	_
+13-24	1201-1207	werden	_	_
+13-25	1208-1209	.	_	_
+
+#Text=Er war stark verschuldet \; seine Bibliothek soll der Königl .
+14-1	1210-1212	Er	_	_
+14-2	1213-1216	war	_	_
+14-3	1217-1222	stark	_	_
+14-4	1223-1234	verschuldet	_	_
+14-5	1235-1236	\;	_	_
+14-6	1237-1242	seine	_	_
+14-7	1243-1253	Bibliothek	*	ORGmentioned
+14-8	1254-1258	soll	_	_
+14-9	1259-1262	der	_	_
+14-10	1263-1269	Königl	*	PERmentioned
+14-11	1270-1271	.	_	_
+
+#Text=bereits verfallen seyn .
+15-1	1272-1279	bereits	_	_
+15-2	1280-1289	verfallen	_	_
+15-3	1290-1294	seyn	_	_
+15-4	1295-1296	.	_	_
+
+#Text=Ein Stadtgerücht befördert Böckh ins Ministerium .
+16-1	1297-1300	Ein	_	_
+16-2	1301-1313	Stadtgerücht	_	_
+16-3	1314-1323	befördert	_	_
+16-4	1324-1329	Böckh	*	PERmentioned
+16-5	1330-1333	ins	_	_
+16-6	1334-1345	Ministerium	*	ORGmentioned
+16-7	1346-1347	.	_	_
+
+#Text=I\_hr Fheumso\| Gerhard
+17-1	1348-1352	I\_hr	_	_
+17-2	1353-1361	Fheumso\|	_	_
+17-3	1362-1369	Gerhard	_	_

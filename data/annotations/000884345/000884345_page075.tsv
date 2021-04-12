@@ -1,0 +1,276 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\\f Kauft .
+1-1	0-2	\\f	_	_
+1-2	3-8	Kauft	_	_
+1-3	9-10	.	_	_
+
+#Text=Bunsen an Gerhand Rom , 5. März 1834 Rom 5 März 1834 So eben erhalte ich Ihren Brief .
+2-1	11-17	Bunsen	*	PERauthor
+2-2	18-20	an	_	_
+2-3	21-28	Gerhand	_	_
+2-4	29-32	Rom	*	PLACEfrom
+2-5	33-34	,	_	_
+2-6	35-37	5.	*[3]	DATEletter[3]
+2-7	38-42	März	*[3]	DATEletter[3]
+2-8	43-47	1834	*[3]	DATEletter[3]
+2-9	48-51	Rom	*	PLACEfrom
+2-10	52-53	5	*[5]	DATEletter[5]
+2-11	54-58	März	*[5]	DATEletter[5]
+2-12	59-63	1834	*[5]	DATEletter[5]
+2-13	64-66	So	_	_
+2-14	67-71	eben	_	_
+2-15	72-79	erhalte	_	_
+2-16	80-83	ich	_	_
+2-17	84-89	Ihren	_	_
+2-18	90-95	Brief	_	_
+2-19	96-97	.	_	_
+
+#Text=Es ist schade daß Layard ausscheidet : ich hatte es aber gedacht , daß es so kommen werde .
+3-1	98-100	Es	_	_
+3-2	101-104	ist	_	_
+3-3	105-111	schade	_	_
+3-4	112-115	daß	_	_
+3-5	116-122	Layard	*[6]	PERmentioned[6]
+3-6	123-134	ausscheidet	*[6]	PERmentioned[6]
+3-7	135-136	:	_	_
+3-8	137-140	ich	_	_
+3-9	141-146	hatte	_	_
+3-10	147-149	es	_	_
+3-11	150-154	aber	_	_
+3-12	155-162	gedacht	_	_
+3-13	163-164	,	_	_
+3-14	165-168	daß	_	_
+3-15	169-171	es	_	_
+3-16	172-174	so	_	_
+3-17	175-181	kommen	_	_
+3-18	182-187	werde	_	_
+3-19	188-189	.	_	_
+
+#Text=Meine Frau dankt mit herzlichem Händedruck für Ihre treue , ihr so wohlthuhendeX Liebe .
+4-1	190-195	Meine	_	_
+4-2	196-200	Frau	_	_
+4-3	201-206	dankt	_	_
+4-4	207-210	mit	_	_
+4-5	211-221	herzlichem	_	_
+4-6	222-232	Händedruck	_	_
+4-7	233-236	für	_	_
+4-8	237-241	Ihre	_	_
+4-9	242-247	treue	_	_
+4-10	248-249	,	_	_
+4-11	250-253	ihr	_	_
+4-12	254-256	so	_	_
+4-13	257-270	wohlthuhendeX	_	_
+4-14	271-276	Liebe	_	_
+4-15	277-278	.	_	_
+
+#Text=Ich bin Ihnen , liebster Freund , lange meinen Dank für viele Briefe und Antwort schuldig geblieben .
+5-1	279-282	Ich	_	_
+5-2	283-286	bin	_	_
+5-3	287-292	Ihnen	_	_
+5-4	293-294	,	_	_
+5-5	295-303	liebster	_	_
+5-6	304-310	Freund	_	_
+5-7	311-312	,	_	_
+5-8	313-318	lange	_	_
+5-9	319-325	meinen	_	_
+5-10	326-330	Dank	_	_
+5-11	331-334	für	_	_
+5-12	335-340	viele	_	_
+5-13	341-347	Briefe	_	_
+5-14	348-351	und	_	_
+5-15	352-359	Antwort	_	_
+5-16	360-368	schuldig	_	_
+5-17	369-378	geblieben	_	_
+5-18	379-380	.	_	_
+
+#Text=Ihre Güte und Nachsicht wird mich entschuldigen .
+6-1	381-385	Ihre	_	_
+6-2	386-390	Güte	_	_
+6-3	391-394	und	_	_
+6-4	395-404	Nachsicht	_	_
+6-5	405-409	wird	_	_
+6-6	410-414	mich	_	_
+6-7	415-428	entschuldigen	_	_
+6-8	429-430	.	_	_
+
+#Text=Für das Institut bin ich namentlich unterdessen nicht unthätig gewesen .
+7-1	431-434	Für	_	_
+7-2	435-438	das	_	_
+7-3	439-447	Institut	*	ORGmentioned
+7-4	448-451	bin	_	_
+7-5	452-455	ich	_	_
+7-6	456-466	namentlich	_	_
+7-7	467-478	unterdessen	_	_
+7-8	479-484	nicht	_	_
+7-9	485-493	unthätig	_	_
+7-10	494-501	gewesen	_	_
+7-11	502-503	.	_	_
+
+#Text=Der Plan vom Forum ist halb gestochen .
+8-1	504-507	Der	_	_
+8-2	508-512	Plan	_	_
+8-3	513-516	vom	_	_
+8-4	517-522	Forum	*	OBJ
+8-5	523-526	ist	_	_
+8-6	527-531	halb	_	_
+8-7	532-541	gestochen	_	_
+8-8	542-543	.	_	_
+
+#Text=Ich eile heute auf das Dringlichste zu antworten .
+9-1	544-547	Ich	_	_
+9-2	548-552	eile	_	_
+9-3	553-558	heute	_	_
+9-4	559-562	auf	_	_
+9-5	563-566	das	_	_
+9-6	567-579	Dringlichste	_	_
+9-7	580-582	zu	_	_
+9-8	583-592	antworten	_	_
+9-9	593-594	.	_	_
+
+#Text=So leid es mir thut , Ihnen und Panofka in irgend einer Instituts Angelegenheit nicht beistimmen zu können \; so sehe ich mich doch , nach reiflichster Überlegung , wie auch nach Besprechung mit Kestner , der ganz meine Ansicht theilt , außer Stande , das uns zugeschickte Blatt zu unterzeichnen .
+10-1	595-597	So	_	_
+10-2	598-602	leid	_	_
+10-3	603-605	es	_	_
+10-4	606-609	mir	_	_
+10-5	610-614	thut	_	_
+10-6	615-616	,	_	_
+10-7	617-622	Ihnen	_	_
+10-8	623-626	und	_	_
+10-9	627-634	Panofka	*	PERmentioned
+10-10	635-637	in	_	_
+10-11	638-644	irgend	_	_
+10-12	645-650	einer	_	_
+10-13	651-660	Instituts	*	ORGmentioned
+10-14	661-674	Angelegenheit	_	_
+10-15	675-680	nicht	_	_
+10-16	681-691	beistimmen	_	_
+10-17	692-694	zu	_	_
+10-18	695-701	können	_	_
+10-19	702-703	\;	_	_
+10-20	704-706	so	_	_
+10-21	707-711	sehe	_	_
+10-22	712-715	ich	_	_
+10-23	716-720	mich	_	_
+10-24	721-725	doch	_	_
+10-25	726-727	,	_	_
+10-26	728-732	nach	_	_
+10-27	733-745	reiflichster	_	_
+10-28	746-756	Überlegung	_	_
+10-29	757-758	,	_	_
+10-30	759-762	wie	_	_
+10-31	763-767	auch	_	_
+10-32	768-772	nach	_	_
+10-33	773-784	Besprechung	_	_
+10-34	785-788	mit	_	_
+10-35	789-796	Kestner	*	PERmentioned
+10-36	797-798	,	_	_
+10-37	799-802	der	_	_
+10-38	803-807	ganz	_	_
+10-39	808-813	meine	_	_
+10-40	814-821	Ansicht	_	_
+10-41	822-828	theilt	_	_
+10-42	829-830	,	_	_
+10-43	831-836	außer	_	_
+10-44	837-843	Stande	_	_
+10-45	844-845	,	_	_
+10-46	846-849	das	_	_
+10-47	850-853	uns	_	_
+10-48	854-866	zugeschickte	_	_
+10-49	867-872	Blatt	_	_
+10-50	873-875	zu	_	_
+10-51	876-889	unterzeichnen	_	_
+10-52	890-891	.	_	_
+
+#Text=Vielmehr muß ich mir erlauben , dagegen meine dringlichste Einwendung vorzubringen .
+11-1	892-900	Vielmehr	_	_
+11-2	901-904	muß	_	_
+11-3	905-908	ich	_	_
+11-4	909-912	mir	_	_
+11-5	913-921	erlauben	_	_
+11-6	922-923	,	_	_
+11-7	924-931	dagegen	_	_
+11-8	932-937	meine	_	_
+11-9	938-950	dringlichste	_	_
+11-10	951-961	Einwendung	_	_
+11-11	962-974	vorzubringen	_	_
+11-12	975-976	.	_	_
+
+#Text=Ich kann nirgends finden , daß den Secretären zugesicherte Honorare etwas anderes seien als eben Honorare , d. h. Honorirung gelieferter Arbeiten .
+12-1	977-980	Ich	_	_
+12-2	981-985	kann	_	_
+12-3	986-994	nirgends	_	_
+12-4	995-1001	finden	_	_
+12-5	1002-1003	,	_	_
+12-6	1004-1007	daß	_	_
+12-7	1008-1011	den	_	_
+12-8	1012-1022	Secretären	_	_
+12-9	1023-1035	zugesicherte	_	_
+12-10	1036-1044	Honorare	_	_
+12-11	1045-1050	etwas	_	_
+12-12	1051-1058	anderes	_	_
+12-13	1059-1064	seien	_	_
+12-14	1065-1068	als	_	_
+12-15	1069-1073	eben	_	_
+12-16	1074-1082	Honorare	_	_
+12-17	1083-1084	,	_	_
+12-18	1085-1087	d.	_	_
+12-19	1088-1090	h.	_	_
+12-20	1091-1101	Honorirung	_	_
+12-21	1102-1113	gelieferter	_	_
+12-22	1114-1122	Arbeiten	_	_
+12-23	1123-1124	.	_	_
+
+#Text=Halten wir dieses nicht fest , so wird das Institut eine Privat Speculation , ein Kapital aus welchen die Stifter gewisse Renten ziehn .
+13-1	1125-1131	Halten	_	_
+13-2	1132-1135	wir	_	_
+13-3	1136-1142	dieses	_	_
+13-4	1143-1148	nicht	_	_
+13-5	1149-1153	fest	_	_
+13-6	1154-1155	,	_	_
+13-7	1156-1158	so	_	_
+13-8	1159-1163	wird	_	_
+13-9	1164-1167	das	_	_
+13-10	1168-1176	Institut	*	ORGmentioned
+13-11	1177-1181	eine	_	_
+13-12	1182-1188	Privat	_	_
+13-13	1189-1200	Speculation	_	_
+13-14	1201-1202	,	_	_
+13-15	1203-1206	ein	_	_
+13-16	1207-1214	Kapital	_	_
+13-17	1215-1218	aus	_	_
+13-18	1219-1226	welchen	_	_
+13-19	1227-1230	die	_	_
+13-20	1231-1238	Stifter	_	_
+13-21	1239-1246	gewisse	_	_
+13-22	1247-1253	Renten	_	_
+13-23	1254-1259	ziehn	_	_
+13-24	1260-1261	.	_	_
+
+#Text=Ich weiß , daß dies nicht Ihre Ansicht ist , allein die Folgerung ist unabweisbar : ebenso daß das Institut alsdann zu Grunde gehen
+14-1	1262-1265	Ich	_	_
+14-2	1266-1270	weiß	_	_
+14-3	1271-1272	,	_	_
+14-4	1273-1276	daß	_	_
+14-5	1277-1281	dies	_	_
+14-6	1282-1287	nicht	_	_
+14-7	1288-1292	Ihre	_	_
+14-8	1293-1300	Ansicht	_	_
+14-9	1301-1304	ist	_	_
+14-10	1305-1306	,	_	_
+14-11	1307-1313	allein	_	_
+14-12	1314-1317	die	_	_
+14-13	1318-1327	Folgerung	_	_
+14-14	1328-1331	ist	_	_
+14-15	1332-1343	unabweisbar	_	_
+14-16	1344-1345	:	_	_
+14-17	1346-1352	ebenso	_	_
+14-18	1353-1356	daß	_	_
+14-19	1357-1360	das	_	_
+14-20	1361-1369	Institut	*	ORGmentioned
+14-21	1370-1377	alsdann	_	_
+14-22	1378-1380	zu	_	_
+14-23	1381-1387	Grunde	_	_
+14-24	1388-1393	gehen	_	_

@@ -1,0 +1,235 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Achern , 7 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Achern	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	7	*[1]	DATEletter[1]
+1-7	28-29	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1873 tentafeln capuaner Wandgemälde in den Riß ein .
+2-1	30-37	Oktober	*[1]	DATEletter[1]
+2-2	38-42	1873	*[1]	DATEletter[1]
+2-3	43-52	tentafeln	_	_
+2-4	53-61	capuaner	*[2]	OBJ[2]
+2-5	62-73	Wandgemälde	*[2]	OBJ[2]
+2-6	74-76	in	_	_
+2-7	77-80	den	_	_
+2-8	81-84	Riß	_	_
+2-9	85-88	ein	_	_
+2-10	89-90	.	_	_
+
+#Text=Wenige Worte genügen zur Erläuterung derselben und die Publication dieser Tafeln wird eine zweckmäßige Varietät in das Monumentenheft bringen .
+3-1	91-97	Wenige	_	_
+3-2	98-103	Worte	_	_
+3-3	104-111	genügen	_	_
+3-4	112-115	zur	_	_
+3-5	116-127	Erläuterung	_	_
+3-6	128-137	derselben	_	_
+3-7	138-141	und	_	_
+3-8	142-145	die	_	_
+3-9	146-157	Publication	_	_
+3-10	158-164	dieser	_	_
+3-11	165-171	Tafeln	_	_
+3-12	172-176	wird	_	_
+3-13	177-181	eine	_	_
+3-14	182-193	zweckmäßige	_	_
+3-15	194-202	Varietät	_	_
+3-16	203-205	in	_	_
+3-17	206-209	das	_	_
+3-18	210-224	Monumentenheft	_	_
+3-19	225-232	bringen	_	_
+3-20	233-234	.	_	_
+
+#Text=Michaelis hat in London das Nereidenmonument zeichnen lassen und bietet uns dasselbe zur Publication an .
+4-1	235-244	Michaelis	*	PERmentioned
+4-2	245-248	hat	_	_
+4-3	249-251	in	_	_
+4-4	252-258	London	*	PLACEmentioned
+4-5	259-262	das	_	_
+4-6	263-279	Nereidenmonument	*	OBJ
+4-7	280-288	zeichnen	_	_
+4-8	289-295	lassen	_	_
+4-9	296-299	und	_	_
+4-10	300-306	bietet	_	_
+4-11	307-310	uns	_	_
+4-12	311-319	dasselbe	_	_
+4-13	320-323	zur	_	_
+4-14	324-335	Publication	_	_
+4-15	336-338	an	_	_
+4-16	339-340	.	_	_
+
+#Text=Er sowohl wie Matz erklären die Zeichnungen für sehr Gelungen .
+5-1	341-343	Er	_	_
+5-2	344-350	sowohl	_	_
+5-3	351-354	wie	_	_
+5-4	355-359	Matz	*	PERmentioned
+5-5	360-368	erklären	_	_
+5-6	369-372	die	_	_
+5-7	373-384	Zeichnungen	_	_
+5-8	385-388	für	_	_
+5-9	389-393	sehr	_	_
+5-10	394-402	Gelungen	_	_
+5-11	403-404	.	_	_
+
+#Text=Es kann uns demnach sein Anerbieten nur erwünscht sein .
+6-1	405-407	Es	_	_
+6-2	408-412	kann	_	_
+6-3	413-416	uns	_	_
+6-4	417-424	demnach	_	_
+6-5	425-429	sein	_	_
+6-6	430-440	Anerbieten	_	_
+6-7	441-444	nur	_	_
+6-8	445-454	erwünscht	_	_
+6-9	455-459	sein	_	_
+6-10	460-461	.	_	_
+
+#Text=Bei der Festadunanz denke ich über homerische Kunst zu lesen , über welche ich durch Untersuchung der Vasi di Buchero unverhoffte Lichtpunkte gewonnen .
+7-1	462-465	Bei	_	_
+7-2	466-469	der	_	_
+7-3	470-481	Festadunanz	_	_
+7-4	482-487	denke	_	_
+7-5	488-491	ich	_	_
+7-6	492-496	über	_	_
+7-7	497-507	homerische	_	_
+7-8	508-513	Kunst	_	_
+7-9	514-516	zu	_	_
+7-10	517-522	lesen	_	_
+7-11	523-524	,	_	_
+7-12	525-529	über	_	_
+7-13	530-536	welche	_	_
+7-14	537-540	ich	_	_
+7-15	541-546	durch	_	_
+7-16	547-559	Untersuchung	_	_
+7-17	560-563	der	_	_
+7-18	564-568	Vasi	*[3]	OBJ[3]
+7-19	569-571	di	*[3]	OBJ[3]
+7-20	572-579	Buchero	*[3]	OBJ[3]
+7-21	580-591	unverhoffte	_	_
+7-22	592-603	Lichtpunkte	_	_
+7-23	604-612	gewonnen	_	_
+7-24	613-614	.	_	_
+
+#Text=Leider ist die Monumentengattung sehr vernachlässigt und sehr wenig aus diesem Gebiete publicirt .
+8-1	615-621	Leider	_	_
+8-2	622-625	ist	_	_
+8-3	626-629	die	_	_
+8-4	630-647	Monumentengattung	_	_
+8-5	648-652	sehr	_	_
+8-6	653-667	vernachlässigt	_	_
+8-7	668-671	und	_	_
+8-8	672-676	sehr	_	_
+8-9	677-682	wenig	_	_
+8-10	683-686	aus	_	_
+8-11	687-693	diesem	_	_
+8-12	694-701	Gebiete	_	_
+8-13	702-711	publicirt	_	_
+8-14	712-713	.	_	_
+
+#Text=Hätten Sie etwas dagegen Mariani etwa zwischen den 25. und 30 .
+9-1	714-720	Hätten	_	_
+9-2	721-724	Sie	_	_
+9-3	725-730	etwas	_	_
+9-4	731-738	dagegen	_	_
+9-5	739-746	Mariani	*	PERmentioned
+9-6	747-751	etwa	_	_
+9-7	752-760	zwischen	_	_
+9-8	761-764	den	_	_
+9-9	765-768	25.	*	DATEmentioned
+9-10	769-772	und	_	_
+9-11	773-775	30	*[4]	DATEmentioned[4]
+9-12	776-777	.	*[4]	DATEmentioned[4]
+
+#Text=October nach Florenz zu schicken ?
+10-1	778-785	October	*[4]	DATEmentioned[4]
+10-2	786-790	nach	_	_
+10-3	791-798	Florenz	*	PLACEmentioned
+10-4	799-801	zu	_	_
+10-5	802-810	schicken	_	_
+10-6	811-812	?	_	_
+
+#Text=Ich könnte ihm dann auf der Durchreise die zu copirenden Exemplare und den Standpunkt , von welchem sie aufzunehmen sind , bezeichnen .
+11-1	813-816	Ich	_	_
+11-2	817-823	könnte	_	_
+11-3	824-827	ihm	_	_
+11-4	828-832	dann	_	_
+11-5	833-836	auf	_	_
+11-6	837-840	der	_	_
+11-7	841-851	Durchreise	_	_
+11-8	852-855	die	_	_
+11-9	856-858	zu	_	_
+11-10	859-869	copirenden	_	_
+11-11	870-879	Exemplare	_	_
+11-12	880-883	und	_	_
+11-13	884-887	den	_	_
+11-14	888-898	Standpunkt	_	_
+11-15	899-900	,	_	_
+11-16	901-904	von	_	_
+11-17	905-912	welchem	_	_
+11-18	913-916	sie	_	_
+11-19	917-928	aufzunehmen	_	_
+11-20	929-933	sind	_	_
+11-21	934-935	,	_	_
+11-22	936-946	bezeichnen	_	_
+11-23	947-948	.	_	_
+
+#Text=Die betreffenden Exemplare würden eine Monumententafel füllen und ich könnte dieselbe in den Annali mit kurzen Bemerkungen begleiten .
+12-1	949-952	Die	_	_
+12-2	953-965	betreffenden	_	_
+12-3	966-975	Exemplare	_	_
+12-4	976-982	würden	_	_
+12-5	983-987	eine	_	_
+12-6	988-1003	Monumententafel	_	_
+12-7	1004-1010	füllen	_	_
+12-8	1011-1014	und	_	_
+12-9	1015-1018	ich	_	_
+12-10	1019-1025	könnte	_	_
+12-11	1026-1034	dieselbe	_	_
+12-12	1035-1037	in	_	_
+12-13	1038-1041	den	_	_
+12-14	1042-1048	Annali	_	_
+12-15	1049-1052	mit	_	_
+12-16	1053-1059	kurzen	_	_
+12-17	1060-1071	Bemerkungen	_	_
+12-18	1072-1081	begleiten	_	_
+12-19	1082-1083	.	_	_
+
+#Text=Die Behandlung in größerem Zusammenhange würde in einem besonderen Buche erfolgen .
+13-1	1084-1087	Die	_	_
+13-2	1088-1098	Behandlung	_	_
+13-3	1099-1101	in	_	_
+13-4	1102-1110	größerem	_	_
+13-5	1111-1124	Zusammenhange	_	_
+13-6	1125-1130	würde	_	_
+13-7	1131-1133	in	_	_
+13-8	1134-1139	einem	_	_
+13-9	1140-1150	besonderen	_	_
+13-10	1151-1156	Buche	_	_
+13-11	1157-1165	erfolgen	_	_
+13-12	1166-1167	.	_	_
+
+#Text=Herzliche Grüße an Fräulein Kopf , Zangemeister , Klügmann !
+14-1	1168-1177	Herzliche	_	_
+14-2	1178-1183	Grüße	_	_
+14-3	1184-1186	an	_	_
+14-4	1187-1195	Fräulein	_	_
+14-5	1196-1200	Kopf	*	PERmentioned
+14-6	1201-1202	,	_	_
+14-7	1203-1215	Zangemeister	*	PERmentioned
+14-8	1216-1217	,	_	_
+14-9	1218-1226	Klügmann	*	PERmentioned
+14-10	1227-1228	!	_	_
+
+#Text=DBaldigst Weiteres !
+15-1	1229-1238	DBaldigst	_	_
+15-2	1239-1247	Weiteres	_	_
+15-3	1248-1249	!	_	_
+
+#Text=Ihr ergebener Helbig
+16-1	1250-1253	Ihr	_	_
+16-2	1254-1263	ergebener	_	_
+16-3	1264-1270	Helbig	*	PERauthor

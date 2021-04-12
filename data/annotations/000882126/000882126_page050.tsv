@@ -1,0 +1,290 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , November 1835 - 10 - nender zur Anschuung zu bringen .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	*[5]	DATEletter[5]
+1-6	23-31	November	*[5]	DATEletter[5]
+1-7	32-36	1835	*[5]	DATEletter[5]
+1-8	37-38	-	_	_
+1-9	39-41	10	_	_
+1-10	42-43	-	_	_
+1-11	44-50	nender	_	_
+1-12	51-54	zur	_	_
+1-13	55-64	Anschuung	_	_
+1-14	65-67	zu	_	_
+1-15	68-75	bringen	_	_
+1-16	76-77	.	_	_
+
+#Text=( Fortsetzung folgt . )
+2-1	78-79	(	_	_
+2-2	80-91	Fortsetzung	_	_
+2-3	92-97	folgt	_	_
+2-4	98-99	.	_	_
+2-5	100-101	)	_	_
+
+#Text=Die Darstellung des erwähnten Spiegels scheint der Nekromantie des Homer wörtlich .
+3-1	102-105	Die	_	_
+3-2	106-117	Darstellung	_	_
+3-3	118-121	des	_	_
+3-4	122-131	erwähnten	_	_
+3-5	132-140	Spiegels	*	OBJ
+3-6	141-148	scheint	_	_
+3-7	149-152	der	_	_
+3-8	153-164	Nekromantie	_	_
+3-9	165-168	des	_	_
+3-10	169-174	Homer	*	PERmentioned
+3-11	175-183	wörtlich	_	_
+3-12	184-185	.	_	_
+
+#Text=entnommen .
+4-1	186-195	entnommen	_	_
+4-2	196-197	.	_	_
+
+#Text=Odysseus , durch die Beischrift Tthoxe ( VO V-IE ) unverkennbar , hat sich auf einen Sessel niedergelassen , das entblößte Schwert in der Rechten und seine Scheide in der Linken haltend .
+5-1	198-206	Odysseus	*	PERmentioned
+5-2	207-208	,	_	_
+5-3	209-214	durch	_	_
+5-4	215-218	die	_	_
+5-5	219-229	Beischrift	_	_
+5-6	230-236	Tthoxe	_	_
+5-7	237-238	(	_	_
+5-8	239-241	VO	_	_
+5-9	242-246	V-IE	_	_
+5-10	247-248	)	_	_
+5-11	249-261	unverkennbar	_	_
+5-12	262-263	,	_	_
+5-13	264-267	hat	_	_
+5-14	268-272	sich	_	_
+5-15	273-276	auf	_	_
+5-16	277-282	einen	_	_
+5-17	283-289	Sessel	_	_
+5-18	290-304	niedergelassen	_	_
+5-19	305-306	,	_	_
+5-20	307-310	das	_	_
+5-21	311-320	entblößte	_	_
+5-22	321-328	Schwert	_	_
+5-23	329-331	in	_	_
+5-24	332-335	der	_	_
+5-25	336-343	Rechten	_	_
+5-26	344-347	und	_	_
+5-27	348-353	seine	_	_
+5-28	354-361	Scheide	_	_
+5-29	362-364	in	_	_
+5-30	365-368	der	_	_
+5-31	369-375	Linken	_	_
+5-32	376-383	haltend	_	_
+5-33	384-385	.	_	_
+
+#Text=Hermes als psychopomp , ebenfalls durch Inschrift bezeichnet hat ihm einen Schatten zugeführt , dem der Held von Ithaka mit ungetheilter Aufmerksamkeit entgegenlauscht , und dieser Schatten ist der des Tiresias wie eine dritte Inschrift in gleicher Weise lehrt .
+6-1	386-392	Hermes	*	PERmentioned
+6-2	393-396	als	_	_
+6-3	397-407	psychopomp	_	_
+6-4	408-409	,	_	_
+6-5	410-419	ebenfalls	_	_
+6-6	420-425	durch	_	_
+6-7	426-435	Inschrift	_	_
+6-8	436-446	bezeichnet	_	_
+6-9	447-450	hat	_	_
+6-10	451-454	ihm	_	_
+6-11	455-460	einen	_	_
+6-12	461-469	Schatten	_	_
+6-13	470-479	zugeführt	_	_
+6-14	480-481	,	_	_
+6-15	482-485	dem	_	_
+6-16	486-489	der	_	_
+6-17	490-494	Held	*[6]	PERmentioned[6]
+6-18	495-498	von	*[6]	PERmentioned[6]
+6-19	499-505	Ithaka	*[6]	PERmentioned[6]
+6-20	506-509	mit	_	_
+6-21	510-522	ungetheilter	_	_
+6-22	523-537	Aufmerksamkeit	_	_
+6-23	538-553	entgegenlauscht	_	_
+6-24	554-555	,	_	_
+6-25	556-559	und	_	_
+6-26	560-566	dieser	_	_
+6-27	567-575	Schatten	_	_
+6-28	576-579	ist	_	_
+6-29	580-583	der	_	_
+6-30	584-587	des	_	_
+6-31	588-596	Tiresias	*	PERmentioned
+6-32	597-600	wie	_	_
+6-33	601-605	eine	_	_
+6-34	606-612	dritte	_	_
+6-35	613-622	Inschrift	_	_
+6-36	623-625	in	_	_
+6-37	626-634	gleicher	_	_
+6-38	635-640	Weise	_	_
+6-39	641-646	lehrt	_	_
+6-40	647-648	.	_	_
+
+#Text=Er ist jugendlich d. h. ohne Bart , mit Stirnbinde , langem Gewand und Stab dargestellt .
+7-1	649-651	Er	_	_
+7-2	652-655	ist	_	_
+7-3	656-666	jugendlich	_	_
+7-4	667-669	d.	_	_
+7-5	670-672	h.	_	_
+7-6	673-677	ohne	_	_
+7-7	678-682	Bart	_	_
+7-8	683-684	,	_	_
+7-9	685-688	mit	_	_
+7-10	689-699	Stirnbinde	_	_
+7-11	700-701	,	_	_
+7-12	702-708	langem	_	_
+7-13	709-715	Gewand	_	_
+7-14	716-719	und	_	_
+7-15	720-724	Stab	_	_
+7-16	725-736	dargestellt	_	_
+7-17	737-738	.	_	_
+
+#Text=Den Stab , dessen bei Homer ausdrückliche Erwähnung geschieht , hat er unter dem Arm gesetzt und so den übergeneigten Körper gestützt .
+8-1	739-742	Den	_	_
+8-2	743-747	Stab	_	_
+8-3	748-749	,	_	_
+8-4	750-756	dessen	_	_
+8-5	757-760	bei	_	_
+8-6	761-766	Homer	_	_
+8-7	767-780	ausdrückliche	_	_
+8-8	781-790	Erwähnung	_	_
+8-9	791-800	geschieht	_	_
+8-10	801-802	,	_	_
+8-11	803-806	hat	_	_
+8-12	807-809	er	_	_
+8-13	810-815	unter	_	_
+8-14	816-819	dem	_	_
+8-15	820-823	Arm	_	_
+8-16	824-831	gesetzt	_	_
+8-17	832-835	und	_	_
+8-18	836-838	so	_	_
+8-19	839-842	den	_	_
+8-20	843-856	übergeneigten	_	_
+8-21	857-863	Körper	_	_
+8-22	864-872	gestützt	_	_
+8-23	873-874	.	_	_
+
+#Text=Seine Stellung zeigt von tiefem sinnvollen Nachdenken .
+9-1	875-880	Seine	_	_
+9-2	881-889	Stellung	_	_
+9-3	890-895	zeigt	_	_
+9-4	896-899	von	_	_
+9-5	900-906	tiefem	_	_
+9-6	907-917	sinnvollen	_	_
+9-7	918-928	Nachdenken	_	_
+9-8	929-930	.	_	_
+
+#Text=Die Augen des Sehers sind geschlossen .
+10-1	931-934	Die	_	_
+10-2	935-940	Augen	_	_
+10-3	941-944	des	_	_
+10-4	945-951	Sehers	_	_
+10-5	952-956	sind	_	_
+10-6	957-968	geschlossen	_	_
+10-7	969-970	.	_	_
+
+#Text=- Was die Darstellung betrifft , so kann dieses Monument den schönsten seiner Art beigezählt werden .
+11-1	971-972	-	_	_
+11-2	973-976	Was	_	_
+11-3	977-980	die	_	_
+11-4	981-992	Darstellung	_	_
+11-5	993-1001	betrifft	_	_
+11-6	1002-1003	,	_	_
+11-7	1004-1006	so	_	_
+11-8	1007-1011	kann	_	_
+11-9	1012-1018	dieses	*[7]	OBJ[7]
+11-10	1019-1027	Monument	*[7]	OBJ[7]
+11-11	1028-1031	den	_	_
+11-12	1032-1041	schönsten	_	_
+11-13	1042-1048	seiner	_	_
+11-14	1049-1052	Art	_	_
+11-15	1053-1063	beigezählt	_	_
+11-16	1064-1070	werden	_	_
+11-17	1071-1072	.	_	_
+
+#Text=Die Zeichnung ist fein , die Composizion einfach und die Motive trefflich gewählt .
+12-1	1073-1076	Die	_	_
+12-2	1077-1086	Zeichnung	_	_
+12-3	1087-1090	ist	_	_
+12-4	1091-1095	fein	_	_
+12-5	1096-1097	,	_	_
+12-6	1098-1101	die	_	_
+12-7	1102-1113	Composizion	_	_
+12-8	1114-1121	einfach	_	_
+12-9	1122-1125	und	_	_
+12-10	1126-1129	die	_	_
+12-11	1130-1136	Motive	_	_
+12-12	1137-1146	trefflich	_	_
+12-13	1147-1154	gewählt	_	_
+12-14	1155-1156	.	_	_
+
+#Text=Interessanter jedoch als durch diese Vorzüge wird unser Monument wegen der Inschriften , von denen die des Hermes und des Tiresias nicht bloß die einfachen Namen , sondern noch eine wahrscheinlich erklärende Beischrift zeigen .
+13-1	1157-1170	Interessanter	_	_
+13-2	1171-1177	jedoch	_	_
+13-3	1178-1181	als	_	_
+13-4	1182-1187	durch	_	_
+13-5	1188-1193	diese	_	_
+13-6	1194-1201	Vorzüge	_	_
+13-7	1202-1206	wird	_	_
+13-8	1207-1212	unser	*[8]	OBJ[8]
+13-9	1213-1221	Monument	*[8]	OBJ[8]
+13-10	1222-1227	wegen	_	_
+13-11	1228-1231	der	_	_
+13-12	1232-1243	Inschriften	_	_
+13-13	1244-1245	,	_	_
+13-14	1246-1249	von	_	_
+13-15	1250-1255	denen	_	_
+13-16	1256-1259	die	_	_
+13-17	1260-1263	des	_	_
+13-18	1264-1270	Hermes	*	PERmentioned
+13-19	1271-1274	und	_	_
+13-20	1275-1278	des	_	_
+13-21	1279-1287	Tiresias	*	PERmentioned
+13-22	1288-1293	nicht	_	_
+13-23	1294-1298	bloß	_	_
+13-24	1299-1302	die	_	_
+13-25	1303-1312	einfachen	_	_
+13-26	1313-1318	Namen	_	_
+13-27	1319-1320	,	_	_
+13-28	1321-1328	sondern	_	_
+13-29	1329-1333	noch	_	_
+13-30	1334-1338	eine	_	_
+13-31	1339-1353	wahrscheinlich	_	_
+13-32	1354-1364	erklärende	_	_
+13-33	1365-1375	Beischrift	_	_
+13-34	1376-1382	zeigen	_	_
+13-35	1383-1384	.	_	_
+
+#Text=Bei dem Namen des Hermes steht nemlich in demselben Quadrat eingeschlossen Aitas und zwar so , daß Tursus und Aitas untereinander geschrieben , beide von der rechten zur linken gele-
+14-1	1385-1388	Bei	_	_
+14-2	1389-1392	dem	_	_
+14-3	1393-1398	Namen	_	_
+14-4	1399-1402	des	_	_
+14-5	1403-1409	Hermes	*	PERmentioned
+14-6	1410-1415	steht	_	_
+14-7	1416-1423	nemlich	_	_
+14-8	1424-1426	in	_	_
+14-9	1427-1436	demselben	_	_
+14-10	1437-1444	Quadrat	_	_
+14-11	1445-1459	eingeschlossen	_	_
+14-12	1460-1465	Aitas	_	_
+14-13	1466-1469	und	_	_
+14-14	1470-1474	zwar	_	_
+14-15	1475-1477	so	_	_
+14-16	1478-1479	,	_	_
+14-17	1480-1483	daß	_	_
+14-18	1484-1490	Tursus	*	PERmentioned
+14-19	1491-1494	und	_	_
+14-20	1495-1500	Aitas	*	PERmentioned
+14-21	1501-1514	untereinander	_	_
+14-22	1515-1526	geschrieben	_	_
+14-23	1527-1528	,	_	_
+14-24	1529-1534	beide	_	_
+14-25	1535-1538	von	_	_
+14-26	1539-1542	der	_	_
+14-27	1543-1550	rechten	_	_
+14-28	1551-1554	zur	_	_
+14-29	1555-1561	linken	_	_
+14-30	1562-1567	gele-	_	_

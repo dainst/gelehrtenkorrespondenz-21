@@ -1,0 +1,133 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=4 Helbig an Henzen Ohne Datum H g . 4/8 65 r . 5/8 65 Lieber Herr Professor !
+1-1	0-1	4	_	_
+1-2	2-8	Helbig	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-18	Henzen	*	PERaddressee
+1-5	19-23	Ohne	_	_
+1-6	24-29	Datum	_	_
+1-7	30-31	H	_	_
+1-8	32-33	g	_	_
+1-9	34-35	.	_	_
+1-10	36-39	4/8	*[1]	DATErecieved[1]
+1-11	40-42	65	*[1]	DATErecieved[1]
+1-12	43-44	r	_	_
+1-13	45-46	.	_	_
+1-14	47-50	5/8	*[2]	DATEanswered[2]
+1-15	51-53	65	*[2]	DATEanswered[2]
+1-16	54-60	Lieber	_	_
+1-17	61-65	Herr	_	_
+1-18	66-75	Professor	_	_
+1-19	76-77	!	_	_
+
+#Text=Beiliegend ein Paket Briefe .
+2-1	78-88	Beiliegend	_	_
+2-2	89-92	ein	_	_
+2-3	93-98	Paket	_	_
+2-4	99-105	Briefe	_	_
+2-5	106-107	.	_	_
+
+#Text=Ich bitte um Entschuldigung , daß ich den Bremer Brief aufgebrochen habe .
+3-1	108-111	Ich	_	_
+3-2	112-117	bitte	_	_
+3-3	118-120	um	_	_
+3-4	121-135	Entschuldigung	_	_
+3-5	136-137	,	_	_
+3-6	138-141	daß	_	_
+3-7	142-145	ich	_	_
+3-8	146-149	den	_	_
+3-9	150-156	Bremer	_	_
+3-10	157-162	Brief	_	_
+3-11	163-175	aufgebrochen	_	_
+3-12	176-180	habe	_	_
+3-13	181-182	.	_	_
+
+#Text=Ich verstand den Poststempel Bremen M. nicht .
+4-1	183-186	Ich	_	_
+4-2	187-195	verstand	_	_
+4-3	196-199	den	_	_
+4-4	200-211	Poststempel	_	_
+4-5	212-218	Bremen	*	PLACEmentioned
+4-6	219-221	M.	_	_
+4-7	222-227	nicht	_	_
+4-8	228-229	.	_	_
+
+#Text=Neues : Fortunati ist in der Stadt , vollständig verrückt .
+5-1	230-235	Neues	_	_
+5-2	236-237	:	_	_
+5-3	238-247	Fortunati	*	PERmentioned
+5-4	248-251	ist	_	_
+5-5	252-254	in	_	_
+5-6	255-258	der	_	_
+5-7	259-264	Stadt	_	_
+5-8	265-266	,	_	_
+5-9	267-278	vollständig	_	_
+5-10	279-287	verrückt	_	_
+5-11	288-289	.	_	_
+
+#Text=Er war beim Cardinal de Pietri mit Geldforderungen und konnte nur mit Mühe von vier Bedienten aus dem Zimmer gebracht werden .
+6-1	290-292	Er	_	_
+6-2	293-296	war	_	_
+6-3	297-301	beim	_	_
+6-4	302-310	Cardinal	_	_
+6-5	311-313	de	*[3]	PERmentioned[3]
+6-6	314-320	Pietri	*[3]	PERmentioned[3]
+6-7	321-324	mit	_	_
+6-8	325-340	Geldforderungen	_	_
+6-9	341-344	und	_	_
+6-10	345-351	konnte	_	_
+6-11	352-355	nur	_	_
+6-12	356-359	mit	_	_
+6-13	360-364	Mühe	_	_
+6-14	365-368	von	_	_
+6-15	369-373	vier	_	_
+6-16	374-383	Bedienten	_	_
+6-17	384-387	aus	_	_
+6-18	388-391	dem	_	_
+6-19	392-398	Zimmer	_	_
+6-20	399-407	gebracht	_	_
+6-21	408-414	werden	_	_
+6-22	415-416	.	_	_
+
+#Text=Bei mir war er noch nicht .
+7-1	417-420	Bei	_	_
+7-2	421-424	mir	_	_
+7-3	425-428	war	_	_
+7-4	429-431	er	_	_
+7-5	432-436	noch	_	_
+7-6	437-442	nicht	_	_
+7-7	443-444	.	_	_
+
+#Text=Eine freudigere Nachricht : Umpfenbach hat Geld geschickt .
+8-1	445-449	Eine	_	_
+8-2	450-460	freudigere	_	_
+8-3	461-470	Nachricht	_	_
+8-4	471-472	:	_	_
+8-5	473-483	Umpfenbach	*	PERmentioned
+8-6	484-487	hat	_	_
+8-7	488-492	Geld	_	_
+8-8	493-502	geschickt	_	_
+8-9	503-504	.	_	_
+
+#Text=Mit der Bitte mich der Frau Professorin zu empfehlen und die Olevanoschen Capitoliner zu grüßen Ihr Wolfgang Helbig
+9-1	505-508	Mit	_	_
+9-2	509-512	der	_	_
+9-3	513-518	Bitte	_	_
+9-4	519-523	mich	_	_
+9-5	524-527	der	_	_
+9-6	528-532	Frau	_	_
+9-7	533-544	Professorin	_	_
+9-8	545-547	zu	_	_
+9-9	548-557	empfehlen	_	_
+9-10	558-561	und	_	_
+9-11	562-565	die	_	_
+9-12	566-578	Olevanoschen	_	_
+9-13	579-590	Capitoliner	_	_
+9-14	591-593	zu	_	_
+9-15	594-600	grüßen	_	_
+9-16	601-604	Ihr	_	_
+9-17	605-613	Wolfgang	*[4]	PERauthor[4]
+9-18	614-620	Helbig	*[4]	PERauthor[4]

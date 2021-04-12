@@ -1,0 +1,142 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen R ( om ) , 5 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-17	R	*[8]	PLACEfrom[8]
+1-5	18-19	(	*[8]	PLACEfrom[8]
+1-6	20-22	om	*[8]	PLACEfrom[8]
+1-7	23-24	)	*[8]	PLACEfrom[8]
+1-8	25-26	,	_	_
+1-9	27-28	5	*[5]	DATEletter[5]
+1-10	29-30	.	*[5]	DATEletter[5]
+
+#Text=August 71861 Lieber Henzen \| Steinhäuser sei gestern nicht wohl genug gewesen um zu kommen .
+2-1	31-37	August	*[5]	DATEletter[5]
+2-2	38-43	71861	*[5]	DATEletter[5]
+2-3	44-50	Lieber	_	_
+2-4	51-57	Henzen	*	PERaddressee
+2-5	58-59	\|	_	_
+2-6	60-71	Steinhäuser	*	PERmentioned
+2-7	72-75	sei	_	_
+2-8	76-83	gestern	_	_
+2-9	84-89	nicht	_	_
+2-10	90-94	wohl	_	_
+2-11	95-100	genug	_	_
+2-12	101-108	gewesen	_	_
+2-13	109-111	um	_	_
+2-14	112-114	zu	_	_
+2-15	115-121	kommen	_	_
+2-16	122-123	.	_	_
+
+#Text=Heute gehe es besser .
+3-1	124-129	Heute	_	_
+3-2	130-134	gehe	_	_
+3-3	135-137	es	_	_
+3-4	138-144	besser	_	_
+3-5	145-146	.	_	_
+
+#Text=Morgen würden sie selbst schreiben .
+4-1	147-153	Morgen	_	_
+4-2	154-160	würden	_	_
+4-3	161-164	sie	_	_
+4-4	165-171	selbst	_	_
+4-5	172-181	schreiben	_	_
+4-6	182-183	.	_	_
+
+#Text=Stava in piedi nella camera di sopra \; colla mano infasciata : sagt Nino .
+5-1	184-189	Stava	_	_
+5-2	190-192	in	_	_
+5-3	193-198	piedi	_	_
+5-4	199-204	nella	_	_
+5-5	205-211	camera	_	_
+5-6	212-214	di	_	_
+5-7	215-220	sopra	_	_
+5-8	221-222	\;	_	_
+5-9	223-228	colla	_	_
+5-10	229-233	mano	_	_
+5-11	234-244	infasciata	_	_
+5-12	245-246	:	_	_
+5-13	247-251	sagt	_	_
+5-14	252-256	Nino	*	PERmentioned
+5-15	257-258	.	_	_
+
+#Text=Renier , den ich zwischen 9-10 in den farnesischen Gärten sah , sagte , daß er Welcker 's Brief nicht habe .
+6-1	259-265	Renier	*	PERmentioned
+6-2	266-267	,	_	_
+6-3	268-271	den	_	_
+6-4	272-275	ich	_	_
+6-5	276-284	zwischen	_	_
+6-6	285-289	9-10	_	_
+6-7	290-292	in	_	_
+6-8	293-296	den	_	_
+6-9	297-309	farnesischen	*[6]	PLACEmentioned[6]
+6-10	310-316	Gärten	*[6]	PLACEmentioned[6]
+6-11	317-320	sah	_	_
+6-12	321-322	,	_	_
+6-13	323-328	sagte	_	_
+6-14	329-330	,	_	_
+6-15	331-334	daß	_	_
+6-16	335-337	er	_	_
+6-17	338-345	Welcker	*[9]	PERmentioned[9]
+6-18	346-348	's	*[9]	PERmentioned[9]
+6-19	349-354	Brief	_	_
+6-20	355-360	nicht	_	_
+6-21	361-365	habe	_	_
+6-22	366-367	.	_	_
+
+#Text=An der bezeichneten Stelle bei Ihnen finde ich ihn nicht .
+7-1	368-370	An	_	_
+7-2	371-374	der	_	_
+7-3	375-387	bezeichneten	_	_
+7-4	388-394	Stelle	_	_
+7-5	395-398	bei	_	_
+7-6	399-404	Ihnen	_	_
+7-7	405-410	finde	_	_
+7-8	411-414	ich	_	_
+7-9	415-418	ihn	_	_
+7-10	419-424	nicht	_	_
+7-11	425-426	.	_	_
+
+#Text=Morgen früh werde ich selbst Renier noch einmal bei sich nachsuchen lassen .
+8-1	427-433	Morgen	_	_
+8-2	434-438	früh	_	_
+8-3	439-444	werde	_	_
+8-4	445-448	ich	_	_
+8-5	449-455	selbst	_	_
+8-6	456-462	Renier	*	PERmentioned
+8-7	463-467	noch	_	_
+8-8	468-474	einmal	_	_
+8-9	475-478	bei	_	_
+8-10	479-483	sich	_	_
+8-11	484-494	nachsuchen	_	_
+8-12	495-501	lassen	_	_
+8-13	502-503	.	_	_
+
+#Text=Briefe für Sie aus Bonn und Florenz \; nebst Zeitungen , sonst nichts .
+9-1	504-510	Briefe	_	_
+9-2	511-514	für	_	_
+9-3	515-518	Sie	_	_
+9-4	519-522	aus	_	_
+9-5	523-527	Bonn	*	PLACEmentioned
+9-6	528-531	und	_	_
+9-7	532-539	Florenz	*	PLACEmentioned
+9-8	540-541	\;	_	_
+9-9	542-547	nebst	_	_
+9-10	548-557	Zeitungen	_	_
+9-11	558-559	,	_	_
+9-12	560-565	sonst	_	_
+9-13	566-572	nichts	_	_
+9-14	573-574	.	_	_
+
+#Text=Ihr HBrunn R . 5/8 61 .
+10-1	575-578	Ihr	_	_
+10-2	579-585	HBrunn	*	PERauthor
+10-3	586-587	R	*[10]	PLACEfrom[10]
+10-4	588-589	.	*[10]	PLACEfrom[10]
+10-5	590-593	5/8	*[7]	DATEletter[7]
+10-6	594-596	61	*[7]	DATEletter[7]
+10-7	597-598	.	*[7]	DATEletter[7]

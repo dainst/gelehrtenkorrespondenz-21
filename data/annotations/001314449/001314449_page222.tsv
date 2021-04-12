@@ -1,0 +1,313 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Zu Henzen an Gerhard 2y/X1/54 Verehrter Herr Frofessor !
+1-1	0-2	Zu	_	_	
+1-2	3-9	Henzen	*	PERauthor	
+1-3	10-12	an	_	_	
+1-4	13-20	Gerhard	*	PERaddressee	
+1-5	21-29	2y/X1/54	*	DATEletter	
+1-6	30-39	Verehrter	_	_	
+1-7	40-44	Herr	_	_	
+1-8	45-54	Frofessor	_	_	
+1-9	55-56	!	_	_	
+
+#Text=Vorstehenden Brief übersende ich Ihnen nach Verabredung mit Braun und mit der Eitte , die Sache sofort zu erledigen .
+2-1	57-69	Vorstehenden	_	_	
+2-2	70-75	Brief	_	_	
+2-3	76-85	übersende	_	_	
+2-4	86-89	ich	_	_	
+2-5	90-95	Ihnen	_	_	
+2-6	96-100	nach	_	_	
+2-7	101-112	Verabredung	_	_	
+2-8	113-116	mit	_	_	
+2-9	117-122	Braun	*	PERmentioned	
+2-10	123-126	und	_	_	
+2-11	127-130	mit	_	_	
+2-12	131-134	der	_	_	
+2-13	135-140	Eitte	_	_	
+2-14	141-142	,	_	_	
+2-15	143-146	die	_	_	
+2-16	147-152	Sache	_	_	
+2-17	153-159	sofort	_	_	
+2-18	160-162	zu	_	_	
+2-19	163-172	erledigen	_	_	
+2-20	173-174	.	_	_	
+
+#Text=Für uns sind Diplome eine zu rare Sache , als aß .
+3-1	175-178	Für	_	_	
+3-2	179-182	uns	_	_	
+3-3	183-187	sind	_	_	
+3-4	188-195	Diplome	_	_	
+3-5	196-200	eine	_	_	
+3-6	201-203	zu	_	_	
+3-7	204-208	rare	_	_	
+3-8	209-214	Sache	_	_	
+3-9	215-216	,	_	_	
+3-10	217-220	als	_	_	
+3-11	221-223	aß	_	_	
+3-12	224-225	.	_	_	
+
+#Text=ich eines von den weniren mir zugeschickten herausgeben möchte , da wir sie selbst sehr nöthiz haben .
+4-1	226-229	ich	_	_	
+4-2	230-235	eines	_	_	
+4-3	236-239	von	_	_	
+4-4	240-243	den	_	_	
+4-5	244-251	weniren	_	_	
+4-6	252-255	mir	_	_	
+4-7	256-269	zugeschickten	_	_	
+4-8	270-281	herausgeben	_	_	
+4-9	282-288	möchte	_	_	
+4-10	289-290	,	_	_	
+4-11	291-293	da	_	_	
+4-12	294-297	wir	_	_	
+4-13	298-301	sie	_	_	
+4-14	302-308	selbst	_	_	
+4-15	309-313	sehr	_	_	
+4-16	314-320	nöthiz	_	_	
+4-17	321-326	haben	_	_	
+4-18	327-328	.	_	_	
+
+#Text=Ohnehin musste doch an Sie berichtet werden , An Burfian sandte ich eines für Herrn v. Velsen .
+5-1	329-336	Ohnehin	_	_	
+5-2	337-343	musste	_	_	
+5-3	344-348	doch	_	_	
+5-4	349-351	an	_	_	
+5-5	352-355	Sie	_	_	
+5-6	356-365	berichtet	_	_	
+5-7	366-372	werden	_	_	
+5-8	373-374	,	_	_	
+5-9	375-377	An	_	_	
+5-10	378-385	Burfian	*	PERmentioned	
+5-11	386-392	sandte	_	_	
+5-12	393-396	ich	_	_	
+5-13	397-402	eines	_	_	
+5-14	403-406	für	_	_	
+5-15	407-412	Herrn	_	_	
+5-16	413-415	v.	*[1]	PERmentioned[1]	
+5-17	416-422	Velsen	*[1]	PERmentioned[1]	
+5-18	423-424	.	_	_	
+
+#Text=- Ven ersterem ausfüfhlicher Bericht ( sotto torchio für ds . Bull . )
+6-1	425-426	-	_	_	
+6-2	427-430	Ven	_	_	
+6-3	431-439	ersterem	_	_	
+6-4	440-453	ausfüfhlicher	_	_	
+6-5	454-461	Bericht	_	_	
+6-6	462-463	(	_	_	
+6-7	464-469	sotto	_	_	
+6-8	470-477	torchio	_	_	
+6-9	478-481	für	_	_	
+6-10	482-484	ds	_	_	
+6-11	485-486	.	_	_	
+6-12	487-491	Bull	_	_	
+6-13	492-493	.	_	_	
+6-14	494-495	)	_	_	
+
+#Text=über seine u. Rangalu 's scavi im Heracon .
+7-1	496-500	über	_	_	
+7-2	501-506	seine	_	_	
+7-3	507-509	u.	_	_	
+7-4	510-517	Rangalu	*[2]	PERmentioned[2]	
+7-5	518-520	's	*[2]	PERmentioned[2]	
+7-6	521-526	scavi	_	_	
+7-7	527-529	im	_	_	
+7-8	530-537	Heracon	*	PLACEmentioned	
+7-9	538-539	.	_	_	
+
+#Text=vwahrscheinlich haben auch Vie schon davon Kunde und haben den Vortheil , nicht erst übersetzen zu müßen , wie ich poveretto .
+8-1	540-555	vwahrscheinlich	_	_	
+8-2	556-561	haben	_	_	
+8-3	562-566	auch	_	_	
+8-4	567-570	Vie	_	_	
+8-5	571-576	schon	_	_	
+8-6	577-582	davon	_	_	
+8-7	583-588	Kunde	_	_	
+8-8	589-592	und	_	_	
+8-9	593-598	haben	_	_	
+8-10	599-602	den	_	_	
+8-11	603-611	Vortheil	_	_	
+8-12	612-613	,	_	_	
+8-13	614-619	nicht	_	_	
+8-14	620-624	erst	_	_	
+8-15	625-635	übersetzen	_	_	
+8-16	636-638	zu	_	_	
+8-17	639-644	müßen	_	_	
+8-18	645-646	,	_	_	
+8-19	647-650	wie	_	_	
+8-20	651-654	ich	_	_	
+8-21	655-664	poveretto	_	_	
+8-22	665-666	.	_	_	
+
+#Text=-— Durch die Gesandtschaft sinz allerlei Roba von Ihnen ein , woflir herzlichsten Dank , so weit es micht persönlich angeht .
+9-1	667-669	-—	_	_	
+9-2	670-675	Durch	_	_	
+9-3	676-679	die	_	_	
+9-4	680-693	Gesandtschaft	*	ORGmentioned	
+9-5	694-698	sinz	_	_	
+9-6	699-707	allerlei	_	_	
+9-7	708-712	Roba	_	_	
+9-8	713-716	von	_	_	
+9-9	717-722	Ihnen	_	_	
+9-10	723-726	ein	_	_	
+9-11	727-728	,	_	_	
+9-12	729-735	woflir	_	_	
+9-13	736-748	herzlichsten	_	_	
+9-14	749-753	Dank	_	_	
+9-15	754-755	,	_	_	
+9-16	756-758	so	_	_	
+9-17	759-763	weit	_	_	
+9-18	764-766	es	_	_	
+9-19	767-772	micht	_	_	
+9-20	773-783	persönlich	_	_	
+9-21	784-790	angeht	_	_	
+9-22	791-792	.	_	_	
+
+#Text=Ich bin auf dem lege , von Viscontino die Farlere E . Q. , F. A , u. andrer Viscontis , so weit sie Zpigraphica enthalten , herauszubekommen ; er hat sie zugesagt , aber ) Sie wissen , das ist immer erst Ein - Schritt .
+10-1	793-796	Ich	_	_	
+10-2	797-800	bin	_	_	
+10-3	801-804	auf	_	_	
+10-4	805-808	dem	_	_	
+10-5	809-813	lege	_	_	
+10-6	814-815	,	_	_	
+10-7	816-819	von	_	_	
+10-8	820-830	Viscontino	*	PERmentioned	
+10-9	831-834	die	_	_	
+10-10	835-842	Farlere	_	_	
+10-11	843-844	E	_	_	
+10-12	845-846	.	_	_	
+10-13	847-849	Q.	_	_	
+10-14	850-851	,	_	_	
+10-15	852-854	F.	_	_	
+10-16	855-856	A	_	_	
+10-17	857-858	,	_	_	
+10-18	859-861	u.	_	_	
+10-19	862-868	andrer	_	_	
+10-20	869-878	Viscontis	*	PERmentioned	
+10-21	879-880	,	_	_	
+10-22	881-883	so	_	_	
+10-23	884-888	weit	_	_	
+10-24	889-892	sie	_	_	
+10-25	893-904	Zpigraphica	*	MISC	
+10-26	905-914	enthalten	_	_	
+10-27	915-916	,	_	_	
+10-28	917-933	herauszubekommen	_	_	
+10-29	934-935	;	_	_	
+10-30	936-938	er	_	_	
+10-31	939-942	hat	_	_	
+10-32	943-946	sie	_	_	
+10-33	947-955	zugesagt	_	_	
+10-34	956-957	,	_	_	
+10-35	958-962	aber	_	_	
+10-36	963-964	)	_	_	
+10-37	965-968	Sie	_	_	
+10-38	969-975	wissen	_	_	
+10-39	976-977	,	_	_	
+10-40	978-981	das	_	_	
+10-41	982-985	ist	_	_	
+10-42	986-991	immer	_	_	
+10-43	992-996	erst	_	_	
+10-44	997-1000	Ein	_	_	
+10-45	1001-1002	-	_	_	
+10-46	1003-1010	Schritt	_	_	
+10-47	1011-1012	.	_	_	
+
+#Text=sie sollen c sehr wichtig durch Fundnotizen u. dh .
+11-1	1013-1016	sie	_	_	
+11-2	1017-1023	sollen	_	_	
+11-3	1024-1025	c	_	_	
+11-4	1026-1030	sehr	_	_	
+11-5	1031-1038	wichtig	_	_	
+11-6	1039-1044	durch	_	_	
+11-7	1045-1056	Fundnotizen	_	_	
+11-8	1057-1059	u.	_	_	
+11-9	1060-1062	dh	_	_	
+11-10	1063-1064	.	_	_	
+
+#Text=Aufschlüße über von hier verschlenpte Steine sein , also für das G0.I.L , höchst brauchbar .
+12-1	1065-1075	Aufschlüße	_	_	
+12-2	1076-1080	über	_	_	
+12-3	1081-1084	von	_	_	
+12-4	1085-1089	hier	_	_	
+12-5	1090-1102	verschlenpte	_	_	
+12-6	1103-1109	Steine	_	_	
+12-7	1110-1114	sein	_	_	
+12-8	1115-1116	,	_	_	
+12-9	1117-1121	also	_	_	
+12-10	1122-1125	für	_	_	
+12-11	1126-1129	das	_	_	
+12-12	1130-1136	G0.I.L	_	_	
+12-13	1137-1138	,	_	_	
+12-14	1139-1145	höchst	_	_	
+12-15	1146-1155	brauchbar	_	_	
+12-16	1156-1157	.	_	_	
+
+#Text=Auch hat er mir brlaubnis zum Abschreiben der FR Steine in den Columbarien bei pa S. Sebostiano versprochen , u. stellt sich überhaupt sehr zuvorkomnend an .
+13-1	1158-1162	Auch	_	_	
+13-2	1163-1166	hat	_	_	
+13-3	1167-1169	er	_	_	
+13-4	1170-1173	mir	_	_	
+13-5	1174-1183	brlaubnis	_	_	
+13-6	1184-1187	zum	_	_	
+13-7	1188-1199	Abschreiben	_	_	
+13-8	1200-1203	der	_	_	
+13-9	1204-1206	FR	_	_	
+13-10	1207-1213	Steine	_	_	
+13-11	1214-1216	in	_	_	
+13-12	1217-1220	den	_	_	
+13-13	1221-1232	Columbarien	_	_	
+13-14	1233-1236	bei	_	_	
+13-15	1237-1239	pa	_	_	
+13-16	1240-1242	S.	_	_	
+13-17	1243-1253	Sebostiano	_	_	
+13-18	1254-1265	versprochen	_	_	
+13-19	1266-1267	,	_	_	
+13-20	1268-1270	u.	_	_	
+13-21	1271-1277	stellt	_	_	
+13-22	1278-1282	sich	_	_	
+13-23	1283-1292	überhaupt	_	_	
+13-24	1293-1297	sehr	_	_	
+13-25	1298-1310	zuvorkomnend	_	_	
+13-26	1311-1313	an	_	_	
+13-27	1314-1315	.	_	_	
+
+#Text=Das furchtbare Wetter der letzten Wochen hat mich bis jetzt verhindert , ihn in dsr .
+14-1	1316-1319	Das	_	_	
+14-2	1320-1330	furchtbare	_	_	
+14-3	1331-1337	Wetter	_	_	
+14-4	1338-1341	der	_	_	
+14-5	1342-1349	letzten	_	_	
+14-6	1350-1356	Wochen	_	_	
+14-7	1357-1360	hat	_	_	
+14-8	1361-1365	mich	_	_	
+14-9	1366-1369	bis	_	_	
+14-10	1370-1375	jetzt	_	_	
+14-11	1376-1386	verhindert	_	_	
+14-12	1387-1388	,	_	_	
+14-13	1389-1392	ihn	_	_	
+14-14	1393-1395	in	_	_	
+14-15	1396-1399	dsr	_	_	
+14-16	1400-1401	.	_	_	
+
+#Text=Hinsicht beim Worte zu nehmen , da doch Nichts zu mschen war .
+15-1	1402-1410	Hinsicht	_	_	
+15-2	1411-1415	beim	_	_	
+15-3	1416-1421	Worte	_	_	
+15-4	1422-1424	zu	_	_	
+15-5	1425-1431	nehmen	_	_	
+15-6	1432-1433	,	_	_	
+15-7	1434-1436	da	_	_	
+15-8	1437-1441	doch	_	_	
+15-9	1442-1448	Nichts	_	_	
+15-10	1449-1451	zu	_	_	
+15-11	1452-1458	mschen	_	_	
+15-12	1459-1462	war	_	_	
+15-13	1463-1464	.	_	_	
+
+#Text=TVeberhaupt habe ich seit mei-
+16-1	1465-1476	TVeberhaupt	_	_	
+16-2	1477-1481	habe	_	_	
+16-3	1482-1485	ich	_	_	
+16-4	1486-1490	seit	_	_	
+16-5	1491-1495	mei-	_	_	

@@ -1,0 +1,263 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 26. Juni 1837 am 22 JuliVfreiheit gesezt und am selbigen Tage abschiffend am 23.sten in Rom sein .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	26.	*[4]	DATEletter[4]
+1-7	31-35	Juni	*[4]	DATEletter[4]
+1-8	36-40	1837	*[4]	DATEletter[4]
+1-9	41-43	am	_	_
+1-10	44-46	22	*	DATEmentioned
+1-11	47-60	JuliVfreiheit	_	_
+1-12	61-67	gesezt	_	_
+1-13	68-71	und	_	_
+1-14	72-74	am	_	_
+1-15	75-83	selbigen	_	_
+1-16	84-88	Tage	_	_
+1-17	89-100	abschiffend	_	_
+1-18	101-103	am	_	_
+1-19	104-111	23.sten	*	DATEmentioned
+1-20	112-114	in	_	_
+1-21	115-118	Rom	*	PLACEmentioned
+1-22	119-123	sein	_	_
+1-23	124-125	.	_	_
+
+#Text=Es wäre glaube ich für uns beide wichtig uns noch dort zusammen zu finden \; geht es nicht , so sprechen Sie an meinem Gitter vor .
+2-1	126-128	Es	_	_
+2-2	129-133	wäre	_	_
+2-3	134-140	glaube	_	_
+2-4	141-144	ich	_	_
+2-5	145-148	für	_	_
+2-6	149-152	uns	_	_
+2-7	153-158	beide	_	_
+2-8	159-166	wichtig	_	_
+2-9	167-170	uns	_	_
+2-10	171-175	noch	_	_
+2-11	176-180	dort	_	_
+2-12	181-189	zusammen	_	_
+2-13	190-192	zu	_	_
+2-14	193-199	finden	_	_
+2-15	200-201	\;	_	_
+2-16	202-206	geht	_	_
+2-17	207-209	es	_	_
+2-18	210-215	nicht	_	_
+2-19	216-217	,	_	_
+2-20	218-220	so	_	_
+2-21	221-229	sprechen	_	_
+2-22	230-233	Sie	_	_
+2-23	234-236	an	_	_
+2-24	237-243	meinem	_	_
+2-25	244-250	Gitter	_	_
+2-26	251-254	vor	_	_
+2-27	255-256	.	_	_
+
+#Text=Geht es , so reise ich ein Stück mit Ihnen \; denn für Rom habe ich jetzt nur wenig Tage .
+3-1	257-261	Geht	_	_
+3-2	262-264	es	_	_
+3-3	265-266	,	_	_
+3-4	267-269	so	_	_
+3-5	270-275	reise	_	_
+3-6	276-279	ich	_	_
+3-7	280-283	ein	_	_
+3-8	284-289	Stück	_	_
+3-9	290-293	mit	_	_
+3-10	294-299	Ihnen	_	_
+3-11	300-301	\;	_	_
+3-12	302-306	denn	_	_
+3-13	307-310	für	_	_
+3-14	311-314	Rom	*	PLACEmentioned
+3-15	315-319	habe	_	_
+3-16	320-323	ich	_	_
+3-17	324-329	jetzt	_	_
+3-18	330-333	nur	_	_
+3-19	334-339	wenig	_	_
+3-20	340-344	Tage	_	_
+3-21	345-346	.	_	_
+
+#Text=Von Neapel hatte ich viel Zeichnungen erhofft , auch bestellt \; pazienza !
+4-1	347-350	Von	_	_
+4-2	351-357	Neapel	*	PLACEmentioned
+4-3	358-363	hatte	_	_
+4-4	364-367	ich	_	_
+4-5	368-372	viel	_	_
+4-6	373-384	Zeichnungen	_	_
+4-7	385-392	erhofft	_	_
+4-8	393-394	,	_	_
+4-9	395-399	auch	_	_
+4-10	400-408	bestellt	_	_
+4-11	409-410	\;	_	_
+4-12	411-419	pazienza	_	_
+4-13	420-421	!	_	_
+
+#Text=Was Sie bei Basseggio zeichnen ließen , wird angenehm sein .
+5-1	422-425	Was	_	_
+5-2	426-429	Sie	_	_
+5-3	430-433	bei	_	_
+5-4	434-443	Basseggio	*	PERmentioned
+5-5	444-452	zeichnen	_	_
+5-6	453-459	ließen	_	_
+5-7	460-461	,	_	_
+5-8	462-466	wird	_	_
+5-9	467-475	angenehm	_	_
+5-10	476-480	sein	_	_
+5-11	481-482	.	_	_
+
+#Text=Demselben habe ich für 15 Scudi Gemmen verkauft .
+6-1	483-492	Demselben	_	_
+6-2	493-497	habe	_	_
+6-3	498-501	ich	_	_
+6-4	502-505	für	_	_
+6-5	506-508	15	_	_
+6-6	509-514	Scudi	_	_
+6-7	515-521	Gemmen	*	OBJ
+6-8	522-530	verkauft	_	_
+6-9	531-532	.	_	_
+
+#Text=Wo ist Schulz ?
+7-1	533-535	Wo	_	_
+7-2	536-539	ist	_	_
+7-3	540-546	Schulz	*	PERmentioned
+7-4	547-548	?	_	_
+
+#Text=Das der von Boha an mich gezahlten Sunme steht in den Rechnungen \; selbst die engl .
+8-1	549-552	Das	_	_
+8-2	553-556	der	_	_
+8-3	557-560	von	_	_
+8-4	561-565	Boha	_	_
+8-5	566-568	an	_	_
+8-6	569-573	mich	_	_
+8-7	574-583	gezahlten	_	_
+8-8	584-589	Sunme	_	_
+8-9	590-595	steht	_	_
+8-10	596-598	in	_	_
+8-11	599-602	den	_	_
+8-12	603-613	Rechnungen	_	_
+8-13	614-615	\;	_	_
+8-14	616-622	selbst	_	_
+8-15	623-626	die	_	_
+8-16	627-631	engl	_	_
+8-17	632-633	.	_	_
+
+#Text=Papiere gab ich ab .
+9-1	634-641	Papiere	_	_
+9-2	642-645	gab	_	_
+9-3	646-649	ich	_	_
+9-4	650-652	ab	_	_
+9-5	653-654	.	_	_
+
+#Text=Wegen meiner Sachen schreibe ich nach Empfang der übrigen Briefe .
+10-1	655-660	Wegen	_	_
+10-2	661-667	meiner	_	_
+10-3	668-674	Sachen	_	_
+10-4	675-683	schreibe	_	_
+10-5	684-687	ich	_	_
+10-6	688-692	nach	_	_
+10-7	693-700	Empfang	_	_
+10-8	701-704	der	_	_
+10-9	705-712	übrigen	_	_
+10-10	713-719	Briefe	_	_
+10-11	720-721	.	_	_
+
+#Text=Dem Ort wo ich bin läßt sich nur Reinlichkeit und nothdürftige Bedienung anführen \; sonst weder erwünschte Gesellschaft noch ein grüner Fleck .
+11-1	722-725	Dem	_	_
+11-2	726-729	Ort	_	_
+11-3	730-732	wo	_	_
+11-4	733-736	ich	_	_
+11-5	737-740	bin	_	_
+11-6	741-745	läßt	_	_
+11-7	746-750	sich	_	_
+11-8	751-754	nur	_	_
+11-9	755-767	Reinlichkeit	_	_
+11-10	768-771	und	_	_
+11-11	772-784	nothdürftige	_	_
+11-12	785-794	Bedienung	_	_
+11-13	795-803	anführen	_	_
+11-14	804-805	\;	_	_
+11-15	806-811	sonst	_	_
+11-16	812-817	weder	_	_
+11-17	818-828	erwünschte	_	_
+11-18	829-841	Gesellschaft	_	_
+11-19	842-846	noch	_	_
+11-20	847-850	ein	_	_
+11-21	851-857	grüner	_	_
+11-22	858-863	Fleck	_	_
+11-23	864-865	.	_	_
+
+#Text=Ich fürchte ernsthaft für meine Augen und schone mich sehr .
+12-1	866-869	Ich	_	_
+12-2	870-877	fürchte	_	_
+12-3	878-887	ernsthaft	_	_
+12-4	888-891	für	_	_
+12-5	892-897	meine	_	_
+12-6	898-903	Augen	_	_
+12-7	904-907	und	_	_
+12-8	908-914	schone	_	_
+12-9	915-919	mich	_	_
+12-10	920-924	sehr	_	_
+12-11	925-926	.	_	_
+
+#Text=Es gehört ein Zweck wie dieser Brief dazu um sie irgendwie zu beschäftigen .
+13-1	927-929	Es	_	_
+13-2	930-936	gehört	_	_
+13-3	937-940	ein	_	_
+13-4	941-946	Zweck	_	_
+13-5	947-950	wie	_	_
+13-6	951-957	dieser	_	_
+13-7	958-963	Brief	_	_
+13-8	964-968	dazu	_	_
+13-9	969-971	um	_	_
+13-10	972-975	sie	_	_
+13-11	976-985	irgendwie	_	_
+13-12	986-988	zu	_	_
+13-13	989-1001	beschäftigen	_	_
+13-14	1002-1003	.	_	_
+
+#Text=Entschuldigen Sie mich deswegen bei Freunden denen ich selbst schreiben würde und von denen mir ein geschriebenes Blatt in dieser Misäre sehr willkommen sein würde .
+14-1	1004-1017	Entschuldigen	_	_
+14-2	1018-1021	Sie	_	_
+14-3	1022-1026	mich	_	_
+14-4	1027-1035	deswegen	_	_
+14-5	1036-1039	bei	_	_
+14-6	1040-1048	Freunden	_	_
+14-7	1049-1054	denen	_	_
+14-8	1055-1058	ich	_	_
+14-9	1059-1065	selbst	_	_
+14-10	1066-1075	schreiben	_	_
+14-11	1076-1081	würde	_	_
+14-12	1082-1085	und	_	_
+14-13	1086-1089	von	_	_
+14-14	1090-1095	denen	_	_
+14-15	1096-1099	mir	_	_
+14-16	1100-1103	ein	_	_
+14-17	1104-1117	geschriebenes	_	_
+14-18	1118-1123	Blatt	_	_
+14-19	1124-1126	in	_	_
+14-20	1127-1133	dieser	_	_
+14-21	1134-1140	Misäre	_	_
+14-22	1141-1145	sehr	_	_
+14-23	1146-1156	willkommen	_	_
+14-24	1157-1161	sein	_	_
+14-25	1162-1167	würde	_	_
+14-26	1168-1169	.	_	_
+
+#Text=An Vollard und Raoul herzlichen Dank für deren Briefe \; R viel Grüße Ihr Gerhard
+15-1	1170-1172	An	_	_
+15-2	1173-1180	Vollard	*	PERmentioned
+15-3	1181-1184	und	_	_
+15-4	1185-1190	Raoul	*	PERmentioned
+15-5	1191-1201	herzlichen	_	_
+15-6	1202-1206	Dank	_	_
+15-7	1207-1210	für	_	_
+15-8	1211-1216	deren	_	_
+15-9	1217-1223	Briefe	_	_
+15-10	1224-1225	\;	_	_
+15-11	1226-1227	R	_	_
+15-12	1228-1232	viel	_	_
+15-13	1233-1238	Grüße	_	_
+15-14	1239-1242	Ihr	_	_
+15-15	1243-1250	Gerhard	*	PERauthor

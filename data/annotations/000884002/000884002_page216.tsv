@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=284 Brunn an Henzen Paris , 1. Juli 1864 8 . 6. Juli 1864 r . 8. Juli 1864 Lieber Henzen !
+1-1	0-3	284	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-25	Paris	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	1.	*[1]	DATEletter[1]
+1-8	31-35	Juli	*[1]	DATEletter[1]
+1-9	36-40	1864	*[1]	DATEletter[1]
+1-10	41-42	8	_	_
+1-11	43-44	.	_	_
+1-12	45-47	6.	*[2]	DATErecieved[2]
+1-13	48-52	Juli	*[2]	DATErecieved[2]
+1-14	53-57	1864	*[2]	DATErecieved[2]
+1-15	58-59	r	_	_
+1-16	60-61	.	_	_
+1-17	62-64	8.	*[3]	DATEanswered[3]
+1-18	65-69	Juli	*[3]	DATEanswered[3]
+1-19	70-74	1864	*[3]	DATEanswered[3]
+1-20	75-81	Lieber	_	_
+1-21	82-88	Henzen	*	PERaddressee
+1-22	89-90	!	_	_
+
+#Text=Freitag Abend werde ich von hier abgehen .
+2-1	91-98	Freitag	*	DATEmentioned
+2-2	99-104	Abend	_	_
+2-3	105-110	werde	_	_
+2-4	111-114	ich	_	_
+2-5	115-118	von	_	_
+2-6	119-123	hier	_	_
+2-7	124-131	abgehen	_	_
+2-8	132-133	.	_	_
+
+#Text=Ich hoffte noch Luynes abwarten zu können , der vor etwa 4 Tagen in Marseille angelangt , aber erst nach Hyeres gegangen ist und in den ersten 8 Tagen schwerlich Paris passirt .
+3-1	134-137	Ich	_	_
+3-2	138-144	hoffte	_	_
+3-3	145-149	noch	_	_
+3-4	150-156	Luynes	*	PERmentioned
+3-5	157-165	abwarten	_	_
+3-6	166-168	zu	_	_
+3-7	169-175	können	_	_
+3-8	176-177	,	_	_
+3-9	178-181	der	_	_
+3-10	182-185	vor	_	_
+3-11	186-190	etwa	_	_
+3-12	191-192	4	_	_
+3-13	193-198	Tagen	_	_
+3-14	199-201	in	_	_
+3-15	202-211	Marseille	*	PLACEmentioned
+3-16	212-221	angelangt	_	_
+3-17	222-223	,	_	_
+3-18	224-228	aber	_	_
+3-19	229-233	erst	_	_
+3-20	234-238	nach	_	_
+3-21	239-245	Hyeres	*	PLACEmentioned
+3-22	246-254	gegangen	_	_
+3-23	255-258	ist	_	_
+3-24	259-262	und	_	_
+3-25	263-265	in	_	_
+3-26	266-269	den	_	_
+3-27	270-276	ersten	_	_
+3-28	277-278	8	_	_
+3-29	279-284	Tagen	_	_
+3-30	285-295	schwerlich	_	_
+3-31	296-301	Paris	*	PLACEmentioned
+3-32	302-309	passirt	_	_
+3-33	310-311	.	_	_
+
+#Text=Schade darum !
+4-1	312-318	Schade	_	_
+4-2	319-324	darum	_	_
+4-3	325-326	!	_	_
+
+#Text=Zur Revue arch . für 300 fr. habe ich mich doch entschließen müssen , da sie doch nicht billiger zu haben ist , außer etwa durchzinen Zufall , und wann ?
+5-1	327-330	Zur	_	_
+5-2	331-336	Revue	_	_
+5-3	337-341	arch	_	_
+5-4	342-343	.	_	_
+5-5	344-347	für	_	_
+5-6	348-351	300	_	_
+5-7	352-355	fr.	_	_
+5-8	356-360	habe	_	_
+5-9	361-364	ich	_	_
+5-10	365-369	mich	_	_
+5-11	370-374	doch	_	_
+5-12	375-387	entschließen	_	_
+5-13	388-394	müssen	_	_
+5-14	395-396	,	_	_
+5-15	397-399	da	_	_
+5-16	400-403	sie	_	_
+5-17	404-408	doch	_	_
+5-18	409-414	nicht	_	_
+5-19	415-423	billiger	_	_
+5-20	424-426	zu	_	_
+5-21	427-432	haben	_	_
+5-22	433-436	ist	_	_
+5-23	437-438	,	_	_
+5-24	439-444	außer	_	_
+5-25	445-449	etwa	_	_
+5-26	450-460	durchzinen	_	_
+5-27	461-467	Zufall	_	_
+5-28	468-469	,	_	_
+5-29	470-473	und	_	_
+5-30	474-478	wann	_	_
+5-31	479-480	?	_	_
+
+#Text=Dagegen habe ich von Bouillon Mus . des ant . 3 vol . fol . ein schönes Exemplar für 150 fr. statt für 200 aufgetrieben .
+6-1	481-488	Dagegen	_	_
+6-2	489-493	habe	_	_
+6-3	494-497	ich	_	_
+6-4	498-501	von	_	_
+6-5	502-510	Bouillon	*	PERmentioned
+6-6	511-514	Mus	_	_
+6-7	515-516	.	_	_
+6-8	517-520	des	_	_
+6-9	521-524	ant	_	_
+6-10	525-526	.	_	_
+6-11	527-528	3	_	_
+6-12	529-532	vol	_	_
+6-13	533-534	.	_	_
+6-14	535-538	fol	_	_
+6-15	539-540	.	_	_
+6-16	541-544	ein	_	_
+6-17	545-552	schönes	_	_
+6-18	553-561	Exemplar	_	_
+6-19	562-565	für	_	_
+6-20	566-569	150	_	_
+6-21	570-573	fr.	_	_
+6-22	574-579	statt	_	_
+6-23	580-583	für	_	_
+6-24	584-587	200	_	_
+6-25	588-600	aufgetrieben	_	_
+6-26	601-602	.	_	_
+
+#Text=Mit Laborde ist mirs noch nicht geglückt , und finde ich nicht noch morgen eine billigere Gelegenheit , so muß ich schließlich doch 250 fr. zahlen : was freilich selbst für Paris nicht billig ist .
+7-1	603-606	Mit	_	_
+7-2	607-614	Laborde	*	PERmentioned
+7-3	615-618	ist	_	_
+7-4	619-623	mirs	_	_
+7-5	624-628	noch	_	_
+7-6	629-634	nicht	_	_
+7-7	635-643	geglückt	_	_
+7-8	644-645	,	_	_
+7-9	646-649	und	_	_
+7-10	650-655	finde	_	_
+7-11	656-659	ich	_	_
+7-12	660-665	nicht	_	_
+7-13	666-670	noch	_	_
+7-14	671-677	morgen	_	_
+7-15	678-682	eine	_	_
+7-16	683-692	billigere	_	_
+7-17	693-704	Gelegenheit	_	_
+7-18	705-706	,	_	_
+7-19	707-709	so	_	_
+7-20	710-713	muß	_	_
+7-21	714-717	ich	_	_
+7-22	718-729	schließlich	_	_
+7-23	730-734	doch	_	_
+7-24	735-738	250	_	_
+7-25	739-742	fr.	_	_
+7-26	743-749	zahlen	_	_
+7-27	750-751	:	_	_
+7-28	752-755	was	_	_
+7-29	756-764	freilich	_	_
+7-30	765-771	selbst	_	_
+7-31	772-775	für	_	_
+7-32	776-781	Paris	*	PLACEmentioned
+7-33	782-787	nicht	_	_
+7-34	788-794	billig	_	_
+7-35	795-798	ist	_	_
+7-36	799-800	.	_	_
+
+#Text=Daß ich Janze 's Terracottenwerk geschnurrt , schrieb ich wohl schon \; seitdem habe ich einen dito Folio-Band : Collection Fould erobert .
+8-1	801-804	Daß	_	_
+8-2	805-808	ich	_	_
+8-3	809-814	Janze	*[4]	PERmentioned[4]
+8-4	815-817	's	*[4]	PERmentioned[4]
+8-5	818-833	Terracottenwerk	_	_
+8-6	834-844	geschnurrt	_	_
+8-7	845-846	,	_	_
+8-8	847-854	schrieb	_	_
+8-9	855-858	ich	_	_
+8-10	859-863	wohl	_	_
+8-11	864-869	schon	_	_
+8-12	870-871	\;	_	_
+8-13	872-879	seitdem	_	_
+8-14	880-884	habe	_	_
+8-15	885-888	ich	_	_
+8-16	889-894	einen	_	_
+8-17	895-899	dito	_	_
+8-18	900-910	Folio-Band	_	_
+8-19	911-912	:	_	_
+8-20	913-923	Collection	_	_
+8-21	924-929	Fould	*	PERmentioned
+8-22	930-937	erobert	_	_
+8-23	938-939	.	_	_
+
+#Text=Texier Asie mineure wird immer noch Geld genug kosten , da u.a. mehrere Seiten Text nicht mehr vorhanden sind , sondern abgeschrieben werden müssen .
+9-1	940-946	Texier	*	PERmentioned
+9-2	947-951	Asie	_	_
+9-3	952-959	mineure	_	_
+9-4	960-964	wird	_	_
+9-5	965-970	immer	_	_
+9-6	971-975	noch	_	_
+9-7	976-980	Geld	_	_
+9-8	981-986	genug	_	_
+9-9	987-993	kosten	_	_
+9-10	994-995	,	_	_
+9-11	996-998	da	_	_
+9-12	999-1003	u.a.	_	_
+9-13	1004-1011	mehrere	_	_
+9-14	1012-1018	Seiten	_	_
+9-15	1019-1023	Text	_	_
+9-16	1024-1029	nicht	_	_
+9-17	1030-1034	mehr	_	_
+9-18	1035-1044	vorhanden	_	_
+9-19	1045-1049	sind	_	_
+9-20	1050-1051	,	_	_
+9-21	1052-1059	sondern	_	_
+9-22	1060-1073	abgeschrieben	_	_
+9-23	1074-1080	werden	_	_
+9-24	1081-1087	müssen	_	_
+9-25	1088-1089	.	_	_
+
+#Text=- Desvergers Bull .
+10-1	1090-1091	-	_	_
+10-2	1092-1102	Desvergers	*	PERmentioned
+10-3	1103-1107	Bull	_	_
+10-4	1108-1109	.	_	_
+
+#Text=des letzten Decenniums ist durch seine Rinmineser
+11-1	1110-1113	des	_	_
+11-2	1114-1121	letzten	_	_
+11-3	1122-1132	Decenniums	_	_
+11-4	1133-1136	ist	_	_
+11-5	1137-1142	durch	_	_
+11-6	1143-1148	seine	_	_
+11-7	1149-1159	Rinmineser	_	_

@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 2 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	2	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Januar 1874 7/74 Berlin , d . 2 .
+2-1	31-37	Januar	*[1]	DATEletter[1]
+2-2	38-42	1874	*[1]	DATEletter[1]
+2-3	43-47	7/74	*	DATErecieved
+2-4	48-54	Berlin	*	PLACEfrom
+2-5	55-56	,	_	_
+2-6	57-58	d	_	_
+2-7	59-60	.	_	_
+2-8	61-62	2	*[2]	DATEletter[2]
+2-9	63-64	.	*[2]	DATEletter[2]
+
+#Text=Jan .
+3-1	65-68	Jan	*[2]	DATEletter[2]
+3-2	69-70	.	*[2]	DATEletter[2]
+
+#Text=1874 Verehrter Freund Sie haben hoffentlich das neue Jahr gesund und frisch angetreten .
+4-1	71-75	1874	*[2]	DATEletter[2]
+4-2	76-85	Verehrter	_	_
+4-3	86-92	Freund	_	_
+4-4	93-96	Sie	_	_
+4-5	97-102	haben	_	_
+4-6	103-114	hoffentlich	_	_
+4-7	115-118	das	_	_
+4-8	119-123	neue	_	_
+4-9	124-128	Jahr	_	_
+4-10	129-135	gesund	_	_
+4-11	136-139	und	_	_
+4-12	140-146	frisch	_	_
+4-13	147-157	angetreten	_	_
+4-14	158-159	.	_	_
+
+#Text=lassen Sie mich noch nachträglich die aufrichtigen Glückwünsche Ihnen und Helbig zusenden .
+5-1	160-166	lassen	_	_
+5-2	167-170	Sie	_	_
+5-3	171-175	mich	_	_
+5-4	176-180	noch	_	_
+5-5	181-193	nachträglich	_	_
+5-6	194-197	die	_	_
+5-7	198-210	aufrichtigen	_	_
+5-8	211-223	Glückwünsche	_	_
+5-9	224-229	Ihnen	_	_
+5-10	230-233	und	_	_
+5-11	234-240	Helbig	*	PERmentioned
+5-12	241-249	zusenden	_	_
+5-13	250-251	.	_	_
+
+#Text=Unser Winter ist bisher nur zwei Tage lang kalt gewesen , und ich habe ihn seit acht Tagen nur durchs Fenster gesehen \; ein heftiger Brustkatarrh hat mich die ganzen Ferien über im Zimmer gehalten \; an der Jahresschwelle erst scheint er sich gebrochen zu haben .
+6-1	252-257	Unser	_	_
+6-2	258-264	Winter	_	_
+6-3	265-268	ist	_	_
+6-4	269-275	bisher	_	_
+6-5	276-279	nur	_	_
+6-6	280-284	zwei	_	_
+6-7	285-289	Tage	_	_
+6-8	290-294	lang	_	_
+6-9	295-299	kalt	_	_
+6-10	300-307	gewesen	_	_
+6-11	308-309	,	_	_
+6-12	310-313	und	_	_
+6-13	314-317	ich	_	_
+6-14	318-322	habe	_	_
+6-15	323-326	ihn	_	_
+6-16	327-331	seit	_	_
+6-17	332-336	acht	_	_
+6-18	337-342	Tagen	_	_
+6-19	343-346	nur	_	_
+6-20	347-353	durchs	_	_
+6-21	354-361	Fenster	_	_
+6-22	362-369	gesehen	_	_
+6-23	370-371	\;	_	_
+6-24	372-375	ein	_	_
+6-25	376-384	heftiger	_	_
+6-26	385-397	Brustkatarrh	_	_
+6-27	398-401	hat	_	_
+6-28	402-406	mich	_	_
+6-29	407-410	die	_	_
+6-30	411-417	ganzen	_	_
+6-31	418-424	Ferien	_	_
+6-32	425-429	über	_	_
+6-33	430-432	im	_	_
+6-34	433-439	Zimmer	_	_
+6-35	440-448	gehalten	_	_
+6-36	449-450	\;	_	_
+6-37	451-453	an	_	_
+6-38	454-457	der	_	_
+6-39	458-472	Jahresschwelle	_	_
+6-40	473-477	erst	_	_
+6-41	478-485	scheint	_	_
+6-42	486-488	er	_	_
+6-43	489-493	sich	_	_
+6-44	494-503	gebrochen	_	_
+6-45	504-506	zu	_	_
+6-46	507-512	haben	_	_
+6-47	513-514	.	_	_
+
+#Text=Ich denke Sie werden Ihr neues Gehalt rechtzeitig ausgezahlt erhalten haben , obgleich ich von Hepke keine ausdrückliche Antwort auf meine Mahnung erhalten habe .
+7-1	515-518	Ich	_	_
+7-2	519-524	denke	_	_
+7-3	525-528	Sie	_	_
+7-4	529-535	werden	_	_
+7-5	536-539	Ihr	_	_
+7-6	540-545	neues	_	_
+7-7	546-552	Gehalt	_	_
+7-8	553-564	rechtzeitig	_	_
+7-9	565-575	ausgezahlt	_	_
+7-10	576-584	erhalten	_	_
+7-11	585-590	haben	_	_
+7-12	591-592	,	_	_
+7-13	593-601	obgleich	_	_
+7-14	602-605	ich	_	_
+7-15	606-609	von	_	_
+7-16	610-615	Hepke	*	PERmentioned
+7-17	616-621	keine	_	_
+7-18	622-635	ausdrückliche	_	_
+7-19	636-643	Antwort	_	_
+7-20	644-647	auf	_	_
+7-21	648-653	meine	_	_
+7-22	654-661	Mahnung	_	_
+7-23	662-670	erhalten	_	_
+7-24	671-675	habe	_	_
+7-25	676-677	.	_	_
+
+#Text=Den früheren Etat von 1873 wie er unter den 28. Mai genehmigt war , haben Sie bereits damals von mir in Abschrift erhalten .
+8-1	678-681	Den	_	_
+8-2	682-690	früheren	_	_
+8-3	691-695	Etat	_	_
+8-4	696-699	von	_	_
+8-5	700-704	1873	*	DATEmentioned
+8-6	705-708	wie	_	_
+8-7	709-711	er	_	_
+8-8	712-717	unter	_	_
+8-9	718-721	den	_	_
+8-10	722-725	28.	*[3]	DATEmentioned[3]
+8-11	726-729	Mai	*[3]	DATEmentioned[3]
+8-12	730-739	genehmigt	_	_
+8-13	740-743	war	_	_
+8-14	744-745	,	_	_
+8-15	746-751	haben	_	_
+8-16	752-755	Sie	_	_
+8-17	756-763	bereits	_	_
+8-18	764-770	damals	_	_
+8-19	771-774	von	_	_
+8-20	775-778	mir	_	_
+8-21	779-781	in	_	_
+8-22	782-791	Abschrift	_	_
+8-23	792-800	erhalten	_	_
+8-24	801-802	.	_	_
+
+#Text=Seitdem ist uns keiner wieder aus dem Ministerium zugegangen .
+9-1	803-810	Seitdem	_	_
+9-2	811-814	ist	_	_
+9-3	815-818	uns	_	_
+9-4	819-825	keiner	_	_
+9-5	826-832	wieder	_	_
+9-6	833-836	aus	_	_
+9-7	837-840	dem	_	_
+9-8	841-852	Ministerium	*	ORGmentioned
+9-9	853-863	zugegangen	_	_
+9-10	864-865	.	_	_
+
+#Text=Formell ist noch Alles in suspenso .
+10-1	866-873	Formell	_	_
+10-2	874-877	ist	_	_
+10-3	878-882	noch	_	_
+10-4	883-888	Alles	_	_
+10-5	889-891	in	_	_
+10-6	892-900	suspenso	_	_
+10-7	901-902	.	_	_
+
+#Text=Materiell aber ist unser neuer Etat , wie wir ihn für das Reichs Institut gemacht haben , allerdings schon bewilligt .
+11-1	903-912	Materiell	_	_
+11-2	913-917	aber	_	_
+11-3	918-921	ist	_	_
+11-4	922-927	unser	_	_
+11-5	928-933	neuer	_	_
+11-6	934-938	Etat	_	_
+11-7	939-940	,	_	_
+11-8	941-944	wie	_	_
+11-9	945-948	wir	_	_
+11-10	949-952	ihn	_	_
+11-11	953-956	für	_	_
+11-12	957-960	das	_	_
+11-13	961-967	Reichs	*[4]	ORGmentioned[4]
+11-14	968-976	Institut	*[4]	ORGmentioned[4]
+11-15	977-984	gemacht	_	_
+11-16	985-990	haben	_	_
+11-17	991-992	,	_	_
+11-18	993-1003	allerdings	_	_
+11-19	1004-1009	schon	_	_
+11-20	1010-1019	bewilligt	_	_
+11-21	1020-1021	.	_	_
+
+#Text=Unsern Entwurf lasse ich Ihnen h & erbei in Abschrift zugehen .
+12-1	1022-1028	Unsern	_	_
+12-2	1029-1036	Entwurf	_	_
+12-3	1037-1042	lasse	_	_
+12-4	1043-1046	ich	_	_
+12-5	1047-1052	Ihnen	_	_
+12-6	1053-1054	h	_	_
+12-7	1055-1056	&	_	_
+12-8	1057-1062	erbei	_	_
+12-9	1063-1065	in	_	_
+12-10	1066-1075	Abschrift	_	_
+12-11	1076-1083	zugehen	_	_
+12-12	1084-1085	.	_	_
+
+#Text=Dieser ist dann durch unsre
+13-1	1086-1092	Dieser	_	_
+13-2	1093-1096	ist	_	_
+13-3	1097-1101	dann	_	_
+13-4	1102-1107	durch	_	_
+13-5	1108-1113	unsre	_	_

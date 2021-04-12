@@ -1,0 +1,261 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=881 Lanci an Gerhard Prof. Gerhard Roma , 16. Juni 1835 Berlin Roma , li 16 .
+1-1	0-3	881	_	_
+1-2	4-9	Lanci	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-39	Roma	*	PLACEfrom
+1-8	40-41	,	_	_
+1-9	42-45	16.	*[2]	DATEletter[2]
+1-10	46-50	Juni	*[2]	DATEletter[2]
+1-11	51-55	1835	*[2]	DATEletter[2]
+1-12	56-62	Berlin	*	PLACEto
+1-13	63-67	Roma	*	PLACEfrom
+1-14	68-69	,	_	_
+1-15	70-72	li	_	_
+1-16	73-75	16	*[3]	DATEletter[3]
+1-17	76-77	.	*[3]	DATEletter[3]
+
+#Text=Giugno 1835 Carissimo Amico Quanto mi ha recato piacere l'ultima carissima Sua del 26. maggio scorso , tanto mi affolora non poterci all'istante compieacere sui conti che mi richiedete .
+2-1	78-84	Giugno	*[3]	DATEletter[3]
+2-2	85-89	1835	*[3]	DATEletter[3]
+2-3	90-99	Carissimo	_	_
+2-4	100-105	Amico	_	_
+2-5	106-112	Quanto	_	_
+2-6	113-115	mi	_	_
+2-7	116-118	ha	_	_
+2-8	119-125	recato	_	_
+2-9	126-133	piacere	_	_
+2-10	134-142	l'ultima	_	_
+2-11	143-152	carissima	_	_
+2-12	153-156	Sua	_	_
+2-13	157-160	del	_	_
+2-14	161-164	26.	*[4]	DATEmentioned[4]
+2-15	165-171	maggio	*[4]	DATEmentioned[4]
+2-16	172-178	scorso	*[4]	DATEmentioned[4]
+2-17	179-180	,	_	_
+2-18	181-186	tanto	_	_
+2-19	187-189	mi	_	_
+2-20	190-198	affolora	_	_
+2-21	199-202	non	_	_
+2-22	203-210	poterci	_	_
+2-23	211-222	all'istante	_	_
+2-24	223-234	compieacere	_	_
+2-25	235-238	sui	_	_
+2-26	239-244	conti	_	_
+2-27	245-248	che	_	_
+2-28	249-251	mi	_	_
+2-29	252-262	richiedete	_	_
+2-30	263-264	.	_	_
+
+#Text=Io sono ora intento a farne la compilazione , la quale mi ajuto a rendere determinata al maximum per opporla ai tanti calcoli ipotetici fatti fare dal cav .
+3-1	265-267	Io	_	_
+3-2	268-272	sono	_	_
+3-3	273-276	ora	_	_
+3-4	277-284	intento	_	_
+3-5	285-286	a	_	_
+3-6	287-292	farne	_	_
+3-7	293-295	la	_	_
+3-8	296-308	compilazione	_	_
+3-9	309-310	,	_	_
+3-10	311-313	la	_	_
+3-11	314-319	quale	_	_
+3-12	320-322	mi	_	_
+3-13	323-328	ajuto	_	_
+3-14	329-330	a	_	_
+3-15	331-338	rendere	_	_
+3-16	339-350	determinata	_	_
+3-17	351-353	al	_	_
+3-18	354-361	maximum	_	_
+3-19	362-365	per	_	_
+3-20	366-373	opporla	_	_
+3-21	374-376	ai	_	_
+3-22	377-382	tanti	_	_
+3-23	383-390	calcoli	_	_
+3-24	391-400	ipotetici	_	_
+3-25	401-406	fatti	_	_
+3-26	407-411	fare	_	_
+3-27	412-415	dal	_	_
+3-28	416-419	cav	_	_
+3-29	420-421	.	_	_
+
+#Text=Bunsen , e appena avrö compioto le vostre regioni ve ne manderö.un ristratto chiaro quanto mai potete desiderare e che mi sia possibile di fare .
+4-1	422-428	Bunsen	*	PERmentioned
+4-2	429-430	,	_	_
+4-3	431-432	e	_	_
+4-4	433-439	appena	_	_
+4-5	440-444	avrö	_	_
+4-6	445-453	compioto	_	_
+4-7	454-456	le	_	_
+4-8	457-463	vostre	_	_
+4-9	464-471	regioni	_	_
+4-10	472-474	ve	_	_
+4-11	475-477	ne	_	_
+4-12	478-488	manderö.un	_	_
+4-13	489-498	ristratto	_	_
+4-14	499-505	chiaro	_	_
+4-15	506-512	quanto	_	_
+4-16	513-516	mai	_	_
+4-17	517-523	potete	_	_
+4-18	524-534	desiderare	_	_
+4-19	535-536	e	_	_
+4-20	537-540	che	_	_
+4-21	541-543	mi	_	_
+4-22	544-547	sia	_	_
+4-23	548-557	possibile	_	_
+4-24	558-560	di	_	_
+4-25	561-565	fare	_	_
+4-26	566-567	.	_	_
+
+#Text=Sono vivamente compreso dai reali dispiaceri recativi da una scapestrata smania d'innovazioni , la quale a mio credere tende piü ad accrescere che a dimunuire i disordini accaduti .
+5-1	568-572	Sono	_	_
+5-2	573-582	vivamente	_	_
+5-3	583-591	compreso	_	_
+5-4	592-595	dai	_	_
+5-5	596-601	reali	_	_
+5-6	602-612	dispiaceri	_	_
+5-7	613-621	recativi	_	_
+5-8	622-624	da	_	_
+5-9	625-628	una	_	_
+5-10	629-640	scapestrata	_	_
+5-11	641-647	smania	_	_
+5-12	648-661	d'innovazioni	_	_
+5-13	662-663	,	_	_
+5-14	664-666	la	_	_
+5-15	667-672	quale	_	_
+5-16	673-674	a	_	_
+5-17	675-678	mio	_	_
+5-18	679-686	credere	_	_
+5-19	687-692	tende	_	_
+5-20	693-696	piü	_	_
+5-21	697-699	ad	_	_
+5-22	700-710	accrescere	_	_
+5-23	711-714	che	_	_
+5-24	715-716	a	_	_
+5-25	717-726	dimunuire	_	_
+5-26	727-728	i	_	_
+5-27	729-738	disordini	_	_
+5-28	739-747	accaduti	_	_
+5-29	748-749	.	_	_
+
+#Text=In ogni caso peraltro siate certo che per quello io possa non macherö mai di fare tutto ciö che mi pensi possa essere di vostro gradimento .
+6-1	750-752	In	_	_
+6-2	753-757	ogni	_	_
+6-3	758-762	caso	_	_
+6-4	763-771	peraltro	_	_
+6-5	772-777	siate	_	_
+6-6	778-783	certo	_	_
+6-7	784-787	che	_	_
+6-8	788-791	per	_	_
+6-9	792-798	quello	_	_
+6-10	799-801	io	_	_
+6-11	802-807	possa	_	_
+6-12	808-811	non	_	_
+6-13	812-819	macherö	_	_
+6-14	820-823	mai	_	_
+6-15	824-826	di	_	_
+6-16	827-831	fare	_	_
+6-17	832-837	tutto	_	_
+6-18	838-841	ciö	_	_
+6-19	842-845	che	_	_
+6-20	846-848	mi	_	_
+6-21	849-854	pensi	_	_
+6-22	855-860	possa	_	_
+6-23	861-867	essere	_	_
+6-24	868-870	di	_	_
+6-25	871-877	vostro	_	_
+6-26	878-888	gradimento	_	_
+6-27	889-890	.	_	_
+
+#Text=Nelle attuali cose si & fatto dal dott .
+7-1	891-896	Nelle	_	_
+7-2	897-904	attuali	_	_
+7-3	905-909	cose	_	_
+7-4	910-912	si	_	_
+7-5	913-914	&	_	_
+7-6	915-920	fatto	_	_
+7-7	921-924	dal	_	_
+7-8	925-929	dott	_	_
+7-9	930-931	.	_	_
+
+#Text=Braun e da me quello che si potea , ma come resistere all'impeto dei voleri del cav .
+8-1	932-937	Braun	*	PERmentioned
+8-2	938-939	e	_	_
+8-3	940-942	da	_	_
+8-4	943-945	me	_	_
+8-5	946-952	quello	_	_
+8-6	953-956	che	_	_
+8-7	957-959	si	_	_
+8-8	960-965	potea	_	_
+8-9	966-967	,	_	_
+8-10	968-970	ma	_	_
+8-11	971-975	come	_	_
+8-12	976-985	resistere	_	_
+8-13	986-996	all'impeto	_	_
+8-14	997-1000	dei	_	_
+8-15	1001-1007	voleri	_	_
+8-16	1008-1011	del	_	_
+8-17	1012-1015	cav	_	_
+8-18	1016-1017	.	_	_
+
+#Text=Bunsen , a cui tutti gli altri assistenti e membri della Direzione non sanno fare che applaudire , benche internamente sono di contrario parere ?
+9-1	1018-1024	Bunsen	*	PERmentioned
+9-2	1025-1026	,	_	_
+9-3	1027-1028	a	_	_
+9-4	1029-1032	cui	_	_
+9-5	1033-1038	tutti	_	_
+9-6	1039-1042	gli	_	_
+9-7	1043-1048	altri	_	_
+9-8	1049-1059	assistenti	_	_
+9-9	1060-1061	e	_	_
+9-10	1062-1068	membri	_	_
+9-11	1069-1074	della	_	_
+9-12	1075-1084	Direzione	*	ORGmentioned
+9-13	1085-1088	non	_	_
+9-14	1089-1094	sanno	_	_
+9-15	1095-1099	fare	_	_
+9-16	1100-1103	che	_	_
+9-17	1104-1114	applaudire	_	_
+9-18	1115-1116	,	_	_
+9-19	1117-1123	benche	_	_
+9-20	1124-1136	internamente	_	_
+9-21	1137-1141	sono	_	_
+9-22	1142-1144	di	_	_
+9-23	1145-1154	contrario	_	_
+9-24	1155-1161	parere	_	_
+9-25	1162-1163	?	_	_
+
+#Text=Io credo che la venuta del dott .
+10-1	1164-1166	Io	_	_
+10-2	1167-1172	credo	_	_
+10-3	1173-1176	che	_	_
+10-4	1177-1179	la	_	_
+10-5	1180-1186	venuta	_	_
+10-6	1187-1190	del	_	_
+10-7	1191-1195	dott	_	_
+10-8	1196-1197	.	_	_
+
+#Text=Panofka sar ' a srandemente utile e cercate di affrettarla al possibile : nulla peraltro si puöd egualiare
+11-1	1198-1205	Panofka	*	PERmentioned
+11-2	1206-1209	sar	_	_
+11-3	1210-1211	'	_	_
+11-4	1212-1213	a	_	_
+11-5	1214-1225	srandemente	_	_
+11-6	1226-1231	utile	_	_
+11-7	1232-1233	e	_	_
+11-8	1234-1241	cercate	_	_
+11-9	1242-1244	di	_	_
+11-10	1245-1256	affrettarla	_	_
+11-11	1257-1259	al	_	_
+11-12	1260-1269	possibile	_	_
+11-13	1270-1271	:	_	_
+11-14	1272-1277	nulla	_	_
+11-15	1278-1286	peraltro	_	_
+11-16	1287-1289	si	_	_
+11-17	1290-1294	puöd	_	_
+11-18	1295-1304	egualiare	_	_

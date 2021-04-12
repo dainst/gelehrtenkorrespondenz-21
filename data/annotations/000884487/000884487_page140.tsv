@@ -1,0 +1,135 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Rom , 16. Dezember 1836 16/12 36 Lieber Freund .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	16.	*[4]	DATEletter[4]
+1-7	27-35	Dezember	*[4]	DATEletter[4]
+1-8	36-40	1836	*[4]	DATEletter[4]
+1-9	41-46	16/12	*[5]	DATEletter[5]
+1-10	47-49	36	*[5]	DATEletter[5]
+1-11	50-56	Lieber	_	_
+1-12	57-63	Freund	_	_
+1-13	64-65	.	_	_
+
+#Text=Der Processo verbale der vorigen Adunanza muß etwa mit folgendem Vebergang über den 9 Dec .
+2-1	66-69	Der	_	_
+2-2	70-78	Processo	_	_
+2-3	79-86	verbale	_	_
+2-4	87-90	der	_	_
+2-5	91-98	vorigen	_	_
+2-6	99-107	Adunanza	_	_
+2-7	108-111	muß	_	_
+2-8	112-116	etwa	_	_
+2-9	117-120	mit	_	_
+2-10	121-130	folgendem	_	_
+2-11	131-140	Vebergang	_	_
+2-12	141-145	über	_	_
+2-13	146-149	den	_	_
+2-14	150-151	9	*[6]	DATEmentioned[6]
+2-15	152-155	Dec	*[6]	DATEmentioned[6]
+2-16	156-157	.	_	_
+
+#Text=geschlossen werden : Alla lodata Adunanza de ' 2 Dic .
+3-1	158-169	geschlossen	_	_
+3-2	170-176	werden	_	_
+3-3	177-178	:	_	_
+3-4	179-183	Alla	_	_
+3-5	184-190	lodata	_	_
+3-6	191-199	Adunanza	_	_
+3-7	200-202	de	_	_
+3-8	203-204	'	_	_
+3-9	205-206	2	*[7]	DATEmentioned[7]
+3-10	207-210	Dic	*[7]	DATEmentioned[7]
+3-11	211-212	.	_	_
+
+#Text=dovendo precedere quella de !
+4-1	213-220	dovendo	_	_
+4-2	221-230	precedere	_	_
+4-3	231-237	quella	_	_
+4-4	238-240	de	_	_
+4-5	241-242	!	_	_
+
+#Text=9 , il giorno natalizio di Winckelmann coincidente con questa data , fece differire la consueta letteraria riunione , dedicata a quel giorno \; in accordo che il giorno stesso de ' 9 fosse celebrata per una riunione straordinaria nella Villa Albani , sito sopratutto sacro alla memoria di quel granlfondatore dell'archeologia , e le comunicazioni letterarie deputate a far commemorazione dello stesso Winckelmann restassero differite sino ai 16 del mese corrente .
+5-1	243-244	9	*	DATEmentioned
+5-2	245-246	,	_	_
+5-3	247-249	il	_	_
+5-4	250-256	giorno	_	_
+5-5	257-266	natalizio	_	_
+5-6	267-269	di	_	_
+5-7	270-281	Winckelmann	*	PERmentioned
+5-8	282-293	coincidente	_	_
+5-9	294-297	con	_	_
+5-10	298-304	questa	_	_
+5-11	305-309	data	_	_
+5-12	310-311	,	_	_
+5-13	312-316	fece	_	_
+5-14	317-326	differire	_	_
+5-15	327-329	la	_	_
+5-16	330-338	consueta	_	_
+5-17	339-349	letteraria	_	_
+5-18	350-358	riunione	_	_
+5-19	359-360	,	_	_
+5-20	361-369	dedicata	_	_
+5-21	370-371	a	_	_
+5-22	372-376	quel	_	_
+5-23	377-383	giorno	_	_
+5-24	384-385	\;	_	_
+5-25	386-388	in	_	_
+5-26	389-396	accordo	_	_
+5-27	397-400	che	_	_
+5-28	401-403	il	_	_
+5-29	404-410	giorno	_	_
+5-30	411-417	stesso	_	_
+5-31	418-420	de	_	_
+5-32	421-422	'	_	_
+5-33	423-424	9	_	_
+5-34	425-430	fosse	_	_
+5-35	431-440	celebrata	_	_
+5-36	441-444	per	_	_
+5-37	445-448	una	_	_
+5-38	449-457	riunione	_	_
+5-39	458-471	straordinaria	_	_
+5-40	472-477	nella	_	_
+5-41	478-483	Villa	*[10]	PLACEmentioned[10]
+5-42	484-490	Albani	*[10]	PLACEmentioned[10]
+5-43	491-492	,	_	_
+5-44	493-497	sito	_	_
+5-45	498-508	sopratutto	_	_
+5-46	509-514	sacro	_	_
+5-47	515-519	alla	_	_
+5-48	520-527	memoria	_	_
+5-49	528-530	di	_	_
+5-50	531-535	quel	_	_
+5-51	536-550	granlfondatore	_	_
+5-52	551-567	dell'archeologia	_	_
+5-53	568-569	,	_	_
+5-54	570-571	e	_	_
+5-55	572-574	le	_	_
+5-56	575-588	comunicazioni	_	_
+5-57	589-599	letterarie	_	_
+5-58	600-608	deputate	_	_
+5-59	609-610	a	_	_
+5-60	611-614	far	_	_
+5-61	615-629	commemorazione	_	_
+5-62	630-635	dello	_	_
+5-63	636-642	stesso	_	_
+5-64	643-654	Winckelmann	*	PERmentioned
+5-65	655-665	restassero	_	_
+5-66	666-675	differite	_	_
+5-67	676-680	sino	_	_
+5-68	681-683	ai	_	_
+5-69	684-686	16	*[12]	DATEmentioned[12]
+5-70	687-690	del	*[12]	DATEmentioned[12]
+5-71	691-695	mese	*[12]	DATEmentioned[12]
+5-72	696-704	corrente	*[12]	DATEmentioned[12]
+5-73	705-706	.	_	_
+
+#Text=Gerhard .
+6-1	707-714	Gerhard	*	PERauthor
+6-2	715-716	.	_	_

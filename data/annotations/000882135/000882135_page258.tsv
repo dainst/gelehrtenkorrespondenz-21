@@ -1,0 +1,168 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Erle 257 Braun an Gerhard Rom , 8 .
+1-1	0-4	Erle	_	_
+1-2	5-8	257	_	_
+1-3	9-14	Braun	*	PERauthor
+1-4	15-17	an	_	_
+1-5	18-25	Gerhard	*	PERaddressee
+1-6	26-29	Rom	*	PLACEfrom
+1-7	30-31	,	_	_
+1-8	32-33	8	*[4]	DATEletter[4]
+1-9	34-35	.	*[4]	DATEletter[4]
+
+#Text=August 1840 Hochverehrtester Fraund !
+2-1	36-42	August	*[4]	DATEletter[4]
+2-2	43-47	1840	*[4]	DATEletter[4]
+2-3	48-64	Hochverehrtester	_	_
+2-4	65-71	Fraund	_	_
+2-5	72-73	!	_	_
+
+#Text=Andurch erhalten Sie daß durch mich ermittelte Parere Gruner 's über den von Sozzi angebotenen Raphael .
+3-1	74-81	Andurch	_	_
+3-2	82-90	erhalten	_	_
+3-3	91-94	Sie	_	_
+3-4	95-98	daß	_	_
+3-5	99-104	durch	_	_
+3-6	105-109	mich	_	_
+3-7	110-120	ermittelte	_	_
+3-8	121-127	Parere	_	_
+3-9	128-134	Gruner	*[16]	PERmentioned[16]
+3-10	135-137	's	*[16]	PERmentioned[16]
+3-11	138-142	über	_	_
+3-12	143-146	den	_	_
+3-13	147-150	von	_	_
+3-14	151-156	Sozzi	*	PERmentioned
+3-15	157-168	angebotenen	_	_
+3-16	169-176	Raphael	*	PERmentioned
+3-17	177-178	.	_	_
+
+#Text=Ich übersende Ihnen den Brief in Original und brauche Sie wohl nicht erst zu ersuchen alle Vorsicht anzuwenden daß Gruner nicht compromittirt werde .
+4-1	179-182	Ich	_	_
+4-2	183-192	übersende	_	_
+4-3	193-198	Ihnen	_	_
+4-4	199-202	den	_	_
+4-5	203-208	Brief	_	_
+4-6	209-211	in	_	_
+4-7	212-220	Original	_	_
+4-8	221-224	und	_	_
+4-9	225-232	brauche	_	_
+4-10	233-236	Sie	_	_
+4-11	237-241	wohl	_	_
+4-12	242-247	nicht	_	_
+4-13	248-252	erst	_	_
+4-14	253-255	zu	_	_
+4-15	256-264	ersuchen	_	_
+4-16	265-269	alle	_	_
+4-17	270-278	Vorsicht	_	_
+4-18	279-289	anzuwenden	_	_
+4-19	290-293	daß	_	_
+4-20	294-300	Gruner	*	PERmentioned
+4-21	301-306	nicht	_	_
+4-22	307-320	compromittirt	_	_
+4-23	321-326	werde	_	_
+4-24	327-328	.	_	_
+
+#Text=- Gruners Bereitwilligkeit können Sie Ihrem Museumschef nachdrücklich rühmen .
+5-1	329-330	-	_	_
+5-2	331-338	Gruners	*	PERmentioned
+5-3	339-355	Bereitwilligkeit	_	_
+5-4	356-362	können	_	_
+5-5	363-366	Sie	_	_
+5-6	367-372	Ihrem	_	_
+5-7	373-384	Museumschef	_	_
+5-8	385-398	nachdrücklich	_	_
+5-9	399-405	rühmen	_	_
+5-10	406-407	.	_	_
+
+#Text=Obwohl sie nur mir zugewandt ist , so kommt sie doch Ihrer Anstalt zu gute .
+6-1	408-414	Obwohl	_	_
+6-2	415-418	sie	_	_
+6-3	419-422	nur	_	_
+6-4	423-426	mir	_	_
+6-5	427-436	zugewandt	_	_
+6-6	437-440	ist	_	_
+6-7	441-442	,	_	_
+6-8	443-445	so	_	_
+6-9	446-451	kommt	_	_
+6-10	452-455	sie	_	_
+6-11	456-460	doch	_	_
+6-12	461-466	Ihrer	_	_
+6-13	467-474	Anstalt	_	_
+6-14	475-477	zu	_	_
+6-15	478-482	gute	_	_
+6-16	483-484	.	_	_
+
+#Text=Von den bei Ihnen vorräthigen Exemplaren meiner deutschen Abhandlungen bitte ich 2 an Hofrath Göttling und 1 an Schorn zu senden .
+7-1	485-488	Von	_	_
+7-2	489-492	den	_	_
+7-3	493-496	bei	_	_
+7-4	497-502	Ihnen	_	_
+7-5	503-514	vorräthigen	_	_
+7-6	515-525	Exemplaren	_	_
+7-7	526-532	meiner	_	_
+7-8	533-542	deutschen	_	_
+7-9	543-555	Abhandlungen	_	_
+7-10	556-561	bitte	_	_
+7-11	562-565	ich	_	_
+7-12	566-567	2	_	_
+7-13	568-570	an	_	_
+7-14	571-578	Hofrath	_	_
+7-15	579-587	Göttling	*	PERmentioned
+7-16	588-591	und	_	_
+7-17	592-593	1	_	_
+7-18	594-596	an	_	_
+7-19	597-603	Schorn	*	PERmentioned
+7-20	604-606	zu	_	_
+7-21	607-613	senden	_	_
+7-22	614-615	.	_	_
+
+#Text=Göttling ist beutebeladen von hier abgereist .
+8-1	616-624	Göttling	*	PERmentioned
+8-2	625-628	ist	_	_
+8-3	629-641	beutebeladen	_	_
+8-4	642-645	von	_	_
+8-5	646-650	hier	_	_
+8-6	651-660	abgereist	_	_
+8-7	661-662	.	_	_
+
+#Text=Für Archäologie hat er sehr viel Sinn und wahres Interesse .
+9-1	663-666	Für	_	_
+9-2	667-678	Archäologie	_	_
+9-3	679-682	hat	_	_
+9-4	683-685	er	_	_
+9-5	686-690	sehr	_	_
+9-6	691-695	viel	_	_
+9-7	696-700	Sinn	_	_
+9-8	701-704	und	_	_
+9-9	705-711	wahres	_	_
+9-10	712-721	Interesse	_	_
+9-11	722-723	.	_	_
+
+#Text=Den Annalen ist ein monumentaler Beitrag von ihm gesichert , und ein sehr interessanter .
+10-1	724-727	Den	_	_
+10-2	728-735	Annalen	_	_
+10-3	736-739	ist	_	_
+10-4	740-743	ein	_	_
+10-5	744-756	monumentaler	_	_
+10-6	757-764	Beitrag	_	_
+10-7	765-768	von	_	_
+10-8	769-772	ihm	_	_
+10-9	773-782	gesichert	_	_
+10-10	783-784	,	_	_
+10-11	785-788	und	_	_
+10-12	789-792	ein	_	_
+10-13	793-797	sehr	_	_
+10-14	798-811	interessanter	_	_
+10-15	812-813	.	_	_
+
+#Text=Ihr EBraun Rom 8 August 40 .
+11-1	814-817	Ihr	_	_
+11-2	818-824	EBraun	*	PERauthor
+11-3	825-828	Rom	*	PLACEfrom
+11-4	829-830	8	*[15]	DATEletter[15]
+11-5	831-837	August	*[15]	DATEletter[15]
+11-6	838-840	40	*[15]	DATEletter[15]
+11-7	841-842	.	_	_

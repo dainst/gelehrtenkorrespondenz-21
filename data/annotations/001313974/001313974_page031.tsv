@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=443 Helbig an Henzen Pompei , 19 .
+1-1	0-3	443	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Pompei	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	19	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=August 1864 ten Budget wäre es mir sehr angenehm , möglichst viel von den Münzen los zu werden und die .... e ..... der Summe möglichst zu verringern .
+2-1	35-41	August	*[3]	DATEletter[3]
+2-2	42-46	1864	*[3]	DATEletter[3]
+2-3	47-50	ten	_	_
+2-4	51-57	Budget	_	_
+2-5	58-62	wäre	_	_
+2-6	63-65	es	_	_
+2-7	66-69	mir	_	_
+2-8	70-74	sehr	_	_
+2-9	75-83	angenehm	_	_
+2-10	84-85	,	_	_
+2-11	86-95	möglichst	_	_
+2-12	96-100	viel	_	_
+2-13	101-104	von	_	_
+2-14	105-108	den	_	_
+2-15	109-115	Münzen	*	OBJ
+2-16	116-119	los	_	_
+2-17	120-122	zu	_	_
+2-18	123-129	werden	_	_
+2-19	130-133	und	_	_
+2-20	134-137	die	_	_
+2-21	138-142	....	_	_
+2-22	143-144	e	_	_
+2-23	145-150	.....	_	_
+2-24	151-154	der	_	_
+2-25	155-160	Summe	_	_
+2-26	161-170	möglichst	_	_
+2-27	171-173	zu	_	_
+2-28	174-184	verringern	_	_
+2-29	185-186	.	_	_
+
+#Text=Länger warten lassen kann man den Assessor auf keinen Fall .
+3-1	187-193	Länger	_	_
+3-2	194-200	warten	_	_
+3-3	201-207	lassen	_	_
+3-4	208-212	kann	_	_
+3-5	213-216	man	_	_
+3-6	217-220	den	_	_
+3-7	221-229	Assessor	_	_
+3-8	230-233	auf	_	_
+3-9	234-240	keinen	_	_
+3-10	241-245	Fall	_	_
+3-11	246-247	.	_	_
+
+#Text=An eine Specificirung der Münzen , wenn ich sie nicht unter den Augen habe , ist nicht zu denken .
+4-1	248-250	An	_	_
+4-2	251-255	eine	_	_
+4-3	256-269	Specificirung	_	_
+4-4	270-273	der	_	_
+4-5	274-280	Münzen	*	OBJ
+4-6	281-282	,	_	_
+4-7	283-287	wenn	_	_
+4-8	288-291	ich	_	_
+4-9	292-295	sie	_	_
+4-10	296-301	nicht	_	_
+4-11	302-307	unter	_	_
+4-12	308-311	den	_	_
+4-13	312-317	Augen	_	_
+4-14	318-322	habe	_	_
+4-15	323-324	,	_	_
+4-16	325-328	ist	_	_
+4-17	329-334	nicht	_	_
+4-18	335-337	zu	_	_
+4-19	338-344	denken	_	_
+4-20	345-346	.	_	_
+
+#Text=Friedländer mag nehmen , was , und taxiren , wie er will .
+5-1	347-358	Friedländer	*	PERmentioned
+5-2	359-362	mag	_	_
+5-3	363-369	nehmen	_	_
+5-4	370-371	,	_	_
+5-5	372-375	was	_	_
+5-6	376-377	,	_	_
+5-7	378-381	und	_	_
+5-8	382-389	taxiren	_	_
+5-9	390-391	,	_	_
+5-10	392-395	wie	_	_
+5-11	396-398	er	_	_
+5-12	399-403	will	_	_
+5-13	404-405	.	_	_
+
+#Text=Da Brunfdie Usedomschen Münzen an sich genonmen hat , gehören sämmtliche darin enthaltenen Münzen mir .
+6-1	406-408	Da	_	_
+6-2	409-417	Brunfdie	*	PERmentioned
+6-3	418-429	Usedomschen	*	MISC
+6-4	430-436	Münzen	*	OBJ
+6-5	437-439	an	_	_
+6-6	440-444	sich	_	_
+6-7	445-453	genonmen	_	_
+6-8	454-457	hat	_	_
+6-9	458-459	,	_	_
+6-10	460-467	gehören	_	_
+6-11	468-478	sämmtliche	_	_
+6-12	479-484	darin	_	_
+6-13	485-496	enthaltenen	_	_
+6-14	497-503	Münzen	_	_
+6-15	504-507	mir	_	_
+6-16	508-509	.	_	_
+
+#Text=Also fort mit Schaden \| !
+7-1	510-514	Also	_	_
+7-2	515-519	fort	_	_
+7-3	520-523	mit	_	_
+7-4	524-531	Schaden	_	_
+7-5	532-533	\|	_	_
+7-6	534-535	!	_	_
+
+#Text=Eine große Freude für mich ist es , daß ich vorige Woche habe den Narkissostorso kaufen können .
+8-1	536-540	Eine	_	_
+8-2	541-546	große	_	_
+8-3	547-553	Freude	_	_
+8-4	554-557	für	_	_
+8-5	558-562	mich	_	_
+8-6	563-566	ist	_	_
+8-7	567-569	es	_	_
+8-8	570-571	,	_	_
+8-9	572-575	daß	_	_
+8-10	576-579	ich	_	_
+8-11	580-586	vorige	_	_
+8-12	587-592	Woche	_	_
+8-13	593-597	habe	_	_
+8-14	598-601	den	_	_
+8-15	602-616	Narkissostorso	*	OBJ
+8-16	617-623	kaufen	_	_
+8-17	624-630	können	_	_
+8-18	631-632	.	_	_
+
+#Text=Olfers hat mir mit löblicher Coulanz - ich revocire Alles gegen ihn Geschriebene - die betreffende Anweisung zugehen lassen .
+9-1	633-639	Olfers	*	PERmentioned
+9-2	640-643	hat	_	_
+9-3	644-647	mir	_	_
+9-4	648-651	mit	_	_
+9-5	652-661	löblicher	_	_
+9-6	662-669	Coulanz	_	_
+9-7	670-671	-	_	_
+9-8	672-675	ich	_	_
+9-9	676-684	revocire	_	_
+9-10	685-690	Alles	_	_
+9-11	691-696	gegen	_	_
+9-12	697-700	ihn	_	_
+9-13	701-713	Geschriebene	_	_
+9-14	714-715	-	_	_
+9-15	716-719	die	_	_
+9-16	720-731	betreffende	_	_
+9-17	732-741	Anweisung	_	_
+9-18	742-749	zugehen	_	_
+9-19	750-756	lassen	_	_
+9-20	757-758	.	_	_
+
+#Text=Die Sache wird entschieden Effect machen .
+10-1	759-762	Die	_	_
+10-2	763-768	Sache	_	_
+10-3	769-773	wird	_	_
+10-4	774-785	entschieden	_	_
+10-5	786-792	Effect	_	_
+10-6	793-799	machen	_	_
+10-7	800-801	.	_	_
+
+#Text=Fiorelli taxirt den Torso auf 50 Piaster , ich habe ihn für 30 aquirirt .
+11-1	802-810	Fiorelli	*	PERmentioned
+11-2	811-817	taxirt	_	_
+11-3	818-821	den	_	_
+11-4	822-827	Torso	*	OBJ
+11-5	828-831	auf	_	_
+11-6	832-834	50	_	_
+11-7	835-842	Piaster	_	_
+11-8	843-844	,	_	_
+11-9	845-848	ich	_	_
+11-10	849-853	habe	_	_
+11-11	854-857	ihn	_	_
+11-12	858-861	für	_	_
+11-13	862-864	30	_	_
+11-14	865-873	aquirirt	_	_
+11-15	874-875	.	_	_
+
+#Text=Er ist heute auf dem Wege nach Berlin .
+12-1	876-878	Er	_	_
+12-2	879-882	ist	_	_
+12-3	883-888	heute	_	_
+12-4	889-892	auf	_	_
+12-5	893-896	dem	_	_
+12-6	897-901	Wege	_	_
+12-7	902-906	nach	_	_
+12-8	907-913	Berlin	*	PLACEmentioned
+12-9	914-915	.	_	_
+
+#Text=wie soll ich es , falls Scalabrini nicht nach Neapel kommt , mit dem Jahnschen Auftrage halten ?
+13-1	916-919	wie	_	_
+13-2	920-924	soll	_	_
+13-3	925-928	ich	_	_
+13-4	929-931	es	_	_
+13-5	932-933	,	_	_
+13-6	934-939	falls	_	_
+13-7	940-950	Scalabrini	*	PERmentioned
+13-8	951-956	nicht	_	_
+13-9	957-961	nach	_	_
+13-10	962-968	Neapel	*	PLACEmentioned
+13-11	969-974	kommt	_	_
+13-12	975-976	,	_	_
+13-13	977-980	mit	_	_
+13-14	981-984	dem	_	_
+13-15	985-994	Jahnschen	*	MISC
+13-16	995-1003	Auftrage	_	_
+13-17	1004-1010	halten	_	_
+13-18	1011-1012	?	_	_
+
+#Text=Einen Zeichner express von Neapel nach Capua hin und zurück reisen zu lassen würde die Sache unendlich vertheuern .
+14-1	1013-1018	Einen	_	_
+14-2	1019-1027	Zeichner	_	_
+14-3	1028-1035	express	_	_
+14-4	1036-1039	von	_	_
+14-5	1040-1046	Neapel	*	PLACEmentioned
+14-6	1047-1051	nach	_	_
+14-7	1052-1057	Capua	*	PLACEmentioned
+14-8	1058-1061	hin	_	_
+14-9	1062-1065	und	_	_
+14-10	1066-1072	zurück	_	_
+14-11	1073-1079	reisen	_	_
+14-12	1080-1082	zu	_	_
+14-13	1083-1089	lassen	_	_
+14-14	1090-1095	würde	_	_
+14-15	1096-1099	die	_	_
+14-16	1100-1105	Sache	_	_
+14-17	1106-1115	unendlich	_	_
+14-18	1116-1126	vertheuern	_	_
+14-19	1127-1128	.	_	_
+
+#Text=Ich bitte um Instruction hierüber .
+15-1	1129-1132	Ich	_	_
+15-2	1133-1138	bitte	_	_
+15-3	1139-1141	um	_	_
+15-4	1142-1153	Instruction	_	_
+15-5	1154-1162	hierüber	_	_
+15-6	1163-1164	.	_	_
+
+#Text=Über Gargiulo kann ich Ihnen noch nichts Definitives schreiben , da er bis jetzt nur zwei kleine Aktaionreliefs in Contour gezeichnet hat .
+16-1	1165-1169	Über	_	_
+16-2	1170-1178	Gargiulo	*	PERmentioned
+16-3	1179-1183	kann	_	_
+16-4	1184-1187	ich	_	_
+16-5	1188-1193	Ihnen	_	_
+16-6	1194-1198	noch	_	_
+16-7	1199-1205	nichts	_	_
+16-8	1206-1217	Definitives	_	_
+16-9	1218-1227	schreiben	_	_
+16-10	1228-1229	,	_	_
+16-11	1230-1232	da	_	_
+16-12	1233-1235	er	_	_
+16-13	1236-1239	bis	_	_
+16-14	1240-1245	jetzt	_	_
+16-15	1246-1249	nur	_	_
+16-16	1250-1254	zwei	_	_
+16-17	1255-1261	kleine	*[4]	OBJ[4]
+16-18	1262-1276	Aktaionreliefs	*[4]	OBJ[4]
+16-19	1277-1279	in	_	_
+16-20	1280-1287	Contour	_	_
+16-21	1288-1298	gezeichnet	_	_
+16-22	1299-1302	hat	_	_
+16-23	1303-1304	.	_	_
+
+#Text=So viel läßt sich jedoch schon jetzt mit Sicherheit sagen , daß er vielfach mit anderen Arbeiten überla-
+17-1	1305-1307	So	_	_
+17-2	1308-1312	viel	_	_
+17-3	1313-1317	läßt	_	_
+17-4	1318-1322	sich	_	_
+17-5	1323-1329	jedoch	_	_
+17-6	1330-1335	schon	_	_
+17-7	1336-1341	jetzt	_	_
+17-8	1342-1345	mit	_	_
+17-9	1346-1356	Sicherheit	_	_
+17-10	1357-1362	sagen	_	_
+17-11	1363-1364	,	_	_
+17-12	1365-1368	daß	_	_
+17-13	1369-1371	er	_	_
+17-14	1372-1380	vielfach	_	_
+17-15	1381-1384	mit	_	_
+17-16	1385-1392	anderen	_	_
+17-17	1393-1401	Arbeiten	_	_
+17-18	1402-1409	überla-	_	_

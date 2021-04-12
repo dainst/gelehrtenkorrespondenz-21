@@ -1,0 +1,113 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin , 8 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	8	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Januar 1846 Dr. Henzen Wenn an Cavedoni geschrieben wird , so wünscht Panofka dessen Spicilegium numismaticum und andre kitine Schriften desselben eingetauscht gegen diejenigen kleinen Schriften von ihm , die Cavedoni etwa dagegen wünschen möchte und sicher noch nicht erhielt .
+2-1	31-37	Januar	*[1]	DATEletter[1]
+2-2	38-42	1846	*[1]	DATEletter[1]
+2-3	43-46	Dr.	_	_
+2-4	47-53	Henzen	*	PERaddressee
+2-5	54-58	Wenn	_	_
+2-6	59-61	an	_	_
+2-7	62-70	Cavedoni	*	PERmentioned
+2-8	71-82	geschrieben	_	_
+2-9	83-87	wird	_	_
+2-10	88-89	,	_	_
+2-11	90-92	so	_	_
+2-12	93-100	wünscht	_	_
+2-13	101-108	Panofka	*	PERmentioned
+2-14	109-115	dessen	_	_
+2-15	116-127	Spicilegium	_	_
+2-16	128-140	numismaticum	_	_
+2-17	141-144	und	_	_
+2-18	145-150	andre	_	_
+2-19	151-157	kitine	_	_
+2-20	158-167	Schriften	_	_
+2-21	168-177	desselben	_	_
+2-22	178-190	eingetauscht	_	_
+2-23	191-196	gegen	_	_
+2-24	197-207	diejenigen	_	_
+2-25	208-215	kleinen	_	_
+2-26	216-225	Schriften	_	_
+2-27	226-229	von	_	_
+2-28	230-233	ihm	_	_
+2-29	234-235	,	_	_
+2-30	236-239	die	_	_
+2-31	240-248	Cavedoni	*	PERmentioned
+2-32	249-253	etwa	_	_
+2-33	254-261	dagegen	_	_
+2-34	262-270	wünschen	_	_
+2-35	271-277	möchte	_	_
+2-36	278-281	und	_	_
+2-37	282-288	sicher	_	_
+2-38	289-293	noch	_	_
+2-39	294-299	nicht	_	_
+2-40	300-307	erhielt	_	_
+2-41	308-309	.	_	_
+
+#Text=Desgleichen wenn an Riccio -— „ 1 Exemplar seineı Familienmünzen gegen Schriften von Panofka .
+3-1	310-321	Desgleichen	_	_
+3-2	322-326	wenn	_	_
+3-3	327-329	an	_	_
+3-4	330-336	Riccio	*	PERmentioned
+3-5	337-339	-—	_	_
+3-6	340-341	„	_	_
+3-7	342-343	1	_	_
+3-8	344-352	Exemplar	_	_
+3-9	353-359	seineı	_	_
+3-10	360-374	Familienmünzen	_	_
+3-11	375-380	gegen	_	_
+3-12	381-390	Schriften	_	_
+3-13	391-394	von	_	_
+3-14	395-402	Panofka	*	PERmentioned
+3-15	403-404	.	_	_
+
+#Text=Vieusseux bitte zu fragen wo Professor Pietro Capei gegenwärtig sich aufhält .
+4-1	405-414	Vieusseux	*	PERmentioned
+4-2	415-420	bitte	_	_
+4-3	421-423	zu	_	_
+4-4	424-430	fragen	_	_
+4-5	431-433	wo	_	_
+4-6	434-443	Professor	_	_
+4-7	444-450	Pietro	*[2]	PERmentioned[2]
+4-8	451-456	Capei	*[2]	PERmentioned[2]
+4-9	457-468	gegenwärtig	_	_
+4-10	469-473	sich	_	_
+4-11	474-481	aufhält	_	_
+4-12	482-483	.	_	_
+
+#Text=Die Briefe nach Orbetello werden ihm zur Beachtung anfragend vorgelegt , ob die Leute noch leben und dort sind .
+5-1	484-487	Die	_	_
+5-2	488-494	Briefe	_	_
+5-3	495-499	nach	_	_
+5-4	500-509	Orbetello	*	PLACEmentioned
+5-5	510-516	werden	_	_
+5-6	517-520	ihm	_	_
+5-7	521-524	zur	_	_
+5-8	525-534	Beachtung	_	_
+5-9	535-544	anfragend	_	_
+5-10	545-554	vorgelegt	_	_
+5-11	555-556	,	_	_
+5-12	557-559	ob	_	_
+5-13	560-563	die	_	_
+5-14	564-569	Leute	_	_
+5-15	570-574	noch	_	_
+5-16	575-580	leben	_	_
+5-17	581-584	und	_	_
+5-18	585-589	dort	_	_
+5-19	590-594	sind	_	_
+5-20	595-596	.	_	_
+
+#Text=Ohne Unterschrift 8/1846
+6-1	597-601	Ohne	_	_
+6-2	602-614	Unterschrift	_	_
+6-3	615-621	8/1846	*	DATEletter

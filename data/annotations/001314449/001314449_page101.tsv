@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=17 Henzen an Gerhard 18/1/53 schen Schnitzer stillschweigenäs beseitige .
+1-1	0-2	17	_	_	
+1-2	3-9	Henzen	*	PERauthor	
+1-3	10-12	an	_	_	
+1-4	13-20	Gerhard	*	PERaddressee	
+1-5	21-28	18/1/53	*	DATEletter	
+1-6	29-34	schen	_	_	
+1-7	35-44	Schnitzer	*	PERmentioned	
+1-8	45-61	stillschweigenäs	_	_	
+1-9	62-71	beseitige	_	_	
+1-10	72-73	.	_	_	
+
+#Text=- Unsre Hauptstütze wird mehr u. mehr de Rossi werden , ein vortrefflicher Mensch u , Gelehrter , der einzige unter all dem Gesindel | hier zu Lande , vor dem man Respect haben kann , natürlich im- | mer mit Ausnahme Borghesi 's .
+2-1	74-75	-	_	_	
+2-2	76-81	Unsre	_	_	
+2-3	82-93	Hauptstütze	_	_	
+2-4	94-98	wird	_	_	
+2-5	99-103	mehr	_	_	
+2-6	104-106	u.	_	_	
+2-7	107-111	mehr	_	_	
+2-8	112-114	de	*[1]	PERmentioned[1]	
+2-9	115-120	Rossi	*[1]	PERmentioned[1]	
+2-10	121-127	werden	_	_	
+2-11	128-129	,	_	_	
+2-12	130-133	ein	_	_	
+2-13	134-148	vortrefflicher	_	_	
+2-14	149-155	Mensch	_	_	
+2-15	156-157	u	_	_	
+2-16	158-159	,	_	_	
+2-17	160-169	Gelehrter	_	_	
+2-18	170-171	,	_	_	
+2-19	172-175	der	_	_	
+2-20	176-183	einzige	_	_	
+2-21	184-189	unter	_	_	
+2-22	190-193	all	_	_	
+2-23	194-197	dem	_	_	
+2-24	198-206	Gesindel	_	_	
+2-25	207-208	|	_	_	
+2-26	209-213	hier	_	_	
+2-27	214-216	zu	_	_	
+2-28	217-222	Lande	_	_	
+2-29	223-224	,	_	_	
+2-30	225-228	vor	_	_	
+2-31	229-232	dem	_	_	
+2-32	233-236	man	_	_	
+2-33	237-244	Respect	_	_	
+2-34	245-250	haben	_	_	
+2-35	251-255	kann	_	_	
+2-36	256-257	,	_	_	
+2-37	258-267	natürlich	_	_	
+2-38	268-271	im-	_	_	
+2-39	272-273	|	_	_	
+2-40	274-277	mer	_	_	
+2-41	278-281	mit	_	_	
+2-42	282-290	Ausnahme	_	_	
+2-43	291-299	Borghesi	*[2]	PERmentioned[2]	
+2-44	300-302	's	*[2]	PERmentioned[2]	
+2-45	303-304	.	_	_	
+
+#Text=Wenn Sie 's wünschen , ecco zwei Zeilen für Wineler .
+3-1	305-309	Wenn	_	_	
+3-2	310-313	Sie	_	_	
+3-3	314-316	's	_	_	
+3-4	317-325	wünschen	_	_	
+3-5	326-327	,	_	_	
+3-6	328-332	ecco	_	_	
+3-7	333-337	zwei	_	_	
+3-8	338-344	Zeilen	_	_	
+3-9	345-348	für	_	_	
+3-10	349-356	Wineler	*	PERmentioned	
+3-11	357-358	.	_	_	
+
+#Text=| Inhaltsanzeige der Ännalen ; wobei ich aber nicht sanz für richtige Rehenfolge stehe , noch dafür , dß .
+4-1	359-360	|	_	_	
+4-2	361-375	Inhaltsanzeige	_	_	
+4-3	376-379	der	_	_	
+4-4	380-387	Ännalen	_	_	
+4-5	388-389	;	_	_	
+4-6	390-395	wobei	_	_	
+4-7	396-399	ich	_	_	
+4-8	400-404	aber	_	_	
+4-9	405-410	nicht	_	_	
+4-10	411-415	sanz	_	_	
+4-11	416-419	für	_	_	
+4-12	420-428	richtige	_	_	
+4-13	429-439	Rehenfolge	_	_	
+4-14	440-445	stehe	_	_	
+4-15	446-447	,	_	_	
+4-16	448-452	noch	_	_	
+4-17	453-458	dafür	_	_	
+4-18	459-460	,	_	_	
+4-19	461-463	dß	_	_	
+4-20	464-465	.	_	_	
+
+#Text=nicht eine Kleiniskeit zum Schluße eingeschoben werde .
+5-1	466-471	nicht	_	_	
+5-2	472-476	eine	_	_	
+5-3	477-488	Kleiniskeit	_	_	
+5-4	489-492	zum	_	_	
+5-5	493-500	Schluße	_	_	
+5-6	501-513	eingeschoben	_	_	
+5-7	514-519	werde	_	_	
+5-8	520-521	.	_	_	
+
+#Text=Iscrizioni di Sepino ( Borshesi ) .
+6-1	522-532	Iscrizioni	*	OBJ	
+6-2	533-535	di	_	_	
+6-3	536-542	Sepino	*	PLACEmentioned	
+6-4	543-544	(	_	_	
+6-5	545-553	Borshesi	*	PERmentioned	
+6-6	554-555	)	_	_	
+6-7	556-557	.	_	_	
+
+#Text=- Goupes de Muses antiques ( tavv .
+7-1	558-559	-	_	_	
+7-2	560-566	Goupes	_	_	
+7-3	567-569	de	_	_	
+7-4	570-575	Muses	*[3]	ORGmentioned[3]	
+7-5	576-584	antiques	*[3]	ORGmentioned[3]	
+7-6	585-586	(	_	_	
+7-7	587-591	tavv	_	_	
+7-8	592-593	.	_	_	
+
+#Text=d'asgs .
+8-1	594-600	d'asgs	_	_	
+8-2	601-602	.	_	_	
+
+#Text=A-E ) ( Gedeonoff ) - Gli occhioni dipinti sopra le tazze degli antichi e del nodo d'Ercole , tav .
+9-1	603-606	A-E	_	_	
+9-2	607-608	)	_	_	
+9-3	609-610	(	_	_	
+9-4	611-620	Gedeonoff	*	PERmentioned	
+9-5	621-622	)	_	_	
+9-6	623-624	-	_	_	
+9-7	625-628	Gli	_	_	
+9-8	629-637	occhioni	_	_	
+9-9	638-645	dipinti	_	_	
+9-10	646-651	sopra	_	_	
+9-11	652-654	le	_	_	
+9-12	655-660	tazze	_	_	
+9-13	661-666	degli	_	_	
+9-14	667-674	antichi	_	_	
+9-15	675-676	e	_	_	
+9-16	677-680	del	_	_	
+9-17	681-685	nodo	_	_	
+9-18	686-694	d'Ercole	_	_	
+9-19	695-696	,	_	_	
+9-20	697-700	tav	_	_	
+9-21	701-702	.	_	_	
+
+#Text=d'ags .
+10-1	703-708	d'ags	_	_	
+10-2	709-710	.	_	_	
+
+#Text=G . ( idem ) , - Inscriptiones Graccae ( G. Henzen ) .
+11-1	711-712	G	_	_	
+11-2	713-714	.	_	_	
+11-3	715-716	(	_	_	
+11-4	717-721	idem	_	_	
+11-5	722-723	)	_	_	
+11-6	724-725	,	_	_	
+11-7	726-727	-	_	_	
+11-8	728-741	Inscriptiones	*[4]	OBJ[4]	
+11-9	742-749	Graccae	*[4]	OBJ[4]	
+11-10	750-751	(	_	_	
+11-11	752-754	G.	*[5]	PERmentioned[5]	
+11-12	755-761	Henzen	*[5]	PERmentioned[5]	
+11-13	762-763	)	_	_	
+11-14	764-765	.	_	_	
+
+#Text=-— Nusaios alleivo delle Nuse , Mon .
+12-1	766-768	-—	_	_	
+12-2	769-776	Nusaios	_	_	
+12-3	777-784	alleivo	_	_	
+12-4	785-790	delle	_	_	
+12-5	791-795	Nuse	_	_	
+12-6	796-797	,	_	_	
+12-7	798-801	Mon	_	_	
+12-8	802-803	.	_	_	
+
+#Text=t. XXXVII ( Jahn ) .
+13-1	804-806	t.	_	_	
+13-2	807-813	XXXVII	_	_	
+13-3	814-815	(	_	_	
+13-4	816-820	Jahn	*	PERmentioned	
+13-5	821-822	)	_	_	
+13-6	823-824	.	_	_	
+
+#Text=- Es folgt eine weitere Aufzählung von ungef .
+14-1	825-826	-	_	_	
+14-2	827-829	Es	_	_	
+14-3	830-835	folgt	_	_	
+14-4	836-840	eine	_	_	
+14-5	841-848	weitere	_	_	
+14-6	849-859	Aufzählung	_	_	
+14-7	860-863	von	_	_	
+14-8	864-869	ungef	_	_	
+14-9	870-871	.	_	_	
+
+#Text=16 Zeilen De Erurn ee Unsre herzlichsten Grüße an Sie u. Ihre 1 .
+15-1	872-874	16	_	_	
+15-2	875-881	Zeilen	_	_	
+15-3	882-884	De	_	_	
+15-4	885-890	Erurn	_	_	
+15-5	891-893	ee	_	_	
+15-6	894-899	Unsre	_	_	
+15-7	900-912	herzlichsten	_	_	
+15-8	913-918	Grüße	_	_	
+15-9	919-921	an	_	_	
+15-10	922-925	Sie	_	_	
+15-11	926-928	u.	_	_	
+15-12	929-933	Ihre	_	_	
+15-13	934-935	1	_	_	
+15-14	936-937	.	_	_	
+
+#Text=Frau .
+16-1	938-942	Frau	_	_	
+16-2	943-944	.	_	_	
+
+#Text=- Ist Friedlaender zufriden mit meiner Redaction seines ArTtikels ?
+17-1	945-946	-	_	_	
+17-2	947-950	Ist	_	_	
+17-3	951-963	Friedlaender	*	PERmentioned	
+17-4	964-972	zufriden	_	_	
+17-5	973-976	mit	_	_	
+17-6	977-983	meiner	_	_	
+17-7	984-993	Redaction	_	_	
+17-8	994-1000	seines	_	_	
+17-9	1001-1010	ArTtikels	_	_	
+17-10	1011-1012	?	_	_	
+
+#Text=Ergebenst Ihr .
+18-1	1013-1022	Ergebenst	_	_	
+18-2	1023-1026	Ihr	_	_	
+18-3	1027-1028	.	_	_	
+
+#Text=WH , | Ron 18/53 P.S , .
+19-1	1029-1031	WH	*	PERauthor	
+19-2	1032-1033	,	_	_	
+19-3	1034-1035	|	_	_	
+19-4	1036-1039	Ron	*	PLACEfrom	
+19-5	1040-1045	18/53	*	DATEletter	
+19-6	1046-1049	P.S	_	_	
+19-7	1050-1051	,	_	_	
+19-8	1052-1053	.	_	_	
+
+#Text=De Rossi wünscht sehr zu wissen , ob im C.I.Gr .
+20-1	1054-1056	De	*[6]	PERmentioned[6]	
+20-2	1057-1062	Rossi	*[6]	PERmentioned[6]	
+20-3	1063-1070	wünscht	_	_	
+20-4	1071-1075	sehr	_	_	
+20-5	1076-1078	zu	_	_	
+20-6	1079-1085	wissen	_	_	
+20-7	1086-1087	,	_	_	
+20-8	1088-1090	ob	_	_	
+20-9	1091-1093	im	_	_	
+20-10	1094-1100	C.I.Gr	_	_	
+20-11	1101-1102	.	_	_	
+
+#Text=bald die christlichen Inschriften zu erwarten seien .
+21-1	1103-1107	bald	_	_	
+21-2	1108-1111	die	_	_	
+21-3	1112-1124	christlichen	*	MISC	
+21-4	1125-1136	Inschriften	*	OBJ	
+21-5	1137-1139	zu	_	_	
+21-6	1140-1148	erwarten	_	_	
+21-7	1149-1154	seien	_	_	
+21-8	1155-1156	.	_	_	
+
+#Text=Am Rand , wo die Aufzählung der Titel steht : Hier kann ich weder litel noch Reihenfolge genau | geben , da th. auf Druckerei , th. noch ungeschrieben mem
+22-1	1157-1159	Am	_	_	
+22-2	1160-1164	Rand	_	_	
+22-3	1165-1166	,	_	_	
+22-4	1167-1169	wo	_	_	
+22-5	1170-1173	die	_	_	
+22-6	1174-1184	Aufzählung	_	_	
+22-7	1185-1188	der	_	_	
+22-8	1189-1194	Titel	_	_	
+22-9	1195-1200	steht	_	_	
+22-10	1201-1202	:	_	_	
+22-11	1203-1207	Hier	_	_	
+22-12	1208-1212	kann	_	_	
+22-13	1213-1216	ich	_	_	
+22-14	1217-1222	weder	_	_	
+22-15	1223-1228	litel	_	_	
+22-16	1229-1233	noch	_	_	
+22-17	1234-1245	Reihenfolge	_	_	
+22-18	1246-1251	genau	_	_	
+22-19	1252-1253	|	_	_	
+22-20	1254-1259	geben	_	_	
+22-21	1260-1261	,	_	_	
+22-22	1262-1264	da	_	_	
+22-23	1265-1268	th.	_	_	
+22-24	1269-1272	auf	_	_	
+22-25	1273-1282	Druckerei	_	_	
+22-26	1283-1284	,	_	_	
+22-27	1285-1288	th.	_	_	
+22-28	1289-1293	noch	_	_	
+22-29	1294-1307	ungeschrieben	_	_	
+22-30	1308-1311	mem	_	_	

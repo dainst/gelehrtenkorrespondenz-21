@@ -1,0 +1,219 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2105 Lepsius an Henzen Berlin , 3. März 1875 g- 7/3 75 r . 11/3 Berlin , den 3 .
+1-1	0-4	2105	_	_
+1-2	5-12	Lepsius	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-22	Henzen	*	PERaddressee
+1-5	23-29	Berlin	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-34	3.	*[1]	DATEletter[1]
+1-8	35-39	März	*[1]	DATEletter[1]
+1-9	40-44	1875	*[1]	DATEletter[1]
+1-10	45-47	g-	_	_
+1-11	48-51	7/3	*[2]	DATErecieved[2]
+1-12	52-54	75	*[2]	DATErecieved[2]
+1-13	55-56	r	_	_
+1-14	57-58	.	_	_
+1-15	59-63	11/3	*	DATEanswered
+1-16	64-70	Berlin	*	PLACEfrom
+1-17	71-72	,	_	_
+1-18	73-76	den	_	_
+1-19	77-78	3	*[3]	DATEletter[3]
+1-20	79-80	.	*[3]	DATEletter[3]
+
+#Text=Mz .
+2-1	81-83	Mz	*[3]	DATEletter[3]
+2-2	84-85	.	*[3]	DATEletter[3]
+
+#Text=1875 Verehrter Freund Sie werden nun durch den letzten Kurrier das Rechnungs Schema von der Legationskasse direkt erhalten haben .
+3-1	86-90	1875	*[3]	DATEletter[3]
+3-2	91-100	Verehrter	_	_
+3-3	101-107	Freund	_	_
+3-4	108-111	Sie	_	_
+3-5	112-118	werden	_	_
+3-6	119-122	nun	_	_
+3-7	123-128	durch	_	_
+3-8	129-132	den	_	_
+3-9	133-140	letzten	_	_
+3-10	141-148	Kurrier	_	_
+3-11	149-152	das	_	_
+3-12	153-162	Rechnungs	_	_
+3-13	163-169	Schema	_	_
+3-14	170-173	von	_	_
+3-15	174-177	der	_	_
+3-16	178-192	Legationskasse	_	_
+3-17	193-199	direkt	_	_
+3-18	200-208	erhalten	_	_
+3-19	209-214	haben	_	_
+3-20	215-216	.	_	_
+
+#Text=Ich zog das vor , statt nochmals durch mich , bei den vielen Schwankungen in der Kasse selbst \; was sie nun schriftlich gegeben haben , muß feststehen .
+4-1	217-220	Ich	_	_
+4-2	221-224	zog	_	_
+4-3	225-228	das	_	_
+4-4	229-232	vor	_	_
+4-5	233-234	,	_	_
+4-6	235-240	statt	_	_
+4-7	241-249	nochmals	_	_
+4-8	250-255	durch	_	_
+4-9	256-260	mich	_	_
+4-10	261-262	,	_	_
+4-11	263-266	bei	_	_
+4-12	267-270	den	_	_
+4-13	271-277	vielen	_	_
+4-14	278-290	Schwankungen	_	_
+4-15	291-293	in	_	_
+4-16	294-297	der	_	_
+4-17	298-303	Kasse	_	_
+4-18	304-310	selbst	_	_
+4-19	311-312	\;	_	_
+4-20	313-316	was	_	_
+4-21	317-320	sie	_	_
+4-22	321-324	nun	_	_
+4-23	325-336	schriftlich	_	_
+4-24	337-344	gegeben	_	_
+4-25	345-350	haben	_	_
+4-26	351-352	,	_	_
+4-27	353-356	muß	_	_
+4-28	357-367	feststehen	_	_
+4-29	368-369	.	_	_
+
+#Text=Ihre Gutachten über Weil und Schreiber ist eingegangen .
+5-1	370-374	Ihre	_	_
+5-2	375-384	Gutachten	_	_
+5-3	385-389	über	_	_
+5-4	390-394	Weil	*	PERmentioned
+5-5	395-398	und	_	_
+5-6	399-408	Schreiber	*	PERmentioned
+5-7	409-412	ist	_	_
+5-8	413-424	eingegangen	_	_
+5-9	425-426	.	_	_
+
+#Text=Sie können allerdings in der kurzen Zeit nicht viel gethan haben \; es ist ein Mißverhältnis zwischen Eingabe , Zeit der Bewerbung und Abreise im Oktober , 8 Monate \; das müßte geändert werden .
+6-1	427-430	Sie	_	_
+6-2	431-437	können	_	_
+6-3	438-448	allerdings	_	_
+6-4	449-451	in	_	_
+6-5	452-455	der	_	_
+6-6	456-462	kurzen	_	_
+6-7	463-467	Zeit	_	_
+6-8	468-473	nicht	_	_
+6-9	474-478	viel	_	_
+6-10	479-485	gethan	_	_
+6-11	486-491	haben	_	_
+6-12	492-493	\;	_	_
+6-13	494-496	es	_	_
+6-14	497-500	ist	_	_
+6-15	501-504	ein	_	_
+6-16	505-518	Mißverhältnis	_	_
+6-17	519-527	zwischen	_	_
+6-18	528-535	Eingabe	_	_
+6-19	536-537	,	_	_
+6-20	538-542	Zeit	_	_
+6-21	543-546	der	_	_
+6-22	547-556	Bewerbung	_	_
+6-23	557-560	und	_	_
+6-24	561-568	Abreise	_	_
+6-25	569-571	im	_	_
+6-26	572-579	Oktober	*	DATEmentioned
+6-27	580-581	,	_	_
+6-28	582-583	8	_	_
+6-29	584-590	Monate	_	_
+6-30	591-592	\;	_	_
+6-31	593-596	das	_	_
+6-32	597-602	müßte	_	_
+6-33	603-611	geändert	_	_
+6-34	612-618	werden	_	_
+6-35	619-620	.	_	_
+
+#Text=Es sind nun außer Weil und Schreiber noch 9 anare Bewerber aufgetreten , Die Central Direktion hat einstimmig beschlossen Jüders Urlaubsgesuch abzulehnen , da seine Abwesenheit gerade in die wichtigsten Monate fallen würde .
+7-1	621-623	Es	_	_
+7-2	624-628	sind	_	_
+7-3	629-632	nun	_	_
+7-4	633-638	außer	_	_
+7-5	639-643	Weil	*	PERmentioned
+7-6	644-647	und	_	_
+7-7	648-657	Schreiber	*	PERmentioned
+7-8	658-662	noch	_	_
+7-9	663-664	9	_	_
+7-10	665-670	anare	_	_
+7-11	671-679	Bewerber	_	_
+7-12	680-691	aufgetreten	_	_
+7-13	692-693	,	_	_
+7-14	694-697	Die	_	_
+7-15	698-705	Central	*[4]	ORGmentioned[4]
+7-16	706-715	Direktion	*[4]	ORGmentioned[4]
+7-17	716-719	hat	_	_
+7-18	720-730	einstimmig	_	_
+7-19	731-742	beschlossen	_	_
+7-20	743-749	Jüders	*	PERmentioned
+7-21	750-763	Urlaubsgesuch	_	_
+7-22	764-774	abzulehnen	_	_
+7-23	775-776	,	_	_
+7-24	777-779	da	_	_
+7-25	780-785	seine	_	_
+7-26	786-797	Abwesenheit	_	_
+7-27	798-804	gerade	_	_
+7-28	805-807	in	_	_
+7-29	808-811	die	_	_
+7-30	812-823	wichtigsten	_	_
+7-31	824-830	Monate	_	_
+7-32	831-837	fallen	_	_
+7-33	838-843	würde	_	_
+7-34	844-845	.	_	_
+
+#Text=Es ist für den jungen Ehemann hart , schien aber unvermeidlich .
+8-1	846-848	Es	_	_
+8-2	849-852	ist	_	_
+8-3	853-856	für	_	_
+8-4	857-860	den	_	_
+8-5	861-867	jungen	_	_
+8-6	868-875	Ehemann	_	_
+8-7	876-880	hart	_	_
+8-8	881-882	,	_	_
+8-9	883-889	schien	_	_
+8-10	890-894	aber	_	_
+8-11	895-908	unvermeidlich	_	_
+8-12	909-910	.	_	_
+
+#Text=Mommsen hat sich überzeugt , daß es in der That zweckmäßiger ist die Ephemeris in die Kolumne der Central Direktion zu bringen , statt in die Römische , Das wird also im nächsten Etat geändert werden .
+9-1	911-918	Mommsen	*	PERmentioned
+9-2	919-922	hat	_	_
+9-3	923-927	sich	_	_
+9-4	928-937	überzeugt	_	_
+9-5	938-939	,	_	_
+9-6	940-943	daß	_	_
+9-7	944-946	es	_	_
+9-8	947-949	in	_	_
+9-9	950-953	der	_	_
+9-10	954-958	That	_	_
+9-11	959-971	zweckmäßiger	_	_
+9-12	972-975	ist	_	_
+9-13	976-979	die	_	_
+9-14	980-989	Ephemeris	_	_
+9-15	990-992	in	_	_
+9-16	993-996	die	_	_
+9-17	997-1004	Kolumne	_	_
+9-18	1005-1008	der	_	_
+9-19	1009-1016	Central	*[5]	ORGmentioned[5]
+9-20	1017-1026	Direktion	*[5]	ORGmentioned[5]
+9-21	1027-1029	zu	_	_
+9-22	1030-1037	bringen	_	_
+9-23	1038-1039	,	_	_
+9-24	1040-1045	statt	_	_
+9-25	1046-1048	in	_	_
+9-26	1049-1052	die	_	_
+9-27	1053-1061	Römische	_	_
+9-28	1062-1063	,	_	_
+9-29	1064-1067	Das	_	_
+9-30	1068-1072	wird	_	_
+9-31	1073-1077	also	_	_
+9-32	1078-1080	im	_	_
+9-33	1081-1089	nächsten	_	_
+9-34	1090-1094	Etat	_	_
+9-35	1095-1103	geändert	_	_
+9-36	1104-1110	werden	_	_
+9-37	1111-1112	.	_	_

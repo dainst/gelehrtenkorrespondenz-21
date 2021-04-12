@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=908 Braun an Gerhard Rom , 30. Juni 1835 Inghirami Vas .
+1-1	0-3	908	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[1]	DATEletter[1]
+1-8	31-35	Juni	*[1]	DATEletter[1]
+1-9	36-40	1835	*[1]	DATEletter[1]
+1-10	41-50	Inghirami	*	PERmentioned
+1-11	51-54	Vas	*[2]	LIT[2]
+1-12	55-56	.	*[2]	LIT[2]
+
+#Text=fitt .
+2-1	57-61	fitt	*[2]	LIT[2]
+2-2	62-63	.	*[2]	LIT[2]
+
+#Text=fasc .
+3-1	64-68	fasc	*[2]	LIT[2]
+3-2	69-70	.	*[2]	LIT[2]
+
+#Text=16 findet sich bei uns auch .
+4-1	71-73	16	_	_
+4-2	74-80	findet	_	_
+4-3	81-85	sich	_	_
+4-4	86-89	bei	_	_
+4-5	90-93	uns	_	_
+4-6	94-98	auch	_	_
+4-7	99-100	.	_	_
+
+#Text=Claracs 7tes Heft anzuziegen versprachen Sie früherhin .
+5-1	101-108	Claracs	*	PERmentioned
+5-2	109-113	7tes	*[3]	LIT[3]
+5-3	114-118	Heft	*[3]	LIT[3]
+5-4	119-129	anzuziegen	_	_
+5-5	130-141	versprachen	_	_
+5-6	142-145	Sie	_	_
+5-7	146-155	früherhin	_	_
+5-8	156-157	.	_	_
+
+#Text=- Das Mus . Pourtales hat Meyer in einer französ .
+6-1	158-159	-	_	_
+6-2	160-163	Das	_	_
+6-3	164-167	Mus	*[4]	LIT[4]
+6-4	168-169	.	*[4]	LIT[4]
+6-5	170-179	Pourtales	*[4]	LIT[4]
+6-6	180-183	hat	_	_
+6-7	184-189	Meyer	*	PERmentioned
+6-8	190-192	in	_	_
+6-9	193-198	einer	_	_
+6-10	199-206	französ	_	_
+6-11	207-208	.	_	_
+
+#Text=Anzeige gerühmt , die ich drunken lasse .
+7-1	209-216	Anzeige	_	_
+7-2	217-224	gerühmt	_	_
+7-3	225-226	,	_	_
+7-4	227-230	die	_	_
+7-5	231-234	ich	_	_
+7-6	235-242	drunken	_	_
+7-7	243-248	lasse	_	_
+7-8	249-250	.	_	_
+
+#Text=Wolffs Brief wird Ihnen zugekommen sein .
+8-1	251-257	Wolffs	*	PERmentioned
+8-2	258-263	Brief	_	_
+8-3	264-268	wird	_	_
+8-4	269-274	Ihnen	_	_
+8-5	275-285	zugekommen	_	_
+8-6	286-290	sein	_	_
+8-7	291-292	.	_	_
+
+#Text=Die von Ihnen für die Restauration der Ven .
+9-1	293-296	Die	_	_
+9-2	297-300	von	_	_
+9-3	301-306	Ihnen	_	_
+9-4	307-310	für	_	_
+9-5	311-314	die	_	_
+9-6	315-327	Restauration	_	_
+9-7	328-331	der	_	_
+9-8	332-335	Ven	*[5]	OBJ[5]
+9-9	336-337	.	*[5]	OBJ[5]
+
+#Text=Proserp .
+10-1	338-345	Proserp	*[5]	OBJ[5]
+10-2	346-347	.	*[5]	OBJ[5]
+
+#Text=bestimmten 20 Scudi hat er sich von mir erbeten , da die Restauration beendigt ist .
+11-1	348-358	bestimmten	_	_
+11-2	359-361	20	_	_
+11-3	362-367	Scudi	_	_
+11-4	368-371	hat	_	_
+11-5	372-374	er	_	_
+11-6	375-379	sich	_	_
+11-7	380-383	von	_	_
+11-8	384-387	mir	_	_
+11-9	388-395	erbeten	_	_
+11-10	396-397	,	_	_
+11-11	398-400	da	_	_
+11-12	401-404	die	_	_
+11-13	405-417	Restauration	_	_
+11-14	418-426	beendigt	_	_
+11-15	427-430	ist	_	_
+11-16	431-432	.	_	_
+
+#Text=Ihre Zeichnungen sind samt und sonders für Sie eigens verwahrt worden .
+12-1	433-437	Ihre	_	_
+12-2	438-449	Zeichnungen	_	_
+12-3	450-454	sind	_	_
+12-4	455-459	samt	_	_
+12-5	460-463	und	_	_
+12-6	464-471	sonders	_	_
+12-7	472-475	für	_	_
+12-8	476-479	Sie	_	_
+12-9	480-486	eigens	_	_
+12-10	487-495	verwahrt	_	_
+12-11	496-502	worden	_	_
+12-12	503-504	.	_	_
+
+#Text=Was nur irgend das Institut zu benutzen gedachte , ist von ihm bezahlt worden .
+13-1	505-508	Was	_	_
+13-2	509-512	nur	_	_
+13-3	513-519	irgend	_	_
+13-4	520-523	das	_	_
+13-5	524-532	Institut	*	ORGmentioned
+13-6	533-535	zu	_	_
+13-7	536-544	benutzen	_	_
+13-8	545-553	gedachte	_	_
+13-9	554-555	,	_	_
+13-10	556-559	ist	_	_
+13-11	560-563	von	_	_
+13-12	564-567	ihm	_	_
+13-13	568-575	bezahlt	_	_
+13-14	576-582	worden	_	_
+13-15	583-584	.	_	_
+
+#Text=Ich bin dermalen gewissenhaft gewesen , daß ich nicht einmal mir selbst die Notizen davon aufbehalten habe .
+14-1	585-588	Ich	_	_
+14-2	589-592	bin	_	_
+14-3	593-601	dermalen	_	_
+14-4	602-614	gewissenhaft	_	_
+14-5	615-622	gewesen	_	_
+14-6	623-624	,	_	_
+14-7	625-628	daß	_	_
+14-8	629-632	ich	_	_
+14-9	633-638	nicht	_	_
+14-10	639-645	einmal	_	_
+14-11	646-649	mir	_	_
+14-12	650-656	selbst	_	_
+14-13	657-660	die	_	_
+14-14	661-668	Notizen	_	_
+14-15	669-674	davon	_	_
+14-16	675-686	aufbehalten	_	_
+14-17	687-691	habe	_	_
+14-18	692-693	.	_	_
+
+#Text=- Jetzt habe ich schon wieder einen guten Schlag zusammen .
+15-1	694-695	-	_	_
+15-2	696-701	Jetzt	_	_
+15-3	702-706	habe	_	_
+15-4	707-710	ich	_	_
+15-5	711-716	schon	_	_
+15-6	717-723	wieder	_	_
+15-7	724-729	einen	_	_
+15-8	730-735	guten	_	_
+15-9	736-742	Schlag	_	_
+15-10	743-751	zusammen	_	_
+15-11	752-753	.	_	_
+
+#Text=Ich freue mich auf die Zeit sie einmal in der reichen Reihe Ihrer Sammlungen wiederzusehen .
+16-1	754-757	Ich	_	_
+16-2	758-763	freue	_	_
+16-3	764-768	mich	_	_
+16-4	769-772	auf	_	_
+16-5	773-776	die	_	_
+16-6	777-781	Zeit	_	_
+16-7	782-785	sie	_	_
+16-8	786-792	einmal	_	_
+16-9	793-795	in	_	_
+16-10	796-799	der	_	_
+16-11	800-807	reichen	_	_
+16-12	808-813	Reihe	_	_
+16-13	814-819	Ihrer	_	_
+16-14	820-830	Sammlungen	_	_
+16-15	831-844	wiederzusehen	_	_
+16-16	845-846	.	_	_
+
+#Text=Von den Spiegeln blieben die Calchi beim Institut zurück , wie Sie selbst gütigst veranstalteten .
+17-1	847-850	Von	_	_
+17-2	851-854	den	_	_
+17-3	855-863	Spiegeln	_	_
+17-4	864-871	blieben	_	_
+17-5	872-875	die	_	_
+17-6	876-882	Calchi	_	_
+17-7	883-887	beim	_	_
+17-8	888-896	Institut	*	ORGmentioned
+17-9	897-903	zurück	_	_
+17-10	904-905	,	_	_
+17-11	906-909	wie	_	_
+17-12	910-913	Sie	_	_
+17-13	914-920	selbst	_	_
+17-14	921-928	gütigst	_	_
+17-15	929-943	veranstalteten	_	_
+17-16	944-945	.	_	_
+
+#Text=Auch wurden die wichtigsten derselben unter Bunsens Vermittelung gezeichnet , so daß er sie kannte oder doch verlangen konnte , Sonst , wie gesagt , ist nichts profanirt worden .
+18-1	946-950	Auch	_	_
+18-2	951-957	wurden	_	_
+18-3	958-961	die	_	_
+18-4	962-973	wichtigsten	_	_
+18-5	974-983	derselben	_	_
+18-6	984-989	unter	_	_
+18-7	990-997	Bunsens	*	PERmentioned
+18-8	998-1010	Vermittelung	_	_
+18-9	1011-1021	gezeichnet	_	_
+18-10	1022-1023	,	_	_
+18-11	1024-1026	so	_	_
+18-12	1027-1030	daß	_	_
+18-13	1031-1033	er	_	_
+18-14	1034-1037	sie	_	_
+18-15	1038-1044	kannte	_	_
+18-16	1045-1049	oder	_	_
+18-17	1050-1054	doch	_	_
+18-18	1055-1064	verlangen	_	_
+18-19	1065-1071	konnte	_	_
+18-20	1072-1073	,	_	_
+18-21	1074-1079	Sonst	_	_
+18-22	1080-1081	,	_	_
+18-23	1082-1085	wie	_	_
+18-24	1086-1092	gesagt	_	_
+18-25	1093-1094	,	_	_
+18-26	1095-1098	ist	_	_
+18-27	1099-1105	nichts	_	_
+18-28	1106-1115	profanirt	_	_
+18-29	1116-1122	worden	_	_
+18-30	1123-1124	.	_	_
+
+#Text=- Die Einzihung aller Mon .
+19-1	1125-1126	-	_	_
+19-2	1127-1130	Die	_	_
+19-3	1131-1140	Einzihung	_	_
+19-4	1141-1146	aller	_	_
+19-5	1147-1150	Mon	_	_
+19-6	1151-1152	.	_	_
+
+#Text=in den großen Catalog wird wohl noch einigen Anstand haben .
+20-1	1153-1155	in	_	_
+20-2	1156-1159	den	_	_
+20-3	1160-1166	großen	_	_
+20-4	1167-1174	Catalog	_	_
+20-5	1175-1179	wird	_	_
+20-6	1180-1184	wohl	_	_
+20-7	1185-1189	noch	_	_
+20-8	1190-1197	einigen	_	_
+20-9	1198-1205	Anstand	_	_
+20-10	1206-1211	haben	_	_
+20-11	1212-1213	.	_	_
+
+#Text=Den Forcellini werden Sie mit nächster Kistensendung erhalten .
+21-1	1214-1217	Den	_	_
+21-2	1218-1228	Forcellini	*	PERmentioned
+21-3	1229-1235	werden	_	_
+21-4	1236-1239	Sie	_	_
+21-5	1240-1243	mit	_	_
+21-6	1244-1252	nächster	_	_
+21-7	1253-1266	Kistensendung	_	_
+21-8	1267-1275	erhalten	_	_
+21-9	1276-1277	.	_	_

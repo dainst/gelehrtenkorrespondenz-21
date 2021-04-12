@@ -1,0 +1,47 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=B. p . 122 Berlin 18 April 1838 Rechnung für Herrn Dr. Emil Braun von Schenk und Gerstäcker Es folgt eine Aufzählung von Publikationen für die Gesamtsumme von Scudi 20.12 .
+1-1	0-2	B.	_	_
+1-2	3-4	p	_	_
+1-3	5-6	.	_	_
+1-4	7-10	122	_	_
+1-5	11-17	Berlin	*	PLACEfrom
+1-6	18-20	18	*[2]	DATEletter[2]
+1-7	21-26	April	*[2]	DATEletter[2]
+1-8	27-31	1838	*[2]	DATEletter[2]
+1-9	32-40	Rechnung	_	_
+1-10	41-44	für	_	_
+1-11	45-50	Herrn	_	_
+1-12	51-54	Dr.	_	_
+1-13	55-59	Emil	*[3]	PERauthor[3]
+1-14	60-65	Braun	*[3]	PERauthor[3]
+1-15	66-69	von	_	_
+1-16	70-76	Schenk	*	PERmentioned
+1-17	77-80	und	_	_
+1-18	81-91	Gerstäcker	*	PERmentioned
+1-19	92-94	Es	_	_
+1-20	95-100	folgt	_	_
+1-21	101-105	eine	_	_
+1-22	106-116	Aufzählung	_	_
+1-23	117-120	von	_	_
+1-24	121-134	Publikationen	_	_
+1-25	135-138	für	_	_
+1-26	139-142	die	_	_
+1-27	143-154	Gesamtsumme	_	_
+1-28	155-158	von	_	_
+1-29	159-164	Scudi	_	_
+1-30	165-170	20.12	_	_
+1-31	171-172	.	_	_
+
+#Text=Zahlung durch Herrn Fanofka Dr. Gerhard Schenk & Gerstäcker
+2-1	173-180	Zahlung	_	_
+2-2	181-186	durch	_	_
+2-3	187-192	Herrn	_	_
+2-4	193-200	Fanofka	*	PERmentioned
+2-5	201-204	Dr.	*[7]	PERmentioned[7]
+2-6	205-212	Gerhard	*[7]	PERmentioned[7]
+2-7	213-219	Schenk	*[8]	ORGmentioned[8]
+2-8	220-221	&	*[8]	ORGmentioned[8]
+2-9	222-232	Gerstäcker	*[8]	ORGmentioned[8]

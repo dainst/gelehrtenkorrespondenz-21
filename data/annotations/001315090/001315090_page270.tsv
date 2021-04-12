@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=175 Lepsius an Henzen Berlin , 28. März 1876 1/4 76 Berlin , den 28 .
+1-1	0-3	175	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	28.	*[1]	DATEletter[1]
+1-8	35-39	März	*[1]	DATEletter[1]
+1-9	40-44	1876	*[1]	DATEletter[1]
+1-10	45-48	1/4	*[2]	DATErecieved[2]
+1-11	49-51	76	*[2]	DATErecieved[2]
+1-12	52-58	Berlin	*	PLACEfrom
+1-13	59-60	,	_	_
+1-14	61-64	den	_	_
+1-15	65-67	28	*[3]	DATEletter[3]
+1-16	68-69	.	*[3]	DATEletter[3]
+
+#Text=Mz .
+2-1	70-72	Mz	*[3]	DATEletter[3]
+2-2	73-74	.	*[3]	DATEletter[3]
+
+#Text=1876 Verehrter Freund Beiliegend das officielle Resultat der Generalversammlung .
+3-1	75-79	1876	*[3]	DATEletter[3]
+3-2	80-89	Verehrter	_	_
+3-3	90-96	Freund	_	_
+3-4	97-107	Beiliegend	_	_
+3-5	108-111	das	_	_
+3-6	112-122	officielle	_	_
+3-7	123-131	Resultat	_	_
+3-8	132-135	der	_	_
+3-9	136-154	Generalversammlung	_	_
+3-10	155-156	.	_	_
+
+#Text=Kirchhoff war wie Sie wissen in Athen \; die Auswärtigen waren alle zugegen , auch Overbeck der erst abgesagt hatte .
+4-1	157-166	Kirchhoff	*	PERmentioned
+4-2	167-170	war	_	_
+4-3	171-174	wie	_	_
+4-4	175-178	Sie	_	_
+4-5	179-185	wissen	_	_
+4-6	186-188	in	_	_
+4-7	189-194	Athen	*	PLACEmentioned
+4-8	195-196	\;	_	_
+4-9	197-200	die	_	_
+4-10	201-212	Auswärtigen	_	_
+4-11	213-218	waren	_	_
+4-12	219-223	alle	_	_
+4-13	224-231	zugegen	_	_
+4-14	232-233	,	_	_
+4-15	234-238	auch	_	_
+4-16	239-247	Overbeck	*	PERmentioned
+4-17	248-251	der	_	_
+4-18	252-256	erst	_	_
+4-19	257-265	abgesagt	_	_
+4-20	266-271	hatte	_	_
+4-21	272-273	.	_	_
+
+#Text=Daß wir für das nächste Budget noch 600 Mark für Helbig beantragen wollen , die ohne Zweifel bewilligt werden , schrieb ich Ihnen gewiß schon .
+5-1	274-277	Daß	_	_
+5-2	278-281	wir	_	_
+5-3	282-285	für	_	_
+5-4	286-289	das	_	_
+5-5	290-297	nächste	_	_
+5-6	298-304	Budget	_	_
+5-7	305-309	noch	_	_
+5-8	310-313	600	_	_
+5-9	314-318	Mark	_	_
+5-10	319-322	für	_	_
+5-11	323-329	Helbig	*	PERmentioned
+5-12	330-340	beantragen	_	_
+5-13	341-347	wollen	_	_
+5-14	348-349	,	_	_
+5-15	350-353	die	_	_
+5-16	354-358	ohne	_	_
+5-17	359-366	Zweifel	_	_
+5-18	367-376	bewilligt	_	_
+5-19	377-383	werden	_	_
+5-20	384-385	,	_	_
+5-21	386-393	schrieb	_	_
+5-22	394-397	ich	_	_
+5-23	398-403	Ihnen	_	_
+5-24	404-409	gewiß	_	_
+5-25	410-415	schon	_	_
+5-26	416-417	.	_	_
+
+#Text=Das Athenische Kartenwerk soll dem Preußischen Ministerium überwiesen werden , welches sich , so weit es an Göppert liegt , bereits privatim zur Übernahme bereit erklärt \; es werden dafür 20 000 Mark für 2 Jahre zu vertheilen beantragt .
+6-1	418-421	Das	_	_
+6-2	422-432	Athenische	_	_
+6-3	433-443	Kartenwerk	_	_
+6-4	444-448	soll	_	_
+6-5	449-452	dem	_	_
+6-6	453-464	Preußischen	*[4]	ORGmentioned[4]
+6-7	465-476	Ministerium	*[4]	ORGmentioned[4]
+6-8	477-487	überwiesen	_	_
+6-9	488-494	werden	_	_
+6-10	495-496	,	_	_
+6-11	497-504	welches	_	_
+6-12	505-509	sich	_	_
+6-13	510-511	,	_	_
+6-14	512-514	so	_	_
+6-15	515-519	weit	_	_
+6-16	520-522	es	_	_
+6-17	523-525	an	_	_
+6-18	526-533	Göppert	*	PERmentioned
+6-19	534-539	liegt	_	_
+6-20	540-541	,	_	_
+6-21	542-549	bereits	_	_
+6-22	550-558	privatim	_	_
+6-23	559-562	zur	_	_
+6-24	563-572	Übernahme	_	_
+6-25	573-579	bereit	_	_
+6-26	580-587	erklärt	_	_
+6-27	588-589	\;	_	_
+6-28	590-592	es	_	_
+6-29	593-599	werden	_	_
+6-30	600-605	dafür	_	_
+6-31	606-608	20	_	_
+6-32	609-612	000	_	_
+6-33	613-617	Mark	_	_
+6-34	618-621	für	_	_
+6-35	622-623	2	_	_
+6-36	624-629	Jahre	_	_
+6-37	630-632	zu	_	_
+6-38	633-643	vertheilen	_	_
+6-39	644-653	beantragt	_	_
+6-40	654-655	.	_	_
+
+#Text=Das Urnenwerk und das Terrakottenwerk halten wir über Wasser \; für das Matz'sche wird hoffentlich das Auswärtige Amt doch noch mit jährlich 8 000 Mark Erhöhung eintreten auf erneuten Antrag .
+7-1	656-659	Das	_	_
+7-2	660-669	Urnenwerk	_	_
+7-3	670-673	und	_	_
+7-4	674-677	das	_	_
+7-5	678-693	Terrakottenwerk	_	_
+7-6	694-700	halten	_	_
+7-7	701-704	wir	_	_
+7-8	705-709	über	_	_
+7-9	710-716	Wasser	_	_
+7-10	717-718	\;	_	_
+7-11	719-722	für	_	_
+7-12	723-726	das	_	_
+7-13	727-736	Matz'sche	*	PERmentioned
+7-14	737-741	wird	_	_
+7-15	742-753	hoffentlich	_	_
+7-16	754-757	das	_	_
+7-17	758-768	Auswärtige	*[5]	ORGmentioned[5]
+7-18	769-772	Amt	*[5]	ORGmentioned[5]
+7-19	773-777	doch	_	_
+7-20	778-782	noch	_	_
+7-21	783-786	mit	_	_
+7-22	787-795	jährlich	_	_
+7-23	796-797	8	_	_
+7-24	798-801	000	_	_
+7-25	802-806	Mark	_	_
+7-26	807-815	Erhöhung	_	_
+7-27	816-825	eintreten	_	_
+7-28	826-829	auf	_	_
+7-29	830-838	erneuten	_	_
+7-30	839-845	Antrag	_	_
+7-31	846-847	.	_	_
+
+#Text=Vorläufig soll Eichler noch ausgenützt werden , soweit noch Matz'sche Anweisungen vorhanden sind .
+8-1	848-857	Vorläufig	_	_
+8-2	858-862	soll	_	_
+8-3	863-870	Eichler	*	PERmentioned
+8-4	871-875	noch	_	_
+8-5	876-886	ausgenützt	_	_
+8-6	887-893	werden	_	_
+8-7	894-895	,	_	_
+8-8	896-902	soweit	_	_
+8-9	903-907	noch	_	_
+8-10	908-917	Matz'sche	*	PERmentioned
+8-11	918-929	Anweisungen	_	_
+8-12	930-939	vorhanden	_	_
+8-13	940-944	sind	_	_
+8-14	945-946	.	_	_
+
+#Text=Mommsen hat den Auftrag vielerlei noch mit Ihnen persönlich zu besprechen , unter andern auch Ihr Verhältnis zur Botschaft , das sehr vorsichtig festzustellen ist .
+9-1	947-954	Mommsen	*	PERmentioned
+9-2	955-958	hat	_	_
+9-3	959-962	den	_	_
+9-4	963-970	Auftrag	_	_
+9-5	971-980	vielerlei	_	_
+9-6	981-985	noch	_	_
+9-7	986-989	mit	_	_
+9-8	990-995	Ihnen	_	_
+9-9	996-1006	persönlich	_	_
+9-10	1007-1009	zu	_	_
+9-11	1010-1020	besprechen	_	_
+9-12	1021-1022	,	_	_
+9-13	1023-1028	unter	_	_
+9-14	1029-1035	andern	_	_
+9-15	1036-1040	auch	_	_
+9-16	1041-1044	Ihr	_	_
+9-17	1045-1055	Verhältnis	_	_
+9-18	1056-1059	zur	_	_
+9-19	1060-1069	Botschaft	*	ORGmentioned
+9-20	1070-1071	,	_	_
+9-21	1072-1075	das	_	_
+9-22	1076-1080	sehr	_	_
+9-23	1081-1091	vorsichtig	_	_
+9-24	1092-1105	festzustellen	_	_
+9-25	1106-1109	ist	_	_
+9-26	1110-1111	.	_	_
+
+#Text=Momn-
+10-1	1112-1117	Momn-	_	_

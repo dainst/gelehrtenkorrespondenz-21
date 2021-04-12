@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=404 Helbig an Henzen Neapel , 24 .
+1-1	0-3	404	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	24	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1864 würden und sicher der Publication würdig sind .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1864	*[1]	DATEletter[1]
+2-3	47-53	würden	_	_
+2-4	54-57	und	_	_
+2-5	58-64	sicher	_	_
+2-6	65-68	der	_	_
+2-7	69-80	Publication	_	_
+2-8	81-87	würdig	_	_
+2-9	88-92	sind	_	_
+2-10	93-94	.	_	_
+
+#Text=Stylistisch gehörig ausgeführt würden sie ihn wohl 14 Tage in Anspruch nehmen .
+3-1	95-106	Stylistisch	_	_
+3-2	107-114	gehörig	_	_
+3-3	115-125	ausgeführt	_	_
+3-4	126-132	würden	_	_
+3-5	133-136	sie	_	_
+3-6	137-140	ihn	_	_
+3-7	141-145	wohl	_	_
+3-8	146-148	14	_	_
+3-9	149-153	Tage	_	_
+3-10	154-156	in	_	_
+3-11	157-165	Anspruch	_	_
+3-12	166-172	nehmen	_	_
+3-13	173-174	.	_	_
+
+#Text=Anderes außerdem - einige Wandgemälde im Museum - würden sich ebenfalls für ihn finden .
+4-1	175-182	Anderes	_	_
+4-2	183-191	außerdem	_	_
+4-3	192-193	-	_	_
+4-4	194-200	einige	_	_
+4-5	201-212	Wandgemälde	_	_
+4-6	213-215	im	_	_
+4-7	216-222	Museum	*	ORGmentioned
+4-8	223-224	-	_	_
+4-9	225-231	würden	_	_
+4-10	232-236	sich	_	_
+4-11	237-246	ebenfalls	_	_
+4-12	247-250	für	_	_
+4-13	251-254	ihn	_	_
+4-14	255-261	finden	_	_
+4-15	262-263	.	_	_
+
+#Text=Also 4 Wochen könnte er sicher beschäftigt werden .
+5-1	264-268	Also	_	_
+5-2	269-270	4	_	_
+5-3	271-277	Wochen	_	_
+5-4	278-284	könnte	_	_
+5-5	285-287	er	_	_
+5-6	288-294	sicher	_	_
+5-7	295-306	beschäftigt	_	_
+5-8	307-313	werden	_	_
+5-9	314-315	.	_	_
+
+#Text=Was Ponpei betrifft , so fürchte ich , daß er es daselbst vor November nicht wird aushalten können .
+6-1	316-319	Was	_	_
+6-2	320-326	Ponpei	_	_
+6-3	327-335	betrifft	_	_
+6-4	336-337	,	_	_
+6-5	338-340	so	_	_
+6-6	341-348	fürchte	_	_
+6-7	349-352	ich	_	_
+6-8	353-354	,	_	_
+6-9	355-358	daß	_	_
+6-10	359-361	er	_	_
+6-11	362-364	es	_	_
+6-12	365-373	daselbst	_	_
+6-13	374-377	vor	_	_
+6-14	378-386	November	*	DATEmentioned
+6-15	387-392	nicht	_	_
+6-16	393-397	wird	_	_
+6-17	398-407	aushalten	_	_
+6-18	408-414	können	_	_
+6-19	415-416	.	_	_
+
+#Text=Für Wandgemälde möchte ich Gargiulo in keiner Weise vorschlagen .
+7-1	417-420	Für	_	_
+7-2	421-432	Wandgemälde	*	OBJ
+7-3	433-439	möchte	_	_
+7-4	440-443	ich	_	_
+7-5	444-452	Gargiulo	*	PERmentioned
+7-6	453-455	in	_	_
+7-7	456-462	keiner	_	_
+7-8	463-468	Weise	_	_
+7-9	469-480	vorschlagen	_	_
+7-10	481-482	.	_	_
+
+#Text=Ich frage Sie daher Folgendes : Autorisiren Sie mich , Gargiulo die Nastischen Sachen und die aus Calvi zeichnen zu lassen oder wenigstens eine Probe mit ihm zu machen ?
+8-1	483-486	Ich	_	_
+8-2	487-492	frage	_	_
+8-3	493-496	Sie	_	_
+8-4	497-502	daher	_	_
+8-5	503-512	Folgendes	_	_
+8-6	513-514	:	_	_
+8-7	515-526	Autorisiren	_	_
+8-8	527-530	Sie	_	_
+8-9	531-535	mich	_	_
+8-10	536-537	,	_	_
+8-11	538-546	Gargiulo	*	PERmentioned
+8-12	547-550	die	_	_
+8-13	551-561	Nastischen	_	_
+8-14	562-568	Sachen	_	_
+8-15	569-572	und	_	_
+8-16	573-576	die	_	_
+8-17	577-580	aus	_	_
+8-18	581-586	Calvi	_	_
+8-19	587-595	zeichnen	_	_
+8-20	596-598	zu	_	_
+8-21	599-605	lassen	_	_
+8-22	606-610	oder	_	_
+8-23	611-621	wenigstens	_	_
+8-24	622-626	eine	_	_
+8-25	627-632	Probe	_	_
+8-26	633-636	mit	_	_
+8-27	637-640	ihm	_	_
+8-28	641-643	zu	_	_
+8-29	644-650	machen	_	_
+8-30	651-652	?	_	_
+
+#Text=Ferner , falls Scalabrini nach Neapel kommt , autorisiren Sie mich , ihn die paestumer Wandgemälde zeichnen zu lassen ?
+9-1	653-659	Ferner	_	_
+9-2	660-661	,	_	_
+9-3	662-667	falls	_	_
+9-4	668-678	Scalabrini	*	PERmentioned
+9-5	679-683	nach	_	_
+9-6	684-690	Neapel	*	PLACEmentioned
+9-7	691-696	kommt	_	_
+9-8	697-698	,	_	_
+9-9	699-710	autorisiren	_	_
+9-10	711-714	Sie	_	_
+9-11	715-719	mich	_	_
+9-12	720-721	,	_	_
+9-13	722-725	ihn	_	_
+9-14	726-729	die	_	_
+9-15	730-739	paestumer	_	_
+9-16	740-751	Wandgemälde	_	_
+9-17	752-760	zeichnen	_	_
+9-18	761-763	zu	_	_
+9-19	764-770	lassen	_	_
+9-20	771-772	?	_	_
+
+#Text=Die Finanzgeschäfte mit Scalabrini würde ich Sie bitten , in Rom abzumachen .
+10-1	773-776	Die	_	_
+10-2	777-792	Finanzgeschäfte	_	_
+10-3	793-796	mit	_	_
+10-4	797-807	Scalabrini	*	PERmentioned
+10-5	808-813	würde	_	_
+10-6	814-817	ich	_	_
+10-7	818-821	Sie	_	_
+10-8	822-828	bitten	_	_
+10-9	829-830	,	_	_
+10-10	831-833	in	_	_
+10-11	834-837	Rom	*	PLACEmentioned
+10-12	838-848	abzumachen	_	_
+10-13	849-850	.	_	_
+
+#Text=Für Gargiulo würde ich natürlich Geld brauchen .
+11-1	851-854	Für	_	_
+11-2	855-863	Gargiulo	*	PERmentioned
+11-3	864-869	würde	_	_
+11-4	870-873	ich	_	_
+11-5	874-883	natürlich	_	_
+11-6	884-888	Geld	_	_
+11-7	889-897	brauchen	_	_
+11-8	898-899	.	_	_
+
+#Text=Es hängt von Ihnen ab , wie viel Sie bewilligen wollen .
+12-1	900-902	Es	_	_
+12-2	903-908	hängt	_	_
+12-3	909-912	von	_	_
+12-4	913-918	Ihnen	_	_
+12-5	919-921	ab	_	_
+12-6	922-923	,	_	_
+12-7	924-927	wie	_	_
+12-8	928-932	viel	_	_
+12-9	933-936	Sie	_	_
+12-10	937-947	bewilligen	_	_
+12-11	948-954	wollen	_	_
+12-12	955-956	.	_	_
+
+#Text=In jedem Falle bitte ich Sie , mir die betreffende Summe zuzuschicken zugleich mit den zwanzig Scudi , welche mir die Generaldirection bewilligt hat , und dem Reste der 10 Scudi von der Fuciner Tour , da Sie mir diese nun einmal lassen wollen .
+13-1	957-959	In	_	_
+13-2	960-965	jedem	_	_
+13-3	966-971	Falle	_	_
+13-4	972-977	bitte	_	_
+13-5	978-981	ich	_	_
+13-6	982-985	Sie	_	_
+13-7	986-987	,	_	_
+13-8	988-991	mir	_	_
+13-9	992-995	die	_	_
+13-10	996-1007	betreffende	_	_
+13-11	1008-1013	Summe	_	_
+13-12	1014-1026	zuzuschicken	_	_
+13-13	1027-1035	zugleich	_	_
+13-14	1036-1039	mit	_	_
+13-15	1040-1043	den	_	_
+13-16	1044-1051	zwanzig	_	_
+13-17	1052-1057	Scudi	_	_
+13-18	1058-1059	,	_	_
+13-19	1060-1066	welche	_	_
+13-20	1067-1070	mir	_	_
+13-21	1071-1074	die	_	_
+13-22	1075-1091	Generaldirection	_	_
+13-23	1092-1101	bewilligt	_	_
+13-24	1102-1105	hat	_	_
+13-25	1106-1107	,	_	_
+13-26	1108-1111	und	_	_
+13-27	1112-1115	dem	_	_
+13-28	1116-1121	Reste	_	_
+13-29	1122-1125	der	_	_
+13-30	1126-1128	10	_	_
+13-31	1129-1134	Scudi	_	_
+13-32	1135-1138	von	_	_
+13-33	1139-1142	der	_	_
+13-34	1143-1150	Fuciner	_	_
+13-35	1151-1155	Tour	_	_
+13-36	1156-1157	,	_	_
+13-37	1158-1160	da	_	_
+13-38	1161-1164	Sie	_	_
+13-39	1165-1168	mir	_	_
+13-40	1169-1174	diese	_	_
+13-41	1175-1178	nun	_	_
+13-42	1179-1185	einmal	_	_
+13-43	1186-1192	lassen	_	_
+13-44	1193-1199	wollen	_	_
+13-45	1200-1201	.	_	_
+
+#Text=Ich hatte von letzteren ungefähr 5 Scudi für das Institut ( namentlich Transport der Institutskiste ) verausgabt und Ihnen darüber die Rechnung zugeschickt .
+14-1	1202-1205	Ich	_	_
+14-2	1206-1211	hatte	_	_
+14-3	1212-1215	von	_	_
+14-4	1216-1225	letzteren	_	_
+14-5	1226-1234	ungefähr	_	_
+14-6	1235-1236	5	_	_
+14-7	1237-1242	Scudi	_	_
+14-8	1243-1246	für	_	_
+14-9	1247-1250	das	_	_
+14-10	1251-1259	Institut	*	ORGmentioned
+14-11	1260-1261	(	_	_
+14-12	1262-1272	namentlich	_	_
+14-13	1273-1282	Transport	_	_
+14-14	1283-1286	der	_	_
+14-15	1287-1301	Institutskiste	_	_
+14-16	1302-1303	)	_	_
+14-17	1304-1314	verausgabt	_	_
+14-18	1315-1318	und	_	_
+14-19	1319-1324	Ihnen	_	_
+14-20	1325-1332	darüber	_	_
+14-21	1333-1336	die	_	_
+14-22	1337-1345	Rechnung	_	_
+14-23	1346-1357	zugeschickt	_	_
+14-24	1358-1359	.	_	_
+
+#Text=Ich bitte diese nachzuse-
+15-1	1360-1363	Ich	_	_
+15-2	1364-1369	bitte	_	_
+15-3	1370-1375	diese	_	_
+15-4	1376-1385	nachzuse-	_	_

@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=313 Braun an Gerhard Rom , 30. April 1838 Lepsius gedenkt nächste Woche auf einige Tage nach Neapel zu gehen .
+1-1	0-3	313	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[4]	DATEletter[4]
+1-8	31-36	April	*[4]	DATEletter[4]
+1-9	37-41	1838	*[4]	DATEletter[4]
+1-10	42-49	Lepsius	*	PERmentioned
+1-11	50-57	gedenkt	_	_
+1-12	58-65	nächste	_	_
+1-13	66-71	Woche	_	_
+1-14	72-75	auf	_	_
+1-15	76-82	einige	_	_
+1-16	83-87	Tage	_	_
+1-17	88-92	nach	_	_
+1-18	93-99	Neapel	*	PLACEmentioned
+1-19	100-102	zu	_	_
+1-20	103-108	gehen	_	_
+1-21	109-110	.	_	_
+
+#Text=Für heute mangelt es an weiterem Stoff .
+2-1	111-114	Für	_	_
+2-2	115-120	heute	_	_
+2-3	121-128	mangelt	_	_
+2-4	129-131	es	_	_
+2-5	132-134	an	_	_
+2-6	135-143	weiterem	_	_
+2-7	144-149	Stoff	_	_
+2-8	150-151	.	_	_
+
+#Text=Ihr treuer EBraun .
+3-1	152-155	Ihr	_	_
+3-2	156-162	treuer	_	_
+3-3	163-169	EBraun	*	PERauthor
+3-4	170-171	.	_	_
+
+#Text=Am 21 April sind vorgeschlagen worden zu Correspondenten : Hofrath Steiner in Seligenstadt in Hessen , Vorh .
+4-1	172-174	Am	_	_
+4-2	175-177	21	*[8]	DATEmentioned[8]
+4-3	178-183	April	*[8]	DATEmentioned[8]
+4-4	184-188	sind	_	_
+4-5	189-202	vorgeschlagen	_	_
+4-6	203-209	worden	_	_
+4-7	210-212	zu	_	_
+4-8	213-228	Correspondenten	_	_
+4-9	229-230	:	_	_
+4-10	231-238	Hofrath	_	_
+4-11	239-246	Steiner	*	PERmentioned
+4-12	247-249	in	_	_
+4-13	250-262	Seligenstadt	*	PLACEmentioned
+4-14	263-265	in	_	_
+4-15	266-272	Hessen	*	PLACEmentioned
+4-16	273-274	,	_	_
+4-17	275-279	Vorh	_	_
+4-18	280-281	.	_	_
+
+#Text=des C . „ Inhr .
+5-1	282-285	des	_	_
+5-2	286-287	C	_	_
+5-3	288-289	.	_	_
+5-4	290-291	„	_	_
+5-5	292-296	Inhr	_	_
+5-6	297-298	.	_	_
+
+#Text=Rhen .
+6-1	299-303	Rhen	_	_
+6-2	304-305	.	_	_
+
+#Text=Pietro Nisiteo in Dalmatien , der bereits mehrere interessante Mittheilungen gemacht .
+7-1	306-312	Pietro	*[12]	PERmentioned[12]
+7-2	313-320	Nisiteo	*[12]	PERmentioned[12]
+7-3	321-323	in	_	_
+7-4	324-333	Dalmatien	*	PLACEmentioned
+7-5	334-335	,	_	_
+7-6	336-339	der	_	_
+7-7	340-347	bereits	_	_
+7-8	348-355	mehrere	_	_
+7-9	356-368	interessante	_	_
+7-10	369-382	Mittheilungen	_	_
+7-11	383-390	gemacht	_	_
+7-12	391-392	.	_	_
+
+#Text=Zackaria , gegenwärtig in Griechenland reisend und vielversprechend .
+8-1	393-401	Zackaria	*	PERmentioned
+8-2	402-403	,	_	_
+8-3	404-415	gegenwärtig	_	_
+8-4	416-418	in	_	_
+8-5	419-431	Griechenland	*	PLACEmentioned
+8-6	432-439	reisend	_	_
+8-7	440-443	und	_	_
+8-8	444-460	vielversprechend	_	_
+8-9	461-462	.	_	_
+
+#Text=1 Mai 1838 .
+9-1	463-464	1	*[16]	DATEletter[16]
+9-2	465-468	Mai	*[16]	DATEletter[16]
+9-3	469-473	1838	*[16]	DATEletter[16]
+9-4	474-475	.	_	_
+
+#Text=Apolloni hat mir diesen Morgen redlich die äußerst gut ausgefallene Zeichnung der kirchschen ( istenform gebracht .
+10-1	476-484	Apolloni	*	PERmentioned
+10-2	485-488	hat	_	_
+10-3	489-492	mir	_	_
+10-4	493-499	diesen	_	_
+10-5	500-506	Morgen	_	_
+10-6	507-514	redlich	_	_
+10-7	515-518	die	_	_
+10-8	519-526	äußerst	_	_
+10-9	527-530	gut	_	_
+10-10	531-543	ausgefallene	_	_
+10-11	544-553	Zeichnung	_	_
+10-12	554-557	der	_	_
+10-13	558-568	kirchschen	*[18]	OBJ[18]
+10-14	569-570	(	*[18]	OBJ[18]
+10-15	571-580	istenform	*[18]	OBJ[18]
+10-16	581-589	gebracht	_	_
+10-17	590-591	.	_	_
+
+#Text=lassen Sie sie gerade so , ohne alle Drucker und chiaroscuris stechen .
+11-1	592-598	lassen	_	_
+11-2	599-602	Sie	_	_
+11-3	603-606	sie	_	_
+11-4	607-613	gerade	_	_
+11-5	614-616	so	_	_
+11-6	617-618	,	_	_
+11-7	619-623	ohne	_	_
+11-8	624-628	alle	_	_
+11-9	629-636	Drucker	_	_
+11-10	637-640	und	_	_
+11-11	641-653	chiaroscuris	_	_
+11-12	654-661	stechen	_	_
+11-13	662-663	.	_	_
+
+#Text=Ich schließe sie nebst mehreren Spiegelzeichnungen , unter denen sich auch Ihr vermißtes Fragment befindet , in einer Blechkapsel bei und übergebe sie der Diligence .
+12-1	664-667	Ich	_	_
+12-2	668-676	schließe	_	_
+12-3	677-680	sie	_	_
+12-4	681-686	nebst	_	_
+12-5	687-695	mehreren	_	_
+12-6	696-714	Spiegelzeichnungen	_	_
+12-7	715-716	,	_	_
+12-8	717-722	unter	_	_
+12-9	723-728	denen	_	_
+12-10	729-733	sich	_	_
+12-11	734-738	auch	_	_
+12-12	739-742	Ihr	_	_
+12-13	743-752	vermißtes	_	_
+12-14	753-761	Fragment	_	_
+12-15	762-770	befindet	_	_
+12-16	771-772	,	_	_
+12-17	773-775	in	_	_
+12-18	776-781	einer	_	_
+12-19	782-793	Blechkapsel	_	_
+12-20	794-797	bei	_	_
+12-21	798-801	und	_	_
+12-22	802-810	übergebe	_	_
+12-23	811-814	sie	_	_
+12-24	815-818	der	_	_
+12-25	819-828	Diligence	_	_
+12-26	829-830	.	_	_
+
+#Text=Doch will ich es von den hier angeschlagenen Postenkosten abhängig machen .
+13-1	831-835	Doch	_	_
+13-2	836-840	will	_	_
+13-3	841-844	ich	_	_
+13-4	845-847	es	_	_
+13-5	848-851	von	_	_
+13-6	852-855	den	_	_
+13-7	856-860	hier	_	_
+13-8	861-875	angeschlagenen	_	_
+13-9	876-888	Postenkosten	_	_
+13-10	889-897	abhängig	_	_
+13-11	898-904	machen	_	_
+13-12	905-906	.	_	_
+
+#Text=Leider ist der Courier schon abgegangen und Bunsen bereits über die Berge .
+14-1	907-913	Leider	_	_
+14-2	914-917	ist	_	_
+14-3	918-921	der	_	_
+14-4	922-929	Courier	_	_
+14-5	930-935	schon	_	_
+14-6	936-946	abgegangen	_	_
+14-7	947-950	und	_	_
+14-8	951-957	Bunsen	*	PERmentioned
+14-9	958-965	bereits	_	_
+14-10	966-970	über	_	_
+14-11	971-974	die	_	_
+14-12	975-980	Berge	_	_
+14-13	981-982	.	_	_
+
+#Text=Meine Schuld ist es indessen nicht .
+15-1	983-988	Meine	_	_
+15-2	989-995	Schuld	_	_
+15-3	996-999	ist	_	_
+15-4	1000-1002	es	_	_
+15-5	1003-1011	indessen	_	_
+15-6	1012-1017	nicht	_	_
+15-7	1018-1019	.	_	_
+
+#Text=Die Basseggiosche Minervengeburt stellt allerdings alle Figuren auf gleiche Linie .
+16-1	1020-1023	Die	_	_
+16-2	1024-1037	Basseggiosche	*	PERmentioned
+16-3	1038-1052	Minervengeburt	*	OBJ
+16-4	1053-1059	stellt	_	_
+16-5	1060-1070	allerdings	_	_
+16-6	1071-1075	alle	_	_
+16-7	1076-1083	Figuren	_	_
+16-8	1084-1087	auf	_	_
+16-9	1088-1095	gleiche	_	_
+16-10	1096-1101	Linie	_	_
+16-11	1102-1103	.	_	_
+
+#Text=Die beiden äußeren Figuren treten etwas weniger fest auf \; in der Intenzion des Künstlers lag es aber offenbar alle auf gleiche Grundtinie zu stellen .
+17-1	1104-1107	Die	_	_
+17-2	1108-1114	beiden	_	_
+17-3	1115-1122	äußeren	_	_
+17-4	1123-1130	Figuren	_	_
+17-5	1131-1137	treten	_	_
+17-6	1138-1143	etwas	_	_
+17-7	1144-1151	weniger	_	_
+17-8	1152-1156	fest	_	_
+17-9	1157-1160	auf	_	_
+17-10	1161-1162	\;	_	_
+17-11	1163-1165	in	_	_
+17-12	1166-1169	der	_	_
+17-13	1170-1179	Intenzion	_	_
+17-14	1180-1183	des	_	_
+17-15	1184-1193	Künstlers	_	_
+17-16	1194-1197	lag	_	_
+17-17	1198-1200	es	_	_
+17-18	1201-1205	aber	_	_
+17-19	1206-1214	offenbar	_	_
+17-20	1215-1219	alle	_	_
+17-21	1220-1223	auf	_	_
+17-22	1224-1231	gleiche	_	_
+17-23	1232-1242	Grundtinie	_	_
+17-24	1243-1245	zu	_	_
+17-25	1246-1253	stellen	_	_
+17-26	1254-1255	.	_	_

@@ -1,0 +1,136 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Bern , 4. April 1840 sie zurückgewiesen , wegen Mangel an Geld ?
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-22	Bern	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	4.	*[4]	DATEletter[4]
+1-7	28-33	April	*[4]	DATEletter[4]
+1-8	34-38	1840	*[4]	DATEletter[4]
+1-9	39-42	sie	_	_
+1-10	43-57	zurückgewiesen	_	_
+1-11	58-59	,	_	_
+1-12	60-65	wegen	_	_
+1-13	66-72	Mangel	_	_
+1-14	73-75	an	_	_
+1-15	76-80	Geld	_	_
+1-16	81-82	?	_	_
+
+#Text=Sie kommt mit Ministerialpaß von Berlin .
+2-1	83-86	Sie	_	_
+2-2	87-92	kommt	_	_
+2-3	93-96	mit	_	_
+2-4	97-111	Ministerialpaß	_	_
+2-5	112-115	von	_	_
+2-6	116-122	Berlin	*	PLACEmentioned
+2-7	123-124	.	_	_
+
+#Text=Die Unterhandlung wegen der Porte del battistero von Florenz ist wohl nicht wieder aufzunehmen ?
+3-1	125-128	Die	_	_
+3-2	129-142	Unterhandlung	_	_
+3-3	143-148	wegen	_	_
+3-4	149-152	der	_	_
+3-5	153-158	Porte	_	_
+3-6	159-162	del	_	_
+3-7	163-173	battistero	_	_
+3-8	174-177	von	_	_
+3-9	178-185	Florenz	*	PLACEmentioned
+3-10	186-189	ist	_	_
+3-11	190-194	wohl	_	_
+3-12	195-200	nicht	_	_
+3-13	201-207	wieder	_	_
+3-14	208-219	aufzunehmen	_	_
+3-15	220-221	?	_	_
+
+#Text=Schaffgotsch hatte schöne Anerbieten gemacht , wie mir schien .
+4-1	222-234	Schaffgotsch	*	PERmentioned
+4-2	235-240	hatte	_	_
+4-3	241-247	schöne	_	_
+4-4	248-258	Anerbieten	_	_
+4-5	259-266	gemacht	_	_
+4-6	267-268	,	_	_
+4-7	269-272	wie	_	_
+4-8	273-276	mir	_	_
+4-9	277-283	schien	_	_
+4-10	284-285	.	_	_
+
+#Text=Aber alle die himmlischen Schilder von L ( uca ) della Robbia in Toscana , Lucca , sollte man doch haben .
+5-1	286-290	Aber	_	_
+5-2	291-295	alle	_	_
+5-3	296-299	die	_	_
+5-4	300-311	himmlischen	_	_
+5-5	312-320	Schilder	_	_
+5-6	321-324	von	_	_
+5-7	325-326	L	*[8]	PERmentioned[8]
+5-8	327-328	(	*[8]	PERmentioned[8]
+5-9	329-332	uca	*[8]	PERmentioned[8]
+5-10	333-334	)	*[8]	PERmentioned[8]
+5-11	335-340	della	*[8]	PERmentioned[8]
+5-12	341-347	Robbia	*[8]	PERmentioned[8]
+5-13	348-350	in	_	_
+5-14	351-358	Toscana	*	PLACEmentioned
+5-15	359-360	,	_	_
+5-16	361-366	Lucca	*	PLACEmentioned
+5-17	367-368	,	_	_
+5-18	369-375	sollte	_	_
+5-19	376-379	man	_	_
+5-20	380-384	doch	_	_
+5-21	385-390	haben	_	_
+5-22	391-392	.	_	_
+
+#Text=Können Sie ihn nicht für die schönen .
+6-1	393-399	Können	_	_
+6-2	400-403	Sie	_	_
+6-3	404-407	ihn	_	_
+6-4	408-413	nicht	_	_
+6-5	414-417	für	_	_
+6-6	418-421	die	_	_
+6-7	422-429	schönen	_	_
+6-8	430-431	.	_	_
+
+#Text=Vasen begeistern , die , nach den Zeitungen , in immer größeren Mengen in Griechenland gefunden werden ?
+7-1	432-437	Vasen	_	_
+7-2	438-448	begeistern	_	_
+7-3	449-450	,	_	_
+7-4	451-454	die	_	_
+7-5	455-456	,	_	_
+7-6	457-461	nach	_	_
+7-7	462-465	den	_	_
+7-8	466-475	Zeitungen	_	_
+7-9	476-477	,	_	_
+7-10	478-480	in	_	_
+7-11	481-486	immer	_	_
+7-12	487-495	größeren	_	_
+7-13	496-502	Mengen	_	_
+7-14	503-505	in	_	_
+7-15	506-518	Griechenland	*	PLACEmentioned
+7-16	519-527	gefunden	_	_
+7-17	528-534	werden	_	_
+7-18	535-536	?	_	_
+
+#Text=Von andrer Schrift hinzugefügt : Bitte die Einlage selbst abzugeben , möglichst bald .
+8-1	537-540	Von	_	_
+8-2	541-547	andrer	_	_
+8-3	548-555	Schrift	_	_
+8-4	556-567	hinzugefügt	_	_
+8-5	568-569	:	_	_
+8-6	570-575	Bitte	_	_
+8-7	576-579	die	_	_
+8-8	580-587	Einlage	_	_
+8-9	588-594	selbst	_	_
+8-10	595-604	abzugeben	_	_
+8-11	605-606	,	_	_
+8-12	607-616	möglichst	_	_
+8-13	617-621	bald	_	_
+8-14	622-623	.	_	_
+
+#Text=Verzeihen Sie die Freaäheit .
+9-1	624-633	Verzeihen	_	_
+9-2	634-637	Sie	_	_
+9-3	638-641	die	_	_
+9-4	642-651	Freaäheit	_	_
+9-5	652-653	.	_	_

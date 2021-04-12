@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 18. Mai 1838 Ist wol meine Büste seinerzeit eingesargt worden ?
+1-1	0-7	Gerhard	*	PERauthor	
+1-2	8-10	an	_	_	
+1-3	11-16	Braun	*	PERaddressee	
+1-4	17-23	Berlin	*	PLACEfrom	
+1-5	24-25	,	_	_	
+1-6	26-29	18.	*[1]	DATEletter[1]	
+1-7	30-33	Mai	*[1]	DATEletter[1]	
+1-8	34-38	1838	*[1]	DATEletter[1]	
+1-9	39-42	Ist	_	_	
+1-10	43-46	wol	_	_	
+1-11	47-52	meine	_	_	
+1-12	53-58	Büste	_	_	
+1-13	59-69	seinerzeit	_	_	
+1-14	70-80	eingesargt	_	_	
+1-15	81-87	worden	_	_	
+1-16	88-89	?	_	_	
+
+#Text=Meine alte Bitte ein paar Zeichnungen zum Behuf von Malereien für Tassen zu haben empfehle ich Ihnen aufs neue .
+2-1	90-95	Meine	_	_	
+2-2	96-100	alte	_	_	
+2-3	101-106	Bitte	_	_	
+2-4	107-110	ein	_	_	
+2-5	111-115	paar	_	_	
+2-6	116-127	Zeichnungen	_	_	
+2-7	128-131	zum	_	_	
+2-8	132-137	Behuf	_	_	
+2-9	138-141	von	_	_	
+2-10	142-151	Malereien	_	_	
+2-11	152-155	für	_	_	
+2-12	156-162	Tassen	_	_	
+2-13	163-165	zu	_	_	
+2-14	166-171	haben	_	_	
+2-15	172-180	empfehle	_	_	
+2-16	181-184	ich	_	_	
+2-17	185-190	Ihnen	_	_	
+2-18	191-195	aufs	_	_	
+2-19	196-200	neue	_	_	
+2-20	201-202	.	_	_	
+
+#Text=- Ich wünschte für das Rund einer Untertasse 1 ) eine Ansicht von Monte Gennaro 2 ) die Aussicht von Villa Ficcolomini auf die Russinella , der jezt abgehauenen Pinien .
+3-1	203-204	-	_	_	
+3-2	205-208	Ich	_	_	
+3-3	209-217	wünschte	_	_	
+3-4	218-221	für	_	_	
+3-5	222-225	das	_	_	
+3-6	226-230	Rund	_	_	
+3-7	231-236	einer	_	_	
+3-8	237-247	Untertasse	_	_	
+3-9	248-249	1	_	_	
+3-10	250-251	)	_	_	
+3-11	252-256	eine	_	_	
+3-12	257-264	Ansicht	_	_	
+3-13	265-268	von	_	_	
+3-14	269-274	Monte	*[2]	PLACEmentioned[2]	
+3-15	275-282	Gennaro	*[2]	PLACEmentioned[2]	
+3-16	283-284	2	_	_	
+3-17	285-286	)	_	_	
+3-18	287-290	die	_	_	
+3-19	291-299	Aussicht	_	_	
+3-20	300-303	von	_	_	
+3-21	304-309	Villa	*[3]	PLACEmentioned[3]	
+3-22	310-321	Ficcolomini	*[3]	PLACEmentioned[3]	
+3-23	322-325	auf	_	_	
+3-24	326-329	die	_	_	
+3-25	330-340	Russinella	*	PLACEmentioned	
+3-26	341-342	,	_	_	
+3-27	343-346	der	_	_	
+3-28	347-351	jezt	_	_	
+3-29	352-363	abgehauenen	_	_	
+3-30	364-370	Pinien	_	_	
+3-31	371-372	.	_	_	
+
+#Text=- Für die Form eine Obertasse , lang und schmal , 1 ) das Innere der Peterskirche 2 ) das Ospedale delle Belle Arti mit Wolfs Fronton und etwa noch 3 ) eine Capitolsansicht , Araceli und Caffarel- 1i daranschließend , von der salita her .
+4-1	373-374	-	_	_	
+4-2	375-378	Für	_	_	
+4-3	379-382	die	_	_	
+4-4	383-387	Form	_	_	
+4-5	388-392	eine	_	_	
+4-6	393-402	Obertasse	_	_	
+4-7	403-404	,	_	_	
+4-8	405-409	lang	_	_	
+4-9	410-413	und	_	_	
+4-10	414-420	schmal	_	_	
+4-11	421-422	,	_	_	
+4-12	423-424	1	_	_	
+4-13	425-426	)	_	_	
+4-14	427-430	das	_	_	
+4-15	431-437	Innere	_	_	
+4-16	438-441	der	_	_	
+4-17	442-454	Peterskirche	*	PLACEmentioned	
+4-18	455-456	2	_	_	
+4-19	457-458	)	_	_	
+4-20	459-462	das	_	_	
+4-21	463-471	Ospedale	*[4]	PLACEmentioned[4]	
+4-22	472-477	delle	*[4]	PLACEmentioned[4]	
+4-23	478-483	Belle	*[4]	PLACEmentioned[4]	
+4-24	484-488	Arti	*[4]	PLACEmentioned[4]	
+4-25	489-492	mit	_	_	
+4-26	493-498	Wolfs	*	PERmentioned	
+4-27	499-506	Fronton	_	_	
+4-28	507-510	und	_	_	
+4-29	511-515	etwa	_	_	
+4-30	516-520	noch	_	_	
+4-31	521-522	3	_	_	
+4-32	523-524	)	_	_	
+4-33	525-529	eine	_	_	
+4-34	530-545	Capitolsansicht	*	PLACEmentioned	
+4-35	546-547	,	_	_	
+4-36	548-555	Araceli	*	PLACEmentioned	
+4-37	556-559	und	_	_	
+4-38	560-569	Caffarel-	*[5]	PLACEmentioned[5]	
+4-39	570-572	1i	*[5]	PLACEmentioned[5]	
+4-40	573-588	daranschließend	_	_	
+4-41	589-590	,	_	_	
+4-42	591-594	von	_	_	
+4-43	595-598	der	_	_	
+4-44	599-605	salita	_	_	
+4-45	606-609	her	_	_	
+4-46	610-611	.	_	_	
+
+#Text=Apolloni hätte mir früher in einem ähnlichem Fall geholfen ; die Sache muß natürlich nicht theuer ausfallen .
+5-1	612-620	Apolloni	*	PERmentioned	
+5-2	621-626	hätte	_	_	
+5-3	627-630	mir	_	_	
+5-4	631-637	früher	_	_	
+5-5	638-640	in	_	_	
+5-6	641-646	einem	_	_	
+5-7	647-656	ähnlichem	_	_	
+5-8	657-661	Fall	_	_	
+5-9	662-670	geholfen	_	_	
+5-10	671-672	;	_	_	
+5-11	673-676	die	_	_	
+5-12	677-682	Sache	_	_	
+5-13	683-686	muß	_	_	
+5-14	687-696	natürlich	_	_	
+5-15	697-702	nicht	_	_	
+5-16	703-709	theuer	_	_	
+5-17	710-719	ausfallen	_	_	
+5-18	720-721	.	_	_	
+
+#Text=Ich fahre fort zu vegetiren ; Augenleid und Ungunst der Zeiten vereinigen sich gegen mich .
+6-1	722-725	Ich	_	_	
+6-2	726-731	fahre	_	_	
+6-3	732-736	fort	_	_	
+6-4	737-739	zu	_	_	
+6-5	740-749	vegetiren	_	_	
+6-6	750-751	;	_	_	
+6-7	752-761	Augenleid	_	_	
+6-8	762-765	und	_	_	
+6-9	766-773	Ungunst	_	_	
+6-10	774-777	der	_	_	
+6-11	778-784	Zeiten	_	_	
+6-12	785-795	vereinigen	_	_	
+6-13	796-800	sich	_	_	
+6-14	801-806	gegen	_	_	
+6-15	807-811	mich	_	_	
+6-16	812-813	.	_	_	
+
+#Text=Meine Tröstung ist die Hoffnung et einige Wochen Reise mit Anfang Juli , wo nicht früher .
+7-1	814-819	Meine	_	_	
+7-2	820-828	Tröstung	_	_	
+7-3	829-832	ist	_	_	
+7-4	833-836	die	_	_	
+7-5	837-845	Hoffnung	_	_	
+7-6	846-848	et	_	_	
+7-7	849-855	einige	_	_	
+7-8	856-862	Wochen	_	_	
+7-9	863-868	Reise	_	_	
+7-10	869-872	mit	_	_	
+7-11	873-879	Anfang	_	_	
+7-12	880-884	Juli	*	DATEmentioned	
+7-13	885-886	,	_	_	
+7-14	887-889	wo	_	_	
+7-15	890-895	nicht	_	_	
+7-16	896-902	früher	_	_	
+7-17	903-904	.	_	_	
+
+#Text=Die Volumina des Gs6nvers. , - Lexikons , die ich bei Ihnen zurückließ , sind ohne Bestimmung geblieben ; mögen Sie noch Gebrauch davon machen , so bitte ich selbige als Ihr Eigenthum zu betrachten .
+8-1	905-908	Die	_	_	
+8-2	909-917	Volumina	_	_	
+8-3	918-921	des	_	_	
+8-4	922-931	Gs6nvers.	_	_	
+8-5	932-933	,	_	_	
+8-6	934-935	-	_	_	
+8-7	936-944	Lexikons	_	_	
+8-8	945-946	,	_	_	
+8-9	947-950	die	_	_	
+8-10	951-954	ich	_	_	
+8-11	955-958	bei	_	_	
+8-12	959-964	Ihnen	_	_	
+8-13	965-975	zurückließ	_	_	
+8-14	976-977	,	_	_	
+8-15	978-982	sind	_	_	
+8-16	983-987	ohne	_	_	
+8-17	988-998	Bestimmung	_	_	
+8-18	999-1008	geblieben	_	_	
+8-19	1009-1010	;	_	_	
+8-20	1011-1016	mögen	_	_	
+8-21	1017-1020	Sie	_	_	
+8-22	1021-1025	noch	_	_	
+8-23	1026-1034	Gebrauch	_	_	
+8-24	1035-1040	davon	_	_	
+8-25	1041-1047	machen	_	_	
+8-26	1048-1049	,	_	_	
+8-27	1050-1052	so	_	_	
+8-28	1053-1058	bitte	_	_	
+8-29	1059-1062	ich	_	_	
+8-30	1063-1070	selbige	_	_	
+8-31	1071-1074	als	_	_	
+8-32	1075-1078	Ihr	_	_	
+8-33	1079-1088	Eigenthum	_	_	
+8-34	1089-1091	zu	_	_	
+8-35	1092-1102	betrachten	_	_	
+8-36	1103-1104	.	_	_	
+
+#Text=Meinen besten Glückwunsch an Lepsius zu dem von ihm erworbenen französischen Preis !
+9-1	1105-1111	Meinen	_	_	
+9-2	1112-1118	besten	_	_	
+9-3	1119-1130	Glückwunsch	_	_	
+9-4	1131-1133	an	_	_	
+9-5	1134-1141	Lepsius	*	PERmentioned	
+9-6	1142-1144	zu	_	_	
+9-7	1145-1148	dem	_	_	
+9-8	1149-1152	von	_	_	
+9-9	1153-1156	ihm	_	_	
+9-10	1157-1167	erworbenen	_	_	
+9-11	1168-1181	französischen	_	_	
+9-12	1182-1187	Preis	_	_	
+9-13	1188-1189	!	_	_	
+
+#Text=Herzlichst Ihr Gerhard
+10-1	1190-1200	Herzlichst	_	_	
+10-2	1201-1204	Ihr	_	_	
+10-3	1205-1212	Gerhard	*	PERauthor	

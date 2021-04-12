@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=404 Helbig an Henzen Neapel , 24 .
+1-1	0-3	404	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	24	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1864 H g- 30/8 64 Tr .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1864	*[1]	DATEletter[1]
+2-3	47-48	H	_	_
+2-4	49-51	g-	_	_
+2-5	52-56	30/8	*[2]	DATErecieved[2]
+2-6	57-59	64	*[2]	DATErecieved[2]
+2-7	60-62	Tr	_	_
+2-8	63-64	.	_	_
+
+#Text=Neapel 24 .
+3-1	65-71	Neapel	*	PLACEfrom
+3-2	72-74	24	*[3]	DATEletter[3]
+3-3	75-76	.	*[3]	DATEletter[3]
+
+#Text=Aug . 1864 .
+4-1	77-80	Aug	*[3]	DATEletter[3]
+4-2	81-82	.	*[3]	DATEletter[3]
+4-3	83-87	1864	*[3]	DATEletter[3]
+4-4	88-89	.	_	_
+
+#Text=Geehrtester Herr Professor \| !
+5-1	90-101	Geehrtester	_	_
+5-2	102-106	Herr	_	_
+5-3	107-116	Professor	_	_
+5-4	117-118	\|	_	_
+5-5	119-120	!	_	_
+
+#Text=Wie wir es mit den Institutszeichnungen halten sollen , ist wirklich ein affare serio und ich möchte mir nicht alle Verantwortung davon aufladen .
+6-1	121-124	Wie	_	_
+6-2	125-128	wir	_	_
+6-3	129-131	es	_	_
+6-4	132-135	mit	_	_
+6-5	136-139	den	_	_
+6-6	140-160	Institutszeichnungen	_	_
+6-7	161-167	halten	_	_
+6-8	168-174	sollen	_	_
+6-9	175-176	,	_	_
+6-10	177-180	ist	_	_
+6-11	181-189	wirklich	_	_
+6-12	190-193	ein	_	_
+6-13	194-200	affare	_	_
+6-14	201-206	serio	_	_
+6-15	207-210	und	_	_
+6-16	211-214	ich	_	_
+6-17	215-221	möchte	_	_
+6-18	222-225	mir	_	_
+6-19	226-231	nicht	_	_
+6-20	232-236	alle	_	_
+6-21	237-250	Verantwortung	_	_
+6-22	251-256	davon	_	_
+6-23	257-265	aufladen	_	_
+6-24	266-267	.	_	_
+
+#Text=Bei der schwächlichen Constitution Scalabrinis wird sich mit diesem unter obwaltenden Umständen nicht viel anfangen lassen .
+7-1	268-271	Bei	_	_
+7-2	272-275	der	_	_
+7-3	276-289	schwächlichen	_	_
+7-4	290-302	Constitution	_	_
+7-5	303-314	Scalabrinis	_	_
+7-6	315-319	wird	_	_
+7-7	320-324	sich	_	_
+7-8	325-328	mit	_	_
+7-9	329-335	diesem	_	_
+7-10	336-341	unter	_	_
+7-11	342-353	obwaltenden	_	_
+7-12	354-363	Umständen	_	_
+7-13	364-369	nicht	_	_
+7-14	370-374	viel	_	_
+7-15	375-383	anfangen	_	_
+7-16	384-390	lassen	_	_
+7-17	391-392	.	_	_
+
+#Text=Die Reliefs von Nasti stehen in dem Hofe einer Marmorata , worauf die Sonne in furchtbarer Weise brennt , ebenso die Sachen aus Calvi , über welche ich Ihnen nächstens berichten werde .
+8-1	393-396	Die	_	_
+8-2	397-404	Reliefs	*	OBJ
+8-3	405-408	von	_	_
+8-4	409-414	Nasti	*	PERmentioned
+8-5	415-421	stehen	_	_
+8-6	422-424	in	_	_
+8-7	425-428	dem	_	_
+8-8	429-433	Hofe	_	_
+8-9	434-439	einer	_	_
+8-10	440-449	Marmorata	*	OBJ
+8-11	450-451	,	_	_
+8-12	452-458	worauf	_	_
+8-13	459-462	die	_	_
+8-14	463-468	Sonne	_	_
+8-15	469-471	in	_	_
+8-16	472-483	furchtbarer	_	_
+8-17	484-489	Weise	_	_
+8-18	490-496	brennt	_	_
+8-19	497-498	,	_	_
+8-20	499-505	ebenso	_	_
+8-21	506-509	die	_	_
+8-22	510-516	Sachen	_	_
+8-23	517-520	aus	_	_
+8-24	521-526	Calvi	*	PLACEmentioned
+8-25	527-528	,	_	_
+8-26	529-533	über	_	_
+8-27	534-540	welche	_	_
+8-28	541-544	ich	_	_
+8-29	545-550	Ihnen	_	_
+8-30	551-560	nächstens	_	_
+8-31	561-570	berichten	_	_
+8-32	571-576	werde	_	_
+8-33	577-578	.	_	_
+
+#Text=Das Museumlocal Peytrignets ist ein gewächshausartiger Vorbau , in welchem ich entsetzlich ausgestanden habe .
+9-1	579-582	Das	_	_
+9-2	583-594	Museumlocal	*[4]	ORGmentioned[4]
+9-3	595-606	Peytrignets	*[4]	ORGmentioned[4]
+9-4	607-610	ist	_	_
+9-5	611-614	ein	_	_
+9-6	615-633	gewächshausartiger	_	_
+9-7	634-640	Vorbau	_	_
+9-8	641-642	,	_	_
+9-9	643-645	in	_	_
+9-10	646-653	welchem	_	_
+9-11	654-657	ich	_	_
+9-12	658-669	entsetzlich	_	_
+9-13	670-682	ausgestanden	_	_
+9-14	683-687	habe	_	_
+9-15	688-689	.	_	_
+
+#Text=Im Museum bleiben von kleinen Sachen , die ich auf meine Verantwortung zeichnen lassen würde , einige Reliefs im Cortile übrig.- also ebenfalls unter freiem Himmel .
+10-1	690-692	Im	_	_
+10-2	693-699	Museum	*	ORGmentioned
+10-3	700-707	bleiben	_	_
+10-4	708-711	von	_	_
+10-5	712-719	kleinen	_	_
+10-6	720-726	Sachen	_	_
+10-7	727-728	,	_	_
+10-8	729-732	die	_	_
+10-9	733-736	ich	_	_
+10-10	737-740	auf	_	_
+10-11	741-746	meine	_	_
+10-12	747-760	Verantwortung	_	_
+10-13	761-769	zeichnen	_	_
+10-14	770-776	lassen	_	_
+10-15	777-782	würde	_	_
+10-16	783-784	,	_	_
+10-17	785-791	einige	_	_
+10-18	792-799	Reliefs	*	OBJ
+10-19	800-802	im	_	_
+10-20	803-810	Cortile	_	_
+10-21	811-818	übrig.-	_	_
+10-22	819-823	also	_	_
+10-23	824-833	ebenfalls	_	_
+10-24	834-839	unter	_	_
+10-25	840-846	freiem	_	_
+10-26	847-853	Himmel	_	_
+10-27	854-855	.	_	_
+
+#Text=Um Kosten zu sparen , würde ich Ihnen daher vorschlagen , es einmal mit einem neapolitanischen Zeichner zu versuchen , dem jungen Gargiulo , welcher leichtere Aufgaben wohl zu bewältigen im Stande ist .
+11-1	856-858	Um	_	_
+11-2	859-865	Kosten	_	_
+11-3	866-868	zu	_	_
+11-4	869-875	sparen	_	_
+11-5	876-877	,	_	_
+11-6	878-883	würde	_	_
+11-7	884-887	ich	_	_
+11-8	888-893	Ihnen	_	_
+11-9	894-899	daher	_	_
+11-10	900-911	vorschlagen	_	_
+11-11	912-913	,	_	_
+11-12	914-916	es	_	_
+11-13	917-923	einmal	_	_
+11-14	924-927	mit	_	_
+11-15	928-933	einem	_	_
+11-16	934-950	neapolitanischen	_	_
+11-17	951-959	Zeichner	_	_
+11-18	960-962	zu	_	_
+11-19	963-972	versuchen	_	_
+11-20	973-974	,	_	_
+11-21	975-978	dem	_	_
+11-22	979-985	jungen	_	_
+11-23	986-994	Gargiulo	*	PERmentioned
+11-24	995-996	,	_	_
+11-25	997-1004	welcher	_	_
+11-26	1005-1014	leichtere	_	_
+11-27	1015-1023	Aufgaben	_	_
+11-28	1024-1028	wohl	_	_
+11-29	1029-1031	zu	_	_
+11-30	1032-1042	bewältigen	_	_
+11-31	1043-1045	im	_	_
+11-32	1046-1052	Stande	_	_
+11-33	1053-1056	ist	_	_
+11-34	1057-1058	.	_	_
+
+#Text=Eine Arbeit bliebe für Scalabrini übrig , zu welcher Gargiulo sicher nicht befähigt ist : die Zeichnung der großen paestanischen Wandgemälde , welche drei Monumententafeln geben
+12-1	1059-1063	Eine	_	_
+12-2	1064-1070	Arbeit	_	_
+12-3	1071-1077	bliebe	_	_
+12-4	1078-1081	für	_	_
+12-5	1082-1092	Scalabrini	*	PERmentioned
+12-6	1093-1098	übrig	_	_
+12-7	1099-1100	,	_	_
+12-8	1101-1103	zu	_	_
+12-9	1104-1111	welcher	_	_
+12-10	1112-1120	Gargiulo	*	PERmentioned
+12-11	1121-1127	sicher	_	_
+12-12	1128-1133	nicht	_	_
+12-13	1134-1142	befähigt	_	_
+12-14	1143-1146	ist	_	_
+12-15	1147-1148	:	_	_
+12-16	1149-1152	die	_	_
+12-17	1153-1162	Zeichnung	_	_
+12-18	1163-1166	der	_	_
+12-19	1167-1173	großen	_	_
+12-20	1174-1187	paestanischen	_	_
+12-21	1188-1199	Wandgemälde	_	_
+12-22	1200-1201	,	_	_
+12-23	1202-1208	welche	_	_
+12-24	1209-1213	drei	_	_
+12-25	1214-1230	Monumententafeln	_	_
+12-26	1231-1236	geben	_	_

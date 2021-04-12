@@ -1,0 +1,300 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=651 Braun an Gerhard Rom , 9 .
+1-1	0-3	651	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-28	9	_	_
+1-8	29-30	.	_	_
+
+#Text=Oktober 1838 ist mir später hei Capranesi wieder begegnet .
+2-1	31-38	Oktober	*[4]	DATEletter[4]
+2-2	39-43	1838	*[4]	DATEletter[4]
+2-3	44-47	ist	_	_
+2-4	48-51	mir	_	_
+2-5	52-58	später	_	_
+2-6	59-62	hei	_	_
+2-7	63-72	Capranesi	*	PERmentioned
+2-8	73-79	wieder	_	_
+2-9	80-88	begegnet	_	_
+2-10	89-90	.	_	_
+
+#Text=Er hält die Hand vor die Augen , aus Schaam , wahrscheinlich weil er besiegt ist : Palästrit .
+3-1	91-93	Er	_	_
+3-2	94-98	hält	_	_
+3-3	99-102	die	_	_
+3-4	103-107	Hand	_	_
+3-5	108-111	vor	_	_
+3-6	112-115	die	_	_
+3-7	116-121	Augen	_	_
+3-8	122-123	,	_	_
+3-9	124-127	aus	_	_
+3-10	128-134	Schaam	_	_
+3-11	135-136	,	_	_
+3-12	137-151	wahrscheinlich	_	_
+3-13	152-156	weil	_	_
+3-14	157-159	er	_	_
+3-15	160-167	besiegt	_	_
+3-16	168-171	ist	_	_
+3-17	172-173	:	_	_
+3-18	174-183	Palästrit	*	OBJ
+3-19	184-185	.	_	_
+
+#Text=Millingen sendet seine Rechnungen in ’ folgender Form ein : 1 Ex .
+4-1	186-195	Millingen	*	PERmentioned
+4-2	196-202	sendet	_	_
+4-3	203-208	seine	_	_
+4-4	209-219	Rechnungen	_	_
+4-5	220-222	in	_	_
+4-6	223-224	’	_	_
+4-7	225-234	folgender	_	_
+4-8	235-239	Form	_	_
+4-9	240-243	ein	_	_
+4-10	244-245	:	_	_
+4-11	246-247	1	_	_
+4-12	248-250	Ex	_	_
+4-13	251-252	.	_	_
+
+#Text=Greek coins Scudi 4 % .
+5-1	253-258	Greek	_	_
+5-2	259-264	coins	_	_
+5-3	265-270	Scudi	_	_
+5-4	271-272	4	_	_
+5-5	273-274	%	_	_
+5-6	275-276	.	_	_
+
+#Text=T wie Catalogne 5.17 Ac .
+6-1	277-278	T	_	_
+6-2	279-282	wie	_	_
+6-3	283-292	Catalogne	_	_
+6-4	293-297	5.17	_	_
+6-5	298-300	Ac	_	_
+6-6	301-302	.	_	_
+
+#Text=uned .
+7-1	303-307	uned	_	_
+7-2	308-309	.	_	_
+
+#Text=Monum .
+8-1	310-315	Monum	_	_
+8-2	316-317	.	_	_
+
+#Text=2 vol . 36 .
+9-1	318-319	2	_	_
+9-2	320-323	vol	_	_
+9-3	324-325	.	_	_
+9-4	326-328	36	_	_
+9-5	329-330	.	_	_
+
+#Text=- Vases de Tischbein \| 5.65 Le Institut doit Scudi 50.82 Je dois pas comte un dessein de vase Sc. 1 .
+10-1	331-332	-	_	_
+10-2	333-338	Vases	_	_
+10-3	339-341	de	_	_
+10-4	342-351	Tischbein	_	_
+10-5	352-353	\|	_	_
+10-6	354-358	5.65	_	_
+10-7	359-361	Le	_	_
+10-8	362-370	Institut	_	_
+10-9	371-375	doit	_	_
+10-10	376-381	Scudi	_	_
+10-11	382-387	50.82	_	_
+10-12	388-390	Je	_	_
+10-13	391-395	dois	_	_
+10-14	396-399	pas	_	_
+10-15	400-405	comte	_	_
+10-16	406-408	un	_	_
+10-17	409-416	dessein	_	_
+10-18	417-419	de	_	_
+10-19	420-424	vase	_	_
+10-20	425-428	Sc.	_	_
+10-21	429-430	1	_	_
+10-22	431-432	.	_	_
+
+#Text=A 1 ' & gard des 5 ann & es de ma souscription 1829 ä 1833 je les ai pay & es en argent ä Mr .
+11-1	433-434	A	_	_
+11-2	435-436	1	_	_
+11-3	437-438	'	_	_
+11-4	439-440	&	_	_
+11-5	441-445	gard	_	_
+11-6	446-449	des	_	_
+11-7	450-451	5	_	_
+11-8	452-455	ann	_	_
+11-9	456-457	&	_	_
+11-10	458-460	es	_	_
+11-11	461-463	de	_	_
+11-12	464-466	ma	_	_
+11-13	467-479	souscription	_	_
+11-14	480-484	1829	_	_
+11-15	485-486	ä	_	_
+11-16	487-491	1833	_	_
+11-17	492-494	je	_	_
+11-18	495-498	les	_	_
+11-19	499-501	ai	_	_
+11-20	502-505	pay	_	_
+11-21	506-507	&	_	_
+11-22	508-510	es	_	_
+11-23	511-513	en	_	_
+11-24	514-520	argent	_	_
+11-25	521-522	ä	_	_
+11-26	523-525	Mr	_	_
+11-27	526-527	.	_	_
+
+#Text=Panofka et M. de Witte .
+12-1	528-535	Panofka	*	PERmentioned
+12-2	536-538	et	_	_
+12-3	539-541	M.	*[9]	PERmentioned[9]
+12-4	542-544	de	*[9]	PERmentioned[9]
+12-5	545-550	Witte	*[9]	PERmentioned[9]
+12-6	551-552	.	_	_
+
+#Text=\| Das Weitere geht das 2.te Quinquennium an .
+13-1	553-554	\|	_	_
+13-2	555-558	Das	_	_
+13-3	559-566	Weitere	_	_
+13-4	567-571	geht	_	_
+13-5	572-575	das	_	_
+13-6	576-580	2.te	_	_
+13-7	581-593	Quinquennium	_	_
+13-8	594-596	an	_	_
+13-9	597-598	.	_	_
+
+#Text=Mir scheint die Sache confus .
+14-1	599-602	Mir	_	_
+14-2	603-610	scheint	_	_
+14-3	611-614	die	_	_
+14-4	615-620	Sache	_	_
+14-5	621-627	confus	_	_
+14-6	628-629	.	_	_
+
+#Text=Sie müssen durchaus selbst die Sache mit ihm ausmachen , indem ich von allem nichts weiß .
+15-1	630-633	Sie	_	_
+15-2	634-640	müssen	_	_
+15-3	641-649	durchaus	_	_
+15-4	650-656	selbst	_	_
+15-5	657-660	die	_	_
+15-6	661-666	Sache	_	_
+15-7	667-670	mit	_	_
+15-8	671-674	ihm	_	_
+15-9	675-684	ausmachen	_	_
+15-10	685-686	,	_	_
+15-11	687-692	indem	_	_
+15-12	693-696	ich	_	_
+15-13	697-700	von	_	_
+15-14	701-706	allem	_	_
+15-15	707-713	nichts	_	_
+15-16	714-718	weiß	_	_
+15-17	719-720	.	_	_
+
+#Text=Lancis Brief wird wahrscheinlich in dem von Urlichs , der auf dessen Rückreise wartet , begraben liegen .
+16-1	721-727	Lancis	*	PERmentioned
+16-2	728-733	Brief	_	_
+16-3	734-738	wird	_	_
+16-4	739-753	wahrscheinlich	_	_
+16-5	754-756	in	_	_
+16-6	757-760	dem	_	_
+16-7	761-764	von	_	_
+16-8	765-772	Urlichs	*	PERmentioned
+16-9	773-774	,	_	_
+16-10	775-778	der	_	_
+16-11	779-782	auf	_	_
+16-12	783-789	dessen	_	_
+16-13	790-799	Rückreise	_	_
+16-14	800-806	wartet	_	_
+16-15	807-808	,	_	_
+16-16	809-817	begraben	_	_
+16-17	818-824	liegen	_	_
+16-18	825-826	.	_	_
+
+#Text=Ihre Notice ist Ihren Weisungen zufolge spedirt worden .
+17-1	827-831	Ihre	_	_
+17-2	832-838	Notice	_	_
+17-3	839-842	ist	_	_
+17-4	843-848	Ihren	_	_
+17-5	849-858	Weisungen	_	_
+17-6	859-866	zufolge	_	_
+17-7	867-874	spedirt	_	_
+17-8	875-881	worden	_	_
+17-9	882-883	.	_	_
+
+#Text=Raoul Rochette hat also das Ei des Colombo auf den Tisch zu setzen gewußt .
+18-1	884-889	Raoul	*[12]	PERmentioned[12]
+18-2	890-898	Rochette	*[12]	PERmentioned[12]
+18-3	899-902	hat	_	_
+18-4	903-907	also	_	_
+18-5	908-911	das	_	_
+18-6	912-914	Ei	_	_
+18-7	915-918	des	_	_
+18-8	919-926	Colombo	_	_
+18-9	927-930	auf	_	_
+18-10	931-934	den	_	_
+18-11	935-940	Tisch	_	_
+18-12	941-943	zu	_	_
+18-13	944-950	setzen	_	_
+18-14	951-957	gewußt	_	_
+18-15	958-959	.	_	_
+
+#Text=Die Reliefs sollen wie mir Augenzeugen berichten sehr schön sein .
+19-1	960-963	Die	_	_
+19-2	964-971	Reliefs	*	OBJ
+19-3	972-978	sollen	_	_
+19-4	979-982	wie	_	_
+19-5	983-986	mir	_	_
+19-6	987-998	Augenzeugen	_	_
+19-7	999-1008	berichten	_	_
+19-8	1009-1013	sehr	_	_
+19-9	1014-1019	schön	_	_
+19-10	1020-1024	sein	_	_
+19-11	1025-1026	.	_	_
+
+#Text=Menschenfüße habe indessen die Centauren nicht , wie Müller meint .
+20-1	1027-1039	Menschenfüße	_	_
+20-2	1040-1044	habe	_	_
+20-3	1045-1053	indessen	_	_
+20-4	1054-1057	die	_	_
+20-5	1058-1067	Centauren	_	_
+20-6	1068-1073	nicht	_	_
+20-7	1074-1075	,	_	_
+20-8	1076-1079	wie	_	_
+20-9	1080-1086	Müller	*	PERmentioned
+20-10	1087-1092	meint	_	_
+20-11	1093-1094	.	_	_
+
+#Text=Senden Sie gefälligst 4 Exemplare des Bull .
+21-1	1095-1101	Senden	_	_
+21-2	1102-1105	Sie	_	_
+21-3	1106-1116	gefälligst	_	_
+21-4	1117-1118	4	_	_
+21-5	1119-1128	Exemplare	_	_
+21-6	1129-1132	des	_	_
+21-7	1133-1137	Bull	_	_
+21-8	1138-1139	.	_	_
+
+#Text=1837 .
+22-1	1140-1144	1837	_	_
+22-2	1145-1146	.	_	_
+
+#Text=XIIO 12. an Marcus nach Bonn ( sous bande ) \; sie fehlen ihm und andere sind überzählig .
+23-1	1147-1151	XIIO	_	_
+23-2	1152-1155	12.	_	_
+23-3	1156-1158	an	_	_
+23-4	1159-1165	Marcus	*	PERmentioned
+23-5	1166-1170	nach	_	_
+23-6	1171-1175	Bonn	*	PLACEmentioned
+23-7	1176-1177	(	_	_
+23-8	1178-1182	sous	_	_
+23-9	1183-1188	bande	_	_
+23-10	1189-1190	)	_	_
+23-11	1191-1192	\;	_	_
+23-12	1193-1196	sie	_	_
+23-13	1197-1203	fehlen	_	_
+23-14	1204-1207	ihm	_	_
+23-15	1208-1211	und	_	_
+23-16	1212-1218	andere	_	_
+23-17	1219-1223	sind	_	_
+23-18	1224-1234	überzählig	_	_
+23-19	1235-1236	.	_	_

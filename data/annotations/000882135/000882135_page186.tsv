@@ -1,0 +1,280 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=4 Braun an Gerhard Rom , 4 .
+1-1	0-1	4	_	_
+1-2	2-7	Braun	*	PERauthor
+1-3	8-10	an	_	_
+1-4	11-18	Gerhard	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-26	4	*[4]	DATEletter[4]
+1-8	27-28	.	*[4]	DATEletter[4]
+
+#Text=Januar 1840 Sig .
+2-1	29-35	Januar	*[4]	DATEletter[4]
+2-2	36-40	1840	*[4]	DATEletter[4]
+2-3	41-44	Sig	_	_
+2-4	45-46	.	_	_
+
+#Text=Prog .
+3-1	47-51	Prog	_	_
+3-2	52-53	.	_	_
+
+#Text=Gerhard Roma li 4 Gennajo 71840 .
+4-1	54-61	Gerhard	*	PERaddressee
+4-2	62-66	Roma	*	PLACEfrom
+4-3	67-69	li	_	_
+4-4	70-71	4	*[7]	DATEletter[7]
+4-5	72-79	Gennajo	*[7]	DATEletter[7]
+4-6	80-85	71840	*[7]	DATEletter[7]
+4-7	86-87	.	_	_
+
+#Text=Die Ausgrabungen des Prinzen von Canino sind äußerst ergiebig gewesen .
+5-1	88-91	Die	_	_
+5-2	92-104	Ausgrabungen	_	_
+5-3	105-108	des	_	_
+5-4	109-116	Prinzen	*[8]	PERmentioned[8]
+5-5	117-120	von	*[8]	PERmentioned[8]
+5-6	121-127	Canino	*[8]	PERmentioned[8]
+5-7	128-132	sind	_	_
+5-8	133-140	äußerst	_	_
+5-9	141-149	ergiebig	_	_
+5-10	150-157	gewesen	_	_
+5-11	158-159	.	_	_
+
+#Text=Basseggio hat bereits eine schöne Beute heimgeführt .
+6-1	160-169	Basseggio	*	PERmentioned
+6-2	170-173	hat	_	_
+6-3	174-181	bereits	_	_
+6-4	182-186	eine	_	_
+6-5	187-193	schöne	_	_
+6-6	194-199	Beute	_	_
+6-7	200-211	heimgeführt	_	_
+6-8	212-213	.	_	_
+
+#Text=Die beiden Vasen hat er auch gesehen \; er verlangt dafür 200 Luigi .
+7-1	214-217	Die	_	_
+7-2	218-224	beiden	_	_
+7-3	225-230	Vasen	*	OBJ
+7-4	231-234	hat	_	_
+7-5	235-237	er	_	_
+7-6	238-242	auch	_	_
+7-7	243-250	gesehen	_	_
+7-8	251-252	\;	_	_
+7-9	253-255	er	_	_
+7-10	256-264	verlangt	_	_
+7-11	265-270	dafür	_	_
+7-12	271-274	200	_	_
+7-13	275-280	Luigi	_	_
+7-14	281-282	.	_	_
+
+#Text=Basseggio hat 1 , einen bronzenen Scepter ganz erhalten , höher wie ich \; der Knopf und ein Ring in der Mitte ist vergoldet .
+8-1	283-292	Basseggio	*	PERmentioned
+8-2	293-296	hat	_	_
+8-3	297-298	1	_	_
+8-4	299-300	,	_	_
+8-5	301-306	einen	_	_
+8-6	307-316	bronzenen	*[12]	OBJ[12]
+8-7	317-324	Scepter	*[12]	OBJ[12]
+8-8	325-329	ganz	_	_
+8-9	330-338	erhalten	_	_
+8-10	339-340	,	_	_
+8-11	341-346	höher	_	_
+8-12	347-350	wie	_	_
+8-13	351-354	ich	_	_
+8-14	355-356	\;	_	_
+8-15	357-360	der	_	_
+8-16	361-366	Knopf	_	_
+8-17	367-370	und	_	_
+8-18	371-374	ein	_	_
+8-19	375-379	Ring	_	_
+8-20	380-382	in	_	_
+8-21	383-386	der	_	_
+8-22	387-392	Mitte	_	_
+8-23	393-396	ist	_	_
+8-24	397-406	vergoldet	_	_
+8-25	407-408	.	_	_
+
+#Text=luigi 15 . 2 , 5 Spiegel : a , einer mit erhobener Arbeit darstellend die EOS welche den geliebten Kephalos in ihren Armen davonträgt .
+9-1	409-414	luigi	_	_
+9-2	415-417	15	_	_
+9-3	418-419	.	_	_
+9-4	420-421	2	_	_
+9-5	422-423	,	_	_
+9-6	424-425	5	_	_
+9-7	426-433	Spiegel	*	OBJ
+9-8	434-435	:	_	_
+9-9	436-437	a	_	_
+9-10	438-439	,	_	_
+9-11	440-445	einer	_	_
+9-12	446-449	mit	_	_
+9-13	450-459	erhobener	_	_
+9-14	460-466	Arbeit	_	_
+9-15	467-478	darstellend	_	_
+9-16	479-482	die	_	_
+9-17	483-486	EOS	*[14]	OBJ[14]
+9-18	487-493	welche	*[14]	OBJ[14]
+9-19	494-497	den	*[14]	OBJ[14]
+9-20	498-507	geliebten	*[14]	OBJ[14]
+9-21	508-516	Kephalos	*[14]	OBJ[14]
+9-22	517-519	in	*[14]	OBJ[14]
+9-23	520-525	ihren	*[14]	OBJ[14]
+9-24	526-531	Armen	*[14]	OBJ[14]
+9-25	532-542	davonträgt	*[14]	OBJ[14]
+9-26	543-544	.	_	_
+
+#Text=Ihr Haupt umgiebt eine Strahlenkrone , polosartig .
+10-1	545-548	Ihr	_	_
+10-2	549-554	Haupt	_	_
+10-3	555-562	umgiebt	_	_
+10-4	563-567	eine	_	_
+10-5	568-581	Strahlenkrone	_	_
+10-6	582-583	,	_	_
+10-7	584-594	polosartig	_	_
+10-8	595-596	.	_	_
+
+#Text=Der Styl ist archaisch , äußerst fein .
+11-1	597-600	Der	_	_
+11-2	601-605	Styl	_	_
+11-3	606-609	ist	_	_
+11-4	610-619	archaisch	_	_
+11-5	620-621	,	_	_
+11-6	622-629	äußerst	_	_
+11-7	630-634	fein	_	_
+11-8	635-636	.	_	_
+
+#Text=Den Spiegel umgibt ein mit Silberblättchen aufgelegter Eufeukranz .
+12-1	637-640	Den	_	_
+12-2	641-648	Spiegel	*	OBJ
+12-3	649-655	umgibt	_	_
+12-4	656-659	ein	_	_
+12-5	660-663	mit	_	_
+12-6	664-679	Silberblättchen	_	_
+12-7	680-691	aufgelegter	_	_
+12-8	692-702	Eufeukranz	_	_
+12-9	703-704	.	_	_
+
+#Text=Scudi 100. b , Kämpferscene zweier geheischter Krieger .
+13-1	705-710	Scudi	_	_
+13-2	711-715	100.	_	_
+13-3	716-717	b	_	_
+13-4	718-719	,	_	_
+13-5	720-732	Kämpferscene	*[16]	OBJ[16]
+13-6	733-739	zweier	*[16]	OBJ[16]
+13-7	740-751	geheischter	*[16]	OBJ[16]
+13-8	752-759	Krieger	*[16]	OBJ[16]
+13-9	760-761	.	_	_
+
+#Text=c , Epheben mit Korb an der Hand vor einem älteren Mann .
+14-1	762-763	c	_	_
+14-2	764-765	,	_	_
+14-3	766-773	Epheben	*[17]	OBJ[17]
+14-4	774-777	mit	*[17]	OBJ[17]
+14-5	778-782	Korb	*[17]	OBJ[17]
+14-6	783-785	an	*[17]	OBJ[17]
+14-7	786-789	der	*[17]	OBJ[17]
+14-8	790-794	Hand	*[17]	OBJ[17]
+14-9	795-798	vor	*[17]	OBJ[17]
+14-10	799-804	einem	*[17]	OBJ[17]
+14-11	805-812	älteren	*[17]	OBJ[17]
+14-12	813-817	Mann	*[17]	OBJ[17]
+14-13	818-819	.	_	_
+
+#Text=d , Ulysses , Merkur und Tiresias , ähnlich dem vaticanischen Spiegel , unvorsichtig polirt und mit neuer Patina versehen .
+15-1	820-821	d	_	_
+15-2	822-823	,	_	_
+15-3	824-831	Ulysses	*[18]	OBJ[18]
+15-4	832-833	,	*[18]	OBJ[18]
+15-5	834-840	Merkur	*[18]	OBJ[18]
+15-6	841-844	und	*[18]	OBJ[18]
+15-7	845-853	Tiresias	*[18]	OBJ[18]
+15-8	854-855	,	_	_
+15-9	856-863	ähnlich	_	_
+15-10	864-867	dem	_	_
+15-11	868-881	vaticanischen	*[19]	OBJ[19]
+15-12	882-889	Spiegel	*[19]	OBJ[19]
+15-13	890-891	,	_	_
+15-14	892-904	unvorsichtig	_	_
+15-15	905-911	polirt	_	_
+15-16	912-915	und	_	_
+15-17	916-919	mit	_	_
+15-18	920-925	neuer	_	_
+15-19	926-932	Patina	_	_
+15-20	933-941	versehen	_	_
+15-21	942-943	.	_	_
+
+#Text=e , Ti ia zwischen Thalea und Turnus , ähnlich der vaticanischen Psychestatue .
+16-1	944-945	e	_	_
+16-2	946-947	,	_	_
+16-3	948-950	Ti	*[20]	OBJ[20]
+16-4	951-953	ia	*[20]	OBJ[20]
+16-5	954-962	zwischen	*[20]	OBJ[20]
+16-6	963-969	Thalea	*[20]	OBJ[20]
+16-7	970-973	und	*[20]	OBJ[20]
+16-8	974-980	Turnus	*[20]	OBJ[20]
+16-9	981-982	,	_	_
+16-10	983-990	ähnlich	_	_
+16-11	991-994	der	_	_
+16-12	995-1008	vaticanischen	*[21]	OBJ[21]
+16-13	1009-1021	Psychestatue	*[21]	OBJ[21]
+16-14	1022-1023	.	_	_
+
+#Text=Scudi 50 3 , 2 goldene Kronen von feinen Blättchen , die eine mit einer Eule , die andre mit einer Meduse .
+17-1	1024-1029	Scudi	_	_
+17-2	1030-1032	50	_	_
+17-3	1033-1034	3	_	_
+17-4	1035-1036	,	_	_
+17-5	1037-1038	2	_	_
+17-6	1039-1046	goldene	_	_
+17-7	1047-1053	Kronen	_	_
+17-8	1054-1057	von	_	_
+17-9	1058-1064	feinen	_	_
+17-10	1065-1074	Blättchen	_	_
+17-11	1075-1076	,	_	_
+17-12	1077-1080	die	_	_
+17-13	1081-1085	eine	_	_
+17-14	1086-1089	mit	_	_
+17-15	1090-1095	einer	_	_
+17-16	1096-1100	Eule	_	_
+17-17	1101-1102	,	_	_
+17-18	1103-1106	die	_	_
+17-19	1107-1112	andre	_	_
+17-20	1113-1116	mit	_	_
+17-21	1117-1122	einer	_	_
+17-22	1123-1129	Meduse	_	_
+17-23	1130-1131	.	_	_
+
+#Text=Scudi 200 . 4 , Schöpflöffel mit archaischer Relieffigur .
+18-1	1132-1137	Scudi	_	_
+18-2	1138-1141	200	_	_
+18-3	1142-1143	.	_	_
+18-4	1144-1145	4	_	_
+18-5	1146-1147	,	_	_
+18-6	1148-1160	Schöpflöffel	*[22]	OBJ[22]
+18-7	1161-1164	mit	*[22]	OBJ[22]
+18-8	1165-1176	archaischer	*[22]	OBJ[22]
+18-9	1177-1188	Relieffigur	*[22]	OBJ[22]
+18-10	1189-1190	.	_	_
+
+#Text=Scudi 10 . 5 , Henkel mit Aetäre zwischen zwei Hunden in Relief .
+19-1	1191-1196	Scudi	_	_
+19-2	1197-1199	10	_	_
+19-3	1200-1201	.	_	_
+19-4	1202-1203	5	_	_
+19-5	1204-1205	,	_	_
+19-6	1206-1212	Henkel	*[23]	OBJ[23]
+19-7	1213-1216	mit	*[23]	OBJ[23]
+19-8	1217-1223	Aetäre	*[23]	OBJ[23]
+19-9	1224-1232	zwischen	*[23]	OBJ[23]
+19-10	1233-1237	zwei	*[23]	OBJ[23]
+19-11	1238-1244	Hunden	*[23]	OBJ[23]
+19-12	1245-1247	in	*[23]	OBJ[23]
+19-13	1248-1254	Relief	*[23]	OBJ[23]
+19-14	1255-1256	.	_	_
+
+#Text=Scudi 8 .
+20-1	1257-1262	Scudi	_	_
+20-2	1263-1264	8	_	_
+20-3	1265-1266	.	_	_

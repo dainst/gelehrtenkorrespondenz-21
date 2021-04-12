@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> 195 Gerhard an Braun Berlin , 15 .
+1-1	0-1	>	_	_	
+1-2	2-5	195	_	_	
+1-3	6-13	Gerhard	*	PERauthor	
+1-4	14-16	an	_	_	
+1-5	17-22	Braun	*	PERaddressee	
+1-6	23-29	Berlin	*	PLACEfrom	
+1-7	30-31	,	_	_	
+1-8	32-34	15	*[1]	DATEletter[1]	
+1-9	35-36	.	*[1]	DATEletter[1]	
+
+#Text=Oktober 1835 Sig .
+2-1	37-44	Oktober	*[1]	DATEletter[1]	
+2-2	45-49	1835	*[1]	DATEletter[1]	
+2-3	50-53	Sig	_	_	
+2-4	54-55	.	_	_	
+
+#Text=Dr. Braun Berlin den 215.ten Okt .
+3-1	56-59	Dr.	_	_	
+3-2	60-65	Braun	*	PERaddressee	
+3-3	66-72	Berlin	*	PLACEfrom	
+3-4	73-76	den	_	_	
+3-5	77-84	215.ten	*[2]	DATEletter[2]	
+3-6	85-88	Okt	*[2]	DATEletter[2]	
+3-7	89-90	.	*[2]	DATEletter[2]	
+
+#Text=1835 Nach Empfang meiner früheren Briefe und des vn Wechsels von 150 rt , werden Sie lieber Freund , z die Collegen nicht erwarten daß ich für das wunderliche ital . Aufgebot der Direzione vom 29 Sett .
+4-1	91-95	1835	*[2]	DATEletter[2]	
+4-2	96-100	Nach	_	_	
+4-3	101-108	Empfang	_	_	
+4-4	109-115	meiner	_	_	
+4-5	116-124	früheren	_	_	
+4-6	125-131	Briefe	_	_	
+4-7	132-135	und	_	_	
+4-8	136-139	des	_	_	
+4-9	140-142	vn	_	_	
+4-10	143-151	Wechsels	_	_	
+4-11	152-155	von	_	_	
+4-12	156-159	150	_	_	
+4-13	160-162	rt	_	_	
+4-14	163-164	,	_	_	
+4-15	165-171	werden	_	_	
+4-16	172-175	Sie	_	_	
+4-17	176-182	lieber	_	_	
+4-18	183-189	Freund	_	_	
+4-19	190-191	,	_	_	
+4-20	192-193	z	_	_	
+4-21	194-197	die	_	_	
+4-22	198-206	Collegen	_	_	
+4-23	207-212	nicht	_	_	
+4-24	213-221	erwarten	_	_	
+4-25	222-225	daß	_	_	
+4-26	226-229	ich	_	_	
+4-27	230-233	für	_	_	
+4-28	234-237	das	_	_	
+4-29	238-249	wunderliche	_	_	
+4-30	250-254	ital	_	_	
+4-31	255-256	.	_	_	
+4-32	257-265	Aufgebot	_	_	
+4-33	266-269	der	_	_	
+4-34	270-279	Direzione	*	ORGmentioned	
+4-35	280-283	vom	_	_	
+4-36	284-286	29	*[3]	DATEmentioned[3]	
+4-37	287-291	Sett	*[3]	DATEmentioned[3]	
+4-38	292-293	.	*[3]	DATEmentioned[3]	
+
+#Text=anders als durch nachstehende Bemerkungen über unsre gegenseitigen Berechnungen antworte .
+5-1	294-300	anders	_	_	
+5-2	301-304	als	_	_	
+5-3	305-310	durch	_	_	
+5-4	311-323	nachstehende	_	_	
+5-5	324-335	Bemerkungen	_	_	
+5-6	336-340	über	_	_	
+5-7	341-346	unsre	_	_	
+5-8	347-360	gegenseitigen	_	_	
+5-9	361-373	Berechnungen	_	_	
+5-10	374-382	antworte	_	_	
+5-11	383-384	.	_	_	
+
+#Text=Am 25 Jan .
+6-1	385-387	Am	_	_	
+6-2	388-390	25	*[4]	DATEmentioned[4]	
+6-3	391-394	Jan	*[4]	DATEmentioned[4]	
+6-4	395-396	.	*[4]	DATEmentioned[4]	
+
+#Text=35 berechneten Sie mir eine kleine Ausgabe , geradeso wie ich sie in Lancis Rechnung eingetragen finde , ausgenommen die Differenz eines Zeichnungsartikels der 2wi92.70 für Apolloni , 7 für Belloy , und ( bei Lanci ) 15 für Belloy , 3 für Apolloni halt Am Ylunum Nächstdem liquidirt mir Lanci\\senza specificazione marzo 1835 Sc. 156.20 Apr 21 56.20 Disegni Apr .
+7-1	397-399	35	*[4]	DATEmentioned[4]	
+7-2	400-411	berechneten	_	_	
+7-3	412-415	Sie	_	_	
+7-4	416-419	mir	_	_	
+7-5	420-424	eine	_	_	
+7-6	425-431	kleine	_	_	
+7-7	432-439	Ausgabe	_	_	
+7-8	440-441	,	_	_	
+7-9	442-450	geradeso	_	_	
+7-10	451-454	wie	_	_	
+7-11	455-458	ich	_	_	
+7-12	459-462	sie	_	_	
+7-13	463-465	in	_	_	
+7-14	466-472	Lancis	*	PERmentioned	
+7-15	473-481	Rechnung	_	_	
+7-16	482-493	eingetragen	_	_	
+7-17	494-499	finde	_	_	
+7-18	500-501	,	_	_	
+7-19	502-513	ausgenommen	_	_	
+7-20	514-517	die	_	_	
+7-21	518-527	Differenz	_	_	
+7-22	528-533	eines	_	_	
+7-23	534-552	Zeichnungsartikels	_	_	
+7-24	553-556	der	_	_	
+7-25	557-565	2wi92.70	_	_	
+7-26	566-569	für	_	_	
+7-27	570-578	Apolloni	*	PERmentioned	
+7-28	579-580	,	_	_	
+7-29	581-582	7	_	_	
+7-30	583-586	für	_	_	
+7-31	587-593	Belloy	*	PERmentioned	
+7-32	594-595	,	_	_	
+7-33	596-599	und	_	_	
+7-34	600-601	(	_	_	
+7-35	602-605	bei	_	_	
+7-36	606-611	Lanci	*	PERmentioned	
+7-37	612-613	)	_	_	
+7-38	614-616	15	_	_	
+7-39	617-620	für	_	_	
+7-40	621-627	Belloy	*	PERmentioned	
+7-41	628-629	,	_	_	
+7-42	630-631	3	_	_	
+7-43	632-635	für	_	_	
+7-44	636-644	Apolloni	*	PERmentioned	
+7-45	645-649	halt	_	_	
+7-46	650-652	Am	_	_	
+7-47	653-659	Ylunum	_	_	
+7-48	660-669	Nächstdem	_	_	
+7-49	670-679	liquidirt	_	_	
+7-50	680-683	mir	_	_	
+7-51	684-695	Lanci\senza	*	PERmentioned	
+7-52	696-710	specificazione	_	_	
+7-53	711-716	marzo	*[5]	DATEmentioned[5]	
+7-54	717-721	1835	*[5]	DATEmentioned[5]	
+7-55	722-725	Sc.	_	_	
+7-56	726-732	156.20	_	_	
+7-57	733-736	Apr	*[6]	DATEmentioned[6]	
+7-58	737-739	21	*[6]	DATEmentioned[6]	
+7-59	740-745	56.20	_	_	
+7-60	746-753	Disegni	_	_	
+7-61	754-757	Apr	*[7]	DATEmentioned[7]	
+7-62	758-759	.	*[7]	DATEmentioned[7]	
+
+#Text=21 33 ( darunter 3 bei Depoletti ) Zusammen 245,90 Von diesen 245.90 erwartete ich Ihre Detailrechnungen gelegentlich .
+8-1	760-762	21	*[7]	DATEmentioned[7]	
+8-2	763-765	33	_	_	
+8-3	766-767	(	_	_	
+8-4	768-776	darunter	_	_	
+8-5	777-778	3	_	_	
+8-6	779-782	bei	_	_	
+8-7	783-792	Depoletti	*	PERmentioned	
+8-8	793-794	)	_	_	
+8-9	795-803	Zusammen	_	_	
+8-10	804-810	245,90	_	_	
+8-11	811-814	Von	_	_	
+8-12	815-821	diesen	_	_	
+8-13	822-828	245.90	_	_	
+8-14	829-838	erwartete	_	_	
+8-15	839-842	ich	_	_	
+8-16	843-847	Ihre	_	_	
+8-17	848-864	Detailrechnungen	_	_	
+8-18	865-877	gelegentlich	_	_	
+8-19	878-879	.	_	_	
+
+#Text=Statt dessen kommt Ihre Rechnung von 168.93 an , die wenigstens zum Theil jene früheren Dinge zu begreifen scheint , indem die Zeichnungen , vom Betrag von 31.60 ebenfalls nur die Depolettischen Zeichnungen enthalten .
+9-1	880-885	Statt	_	_	
+9-2	886-892	dessen	_	_	
+9-3	893-898	kommt	_	_	
+9-4	899-903	Ihre	_	_	
+9-5	904-912	Rechnung	_	_	
+9-6	913-916	von	_	_	
+9-7	917-923	168.93	_	_	
+9-8	924-926	an	_	_	
+9-9	927-928	,	_	_	
+9-10	929-932	die	_	_	
+9-11	933-943	wenigstens	_	_	
+9-12	944-947	zum	_	_	
+9-13	948-953	Theil	_	_	
+9-14	954-958	jene	_	_	
+9-15	959-967	früheren	_	_	
+9-16	968-973	Dinge	_	_	
+9-17	974-976	zu	_	_	
+9-18	977-986	begreifen	_	_	
+9-19	987-994	scheint	_	_	
+9-20	995-996	,	_	_	
+9-21	997-1002	indem	_	_	
+9-22	1003-1006	die	_	_	
+9-23	1007-1018	Zeichnungen	_	_	
+9-24	1019-1020	,	_	_	
+9-25	1021-1024	vom	_	_	
+9-26	1025-1031	Betrag	_	_	
+9-27	1032-1035	von	_	_	
+9-28	1036-1041	31.60	_	_	
+9-29	1042-1051	ebenfalls	_	_	
+9-30	1052-1055	nur	_	_	
+9-31	1056-1059	die	_	_	
+9-32	1060-1074	Depolettischen	*	PERmentioned	
+9-33	1075-1086	Zeichnungen	_	_	
+9-34	1087-1096	enthalten	_	_	
+9-35	1097-1098	.	_	_	
+
+#Text=Ohne Zweifel fehlen hieber Artikel
+10-1	1099-1103	Ohne	_	_	
+10-2	1104-1111	Zweifel	_	_	
+10-3	1112-1118	fehlen	_	_	
+10-4	1119-1125	hieber	_	_	
+10-5	1126-1133	Artikel	_	_	

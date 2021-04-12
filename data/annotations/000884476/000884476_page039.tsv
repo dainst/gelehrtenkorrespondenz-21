@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 19 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	19	_	_
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 nofka ( dermalen noch in Breslau ) versetzt und versetzen wird , dann und wann aufgeben möchte .
+2-1	31-38	Oktober	*[4]	DATEletter[4]
+2-2	39-43	1834	*[4]	DATEletter[4]
+2-3	44-49	nofka	*	PERmentioned
+2-4	50-51	(	_	_
+2-5	52-60	dermalen	_	_
+2-6	61-65	noch	_	_
+2-7	66-68	in	_	_
+2-8	69-76	Breslau	*	PLACEmentioned
+2-9	77-78	)	_	_
+2-10	79-87	versetzt	_	_
+2-11	88-91	und	_	_
+2-12	92-101	versetzen	_	_
+2-13	102-106	wird	_	_
+2-14	107-108	,	_	_
+2-15	109-113	dann	_	_
+2-16	114-117	und	_	_
+2-17	118-122	wann	_	_
+2-18	123-131	aufgeben	_	_
+2-19	132-138	möchte	_	_
+2-20	139-140	.	_	_
+
+#Text=Entschuldigen Sie bei Lanci mein Stillschweigen \; ich habe ja noch an sonst niemanden geschrieben .
+3-1	141-154	Entschuldigen	_	_
+3-2	155-158	Sie	_	_
+3-3	159-162	bei	_	_
+3-4	163-168	Lanci	*	PERmentioned
+3-5	169-173	mein	_	_
+3-6	174-188	Stillschweigen	_	_
+3-7	189-190	\;	_	_
+3-8	191-194	ich	_	_
+3-9	195-199	habe	_	_
+3-10	200-202	ja	_	_
+3-11	203-207	noch	_	_
+3-12	208-210	an	_	_
+3-13	211-216	sonst	_	_
+3-14	217-226	niemanden	_	_
+3-15	227-238	geschrieben	_	_
+3-16	239-240	.	_	_
+
+#Text=- Sagen Sie an Campanari , wenn es noch Zeit ist , daß ich für die neulich in Zeichnung erneuten Denkmäler alles mögliche versuchen werde , und Hoffnung habe Theils für den Boreas Theils und besonders für die ( ganz gewiß kunsthistorische ) Tazza dell'antopofago .
+4-1	241-242	-	_	_
+4-2	243-248	Sagen	_	_
+4-3	249-252	Sie	_	_
+4-4	253-255	an	_	_
+4-5	256-265	Campanari	*	PERmentioned
+4-6	266-267	,	_	_
+4-7	268-272	wenn	_	_
+4-8	273-275	es	_	_
+4-9	276-280	noch	_	_
+4-10	281-285	Zeit	_	_
+4-11	286-289	ist	_	_
+4-12	290-291	,	_	_
+4-13	292-295	daß	_	_
+4-14	296-299	ich	_	_
+4-15	300-303	für	_	_
+4-16	304-307	die	_	_
+4-17	308-315	neulich	_	_
+4-18	316-318	in	_	_
+4-19	319-328	Zeichnung	_	_
+4-20	329-337	erneuten	_	_
+4-21	338-347	Denkmäler	_	_
+4-22	348-353	alles	_	_
+4-23	354-362	mögliche	_	_
+4-24	363-372	versuchen	_	_
+4-25	373-378	werde	_	_
+4-26	379-380	,	_	_
+4-27	381-384	und	_	_
+4-28	385-393	Hoffnung	_	_
+4-29	394-398	habe	_	_
+4-30	399-405	Theils	_	_
+4-31	406-409	für	_	_
+4-32	410-413	den	_	_
+4-33	414-420	Boreas	*	OBJ
+4-34	421-427	Theils	_	_
+4-35	428-431	und	_	_
+4-36	432-441	besonders	_	_
+4-37	442-445	für	_	_
+4-38	446-449	die	_	_
+4-39	450-451	(	_	_
+4-40	452-456	ganz	_	_
+4-41	457-462	gewiß	_	_
+4-42	463-479	kunsthistorische	_	_
+4-43	480-481	)	_	_
+4-44	482-487	Tazza	_	_
+4-45	488-503	dell'antopofago	*[10]	OBJ[10]
+4-46	504-505	.	_	_
+
+#Text=Ich wünschte sehr daß Durand diese nicht wegschnappte .
+5-1	506-509	Ich	_	_
+5-2	510-518	wünschte	_	_
+5-3	519-523	sehr	_	_
+5-4	524-527	daß	_	_
+5-5	528-534	Durand	*	PERmentioned
+5-6	535-540	diese	_	_
+5-7	541-546	nicht	_	_
+5-8	547-559	wegschnappte	_	_
+5-9	560-561	.	_	_
+
+#Text=- Stehen Sie denn wol mit Basseggio in Verkehr ?
+6-1	562-563	-	_	_
+6-2	564-570	Stehen	_	_
+6-3	571-574	Sie	_	_
+6-4	575-579	denn	_	_
+6-5	580-583	wol	_	_
+6-6	584-587	mit	_	_
+6-7	588-597	Basseggio	*	PERmentioned
+6-8	598-600	in	_	_
+6-9	601-608	Verkehr	_	_
+6-10	609-610	?	_	_
+
+#Text=Ihn von mir zu grüßen und seine Neuigkeiten auch für Berlin auszubitten genügt .
+7-1	611-614	Ihn	_	_
+7-2	615-618	von	_	_
+7-3	619-622	mir	_	_
+7-4	623-625	zu	_	_
+7-5	626-632	grüßen	_	_
+7-6	633-636	und	_	_
+7-7	637-642	seine	_	_
+7-8	643-654	Neuigkeiten	_	_
+7-9	655-659	auch	_	_
+7-10	660-663	für	_	_
+7-11	664-670	Berlin	*	PLACEmentioned
+7-12	671-682	auszubitten	_	_
+7-13	683-689	genügt	_	_
+7-14	690-691	.	_	_
+
+#Text=- Wegen der Geldsorgen schreiben Sie mir nur offen \; man wird das wol auszugleichen wissen .
+8-1	692-693	-	_	_
+8-2	694-699	Wegen	_	_
+8-3	700-703	der	_	_
+8-4	704-714	Geldsorgen	_	_
+8-5	715-724	schreiben	_	_
+8-6	725-728	Sie	_	_
+8-7	729-732	mir	_	_
+8-8	733-736	nur	_	_
+8-9	737-742	offen	_	_
+8-10	743-744	\;	_	_
+8-11	745-748	man	_	_
+8-12	749-753	wird	_	_
+8-13	754-757	das	_	_
+8-14	758-761	wol	_	_
+8-15	762-775	auszugleichen	_	_
+8-16	776-782	wissen	_	_
+8-17	783-784	.	_	_
+
+#Text=- Museo Chiusino muß von Capobianchi eingefordert werden , Maggiore schrieb ja schon längst , es sei längst abgegangen .
+9-1	785-786	-	_	_
+9-2	787-792	Museo	*[14]	ORGmentioned[14]
+9-3	793-801	Chiusino	*[14]	ORGmentioned[14]
+9-4	802-805	muß	_	_
+9-5	806-809	von	_	_
+9-6	810-821	Capobianchi	*	PERmentioned
+9-7	822-834	eingefordert	_	_
+9-8	835-841	werden	_	_
+9-9	842-843	,	_	_
+9-10	844-852	Maggiore	*	PERmentioned
+9-11	853-860	schrieb	_	_
+9-12	861-863	ja	_	_
+9-13	864-869	schon	_	_
+9-14	870-876	längst	_	_
+9-15	877-878	,	_	_
+9-16	879-881	es	_	_
+9-17	882-885	sei	_	_
+9-18	886-892	längst	_	_
+9-19	893-903	abgegangen	_	_
+9-20	904-905	.	_	_
+
+#Text=- Ihre Bücherwünsche kann ich nur erst hier berücksichtigen .
+10-1	906-907	-	_	_
+10-2	908-912	Ihre	_	_
+10-3	913-926	Bücherwünsche	_	_
+10-4	927-931	kann	_	_
+10-5	932-935	ich	_	_
+10-6	936-939	nur	_	_
+10-7	940-944	erst	_	_
+10-8	945-949	hier	_	_
+10-9	950-965	berücksichtigen	_	_
+10-10	966-967	.	_	_
+
+#Text=- Was hat nun Baron Wastreenen geschrieben , erträgliches ?
+11-1	968-969	-	_	_
+11-2	970-973	Was	_	_
+11-3	974-977	hat	_	_
+11-4	978-981	nun	_	_
+11-5	982-987	Baron	*[17]	PERmentioned[17]
+11-6	988-998	Wastreenen	*[17]	PERmentioned[17]
+11-7	999-1010	geschrieben	_	_
+11-8	1011-1012	,	_	_
+11-9	1013-1025	erträgliches	_	_
+11-10	1026-1027	?	_	_
+
+#Text=er subskribiert ?
+12-1	1028-1030	er	_	_
+12-2	1031-1043	subskribiert	_	_
+12-3	1044-1045	?	_	_
+
+#Text=- Ich muß wissen wieviel die von Ihnen abgesandte Berliner Kiste kosten wird \; De Antonis gibt dergleichen schriftlich , das Gewicht a 6 Scudi den Centner berechnend , so daß ich gerade den von ihm liquidirten Betrag hier bezahle .
+13-1	1046-1047	-	_	_
+13-2	1048-1051	Ich	_	_
+13-3	1052-1055	muß	_	_
+13-4	1056-1062	wissen	_	_
+13-5	1063-1070	wieviel	_	_
+13-6	1071-1074	die	_	_
+13-7	1075-1078	von	_	_
+13-8	1079-1084	Ihnen	_	_
+13-9	1085-1095	abgesandte	_	_
+13-10	1096-1104	Berliner	_	_
+13-11	1105-1110	Kiste	_	_
+13-12	1111-1117	kosten	_	_
+13-13	1118-1122	wird	_	_
+13-14	1123-1124	\;	_	_
+13-15	1125-1127	De	*[18]	PERmentioned[18]
+13-16	1128-1135	Antonis	*[18]	PERmentioned[18]
+13-17	1136-1140	gibt	_	_
+13-18	1141-1152	dergleichen	_	_
+13-19	1153-1164	schriftlich	_	_
+13-20	1165-1166	,	_	_
+13-21	1167-1170	das	_	_
+13-22	1171-1178	Gewicht	_	_
+13-23	1179-1180	a	_	_
+13-24	1181-1182	6	_	_
+13-25	1183-1188	Scudi	_	_
+13-26	1189-1192	den	_	_
+13-27	1193-1200	Centner	_	_
+13-28	1201-1211	berechnend	_	_
+13-29	1212-1213	,	_	_
+13-30	1214-1216	so	_	_
+13-31	1217-1220	daß	_	_
+13-32	1221-1224	ich	_	_
+13-33	1225-1231	gerade	_	_
+13-34	1232-1235	den	_	_
+13-35	1236-1239	von	_	_
+13-36	1240-1243	ihm	_	_
+13-37	1244-1255	liquidirten	_	_
+13-38	1256-1262	Betrag	_	_
+13-39	1263-1267	hier	_	_
+13-40	1268-1275	bezahle	_	_
+13-41	1276-1277	.	_	_
+
+#Text=- Vielen Dank und herzliche Grüße an Vollards , so wie an die ganzen Kapitol .
+14-1	1278-1279	-	_	_
+14-2	1280-1286	Vielen	_	_
+14-3	1287-1291	Dank	_	_
+14-4	1292-1295	und	_	_
+14-5	1296-1305	herzliche	_	_
+14-6	1306-1311	Grüße	_	_
+14-7	1312-1314	an	_	_
+14-8	1315-1323	Vollards	*	PERmentioned
+14-9	1324-1325	,	_	_
+14-10	1326-1328	so	_	_
+14-11	1329-1332	wie	_	_
+14-12	1333-1335	an	_	_
+14-13	1336-1339	die	_	_
+14-14	1340-1346	ganzen	_	_
+14-15	1347-1354	Kapitol	*	PLACEmentioned
+14-16	1355-1356	.	_	_
+
+#Text=und Jesuiten .
+15-1	1357-1360	und	_	_
+15-2	1361-1369	Jesuiten	_	_
+15-3	1370-1371	.	_	_
+
+#Text=- Lleskes Topographie kann verkauft werden , wenn es doppelt da ist .
+16-1	1372-1373	-	_	_
+16-2	1374-1381	Lleskes	*	PERmentioned
+16-3	1382-1393	Topographie	_	_
+16-4	1394-1398	kann	_	_
+16-5	1399-1407	verkauft	_	_
+16-6	1408-1414	werden	_	_
+16-7	1415-1416	,	_	_
+16-8	1417-1421	wenn	_	_
+16-9	1422-1424	es	_	_
+16-10	1425-1432	doppelt	_	_
+16-11	1433-1435	da	_	_
+16-12	1436-1439	ist	_	_
+16-13	1440-1441	.	_	_
+
+#Text=-
+17-1	1442-1443	-	_	_

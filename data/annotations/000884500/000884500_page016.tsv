@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	16	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 wieder bei ihm in Anregung bringen , so kann es mit Beziehung auf mich und gedachten Brief vom 12 Oktober geschehen .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-49	wieder	_	_
+2-4	50-53	bei	_	_
+2-5	54-57	ihm	_	_
+2-6	58-60	in	_	_
+2-7	61-69	Anregung	_	_
+2-8	70-77	bringen	_	_
+2-9	78-79	,	_	_
+2-10	80-82	so	_	_
+2-11	83-87	kann	_	_
+2-12	88-90	es	_	_
+2-13	91-94	mit	_	_
+2-14	95-104	Beziehung	_	_
+2-15	105-108	auf	_	_
+2-16	109-113	mich	_	_
+2-17	114-117	und	_	_
+2-18	118-127	gedachten	_	_
+2-19	128-133	Brief	_	_
+2-20	134-137	vom	_	_
+2-21	138-140	12	_	_
+2-22	141-148	Oktober	*[5]	DATEmentioned[5]
+2-23	149-158	geschehen	_	_
+2-24	159-160	.	_	_
+
+#Text=Urlichs soll Ihnen die ersten 6 Bl . eines Vasenwerks in 4° mitbringen , das einmal angefangen meine Cisten Sachen rasch unter die Leute bringen soll .
+3-1	161-168	Urlichs	*	PERmentioned
+3-2	169-173	soll	_	_
+3-3	174-179	Ihnen	_	_
+3-4	180-183	die	_	_
+3-5	184-190	ersten	_	_
+3-6	191-192	6	_	_
+3-7	193-195	Bl	_	_
+3-8	196-197	.	_	_
+3-9	198-203	eines	_	_
+3-10	204-214	Vasenwerks	_	_
+3-11	215-217	in	_	_
+3-12	218-220	4°	_	_
+3-13	221-231	mitbringen	_	_
+3-14	232-233	,	_	_
+3-15	234-237	das	_	_
+3-16	238-244	einmal	_	_
+3-17	245-255	angefangen	_	_
+3-18	256-261	meine	_	_
+3-19	262-268	Cisten	*	OBJ
+3-20	269-275	Sachen	_	_
+3-21	276-281	rasch	_	_
+3-22	282-287	unter	_	_
+3-23	288-291	die	_	_
+3-24	292-297	Leute	_	_
+3-25	298-305	bringen	_	_
+3-26	306-310	soll	_	_
+3-27	311-312	.	_	_
+
+#Text=- Ihr sogen .
+4-1	313-314	-	_	_
+4-2	315-318	Ihr	_	_
+4-3	319-324	sogen	_	_
+4-4	325-326	.	_	_
+
+#Text=P 1 ist interessant , und wollen Sie ihn veräußern so läßt sich darüber reden .
+5-1	327-328	P	_	_
+5-2	329-330	1	_	_
+5-3	331-334	ist	_	_
+5-4	335-346	interessant	_	_
+5-5	347-348	,	_	_
+5-6	349-352	und	_	_
+5-7	353-359	wollen	_	_
+5-8	360-363	Sie	_	_
+5-9	364-367	ihn	_	_
+5-10	368-377	veräußern	_	_
+5-11	378-380	so	_	_
+5-12	381-385	läßt	_	_
+5-13	386-390	sich	_	_
+5-14	391-398	darüber	_	_
+5-15	399-404	reden	_	_
+5-16	405-406	.	_	_
+
+#Text=- Auch ein Ex .
+6-1	407-408	-	_	_
+6-2	409-413	Auch	_	_
+6-3	414-417	ein	_	_
+6-4	418-420	Ex	_	_
+6-5	421-422	.	_	_
+
+#Text=Ant . Bilder soll Ihnen hoffentlich Urlichs mit zurückbringen .
+7-1	423-426	Ant	_	_
+7-2	427-428	.	_	_
+7-3	429-435	Bilder	_	_
+7-4	436-440	soll	_	_
+7-5	441-446	Ihnen	_	_
+7-6	447-458	hoffentlich	_	_
+7-7	459-466	Urlichs	*	PERmentioned
+7-8	467-470	mit	_	_
+7-9	471-484	zurückbringen	_	_
+7-10	485-486	.	_	_
+
+#Text=In V. Panfili habe ich viel zeichnen lassen , an der Cassia wurde aber so wenig als wie Cassino wo z . B. der große Sarkophag ( fast nicht zugänglich ) eine Zeichnung verdient .
+8-1	487-489	In	_	_
+8-2	490-492	V.	*[9]	PLACEmentioned[9]
+8-3	493-500	Panfili	*[9]	PLACEmentioned[9]
+8-4	501-505	habe	_	_
+8-5	506-509	ich	_	_
+8-6	510-514	viel	_	_
+8-7	515-523	zeichnen	_	_
+8-8	524-530	lassen	_	_
+8-9	531-532	,	_	_
+8-10	533-535	an	_	_
+8-11	536-539	der	_	_
+8-12	540-546	Cassia	*	PLACEmentioned
+8-13	547-552	wurde	_	_
+8-14	553-557	aber	_	_
+8-15	558-560	so	_	_
+8-16	561-566	wenig	_	_
+8-17	567-570	als	_	_
+8-18	571-574	wie	_	_
+8-19	575-582	Cassino	*	PLACEmentioned
+8-20	583-585	wo	_	_
+8-21	586-587	z	_	_
+8-22	588-589	.	_	_
+8-23	590-592	B.	_	_
+8-24	593-596	der	_	_
+8-25	597-602	große	_	_
+8-26	603-612	Sarkophag	*	OBJ
+8-27	613-614	(	_	_
+8-28	615-619	fast	_	_
+8-29	620-625	nicht	_	_
+8-30	626-636	zugänglich	_	_
+8-31	637-638	)	_	_
+8-32	639-643	eine	_	_
+8-33	644-653	Zeichnung	_	_
+8-34	654-662	verdient	_	_
+8-35	663-664	.	_	_
+
+#Text=- Zeus und Aegina im P. Colonna kenne ich nicht \; das Brunnenfragment von Hermes Clithonios aber steht in Wellkers Zeitschrift .
+9-1	665-666	-	_	_
+9-2	667-671	Zeus	*[13]	OBJ[13]
+9-3	672-675	und	*[13]	OBJ[13]
+9-4	676-682	Aegina	*[13]	OBJ[13]
+9-5	683-685	im	_	_
+9-6	686-688	P.	*[14]	PLACEmentioned[14]
+9-7	689-696	Colonna	*[14]	PLACEmentioned[14]
+9-8	697-702	kenne	_	_
+9-9	703-706	ich	_	_
+9-10	707-712	nicht	_	_
+9-11	713-714	\;	_	_
+9-12	715-718	das	_	_
+9-13	719-734	Brunnenfragment	*[15]	OBJ[15]
+9-14	735-738	von	*[15]	OBJ[15]
+9-15	739-745	Hermes	*[15]	OBJ[15]
+9-16	746-756	Clithonios	*[15]	OBJ[15]
+9-17	757-761	aber	_	_
+9-18	762-767	steht	_	_
+9-19	768-770	in	_	_
+9-20	771-779	Wellkers	*	PERmentioned
+9-21	780-791	Zeitschrift	_	_
+9-22	792-793	.	_	_
+
+#Text=Verschaffen Sie mir wol Melchionris Publikation der Aeginavase ?
+10-1	794-805	Verschaffen	_	_
+10-2	806-809	Sie	_	_
+10-3	810-813	mir	_	_
+10-4	814-817	wol	_	_
+10-5	818-829	Melchionris	*	PERmentioned
+10-6	830-841	Publikation	_	_
+10-7	842-845	der	_	_
+10-8	846-856	Aeginavase	*	OBJ
+10-9	857-858	?	_	_
+
+#Text=- Schade daß Sie mir nicht wenigstens sandten was Sie vorher von Apollonischen Spiegelzeichnungen für mich haben \; herzlichen Dank für den aus Rimini \| !
+11-1	859-860	-	_	_
+11-2	861-867	Schade	_	_
+11-3	868-871	daß	_	_
+11-4	872-875	Sie	_	_
+11-5	876-879	mir	_	_
+11-6	880-885	nicht	_	_
+11-7	886-896	wenigstens	_	_
+11-8	897-904	sandten	_	_
+11-9	905-908	was	_	_
+11-10	909-912	Sie	_	_
+11-11	913-919	vorher	_	_
+11-12	920-923	von	_	_
+11-13	924-937	Apollonischen	*	PERmentioned
+11-14	938-956	Spiegelzeichnungen	_	_
+11-15	957-960	für	_	_
+11-16	961-965	mich	_	_
+11-17	966-971	haben	_	_
+11-18	972-973	\;	_	_
+11-19	974-984	herzlichen	_	_
+11-20	985-989	Dank	_	_
+11-21	990-993	für	_	_
+11-22	994-997	den	_	_
+11-23	998-1001	aus	_	_
+11-24	1002-1008	Rimini	*	PLACEmentioned
+11-25	1009-1010	\|	_	_
+11-26	1011-1012	!	_	_
+
+#Text=Delphische ten sind es wol .
+12-1	1013-1023	Delphische	_	_
+12-2	1024-1027	ten	_	_
+12-3	1028-1032	sind	_	_
+12-4	1033-1035	es	_	_
+12-5	1036-1039	wol	_	_
+12-6	1040-1041	.	_	_
+
+#Text=- Vom Abdruck meiner Notice höre ich nichts .
+13-1	1042-1043	-	_	_
+13-2	1044-1047	Vom	_	_
+13-3	1048-1055	Abdruck	_	_
+13-4	1056-1062	meiner	_	_
+13-5	1063-1069	Notice	_	_
+13-6	1070-1074	höre	_	_
+13-7	1075-1078	ich	_	_
+13-8	1079-1085	nichts	_	_
+13-9	1086-1087	.	_	_
+
+#Text=- Was sich an Bellotti oder Andre nicht durch die Post schicken läßt , bestelle ich einstweilen nicht , suspendire also das Ep M. da Sie wahrscheinlich nun eher von Leipzig als Berlin Kisten erhalten , mögen Sie dergleichen besser an Brockhaus en-
+14-1	1088-1089	-	_	_
+14-2	1090-1093	Was	_	_
+14-3	1094-1098	sich	_	_
+14-4	1099-1101	an	_	_
+14-5	1102-1110	Bellotti	*	PERmentioned
+14-6	1111-1115	oder	_	_
+14-7	1116-1121	Andre	_	_
+14-8	1122-1127	nicht	_	_
+14-9	1128-1133	durch	_	_
+14-10	1134-1137	die	_	_
+14-11	1138-1142	Post	_	_
+14-12	1143-1151	schicken	_	_
+14-13	1152-1156	läßt	_	_
+14-14	1157-1158	,	_	_
+14-15	1159-1167	bestelle	_	_
+14-16	1168-1171	ich	_	_
+14-17	1172-1183	einstweilen	_	_
+14-18	1184-1189	nicht	_	_
+14-19	1190-1191	,	_	_
+14-20	1192-1202	suspendire	_	_
+14-21	1203-1207	also	_	_
+14-22	1208-1211	das	_	_
+14-23	1212-1214	Ep	_	_
+14-24	1215-1217	M.	_	_
+14-25	1218-1220	da	_	_
+14-26	1221-1224	Sie	_	_
+14-27	1225-1239	wahrscheinlich	_	_
+14-28	1240-1243	nun	_	_
+14-29	1244-1248	eher	_	_
+14-30	1249-1252	von	_	_
+14-31	1253-1260	Leipzig	*	PLACEmentioned
+14-32	1261-1264	als	_	_
+14-33	1265-1271	Berlin	*	PLACEmentioned
+14-34	1272-1278	Kisten	_	_
+14-35	1279-1287	erhalten	_	_
+14-36	1288-1289	,	_	_
+14-37	1290-1295	mögen	_	_
+14-38	1296-1299	Sie	_	_
+14-39	1300-1311	dergleichen	_	_
+14-40	1312-1318	besser	_	_
+14-41	1319-1321	an	_	_
+14-42	1322-1331	Brockhaus	*	ORGmentioned
+14-43	1332-1335	en-	_	_

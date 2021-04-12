@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=92 Lepsius an Henzen Berlin , 10. April 1873 g . 14/4 73 r . 16/4 Berlin d . 10. ” Apr .
+1-1	0-2	92	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	10.	*[1]	DATEletter[1]
+1-8	34-39	April	*[1]	DATEletter[1]
+1-9	40-44	1873	*[1]	DATEletter[1]
+1-10	45-46	g	_	_
+1-11	47-48	.	_	_
+1-12	49-53	14/4	*[2]	DATErecieved[2]
+1-13	54-56	73	*[2]	DATErecieved[2]
+1-14	57-58	r	_	_
+1-15	59-60	.	_	_
+1-16	61-65	16/4	*	DATEanswered
+1-17	66-72	Berlin	*	PLACEfrom
+1-18	73-74	d	_	_
+1-19	75-76	.	_	_
+1-20	77-80	10.	*[3]	DATEletter[3]
+1-21	81-82	”	*[3]	DATEletter[3]
+1-22	83-86	Apr	*[3]	DATEletter[3]
+1-23	87-88	.	*[3]	DATEletter[3]
+
+#Text=1873 .
+2-1	89-93	1873	*[3]	DATEletter[3]
+2-2	94-95	.	_	_
+
+#Text=Verehrtester Freund Ich habe sogleich wegen der 100 r für Laspeyres nachgefragt und erfahren , daß Alles seit 14 Tagen etwa abgethan ist .
+3-1	96-108	Verehrtester	_	_
+3-2	109-115	Freund	_	_
+3-3	116-119	Ich	_	_
+3-4	120-124	habe	_	_
+3-5	125-133	sogleich	_	_
+3-6	134-139	wegen	_	_
+3-7	140-143	der	_	_
+3-8	144-147	100	_	_
+3-9	148-149	r	_	_
+3-10	150-153	für	_	_
+3-11	154-163	Laspeyres	*	PERmentioned
+3-12	164-175	nachgefragt	_	_
+3-13	176-179	und	_	_
+3-14	180-188	erfahren	_	_
+3-15	189-190	,	_	_
+3-16	191-194	daß	_	_
+3-17	195-200	Alles	_	_
+3-18	201-205	seit	_	_
+3-19	206-208	14	_	_
+3-20	209-214	Tagen	_	_
+3-21	215-219	etwa	_	_
+3-22	220-228	abgethan	_	_
+3-23	229-232	ist	_	_
+3-24	233-234	.	_	_
+
+#Text=Wenn also die Benachrichtigung vom Auswärtigen Amte nicht jetzt schon eingegangen sein sollte , so muß sie in diesen Tagen eingehen .
+4-1	235-239	Wenn	_	_
+4-2	240-244	also	_	_
+4-3	245-248	die	_	_
+4-4	249-265	Benachrichtigung	_	_
+4-5	266-269	vom	_	_
+4-6	270-281	Auswärtigen	*[4]	ORGmentioned[4]
+4-7	282-286	Amte	*[4]	ORGmentioned[4]
+4-8	287-292	nicht	_	_
+4-9	293-298	jetzt	_	_
+4-10	299-304	schon	_	_
+4-11	305-316	eingegangen	_	_
+4-12	317-321	sein	_	_
+4-13	322-328	sollte	_	_
+4-14	329-330	,	_	_
+4-15	331-333	so	_	_
+4-16	334-337	muß	_	_
+4-17	338-341	sie	_	_
+4-18	342-344	in	_	_
+4-19	345-351	diesen	_	_
+4-20	352-357	Tagen	_	_
+4-21	358-366	eingehen	_	_
+4-22	367-368	.	_	_
+
+#Text=Um Weiteres handelt es sich doch nicht , so viel ich aus Ihrem Briefe ersehe .
+5-1	369-371	Um	_	_
+5-2	372-380	Weiteres	_	_
+5-3	381-388	handelt	_	_
+5-4	389-391	es	_	_
+5-5	392-396	sich	_	_
+5-6	397-401	doch	_	_
+5-7	402-407	nicht	_	_
+5-8	408-409	,	_	_
+5-9	410-412	so	_	_
+5-10	413-417	viel	_	_
+5-11	418-421	ich	_	_
+5-12	422-425	aus	_	_
+5-13	426-431	Ihrem	_	_
+5-14	432-438	Briefe	_	_
+5-15	439-445	ersehe	_	_
+5-16	446-447	.	_	_
+
+#Text=Die Verzögerung kam daher , daß jener erste Fond erschöpft war , und daher der König erst noch einmal angegangen werden mußte .
+6-1	448-451	Die	_	_
+6-2	452-463	Verzögerung	_	_
+6-3	464-467	kam	_	_
+6-4	468-473	daher	_	_
+6-5	474-475	,	_	_
+6-6	476-479	daß	_	_
+6-7	480-485	jener	_	_
+6-8	486-491	erste	_	_
+6-9	492-496	Fond	_	_
+6-10	497-506	erschöpft	_	_
+6-11	507-510	war	_	_
+6-12	511-512	,	_	_
+6-13	513-516	und	_	_
+6-14	517-522	daher	_	_
+6-15	523-526	der	_	_
+6-16	527-532	König	*	PERmentioned
+6-17	533-537	erst	_	_
+6-18	538-542	noch	_	_
+6-19	543-549	einmal	_	_
+6-20	550-560	angegangen	_	_
+6-21	561-567	werden	_	_
+6-22	568-573	mußte	_	_
+6-23	574-575	.	_	_
+
+#Text=Unter den Korrespondenten Vorschlägen sind noch die Herren Carlone in Nizza , Blanc in Veuve , Brambilla in Milano , Stranchetti in Fianzano charakterlos .
+7-1	576-581	Unter	_	_
+7-2	582-585	den	_	_
+7-3	586-601	Korrespondenten	_	_
+7-4	602-613	Vorschlägen	_	_
+7-5	614-618	sind	_	_
+7-6	619-623	noch	_	_
+7-7	624-627	die	_	_
+7-8	628-634	Herren	_	_
+7-9	635-642	Carlone	*	PERmentioned
+7-10	643-645	in	_	_
+7-11	646-651	Nizza	*	PLACEmentioned
+7-12	652-653	,	_	_
+7-13	654-659	Blanc	*	PERmentioned
+7-14	660-662	in	_	_
+7-15	663-668	Veuve	*	PLACEmentioned
+7-16	669-670	,	_	_
+7-17	671-680	Brambilla	*	PERmentioned
+7-18	681-683	in	_	_
+7-19	684-690	Milano	*	PLACEmentioned
+7-20	691-692	,	_	_
+7-21	693-704	Stranchetti	*	PERmentioned
+7-22	705-707	in	_	_
+7-23	708-716	Fianzano	*	PLACEmentioned
+7-24	717-729	charakterlos	_	_
+7-25	730-731	.	_	_
+
+#Text=Es ist immer wünschenswerth etwas von ihren Beschäftigungen zu wissen .
+8-1	732-734	Es	_	_
+8-2	735-738	ist	_	_
+8-3	739-744	immer	_	_
+8-4	745-759	wünschenswerth	_	_
+8-5	760-765	etwas	_	_
+8-6	766-769	von	_	_
+8-7	770-775	ihren	_	_
+8-8	776-791	Beschäftigungen	_	_
+8-9	792-794	zu	_	_
+8-10	795-801	wissen	_	_
+8-11	802-803	.	_	_
+
+#Text=Von Dr. Stadt , den Sie unter den ragazzi anführen , ist mir nichts , daher auch nicht der Vorname , um den ich bitte , bekannt , und ob er , wie auch Kaibel und Wilamowitz als in Roma residirend aufgeführt werden sollen .
+9-1	804-807	Von	_	_
+9-2	808-811	Dr.	_	_
+9-3	812-817	Stadt	*	PERmentioned
+9-4	818-819	,	_	_
+9-5	820-823	den	_	_
+9-6	824-827	Sie	_	_
+9-7	828-833	unter	_	_
+9-8	834-837	den	_	_
+9-9	838-845	ragazzi	_	_
+9-10	846-854	anführen	_	_
+9-11	855-856	,	_	_
+9-12	857-860	ist	_	_
+9-13	861-864	mir	_	_
+9-14	865-871	nichts	_	_
+9-15	872-873	,	_	_
+9-16	874-879	daher	_	_
+9-17	880-884	auch	_	_
+9-18	885-890	nicht	_	_
+9-19	891-894	der	_	_
+9-20	895-902	Vorname	_	_
+9-21	903-904	,	_	_
+9-22	905-907	um	_	_
+9-23	908-911	den	_	_
+9-24	912-915	ich	_	_
+9-25	916-921	bitte	_	_
+9-26	922-923	,	_	_
+9-27	924-931	bekannt	_	_
+9-28	932-933	,	_	_
+9-29	934-937	und	_	_
+9-30	938-940	ob	_	_
+9-31	941-943	er	_	_
+9-32	944-945	,	_	_
+9-33	946-949	wie	_	_
+9-34	950-954	auch	_	_
+9-35	955-961	Kaibel	*	PERmentioned
+9-36	962-965	und	_	_
+9-37	966-976	Wilamowitz	*	PERmentioned
+9-38	977-980	als	_	_
+9-39	981-983	in	_	_
+9-40	984-988	Roma	*	PLACEmentioned
+9-41	989-999	residirend	_	_
+9-42	1000-1010	aufgeführt	_	_
+9-43	1011-1017	werden	_	_
+9-44	1018-1024	sollen	_	_
+9-45	1025-1026	.	_	_
+
+#Text=Sie schreiben deutlich de ' Ravoni Mattei , Pasquale \; das muß doch ohne Zweifel Baroni lauten ?
+10-1	1027-1030	Sie	_	_
+10-2	1031-1040	schreiben	_	_
+10-3	1041-1049	deutlich	_	_
+10-4	1050-1052	de	_	_
+10-5	1053-1054	'	_	_
+10-6	1055-1061	Ravoni	*[5]	PERmentioned[5]
+10-7	1062-1068	Mattei	*[5]	PERmentioned[5]
+10-8	1069-1070	,	_	_
+10-9	1071-1079	Pasquale	*[6]	PERmentioned[6]
+10-10	1080-1081	\;	_	_
+10-11	1082-1085	das	_	_
+10-12	1086-1089	muß	_	_
+10-13	1090-1094	doch	_	_
+10-14	1095-1099	ohne	_	_
+10-15	1100-1107	Zweifel	_	_
+10-16	1108-1114	Baroni	*	PERmentioned
+10-17	1115-1121	lauten	_	_
+10-18	1122-1123	?	_	_
+
+#Text=Auch bei
+11-1	1124-1128	Auch	_	_
+11-2	1129-1132	bei	_	_

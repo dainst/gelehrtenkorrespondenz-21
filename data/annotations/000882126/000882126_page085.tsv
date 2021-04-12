@@ -1,0 +1,301 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=279 Braun an Gerhard Rom , 22. März 1836 Prof. Gerhard Roma li 22 Marzo 1836 .
+1-1	0-3	279	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	22.	*[25]	DATEletter[25]
+1-8	31-35	März	*[25]	DATEletter[25]
+1-9	36-40	1836	*[25]	DATEletter[25]
+1-10	41-46	Prof.	*[26]	PERaddressee[26]
+1-11	47-54	Gerhard	*[26]	PERaddressee[26]
+1-12	55-59	Roma	*	PLACEfrom
+1-13	60-62	li	_	_
+1-14	63-65	22	*[27]	DATEletter[27]
+1-15	66-71	Marzo	*[27]	DATEletter[27]
+1-16	72-76	1836	*[27]	DATEletter[27]
+1-17	77-78	.	_	_
+
+#Text=Hochzuverehrender Freund !
+2-1	79-96	Hochzuverehrender	_	_
+2-2	97-103	Freund	_	_
+2-3	104-105	!	_	_
+
+#Text=Mit der Capobianchischen Angelegenheit bin ich so wenig zufrieden als Sie .
+3-1	106-109	Mit	_	_
+3-2	110-113	der	_	_
+3-3	114-130	Capobianchischen	*	MISC
+3-4	131-144	Angelegenheit	_	_
+3-5	145-148	bin	_	_
+3-6	149-152	ich	_	_
+3-7	153-155	so	_	_
+3-8	156-161	wenig	_	_
+3-9	162-171	zufrieden	_	_
+3-10	172-175	als	_	_
+3-11	176-179	Sie	_	_
+3-12	180-181	.	_	_
+
+#Text=Was wollen Sie aber gegen den in seiner Weise tyrannischen und leicht verdrießlichen Lanci machen , zumal wenn er mit Bunsen gegen mich noch dazu in einer Sache steht , die mich bis jetzt nicht direct angeht .
+4-1	182-185	Was	_	_
+4-2	186-192	wollen	_	_
+4-3	193-196	Sie	_	_
+4-4	197-201	aber	_	_
+4-5	202-207	gegen	_	_
+4-6	208-211	den	_	_
+4-7	212-214	in	_	_
+4-8	215-221	seiner	_	_
+4-9	222-227	Weise	_	_
+4-10	228-240	tyrannischen	_	_
+4-11	241-244	und	_	_
+4-12	245-251	leicht	_	_
+4-13	252-266	verdrießlichen	_	_
+4-14	267-272	Lanci	*	PERmentioned
+4-15	273-279	machen	_	_
+4-16	280-281	,	_	_
+4-17	282-287	zumal	_	_
+4-18	288-292	wenn	_	_
+4-19	293-295	er	_	_
+4-20	296-299	mit	_	_
+4-21	300-306	Bunsen	*	PERmentioned
+4-22	307-312	gegen	_	_
+4-23	313-317	mich	_	_
+4-24	318-322	noch	_	_
+4-25	323-327	dazu	_	_
+4-26	328-330	in	_	_
+4-27	331-336	einer	_	_
+4-28	337-342	Sache	_	_
+4-29	343-348	steht	_	_
+4-30	349-350	,	_	_
+4-31	351-354	die	_	_
+4-32	355-359	mich	_	_
+4-33	360-363	bis	_	_
+4-34	364-369	jetzt	_	_
+4-35	370-375	nicht	_	_
+4-36	376-382	direct	_	_
+4-37	383-389	angeht	_	_
+4-38	390-391	.	_	_
+
+#Text=lLanci sagt sono io il capo dell ’ amministrazione .
+5-1	392-398	lLanci	*	PERmentioned
+5-2	399-403	sagt	_	_
+5-3	404-408	sono	_	_
+5-4	409-411	io	_	_
+5-5	412-414	il	_	_
+5-6	415-419	capo	_	_
+5-7	420-424	dell	_	_
+5-8	425-426	’	_	_
+5-9	427-442	amministrazione	_	_
+5-10	443-444	.	_	_
+
+#Text=Capobianchi andrerseits ist ein Esel in folio und hat am Ende etwas der Art verdient .
+6-1	445-456	Capobianchi	*	PERmentioned
+6-2	457-468	andrerseits	_	_
+6-3	469-472	ist	_	_
+6-4	473-476	ein	_	_
+6-5	477-481	Esel	_	_
+6-6	482-484	in	_	_
+6-7	485-490	folio	_	_
+6-8	491-494	und	_	_
+6-9	495-498	hat	_	_
+6-10	499-501	am	_	_
+6-11	502-506	Ende	_	_
+6-12	507-512	etwas	_	_
+6-13	513-516	der	_	_
+6-14	517-520	Art	_	_
+6-15	521-529	verdient	_	_
+6-16	530-531	.	_	_
+
+#Text=Am Ende ists geschehen .
+7-1	532-534	Am	_	_
+7-2	535-539	Ende	_	_
+7-3	540-544	ists	_	_
+7-4	545-554	geschehen	_	_
+7-5	555-556	.	_	_
+
+#Text=Alle Details Ihnen mitzutheilen reichte ein Briefbogen nicht hin .
+8-1	557-561	Alle	_	_
+8-2	562-569	Details	_	_
+8-3	570-575	Ihnen	_	_
+8-4	576-588	mitzutheilen	_	_
+8-5	589-596	reichte	_	_
+8-6	597-600	ein	_	_
+8-7	601-611	Briefbogen	_	_
+8-8	612-617	nicht	_	_
+8-9	618-621	hin	_	_
+8-10	622-623	.	_	_
+
+#Text=Mit der Aethravase ist neuer Imbroglio im Werk .
+9-1	624-627	Mit	_	_
+9-2	628-631	der	_	_
+9-3	632-642	Aethravase	*	OBJ
+9-4	643-646	ist	_	_
+9-5	647-652	neuer	_	_
+9-6	653-662	Imbroglio	_	_
+9-7	663-665	im	_	_
+9-8	666-670	Werk	_	_
+9-9	671-672	.	_	_
+
+#Text=Ihren Wünschen gemäß habe ich es bei Bunsen nicht ohne Schwierigkeit und große Vorsicht durchgesetzt , daß die Platten aufgehoben bleiben \; jetzt geben Sie Contreordre .
+10-1	673-678	Ihren	_	_
+10-2	679-687	Wünschen	_	_
+10-3	688-693	gemäß	_	_
+10-4	694-698	habe	_	_
+10-5	699-702	ich	_	_
+10-6	703-705	es	_	_
+10-7	706-709	bei	_	_
+10-8	710-716	Bunsen	*	PERmentioned
+10-9	717-722	nicht	_	_
+10-10	723-727	ohne	_	_
+10-11	728-741	Schwierigkeit	_	_
+10-12	742-745	und	_	_
+10-13	746-751	große	_	_
+10-14	752-760	Vorsicht	_	_
+10-15	761-773	durchgesetzt	_	_
+10-16	774-775	,	_	_
+10-17	776-779	daß	_	_
+10-18	780-783	die	_	_
+10-19	784-791	Platten	_	_
+10-20	792-802	aufgehoben	_	_
+10-21	803-810	bleiben	_	_
+10-22	811-812	\;	_	_
+10-23	813-818	jetzt	_	_
+10-24	819-824	geben	_	_
+10-25	825-828	Sie	_	_
+10-26	829-840	Contreordre	_	_
+10-27	841-842	.	_	_
+
+#Text=Auf diese : .
+11-1	843-846	Auf	_	_
+11-2	847-852	diese	_	_
+11-3	853-854	:	_	_
+11-4	855-856	.	_	_
+
+#Text=kann ich nicht eingehen .
+12-1	857-861	kann	_	_
+12-2	862-865	ich	_	_
+12-3	866-871	nicht	_	_
+12-4	872-880	eingehen	_	_
+12-5	881-882	.	_	_
+
+#Text=Sie wird auch ganz unmöglich auszuführen sein .
+13-1	883-886	Sie	_	_
+13-2	887-891	wird	_	_
+13-3	892-896	auch	_	_
+13-4	897-901	ganz	_	_
+13-5	902-911	unmöglich	_	_
+13-6	912-923	auszuführen	_	_
+13-7	924-928	sein	_	_
+13-8	929-930	.	_	_
+
+#Text=Wollen Sie eine 2.te Versendung machen oder wie denken Sie sich die Sache .
+14-1	931-937	Wollen	_	_
+14-2	938-941	Sie	_	_
+14-3	942-946	eine	_	_
+14-4	947-951	2.te	_	_
+14-5	952-962	Versendung	_	_
+14-6	963-969	machen	_	_
+14-7	970-974	oder	_	_
+14-8	975-978	wie	_	_
+14-9	979-985	denken	_	_
+14-10	986-989	Sie	_	_
+14-11	990-994	sich	_	_
+14-12	995-998	die	_	_
+14-13	999-1004	Sache	_	_
+14-14	1005-1006	.	_	_
+
+#Text=Wegen der Koste stellung der Monumententafel habe ich keine Schuld .
+15-1	1007-1012	Wegen	_	_
+15-2	1013-1016	der	_	_
+15-3	1017-1022	Koste	_	_
+15-4	1023-1031	stellung	_	_
+15-5	1032-1035	der	_	_
+15-6	1036-1051	Monumententafel	_	_
+15-7	1052-1056	habe	_	_
+15-8	1057-1060	ich	_	_
+15-9	1061-1066	keine	_	_
+15-10	1067-1073	Schuld	_	_
+15-11	1074-1075	.	_	_
+
+#Text=Sehen Sie gefälligst meine in solcher Angelegenheit gegebenen Antworten nach und Sie werden überall definitive Antworten finden .
+16-1	1076-1081	Sehen	_	_
+16-2	1082-1085	Sie	_	_
+16-3	1086-1096	gefälligst	_	_
+16-4	1097-1102	meine	_	_
+16-5	1103-1105	in	_	_
+16-6	1106-1113	solcher	_	_
+16-7	1114-1127	Angelegenheit	_	_
+16-8	1128-1137	gegebenen	_	_
+16-9	1138-1147	Antworten	_	_
+16-10	1148-1152	nach	_	_
+16-11	1153-1156	und	_	_
+16-12	1157-1160	Sie	_	_
+16-13	1161-1167	werden	_	_
+16-14	1168-1175	überall	_	_
+16-15	1176-1186	definitive	_	_
+16-16	1187-1196	Antworten	_	_
+16-17	1197-1203	finden	_	_
+16-18	1204-1205	.	_	_
+
+#Text=Was nicht meine Schuld ist , weisen Sie mir nicht zu .
+17-1	1206-1209	Was	_	_
+17-2	1210-1215	nicht	_	_
+17-3	1216-1221	meine	_	_
+17-4	1222-1228	Schuld	_	_
+17-5	1229-1232	ist	_	_
+17-6	1233-1234	,	_	_
+17-7	1235-1241	weisen	_	_
+17-8	1242-1245	Sie	_	_
+17-9	1246-1249	mir	_	_
+17-10	1250-1255	nicht	_	_
+17-11	1256-1258	zu	_	_
+17-12	1259-1260	.	_	_
+
+#Text=Daß ich nichts für die Annalen eingesandt liegt darin , daß ich keine Zeit gehabt und daß es mir Bunsen sehr zu verargen gedroht hat , indem hier zuviel für mich zu thuen ist .
+18-1	1261-1264	Daß	_	_
+18-2	1265-1268	ich	_	_
+18-3	1269-1275	nichts	_	_
+18-4	1276-1279	für	_	_
+18-5	1280-1283	die	_	_
+18-6	1284-1291	Annalen	_	_
+18-7	1292-1302	eingesandt	_	_
+18-8	1303-1308	liegt	_	_
+18-9	1309-1314	darin	_	_
+18-10	1315-1316	,	_	_
+18-11	1317-1320	daß	_	_
+18-12	1321-1324	ich	_	_
+18-13	1325-1330	keine	_	_
+18-14	1331-1335	Zeit	_	_
+18-15	1336-1342	gehabt	_	_
+18-16	1343-1346	und	_	_
+18-17	1347-1350	daß	_	_
+18-18	1351-1353	es	_	_
+18-19	1354-1357	mir	_	_
+18-20	1358-1364	Bunsen	*	PERmentioned
+18-21	1365-1369	sehr	_	_
+18-22	1370-1372	zu	_	_
+18-23	1373-1381	verargen	_	_
+18-24	1382-1389	gedroht	_	_
+18-25	1390-1393	hat	_	_
+18-26	1394-1395	,	_	_
+18-27	1396-1401	indem	_	_
+18-28	1402-1406	hier	_	_
+18-29	1407-1413	zuviel	_	_
+18-30	1414-1417	für	_	_
+18-31	1418-1422	mich	_	_
+18-32	1423-1425	zu	_	_
+18-33	1426-1431	thuen	_	_
+18-34	1432-1435	ist	_	_
+18-35	1436-1437	.	_	_
+
+#Text=Daß ich hier sehr nothwenig beschäf-
+19-1	1438-1441	Daß	_	_
+19-2	1442-1445	ich	_	_
+19-3	1446-1450	hier	_	_
+19-4	1451-1455	sehr	_	_
+19-5	1456-1465	nothwenig	_	_
+19-6	1466-1474	beschäf-	_	_

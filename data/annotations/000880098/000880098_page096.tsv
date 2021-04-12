@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=697 Braun an Gerhard Rom , 13. November 1834 -5- Ihre Beschreibung von Rom ist verkauft \; soll ich auch den dritten Theil verkaufen , wenn ich ihn erhalte ?
+1-1	0-3	697	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[1]	DATEletter[1]
+1-8	31-39	November	*[1]	DATEletter[1]
+1-9	40-44	1834	*[1]	DATEletter[1]
+1-10	45-48	-5-	_	_
+1-11	49-53	Ihre	_	_
+1-12	54-66	Beschreibung	*[2]	LIT[2]
+1-13	67-70	von	*[2]	LIT[2]
+1-14	71-74	Rom	*[3]	PLACEmentioned[3]
+1-15	75-78	ist	_	_
+1-16	79-87	verkauft	_	_
+1-17	88-89	\;	_	_
+1-18	90-94	soll	_	_
+1-19	95-98	ich	_	_
+1-20	99-103	auch	_	_
+1-21	104-107	den	_	_
+1-22	108-115	dritten	_	_
+1-23	116-121	Theil	_	_
+1-24	122-131	verkaufen	_	_
+1-25	132-133	,	_	_
+1-26	134-138	wenn	_	_
+1-27	139-142	ich	_	_
+1-28	143-146	ihn	_	_
+1-29	147-154	erhalte	_	_
+1-30	155-156	?	_	_
+
+#Text=Avolios Aufsatz über etruskische Inschriften hat sich bis jetzt nicht gefunden .
+2-1	157-164	Avolios	*	PERmentioned
+2-2	165-172	Aufsatz	_	_
+2-3	173-177	über	_	_
+2-4	178-189	etruskische	_	_
+2-5	190-201	Inschriften	_	_
+2-6	202-205	hat	_	_
+2-7	206-210	sich	_	_
+2-8	211-214	bis	_	_
+2-9	215-220	jetzt	_	_
+2-10	221-226	nicht	_	_
+2-11	227-235	gefunden	_	_
+2-12	236-237	.	_	_
+
+#Text=Franz ist seit einigen Wochen hier .
+3-1	238-243	Franz	*	PERmentioned
+3-2	244-247	ist	_	_
+3-3	248-252	seit	_	_
+3-4	253-260	einigen	_	_
+3-5	261-267	Wochen	_	_
+3-6	268-272	hier	_	_
+3-7	273-274	.	_	_
+
+#Text=Ich habe ihm die Arbeiten für Ritschl übergeben \; Bunsen weist ihm griechische Stunden zu , was der Archäologie unseres Instituts Freude macht und erhält .
+4-1	275-278	Ich	_	_
+4-2	279-283	habe	_	_
+4-3	284-287	ihm	_	_
+4-4	288-291	die	_	_
+4-5	292-300	Arbeiten	_	_
+4-6	301-304	für	_	_
+4-7	305-312	Ritschl	*	PERmentioned
+4-8	313-322	übergeben	_	_
+4-9	323-324	\;	_	_
+4-10	325-331	Bunsen	*	PERmentioned
+4-11	332-337	weist	_	_
+4-12	338-341	ihm	_	_
+4-13	342-353	griechische	_	_
+4-14	354-361	Stunden	_	_
+4-15	362-364	zu	_	_
+4-16	365-366	,	_	_
+4-17	367-370	was	_	_
+4-18	371-374	der	_	_
+4-19	375-386	Archäologie	_	_
+4-20	387-394	unseres	_	_
+4-21	395-404	Instituts	*[6]	ORGmentioned[6]
+4-22	405-411	Freude	*[6]	ORGmentioned[6]
+4-23	412-417	macht	_	_
+4-24	418-421	und	_	_
+4-25	422-428	erhält	_	_
+4-26	429-430	.	_	_
+
+#Text=Die Rhodische Inschrift hat ihm Kellermann abgetreten \; der Text ist in einigen wesentlichen Stellen nach dem geneuer gelesenen Original und durch seine Sprachkenntnisse verbessert : alles ist klar .
+5-1	431-434	Die	_	_
+5-2	435-444	Rhodische	*[4]	OBJ[4]
+5-3	445-454	Inschrift	*[4]	OBJ[4]
+5-4	455-458	hat	_	_
+5-5	459-462	ihm	_	_
+5-6	463-473	Kellermann	*	PERmentioned
+5-7	474-484	abgetreten	_	_
+5-8	485-486	\;	_	_
+5-9	487-490	der	_	_
+5-10	491-495	Text	_	_
+5-11	496-499	ist	_	_
+5-12	500-502	in	_	_
+5-13	503-510	einigen	_	_
+5-14	511-523	wesentlichen	_	_
+5-15	524-531	Stellen	_	_
+5-16	532-536	nach	_	_
+5-17	537-540	dem	_	_
+5-18	541-548	geneuer	_	_
+5-19	549-558	gelesenen	_	_
+5-20	559-567	Original	_	_
+5-21	568-571	und	_	_
+5-22	572-577	durch	_	_
+5-23	578-583	seine	_	_
+5-24	584-600	Sprachkenntnisse	_	_
+5-25	601-611	verbessert	_	_
+5-26	612-613	:	_	_
+5-27	614-619	alles	_	_
+5-28	620-623	ist	_	_
+5-29	624-628	klar	_	_
+5-30	629-630	.	_	_
+
+#Text=Die sachlichen Dinge sind Zämtlich erläutert , sogar ecc .
+6-1	631-634	Die	_	_
+6-2	635-645	sachlichen	_	_
+6-3	646-651	Dinge	_	_
+6-4	652-656	sind	_	_
+6-5	657-665	Zämtlich	_	_
+6-6	666-675	erläutert	_	_
+6-7	676-677	,	_	_
+6-8	678-683	sogar	_	_
+6-9	684-687	ecc	_	_
+6-10	688-689	.	_	_
+
+#Text=Die Unbesetzung wird in einem alterthümlichen Inschriftlatein beigefügt , die Kränze mit Holzschnitten als integrierte Theile des Monuments eingedruckt .
+7-1	690-693	Die	_	_
+7-2	694-705	Unbesetzung	_	_
+7-3	706-710	wird	_	_
+7-4	711-713	in	_	_
+7-5	714-719	einem	_	_
+7-6	720-735	alterthümlichen	_	_
+7-7	736-751	Inschriftlatein	_	_
+7-8	752-761	beigefügt	_	_
+7-9	762-763	,	_	_
+7-10	764-767	die	_	_
+7-11	768-774	Kränze	_	_
+7-12	775-778	mit	_	_
+7-13	779-792	Holzschnitten	_	_
+7-14	793-796	als	_	_
+7-15	797-808	integrierte	_	_
+7-16	809-815	Theile	_	_
+7-17	816-819	des	_	_
+7-18	820-829	Monuments	_	_
+7-19	830-841	eingedruckt	_	_
+7-20	842-843	.	_	_
+
+#Text=- Für die Inschriften ist Franz vortrefflich .
+8-1	844-845	-	_	_
+8-2	846-849	Für	_	_
+8-3	850-853	die	_	_
+8-4	854-865	Inschriften	_	_
+8-5	866-869	ist	_	_
+8-6	870-875	Franz	*	PERmentioned
+8-7	876-888	vortrefflich	_	_
+8-8	889-890	.	_	_
+
+#Text=Alles wird ihm anschaulich und er weiß es anschaulich zu machen .
+9-1	891-896	Alles	_	_
+9-2	897-901	wird	_	_
+9-3	902-905	ihm	_	_
+9-4	906-917	anschaulich	_	_
+9-5	918-921	und	_	_
+9-6	922-924	er	_	_
+9-7	925-929	weiß	_	_
+9-8	930-932	es	_	_
+9-9	933-944	anschaulich	_	_
+9-10	945-947	zu	_	_
+9-11	948-954	machen	_	_
+9-12	955-956	.	_	_
+
+#Text=Ich begreife daher nicht , warum ihuBöckh nicht zum Beispiel die Sicilischen Inschriften oder irgend einen ähnlichen Theil des Corpus zuweisen könnte .
+10-1	957-960	Ich	_	_
+10-2	961-969	begreife	_	_
+10-3	970-975	daher	_	_
+10-4	976-981	nicht	_	_
+10-5	982-983	,	_	_
+10-6	984-989	warum	_	_
+10-7	990-998	ihuBöckh	*	PERmentioned
+10-8	999-1004	nicht	_	_
+10-9	1005-1008	zum	_	_
+10-10	1009-1017	Beispiel	_	_
+10-11	1018-1021	die	_	_
+10-12	1022-1033	Sicilischen	_	_
+10-13	1034-1045	Inschriften	_	_
+10-14	1046-1050	oder	_	_
+10-15	1051-1057	irgend	_	_
+10-16	1058-1063	einen	_	_
+10-17	1064-1073	ähnlichen	_	_
+10-18	1074-1079	Theil	_	_
+10-19	1080-1083	des	_	_
+10-20	1084-1090	Corpus	_	_
+10-21	1091-1099	zuweisen	_	_
+10-22	1100-1106	könnte	_	_
+10-23	1107-1108	.	_	_
+
+#Text=- Dem Institut würde er gern seine Dienste anbieten \; brauchbar würde er gewiss in mehr als einer Hinsciht sein .
+11-1	1109-1110	-	_	_
+11-2	1111-1114	Dem	_	_
+11-3	1115-1123	Institut	*	ORGmentioned
+11-4	1124-1129	würde	_	_
+11-5	1130-1132	er	_	_
+11-6	1133-1137	gern	_	_
+11-7	1138-1143	seine	_	_
+11-8	1144-1151	Dienste	_	_
+11-9	1152-1160	anbieten	_	_
+11-10	1161-1162	\;	_	_
+11-11	1163-1172	brauchbar	_	_
+11-12	1173-1178	würde	_	_
+11-13	1179-1181	er	_	_
+11-14	1182-1188	gewiss	_	_
+11-15	1189-1191	in	_	_
+11-16	1192-1196	mehr	_	_
+11-17	1197-1200	als	_	_
+11-18	1201-1206	einer	_	_
+11-19	1207-1215	Hinsciht	_	_
+11-20	1216-1220	sein	_	_
+11-21	1221-1222	.	_	_
+
+#Text=Wegen seiner polit .
+12-1	1223-1228	Wegen	_	_
+12-2	1229-1235	seiner	_	_
+12-3	1236-1241	polit	_	_
+12-4	1242-1243	.	_	_
+
+#Text=Stellung ist nichts zu fürchten .
+13-1	1244-1252	Stellung	_	_
+13-2	1253-1256	ist	_	_
+13-3	1257-1263	nichts	_	_
+13-4	1264-1266	zu	_	_
+13-5	1267-1275	fürchten	_	_
+13-6	1276-1277	.	_	_
+
+#Text=Der König von Bayern hat ihn sehr zufrieden behandelt .
+14-1	1278-1281	Der	_	_
+14-2	1282-1287	König	*[5]	PERmentioned[5]
+14-3	1288-1291	von	*[5]	PERmentioned[5]
+14-4	1292-1298	Bayern	*[5]	PERmentioned[5]
+14-5	1299-1302	hat	_	_
+14-6	1303-1306	ihn	_	_
+14-7	1307-1311	sehr	_	_
+14-8	1312-1321	zufrieden	_	_
+14-9	1322-1331	behandelt	_	_
+14-10	1332-1333	.	_	_
+
+#Text=- Non omnia possumus omnes und den archäologischen Bestrebungen unseres Instituts könnte eine
+15-1	1334-1335	-	_	_
+15-2	1336-1339	Non	_	_
+15-3	1340-1345	omnia	_	_
+15-4	1346-1354	possumus	_	_
+15-5	1355-1360	omnes	_	_
+15-6	1361-1364	und	_	_
+15-7	1365-1368	den	_	_
+15-8	1369-1384	archäologischen	_	_
+15-9	1385-1397	Bestrebungen	_	_
+15-10	1398-1405	unseres	_	_
+15-11	1406-1415	Instituts	*	ORGmentioned
+15-12	1416-1422	könnte	_	_
+15-13	1423-1427	eine	_	_

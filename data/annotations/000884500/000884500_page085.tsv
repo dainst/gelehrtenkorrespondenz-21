@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 17. April 1838 Nichts für das Inst .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	17.	*[4]	DATEletter[4]
+1-7	30-35	April	*[4]	DATEletter[4]
+1-8	36-40	1838	*[4]	DATEletter[4]
+1-9	41-47	Nichts	_	_
+1-10	48-51	für	_	_
+1-11	52-55	das	_	_
+1-12	56-60	Inst	_	_
+1-13	61-62	.	_	_
+
+#Text=Bl. , von Ihnen , Lepsius , Abeken - ?
+2-1	63-66	Bl.	_	_
+2-2	67-68	,	_	_
+2-3	69-72	von	_	_
+2-4	73-78	Ihnen	_	_
+2-5	79-80	,	_	_
+2-6	81-88	Lepsius	*	PERmentioned
+2-7	89-90	,	_	_
+2-8	91-97	Abeken	*	PERmentioned
+2-9	98-99	-	_	_
+2-10	100-101	?	_	_
+
+#Text=Von und Franz habe ich sehr lange nichts gehört .
+3-1	102-105	Von	_	_
+3-2	106-109	und	_	_
+3-3	110-115	Franz	*	PERmentioned
+3-4	116-120	habe	_	_
+3-5	121-124	ich	_	_
+3-6	125-129	sehr	_	_
+3-7	130-135	lange	_	_
+3-8	136-142	nichts	_	_
+3-9	143-149	gehört	_	_
+3-10	150-151	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Eben schreibt Ritschl mit einem epigraphischen Programm „ .
+4-1	152-162	Herzlichst	_	_
+4-2	163-166	Ihr	_	_
+4-3	167-174	Gerhard	*	PERauthor
+4-4	175-179	Eben	_	_
+4-5	180-188	schreibt	_	_
+4-6	189-196	Ritschl	*	PERmentioned
+4-7	197-200	mit	_	_
+4-8	201-206	einem	_	_
+4-9	207-221	epigraphischen	_	_
+4-10	222-230	Programm	_	_
+4-11	231-232	„	_	_
+4-12	233-234	.	_	_
+
+#Text=In Ihrer Bildersache hat er nichts getahn weil Sie ihn ohne Antwort ließen \; warum er das Bild nicht sofort eingefordert hat , begreife ich nicht und bin nun gesonnen solches auf meine Gefahr dem RR Müller L abzunehmen .
+5-1	235-237	In	_	_
+5-2	238-243	Ihrer	_	_
+5-3	244-255	Bildersache	_	_
+5-4	256-259	hat	_	_
+5-5	260-262	er	_	_
+5-6	263-269	nichts	_	_
+5-7	270-276	getahn	_	_
+5-8	277-281	weil	_	_
+5-9	282-285	Sie	_	_
+5-10	286-289	ihn	_	_
+5-11	290-294	ohne	_	_
+5-12	295-302	Antwort	_	_
+5-13	303-309	ließen	_	_
+5-14	310-311	\;	_	_
+5-15	312-317	warum	_	_
+5-16	318-320	er	_	_
+5-17	321-324	das	_	_
+5-18	325-329	Bild	_	_
+5-19	330-335	nicht	_	_
+5-20	336-342	sofort	_	_
+5-21	343-355	eingefordert	_	_
+5-22	356-359	hat	_	_
+5-23	360-361	,	_	_
+5-24	362-370	begreife	_	_
+5-25	371-374	ich	_	_
+5-26	375-380	nicht	_	_
+5-27	381-384	und	_	_
+5-28	385-388	bin	_	_
+5-29	389-392	nun	_	_
+5-30	393-401	gesonnen	_	_
+5-31	402-409	solches	_	_
+5-32	410-413	auf	_	_
+5-33	414-419	meine	_	_
+5-34	420-426	Gefahr	_	_
+5-35	427-430	dem	_	_
+5-36	431-433	RR	_	_
+5-37	434-440	Müller	*	PERmentioned
+5-38	441-442	L	_	_
+5-39	443-453	abzunehmen	_	_
+5-40	454-455	.	_	_
+
+#Text=4 Kaft ,
+6-1	456-457	4	_	_
+6-2	458-462	Kaft	_	_
+6-3	463-464	,	_	_

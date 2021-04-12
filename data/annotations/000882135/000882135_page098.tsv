@@ -1,0 +1,296 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N . / 603 Braun an Gerhard Rom , 27 .
+1-1	0-1	N	_	_
+1-2	2-3	.	_	_
+1-3	4-5	/	_	_
+1-4	6-9	603	_	_
+1-5	10-15	Braun	*	PERauthor
+1-6	16-18	an	_	_
+1-7	19-26	Gerhard	*	PERaddressee
+1-8	27-30	Rom	*	PLACEfrom
+1-9	31-32	,	_	_
+1-10	33-35	27	*[4]	DATEletter[4]
+1-11	36-37	.	*[4]	DATEletter[4]
+
+#Text=August 1838 Sicilien .
+2-1	38-44	August	*[4]	DATEletter[4]
+2-2	45-49	1838	*[4]	DATEletter[4]
+2-3	50-58	Sicilien	_	_
+2-4	59-60	.	_	_
+
+#Text=Hier hat Michelangelo Lanci einen guten Krieg angefacht .
+3-1	61-65	Hier	_	_
+3-2	66-69	hat	_	_
+3-3	70-82	Michelangelo	*[5]	PERmentioned[5]
+3-4	83-88	Lanci	*[5]	PERmentioned[5]
+3-5	89-94	einen	_	_
+3-6	95-100	guten	_	_
+3-7	101-106	Krieg	_	_
+3-8	107-116	angefacht	_	_
+3-9	117-118	.	_	_
+
+#Text=Betti hat ihn in Arcadia angepackt , nachdem er ihn vorher in seiner Todibroschüre todt gemacht .
+4-1	119-124	Betti	*	PERmentioned
+4-2	125-128	hat	_	_
+4-3	129-132	ihn	_	_
+4-4	133-135	in	_	_
+4-5	136-143	Arcadia	*	PLACEmentioned
+4-6	144-153	angepackt	_	_
+4-7	154-155	,	_	_
+4-8	156-163	nachdem	_	_
+4-9	164-166	er	_	_
+4-10	167-170	ihn	_	_
+4-11	171-177	vorher	_	_
+4-12	178-180	in	_	_
+4-13	181-187	seiner	_	_
+4-14	188-201	Todibroschüre	_	_
+4-15	202-206	todt	_	_
+4-16	207-214	gemacht	_	_
+4-17	215-216	.	_	_
+
+#Text=Er will , daß das Schriftchen , von dem Sie 2 Exemplare erhalten werden , einem deutschen Gelehrten etwa Ge zu geneigter Berücksichtigung überreicht werde .
+5-1	217-219	Er	_	_
+5-2	220-224	will	_	_
+5-3	225-226	,	_	_
+5-4	227-230	daß	_	_
+5-5	231-234	das	_	_
+5-6	235-246	Schriftchen	_	_
+5-7	247-248	,	_	_
+5-8	249-252	von	_	_
+5-9	253-256	dem	_	_
+5-10	257-260	Sie	_	_
+5-11	261-262	2	_	_
+5-12	263-272	Exemplare	_	_
+5-13	273-281	erhalten	_	_
+5-14	282-288	werden	_	_
+5-15	289-290	,	_	_
+5-16	291-296	einem	_	_
+5-17	297-306	deutschen	_	_
+5-18	307-316	Gelehrten	_	_
+5-19	317-321	etwa	_	_
+5-20	322-324	Ge	_	_
+5-21	325-327	zu	_	_
+5-22	328-337	geneigter	_	_
+5-23	338-354	Berücksichtigung	_	_
+5-24	355-365	überreicht	_	_
+5-25	366-371	werde	_	_
+5-26	372-373	.	_	_
+
+#Text=Papencrodt , Urlichs , Abeken : : I und II schicken sich zu einer Reise nach Sicilien an .
+6-1	374-384	Papencrodt	*	PERmentioned
+6-2	385-386	,	_	_
+6-3	387-394	Urlichs	*	PERmentioned
+6-4	395-396	,	_	_
+6-5	397-403	Abeken	*	PERmentioned
+6-6	404-405	:	_	_
+6-7	406-407	:	_	_
+6-8	408-409	I	_	_
+6-9	410-413	und	_	_
+6-10	414-416	II	_	_
+6-11	417-425	schicken	_	_
+6-12	426-430	sich	_	_
+6-13	431-433	zu	_	_
+6-14	434-439	einer	_	_
+6-15	440-445	Reise	_	_
+6-16	446-450	nach	_	_
+6-17	451-459	Sicilien	*	PLACEmentioned
+6-18	460-462	an	_	_
+6-19	463-464	.	_	_
+
+#Text=Herr von Bach hat den preußischen Palast auf Monte Cavallo verkauft , 2500 Scudi über den Einkaufspreis .
+7-1	465-469	Herr	_	_
+7-2	470-473	von	*[12]	PERmentioned[12]
+7-3	474-478	Bach	*[12]	PERmentioned[12]
+7-4	479-482	hat	_	_
+7-5	483-486	den	_	_
+7-6	487-498	preußischen	_	_
+7-7	499-505	Palast	_	_
+7-8	506-509	auf	_	_
+7-9	510-515	Monte	*[13]	PLACEmentioned[13]
+7-10	516-523	Cavallo	*[13]	PLACEmentioned[13]
+7-11	524-532	verkauft	_	_
+7-12	533-534	,	_	_
+7-13	535-539	2500	_	_
+7-14	540-545	Scudi	_	_
+7-15	546-550	über	_	_
+7-16	551-554	den	_	_
+7-17	555-568	Einkaufspreis	_	_
+7-18	569-570	.	_	_
+
+#Text=Riepenhausen verspricht mir 6 cop .
+8-1	571-583	Riepenhausen	*	PERmentioned
+8-2	584-594	verspricht	_	_
+8-3	595-598	mir	_	_
+8-4	599-600	6	_	_
+8-5	601-604	cop	_	_
+8-6	605-606	.	_	_
+
+#Text=von beiden synoptischen Tafeln seiner Polygrolica .
+9-1	607-610	von	_	_
+9-2	611-617	beiden	_	_
+9-3	618-630	synoptischen	_	_
+9-4	631-637	Tafeln	_	_
+9-5	638-644	seiner	_	_
+9-6	645-656	Polygrolica	_	_
+9-7	657-658	.	_	_
+
+#Text=Das Ihnen fehlende Heft wäre Vollard geneigt Ihnen zuüberlassen , im Kauf oder Tausch .
+10-1	659-662	Das	_	_
+10-2	663-668	Ihnen	_	_
+10-3	669-677	fehlende	_	_
+10-4	678-682	Heft	_	_
+10-5	683-687	wäre	_	_
+10-6	688-695	Vollard	*	PERmentioned
+10-7	696-703	geneigt	_	_
+10-8	704-709	Ihnen	_	_
+10-9	710-722	zuüberlassen	_	_
+10-10	723-724	,	_	_
+10-11	725-727	im	_	_
+10-12	728-732	Kauf	_	_
+10-13	733-737	oder	_	_
+10-14	738-744	Tausch	_	_
+10-15	745-746	.	_	_
+
+#Text=Wolff ist in Neapel .
+11-1	747-752	Wolff	*	PERmentioned
+11-2	753-756	ist	_	_
+11-3	757-759	in	_	_
+11-4	760-766	Neapel	*	PLACEmentioned
+11-5	767-768	.	_	_
+
+#Text=Zahnsch „ ........ lohn geben reichlichen Stoff zu einem liber incredibilium .
+12-1	769-776	Zahnsch	*	PERmentioned
+12-2	777-778	„	_	_
+12-3	779-787	........	_	_
+12-4	788-792	lohn	_	_
+12-5	793-798	geben	_	_
+12-6	799-810	reichlichen	_	_
+12-7	811-816	Stoff	_	_
+12-8	817-819	zu	_	_
+12-9	820-825	einem	_	_
+12-10	826-831	liber	_	_
+12-11	832-845	incredibilium	_	_
+12-12	846-847	.	_	_
+
+#Text=Maler hat ein Verzeichniß der Preise , um die er Gypse zu liefern pflegt und neben diesem dasjenige welches rechtmäßig ist .
+13-1	848-853	Maler	*	PERmentioned
+13-2	854-857	hat	_	_
+13-3	858-861	ein	_	_
+13-4	862-873	Verzeichniß	_	_
+13-5	874-877	der	_	_
+13-6	878-884	Preise	_	_
+13-7	885-886	,	_	_
+13-8	887-889	um	_	_
+13-9	890-893	die	_	_
+13-10	894-896	er	_	_
+13-11	897-902	Gypse	_	_
+13-12	903-905	zu	_	_
+13-13	906-913	liefern	_	_
+13-14	914-920	pflegt	_	_
+13-15	921-924	und	_	_
+13-16	925-930	neben	_	_
+13-17	931-937	diesem	_	_
+13-18	938-947	dasjenige	_	_
+13-19	948-955	welches	_	_
+13-20	956-966	rechtmäßig	_	_
+13-21	967-970	ist	_	_
+13-22	971-972	.	_	_
+
+#Text=Das Verhältniß stellt sich ungefäahr wie 4 : 30 .
+14-1	973-976	Das	_	_
+14-2	977-987	Verhältniß	_	_
+14-3	988-994	stellt	_	_
+14-4	995-999	sich	_	_
+14-5	1000-1009	ungefäahr	_	_
+14-6	1010-1013	wie	_	_
+14-7	1014-1015	4	_	_
+14-8	1016-1017	:	_	_
+14-9	1018-1020	30	_	_
+14-10	1021-1022	.	_	_
+
+#Text=Als Bildhändler macht er jetzt ein großes Haus , giebt Bälle mit nackten Weibsbildern etc .
+15-1	1023-1026	Als	_	_
+15-2	1027-1038	Bildhändler	_	_
+15-3	1039-1044	macht	_	_
+15-4	1045-1047	er	_	_
+15-5	1048-1053	jetzt	_	_
+15-6	1054-1057	ein	_	_
+15-7	1058-1064	großes	_	_
+15-8	1065-1069	Haus	_	_
+15-9	1070-1071	,	_	_
+15-10	1072-1077	giebt	_	_
+15-11	1078-1083	Bälle	_	_
+15-12	1084-1087	mit	_	_
+15-13	1088-1095	nackten	_	_
+15-14	1096-1108	Weibsbildern	_	_
+15-15	1109-1112	etc	_	_
+15-16	1113-1114	.	_	_
+
+#Text=Woher erhält denn Kestner Stackelberg 's Gräber Heft 3 etc. ?
+16-1	1115-1120	Woher	_	_
+16-2	1121-1127	erhält	_	_
+16-3	1128-1132	denn	_	_
+16-4	1133-1140	Kestner	*	PERmentioned
+16-5	1141-1152	Stackelberg	*[24]	PERmentioned[24]
+16-6	1153-1155	's	*[24]	PERmentioned[24]
+16-7	1156-1162	Gräber	_	_
+16-8	1163-1167	Heft	_	_
+16-9	1168-1169	3	_	_
+16-10	1170-1174	etc.	_	_
+16-11	1175-1176	?	_	_
+
+#Text=Von dem Panarium vor Porta Maggiore welches mit neidischer Strenge behütet wird , habe ich dennoch eine Zeichnung und Vermessung bewerkstelligt .
+17-1	1177-1180	Von	_	_
+17-2	1181-1184	dem	_	_
+17-3	1185-1193	Panarium	*	OBJ
+17-4	1194-1197	vor	_	_
+17-5	1198-1203	Porta	*[23]	OBJ[23]
+17-6	1204-1212	Maggiore	*[23]	OBJ[23]
+17-7	1213-1220	welches	_	_
+17-8	1221-1224	mit	_	_
+17-9	1225-1235	neidischer	_	_
+17-10	1236-1243	Strenge	_	_
+17-11	1244-1251	behütet	_	_
+17-12	1252-1256	wird	_	_
+17-13	1257-1258	,	_	_
+17-14	1259-1263	habe	_	_
+17-15	1264-1267	ich	_	_
+17-16	1268-1275	dennoch	_	_
+17-17	1276-1280	eine	_	_
+17-18	1281-1290	Zeichnung	_	_
+17-19	1291-1294	und	_	_
+17-20	1295-1305	Vermessung	_	_
+17-21	1306-1320	bewerkstelligt	_	_
+17-22	1321-1322	.	_	_
+
+#Text=Ich hoffe sie in den nächsten Wochen in dem zweiten Monumentenheft , das der 60 Zahl zu liebe nur # 4 ’ Blätter haben darf , zu
+18-1	1323-1326	Ich	_	_
+18-2	1327-1332	hoffe	_	_
+18-3	1333-1336	sie	_	_
+18-4	1337-1339	in	_	_
+18-5	1340-1343	den	_	_
+18-6	1344-1352	nächsten	_	_
+18-7	1353-1359	Wochen	_	_
+18-8	1360-1362	in	_	_
+18-9	1363-1366	dem	_	_
+18-10	1367-1374	zweiten	_	_
+18-11	1375-1389	Monumentenheft	_	_
+18-12	1390-1391	,	_	_
+18-13	1392-1395	das	_	_
+18-14	1396-1399	der	_	_
+18-15	1400-1402	60	_	_
+18-16	1403-1407	Zahl	_	_
+18-17	1408-1410	zu	_	_
+18-18	1411-1416	liebe	_	_
+18-19	1417-1420	nur	_	_
+18-20	1421-1422	#	_	_
+18-21	1423-1424	4	_	_
+18-22	1425-1426	’	_	_
+18-23	1427-1434	Blätter	_	_
+18-24	1435-1440	haben	_	_
+18-25	1441-1445	darf	_	_
+18-26	1446-1447	,	_	_
+18-27	1448-1450	zu	_	_

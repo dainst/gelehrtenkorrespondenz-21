@@ -1,0 +1,178 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=5 Henzen an Gerhard 12/1/55 gegeben u. Fabbris anerkennen will , so dß .
+1-1	0-1	5	_	_
+1-2	2-8	Henzen	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-27	12/1/55	*	DATEletter
+1-6	28-35	gegeben	_	_
+1-7	36-38	u.	_	_
+1-8	39-46	Fabbris	*	PERmentioned
+1-9	47-57	anerkennen	_	_
+1-10	58-62	will	_	_
+1-11	63-64	,	_	_
+1-12	65-67	so	_	_
+1-13	68-70	dß	_	_
+1-14	71-72	.	_	_
+
+#Text=de Rossi selbst , der aus Besorgnis , sich zu compromittiren , früher dagegen war , auch einwilligt .
+2-1	73-75	de	*[1]	PERmentioned[1]
+2-2	76-81	Rossi	*[1]	PERmentioned[1]
+2-3	82-88	selbst	_	_
+2-4	89-90	,	_	_
+2-5	91-94	der	_	_
+2-6	95-98	aus	_	_
+2-7	99-108	Besorgnis	_	_
+2-8	109-110	,	_	_
+2-9	111-115	sich	_	_
+2-10	116-118	zu	_	_
+2-11	119-133	compromittiren	_	_
+2-12	134-135	,	_	_
+2-13	136-142	früher	_	_
+2-14	143-150	dagegen	_	_
+2-15	151-154	war	_	_
+2-16	155-156	,	_	_
+2-17	157-161	auch	_	_
+2-18	162-172	einwilligt	_	_
+2-19	173-174	.	_	_
+
+#Text=Der Grund zu all diesem scheint uns zu sein , dß .
+3-1	175-178	Der	_	_
+3-2	179-184	Grund	_	_
+3-3	185-187	zu	_	_
+3-4	188-191	all	_	_
+3-5	192-198	diesem	_	_
+3-6	199-206	scheint	_	_
+3-7	207-210	uns	_	_
+3-8	211-213	zu	_	_
+3-9	214-218	sein	_	_
+3-10	219-220	,	_	_
+3-11	221-223	dß	_	_
+3-12	224-225	.	_	_
+
+#Text=nicht feststeht , zu wessen Competenz die Galleria lapidaria gehört .
+4-1	226-231	nicht	_	_
+4-2	232-241	feststeht	_	_
+4-3	242-243	,	_	_
+4-4	244-246	zu	_	_
+4-5	247-253	wessen	_	_
+4-6	254-263	Competenz	_	_
+4-7	264-267	die	_	_
+4-8	268-276	Galleria	*[2]	ORGmentioned[2]
+4-9	277-286	lapidaria	*[2]	ORGmentioned[2]
+4-10	287-293	gehört	_	_
+4-11	294-295	.	_	_
+
+#Text=Darüber sind 9 od . 10 Wochen verflossen .
+5-1	296-303	Darüber	_	_
+5-2	304-308	sind	_	_
+5-3	309-310	9	_	_
+5-4	311-313	od	_	_
+5-5	314-315	.	_	_
+5-6	316-318	10	_	_
+5-7	319-325	Wochen	_	_
+5-8	326-336	verflossen	_	_
+5-9	337-338	.	_	_
+
+#Text=ne Meine Frau grüßt von Herzen Sie u. die Ihrige .
+6-1	339-341	ne	_	_
+6-2	342-347	Meine	_	_
+6-3	348-352	Frau	_	_
+6-4	353-358	grüßt	_	_
+6-5	359-362	von	_	_
+6-6	363-369	Herzen	_	_
+6-7	370-373	Sie	_	_
+6-8	374-376	u.	_	_
+6-9	377-380	die	_	_
+6-10	381-387	Ihrige	_	_
+6-11	388-389	.	_	_
+
+#Text=Die allgemein hier herrschende Grippe hatte sich bei ihr \| auf ihre alten lebel geworfen \; jetzt geht 's .
+7-1	390-393	Die	_	_
+7-2	394-403	allgemein	_	_
+7-3	404-408	hier	_	_
+7-4	409-420	herrschende	_	_
+7-5	421-427	Grippe	_	_
+7-6	428-433	hatte	_	_
+7-7	434-438	sich	_	_
+7-8	439-442	bei	_	_
+7-9	443-446	ihr	_	_
+7-10	447-448	\|	_	_
+7-11	449-452	auf	_	_
+7-12	453-457	ihre	_	_
+7-13	458-463	alten	_	_
+7-14	464-469	lebel	_	_
+7-15	470-478	geworfen	_	_
+7-16	479-480	\;	_	_
+7-17	481-486	jetzt	_	_
+7-18	487-491	geht	_	_
+7-19	492-494	's	_	_
+7-20	495-496	.	_	_
+
+#Text=u Können Die nicht in dem Dankschreiben an de Rossi eine anerkennende Phrase für Msg .
+8-1	497-498	u	_	_
+8-2	499-505	Können	_	_
+8-3	506-509	Die	_	_
+8-4	510-515	nicht	_	_
+8-5	516-518	in	_	_
+8-6	519-522	dem	_	_
+8-7	523-536	Dankschreiben	_	_
+8-8	537-539	an	_	_
+8-9	540-542	de	*[3]	PERmentioned[3]
+8-10	543-548	Rossi	*[3]	PERmentioned[3]
+8-11	549-553	eine	_	_
+8-12	554-566	anerkennende	_	_
+8-13	567-573	Phrase	_	_
+8-14	574-577	für	_	_
+8-15	578-581	Msg	*[4]	PERmentioned[4]
+8-16	582-583	.	*[4]	PERmentioned[4]
+
+#Text=di San Marzano als Präfecten der Bibliothek einfließen lassen ?
+9-1	584-586	di	*[4]	PERmentioned[4]
+9-2	587-590	San	*[4]	PERmentioned[4]
+9-3	591-598	Marzano	*[4]	PERmentioned[4]
+9-4	599-602	als	_	_
+9-5	603-612	Präfecten	_	_
+9-6	613-616	der	_	_
+9-7	617-627	Bibliothek	*	ORGmentioned
+9-8	628-638	einfließen	_	_
+9-9	639-645	lassen	_	_
+9-10	646-647	?	_	_
+
+#Text=Der Mann ist sehr freundlich u , gefällig , u. so kann es nicht schaden , ihm eine gentilezza zu sagen .
+10-1	648-651	Der	_	_
+10-2	652-656	Mann	_	_
+10-3	657-660	ist	_	_
+10-4	661-665	sehr	_	_
+10-5	666-676	freundlich	_	_
+10-6	677-678	u	_	_
+10-7	679-680	,	_	_
+10-8	681-689	gefällig	_	_
+10-9	690-691	,	_	_
+10-10	692-694	u.	_	_
+10-11	695-697	so	_	_
+10-12	698-702	kann	_	_
+10-13	703-705	es	_	_
+10-14	706-711	nicht	_	_
+10-15	712-719	schaden	_	_
+10-16	720-721	,	_	_
+10-17	722-725	ihm	_	_
+10-18	726-730	eine	_	_
+10-19	731-741	gentilezza	_	_
+10-20	742-744	zu	_	_
+10-21	745-750	sagen	_	_
+10-22	751-752	.	_	_
+
+#Text=Ihr ergebenster W. Henzen .
+11-1	753-756	Ihr	_	_
+11-2	757-768	ergebenster	_	_
+11-3	769-771	W.	*[5]	PERauthor[5]
+11-4	772-778	Henzen	*[5]	PERauthor[5]
+11-5	779-780	.	_	_
+
+#Text=Rom 12/55
+12-1	781-784	Rom	*	PLACEfrom
+12-2	785-790	12/55	*	DATEletter

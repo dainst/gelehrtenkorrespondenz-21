@@ -1,0 +1,196 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Berlin , 19 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	19	*[4]	DATEletter[4]
+1-7	30-31	.	*[4]	DATEletter[4]
+
+#Text=Januar 1835 besonders von Müller , Aufsicht erlangen kann .
+2-1	32-38	Januar	*[4]	DATEletter[4]
+2-2	39-43	1835	*[4]	DATEletter[4]
+2-3	44-53	besonders	_	_
+2-4	54-57	von	_	_
+2-5	58-64	Müller	*	PERmentioned
+2-6	65-66	,	_	_
+2-7	67-75	Aufsicht	_	_
+2-8	76-84	erlangen	_	_
+2-9	85-89	kann	_	_
+2-10	90-91	.	_	_
+
+#Text=Er ist schreibferfiger als Böckh und judiciöser als Welcker .
+3-1	92-94	Er	_	_
+3-2	95-98	ist	_	_
+3-3	99-114	schreibferfiger	_	_
+3-4	115-118	als	_	_
+3-5	119-124	Böckh	*	PERmentioned
+3-6	125-128	und	_	_
+3-7	129-139	judiciöser	_	_
+3-8	140-143	als	_	_
+3-9	144-151	Welcker	*	PERmentioned
+3-10	152-153	.	_	_
+
+#Text=Daß wir mit Letronne schlecht stehen , ist ein Unglück , denn er ist der ohne Vergleich Tüchtigste seines Fachs in Frankreich .
+4-1	154-157	Daß	_	_
+4-2	158-161	wir	_	_
+4-3	162-165	mit	_	_
+4-4	166-174	Letronne	*	PERmentioned
+4-5	175-183	schlecht	_	_
+4-6	184-190	stehen	_	_
+4-7	191-192	,	_	_
+4-8	193-196	ist	_	_
+4-9	197-200	ein	_	_
+4-10	201-208	Unglück	_	_
+4-11	209-210	,	_	_
+4-12	211-215	denn	_	_
+4-13	216-218	er	_	_
+4-14	219-222	ist	_	_
+4-15	223-226	der	_	_
+4-16	227-231	ohne	_	_
+4-17	232-241	Vergleich	_	_
+4-18	242-252	Tüchtigste	_	_
+4-19	253-259	seines	_	_
+4-20	260-265	Fachs	_	_
+4-21	266-268	in	_	_
+4-22	269-279	Frankreich	*	PLACEmentioned
+4-23	280-281	.	_	_
+
+#Text=Meinen Artikel werde ich an Müller richten , damit er nicht polemisch gegen ihn erscheine , da ich oft ihm widerspreche .
+5-1	282-288	Meinen	_	_
+5-2	289-296	Artikel	_	_
+5-3	297-302	werde	_	_
+5-4	303-306	ich	_	_
+5-5	307-309	an	_	_
+5-6	310-316	Müller	*	PERmentioned
+5-7	317-324	richten	_	_
+5-8	325-326	,	_	_
+5-9	327-332	damit	_	_
+5-10	333-335	er	_	_
+5-11	336-341	nicht	_	_
+5-12	342-351	polemisch	_	_
+5-13	352-357	gegen	_	_
+5-14	358-361	ihn	_	_
+5-15	362-371	erscheine	_	_
+5-16	372-373	,	_	_
+5-17	374-376	da	_	_
+5-18	377-380	ich	_	_
+5-19	381-384	oft	_	_
+5-20	385-388	ihm	_	_
+5-21	389-401	widerspreche	_	_
+5-22	402-403	.	_	_
+
+#Text=Meine Briefe f\\j ?
+6-1	404-409	Meine	_	_
+6-2	410-416	Briefe	_	_
+6-3	417-420	f\\j	_	_
+6-4	421-422	?	_	_
+
+#Text=Gagern und den Großherzog erhalten Sie durch Dr. Hare , den ich in 5 Tagen erwarte .
+7-1	423-429	Gagern	_	_
+7-2	430-433	und	_	_
+7-3	434-437	den	_	_
+7-4	438-448	Großherzog	_	_
+7-5	449-457	erhalten	_	_
+7-6	458-461	Sie	_	_
+7-7	462-467	durch	_	_
+7-8	468-471	Dr.	_	_
+7-9	472-476	Hare	_	_
+7-10	477-478	,	_	_
+7-11	479-482	den	_	_
+7-12	483-486	ich	_	_
+7-13	487-489	in	_	_
+7-14	490-491	5	_	_
+7-15	492-497	Tagen	_	_
+7-16	498-505	erwarte	_	_
+7-17	506-507	.	_	_
+
+#Text=Auch für Nager .
+8-1	508-512	Auch	_	_
+8-2	513-516	für	_	_
+8-3	517-522	Nager	*	PERmentioned
+8-4	523-524	.	_	_
+
+#Text=Nun einmal ein ernstliches Wort zum Schleß \; , Ihr Besuch liegt uns allen am Herzen , und jede Nachricht darüber erfreut uns .
+9-1	525-528	Nun	_	_
+9-2	529-535	einmal	_	_
+9-3	536-539	ein	_	_
+9-4	540-551	ernstliches	_	_
+9-5	552-556	Wort	_	_
+9-6	557-560	zum	_	_
+9-7	561-567	Schleß	_	_
+9-8	568-569	\;	_	_
+9-9	570-571	,	_	_
+9-10	572-575	Ihr	_	_
+9-11	576-582	Besuch	_	_
+9-12	583-588	liegt	_	_
+9-13	589-592	uns	_	_
+9-14	593-598	allen	_	_
+9-15	599-601	am	_	_
+9-16	602-608	Herzen	_	_
+9-17	609-610	,	_	_
+9-18	611-614	und	_	_
+9-19	615-619	jede	_	_
+9-20	620-629	Nachricht	_	_
+9-21	630-637	darüber	_	_
+9-22	638-645	erfreut	_	_
+9-23	646-649	uns	_	_
+9-24	650-651	.	_	_
+
+#Text=lassen Sie uns ja oft von sich hören .
+10-1	652-658	lassen	_	_
+10-2	659-662	Sie	_	_
+10-3	663-666	uns	_	_
+10-4	667-669	ja	_	_
+10-5	670-673	oft	_	_
+10-6	674-677	von	_	_
+10-7	678-682	sich	_	_
+10-8	683-688	hören	_	_
+10-9	689-690	.	_	_
+
+#Text=Sie wissen , daß Röstell mir schreibt .
+11-1	691-694	Sie	_	_
+11-2	695-701	wissen	_	_
+11-3	702-703	,	_	_
+11-4	704-707	daß	_	_
+11-5	708-715	Röstell	*	PERmentioned
+11-6	716-719	mir	_	_
+11-7	720-728	schreibt	_	_
+11-8	729-730	.	_	_
+
+#Text=Meine Frau grüßt herzlich \; Amelie ist noch leidend , doch besser .
+12-1	731-736	Meine	_	_
+12-2	737-741	Frau	_	_
+12-3	742-747	grüßt	_	_
+12-4	748-756	herzlich	_	_
+12-5	757-758	\;	_	_
+12-6	759-765	Amelie	_	_
+12-7	766-769	ist	_	_
+12-8	770-774	noch	_	_
+12-9	775-782	leidend	_	_
+12-10	783-784	,	_	_
+12-11	785-789	doch	_	_
+12-12	790-796	besser	_	_
+12-13	797-798	.	_	_
+
+#Text=Herzlich der Ihrige Bn Das Journal du Savan werden wir erhalten durch Vermittlung von Latour .
+13-1	799-807	Herzlich	_	_
+13-2	808-811	der	_	_
+13-3	812-818	Ihrige	_	_
+13-4	819-821	Bn	_	_
+13-5	822-825	Das	_	_
+13-6	826-833	Journal	_	_
+13-7	834-836	du	_	_
+13-8	837-842	Savan	_	_
+13-9	843-849	werden	_	_
+13-10	850-853	wir	_	_
+13-11	854-862	erhalten	_	_
+13-12	863-868	durch	_	_
+13-13	869-880	Vermittlung	_	_
+13-14	881-884	von	_	_
+13-15	885-891	Latour	_	_
+13-16	892-893	.	_	_

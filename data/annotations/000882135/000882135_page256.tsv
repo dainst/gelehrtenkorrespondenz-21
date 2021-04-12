@@ -1,0 +1,266 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=240 Braun an Gerhard Ron , 30. Juli 1840 Hochverehrtester Freund !
+1-1	0-3	240	_	_
+1-2	4-9	Braun	*[17]	PERauthor[17]
+1-3	10-12	an	*[17]	PERauthor[17]
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Ron	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	_	_
+1-8	31-35	Juli	*[4]	DATEletter[4]
+1-9	36-40	1840	*[4]	DATEletter[4]
+1-10	41-57	Hochverehrtester	_	_
+1-11	58-64	Freund	_	_
+1-12	65-66	!	_	_
+
+#Text=Leider ersehe ich aus Ihrem Schreiben , welches Panofkas gütigst ermitteltem Aufsatz beigeschlossen ist , daß der in meinem letzten Schreiben als verloren gemeldete Brief wirklich einen Wechsel von 100 rt .
+2-1	67-73	Leider	_	_
+2-2	74-80	ersehe	_	_
+2-3	81-84	ich	_	_
+2-4	85-88	aus	_	_
+2-5	89-94	Ihrem	_	_
+2-6	95-104	Schreiben	_	_
+2-7	105-106	,	_	_
+2-8	107-114	welches	_	_
+2-9	115-123	Panofkas	*	PERmentioned
+2-10	124-131	gütigst	_	_
+2-11	132-143	ermitteltem	_	_
+2-12	144-151	Aufsatz	_	_
+2-13	152-166	beigeschlossen	_	_
+2-14	167-170	ist	_	_
+2-15	171-172	,	_	_
+2-16	173-176	daß	_	_
+2-17	177-180	der	_	_
+2-18	181-183	in	_	_
+2-19	184-190	meinem	_	_
+2-20	191-198	letzten	_	_
+2-21	199-208	Schreiben	_	_
+2-22	209-212	als	_	_
+2-23	213-221	verloren	_	_
+2-24	222-231	gemeldete	_	_
+2-25	232-237	Brief	_	_
+2-26	238-246	wirklich	_	_
+2-27	247-252	einen	_	_
+2-28	253-260	Wechsel	_	_
+2-29	261-264	von	_	_
+2-30	265-268	100	_	_
+2-31	269-271	rt	_	_
+2-32	272-273	.	_	_
+
+#Text=enthalten hat .
+3-1	274-283	enthalten	_	_
+3-2	284-287	hat	_	_
+3-3	288-289	.	_	_
+
+#Text=Dieser Unfall ist in der That tragisch , indem seit 7 Jahren lebhaften Briefwechsels dieses der erste Verlust solcher Art ist und gerade auf eine auch in andrer Art wichtige Sendung gefallen ist .
+4-1	290-296	Dieser	_	_
+4-2	297-303	Unfall	_	_
+4-3	304-307	ist	_	_
+4-4	308-310	in	_	_
+4-5	311-314	der	_	_
+4-6	315-319	That	_	_
+4-7	320-328	tragisch	_	_
+4-8	329-330	,	_	_
+4-9	331-336	indem	_	_
+4-10	337-341	seit	_	_
+4-11	342-343	7	_	_
+4-12	344-350	Jahren	_	_
+4-13	351-360	lebhaften	_	_
+4-14	361-374	Briefwechsels	_	_
+4-15	375-381	dieses	_	_
+4-16	382-385	der	_	_
+4-17	386-391	erste	_	_
+4-18	392-399	Verlust	_	_
+4-19	400-407	solcher	_	_
+4-20	408-411	Art	_	_
+4-21	412-415	ist	_	_
+4-22	416-419	und	_	_
+4-23	420-426	gerade	_	_
+4-24	427-430	auf	_	_
+4-25	431-435	eine	_	_
+4-26	436-440	auch	_	_
+4-27	441-443	in	_	_
+4-28	444-450	andrer	_	_
+4-29	451-454	Art	_	_
+4-30	455-463	wichtige	_	_
+4-31	464-471	Sendung	_	_
+4-32	472-480	gefallen	_	_
+4-33	481-484	ist	_	_
+4-34	485-486	.	_	_
+
+#Text=Clausens Aeneas ebensowenig als irgend ein anderes erhebliches Werk der neuesten Zeit ist uns zugekommen .
+5-1	487-495	Clausens	*	PERmentioned
+5-2	496-502	Aeneas	*	MISC
+5-3	503-514	ebensowenig	_	_
+5-4	515-518	als	_	_
+5-5	519-525	irgend	_	_
+5-6	526-529	ein	_	_
+5-7	530-537	anderes	_	_
+5-8	538-549	erhebliches	_	_
+5-9	550-554	Werk	_	_
+5-10	555-558	der	_	_
+5-11	559-567	neuesten	_	_
+5-12	568-572	Zeit	_	_
+5-13	573-576	ist	_	_
+5-14	577-580	uns	_	_
+5-15	581-591	zugekommen	_	_
+5-16	592-593	.	_	_
+
+#Text=Soeben läßt mir Valentini sagen , daß der Verlust der Cambiale ersetzbar sei und daß Sie sofort die nöthigen Schritte bei dortigen Wechslern thuen möchten .
+6-1	594-600	Soeben	_	_
+6-2	601-605	läßt	_	_
+6-3	606-609	mir	*[18]	PERmentioned[18]
+6-4	610-619	Valentini	*[18]	PERmentioned[18]
+6-5	620-625	sagen	_	_
+6-6	626-627	,	_	_
+6-7	628-631	daß	_	_
+6-8	632-635	der	_	_
+6-9	636-643	Verlust	_	_
+6-10	644-647	der	_	_
+6-11	648-656	Cambiale	_	_
+6-12	657-666	ersetzbar	_	_
+6-13	667-670	sei	_	_
+6-14	671-674	und	_	_
+6-15	675-678	daß	_	_
+6-16	679-682	Sie	_	_
+6-17	683-689	sofort	_	_
+6-18	690-693	die	_	_
+6-19	694-702	nöthigen	_	_
+6-20	703-711	Schritte	_	_
+6-21	712-715	bei	_	_
+6-22	716-724	dortigen	_	_
+6-23	725-734	Wechslern	_	_
+6-24	735-740	thuen	_	_
+6-25	741-748	möchten	_	_
+6-26	749-750	.	_	_
+
+#Text=Der Prima Wechsel , welcher in Ihrem Brief enthalten war , ist wahrscheinlich samt dem Brief untergegangen , zumal die schwer zu entziffernde Aufschrift Niemanden auf die rechten Wege leiten konnte .
+7-1	751-754	Der	_	_
+7-2	755-760	Prima	_	_
+7-3	761-768	Wechsel	_	_
+7-4	769-770	,	_	_
+7-5	771-778	welcher	_	_
+7-6	779-781	in	_	_
+7-7	782-787	Ihrem	_	_
+7-8	788-793	Brief	_	_
+7-9	794-803	enthalten	_	_
+7-10	804-807	war	_	_
+7-11	808-809	,	_	_
+7-12	810-813	ist	_	_
+7-13	814-828	wahrscheinlich	_	_
+7-14	829-833	samt	_	_
+7-15	834-837	dem	_	_
+7-16	838-843	Brief	_	_
+7-17	844-857	untergegangen	_	_
+7-18	858-859	,	_	_
+7-19	860-865	zumal	_	_
+7-20	866-869	die	_	_
+7-21	870-876	schwer	_	_
+7-22	877-879	zu	_	_
+7-23	880-892	entziffernde	_	_
+7-24	893-903	Aufschrift	_	_
+7-25	904-913	Niemanden	_	_
+7-26	914-917	auf	_	_
+7-27	918-921	die	_	_
+7-28	922-929	rechten	_	_
+7-29	930-934	Wege	_	_
+7-30	935-941	leiten	_	_
+7-31	942-948	konnte	_	_
+7-32	949-950	.	_	_
+
+#Text=Für München wüßte ich gar keinen Rath .
+8-1	951-954	Für	_	_
+8-2	955-962	München	*	PLACEmentioned
+8-3	963-968	wüßte	_	_
+8-4	969-972	ich	_	_
+8-5	973-976	gar	_	_
+8-6	977-983	keinen	_	_
+8-7	984-988	Rath	_	_
+8-8	989-990	.	_	_
+
+#Text=Von Herausnehmen der Vasen kann kaum die Rede sein .
+9-1	991-994	Von	_	_
+9-2	995-1007	Herausnehmen	_	_
+9-3	1008-1011	der	_	_
+9-4	1012-1017	Vasen	*	OBJ
+9-5	1018-1022	kann	_	_
+9-6	1023-1027	kaum	_	_
+9-7	1028-1031	die	_	_
+9-8	1032-1036	Rede	_	_
+9-9	1037-1041	sein	_	_
+9-10	1042-1043	.	_	_
+
+#Text=Dort sind sie ängstlicher als in China , wie überall wo gro- ‘ be Ignoranz herrscht .
+10-1	1044-1048	Dort	_	_
+10-2	1049-1053	sind	_	_
+10-3	1054-1057	sie	_	_
+10-4	1058-1069	ängstlicher	_	_
+10-5	1070-1073	als	_	_
+10-6	1074-1076	in	_	_
+10-7	1077-1082	China	*	PLACEmentioned
+10-8	1083-1084	,	_	_
+10-9	1085-1088	wie	_	_
+10-10	1089-1096	überall	_	_
+10-11	1097-1099	wo	_	_
+10-12	1100-1104	gro-	_	_
+10-13	1105-1106	‘	_	_
+10-14	1107-1109	be	_	_
+10-15	1110-1118	Ignoranz	_	_
+10-16	1119-1127	herrscht	_	_
+10-17	1128-1129	.	_	_
+
+#Text=Sozzi 's Bild ist in Florenz .
+11-1	1130-1135	Sozzi	*[19]	PERmentioned[19]
+11-2	1136-1138	's	*[19]	PERmentioned[19]
+11-3	1139-1143	Bild	_	_
+11-4	1144-1147	ist	_	_
+11-5	1148-1150	in	_	_
+11-6	1151-1158	Florenz	*	PLACEmentioned
+11-7	1159-1160	.	_	_
+
+#Text=Gruner wird es vielleicht in Augenschein nehmen .
+12-1	1161-1167	Gruner	*	PERmentioned
+12-2	1168-1172	wird	_	_
+12-3	1173-1175	es	_	_
+12-4	1176-1186	vielleicht	_	_
+12-5	1187-1189	in	_	_
+12-6	1190-1201	Augenschein	_	_
+12-7	1202-1208	nehmen	_	_
+12-8	1209-1210	.	_	_
+
+#Text=Das Ganze scheint Iug und Trug .
+13-1	1211-1214	Das	_	_
+13-2	1215-1220	Ganze	_	_
+13-3	1221-1228	scheint	_	_
+13-4	1229-1232	Iug	_	_
+13-5	1233-1236	und	_	_
+13-6	1237-1241	Trug	_	_
+13-7	1242-1243	.	_	_
+
+#Text=Hier leidern wir wieder arg von der Sommerhitze .
+14-1	1244-1248	Hier	_	_
+14-2	1249-1256	leidern	_	_
+14-3	1257-1260	wir	_	_
+14-4	1261-1267	wieder	_	_
+14-5	1268-1271	arg	_	_
+14-6	1272-1275	von	_	_
+14-7	1276-1279	der	_	_
+14-8	1280-1291	Sommerhitze	_	_
+14-9	1292-1293	.	_	_
+
+#Text=Viel Krankheiten \| Ihr Rom 30 Juli 1840 .
+15-1	1294-1298	Viel	_	_
+15-2	1299-1310	Krankheiten	_	_
+15-3	1311-1312	\|	_	_
+15-4	1313-1316	Ihr	_	_
+15-5	1317-1320	Rom	*	PLACEfrom
+15-6	1321-1323	30	*[16]	DATEletter[16]
+15-7	1324-1328	Juli	*[16]	DATEletter[16]
+15-8	1329-1333	1840	*[16]	DATEletter[16]
+15-9	1334-1335	.	_	_
+
+#Text=EBraun
+16-1	1336-1342	EBraun	*	PERauthor

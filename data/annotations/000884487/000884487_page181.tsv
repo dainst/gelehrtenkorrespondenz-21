@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 26. Juni 1837 CXCIV Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	26.	*[4]	DATEletter[4]
+1-7	31-35	Juni	*[4]	DATEletter[4]
+1-8	36-40	1837	*[4]	DATEletter[4]
+1-9	41-46	CXCIV	_	_
+1-10	47-50	Dir	_	_
+1-11	51-52	.	_	_
+
+#Text=g . 29/6 37 r . 29/6 37 Livorno 26 Juni 37 .
+2-1	53-54	g	_	_
+2-2	55-56	.	_	_
+2-3	57-61	29/6	*[5]	DATErecieved[5]
+2-4	62-64	37	*[5]	DATErecieved[5]
+2-5	65-66	r	_	_
+2-6	67-68	.	_	_
+2-7	69-73	29/6	*[6]	DATEanswered[6]
+2-8	74-76	37	*[6]	DATEanswered[6]
+2-9	77-84	Livorno	*	PLACEfrom
+2-10	85-87	26	*[8]	DATEletter[8]
+2-11	88-92	Juni	*[8]	DATEletter[8]
+2-12	93-95	37	*[8]	DATEletter[8]
+2-13	96-97	.	_	_
+
+#Text=Gott sei Dank lieber Freund daß ich endlich im Besitz einiger Zeilen Ihrer Hand bin und daß während meiner langen Unwissenheit über Rom und die Freunde wenigstens kein Unglück begegnet zu sein scheint \; Mißgeschick zu ertragen muß jeglicher Mensch gewärtig sein , Etliche sind darauf angewiesen .
+3-1	98-102	Gott	_	_
+3-2	103-106	sei	_	_
+3-3	107-111	Dank	_	_
+3-4	112-118	lieber	_	_
+3-5	119-125	Freund	_	_
+3-6	126-129	daß	_	_
+3-7	130-133	ich	_	_
+3-8	134-141	endlich	_	_
+3-9	142-144	im	_	_
+3-10	145-151	Besitz	_	_
+3-11	152-159	einiger	_	_
+3-12	160-166	Zeilen	_	_
+3-13	167-172	Ihrer	_	_
+3-14	173-177	Hand	_	_
+3-15	178-181	bin	_	_
+3-16	182-185	und	_	_
+3-17	186-189	daß	_	_
+3-18	190-197	während	_	_
+3-19	198-204	meiner	_	_
+3-20	205-211	langen	_	_
+3-21	212-224	Unwissenheit	_	_
+3-22	225-229	über	_	_
+3-23	230-233	Rom	*	PLACEmentioned
+3-24	234-237	und	_	_
+3-25	238-241	die	_	_
+3-26	242-249	Freunde	_	_
+3-27	250-260	wenigstens	_	_
+3-28	261-265	kein	_	_
+3-29	266-273	Unglück	_	_
+3-30	274-282	begegnet	_	_
+3-31	283-285	zu	_	_
+3-32	286-290	sein	_	_
+3-33	291-298	scheint	_	_
+3-34	299-300	\;	_	_
+3-35	301-312	Mißgeschick	_	_
+3-36	313-315	zu	_	_
+3-37	316-324	ertragen	_	_
+3-38	325-328	muß	_	_
+3-39	329-338	jeglicher	_	_
+3-40	339-345	Mensch	_	_
+3-41	346-354	gewärtig	_	_
+3-42	355-359	sein	_	_
+3-43	360-361	,	_	_
+3-44	362-369	Etliche	_	_
+3-45	370-374	sind	_	_
+3-46	375-381	darauf	_	_
+3-47	382-392	angewiesen	_	_
+3-48	393-394	.	_	_
+
+#Text=Selbst Ihnen Briefe zu empfehlen habe ich die Fatalität doppelter Nachlässigkeit ausstehn müssen , daher kann ich nur ganz kurz vor Abschluß der Fost einige Zeilen senden .
+4-1	395-401	Selbst	_	_
+4-2	402-407	Ihnen	_	_
+4-3	408-414	Briefe	_	_
+4-4	415-417	zu	_	_
+4-5	418-427	empfehlen	_	_
+4-6	428-432	habe	_	_
+4-7	433-436	ich	_	_
+4-8	437-440	die	_	_
+4-9	441-450	Fatalität	_	_
+4-10	451-460	doppelter	_	_
+4-11	461-475	Nachlässigkeit	_	_
+4-12	476-484	ausstehn	_	_
+4-13	485-491	müssen	_	_
+4-14	492-493	,	_	_
+4-15	494-499	daher	_	_
+4-16	500-504	kann	_	_
+4-17	505-508	ich	_	_
+4-18	509-512	nur	_	_
+4-19	513-517	ganz	_	_
+4-20	518-522	kurz	_	_
+4-21	523-526	vor	_	_
+4-22	527-535	Abschluß	_	_
+4-23	536-539	der	_	_
+4-24	540-544	Fost	_	_
+4-25	545-551	einige	_	_
+4-26	552-558	Zeilen	_	_
+4-27	559-565	senden	_	_
+4-28	566-567	.	_	_
+
+#Text=Die Briefmasse erwarte ich ohnehin erst von Ancona , hoffentlich übermorgen .
+5-1	568-571	Die	_	_
+5-2	572-582	Briefmasse	_	_
+5-3	583-590	erwarte	_	_
+5-4	591-594	ich	_	_
+5-5	595-602	ohnehin	_	_
+5-6	603-607	erst	_	_
+5-7	608-611	von	_	_
+5-8	612-618	Ancona	*	PLACEmentioned
+5-9	619-620	,	_	_
+5-10	621-632	hoffentlich	_	_
+5-11	633-643	übermorgen	_	_
+5-12	644-645	.	_	_
+
+#Text=Werden Nachrichten über Ankäufliches drin sein ?
+6-1	646-652	Werden	_	_
+6-2	653-664	Nachrichten	_	_
+6-3	665-669	über	_	_
+6-4	670-682	Ankäufliches	_	_
+6-5	683-687	drin	_	_
+6-6	688-692	sein	_	_
+6-7	693-694	?	_	_
+
+#Text=über die Bronzeentdeckung , die man bei meiner Abreise verkündete ?
+7-1	695-699	über	_	_
+7-2	700-703	die	_	_
+7-3	704-720	Bronzeentdeckung	*	OBJ
+7-4	721-722	,	_	_
+7-5	723-726	die	_	_
+7-6	727-730	man	_	_
+7-7	731-734	bei	_	_
+7-8	735-741	meiner	_	_
+7-9	742-749	Abreise	_	_
+7-10	750-760	verkündete	_	_
+7-11	761-762	?	_	_
+
+#Text=Meine Bitte um Bücher beschränke ich \; Müller Ex .
+8-1	763-768	Meine	_	_
+8-2	769-774	Bitte	_	_
+8-3	775-777	um	_	_
+8-4	778-784	Bücher	_	_
+8-5	785-795	beschränke	_	_
+8-6	796-799	ich	_	_
+8-7	800-801	\;	_	_
+8-8	802-808	Müller	*	PERmentioned
+8-9	809-811	Ex	_	_
+8-10	812-813	.	_	_
+
+#Text=brauche ich nicht .
+9-1	814-821	brauche	_	_
+9-2	822-825	ich	_	_
+9-3	826-831	nicht	_	_
+9-4	832-833	.	_	_
+
+#Text=Höchstens den Pinder .
+10-1	834-843	Höchstens	_	_
+10-2	844-847	den	_	_
+10-3	848-854	Pinder	*	PERmentioned
+10-4	855-856	.	_	_
+
+#Text=Mein Auge , schwach hier angelangt , ist übel wie lange nicht \; wie ich noch 26 Tage eingekerkert zwischen weißen Wänden überstehn werde , weiß der Himmel .
+11-1	857-861	Mein	_	_
+11-2	862-866	Auge	_	_
+11-3	867-868	,	_	_
+11-4	869-876	schwach	_	_
+11-5	877-881	hier	_	_
+11-6	882-891	angelangt	_	_
+11-7	892-893	,	_	_
+11-8	894-897	ist	_	_
+11-9	898-902	übel	_	_
+11-10	903-906	wie	_	_
+11-11	907-912	lange	_	_
+11-12	913-918	nicht	_	_
+11-13	919-920	\;	_	_
+11-14	921-924	wie	_	_
+11-15	925-928	ich	_	_
+11-16	929-933	noch	_	_
+11-17	934-936	26	_	_
+11-18	937-941	Tage	_	_
+11-19	942-954	eingekerkert	_	_
+11-20	955-963	zwischen	_	_
+11-21	964-970	weißen	_	_
+11-22	971-977	Wänden	_	_
+11-23	978-987	überstehn	_	_
+11-24	988-993	werde	_	_
+11-25	994-995	,	_	_
+11-26	996-1000	weiß	_	_
+11-27	1001-1004	der	_	_
+11-28	1005-1011	Himmel	_	_
+11-29	1012-1013	.	_	_
+
+#Text=Meine Lage ist traurig \; Gott sei Dank daß ich nur zu bedauern , nicht zu trauern habe .
+12-1	1014-1019	Meine	_	_
+12-2	1020-1024	Lage	_	_
+12-3	1025-1028	ist	_	_
+12-4	1029-1036	traurig	_	_
+12-5	1037-1038	\;	_	_
+12-6	1039-1043	Gott	_	_
+12-7	1044-1047	sei	_	_
+12-8	1048-1052	Dank	_	_
+12-9	1053-1056	daß	_	_
+12-10	1057-1060	ich	_	_
+12-11	1061-1064	nur	_	_
+12-12	1065-1067	zu	_	_
+12-13	1068-1076	bedauern	_	_
+12-14	1077-1078	,	_	_
+12-15	1079-1084	nicht	_	_
+12-16	1085-1087	zu	_	_
+12-17	1088-1095	trauern	_	_
+12-18	1096-1100	habe	_	_
+12-19	1101-1102	.	_	_
+
+#Text=Hält das französ .
+13-1	1103-1107	Hält	_	_
+13-2	1108-1111	das	_	_
+13-3	1112-1119	französ	_	_
+13-4	1120-1121	.	_	_
+
+#Text=Dampfschiff Bann , so kann ich
+14-1	1122-1133	Dampfschiff	_	_
+14-2	1134-1138	Bann	_	_
+14-3	1139-1140	,	_	_
+14-4	1141-1143	so	_	_
+14-5	1144-1148	kann	_	_
+14-6	1149-1152	ich	_	_

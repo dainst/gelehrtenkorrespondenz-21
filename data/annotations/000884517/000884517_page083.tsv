@@ -1,0 +1,207 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=oO 444 -— 1 .
+1-1	0-2	oO	_	_
+1-2	3-6	444	_	_
+1-3	7-9	-—	_	_
+1-4	10-11	1	_	_
+1-5	12-13	.	_	_
+
+#Text=Gerhard an Braun Berlin , 13 . 11 . 844 & .
+2-1	14-21	Gerhard	*	PERauthor
+2-2	22-24	an	_	_
+2-3	25-30	Braun	*	PERaddressee
+2-4	31-37	Berlin	*	PLACEfrom
+2-5	38-39	,	_	_
+2-6	40-42	13	*[1]	DATEletter[1]
+2-7	43-44	.	*[1]	DATEletter[1]
+2-8	45-47	11	*[1]	DATEletter[1]
+2-9	48-49	.	*[1]	DATEletter[1]
+2-10	50-53	844	*[1]	DATEletter[1]
+2-11	54-55	&	_	_
+2-12	56-57	.	_	_
+
+#Text=26 . 11 . 44 L .
+3-1	58-60	26	*[2]	DATErecieved[2]
+3-2	61-62	.	*[2]	DATErecieved[2]
+3-3	63-65	11	*[2]	DATErecieved[2]
+3-4	66-67	.	*[2]	DATErecieved[2]
+3-5	68-70	44	*[2]	DATErecieved[2]
+3-6	71-72	L	_	_
+3-7	73-74	.	_	_
+
+#Text=Fr. Ich habe diesem meiner Beförderung anvertrauten Brief nichts hinzuzufügen als die Bitte daß Sie diesen und den Wechsel Empfang bald bescheinigen , ferner zu den erbetenen 2 Ex Mus .Gregor noch ein drittes mir zu berechnendes fügen mögen.Gerstäckeridem die Sache nöthig ist glaubt mich dargestellt mit Ihnen in Berechnung aaß es daß es für den Augenblick keine Geldsendung aussteht \; ich werde Ihnen aber wenigstens den mir bekannten Betrag der drei Ex .
+4-1	75-78	Fr.	_	_
+4-2	79-82	Ich	_	_
+4-3	83-87	habe	_	_
+4-4	88-94	diesem	_	_
+4-5	95-101	meiner	_	_
+4-6	102-113	Beförderung	_	_
+4-7	114-126	anvertrauten	_	_
+4-8	127-132	Brief	_	_
+4-9	133-139	nichts	_	_
+4-10	140-152	hinzuzufügen	_	_
+4-11	153-156	als	_	_
+4-12	157-160	die	_	_
+4-13	161-166	Bitte	_	_
+4-14	167-170	daß	_	_
+4-15	171-174	Sie	_	_
+4-16	175-181	diesen	_	_
+4-17	182-185	und	_	_
+4-18	186-189	den	_	_
+4-19	190-197	Wechsel	_	_
+4-20	198-205	Empfang	_	_
+4-21	206-210	bald	_	_
+4-22	211-223	bescheinigen	_	_
+4-23	224-225	,	_	_
+4-24	226-232	ferner	_	_
+4-25	233-235	zu	_	_
+4-26	236-239	den	_	_
+4-27	240-249	erbetenen	_	_
+4-28	250-251	2	_	_
+4-29	252-254	Ex	_	_
+4-30	255-258	Mus	*[6]	ORGmentioned[6]
+4-31	259-266	.Gregor	*[6]	ORGmentioned[6]
+4-32	267-271	noch	_	_
+4-33	272-275	ein	_	_
+4-34	276-283	drittes	_	_
+4-35	284-287	mir	_	_
+4-36	288-290	zu	_	_
+4-37	291-303	berechnendes	_	_
+4-38	304-309	fügen	_	_
+4-39	310-330	mögen.Gerstäckeridem	*	ORGmentioned
+4-40	331-334	die	_	_
+4-41	335-340	Sache	_	_
+4-42	341-347	nöthig	_	_
+4-43	348-351	ist	_	_
+4-44	352-358	glaubt	_	_
+4-45	359-363	mich	_	_
+4-46	364-375	dargestellt	_	_
+4-47	376-379	mit	_	_
+4-48	380-385	Ihnen	_	_
+4-49	386-388	in	_	_
+4-50	389-399	Berechnung	_	_
+4-51	400-403	aaß	_	_
+4-52	404-406	es	_	_
+4-53	407-410	daß	_	_
+4-54	411-413	es	_	_
+4-55	414-417	für	_	_
+4-56	418-421	den	_	_
+4-57	422-432	Augenblick	_	_
+4-58	433-438	keine	_	_
+4-59	439-450	Geldsendung	_	_
+4-60	451-459	aussteht	_	_
+4-61	460-461	\;	_	_
+4-62	462-465	ich	_	_
+4-63	466-471	werde	_	_
+4-64	472-477	Ihnen	_	_
+4-65	478-482	aber	_	_
+4-66	483-493	wenigstens	_	_
+4-67	494-497	den	_	_
+4-68	498-501	mir	_	_
+4-69	502-511	bekannten	_	_
+4-70	512-518	Betrag	_	_
+4-71	519-522	der	_	_
+4-72	523-527	drei	_	_
+4-73	528-530	Ex	_	_
+4-74	531-532	.	_	_
+
+#Text=( 72 Sc. ) nächstens durch Auszahlbaren Wechsel übermachen .
+5-1	533-534	(	_	_
+5-2	535-537	72	_	_
+5-3	538-541	Sc.	_	_
+5-4	542-543	)	_	_
+5-5	544-553	nächstens	_	_
+5-6	554-559	durch	_	_
+5-7	560-572	Auszahlbaren	_	_
+5-8	573-580	Wechsel	_	_
+5-9	581-591	übermachen	_	_
+5-10	592-593	.	_	_
+
+#Text=Ist Ihnen die Prominenz eines von Apolloni gezeichneten Spiegels bekannt der die Helena sitzend von 2 gling .
+6-1	594-597	Ist	_	_
+6-2	598-603	Ihnen	_	_
+6-3	604-607	die	_	_
+6-4	608-617	Prominenz	_	_
+6-5	618-623	eines	_	_
+6-6	624-627	von	_	_
+6-7	628-636	Apolloni	*	PERmentioned
+6-8	637-649	gezeichneten	_	_
+6-9	650-658	Spiegels	*	OBJ
+6-10	659-666	bekannt	_	_
+6-11	667-670	der	_	_
+6-12	671-674	die	_	_
+6-13	675-681	Helena	*	PERmentioned
+6-14	682-689	sitzend	_	_
+6-15	690-693	von	_	_
+6-16	694-695	2	_	_
+6-17	696-701	gling	_	_
+6-18	702-703	.	_	_
+
+#Text=Frauen umgeben und vorstellt ?
+7-1	704-710	Frauen	_	_
+7-2	711-718	umgeben	_	_
+7-3	719-722	und	_	_
+7-4	723-732	vorstellt	_	_
+7-5	733-734	?	_	_
+
+#Text=Warum kann am Ende die Malafisch des dlusspiegels nicht der früheren Fabel gemäß , Dionisos sein ?
+8-1	735-740	Warum	_	_
+8-2	741-745	kann	_	_
+8-3	746-748	am	_	_
+8-4	749-753	Ende	_	_
+8-5	754-757	die	_	_
+8-6	758-767	Malafisch	*	PERmentioned
+8-7	768-771	des	_	_
+8-8	772-784	dlusspiegels	*	OBJ
+8-9	785-790	nicht	_	_
+8-10	791-794	der	_	_
+8-11	795-803	früheren	_	_
+8-12	804-809	Fabel	_	_
+8-13	810-815	gemäß	_	_
+8-14	816-817	,	_	_
+8-15	818-826	Dionisos	*	PERmentioned
+8-16	827-831	sein	_	_
+8-17	832-833	?	_	_
+
+#Text=Das Wort wäre dann wie ein schmeichelndes Epitheton neuen Schimmers , Aus De Witte 's Brief füge ich noch hinzu ( Ftius ) als Vorschläge des Duc de Luynes 25 .
+9-1	834-837	Das	_	_
+9-2	838-842	Wort	_	_
+9-3	843-847	wäre	_	_
+9-4	848-852	dann	_	_
+9-5	853-856	wie	_	_
+9-6	857-860	ein	_	_
+9-7	861-875	schmeichelndes	_	_
+9-8	876-885	Epitheton	_	_
+9-9	886-891	neuen	_	_
+9-10	892-901	Schimmers	_	_
+9-11	902-903	,	_	_
+9-12	904-907	Aus	_	_
+9-13	908-910	De	*[3]	PERmentioned[3]
+9-14	911-916	Witte	*[3]	PERmentioned[3]
+9-15	917-919	's	*[3]	PERmentioned[3]
+9-16	920-925	Brief	_	_
+9-17	926-930	füge	_	_
+9-18	931-934	ich	_	_
+9-19	935-939	noch	_	_
+9-20	940-945	hinzu	_	_
+9-21	946-947	(	_	_
+9-22	948-953	Ftius	_	_
+9-23	954-955	)	_	_
+9-24	956-959	als	_	_
+9-25	960-970	Vorschläge	_	_
+9-26	971-974	des	_	_
+9-27	975-978	Duc	*[4]	PERmentioned[4]
+9-28	979-981	de	*[4]	PERmentioned[4]
+9-29	982-988	Luynes	*[4]	PERmentioned[4]
+9-30	989-991	25	*[5]	DATEmentioned[5]
+9-31	992-993	.	*[5]	DATEmentioned[5]
+
+#Text=Oct .
+10-1	994-997	Oct	*[5]	DATEmentioned[5]
+10-2	998-999	.	*[5]	DATEmentioned[5]
+
+#Text=:
+11-1	1000-1001	:	_	_

@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=at .
+1-1	0-2	at	_	_
+1-2	3-4	.	_	_
+
+#Text=205 Braun an Gerhard Rom , 16. Juni 1840 Ich beantworte Ihren Brief vom 4 Juni , der für Ihr Land verhängnißvoll gewesen zu sein scheint .
+2-1	5-8	205	_	_
+2-2	9-14	Braun	*[9]	PERauthor[9]
+2-3	15-17	an	*[9]	PERauthor[9]
+2-4	18-25	Gerhard	*	PERaddressee
+2-5	26-29	Rom	*	PLACEfrom
+2-6	30-31	,	_	_
+2-7	32-35	16.	*[4]	DATEletter[4]
+2-8	36-40	Juni	*[4]	DATEletter[4]
+2-9	41-45	1840	*[4]	DATEletter[4]
+2-10	46-49	Ich	_	_
+2-11	50-60	beantworte	_	_
+2-12	61-66	Ihren	_	_
+2-13	67-72	Brief	_	_
+2-14	73-76	vom	_	_
+2-15	77-78	4	*[5]	DATEmentioned[5]
+2-16	79-83	Juni	*[5]	DATEmentioned[5]
+2-17	84-85	,	_	_
+2-18	86-89	der	_	_
+2-19	90-93	für	_	_
+2-20	94-97	Ihr	_	_
+2-21	98-102	Land	_	_
+2-22	103-117	verhängnißvoll	_	_
+2-23	118-125	gewesen	_	_
+2-24	126-128	zu	_	_
+2-25	129-133	sein	_	_
+2-26	134-141	scheint	_	_
+2-27	142-143	.	_	_
+
+#Text=Gott lenke alles zum Besten !
+3-1	144-148	Gott	_	_
+3-2	149-154	lenke	_	_
+3-3	155-160	alles	_	_
+3-4	161-164	zum	_	_
+3-5	165-171	Besten	_	_
+3-6	172-173	!	_	_
+
+#Text=In der Metternich'schen Angelegenheit hat Kestner einen langen , wie es mir scheint zweckmäßig abgefaßten Bericht von mehreren wichtigen Documenten begleitet , an den Grafen Lützow abgesandt .
+4-1	174-176	In	_	_
+4-2	177-180	der	_	_
+4-3	181-197	Metternich'schen	*	PERmentioned
+4-4	198-211	Angelegenheit	_	_
+4-5	212-215	hat	_	_
+4-6	216-223	Kestner	*	PERmentioned
+4-7	224-229	einen	_	_
+4-8	230-236	langen	_	_
+4-9	237-238	,	_	_
+4-10	239-242	wie	_	_
+4-11	243-245	es	_	_
+4-12	246-249	mir	_	_
+4-13	250-257	scheint	_	_
+4-14	258-268	zweckmäßig	_	_
+4-15	269-279	abgefaßten	_	_
+4-16	280-287	Bericht	_	_
+4-17	288-291	von	_	_
+4-18	292-300	mehreren	_	_
+4-19	301-310	wichtigen	_	_
+4-20	311-321	Documenten	_	_
+4-21	322-331	begleitet	_	_
+4-22	332-333	,	_	_
+4-23	334-336	an	_	_
+4-24	337-340	den	_	_
+4-25	341-347	Grafen	*[8]	PERmentioned[8]
+4-26	348-354	Lützow	*[8]	PERmentioned[8]
+4-27	355-364	abgesandt	_	_
+4-28	365-366	.	_	_
+
+#Text=Dieser scheint das Hauptobstacle bei der ganzen Sache zu sein .
+5-1	367-373	Dieser	_	_
+5-2	374-381	scheint	_	_
+5-3	382-385	das	_	_
+5-4	386-399	Hauptobstacle	_	_
+5-5	400-403	bei	_	_
+5-6	404-407	der	_	_
+5-7	408-414	ganzen	_	_
+5-8	415-420	Sache	_	_
+5-9	421-423	zu	_	_
+5-10	424-428	sein	_	_
+5-11	429-430	.	_	_
+
+#Text=In Vertraulicher Unterredung ist besonders Bunsen 's Verhaßtheit zur Sprache gekommen .
+6-1	431-433	In	_	_
+6-2	434-447	Vertraulicher	_	_
+6-3	448-459	Unterredung	_	_
+6-4	460-463	ist	_	_
+6-5	464-473	besonders	_	_
+6-6	474-480	Bunsen	*[10]	PERmentioned[10]
+6-7	481-483	's	*[10]	PERmentioned[10]
+6-8	484-495	Verhaßtheit	_	_
+6-9	496-499	zur	_	_
+6-10	500-507	Sprache	_	_
+6-11	508-516	gekommen	_	_
+6-12	517-518	.	_	_
+
+#Text=Die Sache ist ihm daher für hiesige Verhältnisse unbequen .
+7-1	519-522	Die	_	_
+7-2	523-528	Sache	_	_
+7-3	529-532	ist	_	_
+7-4	533-536	ihm	_	_
+7-5	537-542	daher	_	_
+7-6	543-546	für	_	_
+7-7	547-554	hiesige	_	_
+7-8	555-567	Verhältnisse	_	_
+7-9	568-576	unbequen	_	_
+7-10	577-578	.	_	_
+
+#Text=- Wir müssen uns unsern guten Geschick empfehlen .
+8-1	579-580	-	_	_
+8-2	581-584	Wir	_	_
+8-3	585-591	müssen	_	_
+8-4	592-595	uns	_	_
+8-5	596-602	unsern	_	_
+8-6	603-608	guten	_	_
+8-7	609-617	Geschick	_	_
+8-8	618-627	empfehlen	_	_
+8-9	628-629	.	_	_
+
+#Text=Mehr konnte für den Augenblick nicht geschehen und ich habe mich an Kestner's Wärme und regen Eifer gefreut .
+9-1	630-634	Mehr	_	_
+9-2	635-641	konnte	_	_
+9-3	642-645	für	_	_
+9-4	646-649	den	_	_
+9-5	650-660	Augenblick	_	_
+9-6	661-666	nicht	_	_
+9-7	667-676	geschehen	_	_
+9-8	677-680	und	_	_
+9-9	681-684	ich	_	_
+9-10	685-689	habe	_	_
+9-11	690-694	mich	_	_
+9-12	695-697	an	_	_
+9-13	698-707	Kestner's	*	PERmentioned
+9-14	708-713	Wärme	_	_
+9-15	714-717	und	_	_
+9-16	718-723	regen	_	_
+9-17	724-729	Eifer	_	_
+9-18	730-737	gefreut	_	_
+9-19	738-739	.	_	_
+
+#Text=Beiträge für die Annalen , versteht sich gedigene und gehaltreiche , wünsche ich nur im Interesse der Sache .
+10-1	740-748	Beiträge	_	_
+10-2	749-752	für	_	_
+10-3	753-756	die	_	_
+10-4	757-764	Annalen	_	_
+10-5	765-766	,	_	_
+10-6	767-775	versteht	_	_
+10-7	776-780	sich	_	_
+10-8	781-789	gedigene	_	_
+10-9	790-793	und	_	_
+10-10	794-806	gehaltreiche	_	_
+10-11	807-808	,	_	_
+10-12	809-816	wünsche	_	_
+10-13	817-820	ich	_	_
+10-14	821-824	nur	_	_
+10-15	825-827	im	_	_
+10-16	828-837	Interesse	_	_
+10-17	838-841	der	_	_
+10-18	842-847	Sache	_	_
+10-19	848-849	.	_	_
+
+#Text=Im eigenen Interesse würde ich derselben ganz und gar nicht bedürfen .
+11-1	850-852	Im	_	_
+11-2	853-860	eigenen	_	_
+11-3	861-870	Interesse	_	_
+11-4	871-876	würde	_	_
+11-5	877-880	ich	_	_
+11-6	881-890	derselben	_	_
+11-7	891-895	ganz	_	_
+11-8	896-899	und	_	_
+11-9	900-903	gar	_	_
+11-10	904-909	nicht	_	_
+11-11	910-918	bedürfen	_	_
+11-12	919-920	.	_	_
+
+#Text=Mir ist es ein leichtes einen ganzen Band mit meinen Artikeln zu füllen .
+12-1	921-924	Mir	_	_
+12-2	925-928	ist	_	_
+12-3	929-931	es	_	_
+12-4	932-935	ein	_	_
+12-5	936-944	leichtes	_	_
+12-6	945-950	einen	_	_
+12-7	951-957	ganzen	_	_
+12-8	958-962	Band	_	_
+12-9	963-966	mit	_	_
+12-10	967-973	meinen	_	_
+12-11	974-982	Artikeln	_	_
+12-12	983-985	zu	_	_
+12-13	986-992	füllen	_	_
+12-14	993-994	.	_	_
+
+#Text=Aber ob das Publikum damit zufrieden ist ?
+13-1	995-999	Aber	_	_
+13-2	1000-1002	ob	_	_
+13-3	1003-1006	das	_	_
+13-4	1007-1015	Publikum	_	_
+13-5	1016-1021	damit	_	_
+13-6	1022-1031	zufrieden	_	_
+13-7	1032-1035	ist	_	_
+13-8	1036-1037	?	_	_
+
+#Text=- Uebersetzungen mache ich mit großer Leichtigkeit und ziehe es vor solche zu machen , wenn ich die Wahl zwischen diesen und einem schlechten Französisch oder Lateinisch habe .
+14-1	1038-1039	-	_	_
+14-2	1040-1054	Uebersetzungen	_	_
+14-3	1055-1060	mache	_	_
+14-4	1061-1064	ich	_	_
+14-5	1065-1068	mit	_	_
+14-6	1069-1075	großer	_	_
+14-7	1076-1088	Leichtigkeit	_	_
+14-8	1089-1092	und	_	_
+14-9	1093-1098	ziehe	_	_
+14-10	1099-1101	es	_	_
+14-11	1102-1105	vor	_	_
+14-12	1106-1112	solche	_	_
+14-13	1113-1115	zu	_	_
+14-14	1116-1122	machen	_	_
+14-15	1123-1124	,	_	_
+14-16	1125-1129	wenn	_	_
+14-17	1130-1133	ich	_	_
+14-18	1134-1137	die	_	_
+14-19	1138-1142	Wahl	_	_
+14-20	1143-1151	zwischen	_	_
+14-21	1152-1158	diesen	_	_
+14-22	1159-1162	und	_	_
+14-23	1163-1168	einem	_	_
+14-24	1169-1179	schlechten	_	_
+14-25	1180-1191	Französisch	_	_
+14-26	1192-1196	oder	_	_
+14-27	1197-1207	Lateinisch	_	_
+14-28	1208-1212	habe	_	_
+14-29	1213-1214	.	_	_
+
+#Text=Das Annalenheft 1839 . 2. ist nun fast fertig .
+15-1	1215-1218	Das	_	_
+15-2	1219-1230	Annalenheft	_	_
+15-3	1231-1235	1839	*	DATEmentioned
+15-4	1236-1237	.	_	_
+15-5	1238-1240	2.	_	_
+15-6	1241-1244	ist	_	_
+15-7	1245-1248	nun	_	_
+15-8	1249-1253	fast	_	_
+15-9	1254-1260	fertig	_	_
+15-10	1261-1262	.	_	_
+
+#Text=Ich habe viele Tavole d'aggiunta gegeben , weil damit dem Publikum am Ende mehr als mit einförmigem Texte gedient ist .
+16-1	1263-1266	Ich	_	_
+16-2	1267-1271	habe	_	_
+16-3	1272-1277	viele	_	_
+16-4	1278-1284	Tavole	_	_
+16-5	1285-1295	d'aggiunta	_	_
+16-6	1296-1303	gegeben	_	_
+16-7	1304-1305	,	_	_
+16-8	1306-1310	weil	_	_
+16-9	1311-1316	damit	_	_
+16-10	1317-1320	dem	_	_
+16-11	1321-1329	Publikum	_	_
+16-12	1330-1332	am	_	_
+16-13	1333-1337	Ende	_	_
+16-14	1338-1342	mehr	_	_
+16-15	1343-1346	als	_	_
+16-16	1347-1350	mit	_	_
+16-17	1351-1362	einförmigem	_	_
+16-18	1363-1368	Texte	_	_
+16-19	1369-1376	gedient	_	_
+16-20	1377-1380	ist	_	_
+16-21	1381-1382	.	_	_
+
+#Text=Letzterer ist indessen reich und mannigfaltig aber auf eine sehr geringe Bogenzahl durch kleine Schrift zusammen gedrängt .
+17-1	1383-1392	Letzterer	_	_
+17-2	1393-1396	ist	_	_
+17-3	1397-1405	indessen	_	_
+17-4	1406-1411	reich	_	_
+17-5	1412-1415	und	_	_
+17-6	1416-1428	mannigfaltig	_	_
+17-7	1429-1433	aber	_	_
+17-8	1434-1437	auf	_	_
+17-9	1438-1442	eine	_	_
+17-10	1443-1447	sehr	_	_
+17-11	1448-1455	geringe	_	_
+17-12	1456-1465	Bogenzahl	_	_
+17-13	1466-1471	durch	_	_
+17-14	1472-1478	kleine	_	_
+17-15	1479-1486	Schrift	_	_
+17-16	1487-1495	zusammen	_	_
+17-17	1496-1504	gedrängt	_	_
+17-18	1505-1506	.	_	_

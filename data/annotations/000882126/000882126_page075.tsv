@@ -1,0 +1,271 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=220 Braun an Gerhard Rom , 18. Februar 1836 Prof , Gerhard Roma li 18 Febbrajo 1836 .
+1-1	0-3	220	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	18.	*[5]	DATEletter[5]
+1-8	31-38	Februar	*[5]	DATEletter[5]
+1-9	39-43	1836	*[5]	DATEletter[5]
+1-10	44-48	Prof	*[6]	PERaddressee[6]
+1-11	49-50	,	*[6]	PERaddressee[6]
+1-12	51-58	Gerhard	*[6]	PERaddressee[6]
+1-13	59-63	Roma	*	PLACEfrom
+1-14	64-66	li	_	_
+1-15	67-69	18	*[7]	DATEletter[7]
+1-16	70-78	Febbrajo	*[7]	DATEletter[7]
+1-17	79-83	1836	*[7]	DATEletter[7]
+1-18	84-85	.	_	_
+
+#Text=Hochzuverehrender Freund !
+2-1	86-103	Hochzuverehrender	_	_
+2-2	104-110	Freund	_	_
+2-3	111-112	!	_	_
+
+#Text=Speditionsodiosa : 1 , die Kiste mit Bild , Malerschnitzeln und Hose ist von mir an Gerstäcker spedirt , immer mit der Addresse an Ku r \; sie gehört dem Hofmaler Le te , proteg & e des Kapitols und mir vom Herrn Pfarrer Abeken zugesellt .
+3-1	113-129	Speditionsodiosa	_	_
+3-2	130-131	:	_	_
+3-3	132-133	1	_	_
+3-4	134-135	,	_	_
+3-5	136-139	die	_	_
+3-6	140-145	Kiste	_	_
+3-7	146-149	mit	_	_
+3-8	150-154	Bild	_	_
+3-9	155-156	,	_	_
+3-10	157-172	Malerschnitzeln	_	_
+3-11	173-176	und	_	_
+3-12	177-181	Hose	_	_
+3-13	182-185	ist	_	_
+3-14	186-189	von	_	_
+3-15	190-193	mir	_	_
+3-16	194-196	an	_	_
+3-17	197-207	Gerstäcker	*	PERmentioned
+3-18	208-215	spedirt	_	_
+3-19	216-217	,	_	_
+3-20	218-223	immer	_	_
+3-21	224-227	mit	_	_
+3-22	228-231	der	_	_
+3-23	232-240	Addresse	_	_
+3-24	241-243	an	_	_
+3-25	244-246	Ku	_	_
+3-26	247-248	r	_	_
+3-27	249-250	\;	_	_
+3-28	251-254	sie	_	_
+3-29	255-261	gehört	_	_
+3-30	262-265	dem	_	_
+3-31	266-274	Hofmaler	_	_
+3-32	275-277	Le	*[8]	PERmentioned[8]
+3-33	278-280	te	*[8]	PERmentioned[8]
+3-34	281-282	,	_	_
+3-35	283-289	proteg	_	_
+3-36	290-291	&	_	_
+3-37	292-293	e	_	_
+3-38	294-297	des	_	_
+3-39	298-306	Kapitols	_	_
+3-40	307-310	und	_	_
+3-41	311-314	mir	_	_
+3-42	315-318	vom	_	_
+3-43	319-324	Herrn	*[9]	PERmentioned[9]
+3-44	325-332	Pfarrer	*[9]	PERmentioned[9]
+3-45	333-339	Abeken	*	PERmentioned
+3-46	340-349	zugesellt	_	_
+3-47	350-351	.	_	_
+
+#Text=Sie wird daher in den Speditionspreis mit einbegriffen sein .
+4-1	352-355	Sie	_	_
+4-2	356-360	wird	_	_
+4-3	361-366	daher	_	_
+4-4	367-369	in	_	_
+4-5	370-373	den	_	_
+4-6	374-389	Speditionspreis	_	_
+4-7	390-393	mit	_	_
+4-8	394-406	einbegriffen	_	_
+4-9	407-411	sein	_	_
+4-10	412-413	.	_	_
+
+#Text=2 , die Rolle mit Durchzeichnungen von dem capitol .
+5-1	414-415	2	_	_
+5-2	416-417	,	_	_
+5-3	418-421	die	_	_
+5-4	422-427	Rolle	_	_
+5-5	428-431	mit	_	_
+5-6	432-448	Durchzeichnungen	_	_
+5-7	449-452	von	_	_
+5-8	453-456	dem	_	_
+5-9	457-464	capitol	_	_
+5-10	465-466	.	_	_
+
+#Text=Romplan gehört Herrn Scheppig , wie ich in meiner Vebersendungsliste angegeben .
+6-1	467-474	Romplan	_	_
+6-2	475-481	gehört	_	_
+6-3	482-487	Herrn	_	_
+6-4	488-496	Scheppig	*	PERmentioned
+6-5	497-498	,	_	_
+6-6	499-502	wie	_	_
+6-7	503-506	ich	_	_
+6-8	507-509	in	_	_
+6-9	510-516	meiner	_	_
+6-10	517-535	Vebersendungsliste	_	_
+6-11	536-545	angegeben	_	_
+6-12	546-547	.	_	_
+
+#Text=Beim Einpacken und mit De Antonis habe ich selbst schon viel Aerger gehabt .
+7-1	548-552	Beim	_	_
+7-2	553-562	Einpacken	_	_
+7-3	563-566	und	_	_
+7-4	567-570	mit	_	_
+7-5	571-573	De	*[10]	PERmentioned[10]
+7-6	574-581	Antonis	*[10]	PERmentioned[10]
+7-7	582-586	habe	_	_
+7-8	587-590	ich	_	_
+7-9	591-597	selbst	_	_
+7-10	598-603	schon	_	_
+7-11	604-608	viel	_	_
+7-12	609-615	Aerger	_	_
+7-13	616-622	gehabt	_	_
+7-14	623-624	.	_	_
+
+#Text=Ich habe alles angewandt eine Theuerung zu verhüten , aber De Antonis ist ein Spitzbube .
+8-1	625-628	Ich	_	_
+8-2	629-633	habe	_	_
+8-3	634-639	alles	_	_
+8-4	640-649	angewandt	_	_
+8-5	650-654	eine	_	_
+8-6	655-664	Theuerung	_	_
+8-7	665-667	zu	_	_
+8-8	668-676	verhüten	_	_
+8-9	677-678	,	_	_
+8-10	679-683	aber	_	_
+8-11	684-686	De	*[11]	PERmentioned[11]
+8-12	687-694	Antonis	*[11]	PERmentioned[11]
+8-13	695-698	ist	_	_
+8-14	699-702	ein	_	_
+8-15	703-712	Spitzbube	_	_
+8-16	713-714	.	_	_
+
+#Text=Die Kiste welche ich in diesen Tagen mit den Monumenten spedire soll der letzte Versuch sein , den ich mit ihm mache .
+9-1	715-718	Die	_	_
+9-2	719-724	Kiste	_	_
+9-3	725-731	welche	_	_
+9-4	732-735	ich	_	_
+9-5	736-738	in	_	_
+9-6	739-745	diesen	_	_
+9-7	746-751	Tagen	_	_
+9-8	752-755	mit	_	_
+9-9	756-759	den	_	_
+9-10	760-770	Monumenten	_	_
+9-11	771-778	spedire	_	_
+9-12	779-783	soll	_	_
+9-13	784-787	der	_	_
+9-14	788-794	letzte	_	_
+9-15	795-802	Versuch	_	_
+9-16	803-807	sein	_	_
+9-17	808-809	,	_	_
+9-18	810-813	den	_	_
+9-19	814-817	ich	_	_
+9-20	818-821	mit	_	_
+9-21	822-825	ihm	_	_
+9-22	826-831	mache	_	_
+9-23	832-833	.	_	_
+
+#Text=Die Sägespänpackerei ist schwer zu hindern , da einem die Kerls weiß machen , sie sei zur Sicherung der Robba nothwendig .
+10-1	834-837	Die	_	_
+10-2	838-854	Sägespänpackerei	_	_
+10-3	855-858	ist	_	_
+10-4	859-865	schwer	_	_
+10-5	866-868	zu	_	_
+10-6	869-876	hindern	_	_
+10-7	877-878	,	_	_
+10-8	879-881	da	_	_
+10-9	882-887	einem	_	_
+10-10	888-891	die	_	_
+10-11	892-897	Kerls	_	_
+10-12	898-902	weiß	_	_
+10-13	903-909	machen	_	_
+10-14	910-911	,	_	_
+10-15	912-915	sie	_	_
+10-16	916-919	sei	_	_
+10-17	920-923	zur	_	_
+10-18	924-933	Sicherung	_	_
+10-19	934-937	der	_	_
+10-20	938-943	Robba	_	_
+10-21	944-954	nothwendig	_	_
+10-22	955-956	.	_	_
+
+#Text=Doch soll auch dem abgeholfen werden .
+11-1	957-961	Doch	_	_
+11-2	962-966	soll	_	_
+11-3	967-971	auch	_	_
+11-4	972-975	dem	_	_
+11-5	976-986	abgeholfen	_	_
+11-6	987-993	werden	_	_
+11-7	994-995	.	_	_
+
+#Text=Der Schaden übrigens , den die Sachen gelitten , fällt auf De Antonis Verantwortlichkeit , der ihn zu ersetzen hat .
+12-1	996-999	Der	_	_
+12-2	1000-1007	Schaden	_	_
+12-3	1008-1016	übrigens	_	_
+12-4	1017-1018	,	_	_
+12-5	1019-1022	den	_	_
+12-6	1023-1026	die	_	_
+12-7	1027-1033	Sachen	_	_
+12-8	1034-1042	gelitten	_	_
+12-9	1043-1044	,	_	_
+12-10	1045-1050	fällt	_	_
+12-11	1051-1054	auf	_	_
+12-12	1055-1057	De	*[12]	PERmentioned[12]
+12-13	1058-1065	Antonis	*[12]	PERmentioned[12]
+12-14	1066-1084	Verantwortlichkeit	_	_
+12-15	1085-1086	,	_	_
+12-16	1087-1090	der	_	_
+12-17	1091-1094	ihn	_	_
+12-18	1095-1097	zu	_	_
+12-19	1098-1106	ersetzen	_	_
+12-20	1107-1110	hat	_	_
+12-21	1111-1112	.	_	_
+
+#Text=Ihre Zeichnungen wurden mit Absicht nicht gerollt , weil sie dadurch leiden .
+13-1	1113-1117	Ihre	_	_
+13-2	1118-1129	Zeichnungen	_	_
+13-3	1130-1136	wurden	_	_
+13-4	1137-1140	mit	_	_
+13-5	1141-1148	Absicht	_	_
+13-6	1149-1154	nicht	_	_
+13-7	1155-1162	gerollt	_	_
+13-8	1163-1164	,	_	_
+13-9	1165-1169	weil	_	_
+13-10	1170-1173	sie	_	_
+13-11	1174-1181	dadurch	_	_
+13-12	1182-1188	leiden	_	_
+13-13	1189-1190	.	_	_
+
+#Text=Ich glaubte ihnen einen Platz ausgesucht zu haben , wo sie geschützt lagen .
+14-1	1191-1194	Ich	_	_
+14-2	1195-1202	glaubte	_	_
+14-3	1203-1208	ihnen	_	_
+14-4	1209-1214	einen	_	_
+14-5	1215-1220	Platz	_	_
+14-6	1221-1231	ausgesucht	_	_
+14-7	1232-1234	zu	_	_
+14-8	1235-1240	haben	_	_
+14-9	1241-1242	,	_	_
+14-10	1243-1245	wo	_	_
+14-11	1246-1249	sie	_	_
+14-12	1250-1259	geschützt	_	_
+14-13	1260-1265	lagen	_	_
+14-14	1266-1267	.	_	_
+
+#Text=Die Spiegelschachtel war zu groß , wurde deshalb
+15-1	1268-1271	Die	_	_
+15-2	1272-1288	Spiegelschachtel	_	_
+15-3	1289-1292	war	_	_
+15-4	1293-1295	zu	_	_
+15-5	1296-1300	groß	_	_
+15-6	1301-1302	,	_	_
+15-7	1303-1308	wurde	_	_
+15-8	1309-1316	deshalb	_	_

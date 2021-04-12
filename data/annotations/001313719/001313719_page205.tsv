@@ -1,0 +1,286 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=90 Gerhard an Henzen Berlin 8/V/1850 A. di Dir .
+1-1	0-2	90	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-36	8/V/1850	*	DATEletter
+1-7	37-39	A.	_	_
+1-8	40-42	di	_	_
+1-9	43-46	Dir	_	_
+1-10	47-48	.	_	_
+
+#Text=8 .
+2-1	49-50	8	_	_
+2-2	51-52	.	_	_
+
+#Text=20/7 50 r . 23/v 50 D. Henzen Berlin 8 Mai 50 Wenig Briefwechsel zeithia zwischen uns lieber ! reund sage ich , ohne mich selbst von einiger Schuld dabei freizusprechen , zu Ihnen wie zu Braun .
+3-1	53-57	20/7	*[1]	DATErecieved[1]
+3-2	58-60	50	*[1]	DATErecieved[1]
+3-3	61-62	r	_	_
+3-4	63-64	.	_	_
+3-5	65-69	23/v	*[2]	DATEanswered[2]
+3-6	70-72	50	_	_
+3-7	73-75	D.	_	_
+3-8	76-82	Henzen	*	PERaddressee
+3-9	83-89	Berlin	*	PLACEfrom
+3-10	90-91	8	*[3]	DATEletter[3]
+3-11	92-95	Mai	*[3]	DATEletter[3]
+3-12	96-98	50	*[3]	DATEletter[3]
+3-13	99-104	Wenig	_	_
+3-14	105-117	Briefwechsel	_	_
+3-15	118-125	zeithia	_	_
+3-16	126-134	zwischen	_	_
+3-17	135-138	uns	_	_
+3-18	139-145	lieber	_	_
+3-19	146-147	!	_	_
+3-20	148-153	reund	_	_
+3-21	154-158	sage	_	_
+3-22	159-162	ich	_	_
+3-23	163-164	,	_	_
+3-24	165-169	ohne	_	_
+3-25	170-174	mich	_	_
+3-26	175-181	selbst	_	_
+3-27	182-185	von	_	_
+3-28	186-193	einiger	_	_
+3-29	194-200	Schuld	_	_
+3-30	201-206	dabei	_	_
+3-31	207-221	freizusprechen	_	_
+3-32	222-223	,	_	_
+3-33	224-226	zu	_	_
+3-34	227-232	Ihnen	_	_
+3-35	233-236	wie	_	_
+3-36	237-239	zu	_	_
+3-37	240-245	Braun	*	PERmentioned
+3-38	246-247	.	_	_
+
+#Text=Die Annali und Nonumenti durch Mangel vor Declaration hier seit Wochen beim Steuerant liegend und Sons vertheuert erst sestern mir zu , waren aber auch doppelt willkommen \; Mein Lob darüber habe am raum ich eben schon\\äusgeschüttet .
+4-1	248-251	Die	_	_
+4-2	252-258	Annali	_	_
+4-3	259-262	und	_	_
+4-4	263-272	Nonumenti	_	_
+4-5	273-278	durch	_	_
+4-6	279-285	Mangel	_	_
+4-7	286-289	vor	_	_
+4-8	290-301	Declaration	_	_
+4-9	302-306	hier	_	_
+4-10	307-311	seit	_	_
+4-11	312-318	Wochen	_	_
+4-12	319-323	beim	_	_
+4-13	324-333	Steuerant	_	_
+4-14	334-341	liegend	_	_
+4-15	342-345	und	_	_
+4-16	346-350	Sons	_	_
+4-17	351-361	vertheuert	_	_
+4-18	362-366	erst	_	_
+4-19	367-374	sestern	_	_
+4-20	375-378	mir	_	_
+4-21	379-381	zu	_	_
+4-22	382-383	,	_	_
+4-23	384-389	waren	_	_
+4-24	390-394	aber	_	_
+4-25	395-399	auch	_	_
+4-26	400-407	doppelt	_	_
+4-27	408-418	willkommen	_	_
+4-28	419-420	\;	_	_
+4-29	421-425	Mein	_	_
+4-30	426-429	Lob	_	_
+4-31	430-437	darüber	_	_
+4-32	438-442	habe	_	_
+4-33	443-445	am	_	_
+4-34	446-450	raum	_	_
+4-35	451-454	ich	_	_
+4-36	455-459	eben	_	_
+4-37	460-479	schon\\äusgeschüttet	_	_
+4-38	480-481	.	_	_
+
+#Text=- Senden Sie oder Braun mir denn etwas über die römischen Adunanzan d. Jahres ?
+5-1	482-483	-	_	_
+5-2	484-490	Senden	_	_
+5-3	491-494	Sie	_	_
+5-4	495-499	oder	_	_
+5-5	500-505	Braun	*	PERmentioned
+5-6	506-509	mir	_	_
+5-7	510-514	denn	_	_
+5-8	515-520	etwas	_	_
+5-9	521-525	über	_	_
+5-10	526-529	die	_	_
+5-11	530-539	römischen	_	_
+5-12	540-549	Adunanzan	_	_
+5-13	550-552	d.	_	_
+5-14	553-559	Jahres	_	_
+5-15	560-561	?	_	_
+
+#Text=- Nach so langem Schweigen fehlen mir einigermaßen die Stichwörter sonstigen Verkehrs .
+6-1	562-563	-	_	_
+6-2	564-568	Nach	_	_
+6-3	569-571	so	_	_
+6-4	572-578	langem	_	_
+6-5	579-588	Schweigen	_	_
+6-6	589-595	fehlen	_	_
+6-7	596-599	mir	_	_
+6-8	600-612	einigermaßen	_	_
+6-9	613-616	die	_	_
+6-10	617-628	Stichwörter	_	_
+6-11	629-638	sonstigen	_	_
+6-12	639-647	Verkehrs	_	_
+6-13	648-649	.	_	_
+
+#Text=Ich will damit anfragen , was ich vielleicht neulich vergaß , daß eine Anzeige der Elementa umbrica von Anfrecht im Bull .
+7-1	650-653	Ich	_	_
+7-2	654-658	will	_	_
+7-3	659-664	damit	_	_
+7-4	665-673	anfragen	_	_
+7-5	674-675	,	_	_
+7-6	676-679	was	_	_
+7-7	680-683	ich	_	_
+7-8	684-694	vielleicht	_	_
+7-9	695-702	neulich	_	_
+7-10	703-709	vergaß	_	_
+7-11	710-711	,	_	_
+7-12	712-715	daß	_	_
+7-13	716-720	eine	_	_
+7-14	721-728	Anzeige	_	_
+7-15	729-732	der	_	_
+7-16	733-741	Elementa	_	_
+7-17	742-749	umbrica	_	_
+7-18	750-753	von	_	_
+7-19	754-762	Anfrecht	_	_
+7-20	763-765	im	_	_
+7-21	766-770	Bull	_	_
+7-22	771-772	.	_	_
+
+#Text=sehr gewünscht wird und ich dem Buchhändler , sofern er nur ein Exemplar nach Rom schaffe , eine solche in Aussicht gestellt habe , Ihrem Beistand vertrauend .
+8-1	773-777	sehr	_	_
+8-2	778-787	gewünscht	_	_
+8-3	788-792	wird	_	_
+8-4	793-796	und	_	_
+8-5	797-800	ich	_	_
+8-6	801-804	dem	_	_
+8-7	805-816	Buchhändler	_	_
+8-8	817-818	,	_	_
+8-9	819-825	sofern	_	_
+8-10	826-828	er	_	_
+8-11	829-832	nur	_	_
+8-12	833-836	ein	_	_
+8-13	837-845	Exemplar	_	_
+8-14	846-850	nach	_	_
+8-15	851-854	Rom	*	PLACEmentioned
+8-16	855-862	schaffe	_	_
+8-17	863-864	,	_	_
+8-18	865-869	eine	_	_
+8-19	870-876	solche	_	_
+8-20	877-879	in	_	_
+8-21	880-888	Aussicht	_	_
+8-22	889-897	gestellt	_	_
+8-23	898-902	habe	_	_
+8-24	903-904	,	_	_
+8-25	905-910	Ihrem	_	_
+8-26	911-919	Beistand	_	_
+8-27	920-930	vertrauend	_	_
+8-28	931-932	.	_	_
+
+#Text=- 2avigny hat 1 Exemplar der 5 Bände seiner gesammelten kleinen Schriften für das Institut abgegeben .
+9-1	933-934	-	_	_
+9-2	935-942	2avigny	*	PERmentioned
+9-3	943-946	hat	_	_
+9-4	947-948	1	_	_
+9-5	949-957	Exemplar	_	_
+9-6	958-961	der	_	_
+9-7	962-963	5	_	_
+9-8	964-969	Bände	_	_
+9-9	970-976	seiner	_	_
+9-10	977-988	gesammelten	_	_
+9-11	989-996	kleinen	_	_
+9-12	997-1006	Schriften	_	_
+9-13	1007-1010	für	_	_
+9-14	1011-1014	das	_	_
+9-15	1015-1023	Institut	*	ORGmentioned
+9-16	1024-1033	abgegeben	_	_
+9-17	1034-1035	.	_	_
+
+#Text=- Mit Roß den ich in Halle sah , habe ich Zeichnungen die sich für das Institut eignen ausgeschieden \; er wünscht alsdann sie möglichst bald publicirt zu sehen - , wie aber Gelegenheit finden ?
+10-1	1036-1037	-	_	_
+10-2	1038-1041	Mit	_	_
+10-3	1042-1045	Roß	*	PERmentioned
+10-4	1046-1049	den	_	_
+10-5	1050-1053	ich	_	_
+10-6	1054-1056	in	_	_
+10-7	1057-1062	Halle	*	PLACEmentioned
+10-8	1063-1066	sah	_	_
+10-9	1067-1068	,	_	_
+10-10	1069-1073	habe	_	_
+10-11	1074-1077	ich	_	_
+10-12	1078-1089	Zeichnungen	_	_
+10-13	1090-1093	die	_	_
+10-14	1094-1098	sich	_	_
+10-15	1099-1102	für	_	_
+10-16	1103-1106	das	_	_
+10-17	1107-1115	Institut	*	ORGmentioned
+10-18	1116-1122	eignen	_	_
+10-19	1123-1136	ausgeschieden	_	_
+10-20	1137-1138	\;	_	_
+10-21	1139-1141	er	_	_
+10-22	1142-1149	wünscht	_	_
+10-23	1150-1157	alsdann	_	_
+10-24	1158-1161	sie	_	_
+10-25	1162-1171	möglichst	_	_
+10-26	1172-1176	bald	_	_
+10-27	1177-1186	publicirt	_	_
+10-28	1187-1189	zu	_	_
+10-29	1190-1195	sehen	_	_
+10-30	1196-1197	-	_	_
+10-31	1198-1199	,	_	_
+10-32	1200-1203	wie	_	_
+10-33	1204-1208	aber	_	_
+10-34	1209-1220	Gelegenheit	_	_
+10-35	1221-1227	finden	_	_
+10-36	1228-1229	?	_	_
+
+#Text=Unterrichten Sie auch doch gefälligst ob die “ irma Spitthöver in Rom ( wie in Leipzis ? )
+11-1	1230-1242	Unterrichten	_	_
+11-2	1243-1246	Sie	_	_
+11-3	1247-1251	auch	_	_
+11-4	1252-1256	doch	_	_
+11-5	1257-1267	gefälligst	_	_
+11-6	1268-1270	ob	_	_
+11-7	1271-1274	die	_	_
+11-8	1275-1276	“	_	_
+11-9	1277-1281	irma	*[4]	ORGmentioned[4]
+11-10	1282-1292	Spitthöver	*[4]	ORGmentioned[4]
+11-11	1293-1295	in	_	_
+11-12	1296-1299	Rom	*	PLACEmentioned
+11-13	1300-1301	(	_	_
+11-14	1302-1305	wie	_	_
+11-15	1306-1308	in	_	_
+11-16	1309-1316	Leipzis	*	PLACEmentioned
+11-17	1317-1318	?	_	_
+11-18	1319-1320	)	_	_
+
+#Text=noch gilt und brauchbar ist .
+12-1	1321-1325	noch	_	_
+12-2	1326-1330	gilt	_	_
+12-3	1331-1334	und	_	_
+12-4	1335-1344	brauchbar	_	_
+12-5	1345-1348	ist	_	_
+12-6	1349-1350	.	_	_
+
+#Text=- Meine Frau fühlt sich der Ihrigen Briefschuldig , wodurch sie sich selbst in
+13-1	1351-1352	-	_	_
+13-2	1353-1358	Meine	_	_
+13-3	1359-1363	Frau	_	_
+13-4	1364-1369	fühlt	_	_
+13-5	1370-1374	sich	_	_
+13-6	1375-1378	der	_	_
+13-7	1379-1386	Ihrigen	_	_
+13-8	1387-1400	Briefschuldig	_	_
+13-9	1401-1402	,	_	_
+13-10	1403-1410	wodurch	_	_
+13-11	1411-1414	sie	_	_
+13-12	1415-1419	sich	_	_
+13-13	1420-1426	selbst	_	_
+13-14	1427-1429	in	_	_

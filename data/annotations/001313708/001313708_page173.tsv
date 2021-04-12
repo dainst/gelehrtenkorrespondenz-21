@@ -1,0 +1,103 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Berlin , 17. Februar 1835 Noch etwas Institutssachen !
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	17.	*[4]	DATEletter[4]
+1-7	31-38	Februar	*[4]	DATEletter[4]
+1-8	39-43	1835	*[4]	DATEletter[4]
+1-9	44-48	Noch	_	_
+1-10	49-54	etwas	_	_
+1-11	55-70	Institutssachen	_	_
+1-12	71-72	!	_	_
+
+#Text=Durch Sie und Gell hatte ich im August Erkundungen zur Theilmahme am Institut vom Staat und an den Minister Temple in Neapel gerichtet , letzteren zugleich .um Vergünstigung einer Zeichnung der Mithräischen Bronzefigur gebeten die er von Gargiulo erkauft hat .
+2-1	73-78	Durch	_	_
+2-2	79-82	Sie	_	_
+2-3	83-86	und	_	_
+2-4	87-91	Gell	*	PERmentioned
+2-5	92-97	hatte	_	_
+2-6	98-101	ich	_	_
+2-7	102-104	im	_	_
+2-8	105-111	August	*	DATEmentioned
+2-9	112-123	Erkundungen	_	_
+2-10	124-127	zur	_	_
+2-11	128-138	Theilmahme	_	_
+2-12	139-141	am	_	_
+2-13	142-150	Institut	*	ORGmentioned
+2-14	151-154	vom	_	_
+2-15	155-160	Staat	_	_
+2-16	161-164	und	_	_
+2-17	165-167	an	_	_
+2-18	168-171	den	_	_
+2-19	172-180	Minister	*[8]	PERmentioned[8]
+2-20	181-187	Temple	*[8]	PERmentioned[8]
+2-21	188-190	in	_	_
+2-22	191-197	Neapel	*	PLACEmentioned
+2-23	198-207	gerichtet	_	_
+2-24	208-209	,	_	_
+2-25	210-219	letzteren	_	_
+2-26	220-228	zugleich	_	_
+2-27	229-232	.um	_	_
+2-28	233-246	Vergünstigung	_	_
+2-29	247-252	einer	_	_
+2-30	253-262	Zeichnung	_	_
+2-31	263-266	der	_	_
+2-32	267-279	Mithräischen	*[10]	OBJ[10]
+2-33	280-291	Bronzefigur	*[10]	OBJ[10]
+2-34	292-299	gebeten	_	_
+2-35	300-303	die	_	_
+2-36	304-306	er	_	_
+2-37	307-310	von	_	_
+2-38	311-319	Gargiulo	*	PERmentioned
+2-39	320-327	erkauft	_	_
+2-40	328-331	hat	_	_
+2-41	332-333	.	_	_
+
+#Text=Vielleicht könnten Sie an beide Angelegenheiten erinnern , wenn Sie gelegentlich mit Gell verkehren .
+3-1	334-344	Vielleicht	_	_
+3-2	345-352	könnten	_	_
+3-3	353-356	Sie	_	_
+3-4	357-359	an	_	_
+3-5	360-365	beide	_	_
+3-6	366-381	Angelegenheiten	_	_
+3-7	382-390	erinnern	_	_
+3-8	391-392	,	_	_
+3-9	393-397	wenn	_	_
+3-10	398-401	Sie	_	_
+3-11	402-414	gelegentlich	_	_
+3-12	415-418	mit	_	_
+3-13	419-423	Gell	*	PERmentioned
+3-14	424-433	verkehren	_	_
+3-15	434-435	.	_	_
+
+#Text=Der Spoletanische Rafael soll nun ein Spiegelglas bekommen , welches tausend Thaler kosten wird .
+4-1	436-439	Der	_	_
+4-2	440-453	Spoletanische	_	_
+4-3	454-460	Rafael	_	_
+4-4	461-465	soll	_	_
+4-5	466-469	nun	_	_
+4-6	470-473	ein	_	_
+4-7	474-485	Spiegelglas	_	_
+4-8	486-494	bekommen	_	_
+4-9	495-496	,	_	_
+4-10	497-504	welches	_	_
+4-11	505-512	tausend	_	_
+4-12	513-519	Thaler	_	_
+4-13	520-526	kosten	_	_
+4-14	527-531	wird	_	_
+4-15	532-533	.	_	_
+
+#Text=Mit herzlichsten Empfehlungen und Grüßen Ihr Gerhard
+5-1	534-537	Mit	_	_
+5-2	538-550	herzlichsten	_	_
+5-3	551-563	Empfehlungen	_	_
+5-4	564-567	und	_	_
+5-5	568-574	Grüßen	_	_
+5-6	575-578	Ihr	_	_
+5-7	579-586	Gerhard	*	PERauthor

@@ -1,0 +1,37 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=184 Braun an Gerhard Rom , 9. Juni 1840 ne gekauft .
+1-1	0-3	184	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	9.	*[4]	DATEletter[4]
+1-8	30-34	Juni	*[4]	DATEletter[4]
+1-9	35-39	1840	*[4]	DATEletter[4]
+1-10	40-42	ne	_	_
+1-11	43-50	gekauft	_	_
+1-12	51-52	.	_	_
+
+#Text=Er hat Münzerklärungen für die hiesigen Annalen übernommen .
+2-1	53-55	Er	_	_
+2-2	56-59	hat	_	_
+2-3	60-75	Münzerklärungen	_	_
+2-4	76-79	für	_	_
+2-5	80-83	die	_	_
+2-6	84-92	hiesigen	_	_
+2-7	93-100	Annalen	_	_
+2-8	101-111	übernommen	_	_
+2-9	112-113	.	_	_
+
+#Text=\| Ihr EBraun Rom 9/6 40 .
+3-1	114-115	\|	_	_
+3-2	116-119	Ihr	_	_
+3-3	120-126	EBraun	*	PERauthor
+3-4	127-130	Rom	*	PLACEfrom
+3-5	131-134	9/6	*[7]	DATEletter[7]
+3-6	135-137	40	*[7]	DATEletter[7]
+3-7	138-139	.	_	_

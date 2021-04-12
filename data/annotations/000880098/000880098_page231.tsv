@@ -1,0 +1,291 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=on 5 “ , dd £- Air 902 Braun an Gerhard Rom , 23. Juni 1835 das verhängnisvolle Halsband .
+1-1	0-2	on	_	_
+1-2	3-4	5	_	_
+1-3	5-6	“	_	_
+1-4	7-8	,	_	_
+1-5	9-11	dd	_	_
+1-6	12-14	£-	_	_
+1-7	15-18	Air	_	_
+1-8	19-22	902	_	_
+1-9	23-28	Braun	*	PERauthor
+1-10	29-31	an	_	_
+1-11	32-39	Gerhard	*	PERaddressee
+1-12	40-43	Rom	*	PLACEfrom
+1-13	44-45	,	_	_
+1-14	46-49	23.	*[1]	DATEletter[1]
+1-15	50-54	Juni	*[1]	DATEletter[1]
+1-16	55-59	1835	*[1]	DATEletter[1]
+1-17	60-63	das	_	_
+1-18	64-79	verhängnisvolle	_	_
+1-19	80-88	Halsband	_	_
+1-20	89-90	.	_	_
+
+#Text=Die Forderung lautet 50 Scudi \; ob Sie erschrecken wenn ich Ihnen sage , daß ich 30 s. geboten , weiß ich nicht , - Sonst sind mir einige Kleine Erwerbungen geglückt : ein sehr schöner Dioscurenspiegel unter anderen für 2 Luigi .
+2-1	91-94	Die	_	_
+2-2	95-104	Forderung	_	_
+2-3	105-111	lautet	_	_
+2-4	112-114	50	_	_
+2-5	115-120	Scudi	_	_
+2-6	121-122	\;	_	_
+2-7	123-125	ob	_	_
+2-8	126-129	Sie	_	_
+2-9	130-141	erschrecken	_	_
+2-10	142-146	wenn	_	_
+2-11	147-150	ich	_	_
+2-12	151-156	Ihnen	_	_
+2-13	157-161	sage	_	_
+2-14	162-163	,	_	_
+2-15	164-167	daß	_	_
+2-16	168-171	ich	_	_
+2-17	172-174	30	_	_
+2-18	175-177	s.	_	_
+2-19	178-185	geboten	_	_
+2-20	186-187	,	_	_
+2-21	188-192	weiß	_	_
+2-22	193-196	ich	_	_
+2-23	197-202	nicht	_	_
+2-24	203-204	,	_	_
+2-25	205-206	-	_	_
+2-26	207-212	Sonst	_	_
+2-27	213-217	sind	_	_
+2-28	218-221	mir	_	_
+2-29	222-228	einige	_	_
+2-30	229-235	Kleine	_	_
+2-31	236-247	Erwerbungen	_	_
+2-32	248-256	geglückt	_	_
+2-33	257-258	:	_	_
+2-34	259-262	ein	*[2]	OBJ[2]
+2-35	263-267	sehr	*[2]	OBJ[2]
+2-36	268-275	schöner	*[2]	OBJ[2]
+2-37	276-292	Dioscurenspiegel	*[2]	OBJ[2]
+2-38	293-298	unter	_	_
+2-39	299-306	anderen	_	_
+2-40	307-310	für	_	_
+2-41	311-312	2	_	_
+2-42	313-318	Luigi	_	_
+2-43	319-320	.	_	_
+
+#Text=Im Allgemeinen ist das Jahr sehr unfruchtbar für diese Monumentklasse .
+3-1	321-323	Im	_	_
+3-2	324-335	Allgemeinen	_	_
+3-3	336-339	ist	_	_
+3-4	340-343	das	_	_
+3-5	344-348	Jahr	_	_
+3-6	349-353	sehr	_	_
+3-7	354-365	unfruchtbar	_	_
+3-8	366-369	für	_	_
+3-9	370-375	diese	_	_
+3-10	376-390	Monumentklasse	_	_
+3-11	391-392	.	_	_
+
+#Text=- Der von Spagna an das Governo gelangte Spiegel ist durch Bunsens Vermittelung gezeichnet , aber fürs Institut ( kostet 3 Scudi ) \; wollen Sie ein Lucido so lass ich ihn machen \; außerdem erwarten Sie den Stich .
+4-1	393-394	-	_	_
+4-2	395-398	Der	_	_
+4-3	399-402	von	_	_
+4-4	403-409	Spagna	*	PERmentioned
+4-5	410-412	an	_	_
+4-6	413-416	das	_	_
+4-7	417-424	Governo	*	ORGmentioned
+4-8	425-433	gelangte	_	_
+4-9	434-441	Spiegel	*	OBJ
+4-10	442-445	ist	_	_
+4-11	446-451	durch	_	_
+4-12	452-459	Bunsens	*	PERmentioned
+4-13	460-472	Vermittelung	_	_
+4-14	473-483	gezeichnet	_	_
+4-15	484-485	,	_	_
+4-16	486-490	aber	_	_
+4-17	491-495	fürs	_	_
+4-18	496-504	Institut	*	ORGmentioned
+4-19	505-506	(	_	_
+4-20	507-513	kostet	_	_
+4-21	514-515	3	_	_
+4-22	516-521	Scudi	_	_
+4-23	522-523	)	_	_
+4-24	524-525	\;	_	_
+4-25	526-532	wollen	_	_
+4-26	533-536	Sie	_	_
+4-27	537-540	ein	_	_
+4-28	541-547	Lucido	_	_
+4-29	548-550	so	_	_
+4-30	551-555	lass	_	_
+4-31	556-559	ich	_	_
+4-32	560-563	ihn	_	_
+4-33	564-570	machen	_	_
+4-34	571-572	\;	_	_
+4-35	573-581	außerdem	_	_
+4-36	582-590	erwarten	_	_
+4-37	591-594	Sie	_	_
+4-38	595-598	den	_	_
+4-39	599-604	Stich	_	_
+4-40	605-606	.	_	_
+
+#Text=Er würde dem früheren Vorschlag gemäß mit Ihrer Penthesilea und dem Telephus ( beide für das Institut gezerchnet vor Ihrer Erwerbung ) auf eine Platte zu stehen kommen .
+5-1	607-609	Er	_	_
+5-2	610-615	würde	_	_
+5-3	616-619	dem	_	_
+5-4	620-628	früheren	_	_
+5-5	629-638	Vorschlag	_	_
+5-6	639-644	gemäß	_	_
+5-7	645-648	mit	_	_
+5-8	649-654	Ihrer	_	_
+5-9	655-666	Penthesilea	*[3]|*[4]	PERmentioned[3]|OBJ[4]
+5-10	667-670	und	_	_
+5-11	671-674	dem	_	_
+5-12	675-683	Telephus	*[5]|*[6]	PERmentioned[5]|OBJ[6]
+5-13	684-685	(	_	_
+5-14	686-691	beide	_	_
+5-15	692-695	für	_	_
+5-16	696-699	das	_	_
+5-17	700-708	Institut	*	ORGmentioned
+5-18	709-719	gezerchnet	_	_
+5-19	720-723	vor	_	_
+5-20	724-729	Ihrer	_	_
+5-21	730-739	Erwerbung	_	_
+5-22	740-741	)	_	_
+5-23	742-745	auf	_	_
+5-24	746-750	eine	_	_
+5-25	751-757	Platte	_	_
+5-26	758-760	zu	_	_
+5-27	761-767	stehen	_	_
+5-28	768-774	kommen	_	_
+5-29	775-776	.	_	_
+
+#Text=Che ne dice Lei ?
+6-1	777-780	Che	_	_
+6-2	781-783	ne	_	_
+6-3	784-788	dice	_	_
+6-4	789-792	Lei	_	_
+6-5	793-794	?	_	_
+
+#Text=Ich schreibe nicht mehr , weil ich doch wohl Donnerstag zu antworten haben werde .
+7-1	795-798	Ich	_	_
+7-2	799-807	schreibe	_	_
+7-3	808-813	nicht	_	_
+7-4	814-818	mehr	_	_
+7-5	819-820	,	_	_
+7-6	821-825	weil	_	_
+7-7	826-829	ich	_	_
+7-8	830-834	doch	_	_
+7-9	835-839	wohl	_	_
+7-10	840-850	Donnerstag	*	DATEmentioned
+7-11	851-853	zu	_	_
+7-12	854-863	antworten	_	_
+7-13	864-869	haben	_	_
+7-14	870-875	werde	_	_
+7-15	876-877	.	_	_
+
+#Text=Also Gott befohlen .
+8-1	878-882	Also	_	_
+8-2	883-887	Gott	_	_
+8-3	888-896	befohlen	_	_
+8-4	897-898	.	_	_
+
+#Text=Ihr Braun sehr Franz drängb\| wegen des neuen Heftes vom Corp .
+9-1	899-902	Ihr	_	_
+9-2	903-908	Braun	*	PERauthor
+9-3	909-913	sehr	_	_
+9-4	914-919	Franz	*	PERmentioned
+9-5	920-927	drängb\|	_	_
+9-6	928-933	wegen	_	_
+9-7	934-937	des	_	_
+9-8	938-943	neuen	*[7]	LIT[7]
+9-9	944-950	Heftes	*[7]	LIT[7]
+9-10	951-954	vom	*[7]	LIT[7]
+9-11	955-959	Corp	*[7]	LIT[7]
+9-12	960-961	.	*[7]	LIT[7]
+
+#Text=Iscr .
+10-1	962-966	Iscr	*[7]	LIT[7]
+10-2	967-968	.	*[7]	LIT[7]
+
+#Text=Sie bemühen Sich ja wohl darum .
+11-1	969-972	Sie	_	_
+11-2	973-980	bemühen	_	_
+11-3	981-985	Sich	_	_
+11-4	986-988	ja	_	_
+11-5	989-993	wohl	_	_
+11-6	994-999	darum	_	_
+11-7	1000-1001	.	_	_
+
+#Text=Zu den andren Bestellungen an Gerstäcker würde ich gern ein Cornelius haben Fracht hinzufügen .
+12-1	1002-1004	Zu	_	_
+12-2	1005-1008	den	_	_
+12-3	1009-1015	andren	_	_
+12-4	1016-1028	Bestellungen	_	_
+12-5	1029-1031	an	_	_
+12-6	1032-1042	Gerstäcker	*	PERmentioned
+12-7	1043-1048	würde	_	_
+12-8	1049-1052	ich	_	_
+12-9	1053-1057	gern	_	_
+12-10	1058-1061	ein	_	_
+12-11	1062-1071	Cornelius	*	PERmentioned
+12-12	1072-1077	haben	_	_
+12-13	1078-1084	Fracht	_	_
+12-14	1085-1095	hinzufügen	_	_
+12-15	1096-1097	.	_	_
+
+#Text=Meyer aus Neapel ( seit einigen Wochen bei mir einlogirt und archäologisch thätig ) grüßt Sie herzlich .
+13-1	1098-1103	Meyer	*	PERmentioned
+13-2	1104-1107	aus	_	_
+13-3	1108-1114	Neapel	*	PLACEmentioned
+13-4	1115-1116	(	_	_
+13-5	1117-1121	seit	_	_
+13-6	1122-1129	einigen	_	_
+13-7	1130-1136	Wochen	_	_
+13-8	1137-1140	bei	_	_
+13-9	1141-1144	mir	_	_
+13-10	1145-1154	einlogirt	_	_
+13-11	1155-1158	und	_	_
+13-12	1159-1172	archäologisch	_	_
+13-13	1173-1179	thätig	_	_
+13-14	1180-1181	)	_	_
+13-15	1182-1187	grüßt	_	_
+13-16	1188-1191	Sie	_	_
+13-17	1192-1200	herzlich	_	_
+13-18	1201-1202	.	_	_
+
+#Text=Er macht den Annalen zu einem Aufsatz über Polychromie Hoffnung .
+14-1	1203-1205	Er	_	_
+14-2	1206-1211	macht	_	_
+14-3	1212-1215	den	_	_
+14-4	1216-1223	Annalen	_	_
+14-5	1224-1226	zu	_	_
+14-6	1227-1232	einem	_	_
+14-7	1233-1240	Aufsatz	_	_
+14-8	1241-1245	über	_	_
+14-9	1246-1257	Polychromie	_	_
+14-10	1258-1266	Hoffnung	_	_
+14-11	1267-1268	.	_	_
+
+#Text=- Die Inschriften über die langen Mauern lasse ich hier drucken \; die Annalen brauchen also im Fall daß y sie nicht noch einmal abzudrucken .
+15-1	1269-1270	-	_	_
+15-2	1271-1274	Die	_	_
+15-3	1275-1286	Inschriften	*[8]	OBJ[8]
+15-4	1287-1291	über	*[8]	OBJ[8]
+15-5	1292-1295	die	*[8]	OBJ[8]
+15-6	1296-1302	langen	*[8]	OBJ[8]
+15-7	1303-1309	Mauern	*[8]	OBJ[8]
+15-8	1310-1315	lasse	_	_
+15-9	1316-1319	ich	_	_
+15-10	1320-1324	hier	_	_
+15-11	1325-1332	drucken	_	_
+15-12	1333-1334	\;	_	_
+15-13	1335-1338	die	_	_
+15-14	1339-1346	Annalen	_	_
+15-15	1347-1355	brauchen	_	_
+15-16	1356-1360	also	_	_
+15-17	1361-1363	im	_	_
+15-18	1364-1368	Fall	_	_
+15-19	1369-1372	daß	_	_
+15-20	1373-1374	y	_	_
+15-21	1375-1378	sie	_	_
+15-22	1379-1384	nicht	_	_
+15-23	1385-1389	noch	_	_
+15-24	1390-1396	einmal	_	_
+15-25	1397-1408	abzudrucken	_	_
+15-26	1409-1410	.	_	_

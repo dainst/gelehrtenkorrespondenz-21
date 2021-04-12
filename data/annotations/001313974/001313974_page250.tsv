@@ -1,0 +1,182 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Es „ 366 Helbig an Henzen Siena , 14. Juli 1875 ber machen , müßte aber zur Beurtheilung der Münzen netrologische Daten haben .
+1-1	0-2	Es	_	_
+1-2	3-4	„	_	_
+1-3	5-8	366	_	_
+1-4	9-15	Helbig	*	PERauthor
+1-5	16-18	an	_	_
+1-6	19-25	Henzen	*	PERaddressee
+1-7	26-31	Siena	*	PLACEfrom
+1-8	32-33	,	_	_
+1-9	34-37	14.	*[1]	DATEletter[1]
+1-10	38-42	Juli	*[1]	DATEletter[1]
+1-11	43-47	1875	*[1]	DATEletter[1]
+1-12	48-51	ber	_	_
+1-13	52-58	machen	_	_
+1-14	59-60	,	_	_
+1-15	61-66	müßte	_	_
+1-16	67-71	aber	_	_
+1-17	72-75	zur	_	_
+1-18	76-88	Beurtheilung	_	_
+1-19	89-92	der	_	_
+1-20	93-99	Münzen	*	OBJ
+1-21	100-113	netrologische	_	_
+1-22	114-119	Daten	_	_
+1-23	120-125	haben	_	_
+1-24	126-127	.	_	_
+
+#Text=Sie scheinen mir , wenn mich mein Gedächtnis nicht täuscht , das Gewicht des phönikischen Staters zu haben : ungenaue Wägung in einer hiesigen Apotheke Gramm 8 - 7 .
+2-1	128-131	Sie	_	_
+2-2	132-140	scheinen	_	_
+2-3	141-144	mir	_	_
+2-4	145-146	,	_	_
+2-5	147-151	wenn	_	_
+2-6	152-156	mich	_	_
+2-7	157-161	mein	_	_
+2-8	162-172	Gedächtnis	_	_
+2-9	173-178	nicht	_	_
+2-10	179-186	täuscht	_	_
+2-11	187-188	,	_	_
+2-12	189-192	das	_	_
+2-13	193-200	Gewicht	_	_
+2-14	201-204	des	_	_
+2-15	205-217	phönikischen	*[2]	OBJ[2]
+2-16	218-225	Staters	*[2]	OBJ[2]
+2-17	226-228	zu	_	_
+2-18	229-234	haben	_	_
+2-19	235-236	:	_	_
+2-20	237-245	ungenaue	_	_
+2-21	246-252	Wägung	_	_
+2-22	253-255	in	_	_
+2-23	256-261	einer	_	_
+2-24	262-270	hiesigen	_	_
+2-25	271-279	Apotheke	_	_
+2-26	280-285	Gramm	_	_
+2-27	286-287	8	_	_
+2-28	288-289	-	_	_
+2-29	290-291	7	_	_
+2-30	292-293	.	_	_
+
+#Text=Könnten Sie vielleicht bei Brandis das Normalgewicht dieses Staters constatiren und mir dasselbe mittheilen ?
+3-1	294-301	Könnten	_	_
+3-2	302-305	Sie	_	_
+3-3	306-316	vielleicht	_	_
+3-4	317-320	bei	_	_
+3-5	321-328	Brandis	*	PERmentioned
+3-6	329-332	das	_	_
+3-7	333-346	Normalgewicht	_	_
+3-8	347-353	dieses	_	_
+3-9	354-361	Staters	*	OBJ
+3-10	362-373	constatiren	_	_
+3-11	374-377	und	_	_
+3-12	378-381	mir	_	_
+3-13	382-390	dasselbe	_	_
+3-14	391-401	mittheilen	_	_
+3-15	402-403	?	_	_
+
+#Text=Dann könnte ich sofot den Artikel loslassen .
+4-1	404-408	Dann	_	_
+4-2	409-415	könnte	_	_
+4-3	416-419	ich	_	_
+4-4	420-425	sofot	_	_
+4-5	426-429	den	_	_
+4-6	430-437	Artikel	_	_
+4-7	438-447	loslassen	_	_
+4-8	448-449	.	_	_
+
+#Text=Mit de Sanctis habe ich ausgemacht , daß ihm die sardinischen Zeichnungen gleich bezahlt würden , wie die in Rom ausgeführten .
+5-1	450-453	Mit	_	_
+5-2	454-456	de	*[3]	PERmentioned[3]
+5-3	457-464	Sanctis	*[3]	PERmentioned[3]
+5-4	465-469	habe	_	_
+5-5	470-473	ich	_	_
+5-6	474-484	ausgemacht	_	_
+5-7	485-486	,	_	_
+5-8	487-490	daß	_	_
+5-9	491-494	ihm	_	_
+5-10	495-498	die	_	_
+5-11	499-511	sardinischen	*[4]	MISC[4]
+5-12	512-523	Zeichnungen	*[4]	MISC[4]
+5-13	524-530	gleich	_	_
+5-14	531-538	bezahlt	_	_
+5-15	539-545	würden	_	_
+5-16	546-547	,	_	_
+5-17	548-551	wie	_	_
+5-18	552-555	die	_	_
+5-19	556-558	in	_	_
+5-20	559-562	Rom	*	PLACEmentioned
+5-21	563-575	ausgeführten	_	_
+5-22	576-577	.	_	_
+
+#Text=Am Besten Sie zahlen ihm ein Acconto und ich mache nach meiner Rückkehr mit ihm eine reguläre Abrechnung .
+6-1	578-580	Am	_	_
+6-2	581-587	Besten	_	_
+6-3	588-591	Sie	_	_
+6-4	592-598	zahlen	_	_
+6-5	599-602	ihm	_	_
+6-6	603-606	ein	_	_
+6-7	607-614	Acconto	_	_
+6-8	615-618	und	_	_
+6-9	619-622	ich	_	_
+6-10	623-628	mache	_	_
+6-11	629-633	nach	_	_
+6-12	634-640	meiner	_	_
+6-13	641-649	Rückkehr	_	_
+6-14	650-653	mit	_	_
+6-15	654-657	ihm	_	_
+6-16	658-662	eine	_	_
+6-17	663-671	reguläre	_	_
+6-18	672-682	Abrechnung	_	_
+6-19	683-684	.	_	_
+
+#Text=Meine Frau ist mit Hagens auf zwei Tage nach Orvieto gegangen .
+7-1	685-690	Meine	_	_
+7-2	691-695	Frau	_	_
+7-3	696-699	ist	_	_
+7-4	700-703	mit	_	_
+7-5	704-710	Hagens	*	PERmentioned
+7-6	711-714	auf	_	_
+7-7	715-719	zwei	_	_
+7-8	720-724	Tage	_	_
+7-9	725-729	nach	_	_
+7-10	730-737	Orvieto	*	PLACEmentioned
+7-11	738-746	gegangen	_	_
+7-12	747-748	.	_	_
+
+#Text=Lili grüßt vielmals .
+8-1	749-753	Lili	*	PERmentioned
+8-2	754-759	grüßt	_	_
+8-3	760-768	vielmals	_	_
+8-4	769-770	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr Helbig Neros Kräfte nehmen zusehends ab .
+9-1	771-774	Mit	_	_
+9-2	775-785	herzlichem	_	_
+9-3	786-790	Gruß	_	_
+9-4	791-794	Ihr	_	_
+9-5	795-801	Helbig	*	PERauthor
+9-6	802-807	Neros	_	_
+9-7	808-814	Kräfte	_	_
+9-8	815-821	nehmen	_	_
+9-9	822-831	zusehends	_	_
+9-10	832-834	ab	_	_
+9-11	835-836	.	_	_
+
+#Text=Am Rande der ersten Seite Bitte Niemanden etwas von diesem Funde zu sagen .
+10-1	837-839	Am	_	_
+10-2	840-845	Rande	_	_
+10-3	846-849	der	_	_
+10-4	850-856	ersten	_	_
+10-5	857-862	Seite	_	_
+10-6	863-868	Bitte	_	_
+10-7	869-878	Niemanden	_	_
+10-8	879-884	etwas	_	_
+10-9	885-888	von	_	_
+10-10	889-895	diesem	_	_
+10-11	896-901	Funde	_	_
+10-12	902-904	zu	_	_
+10-13	905-910	sagen	_	_
+10-14	911-912	.	_	_

@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.ro\|0 .. Gerhard an Henzen Berlin , 27. Mai 1846 schrift Neapels Bilder S. 350 soll Quaranta vor einigen Jahren herausgegeben haben \; Sie könnten mir wol etwa durch Minervini ein Exemplar davon schaffen , unter Anheimstellung von Gegengaben .
+1-1	0-5	.ro\|0	_	_
+1-2	6-8	..	_	_
+1-3	9-16	Gerhard	*	PERauthor
+1-4	17-19	an	_	_
+1-5	20-26	Henzen	*	PERaddressee
+1-6	27-33	Berlin	*	PLACEfrom
+1-7	34-35	,	_	_
+1-8	36-39	27.	*[1]	DATEletter[1]
+1-9	40-43	Mai	*[1]	DATEletter[1]
+1-10	44-48	1846	*[1]	DATEletter[1]
+1-11	49-56	schrift	_	_
+1-12	57-64	Neapels	*	PLACEmentioned
+1-13	65-71	Bilder	_	_
+1-14	72-74	S.	_	_
+1-15	75-78	350	_	_
+1-16	79-83	soll	_	_
+1-17	84-92	Quaranta	*	PERmentioned
+1-18	93-96	vor	_	_
+1-19	97-104	einigen	_	_
+1-20	105-111	Jahren	_	_
+1-21	112-125	herausgegeben	_	_
+1-22	126-131	haben	_	_
+1-23	132-133	\;	_	_
+1-24	134-137	Sie	_	_
+1-25	138-145	könnten	_	_
+1-26	146-149	mir	_	_
+1-27	150-153	wol	_	_
+1-28	154-158	etwa	_	_
+1-29	159-164	durch	_	_
+1-30	165-174	Minervini	*	PERmentioned
+1-31	175-178	ein	_	_
+1-32	179-187	Exemplar	_	_
+1-33	188-193	davon	_	_
+1-34	194-202	schaffen	_	_
+1-35	203-204	,	_	_
+1-36	205-210	unter	_	_
+1-37	211-225	Anheimstellung	_	_
+1-38	226-229	von	_	_
+1-39	230-240	Gegengaben	_	_
+1-40	241-242	.	_	_
+
+#Text=Vielen Dank für alle Mühsal die Sie in meinen Angelegenheiten übernehmen .
+2-1	243-249	Vielen	_	_
+2-2	250-254	Dank	_	_
+2-3	255-258	für	_	_
+2-4	259-263	alle	_	_
+2-5	264-270	Mühsal	_	_
+2-6	271-274	die	_	_
+2-7	275-278	Sie	_	_
+2-8	279-281	in	_	_
+2-9	282-288	meinen	_	_
+2-10	289-304	Angelegenheiten	_	_
+2-11	305-315	übernehmen	_	_
+2-12	316-317	.	_	_
+
+#Text=Der Absatz meiner apulischen Vasen scheint sich ja also sehr schlecht zu stellen !
+3-1	318-321	Der	_	_
+3-2	322-328	Absatz	_	_
+3-3	329-335	meiner	_	_
+3-4	336-346	apulischen	*[2]	MISC[2]
+3-5	347-352	Vasen	*[2]	MISC[2]
+3-6	353-360	scheint	_	_
+3-7	361-365	sich	_	_
+3-8	366-368	ja	_	_
+3-9	369-373	also	_	_
+3-10	374-378	sehr	_	_
+3-11	379-387	schlecht	_	_
+3-12	388-390	zu	_	_
+3-13	391-398	stellen	_	_
+3-14	399-400	!	_	_
+
+#Text=Patienza , thun Sie was sich dafür thun läßt .
+4-1	401-409	Patienza	_	_
+4-2	410-411	,	_	_
+4-3	412-416	thun	_	_
+4-4	417-420	Sie	_	_
+4-5	421-424	was	_	_
+4-6	425-429	sich	_	_
+4-7	430-435	dafür	_	_
+4-8	436-440	thun	_	_
+4-9	441-445	läßt	_	_
+4-10	446-447	.	_	_
+
+#Text=Die Exemplare für Bas ( eggio ) und Capr ( anesi ) sind freilich als bezahlt anzusehen , für die akademischen Pakete nur das Porto zu fordern .
+5-1	448-451	Die	_	_
+5-2	452-461	Exemplare	_	_
+5-3	462-465	für	_	_
+5-4	466-469	Bas	*[3]	PERmentioned[3]
+5-5	470-471	(	*[3]	PERmentioned[3]
+5-6	472-477	eggio	*[3]	PERmentioned[3]
+5-7	478-479	)	*[3]	PERmentioned[3]
+5-8	480-483	und	_	_
+5-9	484-488	Capr	*[4]	PERmentioned[4]
+5-10	489-490	(	*[4]	PERmentioned[4]
+5-11	491-496	anesi	*[4]	PERmentioned[4]
+5-12	497-498	)	_	_
+5-13	499-503	sind	_	_
+5-14	504-512	freilich	_	_
+5-15	513-516	als	_	_
+5-16	517-524	bezahlt	_	_
+5-17	525-534	anzusehen	_	_
+5-18	535-536	,	_	_
+5-19	537-540	für	_	_
+5-20	541-544	die	_	_
+5-21	545-557	akademischen	_	_
+5-22	558-564	Pakete	_	_
+5-23	565-568	nur	_	_
+5-24	569-572	das	_	_
+5-25	573-578	Porto	_	_
+5-26	579-581	zu	_	_
+5-27	582-589	fordern	_	_
+5-28	590-591	.	_	_
+
+#Text=Über `` 4 rt 5 '' für C. I. III,1 wie Reimer mir schrieb frage ich noch einmal .
+6-1	592-596	Über	_	_
+6-2	597-599	``	_	_
+6-3	600-601	4	_	_
+6-4	602-604	rt	_	_
+6-5	605-606	5	_	_
+6-6	607-609	''	_	_
+6-7	610-613	für	_	_
+6-8	614-616	C.	_	_
+6-9	617-619	I.	_	_
+6-10	620-625	III,1	_	_
+6-11	626-629	wie	_	_
+6-12	630-636	Reimer	*	PERmentioned
+6-13	637-640	mir	_	_
+6-14	641-648	schrieb	_	_
+6-15	649-654	frage	_	_
+6-16	655-658	ich	_	_
+6-17	659-663	noch	_	_
+6-18	664-670	einmal	_	_
+6-19	671-672	.	_	_
+
+#Text=Institutsformulare Ihnen versprochen zu haben war mir entfallen \; davon 9 sende ich Ihnen nächstens , dann müssen neue veranstaltet werden , warum nicht in Rom ? 7 Zumptone spricht gut von Ihnen .
+7-1	673-691	Institutsformulare	_	_
+7-2	692-697	Ihnen	_	_
+7-3	698-709	versprochen	_	_
+7-4	710-712	zu	_	_
+7-5	713-718	haben	_	_
+7-6	719-722	war	_	_
+7-7	723-726	mir	_	_
+7-8	727-736	entfallen	_	_
+7-9	737-738	\;	_	_
+7-10	739-744	davon	_	_
+7-11	745-746	9	_	_
+7-12	747-752	sende	_	_
+7-13	753-756	ich	_	_
+7-14	757-762	Ihnen	_	_
+7-15	763-772	nächstens	_	_
+7-16	773-774	,	_	_
+7-17	775-779	dann	_	_
+7-18	780-786	müssen	_	_
+7-19	787-791	neue	_	_
+7-20	792-804	veranstaltet	_	_
+7-21	805-811	werden	_	_
+7-22	812-813	,	_	_
+7-23	814-819	warum	_	_
+7-24	820-825	nicht	_	_
+7-25	826-828	in	_	_
+7-26	829-832	Rom	*	PLACEmentioned
+7-27	833-834	?	_	_
+7-28	835-836	7	_	_
+7-29	837-845	Zumptone	*	PERmentioned
+7-30	846-853	spricht	_	_
+7-31	854-857	gut	_	_
+7-32	858-861	von	_	_
+7-33	862-867	Ihnen	_	_
+7-34	868-869	.	_	_
+
+#Text=Bullettino 1846 sah ich nur Gennaio und Febbraio .
+8-1	870-880	Bullettino	_	_
+8-2	881-885	1846	*	DATEmentioned
+8-3	886-889	sah	_	_
+8-4	890-893	ich	_	_
+8-5	894-897	nur	_	_
+8-6	898-905	Gennaio	*	DATEmentioned
+8-7	906-909	und	_	_
+8-8	910-918	Febbraio	*	DATEmentioned
+8-9	919-920	.	_	_
+
+#Text=die neue Notice auch noch nicht .
+9-1	921-924	die	_	_
+9-2	925-929	neue	_	_
+9-3	930-936	Notice	_	_
+9-4	937-941	auch	_	_
+9-5	942-946	noch	_	_
+9-6	947-952	nicht	_	_
+9-7	953-954	.	_	_
+
+#Text=Avvocato ( nicht wahr ? )
+10-1	955-963	Avvocato	_	_
+10-2	964-965	(	_	_
+10-3	966-971	nicht	_	_
+10-4	972-976	wahr	_	_
+10-5	977-978	?	_	_
+10-6	979-980	)	_	_
+
+#Text=Viola ( Storia di Tivoli ? )
+11-1	981-986	Viola	*	PERmentioned
+11-2	987-988	(	_	_
+11-3	989-995	Storia	_	_
+11-4	996-998	di	_	_
+11-5	999-1005	Tivoli	*	PLACEmentioned
+11-6	1006-1007	?	_	_
+11-7	1008-1009	)	_	_
+
+#Text=freue ich mich noch als einen Lebenden einlisten zu können .
+12-1	1010-1015	freue	_	_
+12-2	1016-1019	ich	_	_
+12-3	1020-1024	mich	_	_
+12-4	1025-1029	noch	_	_
+12-5	1030-1033	als	_	_
+12-6	1034-1039	einen	_	_
+12-7	1040-1048	Lebenden	_	_
+12-8	1049-1058	einlisten	_	_
+12-9	1059-1061	zu	_	_
+12-10	1062-1068	können	_	_
+12-11	1069-1070	.	_	_
+
+#Text=Ihrer lieben Frau und gemeinsamen Freunden alles Herzliche \; die Meinige erwarte ich nun in etlichen Tagen wieder hier .
+13-1	1071-1076	Ihrer	_	_
+13-2	1077-1083	lieben	_	_
+13-3	1084-1088	Frau	_	_
+13-4	1089-1092	und	_	_
+13-5	1093-1104	gemeinsamen	_	_
+13-6	1105-1113	Freunden	_	_
+13-7	1114-1119	alles	_	_
+13-8	1120-1129	Herzliche	_	_
+13-9	1130-1131	\;	_	_
+13-10	1132-1135	die	_	_
+13-11	1136-1143	Meinige	_	_
+13-12	1144-1151	erwarte	_	_
+13-13	1152-1155	ich	_	_
+13-14	1156-1159	nun	_	_
+13-15	1160-1162	in	_	_
+13-16	1163-1171	etlichen	_	_
+13-17	1172-1177	Tagen	_	_
+13-18	1178-1184	wieder	_	_
+13-19	1185-1189	hier	_	_
+13-20	1190-1191	.	_	_
+
+#Text=Ihr Gerhard
+14-1	1192-1195	Ihr	_	_
+14-2	1196-1203	Gerhard	*	PERauthor

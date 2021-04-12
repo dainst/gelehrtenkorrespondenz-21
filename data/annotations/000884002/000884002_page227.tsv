@@ -1,0 +1,247 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=368 Brunn an Henzen Berlin , 7 .
+1-1	0-3	368	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	7	*[3]	DATEletter[3]
+1-8	31-32	.	*[3]	DATEletter[3]
+
+#Text=August 1864 g . 13 .
+2-1	33-39	August	*[3]	DATEletter[3]
+2-2	40-44	1864	*[3]	DATEletter[3]
+2-3	45-46	g	_	_
+2-4	47-48	.	_	_
+2-5	49-51	13	*[4]	DATErecieved[4]
+2-6	52-53	.	*[4]	DATErecieved[4]
+
+#Text=August 1864 Berlin 7 August 1864 .
+3-1	54-60	August	*[4]	DATErecieved[4]
+3-2	61-65	1864	*[4]	DATErecieved[4]
+3-3	66-72	Berlin	*	PLACEfrom
+3-4	73-74	7	*[5]	DATEletter[5]
+3-5	75-81	August	*[5]	DATEletter[5]
+3-6	82-86	1864	*[5]	DATEletter[5]
+3-7	87-88	.	_	_
+
+#Text=Lieber Henzen \| !
+4-1	89-95	Lieber	_	_
+4-2	96-102	Henzen	*	PERaddressee
+4-3	103-104	\|	_	_
+4-4	105-106	!	_	_
+
+#Text=Endlich komme ich dazu einige Zeilen zu schreiben .
+5-1	107-114	Endlich	_	_
+5-2	115-120	komme	_	_
+5-3	121-124	ich	_	_
+5-4	125-129	dazu	_	_
+5-5	130-136	einige	_	_
+5-6	137-143	Zeilen	_	_
+5-7	144-146	zu	_	_
+5-8	147-156	schreiben	_	_
+5-9	157-158	.	_	_
+
+#Text=Berlin , und noch dazu Mann und Prau in getrennten Quartieren , ist ten wirklich angreifend .
+6-1	159-165	Berlin	*	PLACEmentioned
+6-2	166-167	,	_	_
+6-3	168-171	und	_	_
+6-4	172-176	noch	_	_
+6-5	177-181	dazu	_	_
+6-6	182-186	Mann	_	_
+6-7	187-190	und	_	_
+6-8	191-195	Prau	_	_
+6-9	196-198	in	_	_
+6-10	199-209	getrennten	_	_
+6-11	210-220	Quartieren	_	_
+6-12	221-222	,	_	_
+6-13	223-226	ist	_	_
+6-14	227-230	ten	_	_
+6-15	231-239	wirklich	_	_
+6-16	240-250	angreifend	_	_
+6-17	251-252	.	_	_
+
+#Text=Ich kam am 22 J. , meine Frau am zgren und ist eben wieder fort , während ich noch 3 oder 4 Tage bleibe .
+7-1	253-256	Ich	_	_
+7-2	257-260	kam	_	_
+7-3	261-263	am	_	_
+7-4	264-266	22	_	_
+7-5	267-269	J.	_	_
+7-6	270-271	,	_	_
+7-7	272-277	meine	_	_
+7-8	278-282	Frau	_	_
+7-9	283-285	am	_	_
+7-10	286-291	zgren	_	_
+7-11	292-295	und	_	_
+7-12	296-299	ist	_	_
+7-13	300-304	eben	_	_
+7-14	305-311	wieder	_	_
+7-15	312-316	fort	_	_
+7-16	317-318	,	_	_
+7-17	319-326	während	_	_
+7-18	327-330	ich	_	_
+7-19	331-335	noch	_	_
+7-20	336-337	3	_	_
+7-21	338-342	oder	_	_
+7-22	343-344	4	_	_
+7-23	345-349	Tage	_	_
+7-24	350-356	bleibe	_	_
+7-25	357-358	.	_	_
+
+#Text=Die Resultate meines Aufenthaltes lassen sich schwer definiren : die Zukunft wird erst darüber belehren .
+8-1	359-362	Die	_	_
+8-2	363-372	Resultate	_	_
+8-3	373-379	meines	_	_
+8-4	380-392	Aufenthaltes	_	_
+8-5	393-399	lassen	_	_
+8-6	400-404	sich	_	_
+8-7	405-411	schwer	_	_
+8-8	412-421	definiren	_	_
+8-9	422-423	:	_	_
+8-10	424-427	die	_	_
+8-11	428-435	Zukunft	_	_
+8-12	436-440	wird	_	_
+8-13	441-445	erst	_	_
+8-14	446-453	darüber	_	_
+8-15	454-462	belehren	_	_
+8-16	463-464	.	_	_
+
+#Text=Das Veberraschendste für Sie wird sein , daß mit Gerhard , der vorgestern abgereist , über unsere Differenzen auch kein Wort gesprochen worden ist .
+9-1	465-468	Das	_	_
+9-2	469-485	Veberraschendste	_	_
+9-3	486-489	für	_	_
+9-4	490-493	Sie	_	_
+9-5	494-498	wird	_	_
+9-6	499-503	sein	_	_
+9-7	504-505	,	_	_
+9-8	506-509	daß	_	_
+9-9	510-513	mit	_	_
+9-10	514-521	Gerhard	*	PERmentioned
+9-11	522-523	,	_	_
+9-12	524-527	der	_	_
+9-13	528-538	vorgestern	_	_
+9-14	539-548	abgereist	_	_
+9-15	549-550	,	_	_
+9-16	551-555	über	_	_
+9-17	556-562	unsere	_	_
+9-18	563-574	Differenzen	_	_
+9-19	575-579	auch	_	_
+9-20	580-584	kein	_	_
+9-21	585-589	Wort	_	_
+9-22	590-600	gesprochen	_	_
+9-23	601-607	worden	_	_
+9-24	608-611	ist	_	_
+9-25	612-613	.	_	_
+
+#Text=ET war vom ersten Augenblick an freundlich und liebenswürdig und da er nicht davon anfing , so habe ich den früheren Schmutz nicht aufrühren wollen .
+10-1	614-616	ET	_	_
+10-2	617-620	war	_	_
+10-3	621-624	vom	_	_
+10-4	625-631	ersten	_	_
+10-5	632-642	Augenblick	_	_
+10-6	643-645	an	_	_
+10-7	646-656	freundlich	_	_
+10-8	657-660	und	_	_
+10-9	661-674	liebenswürdig	_	_
+10-10	675-678	und	_	_
+10-11	679-681	da	_	_
+10-12	682-684	er	_	_
+10-13	685-690	nicht	_	_
+10-14	691-696	davon	_	_
+10-15	697-703	anfing	_	_
+10-16	704-705	,	_	_
+10-17	706-708	so	_	_
+10-18	709-713	habe	_	_
+10-19	714-717	ich	_	_
+10-20	718-721	den	_	_
+10-21	722-730	früheren	_	_
+10-22	731-738	Schmutz	_	_
+10-23	739-744	nicht	_	_
+10-24	745-754	aufrühren	_	_
+10-25	755-761	wollen	_	_
+10-26	762-763	.	_	_
+
+#Text=Das Alte ist also vergessen und abgethan \; und der persönliche Verkehr wird hoffentlich bewirken , daß wir uns in der Folge besser verstehen .
+11-1	764-767	Das	_	_
+11-2	768-772	Alte	_	_
+11-3	773-776	ist	_	_
+11-4	777-781	also	_	_
+11-5	782-791	vergessen	_	_
+11-6	792-795	und	_	_
+11-7	796-804	abgethan	_	_
+11-8	805-806	\;	_	_
+11-9	807-810	und	_	_
+11-10	811-814	der	_	_
+11-11	815-826	persönliche	_	_
+11-12	827-834	Verkehr	_	_
+11-13	835-839	wird	_	_
+11-14	840-851	hoffentlich	_	_
+11-15	852-860	bewirken	_	_
+11-16	861-862	,	_	_
+11-17	863-866	daß	_	_
+11-18	867-870	wir	_	_
+11-19	871-874	uns	_	_
+11-20	875-877	in	_	_
+11-21	878-881	der	_	_
+11-22	882-887	Folge	_	_
+11-23	888-894	besser	_	_
+11-24	895-904	verstehen	_	_
+11-25	905-906	.	_	_
+
+#Text=Abeken abwesend \; Haupt krank , so daß ich ihn vor seiner Abreise ins Bad nicht einmal habe sprechen können .
+12-1	907-913	Abeken	*	PERmentioned
+12-2	914-922	abwesend	_	_
+12-3	923-924	\;	_	_
+12-4	925-930	Haupt	_	_
+12-5	931-936	krank	_	_
+12-6	937-938	,	_	_
+12-7	939-941	so	_	_
+12-8	942-945	daß	_	_
+12-9	946-949	ich	_	_
+12-10	950-953	ihn	_	_
+12-11	954-957	vor	_	_
+12-12	958-964	seiner	_	_
+12-13	965-972	Abreise	_	_
+12-14	973-976	ins	_	_
+12-15	977-980	Bad	_	_
+12-16	981-986	nicht	_	_
+12-17	987-993	einmal	_	_
+12-18	994-998	habe	_	_
+12-19	999-1007	sprechen	_	_
+12-20	1008-1014	können	_	_
+12-21	1015-1016	.	_	_
+
+#Text=Meineke ganz hinfällig , so daß ich nur mit G. Mommsen und Lepsius zu verhandeln hatte : im ganzen mehr allgemeine Orientirungen als Detail .
+13-1	1017-1024	Meineke	*	PERmentioned
+13-2	1025-1029	ganz	_	_
+13-3	1030-1039	hinfällig	_	_
+13-4	1040-1041	,	_	_
+13-5	1042-1044	so	_	_
+13-6	1045-1048	daß	_	_
+13-7	1049-1052	ich	_	_
+13-8	1053-1056	nur	_	_
+13-9	1057-1060	mit	_	_
+13-10	1061-1063	G.	*[6]	PERmentioned[6]
+13-11	1064-1071	Mommsen	*[6]	PERmentioned[6]
+13-12	1072-1075	und	_	_
+13-13	1076-1083	Lepsius	*	PERmentioned
+13-14	1084-1086	zu	_	_
+13-15	1087-1097	verhandeln	_	_
+13-16	1098-1103	hatte	_	_
+13-17	1104-1105	:	_	_
+13-18	1106-1108	im	_	_
+13-19	1109-1115	ganzen	_	_
+13-20	1116-1120	mehr	_	_
+13-21	1121-1131	allgemeine	_	_
+13-22	1132-1145	Orientirungen	_	_
+13-23	1146-1149	als	_	_
+13-24	1150-1156	Detail	_	_
+13-25	1157-1158	.	_	_
+
+#Text=In der
+14-1	1159-1161	In	_	_
+14-2	1162-1165	der	_	_

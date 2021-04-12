@@ -1,0 +1,89 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=42 Braun an Gerhard Rom , 26 .
+1-1	0-2	42	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	26	*[1]	DATEletter[1]
+1-8	29-30	.	*[1]	DATEletter[1]
+
+#Text=Januar 1836 Prof. Gerhard .
+2-1	31-37	Januar	*[1]	DATEletter[1]
+2-2	38-42	1836	*[1]	DATEletter[1]
+2-3	43-48	Prof.	_	_
+2-4	49-56	Gerhard	*	PERaddressee
+2-5	57-58	.	_	_
+
+#Text=Roma li 26 Genno 1836 Hochzuverehrender Herr Professor !
+3-1	59-63	Roma	*	PLACEfrom
+3-2	64-66	li	_	_
+3-3	67-69	26	*[2]	DATEletter[2]
+3-4	70-75	Genno	*[2]	DATEletter[2]
+3-5	76-80	1836	*[2]	DATEletter[2]
+3-6	81-98	Hochzuverehrender	_	_
+3-7	99-103	Herr	_	_
+3-8	104-113	Professor	_	_
+3-9	114-115	!	_	_
+
+#Text=Für heute nur die Nachricht , daß ich seit mehreren Tagen vor Institutsumzug zu nichts kommen kann , nicht einmahl zu Athem .
+4-1	116-119	Für	_	_
+4-2	120-125	heute	_	_
+4-3	126-129	nur	_	_
+4-4	130-133	die	_	_
+4-5	134-143	Nachricht	_	_
+4-6	144-145	,	_	_
+4-7	146-149	daß	_	_
+4-8	150-153	ich	_	_
+4-9	154-158	seit	_	_
+4-10	159-167	mehreren	_	_
+4-11	168-173	Tagen	_	_
+4-12	174-177	vor	_	_
+4-13	178-192	Institutsumzug	_	_
+4-14	193-195	zu	_	_
+4-15	196-202	nichts	_	_
+4-16	203-209	kommen	_	_
+4-17	210-214	kann	_	_
+4-18	215-216	,	_	_
+4-19	217-222	nicht	_	_
+4-20	223-230	einmahl	_	_
+4-21	231-233	zu	_	_
+4-22	234-239	Athem	_	_
+4-23	240-241	.	_	_
+
+#Text=Heute hält Bunsen die Anrede zur Bibliothekssubscription .
+5-1	242-247	Heute	_	_
+5-2	248-252	hält	_	_
+5-3	253-259	Bunsen	*	PERmentioned
+5-4	260-263	die	_	_
+5-5	264-270	Anrede	_	_
+5-6	271-274	zur	_	_
+5-7	275-298	Bibliothekssubscription	_	_
+5-8	299-300	.	_	_
+
+#Text=Ich kränkle immerfort , wie viele hier wegen des Frühjahrs und großen Strapazen .
+6-1	301-304	Ich	_	_
+6-2	305-312	kränkle	_	_
+6-3	313-322	immerfort	_	_
+6-4	323-324	,	_	_
+6-5	325-328	wie	_	_
+6-6	329-334	viele	_	_
+6-7	335-339	hier	_	_
+6-8	340-345	wegen	_	_
+6-9	346-349	des	_	_
+6-10	350-359	Frühjahrs	_	_
+6-11	360-363	und	_	_
+6-12	364-370	großen	_	_
+6-13	371-380	Strapazen	_	_
+6-14	381-382	.	_	_
+
+#Text=Auf gute Zeitung Ihr Braun
+7-1	383-386	Auf	_	_
+7-2	387-391	gute	_	_
+7-3	392-399	Zeitung	_	_
+7-4	400-403	Ihr	_	_
+7-5	404-409	Braun	*	PERauthor

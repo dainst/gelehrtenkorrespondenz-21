@@ -1,0 +1,216 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N Mommsen an Brunn Leipzig , 6. März 1852 fürchtet er noch immer , Du mögest wegen der Geldgeschichte böse auf ihn sein - nun Du kennst ihn ja .
+1-1	0-1	N	_	_
+1-2	2-9	Mommsen	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Brunn	*	PERaddressee
+1-5	19-26	Leipzig	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	6.	*[1]	DATEletter[1]
+1-8	32-36	März	*[1]	DATEletter[1]
+1-9	37-41	1852	*[1]	DATEletter[1]
+1-10	42-50	fürchtet	_	_
+1-11	51-53	er	_	_
+1-12	54-58	noch	_	_
+1-13	59-64	immer	_	_
+1-14	65-66	,	_	_
+1-15	67-69	Du	_	_
+1-16	70-76	mögest	_	_
+1-17	77-82	wegen	_	_
+1-18	83-86	der	_	_
+1-19	87-101	Geldgeschichte	_	_
+1-20	102-106	böse	_	_
+1-21	107-110	auf	_	_
+1-22	111-114	ihn	_	_
+1-23	115-119	sein	_	_
+1-24	120-121	-	_	_
+1-25	122-125	nun	_	_
+1-26	126-128	Du	_	_
+1-27	129-135	kennst	_	_
+1-28	136-139	ihn	_	_
+1-29	140-142	ja	_	_
+1-30	143-144	.	_	_
+
+#Text=Nipperdey , der zu Ostern einem Ruf nach Jena folgt , dankt sehr für die Collationen .
+2-1	145-154	Nipperdey	*	PERmentioned
+2-2	155-156	,	_	_
+2-3	157-160	der	_	_
+2-4	161-163	zu	_	_
+2-5	164-170	Ostern	_	_
+2-6	171-176	einem	_	_
+2-7	177-180	Ruf	_	_
+2-8	181-185	nach	_	_
+2-9	186-190	Jena	*	PLACEmentioned
+2-10	191-196	folgt	_	_
+2-11	197-198	,	_	_
+2-12	199-204	dankt	_	_
+2-13	205-209	sehr	_	_
+2-14	210-213	für	_	_
+2-15	214-217	die	_	_
+2-16	218-229	Collationen	_	_
+2-17	230-231	.	_	_
+
+#Text=Hast Du auch die epistolas für Roth vergleichen und deren Abschrift behalten , so schicke die gelegentlich nach \; aber vergleiche darum nichts Neue , denn die rotsche Ausgabe wird die Collation ja doch bald bringen .
+3-1	232-236	Hast	_	_
+3-2	237-239	Du	_	_
+3-3	240-244	auch	_	_
+3-4	245-248	die	_	_
+3-5	249-258	epistolas	_	_
+3-6	259-262	für	_	_
+3-7	263-267	Roth	*	PERmentioned
+3-8	268-279	vergleichen	_	_
+3-9	280-283	und	_	_
+3-10	284-289	deren	_	_
+3-11	290-299	Abschrift	_	_
+3-12	300-308	behalten	_	_
+3-13	309-310	,	_	_
+3-14	311-313	so	_	_
+3-15	314-321	schicke	_	_
+3-16	322-325	die	_	_
+3-17	326-338	gelegentlich	_	_
+3-18	339-343	nach	_	_
+3-19	344-345	\;	_	_
+3-20	346-350	aber	_	_
+3-21	351-361	vergleiche	_	_
+3-22	362-367	darum	_	_
+3-23	368-374	nichts	_	_
+3-24	375-379	Neue	_	_
+3-25	380-381	,	_	_
+3-26	382-386	denn	_	_
+3-27	387-390	die	_	_
+3-28	391-398	rotsche	_	_
+3-29	399-406	Ausgabe	_	_
+3-30	407-411	wird	_	_
+3-31	412-415	die	_	_
+3-32	416-425	Collation	_	_
+3-33	426-428	ja	_	_
+3-34	429-433	doch	_	_
+3-35	434-438	bald	_	_
+3-36	439-446	bringen	_	_
+3-37	447-448	.	_	_
+
+#Text=Auf den Münzfund bin ich sehr neugierig \; laß mich nicht vergebens warten .
+4-1	449-452	Auf	_	_
+4-2	453-456	den	_	_
+4-3	457-465	Münzfund	*	OBJ
+4-4	466-469	bin	_	_
+4-5	470-473	ich	_	_
+4-6	474-478	sehr	_	_
+4-7	479-488	neugierig	_	_
+4-8	489-490	\;	_	_
+4-9	491-494	laß	_	_
+4-10	495-499	mich	_	_
+4-11	500-505	nicht	_	_
+4-12	506-515	vergebens	_	_
+4-13	516-522	warten	_	_
+4-14	523-524	.	_	_
+
+#Text=Sind es Asse ?
+5-1	525-529	Sind	_	_
+5-2	530-532	es	_	_
+5-3	533-537	Asse	*	OBJ
+5-4	538-539	?	_	_
+
+#Text=Dies wird wohl der letzte Brief sein , den ich Dir aus Leipzig schreibe \; am 2. Mai beginnen die Vorlesungen in Zürich , Mitte April gehe ich von hier .
+6-1	540-544	Dies	_	_
+6-2	545-549	wird	_	_
+6-3	550-554	wohl	_	_
+6-4	555-558	der	_	_
+6-5	559-565	letzte	_	_
+6-6	566-571	Brief	_	_
+6-7	572-576	sein	_	_
+6-8	577-578	,	_	_
+6-9	579-582	den	_	_
+6-10	583-586	ich	_	_
+6-11	587-590	Dir	_	_
+6-12	591-594	aus	_	_
+6-13	595-602	Leipzig	*	PLACEmentioned
+6-14	603-611	schreibe	_	_
+6-15	612-613	\;	_	_
+6-16	614-616	am	_	_
+6-17	617-619	2.	*[2]	DATEmentioned[2]
+6-18	620-623	Mai	*[2]	DATEmentioned[2]
+6-19	624-632	beginnen	_	_
+6-20	633-636	die	_	_
+6-21	637-648	Vorlesungen	_	_
+6-22	649-651	in	_	_
+6-23	652-658	Zürich	*	PLACEmentioned
+6-24	659-660	,	_	_
+6-25	661-666	Mitte	*[3]	DATEmentioned[3]
+6-26	667-672	April	*[3]	DATEmentioned[3]
+6-27	673-677	gehe	_	_
+6-28	678-681	ich	_	_
+6-29	682-685	von	_	_
+6-30	686-690	hier	_	_
+6-31	691-692	.	_	_
+
+#Text=Es wird mir schwer mich von hier zu trennen \; meine persönlichen Verhältnisse werden sich schwerlich wieder so freundlich gestalten und ich lasse hier manches an Hoffnung und an Erinnerungzurück , worüber man sentimental werden könnte , wenn das nicht lächerlich wäre für den Wolf .
+7-1	693-695	Es	_	_
+7-2	696-700	wird	_	_
+7-3	701-704	mir	_	_
+7-4	705-711	schwer	_	_
+7-5	712-716	mich	_	_
+7-6	717-720	von	_	_
+7-7	721-725	hier	_	_
+7-8	726-728	zu	_	_
+7-9	729-736	trennen	_	_
+7-10	737-738	\;	_	_
+7-11	739-744	meine	_	_
+7-12	745-757	persönlichen	_	_
+7-13	758-770	Verhältnisse	_	_
+7-14	771-777	werden	_	_
+7-15	778-782	sich	_	_
+7-16	783-793	schwerlich	_	_
+7-17	794-800	wieder	_	_
+7-18	801-803	so	_	_
+7-19	804-814	freundlich	_	_
+7-20	815-824	gestalten	_	_
+7-21	825-828	und	_	_
+7-22	829-832	ich	_	_
+7-23	833-838	lasse	_	_
+7-24	839-843	hier	_	_
+7-25	844-851	manches	_	_
+7-26	852-854	an	_	_
+7-27	855-863	Hoffnung	_	_
+7-28	864-867	und	_	_
+7-29	868-870	an	_	_
+7-30	871-887	Erinnerungzurück	_	_
+7-31	888-889	,	_	_
+7-32	890-897	worüber	_	_
+7-33	898-901	man	_	_
+7-34	902-913	sentimental	_	_
+7-35	914-920	werden	_	_
+7-36	921-927	könnte	_	_
+7-37	928-929	,	_	_
+7-38	930-934	wenn	_	_
+7-39	935-938	das	_	_
+7-40	939-944	nicht	_	_
+7-41	945-955	lächerlich	_	_
+7-42	956-960	wäre	_	_
+7-43	961-964	für	_	_
+7-44	965-968	den	_	_
+7-45	969-973	Wolf	_	_
+7-46	974-975	.	_	_
+
+#Text=L .
+8-1	976-977	L	_	_
+8-2	978-979	.	_	_
+
+#Text=6 März 1852 Henzen schreibt mir noch einmal hieher , ehe ich weggehe .
+9-1	980-981	6	*[4]	DATEletter[4]
+9-2	982-986	März	*[4]	DATEletter[4]
+9-3	987-991	1852	*[4]	DATEletter[4]
+9-4	992-998	Henzen	*	PERmentioned
+9-5	999-1007	schreibt	_	_
+9-6	1008-1011	mir	_	_
+9-7	1012-1016	noch	_	_
+9-8	1017-1023	einmal	_	_
+9-9	1024-1030	hieher	_	_
+9-10	1031-1032	,	_	_
+9-11	1033-1036	ehe	_	_
+9-12	1037-1040	ich	_	_
+9-13	1041-1048	weggehe	_	_
+9-14	1049-1050	.	_	_

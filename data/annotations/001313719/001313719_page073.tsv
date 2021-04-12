@@ -1,0 +1,159 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin , 9 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	9	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 71846 schriften aufzuräumen scheitern am Vatikan .
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-44	71846	*[1]	DATEletter[1]
+2-3	45-54	schriften	_	_
+2-4	55-66	aufzuräumen	_	_
+2-5	67-76	scheitern	_	_
+2-6	77-79	am	_	_
+2-7	80-87	Vatikan	*	PLACEmentioned
+2-8	88-89	.	_	_
+
+#Text=Vom Bullettino erhielt ich zuletzt no 9 settenbre - „ inhaltreich .
+3-1	90-93	Vom	_	_
+3-2	94-104	Bullettino	_	_
+3-3	105-112	erhielt	_	_
+3-4	113-116	ich	_	_
+3-5	117-124	zuletzt	_	_
+3-6	125-127	no	_	_
+3-7	128-129	9	_	_
+3-8	130-139	settenbre	_	_
+3-9	140-141	-	_	_
+3-10	142-143	„	_	_
+3-11	144-155	inhaltreich	_	_
+3-12	156-157	.	_	_
+
+#Text=Irgend eine Höflichkeit dem Geppert geleistet zu haben wird dem Institut allerdings wohl anstehen .
+4-1	158-164	Irgend	_	_
+4-2	165-169	eine	_	_
+4-3	170-181	Höflichkeit	_	_
+4-4	182-185	dem	_	_
+4-5	186-193	Geppert	*	PERmentioned
+4-6	194-203	geleistet	_	_
+4-7	204-206	zu	_	_
+4-8	207-212	haben	_	_
+4-9	213-217	wird	_	_
+4-10	218-221	dem	_	_
+4-11	222-230	Institut	*	ORGmentioned
+4-12	231-241	allerdings	_	_
+4-13	242-246	wohl	_	_
+4-14	247-255	anstehen	_	_
+4-15	256-257	.	_	_
+
+#Text=Horkel glücklich von Weimar ( Happe ) und Jena heimgekehrt grüßt bestens .
+5-1	258-264	Horkel	*	PERmentioned
+5-2	265-274	glücklich	_	_
+5-3	275-278	von	_	_
+5-4	279-285	Weimar	*	PLACEmentioned
+5-5	286-287	(	_	_
+5-6	288-293	Happe	*	PERmentioned
+5-7	294-295	)	_	_
+5-8	296-299	und	_	_
+5-9	300-304	Jena	*	PLACEmentioned
+5-10	305-316	heimgekehrt	_	_
+5-11	317-322	grüßt	_	_
+5-12	323-330	bestens	_	_
+5-13	331-332	.	_	_
+
+#Text=.
+6-1	333-334	.	_	_
+
+#Text=-— -- - Ich habe eben Böckh aufgesucht und die Versicherung erhalten daß Seitens der Akademie , sobald die königliche Bewilligung da ist , keine Schwierigkeiten da sein werden ohne Weiteres eine Summe , ich denke zunächst 500 rt , „ an Mommsen zu senden .
+7-1	335-337	-—	_	_
+7-2	338-340	--	_	_
+7-3	341-342	-	_	_
+7-4	343-346	Ich	_	_
+7-5	347-351	habe	_	_
+7-6	352-356	eben	_	_
+7-7	357-362	Böckh	*	PERmentioned
+7-8	363-373	aufgesucht	_	_
+7-9	374-377	und	_	_
+7-10	378-381	die	_	_
+7-11	382-394	Versicherung	_	_
+7-12	395-403	erhalten	_	_
+7-13	404-407	daß	_	_
+7-14	408-415	Seitens	_	_
+7-15	416-419	der	_	_
+7-16	420-428	Akademie	*	ORGmentioned
+7-17	429-430	,	_	_
+7-18	431-437	sobald	_	_
+7-19	438-441	die	_	_
+7-20	442-452	königliche	_	_
+7-21	453-464	Bewilligung	_	_
+7-22	465-467	da	_	_
+7-23	468-471	ist	_	_
+7-24	472-473	,	_	_
+7-25	474-479	keine	_	_
+7-26	480-495	Schwierigkeiten	_	_
+7-27	496-498	da	_	_
+7-28	499-503	sein	_	_
+7-29	504-510	werden	_	_
+7-30	511-515	ohne	_	_
+7-31	516-524	Weiteres	_	_
+7-32	525-529	eine	_	_
+7-33	530-535	Summe	_	_
+7-34	536-537	,	_	_
+7-35	538-541	ich	_	_
+7-36	542-547	denke	_	_
+7-37	548-556	zunächst	_	_
+7-38	557-560	500	_	_
+7-39	561-563	rt	_	_
+7-40	564-565	,	_	_
+7-41	566-567	„	_	_
+7-42	568-570	an	_	_
+7-43	571-578	Mommsen	*	PERmentioned
+7-44	579-581	zu	_	_
+7-45	582-588	senden	_	_
+7-46	589-590	.	_	_
+
+#Text=Aber ein Monat geht wol wenigstens noch darüber hin .
+8-1	591-595	Aber	_	_
+8-2	596-599	ein	_	_
+8-3	600-605	Monat	_	_
+8-4	606-610	geht	_	_
+8-5	611-614	wol	_	_
+8-6	615-625	wenigstens	_	_
+8-7	626-630	noch	_	_
+8-8	631-638	darüber	_	_
+8-9	639-642	hin	_	_
+8-10	643-644	.	_	_
+
+#Text=Viel Herzliches an Ihre liebe Frau von der meinisen \; grüßen Sie werthe Freunde und halten Sie Sich obenauf .
+9-1	645-649	Viel	_	_
+9-2	650-660	Herzliches	_	_
+9-3	661-663	an	_	_
+9-4	664-668	Ihre	_	_
+9-5	669-674	liebe	_	_
+9-6	675-679	Frau	_	_
+9-7	680-683	von	_	_
+9-8	684-687	der	_	_
+9-9	688-696	meinisen	_	_
+9-10	697-698	\;	_	_
+9-11	699-705	grüßen	_	_
+9-12	706-709	Sie	_	_
+9-13	710-716	werthe	_	_
+9-14	717-724	Freunde	_	_
+9-15	725-728	und	_	_
+9-16	729-735	halten	_	_
+9-17	736-739	Sie	_	_
+9-18	740-744	Sich	_	_
+9-19	745-752	obenauf	_	_
+9-20	753-754	.	_	_
+
+#Text=Ganz der Ihrige Gerhard
+10-1	755-759	Ganz	_	_
+10-2	760-763	der	_	_
+10-3	764-770	Ihrige	_	_
+10-4	771-778	Gerhard	*	PERauthor

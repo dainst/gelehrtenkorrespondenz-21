@@ -1,0 +1,346 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\_ 417 Henzen an Gerhard 18/1/53 Verehrter Herr Professor \| !
+1-1	0-1	\_	_	_
+1-2	2-5	417	_	_
+1-3	6-12	Henzen	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-23	Gerhard	*	PERaddressee
+1-6	24-31	18/1/53	*	DATEletter
+1-7	32-41	Verehrter	_	_
+1-8	42-46	Herr	_	_
+1-9	47-56	Professor	_	_
+1-10	57-58	\|	_	_
+1-11	59-60	!	_	_
+
+#Text=Ihr 1 .
+2-1	61-64	Ihr	_	_
+2-2	65-66	1	_	_
+2-3	67-68	.	_	_
+
+#Text=Brief vom 31 v. M. hat uns leider die Hoffnung benommen , Sie bald einmal hier wieder zu sehen \; u , doch wäre es nicht bloß uns sehr angenehm , sondern gewiß auch in andrer Hinsicht sehr wünschenswerth , wenn Sie einmal wieder kämen .
+3-1	69-74	Brief	_	_
+3-2	75-78	vom	_	_
+3-3	79-81	31	_	_
+3-4	82-84	v.	*[5]	DATEmentioned[5]
+3-5	85-87	M.	*[5]	DATEmentioned[5]
+3-6	88-91	hat	_	_
+3-7	92-95	uns	_	_
+3-8	96-102	leider	_	_
+3-9	103-106	die	_	_
+3-10	107-115	Hoffnung	_	_
+3-11	116-124	benommen	_	_
+3-12	125-126	,	_	_
+3-13	127-130	Sie	_	_
+3-14	131-135	bald	_	_
+3-15	136-142	einmal	_	_
+3-16	143-147	hier	_	_
+3-17	148-154	wieder	_	_
+3-18	155-157	zu	_	_
+3-19	158-163	sehen	_	_
+3-20	164-165	\;	_	_
+3-21	166-167	u	_	_
+3-22	168-169	,	_	_
+3-23	170-174	doch	_	_
+3-24	175-179	wäre	_	_
+3-25	180-182	es	_	_
+3-26	183-188	nicht	_	_
+3-27	189-193	bloß	_	_
+3-28	194-197	uns	_	_
+3-29	198-202	sehr	_	_
+3-30	203-211	angenehm	_	_
+3-31	212-213	,	_	_
+3-32	214-221	sondern	_	_
+3-33	222-227	gewiß	_	_
+3-34	228-232	auch	_	_
+3-35	233-235	in	_	_
+3-36	236-242	andrer	_	_
+3-37	243-251	Hinsicht	_	_
+3-38	252-256	sehr	_	_
+3-39	257-271	wünschenswerth	_	_
+3-40	272-273	,	_	_
+3-41	274-278	wenn	_	_
+3-42	279-282	Sie	_	_
+3-43	283-289	einmal	_	_
+3-44	290-296	wieder	_	_
+3-45	297-302	kämen	_	_
+3-46	303-304	.	_	_
+
+#Text=Sie haben von unsern Verhältnissen gar keine Vorstellung mehr .
+4-1	305-308	Sie	_	_
+4-2	309-314	haben	_	_
+4-3	315-318	von	_	_
+4-4	319-325	unsern	_	_
+4-5	326-339	Verhältnissen	_	_
+4-6	340-343	gar	_	_
+4-7	344-349	keine	_	_
+4-8	350-361	Vorstellung	_	_
+4-9	362-366	mehr	_	_
+4-10	367-368	.	_	_
+
+#Text=Was meine Arbeiten betrifft , so weiß Gott , wie sehnlich ich wünsche , endlich flott zu werden \; aber wie soll das so bald zugehen ?
+5-1	369-372	Was	_	_
+5-2	373-378	meine	_	_
+5-3	379-387	Arbeiten	_	_
+5-4	388-396	betrifft	_	_
+5-5	397-398	,	_	_
+5-6	399-401	so	_	_
+5-7	402-406	weiß	_	_
+5-8	407-411	Gott	_	_
+5-9	412-413	,	_	_
+5-10	414-417	wie	_	_
+5-11	418-426	sehnlich	_	_
+5-12	427-430	ich	_	_
+5-13	431-438	wünsche	_	_
+5-14	439-440	,	_	_
+5-15	441-448	endlich	_	_
+5-16	449-454	flott	_	_
+5-17	455-457	zu	_	_
+5-18	458-464	werden	_	_
+5-19	465-466	\;	_	_
+5-20	467-471	aber	_	_
+5-21	472-475	wie	_	_
+5-22	476-480	soll	_	_
+5-23	481-484	das	_	_
+5-24	485-487	so	_	_
+5-25	488-492	bald	_	_
+5-26	493-500	zugehen	_	_
+5-27	501-502	?	_	_
+
+#Text=Ich kann Sie versichern , dß .
+6-1	503-506	Ich	_	_
+6-2	507-511	kann	_	_
+6-3	512-515	Sie	_	_
+6-4	516-526	versichern	_	_
+6-5	527-528	,	_	_
+6-6	529-531	dß	_	_
+6-7	532-533	.	_	_
+
+#Text=ich keinen Ausenblick verliere , dß , ich selten bei Tage aus dem Hause komme , u , dß.ich dennoch in den letzten 2 Nonaten , so zu sagen , gar nicht an den Orelli gekommen bin .
+7-1	534-537	ich	_	_
+7-2	538-544	keinen	_	_
+7-3	545-555	Ausenblick	_	_
+7-4	556-564	verliere	_	_
+7-5	565-566	,	_	_
+7-6	567-569	dß	_	_
+7-7	570-571	,	_	_
+7-8	572-575	ich	_	_
+7-9	576-582	selten	_	_
+7-10	583-586	bei	_	_
+7-11	587-591	Tage	_	_
+7-12	592-595	aus	_	_
+7-13	596-599	dem	_	_
+7-14	600-605	Hause	_	_
+7-15	606-611	komme	_	_
+7-16	612-613	,	_	_
+7-17	614-615	u	_	_
+7-18	616-617	,	_	_
+7-19	618-624	dß.ich	_	_
+7-20	625-632	dennoch	_	_
+7-21	633-635	in	_	_
+7-22	636-639	den	_	_
+7-23	640-647	letzten	_	_
+7-24	648-649	2	_	_
+7-25	650-657	Nonaten	_	_
+7-26	658-659	,	_	_
+7-27	660-662	so	_	_
+7-28	663-665	zu	_	_
+7-29	666-671	sagen	_	_
+7-30	672-673	,	_	_
+7-31	674-677	gar	_	_
+7-32	678-683	nicht	_	_
+7-33	684-686	an	_	_
+7-34	687-690	den	_	_
+7-35	691-697	Orelli	*	PERmentioned
+7-36	698-706	gekommen	_	_
+7-37	707-710	bin	_	_
+7-38	711-712	.	_	_
+
+#Text=In den letzten beiden Wochen freilich mußte ich meine freie Zeit für Ritschl 's Epigraphiken opfern , was gern geschah \; sonst aber stets Institutsarbeiten nicht sehr erfreulicher Art .
+8-1	713-715	In	_	_
+8-2	716-719	den	_	_
+8-3	720-727	letzten	_	_
+8-4	728-734	beiden	_	_
+8-5	735-741	Wochen	_	_
+8-6	742-750	freilich	_	_
+8-7	751-756	mußte	_	_
+8-8	757-760	ich	_	_
+8-9	761-766	meine	_	_
+8-10	767-772	freie	_	_
+8-11	773-777	Zeit	_	_
+8-12	778-781	für	_	_
+8-13	782-789	Ritschl	*[6]	PERmentioned[6]
+8-14	790-792	's	*[6]	PERmentioned[6]
+8-15	793-805	Epigraphiken	*	MISC
+8-16	806-812	opfern	_	_
+8-17	813-814	,	_	_
+8-18	815-818	was	_	_
+8-19	819-823	gern	_	_
+8-20	824-831	geschah	_	_
+8-21	832-833	\;	_	_
+8-22	834-839	sonst	_	_
+8-23	840-844	aber	_	_
+8-24	845-850	stets	_	_
+8-25	851-868	Institutsarbeiten	_	_
+8-26	869-874	nicht	_	_
+8-27	875-879	sehr	_	_
+8-28	880-892	erfreulicher	_	_
+8-29	893-896	Art	_	_
+8-30	897-898	.	_	_
+
+#Text=Hoffentlich komme ich von nun an , etwas mehr zu Frivatarbeiten .
+9-1	899-910	Hoffentlich	_	_
+9-2	911-916	komme	_	_
+9-3	917-920	ich	_	_
+9-4	921-924	von	_	_
+9-5	925-928	nun	_	_
+9-6	929-931	an	_	_
+9-7	932-933	,	_	_
+9-8	934-939	etwas	_	_
+9-9	940-944	mehr	_	_
+9-10	945-947	zu	_	_
+9-11	948-962	Frivatarbeiten	_	_
+9-12	963-964	.	_	_
+
+#Text=Die Aesyptische Kiste erhielten wir \; Vasenheft No .
+10-1	965-968	Die	_	_
+10-2	969-980	Aesyptische	*	MISC
+10-3	981-986	Kiste	_	_
+10-4	987-996	erhielten	_	_
+10-5	997-1000	wir	_	_
+10-6	1001-1002	\;	_	_
+10-7	1003-1012	Vasenheft	_	_
+10-8	1013-1015	No	_	_
+10-9	1016-1017	.	_	_
+
+#Text=35 lag nicht bei .
+11-1	1018-1020	35	_	_
+11-2	1021-1024	lag	_	_
+11-3	1025-1030	nicht	_	_
+11-4	1031-1034	bei	_	_
+11-5	1035-1036	.	_	_
+
+#Text=- Das Opus Lepsii ist ein wahrer — ar \| \| Skandal .
+12-1	1037-1038	-	_	_
+12-2	1039-1042	Das	_	_
+12-3	1043-1047	Opus	_	_
+12-4	1048-1054	Lepsii	*	PERmentioned
+12-5	1055-1058	ist	_	_
+12-6	1059-1062	ein	_	_
+12-7	1063-1069	wahrer	_	_
+12-8	1070-1071	—	_	_
+12-9	1072-1074	ar	_	_
+12-10	1075-1076	\|	_	_
+12-11	1077-1078	\|	_	_
+12-12	1079-1086	Skandal	_	_
+12-13	1087-1088	.	_	_
+
+#Text=So ungeheures Geld für ein Werk , ds . vielleicht auf der ganzen Welt 30 Nenschen interessiert , u. vielleicht der 4° Theil davon Senügte , um ein 0.I.L .
+13-1	1089-1091	So	_	_
+13-2	1092-1102	ungeheures	_	_
+13-3	1103-1107	Geld	_	_
+13-4	1108-1111	für	_	_
+13-5	1112-1115	ein	_	_
+13-6	1116-1120	Werk	_	_
+13-7	1121-1122	,	_	_
+13-8	1123-1125	ds	_	_
+13-9	1126-1127	.	_	_
+13-10	1128-1138	vielleicht	_	_
+13-11	1139-1142	auf	_	_
+13-12	1143-1146	der	_	_
+13-13	1147-1153	ganzen	_	_
+13-14	1154-1158	Welt	_	_
+13-15	1159-1161	30	_	_
+13-16	1162-1170	Nenschen	_	_
+13-17	1171-1183	interessiert	_	_
+13-18	1184-1185	,	_	_
+13-19	1186-1188	u.	_	_
+13-20	1189-1199	vielleicht	_	_
+13-21	1200-1203	der	_	_
+13-22	1204-1206	4°	_	_
+13-23	1207-1212	Theil	_	_
+13-24	1213-1218	davon	_	_
+13-25	1219-1226	Senügte	_	_
+13-26	1227-1228	,	_	_
+13-27	1229-1231	um	_	_
+13-28	1232-1235	ein	_	_
+13-29	1236-1241	0.I.L	_	_
+13-30	1242-1243	.	_	_
+
+#Text=herzustellen , das doch immerhin 3000 Leuten Nutzen brächte , u. nach dem man vergebens trachtet I Wenn man das Werk nur ansehen will , hat man einen Facchin nöthig , u. von Studiren kann bei solchem Format keine Rede sein .
+14-1	1244-1256	herzustellen	_	_
+14-2	1257-1258	,	_	_
+14-3	1259-1262	das	_	_
+14-4	1263-1267	doch	_	_
+14-5	1268-1276	immerhin	_	_
+14-6	1277-1281	3000	_	_
+14-7	1282-1288	Leuten	_	_
+14-8	1289-1295	Nutzen	_	_
+14-9	1296-1303	brächte	_	_
+14-10	1304-1305	,	_	_
+14-11	1306-1308	u.	_	_
+14-12	1309-1313	nach	_	_
+14-13	1314-1317	dem	_	_
+14-14	1318-1321	man	_	_
+14-15	1322-1331	vergebens	_	_
+14-16	1332-1340	trachtet	_	_
+14-17	1341-1342	I	_	_
+14-18	1343-1347	Wenn	_	_
+14-19	1348-1351	man	_	_
+14-20	1352-1355	das	_	_
+14-21	1356-1360	Werk	_	_
+14-22	1361-1364	nur	_	_
+14-23	1365-1372	ansehen	_	_
+14-24	1373-1377	will	_	_
+14-25	1378-1379	,	_	_
+14-26	1380-1383	hat	_	_
+14-27	1384-1387	man	_	_
+14-28	1388-1393	einen	_	_
+14-29	1394-1401	Facchin	_	_
+14-30	1402-1408	nöthig	_	_
+14-31	1409-1410	,	_	_
+14-32	1411-1413	u.	_	_
+14-33	1414-1417	von	_	_
+14-34	1418-1426	Studiren	_	_
+14-35	1427-1431	kann	_	_
+14-36	1432-1435	bei	_	_
+14-37	1436-1443	solchem	_	_
+14-38	1444-1450	Format	_	_
+14-39	1451-1456	keine	_	_
+14-40	1457-1461	Rede	_	_
+14-41	1462-1466	sein	_	_
+14-42	1467-1468	.	_	_
+
+#Text=-— Sie meinen , Kramer's Strabo werde wohl unterwegs sein .
+15-1	1469-1471	-—	_	_
+15-2	1472-1475	Sie	_	_
+15-3	1476-1482	meinen	_	_
+15-4	1483-1484	,	_	_
+15-5	1485-1493	Kramer's	*	PERmentioned
+15-6	1494-1500	Strabo	*	PERmentioned
+15-7	1501-1506	werde	_	_
+15-8	1507-1511	wohl	_	_
+15-9	1512-1521	unterwegs	_	_
+15-10	1522-1526	sein	_	_
+15-11	1527-1528	.	_	_
+
+#Text=Ich bezweifle das sehr , zumal er uns auch den 2® Theil nicht geschickt , u. eben
+16-1	1529-1532	Ich	_	_
+16-2	1533-1542	bezweifle	_	_
+16-3	1543-1546	das	_	_
+16-4	1547-1551	sehr	_	_
+16-5	1552-1553	,	_	_
+16-6	1554-1559	zumal	_	_
+16-7	1560-1562	er	_	_
+16-8	1563-1566	uns	_	_
+16-9	1567-1571	auch	_	_
+16-10	1572-1575	den	_	_
+16-11	1576-1578	2®	_	_
+16-12	1579-1584	Theil	_	_
+16-13	1585-1590	nicht	_	_
+16-14	1591-1600	geschickt	_	_
+16-15	1601-1602	,	_	_
+16-16	1603-1605	u.	_	_
+16-17	1606-1610	eben	_	_

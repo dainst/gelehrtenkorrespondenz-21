@@ -1,0 +1,53 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=433 Lepsius an Helbig Berlin , 1. Juli 1881 Berlin , C. 1. Juli 1881 Verehrter Freund Wie mag es mit dem Abguß der Büste in der Villa Iudovisi stehen ?
+1-1	0-3	433	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Helbig	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	1.	*[3]	DATEletter[3]
+1-8	34-38	Juli	*[3]	DATEletter[3]
+1-9	39-43	1881	*[3]	DATEletter[3]
+1-10	44-50	Berlin	*	PLACEfrom
+1-11	51-52	,	_	_
+1-12	53-55	C.	_	_
+1-13	56-58	1.	*[4]	DATEletter[4]
+1-14	59-63	Juli	*[4]	DATEletter[4]
+1-15	64-68	1881	*[4]	DATEletter[4]
+1-16	69-78	Verehrter	_	_
+1-17	79-85	Freund	_	_
+1-18	86-89	Wie	_	_
+1-19	90-93	mag	_	_
+1-20	94-96	es	_	_
+1-21	97-100	mit	_	_
+1-22	101-104	dem	_	_
+1-23	105-110	Abguß	_	_
+1-24	111-114	der	_	_
+1-25	115-120	Büste	*	OBJ
+1-26	121-123	in	_	_
+1-27	124-127	der	_	_
+1-28	128-133	Villa	*[5]	PLACEmentioned[5]
+1-29	134-142	Iudovisi	*[5]	PLACEmentioned[5]
+1-30	143-149	stehen	_	_
+1-31	150-151	?	_	_
+
+#Text=Hat die liebenswürdige Venus nicht reüssirt ?
+2-1	152-155	Hat	_	_
+2-2	156-159	die	_	_
+2-3	160-174	liebenswürdige	_	_
+2-4	175-180	Venus	_	_
+2-5	181-186	nicht	_	_
+2-6	187-195	reüssirt	_	_
+2-7	196-197	?	_	_
+
+#Text=Mit herzlichen Grüßen der Ihrige Lepsius
+3-1	198-201	Mit	_	_
+3-2	202-212	herzlichen	_	_
+3-3	213-219	Grüßen	_	_
+3-4	220-223	der	_	_
+3-5	224-230	Ihrige	_	_
+3-6	231-238	Lepsius	*	PERauthor

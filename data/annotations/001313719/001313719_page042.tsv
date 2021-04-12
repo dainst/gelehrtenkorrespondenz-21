@@ -1,0 +1,45 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=eeunene Gerhard an Henzen Frankfurt , 11. April 1846 wort über dessen ........ zukommen .
+1-1	0-7	eeunene	_	_
+1-2	8-15	Gerhard	*	PERauthor
+1-3	16-18	an	_	_
+1-4	19-25	Henzen	*	PERaddressee
+1-5	26-35	Frankfurt	*	PLACEfrom
+1-6	36-37	,	_	_
+1-7	38-41	11.	*[1]	DATEletter[1]
+1-8	42-47	April	*[1]	DATEletter[1]
+1-9	48-52	1846	*[1]	DATEletter[1]
+1-10	53-57	wort	_	_
+1-11	58-62	über	_	_
+1-12	63-69	dessen	_	_
+1-13	70-78	........	_	_
+1-14	79-87	zukommen	_	_
+1-15	88-89	.	_	_
+
+#Text=labus besuchte mich doppelt und überhöflich in Mailand , bot auch zum Vertrieb meiner Werke sich an !
+2-1	90-95	labus	*	PERmentioned
+2-2	96-104	besuchte	_	_
+2-3	105-109	mich	_	_
+2-4	110-117	doppelt	_	_
+2-5	118-121	und	_	_
+2-6	122-133	überhöflich	_	_
+2-7	134-136	in	_	_
+2-8	137-144	Mailand	*	PLACEmentioned
+2-9	145-146	,	_	_
+2-10	147-150	bot	_	_
+2-11	151-155	auch	_	_
+2-12	156-159	zum	_	_
+2-13	160-168	Vertrieb	_	_
+2-14	169-175	meiner	_	_
+2-15	176-181	Werke	_	_
+2-16	182-186	sich	_	_
+2-17	187-189	an	_	_
+2-18	190-191	!	_	_
+
+#Text=Herzlichst Ihr Gerhard
+3-1	192-202	Herzlichst	_	_
+3-2	203-206	Ihr	_	_
+3-3	207-214	Gerhard	*	PERauthor

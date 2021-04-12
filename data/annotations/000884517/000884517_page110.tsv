@@ -1,0 +1,171 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.
+1-1	0-1	.	_	_
+
+#Text=ı % \\ mu . # “ We .
+2-1	2-3	ı	_	_
+2-2	4-5	%	_	_
+2-3	6-7	\\	_	_
+2-4	8-10	mu	_	_
+2-5	11-12	.	_	_
+2-6	13-14	#	_	_
+2-7	15-16	“	_	_
+2-8	17-19	We	_	_
+2-9	20-21	.	_	_
+
+#Text=4 63 Gerhard an Braun Berlin , 10. Februar 1845 nehmen nach verloren , wiedergefunden und wiederverloren .
+3-1	22-23	4	_	_
+3-2	24-26	63	_	_
+3-3	27-34	Gerhard	*	PERauthor
+3-4	35-37	an	_	_
+3-5	38-43	Braun	*	PERaddressee
+3-6	44-50	Berlin	*	PLACEfrom
+3-7	51-52	,	_	_
+3-8	53-56	10.	*[1]	DATEletter[1]
+3-9	57-64	Februar	*[1]	DATEletter[1]
+3-10	65-69	1845	*[1]	DATEletter[1]
+3-11	70-76	nehmen	_	_
+3-12	77-81	nach	_	_
+3-13	82-90	verloren	_	_
+3-14	91-92	,	_	_
+3-15	93-107	wiedergefunden	_	_
+3-16	108-111	und	_	_
+3-17	112-126	wiederverloren	_	_
+3-18	127-128	.	_	_
+
+#Text=Das Diplom an Beeskow ist abgegangen \; ich habe es beim Membro corrispondente gelesen , da Kestner auf meine Anzeige deshalb geschwiegen und durchaus keine Qualification des Mannes mir sonst bekannt war .
+4-1	129-132	Das	_	_
+4-2	133-139	Diplom	_	_
+4-3	140-142	an	_	_
+4-4	143-150	Beeskow	*	PERmentioned
+4-5	151-154	ist	_	_
+4-6	155-165	abgegangen	_	_
+4-7	166-167	\;	_	_
+4-8	168-171	ich	_	_
+4-9	172-176	habe	_	_
+4-10	177-179	es	_	_
+4-11	180-184	beim	_	_
+4-12	185-191	Membro	_	_
+4-13	192-206	corrispondente	_	_
+4-14	207-214	gelesen	_	_
+4-15	215-216	,	_	_
+4-16	217-219	da	_	_
+4-17	220-227	Kestner	*	PERmentioned
+4-18	228-231	auf	_	_
+4-19	232-237	meine	_	_
+4-20	238-245	Anzeige	_	_
+4-21	246-253	deshalb	_	_
+4-22	254-265	geschwiegen	_	_
+4-23	266-269	und	_	_
+4-24	270-278	durchaus	_	_
+4-25	279-284	keine	_	_
+4-26	285-298	Qualification	_	_
+4-27	299-302	des	_	_
+4-28	303-309	Mannes	_	_
+4-29	310-313	mir	_	_
+4-30	314-319	sonst	_	_
+4-31	320-327	bekannt	_	_
+4-32	328-331	war	_	_
+4-33	332-333	.	_	_
+
+#Text=Domenico wünschte mir neulich zum Neujahr Glück \; wollen Sie es mit Gegengruß und einer pezza dura erwiedern ?
+5-1	334-342	Domenico	*	PERmentioned
+5-2	343-351	wünschte	_	_
+5-3	352-355	mir	_	_
+5-4	356-363	neulich	_	_
+5-5	364-367	zum	_	_
+5-6	368-375	Neujahr	_	_
+5-7	376-381	Glück	_	_
+5-8	382-383	\;	_	_
+5-9	384-390	wollen	_	_
+5-10	391-394	Sie	_	_
+5-11	395-397	es	_	_
+5-12	398-401	mit	_	_
+5-13	402-411	Gegengruß	_	_
+5-14	412-415	und	_	_
+5-15	416-421	einer	_	_
+5-16	422-427	pezza	_	_
+5-17	428-432	dura	_	_
+5-18	433-442	erwiedern	_	_
+5-19	443-444	?	_	_
+
+#Text=Ratti macht noch immer kein Ende mit meinem Gesso .
+6-1	445-450	Ratti	*	PERmentioned
+6-2	451-456	macht	_	_
+6-3	457-461	noch	_	_
+6-4	462-467	immer	_	_
+6-5	468-472	kein	_	_
+6-6	473-477	Ende	_	_
+6-7	478-481	mit	_	_
+6-8	482-488	meinem	_	_
+6-9	489-494	Gesso	_	_
+6-10	495-496	.	_	_
+
+#Text=Kiepert , der nach Weimar zum geographischen Institut übersiedelt , hat eine sehr plausible Karte entworfen , in welcher von Ninive aus Handels- und Kultusstraßen nach Kleinasien auslaufen .
+7-1	497-504	Kiepert	*	PERmentioned
+7-2	505-506	,	_	_
+7-3	507-510	der	_	_
+7-4	511-515	nach	_	_
+7-5	516-522	Weimar	*	PLACEmentioned
+7-6	523-526	zum	_	_
+7-7	527-541	geographischen	_	_
+7-8	542-550	Institut	*	ORGmentioned
+7-9	551-562	übersiedelt	_	_
+7-10	563-564	,	_	_
+7-11	565-568	hat	_	_
+7-12	569-573	eine	_	_
+7-13	574-578	sehr	_	_
+7-14	579-588	plausible	_	_
+7-15	589-594	Karte	_	_
+7-16	595-604	entworfen	_	_
+7-17	605-606	,	_	_
+7-18	607-609	in	_	_
+7-19	610-617	welcher	_	_
+7-20	618-621	von	_	_
+7-21	622-628	Ninive	*	PLACEmentioned
+7-22	629-632	aus	_	_
+7-23	633-641	Handels-	_	_
+7-24	642-645	und	_	_
+7-25	646-659	Kultusstraßen	_	_
+7-26	660-664	nach	_	_
+7-27	665-675	Kleinasien	*	PLACEmentioned
+7-28	676-685	auslaufen	_	_
+7-29	686-687	.	_	_
+
+#Text=Phönicisches wie Ägyptisches in Asien ( auch die vermuthlichen Sesostrissachen ) und demnach meist assirisch .
+8-1	688-700	Phönicisches	*	MISC
+8-2	701-704	wie	_	_
+8-3	705-716	Ägyptisches	*	MISC
+8-4	717-719	in	_	_
+8-5	720-725	Asien	*	PLACEmentioned
+8-6	726-727	(	_	_
+8-7	728-732	auch	_	_
+8-8	733-736	die	_	_
+8-9	737-750	vermuthlichen	_	_
+8-10	751-766	Sesostrissachen	_	_
+8-11	767-768	)	_	_
+8-12	769-772	und	_	_
+8-13	773-780	demnach	_	_
+8-14	781-786	meist	_	_
+8-15	787-796	assirisch	*	MISC
+8-16	797-798	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard Steffen hat sehr abgenommen und eben einen Blutsturz gehabt .
+9-1	799-802	Von	_	_
+9-2	803-809	Herzen	_	_
+9-3	810-813	der	_	_
+9-4	814-820	Ihrige	_	_
+9-5	821-828	Gerhard	*	PERauthor
+9-6	829-836	Steffen	*	PERmentioned
+9-7	837-840	hat	_	_
+9-8	841-845	sehr	_	_
+9-9	846-856	abgenommen	_	_
+9-10	857-860	und	_	_
+9-11	861-865	eben	_	_
+9-12	866-871	einen	_	_
+9-13	872-881	Blutsturz	_	_
+9-14	882-888	gehabt	_	_
+9-15	889-890	.	_	_

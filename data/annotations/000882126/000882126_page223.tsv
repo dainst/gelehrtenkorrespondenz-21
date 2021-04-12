@@ -1,0 +1,335 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=392 Braun an Gerhard Narni , 1. Dezember 1837 - 6 - cher \; ein Todtendämon und nichts anderes .
+1-1	0-3	392	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Narni	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	1.	*[11]	DATEletter[11]
+1-8	32-40	Dezember	*[11]	DATEletter[11]
+1-9	41-45	1837	*[11]	DATEletter[11]
+1-10	46-47	-	_	_
+1-11	48-49	6	_	_
+1-12	50-51	-	_	_
+1-13	52-56	cher	_	_
+1-14	57-58	\;	_	_
+1-15	59-62	ein	_	_
+1-16	63-74	Todtendämon	_	_
+1-17	75-78	und	_	_
+1-18	79-85	nichts	_	_
+1-19	86-93	anderes	_	_
+1-20	94-95	.	_	_
+
+#Text=Capranesi und Basseggio werden in Rom besorgt \; ebenso De Antonis .
+2-1	96-105	Capranesi	*	PERmentioned
+2-2	106-109	und	_	_
+2-3	110-119	Basseggio	*	PERmentioned
+2-4	120-126	werden	_	_
+2-5	127-129	in	_	_
+2-6	130-133	Rom	*	PLACEmentioned
+2-7	134-141	besorgt	_	_
+2-8	142-143	\;	_	_
+2-9	144-150	ebenso	_	_
+2-10	151-153	De	*[12]	PERmentioned[12]
+2-11	154-161	Antonis	*[12]	PERmentioned[12]
+2-12	162-163	.	_	_
+
+#Text=Ich werde mein Möglichstes thuen .
+3-1	164-167	Ich	_	_
+3-2	168-173	werde	_	_
+3-3	174-178	mein	_	_
+3-4	179-190	Möglichstes	_	_
+3-5	191-196	thuen	_	_
+3-6	197-198	.	_	_
+
+#Text=Museo Mantov .
+4-1	199-204	Museo	*[13]	ORGmentioned[13]
+4-2	205-211	Mantov	*[13]	ORGmentioned[13]
+4-3	212-213	.	_	_
+
+#Text=ist beendigt , ob mit vol III .
+5-1	214-217	ist	_	_
+5-2	218-226	beendigt	_	_
+5-3	227-228	,	_	_
+5-4	229-231	ob	_	_
+5-5	232-235	mit	_	_
+5-6	236-239	vol	_	_
+5-7	240-243	III	_	_
+5-8	244-245	.	_	_
+
+#Text=Fasc .
+6-1	246-250	Fasc	_	_
+6-2	251-252	.	_	_
+
+#Text=12 weiß ich auswendig nicht .
+7-1	253-255	12	_	_
+7-2	256-260	weiß	_	_
+7-3	261-264	ich	_	_
+7-4	265-274	auswendig	_	_
+7-5	275-280	nicht	_	_
+7-6	281-282	.	_	_
+
+#Text=- Museo Kircher .
+8-1	283-284	-	_	_
+8-2	285-290	Museo	*[14]	ORGmentioned[14]
+8-3	291-298	Kircher	*[14]	ORGmentioned[14]
+8-4	299-300	.	_	_
+
+#Text=wird besorgt .
+9-1	301-305	wird	_	_
+9-2	306-313	besorgt	_	_
+9-3	314-315	.	_	_
+
+#Text=Gemm ........ ist abgethan .
+10-1	316-320	Gemm	_	_
+10-2	321-329	........	_	_
+10-3	330-333	ist	_	_
+10-4	334-342	abgethan	_	_
+10-5	343-344	.	_	_
+
+#Text=- Leierspielender Hermes unter Pansgestalten mit Pferdefüßen , tanzenden : ein schönes Gegenstück zur Leierspielenden Athena .
+11-1	345-346	-	_	_
+11-2	347-362	Leierspielender	_	_
+11-3	363-369	Hermes	*	PERmentioned
+11-4	370-375	unter	_	_
+11-5	376-389	Pansgestalten	_	_
+11-6	390-393	mit	_	_
+11-7	394-405	Pferdefüßen	_	_
+11-8	406-407	,	_	_
+11-9	408-417	tanzenden	_	_
+11-10	418-419	:	_	_
+11-11	420-423	ein	_	_
+11-12	424-431	schönes	_	_
+11-13	432-442	Gegenstück	_	_
+11-14	443-446	zur	_	_
+11-15	447-462	Leierspielenden	_	_
+11-16	463-469	Athena	*	PERmentioned
+11-17	470-471	.	_	_
+
+#Text=Zeichnung oder Probestich erhalten Sie baldisst .
+12-1	472-481	Zeichnung	_	_
+12-2	482-486	oder	_	_
+12-3	487-497	Probestich	_	_
+12-4	498-506	erhalten	_	_
+12-5	507-510	Sie	_	_
+12-6	511-519	baldisst	_	_
+12-7	520-521	.	_	_
+
+#Text=Wegen der Correspondenten schreibe ich im Einverständniß mit Lepsius von Rom aus .
+13-1	522-527	Wegen	_	_
+13-2	528-531	der	_	_
+13-3	532-547	Correspondenten	_	_
+13-4	548-556	schreibe	_	_
+13-5	557-560	ich	_	_
+13-6	561-563	im	_	_
+13-7	564-578	Einverständniß	_	_
+13-8	579-582	mit	_	_
+13-9	583-590	Lepsius	*	PERmentioned
+13-10	591-594	von	_	_
+13-11	595-598	Rom	*	PLACEmentioned
+13-12	599-602	aus	_	_
+13-13	603-604	.	_	_
+
+#Text=Daß Sie sich unsrer Geldnoth nicht besser annehmen , begreife ich nicht .
+14-1	605-608	Daß	_	_
+14-2	609-612	Sie	_	_
+14-3	613-617	sich	_	_
+14-4	618-624	unsrer	_	_
+14-5	625-633	Geldnoth	_	_
+14-6	634-639	nicht	_	_
+14-7	640-646	besser	_	_
+14-8	647-655	annehmen	_	_
+14-9	656-657	,	_	_
+14-10	658-666	begreife	_	_
+14-11	667-670	ich	_	_
+14-12	671-676	nicht	_	_
+14-13	677-678	.	_	_
+
+#Text=Bunsen hat Anfangs September Geld versprochen \; von dem ist nichts zu hoffen .
+15-1	679-685	Bunsen	*	PERmentioned
+15-2	686-689	hat	_	_
+15-3	690-697	Anfangs	_	_
+15-4	698-707	September	*	DATEmentioned
+15-5	708-712	Geld	_	_
+15-6	713-724	versprochen	_	_
+15-7	725-726	\;	_	_
+15-8	727-730	von	_	_
+15-9	731-734	dem	_	_
+15-10	735-738	ist	_	_
+15-11	739-745	nichts	_	_
+15-12	746-748	zu	_	_
+15-13	749-755	hoffen	_	_
+15-14	756-757	.	_	_
+
+#Text=Gerstäcker und Marcus müssen etwas schaffen .
+16-1	758-768	Gerstäcker	*	PERmentioned
+16-2	769-772	und	_	_
+16-3	773-779	Marcus	*	PERmentioned
+16-4	780-786	müssen	_	_
+16-5	787-792	etwas	_	_
+16-6	793-801	schaffen	_	_
+16-7	802-803	.	_	_
+
+#Text=Wir sind sonst ernstlich genöthigt , die Geschäfte niederzulegen .
+17-1	804-807	Wir	_	_
+17-2	808-812	sind	_	_
+17-3	813-818	sonst	_	_
+17-4	819-828	ernstlich	_	_
+17-5	829-838	genöthigt	_	_
+17-6	839-840	,	_	_
+17-7	841-844	die	_	_
+17-8	845-854	Geschäfte	_	_
+17-9	855-868	niederzulegen	_	_
+17-10	869-870	.	_	_
+
+#Text=- Wenn Sie kein Geld für Vasenrestaurationen an Vollard geschickt haben , so komme ich unter eine neue Traufe .
+18-1	871-872	-	_	_
+18-2	873-877	Wenn	_	_
+18-3	878-881	Sie	_	_
+18-4	882-886	kein	_	_
+18-5	887-891	Geld	_	_
+18-6	892-895	für	_	_
+18-7	896-915	Vasenrestaurationen	_	_
+18-8	916-918	an	_	_
+18-9	919-926	Vollard	*	PERmentioned
+18-10	927-936	geschickt	_	_
+18-11	937-942	haben	_	_
+18-12	943-944	,	_	_
+18-13	945-947	so	_	_
+18-14	948-953	komme	_	_
+18-15	954-957	ich	_	_
+18-16	958-963	unter	_	_
+18-17	964-968	eine	_	_
+18-18	969-973	neue	_	_
+18-19	974-980	Traufe	_	_
+18-20	981-982	.	_	_
+
+#Text=Kurz ich bin blos deshalb so lange außerhalb Roms geblieben , weil ich mich durchaus nicht hineingetraut .
+19-1	983-987	Kurz	_	_
+19-2	988-991	ich	_	_
+19-3	992-995	bin	_	_
+19-4	996-1000	blos	_	_
+19-5	1001-1008	deshalb	_	_
+19-6	1009-1011	so	_	_
+19-7	1012-1017	lange	_	_
+19-8	1018-1027	außerhalb	_	_
+19-9	1028-1032	Roms	*	PLACEmentioned
+19-10	1033-1042	geblieben	_	_
+19-11	1043-1044	,	_	_
+19-12	1045-1049	weil	_	_
+19-13	1050-1053	ich	_	_
+19-14	1054-1058	mich	_	_
+19-15	1059-1067	durchaus	_	_
+19-16	1068-1073	nicht	_	_
+19-17	1074-1087	hineingetraut	_	_
+19-18	1088-1089	.	_	_
+
+#Text=Sie haben keinen Begriff , was der arme Lepsius hat ausstehen müssen .
+20-1	1090-1093	Sie	_	_
+20-2	1094-1099	haben	_	_
+20-3	1100-1106	keinen	_	_
+20-4	1107-1114	Begriff	_	_
+20-5	1115-1116	,	_	_
+20-6	1117-1120	was	_	_
+20-7	1121-1124	der	_	_
+20-8	1125-1129	arme	_	_
+20-9	1130-1137	Lepsius	*	PERmentioned
+20-10	1138-1141	hat	_	_
+20-11	1142-1151	ausstehen	_	_
+20-12	1152-1158	müssen	_	_
+20-13	1159-1160	.	_	_
+
+#Text=Dabei der brummige Lanci , der durchaus nichts thuen will , wenn kein Geld da ist .
+21-1	1161-1166	Dabei	_	_
+21-2	1167-1170	der	_	_
+21-3	1171-1179	brummige	_	_
+21-4	1180-1185	Lanci	*	PERmentioned
+21-5	1186-1187	,	_	_
+21-6	1188-1191	der	_	_
+21-7	1192-1200	durchaus	_	_
+21-8	1201-1207	nichts	_	_
+21-9	1208-1213	thuen	_	_
+21-10	1214-1218	will	_	_
+21-11	1219-1220	,	_	_
+21-12	1221-1225	wenn	_	_
+21-13	1226-1230	kein	_	_
+21-14	1231-1235	Geld	_	_
+21-15	1236-1238	da	_	_
+21-16	1239-1242	ist	_	_
+21-17	1243-1244	.	_	_
+
+#Text=Um des Himmels Willen , was soll daraus werden ?
+22-1	1245-1247	Um	_	_
+22-2	1248-1251	des	_	_
+22-3	1252-1259	Himmels	_	_
+22-4	1260-1266	Willen	_	_
+22-5	1267-1268	,	_	_
+22-6	1269-1272	was	_	_
+22-7	1273-1277	soll	_	_
+22-8	1278-1284	daraus	_	_
+22-9	1285-1291	werden	_	_
+22-10	1292-1293	?	_	_
+
+#Text=- Ich wäre lange schon auf der Straße liegen geblieben , wenn mir nicht Sulpiz Boisser & e den ich in Bologna traf , 60 Scudi geliehen hätte .
+23-1	1294-1295	-	_	_
+23-2	1296-1299	Ich	_	_
+23-3	1300-1304	wäre	_	_
+23-4	1305-1310	lange	_	_
+23-5	1311-1316	schon	_	_
+23-6	1317-1320	auf	_	_
+23-7	1321-1324	der	_	_
+23-8	1325-1331	Straße	_	_
+23-9	1332-1338	liegen	_	_
+23-10	1339-1348	geblieben	_	_
+23-11	1349-1350	,	_	_
+23-12	1351-1355	wenn	_	_
+23-13	1356-1359	mir	_	_
+23-14	1360-1365	nicht	_	_
+23-15	1366-1372	Sulpiz	*[15]	PERmentioned[15]
+23-16	1373-1380	Boisser	*[15]	PERmentioned[15]
+23-17	1381-1382	&	*[15]	PERmentioned[15]
+23-18	1383-1384	e	*[15]	PERmentioned[15]
+23-19	1385-1388	den	_	_
+23-20	1389-1392	ich	_	_
+23-21	1393-1395	in	_	_
+23-22	1396-1403	Bologna	*	PLACEmentioned
+23-23	1404-1408	traf	_	_
+23-24	1409-1410	,	_	_
+23-25	1411-1413	60	_	_
+23-26	1414-1419	Scudi	_	_
+23-27	1420-1428	geliehen	_	_
+23-28	1429-1434	hätte	_	_
+23-29	1435-1436	.	_	_
+
+#Text=Kurz die Noth ist aufs Äußerste groß .
+24-1	1437-1441	Kurz	_	_
+24-2	1442-1445	die	_	_
+24-3	1446-1450	Noth	_	_
+24-4	1451-1454	ist	_	_
+24-5	1455-1459	aufs	_	_
+24-6	1460-1468	Äußerste	_	_
+24-7	1469-1473	groß	_	_
+24-8	1474-1475	.	_	_
+
+#Text=Weiteres schreibe ich Ihnen von Rom .
+25-1	1476-1484	Weiteres	_	_
+25-2	1485-1493	schreibe	_	_
+25-3	1494-1497	ich	_	_
+25-4	1498-1503	Ihnen	_	_
+25-5	1504-1507	von	_	_
+25-6	1508-1511	Rom	*	PLACEmentioned
+25-7	1512-1513	.	_	_
+
+#Text=ÜUnterdessen Gott befohlen Ihr treu ergebener EBraun .
+26-1	1514-1526	ÜUnterdessen	_	_
+26-2	1527-1531	Gott	_	_
+26-3	1532-1540	befohlen	_	_
+26-4	1541-1544	Ihr	_	_
+26-5	1545-1549	treu	_	_
+26-6	1550-1559	ergebener	_	_
+26-7	1560-1566	EBraun	*	PERauthor
+26-8	1567-1568	.	_	_

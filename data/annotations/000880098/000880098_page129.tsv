@@ -1,0 +1,83 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=872 Braun an Gerhard Rom , 13. Dezember 1834 -5- Athenaeus ed .
+1-1	0-3	872	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[1]	DATEletter[1]
+1-8	31-39	Dezember	*[1]	DATEletter[1]
+1-9	40-44	1834	*[1]	DATEletter[1]
+1-10	45-48	-5-	_	_
+1-11	49-58	Athenaeus	*	PERmentioned
+1-12	59-61	ed	_	_
+1-13	62-63	.	_	_
+
+#Text=Dindorf erbitte ich mir mit nächster Sendung .
+2-1	64-71	Dindorf	*	PERmentioned
+2-2	72-79	erbitte	_	_
+2-3	80-83	ich	_	_
+2-4	84-87	mir	_	_
+2-5	88-91	mit	_	_
+2-6	92-100	nächster	_	_
+2-7	101-108	Sendung	_	_
+2-8	109-110	.	_	_
+
+#Text=Wir estehen meine Rechnungsangelegenheiten , d.h .
+3-1	111-114	Wir	_	_
+3-2	115-122	estehen	_	_
+3-3	123-128	meine	_	_
+3-4	129-153	Rechnungsangelegenheiten	_	_
+3-5	154-155	,	_	_
+3-6	156-159	d.h	_	_
+3-7	160-161	.	_	_
+
+#Text=wie viel schulde ich Ihnen ?
+4-1	162-165	wie	_	_
+4-2	166-170	viel	_	_
+4-3	171-178	schulde	_	_
+4-4	179-182	ich	_	_
+4-5	183-188	Ihnen	_	_
+4-6	189-190	?	_	_
+
+#Text=Ihre Circe tritt in der Zeichnung , die Bellog davon gemacht , vortrefflich heraus .
+5-1	191-195	Ihre	_	_
+5-2	196-201	Circe	*	PERmentioned
+5-3	202-207	tritt	_	_
+5-4	208-210	in	_	_
+5-5	211-214	der	_	_
+5-6	215-224	Zeichnung	*	MISC
+5-7	225-226	,	_	_
+5-8	227-230	die	_	_
+5-9	231-237	Bellog	*	PERmentioned
+5-10	238-243	davon	_	_
+5-11	244-251	gemacht	_	_
+5-12	252-253	,	_	_
+5-13	254-266	vortrefflich	_	_
+5-14	267-273	heraus	_	_
+5-15	274-275	.	_	_
+
+#Text=Ueber der Kyknos habe ich noch keine Gewissheit von Campanaris .
+6-1	276-281	Ueber	_	_
+6-2	282-285	der	_	_
+6-3	286-292	Kyknos	*	OBJ
+6-4	293-297	habe	_	_
+6-5	298-301	ich	_	_
+6-6	302-306	noch	_	_
+6-7	307-312	keine	_	_
+6-8	313-323	Gewissheit	_	_
+6-9	324-327	von	_	_
+6-10	328-338	Campanaris	*	PERmentioned
+6-11	339-340	.	_	_
+
+#Text=Ein Andermal ein Mehreres Ihr Braun
+7-1	341-344	Ein	_	_
+7-2	345-353	Andermal	_	_
+7-3	354-357	ein	_	_
+7-4	358-366	Mehreres	_	_
+7-5	367-370	Ihr	_	_
+7-6	371-376	Braun	*	PERauthor

@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=378 Braun an Gerhard Rom , 26. Mai 1838 - 4 —\_ Stele , die zur Composition gehört .
+1-1	0-3	378	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	26.	*[4]	DATEletter[4]
+1-8	31-34	Mai	*[4]	DATEletter[4]
+1-9	35-39	1838	*[4]	DATEletter[4]
+1-10	40-41	-	_	_
+1-11	42-43	4	_	_
+1-12	44-46	—\_	_	_
+1-13	47-52	Stele	_	_
+1-14	53-54	,	_	_
+1-15	55-58	die	_	_
+1-16	59-62	zur	_	_
+1-17	63-74	Composition	_	_
+1-18	75-81	gehört	_	_
+1-19	82-83	.	_	_
+
+#Text=Er verlangt 50 Scudi dafür , früher 80 .
+2-1	84-86	Er	_	_
+2-2	87-95	verlangt	_	_
+2-3	96-98	50	_	_
+2-4	99-104	Scudi	_	_
+2-5	105-110	dafür	_	_
+2-6	111-112	,	_	_
+2-7	113-119	früher	_	_
+2-8	120-122	80	_	_
+2-9	123-124	.	_	_
+
+#Text=Zu Correspondenten empfehlen.sich a , Lisandro Kaftangioglu , ein geistvoller griechischer Architect , der dem Institut sehr interessante Reiseberichte vorgelegt hat und sie dem Bullettino überläßt .
+3-1	125-127	Zu	_	_
+3-2	128-143	Correspondenten	_	_
+3-3	144-158	empfehlen.sich	_	_
+3-4	159-160	a	_	_
+3-5	161-162	,	_	_
+3-6	163-171	Lisandro	*[5]	PERmentioned[5]
+3-7	172-184	Kaftangioglu	*[5]	PERmentioned[5]
+3-8	185-186	,	_	_
+3-9	187-190	ein	_	_
+3-10	191-202	geistvoller	_	_
+3-11	203-215	griechischer	_	_
+3-12	216-225	Architect	_	_
+3-13	226-227	,	_	_
+3-14	228-231	der	_	_
+3-15	232-235	dem	_	_
+3-16	236-244	Institut	*	ORGmentioned
+3-17	245-249	sehr	_	_
+3-18	250-262	interessante	_	_
+3-19	263-276	Reiseberichte	_	_
+3-20	277-286	vorgelegt	_	_
+3-21	287-290	hat	_	_
+3-22	291-294	und	_	_
+3-23	295-298	sie	_	_
+3-24	299-302	dem	_	_
+3-25	303-313	Bullettino	_	_
+3-26	314-322	überläßt	_	_
+3-27	323-324	.	_	_
+
+#Text=b , Giuseppe Martelli , Architetto delle regie Fabbriche in Firenze , durch den wir Mittheilungen über einen sehr wichtigen Codex des Balt .
+4-1	325-326	b	_	_
+4-2	327-328	,	_	_
+4-3	329-337	Giuseppe	*[7]	PERmentioned[7]
+4-4	338-346	Martelli	*[7]	PERmentioned[7]
+4-5	347-348	,	_	_
+4-6	349-359	Architetto	_	_
+4-7	360-365	delle	_	_
+4-8	366-371	regie	_	_
+4-9	372-381	Fabbriche	_	_
+4-10	382-384	in	_	_
+4-11	385-392	Firenze	*	PLACEmentioned
+4-12	393-394	,	_	_
+4-13	395-400	durch	_	_
+4-14	401-404	den	_	_
+4-15	405-408	wir	_	_
+4-16	409-422	Mittheilungen	_	_
+4-17	423-427	über	_	_
+4-18	428-433	einen	_	_
+4-19	434-438	sehr	_	_
+4-20	439-448	wichtigen	_	_
+4-21	449-454	Codex	_	_
+4-22	455-458	des	_	_
+4-23	459-463	Balt	*[9]	PERmentioned[9]
+4-24	464-465	.	*[9]	PERmentioned[9]
+
+#Text=Feruzzi , architektonische Zeichnungen enthaltend , verhoffen .
+5-1	466-473	Feruzzi	*[9]	PERmentioned[9]
+5-2	474-475	,	_	_
+5-3	476-492	architektonische	_	_
+5-4	493-504	Zeichnungen	_	_
+5-5	505-515	enthaltend	_	_
+5-6	516-517	,	_	_
+5-7	518-527	verhoffen	_	_
+5-8	528-529	.	_	_

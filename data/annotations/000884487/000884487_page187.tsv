@@ -1,0 +1,242 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 29. Juni 1837 em ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	29.	*[4]	DATEletter[4]
+1-7	31-35	Juni	*[4]	DATEletter[4]
+1-8	36-40	1837	*[4]	DATEletter[4]
+1-9	41-43	em	_	_
+1-10	44-45	?	_	_
+
+#Text={ fi , eingelaufen ?
+2-1	46-47	{	_	_
+2-2	48-50	fi	_	_
+2-3	51-52	,	_	_
+2-4	53-64	eingelaufen	_	_
+2-5	65-66	?	_	_
+
+#Text=wo nicht , so bitte ich m : zu .
+3-1	67-69	wo	_	_
+3-2	70-75	nicht	_	_
+3-3	76-77	,	_	_
+3-4	78-80	so	_	_
+3-5	81-86	bitte	_	_
+3-6	87-90	ich	_	_
+3-7	91-92	m	_	_
+3-8	93-94	:	_	_
+3-9	95-97	zu	_	_
+3-10	98-99	.	_	_
+
+#Text=mahnen .
+4-1	100-106	mahnen	_	_
+4-2	107-108	.	_	_
+
+#Text=Bolaffi liquidirt Scudi 2.56 für Portoauslagen \; das Institut wird ( allenfalls durch Lanci ) Gelegenheit haben sie ihm sofort mit meiner Einlage zuzustellen , sonst vorläufig die Einlage die ich zur Bescheinigung meiner Briefe nicht verzögern darf .
+5-1	109-116	Bolaffi	*	PERmentioned
+5-2	117-126	liquidirt	_	_
+5-3	127-132	Scudi	_	_
+5-4	133-137	2.56	_	_
+5-5	138-141	für	_	_
+5-6	142-155	Portoauslagen	_	_
+5-7	156-157	\;	_	_
+5-8	158-161	das	_	_
+5-9	162-170	Institut	*	ORGmentioned
+5-10	171-175	wird	_	_
+5-11	176-177	(	_	_
+5-12	178-188	allenfalls	_	_
+5-13	189-194	durch	_	_
+5-14	195-200	Lanci	*	PERmentioned
+5-15	201-202	)	_	_
+5-16	203-214	Gelegenheit	_	_
+5-17	215-220	haben	_	_
+5-18	221-224	sie	_	_
+5-19	225-228	ihm	_	_
+5-20	229-235	sofort	_	_
+5-21	236-239	mit	_	_
+5-22	240-246	meiner	_	_
+5-23	247-254	Einlage	_	_
+5-24	255-266	zuzustellen	_	_
+5-25	267-268	,	_	_
+5-26	269-274	sonst	_	_
+5-27	275-284	vorläufig	_	_
+5-28	285-288	die	_	_
+5-29	289-296	Einlage	_	_
+5-30	297-300	die	_	_
+5-31	301-304	ich	_	_
+5-32	305-308	zur	_	_
+5-33	309-322	Bescheinigung	_	_
+5-34	323-329	meiner	_	_
+5-35	330-336	Briefe	_	_
+5-36	337-342	nicht	_	_
+5-37	343-352	verzögern	_	_
+5-38	353-357	darf	_	_
+5-39	358-359	.	_	_
+
+#Text=Ich will es einlenken daß er auch für Institutssendungen nach Griechenland willfährig bleibe \; Eine Redensart von ihm bei Anweisung d. Ghäs genügt , oder später vor Bunsen wie etwas zu senden vorfällig .
+6-1	360-363	Ich	_	_
+6-2	364-368	will	_	_
+6-3	369-371	es	_	_
+6-4	372-381	einlenken	_	_
+6-5	382-385	daß	_	_
+6-6	386-388	er	_	_
+6-7	389-393	auch	_	_
+6-8	394-397	für	_	_
+6-9	398-416	Institutssendungen	_	_
+6-10	417-421	nach	_	_
+6-11	422-434	Griechenland	*	PLACEmentioned
+6-12	435-445	willfährig	_	_
+6-13	446-452	bleibe	_	_
+6-14	453-454	\;	_	_
+6-15	455-459	Eine	_	_
+6-16	460-469	Redensart	_	_
+6-17	470-473	von	_	_
+6-18	474-477	ihm	_	_
+6-19	478-481	bei	_	_
+6-20	482-491	Anweisung	_	_
+6-21	492-494	d.	_	_
+6-22	495-499	Ghäs	_	_
+6-23	500-506	genügt	_	_
+6-24	507-508	,	_	_
+6-25	509-513	oder	_	_
+6-26	514-520	später	_	_
+6-27	521-524	vor	_	_
+6-28	525-531	Bunsen	*	PERmentioned
+6-29	532-535	wie	_	_
+6-30	536-541	etwas	_	_
+6-31	542-544	zu	_	_
+6-32	545-551	senden	_	_
+6-33	552-561	vorfällig	_	_
+6-34	562-563	.	_	_
+
+#Text=De Wittes Reise scheint unterblieben zu sein ?
+7-1	564-566	De	*[10]	PERmentioned[10]
+7-2	567-573	Wittes	*[10]	PERmentioned[10]
+7-3	574-579	Reise	_	_
+7-4	580-587	scheint	_	_
+7-5	588-600	unterblieben	_	_
+7-6	601-603	zu	_	_
+7-7	604-608	sein	_	_
+7-8	609-610	?	_	_
+
+#Text=Schicken Sie mir seinen Katalog der Caninovasen wo möglich noch hieher .
+8-1	611-619	Schicken	_	_
+8-2	620-623	Sie	_	_
+8-3	624-627	mir	_	_
+8-4	628-634	seinen	_	_
+8-5	635-642	Katalog	_	_
+8-6	643-646	der	_	_
+8-7	647-658	Caninovasen	_	_
+8-8	659-661	wo	_	_
+8-9	662-669	möglich	_	_
+8-10	670-674	noch	_	_
+8-11	675-681	hieher	_	_
+8-12	682-683	.	_	_
+
+#Text=Ich bin sehr geneigt Spiegelzeichnungen noch in Anzahl zum Stich in Rom zu lassen .
+9-1	684-687	Ich	_	_
+9-2	688-691	bin	_	_
+9-3	692-696	sehr	_	_
+9-4	697-704	geneigt	_	_
+9-5	705-723	Spiegelzeichnungen	_	_
+9-6	724-728	noch	_	_
+9-7	729-731	in	_	_
+9-8	732-738	Anzahl	_	_
+9-9	739-742	zum	_	_
+9-10	743-748	Stich	_	_
+9-11	749-751	in	_	_
+9-12	752-755	Rom	*	PLACEmentioned
+9-13	756-758	zu	_	_
+9-14	759-765	lassen	_	_
+9-15	766-767	.	_	_
+
+#Text=Die st 7 büste hatte Gerstäcker zum 3 März wegen der fortwährenden Cholerasperre noch nicht abgesandt \; wünschte auch man möge solches zu einigem Vortheil des Instituts lieber durch Rauch sehn lassen .
+10-1	768-771	Die	_	_
+10-2	772-774	st	_	_
+10-3	775-776	7	_	_
+10-4	777-782	büste	_	_
+10-5	783-788	hatte	_	_
+10-6	789-799	Gerstäcker	*	PERmentioned
+10-7	800-803	zum	_	_
+10-8	804-805	3	_	_
+10-9	806-810	März	_	_
+10-10	811-816	wegen	_	_
+10-11	817-820	der	_	_
+10-12	821-834	fortwährenden	_	_
+10-13	835-848	Cholerasperre	_	_
+10-14	849-853	noch	_	_
+10-15	854-859	nicht	_	_
+10-16	860-869	abgesandt	_	_
+10-17	870-871	\;	_	_
+10-18	872-880	wünschte	_	_
+10-19	881-885	auch	_	_
+10-20	886-889	man	_	_
+10-21	890-894	möge	_	_
+10-22	895-902	solches	_	_
+10-23	903-905	zu	_	_
+10-24	906-913	einigem	_	_
+10-25	914-922	Vortheil	_	_
+10-26	923-926	des	_	_
+10-27	927-936	Instituts	*	ORGmentioned
+10-28	937-943	lieber	_	_
+10-29	944-949	durch	_	_
+10-30	950-955	Rauch	*	PERmentioned
+10-31	956-960	sehn	_	_
+10-32	961-967	lassen	_	_
+10-33	968-969	.	_	_
+
+#Text=Das Duplikat seiner Rechnung verlangte er attestirt zurück .
+11-1	970-973	Das	_	_
+11-2	974-982	Duplikat	_	_
+11-3	983-989	seiner	_	_
+11-4	990-998	Rechnung	_	_
+11-5	999-1008	verlangte	_	_
+11-6	1009-1011	er	_	_
+11-7	1012-1021	attestirt	_	_
+11-8	1022-1028	zurück	_	_
+11-9	1029-1030	.	_	_
+
+#Text=In Betreff von Spedition nach Berlin räth er auf den frühreren Accord im Ganzen zurückzukehren .
+12-1	1031-1033	In	_	_
+12-2	1034-1041	Betreff	_	_
+12-3	1042-1045	von	_	_
+12-4	1046-1055	Spedition	_	_
+12-5	1056-1060	nach	_	_
+12-6	1061-1067	Berlin	*	PLACEmentioned
+12-7	1068-1072	räth	_	_
+12-8	1073-1075	er	_	_
+12-9	1076-1079	auf	_	_
+12-10	1080-1083	den	_	_
+12-11	1084-1093	frühreren	_	_
+12-12	1094-1100	Accord	_	_
+12-13	1101-1103	im	_	_
+12-14	1104-1110	Ganzen	_	_
+12-15	1111-1125	zurückzukehren	_	_
+12-16	1126-1127	.	_	_
+
+#Text=S mo dt lassen Sie doch mit besten Grüßen wissen , daß ein Mio tscher Brief , vermuthlich nichts Neu-
+13-1	1128-1129	S	_	_
+13-2	1130-1132	mo	_	_
+13-3	1133-1135	dt	_	_
+13-4	1136-1142	lassen	_	_
+13-5	1143-1146	Sie	_	_
+13-6	1147-1151	doch	_	_
+13-7	1152-1155	mit	_	_
+13-8	1156-1162	besten	_	_
+13-9	1163-1169	Grüßen	_	_
+13-10	1170-1176	wissen	_	_
+13-11	1177-1178	,	_	_
+13-12	1179-1182	daß	_	_
+13-13	1183-1186	ein	_	_
+13-14	1187-1190	Mio	_	_
+13-15	1191-1197	tscher	_	_
+13-16	1198-1203	Brief	_	_
+13-17	1204-1205	,	_	_
+13-18	1206-1217	vermuthlich	_	_
+13-19	1218-1224	nichts	_	_
+13-20	1225-1229	Neu-	_	_

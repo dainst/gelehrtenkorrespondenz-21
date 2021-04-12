@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=236 Gerhard an Braun Berlin , 5. Juli 1845 A. d . Dir .
+1-1	0-3	236	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	5.	*[2]	DATEletter[2]
+1-8	33-37	Juli	*[2]	DATEletter[2]
+1-9	38-42	1845	*[2]	DATEletter[2]
+1-10	43-45	A.	_	_
+1-11	46-47	d	_	_
+1-12	48-49	.	_	_
+1-13	50-53	Dir	_	_
+1-14	54-55	.	_	_
+
+#Text=g . 17/VII 45 r . 148/VII 45 Dr. Braun Berlin 5 Juli 45 Mein theurer Freund .
+2-1	56-57	g	_	_
+2-2	58-59	.	_	_
+2-3	60-66	17/VII	*[3]	DATErecieved[3]
+2-4	67-69	45	*[3]	DATErecieved[3]
+2-5	70-71	r	_	_
+2-6	72-73	.	_	_
+2-7	74-81	148/VII	*[4]	DATEanswered[4]
+2-8	82-84	45	*[4]	DATEanswered[4]
+2-9	85-88	Dr.	*[1]	PERaddressee[1]
+2-10	89-94	Braun	*[1]	PERaddressee[1]
+2-11	95-101	Berlin	*	PLACEfrom
+2-12	102-103	5	*[5]	DATEletter[5]
+2-13	104-108	Juli	*[5]	DATEletter[5]
+2-14	109-111	45	*[5]	DATEletter[5]
+2-15	112-116	Mein	_	_
+2-16	117-124	theurer	_	_
+2-17	125-131	Freund	_	_
+2-18	132-133	.	_	_
+
+#Text=Ich erwarte den Wechsel von 150 rt ohne welchen dieser Brief nicht abgehen soll .
+3-1	134-137	Ich	_	_
+3-2	138-145	erwarte	_	_
+3-3	146-149	den	_	_
+3-4	150-157	Wechsel	_	_
+3-5	158-161	von	_	_
+3-6	162-165	150	_	_
+3-7	166-168	rt	_	_
+3-8	169-173	ohne	_	_
+3-9	174-181	welchen	_	_
+3-10	182-188	dieser	_	_
+3-11	189-194	Brief	_	_
+3-12	195-200	nicht	_	_
+3-13	201-208	abgehen	_	_
+3-14	209-213	soll	_	_
+3-15	214-215	.	_	_
+
+#Text=Die übrigen 50 rt warten auf den Thechnikus .
+4-1	216-219	Die	_	_
+4-2	220-227	übrigen	_	_
+4-3	228-230	50	_	_
+4-4	231-233	rt	_	_
+4-5	234-240	warten	_	_
+4-6	241-244	auf	_	_
+4-7	245-248	den	_	_
+4-8	249-259	Thechnikus	_	_
+4-9	260-261	.	_	_
+
+#Text=Ein neuer Epigraph der dem französischen Corpus auch Rathschläge der Eintheilung gibt ist im jungen Zumpt erstanden der über lavinische und laurentinische Inschriften geschrieben hat .
+5-1	262-265	Ein	_	_
+5-2	266-271	neuer	_	_
+5-3	272-280	Epigraph	_	_
+5-4	281-284	der	_	_
+5-5	285-288	dem	_	_
+5-6	289-302	französischen	_	_
+5-7	303-309	Corpus	_	_
+5-8	310-314	auch	_	_
+5-9	315-326	Rathschläge	_	_
+5-10	327-330	der	_	_
+5-11	331-342	Eintheilung	_	_
+5-12	343-347	gibt	_	_
+5-13	348-351	ist	_	_
+5-14	352-354	im	_	_
+5-15	355-361	jungen	_	_
+5-16	362-367	Zumpt	_	_
+5-17	368-377	erstanden	_	_
+5-18	378-381	der	_	_
+5-19	382-386	über	_	_
+5-20	387-397	lavinische	*	MISC
+5-21	398-401	und	_	_
+5-22	402-416	laurentinische	*	MISC
+5-23	417-428	Inschriften	*	OBJ
+5-24	429-440	geschrieben	_	_
+5-25	441-444	hat	_	_
+5-26	445-446	.	_	_
+
+#Text=Wer hat den Artikel über die Frangois'sche Vase in der Allgemeinen Zeitung abgefaßt ?
+6-1	447-450	Wer	_	_
+6-2	451-454	hat	_	_
+6-3	455-458	den	_	_
+6-4	459-466	Artikel	_	_
+6-5	467-471	über	_	_
+6-6	472-475	die	_	_
+6-7	476-489	Frangois'sche	*[6]	OBJ[6]
+6-8	490-494	Vase	*[6]	OBJ[6]
+6-9	495-497	in	_	_
+6-10	498-501	der	_	_
+6-11	502-513	Allgemeinen	_	_
+6-12	514-521	Zeitung	_	_
+6-13	522-530	abgefaßt	_	_
+6-14	531-532	?	_	_
+
+#Text=Die Xpvey Vase Millingen Paint pl 51 Müller Denkmäler I , 10 kennen Sie nicht ?
+7-1	533-536	Die	_	_
+7-2	537-542	Xpvey	*[7]	OBJ[7]
+7-3	543-547	Vase	*[7]	OBJ[7]
+7-4	548-557	Millingen	*	PERmentioned
+7-5	558-563	Paint	_	_
+7-6	564-566	pl	_	_
+7-7	567-569	51	_	_
+7-8	570-576	Müller	*	PERmentioned
+7-9	577-586	Denkmäler	_	_
+7-10	587-588	I	_	_
+7-11	589-590	,	_	_
+7-12	591-593	10	_	_
+7-13	594-600	kennen	_	_
+7-14	601-604	Sie	_	_
+7-15	605-610	nicht	_	_
+7-16	611-612	?	_	_
+
+#Text=Aus Wien werde ich jedoch versichert , daß IHEAN falsch und NAOERN vermuthlich 10 ( NENE ) das richtige sei .
+8-1	613-616	Aus	_	_
+8-2	617-621	Wien	*	PLACEmentioned
+8-3	622-627	werde	_	_
+8-4	628-631	ich	_	_
+8-5	632-638	jedoch	_	_
+8-6	639-649	versichert	_	_
+8-7	650-651	,	_	_
+8-8	652-655	daß	_	_
+8-9	656-661	IHEAN	_	_
+8-10	662-668	falsch	_	_
+8-11	669-672	und	_	_
+8-12	673-679	NAOERN	_	_
+8-13	680-691	vermuthlich	_	_
+8-14	692-694	10	_	_
+8-15	695-696	(	_	_
+8-16	697-701	NENE	_	_
+8-17	702-703	)	_	_
+8-18	704-707	das	_	_
+8-19	708-716	richtige	_	_
+8-20	717-720	sei	_	_
+8-21	721-722	.	_	_
+
+#Text=Vinet wird votirt \; der Brief an Rathgeber ist befördert , auch der an Bergk .
+9-1	723-728	Vinet	*	PERmentioned
+9-2	729-733	wird	_	_
+9-3	734-740	votirt	_	_
+9-4	741-742	\;	_	_
+9-5	743-746	der	_	_
+9-6	747-752	Brief	_	_
+9-7	753-755	an	_	_
+9-8	756-765	Rathgeber	*	PERmentioned
+9-9	766-769	ist	_	_
+9-10	770-779	befördert	_	_
+9-11	780-781	,	_	_
+9-12	782-786	auch	_	_
+9-13	787-790	der	_	_
+9-14	791-793	an	_	_
+9-15	794-799	Bergk	*	PERmentioned
+9-16	800-801	.	_	_
+
+#Text=Archäologische Zeitung no .
+10-1	802-816	Archäologische	_	_
+10-2	817-824	Zeitung	_	_
+10-3	825-827	no	_	_
+10-4	828-829	.	_	_
+
+#Text=31 sende ich unter Adresse des Instituts auf Ministerialwege um es , wenn Sie Kenntnis davon genommen an Borghesi zu senden .
+11-1	830-832	31	_	_
+11-2	833-838	sende	_	_
+11-3	839-842	ich	_	_
+11-4	843-848	unter	_	_
+11-5	849-856	Adresse	_	_
+11-6	857-860	des	_	_
+11-7	861-870	Instituts	*	ORGmentioned
+11-8	871-874	auf	_	_
+11-9	875-890	Ministerialwege	_	_
+11-10	891-893	um	_	_
+11-11	894-896	es	_	_
+11-12	897-898	,	_	_
+11-13	899-903	wenn	_	_
+11-14	904-907	Sie	_	_
+11-15	908-916	Kenntnis	_	_
+11-16	917-922	davon	_	_
+11-17	923-931	genommen	_	_
+11-18	932-934	an	_	_
+11-19	935-943	Borghesi	*	PERmentioned
+11-20	944-946	zu	_	_
+11-21	947-953	senden	_	_
+11-22	954-955	.	_	_
+
+#Text=Einige Entpapstung kann dem Capranesi nicht schaden .
+12-1	956-962	Einige	_	_
+12-2	963-974	Entpapstung	_	_
+12-3	975-979	kann	_	_
+12-4	980-983	dem	_	_
+12-5	984-993	Capranesi	*	PERmentioned
+12-6	994-999	nicht	_	_
+12-7	1000-1007	schaden	_	_
+12-8	1008-1009	.	_	_

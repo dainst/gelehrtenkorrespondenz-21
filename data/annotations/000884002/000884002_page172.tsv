@@ -1,0 +1,254 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia , 12. Juli 1863 werden kann .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Perugia	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	12.	*[11]	DATEletter[11]
+1-7	30-34	Juli	*[11]	DATEletter[11]
+1-8	35-39	1863	*[11]	DATEletter[11]
+1-9	40-46	werden	_	_
+1-10	47-51	kann	_	_
+1-11	52-53	.	_	_
+
+#Text=So wird also sicher die Brücke von Alconturu aufgenommen , Sehen Sie doch zu ob nicht etwa Zimmermann ein wenig architektonischen Text liefern kann .
+2-1	54-56	So	_	_
+2-2	57-61	wird	_	_
+2-3	62-66	also	_	_
+2-4	67-73	sicher	_	_
+2-5	74-77	die	_	_
+2-6	78-84	Brücke	*	OBJ
+2-7	85-88	von	_	_
+2-8	89-98	Alconturu	*	PLACEmentioned
+2-9	99-110	aufgenommen	_	_
+2-10	111-112	,	_	_
+2-11	113-118	Sehen	_	_
+2-12	119-122	Sie	_	_
+2-13	123-127	doch	_	_
+2-14	128-130	zu	_	_
+2-15	131-133	ob	_	_
+2-16	134-139	nicht	_	_
+2-17	140-144	etwa	_	_
+2-18	145-155	Zimmermann	*	PERmentioned
+2-19	156-159	ein	_	_
+2-20	160-165	wenig	_	_
+2-21	166-183	architektonischen	_	_
+2-22	184-188	Text	_	_
+2-23	189-196	liefern	_	_
+2-24	197-201	kann	_	_
+2-25	202-203	.	_	_
+
+#Text=In Rom plagte mich eines Tags Poppioli damit , daß er für die , wie ich glaube , mit der Institutskiste nach verschiedenen Orten Deutschlands gesandten Schriften seines Vaters oder Onkels kein Empfangg , rep . Dankbriefe erhalte .
+3-1	204-206	In	_	_
+3-2	207-210	Rom	*	PLACEmentioned
+3-3	211-217	plagte	_	_
+3-4	218-222	mich	_	_
+3-5	223-228	eines	_	_
+3-6	229-233	Tags	_	_
+3-7	234-242	Poppioli	*	PERmentioned
+3-8	243-248	damit	_	_
+3-9	249-250	,	_	_
+3-10	251-254	daß	_	_
+3-11	255-257	er	_	_
+3-12	258-261	für	_	_
+3-13	262-265	die	_	_
+3-14	266-267	,	_	_
+3-15	268-271	wie	_	_
+3-16	272-275	ich	_	_
+3-17	276-282	glaube	_	_
+3-18	283-284	,	_	_
+3-19	285-288	mit	_	_
+3-20	289-292	der	_	_
+3-21	293-307	Institutskiste	_	_
+3-22	308-312	nach	_	_
+3-23	313-326	verschiedenen	_	_
+3-24	327-332	Orten	_	_
+3-25	333-345	Deutschlands	*	PERmentioned
+3-26	346-355	gesandten	_	_
+3-27	356-365	Schriften	_	_
+3-28	366-372	seines	*[12]	PERmentioned[12]
+3-29	373-379	Vaters	*[12]	PERmentioned[12]
+3-30	380-384	oder	_	_
+3-31	385-391	Onkels	*	PERmentioned
+3-32	392-396	kein	_	_
+3-33	397-405	Empfangg	_	_
+3-34	406-407	,	_	_
+3-35	408-411	rep	_	_
+3-36	412-413	.	_	_
+3-37	414-424	Dankbriefe	_	_
+3-38	425-432	erhalte	_	_
+3-39	433-434	.	_	_
+
+#Text=Ich weiß von der Sache weiter nichts , und Sie werden wohl auch nichts dafür thun können .
+4-1	435-438	Ich	_	_
+4-2	439-443	weiß	_	_
+4-3	444-447	von	_	_
+4-4	448-451	der	_	_
+4-5	452-457	Sache	_	_
+4-6	458-464	weiter	_	_
+4-7	465-471	nichts	_	_
+4-8	472-473	,	_	_
+4-9	474-477	und	_	_
+4-10	478-481	Sie	_	_
+4-11	482-488	werden	_	_
+4-12	489-493	wohl	_	_
+4-13	494-498	auch	_	_
+4-14	499-505	nichts	_	_
+4-15	506-511	dafür	_	_
+4-16	512-516	thun	_	_
+4-17	517-523	können	_	_
+4-18	524-525	.	_	_
+
+#Text=Ich las neulich von kleinen Krawallen in Berlin .
+5-1	526-529	Ich	_	_
+5-2	530-533	las	_	_
+5-3	534-541	neulich	_	_
+5-4	542-545	von	_	_
+5-5	546-553	kleinen	_	_
+5-6	554-563	Krawallen	_	_
+5-7	564-566	in	_	_
+5-8	567-573	Berlin	*	PLACEmentioned
+5-9	574-575	.	_	_
+
+#Text=Wie sieht es überhaupt aus .
+6-1	576-579	Wie	_	_
+6-2	580-585	sieht	_	_
+6-3	586-588	es	_	_
+6-4	589-598	überhaupt	_	_
+6-5	599-602	aus	_	_
+6-6	603-604	.	_	_
+
+#Text=In Arezzo habe ich außer den Urnen auch eine schöne und interessante Amazonenvase mit Herakles und Telamon zeichnen lassen , Monumententafel .
+7-1	605-607	In	_	_
+7-2	608-614	Arezzo	*	PLACEmentioned
+7-3	615-619	habe	_	_
+7-4	620-623	ich	_	_
+7-5	624-629	außer	_	_
+7-6	630-633	den	_	_
+7-7	634-639	Urnen	*	OBJ
+7-8	640-644	auch	_	_
+7-9	645-649	eine	_	_
+7-10	650-656	schöne	_	_
+7-11	657-660	und	_	_
+7-12	661-673	interessante	_	_
+7-13	674-686	Amazonenvase	*	OBJ
+7-14	687-690	mit	_	_
+7-15	691-699	Herakles	*	PERmentioned
+7-16	700-703	und	_	_
+7-17	704-711	Telamon	*	PERmentioned
+7-18	712-720	zeichnen	_	_
+7-19	721-727	lassen	_	_
+7-20	728-729	,	_	_
+7-21	730-745	Monumententafel	_	_
+7-22	746-747	.	_	_
+
+#Text=In Civ . Castellana habe ich und nach mir Reifferscheid eine Ara genauer examinirt , auf die mich früher Garrucci aufmerksam gemacht hatte .
+8-1	748-750	In	_	_
+8-2	751-754	Civ	*[13]	PLACEmentioned[13]
+8-3	755-756	.	*[13]	PLACEmentioned[13]
+8-4	757-767	Castellana	*[13]	PLACEmentioned[13]
+8-5	768-772	habe	_	_
+8-6	773-776	ich	_	_
+8-7	777-780	und	_	_
+8-8	781-785	nach	_	_
+8-9	786-789	mir	_	_
+8-10	790-803	Reifferscheid	*	PERmentioned
+8-11	804-808	eine	_	_
+8-12	809-812	Ara	*	OBJ
+8-13	813-820	genauer	_	_
+8-14	821-830	examinirt	_	_
+8-15	831-832	,	_	_
+8-16	833-836	auf	_	_
+8-17	837-840	die	_	_
+8-18	841-845	mich	_	_
+8-19	846-852	früher	_	_
+8-20	853-861	Garrucci	*	PERmentioned
+8-21	862-872	aufmerksam	_	_
+8-22	873-880	gemacht	_	_
+8-23	881-886	hatte	_	_
+8-24	887-888	.	_	_
+
+#Text=Sie ich recht interessant und gehört ganz in das Gebiet römischer Cultusdarstellungen , mit denen sich Reifferscheid und mit recht gutem Erfolge beschäftigt .
+9-1	889-892	Sie	_	_
+9-2	893-896	ich	_	_
+9-3	897-902	recht	_	_
+9-4	903-914	interessant	_	_
+9-5	915-918	und	_	_
+9-6	919-925	gehört	_	_
+9-7	926-930	ganz	_	_
+9-8	931-933	in	_	_
+9-9	934-937	das	_	_
+9-10	938-944	Gebiet	_	_
+9-11	945-954	römischer	_	_
+9-12	955-974	Cultusdarstellungen	_	_
+9-13	975-976	,	_	_
+9-14	977-980	mit	_	_
+9-15	981-986	denen	_	_
+9-16	987-991	sich	_	_
+9-17	992-1005	Reifferscheid	*	PERmentioned
+9-18	1006-1009	und	_	_
+9-19	1010-1013	mit	_	_
+9-20	1014-1019	recht	_	_
+9-21	1020-1025	gutem	_	_
+9-22	1026-1033	Erfolge	_	_
+9-23	1034-1045	beschäftigt	_	_
+9-24	1046-1047	.	_	_
+
+#Text=wir müssen sehen eine Zeichnung davon zu bekommen , allenfalls einmal von Rom einen Zeichner extra hinschicken .
+10-1	1048-1051	wir	_	_
+10-2	1052-1058	müssen	_	_
+10-3	1059-1064	sehen	_	_
+10-4	1065-1069	eine	_	_
+10-5	1070-1079	Zeichnung	_	_
+10-6	1080-1085	davon	_	_
+10-7	1086-1088	zu	_	_
+10-8	1089-1097	bekommen	_	_
+10-9	1098-1099	,	_	_
+10-10	1100-1110	allenfalls	_	_
+10-11	1111-1117	einmal	_	_
+10-12	1118-1121	von	_	_
+10-13	1122-1125	Rom	*	PLACEmentioned
+10-14	1126-1131	einen	_	_
+10-15	1132-1140	Zeichner	_	_
+10-16	1141-1146	extra	_	_
+10-17	1147-1158	hinschicken	_	_
+10-18	1159-1160	.	_	_
+
+#Text=Hier scheint es nichts neues in arch . zu geben .
+11-1	1161-1165	Hier	_	_
+11-2	1166-1173	scheint	_	_
+11-3	1174-1176	es	_	_
+11-4	1177-1183	nichts	_	_
+11-5	1184-1189	neues	_	_
+11-6	1190-1192	in	_	_
+11-7	1193-1197	arch	_	_
+11-8	1198-1199	.	_	_
+11-9	1200-1202	zu	_	_
+11-10	1203-1208	geben	_	_
+11-11	1209-1210	.	_	_
+
+#Text=Gamursini schreibt mir , Ihnen zu sagen : che la raccolta delle iscrizioni latine di Etruria appena che la inco-
+12-1	1211-1220	Gamursini	*	PERmentioned
+12-2	1221-1229	schreibt	_	_
+12-3	1230-1233	mir	_	_
+12-4	1234-1235	,	_	_
+12-5	1236-1241	Ihnen	_	_
+12-6	1242-1244	zu	_	_
+12-7	1245-1250	sagen	_	_
+12-8	1251-1252	:	_	_
+12-9	1253-1256	che	_	_
+12-10	1257-1259	la	_	_
+12-11	1260-1268	raccolta	_	_
+12-12	1269-1274	delle	_	_
+12-13	1275-1285	iscrizioni	*[14]	OBJ[14]
+12-14	1286-1292	latine	*[14]	OBJ[14]
+12-15	1293-1295	di	_	_
+12-16	1296-1303	Etruria	*	PLACEmentioned
+12-17	1304-1310	appena	_	_
+12-18	1311-1314	che	_	_
+12-19	1315-1317	la	_	_
+12-20	1318-1323	inco-	_	_

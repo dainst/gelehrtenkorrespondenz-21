@@ -1,0 +1,65 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun LIivorno , 1. Juli 1837 Wo ist nun der gegenw .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-25	LIivorno	*	PLACEfrom
+1-5	26-27	,	_	_
+1-6	28-30	1.	*[4]	DATEletter[4]
+1-7	31-35	Juli	*[4]	DATEletter[4]
+1-8	36-40	1837	*[4]	DATEletter[4]
+1-9	41-43	Wo	_	_
+1-10	44-47	ist	_	_
+1-11	48-51	nun	_	_
+1-12	52-55	der	_	_
+1-13	56-62	gegenw	_	_
+1-14	63-64	.	_	_
+
+#Text=Besitzer von Galassis Sat vase ?
+2-1	65-73	Besitzer	_	_
+2-2	74-77	von	_	_
+2-3	78-86	Galassis	*	PERmentioned
+2-4	87-90	Sat	*[6]	OBJ[6]
+2-5	91-95	vase	*[6]	OBJ[6]
+2-6	96-97	?	_	_
+
+#Text=Ich setze voraus daß sich mein handschriftl .
+3-1	98-101	Ich	_	_
+3-2	102-107	setze	_	_
+3-3	108-114	voraus	_	_
+3-4	115-118	daß	_	_
+3-5	119-123	sich	_	_
+3-6	124-128	mein	_	_
+3-7	129-141	handschriftl	_	_
+3-8	142-143	.	_	_
+
+#Text=Verzeichniß der mir zugehörigen Antiken erhofftermaßen bei Ihnen vorgefunden hat , und hätte es in diesem Fall ebenfalls gern mit der nächsten Couriersendung noch hieher .
+4-1	144-155	Verzeichniß	_	_
+4-2	156-159	der	_	_
+4-3	160-163	mir	_	_
+4-4	164-175	zugehörigen	_	_
+4-5	176-183	Antiken	_	_
+4-6	184-198	erhofftermaßen	_	_
+4-7	199-202	bei	_	_
+4-8	203-208	Ihnen	_	_
+4-9	209-220	vorgefunden	_	_
+4-10	221-224	hat	_	_
+4-11	225-226	,	_	_
+4-12	227-230	und	_	_
+4-13	231-236	hätte	_	_
+4-14	237-239	es	_	_
+4-15	240-242	in	_	_
+4-16	243-249	diesem	_	_
+4-17	250-254	Fall	_	_
+4-18	255-264	ebenfalls	_	_
+4-19	265-269	gern	_	_
+4-20	270-273	mit	_	_
+4-21	274-277	der	_	_
+4-22	278-286	nächsten	_	_
+4-23	287-301	Couriersendung	_	_
+4-24	302-306	noch	_	_
+4-25	307-313	hieher	_	_
+4-26	314-315	.	_	_

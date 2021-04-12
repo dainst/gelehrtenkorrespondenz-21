@@ -1,0 +1,242 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 23. Juni 1836 Prof. Gerhard Berlin 23 Juny 1836 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	23.	*[7]	DATEletter[7]
+1-7	27-31	Juni	*[7]	DATEletter[7]
+1-8	32-36	1836	*[7]	DATEletter[7]
+1-9	37-42	Prof.	_	_
+1-10	43-50	Gerhard	*	PERaddressee
+1-11	51-57	Berlin	*	PLACEfrom
+1-12	58-60	23	*[8]	DATEletter[8]
+1-13	61-65	Juny	*[8]	DATEletter[8]
+1-14	66-70	1836	*[8]	DATEletter[8]
+1-15	71-72	.	_	_
+
+#Text=Hochzuverehrender Freund !
+2-1	73-90	Hochzuverehrender	_	_
+2-2	91-97	Freund	_	_
+2-3	98-99	!	_	_
+
+#Text=In Folge Ihres letzten Briefes vom 7. Juni , welchen mir Vollard zugestellt , sehe ich mich genöthigt Ihnen statt aller anderen zerstreuten Nachrichten und partiellen Antworten auf einzelne Fragepunkte , in einem gedrängten Rapport alles das zusammenzustellen , was eine Endentscheidung Ihrer Seits in Betreff der Institutsangelegenheiten ermöglichen und erleichtern kann .
+3-1	100-102	In	_	_
+3-2	103-108	Folge	_	_
+3-3	109-114	Ihres	_	_
+3-4	115-122	letzten	_	_
+3-5	123-130	Briefes	_	_
+3-6	131-134	vom	_	_
+3-7	135-137	7.	*[9]	DATEmentioned[9]
+3-8	138-142	Juni	*[9]	DATEmentioned[9]
+3-9	143-144	,	_	_
+3-10	145-152	welchen	_	_
+3-11	153-156	mir	_	_
+3-12	157-164	Vollard	*	PERmentioned
+3-13	165-175	zugestellt	_	_
+3-14	176-177	,	_	_
+3-15	178-182	sehe	_	_
+3-16	183-186	ich	_	_
+3-17	187-191	mich	_	_
+3-18	192-201	genöthigt	_	_
+3-19	202-207	Ihnen	_	_
+3-20	208-213	statt	_	_
+3-21	214-219	aller	_	_
+3-22	220-227	anderen	_	_
+3-23	228-239	zerstreuten	_	_
+3-24	240-251	Nachrichten	_	_
+3-25	252-255	und	_	_
+3-26	256-266	partiellen	_	_
+3-27	267-276	Antworten	_	_
+3-28	277-280	auf	_	_
+3-29	281-289	einzelne	_	_
+3-30	290-301	Fragepunkte	_	_
+3-31	302-303	,	_	_
+3-32	304-306	in	_	_
+3-33	307-312	einem	_	_
+3-34	313-323	gedrängten	_	_
+3-35	324-331	Rapport	_	_
+3-36	332-337	alles	_	_
+3-37	338-341	das	_	_
+3-38	342-359	zusammenzustellen	_	_
+3-39	360-361	,	_	_
+3-40	362-365	was	_	_
+3-41	366-370	eine	_	_
+3-42	371-386	Endentscheidung	_	_
+3-43	387-392	Ihrer	_	_
+3-44	393-398	Seits	_	_
+3-45	399-401	in	_	_
+3-46	402-409	Betreff	_	_
+3-47	410-413	der	_	_
+3-48	414-438	Institutsangelegenheiten	_	_
+3-49	439-450	ermöglichen	_	_
+3-50	451-454	und	_	_
+3-51	455-466	erleichtern	_	_
+3-52	467-471	kann	_	_
+3-53	472-473	.	_	_
+
+#Text=Ich theile diesen meinen Rapport in drei Theile und beginne mit einer Darlegung des 1 .
+4-1	474-477	Ich	_	_
+4-2	478-484	theile	_	_
+4-3	485-491	diesen	_	_
+4-4	492-498	meinen	_	_
+4-5	499-506	Rapport	_	_
+4-6	507-509	in	_	_
+4-7	510-514	drei	_	_
+4-8	515-521	Theile	_	_
+4-9	522-525	und	_	_
+4-10	526-533	beginne	_	_
+4-11	534-537	mit	_	_
+4-12	538-543	einer	_	_
+4-13	544-553	Darlegung	_	_
+4-14	554-557	des	_	_
+4-15	558-559	1	_	_
+4-16	560-561	.	_	_
+
+#Text=Thatbestands .
+5-1	562-574	Thatbestands	_	_
+5-2	575-576	.	_	_
+
+#Text=Seit Anfang dieses Jahres hat man die hiesige Institutsverwaltung meiner Person nicht mehr allein anvertrauen wollen .
+6-1	577-581	Seit	_	_
+6-2	582-588	Anfang	_	_
+6-3	589-595	dieses	_	_
+6-4	596-602	Jahres	_	_
+6-5	603-606	hat	_	_
+6-6	607-610	man	_	_
+6-7	611-614	die	_	_
+6-8	615-622	hiesige	_	_
+6-9	623-642	Institutsverwaltung	*	DATEmentioned
+6-10	643-649	meiner	_	_
+6-11	650-656	Person	_	_
+6-12	657-662	nicht	_	_
+6-13	663-667	mehr	_	_
+6-14	668-674	allein	_	_
+6-15	675-686	anvertrauen	_	_
+6-16	687-693	wollen	_	_
+6-17	694-695	.	_	_
+
+#Text=Ich gebe zu , daß meine bisherige Geschäftsführung manches zu wünschen übrig , ja manches habe vermissen lassen \; speziell dankbar muß ich mich bezeigen , wenn man als Grund anführt , daß die Rückhaltslosigkeit , mit welcher ich meine Zeit ungetheilt den Institutsgeschäften geopfert , forthin nicht mehr zulässig sei .
+7-1	696-699	Ich	_	_
+7-2	700-704	gebe	_	_
+7-3	705-707	zu	_	_
+7-4	708-709	,	_	_
+7-5	710-713	daß	_	_
+7-6	714-719	meine	_	_
+7-7	720-729	bisherige	_	_
+7-8	730-746	Geschäftsführung	_	_
+7-9	747-754	manches	_	_
+7-10	755-757	zu	_	_
+7-11	758-766	wünschen	_	_
+7-12	767-772	übrig	_	_
+7-13	773-774	,	_	_
+7-14	775-777	ja	_	_
+7-15	778-785	manches	_	_
+7-16	786-790	habe	_	_
+7-17	791-800	vermissen	_	_
+7-18	801-807	lassen	_	_
+7-19	808-809	\;	_	_
+7-20	810-818	speziell	_	_
+7-21	819-826	dankbar	_	_
+7-22	827-830	muß	_	_
+7-23	831-834	ich	_	_
+7-24	835-839	mich	_	_
+7-25	840-848	bezeigen	_	_
+7-26	849-850	,	_	_
+7-27	851-855	wenn	_	_
+7-28	856-859	man	_	_
+7-29	860-863	als	_	_
+7-30	864-869	Grund	_	_
+7-31	870-877	anführt	_	_
+7-32	878-879	,	_	_
+7-33	880-883	daß	_	_
+7-34	884-887	die	_	_
+7-35	888-906	Rückhaltslosigkeit	_	_
+7-36	907-908	,	_	_
+7-37	909-912	mit	_	_
+7-38	913-920	welcher	_	_
+7-39	921-924	ich	_	_
+7-40	925-930	meine	_	_
+7-41	931-935	Zeit	_	_
+7-42	936-946	ungetheilt	_	_
+7-43	947-950	den	_	_
+7-44	951-970	Institutsgeschäften	_	_
+7-45	971-979	geopfert	_	_
+7-46	980-981	,	_	_
+7-47	982-989	forthin	_	_
+7-48	990-995	nicht	_	_
+7-49	996-1000	mehr	_	_
+7-50	1001-1009	zulässig	_	_
+7-51	1010-1013	sei	_	_
+7-52	1014-1015	.	_	_
+
+#Text=Seit dem 1 Januar 1836 ist mir also Franz als Mitarbeiter beigegeben worden .
+8-1	1016-1020	Seit	_	_
+8-2	1021-1024	dem	_	_
+8-3	1025-1026	1	*[10]	DATEmentioned[10]
+8-4	1027-1033	Januar	*[10]	DATEmentioned[10]
+8-5	1034-1038	1836	*[10]	DATEmentioned[10]
+8-6	1039-1042	ist	_	_
+8-7	1043-1046	mir	_	_
+8-8	1047-1051	also	_	_
+8-9	1052-1057	Franz	*	PERmentioned
+8-10	1058-1061	als	_	_
+8-11	1062-1073	Mitarbeiter	_	_
+8-12	1074-1084	beigegeben	_	_
+8-13	1085-1091	worden	_	_
+8-14	1092-1093	.	_	_
+
+#Text=Es war wohl vorzüglich der Umstand , daß sich der General-Secretär seit dem Eintritt jener Epoche meiner häufig zu bedienen Gelegenheit fand , daß ich eine Verminderung meiner Mühen nicht sofort verspüren konnte .
+9-1	1094-1096	Es	_	_
+9-2	1097-1100	war	_	_
+9-3	1101-1105	wohl	_	_
+9-4	1106-1116	vorzüglich	_	_
+9-5	1117-1120	der	_	_
+9-6	1121-1128	Umstand	_	_
+9-7	1129-1130	,	_	_
+9-8	1131-1134	daß	_	_
+9-9	1135-1139	sich	_	_
+9-10	1140-1143	der	_	_
+9-11	1144-1160	General-Secretär	*	PERmentioned
+9-12	1161-1165	seit	_	_
+9-13	1166-1169	dem	_	_
+9-14	1170-1178	Eintritt	_	_
+9-15	1179-1184	jener	_	_
+9-16	1185-1191	Epoche	_	_
+9-17	1192-1198	meiner	_	_
+9-18	1199-1205	häufig	_	_
+9-19	1206-1208	zu	_	_
+9-20	1209-1217	bedienen	_	_
+9-21	1218-1229	Gelegenheit	_	_
+9-22	1230-1234	fand	_	_
+9-23	1235-1236	,	_	_
+9-24	1237-1240	daß	_	_
+9-25	1241-1244	ich	_	_
+9-26	1245-1249	eine	_	_
+9-27	1250-1262	Verminderung	_	_
+9-28	1263-1269	meiner	_	_
+9-29	1270-1275	Mühen	_	_
+9-30	1276-1281	nicht	_	_
+9-31	1282-1288	sofort	_	_
+9-32	1289-1298	verspüren	_	_
+9-33	1299-1305	konnte	_	_
+9-34	1306-1307	.	_	_
+
+#Text=Ich durfte mich nicht wundern , wenn meine Beschäftigungen sich eher mehrten ,
+10-1	1308-1311	Ich	_	_
+10-2	1312-1318	durfte	_	_
+10-3	1319-1323	mich	_	_
+10-4	1324-1329	nicht	_	_
+10-5	1330-1337	wundern	_	_
+10-6	1338-1339	,	_	_
+10-7	1340-1344	wenn	_	_
+10-8	1345-1350	meine	_	_
+10-9	1351-1366	Beschäftigungen	_	_
+10-10	1367-1371	sich	_	_
+10-11	1372-1376	eher	_	_
+10-12	1377-1384	mehrten	_	_
+10-13	1385-1386	,	_	_

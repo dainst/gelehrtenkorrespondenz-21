@@ -1,0 +1,96 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Nu !
+1-1	0-2	Nu	_	_
+1-2	3-4	!	_	_
+
+#Text=Ohne Nummer Henzen an Gerhard 4/1Ix/51 gleich spediren kann \; wir kommen immer noch früher , als sonst , Hoffentlich hat Ihnen beiden die Reise wohl gethan u. viel Nutzen und Vergnügen gewährt .
+2-1	5-9	Ohne	_	_
+2-2	10-16	Nummer	_	_
+2-3	17-23	Henzen	*	PERauthor
+2-4	24-26	an	_	_
+2-5	27-34	Gerhard	*	PERaddressee
+2-6	35-43	4/1Ix/51	*	DATEletter
+2-7	44-50	gleich	_	_
+2-8	51-59	spediren	_	_
+2-9	60-64	kann	_	_
+2-10	65-66	\;	_	_
+2-11	67-70	wir	_	_
+2-12	71-77	kommen	_	_
+2-13	78-83	immer	_	_
+2-14	84-88	noch	_	_
+2-15	89-95	früher	_	_
+2-16	96-97	,	_	_
+2-17	98-101	als	_	_
+2-18	102-107	sonst	_	_
+2-19	108-109	,	_	_
+2-20	110-121	Hoffentlich	_	_
+2-21	122-125	hat	_	_
+2-22	126-131	Ihnen	_	_
+2-23	132-138	beiden	_	_
+2-24	139-142	die	_	_
+2-25	143-148	Reise	_	_
+2-26	149-153	wohl	_	_
+2-27	154-160	gethan	_	_
+2-28	161-163	u.	_	_
+2-29	164-168	viel	_	_
+2-30	169-175	Nutzen	_	_
+2-31	176-179	und	_	_
+2-32	180-189	Vergnügen	_	_
+2-33	190-197	gewährt	_	_
+2-34	198-199	.	_	_
+
+#Text=Meine Frau grüßt herzlich u. dankt mit mir noch einmal Ihnen u. Ihrer Frau für alles Freundliche , daß Sie uns erwiesen .
+3-1	200-205	Meine	_	_
+3-2	206-210	Frau	_	_
+3-3	211-216	grüßt	_	_
+3-4	217-225	herzlich	_	_
+3-5	226-228	u.	_	_
+3-6	229-234	dankt	_	_
+3-7	235-238	mit	_	_
+3-8	239-242	mir	_	_
+3-9	243-247	noch	_	_
+3-10	248-254	einmal	_	_
+3-11	255-260	Ihnen	_	_
+3-12	261-263	u.	_	_
+3-13	264-269	Ihrer	_	_
+3-14	270-274	Frau	_	_
+3-15	275-278	für	_	_
+3-16	279-284	alles	_	_
+3-17	285-296	Freundliche	_	_
+3-18	297-298	,	_	_
+3-19	299-302	daß	_	_
+3-20	303-306	Sie	_	_
+3-21	307-310	uns	_	_
+3-22	311-319	erwiesen	_	_
+3-23	320-321	.	_	_
+
+#Text=Ich denke , noch zwischen dem 15 - 20 October Rom zu erreichen , hoffentlich noch etwas früher .
+4-1	322-325	Ich	_	_
+4-2	326-331	denke	_	_
+4-3	332-333	,	_	_
+4-4	334-338	noch	_	_
+4-5	339-347	zwischen	_	_
+4-6	348-351	dem	_	_
+4-7	352-354	15	*[3]	DATEmentioned[3]
+4-8	355-356	-	*[3]	DATEmentioned[3]
+4-9	357-359	20	*[3]	DATEmentioned[3]
+4-10	360-367	October	*[3]	DATEmentioned[3]
+4-11	368-371	Rom	*	PLACEmentioned
+4-12	372-374	zu	_	_
+4-13	375-384	erreichen	_	_
+4-14	385-386	,	_	_
+4-15	387-398	hoffentlich	_	_
+4-16	399-403	noch	_	_
+4-17	404-409	etwas	_	_
+4-18	410-416	früher	_	_
+4-19	417-418	.	_	_
+
+#Text=Ihr WH , Bremen 4/IX/51
+5-1	419-422	Ihr	_	_
+5-2	423-425	WH	*	PERauthor
+5-3	426-427	,	_	_
+5-4	428-434	Bremen	*	PLACEfrom
+5-5	435-442	4/IX/51	*	DATEletter

@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=vr a ob L » IND Y - 416 Gerhard an Braun Berlin 3/III/1835 Herrn Dr. Braun .
+1-1	0-2	vr	_	_
+1-2	3-4	a	_	_
+1-3	5-7	ob	_	_
+1-4	8-9	L	_	_
+1-5	10-11	»	_	_
+1-6	12-15	IND	_	_
+1-7	16-17	Y	_	_
+1-8	18-19	-	_	_
+1-9	20-23	416	_	_
+1-10	24-31	Gerhard	*	PERauthor
+1-11	32-34	an	_	_
+1-12	35-40	Braun	*	PERaddressee
+1-13	41-47	Berlin	*	PLACEfrom
+1-14	48-58	3/III/1835	*	DATEletter
+1-15	59-64	Herrn	_	_
+1-16	65-68	Dr.	_	_
+1-17	69-74	Braun	*	PERaddressee
+1-18	75-76	.	_	_
+
+#Text=Berlin 3 März 1835 .
+2-1	77-83	Berlin	*	PLACEfrom
+2-2	84-85	3	*[7]	DATEletter[7]
+2-3	86-90	März	*[7]	DATEletter[7]
+2-4	91-95	1835	*[7]	DATEletter[7]
+2-5	96-97	.	_	_
+
+#Text=Wenn Ihre Kiste noch nicht fort ist 1 .
+3-1	98-102	Wenn	_	_
+3-2	103-107	Ihre	_	_
+3-3	108-113	Kiste	_	_
+3-4	114-118	noch	_	_
+3-5	119-124	nicht	_	_
+3-6	125-129	fort	_	_
+3-7	130-133	ist	_	_
+3-8	134-135	1	_	_
+3-9	136-137	.	_	_
+
+#Text=Fr. so legen Sie gefälligst noch 10 Ex .
+4-1	138-141	Fr.	_	_
+4-2	142-144	so	_	_
+4-3	145-150	legen	_	_
+4-4	151-154	Sie	_	_
+4-5	155-165	gefälligst	_	_
+4-6	166-170	noch	_	_
+4-7	171-173	10	_	_
+4-8	174-176	Ex	_	_
+4-9	177-178	.	_	_
+
+#Text=Memorie ?
+5-1	179-186	Memorie	_	_
+5-2	187-188	?	_	_
+
+#Text=bei \; ich hoffe sie im Lauf des Jahres beim Ministerium anzubringen .
+6-1	189-192	bei	_	_
+6-2	193-194	\;	_	_
+6-3	195-198	ich	_	_
+6-4	199-204	hoffe	_	_
+6-5	205-208	sie	_	_
+6-6	209-211	im	_	_
+6-7	212-216	Lauf	_	_
+6-8	217-220	des	_	_
+6-9	221-227	Jahres	_	_
+6-10	228-232	beim	_	_
+6-11	233-244	Ministerium	*	ORGmentioned
+6-12	245-256	anzubringen	_	_
+6-13	257-258	.	_	_
+
+#Text=Welckers Zeitschrift 36 Heft wird mit selbiger Kiste hoffentlich zurückkommen .
+7-1	259-267	Welckers	*	PERmentioned
+7-2	268-279	Zeitschrift	_	_
+7-3	280-282	36	_	_
+7-4	283-287	Heft	_	_
+7-5	288-292	wird	_	_
+7-6	293-296	mit	_	_
+7-7	297-305	selbiger	_	_
+7-8	306-311	Kiste	_	_
+7-9	312-323	hoffentlich	_	_
+7-10	324-336	zurückkommen	_	_
+7-11	337-338	.	_	_
+
+#Text=Sollte das kleine ( florentische ) Inschriftbüchlein das ich vergebens suche bei Ihnen geblieben seyn , so möchte ich es auch zurück , da Sie es von Florenz leicht alekbekomnen für 3 paoli .
+8-1	339-345	Sollte	_	_
+8-2	346-349	das	_	_
+8-3	350-356	kleine	_	_
+8-4	357-358	(	_	_
+8-5	359-371	florentische	_	_
+8-6	372-373	)	_	_
+8-7	374-391	Inschriftbüchlein	_	_
+8-8	392-395	das	_	_
+8-9	396-399	ich	_	_
+8-10	400-409	vergebens	_	_
+8-11	410-415	suche	_	_
+8-12	416-419	bei	_	_
+8-13	420-425	Ihnen	_	_
+8-14	426-435	geblieben	_	_
+8-15	436-440	seyn	_	_
+8-16	441-442	,	_	_
+8-17	443-445	so	_	_
+8-18	446-452	möchte	_	_
+8-19	453-456	ich	_	_
+8-20	457-459	es	_	_
+8-21	460-464	auch	_	_
+8-22	465-471	zurück	_	_
+8-23	472-473	,	_	_
+8-24	474-476	da	_	_
+8-25	477-480	Sie	_	_
+8-26	481-483	es	_	_
+8-27	484-487	von	_	_
+8-28	488-495	Florenz	*	PLACEmentioned
+8-29	496-502	leicht	_	_
+8-30	503-515	alekbekomnen	_	_
+8-31	516-519	für	_	_
+8-32	520-521	3	_	_
+8-33	522-527	paoli	_	_
+8-34	528-529	.	_	_
+
+#Text=Sonst lassen Sie mir gelegentlich ein solches kommen und vergessen Sie nicht mir gelegentlich den Zaccaria zu erstehen .
+9-1	530-535	Sonst	_	_
+9-2	536-542	lassen	_	_
+9-3	543-546	Sie	_	_
+9-4	547-550	mir	_	_
+9-5	551-563	gelegentlich	_	_
+9-6	564-567	ein	_	_
+9-7	568-575	solches	_	_
+9-8	576-582	kommen	_	_
+9-9	583-586	und	_	_
+9-10	587-596	vergessen	_	_
+9-11	597-600	Sie	_	_
+9-12	601-606	nicht	_	_
+9-13	607-610	mir	_	_
+9-14	611-623	gelegentlich	_	_
+9-15	624-627	den	_	_
+9-16	628-636	Zaccaria	*	PERmentioned
+9-17	637-639	zu	_	_
+9-18	640-648	erstehen	_	_
+9-19	649-650	.	_	_
+
+#Text=In Paris hatte sich ein Grieche aus Corfu , Demetrio Valsomadai gemeldet als einer der die Institutswerke wolle \; er werde in Rom subskribiren .
+10-1	651-653	In	_	_
+10-2	654-659	Paris	*	PLACEmentioned
+10-3	660-665	hatte	_	_
+10-4	666-670	sich	_	_
+10-5	671-674	ein	_	_
+10-6	675-682	Grieche	_	_
+10-7	683-686	aus	_	_
+10-8	687-692	Corfu	*	PLACEmentioned
+10-9	693-694	,	_	_
+10-10	695-703	Demetrio	*[14]	PERmentioned[14]
+10-11	704-714	Valsomadai	*[14]	PERmentioned[14]
+10-12	715-723	gemeldet	_	_
+10-13	724-727	als	_	_
+10-14	728-733	einer	_	_
+10-15	734-737	der	_	_
+10-16	738-741	die	_	_
+10-17	742-756	Institutswerke	_	_
+10-18	757-762	wolle	_	_
+10-19	763-764	\;	_	_
+10-20	765-767	er	_	_
+10-21	768-773	werde	_	_
+10-22	774-776	in	_	_
+10-23	777-780	Rom	*	PLACEmentioned
+10-24	781-793	subskribiren	_	_
+10-25	794-795	.	_	_
+
+#Text=Wie wird es mit den bibliographischen Notizen ?
+11-1	796-799	Wie	_	_
+11-2	800-804	wird	_	_
+11-3	805-807	es	_	_
+11-4	808-811	mit	_	_
+11-5	812-815	den	_	_
+11-6	816-833	bibliographischen	_	_
+11-7	834-841	Notizen	_	_
+11-8	842-843	?	_	_
+
+#Text=Ich hätte Ihren moles gern um mit Friedländer oder sonst etwas draus zu brauen , Sofern Sie selber es aufgeben .
+12-1	844-847	Ich	_	_
+12-2	848-853	hätte	_	_
+12-3	854-859	Ihren	_	_
+12-4	860-865	moles	_	_
+12-5	866-870	gern	_	_
+12-6	871-873	um	_	_
+12-7	874-877	mit	_	_
+12-8	878-889	Friedländer	*	PERmentioned
+12-9	890-894	oder	_	_
+12-10	895-900	sonst	_	_
+12-11	901-906	etwas	_	_
+12-12	907-912	draus	_	_
+12-13	913-915	zu	_	_
+12-14	916-922	brauen	_	_
+12-15	923-924	,	_	_
+12-16	925-931	Sofern	_	_
+12-17	932-935	Sie	_	_
+12-18	936-942	selber	_	_
+12-19	943-945	es	_	_
+12-20	946-954	aufgeben	_	_
+12-21	955-956	.	_	_
+
+#Text=Wie steht es ferner mit denen fürs Bull ?
+13-1	957-960	Wie	_	_
+13-2	961-966	steht	_	_
+13-3	967-969	es	_	_
+13-4	970-976	ferner	_	_
+13-5	977-980	mit	_	_
+13-6	981-986	denen	_	_
+13-7	987-991	fürs	_	_
+13-8	992-996	Bull	_	_
+13-9	997-998	?	_	_
+
+#Text=Wenn ich den Statum quo weiß , schreibe ich Ihnen wol allerlei über ClamtL und a. Werke zusammen um Ihnen die Mühe zu erleichtern .
+14-1	999-1003	Wenn	_	_
+14-2	1004-1007	ich	_	_
+14-3	1008-1011	den	_	_
+14-4	1012-1018	Statum	_	_
+14-5	1019-1022	quo	_	_
+14-6	1023-1027	weiß	_	_
+14-7	1028-1029	,	_	_
+14-8	1030-1038	schreibe	_	_
+14-9	1039-1042	ich	_	_
+14-10	1043-1048	Ihnen	_	_
+14-11	1049-1052	wol	_	_
+14-12	1053-1061	allerlei	_	_
+14-13	1062-1066	über	_	_
+14-14	1067-1073	ClamtL	_	_
+14-15	1074-1077	und	_	_
+14-16	1078-1080	a.	_	_
+14-17	1081-1086	Werke	_	_
+14-18	1087-1095	zusammen	_	_
+14-19	1096-1098	um	_	_
+14-20	1099-1104	Ihnen	_	_
+14-21	1105-1108	die	_	_
+14-22	1109-1113	Mühe	_	_
+14-23	1114-1116	zu	_	_
+14-24	1117-1128	erleichtern	_	_
+14-25	1129-1130	.	_	_
+
+#Text=Die zung echen Nachrichten die Sie Werke direkt vernahmen und die ich sub vosq an Bunsen schreibe , sind in der That bedenklich .
+15-1	1131-1134	Die	_	_
+15-2	1135-1139	zung	_	_
+15-3	1140-1145	echen	_	_
+15-4	1146-1157	Nachrichten	_	_
+15-5	1158-1161	die	_	_
+15-6	1162-1165	Sie	_	_
+15-7	1166-1171	Werke	_	_
+15-8	1172-1178	direkt	_	_
+15-9	1179-1188	vernahmen	_	_
+15-10	1189-1192	und	_	_
+15-11	1193-1196	die	_	_
+15-12	1197-1200	ich	_	_
+15-13	1201-1204	sub	_	_
+15-14	1205-1209	vosq	_	_
+15-15	1210-1212	an	_	_
+15-16	1213-1219	Bunsen	*	PERmentioned
+15-17	1220-1228	schreibe	_	_
+15-18	1229-1230	,	_	_
+15-19	1231-1235	sind	_	_
+15-20	1236-1238	in	_	_
+15-21	1239-1242	der	_	_
+15-22	1243-1247	That	_	_
+15-23	1248-1258	bedenklich	_	_
+15-24	1259-1260	.	_	_
+
+#Text=Jene Herren , denen die dis-
+16-1	1261-1265	Jene	_	_
+16-2	1266-1272	Herren	_	_
+16-3	1273-1274	,	_	_
+16-4	1275-1280	denen	_	_
+16-5	1281-1284	die	_	_
+16-6	1285-1289	dis-	_	_

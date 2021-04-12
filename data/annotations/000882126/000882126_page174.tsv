@@ -1,0 +1,332 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2 280 Braun an Gerhard Rom , 24. Juni 1837 gen sind von einem geschickten jungen Menschen sehr sauber gemacht , und da Hauptstücke darunter sind , So legt man sich Ehre damit ein .
+1-1	0-1	2	_	_
+1-2	2-5	280	_	_
+1-3	6-11	Braun	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-22	Gerhard	*	PERaddressee
+1-6	23-26	Rom	*	PLACEfrom
+1-7	27-28	,	_	_
+1-8	29-32	24.	*[11]	DATEletter[11]
+1-9	33-37	Juni	*[11]	DATEletter[11]
+1-10	38-42	1837	*[11]	DATEletter[11]
+1-11	43-46	gen	_	_
+1-12	47-51	sind	_	_
+1-13	52-55	von	_	_
+1-14	56-61	einem	_	_
+1-15	62-73	geschickten	_	_
+1-16	74-80	jungen	_	_
+1-17	81-89	Menschen	_	_
+1-18	90-94	sehr	_	_
+1-19	95-101	sauber	_	_
+1-20	102-109	gemacht	_	_
+1-21	110-111	,	_	_
+1-22	112-115	und	_	_
+1-23	116-118	da	_	_
+1-24	119-130	Hauptstücke	_	_
+1-25	131-139	darunter	_	_
+1-26	140-144	sind	_	_
+1-27	145-146	,	_	_
+1-28	147-149	So	_	_
+1-29	150-154	legt	_	_
+1-30	155-158	man	_	_
+1-31	159-163	sich	_	_
+1-32	164-168	Ehre	_	_
+1-33	169-174	damit	_	_
+1-34	175-178	ein	_	_
+1-35	179-180	.	_	_
+
+#Text=Es befindet sich darunter der Orpheus und alle anderen von Ihnen gewünschten Vasen \; außerdem Goldsachen und 2 Reliefs von Depoletti , die sich für den Ankauf für das Museum empfehlen und empfohlen werden .
+2-1	181-183	Es	_	_
+2-2	184-192	befindet	_	_
+2-3	193-197	sich	_	_
+2-4	198-206	darunter	_	_
+2-5	207-210	der	_	_
+2-6	211-218	Orpheus	*	OBJ
+2-7	219-222	und	_	_
+2-8	223-227	alle	_	_
+2-9	228-235	anderen	_	_
+2-10	236-239	von	_	_
+2-11	240-245	Ihnen	_	_
+2-12	246-257	gewünschten	_	_
+2-13	258-263	Vasen	*	OBJ
+2-14	264-265	\;	_	_
+2-15	266-274	außerdem	_	_
+2-16	275-285	Goldsachen	*	OBJ
+2-17	286-289	und	_	_
+2-18	290-291	2	_	_
+2-19	292-299	Reliefs	*	OBJ
+2-20	300-303	von	_	_
+2-21	304-313	Depoletti	*	PERmentioned
+2-22	314-315	,	_	_
+2-23	316-319	die	_	_
+2-24	320-324	sich	_	_
+2-25	325-328	für	_	_
+2-26	329-332	den	_	_
+2-27	333-339	Ankauf	_	_
+2-28	340-343	für	_	_
+2-29	344-347	das	_	_
+2-30	348-354	Museum	*	ORGmentioned
+2-31	355-364	empfehlen	_	_
+2-32	365-368	und	_	_
+2-33	369-378	empfohlen	_	_
+2-34	379-385	werden	_	_
+2-35	386-387	.	_	_
+
+#Text=Campanaris kommen in diesen Tagen mit ihrer Theilung der Vulcenter Ergebnisse zu Stande .
+3-1	388-398	Campanaris	*	PERmentioned
+3-2	399-405	kommen	_	_
+3-3	406-408	in	_	_
+3-4	409-415	diesen	_	_
+3-5	416-421	Tagen	_	_
+3-6	422-425	mit	_	_
+3-7	426-431	ihrer	_	_
+3-8	432-440	Theilung	_	_
+3-9	441-444	der	_	_
+3-10	445-454	Vulcenter	*	MISC
+3-11	455-465	Ergebnisse	_	_
+3-12	466-468	zu	_	_
+3-13	469-475	Stande	_	_
+3-14	476-477	.	_	_
+
+#Text=Ich habe die Sachen noch nicht sehen dürfen \; es scheinen aber superbe Gegenstände darunter zu sein .
+4-1	478-481	Ich	_	_
+4-2	482-486	habe	_	_
+4-3	487-490	die	_	_
+4-4	491-497	Sachen	_	_
+4-5	498-502	noch	_	_
+4-6	503-508	nicht	_	_
+4-7	509-514	sehen	_	_
+4-8	515-521	dürfen	_	_
+4-9	522-523	\;	_	_
+4-10	524-526	es	_	_
+4-11	527-535	scheinen	_	_
+4-12	536-540	aber	_	_
+4-13	541-548	superbe	_	_
+4-14	549-560	Gegenstände	_	_
+4-15	561-569	darunter	_	_
+4-16	570-572	zu	_	_
+4-17	573-577	sein	_	_
+4-18	578-579	.	_	_
+
+#Text=- In Sommavilla in der Sabina hat Fossati stupende Sachen gefunden .
+5-1	580-581	-	_	_
+5-2	582-584	In	_	_
+5-3	585-595	Sommavilla	*	PLACEmentioned
+5-4	596-598	in	_	_
+5-5	599-602	der	_	_
+5-6	603-609	Sabina	*	PLACEmentioned
+5-7	610-613	hat	_	_
+5-8	614-621	Fossati	*	PERmentioned
+5-9	622-630	stupende	_	_
+5-10	631-637	Sachen	_	_
+5-11	638-646	gefunden	_	_
+5-12	647-648	.	_	_
+
+#Text=Ich lege einen Bericht darüber in den Stamponi des neuesten Bull bei .
+6-1	649-652	Ich	_	_
+6-2	653-657	lege	_	_
+6-3	658-663	einen	_	_
+6-4	664-671	Bericht	_	_
+6-5	672-679	darüber	_	_
+6-6	680-682	in	_	_
+6-7	683-686	den	_	_
+6-8	687-695	Stamponi	_	_
+6-9	696-699	des	_	_
+6-10	700-708	neuesten	_	_
+6-11	709-713	Bull	_	_
+6-12	714-717	bei	_	_
+6-13	718-719	.	_	_
+
+#Text=Der Krater mit dem Sonnenaufgang gehört zu den Unicis .
+7-1	720-723	Der	_	_
+7-2	724-730	Krater	*	OBJ
+7-3	731-734	mit	_	_
+7-4	735-738	dem	_	_
+7-5	739-752	Sonnenaufgang	_	_
+7-6	753-759	gehört	_	_
+7-7	760-762	zu	_	_
+7-8	763-766	den	_	_
+7-9	767-773	Unicis	_	_
+7-10	774-775	.	_	_
+
+#Text=Er spricht auch von vielen schönen Bronzefragmenten .
+8-1	776-778	Er	_	_
+8-2	779-786	spricht	_	_
+8-3	787-791	auch	_	_
+8-4	792-795	von	_	_
+8-5	796-802	vielen	_	_
+8-6	803-810	schönen	_	_
+8-7	811-827	Bronzefragmenten	*	OBJ
+8-8	828-829	.	_	_
+
+#Text=Wollte man sie kaufen , so würde er sie kommen lassen .
+9-1	830-836	Wollte	_	_
+9-2	837-840	man	_	_
+9-3	841-844	sie	_	_
+9-4	845-851	kaufen	_	_
+9-5	852-853	,	_	_
+9-6	854-856	so	_	_
+9-7	857-862	würde	_	_
+9-8	863-865	er	_	_
+9-9	866-869	sie	_	_
+9-10	870-876	kommen	_	_
+9-11	877-883	lassen	_	_
+9-12	884-885	.	_	_
+
+#Text=Es dürfte wohl lohnen in der stagione morta einen Ankauf derselben einzuleiten .
+10-1	886-888	Es	_	_
+10-2	889-895	dürfte	_	_
+10-3	896-900	wohl	_	_
+10-4	901-907	lohnen	_	_
+10-5	908-910	in	_	_
+10-6	911-914	der	_	_
+10-7	915-923	stagione	_	_
+10-8	924-929	morta	_	_
+10-9	930-935	einen	_	_
+10-10	936-942	Ankauf	_	_
+10-11	943-952	derselben	_	_
+10-12	953-964	einzuleiten	_	_
+10-13	965-966	.	_	_
+
+#Text=- Die Venus bei Biström ist eines der schönsten Marmorstücke seiner Art .
+11-1	967-968	-	_	_
+11-2	969-972	Die	_	_
+11-3	973-978	Venus	*	OBJ
+11-4	979-982	bei	_	_
+11-5	983-990	Biström	*	PERmentioned
+11-6	991-994	ist	_	_
+11-7	995-1000	eines	_	_
+11-8	1001-1004	der	_	_
+11-9	1005-1014	schönsten	_	_
+11-10	1015-1027	Marmorstücke	*	OBJ
+11-11	1028-1034	seiner	_	_
+11-12	1035-1038	Art	_	_
+11-13	1039-1040	.	_	_
+
+#Text=Kopf , Arme und das Untertheil sind neu .
+12-1	1041-1045	Kopf	_	_
+12-2	1046-1047	,	_	_
+12-3	1048-1052	Arme	_	_
+12-4	1053-1056	und	_	_
+12-5	1057-1060	das	_	_
+12-6	1061-1071	Untertheil	_	_
+12-7	1072-1076	sind	_	_
+12-8	1077-1080	neu	_	_
+12-9	1081-1082	.	_	_
+
+#Text=Der antike Torso ist bewundernswürdig schön .
+13-1	1083-1086	Der	_	_
+13-2	1087-1093	antike	*[12]	OBJ[12]
+13-3	1094-1099	Torso	*[12]	OBJ[12]
+13-4	1100-1103	ist	_	_
+13-5	1104-1120	bewundernswürdig	_	_
+13-6	1121-1126	schön	_	_
+13-7	1127-1128	.	_	_
+
+#Text=Mahler wird Ihnen denselben zeigen , wenn Sie hierher kommen .
+14-1	1129-1135	Mahler	*	PERmentioned
+14-2	1136-1140	wird	_	_
+14-3	1141-1146	Ihnen	_	_
+14-4	1147-1156	denselben	_	_
+14-5	1157-1163	zeigen	_	_
+14-6	1164-1165	,	_	_
+14-7	1166-1170	wenn	_	_
+14-8	1171-1174	Sie	_	_
+14-9	1175-1182	hierher	_	_
+14-10	1183-1189	kommen	_	_
+14-11	1190-1191	.	_	_
+
+#Text=Für 2000 Scudi wird er zu haben sein .
+15-1	1192-1195	Für	_	_
+15-2	1196-1200	2000	_	_
+15-3	1201-1206	Scudi	_	_
+15-4	1207-1211	wird	_	_
+15-5	1212-1214	er	_	_
+15-6	1215-1217	zu	_	_
+15-7	1218-1223	haben	_	_
+15-8	1224-1228	sein	_	_
+15-9	1229-1230	.	_	_
+
+#Text=Schulz scheint nun wirklich Neapel verlassen zu haben .
+16-1	1231-1237	Schulz	*	PERmentioned
+16-2	1238-1245	scheint	_	_
+16-3	1246-1249	nun	_	_
+16-4	1250-1258	wirklich	_	_
+16-5	1259-1265	Neapel	*	PLACEmentioned
+16-6	1266-1275	verlassen	_	_
+16-7	1276-1278	zu	_	_
+16-8	1279-1284	haben	_	_
+16-9	1285-1286	.	_	_
+
+#Text=Die Cholera wüthet daselbst fürchterlich .
+17-1	1287-1290	Die	_	_
+17-2	1291-1298	Cholera	_	_
+17-3	1299-1305	wüthet	_	_
+17-4	1306-1314	daselbst	_	_
+17-5	1315-1327	fürchterlich	_	_
+17-6	1328-1329	.	_	_
+
+#Text=Auch gegen Rom ist sie im Herannahen .
+18-1	1330-1334	Auch	_	_
+18-2	1335-1340	gegen	_	_
+18-3	1341-1344	Rom	*	PLACEmentioned
+18-4	1345-1348	ist	_	_
+18-5	1349-1352	sie	_	_
+18-6	1353-1355	im	_	_
+18-7	1356-1366	Herannahen	_	_
+18-8	1367-1368	.	_	_
+
+#Text=Sie soll bereits den päpstlichen Cordon übersprungen haben .
+19-1	1369-1372	Sie	_	_
+19-2	1373-1377	soll	_	_
+19-3	1378-1385	bereits	_	_
+19-4	1386-1389	den	_	_
+19-5	1390-1401	päpstlichen	_	_
+19-6	1402-1408	Cordon	_	_
+19-7	1409-1421	übersprungen	_	_
+19-8	1422-1427	haben	_	_
+19-9	1428-1429	.	_	_
+
+#Text=Der Campanarische Bediente hat für Ihre Restaurationen wenig oder nichts gethan .
+20-1	1430-1433	Der	_	_
+20-2	1434-1447	Campanarische	*	MISC
+20-3	1448-1456	Bediente	*	PERmentioned
+20-4	1457-1460	hat	_	_
+20-5	1461-1464	für	_	_
+20-6	1465-1469	Ihre	_	_
+20-7	1470-1484	Restaurationen	_	_
+20-8	1485-1490	wenig	_	_
+20-9	1491-1495	oder	_	_
+20-10	1496-1502	nichts	_	_
+20-11	1503-1509	gethan	_	_
+20-12	1510-1511	.	_	_
+
+#Text=Er behauptet für den ausbedungnen Preis es nicht leisten zu können \; die Spesen seien fast größer als letzterer .
+21-1	1512-1514	Er	_	_
+21-2	1515-1524	behauptet	_	_
+21-3	1525-1528	für	_	_
+21-4	1529-1532	den	_	_
+21-5	1533-1545	ausbedungnen	_	_
+21-6	1546-1551	Preis	_	_
+21-7	1552-1554	es	_	_
+21-8	1555-1560	nicht	_	_
+21-9	1561-1568	leisten	_	_
+21-10	1569-1571	zu	_	_
+21-11	1572-1578	können	_	_
+21-12	1579-1580	\;	_	_
+21-13	1581-1584	die	_	_
+21-14	1585-1591	Spesen	_	_
+21-15	1592-1597	seien	_	_
+21-16	1598-1602	fast	_	_
+21-17	1603-1609	größer	_	_
+21-18	1610-1613	als	_	_
+21-19	1614-1623	letzterer	_	_
+21-20	1624-1625	.	_	_
+
+#Text=Er wünscht
+22-1	1626-1628	Er	_	_
+22-2	1629-1636	wünscht	_	_

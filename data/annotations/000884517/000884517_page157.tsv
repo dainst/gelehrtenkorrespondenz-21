@@ -1,0 +1,54 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=282 Gerhard an Braun Berlin , 9 .
+1-1	0-3	282	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	9	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=August 1845 Ich hoffe Briefe von Ihnen in Frankfurt später in Florenz zu finden .
+2-1	34-40	August	*[1]	DATEletter[1]
+2-2	41-45	1845	*[1]	DATEletter[1]
+2-3	46-49	Ich	_	_
+2-4	50-55	hoffe	_	_
+2-5	56-62	Briefe	_	_
+2-6	63-66	von	_	_
+2-7	67-72	Ihnen	_	_
+2-8	73-75	in	_	_
+2-9	76-85	Frankfurt	*	PLACEmentioned
+2-10	86-92	später	_	_
+2-11	93-95	in	_	_
+2-12	96-103	Florenz	*	PLACEmentioned
+2-13	104-106	zu	_	_
+2-14	107-113	finden	_	_
+2-15	114-115	.	_	_
+
+#Text=Roß ist in Kissingen .
+3-1	116-119	Roß	*	PERmentioned
+3-2	120-123	ist	_	_
+3-3	124-126	in	_	_
+3-4	127-136	Kissingen	*	PLACEmentioned
+3-5	137-138	.	_	_
+
+#Text=Von Herzen der Ihrige , bereits in Hoffnung fröhlichen Wiedersehens , .
+4-1	139-142	Von	_	_
+4-2	143-149	Herzen	_	_
+4-3	150-153	der	_	_
+4-4	154-160	Ihrige	_	_
+4-5	161-162	,	_	_
+4-6	163-170	bereits	_	_
+4-7	171-173	in	_	_
+4-8	174-182	Hoffnung	_	_
+4-9	183-193	fröhlichen	_	_
+4-10	194-206	Wiedersehens	_	_
+4-11	207-208	,	_	_
+4-12	209-210	.	_	_
+
+#Text=Gerhard
+5-1	211-218	Gerhard	*	PERauthor

@@ -1,0 +1,200 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=15 Lepsius an Henzen Berlin , 7 .
+1-1	0-2	15	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	7	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Januar 1876 gs .
+2-1	34-40	Januar	*[1]	DATEletter[1]
+2-2	41-45	1876	*[1]	DATEletter[1]
+2-3	46-48	gs	_	_
+2-4	49-50	.	_	_
+
+#Text=711/76 r . 15/76 Berlin d . 7 .
+3-1	51-57	711/76	*	DATErecieved
+3-2	58-59	r	_	_
+3-3	60-61	.	_	_
+3-4	62-67	15/76	*	DATEanswered
+3-5	68-74	Berlin	*	PLACEfrom
+3-6	75-76	d	_	_
+3-7	77-78	.	_	_
+3-8	79-80	7	*[2]	DATEletter[2]
+3-9	81-82	.	*[2]	DATEletter[2]
+
+#Text=Jan 1876 Prof. Henzen ‚Da Sie die Korrispondenten umgehend wieder haben wollen , so kann ich sie den andern Mitgliedern nicht vorlegen .
+4-1	83-86	Jan	*[2]	DATEletter[2]
+4-2	87-91	1876	*[2]	DATEletter[2]
+4-3	92-97	Prof.	_	_
+4-4	98-104	Henzen	*	PERaddressee
+4-5	105-108	‚Da	_	_
+4-6	109-112	Sie	_	_
+4-7	113-116	die	_	_
+4-8	117-132	Korrispondenten	_	_
+4-9	133-141	umgehend	_	_
+4-10	142-148	wieder	_	_
+4-11	149-154	haben	_	_
+4-12	155-161	wollen	_	_
+4-13	162-163	,	_	_
+4-14	164-166	so	_	_
+4-15	167-171	kann	_	_
+4-16	172-175	ich	_	_
+4-17	176-179	sie	_	_
+4-18	180-183	den	_	_
+4-19	184-190	andern	_	_
+4-20	191-202	Mitgliedern	_	_
+4-21	203-208	nicht	_	_
+4-22	209-217	vorlegen	_	_
+4-23	218-219	.	_	_
+
+#Text=Meine Korrekturen finden Sie in roth .
+5-1	220-225	Meine	_	_
+5-2	226-237	Korrekturen	_	_
+5-3	238-244	finden	_	_
+5-4	245-248	Sie	_	_
+5-5	249-251	in	_	_
+5-6	252-256	roth	_	_
+5-7	257-258	.	_	_
+
+#Text=Ich habe mit Mommsen nach Ihrem Wunsche gesprochen .
+6-1	259-262	Ich	_	_
+6-2	263-267	habe	_	_
+6-3	268-271	mit	_	_
+6-4	272-279	Mommsen	*	PERmentioned
+6-5	280-284	nach	_	_
+6-6	285-290	Ihrem	_	_
+6-7	291-298	Wunsche	_	_
+6-8	299-309	gesprochen	_	_
+6-9	310-311	.	_	_
+
+#Text=Wir haben gemeint etwa 150 Mark .
+7-1	312-315	Wir	_	_
+7-2	316-321	haben	_	_
+7-3	322-329	gemeint	_	_
+7-4	330-334	etwa	_	_
+7-5	335-338	150	_	_
+7-6	339-343	Mark	_	_
+7-7	344-345	.	_	_
+
+#Text=Lepsius Die Legationskasse fand es am einfachsten , wenn Asher seine Rechnung direkt an Sie einzahlt .
+8-1	346-353	Lepsius	*	PERmentioned
+8-2	354-357	Die	_	_
+8-3	358-372	Legationskasse	_	_
+8-4	373-377	fand	_	_
+8-5	378-380	es	_	_
+8-6	381-383	am	_	_
+8-7	384-395	einfachsten	_	_
+8-8	396-397	,	_	_
+8-9	398-402	wenn	_	_
+8-10	403-408	Asher	*	PERmentioned
+8-11	409-414	seine	_	_
+8-12	415-423	Rechnung	_	_
+8-13	424-430	direkt	_	_
+8-14	431-433	an	_	_
+8-15	434-437	Sie	_	_
+8-16	438-446	einzahlt	_	_
+8-17	447-448	.	_	_
+
+#Text=Ich habe diesen daher damit beauftragt .
+9-1	449-452	Ich	_	_
+9-2	453-457	habe	_	_
+9-3	458-464	diesen	_	_
+9-4	465-470	daher	_	_
+9-5	471-476	damit	_	_
+9-6	477-487	beauftragt	_	_
+9-7	488-489	.	_	_
+
+#Text=Die Quittung dagegen wird er Ihnen dann für Ihre Rechnungslegung zusenden .
+10-1	490-493	Die	_	_
+10-2	494-502	Quittung	_	_
+10-3	503-510	dagegen	_	_
+10-4	511-515	wird	_	_
+10-5	516-518	er	_	_
+10-6	519-524	Ihnen	_	_
+10-7	525-529	dann	_	_
+10-8	530-533	für	_	_
+10-9	534-538	Ihre	_	_
+10-10	539-554	Rechnungslegung	_	_
+10-11	555-563	zusenden	_	_
+10-12	564-565	.	_	_
+
+#Text=Er sagt mir übrigens wiederum daß voll auf Platz bei ihm für das Pariser Depot ( bis 1889 ) vorhanden sei .
+11-1	566-568	Er	_	_
+11-2	569-573	sagt	_	_
+11-3	574-577	mir	_	_
+11-4	578-586	übrigens	_	_
+11-5	587-595	wiederum	_	_
+11-6	596-599	daß	_	_
+11-7	600-604	voll	_	_
+11-8	605-608	auf	_	_
+11-9	609-614	Platz	_	_
+11-10	615-618	bei	_	_
+11-11	619-622	ihm	_	_
+11-12	623-626	für	_	_
+11-13	627-630	das	_	_
+11-14	631-638	Pariser	*	PLACEmentioned
+11-15	639-644	Depot	_	_
+11-16	645-646	(	_	_
+11-17	647-650	bis	_	_
+11-18	651-655	1889	*	DATEmentioned
+11-19	656-657	)	_	_
+11-20	658-667	vorhanden	_	_
+11-21	668-671	sei	_	_
+11-22	672-673	.	_	_
+
+#Text=Es ist daher wohl besser wenn Sie anordnen , daß Dumont sobald es ihm beliebt , die Absendung hierher an Asher vornehme .
+12-1	674-676	Es	_	_
+12-2	677-680	ist	_	_
+12-3	681-686	daher	_	_
+12-4	687-691	wohl	_	_
+12-5	692-698	besser	_	_
+12-6	699-703	wenn	_	_
+12-7	704-707	Sie	_	_
+12-8	708-716	anordnen	_	_
+12-9	717-718	,	_	_
+12-10	719-722	daß	_	_
+12-11	723-729	Dumont	*	PERmentioned
+12-12	730-736	sobald	_	_
+12-13	737-739	es	_	_
+12-14	740-743	ihm	_	_
+12-15	744-751	beliebt	_	_
+12-16	752-753	,	_	_
+12-17	754-757	die	_	_
+12-18	758-767	Absendung	_	_
+12-19	768-775	hierher	_	_
+12-20	776-778	an	_	_
+12-21	779-784	Asher	*	PERmentioned
+12-22	785-793	vornehme	_	_
+12-23	794-795	.	_	_
+
+#Text=Dieser wird dann sogleich im Frühjahr eine neue Aufnahme des Ganzen vornehmen , da das Konstatiren eines Exemplars jetzt sehr schwer sei .
+13-1	796-802	Dieser	_	_
+13-2	803-807	wird	_	_
+13-3	808-812	dann	_	_
+13-4	813-821	sogleich	_	_
+13-5	822-824	im	_	_
+13-6	825-833	Frühjahr	_	_
+13-7	834-838	eine	_	_
+13-8	839-843	neue	_	_
+13-9	844-852	Aufnahme	_	_
+13-10	853-856	des	_	_
+13-11	857-863	Ganzen	_	_
+13-12	864-873	vornehmen	_	_
+13-13	874-875	,	_	_
+13-14	876-878	da	_	_
+13-15	879-882	das	_	_
+13-16	883-894	Konstatiren	_	_
+13-17	895-900	eines	_	_
+13-18	901-910	Exemplars	_	_
+13-19	911-916	jetzt	_	_
+13-20	917-921	sehr	_	_
+13-21	922-928	schwer	_	_
+13-22	929-932	sei	_	_
+13-23	933-934	.	_	_

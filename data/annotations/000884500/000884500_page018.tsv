@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 25 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	25	*[5]	DATEletter[5]
+1-7	29-30	.	*[5]	DATEletter[5]
+
+#Text=Januar 1838 Dr. Braun g . 8/2 38 Aff .
+2-1	31-37	Januar	*[5]	DATEletter[5]
+2-2	38-42	1838	*[5]	DATEletter[5]
+2-3	43-46	Dr.	_	_
+2-4	47-52	Braun	*	PERaddressee
+2-5	53-54	g	_	_
+2-6	55-56	.	_	_
+2-7	57-60	8/2	*[6]	DATErecieved[6]
+2-8	61-63	38	*[6]	DATErecieved[6]
+2-9	64-67	Aff	_	_
+2-10	68-69	.	_	_
+
+#Text=d . Dir .
+3-1	70-71	d	_	_
+3-2	72-73	.	_	_
+3-3	74-77	Dir	_	_
+3-4	78-79	.	_	_
+
+#Text=IXI r . 13/2 38 Berlin 25 Jan 38 Mein theurer Freund .
+4-1	80-83	IXI	_	_
+4-2	84-85	r	_	_
+4-3	86-87	.	_	_
+4-4	88-92	13/2	*[7]	DATEanswered[7]
+4-5	93-95	38	*[7]	DATEanswered[7]
+4-6	96-102	Berlin	*	PLACEfrom
+4-7	103-105	25	*[9]	DATEletter[9]
+4-8	106-109	Jan	*[9]	DATEletter[9]
+4-9	110-112	38	*[9]	DATEletter[9]
+4-10	113-117	Mein	_	_
+4-11	118-125	theurer	_	_
+4-12	126-132	Freund	_	_
+4-13	133-134	.	_	_
+
+#Text=Ich erhalte eben nach langem Harren Ihre beiden Briefe vom 9 und 11 zu gleicher Zeit \; die Donnerstagspost ( darüber geschrieben : Donnerstag ) mit der lezterer abgesandt war , ist die minder günstige zur Absendung hieher , die Antwort kann erst etliche Tage später abgehn .
+5-1	135-138	Ich	_	_
+5-2	139-146	erhalte	_	_
+5-3	147-151	eben	_	_
+5-4	152-156	nach	_	_
+5-5	157-163	langem	_	_
+5-6	164-170	Harren	_	_
+5-7	171-175	Ihre	_	_
+5-8	176-182	beiden	_	_
+5-9	183-189	Briefe	_	_
+5-10	190-193	vom	_	_
+5-11	194-195	9	*	DATEmentioned
+5-12	196-199	und	_	_
+5-13	200-202	11	_	_
+5-14	203-205	zu	_	_
+5-15	206-214	gleicher	_	_
+5-16	215-219	Zeit	_	_
+5-17	220-221	\;	_	_
+5-18	222-225	die	_	_
+5-19	226-241	Donnerstagspost	_	_
+5-20	242-243	(	_	_
+5-21	244-251	darüber	_	_
+5-22	252-263	geschrieben	_	_
+5-23	264-265	:	_	_
+5-24	266-276	Donnerstag	_	_
+5-25	277-278	)	_	_
+5-26	279-282	mit	_	_
+5-27	283-286	der	_	_
+5-28	287-295	lezterer	_	_
+5-29	296-305	abgesandt	_	_
+5-30	306-309	war	_	_
+5-31	310-311	,	_	_
+5-32	312-315	ist	_	_
+5-33	316-319	die	_	_
+5-34	320-326	minder	_	_
+5-35	327-335	günstige	_	_
+5-36	336-339	zur	_	_
+5-37	340-349	Absendung	_	_
+5-38	350-356	hieher	_	_
+5-39	357-358	,	_	_
+5-40	359-362	die	_	_
+5-41	363-370	Antwort	_	_
+5-42	371-375	kann	_	_
+5-43	376-380	erst	_	_
+5-44	381-388	etliche	_	_
+5-45	389-393	Tage	_	_
+5-46	394-400	später	_	_
+5-47	401-407	abgehn	_	_
+5-48	408-409	.	_	_
+
+#Text=Ich bin sehr besorgt daß nicht alle Briefe von Mir Ihnen regelmäßig zugekommen seien .
+6-1	410-413	Ich	_	_
+6-2	414-417	bin	_	_
+6-3	418-422	sehr	_	_
+6-4	423-430	besorgt	_	_
+6-5	431-434	daß	_	_
+6-6	435-440	nicht	_	_
+6-7	441-445	alle	_	_
+6-8	446-452	Briefe	_	_
+6-9	453-456	von	_	_
+6-10	457-460	Mir	_	_
+6-11	461-466	Ihnen	_	_
+6-12	467-477	regelmäßig	_	_
+6-13	478-488	zugekommen	_	_
+6-14	489-494	seien	_	_
+6-15	495-496	.	_	_
+
+#Text=Ich schrieb Ihnen 9 November 7 December 28 December 2 Januar 16 Januar , an Lepsius aber , dem ich dies zu bemerken bitte , 9 November 5 December 7 December 12 December 18 Januar .
+7-1	497-500	Ich	_	_
+7-2	501-508	schrieb	_	_
+7-3	509-514	Ihnen	_	_
+7-4	515-516	9	*[11]	DATEmentioned[11]
+7-5	517-525	November	*[11]	DATEmentioned[11]
+7-6	526-527	7	_	_
+7-7	528-536	December	*[12]	DATEmentioned[12]
+7-8	537-539	28	_	_
+7-9	540-548	December	*[13]	DATEmentioned[13]
+7-10	549-550	2	_	_
+7-11	551-557	Januar	*[14]	DATEmentioned[14]
+7-12	558-560	16	_	_
+7-13	561-567	Januar	*[15]	DATEmentioned[15]
+7-14	568-569	,	_	_
+7-15	570-572	an	_	_
+7-16	573-580	Lepsius	*	PERmentioned
+7-17	581-585	aber	_	_
+7-18	586-587	,	_	_
+7-19	588-591	dem	_	_
+7-20	592-595	ich	_	_
+7-21	596-600	dies	_	_
+7-22	601-603	zu	_	_
+7-23	604-612	bemerken	_	_
+7-24	613-618	bitte	_	_
+7-25	619-620	,	_	_
+7-26	621-622	9	*[17]	DATEmentioned[17]
+7-27	623-631	November	*[17]	DATEmentioned[17]
+7-28	632-633	5	_	_
+7-29	634-642	December	*[18]	DATEmentioned[18]
+7-30	643-644	7	_	_
+7-31	645-653	December	*[19]|*[20]	DATEmentioned[19]|DATEmentioned[20]
+7-32	654-656	12	_	_
+7-33	657-665	December	*[22]	DATEmentioned[22]
+7-34	666-668	18	*[21]	DATEmentioned[21]
+7-35	669-675	Januar	*[21]	DATEmentioned[21]
+7-36	676-677	.	_	_
+
+#Text=Der Brief vom 18 December enthielt die Brockhausischen Nachrichten , der vom 2 Januar den Wechsel von 100 rt Betrag .
+8-1	678-681	Der	_	_
+8-2	682-687	Brief	_	_
+8-3	688-691	vom	_	_
+8-4	692-694	18	_	_
+8-5	695-703	December	_	_
+8-6	704-712	enthielt	_	_
+8-7	713-716	die	_	_
+8-8	717-732	Brockhausischen	*	ORGmentioned
+8-9	733-744	Nachrichten	_	_
+8-10	745-746	,	_	_
+8-11	747-750	der	_	_
+8-12	751-754	vom	_	_
+8-13	755-756	2	*[24]	DATEmentioned[24]
+8-14	757-763	Januar	*[24]	DATEmentioned[24]
+8-15	764-767	den	_	_
+8-16	768-775	Wechsel	_	_
+8-17	776-779	von	_	_
+8-18	780-783	100	_	_
+8-19	784-786	rt	_	_
+8-20	787-793	Betrag	_	_
+8-21	794-795	.	_	_
+
+#Text=Briefverirrung ist leicht möglich in jetzigen Zeiten \; ich notire Ihnen Vorstehendes sorgfältig , weil es mir unbegreiflich ist daß Ihr Brief die Brockhausische Sache so gut wie meine Bemerkung wegen der bisherigen Kommission und meine Bitte die Absendung meiner Vasen zu beschleunigen übergehe ..
+9-1	796-810	Briefverirrung	_	_
+9-2	811-814	ist	_	_
+9-3	815-821	leicht	_	_
+9-4	822-829	möglich	_	_
+9-5	830-832	in	_	_
+9-6	833-841	jetzigen	_	_
+9-7	842-848	Zeiten	_	_
+9-8	849-850	\;	_	_
+9-9	851-854	ich	_	_
+9-10	855-861	notire	_	_
+9-11	862-867	Ihnen	_	_
+9-12	868-880	Vorstehendes	_	_
+9-13	881-891	sorgfältig	_	_
+9-14	892-893	,	_	_
+9-15	894-898	weil	_	_
+9-16	899-901	es	_	_
+9-17	902-905	mir	_	_
+9-18	906-919	unbegreiflich	_	_
+9-19	920-923	ist	_	_
+9-20	924-927	daß	_	_
+9-21	928-931	Ihr	_	_
+9-22	932-937	Brief	_	_
+9-23	938-941	die	_	_
+9-24	942-956	Brockhausische	*	ORGmentioned
+9-25	957-962	Sache	_	_
+9-26	963-965	so	_	_
+9-27	966-969	gut	_	_
+9-28	970-973	wie	_	_
+9-29	974-979	meine	_	_
+9-30	980-989	Bemerkung	_	_
+9-31	990-995	wegen	_	_
+9-32	996-999	der	_	_
+9-33	1000-1010	bisherigen	_	_
+9-34	1011-1021	Kommission	_	_
+9-35	1022-1025	und	_	_
+9-36	1026-1031	meine	_	_
+9-37	1032-1037	Bitte	_	_
+9-38	1038-1041	die	_	_
+9-39	1042-1051	Absendung	_	_
+9-40	1052-1058	meiner	_	_
+9-41	1059-1064	Vasen	_	_
+9-42	1065-1067	zu	_	_
+9-43	1068-1081	beschleunigen	_	_
+9-44	1082-1090	übergehe	_	_
+9-45	1091-1093	..	_	_
+
+#Text=Auch von den erbetnen Maßregeln gegen Dellantonis Kistenübertheurung schreiben Sie nichts .
+10-1	1094-1098	Auch	_	_
+10-2	1099-1102	von	_	_
+10-3	1103-1106	den	_	_
+10-4	1107-1115	erbetnen	_	_
+10-5	1116-1125	Maßregeln	_	_
+10-6	1126-1131	gegen	_	_
+10-7	1132-1143	Dellantonis	*	PERmentioned
+10-8	1144-1162	Kistenübertheurung	_	_
+10-9	1163-1172	schreiben	_	_
+10-10	1173-1176	Sie	_	_
+10-11	1177-1183	nichts	_	_
+10-12	1184-1185	.	_	_
+
+#Text=Die Absendung meiner Kisten drängt mich sehr \; ich kann
+11-1	1186-1189	Die	_	_
+11-2	1190-1199	Absendung	_	_
+11-3	1200-1206	meiner	_	_
+11-4	1207-1213	Kisten	_	_
+11-5	1214-1220	drängt	_	_
+11-6	1221-1225	mich	_	_
+11-7	1226-1230	sehr	_	_
+11-8	1231-1232	\;	_	_
+11-9	1233-1236	ich	_	_
+11-10	1237-1241	kann	_	_

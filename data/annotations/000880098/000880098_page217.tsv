@@ -1,0 +1,276 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=839 Braun an Gerhard Prof. Gerhard Rom , 5. Mai 1835 Roma , li 5 Maggio 1835 Seit vielen Wochen bin ich gegen Sie , hochverehrtester Freund , in argen Rückständen : ich brauche Ihnen wohl nicht zu wiederholen , daß ich vor vielen Geschäften kaum zu mir selbst gekommen bin .
+1-1	0-3	839	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-43	5.	*[2]	DATEletter[2]
+1-10	44-47	Mai	*[2]	DATEletter[2]
+1-11	48-52	1835	*[2]	DATEletter[2]
+1-12	53-57	Roma	*	PLACEfrom
+1-13	58-59	,	_	_
+1-14	60-62	li	_	_
+1-15	63-64	5	*[3]	DATEletter[3]
+1-16	65-71	Maggio	*[3]	DATEletter[3]
+1-17	72-76	1835	*[3]	DATEletter[3]
+1-18	77-81	Seit	_	_
+1-19	82-88	vielen	_	_
+1-20	89-95	Wochen	_	_
+1-21	96-99	bin	_	_
+1-22	100-103	ich	_	_
+1-23	104-109	gegen	_	_
+1-24	110-113	Sie	_	_
+1-25	114-115	,	_	_
+1-26	116-132	hochverehrtester	_	_
+1-27	133-139	Freund	_	_
+1-28	140-141	,	_	_
+1-29	142-144	in	_	_
+1-30	145-150	argen	_	_
+1-31	151-162	Rückständen	_	_
+1-32	163-164	:	_	_
+1-33	165-168	ich	_	_
+1-34	169-176	brauche	_	_
+1-35	177-182	Ihnen	_	_
+1-36	183-187	wohl	_	_
+1-37	188-193	nicht	_	_
+1-38	194-196	zu	_	_
+1-39	197-208	wiederholen	_	_
+1-40	209-210	,	_	_
+1-41	211-214	daß	_	_
+1-42	215-218	ich	_	_
+1-43	219-222	vor	_	_
+1-44	223-229	vielen	_	_
+1-45	230-240	Geschäften	_	_
+1-46	241-245	kaum	_	_
+1-47	246-248	zu	_	_
+1-48	249-252	mir	_	_
+1-49	253-259	selbst	_	_
+1-50	260-268	gekommen	_	_
+1-51	269-272	bin	_	_
+1-52	273-274	.	_	_
+
+#Text=Aus gleichem Grund thut es mir sehr leid Ihnen die Bull .
+2-1	275-278	Aus	_	_
+2-2	279-287	gleichem	_	_
+2-3	288-293	Grund	_	_
+2-4	294-298	thut	_	_
+2-5	299-301	es	_	_
+2-6	302-305	mir	_	_
+2-7	306-310	sehr	_	_
+2-8	311-315	leid	_	_
+2-9	316-321	Ihnen	_	_
+2-10	322-325	die	_	_
+2-11	326-330	Bull	*[4]	LIT[4]
+2-12	331-332	.	*[4]	LIT[4]
+
+#Text=Artikel nicht ausgezogen zu haben : es fehlte eben Zeit und Sammlung .
+3-1	333-340	Artikel	_	_
+3-2	341-346	nicht	_	_
+3-3	347-357	ausgezogen	_	_
+3-4	358-360	zu	_	_
+3-5	361-366	haben	_	_
+3-6	367-368	:	_	_
+3-7	369-371	es	_	_
+3-8	372-378	fehlte	_	_
+3-9	379-383	eben	_	_
+3-10	384-388	Zeit	_	_
+3-11	389-392	und	_	_
+3-12	393-401	Sammlung	_	_
+3-13	402-403	.	_	_
+
+#Text=Das Januarstück welches Ihnen mangelt , werden Sie in dem großen Paquet finden , das unter Bunsens Addresse zu Ihrer Eröffnung an Sie mit dem österr .
+4-1	404-407	Das	_	_
+4-2	408-419	Januarstück	_	_
+4-3	420-427	welches	_	_
+4-4	428-433	Ihnen	_	_
+4-5	434-441	mangelt	_	_
+4-6	442-443	,	_	_
+4-7	444-450	werden	_	_
+4-8	451-454	Sie	_	_
+4-9	455-457	in	_	_
+4-10	458-461	dem	_	_
+4-11	462-468	großen	_	_
+4-12	469-475	Paquet	_	_
+4-13	476-482	finden	_	_
+4-14	483-484	,	_	_
+4-15	485-488	das	_	_
+4-16	489-494	unter	_	_
+4-17	495-502	Bunsens	*	PERmentioned
+4-18	503-511	Addresse	_	_
+4-19	512-514	zu	_	_
+4-20	515-520	Ihrer	_	_
+4-21	521-530	Eröffnung	_	_
+4-22	531-533	an	_	_
+4-23	534-537	Sie	_	_
+4-24	538-541	mit	_	_
+4-25	542-545	dem	_	_
+4-26	546-552	österr	_	_
+4-27	553-554	.	_	_
+
+#Text=Courier abgesangen ist ( 2 Mai ) \; das Forumbull .
+5-1	555-562	Courier	_	_
+5-2	563-573	abgesangen	_	_
+5-3	574-577	ist	_	_
+5-4	578-579	(	_	_
+5-5	580-581	2	*[5]	DATEmentioned[5]
+5-6	582-585	Mai	*[5]	DATEmentioned[5]
+5-7	586-587	)	_	_
+5-8	588-589	\;	_	_
+5-9	590-593	das	_	_
+5-10	594-603	Forumbull	*[6]	LIT[6]
+5-11	604-605	.	*[6]	LIT[6]
+
+#Text=welches die Reihe aller der bisher pubblicirten Bull .
+6-1	606-613	welches	_	_
+6-2	614-617	die	_	_
+6-3	618-623	Reihe	_	_
+6-4	624-629	aller	_	_
+6-5	630-633	der	_	_
+6-6	634-640	bisher	_	_
+6-7	641-653	pubblicirten	_	_
+6-8	654-658	Bull	*[7]	LIT[7]
+6-9	659-660	.	*[7]	LIT[7]
+
+#Text=schließt , ist in einem beschmutzen Exemplar beigelegt , das ich Ihnen mit Gelegenheit austauschen werde -— Humbolds Tod anzuzeigen hat Bunsen übernommen .
+7-1	661-669	schließt	_	_
+7-2	670-671	,	_	_
+7-3	672-675	ist	_	_
+7-4	676-678	in	_	_
+7-5	679-684	einem	_	_
+7-6	685-696	beschmutzen	_	_
+7-7	697-705	Exemplar	_	_
+7-8	706-715	beigelegt	_	_
+7-9	716-717	,	_	_
+7-10	718-721	das	_	_
+7-11	722-725	ich	_	_
+7-12	726-731	Ihnen	_	_
+7-13	732-735	mit	_	_
+7-14	736-747	Gelegenheit	_	_
+7-15	748-759	austauschen	_	_
+7-16	760-765	werde	_	_
+7-17	766-768	-—	_	_
+7-18	769-777	Humbolds	*	PERmentioned
+7-19	778-781	Tod	_	_
+7-20	782-792	anzuzeigen	_	_
+7-21	793-796	hat	_	_
+7-22	797-803	Bunsen	*	PERmentioned
+7-23	804-814	übernommen	_	_
+7-24	815-816	.	_	_
+
+#Text=Serradifalco war , wie ich Ihnen schrieb , zum 21 April hier .
+8-1	817-829	Serradifalco	*	PERmentioned
+8-2	830-833	war	_	_
+8-3	834-835	,	_	_
+8-4	836-839	wie	_	_
+8-5	840-843	ich	_	_
+8-6	844-849	Ihnen	_	_
+8-7	850-857	schrieb	_	_
+8-8	858-859	,	_	_
+8-9	860-863	zum	_	_
+8-10	864-866	21	*[8]	MISC[8]
+8-11	867-872	April	*[8]	MISC[8]
+8-12	873-877	hier	_	_
+8-13	878-879	.	_	_
+
+#Text=Er ist nach Mailand gegangen .
+9-1	880-882	Er	_	_
+9-2	883-886	ist	_	_
+9-3	887-891	nach	_	_
+9-4	892-899	Mailand	*	PLACEmentioned
+9-5	900-908	gegangen	_	_
+9-6	909-910	.	_	_
+
+#Text=Briefe von ihm werden Sie erhalten haben , nachdem ich sie Ihnen auch angezeigt .
+10-1	911-917	Briefe	_	_
+10-2	918-921	von	_	_
+10-3	922-925	ihm	_	_
+10-4	926-932	werden	_	_
+10-5	933-936	Sie	_	_
+10-6	937-945	erhalten	_	_
+10-7	946-951	haben	_	_
+10-8	952-953	,	_	_
+10-9	954-961	nachdem	_	_
+10-10	962-965	ich	_	_
+10-11	966-969	sie	_	_
+10-12	970-975	Ihnen	_	_
+10-13	976-980	auch	_	_
+10-14	981-990	angezeigt	_	_
+10-15	991-992	.	_	_
+
+#Text=Die Pariser Kiste , oder vielmehr beide ( eine vom vor .
+11-1	993-996	Die	_	_
+11-2	997-1004	Pariser	*	PERmentioned
+11-3	1005-1010	Kiste	_	_
+11-4	1011-1012	,	_	_
+11-5	1013-1017	oder	_	_
+11-6	1018-1026	vielmehr	_	_
+11-7	1027-1032	beide	_	_
+11-8	1033-1034	(	_	_
+11-9	1035-1039	eine	_	_
+11-10	1040-1043	vom	_	_
+11-11	1044-1047	vor	*[9]	DATEmentioned[9]
+11-12	1048-1049	.	*[9]	DATEmentioned[9]
+
+#Text=Jahr November und die v. 15 Jan . )
+12-1	1050-1054	Jahr	*[9]	DATEmentioned[9]
+12-2	1055-1063	November	*[9]	DATEmentioned[9]
+12-3	1064-1067	und	_	_
+12-4	1068-1071	die	_	_
+12-5	1072-1074	v.	_	_
+12-6	1075-1077	15	*[10]	DATEmentioned[10]
+12-7	1078-1081	Jan	*[10]	DATEmentioned[10]
+12-8	1082-1083	.	*[10]	DATEmentioned[10]
+12-9	1084-1085	)	_	_
+
+#Text=sind erst gestern angekommen .
+13-1	1086-1090	sind	_	_
+13-2	1091-1095	erst	_	_
+13-3	1096-1103	gestern	_	_
+13-4	1104-1114	angekommen	_	_
+13-5	1115-1116	.	_	_
+
+#Text=Ein Convolut mit Zeichnungen habe ich nicht darin gefunden , sondern nur Dinge für das Archiv .
+14-1	1117-1120	Ein	_	_
+14-2	1121-1129	Convolut	_	_
+14-3	1130-1133	mit	_	_
+14-4	1134-1145	Zeichnungen	_	_
+14-5	1146-1150	habe	_	_
+14-6	1151-1154	ich	_	_
+14-7	1155-1160	nicht	_	_
+14-8	1161-1166	darin	_	_
+14-9	1167-1175	gefunden	_	_
+14-10	1176-1177	,	_	_
+14-11	1178-1185	sondern	_	_
+14-12	1186-1189	nur	_	_
+14-13	1190-1195	Dinge	_	_
+14-14	1196-1199	für	_	_
+14-15	1200-1203	das	_	_
+14-16	1204-1210	Archiv	_	_
+14-17	1211-1212	.	_	_
+
+#Text=Depoletti ist schon durch die Abnahme der erwähnten Durchzeichnungen zufriedengestellt , da sein Sohn den Zeichnerliohn verdient .
+15-1	1213-1222	Depoletti	*	PERmentioned
+15-2	1223-1226	ist	_	_
+15-3	1227-1232	schon	_	_
+15-4	1233-1238	durch	_	_
+15-5	1239-1242	die	_	_
+15-6	1243-1250	Abnahme	_	_
+15-7	1251-1254	der	_	_
+15-8	1255-1264	erwähnten	_	_
+15-9	1265-1281	Durchzeichnungen	_	_
+15-10	1282-1299	zufriedengestellt	_	_
+15-11	1300-1301	,	_	_
+15-12	1302-1304	da	_	_
+15-13	1305-1309	sein	_	_
+15-14	1310-1314	Sohn	*	PERmentioned
+15-15	1315-1318	den	_	_
+15-16	1319-1332	Zeichnerliohn	_	_
+15-17	1333-1341	verdient	_	_
+15-18	1342-1343	.	_	_

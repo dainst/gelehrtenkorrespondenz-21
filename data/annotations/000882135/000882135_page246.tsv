@@ -1,0 +1,344 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=205 Braun an Gerhard Rom , 16. Juni 1840 Auf Sie habe ich meinen Unmuth nicht geworfen .
+1-1	0-3	205	_	_
+1-2	4-9	Braun	*[40]	PERauthor[40]
+1-3	10-12	an	*[40]	PERauthor[40]
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	16.	*[4]	DATEletter[4]
+1-8	31-35	Juni	*[4]	DATEletter[4]
+1-9	36-40	1840	*[4]	DATEletter[4]
+1-10	41-44	Auf	_	_
+1-11	45-48	Sie	_	_
+1-12	49-53	habe	_	_
+1-13	54-57	ich	_	_
+1-14	58-64	meinen	_	_
+1-15	65-71	Unmuth	_	_
+1-16	72-77	nicht	_	_
+1-17	78-86	geworfen	_	_
+1-18	87-88	.	_	_
+
+#Text=Ihnen allein aber kann ich sagen , daß ich mich nicht viel besser befinde als ein auf die Insel Felsenburg verschlagener Seemann .
+2-1	89-94	Ihnen	_	_
+2-2	95-101	allein	_	_
+2-3	102-106	aber	_	_
+2-4	107-111	kann	_	_
+2-5	112-115	ich	_	_
+2-6	116-121	sagen	_	_
+2-7	122-123	,	_	_
+2-8	124-127	daß	_	_
+2-9	128-131	ich	_	_
+2-10	132-136	mich	_	_
+2-11	137-142	nicht	_	_
+2-12	143-147	viel	_	_
+2-13	148-154	besser	_	_
+2-14	155-162	befinde	_	_
+2-15	163-166	als	_	_
+2-16	167-170	ein	_	_
+2-17	171-174	auf	_	_
+2-18	175-178	die	_	_
+2-19	179-184	Insel	_	_
+2-20	185-195	Felsenburg	_	_
+2-21	196-209	verschlagener	_	_
+2-22	210-217	Seemann	_	_
+2-23	218-219	.	_	_
+
+#Text=Hülflos an allen Seiten , viel conträren Wind und gewaltig viel Mühe .
+3-1	220-227	Hülflos	_	_
+3-2	228-230	an	_	_
+3-3	231-236	allen	_	_
+3-4	237-243	Seiten	_	_
+3-5	244-245	,	_	_
+3-6	246-250	viel	_	_
+3-7	251-260	conträren	_	_
+3-8	261-265	Wind	_	_
+3-9	266-269	und	_	_
+3-10	270-278	gewaltig	_	_
+3-11	279-283	viel	_	_
+3-12	284-288	Mühe	_	_
+3-13	289-290	.	_	_
+
+#Text=Das Monumentenheft für dieses Jahr wird folgende Tafeln enthalten : I. Minerva aus Villa Medici j. in Paris , die schönste Statue dieser Göttin .
+4-1	291-294	Das	_	_
+4-2	295-309	Monumentenheft	_	_
+4-3	310-313	für	_	_
+4-4	314-320	dieses	_	_
+4-5	321-325	Jahr	_	_
+4-6	326-330	wird	_	_
+4-7	331-339	folgende	_	_
+4-8	340-346	Tafeln	_	_
+4-9	347-356	enthalten	_	_
+4-10	357-358	:	_	_
+4-11	359-361	I.	_	_
+4-12	362-369	Minerva	*	OBJ
+4-13	370-373	aus	_	_
+4-14	374-379	Villa	*[6]	PLACEmentioned[6]
+4-15	380-386	Medici	*[6]	PLACEmentioned[6]
+4-16	387-389	j.	*[6]	PLACEmentioned[6]
+4-17	390-392	in	_	_
+4-18	393-398	Paris	*	PLACEmentioned
+4-19	399-400	,	_	_
+4-20	401-404	die	_	_
+4-21	405-413	schönste	_	_
+4-22	414-420	Statue	_	_
+4-23	421-427	dieser	_	_
+4-24	428-434	Göttin	_	_
+4-25	435-436	.	_	_
+
+#Text=II .
+5-1	437-439	II	_	_
+5-2	440-441	.	_	_
+
+#Text=Statue des Aesop aus dem Casino des P. Ligorio mit beigesetzter albanischer Herme , 2 Gemmen und eine Lampe .
+6-1	442-448	Statue	*[8]	OBJ[8]
+6-2	449-452	des	*[8]	OBJ[8]
+6-3	453-458	Aesop	*[8]	OBJ[8]
+6-4	459-462	aus	_	_
+6-5	463-466	dem	_	_
+6-6	467-473	Casino	*[9]	PLACEmentioned[9]
+6-7	474-477	des	*[9]	PLACEmentioned[9]
+6-8	478-480	P.	*[9]	PLACEmentioned[9]
+6-9	481-488	Ligorio	*[9]	PLACEmentioned[9]
+6-10	489-492	mit	_	_
+6-11	493-505	beigesetzter	_	_
+6-12	506-517	albanischer	*	PLACEmentioned
+6-13	518-523	Herme	*	OBJ
+6-14	524-525	,	_	_
+6-15	526-527	2	_	_
+6-16	528-534	Gemmen	*	OBJ
+6-17	535-538	und	_	_
+6-18	539-543	eine	_	_
+6-19	544-549	Lampe	*	OBJ
+6-20	550-551	.	_	_
+
+#Text=III .
+7-1	552-555	III	_	_
+7-2	556-557	.	_	_
+
+#Text=2 Bacchische Reliefs singulärer Erudition aus Villa di Medici .
+8-1	558-559	2	_	_
+8-2	560-570	Bacchische	*[14]	OBJ[14]
+8-3	571-578	Reliefs	*[14]	OBJ[14]
+8-4	579-589	singulärer	_	_
+8-5	590-599	Erudition	_	_
+8-6	600-603	aus	_	_
+8-7	604-609	Villa	*[15]	PLACEmentioned[15]
+8-8	610-612	di	*[15]	PLACEmentioned[15]
+8-9	613-619	Medici	*[15]	PLACEmentioned[15]
+8-10	620-621	.	_	_
+
+#Text=IV .
+9-1	622-624	IV	_	_
+9-2	625-626	.	_	_
+
+#Text=Das Zeuskind am Busen der Amalthea zwischen Corybanten , Terracottenreilief aus Cerveteri .
+10-1	627-630	Das	_	_
+10-2	631-639	Zeuskind	*[16]	OBJ[16]
+10-3	640-642	am	*[16]	OBJ[16]
+10-4	643-648	Busen	*[16]	OBJ[16]
+10-5	649-652	der	*[16]	OBJ[16]
+10-6	653-661	Amalthea	*[16]	OBJ[16]
+10-7	662-670	zwischen	*[16]	OBJ[16]
+10-8	671-681	Corybanten	*[16]	OBJ[16]
+10-9	682-683	,	_	_
+10-10	684-702	Terracottenreilief	*	OBJ
+10-11	703-706	aus	_	_
+10-12	707-716	Cerveteri	*	PLACEmentioned
+10-13	717-718	.	_	_
+
+#Text=V. Thetis und Nereiden mit den Waffen des Achill , griechische Vase von Marmor aus der Glyphothek .
+11-1	719-721	V.	_	_
+11-2	722-728	Thetis	*[19]	OBJ[19]
+11-3	729-732	und	*[19]	OBJ[19]
+11-4	733-741	Nereiden	*[19]|*[20]	OBJ[19]|OBJ[20]
+11-5	742-745	mit	*[19]	OBJ[19]
+11-6	746-749	den	*[19]	OBJ[19]
+11-7	750-756	Waffen	*[19]	OBJ[19]
+11-8	757-760	des	*[19]	OBJ[19]
+11-9	761-767	Achill	*[19]	OBJ[19]
+11-10	768-769	,	*[19]	OBJ[19]
+11-11	770-781	griechische	*[19]	OBJ[19]
+11-12	782-786	Vase	*[19]	OBJ[19]
+11-13	787-790	von	*[19]	OBJ[19]
+11-14	791-797	Marmor	*[19]	OBJ[19]
+11-15	798-801	aus	_	_
+11-16	802-805	der	_	_
+11-17	806-816	Glyphothek	*	ORGmentioned
+11-18	817-818	.	_	_
+
+#Text=VI .
+12-1	819-821	VI	_	_
+12-2	822-823	.	_	_
+
+#Text=Derselbe Gegenstand auf einer Jatta'schen Vase .
+13-1	824-832	Derselbe	_	_
+13-2	833-843	Gegenstand	_	_
+13-3	844-847	auf	_	_
+13-4	848-853	einer	_	_
+13-5	854-865	Jatta'schen	*[22]|*[23]	OBJ[22]|PERmentioned[23]
+13-6	866-870	Vase	*[22]	OBJ[22]
+13-7	871-872	.	_	_
+
+#Text=VII .
+14-1	873-876	VII	_	_
+14-2	877-878	.	_	_
+
+#Text=Derselbe Gegenstand anders dargestellt auf einem römischen Wandgemälde nach Bartoli'schen Cartons .
+15-1	879-887	Derselbe	_	_
+15-2	888-898	Gegenstand	_	_
+15-3	899-905	anders	_	_
+15-4	906-917	dargestellt	_	_
+15-5	918-921	auf	_	_
+15-6	922-927	einem	_	_
+15-7	928-937	römischen	*[24]	OBJ[24]
+15-8	938-949	Wandgemälde	*[24]|*[26]	OBJ[24]|OBJ[26]
+15-9	950-954	nach	_	_
+15-10	955-968	Bartoli'schen	*	PERmentioned
+15-11	969-976	Cartons	_	_
+15-12	977-978	.	_	_
+
+#Text=VIII .
+16-1	979-983	VIII	_	_
+16-2	984-985	.	_	_
+
+#Text=Tod der Chione , ähnliches Wandgemälde .
+17-1	986-989	Tod	_	_
+17-2	990-993	der	_	_
+17-3	994-1000	Chione	_	_
+17-4	1001-1002	,	_	_
+17-5	1003-1012	ähnliches	_	_
+17-6	1013-1024	Wandgemälde	*[27]	OBJ[27]
+17-7	1025-1026	.	_	_
+
+#Text=IX .
+18-1	1027-1029	IX	_	_
+18-2	1030-1031	.	_	_
+
+#Text=X .
+19-1	1032-1033	X	_	_
+19-2	1034-1035	.	_	_
+
+#Text=2 Tafeln interessanter Bronzestatuetten aus dem Museum von Parma .
+20-1	1036-1037	2	_	_
+20-2	1038-1044	Tafeln	_	_
+20-3	1045-1058	interessanter	_	_
+20-4	1059-1075	Bronzestatuetten	*	OBJ
+20-5	1076-1079	aus	_	_
+20-6	1080-1083	dem	_	_
+20-7	1084-1090	Museum	*	ORGmentioned
+20-8	1091-1094	von	_	_
+20-9	1095-1100	Parma	*	PLACEmentioned
+20-10	1101-1102	.	_	_
+
+#Text=XI .
+21-1	1103-1105	XI	_	_
+21-2	1106-1107	.	_	_
+
+#Text=Aurora und Kephalos , Bronzespiegel aus Vulci \; daneben eine ähnliche Vasenzeichnung .
+22-1	1108-1114	Aurora	*[31]	OBJ[31]
+22-2	1115-1118	und	*[31]	OBJ[31]
+22-3	1119-1127	Kephalos	*[31]	OBJ[31]
+22-4	1128-1129	,	*[31]	OBJ[31]
+22-5	1130-1143	Bronzespiegel	*[31]|*[32]	OBJ[31]|OBJ[32]
+22-6	1144-1147	aus	_	_
+22-7	1148-1153	Vulci	*	PLACEmentioned
+22-8	1154-1155	\;	_	_
+22-9	1156-1163	daneben	_	_
+22-10	1164-1168	eine	_	_
+22-11	1169-1177	ähnliche	_	_
+22-12	1178-1192	Vasenzeichnung	_	_
+22-13	1193-1194	.	_	_
+
+#Text=XII .
+23-1	1195-1198	XII	_	_
+23-2	1199-1200	.	_	_
+
+#Text=Opfer der Polyxena , vulc .
+24-1	1201-1206	Opfer	*[34]	OBJ[34]
+24-2	1207-1210	der	*[34]	OBJ[34]
+24-3	1211-1219	Polyxena	*[34]	OBJ[34]
+24-4	1220-1221	,	_	_
+24-5	1222-1226	vulc	*	PLACEmentioned
+24-6	1227-1228	.	_	_
+
+#Text=Vase mit schwarzen Figuren .
+25-1	1229-1233	Vase	*[36]	OBJ[36]
+25-2	1234-1237	mit	*[36]	OBJ[36]
+25-3	1238-1247	schwarzen	*[36]	OBJ[36]
+25-4	1248-1255	Figuren	*[36]	OBJ[36]
+25-5	1256-1257	.	_	_
+
+#Text=Ich hoffe Sie und andre werden mit dieser Auswahl zufrieden sein : sie enthält das Beste , was mir zu Gesichte gekommen ist .
+26-1	1258-1261	Ich	_	_
+26-2	1262-1267	hoffe	_	_
+26-3	1268-1271	Sie	_	_
+26-4	1272-1275	und	_	_
+26-5	1276-1281	andre	_	_
+26-6	1282-1288	werden	_	_
+26-7	1289-1292	mit	_	_
+26-8	1293-1299	dieser	_	_
+26-9	1300-1307	Auswahl	_	_
+26-10	1308-1317	zufrieden	_	_
+26-11	1318-1322	sein	_	_
+26-12	1323-1324	:	_	_
+26-13	1325-1328	sie	_	_
+26-14	1329-1336	enthält	_	_
+26-15	1337-1340	das	_	_
+26-16	1341-1346	Beste	_	_
+26-17	1347-1348	,	_	_
+26-18	1349-1352	was	_	_
+26-19	1353-1356	mir	_	_
+26-20	1357-1359	zu	_	_
+26-21	1360-1368	Gesichte	_	_
+26-22	1369-1377	gekommen	_	_
+26-23	1378-1381	ist	_	_
+26-24	1382-1383	.	_	_
+
+#Text=Lauter capi d'erudizione !
+27-1	1384-1390	Lauter	_	_
+27-2	1391-1395	capi	_	_
+27-3	1396-1408	d'erudizione	_	_
+27-4	1409-1410	!	_	_
+
+#Text=Papencordt und Ur \] ichs sind den 14 d. M. von hier abgereist , ersterer geht über Mailand und Wien , der andere über Bern nach Bonn .
+28-1	1411-1421	Papencordt	*	PERmentioned
+28-2	1422-1425	und	_	_
+28-3	1426-1428	Ur	*[38]	PERmentioned[38]
+28-4	1429-1430	\]	*[38]	PERmentioned[38]
+28-5	1431-1435	ichs	*[38]	PERmentioned[38]
+28-6	1436-1440	sind	_	_
+28-7	1441-1444	den	_	_
+28-8	1445-1447	14	*[39]	DATEmentioned[39]
+28-9	1448-1450	d.	*[39]	DATEmentioned[39]
+28-10	1451-1453	M.	*[39]	DATEmentioned[39]
+28-11	1454-1457	von	_	_
+28-12	1458-1462	hier	_	_
+28-13	1463-1472	abgereist	_	_
+28-14	1473-1474	,	_	_
+28-15	1475-1483	ersterer	_	_
+28-16	1484-1488	geht	_	_
+28-17	1489-1493	über	_	_
+28-18	1494-1501	Mailand	*	PLACEmentioned
+28-19	1502-1505	und	_	_
+28-20	1506-1510	Wien	*	PLACEmentioned
+28-21	1511-1512	,	_	_
+28-22	1513-1516	der	_	_
+28-23	1517-1523	andere	_	_
+28-24	1524-1528	über	_	_
+28-25	1529-1533	Bern	*	PLACEmentioned
+28-26	1534-1538	nach	_	_
+28-27	1539-1543	Bonn	*	PLACEmentioned
+28-28	1544-1545	.	_	_
+
+#Text=Brockhaus hat von Paris nichts remittirt und
+29-1	1546-1555	Brockhaus	*	ORGmentioned
+29-2	1556-1559	hat	_	_
+29-3	1560-1563	von	_	_
+29-4	1564-1569	Paris	*	PLACEmentioned
+29-5	1570-1576	nichts	_	_
+29-6	1577-1586	remittirt	_	_
+29-7	1587-1590	und	_	_

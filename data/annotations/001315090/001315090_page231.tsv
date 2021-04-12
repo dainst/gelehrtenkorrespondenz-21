@@ -1,0 +1,186 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=380 Lepsius an Henzen Berlin , 23. Juli 1875 n. ?
+1-1	0-3	380	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	23.	*[3]	DATEletter[3]
+1-8	35-39	Juli	*[3]	DATEletter[3]
+1-9	40-44	1875	*[3]	DATEletter[3]
+1-10	45-47	n.	_	_
+1-11	48-49	?	_	_
+
+#Text=118 g . 26/7 75 r . 29/7 Berlin , d . 23. Juli 1875 Verehrter Freund Die Central Direktion ist mit den chromolithosraphischen Tafeln und der Einrichtung die Sie vorschlagen um die nöthigen Summen einigermaßen wieder auszugleichen , einverstanden .
+2-1	50-53	118	_	_
+2-2	54-55	g	_	_
+2-3	56-57	.	_	_
+2-4	58-62	26/7	*[4]	DATErecieved[4]
+2-5	63-65	75	*[4]	DATErecieved[4]
+2-6	66-67	r	_	_
+2-7	68-69	.	_	_
+2-8	70-74	29/7	*	DATEanswered
+2-9	75-81	Berlin	*	PLACEfrom
+2-10	82-83	,	_	_
+2-11	84-85	d	_	_
+2-12	86-87	.	_	_
+2-13	88-91	23.	*[5]	DATEletter[5]
+2-14	92-96	Juli	*[5]	DATEletter[5]
+2-15	97-101	1875	*[5]	DATEletter[5]
+2-16	102-111	Verehrter	_	_
+2-17	112-118	Freund	_	_
+2-18	119-122	Die	_	_
+2-19	123-130	Central	*[6]	ORGmentioned[6]
+2-20	131-140	Direktion	*[6]	ORGmentioned[6]
+2-21	141-144	ist	_	_
+2-22	145-148	mit	_	_
+2-23	149-152	den	_	_
+2-24	153-175	chromolithosraphischen	_	_
+2-25	176-182	Tafeln	_	_
+2-26	183-186	und	_	_
+2-27	187-190	der	_	_
+2-28	191-202	Einrichtung	_	_
+2-29	203-206	die	_	_
+2-30	207-210	Sie	_	_
+2-31	211-222	vorschlagen	_	_
+2-32	223-225	um	_	_
+2-33	226-229	die	_	_
+2-34	230-238	nöthigen	_	_
+2-35	239-245	Summen	_	_
+2-36	246-258	einigermaßen	_	_
+2-37	259-265	wieder	_	_
+2-38	266-279	auszugleichen	_	_
+2-39	280-281	,	_	_
+2-40	282-295	einverstanden	_	_
+2-41	296-297	.	_	_
+
+#Text=Die stattliche Ausnahme und Abwechselung wird gewiß recht gut thun .
+3-1	298-301	Die	_	_
+3-2	302-312	stattliche	_	_
+3-3	313-321	Ausnahme	_	_
+3-4	322-325	und	_	_
+3-5	326-338	Abwechselung	_	_
+3-6	339-343	wird	_	_
+3-7	344-349	gewiß	_	_
+3-8	350-355	recht	_	_
+3-9	356-359	gut	_	_
+3-10	360-364	thun	_	_
+3-11	365-366	.	_	_
+
+#Text=Auch gegen den gewünschten Urlaub hat sie nichts , vorausgesetzt was : sich versteht , daß Sie für angemessene Vertretung sorgen , worüber Sie wohl noch ein Wort schreiben .
+4-1	367-371	Auch	_	_
+4-2	372-377	gegen	_	_
+4-3	378-381	den	_	_
+4-4	382-393	gewünschten	_	_
+4-5	394-400	Urlaub	_	_
+4-6	401-404	hat	_	_
+4-7	405-408	sie	_	_
+4-8	409-415	nichts	_	_
+4-9	416-417	,	_	_
+4-10	418-431	vorausgesetzt	_	_
+4-11	432-435	was	_	_
+4-12	436-437	:	_	_
+4-13	438-442	sich	_	_
+4-14	443-451	versteht	_	_
+4-15	452-453	,	_	_
+4-16	454-457	daß	_	_
+4-17	458-461	Sie	_	_
+4-18	462-465	für	_	_
+4-19	466-477	angemessene	_	_
+4-20	478-488	Vertretung	_	_
+4-21	489-495	sorgen	_	_
+4-22	496-497	,	_	_
+4-23	498-505	worüber	_	_
+4-24	506-509	Sie	_	_
+4-25	510-514	wohl	_	_
+4-26	515-519	noch	_	_
+4-27	520-523	ein	_	_
+4-28	524-528	Wort	_	_
+4-29	529-538	schreiben	_	_
+4-30	539-540	.	_	_
+
+#Text=Hier wird nun bald Alles auseinanderfliegen .
+5-1	541-545	Hier	_	_
+5-2	546-550	wird	_	_
+5-3	551-554	nun	_	_
+5-4	555-559	bald	_	_
+5-5	560-565	Alles	_	_
+5-6	566-584	auseinanderfliegen	_	_
+5-7	585-586	.	_	_
+
+#Text=Ich komme vor Mitte August nicht fort und denke für einige Wochen wieder nach Schlesien zu gehen statt nach Paris zum geographischen Kongreß der aber von hier aus ganz zahlreich beschickt wird .
+6-1	587-590	Ich	_	_
+6-2	591-596	komme	_	_
+6-3	597-600	vor	_	_
+6-4	601-606	Mitte	_	_
+6-5	607-613	August	*	DATEmentioned
+6-6	614-619	nicht	_	_
+6-7	620-624	fort	_	_
+6-8	625-628	und	_	_
+6-9	629-634	denke	_	_
+6-10	635-638	für	_	_
+6-11	639-645	einige	_	_
+6-12	646-652	Wochen	_	_
+6-13	653-659	wieder	_	_
+6-14	660-664	nach	_	_
+6-15	665-674	Schlesien	*	PLACEmentioned
+6-16	675-677	zu	_	_
+6-17	678-683	gehen	_	_
+6-18	684-689	statt	_	_
+6-19	690-694	nach	_	_
+6-20	695-700	Paris	*	PLACEmentioned
+6-21	701-704	zum	_	_
+6-22	705-719	geographischen	_	_
+6-23	720-727	Kongreß	_	_
+6-24	728-731	der	_	_
+6-25	732-736	aber	_	_
+6-26	737-740	von	_	_
+6-27	741-745	hier	_	_
+6-28	746-749	aus	_	_
+6-29	750-754	ganz	_	_
+6-30	755-764	zahlreich	_	_
+6-31	765-774	beschickt	_	_
+6-32	775-779	wird	_	_
+6-33	780-781	.	_	_
+
+#Text=Der Dornauszieher ist nun wieder eingepackt und wardert nach London wahrscheinlich auf Nimmerwiedersehen .
+7-1	782-785	Der	_	_
+7-2	786-799	Dornauszieher	*	OBJ
+7-3	800-803	ist	_	_
+7-4	804-807	nun	_	_
+7-5	808-814	wieder	_	_
+7-6	815-825	eingepackt	_	_
+7-7	826-829	und	_	_
+7-8	830-837	wardert	_	_
+7-9	838-842	nach	_	_
+7-10	843-849	London	*	PLACEmentioned
+7-11	850-864	wahrscheinlich	_	_
+7-12	865-868	auf	_	_
+7-13	869-886	Nimmerwiedersehen	_	_
+7-14	887-888	.	_	_
+
+#Text=Köhler werde ich nun dieser Tage seine Wahl officiell mittheilen .
+8-1	889-895	Köhler	*	PERmentioned
+8-2	896-901	werde	_	_
+8-3	902-905	ich	_	_
+8-4	906-909	nun	_	_
+8-5	910-916	dieser	_	_
+8-6	917-921	Tage	_	_
+8-7	922-927	seine	_	_
+8-8	928-932	Wahl	_	_
+8-9	933-942	officiell	_	_
+8-10	943-953	mittheilen	_	_
+8-11	954-955	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr ergebenster R Lepsius
+9-1	956-959	Mit	_	_
+9-2	960-970	herzlichem	_	_
+9-3	971-975	Gruß	_	_
+9-4	976-979	Ihr	_	_
+9-5	980-991	ergebenster	_	_
+9-6	992-993	R	*[7]	PERauthor[7]
+9-7	994-1001	Lepsius	*[7]	PERauthor[7]

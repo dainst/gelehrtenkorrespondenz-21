@@ -1,0 +1,300 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=261 Braun an Gerhard Rom , 10. März 1836 Prof. Gerhard .
+1-1	0-3	261	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	10.	*[7]	DATEletter[7]
+1-8	31-35	März	*[7]	DATEletter[7]
+1-9	36-40	1836	*[7]	DATEletter[7]
+1-10	41-46	Prof.	*[8]	PERaddressee[8]
+1-11	47-54	Gerhard	*[8]	PERaddressee[8]
+1-12	55-56	.	_	_
+
+#Text=Roma li 10 Marzo 1836 .
+2-1	57-61	Roma	*	PLACEfrom
+2-2	62-64	li	_	_
+2-3	65-67	10	*[9]	DATEletter[9]
+2-4	68-73	Marzo	*[9]	DATEletter[9]
+2-5	74-78	1836	*[9]	DATEletter[9]
+2-6	79-80	.	_	_
+
+#Text=Hochzuverehrender Freund !
+3-1	81-98	Hochzuverehrender	_	_
+3-2	99-105	Freund	_	_
+3-3	106-107	!	_	_
+
+#Text=Zur Antwort auf Ihren Zettel vom 18 Februar : Valentinis Dizionario ist durch Herrn von Sydow bei mir bestellt worden .
+4-1	108-111	Zur	_	_
+4-2	112-119	Antwort	_	_
+4-3	120-123	auf	_	_
+4-4	124-129	Ihren	_	_
+4-5	130-136	Zettel	_	_
+4-6	137-140	vom	_	_
+4-7	141-143	18	*[10]	DATEmentioned[10]
+4-8	144-151	Februar	*[10]	DATEmentioned[10]
+4-9	152-153	:	_	_
+4-10	154-164	Valentinis	*	PERmentioned
+4-11	165-175	Dizionario	_	_
+4-12	176-179	ist	_	_
+4-13	180-185	durch	_	_
+4-14	186-191	Herrn	*[11]	PERmentioned[11]
+4-15	192-195	von	*[11]	PERmentioned[11]
+4-16	196-201	Sydow	*[11]	PERmentioned[11]
+4-17	202-205	bei	_	_
+4-18	206-209	mir	_	_
+4-19	210-218	bestellt	_	_
+4-20	219-225	worden	_	_
+4-21	226-227	.	_	_
+
+#Text=Bellotti hat es mir besorgt und die Kosten ausgelegt .
+5-1	228-236	Bellotti	*	PERmentioned
+5-2	237-240	hat	_	_
+5-3	241-243	es	_	_
+5-4	244-247	mir	_	_
+5-5	248-255	besorgt	_	_
+5-6	256-259	und	_	_
+5-7	260-263	die	_	_
+5-8	264-270	Kosten	_	_
+5-9	271-280	ausgelegt	_	_
+5-10	281-282	.	_	_
+
+#Text=Ich habe mir nur insofern ein Vergnügen daraus gemacht , diese Besorgung zu übernehmen , inwiefern H. von Sydow mir diesen Auftrag ertheilte .
+6-1	283-286	Ich	_	_
+6-2	287-291	habe	_	_
+6-3	292-295	mir	_	_
+6-4	296-299	nur	_	_
+6-5	300-308	insofern	_	_
+6-6	309-312	ein	_	_
+6-7	313-322	Vergnügen	_	_
+6-8	323-329	daraus	_	_
+6-9	330-337	gemacht	_	_
+6-10	338-339	,	_	_
+6-11	340-345	diese	_	_
+6-12	346-355	Besorgung	_	_
+6-13	356-358	zu	_	_
+6-14	359-369	übernehmen	_	_
+6-15	370-371	,	_	_
+6-16	372-381	inwiefern	_	_
+6-17	382-384	H.	*[12]	PERmentioned[12]
+6-18	385-388	von	*[12]	PERmentioned[12]
+6-19	389-394	Sydow	*[12]	PERmentioned[12]
+6-20	395-398	mir	_	_
+6-21	399-405	diesen	_	_
+6-22	406-413	Auftrag	_	_
+6-23	414-423	ertheilte	_	_
+6-24	424-425	.	_	_
+
+#Text=Sonst sind alle dergleichen Geschäfte schwer und lästig , ohne vom Verdruß zu reden .
+7-1	426-431	Sonst	_	_
+7-2	432-436	sind	_	_
+7-3	437-441	alle	_	_
+7-4	442-453	dergleichen	_	_
+7-5	454-463	Geschäfte	_	_
+7-6	464-470	schwer	_	_
+7-7	471-474	und	_	_
+7-8	475-481	lästig	_	_
+7-9	482-483	,	_	_
+7-10	484-488	ohne	_	_
+7-11	489-492	vom	_	_
+7-12	493-500	Verdruß	_	_
+7-13	501-503	zu	_	_
+7-14	504-509	reden	_	_
+7-15	510-511	.	_	_
+
+#Text=H. von Sydow wird jetzt wohl Sorge tragen die Sache zu ordnen .
+8-1	512-514	H.	*[13]	PERmentioned[13]
+8-2	515-518	von	*[13]	PERmentioned[13]
+8-3	519-524	Sydow	*[13]	PERmentioned[13]
+8-4	525-529	wird	_	_
+8-5	530-535	jetzt	_	_
+8-6	536-540	wohl	_	_
+8-7	541-546	Sorge	_	_
+8-8	547-553	tragen	_	_
+8-9	554-557	die	_	_
+8-10	558-563	Sache	_	_
+8-11	564-566	zu	_	_
+8-12	567-573	ordnen	_	_
+8-13	574-575	.	_	_
+
+#Text=- Also keine Fortsetzung ?
+9-1	576-577	-	_	_
+9-2	578-582	Also	_	_
+9-3	583-588	keine	_	_
+9-4	589-600	Fortsetzung	_	_
+9-5	601-602	?	_	_
+
+#Text=Bullettino XII ?
+10-1	603-613	Bullettino	_	_
+10-2	614-617	XII	_	_
+10-3	618-619	?	_	_
+
+#Text=Ich kennedurchaus keine Detailnachricht über die Rougemontschen Ausgrabungen .. Monumenti .
+11-1	620-623	Ich	_	_
+11-2	624-637	kennedurchaus	_	_
+11-3	638-643	keine	_	_
+11-4	644-659	Detailnachricht	_	_
+11-5	660-664	über	_	_
+11-6	665-668	die	_	_
+11-7	669-683	Rougemontschen	*[14]	MISC[14]
+11-8	684-696	Ausgrabungen	*[14]	MISC[14]
+11-9	697-699	..	_	_
+11-10	700-709	Monumenti	_	_
+11-11	710-711	.	_	_
+
+#Text=Sind 6 an der Zahl , wie Sie aus meinem Speditionsavviso ersehen haben werden .
+12-1	712-716	Sind	_	_
+12-2	717-718	6	_	_
+12-3	719-721	an	_	_
+12-4	722-725	der	_	_
+12-5	726-730	Zahl	_	_
+12-6	731-732	,	_	_
+12-7	733-736	wie	_	_
+12-8	737-740	Sie	_	_
+12-9	741-744	aus	_	_
+12-10	745-751	meinem	_	_
+12-11	752-768	Speditionsavviso	_	_
+12-12	769-776	ersehen	_	_
+12-13	777-782	haben	_	_
+12-14	783-789	werden	_	_
+12-15	790-791	.	_	_
+
+#Text=An Marcus ist unter Datum vom 23 Februar folgende Sendung abgegangen : Bull .
+13-1	792-794	An	_	_
+13-2	795-801	Marcus	*	PERmentioned
+13-3	802-805	ist	_	_
+13-4	806-811	unter	_	_
+13-5	812-817	Datum	_	_
+13-6	818-821	vom	_	_
+13-7	822-824	23	*[15]	DATEmentioned[15]
+13-8	825-832	Februar	*[15]	DATEmentioned[15]
+13-9	833-841	folgende	_	_
+13-10	842-849	Sendung	_	_
+13-11	850-860	abgegangen	_	_
+13-12	861-862	:	_	_
+13-13	863-867	Bull	_	_
+13-14	868-869	.	_	_
+
+#Text=VII - XII® - cop .
+14-1	870-873	VII	_	_
+14-2	874-875	-	_	_
+14-3	876-880	XII®	_	_
+14-4	881-882	-	_	_
+14-5	883-886	cop	_	_
+14-6	887-888	.	_	_
+
+#Text=29 .
+15-1	889-891	29	_	_
+15-2	892-893	.	_	_
+
+#Text=Mon .
+16-1	894-897	Mon	_	_
+16-2	898-899	.	_	_
+
+#Text=XIX - XIV - cop .
+17-1	900-903	XIX	_	_
+17-2	904-905	-	_	_
+17-3	906-909	XIV	_	_
+17-4	910-911	-	_	_
+17-5	912-915	cop	_	_
+17-6	916-917	.	_	_
+
+#Text=30 . 1 Mus . di Mantova III .
+18-1	918-920	30	_	_
+18-2	921-922	.	_	_
+18-3	923-924	1	_	_
+18-4	925-928	Mus	*[16]	ORGmentioned[16]
+18-5	929-930	.	*[16]	ORGmentioned[16]
+18-6	931-933	di	*[16]	ORGmentioned[16]
+18-7	934-941	Mantova	*[16]	ORGmentioned[16]
+18-8	942-945	III	_	_
+18-9	946-947	.	_	_
+
+#Text=5 . 1 Kellermann Vigil .
+19-1	948-949	5	_	_
+19-2	950-951	.	_	_
+19-3	952-953	1	_	_
+19-4	954-964	Kellermann	*	PERmentioned
+19-5	965-970	Vigil	_	_
+19-6	971-972	.	_	_
+
+#Text=per Welcker 3 dito in commissione .
+20-1	973-976	per	_	_
+20-2	977-984	Welcker	*	PERmentioned
+20-3	985-986	3	_	_
+20-4	987-991	dito	_	_
+20-5	992-994	in	_	_
+20-6	995-1006	commissione	_	_
+20-7	1007-1008	.	_	_
+
+#Text=Für die Berliner Kiste zahlen Sie 26 1/4 Thaler pre sg .
+21-1	1009-1012	Für	_	_
+21-2	1013-1016	die	_	_
+21-3	1017-1025	Berliner	*	PLACEmentioned
+21-4	1026-1031	Kiste	_	_
+21-5	1032-1038	zahlen	_	_
+21-6	1039-1042	Sie	_	_
+21-7	1043-1045	26	_	_
+21-8	1046-1049	1/4	_	_
+21-9	1050-1056	Thaler	_	_
+21-10	1057-1060	pre	_	_
+21-11	1061-1063	sg	_	_
+21-12	1064-1065	.	_	_
+
+#Text=netto .
+22-1	1066-1071	netto	_	_
+22-2	1072-1073	.	_	_
+
+#Text=Der Revers darüber ist in meinen Händen .
+23-1	1074-1077	Der	_	_
+23-2	1078-1084	Revers	_	_
+23-3	1085-1092	darüber	_	_
+23-4	1093-1096	ist	_	_
+23-5	1097-1099	in	_	_
+23-6	1100-1106	meinen	_	_
+23-7	1107-1113	Händen	_	_
+23-8	1114-1115	.	_	_
+
+#Text=Wollen Sie ihn , so schreiben Sie mir darüber .
+24-1	1116-1122	Wollen	_	_
+24-2	1123-1126	Sie	_	_
+24-3	1127-1130	ihn	_	_
+24-4	1131-1132	,	_	_
+24-5	1133-1135	so	_	_
+24-6	1136-1145	schreiben	_	_
+24-7	1146-1149	Sie	_	_
+24-8	1150-1153	mir	_	_
+24-9	1154-1161	darüber	_	_
+24-10	1162-1163	.	_	_
+
+#Text=Franzens Manuscript ist glücklich angekomnen .
+25-1	1164-1172	Franzens	*	PERmentioned
+25-2	1173-1183	Manuscript	_	_
+25-3	1184-1187	ist	_	_
+25-4	1188-1197	glücklich	_	_
+25-5	1198-1208	angekomnen	_	_
+25-6	1209-1210	.	_	_
+
+#Text=Von Paris ist eine Hiobspost gekommen .
+26-1	1211-1214	Von	_	_
+26-2	1215-1220	Paris	*	PLACEmentioned
+26-3	1221-1224	ist	_	_
+26-4	1225-1229	eine	_	_
+26-5	1230-1239	Hiobspost	_	_
+26-6	1240-1248	gekommen	_	_
+26-7	1249-1250	.	_	_
+
+#Text=Lenormant hat zum Verwundern Bunsen nicht selbst geantwor-
+27-1	1251-1260	Lenormant	*	PERmentioned
+27-2	1261-1264	hat	_	_
+27-3	1265-1268	zum	_	_
+27-4	1269-1279	Verwundern	_	_
+27-5	1280-1286	Bunsen	*	PERmentioned
+27-6	1287-1292	nicht	_	_
+27-7	1293-1299	selbst	_	_
+27-8	1300-1309	geantwor-	_	_

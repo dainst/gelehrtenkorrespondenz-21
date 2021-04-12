@@ -1,0 +1,262 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=‘ Mommsen an Brunn Feitase } Charlottenburg 19 .. Juni 1890 r . 5. Juli 1890 Lieber Freund , Endlich sind wir einen Schritt weiter .
+1-1	0-1	‘	_	_
+1-2	2-9	Mommsen	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Brunn	*	PERaddressee
+1-5	19-26	Feitase	_	_
+1-6	27-28	}	_	_
+1-7	29-43	Charlottenburg	*	PLACEfrom
+1-8	44-46	19	*[1]	DATEletter[1]
+1-9	47-49	..	*[1]	DATEletter[1]
+1-10	50-54	Juni	*[1]	DATEletter[1]
+1-11	55-59	1890	*[1]	DATEletter[1]
+1-12	60-61	r	_	_
+1-13	62-63	.	_	_
+1-14	64-66	5.	*[2]	DATEanswered[2]
+1-15	67-71	Juli	*[2]	DATEanswered[2]
+1-16	72-76	1890	*[2]	DATEanswered[2]
+1-17	77-83	Lieber	_	_
+1-18	84-90	Freund	_	_
+1-19	91-92	,	_	_
+1-20	93-100	Endlich	_	_
+1-21	101-105	sind	_	_
+1-22	106-109	wir	_	_
+1-23	110-115	einen	_	_
+1-24	116-123	Schritt	_	_
+1-25	124-130	weiter	_	_
+1-26	131-132	.	_	_
+
+#Text=Unsere Regieruang hat sich unseren Plan ganz angeeignet und Goslar sich darüber mit Marschall verständigt .
+2-1	133-139	Unsere	_	_
+2-2	140-150	Regieruang	*	ORGmentioned
+2-3	151-154	hat	_	_
+2-4	155-159	sich	_	_
+2-5	160-167	unseren	_	_
+2-6	168-172	Plan	_	_
+2-7	173-177	ganz	_	_
+2-8	178-188	angeeignet	_	_
+2-9	189-192	und	_	_
+2-10	193-199	Goslar	*	PERmentioned
+2-11	200-204	sich	_	_
+2-12	205-212	darüber	_	_
+2-13	213-216	mit	_	_
+2-14	217-226	Marschall	*	PERmentioned
+2-15	227-238	verständigt	_	_
+2-16	239-240	.	_	_
+
+#Text=Dieser wird die süddeutschen Regierungen auffordern zunächst in die Abhaltung einer Conferenz zu willigen , welche einen Arbeitsplan aufstellen soll .
+3-1	241-247	Dieser	_	_
+3-2	248-252	wird	_	_
+3-3	253-256	die	_	_
+3-4	257-269	süddeutschen	_	_
+3-5	270-281	Regierungen	_	_
+3-6	282-292	auffordern	_	_
+3-7	293-301	zunächst	_	_
+3-8	302-304	in	_	_
+3-9	305-308	die	_	_
+3-10	309-318	Abhaltung	_	_
+3-11	319-324	einer	_	_
+3-12	325-334	Conferenz	_	_
+3-13	335-337	zu	_	_
+3-14	338-346	willigen	_	_
+3-15	347-348	,	_	_
+3-16	349-355	welche	_	_
+3-17	356-361	einen	_	_
+3-18	362-373	Arbeitsplan	_	_
+3-19	374-384	aufstellen	_	_
+3-20	385-389	soll	_	_
+3-21	390-391	.	_	_
+
+#Text=Sind wir so weit , so glaube ich , daß wir durch sind , das Geld wird , wie hier zuversichtlich gehofft wird , vom Reich zu erlangen sein .
+4-1	392-396	Sind	_	_
+4-2	397-400	wir	_	_
+4-3	401-403	so	_	_
+4-4	404-408	weit	_	_
+4-5	409-410	,	_	_
+4-6	411-413	so	_	_
+4-7	414-420	glaube	_	_
+4-8	421-424	ich	_	_
+4-9	425-426	,	_	_
+4-10	427-430	daß	_	_
+4-11	431-434	wir	_	_
+4-12	435-440	durch	_	_
+4-13	441-445	sind	_	_
+4-14	446-447	,	_	_
+4-15	448-451	das	_	_
+4-16	452-456	Geld	_	_
+4-17	457-461	wird	_	_
+4-18	462-463	,	_	_
+4-19	464-467	wie	_	_
+4-20	468-472	hier	_	_
+4-21	473-487	zuversichtlich	_	_
+4-22	488-495	gehofft	_	_
+4-23	496-500	wird	_	_
+4-24	501-502	,	_	_
+4-25	503-506	vom	_	_
+4-26	507-512	Reich	_	_
+4-27	513-515	zu	_	_
+4-28	516-524	erlangen	_	_
+4-29	525-529	sein	_	_
+4-30	530-531	.	_	_
+
+#Text=Dich bitte ich zunächst dahin zu wirken , daß , wenn die Aufforderung , wie ich dies sicher hoffe , nach München kommt , sie dort gute Aufnahme finde .
+5-1	532-536	Dich	_	_
+5-2	537-542	bitte	_	_
+5-3	543-546	ich	_	_
+5-4	547-555	zunächst	_	_
+5-5	556-561	dahin	_	_
+5-6	562-564	zu	_	_
+5-7	565-571	wirken	_	_
+5-8	572-573	,	_	_
+5-9	574-577	daß	_	_
+5-10	578-579	,	_	_
+5-11	580-584	wenn	_	_
+5-12	585-588	die	_	_
+5-13	589-601	Aufforderung	_	_
+5-14	602-603	,	_	_
+5-15	604-607	wie	_	_
+5-16	608-611	ich	_	_
+5-17	612-616	dies	_	_
+5-18	617-623	sicher	_	_
+5-19	624-629	hoffe	_	_
+5-20	630-631	,	_	_
+5-21	632-636	nach	_	_
+5-22	637-644	München	*	PLACEmentioned
+5-23	645-650	kommt	_	_
+5-24	651-652	,	_	_
+5-25	653-656	sie	_	_
+5-26	657-661	dort	_	_
+5-27	662-666	gute	_	_
+5-28	667-675	Aufnahme	_	_
+5-29	676-681	finde	_	_
+5-30	682-683	.	_	_
+
+#Text=Das Resultat der Conferenz wird formell nur als Gutachten betrachtet , es wird dies die Annahme des Vorschlags erleichtern .
+6-1	684-687	Das	_	_
+6-2	688-696	Resultat	_	_
+6-3	697-700	der	_	_
+6-4	701-710	Conferenz	_	_
+6-5	711-715	wird	_	_
+6-6	716-723	formell	_	_
+6-7	724-727	nur	_	_
+6-8	728-731	als	_	_
+6-9	732-741	Gutachten	_	_
+6-10	742-752	betrachtet	_	_
+6-11	753-754	,	_	_
+6-12	755-757	es	_	_
+6-13	758-762	wird	_	_
+6-14	763-767	dies	_	_
+6-15	768-771	die	_	_
+6-16	772-779	Annahme	_	_
+6-17	780-783	des	_	_
+6-18	784-794	Vorschlags	_	_
+6-19	795-806	erleichtern	_	_
+6-20	807-808	.	_	_
+
+#Text=Aber ich habe noch eine weitere Bitte .
+7-1	809-813	Aber	_	_
+7-2	814-817	ich	_	_
+7-3	818-822	habe	_	_
+7-4	823-827	noch	_	_
+7-5	828-832	eine	_	_
+7-6	833-840	weitere	_	_
+7-7	841-846	Bitte	_	_
+7-8	847-848	.	_	_
+
+#Text=Die Personenfrage wird vor die Commission nicht gebracht werden , sie bleibt aber doch die Hauptsache .
+8-1	849-852	Die	_	_
+8-2	853-866	Personenfrage	_	_
+8-3	867-871	wird	_	_
+8-4	872-875	vor	_	_
+8-5	876-879	die	_	_
+8-6	880-890	Commission	_	_
+8-7	891-896	nicht	_	_
+8-8	897-905	gebracht	_	_
+8-9	906-912	werden	_	_
+8-10	913-914	,	_	_
+8-11	915-918	sie	_	_
+8-12	919-925	bleibt	_	_
+8-13	926-930	aber	_	_
+8-14	931-935	doch	_	_
+8-15	936-939	die	_	_
+8-16	940-950	Hauptsache	_	_
+8-17	951-952	.	_	_
+
+#Text=Bei der Ausdehnung der Unternehmer würde es Wünschenswerth sein einen militärischen Leiter zu finden , der dabei bleiben könnte .
+9-1	953-956	Bei	_	_
+9-2	957-960	der	_	_
+9-3	961-971	Ausdehnung	_	_
+9-4	972-975	der	_	_
+9-5	976-987	Unternehmer	_	_
+9-6	988-993	würde	_	_
+9-7	994-996	es	_	_
+9-8	997-1011	Wünschenswerth	_	_
+9-9	1012-1016	sein	_	_
+9-10	1017-1022	einen	_	_
+9-11	1023-1036	militärischen	_	_
+9-12	1037-1043	Leiter	_	_
+9-13	1044-1046	zu	_	_
+9-14	1047-1053	finden	_	_
+9-15	1054-1055	,	_	_
+9-16	1056-1059	der	_	_
+9-17	1060-1065	dabei	_	_
+9-18	1066-1073	bleiben	_	_
+9-19	1074-1080	könnte	_	_
+9-20	1081-1082	.	_	_
+
+#Text=also einer v.D .
+10-1	1083-1087	also	_	_
+10-2	1088-1093	einer	_	_
+10-3	1094-1097	v.D	_	_
+10-4	1098-1099	.	_	_
+
+#Text=Den Brief Popp betreffend ist in ernstliche Veberlegung genommen worden , Hälst Du den Mann geeignet , um neben einem Mann wie etwa Hettner an die `` Spitze des ganzen Unternehmens zu heben ?
+11-1	1100-1103	Den	_	_
+11-2	1104-1109	Brief	_	_
+11-3	1110-1114	Popp	*	PERmentioned
+11-4	1115-1125	betreffend	_	_
+11-5	1126-1129	ist	_	_
+11-6	1130-1132	in	_	_
+11-7	1133-1143	ernstliche	_	_
+11-8	1144-1155	Veberlegung	_	_
+11-9	1156-1164	genommen	_	_
+11-10	1165-1171	worden	_	_
+11-11	1172-1173	,	_	_
+11-12	1174-1179	Hälst	_	_
+11-13	1180-1182	Du	_	_
+11-14	1183-1186	den	_	_
+11-15	1187-1191	Mann	_	_
+11-16	1192-1200	geeignet	_	_
+11-17	1201-1202	,	_	_
+11-18	1203-1205	um	_	_
+11-19	1206-1211	neben	_	_
+11-20	1212-1217	einem	_	_
+11-21	1218-1222	Mann	_	_
+11-22	1223-1226	wie	_	_
+11-23	1227-1231	etwa	_	_
+11-24	1232-1239	Hettner	*	PERmentioned
+11-25	1240-1242	an	_	_
+11-26	1243-1246	die	_	_
+11-27	1247-1249	``	_	_
+11-28	1250-1256	Spitze	_	_
+11-29	1257-1260	des	_	_
+11-30	1261-1267	ganzen	_	_
+11-31	1268-1280	Unternehmens	_	_
+11-32	1281-1283	zu	_	_
+11-33	1284-1289	heben	_	_
+11-34	1290-1291	?	_	_
+
+#Text=ich bitte da über um baldige Antwort , die
+12-1	1292-1295	ich	_	_
+12-2	1296-1301	bitte	_	_
+12-3	1302-1304	da	_	_
+12-4	1305-1309	über	_	_
+12-5	1310-1312	um	_	_
+12-6	1313-1320	baldige	_	_
+12-7	1321-1328	Antwort	_	_
+12-8	1329-1330	,	_	_
+12-9	1331-1334	die	_	_

@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=349 Helbig an Henzen Rom , 24. Juli 1869 H g- 17/7 69 Roma li 14 Luglio 1869 Lieber Herr Professor In aller Eile kurze Nachricht über meine Schicksale , seitdem ich Rom verlassen .
+1-1	0-3	349	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	24.	*[1]	DATEletter[1]
+1-8	31-35	Juli	*[1]	DATEletter[1]
+1-9	36-40	1869	*[1]	DATEletter[1]
+1-10	41-42	H	_	_
+1-11	43-45	g-	_	_
+1-12	46-50	17/7	*[2]	DATErecieved[2]
+1-13	51-53	69	*[2]	DATErecieved[2]
+1-14	54-58	Roma	*	PLACEfrom
+1-15	59-61	li	_	_
+1-16	62-64	14	*[3]	DATEletter[3]
+1-17	65-71	Luglio	*[3]	DATEletter[3]
+1-18	72-76	1869	*[3]	DATEletter[3]
+1-19	77-83	Lieber	_	_
+1-20	84-88	Herr	_	_
+1-21	89-98	Professor	_	_
+1-22	99-101	In	_	_
+1-23	102-107	aller	_	_
+1-24	108-112	Eile	_	_
+1-25	113-118	kurze	_	_
+1-26	119-128	Nachricht	_	_
+1-27	129-133	über	_	_
+1-28	134-139	meine	_	_
+1-29	140-150	Schicksale	_	_
+1-30	151-152	,	_	_
+1-31	153-160	seitdem	_	_
+1-32	161-164	ich	_	_
+1-33	165-168	Rom	*	PLACEmentioned
+1-34	169-178	verlassen	_	_
+1-35	179-180	.	_	_
+
+#Text=Ich bin Dienstag früh um 10 1/2 Uhr in Sorrent eingetroffen .
+2-1	181-184	Ich	_	_
+2-2	185-188	bin	_	_
+2-3	189-197	Dienstag	*	DATEmentioned
+2-4	198-202	früh	_	_
+2-5	203-205	um	_	_
+2-6	206-208	10	_	_
+2-7	209-212	1/2	_	_
+2-8	213-216	Uhr	_	_
+2-9	217-219	in	_	_
+2-10	220-227	Sorrent	*	PLACEmentioned
+2-11	228-240	eingetroffen	_	_
+2-12	241-242	.	_	_
+
+#Text=Meinen Vorsatz , mich in Neapel aufzuhalten , konnte ich leider nicht ausführen .
+3-1	243-249	Meinen	_	_
+3-2	250-257	Vorsatz	_	_
+3-3	258-259	,	_	_
+3-4	260-264	mich	_	_
+3-5	265-267	in	_	_
+3-6	268-274	Neapel	*	PLACEmentioned
+3-7	275-286	aufzuhalten	_	_
+3-8	287-288	,	_	_
+3-9	289-295	konnte	_	_
+3-10	296-299	ich	_	_
+3-11	300-306	leider	_	_
+3-12	307-312	nicht	_	_
+3-13	313-322	ausführen	_	_
+3-14	323-324	.	_	_
+
+#Text=Meine Erkältung hatte nämlich bei der Nachtfahrt derartig zugenommen , daß bei meiner Ankunft in Neapel meine Stimme vollständig wegblieb .
+4-1	325-330	Meine	_	_
+4-2	331-340	Erkältung	_	_
+4-3	341-346	hatte	_	_
+4-4	347-354	nämlich	_	_
+4-5	355-358	bei	_	_
+4-6	359-362	der	_	_
+4-7	363-373	Nachtfahrt	_	_
+4-8	374-382	derartig	_	_
+4-9	383-393	zugenommen	_	_
+4-10	394-395	,	_	_
+4-11	396-399	daß	_	_
+4-12	400-403	bei	_	_
+4-13	404-410	meiner	_	_
+4-14	411-418	Ankunft	_	_
+4-15	419-421	in	_	_
+4-16	422-428	Neapel	*	PLACEmentioned
+4-17	429-434	meine	_	_
+4-18	435-441	Stimme	_	_
+4-19	442-453	vollständig	_	_
+4-20	454-462	wegblieb	_	_
+4-21	463-464	.	_	_
+
+#Text=Da mir aber dieses Mittel , mich verständlich zu machen , gerade in Neapel sehr nöthig war , so entschloß ich mich , meinen Besuch bis auf Weiteres zu verschieben .
+5-1	465-467	Da	_	_
+5-2	468-471	mir	_	_
+5-3	472-476	aber	_	_
+5-4	477-483	dieses	_	_
+5-5	484-490	Mittel	_	_
+5-6	491-492	,	_	_
+5-7	493-497	mich	_	_
+5-8	498-510	verständlich	_	_
+5-9	511-513	zu	_	_
+5-10	514-520	machen	_	_
+5-11	521-522	,	_	_
+5-12	523-529	gerade	_	_
+5-13	530-532	in	_	_
+5-14	533-539	Neapel	*	PLACEmentioned
+5-15	540-544	sehr	_	_
+5-16	545-551	nöthig	_	_
+5-17	552-555	war	_	_
+5-18	556-557	,	_	_
+5-19	558-560	so	_	_
+5-20	561-570	entschloß	_	_
+5-21	571-574	ich	_	_
+5-22	575-579	mich	_	_
+5-23	580-581	,	_	_
+5-24	582-588	meinen	_	_
+5-25	589-595	Besuch	_	_
+5-26	596-599	bis	_	_
+5-27	600-603	auf	_	_
+5-28	604-612	Weiteres	_	_
+5-29	613-615	zu	_	_
+5-30	616-627	verschieben	_	_
+5-31	628-629	.	_	_
+
+#Text=Ich denke etwa den 18. oder 20. dorthin zu gehen , je nachdem mir Dilthey , welcher dringend um einige Zeichnungen bittet , ein Rendez-vous giebt .
+6-1	630-633	Ich	_	_
+6-2	634-639	denke	_	_
+6-3	640-644	etwa	_	_
+6-4	645-648	den	_	_
+6-5	649-652	18.	_	_
+6-6	653-657	oder	_	_
+6-7	658-661	20.	_	_
+6-8	662-669	dorthin	_	_
+6-9	670-672	zu	_	_
+6-10	673-678	gehen	_	_
+6-11	679-680	,	_	_
+6-12	681-683	je	_	_
+6-13	684-691	nachdem	_	_
+6-14	692-695	mir	_	_
+6-15	696-703	Dilthey	*	PERmentioned
+6-16	704-705	,	_	_
+6-17	706-713	welcher	_	_
+6-18	714-722	dringend	_	_
+6-19	723-725	um	_	_
+6-20	726-732	einige	_	_
+6-21	733-744	Zeichnungen	_	_
+6-22	745-751	bittet	_	_
+6-23	752-753	,	_	_
+6-24	754-757	ein	_	_
+6-25	758-769	Rendez-vous	_	_
+6-26	770-775	giebt	_	_
+6-27	776-777	.	_	_
+
+#Text=Da Schulz mindestens noch 10 Tage mit den Zeichnungen für Visconti und der Amazone beschäftigt sein wird , so ist dieser Verzug ohne Nachtheil .
+7-1	778-780	Da	_	_
+7-2	781-787	Schulz	*	PERmentioned
+7-3	788-798	mindestens	_	_
+7-4	799-803	noch	_	_
+7-5	804-806	10	_	_
+7-6	807-811	Tage	_	_
+7-7	812-815	mit	_	_
+7-8	816-819	den	_	_
+7-9	820-831	Zeichnungen	_	_
+7-10	832-835	für	_	_
+7-11	836-844	Visconti	*	PERmentioned
+7-12	845-848	und	_	_
+7-13	849-852	der	_	_
+7-14	853-860	Amazone	_	_
+7-15	861-872	beschäftigt	_	_
+7-16	873-877	sein	_	_
+7-17	878-882	wird	_	_
+7-18	883-884	,	_	_
+7-19	885-887	so	_	_
+7-20	888-891	ist	_	_
+7-21	892-898	dieser	_	_
+7-22	899-905	Verzug	_	_
+7-23	906-910	ohne	_	_
+7-24	911-920	Nachtheil	_	_
+7-25	921-922	.	_	_
+
+#Text=In Sorrent ist es ebenfalls recht heiß .
+8-1	923-925	In	_	_
+8-2	926-933	Sorrent	*	PLACEmentioned
+8-3	934-937	ist	_	_
+8-4	938-940	es	_	_
+8-5	941-950	ebenfalls	_	_
+8-6	951-956	recht	_	_
+8-7	957-961	heiß	_	_
+8-8	962-963	.	_	_
+
+#Text=Die Scirocco-nebel um hüllen die ganze Gegend .
+9-1	964-967	Die	_	_
+9-2	968-982	Scirocco-nebel	_	_
+9-3	983-985	um	_	_
+9-4	986-992	hüllen	_	_
+9-5	993-996	die	_	_
+9-6	997-1002	ganze	_	_
+9-7	1003-1009	Gegend	_	_
+9-8	1010-1011	.	_	_
+
+#Text=So lange ich hier bin , habe ich den Vesuv noch niemals gesehen .
+10-1	1012-1014	So	_	_
+10-2	1015-1020	lange	_	_
+10-3	1021-1024	ich	_	_
+10-4	1025-1029	hier	_	_
+10-5	1030-1033	bin	_	_
+10-6	1034-1035	,	_	_
+10-7	1036-1040	habe	_	_
+10-8	1041-1044	ich	_	_
+10-9	1045-1048	den	_	_
+10-10	1049-1054	Vesuv	*	PLACEmentioned
+10-11	1055-1059	noch	_	_
+10-12	1060-1067	niemals	_	_
+10-13	1068-1075	gesehen	_	_
+10-14	1076-1077	.	_	_
+
+#Text=Dagegen sind die Seebäder eine wahre Erquickung .
+11-1	1078-1085	Dagegen	_	_
+11-2	1086-1090	sind	_	_
+11-3	1091-1094	die	_	_
+11-4	1095-1103	Seebäder	_	_
+11-5	1104-1108	eine	_	_
+11-6	1109-1114	wahre	_	_
+11-7	1115-1125	Erquickung	_	_
+11-8	1126-1127	.	_	_
+
+#Text=Unsere Woh-
+12-1	1128-1134	Unsere	_	_
+12-2	1135-1139	Woh-	_	_

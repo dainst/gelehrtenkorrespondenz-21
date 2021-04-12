@@ -1,0 +1,263 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> Gerhard an Braun Livorno , 9. Juli 1837 sen als manche andere .
+1-1	0-1	>	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-26	Livorno	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	9.	*[4]	DATEletter[4]
+1-8	32-36	Juli	*[4]	DATEletter[4]
+1-9	37-41	1837	*[4]	DATEletter[4]
+1-10	42-45	sen	_	_
+1-11	46-49	als	_	_
+1-12	50-56	manche	_	_
+1-13	57-63	andere	_	_
+1-14	64-65	.	_	_
+
+#Text=10 Juli .
+2-1	66-68	10	*[5]	DATEletter[5]
+2-2	69-73	Juli	*[5]	DATEletter[5]
+2-3	74-75	.	_	_
+
+#Text=So eben erhalte ich Ihren Brief vom 6.ten .
+3-1	76-78	So	_	_
+3-2	79-83	eben	_	_
+3-3	84-91	erhalte	_	_
+3-4	92-95	ich	_	_
+3-5	96-101	Ihren	_	_
+3-6	102-107	Brief	_	_
+3-7	108-111	vom	_	_
+3-8	112-117	6.ten	*	DATEmentioned
+3-9	118-119	.	_	_
+
+#Text=Meine Publikations- und Ankaufscopien glaubte ich Ihnen bekannt .
+4-1	120-125	Meine	_	_
+4-2	126-139	Publikations-	_	_
+4-3	140-143	und	_	_
+4-4	144-157	Ankaufscopien	_	_
+4-5	158-165	glaubte	_	_
+4-6	166-169	ich	_	_
+4-7	170-175	Ihnen	_	_
+4-8	176-183	bekannt	_	_
+4-9	184-185	.	_	_
+
+#Text=Mit meinem Gewissen ist es sehr wohl verträglich im Allgemeinen Zeichnungen von Inedites mit der Versicherung und mit der Veberzeugung nur zu verschaffen daß deren Publikation den Besitzern nützlich sein könnte \; sie ist es für fast alle fremden Liebhaber die ein akkreditirtes Prachtstück suchen , desgleichen für fast alle großen und reichen Museen .
+5-1	186-189	Mit	_	_
+5-2	190-196	meinem	_	_
+5-3	197-205	Gewissen	_	_
+5-4	206-209	ist	_	_
+5-5	210-212	es	_	_
+5-6	213-217	sehr	_	_
+5-7	218-222	wohl	_	_
+5-8	223-234	verträglich	_	_
+5-9	235-237	im	_	_
+5-10	238-249	Allgemeinen	_	_
+5-11	250-261	Zeichnungen	_	_
+5-12	262-265	von	_	_
+5-13	266-274	Inedites	_	_
+5-14	275-278	mit	_	_
+5-15	279-282	der	_	_
+5-16	283-295	Versicherung	_	_
+5-17	296-299	und	_	_
+5-18	300-303	mit	_	_
+5-19	304-307	der	_	_
+5-20	308-320	Veberzeugung	_	_
+5-21	321-324	nur	_	_
+5-22	325-327	zu	_	_
+5-23	328-339	verschaffen	_	_
+5-24	340-343	daß	_	_
+5-25	344-349	deren	_	_
+5-26	350-361	Publikation	_	_
+5-27	362-365	den	_	_
+5-28	366-375	Besitzern	_	_
+5-29	376-384	nützlich	_	_
+5-30	385-389	sein	_	_
+5-31	390-396	könnte	_	_
+5-32	397-398	\;	_	_
+5-33	399-402	sie	_	_
+5-34	403-406	ist	_	_
+5-35	407-409	es	_	_
+5-36	410-413	für	_	_
+5-37	414-418	fast	_	_
+5-38	419-423	alle	_	_
+5-39	424-431	fremden	_	_
+5-40	432-441	Liebhaber	_	_
+5-41	442-445	die	_	_
+5-42	446-449	ein	_	_
+5-43	450-463	akkreditirtes	_	_
+5-44	464-475	Prachtstück	_	_
+5-45	476-482	suchen	_	_
+5-46	483-484	,	_	_
+5-47	485-496	desgleichen	_	_
+5-48	497-500	für	_	_
+5-49	501-505	fast	_	_
+5-50	506-510	alle	_	_
+5-51	511-517	großen	_	_
+5-52	518-521	und	_	_
+5-53	522-529	reichen	_	_
+5-54	530-536	Museen	_	_
+5-55	537-538	.	_	_
+
+#Text=Paris , London , München , Rom und Neapel können gern kaufen was das Institut publicirt hat \; nur Berlin nicht , weil seine meisten Kleinodien publicirt , der Pfennige für Vermehrung der Vasensammlung sehr knapp abgemessen , ein Vasenwerk über das Museum die einzige srößere Publikation ist die ihm frei steht , ich demnach für meine eignen Ankäufe dafür roba vergine sichern muß .
+6-1	539-544	Paris	*	PLACEmentioned
+6-2	545-546	,	_	_
+6-3	547-553	London	*	PLACEmentioned
+6-4	554-555	,	_	_
+6-5	556-563	München	*	PLACEmentioned
+6-6	564-565	,	_	_
+6-7	566-569	Rom	*	PLACEmentioned
+6-8	570-573	und	_	_
+6-9	574-580	Neapel	*	PLACEmentioned
+6-10	581-587	können	_	_
+6-11	588-592	gern	_	_
+6-12	593-599	kaufen	_	_
+6-13	600-603	was	_	_
+6-14	604-607	das	_	_
+6-15	608-616	Institut	*	ORGmentioned
+6-16	617-626	publicirt	_	_
+6-17	627-630	hat	_	_
+6-18	631-632	\;	_	_
+6-19	633-636	nur	_	_
+6-20	637-643	Berlin	*	PLACEmentioned
+6-21	644-649	nicht	_	_
+6-22	650-651	,	_	_
+6-23	652-656	weil	_	_
+6-24	657-662	seine	_	_
+6-25	663-670	meisten	_	_
+6-26	671-681	Kleinodien	_	_
+6-27	682-691	publicirt	_	_
+6-28	692-693	,	_	_
+6-29	694-697	der	_	_
+6-30	698-706	Pfennige	_	_
+6-31	707-710	für	_	_
+6-32	711-721	Vermehrung	_	_
+6-33	722-725	der	_	_
+6-34	726-739	Vasensammlung	_	_
+6-35	740-744	sehr	_	_
+6-36	745-750	knapp	_	_
+6-37	751-761	abgemessen	_	_
+6-38	762-763	,	_	_
+6-39	764-767	ein	_	_
+6-40	768-777	Vasenwerk	_	_
+6-41	778-782	über	_	_
+6-42	783-786	das	_	_
+6-43	787-793	Museum	*	ORGmentioned
+6-44	794-797	die	_	_
+6-45	798-805	einzige	_	_
+6-46	806-813	srößere	_	_
+6-47	814-825	Publikation	_	_
+6-48	826-829	ist	_	_
+6-49	830-833	die	_	_
+6-50	834-837	ihm	_	_
+6-51	838-842	frei	_	_
+6-52	843-848	steht	_	_
+6-53	849-850	,	_	_
+6-54	851-854	ich	_	_
+6-55	855-862	demnach	_	_
+6-56	863-866	für	_	_
+6-57	867-872	meine	_	_
+6-58	873-879	eignen	_	_
+6-59	880-887	Ankäufe	_	_
+6-60	888-893	dafür	_	_
+6-61	894-898	roba	_	_
+6-62	899-906	vergine	_	_
+6-63	907-914	sichern	_	_
+6-64	915-918	muß	_	_
+6-65	919-920	.	_	_
+
+#Text=Außerdem ist mein Gewissen für alle ähnlichen Fälle salvirt , weil ich die Zeichnungen die ich machen lasse nie sofort publicire , sondern erst nach hinlänglicher Kenntniß des Terrains und nach reiflichster Erwägung ob irgendwie .
+7-1	921-929	Außerdem	_	_
+7-2	930-933	ist	_	_
+7-3	934-938	mein	_	_
+7-4	939-947	Gewissen	_	_
+7-5	948-951	für	_	_
+7-6	952-956	alle	_	_
+7-7	957-966	ähnlichen	_	_
+7-8	967-972	Fälle	_	_
+7-9	973-980	salvirt	_	_
+7-10	981-982	,	_	_
+7-11	983-987	weil	_	_
+7-12	988-991	ich	_	_
+7-13	992-995	die	_	_
+7-14	996-1007	Zeichnungen	_	_
+7-15	1008-1011	die	_	_
+7-16	1012-1015	ich	_	_
+7-17	1016-1022	machen	_	_
+7-18	1023-1028	lasse	_	_
+7-19	1029-1032	nie	_	_
+7-20	1033-1039	sofort	_	_
+7-21	1040-1049	publicire	_	_
+7-22	1050-1051	,	_	_
+7-23	1052-1059	sondern	_	_
+7-24	1060-1064	erst	_	_
+7-25	1065-1069	nach	_	_
+7-26	1070-1083	hinlänglicher	_	_
+7-27	1084-1092	Kenntniß	_	_
+7-28	1093-1096	des	_	_
+7-29	1097-1105	Terrains	_	_
+7-30	1106-1109	und	_	_
+7-31	1110-1114	nach	_	_
+7-32	1115-1127	reiflichster	_	_
+7-33	1128-1136	Erwägung	_	_
+7-34	1137-1139	ob	_	_
+7-35	1140-1149	irgendwie	_	_
+7-36	1150-1151	.	_	_
+
+#Text=dem Eigenthümer dadurch ein Schaden geschehen könne .
+8-1	1152-1155	dem	_	_
+8-2	1156-1167	Eigenthümer	_	_
+8-3	1168-1175	dadurch	_	_
+8-4	1176-1179	ein	_	_
+8-5	1180-1187	Schaden	_	_
+8-6	1188-1197	geschehen	_	_
+8-7	1198-1203	könne	_	_
+8-8	1204-1205	.	_	_
+
+#Text=Ich habe diese Erwägung vielleicht ein einziges mal zu leicht genommen , in der Hast des 1.sten Mon .
+9-1	1206-1209	Ich	_	_
+9-2	1210-1214	habe	_	_
+9-3	1215-1220	diese	_	_
+9-4	1221-1229	Erwägung	_	_
+9-5	1230-1240	vielleicht	_	_
+9-6	1241-1244	ein	_	_
+9-7	1245-1253	einziges	_	_
+9-8	1254-1257	mal	_	_
+9-9	1258-1260	zu	_	_
+9-10	1261-1267	leicht	_	_
+9-11	1268-1276	genommen	_	_
+9-12	1277-1278	,	_	_
+9-13	1279-1281	in	_	_
+9-14	1282-1285	der	_	_
+9-15	1286-1290	Hast	_	_
+9-16	1291-1294	des	_	_
+9-17	1295-1301	1.sten	_	_
+9-18	1302-1305	Mon	_	_
+9-19	1306-1307	.	_	_
+
+#Text=Heftes ( Tav .
+10-1	1308-1314	Heftes	_	_
+10-2	1315-1316	(	_	_
+10-3	1317-1320	Tav	_	_
+10-4	1321-1322	.	_	_
+
+#Text=11 T plo svase ) \; wenigstens beschwert sich der Eigenthümer noch jetzt darüber und macht
+11-1	1323-1325	11	_	_
+11-2	1326-1327	T	*[15]	OBJ[15]
+11-3	1328-1331	plo	*[15]	OBJ[15]
+11-4	1332-1337	svase	*[15]	OBJ[15]
+11-5	1338-1339	)	_	_
+11-6	1340-1341	\;	_	_
+11-7	1342-1352	wenigstens	_	_
+11-8	1353-1362	beschwert	_	_
+11-9	1363-1367	sich	_	_
+11-10	1368-1371	der	_	_
+11-11	1372-1383	Eigenthümer	_	_
+11-12	1384-1388	noch	_	_
+11-13	1389-1394	jetzt	_	_
+11-14	1395-1402	darüber	_	_
+11-15	1403-1406	und	_	_
+11-16	1407-1412	macht	_	_

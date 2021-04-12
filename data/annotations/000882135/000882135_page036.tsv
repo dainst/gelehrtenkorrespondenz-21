@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=267 Braun an Gerhard Rom , 20. März 1838 Sig .
+1-1	0-3	267	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	20.	*[6]	DATEletter[6]
+1-8	31-35	März	*[6]	DATEletter[6]
+1-9	36-40	1838	*[6]	DATEletter[6]
+1-10	41-44	Sig	_	_
+1-11	45-46	.	_	_
+
+#Text=Cav .
+2-1	47-50	Cav	_	_
+2-2	51-52	.	_	_
+
+#Text=Gerhard Berlino .
+3-1	53-60	Gerhard	*	PERaddressee
+3-2	61-68	Berlino	*	PLACEto
+3-3	69-70	.	_	_
+
+#Text=Roma li 20 Marzo 1838 .
+4-1	71-75	Roma	*	PLACEfrom
+4-2	76-78	li	_	_
+4-3	79-81	20	*[8]	DATEletter[8]
+4-4	82-87	Marzo	*[8]	DATEletter[8]
+4-5	88-92	1838	*[8]	DATEletter[8]
+4-6	93-94	.	_	_
+
+#Text=Hochverehrtester Freund !
+5-1	95-111	Hochverehrtester	_	_
+5-2	112-118	Freund	_	_
+5-3	119-120	!	_	_
+
+#Text=Wegen Gerstäckers Quittung will ich in der morgenden Sitzung Sprache führen und das Nöthige auf dem Fleck ermitteln .
+6-1	121-126	Wegen	_	_
+6-2	127-138	Gerstäckers	*	PERmentioned
+6-3	139-147	Quittung	_	_
+6-4	148-152	will	_	_
+6-5	153-156	ich	_	_
+6-6	157-159	in	_	_
+6-7	160-163	der	_	_
+6-8	164-173	morgenden	_	_
+6-9	174-181	Sitzung	_	_
+6-10	182-189	Sprache	_	_
+6-11	190-196	führen	_	_
+6-12	197-200	und	_	_
+6-13	201-204	das	_	_
+6-14	205-212	Nöthige	_	_
+6-15	213-216	auf	_	_
+6-16	217-220	dem	_	_
+6-17	221-226	Fleck	_	_
+6-18	227-236	ermitteln	_	_
+6-19	237-238	.	_	_
+
+#Text=- Brockhaus hat seinen Contract eingesandt und das Geschäft ist somit unter äußerst günstigen Bedingungen abgeschlossen .
+7-1	239-240	-	_	_
+7-2	241-250	Brockhaus	*	ORGmentioned
+7-3	251-254	hat	_	_
+7-4	255-261	seinen	_	_
+7-5	262-270	Contract	_	_
+7-6	271-281	eingesandt	_	_
+7-7	282-285	und	_	_
+7-8	286-289	das	_	_
+7-9	290-298	Geschäft	_	_
+7-10	299-302	ist	_	_
+7-11	303-308	somit	_	_
+7-12	309-314	unter	_	_
+7-13	315-322	äußerst	_	_
+7-14	323-332	günstigen	_	_
+7-15	333-344	Bedingungen	_	_
+7-16	345-358	abgeschlossen	_	_
+7-17	359-360	.	_	_
+
+#Text=Die Cistenzeichnung betreffend , haben Sie in allem vollkommen Recht , der Sie die Verhältnisse nicht kennen .
+8-1	361-364	Die	_	_
+8-2	365-380	Cistenzeichnung	_	_
+8-3	381-391	betreffend	_	_
+8-4	392-393	,	_	_
+8-5	394-399	haben	_	_
+8-6	400-403	Sie	_	_
+8-7	404-406	in	_	_
+8-8	407-412	allem	_	_
+8-9	413-423	vollkommen	_	_
+8-10	424-429	Recht	_	_
+8-11	430-431	,	_	_
+8-12	432-435	der	_	_
+8-13	436-439	Sie	_	_
+8-14	440-443	die	_	_
+8-15	444-456	Verhältnisse	_	_
+8-16	457-462	nicht	_	_
+8-17	463-469	kennen	_	_
+8-18	470-471	.	_	_
+
+#Text=Ich habe Apolloni wohl 10 mal deshalb in Person aufgesucht und bis jetzt nur Versprechungen erhalten können .
+9-1	472-475	Ich	_	_
+9-2	476-480	habe	_	_
+9-3	481-489	Apolloni	*	PERmentioned
+9-4	490-494	wohl	_	_
+9-5	495-497	10	_	_
+9-6	498-501	mal	_	_
+9-7	502-509	deshalb	_	_
+9-8	510-512	in	_	_
+9-9	513-519	Person	_	_
+9-10	520-530	aufgesucht	_	_
+9-11	531-534	und	_	_
+9-12	535-538	bis	_	_
+9-13	539-544	jetzt	_	_
+9-14	545-548	nur	_	_
+9-15	549-563	Versprechungen	_	_
+9-16	564-572	erhalten	_	_
+9-17	573-579	können	_	_
+9-18	580-581	.	_	_
+
+#Text=Die Köllner Angelegenheit ist uns auch hiebei hinderlich \; Apolloni spricht sogar davon .
+10-1	582-585	Die	_	_
+10-2	586-593	Köllner	*	PLACEmentioned
+10-3	594-607	Angelegenheit	_	_
+10-4	608-611	ist	_	_
+10-5	612-615	uns	_	_
+10-6	616-620	auch	_	_
+10-7	621-627	hiebei	_	_
+10-8	628-638	hinderlich	_	_
+10-9	639-640	\;	_	_
+10-10	641-649	Apolloni	*	PERmentioned
+10-11	650-657	spricht	_	_
+10-12	658-663	sogar	_	_
+10-13	664-669	davon	_	_
+10-14	670-671	.	_	_
+
+#Text=Si figuri un poco !
+11-1	672-674	Si	_	_
+11-2	675-681	figuri	_	_
+11-3	682-684	un	_	_
+11-4	685-689	poco	_	_
+11-5	690-691	!	_	_
+
+#Text=- Basta , Ende der Woche muß etwas ermittelt sein .
+12-1	692-693	-	_	_
+12-2	694-699	Basta	_	_
+12-3	700-701	,	_	_
+12-4	702-706	Ende	_	_
+12-5	707-710	der	_	_
+12-6	711-716	Woche	_	_
+12-7	717-720	muß	_	_
+12-8	721-726	etwas	_	_
+12-9	727-736	ermittelt	_	_
+12-10	737-741	sein	_	_
+12-11	742-743	.	_	_
+
+#Text=In Etrurien ist auch bei den letzten November- December Ausgrabungen manches Interessante Gefäß zun Vorschein gekommen \; das Gouvernement hat aber bis dahin alles unter Verschluß .
+13-1	744-746	In	_	_
+13-2	747-755	Etrurien	*	PLACEmentioned
+13-3	756-759	ist	_	_
+13-4	760-764	auch	_	_
+13-5	765-768	bei	_	_
+13-6	769-772	den	_	_
+13-7	773-780	letzten	_	_
+13-8	781-790	November-	_	_
+13-9	791-799	December	_	_
+13-10	800-812	Ausgrabungen	_	_
+13-11	813-820	manches	_	_
+13-12	821-833	Interessante	_	_
+13-13	834-839	Gefäß	_	_
+13-14	840-843	zun	_	_
+13-15	844-853	Vorschein	_	_
+13-16	854-862	gekommen	_	_
+13-17	863-864	\;	_	_
+13-18	865-868	das	_	_
+13-19	869-881	Gouvernement	_	_
+13-20	882-885	hat	_	_
+13-21	886-890	aber	_	_
+13-22	891-894	bis	_	_
+13-23	895-900	dahin	_	_
+13-24	901-906	alles	_	_
+13-25	907-912	unter	_	_
+13-26	913-922	Verschluß	_	_
+13-27	923-924	.	_	_
+
+#Text=An Zeichnen ist nicht zu denken .
+14-1	925-927	An	_	_
+14-2	928-936	Zeichnen	_	_
+14-3	937-940	ist	_	_
+14-4	941-946	nicht	_	_
+14-5	947-949	zu	_	_
+14-6	950-956	denken	_	_
+14-7	957-958	.	_	_
+
+#Text=- In Neapel ist viel vorhanden und an Ort und Stelle ließe sich wohl etwas machen .
+15-1	959-960	-	_	_
+15-2	961-963	In	_	_
+15-3	964-970	Neapel	*	PLACEmentioned
+15-4	971-974	ist	_	_
+15-5	975-979	viel	_	_
+15-6	980-989	vorhanden	_	_
+15-7	990-993	und	_	_
+15-8	994-996	an	_	_
+15-9	997-1000	Ort	_	_
+15-10	1001-1004	und	_	_
+15-11	1005-1011	Stelle	_	_
+15-12	1012-1017	ließe	_	_
+15-13	1018-1022	sich	_	_
+15-14	1023-1027	wohl	_	_
+15-15	1028-1033	etwas	_	_
+15-16	1034-1040	machen	_	_
+15-17	1041-1042	.	_	_
+
+#Text=Aber im Augenblick fehlt es an aller persönlichen Aushülfe .
+16-1	1043-1047	Aber	_	_
+16-2	1048-1050	im	_	_
+16-3	1051-1061	Augenblick	_	_
+16-4	1062-1067	fehlt	_	_
+16-5	1068-1070	es	_	_
+16-6	1071-1073	an	_	_
+16-7	1074-1079	aller	_	_
+16-8	1080-1092	persönlichen	_	_
+16-9	1093-1101	Aushülfe	_	_
+16-10	1102-1103	.	_	_
+
+#Text=Keiner unsrer Freunde besitzt das Talent etwas der Art zu erlangen .
+17-1	1104-1110	Keiner	_	_
+17-2	1111-1117	unsrer	_	_
+17-3	1118-1125	Freunde	_	_
+17-4	1126-1133	besitzt	_	_
+17-5	1134-1137	das	_	_
+17-6	1138-1144	Talent	_	_
+17-7	1145-1150	etwas	_	_
+17-8	1151-1154	der	_	_
+17-9	1155-1158	Art	_	_
+17-10	1159-1161	zu	_	_
+17-11	1162-1170	erlangen	_	_
+17-12	1171-1172	.	_	_
+
+#Text=Ihr Brief ist sofort an Schulz recommandirt mit Fost abgegangen .
+18-1	1173-1176	Ihr	_	_
+18-2	1177-1182	Brief	_	_
+18-3	1183-1186	ist	_	_
+18-4	1187-1193	sofort	_	_
+18-5	1194-1196	an	_	_
+18-6	1197-1203	Schulz	*	PERmentioned
+18-7	1204-1216	recommandirt	_	_
+18-8	1217-1220	mit	_	_
+18-9	1221-1225	Fost	_	_
+18-10	1226-1236	abgegangen	_	_
+18-11	1237-1238	.	_	_
+
+#Text=Ich habe ihm den Inhalt durch einige Zeilen Nachschrift empfohlen .
+19-1	1239-1242	Ich	_	_
+19-2	1243-1247	habe	_	_
+19-3	1248-1251	ihm	_	_
+19-4	1252-1255	den	_	_
+19-5	1256-1262	Inhalt	_	_
+19-6	1263-1268	durch	_	_
+19-7	1269-1275	einige	_	_
+19-8	1276-1282	Zeilen	_	_
+19-9	1283-1294	Nachschrift	_	_
+19-10	1295-1304	empfohlen	_	_
+19-11	1305-1306	.	_	_
+
+#Text=Savigny ist ein Esel .
+20-1	1307-1314	Savigny	*	PERmentioned
+20-2	1315-1318	ist	_	_
+20-3	1319-1322	ein	_	_
+20-4	1323-1327	Esel	_	_
+20-5	1328-1329	.	_	_
+
+#Text=Sagen Sie ihm das in
+21-1	1330-1335	Sagen	_	_
+21-2	1336-1339	Sie	_	_
+21-3	1340-1343	ihm	_	_
+21-4	1344-1347	das	_	_
+21-5	1348-1350	in	_	_

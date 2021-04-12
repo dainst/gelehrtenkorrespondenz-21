@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Rom , 19. November 1836 Panofkas Forderung kommt hiernach etwa auf 600 Scudi zurück .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-27	19.	*[4]	DATEletter[4]
+1-7	28-36	November	*[4]	DATEletter[4]
+1-8	37-41	1836	*[4]	DATEletter[4]
+1-9	42-50	Panofkas	*	PERmentioned
+1-10	51-60	Forderung	_	_
+1-11	61-66	kommt	_	_
+1-12	67-75	hiernach	_	_
+1-13	76-80	etwa	_	_
+1-14	81-84	auf	_	_
+1-15	85-88	600	_	_
+1-16	89-94	Scudi	_	_
+1-17	95-101	zurück	_	_
+1-18	102-103	.	_	_
+
+#Text=Ich denke , wir überlassen es ihm zu bedenken , wie er es mit der Zinsberechnung halten will , und ich will Ihrem Urtheil und seinem Gefühle darüber nicht vorgreifen .
+2-1	104-107	Ich	_	_
+2-2	108-113	denke	_	_
+2-3	114-115	,	_	_
+2-4	116-119	wir	_	_
+2-5	120-130	überlassen	_	_
+2-6	131-133	es	_	_
+2-7	134-137	ihm	_	_
+2-8	138-140	zu	_	_
+2-9	141-149	bedenken	_	_
+2-10	150-151	,	_	_
+2-11	152-155	wie	_	_
+2-12	156-158	er	_	_
+2-13	159-161	es	_	_
+2-14	162-165	mit	_	_
+2-15	166-169	der	_	_
+2-16	170-184	Zinsberechnung	_	_
+2-17	185-191	halten	_	_
+2-18	192-196	will	_	_
+2-19	197-198	,	_	_
+2-20	199-202	und	_	_
+2-21	203-206	ich	_	_
+2-22	207-211	will	_	_
+2-23	212-217	Ihrem	_	_
+2-24	218-225	Urtheil	_	_
+2-25	226-229	und	_	_
+2-26	230-236	seinem	_	_
+2-27	237-244	Gefühle	_	_
+2-28	245-252	darüber	_	_
+2-29	253-258	nicht	_	_
+2-30	259-269	vorgreifen	_	_
+2-31	270-271	.	_	_
+
+#Text=Sollten Sie glauben , er würde eine ungesäumte Abzahlung bis Januar 1838 dem worauf er-ein Recht hat vorziehen , so würde ich , falls er dem Institut etwas , in Rücksicht darauf , erlassen wollte , gern eine entsprechende Summe , entweder im nächsten Januar 1837 auf einmal , oder zwischen Januar 1837 und Jamuar 1838 vertheilt , höchsten Orts als Instituts Unterstützung mir zu erbitten nicht anstehn , und zu erlangen hoffen .
+3-1	272-279	Sollten	_	_
+3-2	280-283	Sie	_	_
+3-3	284-291	glauben	_	_
+3-4	292-293	,	_	_
+3-5	294-296	er	_	_
+3-6	297-302	würde	_	_
+3-7	303-307	eine	_	_
+3-8	308-318	ungesäumte	_	_
+3-9	319-328	Abzahlung	_	_
+3-10	329-332	bis	_	_
+3-11	333-339	Januar	*[6]	DATEmentioned[6]
+3-12	340-344	1838	*[6]	DATEmentioned[6]
+3-13	345-348	dem	_	_
+3-14	349-355	worauf	_	_
+3-15	356-362	er-ein	_	_
+3-16	363-368	Recht	_	_
+3-17	369-372	hat	_	_
+3-18	373-382	vorziehen	_	_
+3-19	383-384	,	_	_
+3-20	385-387	so	_	_
+3-21	388-393	würde	_	_
+3-22	394-397	ich	_	_
+3-23	398-399	,	_	_
+3-24	400-405	falls	_	_
+3-25	406-408	er	_	_
+3-26	409-412	dem	_	_
+3-27	413-421	Institut	_	_
+3-28	422-427	etwas	_	_
+3-29	428-429	,	_	_
+3-30	430-432	in	_	_
+3-31	433-442	Rücksicht	_	_
+3-32	443-449	darauf	_	_
+3-33	450-451	,	_	_
+3-34	452-460	erlassen	_	_
+3-35	461-467	wollte	_	_
+3-36	468-469	,	_	_
+3-37	470-474	gern	_	_
+3-38	475-479	eine	_	_
+3-39	480-493	entsprechende	_	_
+3-40	494-499	Summe	_	_
+3-41	500-501	,	_	_
+3-42	502-510	entweder	_	_
+3-43	511-513	im	_	_
+3-44	514-522	nächsten	_	_
+3-45	523-529	Januar	*[7]	DATEmentioned[7]
+3-46	530-534	1837	*[7]	DATEmentioned[7]
+3-47	535-538	auf	_	_
+3-48	539-545	einmal	_	_
+3-49	546-547	,	_	_
+3-50	548-552	oder	_	_
+3-51	553-561	zwischen	_	_
+3-52	562-568	Januar	_	_
+3-53	569-573	1837	*	DATEmentioned
+3-54	574-577	und	_	_
+3-55	578-584	Jamuar	_	_
+3-56	585-589	1838	_	_
+3-57	590-599	vertheilt	_	_
+3-58	600-601	,	_	_
+3-59	602-610	höchsten	_	_
+3-60	611-615	Orts	_	_
+3-61	616-619	als	_	_
+3-62	620-629	Instituts	*	ORGmentioned
+3-63	630-643	Unterstützung	_	_
+3-64	644-647	mir	_	_
+3-65	648-650	zu	_	_
+3-66	651-659	erbitten	_	_
+3-67	660-665	nicht	_	_
+3-68	666-673	anstehn	_	_
+3-69	674-675	,	_	_
+3-70	676-679	und	_	_
+3-71	680-682	zu	_	_
+3-72	683-691	erlangen	_	_
+3-73	692-698	hoffen	_	_
+3-74	699-700	.	_	_
+
+#Text=So wäre das Institut auf einmal frei und jedermann zufrieden .
+4-1	701-703	So	_	_
+4-2	704-708	wäre	_	_
+4-3	709-712	das	_	_
+4-4	713-721	Institut	*	ORGmentioned
+4-5	722-725	auf	_	_
+4-6	726-732	einmal	_	_
+4-7	733-737	frei	_	_
+4-8	738-741	und	_	_
+4-9	742-751	jedermann	_	_
+4-10	752-761	zufrieden	_	_
+4-11	762-763	.	_	_
+
+#Text=Dies alles lege ich in Ihre freundschaftlichen und wohlwollenden Hände .
+5-1	764-768	Dies	_	_
+5-2	769-774	alles	_	_
+5-3	775-779	lege	_	_
+5-4	780-783	ich	_	_
+5-5	784-786	in	_	_
+5-6	787-791	Ihre	_	_
+5-7	792-810	freundschaftlichen	_	_
+5-8	811-814	und	_	_
+5-9	815-828	wohlwollenden	_	_
+5-10	829-834	Hände	_	_
+5-11	835-836	.	_	_
+
+#Text=Ich komme nun auf die Geld-Artikel selbst .
+6-1	837-840	Ich	_	_
+6-2	841-846	komme	_	_
+6-3	847-850	nun	_	_
+6-4	851-854	auf	_	_
+6-5	855-858	die	_	_
+6-6	859-871	Geld-Artikel	_	_
+6-7	872-878	selbst	_	_
+6-8	879-880	.	_	_
+
+#Text=Bei $ 1 .
+7-1	881-884	Bei	_	_
+7-2	885-886	$	_	_
+7-3	887-888	1	_	_
+7-4	889-890	.	_	_
+
+#Text=habe ich von Ihrer Einwilligung zu meiner Redaktion Gebrauch machen müssen , und die Anweisungen auf Deutschland auf die Rechnung 1835 als End-Termin beschrenkt .
+8-1	891-895	habe	_	_
+8-2	896-899	ich	_	_
+8-3	900-903	von	_	_
+8-4	904-909	Ihrer	_	_
+8-5	910-922	Einwilligung	_	_
+8-6	923-925	zu	_	_
+8-7	926-932	meiner	_	_
+8-8	933-942	Redaktion	_	_
+8-9	943-951	Gebrauch	_	_
+8-10	952-958	machen	_	_
+8-11	959-965	müssen	_	_
+8-12	966-967	,	_	_
+8-13	968-971	und	_	_
+8-14	972-975	die	_	_
+8-15	976-987	Anweisungen	_	_
+8-16	988-991	auf	_	_
+8-17	992-1003	Deutschland	*	PLACEmentioned
+8-18	1004-1007	auf	_	_
+8-19	1008-1011	die	_	_
+8-20	1012-1020	Rechnung	_	_
+8-21	1021-1025	1835	*	DATEmentioned
+8-22	1026-1029	als	_	_
+8-23	1030-1040	End-Termin	_	_
+8-24	1041-1051	beschrenkt	_	_
+8-25	1052-1053	.	_	_
+
+#Text=Ihre Großmuth gegen das Institut nehme ich mit allen unseren Collegen aufs Dankbarste an .
+9-1	1054-1058	Ihre	_	_
+9-2	1059-1067	Großmuth	_	_
+9-3	1068-1073	gegen	_	_
+9-4	1074-1077	das	_	_
+9-5	1078-1086	Institut	*	ORGmentioned
+9-6	1087-1092	nehme	_	_
+9-7	1093-1096	ich	_	_
+9-8	1097-1100	mit	_	_
+9-9	1101-1106	allen	_	_
+9-10	1107-1114	unseren	_	_
+9-11	1115-1123	Collegen	_	_
+9-12	1124-1128	aufs	_	_
+9-13	1129-1139	Dankbarste	_	_
+9-14	1140-1142	an	_	_
+9-15	1143-1144	.	_	_
+
+#Text=Sie eröffnet uns einen heiteren Blick in die umwölkte und sorgenvolle Zukunft .
+10-1	1145-1148	Sie	_	_
+10-2	1149-1157	eröffnet	_	_
+10-3	1158-1161	uns	_	_
+10-4	1162-1167	einen	_	_
+10-5	1168-1176	heiteren	_	_
+10-6	1177-1182	Blick	_	_
+10-7	1183-1185	in	_	_
+10-8	1186-1189	die	_	_
+10-9	1190-1198	umwölkte	_	_
+10-10	1199-1202	und	_	_
+10-11	1203-1214	sorgenvolle	_	_
+10-12	1215-1222	Zukunft	_	_
+10-13	1223-1224	.	_	_
+
+#Text=Erlauben Sie daß wir Ihnen dafür bald noch officiell danken .
+11-1	1225-1233	Erlauben	_	_
+11-2	1234-1237	Sie	_	_
+11-3	1238-1241	daß	_	_
+11-4	1242-1245	wir	_	_
+11-5	1246-1251	Ihnen	_	_
+11-6	1252-1257	dafür	_	_
+11-7	1258-1262	bald	_	_
+11-8	1263-1267	noch	_	_
+11-9	1268-1277	officiell	_	_
+11-10	1278-1284	danken	_	_
+11-11	1285-1286	.	_	_
+
+#Text=Vorerst aber überlassen Sie uns die 20
+12-1	1287-1294	Vorerst	_	_
+12-2	1295-1299	aber	_	_
+12-3	1300-1310	überlassen	_	_
+12-4	1311-1314	Sie	_	_
+12-5	1315-1318	uns	_	_
+12-6	1319-1322	die	_	_
+12-7	1323-1325	20	_	_

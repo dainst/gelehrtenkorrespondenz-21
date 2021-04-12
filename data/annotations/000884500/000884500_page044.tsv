@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERmentioned
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	27	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=`` ebmuar 1838 Lanci möge nicht zu pedantisch sein mit der Quittung über Gerstäckers Rechnung \; die kaufmännische Regel daß er neue Berechnungen nur an den quittirten Rechnungsstand der alten knüpfen kann läßt sich ihm nicht ausreden , ist auch so sehr in der Ordnung daß ich es nicht erst zu erinnern brauchte .
+2-1	31-33	``	*[4]	DATEletter[4]
+2-2	34-40	ebmuar	*[4]	DATEletter[4]
+2-3	41-45	1838	*[4]	DATEletter[4]
+2-4	46-51	Lanci	*	PERmentioned
+2-5	52-56	möge	_	_
+2-6	57-62	nicht	_	_
+2-7	63-65	zu	_	_
+2-8	66-76	pedantisch	_	_
+2-9	77-81	sein	_	_
+2-10	82-85	mit	_	_
+2-11	86-89	der	_	_
+2-12	90-98	Quittung	_	_
+2-13	99-103	über	_	_
+2-14	104-115	Gerstäckers	*	PERmentioned
+2-15	116-124	Rechnung	_	_
+2-16	125-126	\;	_	_
+2-17	127-130	die	_	_
+2-18	131-144	kaufmännische	_	_
+2-19	145-150	Regel	_	_
+2-20	151-154	daß	_	_
+2-21	155-157	er	_	_
+2-22	158-162	neue	_	_
+2-23	163-175	Berechnungen	_	_
+2-24	176-179	nur	_	_
+2-25	180-182	an	_	_
+2-26	183-186	den	_	_
+2-27	187-197	quittirten	_	_
+2-28	198-212	Rechnungsstand	_	_
+2-29	213-216	der	_	_
+2-30	217-222	alten	_	_
+2-31	223-230	knüpfen	_	_
+2-32	231-235	kann	_	_
+2-33	236-240	läßt	_	_
+2-34	241-245	sich	_	_
+2-35	246-249	ihm	_	_
+2-36	250-255	nicht	_	_
+2-37	256-264	ausreden	_	_
+2-38	265-266	,	_	_
+2-39	267-270	ist	_	_
+2-40	271-275	auch	_	_
+2-41	276-278	so	_	_
+2-42	279-283	sehr	_	_
+2-43	284-286	in	_	_
+2-44	287-290	der	_	_
+2-45	291-298	Ordnung	_	_
+2-46	299-302	daß	_	_
+2-47	303-306	ich	_	_
+2-48	307-309	es	_	_
+2-49	310-315	nicht	_	_
+2-50	316-320	erst	_	_
+2-51	321-323	zu	_	_
+2-52	324-332	erinnern	_	_
+2-53	333-341	brauchte	_	_
+2-54	342-343	.	_	_
+
+#Text=Es lassen sich aber sehr wohl Formeln finden durch die man eine Approbation salvo errori ausspricht .
+3-1	344-346	Es	_	_
+3-2	347-353	lassen	_	_
+3-3	354-358	sich	_	_
+3-4	359-363	aber	_	_
+3-5	364-368	sehr	_	_
+3-6	369-373	wohl	_	_
+3-7	374-381	Formeln	_	_
+3-8	382-388	finden	_	_
+3-9	389-394	durch	_	_
+3-10	395-398	die	_	_
+3-11	399-402	man	_	_
+3-12	403-407	eine	_	_
+3-13	408-419	Approbation	_	_
+3-14	420-425	salvo	_	_
+3-15	426-432	errori	_	_
+3-16	433-443	ausspricht	_	_
+3-17	444-445	.	_	_
+
+#Text=Wozu schickt man sonst die Rechnung in duplo ?
+4-1	446-450	Wozu	_	_
+4-2	451-458	schickt	_	_
+4-3	459-462	man	_	_
+4-4	463-468	sonst	_	_
+4-5	469-472	die	_	_
+4-6	473-481	Rechnung	_	_
+4-7	482-484	in	_	_
+4-8	485-490	duplo	_	_
+4-9	491-492	?	_	_
+
+#Text=Ueber den Sarkophag in V. Colonna habe ich nicht sonderlich studiert .
+5-1	493-498	Ueber	_	_
+5-2	499-502	den	_	_
+5-3	503-512	Sarkophag	*	OBJ
+5-4	513-515	in	_	_
+5-5	516-518	V.	*[8]	PLACEmentioned[8]
+5-6	519-526	Colonna	*[8]	PLACEmentioned[8]
+5-7	527-531	habe	_	_
+5-8	532-535	ich	_	_
+5-9	536-541	nicht	_	_
+5-10	542-552	sonderlich	_	_
+5-11	553-561	studiert	_	_
+5-12	562-563	.	_	_
+
+#Text=Das bachontische Triclinum .des Panfilischen Sarkophags ist in einen neuen Hefte A. Bildw .
+6-1	564-567	Das	_	_
+6-2	568-580	bachontische	_	_
+6-3	581-590	Triclinum	_	_
+6-4	591-595	.des	_	_
+6-5	596-608	Panfilischen	*[9]	OBJ[9]
+6-6	609-619	Sarkophags	*[9]	OBJ[9]
+6-7	620-623	ist	_	_
+6-8	624-626	in	_	_
+6-9	627-632	einen	_	_
+6-10	633-638	neuen	_	_
+6-11	639-644	Hefte	_	_
+6-12	645-647	A.	_	_
+6-13	648-653	Bildw	_	_
+6-14	654-655	.	_	_
+
+#Text=publicirt .
+7-1	656-665	publicirt	_	_
+7-2	666-667	.	_	_
+
+#Text=Die ausgerissene Stelle meines vorigen Briefs enthielt mein Anerbiten den Betrag Ihrer seit langem bei Gerstäcker ausstehenden Schuld für Sie zu übernehmen .
+8-1	668-671	Die	_	_
+8-2	672-684	ausgerissene	_	_
+8-3	685-691	Stelle	_	_
+8-4	692-698	meines	_	_
+8-5	699-706	vorigen	_	_
+8-6	707-713	Briefs	_	_
+8-7	714-722	enthielt	_	_
+8-8	723-727	mein	_	_
+8-9	728-737	Anerbiten	_	_
+8-10	738-741	den	_	_
+8-11	742-748	Betrag	_	_
+8-12	749-754	Ihrer	_	_
+8-13	755-759	seit	_	_
+8-14	760-766	langem	_	_
+8-15	767-770	bei	_	_
+8-16	771-781	Gerstäcker	*	PERmentioned
+8-17	782-794	ausstehenden	_	_
+8-18	795-801	Schuld	_	_
+8-19	802-805	für	_	_
+8-20	806-809	Sie	_	_
+8-21	810-812	zu	_	_
+8-22	813-823	übernehmen	_	_
+8-23	824-825	.	_	_
+
+#Text=Es ist empfindlich daß ich noch immer nicht vom Druck meiner Notice über Griechisches höre , gegen die Abrede .
+9-1	826-828	Es	_	_
+9-2	829-832	ist	_	_
+9-3	833-844	empfindlich	_	_
+9-4	845-848	daß	_	_
+9-5	849-852	ich	_	_
+9-6	853-857	noch	_	_
+9-7	858-863	immer	_	_
+9-8	864-869	nicht	_	_
+9-9	870-873	vom	_	_
+9-10	874-879	Druck	_	_
+9-11	880-886	meiner	_	_
+9-12	887-893	Notice	_	_
+9-13	894-898	über	_	_
+9-14	899-911	Griechisches	_	_
+9-15	912-916	höre	_	_
+9-16	917-918	,	_	_
+9-17	919-924	gegen	_	_
+9-18	925-928	die	_	_
+9-19	929-935	Abrede	_	_
+9-20	936-937	.	_	_
+
+#Text=Panofka 's Skiron ist ohngefähr zu 2 Scudi anzuschlagen \; taxirt ihn Cap ” höher so ist nichts dagegen , da er ja doch wol nur eine Antiquität dagegen giebt .
+10-1	938-945	Panofka	*[10]	PERmentioned[10]
+10-2	946-948	's	*[10]	PERmentioned[10]
+10-3	949-955	Skiron	_	_
+10-4	956-959	ist	_	_
+10-5	960-969	ohngefähr	_	_
+10-6	970-972	zu	_	_
+10-7	973-974	2	_	_
+10-8	975-980	Scudi	_	_
+10-9	981-993	anzuschlagen	_	_
+10-10	994-995	\;	_	_
+10-11	996-1002	taxirt	_	_
+10-12	1003-1006	ihn	_	_
+10-13	1007-1010	Cap	_	_
+10-14	1011-1012	”	_	_
+10-15	1013-1018	höher	_	_
+10-16	1019-1021	so	_	_
+10-17	1022-1025	ist	_	_
+10-18	1026-1032	nichts	_	_
+10-19	1033-1040	dagegen	_	_
+10-20	1041-1042	,	_	_
+10-21	1043-1045	da	_	_
+10-22	1046-1048	er	_	_
+10-23	1049-1051	ja	_	_
+10-24	1052-1056	doch	_	_
+10-25	1057-1060	wol	_	_
+10-26	1061-1064	nur	_	_
+10-27	1065-1069	eine	_	_
+10-28	1070-1080	Antiquität	_	_
+10-29	1081-1088	dagegen	_	_
+10-30	1089-1094	giebt	_	_
+10-31	1095-1096	.	_	_
+
+#Text=Lajards Monstrum darf man loben , weil die Monumente merkwürdig und gut gestochen sind \; daß der größ-
+11-1	1097-1104	Lajards	*	PERmentioned
+11-2	1105-1113	Monstrum	_	_
+11-3	1114-1118	darf	_	_
+11-4	1119-1122	man	_	_
+11-5	1123-1128	loben	_	_
+11-6	1129-1130	,	_	_
+11-7	1131-1135	weil	_	_
+11-8	1136-1139	die	_	_
+11-9	1140-1149	Monumente	_	_
+11-10	1150-1160	merkwürdig	_	_
+11-11	1161-1164	und	_	_
+11-12	1165-1168	gut	_	_
+11-13	1169-1178	gestochen	_	_
+11-14	1179-1183	sind	_	_
+11-15	1184-1185	\;	_	_
+11-16	1186-1189	daß	_	_
+11-17	1190-1193	der	_	_
+11-18	1194-1199	größ-	_	_

@@ -1,0 +1,176 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=33 Gerhard an Braun Berlin , 3 .
+1-1	0-2	33	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	3	_	_
+1-8	31-32	.	_	_
+
+#Text=Januar 1844 A. d . Dir .
+2-1	33-39	Januar	_	_
+2-2	40-44	1844	*[1]	DATEletter|DATEletter[1]
+2-3	45-47	A.	_	_
+2-4	48-49	d	_	_
+2-5	50-51	.	_	_
+2-6	52-55	Dir	_	_
+2-7	56-57	.	_	_
+
+#Text=g . 18/I 4 r . 19/I 44 Berlin 3/1844 Mein theurer Freund .
+3-1	58-59	g	_	_
+3-2	60-61	.	_	_
+3-3	62-66	18/I	_	_
+3-4	67-68	4	_	_
+3-5	69-70	r	_	_
+3-6	71-72	.	_	_
+3-7	73-77	19/I	*[3]	DATEanswered[3]
+3-8	78-80	44	*[3]	DATEanswered[3]
+3-9	81-87	Berlin	*	PLACEfrom
+3-10	88-94	3/1844	*[2]	DATErecieved[2]
+3-11	95-99	Mein	_	_
+3-12	100-107	theurer	_	_
+3-13	108-114	Freund	_	_
+3-14	115-116	.	_	_
+
+#Text=( Antwort auf Ihren Brief vom 22/12 ) Nach meinem gestrigen Brief ist Ihnen meine Ansicht bereits ausgesprochen daß wir es wagen können das Bullettino von 1844 in 4° zu drucken .
+4-1	117-118	(	_	_
+4-2	119-126	Antwort	_	_
+4-3	127-130	auf	_	_
+4-4	131-136	Ihren	_	_
+4-5	137-142	Brief	_	_
+4-6	143-146	vom	_	_
+4-7	147-152	22/12	*	DATEmentioned
+4-8	153-154	)	_	_
+4-9	155-159	Nach	_	_
+4-10	160-166	meinem	_	_
+4-11	167-176	gestrigen	_	_
+4-12	177-182	Brief	_	_
+4-13	183-186	ist	_	_
+4-14	187-192	Ihnen	_	_
+4-15	193-198	meine	_	_
+4-16	199-206	Ansicht	_	_
+4-17	207-214	bereits	_	_
+4-18	215-228	ausgesprochen	_	_
+4-19	229-232	daß	_	_
+4-20	233-236	wir	_	_
+4-21	237-239	es	_	_
+4-22	240-245	wagen	_	_
+4-23	246-252	können	_	_
+4-24	253-256	das	_	_
+4-25	257-267	Bullettino	_	_
+4-26	268-271	von	_	_
+4-27	272-276	1844	*	DATEmentioned
+4-28	277-279	in	_	_
+4-29	280-282	4°	_	_
+4-30	283-285	zu	_	_
+4-31	286-293	drucken	_	_
+4-32	294-295	.	_	_
+
+#Text=Jacob erweist sich als ein Waschlappen \; er hat den ihm mitgetheilten Bericht mit dem Rathe zurückgestellt durch Herrn von Olfers zu wirken \; mit dem Minister steht er jetzt auch schlecht .
+5-1	296-301	Jacob	*	PERmentioned
+5-2	302-309	erweist	_	_
+5-3	310-314	sich	_	_
+5-4	315-318	als	_	_
+5-5	319-322	ein	_	_
+5-6	323-334	Waschlappen	_	_
+5-7	335-336	\;	_	_
+5-8	337-339	er	_	_
+5-9	340-343	hat	_	_
+5-10	344-347	den	_	_
+5-11	348-351	ihm	_	_
+5-12	352-365	mitgetheilten	_	_
+5-13	366-373	Bericht	_	_
+5-14	374-377	mit	_	_
+5-15	378-381	dem	_	_
+5-16	382-387	Rathe	_	_
+5-17	388-402	zurückgestellt	_	_
+5-18	403-408	durch	_	_
+5-19	409-414	Herrn	_	_
+5-20	415-418	von	*[4]	PERmentioned[4]
+5-21	419-425	Olfers	*[4]	PERmentioned[4]
+5-22	426-428	zu	_	_
+5-23	429-435	wirken	_	_
+5-24	436-437	\;	_	_
+5-25	438-441	mit	_	_
+5-26	442-445	dem	_	_
+5-27	446-454	Minister	_	_
+5-28	455-460	steht	_	_
+5-29	461-463	er	_	_
+5-30	464-469	jetzt	_	_
+5-31	470-474	auch	_	_
+5-32	475-483	schlecht	_	_
+5-33	484-485	.	_	_
+
+#Text=Übergehen wollte ich ihn nicht , da warmes Wohlwollen auch etwas werth ist .
+6-1	486-495	Übergehen	_	_
+6-2	496-502	wollte	_	_
+6-3	503-506	ich	_	_
+6-4	507-510	ihn	_	_
+6-5	511-516	nicht	_	_
+6-6	517-518	,	_	_
+6-7	519-521	da	_	_
+6-8	522-528	warmes	_	_
+6-9	529-539	Wohlwollen	_	_
+6-10	540-544	auch	_	_
+6-11	545-550	etwas	_	_
+6-12	551-556	werth	_	_
+6-13	557-560	ist	_	_
+6-14	561-562	.	_	_
+
+#Text=Wegen Schwenk werde ich an Welcker schreiben , daß er zum 21 April kreirt werde \; an Sydow was Sie mir auftragen .
+7-1	563-568	Wegen	_	_
+7-2	569-576	Schwenk	*	PERmentioned
+7-3	577-582	werde	_	_
+7-4	583-586	ich	_	_
+7-5	587-589	an	_	_
+7-6	590-597	Welcker	*	PERmentioned
+7-7	598-607	schreiben	_	_
+7-8	608-609	,	_	_
+7-9	610-613	daß	_	_
+7-10	614-616	er	_	_
+7-11	617-620	zum	_	_
+7-12	621-623	21	*[5]	DATEmentioned[5]
+7-13	624-629	April	*[5]	DATEmentioned[5]
+7-14	630-636	kreirt	_	_
+7-15	637-642	werde	_	_
+7-16	643-644	\;	_	_
+7-17	645-647	an	_	_
+7-18	648-653	Sydow	*	PERmentioned
+7-19	654-657	was	_	_
+7-20	658-661	Sie	_	_
+7-21	662-665	mir	_	_
+7-22	666-675	auftragen	_	_
+7-23	676-677	.	_	_
+
+#Text=Von der Schale der Trojazerstörung hatten Sie mir niemals geschrieben , bevor ich im Bullettino davon las .
+8-1	678-681	Von	_	_
+8-2	682-685	der	_	_
+8-3	686-692	Schale	*[6]	OBJ[6]
+8-4	693-696	der	*[6]	OBJ[6]
+8-5	697-712	Trojazerstörung	*[6]	OBJ[6]
+8-6	713-719	hatten	_	_
+8-7	720-723	Sie	_	_
+8-8	724-727	mir	_	_
+8-9	728-735	niemals	_	_
+8-10	736-747	geschrieben	_	_
+8-11	748-749	,	_	_
+8-12	750-755	bevor	_	_
+8-13	756-759	ich	_	_
+8-14	760-762	im	_	_
+8-15	763-773	Bullettino	_	_
+8-16	774-779	davon	_	_
+8-17	780-783	las	_	_
+8-18	784-785	.	_	_
+
+#Text=Preiscourente Ihrer Antiken sollen Sie nicht
+9-1	786-799	Preiscourente	_	_
+9-2	800-805	Ihrer	_	_
+9-3	806-813	Antiken	_	_
+9-4	814-820	sollen	_	_
+9-5	821-824	Sie	_	_
+9-6	825-830	nicht	_	_

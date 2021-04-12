@@ -1,0 +1,211 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=294 Gerhard an Braun Berlin , 18. Juni 1845 Panofka will nach London .
+1-1	0-3	294	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	18.	*[1]	DATEletter[1]
+1-8	34-38	Juni	*[1]	DATEletter[1]
+1-9	39-43	1845	*[1]	DATEletter[1]
+1-10	44-51	Panofka	*	PERmentioned
+1-11	52-56	will	_	_
+1-12	57-61	nach	_	_
+1-13	62-68	London	*	PLACEmentioned
+1-14	69-70	.	_	_
+
+#Text=Duc de Luynes , daß ihm das Hebräisch nicht den Magen verderbe !
+2-1	71-74	Duc	*[2]	PERmentioned[2]
+2-2	75-77	de	*[2]	PERmentioned[2]
+2-3	78-84	Luynes	*[2]	PERmentioned[2]
+2-4	85-86	,	_	_
+2-5	87-90	daß	_	_
+2-6	91-94	ihm	_	_
+2-7	95-98	das	_	_
+2-8	99-108	Hebräisch	_	_
+2-9	109-114	nicht	_	_
+2-10	115-118	den	_	_
+2-11	119-124	Magen	_	_
+2-12	125-133	verderbe	_	_
+2-13	134-135	!	_	_
+
+#Text=Brunn 's Recension steht äußerst lang in dem Jahrbuch Februar abgedruckt , und macht sich für ein deutsches Publikum ganz gut .
+3-1	136-141	Brunn	*[6]	PERmentioned[6]
+3-2	142-144	's	*[6]	PERmentioned[6]
+3-3	145-154	Recension	_	_
+3-4	155-160	steht	_	_
+3-5	161-168	äußerst	_	_
+3-6	169-173	lang	_	_
+3-7	174-176	in	_	_
+3-8	177-180	dem	_	_
+3-9	181-189	Jahrbuch	_	_
+3-10	190-197	Februar	*	DATEmentioned
+3-11	198-208	abgedruckt	_	_
+3-12	209-210	,	_	_
+3-13	211-214	und	_	_
+3-14	215-220	macht	_	_
+3-15	221-225	sich	_	_
+3-16	226-229	für	_	_
+3-17	230-233	ein	_	_
+3-18	234-243	deutsches	_	_
+3-19	244-252	Publikum	_	_
+3-20	253-257	ganz	_	_
+3-21	258-261	gut	_	_
+3-22	262-263	.	_	_
+
+#Text=Aber ungemein breitspurig und allzu viel Ehre 6 bis 8 Bogen für ein Unternehmen , welches man doch nicht vornehmer machen will als das Bullettino des Instituts oder die Archäologische Zeitung es ist \; wer referirt über die Institutswerke und über die meinigen in ähnlichem Umfang ?
+4-1	264-268	Aber	_	_
+4-2	269-277	ungemein	_	_
+4-3	278-289	breitspurig	_	_
+4-4	290-293	und	_	_
+4-5	294-299	allzu	_	_
+4-6	300-304	viel	_	_
+4-7	305-309	Ehre	_	_
+4-8	310-311	6	_	_
+4-9	312-315	bis	_	_
+4-10	316-317	8	_	_
+4-11	318-323	Bogen	_	_
+4-12	324-327	für	_	_
+4-13	328-331	ein	_	_
+4-14	332-343	Unternehmen	_	_
+4-15	344-345	,	_	_
+4-16	346-353	welches	_	_
+4-17	354-357	man	_	_
+4-18	358-362	doch	_	_
+4-19	363-368	nicht	_	_
+4-20	369-378	vornehmer	_	_
+4-21	379-385	machen	_	_
+4-22	386-390	will	_	_
+4-23	391-394	als	_	_
+4-24	395-398	das	_	_
+4-25	399-409	Bullettino	_	_
+4-26	410-413	des	_	_
+4-27	414-423	Instituts	*	ORGmentioned
+4-28	424-428	oder	_	_
+4-29	429-432	die	_	_
+4-30	433-447	Archäologische	_	_
+4-31	448-455	Zeitung	_	_
+4-32	456-458	es	_	_
+4-33	459-462	ist	_	_
+4-34	463-464	\;	_	_
+4-35	465-468	wer	_	_
+4-36	469-477	referirt	_	_
+4-37	478-482	über	_	_
+4-38	483-486	die	_	_
+4-39	487-501	Institutswerke	_	_
+4-40	502-505	und	_	_
+4-41	506-510	über	_	_
+4-42	511-514	die	_	_
+4-43	515-523	meinigen	_	_
+4-44	524-526	in	_	_
+4-45	527-536	ähnlichem	_	_
+4-46	537-543	Umfang	_	_
+4-47	544-545	?	_	_
+
+#Text=Roß hofft im Juli hier zu sein .
+5-1	546-549	Roß	*	PERmentioned
+5-2	550-555	hofft	_	_
+5-3	556-558	im	_	_
+5-4	559-563	Juli	*	DATEmentioned
+5-5	564-568	hier	_	_
+5-6	569-571	zu	_	_
+5-7	572-576	sein	_	_
+5-8	577-578	.	_	_
+
+#Text=Die Ägyptologen werden erst zu Ende des Jahres zurückerwartet \; Lepsius , von Sinai nach Theben zurückgekehrt , versichert viel für ägyptische Götter Vasen aufgewärmt zu haben .
+6-1	579-582	Die	_	_
+6-2	583-594	Ägyptologen	_	_
+6-3	595-601	werden	_	_
+6-4	602-606	erst	_	_
+6-5	607-609	zu	_	_
+6-6	610-614	Ende	_	_
+6-7	615-618	des	_	_
+6-8	619-625	Jahres	_	_
+6-9	626-640	zurückerwartet	_	_
+6-10	641-642	\;	_	_
+6-11	643-650	Lepsius	*	PERmentioned
+6-12	651-652	,	_	_
+6-13	653-656	von	_	_
+6-14	657-662	Sinai	*	PLACEmentioned
+6-15	663-667	nach	_	_
+6-16	668-674	Theben	*	PLACEmentioned
+6-17	675-688	zurückgekehrt	_	_
+6-18	689-690	,	_	_
+6-19	691-701	versichert	_	_
+6-20	702-706	viel	_	_
+6-21	707-710	für	_	_
+6-22	711-721	ägyptische	*	MISC
+6-23	722-728	Götter	*[3]	OBJ[3]
+6-24	729-734	Vasen	*[3]	OBJ[3]
+6-25	735-745	aufgewärmt	_	_
+6-26	746-748	zu	_	_
+6-27	749-754	haben	_	_
+6-28	755-756	.	_	_
+
+#Text=Wegen der Defekte werde ich Sorge tragen .
+7-1	757-762	Wegen	_	_
+7-2	763-766	der	_	_
+7-3	767-774	Defekte	_	_
+7-4	775-780	werde	_	_
+7-5	781-784	ich	_	_
+7-6	785-790	Sorge	_	_
+7-7	791-797	tragen	_	_
+7-8	798-799	.	_	_
+
+#Text=Grüssen Sie Henzen mit bestem Dank für sein Zweifaches .
+8-1	800-807	Grüssen	_	_
+8-2	808-811	Sie	_	_
+8-3	812-818	Henzen	*	PERmentioned
+8-4	819-822	mit	_	_
+8-5	823-829	bestem	_	_
+8-6	830-834	Dank	_	_
+8-7	835-838	für	_	_
+8-8	839-843	sein	_	_
+8-9	844-854	Zweifaches	_	_
+8-10	855-856	.	_	_
+
+#Text=Meine Frau grüßt gleichfalls bestens .
+9-1	857-862	Meine	_	_
+9-2	863-867	Frau	_	_
+9-3	868-873	grüßt	_	_
+9-4	874-885	gleichfalls	_	_
+9-5	886-893	bestens	_	_
+9-6	894-895	.	_	_
+
+#Text=Herzlich Ihr Gerhard wird ein Aufenthalt vom 20 September bis October in Neapel durch die Scienziati sehr unausstehlich sein ?
+10-1	896-904	Herzlich	_	_
+10-2	905-908	Ihr	_	_
+10-3	909-916	Gerhard	*	PERauthor
+10-4	917-921	wird	_	_
+10-5	922-925	ein	_	_
+10-6	926-936	Aufenthalt	_	_
+10-7	937-940	vom	_	_
+10-8	941-943	20	*[4]	DATEmentioned[4]
+10-9	944-953	September	*[4]	DATEmentioned[4]
+10-10	954-957	bis	_	_
+10-11	958-965	October	*	DATEmentioned
+10-12	966-968	in	_	_
+10-13	969-975	Neapel	*	PLACEmentioned
+10-14	976-981	durch	_	_
+10-15	982-985	die	_	_
+10-16	986-996	Scienziati	_	_
+10-17	997-1001	sehr	_	_
+10-18	1002-1015	unausstehlich	_	_
+10-19	1016-1020	sein	_	_
+10-20	1021-1022	?	_	_
+
+#Text=Ich meine für den Gebrauch von S. Angelos Sammlung und
+11-1	1023-1026	Ich	_	_
+11-2	1027-1032	meine	_	_
+11-3	1033-1036	für	_	_
+11-4	1037-1040	den	_	_
+11-5	1041-1049	Gebrauch	_	_
+11-6	1050-1053	von	_	_
+11-7	1054-1056	S.	*[5]	PERmentioned[5]
+11-8	1057-1064	Angelos	*[5]	PERmentioned[5]
+11-9	1065-1073	Sammlung	_	_
+11-10	1074-1077	und	_	_

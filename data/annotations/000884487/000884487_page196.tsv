@@ -1,0 +1,254 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 1. Juli 1837 kühles Wasser fehlt wie fast .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	1.	*[4]	DATEletter[4]
+1-7	30-34	Juli	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-46	kühles	_	_
+1-10	47-53	Wasser	_	_
+1-11	54-59	fehlt	_	_
+1-12	60-63	wie	_	_
+1-13	64-68	fast	_	_
+1-14	69-70	.	_	_
+
+#Text=Soll ich mit Chinin fortfahren und wie oft ?
+2-1	71-75	Soll	_	_
+2-2	76-79	ich	_	_
+2-3	80-83	mit	_	_
+2-4	84-90	Chinin	_	_
+2-5	91-101	fortfahren	_	_
+2-6	102-105	und	_	_
+2-7	106-109	wie	_	_
+2-8	110-113	oft	_	_
+2-9	114-115	?	_	_
+
+#Text=So eben liegt Ihr Brief vom 21 Juni vor sehr willkommen , wie es auch die gesandten Bücher waren .
+3-1	116-118	So	_	_
+3-2	119-123	eben	_	_
+3-3	124-129	liegt	_	_
+3-4	130-133	Ihr	_	_
+3-5	134-139	Brief	_	_
+3-6	140-143	vom	_	_
+3-7	144-146	21	*[5]	DATEmentioned[5]
+3-8	147-151	Juni	*[5]	DATEmentioned[5]
+3-9	152-155	vor	_	_
+3-10	156-160	sehr	_	_
+3-11	161-171	willkommen	_	_
+3-12	172-173	,	_	_
+3-13	174-177	wie	_	_
+3-14	178-180	es	_	_
+3-15	181-185	auch	_	_
+3-16	186-189	die	_	_
+3-17	190-199	gesandten	_	_
+3-18	200-206	Bücher	_	_
+3-19	207-212	waren	_	_
+3-20	213-214	.	_	_
+
+#Text=Für alle mitgetheilten Notizen besten Dank .
+4-1	215-218	Für	_	_
+4-2	219-223	alle	_	_
+4-3	224-237	mitgetheilten	_	_
+4-4	238-245	Notizen	_	_
+4-5	246-252	besten	_	_
+4-6	253-257	Dank	_	_
+4-7	258-259	.	_	_
+
+#Text=Gehen Sie fort sobald Sie müssen , aber sichern Sie Sich vorher mit Lokal und Arbeit \| !
+5-1	260-265	Gehen	_	_
+5-2	266-269	Sie	_	_
+5-3	270-274	fort	_	_
+5-4	275-281	sobald	_	_
+5-5	282-285	Sie	_	_
+5-6	286-292	müssen	_	_
+5-7	293-294	,	_	_
+5-8	295-299	aber	_	_
+5-9	300-307	sichern	_	_
+5-10	308-311	Sie	_	_
+5-11	312-316	Sich	_	_
+5-12	317-323	vorher	_	_
+5-13	324-327	mit	_	_
+5-14	328-333	Lokal	_	_
+5-15	334-337	und	_	_
+5-16	338-344	Arbeit	_	_
+5-17	345-346	\|	_	_
+5-18	347-348	!	_	_
+
+#Text=Für den besorgten Stich der Ciste von 8. luca noch besondern Dank !
+6-1	349-352	Für	_	_
+6-2	353-356	den	_	_
+6-3	357-366	besorgten	_	_
+6-4	367-372	Stich	_	_
+6-5	373-376	der	_	_
+6-6	377-382	Ciste	*	OBJ
+6-7	383-386	von	_	_
+6-8	387-389	8.	*[7]	PERmentioned[7]
+6-9	390-394	luca	*[7]	PERmentioned[7]
+6-10	395-399	noch	_	_
+6-11	400-409	besondern	_	_
+6-12	410-414	Dank	_	_
+6-13	415-416	!	_	_
+
+#Text=Aus einem Mißverständniß des Consul S berichtete ich an Bunsen daß Wredow hier sei , welches a noch nicht der Fall ist .
+7-1	417-420	Aus	_	_
+7-2	421-426	einem	_	_
+7-3	427-441	Mißverständniß	_	_
+7-4	442-445	des	_	_
+7-5	446-452	Consul	_	_
+7-6	453-454	S	_	_
+7-7	455-465	berichtete	_	_
+7-8	466-469	ich	_	_
+7-9	470-472	an	_	_
+7-10	473-479	Bunsen	*	PERmentioned
+7-11	480-483	daß	_	_
+7-12	484-490	Wredow	*	PERmentioned
+7-13	491-495	hier	_	_
+7-14	496-499	sei	_	_
+7-15	500-501	,	_	_
+7-16	502-509	welches	_	_
+7-17	510-511	a	_	_
+7-18	512-516	noch	_	_
+7-19	517-522	nicht	_	_
+7-20	523-526	der	_	_
+7-21	527-531	Fall	_	_
+7-22	532-535	ist	_	_
+7-23	536-537	.	_	_
+
+#Text=Haben Sie mir wol das Vulcentische S u ge icht bei Seite gelegt ?
+8-1	538-543	Haben	_	_
+8-2	544-547	Sie	_	_
+8-3	548-551	mir	_	_
+8-4	552-555	wol	_	_
+8-5	556-559	das	_	_
+8-6	560-572	Vulcentische	*	PLACEmentioned
+8-7	573-574	S	_	_
+8-8	575-576	u	_	_
+8-9	577-579	ge	_	_
+8-10	580-584	icht	_	_
+8-11	585-588	bei	_	_
+8-12	589-594	Seite	_	_
+8-13	595-601	gelegt	_	_
+8-14	602-603	?	_	_
+
+#Text=In einem alten Briefe bezeichnet es Mazzetti als schier unmöglich F 10 und 11 des Museo Chiusino zu schaffen \; sollte sich irgend Rath dafür in Rom finden .
+9-1	604-606	In	_	_
+9-2	607-612	einem	_	_
+9-3	613-618	alten	_	_
+9-4	619-625	Briefe	_	_
+9-5	626-636	bezeichnet	_	_
+9-6	637-639	es	_	_
+9-7	640-648	Mazzetti	*	PERmentioned
+9-8	649-652	als	_	_
+9-9	653-659	schier	_	_
+9-10	660-669	unmöglich	_	_
+9-11	670-671	F	_	_
+9-12	672-674	10	_	_
+9-13	675-678	und	_	_
+9-14	679-681	11	_	_
+9-15	682-685	des	_	_
+9-16	686-691	Museo	*[12]	ORGmentioned[12]
+9-17	692-700	Chiusino	*[12]	ORGmentioned[12]
+9-18	701-703	zu	_	_
+9-19	704-712	schaffen	_	_
+9-20	713-714	\;	_	_
+9-21	715-721	sollte	_	_
+9-22	722-726	sich	_	_
+9-23	727-733	irgend	_	_
+9-24	734-738	Rath	_	_
+9-25	739-744	dafür	_	_
+9-26	745-747	in	_	_
+9-27	748-751	Rom	*	PLACEmentioned
+9-28	752-758	finden	_	_
+9-29	759-760	.	_	_
+
+#Text=Ich gehe ihm ernstlich zu Leibe \; es würde mich das ganze Ex .
+10-1	761-764	Ich	_	_
+10-2	765-769	gehe	_	_
+10-3	770-773	ihm	_	_
+10-4	774-783	ernstlich	_	_
+10-5	784-786	zu	_	_
+10-6	787-792	Leibe	_	_
+10-7	793-794	\;	_	_
+10-8	795-797	es	_	_
+10-9	798-803	würde	_	_
+10-10	804-808	mich	_	_
+10-11	809-812	das	_	_
+10-12	813-818	ganze	_	_
+10-13	819-821	Ex	_	_
+10-14	822-823	.	_	_
+
+#Text=Kosten .
+11-1	824-830	Kosten	_	_
+11-2	831-832	.	_	_
+
+#Text=Nichts Neues aus Cave vonR ti ?
+12-1	833-839	Nichts	_	_
+12-2	840-845	Neues	_	_
+12-3	846-849	aus	_	_
+12-4	850-854	Cave	*	PLACEmentioned
+12-5	855-859	vonR	_	_
+12-6	860-862	ti	*[15]	PERmentioned[15]
+12-7	863-864	?	*[15]	PERmentioned[15]
+
+#Text=Von der vase mit G thut gelegentlich eine Zeichnung Noth , für ein geringes 12 - 19 Sc. könnte man sie auch kaufen .
+13-1	865-868	Von	_	_
+13-2	869-872	der	_	_
+13-3	873-877	vase	*	OBJ
+13-4	878-881	mit	_	_
+13-5	882-883	G	_	_
+13-6	884-888	thut	_	_
+13-7	889-901	gelegentlich	_	_
+13-8	902-906	eine	_	_
+13-9	907-916	Zeichnung	_	_
+13-10	917-921	Noth	_	_
+13-11	922-923	,	_	_
+13-12	924-927	für	_	_
+13-13	928-931	ein	_	_
+13-14	932-940	geringes	_	_
+13-15	941-943	12	_	_
+13-16	944-945	-	_	_
+13-17	946-948	19	_	_
+13-18	949-952	Sc.	_	_
+13-19	953-959	könnte	_	_
+13-20	960-963	man	_	_
+13-21	964-967	sie	_	_
+13-22	968-972	auch	_	_
+13-23	973-979	kaufen	_	_
+13-24	980-981	.	_	_
+
+#Text=Was Sie von Campani 's S schreiben ist verlockend .
+14-1	982-985	Was	_	_
+14-2	986-989	Sie	_	_
+14-3	990-993	von	_	_
+14-4	994-1001	Campani	*[19]	PERmentioned[19]
+14-5	1002-1004	's	*[19]	PERmentioned[19]
+14-6	1005-1006	S	_	_
+14-7	1007-1016	schreiben	_	_
+14-8	1017-1020	ist	_	_
+14-9	1021-1031	verlockend	_	_
+14-10	1032-1033	.	_	_
+
+#Text=Ich wünschte es gäbe ein Effektstück unter den Vasen mit rothen Figuren , oder unter den .
+15-1	1034-1037	Ich	_	_
+15-2	1038-1046	wünschte	_	_
+15-3	1047-1049	es	_	_
+15-4	1050-1054	gäbe	_	_
+15-5	1055-1058	ein	_	_
+15-6	1059-1070	Effektstück	_	_
+15-7	1071-1076	unter	_	_
+15-8	1077-1080	den	_	_
+15-9	1081-1086	Vasen	*[18]	OBJ[18]
+15-10	1087-1090	mit	*[18]	OBJ[18]
+15-11	1091-1097	rothen	*[18]	OBJ[18]
+15-12	1098-1105	Figuren	*[18]	OBJ[18]
+15-13	1106-1107	,	_	_
+15-14	1108-1112	oder	_	_
+15-15	1113-1118	unter	_	_
+15-16	1119-1122	den	_	_
+15-17	1123-1124	.	_	_

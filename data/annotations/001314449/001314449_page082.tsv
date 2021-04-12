@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=307 Henzen an Gerhard laut Stempel 7/X/52 Verehrter Herr Professor \| !
+1-1	0-3	307	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-26	laut	_	_
+1-6	27-34	Stempel	_	_
+1-7	35-41	7/X/52	*	DATEletter
+1-8	42-51	Verehrter	_	_
+1-9	52-56	Herr	_	_
+1-10	57-66	Professor	_	_
+1-11	67-68	\|	_	_
+1-12	69-70	!	_	_
+
+#Text=Obwohl ohne Post , will ich doch Braun 's Briefe ein paar Zeilen beifügen , um Ihnen für Ihren 1. “ Brief vom 25 v.M , zu danken .
+2-1	71-77	Obwohl	_	_
+2-2	78-82	ohne	_	_
+2-3	83-87	Post	_	_
+2-4	88-89	,	_	_
+2-5	90-94	will	_	_
+2-6	95-98	ich	_	_
+2-7	99-103	doch	_	_
+2-8	104-109	Braun	*[2]	PERmentioned[2]
+2-9	110-112	's	*[2]	PERmentioned[2]
+2-10	113-119	Briefe	_	_
+2-11	120-123	ein	_	_
+2-12	124-128	paar	_	_
+2-13	129-135	Zeilen	_	_
+2-14	136-144	beifügen	_	_
+2-15	145-146	,	_	_
+2-16	147-149	um	_	_
+2-17	150-155	Ihnen	_	_
+2-18	156-159	für	_	_
+2-19	160-165	Ihren	_	_
+2-20	166-168	1.	_	_
+2-21	169-170	“	_	_
+2-22	171-176	Brief	_	_
+2-23	177-180	vom	_	_
+2-24	181-183	25	*[1]	DATEmentioned[1]
+2-25	184-187	v.M	*[1]	DATEmentioned[1]
+2-26	188-189	,	_	_
+2-27	190-192	zu	_	_
+2-28	193-199	danken	_	_
+2-29	200-201	.	_	_
+
+#Text=-— Welcker ist hier seit etwa 12 Tagen , vergnügt u. wohl .
+3-1	202-204	-—	_	_
+3-2	205-212	Welcker	*	PERmentioned
+3-3	213-216	ist	_	_
+3-4	217-221	hier	_	_
+3-5	222-226	seit	_	_
+3-6	227-231	etwa	_	_
+3-7	232-234	12	_	_
+3-8	235-240	Tagen	_	_
+3-9	241-242	,	_	_
+3-10	243-251	vergnügt	_	_
+3-11	252-254	u.	_	_
+3-12	255-259	wohl	_	_
+3-13	260-261	.	_	_
+
+#Text=Braun hat halb Rom in Gyps zu formen u. soll sogar eine eigne Gypsmühle u. einen Brennofen etablirt haben !
+4-1	262-267	Braun	*	PERmentioned
+4-2	268-271	hat	_	_
+4-3	272-276	halb	_	_
+4-4	277-280	Rom	*	PLACEmentioned
+4-5	281-283	in	_	_
+4-6	284-288	Gyps	_	_
+4-7	289-291	zu	_	_
+4-8	292-298	formen	_	_
+4-9	299-301	u.	_	_
+4-10	302-306	soll	_	_
+4-11	307-312	sogar	_	_
+4-12	313-317	eine	_	_
+4-13	318-323	eigne	_	_
+4-14	324-333	Gypsmühle	_	_
+4-15	334-336	u.	_	_
+4-16	337-342	einen	_	_
+4-17	343-352	Brennofen	_	_
+4-18	353-361	etablirt	_	_
+4-19	362-367	haben	_	_
+4-20	368-369	!	_	_
+
+#Text=In seinem Namen soll ich Sie bitten ( er wird vergessen haben , an Bunsen zu schreiben u. ihn zu bitten ) , auf Erneuerung unsres Gehalts für 1853 anzutragen .
+5-1	370-372	In	_	_
+5-2	373-379	seinem	_	_
+5-3	380-385	Namen	_	_
+5-4	386-390	soll	_	_
+5-5	391-394	ich	_	_
+5-6	395-398	Sie	_	_
+5-7	399-405	bitten	_	_
+5-8	406-407	(	_	_
+5-9	408-410	er	_	_
+5-10	411-415	wird	_	_
+5-11	416-425	vergessen	_	_
+5-12	426-431	haben	_	_
+5-13	432-433	,	_	_
+5-14	434-436	an	_	_
+5-15	437-443	Bunsen	*	PERmentioned
+5-16	444-446	zu	_	_
+5-17	447-456	schreiben	_	_
+5-18	457-459	u.	_	_
+5-19	460-463	ihn	_	_
+5-20	464-466	zu	_	_
+5-21	467-473	bitten	_	_
+5-22	474-475	)	_	_
+5-23	476-477	,	_	_
+5-24	478-481	auf	_	_
+5-25	482-492	Erneuerung	_	_
+5-26	493-499	unsres	_	_
+5-27	500-507	Gehalts	_	_
+5-28	508-511	für	_	_
+5-29	512-516	1853	*	DATEmentioned
+5-30	517-527	anzutragen	_	_
+5-31	528-529	.	_	_
+
+#Text=Er werde demselben erst später schreiben können , Jo .
+6-1	530-532	Er	_	_
+6-2	533-538	werde	_	_
+6-3	539-548	demselben	_	_
+6-4	549-553	erst	_	_
+6-5	554-560	später	_	_
+6-6	561-570	schreiben	_	_
+6-7	571-577	können	_	_
+6-8	578-579	,	_	_
+6-9	580-582	Jo	_	_
+6-10	583-584	.	_	_
+
+#Text=Schutz aber O verlange , dß .
+7-1	585-591	Schutz	_	_
+7-2	592-596	aber	_	_
+7-3	597-598	O	_	_
+7-4	599-607	verlange	_	_
+7-5	608-609	,	_	_
+7-6	610-612	dß	_	_
+7-7	613-614	.	_	_
+
+#Text=die Initiative von B aus gehe , -— Meine Frau befindet sich wohl u. grüßt mit mir Sie u. die Ihrise , Von Zumptino keine Spur !
+8-1	615-618	die	_	_
+8-2	619-629	Initiative	_	_
+8-3	630-633	von	_	_
+8-4	634-635	B	_	_
+8-5	636-639	aus	_	_
+8-6	640-644	gehe	_	_
+8-7	645-646	,	_	_
+8-8	647-649	-—	_	_
+8-9	650-655	Meine	_	_
+8-10	656-660	Frau	_	_
+8-11	661-669	befindet	_	_
+8-12	670-674	sich	_	_
+8-13	675-679	wohl	_	_
+8-14	680-682	u.	_	_
+8-15	683-688	grüßt	_	_
+8-16	689-692	mit	_	_
+8-17	693-696	mir	_	_
+8-18	697-700	Sie	_	_
+8-19	701-703	u.	_	_
+8-20	704-707	die	_	_
+8-21	708-714	Ihrise	_	_
+8-22	715-716	,	_	_
+8-23	717-720	Von	_	_
+8-24	721-729	Zumptino	*	PERmentioned
+8-25	730-735	keine	_	_
+8-26	736-740	Spur	_	_
+8-27	741-742	!	_	_
+
+#Text=-— Hat denn derselbe die zerschnittnen Corpora schließlich der Akademie übergeben , oder arbeitet er noch an diesem Riesenwerke ?
+9-1	743-745	-—	_	_
+9-2	746-749	Hat	_	_
+9-3	750-754	denn	_	_
+9-4	755-763	derselbe	_	_
+9-5	764-767	die	_	_
+9-6	768-781	zerschnittnen	_	_
+9-7	782-789	Corpora	_	_
+9-8	790-801	schließlich	_	_
+9-9	802-805	der	_	_
+9-10	806-814	Akademie	*	ORGmentioned
+9-11	815-824	übergeben	_	_
+9-12	825-826	,	_	_
+9-13	827-831	oder	_	_
+9-14	832-840	arbeitet	_	_
+9-15	841-843	er	_	_
+9-16	844-848	noch	_	_
+9-17	849-851	an	_	_
+9-18	852-858	diesem	_	_
+9-19	859-870	Riesenwerke	_	_
+9-20	871-872	?	_	_
+
+#Text=Es interessirt mich sehr , dies zu wissen , aus Gründen , die ich Ihnen vielleicht später einmal mittheile , .
+10-1	873-875	Es	_	_
+10-2	876-887	interessirt	_	_
+10-3	888-892	mich	_	_
+10-4	893-897	sehr	_	_
+10-5	898-899	,	_	_
+10-6	900-904	dies	_	_
+10-7	905-907	zu	_	_
+10-8	908-914	wissen	_	_
+10-9	915-916	,	_	_
+10-10	917-920	aus	_	_
+10-11	921-928	Gründen	_	_
+10-12	929-930	,	_	_
+10-13	931-934	die	_	_
+10-14	935-938	ich	_	_
+10-15	939-944	Ihnen	_	_
+10-16	945-955	vielleicht	_	_
+10-17	956-962	später	_	_
+10-18	963-969	einmal	_	_
+10-19	970-979	mittheile	_	_
+10-20	980-981	,	_	_
+10-21	982-983	.	_	_
+
+#Text=Leben Sie recht wohl Ihr WH , Mommsen theilte mir in Abschrift die noch unbekannten Inschriften aus Africa mit , schändlich copirt !
+11-1	984-989	Leben	_	_
+11-2	990-993	Sie	_	_
+11-3	994-999	recht	_	_
+11-4	1000-1004	wohl	_	_
+11-5	1005-1008	Ihr	_	_
+11-6	1009-1011	WH	*	PERauthor
+11-7	1012-1013	,	_	_
+11-8	1014-1021	Mommsen	*	PERmentioned
+11-9	1022-1029	theilte	_	_
+11-10	1030-1033	mir	_	_
+11-11	1034-1036	in	_	_
+11-12	1037-1046	Abschrift	_	_
+11-13	1047-1050	die	_	_
+11-14	1051-1055	noch	_	_
+11-15	1056-1067	unbekannten	_	_
+11-16	1068-1079	Inschriften	*	OBJ
+11-17	1080-1083	aus	_	_
+11-18	1084-1090	Africa	*	PLACEmentioned
+11-19	1091-1094	mit	_	_
+11-20	1095-1096	,	_	_
+11-21	1097-1107	schändlich	_	_
+11-22	1108-1114	copirt	_	_
+11-23	1115-1116	!	_	_
+
+#Text=Immerhin dankenswerth ,
+12-1	1117-1125	Immerhin	_	_
+12-2	1126-1138	dankenswerth	_	_
+12-3	1139-1140	,	_	_

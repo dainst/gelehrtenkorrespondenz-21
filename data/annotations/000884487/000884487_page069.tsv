@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=162 Gerhard an Braun Berlin , 12. Mai 1836 H. Dr. Braun Berlin den 12 Mai 1836 .
+1-1	0-3	162	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	12.	*[4]	DATEletter[4]
+1-8	34-37	Mai	*[4]	DATEletter[4]
+1-9	38-42	1836	*[4]	DATEletter[4]
+1-10	43-45	H.	_	_
+1-11	46-49	Dr.	_	_
+1-12	50-55	Braun	*	PERaddressee
+1-13	56-62	Berlin	*	PLACEfrom
+1-14	63-66	den	_	_
+1-15	67-69	12	*[7]	DATEletter[7]
+1-16	70-73	Mai	*[7]	DATEletter[7]
+1-17	74-78	1836	*[7]	DATEletter[7]
+1-18	79-80	.	_	_
+
+#Text=Ich schreibe Ihnen lieber Freund weil ich oft an Sie denke , ohne zur Zeit zu wissen ob es für die heutige Post sei .
+2-1	81-84	Ich	_	_
+2-2	85-93	schreibe	_	_
+2-3	94-99	Ihnen	_	_
+2-4	100-106	lieber	_	_
+2-5	107-113	Freund	_	_
+2-6	114-118	weil	_	_
+2-7	119-122	ich	_	_
+2-8	123-126	oft	_	_
+2-9	127-129	an	_	_
+2-10	130-133	Sie	_	_
+2-11	134-139	denke	_	_
+2-12	140-141	,	_	_
+2-13	142-146	ohne	_	_
+2-14	147-150	zur	_	_
+2-15	151-155	Zeit	_	_
+2-16	156-158	zu	_	_
+2-17	159-165	wissen	_	_
+2-18	166-168	ob	_	_
+2-19	169-171	es	_	_
+2-20	172-175	für	_	_
+2-21	176-179	die	_	_
+2-22	180-187	heutige	_	_
+2-23	188-192	Post	_	_
+2-24	193-196	sei	_	_
+2-25	197-198	.	_	_
+
+#Text=Rößells und meine Depesche an B. gehn erst heute ab \; die meinige wieder etliche Tage alt ohne daß ich etwas daran zu bereuen oder zu ändern wüßte .
+3-1	199-206	Rößells	*	PERmentioned
+3-2	207-210	und	_	_
+3-3	211-216	meine	_	_
+3-4	217-225	Depesche	_	_
+3-5	226-228	an	_	_
+3-6	229-231	B.	_	_
+3-7	232-236	gehn	_	_
+3-8	237-241	erst	_	_
+3-9	242-247	heute	_	_
+3-10	248-250	ab	_	_
+3-11	251-252	\;	_	_
+3-12	253-256	die	_	_
+3-13	257-264	meinige	_	_
+3-14	265-271	wieder	_	_
+3-15	272-279	etliche	_	_
+3-16	280-284	Tage	_	_
+3-17	285-288	alt	_	_
+3-18	289-293	ohne	_	_
+3-19	294-297	daß	_	_
+3-20	298-301	ich	_	_
+3-21	302-307	etwas	_	_
+3-22	308-313	daran	_	_
+3-23	314-316	zu	_	_
+3-24	317-324	bereuen	_	_
+3-25	325-329	oder	_	_
+3-26	330-332	zu	_	_
+3-27	333-339	ändern	_	_
+3-28	340-345	wüßte	_	_
+3-29	346-347	.	_	_
+
+#Text=Kränkung hat sich vermuthlich eingefunden im Verlauf dieser Sache , aber ich habe mir keinen Vorwurf zu machen und will diejenigen die an einem Zweck der ihnen der Beste scheint ihren blinden Eifer setzen ebenfalls damit verschonen .
+4-1	348-356	Kränkung	_	_
+4-2	357-360	hat	_	_
+4-3	361-365	sich	_	_
+4-4	366-377	vermuthlich	_	_
+4-5	378-389	eingefunden	_	_
+4-6	390-392	im	_	_
+4-7	393-400	Verlauf	_	_
+4-8	401-407	dieser	_	_
+4-9	408-413	Sache	_	_
+4-10	414-415	,	_	_
+4-11	416-420	aber	_	_
+4-12	421-424	ich	_	_
+4-13	425-429	habe	_	_
+4-14	430-433	mir	_	_
+4-15	434-440	keinen	_	_
+4-16	441-448	Vorwurf	_	_
+4-17	449-451	zu	_	_
+4-18	452-458	machen	_	_
+4-19	459-462	und	_	_
+4-20	463-467	will	_	_
+4-21	468-478	diejenigen	_	_
+4-22	479-482	die	_	_
+4-23	483-485	an	_	_
+4-24	486-491	einem	_	_
+4-25	492-497	Zweck	_	_
+4-26	498-501	der	_	_
+4-27	502-507	ihnen	_	_
+4-28	508-511	der	_	_
+4-29	512-517	Beste	_	_
+4-30	518-525	scheint	_	_
+4-31	526-531	ihren	_	_
+4-32	532-539	blinden	_	_
+4-33	540-545	Eifer	_	_
+4-34	546-552	setzen	_	_
+4-35	553-562	ebenfalls	_	_
+4-36	563-568	damit	_	_
+4-37	569-579	verschonen	_	_
+4-38	580-581	.	_	_
+
+#Text=Das Bull .
+5-1	582-585	Das	_	_
+5-2	586-590	Bull	_	_
+5-3	591-592	.	_	_
+
+#Text=läßt sich fortwährend nicht vertheilen \; aus buchhändlerischen Gründen , die Gerstäcker an Rößell erörtert hat .
+6-1	593-597	läßt	_	_
+6-2	598-602	sich	_	_
+6-3	603-614	fortwährend	_	_
+6-4	615-620	nicht	_	_
+6-5	621-631	vertheilen	_	_
+6-6	632-633	\;	_	_
+6-7	634-637	aus	_	_
+6-8	638-655	buchhändlerischen	_	_
+6-9	656-663	Gründen	_	_
+6-10	664-665	,	_	_
+6-11	666-669	die	_	_
+6-12	670-680	Gerstäcker	*	PERmentioned
+6-13	681-683	an	_	_
+6-14	684-690	Rößell	*	PERmentioned
+6-15	691-699	erörtert	_	_
+6-16	700-703	hat	_	_
+6-17	704-705	.	_	_
+
+#Text=Für monatliche Vertheilung müßte er mehr Pro Cente begehren \; außerdem giebt es wol kaum ein halb Dutzend Leute in Deutschland es monatlich haben möchten , viel Defekte wegen Blätter würden überdies unvermeidlich sein .
+7-1	706-709	Für	_	_
+7-2	710-720	monatliche	_	_
+7-3	721-732	Vertheilung	_	_
+7-4	733-738	müßte	_	_
+7-5	739-741	er	_	_
+7-6	742-746	mehr	_	_
+7-7	747-750	Pro	_	_
+7-8	751-756	Cente	_	_
+7-9	757-765	begehren	_	_
+7-10	766-767	\;	_	_
+7-11	768-776	außerdem	_	_
+7-12	777-782	giebt	_	_
+7-13	783-785	es	_	_
+7-14	786-789	wol	_	_
+7-15	790-794	kaum	_	_
+7-16	795-798	ein	_	_
+7-17	799-803	halb	_	_
+7-18	804-811	Dutzend	_	_
+7-19	812-817	Leute	_	_
+7-20	818-820	in	_	_
+7-21	821-832	Deutschland	*	PLACEmentioned
+7-22	833-835	es	_	_
+7-23	836-845	monatlich	_	_
+7-24	846-851	haben	_	_
+7-25	852-859	möchten	_	_
+7-26	860-861	,	_	_
+7-27	862-866	viel	_	_
+7-28	867-874	Defekte	_	_
+7-29	875-880	wegen	_	_
+7-30	881-888	Blätter	_	_
+7-31	889-895	würden	_	_
+7-32	896-904	überdies	_	_
+7-33	905-918	unvermeidlich	_	_
+7-34	919-923	sein	_	_
+7-35	924-925	.	_	_
+
+#Text=Die Fügung wird glaube ich Ihnen allerseits sehr willkommen sein \; denn bei näherer Besichtigung kann man ein Bull .
+8-1	926-929	Die	_	_
+8-2	930-936	Fügung	_	_
+8-3	937-941	wird	_	_
+8-4	942-948	glaube	_	_
+8-5	949-952	ich	_	_
+8-6	953-958	Ihnen	_	_
+8-7	959-969	allerseits	_	_
+8-8	970-974	sehr	_	_
+8-9	975-985	willkommen	_	_
+8-10	986-990	sein	_	_
+8-11	991-992	\;	_	_
+8-12	993-997	denn	_	_
+8-13	998-1001	bei	_	_
+8-14	1002-1009	näherer	_	_
+8-15	1010-1022	Besichtigung	_	_
+8-16	1023-1027	kann	_	_
+8-17	1028-1031	man	_	_
+8-18	1032-1035	ein	_	_
+8-19	1036-1040	Bull	_	_
+8-20	1041-1042	.	_	_
+
+#Text=nicht vertheilt wünschen wo pag .
+9-1	1043-1048	nicht	_	_
+9-2	1049-1058	vertheilt	_	_
+9-3	1059-1067	wünschen	_	_
+9-4	1068-1070	wo	_	_
+9-5	1071-1074	pag	_	_
+9-6	1075-1076	.	_	_
+
+#Text=VI vor Pag .
+10-1	1077-1079	VI	_	_
+10-2	1080-1083	vor	_	_
+10-3	1084-1087	Pag	_	_
+10-4	1088-1089	.	_	_
+
+#Text=V. steht , , das Avis p 1 wenig Monate nachher theilweise zurückgenommen werden mußte , Grotehand vorschnell unter die Todten versetzt ist u. Ss .
+11-1	1090-1092	V.	_	_
+11-2	1093-1098	steht	_	_
+11-3	1099-1100	,	_	_
+11-4	1101-1102	,	_	_
+11-5	1103-1106	das	_	_
+11-6	1107-1111	Avis	_	_
+11-7	1112-1113	p	_	_
+11-8	1114-1115	1	_	_
+11-9	1116-1121	wenig	_	_
+11-10	1122-1128	Monate	_	_
+11-11	1129-1136	nachher	_	_
+11-12	1137-1147	theilweise	_	_
+11-13	1148-1162	zurückgenommen	_	_
+11-14	1163-1169	werden	_	_
+11-15	1170-1175	mußte	_	_
+11-16	1176-1177	,	_	_
+11-17	1178-1187	Grotehand	_	_
+11-18	1188-1198	vorschnell	_	_
+11-19	1199-1204	unter	_	_
+11-20	1205-1208	die	_	_
+11-21	1209-1215	Todten	_	_
+11-22	1216-1224	versetzt	_	_
+11-23	1225-1228	ist	_	_
+11-24	1229-1231	u.	_	_
+11-25	1232-1234	Ss	_	_
+11-26	1235-1236	.	_	_
+
+#Text=%
+12-1	1237-1238	%	_	_

@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=188 Gerhard an Braun Berlin , 27. Mai 1845 nat in Neapel , zu Ostern wieder hier .
+1-1	0-3	188	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	27.	*[1]	DATEletter[1]
+1-8	34-37	Mai	*[1]	DATEletter[1]
+1-9	38-42	1845	*[1]	DATEletter[1]
+1-10	43-46	nat	_	_
+1-11	47-49	in	_	_
+1-12	50-56	Neapel	*	PLACEmentioned
+1-13	57-58	,	_	_
+1-14	59-61	zu	_	_
+1-15	62-68	Ostern	_	_
+1-16	69-75	wieder	_	_
+1-17	76-80	hier	_	_
+1-18	81-82	.	_	_
+
+#Text=Falbe hat wiederum um seine Defekte geschrieben , die er nun hier begehrt .
+2-1	83-88	Falbe	*	PERmentioned
+2-2	89-92	hat	_	_
+2-3	93-101	wiederum	_	_
+2-4	102-104	um	_	_
+2-5	105-110	seine	_	_
+2-6	111-118	Defekte	_	_
+2-7	119-130	geschrieben	_	_
+2-8	131-132	,	_	_
+2-9	133-136	die	_	_
+2-10	137-139	er	_	_
+2-11	140-143	nun	_	_
+2-12	144-148	hier	_	_
+2-13	149-156	begehrt	_	_
+2-14	157-158	.	_	_
+
+#Text=Was war ihm in Rom gesagt ?
+3-1	159-162	Was	_	_
+3-2	163-166	war	_	_
+3-3	167-170	ihm	_	_
+3-4	171-173	in	_	_
+3-5	174-177	Rom	*	PLACEmentioned
+3-6	178-184	gesagt	_	_
+3-7	185-186	?	_	_
+
+#Text=ich meine er war an Brockhaus verwiesen ?
+4-1	187-190	ich	_	_
+4-2	191-196	meine	_	_
+4-3	197-199	er	_	_
+4-4	200-203	war	_	_
+4-5	204-206	an	_	_
+4-6	207-216	Brockhaus	*	ORGmentioned
+4-7	217-226	verwiesen	_	_
+4-8	227-228	?	_	_
+
+#Text=Angenehm wenn Leemans nun sein Schriftliches erhalten hat .
+5-1	229-237	Angenehm	_	_
+5-2	238-242	wenn	_	_
+5-3	243-250	Leemans	*	PERmentioned
+5-4	251-254	nun	_	_
+5-5	255-259	sein	_	_
+5-6	260-273	Schriftliches	_	_
+5-7	274-282	erhalten	_	_
+5-8	283-286	hat	_	_
+5-9	287-288	.	_	_
+
+#Text=Man glaubt daß auch Bunsen im Lauf des Sommers hierher komme .
+6-1	289-292	Man	_	_
+6-2	293-299	glaubt	_	_
+6-3	300-303	daß	_	_
+6-4	304-308	auch	_	_
+6-5	309-315	Bunsen	*	PERmentioned
+6-6	316-318	im	_	_
+6-7	319-323	Lauf	_	_
+6-8	324-327	des	_	_
+6-9	328-335	Sommers	_	_
+6-10	336-343	hierher	_	_
+6-11	344-349	komme	_	_
+6-12	350-351	.	_	_
+
+#Text=Weiß Niemand wo die Bullettino 1831 p . 182 Beschriebene Gemme sich jetzt befindet ?
+7-1	352-356	Weiß	_	_
+7-2	357-364	Niemand	_	_
+7-3	365-367	wo	_	_
+7-4	368-371	die	_	_
+7-5	372-382	Bullettino	_	_
+7-6	383-387	1831	*	DATEmentioned
+7-7	388-389	p	_	_
+7-8	390-391	.	_	_
+7-9	392-395	182	_	_
+7-10	396-408	Beschriebene	_	_
+7-11	409-414	Gemme	*	OBJ
+7-12	415-419	sich	_	_
+7-13	420-425	jetzt	_	_
+7-14	426-434	befindet	_	_
+7-15	435-436	?	_	_
+
+#Text=schrieb an Borghesi darum , er Scheint aber meine sotto fascia gesandte Dissertation De re ........ Lem .
+8-1	437-444	schrieb	_	_
+8-2	445-447	an	_	_
+8-3	448-456	Borghesi	*	PERmentioned
+8-4	457-462	darum	_	_
+8-5	463-464	,	_	_
+8-6	465-467	er	_	_
+8-7	468-475	Scheint	_	_
+8-8	476-480	aber	_	_
+8-9	481-486	meine	_	_
+8-10	487-492	sotto	_	_
+8-11	493-499	fascia	_	_
+8-12	500-508	gesandte	_	_
+8-13	509-521	Dissertation	_	_
+8-14	522-524	De	_	_
+8-15	525-527	re	_	_
+8-16	528-536	........	_	_
+8-17	537-540	Lem	_	_
+8-18	541-542	.	_	_
+
+#Text=nicht erhalten zu haben und läßt bei sonstiger Antwort diesen Punkt unerledigt .
+9-1	543-548	nicht	_	_
+9-2	549-557	erhalten	_	_
+9-3	558-560	zu	_	_
+9-4	561-566	haben	_	_
+9-5	567-570	und	_	_
+9-6	571-575	läßt	_	_
+9-7	576-579	bei	_	_
+9-8	580-589	sonstiger	_	_
+9-9	590-597	Antwort	_	_
+9-10	598-604	diesen	_	_
+9-11	605-610	Punkt	_	_
+9-12	611-621	unerledigt	_	_
+9-13	622-623	.	_	_
+
+#Text=Eine Zeichnung sende ich ins französische Heft , wo man an der Geschlechtsangabe kein Ärgernis nimmt , Die Angabe der Defekte meiner Werke erwarte ich also .
+10-1	624-628	Eine	_	_
+10-2	629-638	Zeichnung	_	_
+10-3	639-644	sende	_	_
+10-4	645-648	ich	_	_
+10-5	649-652	ins	_	_
+10-6	653-665	französische	_	_
+10-7	666-670	Heft	_	_
+10-8	671-672	,	_	_
+10-9	673-675	wo	_	_
+10-10	676-679	man	_	_
+10-11	680-682	an	_	_
+10-12	683-686	der	_	_
+10-13	687-704	Geschlechtsangabe	_	_
+10-14	705-709	kein	_	_
+10-15	710-718	Ärgernis	_	_
+10-16	719-724	nimmt	_	_
+10-17	725-726	,	_	_
+10-18	727-730	Die	_	_
+10-19	731-737	Angabe	_	_
+10-20	738-741	der	_	_
+10-21	742-749	Defekte	_	_
+10-22	750-756	meiner	_	_
+10-23	757-762	Werke	_	_
+10-24	763-770	erwarte	_	_
+10-25	771-774	ich	_	_
+10-26	775-779	also	_	_
+10-27	780-781	.	_	_
+
+#Text=Was stellt die französische Vase dar ?
+11-1	782-785	Was	_	_
+11-2	786-792	stellt	_	_
+11-3	793-796	die	_	_
+11-4	797-809	französische	*[2]	OBJ[2]
+11-5	810-814	Vase	*[2]	OBJ[2]
+11-6	815-818	dar	_	_
+11-7	819-820	?	_	_
+
+#Text=Ein Brief von Wiese an Frau von Moli & re schließt sich nicht wchl ein \; ich sende ihn durchs Ministerium .
+12-1	821-824	Ein	_	_
+12-2	825-830	Brief	_	_
+12-3	831-834	von	_	_
+12-4	835-840	Wiese	*	PERmentioned
+12-5	841-843	an	_	_
+12-6	844-848	Frau	*[3]	PERmentioned[3]
+12-7	849-852	von	*[3]	PERmentioned[3]
+12-8	853-857	Moli	*[3]	PERmentioned[3]
+12-9	858-859	&	*[3]	PERmentioned[3]
+12-10	860-862	re	*[3]	PERmentioned[3]
+12-11	863-871	schließt	_	_
+12-12	872-876	sich	_	_
+12-13	877-882	nicht	_	_
+12-14	883-887	wchl	_	_
+12-15	888-891	ein	_	_
+12-16	892-893	\;	_	_
+12-17	894-897	ich	_	_
+12-18	898-903	sende	_	_
+12-19	904-907	ihn	_	_
+12-20	908-914	durchs	_	_
+12-21	915-926	Ministerium	*	ORGmentioned
+12-22	927-928	.	_	_
+
+#Text=Ich weiß nicht ob ich Ihnen schon mein Befremden geäußert habe , daß Sie zur ersten Bewillkommnung wackerer junger Gelehrter all Ihr Pulver von Präconisationen verschießen \; Curtius kann sich auch darüber wundern , be-
+13-1	929-932	Ich	_	_
+13-2	933-937	weiß	_	_
+13-3	938-943	nicht	_	_
+13-4	944-946	ob	_	_
+13-5	947-950	ich	_	_
+13-6	951-956	Ihnen	_	_
+13-7	957-962	schon	_	_
+13-8	963-967	mein	_	_
+13-9	968-977	Befremden	_	_
+13-10	978-986	geäußert	_	_
+13-11	987-991	habe	_	_
+13-12	992-993	,	_	_
+13-13	994-997	daß	_	_
+13-14	998-1001	Sie	_	_
+13-15	1002-1005	zur	_	_
+13-16	1006-1012	ersten	_	_
+13-17	1013-1027	Bewillkommnung	_	_
+13-18	1028-1036	wackerer	_	_
+13-19	1037-1043	junger	_	_
+13-20	1044-1053	Gelehrter	_	_
+13-21	1054-1057	all	_	_
+13-22	1058-1061	Ihr	_	_
+13-23	1062-1068	Pulver	_	_
+13-24	1069-1072	von	_	_
+13-25	1073-1088	Präconisationen	_	_
+13-26	1089-1100	verschießen	_	_
+13-27	1101-1102	\;	_	_
+13-28	1103-1110	Curtius	*	PERmentioned
+13-29	1111-1115	kann	_	_
+13-30	1116-1120	sich	_	_
+13-31	1121-1125	auch	_	_
+13-32	1126-1133	darüber	_	_
+13-33	1134-1141	wundern	_	_
+13-34	1142-1143	,	_	_
+13-35	1144-1147	be-	_	_

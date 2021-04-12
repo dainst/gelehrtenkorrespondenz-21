@@ -1,0 +1,230 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 2. April 1838 Dr. Braun g . 16/4 38 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	2.	*[5]	DATEletter[5]
+1-7	29-34	April	*[5]	DATEletter[5]
+1-8	35-39	1838	*[5]	DATEletter[5]
+1-9	40-43	Dr.	_	_
+1-10	44-49	Braun	*	PERaddressee
+1-11	50-51	g	_	_
+1-12	52-53	.	_	_
+1-13	54-58	16/4	*[6]	DATErecieved[6]
+1-14	59-61	38	*[6]	DATErecieved[6]
+1-15	62-65	Aff	_	_
+1-16	66-67	.	_	_
+
+#Text=d . Dir .
+2-1	68-69	d	_	_
+2-2	70-71	.	_	_
+2-3	72-75	Dir	_	_
+2-4	76-77	.	_	_
+
+#Text=CLIX r . 17/4 38 Berlin 2 April 38 Mein theurer Freund .
+3-1	78-82	CLIX	_	_
+3-2	83-84	r	_	_
+3-3	85-86	.	_	_
+3-4	87-91	17/4	*[7]	DATEanswered[7]
+3-5	92-94	38	*[7]	DATEanswered[7]
+3-6	95-101	Berlin	*	PLACEfrom
+3-7	102-103	2	_	_
+3-8	104-109	April	*[9]	DATEletter[9]
+3-9	110-112	38	*[9]	DATEletter[9]
+3-10	113-117	Mein	_	_
+3-11	118-125	theurer	_	_
+3-12	126-132	Freund	_	_
+3-13	133-134	.	_	_
+
+#Text=Meinen Kisten gute Reise und Ihrem thätigen Beistand den herzlichsten Dank !
+4-1	135-141	Meinen	_	_
+4-2	142-148	Kisten	_	_
+4-3	149-153	gute	_	_
+4-4	154-159	Reise	_	_
+4-5	160-163	und	_	_
+4-6	164-169	Ihrem	_	_
+4-7	170-178	thätigen	_	_
+4-8	179-187	Beistand	_	_
+4-9	188-191	den	_	_
+4-10	192-204	herzlichsten	_	_
+4-11	205-209	Dank	_	_
+4-12	210-211	!	_	_
+
+#Text=Ich erfahre nicht was darin sei oder zurückgeblieben sei \; wirklich allen erheblichen Antikenbesitz den ich zurückließ in den 2 Kisten vorzufinden wage ich kaum mir zu schmeicheln , Sollte dennoch Erhebliches rückständig sein , so bitte ich bald mir selbiges zu specificiren .
+5-1	212-215	Ich	_	_
+5-2	216-223	erfahre	_	_
+5-3	224-229	nicht	_	_
+5-4	230-233	was	_	_
+5-5	234-239	darin	_	_
+5-6	240-243	sei	_	_
+5-7	244-248	oder	_	_
+5-8	249-264	zurückgeblieben	_	_
+5-9	265-268	sei	_	_
+5-10	269-270	\;	_	_
+5-11	271-279	wirklich	_	_
+5-12	280-285	allen	_	_
+5-13	286-297	erheblichen	_	_
+5-14	298-311	Antikenbesitz	_	_
+5-15	312-315	den	_	_
+5-16	316-319	ich	_	_
+5-17	320-330	zurückließ	_	_
+5-18	331-333	in	_	_
+5-19	334-337	den	_	_
+5-20	338-339	2	_	_
+5-21	340-346	Kisten	_	_
+5-22	347-358	vorzufinden	_	_
+5-23	359-363	wage	_	_
+5-24	364-367	ich	_	_
+5-25	368-372	kaum	_	_
+5-26	373-376	mir	_	_
+5-27	377-379	zu	_	_
+5-28	380-391	schmeicheln	_	_
+5-29	392-393	,	_	_
+5-30	394-400	Sollte	_	_
+5-31	401-408	dennoch	_	_
+5-32	409-420	Erhebliches	_	_
+5-33	421-432	rückständig	_	_
+5-34	433-437	sein	_	_
+5-35	438-439	,	_	_
+5-36	440-442	so	_	_
+5-37	443-448	bitte	_	_
+5-38	449-452	ich	_	_
+5-39	453-457	bald	_	_
+5-40	458-461	mir	_	_
+5-41	462-470	selbiges	_	_
+5-42	471-473	zu	_	_
+5-43	474-486	specificiren	_	_
+5-44	487-488	.	_	_
+
+#Text=- Daß die Kyknosvase vollständiger wird , freut mich sehr .
+6-1	489-490	-	_	_
+6-2	491-494	Daß	_	_
+6-3	495-498	die	_	_
+6-4	499-509	Kyknosvase	*	OBJ
+6-5	510-523	vollständiger	_	_
+6-6	524-528	wird	_	_
+6-7	529-530	,	_	_
+6-8	531-536	freut	_	_
+6-9	537-541	mich	_	_
+6-10	542-546	sehr	_	_
+6-11	547-548	.	_	_
+
+#Text=Apolloni wird also schicken !
+7-1	549-557	Apolloni	*	PERmentioned
+7-2	558-562	wird	_	_
+7-3	563-567	also	_	_
+7-4	568-576	schicken	_	_
+7-5	577-578	!	_	_
+
+#Text=Ich hatte in der That lediglich auf eine Durchzeichnung der Cistaform aus dem Museo Kircher gehofft , darauf aber gerechnet .
+8-1	579-582	Ich	_	_
+8-2	583-588	hatte	_	_
+8-3	589-591	in	_	_
+8-4	592-595	der	_	_
+8-5	596-600	That	_	_
+8-6	601-610	lediglich	_	_
+8-7	611-614	auf	_	_
+8-8	615-619	eine	_	_
+8-9	620-634	Durchzeichnung	_	_
+8-10	635-638	der	_	_
+8-11	639-648	Cistaform	*	OBJ
+8-12	649-652	aus	_	_
+8-13	653-656	dem	_	_
+8-14	657-662	Museo	*[13]	ORGmentioned[13]
+8-15	663-670	Kircher	*[13]	ORGmentioned[13]
+8-16	671-678	gehofft	_	_
+8-17	679-680	,	_	_
+8-18	681-687	darauf	_	_
+8-19	688-692	aber	_	_
+8-20	693-702	gerechnet	_	_
+8-21	703-704	.	_	_
+
+#Text=Daß Savigny an Ritschl nicht geantwortet hat ist nicht zu loben - nach Italien schickt man des Portos wegen nicht leicht Briefe -— \; Ritschl selbst aber ist unbegreiflich saumselig , schweigsam auf manchen Mahnbrief wegen Ihres Bildergeschäfts , das Sie von Anfang an lieber mir hätten überweisen sollen - es wäre längst erledist .
+9-1	705-708	Daß	_	_
+9-2	709-716	Savigny	*	PERmentioned
+9-3	717-719	an	_	_
+9-4	720-727	Ritschl	*	PERmentioned
+9-5	728-733	nicht	_	_
+9-6	734-745	geantwortet	_	_
+9-7	746-749	hat	_	_
+9-8	750-753	ist	_	_
+9-9	754-759	nicht	_	_
+9-10	760-762	zu	_	_
+9-11	763-768	loben	_	_
+9-12	769-770	-	_	_
+9-13	771-775	nach	_	_
+9-14	776-783	Italien	*	PLACEmentioned
+9-15	784-791	schickt	_	_
+9-16	792-795	man	_	_
+9-17	796-799	des	_	_
+9-18	800-806	Portos	_	_
+9-19	807-812	wegen	_	_
+9-20	813-818	nicht	_	_
+9-21	819-825	leicht	_	_
+9-22	826-832	Briefe	_	_
+9-23	833-835	-—	_	_
+9-24	836-837	\;	_	_
+9-25	838-845	Ritschl	*	PERmentioned
+9-26	846-852	selbst	_	_
+9-27	853-857	aber	_	_
+9-28	858-861	ist	_	_
+9-29	862-875	unbegreiflich	_	_
+9-30	876-885	saumselig	_	_
+9-31	886-887	,	_	_
+9-32	888-898	schweigsam	_	_
+9-33	899-902	auf	_	_
+9-34	903-910	manchen	_	_
+9-35	911-920	Mahnbrief	_	_
+9-36	921-926	wegen	_	_
+9-37	927-932	Ihres	_	_
+9-38	933-948	Bildergeschäfts	_	_
+9-39	949-950	,	_	_
+9-40	951-954	das	_	_
+9-41	955-958	Sie	_	_
+9-42	959-962	von	_	_
+9-43	963-969	Anfang	_	_
+9-44	970-972	an	_	_
+9-45	973-979	lieber	_	_
+9-46	980-983	mir	_	_
+9-47	984-990	hätten	_	_
+9-48	991-1001	überweisen	_	_
+9-49	1002-1008	sollen	_	_
+9-50	1009-1010	-	_	_
+9-51	1011-1013	es	_	_
+9-52	1014-1018	wäre	_	_
+9-53	1019-1025	längst	_	_
+9-54	1026-1034	erledist	_	_
+9-55	1035-1036	.	_	_
+
+#Text=Gerstäcker ist sehr mürrisch über Institutssachen \; möge bald ein beruhigender Brief kommen mit seiner Quittung .
+10-1	1037-1047	Gerstäcker	*	PERmentioned
+10-2	1048-1051	ist	_	_
+10-3	1052-1056	sehr	_	_
+10-4	1057-1065	mürrisch	_	_
+10-5	1066-1070	über	_	_
+10-6	1071-1086	Institutssachen	_	_
+10-7	1087-1088	\;	_	_
+10-8	1089-1093	möge	_	_
+10-9	1094-1098	bald	_	_
+10-10	1099-1102	ein	_	_
+10-11	1103-1115	beruhigender	_	_
+10-12	1116-1121	Brief	_	_
+10-13	1122-1128	kommen	_	_
+10-14	1129-1132	mit	_	_
+10-15	1133-1139	seiner	_	_
+10-16	1140-1148	Quittung	_	_
+10-17	1149-1150	.	_	_
+
+#Text=Er versichert seit 2 Jahren keinen Brief
+11-1	1151-1153	Er	_	_
+11-2	1154-1164	versichert	_	_
+11-3	1165-1169	seit	_	_
+11-4	1170-1171	2	_	_
+11-5	1172-1178	Jahren	_	_
+11-6	1179-1185	keinen	_	_
+11-7	1186-1191	Brief	_	_

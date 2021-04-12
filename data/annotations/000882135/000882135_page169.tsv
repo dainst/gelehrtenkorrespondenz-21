@@ -1,0 +1,181 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=213 Braun an Gerhard Gotha , 30 .
+1-1	0-3	213	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Gotha	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	30	*[6]	DATEletter[6]
+1-8	32-33	.	*[6]	DATEletter[6]
+
+#Text=August 1839 Sig .
+2-1	34-40	August	*[6]	DATEletter[6]
+2-2	41-45	1839	*[6]	DATEletter[6]
+2-3	46-49	Sig	_	_
+2-4	50-51	.	_	_
+
+#Text=Cav .
+3-1	52-55	Cav	_	_
+3-2	56-57	.	_	_
+
+#Text=Gerhard Berlino .
+4-1	58-65	Gerhard	*	PERaddressee
+4-2	66-73	Berlino	*	PLACEto
+4-3	74-75	.	_	_
+
+#Text=Gotha li 30 Agosto 1839 Es hat mir unendlich leid gethan hier Ihre Spuren so nah vor meiner Ankunft zu treffen .
+5-1	76-81	Gotha	*	PLACEfrom
+5-2	82-84	li	_	_
+5-3	85-87	30	*[8]	DATEletter[8]
+5-4	88-94	Agosto	*[8]	DATEletter[8]
+5-5	95-99	1839	*[8]	DATEletter[8]
+5-6	100-102	Es	_	_
+5-7	103-106	hat	_	_
+5-8	107-110	mir	_	_
+5-9	111-120	unendlich	_	_
+5-10	121-125	leid	_	_
+5-11	126-132	gethan	_	_
+5-12	133-137	hier	_	_
+5-13	138-142	Ihre	_	_
+5-14	143-149	Spuren	_	_
+5-15	150-152	so	_	_
+5-16	153-156	nah	_	_
+5-17	157-160	vor	_	_
+5-18	161-167	meiner	_	_
+5-19	168-175	Ankunft	_	_
+5-20	176-178	zu	_	_
+5-21	179-186	treffen	_	_
+5-22	187-188	.	_	_
+
+#Text=Donnerstag waren Sie hier vorbeigekommen \; Sonnabends traf ich ein .
+6-1	189-199	Donnerstag	*	DATEmentioned
+6-2	200-205	waren	_	_
+6-3	206-209	Sie	_	_
+6-4	210-214	hier	_	_
+6-5	215-229	vorbeigekommen	_	_
+6-6	230-231	\;	_	_
+6-7	232-242	Sonnabends	_	_
+6-8	243-247	traf	_	_
+6-9	248-251	ich	_	_
+6-10	252-255	ein	_	_
+6-11	256-257	.	_	_
+
+#Text=Da ich Montags nicht von München abreisen konnte , so mußte ich von Nürnberg aus mit Miethkutschern weiter gehen .
+7-1	258-260	Da	_	_
+7-2	261-264	ich	_	_
+7-3	265-272	Montags	_	_
+7-4	273-278	nicht	_	_
+7-5	279-282	von	_	_
+7-6	283-290	München	*	PLACEmentioned
+7-7	291-299	abreisen	_	_
+7-8	300-306	konnte	_	_
+7-9	307-308	,	_	_
+7-10	309-311	so	_	_
+7-11	312-317	mußte	_	_
+7-12	318-321	ich	_	_
+7-13	322-325	von	_	_
+7-14	326-334	Nürnberg	*	PLACEmentioned
+7-15	335-338	aus	_	_
+7-16	339-342	mit	_	_
+7-17	343-357	Miethkutschern	_	_
+7-18	358-364	weiter	_	_
+7-19	365-370	gehen	_	_
+7-20	371-372	.	_	_
+
+#Text=Nach Ihren Ansagen konnte ich auf ein solches inpromtu durchaus nicht rechnen .
+8-1	373-377	Nach	_	_
+8-2	378-383	Ihren	_	_
+8-3	384-391	Ansagen	_	_
+8-4	392-398	konnte	_	_
+8-5	399-402	ich	_	_
+8-6	403-406	auf	_	_
+8-7	407-410	ein	_	_
+8-8	411-418	solches	_	_
+8-9	419-427	inpromtu	_	_
+8-10	428-436	durchaus	_	_
+8-11	437-442	nicht	_	_
+8-12	443-450	rechnen	_	_
+8-13	451-452	.	_	_
+
+#Text=\| Vom 5 September an bin ich zu Ihrer Disposition .
+9-1	453-454	\|	_	_
+9-2	455-458	Vom	_	_
+9-3	459-460	5	*[12]	DATEmentioned[12]
+9-4	461-470	September	*[12]	DATEmentioned[12]
+9-5	471-473	an	_	_
+9-6	474-477	bin	_	_
+9-7	478-481	ich	_	_
+9-8	482-484	zu	_	_
+9-9	485-490	Ihrer	_	_
+9-10	491-502	Disposition	_	_
+9-11	503-504	.	_	_
+
+#Text=Schreiben Sie mir hierüber umgehends , rechnen Sie aber darauf daß ich Tag und Nacht fahren muß , um bei Ihnen in Dresden einzutreffen .
+10-1	505-514	Schreiben	_	_
+10-2	515-518	Sie	_	_
+10-3	519-522	mir	_	_
+10-4	523-531	hierüber	_	_
+10-5	532-541	umgehends	_	_
+10-6	542-543	,	_	_
+10-7	544-551	rechnen	_	_
+10-8	552-555	Sie	_	_
+10-9	556-560	aber	_	_
+10-10	561-567	darauf	_	_
+10-11	568-571	daß	_	_
+10-12	572-575	ich	_	_
+10-13	576-579	Tag	_	_
+10-14	580-583	und	_	_
+10-15	584-589	Nacht	_	_
+10-16	590-596	fahren	_	_
+10-17	597-600	muß	_	_
+10-18	601-602	,	_	_
+10-19	603-605	um	_	_
+10-20	606-609	bei	_	_
+10-21	610-615	Ihnen	_	_
+10-22	616-618	in	_	_
+10-23	619-626	Dresden	*	PLACEmentioned
+10-24	627-639	einzutreffen	_	_
+10-25	640-641	.	_	_
+
+#Text=Haben Sie mein Paquet von München erhalten ?
+11-1	642-647	Haben	_	_
+11-2	648-651	Sie	_	_
+11-3	652-656	mein	_	_
+11-4	657-663	Paquet	_	_
+11-5	664-667	von	_	_
+11-6	668-675	München	*	PLACEmentioned
+11-7	676-684	erhalten	_	_
+11-8	685-686	?	_	_
+
+#Text=Unbegreiflich daß ich von Abeken seit Ende Juli durchaus keine Briefe mehr erhalten habe .
+12-1	687-700	Unbegreiflich	_	_
+12-2	701-704	daß	_	_
+12-3	705-708	ich	_	_
+12-4	709-712	von	_	_
+12-5	713-719	Abeken	*	PERmentioned
+12-6	720-724	seit	_	_
+12-7	725-729	Ende	_	_
+12-8	730-734	Juli	*	DATEmentioned
+12-9	735-743	durchaus	_	_
+12-10	744-749	keine	_	_
+12-11	750-756	Briefe	_	_
+12-12	757-761	mehr	_	_
+12-13	762-770	erhalten	_	_
+12-14	771-775	habe	_	_
+12-15	776-777	.	_	_
+
+#Text=Alles andere mündlich .
+13-1	778-783	Alles	_	_
+13-2	784-790	andere	_	_
+13-3	791-799	mündlich	_	_
+13-4	800-801	.	_	_
+
+#Text=Gottbefohlen Ihr EBraun .
+14-1	802-814	Gottbefohlen	_	_
+14-2	815-818	Ihr	_	_
+14-3	819-825	EBraun	*	PERauthor
+14-4	826-827	.	_	_

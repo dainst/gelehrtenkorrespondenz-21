@@ -1,0 +1,178 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=390 Lepsius an Henzen Berlin , 23. Juni 1877 26/6 77 Berlin , den 23. Juni 1877 Verehrter Freund Ich werde so eben vom Auswärtigen Amte benachrichtigt , daß es dem Vorschlage des Botschafters beistimmt , daß Herr/Ir .
+1-1	0-3	390	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	23.	*[1]	DATEletter[1]
+1-8	35-39	Juni	*[1]	DATEletter[1]
+1-9	40-44	1877	*[1]	DATEletter[1]
+1-10	45-49	26/6	*[2]	DATErecieved[2]
+1-11	50-52	77	*[2]	DATErecieved[2]
+1-12	53-59	Berlin	*	PLACEfrom
+1-13	60-61	,	_	_
+1-14	62-65	den	_	_
+1-15	66-69	23.	*[3]	DATEletter[3]
+1-16	70-74	Juni	*[3]	DATEletter[3]
+1-17	75-79	1877	*[3]	DATEletter[3]
+1-18	80-89	Verehrter	_	_
+1-19	90-96	Freund	_	_
+1-20	97-100	Ich	_	_
+1-21	101-106	werde	_	_
+1-22	107-109	so	_	_
+1-23	110-114	eben	_	_
+1-24	115-118	vom	_	_
+1-25	119-130	Auswärtigen	*[4]	ORGmentioned[4]
+1-26	131-135	Amte	*[4]	ORGmentioned[4]
+1-27	136-150	benachrichtigt	_	_
+1-28	151-152	,	_	_
+1-29	153-156	daß	_	_
+1-30	157-159	es	_	_
+1-31	160-163	dem	_	_
+1-32	164-174	Vorschlage	_	_
+1-33	175-178	des	_	_
+1-34	179-191	Botschafters	_	_
+1-35	192-201	beistimmt	_	_
+1-36	202-203	,	_	_
+1-37	204-207	daß	_	_
+1-38	208-215	Herr/Ir	_	_
+1-39	216-217	.	_	_
+
+#Text=Rlügmann der 3 .
+2-1	218-226	Rlügmann	*	PERmentioned
+2-2	227-230	der	_	_
+2-3	231-232	3	_	_
+2-4	233-234	.	_	_
+
+#Text=Stock im Umbau der Casa Tarpea miethsweise überlassen werde .
+3-1	235-240	Stock	_	_
+3-2	241-243	im	_	_
+3-3	244-249	Umbau	_	_
+3-4	250-253	der	_	_
+3-5	254-258	Casa	*[5]	PLACEmentioned[5]
+3-6	259-265	Tarpea	*[5]	PLACEmentioned[5]
+3-7	266-277	miethsweise	_	_
+3-8	278-288	überlassen	_	_
+3-9	289-294	werde	_	_
+3-10	295-296	.	_	_
+
+#Text=Dies wäre also in Ordnung .
+4-1	297-301	Dies	_	_
+4-2	302-306	wäre	_	_
+4-3	307-311	also	_	_
+4-4	312-314	in	_	_
+4-5	315-322	Ordnung	_	_
+4-6	323-324	.	_	_
+
+#Text=Seit 8 Tagen laboriren wir an der Unmöglichkeit eine vollständige Sitzung zu Stande zu bringen , und ich weiß nocht nicht wann dies möglich sein wird , um die andern Angelegenheiten von wichtig @ kti zu besprechen , von denen ich Ihnen dann alsbald Nachricht geben werde .
+5-1	325-329	Seit	_	_
+5-2	330-331	8	_	_
+5-3	332-337	Tagen	_	_
+5-4	338-347	laboriren	_	_
+5-5	348-351	wir	_	_
+5-6	352-354	an	_	_
+5-7	355-358	der	_	_
+5-8	359-372	Unmöglichkeit	_	_
+5-9	373-377	eine	_	_
+5-10	378-390	vollständige	_	_
+5-11	391-398	Sitzung	_	_
+5-12	399-401	zu	_	_
+5-13	402-408	Stande	_	_
+5-14	409-411	zu	_	_
+5-15	412-419	bringen	_	_
+5-16	420-421	,	_	_
+5-17	422-425	und	_	_
+5-18	426-429	ich	_	_
+5-19	430-434	weiß	_	_
+5-20	435-440	nocht	_	_
+5-21	441-446	nicht	_	_
+5-22	447-451	wann	_	_
+5-23	452-456	dies	_	_
+5-24	457-464	möglich	_	_
+5-25	465-469	sein	_	_
+5-26	470-474	wird	_	_
+5-27	475-476	,	_	_
+5-28	477-479	um	_	_
+5-29	480-483	die	_	_
+5-30	484-490	andern	_	_
+5-31	491-506	Angelegenheiten	_	_
+5-32	507-510	von	_	_
+5-33	511-518	wichtig	_	_
+5-34	519-520	@	_	_
+5-35	521-524	kti	_	_
+5-36	525-527	zu	_	_
+5-37	528-538	besprechen	_	_
+5-38	539-540	,	_	_
+5-39	541-544	von	_	_
+5-40	545-550	denen	_	_
+5-41	551-554	ich	_	_
+5-42	555-560	Ihnen	_	_
+5-43	561-565	dann	_	_
+5-44	566-573	alsbald	_	_
+5-45	574-583	Nachricht	_	_
+5-46	584-589	geben	_	_
+5-47	590-595	werde	_	_
+5-48	596-597	.	_	_
+
+#Text=Wir werden ohne Zweifel der Proposition zustimmen , mit dem Gärtner Köhler einen Versuch anstellen zu lassen , über den Sie dan/entscheiden werden .
+6-1	598-601	Wir	_	_
+6-2	602-608	werden	_	_
+6-3	609-613	ohne	_	_
+6-4	614-621	Zweifel	_	_
+6-5	622-625	der	_	_
+6-6	626-637	Proposition	_	_
+6-7	638-647	zustimmen	_	_
+6-8	648-649	,	_	_
+6-9	650-653	mit	_	_
+6-10	654-657	dem	_	_
+6-11	658-665	Gärtner	_	_
+6-12	666-672	Köhler	*	PERmentioned
+6-13	673-678	einen	_	_
+6-14	679-686	Versuch	_	_
+6-15	687-696	anstellen	_	_
+6-16	697-699	zu	_	_
+6-17	700-706	lassen	_	_
+6-18	707-708	,	_	_
+6-19	709-713	über	_	_
+6-20	714-717	den	_	_
+6-21	718-721	Sie	_	_
+6-22	722-737	dan/entscheiden	_	_
+6-23	738-744	werden	_	_
+6-24	745-746	.	_	_
+
+#Text=Mir scheint die Hauptsache zu sein , ob er im Stande sein wird das ganze Rechnungswesen Ihnen abzunehmen und in Ordnung zu halten .
+7-1	747-750	Mir	_	_
+7-2	751-758	scheint	_	_
+7-3	759-762	die	_	_
+7-4	763-773	Hauptsache	_	_
+7-5	774-776	zu	_	_
+7-6	777-781	sein	_	_
+7-7	782-783	,	_	_
+7-8	784-786	ob	_	_
+7-9	787-789	er	_	_
+7-10	790-792	im	_	_
+7-11	793-799	Stande	_	_
+7-12	800-804	sein	_	_
+7-13	805-809	wird	_	_
+7-14	810-813	das	_	_
+7-15	814-819	ganze	_	_
+7-16	820-834	Rechnungswesen	_	_
+7-17	835-840	Ihnen	_	_
+7-18	841-851	abzunehmen	_	_
+7-19	852-855	und	_	_
+7-20	856-858	in	_	_
+7-21	859-866	Ordnung	_	_
+7-22	867-869	zu	_	_
+7-23	870-876	halten	_	_
+7-24	877-878	.	_	_
+
+#Text=Der Ihrige R Lepsius
+8-1	879-882	Der	_	_
+8-2	883-889	Ihrige	_	_
+8-3	890-891	R	*[6]	PERauthor[6]
+8-4	892-899	Lepsius	*[6]	PERauthor[6]

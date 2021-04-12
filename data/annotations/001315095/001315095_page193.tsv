@@ -1,0 +1,215 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ED Mommsen an Brunn Charlottenburg 15. Dezember 1890 Lieber Freund , Hier ist für die Conferenz alles geordnet , ich bin an der Akademie gewählt , sonst kommen von Consrgynski ( Gem .
+1-1	0-2	ED	_	_
+1-2	3-10	Mommsen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Brunn	*	PERaddressee
+1-5	20-34	Charlottenburg	*	PLACEfrom
+1-6	35-38	15.	*[1]	DATEletter[1]
+1-7	39-47	Dezember	*[1]	DATEletter[1]
+1-8	48-52	1890	*[1]	DATEletter[1]
+1-9	53-59	Lieber	_	_
+1-10	60-66	Freund	_	_
+1-11	67-68	,	_	_
+1-12	69-73	Hier	_	_
+1-13	74-77	ist	_	_
+1-14	78-81	für	_	_
+1-15	82-85	die	_	_
+1-16	86-95	Conferenz	_	_
+1-17	96-101	alles	_	_
+1-18	102-110	geordnet	_	_
+1-19	111-112	,	_	_
+1-20	113-116	ich	_	_
+1-21	117-120	bin	_	_
+1-22	121-123	an	_	_
+1-23	124-127	der	_	_
+1-24	128-136	Akademie	*	ORGmentioned
+1-25	137-144	gewählt	_	_
+1-26	145-146	,	_	_
+1-27	147-152	sonst	_	_
+1-28	153-159	kommen	_	_
+1-29	160-163	von	_	_
+1-30	164-175	Consrgynski	*	PERmentioned
+1-31	176-177	(	_	_
+1-32	178-181	Gem	_	_
+1-33	182-183	.	_	_
+
+#Text=Stab ) und Nissen aus Bonn .
+2-1	184-188	Stab	_	_
+2-2	189-190	)	_	_
+2-3	191-194	und	_	_
+2-4	195-201	Nissen	*	PERmentioned
+2-5	202-205	aus	_	_
+2-6	206-210	Bonn	*	PLACEmentioned
+2-7	211-212	.	_	_
+
+#Text=Die Aufforderungen an die vier süddeutschen Regierungen sind aus unserem Minist .
+3-1	213-216	Die	_	_
+3-2	217-231	Aufforderungen	_	_
+3-3	232-234	an	_	_
+3-4	235-238	die	_	_
+3-5	239-243	vier	_	_
+3-6	244-256	süddeutschen	_	_
+3-7	257-268	Regierungen	_	_
+3-8	269-273	sind	_	_
+3-9	274-277	aus	_	_
+3-10	278-285	unserem	_	_
+3-11	286-292	Minist	*	ORGmentioned
+3-12	293-294	.	*[2]	DATEmentioned[2]
+
+#Text=am © .
+4-1	295-297	am	_	_
+4-2	298-299	©	_	_
+4-3	300-301	.	_	_
+
+#Text=an das Auswärtige Amt gegangen und hoffentlich jetzt in München , wenn die Diplomaten=Briefträgerei die Dinge nicht verschleppt .
+5-1	302-304	an	_	_
+5-2	305-308	das	_	_
+5-3	309-319	Auswärtige	*[3]	ORGmentioned[3]
+5-4	320-323	Amt	*[3]	ORGmentioned[3]
+5-5	324-332	gegangen	_	_
+5-6	333-336	und	_	_
+5-7	337-348	hoffentlich	_	_
+5-8	349-354	jetzt	_	_
+5-9	355-357	in	_	_
+5-10	358-365	München	*	PLACEmentioned
+5-11	366-367	,	_	_
+5-12	368-372	wenn	_	_
+5-13	373-376	die	_	_
+5-14	377-401	Diplomaten=Briefträgerei	_	_
+5-15	402-405	die	_	_
+5-16	406-411	Dinge	_	_
+5-17	412-417	nicht	_	_
+5-18	418-429	verschleppt	_	_
+5-19	430-431	.	_	_
+
+#Text=Ich soll Dich speciell bitten die Wahl der Münchner Akademie rechtzeitig zu bewirken \; sollte sie die officielle Aufforderung noch nicht haben , so wirst Du schon bewirken können , daß sie vorher eventuell wählt .
+6-1	432-435	Ich	_	_
+6-2	436-440	soll	_	_
+6-3	441-445	Dich	_	_
+6-4	446-454	speciell	_	_
+6-5	455-461	bitten	_	_
+6-6	462-465	die	_	_
+6-7	466-470	Wahl	_	_
+6-8	471-474	der	_	_
+6-9	475-483	Münchner	*[4]	ORGmentioned[4]
+6-10	484-492	Akademie	*[4]	ORGmentioned[4]
+6-11	493-504	rechtzeitig	_	_
+6-12	505-507	zu	_	_
+6-13	508-516	bewirken	_	_
+6-14	517-518	\;	_	_
+6-15	519-525	sollte	_	_
+6-16	526-529	sie	_	_
+6-17	530-533	die	_	_
+6-18	534-544	officielle	_	_
+6-19	545-557	Aufforderung	_	_
+6-20	558-562	noch	_	_
+6-21	563-568	nicht	_	_
+6-22	569-574	haben	_	_
+6-23	575-576	,	_	_
+6-24	577-579	so	_	_
+6-25	580-585	wirst	_	_
+6-26	586-588	Du	_	_
+6-27	589-594	schon	_	_
+6-28	595-603	bewirken	_	_
+6-29	604-610	können	_	_
+6-30	611-612	,	_	_
+6-31	613-616	daß	_	_
+6-32	617-620	sie	_	_
+6-33	621-627	vorher	_	_
+6-34	628-637	eventuell	_	_
+6-35	638-643	wählt	_	_
+6-36	644-645	.	_	_
+
+#Text=Es ist m.E , sehr in unserem Interesse die Sache jetzt abzustoßen \; die Winterreise ist nicht besonders lockend , aber weniger als wenn .
+7-1	646-648	Es	_	_
+7-2	649-652	ist	_	_
+7-3	653-656	m.E	_	_
+7-4	657-658	,	_	_
+7-5	659-663	sehr	_	_
+7-6	664-666	in	_	_
+7-7	667-674	unserem	_	_
+7-8	675-684	Interesse	_	_
+7-9	685-688	die	_	_
+7-10	689-694	Sache	_	_
+7-11	695-700	jetzt	_	_
+7-12	701-711	abzustoßen	_	_
+7-13	712-713	\;	_	_
+7-14	714-717	die	_	_
+7-15	718-729	Winterreise	_	_
+7-16	730-733	ist	_	_
+7-17	734-739	nicht	_	_
+7-18	740-749	besonders	_	_
+7-19	750-757	lockend	_	_
+7-20	758-759	,	_	_
+7-21	760-764	aber	_	_
+7-22	765-772	weniger	_	_
+7-23	773-776	als	_	_
+7-24	777-781	wenn	_	_
+7-25	782-783	.	_	_
+
+#Text=wir später zusammenkommen müßten , Mit bestem Gruß auch von meiner Frau an Dich und die Deinigen .
+8-1	784-787	wir	_	_
+8-2	788-794	später	_	_
+8-3	795-809	zusammenkommen	_	_
+8-4	810-816	müßten	_	_
+8-5	817-818	,	_	_
+8-6	819-822	Mit	_	_
+8-7	823-829	bestem	_	_
+8-8	830-834	Gruß	_	_
+8-9	835-839	auch	_	_
+8-10	840-843	von	_	_
+8-11	844-850	meiner	*[5]	PERmentioned[5]
+8-12	851-855	Frau	*[5]	PERmentioned[5]
+8-13	856-858	an	_	_
+8-14	859-863	Dich	_	_
+8-15	864-867	und	_	_
+8-16	868-871	die	_	_
+8-17	872-880	Deinigen	_	_
+8-18	881-882	.	*	PERauthor
+
+#Text=Ch . 15/12 90 Du kannst Dir von Pgpe meinen Band : Vorklingelei zeigen lassen \; ich habe kein Exemplar disponibel .
+9-1	883-885	Ch	*	PLACEfrom
+9-2	886-887	.	_	_
+9-3	888-893	15/12	*[6]	DATEletter[6]
+9-4	894-896	90	*[6]	DATEletter[6]
+9-5	897-899	Du	_	_
+9-6	900-906	kannst	_	_
+9-7	907-910	Dir	_	_
+9-8	911-914	von	_	_
+9-9	915-919	Pgpe	*	PERmentioned
+9-10	920-926	meinen	_	_
+9-11	927-931	Band	_	_
+9-12	932-933	:	_	_
+9-13	934-946	Vorklingelei	_	_
+9-14	947-953	zeigen	_	_
+9-15	954-960	lassen	_	_
+9-16	961-962	\;	_	_
+9-17	963-966	ich	_	_
+9-18	967-971	habe	_	_
+9-19	972-976	kein	_	_
+9-20	977-985	Exemplar	_	_
+9-21	986-996	disponibel	_	_
+9-22	997-998	.	_	_
+
+#Text=Hoffentlich wirst Du auch finden , daß es zweckmäßig war schon jetzt die Sache zu insceniren .
+10-1	999-1010	Hoffentlich	_	_
+10-2	1011-1016	wirst	_	_
+10-3	1017-1019	Du	_	_
+10-4	1020-1024	auch	_	_
+10-5	1025-1031	finden	_	_
+10-6	1032-1033	,	_	_
+10-7	1034-1037	daß	_	_
+10-8	1038-1040	es	_	_
+10-9	1041-1051	zweckmäßig	_	_
+10-10	1052-1055	war	_	_
+10-11	1056-1061	schon	_	_
+10-12	1062-1067	jetzt	_	_
+10-13	1068-1071	die	_	_
+10-14	1072-1077	Sache	_	_
+10-15	1078-1080	zu	_	_
+10-16	1081-1091	insceniren	_	_
+10-17	1092-1093	.	_	_

@@ -1,0 +1,33 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gas hasel London , 22 .
+1-1	0-6	Bunsen	*	PERauthor	
+1-2	7-9	an	_	_	
+1-3	10-13	Gas	*[1]	PERaddressee[1]	
+1-4	14-19	hasel	*[1]	PERaddressee[1]	
+1-5	20-26	London	*	PLACEfrom	
+1-6	27-28	,	_	_	
+1-7	29-31	22	*[2]	DATEletter[2]	
+1-8	32-33	.	*[2]	DATEletter[2]	
+
+#Text=Oktober 1844 - 2 .
+2-1	34-41	Oktober	*[2]	DATEletter[2]	
+2-2	42-46	1844	*[2]	DATEletter[2]	
+2-3	47-48	-	_	_	
+2-4	49-50	2	_	_	
+2-5	51-52	.	_	_	
+
+#Text=Einschluß ein Sindenbekenntnis !
+3-1	53-62	Einschluß	_	_	
+3-2	63-66	ein	_	_	
+3-3	67-83	Sindenbekenntnis	_	_	
+3-4	84-85	!	_	_	
+
+#Text=Glückwunsch zum verspäteten Ordinariat |
+4-1	86-97	Glückwunsch	_	_	
+4-2	98-101	zum	_	_	
+4-3	102-113	verspäteten	_	_	
+4-4	114-124	Ordinariat	_	_	
+4-5	125-126	|	_	_	

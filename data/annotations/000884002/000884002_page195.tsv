@@ -1,0 +1,267 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Volterra , 9 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-24	Volterra	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	9	*[7]	DATEletter[7]
+1-7	29-30	.	*[7]	DATEletter[7]
+
+#Text=Sept .
+2-1	31-35	Sept	*[7]	DATEletter[7]
+2-2	36-37	.	*[7]	DATEletter[7]
+
+#Text=1963 -5allerdings einige Fragen gestellt \; aber wie es die Herren in Deutschland so sehr lieben , im letzten Augenblick .
+3-1	38-42	1963	*[7]	DATEletter[7]
+3-2	43-55	-5allerdings	_	_
+3-3	56-62	einige	_	_
+3-4	63-69	Fragen	_	_
+3-5	70-78	gestellt	_	_
+3-6	79-80	\;	_	_
+3-7	81-85	aber	_	_
+3-8	86-89	wie	_	_
+3-9	90-92	es	_	_
+3-10	93-96	die	_	_
+3-11	97-103	Herren	_	_
+3-12	104-106	in	_	_
+3-13	107-118	Deutschland	*	PLACEmentioned
+3-14	119-121	so	_	_
+3-15	122-126	sehr	_	_
+3-16	127-133	lieben	_	_
+3-17	134-135	,	_	_
+3-18	136-138	im	_	_
+3-19	139-146	letzten	_	_
+3-20	147-157	Augenblick	_	_
+3-21	158-159	.	_	_
+
+#Text=Er schickte den Brief durch Prof. Goldschmidt und wünschte Antwort spätestens bis Ende October vorigen Jahres , während ich erst am 2 Nov .
+4-1	160-162	Er	_	_
+4-2	163-171	schickte	_	_
+4-3	172-175	den	_	_
+4-4	176-181	Brief	_	_
+4-5	182-187	durch	_	_
+4-6	188-193	Prof.	*[8]	PERmentioned[8]
+4-7	194-205	Goldschmidt	*[8]	PERmentioned[8]
+4-8	206-209	und	_	_
+4-9	210-218	wünschte	_	_
+4-10	219-226	Antwort	_	_
+4-11	227-237	spätestens	_	_
+4-12	238-241	bis	_	_
+4-13	242-246	Ende	*[9]	DATEmentioned[9]
+4-14	247-254	October	*[9]	DATEmentioned[9]
+4-15	255-262	vorigen	_	_
+4-16	263-269	Jahres	_	_
+4-17	270-271	,	_	_
+4-18	272-279	während	_	_
+4-19	280-283	ich	_	_
+4-20	284-288	erst	_	_
+4-21	289-291	am	_	_
+4-22	292-293	2	*[10]	DATEmentioned[10]
+4-23	294-297	Nov	*[10]	DATEmentioned[10]
+4-24	298-299	.	*[10]	DATEmentioned[10]
+
+#Text=zurückkehrte .
+5-1	300-312	zurückkehrte	_	_
+5-2	313-314	.	_	_
+
+#Text=Wie sich mein Verhältniß zu Gerhard weiter entwickeln wird , bin ich selbst begierig zu erfahren .
+6-1	315-318	Wie	_	_
+6-2	319-323	sich	_	_
+6-3	324-328	mein	_	_
+6-4	329-339	Verhältniß	_	_
+6-5	340-342	zu	_	_
+6-6	343-350	Gerhard	*	PERmentioned
+6-7	351-357	weiter	_	_
+6-8	358-368	entwickeln	_	_
+6-9	369-373	wird	_	_
+6-10	374-375	,	_	_
+6-11	376-379	bin	_	_
+6-12	380-383	ich	_	_
+6-13	384-390	selbst	_	_
+6-14	391-399	begierig	_	_
+6-15	400-402	zu	_	_
+6-16	403-411	erfahren	_	_
+6-17	412-413	.	_	_
+
+#Text=Da er , wie es scheint , vorläufig allen Privatverkehr mit mir abgebrochen hat , so erleichtert er mir meine Stellung , indem er mir dadurch möglich macht , das Gleiche zu thun .
+7-1	414-416	Da	_	_
+7-2	417-419	er	_	_
+7-3	420-421	,	_	_
+7-4	422-425	wie	_	_
+7-5	426-428	es	_	_
+7-6	429-436	scheint	_	_
+7-7	437-438	,	_	_
+7-8	439-448	vorläufig	_	_
+7-9	449-454	allen	_	_
+7-10	455-468	Privatverkehr	_	_
+7-11	469-472	mit	_	_
+7-12	473-476	mir	_	_
+7-13	477-488	abgebrochen	_	_
+7-14	489-492	hat	_	_
+7-15	493-494	,	_	_
+7-16	495-497	so	_	_
+7-17	498-509	erleichtert	_	_
+7-18	510-512	er	_	_
+7-19	513-516	mir	_	_
+7-20	517-522	meine	_	_
+7-21	523-531	Stellung	_	_
+7-22	532-533	,	_	_
+7-23	534-539	indem	_	_
+7-24	540-542	er	_	_
+7-25	543-546	mir	_	_
+7-26	547-554	dadurch	_	_
+7-27	555-562	möglich	_	_
+7-28	563-568	macht	_	_
+7-29	569-570	,	_	_
+7-30	571-574	das	_	_
+7-31	575-582	Gleiche	_	_
+7-32	583-585	zu	_	_
+7-33	586-590	thun	_	_
+7-34	591-592	.	_	_
+
+#Text=Schickt er mir aber seine Privatdesiderien unter officiellem Gewande , so ignorire ich sie einfach .
+8-1	593-600	Schickt	_	_
+8-2	601-603	er	_	_
+8-3	604-607	mir	_	_
+8-4	608-612	aber	_	_
+8-5	613-618	seine	_	_
+8-6	619-635	Privatdesiderien	_	_
+8-7	636-641	unter	_	_
+8-8	642-653	officiellem	_	_
+8-9	654-661	Gewande	_	_
+8-10	662-663	,	_	_
+8-11	664-666	so	_	_
+8-12	667-675	ignorire	_	_
+8-13	676-679	ich	_	_
+8-14	680-683	sie	_	_
+8-15	684-691	einfach	_	_
+8-16	692-693	.	_	_
+
+#Text=Ueber meine Reise werde ich sofort nach meiner Rückkehr den officiellen Bericht einschicken \; überhaupt in der Folge die Formalien aufs strengste erfüllen , und außerdem das Bullettino mit Artikeln vollstopfen , um nichts weiter zu ‚berichten zu haben .
+9-1	694-699	Ueber	_	_
+9-2	700-705	meine	_	_
+9-3	706-711	Reise	_	_
+9-4	712-717	werde	_	_
+9-5	718-721	ich	_	_
+9-6	722-728	sofort	_	_
+9-7	729-733	nach	_	_
+9-8	734-740	meiner	_	_
+9-9	741-749	Rückkehr	_	_
+9-10	750-753	den	_	_
+9-11	754-765	officiellen	_	_
+9-12	766-773	Bericht	_	_
+9-13	774-785	einschicken	_	_
+9-14	786-787	\;	_	_
+9-15	788-797	überhaupt	_	_
+9-16	798-800	in	_	_
+9-17	801-804	der	_	_
+9-18	805-810	Folge	_	_
+9-19	811-814	die	_	_
+9-20	815-824	Formalien	_	_
+9-21	825-829	aufs	_	_
+9-22	830-839	strengste	_	_
+9-23	840-848	erfüllen	_	_
+9-24	849-850	,	_	_
+9-25	851-854	und	_	_
+9-26	855-863	außerdem	_	_
+9-27	864-867	das	_	_
+9-28	868-878	Bullettino	_	_
+9-29	879-882	mit	_	_
+9-30	883-891	Artikeln	_	_
+9-31	892-903	vollstopfen	_	_
+9-32	904-905	,	_	_
+9-33	906-908	um	_	_
+9-34	909-915	nichts	_	_
+9-35	916-922	weiter	_	_
+9-36	923-925	zu	_	_
+9-37	926-936	‚berichten	_	_
+9-38	937-939	zu	_	_
+9-39	940-945	haben	_	_
+9-40	946-947	.	_	_
+
+#Text=Ich schrieb Ihnen wohl nicht , daß es in Cortona unmöglich war , etwas für die Inschriften zu thun : wir hielten uns nur einen Tag auf , an welchem außerdem Lorini kaum einen Augenblick von meiner Seite wich .
+10-1	948-951	Ich	_	_
+10-2	952-959	schrieb	_	_
+10-3	960-965	Ihnen	_	_
+10-4	966-970	wohl	_	_
+10-5	971-976	nicht	_	_
+10-6	977-978	,	_	_
+10-7	979-982	daß	_	_
+10-8	983-985	es	_	_
+10-9	986-988	in	_	_
+10-10	989-996	Cortona	*	PLACEmentioned
+10-11	997-1006	unmöglich	_	_
+10-12	1007-1010	war	_	_
+10-13	1011-1012	,	_	_
+10-14	1013-1018	etwas	_	_
+10-15	1019-1022	für	_	_
+10-16	1023-1026	die	_	_
+10-17	1027-1038	Inschriften	*	OBJ
+10-18	1039-1041	zu	_	_
+10-19	1042-1046	thun	_	_
+10-20	1047-1048	:	_	_
+10-21	1049-1052	wir	_	_
+10-22	1053-1060	hielten	_	_
+10-23	1061-1064	uns	_	_
+10-24	1065-1068	nur	_	_
+10-25	1069-1074	einen	_	_
+10-26	1075-1078	Tag	_	_
+10-27	1079-1082	auf	_	_
+10-28	1083-1084	,	_	_
+10-29	1085-1087	an	_	_
+10-30	1088-1095	welchem	_	_
+10-31	1096-1104	außerdem	_	_
+10-32	1105-1111	Lorini	*	PERmentioned
+10-33	1112-1116	kaum	_	_
+10-34	1117-1122	einen	_	_
+10-35	1123-1133	Augenblick	_	_
+10-36	1134-1137	von	_	_
+10-37	1138-1144	meiner	_	_
+10-38	1145-1150	Seite	_	_
+10-39	1151-1155	wich	_	_
+10-40	1156-1157	.	_	_
+
+#Text=Dafür schicke ich Ihnen einige Nova aus Chiusi ( N . 2 von Liverani in einem Florentiner polit .
+11-1	1158-1163	Dafür	_	_
+11-2	1164-1171	schicke	_	_
+11-3	1172-1175	ich	_	_
+11-4	1176-1181	Ihnen	_	_
+11-5	1182-1188	einige	_	_
+11-6	1189-1193	Nova	_	_
+11-7	1194-1197	aus	_	_
+11-8	1198-1204	Chiusi	*	PLACEmentioned
+11-9	1205-1206	(	_	_
+11-10	1207-1208	N	_	_
+11-11	1209-1210	.	_	_
+11-12	1211-1212	2	_	_
+11-13	1213-1216	von	_	_
+11-14	1217-1225	Liverani	*	PERmentioned
+11-15	1226-1228	in	_	_
+11-16	1229-1234	einem	_	_
+11-17	1235-1246	Florentiner	*	MISC
+11-18	1247-1252	polit	_	_
+11-19	1253-1254	.	_	_
+
+#Text=Journal abgedruckt , worauf nichts ankommt ) .
+12-1	1255-1262	Journal	_	_
+12-2	1263-1273	abgedruckt	_	_
+12-3	1274-1275	,	_	_
+12-4	1276-1282	worauf	_	_
+12-5	1283-1289	nichts	_	_
+12-6	1290-1297	ankommt	_	_
+12-7	1298-1299	)	_	_
+12-8	1300-1301	.	_	_
+
+#Text=Ich habe Ranghini versprochen , daß Sie möglichst
+13-1	1302-1305	Ich	_	_
+13-2	1306-1310	habe	_	_
+13-3	1311-1319	Ranghini	*	PERmentioned
+13-4	1320-1331	versprochen	_	_
+13-5	1332-1333	,	_	_
+13-6	1334-1337	daß	_	_
+13-7	1338-1341	Sie	_	_
+13-8	1342-1351	möglichst	_	_

@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 6 , Mai 1836 Bull .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	6	*[4]	DATEletter[4]
+1-7	28-29	,	*[4]	DATEletter[4]
+1-8	30-33	Mai	*[4]	DATEletter[4]
+1-9	34-38	1836	*[4]	DATEletter[4]
+1-10	39-43	Bull	_	_
+1-11	44-45	.	_	_
+
+#Text=bogen 1 und 3 ( nicht 2 ) habe ich erhalten \; doch höre ich daß die beiden ersten bei Gerstäcker liegen .
+2-1	46-51	bogen	_	_
+2-2	52-53	1	_	_
+2-3	54-57	und	_	_
+2-4	58-59	3	_	_
+2-5	60-61	(	_	_
+2-6	62-67	nicht	_	_
+2-7	68-69	2	_	_
+2-8	70-71	)	_	_
+2-9	72-76	habe	_	_
+2-10	77-80	ich	_	_
+2-11	81-89	erhalten	_	_
+2-12	90-91	\;	_	_
+2-13	92-96	doch	_	_
+2-14	97-101	höre	_	_
+2-15	102-105	ich	_	_
+2-16	106-109	daß	_	_
+2-17	110-113	die	_	_
+2-18	114-120	beiden	_	_
+2-19	121-127	ersten	_	_
+2-20	128-131	bei	_	_
+2-21	132-142	Gerstäcker	*	PERmentioned
+2-22	143-149	liegen	_	_
+2-23	150-151	.	_	_
+
+#Text=Ich habe ihm gesagt diese Packete uneröffnet zu lassen , wir können der Vertheilung zunächst nicht beistimmen .
+3-1	152-155	Ich	_	_
+3-2	156-160	habe	_	_
+3-3	161-164	ihm	_	_
+3-4	165-171	gesagt	_	_
+3-5	172-177	diese	_	_
+3-6	178-185	Packete	_	_
+3-7	186-196	uneröffnet	_	_
+3-8	197-199	zu	_	_
+3-9	200-206	lassen	_	_
+3-10	207-208	,	_	_
+3-11	209-212	wir	_	_
+3-12	213-219	können	_	_
+3-13	220-223	der	_	_
+3-14	224-235	Vertheilung	_	_
+3-15	236-244	zunächst	_	_
+3-16	245-250	nicht	_	_
+3-17	251-261	beistimmen	_	_
+3-18	262-263	.	_	_
+
+#Text=Außerdem hören und staunen Sie , wie viel das Institut Geld hat .
+4-1	264-272	Außerdem	_	_
+4-2	273-278	hören	_	_
+4-3	279-282	und	_	_
+4-4	283-290	staunen	_	_
+4-5	291-294	Sie	_	_
+4-6	295-296	,	_	_
+4-7	297-300	wie	_	_
+4-8	301-305	viel	_	_
+4-9	306-309	das	_	_
+4-10	310-318	Institut	*	ORGmentioned
+4-11	319-323	Geld	_	_
+4-12	324-327	hat	_	_
+4-13	328-329	.	_	_
+
+#Text=Die beiden Sendungen kosteten .
+5-1	330-333	Die	_	_
+5-2	334-340	beiden	_	_
+5-3	341-350	Sendungen	_	_
+5-4	351-359	kosteten	_	_
+5-5	360-361	.	_	_
+
+#Text=etwa AY\_ rt .
+6-1	362-366	etwa	_	_
+6-2	367-370	AY\_	_	_
+6-3	371-373	rt	_	_
+6-4	374-375	.	_	_
+
+#Text=und G. berechnet daß die jährliche G aber auf diese Weise & twa 100 rt , d. i. ohngefähr der Nettoertrag von 10 Ex .
+7-1	376-379	und	_	_
+7-2	380-382	G.	_	_
+7-3	383-392	berechnet	_	_
+7-4	393-396	daß	_	_
+7-5	397-400	die	_	_
+7-6	401-410	jährliche	_	_
+7-7	411-412	G	_	_
+7-8	413-417	aber	_	_
+7-9	418-421	auf	_	_
+7-10	422-427	diese	_	_
+7-11	428-433	Weise	_	_
+7-12	434-435	&	_	_
+7-13	436-439	twa	_	_
+7-14	440-443	100	_	_
+7-15	444-446	rt	_	_
+7-16	447-448	,	_	_
+7-17	449-451	d.	_	_
+7-18	452-454	i.	_	_
+7-19	455-464	ohngefähr	_	_
+7-20	465-468	der	_	_
+7-21	469-480	Nettoertrag	_	_
+7-22	481-484	von	_	_
+7-23	485-487	10	_	_
+7-24	488-490	Ex	_	_
+7-25	491-492	.	_	_
+
+#Text=ausmachen werde .
+8-1	493-502	ausmachen	_	_
+8-2	503-508	werde	_	_
+8-3	509-510	.	_	_
+
+#Text=Sollten , was ich sehr widerrathe und was von meinem Beschluß über Vertheilung oder Nichtvertheilung der ersten Blätter nichts helfen kann , ähnliche Sendungen erfolgen , so lassen Sie doch dieselben in Verona als Packet zur Diligence geben , mit einer nebenher als Brief laufe den Addresse .
+9-1	511-518	Sollten	_	_
+9-2	519-520	,	_	_
+9-3	521-524	was	_	_
+9-4	525-528	ich	_	_
+9-5	529-533	sehr	_	_
+9-6	534-544	widerrathe	_	_
+9-7	545-548	und	_	_
+9-8	549-552	was	_	_
+9-9	553-556	von	_	_
+9-10	557-563	meinem	_	_
+9-11	564-572	Beschluß	_	_
+9-12	573-577	über	_	_
+9-13	578-589	Vertheilung	_	_
+9-14	590-594	oder	_	_
+9-15	595-611	Nichtvertheilung	_	_
+9-16	612-615	der	_	_
+9-17	616-622	ersten	_	_
+9-18	623-630	Blätter	_	_
+9-19	631-637	nichts	_	_
+9-20	638-644	helfen	_	_
+9-21	645-649	kann	_	_
+9-22	650-651	,	_	_
+9-23	652-660	ähnliche	_	_
+9-24	661-670	Sendungen	_	_
+9-25	671-679	erfolgen	_	_
+9-26	680-681	,	_	_
+9-27	682-684	so	_	_
+9-28	685-691	lassen	_	_
+9-29	692-695	Sie	_	_
+9-30	696-700	doch	_	_
+9-31	701-710	dieselben	_	_
+9-32	711-713	in	_	_
+9-33	714-720	Verona	*	PLACEmentioned
+9-34	721-724	als	_	_
+9-35	725-731	Packet	_	_
+9-36	732-735	zur	_	_
+9-37	736-745	Diligence	_	_
+9-38	746-751	geben	_	_
+9-39	752-753	,	_	_
+9-40	754-757	mit	_	_
+9-41	758-763	einer	_	_
+9-42	764-772	nebenher	_	_
+9-43	773-776	als	_	_
+9-44	777-782	Brief	_	_
+9-45	783-788	laufe	_	_
+9-46	789-792	den	_	_
+9-47	793-801	Addresse	_	_
+9-48	802-803	.	_	_
+
+#Text=Geht denn in allen Ex .
+10-1	804-808	Geht	_	_
+10-2	809-813	denn	_	_
+10-3	814-816	in	_	_
+10-4	817-822	allen	_	_
+10-5	823-825	Ex	_	_
+10-6	826-827	.	_	_
+
+#Text=wie in meinem des Titelblatts pag V vor pag VI einher ?
+11-1	828-831	wie	_	_
+11-2	832-834	in	_	_
+11-3	835-841	meinem	_	_
+11-4	842-845	des	_	_
+11-5	846-857	Titelblatts	_	_
+11-6	858-861	pag	_	_
+11-7	862-863	V	_	_
+11-8	864-867	vor	_	_
+11-9	868-871	pag	_	_
+11-10	872-874	VI	_	_
+11-11	875-881	einher	_	_
+11-12	882-883	?	_	_
+
+#Text=- Vielen Dank für Ihren Artikel über Td tana .
+12-1	884-885	-	_	_
+12-2	886-892	Vielen	_	_
+12-3	893-897	Dank	_	_
+12-4	898-901	für	_	_
+12-5	902-907	Ihren	_	_
+12-6	908-915	Artikel	_	_
+12-7	916-920	über	_	_
+12-8	921-923	Td	_	_
+12-9	924-928	tana	_	_
+12-10	929-930	.	_	_
+
+#Text=- Der Vasenfund in den Thermen von ist aber nicht neu \; Leser des Bull .
+13-1	931-932	-	_	_
+13-2	933-936	Der	_	_
+13-3	937-946	Vasenfund	*	OBJ
+13-4	947-949	in	_	_
+13-5	950-953	den	_	_
+13-6	954-961	Thermen	*	OBJ
+13-7	962-965	von	_	_
+13-8	966-969	ist	_	_
+13-9	970-974	aber	_	_
+13-10	975-980	nicht	_	_
+13-11	981-984	neu	_	_
+13-12	985-986	\;	_	_
+13-13	987-992	Leser	_	_
+13-14	993-996	des	_	_
+13-15	997-1001	Bull	_	_
+13-16	1002-1003	.	_	_
+
+#Text=von 1830 wissen ähnliches aus den Thermen von Tarquinie .
+14-1	1004-1007	von	_	_
+14-2	1008-1012	1830	*	DATEmentioned
+14-3	1013-1019	wissen	_	_
+14-4	1020-1029	ähnliches	_	_
+14-5	1030-1033	aus	_	_
+14-6	1034-1037	den	_	_
+14-7	1038-1045	Thermen	*	OBJ
+14-8	1046-1049	von	_	_
+14-9	1050-1059	Tarquinie	*	PLACEmentioned
+14-10	1060-1061	.	_	_
+
+#Text=Mithin beweist er auch nichts Neues .
+15-1	1062-1068	Mithin	_	_
+15-2	1069-1076	beweist	_	_
+15-3	1077-1079	er	_	_
+15-4	1080-1084	auch	_	_
+15-5	1085-1091	nichts	_	_
+15-6	1092-1097	Neues	_	_
+15-7	1098-1099	.	_	_
+
+#Text=Grotesen ist auch zum Seccatore des Instituts noch immer lebend \; gestorben ist sein Vater in Göttingen .
+16-1	1100-1108	Grotesen	*	PERmentioned
+16-2	1109-1112	ist	_	_
+16-3	1113-1117	auch	_	_
+16-4	1118-1121	zum	_	_
+16-5	1122-1131	Seccatore	_	_
+16-6	1132-1135	des	_	_
+16-7	1136-1145	Instituts	*	ORGmentioned
+16-8	1146-1150	noch	_	_
+16-9	1151-1156	immer	_	_
+16-10	1157-1163	lebend	_	_
+16-11	1164-1165	\;	_	_
+16-12	1166-1175	gestorben	_	_
+16-13	1176-1179	ist	_	_
+16-14	1180-1184	sein	_	_
+16-15	1185-1190	Vater	_	_
+16-16	1191-1193	in	_	_
+16-17	1194-1203	Göttingen	*	PLACEmentioned
+16-18	1204-1205	.	_	_
+
+#Text=Die 200 Sc. mögen mir zur Last geschrieben werden \; ich habe es an B. gleichzeitig angezeigt , zugleich aber auch meine Erklärung erneut daß alle auf die Billi-
+17-1	1206-1209	Die	_	_
+17-2	1210-1213	200	_	_
+17-3	1214-1217	Sc.	_	_
+17-4	1218-1223	mögen	_	_
+17-5	1224-1227	mir	_	_
+17-6	1228-1231	zur	_	_
+17-7	1232-1236	Last	_	_
+17-8	1237-1248	geschrieben	_	_
+17-9	1249-1255	werden	_	_
+17-10	1256-1257	\;	_	_
+17-11	1258-1261	ich	_	_
+17-12	1262-1266	habe	_	_
+17-13	1267-1269	es	_	_
+17-14	1270-1272	an	_	_
+17-15	1273-1275	B.	_	_
+17-16	1276-1288	gleichzeitig	_	_
+17-17	1289-1298	angezeigt	_	_
+17-18	1299-1300	,	_	_
+17-19	1301-1309	zugleich	_	_
+17-20	1310-1314	aber	_	_
+17-21	1315-1319	auch	_	_
+17-22	1320-1325	meine	_	_
+17-23	1326-1335	Erklärung	_	_
+17-24	1336-1342	erneut	_	_
+17-25	1343-1346	daß	_	_
+17-26	1347-1351	alle	_	_
+17-27	1352-1355	auf	_	_
+17-28	1356-1359	die	_	_
+17-29	1360-1366	Billi-	_	_

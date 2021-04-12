@@ -1,0 +1,182 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Breslau , 28 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	28	*[4]	DATEletter[4]
+1-7	30-31	.	*[4]	DATEletter[4]
+
+#Text=Oktober 71834 Gott behüte Sie \| !
+2-1	32-39	Oktober	*[4]	DATEletter[4]
+2-2	40-45	71834	*[4]	DATEletter[4]
+2-3	46-50	Gott	_	_
+2-4	51-57	behüte	_	_
+2-5	58-61	Sie	_	_
+2-6	62-63	\|	_	_
+2-7	64-65	!	_	_
+
+#Text=Gerhard Es muß bald zur 2.ten Ausgabe der Thatsachen geschritten werden .
+3-1	66-73	Gerhard	*	PERmentioned
+3-2	74-76	Es	_	_
+3-3	77-80	muß	_	_
+3-4	81-85	bald	_	_
+3-5	86-89	zur	_	_
+3-6	90-95	2.ten	_	_
+3-7	96-103	Ausgabe	_	_
+3-8	104-107	der	_	_
+3-9	108-118	Thatsachen	_	_
+3-10	119-130	geschritten	_	_
+3-11	131-137	werden	_	_
+3-12	138-139	.	_	_
+
+#Text=Dazu fertigen Sie nur die eine kopendiose Liste der von den deutschen Buchhandlungen geschenkten Artikel ( 5.1. & a ) mir .
+4-1	140-144	Dazu	_	_
+4-2	145-153	fertigen	_	_
+4-3	154-157	Sie	_	_
+4-4	158-161	nur	_	_
+4-5	162-165	die	_	_
+4-6	166-170	eine	_	_
+4-7	171-181	kopendiose	_	_
+4-8	182-187	Liste	_	_
+4-9	188-191	der	_	_
+4-10	192-195	von	_	_
+4-11	196-199	den	_	_
+4-12	200-209	deutschen	_	_
+4-13	210-224	Buchhandlungen	_	_
+4-14	225-236	geschenkten	_	_
+4-15	237-244	Artikel	_	_
+4-16	245-246	(	_	_
+4-17	247-251	5.1.	_	_
+4-18	252-253	&	_	_
+4-19	254-255	a	_	_
+4-20	256-257	)	_	_
+4-21	258-261	mir	_	_
+4-22	262-263	.	_	_
+
+#Text=Zugleich stehe ich zu Diensten eine ähnliche Liste im Interesse der Bibliothek der Deutschen anzuknüpfen , gleichzeitig sie zum Druck zu befördern , zu versenden und zu empfehlen .
+5-1	264-272	Zugleich	_	_
+5-2	273-278	stehe	_	_
+5-3	279-282	ich	_	_
+5-4	283-285	zu	_	_
+5-5	286-294	Diensten	_	_
+5-6	295-299	eine	_	_
+5-7	300-308	ähnliche	_	_
+5-8	309-314	Liste	_	_
+5-9	315-317	im	_	_
+5-10	318-327	Interesse	_	_
+5-11	328-331	der	_	_
+5-12	332-342	Bibliothek	*[6]	ORGmentioned[6]
+5-13	343-346	der	*[6]	ORGmentioned[6]
+5-14	347-356	Deutschen	*[6]	ORGmentioned[6]
+5-15	357-368	anzuknüpfen	_	_
+5-16	369-370	,	_	_
+5-17	371-383	gleichzeitig	_	_
+5-18	384-387	sie	_	_
+5-19	388-391	zum	_	_
+5-20	392-397	Druck	_	_
+5-21	398-400	zu	_	_
+5-22	401-410	befördern	_	_
+5-23	411-412	,	_	_
+5-24	413-415	zu	_	_
+5-25	416-425	versenden	_	_
+5-26	426-429	und	_	_
+5-27	430-432	zu	_	_
+5-28	433-442	empfehlen	_	_
+5-29	443-444	.	_	_
+
+#Text=Diese Sache zu beschleunigen , dient zu wissen daß ich vom 9 December wieder datire .
+6-1	445-450	Diese	_	_
+6-2	451-456	Sache	_	_
+6-3	457-459	zu	_	_
+6-4	460-473	beschleunigen	_	_
+6-5	474-475	,	_	_
+6-6	476-481	dient	_	_
+6-7	482-484	zu	_	_
+6-8	485-491	wissen	_	_
+6-9	492-495	daß	_	_
+6-10	496-499	ich	_	_
+6-11	500-503	vom	_	_
+6-12	504-505	9	*[7]	DATEmentioned[7]
+6-13	506-514	December	*[7]	DATEmentioned[7]
+6-14	515-521	wieder	_	_
+6-15	522-528	datire	_	_
+6-16	529-530	.	_	_
+
+#Text=lIch erinnere ferner daß der 9 December statutenmäßig zu einer Adunanza der römischen Direktion das ist wenigstenSiner Aufforderung bestimmt ist , in diesem Zeitraum den Status in quo zu revidiren .
+7-1	531-535	lIch	_	_
+7-2	536-544	erinnere	_	_
+7-3	545-551	ferner	_	_
+7-4	552-555	daß	_	_
+7-5	556-559	der	_	_
+7-6	560-561	9	*[8]	DATEmentioned[8]
+7-7	562-570	December	*[8]	DATEmentioned[8]
+7-8	571-584	statutenmäßig	_	_
+7-9	585-587	zu	_	_
+7-10	588-593	einer	_	_
+7-11	594-602	Adunanza	_	_
+7-12	603-606	der	_	_
+7-13	607-616	römischen	_	_
+7-14	617-626	Direktion	_	_
+7-15	627-630	das	_	_
+7-16	631-634	ist	_	_
+7-17	635-649	wenigstenSiner	_	_
+7-18	650-662	Aufforderung	_	_
+7-19	663-671	bestimmt	_	_
+7-20	672-675	ist	_	_
+7-21	676-677	,	_	_
+7-22	678-680	in	_	_
+7-23	681-687	diesem	_	_
+7-24	688-696	Zeitraum	_	_
+7-25	697-700	den	_	_
+7-26	701-707	Status	_	_
+7-27	708-710	in	_	_
+7-28	711-714	quo	_	_
+7-29	715-717	zu	_	_
+7-30	718-727	revidiren	_	_
+7-31	728-729	.	_	_
+
+#Text=Auf der ersten Seite : ( Am Rande ) Wie steht es mit Borani 's deren Kupferstichen ?
+8-1	730-733	Auf	_	_
+8-2	734-737	der	_	_
+8-3	738-744	ersten	_	_
+8-4	745-750	Seite	_	_
+8-5	751-752	:	_	_
+8-6	753-754	(	_	_
+8-7	755-757	Am	_	_
+8-8	758-763	Rande	_	_
+8-9	764-765	)	_	_
+8-10	766-769	Wie	_	_
+8-11	770-775	steht	_	_
+8-12	776-778	es	_	_
+8-13	779-782	mit	_	_
+8-14	783-789	Borani	*[9]	PERmentioned[9]
+8-15	790-792	's	*[9]	PERmentioned[9]
+8-16	793-798	deren	_	_
+8-17	799-812	Kupferstichen	_	_
+8-18	813-814	?	_	_
+
+#Text=Ich bin geneigt nächst der Thamyrisvase , wenn sie gelingt , den Jason von ihm stechen zu lassen .
+9-1	815-818	Ich	_	_
+9-2	819-822	bin	_	_
+9-3	823-830	geneigt	_	_
+9-4	831-837	nächst	_	_
+9-5	838-841	der	_	_
+9-6	842-854	Thamyrisvase	*	OBJ
+9-7	855-856	,	_	_
+9-8	857-861	wenn	_	_
+9-9	862-865	sie	_	_
+9-10	866-873	gelingt	_	_
+9-11	874-875	,	_	_
+9-12	876-879	den	_	_
+9-13	880-885	Jason	*	OBJ
+9-14	886-889	von	_	_
+9-15	890-893	ihm	_	_
+9-16	894-901	stechen	_	_
+9-17	902-904	zu	_	_
+9-18	905-911	lassen	_	_
+9-19	912-913	.	_	_

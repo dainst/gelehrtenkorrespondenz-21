@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 26. September 1837 Kramers Buch habe ich durchgelaufen \; ich bin neugierig was Sie darüber sagen werden .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	26.	*[4]	DATEletter[4]
+1-7	30-39	September	*[4]	DATEletter[4]
+1-8	40-44	1837	*[4]	DATEletter[4]
+1-9	45-52	Kramers	*	PERmentioned
+1-10	53-57	Buch	_	_
+1-11	58-62	habe	_	_
+1-12	63-66	ich	_	_
+1-13	67-80	durchgelaufen	_	_
+1-14	81-82	\;	_	_
+1-15	83-86	ich	_	_
+1-16	87-90	bin	_	_
+1-17	91-100	neugierig	_	_
+1-18	101-104	was	_	_
+1-19	105-108	Sie	_	_
+1-20	109-116	darüber	_	_
+1-21	117-122	sagen	_	_
+1-22	123-129	werden	_	_
+1-23	130-131	.	_	_
+
+#Text=Ihm selbst habe ich gerathen durch Extrakt der ihm eigenthümlichen Hauptsätze dem Ausland und seinen guten Freunden die Kenntniß seiner Entdeckungen zu erleichter .
+2-1	132-135	Ihm	_	_
+2-2	136-142	selbst	_	_
+2-3	143-147	habe	_	_
+2-4	148-151	ich	_	_
+2-5	152-160	gerathen	_	_
+2-6	161-166	durch	_	_
+2-7	167-174	Extrakt	_	_
+2-8	175-178	der	_	_
+2-9	179-182	ihm	_	_
+2-10	183-198	eigenthümlichen	_	_
+2-11	199-209	Hauptsätze	_	_
+2-12	210-213	dem	_	_
+2-13	214-221	Ausland	_	_
+2-14	222-225	und	_	_
+2-15	226-232	seinen	_	_
+2-16	233-238	guten	_	_
+2-17	239-247	Freunden	_	_
+2-18	248-251	die	_	_
+2-19	252-260	Kenntniß	_	_
+2-20	261-267	seiner	_	_
+2-21	268-280	Entdeckungen	_	_
+2-22	281-283	zu	_	_
+2-23	284-294	erleichter	_	_
+2-24	295-296	.	_	_
+
+#Text=Inghirani ist mir zwar hilfreich gewesen für die in Florenz von ihm begehrten Zeichnungen \; ein Monument ist aber vergessen zu dessen Zeichnung einige Striche genügen .
+3-1	297-306	Inghirani	*	PERmentioned
+3-2	307-310	ist	_	_
+3-3	311-314	mir	_	_
+3-4	315-319	zwar	_	_
+3-5	320-329	hilfreich	_	_
+3-6	330-337	gewesen	_	_
+3-7	338-341	für	_	_
+3-8	342-345	die	_	_
+3-9	346-348	in	_	_
+3-10	349-356	Florenz	*	PLACEmentioned
+3-11	357-360	von	_	_
+3-12	361-364	ihm	_	_
+3-13	365-374	begehrten	_	_
+3-14	375-386	Zeichnungen	_	_
+3-15	387-388	\;	_	_
+3-16	389-392	ein	_	_
+3-17	393-401	Monument	_	_
+3-18	402-405	ist	_	_
+3-19	406-410	aber	_	_
+3-20	411-420	vergessen	_	_
+3-21	421-423	zu	_	_
+3-22	424-430	dessen	_	_
+3-23	431-440	Zeichnung	_	_
+3-24	441-447	einige	_	_
+3-25	448-455	Striche	_	_
+3-26	456-463	genügen	_	_
+3-27	464-465	.	_	_
+
+#Text=Es ist ein Spiegel mit ringsum gezackten Rand \; im Schrank links am Eingang des Bronzezimmers der Gall .
+4-1	466-468	Es	_	_
+4-2	469-472	ist	_	_
+4-3	473-476	ein	_	_
+4-4	477-484	Spiegel	*	OBJ
+4-5	485-488	mit	_	_
+4-6	489-496	ringsum	_	_
+4-7	497-506	gezackten	_	_
+4-8	507-511	Rand	_	_
+4-9	512-513	\;	_	_
+4-10	514-516	im	_	_
+4-11	517-524	Schrank	_	_
+4-12	525-530	links	_	_
+4-13	531-533	am	_	_
+4-14	534-541	Eingang	_	_
+4-15	542-545	des	_	_
+4-16	546-559	Bronzezimmers	_	_
+4-17	560-563	der	_	_
+4-18	564-568	Gall	*[9]	ORGmentioned[9]
+4-19	569-570	.	*[9]	ORGmentioned[9]
+
+#Text=di Fir .
+5-1	571-573	di	*[9]	ORGmentioned[9]
+5-2	574-577	Fir	*[9]	ORGmentioned[9]
+5-3	578-579	.	_	_
+
+#Text=befindlich .
+6-1	580-590	befindlich	_	_
+6-2	591-592	.	_	_
+
+#Text=Ich bitte wenn Sie hinkommen schaffen Sie mir ein disegnino davon .
+7-1	593-596	Ich	_	_
+7-2	597-602	bitte	_	_
+7-3	603-607	wenn	_	_
+7-4	608-611	Sie	_	_
+7-5	612-621	hinkommen	_	_
+7-6	622-630	schaffen	_	_
+7-7	631-634	Sie	_	_
+7-8	635-638	mir	_	_
+7-9	639-642	ein	_	_
+7-10	643-652	disegnino	_	_
+7-11	653-658	davon	_	_
+7-12	659-660	.	_	_
+
+#Text=Was ich in Betreff der Vasenpublikation beschließe , müssen ruhigere Tage lehren , trotz der Sporne von den Franzosen angesetzt .
+8-1	661-664	Was	_	_
+8-2	665-668	ich	_	_
+8-3	669-671	in	_	_
+8-4	672-679	Betreff	_	_
+8-5	680-683	der	_	_
+8-6	684-700	Vasenpublikation	_	_
+8-7	701-711	beschließe	_	_
+8-8	712-713	,	_	_
+8-9	714-720	müssen	_	_
+8-10	721-729	ruhigere	_	_
+8-11	730-734	Tage	_	_
+8-12	735-741	lehren	_	_
+8-13	742-743	,	_	_
+8-14	744-749	trotz	_	_
+8-15	750-753	der	_	_
+8-16	754-760	Sporne	_	_
+8-17	761-764	von	_	_
+8-18	765-768	den	_	_
+8-19	769-778	Franzosen	_	_
+8-20	779-788	angesetzt	_	_
+8-21	789-790	.	_	_
+
+#Text=Wenigstens etliche Wochen bleibe ich noch unschlüssig darüber \; an die Spiegel denke ich um so rascher .
+9-1	791-801	Wenigstens	_	_
+9-2	802-809	etliche	_	_
+9-3	810-816	Wochen	_	_
+9-4	817-823	bleibe	_	_
+9-5	824-827	ich	_	_
+9-6	828-832	noch	_	_
+9-7	833-844	unschlüssig	_	_
+9-8	845-852	darüber	_	_
+9-9	853-854	\;	_	_
+9-10	855-857	an	_	_
+9-11	858-861	die	_	_
+9-12	862-869	Spiegel	*	OBJ
+9-13	870-875	denke	_	_
+9-14	876-879	ich	_	_
+9-15	880-882	um	_	_
+9-16	883-885	so	_	_
+9-17	886-893	rascher	_	_
+9-18	894-895	.	_	_
+
+#Text=Alles mahnt hier haushältisch zu sein .
+10-1	896-901	Alles	_	_
+10-2	902-907	mahnt	_	_
+10-3	908-912	hier	_	_
+10-4	913-925	haushältisch	_	_
+10-5	926-928	zu	_	_
+10-6	929-933	sein	_	_
+10-7	934-935	.	_	_
+
+#Text=Meinen schönen Sadrapp ( Musenbrustbild ) von Capranesi für 30 Scudi erstanden , aus Freundschaft , denke ich ihm gelegentlich zurückzustellen \; lieber nehme ich ihm als Museumstück den Giov .
+11-1	936-942	Meinen	_	_
+11-2	943-950	schönen	_	_
+11-3	951-958	Sadrapp	*	OBJ
+11-4	959-960	(	_	_
+11-5	961-975	Musenbrustbild	*	OBJ
+11-6	976-977	)	_	_
+11-7	978-981	von	_	_
+11-8	982-991	Capranesi	*	PERmentioned
+11-9	992-995	für	_	_
+11-10	996-998	30	_	_
+11-11	999-1004	Scudi	_	_
+11-12	1005-1014	erstanden	_	_
+11-13	1015-1016	,	_	_
+11-14	1017-1020	aus	_	_
+11-15	1021-1033	Freundschaft	_	_
+11-16	1034-1035	,	_	_
+11-17	1036-1041	denke	_	_
+11-18	1042-1045	ich	_	_
+11-19	1046-1049	ihm	_	_
+11-20	1050-1062	gelegentlich	_	_
+11-21	1063-1078	zurückzustellen	_	_
+11-22	1079-1080	\;	_	_
+11-23	1081-1087	lieber	_	_
+11-24	1088-1093	nehme	_	_
+11-25	1094-1097	ich	_	_
+11-26	1098-1101	ihm	_	_
+11-27	1102-1105	als	_	_
+11-28	1106-1117	Museumstück	_	_
+11-29	1118-1121	den	_	_
+11-30	1122-1126	Giov	*[14]	OBJ[14]
+11-31	1127-1128	.	*[14]	OBJ[14]
+
+#Text=Albani ab .
+12-1	1129-1135	Albani	*[14]	OBJ[14]
+12-2	1136-1138	ab	_	_
+12-3	1139-1140	.	_	_
+
+#Text=Die Cholera läßt etwas nach \; meine Gesundheit ist erträglich .
+13-1	1141-1144	Die	_	_
+13-2	1145-1152	Cholera	_	_
+13-3	1153-1157	läßt	_	_
+13-4	1158-1163	etwas	_	_
+13-5	1164-1168	nach	_	_
+13-6	1169-1170	\;	_	_
+13-7	1171-1176	meine	_	_
+13-8	1177-1187	Gesundheit	_	_
+13-9	1188-1191	ist	_	_
+13-10	1192-1202	erträglich	_	_
+13-11	1203-1204	.	_	_
+
+#Text=Gott mit Ihnen !
+14-1	1205-1209	Gott	_	_
+14-2	1210-1213	mit	_	_
+14-3	1214-1219	Ihnen	_	_
+14-4	1220-1221	!	_	_
+
+#Text=Schreiben Sie bald wieder !
+15-1	1222-1231	Schreiben	_	_
+15-2	1232-1235	Sie	_	_
+15-3	1236-1240	bald	_	_
+15-4	1241-1247	wieder	_	_
+15-5	1248-1249	!	_	_
+
+#Text=Der Ihrige Gerhard Auf der ersten Seite : bitte mit dem Institutssiegel zu siegeln
+16-1	1250-1253	Der	_	_
+16-2	1254-1260	Ihrige	_	_
+16-3	1261-1268	Gerhard	*	PERauthor
+16-4	1269-1272	Auf	_	_
+16-5	1273-1276	der	_	_
+16-6	1277-1283	ersten	_	_
+16-7	1284-1289	Seite	_	_
+16-8	1290-1291	:	_	_
+16-9	1292-1297	bitte	_	_
+16-10	1298-1301	mit	_	_
+16-11	1302-1305	dem	_	_
+16-12	1306-1321	Institutssiegel	_	_
+16-13	1322-1324	zu	_	_
+16-14	1325-1332	siegeln	_	_

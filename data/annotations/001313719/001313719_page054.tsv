@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.. 00.e Gerhard an Henzen Berlin , 8. Juni 1846 A. di Direz .
+1-1	0-2	..	_	_
+1-2	3-7	00.e	_	_
+1-3	8-15	Gerhard	*	PERauthor
+1-4	16-18	an	_	_
+1-5	19-25	Henzen	*	PERaddressee
+1-6	26-32	Berlin	*	PLACEfrom
+1-7	33-34	,	_	_
+1-8	35-37	8.	*[1]	DATEletter[1]
+1-9	38-42	Juni	*[1]	DATEletter[1]
+1-10	43-47	1846	*[1]	DATEletter[1]
+1-11	48-50	A.	_	_
+1-12	51-53	di	_	_
+1-13	54-59	Direz	_	_
+1-14	60-61	.	_	_
+
+#Text=g . 7/VI 46 r . 22/VI 46 Berlin 8 Juni 46 „ eoe .... Freund .
+2-1	62-63	g	_	_
+2-2	64-65	.	_	_
+2-3	66-70	7/VI	*[2]	DATErecieved[2]
+2-4	71-73	46	*[2]	DATErecieved[2]
+2-5	74-75	r	_	_
+2-6	76-77	.	_	_
+2-7	78-83	22/VI	*[3]	DATEanswered[3]
+2-8	84-86	46	*[3]	DATEanswered[3]
+2-9	87-93	Berlin	*	PLACEfrom
+2-10	94-95	8	*[4]	DATEletter[4]
+2-11	96-100	Juni	*[4]	DATEletter[4]
+2-12	101-103	46	*[4]	DATEletter[4]
+2-13	104-105	„	_	_
+2-14	106-109	eoe	_	_
+2-15	110-114	....	_	_
+2-16	115-121	Freund	_	_
+2-17	122-123	.	_	_
+
+#Text=seee.c .. Notice habe richtig erhalten , aber , sofern sie durch die Gesandtschaft gingen , mit 1 1/2 rt etwas theuer ....... oder waren sie durch Jager gegangen ?
+3-1	124-130	seee.c	_	_
+3-2	131-133	..	_	_
+3-3	134-140	Notice	_	_
+3-4	141-145	habe	_	_
+3-5	146-153	richtig	_	_
+3-6	154-162	erhalten	_	_
+3-7	163-164	,	_	_
+3-8	165-169	aber	_	_
+3-9	170-171	,	_	_
+3-10	172-178	sofern	_	_
+3-11	179-182	sie	_	_
+3-12	183-188	durch	_	_
+3-13	189-192	die	_	_
+3-14	193-206	Gesandtschaft	*	ORGmentioned
+3-15	207-213	gingen	_	_
+3-16	214-215	,	_	_
+3-17	216-219	mit	_	_
+3-18	220-221	1	_	_
+3-19	222-225	1/2	_	_
+3-20	226-228	rt	_	_
+3-21	229-234	etwas	_	_
+3-22	235-241	theuer	_	_
+3-23	242-249	.......	_	_
+3-24	250-254	oder	_	_
+3-25	255-260	waren	_	_
+3-26	261-264	sie	_	_
+3-27	265-270	durch	_	_
+3-28	271-276	Jager	*	PERmentioned
+3-29	277-285	gegangen	_	_
+3-30	286-287	?	_	_
+
+#Text=Dann ist es nicht zu viel .
+4-1	288-292	Dann	_	_
+4-2	293-296	ist	_	_
+4-3	297-299	es	_	_
+4-4	300-305	nicht	_	_
+4-5	306-308	zu	_	_
+4-6	309-313	viel	_	_
+4-7	314-315	.	_	_
+
+#Text=Ich werde eines der Exemplare an z ....... senden .
+5-1	316-319	Ich	_	_
+5-2	320-325	werde	_	_
+5-3	326-331	eines	_	_
+5-4	332-335	der	_	_
+5-5	336-345	Exemplare	_	_
+5-6	346-348	an	_	_
+5-7	349-350	z	_	_
+5-8	351-358	.......	_	_
+5-9	359-365	senden	_	_
+5-10	366-367	.	_	_
+
+#Text=Sind keine auf Velin abgezogen ?
+6-1	368-372	Sind	_	_
+6-2	373-378	keine	_	_
+6-3	379-382	auf	_	_
+6-4	383-388	Velin	_	_
+6-5	389-398	abgezogen	_	_
+6-6	399-400	?	_	_
+
+#Text=Ihr Brief an Brockhaus ist gleich besorgt , doch ........ ich die Kiste müßte längst abgegangen sein .
+7-1	401-404	Ihr	_	_
+7-2	405-410	Brief	_	_
+7-3	411-413	an	_	_
+7-4	414-423	Brockhaus	*	ORGmentioned
+7-5	424-427	ist	_	_
+7-6	428-434	gleich	_	_
+7-7	435-442	besorgt	_	_
+7-8	443-444	,	_	_
+7-9	445-449	doch	_	_
+7-10	450-458	........	_	_
+7-11	459-462	ich	_	_
+7-12	463-466	die	_	_
+7-13	467-472	Kiste	_	_
+7-14	473-478	müßte	_	_
+7-15	479-485	längst	_	_
+7-16	486-496	abgegangen	_	_
+7-17	497-501	sein	_	_
+7-18	502-503	.	_	_
+
+#Text=eseoc .. den Stand der epigraphischen Angelegenheit erörtert mein offen beifolgender , Ihrer baldigen Besorgung empfohlener Brief an Mommsen .
+8-1	504-509	eseoc	_	_
+8-2	510-512	..	_	_
+8-3	513-516	den	_	_
+8-4	517-522	Stand	_	_
+8-5	523-526	der	_	_
+8-6	527-541	epigraphischen	_	_
+8-7	542-555	Angelegenheit	_	_
+8-8	556-564	erörtert	_	_
+8-9	565-569	mein	_	_
+8-10	570-575	offen	_	_
+8-11	576-588	beifolgender	_	_
+8-12	589-590	,	_	_
+8-13	591-596	Ihrer	_	_
+8-14	597-605	baldigen	_	_
+8-15	606-615	Besorgung	_	_
+8-16	616-627	empfohlener	_	_
+8-17	628-633	Brief	_	_
+8-18	634-636	an	_	_
+8-19	637-644	Mommsen	_	_
+8-20	645-646	.	_	_
+
+#Text=In einer Conferenz die ich gestern mit Savigny und Rudorff darüber hatte ward hinlänglich lamentirt , daß es so stehe \; doch sehe ich , wenn Mommsen rüstig ist , keinen andern Schaden dabei als ein halb Jahr Verzug , dafür aber manchen wesentlichen Vortheil für die Sache und für Mommsen selbst .
+9-1	647-649	In	_	_
+9-2	650-655	einer	_	_
+9-3	656-665	Conferenz	_	_
+9-4	666-669	die	_	_
+9-5	670-673	ich	_	_
+9-6	674-681	gestern	_	_
+9-7	682-685	mit	_	_
+9-8	686-693	Savigny	*	PERmentioned
+9-9	694-697	und	_	_
+9-10	698-705	Rudorff	*	PERmentioned
+9-11	706-713	darüber	_	_
+9-12	714-719	hatte	_	_
+9-13	720-724	ward	_	_
+9-14	725-736	hinlänglich	_	_
+9-15	737-746	lamentirt	_	_
+9-16	747-748	,	_	_
+9-17	749-752	daß	_	_
+9-18	753-755	es	_	_
+9-19	756-758	so	_	_
+9-20	759-764	stehe	_	_
+9-21	765-766	\;	_	_
+9-22	767-771	doch	_	_
+9-23	772-776	sehe	_	_
+9-24	777-780	ich	_	_
+9-25	781-782	,	_	_
+9-26	783-787	wenn	_	_
+9-27	788-795	Mommsen	*	PERmentioned
+9-28	796-802	rüstig	_	_
+9-29	803-806	ist	_	_
+9-30	807-808	,	_	_
+9-31	809-815	keinen	_	_
+9-32	816-822	andern	_	_
+9-33	823-830	Schaden	_	_
+9-34	831-836	dabei	_	_
+9-35	837-840	als	_	_
+9-36	841-844	ein	_	_
+9-37	845-849	halb	_	_
+9-38	850-854	Jahr	_	_
+9-39	855-861	Verzug	_	_
+9-40	862-863	,	_	_
+9-41	864-869	dafür	_	_
+9-42	870-874	aber	_	_
+9-43	875-882	manchen	_	_
+9-44	883-895	wesentlichen	_	_
+9-45	896-904	Vortheil	_	_
+9-46	905-908	für	_	_
+9-47	909-912	die	_	_
+9-48	913-918	Sache	_	_
+9-49	919-922	und	_	_
+9-50	923-926	für	_	_
+9-51	927-934	Mommsen	*	PERmentioned|PERmentioned
+9-52	935-941	selbst	_	_
+9-53	942-943	.	_	_
+
+#Text=Aus Jahns Plan hätte die systematische Ordnung und manches Andre erst wegkomplimentirt werden müssen \; All dergleichen , macht sich nun leichter , aber Mommsen muß das
+10-1	944-947	Aus	_	_
+10-2	948-953	Jahns	*	PERmentioned
+10-3	954-958	Plan	_	_
+10-4	959-964	hätte	_	_
+10-5	965-968	die	_	_
+10-6	969-982	systematische	_	_
+10-7	983-990	Ordnung	_	_
+10-8	991-994	und	_	_
+10-9	995-1002	manches	_	_
+10-10	1003-1008	Andre	_	_
+10-11	1009-1013	erst	_	_
+10-12	1014-1030	wegkomplimentirt	_	_
+10-13	1031-1037	werden	_	_
+10-14	1038-1044	müssen	_	_
+10-15	1045-1046	\;	_	_
+10-16	1047-1050	All	_	_
+10-17	1051-1062	dergleichen	_	_
+10-18	1063-1064	,	_	_
+10-19	1065-1070	macht	_	_
+10-20	1071-1075	sich	_	_
+10-21	1076-1079	nun	_	_
+10-22	1080-1088	leichter	_	_
+10-23	1089-1090	,	_	_
+10-24	1091-1095	aber	_	_
+10-25	1096-1103	Mommsen	*	PERmentioned
+10-26	1104-1107	muß	_	_
+10-27	1108-1111	das	_	_

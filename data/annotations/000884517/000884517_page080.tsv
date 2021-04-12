@@ -1,0 +1,205 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=436 Gerhard an Braun Berlin , 8. November 1844 A. d . Dir .
+1-1	0-3	436	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	8.	*[1]	DATEletter[1]
+1-8	33-41	November	*[1]	DATEletter[1]
+1-9	42-46	1844	*[1]	DATEletter[1]
+1-10	47-49	A.	_	_
+1-11	50-51	d	_	_
+1-12	52-53	.	_	_
+1-13	54-57	Dir	_	_
+1-14	58-59	.	_	_
+
+#Text=g . @ ARI 44 r . 26/XI 44 Dr. Braun Berlin 8 Nov 44 Mein theurer Freund .
+2-1	60-61	g	_	_
+2-2	62-63	.	_	_
+2-3	64-65	@	_	_
+2-4	66-69	ARI	_	_
+2-5	70-72	44	_	_
+2-6	73-74	r	_	_
+2-7	75-76	.	_	_
+2-8	77-82	26/XI	*[2]|*[3]	DATErecieved[2]|DATEanswered[3]
+2-9	83-85	44	*[2]|*[3]	DATErecieved[2]|DATEanswered[3]
+2-10	86-89	Dr.	*[4]	PERaddressee[4]
+2-11	90-95	Braun	*[4]	PERaddressee[4]
+2-12	96-102	Berlin	*	PLACEfrom
+2-13	103-104	8	*[5]	DATEletter[5]
+2-14	105-108	Nov	*[5]	DATEletter[5]
+2-15	109-111	44	*[5]	DATEletter[5]
+2-16	112-116	Mein	_	_
+2-17	117-124	theurer	_	_
+2-18	125-131	Freund	_	_
+2-19	132-133	.	_	_
+
+#Text=Hoffentlich sind Sie unseren innigen Wünschen gemäß glücklich wieder in Rom .
+3-1	134-145	Hoffentlich	_	_
+3-2	146-150	sind	_	_
+3-3	151-154	Sie	_	_
+3-4	155-162	unseren	_	_
+3-5	163-170	innigen	_	_
+3-6	171-179	Wünschen	_	_
+3-7	180-185	gemäß	_	_
+3-8	186-195	glücklich	_	_
+3-9	196-202	wieder	_	_
+3-10	203-205	in	_	_
+3-11	206-209	Rom	*	PLACEmentioned
+3-12	210-211	.	_	_
+
+#Text=Der inliegende , ungelesen erleichterte , Brief von Leipzig kam erst 2 Tage nach Ihrer Abreise hier an .
+4-1	212-215	Der	_	_
+4-2	216-226	inliegende	_	_
+4-3	227-228	,	_	_
+4-4	229-238	ungelesen	_	_
+4-5	239-251	erleichterte	_	_
+4-6	252-253	,	_	_
+4-7	254-259	Brief	_	_
+4-8	260-263	von	_	_
+4-9	264-271	Leipzig	*	PLACEmentioned
+4-10	272-275	kam	_	_
+4-11	276-280	erst	_	_
+4-12	281-282	2	_	_
+4-13	283-287	Tage	_	_
+4-14	288-292	nach	_	_
+4-15	293-298	Ihrer	_	_
+4-16	299-306	Abreise	_	_
+4-17	307-311	hier	_	_
+4-18	312-314	an	_	_
+4-19	315-316	.	_	_
+
+#Text=Mir geht es seit Sie fort sind wieder schlechter \; zu meinen variirenden bekannten Leiden hat sich auch Lichtscheu gesellt .
+5-1	317-320	Mir	_	_
+5-2	321-325	geht	_	_
+5-3	326-328	es	_	_
+5-4	329-333	seit	_	_
+5-5	334-337	Sie	_	_
+5-6	338-342	fort	_	_
+5-7	343-347	sind	_	_
+5-8	348-354	wieder	_	_
+5-9	355-365	schlechter	_	_
+5-10	366-367	\;	_	_
+5-11	368-370	zu	_	_
+5-12	371-377	meinen	_	_
+5-13	378-389	variirenden	_	_
+5-14	390-399	bekannten	_	_
+5-15	400-406	Leiden	_	_
+5-16	407-410	hat	_	_
+5-17	411-415	sich	_	_
+5-18	416-420	auch	_	_
+5-19	421-431	Lichtscheu	_	_
+5-20	432-439	gesellt	_	_
+5-21	440-441	.	_	_
+
+#Text=Ihr gerathenes Argentum nahn ich 2 Morgen hintereinander \; meine Frau meint Sie hätten es mir nur alle 8 Tage bestimmt .
+6-1	442-445	Ihr	_	_
+6-2	446-456	gerathenes	_	_
+6-3	457-465	Argentum	_	_
+6-4	466-470	nahn	_	_
+6-5	471-474	ich	_	_
+6-6	475-476	2	_	_
+6-7	477-483	Morgen	_	_
+6-8	484-498	hintereinander	_	_
+6-9	499-500	\;	_	_
+6-10	501-506	meine	_	_
+6-11	507-511	Frau	_	_
+6-12	512-517	meint	_	_
+6-13	518-521	Sie	_	_
+6-14	522-528	hätten	_	_
+6-15	529-531	es	_	_
+6-16	532-535	mir	_	_
+6-17	536-539	nur	_	_
+6-18	540-544	alle	_	_
+6-19	545-546	8	_	_
+6-20	547-551	Tage	_	_
+6-21	552-560	bestimmt	_	_
+6-22	561-562	.	_	_
+
+#Text=Ist die Auflösung in Togfen nöthig ?
+7-1	563-566	Ist	_	_
+7-2	567-570	die	_	_
+7-3	571-580	Auflösung	_	_
+7-4	581-583	in	_	_
+7-5	584-590	Togfen	_	_
+7-6	591-597	nöthig	_	_
+7-7	598-599	?	_	_
+
+#Text=Vorgestern erhielt ich von Fürst Metternich unterschrieben mit einem auf `` den Gesandten Herrn Bunsen '' bezüglichen Begleitungsschreiben unsere Glückwünschungsadresse zurück und sandte sie gestern Sr . Majestät ein .
+8-1	600-610	Vorgestern	_	_
+8-2	611-618	erhielt	_	_
+8-3	619-622	ich	_	_
+8-4	623-626	von	_	_
+8-5	627-632	Fürst	*[6]	PERmentioned[6]
+8-6	633-643	Metternich	*[6]	PERmentioned[6]
+8-7	644-658	unterschrieben	_	_
+8-8	659-662	mit	_	_
+8-9	663-668	einem	_	_
+8-10	669-672	auf	_	_
+8-11	673-675	``	_	_
+8-12	676-679	den	_	_
+8-13	680-689	Gesandten	_	_
+8-14	690-695	Herrn	_	_
+8-15	696-702	Bunsen	*	PERmentioned
+8-16	703-705	''	_	_
+8-17	706-717	bezüglichen	_	_
+8-18	718-738	Begleitungsschreiben	_	_
+8-19	739-745	unsere	_	_
+8-20	746-768	Glückwünschungsadresse	_	_
+8-21	769-775	zurück	_	_
+8-22	776-779	und	_	_
+8-23	780-786	sandte	_	_
+8-24	787-790	sie	_	_
+8-25	791-798	gestern	_	_
+8-26	799-801	Sr	*[7]	PERmentioned[7]
+8-27	802-803	.	*[7]	PERmentioned[7]
+8-28	804-812	Majestät	*[7]	PERmentioned[7]
+8-29	813-816	ein	_	_
+8-30	817-818	.	_	_
+
+#Text=Olfers bedauert mit viel guter Gesinnung für Sie nachhaltig daß Sie dem König nicht vorgestellt sein wollten \; daß es bei Sonnabend sein Bewenden gehabt haben würde , habe er Ihnen garantirt .
+9-1	819-825	Olfers	*	PERmentioned
+9-2	826-834	bedauert	_	_
+9-3	835-838	mit	_	_
+9-4	839-843	viel	_	_
+9-5	844-849	guter	_	_
+9-6	850-859	Gesinnung	_	_
+9-7	860-863	für	_	_
+9-8	864-867	Sie	_	_
+9-9	868-878	nachhaltig	_	_
+9-10	879-882	daß	_	_
+9-11	883-886	Sie	_	_
+9-12	887-890	dem	_	_
+9-13	891-896	König	*	PERmentioned
+9-14	897-902	nicht	_	_
+9-15	903-914	vorgestellt	_	_
+9-16	915-919	sein	_	_
+9-17	920-927	wollten	_	_
+9-18	928-929	\;	_	_
+9-19	930-933	daß	_	_
+9-20	934-936	es	_	_
+9-21	937-940	bei	_	_
+9-22	941-950	Sonnabend	*	DATEmentioned
+9-23	951-955	sein	_	_
+9-24	956-964	Bewenden	_	_
+9-25	965-971	gehabt	_	_
+9-26	972-977	haben	_	_
+9-27	978-983	würde	_	_
+9-28	984-985	,	_	_
+9-29	986-990	habe	_	_
+9-30	991-993	er	_	_
+9-31	994-999	Ihnen	_	_
+9-32	1000-1009	garantirt	_	_
+9-33	1010-1011	.	_	_
+
+#Text=Sonstige Bescheinigungen waren dem Metternich-
+10-1	1012-1020	Sonstige	_	_
+10-2	1021-1036	Bescheinigungen	_	_
+10-3	1037-1042	waren	_	_
+10-4	1043-1046	dem	_	_
+10-5	1047-1058	Metternich-	*	PERmentioned

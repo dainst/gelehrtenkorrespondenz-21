@@ -1,0 +1,256 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=69 Gerhard an Braun Berlin 24 Jan 44 g 11/II 44 r 13/II 44 I Beischluß an Vollarada L Fr .
+1-1	0-2	69	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-29	24	*[1]	DATEletter[1]
+1-7	30-33	Jan	*[1]	DATEletter[1]
+1-8	34-36	44	*[1]	DATEletter[1]
+1-9	37-38	g	_	_
+1-10	39-44	11/II	*[2]	DATErecieved[2]
+1-11	45-47	44	*[2]	DATErecieved[2]
+1-12	48-49	r	_	_
+1-13	50-55	13/II	*[3]	DATEanswered[3]
+1-14	56-58	44	*[3]	DATEanswered[3]
+1-15	59-60	I	_	_
+1-16	61-70	Beischluß	_	_
+1-17	71-73	an	_	_
+1-18	74-83	Vollarada	*	PERmentioned
+1-19	84-85	L	_	_
+1-20	86-88	Fr	_	_
+1-21	89-90	.	_	_
+
+#Text=Die Pedanterie mit der ich mir dan und wan Instituts angefordert habe , findet heute Ihre Rechtfetigung in meinem völligen Mangel an Notizen über die Subscribentenliste seit der 1841 in der Notice gedruckten .
+2-1	91-94	Die	_	_
+2-2	95-105	Pedanterie	_	_
+2-3	106-109	mit	_	_
+2-4	110-113	der	_	_
+2-5	114-117	ich	_	_
+2-6	118-121	mir	_	_
+2-7	122-125	dan	_	_
+2-8	126-129	und	_	_
+2-9	130-133	wan	_	_
+2-10	134-143	Instituts	*	ORGmentioned
+2-11	144-155	angefordert	_	_
+2-12	156-160	habe	_	_
+2-13	161-162	,	_	_
+2-14	163-169	findet	_	_
+2-15	170-175	heute	_	_
+2-16	176-180	Ihre	_	_
+2-17	181-194	Rechtfetigung	_	_
+2-18	195-197	in	_	_
+2-19	198-204	meinem	_	_
+2-20	205-213	völligen	_	_
+2-21	214-220	Mangel	_	_
+2-22	221-223	an	_	_
+2-23	224-231	Notizen	_	_
+2-24	232-236	über	_	_
+2-25	237-240	die	_	_
+2-26	241-259	Subscribentenliste	_	_
+2-27	260-264	seit	_	_
+2-28	265-268	der	_	_
+2-29	269-273	1841	*	DATEmentioned
+2-30	274-276	in	_	_
+2-31	277-280	der	_	_
+2-32	281-287	Notice	_	_
+2-33	288-298	gedruckten	_	_
+2-34	299-300	.	_	_
+
+#Text=Ohne diese Notizen läßt sich der Ausfall der Institutseinkünfte nicht plausibel machen , und ohne die Noth des Instituts mit Ziffern zu schildern legt Bunsen die Hand nicht an .
+3-1	301-305	Ohne	_	_
+3-2	306-311	diese	_	_
+3-3	312-319	Notizen	_	_
+3-4	320-324	läßt	_	_
+3-5	325-329	sich	_	_
+3-6	330-333	der	_	_
+3-7	334-341	Ausfall	_	_
+3-8	342-345	der	_	_
+3-9	346-364	Institutseinkünfte	_	_
+3-10	365-370	nicht	_	_
+3-11	371-380	plausibel	_	_
+3-12	381-387	machen	_	_
+3-13	388-389	,	_	_
+3-14	390-393	und	_	_
+3-15	394-398	ohne	_	_
+3-16	399-402	die	_	_
+3-17	403-407	Noth	_	_
+3-18	408-411	des	_	_
+3-19	412-421	Instituts	*	ORGmentioned
+3-20	422-425	mit	_	_
+3-21	426-433	Ziffern	_	_
+3-22	434-436	zu	_	_
+3-23	437-446	schildern	_	_
+3-24	447-451	legt	_	_
+3-25	452-458	Bunsen	*	PERmentioned
+3-26	459-462	die	_	_
+3-27	463-467	Hand	_	_
+3-28	468-473	nicht	_	_
+3-29	474-476	an	_	_
+3-30	477-478	.	_	_
+
+#Text=Sek Laßen Sie mir also schleunigst zugehen was ich schon in meinem vorigen Brief mir erbat \; und können Sie einige Rechnungsdata ad hominum hinzufügen , um so beßer .
+4-1	479-482	Sek	_	_
+4-2	483-488	Laßen	_	_
+4-3	489-492	Sie	_	_
+4-4	493-496	mir	_	_
+4-5	497-501	also	_	_
+4-6	502-513	schleunigst	_	_
+4-7	514-521	zugehen	_	_
+4-8	522-525	was	_	_
+4-9	526-529	ich	_	_
+4-10	530-535	schon	_	_
+4-11	536-538	in	_	_
+4-12	539-545	meinem	_	_
+4-13	546-553	vorigen	_	_
+4-14	554-559	Brief	_	_
+4-15	560-563	mir	_	_
+4-16	564-569	erbat	_	_
+4-17	570-571	\;	_	_
+4-18	572-575	und	_	_
+4-19	576-582	können	_	_
+4-20	583-586	Sie	_	_
+4-21	587-593	einige	_	_
+4-22	594-607	Rechnungsdata	_	_
+4-23	608-610	ad	_	_
+4-24	611-618	hominum	_	_
+4-25	619-629	hinzufügen	_	_
+4-26	630-631	,	_	_
+4-27	632-634	um	_	_
+4-28	635-637	so	_	_
+4-29	638-643	beßer	_	_
+4-30	644-645	.	_	_
+
+#Text=Ich bitte nun Bunsen zu verlangen als einen Vorschuß um eine Schulausgabe der Mon .
+5-1	646-649	Ich	_	_
+5-2	650-655	bitte	_	_
+5-3	656-659	nun	_	_
+5-4	660-666	Bunsen	*	PERmentioned
+5-5	667-669	zu	_	_
+5-6	670-679	verlangen	_	_
+5-7	680-683	als	_	_
+5-8	684-689	einen	_	_
+5-9	690-698	Vorschuß	_	_
+5-10	699-701	um	_	_
+5-11	702-706	eine	_	_
+5-12	707-719	Schulausgabe	_	_
+5-13	720-723	der	_	_
+5-14	724-727	Mon	_	_
+5-15	728-729	.	_	_
+
+#Text=d. Inst damit vervollständigt auszurüsten .
+6-1	730-732	d.	_	_
+6-2	733-737	Inst	_	_
+6-3	738-743	damit	_	_
+6-4	744-759	vervollständigt	_	_
+6-5	760-771	auszurüsten	_	_
+6-6	772-773	.	_	_
+
+#Text=Das Projekt Ihres letzten Briefs bringt mich zu diesem hoffentlich plausiblen Antrag \; man ist geneigter Geld zu geben , wen Bücher dafür garantirt sind .
+7-1	774-777	Das	_	_
+7-2	778-785	Projekt	_	_
+7-3	786-791	Ihres	_	_
+7-4	792-799	letzten	_	_
+7-5	800-806	Briefs	_	_
+7-6	807-813	bringt	_	_
+7-7	814-818	mich	_	_
+7-8	819-821	zu	_	_
+7-9	822-828	diesem	_	_
+7-10	829-840	hoffentlich	_	_
+7-11	841-851	plausiblen	_	_
+7-12	852-858	Antrag	_	_
+7-13	859-860	\;	_	_
+7-14	861-864	man	_	_
+7-15	865-868	ist	_	_
+7-16	869-878	geneigter	_	_
+7-17	879-883	Geld	_	_
+7-18	884-886	zu	_	_
+7-19	887-892	geben	_	_
+7-20	893-894	,	_	_
+7-21	895-898	wen	_	_
+7-22	899-905	Bücher	_	_
+7-23	906-911	dafür	_	_
+7-24	912-921	garantirt	_	_
+7-25	922-926	sind	_	_
+7-26	927-928	.	_	_
+
+#Text=Die Ausgabe selbst läßt sich lukrativ machen durch einige selbständige Ausstattung nach der die Bibliotheken fragen müßten .
+8-1	929-932	Die	_	_
+8-2	933-940	Ausgabe	_	_
+8-3	941-947	selbst	_	_
+8-4	948-952	läßt	_	_
+8-5	953-957	sich	_	_
+8-6	958-966	lukrativ	_	_
+8-7	967-973	machen	_	_
+8-8	974-979	durch	_	_
+8-9	980-986	einige	_	_
+8-10	987-999	selbständige	_	_
+8-11	1000-1011	Ausstattung	_	_
+8-12	1012-1016	nach	_	_
+8-13	1017-1020	der	_	_
+8-14	1021-1024	die	_	_
+8-15	1025-1037	Bibliotheken	_	_
+8-16	1038-1044	fragen	_	_
+8-17	1045-1051	müßten	_	_
+8-18	1052-1053	.	_	_
+
+#Text=Also baldigst Ihre Rechnungsnotizen \; es zerrt sich ohnehin lange herum ehe man nur einen Antrag stellen kan .
+9-1	1054-1058	Also	_	_
+9-2	1059-1067	baldigst	_	_
+9-3	1068-1072	Ihre	_	_
+9-4	1073-1089	Rechnungsnotizen	_	_
+9-5	1090-1091	\;	_	_
+9-6	1092-1094	es	_	_
+9-7	1095-1100	zerrt	_	_
+9-8	1101-1105	sich	_	_
+9-9	1106-1113	ohnehin	_	_
+9-10	1114-1119	lange	_	_
+9-11	1120-1125	herum	_	_
+9-12	1126-1129	ehe	_	_
+9-13	1130-1133	man	_	_
+9-14	1134-1137	nur	_	_
+9-15	1138-1143	einen	_	_
+9-16	1144-1150	Antrag	_	_
+9-17	1151-1158	stellen	_	_
+9-18	1159-1162	kan	_	_
+9-19	1163-1164	.	_	_
+
+#Text=Ferner die Notiz ob das Institut jetzt Miethe zahlt oder nicht , falls Sie nicht selbige schon direkt an Bunsen schickten .
+10-1	1165-1171	Ferner	_	_
+10-2	1172-1175	die	_	_
+10-3	1176-1181	Notiz	_	_
+10-4	1182-1184	ob	_	_
+10-5	1185-1188	das	_	_
+10-6	1189-1197	Institut	*	ORGmentioned
+10-7	1198-1203	jetzt	_	_
+10-8	1204-1210	Miethe	_	_
+10-9	1211-1216	zahlt	_	_
+10-10	1217-1221	oder	_	_
+10-11	1222-1227	nicht	_	_
+10-12	1228-1229	,	_	_
+10-13	1230-1235	falls	_	_
+10-14	1236-1239	Sie	_	_
+10-15	1240-1245	nicht	_	_
+10-16	1246-1253	selbige	_	_
+10-17	1254-1259	schon	_	_
+10-18	1260-1266	direkt	_	_
+10-19	1267-1269	an	_	_
+10-20	1270-1276	Bunsen	*	PERmentioned
+10-21	1277-1286	schickten	_	_
+10-22	1287-1288	.	_	_
+
+#Text=Dieser Tage sprach ich mit Savigny über den Jaier rönmi-
+11-1	1289-1295	Dieser	_	_
+11-2	1296-1300	Tage	_	_
+11-3	1301-1307	sprach	_	_
+11-4	1308-1311	ich	_	_
+11-5	1312-1315	mit	_	_
+11-6	1316-1323	Savigny	*	PERmentioned
+11-7	1324-1328	über	_	_
+11-8	1329-1332	den	_	_
+11-9	1333-1338	Jaier	_	_
+11-10	1339-1345	rönmi-	_	_

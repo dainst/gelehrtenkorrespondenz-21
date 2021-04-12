@@ -1,0 +1,48 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=419 Helbig an Henzen Siena , 3 .
+1-1	0-3	419	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-26	Siena	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	3	*[1]	DATEletter[1]
+1-8	31-32	.	*[1]	DATEletter[1]
+
+#Text=August 1875 Unterzeichneter theilt der kaiserlichen Gesandtschaft hierdurch mit , daß er die ihm angetragene Mitgliedschaft der Accademia dei Lincei annimmt .
+2-1	33-39	August	*[1]	DATEletter[1]
+2-2	40-44	1875	*[1]	DATEletter[1]
+2-3	45-60	Unterzeichneter	_	_
+2-4	61-67	theilt	_	_
+2-5	68-71	der	_	_
+2-6	72-84	kaiserlichen	*[2]	ORGmentioned[2]
+2-7	85-98	Gesandtschaft	*[2]	ORGmentioned[2]
+2-8	99-108	hierdurch	_	_
+2-9	109-112	mit	_	_
+2-10	113-114	,	_	_
+2-11	115-118	daß	_	_
+2-12	119-121	er	_	_
+2-13	122-125	die	_	_
+2-14	126-129	ihm	_	_
+2-15	130-141	angetragene	_	_
+2-16	142-156	Mitgliedschaft	_	_
+2-17	157-160	der	_	_
+2-18	161-170	Accademia	*[3]	ORGmentioned[3]
+2-19	171-174	dei	*[3]	ORGmentioned[3]
+2-20	175-181	Lincei	*[3]	ORGmentioned[3]
+2-21	182-189	annimmt	_	_
+2-22	190-191	.	_	_
+
+#Text=Helbig Siena , 3 .
+3-1	192-198	Helbig	*	PERauthor
+3-2	199-204	Siena	*	PLACEfrom
+3-3	205-206	,	_	_
+3-4	207-208	3	*[4]	DATEletter[4]
+3-5	209-210	.	*[4]	DATEletter[4]
+
+#Text=August 1875
+4-1	211-217	August	*[4]	DATEletter[4]
+4-2	218-222	1875	*[4]	DATEletter[4]

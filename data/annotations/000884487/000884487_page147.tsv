@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Rom , 17 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	17	*[4]	DATEletter[4]
+1-7	26-27	.	*[4]	DATEletter[4]
+
+#Text=Januar 1837 Dir .
+2-1	28-34	Januar	*[4]	DATEletter[4]
+2-2	35-39	1837	*[4]	DATEletter[4]
+2-3	40-43	Dir	_	_
+2-4	44-45	.	_	_
+
+#Text=Rom .
+3-1	46-49	Rom	*	PLACEto
+3-2	50-51	.	_	_
+
+#Text=XXX .
+4-1	52-55	XXX	_	_
+4-2	56-57	.	_	_
+
+#Text=gs .
+5-1	58-60	gs	_	_
+5-2	61-62	.	_	_
+
+#Text=17/137 ara 37 Bunsen ist einverstanden daß das Bibliotheksgeld dem Institut geliehen und sofort für Cades und dem Cartolaio verwendet werde , dessen Noth Lanci zwischen heute und morgen zu stillen bittet .
+6-1	63-69	17/137	*[6]|*[7]	DATErecieved[6]|DATEletter[7]
+6-2	70-73	ara	_	_
+6-3	74-76	37	_	_
+6-4	77-83	Bunsen	*	PERmentioned
+6-5	84-87	ist	_	_
+6-6	88-101	einverstanden	_	_
+6-7	102-105	daß	_	_
+6-8	106-109	das	_	_
+6-9	110-125	Bibliotheksgeld	_	_
+6-10	126-129	dem	_	_
+6-11	130-138	Institut	*	ORGmentioned
+6-12	139-147	geliehen	_	_
+6-13	148-151	und	_	_
+6-14	152-158	sofort	_	_
+6-15	159-162	für	_	_
+6-16	163-168	Cades	*	PERmentioned
+6-17	169-172	und	_	_
+6-18	173-176	dem	_	_
+6-19	177-186	Cartolaio	_	_
+6-20	187-196	verwendet	_	_
+6-21	197-202	werde	_	_
+6-22	203-204	,	_	_
+6-23	205-211	dessen	_	_
+6-24	212-216	Noth	_	_
+6-25	217-222	Lanci	*	PERmentioned
+6-26	223-231	zwischen	_	_
+6-27	232-237	heute	_	_
+6-28	238-241	und	_	_
+6-29	242-248	morgen	_	_
+6-30	249-251	zu	_	_
+6-31	252-259	stillen	_	_
+6-32	260-266	bittet	_	_
+6-33	267-268	.	_	_
+
+#Text=Es thut mir für morgen sehr Noth um Originale zur Erläuterung der Vasenstyle .
+7-1	269-271	Es	_	_
+7-2	272-276	thut	_	_
+7-3	277-280	mir	_	_
+7-4	281-284	für	_	_
+7-5	285-291	morgen	_	_
+7-6	292-296	sehr	_	_
+7-7	297-301	Noth	_	_
+7-8	302-304	um	_	_
+7-9	305-314	Originale	_	_
+7-10	315-318	zur	_	_
+7-11	319-330	Erläuterung	_	_
+7-12	331-334	der	_	_
+7-13	335-345	Vasenstyle	_	_
+7-14	346-347	.	_	_
+
+#Text=Irgend ein vaso all'egiziana , Ihre Hydria mit schwarzen Figuren und irgend ein Gefäß oder Scherbe mit manierirten zierlichen Styl rother Figuren werden mir zu solchem Behuf willkommen sein .
+8-1	348-354	Irgend	_	_
+8-2	355-358	ein	_	_
+8-3	359-363	vaso	_	_
+8-4	364-376	all'egiziana	_	_
+8-5	377-378	,	_	_
+8-6	379-383	Ihre	_	_
+8-7	384-390	Hydria	_	_
+8-8	391-394	mit	_	_
+8-9	395-404	schwarzen	_	_
+8-10	405-412	Figuren	_	_
+8-11	413-416	und	_	_
+8-12	417-423	irgend	_	_
+8-13	424-427	ein	_	_
+8-14	428-433	Gefäß	_	_
+8-15	434-438	oder	_	_
+8-16	439-446	Scherbe	_	_
+8-17	447-450	mit	_	_
+8-18	451-462	manierirten	_	_
+8-19	463-473	zierlichen	_	_
+8-20	474-478	Styl	_	_
+8-21	479-485	rother	_	_
+8-22	486-493	Figuren	_	_
+8-23	494-500	werden	_	_
+8-24	501-504	mir	_	_
+8-25	505-507	zu	_	_
+8-26	508-515	solchem	_	_
+8-27	516-521	Behuf	_	_
+8-28	522-532	willkommen	_	_
+8-29	533-537	sein	_	_
+8-30	538-539	.	_	_
+
+#Text=Mein Aufsatz über die Vasenformen ist an Lanci abgegeben \; der für das Bull .
+9-1	540-544	Mein	_	_
+9-2	545-552	Aufsatz	_	_
+9-3	553-557	über	_	_
+9-4	558-561	die	_	_
+9-5	562-573	Vasenformen	_	_
+9-6	574-577	ist	_	_
+9-7	578-580	an	_	_
+9-8	581-586	Lanci	*	PERmentioned
+9-9	587-596	abgegeben	_	_
+9-10	597-598	\;	_	_
+9-11	599-602	der	_	_
+9-12	603-606	für	_	_
+9-13	607-610	das	_	_
+9-14	611-615	Bull	_	_
+9-15	616-617	.	_	_
+
+#Text=soll theilweise heute erfolgen .
+10-1	618-622	soll	_	_
+10-2	623-633	theilweise	_	_
+10-3	634-639	heute	_	_
+10-4	640-648	erfolgen	_	_
+10-5	649-650	.	_	_
+
+#Text=Neue 6 Rahmen wird der Tischler zur morgenden Vorlesung doch wol abliefern ?
+11-1	651-655	Neue	_	_
+11-2	656-657	6	_	_
+11-3	658-664	Rahmen	_	_
+11-4	665-669	wird	_	_
+11-5	670-673	der	_	_
+11-6	674-682	Tischler	_	_
+11-7	683-686	zur	_	_
+11-8	687-696	morgenden	_	_
+11-9	697-706	Vorlesung	_	_
+11-10	707-711	doch	_	_
+11-11	712-715	wol	_	_
+11-12	716-725	abliefern	_	_
+11-13	726-727	?	_	_
+
+#Text=Gerhard Eben erhalte ich Beifolgendes für Panofka bestimmtes ital . Original von Busen zurück .
+12-1	728-735	Gerhard	*	PERauthor
+12-2	736-740	Eben	_	_
+12-3	741-748	erhalte	_	_
+12-4	749-752	ich	_	_
+12-5	753-765	Beifolgendes	_	_
+12-6	766-769	für	_	_
+12-7	770-777	Panofka	*	PERmentioned
+12-8	778-788	bestimmtes	_	_
+12-9	789-793	ital	_	_
+12-10	794-795	.	_	_
+12-11	796-804	Original	_	_
+12-12	805-808	von	_	_
+12-13	809-814	Busen	*	PERmentioned
+12-14	815-821	zurück	_	_
+12-15	822-823	.	_	_
+
+#Text=Da derselbe eine Abschrift verlangt , so ersuche ich Sie eine solche baldigst zu veranläsen , damit ich das Original wenigstens für übermorgen zurückerhalte und absenden könne .
+13-1	824-826	Da	_	_
+13-2	827-835	derselbe	_	_
+13-3	836-840	eine	_	_
+13-4	841-850	Abschrift	_	_
+13-5	851-859	verlangt	_	_
+13-6	860-861	,	_	_
+13-7	862-864	so	_	_
+13-8	865-872	ersuche	_	_
+13-9	873-876	ich	_	_
+13-10	877-880	Sie	_	_
+13-11	881-885	eine	_	_
+13-12	886-892	solche	_	_
+13-13	893-901	baldigst	_	_
+13-14	902-904	zu	_	_
+13-15	905-915	veranläsen	_	_
+13-16	916-917	,	_	_
+13-17	918-923	damit	_	_
+13-18	924-927	ich	_	_
+13-19	928-931	das	_	_
+13-20	932-940	Original	_	_
+13-21	941-951	wenigstens	_	_
+13-22	952-955	für	_	_
+13-23	956-966	übermorgen	_	_
+13-24	967-980	zurückerhalte	_	_
+13-25	981-984	und	_	_
+13-26	985-993	absenden	_	_
+13-27	994-999	könne	_	_
+13-28	1000-1001	.	_	_
+
+#Text=- Der Brief wegen Migliarini geht ad acta .
+14-1	1002-1003	-	_	_
+14-2	1004-1007	Der	_	_
+14-3	1008-1013	Brief	_	_
+14-4	1014-1019	wegen	_	_
+14-5	1020-1030	Migliarini	*	PERmentioned
+14-6	1031-1035	geht	_	_
+14-7	1036-1038	ad	_	_
+14-8	1039-1043	acta	_	_
+14-9	1044-1045	.	_	_

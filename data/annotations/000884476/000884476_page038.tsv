@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 19 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	19	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 Dr. Braun Berlin 19 Okt 34 Ihre Münchner Briefe theurer Freund sind mir hierher gefolgt \; auf Einzelnes behalte ich mir Antwort vor , einstweilen drängt es mich Ihnen meine Ankunft hieselbst anzukündigen und guten Muth einzusprechen .
+2-1	31-38	Oktober	*[4]	DATEletter[4]
+2-2	39-43	1834	*[4]	DATEletter[4]
+2-3	44-47	Dr.	_	_
+2-4	48-53	Braun	*	PERaddressee
+2-5	54-60	Berlin	*	PLACEfrom
+2-6	61-63	19	*[7]	DATEletter[7]
+2-7	64-67	Okt	*[7]	DATEletter[7]
+2-8	68-70	34	*[7]	DATEletter[7]
+2-9	71-75	Ihre	_	_
+2-10	76-84	Münchner	*	PLACEmentioned
+2-11	85-91	Briefe	_	_
+2-12	92-99	theurer	_	_
+2-13	100-106	Freund	_	_
+2-14	107-111	sind	_	_
+2-15	112-115	mir	_	_
+2-16	116-123	hierher	_	_
+2-17	124-131	gefolgt	_	_
+2-18	132-133	\;	_	_
+2-19	134-137	auf	_	_
+2-20	138-147	Einzelnes	_	_
+2-21	148-155	behalte	_	_
+2-22	156-159	ich	_	_
+2-23	160-163	mir	_	_
+2-24	164-171	Antwort	_	_
+2-25	172-175	vor	_	_
+2-26	176-177	,	_	_
+2-27	178-189	einstweilen	_	_
+2-28	190-196	drängt	_	_
+2-29	197-199	es	_	_
+2-30	200-204	mich	_	_
+2-31	205-210	Ihnen	_	_
+2-32	211-216	meine	_	_
+2-33	217-224	Ankunft	_	_
+2-34	225-234	hieselbst	_	_
+2-35	235-247	anzukündigen	_	_
+2-36	248-251	und	_	_
+2-37	252-257	guten	_	_
+2-38	258-262	Muth	_	_
+2-39	263-276	einzusprechen	_	_
+2-40	277-278	.	_	_
+
+#Text=de mehr ich in Ordnung komme , sollen Sie es hoffentlich auch .
+3-1	279-281	de	_	_
+3-2	282-286	mehr	_	_
+3-3	287-290	ich	_	_
+3-4	291-293	in	_	_
+3-5	294-301	Ordnung	_	_
+3-6	302-307	komme	_	_
+3-7	308-309	,	_	_
+3-8	310-316	sollen	_	_
+3-9	317-320	Sie	_	_
+3-10	321-323	es	_	_
+3-11	324-335	hoffentlich	_	_
+3-12	336-340	auch	_	_
+3-13	341-342	.	_	_
+
+#Text=Einstweilen bezwecke ich noch eine Reise nach Breslau , auf sehr kurze Zeit .
+4-1	343-354	Einstweilen	_	_
+4-2	355-363	bezwecke	_	_
+4-3	364-367	ich	_	_
+4-4	368-372	noch	_	_
+4-5	373-377	eine	_	_
+4-6	378-383	Reise	_	_
+4-7	384-388	nach	_	_
+4-8	389-396	Breslau	*	PLACEmentioned
+4-9	397-398	,	_	_
+4-10	399-402	auf	_	_
+4-11	403-407	sehr	_	_
+4-12	408-413	kurze	_	_
+4-13	414-418	Zeit	_	_
+4-14	419-420	.	_	_
+
+#Text=Die Reise über Gotha , Halle , Dresden ging gut .
+5-1	421-424	Die	_	_
+5-2	425-430	Reise	_	_
+5-3	431-435	über	_	_
+5-4	436-441	Gotha	*	PLACEmentioned
+5-5	442-443	,	_	_
+5-6	444-449	Halle	*	PLACEmentioned
+5-7	450-451	,	_	_
+5-8	452-459	Dresden	*	PLACEmentioned
+5-9	460-464	ging	_	_
+5-10	465-468	gut	_	_
+5-11	469-470	.	_	_
+
+#Text=In Gotha hoffe ich als Ihr Freund sowohl über Ihr litterarisches Treiben als über Ihren dort allseits wohl bekannten Hausstand mich geäußert zu haben .
+6-1	471-473	In	_	_
+6-2	474-479	Gotha	*	PLACEmentioned
+6-3	480-485	hoffe	_	_
+6-4	486-489	ich	_	_
+6-5	490-493	als	_	_
+6-6	494-497	Ihr	_	_
+6-7	498-504	Freund	_	_
+6-8	505-511	sowohl	_	_
+6-9	512-516	über	_	_
+6-10	517-520	Ihr	_	_
+6-11	521-535	litterarisches	_	_
+6-12	536-543	Treiben	_	_
+6-13	544-547	als	_	_
+6-14	548-552	über	_	_
+6-15	553-558	Ihren	_	_
+6-16	559-563	dort	_	_
+6-17	564-572	allseits	_	_
+6-18	573-577	wohl	_	_
+6-19	578-587	bekannten	_	_
+6-20	588-597	Hausstand	_	_
+6-21	598-602	mich	_	_
+6-22	603-611	geäußert	_	_
+6-23	612-614	zu	_	_
+6-24	615-620	haben	_	_
+6-25	621-622	.	_	_
+
+#Text=Die Ihrigen fand ich wohl \; das erstmal verfehlt , sah ich sie nur kurz vor meinem Ersteigen in den Postwagen .
+7-1	623-626	Die	_	_
+7-2	627-634	Ihrigen	_	_
+7-3	635-639	fand	_	_
+7-4	640-643	ich	_	_
+7-5	644-648	wohl	_	_
+7-6	649-650	\;	_	_
+7-7	651-654	das	_	_
+7-8	655-662	erstmal	_	_
+7-9	663-671	verfehlt	_	_
+7-10	672-673	,	_	_
+7-11	674-677	sah	_	_
+7-12	678-681	ich	_	_
+7-13	682-685	sie	_	_
+7-14	686-689	nur	_	_
+7-15	690-694	kurz	_	_
+7-16	695-698	vor	_	_
+7-17	699-705	meinem	_	_
+7-18	706-715	Ersteigen	_	_
+7-19	716-718	in	_	_
+7-20	719-722	den	_	_
+7-21	723-732	Postwagen	_	_
+7-22	733-734	.	_	_
+
+#Text=Jacobi will Ihnen wohl \; hauptsächlich hat Jacobi seine Theilnahme für Sie an den Tag gelegt , indem er mich bei sehr schmaler Zeit wol darum besonders aufsuchte um von Ihnen zu hören .
+8-1	735-741	Jacobi	*	PERmentioned
+8-2	742-746	will	_	_
+8-3	747-752	Ihnen	_	_
+8-4	753-757	wohl	_	_
+8-5	758-759	\;	_	_
+8-6	760-773	hauptsächlich	_	_
+8-7	774-777	hat	_	_
+8-8	778-784	Jacobi	*	PERmentioned
+8-9	785-790	seine	_	_
+8-10	791-801	Theilnahme	_	_
+8-11	802-805	für	_	_
+8-12	806-809	Sie	_	_
+8-13	810-812	an	_	_
+8-14	813-816	den	_	_
+8-15	817-820	Tag	_	_
+8-16	821-827	gelegt	_	_
+8-17	828-829	,	_	_
+8-18	830-835	indem	_	_
+8-19	836-838	er	_	_
+8-20	839-843	mich	_	_
+8-21	844-847	bei	_	_
+8-22	848-852	sehr	_	_
+8-23	853-861	schmaler	_	_
+8-24	862-866	Zeit	_	_
+8-25	867-870	wol	_	_
+8-26	871-876	darum	_	_
+8-27	877-886	besonders	_	_
+8-28	887-896	aufsuchte	_	_
+8-29	897-899	um	_	_
+8-30	900-903	von	_	_
+8-31	904-909	Ihnen	_	_
+8-32	910-912	zu	_	_
+8-33	913-918	hören	_	_
+8-34	919-920	.	_	_
+
+#Text=Schoene habe ich heute hier gefunden statt in Weimar \; er grüßt Sie herzlich .
+9-1	921-928	Schoene	*	PERmentioned
+9-2	929-933	habe	_	_
+9-3	934-937	ich	_	_
+9-4	938-943	heute	_	_
+9-5	944-948	hier	_	_
+9-6	949-957	gefunden	_	_
+9-7	958-963	statt	_	_
+9-8	964-966	in	_	_
+9-9	967-973	Weimar	*	PLACEmentioned
+9-10	974-975	\;	_	_
+9-11	976-978	er	_	_
+9-12	979-984	grüßt	_	_
+9-13	985-988	Sie	_	_
+9-14	989-997	herzlich	_	_
+9-15	998-999	.	_	_
+
+#Text=Von hier hoffe ich dann mehr zu berichten , sowie ich erst warm geworden bin .
+10-1	1000-1003	Von	_	_
+10-2	1004-1008	hier	_	_
+10-3	1009-1014	hoffe	_	_
+10-4	1015-1018	ich	_	_
+10-5	1019-1023	dann	_	_
+10-6	1024-1028	mehr	_	_
+10-7	1029-1031	zu	_	_
+10-8	1032-1041	berichten	_	_
+10-9	1042-1043	,	_	_
+10-10	1044-1049	sowie	_	_
+10-11	1050-1053	ich	_	_
+10-12	1054-1058	erst	_	_
+10-13	1059-1063	warm	_	_
+10-14	1064-1072	geworden	_	_
+10-15	1073-1076	bin	_	_
+10-16	1077-1078	.	_	_
+
+#Text=Einstweilen bitte ich Sie nur die Geduld nicht zu verlieren , denn ich bin der Erinnerung an manche römische Rückstände , mehr aber bei den Verlegenheiten in die mich Pa-
+11-1	1079-1090	Einstweilen	_	_
+11-2	1091-1096	bitte	_	_
+11-3	1097-1100	ich	_	_
+11-4	1101-1104	Sie	_	_
+11-5	1105-1108	nur	_	_
+11-6	1109-1112	die	_	_
+11-7	1113-1119	Geduld	_	_
+11-8	1120-1125	nicht	_	_
+11-9	1126-1128	zu	_	_
+11-10	1129-1138	verlieren	_	_
+11-11	1139-1140	,	_	_
+11-12	1141-1145	denn	_	_
+11-13	1146-1149	ich	_	_
+11-14	1150-1153	bin	_	_
+11-15	1154-1157	der	_	_
+11-16	1158-1168	Erinnerung	_	_
+11-17	1169-1171	an	_	_
+11-18	1172-1178	manche	_	_
+11-19	1179-1187	römische	_	_
+11-20	1188-1198	Rückstände	_	_
+11-21	1199-1200	,	_	_
+11-22	1201-1205	mehr	_	_
+11-23	1206-1210	aber	_	_
+11-24	1211-1214	bei	_	_
+11-25	1215-1218	den	_	_
+11-26	1219-1233	Verlegenheiten	_	_
+11-27	1234-1236	in	_	_
+11-28	1237-1240	die	_	_
+11-29	1241-1245	mich	_	_
+11-30	1246-1249	Pa-	*	PERmentioned

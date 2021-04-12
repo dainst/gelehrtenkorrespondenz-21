@@ -1,0 +1,128 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=595 Lepsius an Henzen Berlin , 15. November 1874 geben .
+1-1	0-3	595	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	15.	*[1]	DATEletter[1]
+1-8	35-43	November	*[1]	DATEletter[1]
+1-9	44-48	1874	*[1]	DATEletter[1]
+1-10	49-54	geben	_	_
+1-11	55-56	.	_	_
+
+#Text=Die Angelegenheit war von mir oft angeregt .
+2-1	57-60	Die	_	_
+2-2	61-74	Angelegenheit	_	_
+2-3	75-78	war	_	_
+2-4	79-82	von	_	_
+2-5	83-86	mir	_	_
+2-6	87-90	oft	_	_
+2-7	91-99	angeregt	_	_
+2-8	100-101	.	_	_
+
+#Text=Es fanden sich aber immer Gründe in der Berathung sie zurückzustellen .
+3-1	102-104	Es	_	_
+3-2	105-111	fanden	_	_
+3-3	112-116	sich	_	_
+3-4	117-121	aber	_	_
+3-5	122-127	immer	_	_
+3-6	128-134	Gründe	_	_
+3-7	135-137	in	_	_
+3-8	138-141	der	_	_
+3-9	142-151	Berathung	_	_
+3-10	152-155	sie	_	_
+3-11	156-171	zurückzustellen	_	_
+3-12	172-173	.	_	_
+
+#Text=Mommsen ist mir dem Antrage für Ihre Pension beschäftigt .
+4-1	174-181	Mommsen	*	PERmentioned
+4-2	182-185	ist	_	_
+4-3	186-189	mir	_	_
+4-4	190-193	dem	_	_
+4-5	194-201	Antrage	_	_
+4-6	202-205	für	_	_
+4-7	206-210	Ihre	_	_
+4-8	211-218	Pension	_	_
+4-9	219-230	beschäftigt	_	_
+4-10	231-232	.	_	_
+
+#Text=Von Helbig fügen Sie keine Daten zu \; wollen Sie doch umgehend dies noch thun .
+5-1	233-236	Von	_	_
+5-2	237-243	Helbig	*	PERmentioned
+5-3	244-249	fügen	_	_
+5-4	250-253	Sie	_	_
+5-5	254-259	keine	_	_
+5-6	260-265	Daten	_	_
+5-7	266-268	zu	_	_
+5-8	269-270	\;	_	_
+5-9	271-277	wollen	_	_
+5-10	278-281	Sie	_	_
+5-11	282-286	doch	_	_
+5-12	287-295	umgehend	_	_
+5-13	296-300	dies	_	_
+5-14	301-305	noch	_	_
+5-15	306-310	thun	_	_
+5-16	311-312	.	_	_
+
+#Text=Ich schreibe Ihnen den Antrag sobald er feststeht .
+6-1	313-316	Ich	_	_
+6-2	317-325	schreibe	_	_
+6-3	326-331	Ihnen	_	_
+6-4	332-335	den	_	_
+6-5	336-342	Antrag	_	_
+6-6	343-349	sobald	_	_
+6-7	350-352	er	_	_
+6-8	353-362	feststeht	_	_
+6-9	363-364	.	_	_
+
+#Text=Die Trennung der officiellen Mittheilungen ist sehr wünschenswerth .
+7-1	365-368	Die	_	_
+7-2	369-377	Trennung	_	_
+7-3	378-381	der	_	_
+7-4	382-393	officiellen	_	_
+7-5	394-407	Mittheilungen	_	_
+7-6	408-411	ist	_	_
+7-7	412-416	sehr	_	_
+7-8	417-431	wünschenswerth	_	_
+7-9	432-433	.	_	_
+
+#Text=Herzlich der Ihrige R Lepsius Ohne Zweifel : Imperial Inst .
+8-1	434-442	Herzlich	_	_
+8-2	443-446	der	_	_
+8-3	447-453	Ihrige	_	_
+8-4	454-455	R	*[2]	PERauthor[2]
+8-5	456-463	Lepsius	*[2]	PERauthor[2]
+8-6	464-468	Ohne	_	_
+8-7	469-476	Zweifel	_	_
+8-8	477-478	:	_	_
+8-9	479-487	Imperial	*[3]	ORGmentioned[3]
+8-10	488-492	Inst	*[3]	ORGmentioned[3]
+8-11	493-494	.	*[3]	ORGmentioned[3]
+
+#Text=Arch . Germm .
+9-1	495-499	Arch	*[3]	ORGmentioned[3]
+9-2	500-501	.	*[3]	ORGmentioned[3]
+9-3	502-507	Germm	*[3]	ORGmentioned[3]
+9-4	508-509	.	*[3]	ORGmentioned[3]
+
+#Text=Die photographischen Abzüge für Laspeyres sind bestellt \; nicht alle Bl . werden lithographiert .
+10-1	510-513	Die	_	_
+10-2	514-530	photographischen	_	_
+10-3	531-537	Abzüge	_	_
+10-4	538-541	für	_	_
+10-5	542-551	Laspeyres	*	PERmentioned
+10-6	552-556	sind	_	_
+10-7	557-565	bestellt	_	_
+10-8	566-567	\;	_	_
+10-9	568-573	nicht	_	_
+10-10	574-578	alle	_	_
+10-11	579-581	Bl	_	_
+10-12	582-583	.	_	_
+10-13	584-590	werden	_	_
+10-14	591-605	lithographiert	_	_
+10-15	606-607	.	_	_

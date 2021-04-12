@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=SD 687 Braun an Gerhard Rom , 28 .
+1-1	0-2	SD	_	_
+1-2	3-6	687	_	_
+1-3	7-12	Braun	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-23	Gerhard	*	PERaddressee
+1-6	24-27	Rom	*	PLACEfrom
+1-7	28-29	,	_	_
+1-8	30-32	28	*[1]	DATEletter[1]
+1-9	33-34	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1834 - 7 - sehr verunglückt , er ist beständig krank gewesen .
+2-1	35-42	Oktober	*[1]	DATEletter[1]
+2-2	43-47	1834	*[1]	DATEletter[1]
+2-3	48-49	-	_	_
+2-4	50-51	7	_	_
+2-5	52-53	-	_	_
+2-6	54-58	sehr	_	_
+2-7	59-70	verunglückt	_	_
+2-8	71-72	,	_	_
+2-9	73-75	er	_	_
+2-10	76-79	ist	_	_
+2-11	80-89	beständig	_	_
+2-12	90-95	krank	_	_
+2-13	96-103	gewesen	_	_
+2-14	104-105	.	_	_
+
+#Text=In Ancona auf `` europäischen Boden '' zurückgekehrt schreibt er an Sie aus der Quarantaine .
+3-1	106-108	In	_	_
+3-2	109-115	Ancona	*	PLACEmentioned
+3-3	116-119	auf	_	_
+3-4	120-122	``	_	_
+3-5	123-135	europäischen	_	_
+3-6	136-141	Boden	_	_
+3-7	142-144	''	_	_
+3-8	145-158	zurückgekehrt	_	_
+3-9	159-167	schreibt	_	_
+3-10	168-170	er	_	_
+3-11	171-173	an	_	_
+3-12	174-177	Sie	_	_
+3-13	178-181	aus	_	_
+3-14	182-185	der	_	_
+3-15	186-197	Quarantaine	_	_
+3-16	198-199	.	_	_
+
+#Text=In Griechenland nichts Neuentdecktes \; die Museen unbedeutend , am wenigsten das in Aegina .
+4-1	200-202	In	_	_
+4-2	203-215	Griechenland	*	PLACEmentioned
+4-3	216-222	nichts	_	_
+4-4	223-236	Neuentdecktes	_	_
+4-5	237-238	\;	_	_
+4-6	239-242	die	_	_
+4-7	243-249	Museen	*	ORGmentioned
+4-8	250-261	unbedeutend	_	_
+4-9	262-263	,	_	_
+4-10	264-266	am	_	_
+4-11	267-276	wenigsten	_	_
+4-12	277-280	das	_	_
+4-13	281-283	in	_	_
+4-14	284-290	Aegina	*	PLACEmentioned
+4-15	291-292	.	_	_
+
+#Text=Die bedeutendste Privatsammlung an Goldsachen und geschriebenen Steinen schien ihm die des Baron Ronen , franz .
+5-1	293-296	Die	_	_
+5-2	297-309	bedeutendste	_	_
+5-3	310-324	Privatsammlung	*[2]	ORGmentioned[2]
+5-4	325-327	an	*[2]	ORGmentioned[2]
+5-5	328-338	Goldsachen	*[2]	ORGmentioned[2]
+5-6	339-342	und	*[2]	ORGmentioned[2]
+5-7	343-356	geschriebenen	*[2]	ORGmentioned[2]
+5-8	357-364	Steinen	*[2]	ORGmentioned[2]
+5-9	365-371	schien	_	_
+5-10	372-375	ihm	_	_
+5-11	376-379	die	_	_
+5-12	380-383	des	_	_
+5-13	384-389	Baron	*[3]	PERmentioned[3]
+5-14	390-395	Ronen	*[3]	PERmentioned[3]
+5-15	396-397	,	_	_
+5-16	398-403	franz	_	_
+5-17	404-405	.	_	_
+
+#Text=Gesandten .
+6-1	406-415	Gesandten	_	_
+6-2	416-417	.	_	_
+
+#Text=Sonst viel falsches und unmäßig theuer .
+7-1	418-423	Sonst	_	_
+7-2	424-428	viel	_	_
+7-3	429-437	falsches	_	_
+7-4	438-441	und	_	_
+7-5	442-449	unmäßig	_	_
+7-6	450-456	theuer	_	_
+7-7	457-458	.	_	_
+
+#Text=Gelegentlich verspricht er ausführlichere Mittheilungen .
+8-1	459-471	Gelegentlich	_	_
+8-2	472-482	verspricht	_	_
+8-3	483-485	er	_	_
+8-4	486-500	ausführlichere	_	_
+8-5	501-514	Mittheilungen	_	_
+8-6	515-516	.	_	_
+
+#Text=Seine Institutsrückstände wünscht er durch Prof. Kobele , den ich jedoch nicht . „ .... Beine Addresse ist Joseph Baron von Palm in Augsburg in Bayern .
+9-1	517-522	Seine	_	_
+9-2	523-542	Institutsrückstände	_	_
+9-3	543-550	wünscht	_	_
+9-4	551-553	er	_	_
+9-5	554-559	durch	_	_
+9-6	560-565	Prof.	*[4]	PERmentioned[4]
+9-7	566-572	Kobele	*[4]	PERmentioned[4]
+9-8	573-574	,	_	_
+9-9	575-578	den	_	_
+9-10	579-582	ich	_	_
+9-11	583-589	jedoch	_	_
+9-12	590-595	nicht	_	_
+9-13	596-597	.	_	_
+9-14	598-599	„	_	_
+9-15	600-604	....	_	_
+9-16	605-610	Beine	_	_
+9-17	611-619	Addresse	_	_
+9-18	620-623	ist	_	_
+9-19	624-630	Joseph	*[5]	PERmentioned[5]
+9-20	631-636	Baron	*[5]	PERmentioned[5]
+9-21	637-640	von	*[5]	PERmentioned[5]
+9-22	641-645	Palm	*[5]	PERmentioned[5]
+9-23	646-648	in	_	_
+9-24	649-657	Augsburg	*	PLACEmentioned
+9-25	658-660	in	_	_
+9-26	661-667	Bayern	*	PLACEmentioned
+9-27	668-669	.	_	_
+
+#Text=Er schließt mit der Versicherung seiner Freundschaft und bittet um Fortsetzung Ihrer Gorrespondenz .
+10-1	670-672	Er	_	_
+10-2	673-681	schließt	_	_
+10-3	682-685	mit	_	_
+10-4	686-689	der	_	_
+10-5	690-702	Versicherung	_	_
+10-6	703-709	seiner	_	_
+10-7	710-722	Freundschaft	_	_
+10-8	723-726	und	_	_
+10-9	727-733	bittet	_	_
+10-10	734-736	um	_	_
+10-11	737-748	Fortsetzung	_	_
+10-12	749-754	Ihrer	_	_
+10-13	755-768	Gorrespondenz	_	_
+10-14	769-770	.	_	_
+
+#Text=So viel für heute , mehr schreibe ich Ihnen , wenn Sie zur Antwort auf meine verschiedenen Briefe kommen .
+11-1	771-773	So	_	_
+11-2	774-778	viel	_	_
+11-3	779-782	für	_	_
+11-4	783-788	heute	_	_
+11-5	789-790	,	_	_
+11-6	791-795	mehr	_	_
+11-7	796-804	schreibe	_	_
+11-8	805-808	ich	_	_
+11-9	809-814	Ihnen	_	_
+11-10	815-816	,	_	_
+11-11	817-821	wenn	_	_
+11-12	822-825	Sie	_	_
+11-13	826-829	zur	_	_
+11-14	830-837	Antwort	_	_
+11-15	838-841	auf	_	_
+11-16	842-847	meine	_	_
+11-17	848-861	verschiedenen	_	_
+11-18	862-868	Briefe	_	_
+11-19	869-875	kommen	_	_
+11-20	876-877	.	_	_
+
+#Text=- Wie ich diesen Winter durchkommen soll , seh ich noch nicht ab , zumal , wenn ich wieder Stunden und andre lucrative Artikel annehmen muß , was doch wohl unabweislich ist .
+12-1	878-879	-	_	_
+12-2	880-883	Wie	_	_
+12-3	884-887	ich	_	_
+12-4	888-894	diesen	_	_
+12-5	895-901	Winter	*	DATEmentioned
+12-6	902-913	durchkommen	_	_
+12-7	914-918	soll	_	_
+12-8	919-920	,	_	_
+12-9	921-924	seh	_	_
+12-10	925-928	ich	_	_
+12-11	929-933	noch	_	_
+12-12	934-939	nicht	_	_
+12-13	940-942	ab	_	_
+12-14	943-944	,	_	_
+12-15	945-950	zumal	_	_
+12-16	951-952	,	_	_
+12-17	953-957	wenn	_	_
+12-18	958-961	ich	_	_
+12-19	962-968	wieder	_	_
+12-20	969-976	Stunden	_	_
+12-21	977-980	und	_	_
+12-22	981-986	andre	_	_
+12-23	987-996	lucrative	_	_
+12-24	997-1004	Artikel	_	_
+12-25	1005-1013	annehmen	_	_
+12-26	1014-1017	muß	_	_
+12-27	1018-1019	,	_	_
+12-28	1020-1023	was	_	_
+12-29	1024-1028	doch	_	_
+12-30	1029-1033	wohl	_	_
+12-31	1034-1046	unabweislich	_	_
+12-32	1047-1050	ist	_	_
+12-33	1051-1052	.	_	_
+
+#Text=So leid es mir thuen würde , sehe ich mich doch am Ende genöthigt an den Rückzug ernsthaft zu denken .
+13-1	1053-1055	So	_	_
+13-2	1056-1060	leid	_	_
+13-3	1061-1063	es	_	_
+13-4	1064-1067	mir	_	_
+13-5	1068-1073	thuen	_	_
+13-6	1074-1079	würde	_	_
+13-7	1080-1081	,	_	_
+13-8	1082-1086	sehe	_	_
+13-9	1087-1090	ich	_	_
+13-10	1091-1095	mich	_	_
+13-11	1096-1100	doch	_	_
+13-12	1101-1103	am	_	_
+13-13	1104-1108	Ende	_	_
+13-14	1109-1118	genöthigt	_	_
+13-15	1119-1121	an	_	_
+13-16	1122-1125	den	_	_
+13-17	1126-1133	Rückzug	_	_
+13-18	1134-1143	ernsthaft	_	_
+13-19	1144-1146	zu	_	_
+13-20	1147-1153	denken	_	_
+13-21	1154-1155	.	_	_
+
+#Text=Das Leben hier in Rom ist zu theuer , der Arbeit zu viel , und daß ich mit geringen Kräften und spärlichen Kenntnissen nicht genug verdienen kann , sehe ich zu wohl ein .
+14-1	1156-1159	Das	_	_
+14-2	1160-1165	Leben	_	_
+14-3	1166-1170	hier	_	_
+14-4	1171-1173	in	_	_
+14-5	1174-1177	Rom	*	PLACEmentioned
+14-6	1178-1181	ist	_	_
+14-7	1182-1184	zu	_	_
+14-8	1185-1191	theuer	_	_
+14-9	1192-1193	,	_	_
+14-10	1194-1197	der	_	_
+14-11	1198-1204	Arbeit	_	_
+14-12	1205-1207	zu	_	_
+14-13	1208-1212	viel	_	_
+14-14	1213-1214	,	_	_
+14-15	1215-1218	und	_	_
+14-16	1219-1222	daß	_	_
+14-17	1223-1226	ich	_	_
+14-18	1227-1230	mit	_	_
+14-19	1231-1239	geringen	_	_
+14-20	1240-1247	Kräften	_	_
+14-21	1248-1251	und	_	_
+14-22	1252-1262	spärlichen	_	_
+14-23	1263-1274	Kenntnissen	_	_
+14-24	1275-1280	nicht	_	_
+14-25	1281-1286	genug	_	_
+14-26	1287-1296	verdienen	_	_
+14-27	1297-1301	kann	_	_
+14-28	1302-1303	,	_	_
+14-29	1304-1308	sehe	_	_
+14-30	1309-1312	ich	_	_
+14-31	1313-1315	zu	_	_
+14-32	1316-1320	wohl	_	_
+14-33	1321-1324	ein	_	_
+14-34	1325-1326	.	_	_
+
+#Text=- Lanci fragt wiederholt sehr ängstlich nach der Ihnen übertragenen Subscription auf den Univers religieux für den Padre Degola .
+15-1	1327-1328	-	_	_
+15-2	1329-1334	Lanci	*	PERmentioned
+15-3	1335-1340	fragt	_	_
+15-4	1341-1351	wiederholt	_	_
+15-5	1352-1356	sehr	_	_
+15-6	1357-1366	ängstlich	_	_
+15-7	1367-1371	nach	_	_
+15-8	1372-1375	der	_	_
+15-9	1376-1381	Ihnen	_	_
+15-10	1382-1394	übertragenen	_	_
+15-11	1395-1407	Subscription	_	_
+15-12	1408-1411	auf	_	_
+15-13	1412-1415	den	_	_
+15-14	1416-1423	Univers	*[6]	LIT[6]
+15-15	1424-1433	religieux	*[6]	LIT[6]
+15-16	1434-1437	für	_	_
+15-17	1438-1441	den	_	_
+15-18	1442-1447	Padre	*[7]	PERmentioned[7]
+15-19	1448-1454	Degola	*[7]	PERmentioned[7]
+15-20	1455-1456	.	_	_
+
+#Text=Ich schrieb
+16-1	1457-1460	Ich	_	_
+16-2	1461-1468	schrieb	_	_

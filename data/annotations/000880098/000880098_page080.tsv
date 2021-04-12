@@ -1,0 +1,298 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=687 Braun an Gerhard Rom , 28 .
+1-1	0-3	687	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	28	*[1]	DATEletter[1]
+1-8	30-31	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1834 Da quanto mi scrive il Sig .
+2-1	32-39	Oktober	*[1]	DATEletter[1]
+2-2	40-44	1834	*[1]	DATEletter[1]
+2-3	45-47	Da	_	_
+2-4	48-54	quanto	_	_
+2-5	55-57	mi	_	_
+2-6	58-64	scrive	_	_
+2-7	65-67	il	_	_
+2-8	68-71	Sig	*[2]	PERmentioned[2]
+2-9	72-73	.	*[2]	PERmentioned[2]
+
+#Text=Braun , sembra che le mie due spedizioni di libri e le sue cassettine siano giunte in Roma , ed io confido nella bontä dell'anzidetto Sig .
+3-1	74-79	Braun	*[2]	PERmentioned[2]
+3-2	80-81	,	_	_
+3-3	82-88	sembra	_	_
+3-4	89-92	che	_	_
+3-5	93-95	le	_	_
+3-6	96-99	mie	_	_
+3-7	100-103	due	_	_
+3-8	104-114	spedizioni	_	_
+3-9	115-117	di	_	_
+3-10	118-123	libri	_	_
+3-11	124-125	e	_	_
+3-12	126-128	le	_	_
+3-13	129-132	sue	_	_
+3-14	133-143	cassettine	_	_
+3-15	144-149	siano	_	_
+3-16	150-156	giunte	_	_
+3-17	157-159	in	_	_
+3-18	160-164	Roma	*	PLACEmentioned
+3-19	165-166	,	_	_
+3-20	167-169	ed	_	_
+3-21	170-172	io	_	_
+3-22	173-180	confido	_	_
+3-23	181-186	nella	_	_
+3-24	187-192	bontä	_	_
+3-25	193-207	dell'anzidetto	_	_
+3-26	208-211	Sig	*[3]	PERmentioned[3]
+3-27	212-213	.	*[3]	PERmentioned[3]
+
+#Text=Braun per inviarle insieme alle lettere , al loro rispettivo destino .
+4-1	214-219	Braun	*[3]	PERmentioned[3]
+4-2	220-223	per	_	_
+4-3	224-232	inviarle	_	_
+4-4	233-240	insieme	_	_
+4-5	241-245	alle	_	_
+4-6	246-253	lettere	_	_
+4-7	254-255	,	_	_
+4-8	256-258	al	_	_
+4-9	259-263	loro	_	_
+4-10	264-274	rispettivo	_	_
+4-11	275-282	destino	_	_
+4-12	283-284	.	_	_
+
+#Text=Su di che , nel tempo della di lei assenza da Roma , di dirizzerö allo stess .
+5-1	285-287	Su	_	_
+5-2	288-290	di	_	_
+5-3	291-294	che	_	_
+5-4	295-296	,	_	_
+5-5	297-300	nel	_	_
+5-6	301-306	tempo	_	_
+5-7	307-312	della	_	_
+5-8	313-315	di	_	_
+5-9	316-319	lei	_	_
+5-10	320-327	assenza	_	_
+5-11	328-330	da	_	_
+5-12	331-335	Roma	*	PLACEmentioned
+5-13	336-337	,	_	_
+5-14	338-340	di	_	_
+5-15	341-350	dirizzerö	_	_
+5-16	351-355	allo	_	_
+5-17	356-361	stess	_	_
+5-18	362-363	.	_	_
+
+#Text=- - Attendo con grande impazienza la di Lei memoria intorno & monumenti Figulini della Sicilia che avrä pubblicata negli annali .
+6-1	364-365	-	_	_
+6-2	366-367	-	_	_
+6-3	368-375	Attendo	_	_
+6-4	376-379	con	_	_
+6-5	380-386	grande	_	_
+6-6	387-397	impazienza	_	_
+6-7	398-400	la	_	_
+6-8	401-403	di	_	_
+6-9	404-407	Lei	_	_
+6-10	408-415	memoria	_	_
+6-11	416-423	intorno	_	_
+6-12	424-425	&	_	_
+6-13	426-435	monumenti	*[4]	OBJ[4]
+6-14	436-444	Figulini	*[4]	OBJ[4]
+6-15	445-450	della	_	_
+6-16	451-458	Sicilia	*	PLACEmentioned
+6-17	459-462	che	_	_
+6-18	463-467	avrä	_	_
+6-19	468-478	pubblicata	_	_
+6-20	479-484	negli	_	_
+6-21	485-491	annali	_	_
+6-22	492-493	.	_	_
+
+#Text=Intanto deggio annunziarle essersi rinvenuti alcuni antichi sepolchri , sin'ora quasi tutti di semplice creta cotta , e pochi con vernice vera , ma senza figure .
+7-1	494-501	Intanto	_	_
+7-2	502-508	deggio	_	_
+7-3	509-520	annunziarle	_	_
+7-4	521-528	essersi	_	_
+7-5	529-538	rinvenuti	_	_
+7-6	539-545	alcuni	_	_
+7-7	546-553	antichi	*[5]	OBJ[5]
+7-8	554-563	sepolchri	*[5]	OBJ[5]
+7-9	564-565	,	_	_
+7-10	566-573	sin'ora	_	_
+7-11	574-579	quasi	_	_
+7-12	580-585	tutti	_	_
+7-13	586-588	di	_	_
+7-14	589-597	semplice	_	_
+7-15	598-603	creta	_	_
+7-16	604-609	cotta	_	_
+7-17	610-611	,	_	_
+7-18	612-613	e	_	_
+7-19	614-619	pochi	_	_
+7-20	620-623	con	_	_
+7-21	624-631	vernice	_	_
+7-22	632-636	vera	_	_
+7-23	637-638	,	_	_
+7-24	639-641	ma	_	_
+7-25	642-647	senza	_	_
+7-26	648-654	figure	_	_
+7-27	655-656	.	_	_
+
+#Text=Se i lavori riusciranno fortunati , io mi propongo die annunziare questa scoverta all'Instituto per mezzo del Sig .
+8-1	657-659	Se	_	_
+8-2	660-661	i	_	_
+8-3	662-668	lavori	_	_
+8-4	669-680	riusciranno	_	_
+8-5	681-690	fortunati	_	_
+8-6	691-692	,	_	_
+8-7	693-695	io	_	_
+8-8	696-698	mi	_	_
+8-9	699-707	propongo	_	_
+8-10	708-711	die	_	_
+8-11	712-722	annunziare	_	_
+8-12	723-729	questa	_	_
+8-13	730-738	scoverta	_	_
+8-14	739-752	all'Instituto	*	ORGmentioned
+8-15	753-756	per	_	_
+8-16	757-762	mezzo	_	_
+8-17	763-766	del	_	_
+8-18	767-770	Sig	*[6]	PERmentioned[6]
+8-19	771-772	.	*[6]	PERmentioned[6]
+
+#Text=Braun .
+9-1	773-778	Braun	*[6]	PERmentioned[6]
+9-2	779-780	.	_	_
+
+#Text=„ ger !
+10-1	781-782	„	_	_
+10-2	783-786	ger	_	_
+10-3	787-788	!	_	_
+
+#Text=ue O ' presentato la sua lettera a S.A.R .
+11-1	789-791	ue	_	_
+11-2	792-793	O	_	_
+11-3	794-795	'	_	_
+11-4	796-806	presentato	_	_
+11-5	807-809	la	_	_
+11-6	810-813	sua	_	_
+11-7	814-821	lettera	_	_
+11-8	822-823	a	_	_
+11-9	824-829	S.A.R	_	_
+11-10	830-831	.	_	_
+
+#Text=il quale ha gradito l ’ 'invito , e le risponderä per mio mezzo .
+12-1	832-834	il	_	_
+12-2	835-840	quale	_	_
+12-3	841-843	ha	_	_
+12-4	844-851	gradito	_	_
+12-5	852-853	l	_	_
+12-6	854-855	’	_	_
+12-7	856-863	'invito	_	_
+12-8	864-865	,	_	_
+12-9	866-867	e	_	_
+12-10	868-870	le	_	_
+12-11	871-881	risponderä	_	_
+12-12	882-885	per	_	_
+12-13	886-889	mio	_	_
+12-14	890-895	mezzo	_	_
+12-15	896-897	.	_	_
+
+#Text=Mi propongo poi inviare l'anzidetta risposta al Sig .
+13-1	898-900	Mi	_	_
+13-2	901-909	propongo	_	_
+13-3	910-913	poi	_	_
+13-4	914-921	inviare	_	_
+13-5	922-933	l'anzidetta	_	_
+13-6	934-942	risposta	_	_
+13-7	943-945	al	_	_
+13-8	946-949	Sig	_	_
+13-9	950-951	.	_	_
+
+#Text=Braun .
+14-1	952-957	Braun	*	PERmentioned
+14-2	958-959	.	_	_
+
+#Text=- O ' ricevuto l ’ 'annunzio intorno ai monumenti sepolcrali de' secoli XV e XVI e le ne parlerö von altra mia lettera .
+15-1	960-961	-	_	_
+15-2	962-963	O	_	_
+15-3	964-965	'	_	_
+15-4	966-974	ricevuto	_	_
+15-5	975-976	l	_	_
+15-6	977-978	’	_	_
+15-7	979-988	'annunzio	_	_
+15-8	989-996	intorno	_	_
+15-9	997-999	ai	_	_
+15-10	1000-1009	monumenti	_	_
+15-11	1010-1020	sepolcrali	_	_
+15-12	1021-1024	de'	_	_
+15-13	1025-1031	secoli	_	_
+15-14	1032-1034	XV	_	_
+15-15	1035-1036	e	_	_
+15-16	1037-1040	XVI	_	_
+15-17	1041-1042	e	_	_
+15-18	1043-1045	le	_	_
+15-19	1046-1048	ne	_	_
+15-20	1049-1056	parlerö	_	_
+15-21	1057-1060	von	_	_
+15-22	1061-1066	altra	_	_
+15-23	1067-1070	mia	_	_
+15-24	1071-1078	lettera	_	_
+15-25	1079-1080	.	_	_
+
+#Text=- Mi saluti cordialmente il bravissimo Panofka \; si diverta , faccia cose buone al suo solito , e ritorni in Roma , ove la sua persona & sommamente necessaria .
+16-1	1081-1082	-	_	_
+16-2	1083-1085	Mi	_	_
+16-3	1086-1092	saluti	_	_
+16-4	1093-1105	cordialmente	_	_
+16-5	1106-1108	il	_	_
+16-6	1109-1119	bravissimo	_	_
+16-7	1120-1127	Panofka	*	PERmentioned
+16-8	1128-1129	\;	_	_
+16-9	1130-1132	si	_	_
+16-10	1133-1140	diverta	_	_
+16-11	1141-1142	,	_	_
+16-12	1143-1149	faccia	_	_
+16-13	1150-1154	cose	_	_
+16-14	1155-1160	buone	_	_
+16-15	1161-1163	al	_	_
+16-16	1164-1167	suo	_	_
+16-17	1168-1174	solito	_	_
+16-18	1175-1176	,	_	_
+16-19	1177-1178	e	_	_
+16-20	1179-1186	ritorni	_	_
+16-21	1187-1189	in	_	_
+16-22	1190-1194	Roma	*	PLACEmentioned
+16-23	1195-1196	,	_	_
+16-24	1197-1200	ove	_	_
+16-25	1201-1203	la	_	_
+16-26	1204-1207	sua	_	_
+16-27	1208-1215	persona	_	_
+16-28	1216-1217	&	_	_
+16-29	1218-1228	sommamente	_	_
+16-30	1229-1239	necessaria	_	_
+16-31	1240-1241	.	_	_
+
+#Text=- Accolga intanto i sensi della gratitudine e del rispetto col quale 6 1l'onore di raffermarmi .
+17-1	1242-1243	-	_	_
+17-2	1244-1251	Accolga	_	_
+17-3	1252-1259	intanto	_	_
+17-4	1260-1261	i	_	_
+17-5	1262-1267	sensi	_	_
+17-6	1268-1273	della	_	_
+17-7	1274-1285	gratitudine	_	_
+17-8	1286-1287	e	_	_
+17-9	1288-1291	del	_	_
+17-10	1292-1300	rispetto	_	_
+17-11	1301-1304	col	_	_
+17-12	1305-1310	quale	_	_
+17-13	1311-1312	6	_	_
+17-14	1313-1321	1l'onore	_	_
+17-15	1322-1324	di	_	_
+17-16	1325-1336	raffermarmi	_	_
+17-17	1337-1338	.	_	_
+
+#Text=Devotissimo Sdf ,
+18-1	1339-1350	Devotissimo	*[7]	PERmentioned[7]
+18-2	1351-1354	Sdf	*[7]	PERmentioned[7]
+18-3	1355-1356	,	_	_

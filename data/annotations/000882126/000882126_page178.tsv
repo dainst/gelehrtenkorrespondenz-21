@@ -1,0 +1,303 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=284 Braun an Gerhard Rom , 29. Juni 1837 Kestner reist übermorgen mit Meister Lotsch nach Deutschland ab .
+1-1	0-3	284	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	29.	*[7]	DATEletter[7]
+1-8	31-35	Juni	*[7]	DATEletter[7]
+1-9	36-40	1837	*[7]	DATEletter[7]
+1-10	41-48	Kestner	*	PERmentioned
+1-11	49-54	reist	_	_
+1-12	55-65	übermorgen	_	_
+1-13	66-69	mit	_	_
+1-14	70-77	Meister	*[8]	PERmentioned[8]
+1-15	78-84	Lotsch	*[8]	PERmentioned[8]
+1-16	85-89	nach	_	_
+1-17	90-101	Deutschland	*	PLACEmentioned
+1-18	102-104	ab	_	_
+1-19	105-106	.	_	_
+
+#Text=Vorher hat er sich noch als antiker Minnesänger gemalt .
+2-1	107-113	Vorher	_	_
+2-2	114-117	hat	_	_
+2-3	118-120	er	_	_
+2-4	121-125	sich	_	_
+2-5	126-130	noch	_	_
+2-6	131-134	als	_	_
+2-7	135-142	antiker	_	_
+2-8	143-154	Minnesänger	_	_
+2-9	155-161	gemalt	_	_
+2-10	162-163	.	_	_
+
+#Text=Seine Schläfe ziert kein Lorbeerkranz \; dafür aber ist ein ganzer Lorbeerwald um ihn aufgewachsen .
+3-1	164-169	Seine	_	_
+3-2	170-177	Schläfe	_	_
+3-3	178-183	ziert	_	_
+3-4	184-188	kein	_	_
+3-5	189-201	Lorbeerkranz	_	_
+3-6	202-203	\;	_	_
+3-7	204-209	dafür	_	_
+3-8	210-214	aber	_	_
+3-9	215-218	ist	_	_
+3-10	219-222	ein	_	_
+3-11	223-229	ganzer	_	_
+3-12	230-241	Lorbeerwald	_	_
+3-13	242-244	um	_	_
+3-14	245-248	ihn	_	_
+3-15	249-261	aufgewachsen	_	_
+3-16	262-263	.	_	_
+
+#Text=Er trägt abito pavonazzo mit rotehm oder grünem Futter wie die Chorherren von S. Peter \; seine Rechte führt sinnig das Plektrum gegen die Macht einer goldenen Leier , welche ein leibhaftigesEbenbild der Pompejanischen Instrumente gleicher Bestinmung ist .
+4-1	264-266	Er	_	_
+4-2	267-272	trägt	_	_
+4-3	273-278	abito	_	_
+4-4	279-288	pavonazzo	_	_
+4-5	289-292	mit	_	_
+4-6	293-299	rotehm	_	_
+4-7	300-304	oder	_	_
+4-8	305-311	grünem	_	_
+4-9	312-318	Futter	_	_
+4-10	319-322	wie	_	_
+4-11	323-326	die	_	_
+4-12	327-337	Chorherren	_	_
+4-13	338-341	von	_	_
+4-14	342-344	S.	*[9]	MISC[9]
+4-15	345-350	Peter	*[9]	MISC[9]
+4-16	351-352	\;	_	_
+4-17	353-358	seine	_	_
+4-18	359-365	Rechte	_	_
+4-19	366-371	führt	_	_
+4-20	372-378	sinnig	_	_
+4-21	379-382	das	_	_
+4-22	383-391	Plektrum	_	_
+4-23	392-397	gegen	_	_
+4-24	398-401	die	_	_
+4-25	402-407	Macht	_	_
+4-26	408-413	einer	_	_
+4-27	414-422	goldenen	_	_
+4-28	423-428	Leier	_	_
+4-29	429-430	,	_	_
+4-30	431-437	welche	_	_
+4-31	438-441	ein	_	_
+4-32	442-462	leibhaftigesEbenbild	_	_
+4-33	463-466	der	_	_
+4-34	467-481	Pompejanischen	_	_
+4-35	482-493	Instrumente	_	_
+4-36	494-502	gleicher	_	_
+4-37	503-513	Bestinmung	_	_
+4-38	514-517	ist	_	_
+4-39	518-519	.	_	_
+
+#Text=In Neapel ist die Cholera fürchterlich \; 300 Tote und 500 Kranke jeden Tag .
+5-1	520-522	In	_	_
+5-2	523-529	Neapel	*	PLACEmentioned
+5-3	530-533	ist	_	_
+5-4	534-537	die	_	_
+5-5	538-545	Cholera	_	_
+5-6	546-558	fürchterlich	_	_
+5-7	559-560	\;	_	_
+5-8	561-564	300	_	_
+5-9	565-569	Tote	_	_
+5-10	570-573	und	_	_
+5-11	574-577	500	_	_
+5-12	578-584	Kranke	_	_
+5-13	585-590	jeden	_	_
+5-14	591-594	Tag	_	_
+5-15	595-596	.	_	_
+
+#Text=Die meisten sterben innerhalb 24 Stunden .
+6-1	597-600	Die	_	_
+6-2	601-608	meisten	_	_
+6-3	609-616	sterben	_	_
+6-4	617-626	innerhalb	_	_
+6-5	627-629	24	_	_
+6-6	630-637	Stunden	_	_
+6-7	638-639	.	_	_
+
+#Text=An Anfertigung von Zeichnungen ist unter solchen Umständen nicht zu denken .
+7-1	640-642	An	_	_
+7-2	643-654	Anfertigung	_	_
+7-3	655-658	von	_	_
+7-4	659-670	Zeichnungen	_	_
+7-5	671-674	ist	_	_
+7-6	675-680	unter	_	_
+7-7	681-688	solchen	_	_
+7-8	689-698	Umständen	_	_
+7-9	699-704	nicht	_	_
+7-10	705-707	zu	_	_
+7-11	708-714	denken	_	_
+7-12	715-716	.	_	_
+
+#Text=Dazu wird üÜberhaupt die persönliche Anwesenheit eines von uns nöthig sein .
+8-1	717-721	Dazu	_	_
+8-2	722-726	wird	_	_
+8-3	727-737	üÜberhaupt	_	_
+8-4	738-741	die	_	_
+8-5	742-753	persönliche	_	_
+8-6	754-765	Anwesenheit	_	_
+8-7	766-771	eines	_	_
+8-8	772-775	von	_	_
+8-9	776-779	uns	_	_
+8-10	780-786	nöthig	_	_
+8-11	787-791	sein	_	_
+8-12	792-793	.	_	_
+
+#Text=Diesen Herbst kann ich schwerlich dahin \; vielleicht aber auf 14 Tage nächstes Frühjahr .
+9-1	794-800	Diesen	_	_
+9-2	801-807	Herbst	_	_
+9-3	808-812	kann	_	_
+9-4	813-816	ich	_	_
+9-5	817-827	schwerlich	_	_
+9-6	828-833	dahin	_	_
+9-7	834-835	\;	_	_
+9-8	836-846	vielleicht	_	_
+9-9	847-851	aber	_	_
+9-10	852-855	auf	_	_
+9-11	856-858	14	_	_
+9-12	859-863	Tage	_	_
+9-13	864-872	nächstes	_	_
+9-14	873-881	Frühjahr	_	_
+9-15	882-883	.	_	_
+
+#Text=Ich arbeite seit 3 Tagen fürchterlich ( von früh 4 Uhr an ) im Institut .
+10-1	884-887	Ich	_	_
+10-2	888-895	arbeite	_	_
+10-3	896-900	seit	_	_
+10-4	901-902	3	_	_
+10-5	903-908	Tagen	_	_
+10-6	909-921	fürchterlich	_	_
+10-7	922-923	(	_	_
+10-8	924-927	von	_	_
+10-9	928-932	früh	_	_
+10-10	933-934	4	_	_
+10-11	935-938	Uhr	_	_
+10-12	939-941	an	_	_
+10-13	942-943	)	_	_
+10-14	944-946	im	_	_
+10-15	947-955	Institut	*	ORGmentioned
+10-16	956-957	.	_	_
+
+#Text=Dieses ist an einigen Stellen so feucht , daß die Scaviacten des unglücklichen Grafen von Cividale im eigentlichsten Sinne verfault sind .
+11-1	958-964	Dieses	_	_
+11-2	965-968	ist	_	_
+11-3	969-971	an	_	_
+11-4	972-979	einigen	_	_
+11-5	980-987	Stellen	_	_
+11-6	988-990	so	_	_
+11-7	991-997	feucht	_	_
+11-8	998-999	,	_	_
+11-9	1000-1003	daß	_	_
+11-10	1004-1007	die	_	_
+11-11	1008-1018	Scaviacten	_	_
+11-12	1019-1022	des	_	_
+11-13	1023-1036	unglücklichen	_	_
+11-14	1037-1043	Grafen	*[10]	PERmentioned[10]
+11-15	1044-1047	von	*[10]	PERmentioned[10]
+11-16	1048-1056	Cividale	*[10]	PERmentioned[10]
+11-17	1057-1059	im	_	_
+11-18	1060-1074	eigentlichsten	_	_
+11-19	1075-1080	Sinne	_	_
+11-20	1081-1089	verfault	_	_
+11-21	1090-1094	sind	_	_
+11-22	1095-1096	.	_	_
+
+#Text=Ich habe dies heute Morgen mit Schrecken wahrgenommen .
+12-1	1097-1100	Ich	_	_
+12-2	1101-1105	habe	_	_
+12-3	1106-1110	dies	_	_
+12-4	1111-1116	heute	_	_
+12-5	1117-1123	Morgen	_	_
+12-6	1124-1127	mit	_	_
+12-7	1128-1137	Schrecken	_	_
+12-8	1138-1150	wahrgenommen	_	_
+12-9	1151-1152	.	_	_
+
+#Text=Daran hat Niemand Schuld außer das lokal \; denn sie waren gut verpackt und hatten den sichersten Ort zum Platz angewiesen erhalten .
+13-1	1153-1158	Daran	_	_
+13-2	1159-1162	hat	_	_
+13-3	1163-1170	Niemand	_	_
+13-4	1171-1177	Schuld	_	_
+13-5	1178-1183	außer	_	_
+13-6	1184-1187	das	_	_
+13-7	1188-1193	lokal	_	_
+13-8	1194-1195	\;	_	_
+13-9	1196-1200	denn	_	_
+13-10	1201-1204	sie	_	_
+13-11	1205-1210	waren	_	_
+13-12	1211-1214	gut	_	_
+13-13	1215-1223	verpackt	_	_
+13-14	1224-1227	und	_	_
+13-15	1228-1234	hatten	_	_
+13-16	1235-1238	den	_	_
+13-17	1239-1249	sichersten	_	_
+13-18	1250-1253	Ort	_	_
+13-19	1254-1257	zum	_	_
+13-20	1258-1263	Platz	_	_
+13-21	1264-1274	angewiesen	_	_
+13-22	1275-1283	erhalten	_	_
+13-23	1284-1285	.	_	_
+
+#Text=Reumont soll sehr an Brustkrämpfen leiden \; Lepsius war auch einige Tage krank \; Rev .
+14-1	1286-1293	Reumont	*	PERmentioned
+14-2	1294-1298	soll	_	_
+14-3	1299-1303	sehr	_	_
+14-4	1304-1306	an	_	_
+14-5	1307-1320	Brustkrämpfen	_	_
+14-6	1321-1327	leiden	_	_
+14-7	1328-1329	\;	_	_
+14-8	1330-1337	Lepsius	*	PERmentioned
+14-9	1338-1341	war	_	_
+14-10	1342-1346	auch	_	_
+14-11	1347-1353	einige	_	_
+14-12	1354-1358	Tage	_	_
+14-13	1359-1364	krank	_	_
+14-14	1365-1366	\;	_	_
+14-15	1367-1370	Rev	*[12]	PERmentioned[12]
+14-16	1371-1372	.	*[12]	PERmentioned[12]
+
+#Text=Abeken soll sich in Frascati unwohl befinden .
+15-1	1373-1379	Abeken	*	PERmentioned
+15-2	1380-1384	soll	_	_
+15-3	1385-1389	sich	_	_
+15-4	1390-1392	in	_	_
+15-5	1393-1401	Frascati	*	PLACEmentioned
+15-6	1402-1408	unwohl	_	_
+15-7	1409-1417	befinden	_	_
+15-8	1418-1419	.	_	_
+
+#Text=Die Cista von S. Luca ist bereits gestochen \; ich habe sie auf 2 Platten vertheilt und sie für den gewiß äußerst billigen Preis von 12 Scudi erhalten \;
+16-1	1420-1423	Die	_	_
+16-2	1424-1429	Cista	*[11]	OBJ[11]
+16-3	1430-1433	von	*[11]	OBJ[11]
+16-4	1434-1436	S.	*[11]	OBJ[11]
+16-5	1437-1441	Luca	*[11]	OBJ[11]
+16-6	1442-1445	ist	_	_
+16-7	1446-1453	bereits	_	_
+16-8	1454-1463	gestochen	_	_
+16-9	1464-1465	\;	_	_
+16-10	1466-1469	ich	_	_
+16-11	1470-1474	habe	_	_
+16-12	1475-1478	sie	_	_
+16-13	1479-1482	auf	_	_
+16-14	1483-1484	2	_	_
+16-15	1485-1492	Platten	_	_
+16-16	1493-1502	vertheilt	_	_
+16-17	1503-1506	und	_	_
+16-18	1507-1510	sie	_	_
+16-19	1511-1514	für	_	_
+16-20	1515-1518	den	_	_
+16-21	1519-1524	gewiß	_	_
+16-22	1525-1532	äußerst	_	_
+16-23	1533-1541	billigen	_	_
+16-24	1542-1547	Preis	_	_
+16-25	1548-1551	von	_	_
+16-26	1552-1554	12	_	_
+16-27	1555-1560	Scudi	_	_
+16-28	1561-1569	erhalten	_	_
+16-29	1570-1571	\;	_	_

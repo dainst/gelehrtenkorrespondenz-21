@@ -1,0 +1,187 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Geshasl Frascati ?
+1-1	0-6	Bunsen	*	PERmentioned
+1-2	7-9	an	_	_
+1-3	10-17	Geshasl	_	_
+1-4	18-26	Frascati	*	PLACEfrom
+1-5	27-28	?	_	_
+
+#Text=1. Februar 1832 1 Febr 32 Ich eile , lieber Freund , Ihnen zu melden , daß ich noch heut den guten Knapp auffordere , selbst die Arbeit für Knight liegen zu lassen , um binnen 14 Tagen die Platten für Sie fertig zu schaffen .
+2-1	29-31	1.	*[3]	DATEletter[3]
+2-2	32-39	Februar	*[3]	DATEletter[3]
+2-3	40-44	1832	*[3]	DATEletter[3]
+2-4	45-46	1	*[4]	DATEletter[4]
+2-5	47-51	Febr	*[4]	DATEletter[4]
+2-6	52-54	32	*[4]	DATEletter[4]
+2-7	55-58	Ich	_	_
+2-8	59-63	eile	_	_
+2-9	64-65	,	_	_
+2-10	66-72	lieber	_	_
+2-11	73-79	Freund	_	_
+2-12	80-81	,	_	_
+2-13	82-87	Ihnen	_	_
+2-14	88-90	zu	_	_
+2-15	91-97	melden	_	_
+2-16	98-99	,	_	_
+2-17	100-103	daß	_	_
+2-18	104-107	ich	_	_
+2-19	108-112	noch	_	_
+2-20	113-117	heut	_	_
+2-21	118-121	den	_	_
+2-22	122-127	guten	_	_
+2-23	128-133	Knapp	*	PERmentioned
+2-24	134-144	auffordere	_	_
+2-25	145-146	,	_	_
+2-26	147-153	selbst	_	_
+2-27	154-157	die	_	_
+2-28	158-164	Arbeit	_	_
+2-29	165-168	für	_	_
+2-30	169-175	Knight	*	PERmentioned
+2-31	176-182	liegen	_	_
+2-32	183-185	zu	_	_
+2-33	186-192	lassen	_	_
+2-34	193-194	,	_	_
+2-35	195-197	um	_	_
+2-36	198-204	binnen	_	_
+2-37	205-207	14	_	_
+2-38	208-213	Tagen	_	_
+2-39	214-217	die	_	_
+2-40	218-225	Platten	_	_
+2-41	226-229	für	_	_
+2-42	230-233	Sie	_	_
+2-43	234-240	fertig	_	_
+2-44	241-243	zu	_	_
+2-45	244-252	schaffen	_	_
+2-46	253-254	.	_	_
+
+#Text=Die Nothwendigkeit , daß der Annalendruck vom Jahr 1832 nach Paris verlegt werde , ist für Sie , für uns alle und das Institut selbst zu dringend , als daß ihr nicht alles andre nachstehen müsse .
+3-1	255-258	Die	_	_
+3-2	259-273	Nothwendigkeit	_	_
+3-3	274-275	,	_	_
+3-4	276-279	daß	_	_
+3-5	280-283	der	_	_
+3-6	284-296	Annalendruck	_	_
+3-7	297-300	vom	_	_
+3-8	301-305	Jahr	*[7]	DATEmentioned[7]
+3-9	306-310	1832	*[7]	DATEmentioned[7]
+3-10	311-315	nach	_	_
+3-11	316-321	Paris	*	PLACEmentioned
+3-12	322-329	verlegt	_	_
+3-13	330-335	werde	_	_
+3-14	336-337	,	_	_
+3-15	338-341	ist	_	_
+3-16	342-345	für	_	_
+3-17	346-349	Sie	_	_
+3-18	350-351	,	_	_
+3-19	352-355	für	_	_
+3-20	356-359	uns	_	_
+3-21	360-364	alle	_	_
+3-22	365-368	und	_	_
+3-23	369-372	das	_	_
+3-24	373-381	Institut	*	ORGmentioned
+3-25	382-388	selbst	_	_
+3-26	389-391	zu	_	_
+3-27	392-400	dringend	_	_
+3-28	401-402	,	_	_
+3-29	403-406	als	_	_
+3-30	407-410	daß	_	_
+3-31	411-414	ihr	_	_
+3-32	415-420	nicht	_	_
+3-33	421-426	alles	_	_
+3-34	427-432	andre	_	_
+3-35	433-443	nachstehen	_	_
+3-36	444-449	müsse	_	_
+3-37	450-451	.	_	_
+
+#Text=Wegen der memorie wäre es wohl gut noch einmal Rath zu pflegen .
+4-1	452-457	Wegen	_	_
+4-2	458-461	der	_	_
+4-3	462-469	memorie	_	_
+4-4	470-474	wäre	_	_
+4-5	475-477	es	_	_
+4-6	478-482	wohl	_	_
+4-7	483-486	gut	_	_
+4-8	487-491	noch	_	_
+4-9	492-498	einmal	_	_
+4-10	499-503	Rath	_	_
+4-11	504-506	zu	_	_
+4-12	507-514	pflegen	_	_
+4-13	515-516	.	_	_
+
+#Text=Wenn Inghirafi seinen dummen Aufsatz selbst drucken will , so wäre , scheint mir , unsere Bemühung ganz unnütz .
+5-1	517-521	Wenn	_	_
+5-2	522-531	Inghirafi	*	PERmentioned
+5-3	532-538	seinen	_	_
+5-4	539-545	dummen	_	_
+5-5	546-553	Aufsatz	_	_
+5-6	554-560	selbst	_	_
+5-7	561-568	drucken	_	_
+5-8	569-573	will	_	_
+5-9	574-575	,	_	_
+5-10	576-578	so	_	_
+5-11	579-583	wäre	_	_
+5-12	584-585	,	_	_
+5-13	586-593	scheint	_	_
+5-14	594-597	mir	_	_
+5-15	598-599	,	_	_
+5-16	600-606	unsere	_	_
+5-17	607-615	Bemühung	_	_
+5-18	616-620	ganz	_	_
+5-19	621-627	unnütz	_	_
+5-20	628-629	.	_	_
+
+#Text=Bell könnte dann in das Pariser Heft kommen .
+6-1	630-634	Bell	_	_
+6-2	635-641	könnte	_	_
+6-3	642-646	dann	_	_
+6-4	647-649	in	_	_
+6-5	650-653	das	_	_
+6-6	654-661	Pariser	*	PLACEmentioned
+6-7	662-666	Heft	_	_
+6-8	667-673	kommen	_	_
+6-9	674-675	.	_	_
+
+#Text=Ich sage dies .
+7-1	676-679	Ich	_	_
+7-2	680-684	sage	_	_
+7-3	685-689	dies	_	_
+7-4	690-691	.	_	_
+
+#Text=aus ökonomischen Gründen , die ich Ihnen sehr ans Herz lege , denn an eine Unterstüzung von Berlin , ehe Sie dort sind , ist nicht zu denken .
+8-1	692-695	aus	_	_
+8-2	696-708	ökonomischen	_	_
+8-3	709-716	Gründen	_	_
+8-4	717-718	,	_	_
+8-5	719-722	die	_	_
+8-6	723-726	ich	_	_
+8-7	727-732	Ihnen	_	_
+8-8	733-737	sehr	_	_
+8-9	738-741	ans	_	_
+8-10	742-746	Herz	_	_
+8-11	747-751	lege	_	_
+8-12	752-753	,	_	_
+8-13	754-758	denn	_	_
+8-14	759-761	an	_	_
+8-15	762-766	eine	_	_
+8-16	767-779	Unterstüzung	_	_
+8-17	780-783	von	_	_
+8-18	784-790	Berlin	*	PLACEmentioned
+8-19	791-792	,	_	_
+8-20	793-796	ehe	_	_
+8-21	797-800	Sie	_	_
+8-22	801-805	dort	_	_
+8-23	806-810	sind	_	_
+8-24	811-812	,	_	_
+8-25	813-816	ist	_	_
+8-26	817-822	nicht	_	_
+8-27	823-825	zu	_	_
+8-28	826-832	denken	_	_
+8-29	833-834	.	_	_
+
+#Text=Nachfrage Ohne Unterschrift
+9-1	835-844	Nachfrage	_	_
+9-2	845-849	Ohne	_	_
+9-3	850-862	Unterschrift	_	_

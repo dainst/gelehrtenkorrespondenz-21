@@ -1,0 +1,150 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=274 Brunn an Henzen Perugia , 8 .
+1-1	0-3	274	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	8	_	_
+1-8	32-33	.	_	_
+
+#Text=Sept .
+2-1	34-38	Sept	*[9]	DATEletter[9]
+2-2	39-40	.	*[9]	DATEletter[9]
+
+#Text=1862 Mantefalco nachweise .
+3-1	41-45	1862	*[9]	DATEletter[9]
+3-2	46-56	Mantefalco	*	PLACEmentioned
+3-3	57-66	nachweise	_	_
+3-4	67-68	.	_	_
+
+#Text=Da Sie dieselben revidiren müssen , so wird sie gern die Gelegenheit zur Besichtigung der Benozzo Gozzoli 's benutzen .
+4-1	69-71	Da	_	_
+4-2	72-75	Sie	_	_
+4-3	76-85	dieselben	_	_
+4-4	86-95	revidiren	_	_
+4-5	96-102	müssen	_	_
+4-6	103-104	,	_	_
+4-7	105-107	so	_	_
+4-8	108-112	wird	_	_
+4-9	113-116	sie	_	_
+4-10	117-121	gern	_	_
+4-11	122-125	die	_	_
+4-12	126-137	Gelegenheit	_	_
+4-13	138-141	zur	_	_
+4-14	142-154	Besichtigung	_	_
+4-15	155-158	der	_	_
+4-16	159-166	Benozzo	*[10]	PERmentioned[10]
+4-17	167-174	Gozzoli	*[10]	PERmentioned[10]
+4-18	175-177	's	*[10]	PERmentioned[10]
+4-19	178-186	benutzen	_	_
+4-20	187-188	.	_	_
+
+#Text=Uebriges wohl und munter , was Sie den meinigen melden mögen .
+5-1	189-197	Uebriges	_	_
+5-2	198-202	wohl	_	_
+5-3	203-206	und	_	_
+5-4	207-213	munter	_	_
+5-5	214-215	,	_	_
+5-6	216-219	was	_	_
+5-7	220-223	Sie	_	_
+5-8	224-227	den	_	_
+5-9	228-236	meinigen	_	_
+5-10	237-243	melden	_	_
+5-11	244-249	mögen	_	_
+5-12	250-251	.	_	_
+
+#Text=Mein Aeltester schreit und lärmt aber doch weit kräftiger , als beide Bartoccinis zusammen .
+6-1	252-256	Mein	*[11]	PERmentioned[11]
+6-2	257-266	Aeltester	*[11]	PERmentioned[11]
+6-3	267-274	schreit	_	_
+6-4	275-278	und	_	_
+6-5	279-284	lärmt	_	_
+6-6	285-289	aber	_	_
+6-7	290-294	doch	_	_
+6-8	295-299	weit	_	_
+6-9	300-309	kräftiger	_	_
+6-10	310-311	,	_	_
+6-11	312-315	als	_	_
+6-12	316-321	beide	_	_
+6-13	322-333	Bartoccinis	*	PERmentioned
+6-14	334-342	zusammen	_	_
+6-15	343-344	.	_	_
+
+#Text=Sagen Sie ihm , er solle ich auch ferner so stramm halten .
+7-1	345-350	Sagen	_	_
+7-2	351-354	Sie	_	_
+7-3	355-358	ihm	_	_
+7-4	359-360	,	_	_
+7-5	361-363	er	_	_
+7-6	364-369	solle	_	_
+7-7	370-373	ich	_	_
+7-8	374-378	auch	_	_
+7-9	379-385	ferner	_	_
+7-10	386-388	so	_	_
+7-11	389-395	stramm	_	_
+7-12	396-402	halten	_	_
+7-13	403-404	.	_	_
+
+#Text=Meiner Frau schreibe ich in ein Paar Tagen .
+8-1	405-411	Meiner	*[12]	PERmentioned[12]
+8-2	412-416	Frau	*[12]	PERmentioned[12]
+8-3	417-425	schreibe	_	_
+8-4	426-429	ich	_	_
+8-5	430-432	in	_	_
+8-6	433-436	ein	_	_
+8-7	437-441	Paar	_	_
+8-8	442-447	Tagen	_	_
+8-9	448-449	.	_	_
+
+#Text=Die Zeit zersplittert sich hier sehr , namentlich in casa di amici , obwohl Bart .
+9-1	450-453	Die	_	_
+9-2	454-458	Zeit	_	_
+9-3	459-471	zersplittert	_	_
+9-4	472-476	sich	_	_
+9-5	477-481	hier	_	_
+9-6	482-486	sehr	_	_
+9-7	487-488	,	_	_
+9-8	489-499	namentlich	_	_
+9-9	500-502	in	_	_
+9-10	503-507	casa	_	_
+9-11	508-510	di	_	_
+9-12	511-516	amici	_	_
+9-13	517-518	,	_	_
+9-14	519-525	obwohl	_	_
+9-15	526-530	Bart	*	PERmentioned
+9-16	531-532	.	_	_
+
+#Text=mir alle Freiheit lassen .
+10-1	533-536	mir	_	_
+10-2	537-541	alle	_	_
+10-3	542-550	Freiheit	_	_
+10-4	551-557	lassen	_	_
+10-5	558-559	.	_	_
+
+#Text=Mit besten Grüßen allerseits .
+11-1	560-563	Mit	_	_
+11-2	564-570	besten	_	_
+11-3	571-577	Grüßen	_	_
+11-4	578-588	allerseits	_	_
+11-5	589-590	.	_	_
+
+#Text=Ihr H Brunn Perugia , 8 : IX ( Montag Abends ) 1862 .
+12-1	591-594	Ihr	_	_
+12-2	595-596	H	*[13]	PERauthor[13]
+12-3	597-602	Brunn	*[13]	PERauthor[13]
+12-4	603-610	Perugia	*	PLACEfrom
+12-5	611-612	,	_	_
+12-6	613-614	8	*[14]	DATEletter[14]
+12-7	615-616	:	*[14]	DATEletter[14]
+12-8	617-619	IX	*[14]	DATEletter[14]
+12-9	620-621	(	*[14]	DATEletter[14]
+12-10	622-628	Montag	*[14]	DATEletter[14]
+12-11	629-635	Abends	*[14]	DATEletter[14]
+12-12	636-637	)	*[14]	DATEletter[14]
+12-13	638-642	1862	*[14]	DATEletter[14]
+12-14	643-644	.	_	_

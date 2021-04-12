@@ -1,0 +1,187 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen R ( om ) , 11 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-17	R	_	_
+1-5	18-19	(	_	_
+1-6	20-22	om	*	PLACEfrom
+1-7	23-24	)	_	_
+1-8	25-26	,	_	_
+1-9	27-29	11	*[5]	DATEletter[5]
+1-10	30-31	.	*[5]	PERaddressee|DATEletter[5]
+
+#Text=Sept .
+2-1	32-36	Sept	*[5]	DATEletter[5]
+2-2	37-38	.	*[5]	DATEletter[5]
+
+#Text=1861 g . 11. September 186 % ncr Brief von Frau Braun , resp .
+3-1	39-43	1861	*[5]	DATEletter[5]
+3-2	44-45	g	_	_
+3-3	46-47	.	_	_
+3-4	48-51	11.	*[6]	DATErecieved[6]
+3-5	52-61	September	*[6]	DATErecieved[6]
+3-6	62-65	186	*[6]	DATErecieved[6]
+3-7	66-67	%	_	_
+3-8	68-71	ncr	_	_
+3-9	72-77	Brief	_	_
+3-10	78-81	von	_	_
+3-11	82-86	Frau	*[7]	PERmentioned[7]
+3-12	87-92	Braun	*[7]	PERmentioned[7]
+3-13	93-94	,	_	_
+3-14	95-99	resp	_	_
+3-15	100-101	.	_	_
+
+#Text=Fr. Müller , die , wie mir Schulz sagt , nicht nach Rom zurückkehren und wohl die Wohnung aufgeben werden .
+4-1	102-105	Fr.	*[8]	PERmentioned[8]
+4-2	106-112	Müller	*[8]	PERmentioned[8]
+4-3	113-114	,	_	_
+4-4	115-118	die	_	_
+4-5	119-120	,	_	_
+4-6	121-124	wie	_	_
+4-7	125-128	mir	_	_
+4-8	129-135	Schulz	*	PERmentioned
+4-9	136-140	sagt	_	_
+4-10	141-142	,	_	_
+4-11	143-148	nicht	_	_
+4-12	149-153	nach	_	_
+4-13	154-157	Rom	*	PLACEmentioned
+4-14	158-170	zurückkehren	_	_
+4-15	171-174	und	_	_
+4-16	175-179	wohl	_	_
+4-17	180-183	die	_	_
+4-18	184-191	Wohnung	_	_
+4-19	192-200	aufgeben	_	_
+4-20	201-207	werden	_	_
+4-21	208-209	.	_	_
+
+#Text=Dito von Detlefsen .
+5-1	210-214	Dito	_	_
+5-2	215-218	von	_	_
+5-3	219-228	Detlefsen	*	PERmentioned
+5-4	229-230	.	_	_
+
+#Text=Und ein Dritter unbekannter .
+6-1	231-234	Und	_	_
+6-2	235-238	ein	_	_
+6-3	239-246	Dritter	_	_
+6-4	247-258	unbekannter	_	_
+6-5	259-260	.	_	_
+
+#Text=Ferner 2 Bogen Prodomus , wovon ich nur ein Exemplar schicke , so wie 4 Blätter Kalendarium , je ein 5 Ex .
+7-1	261-267	Ferner	_	_
+7-2	268-269	2	_	_
+7-3	270-275	Bogen	_	_
+7-4	276-284	Prodomus	*	OBJ
+7-5	285-286	,	_	_
+7-6	287-292	wovon	_	_
+7-7	293-296	ich	_	_
+7-8	297-300	nur	_	_
+7-9	301-304	ein	_	_
+7-10	305-313	Exemplar	_	_
+7-11	314-321	schicke	_	_
+7-12	322-323	,	_	_
+7-13	324-326	so	_	_
+7-14	327-330	wie	_	_
+7-15	331-332	4	_	_
+7-16	333-340	Blätter	_	_
+7-17	341-352	Kalendarium	*	OBJ
+7-18	353-354	,	_	_
+7-19	355-357	je	_	_
+7-20	358-361	ein	_	_
+7-21	362-363	5	_	_
+7-22	364-366	Ex	_	_
+7-23	367-368	.	_	_
+
+#Text=von dem Sie das mit den Correcturen erhalten .
+8-1	369-372	von	_	_
+8-2	373-376	dem	_	_
+8-3	377-380	Sie	_	_
+8-4	381-384	das	_	_
+8-5	385-388	mit	_	_
+8-6	389-392	den	_	_
+8-7	393-404	Correcturen	_	_
+8-8	405-413	erhalten	_	_
+8-9	414-415	.	_	_
+
+#Text=2 Zeitungen und endlich ein Brief für meine Frau .
+9-1	416-417	2	_	_
+9-2	418-427	Zeitungen	_	_
+9-3	428-431	und	_	_
+9-4	432-439	endlich	_	_
+9-5	440-443	ein	_	_
+9-6	444-449	Brief	_	_
+9-7	450-453	für	_	_
+9-8	454-459	meine	*[9]	PERmentioned[9]
+9-9	460-464	Frau	*[9]	PERmentioned[9]
+9-10	465-466	.	_	_
+
+#Text=Die andern impiccietti werden besorgt werden .
+10-1	467-470	Die	_	_
+10-2	471-477	andern	_	_
+10-3	478-489	impiccietti	_	_
+10-4	490-496	werden	_	_
+10-5	497-504	besorgt	_	_
+10-6	505-511	werden	_	_
+10-7	512-513	.	_	_
+
+#Text=Brief von Ritschl , den ich Ihnen Freitag mittheilen werde \; nichts pressantes .
+11-1	514-519	Brief	_	_
+11-2	520-523	von	_	_
+11-3	524-531	Ritschl	*	PERmentioned
+11-4	532-533	,	_	_
+11-5	534-537	den	_	_
+11-6	538-541	ich	_	_
+11-7	542-547	Ihnen	_	_
+11-8	548-555	Freitag	*	DATEmentioned
+11-9	556-566	mittheilen	_	_
+11-10	567-572	werde	_	_
+11-11	573-574	\;	_	_
+11-12	575-581	nichts	_	_
+11-13	582-592	pressantes	_	_
+11-14	593-594	.	_	_
+
+#Text=Vielerlei Geschäftchen , unter denen zunächst das Auseinandernehmen der Ciste das bedeutenste .
+12-1	595-604	Vielerlei	_	_
+12-2	605-617	Geschäftchen	_	_
+12-3	618-619	,	_	_
+12-4	620-625	unter	_	_
+12-5	626-631	denen	_	_
+12-6	632-640	zunächst	_	_
+12-7	641-644	das	_	_
+12-8	645-662	Auseinandernehmen	_	_
+12-9	663-666	der	_	_
+12-10	667-672	Ciste	*	OBJ
+12-11	673-676	das	_	_
+12-12	677-688	bedeutenste	_	_
+12-13	689-690	.	_	_
+
+#Text=Starker Wind , aber erst ein Paar Tropfen Regen .
+13-1	691-698	Starker	_	_
+13-2	699-703	Wind	_	_
+13-3	704-705	,	_	_
+13-4	706-710	aber	_	_
+13-5	711-715	erst	_	_
+13-6	716-719	ein	_	_
+13-7	720-724	Paar	_	_
+13-8	725-732	Tropfen	_	_
+13-9	733-738	Regen	_	_
+13-10	739-740	.	_	_
+
+#Text=Ihr HBr .
+14-1	741-744	Ihr	_	_
+14-2	745-748	HBr	*	PERauthor
+14-3	749-750	.	_	_
+
+#Text=R . 11 : IX , 61 .
+15-1	751-752	R	*[11]	PLACEfrom[11]
+15-2	753-754	.	*[11]	PLACEfrom[11]
+15-3	755-757	11	*[10]	DATEletter[10]
+15-4	758-759	:	*[10]	DATEletter[10]
+15-5	760-762	IX	*[10]	DATEletter[10]
+15-6	763-764	,	*[10]	DATEletter[10]
+15-7	765-767	61	*[10]	DATEletter[10]
+15-8	768-769	.	_	_

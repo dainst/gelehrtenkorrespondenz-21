@@ -1,0 +1,116 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 8 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	8	*[1]	DATEletter[1]
+1-7	28-29	.	*[1]	DATEletter[1]
+
+#Text=August 1846 - Nichts von Vollard .
+2-1	30-36	August	*[1]	DATEletter[1]
+2-2	37-41	1846	*[1]	DATEletter[1]
+2-3	42-43	-	_	_
+2-4	44-50	Nichts	_	_
+2-5	51-54	von	_	_
+2-6	55-62	Vollard	*	PERmentioned
+2-7	63-64	.	_	_
+
+#Text=Kabren soll geäußert haben seine Frau für den Winter hier zu erwarten .
+3-1	65-71	Kabren	*	PERmentioned
+3-2	72-76	soll	_	_
+3-3	77-85	geäußert	_	_
+3-4	86-91	haben	_	_
+3-5	92-97	seine	_	_
+3-6	98-102	Frau	_	_
+3-7	103-106	für	_	_
+3-8	107-110	den	_	_
+3-9	111-117	Winter	_	_
+3-10	118-122	hier	_	_
+3-11	123-125	zu	_	_
+3-12	126-134	erwarten	_	_
+3-13	135-136	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Franz bot die Paralipomena der von Lon mitgebrachten und im Corp .
+4-1	137-147	Herzlichst	_	_
+4-2	148-151	Ihr	_	_
+4-3	152-159	Gerhard	*	PERauthor
+4-4	160-165	Franz	*	PERmentioned
+4-5	166-169	bot	_	_
+4-6	170-173	die	_	_
+4-7	174-186	Paralipomena	_	_
+4-8	187-190	der	_	_
+4-9	191-194	von	_	_
+4-10	195-198	Lon	*	PERmentioned
+4-11	199-212	mitgebrachten	_	_
+4-12	213-216	und	_	_
+4-13	217-219	im	_	_
+4-14	220-224	Corp	_	_
+4-15	225-226	.	_	_
+
+#Text=Inscrip .
+5-1	227-234	Inscrip	_	_
+5-2	235-236	.	_	_
+
+#Text=unbenutzt gebliebenen Inscription dem Institut an \; ich habe ihm zu verstehn gegeben daß seine Schnitzel in den Annali 1842 nicht genug geschätzt worden wären .
+6-1	237-246	unbenutzt	_	_
+6-2	247-258	gebliebenen	_	_
+6-3	259-270	Inscription	*	OBJ
+6-4	271-274	dem	_	_
+6-5	275-283	Institut	*	ORGmentioned
+6-6	284-286	an	_	_
+6-7	287-288	\;	_	_
+6-8	289-292	ich	_	_
+6-9	293-297	habe	_	_
+6-10	298-301	ihm	_	_
+6-11	302-304	zu	_	_
+6-12	305-313	verstehn	_	_
+6-13	314-321	gegeben	_	_
+6-14	322-325	daß	_	_
+6-15	326-331	seine	_	_
+6-16	332-341	Schnitzel	_	_
+6-17	342-344	in	_	_
+6-18	345-348	den	_	_
+6-19	349-355	Annali	_	_
+6-20	356-360	1842	*	DATEmentioned
+6-21	361-366	nicht	_	_
+6-22	367-372	genug	_	_
+6-23	373-382	geschätzt	_	_
+6-24	383-389	worden	_	_
+6-25	390-395	wären	_	_
+6-26	396-397	.	_	_
+
+#Text=Können Sie nichts dazu thun daß Friedländer nach Griechland und Asien kommt .
+7-1	398-404	Können	_	_
+7-2	405-408	Sie	_	_
+7-3	409-415	nichts	_	_
+7-4	416-420	dazu	_	_
+7-5	421-425	thun	_	_
+7-6	426-429	daß	_	_
+7-7	430-441	Friedländer	*	PERmentioned
+7-8	442-446	nach	_	_
+7-9	447-457	Griechland	*	PLACEmentioned
+7-10	458-461	und	_	_
+7-11	462-467	Asien	*	PLACEmentioned
+7-12	468-473	kommt	_	_
+7-13	474-475	.	_	_
+
+#Text=Für numismatische Zwecke könnte das ergiebig sein \; er braucht freilich nachsichtige Gesellschaft .
+8-1	476-479	Für	_	_
+8-2	480-493	numismatische	_	_
+8-3	494-500	Zwecke	_	_
+8-4	501-507	könnte	_	_
+8-5	508-511	das	_	_
+8-6	512-520	ergiebig	_	_
+8-7	521-525	sein	_	_
+8-8	526-527	\;	_	_
+8-9	528-530	er	_	_
+8-10	531-538	braucht	_	_
+8-11	539-547	freilich	_	_
+8-12	548-560	nachsichtige	_	_
+8-13	561-573	Gesellschaft	_	_
+8-14	574-575	.	_	_

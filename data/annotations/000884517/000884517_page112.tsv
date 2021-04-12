@@ -1,0 +1,124 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=83 Gerhard an Braun Berlin , 25. Februar 1845 sriff seines Namens von Bunsen unterzeichnet in Umlauf setze .
+1-1	0-2	83	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	25.	*[3]	DATEletter[3]
+1-8	33-40	Februar	*[3]	DATEletter[3]
+1-9	41-45	1845	*[3]	DATEletter[3]
+1-10	46-51	sriff	_	_
+1-11	52-58	seines	_	_
+1-12	59-65	Namens	_	_
+1-13	66-69	von	_	_
+1-14	70-76	Bunsen	*	PERmentioned
+1-15	77-90	unterzeichnet	_	_
+1-16	91-93	in	_	_
+1-17	94-100	Umlauf	_	_
+1-18	101-106	setze	_	_
+1-19	107-108	.	_	_
+
+#Text=Meine Frage wegen der großgriechischen Münzen ging dahin ob Sie alle oder nur die Auswahl wollten die offen ausliegt \; ich habe nur die letztere mir bei Krause bestellt .
+2-1	109-114	Meine	_	_
+2-2	115-120	Frage	_	_
+2-3	121-126	wegen	_	_
+2-4	127-130	der	_	_
+2-5	131-147	großgriechischen	*	MISC
+2-6	148-154	Münzen	*	OBJ
+2-7	155-159	ging	_	_
+2-8	160-165	dahin	_	_
+2-9	166-168	ob	_	_
+2-10	169-172	Sie	_	_
+2-11	173-177	alle	_	_
+2-12	178-182	oder	_	_
+2-13	183-186	nur	_	_
+2-14	187-190	die	_	_
+2-15	191-198	Auswahl	_	_
+2-16	199-206	wollten	_	_
+2-17	207-210	die	_	_
+2-18	211-216	offen	_	_
+2-19	217-225	ausliegt	_	_
+2-20	226-227	\;	_	_
+2-21	228-231	ich	_	_
+2-22	232-236	habe	_	_
+2-23	237-240	nur	_	_
+2-24	241-244	die	_	_
+2-25	245-253	letztere	_	_
+2-26	254-257	mir	_	_
+2-27	258-261	bei	_	_
+2-28	262-268	Krause	*	PERmentioned
+2-29	269-277	bestellt	_	_
+2-30	278-279	.	_	_
+
+#Text=Für eilige und leichte Sendungen wird uns Ende M März Cornelius dienen können .
+3-1	280-283	Für	_	_
+3-2	284-290	eilige	_	_
+3-3	291-294	und	_	_
+3-4	295-302	leichte	_	_
+3-5	303-312	Sendungen	_	_
+3-6	313-317	wird	_	_
+3-7	318-321	uns	_	_
+3-8	322-326	Ende	_	_
+3-9	327-328	M	_	_
+3-10	329-333	März	*	DATEmentioned
+3-11	334-343	Cornelius	*	PERmentioned
+3-12	344-350	dienen	_	_
+3-13	351-357	können	_	_
+3-14	358-359	.	_	_
+
+#Text=In einigen Tagen denke ich wieder zu schreiben \; lange Nichts von Ihnen .
+4-1	360-362	In	_	_
+4-2	363-370	einigen	_	_
+4-3	371-376	Tagen	_	_
+4-4	377-382	denke	_	_
+4-5	383-386	ich	_	_
+4-6	387-393	wieder	_	_
+4-7	394-396	zu	_	_
+4-8	397-406	schreiben	_	_
+4-9	407-408	\;	_	_
+4-10	409-414	lange	_	_
+4-11	415-421	Nichts	_	_
+4-12	422-425	von	_	_
+4-13	426-431	Ihnen	_	_
+4-14	432-433	.	_	_
+
+#Text=Uns geht es bei zunehmenden Tagen und regelmäßiger Kälte besser .
+5-1	434-437	Uns	_	_
+5-2	438-442	geht	_	_
+5-3	443-445	es	_	_
+5-4	446-449	bei	_	_
+5-5	450-461	zunehmenden	_	_
+5-6	462-467	Tagen	_	_
+5-7	468-471	und	_	_
+5-8	472-484	regelmäßiger	_	_
+5-9	485-490	Kälte	_	_
+5-10	491-497	besser	_	_
+5-11	498-499	.	_	_
+
+#Text=Mit herzlichsten Grüßen Ihı .
+6-1	500-503	Mit	_	_
+6-2	504-516	herzlichsten	_	_
+6-3	517-523	Grüßen	_	_
+6-4	524-527	Ihı	_	_
+6-5	528-529	.	_	_
+
+#Text=Gerhard Die königliche Bewilligung der 760 Scudi soll endlich in der Kanzlei sein .
+7-1	530-537	Gerhard	*	PERauthor
+7-2	538-541	Die	_	_
+7-3	542-552	königliche	_	_
+7-4	553-564	Bewilligung	_	_
+7-5	565-568	der	_	_
+7-6	569-572	760	_	_
+7-7	573-578	Scudi	_	_
+7-8	579-583	soll	_	_
+7-9	584-591	endlich	_	_
+7-10	592-594	in	_	_
+7-11	595-598	der	_	_
+7-12	599-606	Kanzlei	_	_
+7-13	607-611	sein	_	_
+7-14	612-613	.	_	_

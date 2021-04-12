@@ -1,0 +1,211 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=464 Lepsius an Henzen Berlin , 15 .
+1-1	0-3	464	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	15	_	_
+1-8	34-35	.	_	_
+
+#Text=August 1876 N . 82 g . 18/8 76 r . 24/8 Berlin , den 15 .
+2-1	36-42	August	*[1]	DATEletter[1]
+2-2	43-47	1876	*[1]	DATEletter[1]
+2-3	48-49	N	_	_
+2-4	50-51	.	_	_
+2-5	52-54	82	_	_
+2-6	55-56	g	_	_
+2-7	57-58	.	_	_
+2-8	59-63	18/8	*[2]	DATErecieved[2]
+2-9	64-66	76	*[2]	DATErecieved[2]
+2-10	67-68	r	_	_
+2-11	69-70	.	_	_
+2-12	71-75	24/8	*	DATEanswered
+2-13	76-82	Berlin	*	PLACEfrom
+2-14	83-84	,	_	_
+2-15	85-88	den	_	_
+2-16	89-91	15	*[3]	DATEletter[3]
+2-17	92-93	.	*[3]	DATEletter[3]
+
+#Text=August 1877 Verehrter Freund In unsrer letzten Sitzung wurden die Römischen Verhältnisse näher besprochen , wie sie Herr Krüger in Rom mit Ihnen , Helbig und Mommsen durchgenommen hatte .
+3-1	94-100	August	*[3]	DATEletter[3]
+3-2	101-105	1877	*[3]	DATEletter[3]
+3-3	106-115	Verehrter	_	_
+3-4	116-122	Freund	_	_
+3-5	123-125	In	_	_
+3-6	126-132	unsrer	_	_
+3-7	133-140	letzten	_	_
+3-8	141-148	Sitzung	_	_
+3-9	149-155	wurden	_	_
+3-10	156-159	die	_	_
+3-11	160-169	Römischen	_	_
+3-12	170-182	Verhältnisse	_	_
+3-13	183-188	näher	_	_
+3-14	189-199	besprochen	_	_
+3-15	200-201	,	_	_
+3-16	202-205	wie	_	_
+3-17	206-209	sie	_	_
+3-18	210-214	Herr	_	_
+3-19	215-221	Krüger	*	PERmentioned
+3-20	222-224	in	_	_
+3-21	225-228	Rom	*	PLACEmentioned
+3-22	229-232	mit	_	_
+3-23	233-238	Ihnen	_	_
+3-24	239-240	,	_	_
+3-25	241-247	Helbig	*	PERmentioned
+3-26	248-251	und	_	_
+3-27	252-259	Mommsen	*	PERmentioned
+3-28	260-273	durchgenommen	_	_
+3-29	274-279	hatte	_	_
+3-30	280-281	.	_	_
+
+#Text=Es schien uns namentlich das spätere Verhältnis der Administration des Hauses zur Botschaft sehr richtig geordnet .
+4-1	282-284	Es	_	_
+4-2	285-291	schien	_	_
+4-3	292-295	uns	_	_
+4-4	296-306	namentlich	_	_
+4-5	307-310	das	_	_
+4-6	311-318	spätere	_	_
+4-7	319-329	Verhältnis	_	_
+4-8	330-333	der	_	_
+4-9	334-348	Administration	_	_
+4-10	349-352	des	_	_
+4-11	353-359	Hauses	_	_
+4-12	360-363	zur	_	_
+4-13	364-373	Botschaft	*	ORGmentioned
+4-14	374-378	sehr	_	_
+4-15	379-386	richtig	_	_
+4-16	387-395	geordnet	_	_
+4-17	396-397	.	_	_
+
+#Text=Krüger will dies nun vorläufig im Auswärtigen Amt nur mündlich vorbereiten .
+5-1	398-404	Krüger	*	PERmentioned
+5-2	405-409	will	_	_
+5-3	410-414	dies	_	_
+5-4	415-418	nun	_	_
+5-5	419-428	vorläufig	_	_
+5-6	429-431	im	_	_
+5-7	432-443	Auswärtigen	*[4]	ORGmentioned[4]
+5-8	444-447	Amt	*[4]	ORGmentioned[4]
+5-9	448-451	nur	_	_
+5-10	452-460	mündlich	_	_
+5-11	461-472	vorbereiten	_	_
+5-12	473-474	.	_	_
+
+#Text=Später müssen die Sachen klar zu Papier gebracht werden .
+6-1	475-481	Später	_	_
+6-2	482-488	müssen	_	_
+6-3	489-492	die	_	_
+6-4	493-499	Sachen	_	_
+6-5	500-504	klar	_	_
+6-6	505-507	zu	_	_
+6-7	508-514	Papier	_	_
+6-8	515-523	gebracht	_	_
+6-9	524-530	werden	_	_
+6-10	531-532	.	_	_
+
+#Text=Die Herstellung einer Wendeltreppe nach dem Apparatraum und der Durchbruch eines zweiten Fensters im Lesezimmer wurden beschlossen .
+7-1	533-536	Die	_	_
+7-2	537-548	Herstellung	_	_
+7-3	549-554	einer	_	_
+7-4	555-567	Wendeltreppe	_	_
+7-5	568-572	nach	_	_
+7-6	573-576	dem	_	_
+7-7	577-588	Apparatraum	_	_
+7-8	589-592	und	_	_
+7-9	593-596	der	_	_
+7-10	597-607	Durchbruch	_	_
+7-11	608-613	eines	_	_
+7-12	614-621	zweiten	_	_
+7-13	622-630	Fensters	_	_
+7-14	631-633	im	_	_
+7-15	634-644	Lesezimmer	_	_
+7-16	645-651	wurden	_	_
+7-17	652-663	beschlossen	_	_
+7-18	664-665	.	_	_
+
+#Text=Sie werden für die Änderung sorgen .
+8-1	666-669	Sie	_	_
+8-2	670-676	werden	_	_
+8-3	677-680	für	_	_
+8-4	681-684	die	_	_
+8-5	685-693	Änderung	_	_
+8-6	694-700	sorgen	_	_
+8-7	701-702	.	_	_
+
+#Text=Auch ist gewiß die spätere Herstellung des Oberlichts in der Bibliothek und die Aufstellung der Bücher die Wände entlang und eventuell mit Galerien zweckmäßig .
+9-1	703-707	Auch	_	_
+9-2	708-711	ist	_	_
+9-3	712-717	gewiß	_	_
+9-4	718-721	die	_	_
+9-5	722-729	spätere	_	_
+9-6	730-741	Herstellung	_	_
+9-7	742-745	des	_	_
+9-8	746-756	Oberlichts	_	_
+9-9	757-759	in	_	_
+9-10	760-763	der	_	_
+9-11	764-774	Bibliothek	*	ORGmentioned
+9-12	775-778	und	_	_
+9-13	779-782	die	_	_
+9-14	783-794	Aufstellung	_	_
+9-15	795-798	der	_	_
+9-16	799-805	Bücher	_	_
+9-17	806-809	die	_	_
+9-18	810-815	Wände	_	_
+9-19	816-823	entlang	_	_
+9-20	824-827	und	_	_
+9-21	828-837	eventuell	_	_
+9-22	838-841	mit	_	_
+9-23	842-850	Galerien	_	_
+9-24	851-861	zweckmäßig	_	_
+9-25	862-863	.	_	_
+
+#Text=Für jetzt sollen die Bücher nur nicht in eingebauten Regalen sondern die Wände entlang aufgestellt werden .
+10-1	864-867	Für	_	_
+10-2	868-873	jetzt	_	_
+10-3	874-880	sollen	_	_
+10-4	881-884	die	_	_
+10-5	885-891	Bücher	_	_
+10-6	892-895	nur	_	_
+10-7	896-901	nicht	_	_
+10-8	902-904	in	_	_
+10-9	905-916	eingebauten	_	_
+10-10	917-924	Regalen	_	_
+10-11	925-932	sondern	_	_
+10-12	933-936	die	_	_
+10-13	937-942	Wände	_	_
+10-14	943-950	entlang	_	_
+10-15	951-962	aufgestellt	_	_
+10-16	963-969	werden	_	_
+10-17	970-971	.	_	_
+
+#Text=Da der Baufonds schon im Laufe 1877 geschlossen wird , muß der Unterhaltungsfonds und der Gehalt für den Administrator ( Schulz ) schon für das
+11-1	972-974	Da	_	_
+11-2	975-978	der	_	_
+11-3	979-987	Baufonds	_	_
+11-4	988-993	schon	_	_
+11-5	994-996	im	_	_
+11-6	997-1002	Laufe	_	_
+11-7	1003-1007	1877	*	DATEmentioned
+11-8	1008-1019	geschlossen	_	_
+11-9	1020-1024	wird	_	_
+11-10	1025-1026	,	_	_
+11-11	1027-1030	muß	_	_
+11-12	1031-1034	der	_	_
+11-13	1035-1053	Unterhaltungsfonds	_	_
+11-14	1054-1057	und	_	_
+11-15	1058-1061	der	_	_
+11-16	1062-1068	Gehalt	_	_
+11-17	1069-1072	für	_	_
+11-18	1073-1076	den	_	_
+11-19	1077-1090	Administrator	_	_
+11-20	1091-1092	(	_	_
+11-21	1093-1099	Schulz	*	PERmentioned
+11-22	1100-1101	)	_	_
+11-23	1102-1107	schon	_	_
+11-24	1108-1111	für	_	_
+11-25	1112-1115	das	_	_

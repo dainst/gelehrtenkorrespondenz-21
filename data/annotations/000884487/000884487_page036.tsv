@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=125 Gerhard an Braun Berlin , 24. März 1836 Dr. Braun Berlin den 24 März 1836 .
+1-1	0-3	125	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	24.	*[4]	DATEletter[4]
+1-8	34-38	März	*[4]	DATEletter[4]
+1-9	39-43	1836	*[4]	DATEletter[4]
+1-10	44-47	Dr.	_	_
+1-11	48-53	Braun	*	PERaddressee
+1-12	54-60	Berlin	*	PLACEfrom
+1-13	61-64	den	_	_
+1-14	65-67	24	*[7]	DATEletter[7]
+1-15	68-72	März	*[7]	DATEletter[7]
+1-16	73-77	1836	*[7]	DATEletter[7]
+1-17	78-79	.	_	_
+
+#Text=Stoff genug lieber Freund zu schreiben , aber Wunder stawenig Zeit und Lust .
+2-1	80-85	Stoff	_	_
+2-2	86-91	genug	_	_
+2-3	92-98	lieber	_	_
+2-4	99-105	Freund	_	_
+2-5	106-108	zu	_	_
+2-6	109-118	schreiben	_	_
+2-7	119-120	,	_	_
+2-8	121-125	aber	_	_
+2-9	126-132	Wunder	_	_
+2-10	133-141	stawenig	_	_
+2-11	142-146	Zeit	_	_
+2-12	147-150	und	_	_
+2-13	151-155	Lust	_	_
+2-14	156-157	.	_	_
+
+#Text=Wenn der Himmel ein tuiren will , so kann er den Franzosen ein Jawort auf die römischen Vorschläge entlocken \; erfolgt die Einigung nicht , so gebe ich das Institut auf .
+3-1	158-162	Wenn	_	_
+3-2	163-166	der	_	_
+3-3	167-173	Himmel	_	_
+3-4	174-177	ein	_	_
+3-5	178-184	tuiren	_	_
+3-6	185-189	will	_	_
+3-7	190-191	,	_	_
+3-8	192-194	so	_	_
+3-9	195-199	kann	_	_
+3-10	200-202	er	_	_
+3-11	203-206	den	_	_
+3-12	207-216	Franzosen	_	_
+3-13	217-220	ein	_	_
+3-14	221-227	Jawort	_	_
+3-15	228-231	auf	_	_
+3-16	232-235	die	_	_
+3-17	236-245	römischen	_	_
+3-18	246-256	Vorschläge	_	_
+3-19	257-266	entlocken	_	_
+3-20	267-268	\;	_	_
+3-21	269-276	erfolgt	_	_
+3-22	277-280	die	_	_
+3-23	281-289	Einigung	_	_
+3-24	290-295	nicht	_	_
+3-25	296-297	,	_	_
+3-26	298-300	so	_	_
+3-27	301-305	gebe	_	_
+3-28	306-309	ich	_	_
+3-29	310-313	das	_	_
+3-30	314-322	Institut	*	ORGmentioned
+3-31	323-326	auf	_	_
+3-32	327-328	.	_	_
+
+#Text=Gegen F. 's Gleichstellung mit Ihnen protestirte ich sehon : früher \; es war die Bedingung eines Beitritts zu dem B.schen Plane .
+4-1	329-334	Gegen	_	_
+4-2	335-337	F.	_	_
+4-3	338-340	's	_	_
+4-4	341-355	Gleichstellung	_	_
+4-5	356-359	mit	_	_
+4-6	360-365	Ihnen	_	_
+4-7	366-377	protestirte	_	_
+4-8	378-381	ich	_	_
+4-9	382-387	sehon	_	_
+4-10	388-389	:	_	_
+4-11	390-396	früher	_	_
+4-12	397-398	\;	_	_
+4-13	399-401	es	_	_
+4-14	402-405	war	_	_
+4-15	406-409	die	_	_
+4-16	410-419	Bedingung	_	_
+4-17	420-425	eines	_	_
+4-18	426-435	Beitritts	_	_
+4-19	436-438	zu	_	_
+4-20	439-442	dem	_	_
+4-21	443-450	B.schen	_	_
+4-22	451-456	Plane	_	_
+4-23	457-458	.	_	_
+
+#Text=Ich habe diesen Protest erneut , ohne Zweifel fruchtlos \; zugleich aber gedrungen meine Ausscheidung vom Institut möglichst bald zu bewerkstelligen .
+5-1	459-462	Ich	_	_
+5-2	463-467	habe	_	_
+5-3	468-474	diesen	_	_
+5-4	475-482	Protest	_	_
+5-5	483-489	erneut	_	_
+5-6	490-491	,	_	_
+5-7	492-496	ohne	_	_
+5-8	497-504	Zweifel	_	_
+5-9	505-514	fruchtlos	_	_
+5-10	515-516	\;	_	_
+5-11	517-525	zugleich	_	_
+5-12	526-530	aber	_	_
+5-13	531-540	gedrungen	_	_
+5-14	541-546	meine	_	_
+5-15	547-559	Ausscheidung	_	_
+5-16	560-563	vom	_	_
+5-17	564-572	Institut	*	ORGmentioned
+5-18	573-582	möglichst	_	_
+5-19	583-587	bald	_	_
+5-20	588-590	zu	_	_
+5-21	591-606	bewerkstelligen	_	_
+5-22	607-608	.	_	_
+
+#Text=Mein Rechnungsbeschluß 1 t bei \; sorgen Sie dafür , dem Institut mehr als mir zur Ehre , daß die direkte Schenata die er an den Buchhändler schicken will , in der rechten Form , d. h. durch mich geschickt und ich dennach anständiger Weise von diesen Dingen abgelöst werde .
+6-1	609-613	Mein	_	_
+6-2	614-631	Rechnungsbeschluß	_	_
+6-3	632-633	1	_	_
+6-4	634-635	t	_	_
+6-5	636-639	bei	_	_
+6-6	640-641	\;	_	_
+6-7	642-648	sorgen	_	_
+6-8	649-652	Sie	_	_
+6-9	653-658	dafür	_	_
+6-10	659-660	,	_	_
+6-11	661-664	dem	_	_
+6-12	665-673	Institut	*	ORGmentioned
+6-13	674-678	mehr	_	_
+6-14	679-682	als	_	_
+6-15	683-686	mir	_	_
+6-16	687-690	zur	_	_
+6-17	691-695	Ehre	_	_
+6-18	696-697	,	_	_
+6-19	698-701	daß	_	_
+6-20	702-705	die	_	_
+6-21	706-713	direkte	_	_
+6-22	714-722	Schenata	_	_
+6-23	723-726	die	_	_
+6-24	727-729	er	_	_
+6-25	730-732	an	_	_
+6-26	733-736	den	_	_
+6-27	737-748	Buchhändler	_	_
+6-28	749-757	schicken	_	_
+6-29	758-762	will	_	_
+6-30	763-764	,	_	_
+6-31	765-767	in	_	_
+6-32	768-771	der	_	_
+6-33	772-779	rechten	_	_
+6-34	780-784	Form	_	_
+6-35	785-786	,	_	_
+6-36	787-789	d.	_	_
+6-37	790-792	h.	_	_
+6-38	793-798	durch	_	_
+6-39	799-803	mich	_	_
+6-40	804-813	geschickt	_	_
+6-41	814-817	und	_	_
+6-42	818-821	ich	_	_
+6-43	822-829	dennach	_	_
+6-44	830-841	anständiger	_	_
+6-45	842-847	Weise	_	_
+6-46	848-851	von	_	_
+6-47	852-858	diesen	_	_
+6-48	859-865	Dingen	_	_
+6-49	866-874	abgelöst	_	_
+6-50	875-880	werde	_	_
+6-51	881-882	.	_	_
+
+#Text=Daß keiner der Buchhändler so rasch nach Rom zahlen wird als an hiesige Controlle ist übrigens klar .
+7-1	883-886	Daß	_	_
+7-2	887-893	keiner	_	_
+7-3	894-897	der	_	_
+7-4	898-909	Buchhändler	_	_
+7-5	910-912	so	_	_
+7-6	913-918	rasch	_	_
+7-7	919-923	nach	_	_
+7-8	924-927	Rom	*	PLACEmentioned
+7-9	928-934	zahlen	_	_
+7-10	935-939	wird	_	_
+7-11	940-943	als	_	_
+7-12	944-946	an	_	_
+7-13	947-954	hiesige	_	_
+7-14	955-964	Controlle	_	_
+7-15	965-968	ist	_	_
+7-16	969-977	übrigens	_	_
+7-17	978-982	klar	_	_
+7-18	983-984	.	_	_
+
+#Text=Den Revers über die Kistensendung bedarf es nicht \; wieviel wiegt sie ?
+8-1	985-988	Den	_	_
+8-2	989-995	Revers	_	_
+8-3	996-1000	über	_	_
+8-4	1001-1004	die	_	_
+8-5	1005-1018	Kistensendung	_	_
+8-6	1019-1025	bedarf	_	_
+8-7	1026-1028	es	_	_
+8-8	1029-1034	nicht	_	_
+8-9	1035-1036	\;	_	_
+8-10	1037-1044	wieviel	_	_
+8-11	1045-1050	wiegt	_	_
+8-12	1051-1054	sie	_	_
+8-13	1055-1056	?	_	_
+
+#Text=Was ist das für ein Specchio di Spagna den Bunsen besitzt ?
+9-1	1057-1060	Was	_	_
+9-2	1061-1064	ist	_	_
+9-3	1065-1068	das	_	_
+9-4	1069-1072	für	_	_
+9-5	1073-1076	ein	_	_
+9-6	1077-1085	Specchio	*[12]	OBJ[12]
+9-7	1086-1088	di	*[12]	OBJ[12]
+9-8	1089-1095	Spagna	*[12]	OBJ[12]
+9-9	1096-1099	den	_	_
+9-10	1100-1106	Bunsen	*	PERmentioned
+9-11	1107-1114	besitzt	_	_
+9-12	1115-1116	?	_	_

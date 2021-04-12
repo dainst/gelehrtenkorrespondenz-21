@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=237 Brunn an Henzen Paris , 9. Juni 71864 Fröhner mir noch nicht aufgestoßen .
+1-1	0-3	237	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-25	Paris	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	9.	*[5]	DATEletter[5]
+1-8	31-35	Juni	*[5]	DATEletter[5]
+1-9	36-41	71864	*[5]	DATEletter[5]
+1-10	42-49	Fröhner	*	PERmentioned
+1-11	50-53	mir	_	_
+1-12	54-58	noch	_	_
+1-13	59-64	nicht	_	_
+1-14	65-76	aufgestoßen	_	_
+1-15	77-78	.	_	_
+
+#Text=Er soll noch kürzlich arg gegen Renier losgegangen sein .
+2-1	79-81	Er	_	_
+2-2	82-86	soll	_	_
+2-3	87-91	noch	_	_
+2-4	92-100	kürzlich	_	_
+2-5	101-104	arg	_	_
+2-6	105-110	gegen	_	_
+2-7	111-117	Renier	*	PERmentioned
+2-8	118-129	losgegangen	_	_
+2-9	130-134	sein	_	_
+2-10	135-136	.	_	_
+
+#Text=Aber auch die andre Seite soll anfangen , mit ihm nicht mehr zufrieden zu sein .
+3-1	137-141	Aber	_	_
+3-2	142-146	auch	_	_
+3-3	147-150	die	_	_
+3-4	151-156	andre	_	_
+3-5	157-162	Seite	_	_
+3-6	163-167	soll	_	_
+3-7	168-176	anfangen	_	_
+3-8	177-178	,	_	_
+3-9	179-182	mit	_	_
+3-10	183-186	ihm	_	_
+3-11	187-192	nicht	_	_
+3-12	193-197	mehr	_	_
+3-13	198-207	zufrieden	_	_
+3-14	208-210	zu	_	_
+3-15	211-215	sein	_	_
+3-16	216-217	.	_	_
+
+#Text=Urnen sind nur sehr wenige hier : meno male .
+4-1	218-223	Urnen	_	_
+4-2	224-228	sind	_	_
+4-3	229-232	nur	_	_
+4-4	233-237	sehr	_	_
+4-5	238-244	wenige	_	_
+4-6	245-249	hier	_	_
+4-7	250-251	:	_	_
+4-8	252-256	meno	_	_
+4-9	257-261	male	_	_
+4-10	262-263	.	_	_
+
+#Text=Longperier scheint Lust zu haben , einiges der Art durch mich in Chiusi ankaufen zu lassen .
+5-1	264-274	Longperier	*	PERmentioned
+5-2	275-282	scheint	_	_
+5-3	283-287	Lust	_	_
+5-4	288-290	zu	_	_
+5-5	291-296	haben	_	_
+5-6	297-298	,	_	_
+5-7	299-306	einiges	_	_
+5-8	307-310	der	_	_
+5-9	311-314	Art	_	_
+5-10	315-320	durch	_	_
+5-11	321-325	mich	_	_
+5-12	326-328	in	_	_
+5-13	329-335	Chiusi	*	PLACEmentioned
+5-14	336-344	ankaufen	_	_
+5-15	345-347	zu	_	_
+5-16	348-354	lassen	_	_
+5-17	355-356	.	_	_
+
+#Text=- Sofern Sie in der oberen Reihe rechts , Mappe : sculture etrusche die Zeichnung einer Urne finden : Kampf und vor einem Altar ein getödtetes Pferd am Boden , so können Sie mir dieselbe wohl durch Desjardins schicken .
+6-1	357-358	-	_	_
+6-2	359-365	Sofern	_	_
+6-3	366-369	Sie	_	_
+6-4	370-372	in	_	_
+6-5	373-376	der	_	_
+6-6	377-383	oberen	_	_
+6-7	384-389	Reihe	_	_
+6-8	390-396	rechts	_	_
+6-9	397-398	,	_	_
+6-10	399-404	Mappe	_	_
+6-11	405-406	:	_	_
+6-12	407-415	sculture	*[6]	OBJ[6]
+6-13	416-424	etrusche	*[6]	OBJ[6]
+6-14	425-428	die	_	_
+6-15	429-438	Zeichnung	_	_
+6-16	439-444	einer	_	_
+6-17	445-449	Urne	*	OBJ
+6-18	450-456	finden	_	_
+6-19	457-458	:	_	_
+6-20	459-464	Kampf	_	_
+6-21	465-468	und	_	_
+6-22	469-472	vor	_	_
+6-23	473-478	einem	_	_
+6-24	479-484	Altar	_	_
+6-25	485-488	ein	_	_
+6-26	489-499	getödtetes	_	_
+6-27	500-505	Pferd	_	_
+6-28	506-508	am	_	_
+6-29	509-514	Boden	_	_
+6-30	515-516	,	_	_
+6-31	517-519	so	_	_
+6-32	520-526	können	_	_
+6-33	527-530	Sie	_	_
+6-34	531-534	mir	_	_
+6-35	535-543	dieselbe	_	_
+6-36	544-548	wohl	_	_
+6-37	549-554	durch	_	_
+6-38	555-565	Desjardins	*	PERmentioned
+6-39	566-574	schicken	_	_
+6-40	575-576	.	_	_
+
+#Text=Es kann aber sein , ich habe sie extra aus der Mappe genommen , um sie mit herzubringen , aber dann vergessen .
+7-1	577-579	Es	_	_
+7-2	580-584	kann	_	_
+7-3	585-589	aber	_	_
+7-4	590-594	sein	_	_
+7-5	595-596	,	_	_
+7-6	597-600	ich	_	_
+7-7	601-605	habe	_	_
+7-8	606-609	sie	_	_
+7-9	610-615	extra	_	_
+7-10	616-619	aus	_	_
+7-11	620-623	der	_	_
+7-12	624-629	Mappe	_	_
+7-13	630-638	genommen	_	_
+7-14	639-640	,	_	_
+7-15	641-643	um	_	_
+7-16	644-647	sie	_	_
+7-17	648-651	mit	_	_
+7-18	652-664	herzubringen	_	_
+7-19	665-666	,	_	_
+7-20	667-671	aber	_	_
+7-21	672-676	dann	_	_
+7-22	677-686	vergessen	_	_
+7-23	687-688	.	_	_
+
+#Text=Von meiner Familie habe ich jetzt ganz gute Nachrichten \; sie sind jetzt in Oranienbaum .
+8-1	689-692	Von	_	_
+8-2	693-699	meiner	_	_
+8-3	700-707	Familie	_	_
+8-4	708-712	habe	_	_
+8-5	713-716	ich	_	_
+8-6	717-722	jetzt	_	_
+8-7	723-727	ganz	_	_
+8-8	728-732	gute	_	_
+8-9	733-744	Nachrichten	_	_
+8-10	745-746	\;	_	_
+8-11	747-750	sie	_	_
+8-12	751-755	sind	_	_
+8-13	756-761	jetzt	_	_
+8-14	762-764	in	_	_
+8-15	765-776	Oranienbaum	*	PLACEmentioned
+8-16	777-778	.	_	_
+
+#Text=Die Jungens wollen aber schon kein italienisch mehr sprechen .
+9-1	779-782	Die	_	_
+9-2	783-790	Jungens	_	_
+9-3	791-797	wollen	_	_
+9-4	798-802	aber	_	_
+9-5	803-808	schon	_	_
+9-6	809-813	kein	_	_
+9-7	814-825	italienisch	_	_
+9-8	826-830	mehr	_	_
+9-9	831-839	sprechen	_	_
+9-10	840-841	.	_	_
+
+#Text=Im Uebrigen behagt mir Paris ganz wohl , wenn ich auch um Theater und derartige Amusements mich bis jetzt nicht gekümmert habe .
+10-1	842-844	Im	_	_
+10-2	845-853	Uebrigen	_	_
+10-3	854-860	behagt	_	_
+10-4	861-864	mir	_	_
+10-5	865-870	Paris	*	PLACEmentioned
+10-6	871-875	ganz	_	_
+10-7	876-880	wohl	_	_
+10-8	881-882	,	_	_
+10-9	883-887	wenn	_	_
+10-10	888-891	ich	_	_
+10-11	892-896	auch	_	_
+10-12	897-899	um	_	_
+10-13	900-907	Theater	_	_
+10-14	908-911	und	_	_
+10-15	912-921	derartige	_	_
+10-16	922-932	Amusements	_	_
+10-17	933-937	mich	_	_
+10-18	938-941	bis	_	_
+10-19	942-947	jetzt	_	_
+10-20	948-953	nicht	_	_
+10-21	954-963	gekümmert	_	_
+10-22	964-968	habe	_	_
+10-23	969-970	.	_	_
+
+#Text=Grüße an die avanzi della casa \; auch von den ragazzi .
+11-1	971-976	Grüße	_	_
+11-2	977-979	an	_	_
+11-3	980-983	die	_	_
+11-4	984-990	avanzi	_	_
+11-5	991-996	della	_	_
+11-6	997-1001	casa	_	_
+11-7	1002-1003	\;	_	_
+11-8	1004-1008	auch	_	_
+11-9	1009-1012	von	_	_
+11-10	1013-1016	den	_	_
+11-11	1017-1024	ragazzi	_	_
+11-12	1025-1026	.	_	_
+
+#Text=Ihr HBrunn .
+12-1	1027-1030	Ihr	_	_
+12-2	1031-1037	HBrunn	*	PERauthor
+12-3	1038-1039	.	_	_
+
+#Text=Freitag früh .
+13-1	1040-1047	Freitag	*	DATEmentioned
+13-2	1048-1052	früh	_	_
+13-3	1053-1054	.	_	_

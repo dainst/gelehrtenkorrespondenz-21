@@ -1,0 +1,117 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=205 Braun an Gerhard Rom , 15 , Januar 1835 -3- Mit Apolloni haben Sie recht gehabt , Pardon \| Man muß eben alles selbst einmal durchgemacht haben , Hatte ich Recht , so konnte ich doch nicht alles übersehen .
+1-1	0-3	205	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	15	*[1]	DATEletter[1]
+1-8	30-31	,	*[1]	DATEletter[1]
+1-9	32-38	Januar	*[1]	DATEletter[1]
+1-10	39-43	1835	*[1]	DATEletter[1]
+1-11	44-47	-3-	_	_
+1-12	48-51	Mit	_	_
+1-13	52-60	Apolloni	*	PERmentioned
+1-14	61-66	haben	_	_
+1-15	67-70	Sie	_	_
+1-16	71-76	recht	_	_
+1-17	77-83	gehabt	_	_
+1-18	84-85	,	_	_
+1-19	86-92	Pardon	_	_
+1-20	93-94	\|	_	_
+1-21	95-98	Man	_	_
+1-22	99-102	muß	_	_
+1-23	103-107	eben	_	_
+1-24	108-113	alles	_	_
+1-25	114-120	selbst	_	_
+1-26	121-127	einmal	_	_
+1-27	128-140	durchgemacht	_	_
+1-28	141-146	haben	_	_
+1-29	147-148	,	_	_
+1-30	149-154	Hatte	_	_
+1-31	155-158	ich	_	_
+1-32	159-164	Recht	_	_
+1-33	165-166	,	_	_
+1-34	167-169	so	_	_
+1-35	170-176	konnte	_	_
+1-36	177-180	ich	_	_
+1-37	181-185	doch	_	_
+1-38	186-191	nicht	_	_
+1-39	192-197	alles	_	_
+1-40	198-207	übersehen	_	_
+1-41	208-209	.	_	_
+
+#Text=Jetzt sind beide thätig , da zuviel Material da ist .
+2-1	210-215	Jetzt	_	_
+2-2	216-220	sind	_	_
+2-3	221-226	beide	_	_
+2-4	227-233	thätig	_	_
+2-5	234-235	,	_	_
+2-6	236-238	da	_	_
+2-7	239-245	zuviel	_	_
+2-8	246-254	Material	_	_
+2-9	255-257	da	_	_
+2-10	258-261	ist	_	_
+2-11	262-263	.	_	_
+
+#Text=9 Spiegel von Durand und 11 von dem Prete in der Via Giulia , bei dem ich um den Agamemnon -— Achilles Spiegel handle , welcher durch Apollonis Reinigung erst diesen hohen Werth erlangt hat .
+3-1	264-265	9	_	_
+3-2	266-273	Spiegel	_	_
+3-3	274-277	von	_	_
+3-4	278-284	Durand	*	PERmentioned
+3-5	285-288	und	_	_
+3-6	289-291	11	_	_
+3-7	292-295	von	_	_
+3-8	296-299	dem	_	_
+3-9	300-305	Prete	*	PERmentioned
+3-10	306-308	in	_	_
+3-11	309-312	der	_	_
+3-12	313-316	Via	*[2]	ORGmentioned[2]
+3-13	317-323	Giulia	*[2]	ORGmentioned[2]
+3-14	324-325	,	_	_
+3-15	326-329	bei	_	_
+3-16	330-333	dem	_	_
+3-17	334-337	ich	_	_
+3-18	338-340	um	_	_
+3-19	341-344	den	_	_
+3-20	345-354	Agamemnon	*[3]	OBJ[3]
+3-21	355-357	-—	*[3]	OBJ[3]
+3-22	358-366	Achilles	*[3]	OBJ[3]
+3-23	367-374	Spiegel	*[3]	OBJ[3]
+3-24	375-381	handle	_	_
+3-25	382-383	,	_	_
+3-26	384-391	welcher	_	_
+3-27	392-397	durch	_	_
+3-28	398-407	Apollonis	*	PERmentioned
+3-29	408-417	Reinigung	_	_
+3-30	418-422	erst	_	_
+3-31	423-429	diesen	_	_
+3-32	430-435	hohen	_	_
+3-33	436-441	Werth	_	_
+3-34	442-449	erlangt	_	_
+3-35	450-453	hat	_	_
+3-36	454-455	.	_	_
+
+#Text=Die Schwalbenvase besitzt Graf Gourieff von Rußland .
+4-1	456-459	Die	_	_
+4-2	460-473	Schwalbenvase	*	OBJ
+4-3	474-481	besitzt	_	_
+4-4	482-486	Graf	*[4]	PERmentioned[4]
+4-5	487-495	Gourieff	*[4]	PERmentioned[4]
+4-6	496-499	von	_	_
+4-7	500-507	Rußland	*	PLACEmentioned
+4-8	508-509	.	_	_
+
+#Text=Ich muß schließen .
+5-1	510-513	Ich	_	_
+5-2	514-517	muß	_	_
+5-3	518-527	schließen	_	_
+5-4	528-529	.	_	_
+
+#Text=Ihr Braun
+6-1	530-533	Ihr	_	_
+6-2	534-539	Braun	*	PERauthor

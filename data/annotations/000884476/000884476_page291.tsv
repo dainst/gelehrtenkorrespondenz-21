@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1155 Gerhard an Braun Berlin 29/XI1/1835 H. Dr. Braun Berlin den 29.ten Dec , 1835 .
+1-1	0-4	1155	_	_
+1-2	5-12	Gerhard	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-21	Braun	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-40	29/XI1/1835	*	DATEletter
+1-7	41-43	H.	_	_
+1-8	44-47	Dr.	_	_
+1-9	48-53	Braun	*	PERaddressee
+1-10	54-60	Berlin	*	PLACEfrom
+1-11	61-64	den	_	_
+1-12	65-71	29.ten	*[7]	DATEletter[7]
+1-13	72-75	Dec	*[7]	DATEletter[7]
+1-14	76-77	,	*[7]	DATEletter[7]
+1-15	78-82	1835	*[7]	DATEletter[7]
+1-16	83-84	.	_	_
+
+#Text=Huvız M. X .
+2-1	85-90	Huvız	_	_
+2-2	91-93	M.	_	_
+2-3	94-95	X	_	_
+2-4	96-97	.	_	_
+
+#Text=Fr .
+3-1	98-100	Fr	_	_
+3-2	101-102	.	_	_
+
+#Text=Die Adresse Ihres lezten Briefes war unleserlich und machte Postnoth .
+4-1	103-106	Die	_	_
+4-2	107-114	Adresse	_	_
+4-3	115-120	Ihres	_	_
+4-4	121-127	lezten	_	_
+4-5	128-135	Briefes	_	_
+4-6	136-139	war	_	_
+4-7	140-151	unleserlich	_	_
+4-8	152-155	und	_	_
+4-9	156-162	machte	_	_
+4-10	163-171	Postnoth	_	_
+4-11	172-173	.	_	_
+
+#Text=- Dank für die vielen guten Nachrichten , das Manuscriptpaket erwarte ich .
+5-1	174-175	-	_	_
+5-2	176-180	Dank	_	_
+5-3	181-184	für	_	_
+5-4	185-188	die	_	_
+5-5	189-195	vielen	_	_
+5-6	196-201	guten	_	_
+5-7	202-213	Nachrichten	_	_
+5-8	214-215	,	_	_
+5-9	216-219	das	_	_
+5-10	220-235	Manuscriptpaket	_	_
+5-11	236-243	erwarte	_	_
+5-12	244-247	ich	_	_
+5-13	248-249	.	_	_
+
+#Text=Hoffentlich bringt es auch Lancis Rechnungsabschluß mit \; unglaublich ihn noch immer nicht zu haben , und höchst widerwärtig nach Monaten diese widerwärtigen Revisionen neu anzufangen .
+6-1	250-261	Hoffentlich	_	_
+6-2	262-268	bringt	_	_
+6-3	269-271	es	_	_
+6-4	272-276	auch	_	_
+6-5	277-283	Lancis	*	PERmentioned
+6-6	284-301	Rechnungsabschluß	_	_
+6-7	302-305	mit	_	_
+6-8	306-307	\;	_	_
+6-9	308-319	unglaublich	_	_
+6-10	320-323	ihn	_	_
+6-11	324-328	noch	_	_
+6-12	329-334	immer	_	_
+6-13	335-340	nicht	_	_
+6-14	341-343	zu	_	_
+6-15	344-349	haben	_	_
+6-16	350-351	,	_	_
+6-17	352-355	und	_	_
+6-18	356-362	höchst	_	_
+6-19	363-374	widerwärtig	_	_
+6-20	375-379	nach	_	_
+6-21	380-387	Monaten	_	_
+6-22	388-393	diese	_	_
+6-23	394-407	widerwärtigen	_	_
+6-24	408-418	Revisionen	_	_
+6-25	419-422	neu	_	_
+6-26	423-433	anzufangen	_	_
+6-27	434-435	.	_	_
+
+#Text=Die 3 Fußabhandlung steht ja in Analthea 1. die ja wol in Rom ist .
+7-1	436-439	Die	_	_
+7-2	440-441	3	_	_
+7-3	442-455	Fußabhandlung	_	_
+7-4	456-461	steht	_	_
+7-5	462-464	ja	_	_
+7-6	465-467	in	_	_
+7-7	468-476	Analthea	_	_
+7-8	477-479	1.	_	_
+7-9	480-483	die	_	_
+7-10	484-486	ja	_	_
+7-11	487-490	wol	_	_
+7-12	491-493	in	_	_
+7-13	494-497	Rom	*	PLACEmentioned
+7-14	498-501	ist	_	_
+7-15	502-503	.	_	_
+
+#Text=Bleibt es bei meinem neulichen Vorschlag sich nur auf 24 Bl . zu beschränken so hat die Aetehavase Zeit .
+8-1	504-510	Bleibt	_	_
+8-2	511-513	es	_	_
+8-3	514-517	bei	_	_
+8-4	518-524	meinem	_	_
+8-5	525-534	neulichen	_	_
+8-6	535-544	Vorschlag	_	_
+8-7	545-549	sich	_	_
+8-8	550-553	nur	_	_
+8-9	554-557	auf	_	_
+8-10	558-560	24	_	_
+8-11	561-563	Bl	_	_
+8-12	564-565	.	_	_
+8-13	566-568	zu	_	_
+8-14	569-580	beschränken	_	_
+8-15	581-583	so	_	_
+8-16	584-587	hat	_	_
+8-17	588-591	die	_	_
+8-18	592-602	Aetehavase	*[10]	OBJ[10]
+8-19	603-607	Zeit	_	_
+8-20	608-609	.	_	_
+
+#Text=Immerfort neue Mitglieder zu kreiren scheint mir freilich nicht zweckmäßig \; den Ungar als M. ord .
+9-1	610-619	Immerfort	_	_
+9-2	620-624	neue	_	_
+9-3	625-635	Mitglieder	_	_
+9-4	636-638	zu	_	_
+9-5	639-646	kreiren	_	_
+9-6	647-654	scheint	_	_
+9-7	655-658	mir	_	_
+9-8	659-667	freilich	_	_
+9-9	668-673	nicht	_	_
+9-10	674-684	zweckmäßig	_	_
+9-11	685-686	\;	_	_
+9-12	687-690	den	_	_
+9-13	691-696	Ungar	_	_
+9-14	697-700	als	_	_
+9-15	701-703	M.	_	_
+9-16	704-707	ord	_	_
+9-17	708-709	.	_	_
+
+#Text=kann ich noch weniger billigen und schreibe darüber an Bunsen .
+10-1	710-714	kann	_	_
+10-2	715-718	ich	_	_
+10-3	719-723	noch	_	_
+10-4	724-731	weniger	_	_
+10-5	732-740	billigen	_	_
+10-6	741-744	und	_	_
+10-7	745-753	schreibe	_	_
+10-8	754-761	darüber	_	_
+10-9	762-764	an	_	_
+10-10	765-771	Bunsen	*	PERmentioned
+10-11	772-773	.	_	_
+
+#Text=Im Allgemeinen stehn die Unterscheidungen der Statuten fest , nach denen M. onorarj sind die die Archäologie spliendidanemte incoraggiren \; M. ord .
+11-1	774-776	Im	_	_
+11-2	777-788	Allgemeinen	_	_
+11-3	789-794	stehn	_	_
+11-4	795-798	die	_	_
+11-5	799-815	Unterscheidungen	_	_
+11-6	816-819	der	_	_
+11-7	820-828	Statuten	_	_
+11-8	829-833	fest	_	_
+11-9	834-835	,	_	_
+11-10	836-840	nach	_	_
+11-11	841-846	denen	_	_
+11-12	847-849	M.	_	_
+11-13	850-857	onorarj	_	_
+11-14	858-862	sind	_	_
+11-15	863-866	die	_	_
+11-16	867-870	die	_	_
+11-17	871-882	Archäologie	_	_
+11-18	883-898	spliendidanemte	_	_
+11-19	899-911	incoraggiren	_	_
+11-20	912-913	\;	_	_
+11-21	914-916	M.	_	_
+11-22	917-920	ord	_	_
+11-23	921-922	.	_	_
+
+#Text=sind distinti archeolosi \; Corrispondenti eelra kenn notizie e disegni .
+12-1	923-927	sind	_	_
+12-2	928-936	distinti	_	_
+12-3	937-947	archeolosi	_	_
+12-4	948-949	\;	_	_
+12-5	950-964	Corrispondenti	_	_
+12-6	965-970	eelra	_	_
+12-7	971-975	kenn	_	_
+12-8	976-983	notizie	_	_
+12-9	984-985	e	_	_
+12-10	986-993	disegni	_	_
+12-11	994-995	.	_	_
+
+#Text=Diese Bestimmungen müssen zur Ehre des Instituts so angewendet werden 1 ) daß Niemand auf bloßen Kredit kreirt wird , namentlich kein Korrespondent ohne dem Institut Gedrucktes , Geschriebnes oder ezeichnetes geliefert zu haben .
+13-1	996-1001	Diese	_	_
+13-2	1002-1014	Bestimmungen	_	_
+13-3	1015-1021	müssen	_	_
+13-4	1022-1025	zur	_	_
+13-5	1026-1030	Ehre	_	_
+13-6	1031-1034	des	_	_
+13-7	1035-1044	Instituts	*	ORGmentioned
+13-8	1045-1047	so	_	_
+13-9	1048-1058	angewendet	_	_
+13-10	1059-1065	werden	_	_
+13-11	1066-1067	1	_	_
+13-12	1068-1069	)	_	_
+13-13	1070-1073	daß	_	_
+13-14	1074-1081	Niemand	_	_
+13-15	1082-1085	auf	_	_
+13-16	1086-1092	bloßen	_	_
+13-17	1093-1099	Kredit	_	_
+13-18	1100-1106	kreirt	_	_
+13-19	1107-1111	wird	_	_
+13-20	1112-1113	,	_	_
+13-21	1114-1124	namentlich	_	_
+13-22	1125-1129	kein	_	_
+13-23	1130-1143	Korrespondent	_	_
+13-24	1144-1148	ohne	_	_
+13-25	1149-1152	dem	_	_
+13-26	1153-1161	Institut	*	ORGmentioned
+13-27	1162-1172	Gedrucktes	_	_
+13-28	1173-1174	,	_	_
+13-29	1175-1187	Geschriebnes	_	_
+13-30	1188-1192	oder	_	_
+13-31	1193-1204	ezeichnetes	_	_
+13-32	1205-1214	geliefert	_	_
+13-33	1215-1217	zu	_	_
+13-34	1218-1223	haben	_	_
+13-35	1224-1225	.	_	_

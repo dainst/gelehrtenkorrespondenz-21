@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=7 79 Gerhard an Braun Berlin , 30 .
+1-1	0-1	7	_	_
+1-2	2-4	79	_	_
+1-3	5-12	Gerhard	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-21	Braun	*	PERaddressee
+1-6	22-28	Berlin	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-33	30	*[1]	DATEletter[1]
+1-9	34-35	.	*[1]	DATEletter[1]
+
+#Text=Januar 1844 Sie mir sehr wünschenswerth .
+2-1	36-42	Januar	*[1]	DATEletter[1]
+2-2	43-47	1844	*[1]	DATEletter[1]
+2-3	48-51	Sie	_	_
+2-4	52-55	mir	_	_
+2-5	56-60	sehr	_	_
+2-6	61-75	wünschenswerth	_	_
+2-7	76-77	.	_	_
+
+#Text=Das Schinkelsche Exemplar war so wohlfeil , weil die Monumenti anderweitig versteigert waren .
+3-1	78-81	Das	_	_
+3-2	82-94	Schinkelsche	_	_
+3-3	95-103	Exemplar	_	_
+3-4	104-107	war	_	_
+3-5	108-110	so	_	_
+3-6	111-119	wohlfeil	_	_
+3-7	120-121	,	_	_
+3-8	122-126	weil	_	_
+3-9	127-130	die	_	_
+3-10	131-140	Monumenti	_	_
+3-11	141-152	anderweitig	_	_
+3-12	153-164	versteigert	_	_
+3-13	165-170	waren	_	_
+3-14	171-172	.	_	_
+
+#Text=Unterweltsschichten weiß ich nicht zu specificiren \; weshalb soll ich es ?
+4-1	173-192	Unterweltsschichten	_	_
+4-2	193-197	weiß	_	_
+4-3	198-201	ich	_	_
+4-4	202-207	nicht	_	_
+4-5	208-210	zu	_	_
+4-6	211-223	specificiren	_	_
+4-7	224-225	\;	_	_
+4-8	226-233	weshalb	_	_
+4-9	234-238	soll	_	_
+4-10	239-242	ich	_	_
+4-11	243-245	es	_	_
+4-12	246-247	?	_	_
+
+#Text=Schade daß Herr Joly eben alles Beste erhielt !
+5-1	248-254	Schade	_	_
+5-2	255-258	daß	_	_
+5-3	259-263	Herr	_	_
+5-4	264-268	Joly	*	PERmentioned
+5-5	269-273	eben	_	_
+5-6	274-279	alles	_	_
+5-7	280-285	Beste	_	_
+5-8	286-293	erhielt	_	_
+5-9	294-295	!	_	_
+
+#Text=Mögen Sie bald Ihren neuen Transport trocken in Rom haben !
+6-1	296-301	Mögen	_	_
+6-2	302-305	Sie	_	_
+6-3	306-310	bald	_	_
+6-4	311-316	Ihren	_	_
+6-5	317-322	neuen	_	_
+6-6	323-332	Transport	_	_
+6-7	333-340	trocken	_	_
+6-8	341-343	in	_	_
+6-9	344-347	Rom	*	PLACEmentioned
+6-10	348-353	haben	_	_
+6-11	354-355	!	_	_
+
+#Text=Panofka 's Aufsatz über die creduta Jole wird nächstens gedruckt .
+7-1	356-363	Panofka	*[4]	PERmentioned[4]
+7-2	364-366	's	*[4]	PERmentioned[4]
+7-3	367-374	Aufsatz	_	_
+7-4	375-379	über	_	_
+7-5	380-383	die	_	_
+7-6	384-391	creduta	_	_
+7-7	392-396	Jole	_	_
+7-8	397-401	wird	_	_
+7-9	402-411	nächstens	_	_
+7-10	412-420	gedruckt	_	_
+7-11	421-422	.	_	_
+
+#Text=Wolff 's Zurücksetzung thut mir sehr leid \; Herr Moliere war diesmal nicht Schuld ?
+8-1	423-428	Wolff	*[5]	PERmentioned[5]
+8-2	429-431	's	*[5]	PERmentioned[5]
+8-3	432-445	Zurücksetzung	_	_
+8-4	446-450	thut	_	_
+8-5	451-454	mir	_	_
+8-6	455-459	sehr	_	_
+8-7	460-464	leid	_	_
+8-8	465-466	\;	_	_
+8-9	467-471	Herr	_	_
+8-10	472-479	Moliere	*	PERmentioned
+8-11	480-483	war	_	_
+8-12	484-491	diesmal	_	_
+8-13	492-497	nicht	_	_
+8-14	498-504	Schuld	_	_
+8-15	505-506	?	_	_
+
+#Text=Zur Rettung des G ad ssis gratuliere .
+9-1	507-510	Zur	_	_
+9-2	511-518	Rettung	_	_
+9-3	519-522	des	_	_
+9-4	523-524	G	_	_
+9-5	525-527	ad	_	_
+9-6	528-532	ssis	_	_
+9-7	533-543	gratuliere	_	_
+9-8	544-545	.	_	_
+
+#Text=Ein Exenplar von Gargäulo 's Auswahl Pompejanische Gemälde , das ich früher von ihm eingetauscht wünschte , wird man wol von ihm kaufen müssen \; wie theuer ?
+10-1	546-549	Ein	_	_
+10-2	550-558	Exenplar	_	_
+10-3	559-562	von	_	_
+10-4	563-571	Gargäulo	*[6]	PERmentioned[6]
+10-5	572-574	's	*[6]	PERmentioned[6]
+10-6	575-582	Auswahl	_	_
+10-7	583-596	Pompejanische	*[2]	OBJ[2]
+10-8	597-604	Gemälde	*[2]	OBJ[2]
+10-9	605-606	,	_	_
+10-10	607-610	das	_	_
+10-11	611-614	ich	_	_
+10-12	615-621	früher	_	_
+10-13	622-625	von	_	_
+10-14	626-629	ihm	_	_
+10-15	630-642	eingetauscht	_	_
+10-16	643-651	wünschte	_	_
+10-17	652-653	,	_	_
+10-18	654-658	wird	_	_
+10-19	659-662	man	_	_
+10-20	663-666	wol	_	_
+10-21	667-670	von	_	_
+10-22	671-674	ihm	_	_
+10-23	675-681	kaufen	_	_
+10-24	682-688	müssen	_	_
+10-25	689-690	\;	_	_
+10-26	691-694	wie	_	_
+10-27	695-701	theuer	_	_
+10-28	702-703	?	_	_
+
+#Text=Wegen Preller und Halle werde sprechen \; zu Voigtels Nachfolger ist aber der Dr. Dunker seit Jahren designirt und war deswegen lange dort Privatdocent .
+11-1	704-709	Wegen	_	_
+11-2	710-717	Preller	*	PERmentioned
+11-3	718-721	und	_	_
+11-4	722-727	Halle	*	PLACEmentioned
+11-5	728-733	werde	_	_
+11-6	734-742	sprechen	_	_
+11-7	743-744	\;	_	_
+11-8	745-747	zu	_	_
+11-9	748-756	Voigtels	*	PERmentioned
+11-10	757-767	Nachfolger	_	_
+11-11	768-771	ist	_	_
+11-12	772-776	aber	_	_
+11-13	777-780	der	_	_
+11-14	781-784	Dr.	*[3]	PERmentioned[3]
+11-15	785-791	Dunker	*[3]	PERmentioned[3]
+11-16	792-796	seit	_	_
+11-17	797-803	Jahren	_	_
+11-18	804-813	designirt	_	_
+11-19	814-817	und	_	_
+11-20	818-821	war	_	_
+11-21	822-830	deswegen	_	_
+11-22	831-836	lange	_	_
+11-23	837-841	dort	_	_
+11-24	842-854	Privatdocent	_	_
+11-25	855-856	.	_	_
+
+#Text=Göttling hat seine Thusnelda splendid in unnützen Graufolio und mit noch unnützerem Abbild der Bandelschen Conception , den Text trefflich redigirt , herausgegeben \; seinen neuen Hesiodus höre ich weniger loben .
+12-1	857-865	Göttling	*	PERmentioned
+12-2	866-869	hat	_	_
+12-3	870-875	seine	_	_
+12-4	876-885	Thusnelda	*	PERmentioned
+12-5	886-894	splendid	_	_
+12-6	895-897	in	_	_
+12-7	898-906	unnützen	_	_
+12-8	907-916	Graufolio	_	_
+12-9	917-920	und	_	_
+12-10	921-924	mit	_	_
+12-11	925-929	noch	_	_
+12-12	930-940	unnützerem	_	_
+12-13	941-947	Abbild	_	_
+12-14	948-951	der	_	_
+12-15	952-963	Bandelschen	_	_
+12-16	964-974	Conception	_	_
+12-17	975-976	,	_	_
+12-18	977-980	den	_	_
+12-19	981-985	Text	_	_
+12-20	986-995	trefflich	_	_
+12-21	996-1004	redigirt	_	_
+12-22	1005-1006	,	_	_
+12-23	1007-1020	herausgegeben	_	_
+12-24	1021-1022	\;	_	_
+12-25	1023-1029	seinen	_	_
+12-26	1030-1035	neuen	_	_
+12-27	1036-1044	Hesiodus	*	PERmentioned
+12-28	1045-1049	höre	_	_
+12-29	1050-1053	ich	_	_
+12-30	1054-1061	weniger	_	_
+12-31	1062-1067	loben	_	_
+12-32	1068-1069	.	_	_
+
+#Text=Die Bibliothek für Visconti 's Wappenbuch zu gewinnen , bedarf es näherer Notizen über Werth und Preis .
+13-1	1070-1073	Die	_	_
+13-2	1074-1084	Bibliothek	*	ORGmentioned
+13-3	1085-1088	für	_	_
+13-4	1089-1097	Visconti	*[7]	PERmentioned[7]
+13-5	1098-1100	's	*[7]	PERmentioned[7]
+13-6	1101-1111	Wappenbuch	_	_
+13-7	1112-1114	zu	_	_
+13-8	1115-1123	gewinnen	_	_
+13-9	1124-1125	,	_	_
+13-10	1126-1132	bedarf	_	_
+13-11	1133-1135	es	_	_
+13-12	1136-1143	näherer	_	_
+13-13	1144-1151	Notizen	_	_
+13-14	1152-1156	über	_	_
+13-15	1157-1162	Werth	_	_
+13-16	1163-1166	und	_	_
+13-17	1167-1172	Preis	_	_
+13-18	1173-1174	.	_	_

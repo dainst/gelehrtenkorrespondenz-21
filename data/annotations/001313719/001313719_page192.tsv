@@ -1,0 +1,159 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=HAN m inehen 251 Gerhard an Henzen 10/XI/1849 lung mit einem andern sogar abgeleugnet hatte .
+1-1	0-3	HAN	_	_
+1-2	4-5	m	_	_
+1-3	6-12	inehen	_	_
+1-4	13-16	251	_	_
+1-5	17-24	Gerhard	*[2]	PERauthor[2]
+1-6	25-27	an	*[2]	PERauthor[2]
+1-7	28-34	Henzen	*	PERaddressee
+1-8	35-45	10/XI/1849	*	DATEletter
+1-9	46-50	lung	_	_
+1-10	51-54	mit	_	_
+1-11	55-60	einem	_	_
+1-12	61-67	andern	_	_
+1-13	68-73	sogar	_	_
+1-14	74-85	abgeleugnet	_	_
+1-15	86-91	hatte	_	_
+1-16	92-93	.	_	_
+
+#Text=ZEntschuldigen Sie mich bei ihm .
+2-1	94-108	ZEntschuldigen	_	_
+2-2	109-112	Sie	_	_
+2-3	113-117	mich	_	_
+2-4	118-121	bei	_	_
+2-5	122-125	ihm	_	_
+2-6	126-127	.	_	_
+
+#Text=Bull .
+3-1	128-132	Bull	_	_
+3-2	133-134	.	_	_
+
+#Text=Ottobre ist angelangt , der Brief an lommsen ist gleich abgegangen , auf der Bibliothek wird für Sie gearbeitet und stehe ich mit Auslagen zu Dienste .
+4-1	135-142	Ottobre	_	_
+4-2	143-146	ist	_	_
+4-3	147-156	angelangt	_	_
+4-4	157-158	,	_	_
+4-5	159-162	der	_	_
+4-6	163-168	Brief	_	_
+4-7	169-171	an	_	_
+4-8	172-179	lommsen	*	PERmentioned
+4-9	180-183	ist	_	_
+4-10	184-190	gleich	_	_
+4-11	191-201	abgegangen	_	_
+4-12	202-203	,	_	_
+4-13	204-207	auf	_	_
+4-14	208-211	der	_	_
+4-15	212-222	Bibliothek	*	ORGmentioned
+4-16	223-227	wird	_	_
+4-17	228-231	für	_	_
+4-18	232-235	Sie	_	_
+4-19	236-246	gearbeitet	_	_
+4-20	247-250	und	_	_
+4-21	251-256	stehe	_	_
+4-22	257-260	ich	_	_
+4-23	261-264	mit	_	_
+4-24	265-273	Auslagen	_	_
+4-25	274-276	zu	_	_
+4-26	277-284	Dienste	_	_
+4-27	285-286	.	_	_
+
+#Text=Theiner als Bibliothekar der Vaticana lautet recht übel \| !
+5-1	287-294	Theiner	*	PERmentioned
+5-2	295-298	als	_	_
+5-3	299-311	Bibliothekar	_	_
+5-4	312-315	der	_	_
+5-5	316-324	Vaticana	*	ORGmentioned
+5-6	325-331	lautet	_	_
+5-7	332-337	recht	_	_
+5-8	338-342	übel	_	_
+5-9	343-344	\|	_	_
+5-10	345-346	!	_	_
+
+#Text=D. Barth dessen Reisen ans Nittelmeer /6 ( Cyrene ) soeben erschienen , ist für ein von Bunsen wann unterstützte Mettäsch - preußischen äriose zur Bereisung des Jemen , mars der von Afrikayw inischen Seite , schon unterwegs .
+6-1	347-349	D.	_	_
+6-2	350-355	Barth	_	_
+6-3	356-362	dessen	_	_
+6-4	363-369	Reisen	_	_
+6-5	370-373	ans	_	_
+6-6	374-384	Nittelmeer	*	PLACEmentioned
+6-7	385-387	/6	_	_
+6-8	388-389	(	_	_
+6-9	390-396	Cyrene	*	PLACEmentioned
+6-10	397-398	)	_	_
+6-11	399-405	soeben	_	_
+6-12	406-416	erschienen	_	_
+6-13	417-418	,	_	_
+6-14	419-422	ist	_	_
+6-15	423-426	für	_	_
+6-16	427-430	ein	_	_
+6-17	431-434	von	_	_
+6-18	435-441	Bunsen	*	PERmentioned
+6-19	442-446	wann	_	_
+6-20	447-459	unterstützte	_	_
+6-21	460-468	Mettäsch	_	_
+6-22	469-470	-	_	_
+6-23	471-482	preußischen	_	_
+6-24	483-489	äriose	_	_
+6-25	490-493	zur	_	_
+6-26	494-503	Bereisung	_	_
+6-27	504-507	des	_	_
+6-28	508-513	Jemen	_	_
+6-29	514-515	,	_	_
+6-30	516-520	mars	_	_
+6-31	521-524	der	_	_
+6-32	525-528	von	_	_
+6-33	529-537	Afrikayw	*	PLACEmentioned
+6-34	538-546	inischen	_	_
+6-35	547-552	Seite	_	_
+6-36	553-554	,	_	_
+6-37	555-560	schon	_	_
+6-38	561-570	unterwegs	_	_
+6-39	571-572	.	_	_
+
+#Text=Meine Frau grüßt mit mir herzlich ” ie und die Ihrige und hofft , wenn dieselbe mit dem Hausstand von Mrs .
+7-1	573-578	Meine	_	_
+7-2	579-583	Frau	_	_
+7-3	584-589	grüßt	_	_
+7-4	590-593	mit	_	_
+7-5	594-597	mir	_	_
+7-6	598-606	herzlich	_	_
+7-7	607-608	”	_	_
+7-8	609-611	ie	_	_
+7-9	612-615	und	_	_
+7-10	616-619	die	_	_
+7-11	620-626	Ihrige	_	_
+7-12	627-630	und	_	_
+7-13	631-636	hofft	_	_
+7-14	637-638	,	_	_
+7-15	639-643	wenn	_	_
+7-16	644-652	dieselbe	_	_
+7-17	653-656	mit	_	_
+7-18	657-660	dem	_	_
+7-19	661-670	Hausstand	_	_
+7-20	671-674	von	_	_
+7-21	675-678	Mrs	*[1]	PERmentioned[1]
+7-22	679-680	.	*[1]	PERmentioned[1]
+
+#Text=Braun etwas vorgerdückt seän wird , gelegentlich auch wieder einmal von ihr zu hören , Der Ihrige Gerhard
+8-1	681-686	Braun	*[1]	PERmentioned[1]
+8-2	687-692	etwas	_	_
+8-3	693-704	vorgerdückt	_	_
+8-4	705-709	seän	_	_
+8-5	710-714	wird	_	_
+8-6	715-716	,	_	_
+8-7	717-729	gelegentlich	_	_
+8-8	730-734	auch	_	_
+8-9	735-741	wieder	_	_
+8-10	742-748	einmal	_	_
+8-11	749-752	von	_	_
+8-12	753-756	ihr	_	_
+8-13	757-759	zu	_	_
+8-14	760-765	hören	_	_
+8-15	766-767	,	_	_
+8-16	768-771	Der	_	_
+8-17	772-778	Ihrige	_	_
+8-18	779-786	Gerhard	*	PERauthor

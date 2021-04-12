@@ -1,0 +1,256 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=237 Braun an Gerhard Rom , 3. März 1838 Sig .
+1-1	0-3	237	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	3.	*[4]	DATEletter[4]
+1-8	30-34	März	*[4]	DATEletter[4]
+1-9	35-39	1838	*[4]	DATEletter[4]
+1-10	40-43	Sig	_	_
+1-11	44-45	.	_	_
+
+#Text=Cav .
+2-1	46-49	Cav	_	_
+2-2	50-51	.	_	_
+
+#Text=Gerhard Berlino Roma li 3 Marzo 1838 .
+3-1	52-59	Gerhard	*	PERaddressee
+3-2	60-67	Berlino	*	PLACEto
+3-3	68-72	Roma	*	PLACEfrom
+3-4	73-75	li	_	_
+3-5	76-77	3	*[8]	DATEletter[8]
+3-6	78-83	Marzo	*[8]	DATEletter[8]
+3-7	84-88	1838	*[8]	DATEletter[8]
+3-8	89-90	.	_	_
+
+#Text=Hochverehrtester Freund !
+4-1	91-107	Hochverehrtester	_	_
+4-2	108-114	Freund	_	_
+4-3	115-116	!	_	_
+
+#Text=Am 53 August v. J. in Bologna hatten Sie die Güte mir 2 Doppelnapoleondors = 4 Napol d'or zur Fortsetzung meiner Reise zu leihen .
+5-1	117-119	Am	_	_
+5-2	120-122	53	*[9]	DATEmentioned[9]
+5-3	123-129	August	*[9]	DATEmentioned[9]
+5-4	130-132	v.	*[9]	DATEmentioned[9]
+5-5	133-135	J.	*[9]	DATEmentioned[9]
+5-6	136-138	in	_	_
+5-7	139-146	Bologna	*	PLACEmentioned
+5-8	147-153	hatten	_	_
+5-9	154-157	Sie	_	_
+5-10	158-161	die	_	_
+5-11	162-166	Güte	_	_
+5-12	167-170	mir	_	_
+5-13	171-172	2	_	_
+5-14	173-191	Doppelnapoleondors	_	_
+5-15	192-193	=	_	_
+5-16	194-195	4	_	_
+5-17	196-201	Napol	_	_
+5-18	202-206	d'or	_	_
+5-19	207-210	zur	_	_
+5-20	211-222	Fortsetzung	_	_
+5-21	223-229	meiner	_	_
+5-22	230-235	Reise	_	_
+5-23	236-238	zu	_	_
+5-24	239-245	leihen	_	_
+5-25	246-247	.	_	_
+
+#Text=Aufgeschrieben finde ich darüher nichts , allein ich habe es durch allerlei Controllen feststellen können .
+6-1	248-262	Aufgeschrieben	_	_
+6-2	263-268	finde	_	_
+6-3	269-272	ich	_	_
+6-4	273-280	darüher	_	_
+6-5	281-287	nichts	_	_
+6-6	288-289	,	_	_
+6-7	290-296	allein	_	_
+6-8	297-300	ich	_	_
+6-9	301-305	habe	_	_
+6-10	306-308	es	_	_
+6-11	309-314	durch	_	_
+6-12	315-323	allerlei	_	_
+6-13	324-334	Controllen	_	_
+6-14	335-346	feststellen	_	_
+6-15	347-353	können	_	_
+6-16	354-355	.	_	_
+
+#Text=Vergleichen Sie Ihre eigenen Combinationen gefälligst damit .
+7-1	356-367	Vergleichen	_	_
+7-2	368-371	Sie	_	_
+7-3	372-376	Ihre	_	_
+7-4	377-384	eigenen	_	_
+7-5	385-398	Combinationen	_	_
+7-6	399-409	gefälligst	_	_
+7-7	410-415	damit	_	_
+7-8	416-417	.	_	_
+
+#Text=- Von Bunsen habe ich die rückständigen 8 Scudi zu den 12 an Vollard consegnirten ( also 20 Scudi ) erhalten .
+8-1	418-419	-	_	_
+8-2	420-423	Von	_	_
+8-3	424-430	Bunsen	*	PERmentioned
+8-4	431-435	habe	_	_
+8-5	436-439	ich	_	_
+8-6	440-443	die	_	_
+8-7	444-457	rückständigen	_	_
+8-8	458-459	8	_	_
+8-9	460-465	Scudi	_	_
+8-10	466-468	zu	_	_
+8-11	469-472	den	_	_
+8-12	473-475	12	_	_
+8-13	476-478	an	_	_
+8-14	479-486	Vollard	*	PERmentioned
+8-15	487-499	consegnirten	_	_
+8-16	500-501	(	_	_
+8-17	502-506	also	_	_
+8-18	507-509	20	_	_
+8-19	510-515	Scudi	_	_
+8-20	516-517	)	_	_
+8-21	518-526	erhalten	_	_
+8-22	527-528	.	_	_
+
+#Text=Diese 8 kommen mir in Rechnung .
+9-1	529-534	Diese	_	_
+9-2	535-536	8	_	_
+9-3	537-543	kommen	_	_
+9-4	544-547	mir	_	_
+9-5	548-550	in	_	_
+9-6	551-559	Rechnung	_	_
+9-7	560-561	.	_	_
+
+#Text=An Probsch ist das von Ihnen hinterlassene Paquet abgegangen .
+10-1	562-564	An	_	_
+10-2	565-572	Probsch	*	PERmentioned
+10-3	573-576	ist	_	_
+10-4	577-580	das	_	_
+10-5	581-584	von	_	_
+10-6	585-590	Ihnen	_	_
+10-7	591-604	hinterlassene	_	_
+10-8	605-611	Paquet	_	_
+10-9	612-622	abgegangen	_	_
+10-10	623-624	.	_	_
+
+#Text=Col .
+11-1	625-628	Col	_	_
+11-2	629-630	.	_	_
+
+#Text=Mure hat einige Kleinigkeiten zum Geschenk für ihn mitgenommen .
+12-1	631-635	Mure	*	PERmentioned
+12-2	636-639	hat	_	_
+12-3	640-646	einige	_	_
+12-4	647-660	Kleinigkeiten	_	_
+12-5	661-664	zum	_	_
+12-6	665-673	Geschenk	_	_
+12-7	674-677	für	_	_
+12-8	678-681	ihn	_	_
+12-9	682-693	mitgenommen	_	_
+12-10	694-695	.	_	_
+
+#Text=Daß Sie alles Erhebliche in Villa Pamfili haben zeichnen lassen , genügt mir nicht .
+13-1	696-699	Daß	_	_
+13-2	700-703	Sie	_	_
+13-3	704-709	alles	_	_
+13-4	710-720	Erhebliche	_	_
+13-5	721-723	in	_	_
+13-6	724-729	Villa	*[15]	PLACEmentioned[15]
+13-7	730-737	Pamfili	*[15]	PLACEmentioned[15]
+13-8	738-743	haben	_	_
+13-9	744-752	zeichnen	_	_
+13-10	753-759	lassen	_	_
+13-11	760-761	,	_	_
+13-12	762-768	genügt	_	_
+13-13	769-772	mir	_	_
+13-14	773-778	nicht	_	_
+13-15	779-780	.	_	_
+
+#Text=Ich muß wissen : Ob Sie die Ara mit der Juno an ina , Roma , Mars , Antonimus Pius , Venus , Victoria und 2 Togafiguren zeichnen ließen und zu erklären versuchten ?
+14-1	781-784	Ich	_	_
+14-2	785-788	muß	_	_
+14-3	789-795	wissen	_	_
+14-4	796-797	:	_	_
+14-5	798-800	Ob	_	_
+14-6	801-804	Sie	_	_
+14-7	805-808	die	_	_
+14-8	809-812	Ara	*[16]	OBJ[16]
+14-9	813-816	mit	*[16]	OBJ[16]
+14-10	817-820	der	*[16]	OBJ[16]
+14-11	821-825	Juno	*[16]|*[17]	OBJ[16]|MISC[17]
+14-12	826-828	an	*[16]|*[17]	OBJ[16]|MISC[17]
+14-13	829-832	ina	*[16]|*[17]	OBJ[16]|MISC[17]
+14-14	833-834	,	*[16]	OBJ[16]
+14-15	835-839	Roma	*[16]|*[18]	OBJ[16]|MISC[18]
+14-16	840-841	,	*[16]	OBJ[16]
+14-17	842-846	Mars	*[16]|*[19]	OBJ[16]|MISC[19]
+14-18	847-848	,	*[16]	OBJ[16]
+14-19	849-858	Antonimus	*[16]|*[20]	OBJ[16]|MISC[20]
+14-20	859-863	Pius	*[16]|*[20]	OBJ[16]|MISC[20]
+14-21	864-865	,	*[16]	OBJ[16]
+14-22	866-871	Venus	*[16]|*[21]	OBJ[16]|MISC[21]
+14-23	872-873	,	*[16]	OBJ[16]
+14-24	874-882	Victoria	*[16]|*[22]	OBJ[16]|MISC[22]
+14-25	883-886	und	*[16]	OBJ[16]
+14-26	887-888	2	*[16]	OBJ[16]
+14-27	889-900	Togafiguren	*[16]|*[23]	OBJ[16]|MISC[23]
+14-28	901-909	zeichnen	_	_
+14-29	910-916	ließen	_	_
+14-30	917-920	und	_	_
+14-31	921-923	zu	_	_
+14-32	924-932	erklären	_	_
+14-33	933-943	versuchten	_	_
+14-34	944-945	?	_	_
+
+#Text=ob Sie den Gladiator beim Casino des Custoden zeichnen ließen ?
+15-1	946-948	ob	_	_
+15-2	949-952	Sie	_	_
+15-3	953-956	den	_	_
+15-4	957-966	Gladiator	*	OBJ
+15-5	967-971	beim	_	_
+15-6	972-978	Casino	*[25]	PLACEmentioned[25]
+15-7	979-982	des	*[25]	PLACEmentioned[25]
+15-8	983-991	Custoden	*[25]	PLACEmentioned[25]
+15-9	992-1000	zeichnen	_	_
+15-10	1001-1007	ließen	_	_
+15-11	1008-1009	?	_	_
+
+#Text=den Sarkophag mit der Schweins- und Bärenjagd ?
+16-1	1010-1013	den	_	_
+16-2	1014-1023	Sarkophag	*[26]	OBJ[26]
+16-3	1024-1027	mit	*[26]	OBJ[26]
+16-4	1028-1031	der	*[26]	OBJ[26]
+16-5	1032-1041	Schweins-	*[26]	OBJ[26]
+16-6	1042-1045	und	*[26]	OBJ[26]
+16-7	1046-1055	Bärenjagd	*[26]	OBJ[26]
+16-8	1056-1057	?	_	_
+
+#Text=und vor allem das Bacchanal Kindern und unten stehenden Vasen \| !
+17-1	1058-1061	und	_	_
+17-2	1062-1065	vor	_	_
+17-3	1066-1071	allem	_	_
+17-4	1072-1075	das	_	_
+17-5	1076-1085	Bacchanal	*	OBJ
+17-6	1086-1093	Kindern	_	_
+17-7	1094-1097	und	_	_
+17-8	1098-1103	unten	_	_
+17-9	1104-1113	stehenden	_	_
+17-10	1114-1119	Vasen	*	OBJ
+17-11	1120-1121	\|	_	_
+17-12	1122-1123	!	_	_
+
+#Text=Apolloni hat 2 Spiegelzeichnungen eingeliefert von den früheren , hat Hoffnung die Vaticanischen
+18-1	1124-1132	Apolloni	*	PERmentioned
+18-2	1133-1136	hat	_	_
+18-3	1137-1138	2	_	_
+18-4	1139-1157	Spiegelzeichnungen	_	_
+18-5	1158-1170	eingeliefert	_	_
+18-6	1171-1174	von	_	_
+18-7	1175-1178	den	_	_
+18-8	1179-1187	früheren	_	_
+18-9	1188-1189	,	_	_
+18-10	1190-1193	hat	_	_
+18-11	1194-1202	Hoffnung	_	_
+18-12	1203-1206	die	_	_
+18-13	1207-1220	Vaticanischen	*	PLACEmentioned

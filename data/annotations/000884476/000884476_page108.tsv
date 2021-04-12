@@ -1,0 +1,43 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=32 Gerhard an Braun Berlin , 6 .
+1-1	0-2	32	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	6	*[4]	DATEletter[4]
+1-8	31-32	.	*[4]	DATEletter[4]
+
+#Text=Jamuar 1835 will .
+2-1	33-39	Jamuar	*[4]	DATEletter[4]
+2-2	40-44	1835	*[4]	DATEletter[4]
+2-3	45-49	will	_	_
+2-4	50-51	.	_	_
+
+#Text=Nichts Neues von Pompeji .
+3-1	52-58	Nichts	_	_
+3-2	59-64	Neues	_	_
+3-3	65-68	von	_	_
+3-4	69-76	Pompeji	*	PLACEmentioned
+3-5	77-78	.	_	_
+
+#Text=- Wegen Lamberti's Vasen soll hier auch deliberirt werden , er hat hierher geschrieben .
+4-1	79-80	-	_	_
+4-2	81-86	Wegen	_	_
+4-3	87-97	Lamberti's	*	PERmentioned
+4-4	98-103	Vasen	*	MISC
+4-5	104-108	soll	_	_
+4-6	109-113	hier	_	_
+4-7	114-118	auch	_	_
+4-8	119-129	deliberirt	_	_
+4-9	130-136	werden	_	_
+4-10	137-138	,	_	_
+4-11	139-141	er	_	_
+4-12	142-145	hat	_	_
+4-13	146-153	hierher	_	_
+4-14	154-165	geschrieben	_	_
+4-15	166-167	.	_	_

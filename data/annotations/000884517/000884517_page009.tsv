@@ -1,0 +1,201 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=33 Gerhard an Braun Berlin , 3 .
+1-1	0-2	33	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	3	*[1]	DATEletter[1]
+1-8	31-32	.	*[1]	DATEletter[1]
+
+#Text=Januar 1844 Odysseus so gut heißen als Tiresias .
+2-1	33-39	Januar	*[1]	DATEletter[1]
+2-2	40-44	1844	*[1]	DATEletter[1]
+2-3	45-53	Odysseus	*	PERmentioned
+2-4	54-56	so	_	_
+2-5	57-60	gut	_	_
+2-6	61-67	heißen	_	_
+2-7	68-71	als	_	_
+2-8	72-80	Tiresias	*	PERmentioned
+2-9	81-82	.	_	_
+
+#Text=Damit beschwichtige ich mich in Ermangelung anderer Deutung die ich gern von Ihnen vernehmen würde .
+3-1	83-88	Damit	_	_
+3-2	89-102	beschwichtige	_	_
+3-3	103-106	ich	_	_
+3-4	107-111	mich	_	_
+3-5	112-114	in	_	_
+3-6	115-126	Ermangelung	_	_
+3-7	127-134	anderer	_	_
+3-8	135-142	Deutung	_	_
+3-9	143-146	die	_	_
+3-10	147-150	ich	_	_
+3-11	151-155	gern	_	_
+3-12	156-159	von	_	_
+3-13	160-165	Ihnen	_	_
+3-14	166-175	vernehmen	_	_
+3-15	176-181	würde	_	_
+3-16	182-183	.	_	_
+
+#Text=Ritschlheft und eine Erklärung heischend sind auch die Idole des Brunnenhauses \; ich dachte an eine A lac '' mit dem Pallasidol , letzteres ausgestreckt von mehreren zu begießen .
+4-1	184-195	Ritschlheft	_	_
+4-2	196-199	und	_	_
+4-3	200-204	eine	_	_
+4-4	205-214	Erklärung	_	_
+4-5	215-224	heischend	_	_
+4-6	225-229	sind	_	_
+4-7	230-234	auch	_	_
+4-8	235-238	die	_	_
+4-9	239-244	Idole	_	_
+4-10	245-248	des	_	_
+4-11	249-262	Brunnenhauses	_	_
+4-12	263-264	\;	_	_
+4-13	265-268	ich	_	_
+4-14	269-275	dachte	_	_
+4-15	276-278	an	_	_
+4-16	279-283	eine	_	_
+4-17	284-285	A	_	_
+4-18	286-289	lac	_	_
+4-19	290-292	''	_	_
+4-20	293-296	mit	_	_
+4-21	297-300	dem	_	_
+4-22	301-311	Pallasidol	_	_
+4-23	312-313	,	_	_
+4-24	314-323	letzteres	_	_
+4-25	324-336	ausgestreckt	_	_
+4-26	337-340	von	_	_
+4-27	341-349	mehreren	_	_
+4-28	350-352	zu	_	_
+4-29	353-361	begießen	_	_
+4-30	362-363	.	_	_
+
+#Text=Nehme aber auch dafür gern Besseres an .
+5-1	364-369	Nehme	_	_
+5-2	370-374	aber	_	_
+5-3	375-379	auch	_	_
+5-4	380-385	dafür	_	_
+5-5	386-390	gern	_	_
+5-6	391-399	Besseres	_	_
+5-7	400-402	an	_	_
+5-8	403-404	.	_	_
+
+#Text=Das Hercules-Jole bild Minervini 's deutet Panofka gleichfalls auf Überwaschung Auge 's bei Y tischer Tempelwäsche .
+6-1	405-408	Das	_	_
+6-2	409-422	Hercules-Jole	*[2]	OBJ[2]
+6-3	423-427	bild	*[2]	OBJ[2]
+6-4	428-437	Minervini	*[4]	PERmentioned[4]
+6-5	438-440	's	*[4]	PERmentioned[4]
+6-6	441-447	deutet	_	_
+6-7	448-455	Panofka	*	PERmentioned
+6-8	456-467	gleichfalls	_	_
+6-9	468-471	auf	_	_
+6-10	472-484	Überwaschung	_	_
+6-11	485-489	Auge	*[5]	PERmentioned[5]
+6-12	490-492	's	*[5]	PERmentioned[5]
+6-13	493-496	bei	_	_
+6-14	497-498	Y	_	_
+6-15	499-506	tischer	_	_
+6-16	507-519	Tempelwäsche	_	_
+6-17	520-521	.	_	_
+
+#Text=Herzlich Ihr Gerhard Bei Ihnen muß es wol gut gehn ?
+7-1	522-530	Herzlich	_	_
+7-2	531-534	Ihr	_	_
+7-3	535-542	Gerhard	*	PERauthor
+7-4	543-546	Bei	_	_
+7-5	547-552	Ihnen	_	_
+7-6	553-556	muß	_	_
+7-7	557-559	es	_	_
+7-8	560-563	wol	_	_
+7-9	564-567	gut	_	_
+7-10	568-572	gehn	_	_
+7-11	573-574	?	_	_
+
+#Text=Ihrer lieben Frau unsre besten Wünsche .
+8-1	575-580	Ihrer	_	_
+8-2	581-587	lieben	_	_
+8-3	588-592	Frau	_	_
+8-4	593-598	unsre	_	_
+8-5	599-605	besten	_	_
+8-6	606-613	Wünsche	_	_
+8-7	614-615	.	_	_
+
+#Text=Sollten Sie meinen Vorschlag über sämtliche von mir notirten Gegenstände dem Museum Preise zu setzen fortwährend widerstreben , so bitte ich Sie für meinen Privatbesitz wenigstens die separatgelegten Gegenstände hinsichtlich deren Preises zu bezeichnen \; ferner über Ihren Spiegelbesitz , über die Eurytosvase , die Paris-Tiresiasvase , die Schalen Eris mit dem Löwen und ve : , ‚ „ endlich über die Beschaffenheit Ihrer von mir nicht gesehenen Antiken ähnliche Auskunft zu geben .
+9-1	616-623	Sollten	_	_
+9-2	624-627	Sie	_	_
+9-3	628-634	meinen	_	_
+9-4	635-644	Vorschlag	_	_
+9-5	645-649	über	_	_
+9-6	650-659	sämtliche	_	_
+9-7	660-663	von	_	_
+9-8	664-667	mir	_	_
+9-9	668-676	notirten	_	_
+9-10	677-688	Gegenstände	_	_
+9-11	689-692	dem	_	_
+9-12	693-699	Museum	*	ORGmentioned
+9-13	700-706	Preise	_	_
+9-14	707-709	zu	_	_
+9-15	710-716	setzen	_	_
+9-16	717-728	fortwährend	_	_
+9-17	729-741	widerstreben	_	_
+9-18	742-743	,	_	_
+9-19	744-746	so	_	_
+9-20	747-752	bitte	_	_
+9-21	753-756	ich	_	_
+9-22	757-760	Sie	_	_
+9-23	761-764	für	_	_
+9-24	765-771	meinen	_	_
+9-25	772-784	Privatbesitz	_	_
+9-26	785-795	wenigstens	_	_
+9-27	796-799	die	_	_
+9-28	800-815	separatgelegten	_	_
+9-29	816-827	Gegenstände	_	_
+9-30	828-840	hinsichtlich	_	_
+9-31	841-846	deren	_	_
+9-32	847-854	Preises	_	_
+9-33	855-857	zu	_	_
+9-34	858-868	bezeichnen	_	_
+9-35	869-870	\;	_	_
+9-36	871-877	ferner	_	_
+9-37	878-882	über	_	_
+9-38	883-888	Ihren	_	_
+9-39	889-902	Spiegelbesitz	*	OBJ
+9-40	903-904	,	_	_
+9-41	905-909	über	_	_
+9-42	910-913	die	_	_
+9-43	914-925	Eurytosvase	*	OBJ
+9-44	926-927	,	_	_
+9-45	928-931	die	_	_
+9-46	932-950	Paris-Tiresiasvase	*	OBJ
+9-47	951-952	,	_	_
+9-48	953-956	die	_	_
+9-49	957-964	Schalen	*[3]	OBJ[3]
+9-50	965-969	Eris	*[3]	OBJ[3]
+9-51	970-973	mit	*[3]	OBJ[3]
+9-52	974-977	dem	*[3]	OBJ[3]
+9-53	978-983	Löwen	*[3]	OBJ[3]
+9-54	984-987	und	_	_
+9-55	988-990	ve	_	_
+9-56	991-992	:	_	_
+9-57	993-994	,	_	_
+9-58	995-996	‚	_	_
+9-59	997-998	„	_	_
+9-60	999-1006	endlich	_	_
+9-61	1007-1011	über	_	_
+9-62	1012-1015	die	_	_
+9-63	1016-1030	Beschaffenheit	_	_
+9-64	1031-1036	Ihrer	_	_
+9-65	1037-1040	von	_	_
+9-66	1041-1044	mir	_	_
+9-67	1045-1050	nicht	_	_
+9-68	1051-1060	gesehenen	_	_
+9-69	1061-1068	Antiken	_	_
+9-70	1069-1077	ähnliche	_	_
+9-71	1078-1086	Auskunft	_	_
+9-72	1087-1089	zu	_	_
+9-73	1090-1095	geben	_	_
+9-74	1096-1097	.	_	_

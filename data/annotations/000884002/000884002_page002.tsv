@@ -1,0 +1,298 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=EN Ä 220 Brunn an Henzen Perugia , 18. Juli 1858 bekannt ?
+1-1	0-2	EN	_	_
+1-2	3-4	Ä	_	_
+1-3	5-8	220	_	_
+1-4	9-14	Brunn	*	PERauthor
+1-5	15-17	an	_	_
+1-6	18-24	Henzen	*	PERaddressee
+1-7	25-32	Perugia	*	PLACEfrom
+1-8	33-34	,	_	_
+1-9	35-38	18.	*[3]	DATEletter[3]
+1-10	39-43	Juli	*[3]	DATEletter[3]
+1-11	44-48	1858	*[3]	DATEletter[3]
+1-12	49-56	bekannt	_	_
+1-13	57-58	?	_	_
+
+#Text=2 andre dort geklatscht .
+2-1	59-60	2	_	_
+2-2	61-66	andre	_	_
+2-3	67-71	dort	_	_
+2-4	72-82	geklatscht	_	_
+2-5	83-84	.	_	_
+
+#Text=Außerdem ein interessantes Circusrelief mit Carceres .
+3-1	85-93	Außerdem	_	_
+3-2	94-97	ein	_	_
+3-3	98-111	interessantes	_	_
+3-4	112-124	Circusrelief	*	OBJ
+3-5	125-128	mit	_	_
+3-6	129-137	Carceres	_	_
+3-7	138-139	.	_	_
+
+#Text=Sofern es nicht bei Gerhard Ant . Bilder .
+4-1	140-146	Sofern	_	_
+4-2	147-149	es	_	_
+4-3	150-155	nicht	_	_
+4-4	156-159	bei	_	_
+4-5	160-167	Gerhard	*	PERmentioned
+4-6	168-171	Ant	_	_
+4-7	172-173	.	_	_
+4-8	174-180	Bilder	_	_
+4-9	181-182	.	_	_
+
+#Text=Taf . 120 , 1 publicirt ist , was ich sofort zu verificiren bitte , schicke ich von hier einen Zeichner hin .
+5-1	183-186	Taf	_	_
+5-2	187-188	.	_	_
+5-3	189-192	120	_	_
+5-4	193-194	,	_	_
+5-5	195-196	1	_	_
+5-6	197-206	publicirt	_	_
+5-7	207-210	ist	_	_
+5-8	211-212	,	_	_
+5-9	213-216	was	_	_
+5-10	217-220	ich	_	_
+5-11	221-227	sofort	_	_
+5-12	228-230	zu	_	_
+5-13	231-242	verificiren	_	_
+5-14	243-248	bitte	_	_
+5-15	249-250	,	_	_
+5-16	251-258	schicke	_	_
+5-17	259-262	ich	_	_
+5-18	263-266	von	_	_
+5-19	267-271	hier	_	_
+5-20	272-277	einen	_	_
+5-21	278-286	Zeichner	_	_
+5-22	287-290	hin	_	_
+5-23	291-292	.	_	_
+
+#Text=Eben so bitte ich nachzusehen , ob ebenda Taf . 36-40 ein Endymionrelief aus der Kathedrale S.Rufino zu Assisi publicirt ist , das sonst auch zu zeichnen wäre .
+6-1	293-297	Eben	_	_
+6-2	298-300	so	_	_
+6-3	301-306	bitte	_	_
+6-4	307-310	ich	_	_
+6-5	311-322	nachzusehen	_	_
+6-6	323-324	,	_	_
+6-7	325-327	ob	_	_
+6-8	328-334	ebenda	_	_
+6-9	335-338	Taf	_	_
+6-10	339-340	.	_	_
+6-11	341-346	36-40	_	_
+6-12	347-350	ein	_	_
+6-13	351-365	Endymionrelief	*	OBJ
+6-14	366-369	aus	_	_
+6-15	370-373	der	_	_
+6-16	374-384	Kathedrale	*[4]	PLACEmentioned[4]
+6-17	385-393	S.Rufino	*[4]	PLACEmentioned[4]
+6-18	394-396	zu	_	_
+6-19	397-403	Assisi	*	PLACEmentioned
+6-20	404-413	publicirt	_	_
+6-21	414-417	ist	_	_
+6-22	418-419	,	_	_
+6-23	420-423	das	_	_
+6-24	424-429	sonst	_	_
+6-25	430-434	auch	_	_
+6-26	435-437	zu	_	_
+6-27	438-446	zeichnen	_	_
+6-28	447-451	wäre	_	_
+6-29	452-453	.	_	_
+
+#Text=Sonst sind dort nur 2 unbedeutende etrusc .
+7-1	454-459	Sonst	_	_
+7-2	460-464	sind	_	_
+7-3	465-469	dort	_	_
+7-4	470-473	nur	_	_
+7-5	474-475	2	*[5]	OBJ[5]
+7-6	476-488	unbedeutende	*[5]	OBJ[5]
+7-7	489-495	etrusc	*[5]	OBJ[5]
+7-8	496-497	.	*[5]	OBJ[5]
+
+#Text=Dinge .
+8-1	498-503	Dinge	*[5]	OBJ[5]
+8-2	504-505	.	_	_
+
+#Text=Die Ausbeute ist also , wie auf dieser Tour zu erwarten , sehr gering .
+9-1	506-509	Die	_	_
+9-2	510-518	Ausbeute	_	_
+9-3	519-522	ist	_	_
+9-4	523-527	also	_	_
+9-5	528-529	,	_	_
+9-6	530-533	wie	_	_
+9-7	534-537	auf	_	_
+9-8	538-544	dieser	_	_
+9-9	545-549	Tour	_	_
+9-10	550-552	zu	_	_
+9-11	553-561	erwarten	_	_
+9-12	562-563	,	_	_
+9-13	564-568	sehr	_	_
+9-14	569-575	gering	_	_
+9-15	576-577	.	_	_
+
+#Text=Schon Montag Abend waren wir in Assisi und blieben bis Freitag Nachmittag .
+10-1	578-583	Schon	_	_
+10-2	584-590	Montag	*	DATEmentioned
+10-3	591-596	Abend	_	_
+10-4	597-602	waren	_	_
+10-5	603-606	wir	_	_
+10-6	607-609	in	_	_
+10-7	610-616	Assisi	*	PLACEmentioned
+10-8	617-620	und	_	_
+10-9	621-628	blieben	_	_
+10-10	629-632	bis	_	_
+10-11	633-640	Freitag	*[6]	DATEmentioned[6]
+10-12	641-651	Nachmittag	_	_
+10-13	652-653	.	_	_
+
+#Text=Bei ® .
+11-1	654-657	Bei	_	_
+11-2	658-659	®	_	_
+11-3	660-661	.	*[7]	PERmentioned[7]
+
+#Text=Letizia waren wir ganz gut aufgehoben .
+12-1	662-669	Letizia	*[7]	PERmentioned[7]
+12-2	670-675	waren	_	_
+12-3	676-679	wir	_	_
+12-4	680-684	ganz	_	_
+12-5	685-688	gut	_	_
+12-6	689-699	aufgehoben	_	_
+12-7	700-701	.	_	_
+
+#Text=Weniger behagt es uns hier bei Losser 's .
+13-1	702-709	Weniger	_	_
+13-2	710-716	behagt	_	_
+13-3	717-719	es	_	_
+13-4	720-723	uns	_	_
+13-5	724-728	hier	_	_
+13-6	729-732	bei	_	_
+13-7	733-739	Losser	*[11]	PERmentioned[11]
+13-8	740-742	's	*[11]	PERmentioned[11]
+13-9	743-744	.	_	_
+
+#Text=Die Aussicht allerdings schön \; aber Meublement und Betten äußerst dürftig \; daß außer den Töchtern keine Bedienung , ist namentlich für meine Frau in manchen Dingen höchst unbehaglich \; , und in Betreff von Essen und Trinken macht sich ein äußerst knappes Sparsamkeitssystem sehr unangenehm fühlbar .
+14-1	745-748	Die	_	_
+14-2	749-757	Aussicht	_	_
+14-3	758-768	allerdings	_	_
+14-4	769-774	schön	_	_
+14-5	775-776	\;	_	_
+14-6	777-781	aber	_	_
+14-7	782-792	Meublement	_	_
+14-8	793-796	und	_	_
+14-9	797-803	Betten	_	_
+14-10	804-811	äußerst	_	_
+14-11	812-819	dürftig	_	_
+14-12	820-821	\;	_	_
+14-13	822-825	daß	_	_
+14-14	826-831	außer	_	_
+14-15	832-835	den	_	_
+14-16	836-844	Töchtern	_	_
+14-17	845-850	keine	_	_
+14-18	851-860	Bedienung	_	_
+14-19	861-862	,	_	_
+14-20	863-866	ist	_	_
+14-21	867-877	namentlich	_	_
+14-22	878-881	für	_	_
+14-23	882-887	meine	*[8]	PERmentioned[8]
+14-24	888-892	Frau	*[8]	PERmentioned[8]
+14-25	893-895	in	_	_
+14-26	896-903	manchen	_	_
+14-27	904-910	Dingen	_	_
+14-28	911-917	höchst	_	_
+14-29	918-929	unbehaglich	_	_
+14-30	930-931	\;	_	_
+14-31	932-933	,	_	_
+14-32	934-937	und	_	_
+14-33	938-940	in	_	_
+14-34	941-948	Betreff	_	_
+14-35	949-952	von	_	_
+14-36	953-958	Essen	_	_
+14-37	959-962	und	_	_
+14-38	963-970	Trinken	_	_
+14-39	971-976	macht	_	_
+14-40	977-981	sich	_	_
+14-41	982-985	ein	_	_
+14-42	986-993	äußerst	_	_
+14-43	994-1001	knappes	_	_
+14-44	1002-1020	Sparsamkeitssystem	_	_
+14-45	1021-1025	sehr	_	_
+14-46	1026-1036	unangenehm	_	_
+14-47	1037-1044	fühlbar	_	_
+14-48	1045-1046	.	_	_
+
+#Text=Genug , die ganze Luft im Hause ist uns beiden in gleicher Weise ungemüthlich , und es ist daher sehr wahrscheinlich , daß wir uns bald eine andere Wohnung suchen , zumal sich meine Frau durch die allzu große Stille der Umgebung vielmehr niedergedrückt , als gehoben fühlt .
+15-1	1047-1052	Genug	_	_
+15-2	1053-1054	,	_	_
+15-3	1055-1058	die	_	_
+15-4	1059-1064	ganze	_	_
+15-5	1065-1069	Luft	_	_
+15-6	1070-1072	im	_	_
+15-7	1073-1078	Hause	_	_
+15-8	1079-1082	ist	_	_
+15-9	1083-1086	uns	_	_
+15-10	1087-1093	beiden	_	_
+15-11	1094-1096	in	_	_
+15-12	1097-1105	gleicher	_	_
+15-13	1106-1111	Weise	_	_
+15-14	1112-1124	ungemüthlich	_	_
+15-15	1125-1126	,	_	_
+15-16	1127-1130	und	_	_
+15-17	1131-1133	es	_	_
+15-18	1134-1137	ist	_	_
+15-19	1138-1143	daher	_	_
+15-20	1144-1148	sehr	_	_
+15-21	1149-1163	wahrscheinlich	_	_
+15-22	1164-1165	,	_	_
+15-23	1166-1169	daß	_	_
+15-24	1170-1173	wir	_	_
+15-25	1174-1177	uns	_	_
+15-26	1178-1182	bald	_	_
+15-27	1183-1187	eine	_	_
+15-28	1188-1194	andere	_	_
+15-29	1195-1202	Wohnung	_	_
+15-30	1203-1209	suchen	_	_
+15-31	1210-1211	,	_	_
+15-32	1212-1217	zumal	_	_
+15-33	1218-1222	sich	_	_
+15-34	1223-1228	meine	*[9]	PERmentioned[9]
+15-35	1229-1233	Frau	*[9]	PERmentioned[9]
+15-36	1234-1239	durch	_	_
+15-37	1240-1243	die	_	_
+15-38	1244-1249	allzu	_	_
+15-39	1250-1255	große	_	_
+15-40	1256-1262	Stille	_	_
+15-41	1263-1266	der	_	_
+15-42	1267-1275	Umgebung	_	_
+15-43	1276-1284	vielmehr	_	_
+15-44	1285-1299	niedergedrückt	_	_
+15-45	1300-1301	,	_	_
+15-46	1302-1305	als	_	_
+15-47	1306-1313	gehoben	_	_
+15-48	1314-1319	fühlt	_	_
+15-49	1320-1321	.	_	_
+
+#Text=- Conestabile habe ich gestern nur flüchtig gesehen .
+16-1	1322-1323	-	_	_
+16-2	1324-1335	Conestabile	*	PERmentioned
+16-3	1336-1340	habe	_	_
+16-4	1341-1344	ich	_	_
+16-5	1345-1352	gestern	_	_
+16-6	1353-1356	nur	_	_
+16-7	1357-1365	flüchtig	_	_
+16-8	1366-1373	gesehen	_	_
+16-9	1374-1375	.	_	_
+
+#Text=Er kommt immer Sonnabends von Monte Melino herein .
+17-1	1376-1378	Er	_	_
+17-2	1379-1384	kommt	_	_
+17-3	1385-1390	immer	_	_
+17-4	1391-1401	Sonnabends	*	DATEmentioned
+17-5	1402-1405	von	_	_
+17-6	1406-1411	Monte	*[10]	PLACEmentioned[10]
+17-7	1412-1418	Melino	*[10]	PLACEmentioned[10]
+17-8	1419-1425	herein	_	_
+17-9	1426-1427	.	_	_
+
+#Text=-
+18-1	1428-1429	-	_	_

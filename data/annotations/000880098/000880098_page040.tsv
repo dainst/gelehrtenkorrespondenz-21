@@ -1,0 +1,208 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Coburg , 5 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-23	Coburg	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	5	_	_
+1-7	28-29	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1833 Mein Theuerster Freund \| !
+2-1	30-37	Oktober	*[1]	DATEletter[1]
+2-2	38-42	1833	*[1]	DATEletter[1]
+2-3	43-47	Mein	_	_
+2-4	48-58	Theuerster	_	_
+2-5	59-65	Freund	_	_
+2-6	66-67	\|	_	_
+2-7	68-69	!	_	_
+
+#Text=Während ich Ihnen im vollsten Fluge zuzueilen meine , werde ich hier in Coburg ganz unvermuthet angehalten .
+3-1	70-77	Während	_	_
+3-2	78-81	ich	_	_
+3-3	82-87	Ihnen	_	_
+3-4	88-90	im	_	_
+3-5	91-99	vollsten	_	_
+3-6	100-105	Fluge	_	_
+3-7	106-115	zuzueilen	_	_
+3-8	116-121	meine	_	_
+3-9	122-123	,	_	_
+3-10	124-129	werde	_	_
+3-11	130-133	ich	_	_
+3-12	134-138	hier	_	_
+3-13	139-141	in	_	_
+3-14	142-148	Coburg	*	PLACEmentioned
+3-15	149-153	ganz	_	_
+3-16	154-165	unvermuthet	_	_
+3-17	166-176	angehalten	_	_
+3-18	177-178	.	_	_
+
+#Text=Ich muß mich fügen , da es der Wunsch des Minister ist : ich soll hier den Herzog erwarten .
+4-1	179-182	Ich	_	_
+4-2	183-186	muß	_	_
+4-3	187-191	mich	_	_
+4-4	192-197	fügen	_	_
+4-5	198-199	,	_	_
+4-6	200-202	da	_	_
+4-7	203-205	es	_	_
+4-8	206-209	der	_	_
+4-9	210-216	Wunsch	_	_
+4-10	217-220	des	_	_
+4-11	221-229	Minister	*	PERmentioned
+4-12	230-233	ist	_	_
+4-13	234-235	:	_	_
+4-14	236-239	ich	_	_
+4-15	240-244	soll	_	_
+4-16	245-249	hier	_	_
+4-17	250-253	den	_	_
+4-18	254-260	Herzog	*	PERmentioned
+4-19	261-269	erwarten	_	_
+4-20	270-271	.	_	_
+
+#Text=Da ich einmal entrirt habe , kann ich mich nicht wohl wiederspenstig zeigen .
+5-1	272-274	Da	_	_
+5-2	275-278	ich	_	_
+5-3	279-285	einmal	_	_
+5-4	286-293	entrirt	_	_
+5-5	294-298	habe	_	_
+5-6	299-300	,	_	_
+5-7	301-305	kann	_	_
+5-8	306-309	ich	_	_
+5-9	310-314	mich	_	_
+5-10	315-320	nicht	_	_
+5-11	321-325	wohl	_	_
+5-12	326-340	wiederspenstig	_	_
+5-13	341-347	zeigen	_	_
+5-14	348-349	.	_	_
+
+#Text=Statt aber den Sten in München einzutreffen , komme ich nun erst den 12ten dort an .
+6-1	350-355	Statt	_	_
+6-2	356-360	aber	_	_
+6-3	361-364	den	_	_
+6-4	365-369	Sten	*	DATEmentioned
+6-5	370-372	in	_	_
+6-6	373-380	München	*	PLACEmentioned
+6-7	381-393	einzutreffen	_	_
+6-8	394-395	,	_	_
+6-9	396-401	komme	_	_
+6-10	402-405	ich	_	_
+6-11	406-409	nun	_	_
+6-12	410-414	erst	_	_
+6-13	415-418	den	_	_
+6-14	419-424	12ten	*	DATEmentioned
+6-15	425-429	dort	_	_
+6-16	430-432	an	_	_
+6-17	433-434	.	_	_
+
+#Text=Wollen Sie nun noch , daß ich den 16ten bey Ihnen in Verona seyn soll , so werde ich kaum Zeit finden meine Freunde in München flüchtig aufzusuchen .
+7-1	435-441	Wollen	_	_
+7-2	442-445	Sie	_	_
+7-3	446-449	nun	_	_
+7-4	450-454	noch	_	_
+7-5	455-456	,	_	_
+7-6	457-460	daß	_	_
+7-7	461-464	ich	_	_
+7-8	465-468	den	_	_
+7-9	469-474	16ten	*	DATEmentioned
+7-10	475-478	bey	_	_
+7-11	479-484	Ihnen	_	_
+7-12	485-487	in	_	_
+7-13	488-494	Verona	*	PLACEmentioned
+7-14	495-499	seyn	_	_
+7-15	500-504	soll	_	_
+7-16	505-506	,	_	_
+7-17	507-509	so	_	_
+7-18	510-515	werde	_	_
+7-19	516-519	ich	_	_
+7-20	520-524	kaum	_	_
+7-21	525-529	Zeit	_	_
+7-22	530-536	finden	_	_
+7-23	537-542	meine	_	_
+7-24	543-550	Freunde	_	_
+7-25	551-553	in	_	_
+7-26	554-561	München	*	PLACEmentioned
+7-27	562-570	flüchtig	_	_
+7-28	571-582	aufzusuchen	_	_
+7-29	583-584	.	_	_
+
+#Text=An Arbeiten für die Bibliographie ist dann aber gar nicht zu denken .
+8-1	585-587	An	_	_
+8-2	588-596	Arbeiten	_	_
+8-3	597-600	für	_	_
+8-4	601-604	die	_	_
+8-5	605-618	Bibliographie	_	_
+8-6	619-622	ist	_	_
+8-7	623-627	dann	_	_
+8-8	628-632	aber	_	_
+8-9	633-636	gar	_	_
+8-10	637-642	nicht	_	_
+8-11	643-645	zu	_	_
+8-12	646-652	denken	_	_
+8-13	653-654	.	_	_
+
+#Text=Ich richte daher meine inständigste Bitte an Sie , mir umgehend nach München zu schreiben und mir die nothwendigen Termine , welche ich halten muß , anzuzeigen .
+9-1	655-658	Ich	_	_
+9-2	659-665	richte	_	_
+9-3	666-671	daher	_	_
+9-4	672-677	meine	_	_
+9-5	678-690	inständigste	_	_
+9-6	691-696	Bitte	_	_
+9-7	697-699	an	_	_
+9-8	700-703	Sie	_	_
+9-9	704-705	,	_	_
+9-10	706-709	mir	_	_
+9-11	710-718	umgehend	_	_
+9-12	719-723	nach	_	_
+9-13	724-731	München	*	PLACEmentioned
+9-14	732-734	zu	_	_
+9-15	735-744	schreiben	_	_
+9-16	745-748	und	_	_
+9-17	749-752	mir	_	_
+9-18	753-756	die	_	_
+9-19	757-769	nothwendigen	_	_
+9-20	770-777	Termine	_	_
+9-21	778-779	,	_	_
+9-22	780-786	welche	_	_
+9-23	787-790	ich	_	_
+9-24	791-797	halten	_	_
+9-25	798-801	muß	_	_
+9-26	802-803	,	_	_
+9-27	804-814	anzuzeigen	_	_
+9-28	815-816	.	_	_
+
+#Text=In Hoffnung eine erfreuliche , nicht zürnende Antwort in München von Ihnen Poste restante vorzufinden , verharre ich Ihr treuster und dankbarster EB .
+10-1	817-819	In	_	_
+10-2	820-828	Hoffnung	_	_
+10-3	829-833	eine	_	_
+10-4	834-845	erfreuliche	_	_
+10-5	846-847	,	_	_
+10-6	848-853	nicht	_	_
+10-7	854-862	zürnende	_	_
+10-8	863-870	Antwort	_	_
+10-9	871-873	in	_	_
+10-10	874-881	München	*	PLACEmentioned
+10-11	882-885	von	_	_
+10-12	886-891	Ihnen	_	_
+10-13	892-897	Poste	_	_
+10-14	898-906	restante	_	_
+10-15	907-918	vorzufinden	_	_
+10-16	919-920	,	_	_
+10-17	921-929	verharre	_	_
+10-18	930-933	ich	_	_
+10-19	934-937	Ihr	_	_
+10-20	938-946	treuster	_	_
+10-21	947-950	und	_	_
+10-22	951-962	dankbarster	_	_
+10-23	963-965	EB	*[2]	PERauthor[2]
+10-24	966-967	.	*[2]	PERauthor[2]
+
+#Text=Braun Coburg 5 Octbr 33 .
+11-1	968-973	Braun	*[2]	PERauthor[2]
+11-2	974-980	Coburg	*	PLACEfrom
+11-3	981-982	5	*[3]	DATEletter[3]
+11-4	983-988	Octbr	*[3]	DATEletter[3]
+11-5	989-991	33	*[3]	DATEletter[3]
+11-6	992-993	.	_	_

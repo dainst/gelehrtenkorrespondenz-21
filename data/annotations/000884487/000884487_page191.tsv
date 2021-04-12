@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 1. Juli 1837 Hier fürchten wir uns obenein wegen Cholera zu verden , obwohl die Leiche die im Lazareth gestorben , duchessa San Teodoro nicht , wie bei Choleratodtz entstellt war .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	1.	*[4]	DATEletter[4]
+1-7	30-34	Juli	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-44	Hier	_	_
+1-10	45-53	fürchten	_	_
+1-11	54-57	wir	_	_
+1-12	58-61	uns	_	_
+1-13	62-69	obenein	_	_
+1-14	70-75	wegen	_	_
+1-15	76-83	Cholera	_	_
+1-16	84-86	zu	_	_
+1-17	87-93	verden	_	_
+1-18	94-95	,	_	_
+1-19	96-102	obwohl	_	_
+1-20	103-106	die	_	_
+1-21	107-113	Leiche	_	_
+1-22	114-117	die	_	_
+1-23	118-120	im	_	_
+1-24	121-129	Lazareth	_	_
+1-25	130-139	gestorben	_	_
+1-26	140-141	,	_	_
+1-27	142-150	duchessa	*[5]	PERmentioned[5]
+1-28	151-154	San	*[5]	PERmentioned[5]
+1-29	155-162	Teodoro	*[5]	PERmentioned[5]
+1-30	163-168	nicht	_	_
+1-31	169-170	,	_	_
+1-32	171-174	wie	_	_
+1-33	175-178	bei	_	_
+1-34	179-191	Choleratodtz	_	_
+1-35	192-201	entstellt	_	_
+1-36	202-205	war	_	_
+1-37	206-207	.	_	_
+
+#Text=Binstweilen hat es die Folge geschmälerten Verkehrs mit der Stadt .
+2-1	208-219	Binstweilen	_	_
+2-2	220-223	hat	_	_
+2-3	224-226	es	_	_
+2-4	227-230	die	_	_
+2-5	231-236	Folge	_	_
+2-6	237-250	geschmälerten	_	_
+2-7	251-259	Verkehrs	_	_
+2-8	260-263	mit	_	_
+2-9	264-267	der	_	_
+2-10	268-273	Stadt	_	_
+2-11	274-275	.	_	_
+
+#Text=Haben Sie wol die bei Ortieri verkäufliche Sache aus Chiusi ( von Sozzi ) angesehen ?
+3-1	276-281	Haben	_	_
+3-2	282-285	Sie	_	_
+3-3	286-289	wol	_	_
+3-4	290-293	die	_	_
+3-5	294-297	bei	_	_
+3-6	298-305	Ortieri	*	PERmentioned
+3-7	306-318	verkäufliche	_	_
+3-8	319-324	Sache	_	_
+3-9	325-328	aus	_	_
+3-10	329-335	Chiusi	*	PLACEmentioned
+3-11	336-337	(	_	_
+3-12	338-341	von	_	_
+3-13	342-347	Sozzi	*	PERmentioned
+3-14	348-349	)	_	_
+3-15	350-359	angesehen	_	_
+3-16	360-361	?	_	_
+
+#Text=Ich versuchte es mehrmals vergebens .
+4-1	362-365	Ich	_	_
+4-2	366-375	versuchte	_	_
+4-3	376-378	es	_	_
+4-4	379-387	mehrmals	_	_
+4-5	388-397	vergebens	_	_
+4-6	398-399	.	_	_
+
+#Text=Es soll eine Cista mystica darunter sein \; ich wünschte sehr Sie untersuchten das .
+5-1	400-402	Es	_	_
+5-2	403-407	soll	_	_
+5-3	408-412	eine	_	_
+5-4	413-418	Cista	*[9]	OBJ[9]
+5-5	419-426	mystica	*[9]	OBJ[9]
+5-6	427-435	darunter	_	_
+5-7	436-440	sein	_	_
+5-8	441-442	\;	_	_
+5-9	443-446	ich	_	_
+5-10	447-455	wünschte	_	_
+5-11	456-460	sehr	_	_
+5-12	461-464	Sie	_	_
+5-13	465-477	untersuchten	_	_
+5-14	478-481	das	_	_
+5-15	482-483	.	_	_
+
+#Text=Ihre Kaufschätze stellen sich hübsch heraus .
+6-1	484-488	Ihre	_	_
+6-2	489-500	Kaufschätze	_	_
+6-3	501-508	stellen	_	_
+6-4	509-513	sich	_	_
+6-5	514-520	hübsch	_	_
+6-6	521-527	heraus	_	_
+6-7	528-529	.	_	_
+
+#Text=Den Cratere astronomico hat wol Fossati so gut wie ans Governo verkauft \; da er so viel Lärm darüber schlägt \; ich kann auch nur Inedite brauchen .
+7-1	530-533	Den	_	_
+7-2	534-541	Cratere	*[10]	OBJ[10]
+7-3	542-553	astronomico	*[10]	OBJ[10]
+7-4	554-557	hat	_	_
+7-5	558-561	wol	_	_
+7-6	562-569	Fossati	*	PERmentioned
+7-7	570-572	so	_	_
+7-8	573-576	gut	_	_
+7-9	577-580	wie	_	_
+7-10	581-584	ans	_	_
+7-11	585-592	Governo	*	ORGmentioned
+7-12	593-601	verkauft	_	_
+7-13	602-603	\;	_	_
+7-14	604-606	da	_	_
+7-15	607-609	er	_	_
+7-16	610-612	so	_	_
+7-17	613-617	viel	_	_
+7-18	618-622	Lärm	_	_
+7-19	623-630	darüber	_	_
+7-20	631-638	schlägt	_	_
+7-21	639-640	\;	_	_
+7-22	641-644	ich	_	_
+7-23	645-649	kann	_	_
+7-24	650-654	auch	_	_
+7-25	655-658	nur	_	_
+7-26	659-666	Inedite	_	_
+7-27	667-675	brauchen	_	_
+7-28	676-677	.	_	_
+
+#Text=Auch Vasen bronze Figuren oder Geräthe könnte ich brauchen .
+8-1	678-682	Auch	_	_
+8-2	683-688	Vasen	*	OBJ
+8-3	689-695	bronze	*[14]	OBJ[14]
+8-4	696-703	Figuren	*[14]	OBJ[14]
+8-5	704-708	oder	_	_
+8-6	709-716	Geräthe	*	OBJ
+8-7	717-723	könnte	_	_
+8-8	724-727	ich	_	_
+8-9	728-736	brauchen	_	_
+8-10	737-738	.	_	_
+
+#Text=Hoffentlich berühren Sie Florenz \; dann spreche ich Ihr Gutachten vor wegen R s Goldsachen .
+9-1	739-750	Hoffentlich	_	_
+9-2	751-759	berühren	_	_
+9-3	760-763	Sie	*[15]	PLACEmentioned[15]
+9-4	764-771	Florenz	*[15]	PLACEmentioned[15]
+9-5	772-773	\;	_	_
+9-6	774-778	dann	_	_
+9-7	779-786	spreche	_	_
+9-8	787-790	ich	_	_
+9-9	791-794	Ihr	_	_
+9-10	795-804	Gutachten	_	_
+9-11	805-808	vor	_	_
+9-12	809-814	wegen	_	_
+9-13	815-816	R	_	_
+9-14	817-818	s	_	_
+9-15	819-829	Goldsachen	*	OBJ
+9-16	830-831	.	_	_
+
+#Text=Capranesi hat ohne Zweifel seine Addresse .
+10-1	832-841	Capranesi	*	PERmentioned
+10-2	842-845	hat	_	_
+10-3	846-850	ohne	_	_
+10-4	851-858	Zweifel	_	_
+10-5	859-864	seine	_	_
+10-6	865-873	Addresse	_	_
+10-7	874-875	.	_	_
+
+#Text=Wollen Sie die Sommervillen Artikel nicht fürs Archäolog .
+11-1	876-882	Wollen	_	_
+11-2	883-886	Sie	_	_
+11-3	887-890	die	_	_
+11-4	891-903	Sommervillen	_	_
+11-5	904-911	Artikel	_	_
+11-6	912-917	nicht	_	_
+11-7	918-922	fürs	_	_
+11-8	923-932	Archäolog	_	_
+11-9	933-934	.	_	_
+
+#Text=Ist.Bl .
+12-1	935-941	Ist.Bl	_	_
+12-2	942-943	.	_	_
+
+#Text=zurichten ?
+13-1	944-953	zurichten	_	_
+13-2	954-955	?	_	_
+
+#Text=Denken Sie auch sonst wo möglich an dasselbe durch sich und andere , ehe Sie abreisen .
+14-1	956-962	Denken	_	_
+14-2	963-966	Sie	_	_
+14-3	967-971	auch	_	_
+14-4	972-977	sonst	_	_
+14-5	978-980	wo	_	_
+14-6	981-988	möglich	_	_
+14-7	989-991	an	_	_
+14-8	992-1000	dasselbe	_	_
+14-9	1001-1006	durch	_	_
+14-10	1007-1011	sich	_	_
+14-11	1012-1015	und	_	_
+14-12	1016-1022	andere	_	_
+14-13	1023-1024	,	_	_
+14-14	1025-1028	ehe	_	_
+14-15	1029-1032	Sie	_	_
+14-16	1033-1041	abreisen	_	_
+14-17	1042-1043	.	_	_
+
+#Text=Den B wieder so und plötzlich vor des Publikums Augen zu lassen , scheint mir unbesonnen .
+15-1	1044-1047	Den	_	_
+15-2	1048-1049	B	_	_
+15-3	1050-1056	wieder	_	_
+15-4	1057-1059	so	_	_
+15-5	1060-1063	und	_	_
+15-6	1064-1073	plötzlich	_	_
+15-7	1074-1077	vor	_	_
+15-8	1078-1081	des	_	_
+15-9	1082-1091	Publikums	_	_
+15-10	1092-1097	Augen	_	_
+15-11	1098-1100	zu	_	_
+15-12	1101-1107	lassen	_	_
+15-13	1108-1109	,	_	_
+15-14	1110-1117	scheint	_	_
+15-15	1118-1121	mir	_	_
+15-16	1122-1132	unbesonnen	_	_
+15-17	1133-1134	.	_	_
+
+#Text=Die Attenzione die Sie dem Lanci erwiesen hat er verdient und mich gefreut .
+16-1	1135-1138	Die	_	_
+16-2	1139-1149	Attenzione	_	_
+16-3	1150-1153	die	_	_
+16-4	1154-1157	Sie	_	_
+16-5	1158-1161	dem	_	_
+16-6	1162-1167	Lanci	*	PERmentioned
+16-7	1168-1176	erwiesen	_	_
+16-8	1177-1180	hat	_	_
+16-9	1181-1183	er	_	_
+16-10	1184-1192	verdient	_	_
+16-11	1193-1196	und	_	_
+16-12	1197-1201	mich	_	_
+16-13	1202-1209	gefreut	_	_
+16-14	1210-1211	.	_	_

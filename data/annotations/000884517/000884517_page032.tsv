@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=116 Gerhard an Braun Berlin , 27. Februar 1844 A. d . Dir .
+1-1	0-3	116	_	_	
+1-2	4-11	Gerhard	*	PERauthor	
+1-3	12-14	an	_	_	
+1-4	15-20	Braun	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-33	27.	*[1]	DATEletter[1]	
+1-8	34-41	Februar	*[1]	DATEletter[1]	
+1-9	42-46	1844	*[1]	DATEletter[1]	
+1-10	47-49	A.	_	_	
+1-11	50-51	d	_	_	
+1-12	52-53	.	_	_	
+1-13	54-57	Dir	_	_	
+1-14	58-59	.	_	_	
+
+#Text=g . 31/III 44 r . 12/III 44 Dr. Braun Berlin 27 Febr 44 Mein theurer Freund .
+2-1	60-61	g	_	_	
+2-2	62-63	.	_	_	
+2-3	64-70	31/III	*[2]	DATErecieved[2]	
+2-4	71-73	44	*[2]	DATErecieved[2]	
+2-5	74-75	r	_	_	
+2-6	76-77	.	_	_	
+2-7	78-84	12/III	*[3]	DATEanswered[3]	
+2-8	85-87	44	*[3]	DATEanswered[3]	
+2-9	88-91	Dr.	_	_	
+2-10	92-97	Braun	*	PERaddressee	
+2-11	98-104	Berlin	*	PLACEfrom	
+2-12	105-107	27	*[4]	DATEletter[4]	
+2-13	108-112	Febr	*[4]	DATEletter[4]	
+2-14	113-115	44	*[4]	DATEletter[4]	
+2-15	116-120	Mein	_	_	
+2-16	121-128	theurer	_	_	
+2-17	129-135	Freund	_	_	
+2-18	136-137	.	_	_	
+
+#Text=Zuerst besten Dank für die Briefe vom 1 % und 15 Februar samt der Marginalien der Mitgliederliste ; hauptsächlich für Ihr Ausführliches über das was der Epigraphik Noth thun und zugleich unsre Freunde fördern könne .
+3-1	138-144	Zuerst	_	_	
+3-2	145-151	besten	_	_	
+3-3	152-156	Dank	_	_	
+3-4	157-160	für	_	_	
+3-5	161-164	die	_	_	
+3-6	165-171	Briefe	_	_	
+3-7	172-175	vom	_	_	
+3-8	176-177	1	*	DATEmentioned	
+3-9	178-179	%	_	_	
+3-10	180-183	und	_	_	
+3-11	184-186	15	*[5]	DATEmentioned[5]	
+3-12	187-194	Februar	*[5]	DATEmentioned[5]	
+3-13	195-199	samt	_	_	
+3-14	200-203	der	_	_	
+3-15	204-215	Marginalien	_	_	
+3-16	216-219	der	_	_	
+3-17	220-235	Mitgliederliste	_	_	
+3-18	236-237	;	_	_	
+3-19	238-251	hauptsächlich	_	_	
+3-20	252-255	für	_	_	
+3-21	256-259	Ihr	_	_	
+3-22	260-273	Ausführliches	_	_	
+3-23	274-278	über	_	_	
+3-24	279-282	das	_	_	
+3-25	283-286	was	_	_	
+3-26	287-290	der	_	_	
+3-27	291-301	Epigraphik	_	_	
+3-28	302-306	Noth	_	_	
+3-29	307-311	thun	_	_	
+3-30	312-315	und	_	_	
+3-31	316-324	zugleich	_	_	
+3-32	325-330	unsre	_	_	
+3-33	331-338	Freunde	_	_	
+3-34	339-346	fördern	_	_	
+3-35	347-352	könne	_	_	
+3-36	353-354	.	_	_	
+
+#Text=An Horkel hatte ich nur darum nicht gedacht , weil er nicht gar lange außerhalb Deutschland wird bleiben mögen ; für Henzen kann die Akademie interessiert werden , sobald eine epigraphische Arbeit gedruckt vorliegt .
+4-1	355-357	An	_	_	
+4-2	358-364	Horkel	*	PERmentioned	
+4-3	365-370	hatte	_	_	
+4-4	371-374	ich	_	_	
+4-5	375-378	nur	_	_	
+4-6	379-384	darum	_	_	
+4-7	385-390	nicht	_	_	
+4-8	391-398	gedacht	_	_	
+4-9	399-400	,	_	_	
+4-10	401-405	weil	_	_	
+4-11	406-408	er	_	_	
+4-12	409-414	nicht	_	_	
+4-13	415-418	gar	_	_	
+4-14	419-424	lange	_	_	
+4-15	425-434	außerhalb	_	_	
+4-16	435-446	Deutschland	*	PLACEmentioned	
+4-17	447-451	wird	_	_	
+4-18	452-459	bleiben	_	_	
+4-19	460-465	mögen	_	_	
+4-20	466-467	;	_	_	
+4-21	468-471	für	_	_	
+4-22	472-478	Henzen	*	PERmentioned	
+4-23	479-483	kann	_	_	
+4-24	484-487	die	_	_	
+4-25	488-496	Akademie	*	ORGmentioned	
+4-26	497-509	interessiert	_	_	
+4-27	510-516	werden	_	_	
+4-28	517-518	,	_	_	
+4-29	519-525	sobald	_	_	
+4-30	526-530	eine	_	_	
+4-31	531-544	epigraphische	_	_	
+4-32	545-551	Arbeit	_	_	
+4-33	552-560	gedruckt	_	_	
+4-34	561-569	vorliegt	_	_	
+4-35	570-571	.	_	_	
+
+#Text=Das Büchlein monumentaler römischer Inschriften wird dazu genügen ; ehe aber etwas der Art vorliegt , ist in dieser Sache nichts zu thun .
+5-1	572-575	Das	_	_	
+5-2	576-584	Büchlein	_	_	
+5-3	585-597	monumentaler	_	_	
+5-4	598-607	römischer	_	_	
+5-5	608-619	Inschriften	_	_	
+5-6	620-624	wird	_	_	
+5-7	625-629	dazu	_	_	
+5-8	630-637	genügen	_	_	
+5-9	638-639	;	_	_	
+5-10	640-643	ehe	_	_	
+5-11	644-648	aber	_	_	
+5-12	649-654	etwas	_	_	
+5-13	655-658	der	_	_	
+5-14	659-662	Art	_	_	
+5-15	663-671	vorliegt	_	_	
+5-16	672-673	,	_	_	
+5-17	674-677	ist	_	_	
+5-18	678-680	in	_	_	
+5-19	681-687	dieser	_	_	
+5-20	688-693	Sache	_	_	
+5-21	694-700	nichts	_	_	
+5-22	701-703	zu	_	_	
+5-23	704-708	thun	_	_	
+5-24	709-710	.	_	_	
+
+#Text=Beschleu/.nigen Sie es !
+6-1	711-726	Beschleu/.nigen	_	_	
+6-2	727-730	Sie	_	_	
+6-3	731-733	es	_	_	
+6-4	734-735	!	_	_	
+
+#Text=Iäßt sich ein Antrag nur vor dem hohen Sommer stellen , so ist es gleich ob jetzt oder etwas später .
+7-1	736-740	Iäßt	_	_	
+7-2	741-745	sich	_	_	
+7-3	746-749	ein	_	_	
+7-4	750-756	Antrag	_	_	
+7-5	757-760	nur	_	_	
+7-6	761-764	vor	_	_	
+7-7	765-768	dem	_	_	
+7-8	769-774	hohen	_	_	
+7-9	775-781	Sommer	_	_	
+7-10	782-789	stellen	_	_	
+7-11	790-791	,	_	_	
+7-12	792-794	so	_	_	
+7-13	795-798	ist	_	_	
+7-14	799-801	es	_	_	
+7-15	802-808	gleich	_	_	
+7-16	809-811	ob	_	_	
+7-17	812-817	jetzt	_	_	
+7-18	818-822	oder	_	_	
+7-19	823-828	etwas	_	_	
+7-20	829-835	später	_	_	
+7-21	836-837	.	_	_	
+
+#Text=Die Mitgliederliste hat zum Erschrecken wenig Subscriptionszuwachs .
+8-1	838-841	Die	_	_	
+8-2	842-857	Mitgliederliste	_	_	
+8-3	858-861	hat	_	_	
+8-4	862-865	zum	_	_	
+8-5	866-877	Erschrecken	_	_	
+8-6	878-883	wenig	_	_	
+8-7	884-904	Subscriptionszuwachs	_	_	
+8-8	905-906	.	_	_	
+
+#Text=Also die Kardinäle und sächsischen Herzöge sind aufgegeben !
+9-1	907-911	Also	_	_	
+9-2	912-915	die	_	_	
+9-3	916-925	Kardinäle	_	_	
+9-4	926-929	und	_	_	
+9-5	930-941	sächsischen	_	_	
+9-6	942-949	Herzöge	_	_	
+9-7	950-954	sind	_	_	
+9-8	955-965	aufgegeben	_	_	
+9-9	966-967	!	_	_	
+
+#Text=Den neuen Niederländischen König müßte doch Liedekeck schaffen , wie weiland den alten .
+10-1	968-971	Den	_	_	
+10-2	972-977	neuen	_	_	
+10-3	978-994	Niederländischen	*	PLACEmentioned	
+10-4	995-1000	König	*	PERmentioned	
+10-5	1001-1006	müßte	_	_	
+10-6	1007-1011	doch	_	_	
+10-7	1012-1021	Liedekeck	*	PERmentioned	
+10-8	1022-1030	schaffen	_	_	
+10-9	1031-1032	,	_	_	
+10-10	1033-1036	wie	_	_	
+10-11	1037-1044	weiland	_	_	
+10-12	1045-1048	den	_	_	
+10-13	1049-1054	alten	_	_	
+10-14	1055-1056	.	_	_	
+
+#Text=- Daß für des Prinz August Schuld die ich seit 5 Monaten moniere jetzt noch von mir Brockhaus und allerlei
+11-1	1057-1058	-	_	_	
+11-2	1059-1062	Daß	_	_	
+11-3	1063-1066	für	_	_	
+11-4	1067-1070	des	_	_	
+11-5	1071-1076	Prinz	*[6]	PERmentioned[6]	
+11-6	1077-1083	August	*[6]	PERmentioned[6]	
+11-7	1084-1090	Schuld	_	_	
+11-8	1091-1094	die	_	_	
+11-9	1095-1098	ich	_	_	
+11-10	1099-1103	seit	_	_	
+11-11	1104-1105	5	_	_	
+11-12	1106-1113	Monaten	_	_	
+11-13	1114-1121	moniere	_	_	
+11-14	1122-1127	jetzt	_	_	
+11-15	1128-1132	noch	_	_	
+11-16	1133-1136	von	_	_	
+11-17	1137-1140	mir	_	_	
+11-18	1141-1150	Brockhaus	*	ORGmentioned	
+11-19	1151-1154	und	_	_	
+11-20	1155-1163	allerlei	_	_	

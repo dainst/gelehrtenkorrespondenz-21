@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N 624 Gerhard an Henzen Bologna 9/X/1843 Aff , di Direz , 8 .
+1-1	0-1	N	_	_
+1-2	2-5	624	_	_
+1-3	6-13	Gerhard	*	PERauthor
+1-4	14-16	an	_	_
+1-5	17-23	Henzen	*	PERaddressee
+1-6	24-31	Bologna	*	PLACEfrom
+1-7	32-40	9/X/1843	*	DATEletter
+1-8	41-44	Aff	_	_
+1-9	45-46	,	_	_
+1-10	47-49	di	_	_
+1-11	50-55	Direz	_	_
+1-12	56-57	,	_	_
+1-13	58-59	8	_	_
+1-14	60-61	.	_	_
+
+#Text=12/10 43 r . 21/10 43 D. Henzen Bologna 9 Okt 43 Ohne viel erheblichen aber doch dringenden Stoff drängt es mich bevor ich das Reich der S. Petrischlüssel nochmals verlasse , ” ie lieber Freund und die gemeinsamen Freunde - namentlich auch Vollards , dem und denen ®ie von uns erzählen mögen - von unserer weiteren Reise in Kenntniß zu setzten .
+2-1	62-67	12/10	*[1]	DATErecieved[1]
+2-2	68-70	43	*[1]	DATErecieved[1]
+2-3	71-72	r	_	_
+2-4	73-74	.	_	_
+2-5	75-80	21/10	*[2]	DATEanswered[2]
+2-6	81-83	43	*[2]	DATEanswered[2]
+2-7	84-86	D.	_	_
+2-8	87-93	Henzen	_	_
+2-9	94-101	Bologna	*	PLACEfrom
+2-10	102-103	9	*[3]	DATEletter[3]
+2-11	104-107	Okt	*[3]	DATEletter[3]
+2-12	108-110	43	*[3]	DATEletter[3]
+2-13	111-115	Ohne	_	_
+2-14	116-120	viel	_	_
+2-15	121-132	erheblichen	_	_
+2-16	133-137	aber	_	_
+2-17	138-142	doch	_	_
+2-18	143-153	dringenden	_	_
+2-19	154-159	Stoff	_	_
+2-20	160-166	drängt	_	_
+2-21	167-169	es	_	_
+2-22	170-174	mich	_	_
+2-23	175-180	bevor	_	_
+2-24	181-184	ich	_	_
+2-25	185-188	das	_	_
+2-26	189-194	Reich	_	_
+2-27	195-198	der	_	_
+2-28	199-201	S.	_	_
+2-29	202-216	Petrischlüssel	_	_
+2-30	217-225	nochmals	_	_
+2-31	226-234	verlasse	_	_
+2-32	235-236	,	_	_
+2-33	237-238	”	_	_
+2-34	239-241	ie	_	_
+2-35	242-248	lieber	_	_
+2-36	249-255	Freund	_	_
+2-37	256-259	und	_	_
+2-38	260-263	die	_	_
+2-39	264-275	gemeinsamen	_	_
+2-40	276-283	Freunde	_	_
+2-41	284-285	-	_	_
+2-42	286-296	namentlich	_	_
+2-43	297-301	auch	_	_
+2-44	302-310	Vollards	*	PERmentioned
+2-45	311-312	,	_	_
+2-46	313-316	dem	_	_
+2-47	317-320	und	_	_
+2-48	321-326	denen	_	_
+2-49	327-330	®ie	_	_
+2-50	331-334	von	_	_
+2-51	335-338	uns	_	_
+2-52	339-347	erzählen	_	_
+2-53	348-353	mögen	_	_
+2-54	354-355	-	_	_
+2-55	356-359	von	_	_
+2-56	360-367	unserer	_	_
+2-57	368-376	weiteren	_	_
+2-58	377-382	Reise	_	_
+2-59	383-385	in	_	_
+2-60	386-394	Kenntniß	_	_
+2-61	395-397	zu	_	_
+2-62	398-405	setzten	_	_
+2-63	406-407	.	_	_
+
+#Text=Einen Brief , für dessen pünktliche Nachsendung meine Frau Ihnen sehr dankbar ist , erhielten wir unnmittelbar vor der Abfahrt von Florenz .
+3-1	408-413	Einen	_	_
+3-2	414-419	Brief	_	_
+3-3	420-421	,	_	_
+3-4	422-425	für	_	_
+3-5	426-432	dessen	_	_
+3-6	433-443	pünktliche	_	_
+3-7	444-455	Nachsendung	_	_
+3-8	456-461	meine	_	_
+3-9	462-466	Frau	_	_
+3-10	467-472	Ihnen	_	_
+3-11	473-477	sehr	_	_
+3-12	478-485	dankbar	_	_
+3-13	486-489	ist	_	_
+3-14	490-491	,	_	_
+3-15	492-501	erhielten	_	_
+3-16	502-505	wir	_	_
+3-17	506-518	unnmittelbar	_	_
+3-18	519-522	vor	_	_
+3-19	523-526	der	_	_
+3-20	527-534	Abfahrt	_	_
+3-21	535-538	von	_	_
+3-22	539-546	Florenz	*[4]	PLACEmentioned[4]
+3-23	547-548	.	_	_
+
+#Text=Sollte mehr nachgekonmen sein , So haben `` ie es wol nach Wien geschickt .
+4-1	549-555	Sollte	_	_
+4-2	556-560	mehr	_	_
+4-3	561-573	nachgekonmen	_	_
+4-4	574-578	sein	_	_
+4-5	579-580	,	_	_
+4-6	581-583	So	_	_
+4-7	584-589	haben	_	_
+4-8	590-592	``	_	_
+4-9	593-595	ie	_	_
+4-10	596-598	es	_	_
+4-11	599-602	wol	_	_
+4-12	603-607	nach	_	_
+4-13	608-612	Wien	*	PLACEmentioned
+4-14	613-622	geschickt	_	_
+4-15	623-624	.	_	_
+
+#Text=Ich denke den Beischluß durch Volke auch für folgende mich betreffende Sendungen mir zu sichern und uns praktischer zu machen .
+5-1	625-628	Ich	_	_
+5-2	629-634	denke	_	_
+5-3	635-638	den	_	_
+5-4	639-648	Beischluß	_	_
+5-5	649-654	durch	_	_
+5-6	655-660	Volke	_	_
+5-7	661-665	auch	_	_
+5-8	666-669	für	_	_
+5-9	670-678	folgende	_	_
+5-10	679-683	mich	_	_
+5-11	684-695	betreffende	_	_
+5-12	696-705	Sendungen	_	_
+5-13	706-709	mir	_	_
+5-14	710-712	zu	_	_
+5-15	713-720	sichern	_	_
+5-16	721-724	und	_	_
+5-17	725-728	uns	_	_
+5-18	729-740	praktischer	_	_
+5-19	741-743	zu	_	_
+5-20	744-750	machen	_	_
+5-21	751-752	.	_	_
+
+#Text=Ich hoffe sehr von Ihnen zu hören daß ein kleines Konvolut Papiere , die ich vermisse , in dem Braunschen Zimmer sich gefunden hat und nach Wien mir nachfolst .
+6-1	753-756	Ich	_	_
+6-2	757-762	hoffe	_	_
+6-3	763-767	sehr	_	_
+6-4	768-771	von	_	_
+6-5	772-777	Ihnen	_	_
+6-6	778-780	zu	_	_
+6-7	781-786	hören	_	_
+6-8	787-790	daß	_	_
+6-9	791-794	ein	_	_
+6-10	795-802	kleines	_	_
+6-11	803-811	Konvolut	_	_
+6-12	812-819	Papiere	_	_
+6-13	820-821	,	_	_
+6-14	822-825	die	_	_
+6-15	826-829	ich	_	_
+6-16	830-838	vermisse	_	_
+6-17	839-840	,	_	_
+6-18	841-843	in	_	_
+6-19	844-847	dem	_	_
+6-20	848-858	Braunschen	_	_
+6-21	859-865	Zimmer	_	_
+6-22	866-870	sich	_	_
+6-23	871-879	gefunden	_	_
+6-24	880-883	hat	_	_
+6-25	884-887	und	_	_
+6-26	888-892	nach	_	_
+6-27	893-897	Wien	*	PLACEmentioned
+6-28	898-901	mir	_	_
+6-29	902-911	nachfolst	_	_
+6-30	912-913	.	_	_
+
+#Text=Auch der Brief von Vieusseux und einer von Wolff an mich ( an dem mir liegt ) muß sich dabei befunden haben .
+7-1	914-918	Auch	_	_
+7-2	919-922	der	_	_
+7-3	923-928	Brief	_	_
+7-4	929-932	von	_	_
+7-5	933-942	Vieusseux	*	PERmentioned
+7-6	943-946	und	_	_
+7-7	947-952	einer	_	_
+7-8	953-956	von	_	_
+7-9	957-962	Wolff	*	PERmentioned
+7-10	963-965	an	_	_
+7-11	966-970	mich	_	_
+7-12	971-972	(	_	_
+7-13	973-975	an	_	_
+7-14	976-979	dem	_	_
+7-15	980-983	mir	_	_
+7-16	984-989	liegt	_	_
+7-17	990-991	)	_	_
+7-18	992-995	muß	_	_
+7-19	996-1000	sich	_	_
+7-20	1001-1006	dabei	_	_
+7-21	1007-1015	befunden	_	_
+7-22	1016-1021	haben	_	_
+7-23	1022-1023	.	_	_
+
+#Text=MidfYingen sprach ich noch .
+8-1	1024-1034	MidfYingen	*	PERmentioned
+8-2	1035-1041	sprach	_	_
+8-3	1042-1045	ich	_	_
+8-4	1046-1050	noch	_	_
+8-5	1051-1052	.	_	_
+
+#Text=Die Seneser Vasen sind mit 6800 Sc. bezahlt worden .
+9-1	1053-1056	Die	_	_
+9-2	1057-1064	Seneser	_	_
+9-3	1065-1070	Vasen	*	OBJ
+9-4	1071-1075	sind	_	_
+9-5	1076-1079	mit	_	_
+9-6	1080-1084	6800	_	_
+9-7	1085-1088	Sc.	_	_
+9-8	1089-1096	bezahlt	_	_
+9-9	1097-1103	worden	_	_
+9-10	1104-1105	.	_	_
+
+#Text=Der alte Bianconi , der einen sehr geumgfügigen Adjunkt Luigi Frate zum Nachfolger haben wird , verheißt den Ankauf eines Exemplars meiner Spiegel .
+10-1	1106-1109	Der	_	_
+10-2	1110-1114	alte	_	_
+10-3	1115-1123	Bianconi	*	PERmentioned
+10-4	1124-1125	,	_	_
+10-5	1126-1129	der	_	_
+10-6	1130-1135	einen	_	_
+10-7	1136-1140	sehr	_	_
+10-8	1141-1153	geumgfügigen	_	_
+10-9	1154-1161	Adjunkt	_	_
+10-10	1162-1167	Luigi	*[5]	PERmentioned[5]
+10-11	1168-1173	Frate	*[5]	PERmentioned[5]
+10-12	1174-1177	zum	_	_
+10-13	1178-1188	Nachfolger	_	_
+10-14	1189-1194	haben	_	_
+10-15	1195-1199	wird	_	_
+10-16	1200-1201	,	_	_
+10-17	1202-1210	verheißt	_	_
+10-18	1211-1214	den	_	_
+10-19	1215-1221	Ankauf	_	_
+10-20	1222-1227	eines	_	_
+10-21	1228-1237	Exemplars	_	_
+10-22	1238-1244	meiner	_	_
+10-23	1245-1252	Spiegel	_	_
+10-24	1253-1254	.	_	_
+
+#Text=Kestner ' n ,
+11-1	1255-1262	Kestner	*[6]	PERmentioned[6]
+11-2	1263-1264	'	*[6]	PERmentioned[6]
+11-3	1265-1266	n	*[6]	PERmentioned[6]
+11-4	1267-1268	,	_	_

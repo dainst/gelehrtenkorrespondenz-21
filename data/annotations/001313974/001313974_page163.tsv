@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=273 Helbig an Henzen Dresden , 22. Juni 1871 H g . 27/6 79 r . 977 7 Dresden 22. Juni 1871 .
+1-1	0-3	273	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-28	Dresden	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	22.	_	_
+1-8	35-39	Juni	*[3]	DATEletter[3]
+1-9	40-44	1871	*[3]	DATEletter[3]
+1-10	45-46	H	_	_
+1-11	47-48	g	_	_
+1-12	49-50	.	_	_
+1-13	51-55	27/6	*[4]	DATErecieved[4]
+1-14	56-58	79	*[4]	DATErecieved[4]
+1-15	59-60	r	_	_
+1-16	61-62	.	_	_
+1-17	63-66	977	*[5]	DATEanswered[5]
+1-18	67-68	7	_	_
+1-19	69-76	Dresden	*	PLACEfrom
+1-20	77-80	22.	*[6]	DATEletter[6]
+1-21	81-85	Juni	*[6]	DATEletter[6]
+1-22	86-90	1871	*[6]	DATEletter[6]
+1-23	91-92	.	_	_
+
+#Text=Lieber Herr Professor Ohne Ihnen etwas von erheblichen Belang mitzutheilen.zu haben , kann ich doch nicht umhin , Ihnen wenigstens ein Lebenszeichen meiner Seits zukommen zu lassen .
+2-1	93-99	Lieber	_	_
+2-2	100-104	Herr	_	_
+2-3	105-114	Professor	_	_
+2-4	115-119	Ohne	_	_
+2-5	120-125	Ihnen	_	_
+2-6	126-131	etwas	_	_
+2-7	132-135	von	_	_
+2-8	136-147	erheblichen	_	_
+2-9	148-154	Belang	_	_
+2-10	155-170	mitzutheilen.zu	_	_
+2-11	171-176	haben	_	_
+2-12	177-178	,	_	_
+2-13	179-183	kann	_	_
+2-14	184-187	ich	_	_
+2-15	188-192	doch	_	_
+2-16	193-198	nicht	_	_
+2-17	199-204	umhin	_	_
+2-18	205-206	,	_	_
+2-19	207-212	Ihnen	_	_
+2-20	213-223	wenigstens	_	_
+2-21	224-227	ein	_	_
+2-22	228-241	Lebenszeichen	_	_
+2-23	242-248	meiner	_	_
+2-24	249-254	Seits	_	_
+2-25	255-263	zukommen	_	_
+2-26	264-266	zu	_	_
+2-27	267-273	lassen	_	_
+2-28	274-275	.	_	_
+
+#Text=Bis Wien ist unsere Reise ganz glücklich von Statten gesangen .
+3-1	276-279	Bis	_	_
+3-2	280-284	Wien	*	PLACEmentioned
+3-3	285-288	ist	_	_
+3-4	289-295	unsere	_	_
+3-5	296-301	Reise	_	_
+3-6	302-306	ganz	_	_
+3-7	307-316	glücklich	_	_
+3-8	317-320	von	_	_
+3-9	321-328	Statten	_	_
+3-10	329-337	gesangen	_	_
+3-11	338-339	.	_	_
+
+#Text=Von Wien aus setzte meine Familie die Reise nach Moskau fort .
+4-1	340-343	Von	_	_
+4-2	344-348	Wien	*	PLACEmentioned
+4-3	349-352	aus	_	_
+4-4	353-359	setzte	_	_
+4-5	360-365	meine	_	_
+4-6	366-373	Familie	_	_
+4-7	374-377	die	_	_
+4-8	378-383	Reise	_	_
+4-9	384-388	nach	_	_
+4-10	389-395	Moskau	*	PLACEmentioned
+4-11	396-400	fort	_	_
+4-12	401-402	.	_	_
+
+#Text=Von Petersburg erhielt ich günstige Nachrichten über ihr Befinden .
+5-1	403-406	Von	_	_
+5-2	407-417	Petersburg	*	PLACEmentioned
+5-3	418-425	erhielt	_	_
+5-4	426-429	ich	_	_
+5-5	430-438	günstige	_	_
+5-6	439-450	Nachrichten	_	_
+5-7	451-455	über	_	_
+5-8	456-459	ihr	_	_
+5-9	460-468	Befinden	_	_
+5-10	469-470	.	_	_
+
+#Text=Ich reiste von Wien nach Dresden , erkältete mich dabei und holte mir wiederum einen fatalen Rachenkatarrh , der mich nöthigte , länger in Dresden zu bleiben , als ich ursprünglich die Absicht gehabt hatte .
+6-1	471-474	Ich	_	_
+6-2	475-481	reiste	_	_
+6-3	482-485	von	_	_
+6-4	486-490	Wien	*	PLACEmentioned
+6-5	491-495	nach	_	_
+6-6	496-503	Dresden	*	PLACEmentioned
+6-7	504-505	,	_	_
+6-8	506-515	erkältete	_	_
+6-9	516-520	mich	_	_
+6-10	521-526	dabei	_	_
+6-11	527-530	und	_	_
+6-12	531-536	holte	_	_
+6-13	537-540	mir	_	_
+6-14	541-549	wiederum	_	_
+6-15	550-555	einen	_	_
+6-16	556-563	fatalen	_	_
+6-17	564-577	Rachenkatarrh	_	_
+6-18	578-579	,	_	_
+6-19	580-583	der	_	_
+6-20	584-588	mich	_	_
+6-21	589-597	nöthigte	_	_
+6-22	598-599	,	_	_
+6-23	600-606	länger	_	_
+6-24	607-609	in	_	_
+6-25	610-617	Dresden	*	PLACEmentioned
+6-26	618-620	zu	_	_
+6-27	621-628	bleiben	_	_
+6-28	629-630	,	_	_
+6-29	631-634	als	_	_
+6-30	635-638	ich	_	_
+6-31	639-651	ursprünglich	_	_
+6-32	652-655	die	_	_
+6-33	656-663	Absicht	_	_
+6-34	664-670	gehabt	_	_
+6-35	671-676	hatte	_	_
+6-36	677-678	.	_	_
+
+#Text=Gegenwärtig befinde ich mich etwas besser und bin ich im Stande , morgen nach Berlin weiter zu reisen .
+7-1	679-690	Gegenwärtig	_	_
+7-2	691-698	befinde	_	_
+7-3	699-702	ich	_	_
+7-4	703-707	mich	_	_
+7-5	708-713	etwas	_	_
+7-6	714-720	besser	_	_
+7-7	721-724	und	_	_
+7-8	725-728	bin	_	_
+7-9	729-732	ich	_	_
+7-10	733-735	im	_	_
+7-11	736-742	Stande	_	_
+7-12	743-744	,	_	_
+7-13	745-751	morgen	_	_
+7-14	752-756	nach	_	_
+7-15	757-763	Berlin	*	PLACEmentioned
+7-16	764-770	weiter	_	_
+7-17	771-773	zu	_	_
+7-18	774-780	reisen	_	_
+7-19	781-782	.	_	_
+
+#Text=In Wien sah ich Conze und Lützow , die Sie vielmals grüßen , in Dresden Zahn und Hettner , die sich sehr schlecht stehen und allen Verkehr abgebrochen haben .
+8-1	783-785	In	_	_
+8-2	786-790	Wien	*	PLACEmentioned
+8-3	791-794	sah	_	_
+8-4	795-798	ich	_	_
+8-5	799-804	Conze	*	PERmentioned
+8-6	805-808	und	_	_
+8-7	809-815	Lützow	*	PERmentioned
+8-8	816-817	,	_	_
+8-9	818-821	die	_	_
+8-10	822-825	Sie	_	_
+8-11	826-834	vielmals	_	_
+8-12	835-841	grüßen	_	_
+8-13	842-843	,	_	_
+8-14	844-846	in	_	_
+8-15	847-854	Dresden	*	PLACEmentioned
+8-16	855-859	Zahn	_	_
+8-17	860-863	und	_	_
+8-18	864-871	Hettner	*	PERmentioned
+8-19	872-873	,	_	_
+8-20	874-877	die	_	_
+8-21	878-882	sich	_	_
+8-22	883-887	sehr	_	_
+8-23	888-896	schlecht	_	_
+8-24	897-903	stehen	_	_
+8-25	904-907	und	_	_
+8-26	908-913	allen	_	_
+8-27	914-921	Verkehr	_	_
+8-28	922-933	abgebrochen	_	_
+8-29	934-939	haben	_	_
+8-30	940-941	.	_	_
+
+#Text=Überhaupt herrscht in den künstlerischen Kreisen meiner Vaterstadt ein bellum omnium contra omnes , wie es selbst in Berlin kaum schlimmer sein wird .
+9-1	942-951	Überhaupt	_	_
+9-2	952-960	herrscht	_	_
+9-3	961-963	in	_	_
+9-4	964-967	den	_	_
+9-5	968-982	künstlerischen	_	_
+9-6	983-990	Kreisen	_	_
+9-7	991-997	meiner	_	_
+9-8	998-1008	Vaterstadt	_	_
+9-9	1009-1012	ein	_	_
+9-10	1013-1019	bellum	_	_
+9-11	1020-1026	omnium	_	_
+9-12	1027-1033	contra	_	_
+9-13	1034-1039	omnes	_	_
+9-14	1040-1041	,	_	_
+9-15	1042-1045	wie	_	_
+9-16	1046-1048	es	_	_
+9-17	1049-1055	selbst	_	_
+9-18	1056-1058	in	_	_
+9-19	1059-1065	Berlin	*	PLACEmentioned
+9-20	1066-1070	kaum	_	_
+9-21	1071-1080	schlimmer	_	_
+9-22	1081-1085	sein	_	_
+9-23	1086-1090	wird	_	_
+9-24	1091-1092	.	_	_
+
+#Text=Wem man namentlich die Schuld daran zuschreiben soll , ist natürlich schwer
+10-1	1093-1096	Wem	_	_
+10-2	1097-1100	man	_	_
+10-3	1101-1111	namentlich	_	_
+10-4	1112-1115	die	_	_
+10-5	1116-1122	Schuld	_	_
+10-6	1123-1128	daran	_	_
+10-7	1129-1140	zuschreiben	_	_
+10-8	1141-1145	soll	_	_
+10-9	1146-1147	,	_	_
+10-10	1148-1151	ist	_	_
+10-11	1152-1161	natürlich	_	_
+10-12	1162-1168	schwer	_	_

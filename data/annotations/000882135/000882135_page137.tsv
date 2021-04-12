@@ -1,0 +1,285 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 17 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	17	*[4]	DATEletter[4]
+1-7	26-27	.	*[4]	DATEletter[4]
+
+#Text=Januar 1839 Rom 17 Januar 1839 .
+2-1	28-34	Januar	*[4]	DATEletter[4]
+2-2	35-39	1839	*[4]	DATEletter[4]
+2-3	40-43	Rom	*	PLACEfrom
+2-4	44-46	17	*[6]	DATEletter[6]
+2-5	47-53	Januar	*[6]	DATEletter[6]
+2-6	54-58	1839	*[6]	DATEletter[6]
+2-7	59-60	.	_	_
+
+#Text=Hochzuverehrender Freund \| !
+3-1	61-78	Hochzuverehrender	_	_
+3-2	79-85	Freund	_	_
+3-3	86-87	\|	_	_
+3-4	88-89	!	_	_
+
+#Text=Ich gelange erst jetzt zur Beantwortung Ihres vom 19 .
+4-1	90-93	Ich	_	_
+4-2	94-101	gelange	_	_
+4-3	102-106	erst	_	_
+4-4	107-112	jetzt	_	_
+4-5	113-116	zur	_	_
+4-6	117-129	Beantwortung	_	_
+4-7	130-135	Ihres	_	_
+4-8	136-139	vom	_	_
+4-9	140-142	19	*[7]	DATEmentioned[7]
+4-10	143-144	.	*[7]	DATEmentioned[7]
+
+#Text=December v. J. Der Besuch des Großfürsten in unserem Institut , den ich ermöglicht , und welcher ohne allen Skandal , ja sogar zu allgemeiner Zufriedenheit abgelaufen ist , hat mich sehr in Anspruch genommen .
+5-1	145-153	December	*[7]	DATEmentioned[7]
+5-2	154-156	v.	*[7]	DATEmentioned[7]
+5-3	157-159	J.	*[7]	DATEmentioned[7]
+5-4	160-163	Der	_	_
+5-5	164-170	Besuch	_	_
+5-6	171-174	des	_	_
+5-7	175-186	Großfürsten	_	_
+5-8	187-189	in	_	_
+5-9	190-197	unserem	_	_
+5-10	198-206	Institut	*	ORGmentioned
+5-11	207-208	,	_	_
+5-12	209-212	den	_	_
+5-13	213-216	ich	_	_
+5-14	217-227	ermöglicht	_	_
+5-15	228-229	,	_	_
+5-16	230-233	und	_	_
+5-17	234-241	welcher	_	_
+5-18	242-246	ohne	_	_
+5-19	247-252	allen	_	_
+5-20	253-260	Skandal	_	_
+5-21	261-262	,	_	_
+5-22	263-265	ja	_	_
+5-23	266-271	sogar	_	_
+5-24	272-274	zu	_	_
+5-25	275-286	allgemeiner	_	_
+5-26	287-300	Zufriedenheit	_	_
+5-27	301-311	abgelaufen	_	_
+5-28	312-315	ist	_	_
+5-29	316-317	,	_	_
+5-30	318-321	hat	_	_
+5-31	322-326	mich	_	_
+5-32	327-331	sehr	_	_
+5-33	332-334	in	_	_
+5-34	335-343	Anspruch	_	_
+5-35	344-352	genommen	_	_
+5-36	353-354	.	_	_
+
+#Text=Ich habe dabei einen Bissen über Macht gewonnen und die Sache in Rücksicht auf hiesige Verhältnisse nach Kräften durchgeführt .
+6-1	355-358	Ich	_	_
+6-2	359-363	habe	_	_
+6-3	364-369	dabei	_	_
+6-4	370-375	einen	_	_
+6-5	376-382	Bissen	_	_
+6-6	383-387	über	_	_
+6-7	388-393	Macht	_	_
+6-8	394-402	gewonnen	_	_
+6-9	403-406	und	_	_
+6-10	407-410	die	_	_
+6-11	411-416	Sache	_	_
+6-12	417-419	in	_	_
+6-13	420-429	Rücksicht	_	_
+6-14	430-433	auf	_	_
+6-15	434-441	hiesige	_	_
+6-16	442-454	Verhältnisse	_	_
+6-17	455-459	nach	_	_
+6-18	460-467	Kräften	_	_
+6-19	468-480	durchgeführt	_	_
+6-20	481-482	.	_	_
+
+#Text=Leider hat sich aus Mangel an jeder Art von zweckmäßigen Brochüren ( Thatsachen , S. Rapp .
+7-1	483-489	Leider	_	_
+7-2	490-493	hat	_	_
+7-3	494-498	sich	_	_
+7-4	499-502	aus	_	_
+7-5	503-509	Mangel	_	_
+7-6	510-512	an	_	_
+7-7	513-518	jeder	_	_
+7-8	519-522	Art	_	_
+7-9	523-526	von	_	_
+7-10	527-539	zweckmäßigen	_	_
+7-11	540-549	Brochüren	_	_
+7-12	550-551	(	_	_
+7-13	552-562	Thatsachen	_	_
+7-14	563-564	,	_	_
+7-15	565-567	S.	_	_
+7-16	568-572	Rapp	_	_
+7-17	573-574	.	_	_
+
+#Text=oder Notice neuerem Datums ) nichts daran knüpfen lassen .
+8-1	575-579	oder	_	_
+8-2	580-586	Notice	_	_
+8-3	587-594	neuerem	_	_
+8-4	595-601	Datums	_	_
+8-5	602-603	)	_	_
+8-6	604-610	nichts	_	_
+8-7	611-616	daran	_	_
+8-8	617-624	knüpfen	_	_
+8-9	625-631	lassen	_	_
+8-10	632-633	.	_	_
+
+#Text=Weder habe ich Zeit oder Talent vornehmen Leuten die Verhältnisse unseres Instituts auseinanderzusetzen , noch diese viel weniger Geduld mich anzuhören .
+9-1	634-639	Weder	_	_
+9-2	640-644	habe	_	_
+9-3	645-648	ich	_	_
+9-4	649-653	Zeit	_	_
+9-5	654-658	oder	_	_
+9-6	659-665	Talent	_	_
+9-7	666-675	vornehmen	_	_
+9-8	676-682	Leuten	_	_
+9-9	683-686	die	_	_
+9-10	687-699	Verhältnisse	_	_
+9-11	700-707	unseres	_	_
+9-12	708-717	Instituts	*	ORGmentioned
+9-13	718-737	auseinanderzusetzen	_	_
+9-14	738-739	,	_	_
+9-15	740-744	noch	_	_
+9-16	745-750	diese	_	_
+9-17	751-755	viel	_	_
+9-18	756-763	weniger	_	_
+9-19	764-770	Geduld	_	_
+9-20	771-775	mich	_	_
+9-21	776-785	anzuhören	_	_
+9-22	786-787	.	_	_
+
+#Text=Trotz der großen Masse hier anwesender Fremden finden unsere Vorlesungen ( Canina , Abeken , ich ) wenig Zuhörer .
+10-1	788-793	Trotz	_	_
+10-2	794-797	der	_	_
+10-3	798-804	großen	_	_
+10-4	805-810	Masse	_	_
+10-5	811-815	hier	_	_
+10-6	816-826	anwesender	_	_
+10-7	827-834	Fremden	_	_
+10-8	835-841	finden	_	_
+10-9	842-848	unsere	_	_
+10-10	849-860	Vorlesungen	_	_
+10-11	861-862	(	_	_
+10-12	863-869	Canina	*	PERmentioned
+10-13	870-871	,	_	_
+10-14	872-878	Abeken	*	PERmentioned
+10-15	879-880	,	_	_
+10-16	881-884	ich	_	_
+10-17	885-886	)	_	_
+10-18	887-892	wenig	_	_
+10-19	893-900	Zuhörer	_	_
+10-20	901-902	.	_	_
+
+#Text=Es geht indessen geradeeben .
+11-1	903-905	Es	_	_
+11-2	906-910	geht	_	_
+11-3	911-919	indessen	_	_
+11-4	920-930	geradeeben	_	_
+11-5	931-932	.	_	_
+
+#Text=Nach heutigen Briefen von Lepsius ist Maze im Begriff zu falliren und wir verlieren dabei 2000 Fr .
+12-1	933-937	Nach	_	_
+12-2	938-946	heutigen	_	_
+12-3	947-954	Briefen	_	_
+12-4	955-958	von	_	_
+12-5	959-966	Lepsius	*	PERmentioned
+12-6	967-970	ist	_	_
+12-7	971-975	Maze	*	PERmentioned
+12-8	976-978	im	_	_
+12-9	979-986	Begriff	_	_
+12-10	987-989	zu	_	_
+12-11	990-998	falliren	_	_
+12-12	999-1002	und	_	_
+12-13	1003-1006	wir	_	_
+12-14	1007-1016	verlieren	_	_
+12-15	1017-1022	dabei	_	_
+12-16	1023-1027	2000	_	_
+12-17	1028-1030	Fr	_	_
+12-18	1031-1032	.	_	_
+
+#Text=Da diese Valentini bereits seit 4 Monaten in Wechselzahlungen geleistet hat , so wird mir das Vergnügen zu Theil mich mit diesem zarten Beschützer unsrer Musen darüber zu besprechen .
+13-1	1033-1035	Da	_	_
+13-2	1036-1041	diese	_	_
+13-3	1042-1051	Valentini	*	PERmentioned
+13-4	1052-1059	bereits	_	_
+13-5	1060-1064	seit	_	_
+13-6	1065-1066	4	_	_
+13-7	1067-1074	Monaten	_	_
+13-8	1075-1077	in	_	_
+13-9	1078-1094	Wechselzahlungen	_	_
+13-10	1095-1104	geleistet	_	_
+13-11	1105-1108	hat	_	_
+13-12	1109-1110	,	_	_
+13-13	1111-1113	so	_	_
+13-14	1114-1118	wird	_	_
+13-15	1119-1122	mir	_	_
+13-16	1123-1126	das	_	_
+13-17	1127-1136	Vergnügen	_	_
+13-18	1137-1139	zu	_	_
+13-19	1140-1145	Theil	_	_
+13-20	1146-1150	mich	_	_
+13-21	1151-1154	mit	_	_
+13-22	1155-1161	diesem	_	_
+13-23	1162-1168	zarten	_	_
+13-24	1169-1179	Beschützer	_	_
+13-25	1180-1186	unsrer	_	_
+13-26	1187-1192	Musen	_	_
+13-27	1193-1200	darüber	_	_
+13-28	1201-1203	zu	_	_
+13-29	1204-1214	besprechen	_	_
+13-30	1215-1216	.	_	_
+
+#Text=- Brockhaus zahlte seiner Zeit .
+14-1	1217-1218	-	_	_
+14-2	1219-1228	Brockhaus	*	ORGmentioned
+14-3	1229-1235	zahlte	_	_
+14-4	1236-1242	seiner	_	_
+14-5	1243-1247	Zeit	_	_
+14-6	1248-1249	.	_	_
+
+#Text=Eine mir von ihm angekündigte und Berliner Paquets enthaltende Kiste ist aber nun schon 5 Monate unter Wegs .
+15-1	1250-1254	Eine	_	_
+15-2	1255-1258	mir	_	_
+15-3	1259-1262	von	_	_
+15-4	1263-1266	ihm	_	_
+15-5	1267-1279	angekündigte	_	_
+15-6	1280-1283	und	_	_
+15-7	1284-1292	Berliner	*	PLACEmentioned
+15-8	1293-1300	Paquets	_	_
+15-9	1301-1312	enthaltende	_	_
+15-10	1313-1318	Kiste	_	_
+15-11	1319-1322	ist	_	_
+15-12	1323-1327	aber	_	_
+15-13	1328-1331	nun	_	_
+15-14	1332-1337	schon	_	_
+15-15	1338-1339	5	_	_
+15-16	1340-1346	Monate	_	_
+15-17	1347-1352	unter	_	_
+15-18	1353-1357	Wegs	_	_
+15-19	1358-1359	.	_	_
+
+#Text=Ich habe wiederholte Malen vergebens gemahnt , erhalte aber keine Antwort .
+16-1	1360-1363	Ich	_	_
+16-2	1364-1368	habe	_	_
+16-3	1369-1380	wiederholte	_	_
+16-4	1381-1386	Malen	_	_
+16-5	1387-1396	vergebens	_	_
+16-6	1397-1404	gemahnt	_	_
+16-7	1405-1406	,	_	_
+16-8	1407-1414	erhalte	_	_
+16-9	1415-1419	aber	_	_
+16-10	1420-1425	keine	_	_
+16-11	1426-1433	Antwort	_	_
+16-12	1434-1435	.	_	_
+
+#Text=Können Sie nichts thuen ?
+17-1	1436-1442	Können	_	_
+17-2	1443-1446	Sie	_	_
+17-3	1447-1453	nichts	_	_
+17-4	1454-1459	thuen	_	_
+17-5	1460-1461	?	_	_

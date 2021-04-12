@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Villa Piecolomini , 9. Juni 1833 So viel von Geschäften des Instituts .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-23	Villa	*[3]	PLACEfrom[3]
+1-5	24-35	Piecolomini	*[3]	PLACEfrom[3]
+1-6	36-37	,	_	_
+1-7	38-40	9.	*[4]	DATEletter[4]
+1-8	41-45	Juni	*[4]	DATEletter[4]
+1-9	46-50	1833	*[4]	DATEletter[4]
+1-10	51-53	So	_	_
+1-11	54-58	viel	_	_
+1-12	59-62	von	_	_
+1-13	63-73	Geschäften	_	_
+1-14	74-77	des	_	_
+1-15	78-87	Instituts	*	ORGmentioned
+1-16	88-89	.	_	_
+
+#Text=Ich füge nur hinzu , Daß April , März , Wunius in diesem Monate erscheinen werden : alsdann höchstens noch Julius , und dann Stillstand bis October .
+2-1	90-93	Ich	_	_
+2-2	94-98	füge	_	_
+2-3	99-102	nur	_	_
+2-4	103-108	hinzu	_	_
+2-5	109-110	,	_	_
+2-6	111-114	Daß	_	_
+2-7	115-120	April	*	DATEmentioned
+2-8	121-122	,	_	_
+2-9	123-127	März	*	DATEmentioned
+2-10	128-129	,	_	_
+2-11	130-136	Wunius	*	DATEmentioned
+2-12	137-139	in	_	_
+2-13	140-146	diesem	_	_
+2-14	147-153	Monate	_	_
+2-15	154-164	erscheinen	_	_
+2-16	165-171	werden	_	_
+2-17	172-173	:	_	_
+2-18	174-181	alsdann	_	_
+2-19	182-191	höchstens	_	_
+2-20	192-196	noch	_	_
+2-21	197-203	Julius	*	DATEmentioned
+2-22	204-205	,	_	_
+2-23	206-209	und	_	_
+2-24	210-214	dann	_	_
+2-25	215-225	Stillstand	_	_
+2-26	226-229	bis	_	_
+2-27	230-237	October	*	DATEmentioned
+2-28	238-239	.	_	_
+
+#Text=Ihr Freund Herr Dr. Braun wird sehr willkommen sein .
+3-1	240-243	Ihr	_	_
+3-2	244-250	Freund	_	_
+3-3	251-255	Herr	_	_
+3-4	256-259	Dr.	_	_
+3-5	260-265	Braun	*	PERmentioned
+3-6	266-270	wird	_	_
+3-7	271-275	sehr	_	_
+3-8	276-286	willkommen	_	_
+3-9	287-291	sein	_	_
+3-10	292-293	.	_	_
+
+#Text=Kellermann ist für die Epigraphik unbezahlbar : das Übrige liegt ihm fern .
+4-1	294-304	Kellermann	*	PERmentioned
+4-2	305-308	ist	_	_
+4-3	309-312	für	_	_
+4-4	313-316	die	_	_
+4-5	317-327	Epigraphik	*	MISC
+4-6	328-339	unbezahlbar	_	_
+4-7	340-341	:	_	_
+4-8	342-345	das	_	_
+4-9	346-352	Übrige	_	_
+4-10	353-358	liegt	_	_
+4-11	359-362	ihm	_	_
+4-12	363-367	fern	_	_
+4-13	368-369	.	_	_
+
+#Text=Mit Lanci bin ich keineswegs zufrieden : doch ist er nicht unwillig noch verrätherisch , nur faul .
+5-1	370-373	Mit	_	_
+5-2	374-379	Lanci	*	PERmentioned
+5-3	380-383	bin	_	_
+5-4	384-387	ich	_	_
+5-5	388-398	keineswegs	_	_
+5-6	399-408	zufrieden	_	_
+5-7	409-410	:	_	_
+5-8	411-415	doch	_	_
+5-9	416-419	ist	_	_
+5-10	420-422	er	_	_
+5-11	423-428	nicht	_	_
+5-12	429-437	unwillig	_	_
+5-13	438-442	noch	_	_
+5-14	443-456	verrätherisch	_	_
+5-15	457-458	,	_	_
+5-16	459-462	nur	_	_
+5-17	463-467	faul	_	_
+5-18	468-469	.	_	_
+
+#Text=Capobianchi ist schlecht .
+6-1	470-481	Capobianchi	*	PERmentioned
+6-2	482-485	ist	_	_
+6-3	486-494	schlecht	_	_
+6-4	495-496	.	_	_
+
+#Text=Der Druck des Museums geht nun vorwärts : ich hoffe , das Ganze wird so übersichtlich werden .
+7-1	497-500	Der	_	_
+7-2	501-506	Druck	_	_
+7-3	507-510	des	_	_
+7-4	511-518	Museums	*	ORGmentioned
+7-5	519-523	geht	_	_
+7-6	524-527	nun	_	_
+7-7	528-536	vorwärts	_	_
+7-8	537-538	:	_	_
+7-9	539-542	ich	_	_
+7-10	543-548	hoffe	_	_
+7-11	549-550	,	_	_
+7-12	551-554	das	_	_
+7-13	555-560	Ganze	_	_
+7-14	561-565	wird	_	_
+7-15	566-568	so	_	_
+7-16	569-582	übersichtlich	_	_
+7-17	583-589	werden	_	_
+7-18	590-591	.	_	_
+
+#Text=Die folgenden Bände sollen ohne Unterbrechung gedruckt werden : moch 2 gute Bände .
+8-1	592-595	Die	_	_
+8-2	596-605	folgenden	_	_
+8-3	606-611	Bände	_	_
+8-4	612-618	sollen	_	_
+8-5	619-623	ohne	_	_
+8-6	624-637	Unterbrechung	_	_
+8-7	638-646	gedruckt	_	_
+8-8	647-653	werden	_	_
+8-9	654-655	:	_	_
+8-10	656-660	moch	_	_
+8-11	661-662	2	_	_
+8-12	663-667	gute	_	_
+8-13	668-673	Bände	_	_
+8-14	674-675	.	_	_
+
+#Text=Noch eines wegen Haertel .
+9-1	676-680	Noch	_	_
+9-2	681-686	eines	_	_
+9-3	687-692	wegen	_	_
+9-4	693-700	Haertel	*	PERmentioned
+9-5	701-702	.	_	_
+
+#Text=Sie wissen , daß die Kisten vor Jahr und Tag abgehn sollten .
+10-1	703-706	Sie	_	_
+10-2	707-713	wissen	_	_
+10-3	714-715	,	_	_
+10-4	716-719	daß	_	_
+10-5	720-723	die	_	_
+10-6	724-730	Kisten	_	_
+10-7	731-734	vor	_	_
+10-8	735-739	Jahr	_	_
+10-9	740-743	und	_	_
+10-10	744-747	Tag	_	_
+10-11	748-754	abgehn	_	_
+10-12	755-762	sollten	_	_
+10-13	763-764	.	_	_
+
+#Text=Woran liegt es , daß sie es nicht thun ?
+11-1	765-770	Woran	_	_
+11-2	771-776	liegt	_	_
+11-3	777-779	es	_	_
+11-4	780-781	,	_	_
+11-5	782-785	daß	_	_
+11-6	786-789	sie	_	_
+11-7	790-792	es	_	_
+11-8	793-798	nicht	_	_
+11-9	799-803	thun	_	_
+11-10	804-805	?	_	_
+
+#Text=Wir machen cattiva figura da wir es angezeigt und nichts kommt ?
+12-1	806-809	Wir	_	_
+12-2	810-816	machen	_	_
+12-3	817-824	cattiva	_	_
+12-4	825-831	figura	_	_
+12-5	832-834	da	_	_
+12-6	835-838	wir	_	_
+12-7	839-841	es	_	_
+12-8	842-851	angezeigt	_	_
+12-9	852-855	und	_	_
+12-10	856-862	nichts	_	_
+12-11	863-868	kommt	_	_
+12-12	869-870	?	_	_
+
+#Text=Könnten Sie ihn nicht drängen ?
+13-1	871-878	Könnten	_	_
+13-2	879-882	Sie	_	_
+13-3	883-886	ihn	_	_
+13-4	887-892	nicht	_	_
+13-5	893-900	drängen	_	_
+13-6	901-902	?	_	_
+
+#Text=Es ist einfältig auf Zusätze zu warten .
+14-1	903-905	Es	_	_
+14-2	906-909	ist	_	_
+14-3	910-919	einfältig	_	_
+14-4	920-923	auf	_	_
+14-5	924-931	Zusätze	_	_
+14-6	932-934	zu	_	_
+14-7	935-941	warten	_	_
+14-8	942-943	.	_	_
+
+#Text=Nachträge kommen immer noch recht .
+15-1	944-953	Nachträge	_	_
+15-2	954-960	kommen	_	_
+15-3	961-966	immer	_	_
+15-4	967-971	noch	_	_
+15-5	972-977	recht	_	_
+15-6	978-979	.	_	_
+
+#Text=Auslagen sollen prompt bezahlt werden .
+16-1	980-988	Auslagen	_	_
+16-2	989-995	sollen	_	_
+16-3	996-1002	prompt	_	_
+16-4	1003-1010	bezahlt	_	_
+16-5	1011-1017	werden	_	_
+16-6	1018-1019	.	_	_
+
+#Text=20 Louisdor hat Hertel durch eine Verschreibung von Ginelli von mir in Händen : ich begreife die Sache nicht : sie ist aber höchst unangenehm .
+17-1	1020-1022	20	_	_
+17-2	1023-1031	Louisdor	_	_
+17-3	1032-1035	hat	_	_
+17-4	1036-1042	Hertel	*	PERmentioned
+17-5	1043-1048	durch	_	_
+17-6	1049-1053	eine	_	_
+17-7	1054-1067	Verschreibung	_	_
+17-8	1068-1071	von	_	_
+17-9	1072-1079	Ginelli	*	PERmentioned
+17-10	1080-1083	von	_	_
+17-11	1084-1087	mir	_	_
+17-12	1088-1090	in	_	_
+17-13	1091-1097	Händen	_	_
+17-14	1098-1099	:	_	_
+17-15	1100-1103	ich	_	_
+17-16	1104-1112	begreife	_	_
+17-17	1113-1116	die	_	_
+17-18	1117-1122	Sache	_	_
+17-19	1123-1128	nicht	_	_
+17-20	1129-1130	:	_	_
+17-21	1131-1134	sie	_	_
+17-22	1135-1138	ist	_	_
+17-23	1139-1143	aber	_	_
+17-24	1144-1150	höchst	_	_
+17-25	1151-1161	unangenehm	_	_
+17-26	1162-1163	.	_	_
+
+#Text=An Panofka geht eine große Sendung ab , für Guizot , Rodwell etc. Mein Trost ist , daß wenn die englische Section in Ordnung kommt , wir gerettet sind .
+18-1	1164-1166	An	_	_
+18-2	1167-1174	Panofka	*	PERmentioned
+18-3	1175-1179	geht	_	_
+18-4	1180-1184	eine	_	_
+18-5	1185-1190	große	_	_
+18-6	1191-1198	Sendung	_	_
+18-7	1199-1201	ab	_	_
+18-8	1202-1203	,	_	_
+18-9	1204-1207	für	_	_
+18-10	1208-1214	Guizot	*	PERmentioned
+18-11	1215-1216	,	_	_
+18-12	1217-1224	Rodwell	*	PERmentioned
+18-13	1225-1229	etc.	_	_
+18-14	1230-1234	Mein	_	_
+18-15	1235-1240	Trost	_	_
+18-16	1241-1244	ist	_	_
+18-17	1245-1246	,	_	_
+18-18	1247-1250	daß	_	_
+18-19	1251-1255	wenn	_	_
+18-20	1256-1259	die	_	_
+18-21	1260-1269	englische	*[23]	ORGmentioned[23]
+18-22	1270-1277	Section	*[23]	ORGmentioned[23]
+18-23	1278-1280	in	_	_
+18-24	1281-1288	Ordnung	_	_
+18-25	1289-1294	kommt	_	_
+18-26	1295-1296	,	_	_
+18-27	1297-1300	wir	_	_
+18-28	1301-1309	gerettet	_	_
+18-29	1310-1314	sind	_	_
+18-30	1315-1316	.	_	_

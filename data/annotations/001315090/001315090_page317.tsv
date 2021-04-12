@@ -1,0 +1,230 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=276 Lepsius an Henzen Berlin , 30. April 1877 4/5 77 Tr .
+1-1	0-3	276	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	30.	*[3]	DATEletter[3]
+1-8	35-40	April	*[3]	DATEletter[3]
+1-9	41-45	1877	*[3]	DATEletter[3]
+1-10	46-49	4/5	*[4]	DATErecieved[4]
+1-11	50-52	77	*[4]	DATErecieved[4]
+1-12	53-55	Tr	_	_
+1-13	56-57	.	_	_
+
+#Text=Berlin , den 30. April 1877 .
+2-1	58-64	Berlin	*	PLACEfrom
+2-2	65-66	,	_	_
+2-3	67-70	den	_	_
+2-4	71-74	30.	*[5]	DATEletter[5]
+2-5	75-80	April	*[5]	DATEletter[5]
+2-6	81-85	1877	*[5]	DATEletter[5]
+2-7	86-87	.	_	_
+
+#Text=Verehrter Freund Wenn eine `` Architektenbibliothek '' , deren Grundlage bereits gegeben ist , nächstens 14 000 Lire zum Ankauf fernerer Werke des Mifelalters und der Renaissance erhalten soll , so schien es in der That selbstverständlich , daß man auch auf deren Fortsetzung durch einen jährlichen Fonds bedacht sein müßte .
+3-1	88-97	Verehrter	_	_
+3-2	98-104	Freund	_	_
+3-3	105-109	Wenn	_	_
+3-4	110-114	eine	_	_
+3-5	115-117	``	_	_
+3-6	118-139	Architektenbibliothek	*	ORGmentioned
+3-7	140-142	''	_	_
+3-8	143-144	,	_	_
+3-9	145-150	deren	_	_
+3-10	151-160	Grundlage	_	_
+3-11	161-168	bereits	_	_
+3-12	169-176	gegeben	_	_
+3-13	177-180	ist	_	_
+3-14	181-182	,	_	_
+3-15	183-192	nächstens	_	_
+3-16	193-195	14	_	_
+3-17	196-199	000	_	_
+3-18	200-204	Lire	_	_
+3-19	205-208	zum	_	_
+3-20	209-215	Ankauf	_	_
+3-21	216-224	fernerer	_	_
+3-22	225-230	Werke	_	_
+3-23	231-234	des	_	_
+3-24	235-246	Mifelalters	_	_
+3-25	247-250	und	_	_
+3-26	251-254	der	_	_
+3-27	255-266	Renaissance	_	_
+3-28	267-275	erhalten	_	_
+3-29	276-280	soll	_	_
+3-30	281-282	,	_	_
+3-31	283-285	so	_	_
+3-32	286-292	schien	_	_
+3-33	293-295	es	_	_
+3-34	296-298	in	_	_
+3-35	299-302	der	_	_
+3-36	303-307	That	_	_
+3-37	308-326	selbstverständlich	_	_
+3-38	327-328	,	_	_
+3-39	329-332	daß	_	_
+3-40	333-336	man	_	_
+3-41	337-341	auch	_	_
+3-42	342-345	auf	_	_
+3-43	346-351	deren	_	_
+3-44	352-363	Fortsetzung	_	_
+3-45	364-369	durch	_	_
+3-46	370-375	einen	_	_
+3-47	376-386	jährlichen	_	_
+3-48	387-392	Fonds	_	_
+3-49	393-400	bedacht	_	_
+3-50	401-405	sein	_	_
+3-51	406-411	müßte	_	_
+3-52	412-413	.	_	_
+
+#Text=Daß dies eine für immer abgeschlossene Bibliothek sein sollte , hätte , wenn etwas auf diesen Unterschied , wie es jetzt scheint , ankam , wohl hervorgehoben werden müssen .
+4-1	414-417	Daß	_	_
+4-2	418-422	dies	_	_
+4-3	423-427	eine	_	_
+4-4	428-431	für	_	_
+4-5	432-437	immer	_	_
+4-6	438-452	abgeschlossene	_	_
+4-7	453-463	Bibliothek	*	ORGmentioned
+4-8	464-468	sein	_	_
+4-9	469-475	sollte	_	_
+4-10	476-477	,	_	_
+4-11	478-483	hätte	_	_
+4-12	484-485	,	_	_
+4-13	486-490	wenn	_	_
+4-14	491-496	etwas	_	_
+4-15	497-500	auf	_	_
+4-16	501-507	diesen	_	_
+4-17	508-519	Unterschied	_	_
+4-18	520-521	,	_	_
+4-19	522-525	wie	_	_
+4-20	526-528	es	_	_
+4-21	529-534	jetzt	_	_
+4-22	535-542	scheint	_	_
+4-23	543-544	,	_	_
+4-24	545-550	ankam	_	_
+4-25	551-552	,	_	_
+4-26	553-557	wohl	_	_
+4-27	558-571	hervorgehoben	_	_
+4-28	572-578	werden	_	_
+4-29	579-585	müssen	_	_
+4-30	586-587	.	_	_
+
+#Text=Da Sie nun aber den Bericht von Klügmann vorzeigen können , so ist ja unser Irrthum sogleich Herrn v. gegenüber zu berichtigen .
+5-1	588-590	Da	_	_
+5-2	591-594	Sie	_	_
+5-3	595-598	nun	_	_
+5-4	599-603	aber	_	_
+5-5	604-607	den	_	_
+5-6	608-615	Bericht	_	_
+5-7	616-619	von	_	_
+5-8	620-628	Klügmann	*	PERmentioned
+5-9	629-638	vorzeigen	_	_
+5-10	639-645	können	_	_
+5-11	646-647	,	_	_
+5-12	648-650	so	_	_
+5-13	651-654	ist	_	_
+5-14	655-657	ja	_	_
+5-15	658-663	unser	_	_
+5-16	664-671	Irrthum	_	_
+5-17	672-680	sogleich	_	_
+5-18	681-686	Herrn	_	_
+5-19	687-689	v.	_	_
+5-20	690-699	gegenüber	_	_
+5-21	700-702	zu	_	_
+5-22	703-714	berichtigen	_	_
+5-23	715-716	.	_	_
+
+#Text=Einen Unterschied unsrer Behandlung der Sache gegenüber wird das nicht machen .
+6-1	717-722	Einen	_	_
+6-2	723-734	Unterschied	_	_
+6-3	735-741	unsrer	_	_
+6-4	742-752	Behandlung	_	_
+6-5	753-756	der	_	_
+6-6	757-762	Sache	_	_
+6-7	763-772	gegenüber	_	_
+6-8	773-777	wird	_	_
+6-9	778-781	das	_	_
+6-10	782-787	nicht	_	_
+6-11	788-794	machen	_	_
+6-12	795-796	.	_	_
+
+#Text=Daß auch Klügmann an `` einen allmäligen Zuwachs an archäologischen Publikationen '' für die Bibliothek dachte , geht aus seinen Äusserungen hervor .
+7-1	797-800	Daß	_	_
+7-2	801-805	auch	_	_
+7-3	806-814	Klügmann	*	PERmentioned
+7-4	815-817	an	_	_
+7-5	818-820	``	_	_
+7-6	821-826	einen	_	_
+7-7	827-837	allmäligen	_	_
+7-8	838-845	Zuwachs	_	_
+7-9	846-848	an	_	_
+7-10	849-864	archäologischen	_	_
+7-11	865-878	Publikationen	_	_
+7-12	879-881	''	_	_
+7-13	882-885	für	_	_
+7-14	886-889	die	_	_
+7-15	890-900	Bibliothek	*	ORGmentioned
+7-16	901-907	dachte	_	_
+7-17	908-909	,	_	_
+7-18	910-914	geht	_	_
+7-19	915-918	aus	_	_
+7-20	919-925	seinen	_	_
+7-21	926-937	Äusserungen	_	_
+7-22	938-944	hervor	_	_
+7-23	945-946	.	_	_
+
+#Text=Auch der Name `` Künstlerbibliothek '' ist nicht hier erfunden , sondern stammt von Ihnen ( Brief vom 24/10 76 ) .
+8-1	947-951	Auch	_	_
+8-2	952-955	der	_	_
+8-3	956-960	Name	_	_
+8-4	961-963	``	_	_
+8-5	964-982	Künstlerbibliothek	*	ORGmentioned
+8-6	983-985	''	_	_
+8-7	986-989	ist	_	_
+8-8	990-995	nicht	_	_
+8-9	996-1000	hier	_	_
+8-10	1001-1009	erfunden	_	_
+8-11	1010-1011	,	_	_
+8-12	1012-1019	sondern	_	_
+8-13	1020-1026	stammt	_	_
+8-14	1027-1030	von	_	_
+8-15	1031-1036	Ihnen	_	_
+8-16	1037-1038	(	_	_
+8-17	1039-1044	Brief	_	_
+8-18	1045-1048	vom	_	_
+8-19	1049-1054	24/10	_	_
+8-20	1055-1057	76	_	_
+8-21	1058-1059	)	_	_
+8-22	1060-1061	.	_	_
+
+#Text=Sie wünschen baldigen Abschluß der Sache , da die Anschaffung ’ der Bücher immer fortgehen .
+9-1	1062-1065	Sie	_	_
+9-2	1066-1074	wünschen	_	_
+9-3	1075-1083	baldigen	_	_
+9-4	1084-1092	Abschluß	_	_
+9-5	1093-1096	der	_	_
+9-6	1097-1102	Sache	_	_
+9-7	1103-1104	,	_	_
+9-8	1105-1107	da	_	_
+9-9	1108-1111	die	_	_
+9-10	1112-1123	Anschaffung	_	_
+9-11	1124-1125	’	_	_
+9-12	1126-1129	der	_	_
+9-13	1130-1136	Bücher	_	_
+9-14	1137-1142	immer	_	_
+9-15	1143-1152	fortgehen	_	_
+9-16	1153-1154	.	_	_
+
+#Text=Da Sie den Antrag Klügmann ohne Bemerkungen hier einsen-
+10-1	1155-1157	Da	_	_
+10-2	1158-1161	Sie	_	_
+10-3	1162-1165	den	_	_
+10-4	1166-1172	Antrag	_	_
+10-5	1173-1181	Klügmann	*	PERmentioned
+10-6	1182-1186	ohne	_	_
+10-7	1187-1198	Bemerkungen	_	_
+10-8	1199-1203	hier	_	_
+10-9	1204-1211	einsen-	_	_

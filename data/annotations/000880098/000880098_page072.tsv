@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=681 Braun an Gerhard Rom , 7 .
+1-1	0-3	681	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-28	7	*[1]	DATEletter[1]
+1-8	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1834 suchen \; die Ihrigen werden der nächsten Kistensendung aufbewahrt ?
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-43	1834	*[1]	DATEletter[1]
+2-3	44-50	suchen	_	_
+2-4	51-52	\;	_	_
+2-5	53-56	die	_	_
+2-6	57-64	Ihrigen	_	_
+2-7	65-71	werden	_	_
+2-8	72-75	der	_	_
+2-9	76-84	nächsten	_	_
+2-10	85-98	Kistensendung	_	_
+2-11	99-109	aufbewahrt	_	_
+2-12	110-111	?	_	_
+
+#Text=Lepsius weist das Exemplar der Paläograph .
+3-1	112-119	Lepsius	*	PERmentioned
+3-2	120-125	weist	_	_
+3-3	126-129	das	_	_
+3-4	130-138	Exemplar	_	_
+3-5	139-142	der	_	_
+3-6	143-153	Paläograph	*[2]	LIT[2]
+3-7	154-155	.	*[2]	LIT[2]
+
+#Text=Schrift dem Institut zu \; Sie erhalten es daher wohl von ihm ersetzt .
+4-1	156-163	Schrift	*[2]	LIT[2]
+4-2	164-167	dem	_	_
+4-3	168-176	Institut	*	ORGmentioned
+4-4	177-179	zu	_	_
+4-5	180-181	\;	_	_
+4-6	182-185	Sie	_	_
+4-7	186-194	erhalten	_	_
+4-8	195-197	es	_	_
+4-9	198-203	daher	_	_
+4-10	204-208	wohl	_	_
+4-11	209-212	von	_	_
+4-12	213-216	ihm	_	_
+4-13	217-224	ersetzt	_	_
+4-14	225-226	.	_	_
+
+#Text=Die Beschreibung von Rom ist nicht complet , sintemal die „ te Abtheilung des „ ten Bandes , das Vatic .
+5-1	227-230	Die	_	_
+5-2	231-243	Beschreibung	*[3]	LIT[3]
+5-3	244-247	von	*[3]	LIT[3]
+5-4	248-251	Rom	*[3]|*[4]	LIT[3]|PLACEmentioned[4]
+5-5	252-255	ist	_	_
+5-6	256-261	nicht	_	_
+5-7	262-269	complet	_	_
+5-8	270-271	,	_	_
+5-9	272-280	sintemal	_	_
+5-10	281-284	die	_	_
+5-11	285-286	„	_	_
+5-12	287-289	te	_	_
+5-13	290-300	Abtheilung	_	_
+5-14	301-304	des	_	_
+5-15	305-306	„	_	_
+5-16	307-310	ten	_	_
+5-17	311-317	Bandes	_	_
+5-18	318-319	,	_	_
+5-19	320-323	das	_	_
+5-20	324-329	Vatic	*[5]	ORGmentioned[5]
+5-21	330-331	.	*[5]	ORGmentioned[5]
+
+#Text=Museum fehlt \; auch fehlen alle Kupfer , von denen einige doch dem Werke angehören , soviel ich weiß und es gelesen haben , Der wächserne Mann aus Bonn ist der Abguß einer wunderschönen antiken Bronze die Ihnen aus Bonn zugekommen ist in diesem und einem gypsernen Abguß , beide beschädigt und einstweilen in den Vasenschränken aufgestellt .
+6-1	332-338	Museum	*[5]	ORGmentioned[5]
+6-2	339-344	fehlt	_	_
+6-3	345-346	\;	_	_
+6-4	347-351	auch	_	_
+6-5	352-358	fehlen	_	_
+6-6	359-363	alle	_	_
+6-7	364-370	Kupfer	_	_
+6-8	371-372	,	_	_
+6-9	373-376	von	_	_
+6-10	377-382	denen	_	_
+6-11	383-389	einige	_	_
+6-12	390-394	doch	_	_
+6-13	395-398	dem	_	_
+6-14	399-404	Werke	_	_
+6-15	405-414	angehören	_	_
+6-16	415-416	,	_	_
+6-17	417-423	soviel	_	_
+6-18	424-427	ich	_	_
+6-19	428-432	weiß	_	_
+6-20	433-436	und	_	_
+6-21	437-439	es	_	_
+6-22	440-447	gelesen	_	_
+6-23	448-453	haben	_	_
+6-24	454-455	,	_	_
+6-25	456-459	Der	_	_
+6-26	460-469	wächserne	*[6]	OBJ[6]
+6-27	470-474	Mann	*[6]	OBJ[6]
+6-28	475-478	aus	_	_
+6-29	479-483	Bonn	*	PLACEmentioned
+6-30	484-487	ist	_	_
+6-31	488-491	der	_	_
+6-32	492-497	Abguß	_	_
+6-33	498-503	einer	_	_
+6-34	504-517	wunderschönen	_	_
+6-35	518-525	antiken	*[7]	OBJ[7]
+6-36	526-532	Bronze	*[7]	OBJ[7]
+6-37	533-536	die	_	_
+6-38	537-542	Ihnen	_	_
+6-39	543-546	aus	_	_
+6-40	547-551	Bonn	*	PLACEmentioned
+6-41	552-562	zugekommen	_	_
+6-42	563-566	ist	_	_
+6-43	567-569	in	_	_
+6-44	570-576	diesem	_	_
+6-45	577-580	und	_	_
+6-46	581-586	einem	_	_
+6-47	587-596	gypsernen	_	_
+6-48	597-602	Abguß	_	_
+6-49	603-604	,	_	_
+6-50	605-610	beide	_	_
+6-51	611-621	beschädigt	_	_
+6-52	622-625	und	_	_
+6-53	626-637	einstweilen	_	_
+6-54	638-640	in	_	_
+6-55	641-644	den	_	_
+6-56	645-659	Vasenschränken	_	_
+6-57	660-671	aufgestellt	_	_
+6-58	672-673	.	_	_
+
+#Text=Kellermann hatte einige Zeilen an Sie versprochen , aber nicht eingesandt .
+7-1	674-684	Kellermann	*	PERmentioned
+7-2	685-690	hatte	_	_
+7-3	691-697	einige	_	_
+7-4	698-704	Zeilen	_	_
+7-5	705-707	an	_	_
+7-6	708-711	Sie	_	_
+7-7	712-723	versprochen	_	_
+7-8	724-725	,	_	_
+7-9	726-730	aber	_	_
+7-10	731-736	nicht	_	_
+7-11	737-747	eingesandt	_	_
+7-12	748-749	.	_	_
+
+#Text=Russo ist schon von Bellotti gedrängt worden , hat aber keine Antwort gegeben .
+8-1	750-755	Russo	*	PERmentioned
+8-2	756-759	ist	_	_
+8-3	760-765	schon	_	_
+8-4	766-769	von	_	_
+8-5	770-778	Bellotti	*	PERmentioned
+8-6	779-787	gedrängt	_	_
+8-7	788-794	worden	_	_
+8-8	795-796	,	_	_
+8-9	797-800	hat	_	_
+8-10	801-805	aber	_	_
+8-11	806-811	keine	_	_
+8-12	812-819	Antwort	_	_
+8-13	820-827	gegeben	_	_
+8-14	828-829	.	_	_
+
+#Text=Ungeachtet der Herbstvacanzen und meiner Unpäßlich - keit bin ich täglich viele Stunden im Institut \; auch giebt es stets vollauf zu thun .
+9-1	830-840	Ungeachtet	_	_
+9-2	841-844	der	_	_
+9-3	845-859	Herbstvacanzen	_	_
+9-4	860-863	und	_	_
+9-5	864-870	meiner	_	_
+9-6	871-880	Unpäßlich	_	_
+9-7	881-882	-	_	_
+9-8	883-887	keit	_	_
+9-9	888-891	bin	_	_
+9-10	892-895	ich	_	_
+9-11	896-903	täglich	_	_
+9-12	904-909	viele	_	_
+9-13	910-917	Stunden	_	_
+9-14	918-920	im	_	_
+9-15	921-929	Institut	_	_
+9-16	930-931	\;	_	_
+9-17	932-936	auch	_	_
+9-18	937-942	giebt	_	_
+9-19	943-945	es	_	_
+9-20	946-951	stets	_	_
+9-21	952-959	vollauf	_	_
+9-22	960-962	zu	_	_
+9-23	963-967	thun	_	_
+9-24	968-969	.	_	_
+
+#Text=Seit Ihrer Abreise habe ich gegen 60 Briefe spediert .
+10-1	970-974	Seit	_	_
+10-2	975-980	Ihrer	_	_
+10-3	981-988	Abreise	_	_
+10-4	989-993	habe	_	_
+10-5	994-997	ich	_	_
+10-6	998-1003	gegen	_	_
+10-7	1004-1006	60	_	_
+10-8	1007-1013	Briefe	_	_
+10-9	1014-1022	spediert	_	_
+10-10	1023-1024	.	_	_
+
+#Text=Wie es diesen Winter mit den Vorlesungen werden soll , weiß ich wahrlich nicht , Einige Vorbereitting ist doch auch nöthig , aber Zeit dazu ist kaum zu erhoffen .
+11-1	1025-1028	Wie	_	_
+11-2	1029-1031	es	_	_
+11-3	1032-1038	diesen	_	_
+11-4	1039-1045	Winter	*	DATEmentioned
+11-5	1046-1049	mit	_	_
+11-6	1050-1053	den	_	_
+11-7	1054-1065	Vorlesungen	_	_
+11-8	1066-1072	werden	_	_
+11-9	1073-1077	soll	_	_
+11-10	1078-1079	,	_	_
+11-11	1080-1084	weiß	_	_
+11-12	1085-1088	ich	_	_
+11-13	1089-1097	wahrlich	_	_
+11-14	1098-1103	nicht	_	_
+11-15	1104-1105	,	_	_
+11-16	1106-1112	Einige	_	_
+11-17	1113-1126	Vorbereitting	_	_
+11-18	1127-1130	ist	_	_
+11-19	1131-1135	doch	_	_
+11-20	1136-1140	auch	_	_
+11-21	1141-1147	nöthig	_	_
+11-22	1148-1149	,	_	_
+11-23	1150-1154	aber	_	_
+11-24	1155-1159	Zeit	_	_
+11-25	1160-1164	dazu	_	_
+11-26	1165-1168	ist	_	_
+11-27	1169-1173	kaum	_	_
+11-28	1174-1176	zu	_	_
+11-29	1177-1185	erhoffen	_	_
+11-30	1186-1187	.	_	_
+
+#Text=Lancis Visiten jeden Abend lassen mich allemal
+12-1	1188-1194	Lancis	*	PERmentioned
+12-2	1195-1202	Visiten	_	_
+12-3	1203-1208	jeden	_	_
+12-4	1209-1214	Abend	_	_
+12-5	1215-1221	lassen	_	_
+12-6	1222-1226	mich	_	_
+12-7	1227-1234	allemal	_	_

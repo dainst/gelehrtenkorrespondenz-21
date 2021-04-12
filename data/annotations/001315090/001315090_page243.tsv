@@ -1,0 +1,174 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=568 Lepsius an Henzen Berlin , 7. Dezember 1875 g. MX 7 r . 14/XIl N . 167 Berlin , den 7 .
+1-1	0-3	568	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	7.	*[1]	DATEletter[1]
+1-8	34-42	Dezember	*[1]	DATEletter[1]
+1-9	43-47	1875	*[1]	DATEletter[1]
+1-10	48-50	g.	_	_
+1-11	51-53	MX	*[2]	DATErecieved[2]
+1-12	54-55	7	*[2]	DATErecieved[2]
+1-13	56-57	r	_	_
+1-14	58-59	.	_	_
+1-15	60-66	14/XIl	*	DATEanswered
+1-16	67-68	N	_	_
+1-17	69-70	.	_	_
+1-18	71-74	167	_	_
+1-19	75-81	Berlin	*	PLACEfrom
+1-20	82-83	,	_	_
+1-21	84-87	den	_	_
+1-22	88-89	7	*[3]	DATEletter[3]
+1-23	90-91	.	*[3]	DATEletter[3]
+
+#Text=Dez . 1875 Verehrter Freund Ihre Kreaturen habe ich mitgetheilt \; bis jetzt sind noch keine andern Vorschläge dazu gekommen .
+2-1	92-95	Dez	*[3]	DATEletter[3]
+2-2	96-97	.	*[3]	DATEletter[3]
+2-3	98-102	1875	*[3]	DATEletter[3]
+2-4	103-112	Verehrter	_	_
+2-5	113-119	Freund	_	_
+2-6	120-124	Ihre	_	_
+2-7	125-134	Kreaturen	_	_
+2-8	135-139	habe	_	_
+2-9	140-143	ich	_	_
+2-10	144-155	mitgetheilt	_	_
+2-11	156-157	\;	_	_
+2-12	158-161	bis	_	_
+2-13	162-167	jetzt	_	_
+2-14	168-172	sind	_	_
+2-15	173-177	noch	_	_
+2-16	178-183	keine	_	_
+2-17	184-190	andern	_	_
+2-18	191-201	Vorschläge	_	_
+2-19	202-206	dazu	_	_
+2-20	207-215	gekommen	_	_
+2-21	216-217	.	_	_
+
+#Text=Zum Abtreten der beiden Monumente an Gamurrini giebt die Central Direktion , da sie die Zweckmäßigskeit dem Museo Italico gegebnüber , allein beurtheilen könne , ihre Zustimmung .
+3-1	218-221	Zum	_	_
+3-2	222-230	Abtreten	_	_
+3-3	231-234	der	_	_
+3-4	235-241	beiden	_	_
+3-5	242-251	Monumente	_	_
+3-6	252-254	an	_	_
+3-7	255-264	Gamurrini	*	PERmentioned
+3-8	265-270	giebt	_	_
+3-9	271-274	die	_	_
+3-10	275-282	Central	*[4]	ORGmentioned[4]
+3-11	283-292	Direktion	*[4]	ORGmentioned[4]
+3-12	293-294	,	_	_
+3-13	295-297	da	_	_
+3-14	298-301	sie	_	_
+3-15	302-305	die	_	_
+3-16	306-321	Zweckmäßigskeit	_	_
+3-17	322-325	dem	_	_
+3-18	326-331	Museo	*[5]	ORGmentioned[5]
+3-19	332-339	Italico	*[5]	ORGmentioned[5]
+3-20	340-350	gegebnüber	_	_
+3-21	351-352	,	_	_
+3-22	353-359	allein	_	_
+3-23	360-371	beurtheilen	_	_
+3-24	372-377	könne	_	_
+3-25	378-379	,	_	_
+3-26	380-384	ihre	_	_
+3-27	385-395	Zustimmung	_	_
+3-28	396-397	.	_	_
+
+#Text=Wie sollte aber - füge ich ex proprio noch hinzu - der Raum im Neuen Hause fehlen ?
+4-1	398-401	Wie	_	_
+4-2	402-408	sollte	_	_
+4-3	409-413	aber	_	_
+4-4	414-415	-	_	_
+4-5	416-420	füge	_	_
+4-6	421-424	ich	_	_
+4-7	425-427	ex	_	_
+4-8	428-435	proprio	_	_
+4-9	436-440	noch	_	_
+4-10	441-446	hinzu	_	_
+4-11	447-448	-	_	_
+4-12	449-452	der	_	_
+4-13	453-457	Raum	_	_
+4-14	458-460	im	_	_
+4-15	461-466	Neuen	_	_
+4-16	467-472	Hause	_	_
+4-17	473-479	fehlen	_	_
+4-18	480-481	?	_	_
+
+#Text=Ich meine die kleine Sammlung müßte als Schmuck in dem Salon vortrefflich verwerthet werden können .
+5-1	482-485	Ich	_	_
+5-2	486-491	meine	_	_
+5-3	492-495	die	_	_
+5-4	496-502	kleine	_	_
+5-5	503-511	Sammlung	_	_
+5-6	512-517	müßte	_	_
+5-7	518-521	als	_	_
+5-8	522-529	Schmuck	_	_
+5-9	530-532	in	_	_
+5-10	533-536	dem	_	_
+5-11	537-542	Salon	_	_
+5-12	543-555	vortrefflich	_	_
+5-13	556-566	verwerthet	_	_
+5-14	567-573	werden	_	_
+5-15	574-580	können	_	_
+5-16	581-582	.	_	_
+
+#Text=Sagen Sie Helbig mit meinem besten Gruße , daß ich mich freue von Ebers zu hören , daß er mit diesem wegen der Italischen und Sardinischen Aegyptiaca in Verbindung getreten ist .
+6-1	583-588	Sagen	_	_
+6-2	589-592	Sie	_	_
+6-3	593-599	Helbig	*	PERmentioned
+6-4	600-603	mit	_	_
+6-5	604-610	meinem	_	_
+6-6	611-617	besten	_	_
+6-7	618-623	Gruße	_	_
+6-8	624-625	,	_	_
+6-9	626-629	daß	_	_
+6-10	630-633	ich	_	_
+6-11	634-638	mich	_	_
+6-12	639-644	freue	_	_
+6-13	645-648	von	_	_
+6-14	649-654	Ebers	*	PERmentioned
+6-15	655-657	zu	_	_
+6-16	658-663	hören	_	_
+6-17	664-665	,	_	_
+6-18	666-669	daß	_	_
+6-19	670-672	er	_	_
+6-20	673-676	mit	_	_
+6-21	677-683	diesem	_	_
+6-22	684-689	wegen	_	_
+6-23	690-693	der	_	_
+6-24	694-704	Italischen	*	MISC
+6-25	705-708	und	_	_
+6-26	709-721	Sardinischen	*	MISC
+6-27	722-732	Aegyptiaca	*	MISC
+6-28	733-735	in	_	_
+6-29	736-746	Verbindung	_	_
+6-30	747-755	getreten	_	_
+6-31	756-759	ist	_	_
+6-32	760-761	.	_	_
+
+#Text=Ein früher Winter ist bei uns eingetreten \; 10 , 12 Grad .
+7-1	762-765	Ein	_	_
+7-2	766-772	früher	_	_
+7-3	773-779	Winter	_	_
+7-4	780-783	ist	_	_
+7-5	784-787	bei	_	_
+7-6	788-791	uns	_	_
+7-7	792-803	eingetreten	_	_
+7-8	804-805	\;	_	_
+7-9	806-808	10	_	_
+7-10	809-810	,	_	_
+7-11	811-813	12	_	_
+7-12	814-818	Grad	_	_
+7-13	819-820	.	_	_
+
+#Text=Der Ihrige R Lepsius
+8-1	821-824	Der	_	_
+8-2	825-831	Ihrige	_	_
+8-3	832-833	R	*[6]	PERauthor[6]
+8-4	834-841	Lepsius	*[6]	PERauthor[6]

@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Patras , 21. Mai 1837 schwundene Personen , Hr .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Patras	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	21.	*[4]	DATEletter[4]
+1-7	31-34	Mai	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-50	schwundene	_	_
+1-10	51-59	Personen	_	_
+1-11	60-61	,	_	_
+1-12	62-64	Hr	_	_
+1-13	65-66	.	_	_
+
+#Text=Fittakys emsigster und unzuverlässigster Antiquar Athens als dermaliger Aufseher der dorztigen Ausgrabungen und somit als nothwendiges Vebel , KW `` ferner Hr .
+2-1	67-75	Fittakys	*	PERmentioned
+2-2	76-85	emsigster	_	_
+2-3	86-89	und	_	_
+2-4	90-107	unzuverlässigster	_	_
+2-5	108-116	Antiquar	_	_
+2-6	117-123	Athens	*	PLACEmentioned
+2-7	124-127	als	_	_
+2-8	128-138	dermaliger	_	_
+2-9	139-147	Aufseher	_	_
+2-10	148-151	der	_	_
+2-11	152-161	dorztigen	_	_
+2-12	162-174	Ausgrabungen	_	_
+2-13	175-178	und	_	_
+2-14	179-184	somit	_	_
+2-15	185-188	als	_	_
+2-16	189-201	nothwendiges	_	_
+2-17	202-207	Vebel	_	_
+2-18	208-209	,	_	_
+2-19	210-212	KW	_	_
+2-20	213-215	``	_	_
+2-21	216-222	ferner	_	_
+2-22	223-225	Hr	_	_
+2-23	226-227	.	_	_
+
+#Text=früher in Constantinopel , jetzt \| Gouverneur von Samos , demselben nicht für entnommen gelten dürfen .
+3-1	228-234	früher	_	_
+3-2	235-237	in	_	_
+3-3	238-252	Constantinopel	*	PLACEmentioned
+3-4	253-254	,	_	_
+3-5	255-260	jetzt	_	_
+3-6	261-262	\|	_	_
+3-7	263-273	Gouverneur	_	_
+3-8	274-277	von	_	_
+3-9	278-283	Samos	*	PLACEmentioned
+3-10	284-285	,	_	_
+3-11	286-295	demselben	_	_
+3-12	296-301	nicht	_	_
+3-13	302-305	für	_	_
+3-14	306-315	entnommen	_	_
+3-15	316-322	gelten	_	_
+3-16	323-329	dürfen	_	_
+3-17	330-331	.	_	_
+
+#Text=2 .
+4-1	332-333	2	_	_
+4-2	334-335	.	_	_
+
+#Text=Litterarisches .
+5-1	336-350	Litterarisches	_	_
+5-2	351-352	.	_	_
+
+#Text=Hr .
+6-1	353-355	Hr	_	_
+6-2	356-357	.	_	_
+
+#Text=Mastoxidi in Corfu verspricht nächstens eine unedirte Inschrift .
+7-1	358-367	Mastoxidi	*	PERmentioned
+7-2	368-370	in	_	_
+7-3	371-376	Corfu	*	PLACEmentioned
+7-4	377-387	verspricht	_	_
+7-5	388-397	nächstens	_	_
+7-6	398-402	eine	_	_
+7-7	403-411	unedirte	_	_
+7-8	412-421	Inschrift	_	_
+7-9	422-423	.	_	_
+
+#Text=Prof. Orioli ebd .
+8-1	424-429	Prof.	_	_
+8-2	430-436	Orioli	*	PERmentioned
+8-3	437-440	ebd	_	_
+8-4	441-442	.	_	_
+
+#Text=Mehreres wenn man will \; zunächst seine unedirten etruskischen Inschriften tauschweise gegen die gleichartigen Inedita des Instituts , unter gegenseitiger Voraussetzung des Non Publicetur .
+9-1	443-451	Mehreres	_	_
+9-2	452-456	wenn	_	_
+9-3	457-460	man	_	_
+9-4	461-465	will	_	_
+9-5	466-467	\;	_	_
+9-6	468-476	zunächst	_	_
+9-7	477-482	seine	_	_
+9-8	483-492	unedirten	_	_
+9-9	493-505	etruskischen	*[12]	OBJ[12]
+9-10	506-517	Inschriften	*[12]	OBJ[12]
+9-11	518-529	tauschweise	_	_
+9-12	530-535	gegen	_	_
+9-13	536-539	die	_	_
+9-14	540-553	gleichartigen	_	_
+9-15	554-561	Inedita	_	_
+9-16	562-565	des	_	_
+9-17	566-575	Instituts	*	ORGmentioned
+9-18	576-577	,	_	_
+9-19	578-583	unter	_	_
+9-20	584-597	gegenseitiger	_	_
+9-21	598-611	Voraussetzung	_	_
+9-22	612-615	des	_	_
+9-23	616-619	Non	_	_
+9-24	620-630	Publicetur	_	_
+9-25	631-632	.	_	_
+
+#Text=Dr. Roß willfährigst Mehreres , soweit seine beschränkte officielle Stellung es erlaubt .
+10-1	633-636	Dr.	_	_
+10-2	637-640	Roß	*	PERmentioned
+10-3	641-653	willfährigst	_	_
+10-4	654-662	Mehreres	_	_
+10-5	663-664	,	_	_
+10-6	665-671	soweit	_	_
+10-7	672-677	seine	_	_
+10-8	678-689	beschränkte	_	_
+10-9	690-700	officielle	_	_
+10-10	701-709	Stellung	_	_
+10-11	710-712	es	_	_
+10-12	713-720	erlaubt	_	_
+10-13	721-722	.	_	_
+
+#Text=Um summarische Ausgrabungsberichte unter seinem Namen oder auch unter seinem Einfluß terminweise , wenigstens halbjährig , nach Rom zu senden , ist er noch von hier aus meinerseits schriftlich angegangen worden .
+11-1	723-725	Um	_	_
+11-2	726-737	summarische	_	_
+11-3	738-757	Ausgrabungsberichte	_	_
+11-4	758-763	unter	_	_
+11-5	764-770	seinem	_	_
+11-6	771-776	Namen	_	_
+11-7	777-781	oder	_	_
+11-8	782-786	auch	_	_
+11-9	787-792	unter	_	_
+11-10	793-799	seinem	_	_
+11-11	800-807	Einfluß	_	_
+11-12	808-819	terminweise	_	_
+11-13	820-821	,	_	_
+11-14	822-832	wenigstens	_	_
+11-15	833-843	halbjährig	_	_
+11-16	844-845	,	_	_
+11-17	846-850	nach	_	_
+11-18	851-854	Rom	*	PLACEmentioned
+11-19	855-857	zu	_	_
+11-20	858-864	senden	_	_
+11-21	865-866	,	_	_
+11-22	867-870	ist	_	_
+11-23	871-873	er	_	_
+11-24	874-878	noch	_	_
+11-25	879-882	von	_	_
+11-26	883-887	hier	_	_
+11-27	888-891	aus	_	_
+11-28	892-903	meinerseits	_	_
+11-29	904-915	schriftlich	_	_
+11-30	916-926	angegangen	_	_
+11-31	927-933	worden	_	_
+11-32	934-935	.	_	_
+
+#Text=Hr .
+12-1	936-938	Hr	_	_
+12-2	939-940	.	_	_
+
+#Text=Schanbert habe ich um Zeichnung eines großen , ungenügend bekannten Wotivreliefs von Paros gebeten .
+13-1	941-950	Schanbert	*	PERmentioned
+13-2	951-955	habe	_	_
+13-3	956-959	ich	_	_
+13-4	960-962	um	_	_
+13-5	963-972	Zeichnung	_	_
+13-6	973-978	eines	_	_
+13-7	979-985	großen	_	_
+13-8	986-987	,	_	_
+13-9	988-998	ungenügend	_	_
+13-10	999-1008	bekannten	_	_
+13-11	1009-1021	Wotivreliefs	*	OBJ
+13-12	1022-1025	von	_	_
+13-13	1026-1031	Paros	*	PERmentioned
+13-14	1032-1039	gebeten	_	_
+13-15	1040-1041	.	_	_
+
+#Text=Hr .
+14-1	1042-1044	Hr	_	_
+14-2	1045-1046	.	_	_
+
+#Text=Col .
+15-1	1047-1050	Col	_	_
+15-2	1051-1052	.	_	_
+
+#Text=Finlay verspricht einen Artikel über das Amphioreion bei Oropos .
+16-1	1053-1059	Finlay	*	PERmentioned
+16-2	1060-1070	verspricht	_	_
+16-3	1071-1076	einen	_	_
+16-4	1077-1084	Artikel	_	_
+16-5	1085-1089	über	_	_
+16-6	1090-1093	das	_	_
+16-7	1094-1105	Amphioreion	*	OBJ
+16-8	1106-1109	bei	_	_
+16-9	1110-1116	Oropos	*	PLACEmentioned
+16-10	1117-1118	.	_	_
+
+#Text=3 .
+17-1	1119-1120	3	_	_
+17-2	1121-1122	.	_	_
+
+#Text=Oekonomisches .
+18-1	1123-1136	Oekonomisches	_	_
+18-2	1137-1138	.	_	_
+
+#Text=Orioli und Roß wünschen ihr Ex .
+19-1	1139-1145	Orioli	*	PERmentioned
+19-2	1146-1149	und	_	_
+19-3	1150-1153	Roß	*	PERmentioned
+19-4	1154-1162	wünschen	_	_
+19-5	1163-1166	ihr	_	_
+19-6	1167-1169	Ex	_	_
+19-7	1170-1171	.	_	_
+
+#Text=der Instituts-
+20-1	1172-1175	der	_	_
+20-2	1176-1186	Instituts-	_	_

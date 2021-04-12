@@ -1,0 +1,83 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen R ( om ) , 21 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-17	R	*[3]	PLACEfrom[3]
+1-5	18-19	(	*[3]	PLACEfrom[3]
+1-6	20-22	om	*[3]	PLACEfrom[3]
+1-7	23-24	)	_	_
+1-8	25-26	,	_	_
+1-9	27-29	21	*[4]	DATEletter[4]
+1-10	30-31	.	*[4]	DATEletter[4]
+
+#Text=August 1861 fertig zu machen , werde also Zeri citiren .
+2-1	32-38	August	*[4]	DATEletter[4]
+2-2	39-43	1861	*[4]	DATEletter[4]
+2-3	44-50	fertig	_	_
+2-4	51-53	zu	_	_
+2-5	54-60	machen	_	_
+2-6	61-62	,	_	_
+2-7	63-68	werde	_	_
+2-8	69-73	also	_	_
+2-9	74-78	Zeri	*	PERmentioned
+2-10	79-86	citiren	_	_
+2-11	87-88	.	_	_
+
+#Text=Gestern noch 9 cäretaner Cippi in d. Soffitta des Monte di Fietä geklatscht , triefend von Schweiß .
+3-1	89-96	Gestern	_	_
+3-2	97-101	noch	_	_
+3-3	102-103	9	*[5]	OBJ[5]
+3-4	104-113	cäretaner	*[5]	OBJ[5]
+3-5	114-119	Cippi	*[5]	OBJ[5]
+3-6	120-122	in	_	_
+3-7	123-125	d.	_	_
+3-8	126-134	Soffitta	_	_
+3-9	135-138	des	_	_
+3-10	139-144	Monte	*[6]	PLACEmentioned[6]
+3-11	145-147	di	*[6]	PLACEmentioned[6]
+3-12	148-153	Fietä	*[6]	PLACEmentioned[6]
+3-13	154-164	geklatscht	_	_
+3-14	165-166	,	_	_
+3-15	167-175	triefend	_	_
+3-16	176-179	von	_	_
+3-17	180-187	Schweiß	_	_
+3-18	188-189	.	_	_
+
+#Text=Beide de Rossi 's sind fort nach Viterbo , sollen aber morgen früh wieder hier sein .
+4-1	190-195	Beide	_	_
+4-2	196-198	de	*[7]	PERmentioned[7]
+4-3	199-204	Rossi	*[7]	PERmentioned[7]
+4-4	205-207	's	*[7]	PERmentioned[7]
+4-5	208-212	sind	_	_
+4-6	213-217	fort	_	_
+4-7	218-222	nach	_	_
+4-8	223-230	Viterbo	*	PLACEmentioned
+4-9	231-232	,	_	_
+4-10	233-239	sollen	_	_
+4-11	240-244	aber	_	_
+4-12	245-251	morgen	_	_
+4-13	252-256	früh	_	_
+4-14	257-263	wieder	_	_
+4-15	264-268	hier	_	_
+4-16	269-273	sein	_	_
+4-17	274-275	.	_	_
+
+#Text=Mit besten Grüßen Ihr HBr .
+5-1	276-279	Mit	_	_
+5-2	280-286	besten	_	_
+5-3	287-293	Grüßen	_	_
+5-4	294-297	Ihr	_	_
+5-5	298-301	HBr	*	PERauthor
+5-6	302-303	.	_	_
+
+#Text=R . 21/Viii , 61 .
+6-1	304-305	R	*[9]	PLACEfrom[9]
+6-2	306-307	.	*[9]	PLACEfrom[9]
+6-3	308-315	21/Viii	*[8]	DATEletter[8]
+6-4	316-317	,	*[8]	DATEletter[8]
+6-5	318-320	61	*[8]	DATEletter[8]
+6-6	321-322	.	_	_

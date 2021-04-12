@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Mantova , 13 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Mantova	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	13	*[11]	DATEletter[11]
+1-7	30-31	.	*[11]	DATEletter[11]
+
+#Text=Oktober 1837 ganz unversehrter oder wenigstens immer trefflich erhaltener Bildwerke gefunden , zu deren Herausgabe ich Anstalten getroffen und Hoffnung habe .
+2-1	32-39	Oktober	*[11]	DATEletter[11]
+2-2	40-44	1837	*[11]	DATEletter[11]
+2-3	45-49	ganz	_	_
+2-4	50-62	unversehrter	_	_
+2-5	63-67	oder	_	_
+2-6	68-78	wenigstens	_	_
+2-7	79-84	immer	_	_
+2-8	85-94	trefflich	_	_
+2-9	95-105	erhaltener	_	_
+2-10	106-115	Bildwerke	_	_
+2-11	116-124	gefunden	_	_
+2-12	125-126	,	_	_
+2-13	127-129	zu	_	_
+2-14	130-135	deren	_	_
+2-15	136-146	Herausgabe	_	_
+2-16	147-150	ich	_	_
+2-17	151-160	Anstalten	_	_
+2-18	161-170	getroffen	_	_
+2-19	171-174	und	_	_
+2-20	175-183	Hoffnung	_	_
+2-21	184-188	habe	_	_
+2-22	189-190	.	_	_
+
+#Text=Ich kann auf 80 Monumente , welche ebensoviel Tafeln in Quartformat füllen , rechnen .
+3-1	191-194	Ich	_	_
+3-2	195-199	kann	_	_
+3-3	200-203	auf	_	_
+3-4	204-206	80	_	_
+3-5	207-216	Monumente	_	_
+3-6	217-218	,	_	_
+3-7	219-225	welche	_	_
+3-8	226-236	ebensoviel	_	_
+3-9	237-243	Tafeln	_	_
+3-10	244-246	in	_	_
+3-11	247-258	Quartformat	_	_
+3-12	259-265	füllen	_	_
+3-13	266-267	,	_	_
+3-14	268-275	rechnen	_	_
+3-15	276-277	.	_	_
+
+#Text=Hier habe ich Conte Arco nicht getroffen \; morgen gehe ich nach Modena , wo ich mich vielleicht 8 Tage aufzuhalten denke , dann über Bologna nach S. Marino , wohin mich Borghesi eingeladen hat .
+4-1	278-282	Hier	_	_
+4-2	283-287	habe	_	_
+4-3	288-291	ich	_	_
+4-4	292-297	Conte	*[12]	PERmentioned[12]
+4-5	298-302	Arco	*[12]	PERmentioned[12]
+4-6	303-308	nicht	_	_
+4-7	309-318	getroffen	_	_
+4-8	319-320	\;	_	_
+4-9	321-327	morgen	_	_
+4-10	328-332	gehe	_	_
+4-11	333-336	ich	_	_
+4-12	337-341	nach	_	_
+4-13	342-348	Modena	*	PLACEmentioned
+4-14	349-350	,	_	_
+4-15	351-353	wo	_	_
+4-16	354-357	ich	_	_
+4-17	358-362	mich	_	_
+4-18	363-373	vielleicht	_	_
+4-19	374-375	8	_	_
+4-20	376-380	Tage	_	_
+4-21	381-392	aufzuhalten	_	_
+4-22	393-398	denke	_	_
+4-23	399-400	,	_	_
+4-24	401-405	dann	_	_
+4-25	406-410	über	_	_
+4-26	411-418	Bologna	*	PLACEmentioned
+4-27	419-423	nach	_	_
+4-28	424-426	S.	*[13]	PLACEmentioned[13]
+4-29	427-433	Marino	*[13]	PLACEmentioned[13]
+4-30	434-435	,	_	_
+4-31	436-441	wohin	_	_
+4-32	442-446	mich	_	_
+4-33	447-455	Borghesi	*	PERmentioned
+4-34	456-466	eingeladen	_	_
+4-35	467-470	hat	_	_
+4-36	471-472	.	_	_
+
+#Text=Bunsens Aufbruch von Rom mahnt uns an das Testament des Instituts zu denken .
+5-1	473-480	Bunsens	*	PERmentioned
+5-2	481-489	Aufbruch	_	_
+5-3	490-493	von	_	_
+5-4	494-497	Rom	*	PLACEmentioned
+5-5	498-503	mahnt	_	_
+5-6	504-507	uns	_	_
+5-7	508-510	an	_	_
+5-8	511-514	das	_	_
+5-9	515-524	Testament	_	_
+5-10	525-528	des	_	_
+5-11	529-538	Instituts	*	ORGmentioned
+5-12	539-541	zu	_	_
+5-13	542-548	denken	_	_
+5-14	549-550	.	_	_
+
+#Text=Das Institut zu halten dürfte aus vielen Gründen unmöglich sein .
+6-1	551-554	Das	_	_
+6-2	555-563	Institut	*	ORGmentioned
+6-3	564-566	zu	_	_
+6-4	567-573	halten	_	_
+6-5	574-580	dürfte	_	_
+6-6	581-584	aus	_	_
+6-7	585-591	vielen	_	_
+6-8	592-599	Gründen	_	_
+6-9	600-609	unmöglich	_	_
+6-10	610-614	sein	_	_
+6-11	615-616	.	_	_
+
+#Text=Von Welcker habe ich Briefe erhalten .
+7-1	617-620	Von	_	_
+7-2	621-628	Welcker	*	PERmentioned
+7-3	629-633	habe	_	_
+7-4	634-637	ich	_	_
+7-5	638-644	Briefe	_	_
+7-6	645-653	erhalten	_	_
+7-7	654-655	.	_	_
+
+#Text=Sie haben meine rückständigen 50 Scudi nicht eingezogen .
+8-1	656-659	Sie	_	_
+8-2	660-665	haben	_	_
+8-3	666-671	meine	_	_
+8-4	672-685	rückständigen	_	_
+8-5	686-688	50	_	_
+8-6	689-694	Scudi	_	_
+8-7	695-700	nicht	_	_
+8-8	701-711	eingezogen	_	_
+8-9	712-713	.	_	_
+
+#Text=Er glaubt sie schon bezahlt .
+9-1	714-716	Er	_	_
+9-2	717-723	glaubt	_	_
+9-3	724-727	sie	_	_
+9-4	728-733	schon	_	_
+9-5	734-741	bezahlt	_	_
+9-6	742-743	.	_	_
+
+#Text=Das macht große Verwirrung .
+10-1	744-747	Das	_	_
+10-2	748-753	macht	_	_
+10-3	754-759	große	_	_
+10-4	760-770	Verwirrung	_	_
+10-5	771-772	.	_	_
+
+#Text=Ich habe geantwortet und mich erboten alles zu thun , um die Sache auszugleichen .
+11-1	773-776	Ich	_	_
+11-2	777-781	habe	_	_
+11-3	782-793	geantwortet	_	_
+11-4	794-797	und	_	_
+11-5	798-802	mich	_	_
+11-6	803-810	erboten	_	_
+11-7	811-816	alles	_	_
+11-8	817-819	zu	_	_
+11-9	820-824	thun	_	_
+11-10	825-826	,	_	_
+11-11	827-829	um	_	_
+11-12	830-833	die	_	_
+11-13	834-839	Sache	_	_
+11-14	840-853	auszugleichen	_	_
+11-15	854-855	.	_	_
+
+#Text=- Am meisten ist mirs wegen Parthey 's Zahlung leid .
+12-1	856-857	-	_	_
+12-2	858-860	Am	_	_
+12-3	861-868	meisten	_	_
+12-4	869-872	ist	_	_
+12-5	873-877	mirs	_	_
+12-6	878-883	wegen	_	_
+12-7	884-891	Parthey	*[16]	PERmentioned[16]
+12-8	892-894	's	*[16]	PERmentioned[16]
+12-9	895-902	Zahlung	_	_
+12-10	903-907	leid	_	_
+12-11	908-909	.	_	_
+
+#Text=In Rom sind die Restaurationen vorgerückt .
+13-1	910-912	In	_	_
+13-2	913-916	Rom	*	PLACEmentioned
+13-3	917-921	sind	_	_
+13-4	922-925	die	_	_
+13-5	926-940	Restaurationen	_	_
+13-6	941-951	vorgerückt	_	_
+13-7	952-953	.	_	_
+
+#Text=Vollard hat Vorschüsse gemacht , scheint aber Geld zu wünschen .
+14-1	954-961	Vollard	*	PERmentioned
+14-2	962-965	hat	_	_
+14-3	966-976	Vorschüsse	_	_
+14-4	977-984	gemacht	_	_
+14-5	985-986	,	_	_
+14-6	987-994	scheint	_	_
+14-7	995-999	aber	_	_
+14-8	1000-1004	Geld	_	_
+14-9	1005-1007	zu	_	_
+14-10	1008-1016	wünschen	_	_
+14-11	1017-1018	.	_	_
+
+#Text=Mich drängts sehr zurück .
+15-1	1019-1023	Mich	_	_
+15-2	1024-1031	drängts	_	_
+15-3	1032-1036	sehr	_	_
+15-4	1037-1043	zurück	_	_
+15-5	1044-1045	.	_	_
+
+#Text=Die spillenlange Bronzelarei hat Sanquirico von de Savigsny erstanden und hat sie mir , im Fall ich sie wollte , für 40 Francs überlassen .
+16-1	1046-1049	Die	_	_
+16-2	1050-1062	spillenlange	_	_
+16-3	1063-1074	Bronzelarei	*	OBJ
+16-4	1075-1078	hat	_	_
+16-5	1079-1089	Sanquirico	*	PERmentioned
+16-6	1090-1093	von	_	_
+16-7	1094-1096	de	*[14]	PERmentioned[14]
+16-8	1097-1105	Savigsny	*[14]	PERmentioned[14]
+16-9	1106-1115	erstanden	_	_
+16-10	1116-1119	und	_	_
+16-11	1120-1123	hat	_	_
+16-12	1124-1127	sie	_	_
+16-13	1128-1131	mir	_	_
+16-14	1132-1133	,	_	_
+16-15	1134-1136	im	_	_
+16-16	1137-1141	Fall	_	_
+16-17	1142-1145	ich	_	_
+16-18	1146-1149	sie	_	_
+16-19	1150-1156	wollte	_	_
+16-20	1157-1158	,	_	_
+16-21	1159-1162	für	_	_
+16-22	1163-1165	40	_	_
+16-23	1166-1172	Francs	_	_
+16-24	1173-1183	überlassen	_	_
+16-25	1184-1185	.	_	_
+
+#Text=Gott behüte Sie !
+17-1	1186-1190	Gott	_	_
+17-2	1191-1197	behüte	_	_
+17-3	1198-1201	Sie	_	_
+17-4	1202-1203	!	_	_
+
+#Text=Ihr treuergebner EBraun .
+18-1	1204-1207	Ihr	_	_
+18-2	1208-1220	treuergebner	_	_
+18-3	1221-1227	EBraun	*[15]	PERmentioned[15]
+18-4	1228-1229	.	*[15]	PERmentioned[15]

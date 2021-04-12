@@ -1,0 +1,272 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=10 Braun an Gerhard Rom , 6 .
+1-1	0-2	10	_	_	
+1-2	3-8	Braun	*	PERauthor	
+1-3	9-11	an	_	_	
+1-4	12-19	Gerhard	*	PERaddressee	
+1-5	20-23	Rom	*	PLACEfrom	
+1-6	24-25	,	_	_	
+1-7	26-27	6	*[1]	DATEletter[1]	
+1-8	28-29	.	*[1]	DATEletter[1]	
+
+#Text=Januar 1835 - 3 .
+2-1	30-36	Januar	*[1]	DATEletter[1]	
+2-2	37-41	1835	*[1]	DATEletter[1]	
+2-3	42-43	-	_	_	
+2-4	44-45	3	_	_	
+2-5	46-47	.	_	_	
+
+#Text=Wenn guter Menschenverstand als wesentliches Kriterium der Philologie gelten soll , so habe ich nichts dagegen , aber den kann ein Archäolog auch haben .
+3-1	48-52	Wenn	_	_	
+3-2	53-58	guter	_	_	
+3-3	59-75	Menschenverstand	_	_	
+3-4	76-79	als	_	_	
+3-5	80-92	wesentliches	_	_	
+3-6	93-102	Kriterium	_	_	
+3-7	103-106	der	_	_	
+3-8	107-117	Philologie	_	_	
+3-9	118-124	gelten	_	_	
+3-10	125-129	soll	_	_	
+3-11	130-131	,	_	_	
+3-12	132-134	so	_	_	
+3-13	135-139	habe	_	_	
+3-14	140-143	ich	_	_	
+3-15	144-150	nichts	_	_	
+3-16	151-158	dagegen	_	_	
+3-17	159-160	,	_	_	
+3-18	161-165	aber	_	_	
+3-19	166-169	den	_	_	
+3-20	170-174	kann	_	_	
+3-21	175-178	ein	_	_	
+3-22	179-188	Archäolog	_	_	
+3-23	189-193	auch	_	_	
+3-24	194-199	haben	_	_	
+3-25	200-201	.	_	_	
+
+#Text=Thatsache ist es nun denn doch einmal , dass die Monumentenkenntniss der Archäologen eigenthümlich sein muß und dass die Philologen gewöhnlich nicht mehr als grammatische Kenntnisse besitzen .
+4-1	202-211	Thatsache	_	_	
+4-2	212-215	ist	_	_	
+4-3	216-218	es	_	_	
+4-4	219-222	nun	_	_	
+4-5	223-227	denn	_	_	
+4-6	228-232	doch	_	_	
+4-7	233-239	einmal	_	_	
+4-8	240-241	,	_	_	
+4-9	242-246	dass	_	_	
+4-10	247-250	die	_	_	
+4-11	251-270	Monumentenkenntniss	_	_	
+4-12	271-274	der	_	_	
+4-13	275-286	Archäologen	_	_	
+4-14	287-300	eigenthümlich	_	_	
+4-15	301-305	sein	_	_	
+4-16	306-309	muß	_	_	
+4-17	310-313	und	_	_	
+4-18	314-318	dass	_	_	
+4-19	319-322	die	_	_	
+4-20	323-333	Philologen	_	_	
+4-21	334-344	gewöhnlich	_	_	
+4-22	345-350	nicht	_	_	
+4-23	351-355	mehr	_	_	
+4-24	356-359	als	_	_	
+4-25	360-372	grammatische	_	_	
+4-26	373-383	Kenntnisse	_	_	
+4-27	384-392	besitzen	_	_	
+4-28	393-394	.	_	_	
+
+#Text=Macht was Ihr wolt .
+5-1	395-400	Macht	_	_	
+5-2	401-404	was	_	_	
+5-3	405-408	Ihr	_	_	
+5-4	409-413	wolt	_	_	
+5-5	414-415	.	_	_	
+
+#Text=... Marchese Mallia aus Terranova hat allerdings geantwortet , die Einladung zum Socius lehnt er ab , wie es scheint .
+6-1	416-419	...	_	_	
+6-2	420-428	Marchese	*[2]	PERmentioned[2]	
+6-3	429-435	Mallia	*[2]	PERmentioned[2]	
+6-4	436-439	aus	_	_	
+6-5	440-449	Terranova	*	PLACEmentioned	
+6-6	450-453	hat	_	_	
+6-7	454-464	allerdings	_	_	
+6-8	465-476	geantwortet	_	_	
+6-9	477-478	,	_	_	
+6-10	479-482	die	_	_	
+6-11	483-492	Einladung	_	_	
+6-12	493-496	zum	_	_	
+6-13	497-503	Socius	_	_	
+6-14	504-509	lehnt	_	_	
+6-15	510-512	er	_	_	
+6-16	513-515	ab	_	_	
+6-17	516-517	,	_	_	
+6-18	518-521	wie	_	_	
+6-19	522-524	es	_	_	
+6-20	525-532	scheint	_	_	
+6-21	533-534	.	_	_	
+
+#Text=Sein Sohn , der v. J. gestorben , sei dazu vortrefflich gewesen , er sei zu alt .
+7-1	535-539	Sein	_	_	
+7-2	540-544	Sohn	_	_	
+7-3	545-546	,	_	_	
+7-4	547-550	der	_	_	
+7-5	551-553	v.	_	_	
+7-6	554-556	J.	_	_	
+7-7	557-566	gestorben	_	_	
+7-8	567-568	,	_	_	
+7-9	569-572	sei	_	_	
+7-10	573-577	dazu	_	_	
+7-11	578-590	vortrefflich	_	_	
+7-12	591-598	gewesen	_	_	
+7-13	599-600	,	_	_	
+7-14	601-603	er	_	_	
+7-15	604-607	sei	_	_	
+7-16	608-610	zu	_	_	
+7-17	611-614	alt	_	_	
+7-18	615-616	.	_	_	
+
+#Text=Als Zeichen seiner Erkenntlichkeit sendet er wenigstens ein Paar Zeichnungen , v. einer Vase und eine griech , Inschrift , Kestner hat das eingelangte Billet erhalten .
+8-1	617-620	Als	_	_	
+8-2	621-628	Zeichen	_	_	
+8-3	629-635	seiner	_	_	
+8-4	636-651	Erkenntlichkeit	_	_	
+8-5	652-658	sendet	_	_	
+8-6	659-661	er	_	_	
+8-7	662-672	wenigstens	_	_	
+8-8	673-676	ein	_	_	
+8-9	677-681	Paar	_	_	
+8-10	682-693	Zeichnungen	*	MISC	
+8-11	694-695	,	_	_	
+8-12	696-698	v.	_	_	
+8-13	699-704	einer	_	_	
+8-14	705-709	Vase	*	OBJ	
+8-15	710-713	und	_	_	
+8-16	714-718	eine	_	_	
+8-17	719-725	griech	_	_	
+8-18	726-727	,	_	_	
+8-19	728-737	Inschrift	_	_	
+8-20	738-739	,	_	_	
+8-21	740-747	Kestner	*	PERmentioned	
+8-22	748-751	hat	_	_	
+8-23	752-755	das	_	_	
+8-24	756-767	eingelangte	_	_	
+8-25	768-774	Billet	_	_	
+8-26	775-783	erhalten	_	_	
+8-27	784-785	.	_	_	
+
+#Text=Ich habe es ihm selbst gebracht .
+9-1	786-789	Ich	_	_	
+9-2	790-794	habe	_	_	
+9-3	795-797	es	_	_	
+9-4	798-801	ihm	_	_	
+9-5	802-808	selbst	_	_	
+9-6	809-817	gebracht	_	_	
+9-7	818-819	.	_	_	
+
+#Text=Daß ich mich auch mit den Gemmenerklären ist ihm gar nicht recht .
+10-1	820-823	Daß	_	_	
+10-2	824-827	ich	_	_	
+10-3	828-832	mich	_	_	
+10-4	833-837	auch	_	_	
+10-5	838-841	mit	_	_	
+10-6	842-845	den	_	_	
+10-7	846-860	Gemmenerklären	_	_	
+10-8	861-864	ist	_	_	
+10-9	865-868	ihm	_	_	
+10-10	869-872	gar	_	_	
+10-11	873-878	nicht	_	_	
+10-12	879-884	recht	_	_	
+10-13	885-886	.	_	_	
+
+#Text=Kommts einmal zum Catalogisieren , wo wird natürlich seine Eintheilung in Styl I. und II .
+11-1	887-893	Kommts	_	_	
+11-2	894-900	einmal	_	_	
+11-3	901-904	zum	_	_	
+11-4	905-919	Catalogisieren	_	_	
+11-5	920-921	,	_	_	
+11-6	922-924	wo	_	_	
+11-7	925-929	wird	_	_	
+11-8	930-939	natürlich	_	_	
+11-9	940-945	seine	_	_	
+11-10	946-957	Eintheilung	_	_	
+11-11	958-960	in	_	_	
+11-12	961-965	Styl	_	_	
+11-13	966-968	I.	_	_	
+11-14	969-972	und	_	_	
+11-15	973-975	II	_	_	
+11-16	976-977	.	_	_	
+
+#Text=fallen müssen , wovon ich jedoch nie rede .
+12-1	978-984	fallen	_	_	
+12-2	985-991	müssen	_	_	
+12-3	992-993	,	_	_	
+12-4	994-999	wovon	_	_	
+12-5	1000-1003	ich	_	_	
+12-6	1004-1010	jedoch	_	_	
+12-7	1011-1014	nie	_	_	
+12-8	1015-1019	rede	_	_	
+12-9	1020-1021	.	_	_	
+
+#Text=Bezahlt hat er noch nicht .
+13-1	1022-1029	Bezahlt	_	_	
+13-2	1030-1033	hat	_	_	
+13-3	1034-1036	er	_	_	
+13-4	1037-1041	noch	_	_	
+13-5	1042-1047	nicht	_	_	
+13-6	1048-1049	.	_	_	
+
+#Text=Ich habe die Darstellung des Cycenos auf einer Durandschen Vase ohne Inschriften wiedergefunden .
+14-1	1050-1053	Ich	_	_	
+14-2	1054-1058	habe	_	_	
+14-3	1059-1062	die	_	_	
+14-4	1063-1074	Darstellung	_	_	
+14-5	1075-1078	des	_	_	
+14-6	1079-1086	Cycenos	*	PERmentioned	
+14-7	1087-1090	auf	_	_	
+14-8	1091-1096	einer	*[3]	OBJ[3]	
+14-9	1097-1108	Durandschen	*[3]	OBJ[3]	
+14-10	1109-1113	Vase	*[3]	OBJ[3]	
+14-11	1114-1118	ohne	_	_	
+14-12	1119-1130	Inschriften	_	_	
+14-13	1131-1145	wiedergefunden	_	_	
+14-14	1146-1147	.	_	_	
+
+#Text=Auf der Ihrigen hatte ich die Person zwischen Herecles und Mars schon vorber für Zeus erklärt .
+15-1	1148-1151	Auf	_	_	
+15-2	1152-1155	der	_	_	
+15-3	1156-1163	Ihrigen	_	_	
+15-4	1164-1169	hatte	_	_	
+15-5	1170-1173	ich	_	_	
+15-6	1174-1177	die	_	_	
+15-7	1178-1184	Person	_	_	
+15-8	1185-1193	zwischen	_	_	
+15-9	1194-1202	Herecles	*	PERmentioned	
+15-10	1203-1206	und	_	_	
+15-11	1207-1211	Mars	*	PERmentioned	
+15-12	1212-1217	schon	_	_	
+15-13	1218-1224	vorber	_	_	
+15-14	1225-1228	für	_	_	
+15-15	1229-1233	Zeus	*	PERmentioned	
+15-16	1234-1241	erklärt	_	_	
+15-17	1242-1243	.	_	_	
+
+#Text=Hier erscheint er geradezu mit einem Blitz .
+16-1	1244-1248	Hier	_	_	
+16-2	1249-1258	erscheint	_	_	
+16-3	1259-1261	er	_	_	
+16-4	1262-1270	geradezu	_	_	
+16-5	1271-1274	mit	_	_	
+16-6	1275-1280	einem	_	_	
+16-7	1281-1286	Blitz	_	_	
+16-8	1287-1288	.	_	_	
+
+#Text=Ich lasse das Blatt bereits stechen , auch
+17-1	1289-1292	Ich	_	_	
+17-2	1293-1298	lasse	_	_	
+17-3	1299-1302	das	_	_	
+17-4	1303-1308	Blatt	_	_	
+17-5	1309-1316	bereits	_	_	
+17-6	1317-1324	stechen	_	_	
+17-7	1325-1326	,	_	_	
+17-8	1327-1331	auch	_	_	

@@ -1,0 +1,222 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=119 Lepsius an Henzen Berlin , 24. Februar 1877 g . 27/2 77 Berlin , den 24 .
+1-1	0-3	119	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	24.	*[1]	DATEletter[1]
+1-8	35-42	Februar	*[1]	DATEletter[1]
+1-9	43-47	1877	*[1]	DATEletter[1]
+1-10	48-49	g	_	_
+1-11	50-51	.	_	_
+1-12	52-56	27/2	*[2]	DATErecieved[2]
+1-13	57-59	77	*[2]	DATErecieved[2]
+1-14	60-66	Berlin	*	PLACEfrom
+1-15	67-68	,	_	_
+1-16	69-72	den	_	_
+1-17	73-75	24	*[3]	DATEletter[3]
+1-18	76-77	.	*[3]	DATEletter[3]
+
+#Text=Febr .
+2-1	78-82	Febr	*[3]	DATEletter[3]
+2-2	83-84	.	*[3]	DATEletter[3]
+
+#Text=1877 Verehrter Freund Ich will wenigstens nicht länger säumen Ihnen den Empfang Ihrer letzten Mittheilungen zumelden , wenn auch einstweilen nicht mehr als das .
+3-1	85-89	1877	*[3]	DATEletter[3]
+3-2	90-99	Verehrter	_	_
+3-3	100-106	Freund	_	_
+3-4	107-110	Ich	_	_
+3-5	111-115	will	_	_
+3-6	116-126	wenigstens	_	_
+3-7	127-132	nicht	_	_
+3-8	133-139	länger	_	_
+3-9	140-146	säumen	_	_
+3-10	147-152	Ihnen	_	_
+3-11	153-156	den	_	_
+3-12	157-164	Empfang	_	_
+3-13	165-170	Ihrer	_	_
+3-14	171-178	letzten	_	_
+3-15	179-192	Mittheilungen	_	_
+3-16	193-201	zumelden	_	_
+3-17	202-203	,	_	_
+3-18	204-208	wenn	_	_
+3-19	209-213	auch	_	_
+3-20	214-225	einstweilen	_	_
+3-21	226-231	nicht	_	_
+3-22	232-236	mehr	_	_
+3-23	237-240	als	_	_
+3-24	241-244	das	_	_
+3-25	245-246	.	_	_
+
+#Text=Ich denke bei dem was in Aussicht steht wird doch die richesse noch bedeutend den embarras überwiegen .
+4-1	247-250	Ich	_	_
+4-2	251-256	denke	_	_
+4-3	257-260	bei	_	_
+4-4	261-264	dem	_	_
+4-5	265-268	was	_	_
+4-6	269-271	in	_	_
+4-7	272-280	Aussicht	_	_
+4-8	281-286	steht	_	_
+4-9	287-291	wird	_	_
+4-10	292-296	doch	_	_
+4-11	297-300	die	_	_
+4-12	301-309	richesse	_	_
+4-13	310-314	noch	_	_
+4-14	315-324	bedeutend	_	_
+4-15	325-328	den	_	_
+4-16	329-337	embarras	_	_
+4-17	338-348	überwiegen	_	_
+4-18	349-350	.	_	_
+
+#Text=Was aber zunächst nun in der Sache zu thun ist , muß erst noch näher untersucht werden .
+5-1	351-354	Was	_	_
+5-2	355-359	aber	_	_
+5-3	360-368	zunächst	_	_
+5-4	369-372	nun	_	_
+5-5	373-375	in	_	_
+5-6	376-379	der	_	_
+5-7	380-385	Sache	_	_
+5-8	386-388	zu	_	_
+5-9	389-393	thun	_	_
+5-10	394-397	ist	_	_
+5-11	398-399	,	_	_
+5-12	400-403	muß	_	_
+5-13	404-408	erst	_	_
+5-14	409-413	noch	_	_
+5-15	414-419	näher	_	_
+5-16	420-430	untersucht	_	_
+5-17	431-437	werden	_	_
+5-18	438-439	.	_	_
+
+#Text=Ich habe das Testament zunächst Mommnsen mitgetheilt .
+6-1	440-443	Ich	_	_
+6-2	444-448	habe	_	_
+6-3	449-452	das	_	_
+6-4	453-462	Testament	_	_
+6-5	463-471	zunächst	_	_
+6-6	472-480	Mommnsen	*	PERmentioned
+6-7	481-492	mitgetheilt	_	_
+6-8	493-494	.	_	_
+
+#Text=Vor einigen Tagen am/i9 .
+7-1	495-498	Vor	_	_
+7-2	499-506	einigen	_	_
+7-3	507-512	Tagen	_	_
+7-4	513-518	am/i9	_	_
+7-5	519-520	.	_	_
+
+#Text=d . habe ich Ihnen die Diplome für den 9. Dezember 76 unausgefllt übersendet nur mit der Nummer und meiner Unterschrift .
+8-1	521-522	d	_	_
+8-2	523-524	.	_	_
+8-3	525-529	habe	_	_
+8-4	530-533	ich	_	_
+8-5	534-539	Ihnen	_	_
+8-6	540-543	die	_	_
+8-7	544-551	Diplome	_	_
+8-8	552-555	für	_	_
+8-9	556-559	den	_	_
+8-10	560-562	9.	*[4]	DATEmentioned[4]
+8-11	563-571	Dezember	*[4]	DATEmentioned[4]
+8-12	572-574	76	*[4]	DATEmentioned[4]
+8-13	575-586	unausgefllt	_	_
+8-14	587-597	übersendet	_	_
+8-15	598-601	nur	_	_
+8-16	602-605	mit	_	_
+8-17	606-609	der	_	_
+8-18	610-616	Nummer	_	_
+8-19	617-620	und	_	_
+8-20	621-627	meiner	_	_
+8-21	628-640	Unterschrift	_	_
+8-22	641-642	.	_	_
+
+#Text=In Bezug auf die 9 Diplome die wie Sie schreiben schon bei Ihnen liegen , bitte ich mir zu sagen , für welches der beiden Jahresdaten sie gedruckt sind .
+9-1	643-645	In	_	_
+9-2	646-651	Bezug	_	_
+9-3	652-655	auf	_	_
+9-4	656-659	die	_	_
+9-5	660-661	9	_	_
+9-6	662-669	Diplome	_	_
+9-7	670-673	die	_	_
+9-8	674-677	wie	_	_
+9-9	678-681	Sie	_	_
+9-10	682-691	schreiben	_	_
+9-11	692-697	schon	_	_
+9-12	698-701	bei	_	_
+9-13	702-707	Ihnen	_	_
+9-14	708-714	liegen	_	_
+9-15	715-716	,	_	_
+9-16	717-722	bitte	_	_
+9-17	723-726	ich	_	_
+9-18	727-730	mir	_	_
+9-19	731-733	zu	_	_
+9-20	734-739	sagen	_	_
+9-21	740-741	,	_	_
+9-22	742-745	für	_	_
+9-23	746-753	welches	_	_
+9-24	754-757	der	_	_
+9-25	758-764	beiden	_	_
+9-26	765-776	Jahresdaten	_	_
+9-27	777-780	sie	_	_
+9-28	781-789	gedruckt	_	_
+9-29	790-794	sind	_	_
+9-30	795-796	.	_	_
+
+#Text=Ich habe deshalb bei der letzten Sendung noch keine Rücksicht darauf genonmen .
+10-1	797-800	Ich	_	_
+10-2	801-805	habe	_	_
+10-3	806-813	deshalb	_	_
+10-4	814-817	bei	_	_
+10-5	818-821	der	_	_
+10-6	822-829	letzten	_	_
+10-7	830-837	Sendung	_	_
+10-8	838-842	noch	_	_
+10-9	843-848	keine	_	_
+10-10	849-858	Rücksicht	_	_
+10-11	859-865	darauf	_	_
+10-12	866-874	genonmen	_	_
+10-13	875-876	.	_	_
+
+#Text=Vom Elenco bitte ich mir immer eine kleine Anzahl Exemplare zu senden \; ich habe wieder nur 1 Exenplar erhalten .
+11-1	877-880	Vom	_	_
+11-2	881-887	Elenco	_	_
+11-3	888-893	bitte	_	_
+11-4	894-897	ich	_	_
+11-5	898-901	mir	_	_
+11-6	902-907	immer	_	_
+11-7	908-912	eine	_	_
+11-8	913-919	kleine	_	_
+11-9	920-926	Anzahl	_	_
+11-10	927-936	Exemplare	_	_
+11-11	937-939	zu	_	_
+11-12	940-946	senden	_	_
+11-13	947-948	\;	_	_
+11-14	949-952	ich	_	_
+11-15	953-957	habe	_	_
+11-16	958-964	wieder	_	_
+11-17	965-968	nur	_	_
+11-18	969-970	1	_	_
+11-19	971-979	Exenplar	_	_
+11-20	980-988	erhalten	_	_
+11-21	989-990	.	_	_
+
+#Text=Wenn Ihre Rechnungslegung nicht rechtzeitig eingeht , so wird uns das in der Generalversammlung in
+12-1	991-995	Wenn	_	_
+12-2	996-1000	Ihre	_	_
+12-3	1001-1016	Rechnungslegung	_	_
+12-4	1017-1022	nicht	_	_
+12-5	1023-1034	rechtzeitig	_	_
+12-6	1035-1042	eingeht	_	_
+12-7	1043-1044	,	_	_
+12-8	1045-1047	so	_	_
+12-9	1048-1052	wird	_	_
+12-10	1053-1056	uns	_	_
+12-11	1057-1060	das	_	_
+12-12	1061-1063	in	_	_
+12-13	1064-1067	der	_	_
+12-14	1068-1086	Generalversammlung	_	_
+12-15	1087-1089	in	_	_

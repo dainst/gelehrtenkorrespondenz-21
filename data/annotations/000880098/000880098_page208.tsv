@@ -1,0 +1,235 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=367 Braun an Gerhard Prof. Gerhard Rom , 22. April 1835 Roma li 22 Aprile 1835 Hochverehrtester Freund \| Der 21 April wäre nun vorüber , aber Arbeit , Last und Aerger nicht .
+1-1	0-3	367	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-44	22.	_	_
+1-10	45-50	April	*[2]	DATEletter[2]
+1-11	51-55	1835	_	_
+1-12	56-60	Roma	*	PLACEfrom
+1-13	61-63	li	_	_
+1-14	64-66	22	*[3]	DATEletter[3]
+1-15	67-73	Aprile	*[3]|*[5]	DATEletter[3]|DATEmentioned[5]
+1-16	74-78	1835	*[3]	DATEletter[3]
+1-17	79-95	Hochverehrtester	*[4]	PERaddressee[4]
+1-18	96-102	Freund	*[4]	PERaddressee[4]
+1-19	103-104	\|	_	_
+1-20	105-108	Der	_	_
+1-21	109-111	21	_	_
+1-22	112-117	April	_	_
+1-23	118-122	wäre	_	_
+1-24	123-126	nun	_	_
+1-25	127-134	vorüber	_	_
+1-26	135-136	,	_	_
+1-27	137-141	aber	_	_
+1-28	142-148	Arbeit	_	_
+1-29	149-150	,	_	_
+1-30	151-155	Last	_	_
+1-31	156-159	und	_	_
+1-32	160-166	Aerger	_	_
+1-33	167-172	nicht	_	_
+1-34	173-174	.	_	_
+
+#Text=Die gestrige Adunanza war überzahlreich .
+2-1	175-178	Die	_	_
+2-2	179-187	gestrige	_	_
+2-3	188-196	Adunanza	*	MISC
+2-4	197-200	war	_	_
+2-5	201-214	überzahlreich	_	_
+2-6	215-216	.	_	_
+
+#Text=Der Erfbgroßherzog von Weimar , der Duca Serradifalco etc. vermochten leicht der Versammlung alle diplomatische Steifheit mitzutheilen , die sie nur vertragen konnte .
+3-1	217-220	Der	_	_
+3-2	221-235	Erfbgroßherzog	*	PERmentioned
+3-3	236-239	von	_	_
+3-4	240-246	Weimar	*	PLACEmentioned
+3-5	247-248	,	_	_
+3-6	249-252	der	_	_
+3-7	253-257	Duca	*[6]	PERmentioned[6]
+3-8	258-270	Serradifalco	*[6]	PERmentioned[6]
+3-9	271-275	etc.	_	_
+3-10	276-286	vermochten	_	_
+3-11	287-293	leicht	_	_
+3-12	294-297	der	_	_
+3-13	298-309	Versammlung	_	_
+3-14	310-314	alle	_	_
+3-15	315-328	diplomatische	_	_
+3-16	329-338	Steifheit	_	_
+3-17	339-351	mitzutheilen	_	_
+3-18	352-353	,	_	_
+3-19	354-357	die	_	_
+3-20	358-361	sie	_	_
+3-21	362-365	nur	_	_
+3-22	366-375	vertragen	_	_
+3-23	376-382	konnte	_	_
+3-24	383-384	.	_	_
+
+#Text=Bunsens Discours und eine Abhandlung über damazische Inschriften füllten die Zeit aus .
+4-1	385-392	Bunsens	*	PERmentioned
+4-2	393-401	Discours	_	_
+4-3	402-405	und	_	_
+4-4	406-410	eine	_	_
+4-5	411-421	Abhandlung	_	_
+4-6	422-426	über	_	_
+4-7	427-437	damazische	_	_
+4-8	438-449	Inschriften	_	_
+4-9	450-457	füllten	_	_
+4-10	458-461	die	_	_
+4-11	462-466	Zeit	_	_
+4-12	467-470	aus	_	_
+4-13	471-472	.	_	_
+
+#Text=Der Forumaufsatz wurde gerade noch auf die Stunde fertig : 2 Bogen französischer Druck mit tausend Stamponicorrecturen mussten in 8 Tagen gedruckt und brochirt werden .
+5-1	473-476	Der	_	_
+5-2	477-489	Forumaufsatz	*[7]|*[8]	LIT[7]|OBJ[8]
+5-3	490-495	wurde	_	_
+5-4	496-502	gerade	_	_
+5-5	503-507	noch	_	_
+5-6	508-511	auf	_	_
+5-7	512-515	die	_	_
+5-8	516-522	Stunde	_	_
+5-9	523-529	fertig	_	_
+5-10	530-531	:	_	_
+5-11	532-533	2	_	_
+5-12	534-539	Bogen	_	_
+5-13	540-553	französischer	_	_
+5-14	554-559	Druck	_	_
+5-15	560-563	mit	_	_
+5-16	564-571	tausend	_	_
+5-17	572-591	Stamponicorrecturen	_	_
+5-18	592-599	mussten	_	_
+5-19	600-602	in	_	_
+5-20	603-604	8	_	_
+5-21	605-610	Tagen	_	_
+5-22	611-619	gedruckt	_	_
+5-23	620-623	und	_	_
+5-24	624-632	brochirt	_	_
+5-25	633-639	werden	_	_
+5-26	640-641	.	_	_
+
+#Text=Dazu wurden 2 Kupfertafeln abgezogen : alles dies ( ich mußte auch das unleserliche Manuscript , stellenweise doppelt copieren ) rdchte hin , mich Montags noch einmal zum 2ten Osterfeiertag krank aufs Bett hinzustrecken \; kurz meine Osterfeidertage und die Palilien waren ärgerlich und unangenehm genug .
+6-1	642-646	Dazu	_	_
+6-2	647-653	wurden	_	_
+6-3	654-655	2	_	_
+6-4	656-668	Kupfertafeln	_	_
+6-5	669-678	abgezogen	_	_
+6-6	679-680	:	_	_
+6-7	681-686	alles	_	_
+6-8	687-691	dies	_	_
+6-9	692-693	(	_	_
+6-10	694-697	ich	_	_
+6-11	698-703	mußte	_	_
+6-12	704-708	auch	_	_
+6-13	709-712	das	_	_
+6-14	713-725	unleserliche	_	_
+6-15	726-736	Manuscript	_	_
+6-16	737-738	,	_	_
+6-17	739-751	stellenweise	_	_
+6-18	752-759	doppelt	_	_
+6-19	760-768	copieren	_	_
+6-20	769-770	)	_	_
+6-21	771-777	rdchte	_	_
+6-22	778-781	hin	_	_
+6-23	782-783	,	_	_
+6-24	784-788	mich	_	_
+6-25	789-796	Montags	_	_
+6-26	797-801	noch	_	_
+6-27	802-808	einmal	_	_
+6-28	809-812	zum	_	_
+6-29	813-817	2ten	_	_
+6-30	818-831	Osterfeiertag	_	_
+6-31	832-837	krank	_	_
+6-32	838-842	aufs	_	_
+6-33	843-847	Bett	_	_
+6-34	848-861	hinzustrecken	_	_
+6-35	862-863	\;	_	_
+6-36	864-868	kurz	_	_
+6-37	869-874	meine	_	_
+6-38	875-890	Osterfeidertage	*[9]	MISC[9]
+6-39	891-894	und	_	_
+6-40	895-898	die	_	_
+6-41	899-907	Palilien	*	MISC
+6-42	908-913	waren	_	_
+6-43	914-923	ärgerlich	_	_
+6-44	924-927	und	_	_
+6-45	928-938	unangenehm	_	_
+6-46	939-944	genug	_	_
+6-47	945-946	.	_	_
+
+#Text=Heute heben die Unannehmlichkeiten von Neuem an .
+7-1	947-952	Heute	_	_
+7-2	953-958	heben	_	_
+7-3	959-962	die	_	_
+7-4	963-981	Unannehmlichkeiten	_	_
+7-5	982-985	von	_	_
+7-6	986-991	Neuem	_	_
+7-7	992-994	an	_	_
+7-8	995-996	.	_	_
+
+#Text=Bunsen hat die Direction zusammenberufen .
+8-1	997-1003	Bunsen	*	PERmentioned
+8-2	1004-1007	hat	_	_
+8-3	1008-1011	die	_	_
+8-4	1012-1021	Direction	_	_
+8-5	1022-1037	zusammenberufen	_	_
+8-6	1038-1039	.	_	_
+
+#Text=Selbst Kestner , Kellermann und Abeken mußten erscheinen .
+9-1	1040-1046	Selbst	_	_
+9-2	1047-1054	Kestner	*	PERmentioned
+9-3	1055-1056	,	_	_
+9-4	1057-1067	Kellermann	*	PERmentioned
+9-5	1068-1071	und	_	_
+9-6	1072-1078	Abeken	*	PERmentioned
+9-7	1079-1085	mußten	_	_
+9-8	1086-1096	erscheinen	_	_
+9-9	1097-1098	.	_	_
+
+#Text=Franzen hat er im Lauf des Tags zum Assistenten gemacht \; Discussionen über die Veränderung der Zahl der Nonumententafeln und Annalenbogen waren müßig und anzüglich genug .
+10-1	1099-1106	Franzen	*	PERmentioned
+10-2	1107-1110	hat	_	_
+10-3	1111-1113	er	_	_
+10-4	1114-1116	im	_	_
+10-5	1117-1121	Lauf	_	_
+10-6	1122-1125	des	_	_
+10-7	1126-1130	Tags	_	_
+10-8	1131-1134	zum	_	_
+10-9	1135-1146	Assistenten	_	_
+10-10	1147-1154	gemacht	_	_
+10-11	1155-1156	\;	_	_
+10-12	1157-1169	Discussionen	_	_
+10-13	1170-1174	über	_	_
+10-14	1175-1178	die	_	_
+10-15	1179-1190	Veränderung	_	_
+10-16	1191-1194	der	_	_
+10-17	1195-1199	Zahl	_	_
+10-18	1200-1203	der	_	_
+10-19	1204-1220	Nonumententafeln	_	_
+10-20	1221-1224	und	_	_
+10-21	1225-1237	Annalenbogen	_	_
+10-22	1238-1243	waren	_	_
+10-23	1244-1249	müßig	_	_
+10-24	1250-1253	und	_	_
+10-25	1254-1263	anzüglich	_	_
+10-26	1264-1269	genug	_	_
+10-27	1270-1271	.	_	_
+
+#Text=Mein Grundsatz , daß bei einer Zeitschrift jede auffallende Verände-
+11-1	1272-1276	Mein	_	_
+11-2	1277-1286	Grundsatz	_	_
+11-3	1287-1288	,	_	_
+11-4	1289-1292	daß	_	_
+11-5	1293-1296	bei	_	_
+11-6	1297-1302	einer	_	_
+11-7	1303-1314	Zeitschrift	_	_
+11-8	1315-1319	jede	_	_
+11-9	1320-1331	auffallende	_	_
+11-10	1332-1340	Verände-	_	_

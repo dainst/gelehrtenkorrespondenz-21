@@ -1,0 +1,211 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=83 Gerhard an Braun Berlin , 25. Februar 1845 A. dd .
+1-1	0-2	83	_	_	
+1-2	3-10	Gerhard	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-19	Braun	*	PERaddressee	
+1-5	20-26	Berlin	*	PLACEfrom	
+1-6	27-28	,	_	_	
+1-7	29-32	25.	*[1]	DATEletter[1]	
+1-8	33-40	Februar	*[1]	DATEletter[1]	
+1-9	41-45	1845	*[1]	DATEletter[1]	
+1-10	46-48	A.	_	_	
+1-11	49-51	dd	_	_	
+1-12	52-53	.	_	_	
+
+#Text=Dir .
+2-1	54-57	Dir	_	_	
+2-2	58-59	.	_	_	
+
+#Text=g. A0/III 45 r. AW/III 45 Dr. Braun Berlin 25 Febr 45 Mein theurer Freund .
+3-1	60-62	g.	_	_	
+3-2	63-69	A0/III	*[2]	DATErecieved[2]	
+3-3	70-72	45	*[2]	DATErecieved[2]	
+3-4	73-75	r.	_	_	
+3-5	76-82	AW/III	*[3]	DATEanswered[3]	
+3-6	83-85	45	*[3]	DATEanswered[3]	
+3-7	86-89	Dr.	*[4]	PERaddressee[4]	
+3-8	90-95	Braun	*[4]	PERaddressee[4]	
+3-9	96-102	Berlin	*	PLACEfrom	
+3-10	103-105	25	*[5]	DATEletter[5]	
+3-11	106-110	Febr	*[5]	DATEletter[5]	
+3-12	111-113	45	*[5]	DATEletter[5]	
+3-13	114-118	Mein	_	_	
+3-14	119-126	theurer	_	_	
+3-15	127-133	Freund	_	_	
+3-16	134-135	.	_	_	
+
+#Text=Sie erhalten anbei meine Abhandlung über die Hermen , die ich ausführlicher zu geben denke als in dieser Gelegenheitsschrift .
+4-1	136-139	Sie	_	_	
+4-2	140-148	erhalten	_	_	
+4-3	149-154	anbei	_	_	
+4-4	155-160	meine	_	_	
+4-5	161-171	Abhandlung	_	_	
+4-6	172-176	über	_	_	
+4-7	177-180	die	_	_	
+4-8	181-187	Hermen	_	_	
+4-9	188-189	,	_	_	
+4-10	190-193	die	_	_	
+4-11	194-197	ich	_	_	
+4-12	198-211	ausführlicher	_	_	
+4-13	212-214	zu	_	_	
+4-14	215-220	geben	_	_	
+4-15	221-226	denke	_	_	
+4-16	227-230	als	_	_	
+4-17	231-233	in	_	_	
+4-18	234-240	dieser	_	_	
+4-19	241-260	Gelegenheitsschrift	_	_	
+4-20	261-262	.	_	_	
+
+#Text=- Franz druckt an Aeschylus Latein und Deutsch und ist mit dem florentiner Corr .
+5-1	263-264	-	_	_	
+5-2	265-270	Franz	*	PERmentioned	
+5-3	271-277	druckt	_	_	
+5-4	278-280	an	_	_	
+5-5	281-290	Aeschylus	*	PERmentioned	
+5-6	291-297	Latein	_	_	
+5-7	298-301	und	_	_	
+5-8	302-309	Deutsch	_	_	
+5-9	310-313	und	_	_	
+5-10	314-317	ist	_	_	
+5-11	318-321	mit	_	_	
+5-12	322-325	dem	_	_	
+5-13	326-337	florentiner	*	MISC	
+5-14	338-342	Corr	_	_	
+5-15	343-344	.	_	_	
+
+#Text=zufrieden .
+6-1	345-354	zufrieden	_	_	
+6-2	355-356	.	_	_	
+
+#Text=Er reclamirt die Annalen seit 1842 ; ich werde sie bei Brockhaus anweisen .
+7-1	357-359	Er	_	_	
+7-2	360-369	reclamirt	_	_	
+7-3	370-373	die	_	_	
+7-4	374-381	Annalen	_	_	
+7-5	382-386	seit	_	_	
+7-6	387-391	1842	*	DATEmentioned	
+7-7	392-393	;	_	_	
+7-8	394-397	ich	_	_	
+7-9	398-403	werde	_	_	
+7-10	404-407	sie	_	_	
+7-11	408-411	bei	_	_	
+7-12	412-421	Brockhaus	*	ORGmentioned	
+7-13	422-430	anweisen	_	_	
+7-14	431-432	.	_	_	
+
+#Text=Fatal daß die Monumenti 1843 ohne Imhalt des Bandes III geliefert sind .
+8-1	433-438	Fatal	_	_	
+8-2	439-442	daß	_	_	
+8-3	443-446	die	_	_	
+8-4	447-456	Monumenti	_	_	
+8-5	457-461	1843	*	DATEmentioned	
+8-6	462-466	ohne	_	_	
+8-7	467-473	Imhalt	_	_	
+8-8	474-477	des	_	_	
+8-9	478-484	Bandes	_	_	
+8-10	485-488	III	_	_	
+8-11	489-498	geliefert	_	_	
+8-12	499-503	sind	_	_	
+8-13	504-505	.	_	_	
+
+#Text=Was ist aus der Statue des Hermaphrodit geworden der einen Amor hält , eine der Chablais'schen ?
+9-1	506-509	Was	_	_	
+9-2	510-513	ist	_	_	
+9-3	514-517	aus	_	_	
+9-4	518-521	der	_	_	
+9-5	522-528	Statue	*[6]	OBJ[6]	
+9-6	529-532	des	*[6]	OBJ[6]	
+9-7	533-545	Hermaphrodit	*[6]	OBJ[6]	
+9-8	546-554	geworden	_	_	
+9-9	555-558	der	_	_	
+9-10	559-564	einen	_	_	
+9-11	565-569	Amor	*	PERmentioned	
+9-12	570-574	hält	_	_	
+9-13	575-576	,	_	_	
+9-14	577-581	eine	_	_	
+9-15	582-585	der	_	_	
+9-16	586-600	Chablais'schen	*	MISC	
+9-17	601-602	?	_	_	
+
+#Text=Auch in den Kellern ?
+10-1	603-607	Auch	_	_	
+10-2	608-610	in	_	_	
+10-3	611-614	den	_	_	
+10-4	615-622	Kellern	_	_	
+10-5	623-624	?	_	_	
+
+#Text=Haben Sie die kapitolinische sogenannte Hermathene neuerdings genau observirt ?
+11-1	625-630	Haben	_	_	
+11-2	631-634	Sie	_	_	
+11-3	635-638	die	_	_	
+11-4	639-653	kapitolinische	*	MISC	
+11-5	654-664	sogenannte	_	_	
+11-6	665-675	Hermathene	*	OBJ	
+11-7	676-686	neuerdings	_	_	
+11-8	687-692	genau	_	_	
+11-9	693-702	observirt	_	_	
+11-10	703-704	?	_	_	
+
+#Text=Meine Notiz darüber ist mit den Noten zur Hermenabhandlung verloren gegangen , ich glaube mich aber zu erinnern , daß ich ein Doppelbild einer kriegerischen Minerva und einer Ergane erkannte .
+12-1	705-710	Meine	_	_	
+12-2	711-716	Notiz	_	_	
+12-3	717-724	darüber	_	_	
+12-4	725-728	ist	_	_	
+12-5	729-732	mit	_	_	
+12-6	733-736	den	_	_	
+12-7	737-742	Noten	_	_	
+12-8	743-746	zur	_	_	
+12-9	747-763	Hermenabhandlung	_	_	
+12-10	764-772	verloren	_	_	
+12-11	773-781	gegangen	_	_	
+12-12	782-783	,	_	_	
+12-13	784-787	ich	_	_	
+12-14	788-794	glaube	_	_	
+12-15	795-799	mich	_	_	
+12-16	800-804	aber	_	_	
+12-17	805-807	zu	_	_	
+12-18	808-816	erinnern	_	_	
+12-19	817-818	,	_	_	
+12-20	819-822	daß	_	_	
+12-21	823-826	ich	_	_	
+12-22	827-830	ein	_	_	
+12-23	831-841	Doppelbild	_	_	
+12-24	842-847	einer	_	_	
+12-25	848-861	kriegerischen	_	_	
+12-26	862-869	Minerva	*	PERmentioned	
+12-27	870-873	und	_	_	
+12-28	874-879	einer	_	_	
+12-29	880-886	Ergane	*	PERmentioned	
+12-30	887-895	erkannte	_	_	
+12-31	896-897	.	_	_	
+
+#Text=Daß Wagner seine Wahl zum Membro onorario della Direzione officiell erhalten und acceptirt hat , fahre ich fort vorauszusetzen indem ich das Diplom mit Inbe-
+13-1	898-901	Daß	_	_	
+13-2	902-908	Wagner	*	PERmentioned	
+13-3	909-914	seine	_	_	
+13-4	915-919	Wahl	_	_	
+13-5	920-923	zum	_	_	
+13-6	924-930	Membro	_	_	
+13-7	931-939	onorario	_	_	
+13-8	940-945	della	_	_	
+13-9	946-955	Direzione	_	_	
+13-10	956-965	officiell	_	_	
+13-11	966-974	erhalten	_	_	
+13-12	975-978	und	_	_	
+13-13	979-988	acceptirt	_	_	
+13-14	989-992	hat	_	_	
+13-15	993-994	,	_	_	
+13-16	995-1000	fahre	_	_	
+13-17	1001-1004	ich	_	_	
+13-18	1005-1009	fort	_	_	
+13-19	1010-1024	vorauszusetzen	_	_	
+13-20	1025-1030	indem	_	_	
+13-21	1031-1034	ich	_	_	
+13-22	1035-1038	das	_	_	
+13-23	1039-1045	Diplom	_	_	
+13-24	1046-1049	mit	_	_	
+13-25	1050-1055	Inbe-	_	_	

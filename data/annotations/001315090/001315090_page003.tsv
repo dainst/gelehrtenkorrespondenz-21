@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=49 Lepsius an Heccze Berlin , 30 .
+1-1	0-2	49	_	_	
+1-2	3-10	Lepsius	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-20	Heccze	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-32	30	_	_	
+1-8	33-34	.	_	_	
+
+#Text=Januar 1872 gs .
+2-1	35-41	Januar	*[1]	DATEletter[1]	
+2-2	42-46	1872	*[1]	DATEletter[1]	
+2-3	47-49	gs	_	_	
+2-4	50-51	.	_	_	
+
+#Text=4/2 72 r . 5/2 972 Berlin d . 30 .
+3-1	52-55	4/2	*[2]	DATErecieved[2]	
+3-2	56-58	72	*[2]	DATErecieved[2]	
+3-3	59-60	r	_	_	
+3-4	61-62	.	_	_	
+3-5	63-66	5/2	*[3]	DATEanswered[3]	
+3-6	67-70	972	*[3]	DATEanswered[3]	
+3-7	71-77	Berlin	*	PLACEfrom	
+3-8	78-79	d	_	_	
+3-9	80-81	.	_	_	
+3-10	82-84	30	*[4]	DATEletter[4]	
+3-11	85-86	.	*[4]	DATEletter[4]	
+
+#Text=Jan .
+4-1	87-90	Jan	*[4]	DATEletter[4]	
+4-2	91-92	.	*[4]	DATEletter[4]	
+
+#Text=72 .
+5-1	93-95	72	*[4]	DATEletter[4]	
+5-2	96-97	.	_	_	
+
+#Text=Verehrter Freund Vorgestern haben wir Trendelenburg begraben , dessen schneller von ihm in letzter Zeit klar vorausgesehener Tod uns Alle tief bewegt hat .
+6-1	98-107	Verehrter	_	_	
+6-2	108-114	Freund	_	_	
+6-3	115-125	Vorgestern	_	_	
+6-4	126-131	haben	_	_	
+6-5	132-135	wir	_	_	
+6-6	136-149	Trendelenburg	*	PERmentioned	
+6-7	150-158	begraben	_	_	
+6-8	159-160	,	_	_	
+6-9	161-167	dessen	_	_	
+6-10	168-177	schneller	_	_	
+6-11	178-181	von	_	_	
+6-12	182-185	ihm	_	_	
+6-13	186-188	in	_	_	
+6-14	189-196	letzter	_	_	
+6-15	197-201	Zeit	_	_	
+6-16	202-206	klar	_	_	
+6-17	207-222	vorausgesehener	_	_	
+6-18	223-226	Tod	_	_	
+6-19	227-230	uns	_	_	
+6-20	231-235	Alle	_	_	
+6-21	236-240	tief	_	_	
+6-22	241-247	bewegt	_	_	
+6-23	248-251	hat	_	_	
+6-24	252-253	.	_	_	
+
+#Text=Geistes- und Gemüths- Aufregung der er nicht mehr mächtig werden konnte bei seinem schon gebrochenen körperlichen Zustande hat die Katastrophe so unerwartet beschleunist .
+7-1	254-262	Geistes-	_	_	
+7-2	263-266	und	_	_	
+7-3	267-275	Gemüths-	_	_	
+7-4	276-285	Aufregung	_	_	
+7-5	286-289	der	_	_	
+7-6	290-292	er	_	_	
+7-7	293-298	nicht	_	_	
+7-8	299-303	mehr	_	_	
+7-9	304-311	mächtig	_	_	
+7-10	312-318	werden	_	_	
+7-11	319-325	konnte	_	_	
+7-12	326-329	bei	_	_	
+7-13	330-336	seinem	_	_	
+7-14	337-342	schon	_	_	
+7-15	343-354	gebrochenen	_	_	
+7-16	355-367	körperlichen	_	_	
+7-17	368-376	Zustande	_	_	
+7-18	377-380	hat	_	_	
+7-19	381-384	die	_	_	
+7-20	385-396	Katastrophe	_	_	
+7-21	397-399	so	_	_	
+7-22	400-410	unerwartet	_	_	
+7-23	411-423	beschleunist	_	_	
+7-24	424-425	.	_	_	
+
+#Text=Adler hatte vor kurzem seinen ersten Schwiegervater , nun seinen zweiten verloren .
+8-1	426-431	Adler	*	PERmentioned	
+8-2	432-437	hatte	_	_	
+8-3	438-441	vor	_	_	
+8-4	442-448	kurzem	_	_	
+8-5	449-455	seinen	_	_	
+8-6	456-462	ersten	_	_	
+8-7	463-477	Schwiegervater	_	_	
+8-8	478-479	,	_	_	
+8-9	480-483	nun	_	_	
+8-10	484-490	seinen	_	_	
+8-11	491-498	zweiten	_	_	
+8-12	499-507	verloren	_	_	
+8-13	508-509	.	_	_	
+
+#Text=Nun wird er aber in den nächsten Tagen seinen Römischen Bericht nebst den Flänen bei dem neuen Minister einreichen .
+9-1	510-513	Nun	_	_	
+9-2	514-518	wird	_	_	
+9-3	519-521	er	_	_	
+9-4	522-526	aber	_	_	
+9-5	527-529	in	_	_	
+9-6	530-533	den	_	_	
+9-7	534-542	nächsten	_	_	
+9-8	543-548	Tagen	_	_	
+9-9	549-555	seinen	_	_	
+9-10	556-565	Römischen	_	_	
+9-11	566-573	Bericht	_	_	
+9-12	574-579	nebst	_	_	
+9-13	580-583	den	_	_	
+9-14	584-590	Flänen	_	_	
+9-15	591-594	bei	_	_	
+9-16	595-598	dem	_	_	
+9-17	599-604	neuen	_	_	
+9-18	605-613	Minister	*	PERmentioned	
+9-19	614-624	einreichen	_	_	
+9-20	625-626	.	_	_	
+
+#Text=Dessen Wirkung , in Verbindung mit unserm früheren Berichte müssen wir abwarten , bevor der definitive Auftrag erfolgen kann .
+10-1	627-633	Dessen	_	_	
+10-2	634-641	Wirkung	_	_	
+10-3	642-643	,	_	_	
+10-4	644-646	in	_	_	
+10-5	647-657	Verbindung	_	_	
+10-6	658-661	mit	_	_	
+10-7	662-668	unserm	_	_	
+10-8	669-677	früheren	_	_	
+10-9	678-686	Berichte	_	_	
+10-10	687-693	müssen	_	_	
+10-11	694-697	wir	_	_	
+10-12	698-706	abwarten	_	_	
+10-13	707-708	,	_	_	
+10-14	709-714	bevor	_	_	
+10-15	715-718	der	_	_	
+10-16	719-729	definitive	_	_	
+10-17	730-737	Auftrag	_	_	
+10-18	738-746	erfolgen	_	_	
+10-19	747-751	kann	_	_	
+10-20	752-753	.	_	_	
+
+#Text=Das liegt im nothwendigen Verlauf der Sache und weder ich noch Mommsen oder überhaupt die Central Direktion kann daran etwas ändern .
+11-1	754-757	Das	_	_	
+11-2	758-763	liegt	_	_	
+11-3	764-766	im	_	_	
+11-4	767-779	nothwendigen	_	_	
+11-5	780-787	Verlauf	_	_	
+11-6	788-791	der	_	_	
+11-7	792-797	Sache	_	_	
+11-8	798-801	und	_	_	
+11-9	802-807	weder	_	_	
+11-10	808-811	ich	_	_	
+11-11	812-816	noch	_	_	
+11-12	817-824	Mommsen	*	PERmentioned	
+11-13	825-829	oder	_	_	
+11-14	830-839	überhaupt	_	_	
+11-15	840-843	die	_	_	
+11-16	844-851	Central	*[5]	ORGmentioned[5]	
+11-17	852-861	Direktion	*[5]	ORGmentioned[5]	
+11-18	862-866	kann	_	_	
+11-19	867-872	daran	_	_	
+11-20	873-878	etwas	_	_	
+11-21	879-885	ändern	_	_	
+11-22	886-887	.	_	_	
+
+#Text=Namentlich bitte ich zu glauben , daß mir die Beschleunigung so viel sie möglich ist nicht weniger am Herzen liegt als Ihnen .
+12-1	888-898	Namentlich	_	_	
+12-2	899-904	bitte	_	_	
+12-3	905-908	ich	_	_	
+12-4	909-911	zu	_	_	
+12-5	912-919	glauben	_	_	
+12-6	920-921	,	_	_	
+12-7	922-925	daß	_	_	
+12-8	926-929	mir	_	_	
+12-9	930-933	die	_	_	
+12-10	934-948	Beschleunigung	_	_	
+12-11	949-951	so	_	_	
+12-12	952-956	viel	_	_	
+12-13	957-960	sie	_	_	
+12-14	961-968	möglich	_	_	
+12-15	969-972	ist	_	_	
+12-16	973-978	nicht	_	_	
+12-17	979-986	weniger	_	_	
+12-18	987-989	am	_	_	
+12-19	990-996	Herzen	_	_	
+12-20	997-1002	liegt	_	_	
+12-21	1003-1006	als	_	_	
+12-22	1007-1012	Ihnen	_	_	
+12-23	1013-1014	.	_	_	
+
+#Text=Ja ich bin hier eigentlich der einzige der die Sache hier ernstlich betreibt , bisher meist durch Abeken , Jetzt auch durch Adler .
+13-1	1015-1017	Ja	_	_	
+13-2	1018-1021	ich	_	_	
+13-3	1022-1025	bin	_	_	
+13-4	1026-1030	hier	_	_	
+13-5	1031-1041	eigentlich	_	_	
+13-6	1042-1045	der	_	_	
+13-7	1046-1053	einzige	_	_	
+13-8	1054-1057	der	_	_	
+13-9	1058-1061	die	_	_	
+13-10	1062-1067	Sache	_	_	
+13-11	1068-1072	hier	_	_	
+13-12	1073-1082	ernstlich	_	_	
+13-13	1083-1091	betreibt	_	_	
+13-14	1092-1093	,	_	_	
+13-15	1094-1100	bisher	_	_	
+13-16	1101-1106	meist	_	_	
+13-17	1107-1112	durch	_	_	
+13-18	1113-1119	Abeken	*	PERmentioned	
+13-19	1120-1121	,	_	_	
+13-20	1122-1127	Jetzt	_	_	
+13-21	1128-1132	auch	_	_	
+13-22	1133-1138	durch	_	_	
+13-23	1139-1144	Adler	*	PERmentioned	
+13-24	1145-1146	.	_	_	
+
+#Text=Daß es nicht möglich gewesen ist , den Ankauf Montanari rund und schnell zu gutem Ende
+14-1	1147-1150	Daß	_	_	
+14-2	1151-1153	es	_	_	
+14-3	1154-1159	nicht	_	_	
+14-4	1160-1167	möglich	_	_	
+14-5	1168-1175	gewesen	_	_	
+14-6	1176-1179	ist	_	_	
+14-7	1180-1181	,	_	_	
+14-8	1182-1185	den	_	_	
+14-9	1186-1192	Ankauf	_	_	
+14-10	1193-1202	Montanari	*	PERmentioned	
+14-11	1203-1207	rund	_	_	
+14-12	1208-1211	und	_	_	
+14-13	1212-1219	schnell	_	_	
+14-14	1220-1222	zu	_	_	
+14-15	1223-1228	gutem	_	_	
+14-16	1229-1233	Ende	_	_	

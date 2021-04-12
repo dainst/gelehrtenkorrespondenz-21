@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\| tt € .
+1-1	0-1	\|	_	_
+1-2	2-4	tt	_	_
+1-3	5-6	€	_	_
+1-4	7-8	.	_	_
+
+#Text=253 Braun an Gerhard Rom , 13. März 1838 Sig .
+2-1	9-12	253	_	_
+2-2	13-18	Braun	*	PERauthor
+2-3	19-21	an	_	_
+2-4	22-29	Gerhard	*	PERaddressee
+2-5	30-33	Rom	*	PLACEfrom
+2-6	34-35	,	_	_
+2-7	36-39	13.	*[4]	DATEletter[4]
+2-8	40-44	März	*[4]	DATEletter[4]
+2-9	45-49	1838	*[4]	DATEletter[4]
+2-10	50-53	Sig	_	_
+2-11	54-55	.	_	_
+
+#Text=Cav .
+3-1	56-59	Cav	_	_
+3-2	60-61	.	_	_
+
+#Text=Gerhard .
+4-1	62-69	Gerhard	*	PERaddressee
+4-2	70-71	.	_	_
+
+#Text=Roma li 13 Marzo 1838 .
+5-1	72-76	Roma	*	PLACEfrom
+5-2	77-79	li	_	_
+5-3	80-82	13	*[7]	DATEletter[7]
+5-4	83-88	Marzo	*[7]	DATEletter[7]
+5-5	89-93	1838	*[7]	DATEletter[7]
+5-6	94-95	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+6-1	96-112	Hochverehrtester	_	_
+6-2	113-119	Freund	_	_
+6-3	120-121	\|	_	_
+6-4	122-123	!	_	_
+
+#Text=Ich beantworte Ihren Brief vom 27 v. M. und zeige Ihnen hiermit an , daß die Vasenkisten wohl verpackt dem Spediteur bereits seit 8 Tagen übergeben sind .
+7-1	124-127	Ich	_	_
+7-2	128-138	beantworte	_	_
+7-3	139-144	Ihren	_	_
+7-4	145-150	Brief	_	_
+7-5	151-154	vom	_	_
+7-6	155-157	27	*[8]	DATEmentioned[8]
+7-7	158-160	v.	*[8]	DATEmentioned[8]
+7-8	161-163	M.	*[8]	DATEmentioned[8]
+7-9	164-167	und	_	_
+7-10	168-173	zeige	_	_
+7-11	174-179	Ihnen	_	_
+7-12	180-187	hiermit	_	_
+7-13	188-190	an	_	_
+7-14	191-192	,	_	_
+7-15	193-196	daß	_	_
+7-16	197-200	die	_	_
+7-17	201-212	Vasenkisten	_	_
+7-18	213-217	wohl	_	_
+7-19	218-226	verpackt	_	_
+7-20	227-230	dem	_	_
+7-21	231-240	Spediteur	_	_
+7-22	241-248	bereits	_	_
+7-23	249-253	seit	_	_
+7-24	254-255	8	_	_
+7-25	256-261	Tagen	_	_
+7-26	262-271	übergeben	_	_
+7-27	272-276	sind	_	_
+7-28	277-278	.	_	_
+
+#Text=Abgegangen sind sie noch nicht , weil ich mich des getröste , daß sie ohne dazio d'estrazione , der sich leicht auf 100 Scudi belaufen dürfte , hinauskommen sollen .
+8-1	279-289	Abgegangen	_	_
+8-2	290-294	sind	_	_
+8-3	295-298	sie	_	_
+8-4	299-303	noch	_	_
+8-5	304-309	nicht	_	_
+8-6	310-311	,	_	_
+8-7	312-316	weil	_	_
+8-8	317-320	ich	_	_
+8-9	321-325	mich	_	_
+8-10	326-329	des	_	_
+8-11	330-338	getröste	_	_
+8-12	339-340	,	_	_
+8-13	341-344	daß	_	_
+8-14	345-348	sie	_	_
+8-15	349-353	ohne	_	_
+8-16	354-359	dazio	_	_
+8-17	360-372	d'estrazione	_	_
+8-18	373-374	,	_	_
+8-19	375-378	der	_	_
+8-20	379-383	sich	_	_
+8-21	384-390	leicht	_	_
+8-22	391-394	auf	_	_
+8-23	395-398	100	_	_
+8-24	399-404	Scudi	_	_
+8-25	405-413	belaufen	_	_
+8-26	414-420	dürfte	_	_
+8-27	421-422	,	_	_
+8-28	423-435	hinauskommen	_	_
+8-29	436-442	sollen	_	_
+8-30	443-444	.	_	_
+
+#Text=Mit dem für De Antonis gesandten Zettel läßt sich gar nichts anfangen .
+9-1	445-448	Mit	_	_
+9-2	449-452	dem	_	_
+9-3	453-456	für	_	_
+9-4	457-459	De	*[9]	PERmentioned[9]
+9-5	460-467	Antonis	*[9]	PERmentioned[9]
+9-6	468-477	gesandten	_	_
+9-7	478-484	Zettel	_	_
+9-8	485-489	läßt	_	_
+9-9	490-494	sich	_	_
+9-10	495-498	gar	_	_
+9-11	499-505	nichts	_	_
+9-12	506-514	anfangen	_	_
+9-13	515-516	.	_	_
+
+#Text=6 Scudi Schreinerarbeit sind ihm von Wolff berechnet worden , der Rest betrifft die Spedition , die Emballage und die Ausführungssteuer .
+10-1	517-518	6	_	_
+10-2	519-524	Scudi	_	_
+10-3	525-540	Schreinerarbeit	_	_
+10-4	541-545	sind	_	_
+10-5	546-549	ihm	_	_
+10-6	550-553	von	_	_
+10-7	554-559	Wolff	*	PERmentioned
+10-8	560-569	berechnet	_	_
+10-9	570-576	worden	_	_
+10-10	577-578	,	_	_
+10-11	579-582	der	_	_
+10-12	583-587	Rest	_	_
+10-13	588-596	betrifft	_	_
+10-14	597-600	die	_	_
+10-15	601-610	Spedition	_	_
+10-16	611-612	,	_	_
+10-17	613-616	die	_	_
+10-18	617-626	Emballage	_	_
+10-19	627-630	und	_	_
+10-20	631-634	die	_	_
+10-21	635-652	Ausführungssteuer	_	_
+10-22	653-654	.	_	_
+
+#Text=Letztere ist nemlich seit Feas Todt so unangenehm rigorisirt worden ist , daß man , nachdem jetzt auch Bossenati der Bildschätzer gestorben ist , such für diese Branche nichts mehr zu erhoffen ist .
+11-1	655-663	Letztere	_	_
+11-2	664-667	ist	_	_
+11-3	668-675	nemlich	_	_
+11-4	676-680	seit	_	_
+11-5	681-685	Feas	*	PERmentioned
+11-6	686-690	Todt	_	_
+11-7	691-693	so	_	_
+11-8	694-704	unangenehm	_	_
+11-9	705-715	rigorisirt	_	_
+11-10	716-722	worden	_	_
+11-11	723-726	ist	_	_
+11-12	727-728	,	_	_
+11-13	729-732	daß	_	_
+11-14	733-736	man	_	_
+11-15	737-738	,	_	_
+11-16	739-746	nachdem	_	_
+11-17	747-752	jetzt	_	_
+11-18	753-757	auch	_	_
+11-19	758-767	Bossenati	*	PERmentioned
+11-20	768-771	der	_	_
+11-21	772-784	Bildschätzer	_	_
+11-22	785-794	gestorben	_	_
+11-23	795-798	ist	_	_
+11-24	799-800	,	_	_
+11-25	801-805	such	_	_
+11-26	806-809	für	_	_
+11-27	810-815	diese	_	_
+11-28	816-823	Branche	_	_
+11-29	824-830	nichts	_	_
+11-30	831-835	mehr	_	_
+11-31	836-838	zu	_	_
+11-32	839-847	erhoffen	_	_
+11-33	848-851	ist	_	_
+11-34	852-853	.	_	_
+
+#Text=20 % ist eine gute Summe .
+12-1	854-856	20	_	_
+12-2	857-858	%	_	_
+12-3	859-862	ist	_	_
+12-4	863-867	eine	_	_
+12-5	868-872	gute	_	_
+12-6	873-878	Summe	_	_
+12-7	879-880	.	_	_
+
+#Text=Von Bunsen habe ich 8 Scudi nachträglich erhalten \; lag ein Bedientenirrthum zu Grunde .
+13-1	881-884	Von	_	_
+13-2	885-891	Bunsen	*	PERmentioned
+13-3	892-896	habe	_	_
+13-4	897-900	ich	_	_
+13-5	901-902	8	_	_
+13-6	903-908	Scudi	_	_
+13-7	909-921	nachträglich	_	_
+13-8	922-930	erhalten	_	_
+13-9	931-932	\;	_	_
+13-10	933-936	lag	_	_
+13-11	937-940	ein	_	_
+13-12	941-957	Bedientenirrthum	_	_
+13-13	958-960	zu	_	_
+13-14	961-967	Grunde	_	_
+13-15	968-969	.	_	_
+
+#Text=Wegen Capranesi werde ich Sorge tragen .
+14-1	970-975	Wegen	_	_
+14-2	976-985	Capranesi	*	PERmentioned
+14-3	986-991	werde	_	_
+14-4	992-995	ich	_	_
+14-5	996-1001	Sorge	_	_
+14-6	1002-1008	tragen	_	_
+14-7	1009-1010	.	_	_
+
+#Text=Wenn Sie meine seit lange bei Gerstäcker ausstehenden Schulden ( in den Institutsrechnungen sind frühere Forderungen immer geltend gemacht worden ) , so bin ich Ihnen dafür sehr dankbar .
+15-1	1011-1015	Wenn	_	_
+15-2	1016-1019	Sie	_	_
+15-3	1020-1025	meine	_	_
+15-4	1026-1030	seit	_	_
+15-5	1031-1036	lange	_	_
+15-6	1037-1040	bei	_	_
+15-7	1041-1051	Gerstäcker	*	PERmentioned
+15-8	1052-1064	ausstehenden	_	_
+15-9	1065-1073	Schulden	_	_
+15-10	1074-1075	(	_	_
+15-11	1076-1078	in	_	_
+15-12	1079-1082	den	_	_
+15-13	1083-1102	Institutsrechnungen	_	_
+15-14	1103-1107	sind	_	_
+15-15	1108-1115	frühere	_	_
+15-16	1116-1127	Forderungen	_	_
+15-17	1128-1133	immer	_	_
+15-18	1134-1141	geltend	_	_
+15-19	1142-1149	gemacht	_	_
+15-20	1150-1156	worden	_	_
+15-21	1157-1158	)	_	_
+15-22	1159-1160	,	_	_
+15-23	1161-1163	so	_	_
+15-24	1164-1167	bin	_	_
+15-25	1168-1171	ich	_	_
+15-26	1172-1177	Ihnen	_	_
+15-27	1178-1183	dafür	_	_
+15-28	1184-1188	sehr	_	_
+15-29	1189-1196	dankbar	_	_
+15-30	1197-1198	.	_	_
+
+#Text=Ihre Notice ist endlich zum Druck gelangt .
+16-1	1199-1203	Ihre	_	_
+16-2	1204-1210	Notice	_	_
+16-3	1211-1214	ist	_	_
+16-4	1215-1222	endlich	_	_
+16-5	1223-1226	zum	_	_
+16-6	1227-1232	Druck	_	_
+16-7	1233-1240	gelangt	_	_
+16-8	1241-1242	.	_	_
+
+#Text=Lepsius hat 2 -— 3 Monate an 2 Bogen Forummanuscript gedruckt .
+17-1	1243-1250	Lepsius	*	PERmentioned
+17-2	1251-1254	hat	_	_
+17-3	1255-1256	2	_	_
+17-4	1257-1259	-—	_	_
+17-5	1260-1261	3	_	_
+17-6	1262-1268	Monate	_	_
+17-7	1269-1271	an	_	_
+17-8	1272-1273	2	_	_
+17-9	1274-1279	Bogen	_	_
+17-10	1280-1295	Forummanuscript	_	_
+17-11	1296-1304	gedruckt	_	_
+17-12	1305-1306	.	_	_
+
+#Text=- Ich drucke jetzt den ganzen Tag und ha-
+18-1	1307-1308	-	_	_
+18-2	1309-1312	Ich	_	_
+18-3	1313-1319	drucke	_	_
+18-4	1320-1325	jetzt	_	_
+18-5	1326-1329	den	_	_
+18-6	1330-1336	ganzen	_	_
+18-7	1337-1340	Tag	_	_
+18-8	1341-1344	und	_	_
+18-9	1345-1348	ha-	_	_

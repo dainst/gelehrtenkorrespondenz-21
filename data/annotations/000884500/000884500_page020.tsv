@@ -1,0 +1,258 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 25 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	25	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 Wallenburg , die übrigen nur ad notam für vorkommende Fälle .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-53	Wallenburg	*	PERmentioned
+2-4	54-55	,	_	_
+2-5	56-59	die	_	_
+2-6	60-67	übrigen	_	_
+2-7	68-71	nur	_	_
+2-8	72-74	ad	_	_
+2-9	75-80	notam	_	_
+2-10	81-84	für	_	_
+2-11	85-96	vorkommende	_	_
+2-12	97-102	Fälle	_	_
+2-13	103-104	.	_	_
+
+#Text=Panofka theilt alle vorstehenden Ansichten .
+3-1	105-112	Panofka	*	PERmentioned
+3-2	113-119	theilt	_	_
+3-3	120-124	alle	_	_
+3-4	125-137	vorstehenden	_	_
+3-5	138-147	Ansichten	_	_
+3-6	148-149	.	_	_
+
+#Text=Borghesi an Fea 's Stelle zum M. ord .
+4-1	150-158	Borghesi	*	PERmentioned
+4-2	159-161	an	_	_
+4-3	162-165	Fea	*[5]	PERmentioned[5]
+4-4	166-168	's	*[5]	PERmentioned[5]
+4-5	169-175	Stelle	_	_
+4-6	176-179	zum	_	_
+4-7	180-182	M.	_	_
+4-8	183-186	ord	_	_
+4-9	187-188	.	_	_
+
+#Text=d. lir .
+5-1	189-191	d.	_	_
+5-2	192-195	lir	_	_
+5-3	196-197	.	_	_
+
+#Text=zu wählen ist ganz in der Ordnung \; seine Stelle unter den M. onor .
+6-1	198-200	zu	_	_
+6-2	201-207	wählen	_	_
+6-3	208-211	ist	_	_
+6-4	212-216	ganz	_	_
+6-5	217-219	in	_	_
+6-6	220-223	der	_	_
+6-7	224-231	Ordnung	_	_
+6-8	232-233	\;	_	_
+6-9	234-239	seine	_	_
+6-10	240-246	Stelle	_	_
+6-11	247-252	unter	_	_
+6-12	253-256	den	_	_
+6-13	257-259	M.	_	_
+6-14	260-264	onor	_	_
+6-15	265-266	.	_	_
+
+#Text=möge man nach Belieben an Marini , oder wie ich sonst dachte , an Rosellini geben .
+7-1	267-271	möge	_	_
+7-2	272-275	man	_	_
+7-3	276-280	nach	_	_
+7-4	281-289	Belieben	_	_
+7-5	290-292	an	_	_
+7-6	293-299	Marini	*	PERmentioned
+7-7	300-301	,	_	_
+7-8	302-306	oder	_	_
+7-9	307-310	wie	_	_
+7-10	311-314	ich	_	_
+7-11	315-320	sonst	_	_
+7-12	321-327	dachte	_	_
+7-13	328-329	,	_	_
+7-14	330-332	an	_	_
+7-15	333-342	Rosellini	*	PERmentioned
+7-16	343-348	geben	_	_
+7-17	349-350	.	_	_
+
+#Text=Auch Panofka stellt dies den römischen Collegen anheim \; ist Marini nützlicher , immerhin !
+8-1	351-355	Auch	_	_
+8-2	356-363	Panofka	*	PERmentioned
+8-3	364-370	stellt	_	_
+8-4	371-375	dies	_	_
+8-5	376-379	den	_	_
+8-6	380-389	römischen	_	_
+8-7	390-398	Collegen	_	_
+8-8	399-405	anheim	_	_
+8-9	406-407	\;	_	_
+8-10	408-411	ist	_	_
+8-11	412-418	Marini	*	PERmentioned
+8-12	419-429	nützlicher	_	_
+8-13	430-431	,	_	_
+8-14	432-440	immerhin	_	_
+8-15	441-442	!	_	_
+
+#Text=Zwanzig Scudi hatte ich von meiner Reise her liegen , zählte sie später selbst ab und ließ den gezählten Betrag von meiner samt den Gemmen i L äh \; sind Ihnen nur 12 zugekommen , so können Sie mir natürlich nur 12 berechnen .
+9-1	443-450	Zwanzig	_	_
+9-2	451-456	Scudi	_	_
+9-3	457-462	hatte	_	_
+9-4	463-466	ich	_	_
+9-5	467-470	von	_	_
+9-6	471-477	meiner	_	_
+9-7	478-483	Reise	_	_
+9-8	484-487	her	_	_
+9-9	488-494	liegen	_	_
+9-10	495-496	,	_	_
+9-11	497-503	zählte	_	_
+9-12	504-507	sie	_	_
+9-13	508-514	später	_	_
+9-14	515-521	selbst	_	_
+9-15	522-524	ab	_	_
+9-16	525-528	und	_	_
+9-17	529-533	ließ	_	_
+9-18	534-537	den	_	_
+9-19	538-547	gezählten	_	_
+9-20	548-554	Betrag	_	_
+9-21	555-558	von	_	_
+9-22	559-565	meiner	_	_
+9-23	566-570	samt	_	_
+9-24	571-574	den	_	_
+9-25	575-581	Gemmen	_	_
+9-26	582-583	i	_	_
+9-27	584-585	L	_	_
+9-28	586-588	äh	_	_
+9-29	589-590	\;	_	_
+9-30	591-595	sind	_	_
+9-31	596-601	Ihnen	_	_
+9-32	602-605	nur	_	_
+9-33	606-608	12	_	_
+9-34	609-619	zugekommen	_	_
+9-35	620-621	,	_	_
+9-36	622-624	so	_	_
+9-37	625-631	können	_	_
+9-38	632-635	Sie	_	_
+9-39	636-639	mir	_	_
+9-40	640-649	natürlich	_	_
+9-41	650-653	nur	_	_
+9-42	654-656	12	_	_
+9-43	657-666	berechnen	_	_
+9-44	667-668	.	_	_
+
+#Text=Daß ich das Geld für Basseggio fortwährend nur versprechen kann ist mir empfindälich \; im Uebrigen aber wird Ihnen das eigentlich für Wolff gesandte Geld einstweilen selbst für den Fall ausgeholfen haben , daß es Ihnen in jetziger Geldnoth nicht bequem wäre den nach Abzug Ihrer Berechnung mir zustehenden Rest der im Oktober gesandten 80 Scudi mir gegenwärtig zu erstatten .
+10-1	669-672	Daß	_	_
+10-2	673-676	ich	_	_
+10-3	677-680	das	_	_
+10-4	681-685	Geld	_	_
+10-5	686-689	für	_	_
+10-6	690-699	Basseggio	*	PERmentioned
+10-7	700-711	fortwährend	_	_
+10-8	712-715	nur	_	_
+10-9	716-727	versprechen	_	_
+10-10	728-732	kann	_	_
+10-11	733-736	ist	_	_
+10-12	737-740	mir	_	_
+10-13	741-753	empfindälich	_	_
+10-14	754-755	\;	_	_
+10-15	756-758	im	_	_
+10-16	759-767	Uebrigen	_	_
+10-17	768-772	aber	_	_
+10-18	773-777	wird	_	_
+10-19	778-783	Ihnen	_	_
+10-20	784-787	das	_	_
+10-21	788-798	eigentlich	_	_
+10-22	799-802	für	_	_
+10-23	803-808	Wolff	*	PERmentioned
+10-24	809-817	gesandte	_	_
+10-25	818-822	Geld	_	_
+10-26	823-834	einstweilen	_	_
+10-27	835-841	selbst	_	_
+10-28	842-845	für	_	_
+10-29	846-849	den	_	_
+10-30	850-854	Fall	_	_
+10-31	855-866	ausgeholfen	_	_
+10-32	867-872	haben	_	_
+10-33	873-874	,	_	_
+10-34	875-878	daß	_	_
+10-35	879-881	es	_	_
+10-36	882-887	Ihnen	_	_
+10-37	888-890	in	_	_
+10-38	891-899	jetziger	_	_
+10-39	900-908	Geldnoth	_	_
+10-40	909-914	nicht	_	_
+10-41	915-921	bequem	_	_
+10-42	922-926	wäre	_	_
+10-43	927-930	den	_	_
+10-44	931-935	nach	_	_
+10-45	936-941	Abzug	_	_
+10-46	942-947	Ihrer	_	_
+10-47	948-958	Berechnung	_	_
+10-48	959-962	mir	_	_
+10-49	963-974	zustehenden	_	_
+10-50	975-979	Rest	_	_
+10-51	980-983	der	_	_
+10-52	984-986	im	_	_
+10-53	987-994	Oktober	*	DATEmentioned
+10-54	995-1004	gesandten	_	_
+10-55	1005-1007	80	_	_
+10-56	1008-1013	Scudi	_	_
+10-57	1014-1017	mir	_	_
+10-58	1018-1029	gegenwärtig	_	_
+10-59	1030-1032	zu	_	_
+10-60	1033-1042	erstatten	_	_
+10-61	1043-1044	.	_	_
+
+#Text=Ich hoffe also , der Restaurator so gut wie Vollard seien vollständig befriedigt , und ist es auf Aufschub der Wolff'schen Zahlung geschehen , so werde ich auch dieser baldiglichst nachzuhelfen suchen .
+11-1	1045-1048	Ich	_	_
+11-2	1049-1054	hoffe	_	_
+11-3	1055-1059	also	_	_
+11-4	1060-1061	,	_	_
+11-5	1062-1065	der	_	_
+11-6	1066-1077	Restaurator	_	_
+11-7	1078-1080	so	_	_
+11-8	1081-1084	gut	_	_
+11-9	1085-1088	wie	_	_
+11-10	1089-1096	Vollard	*	PERmentioned
+11-11	1097-1102	seien	_	_
+11-12	1103-1114	vollständig	_	_
+11-13	1115-1125	befriedigt	_	_
+11-14	1126-1127	,	_	_
+11-15	1128-1131	und	_	_
+11-16	1132-1135	ist	_	_
+11-17	1136-1138	es	_	_
+11-18	1139-1142	auf	_	_
+11-19	1143-1151	Aufschub	_	_
+11-20	1152-1155	der	_	_
+11-21	1156-1167	Wolff'schen	*	PERmentioned
+11-22	1168-1175	Zahlung	_	_
+11-23	1176-1185	geschehen	_	_
+11-24	1186-1187	,	_	_
+11-25	1188-1190	so	_	_
+11-26	1191-1196	werde	_	_
+11-27	1197-1200	ich	_	_
+11-28	1201-1205	auch	_	_
+11-29	1206-1212	dieser	_	_
+11-30	1213-1225	baldiglichst	_	_
+11-31	1226-1238	nachzuhelfen	_	_
+11-32	1239-1245	suchen	_	_
+11-33	1246-1247	.	_	_
+
+#Text=Za meinem Leidwesen habe ich weder durch Urlichs
+12-1	1248-1250	Za	_	_
+12-2	1251-1257	meinem	_	_
+12-3	1258-1267	Leidwesen	_	_
+12-4	1268-1272	habe	_	_
+12-5	1273-1276	ich	_	_
+12-6	1277-1282	weder	_	_
+12-7	1283-1288	durch	_	_
+12-8	1289-1296	Urlichs	*	PERmentioned

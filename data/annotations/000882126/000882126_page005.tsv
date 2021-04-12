@@ -1,0 +1,276 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , Juli 1835 Juli 35 Franz ist wegen des Ritschlschen Hohorars von 60 Scudi ungeduldig .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	*[5]	DATEletter[5]
+1-6	23-27	Juli	*[5]	DATEletter[5]
+1-7	28-32	1835	*[5]	DATEletter[5]
+1-8	33-37	Juli	*[5]	DATEletter[5]
+1-9	38-40	35	*[5]	DATEletter[5]
+1-10	41-46	Franz	*	PERmentioned
+1-11	47-50	ist	_	_
+1-12	51-56	wegen	_	_
+1-13	57-60	des	_	_
+1-14	61-73	Ritschlschen	*	MISC
+1-15	74-82	Hohorars	_	_
+1-16	83-86	von	_	_
+1-17	87-89	60	_	_
+1-18	90-95	Scudi	_	_
+1-19	96-106	ungeduldig	_	_
+1-20	107-108	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+2-1	109-125	Hochverehrtester	_	_
+2-2	126-132	Freund	_	_
+2-3	133-134	\|	_	_
+2-4	135-136	!	_	_
+
+#Text=Sie erhalten anbei einen Brief von Lanci , der fleissig über den Rechnungen sitzt .
+3-1	137-140	Sie	_	_
+3-2	141-149	erhalten	_	_
+3-3	150-155	anbei	_	_
+3-4	156-161	einen	_	_
+3-5	162-167	Brief	_	_
+3-6	168-171	von	_	_
+3-7	172-177	Lanci	*	PERmentioned
+3-8	178-179	,	_	_
+3-9	180-183	der	_	_
+3-10	184-192	fleissig	_	_
+3-11	193-197	über	_	_
+3-12	198-201	den	_	_
+3-13	202-212	Rechnungen	_	_
+3-14	213-218	sitzt	_	_
+3-15	219-220	.	_	_
+
+#Text=Da ich kaum voraussetzen kann , daß Sie dieser Brief noch in Berlin trifft , so unterlasse ich mehr hinzuzufügen .
+4-1	221-223	Da	_	_
+4-2	224-227	ich	_	_
+4-3	228-232	kaum	_	_
+4-4	233-245	voraussetzen	_	_
+4-5	246-250	kann	_	_
+4-6	251-252	,	_	_
+4-7	253-256	daß	_	_
+4-8	257-260	Sie	_	_
+4-9	261-267	dieser	_	_
+4-10	268-273	Brief	_	_
+4-11	274-278	noch	_	_
+4-12	279-281	in	_	_
+4-13	282-288	Berlin	*	PLACEmentioned
+4-14	289-295	trifft	_	_
+4-15	296-297	,	_	_
+4-16	298-300	so	_	_
+4-17	301-311	unterlasse	_	_
+4-18	312-315	ich	_	_
+4-19	316-320	mehr	_	_
+4-20	321-333	hinzuzufügen	_	_
+4-21	334-335	.	_	_
+
+#Text=Ich lasse jetzt die lange Mauerninschrift zu dem epigraphischen Supplement des Märzbullettinos drucken , für das Kellermann das vielversprochene Loch offen gelassen hat .
+5-1	336-339	Ich	_	_
+5-2	340-345	lasse	_	_
+5-3	346-351	jetzt	_	_
+5-4	352-355	die	_	_
+5-5	356-361	lange	_	_
+5-6	362-377	Mauerninschrift	*	OBJ
+5-7	378-380	zu	_	_
+5-8	381-384	dem	_	_
+5-9	385-399	epigraphischen	_	_
+5-10	400-410	Supplement	_	_
+5-11	411-414	des	_	_
+5-12	415-430	Märzbullettinos	_	_
+5-13	431-438	drucken	_	_
+5-14	439-440	,	_	_
+5-15	441-444	für	_	_
+5-16	445-448	das	_	_
+5-17	449-459	Kellermann	*	PERmentioned
+5-18	460-463	das	_	_
+5-19	464-480	vielversprochene	_	_
+5-20	481-485	Loch	_	_
+5-21	486-491	offen	_	_
+5-22	492-500	gelassen	_	_
+5-23	501-504	hat	_	_
+5-24	505-506	.	_	_
+
+#Text=Die Inschrift ist doch bei Weitem interessanter und wichtiger als alle epigraphischen Mittheilungen , welche K. zurückgelassen hatte .
+6-1	507-510	Die	_	_
+6-2	511-520	Inschrift	*	OBJ
+6-3	521-524	ist	_	_
+6-4	525-529	doch	_	_
+6-5	530-533	bei	_	_
+6-6	534-540	Weitem	_	_
+6-7	541-554	interessanter	_	_
+6-8	555-558	und	_	_
+6-9	559-568	wichtiger	_	_
+6-10	569-572	als	_	_
+6-11	573-577	alle	_	_
+6-12	578-592	epigraphischen	_	_
+6-13	593-606	Mittheilungen	_	_
+6-14	607-608	,	_	_
+6-15	609-615	welche	_	_
+6-16	616-618	K.	*	PERmentioned
+6-17	619-633	zurückgelassen	_	_
+6-18	634-639	hatte	_	_
+6-19	640-641	.	_	_
+
+#Text=Franz hat sie zudem gut emendirt und mit Hülfe von erfahrenen Architekten sehr glücklich erklärt .
+7-1	642-647	Franz	*	PERmentioned
+7-2	648-651	hat	_	_
+7-3	652-655	sie	_	_
+7-4	656-661	zudem	_	_
+7-5	662-665	gut	_	_
+7-6	666-674	emendirt	_	_
+7-7	675-678	und	_	_
+7-8	679-682	mit	_	_
+7-9	683-688	Hülfe	_	_
+7-10	689-692	von	_	_
+7-11	693-703	erfahrenen	_	_
+7-12	704-715	Architekten	_	_
+7-13	716-720	sehr	_	_
+7-14	721-730	glücklich	_	_
+7-15	731-738	erklärt	_	_
+7-16	739-740	.	_	_
+
+#Text=Eile gebot auch der Umstand , daß eine Abschrift in Müllers Händen ist , der uns kaum den Vorsprung lassen wird .
+8-1	741-745	Eile	_	_
+8-2	746-751	gebot	_	_
+8-3	752-756	auch	_	_
+8-4	757-760	der	_	_
+8-5	761-768	Umstand	_	_
+8-6	769-770	,	_	_
+8-7	771-774	daß	_	_
+8-8	775-779	eine	_	_
+8-9	780-789	Abschrift	_	_
+8-10	790-792	in	_	_
+8-11	793-800	Müllers	*	PERmentioned
+8-12	801-807	Händen	_	_
+8-13	808-811	ist	_	_
+8-14	812-813	,	_	_
+8-15	814-817	der	_	_
+8-16	818-821	uns	_	_
+8-17	822-826	kaum	_	_
+8-18	827-830	den	_	_
+8-19	831-840	Vorsprung	_	_
+8-20	841-847	lassen	_	_
+8-21	848-852	wird	_	_
+8-22	853-854	.	_	_
+
+#Text=B. wollte mir heute seinen Discours für das Junibull .
+9-1	855-857	B.	_	_
+9-2	858-864	wollte	_	_
+9-3	865-868	mir	_	_
+9-4	869-874	heute	_	_
+9-5	875-881	seinen	_	_
+9-6	882-890	Discours	_	_
+9-7	891-894	für	_	_
+9-8	895-898	das	_	_
+9-9	899-907	Junibull	_	_
+9-10	908-909	.	_	_
+
+#Text=zusenden .
+10-1	910-918	zusenden	_	_
+10-2	919-920	.	_	_
+
+#Text=Vedremo .
+11-1	921-928	Vedremo	_	_
+11-2	929-930	.	_	_
+
+#Text=Ich hatte nicht darauf gerechnet und dies bringst mir meine Stamponi aufs Neue in beträchtliche Unordnung .
+12-1	931-934	Ich	_	_
+12-2	935-940	hatte	_	_
+12-3	941-946	nicht	_	_
+12-4	947-953	darauf	_	_
+12-5	954-963	gerechnet	_	_
+12-6	964-967	und	_	_
+12-7	968-972	dies	_	_
+12-8	973-980	bringst	_	_
+12-9	981-984	mir	_	_
+12-10	985-990	meine	_	_
+12-11	991-999	Stamponi	_	_
+12-12	1000-1004	aufs	_	_
+12-13	1005-1009	Neue	_	_
+12-14	1010-1012	in	_	_
+12-15	1013-1026	beträchtliche	_	_
+12-16	1027-1036	Unordnung	_	_
+12-17	1037-1038	.	_	_
+
+#Text=Trotz allen diesen Hindernissen hoffe ich dennoch im Verlauf dieses Monats das Bull .
+13-1	1039-1044	Trotz	_	_
+13-2	1045-1050	allen	_	_
+13-3	1051-1057	diesen	_	_
+13-4	1058-1070	Hindernissen	_	_
+13-5	1071-1076	hoffe	_	_
+13-6	1077-1080	ich	_	_
+13-7	1081-1088	dennoch	_	_
+13-8	1089-1091	im	_	_
+13-9	1092-1099	Verlauf	_	_
+13-10	1100-1106	dieses	_	_
+13-11	1107-1113	Monats	_	_
+13-12	1114-1117	das	_	_
+13-13	1118-1122	Bull	_	_
+13-14	1123-1124	.	_	_
+
+#Text=wieder in einige Ordnung zu bringen .
+14-1	1125-1131	wieder	_	_
+14-2	1132-1134	in	_	_
+14-3	1135-1141	einige	_	_
+14-4	1142-1149	Ordnung	_	_
+14-5	1150-1152	zu	_	_
+14-6	1153-1160	bringen	_	_
+14-7	1161-1162	.	_	_
+
+#Text=- Meine Absicht war Mit Jan .
+15-1	1163-1164	-	_	_
+15-2	1165-1170	Meine	_	_
+15-3	1171-1178	Absicht	_	_
+15-4	1179-1182	war	_	_
+15-5	1183-1186	Mit	_	_
+15-6	1187-1190	Jan	*[6]	DATEmentioned[6]
+15-7	1191-1192	.	*[6]	DATEmentioned[6]
+
+#Text=- Aug . B. das erste Semester zu schließen und hier am Ende für unsere Geschenke zu danken .
+16-1	1193-1194	-	_	_
+16-2	1195-1198	Aug	*[7]	DATEmentioned[7]
+16-3	1199-1200	.	*[7]	DATEmentioned[7]
+16-4	1201-1203	B.	_	_
+16-5	1204-1207	das	_	_
+16-6	1208-1213	erste	_	_
+16-7	1214-1222	Semester	_	_
+16-8	1223-1225	zu	_	_
+16-9	1226-1235	schließen	_	_
+16-10	1236-1239	und	_	_
+16-11	1240-1244	hier	_	_
+16-12	1245-1247	am	_	_
+16-13	1248-1252	Ende	_	_
+16-14	1253-1256	für	_	_
+16-15	1257-1263	unsere	_	_
+16-16	1264-1273	Geschenke	_	_
+16-17	1274-1276	zu	_	_
+16-18	1277-1283	danken	_	_
+16-19	1284-1285	.	_	_
+
+#Text=In gleicher Weise am Ende des Jahres .
+17-1	1286-1288	In	_	_
+17-2	1289-1297	gleicher	_	_
+17-3	1298-1303	Weise	_	_
+17-4	1304-1306	am	_	_
+17-5	1307-1311	Ende	_	_
+17-6	1312-1315	des	_	_
+17-7	1316-1322	Jahres	_	_
+17-8	1323-1324	.	_	_
+
+#Text=Eine solche Regelmäßigkeit überhebt uns vieler Unbequemlichkeiten und Unordnungen .
+18-1	1325-1329	Eine	_	_
+18-2	1330-1336	solche	_	_
+18-3	1337-1351	Regelmäßigkeit	_	_
+18-4	1352-1360	überhebt	_	_
+18-5	1361-1364	uns	_	_
+18-6	1365-1371	vieler	_	_
+18-7	1372-1390	Unbequemlichkeiten	_	_
+18-8	1391-1394	und	_	_
+18-9	1395-1406	Unordnungen	_	_
+18-10	1407-1408	.	_	_

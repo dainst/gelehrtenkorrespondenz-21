@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 20. Juli 1846 Ihre Sculpturnotizen sind an Herrn Olfers gesangen \; ich habe nicht widerrathen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	20.	*[1]	DATEletter[1]
+1-7	30-34	Juli	*[1]	DATEletter[1]
+1-8	35-39	1846	*[1]	DATEletter[1]
+1-9	40-44	Ihre	_	_
+1-10	45-60	Sculpturnotizen	_	_
+1-11	61-65	sind	_	_
+1-12	66-68	an	_	_
+1-13	69-74	Herrn	_	_
+1-14	75-81	Olfers	*	PERmentioned
+1-15	82-90	gesangen	_	_
+1-16	91-92	\;	_	_
+1-17	93-96	ich	_	_
+1-18	97-101	habe	_	_
+1-19	102-107	nicht	_	_
+1-20	108-119	widerrathen	_	_
+1-21	120-121	.	_	_
+
+#Text=Die beiden Stiche sind ihm übergeben .
+2-1	122-125	Die	_	_
+2-2	126-132	beiden	_	_
+2-3	133-139	Stiche	_	_
+2-4	140-144	sind	_	_
+2-5	145-148	ihm	_	_
+2-6	149-158	übergeben	_	_
+2-7	159-160	.	_	_
+
+#Text=Für welche Publikation ist die dreifache Gruppe ?
+3-1	161-164	Für	_	_
+3-2	165-171	welche	_	_
+3-3	172-183	Publikation	_	_
+3-4	184-187	ist	_	_
+3-5	188-191	die	_	_
+3-6	192-201	dreifache	_	_
+3-7	202-208	Gruppe	_	_
+3-8	209-210	?	_	_
+
+#Text=für die Monumenti des Instituts ?
+4-1	211-214	für	_	_
+4-2	215-218	die	_	_
+4-3	219-228	Monumenti	_	_
+4-4	229-232	des	_	_
+4-5	233-242	Instituts	*	ORGmentioned
+4-6	243-244	?	_	_
+
+#Text=Ein mir empfohlener leipziger Gelehrter empfiehlt sich Ihnen um eine Nachsuchung zu veranlssen was für Plutarch Moralia auf der Vaticana zu finden sei .
+5-1	245-248	Ein	_	_
+5-2	249-252	mir	_	_
+5-3	253-264	empfohlener	_	_
+5-4	265-274	leipziger	_	_
+5-5	275-284	Gelehrter	_	_
+5-6	285-294	empfiehlt	_	_
+5-7	295-299	sich	_	_
+5-8	300-305	Ihnen	_	_
+5-9	306-308	um	_	_
+5-10	309-313	eine	_	_
+5-11	314-325	Nachsuchung	_	_
+5-12	326-328	zu	_	_
+5-13	329-339	veranlssen	_	_
+5-14	340-343	was	_	_
+5-15	344-347	für	_	_
+5-16	348-356	Plutarch	*	PERmentioned
+5-17	357-364	Moralia	_	_
+5-18	365-368	auf	_	_
+5-19	369-372	der	_	_
+5-20	373-381	Vaticana	*	ORGmentioned
+5-21	382-384	zu	_	_
+5-22	385-391	finden	_	_
+5-23	392-395	sei	_	_
+5-24	396-397	.	_	_
+
+#Text=Brockhaus hat endlich seine Kiste Annali erhalten \; das Paket worin Lajard 's und oskische Sachen ist aber immer noch nicht da .
+6-1	398-407	Brockhaus	*	ORGmentioned
+6-2	408-411	hat	_	_
+6-3	412-419	endlich	_	_
+6-4	420-425	seine	_	_
+6-5	426-431	Kiste	_	_
+6-6	432-438	Annali	_	_
+6-7	439-447	erhalten	_	_
+6-8	448-449	\;	_	_
+6-9	450-453	das	_	_
+6-10	454-459	Paket	_	_
+6-11	460-465	worin	_	_
+6-12	466-472	Lajard	*[3]	PERmentioned[3]
+6-13	473-475	's	*[3]	PERmentioned[3]
+6-14	476-479	und	_	_
+6-15	480-488	oskische	*	MISC
+6-16	489-495	Sachen	_	_
+6-17	496-499	ist	_	_
+6-18	500-504	aber	_	_
+6-19	505-510	immer	_	_
+6-20	511-515	noch	_	_
+6-21	516-521	nicht	_	_
+6-22	522-524	da	_	_
+6-23	525-526	.	_	_
+
+#Text=Die ägyptische Grotte habe an Olfers von neuem dringend empfohlen .
+7-1	527-530	Die	_	_
+7-2	531-541	ägyptische	*[2]	OBJ[2]
+7-3	542-548	Grotte	*[2]	OBJ[2]
+7-4	549-553	habe	_	_
+7-5	554-556	an	_	_
+7-6	557-563	Olfers	*	PERmentioned
+7-7	564-567	von	_	_
+7-8	568-573	neuem	_	_
+7-9	574-582	dringend	_	_
+7-10	583-592	empfohlen	_	_
+7-11	593-594	.	_	_
+
+#Text=Panofka reist nicht \; vielleicht nächsten Jahr .
+8-1	595-602	Panofka	*	PERmentioned
+8-2	603-608	reist	_	_
+8-3	609-614	nicht	_	_
+8-4	615-616	\;	_	_
+8-5	617-627	vielleicht	_	_
+8-6	628-636	nächsten	_	_
+8-7	637-641	Jahr	_	_
+8-8	642-643	.	_	_
+
+#Text=- Über Abeken höre ich gar nichts .
+9-1	644-645	-	_	_
+9-2	646-650	Über	_	_
+9-3	651-657	Abeken	*	PERmentioned
+9-4	658-662	höre	_	_
+9-5	663-666	ich	_	_
+9-6	667-670	gar	_	_
+9-7	671-677	nichts	_	_
+9-8	678-679	.	_	_
+
+#Text=Ihr 200 rt Wechsel ist der Seehandlung empfohlen und erfolgt heute oder nächstens .
+10-1	680-683	Ihr	_	_
+10-2	684-687	200	_	_
+10-3	688-690	rt	_	_
+10-4	691-698	Wechsel	_	_
+10-5	699-702	ist	_	_
+10-6	703-706	der	_	_
+10-7	707-718	Seehandlung	_	_
+10-8	719-728	empfohlen	_	_
+10-9	729-732	und	_	_
+10-10	733-740	erfolgt	_	_
+10-11	741-746	heute	_	_
+10-12	747-751	oder	_	_
+10-13	752-761	nächstens	_	_
+10-14	762-763	.	_	_
+
+#Text=Domenico hat schriftlich sich nach unserm Befinden erkundet .
+11-1	764-772	Domenico	*	PERmentioned
+11-2	773-776	hat	_	_
+11-3	777-788	schriftlich	_	_
+11-4	789-793	sich	_	_
+11-5	794-798	nach	_	_
+11-6	799-805	unserm	_	_
+11-7	806-814	Befinden	_	_
+11-8	815-823	erkundet	_	_
+11-9	824-825	.	_	_
+
+#Text=Erhielt er den ihm angewiesenen Scudo ?
+12-1	826-833	Erhielt	_	_
+12-2	834-836	er	_	_
+12-3	837-840	den	_	_
+12-4	841-844	ihm	_	_
+12-5	845-857	angewiesenen	_	_
+12-6	858-863	Scudo	_	_
+12-7	864-865	?	_	_
+
+#Text=Wann bringt Schulz die Amazonenvase ans Licht ?
+13-1	866-870	Wann	_	_
+13-2	871-877	bringt	_	_
+13-3	878-884	Schulz	*	PERmentioned
+13-4	885-888	die	_	_
+13-5	889-901	Amazonenvase	*	OBJ
+13-6	902-905	ans	_	_
+13-7	906-911	Licht	_	_
+13-8	912-913	?	_	_
+
+#Text=Ich arbeite , bin aber im Sommer so schläfrig daß mir vor dem Winter bange ist .
+14-1	914-917	Ich	_	_
+14-2	918-925	arbeite	_	_
+14-3	926-927	,	_	_
+14-4	928-931	bin	_	_
+14-5	932-936	aber	_	_
+14-6	937-939	im	_	_
+14-7	940-946	Sommer	_	_
+14-8	947-949	so	_	_
+14-9	950-959	schläfrig	_	_
+14-10	960-963	daß	_	_
+14-11	964-967	mir	_	_
+14-12	968-971	vor	_	_
+14-13	972-975	dem	_	_
+14-14	976-982	Winter	_	_
+14-15	983-988	bange	_	_
+14-16	989-992	ist	_	_
+14-17	993-994	.	_	_
+
+#Text=An Henzen schreibe ich noch heute oder allernächstens .
+15-1	995-997	An	_	_
+15-2	998-1004	Henzen	*	PERmentioned
+15-3	1005-1013	schreibe	_	_
+15-4	1014-1017	ich	_	_
+15-5	1018-1022	noch	_	_
+15-6	1023-1028	heute	_	_
+15-7	1029-1033	oder	_	_
+15-8	1034-1048	allernächstens	_	_
+15-9	1049-1050	.	_	_
+
+#Text=Allen Günstigen viel Herzliches Ihr Gerhard Lersch will im August nach Italien reisen .
+16-1	1051-1056	Allen	_	_
+16-2	1057-1066	Günstigen	_	_
+16-3	1067-1071	viel	_	_
+16-4	1072-1082	Herzliches	_	_
+16-5	1083-1086	Ihr	_	_
+16-6	1087-1094	Gerhard	*	PERauthor
+16-7	1095-1101	Lersch	*	PERmentioned
+16-8	1102-1106	will	_	_
+16-9	1107-1109	im	_	_
+16-10	1110-1116	August	*	DATEmentioned
+16-11	1117-1121	nach	_	_
+16-12	1122-1129	Italien	*	PLACEmentioned
+16-13	1130-1136	reisen	_	_
+16-14	1137-1138	.	_	_

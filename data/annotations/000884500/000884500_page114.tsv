@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Nu ?
+1-1	0-2	Nu	_	_
+1-2	3-4	?	_	_
+
+#Text=De Gerhard an Braun Berlin , 2. Juni 1838 Dr. Braun g . 14/6 38 Aff .
+2-1	5-7	De	_	_
+2-2	8-15	Gerhard	*	PERauthor
+2-3	16-18	an	_	_
+2-4	19-24	Braun	*	PERaddressee
+2-5	25-31	Berlin	*	PLACEfrom
+2-6	32-33	,	_	_
+2-7	34-36	2.	*[5]	DATEletter[5]
+2-8	37-41	Juni	*[5]	DATEletter[5]
+2-9	42-46	1838	*[5]	DATEletter[5]
+2-10	47-50	Dr.	_	_
+2-11	51-56	Braun	*	PERaddressee
+2-12	57-58	g	_	_
+2-13	59-60	.	_	_
+2-14	61-65	14/6	*[6]	DATErecieved[6]
+2-15	66-68	38	*[6]	DATErecieved[6]
+2-16	69-72	Aff	_	_
+2-17	73-74	.	_	_
+
+#Text=d . Dir .
+3-1	75-76	d	_	_
+3-2	77-78	.	_	_
+3-3	79-82	Dir	_	_
+3-4	83-84	.	_	_
+
+#Text=CCIXVII r . 14/6 38 Berlin 2 Juni 38 Mein theurer Freund .
+4-1	85-92	CCIXVII	_	_
+4-2	93-94	r	_	_
+4-3	95-96	.	_	_
+4-4	97-101	14/6	*[7]	DATEanswered[7]
+4-5	102-104	38	*[7]	DATEanswered[7]
+4-6	105-111	Berlin	*	PLACEfrom
+4-7	112-113	2	*[9]	DATEletter[9]
+4-8	114-118	Juni	*[9]	DATEletter[9]
+4-9	119-121	38	*[9]	DATEletter[9]
+4-10	122-126	Mein	_	_
+4-11	127-134	theurer	_	_
+4-12	135-141	Freund	_	_
+4-13	142-143	.	_	_
+
+#Text=Ihre Briefe vom 17 und 19 Mai liegen vor .
+5-1	144-148	Ihre	_	_
+5-2	149-155	Briefe	_	_
+5-3	156-159	vom	_	_
+5-4	160-162	17	*	DATEmentioned
+5-5	163-166	und	_	_
+5-6	167-169	19	*[11]	DATEmentioned[11]
+5-7	170-173	Mai	*[11]	DATEmentioned[11]
+5-8	174-180	liegen	_	_
+5-9	181-184	vor	_	_
+5-10	185-186	.	_	_
+
+#Text=Die archöologische Gesellschaft des Rizo , R betreffend , so habe ich bereits in meinen nach der griechischen Reise dem Institut officiell zugestellten Notizen davor gewarnt diesen Herren mehr als mit schuldigster Höflichkeit zu begegnen .
+6-1	187-190	Die	_	_
+6-2	191-205	archöologische	*[12]	ORGmentioned[12]
+6-3	206-218	Gesellschaft	*[12]	ORGmentioned[12]
+6-4	219-222	des	_	_
+6-5	223-227	Rizo	*	PERmentioned
+6-6	228-229	,	_	_
+6-7	230-231	R	_	_
+6-8	232-242	betreffend	_	_
+6-9	243-244	,	_	_
+6-10	245-247	so	_	_
+6-11	248-252	habe	_	_
+6-12	253-256	ich	_	_
+6-13	257-264	bereits	_	_
+6-14	265-267	in	_	_
+6-15	268-274	meinen	_	_
+6-16	275-279	nach	_	_
+6-17	280-283	der	_	_
+6-18	284-296	griechischen	_	_
+6-19	297-302	Reise	_	_
+6-20	303-306	dem	_	_
+6-21	307-315	Institut	*	ORGmentioned
+6-22	316-325	officiell	_	_
+6-23	326-338	zugestellten	_	_
+6-24	339-346	Notizen	_	_
+6-25	347-352	davor	_	_
+6-26	353-360	gewarnt	_	_
+6-27	361-367	diesen	_	_
+6-28	368-374	Herren	_	_
+6-29	375-379	mehr	_	_
+6-30	380-383	als	_	_
+6-31	384-387	mit	_	_
+6-32	388-400	schuldigster	_	_
+6-33	401-412	Höflichkeit	_	_
+6-34	413-415	zu	_	_
+6-35	416-424	begegnen	_	_
+6-36	425-426	.	_	_
+
+#Text=Für Gesellschaft die sich weder durch kompetente Namen ( Ross ist in Freundschaft mit ihm ) noch durch hinlängliche Leistungen konstituirt , kann man höflich nur dergestalt antworten daß man ihre Schreiben u .. Diplome fürs erste unbeantwortet läßt .
+7-1	427-430	Für	_	_
+7-2	431-443	Gesellschaft	_	_
+7-3	444-447	die	_	_
+7-4	448-452	sich	_	_
+7-5	453-458	weder	_	_
+7-6	459-464	durch	_	_
+7-7	465-475	kompetente	_	_
+7-8	476-481	Namen	_	_
+7-9	482-483	(	_	_
+7-10	484-488	Ross	*	PERmentioned
+7-11	489-492	ist	_	_
+7-12	493-495	in	_	_
+7-13	496-508	Freundschaft	_	_
+7-14	509-512	mit	_	_
+7-15	513-516	ihm	_	_
+7-16	517-518	)	_	_
+7-17	519-523	noch	_	_
+7-18	524-529	durch	_	_
+7-19	530-542	hinlängliche	_	_
+7-20	543-553	Leistungen	_	_
+7-21	554-565	konstituirt	_	_
+7-22	566-567	,	_	_
+7-23	568-572	kann	_	_
+7-24	573-576	man	_	_
+7-25	577-584	höflich	_	_
+7-26	585-588	nur	_	_
+7-27	589-599	dergestalt	_	_
+7-28	600-609	antworten	_	_
+7-29	610-613	daß	_	_
+7-30	614-617	man	_	_
+7-31	618-622	ihre	_	_
+7-32	623-632	Schreiben	_	_
+7-33	633-634	u	_	_
+7-34	635-637	..	_	_
+7-35	638-645	Diplome	_	_
+7-36	646-650	fürs	_	_
+7-37	651-656	erste	_	_
+7-38	657-670	unbeantwortet	_	_
+7-39	671-675	läßt	_	_
+7-40	676-677	.	_	_
+
+#Text=Sie haben übergroße Milde geübt das Manifest derselben in extensi abdrucken zu lassen .
+8-1	678-681	Sie	_	_
+8-2	682-687	haben	_	_
+8-3	688-697	übergroße	_	_
+8-4	698-703	Milde	_	_
+8-5	704-709	geübt	_	_
+8-6	710-713	das	_	_
+8-7	714-722	Manifest	_	_
+8-8	723-732	derselben	_	_
+8-9	733-735	in	_	_
+8-10	736-743	extensi	_	_
+8-11	744-753	abdrucken	_	_
+8-12	754-756	zu	_	_
+8-13	757-763	lassen	_	_
+8-14	764-765	.	_	_
+
+#Text=Als leitenden Grundsatz haben sie eigentlich nur den die Frenden aus Griechenland zu verdrängen und die Alterthumsfreunde jeder Nation Geld zahlen zu lassen .
+9-1	766-769	Als	_	_
+9-2	770-779	leitenden	_	_
+9-3	780-789	Grundsatz	_	_
+9-4	790-795	haben	_	_
+9-5	796-799	sie	_	_
+9-6	800-810	eigentlich	_	_
+9-7	811-814	nur	_	_
+9-8	815-818	den	_	_
+9-9	819-822	die	_	_
+9-10	823-830	Frenden	_	_
+9-11	831-834	aus	_	_
+9-12	835-847	Griechenland	*	PLACEmentioned
+9-13	848-850	zu	_	_
+9-14	851-861	verdrängen	_	_
+9-15	862-865	und	_	_
+9-16	866-869	die	_	_
+9-17	870-887	Alterthumsfreunde	_	_
+9-18	888-893	jeder	_	_
+9-19	894-900	Nation	_	_
+9-20	901-905	Geld	_	_
+9-21	906-912	zahlen	_	_
+9-22	913-915	zu	_	_
+9-23	916-922	lassen	_	_
+9-24	923-924	.	_	_
+
+#Text=Roß hat mir von Triest geschrieben \; er denkt Ende Juni hier zu sein , andern Falls würde er mich hier nicht treffen .
+10-1	925-928	Roß	*	PERmentioned
+10-2	929-932	hat	_	_
+10-3	933-936	mir	_	_
+10-4	937-940	von	_	_
+10-5	941-947	Triest	*	PLACEmentioned
+10-6	948-959	geschrieben	_	_
+10-7	960-961	\;	_	_
+10-8	962-964	er	_	_
+10-9	965-970	denkt	_	_
+10-10	971-975	Ende	_	_
+10-11	976-980	Juni	*	DATEmentioned
+10-12	981-985	hier	_	_
+10-13	986-988	zu	_	_
+10-14	989-993	sein	_	_
+10-15	994-995	,	_	_
+10-16	996-1002	andern	_	_
+10-17	1003-1008	Falls	_	_
+10-18	1009-1014	würde	_	_
+10-19	1015-1017	er	_	_
+10-20	1018-1022	mich	_	_
+10-21	1023-1027	hier	_	_
+10-22	1028-1033	nicht	_	_
+10-23	1034-1041	treffen	_	_
+10-24	1042-1043	.	_	_
+
+#Text=Er reist 1 Monat später ab um neue um K fallt zu beseitigen die man ihm wegen der Publikation
+11-1	1044-1046	Er	_	_
+11-2	1047-1052	reist	_	_
+11-3	1053-1054	1	_	_
+11-4	1055-1060	Monat	_	_
+11-5	1061-1067	später	_	_
+11-6	1068-1070	ab	_	_
+11-7	1071-1073	um	_	_
+11-8	1074-1078	neue	_	_
+11-9	1079-1081	um	_	_
+11-10	1082-1083	K	_	_
+11-11	1084-1089	fallt	_	_
+11-12	1090-1092	zu	_	_
+11-13	1093-1103	beseitigen	_	_
+11-14	1104-1107	die	_	_
+11-15	1108-1111	man	_	_
+11-16	1112-1115	ihm	_	_
+11-17	1116-1121	wegen	_	_
+11-18	1122-1125	der	_	_
+11-19	1126-1137	Publikation	_	_

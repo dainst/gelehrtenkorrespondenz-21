@@ -1,0 +1,99 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=551 Braun an Gerhard Rom , 11 .
+1-1	0-3	551	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	11	*[9]	DATEletter[9]
+1-8	30-31	.	*[9]	DATEletter[9]
+
+#Text=August 1836 bei der Erklärung der großen Ruvovase in Ermangelung allen Apparats , in einer wahren Desperation .
+2-1	32-38	August	*[9]	DATEletter[9]
+2-2	39-43	1836	*[9]	DATEletter[9]
+2-3	44-47	bei	_	_
+2-4	48-51	der	_	_
+2-5	52-61	Erklärung	_	_
+2-6	62-65	der	_	_
+2-7	66-72	großen	_	_
+2-8	73-81	Ruvovase	*	OBJ
+2-9	82-84	in	_	_
+2-10	85-96	Ermangelung	_	_
+2-11	97-102	allen	_	_
+2-12	103-111	Apparats	_	_
+2-13	112-113	,	_	_
+2-14	114-116	in	_	_
+2-15	117-122	einer	_	_
+2-16	123-129	wahren	_	_
+2-17	130-141	Desperation	_	_
+2-18	142-143	.	_	_
+
+#Text=Um schnell nach Rom zu kommen , müssen Sie über Turin und , Genua vermeidend über Civitavecchia hierhereilen .
+3-1	144-146	Um	_	_
+3-2	147-154	schnell	_	_
+3-3	155-159	nach	_	_
+3-4	160-163	Rom	*	PLACEmentioned
+3-5	164-166	zu	_	_
+3-6	167-173	kommen	_	_
+3-7	174-175	,	_	_
+3-8	176-182	müssen	_	_
+3-9	183-186	Sie	_	_
+3-10	187-191	über	_	_
+3-11	192-197	Turin	*	PLACEmentioned
+3-12	198-201	und	_	_
+3-13	202-203	,	_	_
+3-14	204-209	Genua	*	PLACEmentioned
+3-15	210-220	vermeidend	_	_
+3-16	221-225	über	_	_
+3-17	226-239	Civitavecchia	*	PLACEmentioned
+3-18	240-252	hierhereilen	_	_
+3-19	253-254	.	_	_
+
+#Text=Nach Civitavecchia komme ich Ihnen dann entgegen .
+4-1	255-259	Nach	_	_
+4-2	260-273	Civitavecchia	*	PLACEmentioned
+4-3	274-279	komme	_	_
+4-4	280-283	ich	_	_
+4-5	284-289	Ihnen	_	_
+4-6	290-294	dann	_	_
+4-7	295-303	entgegen	_	_
+4-8	304-305	.	_	_
+
+#Text=- Hier sollen Sie bei Bunsen absteigen \; er ladet Sie freundschaftlichst dazu ein .
+5-1	306-307	-	_	_
+5-2	308-312	Hier	_	_
+5-3	313-319	sollen	_	_
+5-4	320-323	Sie	_	_
+5-5	324-327	bei	_	_
+5-6	328-334	Bunsen	*	PERmentioned
+5-7	335-344	absteigen	_	_
+5-8	345-346	\;	_	_
+5-9	347-349	er	_	_
+5-10	350-355	ladet	_	_
+5-11	356-359	Sie	_	_
+5-12	360-378	freundschaftlichst	_	_
+5-13	379-383	dazu	_	_
+5-14	384-387	ein	_	_
+5-15	388-389	.	_	_
+
+#Text=Panofkas Brief hat ihn günstig gestimnt .
+6-1	390-398	Panofkas	*	PERmentioned
+6-2	399-404	Brief	_	_
+6-3	405-408	hat	_	_
+6-4	409-412	ihn	_	_
+6-5	413-420	günstig	_	_
+6-6	421-429	gestimnt	_	_
+6-7	430-431	.	_	_
+
+#Text=Auf baldiges frohes Wiedersehen Ihr Braun .
+7-1	432-435	Auf	_	_
+7-2	436-444	baldiges	_	_
+7-3	445-451	frohes	_	_
+7-4	452-463	Wiedersehen	_	_
+7-5	464-467	Ihr	_	_
+7-6	468-473	Braun	*	PERauthor
+7-7	474-475	.	_	_

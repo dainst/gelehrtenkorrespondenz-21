@@ -1,0 +1,91 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 8. November 1877 Berlin , den 8 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	8.	*[1]	DATEletter[1]
+1-7	30-38	November	*[1]	DATEletter[1]
+1-8	39-43	1877	*[1]	DATEletter[1]
+1-9	44-50	Berlin	*	PLACEfrom
+1-10	51-52	,	_	_
+1-11	53-56	den	_	_
+1-12	57-58	8	*[2]	DATEletter[2]
+1-13	59-60	.	*[2]	DATEletter[2]
+
+#Text=Nov .
+2-1	61-64	Nov	*[2]	DATEletter[2]
+2-2	65-66	.	*[2]	DATEletter[2]
+
+#Text=1877 Verehrter Freund Ich füge dem beifolgenden Ergebnisse der letzten Sitzung nur noch hinzu , daß es nicht thunlich erschien die Angelegenheit der architektonischen Bibliothek bis zu Mommsen 's unbestimmter Rückkehr zu verschieben , da das Aukärtige Amt Eile verlangte und auch die Sachlage keine andre Entscheidung zuließ .
+3-1	67-71	1877	*[2]	DATEletter[2]
+3-2	72-81	Verehrter	_	_
+3-3	82-88	Freund	_	_
+3-4	89-92	Ich	_	_
+3-5	93-97	füge	_	_
+3-6	98-101	dem	_	_
+3-7	102-114	beifolgenden	_	_
+3-8	115-125	Ergebnisse	_	_
+3-9	126-129	der	_	_
+3-10	130-137	letzten	_	_
+3-11	138-145	Sitzung	_	_
+3-12	146-149	nur	_	_
+3-13	150-154	noch	_	_
+3-14	155-160	hinzu	_	_
+3-15	161-162	,	_	_
+3-16	163-166	daß	_	_
+3-17	167-169	es	_	_
+3-18	170-175	nicht	_	_
+3-19	176-184	thunlich	_	_
+3-20	185-193	erschien	_	_
+3-21	194-197	die	_	_
+3-22	198-211	Angelegenheit	_	_
+3-23	212-215	der	_	_
+3-24	216-233	architektonischen	*[3]	ORGmentioned[3]
+3-25	234-244	Bibliothek	*[3]	ORGmentioned[3]
+3-26	245-248	bis	_	_
+3-27	249-251	zu	_	_
+3-28	252-259	Mommsen	*[6]	PERmentioned[6]
+3-29	260-262	's	*[6]	PERmentioned[6]
+3-30	263-275	unbestimmter	_	_
+3-31	276-284	Rückkehr	_	_
+3-32	285-287	zu	_	_
+3-33	288-299	verschieben	_	_
+3-34	300-301	,	_	_
+3-35	302-304	da	_	_
+3-36	305-308	das	_	_
+3-37	309-318	Aukärtige	*[4]	DATEletter[4]
+3-38	319-322	Amt	*[4]	DATEletter[4]
+3-39	323-327	Eile	_	_
+3-40	328-337	verlangte	_	_
+3-41	338-341	und	_	_
+3-42	342-346	auch	_	_
+3-43	347-350	die	_	_
+3-44	351-359	Sachlage	_	_
+3-45	360-365	keine	_	_
+3-46	366-371	andre	_	_
+3-47	372-384	Entscheidung	_	_
+3-48	385-391	zuließ	_	_
+3-49	392-393	.	_	_
+
+#Text=Endlich tritt bei uns das überschlagene schöne Oktoberwetter ein .
+4-1	394-401	Endlich	_	_
+4-2	402-407	tritt	_	_
+4-3	408-411	bei	_	_
+4-4	412-415	uns	_	_
+4-5	416-419	das	_	_
+4-6	420-433	überschlagene	_	_
+4-7	434-440	schöne	_	_
+4-8	441-454	Oktoberwetter	_	_
+4-9	455-458	ein	_	_
+4-10	459-460	.	_	_
+
+#Text=Ihr ergebenster R Lepsius
+5-1	461-464	Ihr	_	_
+5-2	465-476	ergebenster	_	_
+5-3	477-478	R	*[5]	PERauthor[5]
+5-4	479-486	Lepsius	*[5]	PERauthor[5]

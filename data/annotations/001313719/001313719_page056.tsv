@@ -1,0 +1,91 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin , 8. Juni 1846 Temple das Diplom ausfertigen ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	8.	_	_
+1-7	30-34	Juni	*[1]	DATEletter[1]
+1-8	35-39	1846	*[1]	DATEletter[1]
+1-9	40-46	Temple	*	PERmentioned
+1-10	47-50	das	_	_
+1-11	51-57	Diplom	_	_
+1-12	58-69	ausfertigen	_	_
+1-13	70-71	?	_	_
+
+#Text=Dann könnte es mit einigen Kestnerschen Zeilen ihm übersandt oder durch Momnsen übergeben werden , der doch wol bei ihm zu thun hat .
+2-1	72-76	Dann	_	_
+2-2	77-83	könnte	_	_
+2-3	84-86	es	_	_
+2-4	87-90	mit	_	_
+2-5	91-98	einigen	_	_
+2-6	99-111	Kestnerschen	*	PERmentioned
+2-7	112-118	Zeilen	_	_
+2-8	119-122	ihm	_	_
+2-9	123-132	übersandt	_	_
+2-10	133-137	oder	_	_
+2-11	138-143	durch	_	_
+2-12	144-151	Momnsen	*	PERmentioned
+2-13	152-161	übergeben	_	_
+2-14	162-168	werden	_	_
+2-15	169-170	,	_	_
+2-16	171-174	der	_	_
+2-17	175-179	doch	_	_
+2-18	180-183	wol	_	_
+2-19	184-187	bei	_	_
+2-20	188-191	ihm	_	_
+2-21	192-194	zu	_	_
+2-22	195-199	thun	_	_
+2-23	200-203	hat	_	_
+2-24	204-205	.	_	_
+
+#Text=Neue Formulare , etwas geänderte , muß ich auch hier drucken lassen .
+3-1	206-210	Neue	_	_
+3-2	211-220	Formulare	_	_
+3-3	221-222	,	_	_
+3-4	223-228	etwas	_	_
+3-5	229-238	geänderte	_	_
+3-6	239-240	,	_	_
+3-7	241-244	muß	_	_
+3-8	245-248	ich	_	_
+3-9	249-253	auch	_	_
+3-10	254-258	hier	_	_
+3-11	259-266	drucken	_	_
+3-12	267-273	lassen	_	_
+3-13	274-275	.	_	_
+
+#Text=Meine Frau ist glücklich zurück , obwohl noch in viel Unruhe , und sagt mit mir der Casa Henzen die allerbesten Grüße .
+4-1	276-281	Meine	_	_
+4-2	282-286	Frau	_	_
+4-3	287-290	ist	_	_
+4-4	291-300	glücklich	_	_
+4-5	301-307	zurück	_	_
+4-6	308-309	,	_	_
+4-7	310-316	obwohl	_	_
+4-8	317-321	noch	_	_
+4-9	322-324	in	_	_
+4-10	325-329	viel	_	_
+4-11	330-336	Unruhe	_	_
+4-12	337-338	,	_	_
+4-13	339-342	und	_	_
+4-14	343-347	sagt	_	_
+4-15	348-351	mit	_	_
+4-16	352-355	mir	_	_
+4-17	356-359	der	_	_
+4-18	360-364	Casa	_	_
+4-19	365-371	Henzen	_	_
+4-20	372-375	die	_	_
+4-21	376-387	allerbesten	_	_
+4-22	388-393	Grüße	_	_
+4-23	394-395	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+5-1	396-399	Von	_	_
+5-2	400-406	Herzen	*	PERmentioned
+5-3	407-410	der	_	_
+5-4	411-417	Ihrige	_	_
+5-5	418-425	Gerhard	*	PERauthor

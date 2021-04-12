@@ -1,0 +1,180 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ohne Numner Henzen an Gerhard 10/IxX/54 Verehrter Herr Trofessor !
+1-1	0-4	Ohne	_	_
+1-2	5-11	Numner	_	_
+1-3	12-18	Henzen	*	PERauthor
+1-4	19-21	an	_	_
+1-5	22-29	Gerhard	*	PERaddressee
+1-6	30-39	10/IxX/54	*	DATEletter
+1-7	40-49	Verehrter	_	_
+1-8	50-54	Herr	_	_
+1-9	55-64	Trofessor	_	_
+1-10	65-66	!	_	_
+
+#Text=In Antwort auf Inre beiden Briefe vom 26 % u .
+2-1	67-69	In	_	_
+2-2	70-77	Antwort	_	_
+2-3	78-81	auf	_	_
+2-4	82-86	Inre	_	_
+2-5	87-93	beiden	_	_
+2-6	94-100	Briefe	_	_
+2-7	101-104	vom	_	_
+2-8	105-107	26	*	DATEmentioned
+2-9	108-109	%	_	_
+2-10	110-111	u	_	_
+2-11	112-113	.	_	_
+
+#Text=29 . ''
+3-1	114-116	29	*[1]	DATEmentioned[1]
+3-2	117-118	.	*[1]	DATEmentioned[1]
+3-3	119-121	''	*[1]	DATEmentioned[1]
+
+#Text=v. NM .
+4-1	122-124	v.	*[1]	DATEmentioned[1]
+4-2	125-127	NM	*[1]	DATEmentioned[1]
+4-3	128-129	.	*[1]	DATEmentioned[1]
+
+#Text=nur die Bitte , mit jener Erklärung ganz nach “ utdünken zu verfahren \; doch scheint mir die Ztschr .
+5-1	130-133	nur	_	_
+5-2	134-137	die	_	_
+5-3	138-143	Bitte	_	_
+5-4	144-145	,	_	_
+5-5	146-149	mit	_	_
+5-6	150-155	jener	_	_
+5-7	156-165	Erklärung	_	_
+5-8	166-170	ganz	_	_
+5-9	171-175	nach	_	_
+5-10	176-177	“	_	_
+5-11	178-186	utdünken	_	_
+5-12	187-189	zu	_	_
+5-13	190-199	verfahren	_	_
+5-14	200-201	\;	_	_
+5-15	202-206	doch	_	_
+5-16	207-214	scheint	_	_
+5-17	215-218	mir	_	_
+5-18	219-222	die	_	_
+5-19	223-229	Ztschr	_	_
+5-20	230-231	.	_	_
+
+#Text=f. AW , ein nicht sehr passender Flatz , da ja der betreffende Brief dort nicht steht .
+6-1	232-234	f.	_	_
+6-2	235-237	AW	_	_
+6-3	238-239	,	_	_
+6-4	240-243	ein	_	_
+6-5	244-249	nicht	_	_
+6-6	250-254	sehr	_	_
+6-7	255-264	passender	_	_
+6-8	265-270	Flatz	_	_
+6-9	271-272	,	_	_
+6-10	273-275	da	_	_
+6-11	276-278	ja	_	_
+6-12	279-282	der	_	_
+6-13	283-294	betreffende	_	_
+6-14	295-300	Brief	_	_
+6-15	301-305	dort	_	_
+6-16	306-311	nicht	_	_
+6-17	312-317	steht	_	_
+6-18	318-319	.	_	_
+
+#Text=issen Sie Näheres von Brunns ' Braut ?
+7-1	320-325	issen	_	_
+7-2	326-329	Sie	_	_
+7-3	330-337	Näheres	_	_
+7-4	338-341	von	_	_
+7-5	342-348	Brunns	*	PERmentioned
+7-6	349-350	'	_	_
+7-7	351-356	Braut	_	_
+7-8	357-358	?	_	_
+
+#Text=- schwerlich wohl !
+8-1	359-360	-	_	_
+8-2	361-371	schwerlich	_	_
+8-3	372-376	wohl	_	_
+8-4	377-378	!	_	_
+
+#Text=Bei uns der alte traurire Zustand .
+9-1	379-382	Bei	_	_
+9-2	383-386	uns	_	_
+9-3	387-390	der	_	_
+9-4	391-395	alte	_	_
+9-5	396-404	traurire	_	_
+9-6	405-412	Zustand	_	_
+9-7	413-414	.	_	_
+
+#Text=Langsanste Besserung , nach je 3 Schritten vorwärts 2 zurück .
+10-1	415-425	Langsanste	_	_
+10-2	426-435	Besserung	_	_
+10-3	436-437	,	_	_
+10-4	438-442	nach	_	_
+10-5	443-445	je	_	_
+10-6	446-447	3	_	_
+10-7	448-457	Schritten	_	_
+10-8	458-466	vorwärts	_	_
+10-9	467-468	2	_	_
+10-10	469-475	zurück	_	_
+10-11	476-477	.	_	_
+
+#Text=kNeine Frau hütet noch immer das Bett , das sie mit Kühe auf eine Stunde verläßt .
+11-1	478-484	kNeine	_	_
+11-2	485-489	Frau	_	_
+11-3	490-495	hütet	_	_
+11-4	496-500	noch	_	_
+11-5	501-506	immer	_	_
+11-6	507-510	das	_	_
+11-7	511-515	Bett	_	_
+11-8	516-517	,	_	_
+11-9	518-521	das	_	_
+11-10	522-525	sie	_	_
+11-11	526-529	mit	_	_
+11-12	530-534	Kühe	_	_
+11-13	535-538	auf	_	_
+11-14	539-543	eine	_	_
+11-15	544-550	Stunde	_	_
+11-16	551-558	verläßt	_	_
+11-17	559-560	.	_	_
+
+#Text=Wann wir nach Rom zurück können , ist noch nicht abzusehn , zumal man einen Kranken aus SZesunder Gegend nicht in Choleraluft wird bringen dürfen .
+12-1	561-565	Wann	_	_
+12-2	566-569	wir	_	_
+12-3	570-574	nach	_	_
+12-4	575-578	Rom	*	PLACEmentioned
+12-5	579-585	zurück	_	_
+12-6	586-592	können	_	_
+12-7	593-594	,	_	_
+12-8	595-598	ist	_	_
+12-9	599-603	noch	_	_
+12-10	604-609	nicht	_	_
+12-11	610-618	abzusehn	_	_
+12-12	619-620	,	_	_
+12-13	621-626	zumal	_	_
+12-14	627-630	man	_	_
+12-15	631-636	einen	_	_
+12-16	637-644	Kranken	_	_
+12-17	645-648	aus	_	_
+12-18	649-658	SZesunder	_	_
+12-19	659-665	Gegend	_	_
+12-20	666-671	nicht	_	_
+12-21	672-674	in	_	_
+12-22	675-686	Choleraluft	_	_
+12-23	687-691	wird	_	_
+12-24	692-699	bringen	_	_
+12-25	700-706	dürfen	_	_
+12-26	707-708	.	_	_
+
+#Text=Ihr W “ .
+13-1	709-712	Ihr	_	_
+13-2	713-714	W	_	_
+13-3	715-716	“	_	_
+13-4	717-718	.	*[2]	PERauthor[2]
+
+#Text=Henzen Rocca di Fapa 10/IX 54 .
+14-1	719-725	Henzen	*[2]	PERauthor[2]
+14-2	726-731	Rocca	*[3]	PLACEfrom[3]
+14-3	732-734	di	*[3]	PLACEfrom[3]
+14-4	735-739	Fapa	*[3]	PLACEfrom[3]
+14-5	740-745	10/IX	*[4]	DATEletter[4]
+14-6	746-748	54	*[4]	DATEletter[4]
+14-7	749-750	.	_	_

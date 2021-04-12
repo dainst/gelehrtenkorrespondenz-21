@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=95 Lepsius an Henzen Berlin , 9. Februar 1876 & .
+1-1	0-2	95	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	9.	*[1]	DATEletter[1]
+1-8	33-40	Februar	*[1]	DATEletter[1]
+1-9	41-45	1876	*[1]	DATEletter[1]
+1-10	46-47	&	_	_
+1-11	48-49	.	_	_
+
+#Text=2/2 76 r . 28/2 76 Privatin Berlin d . $ .
+2-1	50-53	2/2	*[2]	DATErecieved[2]
+2-2	54-56	76	*[2]	DATErecieved[2]
+2-3	57-58	r	_	_
+2-4	59-60	.	_	_
+2-5	61-65	28/2	*[3]	DATEanswered[3]
+2-6	66-68	76	*[3]	DATEanswered[3]
+2-7	69-77	Privatin	_	_
+2-8	78-84	Berlin	*	PLACEfrom
+2-9	85-86	d	_	_
+2-10	87-88	.	_	_
+2-11	89-90	$	_	_
+2-12	91-92	.	*[4]	DATEletter[4]
+
+#Text=Febr .
+3-1	93-97	Febr	*[4]	DATEletter[4]
+3-2	98-99	.	*[4]	DATEletter[4]
+
+#Text=1876 Verehrter Freund Hierbei liegt mein Bericht über die gestrige Sitzung der Central Direktion .
+4-1	100-104	1876	*[4]	DATEletter[4]
+4-2	105-114	Verehrter	_	_
+4-3	115-121	Freund	_	_
+4-4	122-129	Hierbei	_	_
+4-5	130-135	liegt	_	_
+4-6	136-140	mein	_	_
+4-7	141-148	Bericht	_	_
+4-8	149-153	über	_	_
+4-9	154-157	die	_	_
+4-10	158-166	gestrige	_	_
+4-11	167-174	Sitzung	_	_
+4-12	175-178	der	_	_
+4-13	179-186	Central	*[5]	ORGmentioned[5]
+4-14	187-196	Direktion	*[5]	ORGmentioned[5]
+4-15	197-198	.	_	_
+
+#Text=- Die Rechnungen im Einzelnen können von uns nicht geprüft werden , da sie , auf Wunsch der Legationskasse in Lire ausgestellt sind .
+5-1	199-200	-	_	_
+5-2	201-204	Die	_	_
+5-3	205-215	Rechnungen	_	_
+5-4	216-218	im	_	_
+5-5	219-228	Einzelnen	_	_
+5-6	229-235	können	_	_
+5-7	236-239	von	_	_
+5-8	240-243	uns	_	_
+5-9	244-249	nicht	_	_
+5-10	250-257	geprüft	_	_
+5-11	258-264	werden	_	_
+5-12	265-266	,	_	_
+5-13	267-269	da	_	_
+5-14	270-273	sie	_	_
+5-15	274-275	,	_	_
+5-16	276-279	auf	_	_
+5-17	280-286	Wunsch	_	_
+5-18	287-290	der	_	_
+5-19	291-305	Legationskasse	_	_
+5-20	306-308	in	_	_
+5-21	309-313	Lire	_	_
+5-22	314-325	ausgestellt	_	_
+5-23	326-330	sind	_	_
+5-24	331-332	.	_	_
+
+#Text=- Die Zahlung an Dressel haben Sie also auf das vorige Jahr mit gerechnet .
+6-1	333-334	-	_	_
+6-2	335-338	Die	_	_
+6-3	339-346	Zahlung	_	_
+6-4	347-349	an	_	_
+6-5	350-357	Dressel	*	PERmentioned
+6-6	358-363	haben	_	_
+6-7	364-367	Sie	_	_
+6-8	368-372	also	_	_
+6-9	373-376	auf	_	_
+6-10	377-380	das	_	_
+6-11	381-387	vorige	_	_
+6-12	388-392	Jahr	_	_
+6-13	393-396	mit	_	_
+6-14	397-406	gerechnet	_	_
+6-15	407-408	.	_	_
+
+#Text=Es erleichtert die Disposition sehr , daß alle Titel auch unter sich übertragbar sind .
+7-1	409-411	Es	_	_
+7-2	412-423	erleichtert	_	_
+7-3	424-427	die	_	_
+7-4	428-439	Disposition	_	_
+7-5	440-444	sehr	_	_
+7-6	445-446	,	_	_
+7-7	447-450	daß	_	_
+7-8	451-455	alle	_	_
+7-9	456-461	Titel	_	_
+7-10	462-466	auch	_	_
+7-11	467-472	unter	_	_
+7-12	473-477	sich	_	_
+7-13	478-489	übertragbar	_	_
+7-14	490-494	sind	_	_
+7-15	495-496	.	_	_
+
+#Text=Ich bedaure daß das Medaillon von Parthey nun wohl in Gyps bleiben muß .
+8-1	497-500	Ich	_	_
+8-2	501-508	bedaure	_	_
+8-3	509-512	daß	_	_
+8-4	513-516	das	_	_
+8-5	517-526	Medaillon	_	_
+8-6	527-530	von	_	_
+8-7	531-538	Parthey	*	PERmentioned
+8-8	539-542	nun	_	_
+8-9	543-547	wohl	_	_
+8-10	548-550	in	_	_
+8-11	551-555	Gyps	_	_
+8-12	556-563	bleiben	_	_
+8-13	564-567	muß	_	_
+8-14	568-569	.	_	_
+
+#Text=Es war auch in Ihrem Berichte nicht ganz verständlich ob in der Erhöhung Marmor und Rahmen einbegriffen waren , wie aber allerdings vorausgesetzt wurde \; der Preis in Marmor wäre dann in der That nur gering gewesen .
+9-1	570-572	Es	_	_
+9-2	573-576	war	_	_
+9-3	577-581	auch	_	_
+9-4	582-584	in	_	_
+9-5	585-590	Ihrem	_	_
+9-6	591-599	Berichte	_	_
+9-7	600-605	nicht	_	_
+9-8	606-610	ganz	_	_
+9-9	611-623	verständlich	_	_
+9-10	624-626	ob	_	_
+9-11	627-629	in	_	_
+9-12	630-633	der	_	_
+9-13	634-642	Erhöhung	_	_
+9-14	643-649	Marmor	_	_
+9-15	650-653	und	_	_
+9-16	654-660	Rahmen	_	_
+9-17	661-673	einbegriffen	_	_
+9-18	674-679	waren	_	_
+9-19	680-681	,	_	_
+9-20	682-685	wie	_	_
+9-21	686-690	aber	_	_
+9-22	691-701	allerdings	_	_
+9-23	702-715	vorausgesetzt	_	_
+9-24	716-721	wurde	_	_
+9-25	722-723	\;	_	_
+9-26	724-727	der	_	_
+9-27	728-733	Preis	_	_
+9-28	734-736	in	_	_
+9-29	737-743	Marmor	_	_
+9-30	744-748	wäre	_	_
+9-31	749-753	dann	_	_
+9-32	754-756	in	_	_
+9-33	757-760	der	_	_
+9-34	761-765	That	_	_
+9-35	766-769	nur	_	_
+9-36	770-776	gering	_	_
+9-37	777-784	gewesen	_	_
+9-38	785-786	.	_	_
+
+#Text=Sehr schön wäre es , wenn Sie einige Bilder von Preller erhalten könnten .
+10-1	787-791	Sehr	_	_
+10-2	792-797	schön	_	_
+10-3	798-802	wäre	_	_
+10-4	803-805	es	_	_
+10-5	806-807	,	_	_
+10-6	808-812	wenn	_	_
+10-7	813-816	Sie	_	_
+10-8	817-823	einige	_	_
+10-9	824-830	Bilder	_	_
+10-10	831-834	von	_	_
+10-11	835-842	Preller	*	PERmentioned
+10-12	843-851	erhalten	_	_
+10-13	852-859	könnten	_	_
+10-14	860-861	.	_	_
+
+#Text=Sein großartiger klassischer Styl für Landschaft mit Staffage wäre durch niemand anders zu übertreffen .
+11-1	862-866	Sein	_	_
+11-2	867-878	großartiger	_	_
+11-3	879-890	klassischer	_	_
+11-4	891-895	Styl	_	_
+11-5	896-899	für	_	_
+11-6	900-910	Landschaft	_	_
+11-7	911-914	mit	_	_
+11-8	915-923	Staffage	_	_
+11-9	924-928	wäre	_	_
+11-10	929-934	durch	_	_
+11-11	935-942	niemand	_	_
+11-12	943-949	anders	_	_
+11-13	950-952	zu	_	_
+11-14	953-964	übertreffen	_	_
+11-15	965-966	.	_	_
+
+#Text=Wenn er sich freilich als Künstler seines Ranges will bezahlen lassen , so würde der Schmuck zu theuer .
+12-1	967-971	Wenn	_	_
+12-2	972-974	er	_	_
+12-3	975-979	sich	_	_
+12-4	980-988	freilich	_	_
+12-5	989-992	als	_	_
+12-6	993-1001	Künstler	_	_
+12-7	1002-1008	seines	_	_
+12-8	1009-1015	Ranges	_	_
+12-9	1016-1020	will	_	_
+12-10	1021-1029	bezahlen	_	_
+12-11	1030-1036	lassen	_	_
+12-12	1037-1038	,	_	_
+12-13	1039-1041	so	_	_
+12-14	1042-1047	würde	_	_
+12-15	1048-1051	der	_	_
+12-16	1052-1059	Schmuck	_	_
+12-17	1060-1062	zu	_	_
+12-18	1063-1069	theuer	_	_
+12-19	1070-1071	.	_	_
+
+#Text=Schade daß Sie darüber noch nichts zufügen konnten .
+13-1	1072-1078	Schade	_	_
+13-2	1079-1082	daß	_	_
+13-3	1083-1086	Sie	_	_
+13-4	1087-1094	darüber	_	_
+13-5	1095-1099	noch	_	_
+13-6	1100-1106	nichts	_	_
+13-7	1107-1114	zufügen	_	_
+13-8	1115-1122	konnten	_	_
+13-9	1123-1124	.	_	_
+
+#Text=Vorher läßt sich hier gar nichts thun
+14-1	1125-1131	Vorher	_	_
+14-2	1132-1136	läßt	_	_
+14-3	1137-1141	sich	_	_
+14-4	1142-1146	hier	_	_
+14-5	1147-1150	gar	_	_
+14-6	1151-1157	nichts	_	_
+14-7	1158-1162	thun	_	_

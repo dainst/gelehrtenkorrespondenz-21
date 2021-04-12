@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=460 Gerhard an Braun Berlin , 10. Dezember 1844 gen ?
+1-1	0-3	460	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	10.	*[1]	DATEletter[1]
+1-8	34-42	Dezember	*[1]	DATEletter[1]
+1-9	43-47	1844	*[1]	DATEletter[1]
+1-10	48-51	gen	_	_
+1-11	52-53	?	_	_
+
+#Text=Ich dachte an Secchi und Cavedoni .
+2-1	54-57	Ich	_	_
+2-2	58-64	dachte	_	_
+2-3	65-67	an	_	_
+2-4	68-74	Secchi	*	PERmentioned
+2-5	75-78	und	_	_
+2-6	79-87	Cavedoni	*	PERmentioned
+2-7	88-89	.	_	_
+
+#Text=Lassen Sie mir Ihre Adunanzenberichte und was den 9 December betrifft zum Abschluß der Archäologischen Zeitung baldmöglichst zugehn .
+3-1	90-96	Lassen	_	_
+3-2	97-100	Sie	_	_
+3-3	101-104	mir	_	_
+3-4	105-109	Ihre	_	_
+3-5	110-127	Adunanzenberichte	_	_
+3-6	128-131	und	_	_
+3-7	132-135	was	_	_
+3-8	136-139	den	_	_
+3-9	140-141	9	*[2]	DATEmentioned[2]
+3-10	142-150	December	*[2]	DATEmentioned[2]
+3-11	151-159	betrifft	_	_
+3-12	160-163	zum	_	_
+3-13	164-172	Abschluß	_	_
+3-14	173-176	der	_	_
+3-15	177-192	Archäologischen	_	_
+3-16	193-200	Zeitung	_	_
+3-17	201-214	baldmöglichst	_	_
+3-18	215-221	zugehn	_	_
+3-19	222-223	.	_	_
+
+#Text=Über Henzen freue ich mich durch Horkel Beruhisendes zu hören .
+4-1	224-228	Über	_	_
+4-2	229-235	Henzen	*	PERmentioned
+4-3	236-241	freue	_	_
+4-4	242-245	ich	_	_
+4-5	246-250	mich	_	_
+4-6	251-256	durch	_	_
+4-7	257-263	Horkel	*	PERmentioned
+4-8	264-276	Beruhisendes	_	_
+4-9	277-279	zu	_	_
+4-10	280-285	hören	_	_
+4-11	286-287	.	_	_
+
+#Text=Für ärztlichen Rath viel Dank !
+5-1	288-291	Für	_	_
+5-2	292-302	ärztlichen	_	_
+5-3	303-307	Rath	_	_
+5-4	308-312	viel	_	_
+5-5	313-317	Dank	_	_
+5-6	318-319	!	_	_
+
+#Text=Euphrasia brauchte ich schon viel .
+6-1	320-329	Euphrasia	_	_
+6-2	330-338	brauchte	_	_
+6-3	339-342	ich	_	_
+6-4	343-348	schon	_	_
+6-5	349-353	viel	_	_
+6-6	354-355	.	_	_
+
+#Text=Was meine Frau betrifft so ist sie leider bei Melicher stark in der Kur \; seit 4 Wochen aufs Zimmer beschränkt ging sie nur 1 mal aus und litt seitdem lang an Kopf und Zähnen .
+7-1	356-359	Was	_	_
+7-2	360-365	meine	_	_
+7-3	366-370	Frau	_	_
+7-4	371-379	betrifft	_	_
+7-5	380-382	so	_	_
+7-6	383-386	ist	_	_
+7-7	387-390	sie	_	_
+7-8	391-397	leider	_	_
+7-9	398-401	bei	_	_
+7-10	402-410	Melicher	*	PERmentioned
+7-11	411-416	stark	_	_
+7-12	417-419	in	_	_
+7-13	420-423	der	_	_
+7-14	424-427	Kur	_	_
+7-15	428-429	\;	_	_
+7-16	430-434	seit	_	_
+7-17	435-436	4	_	_
+7-18	437-443	Wochen	_	_
+7-19	444-448	aufs	_	_
+7-20	449-455	Zimmer	_	_
+7-21	456-466	beschränkt	_	_
+7-22	467-471	ging	_	_
+7-23	472-475	sie	_	_
+7-24	476-479	nur	_	_
+7-25	480-481	1	_	_
+7-26	482-485	mal	_	_
+7-27	486-489	aus	_	_
+7-28	490-493	und	_	_
+7-29	494-498	litt	_	_
+7-30	499-506	seitdem	_	_
+7-31	507-511	lang	_	_
+7-32	512-514	an	_	_
+7-33	515-519	Kopf	_	_
+7-34	520-523	und	_	_
+7-35	524-530	Zähnen	_	_
+7-36	531-532	.	_	_
+
+#Text=Wir haben ungute Zeit \; Ihr Rath bleibt dennoch gut aufgehoben .
+8-1	533-536	Wir	_	_
+8-2	537-542	haben	_	_
+8-3	543-549	ungute	_	_
+8-4	550-554	Zeit	_	_
+8-5	555-556	\;	_	_
+8-6	557-560	Ihr	_	_
+8-7	561-565	Rath	_	_
+8-8	566-572	bleibt	_	_
+8-9	573-580	dennoch	_	_
+8-10	581-584	gut	_	_
+8-11	585-595	aufgehoben	_	_
+8-12	596-597	.	_	_
+
+#Text=Guten Dienst hat ihr Borax homöopathisch als Antidoton gegen Boraxbäder gethan , die im Sommer ihr schadeten .
+9-1	598-603	Guten	_	_
+9-2	604-610	Dienst	_	_
+9-3	611-614	hat	_	_
+9-4	615-618	ihr	_	_
+9-5	619-624	Borax	_	_
+9-6	625-638	homöopathisch	_	_
+9-7	639-642	als	_	_
+9-8	643-652	Antidoton	_	_
+9-9	653-658	gegen	_	_
+9-10	659-669	Boraxbäder	_	_
+9-11	670-676	gethan	_	_
+9-12	677-678	,	_	_
+9-13	679-682	die	_	_
+9-14	683-685	im	_	_
+9-15	686-692	Sommer	_	_
+9-16	693-696	ihr	_	_
+9-17	697-706	schadeten	_	_
+9-18	707-708	.	_	_
+
+#Text=Daß Schelling über Sanus - Hiunus ( ab Hiundo cf . Chaos ) las , schrieb ich wol .
+10-1	709-712	Daß	_	_
+10-2	713-722	Schelling	*	PERmentioned
+10-3	723-727	über	_	_
+10-4	728-733	Sanus	_	_
+10-5	734-735	-	_	_
+10-6	736-742	Hiunus	_	_
+10-7	743-744	(	_	_
+10-8	745-747	ab	_	_
+10-9	748-754	Hiundo	_	_
+10-10	755-757	cf	_	_
+10-11	758-759	.	_	_
+10-12	760-765	Chaos	_	_
+10-13	766-767	)	_	_
+10-14	768-771	las	_	_
+10-15	772-773	,	_	_
+10-16	774-781	schrieb	_	_
+10-17	782-785	ich	_	_
+10-18	786-789	wol	_	_
+10-19	790-791	.	_	_
+
+#Text=An Philippsborn weiß ich jetzt nicht recht zu kommen \; warum schreibt Schulz nicht noch einmal .
+11-1	792-794	An	_	_
+11-2	795-807	Philippsborn	*	PERmentioned
+11-3	808-812	weiß	_	_
+11-4	813-816	ich	_	_
+11-5	817-822	jetzt	_	_
+11-6	823-828	nicht	_	_
+11-7	829-834	recht	_	_
+11-8	835-837	zu	_	_
+11-9	838-844	kommen	_	_
+11-10	845-846	\;	_	_
+11-11	847-852	warum	_	_
+11-12	853-861	schreibt	_	_
+11-13	862-868	Schulz	*	PERmentioned
+11-14	869-874	nicht	_	_
+11-15	875-879	noch	_	_
+11-16	880-886	einmal	_	_
+11-17	887-888	.	_	_
+
+#Text=Ob Usedom es übernimmt , will ich fragen .
+12-1	889-891	Ob	_	_
+12-2	892-898	Usedom	*	PERmentioned
+12-3	899-901	es	_	_
+12-4	902-911	übernimmt	_	_
+12-5	912-913	,	_	_
+12-6	914-918	will	_	_
+12-7	919-922	ich	_	_
+12-8	923-929	fragen	_	_
+12-9	930-931	.	_	_
+
+#Text=Meine Frau erwiedert Ihre Grüße samt alle den Meinigen herzlich .
+13-1	932-937	Meine	_	_
+13-2	938-942	Frau	_	_
+13-3	943-952	erwiedert	_	_
+13-4	953-957	Ihre	_	_
+13-5	958-963	Grüße	_	_
+13-6	964-968	samt	_	_
+13-7	969-973	alle	_	_
+13-8	974-977	den	_	_
+13-9	978-986	Meinigen	_	_
+13-10	987-995	herzlich	_	_
+13-11	996-997	.	_	_
+
+#Text=Ein Beischluß an Vollard , wo möglich noch zum 2i1.sten .
+14-1	998-1001	Ein	_	_
+14-2	1002-1011	Beischluß	_	_
+14-3	1012-1014	an	_	_
+14-4	1015-1022	Vollard	*	PERmentioned
+14-5	1023-1024	,	_	_
+14-6	1025-1027	wo	_	_
+14-7	1028-1035	möglich	_	_
+14-8	1036-1040	noch	_	_
+14-9	1041-1044	zum	_	_
+14-10	1045-1053	2i1.sten	*	DATEmentioned
+14-11	1054-1055	.	_	_
+
+#Text=Grüßen Sie Ihre liebe Frau und werthe Freunde Herzlichst Ihr Gerhard
+15-1	1056-1062	Grüßen	_	_
+15-2	1063-1066	Sie	_	_
+15-3	1067-1071	Ihre	_	_
+15-4	1072-1077	liebe	_	_
+15-5	1078-1082	Frau	_	_
+15-6	1083-1086	und	_	_
+15-7	1087-1093	werthe	_	_
+15-8	1094-1101	Freunde	_	_
+15-9	1102-1112	Herzlichst	_	_
+15-10	1113-1116	Ihr	_	_
+15-11	1117-1124	Gerhard	*	PERauthor

@@ -1,0 +1,135 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 13. Mai 1838 Medicinis mich wieder hingeben oder es ganz und gar gehn lassen ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	13.	*[4]	DATEletter[4]
+1-7	30-33	Mai	*[4]	DATEletter[4]
+1-8	34-38	1838	*[4]	DATEletter[4]
+1-9	39-48	Medicinis	_	_
+1-10	49-53	mich	_	_
+1-11	54-60	wieder	_	_
+1-12	61-69	hingeben	_	_
+1-13	70-74	oder	_	_
+1-14	75-77	es	_	_
+1-15	78-82	ganz	_	_
+1-16	83-86	und	_	_
+1-17	87-90	gar	_	_
+1-18	91-95	gehn	_	_
+1-19	96-102	lassen	_	_
+1-20	103-104	?	_	_
+
+#Text=Urlpchs bitte ich vorläufig für seinen Brief zu danken \; einen Brief für Frank ( von Prof. Welte ) hatte ich ihm allerdings mitgegeben .
+2-1	105-112	Urlpchs	_	_
+2-2	113-118	bitte	_	_
+2-3	119-122	ich	_	_
+2-4	123-132	vorläufig	_	_
+2-5	133-136	für	_	_
+2-6	137-143	seinen	_	_
+2-7	144-149	Brief	_	_
+2-8	150-152	zu	_	_
+2-9	153-159	danken	_	_
+2-10	160-161	\;	_	_
+2-11	162-167	einen	_	_
+2-12	168-173	Brief	_	_
+2-13	174-177	für	_	_
+2-14	178-183	Frank	*	PERmentioned
+2-15	184-185	(	_	_
+2-16	186-189	von	_	_
+2-17	190-195	Prof.	*[6]	PERmentioned[6]
+2-18	196-201	Welte	*[6]	PERmentioned[6]
+2-19	202-203	)	_	_
+2-20	204-209	hatte	_	_
+2-21	210-213	ich	_	_
+2-22	214-217	ihm	_	_
+2-23	218-228	allerdings	_	_
+2-24	229-239	mitgegeben	_	_
+2-25	240-241	.	_	_
+
+#Text=Viel Dank und Grüße auch an Vollard \; tausend Grüße an alle lieben Freunde der einsam gewordnen Deutschen Rons \| !
+3-1	242-246	Viel	_	_
+3-2	247-251	Dank	_	_
+3-3	252-255	und	_	_
+3-4	256-261	Grüße	_	_
+3-5	262-266	auch	_	_
+3-6	267-269	an	_	_
+3-7	270-277	Vollard	*	PERmentioned
+3-8	278-279	\;	_	_
+3-9	280-287	tausend	_	_
+3-10	288-293	Grüße	_	_
+3-11	294-296	an	_	_
+3-12	297-301	alle	_	_
+3-13	302-308	lieben	_	_
+3-14	309-316	Freunde	_	_
+3-15	317-320	der	_	_
+3-16	321-327	einsam	_	_
+3-17	328-337	gewordnen	_	_
+3-18	338-347	Deutschen	_	_
+3-19	348-352	Rons	*	PLACEmentioned
+3-20	353-354	\|	_	_
+3-21	355-356	!	_	_
+
+#Text=Ihr Gerhard Ritschls Schrift über das Aly din .
+4-1	357-360	Ihr	_	_
+4-2	361-368	Gerhard	*	PERauthor
+4-3	369-377	Ritschls	*	PERmentioned
+4-4	378-385	Schrift	_	_
+4-5	386-390	über	_	_
+4-6	391-394	das	_	_
+4-7	395-398	Aly	*[11]	ORGmentioned[11]
+4-8	399-402	din	*[11]	ORGmentioned[11]
+4-9	403-404	.	*[11]	ORGmentioned[11]
+
+#Text=Museum ist heraus .
+5-1	405-411	Museum	*[11]	ORGmentioned[11]
+5-2	412-415	ist	_	_
+5-3	416-422	heraus	_	_
+5-4	423-424	.	_	_
+
+#Text=B hat den Parthey 2 Sydow reist morgen nach Frankfurt zurück .
+6-1	425-426	B	_	_
+6-2	427-430	hat	_	_
+6-3	431-434	den	_	_
+6-4	435-442	Parthey	*	PERmentioned
+6-5	443-444	2	_	_
+6-6	445-450	Sydow	*	PERmentioned
+6-7	451-456	reist	_	_
+6-8	457-463	morgen	_	_
+6-9	464-468	nach	_	_
+6-10	469-478	Frankfurt	*	PLACEmentioned
+6-11	479-485	zurück	_	_
+6-12	486-487	.	_	_
+
+#Text=Leos Gegenschrift gegen Görres zahlt mit gleicher Münze .
+7-1	488-492	Leos	_	_
+7-2	493-505	Gegenschrift	_	_
+7-3	506-511	gegen	_	_
+7-4	512-518	Görres	*	PERmentioned
+7-5	519-524	zahlt	_	_
+7-6	525-528	mit	_	_
+7-7	529-537	gleicher	_	_
+7-8	538-543	Münze	_	_
+7-9	544-545	.	_	_
+
+#Text=Das vornehme Federgericht ist schon sehr arg und könnte für B. nur sehr ungünstig ausfallen .
+8-1	546-549	Das	_	_
+8-2	550-558	vornehme	_	_
+8-3	559-571	Federgericht	_	_
+8-4	572-575	ist	_	_
+8-5	576-581	schon	_	_
+8-6	582-586	sehr	_	_
+8-7	587-590	arg	_	_
+8-8	591-594	und	_	_
+8-9	595-601	könnte	_	_
+8-10	602-605	für	_	_
+8-11	606-608	B.	_	_
+8-12	609-612	nur	_	_
+8-13	613-617	sehr	_	_
+8-14	618-627	ungünstig	_	_
+8-15	628-637	ausfallen	_	_
+8-16	638-639	.	_	_

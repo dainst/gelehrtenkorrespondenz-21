@@ -1,0 +1,212 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=# 05 108 Lepsius an Henzen Berlin , 30. Juli 1877 eg .
+1-1	0-1	#	_	_
+1-2	2-4	05	_	_
+1-3	5-8	108	_	_
+1-4	9-16	Lepsius	*	PERauthor
+1-5	17-19	an	_	_
+1-6	20-26	Henzen	*	PERaddressee
+1-7	27-33	Berlin	*	PLACEfrom
+1-8	34-35	,	_	_
+1-9	36-39	30.	*[1]	DATEletter[1]
+1-10	40-44	Juli	*[1]	DATEletter[1]
+1-11	45-49	1877	*[1]	DATEletter[1]
+1-12	50-52	eg	_	_
+1-13	53-54	.	_	_
+
+#Text=d ) mt Tr .
+2-1	55-56	d	_	_
+2-2	57-58	)	_	_
+2-3	59-61	mt	_	_
+2-4	62-64	Tr	_	_
+2-5	65-66	.	_	_
+
+#Text=15/7 77 Berlin , d . 30. Juli ( sic ) 1877 Verehrter Freund In unsrer gestrigen Sitzung wurde die Zustimmung zum Versuch mit Gärtner Köhler bestätigt .
+3-1	67-71	15/7	*[2]|*[3]	DATErecieved[2]|DATEanswered[3]
+3-2	72-74	77	*[2]|*[3]	DATErecieved[2]|DATEanswered[3]
+3-3	75-81	Berlin	*	PLACEfrom
+3-4	82-83	,	_	_
+3-5	84-85	d	_	_
+3-6	86-87	.	_	_
+3-7	88-91	30.	*[4]	DATEletter[4]
+3-8	92-96	Juli	*[4]	DATEletter[4]
+3-9	97-98	(	*[4]	DATEletter[4]
+3-10	99-102	sic	*[4]	DATEletter[4]
+3-11	103-104	)	*[4]	DATEletter[4]
+3-12	105-109	1877	*[4]	DATEletter[4]
+3-13	110-119	Verehrter	_	_
+3-14	120-126	Freund	_	_
+3-15	127-129	In	_	_
+3-16	130-136	unsrer	_	_
+3-17	137-146	gestrigen	_	_
+3-18	147-154	Sitzung	_	_
+3-19	155-160	wurde	_	_
+3-20	161-164	die	_	_
+3-21	165-175	Zustimmung	_	_
+3-22	176-179	zum	_	_
+3-23	180-187	Versuch	_	_
+3-24	188-191	mit	_	_
+3-25	192-199	Gärtner	_	_
+3-26	200-206	Köhler	*	PERmentioned
+3-27	207-216	bestätigt	_	_
+3-28	217-218	.	_	_
+
+#Text=Sie möchten aber , wird gewünscht , dem Köhler eine selbständige Insträktion über seine Institutsgeschäfte schriftlich zufertigen und demnächst , wenn er sich als brauchbar bewiesen haben sollte , eine besondere Remuneration für denselben aus den Institutsfonds beantragen .
+4-1	219-222	Sie	_	_
+4-2	223-230	möchten	_	_
+4-3	231-235	aber	_	_
+4-4	236-237	,	_	_
+4-5	238-242	wird	_	_
+4-6	243-252	gewünscht	_	_
+4-7	253-254	,	_	_
+4-8	255-258	dem	_	_
+4-9	259-265	Köhler	*	PERmentioned
+4-10	266-270	eine	_	_
+4-11	271-283	selbständige	_	_
+4-12	284-295	Insträktion	_	_
+4-13	296-300	über	_	_
+4-14	301-306	seine	_	_
+4-15	307-325	Institutsgeschäfte	_	_
+4-16	326-337	schriftlich	_	_
+4-17	338-348	zufertigen	_	_
+4-18	349-352	und	_	_
+4-19	353-362	demnächst	_	_
+4-20	363-364	,	_	_
+4-21	365-369	wenn	_	_
+4-22	370-372	er	_	_
+4-23	373-377	sich	_	_
+4-24	378-381	als	_	_
+4-25	382-391	brauchbar	_	_
+4-26	392-400	bewiesen	_	_
+4-27	401-406	haben	_	_
+4-28	407-413	sollte	_	_
+4-29	414-415	,	_	_
+4-30	416-420	eine	_	_
+4-31	421-430	besondere	_	_
+4-32	431-443	Remuneration	_	_
+4-33	444-447	für	_	_
+4-34	448-457	denselben	_	_
+4-35	458-461	aus	_	_
+4-36	462-465	den	_	_
+4-37	466-480	Institutsfonds	_	_
+4-38	481-491	beantragen	_	_
+4-39	492-493	.	_	_
+
+#Text=Die vom Institut durch ein Monitum des Rechnungshofes zurückverlangten Überschüsse der Jahre 1874 . 75. sind in den folgenden Jahren bereits ausgegeben worden , was wir gegen den Beschluß geltend machen werden .
+5-1	494-497	Die	_	_
+5-2	498-501	vom	_	_
+5-3	502-510	Institut	*	ORGmentioned
+5-4	511-516	durch	_	_
+5-5	517-520	ein	_	_
+5-6	521-528	Monitum	_	_
+5-7	529-532	des	_	_
+5-8	533-547	Rechnungshofes	_	_
+5-9	548-564	zurückverlangten	_	_
+5-10	565-576	Überschüsse	_	_
+5-11	577-580	der	_	_
+5-12	581-586	Jahre	_	_
+5-13	587-591	1874	*	DATEmentioned
+5-14	592-593	.	_	_
+5-15	594-597	75.	_	_
+5-16	598-602	sind	_	_
+5-17	603-605	in	_	_
+5-18	606-609	den	_	_
+5-19	610-619	folgenden	_	_
+5-20	620-626	Jahren	_	_
+5-21	627-634	bereits	_	_
+5-22	635-645	ausgegeben	_	_
+5-23	646-652	worden	_	_
+5-24	653-654	,	_	_
+5-25	655-658	was	_	_
+5-26	659-662	wir	_	_
+5-27	663-668	gegen	_	_
+5-28	669-672	den	_	_
+5-29	673-681	Beschluß	_	_
+5-30	682-689	geltend	_	_
+5-31	690-696	machen	_	_
+5-32	697-703	werden	_	_
+5-33	704-705	.	_	_
+
+#Text=Die Sache muß aber neu geregelt werden .
+6-1	706-709	Die	_	_
+6-2	710-715	Sache	_	_
+6-3	716-719	muß	_	_
+6-4	720-724	aber	_	_
+6-5	725-728	neu	_	_
+6-6	729-737	geregelt	_	_
+6-7	738-744	werden	_	_
+6-8	745-746	.	_	_
+
+#Text=Ihre Bemerkung über die Bestimmung der vorläufig gestrichenen 400 Mark kam gestern noch rechtzeitig an .
+7-1	747-751	Ihre	_	_
+7-2	752-761	Bemerkung	_	_
+7-3	762-766	über	_	_
+7-4	767-770	die	_	_
+7-5	771-781	Bestimmung	_	_
+7-6	782-785	der	_	_
+7-7	786-795	vorläufig	_	_
+7-8	796-808	gestrichenen	_	_
+7-9	809-812	400	_	_
+7-10	813-817	Mark	_	_
+7-11	818-821	kam	_	_
+7-12	822-829	gestern	_	_
+7-13	830-834	noch	_	_
+7-14	835-846	rechtzeitig	_	_
+7-15	847-849	an	_	_
+7-16	850-851	.	_	_
+
+#Text=Sie wird in unserm Bericht erwähnt werden .
+8-1	852-855	Sie	_	_
+8-2	856-860	wird	_	_
+8-3	861-863	in	_	_
+8-4	864-870	unserm	_	_
+8-5	871-878	Bericht	_	_
+8-6	879-886	erwähnt	_	_
+8-7	887-893	werden	_	_
+8-8	894-895	.	_	_
+
+#Text=Demnach werden wir zur Zeit keine augenblickliche Remedur beantragen , sondern durch Übertragung aus andern Titeln Rath schaffen .
+9-1	896-903	Demnach	_	_
+9-2	904-910	werden	_	_
+9-3	911-914	wir	_	_
+9-4	915-918	zur	_	_
+9-5	919-923	Zeit	_	_
+9-6	924-929	keine	_	_
+9-7	930-945	augenblickliche	_	_
+9-8	946-953	Remedur	_	_
+9-9	954-964	beantragen	_	_
+9-10	965-966	,	_	_
+9-11	967-974	sondern	_	_
+9-12	975-980	durch	_	_
+9-13	981-992	Übertragung	_	_
+9-14	993-996	aus	_	_
+9-15	997-1003	andern	_	_
+9-16	1004-1010	Titeln	_	_
+9-17	1011-1015	Rath	_	_
+9-18	1016-1024	schaffen	_	_
+9-19	1025-1026	.	_	_
+
+#Text=Dem Portier vom 1. Juli ab nach Ihrem Wunsche das auf 900 Mark erhöhte Gehalt zu gewähren wird bewilligt .
+10-1	1027-1030	Dem	_	_
+10-2	1031-1038	Portier	_	_
+10-3	1039-1042	vom	_	_
+10-4	1043-1045	1.	*[5]	DATEmentioned[5]
+10-5	1046-1050	Juli	*[5]	DATEmentioned[5]
+10-6	1051-1053	ab	_	_
+10-7	1054-1058	nach	_	_
+10-8	1059-1064	Ihrem	_	_
+10-9	1065-1072	Wunsche	_	_
+10-10	1073-1076	das	_	_
+10-11	1077-1080	auf	_	_
+10-12	1081-1084	900	_	_
+10-13	1085-1089	Mark	_	_
+10-14	1090-1097	erhöhte	_	_
+10-15	1098-1104	Gehalt	_	_
+10-16	1105-1107	zu	_	_
+10-17	1108-1116	gewähren	_	_
+10-18	1117-1121	wird	_	_
+10-19	1122-1131	bewilligt	_	_
+10-20	1132-1133	.	_	_

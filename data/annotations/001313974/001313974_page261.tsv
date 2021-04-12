@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Siena , ohne Datum , doch sicher der 15 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-22	Siena	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-29	ohne	_	_
+1-7	30-35	Datum	_	_
+1-8	36-37	,	_	_
+1-9	38-42	doch	_	_
+1-10	43-49	sicher	_	_
+1-11	50-53	der	_	_
+1-12	54-56	15	*[3]	DATEletter[3]
+1-13	57-58	.	*[3]	DATEletter[3]
+
+#Text=August 1875 Ohne Datum Lieber Herr Professor Gestern bin ich von Sarteano , Cetona , Chiusi zurückgekehrt nach einer entsetzlich heißen Reise .
+2-1	59-65	August	*[3]	DATEletter[3]
+2-2	66-70	1875	*[3]	DATEletter[3]
+2-3	71-75	Ohne	_	_
+2-4	76-81	Datum	_	_
+2-5	82-88	Lieber	_	_
+2-6	89-93	Herr	_	_
+2-7	94-103	Professor	_	_
+2-8	104-111	Gestern	_	_
+2-9	112-115	bin	_	_
+2-10	116-119	ich	_	_
+2-11	120-123	von	_	_
+2-12	124-132	Sarteano	*	PLACEmentioned
+2-13	133-134	,	_	_
+2-14	135-141	Cetona	*	PLACEmentioned
+2-15	142-143	,	_	_
+2-16	144-150	Chiusi	*	PLACEmentioned
+2-17	151-164	zurückgekehrt	_	_
+2-18	165-169	nach	_	_
+2-19	170-175	einer	_	_
+2-20	176-187	entsetzlich	_	_
+2-21	188-194	heißen	_	_
+2-22	195-200	Reise	_	_
+2-23	201-202	.	_	_
+
+#Text=In Sarteano eine kleine etruskische Nekropole ähnlich der von Poggio Renzo und einige Urnen , über die ich an Brunn schreiben werde .
+3-1	203-205	In	_	_
+3-2	206-214	Sarteano	*	PLACEmentioned
+3-3	215-219	eine	_	_
+3-4	220-226	kleine	_	_
+3-5	227-238	etruskische	*[4]	PLACEmentioned[4]
+3-6	239-248	Nekropole	*[4]	PLACEmentioned[4]
+3-7	249-256	ähnlich	_	_
+3-8	257-260	der	_	_
+3-9	261-264	von	_	_
+3-10	265-271	Poggio	*[5]	PLACEmentioned[5]
+3-11	272-277	Renzo	*[5]	PLACEmentioned[5]
+3-12	278-281	und	_	_
+3-13	282-288	einige	_	_
+3-14	289-294	Urnen	*	OBJ
+3-15	295-296	,	_	_
+3-16	297-301	über	_	_
+3-17	302-305	die	_	_
+3-18	306-309	ich	_	_
+3-19	310-312	an	_	_
+3-20	313-318	Brunn	*	PERmentioned
+3-21	319-328	schreiben	_	_
+3-22	329-334	werde	_	_
+3-23	335-336	.	_	_
+
+#Text=Aus meinem Briefe an De Sanctis werden Sie ersehen , was es in Chiusi und Cetona zu zeichnen giebt .
+4-1	337-340	Aus	_	_
+4-2	341-347	meinem	_	_
+4-3	348-354	Briefe	_	_
+4-4	355-357	an	_	_
+4-5	358-360	De	*[6]	PERmentioned[6]
+4-6	361-368	Sanctis	*[6]	PERmentioned[6]
+4-7	369-375	werden	_	_
+4-8	376-379	Sie	_	_
+4-9	380-387	ersehen	_	_
+4-10	388-389	,	_	_
+4-11	390-393	was	_	_
+4-12	394-396	es	_	_
+4-13	397-399	in	_	_
+4-14	400-406	Chiusi	*	PLACEmentioned
+4-15	407-410	und	_	_
+4-16	411-417	Cetona	*	PLACEmentioned
+4-17	418-420	zu	_	_
+4-18	421-429	zeichnen	_	_
+4-19	430-435	giebt	_	_
+4-20	436-437	.	_	_
+
+#Text=Über die dortigen Urnen , so weit ich nicht ganz sicher bin , daß sie neuerdings gefunden , werde ich mich mit Brunn verständigen und dann möglicher Weise die Liste vermehren .
+5-1	438-442	Über	_	_
+5-2	443-446	die	_	_
+5-3	447-455	dortigen	_	_
+5-4	456-461	Urnen	*	OBJ
+5-5	462-463	,	_	_
+5-6	464-466	so	_	_
+5-7	467-471	weit	_	_
+5-8	472-475	ich	_	_
+5-9	476-481	nicht	_	_
+5-10	482-486	ganz	_	_
+5-11	487-493	sicher	_	_
+5-12	494-497	bin	_	_
+5-13	498-499	,	_	_
+5-14	500-503	daß	_	_
+5-15	504-507	sie	_	_
+5-16	508-518	neuerdings	_	_
+5-17	519-527	gefunden	_	_
+5-18	528-529	,	_	_
+5-19	530-535	werde	_	_
+5-20	536-539	ich	_	_
+5-21	540-544	mich	_	_
+5-22	545-548	mit	_	_
+5-23	549-554	Brunn	*	PERmentioned
+5-24	555-567	verständigen	_	_
+5-25	568-571	und	_	_
+5-26	572-576	dann	_	_
+5-27	577-586	möglicher	_	_
+5-28	587-592	Weise	_	_
+5-29	593-596	die	_	_
+5-30	597-602	Liste	_	_
+5-31	603-612	vermehren	_	_
+5-32	613-614	.	_	_
+
+#Text=Die Arbeit kann jedoch nicht vor Ende Septenber in Angriff genommen werden , was auch aus Gesundheitsrücksichten räthlich .
+6-1	615-618	Die	_	_
+6-2	619-625	Arbeit	_	_
+6-3	626-630	kann	_	_
+6-4	631-637	jedoch	_	_
+6-5	638-643	nicht	_	_
+6-6	644-647	vor	_	_
+6-7	648-652	Ende	_	_
+6-8	653-662	Septenber	*	DATEmentioned
+6-9	663-665	in	_	_
+6-10	666-673	Angriff	_	_
+6-11	674-682	genommen	_	_
+6-12	683-689	werden	_	_
+6-13	690-691	,	_	_
+6-14	692-695	was	_	_
+6-15	696-700	auch	_	_
+6-16	701-704	aus	_	_
+6-17	705-727	Gesundheitsrücksichten	_	_
+6-18	728-736	räthlich	_	_
+6-19	737-738	.	_	_
+
+#Text=In Chiusi ging da Gerücht , Corssen sei gestorben .
+7-1	739-741	In	_	_
+7-2	742-748	Chiusi	*	PLACEmentioned
+7-3	749-753	ging	_	_
+7-4	754-756	da	_	_
+7-5	757-764	Gerücht	_	_
+7-6	765-766	,	_	_
+7-7	767-774	Corssen	*	PERmentioned
+7-8	775-778	sei	_	_
+7-9	779-788	gestorben	_	_
+7-10	789-790	.	_	_
+
+#Text=Das ist doch hoffentlich falsch ?
+8-1	791-794	Das	_	_
+8-2	795-798	ist	_	_
+8-3	799-803	doch	_	_
+8-4	804-815	hoffentlich	_	_
+8-5	816-822	falsch	_	_
+8-6	823-824	?	_	_
+
+#Text=Ich würde Ihnen sehr dankbar sein , wenn Sie mich mit einer Zeile hierüber beruhigten .
+9-1	825-828	Ich	_	_
+9-2	829-834	würde	_	_
+9-3	835-840	Ihnen	_	_
+9-4	841-845	sehr	_	_
+9-5	846-853	dankbar	_	_
+9-6	854-858	sein	_	_
+9-7	859-860	,	_	_
+9-8	861-865	wenn	_	_
+9-9	866-869	Sie	_	_
+9-10	870-874	mich	_	_
+9-11	875-878	mit	_	_
+9-12	879-884	einer	_	_
+9-13	885-890	Zeile	_	_
+9-14	891-899	hierüber	_	_
+9-15	900-910	beruhigten	_	_
+9-16	911-912	.	_	_
+
+#Text=Jetzt ist auch hier die Hitze sehr groß , aber in der Villa wenigstens immer noch erträglich .
+10-1	913-918	Jetzt	_	_
+10-2	919-922	ist	_	_
+10-3	923-927	auch	_	_
+10-4	928-932	hier	_	_
+10-5	933-936	die	_	_
+10-6	937-942	Hitze	_	_
+10-7	943-947	sehr	_	_
+10-8	948-952	groß	_	_
+10-9	953-954	,	_	_
+10-10	955-959	aber	_	_
+10-11	960-962	in	_	_
+10-12	963-966	der	_	_
+10-13	967-972	Villa	_	_
+10-14	973-983	wenigstens	_	_
+10-15	984-989	immer	_	_
+10-16	990-994	noch	_	_
+10-17	995-1005	erträglich	_	_
+10-18	1006-1007	.	_	_
+
+#Text=Wann sehen wir Sie bei uns ?
+11-1	1008-1012	Wann	_	_
+11-2	1013-1018	sehen	_	_
+11-3	1019-1022	wir	_	_
+11-4	1023-1026	Sie	_	_
+11-5	1027-1030	bei	_	_
+11-6	1031-1034	uns	_	_
+11-7	1035-1036	?	_	_
+
+#Text=Mit herzlichen Grüßen Ihr ergebener Helbig
+12-1	1037-1040	Mit	_	_
+12-2	1041-1051	herzlichen	_	_
+12-3	1052-1058	Grüßen	_	_
+12-4	1059-1062	Ihr	_	_
+12-5	1063-1072	ergebener	_	_
+12-6	1073-1079	Helbig	*	PERauthor

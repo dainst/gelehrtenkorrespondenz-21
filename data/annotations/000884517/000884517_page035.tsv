@@ -1,0 +1,34 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=116 Gerhard an Braun Berlin , 27. Februar 1844 mir für unsern Privatgebrauch gesonderten Kleinigkeiten könnten wir wol zugleich mit der nächsten Berechnung erledigen .
+1-1	0-3	116	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	27.	*[1]	DATEletter[1]
+1-8	34-41	Februar	*[1]	DATEletter[1]
+1-9	42-46	1844	*[1]	DATEletter[1]
+1-10	47-50	mir	_	_
+1-11	51-54	für	_	_
+1-12	55-61	unsern	_	_
+1-13	62-76	Privatgebrauch	_	_
+1-14	77-88	gesonderten	_	_
+1-15	89-102	Kleinigkeiten	_	_
+1-16	103-110	könnten	_	_
+1-17	111-114	wir	_	_
+1-18	115-118	wol	_	_
+1-19	119-127	zugleich	_	_
+1-20	128-131	mit	_	_
+1-21	132-135	der	_	_
+1-22	136-144	nächsten	_	_
+1-23	145-155	Berechnung	_	_
+1-24	156-165	erledigen	_	_
+1-25	166-167	.	_	_
+
+#Text=Ohne Unterschrift
+2-1	168-172	Ohne	_	_
+2-2	173-185	Unterschrift	_	_

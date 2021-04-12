@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=79 Gerhard an Braun Berlin , 30 .
+1-1	0-2	79	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	30	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Jamuar 1844 Ob das Institut jetzt Miethe zahlt oder nicht sagt mir wol Ihr nächster Brief , um dann Bunsen zu baldigem Antrag hiefür anzumahnen .
+2-1	34-40	Jamuar	*[1]	DATEletter[1]
+2-2	41-45	1844	*[1]	DATEletter[1]
+2-3	46-48	Ob	_	_
+2-4	49-52	das	_	_
+2-5	53-61	Institut	*	ORGmentioned
+2-6	62-67	jetzt	_	_
+2-7	68-74	Miethe	_	_
+2-8	75-80	zahlt	_	_
+2-9	81-85	oder	_	_
+2-10	86-91	nicht	_	_
+2-11	92-96	sagt	_	_
+2-12	97-100	mir	_	_
+2-13	101-104	wol	_	_
+2-14	105-108	Ihr	_	_
+2-15	109-117	nächster	_	_
+2-16	118-123	Brief	_	_
+2-17	124-125	,	_	_
+2-18	126-128	um	_	_
+2-19	129-133	dann	_	_
+2-20	134-140	Bunsen	*	PERmentioned
+2-21	141-143	zu	_	_
+2-22	144-152	baldigem	_	_
+2-23	153-159	Antrag	_	_
+2-24	160-166	hiefür	_	_
+2-25	167-177	anzumahnen	_	_
+2-26	178-179	.	_	_
+
+#Text=Ich schreibe ihm dann auch wegen Joseph Tauch .
+3-1	180-183	Ich	_	_
+3-2	184-192	schreibe	_	_
+3-3	193-196	ihm	_	_
+3-4	197-201	dann	_	_
+3-5	202-206	auch	_	_
+3-6	207-212	wegen	_	_
+3-7	213-219	Joseph	*[2]	PERmentioned[2]
+3-8	220-225	Tauch	*[2]	PERmentioned[2]
+3-9	226-227	.	_	_
+
+#Text=Wieviel war im vorigen Herbst verfehlt dadurch daß Sie nicht in Paris , ich nicht mit Ihnen in Rom war !
+4-1	228-235	Wieviel	_	_
+4-2	236-239	war	_	_
+4-3	240-242	im	_	_
+4-4	243-250	vorigen	_	_
+4-5	251-257	Herbst	_	_
+4-6	258-266	verfehlt	_	_
+4-7	267-274	dadurch	_	_
+4-8	275-278	daß	_	_
+4-9	279-282	Sie	_	_
+4-10	283-288	nicht	_	_
+4-11	289-291	in	_	_
+4-12	292-297	Paris	*	PLACEmentioned
+4-13	298-299	,	_	_
+4-14	300-303	ich	_	_
+4-15	304-309	nicht	_	_
+4-16	310-313	mit	_	_
+4-17	314-319	Ihnen	_	_
+4-18	320-322	in	_	_
+4-19	323-326	Rom	*	PLACEmentioned
+4-20	327-330	war	_	_
+4-21	331-332	!	_	_
+
+#Text=Für Cades werde ich also die Göttinger Zahlung einkassiren .
+5-1	333-336	Für	_	_
+5-2	337-342	Cades	*	PERmentioned
+5-3	343-348	werde	_	_
+5-4	349-352	ich	_	_
+5-5	353-357	also	_	_
+5-6	358-361	die	_	_
+5-7	362-371	Göttinger	*	PLACEmentioned
+5-8	372-379	Zahlung	_	_
+5-9	380-391	einkassiren	_	_
+5-10	392-393	.	_	_
+
+#Text=Die 5 Scudi des Scarpellino sind doch offenbar von ihm nicht ligquidirt worden , während Jahr und Tag seine Sendung samt den andern königlichen vorbereitet ward .
+6-1	394-397	Die	_	_
+6-2	398-399	5	_	_
+6-3	400-405	Scudi	_	_
+6-4	406-409	des	_	_
+6-5	410-421	Scarpellino	_	_
+6-6	422-426	sind	_	_
+6-7	427-431	doch	_	_
+6-8	432-440	offenbar	_	_
+6-9	441-444	von	_	_
+6-10	445-448	ihm	_	_
+6-11	449-454	nicht	_	_
+6-12	455-465	ligquidirt	_	_
+6-13	466-472	worden	_	_
+6-14	473-474	,	_	_
+6-15	475-482	während	_	_
+6-16	483-487	Jahr	_	_
+6-17	488-491	und	_	_
+6-18	492-495	Tag	_	_
+6-19	496-501	seine	_	_
+6-20	502-509	Sendung	_	_
+6-21	510-514	samt	_	_
+6-22	515-518	den	_	_
+6-23	519-525	andern	_	_
+6-24	526-537	königlichen	_	_
+6-25	538-549	vorbereitet	_	_
+6-26	550-554	ward	_	_
+6-27	555-556	.	_	_
+
+#Text=Hat er sie aber zu bekommen so bleibt nichts übrig als sie für Herrn von Olfers oder äußerstenfalls für mich auszulegen .
+7-1	557-560	Hat	_	_
+7-2	561-563	er	_	_
+7-3	564-567	sie	_	_
+7-4	568-572	aber	_	_
+7-5	573-575	zu	_	_
+7-6	576-584	bekommen	_	_
+7-7	585-587	so	_	_
+7-8	588-594	bleibt	_	_
+7-9	595-601	nichts	_	_
+7-10	602-607	übrig	_	_
+7-11	608-611	als	_	_
+7-12	612-615	sie	_	_
+7-13	616-619	für	_	_
+7-14	620-625	Herrn	_	_
+7-15	626-629	von	*[3]	PERmentioned[3]
+7-16	630-636	Olfers	*[3]	PERmentioned[3]
+7-17	637-641	oder	_	_
+7-18	642-656	äußerstenfalls	_	_
+7-19	657-660	für	_	_
+7-20	661-665	mich	_	_
+7-21	666-676	auszulegen	_	_
+7-22	677-678	.	_	_
+
+#Text=Von den neuen Institutsdignitäten war glaube ich nur Fellows zu betheiligen außer den Deutschen die ich besorgte und den Italienischen die Sie mit Borghesi's Unterschrift vertheilt haben werden .
+8-1	679-682	Von	_	_
+8-2	683-686	den	_	_
+8-3	687-692	neuen	_	_
+8-4	693-712	Institutsdignitäten	_	_
+8-5	713-716	war	_	_
+8-6	717-723	glaube	_	_
+8-7	724-727	ich	_	_
+8-8	728-731	nur	_	_
+8-9	732-739	Fellows	*	PERmentioned
+8-10	740-742	zu	_	_
+8-11	743-754	betheiligen	_	_
+8-12	755-760	außer	_	_
+8-13	761-764	den	_	_
+8-14	765-774	Deutschen	_	_
+8-15	775-778	die	_	_
+8-16	779-782	ich	_	_
+8-17	783-791	besorgte	_	_
+8-18	792-795	und	_	_
+8-19	796-799	den	_	_
+8-20	800-813	Italienischen	_	_
+8-21	814-817	die	_	_
+8-22	818-821	Sie	_	_
+8-23	822-825	mit	_	_
+8-24	826-836	Borghesi's	*	PERmentioned
+8-25	837-849	Unterschrift	_	_
+8-26	850-859	vertheilt	_	_
+8-27	860-865	haben	_	_
+8-28	866-872	werden	_	_
+8-29	873-874	.	_	_
+
+#Text=An Borghesi schreibe ich heute um seinen Rath für epigraphische Projekte zu erbitten die unsere Akademie unterstützen könnte \; das Corpus Inscr .
+9-1	875-877	An	_	_
+9-2	878-886	Borghesi	*	PERmentioned
+9-3	887-895	schreibe	_	_
+9-4	896-899	ich	_	_
+9-5	900-905	heute	_	_
+9-6	906-908	um	_	_
+9-7	909-915	seinen	_	_
+9-8	916-920	Rath	_	_
+9-9	921-924	für	_	_
+9-10	925-938	epigraphische	_	_
+9-11	939-947	Projekte	_	_
+9-12	948-950	zu	_	_
+9-13	951-959	erbitten	_	_
+9-14	960-963	die	_	_
+9-15	964-970	unsere	_	_
+9-16	971-979	Akademie	*	ORGmentioned
+9-17	980-992	unterstützen	_	_
+9-18	993-999	könnte	_	_
+9-19	1000-1001	\;	_	_
+9-20	1002-1005	das	_	_
+9-21	1006-1012	Corpus	_	_
+9-22	1013-1018	Inscr	_	_
+9-23	1019-1020	.	_	_
+
+#Text=rom .
+10-1	1021-1024	rom	_	_
+10-2	1025-1026	.	_	_
+
+#Text=als Materialsammlung wird sich aber nach allem Anschein den Franzosen nicht mehr entwinden lassen ( NB : Egger ist der Faktor ) .
+11-1	1027-1030	als	_	_
+11-2	1031-1047	Materialsammlung	_	_
+11-3	1048-1052	wird	_	_
+11-4	1053-1057	sich	_	_
+11-5	1058-1062	aber	_	_
+11-6	1063-1067	nach	_	_
+11-7	1068-1073	allem	_	_
+11-8	1074-1082	Anschein	_	_
+11-9	1083-1086	den	_	_
+11-10	1087-1096	Franzosen	_	_
+11-11	1097-1102	nicht	_	_
+11-12	1103-1107	mehr	_	_
+11-13	1108-1117	entwinden	_	_
+11-14	1118-1124	lassen	_	_
+11-15	1125-1126	(	_	_
+11-16	1127-1129	NB	_	_
+11-17	1130-1131	:	_	_
+11-18	1132-1137	Egger	*	PERmentioned
+11-19	1138-1141	ist	_	_
+11-20	1142-1145	der	_	_
+11-21	1146-1152	Faktor	_	_
+11-22	1153-1154	)	_	_
+11-23	1155-1156	.	_	_
+
+#Text=Die Zeichnungen der ägyptischen Grotte machen
+12-1	1157-1160	Die	_	_
+12-2	1161-1172	Zeichnungen	_	_
+12-3	1173-1176	der	_	_
+12-4	1177-1188	ägyptischen	*[4]	OBJ[4]
+12-5	1189-1195	Grotte	*[4]	OBJ[4]
+12-6	1196-1202	machen	_	_

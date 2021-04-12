@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 17. Juli 1837 Dr. Braun g : 19/7 37 Aff .
+1-1	0-7	Gerhard	*	PERauthor	
+1-2	8-10	an	_	_	
+1-3	11-16	Braun	*	PERaddressee	
+1-4	17-24	Livorno	*	PLACEfrom	
+1-5	25-26	,	_	_	
+1-6	27-30	17.	*[1]	DATEletter[1]	
+1-7	31-35	Juli	*[1]	DATEletter[1]	
+1-8	36-40	1837	*[1]	DATEletter[1]	
+1-9	41-44	Dr.	_	_	
+1-10	45-50	Braun	*	PERaddressee	
+1-11	51-52	g	_	_	
+1-12	53-54	:	_	_	
+1-13	55-59	19/7	*[2]	DATErecieved[2]	
+1-14	60-62	37	*[2]	DATErecieved[2]	
+1-15	63-66	Aff	_	_	
+1-16	67-68	.	_	_	
+
+#Text=d. Direz .
+2-1	69-71	d.	_	_	
+2-2	72-77	Direz	_	_	
+2-3	78-79	.	_	_	
+
+#Text=COoXI Anhangenden Brief wegen des Lascipassare bitte ich sofort an Re « - o « t zu addressiren und zu befördern .
+3-1	80-85	COoXI	_	_	
+3-2	86-97	Anhangenden	_	_	
+3-3	98-103	Brief	_	_	
+3-4	104-109	wegen	_	_	
+3-5	110-113	des	_	_	
+3-6	114-126	Lascipassare	_	_	
+3-7	127-132	bitte	_	_	
+3-8	133-136	ich	_	_	
+3-9	137-143	sofort	_	_	
+3-10	144-146	an	_	_	
+3-11	147-149	Re	_	_	
+3-12	150-151	«	_	_	
+3-13	152-153	-	_	_	
+3-14	154-155	o	_	_	
+3-15	156-157	«	_	_	
+3-16	158-159	t	_	_	
+3-17	160-162	zu	_	_	
+3-18	163-174	addressiren	_	_	
+3-19	175-178	und	_	_	
+3-20	179-181	zu	_	_	
+3-21	182-191	befördern	_	_	
+3-22	192-193	.	_	_	
+
+#Text=Sollte derselbe nicht in Rom sein , so 1äßt sich der Defekt vielleicht mit Sig .
+4-1	194-200	Sollte	_	_	
+4-2	201-209	derselbe	_	_	
+4-3	210-215	nicht	_	_	
+4-4	216-218	in	_	_	
+4-5	219-222	Rom	*	PLACEmentioned	
+4-6	223-227	sein	_	_	
+4-7	228-229	,	_	_	
+4-8	230-232	so	_	_	
+4-9	233-237	1äßt	_	_	
+4-10	238-242	sich	_	_	
+4-11	243-246	der	_	_	
+4-12	247-253	Defekt	_	_	
+4-13	254-264	vielleicht	_	_	
+4-14	265-268	mit	_	_	
+4-15	269-272	Sig	*[3]	PERmentioned[3]	
+4-16	273-274	.	*[3]	PERmentioned[3]	
+
+#Text=Toncaso abmachen .
+5-1	275-282	Toncaso	*[3]	PERmentioned[3]	
+5-2	283-291	abmachen	_	_	
+5-3	292-293	.	_	_	
+
+#Text=Man ist an Mißgeschick gewöhnt .
+6-1	294-297	Man	_	_	
+6-2	298-301	ist	_	_	
+6-3	302-304	an	_	_	
+6-4	305-316	Mißgeschick	_	_	
+6-5	317-324	gewöhnt	_	_	
+6-6	325-326	.	_	_	
+
+#Text=Livorno macht zur Abwechslung 5 Tage Quarantaine gegen Marseille und Genua ; so wage ich nicht mehr nach Civitavecchia zu gehn , wenigstens nicht Accolta einzuladen und das Lasciapassare dafür zu bestellen .
+7-1	327-334	Livorno	*	PLACEmentioned	
+7-2	335-340	macht	_	_	
+7-3	341-344	zur	_	_	
+7-4	345-356	Abwechslung	_	_	
+7-5	357-358	5	_	_	
+7-6	359-363	Tage	_	_	
+7-7	364-375	Quarantaine	_	_	
+7-8	376-381	gegen	_	_	
+7-9	382-391	Marseille	*	PLACEmentioned	
+7-10	392-395	und	_	_	
+7-11	396-401	Genua	*	PLACEmentioned	
+7-12	402-403	;	_	_	
+7-13	404-406	so	_	_	
+7-14	407-411	wage	_	_	
+7-15	412-415	ich	_	_	
+7-16	416-421	nicht	_	_	
+7-17	422-426	mehr	_	_	
+7-18	427-431	nach	_	_	
+7-19	432-445	Civitavecchia	*	PLACEmentioned	
+7-20	446-448	zu	_	_	
+7-21	449-453	gehn	_	_	
+7-22	454-455	,	_	_	
+7-23	456-466	wenigstens	_	_	
+7-24	467-472	nicht	_	_	
+7-25	473-480	Accolta	_	_	
+7-26	481-491	einzuladen	_	_	
+7-27	492-495	und	_	_	
+7-28	496-499	das	_	_	
+7-29	500-513	Lasciapassare	_	_	
+7-30	514-519	dafür	_	_	
+7-31	520-522	zu	_	_	
+7-32	523-532	bestellen	_	_	
+7-33	533-534	.	_	_	
+
+#Text=Es ist nicht unmöglich daß die Umstände mir dennoch zu erlauben mit der Hälfte der Kisten dem früheren Flan zu folgen ; wahrscheinlicher ist es jezt aber daß ich Montag früh mit dem Toskanischen Courier in Rom eintreffe .
+8-1	535-537	Es	_	_	
+8-2	538-541	ist	_	_	
+8-3	542-547	nicht	_	_	
+8-4	548-557	unmöglich	_	_	
+8-5	558-561	daß	_	_	
+8-6	562-565	die	_	_	
+8-7	566-574	Umstände	_	_	
+8-8	575-578	mir	_	_	
+8-9	579-586	dennoch	_	_	
+8-10	587-589	zu	_	_	
+8-11	590-598	erlauben	_	_	
+8-12	599-602	mit	_	_	
+8-13	603-606	der	_	_	
+8-14	607-613	Hälfte	_	_	
+8-15	614-617	der	_	_	
+8-16	618-624	Kisten	_	_	
+8-17	625-628	dem	_	_	
+8-18	629-637	früheren	_	_	
+8-19	638-642	Flan	_	_	
+8-20	643-645	zu	_	_	
+8-21	646-652	folgen	_	_	
+8-22	653-654	;	_	_	
+8-23	655-671	wahrscheinlicher	_	_	
+8-24	672-675	ist	_	_	
+8-25	676-678	es	_	_	
+8-26	679-683	jezt	_	_	
+8-27	684-688	aber	_	_	
+8-28	689-692	daß	_	_	
+8-29	693-696	ich	_	_	
+8-30	697-703	Montag	*	DATEmentioned	
+8-31	704-708	früh	_	_	
+8-32	709-712	mit	_	_	
+8-33	713-716	dem	_	_	
+8-34	717-729	Toskanischen	_	_	
+8-35	730-737	Courier	_	_	
+8-36	738-740	in	_	_	
+8-37	741-744	Rom	*	PLACEmentioned	
+8-38	745-754	eintreffe	_	_	
+8-39	755-756	.	_	_	
+
+#Text=Mann .
+9-1	757-761	Mann	_	_	
+9-2	762-763	.	_	_	
+
+#Text=wünschte seinen Vetruv dem König von Griechenland genehm zu machen ; er kann ihn getrost senden , man schreibt gleichzeitig an Brandis .
+10-1	764-772	wünschte	_	_	
+10-2	773-779	seinen	_	_	
+10-3	780-786	Vetruv	_	_	
+10-4	787-790	dem	_	_	
+10-5	791-796	König	*[4]	PERmentioned[4]	
+10-6	797-800	von	*[4]	PERmentioned[4]	
+10-7	801-813	Griechenland	*[4]	PERmentioned[4]	
+10-8	814-820	genehm	_	_	
+10-9	821-823	zu	_	_	
+10-10	824-830	machen	_	_	
+10-11	831-832	;	_	_	
+10-12	833-835	er	_	_	
+10-13	836-840	kann	_	_	
+10-14	841-844	ihn	_	_	
+10-15	845-852	getrost	_	_	
+10-16	853-859	senden	_	_	
+10-17	860-861	,	_	_	
+10-18	862-865	man	_	_	
+10-19	866-874	schreibt	_	_	
+10-20	875-887	gleichzeitig	_	_	
+10-21	888-890	an	_	_	
+10-22	891-898	Brandis	*	PERmentioned	
+10-23	899-900	.	_	_	
+
+#Text=Diese Sendung wird Ihnen für Griechenland bequem sein .
+11-1	901-906	Diese	_	_	
+11-2	907-914	Sendung	_	_	
+11-3	915-919	wird	_	_	
+11-4	920-925	Ihnen	_	_	
+11-5	926-929	für	_	_	
+11-6	930-942	Griechenland	*	PLACEmentioned	
+11-7	943-949	bequem	_	_	
+11-8	950-954	sein	_	_	
+11-9	955-956	.	_	_	
+
+#Text=Sie ist weniger eilig als die für Orioli , der nützlich ist und Aufmerksankeiten verdient .
+12-1	957-960	Sie	_	_	
+12-2	961-964	ist	_	_	
+12-3	965-972	weniger	_	_	
+12-4	973-978	eilig	_	_	
+12-5	979-982	als	_	_	
+12-6	983-986	die	_	_	
+12-7	987-990	für	_	_	
+12-8	991-997	Orioli	*	PERmentioned	
+12-9	998-999	,	_	_	
+12-10	1000-1003	der	_	_	
+12-11	1004-1012	nützlich	_	_	
+12-12	1013-1016	ist	_	_	
+12-13	1017-1020	und	_	_	
+12-14	1021-1037	Aufmerksankeiten	_	_	
+12-15	1038-1046	verdient	_	_	
+12-16	1047-1048	.	_	_	
+
+#Text=Vebrigens geht es mir hartnäckig übel , dergestalt daß ich diesen Brief schließe , falls nicht von der gestrigen Post nachhinkend noch einer von Ihnen eintrifft .
+13-1	1049-1058	Vebrigens	_	_	
+13-2	1059-1063	geht	_	_	
+13-3	1064-1066	es	_	_	
+13-4	1067-1070	mir	_	_	
+13-5	1071-1081	hartnäckig	_	_	
+13-6	1082-1086	übel	_	_	
+13-7	1087-1088	,	_	_	
+13-8	1089-1099	dergestalt	_	_	
+13-9	1100-1103	daß	_	_	
+13-10	1104-1107	ich	_	_	
+13-11	1108-1114	diesen	_	_	
+13-12	1115-1120	Brief	_	_	
+13-13	1121-1129	schließe	_	_	
+13-14	1130-1131	,	_	_	
+13-15	1132-1137	falls	_	_	
+13-16	1138-1143	nicht	_	_	
+13-17	1144-1147	von	_	_	
+13-18	1148-1151	der	_	_	
+13-19	1152-1161	gestrigen	_	_	
+13-20	1162-1166	Post	_	_	
+13-21	1167-1178	nachhinkend	_	_	
+13-22	1179-1183	noch	_	_	
+13-23	1184-1189	einer	_	_	
+13-24	1190-1193	von	_	_	
+13-25	1194-1199	Ihnen	_	_	
+13-26	1200-1209	eintrifft	_	_	
+13-27	1210-1211	.	_	_	

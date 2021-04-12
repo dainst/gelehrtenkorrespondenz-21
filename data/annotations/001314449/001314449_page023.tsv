@@ -1,0 +1,315 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=262 Henzen an Gerhard 20/XI/51 Verehrter Herr Frofessor !
+1-1	0-3	262	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-30	20/XI/51	*	DATEletter
+1-6	31-40	Verehrter	_	_
+1-7	41-45	Herr	_	_
+1-8	46-55	Frofessor	_	_
+1-9	56-57	!	_	_
+
+#Text=Braun ist vor 3 Tagen angekommen , grüßt einstweilen bestens .
+2-1	58-63	Braun	*	PERmentioned
+2-2	64-67	ist	_	_
+2-3	68-71	vor	_	_
+2-4	72-73	3	_	_
+2-5	74-79	Tagen	_	_
+2-6	80-90	angekommen	_	_
+2-7	91-92	,	_	_
+2-8	93-98	grüßt	_	_
+2-9	99-110	einstweilen	_	_
+2-10	111-118	bestens	_	_
+2-11	119-120	.	_	_
+
+#Text=Kupfer u. Text werde ich Ihnen morgen oder übermorgen hoffentlich schicken , Sie wissen , in Rom hat Alles seine Schwierigkeit , ganz besonders aber , von den Druckereien Aushängebogen zu erhalten .
+3-1	121-127	Kupfer	_	_
+3-2	128-130	u.	_	_
+3-3	131-135	Text	_	_
+3-4	136-141	werde	_	_
+3-5	142-145	ich	_	_
+3-6	146-151	Ihnen	_	_
+3-7	152-158	morgen	_	_
+3-8	159-163	oder	_	_
+3-9	164-174	übermorgen	_	_
+3-10	175-186	hoffentlich	_	_
+3-11	187-195	schicken	_	_
+3-12	196-197	,	_	_
+3-13	198-201	Sie	_	_
+3-14	202-208	wissen	_	_
+3-15	209-210	,	_	_
+3-16	211-213	in	_	_
+3-17	214-217	Rom	*	PLACEmentioned
+3-18	218-221	hat	_	_
+3-19	222-227	Alles	_	_
+3-20	228-233	seine	_	_
+3-21	234-247	Schwierigkeit	_	_
+3-22	248-249	,	_	_
+3-23	250-254	ganz	_	_
+3-24	255-264	besonders	_	_
+3-25	265-269	aber	_	_
+3-26	270-271	,	_	_
+3-27	272-275	von	_	_
+3-28	276-279	den	_	_
+3-29	280-291	Druckereien	_	_
+3-30	292-305	Aushängebogen	_	_
+3-31	306-308	zu	_	_
+3-32	309-317	erhalten	_	_
+3-33	318-319	.	_	_
+
+#Text=Daher pazienza , wenn ich nicht schon schicke , zumal Domenico krank ist .
+4-1	320-325	Daher	_	_
+4-2	326-334	pazienza	_	_
+4-3	335-336	,	_	_
+4-4	337-341	wenn	_	_
+4-5	342-345	ich	_	_
+4-6	346-351	nicht	_	_
+4-7	352-357	schon	_	_
+4-8	358-365	schicke	_	_
+4-9	366-367	,	_	_
+4-10	368-373	zumal	_	_
+4-11	374-382	Domenico	*	PERmentioned
+4-12	383-388	krank	_	_
+4-13	389-392	ist	_	_
+4-14	393-394	.	_	_
+
+#Text=-— Braun sagt , in Wien habe Graf Thun zwar allerlei mit ihm besprochen , ihn auch eingeladen , von Anträgen sei indeß keine Rede gewesen \; ohnehin werde er sich auf solche nie einlassen , sei '' zu alt '' für dergleichen neue Verhältnisse .
+5-1	395-397	-—	_	_
+5-2	398-403	Braun	*	PERmentioned
+5-3	404-408	sagt	_	_
+5-4	409-410	,	_	_
+5-5	411-413	in	_	_
+5-6	414-418	Wien	*	PLACEmentioned
+5-7	419-423	habe	_	_
+5-8	424-428	Graf	*[1]	PERmentioned[1]
+5-9	429-433	Thun	*[1]	PERmentioned[1]
+5-10	434-438	zwar	_	_
+5-11	439-447	allerlei	_	_
+5-12	448-451	mit	_	_
+5-13	452-455	ihm	_	_
+5-14	456-466	besprochen	_	_
+5-15	467-468	,	_	_
+5-16	469-472	ihn	_	_
+5-17	473-477	auch	_	_
+5-18	478-488	eingeladen	_	_
+5-19	489-490	,	_	_
+5-20	491-494	von	_	_
+5-21	495-503	Anträgen	_	_
+5-22	504-507	sei	_	_
+5-23	508-513	indeß	_	_
+5-24	514-519	keine	_	_
+5-25	520-524	Rede	_	_
+5-26	525-532	gewesen	_	_
+5-27	533-534	\;	_	_
+5-28	535-542	ohnehin	_	_
+5-29	543-548	werde	_	_
+5-30	549-551	er	_	_
+5-31	552-556	sich	_	_
+5-32	557-560	auf	_	_
+5-33	561-567	solche	_	_
+5-34	568-571	nie	_	_
+5-35	572-581	einlassen	_	_
+5-36	582-583	,	_	_
+5-37	584-587	sei	_	_
+5-38	588-590	''	_	_
+5-39	591-593	zu	_	_
+5-40	594-597	alt	_	_
+5-41	598-600	''	_	_
+5-42	601-604	für	_	_
+5-43	605-616	dergleichen	_	_
+5-44	617-621	neue	_	_
+5-45	622-634	Verhältnisse	_	_
+5-46	635-636	.	_	_
+
+#Text=Dies zur Beruhisung !
+6-1	637-641	Dies	_	_
+6-2	642-645	zur	_	_
+6-3	646-656	Beruhisung	_	_
+6-4	657-658	!	_	_
+
+#Text=-— Zugleich läßt er Ihnen sagen , Sie möchten zum Lohne für die Vebersendung der Nonumente , beim Ministerium Schritte für unsre Gehaltserneuerung thun , während er selbst an Bunsen schreibe .
+7-1	659-661	-—	_	_
+7-2	662-670	Zugleich	_	_
+7-3	671-675	läßt	_	_
+7-4	676-678	er	_	_
+7-5	679-684	Ihnen	_	_
+7-6	685-690	sagen	_	_
+7-7	691-692	,	_	_
+7-8	693-696	Sie	_	_
+7-9	697-704	möchten	_	_
+7-10	705-708	zum	_	_
+7-11	709-714	Lohne	_	_
+7-12	715-718	für	_	_
+7-13	719-722	die	_	_
+7-14	723-735	Vebersendung	_	_
+7-15	736-739	der	_	_
+7-16	740-749	Nonumente	_	_
+7-17	750-751	,	_	_
+7-18	752-756	beim	_	_
+7-19	757-768	Ministerium	*	ORGmentioned
+7-20	769-777	Schritte	_	_
+7-21	778-781	für	_	_
+7-22	782-787	unsre	_	_
+7-23	788-805	Gehaltserneuerung	_	_
+7-24	806-810	thun	_	_
+7-25	811-812	,	_	_
+7-26	813-820	während	_	_
+7-27	821-823	er	_	_
+7-28	824-830	selbst	_	_
+7-29	831-833	an	_	_
+7-30	834-840	Bunsen	*	PERmentioned
+7-31	841-849	schreibe	_	_
+7-32	850-851	.	_	_
+
+#Text=Er hält es für nöthig , dß , Pie auch Etwas dafür thun .
+8-1	852-854	Er	_	_
+8-2	855-859	hält	_	_
+8-3	860-862	es	_	_
+8-4	863-866	für	_	_
+8-5	867-873	nöthig	_	_
+8-6	874-875	,	_	_
+8-7	876-878	dß	_	_
+8-8	879-880	,	_	_
+8-9	881-884	Pie	_	_
+8-10	885-889	auch	_	_
+8-11	890-895	Etwas	_	_
+8-12	896-901	dafür	_	_
+8-13	902-906	thun	_	_
+8-14	907-908	.	_	_
+
+#Text=Einliegenden Artikel empfehle ich wegen des ersten Abschnitts einer recht schleunigen Publication .
+9-1	909-921	Einliegenden	_	_
+9-2	922-929	Artikel	_	_
+9-3	930-938	empfehle	_	_
+9-4	939-942	ich	_	_
+9-5	943-948	wegen	_	_
+9-6	949-952	des	_	_
+9-7	953-959	ersten	_	_
+9-8	960-970	Abschnitts	_	_
+9-9	971-976	einer	_	_
+9-10	977-982	recht	_	_
+9-11	983-994	schleunigen	_	_
+9-12	995-1006	Publication	_	_
+9-13	1007-1008	.	_	_
+
+#Text=Es ist mir da was Menschliches passirt , wozu mich der unglückliche Nercklin verleitet hat .
+10-1	1009-1011	Es	_	_
+10-2	1012-1015	ist	_	_
+10-3	1016-1019	mir	_	_
+10-4	1020-1022	da	_	_
+10-5	1023-1026	was	_	_
+10-6	1027-1039	Menschliches	_	_
+10-7	1040-1047	passirt	_	_
+10-8	1048-1049	,	_	_
+10-9	1050-1054	wozu	_	_
+10-10	1055-1059	mich	_	_
+10-11	1060-1063	der	_	_
+10-12	1064-1076	unglückliche	_	_
+10-13	1077-1085	Nercklin	*	PERmentioned
+10-14	1086-1095	verleitet	_	_
+10-15	1096-1099	hat	_	_
+10-16	1100-1101	.	_	_
+
+#Text=Auf den letzten Theil bin ich ein klein wenig stolz .
+11-1	1102-1105	Auf	_	_
+11-2	1106-1109	den	_	_
+11-3	1110-1117	letzten	_	_
+11-4	1118-1123	Theil	_	_
+11-5	1124-1127	bin	_	_
+11-6	1128-1131	ich	_	_
+11-7	1132-1135	ein	_	_
+11-8	1136-1141	klein	_	_
+11-9	1142-1147	wenig	_	_
+11-10	1148-1153	stolz	_	_
+11-11	1154-1155	.	_	_
+
+#Text=Die Texte kamen mir so desparat vor , dß .
+12-1	1156-1159	Die	_	_
+12-2	1160-1165	Texte	_	_
+12-3	1166-1171	kamen	_	_
+12-4	1172-1175	mir	_	_
+12-5	1176-1178	so	_	_
+12-6	1179-1187	desparat	_	_
+12-7	1188-1191	vor	_	_
+12-8	1192-1193	,	_	_
+12-9	1194-1196	dß	_	_
+12-10	1197-1198	.	_	_
+
+#Text=ich nicht glaubte , irgend Etwas verstehen zu können , während sich jetzt Alles ganz gut selöst hät .
+13-1	1199-1202	ich	_	_
+13-2	1203-1208	nicht	_	_
+13-3	1209-1216	glaubte	_	_
+13-4	1217-1218	,	_	_
+13-5	1219-1225	irgend	_	_
+13-6	1226-1231	Etwas	_	_
+13-7	1232-1241	verstehen	_	_
+13-8	1242-1244	zu	_	_
+13-9	1245-1251	können	_	_
+13-10	1252-1253	,	_	_
+13-11	1254-1261	während	_	_
+13-12	1262-1266	sich	_	_
+13-13	1267-1272	jetzt	_	_
+13-14	1273-1278	Alles	_	_
+13-15	1279-1283	ganz	_	_
+13-16	1284-1287	gut	_	_
+13-17	1288-1294	selöst	_	_
+13-18	1295-1298	hät	_	_
+13-19	1299-1300	.	_	_
+
+#Text=Also Zumpt wird nun doch a comodo suo weiter arbeiten !
+14-1	1301-1305	Also	_	_
+14-2	1306-1311	Zumpt	*	PERmentioned
+14-3	1312-1316	wird	_	_
+14-4	1317-1320	nun	_	_
+14-5	1321-1325	doch	_	_
+14-6	1326-1327	a	_	_
+14-7	1328-1334	comodo	_	_
+14-8	1335-1338	suo	_	_
+14-9	1339-1345	weiter	_	_
+14-10	1346-1354	arbeiten	_	_
+14-11	1355-1356	!	_	_
+
+#Text=Ich hatte immer geglaubt , dß nichts Änderes dabei herauskommen werde , da ” ie allein schwerlich die ganze Akademie zu Vernunft oder vielmehr zu Energie ( denn die nöthige Einsicht fehlt ja nicht ) bringen würden , Leider
+15-1	1357-1360	Ich	_	_
+15-2	1361-1366	hatte	_	_
+15-3	1367-1372	immer	_	_
+15-4	1373-1381	geglaubt	_	_
+15-5	1382-1383	,	_	_
+15-6	1384-1386	dß	_	_
+15-7	1387-1393	nichts	_	_
+15-8	1394-1401	Änderes	_	_
+15-9	1402-1407	dabei	_	_
+15-10	1408-1420	herauskommen	_	_
+15-11	1421-1426	werde	_	_
+15-12	1427-1428	,	_	_
+15-13	1429-1431	da	_	_
+15-14	1432-1433	”	_	_
+15-15	1434-1436	ie	_	_
+15-16	1437-1443	allein	_	_
+15-17	1444-1454	schwerlich	_	_
+15-18	1455-1458	die	_	_
+15-19	1459-1464	ganze	_	_
+15-20	1465-1473	Akademie	*	ORGmentioned
+15-21	1474-1476	zu	_	_
+15-22	1477-1485	Vernunft	_	_
+15-23	1486-1490	oder	_	_
+15-24	1491-1499	vielmehr	_	_
+15-25	1500-1502	zu	_	_
+15-26	1503-1510	Energie	_	_
+15-27	1511-1512	(	_	_
+15-28	1513-1517	denn	_	_
+15-29	1518-1521	die	_	_
+15-30	1522-1529	nöthige	_	_
+15-31	1530-1538	Einsicht	_	_
+15-32	1539-1544	fehlt	_	_
+15-33	1545-1547	ja	_	_
+15-34	1548-1553	nicht	_	_
+15-35	1554-1555	)	_	_
+15-36	1556-1563	bringen	_	_
+15-37	1564-1570	würden	_	_
+15-38	1571-1572	,	_	_
+15-39	1573-1579	Leider	_	_

@@ -1,0 +1,78 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ZN ) 21 Braun an Gerhard Rom , 8 .
+1-1	0-2	ZN	_	_	
+1-2	3-4	)	_	_	
+1-3	5-7	21	_	_	
+1-4	8-13	Braun	*	PERauthor	
+1-5	14-16	an	_	_	
+1-6	17-24	Gerhard	*	PERaddressee	
+1-7	25-28	Rom	*	PLACEfrom	
+1-8	29-30	,	_	_	
+1-9	31-32	8	*[1]	DATEletter[1]	
+1-10	33-34	.	*[1]	DATEletter[1]	
+
+#Text=Januar 183 % Factur über die nach Berlin an die Herren Schenk & Gerstäcker abgegangene Kiste , welche daselbst franco angelangen wird .
+2-1	35-41	Januar	*[1]	DATEletter[1]	
+2-2	42-45	183	*[1]	DATEletter[1]	
+2-3	46-47	%	_	_	
+2-4	48-54	Factur	_	_	
+2-5	55-59	über	_	_	
+2-6	60-63	die	_	_	
+2-7	64-68	nach	_	_	
+2-8	69-75	Berlin	*	PLACEmentioned	
+2-9	76-78	an	_	_	
+2-10	79-82	die	_	_	
+2-11	83-89	Herren	_	_	
+2-12	90-96	Schenk	*	PERmentioned	
+2-13	97-98	&	_	_	
+2-14	99-109	Gerstäcker	*	PERmentioned	
+2-15	110-121	abgegangene	_	_	
+2-16	122-127	Kiste	_	_	
+2-17	128-129	,	_	_	
+2-18	130-136	welche	_	_	
+2-19	137-145	daselbst	_	_	
+2-20	146-152	franco	_	_	
+2-21	153-163	angelangen	_	_	
+2-22	164-168	wird	_	_	
+2-23	169-170	.	_	_	
+
+#Text=Es folgt eine Aufzählung von Werken für Prof. Gerhard , Dr. Fanofka , für die königl .
+3-1	171-173	Es	_	_	
+3-2	174-179	folgt	_	_	
+3-3	180-184	eine	_	_	
+3-4	185-195	Aufzählung	_	_	
+3-5	196-199	von	_	_	
+3-6	200-206	Werken	_	_	
+3-7	207-210	für	_	_	
+3-8	211-216	Prof.	_	_	
+3-9	217-224	Gerhard	*	PERmentioned	
+3-10	225-226	,	_	_	
+3-11	227-230	Dr.	_	_	
+3-12	231-238	Fanofka	*	PERmentioned	
+3-13	239-240	,	_	_	
+3-14	241-244	für	_	_	
+3-15	245-248	die	_	_	
+3-16	249-255	königl	*[2]	ORGmentioned[2]	
+3-17	256-257	.	*[2]	ORGmentioned[2]	
+
+#Text=Akademie der Wissenschaften , für Dr. Glaser .
+4-1	258-266	Akademie	*[2]	ORGmentioned[2]	
+4-2	267-270	der	*[2]	ORGmentioned[2]	
+4-3	271-285	Wissenschaften	*[2]	ORGmentioned[2]	
+4-4	286-287	,	_	_	
+4-5	288-291	für	_	_	
+4-6	292-295	Dr.	*[3]	PERmentioned[3]	
+4-7	296-302	Glaser	*[3]	PERmentioned[3]	
+4-8	303-304	.	_	_	
+
+#Text=EBraun Roma 1i 8 Gennaro 1838 .
+5-1	305-311	EBraun	*	PERauthor	
+5-2	312-316	Roma	*	PLACEfrom	
+5-3	317-319	1i	_	_	
+5-4	320-321	8	*[4]	DATEletter[4]	
+5-5	322-329	Gennaro	*[4]	DATEletter[4]	
+5-6	330-334	1838	*[4]	DATEletter[4]	
+5-7	335-336	.	_	_	

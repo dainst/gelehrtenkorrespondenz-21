@@ -1,0 +1,52 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=14 Gerhard an Henzen Berlin , 3 .
+1-1	0-2	14	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	3	*[3]	DATEletter[3]
+1-8	32-33	.	*[3]	DATEletter[3]
+
+#Text=Januar 1845 Grüßen Sie alle Günstige \; von Blessig hörte ich lange nichts .
+2-1	34-40	Januar	*[3]	DATEletter[3]
+2-2	41-45	1845	*[3]	DATEletter[3]
+2-3	46-52	Grüßen	_	_
+2-4	53-56	Sie	_	_
+2-5	57-61	alle	_	_
+2-6	62-70	Günstige	_	_
+2-7	71-72	\;	_	_
+2-8	73-76	von	_	_
+2-9	77-84	Blessig	*	PERmentioned
+2-10	85-90	hörte	_	_
+2-11	91-94	ich	_	_
+2-12	95-100	lange	_	_
+2-13	101-107	nichts	_	_
+2-14	108-109	.	_	_
+
+#Text=Meine Frau vereinigt mit mir die besten Wünsche für Sie und Ihren Hausstand .
+3-1	110-115	Meine	_	_
+3-2	116-120	Frau	_	_
+3-3	121-130	vereinigt	_	_
+3-4	131-134	mit	_	_
+3-5	135-138	mir	_	_
+3-6	139-142	die	_	_
+3-7	143-149	besten	_	_
+3-8	150-157	Wünsche	_	_
+3-9	158-161	für	_	_
+3-10	162-165	Sie	_	_
+3-11	166-169	und	_	_
+3-12	170-175	Ihren	_	_
+3-13	176-185	Hausstand	_	_
+3-14	186-187	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+4-1	188-191	Von	_	_
+4-2	192-198	Herzen	_	_
+4-3	199-202	der	_	_
+4-4	203-209	Ihrige	_	_
+4-5	210-217	Gerhard	*	PERauthor

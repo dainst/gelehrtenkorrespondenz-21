@@ -1,0 +1,57 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=21 Gerhard an Henzen 9/1/1849 men haben : ich möchte namentlich das Velinexemplar meiner Auserl .
+1-1	0-2	21	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-29	9/1/1849	*	DATEletter
+1-6	30-33	men	_	_
+1-7	34-39	haben	_	_
+1-8	40-41	:	_	_
+1-9	42-45	ich	_	_
+1-10	46-52	möchte	_	_
+1-11	53-63	namentlich	_	_
+1-12	64-67	das	_	_
+1-13	68-81	Velinexemplar	_	_
+1-14	82-88	meiner	_	_
+1-15	89-95	Auserl	_	_
+1-16	96-97	.	_	_
+
+#Text=Vas .
+2-1	98-101	Vas	_	_
+2-2	102-103	.	_	_
+
+#Text=2 voll .
+3-1	104-105	2	_	_
+3-2	106-110	voll	_	_
+3-3	111-112	.	_	_
+
+#Text=4 für die Bibliothek de£ Gran Duca reserviren die es bei beruhigten Verhältnissen aller Wahrscheinlichkeit noch nimmt .
+4-1	113-114	4	_	_
+4-2	115-118	für	_	_
+4-3	119-122	die	_	_
+4-4	123-133	Bibliothek	*[1]	ORGmentioned[1]
+4-5	134-137	de£	*[1]	ORGmentioned[1]
+4-6	138-142	Gran	*[1]	ORGmentioned[1]
+4-7	143-147	Duca	*[1]	ORGmentioned[1]
+4-8	148-158	reserviren	_	_
+4-9	159-162	die	_	_
+4-10	163-165	es	_	_
+4-11	166-169	bei	_	_
+4-12	170-180	beruhigten	_	_
+4-13	181-194	Verhältnissen	_	_
+4-14	195-200	aller	_	_
+4-15	201-219	Wahrscheinlichkeit	_	_
+4-16	220-224	noch	_	_
+4-17	225-230	nimmt	_	_
+4-18	231-232	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+5-1	233-236	Von	_	_
+5-2	237-243	Herzen	_	_
+5-3	244-247	der	_	_
+5-4	248-254	Ihrige	_	_
+5-5	255-262	Gerhard	*	PERauthor

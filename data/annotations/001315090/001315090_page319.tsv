@@ -1,0 +1,83 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=276 Lepsius an Henzen Berlin , 30. April 1877 kungskosten durch Asher auslegen und Ihnen zur Berechnung stellen lassen .
+1-1	0-3	276	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	30.	*[1]	DATEletter[1]
+1-8	35-40	April	*[1]	DATEletter[1]
+1-9	41-45	1877	*[1]	DATEletter[1]
+1-10	46-57	kungskosten	_	_
+1-11	58-63	durch	_	_
+1-12	64-69	Asher	*	PERmentioned
+1-13	70-78	auslegen	_	_
+1-14	79-82	und	_	_
+1-15	83-88	Ihnen	_	_
+1-16	89-92	zur	_	_
+1-17	93-103	Berechnung	_	_
+1-18	104-111	stellen	_	_
+1-19	112-118	lassen	_	_
+1-20	119-120	.	_	_
+
+#Text=Wir lassen Ihnen dann die Sendung unfrankirt zugehen .
+2-1	121-124	Wir	_	_
+2-2	125-131	lassen	_	_
+2-3	132-137	Ihnen	_	_
+2-4	138-142	dann	_	_
+2-5	143-146	die	_	_
+2-6	147-154	Sendung	_	_
+2-7	155-165	unfrankirt	_	_
+2-8	166-173	zugehen	_	_
+2-9	174-175	.	_	_
+
+#Text=Das Ganze kann ja nicht bedeutend sein .
+3-1	176-179	Das	_	_
+3-2	180-185	Ganze	_	_
+3-3	186-190	kann	_	_
+3-4	191-193	ja	_	_
+3-5	194-199	nicht	_	_
+3-6	200-209	bedeutend	_	_
+3-7	210-214	sein	_	_
+3-8	215-216	.	_	_
+
+#Text=Zugleich lasse ich hier an die Italienische Botschaft schreiben , mit der Bitte die Kisten zollfrei in Italien eingehen zu lassen .
+4-1	217-225	Zugleich	_	_
+4-2	226-231	lasse	_	_
+4-3	232-235	ich	_	_
+4-4	236-240	hier	_	_
+4-5	241-243	an	_	_
+4-6	244-247	die	_	_
+4-7	248-260	Italienische	*[2]	ORGmentioned[2]
+4-8	261-270	Botschaft	*[2]	ORGmentioned[2]
+4-9	271-280	schreiben	_	_
+4-10	281-282	,	_	_
+4-11	283-286	mit	_	_
+4-12	287-290	der	_	_
+4-13	291-296	Bitte	_	_
+4-14	297-300	die	_	_
+4-15	301-307	Kisten	_	_
+4-16	308-316	zollfrei	_	_
+4-17	317-319	in	_	_
+4-18	320-327	Italien	*	PLACEmentioned
+4-19	328-336	eingehen	_	_
+4-20	337-339	zu	_	_
+4-21	340-346	lassen	_	_
+4-22	347-348	.	_	_
+
+#Text=Schreiben Sie umgehend , ob es Ihnen so recht ist .
+5-1	349-358	Schreiben	_	_
+5-2	359-362	Sie	_	_
+5-3	363-371	umgehend	_	_
+5-4	372-373	,	_	_
+5-5	374-376	ob	_	_
+5-6	377-379	es	_	_
+5-7	380-385	Ihnen	_	_
+5-8	386-388	so	_	_
+5-9	389-394	recht	_	_
+5-10	395-398	ist	_	_
+5-11	399-400	.	_	_

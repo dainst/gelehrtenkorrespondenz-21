@@ -1,0 +1,248 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=233 Brunn an Henzen ohne Ort/24 .
+1-1	0-3	233	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-24	ohne	_	_
+1-6	25-31	Ort/24	*[5]	DATEletter[5]
+1-7	32-33	.	*[5]	DATEletter[5]
+
+#Text=Aug . 1859 25 .
+2-1	34-37	Aug	*[5]	DATEletter[5]
+2-2	38-39	.	*[5]	DATEletter[5]
+2-3	40-44	1859	*[5]	DATEletter[5]
+2-4	45-47	25	*[6]	DATErecieved[6]
+2-5	48-49	.	*[6]	DATErecieved[6]
+
+#Text=August 1859 r . L. H. Die peruginer Urnen dürfen sich allerdings nicht zu lang hinschleppen : durch drei Bull .
+3-1	50-56	August	*[6]	DATErecieved[6]
+3-2	57-61	1859	*[6]	DATErecieved[6]
+3-3	62-63	r	_	_
+3-4	64-65	.	_	_
+3-5	66-68	L.	_	_
+3-6	69-71	H.	*	PERaddressee
+3-7	72-75	Die	_	_
+3-8	76-85	peruginer	*[7]	OBJ[7]
+3-9	86-91	Urnen	*[7]	OBJ[7]
+3-10	92-98	dürfen	_	_
+3-11	99-103	sich	_	_
+3-12	104-114	allerdings	_	_
+3-13	115-120	nicht	_	_
+3-14	121-123	zu	_	_
+3-15	124-128	lang	_	_
+3-16	129-141	hinschleppen	_	_
+3-17	142-143	:	_	_
+3-18	144-149	durch	_	_
+3-19	150-154	drei	_	_
+3-20	155-159	Bull	_	_
+3-21	160-161	.	_	_
+
+#Text=wäre zu viel .
+4-1	162-166	wäre	_	_
+4-2	167-169	zu	_	_
+4-3	170-174	viel	_	_
+4-4	175-176	.	_	_
+
+#Text=Also empfiehlt sich zunächst wohl ein Doppelbogen , auf dem aber besser mehr als die knappe Hälfte des ganzen Artikels gegeben wird , um nicht etwa auch die nächste Nummer wieder verdoppeln zu müssen wird sich je nach dem Bedürfniß in der Fortsetzung leicht finden lassen , zunächst hinter den Thebana , dann nach Herkules und den CGentaurnreliefs \; oder allenfalls am Schluß der eigentlichen Heroica .
+5-1	177-181	Also	_	_
+5-2	182-191	empfiehlt	_	_
+5-3	192-196	sich	_	_
+5-4	197-205	zunächst	_	_
+5-5	206-210	wohl	_	_
+5-6	211-214	ein	_	_
+5-7	215-226	Doppelbogen	_	_
+5-8	227-228	,	_	_
+5-9	229-232	auf	_	_
+5-10	233-236	dem	_	_
+5-11	237-241	aber	_	_
+5-12	242-248	besser	_	_
+5-13	249-253	mehr	_	_
+5-14	254-257	als	_	_
+5-15	258-261	die	_	_
+5-16	262-268	knappe	_	_
+5-17	269-275	Hälfte	_	_
+5-18	276-279	des	_	_
+5-19	280-286	ganzen	_	_
+5-20	287-295	Artikels	_	_
+5-21	296-303	gegeben	_	_
+5-22	304-308	wird	_	_
+5-23	309-310	,	_	_
+5-24	311-313	um	_	_
+5-25	314-319	nicht	_	_
+5-26	320-324	etwa	_	_
+5-27	325-329	auch	_	_
+5-28	330-333	die	_	_
+5-29	334-341	nächste	_	_
+5-30	342-348	Nummer	_	_
+5-31	349-355	wieder	_	_
+5-32	356-366	verdoppeln	_	_
+5-33	367-369	zu	_	_
+5-34	370-376	müssen	_	_
+5-35	377-381	wird	_	_
+5-36	382-386	sich	_	_
+5-37	387-389	je	_	_
+5-38	390-394	nach	_	_
+5-39	395-398	dem	_	_
+5-40	399-408	Bedürfniß	_	_
+5-41	409-411	in	_	_
+5-42	412-415	der	_	_
+5-43	416-427	Fortsetzung	_	_
+5-44	428-434	leicht	_	_
+5-45	435-441	finden	_	_
+5-46	442-448	lassen	_	_
+5-47	449-450	,	_	_
+5-48	451-459	zunächst	_	_
+5-49	460-466	hinter	_	_
+5-50	467-470	den	_	_
+5-51	471-478	Thebana	*	OBJ
+5-52	479-480	,	_	_
+5-53	481-485	dann	_	_
+5-54	486-490	nach	_	_
+5-55	491-499	Herkules	*	OBJ
+5-56	500-503	und	_	_
+5-57	504-507	den	_	_
+5-58	508-524	CGentaurnreliefs	*	OBJ
+5-59	525-526	\;	_	_
+5-60	527-531	oder	_	_
+5-61	532-542	allenfalls	_	_
+5-62	543-545	am	_	_
+5-63	546-552	Schluß	_	_
+5-64	553-556	der	_	_
+5-65	557-569	eigentlichen	_	_
+5-66	570-577	Heroica	_	_
+5-67	578-579	.	_	_
+
+#Text=Arrangiren Sie das je nach dem Material , welches Sie fast haben .
+6-1	580-590	Arrangiren	_	_
+6-2	591-594	Sie	_	_
+6-3	595-598	das	_	_
+6-4	599-601	je	_	_
+6-5	602-606	nach	_	_
+6-6	607-610	dem	_	_
+6-7	611-619	Material	_	_
+6-8	620-621	,	_	_
+6-9	622-629	welches	_	_
+6-10	630-633	Sie	_	_
+6-11	634-638	fast	_	_
+6-12	639-644	haben	_	_
+6-13	645-646	.	_	_
+
+#Text=Zu passender Ausfüllung bieten sich ja Conestabile 's Notiz und das beiliegende Blatt über den Cottabos .
+7-1	647-649	Zu	_	_
+7-2	650-659	passender	_	_
+7-3	660-670	Ausfüllung	_	_
+7-4	671-677	bieten	_	_
+7-5	678-682	sich	_	_
+7-6	683-685	ja	_	_
+7-7	686-697	Conestabile	*[8]	PERmentioned[8]
+7-8	698-700	's	*[8]	PERmentioned[8]
+7-9	701-706	Notiz	_	_
+7-10	707-710	und	_	_
+7-11	711-714	das	_	_
+7-12	715-726	beiliegende	_	_
+7-13	727-732	Blatt	_	_
+7-14	733-737	über	_	_
+7-15	738-741	den	_	_
+7-16	742-750	Cottabos	*	OBJ
+7-17	751-752	.	_	_
+
+#Text=- Der gestrige Morgenspaziergang hatte mein Magendrücken nicht gehoben , weshalb ich den Tag über gehungert habe .
+8-1	753-754	-	_	_
+8-2	755-758	Der	_	_
+8-3	759-767	gestrige	_	_
+8-4	768-785	Morgenspaziergang	_	_
+8-5	786-791	hatte	_	_
+8-6	792-796	mein	_	_
+8-7	797-809	Magendrücken	_	_
+8-8	810-815	nicht	_	_
+8-9	816-823	gehoben	_	_
+8-10	824-825	,	_	_
+8-11	826-833	weshalb	_	_
+8-12	834-837	ich	_	_
+8-13	838-841	den	_	_
+8-14	842-845	Tag	_	_
+8-15	846-850	über	_	_
+8-16	851-860	gehungert	_	_
+8-17	861-865	habe	_	_
+8-18	866-867	.	_	_
+
+#Text=Dem Corrigiren , das überdem zum Theil bei Licht geschah , war diese Stinmung wenig günstig , darum pazienza !
+9-1	868-871	Dem	_	_
+9-2	872-882	Corrigiren	_	_
+9-3	883-884	,	_	_
+9-4	885-888	das	_	_
+9-5	889-896	überdem	_	_
+9-6	897-900	zum	_	_
+9-7	901-906	Theil	_	_
+9-8	907-910	bei	_	_
+9-9	911-916	Licht	_	_
+9-10	917-924	geschah	_	_
+9-11	925-926	,	_	_
+9-12	927-930	war	_	_
+9-13	931-936	diese	_	_
+9-14	937-945	Stinmung	_	_
+9-15	946-951	wenig	_	_
+9-16	952-959	günstig	_	_
+9-17	960-961	,	_	_
+9-18	962-967	darum	_	_
+9-19	968-976	pazienza	_	_
+9-20	977-978	!	_	_
+
+#Text=Heute ist es wieder , wenn nicht ganz gut , doch besser , und ich bin wieder tüchtig beim Anareon , den ich jetzt schnell zu fördern denke , aber früher als zum nächsten Donnerstag doch nicht werde liefern können .
+10-1	979-984	Heute	_	_
+10-2	985-988	ist	_	_
+10-3	989-991	es	_	_
+10-4	992-998	wieder	_	_
+10-5	999-1000	,	_	_
+10-6	1001-1005	wenn	_	_
+10-7	1006-1011	nicht	_	_
+10-8	1012-1016	ganz	_	_
+10-9	1017-1020	gut	_	_
+10-10	1021-1022	,	_	_
+10-11	1023-1027	doch	_	_
+10-12	1028-1034	besser	_	_
+10-13	1035-1036	,	_	_
+10-14	1037-1040	und	_	_
+10-15	1041-1044	ich	_	_
+10-16	1045-1048	bin	_	_
+10-17	1049-1055	wieder	_	_
+10-18	1056-1063	tüchtig	_	_
+10-19	1064-1068	beim	_	_
+10-20	1069-1076	Anareon	*	OBJ
+10-21	1077-1078	,	_	_
+10-22	1079-1082	den	_	_
+10-23	1083-1086	ich	_	_
+10-24	1087-1092	jetzt	_	_
+10-25	1093-1100	schnell	_	_
+10-26	1101-1103	zu	_	_
+10-27	1104-1111	fördern	_	_
+10-28	1112-1117	denke	_	_
+10-29	1118-1119	,	_	_
+10-30	1120-1124	aber	_	_
+10-31	1125-1131	früher	_	_
+10-32	1132-1135	als	_	_
+10-33	1136-1139	zum	_	_
+10-34	1140-1148	nächsten	_	_
+10-35	1149-1159	Donnerstag	*	DATEletter
+10-36	1160-1164	doch	_	_
+10-37	1165-1170	nicht	_	_
+10-38	1171-1176	werde	_	_
+10-39	1177-1184	liefern	_	_
+10-40	1185-1191	können	_	_
+10-41	1192-1193	.	_	_
+
+#Text=Die Druckerei muß sich für diesen Fall einmal anstrengen .
+11-1	1194-1197	Die	_	_
+11-2	1198-1207	Druckerei	_	_
+11-3	1208-1211	muß	_	_
+11-4	1212-1216	sich	_	_
+11-5	1217-1220	für	_	_
+11-6	1221-1227	diesen	_	_
+11-7	1228-1232	Fall	_	_
+11-8	1233-1239	einmal	_	_
+11-9	1240-1250	anstrengen	_	_
+11-10	1251-1252	.	_	_

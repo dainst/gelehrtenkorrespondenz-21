@@ -1,0 +1,184 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 12. September 1836 Dr. Braun Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	12.	*[4]	DATEletter[4]
+1-7	31-40	September	*[4]	DATEletter[4]
+1-8	41-45	1836	*[4]	DATEletter[4]
+1-9	46-49	Dr.	_	_
+1-10	50-55	Braun	*	PERaddressee
+1-11	56-59	Dir	_	_
+1-12	60-61	.	_	_
+
+#Text=Rom .
+2-1	62-65	Rom	*	PLACEto
+2-2	66-67	.	_	_
+
+#Text=CCCXVI g . 15/9 36 Livorno den 12.ten Sept .
+3-1	68-74	CCCXVI	_	_
+3-2	75-76	g	_	_
+3-3	77-78	.	_	_
+3-4	79-83	15/9	*[7]	DATErecieved[7]
+3-5	84-86	36	*[7]	DATErecieved[7]
+3-6	87-94	Livorno	*	PLACEfrom
+3-7	95-98	den	_	_
+3-8	99-105	12.ten	*[9]	DATEletter[9]
+3-9	106-110	Sept	*[9]	DATEletter[9]
+3-10	111-112	.	*[9]	DATEletter[9]
+
+#Text=1836 Mein theurer Freund .
+4-1	113-117	1836	*[9]	DATEletter[9]
+4-2	118-122	Mein	_	_
+4-3	123-130	theurer	_	_
+4-4	131-137	Freund	_	_
+4-5	138-139	.	_	_
+
+#Text=Drei Wochen kostspieliger Mühsal wären glücklich zurückgelegt , eine unfruchtbare , selten gefällige , nirgend behagliche Reise hoffentlich ihrem Ziel nahe gebracht .
+5-1	140-144	Drei	_	_
+5-2	145-151	Wochen	_	_
+5-3	152-165	kostspieliger	_	_
+5-4	166-172	Mühsal	_	_
+5-5	173-178	wären	_	_
+5-6	179-188	glücklich	_	_
+5-7	189-201	zurückgelegt	_	_
+5-8	202-203	,	_	_
+5-9	204-208	eine	_	_
+5-10	209-221	unfruchtbare	_	_
+5-11	222-223	,	_	_
+5-12	224-230	selten	_	_
+5-13	231-240	gefällige	_	_
+5-14	241-242	,	_	_
+5-15	243-250	nirgend	_	_
+5-16	251-261	behagliche	_	_
+5-17	262-267	Reise	_	_
+5-18	268-279	hoffentlich	_	_
+5-19	280-285	ihrem	_	_
+5-20	286-290	Ziel	_	_
+5-21	291-295	nahe	_	_
+5-22	296-304	gebracht	_	_
+5-23	305-306	.	_	_
+
+#Text=Ich habe vergebens hier nach den erbetenen römischen Briefen auf der Post gefragt \; hoffentlich wird es auch ohne das gehen .
+6-1	307-310	Ich	_	_
+6-2	311-315	habe	_	_
+6-3	316-325	vergebens	_	_
+6-4	326-330	hier	_	_
+6-5	331-335	nach	_	_
+6-6	336-339	den	_	_
+6-7	340-349	erbetenen	_	_
+6-8	350-359	römischen	_	_
+6-9	360-367	Briefen	_	_
+6-10	368-371	auf	_	_
+6-11	372-375	der	_	_
+6-12	376-380	Post	_	_
+6-13	381-388	gefragt	_	_
+6-14	389-390	\;	_	_
+6-15	391-402	hoffentlich	_	_
+6-16	403-407	wird	_	_
+6-17	408-410	es	_	_
+6-18	411-415	auch	_	_
+6-19	416-420	ohne	_	_
+6-20	421-424	das	_	_
+6-21	425-430	gehen	_	_
+6-22	431-432	.	_	_
+
+#Text=Findet keine Ausspannung statt , wovon ich mich erst morgen in Florenz werde versichern können , so würde ich gegen den 20.sten , etwa Montags , mit dem Postwagen von Foligno bei Ihnen sein .
+7-1	433-439	Findet	_	_
+7-2	440-445	keine	_	_
+7-3	446-457	Ausspannung	_	_
+7-4	458-463	statt	_	_
+7-5	464-465	,	_	_
+7-6	466-471	wovon	_	_
+7-7	472-475	ich	_	_
+7-8	476-480	mich	_	_
+7-9	481-485	erst	_	_
+7-10	486-492	morgen	_	_
+7-11	493-495	in	_	_
+7-12	496-503	Florenz	*	PLACEmentioned
+7-13	504-509	werde	_	_
+7-14	510-520	versichern	_	_
+7-15	521-527	können	_	_
+7-16	528-529	,	_	_
+7-17	530-532	so	_	_
+7-18	533-538	würde	_	_
+7-19	539-542	ich	_	_
+7-20	543-548	gegen	_	_
+7-21	549-552	den	_	_
+7-22	553-560	20.sten	*	DATEmentioned
+7-23	561-562	,	_	_
+7-24	563-567	etwa	_	_
+7-25	568-575	Montags	_	_
+7-26	576-577	,	_	_
+7-27	578-581	mit	_	_
+7-28	582-585	dem	_	_
+7-29	586-595	Postwagen	_	_
+7-30	596-599	von	_	_
+7-31	600-607	Foligno	*	PLACEmentioned
+7-32	608-611	bei	_	_
+7-33	612-617	Ihnen	_	_
+7-34	618-622	sein	_	_
+7-35	623-624	.	_	_
+
+#Text=Auf baldiges Wiedersehen !
+8-1	625-628	Auf	_	_
+8-2	629-637	baldiges	_	_
+8-3	638-649	Wiedersehen	_	_
+8-4	650-651	!	_	_
+
+#Text=Ihr Gerhard Florenz 13 September .
+9-1	652-655	Ihr	_	_
+9-2	656-663	Gerhard	*	PERauthor
+9-3	664-671	Florenz	*	PLACEfrom
+9-4	672-674	13	*[15]	DATEletter[15]
+9-5	675-684	September	*[15]	DATEletter[15]
+9-6	685-686	.	_	_
+
+#Text=Hier angekommen vernehme ich daß der Weg nach Rom offen sei \; die Abreise werde ich bis Freitag oder Sonnabend verschieben müssen , So daß ich Montags mit dem Courier oder nicht viel später mit einem Postwagen in Rom einzutreffen gedenke .
+10-1	687-691	Hier	_	_
+10-2	692-702	angekommen	_	_
+10-3	703-711	vernehme	_	_
+10-4	712-715	ich	_	_
+10-5	716-719	daß	_	_
+10-6	720-723	der	_	_
+10-7	724-727	Weg	_	_
+10-8	728-732	nach	_	_
+10-9	733-736	Rom	*	PLACEmentioned
+10-10	737-742	offen	_	_
+10-11	743-746	sei	_	_
+10-12	747-748	\;	_	_
+10-13	749-752	die	_	_
+10-14	753-760	Abreise	_	_
+10-15	761-766	werde	_	_
+10-16	767-770	ich	_	_
+10-17	771-774	bis	_	_
+10-18	775-782	Freitag	*	DATEmentioned
+10-19	783-787	oder	_	_
+10-20	788-797	Sonnabend	*	DATEmentioned
+10-21	798-809	verschieben	_	_
+10-22	810-816	müssen	_	_
+10-23	817-818	,	_	_
+10-24	819-821	So	_	_
+10-25	822-825	daß	_	_
+10-26	826-829	ich	_	_
+10-27	830-837	Montags	_	_
+10-28	838-841	mit	_	_
+10-29	842-845	dem	_	_
+10-30	846-853	Courier	_	_
+10-31	854-858	oder	_	_
+10-32	859-864	nicht	_	_
+10-33	865-869	viel	_	_
+10-34	870-876	später	_	_
+10-35	877-880	mit	_	_
+10-36	881-886	einem	_	_
+10-37	887-896	Postwagen	_	_
+10-38	897-899	in	_	_
+10-39	900-903	Rom	*	PLACEmentioned
+10-40	904-916	einzutreffen	_	_
+10-41	917-924	gedenke	_	_
+10-42	925-926	.	_	_

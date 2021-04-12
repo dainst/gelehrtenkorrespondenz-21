@@ -1,0 +1,268 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Patras , 21. Mai 1837 Col .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Patras	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	21.	*[4]	DATEletter[4]
+1-7	31-34	Mai	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-43	Col	_	_
+1-10	44-45	.	_	_
+
+#Text=Finlay .
+2-1	46-52	Finlay	*	PERmentioned
+2-2	53-54	.	_	_
+
+#Text=Von beiden wird mit der Zeit auch der Ankauf der früheren Jahrgänge verlangt werden können \; ein mit Inbegriff derselben vollständiges Exemplar kann dagegen sofort an den Conte Candiano Roma über Ancona nach Zante gesandt werden .
+3-1	55-58	Von	_	_
+3-2	59-65	beiden	_	_
+3-3	66-70	wird	_	_
+3-4	71-74	mit	_	_
+3-5	75-78	der	_	_
+3-6	79-83	Zeit	_	_
+3-7	84-88	auch	_	_
+3-8	89-92	der	_	_
+3-9	93-99	Ankauf	_	_
+3-10	100-103	der	_	_
+3-11	104-112	früheren	_	_
+3-12	113-122	Jahrgänge	_	_
+3-13	123-131	verlangt	_	_
+3-14	132-138	werden	_	_
+3-15	139-145	können	_	_
+3-16	146-147	\;	_	_
+3-17	148-151	ein	_	_
+3-18	152-155	mit	_	_
+3-19	156-165	Inbegriff	_	_
+3-20	166-175	derselben	_	_
+3-21	176-189	vollständiges	_	_
+3-22	190-198	Exemplar	_	_
+3-23	199-203	kann	_	_
+3-24	204-211	dagegen	_	_
+3-25	212-218	sofort	_	_
+3-26	219-221	an	_	_
+3-27	222-225	den	_	_
+3-28	226-231	Conte	*[6]	PERmentioned[6]
+3-29	232-240	Candiano	*[6]	PERmentioned[6]
+3-30	241-245	Roma	*[6]	PERmentioned[6]
+3-31	246-250	über	_	_
+3-32	251-257	Ancona	*	PLACEmentioned
+3-33	258-262	nach	_	_
+3-34	263-268	Zante	*	PLACEmentioned
+3-35	269-276	gesandt	_	_
+3-36	277-283	werden	_	_
+3-37	284-285	.	_	_
+
+#Text=Das ge meigk Anerbieten , den Erlös solcher neu vertribnen Ex .
+4-1	286-289	Das	_	_
+4-2	290-292	ge	_	_
+4-3	293-298	meigk	_	_
+4-4	299-309	Anerbieten	_	_
+4-5	310-311	,	_	_
+4-6	312-315	den	_	_
+4-7	316-321	Erlös	_	_
+4-8	322-329	solcher	_	_
+4-9	330-333	neu	_	_
+4-10	334-344	vertribnen	_	_
+4-11	345-347	Ex	_	_
+4-12	348-349	.	_	_
+
+#Text=derInstitutswerke sofort zur Schuldenabzahlung für Hr .
+5-1	350-367	derInstitutswerke	_	_
+5-2	368-374	sofort	_	_
+5-3	375-378	zur	_	_
+5-4	379-396	Schuldenabzahlung	_	_
+5-5	397-400	für	_	_
+5-6	401-403	Hr	_	_
+5-7	404-405	.	_	_
+
+#Text=Panofka zu bestimmen , kann nur mit Dank angenommen werden .
+6-1	406-413	Panofka	*	PERmentioned
+6-2	414-416	zu	_	_
+6-3	417-426	bestimmen	_	_
+6-4	427-428	,	_	_
+6-5	429-433	kann	_	_
+6-6	434-437	nur	_	_
+6-7	438-441	mit	_	_
+6-8	442-446	Dank	_	_
+6-9	447-457	angenommen	_	_
+6-10	458-464	werden	_	_
+6-11	465-466	.	_	_
+
+#Text=Noch ein Subskribent in spe , an den Finlay oder Roß gelegentlich zu erinnern sind , ist der General Gordon in Argos .
+7-1	467-471	Noch	_	_
+7-2	472-475	ein	_	_
+7-3	476-487	Subskribent	_	_
+7-4	488-490	in	_	_
+7-5	491-494	spe	_	_
+7-6	495-496	,	_	_
+7-7	497-499	an	_	_
+7-8	500-503	den	_	_
+7-9	504-510	Finlay	*	PERmentioned
+7-10	511-515	oder	_	_
+7-11	516-519	Roß	*	PERmentioned
+7-12	520-532	gelegentlich	_	_
+7-13	533-535	zu	_	_
+7-14	536-544	erinnern	_	_
+7-15	545-549	sind	_	_
+7-16	550-551	,	_	_
+7-17	552-555	ist	_	_
+7-18	556-559	der	_	_
+7-19	560-567	General	*[12]	PERmentioned[12]
+7-20	568-574	Gordon	*[12]	PERmentioned[12]
+7-21	575-577	in	_	_
+7-22	578-583	Argos	*	ORGmentioned
+7-23	584-585	.	_	_
+
+#Text=Hr .
+8-1	586-588	Hr	_	_
+8-2	589-590	.	_	_
+
+#Text=Oekonomos in Nauplia erhielt Monum .
+9-1	591-600	Oekonomos	*	PERmentioned
+9-2	601-603	in	_	_
+9-3	604-611	Nauplia	*	PLACEmentioned
+9-4	612-619	erhielt	_	_
+9-5	620-625	Monum	_	_
+9-6	626-627	.	_	_
+
+#Text=des Instituts 1835 Jah 1 .
+10-1	628-631	des	_	_
+10-2	632-641	Instituts	*	ORGmentioned
+10-3	642-646	1835	*	DATEmentioned
+10-4	647-650	Jah	_	_
+10-5	651-652	1	_	_
+10-6	653-654	.	_	_
+
+#Text=Annali Vol 7 Jeh 1 .
+11-1	655-661	Annali	_	_
+11-2	662-665	Vol	_	_
+11-3	666-667	7	_	_
+11-4	668-671	Jeh	_	_
+11-5	672-673	1	_	_
+11-6	674-675	.	_	_
+
+#Text=Bull 1835 und verlangt die Fortsetzung , voraussetzlich gegen Zahlung .
+12-1	676-680	Bull	_	_
+12-2	681-685	1835	*	DATEmentioned
+12-3	686-689	und	_	_
+12-4	690-698	verlangt	_	_
+12-5	699-702	die	_	_
+12-6	703-714	Fortsetzung	_	_
+12-7	715-716	,	_	_
+12-8	717-731	voraussetzlich	_	_
+12-9	732-737	gegen	_	_
+12-10	738-745	Zahlung	_	_
+12-11	746-747	.	_	_
+
+#Text=Für ähnliche Besorgungen wird Athen und selbst Dr. Roß 's Vermittelung bequem sein \; doch ist zu sagen daß derselbe dabei nicht allzu sehr in Anspruch genommen werde , und darf man namentlich keine direkte Bemühung seinerseits mit Oekonomos ( Vater und Sohn ) verlangen .
+13-1	748-751	Für	_	_
+13-2	752-760	ähnliche	_	_
+13-3	761-772	Besorgungen	_	_
+13-4	773-777	wird	_	_
+13-5	778-783	Athen	*	PLACEmentioned
+13-6	784-787	und	_	_
+13-7	788-794	selbst	_	_
+13-8	795-798	Dr.	_	_
+13-9	799-802	Roß	*[25]	PERmentioned[25]
+13-10	803-805	's	*[25]	PERmentioned[25]
+13-11	806-818	Vermittelung	_	_
+13-12	819-825	bequem	_	_
+13-13	826-830	sein	_	_
+13-14	831-832	\;	_	_
+13-15	833-837	doch	_	_
+13-16	838-841	ist	_	_
+13-17	842-844	zu	_	_
+13-18	845-850	sagen	_	_
+13-19	851-854	daß	_	_
+13-20	855-863	derselbe	_	_
+13-21	864-869	dabei	_	_
+13-22	870-875	nicht	_	_
+13-23	876-881	allzu	_	_
+13-24	882-886	sehr	_	_
+13-25	887-889	in	_	_
+13-26	890-898	Anspruch	_	_
+13-27	899-907	genommen	_	_
+13-28	908-913	werde	_	_
+13-29	914-915	,	_	_
+13-30	916-919	und	_	_
+13-31	920-924	darf	_	_
+13-32	925-928	man	_	_
+13-33	929-939	namentlich	_	_
+13-34	940-945	keine	_	_
+13-35	946-953	direkte	_	_
+13-36	954-962	Bemühung	_	_
+13-37	963-974	seinerseits	_	_
+13-38	975-978	mit	_	_
+13-39	979-988	Oekonomos	*	PERmentioned
+13-40	989-990	(	_	_
+13-41	991-996	Vater	*	PERmentioned
+13-42	997-1000	und	_	_
+13-43	1001-1005	Sohn	*	PERmentioned
+13-44	1006-1007	)	_	_
+13-45	1008-1017	verlangen	_	_
+13-46	1018-1019	.	_	_
+
+#Text=Als Zubehör des den König Otto hieher eingesandten Exemplars der Institutsuerke der Impronte gemmarie an Hr .
+14-1	1020-1023	Als	_	_
+14-2	1024-1031	Zubehör	_	_
+14-3	1032-1035	des	_	_
+14-4	1036-1039	den	_	_
+14-5	1040-1045	König	*[24]	PERmentioned[24]
+14-6	1046-1050	Otto	*[24]	PERmentioned[24]
+14-7	1051-1057	hieher	_	_
+14-8	1058-1070	eingesandten	_	_
+14-9	1071-1080	Exemplars	_	_
+14-10	1081-1084	der	_	_
+14-11	1085-1099	Institutsuerke	_	_
+14-12	1100-1103	der	_	_
+14-13	1104-1112	Impronte	_	_
+14-14	1113-1121	gemmarie	_	_
+14-15	1122-1124	an	_	_
+14-16	1125-1127	Hr	_	_
+14-17	1128-1129	.	_	_
+
+#Text=Cabinetsrath Brandis gesandt werden , der diesen Ankauf als varaussetzlich garantirt .
+15-1	1130-1142	Cabinetsrath	_	_
+15-2	1143-1150	Brandis	*	PERmentioned
+15-3	1151-1158	gesandt	_	_
+15-4	1159-1165	werden	_	_
+15-5	1166-1167	,	_	_
+15-6	1168-1171	der	_	_
+15-7	1172-1178	diesen	_	_
+15-8	1179-1185	Ankauf	_	_
+15-9	1186-1189	als	_	_
+15-10	1190-1204	varaussetzlich	_	_
+15-11	1205-1214	garantirt	_	_
+15-12	1215-1216	.	_	_
+
+#Text=\|\_ Wenn Bull .
+16-1	1217-1219	\|\_	_	_
+16-2	1220-1224	Wenn	_	_
+16-3	1225-1229	Bull	_	_
+16-4	1230-1231	.	_	_
+
+#Text=1836 an Hr .
+17-1	1232-1236	1836	*	DATEmentioned
+17-2	1237-1239	an	_	_
+17-3	1240-1242	Hr	_	_
+17-4	1243-1244	.	_	_
+
+#Text=Pittakys gesandt wird , so kann derselbe lieber zu Zeichnungen als zur Einsen-
+18-1	1245-1253	Pittakys	*	PERmentioned
+18-2	1254-1261	gesandt	_	_
+18-3	1262-1266	wird	_	_
+18-4	1267-1268	,	_	_
+18-5	1269-1271	so	_	_
+18-6	1272-1276	kann	_	_
+18-7	1277-1285	derselbe	_	_
+18-8	1286-1292	lieber	_	_
+18-9	1293-1295	zu	_	_
+18-10	1296-1307	Zeichnungen	_	_
+18-11	1308-1311	als	_	_
+18-12	1312-1315	zur	_	_
+18-13	1316-1323	Einsen-	_	_

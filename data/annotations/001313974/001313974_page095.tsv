@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 22 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	22	*[5]	DATEletter[5]
+1-7	26-27	.	*[5]	DATEletter[5]
+
+#Text=August 1867 Roma li 22 .
+2-1	28-34	August	*[5]	DATEletter[5]
+2-2	35-39	1867	*[5]	DATEletter[5]
+2-3	40-44	Roma	*	PLACEfrom
+2-4	45-47	li	_	_
+2-5	48-50	22	*[6]	DATEletter[6]
+2-6	51-52	.	*[6]	DATEletter[6]
+
+#Text=Agosto 71867 Lieber Herr Professor Ich schreibe Ihnen , obwohl eigentlich nichts Dringendes vorliegt , lediglich um Ihnen ein Lebenszeichen von mir zu geben .
+3-1	53-59	Agosto	*[6]	DATEletter[6]
+3-2	60-65	71867	*[6]	DATEletter[6]
+3-3	66-72	Lieber	_	_
+3-4	73-77	Herr	_	_
+3-5	78-87	Professor	_	_
+3-6	88-91	Ich	_	_
+3-7	92-100	schreibe	_	_
+3-8	101-106	Ihnen	_	_
+3-9	107-108	,	_	_
+3-10	109-115	obwohl	_	_
+3-11	116-126	eigentlich	_	_
+3-12	127-133	nichts	_	_
+3-13	134-144	Dringendes	_	_
+3-14	145-153	vorliegt	_	_
+3-15	154-155	,	_	_
+3-16	156-165	lediglich	_	_
+3-17	166-168	um	_	_
+3-18	169-174	Ihnen	_	_
+3-19	175-178	ein	_	_
+3-20	179-192	Lebenszeichen	_	_
+3-21	193-196	von	_	_
+3-22	197-200	mir	_	_
+3-23	201-203	zu	_	_
+3-24	204-209	geben	_	_
+3-25	210-211	.	_	_
+
+#Text=Sie werden bereits gehört haben , wie übel wir daran sind .
+4-1	212-215	Sie	_	_
+4-2	216-222	werden	_	_
+4-3	223-230	bereits	_	_
+4-4	231-237	gehört	_	_
+4-5	238-243	haben	_	_
+4-6	244-245	,	_	_
+4-7	246-249	wie	_	_
+4-8	250-254	übel	_	_
+4-9	255-258	wir	_	_
+4-10	259-264	daran	_	_
+4-11	265-269	sind	_	_
+4-12	270-271	.	_	_
+
+#Text=Ich hoffte , daß es mit der Zeit besser werden würde .
+5-1	272-275	Ich	_	_
+5-2	276-282	hoffte	_	_
+5-3	283-284	,	_	_
+5-4	285-288	daß	_	_
+5-5	289-291	es	_	_
+5-6	292-295	mit	_	_
+5-7	296-299	der	_	_
+5-8	300-304	Zeit	_	_
+5-9	305-311	besser	_	_
+5-10	312-318	werden	_	_
+5-11	319-324	würde	_	_
+5-12	325-326	.	_	_
+
+#Text=Statt dessen wird es aber immer schlimmer .
+6-1	327-332	Statt	_	_
+6-2	333-339	dessen	_	_
+6-3	340-344	wird	_	_
+6-4	345-347	es	_	_
+6-5	348-352	aber	_	_
+6-6	353-358	immer	_	_
+6-7	359-368	schlimmer	_	_
+6-8	369-370	.	_	_
+
+#Text=Bis vor Kurzem konnte man wenigstens nach Rom , allerdings auf weiten Umwegen über Civita Lavigna und gingen ab und zu Vetturine .
+7-1	371-374	Bis	_	_
+7-2	375-378	vor	_	_
+7-3	379-385	Kurzem	_	_
+7-4	386-392	konnte	_	_
+7-5	393-396	man	_	_
+7-6	397-407	wenigstens	_	_
+7-7	408-412	nach	_	_
+7-8	413-416	Rom	*	PLACEmentioned
+7-9	417-418	,	_	_
+7-10	419-429	allerdings	_	_
+7-11	430-433	auf	_	_
+7-12	434-440	weiten	_	_
+7-13	441-448	Umwegen	_	_
+7-14	449-453	über	_	_
+7-15	454-460	Civita	*[7]	PLACEmentioned[7]
+7-16	461-468	Lavigna	*[7]	PLACEmentioned[7]
+7-17	469-472	und	_	_
+7-18	473-479	gingen	_	_
+7-19	480-482	ab	_	_
+7-20	483-486	und	_	_
+7-21	487-489	zu	_	_
+7-22	490-499	Vetturine	_	_
+7-23	500-501	.	_	_
+
+#Text=Jetzt aber sind die Vetturinfahrten suspendirt und tagt die Sanitätsdeputation darüber , jegliche Verbindung mit Rom abzubrechen .
+8-1	502-507	Jetzt	_	_
+8-2	508-512	aber	_	_
+8-3	513-517	sind	_	_
+8-4	518-521	die	_	_
+8-5	522-537	Vetturinfahrten	_	_
+8-6	538-548	suspendirt	_	_
+8-7	549-552	und	_	_
+8-8	553-557	tagt	_	_
+8-9	558-561	die	_	_
+8-10	562-580	Sanitätsdeputation	_	_
+8-11	581-588	darüber	_	_
+8-12	589-590	,	_	_
+8-13	591-599	jegliche	_	_
+8-14	600-610	Verbindung	_	_
+8-15	611-614	mit	_	_
+8-16	615-618	Rom	*	PLACEmentioned
+8-17	619-630	abzubrechen	_	_
+8-18	631-632	.	_	_
+
+#Text=Man weiß wirklich nicht , was scandalöser ist , der Wahnsinn der genzaneser Bauern oder die Feigheit der Regierung , welche ihrer Schwäche bewußt die Sachen gehen läßt , wie sie wollen .
+9-1	633-636	Man	_	_
+9-2	637-641	weiß	_	_
+9-3	642-650	wirklich	_	_
+9-4	651-656	nicht	_	_
+9-5	657-658	,	_	_
+9-6	659-662	was	_	_
+9-7	663-674	scandalöser	_	_
+9-8	675-678	ist	_	_
+9-9	679-680	,	_	_
+9-10	681-684	der	_	_
+9-11	685-693	Wahnsinn	_	_
+9-12	694-697	der	_	_
+9-13	698-708	genzaneser	_	_
+9-14	709-715	Bauern	_	_
+9-15	716-720	oder	_	_
+9-16	721-724	die	_	_
+9-17	725-733	Feigheit	_	_
+9-18	734-737	der	_	_
+9-19	738-747	Regierung	_	_
+9-20	748-749	,	_	_
+9-21	750-756	welche	_	_
+9-22	757-762	ihrer	_	_
+9-23	763-771	Schwäche	_	_
+9-24	772-778	bewußt	_	_
+9-25	779-782	die	_	_
+9-26	783-789	Sachen	_	_
+9-27	790-795	gehen	_	_
+9-28	796-800	läßt	_	_
+9-29	801-802	,	_	_
+9-30	803-806	wie	_	_
+9-31	807-810	sie	_	_
+9-32	811-817	wollen	_	_
+9-33	818-819	.	_	_
+
+#Text=Ich habe einen fulminanten Artikel in die Norddeutsche Allgemeine über die hiesige Wirthschaft eingeschickt .
+10-1	820-823	Ich	_	_
+10-2	824-828	habe	_	_
+10-3	829-834	einen	_	_
+10-4	835-846	fulminanten	_	_
+10-5	847-854	Artikel	_	_
+10-6	855-857	in	_	_
+10-7	858-861	die	_	_
+10-8	862-874	Norddeutsche	_	_
+10-9	875-885	Allgemeine	_	_
+10-10	886-890	über	_	_
+10-11	891-894	die	_	_
+10-12	895-902	hiesige	_	_
+10-13	903-914	Wirthschaft	_	_
+10-14	915-927	eingeschickt	_	_
+10-15	928-929	.	_	_
+
+#Text=Sowie die ersten ordentlichen Regen gefallen sind und die luft etwas abgekühlt ist , kehren wir nach der Stadt zurück .
+11-1	930-935	Sowie	_	_
+11-2	936-939	die	_	_
+11-3	940-946	ersten	_	_
+11-4	947-959	ordentlichen	_	_
+11-5	960-965	Regen	_	_
+11-6	966-974	gefallen	_	_
+11-7	975-979	sind	_	_
+11-8	980-983	und	_	_
+11-9	984-987	die	_	_
+11-10	988-992	luft	_	_
+11-11	993-998	etwas	_	_
+11-12	999-1008	abgekühlt	_	_
+11-13	1009-1012	ist	_	_
+11-14	1013-1014	,	_	_
+11-15	1015-1021	kehren	_	_
+11-16	1022-1025	wir	_	_
+11-17	1026-1030	nach	_	_
+11-18	1031-1034	der	_	_
+11-19	1035-1040	Stadt	_	_
+11-20	1041-1047	zurück	_	_
+11-21	1048-1049	.	_	_
+
+#Text=Von Geschäftssachen hätte ich Ihnen nur zu berichten , daß Calvary mir geschrieben und um baldige Bezahlung der vorjährigen Rechnung bittet .
+12-1	1050-1053	Von	_	_
+12-2	1054-1069	Geschäftssachen	_	_
+12-3	1070-1075	hätte	_	_
+12-4	1076-1079	ich	_	_
+12-5	1080-1085	Ihnen	_	_
+12-6	1086-1089	nur	_	_
+12-7	1090-1092	zu	_	_
+12-8	1093-1102	berichten	_	_
+12-9	1103-1104	,	_	_
+12-10	1105-1108	daß	_	_
+12-11	1109-1116	Calvary	*	PERmentioned
+12-12	1117-1120	mir	_	_
+12-13	1121-1132	geschrieben	_	_
+12-14	1133-1136	und	_	_
+12-15	1137-1139	um	_	_
+12-16	1140-1147	baldige	_	_
+12-17	1148-1157	Bezahlung	_	_
+12-18	1158-1161	der	_	_
+12-19	1162-1173	vorjährigen	_	_
+12-20	1174-1182	Rechnung	_	_
+12-21	1183-1189	bittet	_	_
+12-22	1190-1191	.	_	_
+
+#Text=Die Bücherkiste ist bereits von Berlin abgegangen .
+13-1	1192-1195	Die	_	_
+13-2	1196-1207	Bücherkiste	_	_
+13-3	1208-1211	ist	_	_
+13-4	1212-1219	bereits	_	_
+13-5	1220-1223	von	_	_
+13-6	1224-1230	Berlin	*	PLACEmentioned
+13-7	1231-1241	abgegangen	_	_
+13-8	1242-1243	.	_	_

@@ -1,0 +1,230 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 8. Mai 1838 Dr. Braun g . 21/5 38 COXXVI r . 22/5 38 Berlin 8 Mai 38 Mein theurer Freund .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	8.	*[5]	DATEletter[5]
+1-7	29-32	Mai	*[5]	DATEletter[5]
+1-8	33-37	1838	*[5]	DATEletter[5]
+1-9	38-41	Dr.	_	_
+1-10	42-47	Braun	*	PERaddressee
+1-11	48-49	g	_	_
+1-12	50-51	.	_	_
+1-13	52-56	21/5	*[6]	DATErecieved[6]
+1-14	57-59	38	*[6]	DATErecieved[6]
+1-15	60-66	COXXVI	_	_
+1-16	67-68	r	_	_
+1-17	69-70	.	_	_
+1-18	71-75	22/5	*[7]	DATEanswered[7]
+1-19	76-78	38	*[7]	DATEanswered[7]
+1-20	79-85	Berlin	*	PLACEfrom
+1-21	86-87	8	*[9]	DATEletter[9]
+1-22	88-91	Mai	*[9]	DATEletter[9]
+1-23	92-94	38	*[9]	DATEletter[9]
+1-24	95-99	Mein	_	_
+1-25	100-107	theurer	_	_
+1-26	108-114	Freund	_	_
+1-27	115-116	.	_	_
+
+#Text=Ihr Brief vom 24.sten sagt und übergeht vieles \; wie das Institut eingerichtet verbleibt , wie der 2 April befriedigt , Druck und Verwaltung eingerichtet berichten Sie nicht .
+2-1	117-120	Ihr	_	_
+2-2	121-126	Brief	_	_
+2-3	127-130	vom	_	_
+2-4	131-138	24.sten	*	DATEmentioned
+2-5	139-143	sagt	_	_
+2-6	144-147	und	_	_
+2-7	148-156	übergeht	_	_
+2-8	157-163	vieles	_	_
+2-9	164-165	\;	_	_
+2-10	166-169	wie	_	_
+2-11	170-173	das	_	_
+2-12	174-182	Institut	*	ORGmentioned
+2-13	183-195	eingerichtet	_	_
+2-14	196-205	verbleibt	_	_
+2-15	206-207	,	_	_
+2-16	208-211	wie	_	_
+2-17	212-215	der	_	_
+2-18	216-217	2	*[12]	DATEmentioned[12]
+2-19	218-223	April	*[12]	DATEmentioned[12]
+2-20	224-234	befriedigt	_	_
+2-21	235-236	,	_	_
+2-22	237-242	Druck	_	_
+2-23	243-246	und	_	_
+2-24	247-257	Verwaltung	_	_
+2-25	258-270	eingerichtet	_	_
+2-26	271-280	berichten	_	_
+2-27	281-284	Sie	_	_
+2-28	285-290	nicht	_	_
+2-29	291-292	.	_	_
+
+#Text=Ueber die Capitolinischen Hausangelegenheiten vernehmen wir hier vieles was neue Befürchtungen erregt , im Falle von B.s Ankunft hier selbst vielleicht doppelte .
+3-1	293-298	Ueber	_	_
+3-2	299-302	die	_	_
+3-3	303-318	Capitolinischen	_	_
+3-4	319-338	Hausangelegenheiten	_	_
+3-5	339-348	vernehmen	_	_
+3-6	349-352	wir	_	_
+3-7	353-357	hier	_	_
+3-8	358-364	vieles	_	_
+3-9	365-368	was	_	_
+3-10	369-373	neue	_	_
+3-11	374-387	Befürchtungen	_	_
+3-12	388-394	erregt	_	_
+3-13	395-396	,	_	_
+3-14	397-399	im	_	_
+3-15	400-405	Falle	_	_
+3-16	406-409	von	_	_
+3-17	410-413	B.s	_	_
+3-18	414-421	Ankunft	_	_
+3-19	422-426	hier	_	_
+3-20	427-433	selbst	_	_
+3-21	434-444	vielleicht	_	_
+3-22	445-453	doppelte	_	_
+3-23	454-455	.	_	_
+
+#Text=Ich warte sehr auf den Stoß ( 60 - 80 ) Ex .
+4-1	456-459	Ich	_	_
+4-2	460-465	warte	_	_
+4-3	466-470	sehr	_	_
+4-4	471-474	auf	_	_
+4-5	475-478	den	_	_
+4-6	479-483	Stoß	_	_
+4-7	484-485	(	_	_
+4-8	486-488	60	_	_
+4-9	489-490	-	_	_
+4-10	491-493	80	_	_
+4-11	494-495	)	_	_
+4-12	496-498	Ex	_	_
+4-13	499-500	.	_	_
+
+#Text=meines Französ .
+5-1	501-507	meines	_	_
+5-2	508-515	Französ	_	_
+5-3	516-517	.	_	_
+
+#Text=Artikels \; hoffentlich haben Sie ihn mit Bunsen oder Buzzeni - ich weiß nicht wer von beiden zu erwarten steht - mir zugesandt .
+6-1	518-526	Artikels	_	_
+6-2	527-528	\;	_	_
+6-3	529-540	hoffentlich	_	_
+6-4	541-546	haben	_	_
+6-5	547-550	Sie	_	_
+6-6	551-554	ihn	_	_
+6-7	555-558	mit	_	_
+6-8	559-565	Bunsen	*	PERmentioned
+6-9	566-570	oder	_	_
+6-10	571-578	Buzzeni	*	PERmentioned
+6-11	579-580	-	_	_
+6-12	581-584	ich	_	_
+6-13	585-589	weiß	_	_
+6-14	590-595	nicht	_	_
+6-15	596-599	wer	_	_
+6-16	600-603	von	_	_
+6-17	604-610	beiden	_	_
+6-18	611-613	zu	_	_
+6-19	614-622	erwarten	_	_
+6-20	623-628	steht	_	_
+6-21	629-630	-	_	_
+6-22	631-634	mir	_	_
+6-23	635-644	zugesandt	_	_
+6-24	645-646	.	_	_
+
+#Text=Ein Blättchen Nachschrift vor dem Schluß des Annalenhefts zu eilen , sende ich mit Nächsten .
+7-1	647-650	Ein	_	_
+7-2	651-660	Blättchen	_	_
+7-3	661-672	Nachschrift	_	_
+7-4	673-676	vor	_	_
+7-5	677-680	dem	_	_
+7-6	681-687	Schluß	_	_
+7-7	688-691	des	_	_
+7-8	692-704	Annalenhefts	_	_
+7-9	705-707	zu	_	_
+7-10	708-713	eilen	_	_
+7-11	714-715	,	_	_
+7-12	716-721	sende	_	_
+7-13	722-725	ich	_	_
+7-14	726-729	mit	_	_
+7-15	730-738	Nächsten	_	_
+7-16	739-740	.	_	_
+
+#Text=Apolloni € matto : ich erkläre ihm dıe Sache schriftlich .
+8-1	741-749	Apolloni	*	PERmentioned
+8-2	750-751	€	_	_
+8-3	752-757	matto	_	_
+8-4	758-759	:	_	_
+8-5	760-763	ich	_	_
+8-6	764-771	erkläre	_	_
+8-7	772-775	ihm	_	_
+8-8	776-779	dıe	_	_
+8-9	780-785	Sache	_	_
+8-10	786-797	schriftlich	_	_
+8-11	798-799	.	_	_
+
+#Text=Es war mir eine Art Herzleid das merkwürdige spiegelfragment weder im Original noch in Zeichnung mitnehmen zu können \; unmittelbar vor der Abreise , gleichzeitig mit der Kistenverpackung , kaufte ich es und gab kei es an Ap % .
+9-1	800-802	Es	_	_
+9-2	803-806	war	_	_
+9-3	807-810	mir	_	_
+9-4	811-815	eine	_	_
+9-5	816-819	Art	_	_
+9-6	820-828	Herzleid	_	_
+9-7	829-832	das	_	_
+9-8	833-844	merkwürdige	_	_
+9-9	845-860	spiegelfragment	_	_
+9-10	861-866	weder	_	_
+9-11	867-869	im	_	_
+9-12	870-878	Original	_	_
+9-13	879-883	noch	_	_
+9-14	884-886	in	_	_
+9-15	887-896	Zeichnung	_	_
+9-16	897-906	mitnehmen	_	_
+9-17	907-909	zu	_	_
+9-18	910-916	können	_	_
+9-19	917-918	\;	_	_
+9-20	919-930	unmittelbar	_	_
+9-21	931-934	vor	_	_
+9-22	935-938	der	_	_
+9-23	939-946	Abreise	_	_
+9-24	947-948	,	_	_
+9-25	949-961	gleichzeitig	_	_
+9-26	962-965	mit	_	_
+9-27	966-969	der	_	_
+9-28	970-986	Kistenverpackung	_	_
+9-29	987-988	,	_	_
+9-30	989-995	kaufte	_	_
+9-31	996-999	ich	_	_
+9-32	1000-1002	es	_	_
+9-33	1003-1006	und	_	_
+9-34	1007-1010	gab	_	_
+9-35	1011-1014	kei	_	_
+9-36	1015-1017	es	_	_
+9-37	1018-1020	an	_	_
+9-38	1021-1023	Ap	*	PERmentioned
+9-39	1024-1025	%	_	_
+9-40	1026-1027	.	_	_
+
+#Text=um es zu zeichnen - es ist also nicht daran zu denken daß es vor unsrer Abreise abgegeben worden Sei ,
+10-1	1028-1030	um	_	_
+10-2	1031-1033	es	_	_
+10-3	1034-1036	zu	_	_
+10-4	1037-1045	zeichnen	_	_
+10-5	1046-1047	-	_	_
+10-6	1048-1050	es	_	_
+10-7	1051-1054	ist	_	_
+10-8	1055-1059	also	_	_
+10-9	1060-1065	nicht	_	_
+10-10	1066-1071	daran	_	_
+10-11	1072-1074	zu	_	_
+10-12	1075-1081	denken	_	_
+10-13	1082-1085	daß	_	_
+10-14	1086-1088	es	_	_
+10-15	1089-1092	vor	_	_
+10-16	1093-1099	unsrer	_	_
+10-17	1100-1107	Abreise	_	_
+10-18	1108-1117	abgegeben	_	_
+10-19	1118-1124	worden	_	_
+10-20	1125-1128	Sei	_	_
+10-21	1129-1130	,	_	_

@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 16. Juli 1862 20. Juli 1862 Tr .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	16.	*[3]	DATEletter[3]
+1-7	26-30	Juli	*[3]	DATEletter[3]
+1-8	31-35	1862	*[3]	DATEletter[3]
+1-9	36-39	20.	_	_
+1-10	40-44	Juli	*[4]	DATErecieved[4]
+1-11	45-49	1862	*[4]	DATErecieved[4]
+1-12	50-52	Tr	_	_
+1-13	53-54	.	_	_
+
+#Text=Lieber Henzen Nicht viel Neues : als daß Reifferscheid noch nicht abgereist .
+2-1	55-61	Lieber	_	_
+2-2	62-68	Henzen	*	PERmentioned
+2-3	69-74	Nicht	_	_
+2-4	75-79	viel	_	_
+2-5	80-85	Neues	_	_
+2-6	86-87	:	_	_
+2-7	88-91	als	_	_
+2-8	92-95	daß	_	_
+2-9	96-109	Reifferscheid	*	PERmentioned
+2-10	110-114	noch	_	_
+2-11	115-120	nicht	_	_
+2-12	121-130	abgereist	_	_
+2-13	131-132	.	_	_
+
+#Text=a Brief von Pritzel ) , 1 dto von Spano \; dazu Forcella \\ ( nebst einem Packete ) .
+3-1	133-134	a	_	_
+3-2	135-140	Brief	_	_
+3-3	141-144	von	_	_
+3-4	145-152	Pritzel	*	PERmentioned
+3-5	153-154	)	_	_
+3-6	155-156	,	_	_
+3-7	157-158	1	_	_
+3-8	159-162	dto	_	_
+3-9	163-166	von	_	_
+3-10	167-172	Spano	*	PERmentioned
+3-11	173-174	\;	_	_
+3-12	175-179	dazu	_	_
+3-13	180-188	Forcella	*	PERmentioned
+3-14	189-190	\\	_	_
+3-15	191-192	(	_	_
+3-16	193-198	nebst	_	_
+3-17	199-204	einem	_	_
+3-18	205-212	Packete	_	_
+3-19	213-214	)	_	_
+3-20	215-216	.	_	_
+
+#Text=- Die gfiech .
+4-1	217-218	-	_	_
+4-2	219-222	Die	_	_
+4-3	223-229	gfiech	*[5]	OBJ[5]
+4-4	230-231	.	*[5]	OBJ[5]
+
+#Text=Theaterinschriften kamen zum foglio di torchio : Pervanoglu hat sich aber als exact bewährt \; ich hätte höchstens einige Buchstabenformen ändern können , in denen aber doch wolle Akriebie nicht möglich war .
+5-1	232-250	Theaterinschriften	*[5]	OBJ[5]
+5-2	251-256	kamen	_	_
+5-3	257-260	zum	_	_
+5-4	261-267	foglio	_	_
+5-5	268-270	di	_	_
+5-6	271-278	torchio	_	_
+5-7	279-280	:	_	_
+5-8	281-291	Pervanoglu	*	PERmentioned
+5-9	292-295	hat	_	_
+5-10	296-300	sich	_	_
+5-11	301-305	aber	_	_
+5-12	306-309	als	_	_
+5-13	310-315	exact	_	_
+5-14	316-323	bewährt	_	_
+5-15	324-325	\;	_	_
+5-16	326-329	ich	_	_
+5-17	330-335	hätte	_	_
+5-18	336-345	höchstens	_	_
+5-19	346-352	einige	_	_
+5-20	353-369	Buchstabenformen	_	_
+5-21	370-376	ändern	_	_
+5-22	377-383	können	_	_
+5-23	384-385	,	_	_
+5-24	386-388	in	_	_
+5-25	389-394	denen	_	_
+5-26	395-399	aber	_	_
+5-27	400-404	doch	_	_
+5-28	405-410	wolle	_	_
+5-29	411-419	Akriebie	_	_
+5-30	420-425	nicht	_	_
+5-31	426-433	möglich	_	_
+5-32	434-437	war	_	_
+5-33	438-439	.	_	_
+
+#Text=Uebrisens hat P. mehr Inschriften als d. Akadmieberichte .
+6-1	440-449	Uebrisens	_	_
+6-2	450-453	hat	_	_
+6-3	454-456	P.	*	PERmentioned
+6-4	457-461	mehr	_	_
+6-5	462-473	Inschriften	*	OBJ
+6-6	474-477	als	_	_
+6-7	478-480	d.	_	_
+6-8	481-496	Akadmieberichte	_	_
+6-9	497-498	.	_	_
+
+#Text=Wenn nicht zum Sonnabend , so ist doch gewiß zum Dienstag das Bullettino speditionabel .
+7-1	499-503	Wenn	_	_
+7-2	504-509	nicht	_	_
+7-3	510-513	zum	_	_
+7-4	514-523	Sonnabend	*	DATEmentioned
+7-5	524-525	,	_	_
+7-6	526-528	so	_	_
+7-7	529-532	ist	_	_
+7-8	533-537	doch	_	_
+7-9	538-543	gewiß	_	_
+7-10	544-547	zum	_	_
+7-11	548-556	Dienstag	*	DATEmentioned
+7-12	557-560	das	_	_
+7-13	561-571	Bullettino	_	_
+7-14	572-585	speditionabel	_	_
+7-15	586-587	.	_	_
+
+#Text=NB .
+8-1	588-590	NB	_	_
+8-2	591-592	.	_	_
+
+#Text=Von dem Bullettino della Colombaria fehlt uns No .
+9-1	593-596	Von	_	_
+9-2	597-600	dem	_	_
+9-3	601-611	Bullettino	_	_
+9-4	612-617	della	_	_
+9-5	618-628	Colombaria	*	MISC
+9-6	629-634	fehlt	_	_
+9-7	635-638	uns	_	_
+9-8	639-641	No	_	_
+9-9	642-643	.	_	_
+
+#Text=I .
+10-1	644-645	I	_	_
+10-2	646-647	.	_	_
+
+#Text=Von Ritschl wieder einmal 3 Briefe in 2 Tagen , über den Minucius , den er wegen Verunglücken des Apolo zum Programm zu behandeln sich gezwungen sehe , obwohl der Abklatsch noch nicht angelangt und er über manche Punkte nicht sehr im Unklaren .
+11-1	648-651	Von	_	_
+11-2	652-659	Ritschl	*	PERmentioned
+11-3	660-666	wieder	_	_
+11-4	667-673	einmal	_	_
+11-5	674-675	3	_	_
+11-6	676-682	Briefe	_	_
+11-7	683-685	in	_	_
+11-8	686-687	2	_	_
+11-9	688-693	Tagen	_	_
+11-10	694-695	,	_	_
+11-11	696-700	über	_	_
+11-12	701-704	den	_	_
+11-13	705-713	Minucius	*	OBJ
+11-14	714-715	,	_	_
+11-15	716-719	den	_	_
+11-16	720-722	er	_	_
+11-17	723-728	wegen	_	_
+11-18	729-741	Verunglücken	_	_
+11-19	742-745	des	_	_
+11-20	746-751	Apolo	*	OBJ
+11-21	752-755	zum	_	_
+11-22	756-764	Programm	_	_
+11-23	765-767	zu	_	_
+11-24	768-777	behandeln	_	_
+11-25	778-782	sich	_	_
+11-26	783-792	gezwungen	_	_
+11-27	793-797	sehe	_	_
+11-28	798-799	,	_	_
+11-29	800-806	obwohl	_	_
+11-30	807-810	der	_	_
+11-31	811-820	Abklatsch	_	_
+11-32	821-825	noch	_	_
+11-33	826-831	nicht	_	_
+11-34	832-841	angelangt	_	_
+11-35	842-845	und	_	_
+11-36	846-848	er	_	_
+11-37	849-853	über	_	_
+11-38	854-860	manche	_	_
+11-39	861-867	Punkte	_	_
+11-40	868-873	nicht	_	_
+11-41	874-878	sehr	_	_
+11-42	879-881	im	_	_
+11-43	882-890	Unklaren	_	_
+11-44	891-892	.	_	_
+
+#Text=Dabei die Nachricht , daß es mit Welckers Augen doch sehr schlecht stehe .
+12-1	893-898	Dabei	_	_
+12-2	899-902	die	_	_
+12-3	903-912	Nachricht	_	_
+12-4	913-914	,	_	_
+12-5	915-918	daß	_	_
+12-6	919-921	es	_	_
+12-7	922-925	mit	_	_
+12-8	926-934	Welckers	*	PERmentioned
+12-9	935-940	Augen	_	_
+12-10	941-945	doch	_	_
+12-11	946-950	sehr	_	_
+12-12	951-959	schlecht	_	_
+12-13	960-965	stehe	_	_
+12-14	966-967	.	_	_
+
+#Text=Um nicht erblinden , habe er alles Lesen und Schreiben aufgeben müssen .
+13-1	968-970	Um	_	_
+13-2	971-976	nicht	_	_
+13-3	977-986	erblinden	_	_
+13-4	987-988	,	_	_
+13-5	989-993	habe	_	_
+13-6	994-996	er	_	_
+13-7	997-1002	alles	_	_
+13-8	1003-1008	Lesen	_	_
+13-9	1009-1012	und	_	_
+13-10	1013-1022	Schreiben	_	_
+13-11	1023-1031	aufgeben	_	_
+13-12	1032-1038	müssen	_	_
+13-13	1039-1040	.	_	_
+
+#Text=Mythol III , 1 : Dämonenlehre sei zum Glück bis auf einen sehr kleinen Rest
+14-1	1041-1047	Mythol	_	_
+14-2	1048-1051	III	_	_
+14-3	1052-1053	,	_	_
+14-4	1054-1055	1	_	_
+14-5	1056-1057	:	_	_
+14-6	1058-1070	Dämonenlehre	_	_
+14-7	1071-1074	sei	_	_
+14-8	1075-1078	zum	_	_
+14-9	1079-1084	Glück	_	_
+14-10	1085-1088	bis	_	_
+14-11	1089-1092	auf	_	_
+14-12	1093-1098	einen	_	_
+14-13	1099-1103	sehr	_	_
+14-14	1104-1111	kleinen	_	_
+14-15	1112-1116	Rest	_	_

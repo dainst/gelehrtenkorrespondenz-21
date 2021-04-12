@@ -1,0 +1,266 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Rom , 23. April 1835 Abtragung Ihrer Forderungen gezahlt werden .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-27	23.	*[4]	DATEletter[4]
+1-7	28-33	April	*[4]	DATEletter[4]
+1-8	34-38	1835	*[4]	DATEletter[4]
+1-9	39-48	Abtragung	_	_
+1-10	49-54	Ihrer	_	_
+1-11	55-66	Forderungen	_	_
+1-12	67-74	gezahlt	_	_
+1-13	75-81	werden	_	_
+1-14	82-83	.	_	_
+
+#Text=Schreiben Sie selbst das Nähere vor .
+2-1	84-93	Schreiben	_	_
+2-2	94-97	Sie	_	_
+2-3	98-104	selbst	_	_
+2-4	105-108	das	_	_
+2-5	109-115	Nähere	_	_
+2-6	116-119	vor	_	_
+2-7	120-121	.	_	_
+
+#Text=Als die beiden dirigierenden Gelehrten schlage ich , wenn Sie nicht können , Braun und Franz vor .
+3-1	122-125	Als	_	_
+3-2	126-129	die	_	_
+3-3	130-136	beiden	_	_
+3-4	137-150	dirigierenden	_	_
+3-5	151-160	Gelehrten	_	_
+3-6	161-168	schlage	_	_
+3-7	169-172	ich	_	_
+3-8	173-174	,	_	_
+3-9	175-179	wenn	_	_
+3-10	180-183	Sie	_	_
+3-11	184-189	nicht	_	_
+3-12	190-196	können	_	_
+3-13	197-198	,	_	_
+3-14	199-204	Braun	*	PERmentioned
+3-15	205-208	und	_	_
+3-16	209-214	Franz	*	PERmentioned
+3-17	215-218	vor	_	_
+3-18	219-220	.	_	_
+
+#Text=So wird aus einer Privatsache eine dienende Öffentliche Anstalt , ohne daß irgend jemand beeinträchtigt wurde .
+4-1	221-223	So	_	_
+4-2	224-228	wird	_	_
+4-3	229-232	aus	_	_
+4-4	233-238	einer	_	_
+4-5	239-250	Privatsache	_	_
+4-6	251-255	eine	_	_
+4-7	256-264	dienende	_	_
+4-8	265-276	Öffentliche	_	_
+4-9	277-284	Anstalt	_	_
+4-10	285-286	,	_	_
+4-11	287-291	ohne	_	_
+4-12	292-295	daß	_	_
+4-13	296-302	irgend	_	_
+4-14	303-309	jemand	_	_
+4-15	310-324	beeinträchtigt	_	_
+4-16	325-330	wurde	_	_
+4-17	331-332	.	_	_
+
+#Text=In 20 Jahren kann das Institut einen archäologischen Apparat haben , wie ihn keine Anstalt der Welt besitzt .
+5-1	333-335	In	_	_
+5-2	336-338	20	_	_
+5-3	339-345	Jahren	_	_
+5-4	346-350	kann	_	_
+5-5	351-354	das	_	_
+5-6	355-363	Institut	*	ORGmentioned
+5-7	364-369	einen	_	_
+5-8	370-385	archäologischen	_	_
+5-9	386-393	Apparat	_	_
+5-10	394-399	haben	_	_
+5-11	400-401	,	_	_
+5-12	402-405	wie	_	_
+5-13	406-409	ihn	_	_
+5-14	410-415	keine	_	_
+5-15	416-423	Anstalt	_	_
+5-16	424-427	der	_	_
+5-17	428-432	Welt	_	_
+5-18	433-440	besitzt	_	_
+5-19	441-442	.	_	_
+
+#Text=Eine solche Basis allein kann uns halten .
+6-1	443-447	Eine	_	_
+6-2	448-454	solche	_	_
+6-3	455-460	Basis	*	OBJ
+6-4	461-467	allein	_	_
+6-5	468-472	kann	_	_
+6-6	473-476	uns	_	_
+6-7	477-483	halten	_	_
+6-8	484-485	.	_	_
+
+#Text=- Sie schreiben mir über Panofkas Lage : andere schriftliche Mittheilung von Berlin hatte mich darauf vorbereitet .
+7-1	486-487	-	_	_
+7-2	488-491	Sie	_	_
+7-3	492-501	schreiben	_	_
+7-4	502-505	mir	_	_
+7-5	506-510	über	_	_
+7-6	511-519	Panofkas	*	PERmentioned
+7-7	520-524	Lage	_	_
+7-8	525-526	:	_	_
+7-9	527-533	andere	_	_
+7-10	534-546	schriftliche	_	_
+7-11	547-558	Mittheilung	_	_
+7-12	559-562	von	_	_
+7-13	563-569	Berlin	*	PLACEmentioned
+7-14	570-575	hatte	_	_
+7-15	576-580	mich	_	_
+7-16	581-587	darauf	_	_
+7-17	588-599	vorbereitet	_	_
+7-18	600-601	.	_	_
+
+#Text=Müllers Berufung ist ein feststehender Plan , seit Jahren .
+8-1	602-609	Müllers	*	PERmentioned
+8-2	610-618	Berufung	_	_
+8-3	619-622	ist	_	_
+8-4	623-626	ein	_	_
+8-5	627-640	feststehender	_	_
+8-6	641-645	Plan	_	_
+8-7	646-647	,	_	_
+8-8	648-652	seit	_	_
+8-9	653-659	Jahren	_	_
+8-10	660-661	.	_	_
+
+#Text=Ich bleibe bei der Ansicht , daß Panofka 17-2 Jahre sich zusammennehmen muß , um sich wieder in Respekt zu setzen , und um sich weniger unbeliebt zu machen , als er es jetzt , auch in Berlin allerdings ist .
+9-1	662-665	Ich	_	_
+9-2	666-672	bleibe	_	_
+9-3	673-676	bei	_	_
+9-4	677-680	der	_	_
+9-5	681-688	Ansicht	_	_
+9-6	689-690	,	_	_
+9-7	691-694	daß	_	_
+9-8	695-702	Panofka	*	PERmentioned
+9-9	703-707	17-2	_	_
+9-10	708-713	Jahre	_	_
+9-11	714-718	sich	_	_
+9-12	719-733	zusammennehmen	_	_
+9-13	734-737	muß	_	_
+9-14	738-739	,	_	_
+9-15	740-742	um	_	_
+9-16	743-747	sich	_	_
+9-17	748-754	wieder	_	_
+9-18	755-757	in	_	_
+9-19	758-765	Respekt	_	_
+9-20	766-768	zu	_	_
+9-21	769-775	setzen	_	_
+9-22	776-777	,	_	_
+9-23	778-781	und	_	_
+9-24	782-784	um	_	_
+9-25	785-789	sich	_	_
+9-26	790-797	weniger	_	_
+9-27	798-807	unbeliebt	_	_
+9-28	808-810	zu	_	_
+9-29	811-817	machen	_	_
+9-30	818-819	,	_	_
+9-31	820-823	als	_	_
+9-32	824-826	er	_	_
+9-33	827-829	es	_	_
+9-34	830-835	jetzt	_	_
+9-35	836-837	,	_	_
+9-36	838-842	auch	_	_
+9-37	843-845	in	_	_
+9-38	846-852	Berlin	*	PLACEmentioned
+9-39	853-863	allerdings	_	_
+9-40	864-867	ist	_	_
+9-41	868-869	.	_	_
+
+#Text=Dazu giebt es 2 Mittel : entweder : Habilitirung in Breslau oder Berlin , und nach 1 Jahre Forderung und Professur .
+10-1	870-874	Dazu	_	_
+10-2	875-880	giebt	_	_
+10-3	881-883	es	_	_
+10-4	884-885	2	_	_
+10-5	886-892	Mittel	_	_
+10-6	893-894	:	_	_
+10-7	895-903	entweder	_	_
+10-8	904-905	:	_	_
+10-9	906-918	Habilitirung	_	_
+10-10	919-921	in	_	_
+10-11	922-929	Breslau	*	PLACEmentioned
+10-12	930-934	oder	_	_
+10-13	935-941	Berlin	*	PLACEmentioned
+10-14	942-943	,	_	_
+10-15	944-947	und	_	_
+10-16	948-952	nach	_	_
+10-17	953-954	1	_	_
+10-18	955-960	Jahre	_	_
+10-19	961-970	Forderung	_	_
+10-20	971-974	und	_	_
+10-21	975-984	Professur	_	_
+10-22	985-986	.	_	_
+
+#Text=Daneben irgend eine andern Gelehrten als ihm schnackhafte gelehrte Arbeit .
+11-1	987-994	Daneben	_	_
+11-2	995-1001	irgend	_	_
+11-3	1002-1006	eine	_	_
+11-4	1007-1013	andern	_	_
+11-5	1014-1023	Gelehrten	_	_
+11-6	1024-1027	als	_	_
+11-7	1028-1031	ihm	_	_
+11-8	1032-1044	schnackhafte	_	_
+11-9	1045-1053	gelehrte	_	_
+11-10	1054-1060	Arbeit	_	_
+11-11	1061-1062	.	_	_
+
+#Text=Oder einige Jahre ausschließliches Arbeiten am Institut , also in Rom .
+12-1	1063-1067	Oder	_	_
+12-2	1068-1074	einige	_	_
+12-3	1075-1080	Jahre	_	_
+12-4	1081-1097	ausschließliches	_	_
+12-5	1098-1106	Arbeiten	_	_
+12-6	1107-1109	am	_	_
+12-7	1110-1118	Institut	*	ORGmentioned
+12-8	1119-1120	,	_	_
+12-9	1121-1125	also	_	_
+12-10	1126-1128	in	_	_
+12-11	1129-1132	Rom	*	PLACEmentioned
+12-12	1133-1134	.	_	_
+
+#Text=Falls er jedoch dabei seinen Grillen nachgehen , und sich überhaupt gehen lassen will , wie er bisher gethan , so wird er damit nur Übel ärger machen .
+13-1	1135-1140	Falls	_	_
+13-2	1141-1143	er	_	_
+13-3	1144-1150	jedoch	_	_
+13-4	1151-1156	dabei	_	_
+13-5	1157-1163	seinen	_	_
+13-6	1164-1171	Grillen	_	_
+13-7	1172-1181	nachgehen	_	_
+13-8	1182-1183	,	_	_
+13-9	1184-1187	und	_	_
+13-10	1188-1192	sich	_	_
+13-11	1193-1202	überhaupt	_	_
+13-12	1203-1208	gehen	_	_
+13-13	1209-1215	lassen	_	_
+13-14	1216-1220	will	_	_
+13-15	1221-1222	,	_	_
+13-16	1223-1226	wie	_	_
+13-17	1227-1229	er	_	_
+13-18	1230-1236	bisher	_	_
+13-19	1237-1243	gethan	_	_
+13-20	1244-1245	,	_	_
+13-21	1246-1248	so	_	_
+13-22	1249-1253	wird	_	_
+13-23	1254-1256	er	_	_
+13-24	1257-1262	damit	_	_
+13-25	1263-1266	nur	_	_
+13-26	1267-1271	Übel	_	_
+13-27	1272-1277	ärger	_	_
+13-28	1278-1284	machen	_	_
+13-29	1285-1286	.	_	_
+
+#Text=Es ist und bleibt unvernünftig , von der ge-
+14-1	1287-1289	Es	_	_
+14-2	1290-1293	ist	_	_
+14-3	1294-1297	und	_	_
+14-4	1298-1304	bleibt	_	_
+14-5	1305-1317	unvernünftig	_	_
+14-6	1318-1319	,	_	_
+14-7	1320-1323	von	_	_
+14-8	1324-1327	der	_	_
+14-9	1328-1331	ge-	_	_

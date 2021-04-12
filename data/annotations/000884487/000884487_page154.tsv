@@ -1,0 +1,119 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun 4. März 1837 Dr. Braun Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-19	4.	*[3]	DATEletter[3]
+1-5	20-24	März	*[3]	DATEletter[3]
+1-6	25-29	1837	*[3]	DATEletter[3]
+1-7	30-33	Dr.	_	_
+1-8	34-39	Braun	*	PERaddressee
+1-9	40-43	Dir	_	_
+1-10	44-45	.	_	_
+
+#Text=Rom .
+2-1	46-49	Rom	*	PLACEto
+2-2	50-51	.	_	_
+
+#Text=Gerh .
+3-1	52-56	Gerh	_	_
+3-2	57-58	.	_	_
+
+#Text=ILVIII Geschr .
+4-1	59-65	ILVIII	_	_
+4-2	66-72	Geschr	_	_
+4-3	73-74	.	_	_
+
+#Text=n® 81 .
+5-1	75-77	n®	_	_
+5-2	78-80	81	_	_
+5-3	81-82	.	_	_
+
+#Text=4/3 37 .
+6-1	83-86	4/3	*[6]	DATEletter[6]
+6-2	87-89	37	*[6]	DATEletter[6]
+6-3	90-91	.	_	_
+
+#Text=Wollten Sie wol Bellotti befragen 1/ wie es mit Quarantänen und Quarantainanstalten beschaffen ist die von den ionischen Inseln nach Otranto kommen .
+7-1	92-99	Wollten	_	_
+7-2	100-103	Sie	_	_
+7-3	104-107	wol	_	_
+7-4	108-116	Bellotti	*	PERmentioned
+7-5	117-125	befragen	_	_
+7-6	126-128	1/	_	_
+7-7	129-132	wie	_	_
+7-8	133-135	es	_	_
+7-9	136-139	mit	_	_
+7-10	140-151	Quarantänen	_	_
+7-11	152-155	und	_	_
+7-12	156-175	Quarantainanstalten	_	_
+7-13	176-186	beschaffen	_	_
+7-14	187-190	ist	_	_
+7-15	191-194	die	_	_
+7-16	195-198	von	_	_
+7-17	199-202	den	_	_
+7-18	203-212	ionischen	*[8]	PLACEmentioned[8]
+7-19	213-219	Inseln	*[8]	PLACEmentioned[8]
+7-20	220-224	nach	_	_
+7-21	225-232	Otranto	*	PLACEmentioned
+7-22	233-239	kommen	_	_
+7-23	240-241	.	_	_
+
+#Text=2 ) wie rasch und regelmäßig seine Bücher in Athen ankommen .
+8-1	242-243	2	_	_
+8-2	244-245	)	_	_
+8-3	246-249	wie	_	_
+8-4	250-255	rasch	_	_
+8-5	256-259	und	_	_
+8-6	260-270	regelmäßig	_	_
+8-7	271-276	seine	_	_
+8-8	277-283	Bücher	_	_
+8-9	284-286	in	_	_
+8-10	287-292	Athen	*	PLACEmentioned
+8-11	293-301	ankommen	_	_
+8-12	302-303	.	_	_
+
+#Text=Desgleichen wünschte ich aus Livorno Nachricht über die gegen Neapel obwaltende Quarantaine .
+9-1	304-315	Desgleichen	_	_
+9-2	316-324	wünschte	_	_
+9-3	325-328	ich	_	_
+9-4	329-332	aus	_	_
+9-5	333-340	Livorno	*	PLACEmentioned
+9-6	341-350	Nachricht	_	_
+9-7	351-355	über	_	_
+9-8	356-359	die	_	_
+9-9	360-365	gegen	_	_
+9-10	366-372	Neapel	*	PLACEmentioned
+9-11	373-383	obwaltende	_	_
+9-12	384-395	Quarantaine	_	_
+9-13	396-397	.	_	_
+
+#Text=Ich brauche 1 Ex .
+10-1	398-401	Ich	_	_
+10-2	402-409	brauche	_	_
+10-3	410-411	1	_	_
+10-4	412-414	Ex	_	_
+10-5	415-416	.	_	_
+
+#Text=Rapporto volcente und andre Institutsdrucksachen die man mit Effekt in Griecheland vertheilen könne .
+11-1	417-425	Rapporto	_	_
+11-2	426-434	volcente	_	_
+11-3	435-438	und	_	_
+11-4	439-444	andre	_	_
+11-5	445-465	Institutsdrucksachen	_	_
+11-6	466-469	die	_	_
+11-7	470-473	man	_	_
+11-8	474-477	mit	_	_
+11-9	478-484	Effekt	_	_
+11-10	485-487	in	_	_
+11-11	488-499	Griecheland	*	PLACEmentioned
+11-12	500-510	vertheilen	_	_
+11-13	511-516	könne	_	_
+11-14	517-518	.	_	_
+
+#Text=Gerhard 4/3
+12-1	519-526	Gerhard	*	PERauthor
+12-2	527-530	4/3	*	DATEletter

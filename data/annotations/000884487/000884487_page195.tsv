@@ -1,0 +1,218 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 1. Juli 1837 haben Sie wol davon Gebrauch gemacht ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	1.	*[4]	DATEletter[4]
+1-7	30-34	Juli	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-45	haben	_	_
+1-10	46-49	Sie	_	_
+1-11	50-53	wol	_	_
+1-12	54-59	davon	_	_
+1-13	60-68	Gebrauch	_	_
+1-14	69-76	gemacht	_	_
+1-15	77-78	?	_	_
+
+#Text=Sollten Sie mir noch Couriersendung hieher übermachen , so hätte ich ganz gern die lezten Monate des Kunstblattes vor Augen .
+2-1	79-86	Sollten	_	_
+2-2	87-90	Sie	_	_
+2-3	91-94	mir	_	_
+2-4	95-99	noch	_	_
+2-5	100-114	Couriersendung	_	_
+2-6	115-121	hieher	_	_
+2-7	122-132	übermachen	_	_
+2-8	133-134	,	_	_
+2-9	135-137	so	_	_
+2-10	138-143	hätte	_	_
+2-11	144-147	ich	_	_
+2-12	148-152	ganz	_	_
+2-13	153-157	gern	_	_
+2-14	158-161	die	_	_
+2-15	162-168	lezten	_	_
+2-16	169-175	Monate	_	_
+2-17	176-179	des	_	_
+2-18	180-192	Kunstblattes	_	_
+2-19	193-196	vor	_	_
+2-20	197-202	Augen	_	_
+2-21	203-204	.	_	_
+
+#Text=Papier hätte ich wieder genug beschrieben !
+3-1	205-211	Papier	_	_
+3-2	212-217	hätte	_	_
+3-3	218-221	ich	_	_
+3-4	222-228	wieder	_	_
+3-5	229-234	genug	_	_
+3-6	235-246	beschrieben	_	_
+3-7	247-248	!	_	_
+
+#Text=Gott befohlen Sie und die Freunde \| !
+4-1	249-253	Gott	_	_
+4-2	254-262	befohlen	_	_
+4-3	263-266	Sie	_	_
+4-4	267-270	und	_	_
+4-5	271-274	die	_	_
+4-6	275-282	Freunde	_	_
+4-7	283-284	\|	_	_
+4-8	285-286	!	_	_
+
+#Text=Ihr Gerhard Passalacqua hat dem Gf .
+5-1	287-290	Ihr	_	_
+5-2	291-298	Gerhard	*	PERauthor
+5-3	299-310	Passalacqua	*	PERmentioned
+5-4	311-314	hat	_	_
+5-5	315-318	dem	_	_
+5-6	319-321	Gf	*[7]	PERmentioned[7]
+5-7	322-323	.	*[7]	PERmentioned[7]
+
+#Text=B hl und aller Welt erzählt , ich werde mich mit dem De Witte wegen der durch mich geltend gemachten Beschränkung seines P schlagen müssen , und leider vermuthlich auf dem Schlachtfeld bleiben - , denn De Witte sei Rittmeister gewesen .
+6-1	324-325	B	*[7]	PERmentioned[7]
+6-2	326-328	hl	*[7]	PERmentioned[7]
+6-3	329-332	und	_	_
+6-4	333-338	aller	_	_
+6-5	339-343	Welt	_	_
+6-6	344-351	erzählt	_	_
+6-7	352-353	,	_	_
+6-8	354-357	ich	_	_
+6-9	358-363	werde	_	_
+6-10	364-368	mich	_	_
+6-11	369-372	mit	_	_
+6-12	373-376	dem	_	_
+6-13	377-379	De	*[8]	PERmentioned[8]
+6-14	380-385	Witte	*[8]	PERmentioned[8]
+6-15	386-391	wegen	_	_
+6-16	392-395	der	_	_
+6-17	396-401	durch	_	_
+6-18	402-406	mich	_	_
+6-19	407-414	geltend	_	_
+6-20	415-424	gemachten	_	_
+6-21	425-437	Beschränkung	_	_
+6-22	438-444	seines	_	_
+6-23	445-446	P	_	_
+6-24	447-455	schlagen	_	_
+6-25	456-462	müssen	_	_
+6-26	463-464	,	_	_
+6-27	465-468	und	_	_
+6-28	469-475	leider	_	_
+6-29	476-487	vermuthlich	_	_
+6-30	488-491	auf	_	_
+6-31	492-495	dem	_	_
+6-32	496-508	Schlachtfeld	_	_
+6-33	509-516	bleiben	_	_
+6-34	517-518	-	_	_
+6-35	519-520	,	_	_
+6-36	521-525	denn	_	_
+6-37	526-528	De	*[9]	PERmentioned[9]
+6-38	529-534	Witte	*[9]	PERmentioned[9]
+6-39	535-538	sei	_	_
+6-40	539-550	Rittmeister	_	_
+6-41	551-558	gewesen	_	_
+6-42	559-560	.	_	_
+
+#Text=Alessi Storia Sicula will dringend angezeigt sein \; man kann ihm solchen Gefallen in aller Kürze thun .
+7-1	561-567	Alessi	*	PERmentioned
+7-2	568-574	Storia	_	_
+7-3	575-581	Sicula	_	_
+7-4	582-586	will	_	_
+7-5	587-595	dringend	_	_
+7-6	596-605	angezeigt	_	_
+7-7	606-610	sein	_	_
+7-8	611-612	\;	_	_
+7-9	613-616	man	_	_
+7-10	617-621	kann	_	_
+7-11	622-625	ihm	_	_
+7-12	626-633	solchen	_	_
+7-13	634-642	Gefallen	_	_
+7-14	643-645	in	_	_
+7-15	646-651	aller	_	_
+7-16	652-657	Kürze	_	_
+7-17	658-662	thun	_	_
+7-18	663-664	.	_	_
+
+#Text=Er klagt 15 Apr bitter keine Inst .
+8-1	665-667	Er	_	_
+8-2	668-673	klagt	_	_
+8-3	674-676	15	*[11]	DATEmentioned[11]
+8-4	677-680	Apr	*[11]	DATEmentioned[11]
+8-5	681-687	bitter	_	_
+8-6	688-693	keine	_	_
+8-7	694-698	Inst	_	_
+8-8	699-700	.	_	_
+
+#Text=werke zu haben .
+9-1	701-706	werke	_	_
+9-2	707-709	zu	_	_
+9-3	710-715	haben	_	_
+9-4	716-717	.	_	_
+
+#Text=Er schickt einen Münzartikel der brauchbar scheint \; er ist nicht lang , daher er wol s3ek seinem Verlangen gemäß sich wird ganz abdrucken lassen .
+10-1	718-720	Er	_	_
+10-2	721-728	schickt	_	_
+10-3	729-734	einen	_	_
+10-4	735-746	Münzartikel	_	_
+10-5	747-750	der	_	_
+10-6	751-760	brauchbar	_	_
+10-7	761-768	scheint	_	_
+10-8	769-770	\;	_	_
+10-9	771-773	er	_	_
+10-10	774-777	ist	_	_
+10-11	778-783	nicht	_	_
+10-12	784-788	lang	_	_
+10-13	789-790	,	_	_
+10-14	791-796	daher	_	_
+10-15	797-799	er	_	_
+10-16	800-803	wol	_	_
+10-17	804-808	s3ek	_	_
+10-18	809-815	seinem	_	_
+10-19	816-825	Verlangen	_	_
+10-20	826-831	gemäß	_	_
+10-21	832-836	sich	_	_
+10-22	837-841	wird	_	_
+10-23	842-846	ganz	_	_
+10-24	847-856	abdrucken	_	_
+10-25	857-863	lassen	_	_
+10-26	864-865	.	_	_
+
+#Text=Er will 20 Separatabdrücke .
+11-1	866-868	Er	_	_
+11-2	869-873	will	_	_
+11-3	874-876	20	_	_
+11-4	877-892	Separatabdrücke	_	_
+11-5	893-894	.	_	_
+
+#Text=Nachdem ich Ihrem Rath gemäß ein paar Tage je 3 Chinin gebraucht , finde ich mich ein weniges , doch in der That wenig erleichtert \; die Hitze erschlafft ,
+12-1	895-902	Nachdem	_	_
+12-2	903-906	ich	_	_
+12-3	907-912	Ihrem	_	_
+12-4	913-917	Rath	_	_
+12-5	918-923	gemäß	_	_
+12-6	924-927	ein	_	_
+12-7	928-932	paar	_	_
+12-8	933-937	Tage	_	_
+12-9	938-940	je	_	_
+12-10	941-942	3	_	_
+12-11	943-949	Chinin	_	_
+12-12	950-959	gebraucht	_	_
+12-13	960-961	,	_	_
+12-14	962-967	finde	_	_
+12-15	968-971	ich	_	_
+12-16	972-976	mich	_	_
+12-17	977-980	ein	_	_
+12-18	981-988	weniges	_	_
+12-19	989-990	,	_	_
+12-20	991-995	doch	_	_
+12-21	996-998	in	_	_
+12-22	999-1002	der	_	_
+12-23	1003-1007	That	_	_
+12-24	1008-1013	wenig	_	_
+12-25	1014-1025	erleichtert	_	_
+12-26	1026-1027	\;	_	_
+12-27	1028-1031	die	_	_
+12-28	1032-1037	Hitze	_	_
+12-29	1038-1048	erschlafft	_	_
+12-30	1049-1050	,	_	_

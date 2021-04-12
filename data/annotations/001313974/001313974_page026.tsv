@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=349 Helbig an Henzen Ohne Datum H .
+1-1	0-3	349	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-25	Ohne	_	_
+1-6	26-31	Datum	_	_
+1-7	32-33	H	_	_
+1-8	34-35	.	_	_
+
+#Text=6/8 64 r . Lieber Herr Professor \| !
+2-1	36-39	6/8	*[1]	DATErecieved[1]
+2-2	40-42	64	*[1]	DATErecieved[1]
+2-3	43-44	r	_	_
+2-4	45-46	.	_	_
+2-5	47-53	Lieber	_	_
+2-6	54-58	Herr	_	_
+2-7	59-68	Professor	_	_
+2-8	69-70	\|	_	_
+2-9	71-72	!	_	_
+
+#Text=Herzlichen Dank für Ihre Kassandrabriefe .
+3-1	73-83	Herzlichen	_	_
+3-2	84-88	Dank	_	_
+3-3	89-92	für	_	_
+3-4	93-97	Ihre	_	_
+3-5	98-113	Kassandrabriefe	_	_
+3-6	114-115	.	_	_
+
+#Text=Wahrhaft schnöde ist es , daß Gerhard , nachdem er mich früher mit Briefen und Aufträgen aller Art bestürmt hatte , seit 4 Wochen ein unverbrüchliches Stillschweigen beobachtet .
+4-1	116-124	Wahrhaft	_	_
+4-2	125-132	schnöde	_	_
+4-3	133-136	ist	_	_
+4-4	137-139	es	_	_
+4-5	140-141	,	_	_
+4-6	142-145	daß	_	_
+4-7	146-153	Gerhard	*	PERmentioned
+4-8	154-155	,	_	_
+4-9	156-163	nachdem	_	_
+4-10	164-166	er	_	_
+4-11	167-171	mich	_	_
+4-12	172-178	früher	_	_
+4-13	179-182	mit	_	_
+4-14	183-190	Briefen	_	_
+4-15	191-194	und	_	_
+4-16	195-204	Aufträgen	_	_
+4-17	205-210	aller	_	_
+4-18	211-214	Art	_	_
+4-19	215-223	bestürmt	_	_
+4-20	224-229	hatte	_	_
+4-21	230-231	,	_	_
+4-22	232-236	seit	_	_
+4-23	237-238	4	_	_
+4-24	239-245	Wochen	_	_
+4-25	246-249	ein	_	_
+4-26	250-266	unverbrüchliches	_	_
+4-27	267-281	Stillschweigen	_	_
+4-28	282-292	beobachtet	_	_
+4-29	293-294	.	_	_
+
+#Text=Beiliegende Zeilen bitte ich in dem Aufsatze über die antichita di Peytrignet hinter die Beschreibung der von mir für Orpheus bei den Thraken erklärten Vase einzuschalten .
+5-1	295-306	Beiliegende	_	_
+5-2	307-313	Zeilen	_	_
+5-3	314-319	bitte	_	_
+5-4	320-323	ich	_	_
+5-5	324-326	in	_	_
+5-6	327-330	dem	_	_
+5-7	331-339	Aufsatze	_	_
+5-8	340-344	über	_	_
+5-9	345-348	die	_	_
+5-10	349-358	antichita	*	MISC
+5-11	359-361	di	_	_
+5-12	362-372	Peytrignet	*	PERmentioned
+5-13	373-379	hinter	_	_
+5-14	380-383	die	_	_
+5-15	384-396	Beschreibung	_	_
+5-16	397-400	der	_	_
+5-17	401-404	von	_	_
+5-18	405-408	mir	_	_
+5-19	409-412	für	_	_
+5-20	413-420	Orpheus	*	PERmentioned
+5-21	421-424	bei	_	_
+5-22	425-428	den	_	_
+5-23	429-436	Thraken	*	MISC
+5-24	437-446	erklärten	_	_
+5-25	447-451	Vase	*	OBJ
+5-26	452-465	einzuschalten	_	_
+5-27	466-467	.	_	_
+
+#Text=Es ist gut , wenn eine solche Frage in größerem Zusammenhang abgemacht wird .
+6-1	468-470	Es	_	_
+6-2	471-474	ist	_	_
+6-3	475-478	gut	_	_
+6-4	479-480	,	_	_
+6-5	481-485	wenn	_	_
+6-6	486-490	eine	_	_
+6-7	491-497	solche	_	_
+6-8	498-503	Frage	_	_
+6-9	504-506	in	_	_
+6-10	507-515	größerem	_	_
+6-11	516-528	Zusammenhang	_	_
+6-12	529-538	abgemacht	_	_
+6-13	539-543	wird	_	_
+6-14	544-545	.	_	_
+
+#Text=Nächsten Sonntag werde ich aufs Neue nach Pagani gehen , um die Terracotten in Augenschein zu nehmen .
+7-1	546-554	Nächsten	_	_
+7-2	555-562	Sonntag	*	DATEmentioned
+7-3	563-568	werde	_	_
+7-4	569-572	ich	_	_
+7-5	573-577	aufs	_	_
+7-6	578-582	Neue	_	_
+7-7	583-587	nach	_	_
+7-8	588-594	Pagani	*	PLACEmentioned
+7-9	595-600	gehen	_	_
+7-10	601-602	,	_	_
+7-11	603-605	um	_	_
+7-12	606-609	die	_	_
+7-13	610-621	Terracotten	*	OBJ
+7-14	622-624	in	_	_
+7-15	625-636	Augenschein	_	_
+7-16	637-639	zu	_	_
+7-17	640-646	nehmen	_	_
+7-18	647-648	.	_	_
+
+#Text=Nach Peytrignets Beschreibung scheinen sie analoger Art zu sein wie die von mir für Brunn aquirirte .
+8-1	649-653	Nach	_	_
+8-2	654-665	Peytrignets	*	PERmentioned
+8-3	666-678	Beschreibung	_	_
+8-4	679-687	scheinen	_	_
+8-5	688-691	sie	_	_
+8-6	692-700	analoger	_	_
+8-7	701-704	Art	_	_
+8-8	705-707	zu	_	_
+8-9	708-712	sein	_	_
+8-10	713-716	wie	_	_
+8-11	717-720	die	_	_
+8-12	721-724	von	_	_
+8-13	725-728	mir	_	_
+8-14	729-732	für	_	_
+8-15	733-738	Brunn	*	PERmentioned
+8-16	739-748	aquirirte	_	_
+8-17	749-750	.	_	_
+
+#Text=Geld brauche ich nicht vor Ende September .
+9-1	751-755	Geld	_	_
+9-2	756-763	brauche	_	_
+9-3	764-767	ich	_	_
+9-4	768-773	nicht	_	_
+9-5	774-777	vor	_	_
+9-6	778-782	Ende	_	_
+9-7	783-792	September	*	DATEmentioned
+9-8	793-794	.	_	_
+
+#Text=Wann die Berliner über die mir zu ertheilende Renumeration entschieden haben , bitte ich mir mitzutheilen , wieviel sie mir zuerkannt haben .
+10-1	795-799	Wann	_	_
+10-2	800-803	die	_	_
+10-3	804-812	Berliner	_	_
+10-4	813-817	über	_	_
+10-5	818-821	die	_	_
+10-6	822-825	mir	_	_
+10-7	826-828	zu	_	_
+10-8	829-840	ertheilende	_	_
+10-9	841-853	Renumeration	_	_
+10-10	854-865	entschieden	_	_
+10-11	866-871	haben	_	_
+10-12	872-873	,	_	_
+10-13	874-879	bitte	_	_
+10-14	880-883	ich	_	_
+10-15	884-887	mir	_	_
+10-16	888-900	mitzutheilen	_	_
+10-17	901-902	,	_	_
+10-18	903-910	wieviel	_	_
+10-19	911-914	sie	_	_
+10-20	915-918	mir	_	_
+10-21	919-928	zuerkannt	_	_
+10-22	929-934	haben	_	_
+10-23	935-936	.	_	_
+
+#Text=Danke für die Bullettini .
+11-1	937-942	Danke	_	_
+11-2	943-946	für	_	_
+11-3	947-950	die	_	_
+11-4	951-961	Bullettini	_	_
+11-5	962-963	.	_	_
+
+#Text=Sehr wünschenswerth wären mir einige Abdrücke meiner bassirilievi chiusini .
+12-1	964-968	Sehr	_	_
+12-2	969-983	wünschenswerth	_	_
+12-3	984-989	wären	_	_
+12-4	990-993	mir	_	_
+12-5	994-1000	einige	_	_
+12-6	1001-1009	Abdrücke	_	_
+12-7	1010-1016	meiner	_	_
+12-8	1017-1029	bassirilievi	_	_
+12-9	1030-1038	chiusini	_	_
+12-10	1039-1040	.	_	_
+
+#Text=Bilder imponiren mehr .
+13-1	1041-1047	Bilder	_	_
+13-2	1048-1057	imponiren	_	_
+13-3	1058-1062	mehr	_	_
+13-4	1063-1064	.	_	_
+
+#Text=Betreffs der Inschrift von Calvi werde ich auszurichten suchen , was sich mit Diplomatie ausrichten läßt .
+14-1	1065-1073	Betreffs	_	_
+14-2	1074-1077	der	_	_
+14-3	1078-1087	Inschrift	*	OBJ
+14-4	1088-1091	von	_	_
+14-5	1092-1097	Calvi	*	PLACEmentioned
+14-6	1098-1103	werde	_	_
+14-7	1104-1107	ich	_	_
+14-8	1108-1120	auszurichten	_	_
+14-9	1121-1127	suchen	_	_
+14-10	1128-1129	,	_	_
+14-11	1130-1133	was	_	_
+14-12	1134-1138	sich	_	_
+14-13	1139-1142	mit	_	_
+14-14	1143-1153	Diplomatie	_	_
+14-15	1154-1164	ausrichten	_	_
+14-16	1165-1169	läßt	_	_
+14-17	1170-1171	.	_	_
+
+#Text=Es wäre gut , Peytrignet zum Corrispondenten zu machen .. Wie er mir sagt , hat er eine große Broncelampe mit Sculpturen aquirirt .
+15-1	1172-1174	Es	_	_
+15-2	1175-1179	wäre	_	_
+15-3	1180-1183	gut	_	_
+15-4	1184-1185	,	_	_
+15-5	1186-1196	Peytrignet	*	PLACEmentioned
+15-6	1197-1200	zum	_	_
+15-7	1201-1216	Corrispondenten	_	_
+15-8	1217-1219	zu	_	_
+15-9	1220-1226	machen	_	_
+15-10	1227-1229	..	_	_
+15-11	1230-1233	Wie	_	_
+15-12	1234-1236	er	_	_
+15-13	1237-1240	mir	_	_
+15-14	1241-1245	sagt	_	_
+15-15	1246-1247	,	_	_
+15-16	1248-1251	hat	_	_
+15-17	1252-1254	er	_	_
+15-18	1255-1259	eine	_	_
+15-19	1260-1265	große	_	_
+15-20	1266-1277	Broncelampe	*[2]	OBJ[2]
+15-21	1278-1281	mit	*[2]	OBJ[2]
+15-22	1282-1292	Sculpturen	*[2]	OBJ[2]
+15-23	1293-1301	aquirirt	_	_
+15-24	1302-1303	.	_	_

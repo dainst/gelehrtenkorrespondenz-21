@@ -1,0 +1,93 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=320 Helbig an Henzen Zürich , 30 .
+1-1	0-3	320	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zürich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	30	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1870 schrift zuzuschicken , die ich in Cervetri copirt .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1870	*[1]	DATEletter[1]
+2-3	47-54	schrift	_	_
+2-4	55-67	zuzuschicken	_	_
+2-5	68-69	,	_	_
+2-6	70-73	die	_	_
+2-7	74-77	ich	_	_
+2-8	78-80	in	_	_
+2-9	81-89	Cervetri	*	PLACEmentioned
+2-10	90-96	copirt	_	_
+2-11	97-98	.	_	_
+
+#Text=Vielleicht ist sie schon publicirt .
+3-1	99-109	Vielleicht	_	_
+3-2	110-113	ist	_	_
+3-3	114-117	sie	_	_
+3-4	118-123	schon	_	_
+3-5	124-133	publicirt	_	_
+3-6	134-135	.	_	_
+
+#Text=Leben Sie wohl und möge es Ihnen besser ergehen , als uns .
+4-1	136-141	Leben	_	_
+4-2	142-145	Sie	_	_
+4-3	146-150	wohl	_	_
+4-4	151-154	und	_	_
+4-5	155-159	möge	_	_
+4-6	160-162	es	_	_
+4-7	163-168	Ihnen	_	_
+4-8	169-175	besser	_	_
+4-9	176-183	ergehen	_	_
+4-10	184-185	,	_	_
+4-11	186-189	als	_	_
+4-12	190-193	uns	_	_
+4-13	194-195	.	_	_
+
+#Text=Ihr W. Helbig CERVETRI Casa dell'arciprete , cortile .
+5-1	196-199	Ihr	_	_
+5-2	200-202	W.	*[2]	PERauthor[2]
+5-3	203-209	Helbig	*[2]	PERauthor[2]
+5-4	210-218	CERVETRI	*	PLACEmentioned
+5-5	219-223	Casa	*[3]	PLACEmentioned[3]
+5-6	224-238	dell'arciprete	*[3]	PLACEmentioned[3]
+5-7	239-240	,	_	_
+5-8	241-248	cortile	_	_
+5-9	249-250	.	_	_
+
+#Text=Cippo di marmo lunese .
+6-1	251-256	Cippo	*[4]	OBJ[4]
+6-2	257-259	di	*[4]	OBJ[4]
+6-3	260-265	marmo	*[4]	OBJ[4]
+6-4	266-272	lunese	*[4]	OBJ[4]
+6-5	273-274	.	_	_
+
+#Text=M ’ MANLIVS \* ' C \* ’ F PTOLLIO TR° M t L APOPiALO PRAEF ” ’ FABR CENS ' '' 'PERP Helbig
+7-1	275-276	M	_	_
+7-2	277-278	’	_	_
+7-3	279-286	MANLIVS	_	_
+7-4	287-288	\*	_	_
+7-5	289-290	'	_	_
+7-6	291-292	C	_	_
+7-7	293-294	\*	_	_
+7-8	295-296	’	_	_
+7-9	297-298	F	_	_
+7-10	299-306	PTOLLIO	_	_
+7-11	307-310	TR°	_	_
+7-12	311-312	M	_	_
+7-13	313-314	t	_	_
+7-14	315-316	L	_	_
+7-15	317-325	APOPiALO	_	_
+7-16	326-331	PRAEF	_	_
+7-17	332-333	”	_	_
+7-18	334-335	’	_	_
+7-19	336-340	FABR	_	_
+7-20	341-345	CENS	_	_
+7-21	346-347	'	_	_
+7-22	348-350	''	_	_
+7-23	351-356	'PERP	_	_
+7-24	357-363	Helbig	*	PERauthor

@@ -1,0 +1,305 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=m ) 283 Brunn an Henzen Perugia , 4 .
+1-1	0-1	m	_	_
+1-2	2-3	)	_	_
+1-3	4-7	283	_	_
+1-4	8-13	Brunn	*	PERauthor
+1-5	14-16	an	_	_
+1-6	17-23	Henzen	*	PERaddressee
+1-7	24-31	Perugia	*	PLACEfrom
+1-8	32-33	,	_	_
+1-9	34-35	4	*[7]	DATEletter[7]
+1-10	36-37	.	*[7]	DATEletter[7]
+
+#Text=Oktober 1858 Bei Empfangnahme Ihres Briefes gab ich zwei , an Golini und de Witt zur Post , um nach Orvieto Nachricht über ihren Aufenthalt zu erhalten .
+2-1	38-45	Oktober	*[7]	DATEletter[7]
+2-2	46-50	1858	*[7]	DATEletter[7]
+2-3	51-54	Bei	_	_
+2-4	55-67	Empfangnahme	_	_
+2-5	68-73	Ihres	_	_
+2-6	74-81	Briefes	_	_
+2-7	82-85	gab	_	_
+2-8	86-89	ich	_	_
+2-9	90-94	zwei	_	_
+2-10	95-96	,	_	_
+2-11	97-99	an	_	_
+2-12	100-106	Golini	*	PERmentioned
+2-13	107-110	und	_	_
+2-14	111-113	de	*[8]	PERmentioned[8]
+2-15	114-118	Witt	*[8]	PERmentioned[8]
+2-16	119-122	zur	_	_
+2-17	123-127	Post	_	_
+2-18	128-129	,	_	_
+2-19	130-132	um	_	_
+2-20	133-137	nach	_	_
+2-21	138-145	Orvieto	*	PLACEmentioned
+2-22	146-155	Nachricht	_	_
+2-23	156-160	über	_	_
+2-24	161-166	ihren	_	_
+2-25	167-177	Aufenthalt	_	_
+2-26	178-180	zu	_	_
+2-27	181-189	erhalten	_	_
+2-28	190-191	.	_	_
+
+#Text=Welchen Tag ich reise , weiß ich heute noch nicht \; jedenfalls aber doch im Laufe der nächsten Woche : ich habe nur noch etwas mit den etr .
+3-1	192-199	Welchen	_	_
+3-2	200-203	Tag	_	_
+3-3	204-207	ich	_	_
+3-4	208-213	reise	_	_
+3-5	214-215	,	_	_
+3-6	216-220	weiß	_	_
+3-7	221-224	ich	_	_
+3-8	225-230	heute	_	_
+3-9	231-235	noch	_	_
+3-10	236-241	nicht	_	_
+3-11	242-243	\;	_	_
+3-12	244-254	jedenfalls	_	_
+3-13	255-259	aber	_	_
+3-14	260-264	doch	_	_
+3-15	265-267	im	_	_
+3-16	268-273	Laufe	_	_
+3-17	274-277	der	_	_
+3-18	278-286	nächsten	_	_
+3-19	287-292	Woche	_	_
+3-20	293-294	:	_	_
+3-21	295-298	ich	_	_
+3-22	299-303	habe	_	_
+3-23	304-307	nur	_	_
+3-24	308-312	noch	_	_
+3-25	313-318	etwas	_	_
+3-26	319-322	mit	_	_
+3-27	323-326	den	_	_
+3-28	327-330	etr	_	_
+3-29	331-332	.	_	_
+
+#Text=Urnen zu thun und diverse Kirchen zu sehen .
+4-1	333-338	Urnen	_	_
+4-2	339-341	zu	_	_
+4-3	342-346	thun	_	_
+4-4	347-350	und	_	_
+4-5	351-358	diverse	_	_
+4-6	359-366	Kirchen	_	_
+4-7	367-369	zu	_	_
+4-8	370-375	sehen	_	_
+4-9	376-377	.	_	_
+
+#Text=Wie lange unterwegs , läßt sich nicht im voraus berechnen .
+5-1	378-381	Wie	_	_
+5-2	382-387	lange	_	_
+5-3	388-397	unterwegs	_	_
+5-4	398-399	,	_	_
+5-5	400-404	läßt	_	_
+5-6	405-409	sich	_	_
+5-7	410-415	nicht	_	_
+5-8	416-418	im	_	_
+5-9	419-425	voraus	_	_
+5-10	426-435	berechnen	_	_
+5-11	436-437	.	_	_
+
+#Text=Es ist immer erfreulich , wenn die Sachen in Berlin vorwärts gehen , sei es auch nur langsam .
+6-1	438-440	Es	_	_
+6-2	441-444	ist	_	_
+6-3	445-450	immer	_	_
+6-4	451-461	erfreulich	_	_
+6-5	462-463	,	_	_
+6-6	464-468	wenn	_	_
+6-7	469-472	die	_	_
+6-8	473-479	Sachen	_	_
+6-9	480-482	in	_	_
+6-10	483-489	Berlin	*	PLACEmentioned
+6-11	490-498	vorwärts	_	_
+6-12	499-504	gehen	_	_
+6-13	505-506	,	_	_
+6-14	507-510	sei	_	_
+6-15	511-513	es	_	_
+6-16	514-518	auch	_	_
+6-17	519-522	nur	_	_
+6-18	523-530	langsam	_	_
+6-19	531-532	.	_	_
+
+#Text=- Der Brief ist zufällig bis heute , Montag , liegen geblieben , halb und halb , weil ich dachte , den Tag der Abreise angeben zu können .
+7-1	533-534	-	_	_
+7-2	535-538	Der	_	_
+7-3	539-544	Brief	_	_
+7-4	545-548	ist	_	_
+7-5	549-557	zufällig	_	_
+7-6	558-561	bis	_	_
+7-7	562-567	heute	_	_
+7-8	568-569	,	_	_
+7-9	570-576	Montag	_	_
+7-10	577-578	,	_	_
+7-11	579-585	liegen	_	_
+7-12	586-595	geblieben	_	_
+7-13	596-597	,	_	_
+7-14	598-602	halb	_	_
+7-15	603-606	und	_	_
+7-16	607-611	halb	_	_
+7-17	612-613	,	_	_
+7-18	614-618	weil	_	_
+7-19	619-622	ich	_	_
+7-20	623-629	dachte	_	_
+7-21	630-631	,	_	_
+7-22	632-635	den	_	_
+7-23	636-639	Tag	_	_
+7-24	640-643	der	_	_
+7-25	644-651	Abreise	_	_
+7-26	652-659	angeben	_	_
+7-27	660-662	zu	_	_
+7-28	663-669	können	_	_
+7-29	670-671	.	_	_
+
+#Text=Aber , während der Zeichner in Chiusi befriedigende Probe seiner Arbeit geschickt hat , vermag der hiesige die seinige , die bacch .
+8-1	672-676	Aber	_	_
+8-2	677-678	,	_	_
+8-3	679-686	während	_	_
+8-4	687-690	der	_	_
+8-5	691-699	Zeichner	_	_
+8-6	700-702	in	_	_
+8-7	703-709	Chiusi	*	PLACEmentioned
+8-8	710-723	befriedigende	_	_
+8-9	724-729	Probe	_	_
+8-10	730-736	seiner	_	_
+8-11	737-743	Arbeit	_	_
+8-12	744-753	geschickt	_	_
+8-13	754-757	hat	_	_
+8-14	758-759	,	_	_
+8-15	760-766	vermag	_	_
+8-16	767-770	der	_	_
+8-17	771-778	hiesige	_	_
+8-18	779-782	die	_	_
+8-19	783-790	seinige	_	_
+8-20	791-792	,	_	_
+8-21	793-796	die	_	_
+8-22	797-802	bacch	_	_
+8-23	803-804	.	_	_
+
+#Text=Vase , nicht nach meinem Wunsch zu lösen und bei der besonderen Beschaffenheit der Base bleibt mir nicht übrig , als selbst seine Zeichnungen ganz zu übergehen , was mindestens noch einen ganzen Tag in Anspruch nimmt .
+9-1	805-809	Vase	*	OBJ
+9-2	810-811	,	_	_
+9-3	812-817	nicht	_	_
+9-4	818-822	nach	_	_
+9-5	823-829	meinem	_	_
+9-6	830-836	Wunsch	_	_
+9-7	837-839	zu	_	_
+9-8	840-845	lösen	_	_
+9-9	846-849	und	_	_
+9-10	850-853	bei	_	_
+9-11	854-857	der	_	_
+9-12	858-868	besonderen	_	_
+9-13	869-883	Beschaffenheit	_	_
+9-14	884-887	der	_	_
+9-15	888-892	Base	_	_
+9-16	893-899	bleibt	_	_
+9-17	900-903	mir	_	_
+9-18	904-909	nicht	_	_
+9-19	910-915	übrig	_	_
+9-20	916-917	,	_	_
+9-21	918-921	als	_	_
+9-22	922-928	selbst	_	_
+9-23	929-934	seine	_	_
+9-24	935-946	Zeichnungen	_	_
+9-25	947-951	ganz	_	_
+9-26	952-954	zu	_	_
+9-27	955-964	übergehen	_	_
+9-28	965-966	,	_	_
+9-29	967-970	was	_	_
+9-30	971-981	mindestens	_	_
+9-31	982-986	noch	_	_
+9-32	987-992	einen	_	_
+9-33	993-999	ganzen	_	_
+9-34	1000-1003	Tag	_	_
+9-35	1004-1006	in	_	_
+9-36	1007-1015	Anspruch	_	_
+9-37	1016-1021	nimmt	_	_
+9-38	1022-1023	.	_	_
+
+#Text=Im Laufe der Woche muß ich aber sicher flott werden .
+10-1	1024-1026	Im	_	_
+10-2	1027-1032	Laufe	_	_
+10-3	1033-1036	der	_	_
+10-4	1037-1042	Woche	_	_
+10-5	1043-1046	muß	_	_
+10-6	1047-1050	ich	_	_
+10-7	1051-1055	aber	_	_
+10-8	1056-1062	sicher	_	_
+10-9	1063-1068	flott	_	_
+10-10	1069-1075	werden	_	_
+10-11	1076-1077	.	_	_
+
+#Text=Haben Sie übermorgen , wo Sie diesen Brief erhalten , etwas besonders wichtiges zu melden , so mögen Sie es noch hierher versuchen , sonst bitte ich um Nachrichten nach Orvieto , post .
+11-1	1078-1083	Haben	_	_
+11-2	1084-1087	Sie	_	_
+11-3	1088-1098	übermorgen	_	_
+11-4	1099-1100	,	_	_
+11-5	1101-1103	wo	_	_
+11-6	1104-1107	Sie	_	_
+11-7	1108-1114	diesen	_	_
+11-8	1115-1120	Brief	_	_
+11-9	1121-1129	erhalten	_	_
+11-10	1130-1131	,	_	_
+11-11	1132-1137	etwas	_	_
+11-12	1138-1147	besonders	_	_
+11-13	1148-1157	wichtiges	_	_
+11-14	1158-1160	zu	_	_
+11-15	1161-1167	melden	_	_
+11-16	1168-1169	,	_	_
+11-17	1170-1172	so	_	_
+11-18	1173-1178	mögen	_	_
+11-19	1179-1182	Sie	_	_
+11-20	1183-1185	es	_	_
+11-21	1186-1190	noch	_	_
+11-22	1191-1198	hierher	_	_
+11-23	1199-1208	versuchen	_	_
+11-24	1209-1210	,	_	_
+11-25	1211-1216	sonst	_	_
+11-26	1217-1222	bitte	_	_
+11-27	1223-1226	ich	_	_
+11-28	1227-1229	um	_	_
+11-29	1230-1241	Nachrichten	_	_
+11-30	1242-1246	nach	_	_
+11-31	1247-1254	Orvieto	*	PLACEmentioned
+11-32	1255-1256	,	_	_
+11-33	1257-1261	post	_	_
+11-34	1262-1263	.	_	_
+
+#Text=rest .
+12-1	1264-1268	rest	_	_
+12-2	1269-1270	.	_	_
+
+#Text=- Es drängt mich nun doch mit Gewalt vorwärts .
+13-1	1271-1272	-	_	_
+13-2	1273-1275	Es	_	_
+13-3	1276-1282	drängt	_	_
+13-4	1283-1287	mich	_	_
+13-5	1288-1291	nun	_	_
+13-6	1292-1296	doch	_	_
+13-7	1297-1300	mit	_	_
+13-8	1301-1307	Gewalt	_	_
+13-9	1308-1316	vorwärts	_	_
+13-10	1317-1318	.	_	_
+
+#Text=-— Den Piersun=sArtikel gebe ich lieber heute sotto fascia zur Post , damit er sich nicht unter meinen Sachen verliert .
+14-1	1319-1321	-—	_	_
+14-2	1322-1325	Den	_	_
+14-3	1326-1342	Piersun=sArtikel	_	_
+14-4	1343-1347	gebe	_	_
+14-5	1348-1351	ich	_	_
+14-6	1352-1358	lieber	_	_
+14-7	1359-1364	heute	_	_
+14-8	1365-1370	sotto	_	_
+14-9	1371-1377	fascia	_	_
+14-10	1378-1381	zur	_	_
+14-11	1382-1386	Post	_	_
+14-12	1387-1388	,	_	_
+14-13	1389-1394	damit	_	_
+14-14	1395-1397	er	_	_
+14-15	1398-1402	sich	_	_
+14-16	1403-1408	nicht	_	_
+14-17	1409-1414	unter	_	_
+14-18	1415-1421	meinen	_	_
+14-19	1422-1428	Sachen	_	_
+14-20	1429-1437	verliert	_	_
+14-21	1438-1439	.	_	_

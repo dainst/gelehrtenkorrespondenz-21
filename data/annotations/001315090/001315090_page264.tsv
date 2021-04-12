@@ -1,0 +1,131 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=115 Lepsius an Henzen N . 41 Berlin , 29. Februar 1876 gs .
+1-1	0-3	115	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-23	N	_	_
+1-6	24-25	.	_	_
+1-7	26-28	41	_	_
+1-8	29-35	Berlin	*	PLACEfrom
+1-9	36-37	,	_	_
+1-10	38-41	29.	*[1]	DATEletter[1]
+1-11	42-49	Februar	*[1]	DATEletter[1]
+1-12	50-54	1876	*[1]	DATEletter[1]
+1-13	55-57	gs	_	_
+1-14	58-59	.	_	_
+
+#Text=3/3 76 Berlin d . 29 .
+2-1	60-63	3/3	*[2]	DATErecieved[2]
+2-2	64-66	76	*[2]	DATErecieved[2]
+2-3	67-73	Berlin	*	PLACEfrom
+2-4	74-75	d	_	_
+2-5	76-77	.	_	_
+2-6	78-80	29	*[3]	DATEletter[3]
+2-7	81-82	.	*[3]	DATEletter[3]
+
+#Text=Febr .
+3-1	83-87	Febr	*[3]	DATEletter[3]
+3-2	88-89	.	*[3]	DATEletter[3]
+
+#Text=1876 Verehrter Freund Ich lasse Ihnen heute durch das Auswärtige Ant 9 Diplome zugehen für die letzten zum 9. Dezember Ernannten .
+4-1	90-94	1876	*[3]	DATEletter[3]
+4-2	95-104	Verehrter	_	_
+4-3	105-111	Freund	_	_
+4-4	112-115	Ich	_	_
+4-5	116-121	lasse	_	_
+4-6	122-127	Ihnen	_	_
+4-7	128-133	heute	_	_
+4-8	134-139	durch	_	_
+4-9	140-143	das	_	_
+4-10	144-154	Auswärtige	*[4]	ORGmentioned[4]
+4-11	155-158	Ant	*[4]	ORGmentioned[4]
+4-12	159-160	9	_	_
+4-13	161-168	Diplome	_	_
+4-14	169-176	zugehen	_	_
+4-15	177-180	für	_	_
+4-16	181-184	die	_	_
+4-17	185-192	letzten	_	_
+4-18	193-196	zum	_	_
+4-19	197-199	9.	*[5]	DATEmentioned[5]
+4-20	200-208	Dezember	*[5]	DATEmentioned[5]
+4-21	209-218	Ernannten	_	_
+4-22	219-220	.	_	_
+
+#Text=An Prof. Usener habe ich das seinige direkt gesendet .
+5-1	221-223	An	_	_
+5-2	224-229	Prof.	_	_
+5-3	230-236	Usener	*	PERmentioned
+5-4	237-241	habe	_	_
+5-5	242-245	ich	_	_
+5-6	246-249	das	_	_
+5-7	250-257	seinige	_	_
+5-8	258-264	direkt	_	_
+5-9	265-273	gesendet	_	_
+5-10	274-275	.	_	_
+
+#Text=Ich habe diesmal die Namen und Titel nur mit Bleistift geschrieben und überlasse Ihnen die Ausführung in Tinte , da mir einerseits die richtige Titulatur nicht immer sicher steht , andrerseits auch zuweilen der Vorname fehlt , der unentbehrlich ist .
+6-1	276-279	Ich	_	_
+6-2	280-284	habe	_	_
+6-3	285-292	diesmal	_	_
+6-4	293-296	die	_	_
+6-5	297-302	Namen	_	_
+6-6	303-306	und	_	_
+6-7	307-312	Titel	_	_
+6-8	313-316	nur	_	_
+6-9	317-320	mit	_	_
+6-10	321-330	Bleistift	_	_
+6-11	331-342	geschrieben	_	_
+6-12	343-346	und	_	_
+6-13	347-356	überlasse	_	_
+6-14	357-362	Ihnen	_	_
+6-15	363-366	die	_	_
+6-16	367-377	Ausführung	_	_
+6-17	378-380	in	_	_
+6-18	381-386	Tinte	_	_
+6-19	387-388	,	_	_
+6-20	389-391	da	_	_
+6-21	392-395	mir	_	_
+6-22	396-406	einerseits	_	_
+6-23	407-410	die	_	_
+6-24	411-419	richtige	_	_
+6-25	420-429	Titulatur	_	_
+6-26	430-435	nicht	_	_
+6-27	436-441	immer	_	_
+6-28	442-448	sicher	_	_
+6-29	449-454	steht	_	_
+6-30	455-456	,	_	_
+6-31	457-468	andrerseits	_	_
+6-32	469-473	auch	_	_
+6-33	474-482	zuweilen	_	_
+6-34	483-486	der	_	_
+6-35	487-494	Vorname	_	_
+6-36	495-500	fehlt	_	_
+6-37	501-502	,	_	_
+6-38	503-506	der	_	_
+6-39	507-520	unentbehrlich	_	_
+6-40	521-524	ist	_	_
+6-41	525-526	.	_	_
+
+#Text=Sie werden außerdem noch überall Ihre Unterschrift zuzufügen haben .
+7-1	527-530	Sie	_	_
+7-2	531-537	werden	_	_
+7-3	538-546	außerdem	_	_
+7-4	547-551	noch	_	_
+7-5	552-559	überall	_	_
+7-6	560-564	Ihre	_	_
+7-7	565-577	Unterschrift	_	_
+7-8	578-587	zuzufügen	_	_
+7-9	588-593	haben	_	_
+7-10	594-595	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr R Lepsius
+8-1	596-599	Mit	_	_
+8-2	600-610	herzlichem	_	_
+8-3	611-615	Gruß	_	_
+8-4	616-619	Ihr	_	_
+8-5	620-621	R	*[6]	PERauthor[6]
+8-6	622-629	Lepsius	*[6]	PERauthor[6]

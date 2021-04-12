@@ -1,0 +1,207 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 9. Juli 1837 Den Manes , der immer galantuomo gewesen , auch dem Institut hübsche Bücher geschenkt hat und ferner schenken möge , bitte ich nicht allzu derb anzugehn , wenigstens nicht bevor ich nach Bonn komme was Ende nächsten Monats geschehen soll .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	9.	*[4]	DATEletter[4]
+1-7	30-34	Juli	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-43	Den	_	_
+1-10	44-49	Manes	*	PERmentioned
+1-11	50-51	,	_	_
+1-12	52-55	der	_	_
+1-13	56-61	immer	_	_
+1-14	62-72	galantuomo	_	_
+1-15	73-80	gewesen	_	_
+1-16	81-82	,	_	_
+1-17	83-87	auch	_	_
+1-18	88-91	dem	_	_
+1-19	92-100	Institut	*	ORGmentioned
+1-20	101-108	hübsche	_	_
+1-21	109-115	Bücher	_	_
+1-22	116-125	geschenkt	_	_
+1-23	126-129	hat	_	_
+1-24	130-133	und	_	_
+1-25	134-140	ferner	_	_
+1-26	141-149	schenken	_	_
+1-27	150-154	möge	_	_
+1-28	155-156	,	_	_
+1-29	157-162	bitte	_	_
+1-30	163-166	ich	_	_
+1-31	167-172	nicht	_	_
+1-32	173-178	allzu	_	_
+1-33	179-183	derb	_	_
+1-34	184-192	anzugehn	_	_
+1-35	193-194	,	_	_
+1-36	195-205	wenigstens	_	_
+1-37	206-211	nicht	_	_
+1-38	212-217	bevor	_	_
+1-39	218-221	ich	_	_
+1-40	222-226	nach	_	_
+1-41	227-231	Bonn	*	PLACEmentioned
+1-42	232-237	komme	_	_
+1-43	238-241	was	_	_
+1-44	242-246	Ende	_	_
+1-45	247-255	nächsten	_	_
+1-46	256-262	Monats	_	_
+1-47	263-272	geschehen	_	_
+1-48	273-277	soll	_	_
+1-49	278-279	.	_	_
+
+#Text=Wegen der Gallen st g - mir ganz recht - mündlich .
+2-1	280-285	Wegen	_	_
+2-2	286-289	der	_	_
+2-3	290-296	Gallen	_	_
+2-4	297-299	st	_	_
+2-5	300-301	g	_	_
+2-6	302-303	-	_	_
+2-7	304-307	mir	_	_
+2-8	308-312	ganz	_	_
+2-9	313-318	recht	_	_
+2-10	319-320	-	_	_
+2-11	321-329	mündlich	_	_
+2-12	330-331	.	_	_
+
+#Text=Was Sie für Vasenrestauration abrechnen , wird mir alles recht und dankenswerth sein \; was mir zu theuer ist , muß ich eben tale quale nach Berlin schaffen .
+3-1	332-335	Was	_	_
+3-2	336-339	Sie	_	_
+3-3	340-343	für	_	_
+3-4	344-361	Vasenrestauration	_	_
+3-5	362-371	abrechnen	_	_
+3-6	372-373	,	_	_
+3-7	374-378	wird	_	_
+3-8	379-382	mir	_	_
+3-9	383-388	alles	_	_
+3-10	389-394	recht	_	_
+3-11	395-398	und	_	_
+3-12	399-411	dankenswerth	_	_
+3-13	412-416	sein	_	_
+3-14	417-418	\;	_	_
+3-15	419-422	was	_	_
+3-16	423-426	mir	_	_
+3-17	427-429	zu	_	_
+3-18	430-436	theuer	_	_
+3-19	437-440	ist	_	_
+3-20	441-442	,	_	_
+3-21	443-446	muß	_	_
+3-22	447-450	ich	_	_
+3-23	451-455	eben	_	_
+3-24	456-460	tale	_	_
+3-25	461-466	quale	_	_
+3-26	467-471	nach	_	_
+3-27	472-478	Berlin	*	PLACEmentioned
+3-28	479-487	schaffen	_	_
+3-29	488-489	.	_	_
+
+#Text=Ueber die Vase der muß ich mich noch besinnen , könnte ich nur das Hauptstück der Vase all'epig .
+4-1	490-495	Ueber	_	_
+4-2	496-499	die	_	_
+4-3	500-504	Vase	*	OBJ
+4-4	505-508	der	_	_
+4-5	509-512	muß	_	_
+4-6	513-516	ich	_	_
+4-7	517-521	mich	_	_
+4-8	522-526	noch	_	_
+4-9	527-535	besinnen	_	_
+4-10	536-537	,	_	_
+4-11	538-544	könnte	_	_
+4-12	545-548	ich	_	_
+4-13	549-552	nur	_	_
+4-14	553-556	das	_	_
+4-15	557-567	Hauptstück	_	_
+4-16	568-571	der	_	_
+4-17	572-576	Vase	*[10]	OBJ[10]
+4-18	577-585	all'epig	*[10]	OBJ[10]
+4-19	586-587	.	_	_
+
+#Text=fertig haben !
+5-1	588-594	fertig	_	_
+5-2	595-600	haben	_	_
+5-3	601-602	!	_	_
+
+#Text=Hat Inghirani gar nicht von sich hören lassen ?
+6-1	603-606	Hat	_	_
+6-2	607-616	Inghirani	*	PERmentioned
+6-3	617-620	gar	_	_
+6-4	621-626	nicht	_	_
+6-5	627-630	von	_	_
+6-6	631-635	sich	_	_
+6-7	636-641	hören	_	_
+6-8	642-648	lassen	_	_
+6-9	649-650	?	_	_
+
+#Text=-— lDanci macht mir wol eine Rechnung zurecht - wie sie sich nach dem Fossatischen Handel gestellt hat .
+7-1	651-653	-—	_	_
+7-2	654-660	lDanci	*	PERmentioned
+7-3	661-666	macht	_	_
+7-4	667-670	mir	_	_
+7-5	671-674	wol	_	_
+7-6	675-679	eine	_	_
+7-7	680-688	Rechnung	_	_
+7-8	689-696	zurecht	_	_
+7-9	697-698	-	_	_
+7-10	699-702	wie	_	_
+7-11	703-706	sie	_	_
+7-12	707-711	sich	_	_
+7-13	712-716	nach	_	_
+7-14	717-720	dem	_	_
+7-15	721-733	Fossatischen	*	PERmentioned
+7-16	734-740	Handel	_	_
+7-17	741-749	gestellt	_	_
+7-18	750-753	hat	_	_
+7-19	754-755	.	_	_
+
+#Text=Veberlegen Sie recht für Ihre Reise ob Sie nicht zu Livorno besser nach Mailand kommen \; von hier aus Montags , Dienstags und Donnerstags Nachmittag über Genua in 48 Stunden .
+8-1	756-766	Veberlegen	_	_
+8-2	767-770	Sie	_	_
+8-3	771-776	recht	_	_
+8-4	777-780	für	_	_
+8-5	781-785	Ihre	_	_
+8-6	786-791	Reise	_	_
+8-7	792-794	ob	_	_
+8-8	795-798	Sie	_	_
+8-9	799-804	nicht	_	_
+8-10	805-807	zu	_	_
+8-11	808-815	Livorno	*	PLACEmentioned
+8-12	816-822	besser	_	_
+8-13	823-827	nach	_	_
+8-14	828-835	Mailand	*	PLACEmentioned
+8-15	836-842	kommen	_	_
+8-16	843-844	\;	_	_
+8-17	845-848	von	_	_
+8-18	849-853	hier	_	_
+8-19	854-857	aus	_	_
+8-20	858-865	Montags	_	_
+8-21	866-867	,	_	_
+8-22	868-877	Dienstags	_	_
+8-23	878-881	und	_	_
+8-24	882-893	Donnerstags	_	_
+8-25	894-904	Nachmittag	_	_
+8-26	905-909	über	_	_
+8-27	910-915	Genua	*	PLACEmentioned
+8-28	916-918	in	_	_
+8-29	919-921	48	_	_
+8-30	922-929	Stunden	_	_
+8-31	930-931	.	_	_
+
+#Text=Grüßen Sie die hoffentlich wieder genesenen Kellermann , Lepsius .
+9-1	932-938	Grüßen	_	_
+9-2	939-942	Sie	_	_
+9-3	943-946	die	_	_
+9-4	947-958	hoffentlich	_	_
+9-5	959-965	wieder	_	_
+9-6	966-975	genesenen	_	_
+9-7	976-986	Kellermann	*	PERmentioned
+9-8	987-988	,	_	_
+9-9	989-996	Lepsius	*	PERmentioned
+9-10	997-998	.	_	_
+
+#Text=Herzlichst Ihr Gerhard
+10-1	999-1009	Herzlichst	_	_
+10-2	1010-1013	Ihr	_	_
+10-3	1014-1021	Gerhard	*	PERauthor

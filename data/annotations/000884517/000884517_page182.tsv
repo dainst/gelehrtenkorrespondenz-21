@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 21. April 1846 des Memorienzettels den ich Ihnen zurückließ .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	21.	*[1]	DATEletter[1]
+1-7	30-35	April	*[1]	DATEletter[1]
+1-8	36-40	1846	*[1]	DATEletter[1]
+1-9	41-44	des	_	_
+1-10	45-60	Memorienzettels	_	_
+1-11	61-64	den	_	_
+1-12	65-68	ich	_	_
+1-13	69-74	Ihnen	_	_
+1-14	75-85	zurückließ	_	_
+1-15	86-87	.	_	_
+
+#Text=Hier bin ich angelangt und hätte nun gern bei Seiner Majestät und bei Bunsen für das Institut inclusive der Fortdauer Ihrer Stellung die nöthigen Schritte getahn , aber Ihr Jahresbericht ist noch nicht zur Stelle und nicht einmal ein Exemplar der Institutswerke 1844 .
+2-1	88-92	Hier	_	_
+2-2	93-96	bin	_	_
+2-3	97-100	ich	_	_
+2-4	101-110	angelangt	_	_
+2-5	111-114	und	_	_
+2-6	115-120	hätte	_	_
+2-7	121-124	nun	_	_
+2-8	125-129	gern	_	_
+2-9	130-133	bei	_	_
+2-10	134-140	Seiner	*[2]	PERmentioned[2]
+2-11	141-149	Majestät	*[2]	PERmentioned[2]
+2-12	150-153	und	_	_
+2-13	154-157	bei	_	_
+2-14	158-164	Bunsen	*	PERmentioned
+2-15	165-168	für	_	_
+2-16	169-172	das	_	_
+2-17	173-181	Institut	*	ORGmentioned
+2-18	182-191	inclusive	_	_
+2-19	192-195	der	_	_
+2-20	196-205	Fortdauer	_	_
+2-21	206-211	Ihrer	_	_
+2-22	212-220	Stellung	_	_
+2-23	221-224	die	_	_
+2-24	225-233	nöthigen	_	_
+2-25	234-242	Schritte	_	_
+2-26	243-249	getahn	_	_
+2-27	250-251	,	_	_
+2-28	252-256	aber	_	_
+2-29	257-260	Ihr	_	_
+2-30	261-274	Jahresbericht	_	_
+2-31	275-278	ist	_	_
+2-32	279-283	noch	_	_
+2-33	284-289	nicht	_	_
+2-34	290-293	zur	_	_
+2-35	294-300	Stelle	_	_
+2-36	301-304	und	_	_
+2-37	305-310	nicht	_	_
+2-38	311-317	einmal	_	_
+2-39	318-321	ein	_	_
+2-40	322-330	Exemplar	_	_
+2-41	331-334	der	_	_
+2-42	335-349	Institutswerke	_	_
+2-43	350-354	1844	*	DATEmentioned
+2-44	355-356	.	_	_
+
+#Text=Ich kann also selbst an Bunsen nur vorläufig schreiben , was ihm wenig hilft .
+3-1	357-360	Ich	_	_
+3-2	361-365	kann	_	_
+3-3	366-370	also	_	_
+3-4	371-377	selbst	_	_
+3-5	378-380	an	_	_
+3-6	381-387	Bunsen	*	PERmentioned
+3-7	388-391	nur	_	_
+3-8	392-401	vorläufig	_	_
+3-9	402-411	schreiben	_	_
+3-10	412-413	,	_	_
+3-11	414-417	was	_	_
+3-12	418-421	ihm	_	_
+3-13	422-427	wenig	_	_
+3-14	428-433	hilft	_	_
+3-15	434-435	.	_	_
+
+#Text=Sie erhalten anbei Ihren Wechsel .
+4-1	436-439	Sie	_	_
+4-2	440-448	erhalten	_	_
+4-3	449-454	anbei	_	_
+4-4	455-460	Ihren	_	_
+4-5	461-468	Wechsel	_	_
+4-6	469-470	.	_	_
+
+#Text=200 rt .
+5-1	471-474	200	_	_
+5-2	475-477	rt	_	_
+5-3	478-479	.	_	_
+
+#Text=Die 69 rt 23 1/2 Sgr hat Ratti nicht an Gerstäcker sondern Ihrem Auftrag gemäß an Brockhaus gezahlt .
+6-1	480-483	Die	_	_
+6-2	484-486	69	_	_
+6-3	487-489	rt	_	_
+6-4	490-492	23	_	_
+6-5	493-496	1/2	_	_
+6-6	497-500	Sgr	_	_
+6-7	501-504	hat	_	_
+6-8	505-510	Ratti	*	PERmentioned
+6-9	511-516	nicht	_	_
+6-10	517-519	an	_	_
+6-11	520-530	Gerstäcker	*	ORGmentioned
+6-12	531-538	sondern	_	_
+6-13	539-544	Ihrem	_	_
+6-14	545-552	Auftrag	_	_
+6-15	553-558	gemäß	_	_
+6-16	559-561	an	_	_
+6-17	562-571	Brockhaus	*	ORGmentioned
+6-18	572-579	gezahlt	_	_
+6-19	580-581	.	_	_
+
+#Text=Die 2.te Zeichnung lief nachgehends auch ein \; beide erfolgen mit bestem Dank zurück .
+7-1	582-585	Die	_	_
+7-2	586-590	2.te	_	_
+7-3	591-600	Zeichnung	_	_
+7-4	601-605	lief	_	_
+7-5	606-617	nachgehends	_	_
+7-6	618-622	auch	_	_
+7-7	623-626	ein	_	_
+7-8	627-628	\;	_	_
+7-9	629-634	beide	_	_
+7-10	635-643	erfolgen	_	_
+7-11	644-647	mit	_	_
+7-12	648-654	bestem	_	_
+7-13	655-659	Dank	_	_
+7-14	660-666	zurück	_	_
+7-15	667-668	.	_	_
+
+#Text=Herr W. Schulz muß nun bei Ihnen sein \; ist es praktisch seine Gefälligkeit für den napoletanischen Kunsthandel in Anspruch zu nehmen , falls ich noch Pompejanische Malereien bei Barone kaufen ließe ?
+8-1	669-673	Herr	_	_
+8-2	674-676	W.	*[3]	PERmentioned[3]
+8-3	677-683	Schulz	*[3]	PERmentioned[3]
+8-4	684-687	muß	_	_
+8-5	688-691	nun	_	_
+8-6	692-695	bei	_	_
+8-7	696-701	Ihnen	_	_
+8-8	702-706	sein	_	_
+8-9	707-708	\;	_	_
+8-10	709-712	ist	_	_
+8-11	713-715	es	_	_
+8-12	716-725	praktisch	_	_
+8-13	726-731	seine	_	_
+8-14	732-744	Gefälligkeit	_	_
+8-15	745-748	für	_	_
+8-16	749-752	den	_	_
+8-17	753-768	napoletanischen	_	_
+8-18	769-780	Kunsthandel	_	_
+8-19	781-783	in	_	_
+8-20	784-792	Anspruch	_	_
+8-21	793-795	zu	_	_
+8-22	796-802	nehmen	_	_
+8-23	803-804	,	_	_
+8-24	805-810	falls	_	_
+8-25	811-814	ich	_	_
+8-26	815-819	noch	_	_
+8-27	820-833	Pompejanische	*[4]	OBJ[4]
+8-28	834-843	Malereien	*[4]	OBJ[4]
+8-29	844-847	bei	_	_
+8-30	848-854	Barone	*	PERmentioned
+8-31	855-861	kaufen	_	_
+8-32	862-867	ließe	_	_
+8-33	868-869	?	_	_
+
+#Text=Sachsen sollte damit ja wol nicht in Konkurrenz kommen .
+9-1	870-877	Sachsen	*	PERmentioned
+9-2	878-884	sollte	_	_
+9-3	885-890	damit	_	_
+9-4	891-893	ja	_	_
+9-5	894-897	wol	_	_
+9-6	898-903	nicht	_	_
+9-7	904-906	in	_	_
+9-8	907-917	Konkurrenz	_	_
+9-9	918-924	kommen	_	_
+9-10	925-926	.	_	_
+
+#Text=Grüßen Sie ihn und schelten Sie ihn rechtschaffen daß Anhangshefte seines Werkes noch immer nicht da sind und also zunächst wol auch nicht kommen !
+10-1	927-933	Grüßen	_	_
+10-2	934-937	Sie	_	_
+10-3	938-941	ihn	_	_
+10-4	942-945	und	_	_
+10-5	946-954	schelten	_	_
+10-6	955-958	Sie	_	_
+10-7	959-962	ihn	_	_
+10-8	963-976	rechtschaffen	_	_
+10-9	977-980	daß	_	_
+10-10	981-993	Anhangshefte	_	_
+10-11	994-1000	seines	_	_
+10-12	1001-1007	Werkes	_	_
+10-13	1008-1012	noch	_	_
+10-14	1013-1018	immer	_	_
+10-15	1019-1024	nicht	_	_
+10-16	1025-1027	da	_	_
+10-17	1028-1032	sind	_	_
+10-18	1033-1036	und	_	_
+10-19	1037-1041	also	_	_
+10-20	1042-1050	zunächst	_	_
+10-21	1051-1054	wol	_	_
+10-22	1055-1059	auch	_	_
+10-23	1060-1065	nicht	_	_
+10-24	1066-1072	kommen	_	_
+10-25	1073-1074	!	_	_
+
+#Text=Der zweite Band Ihres Exemplars meiner Vasenbilder wird Ihnen Reimer nun zugesandt haben .
+11-1	1075-1078	Der	_	_
+11-2	1079-1085	zweite	_	_
+11-3	1086-1090	Band	_	_
+11-4	1091-1096	Ihres	_	_
+11-5	1097-1106	Exemplars	_	_
+11-6	1107-1113	meiner	_	_
+11-7	1114-1125	Vasenbilder	_	_
+11-8	1126-1130	wird	_	_
+11-9	1131-1136	Ihnen	_	_
+11-10	1137-1143	Reimer	*	ORGmentioned
+11-11	1144-1147	nun	_	_
+11-12	1148-1157	zugesandt	_	_
+11-13	1158-1163	haben	_	_
+11-14	1164-1165	.	_	_
+
+#Text=Die epigraphische Angelegenheit ist hier zu Jahns Ungunsten begutachtet worden \; der Abschluß des Berichts
+12-1	1166-1169	Die	_	_
+12-2	1170-1183	epigraphische	_	_
+12-3	1184-1197	Angelegenheit	_	_
+12-4	1198-1201	ist	_	_
+12-5	1202-1206	hier	_	_
+12-6	1207-1209	zu	_	_
+12-7	1210-1215	Jahns	*	PERmentioned
+12-8	1216-1225	Ungunsten	_	_
+12-9	1226-1237	begutachtet	_	_
+12-10	1238-1244	worden	_	_
+12-11	1245-1246	\;	_	_
+12-12	1247-1250	der	_	_
+12-13	1251-1259	Abschluß	_	_
+12-14	1260-1263	des	_	_
+12-15	1264-1272	Berichts	_	_

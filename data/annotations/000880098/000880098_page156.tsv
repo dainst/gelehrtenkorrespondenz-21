@@ -1,0 +1,271 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard 25 .
+1-1	0-5	Braun	*	PERauthor	
+1-2	6-8	an	_	_	
+1-3	9-16	Gerhard	*	PERaddressee	
+1-4	17-19	25	*[1]	DATEletter[1]	
+1-5	20-21	.	*[1]	DATEletter[1]	
+
+#Text=Januar 1835 - 3. die Merkurvase und die Tazza dell'antrophago .
+2-1	22-28	Januar	*[1]	DATEletter[1]	
+2-2	29-33	1835	*[1]	DATEletter[1]	
+2-3	34-35	-	_	_	
+2-4	36-38	3.	_	_	
+2-5	39-42	die	_	_	
+2-6	43-53	Merkurvase	*	OBJ	
+2-7	54-57	und	_	_	
+2-8	58-61	die	_	_	
+2-9	62-67	Tazza	*[2]	OBJ[2]	
+2-10	68-83	dell'antrophago	*[2]	OBJ[2]	
+2-11	84-85	.	_	_	
+
+#Text=100 Scudi Restaurationskosten lassen sich dann leicht obenein tragen .
+3-1	86-89	100	_	_	
+3-2	90-95	Scudi	_	_	
+3-3	96-115	Restaurationskosten	_	_	
+3-4	116-122	lassen	_	_	
+3-5	123-127	sich	_	_	
+3-6	128-132	dann	_	_	
+3-7	133-139	leicht	_	_	
+3-8	140-147	obenein	_	_	
+3-9	148-154	tragen	_	_	
+3-10	155-156	.	_	_	
+
+#Text=- Daß Sie für Depoletti nichts haben auswirken können ist verdrießlich .
+4-1	157-158	-	_	_	
+4-2	159-162	Daß	_	_	
+4-3	163-166	Sie	_	_	
+4-4	167-170	für	_	_	
+4-5	171-180	Depoletti	*	PERmentioned	
+4-6	181-187	nichts	_	_	
+4-7	188-193	haben	_	_	
+4-8	194-203	auswirken	_	_	
+4-9	204-210	können	_	_	
+4-10	211-214	ist	_	_	
+4-11	215-227	verdrießlich	_	_	
+4-12	228-229	.	_	_	
+
+#Text=Der Kerl ist so heiklich , aber doch nicht ohne Einfluß auf den Kunsthandel und gegenwärtig als Durands Restaurator und Conservator für uns eine wichtige Person .
+5-1	230-233	Der	_	_	
+5-2	234-238	Kerl	_	_	
+5-3	239-242	ist	_	_	
+5-4	243-245	so	_	_	
+5-5	246-254	heiklich	_	_	
+5-6	255-256	,	_	_	
+5-7	257-261	aber	_	_	
+5-8	262-266	doch	_	_	
+5-9	267-272	nicht	_	_	
+5-10	273-277	ohne	_	_	
+5-11	278-285	Einfluß	_	_	
+5-12	286-289	auf	_	_	
+5-13	290-293	den	_	_	
+5-14	294-305	Kunsthandel	_	_	
+5-15	306-309	und	_	_	
+5-16	310-321	gegenwärtig	_	_	
+5-17	322-325	als	_	_	
+5-18	326-333	Durands	*	PERmentioned	
+5-19	334-345	Restaurator	_	_	
+5-20	346-349	und	_	_	
+5-21	350-361	Conservator	_	_	
+5-22	362-365	für	_	_	
+5-23	366-369	uns	_	_	
+5-24	370-374	eine	_	_	
+5-25	375-383	wichtige	_	_	
+5-26	384-390	Person	_	_	
+5-27	391-392	.	_	_	
+
+#Text=Daß Apolloni wieder in Gnade eingetreten ist , werden Sie vernommen haben .
+6-1	393-396	Daß	_	_	
+6-2	397-405	Apolloni	*	PERmentioned	
+6-3	406-412	wieder	_	_	
+6-4	413-415	in	_	_	
+6-5	416-421	Gnade	_	_	
+6-6	422-433	eingetreten	_	_	
+6-7	434-437	ist	_	_	
+6-8	438-439	,	_	_	
+6-9	440-446	werden	_	_	
+6-10	447-450	Sie	_	_	
+6-11	451-460	vernommen	_	_	
+6-12	461-466	haben	_	_	
+6-13	467-468	.	_	_	
+
+#Text=Ich gebe Ihnen recht , aber vielleicht nicht ganz mit Recht .
+7-1	469-472	Ich	_	_	
+7-2	473-477	gebe	_	_	
+7-3	478-483	Ihnen	_	_	
+7-4	484-489	recht	_	_	
+7-5	490-491	,	_	_	
+7-6	492-496	aber	_	_	
+7-7	497-507	vielleicht	_	_	
+7-8	508-513	nicht	_	_	
+7-9	514-518	ganz	_	_	
+7-10	519-522	mit	_	_	
+7-11	523-528	Recht	_	_	
+7-12	529-530	.	_	_	
+
+#Text=Mit seinen Zeichnungen legt man doch sehr wenig Ehre ein ; das schlimmste aber ist , dass er es nicht Worts haben will und für ein gewisses verständiges Aeußern , welches sich der Zeichnung mittheilt ohne den Charakter zu beeinträchtigen keinen Sinn hat .
+8-1	531-534	Mit	_	_	
+8-2	535-541	seinen	_	_	
+8-3	542-553	Zeichnungen	_	_	
+8-4	554-558	legt	_	_	
+8-5	559-562	man	_	_	
+8-6	563-567	doch	_	_	
+8-7	568-572	sehr	_	_	
+8-8	573-578	wenig	_	_	
+8-9	579-583	Ehre	_	_	
+8-10	584-587	ein	_	_	
+8-11	588-589	;	_	_	
+8-12	590-593	das	_	_	
+8-13	594-604	schlimmste	_	_	
+8-14	605-609	aber	_	_	
+8-15	610-613	ist	_	_	
+8-16	614-615	,	_	_	
+8-17	616-620	dass	_	_	
+8-18	621-623	er	_	_	
+8-19	624-626	es	_	_	
+8-20	627-632	nicht	_	_	
+8-21	633-638	Worts	_	_	
+8-22	639-644	haben	_	_	
+8-23	645-649	will	_	_	
+8-24	650-653	und	_	_	
+8-25	654-657	für	_	_	
+8-26	658-661	ein	_	_	
+8-27	662-670	gewisses	_	_	
+8-28	671-683	verständiges	_	_	
+8-29	684-691	Aeußern	_	_	
+8-30	692-693	,	_	_	
+8-31	694-701	welches	_	_	
+8-32	702-706	sich	_	_	
+8-33	707-710	der	_	_	
+8-34	711-720	Zeichnung	_	_	
+8-35	721-730	mittheilt	_	_	
+8-36	731-735	ohne	_	_	
+8-37	736-739	den	_	_	
+8-38	740-749	Charakter	_	_	
+8-39	750-752	zu	_	_	
+8-40	753-768	beeinträchtigen	_	_	
+8-41	769-775	keinen	_	_	
+8-42	776-780	Sinn	_	_	
+8-43	781-784	hat	_	_	
+8-44	785-786	.	_	_	
+
+#Text=Er hat Spiegel gezeichnet , wie Sie aus den Rechnungen sehen und dazu taugt er am ersten , aber gerade das macht ihm am wenigsten Spaß .
+9-1	787-789	Er	_	_	
+9-2	790-793	hat	_	_	
+9-3	794-801	Spiegel	_	_	
+9-4	802-812	gezeichnet	_	_	
+9-5	813-814	,	_	_	
+9-6	815-818	wie	_	_	
+9-7	819-822	Sie	_	_	
+9-8	823-826	aus	_	_	
+9-9	827-830	den	_	_	
+9-10	831-841	Rechnungen	_	_	
+9-11	842-847	sehen	_	_	
+9-12	848-851	und	_	_	
+9-13	852-856	dazu	_	_	
+9-14	857-862	taugt	_	_	
+9-15	863-865	er	_	_	
+9-16	866-868	am	_	_	
+9-17	869-875	ersten	_	_	
+9-18	876-877	,	_	_	
+9-19	878-882	aber	_	_	
+9-20	883-889	gerade	_	_	
+9-21	890-893	das	_	_	
+9-22	894-899	macht	_	_	
+9-23	900-903	ihm	_	_	
+9-24	904-906	am	_	_	
+9-25	907-916	wenigsten	_	_	
+9-26	917-921	Spaß	_	_	
+9-27	922-923	.	_	_	
+
+#Text=In der Campanischen Sammlung wird wohl noch mancherlei zu zeichnen sein , wenn es wahr ist , dass Sie die Tazzen noch gar nicht durchgesehen , da will ich ihn hinstecken .
+10-1	924-926	In	_	_	
+10-2	927-930	der	_	_	
+10-3	931-943	Campanischen	*[3]|*[4]	ORGmentioned[3]|PERmentioned[4]	
+10-4	944-952	Sammlung	*[3]	ORGmentioned[3]	
+10-5	953-957	wird	_	_	
+10-6	958-962	wohl	_	_	
+10-7	963-967	noch	_	_	
+10-8	968-978	mancherlei	_	_	
+10-9	979-981	zu	_	_	
+10-10	982-990	zeichnen	_	_	
+10-11	991-995	sein	_	_	
+10-12	996-997	,	_	_	
+10-13	998-1002	wenn	_	_	
+10-14	1003-1005	es	_	_	
+10-15	1006-1010	wahr	_	_	
+10-16	1011-1014	ist	_	_	
+10-17	1015-1016	,	_	_	
+10-18	1017-1021	dass	_	_	
+10-19	1022-1025	Sie	_	_	
+10-20	1026-1029	die	_	_	
+10-21	1030-1036	Tazzen	_	_	
+10-22	1037-1041	noch	_	_	
+10-23	1042-1045	gar	_	_	
+10-24	1046-1051	nicht	_	_	
+10-25	1052-1064	durchgesehen	_	_	
+10-26	1065-1066	,	_	_	
+10-27	1067-1069	da	_	_	
+10-28	1070-1074	will	_	_	
+10-29	1075-1078	ich	_	_	
+10-30	1079-1082	ihn	_	_	
+10-31	1083-1093	hinstecken	_	_	
+10-32	1094-1095	.	_	_	
+
+#Text=Mit Bellog hatte ich anfangs einen dummen Contract ; welcher mir viel Aerger machte .
+11-1	1096-1099	Mit	_	_	
+11-2	1100-1106	Bellog	*	PERmentioned	
+11-3	1107-1112	hatte	_	_	
+11-4	1113-1116	ich	_	_	
+11-5	1117-1124	anfangs	_	_	
+11-6	1125-1130	einen	_	_	
+11-7	1131-1137	dummen	_	_	
+11-8	1138-1146	Contract	_	_	
+11-9	1147-1148	;	_	_	
+11-10	1149-1156	welcher	_	_	
+11-11	1157-1160	mir	_	_	
+11-12	1161-1165	viel	_	_	
+11-13	1166-1172	Aerger	_	_	
+11-14	1173-1179	machte	_	_	
+11-15	1180-1181	.	_	_	
+
+#Text=Ich glaubte zu vielzahlen zu müssen .
+12-1	1182-1185	Ich	_	_	
+12-2	1186-1193	glaubte	_	_	
+12-3	1194-1196	zu	_	_	
+12-4	1197-1207	vielzahlen	_	_	
+12-5	1208-1210	zu	_	_	
+12-6	1211-1217	müssen	_	_	
+12-7	1218-1219	.	_	_	
+
+#Text=Indessen es war nicht mehr , nachdem ich die Sache genauer verglichen , Er hatte auch an Durand die Controlucidi abgeben müssen , wie dieser gewünscht .
+13-1	1220-1228	Indessen	_	_	
+13-2	1229-1231	es	_	_	
+13-3	1232-1235	war	_	_	
+13-4	1236-1241	nicht	_	_	
+13-5	1242-1246	mehr	_	_	
+13-6	1247-1248	,	_	_	
+13-7	1249-1256	nachdem	_	_	
+13-8	1257-1260	ich	_	_	
+13-9	1261-1264	die	_	_	
+13-10	1265-1270	Sache	_	_	
+13-11	1271-1278	genauer	_	_	
+13-12	1279-1289	verglichen	_	_	
+13-13	1290-1291	,	_	_	
+13-14	1292-1294	Er	_	_	
+13-15	1295-1300	hatte	_	_	
+13-16	1301-1305	auch	_	_	
+13-17	1306-1308	an	_	_	
+13-18	1309-1315	Durand	*	PERmentioned	
+13-19	1316-1319	die	_	_	
+13-20	1320-1332	Controlucidi	*	MISC	
+13-21	1333-1340	abgeben	_	_	
+13-22	1341-1347	müssen	_	_	
+13-23	1348-1349	,	_	_	
+13-24	1350-1353	wie	_	_	
+13-25	1354-1360	dieser	_	_	
+13-26	1361-1370	gewünscht	_	_	
+13-27	1371-1372	.	_	_	

@@ -1,0 +1,325 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=335 Braun an Gerhard Verona , 23 .
+1-1	0-3	335	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-27	Verona	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	23	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=August 1837 ancora che devono leggere e che hanno da studiare le opere dell'Instituto .
+2-1	35-41	August	*[3]	DATEletter[3]
+2-2	42-46	1837	*[3]	DATEletter[3]
+2-3	47-53	ancora	_	_
+2-4	54-57	che	_	_
+2-5	58-64	devono	_	_
+2-6	65-72	leggere	_	_
+2-7	73-74	e	_	_
+2-8	75-78	che	_	_
+2-9	79-84	hanno	_	_
+2-10	85-87	da	_	_
+2-11	88-96	studiare	_	_
+2-12	97-99	le	_	_
+2-13	100-105	opere	_	_
+2-14	106-120	dell'Instituto	_	_
+2-15	121-122	.	_	_
+
+#Text=In Venedig habe ich einen Mons .
+3-1	123-125	In	_	_
+3-2	126-133	Venedig	*	PLACEmentioned
+3-3	134-138	habe	_	_
+3-4	139-142	ich	_	_
+3-5	143-148	einen	_	_
+3-6	149-153	Mons	_	_
+3-7	154-155	.	_	_
+
+#Text=Moschini kennen gelernt , einen ganz braven letterato , der Corrispondent des Instituts zu sein verdiente .
+4-1	156-164	Moschini	*	PERmentioned
+4-2	165-171	kennen	_	_
+4-3	172-179	gelernt	_	_
+4-4	180-181	,	_	_
+4-5	182-187	einen	_	_
+4-6	188-192	ganz	_	_
+4-7	193-199	braven	_	_
+4-8	200-209	letterato	_	_
+4-9	210-211	,	_	_
+4-10	212-215	der	_	_
+4-11	216-229	Corrispondent	_	_
+4-12	230-233	des	_	_
+4-13	234-243	Instituts	*	ORGmentioned
+4-14	244-246	zu	_	_
+4-15	247-251	sein	_	_
+4-16	252-261	verdiente	_	_
+4-17	262-263	.	_	_
+
+#Text=Er hat einen guida di Padova und eine andere von Venedig und letzthin eine epigraphische Abhandlung in den Raccoglitore geschrieben , worin eine Menge von Inschriften , die Kellermann mitgetheilt hat , genauer publicirt sind .
+5-1	264-266	Er	_	_
+5-2	267-270	hat	_	_
+5-3	271-276	einen	_	_
+5-4	277-282	guida	_	_
+5-5	283-285	di	_	_
+5-6	286-292	Padova	*	PLACEmentioned
+5-7	293-296	und	_	_
+5-8	297-301	eine	_	_
+5-9	302-308	andere	_	_
+5-10	309-312	von	_	_
+5-11	313-320	Venedig	*	PLACEmentioned
+5-12	321-324	und	_	_
+5-13	325-333	letzthin	_	_
+5-14	334-338	eine	_	_
+5-15	339-352	epigraphische	_	_
+5-16	353-363	Abhandlung	_	_
+5-17	364-366	in	_	_
+5-18	367-370	den	_	_
+5-19	371-383	Raccoglitore	_	_
+5-20	384-395	geschrieben	_	_
+5-21	396-397	,	_	_
+5-22	398-403	worin	_	_
+5-23	404-408	eine	_	_
+5-24	409-414	Menge	_	_
+5-25	415-418	von	_	_
+5-26	419-430	Inschriften	*	OBJ
+5-27	431-432	,	_	_
+5-28	433-436	die	_	_
+5-29	437-447	Kellermann	*	PERmentioned
+5-30	448-459	mitgetheilt	_	_
+5-31	460-463	hat	_	_
+5-32	464-465	,	_	_
+5-33	466-473	genauer	_	_
+5-34	474-483	publicirt	_	_
+5-35	484-488	sind	_	_
+5-36	489-490	.	_	_
+
+#Text=Endlich besitzt das von ihm dirigirte Seminar den Rhodischen Cippus und die von Rinckh publicirte Kabi inschrift .
+6-1	491-498	Endlich	_	_
+6-2	499-506	besitzt	_	_
+6-3	507-510	das	_	_
+6-4	511-514	von	_	_
+6-5	515-518	ihm	_	_
+6-6	519-528	dirigirte	_	_
+6-7	529-536	Seminar	_	_
+6-8	537-540	den	_	_
+6-9	541-551	Rhodischen	*[4]	OBJ[4]
+6-10	552-558	Cippus	*[4]	OBJ[4]
+6-11	559-562	und	_	_
+6-12	563-566	die	_	_
+6-13	567-570	von	_	_
+6-14	571-577	Rinckh	*	PERmentioned
+6-15	578-588	publicirte	_	_
+6-16	589-593	Kabi	*[5]	OBJ[5]
+6-17	594-603	inschrift	*[5]	OBJ[5]
+6-18	604-605	.	_	_
+
+#Text=Orti hat uns beide bei einer genaueren Kenntniß seiner Persönlichkeit überrascht , ich meine mich und Ritschl .
+7-1	606-610	Orti	*	PERmentioned
+7-2	611-614	hat	_	_
+7-3	615-618	uns	_	_
+7-4	619-624	beide	_	_
+7-5	625-628	bei	_	_
+7-6	629-634	einer	_	_
+7-7	635-644	genaueren	_	_
+7-8	645-653	Kenntniß	_	_
+7-9	654-660	seiner	_	_
+7-10	661-675	Persönlichkeit	_	_
+7-11	676-686	überrascht	_	_
+7-12	687-688	,	_	_
+7-13	689-692	ich	_	_
+7-14	693-698	meine	_	_
+7-15	699-703	mich	_	_
+7-16	704-707	und	_	_
+7-17	708-715	Ritschl	*	PERmentioned
+7-18	716-717	.	_	_
+
+#Text=Er ist ein ganz kundiger Gelehrter \; Was aber sein Urtheil betrifft , so mögen sich alle vor ihm in Acht nehmen , die ihn blos für einen eitlen Litteratorengeck halten .
+8-1	718-720	Er	_	_
+8-2	721-724	ist	_	_
+8-3	725-728	ein	_	_
+8-4	729-733	ganz	_	_
+8-5	734-742	kundiger	_	_
+8-6	743-752	Gelehrter	_	_
+8-7	753-754	\;	_	_
+8-8	755-758	Was	_	_
+8-9	759-763	aber	_	_
+8-10	764-768	sein	_	_
+8-11	769-776	Urtheil	_	_
+8-12	777-785	betrifft	_	_
+8-13	786-787	,	_	_
+8-14	788-790	so	_	_
+8-15	791-796	mögen	_	_
+8-16	797-801	sich	_	_
+8-17	802-806	alle	_	_
+8-18	807-810	vor	_	_
+8-19	811-814	ihm	_	_
+8-20	815-817	in	_	_
+8-21	818-822	Acht	_	_
+8-22	823-829	nehmen	_	_
+8-23	830-831	,	_	_
+8-24	832-835	die	_	_
+8-25	836-839	ihn	_	_
+8-26	840-844	blos	_	_
+8-27	845-848	für	_	_
+8-28	849-854	einen	_	_
+8-29	855-861	eitlen	_	_
+8-30	862-878	Litteratorengeck	_	_
+8-31	879-885	halten	_	_
+8-32	886-887	.	_	_
+
+#Text=Wir haben in 4 Tagen kein Urtheil von ihm gehört , das den Nagel auf den Kopf getroffen hätte .
+9-1	888-891	Wir	_	_
+9-2	892-897	haben	_	_
+9-3	898-900	in	_	_
+9-4	901-902	4	_	_
+9-5	903-908	Tagen	_	_
+9-6	909-913	kein	_	_
+9-7	914-921	Urtheil	_	_
+9-8	922-925	von	_	_
+9-9	926-929	ihm	_	_
+9-10	930-936	gehört	_	_
+9-11	937-938	,	_	_
+9-12	939-942	das	_	_
+9-13	943-946	den	_	_
+9-14	947-952	Nagel	_	_
+9-15	953-956	auf	_	_
+9-16	957-960	den	_	_
+9-17	961-965	Kopf	_	_
+9-18	966-975	getroffen	_	_
+9-19	976-981	hätte	_	_
+9-20	982-983	.	_	_
+
+#Text=Dem Institut ist er auf eine so ehrenwerthe Weise befreundet , daß er Labas verführerische Einladungen zu den Franzosen überzugehen auf das treffendste und entschiedenste abgelehnt hat .
+10-1	984-987	Dem	_	_
+10-2	988-996	Institut	*	ORGmentioned
+10-3	997-1000	ist	_	_
+10-4	1001-1003	er	_	_
+10-5	1004-1007	auf	_	_
+10-6	1008-1012	eine	_	_
+10-7	1013-1015	so	_	_
+10-8	1016-1027	ehrenwerthe	_	_
+10-9	1028-1033	Weise	_	_
+10-10	1034-1044	befreundet	_	_
+10-11	1045-1046	,	_	_
+10-12	1047-1050	daß	_	_
+10-13	1051-1053	er	_	_
+10-14	1054-1059	Labas	*	PERmentioned
+10-15	1060-1074	verführerische	_	_
+10-16	1075-1086	Einladungen	_	_
+10-17	1087-1089	zu	_	_
+10-18	1090-1093	den	_	_
+10-19	1094-1103	Franzosen	_	_
+10-20	1104-1115	überzugehen	_	_
+10-21	1116-1119	auf	_	_
+10-22	1120-1123	das	_	_
+10-23	1124-1135	treffendste	_	_
+10-24	1136-1139	und	_	_
+10-25	1140-1154	entschiedenste	_	_
+10-26	1155-1164	abgelehnt	_	_
+10-27	1165-1168	hat	_	_
+10-28	1169-1170	.	_	_
+
+#Text=Er hat 10 - 12 archäologische Werke vorbereitet , die sich neben den von Serradifalco nicht blos sehen lassen können , Sondern sie ihren inneren Werth nach noch sehr gut übertreffen können .
+11-1	1171-1173	Er	_	_
+11-2	1174-1177	hat	_	_
+11-3	1178-1180	10	_	_
+11-4	1181-1182	-	_	_
+11-5	1183-1185	12	_	_
+11-6	1186-1200	archäologische	_	_
+11-7	1201-1206	Werke	_	_
+11-8	1207-1218	vorbereitet	_	_
+11-9	1219-1220	,	_	_
+11-10	1221-1224	die	_	_
+11-11	1225-1229	sich	_	_
+11-12	1230-1235	neben	_	_
+11-13	1236-1239	den	_	_
+11-14	1240-1243	von	_	_
+11-15	1244-1256	Serradifalco	*	PERmentioned
+11-16	1257-1262	nicht	_	_
+11-17	1263-1267	blos	_	_
+11-18	1268-1273	sehen	_	_
+11-19	1274-1280	lassen	_	_
+11-20	1281-1287	können	_	_
+11-21	1288-1289	,	_	_
+11-22	1290-1297	Sondern	_	_
+11-23	1298-1301	sie	_	_
+11-24	1302-1307	ihren	_	_
+11-25	1308-1315	inneren	_	_
+11-26	1316-1321	Werth	_	_
+11-27	1322-1326	nach	_	_
+11-28	1327-1331	noch	_	_
+11-29	1332-1336	sehr	_	_
+11-30	1337-1340	gut	_	_
+11-31	1341-1352	übertreffen	_	_
+11-32	1353-1359	können	_	_
+11-33	1360-1361	.	_	_
+
+#Text=Er bedient sich guter Zeichner und trefflicher Stecher und schreibt einen recht vernünftigen Text , den ihm kein Maggiore zu schreiben braucht .
+12-1	1362-1364	Er	_	_
+12-2	1365-1372	bedient	_	_
+12-3	1373-1377	sich	_	_
+12-4	1378-1383	guter	_	_
+12-5	1384-1392	Zeichner	_	_
+12-6	1393-1396	und	_	_
+12-7	1397-1408	trefflicher	_	_
+12-8	1409-1416	Stecher	_	_
+12-9	1417-1420	und	_	_
+12-10	1421-1429	schreibt	_	_
+12-11	1430-1435	einen	_	_
+12-12	1436-1441	recht	_	_
+12-13	1442-1454	vernünftigen	_	_
+12-14	1455-1459	Text	_	_
+12-15	1460-1461	,	_	_
+12-16	1462-1465	den	_	_
+12-17	1466-1469	ihm	_	_
+12-18	1470-1474	kein	_	_
+12-19	1475-1483	Maggiore	*	PERmentioned
+12-20	1484-1486	zu	_	_
+12-21	1487-1496	schreiben	_	_
+12-22	1497-1504	braucht	_	_
+12-23	1505-1506	.	_	_
+
+#Text=Dem Kronprinzen will er ein Werk über die Alterthüner in Valpontena zueignen , aus keinem anderen Grund als weil er der Protector des Instituts ist , irgend einen anderen Titel oder Bezug lehnt er entschieden ab .
+13-1	1507-1510	Dem	_	_
+13-2	1511-1522	Kronprinzen	*	PERmentioned
+13-3	1523-1527	will	_	_
+13-4	1528-1530	er	_	_
+13-5	1531-1534	ein	_	_
+13-6	1535-1539	Werk	_	_
+13-7	1540-1544	über	_	_
+13-8	1545-1548	die	_	_
+13-9	1549-1560	Alterthüner	_	_
+13-10	1561-1563	in	_	_
+13-11	1564-1574	Valpontena	*	PLACEmentioned
+13-12	1575-1583	zueignen	_	_
+13-13	1584-1585	,	_	_
+13-14	1586-1589	aus	_	_
+13-15	1590-1596	keinem	_	_
+13-16	1597-1604	anderen	_	_
+13-17	1605-1610	Grund	_	_
+13-18	1611-1614	als	_	_
+13-19	1615-1619	weil	_	_
+13-20	1620-1622	er	_	_
+13-21	1623-1626	der	_	_
+13-22	1627-1636	Protector	_	_
+13-23	1637-1640	des	_	_
+13-24	1641-1650	Instituts	*	ORGmentioned
+13-25	1651-1654	ist	_	_
+13-26	1655-1656	,	_	_
+13-27	1657-1663	irgend	_	_
+13-28	1664-1669	einen	_	_
+13-29	1670-1677	anderen	_	_
+13-30	1678-1683	Titel	_	_
+13-31	1684-1688	oder	_	_
+13-32	1689-1694	Bezug	_	_
+13-33	1695-1700	lehnt	_	_
+13-34	1701-1703	er	_	_
+13-35	1704-1715	entschieden	_	_
+13-36	1716-1718	ab	_	_
+13-37	1719-1720	.	_	_
+
+#Text=Seine Monumente
+14-1	1721-1726	Seine	_	_
+14-2	1727-1736	Monumente	_	_

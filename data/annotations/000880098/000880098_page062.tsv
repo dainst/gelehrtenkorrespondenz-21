@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=658 Braun an Gerhard H. Prof. Gerhard Rom , 18. September 1834 Rom 18 Septbr .
+1-1	0-3	658	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-23	H.	*[1]	PERaddressee[1]
+1-6	24-29	Prof.	*[1]	PERaddressee[1]
+1-7	30-37	Gerhard	*[1]	PERaddressee[1]
+1-8	38-41	Rom	*	PLACEfrom
+1-9	42-43	,	_	_
+1-10	44-47	18.	*[2]	DATEletter[2]
+1-11	48-57	September	*[2]	DATEletter[2]
+1-12	58-62	1834	*[2]	DATEletter[2]
+1-13	63-66	Rom	*	PLACEfrom
+1-14	67-69	18	*[3]	DATEletter[3]
+1-15	70-76	Septbr	*[3]	DATEletter[3]
+1-16	77-78	.	*[3]	DATEletter[3]
+
+#Text=1834 .
+2-1	79-83	1834	*[3]	DATEletter[3]
+2-2	84-85	.	_	_
+
+#Text=Hochverehrter Freund \| !
+3-1	86-99	Hochverehrter	_	_
+3-2	100-106	Freund	_	_
+3-3	107-108	\|	_	_
+3-4	109-110	!	_	_
+
+#Text=Die Post erwartend , schreibe ich Ihnen derweilen was mir beifällt .
+4-1	111-114	Die	_	_
+4-2	115-119	Post	_	_
+4-3	120-129	erwartend	_	_
+4-4	130-131	,	_	_
+4-5	132-140	schreibe	_	_
+4-6	141-144	ich	_	_
+4-7	145-150	Ihnen	_	_
+4-8	151-160	derweilen	_	_
+4-9	161-164	was	_	_
+4-10	165-168	mir	_	_
+4-11	169-177	beifällt	_	_
+4-12	178-179	.	_	_
+
+#Text=Zuerst erhalten Sie anbei die von Campanari mir überwiesenen Zeichnungen .
+5-1	180-186	Zuerst	_	_
+5-2	187-195	erhalten	_	_
+5-3	196-199	Sie	_	_
+5-4	200-205	anbei	_	_
+5-5	206-209	die	_	_
+5-6	210-213	von	_	_
+5-7	214-223	Campanari	*	PERmentioned
+5-8	224-227	mir	_	_
+5-9	228-240	überwiesenen	_	_
+5-10	241-252	Zeichnungen	_	_
+5-11	253-254	.	_	_
+
+#Text=Daß man in der einen Darstellung einen Menschenfresser und nicht vielmehr die ganze Procedur des Erzgusses hat vermuthen können , setzt selbst Barbaran voraus .
+6-1	255-258	Daß	_	_
+6-2	259-262	man	_	_
+6-3	263-265	in	*[4]	OBJ[4]
+6-4	266-269	der	*[4]	OBJ[4]
+6-5	270-275	einen	*[4]	OBJ[4]
+6-6	276-287	Darstellung	*[4]	OBJ[4]
+6-7	288-293	einen	*[4]	OBJ[4]
+6-8	294-309	Menschenfresser	*[4]	OBJ[4]
+6-9	310-313	und	*[4]	OBJ[4]
+6-10	314-319	nicht	*[4]	OBJ[4]
+6-11	320-328	vielmehr	*[4]	OBJ[4]
+6-12	329-332	die	*[4]	OBJ[4]
+6-13	333-338	ganze	*[4]	OBJ[4]
+6-14	339-347	Procedur	*[4]	OBJ[4]
+6-15	348-351	des	*[4]	OBJ[4]
+6-16	352-361	Erzgusses	*[4]	OBJ[4]
+6-17	362-365	hat	_	_
+6-18	366-375	vermuthen	_	_
+6-19	376-382	können	_	_
+6-20	383-384	,	_	_
+6-21	385-390	setzt	_	_
+6-22	391-397	selbst	_	_
+6-23	398-406	Barbaran	*	PERmentioned
+6-24	407-413	voraus	_	_
+6-25	414-415	.	_	_
+
+#Text=Und doch , sehe ich , hat Niemand bis jetut an das von mir angedeutete Sujet gedacht \; vielleicht schreibe ich eine Erklärung davon , weshalb ich , wenn Sie es nicht selbst schon gefunden , um Discretion bitte .
+7-1	416-419	Und	_	_
+7-2	420-424	doch	_	_
+7-3	425-426	,	_	_
+7-4	427-431	sehe	_	_
+7-5	432-435	ich	_	_
+7-6	436-437	,	_	_
+7-7	438-441	hat	_	_
+7-8	442-449	Niemand	_	_
+7-9	450-453	bis	_	_
+7-10	454-459	jetut	_	_
+7-11	460-462	an	_	_
+7-12	463-466	das	_	_
+7-13	467-470	von	_	_
+7-14	471-474	mir	_	_
+7-15	475-486	angedeutete	_	_
+7-16	487-492	Sujet	_	_
+7-17	493-500	gedacht	_	_
+7-18	501-502	\;	_	_
+7-19	503-513	vielleicht	_	_
+7-20	514-522	schreibe	_	_
+7-21	523-526	ich	_	_
+7-22	527-531	eine	_	_
+7-23	532-541	Erklärung	_	_
+7-24	542-547	davon	_	_
+7-25	548-549	,	_	_
+7-26	550-557	weshalb	_	_
+7-27	558-561	ich	_	_
+7-28	562-563	,	_	_
+7-29	564-568	wenn	_	_
+7-30	569-572	Sie	_	_
+7-31	573-575	es	_	_
+7-32	576-581	nicht	_	_
+7-33	582-588	selbst	_	_
+7-34	589-594	schon	_	_
+7-35	595-603	gefunden	_	_
+7-36	604-605	,	_	_
+7-37	606-608	um	_	_
+7-38	609-619	Discretion	_	_
+7-39	620-625	bitte	_	_
+7-40	626-627	.	_	_
+
+#Text=- Apolloni hat mehrere Vasen gebracht \; Cades 6 Gemmenfortsetzungen engesandt \; es fehlen noch 2 die ich aber bei der Spedition nicht werde erwarten können .
+8-1	628-629	-	_	_
+8-2	630-638	Apolloni	*	PERmentioned
+8-3	639-642	hat	_	_
+8-4	643-650	mehrere	_	_
+8-5	651-656	Vasen	_	_
+8-6	657-665	gebracht	_	_
+8-7	666-667	\;	_	_
+8-8	668-673	Cades	*	PERmentioned
+8-9	674-675	6	_	_
+8-10	676-695	Gemmenfortsetzungen	*	LIT
+8-11	696-705	engesandt	_	_
+8-12	706-707	\;	_	_
+8-13	708-710	es	_	_
+8-14	711-717	fehlen	_	_
+8-15	718-722	noch	_	_
+8-16	723-724	2	_	_
+8-17	725-728	die	_	_
+8-18	729-732	ich	_	_
+8-19	733-737	aber	_	_
+8-20	738-741	bei	_	_
+8-21	742-745	der	_	_
+8-22	746-755	Spedition	_	_
+8-23	756-761	nicht	_	_
+8-24	762-767	werde	_	_
+8-25	768-776	erwarten	_	_
+8-26	777-783	können	_	_
+8-27	784-785	.	_	_
+
+#Text=Die Kiste von Neapel ist endlich angekommen und die Serradifalcos sind in Civitavecchia , .
+9-1	786-789	Die	_	_
+9-2	790-795	Kiste	_	_
+9-3	796-799	von	_	_
+9-4	800-806	Neapel	*	PLACEmentioned
+9-5	807-810	ist	_	_
+9-6	811-818	endlich	_	_
+9-7	819-829	angekommen	_	_
+9-8	830-833	und	_	_
+9-9	834-837	die	_	_
+9-10	838-851	Serradifalcos	*	PERmentioned
+9-11	852-856	sind	_	_
+9-12	857-859	in	_	_
+9-13	860-873	Civitavecchia	*	PLACEmentioned
+9-14	874-875	,	_	_
+9-15	876-877	.	_	_
+
+#Text=- Das Governo hat tutta la robba etrusca del Izogna gekauft , ferner die Vase von Mons .
+10-1	878-879	-	_	_
+10-2	880-883	Das	*[5]	ORGmentioned[5]
+10-3	884-891	Governo	*[5]	ORGmentioned[5]
+10-4	892-895	hat	_	_
+10-5	896-901	tutta	_	_
+10-6	902-904	la	_	_
+10-7	905-910	robba	_	_
+10-8	911-918	etrusca	_	_
+10-9	919-922	del	_	_
+10-10	923-929	Izogna	*	PERmentioned
+10-11	930-937	gekauft	_	_
+10-12	938-939	,	_	_
+10-13	940-946	ferner	_	_
+10-14	947-950	die	_	_
+10-15	951-955	Vase	*[6]	OBJ[6]
+10-16	956-959	von	*[6]	OBJ[6]
+10-17	960-964	Mons	*[6]	OBJ[6]
+10-18	965-966	.	*[6]	OBJ[6]
+
+#Text=Ruspoli mit den Jason und endlich den depositirten Krieger auf Puzza di Pietra .
+11-1	967-974	Ruspoli	*[6]|*[7]	OBJ[6]|PERmentioned[7]
+11-2	975-978	mit	*[6]	OBJ[6]
+11-3	979-982	den	*[6]	OBJ[6]
+11-4	983-988	Jason	*[6]	OBJ[6]
+11-5	989-992	und	_	_
+11-6	993-1000	endlich	_	_
+11-7	1001-1004	den	_	_
+11-8	1005-1017	depositirten	_	_
+11-9	1018-1025	Krieger	_	_
+11-10	1026-1029	auf	_	_
+11-11	1030-1035	Puzza	*[8]	PLACEmentioned[8]
+11-12	1036-1038	di	*[8]	PLACEmentioned[8]
+11-13	1039-1045	Pietra	*[8]	PLACEmentioned[8]
+11-14	1046-1047	.	_	_
+
+#Text=- Manzi war hier und hat Bunsen seine Aufwartung gemacht , auch dem Institut \; er klagt über Nibbys dürftige Erklärung der Vase mit den Bratspielern .
+12-1	1048-1049	-	_	_
+12-2	1050-1055	Manzi	*	PERmentioned
+12-3	1056-1059	war	_	_
+12-4	1060-1064	hier	_	_
+12-5	1065-1068	und	_	_
+12-6	1069-1072	hat	_	_
+12-7	1073-1079	Bunsen	*	PERmentioned
+12-8	1080-1085	seine	_	_
+12-9	1086-1096	Aufwartung	_	_
+12-10	1097-1104	gemacht	_	_
+12-11	1105-1106	,	_	_
+12-12	1107-1111	auch	_	_
+12-13	1112-1115	dem	_	_
+12-14	1116-1124	Institut	*	ORGmentioned
+12-15	1125-1126	\;	_	_
+12-16	1127-1129	er	_	_
+12-17	1130-1135	klagt	_	_
+12-18	1136-1140	über	_	_
+12-19	1141-1147	Nibbys	*	PERmentioned
+12-20	1148-1156	dürftige	_	_
+12-21	1157-1166	Erklärung	_	_
+12-22	1167-1170	der	_	_
+12-23	1171-1175	Vase	*[9]	OBJ[9]
+12-24	1176-1179	mit	*[9]	OBJ[9]
+12-25	1180-1183	den	*[9]	OBJ[9]
+12-26	1184-1196	Bratspielern	*[9]	OBJ[9]
+12-27	1197-1198	.	_	_
+
+#Text=- Campanaris sind überaus freundlich gegen mich und haben mir nicht blos erlaubt , sondern mich eingeladen die ganze Sammlung Stück für Stück durchzusehen .
+13-1	1199-1200	-	_	_
+13-2	1201-1211	Campanaris	*	PERmentioned
+13-3	1212-1216	sind	_	_
+13-4	1217-1224	überaus	_	_
+13-5	1225-1235	freundlich	_	_
+13-6	1236-1241	gegen	_	_
+13-7	1242-1246	mich	_	_
+13-8	1247-1250	und	_	_
+13-9	1251-1256	haben	_	_
+13-10	1257-1260	mir	_	_
+13-11	1261-1266	nicht	_	_
+13-12	1267-1271	blos	_	_
+13-13	1272-1279	erlaubt	_	_
+13-14	1280-1281	,	_	_
+13-15	1282-1289	sondern	_	_
+13-16	1290-1294	mich	_	_
+13-17	1295-1305	eingeladen	_	_
+13-18	1306-1309	die	_	_
+13-19	1310-1315	ganze	_	_
+13-20	1316-1324	Sammlung	_	_
+13-21	1325-1330	Stück	_	_
+13-22	1331-1334	für	_	_
+13-23	1335-1340	Stück	_	_
+13-24	1341-1353	durchzusehen	_	_
+13-25	1354-1355	.	_	_

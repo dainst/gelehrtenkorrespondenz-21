@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard München : Poststempel : 30. Juli 1838 Annali mit Lepsius nach Paris kommen , wissen Sie .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-25	München	*	PLACEfrom
+1-5	26-27	:	_	_
+1-6	28-39	Poststempel	_	_
+1-7	40-41	:	_	_
+1-8	42-45	30.	*[4]	DATEletter[4]
+1-9	46-50	Juli	*[4]	DATEletter[4]
+1-10	51-55	1838	*[4]	DATEletter[4]
+1-11	56-62	Annali	_	_
+1-12	63-66	mit	_	_
+1-13	67-74	Lepsius	*	PERmentioned
+1-14	75-79	nach	_	_
+1-15	80-85	Paris	*	PLACEmentioned
+1-16	86-92	kommen	_	_
+1-17	93-94	,	_	_
+1-18	95-101	wissen	_	_
+1-19	102-105	Sie	_	_
+1-20	106-107	.	_	_
+
+#Text=Ihren sehr verständigen \_und liebenswürdigen Freund haben wir mehrmals gesehen : Cäaristian ist fast ihm beständig Begleiter gewesen .
+2-1	108-113	Ihren	_	_
+2-2	114-118	sehr	_	_
+2-3	119-131	verständigen	_	_
+2-4	132-136	\_und	_	_
+2-5	137-152	liebenswürdigen	_	_
+2-6	153-159	Freund	_	_
+2-7	160-165	haben	_	_
+2-8	166-169	wir	_	_
+2-9	170-178	mehrmals	_	_
+2-10	179-186	gesehen	_	_
+2-11	187-188	:	_	_
+2-12	189-199	Cäaristian	*	PERmentioned
+2-13	200-203	ist	_	_
+2-14	204-208	fast	_	_
+2-15	209-212	ihm	_	_
+2-16	213-222	beständig	_	_
+2-17	223-232	Begleiter	_	_
+2-18	233-240	gewesen	_	_
+2-19	241-242	.	_	_
+
+#Text=Ich reise bestimmt vor Ende des Monats über Heidelberg und Frankfurt - und bin wills Gott , vor 15 August in London .
+3-1	243-246	Ich	_	_
+3-2	247-252	reise	_	_
+3-3	253-261	bestimmt	_	_
+3-4	262-265	vor	_	_
+3-5	266-270	Ende	_	_
+3-6	271-274	des	_	_
+3-7	275-281	Monats	_	_
+3-8	282-286	über	_	_
+3-9	287-297	Heidelberg	*	PLACEmentioned
+3-10	298-301	und	_	_
+3-11	302-311	Frankfurt	*	PLACEmentioned
+3-12	312-313	-	_	_
+3-13	314-317	und	_	_
+3-14	318-321	bin	_	_
+3-15	322-327	wills	_	_
+3-16	328-332	Gott	_	_
+3-17	333-334	,	_	_
+3-18	335-338	vor	_	_
+3-19	339-341	15	*[10]	DATEmentioned[10]
+3-20	342-348	August	*[10]	DATEmentioned[10]
+3-21	349-351	in	_	_
+3-22	352-358	London	*	PLACEmentioned
+3-23	359-360	.	_	_
+
+#Text=Das Übrige wird sich finden .
+4-1	361-364	Das	_	_
+4-2	365-371	Übrige	_	_
+4-3	372-376	wird	_	_
+4-4	377-381	sich	_	_
+4-5	382-388	finden	_	_
+4-6	389-390	.	_	_
+
+#Text=Meine Aegyptiaca sind fast fertig .
+5-1	391-396	Meine	_	_
+5-2	397-407	Aegyptiaca	_	_
+5-3	408-412	sind	_	_
+5-4	413-417	fast	_	_
+5-5	418-424	fertig	_	_
+5-6	425-426	.	_	_
+
+#Text=London Adresse : Sir Benjamin Hall M. P . ( 1lin Singel : `` Mr .
+6-1	427-433	London	*	PLACEmentioned
+6-2	434-441	Adresse	_	_
+6-3	442-443	:	_	_
+6-4	444-447	Sir	_	_
+6-5	448-456	Benjamin	*	PERmentioned
+6-6	457-461	Hall	_	_
+6-7	462-464	M.	_	_
+6-8	465-466	P	_	_
+6-9	467-468	.	_	_
+6-10	469-470	(	_	_
+6-11	471-475	1lin	_	_
+6-12	476-482	Singel	_	_
+6-13	483-484	:	_	_
+6-14	485-487	``	_	_
+6-15	488-490	Mr	_	_
+6-16	491-492	.	_	_
+
+#Text=B . '' Franz grüßt mit herzlicher Liebe : so auch Georg .
+7-1	493-494	B	_	_
+7-2	495-496	.	_	_
+7-3	497-499	''	_	_
+7-4	500-505	Franz	*	PERmentioned
+7-5	506-511	grüßt	_	_
+7-6	512-515	mit	_	_
+7-7	516-526	herzlicher	_	_
+7-8	527-532	Liebe	_	_
+7-9	533-534	:	_	_
+7-10	535-537	so	_	_
+7-11	538-542	auch	_	_
+7-12	543-548	Georg	*	PERmentioned
+7-13	549-550	.	_	_
+
+#Text=Der Ihrige Bunsen
+8-1	551-554	Der	_	_
+8-2	555-561	Ihrige	_	_
+8-3	562-568	Bunsen	*	PERauthor

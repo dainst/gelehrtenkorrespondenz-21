@@ -1,0 +1,153 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=395 Lepsius an Henzen Berlin , 13. November 1873 Wenn Helbig zurück ist , bitte ich ihn von mir zu grüßen .
+1-1	0-3	395	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	13.	*[1]	DATEletter[1]
+1-8	35-43	November	*[1]	DATEletter[1]
+1-9	44-48	1873	*[1]	DATEletter[1]
+1-10	49-53	Wenn	_	_
+1-11	54-60	Helbig	*	PERmentioned
+1-12	61-67	zurück	_	_
+1-13	68-71	ist	_	_
+1-14	72-73	,	_	_
+1-15	74-79	bitte	_	_
+1-16	80-83	ich	_	_
+1-17	84-87	ihn	_	_
+1-18	88-91	von	_	_
+1-19	92-95	mir	_	_
+1-20	96-98	zu	_	_
+1-21	99-105	grüßen	_	_
+1-22	106-107	.	_	_
+
+#Text=Seit einigen Tagen sind wir in den Winter unter Null getreten .
+2-1	108-112	Seit	_	_
+2-2	113-120	einigen	_	_
+2-3	121-126	Tagen	_	_
+2-4	127-131	sind	_	_
+2-5	132-135	wir	_	_
+2-6	136-138	in	_	_
+2-7	139-142	den	_	_
+2-8	143-149	Winter	_	_
+2-9	150-155	unter	_	_
+2-10	156-160	Null	_	_
+2-11	161-169	getreten	_	_
+2-12	170-171	.	_	_
+
+#Text=Ihr ergebenster R Lepsius In einigen Tagen werden wir über obige Sachen Sitzung haben .
+3-1	172-175	Ihr	_	_
+3-2	176-187	ergebenster	_	_
+3-3	188-189	R	*[2]	PERauthor[2]
+3-4	190-197	Lepsius	*[2]	PERauthor[2]
+3-5	198-200	In	_	_
+3-6	201-208	einigen	_	_
+3-7	209-214	Tagen	_	_
+3-8	215-221	werden	_	_
+3-9	222-225	wir	_	_
+3-10	226-230	über	_	_
+3-11	231-236	obige	_	_
+3-12	237-243	Sachen	_	_
+3-13	244-251	Sitzung	_	_
+3-14	252-257	haben	_	_
+3-15	258-259	.	_	_
+
+#Text=Dann mehr .
+4-1	260-264	Dann	_	_
+4-2	265-269	mehr	_	_
+4-3	270-271	.	_	_
+
+#Text=Quer auf der ersten Seite : Daß wir dem Kronprinzen ein gebundenes Exemplar der Publikationen 1872 gesendet haben , schrieb ich wohl schon früher .
+5-1	272-276	Quer	_	_
+5-2	277-280	auf	_	_
+5-3	281-284	der	_	_
+5-4	285-291	ersten	_	_
+5-5	292-297	Seite	_	_
+5-6	298-299	:	_	_
+5-7	300-303	Daß	_	_
+5-8	304-307	wir	_	_
+5-9	308-311	dem	_	_
+5-10	312-323	Kronprinzen	*	PERmentioned
+5-11	324-327	ein	_	_
+5-12	328-338	gebundenes	_	_
+5-13	339-347	Exemplar	_	_
+5-14	348-351	der	_	_
+5-15	352-365	Publikationen	_	_
+5-16	366-370	1872	*	DATEmentioned
+5-17	371-379	gesendet	_	_
+5-18	380-385	haben	_	_
+5-19	386-387	,	_	_
+5-20	388-395	schrieb	_	_
+5-21	396-399	ich	_	_
+5-22	400-404	wohl	_	_
+5-23	405-410	schon	_	_
+5-24	411-417	früher	_	_
+5-25	418-419	.	_	_
+
+#Text=- Die Reichsgehalte werden am 1 .
+6-1	420-421	-	_	_
+6-2	422-425	Die	_	_
+6-3	426-439	Reichsgehalte	_	_
+6-4	440-446	werden	_	_
+6-5	447-449	am	_	_
+6-6	450-451	1	*[3]	DATEmentioned[3]
+6-7	452-453	.	*[3]	DATEmentioned[3]
+
+#Text=Jamuar 74 wie mir Greif und Olshausen sagen ausgezahlt - wenn nur nicht wieder die Anweisung verdämnert wird \; dann können Sie ja wohl durch Keudell vorbeugen , dem ich mich zu empfehlen bitte .
+7-1	454-460	Jamuar	*[3]	DATEmentioned[3]
+7-2	461-463	74	*[3]	DATEmentioned[3]
+7-3	464-467	wie	_	_
+7-4	468-471	mir	_	_
+7-5	472-477	Greif	*	PERmentioned
+7-6	478-481	und	_	_
+7-7	482-491	Olshausen	*	PERmentioned
+7-8	492-497	sagen	_	_
+7-9	498-508	ausgezahlt	_	_
+7-10	509-510	-	_	_
+7-11	511-515	wenn	_	_
+7-12	516-519	nur	_	_
+7-13	520-525	nicht	_	_
+7-14	526-532	wieder	_	_
+7-15	533-536	die	_	_
+7-16	537-546	Anweisung	_	_
+7-17	547-557	verdämnert	_	_
+7-18	558-562	wird	_	_
+7-19	563-564	\;	_	_
+7-20	565-569	dann	_	_
+7-21	570-576	können	_	_
+7-22	577-580	Sie	_	_
+7-23	581-583	ja	_	_
+7-24	584-588	wohl	_	_
+7-25	589-594	durch	_	_
+7-26	595-602	Keudell	*	PERmentioned
+7-27	603-612	vorbeugen	_	_
+7-28	613-614	,	_	_
+7-29	615-618	dem	_	_
+7-30	619-622	ich	_	_
+7-31	623-627	mich	_	_
+7-32	628-630	zu	_	_
+7-33	631-640	empfehlen	_	_
+7-34	641-646	bitte	_	_
+7-35	647-648	.	_	_
+
+#Text=- Ist denn nun endlich die Caffarelli Sache dem Municipio gegenüber ganz in Ordnung ?
+8-1	649-650	-	_	_
+8-2	651-654	Ist	_	_
+8-3	655-659	denn	_	_
+8-4	660-663	nun	_	_
+8-5	664-671	endlich	_	_
+8-6	672-675	die	_	_
+8-7	676-686	Caffarelli	*	PLACEmentioned
+8-8	687-692	Sache	_	_
+8-9	693-696	dem	_	_
+8-10	697-706	Municipio	*	ORGmentioned
+8-11	707-716	gegenüber	_	_
+8-12	717-721	ganz	_	_
+8-13	722-724	in	_	_
+8-14	725-732	Ordnung	_	_
+8-15	733-734	?	_	_

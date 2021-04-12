@@ -1,0 +1,148 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Rom , 5 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	5	*[1]	DATEletter[1]
+1-7	25-26	.	*[1]	DATEletter[1]
+
+#Text=Januar 1846 g . 5/I 46 Lieber Freund .
+2-1	27-33	Januar	*[1]	DATEletter[1]
+2-2	34-38	1846	*[1]	DATEletter[1]
+2-3	39-40	g	_	_
+2-4	41-42	.	_	_
+2-5	43-46	5/I	*[2]	DATErecieved[2]
+2-6	47-49	46	*[2]	DATErecieved[2]
+2-7	50-56	Lieber	_	_
+2-8	57-63	Freund	_	_
+2-9	64-65	.	_	_
+
+#Text=Bei Fitzwilliam habe ich höflichst abgelehnt , indem ich morgen statt gestern bei Vollards speise .
+3-1	66-69	Bei	_	_
+3-2	70-81	Fitzwilliam	*	PERmentioned
+3-3	82-86	habe	_	_
+3-4	87-90	ich	_	_
+3-5	91-100	höflichst	_	_
+3-6	101-110	abgelehnt	_	_
+3-7	111-112	,	_	_
+3-8	113-118	indem	_	_
+3-9	119-122	ich	_	_
+3-10	123-129	morgen	_	_
+3-11	130-135	statt	_	_
+3-12	136-143	gestern	_	_
+3-13	144-147	bei	_	_
+3-14	148-156	Vollards	*	PERmentioned
+3-15	157-163	speise	_	_
+3-16	164-165	.	_	_
+
+#Text=Wollen Sie mir das Duplikat vom 1.sten Band meiner Vasenbilder , und zu nochmaliger Revision die Mitgliederliste des Instituts zugehen lassen ?
+4-1	166-172	Wollen	_	_
+4-2	173-176	Sie	_	_
+4-3	177-180	mir	_	_
+4-4	181-184	das	_	_
+4-5	185-193	Duplikat	_	_
+4-6	194-197	vom	_	_
+4-7	198-204	1.sten	_	_
+4-8	205-209	Band	_	_
+4-9	210-216	meiner	_	_
+4-10	217-228	Vasenbilder	_	_
+4-11	229-230	,	_	_
+4-12	231-234	und	_	_
+4-13	235-237	zu	_	_
+4-14	238-249	nochmaliger	_	_
+4-15	250-258	Revision	_	_
+4-16	259-262	die	_	_
+4-17	263-278	Mitgliederliste	_	_
+4-18	279-282	des	_	_
+4-19	283-292	Instituts	*	ORGmentioned
+4-20	293-300	zugehen	_	_
+4-21	301-307	lassen	_	_
+4-22	308-309	?	_	_
+
+#Text=Haben Sie nach Aktenstücken der Direzione nochmals bei sich nachgesucht ?
+5-1	310-315	Haben	_	_
+5-2	316-319	Sie	_	_
+5-3	320-324	nach	_	_
+5-4	325-337	Aktenstücken	_	_
+5-5	338-341	der	_	_
+5-6	342-351	Direzione	*	ORGmentioned
+5-7	352-360	nochmals	_	_
+5-8	361-364	bei	_	_
+5-9	365-369	sich	_	_
+5-10	370-381	nachgesucht	_	_
+5-11	382-383	?	_	_
+
+#Text=Wollen Sie mich in Stand setzen über die ägyptische Grotte , wo möglich auch über Ihr sonstiges Verkäufliches , bei nächster Sendung nach Berlin zu schreiben .
+6-1	384-390	Wollen	_	_
+6-2	391-394	Sie	_	_
+6-3	395-399	mich	_	_
+6-4	400-402	in	_	_
+6-5	403-408	Stand	_	_
+6-6	409-415	setzen	_	_
+6-7	416-420	über	_	_
+6-8	421-424	die	_	_
+6-9	425-435	ägyptische	*[3]	OBJ[3]
+6-10	436-442	Grotte	*[3]	OBJ[3]
+6-11	443-444	,	_	_
+6-12	445-447	wo	_	_
+6-13	448-455	möglich	_	_
+6-14	456-460	auch	_	_
+6-15	461-465	über	_	_
+6-16	466-469	Ihr	_	_
+6-17	470-479	sonstiges	_	_
+6-18	480-493	Verkäufliches	_	_
+6-19	494-495	,	_	_
+6-20	496-499	bei	_	_
+6-21	500-508	nächster	_	_
+6-22	509-516	Sendung	_	_
+6-23	517-521	nach	_	_
+6-24	522-528	Berlin	*	PLACEmentioned
+6-25	529-531	zu	_	_
+6-26	532-541	schreiben	_	_
+6-27	542-543	.	_	_
+
+#Text=Den geschnitzten Steinen widerstreben meine Augen \; haben Sie aber heute Vormittag etwas Zeit mir sonstiges Ihres Antikenbesitzes zu zeigen - die Zeit geht zur Neige -— so wäre es mir ganz angenehm .
+7-1	544-547	Den	_	_
+7-2	548-560	geschnitzten	_	_
+7-3	561-568	Steinen	_	_
+7-4	569-581	widerstreben	_	_
+7-5	582-587	meine	_	_
+7-6	588-593	Augen	_	_
+7-7	594-595	\;	_	_
+7-8	596-601	haben	_	_
+7-9	602-605	Sie	_	_
+7-10	606-610	aber	_	_
+7-11	611-616	heute	_	_
+7-12	617-626	Vormittag	_	_
+7-13	627-632	etwas	_	_
+7-14	633-637	Zeit	_	_
+7-15	638-641	mir	_	_
+7-16	642-651	sonstiges	_	_
+7-17	652-657	Ihres	_	_
+7-18	658-673	Antikenbesitzes	_	_
+7-19	674-676	zu	_	_
+7-20	677-683	zeigen	_	_
+7-21	684-685	-	_	_
+7-22	686-689	die	_	_
+7-23	690-694	Zeit	_	_
+7-24	695-699	geht	_	_
+7-25	700-703	zur	_	_
+7-26	704-709	Neige	_	_
+7-27	710-712	-—	_	_
+7-28	713-715	so	_	_
+7-29	716-720	wäre	_	_
+7-30	721-723	es	_	_
+7-31	724-727	mir	_	_
+7-32	728-732	ganz	_	_
+7-33	733-741	angenehm	_	_
+7-34	742-743	.	_	_
+
+#Text=Ihr Gerhard 5/46
+8-1	744-747	Ihr	_	_
+8-2	748-755	Gerhard	*	PERauthor
+8-3	756-760	5/46	*	DATEletter

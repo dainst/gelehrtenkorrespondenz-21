@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=205 Braun an Gerhard Prof. Gerhard Rom , 15 .
+1-1	0-3	205	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-43	15	*[2]	DATEletter[2]
+1-10	44-45	.	*[2]	DATEletter[2]
+
+#Text=Januar 1835 Roma li 15 Gennaro 71835 Hochverehrtester \| !
+2-1	46-52	Januar	*[2]	DATEletter[2]
+2-2	53-57	1835	*[2]	DATEletter[2]
+2-3	58-62	Roma	*	PLACEfrom
+2-4	63-65	li	_	_
+2-5	66-68	15	*[3]	DATEletter[3]
+2-6	69-76	Gennaro	*[3]	DATEletter[3]
+2-7	77-82	71835	*[3]	DATEletter[3]
+2-8	83-99	Hochverehrtester	*	PERaddressee
+2-9	100-101	\|	_	_
+2-10	102-103	!	_	_
+
+#Text=Daß es mit Ihrer Gesundheit so übel geht , betrübt mich innig und sehr .
+3-1	104-107	Daß	_	_
+3-2	108-110	es	_	_
+3-3	111-114	mit	_	_
+3-4	115-120	Ihrer	_	_
+3-5	121-131	Gesundheit	_	_
+3-6	132-134	so	_	_
+3-7	135-139	übel	_	_
+3-8	140-144	geht	_	_
+3-9	145-146	,	_	_
+3-10	147-154	betrübt	_	_
+3-11	155-159	mich	_	_
+3-12	160-165	innig	_	_
+3-13	166-169	und	_	_
+3-14	170-174	sehr	_	_
+3-15	175-176	.	_	_
+
+#Text=Ich antworte Ihnen heute äußerst flüchtig , weil ich in unendlicher Bedrängniß bin .
+4-1	177-180	Ich	_	_
+4-2	181-189	antworte	_	_
+4-3	190-195	Ihnen	_	_
+4-4	196-201	heute	_	_
+4-5	202-209	äußerst	_	_
+4-6	210-218	flüchtig	_	_
+4-7	219-220	,	_	_
+4-8	221-225	weil	_	_
+4-9	226-229	ich	_	_
+4-10	230-232	in	_	_
+4-11	233-244	unendlicher	_	_
+4-12	245-255	Bedrängniß	_	_
+4-13	256-259	bin	_	_
+4-14	260-261	.	_	_
+
+#Text=Zwei Vorlesungen nacheinander und außerdem noch Museumbesuche machen Vorbereitungen nöthig , die äußerst zeitraubend sind .
+5-1	262-266	Zwei	_	_
+5-2	267-278	Vorlesungen	_	_
+5-3	279-291	nacheinander	_	_
+5-4	292-295	und	_	_
+5-5	296-304	außerdem	_	_
+5-6	305-309	noch	_	_
+5-7	310-323	Museumbesuche	_	_
+5-8	324-330	machen	_	_
+5-9	331-345	Vorbereitungen	_	_
+5-10	346-352	nöthig	_	_
+5-11	353-354	,	_	_
+5-12	355-358	die	_	_
+5-13	359-366	äußerst	_	_
+5-14	367-378	zeitraubend	_	_
+5-15	379-383	sind	_	_
+5-16	384-385	.	_	_
+
+#Text=In den Vorlesungen über Kunstgeschichte bin ich so glücklich gewesen , die trocknen Notizen über die ersten Zeiträume in einen einigermassen schmackhaften Vortrag einzufleiden \; auch allerlei Neues in der Stellung der Elemente .
+6-1	386-388	In	_	_
+6-2	389-392	den	_	_
+6-3	393-404	Vorlesungen	_	_
+6-4	405-409	über	_	_
+6-5	410-425	Kunstgeschichte	_	_
+6-6	426-429	bin	_	_
+6-7	430-433	ich	_	_
+6-8	434-436	so	_	_
+6-9	437-446	glücklich	_	_
+6-10	447-454	gewesen	_	_
+6-11	455-456	,	_	_
+6-12	457-460	die	_	_
+6-13	461-469	trocknen	_	_
+6-14	470-477	Notizen	_	_
+6-15	478-482	über	_	_
+6-16	483-486	die	_	_
+6-17	487-493	ersten	_	_
+6-18	494-503	Zeiträume	_	_
+6-19	504-506	in	_	_
+6-20	507-512	einen	_	_
+6-21	513-526	einigermassen	_	_
+6-22	527-540	schmackhaften	_	_
+6-23	541-548	Vortrag	_	_
+6-24	549-561	einzufleiden	_	_
+6-25	562-563	\;	_	_
+6-26	564-568	auch	_	_
+6-27	569-577	allerlei	_	_
+6-28	578-583	Neues	_	_
+6-29	584-586	in	_	_
+6-30	587-590	der	_	_
+6-31	591-599	Stellung	_	_
+6-32	600-603	der	_	_
+6-33	604-612	Elemente	_	_
+6-34	613-614	.	_	_
+
+#Text=Habe ich Zeit so schreibe ich mit Rücksicht auf Müllers Hausbuch ein ähnliches aber doch ganz selstständiges Manuale für Italiener und Franzosen , Künstlercatalog , Litteratur \| und alles soll hinein \; kurz und doch verständlich .
+7-1	615-619	Habe	_	_
+7-2	620-623	ich	_	_
+7-3	624-628	Zeit	_	_
+7-4	629-631	so	_	_
+7-5	632-640	schreibe	_	_
+7-6	641-644	ich	_	_
+7-7	645-648	mit	_	_
+7-8	649-658	Rücksicht	_	_
+7-9	659-662	auf	_	_
+7-10	663-670	Müllers	*[4]|*[5]	LIT[4]|PERmentioned[5]
+7-11	671-679	Hausbuch	*[4]	LIT[4]
+7-12	680-683	ein	_	_
+7-13	684-693	ähnliches	_	_
+7-14	694-698	aber	_	_
+7-15	699-703	doch	_	_
+7-16	704-708	ganz	_	_
+7-17	709-723	selstständiges	_	_
+7-18	724-731	Manuale	_	_
+7-19	732-735	für	_	_
+7-20	736-745	Italiener	_	_
+7-21	746-749	und	_	_
+7-22	750-759	Franzosen	_	_
+7-23	760-761	,	_	_
+7-24	762-777	Künstlercatalog	_	_
+7-25	778-779	,	_	_
+7-26	780-790	Litteratur	_	_
+7-27	791-792	\|	_	_
+7-28	793-796	und	_	_
+7-29	797-802	alles	_	_
+7-30	803-807	soll	_	_
+7-31	808-814	hinein	_	_
+7-32	815-816	\;	_	_
+7-33	817-821	kurz	_	_
+7-34	822-825	und	_	_
+7-35	826-830	doch	_	_
+7-36	831-843	verständlich	_	_
+7-37	844-845	.	_	_
+
+#Text=Mül- 1ek Buch ist zu sehr auf den mündlichen Vortrag berechnet .
+8-1	846-850	Mül-	*[6]|*[7]	LIT[6]|PERmentioned[7]
+8-2	851-854	1ek	*[6]|*[7]	LIT[6]|PERmentioned[7]
+8-3	855-859	Buch	*[6]	LIT[6]
+8-4	860-863	ist	_	_
+8-5	864-866	zu	_	_
+8-6	867-871	sehr	_	_
+8-7	872-875	auf	_	_
+8-8	876-879	den	_	_
+8-9	880-890	mündlichen	_	_
+8-10	891-898	Vortrag	_	_
+8-11	899-908	berechnet	_	_
+8-12	909-910	.	_	_
+
+#Text=Fladerweise ist es doch recht trefflich , stellenweise aber auch äußerst seicht und flüchtig .
+9-1	911-922	Fladerweise	_	_
+9-2	923-926	ist	_	_
+9-3	927-929	es	_	_
+9-4	930-934	doch	_	_
+9-5	935-940	recht	_	_
+9-6	941-950	trefflich	_	_
+9-7	951-952	,	_	_
+9-8	953-965	stellenweise	_	_
+9-9	966-970	aber	_	_
+9-10	971-975	auch	_	_
+9-11	976-983	äußerst	_	_
+9-12	984-990	seicht	_	_
+9-13	991-994	und	_	_
+9-14	995-1003	flüchtig	_	_
+9-15	1004-1005	.	_	_
+
+#Text=Hirts Postille ist gar nicht zu brauchen .
+10-1	1006-1011	Hirts	*[8]|*[9]	LIT[8]|PERmentioned[9]
+10-2	1012-1020	Postille	*[8]	LIT[8]
+10-3	1021-1024	ist	_	_
+10-4	1025-1028	gar	_	_
+10-5	1029-1034	nicht	_	_
+10-6	1035-1037	zu	_	_
+10-7	1038-1046	brauchen	_	_
+10-8	1047-1048	.	_	_
+
+#Text=Nächstens oder vielmehr am Ende des Winters sende ich meine Recension an die Leipz .
+11-1	1049-1058	Nächstens	_	_
+11-2	1059-1063	oder	_	_
+11-3	1064-1072	vielmehr	_	_
+11-4	1073-1075	am	_	_
+11-5	1076-1080	Ende	_	_
+11-6	1081-1084	des	_	_
+11-7	1085-1092	Winters	_	_
+11-8	1093-1098	sende	_	_
+11-9	1099-1102	ich	_	_
+11-10	1103-1108	meine	_	_
+11-11	1109-1118	Recension	_	_
+11-12	1119-1121	an	_	_
+11-13	1122-1125	die	_	_
+11-14	1126-1131	Leipz	*[10]	LIT[10]
+11-15	1132-1133	.	*[10]	LIT[10]
+
+#Text=Litt .
+12-1	1134-1138	Litt	*[10]	LIT[10]
+12-2	1139-1140	.	*[10]	LIT[10]
+
+#Text=Zeit .
+13-1	1141-1145	Zeit	*[10]	LIT[10]
+13-2	1146-1147	.	*[10]	LIT[10]
+
+#Text=ab , die mich dazu aufgefordert .
+14-1	1148-1150	ab	_	_
+14-2	1151-1152	,	_	_
+14-3	1153-1156	die	_	_
+14-4	1157-1161	mich	_	_
+14-5	1162-1166	dazu	_	_
+14-6	1167-1179	aufgefordert	_	_
+14-7	1180-1181	.	_	_
+
+#Text=Anbei eine Beschreibung der Lambertivase fürs Intelligenzblatt .
+15-1	1182-1187	Anbei	_	_
+15-2	1188-1192	eine	_	_
+15-3	1193-1205	Beschreibung	_	_
+15-4	1206-1209	der	_	_
+15-5	1210-1222	Lambertivase	*[11]|*[12]	OBJ[11]|PERmentioned[12]
+15-6	1223-1227	fürs	_	_
+15-7	1228-1244	Intelligenzblatt	*	LIT
+15-8	1245-1246	.	_	_
+
+#Text=Sie blieb mit dem Courierpaquet zurück , das Sydows Leute vernachlässigt hatten und deshalb von
+16-1	1247-1250	Sie	_	_
+16-2	1251-1256	blieb	_	_
+16-3	1257-1260	mit	_	_
+16-4	1261-1264	dem	_	_
+16-5	1265-1278	Courierpaquet	_	_
+16-6	1279-1285	zurück	_	_
+16-7	1286-1287	,	_	_
+16-8	1288-1291	das	_	_
+16-9	1292-1298	Sydows	*	PERmentioned
+16-10	1299-1304	Leute	_	_
+16-11	1305-1319	vernachlässigt	_	_
+16-12	1320-1326	hatten	_	_
+16-13	1327-1330	und	_	_
+16-14	1331-1338	deshalb	_	_
+16-15	1339-1342	von	_	_

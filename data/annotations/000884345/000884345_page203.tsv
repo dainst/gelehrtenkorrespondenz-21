@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Charlottenburg , 27. Mai 1859 Charl .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-32	Charlottenburg	*	PLACEfrom
+1-5	33-34	,	_	_
+1-6	35-38	27.	*[4]	DATEletter[4]
+1-7	39-42	Mai	*[4]	DATEletter[4]
+1-8	43-47	1859	*[4]	DATEletter[4]
+1-9	48-53	Charl	_	_
+1-10	54-55	.	_	_
+
+#Text=Freitag 27 Mai 1859 Mein theurer und verehrter Freund Die gestern von Welcker erhaltene Sendung geht heut an Sie ab , die 5 Diplome vollzogen , $ $ wie ich sie empfangen .
+2-1	56-63	Freitag	_	_
+2-2	64-66	27	*[5]	DATEletter[5]
+2-3	67-70	Mai	*[5]	DATEletter[5]
+2-4	71-75	1859	*[5]	DATEletter[5]
+2-5	76-80	Mein	_	_
+2-6	81-88	theurer	_	_
+2-7	89-92	und	_	_
+2-8	93-102	verehrter	_	_
+2-9	103-109	Freund	_	_
+2-10	110-113	Die	_	_
+2-11	114-121	gestern	_	_
+2-12	122-125	von	_	_
+2-13	126-133	Welcker	*	PERmentioned
+2-14	134-143	erhaltene	_	_
+2-15	144-151	Sendung	_	_
+2-16	152-156	geht	_	_
+2-17	157-161	heut	_	_
+2-18	162-164	an	_	_
+2-19	165-168	Sie	_	_
+2-20	169-171	ab	_	_
+2-21	172-173	,	_	_
+2-22	174-177	die	_	_
+2-23	178-179	5	_	_
+2-24	180-187	Diplome	_	_
+2-25	188-197	vollzogen	_	_
+2-26	198-199	,	_	_
+2-27	200-201	$	_	_
+2-28	202-203	$	_	_
+2-29	204-207	wie	_	_
+2-30	208-211	ich	_	_
+2-31	212-215	sie	_	_
+2-32	216-225	empfangen	_	_
+2-33	226-227	.	_	_
+
+#Text=Die Bonner Collegen haben Bedenken : sie meinen es sei zu viel darin vorgeschrieben , und Brunn würde sich außerdem verletzt fühlen .
+3-1	228-231	Die	_	_
+3-2	232-238	Bonner	*	PLACEmentioned
+3-3	239-247	Collegen	_	_
+3-4	248-253	haben	_	_
+3-5	254-262	Bedenken	_	_
+3-6	263-264	:	_	_
+3-7	265-268	sie	_	_
+3-8	269-275	meinen	_	_
+3-9	276-278	es	_	_
+3-10	279-282	sei	_	_
+3-11	283-285	zu	_	_
+3-12	286-290	viel	_	_
+3-13	291-296	darin	_	_
+3-14	297-311	vorgeschrieben	_	_
+3-15	312-313	,	_	_
+3-16	314-317	und	_	_
+3-17	318-323	Brunn	*	PERmentioned
+3-18	324-329	würde	_	_
+3-19	330-334	sich	_	_
+3-20	335-343	außerdem	_	_
+3-21	344-352	verletzt	_	_
+3-22	353-359	fühlen	_	_
+3-23	360-361	.	_	_
+
+#Text=lIch selbst bin nicht im Stande die ganze Vorlage zu verstehen , über deren Berathung , Veranlassung und Motive , so wie Bestimmung und Tragweite , mir nichts bekannt ist .
+4-1	362-366	lIch	_	_
+4-2	367-373	selbst	_	_
+4-3	374-377	bin	_	_
+4-4	378-383	nicht	_	_
+4-5	384-386	im	_	_
+4-6	387-393	Stande	_	_
+4-7	394-397	die	_	_
+4-8	398-403	ganze	_	_
+4-9	404-411	Vorlage	_	_
+4-10	412-414	zu	_	_
+4-11	415-424	verstehen	_	_
+4-12	425-426	,	_	_
+4-13	427-431	über	_	_
+4-14	432-437	deren	_	_
+4-15	438-447	Berathung	_	_
+4-16	448-449	,	_	_
+4-17	450-462	Veranlassung	_	_
+4-18	463-466	und	_	_
+4-19	467-473	Motive	_	_
+4-20	474-475	,	_	_
+4-21	476-478	so	_	_
+4-22	479-482	wie	_	_
+4-23	483-493	Bestimmung	_	_
+4-24	494-497	und	_	_
+4-25	498-507	Tragweite	_	_
+4-26	508-509	,	_	_
+4-27	510-513	mir	_	_
+4-28	514-520	nichts	_	_
+4-29	521-528	bekannt	_	_
+4-30	529-532	ist	_	_
+4-31	533-534	.	_	_
+
+#Text=Vieles verstehe ich durchaus nicht .
+5-1	535-541	Vieles	_	_
+5-2	542-550	verstehe	_	_
+5-3	551-554	ich	_	_
+5-4	555-563	durchaus	_	_
+5-5	564-569	nicht	_	_
+5-6	570-571	.	_	_
+
+#Text=$ 23 ist zwischen Klammern gesetzt : gilt er oder nicht ?
+6-1	572-573	$	_	_
+6-2	574-576	23	_	_
+6-3	577-580	ist	_	_
+6-4	581-589	zwischen	_	_
+6-5	590-598	Klammern	_	_
+6-6	599-606	gesetzt	_	_
+6-7	607-608	:	_	_
+6-8	609-613	gilt	_	_
+6-9	614-616	er	_	_
+6-10	617-621	oder	_	_
+6-11	622-627	nicht	_	_
+6-12	628-629	?	_	_
+
+#Text=Endlich was soll das Ganze bedeuten ?
+7-1	630-637	Endlich	_	_
+7-2	638-641	was	_	_
+7-3	642-646	soll	_	_
+7-4	647-650	das	_	_
+7-5	651-656	Ganze	_	_
+7-6	657-665	bedeuten	_	_
+7-7	666-667	?	_	_
+
+#Text=Ich muß mich also der , außerdem recht nöthigen , Betheiligung ganz enthalten .
+8-1	668-671	Ich	_	_
+8-2	672-675	muß	_	_
+8-3	676-680	mich	_	_
+8-4	681-685	also	_	_
+8-5	686-689	der	_	_
+8-6	690-691	,	_	_
+8-7	692-700	außerdem	_	_
+8-8	701-706	recht	_	_
+8-9	707-715	nöthigen	_	_
+8-10	716-717	,	_	_
+8-11	718-730	Betheiligung	_	_
+8-12	731-735	ganz	_	_
+8-13	736-745	enthalten	_	_
+8-14	746-747	.	_	_
+
+#Text=Ist etwas an der Einstimmigkeit gelegen , und ist die hier vorbehaltene nachträgliche Zustimmung nicht überhaupt eine bloße Forn \; so wird es leicht sein , durch vertrauliche Mittheilung dieses Ent- # wurfs ( auch in Rom ) Gegen- und Rückäußerungen - Wi hervorzurufen , und Unbilligkeit zu erzielen .
+9-1	748-751	Ist	_	_
+9-2	752-757	etwas	_	_
+9-3	758-760	an	_	_
+9-4	761-764	der	_	_
+9-5	765-779	Einstimmigkeit	_	_
+9-6	780-787	gelegen	_	_
+9-7	788-789	,	_	_
+9-8	790-793	und	_	_
+9-9	794-797	ist	_	_
+9-10	798-801	die	_	_
+9-11	802-806	hier	_	_
+9-12	807-819	vorbehaltene	_	_
+9-13	820-833	nachträgliche	_	_
+9-14	834-844	Zustimmung	_	_
+9-15	845-850	nicht	_	_
+9-16	851-860	überhaupt	_	_
+9-17	861-865	eine	_	_
+9-18	866-871	bloße	_	_
+9-19	872-876	Forn	_	_
+9-20	877-878	\;	_	_
+9-21	879-881	so	_	_
+9-22	882-886	wird	_	_
+9-23	887-889	es	_	_
+9-24	890-896	leicht	_	_
+9-25	897-901	sein	_	_
+9-26	902-903	,	_	_
+9-27	904-909	durch	_	_
+9-28	910-922	vertrauliche	_	_
+9-29	923-934	Mittheilung	_	_
+9-30	935-941	dieses	_	_
+9-31	942-946	Ent-	_	_
+9-32	947-948	#	_	_
+9-33	949-954	wurfs	_	_
+9-34	955-956	(	_	_
+9-35	957-961	auch	_	_
+9-36	962-964	in	_	_
+9-37	965-968	Rom	*	PLACEmentioned
+9-38	969-970	)	_	_
+9-39	971-977	Gegen-	_	_
+9-40	978-981	und	_	_
+9-41	982-996	Rückäußerungen	_	_
+9-42	997-998	-	_	_
+9-43	999-1001	Wi	_	_
+9-44	1002-1015	hervorzurufen	_	_
+9-45	1016-1017	,	_	_
+9-46	1018-1021	und	_	_
+9-47	1022-1034	Unbilligkeit	_	_
+9-48	1035-1037	zu	_	_
+9-49	1038-1046	erzielen	_	_
+9-50	1047-1048	.	_	_
+
+#Text=Gewiß werden Sie mir aber nachsehen , daß ich etwas mir ganz und gar Unverständliches weder jetzt noch
+10-1	1049-1054	Gewiß	_	_
+10-2	1055-1061	werden	_	_
+10-3	1062-1065	Sie	_	_
+10-4	1066-1069	mir	_	_
+10-5	1070-1074	aber	_	_
+10-6	1075-1084	nachsehen	_	_
+10-7	1085-1086	,	_	_
+10-8	1087-1090	daß	_	_
+10-9	1091-1094	ich	_	_
+10-10	1095-1100	etwas	_	_
+10-11	1101-1104	mir	_	_
+10-12	1105-1109	ganz	_	_
+10-13	1110-1113	und	_	_
+10-14	1114-1117	gar	_	_
+10-15	1118-1134	Unverständliches	_	_
+10-16	1135-1140	weder	_	_
+10-17	1141-1146	jetzt	_	_
+10-18	1147-1151	noch	_	_

@@ -1,0 +1,218 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Charlottenburg 9. November 1890 r . 10. November 1890 Lieber alter Freund , Jetzt sind wir so weit , daß die hiesige Regierung den Süddeutschen die Schreiben zufertigt wegen Berufung der Commission nach Heidelberg .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-31	Charlottenburg	*	PLACEfrom
+1-5	32-34	9.	*[1]	DATEletter[1]
+1-6	35-43	November	*[1]	DATEletter[1]
+1-7	44-48	1890	*[1]	DATEletter[1]
+1-8	49-50	r	_	_
+1-9	51-52	.	_	_
+1-10	53-56	10.	*[2]	DATEanswered[2]
+1-11	57-65	November	*[2]	DATEanswered[2]
+1-12	66-70	1890	*[2]	DATEanswered[2]
+1-13	71-77	Lieber	_	_
+1-14	78-83	alter	_	_
+1-15	84-90	Freund	_	_
+1-16	91-92	,	_	_
+1-17	93-98	Jetzt	_	_
+1-18	99-103	sind	_	_
+1-19	104-107	wir	_	_
+1-20	108-110	so	_	_
+1-21	111-115	weit	_	_
+1-22	116-117	,	_	_
+1-23	118-121	daß	_	_
+1-24	122-125	die	_	_
+1-25	126-133	hiesige	_	_
+1-26	134-143	Regierung	*	ORGmentioned
+1-27	144-147	den	_	_
+1-28	148-160	Süddeutschen	_	_
+1-29	161-164	die	_	_
+1-30	165-174	Schreiben	_	_
+1-31	175-184	zufertigt	_	_
+1-32	185-190	wegen	_	_
+1-33	191-199	Berufung	_	_
+1-34	200-203	der	_	_
+1-35	204-214	Commission	_	_
+1-36	215-219	nach	_	_
+1-37	220-230	Heidelberg	*	PLACEmentioned
+1-38	231-232	.	_	_
+
+#Text=Schreibe mir umgehend , welche Zeit Dir die am wenigsten unbequeme ist , dann gehen die Schre ben ab , Ich nehme an , zwischen Weihnacht und Neujahr \; dann haben wir auch Zeit inzwischen die Vorlage zu berathen .
+2-1	233-241	Schreibe	_	_
+2-2	242-245	mir	_	_
+2-3	246-254	umgehend	_	_
+2-4	255-256	,	_	_
+2-5	257-263	welche	_	_
+2-6	264-268	Zeit	_	_
+2-7	269-272	Dir	_	_
+2-8	273-276	die	_	_
+2-9	277-279	am	_	_
+2-10	280-289	wenigsten	_	_
+2-11	290-299	unbequeme	_	_
+2-12	300-303	ist	_	_
+2-13	304-305	,	_	_
+2-14	306-310	dann	_	_
+2-15	311-316	gehen	_	_
+2-16	317-320	die	_	_
+2-17	321-326	Schre	_	_
+2-18	327-330	ben	_	_
+2-19	331-333	ab	_	_
+2-20	334-335	,	_	_
+2-21	336-339	Ich	_	_
+2-22	340-345	nehme	_	_
+2-23	346-348	an	_	_
+2-24	349-350	,	_	_
+2-25	351-359	zwischen	_	_
+2-26	360-369	Weihnacht	*	DATEmentioned
+2-27	370-373	und	_	_
+2-28	374-381	Neujahr	*	DATEmentioned
+2-29	382-383	\;	_	_
+2-30	384-388	dann	_	_
+2-31	389-394	haben	_	_
+2-32	395-398	wir	_	_
+2-33	399-403	auch	_	_
+2-34	404-408	Zeit	_	_
+2-35	409-419	inzwischen	_	_
+2-36	420-423	die	_	_
+2-37	424-431	Vorlage	_	_
+2-38	432-434	zu	_	_
+2-39	435-443	berathen	_	_
+2-40	444-445	.	_	_
+
+#Text=Du wirst gewiß mit mir darin einverstanden sein , daß wir del facto die Beschlüse der Commission in Mappen der Correspondenz fertigstelle , dannn in Heidelberg das zweckmäßige Zeitungsgesklapper und den ebenfalls zweckmäßigen guten Trunk darauf setzen und dann mit Hettner und Pappe das Schiff schwin men lassen .
+3-1	446-448	Du	_	_
+3-2	449-454	wirst	_	_
+3-3	455-460	gewiß	_	_
+3-4	461-464	mit	_	_
+3-5	465-468	mir	_	_
+3-6	469-474	darin	_	_
+3-7	475-488	einverstanden	_	_
+3-8	489-493	sein	_	_
+3-9	494-495	,	_	_
+3-10	496-499	daß	_	_
+3-11	500-503	wir	_	_
+3-12	504-507	del	_	_
+3-13	508-513	facto	_	_
+3-14	514-517	die	_	_
+3-15	518-527	Beschlüse	_	_
+3-16	528-531	der	_	_
+3-17	532-542	Commission	_	_
+3-18	543-545	in	_	_
+3-19	546-552	Mappen	_	_
+3-20	553-556	der	_	_
+3-21	557-570	Correspondenz	_	_
+3-22	571-583	fertigstelle	_	_
+3-23	584-585	,	_	_
+3-24	586-591	dannn	_	_
+3-25	592-594	in	_	_
+3-26	595-605	Heidelberg	*	PLACEmentioned
+3-27	606-609	das	_	_
+3-28	610-621	zweckmäßige	_	_
+3-29	622-640	Zeitungsgesklapper	_	_
+3-30	641-644	und	_	_
+3-31	645-648	den	_	_
+3-32	649-658	ebenfalls	_	_
+3-33	659-671	zweckmäßigen	_	_
+3-34	672-677	guten	_	_
+3-35	678-683	Trunk	_	_
+3-36	684-690	darauf	_	_
+3-37	691-697	setzen	_	_
+3-38	698-701	und	_	_
+3-39	702-706	dann	_	_
+3-40	707-710	mit	_	_
+3-41	711-718	Hettner	*	PERmentioned
+3-42	719-722	und	_	_
+3-43	723-728	Pappe	*	PERmentioned
+3-44	729-732	das	_	_
+3-45	733-739	Schiff	_	_
+3-46	740-746	schwin	_	_
+3-47	747-750	men	_	_
+3-48	751-757	lassen	_	_
+3-49	758-759	.	_	_
+
+#Text=Die Einladung an Eure Regierung wird selbstverständlich die Aufforderung betr .
+4-1	760-763	Die	_	_
+4-2	764-773	Einladung	_	_
+4-3	774-776	an	_	_
+4-4	777-781	Eure	_	_
+4-5	782-791	Regierung	*	ORGmentioned
+4-6	792-796	wird	_	_
+4-7	797-815	selbstverständlich	_	_
+4-8	816-819	die	_	_
+4-9	820-832	Aufforderung	_	_
+4-10	833-837	betr	_	_
+4-11	838-839	.	_	_
+
+#Text=der Akademie einschließen .
+5-1	840-843	der	_	_
+5-2	844-852	Akademie	*	ORGmentioned
+5-3	853-865	einschließen	_	_
+5-4	866-867	.	_	_
+
+#Text=Eure Würtemberger Nachbarn sind so artig gewesen ihre Zustimmung an Euer Mitgehen zu knüpfen .
+6-1	868-872	Eure	_	_
+6-2	873-885	Würtemberger	*	PLACEmentioned
+6-3	886-894	Nachbarn	_	_
+6-4	895-899	sind	_	_
+6-5	900-902	so	_	_
+6-6	903-908	artig	_	_
+6-7	909-916	gewesen	_	_
+6-8	917-921	ihre	_	_
+6-9	922-932	Zustimmung	_	_
+6-10	933-935	an	_	_
+6-11	936-940	Euer	_	_
+6-12	941-949	Mitgehen	_	_
+6-13	950-952	zu	_	_
+6-14	953-960	knüpfen	_	_
+6-15	961-962	.	_	_
+
+#Text=Da Eure Resierung unbedingt zugestimmt hat , so ist das nichts als eine Artigkeit .
+7-1	963-965	Da	_	_
+7-2	966-970	Eure	_	_
+7-3	971-980	Resierung	*	ORGmentioned
+7-4	981-990	unbedingt	_	_
+7-5	991-1001	zugestimmt	_	_
+7-6	1002-1005	hat	_	_
+7-7	1006-1007	,	_	_
+7-8	1008-1010	so	_	_
+7-9	1011-1014	ist	_	_
+7-10	1015-1018	das	_	_
+7-11	1019-1025	nichts	_	_
+7-12	1026-1029	als	_	_
+7-13	1030-1034	eine	_	_
+7-14	1035-1044	Artigkeit	_	_
+7-15	1045-1046	.	_	_
+
+#Text=Wir denken gern zurück an .
+8-1	1047-1050	Wir	_	_
+8-2	1051-1057	denken	_	_
+8-3	1058-1062	gern	_	_
+8-4	1063-1069	zurück	_	_
+8-5	1070-1072	an	_	_
+8-6	1073-1074	.	_	_
+
+#Text=die paar Tage in München .
+9-1	1075-1078	die	_	_
+9-2	1079-1083	paar	_	_
+9-3	1084-1088	Tage	_	_
+9-4	1089-1091	in	_	_
+9-5	1092-1099	München	*	PLACEmentioned
+9-6	1100-1101	.	_	_
+
+#Text=Du und ich wir sind wohl recht verschiedene Wege gegangen \;
+10-1	1102-1104	Du	_	_
+10-2	1105-1108	und	_	_
+10-3	1109-1112	ich	_	_
+10-4	1113-1116	wir	_	_
+10-5	1117-1121	sind	_	_
+10-6	1122-1126	wohl	_	_
+10-7	1127-1132	recht	_	_
+10-8	1133-1145	verschiedene	_	_
+10-9	1146-1150	Wege	_	_
+10-10	1151-1159	gegangen	_	_
+10-11	1160-1161	\;	_	_

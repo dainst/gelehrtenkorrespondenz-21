@@ -1,0 +1,198 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=- 277 .
+1-1	0-1	-	_	_
+1-2	2-5	277	_	_
+1-3	6-7	.	_	_
+
+#Text=QDepsius an Henzen Berlin , 17. April 1879 g . 22/4 79 Berlin , d . 17 .
+2-1	8-16	QDepsius	*	PERauthor
+2-2	17-19	an	_	_
+2-3	20-26	Henzen	*	PERaddressee
+2-4	27-33	Berlin	*	PLACEfrom
+2-5	34-35	,	_	_
+2-6	36-39	17.	*[1]	DATEletter[1]
+2-7	40-45	April	*[1]	DATEletter[1]
+2-8	46-50	1879	*[1]	DATEletter[1]
+2-9	51-52	g	_	_
+2-10	53-54	.	_	_
+2-11	55-59	22/4	*[2]	DATErecieved[2]
+2-12	60-62	79	*[2]	DATErecieved[2]
+2-13	63-69	Berlin	*	PLACEfrom
+2-14	70-71	,	_	_
+2-15	72-73	d	_	_
+2-16	74-75	.	_	_
+2-17	76-78	17	*[3]	DATEmentioned[3]
+2-18	79-80	.	*[3]	DATEmentioned[3]
+
+#Text=Apr .
+3-1	81-84	Apr	*[3]	DATEmentioned[3]
+3-2	85-86	.	*[3]	DATEmentioned[3]
+
+#Text=1879 Verehrtester Freund Die jetzt hier anwesenden Mitglieder der Central Direktion haben heute nachträglich noch beschlossen , den Geh .
+4-1	87-91	1879	*[3]	DATEmentioned[3]
+4-2	92-104	Verehrtester	_	_
+4-3	105-111	Freund	_	_
+4-4	112-115	Die	_	_
+4-5	116-121	jetzt	_	_
+4-6	122-126	hier	_	_
+4-7	127-137	anwesenden	_	_
+4-8	138-148	Mitglieder	_	_
+4-9	149-152	der	_	_
+4-10	153-160	Central	*[4]	ORGmentioned[4]
+4-11	161-170	Direktion	*[4]	ORGmentioned[4]
+4-12	171-176	haben	_	_
+4-13	177-182	heute	_	_
+4-14	183-195	nachträglich	_	_
+4-15	196-200	noch	_	_
+4-16	201-212	beschlossen	_	_
+4-17	213-214	,	_	_
+4-18	215-218	den	_	_
+4-19	219-222	Geh	_	_
+4-20	223-224	.	_	_
+
+#Text=Leg .
+5-1	225-228	Leg	_	_
+5-2	229-230	.	_	_
+
+#Text=Rath I .
+6-1	231-235	Rath	_	_
+6-2	236-237	I	_	_
+6-3	238-239	.	_	_
+
+#Text=V. von Tasmund , den mehrjährigen Referenten über das Institut im Auswärtigen Amt Mitglied der Archäologischen Gesellschaft , den Sie ja von Rom her kennen , zum membro ordinario zu erwählen .
+7-1	240-242	V.	*[5]	PERmentioned[5]
+7-2	243-246	von	*[5]	PERmentioned[5]
+7-3	247-254	Tasmund	*[5]	PERmentioned[5]
+7-4	255-256	,	_	_
+7-5	257-260	den	_	_
+7-6	261-273	mehrjährigen	_	_
+7-7	274-284	Referenten	_	_
+7-8	285-289	über	_	_
+7-9	290-293	das	_	_
+7-10	294-302	Institut	*	ORGmentioned
+7-11	303-305	im	_	_
+7-12	306-317	Auswärtigen	*[6]	ORGmentioned[6]
+7-13	318-321	Amt	_	_
+7-14	322-330	Mitglied	_	_
+7-15	331-334	der	_	_
+7-16	335-350	Archäologischen	*[7]	ORGmentioned[7]
+7-17	351-363	Gesellschaft	*[7]	ORGmentioned[7]
+7-18	364-365	,	_	_
+7-19	366-369	den	_	_
+7-20	370-373	Sie	_	_
+7-21	374-376	ja	_	_
+7-22	377-380	von	_	_
+7-23	381-384	Rom	*	PLACEmentioned
+7-24	385-388	her	_	_
+7-25	389-395	kennen	_	_
+7-26	396-397	,	_	_
+7-27	398-401	zum	_	_
+7-28	402-408	membro	_	_
+7-29	409-418	ordinario	_	_
+7-30	419-421	zu	_	_
+7-31	422-430	erwählen	_	_
+7-32	431-432	.	_	_
+
+#Text=Wollen Sie also so gut sein seinen Namen für den 21.Na .
+8-1	433-439	Wollen	_	_
+8-2	440-443	Sie	_	_
+8-3	444-448	also	_	_
+8-4	449-451	so	_	_
+8-5	452-455	gut	_	_
+8-6	456-460	sein	_	_
+8-7	461-467	seinen	_	_
+8-8	468-473	Namen	_	_
+8-9	474-477	für	_	_
+8-10	478-481	den	_	_
+8-11	482-487	21.Na	*[8]	DATEmentioned[8]
+8-12	488-489	.	_	_
+
+#Text=in die Liste mitaufzunehmen und vite zu präkonisiren .
+9-1	490-492	in	_	_
+9-2	493-496	die	_	_
+9-3	497-502	Liste	_	_
+9-4	503-517	mitaufzunehmen	_	_
+9-5	518-521	und	_	_
+9-6	522-526	vite	_	_
+9-7	527-529	zu	_	_
+9-8	530-542	präkonisiren	_	_
+9-9	543-544	.	_	_
+
+#Text=Da solche Nachzügler leicht sich verlieren , bitte ich ein Auge auf den rechtzeitigen Einschub zu haben .
+10-1	545-547	Da	_	_
+10-2	548-554	solche	_	_
+10-3	555-565	Nachzügler	_	_
+10-4	566-572	leicht	_	_
+10-5	573-577	sich	_	_
+10-6	578-587	verlieren	_	_
+10-7	588-589	,	_	_
+10-8	590-595	bitte	_	_
+10-9	596-599	ich	_	_
+10-10	600-603	ein	_	_
+10-11	604-608	Auge	_	_
+10-12	609-612	auf	_	_
+10-13	613-616	den	_	_
+10-14	617-630	rechtzeitigen	_	_
+10-15	631-639	Einschub	_	_
+10-16	640-642	zu	_	_
+10-17	643-648	haben	_	_
+10-18	649-650	.	_	_
+
+#Text=Hier wird das Diplom mit den andern an 21 . ''
+11-1	651-655	Hier	_	_
+11-2	656-660	wird	_	_
+11-3	661-664	das	_	_
+11-4	665-671	Diplom	_	_
+11-5	672-675	mit	_	_
+11-6	676-679	den	_	_
+11-7	680-686	andern	_	_
+11-8	687-689	an	_	_
+11-9	690-692	21	*[9]	DATEmentioned[9]
+11-10	693-694	.	*[9]	DATEmentioned[9]
+11-11	695-697	''	_	_
+
+#Text=übersendet werden .
+12-1	698-708	übersendet	_	_
+12-2	709-715	werden	_	_
+12-3	716-717	.	_	_
+
+#Text=Die Diplome , die ich Ihnen per Post angekündigt hatte , werden nun doch durch G . R . Schöne persönlich überbracht , der gestern von hier abgereist ist .
+13-1	718-721	Die	_	_
+13-2	722-729	Diplome	_	_
+13-3	730-731	,	_	_
+13-4	732-735	die	_	_
+13-5	736-739	ich	_	_
+13-6	740-745	Ihnen	_	_
+13-7	746-749	per	_	_
+13-8	750-754	Post	_	_
+13-9	755-766	angekündigt	_	_
+13-10	767-772	hatte	_	_
+13-11	773-774	,	_	_
+13-12	775-781	werden	_	_
+13-13	782-785	nun	_	_
+13-14	786-790	doch	_	_
+13-15	791-796	durch	_	_
+13-16	797-798	G	*[10]	PERmentioned[10]
+13-17	799-800	.	*[10]	PERmentioned[10]
+13-18	801-802	R	*[10]	PERmentioned[10]
+13-19	803-804	.	*[10]	PERmentioned[10]
+13-20	805-811	Schöne	*[10]	PERmentioned[10]
+13-21	812-822	persönlich	_	_
+13-22	823-833	überbracht	_	_
+13-23	834-835	,	_	_
+13-24	836-839	der	_	_
+13-25	840-847	gestern	_	_
+13-26	848-851	von	_	_
+13-27	852-856	hier	_	_
+13-28	857-866	abgereist	_	_
+13-29	867-870	ist	_	_
+13-30	871-872	.	_	_
+
+#Text=Der Ihrige R Lepsius
+14-1	873-876	Der	_	_
+14-2	877-883	Ihrige	_	_
+14-3	884-885	R	*[11]	PERauthor[11]
+14-4	886-893	Lepsius	*[11]	PERauthor[11]

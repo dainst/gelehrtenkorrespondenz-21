@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Rom , 13. Dezember 1834 schwerer entziffert ( d. h. erklärt ) werden .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	_	_
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-27	13.	*[3]	DATEletter[3]
+1-7	28-36	Dezember	*[3]	DATEletter[3]
+1-8	37-41	1834	*[3]	DATEletter[3]
+1-9	42-50	schwerer	_	_
+1-10	51-61	entziffert	_	_
+1-11	62-63	(	_	_
+1-12	64-66	d.	_	_
+1-13	67-69	h.	_	_
+1-14	70-77	erklärt	_	_
+1-15	78-79	)	_	_
+1-16	80-86	werden	_	_
+1-17	87-88	.	_	_
+
+#Text=Welche Denkmäler haben Sie für nächstes Jahr ?
+2-1	89-95	Welche	_	_
+2-2	96-105	Denkmäler	_	_
+2-3	106-111	haben	_	_
+2-4	112-115	Sie	_	_
+2-5	116-119	für	_	_
+2-6	120-128	nächstes	_	_
+2-7	129-133	Jahr	_	_
+2-8	134-135	?	_	_
+
+#Text=2 .
+3-1	136-137	2	_	_
+3-2	138-139	.	_	_
+
+#Text=Für das nächste Jahr will ich die versprochene Aegyptiaca liefern .
+4-1	140-143	Für	_	_
+4-2	144-147	das	_	_
+4-3	148-155	nächste	_	_
+4-4	156-160	Jahr	_	_
+4-5	161-165	will	_	_
+4-6	166-169	ich	_	_
+4-7	170-173	die	_	_
+4-8	174-186	versprochene	_	_
+4-9	187-197	Aegyptiaca	*	MISC
+4-10	198-205	liefern	_	_
+4-11	206-207	.	_	_
+
+#Text=Ich wünschte , Letronne 's Werk käme vorher heraus , denn ich weiß , daß er , in seinen Vorlesungen wenigstens , keine Ahndung zeigte von der Art , wie die Manethonkisten zu verbessern sind .
+5-1	208-211	Ich	_	_
+5-2	212-220	wünschte	_	_
+5-3	221-222	,	_	_
+5-4	223-231	Letronne	*[4]	PERmentioned[4]
+5-5	232-234	's	*[4]	PERmentioned[4]
+5-6	235-239	Werk	_	_
+5-7	240-244	käme	_	_
+5-8	245-251	vorher	_	_
+5-9	252-258	heraus	_	_
+5-10	259-260	,	_	_
+5-11	261-265	denn	_	_
+5-12	266-269	ich	_	_
+5-13	270-274	weiß	_	_
+5-14	275-276	,	_	_
+5-15	277-280	daß	_	_
+5-16	281-283	er	_	_
+5-17	284-285	,	_	_
+5-18	286-288	in	_	_
+5-19	289-295	seinen	_	_
+5-20	296-307	Vorlesungen	_	_
+5-21	308-318	wenigstens	_	_
+5-22	319-320	,	_	_
+5-23	321-326	keine	_	_
+5-24	327-334	Ahndung	_	_
+5-25	335-341	zeigte	_	_
+5-26	342-345	von	_	_
+5-27	346-349	der	_	_
+5-28	350-353	Art	_	_
+5-29	354-355	,	_	_
+5-30	356-359	wie	_	_
+5-31	360-363	die	_	_
+5-32	364-378	Manethonkisten	_	_
+5-33	379-381	zu	_	_
+5-34	382-392	verbessern	_	_
+5-35	393-397	sind	_	_
+5-36	398-399	.	_	_
+
+#Text=In diesem Falle würde sich Gelegenheit finden , den deutschen Namen an ihm zu rächen .
+6-1	400-402	In	_	_
+6-2	403-409	diesem	_	_
+6-3	410-415	Falle	_	_
+6-4	416-421	würde	_	_
+6-5	422-426	sich	_	_
+6-6	427-438	Gelegenheit	_	_
+6-7	439-445	finden	_	_
+6-8	446-447	,	_	_
+6-9	448-451	den	_	_
+6-10	452-461	deutschen	_	_
+6-11	462-467	Namen	_	_
+6-12	468-470	an	_	_
+6-13	471-474	ihm	_	_
+6-14	475-477	zu	_	_
+6-15	478-484	rächen	_	_
+6-16	485-486	.	_	_
+
+#Text=Die Schrift gegen Fan ( ofka ) ist blutig : es wird ihm schwer sein , in Paris nach einem solchen Schlage wieder zu erscheinen .
+7-1	487-490	Die	_	_
+7-2	491-498	Schrift	_	_
+7-3	499-504	gegen	_	_
+7-4	505-508	Fan	*[5]	PERmentioned[5]
+7-5	509-510	(	*[5]	PERmentioned[5]
+7-6	511-515	ofka	*[5]	PERmentioned[5]
+7-7	516-517	)	*[5]	PERmentioned[5]
+7-8	518-521	ist	_	_
+7-9	522-528	blutig	_	_
+7-10	529-530	:	_	_
+7-11	531-533	es	_	_
+7-12	534-538	wird	_	_
+7-13	539-542	ihm	_	_
+7-14	543-549	schwer	_	_
+7-15	550-554	sein	_	_
+7-16	555-556	,	_	_
+7-17	557-559	in	_	_
+7-18	560-565	Paris	*	PLACEmentioned
+7-19	566-570	nach	_	_
+7-20	571-576	einem	_	_
+7-21	577-584	solchen	_	_
+7-22	585-592	Schlage	_	_
+7-23	593-599	wieder	_	_
+7-24	600-602	zu	_	_
+7-25	603-613	erscheinen	_	_
+7-26	614-615	.	_	_
+
+#Text=Möchte es unserm guten Freund und Collegen nur eine Warnung sein , sich mit seinem grossen Werke und dessen Basis mir ganz unphilologisch scheint , noch mehr die Finger zu verbrennen !
+8-1	616-622	Möchte	_	_
+8-2	623-625	es	_	_
+8-3	626-632	unserm	_	_
+8-4	633-638	guten	_	_
+8-5	639-645	Freund	_	_
+8-6	646-649	und	_	_
+8-7	650-658	Collegen	_	_
+8-8	659-662	nur	_	_
+8-9	663-667	eine	_	_
+8-10	668-675	Warnung	_	_
+8-11	676-680	sein	_	_
+8-12	681-682	,	_	_
+8-13	683-687	sich	_	_
+8-14	688-691	mit	_	_
+8-15	692-698	seinem	_	_
+8-16	699-706	grossen	_	_
+8-17	707-712	Werke	_	_
+8-18	713-716	und	_	_
+8-19	717-723	dessen	_	_
+8-20	724-729	Basis	_	_
+8-21	730-733	mir	_	_
+8-22	734-738	ganz	_	_
+8-23	739-753	unphilologisch	_	_
+8-24	754-761	scheint	_	_
+8-25	762-763	,	_	_
+8-26	764-768	noch	_	_
+8-27	769-773	mehr	_	_
+8-28	774-777	die	_	_
+8-29	778-784	Finger	_	_
+8-30	785-787	zu	_	_
+8-31	788-798	verbrennen	_	_
+8-32	799-800	!	_	_
+
+#Text=Er müßte jetzt etwas machen , wogegen niemand etwas einwenden könnte .
+9-1	801-803	Er	_	_
+9-2	804-809	müßte	_	_
+9-3	810-815	jetzt	_	_
+9-4	816-821	etwas	_	_
+9-5	822-828	machen	_	_
+9-6	829-830	,	_	_
+9-7	831-838	wogegen	_	_
+9-8	839-846	niemand	_	_
+9-9	847-852	etwas	_	_
+9-10	853-862	einwenden	_	_
+9-11	863-869	könnte	_	_
+9-12	870-871	.	_	_
+
+#Text=In Berlin steht er sehr schlecht , und überhaupt mit den Philologen .
+10-1	872-874	In	_	_
+10-2	875-881	Berlin	*	PLACEmentioned
+10-3	882-887	steht	_	_
+10-4	888-890	er	_	_
+10-5	891-895	sehr	_	_
+10-6	896-904	schlecht	_	_
+10-7	905-906	,	_	_
+10-8	907-910	und	_	_
+10-9	911-920	überhaupt	_	_
+10-10	921-924	mit	_	_
+10-11	925-928	den	_	_
+10-12	929-939	Philologen	_	_
+10-13	940-941	.	_	_
+
+#Text=Paris hat ihm nicht gut gethan .
+11-1	942-947	Paris	*	PLACEmentioned
+11-2	948-951	hat	_	_
+11-3	952-955	ihm	_	_
+11-4	956-961	nicht	_	_
+11-5	962-965	gut	_	_
+11-6	966-972	gethan	_	_
+11-7	973-974	.	_	_
+
+#Text=3 .
+12-1	975-976	3	_	_
+12-2	977-978	.	_	_
+
+#Text=Die Vorlesungen haben angefangen .
+13-1	979-982	Die	_	_
+13-2	983-994	Vorlesungen	_	_
+13-3	995-1000	haben	_	_
+13-4	1001-1011	angefangen	_	_
+13-5	1012-1013	.	_	_
+
+#Text=Wir haben 28 Carolini : ich rechnet auf 60 , zusammen .
+14-1	1014-1017	Wir	_	_
+14-2	1018-1023	haben	_	_
+14-3	1024-1026	28	_	_
+14-4	1027-1035	Carolini	_	_
+14-5	1036-1037	:	_	_
+14-6	1038-1041	ich	_	_
+14-7	1042-1049	rechnet	_	_
+14-8	1050-1053	auf	_	_
+14-9	1054-1056	60	_	_
+14-10	1057-1058	,	_	_
+14-11	1059-1067	zusammen	_	_
+14-12	1068-1069	.	_	_
+
+#Text=Die Parlaments Geschäfte nimmt uns die Engländer weg : sonst hätten wir eine glänzende Einnahme .
+15-1	1070-1073	Die	_	_
+15-2	1074-1084	Parlaments	_	_
+15-3	1085-1094	Geschäfte	_	_
+15-4	1095-1100	nimmt	_	_
+15-5	1101-1104	uns	_	_
+15-6	1105-1108	die	_	_
+15-7	1109-1118	Engländer	_	_
+15-8	1119-1122	weg	_	_
+15-9	1123-1124	:	_	_
+15-10	1125-1130	sonst	_	_
+15-11	1131-1137	hätten	_	_
+15-12	1138-1141	wir	_	_
+15-13	1142-1146	eine	_	_
+15-14	1147-1156	glänzende	_	_
+15-15	1157-1165	Einnahme	_	_
+15-16	1166-1167	.	_	_
+
+#Text=4 .
+16-1	1168-1169	4	_	_
+16-2	1170-1171	.	_	_
+
+#Text=Franz ist eine unbezahlbare Erwerbung .
+17-1	1172-1177	Franz	*	PERmentioned
+17-2	1178-1181	ist	_	_
+17-3	1182-1186	eine	_	_
+17-4	1187-1199	unbezahlbare	_	_
+17-5	1200-1209	Erwerbung	_	_
+17-6	1210-1211	.	_	_
+
+#Text=Er ist ein philologischer Kopf erster Classe .
+18-1	1212-1214	Er	_	_
+18-2	1215-1218	ist	_	_
+18-3	1219-1222	ein	_	_
+18-4	1223-1237	philologischer	_	_
+18-5	1238-1242	Kopf	_	_
+18-6	1243-1249	erster	_	_
+18-7	1250-1256	Classe	_	_
+18-8	1257-1258	.	_	_
+
+#Text=Ich habe ihm allen möglichen Vorschub geleistet : nichts wäre mir erwünschter , als wenn er hier bliebe , allein es wird schwer
+19-1	1259-1262	Ich	_	_
+19-2	1263-1267	habe	_	_
+19-3	1268-1271	ihm	_	_
+19-4	1272-1277	allen	_	_
+19-5	1278-1287	möglichen	_	_
+19-6	1288-1296	Vorschub	_	_
+19-7	1297-1306	geleistet	_	_
+19-8	1307-1308	:	_	_
+19-9	1309-1315	nichts	_	_
+19-10	1316-1320	wäre	_	_
+19-11	1321-1324	mir	_	_
+19-12	1325-1336	erwünschter	_	_
+19-13	1337-1338	,	_	_
+19-14	1339-1342	als	_	_
+19-15	1343-1347	wenn	_	_
+19-16	1348-1350	er	_	_
+19-17	1351-1355	hier	_	_
+19-18	1356-1362	bliebe	_	_
+19-19	1363-1364	,	_	_
+19-20	1365-1371	allein	_	_
+19-21	1372-1374	es	_	_
+19-22	1375-1379	wird	_	_
+19-23	1380-1386	schwer	_	_

@@ -1,0 +1,260 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=47 Lepsius an Helbig L Berlin , 12 .
+1-1	0-2	47	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Helbig	*	PERaddressee
+1-5	21-22	L	_	_
+1-6	23-29	Berlin	*	PLACEfrom
+1-7	30-31	,	_	_
+1-8	32-34	12	*[5]	DATEletter[5]
+1-9	35-36	.	*[5]	DATEletter[5]
+
+#Text=Januar 1882 Berlin , C. den 12 .
+2-1	37-43	Januar	*[5]	DATEletter[5]
+2-2	44-48	1882	*[5]	DATEletter[5]
+2-3	49-55	Berlin	*	PLACEfrom
+2-4	56-57	,	_	_
+2-5	58-60	C.	_	_
+2-6	61-64	den	_	_
+2-7	65-67	12	*[6]	DATEletter[6]
+2-8	68-69	.	*[6]	DATEletter[6]
+
+#Text=Jan .
+3-1	70-73	Jan	*[6]	DATEletter[6]
+3-2	74-75	.	*[6]	DATEletter[6]
+
+#Text=1882 Verehrter Freund Der Kopf ist gesund hier angekommen , schon vor 14 Tagen , ohne sich bei mir zu melden .
+4-1	76-80	1882	*[6]	DATEletter[6]
+4-2	81-90	Verehrter	_	_
+4-3	91-97	Freund	_	_
+4-4	98-101	Der	_	_
+4-5	102-106	Kopf	_	_
+4-6	107-110	ist	_	_
+4-7	111-117	gesund	_	_
+4-8	118-122	hier	_	_
+4-9	123-133	angekommen	_	_
+4-10	134-135	,	_	_
+4-11	136-141	schon	_	_
+4-12	142-145	vor	_	_
+4-13	146-148	14	_	_
+4-14	149-154	Tagen	_	_
+4-15	155-156	,	_	_
+4-16	157-161	ohne	_	_
+4-17	162-166	sich	_	_
+4-18	167-170	bei	_	_
+4-19	171-174	mir	_	_
+4-20	175-177	zu	_	_
+4-21	178-184	melden	_	_
+4-22	185-186	.	_	_
+
+#Text=Jetzt ist auch der Arbeitslohn mit 80 + 5 mark und der Transport mit 50 - 60 Mark bezahlt .
+5-1	187-192	Jetzt	_	_
+5-2	193-196	ist	_	_
+5-3	197-201	auch	_	_
+5-4	202-205	der	_	_
+5-5	206-217	Arbeitslohn	_	_
+5-6	218-221	mit	_	_
+5-7	222-224	80	_	_
+5-8	225-226	+	_	_
+5-9	227-228	5	_	_
+5-10	229-233	mark	_	_
+5-11	234-237	und	_	_
+5-12	238-241	der	_	_
+5-13	242-251	Transport	_	_
+5-14	252-255	mit	_	_
+5-15	256-258	50	_	_
+5-16	259-260	-	_	_
+5-17	261-263	60	_	_
+5-18	264-268	Mark	_	_
+5-19	269-276	bezahlt	_	_
+5-20	277-278	.	_	_
+
+#Text=Nehmen Sie nochmals meinen besonders warmen Dank für Ihre Thätigkeit hin .
+6-1	279-285	Nehmen	_	_
+6-2	286-289	Sie	_	_
+6-3	290-298	nochmals	_	_
+6-4	299-305	meinen	_	_
+6-5	306-315	besonders	_	_
+6-6	316-322	warmen	_	_
+6-7	323-327	Dank	_	_
+6-8	328-331	für	_	_
+6-9	332-336	Ihre	_	_
+6-10	337-347	Thätigkeit	_	_
+6-11	348-351	hin	_	_
+6-12	352-353	.	_	_
+
+#Text=Wo ist der zweite Abugß des Kopfes , der in den 80 Lire inbegriffen war , nun hingekommen ?
+7-1	354-356	Wo	_	_
+7-2	357-360	ist	_	_
+7-3	361-364	der	_	_
+7-4	365-371	zweite	_	_
+7-5	372-377	Abugß	_	_
+7-6	378-381	des	_	_
+7-7	382-388	Kopfes	*	OBJ
+7-8	389-390	,	_	_
+7-9	391-394	der	_	_
+7-10	395-397	in	_	_
+7-11	398-401	den	_	_
+7-12	402-404	80	_	_
+7-13	405-409	Lire	_	_
+7-14	410-421	inbegriffen	_	_
+7-15	422-425	war	_	_
+7-16	426-427	,	_	_
+7-17	428-431	nun	_	_
+7-18	432-443	hingekommen	_	_
+7-19	444-445	?	_	_
+
+#Text=und ist nun an die Duchessa Alles richtig bezahlt worden , oder sind wir nicht noch besondern Dank schuldig .
+8-1	446-449	und	_	_
+8-2	450-453	ist	_	_
+8-3	454-457	nun	_	_
+8-4	458-460	an	_	_
+8-5	461-464	die	_	_
+8-6	465-473	Duchessa	_	_
+8-7	474-479	Alles	_	_
+8-8	480-487	richtig	_	_
+8-9	488-495	bezahlt	_	_
+8-10	496-502	worden	_	_
+8-11	503-504	,	_	_
+8-12	505-509	oder	_	_
+8-13	510-514	sind	_	_
+8-14	515-518	wir	_	_
+8-15	519-524	nicht	_	_
+8-16	525-529	noch	_	_
+8-17	530-539	besondern	_	_
+8-18	540-544	Dank	_	_
+8-19	545-553	schuldig	_	_
+8-20	554-555	.	_	_
+
+#Text=Über die kleine Statue des Barone Busacco schrieb ich ihm unseren Dank und meine Meinung , die aber sehr unbestimmt bleibt .
+9-1	556-560	Über	_	_
+9-2	561-564	die	_	_
+9-3	565-571	kleine	*[7]	OBJ[7]
+9-4	572-578	Statue	*[7]	OBJ[7]
+9-5	579-582	des	_	_
+9-6	583-589	Barone	*[8]	PERmentioned[8]
+9-7	590-597	Busacco	*[8]	PERmentioned[8]
+9-8	598-605	schrieb	_	_
+9-9	606-609	ich	_	_
+9-10	610-613	ihm	_	_
+9-11	614-621	unseren	_	_
+9-12	622-626	Dank	_	_
+9-13	627-630	und	_	_
+9-14	631-636	meine	_	_
+9-15	637-644	Meinung	_	_
+9-16	645-646	,	_	_
+9-17	647-650	die	_	_
+9-18	651-655	aber	_	_
+9-19	656-660	sehr	_	_
+9-20	661-671	unbestimmt	_	_
+9-21	672-678	bleibt	_	_
+9-22	679-680	.	_	_
+
+#Text=Die kleine Figur von Dressel war ein Priester des Ammon und der Priester einer anderen Gottheit dessen Name zerstört ist .
+10-1	681-684	Die	_	_
+10-2	685-691	kleine	*[9]	OBJ[9]
+10-3	692-697	Figur	*[9]	OBJ[9]
+10-4	698-701	von	_	_
+10-5	702-709	Dressel	*	PERmentioned
+10-6	710-713	war	_	_
+10-7	714-717	ein	_	_
+10-8	718-726	Priester	_	_
+10-9	727-730	des	_	_
+10-10	731-736	Ammon	_	_
+10-11	737-740	und	_	_
+10-12	741-744	der	_	_
+10-13	745-753	Priester	_	_
+10-14	754-759	einer	_	_
+10-15	760-767	anderen	_	_
+10-16	768-776	Gottheit	_	_
+10-17	777-783	dessen	_	_
+10-18	784-788	Name	_	_
+10-19	789-797	zerstört	_	_
+10-20	798-801	ist	_	_
+10-21	802-803	.	_	_
+
+#Text=Ebenso ist der Name in der untersten Zeile weggebrochen .
+11-1	804-810	Ebenso	_	_
+11-2	811-814	ist	_	_
+11-3	815-818	der	_	_
+11-4	819-823	Name	_	_
+11-5	824-826	in	_	_
+11-6	827-830	der	_	_
+11-7	831-840	untersten	_	_
+11-8	841-846	Zeile	_	_
+11-9	847-859	weggebrochen	_	_
+11-10	860-861	.	_	_
+
+#Text=Der Ammon weist zunächst auf Theben , doch nicht mit Nothwendigkeit .
+12-1	862-865	Der	_	_
+12-2	866-871	Ammon	_	_
+12-3	872-877	weist	_	_
+12-4	878-886	zunächst	_	_
+12-5	887-890	auf	_	_
+12-6	891-897	Theben	*	PLACEmentioned
+12-7	898-899	,	_	_
+12-8	900-904	doch	_	_
+12-9	905-910	nicht	_	_
+12-10	911-914	mit	_	_
+12-11	915-929	Nothwendigkeit	_	_
+12-12	930-931	.	_	_
+
+#Text=Figuren von sehr geringer Technik wie diese finden sich oft in sehr verschiedenen Zeiten doch ist dies eher ein älterer Stil von Theben .
+13-1	932-939	Figuren	_	_
+13-2	940-943	von	_	_
+13-3	944-948	sehr	_	_
+13-4	949-957	geringer	_	_
+13-5	958-965	Technik	_	_
+13-6	966-969	wie	_	_
+13-7	970-975	diese	_	_
+13-8	976-982	finden	_	_
+13-9	983-987	sich	_	_
+13-10	988-991	oft	_	_
+13-11	992-994	in	_	_
+13-12	995-999	sehr	_	_
+13-13	1000-1013	verschiedenen	_	_
+13-14	1014-1020	Zeiten	_	_
+13-15	1021-1025	doch	_	_
+13-16	1026-1029	ist	_	_
+13-17	1030-1034	dies	_	_
+13-18	1035-1039	eher	_	_
+13-19	1040-1043	ein	_	_
+13-20	1044-1051	älterer	_	_
+13-21	1052-1056	Stil	_	_
+13-22	1057-1060	von	_	_
+13-23	1061-1067	Theben	*	PLACEmentioned
+13-24	1068-1069	.	_	_
+
+#Text=Mehr läßt sich nicht sagen .
+14-1	1070-1074	Mehr	_	_
+14-2	1075-1079	läßt	_	_
+14-3	1080-1084	sich	_	_
+14-4	1085-1090	nicht	_	_
+14-5	1091-1096	sagen	_	_
+14-6	1097-1098	.	_	_
+
+#Text=Über das Stärken und Bügeln bei den Ägyptern kenne ich keine Stelle bei den Alten \; doch muß es ge-
+15-1	1099-1103	Über	_	_
+15-2	1104-1107	das	_	_
+15-3	1108-1115	Stärken	_	_
+15-4	1116-1119	und	_	_
+15-5	1120-1126	Bügeln	_	_
+15-6	1127-1130	bei	_	_
+15-7	1131-1134	den	_	_
+15-8	1135-1143	Ägyptern	*	PLACEmentioned
+15-9	1144-1149	kenne	_	_
+15-10	1150-1153	ich	_	_
+15-11	1154-1159	keine	_	_
+15-12	1160-1166	Stelle	_	_
+15-13	1167-1170	bei	_	_
+15-14	1171-1174	den	_	_
+15-15	1175-1180	Alten	_	_
+15-16	1181-1182	\;	_	_
+15-17	1183-1187	doch	_	_
+15-18	1188-1191	muß	_	_
+15-19	1192-1194	es	_	_
+15-20	1195-1198	ge-	_	_

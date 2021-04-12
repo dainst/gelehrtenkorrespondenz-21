@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=669 Braun an Gerhard Rom , 30. September 1834 - 3 - Die von Vollard besorgten Mosaiken sind durch Abich zur Besorgung übernommen worden , der morgen von hier abreist .
+1-1	0-3	669	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[1]	DATEletter[1]
+1-8	31-40	September	*[1]	DATEletter[1]
+1-9	41-45	1834	*[1]	DATEletter[1]
+1-10	46-47	-	_	_
+1-11	48-49	3	_	_
+1-12	50-51	-	_	_
+1-13	52-55	Die	_	_
+1-14	56-59	von	_	_
+1-15	60-67	Vollard	*	PERmentioned
+1-16	68-77	besorgten	_	_
+1-17	78-86	Mosaiken	*	OBJ
+1-18	87-91	sind	_	_
+1-19	92-97	durch	_	_
+1-20	98-103	Abich	*	PERmentioned
+1-21	104-107	zur	_	_
+1-22	108-117	Besorgung	_	_
+1-23	118-128	übernommen	_	_
+1-24	129-135	worden	_	_
+1-25	136-137	,	_	_
+1-26	138-141	der	_	_
+1-27	142-148	morgen	_	_
+1-28	149-152	von	_	_
+1-29	153-157	hier	_	_
+1-30	158-165	abreist	_	_
+1-31	166-167	.	_	_
+
+#Text=Campana hat nichts von sich hören lassen .
+2-1	168-175	Campana	*	PERmentioned
+2-2	176-179	hat	_	_
+2-3	180-186	nichts	_	_
+2-4	187-190	von	_	_
+2-5	191-195	sich	_	_
+2-6	196-201	hören	_	_
+2-7	202-208	lassen	_	_
+2-8	209-210	.	_	_
+
+#Text=Ich habe jetzt Apolloni auch ihm geschickt .
+3-1	211-214	Ich	_	_
+3-2	215-219	habe	_	_
+3-3	220-225	jetzt	_	_
+3-4	226-234	Apolloni	*	PERmentioned
+3-5	235-239	auch	_	_
+3-6	240-243	ihm	_	_
+3-7	244-253	geschickt	_	_
+3-8	254-255	.	_	_
+
+#Text=Der Sassische Krieger mit dem Hund hat eine Wunde am Schenkel , die Apolloni hat nachholen müssen \; es dürfte demnach doch wohl eine mytholog .
+4-1	256-259	Der	_	_
+4-2	260-269	Sassische	*[2]	OBJ[2]
+4-3	270-277	Krieger	*[2]	OBJ[2]
+4-4	278-281	mit	*[2]	OBJ[2]
+4-5	282-285	dem	*[2]	OBJ[2]
+4-6	286-290	Hund	*[2]	OBJ[2]
+4-7	291-294	hat	_	_
+4-8	295-299	eine	_	_
+4-9	300-305	Wunde	_	_
+4-10	306-308	am	_	_
+4-11	309-317	Schenkel	_	_
+4-12	318-319	,	_	_
+4-13	320-323	die	_	_
+4-14	324-332	Apolloni	*	PERmentioned
+4-15	333-336	hat	_	_
+4-16	337-346	nachholen	_	_
+4-17	347-353	müssen	_	_
+4-18	354-355	\;	_	_
+4-19	356-358	es	_	_
+4-20	359-365	dürfte	_	_
+4-21	366-373	demnach	_	_
+4-22	374-378	doch	_	_
+4-23	379-383	wohl	_	_
+4-24	384-388	eine	_	_
+4-25	389-397	mytholog	_	_
+4-26	398-399	.	_	_
+
+#Text=Person sein , die in die Schenkel verwundet sterben .
+5-1	400-406	Person	_	_
+5-2	407-411	sein	_	_
+5-3	412-413	,	_	_
+5-4	414-417	die	_	_
+5-5	418-420	in	_	_
+5-6	421-424	die	_	_
+5-7	425-433	Schenkel	_	_
+5-8	434-443	verwundet	_	_
+5-9	444-451	sterben	_	_
+5-10	452-453	.	_	_
+
+#Text=Daß ihn das Governo angekauft , schrieb ich früher .
+6-1	454-457	Daß	_	_
+6-2	458-461	ihn	_	_
+6-3	462-465	das	_	_
+6-4	466-473	Governo	*[3]	ORGmentioned[3]
+6-5	474-483	angekauft	_	_
+6-6	484-485	,	_	_
+6-7	486-493	schrieb	_	_
+6-8	494-497	ich	_	_
+6-9	498-504	früher	_	_
+6-10	505-506	.	_	_
+
+#Text=Sydow reist Morgen und Tippelskirch ist gestern nach Neapel abgereist .
+7-1	507-512	Sydow	*	PERmentioned
+7-2	513-518	reist	_	_
+7-3	519-525	Morgen	_	_
+7-4	526-529	und	_	_
+7-5	530-542	Tippelskirch	*	PERmentioned
+7-6	543-546	ist	_	_
+7-7	547-554	gestern	_	_
+7-8	555-559	nach	_	_
+7-9	560-566	Neapel	*	PLACEmentioned
+7-10	567-576	abgereist	_	_
+7-11	577-578	.	_	_
+
+#Text=- Nächsten Winter kommt die Mutter et “ !
+8-1	579-580	-	_	_
+8-2	581-589	Nächsten	_	_
+8-3	590-596	Winter	_	_
+8-4	597-602	kommt	_	_
+8-5	603-606	die	_	_
+8-6	607-613	Mutter	_	_
+8-7	614-616	et	_	_
+8-8	617-618	“	_	_
+8-9	619-620	!	_	_
+
+#Text=mt ?
+9-1	621-623	mt	_	_
+9-2	624-625	?	_	_
+
+#Text=’ A der Geh .
+10-1	626-627	’	_	_
+10-2	628-629	A	_	_
+10-3	630-633	der	*[4]	PERmentioned[4]
+10-4	634-637	Geh	*[4]	PERmentioned[4]
+10-5	638-639	.	*[4]	PERmentioned[4]
+
+#Text=Räthin auf Besuch hierher .
+11-1	640-646	Räthin	*[4]	PERmentioned[4]
+11-2	647-650	auf	_	_
+11-3	651-657	Besuch	_	_
+11-4	658-665	hierher	_	_
+11-5	666-667	.	_	_
+
+#Text=Kellermann läßt seine Vigiles auf eigene Kosten unter Lancis Auspicien drucken und hat Kramers Logis genommen , in das er heute einzieht .
+12-1	668-678	Kellermann	*	PERmentioned
+12-2	679-683	läßt	_	_
+12-3	684-689	seine	_	_
+12-4	690-697	Vigiles	*	LIT
+12-5	698-701	auf	_	_
+12-6	702-708	eigene	_	_
+12-7	709-715	Kosten	_	_
+12-8	716-721	unter	_	_
+12-9	722-728	Lancis	*	PERmentioned
+12-10	729-738	Auspicien	_	_
+12-11	739-746	drucken	_	_
+12-12	747-750	und	_	_
+12-13	751-754	hat	_	_
+12-14	755-762	Kramers	*	PERmentioned
+12-15	763-768	Logis	_	_
+12-16	769-777	genommen	_	_
+12-17	778-779	,	_	_
+12-18	780-782	in	_	_
+12-19	783-786	das	_	_
+12-20	787-789	er	_	_
+12-21	790-795	heute	_	_
+12-22	796-804	einzieht	_	_
+12-23	805-806	.	_	_
+
+#Text=Leskes Topographie von Athen ist bei Ihrer Abreise unverfügt geblieben und kann wohl in durch Dupletten gewordene Lücken Ihrer Abrechnungen eingeschaltet werden .
+13-1	807-813	Leskes	*[5]|*[6]	LIT[5]|PERmentioned[6]
+13-2	814-825	Topographie	*[5]	LIT[5]
+13-3	826-829	von	*[5]	LIT[5]
+13-4	830-835	Athen	*[5]	LIT[5]
+13-5	836-839	ist	_	_
+13-6	840-843	bei	_	_
+13-7	844-849	Ihrer	_	_
+13-8	850-857	Abreise	_	_
+13-9	858-867	unverfügt	_	_
+13-10	868-877	geblieben	_	_
+13-11	878-881	und	_	_
+13-12	882-886	kann	_	_
+13-13	887-891	wohl	_	_
+13-14	892-894	in	_	_
+13-15	895-900	durch	_	_
+13-16	901-910	Dupletten	_	_
+13-17	911-920	gewordene	_	_
+13-18	921-927	Lücken	_	_
+13-19	928-933	Ihrer	_	_
+13-20	934-946	Abrechnungen	_	_
+13-21	947-960	eingeschaltet	_	_
+13-22	961-967	werden	_	_
+13-23	968-969	.	_	_
+
+#Text=Bestimmen Sie gefälligst wie Sie es gehalten wissen wollen .
+14-1	970-979	Bestimmen	_	_
+14-2	980-983	Sie	_	_
+14-3	984-994	gefälligst	_	_
+14-4	995-998	wie	_	_
+14-5	999-1002	Sie	_	_
+14-6	1003-1005	es	_	_
+14-7	1006-1014	gehalten	_	_
+14-8	1015-1021	wissen	_	_
+14-9	1022-1028	wollen	_	_
+14-10	1029-1030	.	_	_
+
+#Text=Vollards lassen Sie alle sehr herzlich grüßen \; sie kehren heute nach der Stadt zurück .
+15-1	1031-1039	Vollards	*	PERmentioned
+15-2	1040-1046	lassen	_	_
+15-3	1047-1050	Sie	_	_
+15-4	1051-1055	alle	_	_
+15-5	1056-1060	sehr	_	_
+15-6	1061-1069	herzlich	_	_
+15-7	1070-1076	grüßen	_	_
+15-8	1077-1078	\;	_	_
+15-9	1079-1082	sie	_	_
+15-10	1083-1089	kehren	_	_
+15-11	1090-1095	heute	_	_
+15-12	1096-1100	nach	_	_
+15-13	1101-1104	der	_	_
+15-14	1105-1110	Stadt	_	_
+15-15	1111-1117	zurück	_	_
+15-16	1118-1119	.	_	_
+
+#Text=Den Pelletschen Auftrag begreife ich nur seinem Inhalt nach \; dagegen ist die Weise seiner Ausführung so laconisch angedeutet , um ohne Zweideutigkeit verstanden zu werden .
+16-1	1120-1123	Den	_	_
+16-2	1124-1135	Pelletschen	*	PERmentioned
+16-3	1136-1143	Auftrag	_	_
+16-4	1144-1152	begreife	_	_
+16-5	1153-1156	ich	_	_
+16-6	1157-1160	nur	_	_
+16-7	1161-1167	seinem	_	_
+16-8	1168-1174	Inhalt	_	_
+16-9	1175-1179	nach	_	_
+16-10	1180-1181	\;	_	_
+16-11	1182-1189	dagegen	_	_
+16-12	1190-1193	ist	_	_
+16-13	1194-1197	die	_	_
+16-14	1198-1203	Weise	_	_
+16-15	1204-1210	seiner	_	_
+16-16	1211-1221	Ausführung	_	_
+16-17	1222-1224	so	_	_
+16-18	1225-1234	laconisch	_	_
+16-19	1235-1245	angedeutet	_	_
+16-20	1246-1247	,	_	_
+16-21	1248-1250	um	_	_
+16-22	1251-1255	ohne	_	_
+16-23	1256-1270	Zweideutigkeit	_	_
+16-24	1271-1281	verstanden	_	_
+16-25	1282-1284	zu	_	_
+16-26	1285-1291	werden	_	_
+16-27	1292-1293	.	_	_
+
+#Text=Ich thue also was der Instinct mir eingiebt .
+17-1	1294-1297	Ich	_	_
+17-2	1298-1302	thue	_	_
+17-3	1303-1307	also	_	_
+17-4	1308-1311	was	_	_
+17-5	1312-1315	der	_	_
+17-6	1316-1324	Instinct	_	_
+17-7	1325-1328	mir	_	_
+17-8	1329-1337	eingiebt	_	_
+17-9	1338-1339	.	_	_

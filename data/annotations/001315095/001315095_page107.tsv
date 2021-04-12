@@ -1,0 +1,71 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , 30 .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	30	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1858 Lebe wohl , lieber Freund und gieb mir Gelegenheit hier für Dich wieder etwas zu besorgen .
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-43	1858	*[1]	DATEletter[1]
+2-3	44-48	Lebe	_	_
+2-4	49-53	wohl	_	_
+2-5	54-55	,	_	_
+2-6	56-62	lieber	_	_
+2-7	63-69	Freund	_	_
+2-8	70-73	und	_	_
+2-9	74-78	gieb	_	_
+2-10	79-82	mir	_	_
+2-11	83-94	Gelegenheit	_	_
+2-12	95-99	hier	_	_
+2-13	100-103	für	_	_
+2-14	104-108	Dich	_	_
+2-15	109-115	wieder	_	_
+2-16	116-121	etwas	_	_
+2-17	122-124	zu	_	_
+2-18	125-133	besorgen	_	_
+2-19	134-135	.	_	_
+
+#Text=Dein Mommsen Berlin 30 Oct 1858 .
+3-1	136-140	Dein	_	_
+3-2	141-148	Mommsen	*	PERauthor
+3-3	149-155	Berlin	*	PLACEfrom
+3-4	156-158	30	*[2]	DATEletter[2]
+3-5	159-162	Oct	*[2]	DATEletter[2]
+3-6	163-167	1858	*[2]	DATEletter[2]
+3-7	168-169	.	_	_
+
+#Text=Kürzlich besuchte mich Dein alter Anti de Friederichs .
+4-1	170-178	Kürzlich	_	_
+4-2	179-187	besuchte	_	_
+4-3	188-192	mich	_	_
+4-4	193-197	Dein	_	_
+4-5	198-203	alter	_	_
+4-6	204-208	Anti	_	_
+4-7	209-211	de	*[3]	PERmentioned[3]
+4-8	212-223	Friederichs	*[3]	PERmentioned[3]
+4-9	224-225	.	_	_
+
+#Text=Die Rede kam auch auf Eure Controverse \; er sprach darüber ganz schicklich und ordentlich .
+5-1	226-229	Die	_	_
+5-2	230-234	Rede	_	_
+5-3	235-238	kam	_	_
+5-4	239-243	auch	_	_
+5-5	244-247	auf	_	_
+5-6	248-252	Eure	_	_
+5-7	253-264	Controverse	_	_
+5-8	265-266	\;	_	_
+5-9	267-269	er	_	_
+5-10	270-276	sprach	_	_
+5-11	277-284	darüber	_	_
+5-12	285-289	ganz	_	_
+5-13	290-300	schicklich	_	_
+5-14	301-304	und	_	_
+5-15	305-315	ordentlich	_	_
+5-16	316-317	.	_	_

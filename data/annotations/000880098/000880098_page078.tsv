@@ -1,0 +1,106 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=685 Braun an Gerhard Rom , 19 .
+1-1	0-3	685	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	19	*[2]	DATEletter[2]
+1-8	30-31	.	*[2]	DATEletter[2]
+
+#Text=Oktober 1834 -5ciation nicht angenommen haben , an der so viel gelegen ware .
+2-1	32-39	Oktober	*[2]	DATEletter[2]
+2-2	40-44	1834	*[2]	DATEletter[2]
+2-3	45-54	-5ciation	_	_
+2-4	55-60	nicht	_	_
+2-5	61-71	angenommen	_	_
+2-6	72-77	haben	_	_
+2-7	78-79	,	_	_
+2-8	80-82	an	_	_
+2-9	83-86	der	_	_
+2-10	87-89	so	_	_
+2-11	90-94	viel	_	_
+2-12	95-102	gelegen	_	_
+2-13	103-107	ware	_	_
+2-14	108-109	.	_	_
+
+#Text=- Ihr Braun Viele herzliche und freundliche Grüße an Gerstäcker und d . Seinen .
+3-1	110-111	-	_	_
+3-2	112-115	Ihr	_	_
+3-3	116-121	Braun	*	PERauthor
+3-4	122-127	Viele	_	_
+3-5	128-137	herzliche	_	_
+3-6	138-141	und	_	_
+3-7	142-153	freundliche	_	_
+3-8	154-159	Grüße	_	_
+3-9	160-162	an	_	_
+3-10	163-173	Gerstäcker	*	PERmentioned
+3-11	174-177	und	_	_
+3-12	178-179	d	_	_
+3-13	180-181	.	_	_
+3-14	182-188	Seinen	_	_
+3-15	189-190	.	_	_
+
+#Text=An Joh .
+4-1	191-193	An	_	_
+4-2	194-197	Joh	*[3]	LIT[3]
+4-3	198-199	.	*[3]	LIT[3]
+
+#Text=Müllers Philologie läge mir sehr viel .
+5-1	200-207	Müllers	*[3]|*[4]	LIT[3]|PERmentioned[4]
+5-2	208-218	Philologie	*[3]	LIT[3]
+5-3	219-223	läge	_	_
+5-4	224-227	mir	_	_
+5-5	228-232	sehr	_	_
+5-6	233-237	viel	_	_
+5-7	238-239	.	_	_
+
+#Text=Wie viel ist davon heraus ?
+6-1	240-243	Wie	_	_
+6-2	244-248	viel	_	_
+6-3	249-252	ist	_	_
+6-4	253-258	davon	_	_
+6-5	259-265	heraus	_	_
+6-6	266-267	?	_	_
+
+#Text=und wann könnte ich sie haben ?
+7-1	268-271	und	_	_
+7-2	272-276	wann	_	_
+7-3	277-283	könnte	_	_
+7-4	284-287	ich	_	_
+7-5	288-291	sie	_	_
+7-6	292-297	haben	_	_
+7-7	298-299	?	_	_
+
+#Text=- Franz ist hier und bedauert sehr Sie nicht zu treffen .
+8-1	300-301	-	_	_
+8-2	302-307	Franz	*	PERmentioned
+8-3	308-311	ist	_	_
+8-4	312-316	hier	_	_
+8-5	317-320	und	_	_
+8-6	321-329	bedauert	_	_
+8-7	330-334	sehr	_	_
+8-8	335-338	Sie	_	_
+8-9	339-344	nicht	_	_
+8-10	345-347	zu	_	_
+8-11	348-355	treffen	_	_
+8-12	356-357	.	_	_
+
+#Text=Der König von Bayern soll sehr gut auf ihn zu sprechen sein .
+9-1	358-361	Der	_	_
+9-2	362-367	König	*[5]	PERmentioned[5]
+9-3	368-371	von	*[5]	PERmentioned[5]
+9-4	372-378	Bayern	*[5]	PERmentioned[5]
+9-5	379-383	soll	_	_
+9-6	384-388	sehr	_	_
+9-7	389-392	gut	_	_
+9-8	393-396	auf	_	_
+9-9	397-400	ihn	_	_
+9-10	401-403	zu	_	_
+9-11	404-412	sprechen	_	_
+9-12	413-417	sein	_	_
+9-13	418-419	.	_	_

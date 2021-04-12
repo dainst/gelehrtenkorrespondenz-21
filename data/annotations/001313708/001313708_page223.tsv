@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Rom , 28. Februar 1837 Cav .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-27	28.	*[5]	DATEletter[5]
+1-7	28-35	Februar	*[5]	DATEletter[5]
+1-8	36-40	1837	*[5]	DATEletter[5]
+1-9	41-44	Cav	_	_
+1-10	45-46	.	_	_
+
+#Text=Bunsen Segrt .
+2-1	47-53	Bunsen	*	PERaddressee
+2-2	54-59	Segrt	_	_
+2-3	60-61	.	_	_
+
+#Text=Gen .
+3-1	62-65	Gen	_	_
+3-2	66-67	.	_	_
+
+#Text=Dir .
+4-1	68-71	Dir	_	_
+4-2	72-73	.	_	_
+
+#Text=Rom .
+5-1	74-77	Rom	*	PLACEfrom
+5-2	78-79	.	_	_
+
+#Text=Gerh .
+6-1	80-84	Gerh	_	_
+6-2	85-86	.	_	_
+
+#Text=II Pel Consiglio di Amministrazione Roma li 28 Febbraio 1837 1 .
+7-1	87-89	II	_	_
+7-2	90-93	Pel	_	_
+7-3	94-103	Consiglio	_	_
+7-4	104-106	di	_	_
+7-5	107-122	Amministrazione	_	_
+7-6	123-127	Roma	*	PLACEfrom
+7-7	128-130	li	_	_
+7-8	131-133	28	*[8]	DATEletter[8]
+7-9	134-142	Febbraio	*[8]	DATEletter[8]
+7-10	143-147	1837	*[8]	DATEletter[8]
+7-11	148-149	1	_	_
+7-12	150-151	.	_	_
+
+#Text=Riguardo alle istanze da me fatte al prof. Welcker per non contribuire agli Annali parigini , ecco ciocch @ egli mi risponde dd .
+8-1	152-160	Riguardo	_	_
+8-2	161-165	alle	_	_
+8-3	166-173	istanze	_	_
+8-4	174-176	da	_	_
+8-5	177-179	me	_	_
+8-6	180-185	fatte	_	_
+8-7	186-188	al	_	_
+8-8	189-194	prof.	_	_
+8-9	195-202	Welcker	*	PERmentioned
+8-10	203-206	per	_	_
+8-11	207-210	non	_	_
+8-12	211-222	contribuire	_	_
+8-13	223-227	agli	_	_
+8-14	228-234	Annali	_	_
+8-15	235-243	parigini	_	_
+8-16	244-245	,	_	_
+8-17	246-250	ecco	_	_
+8-18	251-257	ciocch	_	_
+8-19	258-259	@	_	_
+8-20	260-264	egli	_	_
+8-21	265-267	mi	_	_
+8-22	268-276	risponde	_	_
+8-23	277-279	dd	_	_
+8-24	280-281	.	_	_
+
+#Text=26 gennaio '' In den Nouvelles Annales werden Sie einen kleinen Aufsatz von mir getroffen haben .
+9-1	282-284	26	*[10]	DATEmentioned[10]
+9-2	285-292	gennaio	*[10]	DATEmentioned[10]
+9-3	293-295	''	_	_
+9-4	296-298	In	_	_
+9-5	299-302	den	_	_
+9-6	303-312	Nouvelles	_	_
+9-7	313-320	Annales	_	_
+9-8	321-327	werden	_	_
+9-9	328-331	Sie	_	_
+9-10	332-337	einen	_	_
+9-11	338-345	kleinen	_	_
+9-12	346-353	Aufsatz	_	_
+9-13	354-357	von	_	_
+9-14	358-361	mir	_	_
+9-15	362-371	getroffen	_	_
+9-16	372-377	haben	_	_
+9-17	378-379	.	_	_
+
+#Text=Man hatte mich “ darum gleich Anfangs von mehreren Seiten gebeten .
+10-1	380-383	Man	_	_
+10-2	384-389	hatte	_	_
+10-3	390-394	mich	_	_
+10-4	395-396	“	_	_
+10-5	397-402	darum	_	_
+10-6	403-409	gleich	_	_
+10-7	410-417	Anfangs	_	_
+10-8	418-421	von	_	_
+10-9	422-430	mehreren	_	_
+10-10	431-437	Seiten	_	_
+10-11	438-445	gebeten	_	_
+10-12	446-447	.	_	_
+
+#Text=Sie wünschten das nicht .
+11-1	448-451	Sie	_	_
+11-2	452-461	wünschten	_	_
+11-3	462-465	das	_	_
+11-4	466-471	nicht	_	_
+11-5	472-473	.	_	_
+
+#Text=Aber mein lieber Freund Sie wissen doch daß Fanofka keinen Beitrag von mir wollte ( perche in Berlino ci mancavano i Traduttori ) , was in dem Schweigen unter so vielen Bewährungen wol lag \; Sie wissen auch daß in der Archäologie auf Bekanntschaften und Freundschaften das Meiste ankommt \; von Rom aus ist mir nie ein Zeichner gegeben worden , daß ich etwas einschieben möchte , und beschwerlich zu fallen habe ich eine natürliche Scheu .
+12-1	474-478	Aber	_	_
+12-2	479-483	mein	_	_
+12-3	484-490	lieber	_	_
+12-4	491-497	Freund	_	_
+12-5	498-501	Sie	_	_
+12-6	502-508	wissen	_	_
+12-7	509-513	doch	_	_
+12-8	514-517	daß	_	_
+12-9	518-525	Fanofka	*	PERmentioned
+12-10	526-532	keinen	_	_
+12-11	533-540	Beitrag	_	_
+12-12	541-544	von	_	_
+12-13	545-548	mir	_	_
+12-14	549-555	wollte	_	_
+12-15	556-557	(	_	_
+12-16	558-564	perche	_	_
+12-17	565-567	in	_	_
+12-18	568-575	Berlino	*	PLACEmentioned
+12-19	576-578	ci	_	_
+12-20	579-588	mancavano	_	_
+12-21	589-590	i	_	_
+12-22	591-601	Traduttori	_	_
+12-23	602-603	)	_	_
+12-24	604-605	,	_	_
+12-25	606-609	was	_	_
+12-26	610-612	in	_	_
+12-27	613-616	dem	_	_
+12-28	617-626	Schweigen	_	_
+12-29	627-632	unter	_	_
+12-30	633-635	so	_	_
+12-31	636-642	vielen	_	_
+12-32	643-654	Bewährungen	_	_
+12-33	655-658	wol	_	_
+12-34	659-662	lag	_	_
+12-35	663-664	\;	_	_
+12-36	665-668	Sie	_	_
+12-37	669-675	wissen	_	_
+12-38	676-680	auch	_	_
+12-39	681-684	daß	_	_
+12-40	685-687	in	_	_
+12-41	688-691	der	_	_
+12-42	692-703	Archäologie	_	_
+12-43	704-707	auf	_	_
+12-44	708-723	Bekanntschaften	_	_
+12-45	724-727	und	_	_
+12-46	728-742	Freundschaften	_	_
+12-47	743-746	das	_	_
+12-48	747-753	Meiste	_	_
+12-49	754-761	ankommt	_	_
+12-50	762-763	\;	_	_
+12-51	764-767	von	_	_
+12-52	768-771	Rom	*	PLACEmentioned
+12-53	772-775	aus	_	_
+12-54	776-779	ist	_	_
+12-55	780-783	mir	_	_
+12-56	784-787	nie	_	_
+12-57	788-791	ein	_	_
+12-58	792-800	Zeichner	_	_
+12-59	801-808	gegeben	_	_
+12-60	809-815	worden	_	_
+12-61	816-817	,	_	_
+12-62	818-821	daß	_	_
+12-63	822-825	ich	_	_
+12-64	826-831	etwas	_	_
+12-65	832-843	einschieben	_	_
+12-66	844-850	möchte	_	_
+12-67	851-852	,	_	_
+12-68	853-856	und	_	_
+12-69	857-869	beschwerlich	_	_
+12-70	870-872	zu	_	_
+12-71	873-879	fallen	_	_
+12-72	880-884	habe	_	_
+12-73	885-888	ich	_	_
+12-74	889-893	eine	_	_
+12-75	894-904	natürliche	_	_
+12-76	905-910	Scheu	_	_
+12-77	911-912	.	_	_
+
+#Text=Soll ich denn also nach Ihrer Meinung an keinem Ort , wo sie auch gedruckt werden , an den Annalen der Archäologie Theil nehmen ? ''
+13-1	913-917	Soll	_	_
+13-2	918-921	ich	_	_
+13-3	922-926	denn	_	_
+13-4	927-931	also	_	_
+13-5	932-936	nach	_	_
+13-6	937-942	Ihrer	_	_
+13-7	943-950	Meinung	_	_
+13-8	951-953	an	_	_
+13-9	954-960	keinem	_	_
+13-10	961-964	Ort	_	_
+13-11	965-966	,	_	_
+13-12	967-969	wo	_	_
+13-13	970-973	sie	_	_
+13-14	974-978	auch	_	_
+13-15	979-987	gedruckt	_	_
+13-16	988-994	werden	_	_
+13-17	995-996	,	_	_
+13-18	997-999	an	_	_
+13-19	1000-1003	den	_	_
+13-20	1004-1011	Annalen	_	_
+13-21	1012-1015	der	_	_
+13-22	1016-1027	Archäologie	_	_
+13-23	1028-1033	Theil	_	_
+13-24	1034-1040	nehmen	_	_
+13-25	1041-1042	?	_	_
+13-26	1043-1045	''	_	_
+
+#Text=Si rileva da ciö che il Sig .
+14-1	1046-1048	Si	_	_
+14-2	1049-1055	rileva	_	_
+14-3	1056-1058	da	_	_
+14-4	1059-1062	ciö	_	_
+14-5	1063-1066	che	_	_
+14-6	1067-1069	il	_	_
+14-7	1070-1073	Sig	_	_
+14-8	1074-1075	.	_	_
+
+#Text=Welcker non mai abbia ricevuto niente nell'ultimo tempo per cooperare agli Annali che si stampano in Roma .
+15-1	1076-1083	Welcker	*	PERmentioned
+15-2	1084-1087	non	_	_
+15-3	1088-1091	mai	_	_
+15-4	1092-1097	abbia	_	_
+15-5	1098-1106	ricevuto	_	_
+15-6	1107-1113	niente	_	_
+15-7	1114-1125	nell'ultimo	_	_
+15-8	1126-1131	tempo	_	_
+15-9	1132-1135	per	_	_
+15-10	1136-1145	cooperare	_	_
+15-11	1146-1150	agli	_	_
+15-12	1151-1157	Annali	_	_
+15-13	1158-1161	che	_	_
+15-14	1162-1164	si	_	_
+15-15	1165-1173	stampano	_	_
+15-16	1174-1176	in	_	_
+15-17	1177-1181	Roma	*	PLACEmentioned
+15-18	1182-1183	.	_	_
+
+#Text=2 ) Il Sig .
+16-1	1184-1185	2	_	_
+16-2	1186-1187	)	_	_
+16-3	1188-1190	Il	_	_
+16-4	1191-1194	Sig	_	_
+16-5	1195-1196	.	_	_
+
+#Text=De Witte desidera sapere , a nome suo
+17-1	1197-1199	De	*[16]	PERmentioned[16]
+17-2	1200-1205	Witte	*[16]	PERmentioned[16]
+17-3	1206-1214	desidera	_	_
+17-4	1215-1221	sapere	_	_
+17-5	1222-1223	,	_	_
+17-6	1224-1225	a	_	_
+17-7	1226-1230	nome	_	_
+17-8	1231-1234	suo	_	_

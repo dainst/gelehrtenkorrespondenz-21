@@ -1,0 +1,245 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Ohne Datum - Poststempel 16 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datum	_	_
+1-6	28-29	-	_	_
+1-7	30-41	Poststempel	_	_
+1-8	42-44	16	*[1]	DATEpoststamp[1]
+1-9	45-46	.	*[1]	DATEpoststamp[1]
+
+#Text=August 1874 Postkarte 8 .
+2-1	47-53	August	*[1]	DATEpoststamp[1]
+2-2	54-58	1874	*[1]	DATEpoststamp[1]
+2-3	59-68	Postkarte	_	_
+2-4	69-70	8	_	_
+2-5	71-72	.	_	_
+
+#Text=18/8 74 r . Lieber Herr Professor !
+3-1	73-77	18/8	*[2]	DATErecieved[2]
+3-2	78-80	74	*[2]	DATErecieved[2]
+3-3	81-82	r	_	_
+3-4	83-84	.	_	_
+3-5	85-91	Lieber	_	_
+3-6	92-96	Herr	_	_
+3-7	97-106	Professor	_	_
+3-8	107-108	!	_	_
+
+#Text=Soeben bringe ich in Erfahrung , daß der Fattore unserer Villa gewechselt wird .
+4-1	109-115	Soeben	_	_
+4-2	116-122	bringe	_	_
+4-3	123-126	ich	_	_
+4-4	127-129	in	_	_
+4-5	130-139	Erfahrung	_	_
+4-6	140-141	,	_	_
+4-7	142-145	daß	_	_
+4-8	146-149	der	_	_
+4-9	150-157	Fattore	_	_
+4-10	158-165	unserer	_	_
+4-11	166-171	Villa	_	_
+4-12	172-182	gewechselt	_	_
+4-13	183-187	wird	_	_
+4-14	188-189	.	_	_
+
+#Text=Wie Sie sich es wohl denken können , ist es mir keineswegs angenehm , meine Familie während meiner Abwesenheit unter dem Schutze eines ganz unbekannten Individuums zurückzulassen .
+5-1	190-193	Wie	_	_
+5-2	194-197	Sie	_	_
+5-3	198-202	sich	_	_
+5-4	203-205	es	_	_
+5-5	206-210	wohl	_	_
+5-6	211-217	denken	_	_
+5-7	218-224	können	_	_
+5-8	225-226	,	_	_
+5-9	227-230	ist	_	_
+5-10	231-233	es	_	_
+5-11	234-237	mir	_	_
+5-12	238-248	keineswegs	_	_
+5-13	249-257	angenehm	_	_
+5-14	258-259	,	_	_
+5-15	260-265	meine	_	_
+5-16	266-273	Familie	_	_
+5-17	274-281	während	_	_
+5-18	282-288	meiner	_	_
+5-19	289-300	Abwesenheit	_	_
+5-20	301-306	unter	_	_
+5-21	307-310	dem	_	_
+5-22	311-318	Schutze	_	_
+5-23	319-324	eines	_	_
+5-24	325-329	ganz	_	_
+5-25	330-341	unbekannten	_	_
+5-26	342-353	Individuums	_	_
+5-27	354-368	zurückzulassen	_	_
+5-28	369-370	.	_	_
+
+#Text=Mein erster Gedanke war , Nino aus Rom hierher kommen zu lassen , und ich möchte Sie fragen , ob Sie dies für thunlich halten .
+6-1	371-375	Mein	_	_
+6-2	376-382	erster	_	_
+6-3	383-390	Gedanke	_	_
+6-4	391-394	war	_	_
+6-5	395-396	,	_	_
+6-6	397-401	Nino	*	PERmentioned
+6-7	402-405	aus	_	_
+6-8	406-409	Rom	*	PLACEmentioned
+6-9	410-417	hierher	_	_
+6-10	418-424	kommen	_	_
+6-11	425-427	zu	_	_
+6-12	428-434	lassen	_	_
+6-13	435-436	,	_	_
+6-14	437-440	und	_	_
+6-15	441-444	ich	_	_
+6-16	445-451	möchte	_	_
+6-17	452-455	Sie	_	_
+6-18	456-462	fragen	_	_
+6-19	463-464	,	_	_
+6-20	465-467	ob	_	_
+6-21	468-471	Sie	_	_
+6-22	472-476	dies	_	_
+6-23	477-480	für	_	_
+6-24	481-489	thunlich	_	_
+6-25	490-496	halten	_	_
+6-26	497-498	.	_	_
+
+#Text=Einer Seits würde vielleicht ein vierwöchentliches Ausruhen hier in Siena für Nino 's Gesundheit ganz wohlthätig sein .
+7-1	499-504	Einer	_	_
+7-2	505-510	Seits	_	_
+7-3	511-516	würde	_	_
+7-4	517-527	vielleicht	_	_
+7-5	528-531	ein	_	_
+7-6	532-549	vierwöchentliches	_	_
+7-7	550-558	Ausruhen	_	_
+7-8	559-563	hier	_	_
+7-9	564-566	in	_	_
+7-10	567-572	Siena	*	PLACEmentioned
+7-11	573-576	für	_	_
+7-12	577-581	Nino	*[5]	PERmentioned[5]
+7-13	582-584	's	*[5]	PERmentioned[5]
+7-14	585-595	Gesundheit	_	_
+7-15	596-600	ganz	_	_
+7-16	601-611	wohlthätig	_	_
+7-17	612-616	sein	_	_
+7-18	617-618	.	_	_
+
+#Text=Anderer Seits glaube ich , daß er jetzt in Rom leichter entbehrlicher sein wird , als bisher , da ja Boge 2 in dem Hause wohnt .
+8-1	619-626	Anderer	_	_
+8-2	627-632	Seits	_	_
+8-3	633-639	glaube	_	_
+8-4	640-643	ich	_	_
+8-5	644-645	,	_	_
+8-6	646-649	daß	_	_
+8-7	650-652	er	_	_
+8-8	653-658	jetzt	_	_
+8-9	659-661	in	_	_
+8-10	662-665	Rom	*	PLACEmentioned
+8-11	666-674	leichter	_	_
+8-12	675-688	entbehrlicher	_	_
+8-13	689-693	sein	_	_
+8-14	694-698	wird	_	_
+8-15	699-700	,	_	_
+8-16	701-704	als	_	_
+8-17	705-711	bisher	_	_
+8-18	712-713	,	_	_
+8-19	714-716	da	_	_
+8-20	717-719	ja	_	_
+8-21	720-724	Boge	_	_
+8-22	725-726	2	_	_
+8-23	727-729	in	_	_
+8-24	730-733	dem	_	_
+8-25	734-739	Hause	_	_
+8-26	740-745	wohnt	_	_
+8-27	746-747	.	_	_
+
+#Text=Wird mein Vorschlag acceptirt , dann reise ich den 23 .
+9-1	748-752	Wird	_	_
+9-2	753-757	mein	_	_
+9-3	758-767	Vorschlag	_	_
+9-4	768-777	acceptirt	_	_
+9-5	778-779	,	_	_
+9-6	780-784	dann	_	_
+9-7	785-790	reise	_	_
+9-8	791-794	ich	_	_
+9-9	795-798	den	_	_
+9-10	799-801	23	*[3]	DATEmentioned[3]
+9-11	802-803	.	*[3]	DATEmentioned[3]
+
+#Text=August von hier ab und würde um den 27. September zurücksein .
+10-1	804-810	August	*[3]	DATEmentioned[3]
+10-2	811-814	von	_	_
+10-3	815-819	hier	_	_
+10-4	820-822	ab	_	_
+10-5	823-826	und	_	_
+10-6	827-832	würde	_	_
+10-7	833-835	um	_	_
+10-8	836-839	den	_	_
+10-9	840-843	27.	*[4]	DATEmentioned[4]
+10-10	844-853	September	*[4]	DATEmentioned[4]
+10-11	854-864	zurücksein	_	_
+10-12	865-866	.	_	_
+
+#Text=Diese Zeit des Aufenthalts in Athen wäre mir auch deßhalb die angenehnste , weil Lüders Ende September von dort abreist und ich doch mit ihm zusammen sein möchte .
+11-1	867-872	Diese	_	_
+11-2	873-877	Zeit	_	_
+11-3	878-881	des	_	_
+11-4	882-893	Aufenthalts	_	_
+11-5	894-896	in	_	_
+11-6	897-902	Athen	*	PLACEmentioned
+11-7	903-907	wäre	_	_
+11-8	908-911	mir	_	_
+11-9	912-916	auch	_	_
+11-10	917-924	deßhalb	_	_
+11-11	925-928	die	_	_
+11-12	929-940	angenehnste	_	_
+11-13	941-942	,	_	_
+11-14	943-947	weil	_	_
+11-15	948-954	Lüders	*	PERmentioned
+11-16	955-959	Ende	_	_
+11-17	960-969	September	*	DATEmentioned
+11-18	970-973	von	_	_
+11-19	974-978	dort	_	_
+11-20	979-986	abreist	_	_
+11-21	987-990	und	_	_
+11-22	991-994	ich	_	_
+11-23	995-999	doch	_	_
+11-24	1000-1003	mit	_	_
+11-25	1004-1007	ihm	_	_
+11-26	1008-1016	zusammen	_	_
+11-27	1017-1021	sein	_	_
+11-28	1022-1028	möchte	_	_
+11-29	1029-1030	.	_	_
+
+#Text=Anderer Seits könnte ich bei diesem Modus bequem meinen Verpflichtungen hinsichtlich des unseligen Cornetaner Artikels nachkommen .
+12-1	1031-1038	Anderer	_	_
+12-2	1039-1044	Seits	_	_
+12-3	1045-1051	könnte	_	_
+12-4	1052-1055	ich	_	_
+12-5	1056-1059	bei	_	_
+12-6	1060-1066	diesem	_	_
+12-7	1067-1072	Modus	_	_
+12-8	1073-1079	bequem	_	_
+12-9	1080-1086	meinen	_	_
+12-10	1087-1102	Verpflichtungen	_	_
+12-11	1103-1115	hinsichtlich	_	_
+12-12	1116-1119	des	_	_
+12-13	1120-1129	unseligen	_	_
+12-14	1130-1140	Cornetaner	*	MISC
+12-15	1141-1149	Artikels	_	_
+12-16	1150-1160	nachkommen	_	_
+12-17	1161-1162	.	_	_
+
+#Text=Jeden Falls bitte ich Sie um umgehende Antwort , damit ich Zeit
+13-1	1163-1168	Jeden	_	_
+13-2	1169-1174	Falls	_	_
+13-3	1175-1180	bitte	_	_
+13-4	1181-1184	ich	_	_
+13-5	1185-1188	Sie	_	_
+13-6	1189-1191	um	_	_
+13-7	1192-1201	umgehende	_	_
+13-8	1202-1209	Antwort	_	_
+13-9	1210-1211	,	_	_
+13-10	1212-1217	damit	_	_
+13-11	1218-1221	ich	_	_
+13-12	1222-1226	Zeit	_	_

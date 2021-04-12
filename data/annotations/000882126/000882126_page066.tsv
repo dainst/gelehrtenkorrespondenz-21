@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=6 Braun an Gerhard Rom , 5 .
+1-1	0-1	6	_	_
+1-2	2-7	Braun	*	PERauthor
+1-3	8-10	an	_	_
+1-4	11-18	Gerhard	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-26	5	*[5]	DATEletter[5]
+1-8	27-28	.	*[5]	DATEletter[5]
+
+#Text=Januar 1836 te haben sich allerdings durch seine langen Register und Bücher gehäuft .
+2-1	29-35	Januar	*[5]	DATEletter[5]
+2-2	36-40	1836	*[5]	DATEletter[5]
+2-3	41-43	te	_	_
+2-4	44-49	haben	_	_
+2-5	50-54	sich	_	_
+2-6	55-65	allerdings	_	_
+2-7	66-71	durch	_	_
+2-8	72-77	seine	_	_
+2-9	78-84	langen	_	_
+2-10	85-93	Register	_	_
+2-11	94-97	und	_	_
+2-12	98-104	Bücher	_	_
+2-13	105-112	gehäuft	_	_
+2-14	113-114	.	_	_
+
+#Text=Er selbst zahlt jeden Monat 3 Scudi für Unterstützung an den jungen Mann der ihm hilft .
+3-1	115-117	Er	_	_
+3-2	118-124	selbst	_	_
+3-3	125-130	zahlt	_	_
+3-4	131-136	jeden	_	_
+3-5	137-142	Monat	_	_
+3-6	143-144	3	_	_
+3-7	145-150	Scudi	_	_
+3-8	151-154	für	_	_
+3-9	155-168	Unterstützung	_	_
+3-10	169-171	an	_	_
+3-11	172-175	den	_	_
+3-12	176-182	jungen	_	_
+3-13	183-187	Mann	_	_
+3-14	188-191	der	_	_
+3-15	192-195	ihm	_	_
+3-16	196-201	hilft	_	_
+3-17	202-203	.	_	_
+
+#Text=Zudem wollte er sonst nur 8 Scudi haben , aber nichts anderes als Rechnungssachen besorgen .
+4-1	204-209	Zudem	_	_
+4-2	210-216	wollte	_	_
+4-3	217-219	er	_	_
+4-4	220-225	sonst	_	_
+4-5	226-229	nur	_	_
+4-6	230-231	8	_	_
+4-7	232-237	Scudi	_	_
+4-8	238-243	haben	_	_
+4-9	244-245	,	_	_
+4-10	246-250	aber	_	_
+4-11	251-257	nichts	_	_
+4-12	258-265	anderes	_	_
+4-13	266-269	als	_	_
+4-14	270-285	Rechnungssachen	_	_
+4-15	286-294	besorgen	_	_
+4-16	295-296	.	_	_
+
+#Text=Die Osservazioni intorno la Tab . Penti geriana , deren Autor Sie so gar undeutlich geschrieben haben , sind bis jetzt nicht aufzutreiben gewesen .
+5-1	297-300	Die	_	_
+5-2	301-313	Osservazioni	_	_
+5-3	314-321	intorno	_	_
+5-4	322-324	la	_	_
+5-5	325-328	Tab	_	_
+5-6	329-330	.	_	_
+5-7	331-336	Penti	_	_
+5-8	337-344	geriana	_	_
+5-9	345-346	,	_	_
+5-10	347-352	deren	_	_
+5-11	353-358	Autor	_	_
+5-12	359-362	Sie	_	_
+5-13	363-365	so	_	_
+5-14	366-369	gar	_	_
+5-15	370-380	undeutlich	_	_
+5-16	381-392	geschrieben	_	_
+5-17	393-398	haben	_	_
+5-18	399-400	,	_	_
+5-19	401-405	sind	_	_
+5-20	406-409	bis	_	_
+5-21	410-415	jetzt	_	_
+5-22	416-421	nicht	_	_
+5-23	422-434	aufzutreiben	_	_
+5-24	435-442	gewesen	_	_
+5-25	443-444	.	_	_
+
+#Text=Der unglückliche Graf von Cividale ist von Caninas kleinen Artikel so unendlich gerührt , daß er fast fußfällig der Direction gedankt hat .
+6-1	445-448	Der	_	_
+6-2	449-461	unglückliche	_	_
+6-3	462-466	Graf	*[6]	PERmentioned[6]
+6-4	467-470	von	*[6]	PERmentioned[6]
+6-5	471-479	Cividale	*[6]|*[7]	PERmentioned[6]|PLACEmentioned[7]
+6-6	480-483	ist	_	_
+6-7	484-487	von	_	_
+6-8	488-495	Caninas	*	PERmentioned
+6-9	496-503	kleinen	_	_
+6-10	504-511	Artikel	_	_
+6-11	512-514	so	_	_
+6-12	515-524	unendlich	_	_
+6-13	525-532	gerührt	_	_
+6-14	533-534	,	_	_
+6-15	535-538	daß	_	_
+6-16	539-541	er	_	_
+6-17	542-546	fast	_	_
+6-18	547-556	fußfällig	_	_
+6-19	557-560	der	_	_
+6-20	561-570	Direction	_	_
+6-21	571-578	gedankt	_	_
+6-22	579-582	hat	_	_
+6-23	583-584	.	_	_
+
+#Text=In Rücksicht darauf wird man wohl Caninas Annalenartikel drucken müssen .
+7-1	585-587	In	_	_
+7-2	588-597	Rücksicht	_	_
+7-3	598-604	darauf	_	_
+7-4	605-609	wird	_	_
+7-5	610-613	man	_	_
+7-6	614-618	wohl	_	_
+7-7	619-626	Caninas	*	PERmentioned
+7-8	627-641	Annalenartikel	_	_
+7-9	642-649	drucken	_	_
+7-10	650-656	müssen	_	_
+7-11	657-658	.	_	_
+
+#Text=Was hört man von der Versteigerung der Durandschen Sammlung ?
+8-1	659-662	Was	_	_
+8-2	663-667	hört	_	_
+8-3	668-671	man	_	_
+8-4	672-675	von	_	_
+8-5	676-679	der	_	_
+8-6	680-693	Versteigerung	_	_
+8-7	694-697	der	_	_
+8-8	698-709	Durandschen	*[8]	ORGmentioned[8]
+8-9	710-718	Sammlung	*[8]	ORGmentioned[8]
+8-10	719-720	?	_	_
+
+#Text=Reisen Sie nicht zu derselben nach Paris .
+9-1	721-727	Reisen	_	_
+9-2	728-731	Sie	_	_
+9-3	732-737	nicht	_	_
+9-4	738-740	zu	_	_
+9-5	741-750	derselben	_	_
+9-6	751-755	nach	_	_
+9-7	756-761	Paris	*	PLACEmentioned
+9-8	762-763	.	_	_
+
+#Text=Für mich ist es ein großer Schaden , sie nicht gesehen zu haben , bevor sie auseinander geht .
+10-1	764-767	Für	_	_
+10-2	768-772	mich	_	_
+10-3	773-776	ist	_	_
+10-4	777-779	es	_	_
+10-5	780-783	ein	_	_
+10-6	784-790	großer	_	_
+10-7	791-798	Schaden	_	_
+10-8	799-800	,	_	_
+10-9	801-804	sie	_	_
+10-10	805-810	nicht	_	_
+10-11	811-818	gesehen	_	_
+10-12	819-821	zu	_	_
+10-13	822-827	haben	_	_
+10-14	828-829	,	_	_
+10-15	830-835	bevor	_	_
+10-16	836-839	sie	_	_
+10-17	840-851	auseinander	_	_
+10-18	852-856	geht	_	_
+10-19	857-858	.	_	_
+
+#Text=Unter den gegenwärtigen Umständen darf ich aber kaum hoffen 1 Monat von Rom abwesend zu sein .
+11-1	859-864	Unter	_	_
+11-2	865-868	den	_	_
+11-3	869-882	gegenwärtigen	_	_
+11-4	883-892	Umständen	_	_
+11-5	893-897	darf	_	_
+11-6	898-901	ich	_	_
+11-7	902-906	aber	_	_
+11-8	907-911	kaum	_	_
+11-9	912-918	hoffen	_	_
+11-10	919-920	1	_	_
+11-11	921-926	Monat	_	_
+11-12	927-930	von	_	_
+11-13	931-934	Rom	*	PLACEmentioned
+11-14	935-943	abwesend	_	_
+11-15	944-946	zu	_	_
+11-16	947-951	sein	_	_
+11-17	952-953	.	_	_
+
+#Text=Das große F sche Real-Schullexicon wäre uns bei hiesigem Büchermangel recht nöthig .
+12-1	954-957	Das	_	_
+12-2	958-963	große	_	_
+12-3	964-965	F	_	_
+12-4	966-970	sche	_	_
+12-5	971-988	Real-Schullexicon	_	_
+12-6	989-993	wäre	_	_
+12-7	994-997	uns	_	_
+12-8	998-1001	bei	_	_
+12-9	1002-1010	hiesigem	_	_
+12-10	1011-1023	Büchermangel	_	_
+12-11	1024-1029	recht	_	_
+12-12	1030-1036	nöthig	_	_
+12-13	1037-1038	.	_	_
+
+#Text=Sollte es sich bei einem Berliner Antiquar finden , so sollte man es doch kaufen .
+13-1	1039-1045	Sollte	_	_
+13-2	1046-1048	es	_	_
+13-3	1049-1053	sich	_	_
+13-4	1054-1057	bei	_	_
+13-5	1058-1063	einem	_	_
+13-6	1064-1072	Berliner	*	PLACEmentioned
+13-7	1073-1081	Antiquar	_	_
+13-8	1082-1088	finden	_	_
+13-9	1089-1090	,	_	_
+13-10	1091-1093	so	_	_
+13-11	1094-1100	sollte	_	_
+13-12	1101-1104	man	_	_
+13-13	1105-1107	es	_	_
+13-14	1108-1112	doch	_	_
+13-15	1113-1119	kaufen	_	_
+13-16	1120-1121	.	_	_
+
+#Text=Bis auf Weiteres schließe ich vorerst , mir eine Nachschrift vorbehaltend .
+14-1	1122-1125	Bis	_	_
+14-2	1126-1129	auf	_	_
+14-3	1130-1138	Weiteres	_	_
+14-4	1139-1147	schließe	_	_
+14-5	1148-1151	ich	_	_
+14-6	1152-1159	vorerst	_	_
+14-7	1160-1161	,	_	_
+14-8	1162-1165	mir	_	_
+14-9	1166-1170	eine	_	_
+14-10	1171-1182	Nachschrift	_	_
+14-11	1183-1195	vorbehaltend	_	_
+14-12	1196-1197	.	_	_
+
+#Text=Ihr Braun
+15-1	1198-1201	Ihr	_	_
+15-2	1202-1207	Braun	*	PERauthor

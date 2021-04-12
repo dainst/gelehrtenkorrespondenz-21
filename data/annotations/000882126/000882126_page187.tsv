@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 4. Juli 1837 Herrn Prof. Gerhard Livorno Rom 4 Juli 1837 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	4.	*[9]	DATEletter[9]
+1-7	26-30	Juli	*[9]	DATEletter[9]
+1-8	31-35	1837	*[9]	DATEletter[9]
+1-9	36-41	Herrn	_	_
+1-10	42-47	Prof.	_	_
+1-11	48-55	Gerhard	*	PERaddressee
+1-12	56-63	Livorno	*	PLACEto
+1-13	64-67	Rom	*	PLACEfrom
+1-14	68-69	4	*[10]	DATEletter[10]
+1-15	70-74	Juli	*[10]	DATEletter[10]
+1-16	75-79	1837	*[10]	DATEletter[10]
+1-17	80-81	.	_	_
+
+#Text=Sie sollen mich also hier vorfinden als ein unveräußerliches Inventar .
+2-1	82-85	Sie	_	_
+2-2	86-92	sollen	_	_
+2-3	93-97	mich	_	_
+2-4	98-102	also	_	_
+2-5	103-107	hier	_	_
+2-6	108-117	vorfinden	_	_
+2-7	118-121	als	_	_
+2-8	122-125	ein	_	_
+2-9	126-142	unveräußerliches	_	_
+2-10	143-151	Inventar	_	_
+2-11	152-153	.	_	_
+
+#Text=Meine Frau werde ich früher entlassen , so leid es ihr und mir thut , sie allein durch Italien reisen zu lassen .
+3-1	154-159	Meine	*[11]	PERmentioned[11]
+3-2	160-164	Frau	*[11]	PERmentioned[11]
+3-3	165-170	werde	_	_
+3-4	171-174	ich	_	_
+3-5	175-181	früher	_	_
+3-6	182-191	entlassen	_	_
+3-7	192-193	,	_	_
+3-8	194-196	so	_	_
+3-9	197-201	leid	_	_
+3-10	202-204	es	_	_
+3-11	205-208	ihr	_	_
+3-12	209-212	und	_	_
+3-13	213-216	mir	_	_
+3-14	217-221	thut	_	_
+3-15	222-223	,	_	_
+3-16	224-227	sie	_	_
+3-17	228-234	allein	_	_
+3-18	235-240	durch	_	_
+3-19	241-248	Italien	*	PLACEmentioned
+3-20	249-255	reisen	_	_
+3-21	256-258	zu	_	_
+3-22	259-265	lassen	_	_
+3-23	266-267	.	_	_
+
+#Text=Indessen seit Ihrem gestrigen Brief ist nun einmal alles festgemacht .
+4-1	268-276	Indessen	_	_
+4-2	277-281	seit	_	_
+4-3	282-287	Ihrem	_	_
+4-4	288-297	gestrigen	_	_
+4-5	298-303	Brief	_	_
+4-6	304-307	ist	_	_
+4-7	308-311	nun	_	_
+4-8	312-318	einmal	_	_
+4-9	319-324	alles	_	_
+4-10	325-336	festgemacht	_	_
+4-11	337-338	.	_	_
+
+#Text=Es bedarf daher dieser Punkt in unsrer Correspondenz keiner weiteren Erwähnung .
+5-1	339-341	Es	_	_
+5-2	342-348	bedarf	_	_
+5-3	349-354	daher	_	_
+5-4	355-361	dieser	_	_
+5-5	362-367	Punkt	_	_
+5-6	368-370	in	_	_
+5-7	371-377	unsrer	_	_
+5-8	378-391	Correspondenz	_	_
+5-9	392-398	keiner	_	_
+5-10	399-407	weiteren	_	_
+5-11	408-417	Erwähnung	_	_
+5-12	418-419	.	_	_
+
+#Text=Ob ich mit Ihnen von Rom abreisen kann , weiß ich freilich nicht , denn Sie werden hier allerlei Aufenthalt finden \; ich wünschte wenigstens noch vor Ende d. M. mit Ritschl zwischen Mailand und Venedig zusammenzutreffen .
+6-1	420-422	Ob	_	_
+6-2	423-426	ich	_	_
+6-3	427-430	mit	_	_
+6-4	431-436	Ihnen	_	_
+6-5	437-440	von	_	_
+6-6	441-444	Rom	*	PLACEmentioned
+6-7	445-453	abreisen	_	_
+6-8	454-458	kann	_	_
+6-9	459-460	,	_	_
+6-10	461-465	weiß	_	_
+6-11	466-469	ich	_	_
+6-12	470-478	freilich	_	_
+6-13	479-484	nicht	_	_
+6-14	485-486	,	_	_
+6-15	487-491	denn	_	_
+6-16	492-495	Sie	_	_
+6-17	496-502	werden	_	_
+6-18	503-507	hier	_	_
+6-19	508-516	allerlei	_	_
+6-20	517-527	Aufenthalt	_	_
+6-21	528-534	finden	_	_
+6-22	535-536	\;	_	_
+6-23	537-540	ich	_	_
+6-24	541-549	wünschte	_	_
+6-25	550-560	wenigstens	_	_
+6-26	561-565	noch	_	_
+6-27	566-569	vor	_	_
+6-28	570-574	Ende	*[12]	DATEmentioned[12]
+6-29	575-577	d.	*[12]	DATEmentioned[12]
+6-30	578-580	M.	*[12]	DATEmentioned[12]
+6-31	581-584	mit	_	_
+6-32	585-592	Ritschl	*	PERmentioned
+6-33	593-601	zwischen	_	_
+6-34	602-609	Mailand	*	PLACEmentioned
+6-35	610-613	und	_	_
+6-36	614-621	Venedig	*	PLACEmentioned
+6-37	622-639	zusammenzutreffen	_	_
+6-38	640-641	.	_	_
+
+#Text=Nach Mailand würde ich mich dann später wenden .
+7-1	642-646	Nach	_	_
+7-2	647-654	Mailand	*	PLACEmentioned
+7-3	655-660	würde	_	_
+7-4	661-664	ich	_	_
+7-5	665-669	mich	_	_
+7-6	670-674	dann	_	_
+7-7	675-681	später	_	_
+7-8	682-688	wenden	_	_
+7-9	689-690	.	_	_
+
+#Text=Doch basta , kommen Sie nur möglichst rasch hierher : alles andre soll sich finden .
+8-1	691-695	Doch	_	_
+8-2	696-701	basta	_	_
+8-3	702-703	,	_	_
+8-4	704-710	kommen	_	_
+8-5	711-714	Sie	_	_
+8-6	715-718	nur	_	_
+8-7	719-728	möglichst	_	_
+8-8	729-734	rasch	_	_
+8-9	735-742	hierher	_	_
+8-10	743-744	:	_	_
+8-11	745-750	alles	_	_
+8-12	751-756	andre	_	_
+8-13	757-761	soll	_	_
+8-14	762-766	sich	_	_
+8-15	767-773	finden	_	_
+8-16	774-775	.	_	_
+
+#Text=Mit Fossati habe ich Rücksprache genommen .
+9-1	776-779	Mit	_	_
+9-2	780-787	Fossati	*	PERmentioned
+9-3	788-792	habe	_	_
+9-4	793-796	ich	_	_
+9-5	797-808	Rücksprache	_	_
+9-6	809-817	genommen	_	_
+9-7	818-819	.	_	_
+
+#Text=Er 1äßt die Vasen selbst nach der Stadt kommen und verlangt für folgende Stücke , welche dem Museum säntlich passen können 800 Scudi .
+10-1	820-822	Er	_	_
+10-2	823-827	1äßt	_	_
+10-3	828-831	die	_	_
+10-4	832-837	Vasen	*	OBJ
+10-5	838-844	selbst	_	_
+10-6	845-849	nach	_	_
+10-7	850-853	der	_	_
+10-8	854-859	Stadt	_	_
+10-9	860-866	kommen	_	_
+10-10	867-870	und	_	_
+10-11	871-879	verlangt	_	_
+10-12	880-883	für	_	_
+10-13	884-892	folgende	_	_
+10-14	893-899	Stücke	_	_
+10-15	900-901	,	_	_
+10-16	902-908	welche	_	_
+10-17	909-912	dem	_	_
+10-18	913-919	Museum	*	ORGmentioned
+10-19	920-928	säntlich	_	_
+10-20	929-935	passen	_	_
+10-21	936-942	können	_	_
+10-22	943-946	800	_	_
+10-23	947-952	Scudi	_	_
+10-24	953-954	.	_	_
+
+#Text=Vielleicht läßt sich auch noch abhandeln : 1 .
+11-1	955-965	Vielleicht	_	_
+11-2	966-970	läßt	_	_
+11-3	971-975	sich	_	_
+11-4	976-980	auch	_	_
+11-5	981-985	noch	_	_
+11-6	986-995	abhandeln	_	_
+11-7	996-997	:	_	_
+11-8	998-999	1	_	_
+11-9	1000-1001	.	_	_
+
+#Text=Krater mit Sonnenaufgang und seltsamer Sphinxvorstellung \; trefflicherErhaltung , herrlicher Zeichnung und einzigen Gegenstands .
+12-1	1002-1008	Krater	*	OBJ
+12-2	1009-1012	mit	_	_
+12-3	1013-1026	Sonnenaufgang	_	_
+12-4	1027-1030	und	_	_
+12-5	1031-1040	seltsamer	_	_
+12-6	1041-1058	Sphinxvorstellung	_	_
+12-7	1059-1060	\;	_	_
+12-8	1061-1081	trefflicherErhaltung	_	_
+12-9	1082-1083	,	_	_
+12-10	1084-1094	herrlicher	_	_
+12-11	1095-1104	Zeichnung	_	_
+12-12	1105-1108	und	_	_
+12-13	1109-1117	einzigen	_	_
+12-14	1118-1129	Gegenstands	_	_
+12-15	1130-1131	.	_	_
+
+#Text=2 .
+13-1	1132-1133	2	_	_
+13-2	1134-1135	.	_	_
+
+#Text=Palladiumraub mit Amazonenkönigin in Verbindung gesetzt \; Pelika trefflichen Styls und wie es scheint guter Erhaltung .
+14-1	1136-1149	Palladiumraub	_	_
+14-2	1150-1153	mit	_	_
+14-3	1154-1169	Amazonenkönigin	_	_
+14-4	1170-1172	in	_	_
+14-5	1173-1183	Verbindung	_	_
+14-6	1184-1191	gesetzt	_	_
+14-7	1192-1193	\;	_	_
+14-8	1194-1200	Pelika	*	OBJ
+14-9	1201-1212	trefflichen	_	_
+14-10	1213-1218	Styls	_	_
+14-11	1219-1222	und	_	_
+14-12	1223-1226	wie	_	_
+14-13	1227-1229	es	_	_
+14-14	1230-1237	scheint	_	_
+14-15	1238-1243	guter	_	_
+14-16	1244-1253	Erhaltung	_	_
+14-17	1254-1255	.	_	_
+
+#Text=3 .
+15-1	1256-1257	3	_	_
+15-2	1258-1259	.	_	_
+
+#Text=Hercules Musagetes vor Zeus und Mars \; schöne Amphore mit schönen Figuten und so viel ich weiß
+16-1	1260-1268	Hercules	*	PERmentioned
+16-2	1269-1278	Musagetes	_	_
+16-3	1279-1282	vor	_	_
+16-4	1283-1287	Zeus	*	PERmentioned
+16-5	1288-1291	und	_	_
+16-6	1292-1296	Mars	*	PERmentioned
+16-7	1297-1298	\;	_	_
+16-8	1299-1305	schöne	_	_
+16-9	1306-1313	Amphore	*	OBJ
+16-10	1314-1317	mit	_	_
+16-11	1318-1325	schönen	_	_
+16-12	1326-1333	Figuten	_	_
+16-13	1334-1337	und	_	_
+16-14	1338-1340	so	_	_
+16-15	1341-1345	viel	_	_
+16-16	1346-1349	ich	_	_
+16-17	1350-1354	weiß	_	_

@@ -1,0 +1,71 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=772 Gerhard an Bunsen Breslau , 21. September 1835 finde ihn wohl nicht mehr in Berlin .
+1-1	0-3	772	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Bunsen	*	PERaddressee
+1-5	22-29	Breslau	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-35	21.	*[4]	DATEletter[4]
+1-8	36-45	September	*[4]	DATEletter[4]
+1-9	46-50	1835	*[4]	DATEletter[4]
+1-10	51-56	finde	_	_
+1-11	57-60	ihn	_	_
+1-12	61-65	wohl	_	_
+1-13	66-71	nicht	_	_
+1-14	72-76	mehr	_	_
+1-15	77-79	in	_	_
+1-16	80-86	Berlin	*	PLACEmentioned
+1-17	87-88	.	_	_
+
+#Text=Panofka wird dort wohl 8 Tage später als ich wieder eintreffen \; Ihr Brief bleibt ihm aufgehoben bei mir , da ich durch meine und seine Reise um seine sichre gegenwärtige Adresse gekommen bin .
+2-1	89-96	Panofka	*	PERmentioned
+2-2	97-101	wird	_	_
+2-3	102-106	dort	_	_
+2-4	107-111	wohl	_	_
+2-5	112-113	8	_	_
+2-6	114-118	Tage	_	_
+2-7	119-125	später	_	_
+2-8	126-129	als	_	_
+2-9	130-133	ich	_	_
+2-10	134-140	wieder	_	_
+2-11	141-151	eintreffen	_	_
+2-12	152-153	\;	_	_
+2-13	154-157	Ihr	_	_
+2-14	158-163	Brief	_	_
+2-15	164-170	bleibt	_	_
+2-16	171-174	ihm	_	_
+2-17	175-185	aufgehoben	_	_
+2-18	186-189	bei	_	_
+2-19	190-193	mir	_	_
+2-20	194-195	,	_	_
+2-21	196-198	da	_	_
+2-22	199-202	ich	_	_
+2-23	203-208	durch	_	_
+2-24	209-214	meine	_	_
+2-25	215-218	und	_	_
+2-26	219-224	seine	_	_
+2-27	225-230	Reise	_	_
+2-28	231-233	um	_	_
+2-29	234-239	seine	_	_
+2-30	240-246	sichre	_	_
+2-31	247-259	gegenwärtige	_	_
+2-32	260-267	Adresse	_	_
+2-33	268-276	gekommen	_	_
+2-34	277-280	bin	_	_
+2-35	281-282	.	_	_
+
+#Text=Mit den angelegentlichsten Empfehlungen und Grüßen unwandelbar der Ihrige Gerhard
+3-1	283-286	Mit	_	_
+3-2	287-290	den	_	_
+3-3	291-309	angelegentlichsten	_	_
+3-4	310-322	Empfehlungen	_	_
+3-5	323-326	und	_	_
+3-6	327-333	Grüßen	_	_
+3-7	334-345	unwandelbar	_	_
+3-8	346-349	der	_	_
+3-9	350-356	Ihrige	_	_
+3-10	357-364	Gerhard	*	PERauthor

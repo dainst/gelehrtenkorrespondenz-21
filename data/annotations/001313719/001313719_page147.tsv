@@ -1,0 +1,216 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin 20/V1/1848 A. di Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-35	20/V1/1848	*	DATEletter
+1-6	36-38	A.	_	_
+1-7	39-41	di	_	_
+1-8	42-45	Dir	_	_
+1-9	46-47	.	_	_
+
+#Text=g . 30/VI 48 r . 4/VII 48 Berlin 20 Juni 48 Lieber Henzen .
+2-1	48-49	g	_	_
+2-2	50-51	.	_	_
+2-3	52-57	30/VI	*[1]	DATErecieved[1]
+2-4	58-60	48	*[1]	DATErecieved[1]
+2-5	61-62	r	_	_
+2-6	63-64	.	_	_
+2-7	65-70	4/VII	*[2]	DATEanswered[2]
+2-8	71-73	48	*[2]	DATEanswered[2]
+2-9	74-80	Berlin	*	PLACEfrom
+2-10	81-83	20	*[3]	DATEletter[3]
+2-11	84-88	Juni	*[3]	DATEletter[3]
+2-12	89-91	48	*[3]	DATEletter[3]
+2-13	92-98	Lieber	_	_
+2-14	99-105	Henzen	*	PERaddressee
+2-15	106-107	.	_	_
+
+#Text=Lersch scheint seine Schuldigkeit gethan und in 6 an mich Iear gesandten „ ExemplarenIhrer Schrift nur den Berliner Bedarf gemeint zu haben .
+3-1	108-114	Lersch	*	PERmentioned
+3-2	115-122	scheint	_	_
+3-3	123-128	seine	_	_
+3-4	129-141	Schuldigkeit	_	_
+3-5	142-148	gethan	_	_
+3-6	149-152	und	_	_
+3-7	153-155	in	_	_
+3-8	156-157	6	_	_
+3-9	158-160	an	_	_
+3-10	161-165	mich	_	_
+3-11	166-170	Iear	_	_
+3-12	171-180	gesandten	_	_
+3-13	181-182	„	_	_
+3-14	183-198	ExemplarenIhrer	_	_
+3-15	199-206	Schrift	_	_
+3-16	207-210	nur	_	_
+3-17	211-214	den	_	_
+3-18	215-223	Berliner	*	PLACEmentioned
+3-19	224-230	Bedarf	_	_
+3-20	231-238	gemeint	_	_
+3-21	239-241	zu	_	_
+3-22	242-247	haben	_	_
+3-23	248-249	.	_	_
+
+#Text=Ich lassen dieselben sofort anständig broschiren und werde sie dann nach Vorschrift unter Ihre hiesigen Begünstigten - Neigebaur hat als 6 ter sich eben hinzugefunden - sofort vertheilen , .
+4-1	250-253	Ich	_	_
+4-2	254-260	lassen	_	_
+4-3	261-270	dieselben	_	_
+4-4	271-277	sofort	_	_
+4-5	278-287	anständig	_	_
+4-6	288-298	broschiren	_	_
+4-7	299-302	und	_	_
+4-8	303-308	werde	_	_
+4-9	309-312	sie	_	_
+4-10	313-317	dann	_	_
+4-11	318-322	nach	_	_
+4-12	323-333	Vorschrift	_	_
+4-13	334-339	unter	_	_
+4-14	340-344	Ihre	_	_
+4-15	345-353	hiesigen	_	_
+4-16	354-366	Begünstigten	_	_
+4-17	367-368	-	_	_
+4-18	369-378	Neigebaur	*	PERmentioned
+4-19	379-382	hat	_	_
+4-20	383-386	als	_	_
+4-21	387-388	6	_	_
+4-22	389-392	ter	_	_
+4-23	393-397	sich	_	_
+4-24	398-402	eben	_	_
+4-25	403-416	hinzugefunden	_	_
+4-26	417-418	-	_	_
+4-27	419-425	sofort	_	_
+4-28	426-436	vertheilen	_	_
+4-29	437-438	,	_	_
+4-30	439-440	.	_	_
+
+#Text=Horkel vicarirt den Sommer über in Brandenburg für einen Cont & ctor der beim Landtag ist .
+5-1	441-447	Horkel	*	PERmentioned
+5-2	448-456	vicarirt	_	_
+5-3	457-460	den	_	_
+5-4	461-467	Sommer	_	_
+5-5	468-472	über	_	_
+5-6	473-475	in	_	_
+5-7	476-487	Brandenburg	*	PLACEmentioned
+5-8	488-491	für	_	_
+5-9	492-497	einen	_	_
+5-10	498-502	Cont	_	_
+5-11	503-504	&	_	_
+5-12	505-509	ctor	_	_
+5-13	510-513	der	_	_
+5-14	514-518	beim	_	_
+5-15	519-526	Landtag	_	_
+5-16	527-530	ist	_	_
+5-17	531-532	.	_	_
+
+#Text=Ihr Aufsatz über die Augustalen ist in der Zeitung für Alterthüner , gedruckt .
+6-1	533-536	Ihr	_	_
+6-2	537-544	Aufsatz	_	_
+6-3	545-549	über	_	_
+6-4	550-553	die	_	_
+6-5	554-564	Augustalen	_	_
+6-6	565-568	ist	_	_
+6-7	569-571	in	_	_
+6-8	572-575	der	_	_
+6-9	576-583	Zeitung	_	_
+6-10	584-587	für	_	_
+6-11	588-599	Alterthüner	_	_
+6-12	600-601	,	_	_
+6-13	602-610	gedruckt	_	_
+6-14	611-612	.	_	_
+
+#Text=Niebuhr hatte seit seiner Anstellung in Magdeburg die Masern .
+7-1	613-620	Niebuhr	*	PERmentioned
+7-2	621-626	hatte	_	_
+7-3	627-631	seit	_	_
+7-4	632-638	seiner	_	_
+7-5	639-649	Anstellung	_	_
+7-6	650-652	in	_	_
+7-7	653-662	Magdeburg	*	PLACEmentioned
+7-8	663-666	die	_	_
+7-9	667-673	Masern	_	_
+7-10	674-675	.	_	_
+
+#Text=Ueber unsre Nöthen erfahren Sie durch die Zeitun- „ ven yira seplündert .
+8-1	676-681	Ueber	_	_
+8-2	682-687	unsre	_	_
+8-3	688-694	Nöthen	_	_
+8-4	695-703	erfahren	_	_
+8-5	704-707	Sie	_	_
+8-6	708-713	durch	_	_
+8-7	714-717	die	_	_
+8-8	718-725	Zeitun-	_	_
+8-9	726-727	„	_	_
+8-10	728-731	ven	_	_
+8-11	732-736	yira	_	_
+8-12	737-747	seplündert	_	_
+8-13	748-749	.	_	_
+
+#Text=Der Republik gehn gen : seit dem 1 wir entgegen und zwar mit starken Schritten .
+9-1	750-753	Der	_	_
+9-2	754-762	Republik	_	_
+9-3	763-767	gehn	_	_
+9-4	768-771	gen	_	_
+9-5	772-773	:	_	_
+9-6	774-778	seit	_	_
+9-7	779-782	dem	_	_
+9-8	783-784	1	_	_
+9-9	785-788	wir	_	_
+9-10	789-797	entgegen	_	_
+9-11	798-801	und	_	_
+9-12	802-806	zwar	_	_
+9-13	807-810	mit	_	_
+9-14	811-818	starken	_	_
+9-15	819-828	Schritten	_	_
+9-16	829-830	.	_	_
+
+#Text=Meine Frau grüßt bestens und ermahnt die Ihrige einmal von sich hören zu lassen , der ich mich gleichfalls zu empfehlen bitte .
+10-1	831-836	Meine	_	_
+10-2	837-841	Frau	_	_
+10-3	842-847	grüßt	_	_
+10-4	848-855	bestens	_	_
+10-5	856-859	und	_	_
+10-6	860-867	ermahnt	_	_
+10-7	868-871	die	_	_
+10-8	872-878	Ihrige	_	_
+10-9	879-885	einmal	_	_
+10-10	886-889	von	_	_
+10-11	890-894	sich	_	_
+10-12	895-900	hören	_	_
+10-13	901-903	zu	_	_
+10-14	904-910	lassen	_	_
+10-15	911-912	,	_	_
+10-16	913-916	der	_	_
+10-17	917-920	ich	_	_
+10-18	921-925	mich	_	_
+10-19	926-937	gleichfalls	_	_
+10-20	938-940	zu	_	_
+10-21	941-950	empfehlen	_	_
+10-22	951-956	bitte	_	_
+10-23	957-958	.	_	_
+
+#Text=Steinhaeusers Hero und Leander war ein Prachtstück hei in einer Sonst wenig besuchten und wenig wiögenden Ausstellung der Akademischen Künste .
+11-1	959-972	Steinhaeusers	*	PERmentioned
+11-2	973-977	Hero	_	_
+11-3	978-981	und	_	_
+11-4	982-989	Leander	*	PERmentioned
+11-5	990-993	war	_	_
+11-6	994-997	ein	_	_
+11-7	998-1009	Prachtstück	_	_
+11-8	1010-1013	hei	_	_
+11-9	1014-1016	in	_	_
+11-10	1017-1022	einer	_	_
+11-11	1023-1028	Sonst	_	_
+11-12	1029-1034	wenig	_	_
+11-13	1035-1044	besuchten	_	_
+11-14	1045-1048	und	_	_
+11-15	1049-1054	wenig	_	_
+11-16	1055-1064	wiögenden	_	_
+11-17	1065-1076	Ausstellung	_	_
+11-18	1077-1080	der	_	_
+11-19	1081-1093	Akademischen	_	_
+11-20	1094-1100	Künste	_	_
+11-21	1101-1102	.	_	_

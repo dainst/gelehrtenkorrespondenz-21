@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=333 Brunn an Henzen Oranienbaum,21.Juli 1864 g . 28. Juli 1864 r . 29. Juli 1864 Oranienbaum , 21 Juli 1864 .
+1-1	0-3	333	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-39	Oranienbaum,21.Juli	_	_
+1-6	40-44	1864	_	_
+1-7	45-46	g	_	_
+1-8	47-48	.	_	_
+1-9	49-52	28.	*[5]	DATErecieved[5]
+1-10	53-57	Juli	*[5]	DATErecieved[5]
+1-11	58-62	1864	*[5]	DATErecieved[5]
+1-12	63-64	r	*[5]	DATErecieved[5]
+1-13	65-66	.	*[5]	DATErecieved[5]
+1-14	67-70	29.	*[6]	DATEanswered[6]
+1-15	71-75	Juli	*[6]	DATEanswered[6]
+1-16	76-80	1864	*[6]	DATEanswered[6]
+1-17	81-92	Oranienbaum	*	PLACEfrom
+1-18	93-94	,	_	_
+1-19	95-97	21	*[7]	DATEletter[7]
+1-20	98-102	Juli	*[7]	DATEletter[7]
+1-21	103-107	1864	*[7]	DATEletter[7]
+1-22	108-109	.	_	_
+
+#Text=Lieber Henzen !
+2-1	110-116	Lieber	_	_
+2-2	117-123	Henzen	*	PERaddressee
+2-3	124-125	!	_	_
+
+#Text=Gestern früh hier eingerückt , um morgen in Berlin zu sein \; Halle und Köthen sogar vorläufig noch ganz bei Seite gelassen .
+3-1	126-133	Gestern	_	_
+3-2	134-138	früh	_	_
+3-3	139-143	hier	_	_
+3-4	144-154	eingerückt	_	_
+3-5	155-156	,	_	_
+3-6	157-159	um	_	_
+3-7	160-166	morgen	_	_
+3-8	167-169	in	_	_
+3-9	170-176	Berlin	*	PLACEmentioned
+3-10	177-179	zu	_	_
+3-11	180-184	sein	_	_
+3-12	185-186	\;	_	_
+3-13	187-192	Halle	*	PLACEmentioned
+3-14	193-196	und	_	_
+3-15	197-203	Köthen	*	PLACEmentioned
+3-16	204-209	sogar	_	_
+3-17	210-219	vorläufig	_	_
+3-18	220-224	noch	_	_
+3-19	225-229	ganz	_	_
+3-20	230-233	bei	_	_
+3-21	234-239	Seite	_	_
+3-22	240-248	gelassen	_	_
+3-23	249-250	.	_	_
+
+#Text=In Bonn war ich bis Dienstag 41T , dann an der Nahe beiSzcezepanski 1 1/2 Tag , nicht länger ( inclusive flüchtigen Besuch in Mainz ) bei meiner Schwester in Wiesbaden .
+4-1	251-253	In	_	_
+4-2	254-258	Bonn	*	PLACEmentioned
+4-3	259-262	war	_	_
+4-4	263-266	ich	_	_
+4-5	267-270	bis	_	_
+4-6	271-279	Dienstag	*	DATEmentioned
+4-7	280-283	41T	_	_
+4-8	284-285	,	_	_
+4-9	286-290	dann	_	_
+4-10	291-293	an	_	_
+4-11	294-297	der	_	_
+4-12	298-302	Nahe	_	_
+4-13	303-318	beiSzcezepanski	*	PERmentioned
+4-14	319-320	1	_	_
+4-15	321-324	1/2	_	_
+4-16	325-328	Tag	_	_
+4-17	329-330	,	_	_
+4-18	331-336	nicht	_	_
+4-19	337-343	länger	_	_
+4-20	344-345	(	_	_
+4-21	346-355	inclusive	_	_
+4-22	356-366	flüchtigen	_	_
+4-23	367-373	Besuch	_	_
+4-24	374-376	in	_	_
+4-25	377-382	Mainz	*	PLACEmentioned
+4-26	383-384	)	_	_
+4-27	385-388	bei	_	_
+4-28	389-395	meiner	_	_
+4-29	396-405	Schwester	_	_
+4-30	406-408	in	_	_
+4-31	409-418	Wiesbaden	*	PLACEmentioned
+4-32	419-420	.	_	_
+
+#Text=Hebel wohnt weit abwärts auf dem Lande und war micht nicht erreichbar .
+5-1	421-426	Hebel	*	PERmentioned
+5-2	427-432	wohnt	_	_
+5-3	433-437	weit	_	_
+5-4	438-445	abwärts	_	_
+5-5	446-449	auf	_	_
+5-6	450-453	dem	_	_
+5-7	454-459	Lande	_	_
+5-8	460-463	und	_	_
+5-9	464-467	war	_	_
+5-10	468-473	micht	_	_
+5-11	474-479	nicht	_	_
+5-12	480-490	erreichbar	_	_
+5-13	491-492	.	_	_
+
+#Text=In Mannheim hatte ich mehrere Stunden Urnen zu revidiren .
+6-1	493-495	In	_	_
+6-2	496-504	Mannheim	*	PLACEmentioned
+6-3	505-510	hatte	_	_
+6-4	511-514	ich	_	_
+6-5	515-522	mehrere	_	_
+6-6	523-530	Stunden	_	_
+6-7	531-536	Urnen	*	OBJ
+6-8	537-539	zu	_	_
+6-9	540-549	revidiren	_	_
+6-10	550-551	.	_	_
+
+#Text=In Frankfurt knapp einen Tag bei Tycho Mommsen und seinen 8 Kindern \; bei Becker und Cornill .
+7-1	552-554	In	_	_
+7-2	555-564	Frankfurt	*	PLACEmentioned
+7-3	565-570	knapp	_	_
+7-4	571-576	einen	_	_
+7-5	577-580	Tag	_	_
+7-6	581-584	bei	_	_
+7-7	585-590	Tycho	*[8]	PERmentioned[8]
+7-8	591-598	Mommsen	*[8]	PERmentioned[8]
+7-9	599-602	und	_	_
+7-10	603-609	seinen	_	_
+7-11	610-611	8	_	_
+7-12	612-619	Kindern	_	_
+7-13	620-621	\;	_	_
+7-14	622-625	bei	_	_
+7-15	626-632	Becker	*	PERmentioned
+7-16	633-636	und	_	_
+7-17	637-644	Cornill	*	PERmentioned
+7-18	645-646	.	_	_
+
+#Text=Bei Schmidts in Marburg 1 Tag , dt . in Gotha bei meinen Schwager : Marquardt auf dem Lande \; aber Spangenbergers hübsche Schwester anwesend .
+8-1	647-650	Bei	_	_
+8-2	651-659	Schmidts	*	PERmentioned
+8-3	660-662	in	_	_
+8-4	663-670	Marburg	*	PLACEmentioned
+8-5	671-672	1	_	_
+8-6	673-676	Tag	_	_
+8-7	677-678	,	_	_
+8-8	679-681	dt	_	_
+8-9	682-683	.	_	_
+8-10	684-686	in	_	_
+8-11	687-692	Gotha	*	PLACEmentioned
+8-12	693-696	bei	_	_
+8-13	697-703	meinen	_	_
+8-14	704-712	Schwager	_	_
+8-15	713-714	:	_	_
+8-16	715-724	Marquardt	*	PERmentioned
+8-17	725-728	auf	_	_
+8-18	729-732	dem	_	_
+8-19	733-738	Lande	_	_
+8-20	739-740	\;	_	_
+8-21	741-745	aber	_	_
+8-22	746-760	Spangenbergers	*	PERmentioned
+8-23	761-768	hübsche	_	_
+8-24	769-778	Schwester	_	_
+8-25	779-787	anwesend	_	_
+8-26	788-789	.	_	_
+
+#Text=Von Personalien werde ich Ihnen manches mündlich zu erzählen haben .
+9-1	790-793	Von	_	_
+9-2	794-805	Personalien	_	_
+9-3	806-811	werde	_	_
+9-4	812-815	ich	_	_
+9-5	816-821	Ihnen	_	_
+9-6	822-829	manches	_	_
+9-7	830-838	mündlich	_	_
+9-8	839-841	zu	_	_
+9-9	842-850	erzählen	_	_
+9-10	851-856	haben	_	_
+9-11	857-858	.	_	_
+
+#Text=In Paris hatte ich wegen der Bücherkiste ausgemacht , daß sie & wa 14 Tage nach meiner Abreise abgehen sollte , bis wohin Renier noch einiges zu liefern gedachte .
+10-1	859-861	In	_	_
+10-2	862-867	Paris	*	PLACEmentioned
+10-3	868-873	hatte	_	_
+10-4	874-877	ich	_	_
+10-5	878-883	wegen	_	_
+10-6	884-887	der	_	_
+10-7	888-899	Bücherkiste	_	_
+10-8	900-910	ausgemacht	_	_
+10-9	911-912	,	_	_
+10-10	913-916	daß	_	_
+10-11	917-920	sie	_	_
+10-12	921-922	&	_	_
+10-13	923-925	wa	_	_
+10-14	926-928	14	_	_
+10-15	929-933	Tage	_	_
+10-16	934-938	nach	_	_
+10-17	939-945	meiner	_	_
+10-18	946-953	Abreise	_	_
+10-19	954-961	abgehen	_	_
+10-20	962-968	sollte	_	_
+10-21	969-970	,	_	_
+10-22	971-974	bis	_	_
+10-23	975-980	wohin	_	_
+10-24	981-987	Renier	*	PERmentioned
+10-25	988-992	noch	_	_
+10-26	993-1000	einiges	_	_
+10-27	1001-1003	zu	_	_
+10-28	1004-1011	liefern	_	_
+10-29	1012-1020	gedachte	_	_
+10-30	1021-1022	.	_	_
+
+#Text=Clarac hatte ich leider noch nicht in Händen trotz eifrigster Anstrengung .
+11-1	1023-1029	Clarac	*	PERmentioned
+11-2	1030-1035	hatte	_	_
+11-3	1036-1039	ich	_	_
+11-4	1040-1046	leider	_	_
+11-5	1047-1051	noch	_	_
+11-6	1052-1057	nicht	_	_
+11-7	1058-1060	in	_	_
+11-8	1061-1067	Händen	_	_
+11-9	1068-1073	trotz	_	_
+11-10	1074-1084	eifrigster	_	_
+11-11	1085-1096	Anstrengung	_	_
+11-12	1097-1098	.	_	_
+
+#Text=Ob der Bummler Longperier berechtigt
+12-1	1099-1101	Ob	_	_
+12-2	1102-1105	der	_	_
+12-3	1106-1113	Bummler	*	PERmentioned
+12-4	1114-1124	Longperier	*	PERmentioned
+12-5	1125-1135	berechtigt	_	_

@@ -1,0 +1,245 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\\ wo 902 Braun an Gerhard Rom , 23. Juni 1835 Roma , 23/6 35 .
+1-1	0-1	\\	_	_
+1-2	2-4	wo	_	_
+1-3	5-8	902	_	_
+1-4	9-14	Braun	*	PERauthor
+1-5	15-17	an	_	_
+1-6	18-25	Gerhard	*	PERaddressee
+1-7	26-29	Rom	*	PLACEfrom
+1-8	30-31	,	_	_
+1-9	32-35	23.	*[1]	DATEletter[1]
+1-10	36-40	Juni	*[1]	DATEletter[1]
+1-11	41-45	1835	*[1]	DATEletter[1]
+1-12	46-50	Roma	*	PLACEfrom
+1-13	51-52	,	_	_
+1-14	53-57	23/6	*[2]	DATEletter[2]
+1-15	58-60	35	*[2]	DATEletter[2]
+1-16	61-62	.	_	_
+
+#Text=Hochverehrtester Freund !
+2-1	63-79	Hochverehrtester	_	_
+2-2	80-86	Freund	_	_
+2-3	87-88	!	_	_
+
+#Text=Seit dem 25ten Mai erhielt ich keinen Brief mehr von Ihnen.Bunsen schreibt mir von Frascati , daß Ihre officielle Antwort angekommen aber von ihm noch nicht studirt sei .
+3-1	89-93	Seit	_	_
+3-2	94-97	dem	_	_
+3-3	98-103	25ten	*[3]	DATEmentioned[3]
+3-4	104-107	Mai	*[3]	DATEmentioned[3]
+3-5	108-115	erhielt	_	_
+3-6	116-119	ich	_	_
+3-7	120-126	keinen	_	_
+3-8	127-132	Brief	_	_
+3-9	133-137	mehr	_	_
+3-10	138-141	von	_	_
+3-11	142-154	Ihnen.Bunsen	*	PERmentioned
+3-12	155-163	schreibt	_	_
+3-13	164-167	mir	_	_
+3-14	168-171	von	_	_
+3-15	172-180	Frascati	*	PLACEmentioned
+3-16	181-182	,	_	_
+3-17	183-186	daß	_	_
+3-18	187-191	Ihre	_	_
+3-19	192-202	officielle	_	_
+3-20	203-210	Antwort	_	_
+3-21	211-221	angekommen	_	_
+3-22	222-226	aber	_	_
+3-23	227-230	von	_	_
+3-24	231-234	ihm	_	_
+3-25	235-239	noch	_	_
+3-26	240-245	nicht	_	_
+3-27	246-253	studirt	_	_
+3-28	254-257	sei	_	_
+3-29	258-259	.	_	_
+
+#Text=Daß Sie in den Hauptpunkten einverstanden wären , versichert er mit Freunde .
+4-1	260-263	Daß	_	_
+4-2	264-267	Sie	_	_
+4-3	268-270	in	_	_
+4-4	271-274	den	_	_
+4-5	275-287	Hauptpunkten	_	_
+4-6	288-301	einverstanden	_	_
+4-7	302-307	wären	_	_
+4-8	308-309	,	_	_
+4-9	310-320	versichert	_	_
+4-10	321-323	er	_	_
+4-11	324-327	mit	_	_
+4-12	328-335	Freunde	_	_
+4-13	336-337	.	_	_
+
+#Text=Kellermann ist Knall und Fäll nach Kopenhagen abgereist .
+5-1	338-348	Kellermann	*	PERmentioned
+5-2	349-352	ist	_	_
+5-3	353-358	Knall	_	_
+5-4	359-362	und	_	_
+5-5	363-367	Fäll	_	_
+5-6	368-372	nach	_	_
+5-7	373-383	Kopenhagen	*	PLACEmentioned
+5-8	384-393	abgereist	_	_
+5-9	394-395	.	_	_
+
+#Text=Seine Vigiles sind noch nicht zu Ende gedruckt .
+6-1	396-401	Seine	_	_
+6-2	402-409	Vigiles	*	LIT
+6-3	410-414	sind	_	_
+6-4	415-419	noch	_	_
+6-5	420-425	nicht	_	_
+6-6	426-428	zu	_	_
+6-7	429-433	Ende	_	_
+6-8	434-442	gedruckt	_	_
+6-9	443-444	.	_	_
+
+#Text=Die Indices sind mir und dem Lanci auf dem Hals geblieben .
+7-1	445-448	Die	_	_
+7-2	449-456	Indices	_	_
+7-3	457-461	sind	_	_
+7-4	462-465	mir	_	_
+7-5	466-469	und	_	_
+7-6	470-473	dem	_	_
+7-7	474-479	Lanci	*	PERmentioned
+7-8	480-483	auf	_	_
+7-9	484-487	dem	_	_
+7-10	488-492	Hals	_	_
+7-11	493-502	geblieben	_	_
+7-12	503-504	.	_	_
+
+#Text=Motiv seiner Reise ist der wirkliche Plan eines sroßen die ganze lateinische Epigraphik systematisch in sich aufnehmenden Werks : Sarti hat sich ihm als Mitarbeiter beigestellt , dann Borghesi und wen sie von jüngeren Gelefhten dafür gewinnen können .
+8-1	505-510	Motiv	_	_
+8-2	511-517	seiner	_	_
+8-3	518-523	Reise	_	_
+8-4	524-527	ist	_	_
+8-5	528-531	der	_	_
+8-6	532-541	wirkliche	_	_
+8-7	542-546	Plan	_	_
+8-8	547-552	eines	_	_
+8-9	553-559	sroßen	_	_
+8-10	560-563	die	_	_
+8-11	564-569	ganze	_	_
+8-12	570-581	lateinische	_	_
+8-13	582-592	Epigraphik	_	_
+8-14	593-605	systematisch	_	_
+8-15	606-608	in	_	_
+8-16	609-613	sich	_	_
+8-17	614-626	aufnehmenden	_	_
+8-18	627-632	Werks	_	_
+8-19	633-634	:	_	_
+8-20	635-640	Sarti	*	PERmentioned
+8-21	641-644	hat	_	_
+8-22	645-649	sich	_	_
+8-23	650-653	ihm	_	_
+8-24	654-657	als	_	_
+8-25	658-669	Mitarbeiter	_	_
+8-26	670-681	beigestellt	_	_
+8-27	682-683	,	_	_
+8-28	684-688	dann	_	_
+8-29	689-697	Borghesi	_	_
+8-30	698-701	und	_	_
+8-31	702-705	wen	_	_
+8-32	706-709	sie	_	_
+8-33	710-713	von	_	_
+8-34	714-722	jüngeren	_	_
+8-35	723-732	Gelefhten	_	_
+8-36	733-738	dafür	_	_
+8-37	739-747	gewinnen	_	_
+8-38	748-754	können	_	_
+8-39	755-756	.	_	_
+
+#Text=Die Unterstützung der dänischen Regierung persönlich in Anspruch zu nehmen ist er also nach Kopenhagen abgereist \; kehrt nach Halbjahrfrist hierher zurück und will zum Werke schreiten .
+9-1	757-760	Die	_	_
+9-2	761-774	Unterstützung	_	_
+9-3	775-778	der	_	_
+9-4	779-788	dänischen	*[4]	ORGmentioned[4]
+9-5	789-798	Regierung	*[4]	ORGmentioned[4]
+9-6	799-809	persönlich	_	_
+9-7	810-812	in	_	_
+9-8	813-821	Anspruch	_	_
+9-9	822-824	zu	_	_
+9-10	825-831	nehmen	_	_
+9-11	832-835	ist	_	_
+9-12	836-838	er	_	_
+9-13	839-843	also	_	_
+9-14	844-848	nach	_	_
+9-15	849-859	Kopenhagen	*	PLACEmentioned
+9-16	860-869	abgereist	_	_
+9-17	870-871	\;	_	_
+9-18	872-877	kehrt	_	_
+9-19	878-882	nach	_	_
+9-20	883-896	Halbjahrfrist	*	DATEmentioned
+9-21	897-904	hierher	_	_
+9-22	905-911	zurück	_	_
+9-23	912-915	und	_	_
+9-24	916-920	will	_	_
+9-25	921-924	zum	_	_
+9-26	925-930	Werke	_	_
+9-27	931-940	schreiten	_	_
+9-28	941-942	.	_	_
+
+#Text=Die Unterstützung einer Regierung reicht nicht aus : Sarti versucht es daher bei dem Governo , Bunsen in ferlin etc. - In Toscanella ist ein Spiegel zum Vorschein gekommen von der schönsten Größe und guter Zeichnung mit den „ seen nn0ce 2 vor Theben : Amphiorous , Tyren , Adrassus .
+10-1	943-946	Die	_	_
+10-2	947-960	Unterstützung	_	_
+10-3	961-966	einer	_	_
+10-4	967-976	Regierung	*	ORGmentioned
+10-5	977-983	reicht	_	_
+10-6	984-989	nicht	_	_
+10-7	990-993	aus	_	_
+10-8	994-995	:	_	_
+10-9	996-1001	Sarti	*	PERmentioned
+10-10	1002-1010	versucht	_	_
+10-11	1011-1013	es	_	_
+10-12	1014-1019	daher	_	_
+10-13	1020-1023	bei	_	_
+10-14	1024-1027	dem	_	_
+10-15	1028-1035	Governo	*	ORGmentioned
+10-16	1036-1037	,	_	_
+10-17	1038-1044	Bunsen	*	PERmentioned
+10-18	1045-1047	in	_	_
+10-19	1048-1054	ferlin	_	_
+10-20	1055-1059	etc.	_	_
+10-21	1060-1061	-	_	_
+10-22	1062-1064	In	_	_
+10-23	1065-1075	Toscanella	*	PLACEmentioned
+10-24	1076-1079	ist	*[5]	OBJ[5]
+10-25	1080-1083	ein	*[5]	OBJ[5]
+10-26	1084-1091	Spiegel	*[5]	OBJ[5]
+10-27	1092-1095	zum	*[5]	OBJ[5]
+10-28	1096-1105	Vorschein	*[5]	OBJ[5]
+10-29	1106-1114	gekommen	*[5]	OBJ[5]
+10-30	1115-1118	von	*[5]	OBJ[5]
+10-31	1119-1122	der	*[5]	OBJ[5]
+10-32	1123-1132	schönsten	*[5]	OBJ[5]
+10-33	1133-1138	Größe	*[5]	OBJ[5]
+10-34	1139-1142	und	*[5]	OBJ[5]
+10-35	1143-1148	guter	*[5]	OBJ[5]
+10-36	1149-1158	Zeichnung	*[5]	OBJ[5]
+10-37	1159-1162	mit	*[5]	OBJ[5]
+10-38	1163-1166	den	*[5]	OBJ[5]
+10-39	1167-1168	„	*[5]	OBJ[5]
+10-40	1169-1173	seen	*[5]	OBJ[5]
+10-41	1174-1179	nn0ce	*[5]	OBJ[5]
+10-42	1180-1181	2	*[5]	OBJ[5]
+10-43	1182-1185	vor	*[5]	OBJ[5]
+10-44	1186-1192	Theben	*[5]|*[6]	OBJ[5]|PLACEmentioned[6]
+10-45	1193-1194	:	*[5]	OBJ[5]
+10-46	1195-1205	Amphiorous	*[5]|*[7]	OBJ[5]|PERmentioned[7]
+10-47	1206-1207	,	*[5]	OBJ[5]
+10-48	1208-1213	Tyren	*[5]|*[8]	OBJ[5]|PERmentioned[8]
+10-49	1214-1215	,	*[5]	OBJ[5]
+10-50	1216-1224	Adrassus	*[5]|*[9]	OBJ[5]|PERmentioned[9]
+10-51	1225-1226	.	*[5]	OBJ[5]
+
+#Text=Der eine , nicht aber der von der Sage bezeichnete hält
+11-1	1227-1230	Der	*[5]	OBJ[5]
+11-2	1231-1235	eine	*[5]	OBJ[5]
+11-3	1236-1237	,	*[5]	OBJ[5]
+11-4	1238-1243	nicht	_	_
+11-5	1244-1248	aber	_	_
+11-6	1249-1252	der	_	_
+11-7	1253-1256	von	_	_
+11-8	1257-1260	der	_	_
+11-9	1261-1265	Sage	_	_
+11-10	1266-1277	bezeichnete	_	_
+11-11	1278-1282	hält	_	_

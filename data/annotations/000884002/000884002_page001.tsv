@@ -1,0 +1,267 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=A A TTN 220 Brunn an Henzen Perugia , 18. Juli 1858 A. di Dir .
+1-1	0-1	A	_	_
+1-2	2-3	A	_	_
+1-3	4-7	TTN	_	_
+1-4	8-11	220	_	_
+1-5	12-17	Brunn	*	PERauthor
+1-6	18-20	an	_	_
+1-7	21-27	Henzen	*	PERaddressee
+1-8	28-35	Perugia	*	PLACEfrom
+1-9	36-37	,	_	_
+1-10	38-41	18.	_	_
+1-11	42-46	Juli	*[1]	DATEletter[1]
+1-12	47-51	1858	*[1]	DATEletter[1]
+1-13	52-54	A.	_	_
+1-14	55-57	di	_	_
+1-15	58-61	Dir	_	_
+1-16	62-63	.	_	_
+
+#Text=8 . 22. Juli 1858 r . 23. Juli 1858 Perugia 18 Juli 1858 .
+2-1	64-65	8	_	_
+2-2	66-67	.	_	_
+2-3	68-71	22.	*[2]	DATErecieved[2]
+2-4	72-76	Juli	*[2]	DATErecieved[2]
+2-5	77-81	1858	*[2]	DATErecieved[2]
+2-6	82-83	r	_	_
+2-7	84-85	.	_	_
+2-8	86-89	23.	*[3]	DATEanswered[3]
+2-9	90-94	Juli	*[3]	DATEanswered[3]
+2-10	95-99	1858	*[3]	DATEanswered[3]
+2-11	100-107	Perugia	*	PLACEfrom
+2-12	108-110	18	*[4]	DATEletter[4]
+2-13	111-115	Juli	*[4]	DATEletter[4]
+2-14	116-120	1858	*[4]	DATEletter[4]
+2-15	121-122	.	_	_
+
+#Text=Lieber Henzen In Narni , wo wir schon Freitag früh 7 Uhr ankamen , war nichts für uns zu holen .
+3-1	123-129	Lieber	_	_
+3-2	130-136	Henzen	*	PERaddressee
+3-3	137-139	In	_	_
+3-4	140-145	Narni	*	PLACEmentioned
+3-5	146-147	,	_	_
+3-6	148-150	wo	_	_
+3-7	151-154	wir	_	_
+3-8	155-160	schon	_	_
+3-9	161-168	Freitag	*	DATEmentioned
+3-10	169-173	früh	_	_
+3-11	174-175	7	_	_
+3-12	176-179	Uhr	_	_
+3-13	180-187	ankamen	_	_
+3-14	188-189	,	_	_
+3-15	190-193	war	_	_
+3-16	194-200	nichts	_	_
+3-17	201-204	für	_	_
+3-18	205-208	uns	_	_
+3-19	209-211	zu	_	_
+3-20	212-217	holen	_	_
+3-21	218-219	.	_	_
+
+#Text=Ercoli hatte die Inschriften von Amelia in Abklatschen \; und da sonst dort nur Mauern zu sehen sind , so gab ich diese Tour auf und wirwaren Abends in Terfii .
+4-1	220-226	Ercoli	*	PERmentioned
+4-2	227-232	hatte	_	_
+4-3	233-236	die	_	_
+4-4	237-248	Inschriften	*	OBJ
+4-5	249-252	von	_	_
+4-6	253-259	Amelia	*	PLACEmentioned
+4-7	260-262	in	_	_
+4-8	263-274	Abklatschen	_	_
+4-9	275-276	\;	_	_
+4-10	277-280	und	_	_
+4-11	281-283	da	_	_
+4-12	284-289	sonst	_	_
+4-13	290-294	dort	_	_
+4-14	295-298	nur	_	_
+4-15	299-305	Mauern	*	OBJ
+4-16	306-308	zu	_	_
+4-17	309-314	sehen	_	_
+4-18	315-319	sind	_	_
+4-19	320-321	,	_	_
+4-20	322-324	so	_	_
+4-21	325-328	gab	_	_
+4-22	329-332	ich	_	_
+4-23	333-338	diese	_	_
+4-24	339-343	Tour	_	_
+4-25	344-347	auf	_	_
+4-26	348-351	und	_	_
+4-27	352-360	wirwaren	_	_
+4-28	361-367	Abends	_	_
+4-29	368-370	in	_	_
+4-30	371-377	Terfii	*	PLACEmentioned
+4-31	378-379	.	_	_
+
+#Text=Sonnabend früh nach Pie di Lugo hinter dem Wasserfall : von antichitä nichts vorhanden , aber die Localanschauung interessant , so daß es einen Bull .
+5-1	380-389	Sonnabend	*	DATEmentioned
+5-2	390-394	früh	_	_
+5-3	395-399	nach	_	_
+5-4	400-403	Pie	*[5]	PLACEmentioned[5]
+5-5	404-406	di	*[5]	PLACEmentioned[5]
+5-6	407-411	Lugo	*[5]	PLACEmentioned[5]
+5-7	412-418	hinter	_	_
+5-8	419-422	dem	_	_
+5-9	423-433	Wasserfall	_	_
+5-10	434-435	:	_	_
+5-11	436-439	von	_	_
+5-12	440-449	antichitä	*	OBJ
+5-13	450-456	nichts	_	_
+5-14	457-466	vorhanden	_	_
+5-15	467-468	,	_	_
+5-16	469-473	aber	_	_
+5-17	474-477	die	_	_
+5-18	478-493	Localanschauung	_	_
+5-19	494-505	interessant	_	_
+5-20	506-507	,	_	_
+5-21	508-510	so	_	_
+5-22	511-514	daß	_	_
+5-23	515-517	es	_	_
+5-24	518-523	einen	_	_
+5-25	524-528	Bull	_	_
+5-26	529-530	.	_	_
+
+#Text=Artikel geben wird , zu dem mir aber wahrscheinlich hier die litt .
+6-1	531-538	Artikel	_	_
+6-2	539-544	geben	_	_
+6-3	545-549	wird	_	_
+6-4	550-551	,	_	_
+6-5	552-554	zu	_	_
+6-6	555-558	dem	_	_
+6-7	559-562	mir	_	_
+6-8	563-567	aber	_	_
+6-9	568-582	wahrscheinlich	_	_
+6-10	583-587	hier	_	_
+6-11	588-591	die	_	_
+6-12	592-596	litt	_	_
+6-13	597-598	.	_	_
+
+#Text=Hülfsmittel fehlen .
+7-1	599-610	Hülfsmittel	_	_
+7-2	611-617	fehlen	_	_
+7-3	618-619	.	_	_
+
+#Text=Spoleto nichts besonderes : im Garten eines Privathauses an röm .
+8-1	620-627	Spoleto	*	PLACEmentioned
+8-2	628-634	nichts	_	_
+8-3	635-645	besonderes	_	_
+8-4	646-647	:	_	_
+8-5	648-650	im	_	_
+8-6	651-657	Garten	_	_
+8-7	658-663	eines	_	_
+8-8	664-676	Privathauses	_	_
+8-9	677-679	an	_	_
+8-10	680-683	röm	*[9]	OBJ[9]
+8-11	684-685	.	*[9]	OBJ[9]
+
+#Text=Mauer voraugust .
+9-1	686-691	Mauer	*	OBJ
+9-2	692-701	voraugust	*[6]	OBJ[6]
+9-3	702-703	.	*[6]	OBJ[6]
+
+#Text=Inschrift in lett .
+10-1	704-713	Inschrift	*[6]	OBJ[6]
+10-2	714-716	in	_	_
+10-3	717-721	lett	_	_
+10-4	722-723	.	_	_
+
+#Text=cubitati , .. Macrius .. Hister etc. ganz überwaschen \; nur im Winter frei .
+11-1	724-732	cubitati	_	_
+11-2	733-734	,	_	_
+11-3	735-737	..	_	_
+11-4	738-745	Macrius	_	_
+11-5	746-748	..	_	_
+11-6	749-755	Hister	_	_
+11-7	756-760	etc.	_	_
+11-8	761-765	ganz	_	_
+11-9	766-777	überwaschen	_	_
+11-10	778-779	\;	_	_
+11-11	780-783	nur	_	_
+11-12	784-786	im	_	_
+11-13	787-793	Winter	*	DATEmentioned
+11-14	794-798	frei	_	_
+11-15	799-800	.	_	_
+
+#Text=Baron Ach .
+12-1	801-806	Baron	*[7]	PERmentioned[7]
+12-2	807-810	Ach	*[7]	PERmentioned[7]
+12-3	811-812	.	*[7]	PERmentioned[7]
+
+#Text=Sansi leidet sehr an den Augen und erklärt sich daher in epigraph , .
+13-1	813-818	Sansi	*[7]	PERmentioned[7]
+13-2	819-825	leidet	_	_
+13-3	826-830	sehr	_	_
+13-4	831-833	an	_	_
+13-5	834-837	den	_	_
+13-6	838-843	Augen	_	_
+13-7	844-847	und	_	_
+13-8	848-855	erklärt	_	_
+13-9	856-860	sich	_	_
+13-10	861-866	daher	_	_
+13-11	867-869	in	_	_
+13-12	870-878	epigraph	_	_
+13-13	879-880	,	_	_
+13-14	881-882	.	_	_
+
+#Text=für incompetent \; sonst freundlich .
+14-1	883-886	für	_	_
+14-2	887-898	incompetent	_	_
+14-3	899-900	\;	_	_
+14-4	901-906	sonst	_	_
+14-5	907-917	freundlich	_	_
+14-6	918-919	.	_	_
+
+#Text=So auch Bartoloni , in Fuligno , aber auch er wohl wenig brauchbar .
+15-1	920-922	So	_	_
+15-2	923-927	auch	_	_
+15-3	928-937	Bartoloni	*	PERmentioned
+15-4	938-939	,	_	_
+15-5	940-942	in	_	_
+15-6	943-950	Fuligno	*	PLACEmentioned
+15-7	951-952	,	_	_
+15-8	953-957	aber	_	_
+15-9	958-962	auch	_	_
+15-10	963-965	er	_	_
+15-11	966-970	wohl	_	_
+15-12	971-976	wenig	_	_
+15-13	977-986	brauchbar	_	_
+15-14	987-988	.	_	_
+
+#Text=Er sprach mir von Inschriften im Local der Casse im Pal .
+16-1	989-991	Er	_	_
+16-2	992-998	sprach	_	_
+16-3	999-1002	mir	_	_
+16-4	1003-1006	von	_	_
+16-5	1007-1018	Inschriften	*	OBJ
+16-6	1019-1021	im	_	_
+16-7	1022-1027	Local	_	_
+16-8	1028-1031	der	_	_
+16-9	1032-1037	Casse	_	_
+16-10	1038-1040	im	_	_
+16-11	1041-1044	Pal	*[8]	PLACEmentioned[8]
+16-12	1045-1046	.	*[8]	PLACEmentioned[8]
+
+#Text=Comun. , in das ich nur kurz vor meiner Abfahrt hineingelangte .
+17-1	1047-1053	Comun.	*[8]	PLACEmentioned[8]
+17-2	1054-1055	,	_	_
+17-3	1056-1058	in	_	_
+17-4	1059-1062	das	_	_
+17-5	1063-1066	ich	_	_
+17-6	1067-1070	nur	_	_
+17-7	1071-1075	kurz	_	_
+17-8	1076-1079	vor	_	_
+17-9	1080-1086	meiner	_	_
+17-10	1087-1094	Abfahrt	_	_
+17-11	1095-1109	hineingelangte	_	_
+17-12	1110-1111	.	_	_
+
+#Text=Ist .Pa.AELIO.P.F.PAPIR/ MARCELLO.CENT/FRVM.SVB.PRINCIPI.PE ( so ) /PEREGRINORUM.ADSTATO etc .
+18-1	1112-1115	Ist	_	_
+18-2	1116-1136	.Pa.AELIO.P.F.PAPIR/	_	_
+18-3	1137-1171	MARCELLO.CENT/FRVM.SVB.PRINCIPI.PE	_	_
+18-4	1172-1173	(	_	_
+18-5	1174-1176	so	_	_
+18-6	1177-1178	)	_	_
+18-7	1179-1200	/PEREGRINORUM.ADSTATO	_	_
+18-8	1201-1204	etc	_	_
+18-9	1205-1206	.	_	_

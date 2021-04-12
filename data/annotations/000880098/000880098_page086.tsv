@@ -1,0 +1,67 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=687 Braun an Gerhard Rom , 28 .
+1-1	0-3	687	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	28	*[1]	DATEletter[1]
+1-8	30-31	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1834 deshalb an De Witte .
+2-1	32-39	Oktober	*[1]	DATEletter[1]
+2-2	40-44	1834	*[1]	DATEletter[1]
+2-3	45-52	deshalb	_	_
+2-4	53-55	an	_	_
+2-5	56-58	De	*[2]	PERmentioned[2]
+2-6	59-64	Witte	*[2]	PERmentioned[2]
+2-7	65-66	.	_	_
+
+#Text=Können Sie ihn früher durch eine bejahende Antwort erfreuen , so wird das gutes Blut machen .
+3-1	67-73	Können	_	_
+3-2	74-77	Sie	_	_
+3-3	78-81	ihn	_	_
+3-4	82-88	früher	_	_
+3-5	89-94	durch	_	_
+3-6	95-99	eine	_	_
+3-7	100-109	bejahende	_	_
+3-8	110-117	Antwort	_	_
+3-9	118-126	erfreuen	_	_
+3-10	127-128	,	_	_
+3-11	129-131	so	_	_
+3-12	132-136	wird	_	_
+3-13	137-140	das	_	_
+3-14	141-146	gutes	_	_
+3-15	147-151	Blut	_	_
+3-16	152-158	machen	_	_
+3-17	159-160	.	_	_
+
+#Text=Herzliche Grüße an Gerstäcker und seine Angehörigen .
+4-1	161-170	Herzliche	_	_
+4-2	171-176	Grüße	_	_
+4-3	177-179	an	_	_
+4-4	180-190	Gerstäcker	*	PERmentioned
+4-5	191-194	und	_	_
+4-6	195-200	seine	_	_
+4-7	201-212	Angehörigen	_	_
+4-8	213-214	.	_	_
+
+#Text=Lassen Sie uns bald viel Erfreuliches von Berlin wissen .
+5-1	215-221	Lassen	_	_
+5-2	222-225	Sie	_	_
+5-3	226-229	uns	_	_
+5-4	230-234	bald	_	_
+5-5	235-239	viel	_	_
+5-6	240-252	Erfreuliches	_	_
+5-7	253-256	von	_	_
+5-8	257-263	Berlin	*	PLACEmentioned
+5-9	264-270	wissen	_	_
+5-10	271-272	.	_	_
+
+#Text=Ihr Braun
+6-1	273-276	Ihr	_	_
+6-2	277-282	Braun	*	PERauthor

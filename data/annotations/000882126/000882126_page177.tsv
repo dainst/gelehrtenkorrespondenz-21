@@ -1,0 +1,289 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=284 Braun an Gerhard Rom , 29. Juni 1837 Roma li 29 Juni 1837 .
+1-1	0-3	284	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	29.	*[15]	DATEletter[15]
+1-8	31-35	Juni	*[15]	DATEletter[15]
+1-9	36-40	1837	*[15]	DATEletter[15]
+1-10	41-45	Roma	*	PLACEfrom
+1-11	46-48	li	_	_
+1-12	49-51	29	*[16]	DATEletter[16]
+1-13	52-56	Juni	*[16]	DATEletter[16]
+1-14	57-61	1837	*[16]	DATEletter[16]
+1-15	62-63	.	_	_
+
+#Text=Ich beeile mich Ihre lieben Zeilen vom 26 1 .
+2-1	64-67	Ich	_	_
+2-2	68-74	beeile	_	_
+2-3	75-79	mich	_	_
+2-4	80-84	Ihre	_	_
+2-5	85-91	lieben	_	_
+2-6	92-98	Zeilen	_	_
+2-7	99-102	vom	_	_
+2-8	103-105	26	*[17]	DATEmentioned[17]
+2-9	106-107	1	*[17]	DATEmentioned[17]
+2-10	108-109	.	*[17]	DATEmentioned[17]
+
+#Text=M. zu beantworten .
+3-1	110-112	M.	*[17]	DATEmentioned[17]
+3-2	113-115	zu	_	_
+3-3	116-127	beantworten	_	_
+3-4	128-129	.	_	_
+
+#Text=Es thut mir leid , daß meine premura wegen der Bücher nicht willkommen ist .
+4-1	130-132	Es	_	_
+4-2	133-137	thut	_	_
+4-3	138-141	mir	_	_
+4-4	142-146	leid	_	_
+4-5	147-148	,	_	_
+4-6	149-152	daß	_	_
+4-7	153-158	meine	_	_
+4-8	159-166	premura	_	_
+4-9	167-172	wegen	_	_
+4-10	173-176	der	_	_
+4-11	177-183	Bücher	_	_
+4-12	184-189	nicht	_	_
+4-13	190-200	willkommen	_	_
+4-14	201-204	ist	_	_
+4-15	205-206	.	_	_
+
+#Text=Müller etc. müssen Sie jetzt wohl in Händen haben .
+5-1	207-213	Müller	*	PERmentioned
+5-2	214-218	etc.	_	_
+5-3	219-225	müssen	_	_
+5-4	226-229	Sie	_	_
+5-5	230-235	jetzt	_	_
+5-6	236-240	wohl	_	_
+5-7	241-243	in	_	_
+5-8	244-250	Händen	_	_
+5-9	251-256	haben	_	_
+5-10	257-258	.	_	_
+
+#Text=Aus dem Bull .
+6-1	259-262	Aus	_	_
+6-2	263-266	dem	_	_
+6-3	267-271	Bull	_	_
+6-4	272-273	.	_	_
+
+#Text=werden Sie ersehen haben , daß Fossati merkwürdige Sachen gefunden hat .
+7-1	274-280	werden	_	_
+7-2	281-284	Sie	_	_
+7-3	285-292	ersehen	_	_
+7-4	293-298	haben	_	_
+7-5	299-300	,	_	_
+7-6	301-304	daß	_	_
+7-7	305-312	Fossati	*	PERmentioned
+7-8	313-324	merkwürdige	_	_
+7-9	325-331	Sachen	_	_
+7-10	332-340	gefunden	_	_
+7-11	341-344	hat	_	_
+7-12	345-346	.	_	_
+
+#Text=- Die Theilung mit Campanari kommt diese Woche zu Stande und da giebt es schöne Kaufgelegenheit .
+8-1	347-348	-	_	_
+8-2	349-352	Die	_	_
+8-3	353-361	Theilung	_	_
+8-4	362-365	mit	_	_
+8-5	366-375	Campanari	*	PERmentioned
+8-6	376-381	kommt	_	_
+8-7	382-387	diese	_	_
+8-8	388-393	Woche	_	_
+8-9	394-396	zu	_	_
+8-10	397-403	Stande	_	_
+8-11	404-407	und	_	_
+8-12	408-410	da	_	_
+8-13	411-416	giebt	_	_
+8-14	417-419	es	_	_
+8-15	420-426	schöne	_	_
+8-16	427-442	Kaufgelegenheit	_	_
+8-17	443-444	.	_	_
+
+#Text=Die Frau welche auf der Vase Candelori mit einem Manne ringt , soll auf einem Spiegel als Atalanta characterisirt sein \; die so genannte pietä militare wird durch Inschriften festgestellt etc. Depolettis Marmorfragmente , die unter den Zeichnungen inbegriffen sind , welche ich für Sie habe anfertigen lassen , werden angelegentlich zu Angekauf empfohlen .
+9-1	445-448	Die	_	_
+9-2	449-453	Frau	_	_
+9-3	454-460	welche	_	_
+9-4	461-464	auf	_	_
+9-5	465-468	der	_	_
+9-6	469-473	Vase	*[18]	OBJ[18]
+9-7	474-483	Candelori	*[18]|*[19]	OBJ[18]|PERmentioned[19]
+9-8	484-487	mit	_	_
+9-9	488-493	einem	_	_
+9-10	494-499	Manne	_	_
+9-11	500-505	ringt	_	_
+9-12	506-507	,	_	_
+9-13	508-512	soll	_	_
+9-14	513-516	auf	_	_
+9-15	517-522	einem	_	_
+9-16	523-530	Spiegel	*	OBJ
+9-17	531-534	als	_	_
+9-18	535-543	Atalanta	*	PERmentioned
+9-19	544-558	characterisirt	_	_
+9-20	559-563	sein	_	_
+9-21	564-565	\;	_	_
+9-22	566-569	die	_	_
+9-23	570-572	so	_	_
+9-24	573-581	genannte	_	_
+9-25	582-587	pietä	_	_
+9-26	588-596	militare	_	_
+9-27	597-601	wird	_	_
+9-28	602-607	durch	_	_
+9-29	608-619	Inschriften	_	_
+9-30	620-632	festgestellt	_	_
+9-31	633-637	etc.	_	_
+9-32	638-648	Depolettis	*	PERmentioned
+9-33	649-664	Marmorfragmente	*	OBJ
+9-34	665-666	,	_	_
+9-35	667-670	die	_	_
+9-36	671-676	unter	_	_
+9-37	677-680	den	_	_
+9-38	681-692	Zeichnungen	_	_
+9-39	693-704	inbegriffen	_	_
+9-40	705-709	sind	_	_
+9-41	710-711	,	_	_
+9-42	712-718	welche	_	_
+9-43	719-722	ich	_	_
+9-44	723-726	für	_	_
+9-45	727-730	Sie	_	_
+9-46	731-735	habe	_	_
+9-47	736-746	anfertigen	_	_
+9-48	747-753	lassen	_	_
+9-49	754-755	,	_	_
+9-50	756-762	werden	_	_
+9-51	763-777	angelegentlich	_	_
+9-52	778-780	zu	_	_
+9-53	781-789	Angekauf	_	_
+9-54	790-799	empfohlen	_	_
+9-55	800-801	.	_	_
+
+#Text=Fallirt hat er nicht , aber Geld kommt ihm angenehn .
+10-1	802-809	Fallirt	_	_
+10-2	810-813	hat	_	_
+10-3	814-816	er	_	_
+10-4	817-822	nicht	_	_
+10-5	823-824	,	_	_
+10-6	825-829	aber	_	_
+10-7	830-834	Geld	_	_
+10-8	835-840	kommt	_	_
+10-9	841-844	ihm	_	_
+10-10	845-853	angenehn	_	_
+10-11	854-855	.	_	_
+
+#Text=Costa hat seine Spiegelstiche beendet \; ich denke ihm die Summe auszuzahlen , welche noch rückständig ist , was von Ihren Geldern geschehen muß .
+11-1	856-861	Costa	*	PERmentioned
+11-2	862-865	hat	_	_
+11-3	866-871	seine	_	_
+11-4	872-885	Spiegelstiche	_	_
+11-5	886-893	beendet	_	_
+11-6	894-895	\;	_	_
+11-7	896-899	ich	_	_
+11-8	900-905	denke	_	_
+11-9	906-909	ihm	_	_
+11-10	910-913	die	_	_
+11-11	914-919	Summe	_	_
+11-12	920-931	auszuzahlen	_	_
+11-13	932-933	,	_	_
+11-14	934-940	welche	_	_
+11-15	941-945	noch	_	_
+11-16	946-957	rückständig	_	_
+11-17	958-961	ist	_	_
+11-18	962-963	,	_	_
+11-19	964-967	was	_	_
+11-20	968-971	von	_	_
+11-21	972-977	Ihren	_	_
+11-22	978-985	Geldern	_	_
+11-23	986-995	geschehen	_	_
+11-24	996-999	muß	_	_
+11-25	1000-1001	.	_	_
+
+#Text=Ich habe nicht gern Weiteres mit ihm zu thuen .
+12-1	1002-1005	Ich	_	_
+12-2	1006-1010	habe	_	_
+12-3	1011-1016	nicht	_	_
+12-4	1017-1021	gern	_	_
+12-5	1022-1030	Weiteres	_	_
+12-6	1031-1034	mit	_	_
+12-7	1035-1038	ihm	_	_
+12-8	1039-1041	zu	_	_
+12-9	1042-1047	thuen	_	_
+12-10	1048-1049	.	_	_
+
+#Text=Ihre Münziconographie ist ziemlich zu Stande .
+13-1	1050-1054	Ihre	_	_
+13-2	1055-1071	Münziconographie	_	_
+13-3	1072-1075	ist	_	_
+13-4	1076-1084	ziemlich	_	_
+13-5	1085-1087	zu	_	_
+13-6	1088-1094	Stande	_	_
+13-7	1095-1096	.	_	_
+
+#Text=Steine habe ich auch angekauft , aber dafür wills mehr Muße .
+14-1	1097-1103	Steine	_	_
+14-2	1104-1108	habe	_	_
+14-3	1109-1112	ich	_	_
+14-4	1113-1117	auch	_	_
+14-5	1118-1127	angekauft	_	_
+14-6	1128-1129	,	_	_
+14-7	1130-1134	aber	_	_
+14-8	1135-1140	dafür	_	_
+14-9	1141-1146	wills	_	_
+14-10	1147-1151	mehr	_	_
+14-11	1152-1156	Muße	_	_
+14-12	1157-1158	.	_	_
+
+#Text=Ich habe sie nicht verschleifen lassen , weil ich mich darüber mit Ihnen benehmen will .
+15-1	1159-1162	Ich	_	_
+15-2	1163-1167	habe	_	_
+15-3	1168-1171	sie	_	_
+15-4	1172-1177	nicht	_	_
+15-5	1178-1190	verschleifen	_	_
+15-6	1191-1197	lassen	_	_
+15-7	1198-1199	,	_	_
+15-8	1200-1204	weil	_	_
+15-9	1205-1208	ich	_	_
+15-10	1209-1213	mich	_	_
+15-11	1214-1221	darüber	_	_
+15-12	1222-1225	mit	_	_
+15-13	1226-1231	Ihnen	_	_
+15-14	1232-1240	benehmen	_	_
+15-15	1241-1245	will	_	_
+15-16	1246-1247	.	_	_
+
+#Text=Ich habe lange angestanden Ihnen eine Nachricht mitzutheilen , welche Ihnen jetzt vielleicht schon auf anderem Wege zugekommen ist , ich meine Stackelbergs Ableben , das ich mit Ihnen betraure .
+16-1	1248-1251	Ich	_	_
+16-2	1252-1256	habe	_	_
+16-3	1257-1262	lange	_	_
+16-4	1263-1274	angestanden	_	_
+16-5	1275-1280	Ihnen	_	_
+16-6	1281-1285	eine	_	_
+16-7	1286-1295	Nachricht	_	_
+16-8	1296-1308	mitzutheilen	_	_
+16-9	1309-1310	,	_	_
+16-10	1311-1317	welche	_	_
+16-11	1318-1323	Ihnen	_	_
+16-12	1324-1329	jetzt	_	_
+16-13	1330-1340	vielleicht	_	_
+16-14	1341-1346	schon	_	_
+16-15	1347-1350	auf	_	_
+16-16	1351-1358	anderem	_	_
+16-17	1359-1363	Wege	_	_
+16-18	1364-1374	zugekommen	_	_
+16-19	1375-1378	ist	_	_
+16-20	1379-1380	,	_	_
+16-21	1381-1384	ich	_	_
+16-22	1385-1390	meine	_	_
+16-23	1391-1403	Stackelbergs	*	PERmentioned
+16-24	1404-1411	Ableben	_	_
+16-25	1412-1413	,	_	_
+16-26	1414-1417	das	_	_
+16-27	1418-1421	ich	_	_
+16-28	1422-1425	mit	_	_
+16-29	1426-1431	Ihnen	_	_
+16-30	1432-1440	betraure	_	_
+16-31	1441-1442	.	_	_

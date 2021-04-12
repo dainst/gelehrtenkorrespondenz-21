@@ -1,0 +1,204 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Stuttgart , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-26	Stuttgart	*	PLACEfrom
+1-5	27-28	,	_	_
+1-6	29-31	16	*[4]	DATEletter[4]
+1-7	32-33	.	*[4]	DATEletter[4]
+
+#Text=August 1837 ben .
+2-1	34-40	August	*[4]	DATEletter[4]
+2-2	41-45	1837	*[4]	DATEletter[4]
+2-3	46-49	ben	_	_
+2-4	50-51	.	_	_
+
+#Text=Cottes versichere daß 3 meiner Bildhefte im Lauf der nächsten Monate flott werden .
+3-1	52-58	Cottes	*	PERmentioned
+3-2	59-69	versichere	_	_
+3-3	70-73	daß	_	_
+3-4	74-75	3	_	_
+3-5	76-82	meiner	_	_
+3-6	83-92	Bildhefte	_	_
+3-7	93-95	im	_	_
+3-8	96-100	Lauf	_	_
+3-9	101-104	der	_	_
+3-10	105-113	nächsten	_	_
+3-11	114-120	Monate	_	_
+3-12	121-126	flott	_	_
+3-13	127-133	werden	_	_
+3-14	134-135	.	_	_
+
+#Text=In Mailand sprach ich Lebas nicht , er war auswärts .
+4-1	136-138	In	_	_
+4-2	139-146	Mailand	*	PLACEmentioned
+4-3	147-153	sprach	_	_
+4-4	154-157	ich	_	_
+4-5	158-163	Lebas	*	PERmentioned
+4-6	164-169	nicht	_	_
+4-7	170-171	,	_	_
+4-8	172-174	er	_	_
+4-9	175-178	war	_	_
+4-10	179-187	auswärts	_	_
+4-11	188-189	.	_	_
+
+#Text=Cattaneo desgleichen , der verlobt und imbecill geworden sein soll \; Ihnen hilft wol Zardelli .
+5-1	190-198	Cattaneo	*	PERmentioned
+5-2	199-210	desgleichen	_	_
+5-3	211-212	,	_	_
+5-4	213-216	der	_	_
+5-5	217-224	verlobt	_	_
+5-6	225-228	und	_	_
+5-7	229-237	imbecill	_	_
+5-8	238-246	geworden	_	_
+5-9	247-251	sein	_	_
+5-10	252-256	soll	_	_
+5-11	257-258	\;	_	_
+5-12	259-264	Ihnen	_	_
+5-13	265-270	hilft	_	_
+5-14	271-274	wol	_	_
+5-15	275-283	Zardelli	*	PERmentioned
+5-16	284-285	.	_	_
+
+#Text=Ich gehe heute nach Frankfurt und will meinen Brief lieber hier aufgeben , damit wo möglich auch eine Geldsendung damit zu verbinden \; geht es nicht , so erfolgt solche wenige Wochen später von Berlin aus wohin ich eile .
+6-1	286-289	Ich	_	_
+6-2	290-294	gehe	_	_
+6-3	295-300	heute	_	_
+6-4	301-305	nach	_	_
+6-5	306-315	Frankfurt	*	PLACEmentioned
+6-6	316-319	und	_	_
+6-7	320-324	will	_	_
+6-8	325-331	meinen	_	_
+6-9	332-337	Brief	_	_
+6-10	338-344	lieber	_	_
+6-11	345-349	hier	_	_
+6-12	350-358	aufgeben	_	_
+6-13	359-360	,	_	_
+6-14	361-366	damit	_	_
+6-15	367-369	wo	_	_
+6-16	370-377	möglich	_	_
+6-17	378-382	auch	_	_
+6-18	383-387	eine	_	_
+6-19	388-399	Geldsendung	_	_
+6-20	400-405	damit	_	_
+6-21	406-408	zu	_	_
+6-22	409-418	verbinden	_	_
+6-23	419-420	\;	_	_
+6-24	421-425	geht	_	_
+6-25	426-428	es	_	_
+6-26	429-434	nicht	_	_
+6-27	435-436	,	_	_
+6-28	437-439	so	_	_
+6-29	440-447	erfolgt	_	_
+6-30	448-454	solche	_	_
+6-31	455-461	wenige	_	_
+6-32	462-468	Wochen	_	_
+6-33	469-475	später	_	_
+6-34	476-479	von	_	_
+6-35	480-486	Berlin	*	PLACEmentioned
+6-36	487-490	aus	_	_
+6-37	491-496	wohin	_	_
+6-38	497-500	ich	_	_
+6-39	501-505	eile	_	_
+6-40	506-507	.	_	_
+
+#Text=Am 8 September wird in Dresden Stackelbergs Nachlaß versteigert .
+7-1	508-510	Am	_	_
+7-2	511-512	8	*[12]	DATEmentioned[12]
+7-3	513-522	September	*[12]	DATEmentioned[12]
+7-4	523-527	wird	_	_
+7-5	528-530	in	_	_
+7-6	531-538	Dresden	*	PLACEmentioned
+7-7	539-551	Stackelbergs	*	PERmentioned
+7-8	552-559	Nachlaß	_	_
+7-9	560-571	versteigert	_	_
+7-10	572-573	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Volti .
+8-1	574-584	Herzlichst	_	_
+8-2	585-588	Ihr	_	_
+8-3	589-596	Gerhard	*	PERauthor
+8-4	597-602	Volti	_	_
+8-5	603-604	.	_	_
+
+#Text=Seit ich diesseits der Alpen bin , habe ich heftige Gewitter erlebt \; an Schlägen aus der Ferne fehlt es denn auch nicht , von mir noch .
+9-1	605-609	Seit	_	_
+9-2	610-613	ich	_	_
+9-3	614-623	diesseits	_	_
+9-4	624-627	der	_	_
+9-5	628-633	Alpen	*	PLACEmentioned
+9-6	634-637	bin	_	_
+9-7	638-639	,	_	_
+9-8	640-644	habe	_	_
+9-9	645-648	ich	_	_
+9-10	649-656	heftige	_	_
+9-11	657-665	Gewitter	_	_
+9-12	666-672	erlebt	_	_
+9-13	673-674	\;	_	_
+9-14	675-677	an	_	_
+9-15	678-686	Schlägen	_	_
+9-16	687-690	aus	_	_
+9-17	691-694	der	_	_
+9-18	695-700	Ferne	_	_
+9-19	701-706	fehlt	_	_
+9-20	707-709	es	_	_
+9-21	710-714	denn	_	_
+9-22	715-719	auch	_	_
+9-23	720-725	nicht	_	_
+9-24	726-727	,	_	_
+9-25	728-731	von	_	_
+9-26	732-735	mir	_	_
+9-27	736-740	noch	_	_
+9-28	741-742	.	_	_
+
+#Text=Die H.sche Succession r fällt wol entschieden weg , dagegen das Ableben des vortrefflichen und mir gewognen Grafen Brühl ein neuer harter Schlag für mich ist .
+10-1	743-746	Die	_	_
+10-2	747-753	H.sche	_	_
+10-3	754-764	Succession	_	_
+10-4	765-766	r	_	_
+10-5	767-772	fällt	_	_
+10-6	773-776	wol	_	_
+10-7	777-788	entschieden	_	_
+10-8	789-792	weg	_	_
+10-9	793-794	,	_	_
+10-10	795-802	dagegen	_	_
+10-11	803-806	das	_	_
+10-12	807-814	Ableben	_	_
+10-13	815-818	des	_	_
+10-14	819-833	vortrefflichen	_	_
+10-15	834-837	und	_	_
+10-16	838-841	mir	_	_
+10-17	842-850	gewognen	_	_
+10-18	851-857	Grafen	*[17]	PERmentioned[17]
+10-19	858-863	Brühl	*[17]	PERmentioned[17]
+10-20	864-867	ein	_	_
+10-21	868-873	neuer	_	_
+10-22	874-880	harter	_	_
+10-23	881-887	Schlag	_	_
+10-24	888-891	für	_	_
+10-25	892-896	mich	_	_
+10-26	897-900	ist	_	_
+10-27	901-902	.	_	_
+
+#Text=Ich gehe nun so rasch nach Berlin daß ich am 20.sten dort zu sein hoffe und verschiebe
+11-1	903-906	Ich	_	_
+11-2	907-911	gehe	_	_
+11-3	912-915	nun	_	_
+11-4	916-918	so	_	_
+11-5	919-924	rasch	_	_
+11-6	925-929	nach	_	_
+11-7	930-936	Berlin	*	PLACEmentioned
+11-8	937-940	daß	_	_
+11-9	941-944	ich	_	_
+11-10	945-947	am	_	_
+11-11	948-955	20.sten	*	DATEmentioned
+11-12	956-960	dort	_	_
+11-13	961-963	zu	_	_
+11-14	964-968	sein	_	_
+11-15	969-974	hoffe	_	_
+11-16	975-978	und	_	_
+11-17	979-989	verschiebe	_	_

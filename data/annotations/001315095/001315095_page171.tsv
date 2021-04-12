@@ -1,0 +1,35 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn München 17 .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-24	München	*	PLACEfrom
+1-5	25-27	17	*[1]	DATEletter[1]
+1-6	28-29	.	*[1]	DATEletter[1]
+
+#Text=Januar ( Postkarte ) Ist mein Brief nicht angekommen ?
+2-1	30-36	Januar	*[1]	DATEletter[1]
+2-2	37-38	(	_	_
+2-3	39-48	Postkarte	_	_
+2-4	49-50	)	_	_
+2-5	51-54	Ist	_	_
+2-6	55-59	mein	_	_
+2-7	60-65	Brief	_	_
+2-8	66-71	nicht	_	_
+2-9	72-82	angekommen	_	_
+2-10	83-84	?	_	_
+
+#Text=ich bitte dringend um Antwort .
+3-1	85-88	ich	_	_
+3-2	89-94	bitte	_	_
+3-3	95-103	dringend	_	_
+3-4	104-106	um	_	_
+3-5	107-114	Antwort	_	_
+3-6	115-116	.	_	_
+
+#Text=Mommsen .
+4-1	117-124	Mommsen	*	PERauthor
+4-2	125-126	.	_	_

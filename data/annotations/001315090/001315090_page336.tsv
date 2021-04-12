@@ -1,0 +1,31 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=655 Lepsius an Henzen Berlin , 18 .
+1-1	0-3	655	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	18	*[1]	DATEletter[1]
+1-8	34-35	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1877 Ich habe heute Hochzeit meines ältesten Sohnes , des Geologie Professors in Darmstadt .
+2-1	36-43	Oktober	*[1]	DATEletter[1]
+2-2	44-48	1877	*[1]	DATEletter[1]
+2-3	49-52	Ich	_	_
+2-4	53-57	habe	_	_
+2-5	58-63	heute	_	_
+2-6	64-72	Hochzeit	_	_
+2-7	73-79	meines	_	_
+2-8	80-88	ältesten	_	_
+2-9	89-95	Sohnes	_	_
+2-10	96-97	,	_	_
+2-11	98-101	des	_	_
+2-12	102-110	Geologie	_	_
+2-13	111-121	Professors	_	_
+2-14	122-124	in	_	_
+2-15	125-134	Darmstadt	*	PLACEmentioned
+2-16	135-136	.	_	_

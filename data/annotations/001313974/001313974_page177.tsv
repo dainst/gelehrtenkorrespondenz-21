@@ -1,0 +1,230 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=, -W Helbig an Henzen Rom , 13 .
+1-1	0-1	,	_	_
+1-2	2-4	-W	_	_
+1-3	5-11	Helbig	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-21	Henzen	*	PERaddressee
+1-6	22-25	Rom	*	PLACEfrom
+1-7	26-27	,	_	_
+1-8	28-30	13	*[1]	DATEletter[1]
+1-9	31-32	.	*[1]	DATEletter[1]
+
+#Text=August 1872 H g . 16/8 72 r. Roma , li 13 .
+2-1	33-39	August	*[1]	DATEletter[1]
+2-2	40-44	1872	*[1]	DATEletter[1]
+2-3	45-46	H	_	_
+2-4	47-48	g	_	_
+2-5	49-50	.	_	_
+2-6	51-55	16/8	*[2]	DATErecieved[2]
+2-7	56-58	72	*[2]	DATErecieved[2]
+2-8	59-61	r.	_	_
+2-9	62-66	Roma	*	PLACEfrom
+2-10	67-68	,	_	_
+2-11	69-71	li	_	_
+2-12	72-74	13	*[3]	DATEletter[3]
+2-13	75-76	.	*[3]	DATEletter[3]
+
+#Text=August 1872 Lieber Herr Professor Herzlichen Dank für Ihren freundlichen Brief und die Einlage von Mommsen .
+3-1	77-83	August	*[3]	DATEletter[3]
+3-2	84-88	1872	*[3]	DATEletter[3]
+3-3	89-95	Lieber	_	_
+3-4	96-100	Herr	_	_
+3-5	101-110	Professor	_	_
+3-6	111-121	Herzlichen	_	_
+3-7	122-126	Dank	_	_
+3-8	127-130	für	_	_
+3-9	131-136	Ihren	_	_
+3-10	137-149	freundlichen	_	_
+3-11	150-155	Brief	_	_
+3-12	156-159	und	_	_
+3-13	160-163	die	_	_
+3-14	164-171	Einlage	_	_
+3-15	172-175	von	_	_
+3-16	176-183	Mommsen	*	PERmentioned
+3-17	184-185	.	_	_
+
+#Text=lIch bin somit über die Entwickelung der Angelegenheit hinlänglich beruht .
+4-1	186-190	lIch	_	_
+4-2	191-194	bin	_	_
+4-3	195-200	somit	_	_
+4-4	201-205	über	_	_
+4-5	206-209	die	_	_
+4-6	210-222	Entwickelung	_	_
+4-7	223-226	der	_	_
+4-8	227-240	Angelegenheit	_	_
+4-9	241-252	hinlänglich	_	_
+4-10	253-259	beruht	_	_
+4-11	260-261	.	_	_
+
+#Text=Wenn Mommsen die Aquisition vertritt , dann wird Niemand wagen , die Stimme dagegen zu erheben .
+5-1	262-266	Wenn	_	_
+5-2	267-274	Mommsen	*	PERmentioned
+5-3	275-278	die	_	_
+5-4	279-289	Aquisition	_	_
+5-5	290-298	vertritt	_	_
+5-6	299-300	,	_	_
+5-7	301-305	dann	_	_
+5-8	306-310	wird	_	_
+5-9	311-318	Niemand	_	_
+5-10	319-324	wagen	_	_
+5-11	325-326	,	_	_
+5-12	327-330	die	_	_
+5-13	331-337	Stimme	_	_
+5-14	338-345	dagegen	_	_
+5-15	346-348	zu	_	_
+5-16	349-356	erheben	_	_
+5-17	357-358	.	_	_
+
+#Text=Allerdings aber wird seine Intervention nöthig sein \; denn auch die Zeilen von Lepsius , die Sie mir neulich zuschickten , waren wegen des Preises der Gegenstände etwas wehmüthig gestimmt .
+6-1	359-369	Allerdings	_	_
+6-2	370-374	aber	_	_
+6-3	375-379	wird	_	_
+6-4	380-385	seine	_	_
+6-5	386-398	Intervention	_	_
+6-6	399-405	nöthig	_	_
+6-7	406-410	sein	_	_
+6-8	411-412	\;	_	_
+6-9	413-417	denn	_	_
+6-10	418-422	auch	_	_
+6-11	423-426	die	_	_
+6-12	427-433	Zeilen	_	_
+6-13	434-437	von	_	_
+6-14	438-445	Lepsius	*	PERmentioned
+6-15	446-447	,	_	_
+6-16	448-451	die	_	_
+6-17	452-455	Sie	_	_
+6-18	456-459	mir	_	_
+6-19	460-467	neulich	_	_
+6-20	468-479	zuschickten	_	_
+6-21	480-481	,	_	_
+6-22	482-487	waren	_	_
+6-23	488-493	wegen	_	_
+6-24	494-497	des	_	_
+6-25	498-505	Preises	_	_
+6-26	506-509	der	_	_
+6-27	510-521	Gegenstände	_	_
+6-28	522-527	etwas	_	_
+6-29	528-537	wehmüthig	_	_
+6-30	538-546	gestimmt	_	_
+6-31	547-548	.	_	_
+
+#Text=An Adler habe ich wegen der Caeretana geschrieben , ebenso an Schöne , den ich gebeten , doch ja nicht uns im Stiche zu lassen .
+7-1	549-551	An	_	_
+7-2	552-557	Adler	*	PERmentioned
+7-3	558-562	habe	_	_
+7-4	563-566	ich	_	_
+7-5	567-572	wegen	_	_
+7-6	573-576	der	_	_
+7-7	577-586	Caeretana	*	MISC
+7-8	587-598	geschrieben	_	_
+7-9	599-600	,	_	_
+7-10	601-607	ebenso	_	_
+7-11	608-610	an	_	_
+7-12	611-617	Schöne	*	PERmentioned
+7-13	618-619	,	_	_
+7-14	620-623	den	_	_
+7-15	624-627	ich	_	_
+7-16	628-635	gebeten	_	_
+7-17	636-637	,	_	_
+7-18	638-642	doch	_	_
+7-19	643-645	ja	_	_
+7-20	646-651	nicht	_	_
+7-21	652-655	uns	_	_
+7-22	656-658	im	_	_
+7-23	659-665	Stiche	_	_
+7-24	666-668	zu	_	_
+7-25	669-675	lassen	_	_
+7-26	676-677	.	_	_
+
+#Text=Übrigens ist seine Ciste nur eine Tafel .
+8-1	678-686	Übrigens	_	_
+8-2	687-690	ist	_	_
+8-3	691-696	seine	_	_
+8-4	697-702	Ciste	*	OBJ
+8-5	703-706	nur	_	_
+8-6	707-711	eine	_	_
+8-7	712-717	Tafel	_	_
+8-8	718-719	.	_	_
+
+#Text=Diese Lücke wäre daher durch Einschiebung der Silberschale wohl zu decken .
+9-1	720-725	Diese	_	_
+9-2	726-731	Lücke	_	_
+9-3	732-736	wäre	_	_
+9-4	737-742	daher	_	_
+9-5	743-748	durch	_	_
+9-6	749-761	Einschiebung	_	_
+9-7	762-765	der	_	_
+9-8	766-778	Silberschale	*	OBJ
+9-9	779-783	wohl	_	_
+9-10	784-786	zu	_	_
+9-11	787-793	decken	_	_
+9-12	794-795	.	_	_
+
+#Text=Nur müßte ich , um für ihn eintreten zu können , sicher sein , im October die betreffenden Bücher in Rom vorzufinden .
+10-1	796-799	Nur	_	_
+10-2	800-805	müßte	_	_
+10-3	806-809	ich	_	_
+10-4	810-811	,	_	_
+10-5	812-814	um	_	_
+10-6	815-818	für	_	_
+10-7	819-822	ihn	_	_
+10-8	823-832	eintreten	_	_
+10-9	833-835	zu	_	_
+10-10	836-842	können	_	_
+10-11	843-844	,	_	_
+10-12	845-851	sicher	_	_
+10-13	852-856	sein	_	_
+10-14	857-858	,	_	_
+10-15	859-861	im	_	_
+10-16	862-869	October	*	DATEmentioned
+10-17	870-873	die	_	_
+10-18	874-886	betreffenden	_	_
+10-19	887-893	Bücher	_	_
+10-20	894-896	in	_	_
+10-21	897-900	Rom	*	PLACEmentioned
+10-22	901-912	vorzufinden	_	_
+10-23	913-914	.	_	_
+
+#Text=Beifolgend erhalten Sie den ersten Artikel Prakhoffs .
+11-1	915-925	Beifolgend	_	_
+11-2	926-934	erhalten	_	_
+11-3	935-938	Sie	_	_
+11-4	939-942	den	_	_
+11-5	943-949	ersten	_	_
+11-6	950-957	Artikel	_	_
+11-7	958-967	Prakhoffs	*	PERmentioned
+11-8	968-969	.	_	_
+
+#Text=Mit der Übersetzung des zweiten etwas längeren ist meine Frau noch nicht fertig .
+12-1	970-973	Mit	_	_
+12-2	974-977	der	_	_
+12-3	978-989	Übersetzung	_	_
+12-4	990-993	des	_	_
+12-5	994-1001	zweiten	_	_
+12-6	1002-1007	etwas	_	_
+12-7	1008-1016	längeren	_	_
+12-8	1017-1020	ist	_	_
+12-9	1021-1026	meine	_	_
+12-10	1027-1031	Frau	_	_
+12-11	1032-1036	noch	_	_
+12-12	1037-1042	nicht	_	_
+12-13	1043-1049	fertig	_	_
+12-14	1050-1051	.	_	_
+
+#Text=Leider war dieselbe in der letzten Zeit wiederum durch ihre Neuralgien heinm-
+13-1	1052-1058	Leider	_	_
+13-2	1059-1062	war	_	_
+13-3	1063-1071	dieselbe	_	_
+13-4	1072-1074	in	_	_
+13-5	1075-1078	der	_	_
+13-6	1079-1086	letzten	_	_
+13-7	1087-1091	Zeit	_	_
+13-8	1092-1100	wiederum	_	_
+13-9	1101-1106	durch	_	_
+13-10	1107-1111	ihre	_	_
+13-11	1112-1122	Neuralgien	_	_
+13-12	1123-1129	heinm-	_	_

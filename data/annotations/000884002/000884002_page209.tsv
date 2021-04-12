@@ -1,0 +1,279 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=254 Brunn an Henzen Paris , 15. Juni 1864 A. di Dir .
+1-1	0-3	254	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-25	Paris	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	15.	_	_
+1-8	32-36	Juni	*[3]	DATEletter[3]
+1-9	37-41	1864	*[3]	DATEletter[3]
+1-10	42-44	A.	_	_
+1-11	45-47	di	_	_
+1-12	48-51	Dir	_	_
+1-13	52-53	.	_	_
+
+#Text=8 . 20. Juni 1864 r . 21. Juni 1864 Paris 15 Juni 1864 .
+2-1	54-55	8	_	_
+2-2	56-57	.	_	_
+2-3	58-61	20.	*[4]	DATErecieved[4]
+2-4	62-66	Juni	*[4]	DATErecieved[4]
+2-5	67-71	1864	*[4]	DATErecieved[4]
+2-6	72-73	r	_	_
+2-7	74-75	.	_	_
+2-8	76-79	21.	*[5]	DATEanswered[5]
+2-9	80-84	Juni	*[5]	DATEanswered[5]
+2-10	85-89	1864	*[5]	DATEanswered[5]
+2-11	90-95	Paris	*	PLACEfrom
+2-12	96-98	15	_	_
+2-13	99-103	Juni	*[6]	DATEletter[6]
+2-14	104-108	1864	*[6]	DATEletter[6]
+2-15	109-110	.	_	_
+
+#Text=Lieber Henzen \| !
+3-1	111-117	Lieber	_	_
+3-2	118-124	Henzen	*	PERaddressee
+3-3	125-126	\|	_	_
+3-4	127-128	!	_	_
+
+#Text=Die Dinge hier sind etwas weitschichtig und man braucht Zeit , etwas fertig zu bringen .
+4-1	129-132	Die	_	_
+4-2	133-138	Dinge	_	_
+4-3	139-143	hier	_	_
+4-4	144-148	sind	_	_
+4-5	149-154	etwas	_	_
+4-6	155-168	weitschichtig	_	_
+4-7	169-172	und	_	_
+4-8	173-176	man	_	_
+4-9	177-184	braucht	_	_
+4-10	185-189	Zeit	_	_
+4-11	190-191	,	_	_
+4-12	192-197	etwas	_	_
+4-13	198-204	fertig	_	_
+4-14	205-207	zu	_	_
+4-15	208-215	bringen	_	_
+4-16	216-217	.	_	_
+
+#Text=Doch fange ich jetzt wenigstens an , einzelnes zu erledigen .
+5-1	218-222	Doch	_	_
+5-2	223-228	fange	_	_
+5-3	229-232	ich	_	_
+5-4	233-238	jetzt	_	_
+5-5	239-249	wenigstens	_	_
+5-6	250-252	an	_	_
+5-7	253-254	,	_	_
+5-8	255-264	einzelnes	_	_
+5-9	265-267	zu	_	_
+5-10	268-277	erledigen	_	_
+5-11	278-279	.	_	_
+
+#Text=Die Revue numismat .
+6-1	280-283	Die	_	_
+6-2	284-289	Revue	_	_
+6-3	290-298	numismat	_	_
+6-4	299-300	.	_	_
+
+#Text=1 2/2 Serie , 20 Bände , habe ich für 300 francs auf meinem Zimmer .
+7-1	301-302	1	_	_
+7-2	303-306	2/2	_	_
+7-3	307-312	Serie	_	_
+7-4	313-314	,	_	_
+7-5	315-317	20	_	_
+7-6	318-323	Bände	_	_
+7-7	324-325	,	_	_
+7-8	326-330	habe	_	_
+7-9	331-334	ich	_	_
+7-10	335-338	für	_	_
+7-11	339-342	300	_	_
+7-12	343-349	francs	_	_
+7-13	350-353	auf	_	_
+7-14	354-360	meinem	_	_
+7-15	361-367	Zimmer	_	_
+7-16	368-369	.	_	_
+
+#Text=Die Elite ceram .
+8-1	370-373	Die	_	_
+8-2	374-379	Elite	_	_
+8-3	380-385	ceram	_	_
+8-4	386-387	.	_	_
+
+#Text=hat mich gut einen halben Tag Arbeit gekostet : den bei weitem größten Theil habe ich bei de Witte gefischt und beim Buchhändler nur für 28 francs nachgekauft , womit nun alles complet ist .
+9-1	388-391	hat	_	_
+9-2	392-396	mich	_	_
+9-3	397-400	gut	_	_
+9-4	401-406	einen	_	_
+9-5	407-413	halben	_	_
+9-6	414-417	Tag	_	_
+9-7	418-424	Arbeit	_	_
+9-8	425-433	gekostet	_	_
+9-9	434-435	:	_	_
+9-10	436-439	den	_	_
+9-11	440-443	bei	_	_
+9-12	444-450	weitem	_	_
+9-13	451-458	größten	_	_
+9-14	459-464	Theil	_	_
+9-15	465-469	habe	_	_
+9-16	470-473	ich	_	_
+9-17	474-477	bei	_	_
+9-18	478-480	de	*[7]	PERmentioned[7]
+9-19	481-486	Witte	*[7]	PERmentioned[7]
+9-20	487-495	gefischt	_	_
+9-21	496-499	und	_	_
+9-22	500-504	beim	_	_
+9-23	505-516	Buchhändler	_	_
+9-24	517-520	nur	_	_
+9-25	521-524	für	_	_
+9-26	525-527	28	_	_
+9-27	528-534	francs	_	_
+9-28	535-546	nachgekauft	_	_
+9-29	547-548	,	_	_
+9-30	549-554	womit	_	_
+9-31	555-558	nun	_	_
+9-32	559-564	alles	_	_
+9-33	565-572	complet	_	_
+9-34	573-576	ist	_	_
+9-35	577-578	.	_	_
+
+#Text=Für Clarac bemüht sich Longperier gratis , so wie er und Renier noch für manche andern Dinge .
+10-1	579-582	Für	_	_
+10-2	583-589	Clarac	*	PERmentioned
+10-3	590-596	bemüht	_	_
+10-4	597-601	sich	_	_
+10-5	602-612	Longperier	*	PERmentioned
+10-6	613-619	gratis	_	_
+10-7	620-621	,	_	_
+10-8	622-624	so	_	_
+10-9	625-628	wie	_	_
+10-10	629-631	er	_	_
+10-11	632-635	und	_	_
+10-12	636-642	Renier	*	PERmentioned
+10-13	643-647	noch	_	_
+10-14	648-651	für	_	_
+10-15	652-658	manche	_	_
+10-16	659-665	andern	_	_
+10-17	666-671	Dinge	_	_
+10-18	672-673	.	_	_
+
+#Text=Vedreno !
+11-1	674-681	Vedreno	_	_
+11-2	682-683	!	_	_
+
+#Text=Jetzt eine Frage : die Revue arch & ol .
+12-1	684-689	Jetzt	_	_
+12-2	690-694	eine	_	_
+12-3	695-700	Frage	_	_
+12-4	701-702	:	_	_
+12-5	703-706	die	_	_
+12-6	707-712	Revue	_	_
+12-7	713-717	arch	_	_
+12-8	718-719	&	_	_
+12-9	720-722	ol	_	_
+12-10	723-724	.	_	_
+
+#Text=erste Serie , mehr als 20 Bände , kann ich dito für 300 francs haben .
+13-1	725-730	erste	_	_
+13-2	731-736	Serie	_	_
+13-3	737-738	,	_	_
+13-4	739-743	mehr	_	_
+13-5	744-747	als	_	_
+13-6	748-750	20	_	_
+13-7	751-756	Bände	_	_
+13-8	757-758	,	_	_
+13-9	759-763	kann	_	_
+13-10	764-767	ich	_	_
+13-11	768-772	dito	_	_
+13-12	773-776	für	_	_
+13-13	777-780	300	_	_
+13-14	781-787	francs	_	_
+13-15	788-793	haben	_	_
+13-16	794-795	.	_	_
+
+#Text=Was meinen Sie ?
+14-1	796-799	Was	_	_
+14-2	800-806	meinen	_	_
+14-3	807-810	Sie	_	_
+14-4	811-812	?	_	_
+
+#Text=Soll ich zugreifen ?
+15-1	813-817	Soll	_	_
+15-2	818-821	ich	_	_
+15-3	822-831	zugreifen	_	_
+15-4	832-833	?	_	_
+
+#Text=Schließlich werden wir sie doch einmal haben müssen , trotz der Massen von Mittelalter darin .
+16-1	834-845	Schließlich	_	_
+16-2	846-852	werden	_	_
+16-3	853-856	wir	_	_
+16-4	857-860	sie	_	_
+16-5	861-865	doch	_	_
+16-6	866-872	einmal	_	_
+16-7	873-878	haben	_	_
+16-8	879-885	müssen	_	_
+16-9	886-887	,	_	_
+16-10	888-893	trotz	_	_
+16-11	894-897	der	_	_
+16-12	898-904	Massen	_	_
+16-13	905-908	von	_	_
+16-14	909-920	Mittelalter	_	_
+16-15	921-926	darin	_	_
+16-16	927-928	.	_	_
+
+#Text=Und ich bin nun einmal hier .
+17-1	929-932	Und	_	_
+17-2	933-936	ich	_	_
+17-3	937-940	bin	_	_
+17-4	941-944	nun	_	_
+17-5	945-951	einmal	_	_
+17-6	952-956	hier	_	_
+17-7	957-958	.	_	_
+
+#Text=Bitte umgehend um Antwort direct , nicht Desjardins .
+18-1	959-964	Bitte	_	_
+18-2	965-973	umgehend	_	_
+18-3	974-976	um	_	_
+18-4	977-984	Antwort	_	_
+18-5	985-991	direct	_	_
+18-6	992-993	,	_	_
+18-7	994-999	nicht	_	_
+18-8	1000-1010	Desjardins	*	PERmentioned
+18-9	1011-1012	.	_	_
+
+#Text=- Wegen Laborde Vases Lamberg lasse ich nachforschen .
+19-1	1013-1014	-	_	_
+19-2	1015-1020	Wegen	_	_
+19-3	1021-1028	Laborde	*	PERmentioned
+19-4	1029-1034	Vases	*	OBJ
+19-5	1035-1042	Lamberg	*	PERmentioned
+19-6	1043-1048	lasse	_	_
+19-7	1049-1052	ich	_	_
+19-8	1053-1065	nachforschen	_	_
+19-9	1066-1067	.	_	_
+
+#Text=Laborde : Parthenon für Gerhard hat de Witte bereits besorgt .
+20-1	1068-1075	Laborde	*	PERmentioned
+20-2	1076-1077	:	_	_
+20-3	1078-1087	Parthenon	*	OBJ
+20-4	1088-1091	für	_	_
+20-5	1092-1099	Gerhard	*	PERmentioned
+20-6	1100-1103	hat	_	_
+20-7	1104-1106	de	*[8]	PERmentioned[8]
+20-8	1107-1112	Witte	*[8]	PERmentioned[8]
+20-9	1113-1120	bereits	_	_
+20-10	1121-1128	besorgt	_	_
+20-11	1129-1130	.	_	_
+
+#Text=Sofern uns etwas fehlt ( aber es scheint kaum mehr
+21-1	1131-1137	Sofern	_	_
+21-2	1138-1141	uns	_	_
+21-3	1142-1147	etwas	_	_
+21-4	1148-1153	fehlt	_	_
+21-5	1154-1155	(	_	_
+21-6	1156-1160	aber	_	_
+21-7	1161-1163	es	_	_
+21-8	1164-1171	scheint	_	_
+21-9	1172-1176	kaum	_	_
+21-10	1177-1181	mehr	_	_

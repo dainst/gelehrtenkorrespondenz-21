@@ -1,0 +1,247 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=eis Az .
+1-1	0-3	eis	_	_
+1-2	4-6	Az	_	_
+1-3	7-8	.	_	_
+
+#Text=966 Braun an Gerhard Rom , 1. September 1835 Sig .
+2-1	9-12	966	_	_
+2-2	13-18	Braun	*	PERauthor
+2-3	19-21	an	_	_
+2-4	22-29	Gerhard	*	PERaddressee
+2-5	30-33	Rom	*	PLACEfrom
+2-6	34-35	,	_	_
+2-7	36-38	1.	*[1]	DATEletter[1]
+2-8	39-48	September	*[1]	DATEletter[1]
+2-9	49-53	1835	*[1]	DATEletter[1]
+2-10	54-57	Sig	_	_
+2-11	58-59	.	_	_
+
+#Text=Prof. Gerhard Roma li 1 Settembre 1835 Hochverehrtester Freund \| !
+3-1	60-65	Prof.	_	_
+3-2	66-73	Gerhard	*	PERaddressee
+3-3	74-78	Roma	*	PLACEfrom
+3-4	79-81	li	_	_
+3-5	82-83	1	*[2]	DATEletter[2]
+3-6	84-93	Settembre	*[2]	DATEletter[2]
+3-7	94-98	1835	*[2]	DATEletter[2]
+3-8	99-115	Hochverehrtester	_	_
+3-9	116-122	Freund	_	_
+3-10	123-124	\|	_	_
+3-11	125-126	!	_	_
+
+#Text=Meinen herzlichsten Glückwunsch zu Ihrer hoffentlich glücklich vollbrachten Heimkehr \| !
+4-1	127-133	Meinen	_	_
+4-2	134-146	herzlichsten	_	_
+4-3	147-158	Glückwunsch	_	_
+4-4	159-161	zu	_	_
+4-5	162-167	Ihrer	_	_
+4-6	168-179	hoffentlich	_	_
+4-7	180-189	glücklich	_	_
+4-8	190-202	vollbrachten	_	_
+4-9	203-211	Heimkehr	_	_
+4-10	212-213	\|	_	_
+4-11	214-215	!	_	_
+
+#Text=Ihre Verdienste um die heretisch französische Section finden bei Bunsen viel Anerkennung .
+5-1	216-220	Ihre	_	_
+5-2	221-231	Verdienste	_	_
+5-3	232-234	um	_	_
+5-4	235-238	die	_	_
+5-5	239-248	heretisch	_	_
+5-6	249-261	französische	*[3]	ORGmentioned[3]
+5-7	262-269	Section	*[3]	ORGmentioned[3]
+5-8	270-276	finden	_	_
+5-9	277-280	bei	_	_
+5-10	281-287	Bunsen	*	PERmentioned
+5-11	288-292	viel	_	_
+5-12	293-304	Anerkennung	_	_
+5-13	305-306	.	_	_
+
+#Text=Ob er Ihre Vorstellungen hinlänglich erwogen , ob er überhaupt die pariser Artikel aufmerksam durchlesen , wage ich nicht zu behaupten .
+6-1	307-309	Ob	_	_
+6-2	310-312	er	_	_
+6-3	313-317	Ihre	_	_
+6-4	318-331	Vorstellungen	_	_
+6-5	332-343	hinlänglich	_	_
+6-6	344-351	erwogen	_	_
+6-7	352-353	,	_	_
+6-8	354-356	ob	_	_
+6-9	357-359	er	_	_
+6-10	360-369	überhaupt	_	_
+6-11	370-373	die	_	_
+6-12	374-381	pariser	_	_
+6-13	382-389	Artikel	_	_
+6-14	390-400	aufmerksam	_	_
+6-15	401-411	durchlesen	_	_
+6-16	412-413	,	_	_
+6-17	414-418	wage	_	_
+6-18	419-422	ich	_	_
+6-19	423-428	nicht	_	_
+6-20	429-431	zu	_	_
+6-21	432-441	behaupten	_	_
+6-22	442-443	.	_	_
+
+#Text=Er hat mir die Sache vorgestellt , wie er wünscht daß sie angesehen werden solle .
+7-1	444-446	Er	_	_
+7-2	447-450	hat	_	_
+7-3	451-454	mir	_	_
+7-4	455-458	die	_	_
+7-5	459-464	Sache	_	_
+7-6	465-476	vorgestellt	_	_
+7-7	477-478	,	_	_
+7-8	479-482	wie	_	_
+7-9	483-485	er	_	_
+7-10	486-493	wünscht	_	_
+7-11	494-497	daß	_	_
+7-12	498-501	sie	_	_
+7-13	502-511	angesehen	_	_
+7-14	512-518	werden	_	_
+7-15	519-524	solle	_	_
+7-16	525-526	.	_	_
+
+#Text=Den Brief selbst mit den Artikeln hat er mir nicht mitgetheilt , so daß mir die Freiheit benommen war , auf dies und jenes aufmerksam zu machen .
+8-1	527-530	Den	_	_
+8-2	531-536	Brief	_	_
+8-3	537-543	selbst	_	_
+8-4	544-547	mit	_	_
+8-5	548-551	den	_	_
+8-6	552-560	Artikeln	_	_
+8-7	561-564	hat	_	_
+8-8	565-567	er	_	_
+8-9	568-571	mir	_	_
+8-10	572-577	nicht	_	_
+8-11	578-589	mitgetheilt	_	_
+8-12	590-591	,	_	_
+8-13	592-594	so	_	_
+8-14	595-598	daß	_	_
+8-15	599-602	mir	_	_
+8-16	603-606	die	_	_
+8-17	607-615	Freiheit	_	_
+8-18	616-624	benommen	_	_
+8-19	625-628	war	_	_
+8-20	629-630	,	_	_
+8-21	631-634	auf	_	_
+8-22	635-639	dies	_	_
+8-23	640-643	und	_	_
+8-24	644-649	jenes	_	_
+8-25	650-660	aufmerksam	_	_
+8-26	661-663	zu	_	_
+8-27	664-670	machen	_	_
+8-28	671-672	.	_	_
+
+#Text=Er hebt hervor , daß die pariser Artikel die Alternative stellen : entweder alles in Rom zu publiziren oder halb in Rom , halb in Paris aber nicht auch in Berlin .
+9-1	673-675	Er	_	_
+9-2	676-680	hebt	_	_
+9-3	681-687	hervor	_	_
+9-4	688-689	,	_	_
+9-5	690-693	daß	_	_
+9-6	694-697	die	_	_
+9-7	698-705	pariser	_	_
+9-8	706-713	Artikel	_	_
+9-9	714-717	die	_	_
+9-10	718-729	Alternative	_	_
+9-11	730-737	stellen	_	_
+9-12	738-739	:	_	_
+9-13	740-748	entweder	_	_
+9-14	749-754	alles	_	_
+9-15	755-757	in	_	_
+9-16	758-761	Rom	*	PLACEmentioned
+9-17	762-764	zu	_	_
+9-18	765-775	publiziren	_	_
+9-19	776-780	oder	_	_
+9-20	781-785	halb	_	_
+9-21	786-788	in	_	_
+9-22	789-792	Rom	*	PLACEmentioned
+9-23	793-794	,	_	_
+9-24	795-799	halb	_	_
+9-25	800-802	in	_	_
+9-26	803-808	Paris	*	PLACEmentioned
+9-27	809-813	aber	_	_
+9-28	814-819	nicht	_	_
+9-29	820-824	auch	_	_
+9-30	825-827	in	_	_
+9-31	828-834	Berlin	*	PLACEmentioned
+9-32	835-836	.	_	_
+
+#Text=Pariser Publicationen stellt er das theure Porto entgegen \; ferner die Kostbarkeit der Publicationen selbst .
+10-1	837-844	Pariser	_	_
+10-2	845-858	Publicationen	_	_
+10-3	859-865	stellt	_	_
+10-4	866-868	er	_	_
+10-5	869-872	das	_	_
+10-6	873-879	theure	_	_
+10-7	880-885	Porto	_	_
+10-8	886-894	entgegen	_	_
+10-9	895-896	\;	_	_
+10-10	897-903	ferner	_	_
+10-11	904-907	die	_	_
+10-12	908-919	Kostbarkeit	_	_
+10-13	920-923	der	_	_
+10-14	924-937	Publicationen	_	_
+10-15	938-944	selbst	_	_
+10-16	945-946	.	_	_
+
+#Text=Von der Vorausbezahlung etc. erwähnt er kein Wort .
+11-1	947-950	Von	_	_
+11-2	951-954	der	_	_
+11-3	955-970	Vorausbezahlung	_	_
+11-4	971-975	etc.	_	_
+11-5	976-983	erwähnt	_	_
+11-6	984-986	er	_	_
+11-7	987-991	kein	_	_
+11-8	992-996	Wort	_	_
+11-9	997-998	.	_	_
+
+#Text=Seinem Anschlag gemäß hätte die Pariser Section 4 Platten zu publiciren die Römische Section dito die Berliner Section dito Wollte nun die Berliner Section die Condescendence haben der Pariser Ihre Publicazionen zu überlassen , so würde die römische Section gegen die Pariser immer in großer Bescheidenheit zurückbleiben .
+12-1	999-1005	Seinem	_	_
+12-2	1006-1014	Anschlag	_	_
+12-3	1015-1020	gemäß	_	_
+12-4	1021-1026	hätte	_	_
+12-5	1027-1030	die	_	_
+12-6	1031-1038	Pariser	*[4]	ORGmentioned[4]
+12-7	1039-1046	Section	*[4]	ORGmentioned[4]
+12-8	1047-1048	4	_	_
+12-9	1049-1056	Platten	_	_
+12-10	1057-1059	zu	_	_
+12-11	1060-1070	publiciren	_	_
+12-12	1071-1074	die	_	_
+12-13	1075-1083	Römische	*[5]	ORGmentioned[5]
+12-14	1084-1091	Section	*[5]	ORGmentioned[5]
+12-15	1092-1096	dito	_	_
+12-16	1097-1100	die	_	_
+12-17	1101-1109	Berliner	*[6]	ORGmentioned[6]
+12-18	1110-1117	Section	*[6]	ORGmentioned[6]
+12-19	1118-1122	dito	_	_
+12-20	1123-1129	Wollte	_	_
+12-21	1130-1133	nun	_	_
+12-22	1134-1137	die	_	_
+12-23	1138-1146	Berliner	*[7]	ORGmentioned[7]
+12-24	1147-1154	Section	*[7]	ORGmentioned[7]
+12-25	1155-1158	die	_	_
+12-26	1159-1173	Condescendence	_	_
+12-27	1174-1179	haben	_	_
+12-28	1180-1183	der	_	_
+12-29	1184-1191	Pariser	*	ORGmentioned
+12-30	1192-1196	Ihre	_	_
+12-31	1197-1210	Publicazionen	_	_
+12-32	1211-1213	zu	_	_
+12-33	1214-1224	überlassen	_	_
+12-34	1225-1226	,	_	_
+12-35	1227-1229	so	_	_
+12-36	1230-1235	würde	_	_
+12-37	1236-1239	die	*[8]	ORGmentioned[8]
+12-38	1240-1248	römische	*[8]	ORGmentioned[8]
+12-39	1249-1256	Section	*[8]	ORGmentioned[8]
+12-40	1257-1262	gegen	_	_
+12-41	1263-1266	die	_	_
+12-42	1267-1274	Pariser	*	ORGmentioned
+12-43	1275-1280	immer	_	_
+12-44	1281-1283	in	_	_
+12-45	1284-1290	großer	_	_
+12-46	1291-1305	Bescheidenheit	_	_
+12-47	1306-1319	zurückbleiben	_	_
+12-48	1320-1321	.	_	_

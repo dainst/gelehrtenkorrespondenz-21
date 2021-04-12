@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , # 4. März 1838 Hrn .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	#	_	_
+1-7	28-30	4.	*[4]	DATEletter[4]
+1-8	31-35	März	*[4]	DATEletter[4]
+1-9	36-40	1838	*[4]	DATEletter[4]
+1-10	41-44	Hrn	_	_
+1-11	45-46	.	_	_
+
+#Text=Dr. Braun in Rom g . 19/3 38 Aff .
+2-1	47-50	Dr.	_	_
+2-2	51-56	Braun	*	PERaddressee
+2-3	57-59	in	_	_
+2-4	60-63	Rom	*	PLACEto
+2-5	64-65	g	_	_
+2-6	66-67	.	_	_
+2-7	68-72	19/3	*[7]	DATErecieved[7]
+2-8	73-75	38	*[7]	DATErecieved[7]
+2-9	76-79	Aff	_	_
+2-10	80-81	.	_	_
+
+#Text=d . Dir .
+3-1	82-83	d	_	_
+3-2	84-85	.	_	_
+3-3	86-89	Dir	_	_
+3-4	90-91	.	_	_
+
+#Text=CXII Ritorn .
+4-1	92-96	CXII	_	_
+4-2	97-103	Ritorn	_	_
+4-3	104-105	.	_	_
+
+#Text=da Nap .
+5-1	106-108	da	_	_
+5-2	109-112	Nap	_	_
+5-3	113-114	.	_	_
+
+#Text=1/4 38 Als Nachschrift zu vorstehendem Briefe empfehle ich Ihnen lieber Freund die nachstehenden für Neapel bestimmten Wünsche , um die ich unserm Freund Schulz früher direkt geschrieben habe und die ich Sie bei ihm oder einem andern gelehrten Reisenden zu erneuern bitte , zumal sie sich mit einer neuen Bitte vermehrt finden .
+6-1	115-118	1/4	*[8]	DATEmentioned[8]
+6-2	119-121	38	*[8]	DATEmentioned[8]
+6-3	122-125	Als	_	_
+6-4	126-137	Nachschrift	_	_
+6-5	138-140	zu	_	_
+6-6	141-153	vorstehendem	_	_
+6-7	154-160	Briefe	_	_
+6-8	161-169	empfehle	_	_
+6-9	170-173	ich	_	_
+6-10	174-179	Ihnen	_	_
+6-11	180-186	lieber	_	_
+6-12	187-193	Freund	_	_
+6-13	194-197	die	_	_
+6-14	198-211	nachstehenden	_	_
+6-15	212-215	für	_	_
+6-16	216-222	Neapel	*	PLACEmentioned
+6-17	223-233	bestimmten	_	_
+6-18	234-241	Wünsche	_	_
+6-19	242-243	,	_	_
+6-20	244-246	um	_	_
+6-21	247-250	die	_	_
+6-22	251-254	ich	_	_
+6-23	255-261	unserm	_	_
+6-24	262-268	Freund	_	_
+6-25	269-275	Schulz	*	PERmentioned
+6-26	276-282	früher	_	_
+6-27	283-289	direkt	_	_
+6-28	290-301	geschrieben	_	_
+6-29	302-306	habe	_	_
+6-30	307-310	und	_	_
+6-31	311-314	die	_	_
+6-32	315-318	ich	_	_
+6-33	319-322	Sie	_	_
+6-34	323-326	bei	_	_
+6-35	327-330	ihm	_	_
+6-36	331-335	oder	_	_
+6-37	336-341	einem	_	_
+6-38	342-348	andern	_	_
+6-39	349-358	gelehrten	_	_
+6-40	359-368	Reisenden	_	_
+6-41	369-371	zu	_	_
+6-42	372-380	erneuern	_	_
+6-43	381-386	bitte	_	_
+6-44	387-388	,	_	_
+6-45	389-394	zumal	_	_
+6-46	395-398	sie	_	_
+6-47	399-403	sich	_	_
+6-48	404-407	mit	_	_
+6-49	408-413	einer	_	_
+6-50	414-419	neuen	_	_
+6-51	420-425	Bitte	_	_
+6-52	426-434	vermehrt	_	_
+6-53	435-441	finden	_	_
+6-54	442-443	.	_	_
+
+#Text=Ich bedarf nämlich zu meiner eben gedruckten akademischen Abhandlung oder deren Nachschrift 1 ) eine genaue Vergleichung der Ankemorosvase mit dem von mir herausgegebnen Stich \; dieses selbst mit Einschluß der Vasenfom ( ob deren verzierende Köpfe eine phrygische Mütze oder andre Kopfbedeckung führen ?
+7-1	444-447	Ich	_	_
+7-2	448-454	bedarf	_	_
+7-3	455-462	nämlich	_	_
+7-4	463-465	zu	_	_
+7-5	466-472	meiner	_	_
+7-6	473-477	eben	_	_
+7-7	478-488	gedruckten	_	_
+7-8	489-501	akademischen	_	_
+7-9	502-512	Abhandlung	_	_
+7-10	513-517	oder	_	_
+7-11	518-523	deren	_	_
+7-12	524-535	Nachschrift	_	_
+7-13	536-537	1	_	_
+7-14	538-539	)	_	_
+7-15	540-544	eine	_	_
+7-16	545-551	genaue	_	_
+7-17	552-564	Vergleichung	_	_
+7-18	565-568	der	_	_
+7-19	569-582	Ankemorosvase	*	OBJ
+7-20	583-586	mit	_	_
+7-21	587-590	dem	_	_
+7-22	591-594	von	_	_
+7-23	595-598	mir	_	_
+7-24	599-613	herausgegebnen	_	_
+7-25	614-619	Stich	_	_
+7-26	620-621	\;	_	_
+7-27	622-628	dieses	_	_
+7-28	629-635	selbst	_	_
+7-29	636-639	mit	_	_
+7-30	640-649	Einschluß	_	_
+7-31	650-653	der	_	_
+7-32	654-662	Vasenfom	_	_
+7-33	663-664	(	_	_
+7-34	665-667	ob	_	_
+7-35	668-673	deren	_	_
+7-36	674-685	verzierende	_	_
+7-37	686-691	Köpfe	_	_
+7-38	692-696	eine	_	_
+7-39	697-707	phrygische	_	_
+7-40	708-713	Mütze	_	_
+7-41	714-718	oder	_	_
+7-42	719-724	andre	_	_
+7-43	725-738	Kopfbedeckung	_	_
+7-44	739-745	führen	_	_
+7-45	746-747	?	_	_
+
+#Text=) , hauptsächlich aber wegen der Ergänzungen der ganzen Vasenmalerei .
+8-1	748-749	)	_	_
+8-2	750-751	,	_	_
+8-3	752-765	hauptsächlich	_	_
+8-4	766-770	aber	_	_
+8-5	771-776	wegen	_	_
+8-6	777-780	der	_	_
+8-7	781-792	Ergänzungen	_	_
+8-8	793-796	der	_	_
+8-9	797-803	ganzen	_	_
+8-10	804-816	Vasenmalerei	_	_
+8-11	817-818	.	_	_
+
+#Text=2 ) eine Beschreibung des auf der großen Ruvovase neuster Entdeckung angebrachten Hesperidenbildes - „ dieses möglichst genau da ich eine Analyse ähnlicher Bilder eben drucke .
+9-1	819-820	2	_	_
+9-2	821-822	)	_	_
+9-3	823-827	eine	_	_
+9-4	828-840	Beschreibung	_	_
+9-5	841-844	des	_	_
+9-6	845-848	auf	_	_
+9-7	849-852	der	_	_
+9-8	853-859	großen	_	_
+9-9	860-868	Ruvovase	*	OBJ
+9-10	869-876	neuster	_	_
+9-11	877-887	Entdeckung	_	_
+9-12	888-900	angebrachten	_	_
+9-13	901-917	Hesperidenbildes	_	_
+9-14	918-919	-	_	_
+9-15	920-921	„	_	_
+9-16	922-928	dieses	_	_
+9-17	929-938	möglichst	_	_
+9-18	939-944	genau	_	_
+9-19	945-947	da	_	_
+9-20	948-951	ich	_	_
+9-21	952-956	eine	_	_
+9-22	957-964	Analyse	_	_
+9-23	965-974	ähnlicher	_	_
+9-24	975-981	Bilder	_	_
+9-25	982-986	eben	_	_
+9-26	987-993	drucke	_	_
+9-27	994-995	.	_	_
+
+#Text=Gleichzeitige Erwähnung sonstiger mir unbekannt gebliebnen Hesperidenbilder werde ich nicht minder dankbar erkennen .
+10-1	996-1009	Gleichzeitige	_	_
+10-2	1010-1019	Erwähnung	_	_
+10-3	1020-1029	sonstiger	_	_
+10-4	1030-1033	mir	_	_
+10-5	1034-1043	unbekannt	_	_
+10-6	1044-1054	gebliebnen	_	_
+10-7	1055-1071	Hesperidenbilder	_	_
+10-8	1072-1077	werde	_	_
+10-9	1078-1081	ich	_	_
+10-10	1082-1087	nicht	_	_
+10-11	1088-1094	minder	_	_
+10-12	1095-1102	dankbar	_	_
+10-13	1103-1111	erkennen	_	_
+10-14	1112-1113	.	_	_
+
+#Text=3 ) Bibliographische Notiz über das dite Legge Petronia p . 56 citirte Buch Grossi Notti Cassinesi , oder noch lieber über die daselbst behandelte Inschrift .
+11-1	1114-1115	3	_	_
+11-2	1116-1117	)	_	_
+11-3	1118-1134	Bibliographische	_	_
+11-4	1135-1140	Notiz	_	_
+11-5	1141-1145	über	_	_
+11-6	1146-1149	das	_	_
+11-7	1150-1154	dite	_	_
+11-8	1155-1160	Legge	_	_
+11-9	1161-1169	Petronia	_	_
+11-10	1170-1171	p	_	_
+11-11	1172-1173	.	_	_
+11-12	1174-1176	56	_	_
+11-13	1177-1184	citirte	_	_
+11-14	1185-1189	Buch	_	_
+11-15	1190-1196	Grossi	*	PERmentioned
+11-16	1197-1202	Notti	_	_
+11-17	1203-1212	Cassinesi	_	_
+11-18	1213-1214	,	_	_
+11-19	1215-1219	oder	_	_
+11-20	1220-1224	noch	_	_
+11-21	1225-1231	lieber	_	_
+11-22	1232-1236	über	_	_
+11-23	1237-1240	die	_	_
+11-24	1241-1249	daselbst	_	_
+11-25	1250-1260	behandelte	_	_
+11-26	1261-1270	Inschrift	_	_
+11-27	1271-1272	.	_	_
+
+#Text=Selbst ,
+12-1	1273-1279	Selbst	_	_
+12-2	1280-1281	,	_	_

@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=u IHKEXNKHHER Henzen an Gerhard er 9 4/V1Il/52 Verehrter Herr Professor !
+1-1	0-1	u	_	_
+1-2	2-13	IHKEXNKHHER	_	_
+1-3	14-20	Henzen	*	PERauthor
+1-4	21-23	an	_	_
+1-5	24-31	Gerhard	*	PERaddressee
+1-6	32-34	er	_	_
+1-7	35-36	9	_	_
+1-8	37-46	4/V1Il/52	*	DATEletter
+1-9	47-56	Verehrter	_	_
+1-10	57-61	Herr	_	_
+1-11	62-71	Professor	_	_
+1-12	72-73	!	_	_
+
+#Text=Obwohl ich auf Ihre beiden Briefe vom 13 u. 21° '' v. M. Nichts zu erwidern habe , das Wesentliche dh .
+2-1	74-80	Obwohl	_	_
+2-2	81-84	ich	_	_
+2-3	85-88	auf	_	_
+2-4	89-93	Ihre	_	_
+2-5	94-100	beiden	_	_
+2-6	101-107	Briefe	_	_
+2-7	108-111	vom	_	_
+2-8	112-114	13	*	DATEmentioned
+2-9	115-117	u.	_	_
+2-10	118-121	21°	*[1]	DATEmentioned[1]
+2-11	122-124	''	*[1]	DATEmentioned[1]
+2-12	125-127	v.	*[1]	DATEmentioned[1]
+2-13	128-130	M.	*[1]	DATEmentioned[1]
+2-14	131-137	Nichts	_	_
+2-15	138-140	zu	_	_
+2-16	141-149	erwidern	_	_
+2-17	150-154	habe	_	_
+2-18	155-156	,	_	_
+2-19	157-160	das	_	_
+2-20	161-172	Wesentliche	_	_
+2-21	173-175	dh	_	_
+2-22	176-177	.	_	_
+
+#Text=meinen letzten Brief aus Rom abgethan ist , so will ich doch nicht länger zögern , Ihnen zu schreiben , da Sie u , Ihre Frau Gemahlin über das Ergehen meiner Frau beunruhigt sein werden , die Gottlob !
+3-1	178-184	meinen	_	_
+3-2	185-192	letzten	_	_
+3-3	193-198	Brief	_	_
+3-4	199-202	aus	_	_
+3-5	203-206	Rom	*	PLACEmentioned
+3-6	207-215	abgethan	_	_
+3-7	216-219	ist	_	_
+3-8	220-221	,	_	_
+3-9	222-224	so	_	_
+3-10	225-229	will	_	_
+3-11	230-233	ich	_	_
+3-12	234-238	doch	_	_
+3-13	239-244	nicht	_	_
+3-14	245-251	länger	_	_
+3-15	252-258	zögern	_	_
+3-16	259-260	,	_	_
+3-17	261-266	Ihnen	_	_
+3-18	267-269	zu	_	_
+3-19	270-279	schreiben	_	_
+3-20	280-281	,	_	_
+3-21	282-284	da	_	_
+3-22	285-288	Sie	_	_
+3-23	289-290	u	_	_
+3-24	291-292	,	_	_
+3-25	293-297	Ihre	_	_
+3-26	298-302	Frau	_	_
+3-27	303-311	Gemahlin	_	_
+3-28	312-316	über	_	_
+3-29	317-320	das	_	_
+3-30	321-328	Ergehen	_	_
+3-31	329-335	meiner	_	_
+3-32	336-340	Frau	_	_
+3-33	341-351	beunruhigt	_	_
+3-34	352-356	sein	_	_
+3-35	357-363	werden	_	_
+3-36	364-365	,	_	_
+3-37	366-369	die	_	_
+3-38	370-377	Gottlob	_	_
+3-39	378-379	!	_	_
+
+#Text=hier draußen bald auf den Weg der Genesung gekommen ist , Die Etruria marittima kostet jeder Band 15 Scudi .
+4-1	380-384	hier	_	_
+4-2	385-392	draußen	_	_
+4-3	393-397	bald	_	_
+4-4	398-401	auf	_	_
+4-5	402-405	den	_	_
+4-6	406-409	Weg	_	_
+4-7	410-413	der	_	_
+4-8	414-422	Genesung	_	_
+4-9	423-431	gekommen	_	_
+4-10	432-435	ist	_	_
+4-11	436-437	,	_	_
+4-12	438-441	Die	_	_
+4-13	442-449	Etruria	_	_
+4-14	450-459	marittima	_	_
+4-15	460-466	kostet	_	_
+4-16	467-472	jeder	_	_
+4-17	473-477	Band	_	_
+4-18	478-480	15	_	_
+4-19	481-486	Scudi	_	_
+4-20	487-488	.	_	_
+
+#Text=Wann Brunn fortkommt , ist nicht abzusehen \; er schlevpt sich immer aufs Neue weiter .
+5-1	489-493	Wann	_	_
+5-2	494-499	Brunn	*	PERmentioned
+5-3	500-509	fortkommt	_	_
+5-4	510-511	,	_	_
+5-5	512-515	ist	_	_
+5-6	516-521	nicht	_	_
+5-7	522-531	abzusehen	_	_
+5-8	532-533	\;	_	_
+5-9	534-536	er	_	_
+5-10	537-545	schlevpt	_	_
+5-11	546-550	sich	_	_
+5-12	551-556	immer	_	_
+5-13	557-561	aufs	_	_
+5-14	562-566	Neue	_	_
+5-15	567-573	weiter	_	_
+5-16	574-575	.	_	_
+
+#Text=Von Sommer u. Herbst ist keine Rede \; wollen hoffen , AR .
+6-1	576-579	Von	_	_
+6-2	580-586	Sommer	*	DATEmentioned
+6-3	587-589	u.	_	_
+6-4	590-596	Herbst	*	DATEmentioned
+6-5	597-600	ist	_	_
+6-6	601-606	keine	_	_
+6-7	607-611	Rede	_	_
+6-8	612-613	\;	_	_
+6-9	614-620	wollen	_	_
+6-10	621-627	hoffen	_	_
+6-11	628-629	,	_	_
+6-12	630-632	AR	_	_
+6-13	633-634	.	_	_
+
+#Text=im Winter etwas daraus wird .
+7-1	635-637	im	_	_
+7-2	638-644	Winter	*	DATEmentioned
+7-3	645-650	etwas	_	_
+7-4	651-657	daraus	_	_
+7-5	658-662	wird	_	_
+7-6	663-664	.	_	_
+
+#Text=Solle OO buk nach Frag kommen , so würde ich übrigens sehr dafür sein , ist er dse , ganze , leider so lange ausposaunte Reise aufst ck u. statt issen nach Bonn gehn , wo Ritschls u. Welckers ihm noch am ehesten zu etwas verhilft .
+8-1	665-670	Solle	_	_
+8-2	671-673	OO	_	_
+8-3	674-677	buk	_	_
+8-4	678-682	nach	_	_
+8-5	683-687	Frag	_	_
+8-6	688-694	kommen	_	_
+8-7	695-696	,	_	_
+8-8	697-699	so	_	_
+8-9	700-705	würde	_	_
+8-10	706-709	ich	_	_
+8-11	710-718	übrigens	_	_
+8-12	719-723	sehr	_	_
+8-13	724-729	dafür	_	_
+8-14	730-734	sein	_	_
+8-15	735-736	,	_	_
+8-16	737-740	ist	_	_
+8-17	741-743	er	_	_
+8-18	744-747	dse	_	_
+8-19	748-749	,	_	_
+8-20	750-755	ganze	_	_
+8-21	756-757	,	_	_
+8-22	758-764	leider	_	_
+8-23	765-767	so	_	_
+8-24	768-773	lange	_	_
+8-25	774-785	ausposaunte	_	_
+8-26	786-791	Reise	_	_
+8-27	792-797	aufst	_	_
+8-28	798-800	ck	_	_
+8-29	801-803	u.	_	_
+8-30	804-809	statt	_	_
+8-31	810-815	issen	_	_
+8-32	816-820	nach	_	_
+8-33	821-825	Bonn	*	PLACEmentioned
+8-34	826-830	gehn	_	_
+8-35	831-832	,	_	_
+8-36	833-835	wo	_	_
+8-37	836-844	Ritschls	*	PERmentioned
+8-38	845-847	u.	_	_
+8-39	848-856	Welckers	*	PERmentioned
+8-40	857-860	ihm	_	_
+8-41	861-865	noch	_	_
+8-42	866-868	am	_	_
+8-43	869-876	ehesten	_	_
+8-44	877-879	zu	_	_
+8-45	880-885	etwas	_	_
+8-46	886-894	verhilft	_	_
+8-47	895-896	.	_	_
+
+#Text=Recht glückliche Reise , viel Vergnügen , gutes Wetter u. Erfolg für die Gesundheit .
+9-1	897-902	Recht	_	_
+9-2	903-913	glückliche	_	_
+9-3	914-919	Reise	_	_
+9-4	920-921	,	_	_
+9-5	922-926	viel	_	_
+9-6	927-936	Vergnügen	_	_
+9-7	937-938	,	_	_
+9-8	939-944	gutes	_	_
+9-9	945-951	Wetter	_	_
+9-10	952-954	u.	_	_
+9-11	955-961	Erfolg	_	_
+9-12	962-965	für	_	_
+9-13	966-969	die	_	_
+9-14	970-980	Gesundheit	_	_
+9-15	981-982	.	_	_
+
+#Text=Albano ist eine recht langweilige Villeggiatur , das Arbeiten geht schlecht , da ein armer Episraphiker ohne Folianten verloren ist , u. das Vebersetzen scher Aufsätze für die “ nnalen kann auch eben nicht als Zeitvertreib bezeichnen , da Einem vielmehr die Zeit recht lang dabei wird .
+10-1	983-989	Albano	*	PLACEmentioned
+10-2	990-993	ist	_	_
+10-3	994-998	eine	_	_
+10-4	999-1004	recht	_	_
+10-5	1005-1016	langweilige	_	_
+10-6	1017-1029	Villeggiatur	_	_
+10-7	1030-1031	,	_	_
+10-8	1032-1035	das	_	_
+10-9	1036-1044	Arbeiten	_	_
+10-10	1045-1049	geht	_	_
+10-11	1050-1058	schlecht	_	_
+10-12	1059-1060	,	_	_
+10-13	1061-1063	da	_	_
+10-14	1064-1067	ein	_	_
+10-15	1068-1073	armer	_	_
+10-16	1074-1086	Episraphiker	_	_
+10-17	1087-1091	ohne	_	_
+10-18	1092-1101	Folianten	_	_
+10-19	1102-1110	verloren	_	_
+10-20	1111-1114	ist	_	_
+10-21	1115-1116	,	_	_
+10-22	1117-1119	u.	_	_
+10-23	1120-1123	das	_	_
+10-24	1124-1135	Vebersetzen	_	_
+10-25	1136-1141	scher	_	_
+10-26	1142-1150	Aufsätze	_	_
+10-27	1151-1154	für	_	_
+10-28	1155-1158	die	_	_
+10-29	1159-1160	“	_	_
+10-30	1161-1167	nnalen	_	_
+10-31	1168-1172	kann	_	_
+10-32	1173-1177	auch	_	_
+10-33	1178-1182	eben	_	_
+10-34	1183-1188	nicht	_	_
+10-35	1189-1192	als	_	_
+10-36	1193-1205	Zeitvertreib	_	_
+10-37	1206-1216	bezeichnen	_	_
+10-38	1217-1218	,	_	_
+10-39	1219-1221	da	_	_
+10-40	1222-1227	Einem	_	_
+10-41	1228-1236	vielmehr	_	_
+10-42	1237-1240	die	_	_
+10-43	1241-1245	Zeit	_	_
+10-44	1246-1251	recht	_	_
+10-45	1252-1256	lang	_	_
+10-46	1257-1262	dabei	_	_
+10-47	1263-1267	wird	_	_
+10-48	1268-1269	.	_	_
+
+#Text=Leben Sie recht wohl u. empfehlen » ie mich Ihrer Frau Gemahlin bestens .
+11-1	1270-1275	Leben	_	_
+11-2	1276-1279	Sie	_	_
+11-3	1280-1285	recht	_	_
+11-4	1286-1290	wohl	_	_
+11-5	1291-1293	u.	_	_
+11-6	1294-1303	empfehlen	_	_
+11-7	1304-1305	»	_	_
+11-8	1306-1308	ie	_	_
+11-9	1309-1313	mich	_	_
+11-10	1314-1319	Ihrer	_	_
+11-11	1320-1324	Frau	_	_
+11-12	1325-1333	Gemahlin	_	_
+11-13	1334-1341	bestens	_	_
+11-14	1342-1343	.	_	_
+
+#Text=Ihr WHenzen Albano 4/VII/52
+12-1	1344-1347	Ihr	_	_
+12-2	1348-1355	WHenzen	*	PERauthor
+12-3	1356-1362	Albano	*	PLACEfrom
+12-4	1363-1371	4/VII/52	*	DATEletter

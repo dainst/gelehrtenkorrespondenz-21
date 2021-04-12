@@ -1,0 +1,171 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=m x Mommsen an Brunn Berlin , 25. April 186 schickt uns einen Schreibebrief \; wir werden ihn weiter spediren .
+1-1	0-1	m	_	_
+1-2	2-3	x	_	_
+1-3	4-11	Mommsen	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-20	Brunn	*	PERaddressee
+1-6	21-27	Berlin	*	PLACEfrom
+1-7	28-29	,	_	_
+1-8	30-33	25.	*[1]	DATEletter[1]
+1-9	34-39	April	*[1]	DATEletter[1]
+1-10	40-43	186	*[1]	DATEletter[1]
+1-11	44-51	schickt	_	_
+1-12	52-55	uns	_	_
+1-13	56-61	einen	_	_
+1-14	62-75	Schreibebrief	_	_
+1-15	76-77	\;	_	_
+1-16	78-81	wir	_	_
+1-17	82-88	werden	_	_
+1-18	89-92	ihn	_	_
+1-19	93-99	weiter	_	_
+1-20	100-108	spediren	_	_
+1-21	109-110	.	_	_
+
+#Text=Ich rathe aber nicht sehr zu , denn das Institut ist so ausnahmsweise liberal behandelt worden , während sonst überall geschunden wird , daß die Chance gering ist .
+2-1	111-114	Ich	_	_
+2-2	115-120	rathe	_	_
+2-3	121-125	aber	_	_
+2-4	126-131	nicht	_	_
+2-5	132-136	sehr	_	_
+2-6	137-139	zu	_	_
+2-7	140-141	,	_	_
+2-8	142-146	denn	_	_
+2-9	147-150	das	_	_
+2-10	151-159	Institut	*	ORGmentioned
+2-11	160-163	ist	_	_
+2-12	164-166	so	_	_
+2-13	167-180	ausnahmsweise	_	_
+2-14	181-188	liberal	_	_
+2-15	189-198	behandelt	_	_
+2-16	199-205	worden	_	_
+2-17	206-207	,	_	_
+2-18	208-215	während	_	_
+2-19	216-221	sonst	_	_
+2-20	222-229	überall	_	_
+2-21	230-240	geschunden	_	_
+2-22	241-245	wird	_	_
+2-23	246-247	,	_	_
+2-24	248-251	daß	_	_
+2-25	252-255	die	_	_
+2-26	256-262	Chance	_	_
+2-27	263-269	gering	_	_
+2-28	270-273	ist	_	_
+2-29	274-275	.	_	_
+
+#Text=Dasselbe gilt von Stoff , den die Regierung kaufen muß um ihn zu verschenken .
+3-1	276-284	Dasselbe	_	_
+3-2	285-289	gilt	_	_
+3-3	290-293	von	_	_
+3-4	294-299	Stoff	_	_
+3-5	300-301	,	_	_
+3-6	302-305	den	_	_
+3-7	306-309	die	_	_
+3-8	310-319	Regierung	*	ORGmentioned
+3-9	320-326	kaufen	_	_
+3-10	327-330	muß	_	_
+3-11	331-333	um	_	_
+3-12	334-337	ihn	_	_
+3-13	338-340	zu	_	_
+3-14	341-352	verschenken	_	_
+3-15	353-354	.	_	_
+
+#Text=Aristotles hat die Akademie auch nicht \; die paar Freiexemplare sind längst alle .
+4-1	355-365	Aristotles	*	PERmentioned
+4-2	366-369	hat	_	_
+4-3	370-373	die	_	_
+4-4	374-382	Akademie	*	ORGmentioned
+4-5	383-387	auch	_	_
+4-6	388-393	nicht	_	_
+4-7	394-395	\;	_	_
+4-8	396-399	die	_	_
+4-9	400-404	paar	_	_
+4-10	405-418	Freiexemplare	_	_
+4-11	419-423	sind	_	_
+4-12	424-430	längst	_	_
+4-13	431-435	alle	_	_
+4-14	436-437	.	_	_
+
+#Text=- Wegen Stackelberg werde fragen .
+5-1	438-439	-	_	_
+5-2	440-445	Wegen	_	_
+5-3	446-457	Stackelberg	*[2]	PERmentioned[2]
+5-4	458-463	werde	_	_
+5-5	464-470	fragen	_	_
+5-6	471-472	.	_	_
+
+#Text=Um die Inschriften beider Cisten bitte ich recht sehr , und zwar mit Deinen Erklärungen , resp .
+6-1	473-475	Um	_	_
+6-2	476-479	die	_	_
+6-3	480-491	Inschriften	*	OBJ
+6-4	492-498	beider	_	_
+6-5	499-505	Cisten	*	OBJ
+6-6	506-511	bitte	_	_
+6-7	512-515	ich	_	_
+6-8	516-521	recht	_	_
+6-9	522-526	sehr	_	_
+6-10	527-528	,	_	_
+6-11	529-532	und	_	_
+6-12	533-537	zwar	_	_
+6-13	538-541	mit	_	_
+6-14	542-548	Deinen	_	_
+6-15	549-560	Erklärungen	_	_
+6-16	561-562	,	_	_
+6-17	563-567	resp	_	_
+6-18	568-569	.	_	_
+
+#Text=der Angabe , \| daß alles .
+7-1	570-573	der	_	_
+7-2	574-580	Angabe	_	_
+7-3	581-582	,	_	_
+7-4	583-584	\|	_	_
+7-5	585-588	daß	_	_
+7-6	589-594	alles	_	_
+7-7	595-596	.	_	_
+
+#Text=Ich werde sie weder herumbieten noch publiciren , darauf kannst Du Dich verlaßen .
+8-1	597-600	Ich	_	_
+8-2	601-606	werde	_	_
+8-3	607-610	sie	_	_
+8-4	611-616	weder	_	_
+8-5	617-628	herumbieten	_	_
+8-6	629-633	noch	_	_
+8-7	634-644	publiciren	_	_
+8-8	645-646	,	_	_
+8-9	647-653	darauf	_	_
+8-10	654-660	kannst	_	_
+8-11	661-663	Du	_	_
+8-12	664-668	Dich	_	_
+8-13	669-677	verlaßen	_	_
+8-14	678-679	.	_	_
+
+#Text=Mein Junge schreit lustig , hoffentlich machts Dein Mädel ebenso .
+9-1	680-684	Mein	_	_
+9-2	685-690	Junge	_	_
+9-3	691-698	schreit	_	_
+9-4	699-705	lustig	_	_
+9-5	706-707	,	_	_
+9-6	708-719	hoffentlich	_	_
+9-7	720-726	machts	_	_
+9-8	727-731	Dein	_	_
+9-9	732-737	Mädel	_	_
+9-10	738-744	ebenso	_	_
+9-11	745-746	.	_	_
+
+#Text=Leb wohl , Dein Momnmsen .
+10-1	747-750	Leb	_	_
+10-2	751-755	wohl	_	_
+10-3	756-757	,	_	_
+10-4	758-762	Dein	_	_
+10-5	763-771	Momnmsen	*	PERauthor
+10-6	772-773	.	_	_
+
+#Text=Berlin 25 Ap . 1861
+11-1	774-780	Berlin	*	PLACEfrom
+11-2	781-783	25	*[3]	DATEletter[3]
+11-3	784-786	Ap	*[3]	DATEletter[3]
+11-4	787-788	.	*[3]	DATEletter[3]
+11-5	789-793	1861	*[3]	DATEletter[3]

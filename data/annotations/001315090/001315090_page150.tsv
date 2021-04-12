@@ -1,0 +1,198 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ne 164 Lepsius an Henzen Berlin , 5. April 1874 Yu 74 Berlin d . 5. April 1874 Verehrter Freund Meinen Brief vom 2 . ''
+1-1	0-2	Ne	_	_
+1-2	3-6	164	_	_
+1-3	7-14	Lepsius	*	PERauthor
+1-4	15-17	an	_	_
+1-5	18-24	Henzen	*	PERaddressee
+1-6	25-31	Berlin	*	PLACEfrom
+1-7	32-33	,	_	_
+1-8	34-36	5.	*[1]	DATEletter[1]
+1-9	37-42	April	*[1]	DATEletter[1]
+1-10	43-47	1874	*[1]	DATEletter[1]
+1-11	48-50	Yu	*[2]	DATErecieved[2]
+1-12	51-53	74	*[2]	DATErecieved[2]
+1-13	54-60	Berlin	*	PLACEfrom
+1-14	61-62	d	_	_
+1-15	63-64	.	_	_
+1-16	65-67	5.	*[3]	DATEletter[3]
+1-17	68-73	April	*[3]	DATEletter[3]
+1-18	74-78	1874	*[3]	DATEletter[3]
+1-19	79-88	Verehrter	_	_
+1-20	89-95	Freund	_	_
+1-21	96-102	Meinen	_	_
+1-22	103-108	Brief	_	_
+1-23	109-112	vom	_	_
+1-24	113-114	2	*[4]	DATEmentioned[4]
+1-25	115-116	.	*[4]	DATEmentioned[4]
+1-26	117-119	''	_	_
+
+#Text=d. mit der Abschrift des Etats werden Sie erhalten haben .
+2-1	120-122	d.	_	_
+2-2	123-126	mit	_	_
+2-3	127-130	der	_	_
+2-4	131-140	Abschrift	_	_
+2-5	141-144	des	_	_
+2-6	145-150	Etats	_	_
+2-7	151-157	werden	_	_
+2-8	158-161	Sie	_	_
+2-9	162-170	erhalten	_	_
+2-10	171-176	haben	_	_
+2-11	177-178	.	_	_
+
+#Text=Binnen 14 Tagen werden wir aber auch durch Krüger 's wirksame Hülfe die Statuten zurück erhalten , nachdem sie den Bundesrath passirt haben werden .
+3-1	179-185	Binnen	_	_
+3-2	186-188	14	_	_
+3-3	189-194	Tagen	_	_
+3-4	195-201	werden	_	_
+3-5	202-205	wir	_	_
+3-6	206-210	aber	_	_
+3-7	211-215	auch	_	_
+3-8	216-221	durch	_	_
+3-9	222-228	Krüger	*[5]	PERmentioned[5]
+3-10	229-231	's	*[5]	PERmentioned[5]
+3-11	232-240	wirksame	_	_
+3-12	241-246	Hülfe	_	_
+3-13	247-250	die	_	_
+3-14	251-259	Statuten	_	_
+3-15	260-266	zurück	_	_
+3-16	267-275	erhalten	_	_
+3-17	276-277	,	_	_
+3-18	278-285	nachdem	_	_
+3-19	286-289	sie	_	_
+3-20	290-293	den	_	_
+3-21	294-304	Bundesrath	_	_
+3-22	305-312	passirt	_	_
+3-23	313-318	haben	_	_
+3-24	319-325	werden	_	_
+3-25	326-327	.	_	_
+
+#Text=und so werden wir nun doch wohl mit der Ausschreibung der Stipendien noch warten können , bis die weitere Centraldirektion berufen ist .
+4-1	328-331	und	_	_
+4-2	332-334	so	_	_
+4-3	335-341	werden	_	_
+4-4	342-345	wir	_	_
+4-5	346-349	nun	_	_
+4-6	350-354	doch	_	_
+4-7	355-359	wohl	_	_
+4-8	360-363	mit	_	_
+4-9	364-367	der	_	_
+4-10	368-381	Ausschreibung	_	_
+4-11	382-385	der	_	_
+4-12	386-396	Stipendien	_	_
+4-13	397-401	noch	_	_
+4-14	402-408	warten	_	_
+4-15	409-415	können	_	_
+4-16	416-417	,	_	_
+4-17	418-421	bis	_	_
+4-18	422-425	die	_	_
+4-19	426-433	weitere	_	_
+4-20	434-450	Centraldirektion	_	_
+4-21	451-458	berufen	_	_
+4-22	459-462	ist	_	_
+4-23	463-464	.	_	_
+
+#Text=Den Reichskanzler wollen wir nun angehen , uns zu erlauben den Reservefonds an die Legationskasse zur Verwaltung zu übergeben mit Abzug einer Summe für Rom und für Athen .
+5-1	465-468	Den	_	_
+5-2	469-482	Reichskanzler	*	PERmentioned
+5-3	483-489	wollen	_	_
+5-4	490-493	wir	_	_
+5-5	494-497	nun	_	_
+5-6	498-505	angehen	_	_
+5-7	506-507	,	_	_
+5-8	508-511	uns	_	_
+5-9	512-514	zu	_	_
+5-10	515-523	erlauben	_	_
+5-11	524-527	den	_	_
+5-12	528-540	Reservefonds	_	_
+5-13	541-543	an	_	_
+5-14	544-547	die	_	_
+5-15	548-562	Legationskasse	_	_
+5-16	563-566	zur	_	_
+5-17	567-577	Verwaltung	_	_
+5-18	578-580	zu	_	_
+5-19	581-590	übergeben	_	_
+5-20	591-594	mit	_	_
+5-21	595-600	Abzug	_	_
+5-22	601-606	einer	_	_
+5-23	607-612	Summe	_	_
+5-24	613-616	für	_	_
+5-25	617-620	Rom	*	PLACEmentioned
+5-26	621-624	und	_	_
+5-27	625-628	für	_	_
+5-28	629-634	Athen	*	PLACEmentioned
+5-29	635-636	.	_	_
+
+#Text=Dann werden wir die Anweisungen hier direkt geben können Die von mir vermißten 1600 r werden Sie gefunden haben \; sie waren nur in der Originalrechnung wunderlich verborgen .
+6-1	637-641	Dann	_	_
+6-2	642-648	werden	_	_
+6-3	649-652	wir	_	_
+6-4	653-656	die	_	_
+6-5	657-668	Anweisungen	_	_
+6-6	669-673	hier	_	_
+6-7	674-680	direkt	_	_
+6-8	681-686	geben	_	_
+6-9	687-693	können	_	_
+6-10	694-697	Die	_	_
+6-11	698-701	von	_	_
+6-12	702-705	mir	_	_
+6-13	706-715	vermißten	_	_
+6-14	716-720	1600	_	_
+6-15	721-722	r	_	_
+6-16	723-729	werden	_	_
+6-17	730-733	Sie	_	_
+6-18	734-742	gefunden	_	_
+6-19	743-748	haben	_	_
+6-20	749-750	\;	_	_
+6-21	751-754	sie	_	_
+6-22	755-760	waren	_	_
+6-23	761-764	nur	_	_
+6-24	765-767	in	_	_
+6-25	768-771	der	_	_
+6-26	772-788	Originalrechnung	_	_
+6-27	789-799	wunderlich	_	_
+6-28	800-809	verborgen	_	_
+6-29	810-811	.	_	_
+
+#Text=Ich werde wohl Ende dieses Monats eine bibliothekarische Rundreise bis nach Wien und Paris machen müssen .
+7-1	812-815	Ich	_	_
+7-2	816-821	werde	_	_
+7-3	822-826	wohl	_	_
+7-4	827-831	Ende	_	_
+7-5	832-838	dieses	_	_
+7-6	839-845	Monats	_	_
+7-7	846-850	eine	_	_
+7-8	851-868	bibliothekarische	_	_
+7-9	869-878	Rundreise	_	_
+7-10	879-882	bis	_	_
+7-11	883-887	nach	_	_
+7-12	888-892	Wien	*	PLACEmentioned
+7-13	893-896	und	_	_
+7-14	897-902	Paris	*	PLACEmentioned
+7-15	903-909	machen	_	_
+7-16	910-916	müssen	_	_
+7-17	917-918	.	_	_
+
+#Text=Bis dahin werden die Statuten hoffentlich zurück sein .
+8-1	919-922	Bis	_	_
+8-2	923-928	dahin	_	_
+8-3	929-935	werden	_	_
+8-4	936-939	die	_	_
+8-5	940-948	Statuten	_	_
+8-6	949-960	hoffentlich	_	_
+8-7	961-967	zurück	_	_
+8-8	968-972	sein	_	_
+8-9	973-974	.	_	_
+
+#Text=Ende Mai denke ich wieder hier zurück zu
+9-1	975-979	Ende	_	_
+9-2	980-983	Mai	*	DATEmentioned
+9-3	984-989	denke	_	_
+9-4	990-993	ich	_	_
+9-5	994-1000	wieder	_	_
+9-6	1001-1005	hier	_	_
+9-7	1006-1012	zurück	_	_
+9-8	1013-1015	zu	_	_

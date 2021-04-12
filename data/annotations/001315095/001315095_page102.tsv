@@ -1,0 +1,275 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Breslau , 4. Dezember 1856 Lieber Brunn !
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	4.	*[1]	DATEletter[1]
+1-7	30-38	Dezember	*[1]	DATEletter[1]
+1-8	39-43	1856	*[1]	DATEletter[1]
+1-9	44-50	Lieber	_	_
+1-10	51-56	Brunn	*	PERaddressee
+1-11	57-58	!	_	_
+
+#Text=Sieh dies nicht als einen Brief an , am wenigsten als einen Gratulationsbrief , wie es jetzt sich eignete \; ich habe so viel zu thun , daß ich gar nichts mehr thue und nichts schreibe als Zettel , Hier sind die Epigraphien für Henzen \; zugleich einige Briefe .
+2-1	59-63	Sieh	_	_
+2-2	64-68	dies	_	_
+2-3	69-74	nicht	_	_
+2-4	75-78	als	_	_
+2-5	79-84	einen	_	_
+2-6	85-90	Brief	_	_
+2-7	91-93	an	_	_
+2-8	94-95	,	_	_
+2-9	96-98	am	_	_
+2-10	99-108	wenigsten	_	_
+2-11	109-112	als	_	_
+2-12	113-118	einen	_	_
+2-13	119-136	Gratulationsbrief	_	_
+2-14	137-138	,	_	_
+2-15	139-142	wie	_	_
+2-16	143-145	es	_	_
+2-17	146-151	jetzt	_	_
+2-18	152-156	sich	_	_
+2-19	157-164	eignete	_	_
+2-20	165-166	\;	_	_
+2-21	167-170	ich	_	_
+2-22	171-175	habe	_	_
+2-23	176-178	so	_	_
+2-24	179-183	viel	_	_
+2-25	184-186	zu	_	_
+2-26	187-191	thun	_	_
+2-27	192-193	,	_	_
+2-28	194-197	daß	_	_
+2-29	198-201	ich	_	_
+2-30	202-205	gar	_	_
+2-31	206-212	nichts	_	_
+2-32	213-217	mehr	_	_
+2-33	218-222	thue	_	_
+2-34	223-226	und	_	_
+2-35	227-233	nichts	_	_
+2-36	234-242	schreibe	_	_
+2-37	243-246	als	_	_
+2-38	247-253	Zettel	_	_
+2-39	254-255	,	_	_
+2-40	256-260	Hier	_	_
+2-41	261-265	sind	_	_
+2-42	266-269	die	_	_
+2-43	270-281	Epigraphien	_	_
+2-44	282-285	für	_	_
+2-45	286-292	Henzen	*	PERmentioned
+2-46	293-294	\;	_	_
+2-47	295-303	zugleich	_	_
+2-48	304-310	einige	_	_
+2-49	311-317	Briefe	_	_
+2-50	318-319	.	_	_
+
+#Text=Lotze , Mikrokosmos - Frau Henzen Schmidt , Litt .
+3-1	320-325	Lotze	*	PERmentioned
+3-2	326-327	,	_	_
+3-3	328-339	Mikrokosmos	_	_
+3-4	340-341	-	_	_
+3-5	342-346	Frau	_	_
+3-6	347-353	Henzen	*	PERmentioned
+3-7	354-361	Schmidt	*	PERmentioned
+3-8	362-363	,	_	_
+3-9	364-368	Litt	*	PERmentioned
+3-10	369-370	.	_	_
+
+#Text=Geschichte - Henzen masc .
+4-1	371-381	Geschichte	_	_
+4-2	382-383	-	_	_
+4-3	384-390	Henzen	*	PERmentioned
+4-4	391-395	masc	_	_
+4-5	396-397	.	_	_
+
+#Text=Rüdiger , 2 Abhdgn .
+5-1	398-405	Rüdiger	*	PERmentioned
+5-2	406-407	,	_	_
+5-3	408-409	2	_	_
+5-4	410-416	Abhdgn	_	_
+5-5	417-418	.	_	_
+
+#Text=- Dracontius de deo , 2 Abh , - Gregorius Turonensis - für Rossi Petri Victorii quistolae - Petrarca de viris illustr .
+6-1	419-420	-	_	_
+6-2	421-431	Dracontius	_	_
+6-3	432-434	de	_	_
+6-4	435-438	deo	_	_
+6-5	439-440	,	_	_
+6-6	441-442	2	_	_
+6-7	443-446	Abh	_	_
+6-8	447-448	,	_	_
+6-9	449-450	-	*[2]	PERmentioned[2]
+6-10	451-460	Gregorius	*[2]	PERmentioned[2]
+6-11	461-471	Turonensis	*[2]	PERmentioned[2]
+6-12	472-473	-	_	_
+6-13	474-477	für	_	_
+6-14	478-483	Rossi	*	PERmentioned
+6-15	484-489	Petri	_	_
+6-16	490-498	Victorii	_	_
+6-17	499-508	quistolae	_	_
+6-18	509-510	-	*[3]	PERmentioned[3]
+6-19	511-519	Petrarca	*[3]	PERmentioned[3]
+6-20	520-522	de	_	_
+6-21	523-528	viris	_	_
+6-22	529-536	illustr	_	_
+6-23	537-538	.	_	_
+
+#Text=4 Abh .
+7-1	539-540	4	_	_
+7-2	541-544	Abh	_	_
+7-3	545-546	.	_	_
+
+#Text=Mit dem Rest kann Henzen nach Gefallen verfahren und es entweder selbst nehmen oder an Rossi oder das Institut geben .
+8-1	547-550	Mit	_	_
+8-2	551-554	dem	_	_
+8-3	555-559	Rest	_	_
+8-4	560-564	kann	_	_
+8-5	565-571	Henzen	*	PERmentioned
+8-6	572-576	nach	_	_
+8-7	577-585	Gefallen	_	_
+8-8	586-595	verfahren	_	_
+8-9	596-599	und	_	_
+8-10	600-602	es	_	_
+8-11	603-611	entweder	_	_
+8-12	612-618	selbst	_	_
+8-13	619-625	nehmen	_	_
+8-14	626-630	oder	_	_
+8-15	631-633	an	_	_
+8-16	634-639	Rossi	*	PERmentioned
+8-17	640-644	oder	_	_
+8-18	645-648	das	_	_
+8-19	649-657	Institut	*	ORGmentioned
+8-20	658-663	geben	_	_
+8-21	664-665	.	_	_
+
+#Text=Hätte ich mehr Zeit , so hätte ich mehr geschickt \; Du wirst Dich dessen freuen .
+9-1	666-671	Hätte	_	_
+9-2	672-675	ich	_	_
+9-3	676-680	mehr	_	_
+9-4	681-685	Zeit	_	_
+9-5	686-687	,	_	_
+9-6	688-690	so	_	_
+9-7	691-696	hätte	_	_
+9-8	697-700	ich	_	_
+9-9	701-705	mehr	_	_
+9-10	706-715	geschickt	_	_
+9-11	716-717	\;	_	_
+9-12	718-720	Du	_	_
+9-13	721-726	wirst	_	_
+9-14	727-731	Dich	_	_
+9-15	732-738	dessen	_	_
+9-16	739-745	freuen	_	_
+9-17	746-747	.	_	_
+
+#Text=Eben wie ich dies Blatt vor mir habe , kommt Deine plinianische Arbeit .
+10-1	748-752	Eben	_	_
+10-2	753-756	wie	_	_
+10-3	757-760	ich	_	_
+10-4	761-765	dies	_	_
+10-5	766-771	Blatt	_	_
+10-6	772-775	vor	_	_
+10-7	776-779	mir	_	_
+10-8	780-784	habe	_	_
+10-9	785-786	,	_	_
+10-10	787-792	kommt	_	_
+10-11	793-798	Deine	_	_
+10-12	799-811	plinianische	_	_
+10-13	812-818	Arbeit	_	_
+10-14	819-820	.	_	_
+
+#Text=Ich kann nur hineinriechen , aber es freut mich schon die That .
+11-1	821-824	Ich	_	_
+11-2	825-829	kann	_	_
+11-3	830-833	nur	_	_
+11-4	834-847	hineinriechen	_	_
+11-5	848-849	,	_	_
+11-6	850-854	aber	_	_
+11-7	855-857	es	_	_
+11-8	858-863	freut	_	_
+11-9	864-868	mich	_	_
+11-10	869-874	schon	_	_
+11-11	875-878	die	_	_
+11-12	879-883	That	_	_
+11-13	884-885	.	_	_
+
+#Text=Auch Dein Brief hat mich gefreut .
+12-1	886-890	Auch	_	_
+12-2	891-895	Dein	_	_
+12-3	896-901	Brief	_	_
+12-4	902-905	hat	_	_
+12-5	906-910	mich	_	_
+12-6	911-918	gefreut	_	_
+12-7	919-920	.	_	_
+
+#Text=Man ist nichts , wenn man da wo man ist nicht ganz ist \; und vor allem in Rom , wo man vom Publicum auch gar keinen Rückschlag empfängt und sich den Muth zum Schreiben - es gehört einer dazu - aus den Fingern saugen muß .
+13-1	921-924	Man	_	_
+13-2	925-928	ist	_	_
+13-3	929-935	nichts	_	_
+13-4	936-937	,	_	_
+13-5	938-942	wenn	_	_
+13-6	943-946	man	_	_
+13-7	947-949	da	_	_
+13-8	950-952	wo	_	_
+13-9	953-956	man	_	_
+13-10	957-960	ist	_	_
+13-11	961-966	nicht	_	_
+13-12	967-971	ganz	_	_
+13-13	972-975	ist	_	_
+13-14	976-977	\;	_	_
+13-15	978-981	und	_	_
+13-16	982-985	vor	_	_
+13-17	986-991	allem	_	_
+13-18	992-994	in	_	_
+13-19	995-998	Rom	*	PLACEmentioned
+13-20	999-1000	,	_	_
+13-21	1001-1003	wo	_	_
+13-22	1004-1007	man	_	_
+13-23	1008-1011	vom	_	_
+13-24	1012-1020	Publicum	_	_
+13-25	1021-1025	auch	_	_
+13-26	1026-1029	gar	_	_
+13-27	1030-1036	keinen	_	_
+13-28	1037-1047	Rückschlag	_	_
+13-29	1048-1056	empfängt	_	_
+13-30	1057-1060	und	_	_
+13-31	1061-1065	sich	_	_
+13-32	1066-1069	den	_	_
+13-33	1070-1074	Muth	_	_
+13-34	1075-1078	zum	_	_
+13-35	1079-1088	Schreiben	_	_
+13-36	1089-1090	-	_	_
+13-37	1091-1093	es	_	_
+13-38	1094-1100	gehört	_	_
+13-39	1101-1106	einer	_	_
+13-40	1107-1111	dazu	_	_
+13-41	1112-1113	-	_	_
+13-42	1114-1117	aus	_	_
+13-43	1118-1121	den	_	_
+13-44	1122-1129	Fingern	_	_
+13-45	1130-1136	saugen	_	_
+13-46	1137-1140	muß	_	_
+13-47	1141-1142	.	_	_
+
+#Text=Aber Du hast Recht , daß wir Euch Rückhalt schuldig sind \; es soll auch von meiner Seite
+14-1	1143-1147	Aber	_	_
+14-2	1148-1150	Du	_	_
+14-3	1151-1155	hast	_	_
+14-4	1156-1161	Recht	_	_
+14-5	1162-1163	,	_	_
+14-6	1164-1167	daß	_	_
+14-7	1168-1171	wir	_	_
+14-8	1172-1176	Euch	_	_
+14-9	1177-1185	Rückhalt	_	_
+14-10	1186-1194	schuldig	_	_
+14-11	1195-1199	sind	_	_
+14-12	1200-1201	\;	_	_
+14-13	1202-1204	es	_	_
+14-14	1205-1209	soll	_	_
+14-15	1210-1214	auch	_	_
+14-16	1215-1218	von	_	_
+14-17	1219-1225	meiner	_	_
+14-18	1226-1231	Seite	_	_

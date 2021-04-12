@@ -1,0 +1,128 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2u Braun an Gerhard Rom , 9 .
+1-1	0-2	2u	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-27	9	*[4]	DATEletter[4]
+1-8	28-29	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 - u — Ihre und anderer Bestätigung erwartet .
+2-1	30-36	Januar	*[4]	DATEletter[4]
+2-2	37-41	1838	*[4]	DATEletter[4]
+2-3	42-43	-	_	_
+2-4	44-45	u	_	_
+2-5	46-47	—	_	_
+2-6	48-52	Ihre	_	_
+2-7	53-56	und	_	_
+2-8	57-64	anderer	_	_
+2-9	65-76	Bestätigung	_	_
+2-10	77-85	erwartet	_	_
+2-11	86-87	.	_	_
+
+#Text=Capranesi hat die mir durch Bunsen überkommenen geschnittenen Steine ( Rabe und Muse ) eigehäisdigt erhalten .
+3-1	88-97	Capranesi	*	PERmentioned
+3-2	98-101	hat	_	_
+3-3	102-105	die	_	_
+3-4	106-109	mir	_	_
+3-5	110-115	durch	_	_
+3-6	116-122	Bunsen	*	PERmentioned
+3-7	123-135	überkommenen	_	_
+3-8	136-149	geschnittenen	_	_
+3-9	150-156	Steine	_	_
+3-10	157-158	(	_	_
+3-11	159-163	Rabe	_	_
+3-12	164-167	und	_	_
+3-13	168-172	Muse	_	_
+3-14	173-174	)	_	_
+3-15	175-187	eigehäisdigt	_	_
+3-16	188-196	erhalten	_	_
+3-17	197-198	.	_	_
+
+#Text=Auf das Nähere wird ihn ja wohl ein directes Briefchen von Ihnen aufmerksam machen .
+4-1	199-202	Auf	_	_
+4-2	203-206	das	_	_
+4-3	207-213	Nähere	_	_
+4-4	214-218	wird	_	_
+4-5	219-222	ihn	_	_
+4-6	223-225	ja	_	_
+4-7	226-230	wohl	_	_
+4-8	231-234	ein	_	_
+4-9	235-243	directes	_	_
+4-10	244-253	Briefchen	_	_
+4-11	254-257	von	_	_
+4-12	258-263	Ihnen	_	_
+4-13	264-274	aufmerksam	_	_
+4-14	275-281	machen	_	_
+4-15	282-283	.	_	_
+
+#Text=Da ich das ganze Geschäft gar nicht kenne , so habe ich mich alles Dreinredens streng enthalten und ihm blos .
+5-1	284-286	Da	_	_
+5-2	287-290	ich	_	_
+5-3	291-294	das	_	_
+5-4	295-300	ganze	_	_
+5-5	301-309	Geschäft	_	_
+5-6	310-313	gar	_	_
+5-7	314-319	nicht	_	_
+5-8	320-325	kenne	_	_
+5-9	326-327	,	_	_
+5-10	328-330	so	_	_
+5-11	331-335	habe	_	_
+5-12	336-339	ich	_	_
+5-13	340-344	mich	_	_
+5-14	345-350	alles	_	_
+5-15	351-362	Dreinredens	_	_
+5-16	363-369	streng	_	_
+5-17	370-379	enthalten	_	_
+5-18	380-383	und	_	_
+5-19	384-387	ihm	_	_
+5-20	388-392	blos	_	_
+5-21	393-394	.	_	_
+
+#Text=das mitgetheilt , was Sie mir selbst früher darüber geschrieben .
+6-1	395-398	das	_	_
+6-2	399-410	mitgetheilt	_	_
+6-3	411-412	,	_	_
+6-4	413-416	was	_	_
+6-5	417-420	Sie	_	_
+6-6	421-424	mir	_	_
+6-7	425-431	selbst	_	_
+6-8	432-438	früher	_	_
+6-9	439-446	darüber	_	_
+6-10	447-458	geschrieben	_	_
+6-11	459-460	.	_	_
+
+#Text=Bunsen hat 12 Scudi ( nicht 20 wie Lepsius ankündigte ) mitgebracht , welche ich Vollarden unberührt und ohne sie in meinen Rechnungen aufzuführen , passirt habe .
+7-1	461-467	Bunsen	*	PERmentioned
+7-2	468-471	hat	_	_
+7-3	472-474	12	_	_
+7-4	475-480	Scudi	_	_
+7-5	481-482	(	_	_
+7-6	483-488	nicht	_	_
+7-7	489-491	20	_	_
+7-8	492-495	wie	_	_
+7-9	496-503	Lepsius	*	PERmentioned
+7-10	504-514	ankündigte	_	_
+7-11	515-516	)	_	_
+7-12	517-528	mitgebracht	_	_
+7-13	529-530	,	_	_
+7-14	531-537	welche	_	_
+7-15	538-541	ich	_	_
+7-16	542-551	Vollarden	*	PERmentioned
+7-17	552-561	unberührt	_	_
+7-18	562-565	und	_	_
+7-19	566-570	ohne	_	_
+7-20	571-574	sie	_	_
+7-21	575-577	in	_	_
+7-22	578-584	meinen	_	_
+7-23	585-595	Rechnungen	_	_
+7-24	596-607	aufzuführen	_	_
+7-25	608-609	,	_	_
+7-26	610-617	passirt	_	_
+7-27	618-622	habe	_	_
+7-28	623-624	.	_	_

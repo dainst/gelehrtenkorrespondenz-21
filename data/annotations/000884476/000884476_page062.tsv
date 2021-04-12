@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun \| ” Rom , 22. November 1834 Herrn Dr. Braun Rom .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-18	\|	_	_
+1-5	19-20	”	_	_
+1-6	21-24	Rom	*	PLACEfrom
+1-7	25-26	,	_	_
+1-8	27-30	22.	*[4]	DATEletter[4]
+1-9	31-39	November	*[4]	DATEletter[4]
+1-10	40-44	1834	*[4]	DATEletter[4]
+1-11	45-50	Herrn	_	_
+1-12	51-54	Dr.	_	_
+1-13	55-60	Braun	*	PERaddressee
+1-14	61-64	Rom	*	PLACEfrom
+1-15	65-66	.	_	_
+
+#Text=22 Nov 34 Hier lieber Freund die mit Bemerkungen begleitete Schuldnerliste des Instituts , zu Geh .
+2-1	67-69	22	*[7]	DATEletter[7]
+2-2	70-73	Nov	*[7]	DATEletter[7]
+2-3	74-76	34	*[7]	DATEletter[7]
+2-4	77-81	Hier	_	_
+2-5	82-88	lieber	_	_
+2-6	89-95	Freund	_	_
+2-7	96-99	die	_	_
+2-8	100-103	mit	_	_
+2-9	104-115	Bemerkungen	_	_
+2-10	116-126	begleitete	_	_
+2-11	127-141	Schuldnerliste	_	_
+2-12	142-145	des	_	_
+2-13	146-155	Instituts	*	ORGmentioned
+2-14	156-157	,	_	_
+2-15	158-160	zu	_	_
+2-16	161-164	Geh	_	_
+2-17	165-166	.	_	_
+
+#Text=Rath Bunsens Ansicht und , ohne dadurch Verzögerung zu veranlassen , zu Lanci 's weiterer Durchsicht und Benutzung .
+3-1	167-171	Rath	_	_
+3-2	172-179	Bunsens	*	PERmentioned
+3-3	180-187	Ansicht	_	_
+3-4	188-191	und	_	_
+3-5	192-193	,	_	_
+3-6	194-198	ohne	_	_
+3-7	199-206	dadurch	_	_
+3-8	207-218	Verzögerung	_	_
+3-9	219-221	zu	_	_
+3-10	222-233	veranlassen	_	_
+3-11	234-235	,	_	_
+3-12	236-238	zu	_	_
+3-13	239-244	Lanci	*[20]	PERmentioned[20]
+3-14	245-247	's	*[20]	PERmentioned[20]
+3-15	248-256	weiterer	_	_
+3-16	257-267	Durchsicht	_	_
+3-17	268-271	und	_	_
+3-18	272-281	Benutzung	_	_
+3-19	282-283	.	_	_
+
+#Text=Hatte Cades Ihnen wol die von mir bestellte Sammlung der mit Künstlernamen bezeichneten Gemmen zugestellt ?
+4-1	284-289	Hatte	_	_
+4-2	290-295	Cades	*	PERmentioned
+4-3	296-301	Ihnen	_	_
+4-4	302-305	wol	_	_
+4-5	306-309	die	_	_
+4-6	310-313	von	_	_
+4-7	314-317	mir	_	_
+4-8	318-327	bestellte	_	_
+4-9	328-336	Sammlung	_	_
+4-10	337-340	der	_	_
+4-11	341-344	mit	_	_
+4-12	345-358	Künstlernamen	_	_
+4-13	359-371	bezeichneten	_	_
+4-14	372-378	Gemmen	*	MISC
+4-15	379-389	zugestellt	_	_
+4-16	390-391	?	_	_
+
+#Text=Andernfalls wünsche ich ihn dringend darum gemahnt .
+5-1	392-403	Andernfalls	_	_
+5-2	404-411	wünsche	_	_
+5-3	412-415	ich	_	_
+5-4	416-419	ihn	_	_
+5-5	420-428	dringend	_	_
+5-6	429-434	darum	_	_
+5-7	435-442	gemahnt	_	_
+5-8	443-444	.	_	_
+
+#Text=Veber seine Angelegenheiten schreibe ich ihn , se il mio ritorno si ritardasse , come pare , sobald seine Exemplare ankommen .
+6-1	445-450	Veber	_	_
+6-2	451-456	seine	_	_
+6-3	457-472	Angelegenheiten	_	_
+6-4	473-481	schreibe	_	_
+6-5	482-485	ich	_	_
+6-6	486-489	ihn	_	_
+6-7	490-491	,	_	_
+6-8	492-494	se	_	_
+6-9	495-497	il	_	_
+6-10	498-501	mio	_	_
+6-11	502-509	ritorno	_	_
+6-12	510-512	si	_	_
+6-13	513-523	ritardasse	_	_
+6-14	524-525	,	_	_
+6-15	526-530	come	_	_
+6-16	531-535	pare	_	_
+6-17	536-537	,	_	_
+6-18	538-544	sobald	_	_
+6-19	545-550	seine	_	_
+6-20	551-560	Exemplare	_	_
+6-21	561-569	ankommen	_	_
+6-22	570-571	.	_	_
+
+#Text=In Paris vermittelte ich ihm die Bestellung auf 3 Exemplare , was De Witte geschrieben haben wird .
+7-1	572-574	In	_	_
+7-2	575-580	Paris	*	PLACEmentioned
+7-3	581-592	vermittelte	_	_
+7-4	593-596	ich	_	_
+7-5	597-600	ihm	_	_
+7-6	601-604	die	_	_
+7-7	605-615	Bestellung	_	_
+7-8	616-619	auf	_	_
+7-9	620-621	3	_	_
+7-10	622-631	Exemplare	_	_
+7-11	632-633	,	_	_
+7-12	634-637	was	_	_
+7-13	638-640	De	*[14]	PERmentioned[14]
+7-14	641-646	Witte	*[14]	PERmentioned[14]
+7-15	647-658	geschrieben	_	_
+7-16	659-664	haben	_	_
+7-17	665-669	wird	_	_
+7-18	670-671	.	_	_
+
+#Text=Von den Kisten noch immer nichts .
+8-1	672-675	Von	_	_
+8-2	676-679	den	_	_
+8-3	680-686	Kisten	_	_
+8-4	687-691	noch	_	_
+8-5	692-697	immer	_	_
+8-6	698-704	nichts	_	_
+8-7	705-706	.	_	_
+
+#Text=- Ich bitte Sie wohl aufzupassen was etwa von Spiegeln neu erschienen sei \; dumm zu handeln ist nicht rathsam ehe Durand aus Roms Wiesen verschwunden ist .
+9-1	707-708	-	_	_
+9-2	709-712	Ich	_	_
+9-3	713-718	bitte	_	_
+9-4	719-722	Sie	_	_
+9-5	723-727	wohl	_	_
+9-6	728-739	aufzupassen	_	_
+9-7	740-743	was	_	_
+9-8	744-748	etwa	_	_
+9-9	749-752	von	_	_
+9-10	753-761	Spiegeln	*	OBJ
+9-11	762-765	neu	_	_
+9-12	766-776	erschienen	_	_
+9-13	777-780	sei	_	_
+9-14	781-782	\;	_	_
+9-15	783-787	dumm	_	_
+9-16	788-790	zu	_	_
+9-17	791-798	handeln	_	_
+9-18	799-802	ist	_	_
+9-19	803-808	nicht	_	_
+9-20	809-816	rathsam	_	_
+9-21	817-820	ehe	_	_
+9-22	821-827	Durand	*	PERmentioned
+9-23	828-831	aus	_	_
+9-24	832-836	Roms	*	PLACEmentioned
+9-25	837-843	Wiesen	_	_
+9-26	844-856	verschwunden	_	_
+9-27	857-860	ist	_	_
+9-28	861-862	.	_	_
+
+#Text=Das Bullettino fehlt mir seit dem Bogen der Micalischen Revision .
+10-1	863-866	Das	_	_
+10-2	867-877	Bullettino	_	_
+10-3	878-883	fehlt	_	_
+10-4	884-887	mir	_	_
+10-5	888-892	seit	_	_
+10-6	893-896	dem	_	_
+10-7	897-902	Bogen	_	_
+10-8	903-906	der	_	_
+10-9	907-918	Micalischen	_	_
+10-10	919-927	Revision	_	_
+10-11	928-929	.	_	_
+
+#Text=Schicken Sie doch dergleichen durch Kurierbeischluß .
+11-1	930-938	Schicken	_	_
+11-2	939-942	Sie	_	_
+11-3	943-947	doch	_	_
+11-4	948-959	dergleichen	_	_
+11-5	960-965	durch	_	_
+11-6	966-981	Kurierbeischluß	_	_
+11-7	982-983	.	_	_
+
+#Text=Um die Licenza auf 2 schwer zu formende Reliefs nicht zu verlieren , autorisire ich Sie den Former noch die Abformung der großen Abschiedsscene ( Jason ) im
+12-1	984-986	Um	_	_
+12-2	987-990	die	_	_
+12-3	991-998	Licenza	_	_
+12-4	999-1002	auf	_	_
+12-5	1003-1004	2	_	_
+12-6	1005-1011	schwer	_	_
+12-7	1012-1014	zu	_	_
+12-8	1015-1023	formende	_	_
+12-9	1024-1031	Reliefs	*	OBJ
+12-10	1032-1037	nicht	_	_
+12-11	1038-1040	zu	_	_
+12-12	1041-1050	verlieren	_	_
+12-13	1051-1052	,	_	_
+12-14	1053-1063	autorisire	_	_
+12-15	1064-1067	ich	_	_
+12-16	1068-1071	Sie	_	_
+12-17	1072-1075	den	_	_
+12-18	1076-1082	Former	_	_
+12-19	1083-1087	noch	_	_
+12-20	1088-1091	die	_	_
+12-21	1092-1101	Abformung	_	_
+12-22	1102-1105	der	_	_
+12-23	1106-1112	großen	*[19]	OBJ[19]
+12-24	1113-1127	Abschiedsscene	*[19]	OBJ[19]
+12-25	1128-1129	(	*[19]	OBJ[19]
+12-26	1130-1135	Jason	*[19]	OBJ[19]
+12-27	1136-1137	)	*[19]	OBJ[19]
+12-28	1138-1140	im	_	_

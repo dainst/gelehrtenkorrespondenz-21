@@ -1,0 +1,214 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=681 Braun an Gerhard Rom , 7 .
+1-1	0-3	681	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	_	_
+1-6	25-26	,	_	_
+1-7	27-28	7	*[3]	DATEletter[3]
+1-8	29-30	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1834 Sig .
+2-1	31-38	Oktober	*[3]	DATEletter[3]
+2-2	39-43	1834	*[3]	DATEletter[3]
+2-3	44-47	Sig	_	_
+2-4	48-49	.	_	_
+
+#Text=Cav .
+3-1	50-53	Cav	_	_
+3-2	54-55	.	_	_
+
+#Text=Gerhard Segretario dirigente dell'Instituto di corrispondenza archeologica in Roma .
+4-1	56-63	Gerhard	*[1]	PERaddressee[1]
+4-2	64-74	Segretario	_	_
+4-3	75-84	dirigente	_	_
+4-4	85-99	dell'Instituto	*[2]	ORGmentioned[2]
+4-5	100-102	di	*[2]	ORGmentioned[2]
+4-6	103-117	corrispondenza	*[2]	ORGmentioned[2]
+4-7	118-130	archeologica	*[2]	ORGmentioned[2]
+4-8	131-133	in	*[2]	ORGmentioned[2]
+4-9	134-138	Roma	*[2]	PLACEfrom|ORGmentioned[2]
+4-10	139-140	.	_	_
+
+#Text=Lanci wünscht ein Buch dessen übersetzter Titel also lautet : Introduzione alla ingegnosa pratica escrittura italiana di Martino Wildvogel .
+5-1	141-146	Lanci	*	PERmentioned
+5-2	147-154	wünscht	_	_
+5-3	155-158	ein	_	_
+5-4	159-163	Buch	_	_
+5-5	164-170	dessen	_	_
+5-6	171-182	übersetzter	_	_
+5-7	183-188	Titel	_	_
+5-8	189-193	also	_	_
+5-9	194-200	lautet	_	_
+5-10	201-202	:	_	_
+5-11	203-215	Introduzione	*[4]	LIT[4]
+5-12	216-220	alla	*[4]	LIT[4]
+5-13	221-230	ingegnosa	*[4]	LIT[4]
+5-14	231-238	pratica	*[4]	LIT[4]
+5-15	239-249	escrittura	*[4]	LIT[4]
+5-16	250-258	italiana	*[4]	LIT[4]
+5-17	259-261	di	_	_
+5-18	262-269	Martino	*[5]	PERmentioned[5]
+5-19	270-279	Wildvogel	*[5]	PERmentioned[5]
+5-20	280-281	.	_	_
+
+#Text=Frankfurt presso gli Eredi Wolf Egenolphs .
+6-1	282-291	Frankfurt	*	PLACEmentioned
+6-2	292-298	presso	_	_
+6-3	299-302	gli	_	_
+6-4	303-308	Eredi	*[6]	ORGmentioned[6]
+6-5	309-313	Wolf	*[6]|*[7]	ORGmentioned[6]|PERmentioned[7]
+6-6	314-323	Egenolphs	*[6]|*[7]	ORGmentioned[6]|PERmentioned[7]
+6-7	324-325	.	_	_
+
+#Text=Ohne ihn unmuthig zu machen , dürfen Sie es nicht von der Hand weisen sich danach umsehen zu lassen \; er meint eine solche Rücksicht zu verdienen , zumal Sie den Neapolitanern soviele ähnliche Gefälligkeiten erweisen .
+7-1	326-330	Ohne	_	_
+7-2	331-334	ihn	_	_
+7-3	335-343	unmuthig	_	_
+7-4	344-346	zu	_	_
+7-5	347-353	machen	_	_
+7-6	354-355	,	_	_
+7-7	356-362	dürfen	_	_
+7-8	363-366	Sie	_	_
+7-9	367-369	es	_	_
+7-10	370-375	nicht	_	_
+7-11	376-379	von	_	_
+7-12	380-383	der	_	_
+7-13	384-388	Hand	_	_
+7-14	389-395	weisen	_	_
+7-15	396-400	sich	_	_
+7-16	401-407	danach	_	_
+7-17	408-415	umsehen	_	_
+7-18	416-418	zu	_	_
+7-19	419-425	lassen	_	_
+7-20	426-427	\;	_	_
+7-21	428-430	er	_	_
+7-22	431-436	meint	_	_
+7-23	437-441	eine	_	_
+7-24	442-448	solche	_	_
+7-25	449-458	Rücksicht	_	_
+7-26	459-461	zu	_	_
+7-27	462-471	verdienen	_	_
+7-28	472-473	,	_	_
+7-29	474-479	zumal	_	_
+7-30	480-483	Sie	_	_
+7-31	484-487	den	_	_
+7-32	488-501	Neapolitanern	_	_
+7-33	502-509	soviele	_	_
+7-34	510-518	ähnliche	_	_
+7-35	519-533	Gefälligkeiten	_	_
+7-36	534-542	erweisen	_	_
+7-37	543-544	.	_	_
+
+#Text=De Antonis hat von mir für die beiden Kisten für Bonn und Berlin # 4 Scudi erhalten \; ich habe ihm einige Scudi abgeschnitten .
+8-1	545-547	De	*[8]	PERmentioned[8]
+8-2	548-555	Antonis	*[8]	PERmentioned[8]
+8-3	556-559	hat	_	_
+8-4	560-563	von	_	_
+8-5	564-567	mir	_	_
+8-6	568-571	für	_	_
+8-7	572-575	die	_	_
+8-8	576-582	beiden	_	_
+8-9	583-589	Kisten	_	_
+8-10	590-593	für	_	_
+8-11	594-598	Bonn	*	PLACEmentioned
+8-12	599-602	und	_	_
+8-13	603-609	Berlin	*	PLACEmentioned
+8-14	610-611	#	_	_
+8-15	612-613	4	_	_
+8-16	614-619	Scudi	_	_
+8-17	620-628	erhalten	_	_
+8-18	629-630	\;	_	_
+8-19	631-634	ich	_	_
+8-20	635-639	habe	_	_
+8-21	640-643	ihm	_	_
+8-22	644-650	einige	_	_
+8-23	651-656	Scudi	_	_
+8-24	657-670	abgeschnitten	_	_
+8-25	671-672	.	_	_
+
+#Text=Bunsen war gestern in der Stadt , hat mir aber keine Briefe überwiesen \; da heute der König von Bayern ankommt und 20 Tage hier verweilen will , so fürfte er vor Ablauf diese Zeit nicht leicht wieder sichtbar und habhaft werden .
+9-1	673-679	Bunsen	*	PERmentioned
+9-2	680-683	war	_	_
+9-3	684-691	gestern	_	_
+9-4	692-694	in	_	_
+9-5	695-698	der	_	_
+9-6	699-704	Stadt	_	_
+9-7	705-706	,	_	_
+9-8	707-710	hat	_	_
+9-9	711-714	mir	_	_
+9-10	715-719	aber	_	_
+9-11	720-725	keine	_	_
+9-12	726-732	Briefe	_	_
+9-13	733-743	überwiesen	_	_
+9-14	744-745	\;	_	_
+9-15	746-748	da	_	_
+9-16	749-754	heute	_	_
+9-17	755-758	der	_	_
+9-18	759-764	König	*[9]	PERmentioned[9]
+9-19	765-768	von	*[9]	PERmentioned[9]
+9-20	769-775	Bayern	*[9]	PERmentioned[9]
+9-21	776-783	ankommt	_	_
+9-22	784-787	und	_	_
+9-23	788-790	20	_	_
+9-24	791-795	Tage	_	_
+9-25	796-800	hier	_	_
+9-26	801-810	verweilen	_	_
+9-27	811-815	will	_	_
+9-28	816-817	,	_	_
+9-29	818-820	so	_	_
+9-30	821-827	fürfte	_	_
+9-31	828-830	er	_	_
+9-32	831-834	vor	_	_
+9-33	835-841	Ablauf	_	_
+9-34	842-847	diese	_	_
+9-35	848-852	Zeit	_	_
+9-36	853-858	nicht	_	_
+9-37	859-865	leicht	_	_
+9-38	866-872	wieder	_	_
+9-39	873-881	sichtbar	_	_
+9-40	882-885	und	_	_
+9-41	886-893	habhaft	_	_
+9-42	894-900	werden	_	_
+9-43	901-902	.	_	_
+
+#Text=Vollard hat die Mosaiken bezahlt erhalten \; den Bronzemann giebt er ungern her und für Sc. 4.50 gar nicht \; genau weiß er den Preis übrigens nicht , Wegen der Scherben für Schweighäuser will Capranesi
+10-1	903-910	Vollard	*	PERmentioned
+10-2	911-914	hat	_	_
+10-3	915-918	die	_	_
+10-4	919-927	Mosaiken	*	OBJ
+10-5	928-935	bezahlt	_	_
+10-6	936-944	erhalten	_	_
+10-7	945-946	\;	_	_
+10-8	947-950	den	_	_
+10-9	951-961	Bronzemann	*	OBJ
+10-10	962-967	giebt	_	_
+10-11	968-970	er	_	_
+10-12	971-977	ungern	_	_
+10-13	978-981	her	_	_
+10-14	982-985	und	_	_
+10-15	986-989	für	_	_
+10-16	990-993	Sc.	_	_
+10-17	994-998	4.50	_	_
+10-18	999-1002	gar	_	_
+10-19	1003-1008	nicht	_	_
+10-20	1009-1010	\;	_	_
+10-21	1011-1016	genau	_	_
+10-22	1017-1021	weiß	_	_
+10-23	1022-1024	er	_	_
+10-24	1025-1028	den	_	_
+10-25	1029-1034	Preis	_	_
+10-26	1035-1043	übrigens	_	_
+10-27	1044-1049	nicht	_	_
+10-28	1050-1051	,	_	_
+10-29	1052-1057	Wegen	_	_
+10-30	1058-1061	der	_	_
+10-31	1062-1070	Scherben	*	OBJ
+10-32	1071-1074	für	_	_
+10-33	1075-1088	Schweighäuser	*	PERmentioned
+10-34	1089-1093	will	_	_
+10-35	1094-1103	Capranesi	*	PERmentioned

@@ -1,0 +1,27 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=273 Gerhard an Henzen 15/XII/1850 allenfalls , etwa gefaltet , versendtbar durchs Ministerium sein ?
+1-1	0-3	273	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-33	15/XII/1850	*	DATEletter
+1-6	34-44	allenfalls	_	_
+1-7	45-46	,	_	_
+1-8	47-51	etwa	_	_
+1-9	52-60	gefaltet	_	_
+1-10	61-62	,	_	_
+1-11	63-74	versendtbar	_	_
+1-12	75-81	durchs	_	_
+1-13	82-93	Ministerium	*	ORGmentioned
+1-14	94-98	sein	_	_
+1-15	99-100	?	_	_
+
+#Text=mero & dell'amico Reumont ?
+2-1	101-105	mero	_	_
+2-2	106-107	&	_	_
+2-3	108-118	dell'amico	_	_
+2-4	119-126	Reumont	*	PERmentioned
+2-5	127-128	?	_	_

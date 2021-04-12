@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ML , 409 Gerhard an Braun Berlin , 7. Juli 1844 piego - wir kennen kein anderes - notirt steht .
+1-1	0-2	ML	_	_
+1-2	3-4	,	_	_
+1-3	5-8	409	_	_
+1-4	9-16	Gerhard	*	PERauthor
+1-5	17-19	an	_	_
+1-6	20-25	Braun	*	PERaddressee
+1-7	26-32	Berlin	*	PLACEfrom
+1-8	33-34	,	_	_
+1-9	35-37	7.	*[1]	DATEletter[1]
+1-10	38-42	Juli	*[1]	DATEletter[1]
+1-11	43-47	1844	*[1]	DATEletter[1]
+1-12	48-53	piego	_	_
+1-13	54-55	-	_	_
+1-14	56-59	wir	_	_
+1-15	60-66	kennen	_	_
+1-16	67-71	kein	_	_
+1-17	72-79	anderes	_	_
+1-18	80-81	-	_	_
+1-19	82-88	notirt	_	_
+1-20	89-94	steht	_	_
+1-21	95-96	.	_	_
+
+#Text=Gegen Schadenersatz Ihrerseits protestirt Gerstäcker natürlich so gut wie ich .
+2-1	97-102	Gegen	_	_
+2-2	103-116	Schadenersatz	_	_
+2-3	117-127	Ihrerseits	_	_
+2-4	128-138	protestirt	_	_
+2-5	139-149	Gerstäcker	*	ORGmentioned
+2-6	150-159	natürlich	_	_
+2-7	160-162	so	_	_
+2-8	163-166	gut	_	_
+2-9	167-170	wie	_	_
+2-10	171-174	ich	_	_
+2-11	175-176	.	_	_
+
+#Text=Der Empfangnen Bullettini freue ich mich , suche aber vergebens das Köhnianun .
+3-1	177-180	Der	_	_
+3-2	181-191	Empfangnen	_	_
+3-3	192-202	Bullettini	_	_
+3-4	203-208	freue	_	_
+3-5	209-212	ich	_	_
+3-6	213-217	mich	_	_
+3-7	218-219	,	_	_
+3-8	220-225	suche	_	_
+3-9	226-230	aber	_	_
+3-10	231-240	vergebens	_	_
+3-11	241-244	das	_	_
+3-12	245-254	Köhnianun	_	_
+3-13	255-256	.	_	_
+
+#Text=Panofka hat seinen Gypskatalog eilig , ohne alle Prätension und ohne neue Ideen , gemacht .
+4-1	257-264	Panofka	*	PERmentioned
+4-2	265-268	hat	_	_
+4-3	269-275	seinen	_	_
+4-4	276-287	Gypskatalog	_	_
+4-5	288-293	eilig	_	_
+4-6	294-295	,	_	_
+4-7	296-300	ohne	_	_
+4-8	301-305	alle	_	_
+4-9	306-316	Prätension	_	_
+4-10	317-320	und	_	_
+4-11	321-325	ohne	_	_
+4-12	326-330	neue	_	_
+4-13	331-336	Ideen	_	_
+4-14	337-338	,	_	_
+4-15	339-346	gemacht	_	_
+4-16	347-348	.	_	_
+
+#Text=Abzureisen von mir hoffe ich am 3 Ausust .
+5-1	349-359	Abzureisen	_	_
+5-2	360-363	von	_	_
+5-3	364-367	mir	_	_
+5-4	368-373	hoffe	_	_
+5-5	374-377	ich	_	_
+5-6	378-380	am	_	_
+5-7	381-382	3	*[2]	DATEmentioned[2]
+5-8	383-389	Ausust	*[2]	DATEmentioned[2]
+5-9	390-391	.	_	_
+
+#Text=Es ist mir wahrscheinlich daß ich mit Ihnen in Paris etwa Mitte August zusammentreffen könnte \; vorher gehe ich vielleicht nach Bonn , Ende August oder spätestens Anfang September ( da mein Schwiegervater erst am 20 August kann ) nach Wildbad , Mitte September über Kassel zurück , zuletzt vermuthlich noch nach Dresden .
+6-1	392-394	Es	_	_
+6-2	395-398	ist	_	_
+6-3	399-402	mir	_	_
+6-4	403-417	wahrscheinlich	_	_
+6-5	418-421	daß	_	_
+6-6	422-425	ich	_	_
+6-7	426-429	mit	_	_
+6-8	430-435	Ihnen	_	_
+6-9	436-438	in	_	_
+6-10	439-444	Paris	*	PLACEmentioned
+6-11	445-449	etwa	_	_
+6-12	450-455	Mitte	_	_
+6-13	456-462	August	*	DATEmentioned
+6-14	463-478	zusammentreffen	_	_
+6-15	479-485	könnte	_	_
+6-16	486-487	\;	_	_
+6-17	488-494	vorher	_	_
+6-18	495-499	gehe	_	_
+6-19	500-503	ich	_	_
+6-20	504-514	vielleicht	_	_
+6-21	515-519	nach	_	_
+6-22	520-524	Bonn	*	PLACEmentioned
+6-23	525-526	,	_	_
+6-24	527-531	Ende	_	_
+6-25	532-538	August	*	DATEmentioned
+6-26	539-543	oder	_	_
+6-27	544-554	spätestens	_	_
+6-28	555-561	Anfang	_	_
+6-29	562-571	September	*	DATEmentioned
+6-30	572-573	(	_	_
+6-31	574-576	da	_	_
+6-32	577-581	mein	_	_
+6-33	582-596	Schwiegervater	_	_
+6-34	597-601	erst	_	_
+6-35	602-604	am	_	_
+6-36	605-607	20	*[3]	DATEmentioned[3]
+6-37	608-614	August	*[3]	DATEmentioned[3]
+6-38	615-619	kann	_	_
+6-39	620-621	)	_	_
+6-40	622-626	nach	_	_
+6-41	627-634	Wildbad	*	PLACEmentioned
+6-42	635-636	,	_	_
+6-43	637-642	Mitte	_	_
+6-44	643-652	September	*	DATEmentioned
+6-45	653-657	über	_	_
+6-46	658-664	Kassel	*	PLACEmentioned
+6-47	665-671	zurück	_	_
+6-48	672-673	,	_	_
+6-49	674-681	zuletzt	_	_
+6-50	682-693	vermuthlich	_	_
+6-51	694-698	noch	_	_
+6-52	699-703	nach	_	_
+6-53	704-711	Dresden	*	PLACEmentioned
+6-54	712-713	.	_	_
+
+#Text=Hiernach überlegen Sie wann und wo wir uns treffen können .
+7-1	714-722	Hiernach	_	_
+7-2	723-732	überlegen	_	_
+7-3	733-736	Sie	_	_
+7-4	737-741	wann	_	_
+7-5	742-745	und	_	_
+7-6	746-748	wo	_	_
+7-7	749-752	wir	_	_
+7-8	753-756	uns	_	_
+7-9	757-764	treffen	_	_
+7-10	765-771	können	_	_
+7-11	772-773	.	_	_
+
+#Text=Meine Frau ist in Frankfurt \; von Anfang August an empfange ich die Briefe dort Kurhessische Gesandtschaft , bis dahin hier .
+8-1	774-779	Meine	_	_
+8-2	780-784	Frau	_	_
+8-3	785-788	ist	_	_
+8-4	789-791	in	_	_
+8-5	792-801	Frankfurt	*	PLACEmentioned
+8-6	802-803	\;	_	_
+8-7	804-807	von	_	_
+8-8	808-814	Anfang	_	_
+8-9	815-821	August	*	DATEmentioned
+8-10	822-824	an	_	_
+8-11	825-833	empfange	_	_
+8-12	834-837	ich	_	_
+8-13	838-841	die	_	_
+8-14	842-848	Briefe	_	_
+8-15	849-853	dort	_	_
+8-16	854-866	Kurhessische	*[4]	ORGmentioned[4]
+8-17	867-880	Gesandtschaft	*[4]	ORGmentioned[4]
+8-18	881-882	,	_	_
+8-19	883-886	bis	_	_
+8-20	887-892	dahin	_	_
+8-21	893-897	hier	_	_
+8-22	898-899	.	_	_
+
+#Text=Sollten Sie in London Rolandi erreichen können , so bitte ich zu erkunden was aus meinen 5 Exemplaren Vases & trusques und Campaniens geworden ist .
+9-1	900-907	Sollten	_	_
+9-2	908-911	Sie	_	_
+9-3	912-914	in	_	_
+9-4	915-921	London	*	PLACEmentioned
+9-5	922-929	Rolandi	*	PERmentioned
+9-6	930-939	erreichen	_	_
+9-7	940-946	können	_	_
+9-8	947-948	,	_	_
+9-9	949-951	so	_	_
+9-10	952-957	bitte	_	_
+9-11	958-961	ich	_	_
+9-12	962-964	zu	_	_
+9-13	965-973	erkunden	_	_
+9-14	974-977	was	_	_
+9-15	978-981	aus	_	_
+9-16	982-988	meinen	_	_
+9-17	989-990	5	_	_
+9-18	991-1001	Exemplaren	_	_
+9-19	1002-1007	Vases	_	_
+9-20	1008-1009	&	_	_
+9-21	1010-1018	trusques	_	_
+9-22	1019-1022	und	_	_
+9-23	1023-1033	Campaniens	_	_
+9-24	1034-1042	geworden	_	_
+9-25	1043-1046	ist	_	_
+9-26	1047-1048	.	_	_
+
+#Text=Von Wilkinsons Customs und Manners suche ich die II Series , falls sie unter dem Ladenpreis bei Ihren englischen Wanderungen Ihnen begegnet .
+10-1	1049-1052	Von	_	_
+10-2	1053-1063	Wilkinsons	*	PERmentioned
+10-3	1064-1071	Customs	_	_
+10-4	1072-1075	und	_	_
+10-5	1076-1083	Manners	_	_
+10-6	1084-1089	suche	_	_
+10-7	1090-1093	ich	_	_
+10-8	1094-1097	die	_	_
+10-9	1098-1100	II	_	_
+10-10	1101-1107	Series	_	_
+10-11	1108-1109	,	_	_
+10-12	1110-1115	falls	_	_
+10-13	1116-1119	sie	_	_
+10-14	1120-1125	unter	_	_
+10-15	1126-1129	dem	_	_
+10-16	1130-1140	Ladenpreis	_	_
+10-17	1141-1144	bei	_	_
+10-18	1145-1150	Ihren	_	_
+10-19	1151-1161	englischen	_	_
+10-20	1162-1173	Wanderungen	_	_
+10-21	1174-1179	Ihnen	_	_
+10-22	1180-1188	begegnet	_	_
+10-23	1189-1190	.	_	_
+
+#Text=11/7 .
+11-1	1191-1195	11/7	_	_
+11-2	1196-1197	.	_	_

@@ -1,0 +1,254 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=293 Braun an Gerhard Prof. Gerhard Rom , 5. März 71835 Roma li 5 marzo 71835 Hochverehrtester Freund \| Ihr Brief ist heut ausgeblieben .
+1-1	0-3	293	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	_	_
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-43	5.	*[2]	DATEletter[2]
+1-10	44-48	März	*[2]	DATEletter[2]
+1-11	49-54	71835	*[2]	DATEletter[2]
+1-12	55-59	Roma	*	PLACEfrom
+1-13	60-62	li	_	_
+1-14	63-64	5	*[3]	DATEletter[3]
+1-15	65-70	marzo	*[3]	DATEletter[3]
+1-16	71-76	71835	*[3]	DATEletter[3]
+1-17	77-93	Hochverehrtester	_	_
+1-18	94-100	Freund	_	_
+1-19	101-102	\|	_	_
+1-20	103-106	Ihr	_	_
+1-21	107-112	Brief	_	_
+1-22	113-116	ist	_	_
+1-23	117-121	heut	_	_
+1-24	122-134	ausgeblieben	_	_
+1-25	135-136	.	_	_
+
+#Text=Untröstlich ist die Nachricht , daß an giovedi unserm g. Lanci alle Kostbarkeiten geraubt worden sind .
+2-1	137-148	Untröstlich	_	_
+2-2	149-152	ist	_	_
+2-3	153-156	die	_	_
+2-4	157-166	Nachricht	_	_
+2-5	167-168	,	_	_
+2-6	169-172	daß	_	_
+2-7	173-175	an	_	_
+2-8	176-183	giovedi	_	_
+2-9	184-190	unserm	_	_
+2-10	191-193	g.	_	_
+2-11	194-199	Lanci	*	PERmentioned
+2-12	200-204	alle	_	_
+2-13	205-218	Kostbarkeiten	_	_
+2-14	219-226	geraubt	_	_
+2-15	227-233	worden	_	_
+2-16	234-238	sind	_	_
+2-17	239-240	.	_	_
+
+#Text=Sfasciata la porta , rovinato tutto ecc .
+3-1	241-250	Sfasciata	_	_
+3-2	251-253	la	_	_
+3-3	254-259	porta	_	_
+3-4	260-261	,	_	_
+3-5	262-270	rovinato	_	_
+3-6	271-276	tutto	_	_
+3-7	277-280	ecc	_	_
+3-8	281-282	.	_	_
+
+#Text=Es war ein erbnämliches Schauspiel .
+4-1	283-285	Es	_	_
+4-2	286-289	war	_	_
+4-3	290-293	ein	_	_
+4-4	294-306	erbnämliches	_	_
+4-5	307-317	Schauspiel	_	_
+4-6	318-319	.	_	_
+
+#Text=Er jedoch verlor seine stoische Ruhe nicht .
+5-1	320-322	Er	_	_
+5-2	323-329	jedoch	_	_
+5-3	330-336	verlor	_	_
+5-4	337-342	seine	_	_
+5-5	343-351	stoische	_	_
+5-6	352-356	Ruhe	_	_
+5-7	357-362	nicht	_	_
+5-8	363-364	.	_	_
+
+#Text=Ihr Exemplar der Thatsachen wurde richt acceptirt .
+6-1	365-368	Ihr	_	_
+6-2	369-377	Exemplar	_	_
+6-3	378-381	der	_	_
+6-4	382-392	Thatsachen	_	_
+6-5	393-398	wurde	_	_
+6-6	399-404	richt	_	_
+6-7	405-414	acceptirt	_	_
+6-8	415-416	.	_	_
+
+#Text=Es sollte 5 Scu .
+7-1	417-419	Es	_	_
+7-2	420-426	sollte	_	_
+7-3	427-428	5	_	_
+7-4	429-432	Scu	_	_
+7-5	433-434	.	_	_
+
+#Text=kosten .
+8-1	435-441	kosten	_	_
+8-2	442-443	.	_	_
+
+#Text=Sie dürfen nie gefaltete Sachen unter Band setzen \; sie zahlen wie Briefe .
+9-1	444-447	Sie	_	_
+9-2	448-454	dürfen	_	_
+9-3	455-458	nie	_	_
+9-4	459-468	gefaltete	_	_
+9-5	469-475	Sachen	_	_
+9-6	476-481	unter	_	_
+9-7	482-486	Band	_	_
+9-8	487-493	setzen	_	_
+9-9	494-495	\;	_	_
+9-10	496-499	sie	_	_
+9-11	500-506	zahlen	_	_
+9-12	507-510	wie	_	_
+9-13	511-517	Briefe	_	_
+9-14	518-519	.	_	_
+
+#Text=\| Von Capranesi habe ich einen zwar fragmentirten aber sehr singulären Spiegel für Sc. 8 erhandelt .
+10-1	520-521	\|	_	_
+10-2	522-525	Von	_	_
+10-3	526-535	Capranesi	*	PERmentioned
+10-4	536-540	habe	_	_
+10-5	541-544	ich	_	_
+10-6	545-550	einen	_	_
+10-7	551-555	zwar	_	_
+10-8	556-569	fragmentirten	_	_
+10-9	570-574	aber	_	_
+10-10	575-579	sehr	_	_
+10-11	580-590	singulären	_	_
+10-12	591-598	Spiegel	*	OBJ
+10-13	599-602	für	_	_
+10-14	603-606	Sc.	_	_
+10-15	607-608	8	_	_
+10-16	609-618	erhandelt	_	_
+10-17	619-620	.	_	_
+
+#Text=Durand wird in diesen Tagen abreisen , heute soll ich noch sehr schöne Sachen bei ihm sehen .
+11-1	621-627	Durand	*	PERmentioned
+11-2	628-632	wird	_	_
+11-3	633-635	in	_	_
+11-4	636-642	diesen	_	_
+11-5	643-648	Tagen	_	_
+11-6	649-657	abreisen	_	_
+11-7	658-659	,	_	_
+11-8	660-665	heute	_	_
+11-9	666-670	soll	_	_
+11-10	671-674	ich	_	_
+11-11	675-679	noch	_	_
+11-12	680-684	sehr	_	_
+11-13	685-691	schöne	_	_
+11-14	692-698	Sachen	_	_
+11-15	699-702	bei	_	_
+11-16	703-706	ihm	_	_
+11-17	707-712	sehen	_	_
+11-18	713-714	.	_	_
+
+#Text=Davon das nächste Mal \| Kestner ist Comptor geworden des Guelfenorden .
+12-1	715-720	Davon	_	_
+12-2	721-724	das	_	_
+12-3	725-732	nächste	_	_
+12-4	733-736	Mal	_	_
+12-5	737-738	\|	_	_
+12-6	739-746	Kestner	*	PERmentioned
+12-7	747-750	ist	_	_
+12-8	751-758	Comptor	_	_
+12-9	759-767	geworden	_	_
+12-10	768-771	des	_	_
+12-11	772-784	Guelfenorden	_	_
+12-12	785-786	.	_	_
+
+#Text=Ihre Elfenbeinsachen haben den Neid dieses Commendatore sehr rege gemacht .
+13-1	787-791	Ihre	_	_
+13-2	792-807	Elfenbeinsachen	_	_
+13-3	808-813	haben	_	_
+13-4	814-817	den	_	_
+13-5	818-822	Neid	_	_
+13-6	823-829	dieses	_	_
+13-7	830-842	Commendatore	_	_
+13-8	843-847	sehr	_	_
+13-9	848-852	rege	_	_
+13-10	853-860	gemacht	_	_
+13-11	861-862	.	_	_
+
+#Text=Auch Durand versicherte , daß ich sie nicht haben würde , wenn er sie eher gesehen \; ebenso wenig die Occhionischaale mit den beiden Hermesbüsten .
+14-1	863-867	Auch	_	_
+14-2	868-874	Durand	*	PERmentioned
+14-3	875-886	versicherte	_	_
+14-4	887-888	,	_	_
+14-5	889-892	daß	_	_
+14-6	893-896	ich	_	_
+14-7	897-900	sie	_	_
+14-8	901-906	nicht	_	_
+14-9	907-912	haben	_	_
+14-10	913-918	würde	_	_
+14-11	919-920	,	_	_
+14-12	921-925	wenn	_	_
+14-13	926-928	er	_	_
+14-14	929-932	sie	_	_
+14-15	933-937	eher	_	_
+14-16	938-945	gesehen	_	_
+14-17	946-947	\;	_	_
+14-18	948-954	ebenso	_	_
+14-19	955-960	wenig	_	_
+14-20	961-964	die	_	_
+14-21	965-980	Occhionischaale	*[4]	OBJ[4]
+14-22	981-984	mit	*[4]	OBJ[4]
+14-23	985-988	den	*[4]	OBJ[4]
+14-24	989-995	beiden	*[4]	OBJ[4]
+14-25	996-1008	Hermesbüsten	*[4]	OBJ[4]
+14-26	1009-1010	.	_	_
+
+#Text=Schreiben Sie mir doch was Sie für Kupferstiche in Berlin zahlen .
+15-1	1011-1020	Schreiben	_	_
+15-2	1021-1024	Sie	_	_
+15-3	1025-1028	mir	_	_
+15-4	1029-1033	doch	_	_
+15-5	1034-1037	was	_	_
+15-6	1038-1041	Sie	_	_
+15-7	1042-1045	für	_	_
+15-8	1046-1058	Kupferstiche	_	_
+15-9	1059-1061	in	_	_
+15-10	1062-1068	Berlin	*	PLACEmentioned
+15-11	1069-1075	zahlen	_	_
+15-12	1076-1077	.	_	_
+
+#Text=Ein Stecher meiner Erziehung , der die Sachen sehr schön und gut macht , ist überaus billig .
+16-1	1078-1081	Ein	_	_
+16-2	1082-1089	Stecher	_	_
+16-3	1090-1096	meiner	_	_
+16-4	1097-1106	Erziehung	_	_
+16-5	1107-1108	,	_	_
+16-6	1109-1112	der	_	_
+16-7	1113-1116	die	_	_
+16-8	1117-1123	Sachen	_	_
+16-9	1124-1128	sehr	_	_
+16-10	1129-1134	schön	_	_
+16-11	1135-1138	und	_	_
+16-12	1139-1142	gut	_	_
+16-13	1143-1148	macht	_	_
+16-14	1149-1150	,	_	_
+16-15	1151-1154	ist	_	_
+16-16	1155-1162	überaus	_	_
+16-17	1163-1169	billig	_	_
+16-18	1170-1171	.	_	_
+
+#Text=In Betreff der Spiegel würde er vielleicht mit den Kupfer-
+17-1	1172-1174	In	_	_
+17-2	1175-1182	Betreff	_	_
+17-3	1183-1186	der	_	_
+17-4	1187-1194	Spiegel	_	_
+17-5	1195-1200	würde	_	_
+17-6	1201-1203	er	_	_
+17-7	1204-1214	vielleicht	_	_
+17-8	1215-1218	mit	_	_
+17-9	1219-1222	den	_	_
+17-10	1223-1230	Kupfer-	_	_

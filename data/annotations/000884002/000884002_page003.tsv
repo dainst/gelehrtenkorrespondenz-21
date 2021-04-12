@@ -1,0 +1,301 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=220 Brunn an Henzen Perugia , 18. Juli 1858 - 3 - Das Zeitungspacket hat 713 Baj .
+1-1	0-3	220	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	18.	*[13]	DATEletter[13]
+1-8	34-38	Juli	*[13]	DATEletter[13]
+1-9	39-43	1858	*[13]	DATEletter[13]
+1-10	44-45	-	_	_
+1-11	46-47	3	_	_
+1-12	48-49	-	_	_
+1-13	50-53	Das	_	_
+1-14	54-68	Zeitungspacket	_	_
+1-15	69-72	hat	_	_
+1-16	73-76	713	_	_
+1-17	77-80	Baj	_	_
+1-18	81-82	.	_	_
+
+#Text=gekostet , also erschwinglich , weshalb ich um weitere Sendung bitte .
+2-1	83-91	gekostet	_	_
+2-2	92-93	,	_	_
+2-3	94-98	also	_	_
+2-4	99-112	erschwinglich	_	_
+2-5	113-114	,	_	_
+2-6	115-122	weshalb	_	_
+2-7	123-126	ich	_	_
+2-8	127-129	um	_	_
+2-9	130-137	weitere	_	_
+2-10	138-145	Sendung	_	_
+2-11	146-151	bitte	_	_
+2-12	152-153	.	_	_
+
+#Text=- An Welcker schicke ich heute oder morgen die eine alte Campan .
+3-1	154-155	-	_	_
+3-2	156-158	An	_	_
+3-3	159-166	Welcker	*	PERmentioned
+3-4	167-174	schicke	_	_
+3-5	175-178	ich	_	_
+3-6	179-184	heute	_	_
+3-7	185-189	oder	_	_
+3-8	190-196	morgen	_	_
+3-9	197-200	die	_	_
+3-10	201-205	eine	_	_
+3-11	206-210	alte	_	_
+3-12	211-217	Campan	*[14]	OBJ[14]
+3-13	218-219	.	*[14]	OBJ[14]
+
+#Text=Vase .
+4-1	220-224	Vase	*[14]	OBJ[14]
+4-2	225-226	.	_	_
+
+#Text=Wenn Ortis noch alles hat machen können , so ist hoffentlich auch Zeri nicht unthätig .
+5-1	227-231	Wenn	_	_
+5-2	232-237	Ortis	*	PERmentioned
+5-3	238-242	noch	_	_
+5-4	243-248	alles	_	_
+5-5	249-252	hat	_	_
+5-6	253-259	machen	_	_
+5-7	260-266	können	_	_
+5-8	267-268	,	_	_
+5-9	269-271	so	_	_
+5-10	272-275	ist	_	_
+5-11	276-287	hoffentlich	_	_
+5-12	288-292	auch	_	_
+5-13	293-297	Zeri	*	PERmentioned
+5-14	298-303	nicht	_	_
+5-15	304-312	unthätig	_	_
+5-16	313-314	.	_	_
+
+#Text=Geben Sie mir darüber einen Wink , so wie auch , wenn sich sonst in Campana's Sache etwas wenden sollte .
+6-1	315-320	Geben	_	_
+6-2	321-324	Sie	_	_
+6-3	325-328	mir	_	_
+6-4	329-336	darüber	_	_
+6-5	337-342	einen	_	_
+6-6	343-347	Wink	_	_
+6-7	348-349	,	_	_
+6-8	350-352	so	_	_
+6-9	353-356	wie	_	_
+6-10	357-361	auch	_	_
+6-11	362-363	,	_	_
+6-12	364-368	wenn	_	_
+6-13	369-373	sich	_	_
+6-14	374-379	sonst	_	_
+6-15	380-382	in	_	_
+6-16	383-392	Campana's	*	PERmentioned
+6-17	393-398	Sache	_	_
+6-18	399-404	etwas	_	_
+6-19	405-411	wenden	_	_
+6-20	412-418	sollte	_	_
+6-21	419-420	.	_	_
+
+#Text=- Hier im Hause hat sich seit meinen gestrigen Worten , resp .
+7-1	421-422	-	_	_
+7-2	423-427	Hier	_	_
+7-3	428-430	im	_	_
+7-4	431-436	Hause	_	_
+7-5	437-440	hat	_	_
+7-6	441-445	sich	_	_
+7-7	446-450	seit	_	_
+7-8	451-457	meinen	_	_
+7-9	458-467	gestrigen	_	_
+7-10	468-474	Worten	_	_
+7-11	475-476	,	_	_
+7-12	477-481	resp	_	_
+7-13	482-483	.	_	_
+
+#Text=seit Ankunft einiger anderer Fremden , einiges besser gewendet , so daß wir schließlich doch wohl bleiben werden .
+8-1	484-488	seit	_	_
+8-2	489-496	Ankunft	_	_
+8-3	497-504	einiger	_	_
+8-4	505-512	anderer	_	_
+8-5	513-520	Fremden	_	_
+8-6	521-522	,	_	_
+8-7	523-530	einiges	_	_
+8-8	531-537	besser	_	_
+8-9	538-546	gewendet	_	_
+8-10	547-548	,	_	_
+8-11	549-551	so	_	_
+8-12	552-555	daß	_	_
+8-13	556-559	wir	_	_
+8-14	560-571	schließlich	_	_
+8-15	572-576	doch	_	_
+8-16	577-581	wohl	_	_
+8-17	582-589	bleiben	_	_
+8-18	590-596	werden	_	_
+8-19	597-598	.	_	_
+
+#Text=- Vebrigens hat sich meine Frau , einen Tag in Assisi ausgenommen , auf der Reise recht wohl befunden .
+9-1	599-600	-	_	_
+9-2	601-610	Vebrigens	_	_
+9-3	611-614	hat	_	_
+9-4	615-619	sich	_	_
+9-5	620-625	meine	*[15]	PERmentioned[15]
+9-6	626-630	Frau	*[15]	PERmentioned[15]
+9-7	631-632	,	_	_
+9-8	633-638	einen	_	_
+9-9	639-642	Tag	_	_
+9-10	643-645	in	_	_
+9-11	646-652	Assisi	*	PLACEmentioned
+9-12	653-664	ausgenommen	_	_
+9-13	665-666	,	_	_
+9-14	667-670	auf	_	_
+9-15	671-674	der	_	_
+9-16	675-680	Reise	_	_
+9-17	681-686	recht	_	_
+9-18	687-691	wohl	_	_
+9-19	692-700	befunden	_	_
+9-20	701-702	.	_	_
+
+#Text=Sie hat wohl dort ihre Acclimatisation vollbracht , die Sie für hier in Aussicht stell-ten .
+10-1	703-706	Sie	_	_
+10-2	707-710	hat	_	_
+10-3	711-715	wohl	_	_
+10-4	716-720	dort	_	_
+10-5	721-725	ihre	_	_
+10-6	726-741	Acclimatisation	_	_
+10-7	742-752	vollbracht	_	_
+10-8	753-754	,	_	_
+10-9	755-758	die	_	_
+10-10	759-762	Sie	_	_
+10-11	763-766	für	_	_
+10-12	767-771	hier	_	_
+10-13	772-774	in	_	_
+10-14	775-783	Aussicht	_	_
+10-15	784-793	stell-ten	_	_
+10-16	794-795	.	_	_
+
+#Text=In Betreff meiner selbst non occorre altro .
+11-1	796-798	In	_	_
+11-2	799-806	Betreff	_	_
+11-3	807-813	meiner	_	_
+11-4	814-820	selbst	_	_
+11-5	821-824	non	_	_
+11-6	825-832	occorre	_	_
+11-7	833-838	altro	_	_
+11-8	839-840	.	_	_
+
+#Text=Sagen Sie doch Mariuccia ein Wort von unserer bisherigen Reise .
+12-1	841-846	Sagen	_	_
+12-2	847-850	Sie	_	_
+12-3	851-855	doch	_	_
+12-4	856-865	Mariuccia	*	PERmentioned
+12-5	866-869	ein	_	_
+12-6	870-874	Wort	_	_
+12-7	875-878	von	_	_
+12-8	879-886	unserer	_	_
+12-9	887-897	bisherigen	_	_
+12-10	898-903	Reise	_	_
+12-11	904-905	.	_	_
+
+#Text=Von zu grüßenden erwähne ich namentlich nur Schulz und besonders Thile 's , von denen Sie uns hoffentlich bald bessere Nachricht geben .
+13-1	906-909	Von	_	_
+13-2	910-912	zu	_	_
+13-3	913-922	grüßenden	_	_
+13-4	923-930	erwähne	_	_
+13-5	931-934	ich	_	_
+13-6	935-945	namentlich	_	_
+13-7	946-949	nur	_	_
+13-8	950-956	Schulz	*	PERmentioned
+13-9	957-960	und	_	_
+13-10	961-970	besonders	_	_
+13-11	971-976	Thile	*[16]	PERmentioned[16]
+13-12	977-979	's	*[16]	PERmentioned[16]
+13-13	980-981	,	_	_
+13-14	982-985	von	_	_
+13-15	986-991	denen	_	_
+13-16	992-995	Sie	_	_
+13-17	996-999	uns	_	_
+13-18	1000-1011	hoffentlich	_	_
+13-19	1012-1016	bald	_	_
+13-20	1017-1024	bessere	_	_
+13-21	1025-1034	Nachricht	_	_
+13-22	1035-1040	geben	_	_
+13-23	1041-1042	.	_	_
+
+#Text=- Die Berliner Anweisung wird doch nicht zu lange ausbleiben ?
+14-1	1043-1044	-	_	_
+14-2	1045-1048	Die	_	_
+14-3	1049-1057	Berliner	_	_
+14-4	1058-1067	Anweisung	_	_
+14-5	1068-1072	wird	_	_
+14-6	1073-1077	doch	_	_
+14-7	1078-1083	nicht	_	_
+14-8	1084-1086	zu	_	_
+14-9	1087-1092	lange	_	_
+14-10	1093-1103	ausbleiben	_	_
+14-11	1104-1105	?	_	_
+
+#Text=Denn cassire ich nicht bald Geld für die beiden Annalen Exemplare ein , so wird meine Kasse in nicht zu langer Zeit zu Ende gehen , da das Reisen in kleinen Touren im Verhältniß zu einfacher Vetturinreise doch ziemlich kostspielig ist .
+15-1	1106-1110	Denn	_	_
+15-2	1111-1118	cassire	_	_
+15-3	1119-1122	ich	_	_
+15-4	1123-1128	nicht	_	_
+15-5	1129-1133	bald	_	_
+15-6	1134-1138	Geld	_	_
+15-7	1139-1142	für	_	_
+15-8	1143-1146	die	_	_
+15-9	1147-1153	beiden	_	_
+15-10	1154-1161	Annalen	_	_
+15-11	1162-1171	Exemplare	_	_
+15-12	1172-1175	ein	_	_
+15-13	1176-1177	,	_	_
+15-14	1178-1180	so	_	_
+15-15	1181-1185	wird	_	_
+15-16	1186-1191	meine	_	_
+15-17	1192-1197	Kasse	_	_
+15-18	1198-1200	in	_	_
+15-19	1201-1206	nicht	_	_
+15-20	1207-1209	zu	_	_
+15-21	1210-1216	langer	_	_
+15-22	1217-1221	Zeit	_	_
+15-23	1222-1224	zu	_	_
+15-24	1225-1229	Ende	_	_
+15-25	1230-1235	gehen	_	_
+15-26	1236-1237	,	_	_
+15-27	1238-1240	da	_	_
+15-28	1241-1244	das	_	_
+15-29	1245-1251	Reisen	_	_
+15-30	1252-1254	in	_	_
+15-31	1255-1262	kleinen	_	_
+15-32	1263-1269	Touren	_	_
+15-33	1270-1272	im	_	_
+15-34	1273-1283	Verhältniß	_	_
+15-35	1284-1286	zu	_	_
+15-36	1287-1296	einfacher	_	_
+15-37	1297-1310	Vetturinreise	_	_
+15-38	1311-1315	doch	_	_
+15-39	1316-1324	ziemlich	_	_
+15-40	1325-1336	kostspielig	_	_
+15-41	1337-1340	ist	_	_
+15-42	1341-1342	.	_	_
+
+#Text=Bartoccini läßt bestens grüßen .
+16-1	1343-1353	Bartoccini	*	PERmentioned
+16-2	1354-1358	läßt	_	_
+16-3	1359-1366	bestens	_	_
+16-4	1367-1373	grüßen	_	_
+16-5	1374-1375	.	_	_
+
+#Text=Wenn Bossi die Zeichnungen der Gemälde abliefert , bitte ich ihm zu sagen ,
+17-1	1376-1380	Wenn	_	_
+17-2	1381-1386	Bossi	*	PERmentioned
+17-3	1387-1390	die	_	_
+17-4	1391-1402	Zeichnungen	_	_
+17-5	1403-1406	der	_	_
+17-6	1407-1414	Gemälde	*	OBJ
+17-7	1415-1424	abliefert	_	_
+17-8	1425-1426	,	_	_
+17-9	1427-1432	bitte	_	_
+17-10	1433-1436	ich	_	_
+17-11	1437-1440	ihm	_	_
+17-12	1441-1443	zu	_	_
+17-13	1444-1449	sagen	_	_
+17-14	1450-1451	,	_	_

@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=” Gerhard an Henzen Berlin 6/III/1847 A , di bir .
+1-1	0-1	”	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-37	6/III/1847	*	DATEletter
+1-7	38-39	A	_	_
+1-8	40-41	,	_	_
+1-9	42-44	di	_	_
+1-10	45-48	bir	_	_
+1-11	49-50	.	_	_
+
+#Text=g. r . 17/IV 47 Berlin 6 März 47 eeenenen .. Brief 1 fr. ist Vollards Vorläufer der nächstentags abreist ..... ee .... und dem Institut unter Ihrer und Brauns Adresse mitbringen wird : 1 ) Poditichun Aygatraltem pl 2 ) Archäol .
+2-1	51-53	g.	_	_
+2-2	54-55	r	_	_
+2-3	56-57	.	_	_
+2-4	58-63	17/IV	*[1]	DATErecieved[1]
+2-5	64-66	47	*[1]	DATErecieved[1]
+2-6	67-73	Berlin	*	PLACEfrom
+2-7	74-75	6	*[2]	DATEletter[2]
+2-8	76-80	März	*[2]	DATEletter[2]
+2-9	81-83	47	*[2]	DATEletter[2]
+2-10	84-92	eeenenen	_	_
+2-11	93-95	..	_	_
+2-12	96-101	Brief	_	_
+2-13	102-103	1	_	_
+2-14	104-107	fr.	_	_
+2-15	108-111	ist	_	_
+2-16	112-120	Vollards	*	PERmentioned
+2-17	121-130	Vorläufer	_	_
+2-18	131-134	der	_	_
+2-19	135-147	nächstentags	_	_
+2-20	148-155	abreist	_	_
+2-21	156-161	.....	_	_
+2-22	162-164	ee	_	_
+2-23	165-169	....	_	_
+2-24	170-173	und	_	_
+2-25	174-177	dem	_	_
+2-26	178-186	Institut	*	ORGmentioned
+2-27	187-192	unter	_	_
+2-28	193-198	Ihrer	_	_
+2-29	199-202	und	_	_
+2-30	203-209	Brauns	_	_
+2-31	210-217	Adresse	_	_
+2-32	218-228	mitbringen	_	_
+2-33	229-233	wird	_	_
+2-34	234-235	:	_	_
+2-35	236-237	1	_	_
+2-36	238-239	)	_	_
+2-37	240-250	Poditichun	_	_
+2-38	251-262	Aygatraltem	_	_
+2-39	263-265	pl	_	_
+2-40	266-267	2	_	_
+2-41	268-269	)	_	_
+2-42	270-277	Archäol	_	_
+2-43	278-279	.	_	_
+
+#Text=Ztg .
+3-1	280-283	Ztg	_	_
+3-2	284-285	.	_	_
+
+#Text=Heft 14 und den noch fehlenden 2 Exemplaren Heft 16 desgleichen .
+4-1	286-290	Heft	_	_
+4-2	291-293	14	_	_
+4-3	294-297	und	_	_
+4-4	298-301	den	_	_
+4-5	302-306	noch	_	_
+4-6	307-316	fehlenden	_	_
+4-7	317-318	2	_	_
+4-8	319-329	Exemplaren	_	_
+4-9	330-334	Heft	_	_
+4-10	335-337	16	_	_
+4-11	338-349	desgleichen	_	_
+4-12	350-351	.	_	_
+
+#Text=Dabei Neigebaurs letzter Brief an ” ie 3 ) geht hoffentlich auch noch das Exemplar Arch . Ztg III .
+5-1	352-357	Dabei	_	_
+5-2	358-368	Neigebaurs	*	PERmentioned
+5-3	369-376	letzter	_	_
+5-4	377-382	Brief	_	_
+5-5	383-385	an	_	_
+5-6	386-387	”	_	_
+5-7	388-390	ie	_	_
+5-8	391-392	3	_	_
+5-9	393-394	)	_	_
+5-10	395-399	geht	_	_
+5-11	400-411	hoffentlich	_	_
+5-12	412-416	auch	_	_
+5-13	417-421	noch	_	_
+5-14	422-425	das	_	_
+5-15	426-434	Exemplar	_	_
+5-16	435-439	Arch	_	_
+5-17	440-441	.	_	_
+5-18	442-445	Ztg	_	_
+5-19	446-449	III	_	_
+5-20	450-451	.	_	_
+
+#Text=IV für Cavedoni mit das Sie ihm als Fortsetzung der früheren gefälligst zusenden mögen gegen 4 Scudi Beitrag .
+6-1	452-454	IV	_	_
+6-2	455-458	für	_	_
+6-3	459-467	Cavedoni	*	PERmentioned
+6-4	468-471	mit	_	_
+6-5	472-475	das	_	_
+6-6	476-479	Sie	_	_
+6-7	480-483	ihm	_	_
+6-8	484-487	als	_	_
+6-9	488-499	Fortsetzung	_	_
+6-10	500-503	der	_	_
+6-11	504-512	früheren	_	_
+6-12	513-523	gefälligst	_	_
+6-13	524-532	zusenden	_	_
+6-14	533-538	mögen	_	_
+6-15	539-544	gegen	_	_
+6-16	545-546	4	_	_
+6-17	547-552	Scudi	_	_
+6-18	553-560	Beitrag	_	_
+6-19	561-562	.	_	_
+
+#Text=Das Register ist noch immer nicht versendbar \; es wird nur 2 Bogen stark nächstens nachgeliefert .
+7-1	563-566	Das	_	_
+7-2	567-575	Register	_	_
+7-3	576-579	ist	_	_
+7-4	580-584	noch	_	_
+7-5	585-590	immer	_	_
+7-6	591-596	nicht	_	_
+7-7	597-607	versendbar	_	_
+7-8	608-609	\;	_	_
+7-9	610-612	es	_	_
+7-10	613-617	wird	_	_
+7-11	618-621	nur	_	_
+7-12	622-623	2	_	_
+7-13	624-629	Bogen	_	_
+7-14	630-635	stark	_	_
+7-15	636-645	nächstens	_	_
+7-16	646-659	nachgeliefert	_	_
+7-17	660-661	.	_	_
+
+#Text=Wollen Sie wol so gut sein von den Cades'schen Imbkonte dell'Instituto mir I no 46 ( Kastor ) und III no 32 ( Talmethi ) in einzelnen Fbdrücken zum Ersatz verlorener baldmöglichst , spätestens durch den zurückreisenden Vollard zukommen zu lassen .
+8-1	662-668	Wollen	_	_
+8-2	669-672	Sie	_	_
+8-3	673-676	wol	_	_
+8-4	677-679	so	_	_
+8-5	680-683	gut	_	_
+8-6	684-688	sein	_	_
+8-7	689-692	von	_	_
+8-8	693-696	den	_	_
+8-9	697-708	Cades'schen	_	_
+8-10	709-717	Imbkonte	_	_
+8-11	718-732	dell'Instituto	_	_
+8-12	733-736	mir	_	_
+8-13	737-738	I	_	_
+8-14	739-741	no	_	_
+8-15	742-744	46	_	_
+8-16	745-746	(	_	_
+8-17	747-753	Kastor	_	_
+8-18	754-755	)	_	_
+8-19	756-759	und	_	_
+8-20	760-763	III	_	_
+8-21	764-766	no	_	_
+8-22	767-769	32	_	_
+8-23	770-771	(	_	_
+8-24	772-780	Talmethi	_	_
+8-25	781-782	)	_	_
+8-26	783-785	in	_	_
+8-27	786-795	einzelnen	_	_
+8-28	796-805	Fbdrücken	_	_
+8-29	806-809	zum	_	_
+8-30	810-816	Ersatz	_	_
+8-31	817-827	verlorener	_	_
+8-32	828-841	baldmöglichst	_	_
+8-33	842-843	,	_	_
+8-34	844-854	spätestens	_	_
+8-35	855-860	durch	_	_
+8-36	861-864	den	_	_
+8-37	865-880	zurückreisenden	_	_
+8-38	881-888	Vollard	*	PERmentioned
+8-39	889-897	zukommen	_	_
+8-40	898-900	zu	_	_
+8-41	901-907	lassen	_	_
+8-42	908-909	.	_	_
+
+#Text=Vom Bullettino dieses Jahres noch immer nichts so Wenig oda Momnsens messafische Tafeln .
+9-1	910-913	Vom	_	_
+9-2	914-924	Bullettino	_	_
+9-3	925-931	dieses	_	_
+9-4	932-938	Jahres	_	_
+9-5	939-943	noch	_	_
+9-6	944-949	immer	_	_
+9-7	950-956	nichts	_	_
+9-8	957-959	so	_	_
+9-9	960-965	Wenig	_	_
+9-10	966-969	oda	_	_
+9-11	970-978	Momnsens	*	PERmentioned
+9-12	979-990	messafische	_	_
+9-13	991-997	Tafeln	_	_
+9-14	998-999	.	_	_
+
+#Text=Ist es durch Jagers unsersätzl .
+10-1	1000-1003	Ist	_	_
+10-2	1004-1006	es	_	_
+10-3	1007-1012	durch	_	_
+10-4	1013-1019	Jagers	*	PERmentioned
+10-5	1020-1030	unsersätzl	_	_
+10-6	1031-1032	.	_	_
+
+#Text=Todesfall verschleppt ?
+11-1	1033-1042	Todesfall	_	_
+11-2	1043-1054	verschleppt	_	_
+11-3	1055-1056	?	_	_
+
+#Text=Ist Nibby 's Monographie über den VYircus des Maxentius einzeln zu haben so bitte ich um 1 Exemplar .
+12-1	1057-1060	Ist	_	_
+12-2	1061-1066	Nibby	*[4]	PERmentioned[4]
+12-3	1067-1069	's	*[4]	PERmentioned[4]
+12-4	1070-1081	Monographie	_	_
+12-5	1082-1086	über	_	_
+12-6	1087-1090	den	_	_
+12-7	1091-1098	VYircus	*[3]	OBJ[3]
+12-8	1099-1102	des	*[3]	OBJ[3]
+12-9	1103-1112	Maxentius	*[3]	OBJ[3]
+12-10	1113-1120	einzeln	_	_
+12-11	1121-1123	zu	_	_
+12-12	1124-1129	haben	_	_
+12-13	1130-1132	so	_	_
+12-14	1133-1138	bitte	_	_
+12-15	1139-1142	ich	_	_
+12-16	1143-1145	um	_	_
+12-17	1146-1147	1	_	_
+12-18	1148-1156	Exemplar	_	_
+12-19	1157-1158	.	_	_
+
+#Text=Oder steht die Abh .
+13-1	1159-1163	Oder	_	_
+13-2	1164-1169	steht	_	_
+13-3	1170-1173	die	_	_
+13-4	1174-1177	Abh	_	_
+13-5	1178-1179	.	_	_
+
+#Text=irgendwo in ein PTO „ ccreeee .... verarbei-
+14-1	1180-1188	irgendwo	_	_
+14-2	1189-1191	in	_	_
+14-3	1192-1195	ein	_	_
+14-4	1196-1199	PTO	_	_
+14-5	1200-1201	„	_	_
+14-6	1202-1209	ccreeee	_	_
+14-7	1210-1214	....	_	_
+14-8	1215-1224	verarbei-	_	_

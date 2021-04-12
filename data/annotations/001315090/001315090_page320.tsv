@@ -1,0 +1,213 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=331 Lepsius an Henzen Berlin , 26. Mai 1877 31/5 77 Berlin , den 26. Mai 1877 Prof. Henzen Verehrter Freund Gegen Ihr Urlaubsgesuch , das ich gestern der Central-Direktion vorgelegt habe , ist natürlich nichts einzuwenden .
+1-1	0-3	331	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	26.	*[3]	DATEletter[3]
+1-8	35-38	Mai	*[3]	DATEletter[3]
+1-9	39-43	1877	*[3]	DATEletter[3]
+1-10	44-48	31/5	*[4]	DATErecieved[4]
+1-11	49-51	77	*[4]	DATErecieved[4]
+1-12	52-58	Berlin	*	PLACEfrom
+1-13	59-60	,	_	_
+1-14	61-64	den	_	_
+1-15	65-68	26.	_	_
+1-16	69-72	Mai	*[5]	DATEletter[5]
+1-17	73-77	1877	*[5]	DATEletter[5]
+1-18	78-83	Prof.	_	_
+1-19	84-90	Henzen	*	PERaddressee
+1-20	91-100	Verehrter	_	_
+1-21	101-107	Freund	_	_
+1-22	108-113	Gegen	_	_
+1-23	114-117	Ihr	_	_
+1-24	118-131	Urlaubsgesuch	_	_
+1-25	132-133	,	_	_
+1-26	134-137	das	_	_
+1-27	138-141	ich	_	_
+1-28	142-149	gestern	_	_
+1-29	150-153	der	_	_
+1-30	154-171	Central-Direktion	*	ORGmentioned
+1-31	172-181	vorgelegt	_	_
+1-32	182-186	habe	_	_
+1-33	187-188	,	_	_
+1-34	189-192	ist	_	_
+1-35	193-202	natürlich	_	_
+1-36	203-209	nichts	_	_
+1-37	210-221	einzuwenden	_	_
+1-38	222-223	.	_	_
+
+#Text=Es war aber wohl der terminus a quo aber nicht ad quem angegeben .
+2-1	224-226	Es	_	_
+2-2	227-230	war	_	_
+2-3	231-235	aber	_	_
+2-4	236-240	wohl	_	_
+2-5	241-244	der	_	_
+2-6	245-253	terminus	_	_
+2-7	254-255	a	_	_
+2-8	256-259	quo	_	_
+2-9	260-264	aber	_	_
+2-10	265-270	nicht	_	_
+2-11	271-273	ad	_	_
+2-12	274-278	quem	_	_
+2-13	279-288	angegeben	_	_
+2-14	289-290	.	_	_
+
+#Text=Wir dürfen wohl 6 Wochen , den längsten der gesetzlich bewilligt werden darf , annehmen \; doch bitte ich das noch zu bestätigen .
+3-1	291-294	Wir	_	_
+3-2	295-301	dürfen	_	_
+3-3	302-306	wohl	_	_
+3-4	307-308	6	_	_
+3-5	309-315	Wochen	_	_
+3-6	316-317	,	_	_
+3-7	318-321	den	_	_
+3-8	322-330	längsten	_	_
+3-9	331-334	der	_	_
+3-10	335-345	gesetzlich	_	_
+3-11	346-355	bewilligt	_	_
+3-12	356-362	werden	_	_
+3-13	363-367	darf	_	_
+3-14	368-369	,	_	_
+3-15	370-378	annehmen	_	_
+3-16	379-380	\;	_	_
+3-17	381-385	doch	_	_
+3-18	386-391	bitte	_	_
+3-19	392-395	ich	_	_
+3-20	396-399	das	_	_
+3-21	400-404	noch	_	_
+3-22	405-407	zu	_	_
+3-23	408-418	bestätigen	_	_
+3-24	419-420	.	_	_
+
+#Text=Es ist wohl nicht nöthig an Helbig noch besonders die Bewilligung für 6 wöchentlichen Urlaubs vom 3. Juli an zu melden .
+4-1	421-423	Es	_	_
+4-2	424-427	ist	_	_
+4-3	428-432	wohl	_	_
+4-4	433-438	nicht	_	_
+4-5	439-445	nöthig	_	_
+4-6	446-448	an	_	_
+4-7	449-455	Helbig	*	PERmentioned
+4-8	456-460	noch	_	_
+4-9	461-470	besonders	_	_
+4-10	471-474	die	_	_
+4-11	475-486	Bewilligung	_	_
+4-12	487-490	für	_	_
+4-13	491-492	6	_	_
+4-14	493-506	wöchentlichen	_	_
+4-15	507-514	Urlaubs	_	_
+4-16	515-518	vom	_	_
+4-17	519-521	3.	*[6]	DATEmentioned[6]
+4-18	522-526	Juli	*[6]	DATEmentioned[6]
+4-19	527-529	an	_	_
+4-20	530-532	zu	_	_
+4-21	533-539	melden	_	_
+4-22	540-541	.	_	_
+
+#Text=Wollen Sie dies gefälligst übernehmen .
+5-1	542-548	Wollen	_	_
+5-2	549-552	Sie	_	_
+5-3	553-557	dies	_	_
+5-4	558-568	gefälligst	_	_
+5-5	569-579	übernehmen	_	_
+5-6	580-581	.	_	_
+
+#Text=Es wird aber dabei vorausgesetzt , daß für eine geeignete Vertretung zuverlässig gesorgt wird .
+6-1	582-584	Es	_	_
+6-2	585-589	wird	_	_
+6-3	590-594	aber	_	_
+6-4	595-600	dabei	_	_
+6-5	601-614	vorausgesetzt	_	_
+6-6	615-616	,	_	_
+6-7	617-620	daß	_	_
+6-8	621-624	für	_	_
+6-9	625-629	eine	_	_
+6-10	630-639	geeignete	_	_
+6-11	640-650	Vertretung	_	_
+6-12	651-662	zuverlässig	_	_
+6-13	663-670	gesorgt	_	_
+6-14	671-675	wird	_	_
+6-15	676-677	.	_	_
+
+#Text=Ihr Brief ließ über das definitive Arrangement noch Ungewißheit , die ich gelegentlich zu heben bitte .
+7-1	678-681	Ihr	_	_
+7-2	682-687	Brief	_	_
+7-3	688-692	ließ	_	_
+7-4	693-697	über	_	_
+7-5	698-701	das	_	_
+7-6	702-712	definitive	_	_
+7-7	713-724	Arrangement	_	_
+7-8	725-729	noch	_	_
+7-9	730-741	Ungewißheit	_	_
+7-10	742-743	,	_	_
+7-11	744-747	die	_	_
+7-12	748-751	ich	_	_
+7-13	752-764	gelegentlich	_	_
+7-14	765-767	zu	_	_
+7-15	768-773	heben	_	_
+7-16	774-779	bitte	_	_
+7-17	780-781	.	_	_
+
+#Text=Was die Architektenbibliothek betrifft , so war auch gestern die Ansicht einstimmig dieselbe wie früher .
+8-1	782-785	Was	_	_
+8-2	786-789	die	_	_
+8-3	790-811	Architektenbibliothek	*	ORGmentioned
+8-4	812-820	betrifft	_	_
+8-5	821-822	,	_	_
+8-6	823-825	so	_	_
+8-7	826-829	war	_	_
+8-8	830-834	auch	_	_
+8-9	835-842	gestern	_	_
+8-10	843-846	die	_	_
+8-11	847-854	Ansicht	_	_
+8-12	855-865	einstimmig	_	_
+8-13	866-874	dieselbe	_	_
+8-14	875-878	wie	_	_
+8-15	879-885	früher	_	_
+8-16	886-887	.	_	_
+
+#Text=Eine mit so ansehnlichen Mitteln begründete Bibliothek könne nicht für später abgeschlossen bleiben .
+9-1	888-892	Eine	_	_
+9-2	893-896	mit	_	_
+9-3	897-899	so	_	_
+9-4	900-912	ansehnlichen	_	_
+9-5	913-920	Mitteln	_	_
+9-6	921-931	begründete	_	_
+9-7	932-942	Bibliothek	*	ORGmentioned
+9-8	943-948	könne	_	_
+9-9	949-954	nicht	_	_
+9-10	955-958	für	_	_
+9-11	959-965	später	_	_
+9-12	966-979	abgeschlossen	_	_
+9-13	980-987	bleiben	_	_
+9-14	988-989	.	_	_
+
+#Text=Wie es aber auch sei , so bleibe die Aufnahme in unsare Bibliothek unzweckmäßig .
+10-1	990-993	Wie	_	_
+10-2	994-996	es	_	_
+10-3	997-1001	aber	_	_
+10-4	1002-1006	auch	_	_
+10-5	1007-1010	sei	_	_
+10-6	1011-1012	,	_	_
+10-7	1013-1015	so	_	_
+10-8	1016-1022	bleibe	_	_
+10-9	1023-1026	die	_	_
+10-10	1027-1035	Aufnahme	_	_
+10-11	1036-1038	in	_	_
+10-12	1039-1045	unsare	_	_
+10-13	1046-1056	Bibliothek	_	_
+10-14	1057-1069	unzweckmäßig	_	_
+10-15	1070-1071	.	_	_
+
+#Text=Es war angenommen , daß Sie persön-
+11-1	1072-1074	Es	_	_
+11-2	1075-1078	war	_	_
+11-3	1079-1089	angenommen	_	_
+11-4	1090-1091	,	_	_
+11-5	1092-1095	daß	_	_
+11-6	1096-1099	Sie	_	_
+11-7	1100-1107	persön-	_	_

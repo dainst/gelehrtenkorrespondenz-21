@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=h. Brunn an Henzen Rom , 31. Mai 1862 durchaus verhindert sind \; ferner aus den Spiegeln des Kircherianum , die auf Gerhards specielle Aufforderung und vielfaches Mahnen gemacht sind .
+1-1	0-2	h.	_	_
+1-2	3-8	Brunn	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-18	Henzen	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-28	31.	*[5]	DATEletter[5]
+1-8	29-32	Mai	*[5]	DATEletter[5]
+1-9	33-37	1862	*[5]	DATEletter[5]
+1-10	38-46	durchaus	_	_
+1-11	47-57	verhindert	_	_
+1-12	58-62	sind	_	_
+1-13	63-64	\;	_	_
+1-14	65-71	ferner	_	_
+1-15	72-75	aus	_	_
+1-16	76-79	den	_	_
+1-17	80-88	Spiegeln	*[6]	OBJ[6]
+1-18	89-92	des	*[6]	OBJ[6]
+1-19	93-105	Kircherianum	*[6]	OBJ[6]
+1-20	106-107	,	_	_
+1-21	108-111	die	_	_
+1-22	112-115	auf	_	_
+1-23	116-124	Gerhards	*	PERmentioned
+1-24	125-134	specielle	_	_
+1-25	135-147	Aufforderung	_	_
+1-26	148-151	und	_	_
+1-27	152-162	vielfaches	_	_
+1-28	163-169	Mahnen	_	_
+1-29	170-177	gemacht	_	_
+1-30	178-182	sind	_	_
+1-31	183-184	.	_	_
+
+#Text=Was mir sonst in die Hände fiel , ist fast durchgängig auf Institutsconto gesetzt und für G. nur das Lucido berechnet .
+2-1	185-188	Was	_	_
+2-2	189-192	mir	_	_
+2-3	193-198	sonst	_	_
+2-4	199-201	in	_	_
+2-5	202-205	die	_	_
+2-6	206-211	Hände	_	_
+2-7	212-216	fiel	_	_
+2-8	217-218	,	_	_
+2-9	219-222	ist	_	_
+2-10	223-227	fast	_	_
+2-11	228-239	durchgängig	_	_
+2-12	240-243	auf	_	_
+2-13	244-258	Institutsconto	_	_
+2-14	259-266	gesetzt	_	_
+2-15	267-270	und	_	_
+2-16	271-274	für	_	_
+2-17	275-277	G.	*	PERmentioned
+2-18	278-281	nur	_	_
+2-19	282-285	das	_	_
+2-20	286-292	Lucido	_	_
+2-21	293-302	berechnet	_	_
+2-22	303-304	.	_	_
+
+#Text=Mehr kann er doch nicht Verlangen .
+3-1	305-309	Mehr	_	_
+3-2	310-314	kann	_	_
+3-3	315-317	er	_	_
+3-4	318-322	doch	_	_
+3-5	323-328	nicht	_	_
+3-6	329-338	Verlangen	_	_
+3-7	339-340	.	_	_
+
+#Text=Morgen will ich mit Rosa nach Cerveteri , Abends wieder zurück .
+4-1	341-347	Morgen	_	_
+4-2	348-352	will	_	_
+4-3	353-356	ich	_	_
+4-4	357-360	mit	_	_
+4-5	361-365	Rosa	*	PERmentioned
+4-6	366-370	nach	_	_
+4-7	371-380	Cerveteri	*	PLACEmentioned
+4-8	381-382	,	_	_
+4-9	383-389	Abends	_	_
+4-10	390-396	wieder	_	_
+4-11	397-403	zurück	_	_
+4-12	404-405	.	_	_
+
+#Text=Die Calabresi 's haben wieder allerlei gefunden .
+5-1	406-409	Die	_	_
+5-2	410-419	Calabresi	*[8]	PERmentioned[8]
+5-3	420-422	's	*[8]	PERmentioned[8]
+5-4	423-428	haben	_	_
+5-5	429-435	wieder	_	_
+5-6	436-444	allerlei	_	_
+5-7	445-453	gefunden	_	_
+5-8	454-455	.	_	_
+
+#Text=Vielleicht gelingt es mir , den Handel mit Castellani zu vermitteln \; dann hätten wir die ganze Sache zur Disposition .
+6-1	456-466	Vielleicht	_	_
+6-2	467-474	gelingt	_	_
+6-3	475-477	es	_	_
+6-4	478-481	mir	_	_
+6-5	482-483	,	_	_
+6-6	484-487	den	_	_
+6-7	488-494	Handel	_	_
+6-8	495-498	mit	_	_
+6-9	499-509	Castellani	*	PERmentioned
+6-10	510-512	zu	_	_
+6-11	513-523	vermitteln	_	_
+6-12	524-525	\;	_	_
+6-13	526-530	dann	_	_
+6-14	531-537	hätten	_	_
+6-15	538-541	wir	_	_
+6-16	542-545	die	_	_
+6-17	546-551	ganze	_	_
+6-18	552-557	Sache	_	_
+6-19	558-561	zur	_	_
+6-20	562-573	Disposition	_	_
+6-21	574-575	.	_	_
+
+#Text=Ich bin in dieser Woche nicht viel vorwärts gekommen , weil ich nachträglich für die Franzosen noch etwas , über Cisten und Spiegel , zu machen hatte .
+7-1	576-579	Ich	_	_
+7-2	580-583	bin	_	_
+7-3	584-586	in	_	_
+7-4	587-593	dieser	_	_
+7-5	594-599	Woche	_	_
+7-6	600-605	nicht	_	_
+7-7	606-610	viel	_	_
+7-8	611-619	vorwärts	_	_
+7-9	620-628	gekommen	_	_
+7-10	629-630	,	_	_
+7-11	631-635	weil	_	_
+7-12	636-639	ich	_	_
+7-13	640-652	nachträglich	_	_
+7-14	653-656	für	_	_
+7-15	657-660	die	_	_
+7-16	661-670	Franzosen	_	_
+7-17	671-675	noch	_	_
+7-18	676-681	etwas	_	_
+7-19	682-683	,	_	_
+7-20	684-688	über	_	_
+7-21	689-695	Cisten	*	OBJ
+7-22	696-699	und	_	_
+7-23	700-707	Spiegel	*	OBJ
+7-24	708-709	,	_	_
+7-25	710-712	zu	_	_
+7-26	713-719	machen	_	_
+7-27	720-725	hatte	_	_
+7-28	726-727	.	_	_
+
+#Text=Nicht wenig Zeit kosten mir auch die ragazzi mit mancherlei Fragen.Dazu ist Mittwoch auf drei Wochen John .
+8-1	728-733	Nicht	_	_
+8-2	734-739	wenig	_	_
+8-3	740-744	Zeit	_	_
+8-4	745-751	kosten	_	_
+8-5	752-755	mir	_	_
+8-6	756-760	auch	_	_
+8-7	761-764	die	_	_
+8-8	765-772	ragazzi	_	_
+8-9	773-776	mit	_	_
+8-10	777-787	mancherlei	_	_
+8-11	788-799	Fragen.Dazu	_	_
+8-12	800-803	ist	_	_
+8-13	804-812	Mittwoch	*	DATEmentioned
+8-14	813-816	auf	_	_
+8-15	817-821	drei	_	_
+8-16	822-828	Wochen	_	_
+8-17	829-833	John	*[7]	PERmentioned[7]
+8-18	834-835	.	*[7]	PERmentioned[7]
+
+#Text=Brandis angekommen , der als alter Bekannter und als Cabinetssecretär der Königin doch warm gehalten werden muß .
+9-1	836-843	Brandis	*[7]	PERmentioned[7]
+9-2	844-854	angekommen	_	_
+9-3	855-856	,	_	_
+9-4	857-860	der	_	_
+9-5	861-864	als	_	_
+9-6	865-870	alter	_	_
+9-7	871-880	Bekannter	_	_
+9-8	881-884	und	_	_
+9-9	885-888	als	_	_
+9-10	889-905	Cabinetssecretär	_	_
+9-11	906-909	der	_	_
+9-12	910-917	Königin	*	PERmentioned
+9-13	918-922	doch	_	_
+9-14	923-927	warm	_	_
+9-15	928-936	gehalten	_	_
+9-16	937-943	werden	_	_
+9-17	944-947	muß	_	_
+9-18	948-949	.	_	_
+
+#Text=Auch Bartoccini ist auf dem Punkte abzureisen und ich muß einige Tafeln für 63 präpariren .
+10-1	950-954	Auch	_	_
+10-2	955-965	Bartoccini	*	PERmentioned
+10-3	966-969	ist	_	_
+10-4	970-973	auf	_	_
+10-5	974-977	dem	_	_
+10-6	978-984	Punkte	_	_
+10-7	985-995	abzureisen	_	_
+10-8	996-999	und	_	_
+10-9	1000-1003	ich	_	_
+10-10	1004-1007	muß	_	_
+10-11	1008-1014	einige	_	_
+10-12	1015-1021	Tafeln	_	_
+10-13	1022-1025	für	_	_
+10-14	1026-1028	63	_	_
+10-15	1029-1039	präpariren	_	_
+10-16	1040-1041	.	_	_
+
+#Text=Hier nur selten ein kurzer Gewitterregen \; dagegen ziemlich heiß .
+11-1	1042-1046	Hier	_	_
+11-2	1047-1050	nur	_	_
+11-3	1051-1057	selten	_	_
+11-4	1058-1061	ein	_	_
+11-5	1062-1068	kurzer	_	_
+11-6	1069-1082	Gewitterregen	_	_
+11-7	1083-1084	\;	_	_
+11-8	1085-1092	dagegen	_	_
+11-9	1093-1101	ziemlich	_	_
+11-10	1102-1106	heiß	_	_
+11-11	1107-1108	.	_	_
+
+#Text=An ihren Fußboden habe ich Schulz erinnert \; Brandis , der jetzt unter Ihrem Arbeitszimmer wohnt , kann in einigen Tagen umquartirt werden .
+12-1	1109-1111	An	_	_
+12-2	1112-1117	ihren	_	_
+12-3	1118-1126	Fußboden	_	_
+12-4	1127-1131	habe	_	_
+12-5	1132-1135	ich	_	_
+12-6	1136-1142	Schulz	*	PERmentioned
+12-7	1143-1151	erinnert	_	_
+12-8	1152-1153	\;	_	_
+12-9	1154-1161	Brandis	*	PERmentioned
+12-10	1162-1163	,	_	_
+12-11	1164-1167	der	_	_
+12-12	1168-1173	jetzt	_	_
+12-13	1174-1179	unter	_	_
+12-14	1180-1185	Ihrem	_	_
+12-15	1186-1199	Arbeitszimmer	_	_
+12-16	1200-1205	wohnt	_	_
+12-17	1206-1207	,	_	_
+12-18	1208-1212	kann	_	_
+12-19	1213-1215	in	_	_
+12-20	1216-1223	einigen	_	_
+12-21	1224-1229	Tagen	_	_
+12-22	1230-1240	umquartirt	_	_
+12-23	1241-1247	werden	_	_
+12-24	1248-1249	.	_	_

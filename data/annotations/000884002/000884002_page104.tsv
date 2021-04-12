@@ -1,0 +1,235 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 15. Juni 1862 8 . 17. Juni 1862 r . 24. Juni 1862 Lieber Henzen \| !
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	15.	_	_
+1-7	26-30	Juni	*[1]	DATEletter[1]
+1-8	31-35	1862	*[1]	DATEletter[1]
+1-9	36-37	8	_	_
+1-10	38-39	.	_	_
+1-11	40-43	17.	_	_
+1-12	44-48	Juni	*[2]	DATErecieved[2]
+1-13	49-53	1862	*[2]	DATErecieved[2]
+1-14	54-55	r	_	_
+1-15	56-57	.	_	_
+1-16	58-61	24.	_	_
+1-17	62-66	Juni	*[3]	DATEanswered[3]
+1-18	67-71	1862	*[3]	DATEanswered[3]
+1-19	72-78	Lieber	_	_
+1-20	79-85	Henzen	*	PERaddressee
+1-21	86-87	\|	_	_
+1-22	88-89	!	_	_
+
+#Text=Bergalf bringt Magl .
+2-1	90-97	Bergalf	*[5]	PERmentioned[5]
+2-2	98-104	bringt	*[5]	PERmentioned[5]
+2-3	105-109	Magl	_	_
+2-4	110-111	.	_	_
+
+#Text=28,34 .
+3-1	112-117	28,34	_	_
+3-2	118-119	.	_	_
+
+#Text=Es sind 3 Packete , was vielleicht überflüssig \; aber besser zu viel als zu wenig .
+4-1	120-122	Es	_	_
+4-2	123-127	sind	_	_
+4-3	128-129	3	_	_
+4-4	130-137	Packete	_	_
+4-5	138-139	,	_	_
+4-6	140-143	was	_	_
+4-7	144-154	vielleicht	_	_
+4-8	155-166	überflüssig	_	_
+4-9	167-168	\;	_	_
+4-10	169-173	aber	_	_
+4-11	174-180	besser	_	_
+4-12	181-183	zu	_	_
+4-13	184-188	viel	_	_
+4-14	189-192	als	_	_
+4-15	193-195	zu	_	_
+4-16	196-201	wenig	_	_
+4-17	202-203	.	_	_
+
+#Text=- Die Barba läßt sich von Barbate sehr leicht wegschneiden .
+5-1	204-205	-	_	_
+5-2	206-209	Die	_	_
+5-3	210-215	Barba	_	_
+5-4	216-220	läßt	_	_
+5-5	221-225	sich	_	_
+5-6	226-229	von	_	_
+5-7	230-237	Barbate	*	PERmentioned
+5-8	238-242	sehr	_	_
+5-9	243-249	leicht	_	_
+5-10	250-262	wegschneiden	_	_
+5-11	263-264	.	_	_
+
+#Text=Es bleibt daher nicht viel vernüftiges übrig .
+6-1	265-267	Es	_	_
+6-2	268-274	bleibt	_	_
+6-3	275-280	daher	_	_
+6-4	281-286	nicht	_	_
+6-5	287-291	viel	_	_
+6-6	292-303	vernüftiges	_	_
+6-7	304-309	übrig	_	_
+6-8	310-311	.	_	_
+
+#Text=Marstaller läßt sagen , daß die Berliner Sache diesmal sehr prompt schon vor einiger Zeit vollständig in Ordnung gebracht sei .
+7-1	312-322	Marstaller	*	PERmentioned
+7-2	323-327	läßt	_	_
+7-3	328-333	sagen	_	_
+7-4	334-335	,	_	_
+7-5	336-339	daß	_	_
+7-6	340-343	die	_	_
+7-7	344-352	Berliner	_	_
+7-8	353-358	Sache	_	_
+7-9	359-366	diesmal	_	_
+7-10	367-371	sehr	_	_
+7-11	372-378	prompt	_	_
+7-12	379-384	schon	_	_
+7-13	385-388	vor	_	_
+7-14	389-396	einiger	_	_
+7-15	397-401	Zeit	_	_
+7-16	402-413	vollständig	_	_
+7-17	414-416	in	_	_
+7-18	417-424	Ordnung	_	_
+7-19	425-433	gebracht	_	_
+7-20	434-437	sei	_	_
+7-21	438-439	.	_	_
+
+#Text=Gerhard habe ich geschrieben , KRiessling 's Resultate lerne ich selbst erst kenne { wenn er die einzelnen Artikel schreiben und mit mir dabei über das Einzelne sprechen .
+8-1	440-447	Gerhard	*	PERmentioned
+8-2	448-452	habe	_	_
+8-3	453-456	ich	_	_
+8-4	457-468	geschrieben	_	_
+8-5	469-470	,	_	_
+8-6	471-481	KRiessling	*[6]	PERmentioned[6]
+8-7	482-484	's	*[6]	PERmentioned[6]
+8-8	485-494	Resultate	_	_
+8-9	495-500	lerne	_	_
+8-10	501-504	ich	_	_
+8-11	505-511	selbst	_	_
+8-12	512-516	erst	_	_
+8-13	517-522	kenne	_	_
+8-14	523-524	{	_	_
+8-15	525-529	wenn	_	_
+8-16	530-532	er	_	_
+8-17	533-536	die	_	_
+8-18	537-546	einzelnen	_	_
+8-19	547-554	Artikel	_	_
+8-20	555-564	schreiben	_	_
+8-21	565-568	und	_	_
+8-22	569-572	mit	_	_
+8-23	573-576	mir	_	_
+8-24	577-582	dabei	_	_
+8-25	583-587	über	_	_
+8-26	588-591	das	_	_
+8-27	592-600	Einzelne	_	_
+8-28	601-609	sprechen	_	_
+8-29	610-611	.	_	_
+
+#Text=Das ist auch wirklich eigentlich der Fall .
+9-1	612-615	Das	_	_
+9-2	616-619	ist	_	_
+9-3	620-624	auch	_	_
+9-4	625-633	wirklich	_	_
+9-5	634-644	eigentlich	_	_
+9-6	645-648	der	_	_
+9-7	649-653	Fall	_	_
+9-8	654-655	.	_	_
+
+#Text=Rosa hatte ich am 1 1/2 die rückständige Mesata nicht gezahlt , weil sie ja doch zunächst Geld genug in Händen hatte , also im Verzug keine Gefahr war .
+10-1	656-660	Rosa	*	PERmentioned
+10-2	661-666	hatte	_	_
+10-3	667-670	ich	_	_
+10-4	671-673	am	_	_
+10-5	674-675	1	_	_
+10-6	676-679	1/2	_	_
+10-7	680-683	die	_	_
+10-8	684-696	rückständige	_	_
+10-9	697-703	Mesata	_	_
+10-10	704-709	nicht	_	_
+10-11	710-717	gezahlt	_	_
+10-12	718-719	,	_	_
+10-13	720-724	weil	_	_
+10-14	725-728	sie	_	_
+10-15	729-731	ja	_	_
+10-16	732-736	doch	_	_
+10-17	737-745	zunächst	_	_
+10-18	746-750	Geld	_	_
+10-19	751-756	genug	_	_
+10-20	757-759	in	_	_
+10-21	760-766	Händen	_	_
+10-22	767-772	hatte	_	_
+10-23	773-774	,	_	_
+10-24	775-779	also	_	_
+10-25	780-782	im	_	_
+10-26	783-789	Verzug	_	_
+10-27	790-795	keine	_	_
+10-28	796-802	Gefahr	_	_
+10-29	803-806	war	_	_
+10-30	807-808	.	_	_
+
+#Text=Heute hat Nino den Fußboden in Ihrem Zimmer aufgerissen und in nächster Woche soll alles fertig werden .
+11-1	809-814	Heute	_	_
+11-2	815-818	hat	_	_
+11-3	819-823	Nino	*	PERmentioned
+11-4	824-827	den	_	_
+11-5	828-836	Fußboden	_	_
+11-6	837-839	in	_	_
+11-7	840-845	Ihrem	_	_
+11-8	846-852	Zimmer	_	_
+11-9	853-864	aufgerissen	_	_
+11-10	865-868	und	_	_
+11-11	869-871	in	_	_
+11-12	872-880	nächster	_	_
+11-13	881-886	Woche	_	_
+11-14	887-891	soll	_	_
+11-15	892-897	alles	_	_
+11-16	898-904	fertig	_	_
+11-17	905-911	werden	_	_
+11-18	912-913	.	_	_
+
+#Text=Die Gewitter haben mit dem Mondwechsel aufgehört \; und jetzt nun reguläre Hitze .
+12-1	914-917	Die	_	_
+12-2	918-926	Gewitter	_	_
+12-3	927-932	haben	_	_
+12-4	933-936	mit	_	_
+12-5	937-940	dem	_	_
+12-6	941-952	Mondwechsel	_	_
+12-7	953-962	aufgehört	_	_
+12-8	963-964	\;	_	_
+12-9	965-968	und	_	_
+12-10	969-974	jetzt	_	_
+12-11	975-978	nun	_	_
+12-12	979-987	reguläre	_	_
+12-13	988-993	Hitze	_	_
+12-14	994-995	.	_	_
+
+#Text=S. Fietro incartato machte auch mit den Xtausend Lichtern keinen Effect .
+13-1	996-998	S.	*[4]	PERmentioned[4]
+13-2	999-1005	Fietro	*[4]	PERmentioned[4]
+13-3	1006-1015	incartato	*[4]	PERmentioned[4]
+13-4	1016-1022	machte	_	_
+13-5	1023-1027	auch	_	_
+13-6	1028-1031	mit	_	_
+13-7	1032-1035	den	_	_
+13-8	1036-1044	Xtausend	_	_
+13-9	1045-1053	Lichtern	_	_
+13-10	1054-1060	keinen	_	_
+13-11	1061-1067	Effect	_	_
+13-12	1068-1069	.	_	_
+
+#Text=Die Preti haben sich schon stark verlaufen .
+14-1	1070-1073	Die	_	_
+14-2	1074-1079	Preti	*	PERmentioned
+14-3	1080-1085	haben	_	_
+14-4	1086-1090	sich	_	_
+14-5	1091-1096	schon	_	_
+14-6	1097-1102	stark	_	_
+14-7	1103-1112	verlaufen	_	_
+14-8	1113-1114	.	_	_

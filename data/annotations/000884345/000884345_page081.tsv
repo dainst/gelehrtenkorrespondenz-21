@@ -1,0 +1,256 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Casherol Rom , 13. Dezember 1834 ‚Rom 43 Debr 1834 Theurer Freund !
+1-1	0-6	Bunsen	_	_
+1-2	7-9	an	_	_
+1-3	10-18	Casherol	_	_
+1-4	19-22	Rom	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-28	13.	*[2]	DATEletter[2]
+1-7	29-37	Dezember	*[2]	DATEletter[2]
+1-8	38-42	1834	*[2]	DATEletter[2]
+1-9	43-47	‚Rom	*	PLACEfrom
+1-10	48-50	43	*[4]	DATEletter[4]
+1-11	51-55	Debr	*[4]	DATEletter[4]
+1-12	56-60	1834	*[4]	DATEletter[4]
+1-13	61-68	Theurer	_	_
+1-14	69-75	Freund	_	_
+1-15	76-77	!	_	_
+
+#Text=Meinen und der Meinigen Glückwunsch zum Weihnachtsfest voraus !
+2-1	78-84	Meinen	_	_
+2-2	85-88	und	_	_
+2-3	89-92	der	_	_
+2-4	93-101	Meinigen	_	_
+2-5	102-113	Glückwunsch	_	_
+2-6	114-117	zum	_	_
+2-7	118-132	Weihnachtsfest	_	_
+2-8	133-139	voraus	_	_
+2-9	140-141	!	_	_
+
+#Text=Wir werden gewiß dabei an Sie gedenken , wie wir das auch sonst oft thun .
+3-1	142-145	Wir	_	_
+3-2	146-152	werden	_	_
+3-3	153-158	gewiß	_	_
+3-4	159-164	dabei	_	_
+3-5	165-167	an	_	_
+3-6	168-171	Sie	_	_
+3-7	172-180	gedenken	_	_
+3-8	181-182	,	_	_
+3-9	183-186	wie	_	_
+3-10	187-190	wir	_	_
+3-11	191-194	das	_	_
+3-12	195-199	auch	_	_
+3-13	200-205	sonst	_	_
+3-14	206-209	oft	_	_
+3-15	210-214	thun	_	_
+3-16	215-216	.	_	_
+
+#Text=Herzlichen Dank für Ihren Brief vom 18 November .
+4-1	217-227	Herzlichen	_	_
+4-2	228-232	Dank	_	_
+4-3	233-236	für	_	_
+4-4	237-242	Ihren	_	_
+4-5	243-248	Brief	_	_
+4-6	249-252	vom	_	_
+4-7	253-255	18	*[5]	DATEmentioned[5]
+4-8	256-264	November	*[5]	DATEmentioned[5]
+4-9	265-266	.	_	_
+
+#Text=Dr. Braun wird Ihnen schon manches zur Antwort in Geschäftssachen gemeldet haben .
+5-1	267-270	Dr.	_	_
+5-2	271-276	Braun	*	PERmentioned
+5-3	277-281	wird	_	_
+5-4	282-287	Ihnen	_	_
+5-5	288-293	schon	_	_
+5-6	294-301	manches	_	_
+5-7	302-305	zur	_	_
+5-8	306-313	Antwort	_	_
+5-9	314-316	in	_	_
+5-10	317-332	Geschäftssachen	_	_
+5-11	333-341	gemeldet	_	_
+5-12	342-347	haben	_	_
+5-13	348-349	.	_	_
+
+#Text=1 .
+6-1	350-351	1	_	_
+6-2	352-353	.	_	_
+
+#Text=Den Spiegel habe ich von einer französischen Abhandlung erläutert , die fertig ist , und die in der nächsten Woche abgeschrieben wird .
+7-1	354-357	Den	_	_
+7-2	358-365	Spiegel	*	OBJ
+7-3	366-370	habe	_	_
+7-4	371-374	ich	_	_
+7-5	375-378	von	_	_
+7-6	379-384	einer	_	_
+7-7	385-398	französischen	_	_
+7-8	399-409	Abhandlung	_	_
+7-9	410-419	erläutert	_	_
+7-10	420-421	,	_	_
+7-11	422-425	die	_	_
+7-12	426-432	fertig	_	_
+7-13	433-436	ist	_	_
+7-14	437-438	,	_	_
+7-15	439-442	und	_	_
+7-16	443-446	die	_	_
+7-17	447-449	in	_	_
+7-18	450-453	der	_	_
+7-19	454-462	nächsten	_	_
+7-20	463-468	Woche	_	_
+7-21	469-482	abgeschrieben	_	_
+7-22	483-487	wird	_	_
+7-23	488-489	.	_	_
+
+#Text=Ich habe mehr herausgebracht als ich hoffte , besonders durch die Inghirahischen Spiegel .
+8-1	490-493	Ich	_	_
+8-2	494-498	habe	_	_
+8-3	499-503	mehr	_	_
+8-4	504-518	herausgebracht	_	_
+8-5	519-522	als	_	_
+8-6	523-526	ich	_	_
+8-7	527-533	hoffte	_	_
+8-8	534-535	,	_	_
+8-9	536-545	besonders	_	_
+8-10	546-551	durch	_	_
+8-11	552-555	die	_	_
+8-12	556-570	Inghirahischen	*[8]	OBJ[8]
+8-13	571-578	Spiegel	*[8]	OBJ[8]
+8-14	579-580	.	_	_
+
+#Text=Das Denkmal ist ohne Zweifel von allen etrurischen das Wichtigste für Sprache und sichere urkundliche Erklärung , obwohl er Ihrem an Schönheit nicht zu vergleichen ist , wie ich auch in der Abhandlung gesagt .
+9-1	581-584	Das	_	_
+9-2	585-592	Denkmal	_	_
+9-3	593-596	ist	_	_
+9-4	597-601	ohne	_	_
+9-5	602-609	Zweifel	_	_
+9-6	610-613	von	_	_
+9-7	614-619	allen	_	_
+9-8	620-631	etrurischen	_	_
+9-9	632-635	das	_	_
+9-10	636-646	Wichtigste	_	_
+9-11	647-650	für	_	_
+9-12	651-658	Sprache	_	_
+9-13	659-662	und	_	_
+9-14	663-670	sichere	_	_
+9-15	671-682	urkundliche	_	_
+9-16	683-692	Erklärung	_	_
+9-17	693-694	,	_	_
+9-18	695-701	obwohl	_	_
+9-19	702-704	er	_	_
+9-20	705-710	Ihrem	_	_
+9-21	711-713	an	_	_
+9-22	714-723	Schönheit	_	_
+9-23	724-729	nicht	_	_
+9-24	730-732	zu	_	_
+9-25	733-744	vergleichen	_	_
+9-26	745-748	ist	_	_
+9-27	749-750	,	_	_
+9-28	751-754	wie	_	_
+9-29	755-758	ich	_	_
+9-30	759-763	auch	_	_
+9-31	764-766	in	_	_
+9-32	767-770	der	_	_
+9-33	771-781	Abhandlung	_	_
+9-34	782-788	gesagt	_	_
+9-35	789-790	.	_	_
+
+#Text=Bei dieser Gelegenheit wird auch der Spiegel tav .
+10-1	791-794	Bei	_	_
+10-2	795-801	dieser	_	_
+10-3	802-813	Gelegenheit	_	_
+10-4	814-818	wird	_	_
+10-5	819-823	auch	_	_
+10-6	824-827	der	_	_
+10-7	828-835	Spiegel	*	OBJ
+10-8	836-839	tav	_	_
+10-9	840-841	.	_	_
+
+#Text=d'agg .
+11-1	842-847	d'agg	_	_
+11-2	848-849	.	_	_
+
+#Text=( Paris und die 3 Göttinnen ) erläutert .
+12-1	850-851	(	_	_
+12-2	852-857	Paris	*	PLACEmentioned
+12-3	858-861	und	_	_
+12-4	862-865	die	_	_
+12-5	866-867	3	_	_
+12-6	868-877	Göttinnen	_	_
+12-7	878-879	)	_	_
+12-8	880-889	erläutert	_	_
+12-9	890-891	.	_	_
+
+#Text=Wie ist es mit den beiden andern Spiegeln ?
+13-1	892-895	Wie	_	_
+13-2	896-899	ist	_	_
+13-3	900-902	es	_	_
+13-4	903-906	mit	_	_
+13-5	907-910	den	_	_
+13-6	911-917	beiden	_	_
+13-7	918-924	andern	_	_
+13-8	925-933	Spiegeln	*	OBJ
+13-9	934-935	?	_	_
+
+#Text=Sind sie gestochen oder nicht ?
+14-1	936-940	Sind	_	_
+14-2	941-944	sie	_	_
+14-3	945-954	gestochen	_	_
+14-4	955-959	oder	_	_
+14-5	960-965	nicht	_	_
+14-6	966-967	?	_	_
+
+#Text=Im letzterem Falle könnte man mit der Herausgabe warten , bis sich durch neue Denkmäler ( ich habe 10Ymit Figuren in diesem Monate gesehen ) eine Hülfe für die unerklärliche Necue , sicher Aefe gelesen , ergiebt ( Spiegel von Orvieto ) .
+15-1	968-970	Im	_	_
+15-2	971-980	letzterem	_	_
+15-3	981-986	Falle	_	_
+15-4	987-993	könnte	_	_
+15-5	994-997	man	_	_
+15-6	998-1001	mit	_	_
+15-7	1002-1005	der	_	_
+15-8	1006-1016	Herausgabe	_	_
+15-9	1017-1023	warten	_	_
+15-10	1024-1025	,	_	_
+15-11	1026-1029	bis	_	_
+15-12	1030-1034	sich	_	_
+15-13	1035-1040	durch	_	_
+15-14	1041-1045	neue	_	_
+15-15	1046-1055	Denkmäler	_	_
+15-16	1056-1057	(	_	_
+15-17	1058-1061	ich	_	_
+15-18	1062-1066	habe	_	_
+15-19	1067-1073	10Ymit	_	_
+15-20	1074-1081	Figuren	_	_
+15-21	1082-1084	in	_	_
+15-22	1085-1091	diesem	_	_
+15-23	1092-1098	Monate	_	_
+15-24	1099-1106	gesehen	_	_
+15-25	1107-1108	)	_	_
+15-26	1109-1113	eine	_	_
+15-27	1114-1119	Hülfe	_	_
+15-28	1120-1123	für	_	_
+15-29	1124-1127	die	_	_
+15-30	1128-1141	unerklärliche	_	_
+15-31	1142-1147	Necue	_	_
+15-32	1148-1149	,	_	_
+15-33	1150-1156	sicher	_	_
+15-34	1157-1161	Aefe	_	_
+15-35	1162-1169	gelesen	_	_
+15-36	1170-1171	,	_	_
+15-37	1172-1179	ergiebt	_	_
+15-38	1180-1181	(	_	_
+15-39	1182-1189	Spiegel	_	_
+15-40	1190-1193	von	_	_
+15-41	1194-1201	Orvieto	*	PLACEmentioned
+15-42	1202-1203	)	_	_
+15-43	1204-1205	.	_	_
+
+#Text=Die Griff Inschrift des andern Spiegels wird
+16-1	1206-1209	Die	_	_
+16-2	1210-1215	Griff	_	_
+16-3	1216-1225	Inschrift	_	_
+16-4	1226-1229	des	_	_
+16-5	1230-1236	andern	_	_
+16-6	1237-1245	Spiegels	*	OBJ
+16-7	1246-1250	wird	_	_

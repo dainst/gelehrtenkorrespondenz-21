@@ -1,0 +1,271 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=205 Braun an Gerhard Verona , 14. Juli 1839 Verona 14 Juli 1839 .
+1-1	0-3	205	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-27	Verona	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	14.	*[4]	DATEletter[4]
+1-8	34-38	Juli	*[4]	DATEletter[4]
+1-9	39-43	1839	*[4]	DATEletter[4]
+1-10	44-50	Verona	*	PLACEfrom
+1-11	51-53	14	*[6]	DATEletter[6]
+1-12	54-58	Juli	*[6]	DATEletter[6]
+1-13	59-63	1839	*[6]	DATEletter[6]
+1-14	64-65	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+2-1	66-82	Hochverehrtester	_	_
+2-2	83-89	Freund	_	_
+2-3	90-91	\|	_	_
+2-4	92-93	!	_	_
+
+#Text=Ihr Schreiben vom 22 v. M. aus London habe ich gestern hier in Verona vorgefunden .
+3-1	94-97	Ihr	_	_
+3-2	98-107	Schreiben	_	_
+3-3	108-111	vom	_	_
+3-4	112-114	22	*[7]	DATEmentioned[7]
+3-5	115-117	v.	*[7]	DATEmentioned[7]
+3-6	118-120	M.	*[7]	DATEmentioned[7]
+3-7	121-124	aus	_	_
+3-8	125-131	London	*	PLACEmentioned
+3-9	132-136	habe	_	_
+3-10	137-140	ich	_	_
+3-11	141-148	gestern	_	_
+3-12	149-153	hier	_	_
+3-13	154-156	in	_	_
+3-14	157-163	Verona	*	PLACEmentioned
+3-15	164-175	vorgefunden	_	_
+3-16	176-177	.	_	_
+
+#Text=Der Wechsel ist an Cades consegnirt worden .
+4-1	178-181	Der	_	_
+4-2	182-189	Wechsel	_	_
+4-3	190-193	ist	_	_
+4-4	194-196	an	_	_
+4-5	197-202	Cades	*	PERmentioned
+4-6	203-213	consegnirt	_	_
+4-7	214-220	worden	_	_
+4-8	221-222	.	_	_
+
+#Text=Gegen Lepsius habe ich mich über seine von Woche zu Woche stets unter anderen Vorwänden hinausgeschobene Abreise deutlich genug ausgesprochen , so daß ich nichts hinzuzufügen habe .
+5-1	223-228	Gegen	_	_
+5-2	229-236	Lepsius	*	PERmentioned
+5-3	237-241	habe	_	_
+5-4	242-245	ich	_	_
+5-5	246-250	mich	_	_
+5-6	251-255	über	_	_
+5-7	256-261	seine	_	_
+5-8	262-265	von	_	_
+5-9	266-271	Woche	_	_
+5-10	272-274	zu	_	_
+5-11	275-280	Woche	_	_
+5-12	281-286	stets	_	_
+5-13	287-292	unter	_	_
+5-14	293-300	anderen	_	_
+5-15	301-310	Vorwänden	_	_
+5-16	311-327	hinausgeschobene	_	_
+5-17	328-335	Abreise	_	_
+5-18	336-344	deutlich	_	_
+5-19	345-350	genug	_	_
+5-20	351-364	ausgesprochen	_	_
+5-21	365-366	,	_	_
+5-22	367-369	so	_	_
+5-23	370-373	daß	_	_
+5-24	374-377	ich	_	_
+5-25	378-384	nichts	_	_
+5-26	385-397	hinzuzufügen	_	_
+5-27	398-402	habe	_	_
+5-28	403-404	.	_	_
+
+#Text=Unnützes Reden ist mir verhaßt , daher schweige ich fortan .
+6-1	405-413	Unnützes	_	_
+6-2	414-419	Reden	_	_
+6-3	420-423	ist	_	_
+6-4	424-427	mir	_	_
+6-5	428-435	verhaßt	_	_
+6-6	436-437	,	_	_
+6-7	438-443	daher	_	_
+6-8	444-452	schweige	_	_
+6-9	453-456	ich	_	_
+6-10	457-463	fortan	_	_
+6-11	464-465	.	_	_
+
+#Text=Nach London hat ihn Niemand geschickt , wohl aber nach Paris , wo er die Sache so nachlässig betrieben hat , daß wir jedenfalls dasselbe auch per Corrispondenz ausgerichtet hätten .
+7-1	466-470	Nach	_	_
+7-2	471-477	London	*	PLACEmentioned
+7-3	478-481	hat	_	_
+7-4	482-485	ihn	_	_
+7-5	486-493	Niemand	_	_
+7-6	494-503	geschickt	_	_
+7-7	504-505	,	_	_
+7-8	506-510	wohl	_	_
+7-9	511-515	aber	_	_
+7-10	516-520	nach	_	_
+7-11	521-526	Paris	*	PLACEmentioned
+7-12	527-528	,	_	_
+7-13	529-531	wo	_	_
+7-14	532-534	er	_	_
+7-15	535-538	die	_	_
+7-16	539-544	Sache	_	_
+7-17	545-547	so	_	_
+7-18	548-558	nachlässig	_	_
+7-19	559-568	betrieben	_	_
+7-20	569-572	hat	_	_
+7-21	573-574	,	_	_
+7-22	575-578	daß	_	_
+7-23	579-582	wir	_	_
+7-24	583-593	jedenfalls	_	_
+7-25	594-602	dasselbe	_	_
+7-26	603-607	auch	_	_
+7-27	608-611	per	_	_
+7-28	612-625	Corrispondenz	_	_
+7-29	626-638	ausgerichtet	_	_
+7-30	639-645	hätten	_	_
+7-31	646-647	.	_	_
+
+#Text=Unsre Schuld ist das nicht .
+8-1	648-653	Unsre	_	_
+8-2	654-660	Schuld	_	_
+8-3	661-664	ist	_	_
+8-4	665-668	das	_	_
+8-5	669-674	nicht	_	_
+8-6	675-676	.	_	_
+
+#Text=Wie es in England zugeht , habe ich längst gewußt .
+9-1	677-680	Wie	_	_
+9-2	681-683	es	_	_
+9-3	684-686	in	_	_
+9-4	687-694	England	*	PLACEmentioned
+9-5	695-701	zugeht	_	_
+9-6	702-703	,	_	_
+9-7	704-708	habe	_	_
+9-8	709-712	ich	_	_
+9-9	713-719	längst	_	_
+9-10	720-726	gewußt	_	_
+9-11	727-728	.	_	_
+
+#Text=Meine Vorschläge die Sache in Rom anzuhaften , sind nicht gehört worden .
+10-1	729-734	Meine	_	_
+10-2	735-745	Vorschläge	_	_
+10-3	746-749	die	_	_
+10-4	750-755	Sache	_	_
+10-5	756-758	in	_	_
+10-6	759-762	Rom	*	PLACEmentioned
+10-7	763-773	anzuhaften	_	_
+10-8	774-775	,	_	_
+10-9	776-780	sind	_	_
+10-10	781-786	nicht	_	_
+10-11	787-793	gehört	_	_
+10-12	794-800	worden	_	_
+10-13	801-802	.	_	_
+
+#Text=Bunsen hat stets große Reden geführt und immer sehr schlechte Figur dabei gemacht .
+11-1	803-809	Bunsen	*	PERmentioned
+11-2	810-813	hat	_	_
+11-3	814-819	stets	_	_
+11-4	820-825	große	_	_
+11-5	826-831	Reden	_	_
+11-6	832-839	geführt	_	_
+11-7	840-843	und	_	_
+11-8	844-849	immer	_	_
+11-9	850-854	sehr	_	_
+11-10	855-864	schlechte	_	_
+11-11	865-870	Figur	_	_
+11-12	871-876	dabei	_	_
+11-13	877-884	gemacht	_	_
+11-14	885-886	.	_	_
+
+#Text=Ihre Vasen sind nicht abgegangen .
+12-1	887-891	Ihre	_	_
+12-2	892-897	Vasen	*	OBJ
+12-3	898-902	sind	_	_
+12-4	903-908	nicht	_	_
+12-5	909-919	abgegangen	_	_
+12-6	920-921	.	_	_
+
+#Text=In der grossen Hitze geht alles aus dem Leimen .
+13-1	922-924	In	_	_
+13-2	925-928	der	_	_
+13-3	929-936	grossen	_	_
+13-4	937-942	Hitze	_	_
+13-5	943-947	geht	_	_
+13-6	948-953	alles	_	_
+13-7	954-957	aus	_	_
+13-8	958-961	dem	_	_
+13-9	962-968	Leimen	_	_
+13-10	969-970	.	_	_
+
+#Text=Ohne österreichischen Lasciapassare können sie außerdem nicht gehen , denn die Mautbeamten zertrümmern sie .
+14-1	971-975	Ohne	_	_
+14-2	976-992	österreichischen	_	_
+14-3	993-1006	Lasciapassare	_	_
+14-4	1007-1013	können	_	_
+14-5	1014-1017	sie	_	_
+14-6	1018-1026	außerdem	_	_
+14-7	1027-1032	nicht	_	_
+14-8	1033-1038	gehen	_	_
+14-9	1039-1040	,	_	_
+14-10	1041-1045	denn	_	_
+14-11	1046-1049	die	_	_
+14-12	1050-1061	Mautbeamten	_	_
+14-13	1062-1073	zertrümmern	_	_
+14-14	1074-1077	sie	_	_
+14-15	1078-1079	.	_	_
+
+#Text=Um einen solchen zu erhalten , müssen sie an das Museum addressirt werden , was Sie nicht zu wünschen scheinen .
+15-1	1080-1082	Um	_	_
+15-2	1083-1088	einen	_	_
+15-3	1089-1096	solchen	_	_
+15-4	1097-1099	zu	_	_
+15-5	1100-1108	erhalten	_	_
+15-6	1109-1110	,	_	_
+15-7	1111-1117	müssen	_	_
+15-8	1118-1121	sie	_	_
+15-9	1122-1124	an	_	_
+15-10	1125-1128	das	_	_
+15-11	1129-1135	Museum	*	ORGmentioned
+15-12	1136-1146	addressirt	_	_
+15-13	1147-1153	werden	_	_
+15-14	1154-1155	,	_	_
+15-15	1156-1159	was	_	_
+15-16	1160-1163	Sie	_	_
+15-17	1164-1169	nicht	_	_
+15-18	1170-1172	zu	_	_
+15-19	1173-1181	wünschen	_	_
+15-20	1182-1190	scheinen	_	_
+15-21	1191-1192	.	_	_
+
+#Text=Ich muß daher erst genaue Instructionen über alles dies haben .
+16-1	1193-1196	Ich	_	_
+16-2	1197-1200	muß	_	_
+16-3	1201-1206	daher	_	_
+16-4	1207-1211	erst	_	_
+16-5	1212-1218	genaue	_	_
+16-6	1219-1232	Instructionen	_	_
+16-7	1233-1237	über	_	_
+16-8	1238-1243	alles	_	_
+16-9	1244-1248	dies	_	_
+16-10	1249-1254	haben	_	_
+16-11	1255-1256	.	_	_
+
+#Text=Die Campanarischen Transporte enthalten alte schon bekannte Stücke , den Achelous von Galassi , den
+17-1	1257-1260	Die	_	_
+17-2	1261-1275	Campanarischen	*	PERmentioned
+17-3	1276-1286	Transporte	_	_
+17-4	1287-1296	enthalten	_	_
+17-5	1297-1301	alte	_	_
+17-6	1302-1307	schon	_	_
+17-7	1308-1316	bekannte	_	_
+17-8	1317-1323	Stücke	_	_
+17-9	1324-1325	,	_	_
+17-10	1326-1329	den	_	_
+17-11	1330-1338	Achelous	*	OBJ
+17-12	1339-1342	von	_	_
+17-13	1343-1350	Galassi	*	PERmentioned
+17-14	1351-1352	,	_	_
+17-15	1353-1356	den	_	_

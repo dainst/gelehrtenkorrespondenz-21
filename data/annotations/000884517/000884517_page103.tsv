@@ -1,0 +1,169 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=39 Gerhard an Braun Berlin , 20 .
+1-1	0-2	39	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	20	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Januar 1845 Sie aus dieser Ignoranz eine topographische Erudition entwickeln ?
+2-1	34-40	Januar	*[1]	DATEletter[1]
+2-2	41-45	1845	*[1]	DATEletter[1]
+2-3	46-49	Sie	_	_
+2-4	50-53	aus	_	_
+2-5	54-60	dieser	_	_
+2-6	61-69	Ignoranz	_	_
+2-7	70-74	eine	_	_
+2-8	75-89	topographische	_	_
+2-9	90-99	Erudition	_	_
+2-10	100-110	entwickeln	_	_
+2-11	111-112	?	_	_
+
+#Text=In dieser unfruchtbaren Zeit fühle ich mich dennoch aufgelegt in besseren Monaten wieder einmal ein gelehrtes Monument zur Erklärung für die Annali zu übernehmen , wenn Sie mir gelegentlich eines überweisen wollen .
+3-1	113-115	In	_	_
+3-2	116-122	dieser	_	_
+3-3	123-136	unfruchtbaren	_	_
+3-4	137-141	Zeit	_	_
+3-5	142-147	fühle	_	_
+3-6	148-151	ich	_	_
+3-7	152-156	mich	_	_
+3-8	157-164	dennoch	_	_
+3-9	165-174	aufgelegt	_	_
+3-10	175-177	in	_	_
+3-11	178-186	besseren	_	_
+3-12	187-194	Monaten	_	_
+3-13	195-201	wieder	_	_
+3-14	202-208	einmal	_	_
+3-15	209-212	ein	_	_
+3-16	213-222	gelehrtes	_	_
+3-17	223-231	Monument	_	_
+3-18	232-235	zur	_	_
+3-19	236-245	Erklärung	_	_
+3-20	246-249	für	_	_
+3-21	250-253	die	_	_
+3-22	254-260	Annali	_	_
+3-23	261-263	zu	_	_
+3-24	264-274	übernehmen	_	_
+3-25	275-276	,	_	_
+3-26	277-281	wenn	_	_
+3-27	282-285	Sie	_	_
+3-28	286-289	mir	_	_
+3-29	290-302	gelegentlich	_	_
+3-30	303-308	eines	_	_
+3-31	309-319	überweisen	_	_
+3-32	320-326	wollen	_	_
+3-33	327-328	.	_	_
+
+#Text=Es fiel mir bei der Triptolemosschale ein .
+4-1	329-331	Es	_	_
+4-2	332-336	fiel	_	_
+4-3	337-340	mir	_	_
+4-4	341-344	bei	_	_
+4-5	345-348	der	_	_
+4-6	349-366	Triptolemosschale	*	OBJ
+4-7	367-370	ein	_	_
+4-8	371-372	.	_	_
+
+#Text=Müller 's krause Meinung über die Chablais'schen Gemmen suche ich vergebens in dessen Schriften \; Sie erinnern sich ohne Zweifel wo sie steht .
+5-1	373-379	Müller	*[2]	PERmentioned[2]
+5-2	380-382	's	*[2]	PERmentioned[2]
+5-3	383-389	krause	_	_
+5-4	390-397	Meinung	_	_
+5-5	398-402	über	_	_
+5-6	403-406	die	_	_
+5-7	407-421	Chablais'schen	_	_
+5-8	422-428	Gemmen	*	OBJ
+5-9	429-434	suche	_	_
+5-10	435-438	ich	_	_
+5-11	439-448	vergebens	_	_
+5-12	449-451	in	_	_
+5-13	452-458	dessen	_	_
+5-14	459-468	Schriften	_	_
+5-15	469-470	\;	_	_
+5-16	471-474	Sie	_	_
+5-17	475-483	erinnern	_	_
+5-18	484-488	sich	_	_
+5-19	489-493	ohne	_	_
+5-20	494-501	Zweifel	_	_
+5-21	502-504	wo	_	_
+5-22	505-508	sie	_	_
+5-23	509-514	steht	_	_
+5-24	515-516	.	_	_
+
+#Text=Die Mitgliederliste ist durch eine Krankheit des Kopisten verzögert .
+6-1	517-520	Die	_	_
+6-2	521-536	Mitgliederliste	_	_
+6-3	537-540	ist	_	_
+6-4	541-546	durch	_	_
+6-5	547-551	eine	_	_
+6-6	552-561	Krankheit	_	_
+6-7	562-565	des	_	_
+6-8	566-574	Kopisten	_	_
+6-9	575-584	verzögert	_	_
+6-10	585-586	.	_	_
+
+#Text=Allen Freunden viel Herzliches Ihr serhard Am Rande Ihre Bestellung scheint mir nicht sehr genau gewesen zu sein , oder haben Sie wirklich dieselbe nur auf die ausgestellte Auswahl groß-griechischer Münzen beschränken wollen .
+7-1	587-592	Allen	_	_
+7-2	593-601	Freunden	_	_
+7-3	602-606	viel	_	_
+7-4	607-617	Herzliches	_	_
+7-5	618-621	Ihr	_	_
+7-6	622-629	serhard	*	PERauthor
+7-7	630-632	Am	_	_
+7-8	633-638	Rande	_	_
+7-9	639-643	Ihre	_	_
+7-10	644-654	Bestellung	_	_
+7-11	655-662	scheint	_	_
+7-12	663-666	mir	_	_
+7-13	667-672	nicht	_	_
+7-14	673-677	sehr	_	_
+7-15	678-683	genau	_	_
+7-16	684-691	gewesen	_	_
+7-17	692-694	zu	_	_
+7-18	695-699	sein	_	_
+7-19	700-701	,	_	_
+7-20	702-706	oder	_	_
+7-21	707-712	haben	_	_
+7-22	713-716	Sie	_	_
+7-23	717-725	wirklich	_	_
+7-24	726-734	dieselbe	_	_
+7-25	735-738	nur	_	_
+7-26	739-742	auf	_	_
+7-27	743-746	die	_	_
+7-28	747-759	ausgestellte	_	_
+7-29	760-767	Auswahl	_	_
+7-30	768-785	groß-griechischer	*	MISC
+7-31	786-792	Münzen	*	OBJ
+7-32	793-804	beschränken	_	_
+7-33	805-811	wollen	_	_
+7-34	812-813	.	_	_
+
+#Text=Die stellt Krause Ihnen in Schwefelabdrücken zur Verfügung \; zur Anwendung Ihres metallischen Processes scheint Pinder sich nicht verstehen zu wollen .
+8-1	814-817	Die	_	_
+8-2	818-824	stellt	_	_
+8-3	825-831	Krause	*	PERmentioned
+8-4	832-837	Ihnen	_	_
+8-5	838-840	in	_	_
+8-6	841-858	Schwefelabdrücken	_	_
+8-7	859-862	zur	_	_
+8-8	863-872	Verfügung	_	_
+8-9	873-874	\;	_	_
+8-10	875-878	zur	_	_
+8-11	879-888	Anwendung	_	_
+8-12	889-894	Ihres	_	_
+8-13	895-907	metallischen	_	_
+8-14	908-917	Processes	_	_
+8-15	918-925	scheint	_	_
+8-16	926-932	Pinder	*	PERmentioned
+8-17	933-937	sich	_	_
+8-18	938-943	nicht	_	_
+8-19	944-953	verstehen	_	_
+8-20	954-956	zu	_	_
+8-21	957-963	wollen	_	_
+8-22	964-965	.	_	_

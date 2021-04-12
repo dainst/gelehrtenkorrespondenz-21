@@ -1,0 +1,196 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=nf 331 Gerhard an Henzen Berlin , 29. Juli 1844 af .
+1-1	0-2	nf	_	_
+1-2	3-6	331	_	_
+1-3	7-14	Gerhard	*	PERauthor
+1-4	15-17	an	_	_
+1-5	18-24	Henzen	*	PERaddressee
+1-6	25-31	Berlin	*	PLACEfrom
+1-7	32-33	,	_	_
+1-8	34-37	29.	*[1]	DATEletter[1]
+1-9	38-42	Juli	*[1]	DATEletter[1]
+1-10	43-47	1844	*[1]	DATEletter[1]
+1-11	48-50	af	_	_
+1-12	51-52	.	_	_
+
+#Text=d. Direz .
+2-1	53-55	d.	_	_
+2-2	56-61	Direz	_	_
+2-3	62-63	.	_	_
+
+#Text=g . 26/VIII 44 r . 3/X 4 H. Dr. Henzen Berlin 29 Juli 44 Besten Dank für Ihren Brief vom 9 d. M. Möge Ihre Thätigkeit trotz widerstrebender Jahreszeit bestens gedeihen .
+3-1	64-65	g	_	_
+3-2	66-67	.	_	_
+3-3	68-75	26/VIII	*[2]	DATErecieved[2]
+3-4	76-78	44	*[2]	DATErecieved[2]
+3-5	79-80	r	_	_
+3-6	81-82	.	_	_
+3-7	83-86	3/X	*[3]	DATEanswered[3]
+3-8	87-88	4	*[3]	DATEanswered[3]
+3-9	89-91	H.	_	_
+3-10	92-95	Dr.	_	_
+3-11	96-102	Henzen	*	PERaddressee
+3-12	103-109	Berlin	*	PLACEfrom
+3-13	110-112	29	*[4]	DATEletter[4]
+3-14	113-117	Juli	*[4]	DATEletter[4]
+3-15	118-120	44	*[4]	DATEletter[4]
+3-16	121-127	Besten	_	_
+3-17	128-132	Dank	_	_
+3-18	133-136	für	_	_
+3-19	137-142	Ihren	_	_
+3-20	143-148	Brief	_	_
+3-21	149-152	vom	_	_
+3-22	153-154	9	*[5]	DATEmentioned[5]
+3-23	155-157	d.	*[5]	DATEmentioned[5]
+3-24	158-160	M.	*[5]	DATEmentioned[5]
+3-25	161-165	Möge	_	_
+3-26	166-170	Ihre	_	_
+3-27	171-181	Thätigkeit	_	_
+3-28	182-187	trotz	_	_
+3-29	188-203	widerstrebender	_	_
+3-30	204-214	Jahreszeit	_	_
+3-31	215-222	bestens	_	_
+3-32	223-231	gedeihen	_	_
+3-33	232-233	.	_	_
+
+#Text=Ich wünsche sehr , bald etwas ostensibles Epigraphisches von Ihnen zu haben \; wäre es wenigstens zum Oktober oder November !
+4-1	234-237	Ich	_	_
+4-2	238-245	wünsche	_	_
+4-3	246-250	sehr	_	_
+4-4	251-252	,	_	_
+4-5	253-257	bald	_	_
+4-6	258-263	etwas	_	_
+4-7	264-275	ostensibles	_	_
+4-8	276-290	Epigraphisches	_	_
+4-9	291-294	von	_	_
+4-10	295-300	Ihnen	_	_
+4-11	301-303	zu	_	_
+4-12	304-309	haben	_	_
+4-13	310-311	\;	_	_
+4-14	312-316	wäre	_	_
+4-15	317-319	es	_	_
+4-16	320-330	wenigstens	_	_
+4-17	331-334	zum	_	_
+4-18	335-342	Oktober	*	DATEmentioned
+4-19	343-347	oder	_	_
+4-20	348-356	November	*	DATEmentioned
+4-21	357-358	!	_	_
+
+#Text=Eben reist ein Mommsen aus Kiel nach Italien und sucht akademische Unterstützung für Monumenta Legalia .
+5-1	359-363	Eben	_	_
+5-2	364-369	reist	_	_
+5-3	370-373	ein	_	_
+5-4	374-381	Mommsen	*	PERmentioned
+5-5	382-385	aus	_	_
+5-6	386-390	Kiel	*	PLACEmentioned
+5-7	391-395	nach	_	_
+5-8	396-403	Italien	*	PLACEmentioned
+5-9	404-407	und	_	_
+5-10	408-413	sucht	_	_
+5-11	414-425	akademische	_	_
+5-12	426-439	Unterstützung	_	_
+5-13	440-443	für	_	_
+5-14	444-453	Monumenta	_	_
+5-15	454-461	Legalia	_	_
+5-16	462-463	.	_	_
+
+#Text=Bullettino 6 ist nun auch angelangt \; woran hat die Censur sich geärgert ?
+6-1	464-474	Bullettino	_	_
+6-2	475-476	6	_	_
+6-3	477-480	ist	_	_
+6-4	481-484	nun	_	_
+6-5	485-489	auch	_	_
+6-6	490-499	angelangt	_	_
+6-7	500-501	\;	_	_
+6-8	502-507	woran	_	_
+6-9	508-511	hat	_	_
+6-10	512-515	die	_	_
+6-11	516-522	Censur	_	_
+6-12	523-527	sich	_	_
+6-13	528-536	geärgert	_	_
+6-14	537-538	?	_	_
+
+#Text=Daß Montanari an mich denkt ist mir lieb \; über Zuschuß mag Braun entscheiden .
+7-1	539-542	Daß	_	_
+7-2	543-552	Montanari	*	PERmentioned
+7-3	553-555	an	_	_
+7-4	556-560	mich	_	_
+7-5	561-566	denkt	_	_
+7-6	567-570	ist	_	_
+7-7	571-574	mir	_	_
+7-8	575-579	lieb	_	_
+7-9	580-581	\;	_	_
+7-10	582-586	über	_	_
+7-11	587-594	Zuschuß	_	_
+7-12	595-598	mag	_	_
+7-13	599-604	Braun	*	PERmentioned
+7-14	605-616	entscheiden	_	_
+7-15	617-618	.	_	_
+
+#Text=Cavedoni bitte für seine Notiz zu danken .
+8-1	619-627	Cavedoni	*	PERmentioned
+8-2	628-633	bitte	_	_
+8-3	634-637	für	_	_
+8-4	638-643	seine	_	_
+8-5	644-649	Notiz	_	_
+8-6	650-652	zu	_	_
+8-7	653-659	danken	_	_
+8-8	660-661	.	_	_
+
+#Text=Zwei hiesige Reisende werden in Ihrer Abwesenheit Rom berühren : Dr. Köhne , Numismat , Verfasser des eingesandten Münzartikels und Dr. Gahl der über Ephesus geschrieben hat , gründlicher ist , auch neuere Kunst treibt und wol auch länger in Rom bleibt .
+9-1	662-666	Zwei	_	_
+9-2	667-674	hiesige	_	_
+9-3	675-683	Reisende	_	_
+9-4	684-690	werden	_	_
+9-5	691-693	in	_	_
+9-6	694-699	Ihrer	_	_
+9-7	700-711	Abwesenheit	_	_
+9-8	712-715	Rom	*	PLACEmentioned
+9-9	716-724	berühren	_	_
+9-10	725-726	:	_	_
+9-11	727-730	Dr.	_	_
+9-12	731-736	Köhne	*	PERmentioned
+9-13	737-738	,	_	_
+9-14	739-747	Numismat	_	_
+9-15	748-749	,	_	_
+9-16	750-759	Verfasser	_	_
+9-17	760-763	des	_	_
+9-18	764-776	eingesandten	_	_
+9-19	777-789	Münzartikels	_	_
+9-20	790-793	und	_	_
+9-21	794-797	Dr.	_	_
+9-22	798-802	Gahl	*	PERmentioned
+9-23	803-806	der	_	_
+9-24	807-811	über	_	_
+9-25	812-819	Ephesus	*	PLACEmentioned
+9-26	820-831	geschrieben	_	_
+9-27	832-835	hat	_	_
+9-28	836-837	,	_	_
+9-29	838-849	gründlicher	_	_
+9-30	850-853	ist	_	_
+9-31	854-855	,	_	_
+9-32	856-860	auch	_	_
+9-33	861-867	neuere	_	_
+9-34	868-873	Kunst	_	_
+9-35	874-880	treibt	_	_
+9-36	881-884	und	_	_
+9-37	885-888	wol	_	_
+9-38	889-893	auch	_	_
+9-39	894-900	länger	_	_
+9-40	901-903	in	_	_
+9-41	904-907	Rom	*	PLACEmentioned
+9-42	908-914	bleibt	_	_
+9-43	915-916	.	_	_
+
+#Text=Leider ist seine Gestalt ihm öfters ungünstig .
+10-1	917-923	Leider	_	_
+10-2	924-927	ist	_	_
+10-3	928-933	seine	_	_
+10-4	934-941	Gestalt	_	_
+10-5	942-945	ihm	_	_
+10-6	946-952	öfters	_	_
+10-7	953-962	ungünstig	_	_
+10-8	963-964	.	_	_

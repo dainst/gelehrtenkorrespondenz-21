@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=195 Gerhard an Braun Berlin , 15 .
+1-1	0-3	195	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	15	*[4]	DATEletter[4]
+1-8	33-34	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1835 Sie ihn herzlich .
+2-1	35-42	Oktober	*[4]	DATEletter[4]
+2-2	43-47	1835	*[4]	DATEletter[4]
+2-3	48-51	Sie	_	_
+2-4	52-55	ihn	_	_
+2-5	56-64	herzlich	_	_
+2-6	65-66	.	_	_
+
+#Text=Was seine taktlose Proklamation zum Mitglied betrifft , ist Ihnen und Bunsen gesagt , möge ihm ohne Noth nicht gesagt werden , und darf ihr bei ruhiger Erwägung keinenfalls verletzen .
+3-1	67-70	Was	_	_
+3-2	71-76	seine	_	_
+3-3	77-85	taktlose	_	_
+3-4	86-98	Proklamation	_	_
+3-5	99-102	zum	_	_
+3-6	103-111	Mitglied	_	_
+3-7	112-120	betrifft	_	_
+3-8	121-122	,	_	_
+3-9	123-126	ist	_	_
+3-10	127-132	Ihnen	_	_
+3-11	133-136	und	_	_
+3-12	137-143	Bunsen	*	PERmentioned
+3-13	144-150	gesagt	_	_
+3-14	151-152	,	_	_
+3-15	153-157	möge	_	_
+3-16	158-161	ihm	_	_
+3-17	162-166	ohne	_	_
+3-18	167-171	Noth	_	_
+3-19	172-177	nicht	_	_
+3-20	178-184	gesagt	_	_
+3-21	185-191	werden	_	_
+3-22	192-193	,	_	_
+3-23	194-197	und	_	_
+3-24	198-202	darf	_	_
+3-25	203-206	ihr	_	_
+3-26	207-210	bei	_	_
+3-27	211-218	ruhiger	_	_
+3-28	219-227	Erwägung	_	_
+3-29	228-239	keinenfalls	_	_
+3-30	240-249	verletzen	_	_
+3-31	250-251	.	_	_
+
+#Text=Was hört man von Kellermann ?
+4-1	252-255	Was	_	_
+4-2	256-260	hört	_	_
+4-3	261-264	man	_	_
+4-4	265-268	von	_	_
+4-5	269-279	Kellermann	*	PERmentioned
+4-6	280-281	?	_	_
+
+#Text=Na 7 der Hom & opath wird zum Jahresende zurückerwartet \; nach überstandnen großen Ministerialschwierigkeiten , die durch Vermittlung des Kronprinzen ( sic ) begätigt worden sind , hat er das Staatsexamen in Coblenz zu machen die Erlaubniß erhalten .
+5-1	282-284	Na	_	_
+5-2	285-286	7	_	_
+5-3	287-290	der	_	_
+5-4	291-294	Hom	_	_
+5-5	295-296	&	_	_
+5-6	297-302	opath	_	_
+5-7	303-307	wird	_	_
+5-8	308-311	zum	_	_
+5-9	312-322	Jahresende	_	_
+5-10	323-337	zurückerwartet	_	_
+5-11	338-339	\;	_	_
+5-12	340-344	nach	_	_
+5-13	345-357	überstandnen	_	_
+5-14	358-364	großen	_	_
+5-15	365-391	Ministerialschwierigkeiten	_	_
+5-16	392-393	,	_	_
+5-17	394-397	die	_	_
+5-18	398-403	durch	_	_
+5-19	404-415	Vermittlung	_	_
+5-20	416-419	des	_	_
+5-21	420-431	Kronprinzen	*	PERmentioned
+5-22	432-433	(	_	_
+5-23	434-437	sic	_	_
+5-24	438-439	)	_	_
+5-25	440-448	begätigt	_	_
+5-26	449-455	worden	_	_
+5-27	456-460	sind	_	_
+5-28	461-462	,	_	_
+5-29	463-466	hat	_	_
+5-30	467-469	er	_	_
+5-31	470-473	das	_	_
+5-32	474-486	Staatsexamen	_	_
+5-33	487-489	in	_	_
+5-34	490-497	Coblenz	*	PLACEmentioned
+5-35	498-500	zu	_	_
+5-36	501-507	machen	_	_
+5-37	508-511	die	_	_
+5-38	512-521	Erlaubniß	_	_
+5-39	522-530	erhalten	_	_
+5-40	531-532	.	_	_
+
+#Text=Eben stellt sich der nach Berlin zurückgekehrte Reumont ein .
+6-1	533-537	Eben	_	_
+6-2	538-544	stellt	_	_
+6-3	545-549	sich	_	_
+6-4	550-553	der	_	_
+6-5	554-558	nach	_	_
+6-6	559-565	Berlin	*	PLACEmentioned
+6-7	566-580	zurückgekehrte	_	_
+6-8	581-588	Reumont	*	PERmentioned
+6-9	589-592	ein	_	_
+6-10	593-594	.	_	_
+
+#Text=Nichts von wwaroff ?
+7-1	595-601	Nichts	_	_
+7-2	602-605	von	_	_
+7-3	606-613	wwaroff	*[11]	PERmentioned[11]
+7-4	614-615	?	_	_
+
+#Text=leraaewanemant
+8-1	616-630	leraaewanemant	_	_

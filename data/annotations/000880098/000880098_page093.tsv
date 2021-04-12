@@ -1,0 +1,256 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=697 Braun an Gerhard Rom , 13. November 1834 er nicht erhalten .
+1-1	0-3	697	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[1]	DATEletter[1]
+1-8	31-39	November	*[1]	DATEletter[1]
+1-9	40-44	1834	*[1]	DATEletter[1]
+1-10	45-47	er	_	_
+1-11	48-53	nicht	_	_
+1-12	54-62	erhalten	_	_
+1-13	63-64	.	_	_
+
+#Text=Er wünscht alles nachgesandt zu haben , was ihm fehlt und ich habe bereits durch den Spanischen Courier eine solche Sendung vorbereitet .
+2-1	65-67	Er	_	_
+2-2	68-75	wünscht	_	_
+2-3	76-81	alles	_	_
+2-4	82-93	nachgesandt	_	_
+2-5	94-96	zu	_	_
+2-6	97-102	haben	_	_
+2-7	103-104	,	_	_
+2-8	105-108	was	_	_
+2-9	109-112	ihm	_	_
+2-10	113-118	fehlt	_	_
+2-11	119-122	und	_	_
+2-12	123-126	ich	_	_
+2-13	127-131	habe	_	_
+2-14	132-139	bereits	_	_
+2-15	140-145	durch	_	_
+2-16	146-149	den	_	_
+2-17	150-160	Spanischen	*[2]	PERmentioned[2]
+2-18	161-168	Courier	*[2]	PERmentioned[2]
+2-19	169-173	eine	_	_
+2-20	174-180	solche	_	_
+2-21	181-188	Sendung	_	_
+2-22	189-200	vorbereitet	_	_
+2-23	201-202	.	_	_
+
+#Text=Dr , Lanza in Spoleto ist gestorben , wie Sie aus dem Bull .
+3-1	203-205	Dr	_	_
+3-2	206-207	,	_	_
+3-3	208-213	Lanza	*	PERmentioned
+3-4	214-216	in	_	_
+3-5	217-224	Spoleto	*	PLACEmentioned
+3-6	225-228	ist	_	_
+3-7	229-238	gestorben	_	_
+3-8	239-240	,	_	_
+3-9	241-244	wie	_	_
+3-10	245-248	Sie	_	_
+3-11	249-252	aus	_	_
+3-12	253-256	dem	_	_
+3-13	257-261	Bull	*[3]	LIT[3]
+3-14	262-263	.	*[3]	LIT[3]
+
+#Text=ersehen werden der Wohn will des Vaters Memoiren ordnen und herausgeben , auch Artikel liefern über die RER Ausgrabungen in Spoleto , unter dem Beisatz : se pero di tanto sarö io fortunato , che la mia correspondenza possa venir riputata sufficiente e degna di un qualche gradimento .
+4-1	264-271	ersehen	_	_
+4-2	272-278	werden	_	_
+4-3	279-282	der	_	_
+4-4	283-287	Wohn	_	_
+4-5	288-292	will	_	_
+4-6	293-296	des	_	_
+4-7	297-303	Vaters	_	_
+4-8	304-312	Memoiren	_	_
+4-9	313-319	ordnen	_	_
+4-10	320-323	und	_	_
+4-11	324-335	herausgeben	_	_
+4-12	336-337	,	_	_
+4-13	338-342	auch	_	_
+4-14	343-350	Artikel	_	_
+4-15	351-358	liefern	_	_
+4-16	359-363	über	_	_
+4-17	364-367	die	_	_
+4-18	368-371	RER	_	_
+4-19	372-384	Ausgrabungen	_	_
+4-20	385-387	in	_	_
+4-21	388-395	Spoleto	*	PLACEmentioned
+4-22	396-397	,	_	_
+4-23	398-403	unter	_	_
+4-24	404-407	dem	_	_
+4-25	408-415	Beisatz	_	_
+4-26	416-417	:	_	_
+4-27	418-420	se	_	_
+4-28	421-425	pero	_	_
+4-29	426-428	di	_	_
+4-30	429-434	tanto	_	_
+4-31	435-439	sarö	_	_
+4-32	440-442	io	_	_
+4-33	443-452	fortunato	_	_
+4-34	453-454	,	_	_
+4-35	455-458	che	_	_
+4-36	459-461	la	_	_
+4-37	462-465	mia	_	_
+4-38	466-480	correspondenza	_	_
+4-39	481-486	possa	_	_
+4-40	487-492	venir	_	_
+4-41	493-501	riputata	_	_
+4-42	502-513	sufficiente	_	_
+4-43	514-515	e	_	_
+4-44	516-521	degna	_	_
+4-45	522-524	di	_	_
+4-46	525-527	un	_	_
+4-47	528-535	qualche	_	_
+4-48	536-546	gradimento	_	_
+4-49	547-548	.	_	_
+
+#Text=Gervasio bittet um den Pausanias ed .
+5-1	549-557	Gervasio	*	PERmentioned
+5-2	558-564	bittet	_	_
+5-3	565-567	um	_	_
+5-4	568-571	den	_	_
+5-5	572-581	Pausanias	*	LIT
+5-6	582-584	ed	_	_
+5-7	585-586	.	_	_
+
+#Text=Siebdis und Lepsius Tab . Engabin .
+6-1	587-594	Siebdis	*	PERmentioned
+6-2	595-598	und	_	_
+6-3	599-606	Lepsius	*	PERmentioned
+6-4	607-610	Tab	_	_
+6-5	611-612	.	_	_
+6-6	613-620	Engabin	_	_
+6-7	621-622	.	_	_
+
+#Text=Russo hat an Bellotti Zeichnungen überbracht und andere angekündigt , deren Betrag den guten Don Pietro Schrecken eingeflößt , so daß er bei mir angefragt hat , wie hoch er steigen dürfe .
+7-1	623-628	Russo	*	PERmentioned
+7-2	629-632	hat	_	_
+7-3	633-635	an	_	_
+7-4	636-644	Bellotti	*	PERmentioned
+7-5	645-656	Zeichnungen	_	_
+7-6	657-667	überbracht	_	_
+7-7	668-671	und	_	_
+7-8	672-678	andere	_	_
+7-9	679-690	angekündigt	_	_
+7-10	691-692	,	_	_
+7-11	693-698	deren	_	_
+7-12	699-705	Betrag	_	_
+7-13	706-709	den	_	_
+7-14	710-715	guten	_	_
+7-15	716-719	Don	*[4]	PERmentioned[4]
+7-16	720-726	Pietro	*[4]	PERmentioned[4]
+7-17	727-736	Schrecken	_	_
+7-18	737-747	eingeflößt	_	_
+7-19	748-749	,	_	_
+7-20	750-752	so	_	_
+7-21	753-756	daß	_	_
+7-22	757-759	er	_	_
+7-23	760-763	bei	_	_
+7-24	764-767	mir	_	_
+7-25	768-777	angefragt	_	_
+7-26	778-781	hat	_	_
+7-27	782-783	,	_	_
+7-28	784-787	wie	_	_
+7-29	788-792	hoch	_	_
+7-30	793-795	er	_	_
+7-31	796-803	steigen	_	_
+7-32	804-809	dürfe	_	_
+7-33	810-811	.	_	_
+
+#Text=Lamberti schreibt , daß die Zeichnungen aller der von ihm besessenen Vasen durch Russo beendigt seien .
+8-1	812-820	Lamberti	*	PERmentioned
+8-2	821-829	schreibt	_	_
+8-3	830-831	,	_	_
+8-4	832-835	daß	_	_
+8-5	836-839	die	_	_
+8-6	840-851	Zeichnungen	_	_
+8-7	852-857	aller	_	_
+8-8	858-861	der	_	_
+8-9	862-865	von	_	_
+8-10	866-869	ihm	_	_
+8-11	870-880	besessenen	_	_
+8-12	881-886	Vasen	_	_
+8-13	887-892	durch	_	_
+8-14	893-898	Russo	*	PERmentioned
+8-15	899-907	beendigt	_	_
+8-16	908-913	seien	_	_
+8-17	914-915	.	_	_
+
+#Text=Campanari verspricht sicher die Zeichnung der Kassandravase , aber verlangt Geduld , da der Firniß Behutsankeit fordere .
+9-1	916-925	Campanari	*	PERmentioned
+9-2	926-936	verspricht	_	_
+9-3	937-943	sicher	_	_
+9-4	944-947	die	_	_
+9-5	948-957	Zeichnung	_	_
+9-6	958-961	der	_	_
+9-7	962-975	Kassandravase	*	OBJ
+9-8	976-977	,	_	_
+9-9	978-982	aber	_	_
+9-10	983-991	verlangt	_	_
+9-11	992-998	Geduld	_	_
+9-12	999-1000	,	_	_
+9-13	1001-1003	da	_	_
+9-14	1004-1007	der	_	_
+9-15	1008-1014	Firniß	_	_
+9-16	1015-1027	Behutsankeit	_	_
+9-17	1028-1035	fordere	_	_
+9-18	1036-1037	.	_	_
+
+#Text=Rhein .
+10-1	1038-1043	Rhein	*[5]	LIT[5]
+10-2	1044-1045	.	*[5]	LIT[5]
+
+#Text=Museum befindet sich unter den von Weber eingesandten Büchern \; dasselbe sendet Welcker für Sie ein und für das Institut , so daß das Institut es nun in Dupplette besitzt \; doch fehlt dem Institutsexemplar des zien Jahrgsanss „ tes Heft .
+11-1	1046-1052	Museum	*[5]	LIT[5]
+11-2	1053-1061	befindet	_	_
+11-3	1062-1066	sich	_	_
+11-4	1067-1072	unter	_	_
+11-5	1073-1076	den	_	_
+11-6	1077-1080	von	_	_
+11-7	1081-1086	Weber	*	PERmentioned
+11-8	1087-1099	eingesandten	_	_
+11-9	1100-1107	Büchern	_	_
+11-10	1108-1109	\;	_	_
+11-11	1110-1118	dasselbe	_	_
+11-12	1119-1125	sendet	_	_
+11-13	1126-1133	Welcker	*	PERmentioned
+11-14	1134-1137	für	_	_
+11-15	1138-1141	Sie	_	_
+11-16	1142-1145	ein	_	_
+11-17	1146-1149	und	_	_
+11-18	1150-1153	für	_	_
+11-19	1154-1157	das	_	_
+11-20	1158-1166	Institut	*	ORGmentioned
+11-21	1167-1168	,	_	_
+11-22	1169-1171	so	_	_
+11-23	1172-1175	daß	_	_
+11-24	1176-1179	das	_	_
+11-25	1180-1188	Institut	*	ORGmentioned
+11-26	1189-1191	es	_	_
+11-27	1192-1195	nun	_	_
+11-28	1196-1198	in	_	_
+11-29	1199-1208	Dupplette	_	_
+11-30	1209-1216	besitzt	_	_
+11-31	1217-1218	\;	_	_
+11-32	1219-1223	doch	_	_
+11-33	1224-1229	fehlt	_	_
+11-34	1230-1233	dem	_	_
+11-35	1234-1251	Institutsexemplar	_	_
+11-36	1252-1255	des	_	_
+11-37	1256-1260	zien	_	_
+11-38	1261-1271	Jahrgsanss	_	_
+11-39	1272-1273	„	_	_
+11-40	1274-1277	tes	_	_
+11-41	1278-1282	Heft	_	_
+11-42	1283-1284	.	_	_
+
+#Text=Andere kleinere Welckersche Schriften
+12-1	1285-1291	Andere	_	_
+12-2	1292-1300	kleinere	*[6]	LIT[6]
+12-3	1301-1312	Welckersche	*[6]|*[7]	LIT[6]|PERmentioned[7]
+12-4	1313-1322	Schriften	*[6]	LIT[6]

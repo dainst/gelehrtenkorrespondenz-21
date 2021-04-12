@@ -1,0 +1,80 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=17107 Gerhard an Braun Berlin , 2. November 1835 edizione Roma 1827 .
+1-1	0-5	17107	_	_
+1-2	6-13	Gerhard	*	PERauthor
+1-3	14-16	an	_	_
+1-4	17-22	Braun	*	PERaddressee
+1-5	23-29	Berlin	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-34	2.	*[4]	DATEletter[4]
+1-8	35-43	November	*[4]	DATEletter[4]
+1-9	44-48	1835	*[4]	DATEletter[4]
+1-10	49-57	edizione	_	_
+1-11	58-62	Roma	*	PLACEmentioned
+1-12	63-67	1827	*	DATEmentioned
+1-13	68-69	.	_	_
+
+#Text=An Rande von Gerhard bemerkt , na , 9/4 26 Hätte ich bereits eine Antwort von Ihnen , so würde ich Ihnen sogleich einen Wechsel auf Augsburg über den Betrag meiner Bedürfnisse mitgesandt haben , so aber muß ich einstweilen Ihre gütige Nachricht in Anspruch nehmen .
+2-1	70-72	An	_	_
+2-2	73-78	Rande	_	_
+2-3	79-82	von	_	_
+2-4	83-90	Gerhard	_	_
+2-5	91-98	bemerkt	_	_
+2-6	99-100	,	_	_
+2-7	101-103	na	_	_
+2-8	104-105	,	_	_
+2-9	106-109	9/4	_	_
+2-10	110-112	26	_	_
+2-11	113-118	Hätte	_	_
+2-12	119-122	ich	_	_
+2-13	123-130	bereits	_	_
+2-14	131-135	eine	_	_
+2-15	136-143	Antwort	_	_
+2-16	144-147	von	_	_
+2-17	148-153	Ihnen	_	_
+2-18	154-155	,	_	_
+2-19	156-158	so	_	_
+2-20	159-164	würde	_	_
+2-21	165-168	ich	_	_
+2-22	169-174	Ihnen	_	_
+2-23	175-183	sogleich	_	_
+2-24	184-189	einen	_	_
+2-25	190-197	Wechsel	_	_
+2-26	198-201	auf	_	_
+2-27	202-210	Augsburg	*	PLACEmentioned
+2-28	211-215	über	_	_
+2-29	216-219	den	_	_
+2-30	220-226	Betrag	_	_
+2-31	227-233	meiner	_	_
+2-32	234-245	Bedürfnisse	_	_
+2-33	246-256	mitgesandt	_	_
+2-34	257-262	haben	_	_
+2-35	263-264	,	_	_
+2-36	265-267	so	_	_
+2-37	268-272	aber	_	_
+2-38	273-276	muß	_	_
+2-39	277-280	ich	_	_
+2-40	281-292	einstweilen	_	_
+2-41	293-297	Ihre	_	_
+2-42	298-304	gütige	_	_
+2-43	305-314	Nachricht	_	_
+2-44	315-317	in	_	_
+2-45	318-326	Anspruch	_	_
+2-46	327-333	nehmen	_	_
+2-47	334-335	.	_	_
+
+#Text=Mit den besten Wünschen für Ihr Wohlergehen freundschaftlichst der Ihrige Gerstaecker
+3-1	336-339	Mit	_	_
+3-2	340-343	den	_	_
+3-3	344-350	besten	_	_
+3-4	351-359	Wünschen	_	_
+3-5	360-363	für	_	_
+3-6	364-367	Ihr	_	_
+3-7	368-379	Wohlergehen	_	_
+3-8	380-398	freundschaftlichst	_	_
+3-9	399-402	der	_	_
+3-10	403-409	Ihrige	_	_
+3-11	410-421	Gerstaecker	*	PERmentioned

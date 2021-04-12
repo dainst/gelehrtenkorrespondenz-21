@@ -1,0 +1,127 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , 18. Juli 1865 Lieber Freund , Am 12. d. ist meine Frau von einem Knaben amtbunden und es geht ihr gut .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	18.	*[3]	DATEletter[3]
+1-7	30-34	Juli	*[3]	DATEletter[3]
+1-8	35-39	1865	*[3]	DATEletter[3]
+1-9	40-46	Lieber	_	_
+1-10	47-53	Freund	_	_
+1-11	54-55	,	_	_
+1-12	56-58	Am	_	_
+1-13	59-62	12.	*[4]	DATEmentioned[4]
+1-14	63-65	d.	*[4]	DATEmentioned[4]
+1-15	66-69	ist	_	_
+1-16	70-75	meine	_	_
+1-17	76-80	Frau	_	_
+1-18	81-84	von	_	_
+1-19	85-90	einem	_	_
+1-20	91-97	Knaben	_	_
+1-21	98-107	amtbunden	_	_
+1-22	108-111	und	_	_
+1-23	112-114	es	_	_
+1-24	115-119	geht	_	_
+1-25	120-123	ihr	_	_
+1-26	124-127	gut	_	_
+1-27	128-129	.	_	_
+
+#Text=Möchte aus all den Lieben nur etwas Gescheites werden , trotzdem sie Berliner sind und Professorenbengel dazu .
+2-1	130-136	Möchte	_	_
+2-2	137-140	aus	_	_
+2-3	141-144	all	_	_
+2-4	145-148	den	_	_
+2-5	149-155	Lieben	_	_
+2-6	156-159	nur	_	_
+2-7	160-165	etwas	_	_
+2-8	166-176	Gescheites	_	_
+2-9	177-183	werden	_	_
+2-10	184-185	,	_	_
+2-11	186-194	trotzdem	_	_
+2-12	195-198	sie	_	_
+2-13	199-207	Berliner	_	_
+2-14	208-212	sind	_	_
+2-15	213-216	und	_	_
+2-16	217-234	Professorenbengel	_	_
+2-17	235-239	dazu	_	_
+2-18	240-241	.	_	_
+
+#Text=wir erwarten Dich also zum August - was hier bleibt - viel wird es nicht sein .
+3-1	242-245	wir	_	_
+3-2	246-254	erwarten	_	_
+3-3	255-259	Dich	_	_
+3-4	260-264	also	_	_
+3-5	265-268	zum	_	_
+3-6	269-275	August	*	DATEmentioned
+3-7	276-277	-	_	_
+3-8	278-281	was	_	_
+3-9	282-286	hier	_	_
+3-10	287-293	bleibt	_	_
+3-11	294-295	-	_	_
+3-12	296-300	viel	_	_
+3-13	301-305	wird	_	_
+3-14	306-308	es	_	_
+3-15	309-314	nicht	_	_
+3-16	315-319	sein	_	_
+3-17	320-321	.	_	_
+
+#Text=Wie Du Dir denken kannst und Du wirst vorlieb nehmen müssen .
+4-1	322-325	Wie	_	_
+4-2	326-328	Du	_	_
+4-3	329-332	Dir	_	_
+4-4	333-339	denken	_	_
+4-5	340-346	kannst	_	_
+4-6	347-350	und	_	_
+4-7	351-353	Du	_	_
+4-8	354-359	wirst	_	_
+4-9	360-367	vorlieb	_	_
+4-10	368-374	nehmen	_	_
+4-11	375-381	müssen	_	_
+4-12	382-383	.	_	_
+
+#Text=Grüße Helm und empfiehl mich Giesebrecht , ich hoffe immer noch , daß dieser sich der Urnen annimmt , wenn Du es ihm nahe legst .
+5-1	384-389	Grüße	_	_
+5-2	390-394	Helm	*	PERmentioned
+5-3	395-398	und	_	_
+5-4	399-407	empfiehl	_	_
+5-5	408-412	mich	_	_
+5-6	413-424	Giesebrecht	*	PERmentioned
+5-7	425-426	,	_	_
+5-8	427-430	ich	_	_
+5-9	431-436	hoffe	_	_
+5-10	437-442	immer	_	_
+5-11	443-447	noch	_	_
+5-12	448-449	,	_	_
+5-13	450-453	daß	_	_
+5-14	454-460	dieser	_	_
+5-15	461-465	sich	_	_
+5-16	466-469	der	_	_
+5-17	470-475	Urnen	*	OBJ
+5-18	476-483	annimmt	_	_
+5-19	484-485	,	_	_
+5-20	486-490	wenn	_	_
+5-21	491-493	Du	_	_
+5-22	494-496	es	_	_
+5-23	497-500	ihm	_	_
+5-24	501-505	nahe	_	_
+5-25	506-511	legst	_	_
+5-26	512-513	.	_	_
+
+#Text=Lebe wohl .
+6-1	514-518	Lebe	_	_
+6-2	519-523	wohl	_	_
+6-3	524-525	.	_	_
+
+#Text=Dein M. B . 18/7 65 .
+7-1	526-530	Dein	_	_
+7-2	531-533	M.	*	PERauthor
+7-3	534-535	B	*[6]	PLACEfrom[6]
+7-4	536-537	.	*[6]	PLACEfrom[6]
+7-5	538-542	18/7	*[5]	DATEletter[5]
+7-6	543-545	65	*[5]	DATEletter[5]
+7-7	546-547	.	_	_

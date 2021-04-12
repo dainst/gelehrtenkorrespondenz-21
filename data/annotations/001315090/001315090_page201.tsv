@@ -1,0 +1,222 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=38 Lepsius an Henzen Berlin , 16 .
+1-1	0-2	38	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	16	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=Januar 1875 g . 20/I 75 r . 23/75 Berlin , den 16 .
+2-1	35-41	Januar	*[1]	DATEletter[1]
+2-2	42-46	1875	*[1]	DATEletter[1]
+2-3	47-48	g	_	_
+2-4	49-50	.	_	_
+2-5	51-55	20/I	*[2]	DATErecieved[2]
+2-6	56-58	75	*[2]	DATErecieved[2]
+2-7	59-60	r	_	_
+2-8	61-62	.	_	_
+2-9	63-68	23/75	*	DATEanswered
+2-10	69-75	Berlin	*	PLACEfrom
+2-11	76-77	,	_	_
+2-12	78-81	den	_	_
+2-13	82-84	16	_	_
+2-14	85-86	.	*[3]	DATEletter[3]
+
+#Text=Jan .
+3-1	87-90	Jan	*[3]	DATEletter[3]
+3-2	91-92	.	*[3]	DATEletter[3]
+
+#Text=1875 Verehrter Freund Gestern ist der neue Etat bei uns eingegangen und ich sende Ihnen sogleich eine Abschrift davon .
+4-1	93-97	1875	*[3]	DATEletter[3]
+4-2	98-107	Verehrter	_	_
+4-3	108-114	Freund	_	_
+4-4	115-122	Gestern	_	_
+4-5	123-126	ist	_	_
+4-6	127-130	der	_	_
+4-7	131-135	neue	_	_
+4-8	136-140	Etat	_	_
+4-9	141-144	bei	_	_
+4-10	145-148	uns	_	_
+4-11	149-160	eingegangen	_	_
+4-12	161-164	und	_	_
+4-13	165-168	ich	_	_
+4-14	169-174	sende	_	_
+4-15	175-180	Ihnen	_	_
+4-16	181-189	sogleich	_	_
+4-17	190-194	eine	_	_
+4-18	195-204	Abschrift	_	_
+4-19	205-210	davon	_	_
+4-20	211-212	.	_	_
+
+#Text=In dem Begleitschreiben wird gesagt , daß er der Rechnungslegung zu Grunde gelegt werden soll ( für 1874 bleibt es bei Einsendung der Quittungen ) .
+5-1	213-215	In	_	_
+5-2	216-219	dem	_	_
+5-3	220-236	Begleitschreiben	_	_
+5-4	237-241	wird	_	_
+5-5	242-248	gesagt	_	_
+5-6	249-250	,	_	_
+5-7	251-254	daß	_	_
+5-8	255-257	er	_	_
+5-9	258-261	der	_	_
+5-10	262-277	Rechnungslegung	_	_
+5-11	278-280	zu	_	_
+5-12	281-287	Grunde	_	_
+5-13	288-294	gelegt	_	_
+5-14	295-301	werden	_	_
+5-15	302-306	soll	_	_
+5-16	307-308	(	_	_
+5-17	309-312	für	_	_
+5-18	313-317	1874	*	DATEmentioned
+5-19	318-324	bleibt	_	_
+5-20	325-327	es	_	_
+5-21	328-331	bei	_	_
+5-22	332-342	Einsendung	_	_
+5-23	343-346	der	_	_
+5-24	347-357	Quittungen	_	_
+5-25	358-359	)	_	_
+5-26	360-361	.	_	_
+
+#Text=Die Legationskasse ist angewiesen worden Ihnen in Quartalraten praenumerando die Summe von 4 mal 7 762.50 M. zu zahsdlen = 321 050 M jährlich .
+6-1	362-365	Die	_	_
+6-2	366-380	Legationskasse	_	_
+6-3	381-384	ist	_	_
+6-4	385-395	angewiesen	_	_
+6-5	396-402	worden	_	_
+6-6	403-408	Ihnen	_	_
+6-7	409-411	in	_	_
+6-8	412-424	Quartalraten	_	_
+6-9	425-438	praenumerando	_	_
+6-10	439-442	die	_	_
+6-11	443-448	Summe	_	_
+6-12	449-452	von	_	_
+6-13	453-454	4	_	_
+6-14	455-458	mal	_	_
+6-15	459-460	7	_	_
+6-16	461-467	762.50	_	_
+6-17	468-470	M.	_	_
+6-18	471-473	zu	_	_
+6-19	474-482	zahsdlen	_	_
+6-20	483-484	=	_	_
+6-21	485-488	321	_	_
+6-22	489-492	050	_	_
+6-23	493-494	M	_	_
+6-24	495-503	jährlich	_	_
+6-25	504-505	.	_	_
+
+#Text=Ich werde Ihnen nach unsrer bevorstehenden Sitzung mehr schreiben , namentlich ob es zweckmäßiger scheinen sollte , Ihnen einen Theil des Reservefüönds in Rom zu lassen , wie Sie es wünschten .
+7-1	506-509	Ich	_	_
+7-2	510-515	werde	_	_
+7-3	516-521	Ihnen	_	_
+7-4	522-526	nach	_	_
+7-5	527-533	unsrer	_	_
+7-6	534-548	bevorstehenden	_	_
+7-7	549-556	Sitzung	_	_
+7-8	557-561	mehr	_	_
+7-9	562-571	schreiben	_	_
+7-10	572-573	,	_	_
+7-11	574-584	namentlich	_	_
+7-12	585-587	ob	_	_
+7-13	588-590	es	_	_
+7-14	591-603	zweckmäßiger	_	_
+7-15	604-612	scheinen	_	_
+7-16	613-619	sollte	_	_
+7-17	620-621	,	_	_
+7-18	622-627	Ihnen	_	_
+7-19	628-633	einen	_	_
+7-20	634-639	Theil	_	_
+7-21	640-643	des	_	_
+7-22	644-657	Reservefüönds	_	_
+7-23	658-660	in	_	_
+7-24	661-664	Rom	*	PLACEmentioned
+7-25	665-667	zu	_	_
+7-26	668-674	lassen	_	_
+7-27	675-676	,	_	_
+7-28	677-680	wie	_	_
+7-29	681-684	Sie	_	_
+7-30	685-687	es	_	_
+7-31	688-697	wünschten	_	_
+7-32	698-699	.	_	_
+
+#Text=- Das Siegel will ich also auf meine hiesige Rechnung nehmen .
+8-1	700-701	-	_	_
+8-2	702-705	Das	_	_
+8-3	706-712	Siegel	_	_
+8-4	713-717	will	_	_
+8-5	718-721	ich	_	_
+8-6	722-726	also	_	_
+8-7	727-730	auf	_	_
+8-8	731-736	meine	_	_
+8-9	737-744	hiesige	_	_
+8-10	745-753	Rechnung	_	_
+8-11	754-760	nehmen	_	_
+8-12	761-762	.	_	_
+
+#Text=Den Termin für die Zusammenkuft der General Versammlung schreibe ich Ihnen sobald er feststeht .
+9-1	763-766	Den	_	_
+9-2	767-773	Termin	_	_
+9-3	774-777	für	_	_
+9-4	778-781	die	_	_
+9-5	782-794	Zusammenkuft	_	_
+9-6	795-798	der	_	_
+9-7	799-806	General	_	_
+9-8	807-818	Versammlung	_	_
+9-9	819-827	schreibe	_	_
+9-10	828-831	ich	_	_
+9-11	832-837	Ihnen	_	_
+9-12	838-844	sobald	_	_
+9-13	845-847	er	_	_
+9-14	848-857	feststeht	_	_
+9-15	858-859	.	_	_
+
+#Text=Senden Sie doch umgehend eine Anzahl 5 - 6 Exemplare des Elenco .
+10-1	860-866	Senden	_	_
+10-2	867-870	Sie	_	_
+10-3	871-875	doch	_	_
+10-4	876-884	umgehend	_	_
+10-5	885-889	eine	_	_
+10-6	890-896	Anzahl	_	_
+10-7	897-898	5	_	_
+10-8	899-900	-	_	_
+10-9	901-902	6	_	_
+10-10	903-912	Exemplare	_	_
+10-11	913-916	des	_	_
+10-12	917-923	Elenco	_	_
+10-13	924-925	.	_	_
+
+#Text=Ich habe 71 erhalten .
+11-1	926-929	Ich	_	_
+11-2	930-934	habe	_	_
+11-3	935-937	71	_	_
+11-4	938-946	erhalten	_	_
+11-5	947-948	.	_	_
+
+#Text=Endlich gehen die Exemplare der Photographien Laspeyres ein \; doch fehlen noch die Exemplare der Originale , die ich noch reklamiren muß .
+12-1	949-956	Endlich	_	_
+12-2	957-962	gehen	_	_
+12-3	963-966	die	_	_
+12-4	967-976	Exemplare	_	_
+12-5	977-980	der	_	_
+12-6	981-994	Photographien	_	_
+12-7	995-1004	Laspeyres	*	PERmentioned
+12-8	1005-1008	ein	_	_
+12-9	1009-1010	\;	_	_
+12-10	1011-1015	doch	_	_
+12-11	1016-1022	fehlen	_	_
+12-12	1023-1027	noch	_	_
+12-13	1028-1031	die	_	_
+12-14	1032-1041	Exemplare	_	_
+12-15	1042-1045	der	_	_
+12-16	1046-1055	Originale	_	_
+12-17	1056-1057	,	_	_
+12-18	1058-1061	die	_	_
+12-19	1062-1065	ich	_	_
+12-20	1066-1070	noch	_	_
+12-21	1071-1081	reklamiren	_	_
+12-22	1082-1085	muß	_	_
+12-23	1086-1087	.	_	_

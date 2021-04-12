@@ -1,0 +1,240 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=329 Brunn an Henzen Ariccia , 9 .
+1-1	0-3	329	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Ariccia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	9	*[7]	DATEletter[7]
+1-8	32-33	.	*[7]	DATEletter[7]
+
+#Text=August 1860 8 . 10 .
+2-1	34-40	August	*[7]	DATEletter[7]
+2-2	41-45	1860	*[7]	DATEletter[7]
+2-3	46-47	8	_	_
+2-4	48-49	.	_	_
+2-5	50-52	10	*[8]	DATErecieved[8]
+2-6	53-54	.	*[8]	DATErecieved[8]
+
+#Text=August 1860 Tr .
+3-1	55-61	August	*[8]	DATErecieved[8]
+3-2	62-66	1860	*[8]	DATErecieved[8]
+3-3	67-69	Tr	_	_
+3-4	70-71	.	_	_
+
+#Text=Lieber Henzen Heute schreibe ich Ihnen eigentlich nur , damit Sie nicht slauben , es sei ein Brief von mir verloren gegangen .
+4-1	72-78	Lieber	_	_
+4-2	79-85	Henzen	*	PERaddressee
+4-3	86-91	Heute	_	_
+4-4	92-100	schreibe	_	_
+4-5	101-104	ich	_	_
+4-6	105-110	Ihnen	_	_
+4-7	111-121	eigentlich	_	_
+4-8	122-125	nur	_	_
+4-9	126-127	,	_	_
+4-10	128-133	damit	_	_
+4-11	134-137	Sie	_	_
+4-12	138-143	nicht	_	_
+4-13	144-151	slauben	_	_
+4-14	152-153	,	_	_
+4-15	154-156	es	_	_
+4-16	157-160	sei	_	_
+4-17	161-164	ein	_	_
+4-18	165-170	Brief	_	_
+4-19	171-174	von	_	_
+4-20	175-178	mir	_	_
+4-21	179-187	verloren	_	_
+4-22	188-196	gegangen	_	_
+4-23	197-198	.	_	_
+
+#Text=Ich bin die ganze Woche ohne Briefe , auch von Hause , woraus ich indessen weder gute noch schlimme Bolgerungen ziehen kann .
+5-1	199-202	Ich	_	_
+5-2	203-206	bin	_	_
+5-3	207-210	die	_	_
+5-4	211-216	ganze	_	_
+5-5	217-222	Woche	_	_
+5-6	223-227	ohne	_	_
+5-7	228-234	Briefe	_	_
+5-8	235-236	,	_	_
+5-9	237-241	auch	_	_
+5-10	242-245	von	_	_
+5-11	246-251	Hause	_	_
+5-12	252-253	,	_	_
+5-13	254-260	woraus	_	_
+5-14	261-264	ich	_	_
+5-15	265-273	indessen	_	_
+5-16	274-279	weder	_	_
+5-17	280-284	gute	_	_
+5-18	285-289	noch	_	_
+5-19	290-298	schlimme	_	_
+5-20	299-310	Bolgerungen	_	_
+5-21	311-317	ziehen	_	_
+5-22	318-322	kann	_	_
+5-23	323-324	.	_	_
+
+#Text=Hier geht es noch immer nicht ganz nach Wunsch , obwohl Erhardt bei dem Jungen schon Sonnabend durch einen halben Theelöffel Medicin eine in die Augen springende Besserung herbeiführte , die auch bis gestern verhielt .
+6-1	325-329	Hier	_	_
+6-2	330-334	geht	_	_
+6-3	335-337	es	_	_
+6-4	338-342	noch	_	_
+6-5	343-348	immer	_	_
+6-6	349-354	nicht	_	_
+6-7	355-359	ganz	_	_
+6-8	360-364	nach	_	_
+6-9	365-371	Wunsch	_	_
+6-10	372-373	,	_	_
+6-11	374-380	obwohl	_	_
+6-12	381-388	Erhardt	*	PERmentioned
+6-13	389-392	bei	_	_
+6-14	393-396	dem	_	_
+6-15	397-403	Jungen	_	_
+6-16	404-409	schon	_	_
+6-17	410-419	Sonnabend	_	_
+6-18	420-425	durch	_	_
+6-19	426-431	einen	_	_
+6-20	432-438	halben	_	_
+6-21	439-449	Theelöffel	_	_
+6-22	450-457	Medicin	_	_
+6-23	458-462	eine	_	_
+6-24	463-465	in	_	_
+6-25	466-469	die	_	_
+6-26	470-475	Augen	_	_
+6-27	476-486	springende	_	_
+6-28	487-496	Besserung	_	_
+6-29	497-509	herbeiführte	_	_
+6-30	510-511	,	_	_
+6-31	512-515	die	_	_
+6-32	516-520	auch	_	_
+6-33	521-524	bis	_	_
+6-34	525-532	gestern	_	_
+6-35	533-541	verhielt	_	_
+6-36	542-543	.	_	_
+
+#Text=Gestern schien der alte Zustand wiederzukehren \; doch bessert er sich heute im Laufe des Tages so zusehends , daß wir die bereits wieder herbageschaffte Medicin vorläufig noch unbenutzt lassen .
+7-1	544-551	Gestern	_	_
+7-2	552-558	schien	_	_
+7-3	559-562	der	_	_
+7-4	563-567	alte	_	_
+7-5	568-575	Zustand	_	_
+7-6	576-590	wiederzukehren	_	_
+7-7	591-592	\;	_	_
+7-8	593-597	doch	_	_
+7-9	598-605	bessert	_	_
+7-10	606-608	er	_	_
+7-11	609-613	sich	_	_
+7-12	614-619	heute	_	_
+7-13	620-622	im	_	_
+7-14	623-628	Laufe	_	_
+7-15	629-632	des	_	_
+7-16	633-638	Tages	_	_
+7-17	639-641	so	_	_
+7-18	642-651	zusehends	_	_
+7-19	652-653	,	_	_
+7-20	654-657	daß	_	_
+7-21	658-661	wir	_	_
+7-22	662-665	die	_	_
+7-23	666-673	bereits	_	_
+7-24	674-680	wieder	_	_
+7-25	681-696	herbageschaffte	_	_
+7-26	697-704	Medicin	_	_
+7-27	705-714	vorläufig	_	_
+7-28	715-719	noch	_	_
+7-29	720-729	unbenutzt	_	_
+7-30	730-736	lassen	_	_
+7-31	737-738	.	_	_
+
+#Text=Meine Frau hatte einige Tage noch ıziemlich starke Beschwerden , die indessen jetzt auch gehoben scheinen .
+8-1	739-744	Meine	*[9]	PERmentioned[9]
+8-2	745-749	Frau	*[9]	PERmentioned[9]
+8-3	750-755	hatte	_	_
+8-4	756-762	einige	_	_
+8-5	763-767	Tage	_	_
+8-6	768-772	noch	_	_
+8-7	773-782	ıziemlich	_	_
+8-8	783-789	starke	_	_
+8-9	790-801	Beschwerden	_	_
+8-10	802-803	,	_	_
+8-11	804-807	die	_	_
+8-12	808-816	indessen	_	_
+8-13	817-822	jetzt	_	_
+8-14	823-827	auch	_	_
+8-15	828-835	gehoben	_	_
+8-16	836-844	scheinen	_	_
+8-17	845-846	.	_	_
+
+#Text=Ich habe natürlich in dieser Zeit ganz still gesessen - an Friederichs \; dessen Buch so sründlich wie wohl selten eins , ruinirt wird , daß es selbst Gerhard wird zugeben müssen .
+9-1	847-850	Ich	_	_
+9-2	851-855	habe	_	_
+9-3	856-865	natürlich	_	_
+9-4	866-868	in	_	_
+9-5	869-875	dieser	_	_
+9-6	876-880	Zeit	_	_
+9-7	881-885	ganz	_	_
+9-8	886-891	still	_	_
+9-9	892-900	gesessen	_	_
+9-10	901-902	-	_	_
+9-11	903-905	an	_	_
+9-12	906-917	Friederichs	*	PERmentioned
+9-13	918-919	\;	_	_
+9-14	920-926	dessen	_	_
+9-15	927-931	Buch	_	_
+9-16	932-934	so	_	_
+9-17	935-944	sründlich	_	_
+9-18	945-948	wie	_	_
+9-19	949-953	wohl	_	_
+9-20	954-960	selten	_	_
+9-21	961-965	eins	_	_
+9-22	966-967	,	_	_
+9-23	968-975	ruinirt	_	_
+9-24	976-980	wird	_	_
+9-25	981-982	,	_	_
+9-26	983-986	daß	_	_
+9-27	987-989	es	_	_
+9-28	990-996	selbst	_	_
+9-29	997-1004	Gerhard	*	PERmentioned
+9-30	1005-1009	wird	_	_
+9-31	1010-1017	zugeben	_	_
+9-32	1018-1024	müssen	_	_
+9-33	1025-1026	.	_	_
+
+#Text=An G . habe ich geschrieben , Fragen Sie Domenico , ob er Mittwoch früh durch die Vetturine von Argentina einen Brief von mir erhalten und die Einlage richtig an Wittig abgegeben hat \; und be-
+10-1	1027-1029	An	_	_
+10-2	1030-1031	G	*[10]	PERmentioned[10]
+10-3	1032-1033	.	*[10]	PERmentioned[10]
+10-4	1034-1038	habe	_	_
+10-5	1039-1042	ich	_	_
+10-6	1043-1054	geschrieben	_	_
+10-7	1055-1056	,	_	_
+10-8	1057-1063	Fragen	_	_
+10-9	1064-1067	Sie	_	_
+10-10	1068-1076	Domenico	*	PERmentioned
+10-11	1077-1078	,	_	_
+10-12	1079-1081	ob	_	_
+10-13	1082-1084	er	_	_
+10-14	1085-1093	Mittwoch	_	_
+10-15	1094-1098	früh	_	_
+10-16	1099-1104	durch	_	_
+10-17	1105-1108	die	_	_
+10-18	1109-1118	Vetturine	_	_
+10-19	1119-1122	von	_	_
+10-20	1123-1132	Argentina	*	PLACEmentioned
+10-21	1133-1138	einen	_	_
+10-22	1139-1144	Brief	_	_
+10-23	1145-1148	von	_	_
+10-24	1149-1152	mir	_	_
+10-25	1153-1161	erhalten	_	_
+10-26	1162-1165	und	_	_
+10-27	1166-1169	die	_	_
+10-28	1170-1177	Einlage	_	_
+10-29	1178-1185	richtig	_	_
+10-30	1186-1188	an	_	_
+10-31	1189-1195	Wittig	*	PERmentioned
+10-32	1196-1205	abgegeben	_	_
+10-33	1206-1209	hat	_	_
+10-34	1210-1211	\;	_	_
+10-35	1212-1215	und	_	_
+10-36	1216-1219	be-	_	_

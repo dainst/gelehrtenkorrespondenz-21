@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=195 Gerhard an Braun Berlin , 15 .
+1-1	0-3	195	_	_	
+1-2	4-11	Gerhard	*	PERauthor	
+1-3	12-14	an	_	_	
+1-4	15-20	Braun	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-32	15	*[1]	DATEletter[1]	
+1-8	33-34	.	*[1]	DATEletter[1]	
+
+#Text=Oktober 1835 Was ist aus Ihrem Aufsatz über die etrusk .
+2-1	35-42	Oktober	*[1]	DATEletter[1]	
+2-2	43-47	1835	*[1]	DATEletter[1]	
+2-3	48-51	Was	_	_	
+2-4	52-55	ist	_	_	
+2-5	56-59	aus	_	_	
+2-6	60-65	Ihrem	_	_	
+2-7	66-73	Aufsatz	_	_	
+2-8	74-78	über	_	_	
+2-9	79-82	die	_	_	
+2-10	83-89	etrusk	_	_	
+2-11	90-91	.	_	_	
+
+#Text=Reise geworden ?
+3-1	92-97	Reise	_	_	
+3-2	98-106	geworden	_	_	
+3-3	107-108	?	_	_	
+
+#Text=Hätte ich vor weg wenigstens einige Notizen für das Ißt .
+4-1	109-114	Hätte	_	_	
+4-2	115-118	ich	_	_	
+4-3	119-122	vor	_	_	
+4-4	123-126	weg	_	_	
+4-5	127-137	wenigstens	_	_	
+4-6	138-144	einige	_	_	
+4-7	145-152	Notizen	_	_	
+4-8	153-156	für	_	_	
+4-9	157-160	das	_	_	
+4-10	161-164	Ißt	_	_	
+4-11	165-166	.	_	_	
+
+#Text=Bl . erhalten !
+5-1	167-169	Bl	_	_	
+5-2	170-171	.	_	_	
+5-3	172-180	erhalten	_	_	
+5-4	181-182	!	_	_	
+
+#Text=Die Todesanzeige betreffend , so ist wohl vorzusehen daß mein neulich eingesandtes Avviso nicht durch die hiesigen Verhältnisse veranlaßt erscheine , daher das Avviso in ein früheres Blatt des Bull .
+6-1	183-186	Die	_	_	
+6-2	187-199	Todesanzeige	_	_	
+6-3	200-210	betreffend	_	_	
+6-4	211-212	,	_	_	
+6-5	213-215	so	_	_	
+6-6	216-219	ist	_	_	
+6-7	220-224	wohl	_	_	
+6-8	225-235	vorzusehen	_	_	
+6-9	236-239	daß	_	_	
+6-10	240-244	mein	_	_	
+6-11	245-252	neulich	_	_	
+6-12	253-265	eingesandtes	_	_	
+6-13	266-272	Avviso	_	_	
+6-14	273-278	nicht	_	_	
+6-15	279-284	durch	_	_	
+6-16	285-288	die	_	_	
+6-17	289-297	hiesigen	_	_	
+6-18	298-310	Verhältnisse	_	_	
+6-19	311-320	veranlaßt	_	_	
+6-20	321-330	erscheine	_	_	
+6-21	331-332	,	_	_	
+6-22	333-338	daher	_	_	
+6-23	339-342	das	_	_	
+6-24	343-349	Avviso	_	_	
+6-25	350-352	in	_	_	
+6-26	353-356	ein	_	_	
+6-27	357-365	früheres	_	_	
+6-28	366-371	Blatt	_	_	
+6-29	372-375	des	_	_	
+6-30	376-380	Bull	_	_	
+6-31	381-382	.	_	_	
+
+#Text=gehört als die Todesanzeige .
+7-1	383-389	gehört	_	_	
+7-2	390-393	als	_	_	
+7-3	394-397	die	_	_	
+7-4	398-410	Todesanzeige	_	_	
+7-5	411-412	.	_	_	
+
+#Text=Kramer als M. ord .
+8-1	413-419	Kramer	*	PERmentioned	
+8-2	420-423	als	_	_	
+8-3	424-426	M.	_	_	
+8-4	427-430	ord	_	_	
+8-5	431-432	.	_	_	
+
+#Text=zu erkennen , ist mir unmöglich ; ich müßte Pinder und Parthey , künftighin Hase und Walz eben so gut dazu machen , mit welchen beiden lezteren es vielleicht kaum zu vermeiden ist , wenn ihr die Ernennungen so wohlfeil macht .
+9-1	433-435	zu	_	_	
+9-2	436-444	erkennen	_	_	
+9-3	445-446	,	_	_	
+9-4	447-450	ist	_	_	
+9-5	451-454	mir	_	_	
+9-6	455-464	unmöglich	_	_	
+9-7	465-466	;	_	_	
+9-8	467-470	ich	_	_	
+9-9	471-476	müßte	_	_	
+9-10	477-483	Pinder	*	PERmentioned	
+9-11	484-487	und	_	_	
+9-12	488-495	Parthey	*	PERmentioned	
+9-13	496-497	,	_	_	
+9-14	498-508	künftighin	_	_	
+9-15	509-513	Hase	*	PERmentioned	
+9-16	514-517	und	_	_	
+9-17	518-522	Walz	*	PERmentioned	
+9-18	523-527	eben	_	_	
+9-19	528-530	so	_	_	
+9-20	531-534	gut	_	_	
+9-21	535-539	dazu	_	_	
+9-22	540-546	machen	_	_	
+9-23	547-548	,	_	_	
+9-24	549-552	mit	_	_	
+9-25	553-560	welchen	_	_	
+9-26	561-567	beiden	_	_	
+9-27	568-576	lezteren	_	_	
+9-28	577-579	es	_	_	
+9-29	580-590	vielleicht	_	_	
+9-30	591-595	kaum	_	_	
+9-31	596-598	zu	_	_	
+9-32	599-608	vermeiden	_	_	
+9-33	609-612	ist	_	_	
+9-34	613-614	,	_	_	
+9-35	615-619	wenn	_	_	
+9-36	620-623	ihr	_	_	
+9-37	624-627	die	_	_	
+9-38	628-639	Ernennungen	_	_	
+9-39	640-642	so	_	_	
+9-40	643-651	wohlfeil	_	_	
+9-41	652-657	macht	_	_	
+9-42	658-659	.	_	_	
+
+#Text=Ich dächte meine Bestätigung gehörte zu jedem , wär es auch nur als M. d. Direzione , um so mehr wenn Sie in meinem Namen unterschrieben hätten .
+10-1	660-663	Ich	_	_	
+10-2	664-670	dächte	_	_	
+10-3	671-676	meine	_	_	
+10-4	677-688	Bestätigung	_	_	
+10-5	689-696	gehörte	_	_	
+10-6	697-699	zu	_	_	
+10-7	700-705	jedem	_	_	
+10-8	706-707	,	_	_	
+10-9	708-711	wär	_	_	
+10-10	712-714	es	_	_	
+10-11	715-719	auch	_	_	
+10-12	720-723	nur	_	_	
+10-13	724-727	als	_	_	
+10-14	728-730	M.	_	_	
+10-15	731-733	d.	_	_	
+10-16	734-743	Direzione	_	_	
+10-17	744-745	,	_	_	
+10-18	746-748	um	_	_	
+10-19	749-751	so	_	_	
+10-20	752-756	mehr	_	_	
+10-21	757-761	wenn	_	_	
+10-22	762-765	Sie	_	_	
+10-23	766-768	in	_	_	
+10-24	769-775	meinem	_	_	
+10-25	776-781	Namen	_	_	
+10-26	782-796	unterschrieben	_	_	
+10-27	797-803	hätten	_	_	
+10-28	804-805	.	_	_	
+
+#Text=Haben Sie das aber nicht gethan und sind die Unterschriften nur zwiefach , so ist die Ausfertigung statutenwidrig .
+11-1	806-811	Haben	_	_	
+11-2	812-815	Sie	_	_	
+11-3	816-819	das	_	_	
+11-4	820-824	aber	_	_	
+11-5	825-830	nicht	_	_	
+11-6	831-837	gethan	_	_	
+11-7	838-841	und	_	_	
+11-8	842-846	sind	_	_	
+11-9	847-850	die	_	_	
+11-10	851-865	Unterschriften	_	_	
+11-11	866-869	nur	_	_	
+11-12	870-878	zwiefach	_	_	
+11-13	879-880	,	_	_	
+11-14	881-883	so	_	_	
+11-15	884-887	ist	_	_	
+11-16	888-891	die	_	_	
+11-17	892-904	Ausfertigung	_	_	
+11-18	905-919	statutenwidrig	_	_	
+11-19	920-921	.	_	_	
+
+#Text=Am Rande der zweiten Seite : In Panofkas Sinne möchte ich Lancin für die schönen Mottos danken , die uns seine Aufsätze subministriren , Nachdem größte Dinge in unser beider Rechnung vergessen , heißt es : Il credito del Sig .
+12-1	922-924	Am	_	_	
+12-2	925-930	Rande	_	_	
+12-3	931-934	der	_	_	
+12-4	935-942	zweiten	_	_	
+12-5	943-948	Seite	_	_	
+12-6	949-950	:	_	_	
+12-7	951-953	In	_	_	
+12-8	954-962	Panofkas	*	PERmentioned	
+12-9	963-968	Sinne	_	_	
+12-10	969-975	möchte	_	_	
+12-11	976-979	ich	_	_	
+12-12	980-986	Lancin	*	PERmentioned	
+12-13	987-990	für	_	_	
+12-14	991-994	die	_	_	
+12-15	995-1002	schönen	_	_	
+12-16	1003-1009	Mottos	_	_	
+12-17	1010-1016	danken	_	_	
+12-18	1017-1018	,	_	_	
+12-19	1019-1022	die	_	_	
+12-20	1023-1026	uns	_	_	
+12-21	1027-1032	seine	_	_	
+12-22	1033-1041	Aufsätze	_	_	
+12-23	1042-1056	subministriren	_	_	
+12-24	1057-1058	,	_	_	
+12-25	1059-1066	Nachdem	_	_	
+12-26	1067-1073	größte	_	_	
+12-27	1074-1079	Dinge	_	_	
+12-28	1080-1082	in	_	_	
+12-29	1083-1088	unser	_	_	
+12-30	1089-1095	beider	_	_	
+12-31	1096-1104	Rechnung	_	_	
+12-32	1105-1114	vergessen	_	_	
+12-33	1115-1116	,	_	_	
+12-34	1117-1122	heißt	_	_	
+12-35	1123-1125	es	_	_	
+12-36	1126-1127	:	_	_	
+12-37	1128-1130	Il	_	_	
+12-38	1131-1138	credito	_	_	
+12-39	1139-1142	del	_	_	
+12-40	1143-1146	Sig	_	_	
+12-41	1147-1148	.	_	_	
+
+#Text=P. vistoso com ' & non merita gran con-siderazione . ''
+13-1	1149-1151	P.	_	_	
+13-2	1152-1159	vistoso	_	_	
+13-3	1160-1163	com	_	_	
+13-4	1164-1165	'	_	_	
+13-5	1166-1167	&	_	_	
+13-6	1168-1171	non	_	_	
+13-7	1172-1178	merita	_	_	
+13-8	1179-1183	gran	_	_	
+13-9	1184-1199	con-siderazione	_	_	
+13-10	1200-1201	.	_	_	
+13-11	1202-1204	''	_	_	
+
+#Text=Salutatelo .
+14-1	1205-1215	Salutatelo	_	_	
+14-2	1216-1217	.	_	_	

@@ -1,0 +1,258 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Richard Lepsius an Wolfgang Helbig Berlin , 31 .
+1-1	0-7	Richard	*[1]	PERauthor[1]
+1-2	8-15	Lepsius	*[1]	PERauthor[1]
+1-3	16-18	an	_	_
+1-4	19-27	Wolfgang	*[2]	PERaddressee[2]
+1-5	28-34	Helbig	*[2]	PERaddressee[2]
+1-6	35-41	Berlin	*	PLACEfrom
+1-7	42-43	,	_	_
+1-8	44-46	31	_	_
+1-9	47-48	.	_	_
+
+#Text=Januar 1874 Berlin , d . 31 .
+2-1	49-55	Januar	_	_
+2-2	56-60	1874	_	_
+2-3	61-67	Berlin	*	PLACEfrom
+2-4	68-69	,	_	_
+2-5	70-71	d	*[4]	DATEletter[4]
+2-6	72-73	.	*[4]	DATEletter[4]
+2-7	74-76	31	*[3]|*[4]	DATEletter[3]|DATEletter[4]
+2-8	77-78	.	*[3]|*[4]	DATEletter[3]|DATEletter[4]
+
+#Text=Jan .
+3-1	79-82	Jan	*[3]|*[4]	DATEletter[3]|DATEletter[4]
+3-2	83-84	.	*[3]|*[4]	DATEletter[3]|DATEletter[4]
+
+#Text=71874 Verehrter Freund Zunächst meinen besten Dank für Ihr freundliches Anerbieten die kleine vortreffliche Statue , die durch ihren Fundort ein besonderes Interesse erhält , mir selbst zu überlassen .
+4-1	85-90	71874	*[3]|*[4]	DATEletter[3]|DATEletter[4]
+4-2	91-100	Verehrter	_	_
+4-3	101-107	Freund	_	_
+4-4	108-116	Zunächst	_	_
+4-5	117-123	meinen	_	_
+4-6	124-130	besten	_	_
+4-7	131-135	Dank	_	_
+4-8	136-139	für	_	_
+4-9	140-143	Ihr	_	_
+4-10	144-156	freundliches	_	_
+4-11	157-167	Anerbieten	_	_
+4-12	168-171	die	_	_
+4-13	172-178	kleine	_	_
+4-14	179-192	vortreffliche	_	_
+4-15	193-199	Statue	*	OBJ
+4-16	200-201	,	_	_
+4-17	202-205	die	_	_
+4-18	206-211	durch	_	_
+4-19	212-217	ihren	_	_
+4-20	218-225	Fundort	_	_
+4-21	226-229	ein	_	_
+4-22	230-240	besonderes	_	_
+4-23	241-250	Interesse	_	_
+4-24	251-257	erhält	_	_
+4-25	258-259	,	_	_
+4-26	260-263	mir	_	_
+4-27	264-270	selbst	_	_
+4-28	271-273	zu	_	_
+4-29	274-284	überlassen	_	_
+4-30	285-286	.	_	_
+
+#Text=Ich halte es aber doch für wichtiger , gerade des letzteren Umstands wegen , daß die Statue dem Museum einverleibt wird , und dieses zahlt Ihnen natürlich gern den geringen Preis den Sie dafür gegeben haben .
+5-1	287-290	Ich	_	_
+5-2	291-296	halte	_	_
+5-3	297-299	es	_	_
+5-4	300-304	aber	_	_
+5-5	305-309	doch	_	_
+5-6	310-313	für	_	_
+5-7	314-323	wichtiger	_	_
+5-8	324-325	,	_	_
+5-9	326-332	gerade	_	_
+5-10	333-336	des	_	_
+5-11	337-346	letzteren	_	_
+5-12	347-355	Umstands	_	_
+5-13	356-361	wegen	_	_
+5-14	362-363	,	_	_
+5-15	364-367	daß	_	_
+5-16	368-371	die	_	_
+5-17	372-378	Statue	*	OBJ
+5-18	379-382	dem	_	_
+5-19	383-389	Museum	*	ORGmentioned
+5-20	390-401	einverleibt	_	_
+5-21	402-406	wird	_	_
+5-22	407-408	,	_	_
+5-23	409-412	und	_	_
+5-24	413-419	dieses	_	_
+5-25	420-425	zahlt	_	_
+5-26	426-431	Ihnen	_	_
+5-27	432-441	natürlich	_	_
+5-28	442-446	gern	_	_
+5-29	447-450	den	_	_
+5-30	451-459	geringen	_	_
+5-31	460-465	Preis	_	_
+5-32	466-469	den	_	_
+5-33	470-473	Sie	_	_
+5-34	474-479	dafür	_	_
+5-35	480-487	gegeben	_	_
+5-36	488-493	haben	_	_
+5-37	494-495	.	_	_
+
+#Text=Lassen Sie mich also nächstens wissen , wie ich Ihnen die 60 Lire soll zugehen lassen .
+6-1	496-502	Lassen	_	_
+6-2	503-506	Sie	_	_
+6-3	507-511	mich	_	_
+6-4	512-516	also	_	_
+6-5	517-526	nächstens	_	_
+6-6	527-533	wissen	_	_
+6-7	534-535	,	_	_
+6-8	536-539	wie	_	_
+6-9	540-543	ich	_	_
+6-10	544-549	Ihnen	_	_
+6-11	550-553	die	_	_
+6-12	554-556	60	_	_
+6-13	557-561	Lire	_	_
+6-14	562-566	soll	_	_
+6-15	567-574	zugehen	_	_
+6-16	575-581	lassen	_	_
+6-17	582-583	.	_	_
+
+#Text=lIch würde sie einfach an Asher haben zahlen lassen , bedarf aber vorher noch Ihre Quittung , die Sie also wohl gelegentlich beilegen .
+7-1	584-588	lIch	_	_
+7-2	589-594	würde	_	_
+7-3	595-598	sie	_	_
+7-4	599-606	einfach	_	_
+7-5	607-609	an	_	_
+7-6	610-615	Asher	*	PERmentioned
+7-7	616-621	haben	_	_
+7-8	622-628	zahlen	_	_
+7-9	629-635	lassen	_	_
+7-10	636-637	,	_	_
+7-11	638-644	bedarf	_	_
+7-12	645-649	aber	_	_
+7-13	650-656	vorher	_	_
+7-14	657-661	noch	_	_
+7-15	662-666	Ihre	_	_
+7-16	667-675	Quittung	_	_
+7-17	676-677	,	_	_
+7-18	678-681	die	_	_
+7-19	682-685	Sie	_	_
+7-20	686-690	also	_	_
+7-21	691-695	wohl	_	_
+7-22	696-708	gelegentlich	_	_
+7-23	709-717	beilegen	_	_
+7-24	718-719	.	_	_
+
+#Text=Es freut mich , daß die Zeitbestimmung auch zu Ihren Combinationen paßt .
+8-1	720-722	Es	_	_
+8-2	723-728	freut	_	_
+8-3	729-733	mich	_	_
+8-4	734-735	,	_	_
+8-5	736-739	daß	_	_
+8-6	740-743	die	_	_
+8-7	744-758	Zeitbestimmung	_	_
+8-8	759-763	auch	_	_
+8-9	764-766	zu	_	_
+8-10	767-772	Ihren	_	_
+8-11	773-786	Combinationen	_	_
+8-12	787-791	paßt	_	_
+8-13	792-793	.	_	_
+
+#Text=Die andern Kleinigkeiten , die also wohl zu der Rüstung des guerriero gehören , habe ich an Curtius für das Museum übergeben , mit Mommsen 's Einwilligung der ja auch Herr von Staasen zustimmen wird .
+9-1	794-797	Die	_	_
+9-2	798-804	andern	_	_
+9-3	805-818	Kleinigkeiten	_	_
+9-4	819-820	,	_	_
+9-5	821-824	die	_	_
+9-6	825-829	also	_	_
+9-7	830-834	wohl	_	_
+9-8	835-837	zu	_	_
+9-9	838-841	der	_	_
+9-10	842-849	Rüstung	_	_
+9-11	850-853	des	_	_
+9-12	854-863	guerriero	_	_
+9-13	864-871	gehören	_	_
+9-14	872-873	,	_	_
+9-15	874-878	habe	_	_
+9-16	879-882	ich	_	_
+9-17	883-885	an	_	_
+9-18	886-893	Curtius	*	PERmentioned
+9-19	894-897	für	_	_
+9-20	898-901	das	_	_
+9-21	902-908	Museum	*	ORGmentioned
+9-22	909-918	übergeben	_	_
+9-23	919-920	,	_	_
+9-24	921-924	mit	_	_
+9-25	925-932	Mommsen	*[6]	PERmentioned[6]
+9-26	933-935	's	*[6]	PERmentioned[6]
+9-27	936-948	Einwilligung	_	_
+9-28	949-952	der	_	_
+9-29	953-955	ja	_	_
+9-30	956-960	auch	_	_
+9-31	961-965	Herr	_	_
+9-32	966-969	von	*[5]	PERmentioned[5]
+9-33	970-977	Staasen	*[5]	PERmentioned[5]
+9-34	978-987	zustimmen	_	_
+9-35	988-992	wird	_	_
+9-36	993-994	.	_	_
+
+#Text=Ich freue mich sehr daß Sie in Aussicht stellen den großen Complex jener internationalen Fragen bald in einem besondern Werk aufzunehmen .
+10-1	995-998	Ich	_	_
+10-2	999-1004	freue	_	_
+10-3	1005-1009	mich	_	_
+10-4	1010-1014	sehr	_	_
+10-5	1015-1018	daß	_	_
+10-6	1019-1022	Sie	_	_
+10-7	1023-1025	in	_	_
+10-8	1026-1034	Aussicht	_	_
+10-9	1035-1042	stellen	_	_
+10-10	1043-1046	den	_	_
+10-11	1047-1053	großen	_	_
+10-12	1054-1061	Complex	_	_
+10-13	1062-1067	jener	_	_
+10-14	1068-1083	internationalen	_	_
+10-15	1084-1090	Fragen	_	_
+10-16	1091-1095	bald	_	_
+10-17	1096-1098	in	_	_
+10-18	1099-1104	einem	_	_
+10-19	1105-1114	besondern	_	_
+10-20	1115-1119	Werk	_	_
+10-21	1120-1131	aufzunehmen	_	_
+10-22	1132-1133	.	_	_
+
+#Text=Die Gräber von Caere , von wo Sie einen neuen Fund meldeten , sind für jene Fragen immer besonders merkwürdig \; an Caere-Agyllä knüpfte sich der Name der Pela ?
+11-1	1134-1137	Die	_	_
+11-2	1138-1144	Gräber	*	OBJ
+11-3	1145-1148	von	_	_
+11-4	1149-1154	Caere	*	PLACEmentioned
+11-5	1155-1156	,	_	_
+11-6	1157-1160	von	_	_
+11-7	1161-1163	wo	_	_
+11-8	1164-1167	Sie	_	_
+11-9	1168-1173	einen	_	_
+11-10	1174-1179	neuen	_	_
+11-11	1180-1184	Fund	_	_
+11-12	1185-1193	meldeten	_	_
+11-13	1194-1195	,	_	_
+11-14	1196-1200	sind	_	_
+11-15	1201-1204	für	_	_
+11-16	1205-1209	jene	_	_
+11-17	1210-1216	Fragen	_	_
+11-18	1217-1222	immer	_	_
+11-19	1223-1232	besonders	_	_
+11-20	1233-1243	merkwürdig	_	_
+11-21	1244-1245	\;	_	_
+11-22	1246-1248	an	_	_
+11-23	1249-1261	Caere-Agyllä	*	PLACEmentioned
+11-24	1262-1269	knüpfte	_	_
+11-25	1270-1274	sich	_	_
+11-26	1275-1278	der	_	_
+11-27	1279-1283	Name	_	_
+11-28	1284-1287	der	_	_
+11-29	1288-1292	Pela	_	_
+11-30	1293-1294	?	_	_
+
+#Text=er an läng-
+12-1	1295-1297	er	_	_
+12-2	1298-1300	an	_	_
+12-3	1301-1306	läng-	_	_

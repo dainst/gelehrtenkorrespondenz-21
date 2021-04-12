@@ -1,0 +1,126 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=524 Lepsius an Helbig L Berlin , 18. Juni 1882 Berlin d . 18. Juni 1882 Mein verehrter Freund Ich hatte bisher immer angenommen , die Sphinx trage das Schild Thutmes IV , wie es Ampere noch nannte .
+1-1	0-3	524	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Helbig	*	PERaddressee
+1-5	22-23	L	_	_
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-36	18.	*[1]	DATEletter[1]
+1-9	37-41	Juni	*[1]	DATEletter[1]
+1-10	42-46	1882	*[1]	DATEletter[1]
+1-11	47-53	Berlin	*	PLACEfrom
+1-12	54-55	d	_	_
+1-13	56-57	.	_	_
+1-14	58-61	18.	*[2]	DATEletter[2]
+1-15	62-66	Juni	*[2]	DATEletter[2]
+1-16	67-71	1882	*[2]	DATEletter[2]
+1-17	72-76	Mein	_	_
+1-18	77-86	verehrter	_	_
+1-19	87-93	Freund	_	_
+1-20	94-97	Ich	_	_
+1-21	98-103	hatte	_	_
+1-22	104-110	bisher	_	_
+1-23	111-116	immer	_	_
+1-24	117-127	angenommen	_	_
+1-25	128-129	,	_	_
+1-26	130-133	die	_	_
+1-27	134-140	Sphinx	*	OBJ
+1-28	141-146	trage	_	_
+1-29	147-150	das	_	_
+1-30	151-157	Schild	_	_
+1-31	158-165	Thutmes	*[3]	PERmentioned[3]
+1-32	166-168	IV	*[3]	PERmentioned[3]
+1-33	169-170	,	_	_
+1-34	171-174	wie	_	_
+1-35	175-177	es	_	_
+1-36	178-184	Ampere	*	PERmentioned
+1-37	185-189	noch	_	_
+1-38	190-196	nannte	_	_
+1-39	197-198	.	_	_
+
+#Text=Heute , als ich mir die Inschrift zum zweitenmale ansehe , fehlen die Pluralstriche iı , unter dem Skarabäus .
+2-1	199-204	Heute	_	_
+2-2	205-206	,	_	_
+2-3	207-210	als	_	_
+2-4	211-214	ich	_	_
+2-5	215-218	mir	_	_
+2-6	219-222	die	_	_
+2-7	223-232	Inschrift	_	_
+2-8	233-236	zum	_	_
+2-9	237-248	zweitenmale	_	_
+2-10	249-255	ansehe	_	_
+2-11	256-257	,	_	_
+2-12	258-264	fehlen	_	_
+2-13	265-268	die	_	_
+2-14	269-282	Pluralstriche	_	_
+2-15	283-285	iı	_	_
+2-16	286-287	,	_	_
+2-17	288-293	unter	_	_
+2-18	294-297	dem	_	_
+2-19	298-307	Skarabäus	_	_
+2-20	308-309	.	_	_
+
+#Text=Dadurch wird es Thutmes III .
+3-1	310-317	Dadurch	_	_
+3-2	318-322	wird	_	_
+3-3	323-325	es	_	_
+3-4	326-333	Thutmes	*[4]	PERmentioned[4]
+3-5	334-337	III	_	_
+3-6	338-339	.	_	_
+
+#Text=und seine Frau heißt : Hat-schepest Mit Ra , nicht Arat \; Dieser also gehören die Züge des Kopfes , die sehr lieblich sind .
+4-1	340-343	und	_	_
+4-2	344-349	seine	_	_
+4-3	350-354	Frau	_	_
+4-4	355-360	heißt	_	_
+4-5	361-362	:	_	_
+4-6	363-375	Hat-schepest	*[5]	PERmentioned[5]
+4-7	376-379	Mit	*[5]	PERmentioned[5]
+4-8	380-382	Ra	*[5]	PERmentioned[5]
+4-9	383-384	,	_	_
+4-10	385-390	nicht	_	_
+4-11	391-395	Arat	*	PERmentioned
+4-12	396-397	\;	_	_
+4-13	398-404	Dieser	_	_
+4-14	405-409	also	_	_
+4-15	410-417	gehören	_	_
+4-16	418-421	die	_	_
+4-17	422-426	Züge	_	_
+4-18	427-430	des	_	_
+4-19	431-437	Kopfes	_	_
+4-20	438-439	,	_	_
+4-21	440-443	die	_	_
+4-22	444-448	sehr	_	_
+4-23	449-457	lieblich	_	_
+4-24	458-462	sind	_	_
+4-25	463-464	.	_	_
+
+#Text=Ich muß denselben sbaglio auch an Baron Baracco ( den Duhn conte nennt ) schreiben .
+5-1	465-468	Ich	_	_
+5-2	469-472	muß	_	_
+5-3	473-482	denselben	_	_
+5-4	483-490	sbaglio	_	_
+5-5	491-495	auch	_	_
+5-6	496-498	an	_	_
+5-7	499-504	Baron	_	_
+5-8	505-512	Baracco	*	PERmentioned
+5-9	513-514	(	_	_
+5-10	515-518	den	_	_
+5-11	519-523	Duhn	*	PERmentioned
+5-12	524-529	conte	_	_
+5-13	530-535	nennt	_	_
+5-14	536-537	)	_	_
+5-15	538-547	schreiben	_	_
+5-16	548-549	.	_	_
+
+#Text=Ganz der Ihrige R Lepsius
+6-1	550-554	Ganz	_	_
+6-2	555-558	der	_	_
+6-3	559-565	Ihrige	_	_
+6-4	566-567	R	*[6]	PERauthor[6]
+6-5	568-575	Lepsius	*[6]	PERauthor[6]

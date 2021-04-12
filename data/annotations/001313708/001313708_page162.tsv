@@ -1,0 +1,133 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Berlin , 27 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	27	*[4]	DATEletter[4]
+1-7	30-31	.	*[4]	DATEletter[4]
+
+#Text=Januar 1835 Ministerialsachen hat Schulze übernommen .
+2-1	32-38	Januar	*[4]	DATEletter[4]
+2-2	39-43	1835	*[4]	DATEletter[4]
+2-3	44-61	Ministerialsachen	_	_
+2-4	62-65	hat	_	_
+2-5	66-73	Schulze	*	PERmentioned
+2-6	74-84	übernommen	_	_
+2-7	85-86	.	_	_
+
+#Text=- In Betreff Graf St. Aulaire 's , dem das Institut wesentlich verpflichtet ist , hatte ich vorgeschlagen , die Fortsetzung der seit seiner Abreise von Rom erschienenen Institubwerke in Paris unberechnet für ihn abgeben zu lassen \; ich bitte Sie Braun wissen zu lassen , ob Sie auch dieser Meinung sind , und in welcher Form unsre Höflichkeit bei Einsendung des Exemplars sich andeuten ließe .
+3-1	87-88	-	_	_
+3-2	89-91	In	_	_
+3-3	92-99	Betreff	_	_
+3-4	100-104	Graf	*[6]	PERmentioned[6]
+3-5	105-108	St.	*[6]	PERmentioned[6]
+3-6	109-116	Aulaire	*[6]	PERmentioned[6]
+3-7	117-119	's	*[6]	PERmentioned[6]
+3-8	120-121	,	_	_
+3-9	122-125	dem	_	_
+3-10	126-129	das	_	_
+3-11	130-138	Institut	*	ORGmentioned
+3-12	139-149	wesentlich	_	_
+3-13	150-162	verpflichtet	_	_
+3-14	163-166	ist	_	_
+3-15	167-168	,	_	_
+3-16	169-174	hatte	_	_
+3-17	175-178	ich	_	_
+3-18	179-192	vorgeschlagen	_	_
+3-19	193-194	,	_	_
+3-20	195-198	die	_	_
+3-21	199-210	Fortsetzung	_	_
+3-22	211-214	der	_	_
+3-23	215-219	seit	_	_
+3-24	220-226	seiner	_	_
+3-25	227-234	Abreise	_	_
+3-26	235-238	von	_	_
+3-27	239-242	Rom	*	PLACEmentioned
+3-28	243-255	erschienenen	_	_
+3-29	256-269	Institubwerke	_	_
+3-30	270-272	in	_	_
+3-31	273-278	Paris	*	PLACEmentioned
+3-32	279-290	unberechnet	_	_
+3-33	291-294	für	_	_
+3-34	295-298	ihn	_	_
+3-35	299-306	abgeben	_	_
+3-36	307-309	zu	_	_
+3-37	310-316	lassen	_	_
+3-38	317-318	\;	_	_
+3-39	319-322	ich	_	_
+3-40	323-328	bitte	_	_
+3-41	329-332	Sie	_	_
+3-42	333-338	Braun	*	PERmentioned
+3-43	339-345	wissen	_	_
+3-44	346-348	zu	_	_
+3-45	349-355	lassen	_	_
+3-46	356-357	,	_	_
+3-47	358-360	ob	_	_
+3-48	361-364	Sie	_	_
+3-49	365-369	auch	_	_
+3-50	370-376	dieser	_	_
+3-51	377-384	Meinung	_	_
+3-52	385-389	sind	_	_
+3-53	390-391	,	_	_
+3-54	392-395	und	_	_
+3-55	396-398	in	_	_
+3-56	399-406	welcher	_	_
+3-57	407-411	Form	_	_
+3-58	412-417	unsre	_	_
+3-59	418-429	Höflichkeit	_	_
+3-60	430-433	bei	_	_
+3-61	434-444	Einsendung	_	_
+3-62	445-448	des	_	_
+3-63	449-458	Exemplars	_	_
+3-64	459-463	sich	_	_
+3-65	464-472	andeuten	_	_
+3-66	473-478	ließe	_	_
+3-67	479-480	.	_	_
+
+#Text=- Metternich bleibt insolvent \; für die Großherzogin Stephanie und für Gagarin habe ich nichts erhalten .
+4-1	481-482	-	_	_
+4-2	483-493	Metternich	*	PERmentioned
+4-3	494-500	bleibt	_	_
+4-4	501-510	insolvent	_	_
+4-5	511-512	\;	_	_
+4-6	513-516	für	_	_
+4-7	517-520	die	_	_
+4-8	521-533	Großherzogin	*[12]	PERmentioned[12]
+4-9	534-543	Stephanie	*[12]	PERmentioned[12]
+4-10	544-547	und	_	_
+4-11	548-551	für	_	_
+4-12	552-559	Gagarin	*	PERmentioned
+4-13	560-564	habe	_	_
+4-14	565-568	ich	_	_
+4-15	569-575	nichts	_	_
+4-16	576-584	erhalten	_	_
+4-17	585-586	.	_	_
+
+#Text=Laßt sich nichts thun wegen des Journal des savans ?
+5-1	587-591	Laßt	_	_
+5-2	592-596	sich	_	_
+5-3	597-603	nichts	_	_
+5-4	604-608	thun	_	_
+5-5	609-614	wegen	_	_
+5-6	615-618	des	_	_
+5-7	619-626	Journal	_	_
+5-8	627-630	des	_	_
+5-9	631-637	savans	_	_
+5-10	638-639	?	_	_
+
+#Text=Mit tausend Empfehlungen und Grüßen fürs theure Kapitol Ihr Gerhard
+6-1	640-643	Mit	_	_
+6-2	644-651	tausend	_	_
+6-3	652-664	Empfehlungen	_	_
+6-4	665-668	und	_	_
+6-5	669-675	Grüßen	_	_
+6-6	676-680	fürs	_	_
+6-7	681-687	theure	_	_
+6-8	688-695	Kapitol	_	_
+6-9	696-699	Ihr	_	_
+6-10	700-707	Gerhard	*	PERauthor

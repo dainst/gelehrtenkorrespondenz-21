@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 25 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	25	*[2]	DATEletter[2]
+1-7	26-27	.	*[2]	DATEletter[2]
+
+#Text=Januar 1835 -5darauf aufmerksam machen dürfen , daß es Ihnen unmöglich angenehm sein könne .
+2-1	28-34	Januar	*[2]	DATEletter[2]
+2-2	35-39	1835	_	_
+2-3	40-48	-5darauf	_	_
+2-4	49-59	aufmerksam	_	_
+2-5	60-66	machen	_	_
+2-6	67-73	dürfen	_	_
+2-7	74-75	,	_	_
+2-8	76-79	daß	_	_
+2-9	80-82	es	_	_
+2-10	83-88	Ihnen	_	_
+2-11	89-98	unmöglich	_	_
+2-12	99-107	angenehm	_	_
+2-13	108-112	sein	_	_
+2-14	113-118	könne	_	_
+2-15	119-120	.	_	_
+
+#Text=Ihre Abwesenheit solcher Gestalt distinguirt zu sehen \; er antwortete : man setzt durante la assenza .
+3-1	121-125	Ihre	_	_
+3-2	126-137	Abwesenheit	_	_
+3-3	138-145	solcher	_	_
+3-4	146-153	Gestalt	_	_
+3-5	154-165	distinguirt	_	_
+3-6	166-168	zu	_	_
+3-7	169-174	sehen	_	_
+3-8	175-176	\;	_	_
+3-9	177-179	er	_	_
+3-10	180-190	antwortete	_	_
+3-11	191-192	:	_	_
+3-12	193-196	man	_	_
+3-13	197-202	setzt	_	_
+3-14	203-210	durante	_	_
+3-15	211-213	la	_	_
+3-16	214-221	assenza	_	_
+3-17	222-223	.	_	_
+
+#Text=Gebessert ist eben dadurch nichts .
+4-1	224-233	Gebessert	_	_
+4-2	234-237	ist	_	_
+4-3	238-242	eben	_	_
+4-4	243-250	dadurch	_	_
+4-5	251-257	nichts	_	_
+4-6	258-259	.	_	_
+
+#Text=- Ihre Anwesenheit selbst betreffend , so begreift Jedermann , auch die Italiener , daß eine solche durch das Ehrenvolle Ihrer Stellung in Berlin nöthig gemacht ist .
+5-1	260-261	-	_	_
+5-2	262-266	Ihre	_	_
+5-3	267-278	Anwesenheit	_	_
+5-4	279-285	selbst	_	_
+5-5	286-296	betreffend	_	_
+5-6	297-298	,	_	_
+5-7	299-301	so	_	_
+5-8	302-310	begreift	_	_
+5-9	311-320	Jedermann	_	_
+5-10	321-322	,	_	_
+5-11	323-327	auch	_	_
+5-12	328-331	die	_	_
+5-13	332-341	Italiener	_	_
+5-14	342-343	,	_	_
+5-15	344-347	daß	_	_
+5-16	348-352	eine	_	_
+5-17	353-359	solche	_	_
+5-18	360-365	durch	_	_
+5-19	366-369	das	_	_
+5-20	370-380	Ehrenvolle	_	_
+5-21	381-386	Ihrer	_	_
+5-22	387-395	Stellung	_	_
+5-23	396-398	in	_	_
+5-24	399-405	Berlin	*	PLACEmentioned
+5-25	406-412	nöthig	_	_
+5-26	413-420	gemacht	_	_
+5-27	421-424	ist	_	_
+5-28	425-426	.	_	_
+
+#Text=Daß alle nach Ihnen fragen , daß tröstliche Versicherungen baldiger Rückkehr alle erfreue , begreifen Sie bei Ihrer Vielbeliebtheit .
+6-1	427-430	Daß	_	_
+6-2	431-435	alle	_	_
+6-3	436-440	nach	_	_
+6-4	441-446	Ihnen	_	_
+6-5	447-453	fragen	_	_
+6-6	454-455	,	_	_
+6-7	456-459	daß	_	_
+6-8	460-470	tröstliche	_	_
+6-9	471-485	Versicherungen	_	_
+6-10	486-494	baldiger	_	_
+6-11	495-503	Rückkehr	_	_
+6-12	504-508	alle	_	_
+6-13	509-516	erfreue	_	_
+6-14	517-518	,	_	_
+6-15	519-528	begreifen	_	_
+6-16	529-532	Sie	_	_
+6-17	533-536	bei	_	_
+6-18	537-542	Ihrer	_	_
+6-19	543-558	Vielbeliebtheit	_	_
+6-20	559-560	.	_	_
+
+#Text=Wollen Sie nicht dem Institut die Lucidi und Talchi von Ihren Vasen und Spiegeln überlassen ?
+7-1	561-567	Wollen	_	_
+7-2	568-571	Sie	_	_
+7-3	572-577	nicht	_	_
+7-4	578-581	dem	_	_
+7-5	582-590	Institut	*	ORGmentioned
+7-6	591-594	die	_	_
+7-7	595-601	Lucidi	*[3]	MISC[3]
+7-8	602-605	und	*[3]	MISC[3]
+7-9	606-612	Talchi	*[3]	MISC[3]
+7-10	613-616	von	*[3]	MISC[3]
+7-11	617-622	Ihren	*[3]	MISC[3]
+7-12	623-628	Vasen	*[3]	MISC[3]
+7-13	629-632	und	*[3]	MISC[3]
+7-14	633-641	Spiegeln	*[3]	MISC[3]
+7-15	642-652	überlassen	_	_
+7-16	653-654	?	_	_
+
+#Text=Uns muß daran liegen irgend einer Erinnerung an diese Gesgenstände zu behalten .
+8-1	655-658	Uns	_	_
+8-2	659-662	muß	_	_
+8-3	663-668	daran	_	_
+8-4	669-675	liegen	_	_
+8-5	676-682	irgend	_	_
+8-6	683-688	einer	_	_
+8-7	689-699	Erinnerung	_	_
+8-8	700-702	an	_	_
+8-9	703-708	diese	_	_
+8-10	709-721	Gesgenstände	_	_
+8-11	722-724	zu	_	_
+8-12	725-733	behalten	_	_
+8-13	734-735	.	_	_
+
+#Text=Ihre Profamirung kann ja zudem immer vorgebeugt werden .
+9-1	736-740	Ihre	_	_
+9-2	741-752	Profamirung	_	_
+9-3	753-757	kann	_	_
+9-4	758-760	ja	_	_
+9-5	761-766	zudem	_	_
+9-6	767-772	immer	_	_
+9-7	773-783	vorgebeugt	_	_
+9-8	784-790	werden	_	_
+9-9	791-792	.	_	_
+
+#Text=Lanci fragt mich wegen des Principe Vidoni ?
+10-1	793-798	Lanci	*	PERmentioned
+10-2	799-804	fragt	_	_
+10-3	805-809	mich	_	_
+10-4	810-815	wegen	_	_
+10-5	816-819	des	_	_
+10-6	820-828	Principe	*[4]	PERmentioned[4]
+10-7	829-835	Vidoni	*[4]	PERmentioned[4]
+10-8	836-837	?	_	_
+
+#Text=Ist er Socius , Mitglied oder was sonst ?
+11-1	838-841	Ist	_	_
+11-2	842-844	er	_	_
+11-3	845-851	Socius	_	_
+11-4	852-853	,	_	_
+11-5	854-862	Mitglied	_	_
+11-6	863-867	oder	_	_
+11-7	868-871	was	_	_
+11-8	872-877	sonst	_	_
+11-9	878-879	?	_	_
+
+#Text=Ich habe den Apollo Herakles des Orators in einer Bronzenachbildung vor mir .
+12-1	880-883	Ich	_	_
+12-2	884-888	habe	_	_
+12-3	889-892	den	_	_
+12-4	893-899	Apollo	_	_
+12-5	900-908	Herakles	_	_
+12-6	909-912	des	_	_
+12-7	913-920	Orators	*	PERmentioned
+12-8	921-923	in	_	_
+12-9	924-929	einer	_	_
+12-10	930-947	Bronzenachbildung	_	_
+12-11	948-951	vor	_	_
+12-12	952-955	mir	_	_
+12-13	956-957	.	_	_
+
+#Text=In der linken hält er den Bogen , in der rechten die Keule , ganz wie ihn Pausianis ( V .
+13-1	958-960	In	_	_
+13-2	961-964	der	_	_
+13-3	965-971	linken	_	_
+13-4	972-976	hält	_	_
+13-5	977-979	er	_	_
+13-6	980-983	den	_	_
+13-7	984-989	Bogen	_	_
+13-8	990-991	,	_	_
+13-9	992-994	in	_	_
+13-10	995-998	der	_	_
+13-11	999-1006	rechten	_	_
+13-12	1007-1010	die	_	_
+13-13	1011-1016	Keule	_	_
+13-14	1017-1018	,	_	_
+13-15	1019-1023	ganz	_	_
+13-16	1024-1027	wie	_	_
+13-17	1028-1031	ihn	_	_
+13-18	1032-1041	Pausianis	*[5]|*[6]	LIT[5]|PERmentioned[6]
+13-19	1042-1043	(	*[5]	LIT[5]
+13-20	1044-1045	V	*[5]	LIT[5]
+13-21	1046-1047	.	*[5]	LIT[5]
+
+#Text=25.7 . )
+14-1	1048-1052	25.7	*[5]	LIT[5]
+14-2	1053-1054	.	*[5]	LIT[5]
+14-3	1055-1056	)	_	_
+
+#Text=beschreibt .
+15-1	1057-1067	beschreibt	_	_
+15-2	1068-1069	.	_	_
+
+#Text=Wollen Sie die Zeichnung davon ?
+16-1	1070-1076	Wollen	_	_
+16-2	1077-1080	Sie	_	_
+16-3	1081-1084	die	_	_
+16-4	1085-1094	Zeichnung	_	_
+16-5	1095-1100	davon	_	_
+16-6	1101-1102	?	_	_
+
+#Text=Schön ist er eben nicht aber wohlgebildet und der Styl verspricht des Meister Orator .
+17-1	1103-1108	Schön	_	_
+17-2	1109-1112	ist	_	_
+17-3	1113-1115	er	_	_
+17-4	1116-1120	eben	_	_
+17-5	1121-1126	nicht	_	_
+17-6	1127-1131	aber	_	_
+17-7	1132-1144	wohlgebildet	_	_
+17-8	1145-1148	und	_	_
+17-9	1149-1152	der	_	_
+17-10	1153-1157	Styl	_	_
+17-11	1158-1168	verspricht	_	_
+17-12	1169-1172	des	_	_
+17-13	1173-1180	Meister	_	_
+17-14	1181-1187	Orator	*	PERmentioned
+17-15	1188-1189	.	_	_
+
+#Text=Für Müllers Bilderheft paßt das Ding ebenso gut wie die Gemme von dem Apoll des Canachas .
+18-1	1190-1193	Für	_	_
+18-2	1194-1201	Müllers	*[7]|*[8]	LIT[7]|PERmentioned[8]
+18-3	1202-1212	Bilderheft	*[7]	LIT[7]
+18-4	1213-1217	paßt	_	_
+18-5	1218-1221	das	_	_
+18-6	1222-1226	Ding	_	_
+18-7	1227-1233	ebenso	_	_
+18-8	1234-1237	gut	_	_
+18-9	1238-1241	wie	_	_
+18-10	1242-1245	die	_	_
+18-11	1246-1251	Gemme	_	_
+18-12	1252-1255	von	_	_
+18-13	1256-1259	dem	*[9]	OBJ[9]
+18-14	1260-1265	Apoll	*[9]|*[10]	OBJ[9]|PERmentioned[10]
+18-15	1266-1269	des	*[9]	OBJ[9]
+18-16	1270-1278	Canachas	*[9]	OBJ[9]
+18-17	1279-1280	.	_	_
+
+#Text=Aber interessant ist das Ding ohne Spaß .
+19-1	1281-1285	Aber	_	_
+19-2	1286-1297	interessant	_	_
+19-3	1298-1301	ist	_	_
+19-4	1302-1305	das	_	_
+19-5	1306-1310	Ding	_	_
+19-6	1311-1315	ohne	_	_
+19-7	1316-1320	Spaß	_	_
+19-8	1321-1322	.	_	_

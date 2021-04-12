@@ -1,0 +1,235 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Rom , 14. März 1837 Sig .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	14.	*[4]	DATEletter[4]
+1-7	27-31	März	*[4]	DATEletter[4]
+1-8	32-36	1837	*[4]	DATEletter[4]
+1-9	37-40	Sig	_	_
+1-10	41-42	.	_	_
+
+#Text=Braun Dir .
+2-1	43-48	Braun	*	PERaddressee
+2-2	49-52	Dir	_	_
+2-3	53-54	.	_	_
+
+#Text=Rom .
+3-1	55-58	Rom	*	PLACEto
+3-2	59-60	.	_	_
+
+#Text=Gerh .
+4-1	61-65	Gerh	_	_
+4-2	66-67	.	_	_
+
+#Text=DAXXI .
+5-1	68-73	DAXXI	_	_
+5-2	74-75	.	_	_
+
+#Text=14/3 37 Bitte um 1 Ex .
+6-1	76-80	14/3	*[7]	DATEletter[7]
+6-2	81-83	37	*[7]	DATEletter[7]
+6-3	84-89	Bitte	_	_
+6-4	90-92	um	_	_
+6-5	93-94	1	_	_
+6-6	95-97	Ex	_	_
+6-7	98-99	.	_	_
+
+#Text=Archäolog .
+7-1	100-109	Archäolog	_	_
+7-2	110-111	.	_	_
+
+#Text=Intell .
+8-1	112-118	Intell	_	_
+8-2	119-120	.	_	_
+
+#Text=Blatt .
+9-1	121-126	Blatt	_	_
+9-2	127-128	.	_	_
+
+#Text=Der Brief an Avv .
+10-1	129-132	Der	_	_
+10-2	133-138	Brief	_	_
+10-3	139-141	an	_	_
+10-4	142-145	Avv	*[8]	PERmentioned[8]
+10-5	146-147	.	*[8]	PERmentioned[8]
+
+#Text=Pietro Russo Firenze etwa so zu corrigiren : Il Sig .
+11-1	148-154	Pietro	*[8]	PERmentioned[8]
+11-2	155-160	Russo	*[8]	PERmentioned[8]
+11-3	161-168	Firenze	*	PLACEmentioned
+11-4	169-173	etwa	_	_
+11-5	174-176	so	_	_
+11-6	177-179	zu	_	_
+11-7	180-190	corrigiren	_	_
+11-8	191-192	:	_	_
+11-9	193-195	Il	_	_
+11-10	196-199	Sig	_	_
+11-11	200-201	.	_	_
+
+#Text=Prof. Gerhard avendo ricevuto una Sua pregiata lettera ne !
+12-1	202-207	Prof.	_	_
+12-2	208-215	Gerhard	*	PERmentioned
+12-3	216-222	avendo	_	_
+12-4	223-231	ricevuto	_	_
+12-5	232-235	una	_	_
+12-6	236-239	Sua	_	_
+12-7	240-248	pregiata	_	_
+12-8	249-256	lettera	_	_
+12-9	257-259	ne	_	_
+12-10	260-261	!	_	_
+
+#Text=momenti della sua partenza da Roma , mi ha incaricato di ‚ „ e di aggiungere che per gratissime gli fossero state le Sue comunicazioni , egli debba riservarsi di trattare con Lei il contenuto dopo il suo ritorno dalla Grecia il quale debba aver luogo nel mese di maggio o giusno .
+13-1	262-269	momenti	_	_
+13-2	270-275	della	_	_
+13-3	276-279	sua	_	_
+13-4	280-288	partenza	_	_
+13-5	289-291	da	_	_
+13-6	292-296	Roma	*	PLACEmentioned
+13-7	297-298	,	_	_
+13-8	299-301	mi	_	_
+13-9	302-304	ha	_	_
+13-10	305-315	incaricato	_	_
+13-11	316-318	di	_	_
+13-12	319-320	‚	_	_
+13-13	321-322	„	_	_
+13-14	323-324	e	_	_
+13-15	325-327	di	_	_
+13-16	328-338	aggiungere	_	_
+13-17	339-342	che	_	_
+13-18	343-346	per	_	_
+13-19	347-357	gratissime	_	_
+13-20	358-361	gli	_	_
+13-21	362-369	fossero	_	_
+13-22	370-375	state	_	_
+13-23	376-378	le	_	_
+13-24	379-382	Sue	_	_
+13-25	383-396	comunicazioni	_	_
+13-26	397-398	,	_	_
+13-27	399-403	egli	_	_
+13-28	404-409	debba	_	_
+13-29	410-420	riservarsi	_	_
+13-30	421-423	di	_	_
+13-31	424-432	trattare	_	_
+13-32	433-436	con	_	_
+13-33	437-440	Lei	_	_
+13-34	441-443	il	_	_
+13-35	444-453	contenuto	_	_
+13-36	454-458	dopo	_	_
+13-37	459-461	il	_	_
+13-38	462-465	suo	_	_
+13-39	466-473	ritorno	_	_
+13-40	474-479	dalla	_	_
+13-41	480-486	Grecia	*	PLACEmentioned
+13-42	487-489	il	_	_
+13-43	490-495	quale	_	_
+13-44	496-501	debba	_	_
+13-45	502-506	aver	_	_
+13-46	507-512	luogo	_	_
+13-47	513-516	nel	_	_
+13-48	517-521	mese	_	_
+13-49	522-524	di	_	_
+13-50	525-531	maggio	*	DATEmentioned
+13-51	532-533	o	_	_
+13-52	534-540	giusno	*	DATEmentioned
+13-53	541-542	.	_	_
+
+#Text=Le il lodato Sig .
+14-1	543-545	Le	_	_
+14-2	546-548	il	_	_
+14-3	549-555	lodato	_	_
+14-4	556-559	Sig	_	_
+14-5	560-561	.	_	_
+
+#Text=Prof. il non intendere egli a pregiudicarepunto qualungque altra intenzione Ella potesse aver fra gli oggetti venuti in discorso tra lei e lui , quantunque egli abbia moltissimo desiderio delle speranze per accomodare con Lei un affare di reciproca soddisfazione .
+15-1	562-567	Prof.	_	_
+15-2	568-570	il	_	_
+15-3	571-574	non	_	_
+15-4	575-584	intendere	_	_
+15-5	585-589	egli	_	_
+15-6	590-591	a	_	_
+15-7	592-609	pregiudicarepunto	_	_
+15-8	610-620	qualungque	_	_
+15-9	621-626	altra	_	_
+15-10	627-637	intenzione	_	_
+15-11	638-642	Ella	_	_
+15-12	643-650	potesse	_	_
+15-13	651-655	aver	_	_
+15-14	656-659	fra	_	_
+15-15	660-663	gli	_	_
+15-16	664-671	oggetti	_	_
+15-17	672-678	venuti	_	_
+15-18	679-681	in	_	_
+15-19	682-690	discorso	_	_
+15-20	691-694	tra	_	_
+15-21	695-698	lei	_	_
+15-22	699-700	e	_	_
+15-23	701-704	lui	_	_
+15-24	705-706	,	_	_
+15-25	707-717	quantunque	_	_
+15-26	718-722	egli	_	_
+15-27	723-728	abbia	_	_
+15-28	729-739	moltissimo	_	_
+15-29	740-749	desiderio	_	_
+15-30	750-755	delle	_	_
+15-31	756-764	speranze	_	_
+15-32	765-768	per	_	_
+15-33	769-779	accomodare	_	_
+15-34	780-783	con	_	_
+15-35	784-787	Lei	_	_
+15-36	788-790	un	_	_
+15-37	791-797	affare	_	_
+15-38	798-800	di	_	_
+15-39	801-810	reciproca	_	_
+15-40	811-824	soddisfazione	_	_
+15-41	825-826	.	_	_
+
+#Text=Colgo quest'occasione Gerhard Volti .
+16-1	827-832	Colgo	_	_
+16-2	833-848	quest'occasione	_	_
+16-3	849-856	Gerhard	*	PERmentioned
+16-4	857-862	Volti	_	_
+16-5	863-864	.	_	_
+
+#Text=Wegen Spedition meiner Bücher ist zu bemerken daß im Fall dieselbe ohne mich erfolgen sollte , von Vollard einzufordern sind Beschreibung von Rom 2 voll .
+17-1	865-870	Wegen	_	_
+17-2	871-880	Spedition	_	_
+17-3	881-887	meiner	_	_
+17-4	888-894	Bücher	_	_
+17-5	895-898	ist	_	_
+17-6	899-901	zu	_	_
+17-7	902-910	bemerken	_	_
+17-8	911-914	daß	_	_
+17-9	915-917	im	_	_
+17-10	918-922	Fall	_	_
+17-11	923-931	dieselbe	_	_
+17-12	932-936	ohne	_	_
+17-13	937-941	mich	_	_
+17-14	942-950	erfolgen	_	_
+17-15	951-957	sollte	_	_
+17-16	958-959	,	_	_
+17-17	960-963	von	_	_
+17-18	964-971	Vollard	*	PERmentioned
+17-19	972-984	einzufordern	_	_
+17-20	985-989	sind	_	_
+17-21	990-1002	Beschreibung	_	_
+17-22	1003-1006	von	_	_
+17-23	1007-1010	Rom	*	PLACEmentioned
+17-24	1011-1012	2	_	_
+17-25	1013-1017	voll	_	_
+17-26	1018-1019	.	_	_
+
+#Text=Rückert Gedichte - Angelus Silesius - Kölle Rom
+18-1	1020-1027	Rückert	*	PERmentioned
+18-2	1028-1036	Gedichte	_	_
+18-3	1037-1038	-	_	_
+18-4	1039-1046	Angelus	_	_
+18-5	1047-1055	Silesius	_	_
+18-6	1056-1057	-	_	_
+18-7	1058-1063	Kölle	*	PERmentioned
+18-8	1064-1067	Rom	*	PLACEmentioned

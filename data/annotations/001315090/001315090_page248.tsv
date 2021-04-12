@@ -1,0 +1,42 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=q Lepsius an Henzen Berlin , 26. Dezember 1875 darauf eingehen zu können , da wir die dortigen Verhältnisse nicht vollständig übersehen können .
+1-1	0-1	q	_	_
+1-2	2-9	Lepsius	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	26.	*[1]	DATEletter[1]
+1-8	33-41	Dezember	*[1]	DATEletter[1]
+1-9	42-46	1875	*[1]	DATEletter[1]
+1-10	47-53	darauf	_	_
+1-11	54-62	eingehen	_	_
+1-12	63-65	zu	_	_
+1-13	66-72	können	_	_
+1-14	73-74	,	_	_
+1-15	75-77	da	_	_
+1-16	78-81	wir	_	_
+1-17	82-85	die	_	_
+1-18	86-94	dortigen	_	_
+1-19	95-107	Verhältnisse	_	_
+1-20	108-113	nicht	_	_
+1-21	114-125	vollständig	_	_
+1-22	126-135	übersehen	_	_
+1-23	136-142	können	_	_
+1-24	143-144	.	_	_
+
+#Text=Am Instituts-etat für 1876 ist nichts geändert .
+2-1	145-147	Am	_	_
+2-2	148-162	Instituts-etat	_	_
+2-3	163-166	für	_	_
+2-4	167-171	1876	*	DATEmentioned
+2-5	172-175	ist	_	_
+2-6	176-182	nichts	_	_
+2-7	183-191	geändert	_	_
+2-8	192-193	.	_	_
+
+#Text=Lepsius
+3-1	194-201	Lepsius	*	PERauthor

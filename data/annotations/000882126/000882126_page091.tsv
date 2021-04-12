@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=301 Braun an Gerhard Rom , 9. April 1836 Prof. Gerhard Roma li 9 Aprile 1836 .
+1-1	0-3	301	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	9.	*[13]	DATEletter[13]
+1-8	30-35	April	*[13]	DATEletter[13]
+1-9	36-40	1836	*[13]	DATEletter[13]
+1-10	41-46	Prof.	*[14]	PERaddressee[14]
+1-11	47-54	Gerhard	*[14]	PERaddressee[14]
+1-12	55-59	Roma	*	PLACEfrom
+1-13	60-62	li	_	_
+1-14	63-64	9	*[15]	DATEletter[15]
+1-15	65-71	Aprile	*[15]	DATEletter[15]
+1-16	72-76	1836	*[15]	DATEletter[15]
+1-17	77-78	.	_	_
+
+#Text=Hochverehrtester Freund !
+2-1	79-95	Hochverehrtester	_	_
+2-2	96-102	Freund	_	_
+2-3	103-104	!	_	_
+
+#Text=Ich bin seit 8 Tagen durch ein heftiges sehr schmerzhaftes Rheuma ans Zimmer gefesselt , habe daher Bunsen seit Empfang des zuletzt von Ihnen an ihn abgesandten Briefes nicht gesehen .
+3-1	105-108	Ich	_	_
+3-2	109-112	bin	_	_
+3-3	113-117	seit	_	_
+3-4	118-119	8	_	_
+3-5	120-125	Tagen	_	_
+3-6	126-131	durch	_	_
+3-7	132-135	ein	_	_
+3-8	136-144	heftiges	_	_
+3-9	145-149	sehr	_	_
+3-10	150-163	schmerzhaftes	_	_
+3-11	164-170	Rheuma	_	_
+3-12	171-174	ans	_	_
+3-13	175-181	Zimmer	_	_
+3-14	182-191	gefesselt	_	_
+3-15	192-193	,	_	_
+3-16	194-198	habe	_	_
+3-17	199-204	daher	_	_
+3-18	205-211	Bunsen	*	PERmentioned
+3-19	212-216	seit	_	_
+3-20	217-224	Empfang	_	_
+3-21	225-228	des	_	_
+3-22	229-236	zuletzt	_	_
+3-23	237-240	von	_	_
+3-24	241-246	Ihnen	_	_
+3-25	247-249	an	_	_
+3-26	250-253	ihn	_	_
+3-27	254-265	abgesandten	_	_
+3-28	266-273	Briefes	_	_
+3-29	274-279	nicht	_	_
+3-30	280-287	gesehen	_	_
+3-31	288-289	.	_	_
+
+#Text=De Antonis Revers betreffend , so beträgt die Nettosumme der am 2.ten März abgegangenen Kistensendung von 250 Gewicht 26 1/4 preuß .
+4-1	290-292	De	*[16]	PERmentioned[16]
+4-2	293-300	Antonis	*[16]	PERmentioned[16]
+4-3	301-307	Revers	_	_
+4-4	308-318	betreffend	_	_
+4-5	319-320	,	_	_
+4-6	321-323	so	_	_
+4-7	324-331	beträgt	_	_
+4-8	332-335	die	_	_
+4-9	336-346	Nettosumme	_	_
+4-10	347-350	der	_	_
+4-11	351-353	am	_	_
+4-12	354-359	2.ten	*[17]	DATEmentioned[17]
+4-13	360-364	März	*[17]	DATEmentioned[17]
+4-14	365-377	abgegangenen	_	_
+4-15	378-391	Kistensendung	_	_
+4-16	392-395	von	_	_
+4-17	396-399	250	_	_
+4-18	400-407	Gewicht	_	_
+4-19	408-410	26	_	_
+4-20	411-414	1/4	_	_
+4-21	415-420	preuß	_	_
+4-22	421-422	.	_	_
+
+#Text=Thaler .
+5-1	423-429	Thaler	_	_
+5-2	430-431	.	_	_
+
+#Text=Für diesen Preis liefert Ihnen De Antonis die Kiste ohne weitere Berechnung von Spesen an Ort und Stelle .
+6-1	432-435	Für	_	_
+6-2	436-442	diesen	_	_
+6-3	443-448	Preis	_	_
+6-4	449-456	liefert	_	_
+6-5	457-462	Ihnen	_	_
+6-6	463-465	De	*[18]	PERmentioned[18]
+6-7	466-473	Antonis	*[18]	PERmentioned[18]
+6-8	474-477	die	_	_
+6-9	478-483	Kiste	_	_
+6-10	484-488	ohne	_	_
+6-11	489-496	weitere	_	_
+6-12	497-507	Berechnung	_	_
+6-13	508-511	von	_	_
+6-14	512-518	Spesen	_	_
+6-15	519-521	an	_	_
+6-16	522-525	Ort	_	_
+6-17	526-529	und	_	_
+6-18	530-536	Stelle	_	_
+6-19	537-538	.	_	_
+
+#Text=Vollard hat dem Institut das Exemplar unserer Publicationen , welches er für Ingenheim im Empfang genommen zurückgestellt .
+7-1	539-546	Vollard	*	PERmentioned
+7-2	547-550	hat	_	_
+7-3	551-554	dem	_	_
+7-4	555-563	Institut	*	ORGmentioned
+7-5	564-567	das	_	_
+7-6	568-576	Exemplar	_	_
+7-7	577-584	unserer	_	_
+7-8	585-598	Publicationen	_	_
+7-9	599-600	,	_	_
+7-10	601-608	welches	_	_
+7-11	609-611	er	_	_
+7-12	612-615	für	_	_
+7-13	616-625	Ingenheim	*	PERmentioned
+7-14	626-628	im	_	_
+7-15	629-636	Empfang	_	_
+7-16	637-645	genommen	_	_
+7-17	646-660	zurückgestellt	_	_
+7-18	661-662	.	_	_
+
+#Text=Ich bitte Sie daher dem Herrn Grafen von Ingenheim alle unsere Werke von 1833 zukonmen zu lassen , mit Beischluß der Annalen 1832 fasc .
+8-1	663-666	Ich	_	_
+8-2	667-672	bitte	_	_
+8-3	673-676	Sie	_	_
+8-4	677-682	daher	_	_
+8-5	683-686	dem	_	_
+8-6	687-692	Herrn	*[19]	PERmentioned[19]
+8-7	693-699	Grafen	*[19]	PERmentioned[19]
+8-8	700-703	von	*[19]	PERmentioned[19]
+8-9	704-713	Ingenheim	*[19]	PERmentioned[19]
+8-10	714-718	alle	_	_
+8-11	719-725	unsere	_	_
+8-12	726-731	Werke	_	_
+8-13	732-735	von	_	_
+8-14	736-740	1833	*	DATEmentioned
+8-15	741-749	zukonmen	_	_
+8-16	750-752	zu	_	_
+8-17	753-759	lassen	_	_
+8-18	760-761	,	_	_
+8-19	762-765	mit	_	_
+8-20	766-775	Beischluß	_	_
+8-21	776-779	der	_	_
+8-22	780-787	Annalen	_	_
+8-23	788-792	1832	*	DATEmentioned
+8-24	793-797	fasc	_	_
+8-25	798-799	.	_	_
+
+#Text=3 und das Frontespizio .
+9-1	800-801	3	_	_
+9-2	802-805	und	_	_
+9-3	806-809	das	_	_
+9-4	810-822	Frontespizio	_	_
+9-5	823-824	.	_	_
+
+#Text=In Anfrage auf den Spagnaspiegel den Bunsen besitzt d. h. von dem er die Zeichnung ausgequetscht hat , sende ich Ihnen einen Probedruck unter Band mit heutiger Post .
+10-1	825-827	In	_	_
+10-2	828-835	Anfrage	_	_
+10-3	836-839	auf	_	_
+10-4	840-843	den	_	_
+10-5	844-857	Spagnaspiegel	*	OBJ
+10-6	858-861	den	_	_
+10-7	862-868	Bunsen	*	PERmentioned
+10-8	869-876	besitzt	_	_
+10-9	877-879	d.	_	_
+10-10	880-882	h.	_	_
+10-11	883-886	von	_	_
+10-12	887-890	dem	_	_
+10-13	891-893	er	_	_
+10-14	894-897	die	_	_
+10-15	898-907	Zeichnung	_	_
+10-16	908-921	ausgequetscht	_	_
+10-17	922-925	hat	_	_
+10-18	926-927	,	_	_
+10-19	928-933	sende	_	_
+10-20	934-937	ich	_	_
+10-21	938-943	Ihnen	_	_
+10-22	944-949	einen	_	_
+10-23	950-960	Probedruck	_	_
+10-24	961-966	unter	_	_
+10-25	967-971	Band	_	_
+10-26	972-975	mit	_	_
+10-27	976-984	heutiger	_	_
+10-28	985-989	Post	_	_
+10-29	990-991	.	_	_
+
+#Text=Ob ich Ihnen werde den Dienst leisten können , welchen Sie in Betreff der Schemata von mir verlangen , wird sehr von den Umständen abhängen .
+11-1	992-994	Ob	_	_
+11-2	995-998	ich	_	_
+11-3	999-1004	Ihnen	_	_
+11-4	1005-1010	werde	_	_
+11-5	1011-1014	den	_	_
+11-6	1015-1021	Dienst	_	_
+11-7	1022-1029	leisten	_	_
+11-8	1030-1036	können	_	_
+11-9	1037-1038	,	_	_
+11-10	1039-1046	welchen	_	_
+11-11	1047-1050	Sie	_	_
+11-12	1051-1053	in	_	_
+11-13	1054-1061	Betreff	_	_
+11-14	1062-1065	der	_	_
+11-15	1066-1074	Schemata	_	_
+11-16	1075-1078	von	_	_
+11-17	1079-1082	mir	_	_
+11-18	1083-1092	verlangen	_	_
+11-19	1093-1094	,	_	_
+11-20	1095-1099	wird	_	_
+11-21	1100-1104	sehr	_	_
+11-22	1105-1108	von	_	_
+11-23	1109-1112	den	_	_
+11-24	1113-1122	Umständen	_	_
+11-25	1123-1131	abhängen	_	_
+11-26	1132-1133	.	_	_
+
+#Text=Für England und Frankreich wird es ganz unmöglich sein \; denn an Bohn will Bunsen selbst schreiben und an Maze wird meine Correspondenz controllirt .
+12-1	1134-1137	Für	_	_
+12-2	1138-1145	England	*	PLACEmentioned
+12-3	1146-1149	und	_	_
+12-4	1150-1160	Frankreich	*	PLACEmentioned
+12-5	1161-1165	wird	_	_
+12-6	1166-1168	es	_	_
+12-7	1169-1173	ganz	_	_
+12-8	1174-1183	unmöglich	_	_
+12-9	1184-1188	sein	_	_
+12-10	1189-1190	\;	_	_
+12-11	1191-1195	denn	_	_
+12-12	1196-1198	an	_	_
+12-13	1199-1203	Bohn	*	PERmentioned
+12-14	1204-1208	will	_	_
+12-15	1209-1215	Bunsen	*	PERmentioned
+12-16	1216-1222	selbst	_	_
+12-17	1223-1232	schreiben	_	_
+12-18	1233-1236	und	_	_
+12-19	1237-1239	an	_	_
+12-20	1240-1244	Maze	*	PERmentioned
+12-21	1245-1249	wird	_	_
+12-22	1250-1255	meine	_	_
+12-23	1256-1269	Correspondenz	_	_
+12-24	1270-1281	controllirt	_	_
+12-25	1282-1283	.	_	_
+
+#Text=Ich werde indeß thuen was ich kann .
+13-1	1284-1287	Ich	_	_
+13-2	1288-1293	werde	_	_
+13-3	1294-1299	indeß	_	_
+13-4	1300-1305	thuen	_	_
+13-5	1306-1309	was	_	_
+13-6	1310-1313	ich	_	_
+13-7	1314-1318	kann	_	_
+13-8	1319-1320	.	_	_
+
+#Text=Ich habe eine große Tazza mit dem Namen eines
+14-1	1321-1324	Ich	_	_
+14-2	1325-1329	habe	_	_
+14-3	1330-1334	eine	_	_
+14-4	1335-1340	große	_	_
+14-5	1341-1346	Tazza	*	OBJ
+14-6	1347-1350	mit	_	_
+14-7	1351-1354	dem	_	_
+14-8	1355-1360	Namen	_	_
+14-9	1361-1366	eines	_	_

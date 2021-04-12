@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 213. März 1838 Sind wol meine Ankemorosbroschüren seiner Zeit nach Neapel und EnglandAgegangen ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-30	213.	*[4]	DATEletter[4]
+1-7	31-35	März	*[4]	DATEletter[4]
+1-8	36-40	1838	*[4]	DATEletter[4]
+1-9	41-45	Sind	_	_
+1-10	46-49	wol	_	_
+1-11	50-55	meine	_	_
+1-12	56-75	Ankemorosbroschüren	_	_
+1-13	76-82	seiner	_	_
+1-14	83-87	Zeit	_	_
+1-15	88-92	nach	_	_
+1-16	93-99	Neapel	*	PLACEmentioned
+1-17	100-103	und	_	_
+1-18	104-120	EnglandAgegangen	*	PLACEmentioned
+1-19	121-122	?	_	_
+
+#Text=Der Rest von Ex .
+2-1	123-126	Der	_	_
+2-2	127-131	Rest	_	_
+2-3	132-135	von	_	_
+2-4	136-138	Ex	_	_
+2-5	139-140	.	_	_
+
+#Text=der in meinem Koffer liegt kann nach Ihrem Gutdünken verkauft oder in nützlichem Falle vertheilt werden .
+3-1	141-144	der	_	_
+3-2	145-147	in	_	_
+3-3	148-154	meinem	_	_
+3-4	155-161	Koffer	_	_
+3-5	162-167	liegt	_	_
+3-6	168-172	kann	_	_
+3-7	173-177	nach	_	_
+3-8	178-183	Ihrem	_	_
+3-9	184-193	Gutdünken	_	_
+3-10	194-202	verkauft	_	_
+3-11	203-207	oder	_	_
+3-12	208-210	in	_	_
+3-13	211-221	nützlichem	_	_
+3-14	222-227	Falle	_	_
+3-15	228-237	vertheilt	_	_
+3-16	238-244	werden	_	_
+3-17	245-246	.	_	_
+
+#Text=Was das Institut neuerdings mit Maze abgemacht hat weiß ich nicht \; er bleibe oder aber scheide aus so ist sehr darauf zu denken daß die bei ihm deponierten Papiere der französischen Sektion und hauptsächlich die Pariser Platten der Mon .
+4-1	247-250	Was	_	_
+4-2	251-254	das	_	_
+4-3	255-263	Institut	*	ORGmentioned
+4-4	264-274	neuerdings	_	_
+4-5	275-278	mit	_	_
+4-6	279-283	Maze	*	PERmentioned
+4-7	284-293	abgemacht	_	_
+4-8	294-297	hat	_	_
+4-9	298-302	weiß	_	_
+4-10	303-306	ich	_	_
+4-11	307-312	nicht	_	_
+4-12	313-314	\;	_	_
+4-13	315-317	er	_	_
+4-14	318-324	bleibe	_	_
+4-15	325-329	oder	_	_
+4-16	330-334	aber	_	_
+4-17	335-342	scheide	_	_
+4-18	343-346	aus	_	_
+4-19	347-349	so	_	_
+4-20	350-353	ist	_	_
+4-21	354-358	sehr	_	_
+4-22	359-365	darauf	_	_
+4-23	366-368	zu	_	_
+4-24	369-375	denken	_	_
+4-25	376-379	daß	_	_
+4-26	380-383	die	_	_
+4-27	384-387	bei	_	_
+4-28	388-391	ihm	_	_
+4-29	392-403	deponierten	_	_
+4-30	404-411	Papiere	_	_
+4-31	412-415	der	_	_
+4-32	416-429	französischen	_	_
+4-33	430-437	Sektion	_	_
+4-34	438-441	und	_	_
+4-35	442-455	hauptsächlich	_	_
+4-36	456-459	die	_	_
+4-37	460-467	Pariser	*	PLACEmentioned
+4-38	468-475	Platten	_	_
+4-39	476-479	der	_	_
+4-40	480-483	Mon	_	_
+4-41	484-485	.	_	_
+
+#Text=an eine sichere Person baldmöglichst abgeliefert werden , wäre es auch nur um dieselben dem Bereich der Pariser Collegen zu entziehen .
+5-1	486-488	an	_	_
+5-2	489-493	eine	_	_
+5-3	494-501	sichere	_	_
+5-4	502-508	Person	_	_
+5-5	509-522	baldmöglichst	_	_
+5-6	523-534	abgeliefert	_	_
+5-7	535-541	werden	_	_
+5-8	542-543	,	_	_
+5-9	544-548	wäre	_	_
+5-10	549-551	es	_	_
+5-11	552-556	auch	_	_
+5-12	557-560	nur	_	_
+5-13	561-563	um	_	_
+5-14	564-573	dieselben	_	_
+5-15	574-577	dem	_	_
+5-16	578-585	Bereich	_	_
+5-17	586-589	der	_	_
+5-18	590-597	Pariser	*	PLACEmentioned
+5-19	598-606	Collegen	_	_
+5-20	607-609	zu	_	_
+5-21	610-619	entziehen	_	_
+5-22	620-621	.	_	_
+
+#Text=Panofka hat oft schon hierauf aufmerksam gemacht , ich auch .
+6-1	622-629	Panofka	*	PERmentioned
+6-2	630-633	hat	_	_
+6-3	634-637	oft	_	_
+6-4	638-643	schon	_	_
+6-5	644-651	hierauf	_	_
+6-6	652-662	aufmerksam	_	_
+6-7	663-670	gemacht	_	_
+6-8	671-672	,	_	_
+6-9	673-676	ich	_	_
+6-10	677-681	auch	_	_
+6-11	682-683	.	_	_

@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 20. Dezember 1848 g . 2/I 49 r . 4/I 49 Dr. Braun Berlin 20 Dec 49 Mein theurer Freund .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	20.	*[2]	DATEletter[2]
+1-7	30-38	Dezember	*[2]	DATEletter[2]
+1-8	39-43	1848	*[2]	DATEletter[2]
+1-9	44-45	g	_	_
+1-10	46-47	.	_	_
+1-11	48-51	2/I	*[3]	DATErecieved[3]
+1-12	52-54	49	*[3]	DATErecieved[3]
+1-13	55-56	r	_	_
+1-14	57-58	.	_	_
+1-15	59-62	4/I	*[4]	DATEanswered[4]
+1-16	63-65	49	*[4]	DATEanswered[4]
+1-17	66-69	Dr.	*[1]	PERaddressee[1]
+1-18	70-75	Braun	*[1]	PERaddressee[1]
+1-19	76-82	Berlin	*	PLACEfrom
+1-20	83-85	20	*[5]	DATEletter[5]
+1-21	86-89	Dec	*[5]	DATEletter[5]
+1-22	90-92	49	*[5]	DATEletter[5]
+1-23	93-97	Mein	_	_
+1-24	98-105	theurer	_	_
+1-25	106-112	Freund	_	_
+1-26	113-114	.	_	_
+
+#Text=Eben als ich Beigehndes an Henzen absende , langt Ihr Brief vom 9. d. M. an .
+2-1	115-119	Eben	_	_
+2-2	120-123	als	_	_
+2-3	124-127	ich	_	_
+2-4	128-138	Beigehndes	_	_
+2-5	139-141	an	_	_
+2-6	142-148	Henzen	*	PERmentioned
+2-7	149-156	absende	_	_
+2-8	157-158	,	_	_
+2-9	159-164	langt	_	_
+2-10	165-168	Ihr	_	_
+2-11	169-174	Brief	_	_
+2-12	175-178	vom	_	_
+2-13	179-181	9.	*[6]	DATEmentioned[6]
+2-14	182-184	d.	*[6]	DATEmentioned[6]
+2-15	185-187	M.	*[6]	DATEmentioned[6]
+2-16	188-190	an	_	_
+2-17	191-192	.	_	_
+
+#Text=Ihre 50 rt aus Breslau , samt 146 rt 27 von Leemans fürs Institut bringt also Usedom mit .
+3-1	193-197	Ihre	_	_
+3-2	198-200	50	_	_
+3-3	201-203	rt	_	_
+3-4	204-207	aus	_	_
+3-5	208-215	Breslau	*	PLACEmentioned
+3-6	216-217	,	_	_
+3-7	218-222	samt	_	_
+3-8	223-226	146	_	_
+3-9	227-229	rt	_	_
+3-10	230-232	27	_	_
+3-11	233-236	von	_	_
+3-12	237-244	Leemans	*	PERmentioned
+3-13	245-249	fürs	_	_
+3-14	250-258	Institut	*	ORGmentioned
+3-15	259-265	bringt	_	_
+3-16	266-270	also	_	_
+3-17	271-277	Usedom	*	PERmentioned
+3-18	278-281	mit	_	_
+3-19	282-283	.	_	_
+
+#Text=Weder Newton noch was er mitbringen sollte ist angelangt , letzteres wird wol von London kommen .
+4-1	284-289	Weder	_	_
+4-2	290-296	Newton	*	PERmentioned
+4-3	297-301	noch	_	_
+4-4	302-305	was	_	_
+4-5	306-308	er	_	_
+4-6	309-319	mitbringen	_	_
+4-7	320-326	sollte	_	_
+4-8	327-330	ist	_	_
+4-9	331-340	angelangt	_	_
+4-10	341-342	,	_	_
+4-11	343-352	letzteres	_	_
+4-12	353-357	wird	_	_
+4-13	358-361	wol	_	_
+4-14	362-365	von	_	_
+4-15	366-372	London	*	PLACEmentioned
+4-16	373-379	kommen	_	_
+4-17	380-381	.	_	_
+
+#Text=Von Ihren galvanoplastischen Abdrücken des homer .
+5-1	382-385	Von	_	_
+5-2	386-391	Ihren	_	_
+5-3	392-410	galvanoplastischen	_	_
+5-4	411-420	Abdrücken	_	_
+5-5	421-424	des	_	_
+5-6	425-430	homer	*[7]	OBJ[7]
+5-7	431-432	.	*[7]	OBJ[7]
+
+#Text=Reliefs hat Schulze eins erhalten \; sonst ließ ich sie absichtlich unberührt um dem Reiz der Neuigkeit nicht vorzugreifen .
+6-1	433-440	Reliefs	*[7]	OBJ[7]
+6-2	441-444	hat	_	_
+6-3	445-452	Schulze	*	PERmentioned
+6-4	453-457	eins	_	_
+6-5	458-466	erhalten	_	_
+6-6	467-468	\;	_	_
+6-7	469-474	sonst	_	_
+6-8	475-479	ließ	_	_
+6-9	480-483	ich	_	_
+6-10	484-487	sie	_	_
+6-11	488-499	absichtlich	_	_
+6-12	500-509	unberührt	_	_
+6-13	510-512	um	_	_
+6-14	513-516	dem	_	_
+6-15	517-521	Reiz	_	_
+6-16	522-525	der	_	_
+6-17	526-535	Neuigkeit	_	_
+6-18	536-541	nicht	_	_
+6-19	542-554	vorzugreifen	_	_
+6-20	555-556	.	_	_
+
+#Text=Der Brief an den König hängt am Index , aber auch an gesandtschaftlicher Empfehlung \; dennoch will ich , da er eindringlich genug geschrieben ist und der jetzige Zeitpunkt vermuthlich günstiger ist als der nächstfolgende ihn abgehn lassen , sobald der Index zur Stelle ist .
+7-1	557-560	Der	_	_
+7-2	561-566	Brief	_	_
+7-3	567-569	an	_	_
+7-4	570-573	den	_	_
+7-5	574-579	König	*	PERmentioned
+7-6	580-585	hängt	_	_
+7-7	586-588	am	_	_
+7-8	589-594	Index	_	_
+7-9	595-596	,	_	_
+7-10	597-601	aber	_	_
+7-11	602-606	auch	_	_
+7-12	607-609	an	_	_
+7-13	610-629	gesandtschaftlicher	_	_
+7-14	630-640	Empfehlung	_	_
+7-15	641-642	\;	_	_
+7-16	643-650	dennoch	_	_
+7-17	651-655	will	_	_
+7-18	656-659	ich	_	_
+7-19	660-661	,	_	_
+7-20	662-664	da	_	_
+7-21	665-667	er	_	_
+7-22	668-680	eindringlich	_	_
+7-23	681-686	genug	_	_
+7-24	687-698	geschrieben	_	_
+7-25	699-702	ist	_	_
+7-26	703-706	und	_	_
+7-27	707-710	der	_	_
+7-28	711-718	jetzige	_	_
+7-29	719-728	Zeitpunkt	_	_
+7-30	729-740	vermuthlich	_	_
+7-31	741-750	günstiger	_	_
+7-32	751-754	ist	_	_
+7-33	755-758	als	_	_
+7-34	759-762	der	_	_
+7-35	763-777	nächstfolgende	_	_
+7-36	778-781	ihn	_	_
+7-37	782-788	abgehn	_	_
+7-38	789-795	lassen	_	_
+7-39	796-797	,	_	_
+7-40	798-804	sobald	_	_
+7-41	805-808	der	_	_
+7-42	809-814	Index	_	_
+7-43	815-818	zur	_	_
+7-44	819-825	Stelle	_	_
+7-45	826-829	ist	_	_
+7-46	830-831	.	_	_
+
+#Text=Gibt es aber eine Form die Gesandtschaft nachmuntern zu lassen , so ist es erwünscht \; am Ende ist auch Reumont der direkt mit dem König korrespondirt kein übler Fürsprecher .
+8-1	832-836	Gibt	_	_
+8-2	837-839	es	_	_
+8-3	840-844	aber	_	_
+8-4	845-849	eine	_	_
+8-5	850-854	Form	_	_
+8-6	855-858	die	_	_
+8-7	859-872	Gesandtschaft	_	_
+8-8	873-884	nachmuntern	_	_
+8-9	885-887	zu	_	_
+8-10	888-894	lassen	_	_
+8-11	895-896	,	_	_
+8-12	897-899	so	_	_
+8-13	900-903	ist	_	_
+8-14	904-906	es	_	_
+8-15	907-916	erwünscht	_	_
+8-16	917-918	\;	_	_
+8-17	919-921	am	_	_
+8-18	922-926	Ende	_	_
+8-19	927-930	ist	_	_
+8-20	931-935	auch	_	_
+8-21	936-943	Reumont	*	PERmentioned
+8-22	944-947	der	_	_
+8-23	948-954	direkt	_	_
+8-24	955-958	mit	_	_
+8-25	959-962	dem	_	_
+8-26	963-968	König	*	PERmentioned
+8-27	969-982	korrespondirt	_	_
+8-28	983-987	kein	_	_
+8-29	988-993	übler	_	_
+8-30	994-1005	Fürsprecher	_	_
+8-31	1006-1007	.	_	_
+
+#Text=Wo haust Lotzbeck ?
+9-1	1008-1010	Wo	_	_
+9-2	1011-1016	haust	_	_
+9-3	1017-1025	Lotzbeck	*	PERmentioned
+9-4	1026-1027	?	_	_
+
+#Text=Er soll ein Programm , und auch-ein Manifest der Archäologischen Zeitung haben und
+10-1	1028-1030	Er	_	_
+10-2	1031-1035	soll	_	_
+10-3	1036-1039	ein	_	_
+10-4	1040-1048	Programm	_	_
+10-5	1049-1050	,	_	_
+10-6	1051-1054	und	_	_
+10-7	1055-1063	auch-ein	_	_
+10-8	1064-1072	Manifest	_	_
+10-9	1073-1076	der	_	_
+10-10	1077-1092	Archäologischen	_	_
+10-11	1093-1100	Zeitung	_	_
+10-12	1101-1106	haben	_	_
+10-13	1107-1110	und	_	_

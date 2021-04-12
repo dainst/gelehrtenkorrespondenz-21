@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=282 Helbig an Henzen Rom , 29. Juni 1870 4/7 70 Roma , li 29. Juni 1870 Lieber Herr Professor In aller Eile nur wenige Zeilen , um Ihnen ein Lebenszeichen zu geben und Sie in aller Kürze über den Stand der hiesigen Dinge zu unterrichten .
+1-1	0-3	282	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	29.	*[3]	DATEletter[3]
+1-8	31-35	Juni	*[3]	DATEletter[3]
+1-9	36-40	1870	*[3]	DATEletter[3]
+1-10	41-44	4/7	*[4]	DATErecieved[4]
+1-11	45-47	70	*[4]	DATErecieved[4]
+1-12	48-52	Roma	*	PLACEfrom
+1-13	53-54	,	_	_
+1-14	55-57	li	_	_
+1-15	58-61	29.	*[5]	DATEletter[5]
+1-16	62-66	Juni	*[5]	DATEletter[5]
+1-17	67-71	1870	*[5]	DATEletter[5]
+1-18	72-78	Lieber	_	_
+1-19	79-83	Herr	_	_
+1-20	84-93	Professor	_	_
+1-21	94-96	In	_	_
+1-22	97-102	aller	_	_
+1-23	103-107	Eile	_	_
+1-24	108-111	nur	_	_
+1-25	112-118	wenige	_	_
+1-26	119-125	Zeilen	_	_
+1-27	126-127	,	_	_
+1-28	128-130	um	_	_
+1-29	131-136	Ihnen	_	_
+1-30	137-140	ein	_	_
+1-31	141-154	Lebenszeichen	_	_
+1-32	155-157	zu	_	_
+1-33	158-163	geben	_	_
+1-34	164-167	und	_	_
+1-35	168-171	Sie	_	_
+1-36	172-174	in	_	_
+1-37	175-180	aller	_	_
+1-38	181-186	Kürze	_	_
+1-39	187-191	über	_	_
+1-40	192-195	den	_	_
+1-41	196-201	Stand	_	_
+1-42	202-205	der	_	_
+1-43	206-214	hiesigen	_	_
+1-44	215-220	Dinge	_	_
+1-45	221-223	zu	_	_
+1-46	224-236	unterrichten	_	_
+1-47	237-238	.	_	_
+
+#Text=Uns hier in Rom geht es gut .
+2-1	239-242	Uns	_	_
+2-2	243-247	hier	_	_
+2-3	248-250	in	_	_
+2-4	251-254	Rom	*	PLACEmentioned
+2-5	255-259	geht	_	_
+2-6	260-262	es	_	_
+2-7	263-266	gut	_	_
+2-8	267-268	.	_	_
+
+#Text=Auch aus Zürich habe ich gute Nachrichten .
+3-1	269-273	Auch	_	_
+3-2	274-277	aus	_	_
+3-3	278-284	Zürich	*	PLACEmentioned
+3-4	285-289	habe	_	_
+3-5	290-293	ich	_	_
+3-6	294-298	gute	_	_
+3-7	299-310	Nachrichten	_	_
+3-8	311-312	.	_	_
+
+#Text=Der Aufenthalt in Rom war bis gestern ganz angenehn , ungleich angenehner als in Florenz und in Venedig .
+4-1	313-316	Der	_	_
+4-2	317-327	Aufenthalt	_	_
+4-3	328-330	in	_	_
+4-4	331-334	Rom	*	PLACEmentioned
+4-5	335-338	war	_	_
+4-6	339-342	bis	_	_
+4-7	343-350	gestern	_	_
+4-8	351-355	ganz	_	_
+4-9	356-364	angenehn	_	_
+4-10	365-366	,	_	_
+4-11	367-375	ungleich	_	_
+4-12	376-386	angenehner	_	_
+4-13	387-390	als	_	_
+4-14	391-393	in	_	_
+4-15	394-401	Florenz	*	PLACEmentioned
+4-16	402-405	und	_	_
+4-17	406-408	in	_	_
+4-18	409-416	Venedig	*	PLACEmentioned
+4-19	417-418	.	_	_
+
+#Text=Erst heute haben wir einen jener unerträglichen Sciroccotage .
+5-1	419-423	Erst	_	_
+5-2	424-429	heute	_	_
+5-3	430-435	haben	_	_
+5-4	436-439	wir	_	_
+5-5	440-445	einen	_	_
+5-6	446-451	jener	_	_
+5-7	452-466	unerträglichen	_	_
+5-8	467-479	Sciroccotage	_	_
+5-9	480-481	.	_	_
+
+#Text=Geschäftsbriefe sind wenige eingetroffen : ein wüthender von Jatta , der Ihren letzten Brief mißverstanden und meinte , Sie hielten seinen Artikel für schlecht und unzulässig .
+6-1	482-497	Geschäftsbriefe	_	_
+6-2	498-502	sind	_	_
+6-3	503-509	wenige	_	_
+6-4	510-522	eingetroffen	_	_
+6-5	523-524	:	_	_
+6-6	525-528	ein	_	_
+6-7	529-538	wüthender	_	_
+6-8	539-542	von	_	_
+6-9	543-548	Jatta	*	PERmentioned
+6-10	549-550	,	_	_
+6-11	551-554	der	_	_
+6-12	555-560	Ihren	_	_
+6-13	561-568	letzten	_	_
+6-14	569-574	Brief	_	_
+6-15	575-588	mißverstanden	_	_
+6-16	589-592	und	_	_
+6-17	593-599	meinte	_	_
+6-18	600-601	,	_	_
+6-19	602-605	Sie	_	_
+6-20	606-613	hielten	_	_
+6-21	614-620	seinen	_	_
+6-22	621-628	Artikel	_	_
+6-23	629-632	für	_	_
+6-24	633-641	schlecht	_	_
+6-25	642-645	und	_	_
+6-26	646-656	unzulässig	_	_
+6-27	657-658	.	_	_
+
+#Text=Ich habe ihn beruhigt .
+7-1	659-662	Ich	_	_
+7-2	663-667	habe	_	_
+7-3	668-671	ihn	_	_
+7-4	672-680	beruhigt	_	_
+7-5	681-682	.	_	_
+
+#Text=Von Conze : Bitte , das fragliche Stück des lakonischen Reliefs \* im Holzschnitt im Texte publiciren zu dürfen .
+8-1	683-686	Von	_	_
+8-2	687-692	Conze	*	PERmentioned
+8-3	693-694	:	_	_
+8-4	695-700	Bitte	_	_
+8-5	701-702	,	_	_
+8-6	703-706	das	_	_
+8-7	707-716	fragliche	_	_
+8-8	717-722	Stück	_	_
+8-9	723-726	des	_	_
+8-10	727-738	lakonischen	_	_
+8-11	739-746	Reliefs	*	OBJ
+8-12	747-748	\*	_	_
+8-13	749-751	im	_	_
+8-14	752-763	Holzschnitt	_	_
+8-15	764-766	im	_	_
+8-16	767-772	Texte	_	_
+8-17	773-783	publiciren	_	_
+8-18	784-786	zu	_	_
+8-19	787-793	dürfen	_	_
+8-20	794-795	.	_	_
+
+#Text=+ Am Rande : Ann .
+9-1	796-797	+	_	_
+9-2	798-800	Am	_	_
+9-3	801-806	Rande	_	_
+9-4	807-808	:	_	_
+9-5	809-812	Ann	_	_
+9-6	813-814	.	_	_
+
+#Text=1861 tav .
+10-1	815-819	1861	_	_
+10-2	820-823	tav	_	_
+10-3	824-825	.	_	_
+
+#Text=d'agg .
+11-1	826-831	d'agg	_	_
+11-2	832-833	.	_	_
+
+#Text=C , wo fraglich , ob Kranz oder Harper .
+12-1	834-835	C	_	_
+12-2	836-837	,	_	_
+12-3	838-840	wo	_	_
+12-4	841-849	fraglich	_	_
+12-5	850-851	,	_	_
+12-6	852-854	ob	_	_
+12-7	855-860	Kranz	_	_
+12-8	861-865	oder	_	_
+12-9	866-872	Harper	_	_
+12-10	873-874	.	_	_
+
+#Text=Gewährt mit der Bitte , den Holzschnitt in Wien machen zu lassen .
+13-1	875-882	Gewährt	_	_
+13-2	883-886	mit	_	_
+13-3	887-890	der	_	_
+13-4	891-896	Bitte	_	_
+13-5	897-898	,	_	_
+13-6	899-902	den	_	_
+13-7	903-914	Holzschnitt	_	_
+13-8	915-917	in	_	_
+13-9	918-922	Wien	*	PLACEmentioned
+13-10	923-929	machen	_	_
+13-11	930-932	zu	_	_
+13-12	933-939	lassen	_	_
+13-13	940-941	.	_	_
+
+#Text=Einen Brief von Michaelis lege ich bei .
+14-1	942-947	Einen	_	_
+14-2	948-953	Brief	_	_
+14-3	954-957	von	_	_
+14-4	958-967	Michaelis	*	PERmentioned
+14-5	968-972	lege	_	_
+14-6	973-976	ich	_	_
+14-7	977-980	bei	_	_
+14-8	981-982	.	_	_
+
+#Text=Der mich betreffende Passus ist recht dämlig .
+15-1	983-986	Der	_	_
+15-2	987-991	mich	_	_
+15-3	992-1003	betreffende	_	_
+15-4	1004-1010	Passus	_	_
+15-5	1011-1014	ist	_	_
+15-6	1015-1020	recht	_	_
+15-7	1021-1027	dämlig	_	_
+15-8	1028-1029	.	_	_
+
+#Text=Ich hab die Zeich-
+16-1	1030-1033	Ich	_	_
+16-2	1034-1037	hab	_	_
+16-3	1038-1041	die	_	_
+16-4	1042-1048	Zeich-	_	_

@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> 71 681 Braun an Gerhard Prof. Gerhard Rom , 7 .
+1-1	0-1	>	_	_
+1-2	2-4	71	_	_
+1-3	5-8	681	_	_
+1-4	9-14	Braun	*	PERauthor
+1-5	15-17	an	_	_
+1-6	18-25	Gerhard	*	PERaddressee
+1-7	26-31	Prof.	*[1]	PERaddressee[1]
+1-8	32-39	Gerhard	*[1]	PERaddressee[1]
+1-9	40-43	Rom	*	PLACEfrom
+1-10	44-45	,	_	_
+1-11	46-47	7	*[2]	DATEletter[2]
+1-12	48-49	.	*[2]	DATEletter[2]
+
+#Text=Oktober 1834 Roma li 7 Ottobre 1834 Hochverehrter Freund \| !
+2-1	50-57	Oktober	*[2]	DATEletter[2]
+2-2	58-62	1834	*[2]	DATEletter[2]
+2-3	63-67	Roma	*	PLACEfrom
+2-4	68-70	li	_	_
+2-5	71-72	7	*[3]	DATEletter[3]
+2-6	73-80	Ottobre	*[3]	DATEletter[3]
+2-7	81-85	1834	*[3]	DATEletter[3]
+2-8	86-99	Hochverehrter	*[4]	PERaddressee[4]
+2-9	100-106	Freund	*[4]	PERaddressee[4]
+2-10	107-108	\|	_	_
+2-11	109-110	!	_	_
+
+#Text=Da es an Stoff nicht fehlt , so schreibe ich schon heute wieder an Sie nach München .
+3-1	111-113	Da	_	_
+3-2	114-116	es	_	_
+3-3	117-119	an	_	_
+3-4	120-125	Stoff	_	_
+3-5	126-131	nicht	_	_
+3-6	132-137	fehlt	_	_
+3-7	138-139	,	_	_
+3-8	140-142	so	_	_
+3-9	143-151	schreibe	_	_
+3-10	152-155	ich	_	_
+3-11	156-161	schon	_	_
+3-12	162-167	heute	_	_
+3-13	168-174	wieder	_	_
+3-14	175-177	an	_	_
+3-15	178-181	Sie	_	_
+3-16	182-186	nach	_	_
+3-17	187-194	München	*	PLACEmentioned
+3-18	195-196	.	_	_
+
+#Text=Ich stelle die einzelnen Posten ohne Emballage , wie sie folgen unter einander .
+4-1	197-200	Ich	_	_
+4-2	201-207	stelle	_	_
+4-3	208-211	die	_	_
+4-4	212-221	einzelnen	_	_
+4-5	222-228	Posten	_	_
+4-6	229-233	ohne	_	_
+4-7	234-243	Emballage	_	_
+4-8	244-245	,	_	_
+4-9	246-249	wie	_	_
+4-10	250-253	sie	_	_
+4-11	254-260	folgen	_	_
+4-12	261-266	unter	_	_
+4-13	267-275	einander	_	_
+4-14	276-277	.	_	_
+
+#Text=Inghirami hat wie ich glaube durch Capobianchi ten Heftes ( 13 und 14 fehlen dem Insti- 2 Exemplare des 16 tutsexemplar ) seines Vasenwerkes eingesandt \; nebst dem habe ich aus selbiger Hand empfangen 2 Exemplare der Venere Proserpina , Ich erwarte Ihre Verfügung über das eine Exenplar des Vasenwerkes sowie über letztere .
+5-1	278-287	Inghirami	*	PERmentioned
+5-2	288-291	hat	_	_
+5-3	292-295	wie	_	_
+5-4	296-299	ich	_	_
+5-5	300-306	glaube	_	_
+5-6	307-312	durch	_	_
+5-7	313-324	Capobianchi	*	PERmentioned
+5-8	325-328	ten	_	_
+5-9	329-335	Heftes	_	_
+5-10	336-337	(	_	_
+5-11	338-340	13	_	_
+5-12	341-344	und	_	_
+5-13	345-347	14	_	_
+5-14	348-354	fehlen	_	_
+5-15	355-358	dem	_	_
+5-16	359-365	Insti-	_	_
+5-17	366-367	2	_	_
+5-18	368-377	Exemplare	_	_
+5-19	378-381	des	_	_
+5-20	382-384	16	_	_
+5-21	385-397	tutsexemplar	_	_
+5-22	398-399	)	_	_
+5-23	400-406	seines	_	_
+5-24	407-418	Vasenwerkes	*	LIT
+5-25	419-429	eingesandt	_	_
+5-26	430-431	\;	_	_
+5-27	432-437	nebst	_	_
+5-28	438-441	dem	_	_
+5-29	442-446	habe	_	_
+5-30	447-450	ich	_	_
+5-31	451-454	aus	_	_
+5-32	455-463	selbiger	_	_
+5-33	464-468	Hand	_	_
+5-34	469-478	empfangen	_	_
+5-35	479-480	2	_	_
+5-36	481-490	Exemplare	_	_
+5-37	491-494	der	_	_
+5-38	495-501	Venere	*[5]	LIT[5]
+5-39	502-512	Proserpina	*[5]	LIT[5]
+5-40	513-514	,	_	_
+5-41	515-518	Ich	_	_
+5-42	519-526	erwarte	_	_
+5-43	527-531	Ihre	_	_
+5-44	532-541	Verfügung	_	_
+5-45	542-546	über	_	_
+5-46	547-550	das	_	_
+5-47	551-555	eine	_	_
+5-48	556-564	Exenplar	_	_
+5-49	565-568	des	_	_
+5-50	569-580	Vasenwerkes	*	LIT
+5-51	581-586	sowie	_	_
+5-52	587-591	über	_	_
+5-53	592-600	letztere	_	_
+5-54	601-602	.	_	_
+
+#Text=Campanari hat eine Schrift in 4° über die Achilles und Ajaxvase pubblicirt \; betitelt ‚ „ in einer Nota Elogen auch seinem Rivalen Nibby , von dem er sich nur in dem einen Punkt zu entfernen scheint , daß er das Spiel für ein verhängnisvolles nimmt .
+6-1	603-612	Campanari	*	PERmentioned
+6-2	613-616	hat	_	_
+6-3	617-621	eine	_	_
+6-4	622-629	Schrift	*	LIT
+6-5	630-632	in	_	_
+6-6	633-635	4°	_	_
+6-7	636-640	über	_	_
+6-8	641-644	die	_	_
+6-9	645-653	Achilles	*[6]	OBJ[6]
+6-10	654-657	und	*[6]	OBJ[6]
+6-11	658-666	Ajaxvase	*[6]	OBJ[6]
+6-12	667-677	pubblicirt	_	_
+6-13	678-679	\;	_	_
+6-14	680-688	betitelt	_	_
+6-15	689-690	‚	_	_
+6-16	691-692	„	_	_
+6-17	693-695	in	_	_
+6-18	696-701	einer	_	_
+6-19	702-706	Nota	_	_
+6-20	707-713	Elogen	_	_
+6-21	714-718	auch	_	_
+6-22	719-725	seinem	_	_
+6-23	726-733	Rivalen	_	_
+6-24	734-739	Nibby	*	PERmentioned
+6-25	740-741	,	_	_
+6-26	742-745	von	_	_
+6-27	746-749	dem	_	_
+6-28	750-752	er	_	_
+6-29	753-757	sich	_	_
+6-30	758-761	nur	_	_
+6-31	762-764	in	_	_
+6-32	765-768	dem	_	_
+6-33	769-774	einen	_	_
+6-34	775-780	Punkt	_	_
+6-35	781-783	zu	_	_
+6-36	784-793	entfernen	_	_
+6-37	794-801	scheint	_	_
+6-38	802-803	,	_	_
+6-39	804-807	daß	_	_
+6-40	808-810	er	_	_
+6-41	811-814	das	_	_
+6-42	815-820	Spiel	_	_
+6-43	821-824	für	_	_
+6-44	825-828	ein	_	_
+6-45	829-845	verhängnisvolles	_	_
+6-46	846-851	nimmt	_	_
+6-47	852-853	.	_	_
+
+#Text=Er hat mir ein Exemplar für Sie übergeben .
+7-1	854-856	Er	_	_
+7-2	857-860	hat	_	_
+7-3	861-864	mir	_	_
+7-4	865-868	ein	_	_
+7-5	869-877	Exemplar	_	_
+7-6	878-881	für	_	_
+7-7	882-885	Sie	_	_
+7-8	886-895	übergeben	_	_
+7-9	896-897	.	_	_
+
+#Text=Auch habe ich den Kupferstich bei ihm gesehen \; es ist eine leidliche Radierung , ziemlich geistlos \; die Präsicion des Originals leuchtet wenig durch .
+8-1	898-902	Auch	_	_
+8-2	903-907	habe	_	_
+8-3	908-911	ich	_	_
+8-4	912-915	den	_	_
+8-5	916-927	Kupferstich	_	_
+8-6	928-931	bei	_	_
+8-7	932-935	ihm	_	_
+8-8	936-943	gesehen	_	_
+8-9	944-945	\;	_	_
+8-10	946-948	es	_	_
+8-11	949-952	ist	_	_
+8-12	953-957	eine	_	_
+8-13	958-967	leidliche	_	_
+8-14	968-977	Radierung	_	_
+8-15	978-979	,	_	_
+8-16	980-988	ziemlich	_	_
+8-17	989-997	geistlos	_	_
+8-18	998-999	\;	_	_
+8-19	1000-1003	die	_	_
+8-20	1004-1013	Präsicion	_	_
+8-21	1014-1017	des	_	_
+8-22	1018-1027	Originals	_	_
+8-23	1028-1036	leuchtet	_	_
+8-24	1037-1042	wenig	_	_
+8-25	1043-1048	durch	_	_
+8-26	1049-1050	.	_	_
+
+#Text=Um bei den römischen Angelegenheiten zu bleiben so hat Candelori bis jetzt keine Nibbysche Dissertation verehrt , weshalb ich sie noch nicht kenne .
+9-1	1051-1053	Um	_	_
+9-2	1054-1057	bei	_	_
+9-3	1058-1061	den	_	_
+9-4	1062-1071	römischen	_	_
+9-5	1072-1087	Angelegenheiten	_	_
+9-6	1088-1090	zu	_	_
+9-7	1091-1098	bleiben	_	_
+9-8	1099-1101	so	_	_
+9-9	1102-1105	hat	_	_
+9-10	1106-1115	Candelori	*	PERmentioned
+9-11	1116-1119	bis	_	_
+9-12	1120-1125	jetzt	_	_
+9-13	1126-1131	keine	_	_
+9-14	1132-1141	Nibbysche	*	PERmentioned
+9-15	1142-1154	Dissertation	*	LIT
+9-16	1155-1162	verehrt	_	_
+9-17	1163-1164	,	_	_
+9-18	1165-1172	weshalb	_	_
+9-19	1173-1176	ich	_	_
+9-20	1177-1180	sie	_	_
+9-21	1181-1185	noch	_	_
+9-22	1186-1191	nicht	_	_
+9-23	1192-1197	kenne	_	_
+9-24	1198-1199	.	_	_
+
+#Text=Deshalb gehe ich in diesen Tagen zu ihm .
+10-1	1200-1207	Deshalb	_	_
+10-2	1208-1212	gehe	_	_
+10-3	1213-1216	ich	_	_
+10-4	1217-1219	in	_	_
+10-5	1220-1226	diesen	_	_
+10-6	1227-1232	Tagen	_	_
+10-7	1233-1235	zu	_	_
+10-8	1236-1239	ihm	_	_
+10-9	1240-1241	.	_	_
+
+#Text=Apolloni hatte die Achilles Ajaxvase schon angefangen , als Ihr abstellender Brief hier angelangte \; er
+11-1	1242-1250	Apolloni	*	PERmentioned
+11-2	1251-1256	hatte	_	_
+11-3	1257-1260	die	_	_
+11-4	1261-1269	Achilles	*[7]	OBJ[7]
+11-5	1270-1278	Ajaxvase	*[7]	OBJ[7]
+11-6	1279-1284	schon	_	_
+11-7	1285-1295	angefangen	_	_
+11-8	1296-1297	,	_	_
+11-9	1298-1301	als	_	_
+11-10	1302-1305	Ihr	_	_
+11-11	1306-1318	abstellender	_	_
+11-12	1319-1324	Brief	_	_
+11-13	1325-1329	hier	_	_
+11-14	1330-1340	angelangte	_	_
+11-15	1341-1342	\;	_	_
+11-16	1343-1345	er	_	_

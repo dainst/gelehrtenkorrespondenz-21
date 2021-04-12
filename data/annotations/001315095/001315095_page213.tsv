@@ -1,0 +1,292 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , Mai 1893 -5- Jacoby , L. , Professor , Berlin .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	Mai	*[1]	PERauthor[1]
+1-7	30-34	1893	*[1]	PERauthor[1]
+1-8	35-38	-5-	_	_
+1-9	39-45	Jacoby	*[2]	PERauthor[2]
+1-10	46-47	,	*[2]	PERauthor[2]
+1-11	48-50	L.	*[2]	PERauthor[2]
+1-12	51-52	,	*[2]	PERauthor[2]
+1-13	53-62	Professor	_	_
+1-14	63-64	,	_	_
+1-15	65-71	Berlin	*	PLACEmentioned
+1-16	72-73	.	_	_
+
+#Text=Jaeger , O. , Director Dr. , Köln .
+2-1	74-80	Jaeger	*[3]	PERauthor[3]
+2-2	81-82	,	*[3]	PERauthor[3]
+2-3	83-85	O.	*[3]	PERauthor[3]
+2-4	86-87	,	_	_
+2-5	88-96	Director	_	_
+2-6	97-100	Dr.	_	_
+2-7	101-102	,	_	_
+2-8	103-107	Köln	*	PLACEmentioned
+2-9	108-109	.	_	_
+
+#Text=Jonas , Fr. , Schulinspector Dr. , Berlin .
+3-1	110-115	Jonas	*[4]	PERauthor[4]
+3-2	116-117	,	*[4]	PERauthor[4]
+3-3	118-121	Fr.	*[4]	PERauthor[4]
+3-4	122-123	,	_	_
+3-5	124-138	Schulinspector	_	_
+3-6	139-142	Dr.	_	_
+3-7	143-144	,	_	_
+3-8	145-151	Berlin	*	PLACEmentioned
+3-9	152-153	.	_	_
+
+#Text=Kaibel , G. Professor Dr. , Strassburg i. Els .
+4-1	154-160	Kaibel	*[5]	PERauthor[5]
+4-2	161-162	,	*[5]	PERauthor[5]
+4-3	163-165	G.	*[5]	PERauthor[5]
+4-4	166-175	Professor	_	_
+4-5	176-179	Dr.	_	_
+4-6	180-181	,	_	_
+4-7	182-192	Strassburg	*[6]	PLACEmentioned[6]
+4-8	193-195	i.	*[6]	PLACEmentioned[6]
+4-9	196-199	Els	*[6]	PLACEmentioned[6]
+4-10	200-201	.	*[6]	PLACEmentioned[6]
+
+#Text=Keil , H. , Professor Dr. , Geheimrath , Halle a . S. Kiepert , H. , Professor Dr , . , Berlin .
+5-1	202-206	Keil	*[7]	PERauthor[7]
+5-2	207-208	,	*[7]	PERauthor[7]
+5-3	209-211	H.	*[7]	PERauthor[7]
+5-4	212-213	,	_	_
+5-5	214-223	Professor	_	_
+5-6	224-227	Dr.	_	_
+5-7	228-229	,	_	_
+5-8	230-240	Geheimrath	_	_
+5-9	241-242	,	_	_
+5-10	243-248	Halle	*	PLACEmentioned
+5-11	249-250	a	_	_
+5-12	251-252	.	_	_
+5-13	253-255	S.	_	_
+5-14	256-263	Kiepert	*[8]	PERauthor[8]
+5-15	264-265	,	*[8]	PERauthor[8]
+5-16	266-268	H.	*[8]	PERauthor[8]
+5-17	269-270	,	_	_
+5-18	271-280	Professor	_	_
+5-19	281-283	Dr	_	_
+5-20	284-285	,	_	_
+5-21	286-287	.	_	_
+5-22	288-289	,	_	_
+5-23	290-296	Berlin	*	PLACEmentioned
+5-24	297-298	.	_	_
+
+#Text=von Kieseritzky , G. , Professor Dr. , St. Petersburg .
+6-1	299-302	von	*[9]	PERauthor[9]
+6-2	303-314	Kieseritzky	*[9]	PERauthor[9]
+6-3	315-316	,	*[9]	PERauthor[9]
+6-4	317-319	G.	*[9]	PERauthor[9]
+6-5	320-321	,	_	_
+6-6	322-331	Professor	_	_
+6-7	332-335	Dr.	_	_
+6-8	336-337	,	_	_
+6-9	338-341	St.	*[10]	PLACEmentioned[10]
+6-10	342-352	Petersburg	*[10]	PLACEmentioned[10]
+6-11	353-354	.	_	_
+
+#Text=Krueger , F , , Dr.ausserordentlicher Gesandter und bevollmächtigter Minister der freien Hansestäd® , Berlin , Kruger , P. , Professor Dr. , Geheimrath , Bonn .
+7-1	355-362	Krueger	*[11]	PERauthor[11]
+7-2	363-364	,	*[11]	PERauthor[11]
+7-3	365-366	F	_	_
+7-4	367-368	,	_	_
+7-5	369-370	,	_	_
+7-6	371-392	Dr.ausserordentlicher	_	_
+7-7	393-402	Gesandter	_	_
+7-8	403-406	und	_	_
+7-9	407-423	bevollmächtigter	_	_
+7-10	424-432	Minister	_	_
+7-11	433-436	der	_	_
+7-12	437-443	freien	_	_
+7-13	444-454	Hansestäd®	*[29]	PLACEmentioned[29]
+7-14	455-456	,	*[29]	PLACEmentioned[29]
+7-15	457-463	Berlin	*[29]	PLACEmentioned[29]
+7-16	464-465	,	_	_
+7-17	466-472	Kruger	*[12]	PERauthor[12]
+7-18	473-474	,	*[12]	PERauthor[12]
+7-19	475-477	P.	*[12]	PERauthor[12]
+7-20	478-479	,	_	_
+7-21	480-489	Professor	_	_
+7-22	490-493	Dr.	_	_
+7-23	494-495	,	_	_
+7-24	496-506	Geheimrath	_	_
+7-25	507-508	,	_	_
+7-26	509-513	Bonn	*	PLACEmentioned
+7-27	514-515	.	_	_
+
+#Text=Leo , F. , Professor Dr. , Göttingen .
+8-1	516-519	Leo	*[13]	PERauthor[13]
+8-2	520-521	,	*[13]	PERauthor[13]
+8-3	522-524	F.	_	_
+8-4	525-526	,	_	_
+8-5	527-536	Professor	_	_
+8-6	537-540	Dr.	_	_
+8-7	541-542	,	_	_
+8-8	543-552	Göttingen	*	PLACEmentioned
+8-9	553-554	.	_	_
+
+#Text=Lessing , C. R. , Geheimrath , Berlin .
+9-1	555-562	Lessing	*[14]	PERauthor[14]
+9-2	563-564	,	*[14]	PERauthor[14]
+9-3	565-567	C.	*[14]	PERauthor[14]
+9-4	568-570	R.	*[14]	PERauthor[14]
+9-5	571-572	,	_	_
+9-6	573-583	Geheimrath	_	_
+9-7	584-585	,	_	_
+9-8	586-592	Berlin	*	PLACEmentioned
+9-9	593-594	.	_	_
+
+#Text=de Leva , J. , Professor Dr. , Padua .
+10-1	595-597	de	*[15]	PERauthor[15]
+10-2	598-602	Leva	*[15]	PERauthor[15]
+10-3	603-604	,	*[15]	PERauthor[15]
+10-4	605-607	J.	*[15]	PERauthor[15]
+10-5	608-609	,	_	_
+10-6	610-619	Professor	_	_
+10-7	620-623	Dr.	_	_
+10-8	624-625	,	_	_
+10-9	626-631	Padua	*	PLACEmentioned
+10-10	632-633	.	_	_
+
+#Text=Lichtwark , A , , Director Dr. , Hamburg .
+11-1	634-643	Lichtwark	*[16]	PERauthor[16]
+11-2	644-645	,	*[16]	PERauthor[16]
+11-3	646-647	A	*[16]	PERauthor[16]
+11-4	648-649	,	_	_
+11-5	650-651	,	_	_
+11-6	652-660	Director	_	_
+11-7	661-664	Dr.	_	_
+11-8	665-666	,	_	_
+11-9	667-674	Hamburg	*	PLACEmentioned
+11-10	675-676	.	_	_
+
+#Text=von Liliencron , R. , Freiherr , Dr. , Klosterprobst , Schleswig .
+12-1	677-680	von	*[17]	PERauthor[17]
+12-2	681-691	Liliencron	*[17]	PERauthor[17]
+12-3	692-693	,	*[17]	PERauthor[17]
+12-4	694-696	R.	*[17]	PERauthor[17]
+12-5	697-698	,	*[17]	PERauthor[17]
+12-6	699-707	Freiherr	*[17]	PERauthor[17]
+12-7	708-709	,	_	_
+12-8	710-713	Dr.	_	_
+12-9	714-715	,	_	_
+12-10	716-729	Klosterprobst	_	_
+12-11	730-731	,	_	_
+12-12	732-741	Schleswig	*	PLACEmentioned
+12-13	742-743	.	_	_
+
+#Text=Ludwig , C. , Professor Dr. , Geheimrath , Leipzig .
+13-1	744-750	Ludwig	*[18]	PERauthor[18]
+13-2	751-752	,	*[18]	PERauthor[18]
+13-3	753-755	C.	*[18]	PERauthor[18]
+13-4	756-757	,	_	_
+13-5	758-767	Professor	_	_
+13-6	768-771	Dr.	_	_
+13-7	772-773	,	_	_
+13-8	774-784	Geheimrath	_	_
+13-9	785-786	,	_	_
+13-10	787-794	Leipzig	*	PLACEmentioned
+13-11	795-796	.	_	_
+
+#Text=von Mendelssohn , R. , Banguier , Berlin .
+14-1	797-800	von	*[19]	PERauthor[19]
+14-2	801-812	Mendelssohn	*[19]	PERauthor[19]
+14-3	813-814	,	*[19]	PERauthor[19]
+14-4	815-817	R.	*[19]	PERauthor[19]
+14-5	818-819	,	_	_
+14-6	820-828	Banguier	_	_
+14-7	829-830	,	_	_
+14-8	831-837	Berlin	*	PLACEmentioned
+14-9	838-839	.	_	_
+
+#Text=Mendelssohn , L. , Professor Dr. , Staatsrath , Dorpat .
+15-1	840-851	Mendelssohn	*[20]	PERauthor[20]
+15-2	852-853	,	*[20]	PERauthor[20]
+15-3	854-856	L.	*[20]	PERauthor[20]
+15-4	857-858	,	*[20]	PERauthor[20]
+15-5	859-868	Professor	_	_
+15-6	869-872	Dr.	_	_
+15-7	873-874	,	_	_
+15-8	875-885	Staatsrath	_	_
+15-9	886-887	,	_	_
+15-10	888-894	Dorpat	*	PLACEmentioned
+15-11	895-896	.	_	_
+
+#Text=Menzel , A. , Professor Dr. , Berlin .
+16-1	897-903	Menzel	*[21]	PERauthor[21]
+16-2	904-905	,	*[21]	PERauthor[21]
+16-3	906-908	A.	*[21]	PERauthor[21]
+16-4	909-910	,	_	_
+16-5	911-920	Professor	_	_
+16-6	921-924	Dr.	_	_
+16-7	925-926	,	_	_
+16-8	927-933	Berlin	*	PLACEmentioned
+16-9	934-935	.	_	_
+
+#Text=von Mevissen , G. , Dr. , Geheimrath , Köln .
+17-1	936-939	von	*[22]	PERauthor[22]
+17-2	940-948	Mevissen	*[22]	PERauthor[22]
+17-3	949-950	,	*[22]	PERauthor[22]
+17-4	951-953	G.	*[22]	PERauthor[22]
+17-5	954-955	,	_	_
+17-6	956-959	Dr.	_	_
+17-7	960-961	,	_	_
+17-8	962-972	Geheimrath	_	_
+17-9	973-974	,	_	_
+17-10	975-979	Köln	*	PLACEmentioned
+17-11	980-981	.	_	_
+
+#Text=Michaelis , A. , Professor Dr. , Strassburg i. Els .
+18-1	982-991	Michaelis	*[23]	PERauthor[23]
+18-2	992-993	,	*[23]	PERauthor[23]
+18-3	994-996	A.	*[23]	PERauthor[23]
+18-4	997-998	,	_	_
+18-5	999-1008	Professor	_	_
+18-6	1009-1012	Dr.	_	_
+18-7	1013-1014	,	_	_
+18-8	1015-1025	Strassburg	*[24]	PLACEmentioned[24]
+18-9	1026-1028	i.	*[24]	PLACEmentioned[24]
+18-10	1029-1032	Els	*[24]	PLACEmentioned[24]
+18-11	1033-1034	.	_	_
+
+#Text=Mitteis , L. , Professor Dr. , Prag .
+19-1	1035-1042	Mitteis	*[25]	PERauthor[25]
+19-2	1043-1044	,	*[25]	PERauthor[25]
+19-3	1045-1047	L.	*[25]	PERauthor[25]
+19-4	1048-1049	,	_	_
+19-5	1050-1059	Professor	_	_
+19-6	1060-1063	Dr.	_	_
+19-7	1064-1065	,	_	_
+19-8	1066-1070	Prag	*	PLACEmentioned
+19-9	1071-1072	.	_	_
+
+#Text=Müller , F. Max , Professor Dr. , Oxford .
+20-1	1073-1079	Müller	*[26]	PERauthor[26]
+20-2	1080-1081	,	*[26]	PERauthor[26]
+20-3	1082-1084	F.	*[26]	PERauthor[26]
+20-4	1085-1088	Max	*[26]	PERauthor[26]
+20-5	1089-1090	,	_	_
+20-6	1091-1100	Professor	_	_
+20-7	1101-1104	Dr.	_	_
+20-8	1105-1106	,	_	_
+20-9	1107-1113	Oxford	*	PLACEmentioned
+20-10	1114-1115	.	_	_
+
+#Text=Murray , A.S. , British Museum , London .
+21-1	1116-1122	Murray	*[27]	PERauthor[27]
+21-2	1123-1124	,	*[27]	PERauthor[27]
+21-3	1125-1129	A.S.	*[27]	PERauthor[27]
+21-4	1130-1131	,	_	_
+21-5	1132-1139	British	*[28]	ORGmentioned[28]
+21-6	1140-1146	Museum	*[28]	ORGmentioned[28]
+21-7	1147-1148	,	_	_
+21-8	1149-1155	London	*	PLACEmentioned
+21-9	1156-1157	.	_	_

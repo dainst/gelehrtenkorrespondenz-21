@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ee.ne Gerhard an Henzen Berlin , 3. November 1846 A. di Direz .
+1-1	0-5	ee.ne	_	_
+1-2	6-13	Gerhard	*	PERauthor
+1-3	14-16	an	_	_
+1-4	17-23	Henzen	*	PERaddressee
+1-5	24-30	Berlin	*	PLACEfrom
+1-6	31-32	,	_	_
+1-7	33-35	3.	*[3]	DATEletter[3]
+1-8	36-44	November	*[3]	DATEletter[3]
+1-9	45-49	1846	*[3]	DATEletter[3]
+1-10	50-52	A.	_	_
+1-11	53-55	di	_	_
+1-12	56-61	Direz	_	_
+1-13	62-63	.	_	_
+
+#Text=g . 16/XI 46 r . 17/XI 46 I. nn ... Berlin 3 Nov 46 .oeseenen .. ( Frau ) ( Mer ) tens lieber Freund hat nur ihre Genesung abgewartet um große Klagen wegen übereilter ....... 0 ... Publication der Konsularinschrift zu führen .
+2-1	64-65	g	_	_
+2-2	66-67	.	_	_
+2-3	68-73	16/XI	*[4]	DATErecieved[4]
+2-4	74-76	46	*[4]	DATErecieved[4]
+2-5	77-78	r	_	_
+2-6	79-80	.	_	_
+2-7	81-86	17/XI	*[5]	DATEanswered[5]
+2-8	87-89	46	*[5]	DATEanswered[5]
+2-9	90-92	I.	_	_
+2-10	93-95	nn	_	_
+2-11	96-99	...	_	_
+2-12	100-106	Berlin	*	PLACEfrom
+2-13	107-108	3	*[6]	DATEletter[6]
+2-14	109-112	Nov	*[6]	DATEletter[6]
+2-15	113-115	46	*[6]	DATEletter[6]
+2-16	116-125	.oeseenen	_	_
+2-17	126-128	..	_	_
+2-18	129-130	(	_	_
+2-19	131-135	Frau	_	_
+2-20	136-137	)	_	_
+2-21	138-139	(	*[7]	PERmentioned[7]
+2-22	140-143	Mer	*[7]	PERmentioned[7]
+2-23	144-145	)	*[7]	PERmentioned[7]
+2-24	146-150	tens	*[7]	PERmentioned[7]
+2-25	151-157	lieber	_	_
+2-26	158-164	Freund	_	_
+2-27	165-168	hat	_	_
+2-28	169-172	nur	_	_
+2-29	173-177	ihre	_	_
+2-30	178-186	Genesung	_	_
+2-31	187-197	abgewartet	_	_
+2-32	198-200	um	_	_
+2-33	201-206	große	_	_
+2-34	207-213	Klagen	_	_
+2-35	214-219	wegen	_	_
+2-36	220-230	übereilter	_	_
+2-37	231-238	.......	_	_
+2-38	239-240	0	_	_
+2-39	241-244	...	_	_
+2-40	245-256	Publication	_	_
+2-41	257-260	der	_	_
+2-42	261-278	Konsularinschrift	*	OBJ
+2-43	279-281	zu	_	_
+2-44	282-288	führen	_	_
+2-45	289-290	.	_	_
+
+#Text=Sie gibt nun für die Archäologische Zeitung folgende ceernee ... gung auf , aus dem gereinigten Zustand der Inschrift hervorgegangen : '' In St ( ackelberg ) 's Abschrift fehlt Zeile 14 und 15 ganz .
+3-1	291-294	Sie	_	_
+3-2	295-299	gibt	_	_
+3-3	300-303	nun	_	_
+3-4	304-307	für	_	_
+3-5	308-311	die	_	_
+3-6	312-326	Archäologische	_	_
+3-7	327-334	Zeitung	_	_
+3-8	335-343	folgende	_	_
+3-9	344-351	ceernee	_	_
+3-10	352-355	...	_	_
+3-11	356-360	gung	_	_
+3-12	361-364	auf	_	_
+3-13	365-366	,	_	_
+3-14	367-370	aus	_	_
+3-15	371-374	dem	_	_
+3-16	375-386	gereinigten	_	_
+3-17	387-394	Zustand	_	_
+3-18	395-398	der	_	_
+3-19	399-408	Inschrift	_	_
+3-20	409-423	hervorgegangen	_	_
+3-21	424-425	:	_	_
+3-22	426-428	''	_	_
+3-23	429-431	In	_	_
+3-24	432-434	St	*[8]	PERmentioned[8]
+3-25	435-436	(	*[8]	PERmentioned[8]
+3-26	437-446	ackelberg	*[8]	PERmentioned[8]
+3-27	447-448	)	*[8]	PERmentioned[8]
+3-28	449-451	's	_	_
+3-29	452-461	Abschrift	*	OBJ
+3-30	462-467	fehlt	_	_
+3-31	468-473	Zeile	_	_
+3-32	474-476	14	_	_
+3-33	477-480	und	_	_
+3-34	481-483	15	_	_
+3-35	484-488	ganz	_	_
+3-36	489-490	.	_	_
+
+#Text=In Zeile 1 Poppafus statt POPPAEUS , in Zeile 4 ER statt SEX .
+4-1	491-493	In	_	_
+4-2	494-499	Zeile	_	_
+4-3	500-501	1	_	_
+4-4	502-510	Poppafus	_	_
+4-5	511-516	statt	_	_
+4-6	517-525	POPPAEUS	_	_
+4-7	526-527	,	_	_
+4-8	528-530	in	_	_
+4-9	531-536	Zeile	_	_
+4-10	537-538	4	_	_
+4-11	539-541	ER	_	_
+4-12	542-547	statt	_	_
+4-13	548-551	SEX	_	_
+4-14	552-553	.	_	_
+
+#Text=In Zeile 13 L Scribonius statt C. SCRIBONVIS .
+5-1	554-556	In	_	_
+5-2	557-562	Zeile	_	_
+5-3	563-565	13	_	_
+5-4	566-567	L	_	_
+5-5	568-578	Scribonius	_	_
+5-6	579-584	statt	_	_
+5-7	585-587	C.	_	_
+5-8	588-598	SCRIBONVIS	_	_
+5-9	599-600	.	_	_
+
+#Text=In Zeile 19 FCVIVS statt des ganz deutlichen EGVLVS '' .
+6-1	601-603	In	_	_
+6-2	604-609	Zeile	_	_
+6-3	610-612	19	_	_
+6-4	613-619	FCVIVS	_	_
+6-5	620-625	statt	_	_
+6-6	626-629	des	_	_
+6-7	630-634	ganz	_	_
+6-8	635-645	deutlichen	_	_
+6-9	646-652	EGVLVS	_	_
+6-10	653-655	''	_	_
+6-11	656-657	.	_	_
+
+#Text=Zeile 14 . 715 heißt nun bei ihr : SVE.C .
+7-1	658-663	Zeile	_	_
+7-2	664-666	14	_	_
+7-3	667-668	.	_	_
+7-4	669-672	715	_	_
+7-5	673-678	heißt	_	_
+7-6	679-682	nun	_	_
+7-7	683-686	bei	_	_
+7-8	687-690	ihr	_	_
+7-9	691-692	:	_	_
+7-10	693-698	SVE.C	_	_
+7-11	699-700	.	_	_
+
+#Text=VIBIVS „ LIBO .
+8-1	701-707	VIBIVS	_	_
+8-2	708-709	„	_	_
+8-3	710-714	LIBO	_	_
+8-4	715-716	.	_	_
+
+#Text=CO „ POMPEIVS „ GRAECINA .
+9-1	717-719	CO	_	_
+9-2	720-721	„	_	_
+9-3	722-730	POMPEIVS	_	_
+9-4	731-732	„	_	_
+9-5	733-741	GRAECINA	_	_
+9-6	742-743	.	_	_
+
+#Text=C. CAELIVS „ L .
+10-1	744-746	C.	_	_
+10-2	747-754	CAELIVS	_	_
+10-3	755-756	„	_	_
+10-4	757-758	L	_	_
+10-5	759-760	.	_	_
+
+#Text=POMPONIVS „ FLACCVS '' In Zeile 18 ( bei Henzen Z . 16 ) sind die 3 frag ( mentarischen ) Buchstaben vor dem L getrennt , so daß dieser Buchstabe Lucius heißen könnte , und die 3 fragm ( entarischen ) Buchstaben das Ende eines vorstehenden Namens wären \; keinesfalls : ist indeß der letzte derselben ein R ''
+11-1	761-770	POMPONIVS	_	_
+11-2	771-772	„	_	_
+11-3	773-780	FLACCVS	_	_
+11-4	781-783	''	_	_
+11-5	784-786	In	_	_
+11-6	787-792	Zeile	_	_
+11-7	793-795	18	_	_
+11-8	796-797	(	_	_
+11-9	798-801	bei	_	_
+11-10	802-808	Henzen	*	PERmentioned
+11-11	809-810	Z	_	_
+11-12	811-812	.	_	_
+11-13	813-815	16	_	_
+11-14	816-817	)	_	_
+11-15	818-822	sind	_	_
+11-16	823-826	die	_	_
+11-17	827-828	3	_	_
+11-18	829-833	frag	_	_
+11-19	834-835	(	_	_
+11-20	836-848	mentarischen	_	_
+11-21	849-850	)	_	_
+11-22	851-861	Buchstaben	_	_
+11-23	862-865	vor	_	_
+11-24	866-869	dem	_	_
+11-25	870-871	L	_	_
+11-26	872-880	getrennt	_	_
+11-27	881-882	,	_	_
+11-28	883-885	so	_	_
+11-29	886-889	daß	_	_
+11-30	890-896	dieser	_	_
+11-31	897-906	Buchstabe	_	_
+11-32	907-913	Lucius	_	_
+11-33	914-920	heißen	_	_
+11-34	921-927	könnte	_	_
+11-35	928-929	,	_	_
+11-36	930-933	und	_	_
+11-37	934-937	die	_	_
+11-38	938-939	3	_	_
+11-39	940-945	fragm	_	_
+11-40	946-947	(	_	_
+11-41	948-959	entarischen	_	_
+11-42	960-961	)	_	_
+11-43	962-972	Buchstaben	_	_
+11-44	973-976	das	_	_
+11-45	977-981	Ende	_	_
+11-46	982-987	eines	_	_
+11-47	988-1000	vorstehenden	_	_
+11-48	1001-1007	Namens	_	_
+11-49	1008-1013	wären	_	_
+11-50	1014-1015	\;	_	_
+11-51	1016-1027	keinesfalls	_	_
+11-52	1028-1029	:	_	_
+11-53	1030-1033	ist	_	_
+11-54	1034-1039	indeß	_	_
+11-55	1040-1043	der	_	_
+11-56	1044-1050	letzte	_	_
+11-57	1051-1060	derselben	_	_
+11-58	1061-1064	ein	_	_
+11-59	1065-1066	R	_	_
+11-60	1067-1069	''	_	_

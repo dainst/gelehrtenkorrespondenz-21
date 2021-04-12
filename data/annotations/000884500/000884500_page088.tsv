@@ -1,0 +1,110 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N Gerhard an Braun Berlin , 27. April 1838 che wieder ein .
+1-1	0-1	N	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	27.	*[4]	DATEletter[4]
+1-8	32-37	April	*[4]	DATEletter[4]
+1-9	38-42	1838	*[4]	DATEletter[4]
+1-10	43-46	che	_	_
+1-11	47-53	wieder	_	_
+1-12	54-57	ein	_	_
+1-13	58-59	.	_	_
+
+#Text=Ich habe nämlich endlich von Ritschl , der merkwürdig unpraktisch geworden ist , eine Vollmacht eingemahnt Ihr Bild einzuziehen \; als ich demnach schicke , findet sich daß es die Dimension des mir zu Gebote stehenden Raumes übersteigt .
+2-1	60-63	Ich	_	_
+2-2	64-68	habe	_	_
+2-3	69-76	nämlich	_	_
+2-4	77-84	endlich	_	_
+2-5	85-88	von	_	_
+2-6	89-96	Ritschl	*	PERmentioned
+2-7	97-98	,	_	_
+2-8	99-102	der	_	_
+2-9	103-113	merkwürdig	_	_
+2-10	114-125	unpraktisch	_	_
+2-11	126-134	geworden	_	_
+2-12	135-138	ist	_	_
+2-13	139-140	,	_	_
+2-14	141-145	eine	_	_
+2-15	146-155	Vollmacht	_	_
+2-16	156-166	eingemahnt	_	_
+2-17	167-170	Ihr	_	_
+2-18	171-175	Bild	_	_
+2-19	176-187	einzuziehen	_	_
+2-20	188-189	\;	_	_
+2-21	190-193	als	_	_
+2-22	194-197	ich	_	_
+2-23	198-205	demnach	_	_
+2-24	206-213	schicke	_	_
+2-25	214-215	,	_	_
+2-26	216-222	findet	_	_
+2-27	223-227	sich	_	_
+2-28	228-231	daß	_	_
+2-29	232-234	es	_	_
+2-30	235-238	die	_	_
+2-31	239-248	Dimension	_	_
+2-32	249-252	des	_	_
+2-33	253-256	mir	_	_
+2-34	257-259	zu	_	_
+2-35	260-266	Gebote	_	_
+2-36	267-276	stehenden	_	_
+2-37	277-283	Raumes	_	_
+2-38	284-294	übersteigt	_	_
+2-39	295-296	.	_	_
+
+#Text=Gerstäcker kann es noch weniger beherbergen oder Zumpt \; zum Verkauf ist keine Hoffnung .
+3-1	297-307	Gerstäcker	*	PERmentioned
+3-2	308-312	kann	_	_
+3-3	313-315	es	_	_
+3-4	316-320	noch	_	_
+3-5	321-328	weniger	_	_
+3-6	329-340	beherbergen	_	_
+3-7	341-345	oder	_	_
+3-8	346-351	Zumpt	*	PERmentioned
+3-9	352-353	\;	_	_
+3-10	354-357	zum	_	_
+3-11	358-365	Verkauf	_	_
+3-12	366-369	ist	_	_
+3-13	370-375	keine	_	_
+3-14	376-384	Hoffnung	_	_
+3-15	385-386	.	_	_
+
+#Text=Bestimmen Sie also wohin ich es etwa senden soll \; ich schreibe eben an den R.R . es bis zu Ihrer Bestimmung noch ferner zu beherbergen .
+4-1	387-396	Bestimmen	_	_
+4-2	397-400	Sie	_	_
+4-3	401-405	also	_	_
+4-4	406-411	wohin	_	_
+4-5	412-415	ich	_	_
+4-6	416-418	es	_	_
+4-7	419-423	etwa	_	_
+4-8	424-430	senden	_	_
+4-9	431-435	soll	_	_
+4-10	436-437	\;	_	_
+4-11	438-441	ich	_	_
+4-12	442-450	schreibe	_	_
+4-13	451-455	eben	_	_
+4-14	456-458	an	_	_
+4-15	459-462	den	_	_
+4-16	463-466	R.R	_	_
+4-17	467-468	.	_	_
+4-18	469-471	es	_	_
+4-19	472-475	bis	_	_
+4-20	476-478	zu	_	_
+4-21	479-484	Ihrer	_	_
+4-22	485-495	Bestimmung	_	_
+4-23	496-500	noch	_	_
+4-24	501-507	ferner	_	_
+4-25	508-510	zu	_	_
+4-26	511-522	beherbergen	_	_
+4-27	523-524	.	_	_
+
+#Text=Herzlichst Ihr Gerhard
+5-1	525-535	Herzlichst	_	_
+5-2	536-539	Ihr	_	_
+5-3	540-547	Gerhard	*	PERauthor

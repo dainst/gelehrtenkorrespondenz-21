@@ -1,0 +1,203 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=84 Gerhard an Braun Berlin , 27. Februar 1845 friger betreiben .
+1-1	0-2	84	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	27.	*[3]	DATEletter[3]
+1-8	33-40	Februar	*[3]	DATEletter[3]
+1-9	41-45	1845	*[3]	DATEletter[3]
+1-10	46-52	friger	_	_
+1-11	53-62	betreiben	_	_
+1-12	63-64	.	_	_
+
+#Text=Zu diesem Absatz steht am Rande bemerkt : NB 1 April fangerdie Vorlesungen wieder hier an !
+2-1	65-67	Zu	_	_
+2-2	68-74	diesem	_	_
+2-3	75-81	Absatz	_	_
+2-4	82-87	steht	_	_
+2-5	88-90	am	_	_
+2-6	91-96	Rande	_	_
+2-7	97-104	bemerkt	_	_
+2-8	105-106	:	_	_
+2-9	107-109	NB	_	_
+2-10	110-111	1	*[4]	DATEmentioned[4]
+2-11	112-117	April	*[4]	DATEmentioned[4]
+2-12	118-127	fangerdie	_	_
+2-13	128-139	Vorlesungen	_	_
+2-14	140-146	wieder	_	_
+2-15	147-151	hier	_	_
+2-16	152-154	an	_	_
+2-17	155-156	!	_	_
+
+#Text=Von Ihren Sommerplänen , die bei mir stets wohl behütet waren , schreiben Sie nichts .
+3-1	157-160	Von	_	_
+3-2	161-166	Ihren	_	_
+3-3	167-179	Sommerplänen	_	_
+3-4	180-181	,	_	_
+3-5	182-185	die	_	_
+3-6	186-189	bei	_	_
+3-7	190-193	mir	_	_
+3-8	194-199	stets	_	_
+3-9	200-204	wohl	_	_
+3-10	205-212	behütet	_	_
+3-11	213-218	waren	_	_
+3-12	219-220	,	_	_
+3-13	221-230	schreiben	_	_
+3-14	231-234	Sie	_	_
+3-15	235-241	nichts	_	_
+3-16	242-243	.	_	_
+
+#Text=Henzen bitte ich bestens zu grüßen , seiner Mühewaltung zu danken und zu sagen daß ich mit Promis ' Zahlung , wie mit den Condescendenzen die Zardetti wünschte durchaus einverstanden sei .
+4-1	244-250	Henzen	*	PERmentioned
+4-2	251-256	bitte	_	_
+4-3	257-260	ich	_	_
+4-4	261-268	bestens	_	_
+4-5	269-271	zu	_	_
+4-6	272-278	grüßen	_	_
+4-7	279-280	,	_	_
+4-8	281-287	seiner	_	_
+4-9	288-299	Mühewaltung	_	_
+4-10	300-302	zu	_	_
+4-11	303-309	danken	_	_
+4-12	310-313	und	_	_
+4-13	314-316	zu	_	_
+4-14	317-322	sagen	_	_
+4-15	323-326	daß	_	_
+4-16	327-330	ich	_	_
+4-17	331-334	mit	_	_
+4-18	335-341	Promis	*	PERmentioned
+4-19	342-343	'	_	_
+4-20	344-351	Zahlung	_	_
+4-21	352-353	,	_	_
+4-22	354-357	wie	_	_
+4-23	358-361	mit	_	_
+4-24	362-365	den	_	_
+4-25	366-381	Condescendenzen	_	_
+4-26	382-385	die	_	_
+4-27	386-394	Zardetti	*	PERmentioned
+4-28	395-403	wünschte	_	_
+4-29	404-412	durchaus	_	_
+4-30	413-426	einverstanden	_	_
+4-31	427-430	sei	_	_
+4-32	431-432	.	_	_
+
+#Text=Die Kunde seiner besseren Gesundheit ist mir höchst erfreulich .
+5-1	433-436	Die	_	_
+5-2	437-442	Kunde	_	_
+5-3	443-449	seiner	_	_
+5-4	450-458	besseren	_	_
+5-5	459-469	Gesundheit	_	_
+5-6	470-473	ist	_	_
+5-7	474-477	mir	_	_
+5-8	478-484	höchst	_	_
+5-9	485-495	erfreulich	_	_
+5-10	496-497	.	_	_
+
+#Text=Heute ist unsre Korrespondenten Wahl \; ich hoffe den Padre Secchi durchzubringen und hange in diesem Fall eine Notiz darüber an Campana an , dessen Bitte ich durch diese Wahl zu erfüllen beabsichtigte .
+6-1	498-503	Heute	_	_
+6-2	504-507	ist	_	_
+6-3	508-513	unsre	_	_
+6-4	514-529	Korrespondenten	_	_
+6-5	530-534	Wahl	_	_
+6-6	535-536	\;	_	_
+6-7	537-540	ich	_	_
+6-8	541-546	hoffe	_	_
+6-9	547-550	den	_	_
+6-10	551-556	Padre	_	_
+6-11	557-563	Secchi	*	PERmentioned
+6-12	564-578	durchzubringen	_	_
+6-13	579-582	und	_	_
+6-14	583-588	hange	_	_
+6-15	589-591	in	_	_
+6-16	592-598	diesem	_	_
+6-17	599-603	Fall	_	_
+6-18	604-608	eine	_	_
+6-19	609-614	Notiz	_	_
+6-20	615-622	darüber	_	_
+6-21	623-625	an	_	_
+6-22	626-633	Campana	*	PERmentioned
+6-23	634-636	an	_	_
+6-24	637-638	,	_	_
+6-25	639-645	dessen	_	_
+6-26	646-651	Bitte	_	_
+6-27	652-655	ich	_	_
+6-28	656-661	durch	_	_
+6-29	662-667	diese	_	_
+6-30	668-672	Wahl	_	_
+6-31	673-675	zu	_	_
+6-32	676-684	erfüllen	_	_
+6-33	685-698	beabsichtigte	_	_
+6-34	699-700	.	_	_
+
+#Text=Bergk und Jahn sind in den Osterferien hier zu erwarten \; Wieseler hat Hoffnung nach Dorpat zu kommen .
+7-1	701-706	Bergk	*	PERmentioned
+7-2	707-710	und	_	_
+7-3	711-715	Jahn	*	PERmentioned
+7-4	716-720	sind	_	_
+7-5	721-723	in	_	_
+7-6	724-727	den	_	_
+7-7	728-739	Osterferien	_	_
+7-8	740-744	hier	_	_
+7-9	745-747	zu	_	_
+7-10	748-756	erwarten	_	_
+7-11	757-758	\;	_	_
+7-12	759-767	Wieseler	*	PERmentioned
+7-13	768-771	hat	_	_
+7-14	772-780	Hoffnung	_	_
+7-15	781-785	nach	_	_
+7-16	786-792	Dorpat	*	PLACEmentioned
+7-17	793-795	zu	_	_
+7-18	796-802	kommen	_	_
+7-19	803-804	.	_	_
+
+#Text=Zahn ist mit seinem Opus fertig und spricht von Reisen nach Kleinasien .
+8-1	805-809	Zahn	*	PERmentioned
+8-2	810-813	ist	_	_
+8-3	814-817	mit	_	_
+8-4	818-824	seinem	_	_
+8-5	825-829	Opus	_	_
+8-6	830-836	fertig	_	_
+8-7	837-840	und	_	_
+8-8	841-848	spricht	_	_
+8-9	849-852	von	_	_
+8-10	853-859	Reisen	_	_
+8-11	860-864	nach	_	_
+8-12	865-875	Kleinasien	*	PLACEmentioned
+8-13	876-877	.	_	_
+
+#Text=Lepsius paradirt in haisigen Zeitungen 1 ) mit dem ihm durch Ausgrabungen zum erstenmal möglich gewordenen Plan des Palasts von Theben 2 ) mit der Entdeckung eines Kometen .
+9-1	878-885	Lepsius	*	PERmentioned
+9-2	886-894	paradirt	_	_
+9-3	895-897	in	_	_
+9-4	898-906	haisigen	_	_
+9-5	907-916	Zeitungen	_	_
+9-6	917-918	1	_	_
+9-7	919-920	)	_	_
+9-8	921-924	mit	_	_
+9-9	925-928	dem	_	_
+9-10	929-932	ihm	_	_
+9-11	933-938	durch	_	_
+9-12	939-951	Ausgrabungen	_	_
+9-13	952-955	zum	_	_
+9-14	956-965	erstenmal	_	_
+9-15	966-973	möglich	_	_
+9-16	974-984	gewordenen	_	_
+9-17	985-989	Plan	_	_
+9-18	990-993	des	_	_
+9-19	994-1001	Palasts	*[5]	PLACEmentioned[5]
+9-20	1002-1005	von	*[5]	PLACEmentioned[5]
+9-21	1006-1012	Theben	*[5]	PLACEmentioned[5]
+9-22	1013-1014	2	_	_
+9-23	1015-1016	)	_	_
+9-24	1017-1020	mit	_	_
+9-25	1021-1024	der	_	_
+9-26	1025-1035	Entdeckung	_	_
+9-27	1036-1041	eines	_	_
+9-28	1042-1049	Kometen	_	_
+9-29	1050-1051	.	_	_

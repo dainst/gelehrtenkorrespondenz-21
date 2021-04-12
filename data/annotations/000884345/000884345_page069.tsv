@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard \_ Frascati , 6. Juli 1833 gezeigt hat .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-19	\_	_	_
+1-5	20-28	Frascati	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	6.	_	_
+1-8	34-38	Juli	*[4]	DATEletter[4]
+1-9	39-43	1833	*[4]	DATEletter[4]
+1-10	44-51	gezeigt	_	_
+1-11	52-55	hat	_	_
+1-12	56-57	.	_	_
+
+#Text=Die französischen Mitarbeiter sind fast alle greuliche Helden , sobald sie über die Fakten hinausgehen .
+2-1	58-61	Die	_	_
+2-2	62-75	französischen	_	_
+2-3	76-87	Mitarbeiter	_	_
+2-4	88-92	sind	_	_
+2-5	93-97	fast	_	_
+2-6	98-102	alle	_	_
+2-7	103-112	greuliche	_	_
+2-8	113-119	Helden	_	_
+2-9	120-121	,	_	_
+2-10	122-128	sobald	_	_
+2-11	129-132	sie	_	_
+2-12	133-137	über	_	_
+2-13	138-141	die	_	_
+2-14	142-148	Fakten	_	_
+2-15	149-160	hinausgehen	_	_
+2-16	161-162	.	_	_
+
+#Text=Das Bullettino dort drucken zu wollen ist eine unglaubliche Unverschämtheit .
+3-1	163-166	Das	_	_
+3-2	167-177	Bullettino	_	_
+3-3	178-182	dort	_	_
+3-4	183-190	drucken	_	_
+3-5	191-193	zu	_	_
+3-6	194-200	wollen	_	_
+3-7	201-204	ist	_	_
+3-8	205-209	eine	_	_
+3-9	210-222	unglaubliche	_	_
+3-10	223-238	Unverschämtheit	_	_
+3-11	239-240	.	_	_
+
+#Text=- Übrigens klagt P ( anofka ) nicht daß Sie Manuscript vorenthalten sondern die besten Monumente für die Spiegel : ich bin entfernt dies zu glauben , allein daß es an bedeutenden Monumenten fehlt ist sicher .
+4-1	241-242	-	_	_
+4-2	243-251	Übrigens	_	_
+4-3	252-257	klagt	_	_
+4-4	258-259	P	_	_
+4-5	260-261	(	_	_
+4-6	262-268	anofka	*[13]	PERmentioned[13]
+4-7	269-270	)	*[13]	PERmentioned[13]
+4-8	271-276	nicht	_	_
+4-9	277-280	daß	_	_
+4-10	281-284	Sie	_	_
+4-11	285-295	Manuscript	_	_
+4-12	296-308	vorenthalten	_	_
+4-13	309-316	sondern	_	_
+4-14	317-320	die	_	_
+4-15	321-327	besten	_	_
+4-16	328-337	Monumente	_	_
+4-17	338-341	für	_	_
+4-18	342-345	die	_	_
+4-19	346-353	Spiegel	*	OBJ
+4-20	354-355	:	_	_
+4-21	356-359	ich	_	_
+4-22	360-363	bin	_	_
+4-23	364-372	entfernt	_	_
+4-24	373-377	dies	_	_
+4-25	378-380	zu	_	_
+4-26	381-388	glauben	_	_
+4-27	389-390	,	_	_
+4-28	391-397	allein	_	_
+4-29	398-401	daß	_	_
+4-30	402-404	es	_	_
+4-31	405-407	an	_	_
+4-32	408-419	bedeutenden	_	_
+4-33	420-430	Monumenten	_	_
+4-34	431-436	fehlt	_	_
+4-35	437-440	ist	_	_
+4-36	441-447	sicher	_	_
+4-37	448-449	.	_	_
+
+#Text=Es sollen mal mehr gegeben werden .
+5-1	450-452	Es	_	_
+5-2	453-459	sollen	_	_
+5-3	460-463	mal	_	_
+5-4	464-468	mehr	_	_
+5-5	469-476	gegeben	_	_
+5-6	477-483	werden	_	_
+5-7	484-485	.	_	_
+
+#Text=Ich freue mich über den Fortgang des Instituts in Deutschland .
+6-1	486-489	Ich	_	_
+6-2	490-495	freue	_	_
+6-3	496-500	mich	_	_
+6-4	501-505	über	_	_
+6-5	506-509	den	_	_
+6-6	510-518	Fortgang	_	_
+6-7	519-522	des	_	_
+6-8	523-532	Instituts	*	ORGmentioned
+6-9	533-535	in	_	_
+6-10	536-547	Deutschland	*	PLACEmentioned
+6-11	548-549	.	_	_
+
+#Text=Wegen der 30 Exemplare erhalten Sie gewiß nichts : ich hatte von 10 bis 15 geschrieben , höchstens 20 , nie von 30 .
+7-1	550-555	Wegen	_	_
+7-2	556-559	der	_	_
+7-3	560-562	30	_	_
+7-4	563-572	Exemplare	_	_
+7-5	573-581	erhalten	_	_
+7-6	582-585	Sie	_	_
+7-7	586-591	gewiß	_	_
+7-8	592-598	nichts	_	_
+7-9	599-600	:	_	_
+7-10	601-604	ich	_	_
+7-11	605-610	hatte	_	_
+7-12	611-614	von	_	_
+7-13	615-617	10	_	_
+7-14	618-621	bis	_	_
+7-15	622-624	15	_	_
+7-16	625-636	geschrieben	_	_
+7-17	637-638	,	_	_
+7-18	639-648	höchstens	_	_
+7-19	649-651	20	_	_
+7-20	652-653	,	_	_
+7-21	654-657	nie	_	_
+7-22	658-661	von	_	_
+7-23	662-664	30	_	_
+7-24	665-666	.	_	_
+
+#Text=Ich gestehe Ihnen , daß ich als Minister es würde abgewiesen haben .
+8-1	667-670	Ich	_	_
+8-2	671-678	gestehe	_	_
+8-3	679-684	Ihnen	_	_
+8-4	685-686	,	_	_
+8-5	687-690	daß	_	_
+8-6	691-694	ich	_	_
+8-7	695-698	als	_	_
+8-8	699-707	Minister	_	_
+8-9	708-710	es	_	_
+8-10	711-716	würde	_	_
+8-11	717-727	abgewiesen	_	_
+8-12	728-733	haben	_	_
+8-13	734-735	.	_	_
+
+#Text=Desto mehr freue ich mich über Ihre Anstellung und das vom Museum Ernittelte .
+9-1	736-741	Desto	_	_
+9-2	742-746	mehr	_	_
+9-3	747-752	freue	_	_
+9-4	753-756	ich	_	_
+9-5	757-761	mich	_	_
+9-6	762-766	über	_	_
+9-7	767-771	Ihre	_	_
+9-8	772-782	Anstellung	_	_
+9-9	783-786	und	_	_
+9-10	787-790	das	_	_
+9-11	791-794	vom	_	_
+9-12	795-801	Museum	*	ORGmentioned
+9-13	802-812	Ernittelte	_	_
+9-14	813-814	.	_	_
+
+#Text=Der Titel von deoukoffsky : ist : : S . E. M. de Joukoffsky , Conseiller d'Etat actuel und Instituteur de 5 .
+10-1	815-818	Der	_	_
+10-2	819-824	Titel	_	_
+10-3	825-828	von	_	_
+10-4	829-840	deoukoffsky	_	_
+10-5	841-842	:	_	_
+10-6	843-846	ist	_	_
+10-7	847-848	:	_	_
+10-8	849-850	:	_	_
+10-9	851-852	S	_	_
+10-10	853-854	.	_	_
+10-11	855-857	E.	_	_
+10-12	858-860	M.	_	_
+10-13	861-863	de	*[10]	PERmentioned[10]
+10-14	864-874	Joukoffsky	*[10]	PERmentioned[10]
+10-15	875-876	,	_	_
+10-16	877-887	Conseiller	_	_
+10-17	888-894	d'Etat	_	_
+10-18	895-901	actuel	_	_
+10-19	902-905	und	_	_
+10-20	906-917	Instituteur	_	_
+10-21	918-920	de	_	_
+10-22	921-922	5	_	_
+10-23	923-924	.	_	_
+
+#Text=A . I. le Grand Duc Alexandre ( 8 .
+11-1	925-926	A	_	_
+11-2	927-928	.	_	_
+11-3	929-931	I.	_	_
+11-4	932-934	le	*[11]	PERmentioned[11]
+11-5	935-940	Grand	*[11]	PERmentioned[11]
+11-6	941-944	Duc	*[11]	PERmentioned[11]
+11-7	945-954	Alexandre	*[11]	PERmentioned[11]
+11-8	955-956	(	_	_
+11-9	957-958	8	_	_
+11-10	959-960	.	_	_
+
+#Text=A . I. Mgr .
+12-1	961-962	A	_	_
+12-2	963-964	.	_	_
+12-3	965-967	I.	_	_
+12-4	968-971	Mgr	_	_
+12-5	972-973	.	_	_
+
+#Text=le Grand DucAälexandre ) Unsere Bibliothek bedürfte einiger Hauptwerke .
+13-1	974-976	le	*[12]	PERmentioned[12]
+13-2	977-982	Grand	*[12]	PERmentioned[12]
+13-3	983-996	DucAälexandre	*[12]	PERmentioned[12]
+13-4	997-998	)	_	_
+13-5	999-1005	Unsere	_	_
+13-6	1006-1016	Bibliothek	*	ORGmentioned
+13-7	1017-1025	bedürfte	_	_
+13-8	1026-1033	einiger	_	_
+13-9	1034-1044	Hauptwerke	_	_
+13-10	1045-1046	.	_	_
+
+#Text=Wegen Ekhel schreibt K ( ellermann ) an Volcke , da er hier übermäßig theuer ist : N. muß suchen ein altes Exemplar zu kaufen .
+14-1	1047-1052	Wegen	_	_
+14-2	1053-1058	Ekhel	_	_
+14-3	1059-1067	schreibt	_	_
+14-4	1068-1069	K	*[14]	PERmentioned[14]
+14-5	1070-1071	(	*[14]	PERmentioned[14]
+14-6	1072-1081	ellermann	*[14]	PERmentioned[14]
+14-7	1082-1083	)	_	_
+14-8	1084-1086	an	_	_
+14-9	1087-1093	Volcke	*	PERmentioned
+14-10	1094-1095	,	_	_
+14-11	1096-1098	da	_	_
+14-12	1099-1101	er	_	_
+14-13	1102-1106	hier	_	_
+14-14	1107-1116	übermäßig	_	_
+14-15	1117-1123	theuer	_	_
+14-16	1124-1127	ist	_	_
+14-17	1128-1129	:	_	_
+14-18	1130-1132	N.	_	_
+14-19	1133-1136	muß	_	_
+14-20	1137-1143	suchen	_	_
+14-21	1144-1147	ein	_	_
+14-22	1148-1153	altes	_	_
+14-23	1154-1162	Exemplar	_	_
+14-24	1163-1165	zu	_	_
+14-25	1166-1172	kaufen	_	_
+14-26	1173-1174	.	_	_
+
+#Text=Wissen Sie besseren Rath ?
+15-1	1175-1181	Wissen	_	_
+15-2	1182-1185	Sie	_	_
+15-3	1186-1194	besseren	_	_
+15-4	1195-1199	Rath	_	_
+15-5	1200-1201	?	_	_
+
+#Text=Könnten wir nicht mit Tauchnitz einen Aesord machen wegen seiner Ausgaben
+16-1	1202-1209	Könnten	_	_
+16-2	1210-1213	wir	_	_
+16-3	1214-1219	nicht	_	_
+16-4	1220-1223	mit	_	_
+16-5	1224-1233	Tauchnitz	*	PERmentioned
+16-6	1234-1239	einen	_	_
+16-7	1240-1246	Aesord	_	_
+16-8	1247-1253	machen	_	_
+16-9	1254-1259	wegen	_	_
+16-10	1260-1266	seiner	_	_
+16-11	1267-1275	Ausgaben	_	_

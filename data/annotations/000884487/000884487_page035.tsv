@@ -1,0 +1,48 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=En Gerhard an Braun Berlin , 19. März 1836 sungen und mit einer Fahrt aus Berlins Thoren ( 14 Tage in Schlesien ) zu feiern .
+1-1	0-2	En	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	19.	*[4]	DATEletter[4]
+1-8	33-37	März	*[4]	DATEletter[4]
+1-9	38-42	1836	*[4]	DATEletter[4]
+1-10	43-49	sungen	_	_
+1-11	50-53	und	_	_
+1-12	54-57	mit	_	_
+1-13	58-63	einer	_	_
+1-14	64-69	Fahrt	_	_
+1-15	70-73	aus	_	_
+1-16	74-81	Berlins	*	PLACEmentioned
+1-17	82-88	Thoren	_	_
+1-18	89-90	(	_	_
+1-19	91-93	14	_	_
+1-20	94-98	Tage	_	_
+1-21	99-101	in	_	_
+1-22	102-111	Schlesien	*	PLACEmentioned
+1-23	112-113	)	_	_
+1-24	114-116	zu	_	_
+1-25	117-123	feiern	_	_
+1-26	124-125	.	_	_
+
+#Text=Gerhard Warum schicken Sie mir nicht einen Zettel an Ritschl zur Einforderung Ihrer Rückstände ?
+2-1	126-133	Gerhard	*	PERauthor
+2-2	134-139	Warum	_	_
+2-3	140-148	schicken	_	_
+2-4	149-152	Sie	_	_
+2-5	153-156	mir	_	_
+2-6	157-162	nicht	_	_
+2-7	163-168	einen	_	_
+2-8	169-175	Zettel	_	_
+2-9	176-178	an	_	_
+2-10	179-186	Ritschl	*	PERmentioned
+2-11	187-190	zur	_	_
+2-12	191-203	Einforderung	_	_
+2-13	204-209	Ihrer	_	_
+2-14	210-220	Rückstände	_	_
+2-15	221-222	?	_	_

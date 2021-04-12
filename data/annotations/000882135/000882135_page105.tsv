@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=630 Braun an Gerhard Rom , 19. September 71838 - 6 - dazu dienen Sie selbst auf Dinge aufmerksam zu machen die entgehen können .
+1-1	0-3	630	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	19.	*[4]	DATEletter[4]
+1-8	31-40	September	*[4]	DATEletter[4]
+1-9	41-46	71838	*[4]	DATEletter[4]
+1-10	47-48	-	_	_
+1-11	49-50	6	_	_
+1-12	51-52	-	_	_
+1-13	53-57	dazu	_	_
+1-14	58-64	dienen	_	_
+1-15	65-68	Sie	_	_
+1-16	69-75	selbst	_	_
+1-17	76-79	auf	_	_
+1-18	80-85	Dinge	_	_
+1-19	86-96	aufmerksam	_	_
+1-20	97-99	zu	_	_
+1-21	100-106	machen	_	_
+1-22	107-110	die	_	_
+1-23	111-119	entgehen	_	_
+1-24	120-126	können	_	_
+1-25	127-128	.	_	_
+
+#Text=Veber Iucc s Vasenwerth ist selbst Basseggio im Dunkeln .
+2-1	129-134	Veber	_	_
+2-2	135-139	Iucc	*[5]	PERmentioned[5]
+2-3	140-141	s	*[5]	PERmentioned[5]
+2-4	142-152	Vasenwerth	_	_
+2-5	153-156	ist	_	_
+2-6	157-163	selbst	_	_
+2-7	164-173	Basseggio	*	PERmentioned
+2-8	174-176	im	_	_
+2-9	177-184	Dunkeln	_	_
+2-10	185-186	.	_	_
+
+#Text=Für 20 auserlesene Stücke hatte er vergebens 4000 Scudi geboten \; für die ganze Sammlung 8000 .
+3-1	187-190	Für	_	_
+3-2	191-193	20	_	_
+3-3	194-205	auserlesene	_	_
+3-4	206-212	Stücke	_	_
+3-5	213-218	hatte	_	_
+3-6	219-221	er	_	_
+3-7	222-231	vergebens	_	_
+3-8	232-236	4000	_	_
+3-9	237-242	Scudi	_	_
+3-10	243-250	geboten	_	_
+3-11	251-252	\;	_	_
+3-12	253-256	für	_	_
+3-13	257-260	die	_	_
+3-14	261-266	ganze	_	_
+3-15	267-275	Sammlung	_	_
+3-16	276-280	8000	_	_
+3-17	281-282	.	_	_
+
+#Text=Im Palazzo Gabriele sind sie nicht mehr .
+4-1	283-285	Im	_	_
+4-2	286-293	Palazzo	*[7]	PLACEmentioned[7]
+4-3	294-302	Gabriele	*[7]	PLACEmentioned[7]
+4-4	303-307	sind	_	_
+4-5	308-311	sie	_	_
+4-6	312-317	nicht	_	_
+4-7	318-322	mehr	_	_
+4-8	323-324	.	_	_
+
+#Text=Sonst verlautet nichts darüber .
+5-1	325-330	Sonst	_	_
+5-2	331-340	verlautet	_	_
+5-3	341-347	nichts	_	_
+5-4	348-355	darüber	_	_
+5-5	356-357	.	_	_
+
+#Text=Maler ist nach Karlsruhe und hat herrlich eingekauft .
+6-1	358-363	Maler	*	PERmentioned
+6-2	364-367	ist	_	_
+6-3	368-372	nach	_	_
+6-4	373-382	Karlsruhe	*	PLACEmentioned
+6-5	383-386	und	_	_
+6-6	387-390	hat	_	_
+6-7	391-399	herrlich	_	_
+6-8	400-410	eingekauft	_	_
+6-9	411-412	.	_	_
+
+#Text=Die Pisanische Terracottensammlung und herrliche Vasen .
+7-1	413-416	Die	_	_
+7-2	417-427	Pisanische	_	_
+7-3	428-447	Terracottensammlung	_	_
+7-4	448-451	und	_	_
+7-5	452-461	herrliche	_	_
+7-6	462-467	Vasen	*	OBJ
+7-7	468-469	.	_	_
+
+#Text=Seit ich bei Herrn von Bach Leibarzt bin , sehe ich ihn öfter und hoffe ihn auch nach und nach mehr .
+8-1	470-474	Seit	_	_
+8-2	475-478	ich	_	_
+8-3	479-482	bei	_	_
+8-4	483-488	Herrn	_	_
+8-5	489-492	von	*[11]	PERmentioned[11]
+8-6	493-497	Bach	*[11]	PERmentioned[11]
+8-7	498-506	Leibarzt	_	_
+8-8	507-510	bin	_	_
+8-9	511-512	,	_	_
+8-10	513-517	sehe	_	_
+8-11	518-521	ich	_	_
+8-12	522-525	ihn	_	_
+8-13	526-531	öfter	_	_
+8-14	532-535	und	_	_
+8-15	536-541	hoffe	_	_
+8-16	542-545	ihn	_	_
+8-17	546-550	auch	_	_
+8-18	551-555	nach	_	_
+8-19	556-559	und	_	_
+8-20	560-564	nach	_	_
+8-21	565-569	mehr	_	_
+8-22	570-571	.	_	_
+
+#Text=noch für das Institut zu gewinnen .
+9-1	572-576	noch	_	_
+9-2	577-580	für	_	_
+9-3	581-584	das	_	_
+9-4	585-593	Institut	*	ORGmentioned
+9-5	594-596	zu	_	_
+9-6	597-605	gewinnen	_	_
+9-7	606-607	.	_	_
+
+#Text=Gefällig ist er stets , nur hütet er sich nach früherer Weise Verpflichtungen zu übernehmen , die außer dem Geschäftswind liegen .
+10-1	608-616	Gefällig	_	_
+10-2	617-620	ist	_	_
+10-3	621-623	er	_	_
+10-4	624-629	stets	_	_
+10-5	630-631	,	_	_
+10-6	632-635	nur	_	_
+10-7	636-641	hütet	_	_
+10-8	642-644	er	_	_
+10-9	645-649	sich	_	_
+10-10	650-654	nach	_	_
+10-11	655-663	früherer	_	_
+10-12	664-669	Weise	_	_
+10-13	670-685	Verpflichtungen	_	_
+10-14	686-688	zu	_	_
+10-15	689-699	übernehmen	_	_
+10-16	700-701	,	_	_
+10-17	702-705	die	_	_
+10-18	706-711	außer	_	_
+10-19	712-715	dem	_	_
+10-20	716-729	Geschäftswind	_	_
+10-21	730-736	liegen	_	_
+10-22	737-738	.	_	_
+
+#Text=Das Hospital steht in dieser Beziehung auf schlechten Füßen .
+11-1	739-742	Das	_	_
+11-2	743-751	Hospital	_	_
+11-3	752-757	steht	_	_
+11-4	758-760	in	_	_
+11-5	761-767	dieser	_	_
+11-6	768-777	Beziehung	_	_
+11-7	778-781	auf	_	_
+11-8	782-792	schlechten	_	_
+11-9	793-798	Füßen	_	_
+11-10	799-800	.	_	_
+
+#Text=Von Stackelberg war ja dem Institut wenigstens der Apollotempel zur Honorartilgung versprochen worden .
+12-1	801-804	Von	_	_
+12-2	805-816	Stackelberg	*	PERmentioned
+12-3	817-820	war	_	_
+12-4	821-823	ja	_	_
+12-5	824-827	dem	_	_
+12-6	828-836	Institut	*	ORGmentioned
+12-7	837-847	wenigstens	_	_
+12-8	848-851	der	_	_
+12-9	852-864	Apollotempel	*	OBJ
+12-10	865-868	zur	_	_
+12-11	869-883	Honorartilgung	_	_
+12-12	884-895	versprochen	_	_
+12-13	896-902	worden	_	_
+12-14	903-904	.	_	_
+
+#Text=An den Minervenpolos wird es mir schwer zu glauben .
+13-1	905-907	An	_	_
+13-2	908-911	den	_	_
+13-3	912-925	Minervenpolos	*	MISC
+13-4	926-930	wird	_	_
+13-5	931-933	es	_	_
+13-6	934-937	mir	_	_
+13-7	938-944	schwer	_	_
+13-8	945-947	zu	_	_
+13-9	948-955	glauben	_	_
+13-10	956-957	.	_	_
+
+#Text=Symbole können klein sein , behalten aber immer ihre physische Bedeutung .
+14-1	958-965	Symbole	_	_
+14-2	966-972	können	_	_
+14-3	973-978	klein	_	_
+14-4	979-983	sein	_	_
+14-5	984-985	,	_	_
+14-6	986-994	behalten	_	_
+14-7	995-999	aber	_	_
+14-8	1000-1005	immer	_	_
+14-9	1006-1010	ihre	_	_
+14-10	1011-1020	physische	_	_
+14-11	1021-1030	Bedeutung	_	_
+14-12	1031-1032	.	_	_
+
+#Text=- Dagegen bin ich jetzt für Ihre Ansicht in Betreff der Venus auf der Bacchusherme bei der Bellerophonsdarstellung gewonnen , nachdem ich vorher noch viel Beweise zur Entschuldigung meiner Annahme gesammelt .
+15-1	1033-1034	-	_	_
+15-2	1035-1042	Dagegen	_	_
+15-3	1043-1046	bin	_	_
+15-4	1047-1050	ich	_	_
+15-5	1051-1056	jetzt	_	_
+15-6	1057-1060	für	_	_
+15-7	1061-1065	Ihre	_	_
+15-8	1066-1073	Ansicht	_	_
+15-9	1074-1076	in	_	_
+15-10	1077-1084	Betreff	_	_
+15-11	1085-1088	der	_	_
+15-12	1089-1094	Venus	*	MISC
+15-13	1095-1098	auf	_	_
+15-14	1099-1102	der	_	_
+15-15	1103-1115	Bacchusherme	*	MISC
+15-16	1116-1119	bei	_	_
+15-17	1120-1123	der	_	_
+15-18	1124-1147	Bellerophonsdarstellung	*	MISC
+15-19	1148-1156	gewonnen	_	_
+15-20	1157-1158	,	_	_
+15-21	1159-1166	nachdem	_	_
+15-22	1167-1170	ich	_	_
+15-23	1171-1177	vorher	_	_
+15-24	1178-1182	noch	_	_
+15-25	1183-1187	viel	_	_
+15-26	1188-1195	Beweise	_	_
+15-27	1196-1199	zur	_	_
+15-28	1200-1214	Entschuldigung	_	_
+15-29	1215-1221	meiner	_	_
+15-30	1222-1229	Annahme	_	_
+15-31	1230-1239	gesammelt	_	_
+15-32	1240-1241	.	_	_
+
+#Text=Die große Basseggiosche Amphore : Herkules mit Löwen Dioskuren hat der Graf Paolo Tosi in Brescia gekauft .
+16-1	1242-1245	Die	_	_
+16-2	1246-1251	große	_	_
+16-3	1252-1265	Basseggiosche	*	PERmentioned
+16-4	1266-1273	Amphore	*	OBJ
+16-5	1274-1275	:	_	_
+16-6	1276-1284	Herkules	*[22]	OBJ[22]
+16-7	1285-1288	mit	*[22]	OBJ[22]
+16-8	1289-1294	Löwen	*[22]	OBJ[22]
+16-9	1295-1304	Dioskuren	*	OBJ
+16-10	1305-1308	hat	_	_
+16-11	1309-1312	der	_	_
+16-12	1313-1317	Graf	*[24]	PERmentioned[24]
+16-13	1318-1323	Paolo	*[24]	PERmentioned[24]
+16-14	1324-1328	Tosi	*[24]	PERmentioned[24]
+16-15	1329-1331	in	_	_
+16-16	1332-1339	Brescia	*	PLACEmentioned
+16-17	1340-1347	gekauft	_	_
+16-18	1348-1349	.	_	_
+
+#Text=Ich publicire sie wahrscheinlich später als Sie und als tavola d'aggiunta zu dem Relief in der Minerva .
+17-1	1350-1353	Ich	_	_
+17-2	1354-1363	publicire	_	_
+17-3	1364-1367	sie	_	_
+17-4	1368-1382	wahrscheinlich	_	_
+17-5	1383-1389	später	_	_
+17-6	1390-1393	als	_	_
+17-7	1394-1397	Sie	_	_
+17-8	1398-1401	und	_	_
+17-9	1402-1405	als	_	_
+17-10	1406-1412	tavola	_	_
+17-11	1413-1423	d'aggiunta	_	_
+17-12	1424-1426	zu	_	_
+17-13	1427-1430	dem	_	_
+17-14	1431-1437	Relief	*[26]	OBJ[26]
+17-15	1438-1440	in	*[26]	OBJ[26]
+17-16	1441-1444	der	*[26]	OBJ[26]
+17-17	1445-1452	Minerva	*[26]	OBJ[26]
+17-18	1453-1454	.	_	_

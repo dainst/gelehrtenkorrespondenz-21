@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=125 Gerhard an Braun Berlin 15/1/1835 Berlin d : 15 Jamuar 1835 Herrn Dr. Braun .
+1-1	0-3	125	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-37	15/1/1835	*	DATEletter
+1-7	38-44	Berlin	*	PLACEfrom
+1-8	45-46	d	_	_
+1-9	47-48	:	_	_
+1-10	49-51	15	*[7]	DATEletter[7]
+1-11	52-58	Jamuar	*[7]	DATEletter[7]
+1-12	59-63	1835	*[7]	DATEletter[7]
+1-13	64-69	Herrn	*[1]	PERaddressee[1]
+1-14	70-73	Dr.	*[1]	PERaddressee[1]
+1-15	74-79	Braun	*[1]	PERaddressee[1]
+1-16	80-81	.	_	_
+
+#Text=Vorgestern , lieber Freund , erhielt ich nach mancherlei Umständen durch persönliche Erscheinung auf der Post die Rolle Nibbyscher Vasenblätter , heute die im October abgesandte römische Kiste , letztere nicht ohne Verletzung .
+2-1	82-92	Vorgestern	_	_
+2-2	93-94	,	_	_
+2-3	95-101	lieber	_	_
+2-4	102-108	Freund	_	_
+2-5	109-110	,	_	_
+2-6	111-118	erhielt	_	_
+2-7	119-122	ich	_	_
+2-8	123-127	nach	_	_
+2-9	128-138	mancherlei	_	_
+2-10	139-148	Umständen	_	_
+2-11	149-154	durch	_	_
+2-12	155-166	persönliche	_	_
+2-13	167-178	Erscheinung	_	_
+2-14	179-182	auf	_	_
+2-15	183-186	der	_	_
+2-16	187-191	Post	_	_
+2-17	192-195	die	_	_
+2-18	196-201	Rolle	_	_
+2-19	202-212	Nibbyscher	*	PERmentioned
+2-20	213-225	Vasenblätter	_	_
+2-21	226-227	,	_	_
+2-22	228-233	heute	_	_
+2-23	234-237	die	_	_
+2-24	238-240	im	_	_
+2-25	241-248	October	*	DATEmentioned
+2-26	249-259	abgesandte	_	_
+2-27	260-268	römische	_	_
+2-28	269-274	Kiste	_	_
+2-29	275-276	,	_	_
+2-30	277-285	letztere	_	_
+2-31	286-291	nicht	_	_
+2-32	292-296	ohne	_	_
+2-33	297-307	Verletzung	_	_
+2-34	308-309	.	_	_
+
+#Text=Da nun selbst dem Generalpostmeister gründliche Speditionskenntnisse zum Nutzen und Ruhm gereichen , so darf ich um so eher für künftige Fälle zu weiterer Predigt an Vincenzo und de Antonis mit folgenden odios nützlichen Bemerkungen zu Hülfe kommen .
+3-1	310-312	Da	_	_
+3-2	313-316	nun	_	_
+3-3	317-323	selbst	_	_
+3-4	324-327	dem	_	_
+3-5	328-346	Generalpostmeister	_	_
+3-6	347-357	gründliche	_	_
+3-7	358-378	Speditionskenntnisse	_	_
+3-8	379-382	zum	_	_
+3-9	383-389	Nutzen	_	_
+3-10	390-393	und	_	_
+3-11	394-398	Ruhm	_	_
+3-12	399-408	gereichen	_	_
+3-13	409-410	,	_	_
+3-14	411-413	so	_	_
+3-15	414-418	darf	_	_
+3-16	419-422	ich	_	_
+3-17	423-425	um	_	_
+3-18	426-428	so	_	_
+3-19	429-433	eher	_	_
+3-20	434-437	für	_	_
+3-21	438-446	künftige	_	_
+3-22	447-452	Fälle	_	_
+3-23	453-455	zu	_	_
+3-24	456-464	weiterer	_	_
+3-25	465-472	Predigt	_	_
+3-26	473-475	an	_	_
+3-27	476-484	Vincenzo	*	PERmentioned
+3-28	485-488	und	_	_
+3-29	489-491	de	*[11]	PERmentioned[11]
+3-30	492-499	Antonis	*[11]	PERmentioned[11]
+3-31	500-503	mit	_	_
+3-32	504-513	folgenden	_	_
+3-33	514-519	odios	_	_
+3-34	520-530	nützlichen	_	_
+3-35	531-542	Bemerkungen	_	_
+3-36	543-545	zu	_	_
+3-37	546-551	Hülfe	_	_
+3-38	552-558	kommen	_	_
+3-39	559-560	.	_	_
+
+#Text=Nr. 1 geht allerdings Sie selbst an und erneut Ihnen meinen Wunsch , die Postbeamten wie die Setzer für möglichst dumm zu halten .
+4-1	561-564	Nr.	_	_
+4-2	565-566	1	_	_
+4-3	567-571	geht	_	_
+4-4	572-582	allerdings	_	_
+4-5	583-586	Sie	_	_
+4-6	587-593	selbst	_	_
+4-7	594-596	an	_	_
+4-8	597-600	und	_	_
+4-9	601-607	erneut	_	_
+4-10	608-613	Ihnen	_	_
+4-11	614-620	meinen	_	_
+4-12	621-627	Wunsch	_	_
+4-13	628-629	,	_	_
+4-14	630-633	die	_	_
+4-15	634-645	Postbeamten	_	_
+4-16	646-649	wie	_	_
+4-17	650-653	die	_	_
+4-18	654-660	Setzer	_	_
+4-19	661-664	für	_	_
+4-20	665-674	möglichst	_	_
+4-21	675-679	dumm	_	_
+4-22	680-682	zu	_	_
+4-23	683-689	halten	_	_
+4-24	690-691	.	_	_
+
+#Text=Ihre nicht gar schlimme Korrektur meines Namens machte viel Irrung .
+5-1	692-696	Ihre	_	_
+5-2	697-702	nicht	_	_
+5-3	703-706	gar	_	_
+5-4	707-715	schlimme	_	_
+5-5	716-725	Korrektur	_	_
+5-6	726-732	meines	_	_
+5-7	733-739	Namens	_	_
+5-8	740-746	machte	_	_
+5-9	747-751	viel	_	_
+5-10	752-758	Irrung	_	_
+5-11	759-760	.	_	_
+
+#Text=Lieber durchgestrichen und neu geschrieben als korrigirt .
+6-1	761-767	Lieber	_	_
+6-2	768-783	durchgestrichen	_	_
+6-3	784-787	und	_	_
+6-4	788-791	neu	_	_
+6-5	792-803	geschrieben	_	_
+6-6	804-807	als	_	_
+6-7	808-817	korrigirt	_	_
+6-8	818-819	.	_	_
+
+#Text=2 .
+7-1	820-821	2	_	_
+7-2	822-823	.	_	_
+
+#Text=Wenn Vincenzo Abbildungen einpackt , die heil ankommen sollen , so muß er sie mit einem Holze füttern \; liegt aber an der Eleganz der Blätter so wenig , wie an jenen Nibbyschen , so sind einige regelmäßige Falten und die Versendung durch Kabinetsgelegenheit vorzuziehen .
+8-1	824-828	Wenn	_	_
+8-2	829-837	Vincenzo	*	PERmentioned
+8-3	838-849	Abbildungen	_	_
+8-4	850-858	einpackt	_	_
+8-5	859-860	,	_	_
+8-6	861-864	die	_	_
+8-7	865-869	heil	_	_
+8-8	870-878	ankommen	_	_
+8-9	879-885	sollen	_	_
+8-10	886-887	,	_	_
+8-11	888-890	so	_	_
+8-12	891-894	muß	_	_
+8-13	895-897	er	_	_
+8-14	898-901	sie	_	_
+8-15	902-905	mit	_	_
+8-16	906-911	einem	_	_
+8-17	912-917	Holze	_	_
+8-18	918-925	füttern	_	_
+8-19	926-927	\;	_	_
+8-20	928-933	liegt	_	_
+8-21	934-938	aber	_	_
+8-22	939-941	an	_	_
+8-23	942-945	der	_	_
+8-24	946-953	Eleganz	_	_
+8-25	954-957	der	_	_
+8-26	958-965	Blätter	_	_
+8-27	966-968	so	_	_
+8-28	969-974	wenig	_	_
+8-29	975-976	,	_	_
+8-30	977-980	wie	_	_
+8-31	981-983	an	_	_
+8-32	984-989	jenen	_	_
+8-33	990-1000	Nibbyschen	_	_
+8-34	1001-1002	,	_	_
+8-35	1003-1005	so	_	_
+8-36	1006-1010	sind	_	_
+8-37	1011-1017	einige	_	_
+8-38	1018-1029	regelmäßige	_	_
+8-39	1030-1036	Falten	_	_
+8-40	1037-1040	und	_	_
+8-41	1041-1044	die	_	_
+8-42	1045-1055	Versendung	_	_
+8-43	1056-1061	durch	_	_
+8-44	1062-1081	Kabinetsgelegenheit	_	_
+8-45	1082-1093	vorzuziehen	_	_
+8-46	1094-1095	.	_	_
+
+#Text=3 .
+9-1	1096-1097	3	_	_
+9-2	1098-1099	.	_	_
+
+#Text=Abbildungen , die ich bereits in Zeichnung besitze , sind mir lieb , aber das Porto nicht werth \; dagegen der Text eiliger ist , um danach über die anderweitige Publikation des Monuments oder deren Unterlassung zu bestimmen ,
+10-1	1100-1111	Abbildungen	_	_
+10-2	1112-1113	,	_	_
+10-3	1114-1117	die	_	_
+10-4	1118-1121	ich	_	_
+10-5	1122-1129	bereits	_	_
+10-6	1130-1132	in	_	_
+10-7	1133-1142	Zeichnung	_	_
+10-8	1143-1150	besitze	_	_
+10-9	1151-1152	,	_	_
+10-10	1153-1157	sind	_	_
+10-11	1158-1161	mir	_	_
+10-12	1162-1166	lieb	_	_
+10-13	1167-1168	,	_	_
+10-14	1169-1173	aber	_	_
+10-15	1174-1177	das	_	_
+10-16	1178-1183	Porto	_	_
+10-17	1184-1189	nicht	_	_
+10-18	1190-1195	werth	_	_
+10-19	1196-1197	\;	_	_
+10-20	1198-1205	dagegen	_	_
+10-21	1206-1209	der	_	_
+10-22	1210-1214	Text	_	_
+10-23	1215-1222	eiliger	_	_
+10-24	1223-1226	ist	_	_
+10-25	1227-1228	,	_	_
+10-26	1229-1231	um	_	_
+10-27	1232-1238	danach	_	_
+10-28	1239-1243	über	_	_
+10-29	1244-1247	die	_	_
+10-30	1248-1260	anderweitige	_	_
+10-31	1261-1272	Publikation	_	_
+10-32	1273-1276	des	_	_
+10-33	1277-1286	Monuments	_	_
+10-34	1287-1291	oder	_	_
+10-35	1292-1297	deren	_	_
+10-36	1298-1310	Unterlassung	_	_
+10-37	1311-1313	zu	_	_
+10-38	1314-1323	bestimmen	_	_
+10-39	1324-1325	,	_	_

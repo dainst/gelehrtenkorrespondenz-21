@@ -1,0 +1,316 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=15 Braun an Gerhard Rom , 29 .
+1-1	0-2	15	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	29	_	_
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1839 Rom 29 Jan 1839 Hochverehrtester Freund !
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1839	*[4]	DATEletter[4]
+2-3	43-46	Rom	*	PLACEfrom
+2-4	47-49	29	_	_
+2-5	50-53	Jan	*[6]	DATEletter[6]
+2-6	54-58	1839	*[6]	DATEletter[6]
+2-7	59-75	Hochverehrtester	_	_
+2-8	76-82	Freund	_	_
+2-9	83-84	!	_	_
+
+#Text=Ich beantworte Ihren Brief vom 12 1 .
+3-1	85-88	Ich	_	_
+3-2	89-99	beantworte	_	_
+3-3	100-105	Ihren	_	_
+3-4	106-111	Brief	_	_
+3-5	112-115	vom	_	_
+3-6	116-118	12	*[7]	DATEmentioned[7]
+3-7	119-120	1	*[7]	DATEmentioned[7]
+3-8	121-122	.	*[7]	DATEmentioned[7]
+
+#Text=M. , der mir in der That herrliche Zeichnung des Triptolemusgefäß überbrachte .
+4-1	123-125	M.	_	_
+4-2	126-127	,	_	_
+4-3	128-131	der	_	_
+4-4	132-135	mir	_	_
+4-5	136-138	in	_	_
+4-6	139-142	der	_	_
+4-7	143-147	That	_	_
+4-8	148-157	herrliche	_	_
+4-9	158-167	Zeichnung	_	_
+4-10	168-171	des	_	_
+4-11	172-188	Triptolemusgefäß	*	OBJ
+4-12	189-200	überbrachte	_	_
+4-13	201-202	.	_	_
+
+#Text=Das große Format unsrer Monumente ist wie in den meisten Fällen allerdings ungünstig für die Publication eines solchen Gioiello .
+5-1	203-206	Das	_	_
+5-2	207-212	große	_	_
+5-3	213-219	Format	_	_
+5-4	220-226	unsrer	_	_
+5-5	227-236	Monumente	_	_
+5-6	237-240	ist	_	_
+5-7	241-244	wie	_	_
+5-8	245-247	in	_	_
+5-9	248-251	den	_	_
+5-10	252-259	meisten	_	_
+5-11	260-266	Fällen	_	_
+5-12	267-277	allerdings	_	_
+5-13	278-287	ungünstig	_	_
+5-14	288-291	für	_	_
+5-15	292-295	die	_	_
+5-16	296-307	Publication	_	_
+5-17	308-313	eines	_	_
+5-18	314-321	solchen	_	_
+5-19	322-330	Gioiello	_	_
+5-20	331-332	.	_	_
+
+#Text=Daß wir es indeß beibehalten müssen , daran sind vor allem Sie Schuld \; denn was gehen uns die Franzosen an .
+6-1	333-336	Daß	_	_
+6-2	337-340	wir	_	_
+6-3	341-343	es	_	_
+6-4	344-349	indeß	_	_
+6-5	350-361	beibehalten	_	_
+6-6	362-368	müssen	_	_
+6-7	369-370	,	_	_
+6-8	371-376	daran	_	_
+6-9	377-381	sind	_	_
+6-10	382-385	vor	_	_
+6-11	386-391	allem	_	_
+6-12	392-395	Sie	_	_
+6-13	396-402	Schuld	_	_
+6-14	403-404	\;	_	_
+6-15	405-409	denn	_	_
+6-16	410-413	was	_	_
+6-17	414-419	gehen	_	_
+6-18	420-423	uns	_	_
+6-19	424-427	die	_	_
+6-20	428-437	Franzosen	_	_
+6-21	438-440	an	_	_
+6-22	441-442	.	_	_
+
+#Text=- Llepsius hat in der Mazeschen Angelegenheit das Garn allemal dann erst gewirkt , wenn die Vögel heraus waren .
+7-1	443-444	-	_	_
+7-2	445-453	Llepsius	*	PERmentioned
+7-3	454-457	hat	_	_
+7-4	458-460	in	_	_
+7-5	461-464	der	_	_
+7-6	465-474	Mazeschen	*	PERmentioned
+7-7	475-488	Angelegenheit	_	_
+7-8	489-492	das	_	_
+7-9	493-497	Garn	_	_
+7-10	498-505	allemal	_	_
+7-11	506-510	dann	_	_
+7-12	511-515	erst	_	_
+7-13	516-523	gewirkt	_	_
+7-14	524-525	,	_	_
+7-15	526-530	wenn	_	_
+7-16	531-534	die	_	_
+7-17	535-540	Vögel	_	_
+7-18	541-547	heraus	_	_
+7-19	548-553	waren	_	_
+7-20	554-555	.	_	_
+
+#Text=- Die Separatabdrücke und sämtliches Lancisches Räsonnement anlangend , so bleibt es dabei , daß solche Schweinerei stets dem Institut nur schadet .
+8-1	556-557	-	_	_
+8-2	558-561	Die	_	_
+8-3	562-577	Separatabdrücke	_	_
+8-4	578-581	und	_	_
+8-5	582-592	sämtliches	_	_
+8-6	593-603	Lancisches	*	PERmentioned
+8-7	604-615	Räsonnement	_	_
+8-8	616-625	anlangend	_	_
+8-9	626-627	,	_	_
+8-10	628-630	so	_	_
+8-11	631-637	bleibt	_	_
+8-12	638-640	es	_	_
+8-13	641-646	dabei	_	_
+8-14	647-648	,	_	_
+8-15	649-652	daß	_	_
+8-16	653-659	solche	_	_
+8-17	660-671	Schweinerei	_	_
+8-18	672-677	stets	_	_
+8-19	678-681	dem	_	_
+8-20	682-690	Institut	*	ORGmentioned
+8-21	691-694	nur	_	_
+8-22	695-702	schadet	_	_
+8-23	703-704	.	_	_
+
+#Text=Lanci bekümmert sich nur insofern um das Institut , als es ihn amüsirt oder persönlichen Nutzen bringt , uns bringt einen durch sein ungehöriges Raisonniren um alle gute Laune .
+9-1	705-710	Lanci	*	PERmentioned
+9-2	711-720	bekümmert	_	_
+9-3	721-725	sich	_	_
+9-4	726-729	nur	_	_
+9-5	730-738	insofern	_	_
+9-6	739-741	um	_	_
+9-7	742-745	das	_	_
+9-8	746-754	Institut	*	ORGmentioned
+9-9	755-756	,	_	_
+9-10	757-760	als	_	_
+9-11	761-763	es	_	_
+9-12	764-767	ihn	_	_
+9-13	768-775	amüsirt	_	_
+9-14	776-780	oder	_	_
+9-15	781-793	persönlichen	_	_
+9-16	794-800	Nutzen	_	_
+9-17	801-807	bringt	_	_
+9-18	808-809	,	_	_
+9-19	810-813	uns	_	_
+9-20	814-820	bringt	_	_
+9-21	821-826	einen	_	_
+9-22	827-832	durch	_	_
+9-23	833-837	sein	_	_
+9-24	838-849	ungehöriges	_	_
+9-25	850-861	Raisonniren	_	_
+9-26	862-864	um	_	_
+9-27	865-869	alle	_	_
+9-28	870-874	gute	_	_
+9-29	875-880	Laune	_	_
+9-30	881-882	.	_	_
+
+#Text=- Kestner paßt zum Prosegr .
+10-1	883-884	-	_	_
+10-2	885-892	Kestner	*	PERmentioned
+10-3	893-897	paßt	_	_
+10-4	898-901	zum	_	_
+10-5	902-909	Prosegr	_	_
+10-6	910-911	.	_	_
+
+#Text=G ule wie die Faust aufs Auge .
+11-1	912-913	G	_	_
+11-2	914-917	ule	_	_
+11-3	918-921	wie	_	_
+11-4	922-925	die	_	_
+11-5	926-931	Faust	_	_
+11-6	932-936	aufs	_	_
+11-7	937-941	Auge	_	_
+11-8	942-943	.	_	_
+
+#Text=Lanci ist es freilich bequem , dennar .
+12-1	944-949	Lanci	*	PERmentioned
+12-2	950-953	ist	_	_
+12-3	954-956	es	_	_
+12-4	957-965	freilich	_	_
+12-5	966-972	bequem	_	_
+12-6	973-974	,	_	_
+12-7	975-981	dennar	_	_
+12-8	982-983	.	_	_
+
+#Text=behandelt ihn wie seine Tasche und wendet ihn rechts und links um .
+13-1	984-993	behandelt	_	_
+13-2	994-997	ihn	_	_
+13-3	998-1001	wie	_	_
+13-4	1002-1007	seine	_	_
+13-5	1008-1014	Tasche	_	_
+13-6	1015-1018	und	_	_
+13-7	1019-1025	wendet	_	_
+13-8	1026-1029	ihn	_	_
+13-9	1030-1036	rechts	_	_
+13-10	1037-1040	und	_	_
+13-11	1041-1046	links	_	_
+13-12	1047-1049	um	_	_
+13-13	1050-1051	.	_	_
+
+#Text=- Capranesi erklärt Ihre 35 Scudiangelegenheit so gut wie abgemacht .
+14-1	1052-1053	-	_	_
+14-2	1054-1063	Capranesi	*	PERmentioned
+14-3	1064-1071	erklärt	_	_
+14-4	1072-1076	Ihre	_	_
+14-5	1077-1079	35	_	_
+14-6	1080-1098	Scudiangelegenheit	_	_
+14-7	1099-1101	so	_	_
+14-8	1102-1105	gut	_	_
+14-9	1106-1109	wie	_	_
+14-10	1110-1119	abgemacht	_	_
+14-11	1120-1121	.	_	_
+
+#Text=Der silberne Ring ist da und alles soll in Ordnung kommen .
+15-1	1122-1125	Der	_	_
+15-2	1126-1134	silberne	*[18]	OBJ[18]
+15-3	1135-1139	Ring	*[18]	OBJ[18]
+15-4	1140-1143	ist	_	_
+15-5	1144-1146	da	_	_
+15-6	1147-1150	und	_	_
+15-7	1151-1156	alles	_	_
+15-8	1157-1161	soll	_	_
+15-9	1162-1164	in	_	_
+15-10	1165-1172	Ordnung	_	_
+15-11	1173-1179	kommen	_	_
+15-12	1180-1181	.	_	_
+
+#Text=- lInedita giebt es bei dem gänzlichen Mangel an Nachgrabungen natürlich wenig .
+16-1	1182-1183	-	_	_
+16-2	1184-1192	lInedita	_	_
+16-3	1193-1198	giebt	_	_
+16-4	1199-1201	es	_	_
+16-5	1202-1205	bei	_	_
+16-6	1206-1209	dem	_	_
+16-7	1210-1220	gänzlichen	_	_
+16-8	1221-1227	Mangel	_	_
+16-9	1228-1230	an	_	_
+16-10	1231-1244	Nachgrabungen	_	_
+16-11	1245-1254	natürlich	_	_
+16-12	1255-1260	wenig	_	_
+16-13	1261-1262	.	_	_
+
+#Text=Dennoch habe ich allerlei älteres zeichnen lassen .
+17-1	1263-1270	Dennoch	_	_
+17-2	1271-1275	habe	_	_
+17-3	1276-1279	ich	_	_
+17-4	1280-1288	allerlei	_	_
+17-5	1289-1296	älteres	_	_
+17-6	1297-1305	zeichnen	_	_
+17-7	1306-1312	lassen	_	_
+17-8	1313-1314	.	_	_
+
+#Text=- Schreiben Sie mir bis zu welchem Blatt und Seite Sie das Museo Mantovano erhalten haben .
+18-1	1315-1316	-	_	_
+18-2	1317-1326	Schreiben	_	_
+18-3	1327-1330	Sie	_	_
+18-4	1331-1334	mir	_	_
+18-5	1335-1338	bis	_	_
+18-6	1339-1341	zu	_	_
+18-7	1342-1349	welchem	_	_
+18-8	1350-1355	Blatt	_	_
+18-9	1356-1359	und	_	_
+18-10	1360-1365	Seite	_	_
+18-11	1366-1369	Sie	_	_
+18-12	1370-1373	das	_	_
+18-13	1374-1379	Museo	*[19]	ORGmentioned[19]
+18-14	1380-1389	Mantovano	*[19]	ORGmentioned[19]
+18-15	1390-1398	erhalten	_	_
+18-16	1399-1404	haben	_	_
+18-17	1405-1406	.	_	_
+
+#Text=- Von einem 2.ten Heft Maggiorischer Vasen weiß ich nichts .
+19-1	1407-1408	-	_	_
+19-2	1409-1412	Von	_	_
+19-3	1413-1418	einem	_	_
+19-4	1419-1424	2.ten	_	_
+19-5	1425-1429	Heft	_	_
+19-6	1430-1443	Maggiorischer	*	PERmentioned
+19-7	1444-1449	Vasen	*	OBJ
+19-8	1450-1454	weiß	_	_
+19-9	1455-1458	ich	_	_
+19-10	1459-1465	nichts	_	_
+19-11	1466-1467	.	_	_
+
+#Text=- 2 Exenplare Ihrer Bildwerke habe ich nicht empfangen .
+20-1	1468-1469	-	_	_
+20-2	1470-1471	2	_	_
+20-3	1472-1481	Exenplare	_	_
+20-4	1482-1487	Ihrer	_	_
+20-5	1488-1497	Bildwerke	_	_
+20-6	1498-1502	habe	_	_
+20-7	1503-1506	ich	_	_
+20-8	1507-1512	nicht	_	_
+20-9	1513-1522	empfangen	_	_
+20-10	1523-1524	.	_	_
+
+#Text=Alles
+21-1	1525-1530	Alles	_	_

@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ter 242 Henzen an Gerhard 1/X1/51 Braun , durch die erbärmlichen Artikel in der A , A.Z .
+1-1	0-3	ter	_	_
+1-2	4-7	242	_	_
+1-3	8-14	Henzen	*	PERauthor
+1-4	15-17	an	_	_
+1-5	18-25	Gerhard	*	PERaddressee
+1-6	26-33	1/X1/51	*	DATEletter
+1-7	34-39	Braun	*	PERmentioned
+1-8	40-41	,	_	_
+1-9	42-47	durch	_	_
+1-10	48-51	die	_	_
+1-11	52-64	erbärmlichen	_	_
+1-12	65-72	Artikel	_	_
+1-13	73-75	in	_	_
+1-14	76-79	der	_	_
+1-15	80-81	A	_	_
+1-16	82-83	,	_	_
+1-17	84-87	A.Z	_	_
+1-18	88-89	.	_	_
+
+#Text=bekannter , als er verdient .
+2-1	90-99	bekannter	_	_
+2-2	100-101	,	_	_
+2-3	102-105	als	_	_
+2-4	106-108	er	_	_
+2-5	109-117	verdient	_	_
+2-6	118-119	.	_	_
+
+#Text=Dagegen ist Philippi 's erneuter Aufenthalt mir sehr angenehn .
+3-1	120-127	Dagegen	_	_
+3-2	128-131	ist	_	_
+3-3	132-140	Philippi	*[2]	PERmentioned[2]
+3-4	141-143	's	*[2]	PERmentioned[2]
+3-5	144-152	erneuter	_	_
+3-6	153-163	Aufenthalt	_	_
+3-7	164-167	mir	_	_
+3-8	168-172	sehr	_	_
+3-9	173-181	angenehn	_	_
+3-10	182-183	.	_	_
+
+#Text=leine Frau grüßt bestens ie u. die Ihrige .
+4-1	184-189	leine	_	_
+4-2	190-194	Frau	_	_
+4-3	195-200	grüßt	_	_
+4-4	201-208	bestens	_	_
+4-5	209-211	ie	_	_
+4-6	212-214	u.	_	_
+4-7	215-218	die	_	_
+4-8	219-225	Ihrige	_	_
+4-9	226-227	.	_	_
+
+#Text=Vergessen » ®ie auch nicht , uns Ihrer Frau lutter u. Frill Sch zu empfehlen .
+5-1	228-237	Vergessen	_	_
+5-2	238-239	»	_	_
+5-3	240-243	®ie	_	_
+5-4	244-248	auch	_	_
+5-5	249-254	nicht	_	_
+5-6	255-256	,	_	_
+5-7	257-260	uns	_	_
+5-8	261-266	Ihrer	_	_
+5-9	267-271	Frau	_	_
+5-10	272-278	lutter	_	_
+5-11	279-281	u.	_	_
+5-12	282-287	Frill	*[1]	PERmentioned[1]
+5-13	288-291	Sch	*[1]	PERmentioned[1]
+5-14	292-294	zu	_	_
+5-15	295-304	empfehlen	_	_
+5-16	305-306	.	_	_
+
+#Text=Ihr WB .
+6-1	307-310	Ihr	_	_
+6-2	311-313	WB	_	_
+6-3	314-315	.	_	_
+
+#Text=Die nun folgenden Zeilen sind durchgestrichen : In No .
+7-1	316-319	Die	_	_
+7-2	320-323	nun	_	_
+7-3	324-333	folgenden	_	_
+7-4	334-340	Zeilen	_	_
+7-5	341-345	sind	_	_
+7-6	346-361	durchgestrichen	_	_
+7-7	362-363	:	_	_
+7-8	364-366	In	_	_
+7-9	367-369	No	_	_
+7-10	370-371	.	_	_
+
+#Text=26 der Denkmäler und Forschungen , Sp . 303 £f. , sucht Herr Mercklin seine Erkfärung der Inschrift von Tomi ( Januarheft 1850 ) gegen meine in No .
+8-1	372-374	26	_	_
+8-2	375-378	der	_	_
+8-3	379-388	Denkmäler	_	_
+8-4	389-392	und	_	_
+8-5	393-404	Forschungen	_	_
+8-6	405-406	,	_	_
+8-7	407-409	Sp	_	_
+8-8	410-411	.	_	_
+8-9	412-415	303	_	_
+8-10	416-419	£f.	_	_
+8-11	420-421	,	_	_
+8-12	422-427	sucht	_	_
+8-13	428-432	Herr	_	_
+8-14	433-441	Mercklin	*	PERmentioned
+8-15	442-447	seine	_	_
+8-16	448-457	Erkfärung	_	_
+8-17	458-461	der	_	_
+8-18	462-471	Inschrift	*	OBJ
+8-19	472-475	von	_	_
+8-20	476-480	Tomi	*	PLACEmentioned
+8-21	481-482	(	_	_
+8-22	483-493	Januarheft	_	_
+8-23	494-498	1850	*	DATEmentioned
+8-24	499-500	)	_	_
+8-25	501-506	gegen	_	_
+8-26	507-512	meine	_	_
+8-27	513-515	in	_	_
+8-28	516-518	No	_	_
+8-29	519-520	.	_	_
+
+#Text=21 mitgetheilten Bemerkungen zu rechtfertigen .
+9-1	521-523	21	_	_
+9-2	524-537	mitgetheilten	_	_
+9-3	538-549	Bemerkungen	_	_
+9-4	550-552	zu	_	_
+9-5	553-566	rechtfertigen	_	_
+9-6	567-568	.	_	_
+
+#Text=Ich bemerke dagegen nur noch , daß mir die für die veteres bulentae oder die decuria vetus bulentarum beigebrachten Beispiele durchaus nicht hieher zu gehören scheinen , indem ich immer in denselben nur die decuriones Arretinorum veterum , decurio adlectus ex veteribus Nolaris , curiales veterum Parentanorum zu erkennen vermag .
+10-1	569-572	Ich	_	_
+10-2	573-580	bemerke	_	_
+10-3	581-588	dagegen	_	_
+10-4	589-592	nur	_	_
+10-5	593-597	noch	_	_
+10-6	598-599	,	_	_
+10-7	600-603	daß	_	_
+10-8	604-607	mir	_	_
+10-9	608-611	die	_	_
+10-10	612-615	für	_	_
+10-11	616-619	die	_	_
+10-12	620-627	veteres	_	_
+10-13	628-636	bulentae	_	_
+10-14	637-641	oder	_	_
+10-15	642-645	die	_	_
+10-16	646-653	decuria	_	_
+10-17	654-659	vetus	_	_
+10-18	660-670	bulentarum	_	_
+10-19	671-684	beigebrachten	_	_
+10-20	685-694	Beispiele	_	_
+10-21	695-703	durchaus	_	_
+10-22	704-709	nicht	_	_
+10-23	710-716	hieher	_	_
+10-24	717-719	zu	_	_
+10-25	720-727	gehören	_	_
+10-26	728-736	scheinen	_	_
+10-27	737-738	,	_	_
+10-28	739-744	indem	_	_
+10-29	745-748	ich	_	_
+10-30	749-754	immer	_	_
+10-31	755-757	in	_	_
+10-32	758-767	denselben	_	_
+10-33	768-771	nur	_	_
+10-34	772-775	die	_	_
+10-35	776-786	decuriones	_	_
+10-36	787-798	Arretinorum	_	_
+10-37	799-806	veterum	_	_
+10-38	807-808	,	_	_
+10-39	809-816	decurio	_	_
+10-40	817-825	adlectus	_	_
+10-41	826-828	ex	_	_
+10-42	829-838	veteribus	_	_
+10-43	839-846	Nolaris	_	_
+10-44	847-848	,	_	_
+10-45	849-857	curiales	_	_
+10-46	858-865	veterum	_	_
+10-47	866-878	Parentanorum	_	_
+10-48	879-881	zu	_	_
+10-49	882-890	erkennen	_	_
+10-50	891-897	vermag	_	_
+10-51	898-899	.	_	_
+
+#Text=Ferner , nicht mehr durchgestrichen : Ich werde Obiges nächstens einschicken \; es fehlt \| mir Zeit , es augenblicklich zu beendigen .
+11-1	900-906	Ferner	_	_
+11-2	907-908	,	_	_
+11-3	909-914	nicht	_	_
+11-4	915-919	mehr	_	_
+11-5	920-935	durchgestrichen	_	_
+11-6	936-937	:	_	_
+11-7	938-941	Ich	_	_
+11-8	942-947	werde	_	_
+11-9	948-954	Obiges	_	_
+11-10	955-964	nächstens	_	_
+11-11	965-976	einschicken	_	_
+11-12	977-978	\;	_	_
+11-13	979-981	es	_	_
+11-14	982-987	fehlt	_	_
+11-15	988-989	\|	_	_
+11-16	990-993	mir	_	_
+11-17	994-998	Zeit	_	_
+11-18	999-1000	,	_	_
+11-19	1001-1003	es	_	_
+11-20	1004-1018	augenblicklich	_	_
+11-21	1019-1021	zu	_	_
+11-22	1022-1031	beendigen	_	_
+11-23	1032-1033	.	_	_
+
+#Text=mn nn
+12-1	1034-1036	mn	_	_
+12-2	1037-1039	nn	_	_

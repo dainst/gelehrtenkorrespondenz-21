@@ -1,0 +1,122 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.on0 .
+1-1	0-4	.on0	_	_
+1-2	5-6	.	_	_
+
+#Text=Gerhard an Henzen Berlin , 17 .
+2-1	7-14	Gerhard	*	PERauthor
+2-2	15-17	an	_	_
+2-3	18-24	Henzen	*	PERaddressee
+2-4	25-31	Berlin	*	PLACEfrom
+2-5	32-33	,	_	_
+2-6	34-36	17	*[1]	DATEletter[1]
+2-7	37-38	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1846 Patronatstafel , die ich , Inschriften in gleicher Linie mit andern Monumenten zu stellen , statt eines bildlichen gegeben habe .
+3-1	39-46	Oktober	*[1]	DATEletter[1]
+3-2	47-51	1846	*[1]	DATEletter[1]
+3-3	52-66	Patronatstafel	_	_
+3-4	67-68	,	_	_
+3-5	69-72	die	_	_
+3-6	73-76	ich	_	_
+3-7	77-78	,	_	_
+3-8	79-90	Inschriften	*	OBJ
+3-9	91-93	in	_	_
+3-10	94-102	gleicher	_	_
+3-11	103-108	Linie	_	_
+3-12	109-112	mit	_	_
+3-13	113-119	andern	_	_
+3-14	120-130	Monumenten	_	_
+3-15	131-133	zu	_	_
+3-16	134-141	stellen	_	_
+3-17	142-143	,	_	_
+3-18	144-149	statt	_	_
+3-19	150-155	eines	_	_
+3-20	156-166	bildlichen	_	_
+3-21	167-174	gegeben	_	_
+3-22	175-179	habe	_	_
+3-23	180-181	.	_	_
+
+#Text=Auch die gewünschten Diplome habe ich beigelegt .
+4-1	182-186	Auch	_	_
+4-2	187-190	die	_	_
+4-3	191-202	gewünschten	_	_
+4-4	203-210	Diplome	_	_
+4-5	211-215	habe	_	_
+4-6	216-219	ich	_	_
+4-7	220-229	beigelegt	_	_
+4-8	230-231	.	_	_
+
+#Text=Braun bitte ich mit bestem Gruß zu sagen daß Baron Herr von Stackelberg gestorben ist bevor ein Entschluß über das von ihm beabsichtigte Monument für Otto von Stackelberg gefaßt war \; Die Familie ist nun in Berathung , ob Geld dafür vorhanden sei .
+5-1	232-237	Braun	*	PERmentioned
+5-2	238-243	bitte	_	_
+5-3	244-247	ich	_	_
+5-4	248-251	mit	_	_
+5-5	252-258	bestem	_	_
+5-6	259-263	Gruß	_	_
+5-7	264-266	zu	_	_
+5-8	267-272	sagen	_	_
+5-9	273-276	daß	_	_
+5-10	277-282	Baron	*[2]	PERmentioned[2]
+5-11	283-287	Herr	*[2]	PERmentioned[2]
+5-12	288-291	von	*[2]	PERmentioned[2]
+5-13	292-303	Stackelberg	*[2]	PERmentioned[2]
+5-14	304-313	gestorben	_	_
+5-15	314-317	ist	_	_
+5-16	318-323	bevor	_	_
+5-17	324-327	ein	_	_
+5-18	328-337	Entschluß	_	_
+5-19	338-342	über	_	_
+5-20	343-346	das	_	_
+5-21	347-350	von	_	_
+5-22	351-354	ihm	_	_
+5-23	355-368	beabsichtigte	_	_
+5-24	369-377	Monument	_	_
+5-25	378-381	für	_	_
+5-26	382-386	Otto	*[3]	PERmentioned[3]
+5-27	387-390	von	*[3]	PERmentioned[3]
+5-28	391-402	Stackelberg	*[3]	PERmentioned[3]
+5-29	403-409	gefaßt	_	_
+5-30	410-413	war	_	_
+5-31	414-415	\;	_	_
+5-32	416-419	Die	_	_
+5-33	420-427	Familie	_	_
+5-34	428-431	ist	_	_
+5-35	432-435	nun	_	_
+5-36	436-438	in	_	_
+5-37	439-448	Berathung	_	_
+5-38	449-450	,	_	_
+5-39	451-453	ob	_	_
+5-40	454-458	Geld	_	_
+5-41	459-464	dafür	_	_
+5-42	465-474	vorhanden	_	_
+5-43	475-478	sei	_	_
+5-44	479-480	.	_	_
+
+#Text=Meine Frau grüßt bestens .
+6-1	481-486	Meine	_	_
+6-2	487-491	Frau	_	_
+6-3	492-497	grüßt	_	_
+6-4	498-505	bestens	_	_
+6-5	506-507	.	_	_
+
+#Text=Der Ihrigen und allen Freunden viel Herzliches .
+7-1	508-511	Der	_	_
+7-2	512-519	Ihrigen	_	_
+7-3	520-523	und	_	_
+7-4	524-529	allen	_	_
+7-5	530-538	Freunden	_	_
+7-6	539-543	viel	_	_
+7-7	544-554	Herzliches	_	_
+7-8	555-556	.	_	_
+
+#Text=Vale fare !
+8-1	557-561	Vale	_	_
+8-2	562-566	fare	_	_
+8-3	567-568	!	_	_
+
+#Text=Gerhard
+9-1	569-576	Gerhard	*	PERauthor

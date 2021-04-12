@@ -1,0 +1,44 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn ohne Ort/ohne Datum Es wird auch gewiß Eindruck machen , wenn Ihre Empfehlung Brunn 's in Zürich mit der von hier ausgehenden Michaeli's zusammentrifft .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-21	ohne	_	_
+1-5	22-30	Ort/ohne	_	_
+1-6	31-36	Datum	_	_
+1-7	37-39	Es	_	_
+1-8	40-44	wird	_	_
+1-9	45-49	auch	_	_
+1-10	50-55	gewiß	_	_
+1-11	56-64	Eindruck	_	_
+1-12	65-71	machen	_	_
+1-13	72-73	,	_	_
+1-14	74-78	wenn	_	_
+1-15	79-83	Ihre	_	_
+1-16	84-94	Empfehlung	_	_
+1-17	95-100	Brunn	*[0]	PERmentioned[0]
+1-18	101-103	's	*[0]	PERmentioned[0]
+1-19	104-106	in	_	_
+1-20	107-113	Zürich	*	PLACEmentioned
+1-21	114-117	mit	_	_
+1-22	118-121	der	_	_
+1-23	122-125	von	_	_
+1-24	126-130	hier	_	_
+1-25	131-142	ausgehenden	_	_
+1-26	143-153	Michaeli's	*	PERmentioned
+1-27	154-168	zusammentrifft	_	_
+1-28	169-170	.	_	_
+
+#Text=An den Rand geschrieben : Halm 's Handschrift ?
+2-1	171-173	An	_	_
+2-2	174-177	den	_	_
+2-3	178-182	Rand	_	_
+2-4	183-194	geschrieben	_	_
+2-5	195-196	:	_	_
+2-6	197-201	Halm	*[1]	PERmentioned[1]
+2-7	202-204	's	*[1]	PERmentioned[1]
+2-8	205-216	Handschrift	_	_
+2-9	217-218	?	_	_

@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N 883 Braun an Gerhard 22 Rom , 15 , Dezember 1834 - 3— mangono di Scavi , per cui pare di piü adoperarsi per quei manifesti d'associazione .
+1-1	0-1	N	_	_
+1-2	2-5	883	_	_
+1-3	6-11	Braun	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-22	Gerhard	*	PERaddressee
+1-6	23-25	22	*[1]	DATEletter[1]
+1-7	26-29	Rom	*[1]|*[2]	DATEletter[1]|PLACEfrom[2]
+1-8	30-31	,	*[1]	DATEletter[1]
+1-9	32-34	15	*[1]	DATEletter[1]
+1-10	35-36	,	*[1]	DATEletter[1]
+1-11	37-45	Dezember	*[1]	DATEletter[1]
+1-12	46-50	1834	*[1]	DATEletter[1]
+1-13	51-52	-	_	_
+1-14	53-55	3—	_	_
+1-15	56-63	mangono	_	_
+1-16	64-66	di	_	_
+1-17	67-72	Scavi	_	_
+1-18	73-74	,	_	_
+1-19	75-78	per	_	_
+1-20	79-82	cui	_	_
+1-21	83-87	pare	_	_
+1-22	88-90	di	_	_
+1-23	91-94	piü	_	_
+1-24	95-105	adoperarsi	_	_
+1-25	106-109	per	_	_
+1-26	110-114	quei	_	_
+1-27	115-124	manifesti	_	_
+1-28	125-139	d'associazione	_	_
+1-29	140-141	.	_	_
+
+#Text=Non le sono meno obbligato perö , che se la predetta societä si fosse effettuata per lei mezzo .
+2-1	142-145	Non	_	_
+2-2	146-148	le	_	_
+2-3	149-153	sono	_	_
+2-4	154-158	meno	_	_
+2-5	159-168	obbligato	_	_
+2-6	169-173	perö	_	_
+2-7	174-175	,	_	_
+2-8	176-179	che	_	_
+2-9	180-182	se	_	_
+2-10	183-185	la	_	_
+2-11	186-194	predetta	_	_
+2-12	195-202	societä	_	_
+2-13	203-205	si	_	_
+2-14	206-211	fosse	_	_
+2-15	212-222	effettuata	_	_
+2-16	223-226	per	_	_
+2-17	227-230	lei	_	_
+2-18	231-236	mezzo	_	_
+2-19	237-238	.	_	_
+
+#Text=- Di potere si sta male , Una sola ne aveva assai vella di Achille e Pentesilea scritta , di finissimo graffito , che inosservata si rimaneva da piü amni fra awr le mie anticaglie , e questa 8 giä contrattata con Br . per lei .
+3-1	239-240	-	_	_
+3-2	241-243	Di	_	_
+3-3	244-250	potere	_	_
+3-4	251-253	si	_	_
+3-5	254-257	sta	_	_
+3-6	258-262	male	_	_
+3-7	263-264	,	_	_
+3-8	265-268	Una	_	_
+3-9	269-273	sola	_	_
+3-10	274-276	ne	_	_
+3-11	277-282	aveva	_	_
+3-12	283-288	assai	_	_
+3-13	289-294	vella	_	_
+3-14	295-297	di	_	_
+3-15	298-305	Achille	*[3]	OBJ[3]
+3-16	306-307	e	*[3]	OBJ[3]
+3-17	308-318	Pentesilea	*[3]	OBJ[3]
+3-18	319-326	scritta	_	_
+3-19	327-328	,	_	_
+3-20	329-331	di	_	_
+3-21	332-341	finissimo	_	_
+3-22	342-350	graffito	_	_
+3-23	351-352	,	_	_
+3-24	353-356	che	_	_
+3-25	357-368	inosservata	_	_
+3-26	369-371	si	_	_
+3-27	372-380	rimaneva	_	_
+3-28	381-383	da	_	_
+3-29	384-387	piü	_	_
+3-30	388-392	amni	_	_
+3-31	393-396	fra	_	_
+3-32	397-400	awr	_	_
+3-33	401-403	le	_	_
+3-34	404-407	mie	_	_
+3-35	408-418	anticaglie	_	_
+3-36	419-420	,	_	_
+3-37	421-422	e	_	_
+3-38	423-429	questa	_	_
+3-39	430-431	8	_	_
+3-40	432-435	giä	_	_
+3-41	436-447	contrattata	_	_
+3-42	448-451	con	_	_
+3-43	452-454	Br	_	_
+3-44	455-456	.	_	_
+3-45	457-460	per	_	_
+3-46	461-464	lei	_	_
+3-47	465-466	.	_	_
+
+#Text=- Mi voglia bene ecc .
+4-1	467-468	-	_	_
+4-2	469-471	Mi	_	_
+4-3	472-478	voglia	_	_
+4-4	479-483	bene	_	_
+4-5	484-487	ecc	_	_
+4-6	488-489	.	_	_
+
+#Text=Secondis Depoletti verlangt für das Parisgefäß 250 Seudi .
+5-1	490-498	Secondis	*	PERauthor
+5-2	499-508	Depoletti	*	PERmentioned
+5-3	509-517	verlangt	_	_
+5-4	518-521	für	_	_
+5-5	522-525	das	_	_
+5-6	526-536	Parisgefäß	_	_
+5-7	537-540	250	_	_
+5-8	541-546	Seudi	_	_
+5-9	547-548	.	_	_
+
+#Text=Für die höchst wichtige Namensreste 100 Scudi .
+6-1	549-552	Für	_	_
+6-2	553-556	die	_	_
+6-3	557-563	höchst	_	_
+6-4	564-572	wichtige	_	_
+6-5	573-584	Namensreste	_	_
+6-6	585-588	100	_	_
+6-7	589-594	Scudi	_	_
+6-8	595-596	.	_	_
+
+#Text=Veber Denkmälerauswahl ecc .
+7-1	597-602	Veber	_	_
+7-2	603-619	Denkmälerauswahl	_	_
+7-3	620-623	ecc	_	_
+7-4	624-625	.	_	_
+
+#Text=das nächste Mal , Noth ist nicht .
+8-1	626-629	das	_	_
+8-2	630-637	nächste	_	_
+8-3	638-641	Mal	_	_
+8-4	642-643	,	_	_
+8-5	644-648	Noth	_	_
+8-6	649-652	ist	_	_
+8-7	653-658	nicht	_	_
+8-8	659-660	.	_	_
+
+#Text=Veberhaupt lassen Sie Sich doch ja nicht durch meine Aeußerungen verstimmen.Durch reden thue ich schon , Ich klage vorzüglich aus Angst , weil mich alles dieses das erstemal und bei schwachen Kräften trifft .
+9-1	661-671	Veberhaupt	_	_
+9-2	672-678	lassen	_	_
+9-3	679-682	Sie	_	_
+9-4	683-687	Sich	_	_
+9-5	688-692	doch	_	_
+9-6	693-695	ja	_	_
+9-7	696-701	nicht	_	_
+9-8	702-707	durch	_	_
+9-9	708-713	meine	_	_
+9-10	714-725	Aeußerungen	_	_
+9-11	726-742	verstimmen.Durch	_	_
+9-12	743-748	reden	_	_
+9-13	749-753	thue	_	_
+9-14	754-757	ich	_	_
+9-15	758-763	schon	_	_
+9-16	764-765	,	_	_
+9-17	766-769	Ich	_	_
+9-18	770-775	klage	_	_
+9-19	776-786	vorzüglich	_	_
+9-20	787-790	aus	_	_
+9-21	791-796	Angst	_	_
+9-22	797-798	,	_	_
+9-23	799-803	weil	_	_
+9-24	804-808	mich	_	_
+9-25	809-814	alles	_	_
+9-26	815-821	dieses	_	_
+9-27	822-825	das	_	_
+9-28	826-834	erstemal	_	_
+9-29	835-838	und	_	_
+9-30	839-842	bei	_	_
+9-31	843-852	schwachen	_	_
+9-32	853-860	Kräften	_	_
+9-33	861-867	trifft	_	_
+9-34	868-869	.	_	_
+
+#Text=Auch sind wirlich die Arbeiten zu einer immensen Last angewachsen .
+10-1	870-874	Auch	_	_
+10-2	875-879	sind	_	_
+10-3	880-887	wirlich	_	_
+10-4	888-891	die	_	_
+10-5	892-900	Arbeiten	_	_
+10-6	901-903	zu	_	_
+10-7	904-909	einer	_	_
+10-8	910-918	immensen	_	_
+10-9	919-923	Last	_	_
+10-10	924-935	angewachsen	_	_
+10-11	936-937	.	_	_
+
+#Text=Ich habe durchaus alles von mir gewiesen , was michzerstreuen koennte und nach und nach hoffe ich brauchbar zu werden .
+11-1	938-941	Ich	_	_
+11-2	942-946	habe	_	_
+11-3	947-955	durchaus	_	_
+11-4	956-961	alles	_	_
+11-5	962-965	von	_	_
+11-6	966-969	mir	_	_
+11-7	970-978	gewiesen	_	_
+11-8	979-980	,	_	_
+11-9	981-984	was	_	_
+11-10	985-999	michzerstreuen	_	_
+11-11	1000-1007	koennte	_	_
+11-12	1008-1011	und	_	_
+11-13	1012-1016	nach	_	_
+11-14	1017-1020	und	_	_
+11-15	1021-1025	nach	_	_
+11-16	1026-1031	hoffe	_	_
+11-17	1032-1035	ich	_	_
+11-18	1036-1045	brauchbar	_	_
+11-19	1046-1048	zu	_	_
+11-20	1049-1055	werden	_	_
+11-21	1056-1057	.	_	_
+
+#Text=Für heute soviel .
+12-1	1058-1061	Für	_	_
+12-2	1062-1067	heute	_	_
+12-3	1068-1074	soviel	_	_
+12-4	1075-1076	.	_	_
+
+#Text=Gott mit Ihnen , Viele herzliche Festtagsgrüße an Ihr Fräulein Schwester deren freundliche Züge mir viel Zeit sparen und an Gerstäcker , Ihr Braun
+13-1	1077-1081	Gott	_	_
+13-2	1082-1085	mit	_	_
+13-3	1086-1091	Ihnen	_	_
+13-4	1092-1093	,	_	_
+13-5	1094-1099	Viele	_	_
+13-6	1100-1109	herzliche	_	_
+13-7	1110-1123	Festtagsgrüße	_	_
+13-8	1124-1126	an	_	_
+13-9	1127-1130	Ihr	_	_
+13-10	1131-1139	Fräulein	*[4]	PERmentioned[4]
+13-11	1140-1149	Schwester	*[4]	PERmentioned[4]
+13-12	1150-1155	deren	_	_
+13-13	1156-1167	freundliche	_	_
+13-14	1168-1172	Züge	_	_
+13-15	1173-1176	mir	_	_
+13-16	1177-1181	viel	_	_
+13-17	1182-1186	Zeit	_	_
+13-18	1187-1193	sparen	_	_
+13-19	1194-1197	und	_	_
+13-20	1198-1200	an	_	_
+13-21	1201-1211	Gerstäcker	*	PERmentioned
+13-22	1212-1213	,	_	_
+13-23	1214-1217	Ihr	_	_
+13-24	1218-1223	Braun	*	PERauthor

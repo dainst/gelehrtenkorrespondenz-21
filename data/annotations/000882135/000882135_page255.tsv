@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=237 Braun an Gerhard Rom , 28. Juli 1840 Rom 28 Juli 1840 .
+1-1	0-3	237	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	28.	*[4]	DATEletter[4]
+1-8	31-35	Juli	*[4]	DATEletter[4]
+1-9	36-40	1840	*[4]	DATEletter[4]
+1-10	41-44	Rom	*	PLACEfrom
+1-11	45-47	28	*[6]	DATEletter[6]
+1-12	48-52	Juli	*[6]	DATEletter[6]
+1-13	53-57	1840	*[6]	DATEletter[6]
+1-14	58-59	.	_	_
+
+#Text=Hochverehrtester Freund !
+2-1	60-76	Hochverehrtester	_	_
+2-2	77-83	Freund	_	_
+2-3	84-85	!	_	_
+
+#Text=Ihr letzter langersehnter Brief , welcher vorigen Sonnabend den 25 d. M. hier eingetroffen ist , ging auf dem Weg von hier nach Frascati verloren .
+3-1	86-89	Ihr	_	_
+3-2	90-97	letzter	_	_
+3-3	98-111	langersehnter	_	_
+3-4	112-117	Brief	_	_
+3-5	118-119	,	_	_
+3-6	120-127	welcher	_	_
+3-7	128-135	vorigen	_	_
+3-8	136-145	Sonnabend	_	_
+3-9	146-149	den	_	_
+3-10	150-152	25	*[7]	DATEmentioned[7]
+3-11	153-155	d.	*[7]	DATEmentioned[7]
+3-12	156-158	M.	*[7]	DATEmentioned[7]
+3-13	159-163	hier	_	_
+3-14	164-176	eingetroffen	_	_
+3-15	177-180	ist	_	_
+3-16	181-182	,	_	_
+3-17	183-187	ging	_	_
+3-18	188-191	auf	_	_
+3-19	192-195	dem	_	_
+3-20	196-199	Weg	_	_
+3-21	200-203	von	_	_
+3-22	204-208	hier	_	_
+3-23	209-213	nach	_	_
+3-24	214-222	Frascati	*	PLACEmentioned
+3-25	223-231	verloren	_	_
+3-26	232-233	.	_	_
+
+#Text=Wie sehr mich dies betrübt und niederschlägt , können Sie Sich bei der gegenwärtigen Spannung der Dinge leicht denken .
+4-1	234-237	Wie	_	_
+4-2	238-242	sehr	_	_
+4-3	243-247	mich	_	_
+4-4	248-252	dies	_	_
+4-5	253-260	betrübt	_	_
+4-6	261-264	und	_	_
+4-7	265-278	niederschlägt	_	_
+4-8	279-280	,	_	_
+4-9	281-287	können	_	_
+4-10	288-291	Sie	_	_
+4-11	292-296	Sich	_	_
+4-12	297-300	bei	_	_
+4-13	301-304	der	_	_
+4-14	305-318	gegenwärtigen	_	_
+4-15	319-327	Spannung	_	_
+4-16	328-331	der	_	_
+4-17	332-337	Dinge	_	_
+4-18	338-344	leicht	_	_
+4-19	345-351	denken	_	_
+4-20	352-353	.	_	_
+
+#Text=Ich wüßte nichts nahmhaft zu machen , was sich seit meinem letzten Schreiben wesentlich geändert hät -- te .
+5-1	354-357	Ich	_	_
+5-2	358-363	wüßte	_	_
+5-3	364-370	nichts	_	_
+5-4	371-379	nahmhaft	_	_
+5-5	380-382	zu	_	_
+5-6	383-389	machen	_	_
+5-7	390-391	,	_	_
+5-8	392-395	was	_	_
+5-9	396-400	sich	_	_
+5-10	401-405	seit	_	_
+5-11	406-412	meinem	_	_
+5-12	413-420	letzten	_	_
+5-13	421-430	Schreiben	_	_
+5-14	431-441	wesentlich	_	_
+5-15	442-450	geändert	_	_
+5-16	451-454	hät	_	_
+5-17	455-457	--	_	_
+5-18	458-460	te	_	_
+5-19	461-462	.	_	_
+
+#Text=Abeken II ist in Frascati , Schulz und Maler in Neapel , Wolff bereitet sich zu einer kleinen Reise vor .
+6-1	463-469	Abeken	*	PERmentioned
+6-2	470-472	II	_	_
+6-3	473-476	ist	_	_
+6-4	477-479	in	_	_
+6-5	480-488	Frascati	*	PLACEmentioned
+6-6	489-490	,	_	_
+6-7	491-497	Schulz	*	PERmentioned
+6-8	498-501	und	_	_
+6-9	502-507	Maler	*	PERmentioned
+6-10	508-510	in	_	_
+6-11	511-517	Neapel	*	PLACEmentioned
+6-12	518-519	,	_	_
+6-13	520-525	Wolff	*	PERmentioned
+6-14	526-534	bereitet	_	_
+6-15	535-539	sich	_	_
+6-16	540-542	zu	_	_
+6-17	543-548	einer	_	_
+6-18	549-556	kleinen	_	_
+6-19	557-562	Reise	_	_
+6-20	563-566	vor	_	_
+6-21	567-568	.	_	_
+
+#Text=Metternich hat durch Graf Lützow die Statuten und unsere Mitgliederliste einfordern lassen , nennt sich selbst President en air und Lützow läßt deutlich merken , daß er eher dagegen als dafür sei .
+7-1	569-579	Metternich	*	PERmentioned
+7-2	580-583	hat	_	_
+7-3	584-589	durch	_	_
+7-4	590-594	Graf	*[16]	PERmentioned[16]
+7-5	595-601	Lützow	*[16]	PERmentioned[16]
+7-6	602-605	die	_	_
+7-7	606-614	Statuten	_	_
+7-8	615-618	und	_	_
+7-9	619-625	unsere	_	_
+7-10	626-641	Mitgliederliste	_	_
+7-11	642-652	einfordern	_	_
+7-12	653-659	lassen	_	_
+7-13	660-661	,	_	_
+7-14	662-667	nennt	_	_
+7-15	668-672	sich	_	_
+7-16	673-679	selbst	_	_
+7-17	680-689	President	_	_
+7-18	690-692	en	_	_
+7-19	693-696	air	_	_
+7-20	697-700	und	_	_
+7-21	701-707	Lützow	*	PERmentioned
+7-22	708-712	läßt	_	_
+7-23	713-721	deutlich	_	_
+7-24	722-728	merken	_	_
+7-25	729-730	,	_	_
+7-26	731-734	daß	_	_
+7-27	735-737	er	_	_
+7-28	738-742	eher	_	_
+7-29	743-750	dagegen	_	_
+7-30	751-754	als	_	_
+7-31	755-760	dafür	_	_
+7-32	761-764	sei	_	_
+7-33	765-766	.	_	_
+
+#Text=Wenn Sie Iust hätten eine kleine aber mit seltenem Glück und Geschmack zusammengestellte Terracottensammlung von etwa 150 Stück für 500 Scudi zu aquiriren , so könnte ich Ihnen dazu verhelfen .
+8-1	767-771	Wenn	_	_
+8-2	772-775	Sie	_	_
+8-3	776-780	Iust	_	_
+8-4	781-787	hätten	_	_
+8-5	788-792	eine	_	_
+8-6	793-799	kleine	_	_
+8-7	800-804	aber	_	_
+8-8	805-808	mit	_	_
+8-9	809-817	seltenem	_	_
+8-10	818-823	Glück	_	_
+8-11	824-827	und	_	_
+8-12	828-837	Geschmack	_	_
+8-13	838-855	zusammengestellte	_	_
+8-14	856-875	Terracottensammlung	*	MISC
+8-15	876-879	von	_	_
+8-16	880-884	etwa	_	_
+8-17	885-888	150	_	_
+8-18	889-894	Stück	_	_
+8-19	895-898	für	_	_
+8-20	899-902	500	_	_
+8-21	903-908	Scudi	_	_
+8-22	909-911	zu	_	_
+8-23	912-921	aquiriren	_	_
+8-24	922-923	,	_	_
+8-25	924-926	so	_	_
+8-26	927-933	könnte	_	_
+8-27	934-937	ich	_	_
+8-28	938-943	Ihnen	_	_
+8-29	944-948	dazu	_	_
+8-30	949-958	verhelfen	_	_
+8-31	959-960	.	_	_
+
+#Text=Es sind großgriechische Figürchen von seltener Schönheit und Echtheit , vulcenter und griechische .
+9-1	961-963	Es	_	_
+9-2	964-968	sind	_	_
+9-3	969-984	großgriechische	*	PLACEmentioned
+9-4	985-994	Figürchen	*	OBJ
+9-5	995-998	von	_	_
+9-6	999-1007	seltener	_	_
+9-7	1008-1017	Schönheit	_	_
+9-8	1018-1021	und	_	_
+9-9	1022-1030	Echtheit	_	_
+9-10	1031-1032	,	_	_
+9-11	1033-1042	vulcenter	*	PLACEmentioned
+9-12	1043-1046	und	_	_
+9-13	1047-1058	griechische	*	PLACEmentioned
+9-14	1059-1060	.	_	_
+
+#Text=Da sich Panofka speziell mit diesem Kunstzweig beschäftigt , dürfte Ihnen der Antrag von einigem Interesse sein .
+10-1	1061-1063	Da	_	_
+10-2	1064-1068	sich	_	_
+10-3	1069-1076	Panofka	*	PERmentioned
+10-4	1077-1085	speziell	_	_
+10-5	1086-1089	mit	_	_
+10-6	1090-1096	diesem	_	_
+10-7	1097-1107	Kunstzweig	_	_
+10-8	1108-1119	beschäftigt	_	_
+10-9	1120-1121	,	_	_
+10-10	1122-1128	dürfte	_	_
+10-11	1129-1134	Ihnen	_	_
+10-12	1135-1138	der	_	_
+10-13	1139-1145	Antrag	_	_
+10-14	1146-1149	von	_	_
+10-15	1150-1157	einigem	_	_
+10-16	1158-1167	Interesse	_	_
+10-17	1168-1172	sein	_	_
+10-18	1173-1174	.	_	_
+
+#Text=Geld .
+11-1	1175-1179	Geld	_	_
+11-2	1180-1181	.	_	_
+
+#Text=Geld fürs Institut !
+12-1	1182-1186	Geld	_	_
+12-2	1187-1191	fürs	_	_
+12-3	1192-1200	Institut	*	ORGmentioned
+12-4	1201-1202	!	_	_
+
+#Text=Sonst sind wir verloren .
+13-1	1203-1208	Sonst	_	_
+13-2	1209-1213	sind	_	_
+13-3	1214-1217	wir	_	_
+13-4	1218-1226	verloren	_	_
+13-5	1227-1228	.	_	_
+
+#Text=Ihr EBraun .
+14-1	1229-1232	Ihr	_	_
+14-2	1233-1239	EBraun	*	PERauthor
+14-3	1240-1241	.	_	_

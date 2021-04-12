@@ -1,0 +1,204 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 24. Februar 1835 A mal ae Hogen , kostet 35 Silbergroschen und die gei @ htigen Bei- N schlüsse , nach deren Gewicht es so theuer ist , kann ich doch nicht wohl berechnen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	24.	*[4]	DATEletter[4]
+1-7	30-37	Februar	*[4]	DATEletter[4]
+1-8	38-42	1835	*[4]	DATEletter[4]
+1-9	43-44	A	_	_
+1-10	45-48	mal	_	_
+1-11	49-51	ae	_	_
+1-12	52-57	Hogen	_	_
+1-13	58-59	,	_	_
+1-14	60-66	kostet	_	_
+1-15	67-69	35	_	_
+1-16	70-84	Silbergroschen	_	_
+1-17	85-88	und	_	_
+1-18	89-92	die	_	_
+1-19	93-96	gei	_	_
+1-20	97-98	@	_	_
+1-21	99-105	htigen	_	_
+1-22	106-110	Bei-	_	_
+1-23	111-112	N	_	_
+1-24	113-121	schlüsse	_	_
+1-25	122-123	,	_	_
+1-26	124-128	nach	_	_
+1-27	129-134	deren	_	_
+1-28	135-142	Gewicht	_	_
+1-29	143-145	es	_	_
+1-30	146-148	so	_	_
+1-31	149-155	theuer	_	_
+1-32	156-159	ist	_	_
+1-33	160-161	,	_	_
+1-34	162-166	kann	_	_
+1-35	167-170	ich	_	_
+1-36	171-175	doch	_	_
+1-37	176-181	nicht	_	_
+1-38	182-186	wohl	_	_
+1-39	187-196	berechnen	_	_
+1-40	197-198	.	_	_
+
+#Text=Warum schicken Sie nicht direkt an Ritschl ?
+2-1	199-204	Warum	_	_
+2-2	205-213	schicken	_	_
+2-3	214-217	Sie	_	_
+2-4	218-223	nicht	_	_
+2-5	224-230	direkt	_	_
+2-6	231-233	an	_	_
+2-7	234-241	Ritschl	*	PERmentioned
+2-8	242-243	?	_	_
+
+#Text=Billets zu meinen Vorlesungen sind für mehr als 300 Personen ausgetheilt worden \; wie sehr die Neugierigen zusammenschmelzen werden muß man nun sehen .
+3-1	244-251	Billets	_	_
+3-2	252-254	zu	_	_
+3-3	255-261	meinen	_	_
+3-4	262-273	Vorlesungen	_	_
+3-5	274-278	sind	_	_
+3-6	279-282	für	_	_
+3-7	283-287	mehr	_	_
+3-8	288-291	als	_	_
+3-9	292-295	300	_	_
+3-10	296-304	Personen	_	_
+3-11	305-316	ausgetheilt	_	_
+3-12	317-323	worden	_	_
+3-13	324-325	\;	_	_
+3-14	326-329	wie	_	_
+3-15	330-334	sehr	_	_
+3-16	335-338	die	_	_
+3-17	339-350	Neugierigen	_	_
+3-18	351-368	zusammenschmelzen	_	_
+3-19	369-375	werden	_	_
+3-20	376-379	muß	_	_
+3-21	380-383	man	_	_
+3-22	384-387	nun	_	_
+3-23	388-393	sehen	_	_
+3-24	394-395	.	_	_
+
+#Text=Ein fatales Intermezzo habe ich in meinem wiedergekehrten Fieber enpfunden , dessen Wachwehen ich noch fürchte .
+4-1	396-399	Ein	_	_
+4-2	400-407	fatales	_	_
+4-3	408-418	Intermezzo	_	_
+4-4	419-423	habe	_	_
+4-5	424-427	ich	_	_
+4-6	428-430	in	_	_
+4-7	431-437	meinem	_	_
+4-8	438-453	wiedergekehrten	_	_
+4-9	454-460	Fieber	_	_
+4-10	461-470	enpfunden	_	_
+4-11	471-472	,	_	_
+4-12	473-479	dessen	_	_
+4-13	480-489	Wachwehen	_	_
+4-14	490-493	ich	_	_
+4-15	494-498	noch	_	_
+4-16	499-506	fürchte	_	_
+4-17	507-508	.	_	_
+
+#Text=Übrigens hat das neu umgerückte Nylersche Kupferstichkabinet mich aus meinen Saal in den leeren Raum der Skulptursäle vertrieben , wo ich nun morgen lesen soll .
+5-1	509-517	Übrigens	_	_
+5-2	518-521	hat	_	_
+5-3	522-525	das	_	_
+5-4	526-529	neu	_	_
+5-5	530-540	umgerückte	_	_
+5-6	541-550	Nylersche	*	PERmentioned
+5-7	551-569	Kupferstichkabinet	*	ORGmentioned
+5-8	570-574	mich	_	_
+5-9	575-578	aus	_	_
+5-10	579-585	meinen	_	_
+5-11	586-590	Saal	_	_
+5-12	591-593	in	_	_
+5-13	594-597	den	_	_
+5-14	598-604	leeren	_	_
+5-15	605-609	Raum	_	_
+5-16	610-613	der	_	_
+5-17	614-626	Skulptursäle	_	_
+5-18	627-637	vertrieben	_	_
+5-19	638-639	,	_	_
+5-20	640-642	wo	_	_
+5-21	643-646	ich	_	_
+5-22	647-650	nun	_	_
+5-23	651-657	morgen	_	_
+5-24	658-663	lesen	_	_
+5-25	664-668	soll	_	_
+5-26	669-670	.	_	_
+
+#Text=Eiselers 2 gilt so entschieden für einen Museumdruck daß kein ordentlicher Buchhändler ihn hier schafft \; am Ende ist auch nicht viel damit gewonnen , weil man allerlei Unnützes in den Kauf nehmen muß .
+6-1	671-679	Eiselers	*	PERmentioned
+6-2	680-681	2	_	_
+6-3	682-686	gilt	_	_
+6-4	687-689	so	_	_
+6-5	690-701	entschieden	_	_
+6-6	702-705	für	_	_
+6-7	706-711	einen	_	_
+6-8	712-723	Museumdruck	_	_
+6-9	724-727	daß	_	_
+6-10	728-732	kein	_	_
+6-11	733-745	ordentlicher	_	_
+6-12	746-757	Buchhändler	_	_
+6-13	758-761	ihn	_	_
+6-14	762-766	hier	_	_
+6-15	767-774	schafft	_	_
+6-16	775-776	\;	_	_
+6-17	777-779	am	_	_
+6-18	780-784	Ende	_	_
+6-19	785-788	ist	_	_
+6-20	789-793	auch	_	_
+6-21	794-799	nicht	_	_
+6-22	800-804	viel	_	_
+6-23	805-810	damit	_	_
+6-24	811-819	gewonnen	_	_
+6-25	820-821	,	_	_
+6-26	822-826	weil	_	_
+6-27	827-830	man	_	_
+6-28	831-839	allerlei	_	_
+6-29	840-848	Unnützes	_	_
+6-30	849-851	in	_	_
+6-31	852-855	den	_	_
+6-32	856-860	Kauf	_	_
+6-33	861-867	nehmen	_	_
+6-34	868-871	muß	_	_
+6-35	872-873	.	_	_
+
+#Text=Nebst einem Beischluß an Jahn .
+7-1	874-879	Nebst	_	_
+7-2	880-885	einem	_	_
+7-3	886-895	Beischluß	_	_
+7-4	896-898	an	_	_
+7-5	899-903	Jahn	*	PERmentioned
+7-6	904-905	.	_	_
+
+#Text=Herzlichst Ihr Gerhard In die Akademie bin ich sammt Stifter und Zumpt aufgenommen .
+8-1	906-916	Herzlichst	_	_
+8-2	917-920	Ihr	_	_
+8-3	921-928	Gerhard	*	PERauthor
+8-4	929-931	In	_	_
+8-5	932-935	die	_	_
+8-6	936-944	Akademie	*	ORGmentioned
+8-7	945-948	bin	_	_
+8-8	949-952	ich	_	_
+8-9	953-958	sammt	_	_
+8-10	959-966	Stifter	*	PERmentioned
+8-11	967-970	und	_	_
+8-12	971-976	Zumpt	*	PERmentioned
+8-13	977-988	aufgenommen	_	_
+8-14	989-990	.	_	_
+
+#Text=Quer am Rande : Zeichnungen habe ich in dem Kongolut gar nicht vor-
+9-1	991-995	Quer	_	_
+9-2	996-998	am	_	_
+9-3	999-1004	Rande	_	_
+9-4	1005-1006	:	_	_
+9-5	1007-1018	Zeichnungen	_	_
+9-6	1019-1023	habe	_	_
+9-7	1024-1027	ich	_	_
+9-8	1028-1030	in	_	_
+9-9	1031-1034	dem	_	_
+9-10	1035-1043	Kongolut	_	_
+9-11	1044-1047	gar	_	_
+9-12	1048-1053	nicht	_	_
+9-13	1054-1058	vor-	_	_

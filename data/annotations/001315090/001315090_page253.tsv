@@ -1,0 +1,198 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=55 Lepsius an Henzen Berlin , 28 .
+1-1	0-2	55	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	28	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=Januar 1876 N . 24 . 8 . 2 76 r . 3/2 Berlin , den 28 .
+2-1	35-41	Januar	*[3]	DATEletter[3]
+2-2	42-46	1876	*[3]	DATEletter[3]
+2-3	47-48	N	_	_
+2-4	49-50	.	_	_
+2-5	51-53	24	_	_
+2-6	54-55	.	_	_
+2-7	56-57	8	_	_
+2-8	58-59	.	_	_
+2-9	60-61	2	*[4]	DATErecieved[4]
+2-10	62-64	76	*[4]	DATErecieved[4]
+2-11	65-66	r	_	_
+2-12	67-68	.	_	_
+2-13	69-72	3/2	*	DATEanswered
+2-14	73-79	Berlin	*	PLACEfrom
+2-15	80-81	,	_	_
+2-16	82-85	den	_	_
+2-17	86-88	28	*[5]	DATEletter[5]
+2-18	89-90	.	*[5]	DATEletter[5]
+
+#Text=Jan .
+3-1	91-94	Jan	*[5]	DATEletter[5]
+3-2	95-96	.	*[5]	DATEletter[5]
+
+#Text=1876 .
+4-1	97-101	1876	*[5]	DATEletter[5]
+4-2	102-103	.	_	_
+
+#Text=Herrn Prof. Henzen In der heutigen Sitzung der Central Direktion wurde der neue Elenco vorgelegt , und Mittheilung über die an Dr. Dressel gezahlte Entschädigung für die Scherben des Monte Testaccio ( 150 M. ) gemacht , wie auch über die Überlassung der Steininschriften desselben , die im neuen Hause eingemauert werden sollen .
+5-1	104-109	Herrn	_	_
+5-2	110-115	Prof.	_	_
+5-3	116-122	Henzen	*	PERaddressee
+5-4	123-125	In	_	_
+5-5	126-129	der	_	_
+5-6	130-138	heutigen	_	_
+5-7	139-146	Sitzung	_	_
+5-8	147-150	der	_	_
+5-9	151-158	Central	*[6]	ORGmentioned[6]
+5-10	159-168	Direktion	*[6]	ORGmentioned[6]
+5-11	169-174	wurde	_	_
+5-12	175-178	der	_	_
+5-13	179-183	neue	_	_
+5-14	184-190	Elenco	_	_
+5-15	191-200	vorgelegt	_	_
+5-16	201-202	,	_	_
+5-17	203-206	und	_	_
+5-18	207-218	Mittheilung	_	_
+5-19	219-223	über	_	_
+5-20	224-227	die	_	_
+5-21	228-230	an	_	_
+5-22	231-234	Dr.	_	_
+5-23	235-242	Dressel	*	PERmentioned
+5-24	243-251	gezahlte	_	_
+5-25	252-265	Entschädigung	_	_
+5-26	266-269	für	_	_
+5-27	270-273	die	_	_
+5-28	274-282	Scherben	_	_
+5-29	283-286	des	_	_
+5-30	287-292	Monte	*[7]	PLACEmentioned[7]
+5-31	293-302	Testaccio	*[7]	PLACEmentioned[7]
+5-32	303-304	(	_	_
+5-33	305-308	150	_	_
+5-34	309-311	M.	_	_
+5-35	312-313	)	_	_
+5-36	314-321	gemacht	_	_
+5-37	322-323	,	_	_
+5-38	324-327	wie	_	_
+5-39	328-332	auch	_	_
+5-40	333-337	über	_	_
+5-41	338-341	die	_	_
+5-42	342-353	Überlassung	_	_
+5-43	354-357	der	_	_
+5-44	358-374	Steininschriften	*	OBJ
+5-45	375-384	desselben	_	_
+5-46	385-386	,	_	_
+5-47	387-390	die	_	_
+5-48	391-393	im	_	_
+5-49	394-399	neuen	_	_
+5-50	400-405	Hause	_	_
+5-51	406-417	eingemauert	_	_
+5-52	418-424	werden	_	_
+5-53	425-431	sollen	_	_
+5-54	432-433	.	_	_
+
+#Text=Die angekündigte kleine Überschreitung des Bibliotheksfonds soll auf Titel VII übernommen werden , auf welchen bereits die Entschädigung des Dr. Lüders für die interimistische Leitung in Athen bis zur Ankunft des neuen Sekretars angewiesen wurde .
+6-1	434-437	Die	_	_
+6-2	438-450	angekündigte	_	_
+6-3	451-457	kleine	_	_
+6-4	458-472	Überschreitung	_	_
+6-5	473-476	des	_	_
+6-6	477-493	Bibliotheksfonds	_	_
+6-7	494-498	soll	_	_
+6-8	499-502	auf	_	_
+6-9	503-508	Titel	_	_
+6-10	509-512	VII	_	_
+6-11	513-523	übernommen	_	_
+6-12	524-530	werden	_	_
+6-13	531-532	,	_	_
+6-14	533-536	auf	_	_
+6-15	537-544	welchen	_	_
+6-16	545-552	bereits	_	_
+6-17	553-556	die	_	_
+6-18	557-570	Entschädigung	_	_
+6-19	571-574	des	_	_
+6-20	575-578	Dr.	_	_
+6-21	579-585	Lüders	*	PERmentioned
+6-22	586-589	für	_	_
+6-23	590-593	die	_	_
+6-24	594-609	interimistische	_	_
+6-25	610-617	Leitung	_	_
+6-26	618-620	in	_	_
+6-27	621-626	Athen	*	PLACEmentioned
+6-28	627-630	bis	_	_
+6-29	631-634	zur	_	_
+6-30	635-642	Ankunft	_	_
+6-31	643-646	des	_	_
+6-32	647-652	neuen	_	_
+6-33	653-662	Sekretars	_	_
+6-34	663-673	angewiesen	_	_
+6-35	674-679	wurde	_	_
+6-36	680-681	.	_	_
+
+#Text=Es wurde angezeigt , daß der Wunsch der Central Direktion zu den Akten der Legationskasse gegeben wurde , Daß der Name Instituto di corrispondenza archeologica in den einfacheren Instituto archeologico verwandelt , und daß die 900 M. in Titel III , 2 aus der Kolumne Rom in die der Central Direktion versetzt werden möchte beim nächsten Etat .
+7-1	682-684	Es	_	_
+7-2	685-690	wurde	_	_
+7-3	691-700	angezeigt	_	_
+7-4	701-702	,	_	_
+7-5	703-706	daß	_	_
+7-6	707-710	der	_	_
+7-7	711-717	Wunsch	_	_
+7-8	718-721	der	_	_
+7-9	722-729	Central	*[8]	ORGmentioned[8]
+7-10	730-739	Direktion	*[8]	ORGmentioned[8]
+7-11	740-742	zu	_	_
+7-12	743-746	den	_	_
+7-13	747-752	Akten	_	_
+7-14	753-756	der	_	_
+7-15	757-771	Legationskasse	_	_
+7-16	772-779	gegeben	_	_
+7-17	780-785	wurde	_	_
+7-18	786-787	,	_	_
+7-19	788-791	Daß	_	_
+7-20	792-795	der	_	_
+7-21	796-800	Name	_	_
+7-22	801-810	Instituto	*[9]	ORGmentioned[9]
+7-23	811-813	di	*[9]	ORGmentioned[9]
+7-24	814-828	corrispondenza	*[9]	ORGmentioned[9]
+7-25	829-841	archeologica	*[9]	ORGmentioned[9]
+7-26	842-844	in	_	_
+7-27	845-848	den	_	_
+7-28	849-860	einfacheren	_	_
+7-29	861-870	Instituto	*[10]	ORGmentioned[10]
+7-30	871-883	archeologico	*[10]	ORGmentioned[10]
+7-31	884-894	verwandelt	_	_
+7-32	895-896	,	_	_
+7-33	897-900	und	_	_
+7-34	901-904	daß	_	_
+7-35	905-908	die	_	_
+7-36	909-912	900	_	_
+7-37	913-915	M.	_	_
+7-38	916-918	in	_	_
+7-39	919-924	Titel	_	_
+7-40	925-928	III	_	_
+7-41	929-930	,	_	_
+7-42	931-932	2	_	_
+7-43	933-936	aus	_	_
+7-44	937-940	der	_	_
+7-45	941-948	Kolumne	_	_
+7-46	949-952	Rom	*	PLACEmentioned
+7-47	953-955	in	_	_
+7-48	956-959	die	_	_
+7-49	960-963	der	_	_
+7-50	964-971	Central	*[11]	ORGmentioned[11]
+7-51	972-981	Direktion	*[11]	ORGmentioned[11]
+7-52	982-990	versetzt	_	_
+7-53	991-997	werden	_	_
+7-54	998-1004	möchte	_	_
+7-55	1005-1009	beim	_	_
+7-56	1010-1018	nächsten	_	_
+7-57	1019-1023	Etat	_	_
+7-58	1024-1025	.	_	_
+
+#Text=Lepsius
+8-1	1026-1033	Lepsius	*	PERauthor

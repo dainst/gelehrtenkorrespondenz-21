@@ -1,0 +1,267 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1006 Braun an Gerhard Rom , 22 .
+1-1	0-4	1006	_	_
+1-2	5-10	Braun	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-25	Rom	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	22	*[5]	DATEletter[5]
+1-8	31-32	.	*[5]	DATEletter[5]
+
+#Text=Oktober 1835 Prof , Gerhard .
+2-1	33-40	Oktober	*[5]	DATEletter[5]
+2-2	41-45	1835	*[5]	DATEletter[5]
+2-3	46-50	Prof	_	_
+2-4	51-52	,	_	_
+2-5	53-60	Gerhard	*	PERaddressee
+2-6	61-62	.	_	_
+
+#Text=Roma li 22 Ottobre 1835 .
+3-1	63-67	Roma	*	PLACEfrom
+3-2	68-70	li	_	_
+3-3	71-73	22	*[6]	DATEletter[6]
+3-4	74-81	Ottobre	*[6]	DATEletter[6]
+3-5	82-86	1835	_	_
+3-6	87-88	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+4-1	89-105	Hochverehrtester	_	_
+4-2	106-112	Freund	_	_
+4-3	113-114	\|	_	_
+4-4	115-116	!	_	_
+
+#Text=Herzlichen Dank für die übersandten Scudi 7100 .
+5-1	117-127	Herzlichen	_	_
+5-2	128-132	Dank	_	_
+5-3	133-136	für	_	_
+5-4	137-140	die	_	_
+5-5	141-152	übersandten	_	_
+5-6	153-158	Scudi	_	_
+5-7	159-163	7100	_	_
+5-8	164-165	.	_	_
+
+#Text=Sie kamen , als es hohe Zeit war .
+6-1	166-169	Sie	_	_
+6-2	170-175	kamen	_	_
+6-3	176-177	,	_	_
+6-4	178-181	als	_	_
+6-5	182-184	es	_	_
+6-6	185-189	hohe	_	_
+6-7	190-194	Zeit	_	_
+6-8	195-198	war	_	_
+6-9	199-200	.	_	_
+
+#Text=Capobianchi hat zwar noch 100 Scudi zu zahlen , allein auch hier hat es Imbrogli gegeben .
+7-1	201-212	Capobianchi	*	PERmentioned
+7-2	213-216	hat	_	_
+7-3	217-221	zwar	_	_
+7-4	222-226	noch	_	_
+7-5	227-230	100	_	_
+7-6	231-236	Scudi	_	_
+7-7	237-239	zu	_	_
+7-8	240-246	zahlen	_	_
+7-9	247-248	,	_	_
+7-10	249-255	allein	_	_
+7-11	256-260	auch	_	_
+7-12	261-265	hier	_	_
+7-13	266-269	hat	_	_
+7-14	270-272	es	_	_
+7-15	273-281	Imbrogli	_	_
+7-16	282-289	gegeben	_	_
+7-17	290-291	.	_	_
+
+#Text=Lanci handelt manchmal übereilt und hat ihn durch mich etwas hartmäulig gemacht .
+8-1	292-297	Lanci	*	PERmentioned
+8-2	298-305	handelt	_	_
+8-3	306-314	manchmal	_	_
+8-4	315-323	übereilt	_	_
+8-5	324-327	und	_	_
+8-6	328-331	hat	_	_
+8-7	332-335	ihn	_	_
+8-8	336-341	durch	_	_
+8-9	342-346	mich	_	_
+8-10	347-352	etwas	_	_
+8-11	353-363	hartmäulig	_	_
+8-12	364-371	gemacht	_	_
+8-13	372-373	.	_	_
+
+#Text=Indessen ist die Sache ausgeglichen \; auch sollen wir wohl bald zu Gelde kommen .
+9-1	374-382	Indessen	_	_
+9-2	383-386	ist	_	_
+9-3	387-390	die	_	_
+9-4	391-396	Sache	_	_
+9-5	397-409	ausgeglichen	_	_
+9-6	410-411	\;	_	_
+9-7	412-416	auch	_	_
+9-8	417-423	sollen	_	_
+9-9	424-427	wir	_	_
+9-10	428-432	wohl	_	_
+9-11	433-437	bald	_	_
+9-12	438-440	zu	_	_
+9-13	441-446	Gelde	_	_
+9-14	447-453	kommen	_	_
+9-15	454-455	.	_	_
+
+#Text=Lanci jedoch hat keine Ruh , bevor er ihn ausgebissen hat .
+10-1	456-461	Lanci	*	PERmentioned
+10-2	462-468	jedoch	_	_
+10-3	469-472	hat	_	_
+10-4	473-478	keine	_	_
+10-5	479-482	Ruh	_	_
+10-6	483-484	,	_	_
+10-7	485-490	bevor	_	_
+10-8	491-493	er	_	_
+10-9	494-497	ihn	_	_
+10-10	498-509	ausgebissen	_	_
+10-11	510-513	hat	_	_
+10-12	514-515	.	_	_
+
+#Text=Mit den Druckern ist kaum mehr auszukomnmen .
+11-1	516-519	Mit	_	_
+11-2	520-523	den	_	_
+11-3	524-532	Druckern	_	_
+11-4	533-536	ist	_	_
+11-5	537-541	kaum	_	_
+11-6	542-546	mehr	_	_
+11-7	547-559	auszukomnmen	_	_
+11-8	560-561	.	_	_
+
+#Text=Bei fürchterlichem fortdauerndem Aerger bringe ich fast nichts vor mich , Die römische Kiste kann erst jetzt abgehen , da das famose Bull .
+12-1	562-565	Bei	_	_
+12-2	566-580	fürchterlichem	_	_
+12-3	581-594	fortdauerndem	_	_
+12-4	595-601	Aerger	_	_
+12-5	602-608	bringe	_	_
+12-6	609-612	ich	_	_
+12-7	613-617	fast	_	_
+12-8	618-624	nichts	_	_
+12-9	625-628	vor	_	_
+12-10	629-633	mich	_	_
+12-11	634-635	,	_	_
+12-12	636-639	Die	_	_
+12-13	640-648	römische	_	_
+12-14	649-654	Kiste	_	_
+12-15	655-659	kann	_	_
+12-16	660-664	erst	_	_
+12-17	665-670	jetzt	_	_
+12-18	671-678	abgehen	_	_
+12-19	679-680	,	_	_
+12-20	681-683	da	_	_
+12-21	684-687	das	_	_
+12-22	688-694	famose	_	_
+12-23	695-699	Bull	_	_
+12-24	700-701	.	_	_
+
+#Text=III° abgewartet werden mußte .
+13-1	702-706	III°	_	_
+13-2	707-717	abgewartet	_	_
+13-3	718-724	werden	_	_
+13-4	725-730	mußte	_	_
+13-5	731-732	.	_	_
+
+#Text=Auch hatte ich geglaubt von Ihnen noch einige Aufträge zu erhalten .
+14-1	733-737	Auch	_	_
+14-2	738-743	hatte	_	_
+14-3	744-747	ich	_	_
+14-4	748-756	geglaubt	_	_
+14-5	757-760	von	_	_
+14-6	761-766	Ihnen	_	_
+14-7	767-771	noch	_	_
+14-8	772-778	einige	_	_
+14-9	779-787	Aufträge	_	_
+14-10	788-790	zu	_	_
+14-11	791-799	erhalten	_	_
+14-12	800-801	.	_	_
+
+#Text=Wie kommts daß ich mit der letzten Kiste die avisirten Knochensachen nicht erhalten habe .
+15-1	802-805	Wie	_	_
+15-2	806-812	kommts	_	_
+15-3	813-816	daß	_	_
+15-4	817-820	ich	_	_
+15-5	821-824	mit	_	_
+15-6	825-828	der	_	_
+15-7	829-836	letzten	_	_
+15-8	837-842	Kiste	_	_
+15-9	843-846	die	_	_
+15-10	847-856	avisirten	_	_
+15-11	857-870	Knochensachen	*	OBJ
+15-12	871-876	nicht	_	_
+15-13	877-885	erhalten	_	_
+15-14	886-890	habe	_	_
+15-15	891-892	.	_	_
+
+#Text=Bis jetzt habe ich sie nicht gefunden .
+16-1	893-896	Bis	_	_
+16-2	897-902	jetzt	_	_
+16-3	903-907	habe	_	_
+16-4	908-911	ich	_	_
+16-5	912-915	sie	_	_
+16-6	916-921	nicht	_	_
+16-7	922-930	gefunden	_	_
+16-8	931-932	.	_	_
+
+#Text=Indessen ist noch nicht alles darauf durchsucht , Bunsen ist ungeduldig Panofkas definitive Antwort zu erhalten .
+17-1	933-941	Indessen	_	_
+17-2	942-945	ist	_	_
+17-3	946-950	noch	_	_
+17-4	951-956	nicht	_	_
+17-5	957-962	alles	_	_
+17-6	963-969	darauf	_	_
+17-7	970-980	durchsucht	_	_
+17-8	981-982	,	_	_
+17-9	983-989	Bunsen	*	PERmentioned
+17-10	990-993	ist	_	_
+17-11	994-1004	ungeduldig	_	_
+17-12	1005-1013	Panofkas	*	PERmentioned
+17-13	1014-1024	definitive	_	_
+17-14	1025-1032	Antwort	_	_
+17-15	1033-1035	zu	_	_
+17-16	1036-1044	erhalten	_	_
+17-17	1045-1046	.	_	_
+
+#Text=Das Institut erhält durch ihn ein neues Local , prachtvoll und zweckmäßig , unmittelbar über dem tarpejischen Felsen , Ein großer 80 Fuß langer Saal , durch mehrere Vorhänge geschickt abgetheilt , Sala per le Archivio adunanze Biblioteca Segreteria Cortile Deposito
+18-1	1047-1050	Das	_	_
+18-2	1051-1059	Institut	*	ORGmentioned
+18-3	1060-1066	erhält	_	_
+18-4	1067-1072	durch	_	_
+18-5	1073-1076	ihn	_	_
+18-6	1077-1080	ein	_	_
+18-7	1081-1086	neues	_	_
+18-8	1087-1092	Local	_	_
+18-9	1093-1094	,	_	_
+18-10	1095-1105	prachtvoll	_	_
+18-11	1106-1109	und	_	_
+18-12	1110-1120	zweckmäßig	_	_
+18-13	1121-1122	,	_	_
+18-14	1123-1134	unmittelbar	_	_
+18-15	1135-1139	über	_	_
+18-16	1140-1143	dem	_	_
+18-17	1144-1156	tarpejischen	_	_
+18-18	1157-1163	Felsen	_	_
+18-19	1164-1165	,	_	_
+18-20	1166-1169	Ein	_	_
+18-21	1170-1176	großer	_	_
+18-22	1177-1179	80	_	_
+18-23	1180-1183	Fuß	_	_
+18-24	1184-1190	langer	_	_
+18-25	1191-1195	Saal	_	_
+18-26	1196-1197	,	_	_
+18-27	1198-1203	durch	_	_
+18-28	1204-1211	mehrere	_	_
+18-29	1212-1220	Vorhänge	_	_
+18-30	1221-1230	geschickt	_	_
+18-31	1231-1241	abgetheilt	_	_
+18-32	1242-1243	,	_	_
+18-33	1244-1248	Sala	_	_
+18-34	1249-1252	per	_	_
+18-35	1253-1255	le	_	_
+18-36	1256-1264	Archivio	_	_
+18-37	1265-1273	adunanze	_	_
+18-38	1274-1284	Biblioteca	_	_
+18-39	1285-1295	Segreteria	_	_
+18-40	1296-1303	Cortile	_	_
+18-41	1304-1312	Deposito	_	_

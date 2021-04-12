@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=264 Lepsius an Henzen Berlin , 26. Mai 1875 Pr .
+1-1	0-3	264	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	26.	*[1]	DATEletter[1]
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1875	*[1]	DATEletter[1]
+1-10	44-46	Pr	_	_
+1-11	47-48	.	_	_
+
+#Text=Ludw .
+2-1	49-53	Ludw	*[2]	PERmentioned[2]
+2-2	54-55	.	*[2]	PERmentioned[2]
+
+#Text=Schwabe , Tübingen Für Paganini folgt ein andres Diplom .
+3-1	56-63	Schwabe	*[2]	PERmentioned[2]
+3-2	64-65	,	_	_
+3-3	66-74	Tübingen	*	PLACEmentioned
+3-4	75-78	Für	_	_
+3-5	79-87	Paganini	*	PERmentioned
+3-6	88-93	folgt	_	_
+3-7	94-97	ein	_	_
+3-8	98-104	andres	_	_
+3-9	105-111	Diplom	_	_
+3-10	112-113	.	_	_
+
+#Text=Lüders verläßt seine Stellung wieder , die in der That nicht mehr haltbar war .
+4-1	114-120	Lüders	*	PERmentioned
+4-2	121-128	verläßt	_	_
+4-3	129-134	seine	_	_
+4-4	135-143	Stellung	_	_
+4-5	144-150	wieder	_	_
+4-6	151-152	,	_	_
+4-7	153-156	die	_	_
+4-8	157-159	in	_	_
+4-9	160-163	der	_	_
+4-10	164-168	That	_	_
+4-11	169-174	nicht	_	_
+4-12	175-179	mehr	_	_
+4-13	180-187	haltbar	_	_
+4-14	188-191	war	_	_
+4-15	192-193	.	_	_
+
+#Text=Abgesehen davon , daß es ihm unmöglich war , einen richtigen Standpunkt der Central Direktion gegenüber in seiner Korrespondenz zu gewinnen , befriedigten seine Leistungen hier nach keiner Seite hin .
+5-1	194-203	Abgesehen	_	_
+5-2	204-209	davon	_	_
+5-3	210-211	,	_	_
+5-4	212-215	daß	_	_
+5-5	216-218	es	_	_
+5-6	219-222	ihm	_	_
+5-7	223-232	unmöglich	_	_
+5-8	233-236	war	_	_
+5-9	237-238	,	_	_
+5-10	239-244	einen	_	_
+5-11	245-254	richtigen	_	_
+5-12	255-265	Standpunkt	_	_
+5-13	266-269	der	_	_
+5-14	270-277	Central	*[3]	ORGmentioned[3]
+5-15	278-287	Direktion	*[3]	ORGmentioned[3]
+5-16	288-297	gegenüber	_	_
+5-17	298-300	in	_	_
+5-18	301-307	seiner	_	_
+5-19	308-321	Korrespondenz	_	_
+5-20	322-324	zu	_	_
+5-21	325-333	gewinnen	_	_
+5-22	334-335	,	_	_
+5-23	336-348	befriedigten	_	_
+5-24	349-354	seine	_	_
+5-25	355-365	Leistungen	_	_
+5-26	366-370	hier	_	_
+5-27	371-375	nach	_	_
+5-28	376-382	keiner	_	_
+5-29	383-388	Seite	_	_
+5-30	389-392	hin	_	_
+5-31	393-394	.	_	_
+
+#Text=Es ist hier aber schließlich Alles amicaliter gelöst worden , besonders dureh die wohlwollende Intervention von Kadowitz , der es vermocht hat , ihn wieder in die Diplomatie , für die er vortrefflich geeignet ist , zurückzuführen .
+6-1	395-397	Es	_	_
+6-2	398-401	ist	_	_
+6-3	402-406	hier	_	_
+6-4	407-411	aber	_	_
+6-5	412-423	schließlich	_	_
+6-6	424-429	Alles	_	_
+6-7	430-440	amicaliter	_	_
+6-8	441-447	gelöst	_	_
+6-9	448-454	worden	_	_
+6-10	455-456	,	_	_
+6-11	457-466	besonders	_	_
+6-12	467-472	dureh	_	_
+6-13	473-476	die	_	_
+6-14	477-489	wohlwollende	_	_
+6-15	490-502	Intervention	_	_
+6-16	503-506	von	_	_
+6-17	507-515	Kadowitz	*	PERmentioned
+6-18	516-517	,	_	_
+6-19	518-521	der	_	_
+6-20	522-524	es	_	_
+6-21	525-533	vermocht	_	_
+6-22	534-537	hat	_	_
+6-23	538-539	,	_	_
+6-24	540-543	ihn	_	_
+6-25	544-550	wieder	_	_
+6-26	551-553	in	_	_
+6-27	554-557	die	_	_
+6-28	558-568	Diplomatie	_	_
+6-29	569-570	,	_	_
+6-30	571-574	für	_	_
+6-31	575-578	die	_	_
+6-32	579-581	er	_	_
+6-33	582-594	vortrefflich	_	_
+6-34	595-603	geeignet	_	_
+6-35	604-607	ist	_	_
+6-36	608-609	,	_	_
+6-37	610-624	zurückzuführen	_	_
+6-38	625-626	.	_	_
+
+#Text=Er ist gestern mit seiner Frau wieder abgereist , zunächst nach Bonn , und wird von Sort über Marseille zurück gehen .
+7-1	627-629	Er	_	_
+7-2	630-633	ist	_	_
+7-3	634-641	gestern	_	_
+7-4	642-645	mit	_	_
+7-5	646-652	seiner	_	_
+7-6	653-657	Frau	_	_
+7-7	658-664	wieder	_	_
+7-8	665-674	abgereist	_	_
+7-9	675-676	,	_	_
+7-10	677-685	zunächst	_	_
+7-11	686-690	nach	_	_
+7-12	691-695	Bonn	*	PLACEmentioned
+7-13	696-697	,	_	_
+7-14	698-701	und	_	_
+7-15	702-706	wird	_	_
+7-16	707-710	von	_	_
+7-17	711-715	Sort	_	_
+7-18	716-720	über	_	_
+7-19	721-730	Marseille	*	PLACEmentioned
+7-20	731-737	zurück	_	_
+7-21	738-743	gehen	_	_
+7-22	744-745	.	_	_
+
+#Text=Er wird wenigstens bis Oktober seine Stelle noch versehen , auch länger wenn noch kein Nachfolger gefunden sein sollte .
+8-1	746-748	Er	_	_
+8-2	749-753	wird	_	_
+8-3	754-764	wenigstens	_	_
+8-4	765-768	bis	_	_
+8-5	769-776	Oktober	*	DATEmentioned
+8-6	777-782	seine	_	_
+8-7	783-789	Stelle	_	_
+8-8	790-794	noch	_	_
+8-9	795-803	versehen	_	_
+8-10	804-805	,	_	_
+8-11	806-810	auch	_	_
+8-12	811-817	länger	_	_
+8-13	818-822	wenn	_	_
+8-14	823-827	noch	_	_
+8-15	828-832	kein	_	_
+8-16	833-843	Nachfolger	_	_
+8-17	844-852	gefunden	_	_
+8-18	853-857	sein	_	_
+8-19	858-864	sollte	_	_
+8-20	865-866	.	_	_
+
+#Text=- An Helbig habe ich nach Cagliari geschrieben \; Ich habe Ihre Wünsche oder Anträge noch nicht vorlegen können , da sich die beabsichtigte Sitzung Lüders zerschlagen hat .
+9-1	867-868	-	_	_
+9-2	869-871	An	_	_
+9-3	872-878	Helbig	*	PERmentioned
+9-4	879-883	habe	_	_
+9-5	884-887	ich	_	_
+9-6	888-892	nach	_	_
+9-7	893-901	Cagliari	*	PLACEmentioned
+9-8	902-913	geschrieben	_	_
+9-9	914-915	\;	_	_
+9-10	916-919	Ich	_	_
+9-11	920-924	habe	_	_
+9-12	925-929	Ihre	_	_
+9-13	930-937	Wünsche	_	_
+9-14	938-942	oder	_	_
+9-15	943-950	Anträge	_	_
+9-16	951-955	noch	_	_
+9-17	956-961	nicht	_	_
+9-18	962-970	vorlegen	_	_
+9-19	971-977	können	_	_
+9-20	978-979	,	_	_
+9-21	980-982	da	_	_
+9-22	983-987	sich	_	_
+9-23	988-991	die	_	_
+9-24	992-1005	beabsichtigte	_	_
+9-25	1006-1013	Sitzung	_	_
+9-26	1014-1020	Lüders	*	PERmentioned
+9-27	1021-1032	zerschlagen	_	_
+9-28	1033-1036	hat	_	_
+9-29	1037-1038	.	_	_
+
+#Text=Ich hoffe nun für nächsten Montag , trotz einiger Hinternisse .
+10-1	1039-1042	Ich	_	_
+10-2	1043-1048	hoffe	_	_
+10-3	1049-1052	nun	_	_
+10-4	1053-1056	für	_	_
+10-5	1057-1065	nächsten	_	_
+10-6	1066-1072	Montag	*	DATEmentioned
+10-7	1073-1074	,	_	_
+10-8	1075-1080	trotz	_	_
+10-9	1081-1088	einiger	_	_
+10-10	1089-1100	Hinternisse	_	_
+10-11	1101-1102	.	_	_
+
+#Text=- Hier voller Sommer und Aussicht auf reichste Opst Ernte .
+11-1	1103-1104	-	_	_
+11-2	1105-1109	Hier	_	_
+11-3	1110-1116	voller	_	_
+11-4	1117-1123	Sommer	_	_
+11-5	1124-1127	und	_	_
+11-6	1128-1136	Aussicht	_	_
+11-7	1137-1140	auf	_	_
+11-8	1141-1149	reichste	_	_
+11-9	1150-1154	Opst	_	_
+11-10	1155-1160	Ernte	_	_
+11-11	1161-1162	.	_	_
+
+#Text=Herzlich der Ihrige R Lepsius
+12-1	1163-1171	Herzlich	_	_
+12-2	1172-1175	der	_	_
+12-3	1176-1182	Ihrige	_	_
+12-4	1183-1184	R	*[4]	PERauthor[4]
+12-5	1185-1192	Lepsius	*[4]	PERauthor[4]

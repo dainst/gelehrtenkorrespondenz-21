@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=“ Tr \\ Brunniana 3/Momnsen Momnsen an Brunn Neapel , 26. Juni 1846 B « 2.7.1846 r . 5.7.1846 Lieber Freundl Herr Lieutnant von Ende , der Dir diesen Brief überbringt , wünscht in der beschränkten Zeit seines “ Aufenthalts in Rom die antichitä möglichst rasch kennen zu lernen \; ich weiß , daß Du mit Deiner Pratica ihm dazu gern behülflich sein wirst , wie Du es so vielen Andern warst .
+1-1	0-1	“	_	_
+1-2	2-4	Tr	_	_
+1-3	5-6	\\	_	_
+1-4	7-16	Brunniana	_	_
+1-5	17-26	3/Momnsen	_	_
+1-6	27-34	Momnsen	*	PERauthor
+1-7	35-37	an	_	_
+1-8	38-43	Brunn	*	PERaddressee
+1-9	44-50	Neapel	*	PLACEfrom
+1-10	51-52	,	_	_
+1-11	53-56	26.	*[1]	DATEletter[1]
+1-12	57-61	Juni	*[1]	DATEletter[1]
+1-13	62-66	1846	*[1]	DATEletter[1]
+1-14	67-68	B	_	_
+1-15	69-70	«	_	_
+1-16	71-79	2.7.1846	*	DATErecieved
+1-17	80-81	r	_	_
+1-18	82-83	.	_	_
+1-19	84-92	5.7.1846	*	DATEanswered
+1-20	93-99	Lieber	_	_
+1-21	100-107	Freundl	_	_
+1-22	108-112	Herr	_	_
+1-23	113-122	Lieutnant	*[2]	PERmentioned[2]
+1-24	123-126	von	*[2]	PERmentioned[2]
+1-25	127-131	Ende	*[2]	PERmentioned[2]
+1-26	132-133	,	_	_
+1-27	134-137	der	_	_
+1-28	138-141	Dir	_	_
+1-29	142-148	diesen	_	_
+1-30	149-154	Brief	_	_
+1-31	155-165	überbringt	_	_
+1-32	166-167	,	_	_
+1-33	168-175	wünscht	_	_
+1-34	176-178	in	_	_
+1-35	179-182	der	_	_
+1-36	183-195	beschränkten	_	_
+1-37	196-200	Zeit	_	_
+1-38	201-207	seines	_	_
+1-39	208-209	“	_	_
+1-40	210-221	Aufenthalts	_	_
+1-41	222-224	in	_	_
+1-42	225-228	Rom	*	PLACEmentioned
+1-43	229-232	die	_	_
+1-44	233-242	antichitä	_	_
+1-45	243-252	möglichst	_	_
+1-46	253-258	rasch	_	_
+1-47	259-265	kennen	_	_
+1-48	266-268	zu	_	_
+1-49	269-275	lernen	_	_
+1-50	276-277	\;	_	_
+1-51	278-281	ich	_	_
+1-52	282-286	weiß	_	_
+1-53	287-288	,	_	_
+1-54	289-292	daß	_	_
+1-55	293-295	Du	_	_
+1-56	296-299	mit	_	_
+1-57	300-306	Deiner	_	_
+1-58	307-314	Pratica	_	_
+1-59	315-318	ihm	_	_
+1-60	319-323	dazu	_	_
+1-61	324-328	gern	_	_
+1-62	329-339	behülflich	_	_
+1-63	340-344	sein	_	_
+1-64	345-350	wirst	_	_
+1-65	351-352	,	_	_
+1-66	353-356	wie	_	_
+1-67	357-359	Du	_	_
+1-68	360-362	es	_	_
+1-69	363-365	so	_	_
+1-70	366-372	vielen	_	_
+1-71	373-379	Andern	_	_
+1-72	380-385	warst	_	_
+1-73	386-387	.	_	_
+
+#Text=Wir waren hier theils in der Casa Götzlof .
+2-1	388-391	Wir	_	_
+2-2	392-397	waren	_	_
+2-3	398-402	hier	_	_
+2-4	403-409	theils	_	_
+2-5	410-412	in	_	_
+2-6	413-416	der	_	_
+2-7	417-421	Casa	_	_
+2-8	422-429	Götzlof	*	PERmentioned
+2-9	430-431	.	_	_
+
+#Text=theils auf Ausflügen recht viel mit ihm zusammen .
+3-1	432-438	theils	_	_
+3-2	439-442	auf	_	_
+3-3	443-452	Ausflügen	_	_
+3-4	453-458	recht	_	_
+3-5	459-463	viel	_	_
+3-6	464-467	mit	_	_
+3-7	468-471	ihm	_	_
+3-8	472-480	zusammen	_	_
+3-9	481-482	.	_	_
+
+#Text=Borghesi schreibt mir in Betreff meiner Viatoren , daß er sich zu erinnern glaube den Stein der defekt Grut .
+4-1	483-491	Borghesi	*	PERmentioned
+4-2	492-500	schreibt	_	_
+4-3	501-504	mir	_	_
+4-4	505-507	in	_	_
+4-5	508-515	Betreff	_	_
+4-6	516-522	meiner	_	_
+4-7	523-531	Viatoren	_	_
+4-8	532-533	,	_	_
+4-9	534-537	daß	_	_
+4-10	538-540	er	_	_
+4-11	541-545	sich	_	_
+4-12	546-548	zu	_	_
+4-13	549-557	erinnern	_	_
+4-14	558-564	glaube	_	_
+4-15	565-568	den	_	_
+4-16	569-574	Stein	*	OBJ
+4-17	575-578	der	_	_
+4-18	579-585	defekt	_	_
+4-19	586-590	Grut	_	_
+4-20	591-592	.	_	_
+
+#Text=1103,1 , kompletter Murat .
+5-1	593-599	1103,1	_	_
+5-2	600-601	,	_	_
+5-3	602-612	kompletter	_	_
+5-4	613-618	Murat	_	_
+5-5	619-620	.	_	_
+
+#Text=718,3 steht , in seiner ersten Jugend in St. Giovanni e Paolo ad climm Scauri gesehen zu haben .
+6-1	621-626	718,3	_	_
+6-2	627-632	steht	_	_
+6-3	633-634	,	_	_
+6-4	635-637	in	_	_
+6-5	638-644	seiner	_	_
+6-6	645-651	ersten	_	_
+6-7	652-658	Jugend	_	_
+6-8	659-661	in	_	_
+6-9	662-665	St.	*[3]	PLACEmentioned[3]
+6-10	666-674	Giovanni	*[3]	PLACEmentioned[3]
+6-11	675-676	e	*[3]	PLACEmentioned[3]
+6-12	677-682	Paolo	*[3]	PLACEmentioned[3]
+6-13	683-685	ad	*[3]	PLACEmentioned[3]
+6-14	686-691	climm	*[3]	PLACEmentioned[3]
+6-15	692-698	Scauri	*[3]	PLACEmentioned[3]
+6-16	699-706	gesehen	_	_
+6-17	707-709	zu	_	_
+6-18	710-715	haben	_	_
+6-19	716-717	.	_	_
+
+#Text=Du würdest mich durch ein riscontro sehr verpflichten .
+7-1	718-720	Du	_	_
+7-2	721-728	würdest	_	_
+7-3	729-733	mich	_	_
+7-4	734-739	durch	_	_
+7-5	740-743	ein	_	_
+7-6	744-753	riscontro	_	_
+7-7	754-758	sehr	_	_
+7-8	759-771	verpflichten	_	_
+7-9	772-773	.	_	_
+
+#Text=— Borghesi schreibt man könnte sich auch an Sarti wenden , das müßte durch Braun geschehen , wird aber wohl doch kaum möglich sein .
+8-1	774-775	—	_	_
+8-2	776-784	Borghesi	*	PERmentioned
+8-3	785-793	schreibt	_	_
+8-4	794-797	man	_	_
+8-5	798-804	könnte	_	_
+8-6	805-809	sich	_	_
+8-7	810-814	auch	_	_
+8-8	815-817	an	_	_
+8-9	818-823	Sarti	*	PERmentioned
+8-10	824-830	wenden	_	_
+8-11	831-832	,	_	_
+8-12	833-836	das	_	_
+8-13	837-842	müßte	_	_
+8-14	843-848	durch	_	_
+8-15	849-854	Braun	*	PERmentioned
+8-16	855-864	geschehen	_	_
+8-17	865-866	,	_	_
+8-18	867-871	wird	_	_
+8-19	872-876	aber	_	_
+8-20	877-881	wohl	_	_
+8-21	882-886	doch	_	_
+8-22	887-891	kaum	_	_
+8-23	892-899	möglich	_	_
+8-24	900-904	sein	_	_
+8-25	905-906	.	_	_
+
+#Text=Addio , und nun mit der Zeit fortgeschritten , evviva Papa Pio Nonol Th. Mommsen Neapel 26 Juni 46
+9-1	907-912	Addio	_	_
+9-2	913-914	,	_	_
+9-3	915-918	und	_	_
+9-4	919-922	nun	_	_
+9-5	923-926	mit	_	_
+9-6	927-930	der	_	_
+9-7	931-935	Zeit	_	_
+9-8	936-951	fortgeschritten	_	_
+9-9	952-953	,	_	_
+9-10	954-960	evviva	_	_
+9-11	961-965	Papa	*[4]	PERmentioned[4]
+9-12	966-969	Pio	*[4]	PERmentioned[4]
+9-13	970-975	Nonol	*[4]	PERmentioned[4]
+9-14	976-979	Th.	*[5]	PERauthor[5]
+9-15	980-987	Mommsen	*[5]	PERauthor[5]
+9-16	988-994	Neapel	*	PLACEfrom
+9-17	995-997	26	*[6]	DATEletter[6]
+9-18	998-1002	Juni	*[6]	DATEletter[6]
+9-19	1003-1005	46	_	_

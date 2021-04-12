@@ -1,0 +1,294 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ohne Nummer Henzen an Gerhard -— 2/R/55 M \[ eercu mit andrer Schrift : `` nebst Beilage für die Epigr .
+1-1	0-4	Ohne	_	_
+1-2	5-11	Nummer	_	_
+1-3	12-18	Henzen	*	PERauthor
+1-4	19-21	an	_	_
+1-5	22-29	Gerhard	*	PERaddressee
+1-6	30-32	-—	_	_
+1-7	33-39	2/R/55	*	DATEletter
+1-8	40-41	M	_	_
+1-9	42-43	\[	_	_
+1-10	44-49	eercu	_	_
+1-11	50-53	mit	_	_
+1-12	54-60	andrer	_	_
+1-13	61-68	Schrift	_	_
+1-14	69-70	:	_	_
+1-15	71-73	``	_	_
+1-16	74-79	nebst	_	_
+1-17	80-87	Beilage	_	_
+1-18	88-91	für	_	_
+1-19	92-95	die	_	_
+1-20	96-101	Epigr	*[5]	ORGmentioned[5]
+1-21	102-103	.	*[5]	ORGmentioned[5]
+
+#Text=Commission crf 16/10 SS '' Verehrtester Herr Professor !
+2-1	104-114	Commission	*[5]	ORGmentioned[5]
+2-2	115-118	crf	_	_
+2-3	119-124	16/10	*[6]	DATEmentioned[6]
+2-4	125-127	SS	*[6]	DATEmentioned[6]
+2-5	128-130	''	_	_
+2-6	131-143	Verehrtester	_	_
+2-7	144-148	Herr	_	_
+2-8	149-158	Professor	_	_
+2-9	159-160	!	_	_
+
+#Text=Gestern erhielt ich dh .
+3-1	161-168	Gestern	_	_
+3-2	169-176	erhielt	_	_
+3-3	177-180	ich	_	_
+3-4	181-183	dh	_	_
+3-5	184-185	.	_	_
+
+#Text=die Gesandtschaft , die allerdings Carl Bunsen heißt u. mir sehr gefällig ist , Ihren 1 .
+4-1	186-189	die	_	_
+4-2	190-203	Gesandtschaft	*	ORGmentioned
+4-3	204-205	,	_	_
+4-4	206-209	die	_	_
+4-5	210-220	allerdings	_	_
+4-6	221-225	Carl	*[7]	PERmentioned[7]
+4-7	226-232	Bunsen	*[7]	PERmentioned[7]
+4-8	233-238	heißt	_	_
+4-9	239-241	u.	_	_
+4-10	242-245	mir	_	_
+4-11	246-250	sehr	_	_
+4-12	251-259	gefällig	_	_
+4-13	260-263	ist	_	_
+4-14	264-265	,	_	_
+4-15	266-271	Ihren	_	_
+4-16	272-273	1	_	_
+4-17	274-275	.	_	_
+
+#Text=Brief vom 4° .
+5-1	276-281	Brief	_	_
+5-2	282-285	vom	_	_
+5-3	286-288	4°	*[8]	DATEmentioned[8]
+5-4	289-290	.	*[8]	DATEmentioned[8]
+
+#Text=Was meine hiesigen Arbeiten angeht , so genügt vorstehendes Blatt .
+6-1	291-294	Was	_	_
+6-2	295-300	meine	_	_
+6-3	301-309	hiesigen	_	_
+6-4	310-318	Arbeiten	_	_
+6-5	319-325	angeht	_	_
+6-6	326-327	,	_	_
+6-7	328-330	so	_	_
+6-8	331-337	genügt	_	_
+6-9	338-350	vorstehendes	_	_
+6-10	351-356	Blatt	_	_
+6-11	357-358	.	_	_
+
+#Text=Klagen über diese Beschäftigung , die meinen diesjährigen Sommer=sArbeiten einen würdigen Abschluß giebt , nützen ja leider nicht , aber greulich ist sie .
+7-1	359-365	Klagen	_	_
+7-2	366-370	über	_	_
+7-3	371-376	diese	_	_
+7-4	377-390	Beschäftigung	_	_
+7-5	391-392	,	_	_
+7-6	393-396	die	_	_
+7-7	397-403	meinen	_	_
+7-8	404-416	diesjährigen	_	_
+7-9	417-433	Sommer=sArbeiten	_	_
+7-10	434-439	einen	_	_
+7-11	440-448	würdigen	_	_
+7-12	449-457	Abschluß	_	_
+7-13	458-463	giebt	_	_
+7-14	464-465	,	_	_
+7-15	466-472	nützen	_	_
+7-16	473-475	ja	_	_
+7-17	476-482	leider	_	_
+7-18	483-488	nicht	_	_
+7-19	489-490	,	_	_
+7-20	491-495	aber	_	_
+7-21	496-504	greulich	_	_
+7-22	505-508	ist	_	_
+7-23	509-512	sie	_	_
+7-24	513-514	.	_	_
+
+#Text=Die Vergütung der Kosten habe ich eben als billig u. selbstverständlich angesehen \; ist sie letzteres nicht , so machen Sie von dem Blatte den passenden Gebrauch .
+8-1	515-518	Die	_	_
+8-2	519-528	Vergütung	_	_
+8-3	529-532	der	_	_
+8-4	533-539	Kosten	_	_
+8-5	540-544	habe	_	_
+8-6	545-548	ich	_	_
+8-7	549-553	eben	_	_
+8-8	554-557	als	_	_
+8-9	558-564	billig	_	_
+8-10	565-567	u.	_	_
+8-11	568-586	selbstverständlich	_	_
+8-12	587-596	angesehen	_	_
+8-13	597-598	\;	_	_
+8-14	599-602	ist	_	_
+8-15	603-606	sie	_	_
+8-16	607-616	letzteres	_	_
+8-17	617-622	nicht	_	_
+8-18	623-624	,	_	_
+8-19	625-627	so	_	_
+8-20	628-634	machen	_	_
+8-21	635-638	Sie	_	_
+8-22	639-642	von	_	_
+8-23	643-646	dem	_	_
+8-24	647-653	Blatte	_	_
+8-25	654-657	den	_	_
+8-26	658-667	passenden	_	_
+8-27	668-676	Gebrauch	_	_
+8-28	677-678	.	_	_
+
+#Text=- Uebrigens bin ich recht angegriffen .
+9-1	679-680	-	_	_
+9-2	681-690	Uebrigens	_	_
+9-3	691-694	bin	_	_
+9-4	695-698	ich	_	_
+9-5	699-704	recht	_	_
+9-6	705-716	angegriffen	_	_
+9-7	717-718	.	_	_
+
+#Text=Die traurigen Erlebnisse von Montreux hatten mich sehr mitgenommen , u , nun kommt hinzu , dß .
+10-1	719-722	Die	_	_
+10-2	723-732	traurigen	_	_
+10-3	733-743	Erlebnisse	_	_
+10-4	744-747	von	_	_
+10-5	748-756	Montreux	*	PLACEmentioned
+10-6	757-763	hatten	_	_
+10-7	764-768	mich	_	_
+10-8	769-773	sehr	_	_
+10-9	774-785	mitgenommen	_	_
+10-10	786-787	,	_	_
+10-11	788-789	u	_	_
+10-12	790-791	,	_	_
+10-13	792-795	nun	_	_
+10-14	796-801	kommt	_	_
+10-15	802-807	hinzu	_	_
+10-16	808-809	,	_	_
+10-17	810-812	dß	_	_
+10-18	813-814	.	_	_
+
+#Text=meine Schwägerin , deren trauriger Zustand ich Ihnen mittheilte , in Basel auf der Rückreise ebenfalls gestorben ist , nachdem sie standhaft bis an 's Ende jede Nahrung zurückgewiesen , ein Todesfall , der dh .
+11-1	815-820	meine	_	_
+11-2	821-831	Schwägerin	_	_
+11-3	832-833	,	_	_
+11-4	834-839	deren	_	_
+11-5	840-849	trauriger	_	_
+11-6	850-857	Zustand	_	_
+11-7	858-861	ich	_	_
+11-8	862-867	Ihnen	_	_
+11-9	868-878	mittheilte	_	_
+11-10	879-880	,	_	_
+11-11	881-883	in	_	_
+11-12	884-889	Basel	*	PLACEmentioned
+11-13	890-893	auf	_	_
+11-14	894-897	der	_	_
+11-15	898-907	Rückreise	_	_
+11-16	908-917	ebenfalls	_	_
+11-17	918-927	gestorben	_	_
+11-18	928-931	ist	_	_
+11-19	932-933	,	_	_
+11-20	934-941	nachdem	_	_
+11-21	942-945	sie	_	_
+11-22	946-955	standhaft	_	_
+11-23	956-959	bis	_	_
+11-24	960-962	an	_	_
+11-25	963-965	's	_	_
+11-26	966-970	Ende	_	_
+11-27	971-975	jede	_	_
+11-28	976-983	Nahrung	_	_
+11-29	984-998	zurückgewiesen	_	_
+11-30	999-1000	,	_	_
+11-31	1001-1004	ein	_	_
+11-32	1005-1014	Todesfall	_	_
+11-33	1015-1016	,	_	_
+11-34	1017-1020	der	_	_
+11-35	1021-1023	dh	_	_
+11-36	1024-1025	.	_	_
+
+#Text=diesen Umstand um so schrecklicher wird .
+12-1	1026-1032	diesen	_	_
+12-2	1033-1040	Umstand	_	_
+12-3	1041-1043	um	_	_
+12-4	1044-1046	so	_	_
+12-5	1047-1060	schrecklicher	_	_
+12-6	1061-1065	wird	_	_
+12-7	1066-1067	.	_	_
+
+#Text=Das Kind haben die Verwandten einstweilen mit nach Bremen genommen \; was weiter daraus wird , müssen wir abwarten .
+13-1	1068-1071	Das	_	_
+13-2	1072-1076	Kind	_	_
+13-3	1077-1082	haben	_	_
+13-4	1083-1086	die	_	_
+13-5	1087-1097	Verwandten	_	_
+13-6	1098-1109	einstweilen	_	_
+13-7	1110-1113	mit	_	_
+13-8	1114-1118	nach	_	_
+13-9	1119-1125	Bremen	*	PLACEmentioned
+13-10	1126-1134	genommen	_	_
+13-11	1135-1136	\;	_	_
+13-12	1137-1140	was	_	_
+13-13	1141-1147	weiter	_	_
+13-14	1148-1154	daraus	_	_
+13-15	1155-1159	wird	_	_
+13-16	1160-1161	,	_	_
+13-17	1162-1168	müssen	_	_
+13-18	1169-1172	wir	_	_
+13-19	1173-1181	abwarten	_	_
+13-20	1182-1183	.	_	_
+
+#Text=Wenn Palagi in der Stadt ist , werde ich ihn aufsuchen \; einen Besuch , der mehr Zeit kostet , kann ich unmöglich daran wenden , Die Archivstunden sind von 10 - 4 , vorher u. nachher also Nichts zu unternehmen möglich .
+14-1	1184-1188	Wenn	_	_
+14-2	1189-1195	Palagi	*	PERmentioned
+14-3	1196-1198	in	_	_
+14-4	1199-1202	der	_	_
+14-5	1203-1208	Stadt	_	_
+14-6	1209-1212	ist	_	_
+14-7	1213-1214	,	_	_
+14-8	1215-1220	werde	_	_
+14-9	1221-1224	ich	_	_
+14-10	1225-1228	ihn	_	_
+14-11	1229-1238	aufsuchen	_	_
+14-12	1239-1240	\;	_	_
+14-13	1241-1246	einen	_	_
+14-14	1247-1253	Besuch	_	_
+14-15	1254-1255	,	_	_
+14-16	1256-1259	der	_	_
+14-17	1260-1264	mehr	_	_
+14-18	1265-1269	Zeit	_	_
+14-19	1270-1276	kostet	_	_
+14-20	1277-1278	,	_	_
+14-21	1279-1283	kann	_	_
+14-22	1284-1287	ich	_	_
+14-23	1288-1297	unmöglich	_	_
+14-24	1298-1303	daran	_	_
+14-25	1304-1310	wenden	_	_
+14-26	1311-1312	,	_	_
+14-27	1313-1316	Die	_	_
+14-28	1317-1330	Archivstunden	_	_
+14-29	1331-1335	sind	_	_
+14-30	1336-1339	von	_	_
+14-31	1340-1342	10	_	_
+14-32	1343-1344	-	_	_
+14-33	1345-1346	4	_	_
+14-34	1347-1348	,	_	_
+14-35	1349-1355	vorher	_	_
+14-36	1356-1358	u.	_	_
+14-37	1359-1366	nachher	_	_
+14-38	1367-1371	also	_	_
+14-39	1372-1378	Nichts	_	_
+14-40	1379-1381	zu	_	_
+14-41	1382-1393	unternehmen	_	_
+14-42	1394-1401	möglich	_	_
+14-43	1402-1403	.	_	_
+
+#Text=Den Abend brauche ich sehr nöthig , um meine Papiere vorzube-
+15-1	1404-1407	Den	_	_
+15-2	1408-1413	Abend	_	_
+15-3	1414-1421	brauche	_	_
+15-4	1422-1425	ich	_	_
+15-5	1426-1430	sehr	_	_
+15-6	1431-1437	nöthig	_	_
+15-7	1438-1439	,	_	_
+15-8	1440-1442	um	_	_
+15-9	1443-1448	meine	_	_
+15-10	1449-1456	Papiere	_	_
+15-11	1457-1465	vorzube-	_	_

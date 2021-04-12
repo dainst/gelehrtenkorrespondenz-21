@@ -1,0 +1,73 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Athen , 20. April 1837 mir dorthin nachkommen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-22	Athen	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-28	20.	*[4]	DATEletter[4]
+1-7	29-34	April	*[4]	DATEletter[4]
+1-8	35-39	1837	*[4]	DATEletter[4]
+1-9	40-43	mir	_	_
+1-10	44-51	dorthin	_	_
+1-11	52-62	nachkommen	_	_
+1-12	63-64	.	_	_
+
+#Text=Vielleicht erhalten Sie meine dortigen Nachrichten noch früher als dieses Blatt das jedenfalls den ihm bestimmten Weg gehen möge .
+2-1	65-75	Vielleicht	_	_
+2-2	76-84	erhalten	_	_
+2-3	85-88	Sie	_	_
+2-4	89-94	meine	_	_
+2-5	95-103	dortigen	_	_
+2-6	104-115	Nachrichten	_	_
+2-7	116-120	noch	_	_
+2-8	121-127	früher	_	_
+2-9	128-131	als	_	_
+2-10	132-138	dieses	_	_
+2-11	139-144	Blatt	_	_
+2-12	145-148	das	_	_
+2-13	149-159	jedenfalls	_	_
+2-14	160-163	den	_	_
+2-15	164-167	ihm	_	_
+2-16	168-178	bestimmten	_	_
+2-17	179-182	Weg	_	_
+2-18	183-188	gehen	_	_
+2-19	189-193	möge	_	_
+2-20	194-195	.	_	_
+
+#Text=Ihr Gerhard Sollten Sie Vollard früher sehen als ich wieder schreibe , so erinnern Sie ihn gefälligst an gewisse Empfehlungsbriefe ( für Mailand ) die ich ihn von Kolb einzumehnen bat .
+3-1	196-199	Ihr	_	_
+3-2	200-207	Gerhard	*	PERauthor
+3-3	208-215	Sollten	_	_
+3-4	216-219	Sie	_	_
+3-5	220-227	Vollard	*	PERmentioned
+3-6	228-234	früher	_	_
+3-7	235-240	sehen	_	_
+3-8	241-244	als	_	_
+3-9	245-248	ich	_	_
+3-10	249-255	wieder	_	_
+3-11	256-264	schreibe	_	_
+3-12	265-266	,	_	_
+3-13	267-269	so	_	_
+3-14	270-278	erinnern	_	_
+3-15	279-282	Sie	_	_
+3-16	283-286	ihn	_	_
+3-17	287-297	gefälligst	_	_
+3-18	298-300	an	_	_
+3-19	301-308	gewisse	_	_
+3-20	309-326	Empfehlungsbriefe	_	_
+3-21	327-328	(	_	_
+3-22	329-332	für	_	_
+3-23	333-340	Mailand	*	PLACEmentioned
+3-24	341-342	)	_	_
+3-25	343-346	die	_	_
+3-26	347-350	ich	_	_
+3-27	351-354	ihn	_	_
+3-28	355-358	von	_	_
+3-29	359-363	Kolb	*	PERmentioned
+3-30	364-375	einzumehnen	_	_
+3-31	376-379	bat	_	_
+3-32	380-381	.	_	_

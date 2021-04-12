@@ -1,0 +1,316 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Bologna , 29 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Bologna	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	29	*[7]	DATEletter[7]
+1-7	30-31	.	*[7]	DATEletter[7]
+
+#Text=Oktober 1837 her ein Angebot erhalten habe , das ihm jedoch nicht anständig , obwohl ganz ansehnlich sei .
+2-1	32-39	Oktober	*[7]	DATEletter[7]
+2-2	40-44	1837	*[7]	DATEletter[7]
+2-3	45-48	her	_	_
+2-4	49-52	ein	_	_
+2-5	53-60	Angebot	_	_
+2-6	61-69	erhalten	_	_
+2-7	70-74	habe	_	_
+2-8	75-76	,	_	_
+2-9	77-80	das	_	_
+2-10	81-84	ihm	_	_
+2-11	85-91	jedoch	_	_
+2-12	92-97	nicht	_	_
+2-13	98-107	anständig	_	_
+2-14	108-109	,	_	_
+2-15	110-116	obwohl	_	_
+2-16	117-121	ganz	_	_
+2-17	122-132	ansehnlich	_	_
+2-18	133-136	sei	_	_
+2-19	137-138	.	_	_
+
+#Text=Im Fall eines gleichlautenden Gebots würde er dem Berliner Museum den Vorzug geben .
+3-1	139-141	Im	_	_
+3-2	142-146	Fall	_	_
+3-3	147-152	eines	_	_
+3-4	153-168	gleichlautenden	_	_
+3-5	169-175	Gebots	_	_
+3-6	176-181	würde	_	_
+3-7	182-184	er	_	_
+3-8	185-188	dem	_	_
+3-9	189-197	Berliner	*[8]	ORGmentioned[8]
+3-10	198-204	Museum	*[8]	ORGmentioned[8]
+3-11	205-208	den	_	_
+3-12	209-215	Vorzug	_	_
+3-13	216-221	geben	_	_
+3-14	222-223	.	_	_
+
+#Text=Sein Bruder Carlo befindet sich in Faris um die Verhandlung persönlich zu führen .
+4-1	224-228	Sein	_	_
+4-2	229-235	Bruder	_	_
+4-3	236-241	Carlo	*	PERmentioned
+4-4	242-250	befindet	_	_
+4-5	251-255	sich	_	_
+4-6	256-258	in	_	_
+4-7	259-264	Faris	*	PLACEmentioned
+4-8	265-267	um	_	_
+4-9	268-271	die	_	_
+4-10	272-283	Verhandlung	_	_
+4-11	284-294	persönlich	_	_
+4-12	295-297	zu	_	_
+4-13	298-304	führen	_	_
+4-14	305-306	.	_	_
+
+#Text=Soll daher etwas in der Sache zu Gunsten Ihres Museums geschehen , so muß es allerdings bald und schleunigst geschehen .
+5-1	307-311	Soll	_	_
+5-2	312-317	daher	_	_
+5-3	318-323	etwas	_	_
+5-4	324-326	in	_	_
+5-5	327-330	der	_	_
+5-6	331-336	Sache	_	_
+5-7	337-339	zu	_	_
+5-8	340-347	Gunsten	_	_
+5-9	348-353	Ihres	_	_
+5-10	354-361	Museums	*	ORGmentioned
+5-11	362-371	geschehen	_	_
+5-12	372-373	,	_	_
+5-13	374-376	so	_	_
+5-14	377-380	muß	_	_
+5-15	381-383	es	_	_
+5-16	384-394	allerdings	_	_
+5-17	395-399	bald	_	_
+5-18	400-403	und	_	_
+5-19	404-415	schleunigst	_	_
+5-20	416-425	geschehen	_	_
+5-21	426-427	.	_	_
+
+#Text=Franz schreibt mir , daß Sie ihn aufgefordert hätten in Gemeinschaft mit Urlichs Kellermanns sel .
+6-1	428-433	Franz	*	PERmentioned
+6-2	434-442	schreibt	_	_
+6-3	443-446	mir	_	_
+6-4	447-448	,	_	_
+6-5	449-452	daß	_	_
+6-6	453-456	Sie	_	_
+6-7	457-460	ihn	_	_
+6-8	461-473	aufgefordert	_	_
+6-9	474-480	hätten	_	_
+6-10	481-483	in	_	_
+6-11	484-496	Gemeinschaft	_	_
+6-12	497-500	mit	_	_
+6-13	501-508	Urlichs	*	PERmentioned
+6-14	509-520	Kellermanns	*	PERmentioned
+6-15	521-524	sel	_	_
+6-16	525-526	.	_	_
+
+#Text=Inschriftenwerk zu beendigen .
+7-1	527-542	Inschriftenwerk	_	_
+7-2	543-545	zu	_	_
+7-3	546-555	beendigen	_	_
+7-4	556-557	.	_	_
+
+#Text=Wenn Sie mir in einer mir ganz fernliegenden Angelegenheit eine Bemerkung erlauben , so halte ich es für ein großes Glück , daß Franz auf diesen Vorschlag nicht eingegangen , idem er dazu auch aller und aller Eigenschaften ermangelt \; er interessirt sich für das Griechische und ist darin virtuos .
+8-1	558-562	Wenn	_	_
+8-2	563-566	Sie	_	_
+8-3	567-570	mir	_	_
+8-4	571-573	in	_	_
+8-5	574-579	einer	_	_
+8-6	580-583	mir	_	_
+8-7	584-588	ganz	_	_
+8-8	589-602	fernliegenden	_	_
+8-9	603-616	Angelegenheit	_	_
+8-10	617-621	eine	_	_
+8-11	622-631	Bemerkung	_	_
+8-12	632-640	erlauben	_	_
+8-13	641-642	,	_	_
+8-14	643-645	so	_	_
+8-15	646-651	halte	_	_
+8-16	652-655	ich	_	_
+8-17	656-658	es	_	_
+8-18	659-662	für	_	_
+8-19	663-666	ein	_	_
+8-20	667-673	großes	_	_
+8-21	674-679	Glück	_	_
+8-22	680-681	,	_	_
+8-23	682-685	daß	_	_
+8-24	686-691	Franz	*	PERmentioned
+8-25	692-695	auf	_	_
+8-26	696-702	diesen	_	_
+8-27	703-712	Vorschlag	_	_
+8-28	713-718	nicht	_	_
+8-29	719-730	eingegangen	_	_
+8-30	731-732	,	_	_
+8-31	733-737	idem	_	_
+8-32	738-740	er	_	_
+8-33	741-745	dazu	_	_
+8-34	746-750	auch	_	_
+8-35	751-756	aller	_	_
+8-36	757-760	und	_	_
+8-37	761-766	aller	_	_
+8-38	767-780	Eigenschaften	_	_
+8-39	781-790	ermangelt	_	_
+8-40	791-792	\;	_	_
+8-41	793-795	er	_	_
+8-42	796-807	interessirt	_	_
+8-43	808-812	sich	_	_
+8-44	813-816	für	_	_
+8-45	817-820	das	_	_
+8-46	821-832	Griechische	_	_
+8-47	833-836	und	_	_
+8-48	837-840	ist	_	_
+8-49	841-846	darin	_	_
+8-50	847-854	virtuos	_	_
+8-51	855-856	.	_	_
+
+#Text=Alles Lateinische kömmt ihm verächtlich vor .
+9-1	857-862	Alles	_	_
+9-2	863-874	Lateinische	_	_
+9-3	875-880	kömmt	_	_
+9-4	881-884	ihm	_	_
+9-5	885-896	verächtlich	_	_
+9-6	897-900	vor	_	_
+9-7	901-902	.	_	_
+
+#Text=In Bezug auf Urlichs mache ich Sie darauf aufmerksam , daß dieser zu seiner solchen Arbeit mehr als unvorbereitet hinzukommen wird , indem ich mich der Zeit sehr gut erinnere , wo ich ihm zuerst sagen mußte , daß in den Inschriften etwas zu thuen übrig sei \; er hat sich damals zeigen lassen , wie man einen römischen Aufenthalt zu solchen Zwecken nützen müsse und hat seitdem keineswegs Bemerkenswerthes in dieser Sache bewerkstelligt .
+10-1	903-905	In	_	_
+10-2	906-911	Bezug	_	_
+10-3	912-915	auf	_	_
+10-4	916-923	Urlichs	*	PERmentioned
+10-5	924-929	mache	_	_
+10-6	930-933	ich	_	_
+10-7	934-937	Sie	_	_
+10-8	938-944	darauf	_	_
+10-9	945-955	aufmerksam	_	_
+10-10	956-957	,	_	_
+10-11	958-961	daß	_	_
+10-12	962-968	dieser	_	_
+10-13	969-971	zu	_	_
+10-14	972-978	seiner	_	_
+10-15	979-986	solchen	_	_
+10-16	987-993	Arbeit	_	_
+10-17	994-998	mehr	_	_
+10-18	999-1002	als	_	_
+10-19	1003-1016	unvorbereitet	_	_
+10-20	1017-1028	hinzukommen	_	_
+10-21	1029-1033	wird	_	_
+10-22	1034-1035	,	_	_
+10-23	1036-1041	indem	_	_
+10-24	1042-1045	ich	_	_
+10-25	1046-1050	mich	_	_
+10-26	1051-1054	der	_	_
+10-27	1055-1059	Zeit	_	_
+10-28	1060-1064	sehr	_	_
+10-29	1065-1068	gut	_	_
+10-30	1069-1077	erinnere	_	_
+10-31	1078-1079	,	_	_
+10-32	1080-1082	wo	_	_
+10-33	1083-1086	ich	_	_
+10-34	1087-1090	ihm	_	_
+10-35	1091-1097	zuerst	_	_
+10-36	1098-1103	sagen	_	_
+10-37	1104-1109	mußte	_	_
+10-38	1110-1111	,	_	_
+10-39	1112-1115	daß	_	_
+10-40	1116-1118	in	_	_
+10-41	1119-1122	den	_	_
+10-42	1123-1134	Inschriften	_	_
+10-43	1135-1140	etwas	_	_
+10-44	1141-1143	zu	_	_
+10-45	1144-1149	thuen	_	_
+10-46	1150-1155	übrig	_	_
+10-47	1156-1159	sei	_	_
+10-48	1160-1161	\;	_	_
+10-49	1162-1164	er	_	_
+10-50	1165-1168	hat	_	_
+10-51	1169-1173	sich	_	_
+10-52	1174-1180	damals	_	_
+10-53	1181-1187	zeigen	_	_
+10-54	1188-1194	lassen	_	_
+10-55	1195-1196	,	_	_
+10-56	1197-1200	wie	_	_
+10-57	1201-1204	man	_	_
+10-58	1205-1210	einen	_	_
+10-59	1211-1220	römischen	_	_
+10-60	1221-1231	Aufenthalt	_	_
+10-61	1232-1234	zu	_	_
+10-62	1235-1242	solchen	_	_
+10-63	1243-1250	Zwecken	_	_
+10-64	1251-1257	nützen	_	_
+10-65	1258-1263	müsse	_	_
+10-66	1264-1267	und	_	_
+10-67	1268-1271	hat	_	_
+10-68	1272-1279	seitdem	_	_
+10-69	1280-1290	keineswegs	_	_
+10-70	1291-1307	Bemerkenswerthes	_	_
+10-71	1308-1310	in	_	_
+10-72	1311-1317	dieser	_	_
+10-73	1318-1323	Sache	_	_
+10-74	1324-1338	bewerkstelligt	_	_
+10-75	1339-1340	.	_	_
+
+#Text=Von dem glücklichen Zufall , der ihm das Testament des Helpidius in die Hände geführt , hat er sehr mäßigen Vortheil zu ziehen gewußt , anzi zuerst hat er damit Fiasco gemacht .
+11-1	1341-1344	Von	_	_
+11-2	1345-1348	dem	_	_
+11-3	1349-1360	glücklichen	_	_
+11-4	1361-1367	Zufall	_	_
+11-5	1368-1369	,	_	_
+11-6	1370-1373	der	_	_
+11-7	1374-1377	ihm	_	_
+11-8	1378-1381	das	_	_
+11-9	1382-1391	Testament	_	_
+11-10	1392-1395	des	_	_
+11-11	1396-1405	Helpidius	*	PERmentioned
+11-12	1406-1408	in	_	_
+11-13	1409-1412	die	_	_
+11-14	1413-1418	Hände	_	_
+11-15	1419-1426	geführt	_	_
+11-16	1427-1428	,	_	_
+11-17	1429-1432	hat	_	_
+11-18	1433-1435	er	_	_
+11-19	1436-1440	sehr	_	_
+11-20	1441-1448	mäßigen	_	_
+11-21	1449-1457	Vortheil	_	_
+11-22	1458-1460	zu	_	_
+11-23	1461-1467	ziehen	_	_
+11-24	1468-1474	gewußt	_	_
+11-25	1475-1476	,	_	_
+11-26	1477-1481	anzi	_	_
+11-27	1482-1488	zuerst	_	_
+11-28	1489-1492	hat	_	_
+11-29	1493-1495	er	_	_
+11-30	1496-1501	damit	_	_
+11-31	1502-1508	Fiasco	_	_
+11-32	1509-1516	gemacht	_	_
+11-33	1517-1518	.	_	_
+
+#Text=Das Beste der im Bull .
+12-1	1519-1522	Das	_	_
+12-2	1523-1528	Beste	_	_
+12-3	1529-1532	der	_	_
+12-4	1533-1535	im	_	_
+12-5	1536-1540	Bull	_	_
+12-6	1541-1542	.	_	_
+
+#Text=bekanntgemachten Abhandlung darüber verdanken wir Borghesi ' n .
+13-1	1543-1559	bekanntgemachten	_	_
+13-2	1560-1570	Abhandlung	_	_
+13-3	1571-1578	darüber	_	_
+13-4	1579-1588	verdanken	_	_
+13-5	1589-1592	wir	_	_
+13-6	1593-1601	Borghesi	*[9]	PERmentioned[9]
+13-7	1602-1603	'	*[9]	PERmentioned[9]
+13-8	1604-1605	n	*[9]	PERmentioned[9]
+13-9	1606-1607	.	_	_
+
+#Text=Ich muß bei mir gar sehr wünschen , daß
+14-1	1608-1611	Ich	_	_
+14-2	1612-1615	muß	_	_
+14-3	1616-1619	bei	_	_
+14-4	1620-1623	mir	_	_
+14-5	1624-1627	gar	_	_
+14-6	1628-1632	sehr	_	_
+14-7	1633-1641	wünschen	_	_
+14-8	1642-1643	,	_	_
+14-9	1644-1647	daß	_	_

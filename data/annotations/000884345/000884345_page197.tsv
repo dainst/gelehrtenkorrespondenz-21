@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Glas Charlottenburg , 21. April 1857 ‚Charlottenburg 21 April 1857 Mein theurer Freund ich habe soeben einliegenden brief Henzens beantwortet , dahin das er seine Verantworilichkeit ganz geschäftlich decken soll , durch ein Gutachten des Gesandschafts Advokaten , wobei Ihile uns gewiß die Kosten ersparen wird .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-14	Glas	_	_
+1-4	15-29	Charlottenburg	*	PLACEfrom
+1-5	30-31	,	_	_
+1-6	32-35	21.	*[3]	DATEletter[3]
+1-7	36-41	April	*[3]	DATEletter[3]
+1-8	42-46	1857	*[3]	DATEletter[3]
+1-9	47-62	‚Charlottenburg	*	PLACEfrom
+1-10	63-65	21	*[5]	DATEletter[5]
+1-11	66-71	April	*[5]	DATEletter[5]
+1-12	72-76	1857	*[5]	DATEletter[5]
+1-13	77-81	Mein	_	_
+1-14	82-89	theurer	_	_
+1-15	90-96	Freund	_	_
+1-16	97-100	ich	_	_
+1-17	101-105	habe	_	_
+1-18	106-112	soeben	_	_
+1-19	113-125	einliegenden	_	_
+1-20	126-131	brief	_	_
+1-21	132-139	Henzens	*	PERmentioned
+1-22	140-151	beantwortet	_	_
+1-23	152-153	,	_	_
+1-24	154-159	dahin	_	_
+1-25	160-163	das	_	_
+1-26	164-166	er	_	_
+1-27	167-172	seine	_	_
+1-28	173-191	Verantworilichkeit	_	_
+1-29	192-196	ganz	_	_
+1-30	197-209	geschäftlich	_	_
+1-31	210-216	decken	_	_
+1-32	217-221	soll	_	_
+1-33	222-223	,	_	_
+1-34	224-229	durch	_	_
+1-35	230-233	ein	_	_
+1-36	234-243	Gutachten	_	_
+1-37	244-247	des	_	_
+1-38	248-261	Gesandschafts	*	ORGmentioned
+1-39	262-271	Advokaten	_	_
+1-40	272-273	,	_	_
+1-41	274-279	wobei	_	_
+1-42	280-285	Ihile	_	_
+1-43	286-289	uns	_	_
+1-44	290-295	gewiß	_	_
+1-45	296-299	die	_	_
+1-46	300-306	Kosten	_	_
+1-47	307-315	ersparen	_	_
+1-48	316-320	wird	_	_
+1-49	321-322	.	_	_
+
+#Text=wir wissen nun , saß wir 5U % vorn herein verlieren .
+2-1	323-326	wir	_	_
+2-2	327-333	wissen	_	_
+2-3	334-337	nun	_	_
+2-4	338-339	,	_	_
+2-5	340-343	saß	_	_
+2-6	344-347	wir	_	_
+2-7	348-350	5U	_	_
+2-8	351-352	%	_	_
+2-9	353-357	vorn	_	_
+2-10	358-364	herein	_	_
+2-11	365-374	verlieren	_	_
+2-12	375-376	.	_	_
+
+#Text=Die Zeichnungen für die V. Piomb .
+3-1	377-380	Die	_	_
+3-2	381-392	Zeichnungen	_	_
+3-3	393-396	für	_	_
+3-4	397-400	die	_	_
+3-5	401-403	V.	_	_
+3-6	404-409	Piomb	_	_
+3-7	410-411	.	_	_
+
+#Text=und was sonst noch von uns für Werth sein kann , werden wir uns wohl versichern konnen .
+4-1	412-415	und	_	_
+4-2	416-419	was	_	_
+4-3	420-425	sonst	_	_
+4-4	426-430	noch	_	_
+4-5	431-434	von	_	_
+4-6	435-438	uns	_	_
+4-7	439-442	für	_	_
+4-8	443-448	Werth	_	_
+4-9	449-453	sein	_	_
+4-10	454-458	kann	_	_
+4-11	459-460	,	_	_
+4-12	461-467	werden	_	_
+4-13	468-471	wir	_	_
+4-14	472-475	uns	_	_
+4-15	476-480	wohl	_	_
+4-16	481-491	versichern	_	_
+4-17	492-498	konnen	_	_
+4-18	499-500	.	_	_
+
+#Text=Die bibliothek wird sich wohl an das Depositum halten .
+5-1	501-504	Die	_	_
+5-2	505-515	bibliothek	*	ORGmentioned
+5-3	516-520	wird	_	_
+5-4	521-525	sich	_	_
+5-5	526-530	wohl	_	_
+5-6	531-533	an	_	_
+5-7	534-537	das	_	_
+5-8	538-547	Depositum	_	_
+5-9	548-554	halten	_	_
+5-10	555-556	.	_	_
+
+#Text=ich habe dann auch hinsichtlich Campanaris geantwortet : alle angestellten Erkunaigungen ergeven , daß er nichts haben will und nichts oder wenig hat .
+6-1	557-560	ich	_	_
+6-2	561-565	habe	_	_
+6-3	566-570	dann	_	_
+6-4	571-575	auch	_	_
+6-5	576-588	hinsichtlich	_	_
+6-6	589-599	Campanaris	*	PERmentioned
+6-7	600-611	geantwortet	_	_
+6-8	612-613	:	_	_
+6-9	614-618	alle	_	_
+6-10	619-631	angestellten	_	_
+6-11	632-645	Erkunaigungen	_	_
+6-12	646-653	ergeven	_	_
+6-13	654-655	,	_	_
+6-14	656-659	daß	_	_
+6-15	660-662	er	_	_
+6-16	663-669	nichts	_	_
+6-17	670-675	haben	_	_
+6-18	676-680	will	_	_
+6-19	681-684	und	_	_
+6-20	685-691	nichts	_	_
+6-21	692-696	oder	_	_
+6-22	697-702	wenig	_	_
+6-23	703-706	hat	_	_
+6-24	707-708	.	_	_
+
+#Text=Ich gebe es also auf ihn zu drängen , ua ich gewiß an dem einen oder andern Punkt eine uuxunae aer Sache , mir eine Blöße und ihm eine Ausflucht geben würde .
+7-1	709-712	Ich	_	_
+7-2	713-717	gebe	_	_
+7-3	718-720	es	_	_
+7-4	721-725	also	_	_
+7-5	726-729	auf	_	_
+7-6	730-733	ihn	_	_
+7-7	734-736	zu	_	_
+7-8	737-744	drängen	_	_
+7-9	745-746	,	_	_
+7-10	747-749	ua	_	_
+7-11	750-753	ich	_	_
+7-12	754-759	gewiß	_	_
+7-13	760-762	an	_	_
+7-14	763-766	dem	_	_
+7-15	767-772	einen	_	_
+7-16	773-777	oder	_	_
+7-17	778-784	andern	_	_
+7-18	785-790	Punkt	_	_
+7-19	791-795	eine	_	_
+7-20	796-803	uuxunae	_	_
+7-21	804-807	aer	_	_
+7-22	808-813	Sache	_	_
+7-23	814-815	,	_	_
+7-24	816-819	mir	_	_
+7-25	820-824	eine	_	_
+7-26	825-830	Blöße	_	_
+7-27	831-834	und	_	_
+7-28	835-838	ihm	_	_
+7-29	839-843	eine	_	_
+7-30	844-853	Ausflucht	_	_
+7-31	854-859	geben	_	_
+7-32	860-865	würde	_	_
+7-33	866-867	.	_	_
+
+#Text=Doth will ich morgen moch einen Versuch machen colle buone .
+8-1	868-872	Doth	_	_
+8-2	873-877	will	_	_
+8-3	878-881	ich	_	_
+8-4	882-888	morgen	_	_
+8-5	889-893	moch	_	_
+8-6	894-899	einen	_	_
+8-7	900-907	Versuch	_	_
+8-8	908-914	machen	_	_
+8-9	915-920	colle	_	_
+8-10	921-926	buone	_	_
+8-11	927-928	.	_	_
+
+#Text=Ich sende alsdann die Papiere zurück : luynes schöner Brief liegt bei .
+9-1	929-932	Ich	_	_
+9-2	933-938	sende	_	_
+9-3	939-946	alsdann	_	_
+9-4	947-950	die	_	_
+9-5	951-958	Papiere	_	_
+9-6	959-965	zurück	_	_
+9-7	966-967	:	_	_
+9-8	968-974	luynes	*	PERmentioned
+9-9	975-982	schöner	_	_
+9-10	983-988	Brief	_	_
+9-11	989-994	liegt	_	_
+9-12	995-998	bei	_	_
+9-13	999-1000	.	_	_
+
+#Text=- Meine Eingabe an den König hatte angefangen aufzusetzen , um siesobald die Neuenburger Wolken sich zer-
+10-1	1001-1002	-	_	_
+10-2	1003-1008	Meine	_	_
+10-3	1009-1016	Eingabe	_	_
+10-4	1017-1019	an	_	_
+10-5	1020-1023	den	_	_
+10-6	1024-1029	König	*	PERmentioned
+10-7	1030-1035	hatte	_	_
+10-8	1036-1046	angefangen	_	_
+10-9	1047-1058	aufzusetzen	_	_
+10-10	1059-1060	,	_	_
+10-11	1061-1063	um	_	_
+10-12	1064-1073	siesobald	_	_
+10-13	1074-1077	die	_	_
+10-14	1078-1089	Neuenburger	_	_
+10-15	1090-1096	Wolken	_	_
+10-16	1097-1101	sich	_	_
+10-17	1102-1106	zer-	_	_

@@ -1,0 +1,203 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\|\| ... Gerhard an Henzen Berlin , 19. Mai 1846 sigen mögen .
+1-1	0-2	\|\|	_	_
+1-2	3-6	...	_	_
+1-3	7-14	Gerhard	*	PERauthor
+1-4	15-17	an	_	_
+1-5	18-24	Henzen	*	PERaddressee
+1-6	25-31	Berlin	*	PLACEfrom
+1-7	32-33	,	_	_
+1-8	34-37	19.	*[1]	DATEletter[1]
+1-9	38-41	Mai	*[1]	DATEletter[1]
+1-10	42-46	1846	*[1]	DATEletter[1]
+1-11	47-52	sigen	_	_
+1-12	53-58	mögen	_	_
+1-13	59-60	.	_	_
+
+#Text=Die epigraphische Angelegenheit hat wegen Geschäftshäufung der Akademie nochmals vertagt werden müssen , kommt aber nächstens in einer außerordentlichen Sitzung daran .
+2-1	61-64	Die	_	_
+2-2	65-78	epigraphische	_	_
+2-3	79-92	Angelegenheit	_	_
+2-4	93-96	hat	_	_
+2-5	97-102	wegen	_	_
+2-6	103-119	Geschäftshäufung	_	_
+2-7	120-123	der	_	_
+2-8	124-132	Akademie	*	ORGmentioned
+2-9	133-141	nochmals	_	_
+2-10	142-149	vertagt	_	_
+2-11	150-156	werden	_	_
+2-12	157-163	müssen	_	_
+2-13	164-165	,	_	_
+2-14	166-171	kommt	_	_
+2-15	172-176	aber	_	_
+2-16	177-186	nächstens	_	_
+2-17	187-189	in	_	_
+2-18	190-195	einer	_	_
+2-19	196-213	außerordentlichen	_	_
+2-20	214-221	Sitzung	_	_
+2-21	222-227	daran	_	_
+2-22	228-229	.	_	_
+
+#Text=- Meine akademische Anzeige für Secchi durch Campana ist doch angelangt ?
+3-1	230-231	-	_	_
+3-2	232-237	Meine	_	_
+3-3	238-249	akademische	_	_
+3-4	250-257	Anzeige	_	_
+3-5	258-261	für	_	_
+3-6	262-268	Secchi	*	PERmentioned
+3-7	269-274	durch	_	_
+3-8	275-282	Campana	*	PERmentioned
+3-9	283-286	ist	_	_
+3-10	287-291	doch	_	_
+3-11	292-301	angelangt	_	_
+3-12	302-303	?	_	_
+
+#Text=Vom Monumentum Ancyranum ed .
+4-1	304-307	Vom	_	_
+4-2	308-318	Monumentum	_	_
+4-3	319-328	Ancyranum	_	_
+4-4	329-331	ed	_	_
+4-5	332-333	.	_	_
+
+#Text=Franz mit Commentar von Akd .
+5-1	334-339	Franz	*	PERmentioned
+5-2	340-343	mit	_	_
+5-3	344-353	Commentar	_	_
+5-4	354-357	von	_	_
+5-5	358-361	Akd	_	_
+5-6	362-363	.	_	_
+
+#Text=Zumpt wissen Sie .
+6-1	364-369	Zumpt	*	PERmentioned
+6-2	370-376	wissen	_	_
+6-3	377-380	Sie	_	_
+6-4	381-382	.	_	_
+
+#Text=Das Ministerium hat um die 6 Exemplare Annalen gemahnt , ich habe es vertröstet und mahne wieder in Paris um wo möglich beide Jahrgänge gleichzeitig rühmen zu können .
+7-1	383-386	Das	_	_
+7-2	387-398	Ministerium	*	ORGmentioned
+7-3	399-402	hat	_	_
+7-4	403-405	um	_	_
+7-5	406-409	die	_	_
+7-6	410-411	6	_	_
+7-7	412-421	Exemplare	_	_
+7-8	422-429	Annalen	_	_
+7-9	430-437	gemahnt	_	_
+7-10	438-439	,	_	_
+7-11	440-443	ich	_	_
+7-12	444-448	habe	_	_
+7-13	449-451	es	_	_
+7-14	452-462	vertröstet	_	_
+7-15	463-466	und	_	_
+7-16	467-472	mahne	_	_
+7-17	473-479	wieder	_	_
+7-18	480-482	in	_	_
+7-19	483-488	Paris	*	PLACEmentioned
+7-20	489-491	um	_	_
+7-21	492-494	wo	_	_
+7-22	495-502	möglich	_	_
+7-23	503-508	beide	_	_
+7-24	509-518	Jahrgänge	_	_
+7-25	519-531	gleichzeitig	_	_
+7-26	532-538	rühmen	_	_
+7-27	539-541	zu	_	_
+7-28	542-548	können	_	_
+7-29	549-550	.	_	_
+
+#Text=Meine Frau ist noch in Frankfurt und wird also wol erst im nächsten Monat hier sein oder wenig früher .
+8-1	551-556	Meine	_	_
+8-2	557-561	Frau	_	_
+8-3	562-565	ist	_	_
+8-4	566-570	noch	_	_
+8-5	571-573	in	_	_
+8-6	574-583	Frankfurt	*	PLACEmentioned
+8-7	584-587	und	_	_
+8-8	588-592	wird	_	_
+8-9	593-597	also	_	_
+8-10	598-601	wol	_	_
+8-11	602-606	erst	_	_
+8-12	607-609	im	_	_
+8-13	610-618	nächsten	_	_
+8-14	619-624	Monat	_	_
+8-15	625-629	hier	_	_
+8-16	630-634	sein	_	_
+8-17	635-639	oder	_	_
+8-18	640-645	wenig	_	_
+8-19	646-652	früher	_	_
+8-20	653-654	.	_	_
+
+#Text=Wiese ist einer der 3 frommen Laien bei der Synode , außerdem durch das Alumnat im Joachimsthal mit Würden und Bürden bedrückt .
+9-1	655-660	Wiese	*	PERmentioned
+9-2	661-664	ist	_	_
+9-3	665-670	einer	_	_
+9-4	671-674	der	_	_
+9-5	675-676	3	_	_
+9-6	677-684	frommen	_	_
+9-7	685-690	Laien	_	_
+9-8	691-694	bei	_	_
+9-9	695-698	der	_	_
+9-10	699-705	Synode	_	_
+9-11	706-707	,	_	_
+9-12	708-716	außerdem	_	_
+9-13	717-722	durch	_	_
+9-14	723-726	das	_	_
+9-15	727-734	Alumnat	_	_
+9-16	735-737	im	_	_
+9-17	738-750	Joachimsthal	*	PLACEmentioned
+9-18	751-754	mit	_	_
+9-19	755-761	Würden	_	_
+9-20	762-765	und	_	_
+9-21	766-772	Bürden	_	_
+9-22	773-781	bedrückt	_	_
+9-23	782-783	.	_	_
+
+#Text=Mit allem Herzlichen Ihr Gerhard Zur Commission für Ihre Schrift wird mir Schwetschke in Halle empfohlen \; vermuthlich zu 50 rt Rabatt .
+10-1	784-787	Mit	_	_
+10-2	788-793	allem	_	_
+10-3	794-804	Herzlichen	_	_
+10-4	805-808	Ihr	_	_
+10-5	809-816	Gerhard	*	PERauthor
+10-6	817-820	Zur	_	_
+10-7	821-831	Commission	_	_
+10-8	832-835	für	_	_
+10-9	836-840	Ihre	_	_
+10-10	841-848	Schrift	_	_
+10-11	849-853	wird	_	_
+10-12	854-857	mir	_	_
+10-13	858-869	Schwetschke	*	PERmentioned
+10-14	870-872	in	_	_
+10-15	873-878	Halle	*	PLACEmentioned
+10-16	879-888	empfohlen	_	_
+10-17	889-890	\;	_	_
+10-18	891-902	vermuthlich	_	_
+10-19	903-905	zu	_	_
+10-20	906-908	50	_	_
+10-21	909-911	rt	_	_
+10-22	912-918	Rabatt	_	_
+10-23	919-920	.	_	_
+
+#Text=.oeeeeenen .
+11-1	921-931	.oeeeeenen	_	_
+11-2	932-933	.	_	_
+
+#Text=Stich und Druck für 1846 ?
+12-1	934-939	Stich	_	_
+12-2	940-943	und	_	_
+12-3	944-949	Druck	_	_
+12-4	950-953	für	_	_
+12-5	954-958	1846	*	DATEmentioned
+12-6	959-960	?	_	_
+
+#Text=Kann man nicht bald einen Probedruck der Ergotimosvase erlan-
+13-1	961-965	Kann	_	_
+13-2	966-969	man	_	_
+13-3	970-975	nicht	_	_
+13-4	976-980	bald	_	_
+13-5	981-986	einen	_	_
+13-6	987-997	Probedruck	_	_
+13-7	998-1001	der	_	_
+13-8	1002-1015	Ergotimosvase	*	OBJ
+13-9	1016-1022	erlan-	_	_

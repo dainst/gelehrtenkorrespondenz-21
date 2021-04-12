@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=38 Lepsius an Henzen Berlin , 17. Februar 1873 g . 21/2 73 Berlin d . 17 .
+1-1	0-2	38	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	17.	*[1]	DATEletter[1]
+1-8	34-41	Februar	*[1]	DATEletter[1]
+1-9	42-46	1873	*[1]	DATEletter[1]
+1-10	47-48	g	_	_
+1-11	49-50	.	_	_
+1-12	51-55	21/2	*[2]	DATErecieved[2]
+1-13	56-58	73	*[2]	DATErecieved[2]
+1-14	59-65	Berlin	*	PLACEfrom
+1-15	66-67	d	_	_
+1-16	68-69	.	_	_
+1-17	70-72	17	*[3]	DATEletter[3]
+1-18	73-74	.	*[3]	DATEletter[3]
+
+#Text=Febr .
+2-1	75-79	Febr	*[3]	DATEletter[3]
+2-2	80-81	.	*[3]	DATEletter[3]
+
+#Text=1873 .
+3-1	82-86	1873	*[3]	DATEletter[3]
+3-2	87-88	.	_	_
+
+#Text=Verehrter Freund Vor kurzem ging mir eine Abrechnung von Ihrer Hand von L .
+4-1	89-98	Verehrter	_	_
+4-2	99-105	Freund	_	_
+4-3	106-109	Vor	_	_
+4-4	110-116	kurzem	_	_
+4-5	117-121	ging	_	_
+4-6	122-125	mir	_	_
+4-7	126-130	eine	_	_
+4-8	131-141	Abrechnung	_	_
+4-9	142-145	von	_	_
+4-10	146-151	Ihrer	_	_
+4-11	152-156	Hand	_	_
+4-12	157-160	von	_	_
+4-13	161-162	L	_	_
+4-14	163-164	.	_	_
+
+#Text=260,80 mit Beüegen zu , nicht direkt aus Rom .
+5-1	165-171	260,80	_	_
+5-2	172-175	mit	_	_
+5-3	176-183	Beüegen	_	_
+5-4	184-186	zu	_	_
+5-5	187-188	,	_	_
+5-6	189-194	nicht	_	_
+5-7	195-201	direkt	_	_
+5-8	202-205	aus	_	_
+5-9	206-209	Rom	*	PLACEmentioned
+5-10	210-211	.	_	_
+
+#Text=Wie verhält sich dies zu der Gesammtrechnung von 1872 ?
+6-1	212-215	Wie	_	_
+6-2	216-223	verhält	_	_
+6-3	224-228	sich	_	_
+6-4	229-233	dies	_	_
+6-5	234-236	zu	_	_
+6-6	237-240	der	_	_
+6-7	241-256	Gesammtrechnung	_	_
+6-8	257-260	von	_	_
+6-9	261-265	1872	*	DATEmentioned
+6-10	266-267	?	_	_
+
+#Text=Was soll damit geschehen ?
+7-1	268-271	Was	_	_
+7-2	272-276	soll	_	_
+7-3	277-282	damit	_	_
+7-4	283-292	geschehen	_	_
+7-5	293-294	?	_	_
+
+#Text=Über den Custos werden Sie nun mit Mommsen , den ich herzlich grüße , verhandelt haben .
+8-1	295-299	Über	_	_
+8-2	300-303	den	_	_
+8-3	304-310	Custos	_	_
+8-4	311-317	werden	_	_
+8-5	318-321	Sie	_	_
+8-6	322-325	nun	_	_
+8-7	326-329	mit	_	_
+8-8	330-337	Mommsen	*	PERmentioned
+8-9	338-339	,	_	_
+8-10	340-343	den	_	_
+8-11	344-347	ich	_	_
+8-12	348-356	herzlich	_	_
+8-13	357-362	grüße	_	_
+8-14	363-364	,	_	_
+8-15	365-375	verhandelt	_	_
+8-16	376-381	haben	_	_
+8-17	382-383	.	_	_
+
+#Text=Wir haben hier die Sache als ziemlich elastisch betrachtet , aus der Sie noch immer machen können , was Sie wollen .
+9-1	384-387	Wir	_	_
+9-2	388-393	haben	_	_
+9-3	394-398	hier	_	_
+9-4	399-402	die	_	_
+9-5	403-408	Sache	_	_
+9-6	409-412	als	_	_
+9-7	413-421	ziemlich	_	_
+9-8	422-431	elastisch	_	_
+9-9	432-442	betrachtet	_	_
+9-10	443-444	,	_	_
+9-11	445-448	aus	_	_
+9-12	449-452	der	_	_
+9-13	453-456	Sie	_	_
+9-14	457-461	noch	_	_
+9-15	462-467	immer	_	_
+9-16	468-474	machen	_	_
+9-17	475-481	können	_	_
+9-18	482-483	,	_	_
+9-19	484-487	was	_	_
+9-20	488-491	Sie	_	_
+9-21	492-498	wollen	_	_
+9-22	499-500	.	_	_
+
+#Text=Daß die Aussichten für den Anschlag gut sind freut mich sehr .
+10-1	501-504	Daß	_	_
+10-2	505-508	die	_	_
+10-3	509-519	Aussichten	_	_
+10-4	520-523	für	_	_
+10-5	524-527	den	_	_
+10-6	528-536	Anschlag	_	_
+10-7	537-540	gut	_	_
+10-8	541-545	sind	_	_
+10-9	546-551	freut	_	_
+10-10	552-556	mich	_	_
+10-11	557-561	sehr	_	_
+10-12	562-563	.	_	_
+
+#Text=Sagen Sie aber Laspeyres , er möge die Sendung jedenfalls an mich richten und sie durch die Central Direktion an das Bundeskanzleramt gelangen lassen .
+11-1	564-569	Sagen	_	_
+11-2	570-573	Sie	_	_
+11-3	574-578	aber	_	_
+11-4	579-588	Laspeyres	*	PERmentioned
+11-5	589-590	,	_	_
+11-6	591-593	er	_	_
+11-7	594-598	möge	_	_
+11-8	599-602	die	_	_
+11-9	603-610	Sendung	_	_
+11-10	611-621	jedenfalls	_	_
+11-11	622-624	an	_	_
+11-12	625-629	mich	_	_
+11-13	630-637	richten	_	_
+11-14	638-641	und	_	_
+11-15	642-645	sie	_	_
+11-16	646-651	durch	_	_
+11-17	652-655	die	_	_
+11-18	656-663	Central	*[4]	ORGmentioned[4]
+11-19	664-673	Direktion	*[4]	ORGmentioned[4]
+11-20	674-676	an	_	_
+11-21	677-680	das	_	_
+11-22	681-697	Bundeskanzleramt	*	ORGmentioned
+11-23	698-706	gelangen	_	_
+11-24	707-713	lassen	_	_
+11-25	714-715	.	_	_
+
+#Text=Nine Sendung des Konzeptes ist dann gar nicht nöthig .
+12-1	716-720	Nine	_	_
+12-2	721-728	Sendung	_	_
+12-3	729-732	des	_	_
+12-4	733-742	Konzeptes	_	_
+12-5	743-746	ist	_	_
+12-6	747-751	dann	_	_
+12-7	752-755	gar	_	_
+12-8	756-761	nicht	_	_
+12-9	762-768	nöthig	_	_
+12-10	769-770	.	_	_
+
+#Text=Auch ein Telegramm kann die Sache hier nicht fördern .
+13-1	771-775	Auch	_	_
+13-2	776-779	ein	_	_
+13-3	780-789	Telegramm	_	_
+13-4	790-794	kann	_	_
+13-5	795-798	die	_	_
+13-6	799-804	Sache	_	_
+13-7	805-809	hier	_	_
+13-8	810-815	nicht	_	_
+13-9	816-823	fördern	_	_
+13-10	824-825	.	_	_
+
+#Text=Wohl aber wird es gerathen sein die Sendung zu rekommandiren .
+14-1	826-830	Wohl	_	_
+14-2	831-835	aber	_	_
+14-3	836-840	wird	_	_
+14-4	841-843	es	_	_
+14-5	844-852	gerathen	_	_
+14-6	853-857	sein	_	_
+14-7	858-861	die	_	_
+14-8	862-869	Sendung	_	_
+14-9	870-872	zu	_	_
+14-10	873-886	rekommandiren	_	_
+14-11	887-888	.	_	_
+
+#Text=Auf die 6 Zimmer konnten wir rechnen \; daß Sie auch noch einige mehr reserviren , halte ich für sehr nützlich .
+15-1	889-892	Auf	_	_
+15-2	893-896	die	_	_
+15-3	897-898	6	_	_
+15-4	899-905	Zimmer	_	_
+15-5	906-913	konnten	_	_
+15-6	914-917	wir	_	_
+15-7	918-925	rechnen	_	_
+15-8	926-927	\;	_	_
+15-9	928-931	daß	_	_
+15-10	932-935	Sie	_	_
+15-11	936-940	auch	_	_
+15-12	941-945	noch	_	_
+15-13	946-952	einige	_	_
+15-14	953-957	mehr	_	_
+15-15	958-968	reserviren	_	_
+15-16	969-970	,	_	_
+15-17	971-976	halte	_	_
+15-18	977-980	ich	_	_
+15-19	981-984	für	_	_
+15-20	985-989	sehr	_	_
+15-21	990-998	nützlich	_	_
+15-22	999-1000	.	_	_
+
+#Text=Ich meine auch , daß das Vergebungsrecht der Zimmer nur Ihnen gebührt , und nur mit Anzeige an die Gesandtschaft und ihres maggior domo , da die Verwaltung
+16-1	1001-1004	Ich	_	_
+16-2	1005-1010	meine	_	_
+16-3	1011-1015	auch	_	_
+16-4	1016-1017	,	_	_
+16-5	1018-1021	daß	_	_
+16-6	1022-1025	das	_	_
+16-7	1026-1041	Vergebungsrecht	_	_
+16-8	1042-1045	der	_	_
+16-9	1046-1052	Zimmer	_	_
+16-10	1053-1056	nur	_	_
+16-11	1057-1062	Ihnen	_	_
+16-12	1063-1070	gebührt	_	_
+16-13	1071-1072	,	_	_
+16-14	1073-1076	und	_	_
+16-15	1077-1080	nur	_	_
+16-16	1081-1084	mit	_	_
+16-17	1085-1092	Anzeige	_	_
+16-18	1093-1095	an	_	_
+16-19	1096-1099	die	_	_
+16-20	1100-1113	Gesandtschaft	*	ORGmentioned
+16-21	1114-1117	und	_	_
+16-22	1118-1123	ihres	_	_
+16-23	1124-1131	maggior	_	_
+16-24	1132-1136	domo	_	_
+16-25	1137-1138	,	_	_
+16-26	1139-1141	da	_	_
+16-27	1142-1145	die	_	_
+16-28	1146-1156	Verwaltung	_	_

@@ -1,0 +1,119 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia , 20 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Perugia	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	20	*[5]	DATEletter[5]
+1-7	29-30	.	*[5]	DATEletter[5]
+
+#Text=Sept .
+2-1	31-35	Sept	*[5]	DATEletter[5]
+2-2	36-37	.	*[5]	DATEletter[5]
+
+#Text=1862 Politisch verhält man sich hier ziemlich ruhig .
+3-1	38-42	1862	*[5]	DATEletter[5]
+3-2	43-52	Politisch	_	_
+3-3	53-60	verhält	_	_
+3-4	61-64	man	_	_
+3-5	65-69	sich	_	_
+3-6	70-74	hier	_	_
+3-7	75-83	ziemlich	_	_
+3-8	84-89	ruhig	_	_
+3-9	90-91	.	_	_
+
+#Text=Sonntag war der Jahrestag der Einnahme \; Fest , aber ohne Fanatismus .
+4-1	92-99	Sonntag	*	DATEmentioned
+4-2	100-103	war	_	_
+4-3	104-107	der	_	_
+4-4	108-117	Jahrestag	_	_
+4-5	118-121	der	_	_
+4-6	122-130	Einnahme	_	_
+4-7	131-132	\;	_	_
+4-8	133-137	Fest	_	_
+4-9	138-139	,	_	_
+4-10	140-144	aber	_	_
+4-11	145-149	ohne	_	_
+4-12	150-160	Fanatismus	_	_
+4-13	161-162	.	_	_
+
+#Text=Im Ganzen herrscht ein regeres Leben ds früher und man scheint zufrieden .
+5-1	163-165	Im	_	_
+5-2	166-172	Ganzen	_	_
+5-3	173-181	herrscht	_	_
+5-4	182-185	ein	_	_
+5-5	186-193	regeres	_	_
+5-6	194-199	Leben	_	_
+5-7	200-202	ds	_	_
+5-8	203-209	früher	_	_
+5-9	210-213	und	_	_
+5-10	214-217	man	_	_
+5-11	218-225	scheint	_	_
+5-12	226-235	zufrieden	_	_
+5-13	236-237	.	_	_
+
+#Text=Was wissen Sie von der vor= oder von der nächstjährigen gioventu ?
+6-1	238-241	Was	_	_
+6-2	242-248	wissen	_	_
+6-3	249-252	Sie	_	_
+6-4	253-256	von	_	_
+6-5	257-260	der	_	_
+6-6	261-265	vor=	_	_
+6-7	266-270	oder	_	_
+6-8	271-274	von	_	_
+6-9	275-278	der	_	_
+6-10	279-293	nächstjährigen	_	_
+6-11	294-302	gioventu	_	_
+6-12	303-304	?	_	_
+
+#Text=Jordan , Reit Heibig ?
+7-1	305-311	Jordan	*	PERmentioned
+7-2	312-313	,	_	_
+7-3	314-318	Reit	*	PERmentioned
+7-4	319-325	Heibig	*	PERmentioned
+7-5	326-327	?	_	_
+
+#Text=Ich schließe Sonnabend früh , um nun wieder an die Arbeit zu gehen .
+8-1	328-331	Ich	_	_
+8-2	332-340	schließe	_	_
+8-3	341-350	Sonnabend	*	DATEmentioned
+8-4	351-355	früh	_	_
+8-5	356-357	,	_	_
+8-6	358-360	um	_	_
+8-7	361-364	nun	_	_
+8-8	365-371	wieder	_	_
+8-9	372-374	an	_	_
+8-10	375-378	die	_	_
+8-11	379-385	Arbeit	_	_
+8-12	386-388	zu	_	_
+8-13	389-394	gehen	_	_
+8-14	395-396	.	_	_
+
+#Text=Vorläufig ist das Wetter noch gut .
+9-1	397-406	Vorläufig	_	_
+9-2	407-410	ist	_	_
+9-3	411-414	das	_	_
+9-4	415-421	Wetter	_	_
+9-5	422-426	noch	_	_
+9-6	427-430	gut	_	_
+9-7	431-432	.	_	_
+
+#Text=Mit besten Grüßen an Ihre Frau Ihr HBrunn Perugia 20 : IX , 62
+10-1	433-436	Mit	_	_
+10-2	437-443	besten	_	_
+10-3	444-450	Grüßen	_	_
+10-4	451-453	an	_	_
+10-5	454-458	Ihre	*[6]	PERmentioned[6]
+10-6	459-463	Frau	*[6]	PERmentioned[6]
+10-7	464-467	Ihr	_	_
+10-8	468-474	HBrunn	*	PERauthor
+10-9	475-482	Perugia	*	PLACEfrom
+10-10	483-485	20	*[7]	DATEletter[7]
+10-11	486-487	:	*[7]	DATEletter[7]
+10-12	488-490	IX	*[7]	DATEletter[7]
+10-13	491-492	,	*[7]	DATEletter[7]
+10-14	493-495	62	*[7]	DATEletter[7]

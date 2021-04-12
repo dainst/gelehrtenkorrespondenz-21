@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 9. November 1837 Dr. Lepsius und Braun g. Terni 1/12 37 Berlin 9 Nov 37 Meine Addresse Schenk & Gerstäcker auf die Briefe zu setzen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	9.	*[4]	DATEletter[4]
+1-7	29-37	November	*[4]	DATEletter[4]
+1-8	38-42	1837	*[4]	DATEletter[4]
+1-9	43-46	Dr.	_	_
+1-10	47-54	Lepsius	*	PERaddressee
+1-11	55-58	und	_	_
+1-12	59-64	Braun	*	PERaddressee
+1-13	65-67	g.	_	_
+1-14	68-73	Terni	*	PLACEto
+1-15	74-78	1/12	*[8]	DATErecieved[8]
+1-16	79-81	37	*[8]	DATErecieved[8]
+1-17	82-88	Berlin	*	PLACEfrom
+1-18	89-90	9	*[10]	DATEletter[10]
+1-19	91-94	Nov	*[10]	DATEletter[10]
+1-20	95-97	37	*[10]	DATEletter[10]
+1-21	98-103	Meine	_	_
+1-22	104-112	Addresse	_	_
+1-23	113-119	Schenk	*[11]	ORGmentioned[11]
+1-24	120-121	&	*[11]	ORGmentioned[11]
+1-25	122-132	Gerstäcker	*[11]	ORGmentioned[11]
+1-26	133-136	auf	_	_
+1-27	137-140	die	_	_
+1-28	141-147	Briefe	_	_
+1-29	148-150	zu	_	_
+1-30	151-157	setzen	_	_
+1-31	158-159	.	_	_
+
+#Text=Ein Blatt für zwei Freunde , und anhangend ein anderes für Neapel \; seit der Livorneser Brief \\ erwarte ich erst definitive Sanitätsinstitutionen , bevor ich wieder Beischlüsse wage .
+2-1	160-163	Ein	_	_
+2-2	164-169	Blatt	_	_
+2-3	170-173	für	_	_
+2-4	174-178	zwei	_	_
+2-5	179-186	Freunde	_	_
+2-6	187-188	,	_	_
+2-7	189-192	und	_	_
+2-8	193-202	anhangend	_	_
+2-9	203-206	ein	_	_
+2-10	207-214	anderes	_	_
+2-11	215-218	für	_	_
+2-12	219-225	Neapel	*	PLACEmentioned
+2-13	226-227	\;	_	_
+2-14	228-232	seit	_	_
+2-15	233-236	der	_	_
+2-16	237-247	Livorneser	*	PLACEmentioned
+2-17	248-253	Brief	_	_
+2-18	254-255	\\	_	_
+2-19	256-263	erwarte	_	_
+2-20	264-267	ich	_	_
+2-21	268-272	erst	_	_
+2-22	273-283	definitive	_	_
+2-23	284-305	Sanitätsinstitutionen	_	_
+2-24	306-307	,	_	_
+2-25	308-313	bevor	_	_
+2-26	314-317	ich	_	_
+2-27	318-324	wieder	_	_
+2-28	325-336	Beischlüsse	_	_
+2-29	337-341	wage	_	_
+2-30	342-343	.	_	_
+
+#Text=Sie werden , lieber Lepsius , meinen vorgestrigen Brief erhalten haben .
+3-1	344-347	Sie	_	_
+3-2	348-354	werden	_	_
+3-3	355-356	,	_	_
+3-4	357-363	lieber	_	_
+3-5	364-371	Lepsius	*	PERmentioned
+3-6	372-373	,	_	_
+3-7	374-380	meinen	_	_
+3-8	381-393	vorgestrigen	_	_
+3-9	394-399	Brief	_	_
+3-10	400-408	erhalten	_	_
+3-11	409-414	haben	_	_
+3-12	415-416	.	_	_
+
+#Text=Ich vergaß darin Sie von Seiten Remo Plas zu ersuchen , daß der von demselben eingesandte Aufsatz des Hn .
+4-1	417-420	Ich	_	_
+4-2	421-427	vergaß	_	_
+4-3	428-433	darin	_	_
+4-4	434-437	Sie	_	_
+4-5	438-441	von	_	_
+4-6	442-448	Seiten	_	_
+4-7	449-453	Remo	_	_
+4-8	454-458	Plas	_	_
+4-9	459-461	zu	_	_
+4-10	462-470	ersuchen	_	_
+4-11	471-472	,	_	_
+4-12	473-476	daß	_	_
+4-13	477-480	der	_	_
+4-14	481-484	von	_	_
+4-15	485-494	demselben	_	_
+4-16	495-506	eingesandte	_	_
+4-17	507-514	Aufsatz	_	_
+4-18	515-518	des	_	_
+4-19	519-521	Hn	_	_
+4-20	522-523	.	_	_
+
+#Text=über Psychostasie ungedruckt bleiben möge .
+5-1	524-528	über	_	_
+5-2	529-541	Psychostasie	_	_
+5-3	542-552	ungedruckt	_	_
+5-4	553-560	bleiben	_	_
+5-5	561-565	möge	_	_
+5-6	566-567	.	_	_
+
+#Text=- Gestern erhielt ich den von Ihnen außen beschriebnen Brief , einen sehr nichtssagenden , des Lamberti .
+6-1	568-569	-	_	_
+6-2	570-577	Gestern	_	_
+6-3	578-585	erhielt	_	_
+6-4	586-589	ich	_	_
+6-5	590-593	den	_	_
+6-6	594-597	von	_	_
+6-7	598-603	Ihnen	_	_
+6-8	604-609	außen	_	_
+6-9	610-622	beschriebnen	_	_
+6-10	623-628	Brief	_	_
+6-11	629-630	,	_	_
+6-12	631-636	einen	_	_
+6-13	637-641	sehr	_	_
+6-14	642-656	nichtssagenden	_	_
+6-15	657-658	,	_	_
+6-16	659-662	des	_	_
+6-17	663-671	Lamberti	*	PERmentioned
+6-18	672-673	.	_	_
+
+#Text=Daß Sie an den Litteratenartikel über Aegyptisches denken freut mich \; nach Ihrer Bequemlichkeit !
+7-1	674-677	Daß	_	_
+7-2	678-681	Sie	_	_
+7-3	682-684	an	_	_
+7-4	685-688	den	_	_
+7-5	689-706	Litteratenartikel	_	_
+7-6	707-711	über	_	_
+7-7	712-724	Aegyptisches	_	_
+7-8	725-731	denken	_	_
+7-9	732-737	freut	_	_
+7-10	738-742	mich	_	_
+7-11	743-744	\;	_	_
+7-12	745-749	nach	_	_
+7-13	750-755	Ihrer	_	_
+7-14	756-770	Bequemlichkeit	_	_
+7-15	771-772	!	_	_
+
+#Text=Was nachfolst ist von Ihrer Notiz richt ausgeschlossen , aber an Braun gerichtet , in der Voraussetzung er möge jezt angekommen sein in Rom .
+8-1	773-776	Was	_	_
+8-2	777-786	nachfolst	_	_
+8-3	787-790	ist	_	_
+8-4	791-794	von	_	_
+8-5	795-800	Ihrer	_	_
+8-6	801-806	Notiz	_	_
+8-7	807-812	richt	_	_
+8-8	813-827	ausgeschlossen	_	_
+8-9	828-829	,	_	_
+8-10	830-834	aber	_	_
+8-11	835-837	an	_	_
+8-12	838-843	Braun	*	PERmentioned
+8-13	844-853	gerichtet	_	_
+8-14	854-855	,	_	_
+8-15	856-858	in	_	_
+8-16	859-862	der	_	_
+8-17	863-876	Voraussetzung	_	_
+8-18	877-879	er	_	_
+8-19	880-884	möge	_	_
+8-20	885-889	jezt	_	_
+8-21	890-900	angekommen	_	_
+8-22	901-905	sein	_	_
+8-23	906-908	in	_	_
+8-24	909-912	Rom	*	PLACEmentioned
+8-25	913-914	.	_	_
+
+#Text=- Warum schreibt mir Urlichs nicht , srüßen Sie ihn bestens .
+9-1	915-916	-	_	_
+9-2	917-922	Warum	_	_
+9-3	923-931	schreibt	_	_
+9-4	932-935	mir	_	_
+9-5	936-943	Urlichs	*	PERmentioned
+9-6	944-949	nicht	_	_
+9-7	950-951	,	_	_
+9-8	952-958	srüßen	_	_
+9-9	959-962	Sie	_	_
+9-10	963-966	ihn	_	_
+9-11	967-974	bestens	_	_
+9-12	975-976	.	_	_
+
+#Text=Vielen Dank lieber Braun für Ihren Brief aus Modena , worin die Befreiungsnachricht und andre gute Dinge .
+10-1	977-983	Vielen	_	_
+10-2	984-988	Dank	_	_
+10-3	989-995	lieber	_	_
+10-4	996-1001	Braun	*	PERauthor
+10-5	1002-1005	für	_	_
+10-6	1006-1011	Ihren	_	_
+10-7	1012-1017	Brief	_	_
+10-8	1018-1021	aus	_	_
+10-9	1022-1028	Modena	*	PLACEmentioned
+10-10	1029-1030	,	_	_
+10-11	1031-1036	worin	_	_
+10-12	1037-1040	die	_	_
+10-13	1041-1060	Befreiungsnachricht	_	_
+10-14	1061-1064	und	_	_
+10-15	1065-1070	andre	_	_
+10-16	1071-1075	gute	_	_
+10-17	1076-1081	Dinge	_	_
+10-18	1082-1083	.	_	_
+
+#Text=Daß Ihr Freund die von Ihnen erwähnte Vase des Iy H durchgezeichnet hat freut mich sehr und bitte um eine Copie \; in der Flügelfigur kann ich mich geirrt
+11-1	1084-1087	Daß	_	_
+11-2	1088-1091	Ihr	_	_
+11-3	1092-1098	Freund	_	_
+11-4	1099-1102	die	_	_
+11-5	1103-1106	von	_	_
+11-6	1107-1112	Ihnen	_	_
+11-7	1113-1121	erwähnte	_	_
+11-8	1122-1126	Vase	*	OBJ
+11-9	1127-1130	des	_	_
+11-10	1131-1133	Iy	_	_
+11-11	1134-1135	H	_	_
+11-12	1136-1151	durchgezeichnet	_	_
+11-13	1152-1155	hat	_	_
+11-14	1156-1161	freut	_	_
+11-15	1162-1166	mich	_	_
+11-16	1167-1171	sehr	_	_
+11-17	1172-1175	und	_	_
+11-18	1176-1181	bitte	_	_
+11-19	1182-1184	um	_	_
+11-20	1185-1189	eine	_	_
+11-21	1190-1195	Copie	_	_
+11-22	1196-1197	\;	_	_
+11-23	1198-1200	in	_	_
+11-24	1201-1204	der	_	_
+11-25	1205-1216	Flügelfigur	_	_
+11-26	1217-1221	kann	_	_
+11-27	1222-1225	ich	_	_
+11-28	1226-1230	mich	_	_
+11-29	1231-1237	geirrt	_	_

@@ -1,0 +1,284 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Bologna , 29 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Bologna	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	29	*[7]	DATEletter[7]
+1-7	30-31	.	*[7]	DATEletter[7]
+
+#Text=Oktober 1837 Herrn Prof. Gerhard Bologna 29 Octbr 1837 .
+2-1	32-39	Oktober	*[7]	DATEletter[7]
+2-2	40-44	1837	*[7]	DATEletter[7]
+2-3	45-50	Herrn	_	_
+2-4	51-56	Prof.	_	_
+2-5	57-64	Gerhard	*	PERaddressee
+2-6	65-72	Bologna	*	PLACEfrom
+2-7	73-75	29	*[8]	DATEletter[8]
+2-8	76-81	Octbr	*[8]	DATEletter[8]
+2-9	82-86	1837	*[8]	DATEletter[8]
+2-10	87-88	.	_	_
+
+#Text=Hochverehrtester Freund !
+3-1	89-105	Hochverehrtester	_	_
+3-2	106-112	Freund	_	_
+3-3	113-114	!	_	_
+
+#Text=Seit 2 Tagen hier , bin ich veranlaßt noch einige Tage hier zu bleiben , indem ich so eben erfahre , daß 5 .
+4-1	115-119	Seit	_	_
+4-2	120-121	2	_	_
+4-3	122-127	Tagen	_	_
+4-4	128-132	hier	_	_
+4-5	133-134	,	_	_
+4-6	135-138	bin	_	_
+4-7	139-142	ich	_	_
+4-8	143-152	veranlaßt	_	_
+4-9	153-157	noch	_	_
+4-10	158-164	einige	_	_
+4-11	165-169	Tage	_	_
+4-12	170-174	hier	_	_
+4-13	175-177	zu	_	_
+4-14	178-185	bleiben	_	_
+4-15	186-187	,	_	_
+4-16	188-193	indem	_	_
+4-17	194-197	ich	_	_
+4-18	198-200	so	_	_
+4-19	201-205	eben	_	_
+4-20	206-213	erfahre	_	_
+4-21	214-215	,	_	_
+4-22	216-219	daß	_	_
+4-23	220-221	5	_	_
+4-24	222-223	.	*[9]	PERmentioned[9]
+
+#Text=Boisseröde hier durchkomnt .
+5-1	224-234	Boisseröde	*[9]	PERmentioned[9]
+5-2	235-239	hier	_	_
+5-3	240-250	durchkomnt	_	_
+5-4	251-252	.	_	_
+
+#Text=Von Rom erhalte ich äußerst betrübende Nachrichten .
+6-1	253-256	Von	_	_
+6-2	257-260	Rom	*	PLACEmentioned
+6-3	261-268	erhalte	_	_
+6-4	269-272	ich	_	_
+6-5	273-280	äußerst	_	_
+6-6	281-291	betrübende	_	_
+6-7	292-303	Nachrichten	_	_
+6-8	304-305	.	_	_
+
+#Text=Lepsius ist ohne alles Geld \; der Drang der Gläubiger wird immer größer .
+7-1	306-313	Lepsius	*	PERmentioned
+7-2	314-317	ist	_	_
+7-3	318-322	ohne	_	_
+7-4	323-328	alles	_	_
+7-5	329-333	Geld	_	_
+7-6	334-335	\;	_	_
+7-7	336-339	der	_	_
+7-8	340-345	Drang	_	_
+7-9	346-349	der	_	_
+7-10	350-359	Gläubiger	_	_
+7-11	360-364	wird	_	_
+7-12	365-370	immer	_	_
+7-13	371-377	größer	_	_
+7-14	378-379	.	_	_
+
+#Text=Mir hat die Quarantäne gerade 50 rt .
+8-1	380-383	Mir	_	_
+8-2	384-387	hat	_	_
+8-3	388-391	die	_	_
+8-4	392-402	Quarantäne	_	_
+8-5	403-409	gerade	_	_
+8-6	410-412	50	_	_
+8-7	413-415	rt	_	_
+8-8	416-417	.	_	_
+
+#Text=gekostet .
+9-1	418-426	gekostet	_	_
+9-2	427-428	.	_	_
+
+#Text=Zu besonderer Aushülfe bin ich also auch nicht geeignet \; dennoch habe ich so eben ein Remboursement von 16 Scudi nach Rom bewerkstelligt .
+10-1	429-431	Zu	_	_
+10-2	432-442	besonderer	_	_
+10-3	443-451	Aushülfe	_	_
+10-4	452-455	bin	_	_
+10-5	456-459	ich	_	_
+10-6	460-464	also	_	_
+10-7	465-469	auch	_	_
+10-8	470-475	nicht	_	_
+10-9	476-484	geeignet	_	_
+10-10	485-486	\;	_	_
+10-11	487-494	dennoch	_	_
+10-12	495-499	habe	_	_
+10-13	500-503	ich	_	_
+10-14	504-506	so	_	_
+10-15	507-511	eben	_	_
+10-16	512-515	ein	_	_
+10-17	516-529	Remboursement	_	_
+10-18	530-533	von	_	_
+10-19	534-536	16	_	_
+10-20	537-542	Scudi	_	_
+10-21	543-547	nach	_	_
+10-22	548-551	Rom	*	PLACEmentioned
+10-23	552-566	bewerkstelligt	_	_
+10-24	567-568	.	_	_
+
+#Text=Dieß kann natürlich nur zu Lepsius Privathülfe ausreichen .
+11-1	569-573	Dieß	_	_
+11-2	574-578	kann	_	_
+11-3	579-588	natürlich	_	_
+11-4	589-592	nur	_	_
+11-5	593-595	zu	_	_
+11-6	596-603	Lepsius	*	PERmentioned
+11-7	604-615	Privathülfe	_	_
+11-8	616-626	ausreichen	_	_
+11-9	627-628	.	_	_
+
+#Text=Ich wende mich daher an Sie mit der angelegentlichen Bitte dem Hrn .
+12-1	629-632	Ich	_	_
+12-2	633-638	wende	_	_
+12-3	639-643	mich	_	_
+12-4	644-649	daher	_	_
+12-5	650-652	an	_	_
+12-6	653-656	Sie	_	_
+12-7	657-660	mit	_	_
+12-8	661-664	der	_	_
+12-9	665-681	angelegentlichen	_	_
+12-10	682-687	Bitte	_	_
+12-11	688-691	dem	_	_
+12-12	692-695	Hrn	_	_
+12-13	696-697	.	_	_
+
+#Text=Geh .
+13-1	698-701	Geh	_	_
+13-2	702-703	.	_	_
+
+#Text=Rath Bunsen die römische Noth vorzustellen .
+14-1	704-708	Rath	_	_
+14-2	709-715	Bunsen	*	PERmentioned
+14-3	716-719	die	_	_
+14-4	720-728	römische	_	_
+14-5	729-733	Noth	_	_
+14-6	734-746	vorzustellen	_	_
+14-7	747-748	.	_	_
+
+#Text=Auf sein gegebenes Wort sind in Rom zu Anfang September schon Zahlungen zugesagt worden .
+15-1	749-752	Auf	_	_
+15-2	753-757	sein	_	_
+15-3	758-767	gegebenes	_	_
+15-4	768-772	Wort	_	_
+15-5	773-777	sind	_	_
+15-6	778-780	in	_	_
+15-7	781-784	Rom	*	PLACEmentioned
+15-8	785-787	zu	_	_
+15-9	788-794	Anfang	_	_
+15-10	795-804	September	*	DATEmentioned
+15-11	805-810	schon	_	_
+15-12	811-820	Zahlungen	_	_
+15-13	821-829	zugesagt	_	_
+15-14	830-836	worden	_	_
+15-15	837-838	.	_	_
+
+#Text=Ist kein Geld vom König zu erwarten , so veranlassen Sie wo möglich wenigstens etwas von Gerstäcker , Marcus oder wer zahlen kann und mag .
+16-1	839-842	Ist	_	_
+16-2	843-847	kein	_	_
+16-3	848-852	Geld	_	_
+16-4	853-856	vom	_	_
+16-5	857-862	König	*	PERmentioned
+16-6	863-865	zu	_	_
+16-7	866-874	erwarten	_	_
+16-8	875-876	,	_	_
+16-9	877-879	so	_	_
+16-10	880-891	veranlassen	_	_
+16-11	892-895	Sie	_	_
+16-12	896-898	wo	_	_
+16-13	899-906	möglich	_	_
+16-14	907-917	wenigstens	_	_
+16-15	918-923	etwas	_	_
+16-16	924-927	von	_	_
+16-17	928-938	Gerstäcker	*	PERmentioned
+16-18	939-940	,	_	_
+16-19	941-947	Marcus	*	PERmentioned
+16-20	948-952	oder	_	_
+16-21	953-956	wer	_	_
+16-22	957-963	zahlen	_	_
+16-23	964-968	kann	_	_
+16-24	969-972	und	_	_
+16-25	973-976	mag	_	_
+16-26	977-978	.	_	_
+
+#Text=Campanari schreibt mir mit Angabe aller Unstände , sogar mit einer Copie des Camerlengatsrescripts , daß die Volcenter Statue frei und bereits in seinen reelen Besitz zurückgekehrt ist .
+17-1	979-988	Campanari	*	PERmentioned
+17-2	989-997	schreibt	_	_
+17-3	998-1001	mir	_	_
+17-4	1002-1005	mit	_	_
+17-5	1006-1012	Angabe	_	_
+17-6	1013-1018	aller	_	_
+17-7	1019-1027	Unstände	_	_
+17-8	1028-1029	,	_	_
+17-9	1030-1035	sogar	_	_
+17-10	1036-1039	mit	_	_
+17-11	1040-1045	einer	_	_
+17-12	1046-1051	Copie	_	_
+17-13	1052-1055	des	_	_
+17-14	1056-1077	Camerlengatsrescripts	_	_
+17-15	1078-1079	,	_	_
+17-16	1080-1083	daß	_	_
+17-17	1084-1087	die	_	_
+17-18	1088-1097	Volcenter	*	MISC
+17-19	1098-1104	Statue	*	OBJ
+17-20	1105-1109	frei	_	_
+17-21	1110-1113	und	_	_
+17-22	1114-1121	bereits	_	_
+17-23	1122-1124	in	_	_
+17-24	1125-1131	seinen	_	_
+17-25	1132-1138	reelen	_	_
+17-26	1139-1145	Besitz	_	_
+17-27	1146-1159	zurückgekehrt	_	_
+17-28	1160-1163	ist	_	_
+17-29	1164-1165	.	_	_
+
+#Text=Sie ist im Palazzo Girard aufgestellt , kann ins Ausland verkauft werden , muß jedoch den vorgeschriebenen dazio entrichten .
+18-1	1166-1169	Sie	_	_
+18-2	1170-1173	ist	_	_
+18-3	1174-1176	im	_	_
+18-4	1177-1184	Palazzo	*[10]	PLACEmentioned[10]
+18-5	1185-1191	Girard	*[10]	PLACEmentioned[10]
+18-6	1192-1203	aufgestellt	_	_
+18-7	1204-1205	,	_	_
+18-8	1206-1210	kann	_	_
+18-9	1211-1214	ins	_	_
+18-10	1215-1222	Ausland	_	_
+18-11	1223-1231	verkauft	_	_
+18-12	1232-1238	werden	_	_
+18-13	1239-1240	,	_	_
+18-14	1241-1244	muß	_	_
+18-15	1245-1251	jedoch	_	_
+18-16	1252-1255	den	_	_
+18-17	1256-1272	vorgeschriebenen	_	_
+18-18	1273-1278	dazio	_	_
+18-19	1279-1289	entrichten	_	_
+18-20	1290-1291	.	_	_
+
+#Text=Er schreibt mir ferner , daß er in Ermangelung Ihrer Antwort in Paris angeknüpft und bereits von dort
+19-1	1292-1294	Er	_	_
+19-2	1295-1303	schreibt	_	_
+19-3	1304-1307	mir	_	_
+19-4	1308-1314	ferner	_	_
+19-5	1315-1316	,	_	_
+19-6	1317-1320	daß	_	_
+19-7	1321-1323	er	_	_
+19-8	1324-1326	in	_	_
+19-9	1327-1338	Ermangelung	_	_
+19-10	1339-1344	Ihrer	_	_
+19-11	1345-1352	Antwort	_	_
+19-12	1353-1355	in	_	_
+19-13	1356-1361	Paris	*	PLACEmentioned
+19-14	1362-1372	angeknüpft	_	_
+19-15	1373-1376	und	_	_
+19-16	1377-1384	bereits	_	_
+19-17	1385-1388	von	_	_
+19-18	1389-1393	dort	_	_

@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=a ?
+1-1	0-1	a	_	_
+1-2	2-3	?	_	_
+
+#Text=262 Henzen an Gerhard 20/X1/51 ist ein Zumptisches C.I , der Zukunft weit schlimmer , als gar keines , da es ein gutes , auf vernünftigen Principien basirtes geradezu unmöglich macht .
+2-1	4-7	262	_	_
+2-2	8-14	Henzen	*	PERauthor
+2-3	15-17	an	_	_
+2-4	18-25	Gerhard	*	PERaddressee
+2-5	26-34	20/X1/51	*	DATEletter
+2-6	35-38	ist	_	_
+2-7	39-42	ein	_	_
+2-8	43-54	Zumptisches	*	MISC
+2-9	55-58	C.I	_	_
+2-10	59-60	,	_	_
+2-11	61-64	der	_	_
+2-12	65-72	Zukunft	_	_
+2-13	73-77	weit	_	_
+2-14	78-87	schlimmer	_	_
+2-15	88-89	,	_	_
+2-16	90-93	als	_	_
+2-17	94-97	gar	_	_
+2-18	98-104	keines	_	_
+2-19	105-106	,	_	_
+2-20	107-109	da	_	_
+2-21	110-112	es	_	_
+2-22	113-116	ein	_	_
+2-23	117-122	gutes	_	_
+2-24	123-124	,	_	_
+2-25	125-128	auf	_	_
+2-26	129-141	vernünftigen	_	_
+2-27	142-152	Principien	_	_
+2-28	153-161	basirtes	_	_
+2-29	162-170	geradezu	_	_
+2-30	171-180	unmöglich	_	_
+2-31	181-186	macht	_	_
+2-32	187-188	.	_	_
+
+#Text=Indeß non ne parliamo plü !
+3-1	189-194	Indeß	_	_
+3-2	195-198	non	_	_
+3-3	199-201	ne	_	_
+3-4	202-210	parliamo	_	_
+3-5	211-214	plü	_	_
+3-6	215-216	!	_	_
+
+#Text=Es ist eine Erbärmlichkeit mehr in der Welt .
+4-1	217-219	Es	_	_
+4-2	220-223	ist	_	_
+4-3	224-228	eine	_	_
+4-4	229-243	Erbärmlichkeit	_	_
+4-5	244-248	mehr	_	_
+4-6	249-251	in	_	_
+4-7	252-255	der	_	_
+4-8	256-260	Welt	_	_
+4-9	261-262	.	_	_
+
+#Text=Sagen Sie gefälligst Curtius , Prof. Bachofen aus Basel , so eben aus Griechenland zurückgekehrt , um hier den Winter zuzubringen , habe für ds . Bull .
+5-1	263-268	Sagen	_	_
+5-2	269-272	Sie	_	_
+5-3	273-283	gefälligst	_	_
+5-4	284-291	Curtius	*	PERmentioned
+5-5	292-293	,	_	_
+5-6	294-299	Prof.	*[1]	PERmentioned[1]
+5-7	300-308	Bachofen	*[1]	PERmentioned[1]
+5-8	309-312	aus	_	_
+5-9	313-318	Basel	*	PLACEmentioned
+5-10	319-320	,	_	_
+5-11	321-323	so	_	_
+5-12	324-328	eben	_	_
+5-13	329-332	aus	_	_
+5-14	333-345	Griechenland	*	PLACEmentioned
+5-15	346-359	zurückgekehrt	_	_
+5-16	360-361	,	_	_
+5-17	362-364	um	_	_
+5-18	365-369	hier	_	_
+5-19	370-373	den	_	_
+5-20	374-380	Winter	_	_
+5-21	381-392	zuzubringen	_	_
+5-22	393-394	,	_	_
+5-23	395-399	habe	_	_
+5-24	400-403	für	_	_
+5-25	404-406	ds	_	_
+5-26	407-408	.	_	_
+5-27	409-413	Bull	_	_
+5-28	414-415	.	_	_
+
+#Text=ds . Keferat über seinen Peloponnes übernommen .
+6-1	416-418	ds	_	_
+6-2	419-420	.	_	_
+6-3	421-428	Keferat	_	_
+6-4	429-433	über	_	_
+6-5	434-440	seinen	_	_
+6-6	441-451	Peloponnes	*	OBJ
+6-7	452-462	übernommen	_	_
+6-8	463-464	.	_	_
+
+#Text=Ein mit frischen Eindrücken ausgerüsteter eignet sich dazu doch besser , als Unsereiner .
+7-1	465-468	Ein	_	_
+7-2	469-472	mit	_	_
+7-3	473-481	frischen	_	_
+7-4	482-492	Eindrücken	_	_
+7-5	493-506	ausgerüsteter	_	_
+7-6	507-513	eignet	_	_
+7-7	514-518	sich	_	_
+7-8	519-523	dazu	_	_
+7-9	524-528	doch	_	_
+7-10	529-535	besser	_	_
+7-11	536-537	,	_	_
+7-12	538-541	als	_	_
+7-13	542-552	Unsereiner	_	_
+7-14	553-554	.	_	_
+
+#Text=Wir bedauern von Herzen die Krankheit Ihrer Fr , Mutter u. das erneuerte Unwohlsein Ihrer Frau .
+8-1	555-558	Wir	_	_
+8-2	559-567	bedauern	_	_
+8-3	568-571	von	_	_
+8-4	572-578	Herzen	_	_
+8-5	579-582	die	_	_
+8-6	583-592	Krankheit	_	_
+8-7	593-598	Ihrer	_	_
+8-8	599-601	Fr	_	_
+8-9	602-603	,	_	_
+8-10	604-610	Mutter	_	_
+8-11	611-613	u.	_	_
+8-12	614-617	das	_	_
+8-13	618-627	erneuerte	_	_
+8-14	628-638	Unwohlsein	_	_
+8-15	639-644	Ihrer	_	_
+8-16	645-649	Frau	_	_
+8-17	650-651	.	_	_
+
+#Text=Möchte Ihnen ein günstigerer Winter zu { heil werden , als uns zu drohen scheint .
+9-1	652-658	Möchte	_	_
+9-2	659-664	Ihnen	_	_
+9-3	665-668	ein	_	_
+9-4	669-680	günstigerer	_	_
+9-5	681-687	Winter	_	_
+9-6	688-690	zu	_	_
+9-7	691-692	{	_	_
+9-8	693-697	heil	_	_
+9-9	698-704	werden	_	_
+9-10	705-706	,	_	_
+9-11	707-710	als	_	_
+9-12	711-714	uns	_	_
+9-13	715-717	zu	_	_
+9-14	718-724	drohen	_	_
+9-15	725-732	scheint	_	_
+9-16	733-734	.	_	_
+
+#Text=Wir haben seit fast 4 Wochen unaufhörlichen Regen , u. gestern und heute schon zum zweiten Male Schnee auf u. noch unter Campo d'Annibale .
+10-1	735-738	Wir	_	_
+10-2	739-744	haben	_	_
+10-3	745-749	seit	_	_
+10-4	750-754	fast	_	_
+10-5	755-756	4	_	_
+10-6	757-763	Wochen	_	_
+10-7	764-778	unaufhörlichen	_	_
+10-8	779-784	Regen	_	_
+10-9	785-786	,	_	_
+10-10	787-789	u.	_	_
+10-11	790-797	gestern	_	_
+10-12	798-801	und	_	_
+10-13	802-807	heute	_	_
+10-14	808-813	schon	_	_
+10-15	814-817	zum	_	_
+10-16	818-825	zweiten	_	_
+10-17	826-830	Male	_	_
+10-18	831-837	Schnee	_	_
+10-19	838-841	auf	_	_
+10-20	842-844	u.	_	_
+10-21	845-849	noch	_	_
+10-22	850-855	unter	_	_
+10-23	856-861	Campo	_	_
+10-24	862-872	d'Annibale	_	_
+10-25	873-874	.	_	_
+
+#Text=Leben Sie indeß wohl .
+11-1	875-880	Leben	_	_
+11-2	881-884	Sie	_	_
+11-3	885-890	indeß	_	_
+11-4	891-895	wohl	_	_
+11-5	896-897	.	_	_
+
+#Text=Meine Frau grüßt mit mir herzlich Sie und die Ihrige .
+12-1	898-903	Meine	_	_
+12-2	904-908	Frau	_	_
+12-3	909-914	grüßt	_	_
+12-4	915-918	mit	_	_
+12-5	919-922	mir	_	_
+12-6	923-931	herzlich	_	_
+12-7	932-935	Sie	_	_
+12-8	936-939	und	_	_
+12-9	940-943	die	_	_
+12-10	944-950	Ihrige	_	_
+12-11	951-952	.	_	_
+
+#Text=Ihr W. HBenzen , Rom 20/X1/51 P.S .
+13-1	953-956	Ihr	_	_
+13-2	957-959	W.	*[2]	PERauthor[2]
+13-3	960-967	HBenzen	*[2]	PERauthor[2]
+13-4	968-969	,	_	_
+13-5	970-973	Rom	*	PLACEfrom
+13-6	974-982	20/X1/51	*[3]	DATEletter[3]
+13-7	983-986	P.S	*[3]	DATEletter[3]
+13-8	987-988	.	*[3]	DATEletter[3]
+
+#Text=In der Inschrift kommt viel auf die Naxen an , die ich Ihnen bes . empfohlen .
+14-1	989-991	In	_	_
+14-2	992-995	der	_	_
+14-3	996-1005	Inschrift	*	OBJ
+14-4	1006-1011	kommt	_	_
+14-5	1012-1016	viel	_	_
+14-6	1017-1020	auf	_	_
+14-7	1021-1024	die	_	_
+14-8	1025-1030	Naxen	_	_
+14-9	1031-1033	an	_	_
+14-10	1034-1035	,	_	_
+14-11	1036-1039	die	_	_
+14-12	1040-1043	ich	_	_
+14-13	1044-1049	Ihnen	_	_
+14-14	1050-1053	bes	_	_
+14-15	1054-1055	.	_	_
+14-16	1056-1065	empfohlen	_	_
+14-17	1066-1067	.	_	_

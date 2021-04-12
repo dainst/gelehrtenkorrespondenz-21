@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=294 Lepsius an Henzen Berlin , 4. Juni 1875 von Lüders aus Bonn eingegangen .
+1-1	0-3	294	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	4.	*[1]	DATEletter[1]
+1-8	34-38	Juni	*[1]	DATEletter[1]
+1-9	39-43	1875	*[1]	DATEletter[1]
+1-10	44-47	von	_	_
+1-11	48-54	Lüders	*	PERmentioned
+1-12	55-58	aus	_	_
+1-13	59-63	Bonn	*	PLACEmentioned
+1-14	64-75	eingegangen	_	_
+1-15	76-77	.	_	_
+
+#Text=Wir werden nun aber erst zu einer Konferenz wieder kommen , wenn bestimmtere Nachricht von Straßburg eingegangen sein wird .
+2-1	78-81	Wir	_	_
+2-2	82-88	werden	_	_
+2-3	89-92	nun	_	_
+2-4	93-97	aber	_	_
+2-5	98-102	erst	_	_
+2-6	103-105	zu	_	_
+2-7	106-111	einer	_	_
+2-8	112-121	Konferenz	_	_
+2-9	122-128	wieder	_	_
+2-10	129-135	kommen	_	_
+2-11	136-137	,	_	_
+2-12	138-142	wenn	_	_
+2-13	143-154	bestimmtere	_	_
+2-14	155-164	Nachricht	_	_
+2-15	165-168	von	_	_
+2-16	169-178	Straßburg	*	PLACEmentioned
+2-17	179-190	eingegangen	_	_
+2-18	191-195	sein	_	_
+2-19	196-200	wird	_	_
+2-20	201-202	.	_	_
+
+#Text=Steuern Sie nur nach Ihrem Ermessen zum Cavedoni Denkmal bei \; ich glaube die Zustimmung der Central Direktion vertreten zu können .
+3-1	203-210	Steuern	_	_
+3-2	211-214	Sie	_	_
+3-3	215-218	nur	_	_
+3-4	219-223	nach	_	_
+3-5	224-229	Ihrem	_	_
+3-6	230-238	Ermessen	_	_
+3-7	239-242	zum	_	_
+3-8	243-251	Cavedoni	*	PERmentioned
+3-9	252-259	Denkmal	_	_
+3-10	260-263	bei	_	_
+3-11	264-265	\;	_	_
+3-12	266-269	ich	_	_
+3-13	270-276	glaube	_	_
+3-14	277-280	die	_	_
+3-15	281-291	Zustimmung	_	_
+3-16	292-295	der	_	_
+3-17	296-303	Central	*[2]	ORGmentioned[2]
+3-18	304-313	Direktion	*[2]	ORGmentioned[2]
+3-19	314-323	vertreten	_	_
+3-20	324-326	zu	_	_
+3-21	327-333	können	_	_
+3-22	334-335	.	_	_
+
+#Text=Ebenso mögen Sie Conze befriedigen .
+4-1	336-342	Ebenso	_	_
+4-2	343-348	mögen	_	_
+4-3	349-352	Sie	_	_
+4-4	353-358	Conze	*	PERmentioned
+4-5	359-370	befriedigen	_	_
+4-6	371-372	.	_	_
+
+#Text=Auch dagegen wird niemand etwas haben .
+5-1	373-377	Auch	_	_
+5-2	378-385	dagegen	_	_
+5-3	386-390	wird	_	_
+5-4	391-398	niemand	_	_
+5-5	399-404	etwas	_	_
+5-6	405-410	haben	_	_
+5-7	411-412	.	_	_
+
+#Text=Die Konferenz kann sich noch hinziehen und Sie werden wünschen vorzugehen .
+6-1	413-416	Die	_	_
+6-2	417-426	Konferenz	_	_
+6-3	427-431	kann	_	_
+6-4	432-436	sich	_	_
+6-5	437-441	noch	_	_
+6-6	442-451	hinziehen	_	_
+6-7	452-455	und	_	_
+6-8	456-459	Sie	_	_
+6-9	460-466	werden	_	_
+6-10	467-475	wünschen	_	_
+6-11	476-486	vorzugehen	_	_
+6-12	487-488	.	_	_
+
+#Text=Helbig 's Brief vom 1. Juni ist so eben eingegangen .
+7-1	489-495	Helbig	*[6]	PERmentioned[6]
+7-2	496-498	's	*[6]	PERmentioned[6]
+7-3	499-504	Brief	_	_
+7-4	505-508	vom	_	_
+7-5	509-511	1.	*[3]	DATEmentioned[3]
+7-6	512-516	Juni	*[3]	DATEmentioned[3]
+7-7	517-520	ist	_	_
+7-8	521-523	so	_	_
+7-9	524-528	eben	_	_
+7-10	529-540	eingegangen	_	_
+7-11	541-542	.	_	_
+
+#Text=Ich kann nichts thun , als seine sehr dankenswerthen Mittheilungen an Curtius geben , dem die Förderung dieser Dinge , so weit sie ihm nicht durch Bötticher unmöglich gemacht wird , zukommt und am Herzen liegt .
+8-1	543-546	Ich	_	_
+8-2	547-551	kann	_	_
+8-3	552-558	nichts	_	_
+8-4	559-563	thun	_	_
+8-5	564-565	,	_	_
+8-6	566-569	als	_	_
+8-7	570-575	seine	_	_
+8-8	576-580	sehr	_	_
+8-9	581-595	dankenswerthen	_	_
+8-10	596-609	Mittheilungen	_	_
+8-11	610-612	an	_	_
+8-12	613-620	Curtius	*	PERmentioned
+8-13	621-626	geben	_	_
+8-14	627-628	,	_	_
+8-15	629-632	dem	_	_
+8-16	633-636	die	_	_
+8-17	637-646	Förderung	_	_
+8-18	647-653	dieser	_	_
+8-19	654-659	Dinge	_	_
+8-20	660-661	,	_	_
+8-21	662-664	so	_	_
+8-22	665-669	weit	_	_
+8-23	670-673	sie	_	_
+8-24	674-677	ihm	_	_
+8-25	678-683	nicht	_	_
+8-26	684-689	durch	_	_
+8-27	690-699	Bötticher	*	PERmentioned
+8-28	700-709	unmöglich	_	_
+8-29	710-717	gemacht	_	_
+8-30	718-722	wird	_	_
+8-31	723-724	,	_	_
+8-32	725-732	zukommt	_	_
+8-33	733-736	und	_	_
+8-34	737-739	am	_	_
+8-35	740-746	Herzen	_	_
+8-36	747-752	liegt	_	_
+8-37	753-754	.	_	_
+
+#Text=Delbrück den ich vorgestern gesprochen ist sehr vergnügt aus Italien zurückgekommen .
+9-1	755-763	Delbrück	*	PERmentioned
+9-2	764-767	den	_	_
+9-3	768-771	ich	_	_
+9-4	772-782	vorgestern	_	_
+9-5	783-793	gesprochen	_	_
+9-6	794-797	ist	_	_
+9-7	798-802	sehr	_	_
+9-8	803-811	vergnügt	_	_
+9-9	812-815	aus	_	_
+9-10	816-823	Italien	*	PLACEmentioned
+9-11	824-838	zurückgekommen	_	_
+9-12	839-840	.	_	_
+
+#Text=Die letzten Wochen waren vom Himmel sehr begünstigt .
+10-1	841-844	Die	_	_
+10-2	845-852	letzten	_	_
+10-3	853-859	Wochen	_	_
+10-4	860-865	waren	_	_
+10-5	866-869	vom	_	_
+10-6	870-876	Himmel	_	_
+10-7	877-881	sehr	_	_
+10-8	882-892	begünstigt	_	_
+10-9	893-894	.	_	_
+
+#Text=Heute zum erstenmale schwül , augenblicklich 24° R. Rossi hat uns mit seiner Drohung abzulehnen sehr verlegen gemacht .
+11-1	895-900	Heute	_	_
+11-2	901-904	zum	_	_
+11-3	905-915	erstenmale	_	_
+11-4	916-922	schwül	_	_
+11-5	923-924	,	_	_
+11-6	925-939	augenblicklich	_	_
+11-7	940-943	24°	_	_
+11-8	944-946	R.	*[4]	PERmentioned[4]
+11-9	947-952	Rossi	*[4]	PERmentioned[4]
+11-10	953-956	hat	_	_
+11-11	957-960	uns	_	_
+11-12	961-964	mit	_	_
+11-13	965-971	seiner	_	_
+11-14	972-979	Drohung	_	_
+11-15	980-990	abzulehnen	_	_
+11-16	991-995	sehr	_	_
+11-17	996-1004	verlegen	_	_
+11-18	1005-1012	gemacht	_	_
+11-19	1013-1014	.	_	_
+
+#Text=Mommsen hatte vorher bei ihm angefragt .
+12-1	1015-1022	Mommsen	*	PERmentioned
+12-2	1023-1028	hatte	_	_
+12-3	1029-1035	vorher	_	_
+12-4	1036-1039	bei	_	_
+12-5	1040-1043	ihm	_	_
+12-6	1044-1053	angefragt	_	_
+12-7	1054-1055	.	_	_
+
+#Text=Gut daß die Bombe nicht geplatzt ist .
+13-1	1056-1059	Gut	_	_
+13-2	1060-1063	daß	_	_
+13-3	1064-1067	die	_	_
+13-4	1068-1073	Bombe	_	_
+13-5	1074-1079	nicht	_	_
+13-6	1080-1088	geplatzt	_	_
+13-7	1089-1092	ist	_	_
+13-8	1093-1094	.	_	_
+
+#Text=Herzlich Ihr R Lepsius
+14-1	1095-1103	Herzlich	_	_
+14-2	1104-1107	Ihr	_	_
+14-3	1108-1109	R	*[5]	PERauthor[5]
+14-4	1110-1117	Lepsius	*[5]	PERauthor[5]

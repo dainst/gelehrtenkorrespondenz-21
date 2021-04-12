@@ -1,0 +1,211 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27. April 1846 g . 8/V 46 r . 12/V 46 Dr. Braun Berlin 27 April 46 Lieber Freund .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	27.	*[2]	DATEletter[2]
+1-7	30-35	April	*[2]	DATEletter[2]
+1-8	36-40	1846	*[2]	DATEletter[2]
+1-9	41-42	g	_	_
+1-10	43-44	.	_	_
+1-11	45-48	8/V	*[3]	DATErecieved[3]
+1-12	49-51	46	*[3]	DATErecieved[3]
+1-13	52-53	r	_	_
+1-14	54-55	.	_	_
+1-15	56-60	12/V	*[4]	DATEanswered[4]
+1-16	61-63	46	*[4]	DATEanswered[4]
+1-17	64-67	Dr.	*[1]	PERaddressee[1]
+1-18	68-73	Braun	*[1]	PERaddressee[1]
+1-19	74-80	Berlin	*	PLACEfrom
+1-20	81-83	27	*[5]	DATEletter[5]
+1-21	84-89	April	*[5]	DATEletter[5]
+1-22	90-92	46	*[5]	DATEletter[5]
+1-23	93-99	Lieber	_	_
+1-24	100-106	Freund	_	_
+1-25	107-108	.	_	_
+
+#Text=Ohne Ihren Jahresbericht und Sonstiges erhalten zu haben mag ich nicht länger verschieben Ihnen zu schreiben , lasse aber aus was die französische Section betrifft , die wol direkt Sie um Beiträge für die Monumenti 1847 , aus Ihrem mit 15 Tafeln ergebnen Überschuß , angegangen haben wird .
+2-1	109-113	Ohne	_	_
+2-2	114-119	Ihren	_	_
+2-3	120-133	Jahresbericht	_	_
+2-4	134-137	und	_	_
+2-5	138-147	Sonstiges	_	_
+2-6	148-156	erhalten	_	_
+2-7	157-159	zu	_	_
+2-8	160-165	haben	_	_
+2-9	166-169	mag	_	_
+2-10	170-173	ich	_	_
+2-11	174-179	nicht	_	_
+2-12	180-186	länger	_	_
+2-13	187-198	verschieben	_	_
+2-14	199-204	Ihnen	_	_
+2-15	205-207	zu	_	_
+2-16	208-217	schreiben	_	_
+2-17	218-219	,	_	_
+2-18	220-225	lasse	_	_
+2-19	226-230	aber	_	_
+2-20	231-234	aus	_	_
+2-21	235-238	was	_	_
+2-22	239-242	die	_	_
+2-23	243-255	französische	*[6]	ORGmentioned[6]
+2-24	256-263	Section	*[6]	ORGmentioned[6]
+2-25	264-272	betrifft	_	_
+2-26	273-274	,	_	_
+2-27	275-278	die	_	_
+2-28	279-282	wol	_	_
+2-29	283-289	direkt	_	_
+2-30	290-293	Sie	_	_
+2-31	294-296	um	_	_
+2-32	297-305	Beiträge	_	_
+2-33	306-309	für	_	_
+2-34	310-313	die	_	_
+2-35	314-323	Monumenti	_	_
+2-36	324-328	1847	*	DATEmentioned
+2-37	329-330	,	_	_
+2-38	331-334	aus	_	_
+2-39	335-340	Ihrem	_	_
+2-40	341-344	mit	_	_
+2-41	345-347	15	_	_
+2-42	348-354	Tafeln	_	_
+2-43	355-363	ergebnen	_	_
+2-44	364-373	Überschuß	_	_
+2-45	374-375	,	_	_
+2-46	376-386	angegangen	_	_
+2-47	387-392	haben	_	_
+2-48	393-397	wird	_	_
+2-49	398-399	.	_	_
+
+#Text=Sind Sie wol thätig die Nuova Serie durch ein Manifest in Italien gangbar zu machen ?
+3-1	400-404	Sind	_	_
+3-2	405-408	Sie	_	_
+3-3	409-412	wol	_	_
+3-4	413-419	thätig	_	_
+3-5	420-423	die	_	_
+3-6	424-429	Nuova	_	_
+3-7	430-435	Serie	_	_
+3-8	436-441	durch	_	_
+3-9	442-445	ein	_	_
+3-10	446-454	Manifest	_	_
+3-11	455-457	in	_	_
+3-12	458-465	Italien	*	PLACEmentioned
+3-13	466-473	gangbar	_	_
+3-14	474-476	zu	_	_
+3-15	477-483	machen	_	_
+3-16	484-485	?	_	_
+
+#Text=Wird dies in nächster Zeit versäumt so ist die ganze Operation unnütz .
+4-1	486-490	Wird	_	_
+4-2	491-495	dies	_	_
+4-3	496-498	in	_	_
+4-4	499-507	nächster	_	_
+4-5	508-512	Zeit	_	_
+4-6	513-521	versäumt	_	_
+4-7	522-524	so	_	_
+4-8	525-528	ist	_	_
+4-9	529-532	die	_	_
+4-10	533-538	ganze	_	_
+4-11	539-548	Operation	_	_
+4-12	549-555	unnütz	_	_
+4-13	556-557	.	_	_
+
+#Text=Eben so muß eine Form gefunden und geübt werden milde Beiträge für die Institutsbibliothek vielerorts anzusprechen .
+5-1	558-562	Eben	_	_
+5-2	563-565	so	_	_
+5-3	566-569	muß	_	_
+5-4	570-574	eine	_	_
+5-5	575-579	Form	_	_
+5-6	580-588	gefunden	_	_
+5-7	589-592	und	_	_
+5-8	593-598	geübt	_	_
+5-9	599-605	werden	_	_
+5-10	606-611	milde	_	_
+5-11	612-620	Beiträge	_	_
+5-12	621-624	für	_	_
+5-13	625-628	die	_	_
+5-14	629-648	Institutsbibliothek	*	ORGmentioned
+5-15	649-659	vielerorts	_	_
+5-16	660-672	anzusprechen	_	_
+5-17	673-674	.	_	_
+
+#Text=Wie geht der Stich des Monumentenhefts ?
+6-1	675-678	Wie	_	_
+6-2	679-683	geht	_	_
+6-3	684-687	der	_	_
+6-4	688-693	Stich	_	_
+6-5	694-697	des	_	_
+6-6	698-713	Monumentenhefts	_	_
+6-7	714-715	?	_	_
+
+#Text=Bald Abdrücke der Ergotimosvase ?
+7-1	716-720	Bald	_	_
+7-2	721-729	Abdrücke	_	_
+7-3	730-733	der	_	_
+7-4	734-747	Ergotimosvase	*	OBJ
+7-5	748-749	?	_	_
+
+#Text=Mommsens akademische Unterstützung ist zahlbar und wird ihm von Lachmann nach Neapel gesandt .
+8-1	750-758	Mommsens	*	PERmentioned
+8-2	759-770	akademische	_	_
+8-3	771-784	Unterstützung	_	_
+8-4	785-788	ist	_	_
+8-5	789-796	zahlbar	_	_
+8-6	797-800	und	_	_
+8-7	801-805	wird	_	_
+8-8	806-809	ihm	_	_
+8-9	810-813	von	_	_
+8-10	814-822	Lachmann	*	PERmentioned
+8-11	823-827	nach	_	_
+8-12	828-834	Neapel	*	PLACEmentioned
+8-13	835-842	gesandt	_	_
+8-14	843-844	.	_	_
+
+#Text=Ist das in der Adunanza von Ihnen gezeigte Balsamar sehr figuriert Ihnen gehörig und verkäuflich ?
+9-1	845-848	Ist	_	_
+9-2	849-852	das	_	_
+9-3	853-855	in	_	_
+9-4	856-859	der	_	_
+9-5	860-868	Adunanza	_	_
+9-6	869-872	von	_	_
+9-7	873-878	Ihnen	_	_
+9-8	879-887	gezeigte	_	_
+9-9	888-896	Balsamar	*	OBJ
+9-10	897-901	sehr	_	_
+9-11	902-911	figuriert	_	_
+9-12	912-917	Ihnen	_	_
+9-13	918-925	gehörig	_	_
+9-14	926-929	und	_	_
+9-15	930-941	verkäuflich	_	_
+9-16	942-943	?	_	_
+
+#Text=Eine Oenochoe feinen Thons bei derber Form rothe Figuren Amazonen und bärtige Kämpfer im Kampf mit Griechen darstellend bot Baseggio für 22 Scudi an und bitte
+10-1	944-948	Eine	_	_
+10-2	949-957	Oenochoe	*	OBJ
+10-3	958-964	feinen	_	_
+10-4	965-970	Thons	_	_
+10-5	971-974	bei	_	_
+10-6	975-981	derber	_	_
+10-7	982-986	Form	_	_
+10-8	987-992	rothe	_	_
+10-9	993-1000	Figuren	_	_
+10-10	1001-1009	Amazonen	_	_
+10-11	1010-1013	und	_	_
+10-12	1014-1021	bärtige	_	_
+10-13	1022-1029	Kämpfer	_	_
+10-14	1030-1032	im	_	_
+10-15	1033-1038	Kampf	_	_
+10-16	1039-1042	mit	_	_
+10-17	1043-1051	Griechen	_	_
+10-18	1052-1063	darstellend	_	_
+10-19	1064-1067	bot	_	_
+10-20	1068-1076	Baseggio	*	PERmentioned
+10-21	1077-1080	für	_	_
+10-22	1081-1083	22	_	_
+10-23	1084-1089	Scudi	_	_
+10-24	1090-1092	an	_	_
+10-25	1093-1096	und	_	_
+10-26	1097-1102	bitte	_	_

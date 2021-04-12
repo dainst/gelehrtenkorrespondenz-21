@@ -1,0 +1,213 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=315 Helbig an Henzen Siena , 5. Juni 1874 Noth thun .
+1-1	0-3	315	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-26	Siena	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	5.	_	_
+1-8	32-36	Juni	*[1]	DATEletter[1]
+1-9	37-41	1874	*[1]	DATEletter[1]
+1-10	42-46	Noth	_	_
+1-11	47-51	thun	_	_
+1-12	52-53	.	_	_
+
+#Text=Im Instituto delle belle arti habe ich acht oder zehn vor vier Jahren bei der Porta Camullia ausgegrabene etruskische Urnen gesehen , die ich , wenn ich einen geeigneten Zeichner finden , copiren lassen werde .
+2-1	54-56	Im	_	_
+2-2	57-66	Instituto	*[2]	ORGmentioned[2]
+2-3	67-72	delle	*[2]	ORGmentioned[2]
+2-4	73-78	belle	*[2]	ORGmentioned[2]
+2-5	79-83	arti	*[2]	ORGmentioned[2]
+2-6	84-88	habe	_	_
+2-7	89-92	ich	_	_
+2-8	93-97	acht	_	_
+2-9	98-102	oder	_	_
+2-10	103-107	zehn	_	_
+2-11	108-111	vor	_	_
+2-12	112-116	vier	_	_
+2-13	117-123	Jahren	_	_
+2-14	124-127	bei	_	_
+2-15	128-131	der	_	_
+2-16	132-137	Porta	*[3]	PLACEmentioned[3]
+2-17	138-146	Camullia	*[3]	PLACEmentioned[3]
+2-18	147-159	ausgegrabene	_	_
+2-19	160-171	etruskische	*[4]	OBJ[4]
+2-20	172-177	Urnen	*[4]	OBJ[4]
+2-21	178-185	gesehen	_	_
+2-22	186-187	,	_	_
+2-23	188-191	die	_	_
+2-24	192-195	ich	_	_
+2-25	196-197	,	_	_
+2-26	198-202	wenn	_	_
+2-27	203-206	ich	_	_
+2-28	207-212	einen	_	_
+2-29	213-223	geeigneten	_	_
+2-30	224-232	Zeichner	_	_
+2-31	233-239	finden	_	_
+2-32	240-241	,	_	_
+2-33	242-249	copiren	_	_
+2-34	250-256	lassen	_	_
+2-35	257-262	werde	_	_
+2-36	263-264	.	_	_
+
+#Text=Abschriften der neuerdings in der Umgegend von Siena gefundenen und in demselben Instituto aufgestellten latenischen Inschriften schicke ich Ihnen nächstens .
+3-1	265-276	Abschriften	_	_
+3-2	277-280	der	_	_
+3-3	281-291	neuerdings	_	_
+3-4	292-294	in	_	_
+3-5	295-298	der	_	_
+3-6	299-307	Umgegend	_	_
+3-7	308-311	von	_	_
+3-8	312-317	Siena	*	PLACEmentioned
+3-9	318-328	gefundenen	_	_
+3-10	329-332	und	_	_
+3-11	333-335	in	_	_
+3-12	336-345	demselben	_	_
+3-13	346-355	Instituto	*	ORGmentioned
+3-14	356-369	aufgestellten	_	_
+3-15	370-381	latenischen	*[5]	OBJ[5]
+3-16	382-393	Inschriften	*[5]	OBJ[5]
+3-17	394-401	schicke	_	_
+3-18	402-405	ich	_	_
+3-19	406-411	Ihnen	_	_
+3-20	412-421	nächstens	_	_
+3-21	422-423	.	_	_
+
+#Text=Dieser Tage ist es mir unmöglich \; denn heute Abend beginne ich die mir schon lange von Dantone empfohlene Atropincur .
+4-1	424-430	Dieser	_	_
+4-2	431-435	Tage	_	_
+4-3	436-439	ist	_	_
+4-4	440-442	es	_	_
+4-5	443-446	mir	_	_
+4-6	447-456	unmöglich	_	_
+4-7	457-458	\;	_	_
+4-8	459-463	denn	_	_
+4-9	464-469	heute	_	_
+4-10	470-475	Abend	_	_
+4-11	476-483	beginne	_	_
+4-12	484-487	ich	_	_
+4-13	488-491	die	_	_
+4-14	492-495	mir	_	_
+4-15	496-501	schon	_	_
+4-16	502-507	lange	_	_
+4-17	508-511	von	_	_
+4-18	512-519	Dantone	*	PERmentioned
+4-19	520-530	empfohlene	_	_
+4-20	531-541	Atropincur	_	_
+4-21	542-543	.	_	_
+
+#Text=Meine Augen sind in Folge der Hitze und des Staubes der Eisenbahnfahrt derartig angegriffen , daß ich mich endlich dazu entschließen muß .
+5-1	544-549	Meine	_	_
+5-2	550-555	Augen	_	_
+5-3	556-560	sind	_	_
+5-4	561-563	in	_	_
+5-5	564-569	Folge	_	_
+5-6	570-573	der	_	_
+5-7	574-579	Hitze	_	_
+5-8	580-583	und	_	_
+5-9	584-587	des	_	_
+5-10	588-595	Staubes	_	_
+5-11	596-599	der	_	_
+5-12	600-614	Eisenbahnfahrt	_	_
+5-13	615-623	derartig	_	_
+5-14	624-635	angegriffen	_	_
+5-15	636-637	,	_	_
+5-16	638-641	daß	_	_
+5-17	642-645	ich	_	_
+5-18	646-650	mich	_	_
+5-19	651-658	endlich	_	_
+5-20	659-663	dazu	_	_
+5-21	664-676	entschließen	_	_
+5-22	677-680	muß	_	_
+5-23	681-682	.	_	_
+
+#Text=Lieb wäre es mir deßhalb auch , wenn mir in den nächsten 10 Tagen - von heute Abend an gerechnet - keine Correcturbogen zugeschickt würden , was sich , da das Bullettino ja doch erst zu Ende des Monats erscheint , wohl ohne Schwierigkeit erreichen lassen wird .
+6-1	683-687	Lieb	_	_
+6-2	688-692	wäre	_	_
+6-3	693-695	es	_	_
+6-4	696-699	mir	_	_
+6-5	700-707	deßhalb	_	_
+6-6	708-712	auch	_	_
+6-7	713-714	,	_	_
+6-8	715-719	wenn	_	_
+6-9	720-723	mir	_	_
+6-10	724-726	in	_	_
+6-11	727-730	den	_	_
+6-12	731-739	nächsten	_	_
+6-13	740-742	10	_	_
+6-14	743-748	Tagen	_	_
+6-15	749-750	-	_	_
+6-16	751-754	von	_	_
+6-17	755-760	heute	_	_
+6-18	761-766	Abend	_	_
+6-19	767-769	an	_	_
+6-20	770-779	gerechnet	_	_
+6-21	780-781	-	_	_
+6-22	782-787	keine	_	_
+6-23	788-802	Correcturbogen	_	_
+6-24	803-814	zugeschickt	_	_
+6-25	815-821	würden	_	_
+6-26	822-823	,	_	_
+6-27	824-827	was	_	_
+6-28	828-832	sich	_	_
+6-29	833-834	,	_	_
+6-30	835-837	da	_	_
+6-31	838-841	das	_	_
+6-32	842-852	Bullettino	_	_
+6-33	853-855	ja	_	_
+6-34	856-860	doch	_	_
+6-35	861-865	erst	_	_
+6-36	866-868	zu	_	_
+6-37	869-873	Ende	_	_
+6-38	874-877	des	_	_
+6-39	878-884	Monats	_	_
+6-40	885-894	erscheint	_	_
+6-41	895-896	,	_	_
+6-42	897-901	wohl	_	_
+6-43	902-906	ohne	_	_
+6-44	907-920	Schwierigkeit	_	_
+6-45	921-930	erreichen	_	_
+6-46	931-937	lassen	_	_
+6-47	938-942	wird	_	_
+6-48	943-944	.	_	_
+
+#Text=Ich werde sehr froh sein , wenn ich die langweilige Zeit überstanden habe .
+7-1	945-948	Ich	_	_
+7-2	949-954	werde	_	_
+7-3	955-959	sehr	_	_
+7-4	960-964	froh	_	_
+7-5	965-969	sein	_	_
+7-6	970-971	,	_	_
+7-7	972-976	wenn	_	_
+7-8	977-980	ich	_	_
+7-9	981-984	die	_	_
+7-10	985-996	langweilige	_	_
+7-11	997-1001	Zeit	_	_
+7-12	1002-1013	überstanden	_	_
+7-13	1014-1018	habe	_	_
+7-14	1019-1020	.	_	_
+
+#Text=Herzliche Grüße von meiner Frau und Lili an Sie und Fräulein Rosine \| !
+8-1	1021-1030	Herzliche	_	_
+8-2	1031-1036	Grüße	_	_
+8-3	1037-1040	von	_	_
+8-4	1041-1047	meiner	_	_
+8-5	1048-1052	Frau	_	_
+8-6	1053-1056	und	_	_
+8-7	1057-1061	Lili	*	PERmentioned
+8-8	1062-1064	an	_	_
+8-9	1065-1068	Sie	_	_
+8-10	1069-1072	und	_	_
+8-11	1073-1081	Fräulein	_	_
+8-12	1082-1088	Rosine	*	PERmentioned
+8-13	1089-1090	\|	_	_
+8-14	1091-1092	!	_	_
+
+#Text=Ihr ergebener Helbig
+9-1	1093-1096	Ihr	_	_
+9-2	1097-1106	ergebener	_	_
+9-3	1107-1113	Helbig	*	PERauthor

@@ -1,0 +1,136 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=419 Braun an Gerhard Rom , 30. Juni 1838 - u —\_ ist eine interessante kleine Sphinx , stehend und farbig von Terracotta hierhergekommen : ein Basrelief ohne Hintergrund , wahrscheinlich auf einen solchen ehedem aufgeheftet .
+1-1	0-3	419	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[4]	DATEletter[4]
+1-8	31-35	Juni	*[4]	DATEletter[4]
+1-9	36-40	1838	*[4]	DATEletter[4]
+1-10	41-42	-	_	_
+1-11	43-44	u	_	_
+1-12	45-47	—\_	_	_
+1-13	48-51	ist	_	_
+1-14	52-56	eine	_	_
+1-15	57-69	interessante	_	_
+1-16	70-76	kleine	*[5]	OBJ[5]
+1-17	77-83	Sphinx	*[5]	OBJ[5]
+1-18	84-85	,	*[5]	OBJ[5]
+1-19	86-93	stehend	*[5]	OBJ[5]
+1-20	94-97	und	*[5]	OBJ[5]
+1-21	98-104	farbig	*[5]	OBJ[5]
+1-22	105-108	von	*[5]	OBJ[5]
+1-23	109-119	Terracotta	*[5]	OBJ[5]
+1-24	120-135	hierhergekommen	_	_
+1-25	136-137	:	_	_
+1-26	138-141	ein	_	_
+1-27	142-151	Basrelief	*[6]	OBJ[6]
+1-28	152-156	ohne	*[6]	OBJ[6]
+1-29	157-168	Hintergrund	*[6]	OBJ[6]
+1-30	169-170	,	_	_
+1-31	171-185	wahrscheinlich	_	_
+1-32	186-189	auf	_	_
+1-33	190-195	einen	_	_
+1-34	196-203	solchen	_	_
+1-35	204-210	ehedem	_	_
+1-36	211-222	aufgeheftet	_	_
+1-37	223-224	.	_	_
+
+#Text=Der Styl , der Zeichnung nach zu urtheilen , dem Greifenrelief von Aegina nicht unahnlich .
+2-1	225-228	Der	_	_
+2-2	229-233	Styl	_	_
+2-3	234-235	,	_	_
+2-4	236-239	der	_	_
+2-5	240-249	Zeichnung	_	_
+2-6	250-254	nach	_	_
+2-7	255-257	zu	_	_
+2-8	258-267	urtheilen	_	_
+2-9	268-269	,	_	_
+2-10	270-273	dem	_	_
+2-11	274-287	Greifenrelief	*	OBJ
+2-12	288-291	von	_	_
+2-13	292-298	Aegina	*	PLACEmentioned
+2-14	299-304	nicht	_	_
+2-15	305-314	unahnlich	_	_
+2-16	315-316	.	_	_
+
+#Text=Ferner habe ich ein kleines schwarzes Figürchen , den sogenannten Laren von Cerveteri ähnlich , für den hohen Preis von 3 Scudi behandelt .
+3-1	317-323	Ferner	_	_
+3-2	324-328	habe	_	_
+3-3	329-332	ich	_	_
+3-4	333-336	ein	_	_
+3-5	337-344	kleines	_	_
+3-6	345-354	schwarzes	*[9]	OBJ[9]
+3-7	355-364	Figürchen	*[9]	OBJ[9]
+3-8	365-366	,	_	_
+3-9	367-370	den	_	_
+3-10	371-382	sogenannten	_	_
+3-11	383-388	Laren	*[10]	OBJ[10]
+3-12	389-392	von	*[10]	OBJ[10]
+3-13	393-402	Cerveteri	*[10]|*[11]	OBJ[10]|PLACEmentioned[11]
+3-14	403-410	ähnlich	_	_
+3-15	411-412	,	_	_
+3-16	413-416	für	_	_
+3-17	417-420	den	_	_
+3-18	421-426	hohen	_	_
+3-19	427-432	Preis	_	_
+3-20	433-436	von	_	_
+3-21	437-438	3	_	_
+3-22	439-444	Scudi	_	_
+3-23	445-454	behandelt	_	_
+3-24	455-456	.	_	_
+
+#Text=Wollen Sie es so cedire ich es Ihnen .
+4-1	457-463	Wollen	_	_
+4-2	464-467	Sie	_	_
+4-3	468-470	es	_	_
+4-4	471-473	so	_	_
+4-5	474-480	cedire	_	_
+4-6	481-484	ich	_	_
+4-7	485-487	es	_	_
+4-8	488-493	Ihnen	_	_
+4-9	494-495	.	_	_
+
+#Text=Interessant ist es aber theuer , Der Styl ist besser als der der Cervetaner .
+5-1	496-507	Interessant	_	_
+5-2	508-511	ist	_	_
+5-3	512-514	es	_	_
+5-4	515-519	aber	_	_
+5-5	520-526	theuer	_	_
+5-6	527-528	,	_	_
+5-7	529-532	Der	_	_
+5-8	533-537	Styl	_	_
+5-9	538-541	ist	_	_
+5-10	542-548	besser	_	_
+5-11	549-552	als	_	_
+5-12	553-556	der	_	_
+5-13	557-560	der	_	_
+5-14	561-571	Cervetaner	*	PLACEmentioned
+5-15	572-573	.	_	_
+
+#Text=Lepsius hat viel Interessantes aus Neapel , Nachrichten , Mittheilungen und Beobachtungen mitgebracht .
+6-1	574-581	Lepsius	*	PERmentioned
+6-2	582-585	hat	_	_
+6-3	586-590	viel	_	_
+6-4	591-604	Interessantes	_	_
+6-5	605-608	aus	_	_
+6-6	609-615	Neapel	*	PLACEmentioned
+6-7	616-617	,	_	_
+6-8	618-629	Nachrichten	_	_
+6-9	630-631	,	_	_
+6-10	632-645	Mittheilungen	_	_
+6-11	646-649	und	_	_
+6-12	650-663	Beobachtungen	_	_
+6-13	664-675	mitgebracht	_	_
+6-14	676-677	.	_	_
+
+#Text=Herzlich Ihr Braun .
+7-1	678-686	Herzlich	_	_
+7-2	687-690	Ihr	_	_
+7-3	691-696	Braun	*	PERauthor
+7-4	697-698	.	_	_

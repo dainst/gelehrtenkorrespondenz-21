@@ -1,0 +1,199 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Rom , 10. März - fehlt die Jahreszahl AB6 Rom 10 März ARE Es ist mir ein Bedürfnis sogleich auf Ihre beiden inhaltsreichen Briefe über die Pariser Angelegenheit zu antworten .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	_	_
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-27	10.	*[3]	DATEletter[3]
+1-7	28-32	März	*[3]	DATEletter[3]
+1-8	33-34	-	_	_
+1-9	35-40	fehlt	_	_
+1-10	41-44	die	_	_
+1-11	45-55	Jahreszahl	_	_
+1-12	56-59	AB6	_	_
+1-13	60-63	Rom	*	PLACEfrom
+1-14	64-66	10	*[5]	DATEletter[5]
+1-15	67-71	März	*[5]	DATEletter[5]
+1-16	72-75	ARE	*[5]	DATEletter[5]
+1-17	76-78	Es	_	_
+1-18	79-82	ist	_	_
+1-19	83-86	mir	_	_
+1-20	87-90	ein	_	_
+1-21	91-100	Bedürfnis	_	_
+1-22	101-109	sogleich	_	_
+1-23	110-113	auf	_	_
+1-24	114-118	Ihre	_	_
+1-25	119-125	beiden	_	_
+1-26	126-140	inhaltsreichen	_	_
+1-27	141-147	Briefe	_	_
+1-28	148-152	über	_	_
+1-29	153-156	die	_	_
+1-30	157-164	Pariser	*	PLACEmentioned
+1-31	165-178	Angelegenheit	_	_
+1-32	179-181	zu	_	_
+1-33	182-191	antworten	_	_
+1-34	192-193	.	_	_
+
+#Text=Ich erhielt die Pariser Mittheilung direkt als Antwort auf das Ihnen angezeigte Schreiben , heut vor 8 Tagen .
+2-1	194-197	Ich	_	_
+2-2	198-205	erhielt	_	_
+2-3	206-209	die	_	_
+2-4	210-217	Pariser	*	PLACEmentioned
+2-5	218-229	Mittheilung	_	_
+2-6	230-236	direkt	_	_
+2-7	237-240	als	_	_
+2-8	241-248	Antwort	_	_
+2-9	249-252	auf	_	_
+2-10	253-256	das	_	_
+2-11	257-262	Ihnen	_	_
+2-12	263-273	angezeigte	_	_
+2-13	274-283	Schreiben	_	_
+2-14	284-285	,	_	_
+2-15	286-290	heut	_	_
+2-16	291-294	vor	_	_
+2-17	295-296	8	_	_
+2-18	297-302	Tagen	_	_
+2-19	303-304	.	_	_
+
+#Text=Nach reiflicher Überlegung haben wir darauf folgendes beschlossen .
+3-1	305-309	Nach	_	_
+3-2	310-320	reiflicher	_	_
+3-3	321-331	Überlegung	_	_
+3-4	332-337	haben	_	_
+3-5	338-341	wir	_	_
+3-6	342-348	darauf	_	_
+3-7	349-358	folgendes	_	_
+3-8	359-370	beschlossen	_	_
+3-9	371-372	.	_	_
+
+#Text=1 .
+4-1	373-374	1	_	_
+4-2	375-376	.	_	_
+
+#Text=Die Einrichtung des Instituts bleibt , wie sie von hier aus , in den Memorie vom MaiY'vorgeschlagen , und von Ihnen und den Parisern im Allgemeinen angenommen ist .
+5-1	377-380	Die	_	_
+5-2	381-392	Einrichtung	_	_
+5-3	393-396	des	_	_
+5-4	397-406	Instituts	*	ORGmentioned
+5-5	407-413	bleibt	_	_
+5-6	414-415	,	_	_
+5-7	416-419	wie	_	_
+5-8	420-423	sie	_	_
+5-9	424-427	von	_	_
+5-10	428-432	hier	_	_
+5-11	433-436	aus	_	_
+5-12	437-438	,	_	_
+5-13	439-441	in	_	_
+5-14	442-445	den	_	_
+5-15	446-453	Memorie	_	_
+5-16	454-457	vom	_	_
+5-17	458-476	MaiY'vorgeschlagen	_	_
+5-18	477-478	,	_	_
+5-19	479-482	und	_	_
+5-20	483-486	von	_	_
+5-21	487-492	Ihnen	_	_
+5-22	493-496	und	_	_
+5-23	497-500	den	_	_
+5-24	501-509	Parisern	*	PLACEmentioned
+5-25	510-512	im	_	_
+5-26	513-524	Allgemeinen	_	_
+5-27	525-535	angenommen	_	_
+5-28	536-539	ist	_	_
+5-29	540-541	.	_	_
+
+#Text=2 .
+6-1	542-543	2	_	_
+6-2	544-545	.	_	_
+
+#Text=Demnach giebt es keine Administration und Comptabilität des Instituts außer Rom vom 1 Januar 1836 an , und eben so wenig irgend eine aktive Funktion in der Direktion als von Mitgliedern derselben die sich in Rom befinden .
+7-1	546-553	Demnach	_	_
+7-2	554-559	giebt	_	_
+7-3	560-562	es	_	_
+7-4	563-568	keine	_	_
+7-5	569-583	Administration	_	_
+7-6	584-587	und	_	_
+7-7	588-601	Comptabilität	_	_
+7-8	602-605	des	_	_
+7-9	606-615	Instituts	*	ORGmentioned
+7-10	616-621	außer	_	_
+7-11	622-625	Rom	*	PLACEmentioned
+7-12	626-629	vom	_	_
+7-13	630-631	1	*[12]	DATEmentioned[12]
+7-14	632-638	Januar	*[12]	DATEmentioned[12]
+7-15	639-643	1836	*[12]	DATEmentioned[12]
+7-16	644-646	an	_	_
+7-17	647-648	,	_	_
+7-18	649-652	und	_	_
+7-19	653-657	eben	_	_
+7-20	658-660	so	_	_
+7-21	661-666	wenig	_	_
+7-22	667-673	irgend	_	_
+7-23	674-678	eine	_	_
+7-24	679-685	aktive	_	_
+7-25	686-694	Funktion	_	_
+7-26	695-697	in	_	_
+7-27	698-701	der	_	_
+7-28	702-711	Direktion	_	_
+7-29	712-715	als	_	_
+7-30	716-719	von	_	_
+7-31	720-731	Mitgliedern	_	_
+7-32	732-741	derselben	_	_
+7-33	742-745	die	_	_
+7-34	746-750	sich	_	_
+7-35	751-753	in	_	_
+7-36	754-757	Rom	*	PLACEmentioned
+7-37	758-766	befinden	_	_
+7-38	767-768	.	_	_
+
+#Text=3 .
+8-1	769-770	3	_	_
+8-2	771-772	.	_	_
+
+#Text=Die Herausgabe der Annalen und Monumenti kommt nach unsern Rechnungen und Anschlägen auf circa 4000 Francs , nemlich : Monumenti tav XII ä 150 1800 Annali fogli 20 & 45 900 Tavole d'aggiunta 6 ä 30 180 Copertine opuscoli spese 120 Competenze 1000
+9-1	773-776	Die	_	_
+9-2	777-787	Herausgabe	_	_
+9-3	788-791	der	_	_
+9-4	792-799	Annalen	_	_
+9-5	800-803	und	_	_
+9-6	804-813	Monumenti	_	_
+9-7	814-819	kommt	_	_
+9-8	820-824	nach	_	_
+9-9	825-831	unsern	_	_
+9-10	832-842	Rechnungen	_	_
+9-11	843-846	und	_	_
+9-12	847-857	Anschlägen	_	_
+9-13	858-861	auf	_	_
+9-14	862-867	circa	_	_
+9-15	868-872	4000	_	_
+9-16	873-879	Francs	_	_
+9-17	880-881	,	_	_
+9-18	882-889	nemlich	_	_
+9-19	890-891	:	_	_
+9-20	892-901	Monumenti	_	_
+9-21	902-905	tav	_	_
+9-22	906-909	XII	_	_
+9-23	910-911	ä	_	_
+9-24	912-915	150	_	_
+9-25	916-920	1800	_	_
+9-26	921-927	Annali	_	_
+9-27	928-933	fogli	_	_
+9-28	934-936	20	_	_
+9-29	937-938	&	_	_
+9-30	939-941	45	_	_
+9-31	942-945	900	_	_
+9-32	946-952	Tavole	_	_
+9-33	953-963	d'aggiunta	_	_
+9-34	964-965	6	_	_
+9-35	966-967	ä	_	_
+9-36	968-970	30	_	_
+9-37	971-974	180	_	_
+9-38	975-984	Copertine	_	_
+9-39	985-993	opuscoli	_	_
+9-40	994-999	spese	_	_
+9-41	1000-1003	120	_	_
+9-42	1004-1014	Competenze	_	_
+9-43	1015-1019	1000	_	_

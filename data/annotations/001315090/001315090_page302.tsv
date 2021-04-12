@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=81 Lepsius an Henzen Berlin , 30 .
+1-1	0-2	81	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	30	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=Januar 1877 g . 3/2 77 r . 5/2 Berlin , den 30 .
+2-1	35-41	Januar	*[1]	DATEletter[1]
+2-2	42-46	1877	*[1]	DATEletter[1]
+2-3	47-48	g	_	_
+2-4	49-50	.	_	_
+2-5	51-54	3/2	*[2]	DATErecieved[2]
+2-6	55-57	77	*[2]	DATErecieved[2]
+2-7	58-59	r	_	_
+2-8	60-61	.	_	_
+2-9	62-65	5/2	*	DATEanswered
+2-10	66-72	Berlin	*	PLACEfrom
+2-11	73-74	,	_	_
+2-12	75-78	den	_	_
+2-13	79-81	30	*[3]	DATEletter[3]
+2-14	82-83	.	*[3]	DATEletter[3]
+
+#Text=Jan .
+3-1	84-87	Jan	*[3]	DATEletter[3]
+3-2	88-89	.	*[3]	DATEletter[3]
+
+#Text=1877 .
+4-1	90-94	1877	*[3]	DATEletter[3]
+4-2	95-96	.	_	_
+
+#Text=Verehrter Freund Ich muß wegen des Jeffroy um Entschuldigung bitten .
+5-1	97-106	Verehrter	_	_
+5-2	107-113	Freund	_	_
+5-3	114-117	Ich	_	_
+5-4	118-121	muß	_	_
+5-5	122-127	wegen	_	_
+5-6	128-131	des	_	_
+5-7	132-139	Jeffroy	*	PERmentioned
+5-8	140-142	um	_	_
+5-9	143-157	Entschuldigung	_	_
+5-10	158-164	bitten	_	_
+5-11	165-166	.	_	_
+
+#Text=Die Sache ist bereits längst erledigt worden und ich glaubte Ihnen das Resultat mitgetheilt zu haben .
+6-1	167-170	Die	_	_
+6-2	171-176	Sache	_	_
+6-3	177-180	ist	_	_
+6-4	181-188	bereits	_	_
+6-5	189-195	längst	_	_
+6-6	196-204	erledigt	_	_
+6-7	205-211	worden	_	_
+6-8	212-215	und	_	_
+6-9	216-219	ich	_	_
+6-10	220-227	glaubte	_	_
+6-11	228-233	Ihnen	_	_
+6-12	234-237	das	_	_
+6-13	238-246	Resultat	_	_
+6-14	247-258	mitgetheilt	_	_
+6-15	259-261	zu	_	_
+6-16	262-267	haben	_	_
+6-17	268-269	.	_	_
+
+#Text=Die Herren haben alle meinem Vorschlage durch Umlauf beigestimmt , daß dem Herrn Jeffroy die fehlenden Monumente , deren Fortsetzung er nebst den andern Werken kaufen wird , geschenkweise zu überlassen Selen .
+7-1	270-273	Die	_	_
+7-2	274-280	Herren	_	_
+7-3	281-286	haben	_	_
+7-4	287-291	alle	_	_
+7-5	292-298	meinem	_	_
+7-6	299-309	Vorschlage	_	_
+7-7	310-315	durch	_	_
+7-8	316-322	Umlauf	_	_
+7-9	323-334	beigestimmt	_	_
+7-10	335-336	,	_	_
+7-11	337-340	daß	_	_
+7-12	341-344	dem	_	_
+7-13	345-350	Herrn	_	_
+7-14	351-358	Jeffroy	*	PERmentioned
+7-15	359-362	die	_	_
+7-16	363-372	fehlenden	_	_
+7-17	373-382	Monumente	_	_
+7-18	383-384	,	_	_
+7-19	385-390	deren	_	_
+7-20	391-402	Fortsetzung	_	_
+7-21	403-405	er	_	_
+7-22	406-411	nebst	_	_
+7-23	412-415	den	_	_
+7-24	416-422	andern	_	_
+7-25	423-429	Werken	_	_
+7-26	430-436	kaufen	_	_
+7-27	437-441	wird	_	_
+7-28	442-443	,	_	_
+7-29	444-457	geschenkweise	_	_
+7-30	458-460	zu	_	_
+7-31	461-471	überlassen	_	_
+7-32	472-477	Selen	_	_
+7-33	478-479	.	_	_
+
+#Text=.
+8-1	480-481	.	_	_
+
+#Text=Was den Italienischen Mittelsmann betrifft , so kannte Central Direktion als solche nicht wohl an die Museums Direktion wenden , die mit ihr in keinerlei Verbindung steht und auf ihre Initiative in solchen Dingen sehr eifersüchtig ist .
+9-1	482-485	Was	_	_
+9-2	486-489	den	_	_
+9-3	490-503	Italienischen	_	_
+9-4	504-515	Mittelsmann	_	_
+9-5	516-524	betrifft	_	_
+9-6	525-526	,	_	_
+9-7	527-529	so	_	_
+9-8	530-536	kannte	_	_
+9-9	537-544	Central	*[4]	ORGmentioned[4]
+9-10	545-554	Direktion	*[4]	ORGmentioned[4]
+9-11	555-558	als	_	_
+9-12	559-565	solche	_	_
+9-13	566-571	nicht	_	_
+9-14	572-576	wohl	_	_
+9-15	577-579	an	_	_
+9-16	580-583	die	_	_
+9-17	584-591	Museums	*[5]	ORGmentioned[5]
+9-18	592-601	Direktion	*[5]	ORGmentioned[5]
+9-19	602-608	wenden	_	_
+9-20	609-610	,	_	_
+9-21	611-614	die	_	_
+9-22	615-618	mit	_	_
+9-23	619-622	ihr	_	_
+9-24	623-625	in	_	_
+9-25	626-635	keinerlei	_	_
+9-26	636-646	Verbindung	_	_
+9-27	647-652	steht	_	_
+9-28	653-656	und	_	_
+9-29	657-660	auf	_	_
+9-30	661-665	ihre	_	_
+9-31	666-676	Initiative	_	_
+9-32	677-679	in	_	_
+9-33	680-687	solchen	_	_
+9-34	688-694	Dingen	_	_
+9-35	695-699	sehr	_	_
+9-36	700-712	eifersüchtig	_	_
+9-37	713-716	ist	_	_
+9-38	717-718	.	_	_
+
+#Text=Ich kann nur persönlich die Sache wie schon früher wieder in Anregung bringen , wahrscheinlich wieder ohne Erfolg .
+10-1	719-722	Ich	_	_
+10-2	723-727	kann	_	_
+10-3	728-731	nur	_	_
+10-4	732-742	persönlich	_	_
+10-5	743-746	die	_	_
+10-6	747-752	Sache	_	_
+10-7	753-756	wie	_	_
+10-8	757-762	schon	_	_
+10-9	763-769	früher	_	_
+10-10	770-776	wieder	_	_
+10-11	777-779	in	_	_
+10-12	780-788	Anregung	_	_
+10-13	789-796	bringen	_	_
+10-14	797-798	,	_	_
+10-15	799-813	wahrscheinlich	_	_
+10-16	814-820	wieder	_	_
+10-17	821-825	ohne	_	_
+10-18	826-832	Erfolg	_	_
+10-19	833-834	.	_	_
+
+#Text=Förmlich beantragen mit Bitte um Erledigung der Sache könnte das nur Helbig .
+11-1	835-843	Förmlich	_	_
+11-2	844-854	beantragen	_	_
+11-3	855-858	mit	_	_
+11-4	859-864	Bitte	_	_
+11-5	865-867	um	_	_
+11-6	868-878	Erledigung	_	_
+11-7	879-882	der	_	_
+11-8	883-888	Sache	_	_
+11-9	889-895	könnte	_	_
+11-10	896-899	das	_	_
+11-11	900-903	nur	_	_
+11-12	904-910	Helbig	*	PERmentioned
+11-13	911-912	.	_	_
+
+#Text=Ich sehe auch keinen Grund warum er es nicht thun sollte .
+12-1	913-916	Ich	_	_
+12-2	917-921	sehe	_	_
+12-3	922-926	auch	_	_
+12-4	927-933	keinen	_	_
+12-5	934-939	Grund	_	_
+12-6	940-945	warum	_	_
+12-7	946-948	er	_	_
+12-8	949-951	es	_	_
+12-9	952-957	nicht	_	_
+12-10	958-962	thun	_	_
+12-11	963-969	sollte	_	_
+12-12	970-971	.	_	_
+
+#Text=Die Entscheidung über die Festfeier wird wohl der General Versammlung vorzubehalten sein .
+13-1	972-975	Die	_	_
+13-2	976-988	Entscheidung	_	_
+13-3	989-993	über	_	_
+13-4	994-997	die	_	_
+13-5	998-1007	Festfeier	_	_
+13-6	1008-1012	wird	_	_
+13-7	1013-1017	wohl	_	_
+13-8	1018-1021	der	_	_
+13-9	1022-1029	General	_	_
+13-10	1030-1041	Versammlung	_	_
+13-11	1042-1055	vorzubehalten	_	_
+13-12	1056-1060	sein	_	_
+13-13	1061-1062	.	_	_
+
+#Text=Mein persönliches Gefühl , wenn ich das gleich nach Lesung Ihres Briefs äußern darf , würde nicht für ein Jubiläum nach 49
+14-1	1063-1067	Mein	_	_
+14-2	1068-1080	persönliches	_	_
+14-3	1081-1087	Gefühl	_	_
+14-4	1088-1089	,	_	_
+14-5	1090-1094	wenn	_	_
+14-6	1095-1098	ich	_	_
+14-7	1099-1102	das	_	_
+14-8	1103-1109	gleich	_	_
+14-9	1110-1114	nach	_	_
+14-10	1115-1121	Lesung	_	_
+14-11	1122-1127	Ihres	_	_
+14-12	1128-1134	Briefs	_	_
+14-13	1135-1141	äußern	_	_
+14-14	1142-1146	darf	_	_
+14-15	1147-1148	,	_	_
+14-16	1149-1154	würde	_	_
+14-17	1155-1160	nicht	_	_
+14-18	1161-1164	für	_	_
+14-19	1165-1168	ein	_	_
+14-20	1169-1177	Jubiläum	_	_
+14-21	1178-1182	nach	_	_
+14-22	1183-1185	49	_	_

@@ -1,0 +1,47 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , 9. Juli 1859 Einer baldigen und eingehenden Antwort sehen wir demnach von Ihnen und Ihrem Herrn Collegen entgegen .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	9.	*[1]	DATEletter[1]
+1-7	29-33	Juli	*[1]	DATEletter[1]
+1-8	34-38	1859	*[1]	DATEletter[1]
+1-9	39-44	Einer	_	_
+1-10	45-53	baldigen	_	_
+1-11	54-57	und	_	_
+1-12	58-69	eingehenden	_	_
+1-13	70-77	Antwort	_	_
+1-14	78-83	sehen	_	_
+1-15	84-87	wir	_	_
+1-16	88-95	demnach	_	_
+1-17	96-99	von	_	_
+1-18	100-105	Ihnen	_	_
+1-19	106-109	und	_	_
+1-20	110-115	Ihrem	_	_
+1-21	116-121	Herrn	_	_
+1-22	122-130	Collegen	_	_
+1-23	131-139	entgegen	_	_
+1-24	140-141	.	_	_
+
+#Text=Berlin 9. Juli 1859 Gerhard Lepsius Mommsen Abeken An das Secretariat des archäologischen Instituts Ron .
+2-1	142-148	Berlin	*	PLACEfrom
+2-2	149-151	9.	*[2]	DATEletter[2]
+2-3	152-156	Juli	*[2]	DATEletter[2]
+2-4	157-161	1859	*[2]	DATEletter[2]
+2-5	162-169	Gerhard	*	PERauthor
+2-6	170-177	Lepsius	*	PERauthor
+2-7	178-185	Mommsen	*	PERauthor
+2-8	186-192	Abeken	*	PERauthor
+2-9	193-195	An	_	_
+2-10	196-199	das	_	_
+2-11	200-211	Secretariat	*[3]	ORGaddressee[3]
+2-12	212-215	des	*[3]	ORGaddressee[3]
+2-13	216-231	archäologischen	*[3]	ORGaddressee[3]
+2-14	232-241	Instituts	*[3]	ORGaddressee[3]
+2-15	242-245	Ron	*	PLACEto
+2-16	246-247	.	_	_

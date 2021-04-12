@@ -1,0 +1,266 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Prof. Gerhard Rom , 4. Juni 1835 Roma li 4 Giugno 1835 Hochverehrtester Freund \| Ich schulde Ihnen die Antwort auf 3 inhaltsreiche Briefe : meine etrusk .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-22	Prof.	*[1]	PERaddressee[1]
+1-5	23-30	Gerhard	*[1]	PERaddressee[1]
+1-6	31-34	Rom	*	PLACEfrom
+1-7	35-36	,	_	_
+1-8	37-39	4.	*[2]	DATEletter[2]
+1-9	40-44	Juni	*[2]	DATEletter[2]
+1-10	45-49	1835	*[2]	DATEletter[2]
+1-11	50-54	Roma	*	PLACEmentioned
+1-12	55-57	li	_	_
+1-13	58-59	4	*[3]	DATEletter[3]
+1-14	60-66	Giugno	*[3]	DATEletter[3]
+1-15	67-71	1835	*[3]	DATEletter[3]
+1-16	72-88	Hochverehrtester	_	_
+1-17	89-95	Freund	_	_
+1-18	96-97	\|	_	_
+1-19	98-101	Ich	_	_
+1-20	102-109	schulde	_	_
+1-21	110-115	Ihnen	_	_
+1-22	116-119	die	_	_
+1-23	120-127	Antwort	_	_
+1-24	128-131	auf	_	_
+1-25	132-133	3	_	_
+1-26	134-147	inhaltsreiche	_	_
+1-27	148-154	Briefe	_	_
+1-28	155-156	:	_	_
+1-29	157-162	meine	_	_
+1-30	163-169	etrusk	*[4]	MISC[4]
+1-31	170-171	.	*[4]	MISC[4]
+
+#Text=Reise ist daran Schuld .
+2-1	172-177	Reise	*[4]	MISC[4]
+2-2	178-181	ist	_	_
+2-3	182-187	daran	_	_
+2-4	188-194	Schuld	_	_
+2-5	195-196	.	_	_
+
+#Text=Ich bin den 30 Mai zurückgekehrt .
+3-1	197-200	Ich	_	_
+3-2	201-204	bin	_	_
+3-3	205-208	den	_	_
+3-4	209-211	30	*[5]	DATEletter[5]
+3-5	212-215	Mai	*[5]	DATEletter[5]
+3-6	216-229	zurückgekehrt	_	_
+3-7	230-231	.	_	_
+
+#Text=Die Ausbeute war erträglich aber auch nur erträglich .
+4-1	232-235	Die	_	_
+4-2	236-244	Ausbeute	_	_
+4-3	245-248	war	_	_
+4-4	249-259	erträglich	_	_
+4-5	260-264	aber	_	_
+4-6	265-269	auch	_	_
+4-7	270-273	nur	_	_
+4-8	274-284	erträglich	_	_
+4-9	285-286	.	_	_
+
+#Text=Spiegel kommen auch in diesen Gegenden fast gar nicht mehr vor .
+5-1	287-294	Spiegel	_	_
+5-2	295-301	kommen	_	_
+5-3	302-306	auch	_	_
+5-4	307-309	in	_	_
+5-5	310-316	diesen	_	_
+5-6	317-325	Gegenden	_	_
+5-7	326-330	fast	_	_
+5-8	331-334	gar	_	_
+5-9	335-340	nicht	_	_
+5-10	341-345	mehr	_	_
+5-11	346-349	vor	_	_
+5-12	350-351	.	_	_
+
+#Text=Einen von Campan .
+6-1	352-357	Einen	_	_
+6-2	358-361	von	_	_
+6-3	362-368	Campan	*[6]	PERmentioned[6]
+6-4	369-370	.	*[6]	PERmentioned[6]
+
+#Text=bei Vulci gefundenen beschreibe ich Ihnen in meinem Generalbericht , für den ich die Ankunft der Sammlung abwarten muß \; dadurch werdenen meine Notizen viel reichhaltiger werden .
+7-1	371-374	bei	_	_
+7-2	375-380	Vulci	*	PLACEmentioned
+7-3	381-391	gefundenen	_	_
+7-4	392-402	beschreibe	_	_
+7-5	403-406	ich	_	_
+7-6	407-412	Ihnen	_	_
+7-7	413-415	in	_	_
+7-8	416-422	meinem	_	_
+7-9	423-437	Generalbericht	_	_
+7-10	438-439	,	_	_
+7-11	440-443	für	_	_
+7-12	444-447	den	_	_
+7-13	448-451	ich	_	_
+7-14	452-455	die	_	_
+7-15	456-463	Ankunft	_	_
+7-16	464-467	der	_	_
+7-17	468-476	Sammlung	_	_
+7-18	477-485	abwarten	_	_
+7-19	486-489	muß	_	_
+7-20	490-491	\;	_	_
+7-21	492-499	dadurch	_	_
+7-22	500-508	werdenen	_	_
+7-23	509-514	meine	_	_
+7-24	515-522	Notizen	_	_
+7-25	523-527	viel	_	_
+7-26	528-541	reichhaltiger	_	_
+7-27	542-548	werden	_	_
+7-28	549-550	.	_	_
+
+#Text=Ich traf die Sammlung schon eingepackt und mußte mich mit der Anschauuung des wichtigsten , welches Camp .
+8-1	551-554	Ich	_	_
+8-2	555-559	traf	_	_
+8-3	560-563	die	_	_
+8-4	564-572	Sammlung	_	_
+8-5	573-578	schon	_	_
+8-6	579-589	eingepackt	_	_
+8-7	590-593	und	_	_
+8-8	594-599	mußte	_	_
+8-9	600-604	mich	_	_
+8-10	605-608	mit	_	_
+8-11	609-612	der	_	_
+8-12	613-624	Anschauuung	_	_
+8-13	625-628	des	_	_
+8-14	629-640	wichtigsten	_	_
+8-15	641-642	,	_	_
+8-16	643-650	welches	_	_
+8-17	651-655	Camp	*[7]	PERmentioned[7]
+8-18	656-657	.	*[7]	PERmentioned[7]
+
+#Text=per gentilezza straordinaria a posta auspackte begnügen .
+9-1	658-661	per	_	_
+9-2	662-672	gentilezza	_	_
+9-3	673-686	straordinaria	_	_
+9-4	687-688	a	_	_
+9-5	689-694	posta	_	_
+9-6	695-704	auspackte	_	_
+9-7	705-713	begnügen	_	_
+9-8	714-715	.	_	_
+
+#Text=In Toscanella habe ich Ihnen einen Dioscurenspiegel mit Figuren im schönen Stiel ( dochwohl nicht gemein und immer wichtig ) gekauft , einen andren mit den 3 Helden vor Theben und Inschriften hielten sie mir zu hoch : 50 Scudi .
+10-1	716-718	In	_	_
+10-2	719-729	Toscanella	*	PLACEmentioned
+10-3	730-734	habe	_	_
+10-4	735-738	ich	_	_
+10-5	739-744	Ihnen	_	_
+10-6	745-750	einen	_	_
+10-7	751-767	Dioscurenspiegel	*[8]	OBJ[8]
+10-8	768-771	mit	*[8]	OBJ[8]
+10-9	772-779	Figuren	*[8]	OBJ[8]
+10-10	780-782	im	*[8]	OBJ[8]
+10-11	783-790	schönen	*[8]	OBJ[8]
+10-12	791-796	Stiel	*[8]	OBJ[8]
+10-13	797-798	(	_	_
+10-14	799-807	dochwohl	_	_
+10-15	808-813	nicht	_	_
+10-16	814-820	gemein	_	_
+10-17	821-824	und	_	_
+10-18	825-830	immer	_	_
+10-19	831-838	wichtig	_	_
+10-20	839-840	)	_	_
+10-21	841-848	gekauft	_	_
+10-22	849-850	,	_	_
+10-23	851-856	einen	*[9]	OBJ[9]
+10-24	857-863	andren	*[9]	OBJ[9]
+10-25	864-867	mit	*[9]	OBJ[9]
+10-26	868-871	den	*[9]	OBJ[9]
+10-27	872-873	3	*[9]	OBJ[9]
+10-28	874-880	Helden	*[9]	OBJ[9]
+10-29	881-884	vor	*[9]	OBJ[9]
+10-30	885-891	Theben	*[9]|*[10]	OBJ[9]|PLACEmentioned[10]
+10-31	892-895	und	*[9]	OBJ[9]
+10-32	896-907	Inschriften	*[9]	OBJ[9]
+10-33	908-915	hielten	_	_
+10-34	916-919	sie	_	_
+10-35	920-923	mir	_	_
+10-36	924-926	zu	_	_
+10-37	927-931	hoch	_	_
+10-38	932-933	:	_	_
+10-39	934-936	50	_	_
+10-40	937-942	Scudi	_	_
+10-41	943-944	.	_	_
+
+#Text=Carletti sprach von drei Spiegeln bei Vittorio in Montefiascone : ich ließ ihn zu Pferde sitzen und mich dahin pegleiten .
+11-1	945-953	Carletti	*	PERmentioned
+11-2	954-960	sprach	_	_
+11-3	961-964	von	_	_
+11-4	965-969	drei	_	_
+11-5	970-978	Spiegeln	_	_
+11-6	979-982	bei	_	_
+11-7	983-991	Vittorio	*	PERmentioned
+11-8	992-994	in	_	_
+11-9	995-1008	Montefiascone	*	PLACEmentioned
+11-10	1009-1010	:	_	_
+11-11	1011-1014	ich	_	_
+11-12	1015-1019	ließ	_	_
+11-13	1020-1023	ihn	_	_
+11-14	1024-1026	zu	_	_
+11-15	1027-1033	Pferde	_	_
+11-16	1034-1040	sitzen	_	_
+11-17	1041-1044	und	_	_
+11-18	1045-1049	mich	_	_
+11-19	1050-1055	dahin	_	_
+11-20	1056-1065	pegleiten	_	_
+11-21	1066-1067	.	_	_
+
+#Text=Wir fanden aber diese Paradestücke sowenig als den Besitzer vor , nur einige brz .
+12-1	1068-1071	Wir	_	_
+12-2	1072-1078	fanden	_	_
+12-3	1079-1083	aber	_	_
+12-4	1084-1089	diese	_	_
+12-5	1090-1102	Paradestücke	_	_
+12-6	1103-1110	sowenig	_	_
+12-7	1111-1114	als	_	_
+12-8	1115-1118	den	_	_
+12-9	1119-1127	Besitzer	_	_
+12-10	1128-1131	vor	_	_
+12-11	1132-1133	,	_	_
+12-12	1134-1137	nur	_	_
+12-13	1138-1144	einige	_	_
+12-14	1145-1148	brz	_	_
+12-15	1149-1150	.	_	_
+
+#Text=ungeputzt und daher von zweifelhaftem Interesse lag da .
+13-1	1151-1160	ungeputzt	_	_
+13-2	1161-1164	und	_	_
+13-3	1165-1170	daher	_	_
+13-4	1171-1174	von	_	_
+13-5	1175-1188	zweifelhaftem	_	_
+13-6	1189-1198	Interesse	_	_
+13-7	1199-1202	lag	_	_
+13-8	1203-1205	da	_	_
+13-9	1206-1207	.	_	_
+
+#Text=In Orvieto bot ich auf den von Bunsen in Zeichnung mitgetheilten und als Tav .
+14-1	1208-1210	In	_	_
+14-2	1211-1218	Orvieto	*	PLACEmentioned
+14-3	1219-1222	bot	_	_
+14-4	1223-1226	ich	_	_
+14-5	1227-1230	auf	_	_
+14-6	1231-1234	den	_	_
+14-7	1235-1238	von	_	_
+14-8	1239-1245	Bunsen	*	PERmentioned
+14-9	1246-1248	in	_	_
+14-10	1249-1258	Zeichnung	_	_
+14-11	1259-1272	mitgetheilten	_	_
+14-12	1273-1276	und	_	_
+14-13	1277-1280	als	_	_
+14-14	1281-1284	Tav	_	_
+14-15	1285-1286	.	_	_
+
+#Text=d'aggiunta gestochenen Spiegel mit Namen 3 Scudi und auf einen
+15-1	1287-1297	d'aggiunta	_	_
+15-2	1298-1309	gestochenen	_	_
+15-3	1310-1317	Spiegel	*[11]	OBJ[11]
+15-4	1318-1321	mit	*[11]	OBJ[11]
+15-5	1322-1327	Namen	*[11]	OBJ[11]
+15-6	1328-1329	3	_	_
+15-7	1330-1335	Scudi	_	_
+15-8	1336-1339	und	_	_
+15-9	1340-1343	auf	_	_
+15-10	1344-1349	einen	_	_

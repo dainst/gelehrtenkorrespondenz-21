@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin 14/71/1848 A , di Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-35	14/71/1848	*	DATEletter
+1-6	36-37	A	_	_
+1-7	38-39	,	_	_
+1-8	40-42	di	_	_
+1-9	43-46	Dir	_	_
+1-10	47-48	.	_	_
+
+#Text=g . 25/1 48 r . 27/1 48 D. Henzen Berlin 14 Jan .
+2-1	49-50	g	_	_
+2-2	51-52	.	_	_
+2-3	53-57	25/1	*[1]	DATErecieved[1]
+2-4	58-60	48	*[1]	DATErecieved[1]
+2-5	61-62	r	_	_
+2-6	63-64	.	_	_
+2-7	65-69	27/1	*[2]	DATEanswered[2]
+2-8	70-72	48	*[2]	DATEanswered[2]
+2-9	73-75	D.	_	_
+2-10	76-82	Henzen	*	PERaddressee
+2-11	83-89	Berlin	*	PLACEfrom
+2-12	90-92	14	*[3]	DATEletter[3]
+2-13	93-96	Jan	*[3]	DATEletter[3]
+2-14	97-98	.	*[3]	DATEletter[3]
+
+#Text=48 .
+3-1	99-101	48	*[3]	DATEletter[3]
+3-2	102-103	.	_	_
+
+#Text=Die winterliche “ insterniß und das Geschäftsgedränge müssen so groß sein wenn beideg warum diesen Brief den ersten sein zu lassen den ich im neuen Jahr nach Rom sende \; angefangen habe ich es aberfnicht minder warmen Wünschen und Gedanken für die rümischen Freunde und unsre gemeinsamen Zwecke als andermal .
+4-1	104-107	Die	_	_
+4-2	108-119	winterliche	_	_
+4-3	120-121	“	_	_
+4-4	122-131	insterniß	_	_
+4-5	132-135	und	_	_
+4-6	136-139	das	_	_
+4-7	140-157	Geschäftsgedränge	_	_
+4-8	158-164	müssen	_	_
+4-9	165-167	so	_	_
+4-10	168-172	groß	_	_
+4-11	173-177	sein	_	_
+4-12	178-182	wenn	_	_
+4-13	183-189	beideg	_	_
+4-14	190-195	warum	_	_
+4-15	196-202	diesen	_	_
+4-16	203-208	Brief	_	_
+4-17	209-212	den	_	_
+4-18	213-219	ersten	_	_
+4-19	220-224	sein	_	_
+4-20	225-227	zu	_	_
+4-21	228-234	lassen	_	_
+4-22	235-238	den	_	_
+4-23	239-242	ich	_	_
+4-24	243-245	im	_	_
+4-25	246-251	neuen	_	_
+4-26	252-256	Jahr	_	_
+4-27	257-261	nach	_	_
+4-28	262-265	Rom	*	PLACEmentioned
+4-29	266-271	sende	_	_
+4-30	272-273	\;	_	_
+4-31	274-284	angefangen	_	_
+4-32	285-289	habe	_	_
+4-33	290-293	ich	_	_
+4-34	294-296	es	_	_
+4-35	297-307	aberfnicht	_	_
+4-36	308-314	minder	_	_
+4-37	315-321	warmen	_	_
+4-38	322-330	Wünschen	_	_
+4-39	331-334	und	_	_
+4-40	335-343	Gedanken	_	_
+4-41	344-347	für	_	_
+4-42	348-351	die	_	_
+4-43	352-361	rümischen	_	_
+4-44	362-369	Freunde	_	_
+4-45	370-373	und	_	_
+4-46	374-379	unsre	_	_
+4-47	380-391	gemeinsamen	_	_
+4-48	392-398	Zwecke	_	_
+4-49	399-402	als	_	_
+4-50	403-411	andermal	_	_
+4-51	412-413	.	_	_
+
+#Text=Die Gehaltssache geht langsam , gut daß einstweilen Geld in Kasse ist .
+5-1	414-417	Die	_	_
+5-2	418-430	Gehaltssache	_	_
+5-3	431-435	geht	_	_
+5-4	436-443	langsam	_	_
+5-5	444-445	,	_	_
+5-6	446-449	gut	_	_
+5-7	450-453	daß	_	_
+5-8	454-465	einstweilen	_	_
+5-9	466-470	Geld	_	_
+5-10	471-473	in	_	_
+5-11	474-479	Kasse	_	_
+5-12	480-483	ist	_	_
+5-13	484-485	.	_	_
+
+#Text=Ich dachte und sagte es freilich als ich Braun im Juli bat lieber gleich als im Spätherbst zu schreiben .
+6-1	486-489	Ich	_	_
+6-2	490-496	dachte	_	_
+6-3	497-500	und	_	_
+6-4	501-506	sagte	_	_
+6-5	507-509	es	_	_
+6-6	510-518	freilich	_	_
+6-7	519-522	als	_	_
+6-8	523-526	ich	_	_
+6-9	527-532	Braun	*	PERmentioned
+6-10	533-535	im	_	_
+6-11	536-540	Juli	*	DATEmentioned
+6-12	541-544	bat	_	_
+6-13	545-551	lieber	_	_
+6-14	552-558	gleich	_	_
+6-15	559-562	als	_	_
+6-16	563-565	im	_	_
+6-17	566-576	Spätherbst	_	_
+6-18	577-579	zu	_	_
+6-19	580-589	schreiben	_	_
+6-20	590-591	.	_	_
+
+#Text=Nach Tesseren suche ich noch \; werden aber wol zu spät kommen .
+7-1	592-596	Nach	_	_
+7-2	597-605	Tesseren	_	_
+7-3	606-611	suche	_	_
+7-4	612-615	ich	_	_
+7-5	616-620	noch	_	_
+7-6	621-622	\;	_	_
+7-7	623-629	werden	_	_
+7-8	630-634	aber	_	_
+7-9	635-638	wol	_	_
+7-10	639-641	zu	_	_
+7-11	642-646	spät	_	_
+7-12	647-653	kommen	_	_
+7-13	654-655	.	_	_
+
+#Text=Die Mitgliederernennungen müßten von den letzten Jahren her , seit del Anzeige im Bull .
+8-1	656-659	Die	_	_
+8-2	660-681	Mitgliederernennungen	_	_
+8-3	682-688	müßten	_	_
+8-4	689-692	von	_	_
+8-5	693-696	den	_	_
+8-6	697-704	letzten	_	_
+8-7	705-711	Jahren	_	_
+8-8	712-715	her	_	_
+8-9	716-717	,	_	_
+8-10	718-722	seit	_	_
+8-11	723-726	del	_	_
+8-12	727-734	Anzeige	_	_
+8-13	735-737	im	_	_
+8-14	738-742	Bull	_	_
+8-15	743-744	.	_	_
+
+#Text=nicht mehr erfolgt ist , einmal darin zusammengestellt werden - , zum Jahresschluß oder wann sonst .
+9-1	745-750	nicht	_	_
+9-2	751-755	mehr	_	_
+9-3	756-763	erfolgt	_	_
+9-4	764-767	ist	_	_
+9-5	768-769	,	_	_
+9-6	770-776	einmal	_	_
+9-7	777-782	darin	_	_
+9-8	783-799	zusammengestellt	_	_
+9-9	800-806	werden	_	_
+9-10	807-808	-	_	_
+9-11	809-810	,	_	_
+9-12	811-814	zum	_	_
+9-13	815-827	Jahresschluß	_	_
+9-14	828-832	oder	_	_
+9-15	833-837	wann	_	_
+9-16	838-843	sonst	_	_
+9-17	844-845	.	_	_
+
+#Text=Den Antwerpen werde die beiden andren Diplome zum APril senden .
+10-1	846-849	Den	_	_
+10-2	850-859	Antwerpen	*	PLACEmentioned
+10-3	860-865	werde	_	_
+10-4	866-869	die	_	_
+10-5	870-876	beiden	_	_
+10-6	877-883	andren	_	_
+10-7	884-891	Diplome	_	_
+10-8	892-895	zum	_	_
+10-9	896-901	APril	*	DATEmentioned
+10-10	902-908	senden	_	_
+10-11	909-910	.	_	_
+
+#Text=Werden doch wol die Institutswerke dort gekauft ?
+11-1	911-917	Werden	_	_
+11-2	918-922	doch	_	_
+11-3	923-926	wol	_	_
+11-4	927-930	die	_	_
+11-5	931-945	Institutswerke	_	_
+11-6	946-950	dort	_	_
+11-7	951-958	gekauft	_	_
+11-8	959-960	?	_	_
+
+#Text=Dank für Besorgung der 2 Exemplare Apul . Vas.für Turin , Die epigraphischen Verhandlungen werden nächstens wieder aufgenommen \; Mommsen hat die Geduld verloren , als
+12-1	961-965	Dank	_	_
+12-2	966-969	für	_	_
+12-3	970-979	Besorgung	_	_
+12-4	980-983	der	_	_
+12-5	984-985	2	_	_
+12-6	986-995	Exemplare	_	_
+12-7	996-1000	Apul	_	_
+12-8	1001-1002	.	_	_
+12-9	1003-1010	Vas.für	_	_
+12-10	1011-1016	Turin	*	PLACEmentioned
+12-11	1017-1018	,	_	_
+12-12	1019-1022	Die	_	_
+12-13	1023-1037	epigraphischen	_	_
+12-14	1038-1051	Verhandlungen	_	_
+12-15	1052-1058	werden	_	_
+12-16	1059-1068	nächstens	_	_
+12-17	1069-1075	wieder	_	_
+12-18	1076-1087	aufgenommen	_	_
+12-19	1088-1089	\;	_	_
+12-20	1090-1097	Mommsen	*	PERmentioned
+12-21	1098-1101	hat	_	_
+12-22	1102-1105	die	_	_
+12-23	1106-1112	Geduld	_	_
+12-24	1113-1121	verloren	_	_
+12-25	1122-1123	,	_	_
+12-26	1124-1127	als	_	_

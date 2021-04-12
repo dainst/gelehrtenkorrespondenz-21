@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 6. Februar 1838 Dr. Braun g . 19/2 38 Arff , dad .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	6.	*[5]	DATEletter[5]
+1-7	29-36	Februar	*[5]	DATEletter[5]
+1-8	37-41	1838	*[5]	DATEletter[5]
+1-9	42-45	Dr.	_	_
+1-10	46-51	Braun	*	PERaddressee
+1-11	52-53	g	_	_
+1-12	54-55	.	_	_
+1-13	56-60	19/2	*[6]	DATErecieved[6]
+1-14	61-63	38	*[6]	DATErecieved[6]
+1-15	64-68	Arff	_	_
+1-16	69-70	,	_	_
+1-17	71-74	dad	_	_
+1-18	75-76	.	_	_
+
+#Text=Dir .
+2-1	77-80	Dir	_	_
+2-2	81-82	.	_	_
+
+#Text=IR r . 20/2 38 Berlin 6 Febr 38 .
+3-1	83-85	IR	_	_
+3-2	86-87	r	_	_
+3-3	88-89	.	_	_
+3-4	90-94	20/2	*[7]	DATEanswered[7]
+3-5	95-97	38	*[7]	DATEanswered[7]
+3-6	98-104	Berlin	*	PLACEfrom
+3-7	105-106	6	*[9]	DATEletter[9]
+3-8	107-111	Febr	*[9]	DATEletter[9]
+3-9	112-114	38	*[9]	DATEletter[9]
+3-10	115-116	.	_	_
+
+#Text=Eben lieber Freund erhalte ich Ihren Brief vom 20 Jan. , Sonnabends abgesandt was bequem fällt , wenn der Brief anders , wie jezt immer , 16 Tage gehn muß .
+4-1	117-121	Eben	_	_
+4-2	122-128	lieber	_	_
+4-3	129-135	Freund	_	_
+4-4	136-143	erhalte	_	_
+4-5	144-147	ich	_	_
+4-6	148-153	Ihren	_	_
+4-7	154-159	Brief	_	_
+4-8	160-163	vom	_	_
+4-9	164-166	20	*[10]	DATEmentioned[10]
+4-10	167-171	Jan.	*[10]	DATEmentioned[10]
+4-11	172-173	,	_	_
+4-12	174-184	Sonnabends	_	_
+4-13	185-194	abgesandt	_	_
+4-14	195-198	was	_	_
+4-15	199-205	bequem	_	_
+4-16	206-211	fällt	_	_
+4-17	212-213	,	_	_
+4-18	214-218	wenn	_	_
+4-19	219-222	der	_	_
+4-20	223-228	Brief	_	_
+4-21	229-235	anders	_	_
+4-22	236-237	,	_	_
+4-23	238-241	wie	_	_
+4-24	242-246	jezt	_	_
+4-25	247-252	immer	_	_
+4-26	253-254	,	_	_
+4-27	255-257	16	_	_
+4-28	258-262	Tage	_	_
+4-29	263-267	gehn	_	_
+4-30	268-271	muß	_	_
+4-31	272-273	.	_	_
+
+#Text=Gestern sandte ich Ihnen Wechsel von 670 rt Werth , deren Empfang Sie hoffentlich bald bescheinigen werden .
+5-1	274-281	Gestern	_	_
+5-2	282-288	sandte	_	_
+5-3	289-292	ich	_	_
+5-4	293-298	Ihnen	_	_
+5-5	299-306	Wechsel	_	_
+5-6	307-310	von	_	_
+5-7	311-314	670	_	_
+5-8	315-317	rt	_	_
+5-9	318-323	Werth	_	_
+5-10	324-325	,	_	_
+5-11	326-331	deren	_	_
+5-12	332-339	Empfang	_	_
+5-13	340-343	Sie	_	_
+5-14	344-355	hoffentlich	_	_
+5-15	356-360	bald	_	_
+5-16	361-373	bescheinigen	_	_
+5-17	374-380	werden	_	_
+5-18	381-382	.	_	_
+
+#Text=Campanari 's können mir nichts übel nehmen als höchstens das Ausbleiben meiner Antwort wegen der Bronzeangelegenheit \; nachdem er mich das erstemal genasführt und ich hiesigen Ortes guten Wind erst erwarten mußte , kann er mir das nicht übel nehmen , noch es mir durch Zurückhaltung der Spiegelzeichnungen die er versprochen hat entgelten lassen .
+6-1	383-392	Campanari	*[11]	PERmentioned[11]
+6-2	393-395	's	*[11]	PERmentioned[11]
+6-3	396-402	können	_	_
+6-4	403-406	mir	_	_
+6-5	407-413	nichts	_	_
+6-6	414-418	übel	_	_
+6-7	419-425	nehmen	_	_
+6-8	426-429	als	_	_
+6-9	430-439	höchstens	_	_
+6-10	440-443	das	_	_
+6-11	444-454	Ausbleiben	_	_
+6-12	455-461	meiner	_	_
+6-13	462-469	Antwort	_	_
+6-14	470-475	wegen	_	_
+6-15	476-479	der	_	_
+6-16	480-499	Bronzeangelegenheit	*	OBJ
+6-17	500-501	\;	_	_
+6-18	502-509	nachdem	_	_
+6-19	510-512	er	_	_
+6-20	513-517	mich	_	_
+6-21	518-521	das	_	_
+6-22	522-530	erstemal	_	_
+6-23	531-541	genasführt	_	_
+6-24	542-545	und	_	_
+6-25	546-549	ich	_	_
+6-26	550-558	hiesigen	_	_
+6-27	559-564	Ortes	_	_
+6-28	565-570	guten	_	_
+6-29	571-575	Wind	_	_
+6-30	576-580	erst	_	_
+6-31	581-589	erwarten	_	_
+6-32	590-595	mußte	_	_
+6-33	596-597	,	_	_
+6-34	598-602	kann	_	_
+6-35	603-605	er	_	_
+6-36	606-609	mir	_	_
+6-37	610-613	das	_	_
+6-38	614-619	nicht	_	_
+6-39	620-624	übel	_	_
+6-40	625-631	nehmen	_	_
+6-41	632-633	,	_	_
+6-42	634-638	noch	_	_
+6-43	639-641	es	_	_
+6-44	642-645	mir	_	_
+6-45	646-651	durch	_	_
+6-46	652-665	Zurückhaltung	_	_
+6-47	666-669	der	_	_
+6-48	670-688	Spiegelzeichnungen	_	_
+6-49	689-692	die	_	_
+6-50	693-695	er	_	_
+6-51	696-707	versprochen	_	_
+6-52	708-711	hat	_	_
+6-53	712-721	entgelten	_	_
+6-54	722-728	lassen	_	_
+6-55	729-730	.	_	_
+
+#Text=Von Kramers Buch bin ich selbst beeinträchtigt und wissen Sie wie diese Art Schäfelstellerei mir Muth erregt hat , auch K .
+7-1	731-734	Von	_	_
+7-2	735-742	Kramers	*	PERmentioned
+7-3	743-747	Buch	_	_
+7-4	748-751	bin	_	_
+7-5	752-755	ich	_	_
+7-6	756-762	selbst	_	_
+7-7	763-777	beeinträchtigt	_	_
+7-8	778-781	und	_	_
+7-9	782-788	wissen	_	_
+7-10	789-792	Sie	_	_
+7-11	793-796	wie	_	_
+7-12	797-802	diese	_	_
+7-13	803-806	Art	_	_
+7-14	807-823	Schäfelstellerei	_	_
+7-15	824-827	mir	_	_
+7-16	828-832	Muth	_	_
+7-17	833-839	erregt	_	_
+7-18	840-843	hat	_	_
+7-19	844-845	,	_	_
+7-20	846-850	auch	_	_
+7-21	851-852	K	_	_
+7-22	853-854	.	_	_
+
+#Text='s von Seiten des Instituts mir früher ungehörig schien .
+8-1	855-857	's	_	_
+8-2	858-861	von	_	_
+8-3	862-868	Seiten	_	_
+8-4	869-872	des	_	_
+8-5	873-882	Instituts	*	ORGmentioned
+8-6	883-886	mir	_	_
+8-7	887-893	früher	_	_
+8-8	894-903	ungehörig	_	_
+8-9	904-910	schien	_	_
+8-10	911-912	.	_	_
+
+#Text=Mithin setzen Sie dies ins Gleiche \; nöthigenfalls will ich ihm schreiben .
+9-1	913-919	Mithin	_	_
+9-2	920-926	setzen	_	_
+9-3	927-930	Sie	_	_
+9-4	931-935	dies	_	_
+9-5	936-939	ins	_	_
+9-6	940-947	Gleiche	_	_
+9-7	948-949	\;	_	_
+9-8	950-963	nöthigenfalls	_	_
+9-9	964-968	will	_	_
+9-10	969-972	ich	_	_
+9-11	973-976	ihm	_	_
+9-12	977-986	schreiben	_	_
+9-13	987-988	.	_	_
+
+#Text=Seit Jahr und Tag ist Panofka mit dem Druck einer Abhandlung über Argos beschäftigt \; die Zeichnung des kleinen Gefäßes kam ihm für den Druck zu passen , läßt sich aber noch zurückbehalten .
+10-1	989-993	Seit	_	_
+10-2	994-998	Jahr	_	_
+10-3	999-1002	und	_	_
+10-4	1003-1006	Tag	_	_
+10-5	1007-1010	ist	_	_
+10-6	1011-1018	Panofka	*	PERmentioned
+10-7	1019-1022	mit	_	_
+10-8	1023-1026	dem	_	_
+10-9	1027-1032	Druck	_	_
+10-10	1033-1038	einer	_	_
+10-11	1039-1049	Abhandlung	_	_
+10-12	1050-1054	über	_	_
+10-13	1055-1060	Argos	_	_
+10-14	1061-1072	beschäftigt	_	_
+10-15	1073-1074	\;	_	_
+10-16	1075-1078	die	_	_
+10-17	1079-1088	Zeichnung	_	_
+10-18	1089-1092	des	_	_
+10-19	1093-1100	kleinen	_	_
+10-20	1101-1108	Gefäßes	_	_
+10-21	1109-1112	kam	_	_
+10-22	1113-1116	ihm	_	_
+10-23	1117-1120	für	_	_
+10-24	1121-1124	den	_	_
+10-25	1125-1130	Druck	_	_
+10-26	1131-1133	zu	_	_
+10-27	1134-1140	passen	_	_
+10-28	1141-1142	,	_	_
+10-29	1143-1147	läßt	_	_
+10-30	1148-1152	sich	_	_
+10-31	1153-1157	aber	_	_
+10-32	1158-1162	noch	_	_
+10-33	1163-1177	zurückbehalten	_	_
+10-34	1178-1179	.	_	_
+
+#Text=Er hatte freilich statt dieses
+11-1	1180-1182	Er	_	_
+11-2	1183-1188	hatte	_	_
+11-3	1189-1197	freilich	_	_
+11-4	1198-1203	statt	_	_
+11-5	1204-1210	dieses	_	_

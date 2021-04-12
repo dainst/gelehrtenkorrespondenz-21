@@ -1,0 +1,312 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=4 Braun an Gerhard Rom , 4 .
+1-1	0-1	4	_	_
+1-2	2-7	Braun	*	PERauthor
+1-3	8-10	an	_	_
+1-4	11-18	Gerhard	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-26	4	*[4]	DATEletter[4]
+1-8	27-28	.	*[4]	DATEletter[4]
+
+#Text=Januar 1840 6 , äußerst wohlerhaltenes Bronzefigürchen darstellend eine geflügelte Frau mit Fischschwänzen , die zwei spiralförmige Schlangen in beiden Händen hält .
+2-1	29-35	Januar	*[4]	DATEletter[4]
+2-2	36-40	1840	*[4]	DATEletter[4]
+2-3	41-42	6	_	_
+2-4	43-44	,	_	_
+2-5	45-52	äußerst	_	_
+2-6	53-67	wohlerhaltenes	_	_
+2-7	68-83	Bronzefigürchen	*[5]	OBJ[5]
+2-8	84-95	darstellend	*[5]	OBJ[5]
+2-9	96-100	eine	*[5]	OBJ[5]
+2-10	101-111	geflügelte	*[5]	OBJ[5]
+2-11	112-116	Frau	*[5]	OBJ[5]
+2-12	117-120	mit	*[5]	OBJ[5]
+2-13	121-135	Fischschwänzen	*[5]	OBJ[5]
+2-14	136-137	,	_	_
+2-15	138-141	die	_	_
+2-16	142-146	zwei	_	_
+2-17	147-160	spiralförmige	_	_
+2-18	161-170	Schlangen	_	_
+2-19	171-173	in	_	_
+2-20	174-180	beiden	_	_
+2-21	181-187	Händen	_	_
+2-22	188-192	hält	_	_
+2-23	193-194	.	_	_
+
+#Text=Scudi 25 . 7 , durch Patina wie durch archaisch treffliche Arbeit gleich ausgezeichneter Spiegelhenkel , darstellend einen Atlanten , unten mit einem Ring .
+3-1	195-200	Scudi	_	_
+3-2	201-203	25	_	_
+3-3	204-205	.	_	_
+3-4	206-207	7	_	_
+3-5	208-209	,	_	_
+3-6	210-215	durch	_	_
+3-7	216-222	Patina	_	_
+3-8	223-226	wie	_	_
+3-9	227-232	durch	_	_
+3-10	233-242	archaisch	_	_
+3-11	243-253	treffliche	_	_
+3-12	254-260	Arbeit	_	_
+3-13	261-267	gleich	_	_
+3-14	268-283	ausgezeichneter	_	_
+3-15	284-297	Spiegelhenkel	*	OBJ
+3-16	298-299	,	_	_
+3-17	300-311	darstellend	_	_
+3-18	312-317	einen	_	_
+3-19	318-326	Atlanten	_	_
+3-20	327-328	,	_	_
+3-21	329-334	unten	_	_
+3-22	335-338	mit	_	_
+3-23	339-344	einem	_	_
+3-24	345-349	Ring	_	_
+3-25	350-351	.	_	_
+
+#Text=Scudi 40 . 8 , Feuerhaken sehr schöner Arbeit , unten eine Hand die faßt , oben eine die wegnimmt .
+4-1	352-357	Scudi	_	_
+4-2	358-360	40	_	_
+4-3	361-362	.	_	_
+4-4	363-364	8	_	_
+4-5	365-366	,	_	_
+4-6	367-377	Feuerhaken	*	OBJ
+4-7	378-382	sehr	_	_
+4-8	383-390	schöner	_	_
+4-9	391-397	Arbeit	_	_
+4-10	398-399	,	_	_
+4-11	400-405	unten	_	_
+4-12	406-410	eine	_	_
+4-13	411-415	Hand	_	_
+4-14	416-419	die	_	_
+4-15	420-424	faßt	_	_
+4-16	425-426	,	_	_
+4-17	427-431	oben	_	_
+4-18	432-436	eine	_	_
+4-19	437-440	die	_	_
+4-20	441-449	wegnimmt	_	_
+4-21	450-451	.	_	_
+
+#Text=Scudi 20 .
+5-1	452-457	Scudi	_	_
+5-2	458-460	20	_	_
+5-3	461-462	.	_	_
+
+#Text=Basseggio erlaubt keine Zeichnungen mehr .
+6-1	463-472	Basseggio	*	PERmentioned
+6-2	473-480	erlaubt	_	_
+6-3	481-486	keine	_	_
+6-4	487-498	Zeichnungen	_	_
+6-5	499-503	mehr	_	_
+6-6	504-505	.	_	_
+
+#Text=Da das Institut jetzt durch Kestner vertreten wird und dieser ihn statt zu besänftigen , stets absichtlich zurücksetzt , so will er nichts mehr von uns wissen .
+7-1	506-508	Da	_	_
+7-2	509-512	das	_	_
+7-3	513-521	Institut	*	ORGmentioned
+7-4	522-527	jetzt	_	_
+7-5	528-533	durch	_	_
+7-6	534-541	Kestner	*	PERmentioned
+7-7	542-551	vertreten	_	_
+7-8	552-556	wird	_	_
+7-9	557-560	und	_	_
+7-10	561-567	dieser	_	_
+7-11	568-571	ihn	_	_
+7-12	572-577	statt	_	_
+7-13	578-580	zu	_	_
+7-14	581-592	besänftigen	_	_
+7-15	593-594	,	_	_
+7-16	595-600	stets	_	_
+7-17	601-612	absichtlich	_	_
+7-18	613-624	zurücksetzt	_	_
+7-19	625-626	,	_	_
+7-20	627-629	so	_	_
+7-21	630-634	will	_	_
+7-22	635-637	er	_	_
+7-23	638-644	nichts	_	_
+7-24	645-649	mehr	_	_
+7-25	650-653	von	_	_
+7-26	654-657	uns	_	_
+7-27	658-664	wissen	_	_
+7-28	665-666	.	_	_
+
+#Text=- Ich stehe übrigens persönlich gut mit ihm .
+8-1	667-668	-	_	_
+8-2	669-672	Ich	_	_
+8-3	673-678	stehe	_	_
+8-4	679-687	übrigens	_	_
+8-5	688-698	persönlich	_	_
+8-6	699-702	gut	_	_
+8-7	703-706	mit	_	_
+8-8	707-710	ihm	_	_
+8-9	711-712	.	_	_
+
+#Text=Von seinem Vasenwerk , das er Ihnen überließ , möchte er gern mehr Exemplare absetzen .
+9-1	713-716	Von	_	_
+9-2	717-723	seinem	_	_
+9-3	724-733	Vasenwerk	_	_
+9-4	734-735	,	_	_
+9-5	736-739	das	_	_
+9-6	740-742	er	_	_
+9-7	743-748	Ihnen	_	_
+9-8	749-757	überließ	_	_
+9-9	758-759	,	_	_
+9-10	760-766	möchte	_	_
+9-11	767-769	er	_	_
+9-12	770-774	gern	_	_
+9-13	775-779	mehr	_	_
+9-14	780-789	Exemplare	_	_
+9-15	790-798	absetzen	_	_
+9-16	799-800	.	_	_
+
+#Text=Furlanetto klagt nach 2 Jahren keine Antwort auf einen durch Ritschl an Savigny gesandten Brief bekommen zu haben .
+10-1	801-811	Furlanetto	*	PERmentioned
+10-2	812-817	klagt	_	_
+10-3	818-822	nach	_	_
+10-4	823-824	2	_	_
+10-5	825-831	Jahren	_	_
+10-6	832-837	keine	_	_
+10-7	838-845	Antwort	_	_
+10-8	846-849	auf	_	_
+10-9	850-855	einen	_	_
+10-10	856-861	durch	_	_
+10-11	862-869	Ritschl	*	PERmentioned
+10-12	870-872	an	_	_
+10-13	873-880	Savigny	*	PERmentioned
+10-14	881-890	gesandten	_	_
+10-15	891-896	Brief	_	_
+10-16	897-905	bekommen	_	_
+10-17	906-908	zu	_	_
+10-18	909-914	haben	_	_
+10-19	915-916	.	_	_
+
+#Text=Er möchte wenigstens Savigny 's Meinung in Betreff der in der mitgetheilten Inschrift erwähnten Lex Julia municipalis kennen .
+11-1	917-919	Er	_	_
+11-2	920-926	möchte	_	_
+11-3	927-937	wenigstens	_	_
+11-4	938-945	Savigny	*[16]	PERmentioned[16]
+11-5	946-948	's	*[16]	PERmentioned[16]
+11-6	949-956	Meinung	_	_
+11-7	957-959	in	_	_
+11-8	960-967	Betreff	_	_
+11-9	968-971	der	_	_
+11-10	972-974	in	_	_
+11-11	975-978	der	_	_
+11-12	979-992	mitgetheilten	*[15]	OBJ[15]
+11-13	993-1002	Inschrift	*[15]	OBJ[15]
+11-14	1003-1012	erwähnten	_	_
+11-15	1013-1016	Lex	_	_
+11-16	1017-1022	Julia	_	_
+11-17	1023-1034	municipalis	_	_
+11-18	1035-1041	kennen	_	_
+11-19	1042-1043	.	_	_
+
+#Text=Nibby ist nun auch todt .
+12-1	1044-1049	Nibby	*	PERmentioned
+12-2	1050-1053	ist	_	_
+12-3	1054-1057	nun	_	_
+12-4	1058-1062	auch	_	_
+12-5	1063-1067	todt	_	_
+12-6	1068-1069	.	_	_
+
+#Text=Sein Nachlaß bestand in 15 Paoli .
+13-1	1070-1074	Sein	_	_
+13-2	1075-1082	Nachlaß	_	_
+13-3	1083-1090	bestand	_	_
+13-4	1091-1093	in	_	_
+13-5	1094-1096	15	_	_
+13-6	1097-1102	Paoli	_	_
+13-7	1103-1104	.	_	_
+
+#Text=Hier thut man was man kann für die zahlreiche Familie .
+14-1	1105-1109	Hier	_	_
+14-2	1110-1114	thut	_	_
+14-3	1115-1118	man	_	_
+14-4	1119-1122	was	_	_
+14-5	1123-1126	man	_	_
+14-6	1127-1131	kann	_	_
+14-7	1132-1135	für	_	_
+14-8	1136-1139	die	_	_
+14-9	1140-1150	zahlreiche	_	_
+14-10	1151-1158	Familie	_	_
+14-11	1159-1160	.	_	_
+
+#Text=Auch wir sind thätig .
+15-1	1161-1165	Auch	_	_
+15-2	1166-1169	wir	_	_
+15-3	1170-1174	sind	_	_
+15-4	1175-1181	thätig	_	_
+15-5	1182-1183	.	_	_
+
+#Text=Vielleicht thut Ihre Societä Italiana auch was für die armen Nothleidenden .
+16-1	1184-1194	Vielleicht	_	_
+16-2	1195-1199	thut	_	_
+16-3	1200-1204	Ihre	_	_
+16-4	1205-1212	Societä	_	_
+16-5	1213-1221	Italiana	_	_
+16-6	1222-1226	auch	_	_
+16-7	1227-1230	was	_	_
+16-8	1231-1234	für	_	_
+16-9	1235-1238	die	_	_
+16-10	1239-1244	armen	_	_
+16-11	1245-1258	Nothleidenden	_	_
+16-12	1259-1260	.	_	_
+
+#Text=Vorlesungen kommen dies Jahr , wie es scheint , nicht zusammen .
+17-1	1261-1272	Vorlesungen	_	_
+17-2	1273-1279	kommen	_	_
+17-3	1280-1284	dies	_	_
+17-4	1285-1289	Jahr	_	_
+17-5	1290-1291	,	_	_
+17-6	1292-1295	wie	_	_
+17-7	1296-1298	es	_	_
+17-8	1299-1306	scheint	_	_
+17-9	1307-1308	,	_	_
+17-10	1309-1314	nicht	_	_
+17-11	1315-1323	zusammen	_	_
+17-12	1324-1325	.	_	_
+
+#Text=Ich kämpfe mit der größten Geldnoth .
+18-1	1326-1329	Ich	_	_
+18-2	1330-1336	kämpfe	_	_
+18-3	1337-1340	mit	_	_
+18-4	1341-1344	der	_	_
+18-5	1345-1352	größten	_	_
+18-6	1353-1361	Geldnoth	_	_
+18-7	1362-1363	.	_	_
+
+#Text=Schicken Sie mir daher lieber die 250 rt .
+19-1	1364-1372	Schicken	_	_
+19-2	1373-1376	Sie	_	_
+19-3	1377-1380	mir	_	_
+19-4	1381-1386	daher	_	_
+19-5	1387-1393	lieber	_	_
+19-6	1394-1397	die	_	_
+19-7	1398-1401	250	_	_
+19-8	1402-1404	rt	_	_
+19-9	1405-1406	.	_	_
+
+#Text=für die Spiegel und was Sie noch von den mir zukommenden 38 rt .
+20-1	1407-1410	für	_	_
+20-2	1411-1414	die	_	_
+20-3	1415-1422	Spiegel	_	_
+20-4	1423-1426	und	_	_
+20-5	1427-1430	was	_	_
+20-6	1431-1434	Sie	_	_
+20-7	1435-1439	noch	_	_
+20-8	1440-1443	von	_	_
+20-9	1444-1447	den	_	_
+20-10	1448-1451	mir	_	_
+20-11	1452-1463	zukommenden	_	_
+20-12	1464-1466	38	_	_
+20-13	1467-1469	rt	_	_
+20-14	1470-1471	.	_	_
+
+#Text=in Händen haben , direct hierher .
+21-1	1472-1474	in	_	_
+21-2	1475-1481	Händen	_	_
+21-3	1482-1487	haben	_	_
+21-4	1488-1489	,	_	_
+21-5	1490-1496	direct	_	_
+21-6	1497-1504	hierher	_	_
+21-7	1505-1506	.	_	_

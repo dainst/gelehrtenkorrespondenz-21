@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=AN Helbig an Henzen Rom , 20 .
+1-1	0-2	AN	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	20	*[1]	DATEletter[1]
+1-8	29-30	.	*[1]	DATEletter[1]
+
+#Text=August 1863 Forcella thun ?
+2-1	31-37	August	*[1]	DATEletter[1]
+2-2	38-42	1863	*[1]	DATEletter[1]
+2-3	43-51	Forcella	*	PERmentioned
+2-4	52-56	thun	_	_
+2-5	57-58	?	_	_
+
+#Text=Eingelaufen sind für das Institut allerlei Dinge Geschenke und Aufsätze , mit deren Aufzählung ich Sie nicht behelligen will , da Sie mit Brunn die Aufsätze , welche bis zu Ihrer Rückkunft gedruckt werden sollen , bereits bestimmt haben , also die neu eingelaufenen Aufsätze vor der Hand nicht in Betracht kommen .
+3-1	59-70	Eingelaufen	_	_
+3-2	71-75	sind	_	_
+3-3	76-79	für	_	_
+3-4	80-83	das	_	_
+3-5	84-92	Institut	*	ORGmentioned
+3-6	93-101	allerlei	_	_
+3-7	102-107	Dinge	_	_
+3-8	108-117	Geschenke	_	_
+3-9	118-121	und	_	_
+3-10	122-130	Aufsätze	_	_
+3-11	131-132	,	_	_
+3-12	133-136	mit	_	_
+3-13	137-142	deren	_	_
+3-14	143-153	Aufzählung	_	_
+3-15	154-157	ich	_	_
+3-16	158-161	Sie	_	_
+3-17	162-167	nicht	_	_
+3-18	168-178	behelligen	_	_
+3-19	179-183	will	_	_
+3-20	184-185	,	_	_
+3-21	186-188	da	_	_
+3-22	189-192	Sie	_	_
+3-23	193-196	mit	_	_
+3-24	197-202	Brunn	*	PERmentioned
+3-25	203-206	die	_	_
+3-26	207-215	Aufsätze	_	_
+3-27	216-217	,	_	_
+3-28	218-224	welche	_	_
+3-29	225-228	bis	_	_
+3-30	229-231	zu	_	_
+3-31	232-237	Ihrer	_	_
+3-32	238-247	Rückkunft	_	_
+3-33	248-256	gedruckt	_	_
+3-34	257-263	werden	_	_
+3-35	264-270	sollen	_	_
+3-36	271-272	,	_	_
+3-37	273-280	bereits	_	_
+3-38	281-289	bestimmt	_	_
+3-39	290-295	haben	_	_
+3-40	296-297	,	_	_
+3-41	298-302	also	_	_
+3-42	303-306	die	_	_
+3-43	307-310	neu	_	_
+3-44	311-324	eingelaufenen	_	_
+3-45	325-333	Aufsätze	_	_
+3-46	334-337	vor	_	_
+3-47	338-341	der	_	_
+3-48	342-346	Hand	_	_
+3-49	347-352	nicht	_	_
+3-50	353-355	in	_	_
+3-51	356-364	Betracht	_	_
+3-52	365-371	kommen	_	_
+3-53	372-373	.	_	_
+
+#Text=Gerhard muß ich alle 14 Tage über den Bestand des Instituts Bericht abstatten .
+4-1	374-381	Gerhard	*	PERmentioned
+4-2	382-385	muß	_	_
+4-3	386-389	ich	_	_
+4-4	390-394	alle	_	_
+4-5	395-397	14	_	_
+4-6	398-402	Tage	_	_
+4-7	403-407	über	_	_
+4-8	408-411	den	_	_
+4-9	412-419	Bestand	_	_
+4-10	420-423	des	_	_
+4-11	424-433	Instituts	*	ORGmentioned
+4-12	434-441	Bericht	_	_
+4-13	442-451	abstatten	_	_
+4-14	452-453	.	_	_
+
+#Text=Sie sehen , ich durchlebe alle Leiden und Freuden des Institutssecretärs .
+5-1	454-457	Sie	_	_
+5-2	458-463	sehen	_	_
+5-3	464-465	,	_	_
+5-4	466-469	ich	_	_
+5-5	470-479	durchlebe	_	_
+5-6	480-484	alle	_	_
+5-7	485-491	Leiden	_	_
+5-8	492-495	und	_	_
+5-9	496-503	Freuden	_	_
+5-10	504-507	des	_	_
+5-11	508-526	Institutssecretärs	_	_
+5-12	527-528	.	_	_
+
+#Text=Beigelegt habe ich einen speciell an Sie adressirten Brief Newtons , über den ich mir Verhaltungsmaßregeln ausbitte .
+6-1	529-538	Beigelegt	_	_
+6-2	539-543	habe	_	_
+6-3	544-547	ich	_	_
+6-4	548-553	einen	_	_
+6-5	554-562	speciell	_	_
+6-6	563-565	an	_	_
+6-7	566-569	Sie	_	_
+6-8	570-581	adressirten	_	_
+6-9	582-587	Brief	_	_
+6-10	588-595	Newtons	*	PERmentioned
+6-11	596-597	,	_	_
+6-12	598-602	über	_	_
+6-13	603-606	den	_	_
+6-14	607-610	ich	_	_
+6-15	611-614	mir	_	_
+6-16	615-635	Verhaltungsmaßregeln	_	_
+6-17	636-644	ausbitte	_	_
+6-18	645-646	.	_	_
+
+#Text=Neues ist aus Rom nicht viel zu melden .
+7-1	647-652	Neues	_	_
+7-2	653-656	ist	_	_
+7-3	657-660	aus	_	_
+7-4	661-664	Rom	*	PLACEmentioned
+7-5	665-670	nicht	_	_
+7-6	671-675	viel	_	_
+7-7	676-678	zu	_	_
+7-8	679-685	melden	_	_
+7-9	686-687	.	_	_
+
+#Text=Im Auftrage Ritschls war ich neulich bei Garlıcei und wurde bei dieser Gelegenheit von dem ehrwürdigen Vater ziemlich grob behandelt , der namentlich gegen Brunn und Mommsen unverschämt ausfiel .
+8-1	688-690	Im	_	_
+8-2	691-699	Auftrage	_	_
+8-3	700-708	Ritschls	*	PERmentioned
+8-4	709-712	war	_	_
+8-5	713-716	ich	_	_
+8-6	717-724	neulich	_	_
+8-7	725-728	bei	_	_
+8-8	729-737	Garlıcei	*	PERmentioned
+8-9	738-741	und	_	_
+8-10	742-747	wurde	_	_
+8-11	748-751	bei	_	_
+8-12	752-758	dieser	_	_
+8-13	759-770	Gelegenheit	_	_
+8-14	771-774	von	_	_
+8-15	775-778	dem	_	_
+8-16	779-790	ehrwürdigen	_	_
+8-17	791-796	Vater	_	_
+8-18	797-805	ziemlich	_	_
+8-19	806-810	grob	_	_
+8-20	811-820	behandelt	_	_
+8-21	821-822	,	_	_
+8-22	823-826	der	_	_
+8-23	827-837	namentlich	_	_
+8-24	838-843	gegen	_	_
+8-25	844-849	Brunn	*	PERmentioned
+8-26	850-853	und	_	_
+8-27	854-861	Mommsen	*	PERmentioned
+8-28	862-873	unverschämt	_	_
+8-29	874-881	ausfiel	_	_
+8-30	882-883	.	_	_
+
+#Text=Rosa befindet sich wohl und it Sie .
+9-1	884-888	Rosa	*	PERmentioned
+9-2	889-897	befindet	_	_
+9-3	898-902	sich	_	_
+9-4	903-907	wohl	_	_
+9-5	908-911	und	_	_
+9-6	912-914	it	_	_
+9-7	915-918	Sie	_	_
+9-8	919-920	.	_	_
+
+#Text=Mischones Befinden ist befriedigend .
+10-1	921-930	Mischones	*	PERmentioned
+10-2	931-939	Befinden	_	_
+10-3	940-943	ist	_	_
+10-4	944-956	befriedigend	_	_
+10-5	957-958	.	_	_
+
+#Text=Er frühstückt öfters bei mir .
+11-1	959-961	Er	_	_
+11-2	962-972	frühstückt	_	_
+11-3	973-979	öfters	_	_
+11-4	980-983	bei	_	_
+11-5	984-987	mir	_	_
+11-6	988-989	.	_	_
+
+#Text=An Rossi , welcher in Frascati Villegiatur macht , habe ich geschrieben .
+12-1	990-992	An	_	_
+12-2	993-998	Rossi	*	PERmentioned
+12-3	999-1000	,	_	_
+12-4	1001-1008	welcher	_	_
+12-5	1009-1011	in	_	_
+12-6	1012-1020	Frascati	*	PLACEmentioned
+12-7	1021-1032	Villegiatur	_	_
+12-8	1033-1038	macht	_	_
+12-9	1039-1040	,	_	_
+12-10	1041-1045	habe	_	_
+12-11	1046-1049	ich	_	_
+12-12	1050-1061	geschrieben	_	_
+12-13	1062-1063	.	_	_
+
+#Text=Trifft bis morgen keine Antwort ein , so suche ich ihn Sonntag in Frascati auf .
+13-1	1064-1070	Trifft	_	_
+13-2	1071-1074	bis	_	_
+13-3	1075-1081	morgen	_	_
+13-4	1082-1087	keine	_	_
+13-5	1088-1095	Antwort	_	_
+13-6	1096-1099	ein	_	_
+13-7	1100-1101	,	_	_
+13-8	1102-1104	so	_	_
+13-9	1105-1110	suche	_	_
+13-10	1111-1114	ich	_	_
+13-11	1115-1118	ihn	_	_
+13-12	1119-1126	Sonntag	*	DATEmentioned
+13-13	1127-1129	in	_	_
+13-14	1130-1138	Frascati	*	PLACEmentioned
+13-15	1139-1142	auf	_	_
+13-16	1143-1144	.	_	_
+
+#Text=Mit der Bitte mich der Frau Professorin zu empfehlen Ihr ergebener Wolfgang Helbig
+14-1	1145-1148	Mit	_	_
+14-2	1149-1152	der	_	_
+14-3	1153-1158	Bitte	_	_
+14-4	1159-1163	mich	_	_
+14-5	1164-1167	der	_	_
+14-6	1168-1172	Frau	_	_
+14-7	1173-1184	Professorin	_	_
+14-8	1185-1187	zu	_	_
+14-9	1188-1197	empfehlen	_	_
+14-10	1198-1201	Ihr	_	_
+14-11	1202-1211	ergebener	_	_
+14-12	1212-1220	Wolfgang	*[2]	PERauthor[2]
+14-13	1221-1227	Helbig	*[2]	PERauthor[2]

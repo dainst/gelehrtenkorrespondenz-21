@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Frascati , 27. Juli 1837 Dr. Braun g- 27/7 37 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-25	Frascati	*	PLACEfrom
+1-5	26-27	,	_	_
+1-6	28-31	27.	*[4]	DATEletter[4]
+1-7	32-36	Juli	*[4]	DATEletter[4]
+1-8	37-41	1837	*[4]	DATEletter[4]
+1-9	42-45	Dr.	_	_
+1-10	46-51	Braun	*	PERaddressee
+1-11	52-54	g-	_	_
+1-12	55-59	27/7	*[6]	DATErecieved[6]
+1-13	60-62	37	*[6]	DATErecieved[6]
+1-14	63-66	Aff	_	_
+1-15	67-68	.	_	_
+
+#Text=d. Direz .
+2-1	69-71	d.	_	_
+2-2	72-77	Direz	_	_
+2-3	78-79	.	_	_
+
+#Text=CCOXXII Frascati 27/7 Sollten Sie lieber Freund nicht mit Campanari abgeschlossen haben , so bitte ich Sie nachträglich mir die beiden schönen Spiegel ( Cefalo und die Bahanti ) jedenfalls zu schaffen , wäre es auch für die volle Forderung von 15 Scudi für jeden .
+3-1	80-87	CCOXXII	_	_
+3-2	88-96	Frascati	*	PLACEfrom
+3-3	97-101	27/7	*	DATEletter
+3-4	102-109	Sollten	_	_
+3-5	110-113	Sie	_	_
+3-6	114-120	lieber	_	_
+3-7	121-127	Freund	_	_
+3-8	128-133	nicht	_	_
+3-9	134-137	mit	_	_
+3-10	138-147	Campanari	*	PERmentioned
+3-11	148-161	abgeschlossen	_	_
+3-12	162-167	haben	_	_
+3-13	168-169	,	_	_
+3-14	170-172	so	_	_
+3-15	173-178	bitte	_	_
+3-16	179-182	ich	_	_
+3-17	183-186	Sie	_	_
+3-18	187-199	nachträglich	_	_
+3-19	200-203	mir	_	_
+3-20	204-207	die	_	_
+3-21	208-214	beiden	_	_
+3-22	215-222	schönen	_	_
+3-23	223-230	Spiegel	*	OBJ
+3-24	231-232	(	_	_
+3-25	233-239	Cefalo	*	OBJ
+3-26	240-243	und	_	_
+3-27	244-247	die	_	_
+3-28	248-255	Bahanti	*	OBJ
+3-29	256-257	)	_	_
+3-30	258-268	jedenfalls	_	_
+3-31	269-271	zu	_	_
+3-32	272-280	schaffen	_	_
+3-33	281-282	,	_	_
+3-34	283-287	wäre	_	_
+3-35	288-290	es	_	_
+3-36	291-295	auch	_	_
+3-37	296-299	für	_	_
+3-38	300-303	die	_	_
+3-39	304-309	volle	_	_
+3-40	310-319	Forderung	_	_
+3-41	320-323	von	_	_
+3-42	324-326	15	_	_
+3-43	327-332	Scudi	_	_
+3-44	333-336	für	_	_
+3-45	337-342	jeden	_	_
+3-46	343-344	.	_	_
+
+#Text=Der rohe Spiegel mit den 2 Flügelstücken ist vielleicht auch durch die Inschrift die ich übersah vorzüglich interessant \; darüber kann ich mich aber erst bei Kenntniß der Inschrift entscheiden und mehr als 20 keinenfalls dafür geben .
+4-1	345-348	Der	_	_
+4-2	349-353	rohe	_	_
+4-3	354-361	Spiegel	*[13]	OBJ[13]
+4-4	362-365	mit	*[13]	OBJ[13]
+4-5	366-369	den	*[13]	OBJ[13]
+4-6	370-371	2	*[13]	OBJ[13]
+4-7	372-385	Flügelstücken	*[13]	OBJ[13]
+4-8	386-389	ist	_	_
+4-9	390-400	vielleicht	_	_
+4-10	401-405	auch	_	_
+4-11	406-411	durch	_	_
+4-12	412-415	die	_	_
+4-13	416-425	Inschrift	_	_
+4-14	426-429	die	_	_
+4-15	430-433	ich	_	_
+4-16	434-441	übersah	_	_
+4-17	442-452	vorzüglich	_	_
+4-18	453-464	interessant	_	_
+4-19	465-466	\;	_	_
+4-20	467-474	darüber	_	_
+4-21	475-479	kann	_	_
+4-22	480-483	ich	_	_
+4-23	484-488	mich	_	_
+4-24	489-493	aber	_	_
+4-25	494-498	erst	_	_
+4-26	499-502	bei	_	_
+4-27	503-511	Kenntniß	_	_
+4-28	512-515	der	_	_
+4-29	516-525	Inschrift	_	_
+4-30	526-537	entscheiden	_	_
+4-31	538-541	und	_	_
+4-32	542-546	mehr	_	_
+4-33	547-550	als	_	_
+4-34	551-553	20	_	_
+4-35	554-565	keinenfalls	_	_
+4-36	566-571	dafür	_	_
+4-37	572-577	geben	_	_
+4-38	578-579	.	_	_
+
+#Text=- Vergessen Sie mir auch wo möglich nicht das piombo und Spiegel- Wegen der Gegenstände für den Schiffstransport hoffe ich eine kleine Roba über die einzelnen Nummern die darin enthalten sind von Ihnen zurückbehalten zu finden .
+5-1	580-581	-	_	_
+5-2	582-591	Vergessen	_	_
+5-3	592-595	Sie	_	_
+5-4	596-599	mir	_	_
+5-5	600-604	auch	_	_
+5-6	605-607	wo	_	_
+5-7	608-615	möglich	_	_
+5-8	616-621	nicht	_	_
+5-9	622-625	das	_	_
+5-10	626-632	piombo	_	_
+5-11	633-636	und	_	_
+5-12	637-645	Spiegel-	_	_
+5-13	646-651	Wegen	_	_
+5-14	652-655	der	_	_
+5-15	656-667	Gegenstände	_	_
+5-16	668-671	für	_	_
+5-17	672-675	den	_	_
+5-18	676-692	Schiffstransport	_	_
+5-19	693-698	hoffe	_	_
+5-20	699-702	ich	_	_
+5-21	703-707	eine	_	_
+5-22	708-714	kleine	_	_
+5-23	715-719	Roba	_	_
+5-24	720-724	über	_	_
+5-25	725-728	die	_	_
+5-26	729-738	einzelnen	_	_
+5-27	739-746	Nummern	_	_
+5-28	747-750	die	_	_
+5-29	751-756	darin	_	_
+5-30	757-766	enthalten	_	_
+5-31	767-771	sind	_	_
+5-32	772-775	von	_	_
+5-33	776-781	Ihnen	_	_
+5-34	782-796	zurückbehalten	_	_
+5-35	797-799	zu	_	_
+5-36	800-806	finden	_	_
+5-37	807-808	.	_	_
+
+#Text=Es soll mir lieb sein wenn es möglichst ! wenig os+ tensible Nummern ( Ballen ) sind \; die Beischlüsse dürfen nicht zu gefährlich aussehen die 2 Gypse nicht zu > ri vergessen , wenigstens die O \\ nicht .
+6-1	809-811	Es	_	_
+6-2	812-816	soll	_	_
+6-3	817-820	mir	_	_
+6-4	821-825	lieb	_	_
+6-5	826-830	sein	_	_
+6-6	831-835	wenn	_	_
+6-7	836-838	es	_	_
+6-8	839-848	möglichst	_	_
+6-9	849-850	!	_	_
+6-10	851-856	wenig	_	_
+6-11	857-860	os+	_	_
+6-12	861-869	tensible	_	_
+6-13	870-877	Nummern	_	_
+6-14	878-879	(	_	_
+6-15	880-886	Ballen	_	_
+6-16	887-888	)	_	_
+6-17	889-893	sind	_	_
+6-18	894-895	\;	_	_
+6-19	896-899	die	_	_
+6-20	900-911	Beischlüsse	_	_
+6-21	912-918	dürfen	_	_
+6-22	919-924	nicht	_	_
+6-23	925-927	zu	_	_
+6-24	928-938	gefährlich	_	_
+6-25	939-947	aussehen	_	_
+6-26	948-951	die	_	_
+6-27	952-953	2	_	_
+6-28	954-959	Gypse	_	_
+6-29	960-965	nicht	_	_
+6-30	966-968	zu	_	_
+6-31	969-970	>	_	_
+6-32	971-973	ri	_	_
+6-33	974-983	vergessen	_	_
+6-34	984-985	,	_	_
+6-35	986-996	wenigstens	_	_
+6-36	997-1000	die	_	_
+6-37	1001-1002	O	_	_
+6-38	1003-1004	\\	_	_
+6-39	1005-1010	nicht	_	_
+6-40	1011-1012	.	_	_
+
+#Text=Hiebei ein Zettel an Cades wegen eines Skarabäusabdrucks .
+7-1	1013-1019	Hiebei	_	_
+7-2	1020-1023	ein	_	_
+7-3	1024-1030	Zettel	_	_
+7-4	1031-1033	an	_	_
+7-5	1034-1039	Cades	*	PERmentioned
+7-6	1040-1045	wegen	_	_
+7-7	1046-1051	eines	_	_
+7-8	1052-1069	Skarabäusabdrucks	*	OBJ
+7-9	1070-1071	.	_	_
+
+#Text=Ich denke morgen nicht zu spät gegen 7 Sie in Ihrer Behausung aufzusuchen .
+8-1	1072-1075	Ich	_	_
+8-2	1076-1081	denke	_	_
+8-3	1082-1088	morgen	_	_
+8-4	1089-1094	nicht	_	_
+8-5	1095-1097	zu	_	_
+8-6	1098-1102	spät	_	_
+8-7	1103-1108	gegen	_	_
+8-8	1109-1110	7	_	_
+8-9	1111-1114	Sie	_	_
+8-10	1115-1117	in	_	_
+8-11	1118-1123	Ihrer	_	_
+8-12	1124-1133	Behausung	_	_
+8-13	1134-1145	aufzusuchen	_	_
+8-14	1146-1147	.	_	_
+
+#Text=Ihr Gerhard
+9-1	1148-1151	Ihr	_	_
+9-2	1152-1159	Gerhard	*	PERauthor

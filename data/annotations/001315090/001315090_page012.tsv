@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> Lepsius an Helbig Berlin , 3. Februar 1872 herzlich von mir zu grüßen , und ihm zu sagen , daß ich seinen Logos mit großem Vergnügen gelesen und mich der klaren Gedankenentwickelung und Diktion gefreut hätte .
+1-1	0-1	>	_	_
+1-2	2-9	Lepsius	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Helbig	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	3.	*[1]	DATEletter[1]
+1-8	32-39	Februar	*[1]	DATEletter[1]
+1-9	40-44	1872	_	_
+1-10	45-53	herzlich	_	_
+1-11	54-57	von	_	_
+1-12	58-61	mir	_	_
+1-13	62-64	zu	_	_
+1-14	65-71	grüßen	_	_
+1-15	72-73	,	_	_
+1-16	74-77	und	_	_
+1-17	78-81	ihm	_	_
+1-18	82-84	zu	_	_
+1-19	85-90	sagen	_	_
+1-20	91-92	,	_	_
+1-21	93-96	daß	_	_
+1-22	97-100	ich	_	_
+1-23	101-107	seinen	_	_
+1-24	108-113	Logos	_	_
+1-25	114-117	mit	_	_
+1-26	118-124	großem	_	_
+1-27	125-134	Vergnügen	_	_
+1-28	135-142	gelesen	_	_
+1-29	143-146	und	_	_
+1-30	147-151	mich	_	_
+1-31	152-155	der	_	_
+1-32	156-162	klaren	_	_
+1-33	163-183	Gedankenentwickelung	_	_
+1-34	184-187	und	_	_
+1-35	188-195	Diktion	_	_
+1-36	196-203	gefreut	_	_
+1-37	204-209	hätte	_	_
+1-38	210-211	.	_	_
+
+#Text=Graf Usedom wird schließlich doch sehr gut hier wirken und uns zunächst eine Erhöhung des Etats schaffen .
+2-1	212-216	Graf	*[2]	PERmentioned[2]
+2-2	217-223	Usedom	*[2]	PERmentioned[2]
+2-3	224-228	wird	_	_
+2-4	229-240	schließlich	_	_
+2-5	241-245	doch	_	_
+2-6	246-250	sehr	_	_
+2-7	251-254	gut	_	_
+2-8	255-259	hier	_	_
+2-9	260-266	wirken	_	_
+2-10	267-270	und	_	_
+2-11	271-274	uns	_	_
+2-12	275-283	zunächst	_	_
+2-13	284-288	eine	_	_
+2-14	289-297	Erhöhung	_	_
+2-15	298-301	des	_	_
+2-16	302-307	Etats	_	_
+2-17	308-316	schaffen	_	_
+2-18	317-318	.	_	_
+
+#Text=Der in der Kammer gestellte und zurückgegangene Antrag des Gr . Styrum war nicht von uns ausgegangen , sondern etwas voreilig , und so noch gar nicht acceptabel .
+3-1	319-322	Der	_	_
+3-2	323-325	in	_	_
+3-3	326-329	der	_	_
+3-4	330-336	Kammer	_	_
+3-5	337-346	gestellte	_	_
+3-6	347-350	und	_	_
+3-7	351-366	zurückgegangene	_	_
+3-8	367-373	Antrag	_	_
+3-9	374-377	des	_	_
+3-10	378-380	Gr	_	_
+3-11	381-382	.	_	_
+3-12	383-389	Styrum	*	PERmentioned
+3-13	390-393	war	_	_
+3-14	394-399	nicht	_	_
+3-15	400-403	von	_	_
+3-16	404-407	uns	_	_
+3-17	408-419	ausgegangen	_	_
+3-18	420-421	,	_	_
+3-19	422-429	sondern	_	_
+3-20	430-435	etwas	_	_
+3-21	436-444	voreilig	_	_
+3-22	445-446	,	_	_
+3-23	447-450	und	_	_
+3-24	451-453	so	_	_
+3-25	454-458	noch	_	_
+3-26	459-462	gar	_	_
+3-27	463-468	nicht	_	_
+3-28	469-479	acceptabel	_	_
+3-29	480-481	.	_	_
+
+#Text=Ich bitte mich Ihrer Frau Gemalin bestens zu empfehlen und bin Ihr ergebenster R Lepsius Mein Brief an Henzen mit dem Etat wird angekommen sein .
+4-1	482-485	Ich	_	_
+4-2	486-491	bitte	_	_
+4-3	492-496	mich	_	_
+4-4	497-502	Ihrer	_	_
+4-5	503-507	Frau	_	_
+4-6	508-515	Gemalin	_	_
+4-7	516-523	bestens	_	_
+4-8	524-526	zu	_	_
+4-9	527-536	empfehlen	_	_
+4-10	537-540	und	_	_
+4-11	541-544	bin	_	_
+4-12	545-548	Ihr	_	_
+4-13	549-560	ergebenster	_	_
+4-14	561-562	R	*[3]	PERauthor[3]
+4-15	563-570	Lepsius	*[3]	PERauthor[3]
+4-16	571-575	Mein	_	_
+4-17	576-581	Brief	_	_
+4-18	582-584	an	_	_
+4-19	585-591	Henzen	*	PERmentioned
+4-20	592-595	mit	_	_
+4-21	596-599	dem	_	_
+4-22	600-604	Etat	_	_
+4-23	605-609	wird	_	_
+4-24	610-620	angekommen	_	_
+4-25	621-625	sein	_	_
+4-26	626-627	.	_	_
+
+#Text=Bitte ihn bestens zu grüßen .
+5-1	628-633	Bitte	_	_
+5-2	634-637	ihn	_	_
+5-3	638-645	bestens	_	_
+5-4	646-648	zu	_	_
+5-5	649-655	grüßen	_	_
+5-6	656-657	.	_	_

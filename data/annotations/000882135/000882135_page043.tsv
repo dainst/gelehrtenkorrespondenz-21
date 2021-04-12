@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\\ en .
+1-1	0-1	\\	_	_
+1-2	2-4	en	_	_
+1-3	5-6	.	_	_
+
+#Text=Braun an Gerhard Rom , 17. April 71838 Rom 17 April 1838 .
+2-1	7-12	Braun	*	PERauthor
+2-2	13-15	an	_	_
+2-3	16-23	Gerhard	*	PERaddressee
+2-4	24-27	Rom	*	PLACEfrom
+2-5	28-29	,	_	_
+2-6	30-33	17.	*[4]	DATEletter[4]
+2-7	34-39	April	*[4]	DATEletter[4]
+2-8	40-45	71838	*[4]	DATEletter[4]
+2-9	46-49	Rom	*	PLACEfrom
+2-10	50-52	17	*[6]	DATEletter[6]
+2-11	53-58	April	*[6]	DATEletter[6]
+2-12	59-63	1838	*[6]	DATEletter[6]
+2-13	64-65	.	_	_
+
+#Text=Hochverehrtester Freund !
+3-1	66-82	Hochverehrtester	_	_
+3-2	83-89	Freund	_	_
+3-3	90-91	!	_	_
+
+#Text=Bevor ich an die pünktliche Beantwortung der drei von Ihnen vorliegenden Briefe gehe , will ich Ihnen das Beifälligste auf die mir gestern zugekommene Couriersendung mittheilen .
+4-1	92-97	Bevor	_	_
+4-2	98-101	ich	_	_
+4-3	102-104	an	_	_
+4-4	105-108	die	_	_
+4-5	109-119	pünktliche	_	_
+4-6	120-132	Beantwortung	_	_
+4-7	133-136	der	_	_
+4-8	137-141	drei	_	_
+4-9	142-145	von	_	_
+4-10	146-151	Ihnen	_	_
+4-11	152-164	vorliegenden	_	_
+4-12	165-171	Briefe	_	_
+4-13	172-176	gehe	_	_
+4-14	177-178	,	_	_
+4-15	179-183	will	_	_
+4-16	184-187	ich	_	_
+4-17	188-193	Ihnen	_	_
+4-18	194-197	das	_	_
+4-19	198-210	Beifälligste	_	_
+4-20	211-214	auf	_	_
+4-21	215-218	die	_	_
+4-22	219-222	mir	_	_
+4-23	223-230	gestern	_	_
+4-24	231-242	zugekommene	_	_
+4-25	243-257	Couriersendung	_	_
+4-26	258-268	mittheilen	_	_
+4-27	269-270	.	_	_
+
+#Text=Ihre Bildwerke sind allerdings reich .
+5-1	271-275	Ihre	_	_
+5-2	276-285	Bildwerke	_	_
+5-3	286-290	sind	_	_
+5-4	291-301	allerdings	_	_
+5-5	302-307	reich	_	_
+5-6	308-309	.	_	_
+
+#Text=Die Ruspischen Zeichnungen haben freilich nicht gut gethan .
+6-1	310-313	Die	_	_
+6-2	314-324	Ruspischen	_	_
+6-3	325-336	Zeichnungen	_	_
+6-4	337-342	haben	_	_
+6-5	343-351	freilich	_	_
+6-6	352-357	nicht	_	_
+6-7	358-361	gut	_	_
+6-8	362-368	gethan	_	_
+6-9	369-370	.	_	_
+
+#Text=Der Silenopappos in Palazzo Gentili ist ungleich besser bei Ficoroni edirt .
+7-1	371-374	Der	_	_
+7-2	375-387	Silenopappos	*	OBJ
+7-3	388-390	in	_	_
+7-4	391-398	Palazzo	*[8]	PLACEmentioned[8]
+7-5	399-406	Gentili	*[8]	PLACEmentioned[8]
+7-6	407-410	ist	_	_
+7-7	411-419	ungleich	_	_
+7-8	420-426	besser	_	_
+7-9	427-430	bei	_	_
+7-10	431-439	Ficoroni	*	PERmentioned
+7-11	440-445	edirt	_	_
+7-12	446-447	.	_	_
+
+#Text=Nach welchem Grundsatz sind Sie bei der Wiederaufnahme solcher schon seit langer Zeit edirter Werke verfahren ?
+8-1	448-452	Nach	_	_
+8-2	453-460	welchem	_	_
+8-3	461-470	Grundsatz	_	_
+8-4	471-475	sind	_	_
+8-5	476-479	Sie	_	_
+8-6	480-483	bei	_	_
+8-7	484-487	der	_	_
+8-8	488-502	Wiederaufnahme	_	_
+8-9	503-510	solcher	_	_
+8-10	511-516	schon	_	_
+8-11	517-521	seit	_	_
+8-12	522-528	langer	_	_
+8-13	529-533	Zeit	_	_
+8-14	534-541	edirter	_	_
+8-15	542-547	Werke	_	_
+8-16	548-557	verfahren	_	_
+8-17	558-559	?	_	_
+
+#Text=- Aus Villa Pamfili ist der bacchische Sarkophag sehr schlecht gemacht .
+9-1	560-561	-	_	_
+9-2	562-565	Aus	_	_
+9-3	566-571	Villa	*[10]	PLACEmentioned[10]
+9-4	572-579	Pamfili	*[10]	PLACEmentioned[10]
+9-5	580-583	ist	_	_
+9-6	584-587	der	_	_
+9-7	588-598	bacchische	*[11]	OBJ[11]
+9-8	599-608	Sarkophag	*[11]	OBJ[11]
+9-9	609-613	sehr	_	_
+9-10	614-622	schlecht	_	_
+9-11	623-630	gemacht	_	_
+9-12	631-632	.	_	_
+
+#Text=Der Gladiator ist bei Winckelmann edirt .
+10-1	633-636	Der	_	_
+10-2	637-646	Gladiator	*	OBJ
+10-3	647-650	ist	_	_
+10-4	651-654	bei	_	_
+10-5	655-666	Winckelmann	*	PERmentioned
+10-6	667-672	edirt	_	_
+10-7	673-674	.	_	_
+
+#Text=Ihr Archemoros ist eine exemplarische Monographie .
+11-1	675-678	Ihr	_	_
+11-2	679-689	Archemoros	*	OBJ
+11-3	690-693	ist	_	_
+11-4	694-698	eine	_	_
+11-5	699-712	exemplarische	_	_
+11-6	713-724	Monographie	_	_
+11-7	725-726	.	_	_
+
+#Text=Der Fascinus dürfte wohl nicht ohne Bedeutung sein .
+12-1	727-730	Der	_	_
+12-2	731-739	Fascinus	_	_
+12-3	740-746	dürfte	_	_
+12-4	747-751	wohl	_	_
+12-5	752-757	nicht	_	_
+12-6	758-762	ohne	_	_
+12-7	763-772	Bedeutung	_	_
+12-8	773-777	sein	_	_
+12-9	778-779	.	_	_
+
+#Text=In Neapel ist jetzt ein Opfer des Oenomeas zum Vorschein gekommen , wo derselbe Umstand aus ähnlichen Grund wahrgenommen wird .
+13-1	780-782	In	_	_
+13-2	783-789	Neapel	*	PLACEmentioned
+13-3	790-793	ist	_	_
+13-4	794-799	jetzt	_	_
+13-5	800-803	ein	_	_
+13-6	804-809	Opfer	_	_
+13-7	810-813	des	_	_
+13-8	814-822	Oenomeas	_	_
+13-9	823-826	zum	_	_
+13-10	827-836	Vorschein	_	_
+13-11	837-845	gekommen	_	_
+13-12	846-847	,	_	_
+13-13	848-850	wo	_	_
+13-14	851-859	derselbe	_	_
+13-15	860-867	Umstand	_	_
+13-16	868-871	aus	_	_
+13-17	872-881	ähnlichen	_	_
+13-18	882-887	Grund	_	_
+13-19	888-900	wahrgenommen	_	_
+13-20	901-905	wird	_	_
+13-21	906-907	.	_	_
+
+#Text=- Die Dod Ische ÄAtlasbronze ist Ihrer Zeichnung entsprechend .
+14-1	908-909	-	_	_
+14-2	910-913	Die	_	_
+14-3	914-917	Dod	*[16]	PERmentioned[16]
+14-4	918-923	Ische	*[16]	PERmentioned[16]
+14-5	924-936	ÄAtlasbronze	*	OBJ
+14-6	937-940	ist	_	_
+14-7	941-946	Ihrer	_	_
+14-8	947-956	Zeichnung	_	_
+14-9	957-969	entsprechend	_	_
+14-10	970-971	.	_	_
+
+#Text=Die Angabe der Sterne ist etwas zweifelhaft .
+15-1	972-975	Die	_	_
+15-2	976-982	Angabe	_	_
+15-3	983-986	der	_	_
+15-4	987-993	Sterne	_	_
+15-5	994-997	ist	_	_
+15-6	998-1003	etwas	_	_
+15-7	1004-1015	zweifelhaft	_	_
+15-8	1016-1017	.	_	_
+
+#Text=lanci z . B. wollte sie nicht zugestehen .
+16-1	1018-1023	lanci	*	PERmentioned
+16-2	1024-1025	z	_	_
+16-3	1026-1027	.	_	_
+16-4	1028-1030	B.	_	_
+16-5	1031-1037	wollte	_	_
+16-6	1038-1041	sie	_	_
+16-7	1042-1047	nicht	_	_
+16-8	1048-1058	zugestehen	_	_
+16-9	1059-1060	.	_	_
+
+#Text=Ueber andere Einzelheiten später .
+17-1	1061-1066	Ueber	_	_
+17-2	1067-1073	andere	_	_
+17-3	1074-1086	Einzelheiten	_	_
+17-4	1087-1093	später	_	_
+17-5	1094-1095	.	_	_
+
+#Text=Ihre Probedrücke habe ich durchgesehen .
+18-1	1096-1100	Ihre	_	_
+18-2	1101-1112	Probedrücke	_	_
+18-3	1113-1117	habe	_	_
+18-4	1118-1121	ich	_	_
+18-5	1122-1134	durchgesehen	_	_
+18-6	1135-1136	.	_	_
+
+#Text=Der Vortheil kolorirter Abbildungen ist nicht groß , höchstens dazu gut , um das unkundige Publikum zu täuschen .
+19-1	1137-1140	Der	_	_
+19-2	1141-1149	Vortheil	_	_
+19-3	1150-1160	kolorirter	_	_
+19-4	1161-1172	Abbildungen	_	_
+19-5	1173-1176	ist	_	_
+19-6	1177-1182	nicht	_	_
+19-7	1183-1187	groß	_	_
+19-8	1188-1189	,	_	_
+19-9	1190-1199	höchstens	_	_
+19-10	1200-1204	dazu	_	_
+19-11	1205-1208	gut	_	_
+19-12	1209-1210	,	_	_
+19-13	1211-1213	um	_	_
+19-14	1214-1217	das	_	_
+19-15	1218-1227	unkundige	_	_
+19-16	1228-1236	Publikum	_	_
+19-17	1237-1239	zu	_	_
+19-18	1240-1248	täuschen	_	_
+19-19	1249-1250	.	_	_
+
+#Text=Ich besitze Umrißzeichnungen von der Minervageburt und andere von Ihnen edirte Vasen , die eine viel großartisere Idee von den Vasenbildern geben .
+20-1	1251-1254	Ich	_	_
+20-2	1255-1262	besitze	_	_
+20-3	1263-1279	Umrißzeichnungen	_	_
+20-4	1280-1283	von	_	_
+20-5	1284-1287	der	_	_
+20-6	1288-1301	Minervageburt	*	OBJ
+20-7	1302-1305	und	_	_
+20-8	1306-1312	andere	_	_
+20-9	1313-1316	von	_	_
+20-10	1317-1322	Ihnen	_	_
+20-11	1323-1329	edirte	_	_
+20-12	1330-1335	Vasen	_	_
+20-13	1336-1337	,	_	_
+20-14	1338-1341	die	_	_
+20-15	1342-1346	eine	_	_
+20-16	1347-1351	viel	_	_
+20-17	1352-1364	großartisere	_	_
+20-18	1365-1369	Idee	_	_
+20-19	1370-1373	von	_	_
+20-20	1374-1377	den	_	_
+20-21	1378-1390	Vasenbildern	_	_
+20-22	1391-1396	geben	_	_
+20-23	1397-1398	.	_	_
+
+#Text=- Unter Ihren Gigantenkämpfen haben Sie einen Kyknos , der Durand-
+21-1	1399-1400	-	_	_
+21-2	1401-1406	Unter	_	_
+21-3	1407-1412	Ihren	_	_
+21-4	1413-1428	Gigantenkämpfen	*	MISC
+21-5	1429-1434	haben	_	_
+21-6	1435-1438	Sie	_	_
+21-7	1439-1444	einen	_	_
+21-8	1445-1451	Kyknos	*	OBJ
+21-9	1452-1453	,	_	_
+21-10	1454-1457	der	_	_
+21-11	1458-1465	Durand-	*	PERmentioned

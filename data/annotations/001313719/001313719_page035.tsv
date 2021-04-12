@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=14 Gerhard an Henzen Berlin , 3 .
+1-1	0-2	14	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	3	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Januar 1845 andre Rapporti der Adunanze , auch über das Winckelmann Fest um Auszüge daraus durch die Archäologische Zeitung zu geben .
+2-1	34-40	Januar	*[1]	DATEletter[1]
+2-2	41-45	1845	*[1]	DATEletter[1]
+2-3	46-51	andre	_	_
+2-4	52-60	Rapporti	_	_
+2-5	61-64	der	_	_
+2-6	65-73	Adunanze	_	_
+2-7	74-75	,	_	_
+2-8	76-80	auch	_	_
+2-9	81-85	über	_	_
+2-10	86-89	das	_	_
+2-11	90-101	Winckelmann	*	PERmentioned
+2-12	102-106	Fest	_	_
+2-13	107-109	um	_	_
+2-14	110-117	Auszüge	_	_
+2-15	118-124	daraus	_	_
+2-16	125-130	durch	_	_
+2-17	131-134	die	_	_
+2-18	135-149	Archäologische	_	_
+2-19	150-157	Zeitung	_	_
+2-20	158-160	zu	_	_
+2-21	161-166	geben	_	_
+2-22	167-168	.	_	_
+
+#Text=Archivio storico IV hat sich endlich durch Reumont gefunden .
+3-1	169-177	Archivio	_	_
+3-2	178-185	storico	_	_
+3-3	186-188	IV	_	_
+3-4	189-192	hat	_	_
+3-5	193-197	sich	_	_
+3-6	198-205	endlich	_	_
+3-7	206-211	durch	_	_
+3-8	212-219	Reumont	_	_
+3-9	220-228	gefunden	_	_
+3-10	229-230	.	_	_
+
+#Text=Die Formulare mit Millingens Unterschrift erwarte ich und bitte sie in 8° ( 4 fach gebrochen ) zu falten .
+4-1	231-234	Die	_	_
+4-2	235-244	Formulare	_	_
+4-3	245-248	mit	_	_
+4-4	249-259	Millingens	*	PERmentioned
+4-5	260-272	Unterschrift	_	_
+4-6	273-280	erwarte	_	_
+4-7	281-284	ich	_	_
+4-8	285-288	und	_	_
+4-9	289-294	bitte	_	_
+4-10	295-298	sie	_	_
+4-11	299-301	in	_	_
+4-12	302-304	8°	_	_
+4-13	305-306	(	_	_
+4-14	307-308	4	_	_
+4-15	309-313	fach	_	_
+4-16	314-323	gebrochen	_	_
+4-17	324-325	)	_	_
+4-18	326-328	zu	_	_
+4-19	329-335	falten	_	_
+4-20	336-337	.	_	_
+
+#Text=Ihrer Sorgfalt für meine Vasen besten Dank .
+5-1	338-343	Ihrer	_	_
+5-2	344-352	Sorgfalt	_	_
+5-3	353-356	für	_	_
+5-4	357-362	meine	_	_
+5-5	363-368	Vasen	*	MISC
+5-6	369-375	besten	_	_
+5-7	376-380	Dank	_	_
+5-8	381-382	.	_	_
+
+#Text=Wie viel ich dem Restaurator versprach - ich dachte gerade so viel als ich Ihnen dazu zurückließ - wird wol auch Ihnen erinnerlich sein \; ist es aber der Billigkeit gemäß , so kann ich gern noch ‘ etliche Thaler zulegen .
+6-1	383-386	Wie	_	_
+6-2	387-391	viel	_	_
+6-3	392-395	ich	_	_
+6-4	396-399	dem	_	_
+6-5	400-411	Restaurator	_	_
+6-6	412-421	versprach	_	_
+6-7	422-423	-	_	_
+6-8	424-427	ich	_	_
+6-9	428-434	dachte	_	_
+6-10	435-441	gerade	_	_
+6-11	442-444	so	_	_
+6-12	445-449	viel	_	_
+6-13	450-453	als	_	_
+6-14	454-457	ich	_	_
+6-15	458-463	Ihnen	_	_
+6-16	464-468	dazu	_	_
+6-17	469-479	zurückließ	_	_
+6-18	480-481	-	_	_
+6-19	482-486	wird	_	_
+6-20	487-490	wol	_	_
+6-21	491-495	auch	_	_
+6-22	496-501	Ihnen	_	_
+6-23	502-513	erinnerlich	_	_
+6-24	514-518	sein	_	_
+6-25	519-520	\;	_	_
+6-26	521-524	ist	_	_
+6-27	525-527	es	_	_
+6-28	528-532	aber	_	_
+6-29	533-536	der	_	_
+6-30	537-547	Billigkeit	_	_
+6-31	548-553	gemäß	_	_
+6-32	554-555	,	_	_
+6-33	556-558	so	_	_
+6-34	559-563	kann	_	_
+6-35	564-567	ich	_	_
+6-36	568-572	gern	_	_
+6-37	573-577	noch	_	_
+6-38	578-579	‘	_	_
+6-39	580-587	etliche	_	_
+6-40	588-594	Thaler	_	_
+6-41	595-602	zulegen	_	_
+6-42	603-604	.	_	_
+
+#Text=Zerdetti 's und Promis ' Zahlungen für die längst empfangenen Exemplare meiner Trinkschalen haben Sie wol die Güte gelegentlich noch einmal für mich einzumahnen .
+7-1	605-613	Zerdetti	*[2]	PERmentioned[2]
+7-2	614-616	's	*[2]	PERmentioned[2]
+7-3	617-620	und	_	_
+7-4	621-627	Promis	*	PERmentioned
+7-5	628-629	'	_	_
+7-6	630-639	Zahlungen	_	_
+7-7	640-643	für	_	_
+7-8	644-647	die	_	_
+7-9	648-654	längst	_	_
+7-10	655-666	empfangenen	_	_
+7-11	667-676	Exemplare	_	_
+7-12	677-683	meiner	_	_
+7-13	684-696	Trinkschalen	*	MISC
+7-14	697-702	haben	_	_
+7-15	703-706	Sie	_	_
+7-16	707-710	wol	_	_
+7-17	711-714	die	_	_
+7-18	715-719	Güte	_	_
+7-19	720-732	gelegentlich	_	_
+7-20	733-737	noch	_	_
+7-21	738-744	einmal	_	_
+7-22	745-748	für	_	_
+7-23	749-753	mich	_	_
+7-24	754-765	einzumahnen	_	_
+7-25	766-767	.	_	_
+
+#Text=Ihr Beitrag für meine Bibliographie wird baldigat erwünscht .
+8-1	768-771	Ihr	_	_
+8-2	772-779	Beitrag	_	_
+8-3	780-783	für	_	_
+8-4	784-789	meine	_	_
+8-5	790-803	Bibliographie	_	_
+8-6	804-808	wird	_	_
+8-7	809-817	baldigat	_	_
+8-8	818-827	erwünscht	_	_
+8-9	828-829	.	_	_
+
+#Text=Falbe hatte Ergänzungen für das königlich-dänische Exemplar der Institutswerke erst nachgesucht , dann abbestellt \; er erneut jetzt seine Bestellung und werden Sie wol dafür sorgen daß ihm der Inhalt beigehendem Verzeichnisses baldmöglichst , ich denke durch Brockhaus , zugehe .
+9-1	830-835	Falbe	*	PERmentioned
+9-2	836-841	hatte	_	_
+9-3	842-853	Ergänzungen	_	_
+9-4	854-857	für	_	_
+9-5	858-861	das	_	_
+9-6	862-880	königlich-dänische	_	_
+9-7	881-889	Exemplar	_	_
+9-8	890-893	der	_	_
+9-9	894-908	Institutswerke	_	_
+9-10	909-913	erst	_	_
+9-11	914-925	nachgesucht	_	_
+9-12	926-927	,	_	_
+9-13	928-932	dann	_	_
+9-14	933-943	abbestellt	_	_
+9-15	944-945	\;	_	_
+9-16	946-948	er	_	_
+9-17	949-955	erneut	_	_
+9-18	956-961	jetzt	_	_
+9-19	962-967	seine	_	_
+9-20	968-978	Bestellung	_	_
+9-21	979-982	und	_	_
+9-22	983-989	werden	_	_
+9-23	990-993	Sie	_	_
+9-24	994-997	wol	_	_
+9-25	998-1003	dafür	_	_
+9-26	1004-1010	sorgen	_	_
+9-27	1011-1014	daß	_	_
+9-28	1015-1018	ihm	_	_
+9-29	1019-1022	der	_	_
+9-30	1023-1029	Inhalt	_	_
+9-31	1030-1041	beigehendem	_	_
+9-32	1042-1056	Verzeichnisses	_	_
+9-33	1057-1070	baldmöglichst	_	_
+9-34	1071-1072	,	_	_
+9-35	1073-1076	ich	_	_
+9-36	1077-1082	denke	_	_
+9-37	1083-1088	durch	_	_
+9-38	1089-1098	Brockhaus	*	ORGmentioned
+9-39	1099-1100	,	_	_
+9-40	1101-1107	zugehe	_	_
+9-41	1108-1109	.	_	_
+
+#Text=Horkel war eben bei mir und grüßt bestens .
+10-1	1110-1116	Horkel	*	PERmentioned
+10-2	1117-1120	war	_	_
+10-3	1121-1125	eben	_	_
+10-4	1126-1129	bei	_	_
+10-5	1130-1133	mir	_	_
+10-6	1134-1137	und	_	_
+10-7	1138-1143	grüßt	_	_
+10-8	1144-1151	bestens	_	_
+10-9	1152-1153	.	_	_

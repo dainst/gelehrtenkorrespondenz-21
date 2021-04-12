@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 23 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom|PLACEmentioned
+1-5	24-25	,	_	_
+1-6	26-28	23	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 Dr. Braun Berlin 23 Okt 34 Da Sie mein theurer Freund Berlins Gewürn kennen und die Stimmung die sich daraus bildet so haben Sie wol noch ein wenig Geduld bis meine Mittheilungen regelmäßiger werden .
+2-1	31-38	Oktober	*[4]	DATEletter[4]
+2-2	39-43	1834	*[4]	DATEletter[4]
+2-3	44-47	Dr.	_	_
+2-4	48-53	Braun	*	PERaddressee
+2-5	54-60	Berlin	*	PLACEfrom
+2-6	61-63	23	*[7]	DATEletter[7]
+2-7	64-67	Okt	*[7]	DATEletter[7]
+2-8	68-70	34	*[7]	DATEletter[7]
+2-9	71-73	Da	_	_
+2-10	74-77	Sie	_	_
+2-11	78-82	mein	_	_
+2-12	83-90	theurer	_	_
+2-13	91-97	Freund	_	_
+2-14	98-105	Berlins	_	_
+2-15	106-112	Gewürn	_	_
+2-16	113-119	kennen	_	_
+2-17	120-123	und	_	_
+2-18	124-127	die	_	_
+2-19	128-136	Stimmung	_	_
+2-20	137-140	die	_	_
+2-21	141-145	sich	_	_
+2-22	146-152	daraus	_	_
+2-23	153-159	bildet	_	_
+2-24	160-162	so	_	_
+2-25	163-168	haben	_	_
+2-26	169-172	Sie	_	_
+2-27	173-176	wol	_	_
+2-28	177-181	noch	_	_
+2-29	182-185	ein	_	_
+2-30	186-191	wenig	_	_
+2-31	192-198	Geduld	_	_
+2-32	199-202	bis	_	_
+2-33	203-208	meine	_	_
+2-34	209-222	Mittheilungen	_	_
+2-35	223-235	regelmäßiger	_	_
+2-36	236-242	werden	_	_
+2-37	243-244	.	_	_
+
+#Text=In tanto Vi prego di prevenire i Sigg .
+3-1	245-247	In	_	_
+3-2	248-253	tanto	_	_
+3-3	254-256	Vi	_	_
+3-4	257-262	prego	_	_
+3-5	263-265	di	_	_
+3-6	266-275	prevenire	_	_
+3-7	276-277	i	_	_
+3-8	278-282	Sigg	_	_
+3-9	283-284	.	_	_
+
+#Text=Campanari ( con tanti miei complimenti ) ch'io sono qui giunto ed ho preparato subito alcuni passi per raccomandare l'acquisto de- noti oggetti .
+4-1	285-294	Campanari	*	PERmentioned
+4-2	295-296	(	_	_
+4-3	297-300	con	_	_
+4-4	301-306	tanti	_	_
+4-5	307-311	miei	_	_
+4-6	312-323	complimenti	_	_
+4-7	324-325	)	_	_
+4-8	326-331	ch'io	_	_
+4-9	332-336	sono	_	_
+4-10	337-340	qui	_	_
+4-11	341-347	giunto	_	_
+4-12	348-350	ed	_	_
+4-13	351-353	ho	_	_
+4-14	354-363	preparato	_	_
+4-15	364-370	subito	_	_
+4-16	371-377	alcuni	_	_
+4-17	378-383	passi	_	_
+4-18	384-387	per	_	_
+4-19	388-400	raccomandare	_	_
+4-20	401-411	l'acquisto	_	_
+4-21	412-415	de-	_	_
+4-22	416-420	noti	_	_
+4-23	421-428	oggetti	_	_
+4-24	429-430	.	_	_
+
+#Text=Le circostanze non sono molto favorevoli , le facende vanno lentamente ed i prezzi messi in nota sotto i disegni spaventano alquanto , specialmente quello del Borea .
+5-1	431-433	Le	_	_
+5-2	434-445	circostanze	_	_
+5-3	446-449	non	_	_
+5-4	450-454	sono	_	_
+5-5	455-460	molto	_	_
+5-6	461-471	favorevoli	_	_
+5-7	472-473	,	_	_
+5-8	474-476	le	_	_
+5-9	477-484	facende	_	_
+5-10	485-490	vanno	_	_
+5-11	491-501	lentamente	_	_
+5-12	502-504	ed	_	_
+5-13	505-506	i	_	_
+5-14	507-513	prezzi	_	_
+5-15	514-519	messi	_	_
+5-16	520-522	in	_	_
+5-17	523-527	nota	_	_
+5-18	528-533	sotto	_	_
+5-19	534-535	i	_	_
+5-20	536-543	disegni	_	_
+5-21	544-554	spaventano	_	_
+5-22	555-563	alquanto	_	_
+5-23	564-565	,	_	_
+5-24	566-578	specialmente	_	_
+5-25	579-585	quello	_	_
+5-26	586-589	del	_	_
+5-27	590-595	Borea	*	OBJ
+5-28	596-597	.	_	_
+
+#Text=Spero tuttavia di effettuare l'acquisto , e lo desidero sopratutto pel caso del Borea e per la tazza dell'antropofago .
+6-1	598-603	Spero	_	_
+6-2	604-612	tuttavia	_	_
+6-3	613-615	di	_	_
+6-4	616-626	effettuare	_	_
+6-5	627-637	l'acquisto	_	_
+6-6	638-639	,	_	_
+6-7	640-641	e	_	_
+6-8	642-644	lo	_	_
+6-9	645-653	desidero	_	_
+6-10	654-664	sopratutto	_	_
+6-11	665-668	pel	_	_
+6-12	669-673	caso	_	_
+6-13	674-677	del	_	_
+6-14	678-683	Borea	*	OBJ
+6-15	684-685	e	_	_
+6-16	686-689	per	_	_
+6-17	690-692	la	_	_
+6-18	693-698	tazza	*[12]	OBJ[12]
+6-19	699-715	dell'antropofago	*[12]	OBJ[12]
+6-20	716-717	.	_	_
+
+#Text=Riguardo a questa ultima , piasera d'intehdermi coi SS & \; .
+7-1	718-726	Riguardo	_	_
+7-2	727-728	a	_	_
+7-3	729-735	questa	_	_
+7-4	736-742	ultima	_	_
+7-5	743-744	,	_	_
+7-6	745-752	piasera	_	_
+7-7	753-765	d'intehdermi	_	_
+7-8	766-769	coi	_	_
+7-9	770-772	SS	_	_
+7-10	773-774	&	_	_
+7-11	775-776	\;	_	_
+7-12	777-778	.	_	_
+
+#Text=Canpanari anche direttamente , nel caso che il carteggio uffiziale si prolungasse soverchianmente .
+8-1	779-788	Canpanari	*	PERmentioned
+8-2	789-794	anche	_	_
+8-3	795-807	direttamente	_	_
+8-4	808-809	,	_	_
+8-5	810-813	nel	_	_
+8-6	814-818	caso	_	_
+8-7	819-822	che	_	_
+8-8	823-825	il	_	_
+8-9	826-835	carteggio	_	_
+8-10	836-845	uffiziale	_	_
+8-11	846-848	si	_	_
+8-12	849-860	prolungasse	_	_
+8-13	861-876	soverchianmente	_	_
+8-14	877-878	.	_	_
+
+#Text=Vorgelesen oder abgeschrieben wird obige Stelle bei Campanaris zweckmäßiger ankommen als in einem direkten Briefe \; die Tazza gefällt hier sehr und ich wünschte doch sehr daß Durand sie nicht wegschnappte : die 350 Scudi gehen wol auf 250 herunter .
+9-1	879-889	Vorgelesen	_	_
+9-2	890-894	oder	_	_
+9-3	895-908	abgeschrieben	_	_
+9-4	909-913	wird	_	_
+9-5	914-919	obige	_	_
+9-6	920-926	Stelle	_	_
+9-7	927-930	bei	_	_
+9-8	931-941	Campanaris	*	PERmentioned
+9-9	942-954	zweckmäßiger	_	_
+9-10	955-963	ankommen	_	_
+9-11	964-967	als	_	_
+9-12	968-970	in	_	_
+9-13	971-976	einem	_	_
+9-14	977-985	direkten	_	_
+9-15	986-992	Briefe	_	_
+9-16	993-994	\;	_	_
+9-17	995-998	die	_	_
+9-18	999-1004	Tazza	*	OBJ
+9-19	1005-1012	gefällt	_	_
+9-20	1013-1017	hier	_	_
+9-21	1018-1022	sehr	_	_
+9-22	1023-1026	und	_	_
+9-23	1027-1030	ich	_	_
+9-24	1031-1039	wünschte	_	_
+9-25	1040-1044	doch	_	_
+9-26	1045-1049	sehr	_	_
+9-27	1050-1053	daß	_	_
+9-28	1054-1060	Durand	*	PERmentioned
+9-29	1061-1064	sie	_	_
+9-30	1065-1070	nicht	_	_
+9-31	1071-1083	wegschnappte	_	_
+9-32	1084-1085	:	_	_
+9-33	1086-1089	die	_	_
+9-34	1090-1093	350	_	_
+9-35	1094-1099	Scudi	_	_
+9-36	1100-1105	gehen	_	_
+9-37	1106-1109	wol	_	_
+9-38	1110-1113	auf	_	_
+9-39	1114-1117	250	_	_
+9-40	1118-1126	herunter	_	_
+9-41	1127-1128	.	_	_
+
+#Text=Wie steht es mit meinen Restaurationen ?
+10-1	1129-1132	Wie	_	_
+10-2	1133-1138	steht	_	_
+10-3	1139-1141	es	_	_
+10-4	1142-1145	mit	_	_
+10-5	1146-1152	meinen	_	_
+10-6	1153-1167	Restaurationen	_	_
+10-7	1168-1169	?	_	_
+
+#Text=Der großen Bacchischen Vase und
+11-1	1170-1173	Der	_	_
+11-2	1174-1180	großen	_	_
+11-3	1181-1192	Bacchischen	*[17]	OBJ[17]
+11-4	1193-1197	Vase	*[17]	OBJ[17]
+11-5	1198-1201	und	_	_

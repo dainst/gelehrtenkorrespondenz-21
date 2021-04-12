@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=849 - 7 - Braun an Gerhard Rom , 29. November 1834 Böcking .
+1-1	0-3	849	_	_
+1-2	4-5	-	_	_
+1-3	6-7	7	_	_
+1-4	8-9	-	_	_
+1-5	10-15	Braun	*	PERauthor
+1-6	16-18	an	_	_
+1-7	19-26	Gerhard	*	PERaddressee
+1-8	27-30	Rom	*	PLACEfrom
+1-9	31-32	,	_	_
+1-10	33-36	29.	*[1]	DATEletter[1]
+1-11	37-45	November	*[1]	DATEletter[1]
+1-12	46-50	1834	*[1]	DATEletter[1]
+1-13	51-58	Böcking	*	PERmentioned
+1-14	59-60	.	_	_
+
+#Text=1831 .
+2-1	61-65	1831	*[2]	LIT[2]
+2-2	66-67	.	*[2]	LIT[2]
+
+#Text=12° , Maeciani , L .
+3-1	68-71	12°	*[2]	LIT[2]
+3-2	72-73	,	_	_
+3-3	74-82	Maeciani	*[3]	PERmentioned[3]
+3-4	83-84	,	*[3]	PERmentioned[3]
+3-5	85-86	L	*[3]	PERmentioned[3]
+3-6	87-88	.	*[3]	PERmentioned[3]
+
+#Text=Volusii , assis distributio et Balbi Mensoris de asse libellus .
+4-1	89-96	Volusii	*[4]	LIT[4]
+4-2	97-98	,	*[4]	LIT[4]
+4-3	99-104	assis	*[4]	LIT[4]
+4-4	105-116	distributio	*[4]	LIT[4]
+4-5	117-119	et	*[4]	LIT[4]
+4-6	120-125	Balbi	*[4]	LIT[4]
+4-7	126-134	Mensoris	*[4]	LIT[4]
+4-8	135-137	de	*[4]	LIT[4]
+4-9	138-142	asse	*[4]	LIT[4]
+4-10	143-151	libellus	*[4]	LIT[4]
+4-11	152-153	.	*[4]	LIT[4]
+
+#Text=Emend .
+5-1	154-159	Emend	*[4]	LIT[4]
+5-2	160-161	.	*[4]	LIT[4]
+
+#Text=et annot .
+6-1	162-164	et	*[4]	LIT[4]
+6-2	165-170	annot	*[4]	LIT[4]
+6-3	171-172	.	*[4]	LIT[4]
+
+#Text=Tom .
+7-1	173-176	Tom	*[4]	LIT[4]
+7-2	177-178	.	*[4]	LIT[4]
+
+#Text=Elioc .
+8-1	179-184	Elioc	*[4]	LIT[4]
+8-2	185-186	.	*[4]	LIT[4]
+
+#Text=Vineti et Jo .
+9-1	187-193	Vineti	*[4]	LIT[4]
+9-2	194-196	et	*[4]	LIT[4]
+9-3	197-199	Jo	*[4]	LIT[4]
+9-4	200-201	.	*[4]	LIT[4]
+
+#Text=Fr. Gronovii kam sua ipsiu tabulisque instr .
+10-1	202-205	Fr.	*[4]	LIT[4]
+10-2	206-214	Gronovii	*[4]	LIT[4]
+10-3	215-218	kam	*[4]	LIT[4]
+10-4	219-222	sua	*[4]	LIT[4]
+10-5	223-228	ipsiu	*[4]	LIT[4]
+10-6	229-239	tabulisque	*[4]	LIT[4]
+10-7	240-245	instr	*[4]	LIT[4]
+10-8	246-247	.	*[4]	LIT[4]
+
+#Text=Ed .
+11-1	248-250	Ed	*[4]	LIT[4]
+11-2	251-252	.	*[4]	LIT[4]
+
+#Text=Böcking .
+12-1	253-260	Böcking	*[4]|*[5]	LIT[4]|PERmentioned[5]
+12-2	261-262	.	*[4]	LIT[4]
+
+#Text=1831 .
+13-1	263-267	1831	*[4]	LIT[4]
+13-2	268-269	.	*[4]	LIT[4]
+
+#Text=12° .
+14-1	270-273	12°	*[4]	LIT[4]
+14-2	274-275	.	_	_
+
+#Text=Ulpiani , Domitii , fragmenta qua dicuntur tituli ex corpore Ulpiani .
+15-1	276-283	Ulpiani	*[6]	PERmentioned[6]
+15-2	284-285	,	*[6]	PERmentioned[6]
+15-3	286-293	Domitii	*[6]	PERmentioned[6]
+15-4	294-295	,	*[7]	LIT[7]
+15-5	296-305	fragmenta	*[7]	LIT[7]
+15-6	306-309	qua	*[7]	LIT[7]
+15-7	310-318	dicuntur	*[7]	LIT[7]
+15-8	319-325	tituli	*[7]	LIT[7]
+15-9	326-328	ex	*[7]	LIT[7]
+15-10	329-336	corpore	*[7]	LIT[7]
+15-11	337-344	Ulpiani	*[7]	LIT[7]
+15-12	345-346	.	*[7]	LIT[7]
+
+#Text=Ex recogn .
+16-1	347-349	Ex	*[7]	LIT[7]
+16-2	350-356	recogn	*[7]	LIT[7]
+16-3	357-358	.	*[7]	LIT[7]
+
+#Text=F.C .
+17-1	359-362	F.C	*[7]	LIT[7]
+17-2	363-364	.	*[7]	LIT[7]
+
+#Text=Bluntschli ed .
+18-1	365-375	Bluntschli	*[7]|*[8]	LIT[7]|PERmentioned[8]
+18-2	376-378	ed	*[7]	LIT[7]
+18-3	379-380	.	*[7]	LIT[7]
+
+#Text=Ed .
+19-1	381-383	Ed	*[7]	LIT[7]
+19-2	384-385	.	*[7]	LIT[7]
+
+#Text=Böcking .
+20-1	386-393	Böcking	*[7]|*[9]	LIT[7]|PERmentioned[9]
+20-2	394-395	.	*[7]	LIT[7]
+
+#Text=Accad .
+21-1	396-401	Accad	*[7]	LIT[7]
+21-2	402-403	.	*[7]	LIT[7]
+
+#Text=fragm .
+22-1	404-409	fragm	*[7]	LIT[7]
+22-2	410-411	.	*[7]	LIT[7]
+
+#Text=Sesti Pomponii , fragmenta vet .
+23-1	412-417	Sesti	*[7]	LIT[7]
+23-2	418-426	Pomponii	*[7]	LIT[7]
+23-3	427-428	,	*[7]	LIT[7]
+23-4	429-438	fragmenta	*[7]	LIT[7]
+23-5	439-442	vet	*[7]	LIT[7]
+23-6	443-444	.	*[7]	LIT[7]
+
+#Text=Juriscons .
+24-1	445-454	Juriscons	*[7]	LIT[7]
+24-2	455-456	.	*[7]	LIT[7]
+
+#Text=ut quibusdam videtur Julii Pauli de jure fisci et fgm .
+25-1	457-459	ut	*[7]	LIT[7]
+25-2	460-469	quibusdam	*[7]	LIT[7]
+25-3	470-477	videtur	*[7]	LIT[7]
+25-4	478-483	Julii	*[7]	LIT[7]
+25-5	484-489	Pauli	*[7]	LIT[7]
+25-6	490-492	de	*[7]	LIT[7]
+25-7	493-497	jure	*[7]	LIT[7]
+25-8	498-503	fisci	*[7]	LIT[7]
+25-9	504-506	et	*[7]	LIT[7]
+25-10	507-510	fgm	*[7]	LIT[7]
+25-11	511-512	.	*[7]	LIT[7]
+
+#Text=Herennii Modestini .
+26-1	513-521	Herennii	*[7]	LIT[7]
+26-2	522-531	Modestini	*[7]	LIT[7]
+26-3	532-533	.	*[7]	LIT[7]
+
+#Text=Cura Ed .
+27-1	534-538	Cura	*[7]	LIT[7]
+27-2	539-541	Ed	*[7]	LIT[7]
+27-3	542-543	.	*[7]	LIT[7]
+
+#Text=Böcking .
+28-1	544-551	Böcking	*[7]|*[10]	LIT[7]|PERmentioned[10]
+28-2	552-553	.	*[7]	LIT[7]
+
+#Text=1831.12° , Zahn kommt aufs Frühjahr nach Berlin .
+29-1	554-562	1831.12°	*[7]	LIT[7]
+29-2	563-564	,	*[7]	LIT[7]
+29-3	565-569	Zahn	*	PERmentioned
+29-4	570-575	kommt	_	_
+29-5	576-580	aufs	_	_
+29-6	581-589	Frühjahr	*	DATEmentioned
+29-7	590-594	nach	_	_
+29-8	595-601	Berlin	*	PLACEmentioned
+29-9	602-603	.	_	_
+
+#Text=Brockhaus zeigt an nichts über die Institutswerke gehört zu haben \; wollten Sie seine Hilfe , so müße er um baldige Anzeige bitten , da er seine Anzeige vor Ende des J , in Ordnung haben müße .
+30-1	604-613	Brockhaus	*	PERmentioned
+30-2	614-619	zeigt	_	_
+30-3	620-622	an	_	_
+30-4	623-629	nichts	_	_
+30-5	630-634	über	_	_
+30-6	635-638	die	_	_
+30-7	639-653	Institutswerke	*	LIT
+30-8	654-660	gehört	_	_
+30-9	661-663	zu	_	_
+30-10	664-669	haben	_	_
+30-11	670-671	\;	_	_
+30-12	672-679	wollten	_	_
+30-13	680-683	Sie	_	_
+30-14	684-689	seine	_	_
+30-15	690-695	Hilfe	_	_
+30-16	696-697	,	_	_
+30-17	698-700	so	_	_
+30-18	701-705	müße	_	_
+30-19	706-708	er	_	_
+30-20	709-711	um	_	_
+30-21	712-719	baldige	_	_
+30-22	720-727	Anzeige	_	_
+30-23	728-734	bitten	_	_
+30-24	735-736	,	_	_
+30-25	737-739	da	_	_
+30-26	740-742	er	_	_
+30-27	743-748	seine	_	_
+30-28	749-756	Anzeige	_	_
+30-29	757-760	vor	_	_
+30-30	761-765	Ende	_	_
+30-31	766-769	des	_	_
+30-32	770-771	J	_	_
+30-33	772-773	,	_	_
+30-34	774-776	in	_	_
+30-35	777-784	Ordnung	_	_
+30-36	785-790	haben	_	_
+30-37	791-795	müße	_	_
+30-38	796-797	.	_	_
+
+#Text=Ist von Jacobis myth .
+31-1	798-801	Ist	_	_
+31-2	802-805	von	_	_
+31-3	806-813	Jacobis	*	PERmentioned
+31-4	814-818	myth	_	_
+31-5	819-820	.	_	_
+
+#Text=Wörterbuch der 2 , Theil noch nicht erschienen .
+32-1	821-831	Wörterbuch	*[11]	LIT[11]
+32-2	832-835	der	_	_
+32-3	836-837	2	_	_
+32-4	838-839	,	_	_
+32-5	840-845	Theil	_	_
+32-6	846-850	noch	_	_
+32-7	851-856	nicht	_	_
+32-8	857-867	erschienen	_	_
+32-9	868-869	.	_	_
+
+#Text=Ich wünsche ihn schleunisst .
+33-1	870-873	Ich	_	_
+33-2	874-881	wünsche	_	_
+33-3	882-885	ihn	_	_
+33-4	886-897	schleunisst	_	_
+33-5	898-899	.	_	_
+
+#Text=Ebenso wenn etwas von Müller 's Bilderbuch erschienen wäre , zum Behuf der Vorlesungen , so liederlich die Arbeit ist , so hilfts doch immer .
+34-1	900-906	Ebenso	_	_
+34-2	907-911	wenn	_	_
+34-3	912-917	etwas	_	_
+34-4	918-921	von	_	_
+34-5	922-928	Müller	*	PERmentioned
+34-6	929-931	's	_	_
+34-7	932-942	Bilderbuch	*	LIT
+34-8	943-953	erschienen	_	_
+34-9	954-958	wäre	_	_
+34-10	959-960	,	_	_
+34-11	961-964	zum	_	_
+34-12	965-970	Behuf	_	_
+34-13	971-974	der	_	_
+34-14	975-986	Vorlesungen	_	_
+34-15	987-988	,	_	_
+34-16	989-991	so	_	_
+34-17	992-1002	liederlich	_	_
+34-18	1003-1006	die	_	_
+34-19	1007-1013	Arbeit	_	_
+34-20	1014-1017	ist	_	_
+34-21	1018-1019	,	_	_
+34-22	1020-1022	so	_	_
+34-23	1023-1029	hilfts	_	_
+34-24	1030-1034	doch	_	_
+34-25	1035-1040	immer	_	_
+34-26	1041-1042	.	_	_
+
+#Text=Die neue Ausgabe des Handbuchs habe ich schon mehramsl erinnert .
+35-1	1043-1046	Die	_	_
+35-2	1047-1051	neue	_	_
+35-3	1052-1059	Ausgabe	_	_
+35-4	1060-1063	des	_	_
+35-5	1064-1073	Handbuchs	_	_
+35-6	1074-1078	habe	_	_
+35-7	1079-1082	ich	_	_
+35-8	1083-1088	schon	_	_
+35-9	1089-1097	mehramsl	_	_
+35-10	1098-1106	erinnert	_	_
+35-11	1107-1108	.	_	_

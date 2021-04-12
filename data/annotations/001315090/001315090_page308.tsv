@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=150 Lepsius an Henzen Berlin , 24. März 1877 g . 17/3 77 r. Herrn Prof. Henzen Berlin , den 14. März 1877 Verehrter Freund Wir haben in unsrer gestrigen Sitzung einige Präliminarien wegen des Testamentes besprochen .
+1-1	0-3	150	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	24.	*[3]	DATEletter[3]
+1-8	35-39	März	*[3]	DATEletter[3]
+1-9	40-44	1877	*[3]	DATEletter[3]
+1-10	45-46	g	_	_
+1-11	47-48	.	_	_
+1-12	49-53	17/3	*[4]	DATErecieved[4]
+1-13	54-56	77	*[4]	DATErecieved[4]
+1-14	57-59	r.	_	_
+1-15	60-65	Herrn	_	_
+1-16	66-71	Prof.	_	_
+1-17	72-78	Henzen	*	PERaddressee
+1-18	79-85	Berlin	*	PLACEfrom
+1-19	86-87	,	_	_
+1-20	88-91	den	_	_
+1-21	92-95	14.	*[5]	DATEletter[5]
+1-22	96-100	März	*[5]	DATEletter[5]
+1-23	101-105	1877	*[5]	DATEletter[5]
+1-24	106-115	Verehrter	_	_
+1-25	116-122	Freund	_	_
+1-26	123-126	Wir	_	_
+1-27	127-132	haben	_	_
+1-28	133-135	in	_	_
+1-29	136-142	unsrer	_	_
+1-30	143-152	gestrigen	_	_
+1-31	153-160	Sitzung	_	_
+1-32	161-167	einige	_	_
+1-33	168-181	Präliminarien	_	_
+1-34	182-187	wegen	_	_
+1-35	188-191	des	_	_
+1-36	192-203	Testamentes	_	_
+1-37	204-214	besprochen	_	_
+1-38	215-216	.	_	_
+
+#Text=Da wäre es uns zunächst nöthig zu wissen , wie es mit einer möglichen Präklusivfrist in Bezug auf die Annahme des Legates nach Italienischem resp .
+2-1	217-219	Da	_	_
+2-2	220-224	wäre	_	_
+2-3	225-227	es	_	_
+2-4	228-231	uns	_	_
+2-5	232-240	zunächst	_	_
+2-6	241-247	nöthig	_	_
+2-7	248-250	zu	_	_
+2-8	251-257	wissen	_	_
+2-9	258-259	,	_	_
+2-10	260-263	wie	_	_
+2-11	264-266	es	_	_
+2-12	267-270	mit	_	_
+2-13	271-276	einer	_	_
+2-14	277-286	möglichen	_	_
+2-15	287-301	Präklusivfrist	_	_
+2-16	302-304	in	_	_
+2-17	305-310	Bezug	_	_
+2-18	311-314	auf	_	_
+2-19	315-318	die	_	_
+2-20	319-326	Annahme	_	_
+2-21	327-330	des	_	_
+2-22	331-338	Legates	_	_
+2-23	339-343	nach	_	_
+2-24	344-357	Italienischem	*	PLACEmentioned
+2-25	358-362	resp	_	_
+2-26	363-364	.	_	_
+
+#Text=auch Russischem Rechte steht um danach zu beurtheilen , wie eilig wir hier vorgehen müssen .
+3-1	365-369	auch	_	_
+3-2	370-380	Russischem	_	_
+3-3	381-387	Rechte	_	_
+3-4	388-393	steht	_	_
+3-5	394-396	um	_	_
+3-6	397-403	danach	_	_
+3-7	404-406	zu	_	_
+3-8	407-418	beurtheilen	_	_
+3-9	419-420	,	_	_
+3-10	421-424	wie	_	_
+3-11	425-430	eilig	_	_
+3-12	431-434	wir	_	_
+3-13	435-439	hier	_	_
+3-14	440-448	vorgehen	_	_
+3-15	449-455	müssen	_	_
+3-16	456-457	.	_	_
+
+#Text=Lassen Sie mich daher so bald wie möglich wissen , was Sie darüber in Rom ermitteln können .
+4-1	458-464	Lassen	_	_
+4-2	465-468	Sie	_	_
+4-3	469-473	mich	_	_
+4-4	474-479	daher	_	_
+4-5	480-482	so	_	_
+4-6	483-487	bald	_	_
+4-7	488-491	wie	_	_
+4-8	492-499	möglich	_	_
+4-9	500-506	wissen	_	_
+4-10	507-508	,	_	_
+4-11	509-512	was	_	_
+4-12	513-516	Sie	_	_
+4-13	517-524	darüber	_	_
+4-14	525-527	in	_	_
+4-15	528-531	Rom	*	PLACEmentioned
+4-16	532-541	ermitteln	_	_
+4-17	542-548	können	_	_
+4-18	549-550	.	_	_
+
+#Text=Eine Deutsche Übersetzung werden wir hier nur nach Eingang Ihrer vidimirten Abschrift besorgen .
+5-1	551-555	Eine	_	_
+5-2	556-564	Deutsche	_	_
+5-3	565-576	Übersetzung	_	_
+5-4	577-583	werden	_	_
+5-5	584-587	wir	_	_
+5-6	588-592	hier	_	_
+5-7	593-596	nur	_	_
+5-8	597-601	nach	_	_
+5-9	602-609	Eingang	_	_
+5-10	610-615	Ihrer	_	_
+5-11	616-626	vidimirten	_	_
+5-12	627-636	Abschrift	_	_
+5-13	637-645	besorgen	_	_
+5-14	646-647	.	_	_
+
+#Text=- Über die Verlegung unsrer Generalversammlung werden wir in der zunächst bevorstehenden diese selbst beschließen lassen .
+6-1	648-649	-	_	_
+6-2	650-654	Über	_	_
+6-3	655-658	die	_	_
+6-4	659-668	Verlegung	_	_
+6-5	669-675	unsrer	_	_
+6-6	676-694	Generalversammlung	_	_
+6-7	695-701	werden	_	_
+6-8	702-705	wir	_	_
+6-9	706-708	in	_	_
+6-10	709-712	der	_	_
+6-11	713-721	zunächst	_	_
+6-12	722-736	bevorstehenden	_	_
+6-13	737-742	diese	_	_
+6-14	743-749	selbst	_	_
+6-15	750-761	beschließen	_	_
+6-16	762-768	lassen	_	_
+6-17	769-770	.	_	_
+
+#Text=Wir erwarten also Ihren vorläufigen Bericht , der von Köhler bereits eingegangen ist , und den vorläufigen Rechnungsabschluß , so weit Sie ihn bis zur Versammlung übersehen können .
+7-1	771-774	Wir	_	_
+7-2	775-783	erwarten	_	_
+7-3	784-788	also	_	_
+7-4	789-794	Ihren	_	_
+7-5	795-806	vorläufigen	_	_
+7-6	807-814	Bericht	_	_
+7-7	815-816	,	_	_
+7-8	817-820	der	_	_
+7-9	821-824	von	_	_
+7-10	825-831	Köhler	*	PERmentioned
+7-11	832-839	bereits	_	_
+7-12	840-851	eingegangen	_	_
+7-13	852-855	ist	_	_
+7-14	856-857	,	_	_
+7-15	858-861	und	_	_
+7-16	862-865	den	_	_
+7-17	866-877	vorläufigen	_	_
+7-18	878-895	Rechnungsabschluß	_	_
+7-19	896-897	,	_	_
+7-20	898-900	so	_	_
+7-21	901-905	weit	_	_
+7-22	906-909	Sie	_	_
+7-23	910-913	ihn	_	_
+7-24	914-917	bis	_	_
+7-25	918-921	zur	_	_
+7-26	922-933	Versammlung	_	_
+7-27	934-943	übersehen	_	_
+7-28	944-950	können	_	_
+7-29	951-952	.	_	_
+
+#Text=Über Klügmann werden wir wohl eine officielle Äußerung estrahiren können .
+8-1	953-957	Über	_	_
+8-2	958-966	Klügmann	*	PERmentioned
+8-3	967-973	werden	_	_
+8-4	974-977	wir	_	_
+8-5	978-982	wohl	_	_
+8-6	983-987	eine	_	_
+8-7	988-998	officielle	_	_
+8-8	999-1007	Äußerung	_	_
+8-9	1008-1018	estrahiren	_	_
+8-10	1019-1025	können	_	_
+8-11	1026-1027	.	_	_
+
+#Text=In Bezug auf die Äußerungen Helbig 's über sein Verhältnis zur Bibliothek , die Sie uns zunächst wohl nur
+9-1	1028-1030	In	_	_
+9-2	1031-1036	Bezug	_	_
+9-3	1037-1040	auf	_	_
+9-4	1041-1044	die	_	_
+9-5	1045-1055	Äußerungen	_	_
+9-6	1056-1062	Helbig	*[6]	PERmentioned[6]
+9-7	1063-1065	's	*[6]	PERmentioned[6]
+9-8	1066-1070	über	_	_
+9-9	1071-1075	sein	_	_
+9-10	1076-1086	Verhältnis	_	_
+9-11	1087-1090	zur	_	_
+9-12	1091-1101	Bibliothek	*	ORGmentioned
+9-13	1102-1103	,	_	_
+9-14	1104-1107	die	_	_
+9-15	1108-1111	Sie	_	_
+9-16	1112-1115	uns	_	_
+9-17	1116-1124	zunächst	_	_
+9-18	1125-1129	wohl	_	_
+9-19	1130-1133	nur	_	_

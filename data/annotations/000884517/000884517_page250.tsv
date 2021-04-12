@@ -1,0 +1,89 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 26 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	26	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1848 um Fortsetzung des Gehaltes zu pressen : denn von dort aus muß diese Angelegenheit künftig allein betrieben werden , so daß ich hier höchstens nachhelfe .
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-43	1848	*[1]	DATEletter[1]
+2-3	44-46	um	_	_
+2-4	47-58	Fortsetzung	_	_
+2-5	59-62	des	_	_
+2-6	63-71	Gehaltes	_	_
+2-7	72-74	zu	_	_
+2-8	75-82	pressen	_	_
+2-9	83-84	:	_	_
+2-10	85-89	denn	_	_
+2-11	90-93	von	_	_
+2-12	94-98	dort	_	_
+2-13	99-102	aus	_	_
+2-14	103-106	muß	_	_
+2-15	107-112	diese	_	_
+2-16	113-126	Angelegenheit	_	_
+2-17	127-134	künftig	_	_
+2-18	135-141	allein	_	_
+2-19	142-151	betrieben	_	_
+2-20	152-158	werden	_	_
+2-21	159-160	,	_	_
+2-22	161-163	so	_	_
+2-23	164-167	daß	_	_
+2-24	168-171	ich	_	_
+2-25	172-176	hier	_	_
+2-26	177-186	höchstens	_	_
+2-27	187-196	nachhelfe	_	_
+2-28	197-198	.	_	_
+
+#Text=Wüßte ich Usedom bliebe noch vier Wochen so hätte ich sogar gerathen lieber schon jetzt anzukommen : könnte nichts schaden , wollten Sie 's darauf wagen .
+3-1	199-204	Wüßte	_	_
+3-2	205-208	ich	_	_
+3-3	209-215	Usedom	*	PERmentioned
+3-4	216-222	bliebe	_	_
+3-5	223-227	noch	_	_
+3-6	228-232	vier	_	_
+3-7	233-239	Wochen	_	_
+3-8	240-242	so	_	_
+3-9	243-248	hätte	_	_
+3-10	249-252	ich	_	_
+3-11	253-258	sogar	_	_
+3-12	259-267	gerathen	_	_
+3-13	268-274	lieber	_	_
+3-14	275-280	schon	_	_
+3-15	281-286	jetzt	_	_
+3-16	287-297	anzukommen	_	_
+3-17	298-299	:	_	_
+3-18	300-306	könnte	_	_
+3-19	307-313	nichts	_	_
+3-20	314-321	schaden	_	_
+3-21	322-323	,	_	_
+3-22	324-331	wollten	_	_
+3-23	332-335	Sie	_	_
+3-24	336-338	's	_	_
+3-25	339-345	darauf	_	_
+3-26	346-351	wagen	_	_
+3-27	352-353	.	_	_
+
+#Text=Fünfzig Thaler Ihnen gehörig liegen noch zur Verfügung .
+4-1	354-361	Fünfzig	_	_
+4-2	362-368	Thaler	_	_
+4-3	369-374	Ihnen	_	_
+4-4	375-382	gehörig	_	_
+4-5	383-389	liegen	_	_
+4-6	390-394	noch	_	_
+4-7	395-398	zur	_	_
+4-8	399-408	Verfügung	_	_
+4-9	409-410	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+5-1	411-414	Von	_	_
+5-2	415-421	Herzen	_	_
+5-3	422-425	der	_	_
+5-4	426-432	Ihrige	_	_
+5-5	433-440	Gerhard	*	PERauthor

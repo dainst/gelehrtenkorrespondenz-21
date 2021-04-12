@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=67 Lepsius an Henzen Berlin , 18. März 1873 g . 2U3 73 r . 29/3 Verehrter Freund Der V. Band des C.I.L .
+1-1	0-2	67	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	18.	*[1]	DATEletter[1]
+1-8	34-38	März	*[1]	DATEletter[1]
+1-9	39-43	1873	*[1]	DATEletter[1]
+1-10	44-45	g	_	_
+1-11	46-47	.	_	_
+1-12	48-51	2U3	*[2]	DATErecieved[2]
+1-13	52-54	73	*[2]	DATErecieved[2]
+1-14	55-56	r	_	_
+1-15	57-58	.	_	_
+1-16	59-63	29/3	*	DATEanswered
+1-17	64-73	Verehrter	_	_
+1-18	74-80	Freund	_	_
+1-19	81-84	Der	_	_
+1-20	85-87	V.	_	_
+1-21	88-92	Band	_	_
+1-22	93-96	des	_	_
+1-23	97-102	C.I.L	_	_
+1-24	103-104	.	_	_
+
+#Text=wird Ihnen zugegangen sein durch Asher , oder bald zugehen .
+2-1	105-109	wird	_	_
+2-2	110-115	Ihnen	_	_
+2-3	116-126	zugegangen	_	_
+2-4	127-131	sein	_	_
+2-5	132-137	durch	_	_
+2-6	138-143	Asher	*	PERmentioned
+2-7	144-145	,	_	_
+2-8	146-150	oder	_	_
+2-9	151-155	bald	_	_
+2-10	156-163	zugehen	_	_
+2-11	164-165	.	_	_
+
+#Text=Die Kasse monirt bereits das Inventarisirungs Attest , welches einzuschieben ist .
+3-1	166-169	Die	_	_
+3-2	170-175	Kasse	_	_
+3-3	176-182	monirt	_	_
+3-4	183-190	bereits	_	_
+3-5	191-194	das	_	_
+3-6	195-211	Inventarisirungs	_	_
+3-7	212-218	Attest	_	_
+3-8	219-220	,	_	_
+3-9	221-228	welches	_	_
+3-10	229-242	einzuschieben	_	_
+3-11	243-246	ist	_	_
+3-12	247-248	.	_	_
+
+#Text=Ich habe sie verständigt , daß Sie das Vol . erst haben müßten , ehe Sie es bescheinigen könnten .
+4-1	249-252	Ich	_	_
+4-2	253-257	habe	_	_
+4-3	258-261	sie	_	_
+4-4	262-273	verständigt	_	_
+4-5	274-275	,	_	_
+4-6	276-279	daß	_	_
+4-7	280-283	Sie	_	_
+4-8	284-287	das	_	_
+4-9	288-291	Vol	_	_
+4-10	292-293	.	_	_
+4-11	294-298	erst	_	_
+4-12	299-304	haben	_	_
+4-13	305-311	müßten	_	_
+4-14	312-313	,	_	_
+4-15	314-317	ehe	_	_
+4-16	318-321	Sie	_	_
+4-17	322-324	es	_	_
+4-18	325-337	bescheinigen	_	_
+4-19	338-345	könnten	_	_
+4-20	346-347	.	_	_
+
+#Text=Die Papiere der Epigraphischen Kommission habe ich dem Sekretariat zugestellt .
+5-1	348-351	Die	_	_
+5-2	352-359	Papiere	_	_
+5-3	360-363	der	_	_
+5-4	364-378	Epigraphischen	*[3]	ORGmentioned[3]
+5-5	379-389	Kommission	*[3]	ORGmentioned[3]
+5-6	390-394	habe	_	_
+5-7	395-398	ich	_	_
+5-8	399-402	dem	_	_
+5-9	403-414	Sekretariat	*	ORGmentioned
+5-10	415-425	zugestellt	_	_
+5-11	426-427	.	_	_
+
+#Text=Ihren Rechnungen sehe ich also bald entgegen .
+6-1	428-433	Ihren	_	_
+6-2	434-444	Rechnungen	_	_
+6-3	445-449	sehe	_	_
+6-4	450-453	ich	_	_
+6-5	454-458	also	_	_
+6-6	459-463	bald	_	_
+6-7	464-472	entgegen	_	_
+6-8	473-474	.	_	_
+
+#Text=Die 4 Quittungen will Asher mir sch-icken .
+7-1	475-478	Die	_	_
+7-2	479-480	4	_	_
+7-3	481-491	Quittungen	_	_
+7-4	492-496	will	_	_
+7-5	497-502	Asher	*	PERmentioned
+7-6	503-506	mir	_	_
+7-7	507-516	sch-icken	_	_
+7-8	517-518	.	_	_
+
+#Text=Bunsen hat guten Willen , aber keine glückliche Hand im Empfehlen .
+8-1	519-525	Bunsen	*	PERmentioned
+8-2	526-529	hat	_	_
+8-3	530-535	guten	_	_
+8-4	536-542	Willen	_	_
+8-5	543-544	,	_	_
+8-6	545-549	aber	_	_
+8-7	550-555	keine	_	_
+8-8	556-566	glückliche	_	_
+8-9	567-571	Hand	_	_
+8-10	572-574	im	_	_
+8-11	575-584	Empfehlen	_	_
+8-12	585-586	.	_	_
+
+#Text=.
+9-1	587-588	.	_	_
+
+#Text=Sollte das Medaillon nicht besser auf den Titel Insgemein genommen werden ?
+10-1	589-595	Sollte	_	_
+10-2	596-599	das	_	_
+10-3	600-609	Medaillon	_	_
+10-4	610-615	nicht	_	_
+10-5	616-622	besser	_	_
+10-6	623-626	auf	_	_
+10-7	627-630	den	_	_
+10-8	631-636	Titel	_	_
+10-9	637-646	Insgemein	_	_
+10-10	647-655	genommen	_	_
+10-11	656-662	werden	_	_
+10-12	663-664	?	_	_
+
+#Text=In der Baurechnung könnte es wenigstens nicht namentlich erscheinen \; sondern müßte anonym verrechnet werden \; das geht allerdings sehr wohl .
+11-1	665-667	In	_	_
+11-2	668-671	der	_	_
+11-3	672-683	Baurechnung	_	_
+11-4	684-690	könnte	_	_
+11-5	691-693	es	_	_
+11-6	694-704	wenigstens	_	_
+11-7	705-710	nicht	_	_
+11-8	711-721	namentlich	_	_
+11-9	722-732	erscheinen	_	_
+11-10	733-734	\;	_	_
+11-11	735-742	sondern	_	_
+11-12	743-748	müßte	_	_
+11-13	749-755	anonym	_	_
+11-14	756-766	verrechnet	_	_
+11-15	767-773	werden	_	_
+11-16	774-775	\;	_	_
+11-17	776-779	das	_	_
+11-18	780-784	geht	_	_
+11-19	785-795	allerdings	_	_
+11-20	796-800	sehr	_	_
+11-21	801-805	wohl	_	_
+11-22	806-807	.	_	_
+
+#Text=Was Sie mit Mommsen über die Pensionsfrage besprechen , ist ohne Zweifel zweckmäßig .
+12-1	808-811	Was	_	_
+12-2	812-815	Sie	_	_
+12-3	816-819	mit	_	_
+12-4	820-827	Mommsen	*	PERmentioned
+12-5	828-832	über	_	_
+12-6	833-836	die	_	_
+12-7	837-850	Pensionsfrage	_	_
+12-8	851-861	besprechen	_	_
+12-9	862-863	,	_	_
+12-10	864-867	ist	_	_
+12-11	868-872	ohne	_	_
+12-12	873-880	Zweifel	_	_
+12-13	881-891	zweckmäßig	_	_
+12-14	892-893	.	_	_
+
+#Text=Er hat doch meinen Brief vom 12 . ''
+13-1	894-896	Er	_	_
+13-2	897-900	hat	_	_
+13-3	901-905	doch	_	_
+13-4	906-912	meinen	_	_
+13-5	913-918	Brief	_	_
+13-6	919-922	vom	_	_
+13-7	923-925	12	*[4]	DATEmentioned[4]
+13-8	926-927	.	*[4]	DATEmentioned[4]
+13-9	928-930	''	_	_
+
+#Text=erhalten .
+14-1	931-939	erhalten	_	_
+14-2	940-941	.	_	_
+
+#Text=Die 600 r sind für Preußen abgemacht , vom Januar an zu zahlen .
+15-1	942-945	Die	_	_
+15-2	946-949	600	_	_
+15-3	950-951	r	_	_
+15-4	952-956	sind	_	_
+15-5	957-960	für	_	_
+15-6	961-968	Preußen	*	PLACEmentioned
+15-7	969-978	abgemacht	_	_
+15-8	979-980	,	_	_
+15-9	981-984	vom	_	_
+15-10	985-991	Januar	*	DATEmentioned
+15-11	992-994	an	_	_
+15-12	995-997	zu	_	_
+15-13	998-1004	zahlen	_	_
+15-14	1005-1006	.	_	_
+
+#Text=In circa 4 Wochen werden Sie die officielle Nachricht haben und das Geld erheben können .
+16-1	1007-1009	In	_	_
+16-2	1010-1015	circa	_	_
+16-3	1016-1017	4	_	_
+16-4	1018-1024	Wochen	_	_
+16-5	1025-1031	werden	_	_
+16-6	1032-1035	Sie	_	_
+16-7	1036-1039	die	_	_
+16-8	1040-1050	officielle	_	_
+16-9	1051-1060	Nachricht	_	_
+16-10	1061-1066	haben	_	_
+16-11	1067-1070	und	_	_
+16-12	1071-1074	das	_	_
+16-13	1075-1079	Geld	_	_
+16-14	1080-1087	erheben	_	_
+16-15	1088-1094	können	_	_
+16-16	1095-1096	.	_	_

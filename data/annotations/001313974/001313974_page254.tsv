@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=4419 Helbig an Henzen Siena , 3 .
+1-1	0-4	4419	_	_
+1-2	5-11	Helbig	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-27	Siena	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	3	_	_
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=August 1875 g . 5/8 75 Siena , li 3 .
+2-1	34-40	August	*[1]	DATEletter[1]
+2-2	41-45	1875	*[1]	DATEletter[1]
+2-3	46-47	g	_	_
+2-4	48-49	.	_	_
+2-5	50-53	5/8	*[2]	DATErecieved[2]
+2-6	54-56	75	*[2]	DATErecieved[2]
+2-7	57-62	Siena	*	PLACEfrom
+2-8	63-64	,	_	_
+2-9	65-67	li	_	_
+2-10	68-69	3	*[3]	DATEletter[3]
+2-11	70-71	.	*[3]	DATEletter[3]
+
+#Text=Aug . 1875 Lieber Herr Professor Empfangen Sie umgehend die gewünschte Erklärung .
+3-1	72-75	Aug	*[3]	DATEletter[3]
+3-2	76-77	.	*[3]	DATEletter[3]
+3-3	78-82	1875	*[3]	DATEletter[3]
+3-4	83-89	Lieber	_	_
+3-5	90-94	Herr	_	_
+3-6	95-104	Professor	_	_
+3-7	105-114	Empfangen	_	_
+3-8	115-118	Sie	_	_
+3-9	119-127	umgehend	_	_
+3-10	128-131	die	_	_
+3-11	132-142	gewünschte	_	_
+3-12	143-152	Erklärung	_	_
+3-13	153-154	.	_	_
+
+#Text=Zugleich wollte ich Sie bitten , doch ja Eichler zu veranlassen , möglichst rasch nach Neapel zu gehen .
+4-1	155-163	Zugleich	_	_
+4-2	164-170	wollte	_	_
+4-3	171-174	ich	_	_
+4-4	175-178	Sie	_	_
+4-5	179-185	bitten	_	_
+4-6	186-187	,	_	_
+4-7	188-192	doch	_	_
+4-8	193-195	ja	_	_
+4-9	196-203	Eichler	*	PERmentioned
+4-10	204-206	zu	_	_
+4-11	207-218	veranlassen	_	_
+4-12	219-220	,	_	_
+4-13	221-230	möglichst	_	_
+4-14	231-236	rasch	_	_
+4-15	237-241	nach	_	_
+4-16	242-248	Neapel	*	PLACEmentioned
+4-17	249-251	zu	_	_
+4-18	252-257	gehen	_	_
+4-19	258-259	.	_	_
+
+#Text=Wie mir Robert schreibt , sind Wandbilder von dem höchsten Interesse zu Tage gekommen , die leicht bei einem Unwetter zu Grunde gehen können .
+5-1	260-263	Wie	_	_
+5-2	264-267	mir	_	_
+5-3	268-274	Robert	*	PERmentioned
+5-4	275-283	schreibt	_	_
+5-5	284-285	,	_	_
+5-6	286-290	sind	_	_
+5-7	291-301	Wandbilder	*	OBJ
+5-8	302-305	von	_	_
+5-9	306-309	dem	_	_
+5-10	310-318	höchsten	_	_
+5-11	319-328	Interesse	_	_
+5-12	329-331	zu	_	_
+5-13	332-336	Tage	_	_
+5-14	337-345	gekommen	_	_
+5-15	346-347	,	_	_
+5-16	348-351	die	_	_
+5-17	352-358	leicht	_	_
+5-18	359-362	bei	_	_
+5-19	363-368	einem	_	_
+5-20	369-377	Unwetter	_	_
+5-21	378-380	zu	_	_
+5-22	381-387	Grunde	_	_
+5-23	388-393	gehen	_	_
+5-24	394-400	können	_	_
+5-25	401-402	.	_	_
+
+#Text=Außerdem wäre es der Revision halber zu wünschen , daß die Zeichnungen bald ausgeführt würden \; denn es ist zweifelhaft , wie lange Robert in Fompei bleiben wird .
+6-1	403-411	Außerdem	_	_
+6-2	412-416	wäre	_	_
+6-3	417-419	es	_	_
+6-4	420-423	der	_	_
+6-5	424-432	Revision	_	_
+6-6	433-439	halber	_	_
+6-7	440-442	zu	_	_
+6-8	443-451	wünschen	_	_
+6-9	452-453	,	_	_
+6-10	454-457	daß	_	_
+6-11	458-461	die	_	_
+6-12	462-473	Zeichnungen	_	_
+6-13	474-478	bald	_	_
+6-14	479-489	ausgeführt	_	_
+6-15	490-496	würden	_	_
+6-16	497-498	\;	_	_
+6-17	499-503	denn	_	_
+6-18	504-506	es	_	_
+6-19	507-510	ist	_	_
+6-20	511-522	zweifelhaft	_	_
+6-21	523-524	,	_	_
+6-22	525-528	wie	_	_
+6-23	529-534	lange	_	_
+6-24	535-541	Robert	*	PERmentioned
+6-25	542-544	in	_	_
+6-26	545-551	Fompei	*	PLACEmentioned
+6-27	552-559	bleiben	_	_
+6-28	560-564	wird	_	_
+6-29	565-566	.	_	_
+
+#Text=Robert fragt zugleich an , ob Kekul & die `` Originalzeichnung '' der tarentiner tabula iliaca in Rom hinterlassen .
+7-1	567-573	Robert	*	PERmentioned
+7-2	574-579	fragt	_	_
+7-3	580-588	zugleich	_	_
+7-4	589-591	an	_	_
+7-5	592-593	,	_	_
+7-6	594-596	ob	_	_
+7-7	597-602	Kekul	*	PERmentioned
+7-8	603-604	&	_	_
+7-9	605-608	die	_	_
+7-10	609-611	``	_	_
+7-11	612-629	Originalzeichnung	_	_
+7-12	630-632	''	_	_
+7-13	633-636	der	_	_
+7-14	637-647	tarentiner	*	MISC
+7-15	648-654	tabula	*[4]	OBJ[4]
+7-16	655-661	iliaca	*[4]	OBJ[4]
+7-17	662-664	in	_	_
+7-18	665-668	Rom	*	PLACEmentioned
+7-19	669-681	hinterlassen	_	_
+7-20	682-683	.	_	_
+
+#Text=Mir hat er sie nicht übergeben .
+8-1	684-687	Mir	_	_
+8-2	688-691	hat	_	_
+8-3	692-694	er	_	_
+8-4	695-698	sie	_	_
+8-5	699-704	nicht	_	_
+8-6	705-714	übergeben	_	_
+8-7	715-716	.	_	_
+
+#Text=Vielleicht Ihnen ?
+9-1	717-727	Vielleicht	_	_
+9-2	728-733	Ihnen	_	_
+9-3	734-735	?	_	_
+
+#Text=Übrigens kann auch noch der lucido , welchen ich Ihnen hinterlassen , ganz gut gestochen werden .
+10-1	736-744	Übrigens	_	_
+10-2	745-749	kann	_	_
+10-3	750-754	auch	_	_
+10-4	755-759	noch	_	_
+10-5	760-763	der	_	_
+10-6	764-770	lucido	_	_
+10-7	771-772	,	_	_
+10-8	773-780	welchen	_	_
+10-9	781-784	ich	_	_
+10-10	785-790	Ihnen	_	_
+10-11	791-803	hinterlassen	_	_
+10-12	804-805	,	_	_
+10-13	806-810	ganz	_	_
+10-14	811-814	gut	_	_
+10-15	815-824	gestochen	_	_
+10-16	825-831	werden	_	_
+10-17	832-833	.	_	_
+
+#Text=Auch bei uns ist nunmehr die Hitze eingetreten , die seit drei Tagen ziemlich stark ist .
+11-1	834-838	Auch	_	_
+11-2	839-842	bei	_	_
+11-3	843-846	uns	_	_
+11-4	847-850	ist	_	_
+11-5	851-858	nunmehr	_	_
+11-6	859-862	die	_	_
+11-7	863-868	Hitze	_	_
+11-8	869-880	eingetreten	_	_
+11-9	881-882	,	_	_
+11-10	883-886	die	_	_
+11-11	887-891	seit	_	_
+11-12	892-896	drei	_	_
+11-13	897-902	Tagen	_	_
+11-14	903-911	ziemlich	_	_
+11-15	912-917	stark	_	_
+11-16	918-921	ist	_	_
+11-17	922-923	.	_	_
+
+#Text=Doch wird wohl diese Nacht ein Gewitter abkühlen .
+12-1	924-928	Doch	_	_
+12-2	929-933	wird	_	_
+12-3	934-938	wohl	_	_
+12-4	939-944	diese	_	_
+12-5	945-950	Nacht	_	_
+12-6	951-954	ein	_	_
+12-7	955-963	Gewitter	_	_
+12-8	964-972	abkühlen	_	_
+12-9	973-974	.	_	_
+
+#Text=Jeden Falls bitte ich Sie , spätestens den 14 .
+13-1	975-980	Jeden	_	_
+13-2	981-986	Falls	_	_
+13-3	987-992	bitte	_	_
+13-4	993-996	ich	_	_
+13-5	997-1000	Sie	_	_
+13-6	1001-1002	,	_	_
+13-7	1003-1013	spätestens	_	_
+13-8	1014-1017	den	_	_
+13-9	1018-1020	14	*[5]	DATEmentioned[5]
+13-10	1021-1022	.	*[5]	DATEmentioned[5]
+
+#Text=Abends in Siena einzutreffen , damit Sie das am 15 .
+14-1	1023-1029	Abends	_	_
+14-2	1030-1032	in	_	_
+14-3	1033-1038	Siena	*	PLACEmentioned
+14-4	1039-1051	einzutreffen	_	_
+14-5	1052-1053	,	_	_
+14-6	1054-1059	damit	_	_
+14-7	1060-1063	Sie	_	_
+14-8	1064-1067	das	_	_
+14-9	1068-1070	am	_	_
+14-10	1071-1073	15	*[6]	DATEmentioned[6]
+14-11	1074-1075	.	*[6]	DATEmentioned[6]
+
+#Text=Statt findende Palio ansehen können .
+15-1	1076-1081	Statt	_	_
+15-2	1082-1090	findende	_	_
+15-3	1091-1096	Palio	_	_
+15-4	1097-1104	ansehen	_	_
+15-5	1105-1111	können	_	_
+15-6	1112-1113	.	_	_
+
+#Text=Obwohl im Allgemeinen kein Freund von Volksfesten , werden Sie sich durch den aesthetischen Eindruck , den dieses Fest
+16-1	1114-1120	Obwohl	_	_
+16-2	1121-1123	im	_	_
+16-3	1124-1135	Allgemeinen	_	_
+16-4	1136-1140	kein	_	_
+16-5	1141-1147	Freund	_	_
+16-6	1148-1151	von	_	_
+16-7	1152-1163	Volksfesten	_	_
+16-8	1164-1165	,	_	_
+16-9	1166-1172	werden	_	_
+16-10	1173-1176	Sie	_	_
+16-11	1177-1181	sich	_	_
+16-12	1182-1187	durch	_	_
+16-13	1188-1191	den	_	_
+16-14	1192-1205	aesthetischen	_	_
+16-15	1206-1214	Eindruck	_	_
+16-16	1215-1216	,	_	_
+16-17	1217-1220	den	_	_
+16-18	1221-1227	dieses	_	_
+16-19	1228-1232	Fest	_	_

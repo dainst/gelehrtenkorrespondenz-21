@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=. )
+1-1	0-1	.	_	_
+1-2	2-3	)	_	_
+
+#Text=OO Gerhard an Braun Berlin , 10. Juni 1838 Aff .
+2-1	4-6	OO	_	_
+2-2	7-14	Gerhard	*	PERauthor
+2-3	15-17	an	_	_
+2-4	18-23	Braun	*	PERaddressee
+2-5	24-30	Berlin	*	PLACEfrom
+2-6	31-32	,	_	_
+2-7	33-36	10.	*[4]	DATEletter[4]
+2-8	37-41	Juni	*[4]	DATEletter[4]
+2-9	42-46	1838	*[4]	DATEletter[4]
+2-10	47-50	Aff	_	_
+2-11	51-52	.	_	_
+
+#Text=d . Dir .
+3-1	53-54	d	_	_
+3-2	55-56	.	_	_
+3-3	57-60	Dir	_	_
+3-4	61-62	.	_	_
+
+#Text=g . 25/6 38 CCLXXXVI r . 26/6 38 Berlin 10 Juni 38 Mein theurer Freund .
+4-1	63-64	g	_	_
+4-2	65-66	.	_	_
+4-3	67-71	25/6	*[5]	DATErecieved[5]
+4-4	72-74	38	*[5]	DATErecieved[5]
+4-5	75-83	CCLXXXVI	_	_
+4-6	84-85	r	_	_
+4-7	86-87	.	_	_
+4-8	88-92	26/6	*[6]	DATEanswered[6]
+4-9	93-95	38	*[6]	DATEanswered[6]
+4-10	96-102	Berlin	*	PLACEfrom
+4-11	103-105	10	*[8]	DATEletter[8]
+4-12	106-110	Juni	*[8]	DATEletter[8]
+4-13	111-113	38	*[8]	DATEletter[8]
+4-14	114-118	Mein	_	_
+4-15	119-126	theurer	_	_
+4-16	127-133	Freund	_	_
+4-17	134-135	.	_	_
+
+#Text=Die drei Vasenkisten sind angekommen \; ich kann nicht sagen glücklich und brauche es Ihnen auch wol nicht zu verhehlen wie wenig glücklich , da alle gute Fürsorge solcher Sendungen auf Ihre und alle Verwahrlosung der kostspieligen Gegenstände auf des Verpackers Rechnung kommt .
+5-1	136-139	Die	_	_
+5-2	140-144	drei	_	_
+5-3	145-156	Vasenkisten	_	_
+5-4	157-161	sind	_	_
+5-5	162-172	angekommen	_	_
+5-6	173-174	\;	_	_
+5-7	175-178	ich	_	_
+5-8	179-183	kann	_	_
+5-9	184-189	nicht	_	_
+5-10	190-195	sagen	_	_
+5-11	196-205	glücklich	_	_
+5-12	206-209	und	_	_
+5-13	210-217	brauche	_	_
+5-14	218-220	es	_	_
+5-15	221-226	Ihnen	_	_
+5-16	227-231	auch	_	_
+5-17	232-235	wol	_	_
+5-18	236-241	nicht	_	_
+5-19	242-244	zu	_	_
+5-20	245-254	verhehlen	_	_
+5-21	255-258	wie	_	_
+5-22	259-264	wenig	_	_
+5-23	265-274	glücklich	_	_
+5-24	275-276	,	_	_
+5-25	277-279	da	_	_
+5-26	280-284	alle	_	_
+5-27	285-289	gute	_	_
+5-28	290-298	Fürsorge	_	_
+5-29	299-306	solcher	_	_
+5-30	307-316	Sendungen	_	_
+5-31	317-320	auf	_	_
+5-32	321-325	Ihre	_	_
+5-33	326-329	und	_	_
+5-34	330-334	alle	_	_
+5-35	335-348	Verwahrlosung	_	_
+5-36	349-352	der	_	_
+5-37	353-366	kostspieligen	_	_
+5-38	367-378	Gegenstände	_	_
+5-39	379-382	auf	_	_
+5-40	383-386	des	_	_
+5-41	387-397	Verpackers	_	_
+5-42	398-406	Rechnung	_	_
+5-43	407-412	kommt	_	_
+5-44	413-414	.	_	_
+
+#Text=Warum ist denn aber diese Bande nie zu bewegen , nachdem sie auf ihren Kopf los einpackend allezeit Scherben statt Vasen geschickt , irgend einmal nach andrer Leute Vorschrift und der Napoletaner Beispiel mit Papierschnitzeln statt mit schwerem Zeug zu packen ?
+6-1	415-420	Warum	_	_
+6-2	421-424	ist	_	_
+6-3	425-429	denn	_	_
+6-4	430-434	aber	_	_
+6-5	435-440	diese	_	_
+6-6	441-446	Bande	_	_
+6-7	447-450	nie	_	_
+6-8	451-453	zu	_	_
+6-9	454-461	bewegen	_	_
+6-10	462-463	,	_	_
+6-11	464-471	nachdem	_	_
+6-12	472-475	sie	_	_
+6-13	476-479	auf	_	_
+6-14	480-485	ihren	_	_
+6-15	486-490	Kopf	_	_
+6-16	491-494	los	_	_
+6-17	495-505	einpackend	_	_
+6-18	506-514	allezeit	_	_
+6-19	515-523	Scherben	_	_
+6-20	524-529	statt	_	_
+6-21	530-535	Vasen	_	_
+6-22	536-545	geschickt	_	_
+6-23	546-547	,	_	_
+6-24	548-554	irgend	_	_
+6-25	555-561	einmal	_	_
+6-26	562-566	nach	_	_
+6-27	567-573	andrer	_	_
+6-28	574-579	Leute	_	_
+6-29	580-590	Vorschrift	_	_
+6-30	591-594	und	_	_
+6-31	595-598	der	_	_
+6-32	599-610	Napoletaner	_	_
+6-33	611-619	Beispiel	_	_
+6-34	620-623	mit	_	_
+6-35	624-640	Papierschnitzeln	_	_
+6-36	641-646	statt	_	_
+6-37	647-650	mit	_	_
+6-38	651-659	schwerem	_	_
+6-39	660-664	Zeug	_	_
+6-40	665-667	zu	_	_
+6-41	668-674	packen	_	_
+6-42	675-676	?	_	_
+
+#Text=Von den angelangten Gegenständen haben nicht weniger als 10 Stück zum Berliner Vasenrestaurator gehn müssen \; darunter sind die 2 großen Hydien und die Minervageburt , ferner mehrere Scheten \; , .
+7-1	677-680	Von	_	_
+7-2	681-684	den	_	_
+7-3	685-696	angelangten	_	_
+7-4	697-709	Gegenständen	_	_
+7-5	710-715	haben	_	_
+7-6	716-721	nicht	_	_
+7-7	722-729	weniger	_	_
+7-8	730-733	als	_	_
+7-9	734-736	10	_	_
+7-10	737-742	Stück	_	_
+7-11	743-746	zum	_	_
+7-12	747-755	Berliner	_	_
+7-13	756-772	Vasenrestaurator	_	_
+7-14	773-777	gehn	_	_
+7-15	778-784	müssen	_	_
+7-16	785-786	\;	_	_
+7-17	787-795	darunter	_	_
+7-18	796-800	sind	_	_
+7-19	801-804	die	_	_
+7-20	805-806	2	_	_
+7-21	807-813	großen	_	_
+7-22	814-820	Hydien	_	_
+7-23	821-824	und	_	_
+7-24	825-828	die	_	_
+7-25	829-842	Minervageburt	*	OBJ
+7-26	843-844	,	_	_
+7-27	845-851	ferner	_	_
+7-28	852-859	mehrere	_	_
+7-29	860-867	Scheten	_	_
+7-30	868-869	\;	_	_
+7-31	870-871	,	_	_
+7-32	872-873	.	_	_
+
+#Text=ganz in Scherben .
+8-1	874-878	ganz	_	_
+8-2	879-881	in	_	_
+8-3	882-890	Scherben	_	_
+8-4	891-892	.	_	_
+
+#Text=Daß die ökonomische Maßregel früher aus Kisten einzelne Kistchen zu machen daran Schuld sei glaube ich nicht \; nur macht diese Maßregel , zugleich mit der widerwärtig schmutzigen Emballage , es schwieriger Kleinigkeiten aufzufinden , die besser in einem einzigen Kistchen zusammen gewesen
+9-1	893-896	Daß	_	_
+9-2	897-900	die	_	_
+9-3	901-912	ökonomische	_	_
+9-4	913-921	Maßregel	_	_
+9-5	922-928	früher	_	_
+9-6	929-932	aus	_	_
+9-7	933-939	Kisten	_	_
+9-8	940-948	einzelne	_	_
+9-9	949-957	Kistchen	_	_
+9-10	958-960	zu	_	_
+9-11	961-967	machen	_	_
+9-12	968-973	daran	_	_
+9-13	974-980	Schuld	_	_
+9-14	981-984	sei	_	_
+9-15	985-991	glaube	_	_
+9-16	992-995	ich	_	_
+9-17	996-1001	nicht	_	_
+9-18	1002-1003	\;	_	_
+9-19	1004-1007	nur	_	_
+9-20	1008-1013	macht	_	_
+9-21	1014-1019	diese	_	_
+9-22	1020-1028	Maßregel	_	_
+9-23	1029-1030	,	_	_
+9-24	1031-1039	zugleich	_	_
+9-25	1040-1043	mit	_	_
+9-26	1044-1047	der	_	_
+9-27	1048-1059	widerwärtig	_	_
+9-28	1060-1071	schmutzigen	_	_
+9-29	1072-1081	Emballage	_	_
+9-30	1082-1083	,	_	_
+9-31	1084-1086	es	_	_
+9-32	1087-1098	schwieriger	_	_
+9-33	1099-1112	Kleinigkeiten	_	_
+9-34	1113-1124	aufzufinden	_	_
+9-35	1125-1126	,	_	_
+9-36	1127-1130	die	_	_
+9-37	1131-1137	besser	_	_
+9-38	1138-1140	in	_	_
+9-39	1141-1146	einem	_	_
+9-40	1147-1155	einzigen	_	_
+9-41	1156-1164	Kistchen	_	_
+9-42	1165-1173	zusammen	_	_
+9-43	1174-1181	gewesen	_	_

@@ -1,0 +1,273 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=213 Braun an Gerhard Rom , 15. April 1837 Cav .
+1-1	0-3	213	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERmentioned
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	15.	*[1]	DATEletter[1]
+1-8	31-36	April	*[1]	DATEletter[1]
+1-9	37-41	1837	*[1]	DATEletter[1]
+1-10	42-45	Cav	*[8]	PERauthor[8]
+1-11	46-47	.	*[8]	PERauthor[8]
+
+#Text=Gerhard Atene Roma li 15 Aprile 1837 .
+2-1	48-55	Gerhard	*	PERaddressee
+2-2	56-61	Atene	*	PLACEto
+2-3	62-66	Roma	*	PLACEfrom
+2-4	67-69	li	_	_
+2-5	70-72	15	*[2]	DATEletter[2]
+2-6	73-79	Aprile	*[2]	DATEletter[2]
+2-7	80-84	1837	*[2]	DATEletter[2]
+2-8	85-86	.	_	_
+
+#Text=Hochverehrter Freund !
+3-1	87-100	Hochverehrter	_	_
+3-2	101-107	Freund	_	_
+3-3	108-109	!	_	_
+
+#Text=Nach langem Hin- und Herüberlegen habe ich beifolgendes eben nicht kleines Briefpaquet von der heutisen Sendung nicht auszuschließen gewagt \; andere behalte ich hier , etwa ebenso viel .
+4-1	110-114	Nach	_	_
+4-2	115-121	langem	_	_
+4-3	122-126	Hin-	_	_
+4-4	127-130	und	_	_
+4-5	131-143	Herüberlegen	_	_
+4-6	144-148	habe	_	_
+4-7	149-152	ich	_	_
+4-8	153-165	beifolgendes	_	_
+4-9	166-170	eben	_	_
+4-10	171-176	nicht	_	_
+4-11	177-184	kleines	_	_
+4-12	185-196	Briefpaquet	_	_
+4-13	197-200	von	_	_
+4-14	201-204	der	_	_
+4-15	205-213	heutisen	_	_
+4-16	214-221	Sendung	_	_
+4-17	222-227	nicht	_	_
+4-18	228-242	auszuschließen	_	_
+4-19	243-249	gewagt	_	_
+4-20	250-251	\;	_	_
+4-21	252-258	andere	_	_
+4-22	259-266	behalte	_	_
+4-23	267-270	ich	_	_
+4-24	271-275	hier	_	_
+4-25	276-277	,	_	_
+4-26	278-282	etwa	_	_
+4-27	283-289	ebenso	_	_
+4-28	290-294	viel	_	_
+4-29	295-296	.	_	_
+
+#Text=De Witte hat seinen Catalog der Caninavasen eingesandt \; und bedroht uns nächstens mit seiner Anwesenheit .
+5-1	297-299	De	*[3]	PERmentioned[3]
+5-2	300-305	Witte	*[3]	PERmentioned[3]
+5-3	306-309	hat	_	_
+5-4	310-316	seinen	_	_
+5-5	317-324	Catalog	_	_
+5-6	325-328	der	_	_
+5-7	329-340	Caninavasen	*	MISC
+5-8	341-351	eingesandt	_	_
+5-9	352-353	\;	_	_
+5-10	354-357	und	_	_
+5-11	358-365	bedroht	_	_
+5-12	366-369	uns	_	_
+5-13	370-379	nächstens	_	_
+5-14	380-383	mit	_	_
+5-15	384-390	seiner	_	_
+5-16	391-402	Anwesenheit	_	_
+5-17	403-404	.	_	_
+
+#Text=Neapel gibt zwar patente nette allein die Quarantäne dauert fort .
+6-1	405-411	Neapel	*	PLACEmentioned
+6-2	412-416	gibt	_	_
+6-3	417-421	zwar	_	_
+6-4	422-429	patente	_	_
+6-5	430-435	nette	_	_
+6-6	436-442	allein	_	_
+6-7	443-446	die	_	_
+6-8	447-457	Quarantäne	_	_
+6-9	458-464	dauert	_	_
+6-10	465-469	fort	_	_
+6-11	470-471	.	_	_
+
+#Text=- Das Annalenheft ist endlich vom Stapel gelaufen \; Auch hat das Bullettino gedeihlich mit 2 Bogen bis März inclus .
+7-1	472-473	-	_	_
+7-2	474-477	Das	_	_
+7-3	478-489	Annalenheft	_	_
+7-4	490-493	ist	_	_
+7-5	494-501	endlich	_	_
+7-6	502-505	vom	_	_
+7-7	506-512	Stapel	_	_
+7-8	513-521	gelaufen	_	_
+7-9	522-523	\;	_	_
+7-10	524-528	Auch	_	_
+7-11	529-532	hat	_	_
+7-12	533-536	das	_	_
+7-13	537-547	Bullettino	_	_
+7-14	548-558	gedeihlich	_	_
+7-15	559-562	mit	_	_
+7-16	563-564	2	_	_
+7-17	565-570	Bogen	_	_
+7-18	571-574	bis	_	_
+7-19	575-579	März	*	DATEmentioned
+7-20	580-586	inclus	_	_
+7-21	587-588	.	_	_
+
+#Text=begonnen , um am 21 April publicirt werden zu können .
+8-1	589-597	begonnen	_	_
+8-2	598-599	,	_	_
+8-3	600-602	um	_	_
+8-4	603-605	am	_	_
+8-5	606-608	21	*[4]	DATEmentioned[4]
+8-6	609-614	April	*[4]	DATEmentioned[4]
+8-7	615-624	publicirt	_	_
+8-8	625-631	werden	_	_
+8-9	632-634	zu	_	_
+8-10	635-641	können	_	_
+8-11	642-643	.	_	_
+
+#Text=- Usedom ist von hier abberufen und wird Mitte Mai von hier abgehen \; an seine Stelle tritt Herr von Bach aus Petersburg , ein Candidat der Schwindsucht , aber ein Mann von uraltem Adel , Kammerherr , lLegationsrath und ein Diplomat der bereits mehrfach selbständig agirt hat .
+9-1	644-645	-	_	_
+9-2	646-652	Usedom	*	PERmentioned
+9-3	653-656	ist	_	_
+9-4	657-660	von	_	_
+9-5	661-665	hier	_	_
+9-6	666-675	abberufen	_	_
+9-7	676-679	und	_	_
+9-8	680-684	wird	_	_
+9-9	685-690	Mitte	*[5]	DATEmentioned[5]
+9-10	691-694	Mai	*[5]	DATEmentioned[5]
+9-11	695-698	von	_	_
+9-12	699-703	hier	_	_
+9-13	704-711	abgehen	_	_
+9-14	712-713	\;	_	_
+9-15	714-716	an	_	_
+9-16	717-722	seine	_	_
+9-17	723-729	Stelle	_	_
+9-18	730-735	tritt	_	_
+9-19	736-740	Herr	_	_
+9-20	741-744	von	*[6]	PERmentioned[6]
+9-21	745-749	Bach	*[6]	PERmentioned[6]
+9-22	750-753	aus	_	_
+9-23	754-764	Petersburg	*	PLACEmentioned
+9-24	765-766	,	_	_
+9-25	767-770	ein	_	_
+9-26	771-779	Candidat	_	_
+9-27	780-783	der	_	_
+9-28	784-796	Schwindsucht	_	_
+9-29	797-798	,	_	_
+9-30	799-803	aber	_	_
+9-31	804-807	ein	_	_
+9-32	808-812	Mann	_	_
+9-33	813-816	von	_	_
+9-34	817-824	uraltem	_	_
+9-35	825-829	Adel	_	_
+9-36	830-831	,	_	_
+9-37	832-842	Kammerherr	_	_
+9-38	843-844	,	_	_
+9-39	845-859	lLegationsrath	_	_
+9-40	860-863	und	_	_
+9-41	864-867	ein	_	_
+9-42	868-876	Diplomat	_	_
+9-43	877-880	der	_	_
+9-44	881-888	bereits	_	_
+9-45	889-897	mehrfach	_	_
+9-46	898-909	selbständig	_	_
+9-47	910-915	agirt	_	_
+9-48	916-919	hat	_	_
+9-49	920-921	.	_	_
+
+#Text=- Der Hausbau ist endlich fast beschlossen , die Rechnungen weisen aus , daß er 27000 Scudi gekostet hat .
+10-1	922-923	-	_	_
+10-2	924-927	Der	_	_
+10-3	928-935	Hausbau	_	_
+10-4	936-939	ist	_	_
+10-5	940-947	endlich	_	_
+10-6	948-952	fast	_	_
+10-7	953-964	beschlossen	_	_
+10-8	965-966	,	_	_
+10-9	967-970	die	_	_
+10-10	971-981	Rechnungen	_	_
+10-11	982-988	weisen	_	_
+10-12	989-992	aus	_	_
+10-13	993-994	,	_	_
+10-14	995-998	daß	_	_
+10-15	999-1001	er	_	_
+10-16	1002-1007	27000	_	_
+10-17	1008-1013	Scudi	_	_
+10-18	1014-1022	gekostet	_	_
+10-19	1023-1026	hat	_	_
+10-20	1027-1028	.	_	_
+
+#Text=- ZW den Büchern über antike Malerei kommt jetzt eines von Wickmann aus Hannover , welches Kestner unbedingt für das beste erklärt , das über diesen Gegenstand geschrieben werden kann .
+11-1	1029-1030	-	_	_
+11-2	1031-1033	ZW	_	_
+11-3	1034-1037	den	_	_
+11-4	1038-1045	Büchern	_	_
+11-5	1046-1050	über	_	_
+11-6	1051-1057	antike	_	_
+11-7	1058-1065	Malerei	_	_
+11-8	1066-1071	kommt	_	_
+11-9	1072-1077	jetzt	_	_
+11-10	1078-1083	eines	_	_
+11-11	1084-1087	von	_	_
+11-12	1088-1096	Wickmann	*	PERmentioned
+11-13	1097-1100	aus	_	_
+11-14	1101-1109	Hannover	*	PLACEmentioned
+11-15	1110-1111	,	_	_
+11-16	1112-1119	welches	_	_
+11-17	1120-1127	Kestner	*	PERmentioned
+11-18	1128-1137	unbedingt	_	_
+11-19	1138-1141	für	_	_
+11-20	1142-1145	das	_	_
+11-21	1146-1151	beste	_	_
+11-22	1152-1159	erklärt	_	_
+11-23	1160-1161	,	_	_
+11-24	1162-1165	das	_	_
+11-25	1166-1170	über	_	_
+11-26	1171-1177	diesen	_	_
+11-27	1178-1188	Gegenstand	_	_
+11-28	1189-1200	geschrieben	_	_
+11-29	1201-1207	werden	_	_
+11-30	1208-1212	kann	_	_
+11-31	1213-1214	.	_	_
+
+#Text=- Dem armen Visconti geht man hier stark zu Leibe .
+12-1	1215-1216	-	_	_
+12-2	1217-1220	Dem	_	_
+12-3	1221-1226	armen	_	_
+12-4	1227-1235	Visconti	*	PERmentioned
+12-5	1236-1240	geht	_	_
+12-6	1241-1244	man	_	_
+12-7	1245-1249	hier	_	_
+12-8	1250-1255	stark	_	_
+12-9	1256-1258	zu	_	_
+12-10	1259-1264	Leibe	_	_
+12-11	1265-1266	.	_	_
+
+#Text=Lancis Bruder hatte die Todiinschrift mit Hülfe orientalischer Sprachkenntniß zu erklären versucht , und Visconti 's facsimile kritisirt .
+13-1	1267-1273	Lancis	*[7]	PERmentioned[7]
+13-2	1274-1280	Bruder	*[7]	PERmentioned[7]
+13-3	1281-1286	hatte	_	_
+13-4	1287-1290	die	_	_
+13-5	1291-1304	Todiinschrift	*	OBJ
+13-6	1305-1308	mit	_	_
+13-7	1309-1314	Hülfe	_	_
+13-8	1315-1329	orientalischer	_	_
+13-9	1330-1344	Sprachkenntniß	_	_
+13-10	1345-1347	zu	_	_
+13-11	1348-1356	erklären	_	_
+13-12	1357-1365	versucht	_	_
+13-13	1366-1367	,	_	_
+13-14	1368-1371	und	_	_
+13-15	1372-1380	Visconti	*	PERmentioned
+13-16	1381-1383	's	_	_
+13-17	1384-1393	facsimile	_	_
+13-18	1394-1403	kritisirt	_	_
+13-19	1404-1405	.	_	_
+
+#Text=Viscon-
+14-1	1406-1413	Viscon-	*	PERmentioned

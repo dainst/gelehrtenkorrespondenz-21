@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=271 Braun an Gerhard Prof. Gerhard Rom , 22. Februar 1835 Roma li 22 febbr .
+1-1	0-3	271	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	_	_
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee|PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-44	22.	*[2]	DATEletter[2]
+1-10	45-52	Februar	*[2]	DATEletter[2]
+1-11	53-57	1835	*[2]	DATEletter[2]
+1-12	58-62	Roma	*	PLACEfrom
+1-13	63-65	li	_	_
+1-14	66-68	22	_	_
+1-15	69-74	febbr	*[3]	DATEletter[3]
+1-16	75-76	.	*[3]	DATEletter[3]
+
+#Text=1835 Außer einigem Beischluß erhalten Sie nur 2 Probeblätter von den Monumenten und das Manifest .
+2-1	77-81	1835	*[3]	DATEletter[3]
+2-2	82-87	Außer	_	_
+2-3	88-95	einigem	_	_
+2-4	96-105	Beischluß	_	_
+2-5	106-114	erhalten	_	_
+2-6	115-118	Sie	_	_
+2-7	119-122	nur	_	_
+2-8	123-124	2	_	_
+2-9	125-137	Probeblätter	_	_
+2-10	138-141	von	_	_
+2-11	142-145	den	_	_
+2-12	146-156	Monumenten	_	_
+2-13	157-160	und	_	_
+2-14	161-164	das	_	_
+2-15	165-173	Manifest	_	_
+2-16	174-175	.	_	_
+
+#Text=Bunsen wird wieder freundlich \; auch habe ich insofern gefehlt , als ich nicht meine Wünsche unmittelbar bei ihm vorgebracht .
+3-1	176-182	Bunsen	*	PERmentioned
+3-2	183-187	wird	_	_
+3-3	188-194	wieder	_	_
+3-4	195-205	freundlich	_	_
+3-5	206-207	\;	_	_
+3-6	208-212	auch	_	_
+3-7	213-217	habe	_	_
+3-8	218-221	ich	_	_
+3-9	222-230	insofern	_	_
+3-10	231-238	gefehlt	_	_
+3-11	239-240	,	_	_
+3-12	241-244	als	_	_
+3-13	245-248	ich	_	_
+3-14	249-254	nicht	_	_
+3-15	255-260	meine	_	_
+3-16	261-268	Wünsche	_	_
+3-17	269-280	unmittelbar	_	_
+3-18	281-284	bei	_	_
+3-19	285-288	ihm	_	_
+3-20	289-300	vorgebracht	_	_
+3-21	301-302	.	_	_
+
+#Text=Darin hat er recht , er hat mirs aber auch zu verstehen gegeben .
+4-1	303-308	Darin	_	_
+4-2	309-312	hat	_	_
+4-3	313-315	er	_	_
+4-4	316-321	recht	_	_
+4-5	322-323	,	_	_
+4-6	324-326	er	_	_
+4-7	327-330	hat	_	_
+4-8	331-335	mirs	_	_
+4-9	336-340	aber	_	_
+4-10	341-345	auch	_	_
+4-11	346-348	zu	_	_
+4-12	349-358	verstehen	_	_
+4-13	359-366	gegeben	_	_
+4-14	367-368	.	_	_
+
+#Text=Mit der Redaction des Bull .
+5-1	369-372	Mit	_	_
+5-2	373-376	der	_	_
+5-3	377-386	Redaction	_	_
+5-4	387-390	des	_	_
+5-5	391-395	Bull	_	_
+5-6	396-397	.	_	_
+
+#Text=stehen wir aber schlecht , Dadurch daß er seine cooperazione mit aller Gewalt will erwähnt wissen , ist Lanci disgustirt worden \; letzterer war im besten Zug und ließ viel gutes hoffen .
+6-1	398-404	stehen	_	_
+6-2	405-408	wir	_	_
+6-3	409-413	aber	_	_
+6-4	414-422	schlecht	_	_
+6-5	423-424	,	_	_
+6-6	425-432	Dadurch	_	_
+6-7	433-436	daß	_	_
+6-8	437-439	er	_	_
+6-9	440-445	seine	_	_
+6-10	446-458	cooperazione	_	_
+6-11	459-462	mit	_	_
+6-12	463-468	aller	_	_
+6-13	469-475	Gewalt	_	_
+6-14	476-480	will	_	_
+6-15	481-488	erwähnt	_	_
+6-16	489-495	wissen	_	_
+6-17	496-497	,	_	_
+6-18	498-501	ist	_	_
+6-19	502-507	Lanci	_	_
+6-20	508-518	disgustirt	_	_
+6-21	519-525	worden	_	_
+6-22	526-527	\;	_	_
+6-23	528-537	letzterer	_	_
+6-24	538-541	war	_	_
+6-25	542-544	im	_	_
+6-26	545-551	besten	_	_
+6-27	552-555	Zug	_	_
+6-28	556-559	und	_	_
+6-29	560-564	ließ	_	_
+6-30	565-569	viel	_	_
+6-31	570-575	gutes	_	_
+6-32	576-582	hoffen	_	_
+6-33	583-584	.	_	_
+
+#Text=Jedenfalls legen Sie ein gut Wort bei ihm ein , sich nicht stören zu lassen Aber wie er ist , so ist immer einiges zu fürchten \; er bekümmert sich eben nicht darum und er hat die meiste Erfahrung .
+7-1	585-595	Jedenfalls	_	_
+7-2	596-601	legen	_	_
+7-3	602-605	Sie	_	_
+7-4	606-609	ein	_	_
+7-5	610-613	gut	_	_
+7-6	614-618	Wort	_	_
+7-7	619-622	bei	_	_
+7-8	623-626	ihm	_	_
+7-9	627-630	ein	_	_
+7-10	631-632	,	_	_
+7-11	633-637	sich	_	_
+7-12	638-643	nicht	_	_
+7-13	644-650	stören	_	_
+7-14	651-653	zu	_	_
+7-15	654-660	lassen	_	_
+7-16	661-665	Aber	_	_
+7-17	666-669	wie	_	_
+7-18	670-672	er	_	_
+7-19	673-676	ist	_	_
+7-20	677-678	,	_	_
+7-21	679-681	so	_	_
+7-22	682-685	ist	_	_
+7-23	686-691	immer	_	_
+7-24	692-699	einiges	_	_
+7-25	700-702	zu	_	_
+7-26	703-711	fürchten	_	_
+7-27	712-713	\;	_	_
+7-28	714-716	er	_	_
+7-29	717-726	bekümmert	_	_
+7-30	727-731	sich	_	_
+7-31	732-736	eben	_	_
+7-32	737-742	nicht	_	_
+7-33	743-748	darum	_	_
+7-34	749-752	und	_	_
+7-35	753-755	er	_	_
+7-36	756-759	hat	_	_
+7-37	760-763	die	_	_
+7-38	764-770	meiste	_	_
+7-39	771-780	Erfahrung	_	_
+7-40	781-782	.	_	_
+
+#Text=Von Campanari habe ich gestern 10 Spiegel , außer 2 ohne Figuren , aber mit Randverzierungen , um 2 Napol .
+8-1	783-786	Von	_	_
+8-2	787-796	Campanari	*	PERmentioned
+8-3	797-801	habe	_	_
+8-4	802-805	ich	_	_
+8-5	806-813	gestern	_	_
+8-6	814-816	10	_	_
+8-7	817-824	Spiegel	_	_
+8-8	825-826	,	_	_
+8-9	827-832	außer	_	_
+8-10	833-834	2	_	_
+8-11	835-839	ohne	_	_
+8-12	840-847	Figuren	_	_
+8-13	848-849	,	_	_
+8-14	850-854	aber	_	_
+8-15	855-858	mit	_	_
+8-16	859-875	Randverzierungen	_	_
+8-17	876-877	,	_	_
+8-18	878-880	um	_	_
+8-19	881-882	2	_	_
+8-20	883-888	Napol	_	_
+8-21	889-890	.	_	_
+
+#Text=gekauft \; außer dem einen glatten Spiegel , der Ihrer Sannlung nicht fehlen darf , 1 Luigi .
+9-1	891-898	gekauft	_	_
+9-2	899-900	\;	_	_
+9-3	901-906	außer	_	_
+9-4	907-910	dem	_	_
+9-5	911-916	einen	_	_
+9-6	917-924	glatten	_	_
+9-7	925-932	Spiegel	_	_
+9-8	933-934	,	_	_
+9-9	935-938	der	_	_
+9-10	939-944	Ihrer	_	_
+9-11	945-953	Sannlung	_	_
+9-12	954-959	nicht	_	_
+9-13	960-966	fehlen	_	_
+9-14	967-971	darf	_	_
+9-15	972-973	,	_	_
+9-16	974-975	1	_	_
+9-17	976-981	Luigi	_	_
+9-18	982-983	.	_	_
+
+#Text=Ein ist ebenfalls zurückgestellt .
+10-1	984-987	Ein	_	_
+10-2	988-991	ist	_	_
+10-3	992-1001	ebenfalls	_	_
+10-4	1002-1016	zurückgestellt	_	_
+10-5	1017-1018	.	_	_
+
+#Text=1 Luigi .
+11-1	1019-1020	1	_	_
+11-2	1021-1026	Luigi	_	_
+11-3	1027-1028	.	_	_
+
+#Text=Von Capranesi habe ich ebenfalls außer den frühernen 3 Spiegel gekauft um 7 Scudi .
+12-1	1029-1032	Von	_	_
+12-2	1033-1042	Capranesi	*	PERmentioned
+12-3	1043-1047	habe	_	_
+12-4	1048-1051	ich	_	_
+12-5	1052-1061	ebenfalls	_	_
+12-6	1062-1067	außer	_	_
+12-7	1068-1071	den	_	_
+12-8	1072-1081	frühernen	_	_
+12-9	1082-1083	3	_	_
+12-10	1084-1091	Spiegel	_	_
+12-11	1092-1099	gekauft	_	_
+12-12	1100-1102	um	_	_
+12-13	1103-1104	7	_	_
+12-14	1105-1110	Scudi	_	_
+12-15	1111-1112	.	_	_
+
+#Text=1 Unter diesen ist die GÖgistragende , behelmte Schildfigur \| mit Flügeln und einem Messer in der Hand .
+13-1	1113-1114	1	_	_
+13-2	1115-1120	Unter	_	_
+13-3	1121-1127	diesen	_	_
+13-4	1128-1131	ist	_	_
+13-5	1132-1135	die	_	_
+13-6	1136-1149	GÖgistragende	_	_
+13-7	1150-1151	,	_	_
+13-8	1152-1160	behelmte	_	_
+13-9	1161-1172	Schildfigur	_	_
+13-10	1173-1174	\|	_	_
+13-11	1175-1178	mit	_	_
+13-12	1179-1186	Flügeln	_	_
+13-13	1187-1190	und	_	_
+13-14	1191-1196	einem	_	_
+13-15	1197-1203	Messer	_	_
+13-16	1204-1206	in	_	_
+13-17	1207-1210	der	_	_
+13-18	1211-1215	Hand	_	_
+13-19	1216-1217	.	_	_
+
+#Text=Eine Minerva , F diesmal nicht ?
+14-1	1218-1222	Eine	_	_
+14-2	1223-1230	Minerva	*	PERmentioned
+14-3	1231-1232	,	_	_
+14-4	1233-1234	F	_	_
+14-5	1235-1242	diesmal	_	_
+14-6	1243-1248	nicht	_	_
+14-7	1249-1250	?	_	_
+
+#Text=Auch ein Silen mit Schwanz etc .
+15-1	1251-1255	Auch	_	_
+15-2	1256-1259	ein	_	_
+15-3	1260-1265	Silen	_	_
+15-4	1266-1269	mit	_	_
+15-5	1270-1277	Schwanz	_	_
+15-6	1278-1281	etc	_	_
+15-7	1282-1283	.	_	_

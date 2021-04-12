@@ -1,0 +1,275 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=301 Brunn an Henzen Toscanella , 20.0kto.58 A. di Dir .
+1-1	0-3	301	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-30	Toscanella	*	PLACEfrom
+1-6	31-32	,	_	_
+1-7	33-43	20.0kto.58	*	DATEletter
+1-8	44-46	A.	_	_
+1-9	47-49	di	_	_
+1-10	50-53	Dir	_	_
+1-11	54-55	.	_	_
+
+#Text=g . 22 .
+2-1	56-57	g	_	_
+2-2	58-59	.	_	_
+2-3	60-62	22	*[7]	DATErecieved[7]
+2-4	63-64	.	*[7]	DATErecieved[7]
+
+#Text=Oktober 71858 ncr Lieber Henzen !
+3-1	65-72	Oktober	*[7]	DATErecieved[7]
+3-2	73-78	71858	*[7]	DATErecieved[7]
+3-3	79-82	ncr	_	_
+3-4	83-89	Lieber	_	_
+3-5	90-96	Henzen	*	PERaddressee
+3-6	97-98	!	_	_
+
+#Text=Gestern Abend spät hier angelangt , heute hier das wenige abgemacht \; morgen will ich mein Heil in Vulci versuchen , während meine Frau sich allein langweilen muß \; aber die Straße ist zu schlecht .
+4-1	99-106	Gestern	_	_
+4-2	107-112	Abend	_	_
+4-3	113-117	spät	_	_
+4-4	118-122	hier	_	_
+4-5	123-132	angelangt	_	_
+4-6	133-134	,	_	_
+4-7	135-140	heute	_	_
+4-8	141-145	hier	_	_
+4-9	146-149	das	_	_
+4-10	150-156	wenige	_	_
+4-11	157-166	abgemacht	_	_
+4-12	167-168	\;	_	_
+4-13	169-175	morgen	_	_
+4-14	176-180	will	_	_
+4-15	181-184	ich	_	_
+4-16	185-189	mein	_	_
+4-17	190-194	Heil	_	_
+4-18	195-197	in	_	_
+4-19	198-203	Vulci	*	PLACEmentioned
+4-20	204-213	versuchen	_	_
+4-21	214-215	,	_	_
+4-22	216-223	während	_	_
+4-23	224-229	meine	*[8]	PERmentioned[8]
+4-24	230-234	Frau	*[8]	PERmentioned[8]
+4-25	235-239	sich	_	_
+4-26	240-246	allein	_	_
+4-27	247-257	langweilen	_	_
+4-28	258-261	muß	_	_
+4-29	262-263	\;	_	_
+4-30	264-268	aber	_	_
+4-31	269-272	die	_	_
+4-32	273-279	Straße	_	_
+4-33	280-283	ist	_	_
+4-34	284-286	zu	_	_
+4-35	287-295	schlecht	_	_
+4-36	296-297	.	_	_
+
+#Text=Von des Vergers ist ein Brief an Torlonia 's Fattore angelangt , von Ihnen nichts .
+5-1	298-301	Von	_	_
+5-2	302-305	des	*[9]	PERmentioned[9]
+5-3	306-313	Vergers	*[9]	PERmentioned[9]
+5-4	314-317	ist	_	_
+5-5	318-321	ein	_	_
+5-6	322-327	Brief	_	_
+5-7	328-330	an	_	_
+5-8	331-339	Torlonia	*[13]	PERmentioned[13]
+5-9	340-342	's	*[13]	PERmentioned[13]
+5-10	343-350	Fattore	_	_
+5-11	351-360	angelangt	_	_
+5-12	361-362	,	_	_
+5-13	363-366	von	_	_
+5-14	367-372	Ihnen	_	_
+5-15	373-379	nichts	_	_
+5-16	380-381	.	_	_
+
+#Text=Haben Sie etwa meinen Brief aus Bolsena gar nicht oder zu spät erhalten ?
+6-1	382-387	Haben	_	_
+6-2	388-391	Sie	_	_
+6-3	392-396	etwa	_	_
+6-4	397-403	meinen	_	_
+6-5	404-409	Brief	_	_
+6-6	410-413	aus	_	_
+6-7	414-421	Bolsena	*	PLACEmentioned
+6-8	422-425	gar	_	_
+6-9	426-431	nicht	_	_
+6-10	432-436	oder	_	_
+6-11	437-439	zu	_	_
+6-12	440-444	spät	_	_
+6-13	445-453	erhalten	_	_
+6-14	454-455	?	_	_
+
+#Text=Uebermorgen dann nach lorneto , vielleicht Sonnabend nach Civ . Vecch .
+7-1	456-467	Uebermorgen	_	_
+7-2	468-472	dann	_	_
+7-3	473-477	nach	_	_
+7-4	478-485	lorneto	*	PLACEmentioned
+7-5	486-487	,	_	_
+7-6	488-498	vielleicht	_	_
+7-7	499-508	Sonnabend	*	DATEmentioned
+7-8	509-513	nach	_	_
+7-9	514-517	Civ	*[10]	PLACEmentioned[10]
+7-10	518-519	.	*[10]	PLACEmentioned[10]
+7-11	520-525	Vecch	*[10]	PLACEmentioned[10]
+7-12	526-527	.	*[10]	PLACEmentioned[10]
+
+#Text=so daß ich also Sonntag in Rom ankommen könnte .
+8-1	528-530	so	_	_
+8-2	531-534	daß	_	_
+8-3	535-538	ich	_	_
+8-4	539-543	also	_	_
+8-5	544-551	Sonntag	*	DATEmentioned
+8-6	552-554	in	_	_
+8-7	555-558	Rom	*	PLACEmentioned
+8-8	559-567	ankommen	_	_
+8-9	568-574	könnte	_	_
+8-10	575-576	.	_	_
+
+#Text=Ich kann nicht ganz bestimmt schreiben \; aber es wäre gut , wenn Sie Mariuccia dahin instruiren wollten , daß wir wahrscheinlich dann kommen , ob früh oder spät , chi lo sa ?
+9-1	577-580	Ich	_	_
+9-2	581-585	kann	_	_
+9-3	586-591	nicht	_	_
+9-4	592-596	ganz	_	_
+9-5	597-605	bestimmt	_	_
+9-6	606-615	schreiben	_	_
+9-7	616-617	\;	_	_
+9-8	618-622	aber	_	_
+9-9	623-625	es	_	_
+9-10	626-630	wäre	_	_
+9-11	631-634	gut	_	_
+9-12	635-636	,	_	_
+9-13	637-641	wenn	_	_
+9-14	642-645	Sie	_	_
+9-15	646-655	Mariuccia	*	PERmentioned
+9-16	656-661	dahin	_	_
+9-17	662-672	instruiren	_	_
+9-18	673-680	wollten	_	_
+9-19	681-682	,	_	_
+9-20	683-686	daß	_	_
+9-21	687-690	wir	_	_
+9-22	691-705	wahrscheinlich	_	_
+9-23	706-710	dann	_	_
+9-24	711-717	kommen	_	_
+9-25	718-719	,	_	_
+9-26	720-722	ob	_	_
+9-27	723-727	früh	_	_
+9-28	728-732	oder	_	_
+9-29	733-737	spät	_	_
+9-30	738-739	,	_	_
+9-31	740-743	chi	_	_
+9-32	744-746	lo	_	_
+9-33	747-749	sa	_	_
+9-34	750-751	?	_	_
+
+#Text=Einen Tag waren wir bei Golini 's in Bagnorea .
+10-1	752-757	Einen	_	_
+10-2	758-761	Tag	_	_
+10-3	762-767	waren	_	_
+10-4	768-771	wir	_	_
+10-5	772-775	bei	_	_
+10-6	776-782	Golini	*[14]	PERmentioned[14]
+10-7	783-785	's	*[14]	PERmentioned[14]
+10-8	786-788	in	_	_
+10-9	789-797	Bagnorea	*	PLACEmentioned
+10-10	798-799	.	_	_
+
+#Text=Dann fast drei in Viterbo , d.h .
+11-1	800-804	Dann	_	_
+11-2	805-809	fast	_	_
+11-3	810-814	drei	_	_
+11-4	815-817	in	_	_
+11-5	818-825	Viterbo	*	PLACEmentioned
+11-6	826-827	,	_	_
+11-7	828-831	d.h	_	_
+11-8	832-833	.	_	_
+
+#Text=ich einen Tag mit Bazzichelli in Castel d'Asso .
+12-1	834-837	ich	_	_
+12-2	838-843	einen	_	_
+12-3	844-847	Tag	_	_
+12-4	848-851	mit	_	_
+12-5	852-863	Bazzichelli	*	PERmentioned
+12-6	864-866	in	_	_
+12-7	867-873	Castel	*[11]	OBJ[11]
+12-8	874-880	d'Asso	*[11]	OBJ[11]
+12-9	881-882	.	_	_
+
+#Text=Mit letzterem habe ich gute Freundschaft geschlossen , sogar einige Kleinigkeiten gezeichnet und mich wegen der in Rom befindlichen Sachen dahin verständigt , daß wir sie schließlich doch wohl noch bekommen werden .
+13-1	883-886	Mit	_	_
+13-2	887-896	letzterem	_	_
+13-3	897-901	habe	_	_
+13-4	902-905	ich	_	_
+13-5	906-910	gute	_	_
+13-6	911-923	Freundschaft	_	_
+13-7	924-935	geschlossen	_	_
+13-8	936-937	,	_	_
+13-9	938-943	sogar	_	_
+13-10	944-950	einige	_	_
+13-11	951-964	Kleinigkeiten	_	_
+13-12	965-975	gezeichnet	_	_
+13-13	976-979	und	_	_
+13-14	980-984	mich	_	_
+13-15	985-990	wegen	_	_
+13-16	991-994	der	_	_
+13-17	995-997	in	_	_
+13-18	998-1001	Rom	*	PLACEmentioned
+13-19	1002-1014	befindlichen	_	_
+13-20	1015-1021	Sachen	_	_
+13-21	1022-1027	dahin	_	_
+13-22	1028-1039	verständigt	_	_
+13-23	1040-1041	,	_	_
+13-24	1042-1045	daß	_	_
+13-25	1046-1049	wir	_	_
+13-26	1050-1053	sie	_	_
+13-27	1054-1065	schließlich	_	_
+13-28	1066-1070	doch	_	_
+13-29	1071-1075	wohl	_	_
+13-30	1076-1080	noch	_	_
+13-31	1081-1089	bekommen	_	_
+13-32	1090-1096	werden	_	_
+13-33	1097-1098	.	_	_
+
+#Text=Eine hübsche Vase bei ihm , die der Bruschi in Corneto gehört , werden wir ja auch noch erlangen .
+14-1	1099-1103	Eine	_	_
+14-2	1104-1111	hübsche	*[12]	OBJ[12]
+14-3	1112-1116	Vase	*[12]	OBJ[12]
+14-4	1117-1120	bei	_	_
+14-5	1121-1124	ihm	_	_
+14-6	1125-1126	,	_	_
+14-7	1127-1130	die	_	_
+14-8	1131-1134	der	_	_
+14-9	1135-1142	Bruschi	*	PERmentioned
+14-10	1143-1145	in	_	_
+14-11	1146-1153	Corneto	*	PLACEmentioned
+14-12	1154-1160	gehört	_	_
+14-13	1161-1162	,	_	_
+14-14	1163-1169	werden	_	_
+14-15	1170-1173	wir	_	_
+14-16	1174-1176	ja	_	_
+14-17	1177-1181	auch	_	_
+14-18	1182-1186	noch	_	_
+14-19	1187-1195	erlangen	_	_
+14-20	1196-1197	.	_	_
+
+#Text=Sonst sind die augenblicklichen Ergebnisse nicht bedeutend , aber doch wird die Reise ihre guten Folgen haben , voraus-
+15-1	1198-1203	Sonst	_	_
+15-2	1204-1208	sind	_	_
+15-3	1209-1212	die	_	_
+15-4	1213-1229	augenblicklichen	_	_
+15-5	1230-1240	Ergebnisse	_	_
+15-6	1241-1246	nicht	_	_
+15-7	1247-1256	bedeutend	_	_
+15-8	1257-1258	,	_	_
+15-9	1259-1263	aber	_	_
+15-10	1264-1268	doch	_	_
+15-11	1269-1273	wird	_	_
+15-12	1274-1277	die	_	_
+15-13	1278-1283	Reise	_	_
+15-14	1284-1288	ihre	_	_
+15-15	1289-1294	guten	_	_
+15-16	1295-1301	Folgen	_	_
+15-17	1302-1307	haben	_	_
+15-18	1308-1309	,	_	_
+15-19	1310-1317	voraus-	_	_

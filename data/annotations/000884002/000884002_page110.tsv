@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 1. Juli 1862 8 . 3. Juli 1862 r . 5. Juli 1862 Lieber Henzen .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-24	1.	_	_
+1-7	25-29	Juli	_	_
+1-8	30-34	1862	_	_
+1-9	35-36	8	_	_
+1-10	37-38	.	_	_
+1-11	39-41	3.	*[1]	DATEletter[1]
+1-12	42-46	Juli	*[1]|*[2]	DATEletter[1]|DATErecieved[2]
+1-13	47-51	1862	*[1]|*[2]	DATEletter[1]|DATErecieved[2]
+1-14	52-53	r	_	_
+1-15	54-55	.	_	_
+1-16	56-58	5.	_	_
+1-17	59-63	Juli	*[3]	DATEanswered[3]
+1-18	64-68	1862	*[3]	DATEanswered[3]
+1-19	69-75	Lieber	_	_
+1-20	76-82	Henzen	*	PERaddressee
+1-21	83-84	.	_	_
+
+#Text=Schulz hat wegen der Sallthür erneute Ordre gegeben .
+2-1	85-91	Schulz	*	PERmentioned
+2-2	92-95	hat	_	_
+2-3	96-101	wegen	_	_
+2-4	102-105	der	_	_
+2-5	106-114	Sallthür	_	_
+2-6	115-122	erneute	_	_
+2-7	123-128	Ordre	_	_
+2-8	129-136	gegeben	_	_
+2-9	137-138	.	_	_
+
+#Text=Der Saal ist geölt .
+3-1	139-142	Der	_	_
+3-2	143-147	Saal	_	_
+3-3	148-151	ist	_	_
+3-4	152-157	geölt	_	_
+3-5	158-159	.	_	_
+
+#Text=Gestern wurden in Ihrem Zimmer die Teppichleisten angemacht \; heute wird der Fußboden geschliffen .
+4-1	160-167	Gestern	_	_
+4-2	168-174	wurden	_	_
+4-3	175-177	in	_	_
+4-4	178-183	Ihrem	_	_
+4-5	184-190	Zimmer	_	_
+4-6	191-194	die	_	_
+4-7	195-209	Teppichleisten	_	_
+4-8	210-219	angemacht	_	_
+4-9	220-221	\;	_	_
+4-10	222-227	heute	_	_
+4-11	228-232	wird	_	_
+4-12	233-236	der	_	_
+4-13	237-245	Fußboden	_	_
+4-14	246-257	geschliffen	_	_
+4-15	258-259	.	_	_
+
+#Text=Dann kan morgen eingeräumt und endlich der Fußboden im Eßzimmer ( jetzt von Büchern occupirt ) gemacht werden .
+5-1	260-264	Dann	_	_
+5-2	265-268	kan	_	_
+5-3	269-275	morgen	_	_
+5-4	276-286	eingeräumt	_	_
+5-5	287-290	und	_	_
+5-6	291-298	endlich	_	_
+5-7	299-302	der	_	_
+5-8	303-311	Fußboden	_	_
+5-9	312-314	im	_	_
+5-10	315-323	Eßzimmer	_	_
+5-11	324-325	(	_	_
+5-12	326-331	jetzt	_	_
+5-13	332-335	von	_	_
+5-14	336-343	Büchern	_	_
+5-15	344-352	occupirt	_	_
+5-16	353-354	)	_	_
+5-17	355-362	gemacht	_	_
+5-18	363-369	werden	_	_
+5-19	370-371	.	_	_
+
+#Text=- Die Trauben waren bereits zum zweiten Male geschwefelt .
+6-1	372-373	-	_	_
+6-2	374-377	Die	_	_
+6-3	378-385	Trauben	_	_
+6-4	386-391	waren	_	_
+6-5	392-399	bereits	_	_
+6-6	400-403	zum	_	_
+6-7	404-411	zweiten	_	_
+6-8	412-416	Male	_	_
+6-9	417-428	geschwefelt	_	_
+6-10	429-430	.	_	_
+
+#Text=Kiessling kommt doch vor Sonntag nicht fort , resp .
+7-1	431-440	Kiessling	*	PERmentioned
+7-2	441-446	kommt	_	_
+7-3	447-451	doch	_	_
+7-4	452-455	vor	_	_
+7-5	456-463	Sonntag	*	DATEmentioned
+7-6	464-469	nicht	_	_
+7-7	470-474	fort	_	_
+7-8	475-476	,	_	_
+7-9	477-481	resp	_	_
+7-10	482-483	.	_	_
+
+#Text=Montag , sofern Sonntag kein Schiff nach Livorno gehen sollte .
+8-1	484-490	Montag	*	DATEmentioned
+8-2	491-492	,	_	_
+8-3	493-499	sofern	_	_
+8-4	500-507	Sonntag	*	DATEmentioned
+8-5	508-512	kein	_	_
+8-6	513-519	Schiff	_	_
+8-7	520-524	nach	_	_
+8-8	525-532	Livorno	*	PLACEmentioned
+8-9	533-538	gehen	_	_
+8-10	539-545	sollte	_	_
+8-11	546-547	.	_	_
+
+#Text=Reifferscheid wollte dann auch kommen \; doch vin ich überzeugt , daß er nicht fertig wird .
+9-1	548-561	Reifferscheid	*	PERmentioned
+9-2	562-568	wollte	_	_
+9-3	569-573	dann	_	_
+9-4	574-578	auch	_	_
+9-5	579-585	kommen	_	_
+9-6	586-587	\;	_	_
+9-7	588-592	doch	_	_
+9-8	593-596	vin	_	_
+9-9	597-600	ich	_	_
+9-10	601-610	überzeugt	_	_
+9-11	611-612	,	_	_
+9-12	613-616	daß	_	_
+9-13	617-619	er	_	_
+9-14	620-625	nicht	_	_
+9-15	626-632	fertig	_	_
+9-16	633-637	wird	_	_
+9-17	638-639	.	_	_
+
+#Text=Das Bull .
+10-1	640-643	Das	_	_
+10-2	644-648	Bull	_	_
+10-3	649-650	.	_	_
+
+#Text=für Mai ist in voriger Woche versendet : NB .
+11-1	651-654	für	_	_
+11-2	655-658	Mai	*	DATEmentioned
+11-3	659-662	ist	_	_
+11-4	663-665	in	_	_
+11-5	666-673	voriger	_	_
+11-6	674-679	Woche	_	_
+11-7	680-689	versendet	_	_
+11-8	690-691	:	_	_
+11-9	692-694	NB	_	_
+11-10	695-696	.	_	_
+
+#Text=noch nicht an DesJardins , Renier und des Vergers .
+12-1	697-701	noch	_	_
+12-2	702-707	nicht	_	_
+12-3	708-710	an	_	_
+12-4	711-721	DesJardins	*	PERmentioned
+12-5	722-723	,	_	_
+12-6	724-730	Renier	*	PERmentioned
+12-7	731-734	und	_	_
+12-8	735-738	des	*[4]	PERmentioned[4]
+12-9	739-746	Vergers	*[4]	PERmentioned[4]
+12-10	747-748	.	_	_
+
+#Text=Vielleicht sende ich für diesmal am besten unter Kreuzband .
+13-1	749-759	Vielleicht	_	_
+13-2	760-765	sende	_	_
+13-3	766-769	ich	_	_
+13-4	770-773	für	_	_
+13-5	774-781	diesmal	_	_
+13-6	782-784	am	_	_
+13-7	785-791	besten	_	_
+13-8	792-797	unter	_	_
+13-9	798-807	Kreuzband	*	PERmentioned
+13-10	808-809	.	_	_
+
+#Text=Die Impaginirung des nächsten waret nur auf die Componirung des Pervanoglu , die in 2,3 Tagen fertig wird .
+14-1	810-813	Die	_	_
+14-2	814-826	Impaginirung	_	_
+14-3	827-830	des	_	_
+14-4	831-839	nächsten	_	_
+14-5	840-845	waret	_	_
+14-6	846-849	nur	_	_
+14-7	850-853	auf	_	_
+14-8	854-857	die	_	_
+14-9	858-869	Componirung	_	_
+14-10	870-873	des	_	_
+14-11	874-884	Pervanoglu	*	PERmentioned
+14-12	885-886	,	_	_
+14-13	887-890	die	_	_
+14-14	891-893	in	_	_
+14-15	894-897	2,3	_	_
+14-16	898-903	Tagen	_	_
+14-17	904-910	fertig	_	_
+14-18	911-915	wird	_	_
+14-19	916-917	.	_	_
+
+#Text=Ich denke : wieder 2ki Bogen , aber für Juni und Juli .
+15-1	918-921	Ich	_	_
+15-2	922-927	denke	_	_
+15-3	928-929	:	_	_
+15-4	930-936	wieder	_	_
+15-5	937-940	2ki	_	_
+15-6	941-946	Bogen	_	_
+15-7	947-948	,	_	_
+15-8	949-953	aber	_	_
+15-9	954-957	für	_	_
+15-10	958-962	Juni	*	DATEmentioned
+15-11	963-966	und	_	_
+15-12	967-971	Juli	*	DATEmentioned
+15-13	972-973	.	_	_
+
+#Text=Vorhanden : Pervanoglu , Kiessling , Lovatti , Cavedoni , Cherbonneau und einige Kleinigkeiten .
+16-1	974-983	Vorhanden	_	_
+16-2	984-985	:	_	_
+16-3	986-996	Pervanoglu	*	PERmentioned
+16-4	997-998	,	_	_
+16-5	999-1008	Kiessling	*	PERmentioned
+16-6	1009-1010	,	_	_
+16-7	1011-1018	Lovatti	*	PERmentioned
+16-8	1019-1020	,	_	_
+16-9	1021-1029	Cavedoni	*	PERmentioned
+16-10	1030-1031	,	_	_
+16-11	1032-1043	Cherbonneau	*	PERmentioned
+16-12	1044-1047	und	_	_
+16-13	1048-1054	einige	_	_
+16-14	1055-1068	Kleinigkeiten	_	_
+16-15	1069-1070	.	_	_
+
+#Text=Ich selbst kann noch immer nicht zu eigenen Artikeln kommen , da Bibl . Uebersetzungen , Correcturen und Brief mich ganz occupiren .
+17-1	1071-1074	Ich	_	_
+17-2	1075-1081	selbst	_	_
+17-3	1082-1086	kann	_	_
+17-4	1087-1091	noch	_	_
+17-5	1092-1097	immer	_	_
+17-6	1098-1103	nicht	_	_
+17-7	1104-1106	zu	_	_
+17-8	1107-1114	eigenen	_	_
+17-9	1115-1123	Artikeln	_	_
+17-10	1124-1130	kommen	_	_
+17-11	1131-1132	,	_	_
+17-12	1133-1135	da	_	_
+17-13	1136-1140	Bibl	_	_
+17-14	1141-1142	.	_	_
+17-15	1143-1157	Uebersetzungen	_	_
+17-16	1158-1159	,	_	_
+17-17	1160-1171	Correcturen	_	_
+17-18	1172-1175	und	_	_
+17-19	1176-1181	Brief	_	_
+17-20	1182-1186	mich	_	_
+17-21	1187-1191	ganz	_	_
+17-22	1192-1201	occupiren	_	_
+17-23	1202-1203	.	_	_

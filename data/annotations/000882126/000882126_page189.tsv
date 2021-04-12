@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 11. Juli 1837 Herrn Prof. Gerhard Roma li 11 Luglio 1837 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	11.	*[3]	DATEletter[3]
+1-7	27-31	Juli	*[3]	DATEletter[3]
+1-8	32-36	1837	*[3]	DATEletter[3]
+1-9	37-42	Herrn	_	_
+1-10	43-48	Prof.	_	_
+1-11	49-56	Gerhard	*	PERaddressee
+1-12	57-61	Roma	*	PLACEfrom
+1-13	62-64	li	_	_
+1-14	65-67	11	*[4]	DATEletter[4]
+1-15	68-74	Luglio	*[4]	DATEletter[4]
+1-16	75-79	1837	*[4]	DATEletter[4]
+1-17	80-81	.	_	_
+
+#Text=Ich benachrichtige Sie in Eile von Bunsens Reise nach Deutschland .
+2-1	82-85	Ich	_	_
+2-2	86-100	benachrichtige	_	_
+2-3	101-104	Sie	_	_
+2-4	105-107	in	_	_
+2-5	108-112	Eile	_	_
+2-6	113-116	von	_	_
+2-7	117-124	Bunsens	*	PERmentioned
+2-8	125-130	Reise	_	_
+2-9	131-135	nach	_	_
+2-10	136-147	Deutschland	*	PLACEmentioned
+2-11	148-149	.	_	_
+
+#Text=Er hat vorigen Sonnabend den Urlaub erhalten und reist nächsten Sonnabend ( 15 Juli ) mit seinen beiden Söhnen ab , um Sr .
+3-1	150-152	Er	_	_
+3-2	153-156	hat	_	_
+3-3	157-164	vorigen	_	_
+3-4	165-174	Sonnabend	_	_
+3-5	175-178	den	_	_
+3-6	179-185	Urlaub	_	_
+3-7	186-194	erhalten	_	_
+3-8	195-198	und	_	_
+3-9	199-204	reist	_	_
+3-10	205-213	nächsten	_	_
+3-11	214-223	Sonnabend	_	_
+3-12	224-225	(	_	_
+3-13	226-228	15	*[5]	DATEmentioned[5]
+3-14	229-233	Juli	*[5]	DATEmentioned[5]
+3-15	234-235	)	_	_
+3-16	236-239	mit	_	_
+3-17	240-246	seinen	_	_
+3-18	247-253	beiden	*[6]	PERmentioned[6]
+3-19	254-260	Söhnen	*[6]	PERmentioned[6]
+3-20	261-263	ab	_	_
+3-21	264-265	,	_	_
+3-22	266-268	um	_	_
+3-23	269-271	Sr	_	_
+3-24	272-273	.	_	_
+
+#Text=Maj .
+4-1	274-277	Maj	_	_
+4-2	278-279	.	_	_
+
+#Text=den König noch am 3 August seine Aufwartung zu machen .
+5-1	280-283	den	_	_
+5-2	284-289	König	*	PERmentioned
+5-3	290-294	noch	_	_
+5-4	295-297	am	_	_
+5-5	298-299	3	*[7]	DATEmentioned[7]
+5-6	300-306	August	*[7]	DATEmentioned[7]
+5-7	307-312	seine	_	_
+5-8	313-323	Aufwartung	_	_
+5-9	324-326	zu	_	_
+5-10	327-333	machen	_	_
+5-11	334-335	.	_	_
+
+#Text=Sicher ist es , daß diese Reise eine wesentliche Veränderung in seinen Verhältnissen hervorbringt .
+6-1	336-342	Sicher	_	_
+6-2	343-346	ist	_	_
+6-3	347-349	es	_	_
+6-4	350-351	,	_	_
+6-5	352-355	daß	_	_
+6-6	356-361	diese	_	_
+6-7	362-367	Reise	_	_
+6-8	368-372	eine	_	_
+6-9	373-384	wesentliche	_	_
+6-10	385-396	Veränderung	_	_
+6-11	397-399	in	_	_
+6-12	400-406	seinen	_	_
+6-13	407-420	Verhältnissen	_	_
+6-14	421-433	hervorbringt	_	_
+6-15	434-435	.	_	_
+
+#Text=In Deutschland hat man ernstlich von Alteusteins Fosten gesprochen , den Bunsen einnehmen soll .
+7-1	436-438	In	_	_
+7-2	439-450	Deutschland	*	PLACEmentioned
+7-3	451-454	hat	_	_
+7-4	455-458	man	_	_
+7-5	459-468	ernstlich	_	_
+7-6	469-472	von	_	_
+7-7	473-484	Alteusteins	*	PERmentioned
+7-8	485-491	Fosten	_	_
+7-9	492-502	gesprochen	_	_
+7-10	503-504	,	_	_
+7-11	505-508	den	_	_
+7-12	509-515	Bunsen	*	PERmentioned
+7-13	516-525	einnehmen	_	_
+7-14	526-530	soll	_	_
+7-15	531-532	.	_	_
+
+#Text=Sonst weiß ich nichts Neues .
+8-1	533-538	Sonst	_	_
+8-2	539-543	weiß	_	_
+8-3	544-547	ich	_	_
+8-4	548-554	nichts	_	_
+8-5	555-560	Neues	_	_
+8-6	561-562	.	_	_
+
+#Text=Ihr EBraun .
+9-1	563-566	Ihr	_	_
+9-2	567-573	EBraun	*	PERauthor
+9-3	574-575	.	_	_

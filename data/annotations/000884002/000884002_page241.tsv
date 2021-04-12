@@ -1,0 +1,96 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=’ 4 KH \[ 4 484 Brunn an Henzen Florenz , 20 .
+1-1	0-1	’	_	_
+1-2	2-3	4	_	_
+1-3	4-6	KH	_	_
+1-4	7-8	\[	_	_
+1-5	9-10	4	_	_
+1-6	11-14	484	_	_
+1-7	15-20	Brunn	*	PERauthor
+1-8	21-23	an	_	_
+1-9	24-30	Henzen	*	PERaddressee
+1-10	31-38	Florenz	*	PLACEfrom
+1-11	39-40	,	_	_
+1-12	41-43	20	*[5]	DATEletter[5]
+1-13	44-45	.	*[5]	DATEletter[5]
+
+#Text=Okt .
+2-1	46-49	Okt	*[5]	DATEletter[5]
+2-2	50-51	.	*[5]	DATEletter[5]
+
+#Text=1864 In Verona sind im Museo Lapidario leider noch acht Urnen .
+3-1	52-56	1864	*[5]	DATEletter[5]
+3-2	57-59	In	_	_
+3-3	60-66	Verona	*	PLACEmentioned
+3-4	67-71	sind	_	_
+3-5	72-74	im	_	_
+3-6	75-80	Museo	*[6]	ORGmentioned[6]
+3-7	81-90	Lapidario	*[6]	ORGmentioned[6]
+3-8	91-97	leider	_	_
+3-9	98-102	noch	_	_
+3-10	103-107	acht	_	_
+3-11	108-113	Urnen	*	OBJ
+3-12	114-115	.	_	_
+
+#Text=- Die gemachte Zeichnung im Museo Verita sind freilich im Styl sehr verfehlt , waren aber fachlich genau .
+4-1	116-117	-	_	_
+4-2	118-121	Die	_	_
+4-3	122-130	gemachte	_	_
+4-4	131-140	Zeichnung	_	_
+4-5	141-143	im	_	_
+4-6	144-149	Museo	*[7]	ORGmentioned[7]
+4-7	150-156	Verita	*[7]	ORGmentioned[7]
+4-8	157-161	sind	_	_
+4-9	162-170	freilich	_	_
+4-10	171-173	im	_	_
+4-11	174-178	Styl	_	_
+4-12	179-183	sehr	_	_
+4-13	184-192	verfehlt	_	_
+4-14	193-194	,	_	_
+4-15	195-200	waren	_	_
+4-16	201-205	aber	_	_
+4-17	206-214	fachlich	_	_
+4-18	215-220	genau	_	_
+4-19	221-222	.	_	_
+
+#Text=Bertoldi nur 2 Minuten gesehen .
+5-1	223-231	Bertoldi	*	PERmentioned
+5-2	232-235	nur	_	_
+5-3	236-237	2	_	_
+5-4	238-245	Minuten	_	_
+5-5	246-253	gesehen	_	_
+5-6	254-255	.	_	_
+
+#Text=Nussbaumer gar nicht getroffen .
+6-1	256-266	Nussbaumer	*	PERmentioned
+6-2	267-270	gar	_	_
+6-3	271-276	nicht	_	_
+6-4	277-286	getroffen	_	_
+6-5	287-288	.	_	_
+
+#Text=Doch nun auf Widersehen .
+7-1	289-293	Doch	_	_
+7-2	294-297	nun	_	_
+7-3	298-301	auf	_	_
+7-4	302-312	Widersehen	_	_
+7-5	313-314	.	_	_
+
+#Text=Mit besten Grüßen meiner Familie an die ganze casa .
+8-1	315-318	Mit	_	_
+8-2	319-325	besten	_	_
+8-3	326-332	Grüßen	_	_
+8-4	333-339	meiner	_	_
+8-5	340-347	Familie	_	_
+8-6	348-350	an	_	_
+8-7	351-354	die	_	_
+8-8	355-360	ganze	_	_
+8-9	361-365	casa	_	_
+8-10	366-367	.	_	_
+
+#Text=Ihr HBrunn .
+9-1	368-371	Ihr	_	_
+9-2	372-378	HBrunn	*	PERauthor
+9-3	379-380	.	_	_

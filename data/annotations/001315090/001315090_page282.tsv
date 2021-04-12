@@ -1,0 +1,106 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=.
+1-1	0-1	.	_	_
+
+#Text=352 Lepsius an Henzen Berlin , 23. Juni 1876 8 .
+2-1	2-5	352	_	_
+2-2	6-13	Lepsius	*	PERauthor
+2-3	14-16	an	_	_
+2-4	17-23	Henzen	*	PERaddressee
+2-5	24-30	Berlin	*	PLACEfrom
+2-6	31-32	,	_	_
+2-7	33-36	23.	_	_
+2-8	37-41	Juni	*[1]	DATEletter[1]
+2-9	42-46	1876	*[1]	DATEletter[1]
+2-10	47-48	8	_	_
+2-11	49-50	.	_	_
+
+#Text=26/6 76 r . 28/6 Berlin , den 23. Juni 1876 Verehrtester Freund Sie hatten die Stärke der Auflage zu 300 vorgeschlagen , und die Central Direktion ist damit einverstanden .
+3-1	51-55	26/6	*[2]	DATErecieved[2]
+3-2	56-58	76	*[2]	DATErecieved[2]
+3-3	59-60	r	_	_
+3-4	61-62	.	_	_
+3-5	63-67	28/6	*	DATEanswered
+3-6	68-74	Berlin	*	PLACEfrom
+3-7	75-76	,	_	_
+3-8	77-80	den	_	_
+3-9	81-84	23.	*[3]	DATEletter[3]
+3-10	85-89	Juni	*[3]	DATEletter[3]
+3-11	90-94	1876	*[3]	DATEletter[3]
+3-12	95-107	Verehrtester	_	_
+3-13	108-114	Freund	_	_
+3-14	115-118	Sie	_	_
+3-15	119-125	hatten	_	_
+3-16	126-129	die	_	_
+3-17	130-136	Stärke	_	_
+3-18	137-140	der	_	_
+3-19	141-148	Auflage	_	_
+3-20	149-151	zu	_	_
+3-21	152-155	300	_	_
+3-22	156-169	vorgeschlagen	_	_
+3-23	170-171	,	_	_
+3-24	172-175	und	_	_
+3-25	176-179	die	_	_
+3-26	180-187	Central	*[4]	ORGmentioned[4]
+3-27	188-197	Direktion	*[4]	ORGmentioned[4]
+3-28	198-201	ist	_	_
+3-29	202-207	damit	_	_
+3-30	208-221	einverstanden	_	_
+3-31	222-223	.	_	_
+
+#Text=An Schöne habe ich Ihr Monitum gelangen lassen .
+4-1	224-226	An	_	_
+4-2	227-233	Schöne	*	PERmentioned
+4-3	234-238	habe	_	_
+4-4	239-242	ich	_	_
+4-5	243-246	Ihr	_	_
+4-6	247-254	Monitum	_	_
+4-7	255-263	gelangen	_	_
+4-8	264-270	lassen	_	_
+4-9	271-272	.	_	_
+
+#Text=Wie 9 Diplome zu viel sind ist mir nicht verständlich .
+5-1	273-276	Wie	_	_
+5-2	277-278	9	_	_
+5-3	279-286	Diplome	_	_
+5-4	287-289	zu	_	_
+5-5	290-294	viel	_	_
+5-6	295-299	sind	_	_
+5-7	300-303	ist	_	_
+5-8	304-307	mir	_	_
+5-9	308-313	nicht	_	_
+5-10	314-326	verständlich	_	_
+5-11	327-328	.	_	_
+
+#Text=Ihren Aufklärungsbrief für das Auswärtige Amt habe ich erhalten und weiter befördert .
+6-1	329-334	Ihren	_	_
+6-2	335-351	Aufklärungsbrief	_	_
+6-3	352-355	für	_	_
+6-4	356-359	das	_	_
+6-5	360-370	Auswärtige	*[5]	ORGmentioned[5]
+6-6	371-374	Amt	*[5]	ORGmentioned[5]
+6-7	375-379	habe	_	_
+6-8	380-383	ich	_	_
+6-9	384-392	erhalten	_	_
+6-10	393-396	und	_	_
+6-11	397-403	weiter	_	_
+6-12	404-413	befördert	_	_
+6-13	414-415	.	_	_
+
+#Text=Den Codex erwarte ich .
+7-1	416-419	Den	_	_
+7-2	420-425	Codex	_	_
+7-3	426-433	erwarte	_	_
+7-4	434-437	ich	_	_
+7-5	438-439	.	_	_
+
+#Text=In Eile Ihr ergebenster R Lepsius
+8-1	440-442	In	_	_
+8-2	443-447	Eile	_	_
+8-3	448-451	Ihr	_	_
+8-4	452-463	ergebenster	_	_
+8-5	464-465	R	*[6]	PERauthor[6]
+8-6	466-473	Lepsius	*[6]	PERauthor[6]

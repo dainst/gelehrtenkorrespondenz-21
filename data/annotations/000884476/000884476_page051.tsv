@@ -1,0 +1,85 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 11. November 71834 Hat Ihnen Wolff keine Quittungen für mich zugestellt ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	11.	*[4]	DATEletter[4]
+1-7	30-38	November	*[4]	DATEletter[4]
+1-8	39-44	71834	*[4]	DATEletter[4]
+1-9	45-48	Hat	_	_
+1-10	49-54	Ihnen	_	_
+1-11	55-60	Wolff	*	PERmentioned
+1-12	61-66	keine	_	_
+1-13	67-77	Quittungen	_	_
+1-14	78-81	für	_	_
+1-15	82-86	mich	_	_
+1-16	87-97	zugestellt	_	_
+1-17	98-99	?	_	_
+
+#Text=Dergleichen bitte ich mir durch Kurierbeischluß zu senden .
+2-1	100-111	Dergleichen	_	_
+2-2	112-117	bitte	_	_
+2-3	118-121	ich	_	_
+2-4	122-125	mir	_	_
+2-5	126-131	durch	_	_
+2-6	132-147	Kurierbeischluß	_	_
+2-7	148-150	zu	_	_
+2-8	151-157	senden	_	_
+2-9	158-159	.	_	_
+
+#Text=Auf der ersten Seite , am Rande : Nächstens über homöopathisches \; besser geht es mir nicht .
+3-1	160-163	Auf	_	_
+3-2	164-167	der	_	_
+3-3	168-174	ersten	_	_
+3-4	175-180	Seite	_	_
+3-5	181-182	,	_	_
+3-6	183-185	am	_	_
+3-7	186-191	Rande	_	_
+3-8	192-193	:	_	_
+3-9	194-203	Nächstens	_	_
+3-10	204-208	über	_	_
+3-11	209-224	homöopathisches	_	_
+3-12	225-226	\;	_	_
+3-13	227-233	besser	_	_
+3-14	234-238	geht	_	_
+3-15	239-241	es	_	_
+3-16	242-245	mir	_	_
+3-17	246-251	nicht	_	_
+3-18	252-253	.	_	_
+
+#Text=Doch glaube ich Gutes von Comius erlebt zu haben , nicht von der Salsaparphie .
+4-1	254-258	Doch	_	_
+4-2	259-265	glaube	_	_
+4-3	266-269	ich	_	_
+4-4	270-275	Gutes	_	_
+4-5	276-279	von	_	_
+4-6	280-286	Comius	*	PERmentioned
+4-7	287-293	erlebt	_	_
+4-8	294-296	zu	_	_
+4-9	297-302	haben	_	_
+4-10	303-304	,	_	_
+4-11	305-310	nicht	_	_
+4-12	311-314	von	_	_
+4-13	315-318	der	_	_
+4-14	319-331	Salsaparphie	_	_
+4-15	332-333	.	_	_
+
+#Text=Schreiben Sie bald einen Brief guten Muths und guter Stimmung Ihrem Freund Gerhard
+5-1	334-343	Schreiben	_	_
+5-2	344-347	Sie	_	_
+5-3	348-352	bald	_	_
+5-4	353-358	einen	_	_
+5-5	359-364	Brief	_	_
+5-6	365-370	guten	_	_
+5-7	371-376	Muths	_	_
+5-8	377-380	und	_	_
+5-9	381-386	guter	_	_
+5-10	387-395	Stimmung	_	_
+5-11	396-401	Ihrem	_	_
+5-12	402-408	Freund	_	_
+5-13	409-416	Gerhard	*	PERauthor

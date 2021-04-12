@@ -1,0 +1,42 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=423 Lepsius an Henzen Krummhübel , 5. September 71874 schreiben haben , treffen mich Briefe bis zum 1.2 oktober in London , bei Dr. Birch , British Museum .
+1-1	0-3	423	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-32	Krummhübel	*	PLACEfrom
+1-6	33-34	,	_	_
+1-7	35-37	5.	*[1]	DATEletter[1]
+1-8	38-47	September	*[1]	DATEletter[1]
+1-9	48-53	71874	*[1]	DATEletter[1]
+1-10	54-63	schreiben	_	_
+1-11	64-69	haben	_	_
+1-12	70-71	,	_	_
+1-13	72-79	treffen	_	_
+1-14	80-84	mich	_	_
+1-15	85-91	Briefe	_	_
+1-16	92-95	bis	_	_
+1-17	96-99	zum	_	_
+1-18	100-103	1.2	*[2]	DATEmentioned[2]
+1-19	104-111	oktober	*[2]	DATEmentioned[2]
+1-20	112-114	in	_	_
+1-21	115-121	London	*	PLACEmentioned
+1-22	122-123	,	_	_
+1-23	124-127	bei	_	_
+1-24	128-131	Dr.	_	_
+1-25	132-137	Birch	*	PERmentioned
+1-26	138-139	,	_	_
+1-27	140-147	British	*[3]	ORGmentioned[3]
+1-28	148-154	Museum	*[3]	ORGmentioned[3]
+1-29	155-156	.	_	_
+
+#Text=Mit herzlichen Gruß Ihr R Lepsius
+2-1	157-160	Mit	_	_
+2-2	161-171	herzlichen	_	_
+2-3	172-176	Gruß	_	_
+2-4	177-180	Ihr	_	_
+2-5	181-182	R	*[4]	PERauthor[4]
+2-6	183-190	Lepsius	*[4]	PERauthor[4]

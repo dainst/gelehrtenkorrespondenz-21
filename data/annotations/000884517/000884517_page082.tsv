@@ -1,0 +1,189 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=436 Gerhard an Braun Berlin , 8. November 1844 es gekommen daß ich auch Kestners Bruder hier gar nicht sah .
+1-1	0-3	436	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	8.	*[1]	DATEletter[1]
+1-8	33-41	November	*[1]	DATEletter[1]
+1-9	42-46	1844	*[1]	DATEletter[1]
+1-10	47-49	es	_	_
+1-11	50-58	gekommen	_	_
+1-12	59-62	daß	_	_
+1-13	63-66	ich	_	_
+1-14	67-71	auch	_	_
+1-15	72-80	Kestners	*	PERmentioned
+1-16	81-87	Bruder	_	_
+1-17	88-92	hier	_	_
+1-18	93-96	gar	_	_
+1-19	97-102	nicht	_	_
+1-20	103-106	sah	_	_
+1-21	107-108	.	_	_
+
+#Text=Viel Herzliches an sonstige Freunde , von denen mir Canina geschrieben hat , und an Ihre liebe Frau .
+2-1	109-113	Viel	_	_
+2-2	114-124	Herzliches	_	_
+2-3	125-127	an	_	_
+2-4	128-136	sonstige	_	_
+2-5	137-144	Freunde	_	_
+2-6	145-146	,	_	_
+2-7	147-150	von	_	_
+2-8	151-156	denen	_	_
+2-9	157-160	mir	_	_
+2-10	161-167	Canina	*	PERmentioned
+2-11	168-179	geschrieben	_	_
+2-12	180-183	hat	_	_
+2-13	184-185	,	_	_
+2-14	186-189	und	_	_
+2-15	190-192	an	_	_
+2-16	193-197	Ihre	_	_
+2-17	198-203	liebe	_	_
+2-18	204-208	Frau	_	_
+2-19	209-210	.	_	_
+
+#Text=Auch meine Frau grüßt bestens \; trotz Wassertrinken und Ignatia ist sie Tag täglich mit Kopfweh geplagt und so mehr sie auch ohne Ermüdung spazieren geht desdo stärker .
+3-1	211-215	Auch	_	_
+3-2	216-221	meine	_	_
+3-3	222-226	Frau	_	_
+3-4	227-232	grüßt	_	_
+3-5	233-240	bestens	_	_
+3-6	241-242	\;	_	_
+3-7	243-248	trotz	_	_
+3-8	249-262	Wassertrinken	_	_
+3-9	263-266	und	_	_
+3-10	267-274	Ignatia	_	_
+3-11	275-278	ist	_	_
+3-12	279-282	sie	_	_
+3-13	283-286	Tag	_	_
+3-14	287-294	täglich	_	_
+3-15	295-298	mit	_	_
+3-16	299-306	Kopfweh	_	_
+3-17	307-314	geplagt	_	_
+3-18	315-318	und	_	_
+3-19	319-321	so	_	_
+3-20	322-326	mehr	_	_
+3-21	327-330	sie	_	_
+3-22	331-335	auch	_	_
+3-23	336-340	ohne	_	_
+3-24	341-349	Ermüdung	_	_
+3-25	350-359	spazieren	_	_
+3-26	360-364	geht	_	_
+3-27	365-370	desdo	_	_
+3-28	371-378	stärker	_	_
+3-29	379-380	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Die Fortsetzung der Erdkunde wird Ritter schenken \; den Terminus a quo kann er nur errathen .
+4-1	381-391	Herzlichst	_	_
+4-2	392-395	Ihr	_	_
+4-3	396-403	Gerhard	*	PERauthor
+4-4	404-407	Die	_	_
+4-5	408-419	Fortsetzung	_	_
+4-6	420-423	der	_	_
+4-7	424-432	Erdkunde	_	_
+4-8	433-437	wird	_	_
+4-9	438-444	Ritter	*	PERmentioned
+4-10	445-453	schenken	_	_
+4-11	454-455	\;	_	_
+4-12	456-459	den	_	_
+4-13	460-468	Terminus	_	_
+4-14	469-470	a	_	_
+4-15	471-474	quo	_	_
+4-16	475-479	kann	_	_
+4-17	480-482	er	_	_
+4-18	483-486	nur	_	_
+4-19	487-495	errathen	_	_
+4-20	496-497	.	_	_
+
+#Text=Wie weit haben Sie das Werk 7 ?
+5-1	498-501	Wie	_	_
+5-2	502-506	weit	_	_
+5-3	507-512	haben	_	_
+5-4	513-516	Sie	_	_
+5-5	517-520	das	_	_
+5-6	521-525	Werk	_	_
+5-7	526-527	7	_	_
+5-8	528-529	?	_	_
+
+#Text=Quer am Rande Ist ein Spiegel mit den Inschriften AIWE 7 ?
+6-1	530-534	Quer	_	_
+6-2	535-537	am	_	_
+6-3	538-543	Rande	_	_
+6-4	544-547	Ist	_	_
+6-5	548-551	ein	_	_
+6-6	552-559	Spiegel	*[2]	OBJ[2]
+6-7	560-563	mit	*[2]	OBJ[2]
+6-8	564-567	den	*[2]	OBJ[2]
+6-9	568-579	Inschriften	*[2]	OBJ[2]
+6-10	580-584	AIWE	_	_
+6-11	585-586	7	_	_
+6-12	587-588	?	_	_
+
+#Text=Euturpa , Althria , Thalna Ihnen bekannt oder gar von Ihnen mir zugekommen ?
+7-1	589-596	Euturpa	*	PERmentioned
+7-2	597-598	,	_	_
+7-3	599-606	Althria	*	PERmentioned
+7-4	607-608	,	_	_
+7-5	609-615	Thalna	*	PERmentioned
+7-6	616-621	Ihnen	_	_
+7-7	622-629	bekannt	_	_
+7-8	630-634	oder	_	_
+7-9	635-638	gar	_	_
+7-10	639-642	von	_	_
+7-11	643-648	Ihnen	_	_
+7-12	649-652	mir	_	_
+7-13	653-663	zugekommen	_	_
+7-14	664-665	?	_	_
+
+#Text=Man könnte an ALVE ( ntre ) , „ Alchsentre , für Paris , denken , obwohl man Minerva in jenen 3 Namen kaum stecken kann .
+8-1	666-669	Man	_	_
+8-2	670-676	könnte	_	_
+8-3	677-679	an	_	_
+8-4	680-684	ALVE	_	_
+8-5	685-686	(	_	_
+8-6	687-691	ntre	_	_
+8-7	692-693	)	_	_
+8-8	694-695	,	_	_
+8-9	696-697	„	_	_
+8-10	698-708	Alchsentre	*	PERmentioned
+8-11	709-710	,	_	_
+8-12	711-714	für	_	_
+8-13	715-720	Paris	*	PERmentioned
+8-14	721-722	,	_	_
+8-15	723-729	denken	_	_
+8-16	730-731	,	_	_
+8-17	732-738	obwohl	_	_
+8-18	739-742	man	_	_
+8-19	743-750	Minerva	*	PERmentioned
+8-20	751-753	in	_	_
+8-21	754-759	jenen	_	_
+8-22	760-761	3	_	_
+8-23	762-767	Namen	_	_
+8-24	768-772	kaum	_	_
+8-25	773-780	stecken	_	_
+8-26	781-785	kann	_	_
+8-27	786-787	.	_	_
+
+#Text=Ist wol gar aus dem Museo Gregoriano ?
+9-1	788-791	Ist	_	_
+9-2	792-795	wol	_	_
+9-3	796-799	gar	_	_
+9-4	800-803	aus	_	_
+9-5	804-807	dem	_	_
+9-6	808-813	Museo	*[3]	ORGmentioned[3]
+9-7	814-824	Gregoriano	*[3]	ORGmentioned[3]
+9-8	825-826	?	_	_
+
+#Text=Das mir eben nicht zur Hand ist .
+10-1	827-830	Das	_	_
+10-2	831-834	mir	_	_
+10-3	835-839	eben	_	_
+10-4	840-845	nicht	_	_
+10-5	846-849	zur	_	_
+10-6	850-854	Hand	_	_
+10-7	855-858	ist	_	_
+10-8	859-860	.	_	_

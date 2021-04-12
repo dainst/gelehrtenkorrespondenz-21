@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1007 Gerhard an Braun BE \_. Berlin , 18. Dezember 1834 ner Vorbereitung gelangen und doch kann ich Ihnen ins Chr sagen , daß Graf Biehl bereits an Theaterbänke für meine Zuhörer denkt , da der Museumbesitz an Stühlen sehr arm ist .
+1-1	0-4	1007	_	_
+1-2	5-12	Gerhard	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-21	Braun	*	PERaddressee
+1-5	22-24	BE	_	_
+1-6	25-27	\_.	_	_
+1-7	28-34	Berlin	*[3]	PLACEfrom[3]
+1-8	35-36	,	_	_
+1-9	37-40	18.	*[4]	DATEletter[4]
+1-10	41-49	Dezember	*[4]	DATEletter[4]
+1-11	50-54	1834	*[4]	DATEletter[4]
+1-12	55-58	ner	_	_
+1-13	59-71	Vorbereitung	_	_
+1-14	72-80	gelangen	_	_
+1-15	81-84	und	_	_
+1-16	85-89	doch	_	_
+1-17	90-94	kann	_	_
+1-18	95-98	ich	_	_
+1-19	99-104	Ihnen	_	_
+1-20	105-108	ins	_	_
+1-21	109-112	Chr	_	_
+1-22	113-118	sagen	_	_
+1-23	119-120	,	_	_
+1-24	121-124	daß	_	_
+1-25	125-129	Graf	*[5]	PERmentioned[5]
+1-26	130-135	Biehl	*[5]	PERmentioned[5]
+1-27	136-143	bereits	_	_
+1-28	144-146	an	_	_
+1-29	147-159	Theaterbänke	_	_
+1-30	160-163	für	_	_
+1-31	164-169	meine	_	_
+1-32	170-177	Zuhörer	_	_
+1-33	178-183	denkt	_	_
+1-34	184-185	,	_	_
+1-35	186-188	da	_	_
+1-36	189-192	der	_	_
+1-37	193-205	Museumbesitz	_	_
+1-38	206-208	an	_	_
+1-39	209-216	Stühlen	_	_
+1-40	217-221	sehr	_	_
+1-41	222-225	arm	_	_
+1-42	226-229	ist	_	_
+1-43	230-231	.	_	_
+
+#Text=Ihr durch die Gesandtschaft gesandtes Briefpaket erhielt ich .
+2-1	232-235	Ihr	_	_
+2-2	236-241	durch	_	_
+2-3	242-245	die	_	_
+2-4	246-259	Gesandtschaft	_	_
+2-5	260-269	gesandtes	_	_
+2-6	270-280	Briefpaket	_	_
+2-7	281-288	erhielt	_	_
+2-8	289-292	ich	_	_
+2-9	293-294	.	_	_
+
+#Text=Troianis Platte Tod Ce ...... erscheint mir gut , nur der Titel wie er oben steht ohne Verhältniß zu de i .c.o ...... Platte unten in Kupfer gegebnen Titels .
+3-1	295-303	Troianis	*	PERmentioned
+3-2	304-310	Platte	_	_
+3-3	311-314	Tod	*[7]	OBJ[7]
+3-4	315-317	Ce	*[7]	OBJ[7]
+3-5	318-324	......	_	_
+3-6	325-334	erscheint	_	_
+3-7	335-338	mir	_	_
+3-8	339-342	gut	_	_
+3-9	343-344	,	_	_
+3-10	345-348	nur	_	_
+3-11	349-352	der	_	_
+3-12	353-358	Titel	_	_
+3-13	359-362	wie	_	_
+3-14	363-365	er	_	_
+3-15	366-370	oben	_	_
+3-16	371-376	steht	_	_
+3-17	377-381	ohne	_	_
+3-18	382-392	Verhältniß	_	_
+3-19	393-395	zu	_	_
+3-20	396-398	de	_	_
+3-21	399-400	i	_	_
+3-22	401-405	.c.o	_	_
+3-23	406-412	......	_	_
+3-24	413-419	Platte	_	_
+3-25	420-425	unten	_	_
+3-26	426-428	in	_	_
+3-27	429-435	Kupfer	_	_
+3-28	436-444	gegebnen	_	_
+3-29	445-451	Titels	_	_
+3-30	452-453	.	_	_
+
+#Text=Überlegen Sie mit ihm ob die Aenderung sehr schwer fallen würde \; zur Noth kann es bleiben .
+4-1	454-463	Überlegen	_	_
+4-2	464-467	Sie	_	_
+4-3	468-471	mit	_	_
+4-4	472-475	ihm	_	_
+4-5	476-478	ob	_	_
+4-6	479-482	die	_	_
+4-7	483-492	Aenderung	_	_
+4-8	493-497	sehr	_	_
+4-9	498-504	schwer	_	_
+4-10	505-511	fallen	_	_
+4-11	512-517	würde	_	_
+4-12	518-519	\;	_	_
+4-13	520-523	zur	_	_
+4-14	524-528	Noth	_	_
+4-15	529-533	kann	_	_
+4-16	534-536	es	_	_
+4-17	537-544	bleiben	_	_
+4-18	545-546	.	_	_
+
+#Text=An Bellotti und Jahn schicke ich heute ebenfalls Briefe ab .
+5-1	547-549	An	_	_
+5-2	550-558	Bellotti	*	PERmentioned
+5-3	559-562	und	_	_
+5-4	563-567	Jahn	*	PERmentioned
+5-5	568-575	schicke	_	_
+5-6	576-579	ich	_	_
+5-7	580-585	heute	_	_
+5-8	586-595	ebenfalls	_	_
+5-9	596-602	Briefe	_	_
+5-10	603-605	ab	_	_
+5-11	606-607	.	_	_
+
+#Text=Ich wollte an Kellermann schreiben , aber er kennt meine Malanni \; auch hat er mir mehr zu schreiben als ich ihm .
+6-1	608-611	Ich	_	_
+6-2	612-618	wollte	_	_
+6-3	619-621	an	_	_
+6-4	622-632	Kellermann	*	PERmentioned
+6-5	633-642	schreiben	_	_
+6-6	643-644	,	_	_
+6-7	645-649	aber	_	_
+6-8	650-652	er	_	_
+6-9	653-658	kennt	_	_
+6-10	659-664	meine	_	_
+6-11	665-672	Malanni	_	_
+6-12	673-674	\;	_	_
+6-13	675-679	auch	_	_
+6-14	680-683	hat	_	_
+6-15	684-686	er	_	_
+6-16	687-690	mir	_	_
+6-17	691-695	mehr	_	_
+6-18	696-698	zu	_	_
+6-19	699-708	schreiben	_	_
+6-20	709-712	als	_	_
+6-21	713-716	ich	_	_
+6-22	717-720	ihm	_	_
+6-23	721-722	.	_	_
+
+#Text=Ergo möge er mich entschuldigen , meinen Neujahrsglückwunsch hiemit eben so günstig aufnehmen als wäre er ihm etruskisch aufgeschrieben und mich bald einmal vom Fortgang seiner Werke hören lassen .
+7-1	723-727	Ergo	_	_
+7-2	728-732	möge	_	_
+7-3	733-735	er	_	_
+7-4	736-740	mich	_	_
+7-5	741-754	entschuldigen	_	_
+7-6	755-756	,	_	_
+7-7	757-763	meinen	_	_
+7-8	764-783	Neujahrsglückwunsch	_	_
+7-9	784-790	hiemit	_	_
+7-10	791-795	eben	_	_
+7-11	796-798	so	_	_
+7-12	799-806	günstig	_	_
+7-13	807-816	aufnehmen	_	_
+7-14	817-820	als	_	_
+7-15	821-825	wäre	_	_
+7-16	826-828	er	_	_
+7-17	829-832	ihm	_	_
+7-18	833-843	etruskisch	_	_
+7-19	844-858	aufgeschrieben	_	_
+7-20	859-862	und	_	_
+7-21	863-867	mich	_	_
+7-22	868-872	bald	_	_
+7-23	873-879	einmal	_	_
+7-24	880-883	vom	_	_
+7-25	884-892	Fortgang	_	_
+7-26	893-899	seiner	_	_
+7-27	900-905	Werke	_	_
+7-28	906-911	hören	_	_
+7-29	912-918	lassen	_	_
+7-30	919-920	.	_	_
+
+#Text=Ich hätte gern noch an Kestner geschrieben \; es kommt aber heute nicht dazu .
+8-1	921-924	Ich	_	_
+8-2	925-930	hätte	_	_
+8-3	931-935	gern	_	_
+8-4	936-940	noch	_	_
+8-5	941-943	an	_	_
+8-6	944-951	Kestner	*	PERmentioned
+8-7	952-963	geschrieben	_	_
+8-8	964-965	\;	_	_
+8-9	966-968	es	_	_
+8-10	969-974	kommt	_	_
+8-11	975-979	aber	_	_
+8-12	980-985	heute	_	_
+8-13	986-991	nicht	_	_
+8-14	992-996	dazu	_	_
+8-15	997-998	.	_	_
+
+#Text=Grüßen Sie ihn doch herzlichst und sagen Sie ihm daß von Stackelberg endlich Manuscript zu dem G brosch , ( etliche Stücke nämlich ) hier ist .
+9-1	999-1005	Grüßen	_	_
+9-2	1006-1009	Sie	_	_
+9-3	1010-1013	ihn	_	_
+9-4	1014-1018	doch	_	_
+9-5	1019-1029	herzlichst	_	_
+9-6	1030-1033	und	_	_
+9-7	1034-1039	sagen	_	_
+9-8	1040-1043	Sie	_	_
+9-9	1044-1047	ihm	_	_
+9-10	1048-1051	daß	_	_
+9-11	1052-1055	von	_	_
+9-12	1056-1067	Stackelberg	*	PERmentioned
+9-13	1068-1075	endlich	_	_
+9-14	1076-1086	Manuscript	_	_
+9-15	1087-1089	zu	_	_
+9-16	1090-1093	dem	_	_
+9-17	1094-1095	G	_	_
+9-18	1096-1102	brosch	_	_
+9-19	1103-1104	,	_	_
+9-20	1105-1106	(	_	_
+9-21	1107-1114	etliche	_	_
+9-22	1115-1121	Stücke	_	_
+9-23	1122-1129	nämlich	_	_
+9-24	1130-1131	)	_	_
+9-25	1132-1136	hier	_	_
+9-26	1137-1140	ist	_	_
+9-27	1141-1142	.	_	_
+
+#Text=- Ich lege doch 2 Zeilen bei .
+10-1	1143-1144	-	_	_
+10-2	1145-1148	Ich	_	_
+10-3	1149-1153	lege	_	_
+10-4	1154-1158	doch	_	_
+10-5	1159-1160	2	_	_
+10-6	1161-1167	Zeilen	_	_
+10-7	1168-1171	bei	_	_
+10-8	1172-1173	.	_	_
+
+#Text=Gott behüte Sie mein theurer Freund .
+11-1	1174-1178	Gott	_	_
+11-2	1179-1185	behüte	_	_
+11-3	1186-1189	Sie	_	_
+11-4	1190-1194	mein	_	_
+11-5	1195-1202	theurer	_	_
+11-6	1203-1209	Freund	_	_
+11-7	1210-1211	.	_	_
+
+#Text=Glauben
+12-1	1212-1219	Glauben	_	_

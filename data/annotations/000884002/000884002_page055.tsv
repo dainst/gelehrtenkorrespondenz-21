@@ -1,0 +1,276 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=300 Brunn an Henzen Rom , 16. Juli 1860 8 . 16. Juli 1860 r . 26. Juli 1860 Lieber Henzen !
+1-1	0-3	300	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	16.	*[5]	DATEletter[5]
+1-8	30-34	Juli	*[5]	DATEletter[5]
+1-9	35-39	1860	*[5]	DATEletter[5]
+1-10	40-41	8	_	_
+1-11	42-43	.	_	_
+1-12	44-47	16.	*[6]	DATErecieved[6]
+1-13	48-52	Juli	*[6]	DATErecieved[6]
+1-14	53-57	1860	*[6]	DATErecieved[6]
+1-15	58-59	r	_	_
+1-16	60-61	.	_	_
+1-17	62-65	26.	*[7]	DATEanswered[7]
+1-18	66-70	Juli	*[7]	DATEanswered[7]
+1-19	71-75	1860	*[7]	DATEanswered[7]
+1-20	76-82	Lieber	_	_
+1-21	83-89	Henzen	*	PERaddressee
+1-22	90-91	!	_	_
+
+#Text=Von den heutigen Briefen habe ich mehrere geöffnet : 1 ) Ritschl , weil in dem vorgestrigen stand , daß auch Notizen für mich darin enthalten ( Die Einlage an Garrucci behalte ich gleich hier und schicke sie ihm morgen mit dem eben mir zukommenden ersten stamponi seines Artikels ) \; 2 ) Rein , weil ich für möglich hielt , daß etwas auf den Dürck seines Artikels darin enthalten sein könne , was schleunige Berücksichtig verdiene , 3 ) Hübner , weil das Volumen mich mit Recht einen Bull .
+2-1	92-95	Von	_	_
+2-2	96-99	den	_	_
+2-3	100-108	heutigen	_	_
+2-4	109-116	Briefen	_	_
+2-5	117-121	habe	_	_
+2-6	122-125	ich	_	_
+2-7	126-133	mehrere	_	_
+2-8	134-142	geöffnet	_	_
+2-9	143-144	:	_	_
+2-10	145-146	1	_	_
+2-11	147-148	)	_	_
+2-12	149-156	Ritschl	*	PERmentioned
+2-13	157-158	,	_	_
+2-14	159-163	weil	_	_
+2-15	164-166	in	_	_
+2-16	167-170	dem	_	_
+2-17	171-183	vorgestrigen	_	_
+2-18	184-189	stand	_	_
+2-19	190-191	,	_	_
+2-20	192-195	daß	_	_
+2-21	196-200	auch	_	_
+2-22	201-208	Notizen	_	_
+2-23	209-212	für	_	_
+2-24	213-217	mich	_	_
+2-25	218-223	darin	_	_
+2-26	224-233	enthalten	_	_
+2-27	234-235	(	_	_
+2-28	236-239	Die	_	_
+2-29	240-247	Einlage	_	_
+2-30	248-250	an	_	_
+2-31	251-259	Garrucci	*	PERmentioned
+2-32	260-267	behalte	_	_
+2-33	268-271	ich	_	_
+2-34	272-278	gleich	_	_
+2-35	279-283	hier	_	_
+2-36	284-287	und	_	_
+2-37	288-295	schicke	_	_
+2-38	296-299	sie	_	_
+2-39	300-303	ihm	_	_
+2-40	304-310	morgen	_	_
+2-41	311-314	mit	_	_
+2-42	315-318	dem	_	_
+2-43	319-323	eben	_	_
+2-44	324-327	mir	_	_
+2-45	328-339	zukommenden	_	_
+2-46	340-346	ersten	_	_
+2-47	347-355	stamponi	_	_
+2-48	356-362	seines	_	_
+2-49	363-371	Artikels	_	_
+2-50	372-373	)	_	_
+2-51	374-375	\;	_	_
+2-52	376-377	2	_	_
+2-53	378-379	)	_	_
+2-54	380-384	Rein	*	PERmentioned
+2-55	385-386	,	_	_
+2-56	387-391	weil	_	_
+2-57	392-395	ich	_	_
+2-58	396-399	für	_	_
+2-59	400-407	möglich	_	_
+2-60	408-413	hielt	_	_
+2-61	414-415	,	_	_
+2-62	416-419	daß	_	_
+2-63	420-425	etwas	_	_
+2-64	426-429	auf	_	_
+2-65	430-433	den	_	_
+2-66	434-439	Dürck	_	_
+2-67	440-446	seines	_	_
+2-68	447-455	Artikels	_	_
+2-69	456-461	darin	_	_
+2-70	462-471	enthalten	_	_
+2-71	472-476	sein	_	_
+2-72	477-482	könne	_	_
+2-73	483-484	,	_	_
+2-74	485-488	was	_	_
+2-75	489-499	schleunige	_	_
+2-76	500-513	Berücksichtig	_	_
+2-77	514-522	verdiene	_	_
+2-78	523-524	,	_	_
+2-79	525-526	3	_	_
+2-80	527-528	)	_	_
+2-81	529-535	Hübner	*	PERmentioned
+2-82	536-537	,	_	_
+2-83	538-542	weil	_	_
+2-84	543-546	das	_	_
+2-85	547-554	Volumen	_	_
+2-86	555-559	mich	_	_
+2-87	560-563	mit	_	_
+2-88	564-569	Recht	_	_
+2-89	570-575	einen	_	_
+2-90	576-580	Bull	_	_
+2-91	581-582	.	_	_
+
+#Text=artikel voraussetzen ließ , den ich am besten gleich zur Vebersetzung an mich nähme , .
+3-1	583-590	artikel	_	_
+3-2	591-603	voraussetzen	_	_
+3-3	604-608	ließ	_	_
+3-4	609-610	,	_	_
+3-5	611-614	den	_	_
+3-6	615-618	ich	_	_
+3-7	619-621	am	_	_
+3-8	622-628	besten	_	_
+3-9	629-635	gleich	_	_
+3-10	636-639	zur	_	_
+3-11	640-652	Vebersetzung	_	_
+3-12	653-655	an	_	_
+3-13	656-660	mich	_	_
+3-14	661-666	nähme	_	_
+3-15	667-668	,	_	_
+3-16	669-670	.	_	_
+
+#Text=Es sind 14 lange Seiten , nach Belieben auf 2 oder 3 Bull .
+4-1	671-673	Es	_	_
+4-2	674-678	sind	_	_
+4-3	679-681	14	_	_
+4-4	682-687	lange	_	_
+4-5	688-694	Seiten	_	_
+4-6	695-696	,	_	_
+4-7	697-701	nach	_	_
+4-8	702-710	Belieben	_	_
+4-9	711-714	auf	_	_
+4-10	715-716	2	_	_
+4-11	717-721	oder	_	_
+4-12	722-723	3	_	_
+4-13	724-728	Bull	_	_
+4-14	729-730	.	_	_
+
+#Text=zu vertheilen .
+5-1	731-733	zu	_	_
+5-2	734-744	vertheilen	_	_
+5-3	745-746	.	_	_
+
+#Text=Inhalt : Alterthümer der Königreiche Valencia und Murcia \; und Mus . Despnig .
+6-1	747-753	Inhalt	_	_
+6-2	754-755	:	_	_
+6-3	756-767	Alterthümer	_	_
+6-4	768-771	der	_	_
+6-5	772-783	Königreiche	_	_
+6-6	784-792	Valencia	*	PLACEmentioned
+6-7	793-796	und	_	_
+6-8	797-803	Murcia	*	PLACEmentioned
+6-9	804-805	\;	_	_
+6-10	806-809	und	_	_
+6-11	810-813	Mus	*[8]	ORGmentioned[8]
+6-12	814-815	.	*[8]	ORGmentioned[8]
+6-13	816-823	Despnig	*[8]	ORGmentioned[8]
+6-14	824-825	.	*[8]	ORGmentioned[8]
+
+#Text=Ich war bereits gestern in Ariccia und habe ohne große Mühe eine passende ganz hübsche Wohklnung für 10 Scudi monatlich gefunden ( Via Valfonato 26 ) .
+7-1	826-829	Ich	_	_
+7-2	830-833	war	_	_
+7-3	834-841	bereits	_	_
+7-4	842-849	gestern	_	_
+7-5	850-852	in	_	_
+7-6	853-860	Ariccia	*	PLACEmentioned
+7-7	861-864	und	_	_
+7-8	865-869	habe	_	_
+7-9	870-874	ohne	_	_
+7-10	875-880	große	_	_
+7-11	881-885	Mühe	_	_
+7-12	886-890	eine	_	_
+7-13	891-899	passende	_	_
+7-14	900-904	ganz	_	_
+7-15	905-912	hübsche	_	_
+7-16	913-922	Wohklnung	_	_
+7-17	923-926	für	_	_
+7-18	927-929	10	_	_
+7-19	930-935	Scudi	_	_
+7-20	936-945	monatlich	_	_
+7-21	946-954	gefunden	_	_
+7-22	955-956	(	_	_
+7-23	957-960	Via	_	_
+7-24	961-970	Valfonato	_	_
+7-25	971-973	26	_	_
+7-26	974-975	)	_	_
+7-27	976-977	.	_	_
+
+#Text=Vielleicht steickt auch Bartoccini seine Frau und Kinder auf etwa 14 Tage hinaus , da in dem Hause sich auch Platz für sie findet .
+8-1	978-988	Vielleicht	_	_
+8-2	989-996	steickt	_	_
+8-3	997-1001	auch	_	_
+8-4	1002-1012	Bartoccini	*	PERmentioned
+8-5	1013-1018	seine	_	_
+8-6	1019-1023	Frau	_	_
+8-7	1024-1027	und	_	_
+8-8	1028-1034	Kinder	_	_
+8-9	1035-1038	auf	_	_
+8-10	1039-1043	etwa	_	_
+8-11	1044-1046	14	_	_
+8-12	1047-1051	Tage	_	_
+8-13	1052-1058	hinaus	_	_
+8-14	1059-1060	,	_	_
+8-15	1061-1063	da	_	_
+8-16	1064-1066	in	_	_
+8-17	1067-1070	dem	_	_
+8-18	1071-1076	Hause	_	_
+8-19	1077-1081	sich	_	_
+8-20	1082-1086	auch	_	_
+8-21	1087-1092	Platz	_	_
+8-22	1093-1096	für	_	_
+8-23	1097-1100	sie	_	_
+8-24	1101-1107	findet	_	_
+8-25	1108-1109	.	_	_
+
+#Text=Wir gehen nun ans Einpacken und denken Mittwoch Nachmittag uns fortzumachen .
+9-1	1110-1113	Wir	_	_
+9-2	1114-1119	gehen	_	_
+9-3	1120-1123	nun	_	_
+9-4	1124-1127	ans	_	_
+9-5	1128-1137	Einpacken	_	_
+9-6	1138-1141	und	_	_
+9-7	1142-1148	denken	_	_
+9-8	1149-1157	Mittwoch	_	_
+9-9	1158-1168	Nachmittag	_	_
+9-10	1169-1172	uns	_	_
+9-11	1173-1185	fortzumachen	_	_
+9-12	1186-1187	.	_	_
+
+#Text=Mit besten Grüßen meiner Frau Ihr HBrunn .
+10-1	1188-1191	Mit	_	_
+10-2	1192-1198	besten	_	_
+10-3	1199-1205	Grüßen	_	_
+10-4	1206-1212	meiner	_	_
+10-5	1213-1217	Frau	_	_
+10-6	1218-1221	Ihr	*[10]	PERauthor[10]
+10-7	1222-1228	HBrunn	*[10]	PERauthor[10]
+10-8	1229-1230	.	_	_
+
+#Text=R. Montag 16 Juli 60 .
+11-1	1231-1233	R.	_	_
+11-2	1234-1240	Montag	*[9]	DATEletter[9]
+11-3	1241-1243	16	*[9]	DATEletter[9]
+11-4	1244-1248	Juli	*[9]	DATEletter[9]
+11-5	1249-1251	60	*[9]	DATEletter[9]
+11-6	1252-1253	.	_	_
+
+#Text=Wenn später Zeitungen kommen , denken Sie wohl an mich .
+12-1	1254-1258	Wenn	_	_
+12-2	1259-1265	später	_	_
+12-3	1266-1275	Zeitungen	_	_
+12-4	1276-1282	kommen	_	_
+12-5	1283-1284	,	_	_
+12-6	1285-1291	denken	_	_
+12-7	1292-1295	Sie	_	_
+12-8	1296-1300	wohl	_	_
+12-9	1301-1303	an	_	_
+12-10	1304-1308	mich	_	_
+12-11	1309-1310	.	_	_

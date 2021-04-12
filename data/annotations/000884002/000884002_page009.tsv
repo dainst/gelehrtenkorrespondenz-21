@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=STR ECTS NER pe Yes \; 231 Brunn an Henzen ohne Ort/vor 5.August 1858 fh A. di Dir .
+1-1	0-3	STR	_	_
+1-2	4-8	ECTS	_	_
+1-3	9-12	NER	_	_
+1-4	13-15	pe	_	_
+1-5	16-19	Yes	_	_
+1-6	20-21	\;	_	_
+1-7	22-25	231	_	_
+1-8	26-31	Brunn	*	PERauthor
+1-9	32-34	an	_	_
+1-10	35-41	Henzen	*	PERaddressee
+1-11	42-46	ohne	_	_
+1-12	47-54	Ort/vor	_	_
+1-13	55-63	5.August	*[5]	DATEletter[5]
+1-14	64-68	1858	*[5]	DATEletter[5]
+1-15	69-71	fh	_	_
+1-16	72-74	A.	_	_
+1-17	75-77	di	_	_
+1-18	78-81	Dir	_	_
+1-19	82-83	.	_	_
+
+#Text=Pie .
+2-1	84-87	Pie	_	_
+2-2	88-89	.	_	_
+
+#Text=te Ä g « 5 .
+3-1	90-92	te	_	_
+3-2	93-94	Ä	_	_
+3-3	95-96	g	_	_
+3-4	97-98	«	_	_
+3-5	99-100	5	*[6]	DATEletter[6]
+3-6	101-102	.	*[6]	DATEletter[6]
+
+#Text=August 1858 r . Lieber Henzen Da für Bartoccini 50 Scudi in Rom zu zahlen sind und ich doch hoffentlich nicht die ganze Summe verbrauche , so bitte ich nicht fünf , sondern vierhundert Scudi zu schicken und zwar unter Bartoccini 's Addresse , um etwaige Weitläufigkeiten der Legation zur Empfangnahme zu vermeiden .
+4-1	103-109	August	*[6]	DATEletter[6]
+4-2	110-114	1858	*[6]	DATEletter[6]
+4-3	115-116	r	_	_
+4-4	117-118	.	_	_
+4-5	119-125	Lieber	_	_
+4-6	126-132	Henzen	*	PERauthor
+4-7	133-135	Da	_	_
+4-8	136-139	für	_	_
+4-9	140-150	Bartoccini	*	PERmentioned
+4-10	151-153	50	_	_
+4-11	154-159	Scudi	_	_
+4-12	160-162	in	_	_
+4-13	163-166	Rom	*	PLACEmentioned
+4-14	167-169	zu	_	_
+4-15	170-176	zahlen	_	_
+4-16	177-181	sind	_	_
+4-17	182-185	und	_	_
+4-18	186-189	ich	_	_
+4-19	190-194	doch	_	_
+4-20	195-206	hoffentlich	_	_
+4-21	207-212	nicht	_	_
+4-22	213-216	die	_	_
+4-23	217-222	ganze	_	_
+4-24	223-228	Summe	_	_
+4-25	229-239	verbrauche	_	_
+4-26	240-241	,	_	_
+4-27	242-244	so	_	_
+4-28	245-250	bitte	_	_
+4-29	251-254	ich	_	_
+4-30	255-260	nicht	_	_
+4-31	261-265	fünf	_	_
+4-32	266-267	,	_	_
+4-33	268-275	sondern	_	_
+4-34	276-287	vierhundert	_	_
+4-35	288-293	Scudi	_	_
+4-36	294-296	zu	_	_
+4-37	297-305	schicken	_	_
+4-38	306-309	und	_	_
+4-39	310-314	zwar	_	_
+4-40	315-320	unter	_	_
+4-41	321-331	Bartoccini	*	PERmentioned
+4-42	332-334	's	_	_
+4-43	335-343	Addresse	_	_
+4-44	344-345	,	_	_
+4-45	346-348	um	_	_
+4-46	349-356	etwaige	_	_
+4-47	357-373	Weitläufigkeiten	_	_
+4-48	374-377	der	_	_
+4-49	378-386	Legation	_	_
+4-50	387-390	zur	_	_
+4-51	391-403	Empfangnahme	_	_
+4-52	404-406	zu	_	_
+4-53	407-416	vermeiden	_	_
+4-54	417-418	.	_	_
+
+#Text=- Meine Quittungen : vom Institut ... oder von der Generalcasse des K. Minist .
+5-1	419-420	-	_	_
+5-2	421-426	Meine	_	_
+5-3	427-437	Quittungen	_	_
+5-4	438-439	:	_	_
+5-5	440-443	vom	_	_
+5-6	444-452	Institut	*	ORGmentioned
+5-7	453-456	...	_	_
+5-8	457-461	oder	_	_
+5-9	462-465	von	_	_
+5-10	466-469	der	_	_
+5-11	470-482	Generalcasse	_	_
+5-12	483-486	des	_	_
+5-13	487-489	K.	_	_
+5-14	490-496	Minist	_	_
+5-15	497-498	.	_	_
+
+#Text=etc. , über alle dreif .
+6-1	499-503	etc.	_	_
+6-2	504-505	,	_	_
+6-3	506-510	über	_	_
+6-4	511-515	alle	_	_
+6-5	516-521	dreif	_	_
+6-6	522-523	.	_	_
+
+#Text=eine oder über 2 für mich und 1 für Zeichnungen \; einfache oder doppelte Quittungen ?
+7-1	524-528	eine	_	_
+7-2	529-533	oder	_	_
+7-3	534-538	über	_	_
+7-4	539-540	2	_	_
+7-5	541-544	für	_	_
+7-6	545-549	mich	_	_
+7-7	550-553	und	_	_
+7-8	554-555	1	_	_
+7-9	556-559	für	_	_
+7-10	560-571	Zeichnungen	_	_
+7-11	572-573	\;	_	_
+7-12	574-582	einfache	_	_
+7-13	583-587	oder	_	_
+7-14	588-596	doppelte	_	_
+7-15	597-607	Quittungen	_	_
+7-16	608-609	?	_	_
+
+#Text=Bartoccini über 150 oder 200 ?
+8-1	610-620	Bartoccini	*	PERmentioned
+8-2	621-625	über	_	_
+8-3	626-629	150	_	_
+8-4	630-634	oder	_	_
+8-5	635-638	200	_	_
+8-6	639-640	?	_	_
+
+#Text=Mit Conestabile habe ich vorläufig gesprochen , und das Nächste wird nun sein , daß ich einen ostensiblen Brief an Gerhard abgehen lasse , um mich zu officiellen Verhandlungen beauftragen zu lassen .
+9-1	641-644	Mit	_	_
+9-2	645-656	Conestabile	*	PERmentioned
+9-3	657-661	habe	_	_
+9-4	662-665	ich	_	_
+9-5	666-675	vorläufig	_	_
+9-6	676-686	gesprochen	_	_
+9-7	687-688	,	_	_
+9-8	689-692	und	_	_
+9-9	693-696	das	_	_
+9-10	697-704	Nächste	_	_
+9-11	705-709	wird	_	_
+9-12	710-713	nun	_	_
+9-13	714-718	sein	_	_
+9-14	719-720	,	_	_
+9-15	721-724	daß	_	_
+9-16	725-728	ich	_	_
+9-17	729-734	einen	_	_
+9-18	735-746	ostensiblen	_	_
+9-19	747-752	Brief	_	_
+9-20	753-755	an	_	_
+9-21	756-763	Gerhard	*	PERmentioned
+9-22	764-771	abgehen	_	_
+9-23	772-777	lasse	_	_
+9-24	778-779	,	_	_
+9-25	780-782	um	_	_
+9-26	783-787	mich	_	_
+9-27	788-790	zu	_	_
+9-28	791-802	officiellen	_	_
+9-29	803-816	Verhandlungen	_	_
+9-30	817-828	beauftragen	_	_
+9-31	829-831	zu	_	_
+9-32	832-838	lassen	_	_
+9-33	839-840	.	_	_
+
+#Text=Haben Sie Conestabile's Artikel über Frangois erhalten ?
+10-1	841-846	Haben	_	_
+10-2	847-850	Sie	_	_
+10-3	851-864	Conestabile's	*	PERmentioned
+10-4	865-872	Artikel	_	_
+10-5	873-877	über	_	_
+10-6	878-886	Frangois	*	PERmentioned
+10-7	887-895	erhalten	_	_
+10-8	896-897	?	_	_
+
+#Text=C. fragt ferner an , ob Sie ihm nicht ein Exemplar von Mommsen 's Inscript .
+11-1	898-900	C.	*	PERmentioned
+11-2	901-906	fragt	_	_
+11-3	907-913	ferner	_	_
+11-4	914-916	an	_	_
+11-5	917-918	,	_	_
+11-6	919-921	ob	_	_
+11-7	922-925	Sie	_	_
+11-8	926-929	ihm	_	_
+11-9	930-935	nicht	_	_
+11-10	936-939	ein	_	_
+11-11	940-948	Exemplar	_	_
+11-12	949-952	von	_	_
+11-13	953-960	Mommsen	*[8]	PERmentioned[8]
+11-14	961-963	's	*[8]	PERmentioned[8]
+11-15	964-972	Inscript	_	_
+11-16	973-974	.	_	_
+
+#Text=helvet .
+12-1	975-981	helvet	_	_
+12-2	982-983	.	_	_
+
+#Text=( natürlich für Geld ) besorgen können .
+13-1	984-985	(	_	_
+13-2	986-995	natürlich	_	_
+13-3	996-999	für	_	_
+13-4	1000-1004	Geld	_	_
+13-5	1005-1006	)	_	_
+13-6	1007-1015	besorgen	_	_
+13-7	1016-1022	können	_	_
+13-8	1023-1024	.	_	_
+
+#Text=Ich bin tüchtig bei den Steinschneidern , die ich bis heute über 8 Tage abzuschicken versprochen .
+14-1	1025-1028	Ich	_	_
+14-2	1029-1032	bin	_	_
+14-3	1033-1040	tüchtig	_	_
+14-4	1041-1044	bei	_	_
+14-5	1045-1048	den	_	_
+14-6	1049-1064	Steinschneidern	_	_
+14-7	1065-1066	,	_	_
+14-8	1067-1070	die	_	_
+14-9	1071-1074	ich	_	_
+14-10	1075-1078	bis	_	_
+14-11	1079-1084	heute	_	_
+14-12	1085-1089	über	_	_
+14-13	1090-1091	8	_	_
+14-14	1092-1096	Tage	_	_
+14-15	1097-1109	abzuschicken	_	_
+14-16	1110-1121	versprochen	_	_
+14-17	1122-1123	.	_	_
+
+#Text=Deshalb muß momentan anderes zurückstehen .
+15-1	1124-1131	Deshalb	_	_
+15-2	1132-1135	muß	_	_
+15-3	1136-1144	momentan	_	_
+15-4	1145-1152	anderes	_	_
+15-5	1153-1165	zurückstehen	_	_
+15-6	1166-1167	.	_	_
+
+#Text=Nächste Woche aber denke ich unter anderem auch einen articoletto über peruginer Vasologie zu machen .
+16-1	1168-1175	Nächste	_	_
+16-2	1176-1181	Woche	_	_
+16-3	1182-1186	aber	_	_
+16-4	1187-1192	denke	_	_
+16-5	1193-1196	ich	_	_
+16-6	1197-1202	unter	_	_
+16-7	1203-1210	anderem	_	_
+16-8	1211-1215	auch	_	_
+16-9	1216-1221	einen	_	_
+16-10	1222-1233	articoletto	_	_
+16-11	1234-1238	über	_	_
+16-12	1239-1248	peruginer	*[7]	OBJ[7]
+16-13	1249-1258	Vasologie	*[7]	OBJ[7]
+16-14	1259-1261	zu	_	_
+16-15	1262-1268	machen	_	_
+16-16	1269-1270	.	_	_

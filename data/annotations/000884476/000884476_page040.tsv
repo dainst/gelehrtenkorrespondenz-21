@@ -1,0 +1,191 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 19 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	19	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 Gott behüte Sie , theurer Freund .
+2-1	31-38	Oktober	*[4]	DATEletter[4]
+2-2	39-43	1834	*[4]	DATEletter[4]
+2-3	44-48	Gott	_	_
+2-4	49-55	behüte	_	_
+2-5	56-59	Sie	_	_
+2-6	60-61	,	_	_
+2-7	62-69	theurer	_	_
+2-8	70-76	Freund	_	_
+2-9	77-78	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Giunta 1/71 34 Von Inghiranis Vasen empfange ich 1 Exemplar \; beide sind geschenkt .
+3-1	79-89	Herzlichst	_	_
+3-2	90-93	Ihr	_	_
+3-3	94-101	Gerhard	*	PERauthor
+3-4	102-108	Giunta	_	_
+3-5	109-113	1/71	*[5]	DATErecieved[5]
+3-6	114-116	34	*[5]	DATErecieved[5]
+3-7	117-120	Von	_	_
+3-8	121-131	Inghiranis	*	PERmentioned
+3-9	132-137	Vasen	_	_
+3-10	138-146	empfange	_	_
+3-11	147-150	ich	_	_
+3-12	151-152	1	_	_
+3-13	153-161	Exemplar	_	_
+3-14	162-163	\;	_	_
+3-15	164-169	beide	_	_
+3-16	170-174	sind	_	_
+3-17	175-184	geschenkt	_	_
+3-18	185-186	.	_	_
+
+#Text=Die V R ich ebenfalls \; c ..... 000s0r ... durch gelegentliche Pariser Sendung von Lajard .
+4-1	187-190	Die	_	_
+4-2	191-192	V	_	_
+4-3	193-194	R	_	_
+4-4	195-198	ich	_	_
+4-5	199-208	ebenfalls	_	_
+4-6	209-210	\;	_	_
+4-7	211-212	c	_	_
+4-8	213-218	.....	_	_
+4-9	219-225	000s0r	_	_
+4-10	226-229	...	_	_
+4-11	230-235	durch	_	_
+4-12	236-249	gelegentliche	_	_
+4-13	250-257	Pariser	*	PLACEmentioned
+4-14	258-265	Sendung	_	_
+4-15	266-269	von	_	_
+4-16	270-276	Lajard	*	PERmentioned
+4-17	277-278	.	_	_
+
+#Text=- Erwägen Sie wie die Publikation der Achilles und Ajax Vase anständig und wohlfeil für die Monumenti oder Institut benutzt werden könnte .
+5-1	279-280	-	_	_
+5-2	281-288	Erwägen	_	_
+5-3	289-292	Sie	_	_
+5-4	293-296	wie	_	_
+5-5	297-300	die	_	_
+5-6	301-312	Publikation	_	_
+5-7	313-316	der	_	_
+5-8	317-325	Achilles	*[10]	OBJ[10]
+5-9	326-329	und	*[10]	OBJ[10]
+5-10	330-334	Ajax	*[10]	OBJ[10]
+5-11	335-339	Vase	_	_
+5-12	340-349	anständig	_	_
+5-13	350-353	und	_	_
+5-14	354-362	wohlfeil	_	_
+5-15	363-366	für	_	_
+5-16	367-370	die	_	_
+5-17	371-380	Monumenti	_	_
+5-18	381-385	oder	_	_
+5-19	386-394	Institut	*	ORGmentioned
+5-20	395-402	benutzt	_	_
+5-21	403-409	werden	_	_
+5-22	410-416	könnte	_	_
+5-23	417-418	.	_	_
+
+#Text=- Weß Geistes Kind ist das St g staner Büchlein ?
+6-1	419-420	-	_	_
+6-2	421-424	Weß	_	_
+6-3	425-432	Geistes	_	_
+6-4	433-437	Kind	_	_
+6-5	438-441	ist	_	_
+6-6	442-445	das	_	_
+6-7	446-448	St	_	_
+6-8	449-450	g	_	_
+6-9	451-457	staner	_	_
+6-10	458-466	Büchlein	_	_
+6-11	467-468	?	_	_
+
+#Text=- An Santangelo können Sie mit Lanci ein Antwortschreiben serrereenencc ... Und in meiner Abwesenheit Bunsen um Unterschrift bitten .
+7-1	469-470	-	_	_
+7-2	471-473	An	_	_
+7-3	474-484	Santangelo	*	PERmentioned
+7-4	485-491	können	_	_
+7-5	492-495	Sie	_	_
+7-6	496-499	mit	_	_
+7-7	500-505	Lanci	*	PERmentioned
+7-8	506-509	ein	_	_
+7-9	510-526	Antwortschreiben	_	_
+7-10	527-540	serrereenencc	_	_
+7-11	541-544	...	_	_
+7-12	545-548	Und	_	_
+7-13	549-551	in	_	_
+7-14	552-558	meiner	_	_
+7-15	559-570	Abwesenheit	_	_
+7-16	571-577	Bunsen	*	PERmentioned
+7-17	578-580	um	_	_
+7-18	581-593	Unterschrift	_	_
+7-19	594-600	bitten	_	_
+7-20	601-602	.	_	_
+
+#Text=- Von der Beschreibung von Rom versprach mir von ihm nur 1 Exemplar des Bands vom ....... Vatikan .
+8-1	603-604	-	_	_
+8-2	605-608	Von	_	_
+8-3	609-612	der	_	_
+8-4	613-625	Beschreibung	_	_
+8-5	626-629	von	_	_
+8-6	630-633	Rom	*	PLACEmentioned
+8-7	634-643	versprach	_	_
+8-8	644-647	mir	_	_
+8-9	648-651	von	_	_
+8-10	652-655	ihm	_	_
+8-11	656-659	nur	_	_
+8-12	660-661	1	_	_
+8-13	662-670	Exemplar	_	_
+8-14	671-674	des	_	_
+8-15	675-680	Bands	_	_
+8-16	681-684	vom	_	_
+8-17	685-692	.......	_	_
+8-18	693-700	Vatikan	*[16]	ORGmentioned[16]
+8-19	701-702	.	*[16]	ORGmentioned[16]
+
+#Text=Museum .
+9-1	703-709	Museum	*[16]	ORGmentioned[16]
+9-2	710-711	.	_	_
+
+#Text=- Der wächserne Mann wird wol der Abguß einer bronzenen Lüsterfigur aus . „ ........ SEeyn .
+10-1	712-713	-	_	_
+10-2	714-717	Der	_	_
+10-3	718-727	wächserne	*[17]	OBJ[17]
+10-4	728-732	Mann	*[17]	OBJ[17]
+10-5	733-737	wird	_	_
+10-6	738-741	wol	_	_
+10-7	742-745	der	_	_
+10-8	746-751	Abguß	_	_
+10-9	752-757	einer	_	_
+10-10	758-767	bronzenen	*[18]	OBJ[18]
+10-11	768-779	Lüsterfigur	*[18]	OBJ[18]
+10-12	780-783	aus	_	_
+10-13	784-785	.	_	_
+10-14	786-787	„	_	_
+10-15	788-796	........	_	_
+10-16	797-802	SEeyn	_	_
+10-17	803-804	.	_	_
+
+#Text=- Nochmals theurer Freund herzlichen Dank für Ihre Mühen und verlieren Sie Ihren guten Muth nicht \; schonen Sie Ihre Gesundheit \| !
+11-1	805-806	-	_	_
+11-2	807-815	Nochmals	_	_
+11-3	816-823	theurer	_	_
+11-4	824-830	Freund	_	_
+11-5	831-841	herzlichen	_	_
+11-6	842-846	Dank	_	_
+11-7	847-850	für	_	_
+11-8	851-855	Ihre	_	_
+11-9	856-861	Mühen	_	_
+11-10	862-865	und	_	_
+11-11	866-875	verlieren	_	_
+11-12	876-879	Sie	_	_
+11-13	880-885	Ihren	_	_
+11-14	886-891	guten	_	_
+11-15	892-896	Muth	_	_
+11-16	897-902	nicht	_	_
+11-17	903-904	\;	_	_
+11-18	905-912	schonen	_	_
+11-19	913-916	Sie	_	_
+11-20	917-921	Ihre	_	_
+11-21	922-932	Gesundheit	_	_
+11-22	933-934	\|	_	_
+11-23	935-936	!	_	_

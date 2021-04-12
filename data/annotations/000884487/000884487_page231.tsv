@@ -1,0 +1,72 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 5. September 1837 Auf der Rückseite des Briefes unter der Adresse Herr Dr. Schultz aus Berlin nebst Familie verzeisetheute den 14 ten Sept nach Mantua um dort die 14 tägige Contumaz auszuhalten .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	5.	*[4]	DATEletter[4]
+1-7	29-38	September	*[4]	DATEletter[4]
+1-8	39-43	1837	*[4]	DATEletter[4]
+1-9	44-47	Auf	_	_
+1-10	48-51	der	_	_
+1-11	52-61	Rückseite	_	_
+1-12	62-65	des	_	_
+1-13	66-73	Briefes	_	_
+1-14	74-79	unter	_	_
+1-15	80-83	der	_	_
+1-16	84-91	Adresse	_	_
+1-17	92-96	Herr	_	_
+1-18	97-100	Dr.	_	_
+1-19	101-108	Schultz	*	PERmentioned
+1-20	109-112	aus	_	_
+1-21	113-119	Berlin	*	PLACEmentioned
+1-22	120-125	nebst	_	_
+1-23	126-133	Familie	_	_
+1-24	134-148	verzeisetheute	_	_
+1-25	149-152	den	_	_
+1-26	153-155	14	*[7]	DATEmentioned[7]
+1-27	156-159	ten	*[7]	DATEmentioned[7]
+1-28	160-164	Sept	*[7]	DATEmentioned[7]
+1-29	165-169	nach	_	_
+1-30	170-176	Mantua	*	PLACEmentioned
+1-31	177-179	um	_	_
+1-32	180-184	dort	_	_
+1-33	185-188	die	_	_
+1-34	189-191	14	_	_
+1-35	192-198	tägige	_	_
+1-36	199-207	Contumaz	_	_
+1-37	208-219	auszuhalten	_	_
+1-38	220-221	.	_	_
+
+#Text=- Er weiß nicht ob und wann H. G . A. von Bunsen nach Verona könnte .
+2-1	222-223	-	_	_
+2-2	224-226	Er	_	_
+2-3	227-231	weiß	_	_
+2-4	232-237	nicht	_	_
+2-5	238-240	ob	_	_
+2-6	241-244	und	_	_
+2-7	245-249	wann	_	_
+2-8	250-252	H.	_	_
+2-9	253-254	G	_	_
+2-10	255-256	.	_	_
+2-11	257-259	A.	_	_
+2-12	260-263	von	_	_
+2-13	264-270	Bunsen	*	PERmentioned
+2-14	271-275	nach	_	_
+2-15	276-282	Verona	*	PLACEmentioned
+2-16	283-289	könnte	_	_
+2-17	290-291	.	_	_
+
+#Text=- Mit Hochachtung ganz ergebenster Fr v. Jäger
+3-1	292-293	-	_	_
+3-2	294-297	Mit	_	_
+3-3	298-309	Hochachtung	_	_
+3-4	310-314	ganz	_	_
+3-5	315-326	ergebenster	_	_
+3-6	327-329	Fr	*[11]	PERmentioned[11]
+3-7	330-332	v.	*[11]	PERmentioned[11]
+3-8	333-338	Jäger	*[11]	PERmentioned[11]

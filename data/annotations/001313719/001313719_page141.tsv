@@ -1,0 +1,291 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin 14/III/1848 A , di Dir .
+1-1	0-7	Gerhard	*	PERauthor	
+1-2	8-10	an	_	_	
+1-3	11-17	Henzen	*	PERaddressee	
+1-4	18-24	Berlin	*	PLACEfrom	
+1-5	25-36	14/III/1848	*	DATEletter	
+1-6	37-38	A	_	_	
+1-7	39-40	,	_	_	
+1-8	41-43	di	_	_	
+1-9	44-47	Dir	_	_	
+1-10	48-49	.	_	_	
+
+#Text=8 .
+2-1	50-51	8	_	_	
+2-2	52-53	.	_	_	
+
+#Text=24/III 48 r . 20/IV 48 D. Henzen Berlin 14 März 48 Die # “ kademie lieber Freund hat nun gestern die künftige Bearbeitung des Corpus I .
+3-1	54-60	24/III	*[1]	DATErecieved[1]	
+3-2	61-63	48	*[1]	DATErecieved[1]	
+3-3	64-65	r	_	_	
+3-4	66-67	.	_	_	
+3-5	68-73	20/IV	*[2]	DATEanswered[2]	
+3-6	74-76	48	*[2]	DATEanswered[2]	
+3-7	77-79	D.	_	_	
+3-8	80-86	Henzen	*	PERaddressee	
+3-9	87-93	Berlin	*	PLACEfrom	
+3-10	94-96	14	*[3]	DATEletter[3]	
+3-11	97-101	März	*[3]	DATEletter[3]	
+3-12	102-104	48	*[3]	DATEletter[3]	
+3-13	105-108	Die	_	_	
+3-14	109-110	#	_	_	
+3-15	111-112	“	_	_	
+3-16	113-120	kademie	*	ORGmentioned	
+3-17	121-127	lieber	_	_	
+3-18	128-134	Freund	_	_	
+3-19	135-138	hat	_	_	
+3-20	139-142	nun	_	_	
+3-21	143-150	gestern	_	_	
+3-22	151-154	die	_	_	
+3-23	155-163	künftige	_	_	
+3-24	164-175	Bearbeitung	_	_	
+3-25	176-179	des	_	_	
+3-26	180-186	Corpus	_	_	
+3-27	187-188	I	_	_	
+3-28	189-190	.	_	_	
+
+#Text=L. getheilt und ist dabei auf Mommsen 's Vorschlag eingegangen die Staatsinschriften , nicht ohne Aussicht auf Borghesi 's und Ihre Mitwirkung die man auch direkt in Anspruch zu nehmen sich vorbehält , zunächst unverfügt zu lassen .
+4-1	191-193	L.	_	_	
+4-2	194-202	getheilt	_	_	
+4-3	203-206	und	_	_	
+4-4	207-210	ist	_	_	
+4-5	211-216	dabei	_	_	
+4-6	217-220	auf	_	_	
+4-7	221-228	Mommsen	*[4]	PERmentioned[4]	
+4-8	229-231	's	*[4]	PERmentioned[4]	
+4-9	232-241	Vorschlag	_	_	
+4-10	242-253	eingegangen	_	_	
+4-11	254-257	die	_	_	
+4-12	258-275	Staatsinschriften	_	_	
+4-13	276-277	,	_	_	
+4-14	278-283	nicht	_	_	
+4-15	284-288	ohne	_	_	
+4-16	289-297	Aussicht	_	_	
+4-17	298-301	auf	_	_	
+4-18	302-310	Borghesi	*[5]	PERmentioned[5]	
+4-19	311-313	's	*[5]	PERmentioned[5]	
+4-20	314-317	und	_	_	
+4-21	318-322	Ihre	_	_	
+4-22	323-333	Mitwirkung	_	_	
+4-23	334-337	die	_	_	
+4-24	338-341	man	_	_	
+4-25	342-346	auch	_	_	
+4-26	347-353	direkt	_	_	
+4-27	354-356	in	_	_	
+4-28	357-365	Anspruch	_	_	
+4-29	366-368	zu	_	_	
+4-30	369-375	nehmen	_	_	
+4-31	376-380	sich	_	_	
+4-32	381-390	vorbehält	_	_	
+4-33	391-392	,	_	_	
+4-34	393-401	zunächst	_	_	
+4-35	402-411	unverfügt	_	_	
+4-36	412-414	zu	_	_	
+4-37	415-421	lassen	_	_	
+4-38	422-423	.	_	_	
+
+#Text=Dieses zu erreichen und zugleich dem ent weniger als an Momnsen zuzutheilen , hat man sich bewogen gefunden an Mommsen die italienischen Conmunalinschriften exclusive Rom und an Due außerital .
+5-1	424-430	Dieses	_	_	
+5-2	431-433	zu	_	_	
+5-3	434-443	erreichen	_	_	
+5-4	444-447	und	_	_	
+5-5	448-456	zugleich	_	_	
+5-6	457-460	dem	_	_	
+5-7	461-464	ent	_	_	
+5-8	465-472	weniger	_	_	
+5-9	473-476	als	_	_	
+5-10	477-479	an	_	_	
+5-11	480-487	Momnsen	*[6]|*[7]	PERmentioned[6]|PERmentioned[7]	
+5-12	488-499	zuzutheilen	_	_	
+5-13	500-501	,	_	_	
+5-14	502-505	hat	_	_	
+5-15	506-509	man	_	_	
+5-16	510-514	sich	_	_	
+5-17	515-522	bewogen	_	_	
+5-18	523-531	gefunden	_	_	
+5-19	532-534	an	_	_	
+5-20	535-542	Mommsen	*	PERmentioned	
+5-21	543-546	die	_	_	
+5-22	547-560	italienischen	_	_	
+5-23	561-580	Conmunalinschriften	_	_	
+5-24	581-590	exclusive	_	_	
+5-25	591-594	Rom	*	PLACEmentioned	
+5-26	595-598	und	_	_	
+5-27	599-601	an	_	_	
+5-28	602-605	Due	_	_	
+5-29	606-615	außerital	_	_	
+5-30	616-617	.	_	_	
+
+#Text=Communalinschriften nebst denen der Stadt Rom zu vertheilen .
+6-1	618-637	Communalinschriften	_	_	
+6-2	638-643	nebst	_	_	
+6-3	644-649	denen	_	_	
+6-4	650-653	der	_	_	
+6-5	654-659	Stadt	_	_	
+6-6	660-663	Rom	*	PLACEmentioned	
+6-7	664-666	zu	_	_	
+6-8	667-677	vertheilen	_	_	
+6-9	678-679	.	_	_	
+
+#Text=Wie Momnsen damit zufrieden sein wird ist nun abzuwarten ; jedenfalls thäte er nicht weise wegen der Beschränkungen den glänzenden Antrag , den die Akademie auch in jetziger Zeit für 5 Jahre ihm festhält und in dessen Ausführung die Zeit ihre bequemen Modificationen mit sich bringt , sich ganz aus den Händen winden zu lassen .
+7-1	680-683	Wie	_	_	
+7-2	684-691	Momnsen	_	_	
+7-3	692-697	damit	_	_	
+7-4	698-707	zufrieden	_	_	
+7-5	708-712	sein	_	_	
+7-6	713-717	wird	_	_	
+7-7	718-721	ist	_	_	
+7-8	722-725	nun	_	_	
+7-9	726-736	abzuwarten	_	_	
+7-10	737-738	;	_	_	
+7-11	739-749	jedenfalls	_	_	
+7-12	750-755	thäte	_	_	
+7-13	756-758	er	_	_	
+7-14	759-764	nicht	_	_	
+7-15	765-770	weise	_	_	
+7-16	771-776	wegen	_	_	
+7-17	777-780	der	_	_	
+7-18	781-795	Beschränkungen	_	_	
+7-19	796-799	den	_	_	
+7-20	800-810	glänzenden	_	_	
+7-21	811-817	Antrag	_	_	
+7-22	818-819	,	_	_	
+7-23	820-823	den	_	_	
+7-24	824-827	die	_	_	
+7-25	828-836	Akademie	*	ORGmentioned	
+7-26	837-841	auch	_	_	
+7-27	842-844	in	_	_	
+7-28	845-853	jetziger	_	_	
+7-29	854-858	Zeit	_	_	
+7-30	859-862	für	_	_	
+7-31	863-864	5	_	_	
+7-32	865-870	Jahre	_	_	
+7-33	871-874	ihm	_	_	
+7-34	875-883	festhält	_	_	
+7-35	884-887	und	_	_	
+7-36	888-890	in	_	_	
+7-37	891-897	dessen	_	_	
+7-38	898-908	Ausführung	_	_	
+7-39	909-912	die	_	_	
+7-40	913-917	Zeit	_	_	
+7-41	918-922	ihre	_	_	
+7-42	923-931	bequemen	_	_	
+7-43	932-946	Modificationen	_	_	
+7-44	947-950	mit	_	_	
+7-45	951-955	sich	_	_	
+7-46	956-962	bringt	_	_	
+7-47	963-964	,	_	_	
+7-48	965-969	sich	_	_	
+7-49	970-974	ganz	_	_	
+7-50	975-978	aus	_	_	
+7-51	979-982	den	_	_	
+7-52	983-989	Händen	_	_	
+7-53	990-996	winden	_	_	
+7-54	997-999	zu	_	_	
+7-55	1000-1006	lassen	_	_	
+7-56	1007-1008	.	_	_	
+
+#Text=Vom Bull .
+8-1	1009-1012	Vom	_	_	
+8-2	1013-1017	Bull	_	_	
+8-3	1018-1019	.	_	_	
+
+#Text=erhielt ich Gennaio .
+9-1	1020-1027	erhielt	_	_	
+9-2	1028-1031	ich	_	_	
+9-3	1032-1039	Gennaio	_	_	
+9-4	1040-1041	.	_	_	
+
+#Text=Meine Sendung Archeol .
+10-1	1042-1047	Meine	_	_	
+10-2	1048-1055	Sendung	_	_	
+10-3	1056-1063	Archeol	_	_	
+10-4	1064-1065	.	_	_	
+
+#Text=Zeitung 4° , ist durch das Ministerium hoffentlich Ihhen u , nachdem Hr .
+11-1	1066-1073	Zeitung	_	_	
+11-2	1074-1076	4°	_	_	
+11-3	1077-1078	,	_	_	
+11-4	1079-1082	ist	_	_	
+11-5	1083-1088	durch	_	_	
+11-6	1089-1092	das	_	_	
+11-7	1093-1104	Ministerium	_	_	
+11-8	1105-1116	hoffentlich	_	_	
+11-9	1117-1122	Ihhen	_	_	
+11-10	1123-1124	u	_	_	
+11-11	1125-1126	,	_	_	
+11-12	1127-1134	nachdem	_	_	
+11-13	1135-1137	Hr	_	_	
+11-14	1138-1139	.	_	_	
+
+#Text=Bethmann FH .
+12-1	1140-1148	Bethmann	*	PERmentioned	
+12-2	1149-1151	FH	_	_	
+12-3	1152-1153	.	_	_	
+
+#Text=der sie Wanahn nicht gewiß ist .
+13-1	1154-1157	der	_	_	
+13-2	1158-1161	sie	_	_	
+13-3	1162-1168	Wanahn	_	_	
+13-4	1169-1174	nicht	_	_	
+13-5	1175-1180	gewiß	_	_	
+13-6	1181-1184	ist	_	_	
+13-7	1185-1186	.	_	_	
+
+#Text=Sie erhalten anbei ein Briefchen von Roß ; Rangabe & EB mielt ich nicht von ihm .
+14-1	1187-1190	Sie	_	_	
+14-2	1191-1199	erhalten	_	_	
+14-3	1200-1205	anbei	_	_	
+14-4	1206-1209	ein	_	_	
+14-5	1210-1219	Briefchen	_	_	
+14-6	1220-1223	von	_	_	
+14-7	1224-1227	Roß	*	PERmentioned	
+14-8	1228-1229	;	_	_	
+14-9	1230-1237	Rangabe	_	_	
+14-10	1238-1239	&	_	_	
+14-11	1240-1242	EB	_	_	
+14-12	1243-1248	mielt	_	_	
+14-13	1249-1252	ich	_	_	
+14-14	1253-1258	nicht	_	_	
+14-15	1259-1262	von	_	_	
+14-16	1263-1266	ihm	_	_	
+14-17	1267-1268	.	_	_	
+
+#Text=Grüßen Sie Brunn bestens ; ich bin weit entfernt u von ihm oder andren min ” Freunden Beiträge für die Arch . Zeitung heischen zu wollen , obwohl was unter so guter Fir-
+15-1	1269-1275	Grüßen	_	_	
+15-2	1276-1279	Sie	_	_	
+15-3	1280-1285	Brunn	*	PERmentioned	
+15-4	1286-1293	bestens	_	_	
+15-5	1294-1295	;	_	_	
+15-6	1296-1299	ich	_	_	
+15-7	1300-1303	bin	_	_	
+15-8	1304-1308	weit	_	_	
+15-9	1309-1317	entfernt	_	_	
+15-10	1318-1319	u	_	_	
+15-11	1320-1323	von	_	_	
+15-12	1324-1327	ihm	_	_	
+15-13	1328-1332	oder	_	_	
+15-14	1333-1339	andren	_	_	
+15-15	1340-1343	min	_	_	
+15-16	1344-1345	”	_	_	
+15-17	1346-1354	Freunden	_	_	
+15-18	1355-1363	Beiträge	_	_	
+15-19	1364-1367	für	_	_	
+15-20	1368-1371	die	_	_	
+15-21	1372-1376	Arch	_	_	
+15-22	1377-1378	.	_	_	
+15-23	1379-1386	Zeitung	_	_	
+15-24	1387-1395	heischen	_	_	
+15-25	1396-1398	zu	_	_	
+15-26	1399-1405	wollen	_	_	
+15-27	1406-1407	,	_	_	
+15-28	1408-1414	obwohl	_	_	
+15-29	1415-1418	was	_	_	
+15-30	1419-1424	unter	_	_	
+15-31	1425-1427	so	_	_	
+15-32	1428-1433	guter	_	_	
+15-33	1434-1438	Fir-	_	_	

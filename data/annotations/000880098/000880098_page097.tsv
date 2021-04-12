@@ -1,0 +1,275 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=697 Braun an Gerhard Rom , 13. November 71834 grammatische Aushülfe durch eine Person wie Franz repräsentirt gewiß viel nützen .
+1-1	0-3	697	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[1]	DATEletter[1]
+1-8	31-39	November	*[1]	DATEletter[1]
+1-9	40-45	71834	*[1]	DATEletter[1]
+1-10	46-58	grammatische	_	_
+1-11	59-67	Aushülfe	_	_
+1-12	68-73	durch	_	_
+1-13	74-78	eine	_	_
+1-14	79-85	Person	_	_
+1-15	86-89	wie	_	_
+1-16	90-95	Franz	*	PERmentioned
+1-17	96-108	repräsentirt	_	_
+1-18	109-114	gewiß	_	_
+1-19	115-119	viel	_	_
+1-20	120-126	nützen	_	_
+1-21	127-128	.	_	_
+
+#Text=Außerdem ist er willig , überaus thätig und unseren Zwecken sehr günstig .
+2-1	129-137	Außerdem	_	_
+2-2	138-141	ist	_	_
+2-3	142-144	er	_	_
+2-4	145-151	willig	_	_
+2-5	152-153	,	_	_
+2-6	154-161	überaus	_	_
+2-7	162-168	thätig	_	_
+2-8	169-172	und	_	_
+2-9	173-180	unseren	_	_
+2-10	181-188	Zwecken	_	_
+2-11	189-193	sehr	_	_
+2-12	194-201	günstig	_	_
+2-13	202-203	.	_	_
+
+#Text=Vielleicht dienen Ihnen diese meine Notizen \| !
+3-1	204-214	Vielleicht	_	_
+3-2	215-221	dienen	_	_
+3-3	222-227	Ihnen	_	_
+3-4	228-233	diese	_	_
+3-5	234-239	meine	_	_
+3-6	240-247	Notizen	_	_
+3-7	248-249	\|	_	_
+3-8	250-251	!	_	_
+
+#Text=15. November .
+4-1	252-255	15.	*[2]	DATEmentioned[2]
+4-2	256-264	November	*[2]	DATEmentioned[2]
+4-3	265-266	.	_	_
+
+#Text=Heute Abend sende ich ein Paquet mit Cabinetsgelegenheit ab , welches 1 , einen Brief von Lopell , 2 , einen Brief vom Grafen Dietrichstein , 3 , einen Brief vom Grafen Brühl , 4 , Papiere , die mir Sydow eingehändigt , enthält .
+5-1	267-272	Heute	_	_
+5-2	273-278	Abend	_	_
+5-3	279-284	sende	_	_
+5-4	285-288	ich	_	_
+5-5	289-292	ein	_	_
+5-6	293-299	Paquet	_	_
+5-7	300-303	mit	_	_
+5-8	304-323	Cabinetsgelegenheit	_	_
+5-9	324-326	ab	_	_
+5-10	327-328	,	_	_
+5-11	329-336	welches	_	_
+5-12	337-338	1	_	_
+5-13	339-340	,	_	_
+5-14	341-346	einen	_	_
+5-15	347-352	Brief	_	_
+5-16	353-356	von	_	_
+5-17	357-363	Lopell	*	PERmentioned
+5-18	364-365	,	_	_
+5-19	366-367	2	_	_
+5-20	368-369	,	_	_
+5-21	370-375	einen	_	_
+5-22	376-381	Brief	_	_
+5-23	382-385	vom	_	_
+5-24	386-392	Grafen	*[3]	PERmentioned[3]
+5-25	393-406	Dietrichstein	*[3]	PERmentioned[3]
+5-26	407-408	,	_	_
+5-27	409-410	3	_	_
+5-28	411-412	,	_	_
+5-29	413-418	einen	_	_
+5-30	419-424	Brief	_	_
+5-31	425-428	vom	_	_
+5-32	429-435	Grafen	*[4]	PERmentioned[4]
+5-33	436-441	Brühl	*[4]	PERmentioned[4]
+5-34	442-443	,	_	_
+5-35	444-445	4	_	_
+5-36	446-447	,	_	_
+5-37	448-455	Papiere	_	_
+5-38	456-457	,	_	_
+5-39	458-461	die	_	_
+5-40	462-465	mir	_	_
+5-41	466-471	Sydow	*	PERmentioned
+5-42	472-484	eingehändigt	_	_
+5-43	485-486	,	_	_
+5-44	487-494	enthält	_	_
+5-45	495-496	.	_	_
+
+#Text=( 5 , ein Probedruck von den Gräbern von Cerveteri . )
+6-1	497-498	(	_	_
+6-2	499-500	5	_	_
+6-3	501-502	,	_	_
+6-4	503-506	ein	_	_
+6-5	507-517	Probedruck	_	_
+6-6	518-521	von	_	_
+6-7	522-525	den	_	_
+6-8	526-533	Gräbern	*[5]	OBJtopography[5]
+6-9	534-537	von	*[5]	OBJtopography[5]
+6-10	538-547	Cerveteri	*[5]	OBJtopography[5]
+6-11	548-549	.	_	_
+6-12	550-551	)	_	_
+
+#Text=Die Addresse wird nach Sydows Rath die General-Intendantur des Kgl .
+7-1	552-555	Die	_	_
+7-2	556-564	Addresse	_	_
+7-3	565-569	wird	_	_
+7-4	570-574	nach	_	_
+7-5	575-581	Sydows	*	PERmentioned
+7-6	582-586	Rath	_	_
+7-7	587-590	die	_	_
+7-8	591-610	General-Intendantur	*[6]	ORGmentioned[6]
+7-9	611-614	des	*[6]	ORGmentioned[6]
+7-10	615-618	Kgl	*[6]	ORGmentioned[6]
+7-11	619-620	.	*[6]	ORGmentioned[6]
+
+#Text=Museums beigefügt .
+8-1	621-628	Museums	*[6]	ORGmentioned[6]
+8-2	629-638	beigefügt	_	_
+8-3	639-640	.	_	_
+
+#Text=- Der Graf Brühl schreibt viel Freundliches und verspricht auch an das Reisegeld zur Rückkehr zu denken , eine Notiz die Ihnen vielleicht auch früher erwünscht käme .
+9-1	641-642	-	_	_
+9-2	643-646	Der	_	_
+9-3	647-651	Graf	*[7]	PERmentioned[7]
+9-4	652-657	Brühl	*[7]	PERmentioned[7]
+9-5	658-666	schreibt	_	_
+9-6	667-671	viel	_	_
+9-7	672-684	Freundliches	_	_
+9-8	685-688	und	_	_
+9-9	689-699	verspricht	_	_
+9-10	700-704	auch	_	_
+9-11	705-707	an	_	_
+9-12	708-711	das	_	_
+9-13	712-721	Reisegeld	_	_
+9-14	722-725	zur	_	_
+9-15	726-734	Rückkehr	_	_
+9-16	735-737	zu	_	_
+9-17	738-744	denken	_	_
+9-18	745-746	,	_	_
+9-19	747-751	eine	_	_
+9-20	752-757	Notiz	_	_
+9-21	758-761	die	_	_
+9-22	762-767	Ihnen	_	_
+9-23	768-778	vielleicht	_	_
+9-24	779-783	auch	_	_
+9-25	784-790	früher	_	_
+9-26	791-800	erwünscht	_	_
+9-27	801-805	käme	_	_
+9-28	806-807	.	_	_
+
+#Text=.. Ich wollte Ihnen diesmal so viel schreiben und muß nun wiederum am Abend der Woche die Versicherung hinzugügen , daß es unmöglich gewesen .
+10-1	808-810	..	_	_
+10-2	811-814	Ich	_	_
+10-3	815-821	wollte	_	_
+10-4	822-827	Ihnen	_	_
+10-5	828-835	diesmal	_	_
+10-6	836-838	so	_	_
+10-7	839-843	viel	_	_
+10-8	844-853	schreiben	_	_
+10-9	854-857	und	_	_
+10-10	858-861	muß	_	_
+10-11	862-865	nun	_	_
+10-12	866-874	wiederum	_	_
+10-13	875-877	am	_	_
+10-14	878-883	Abend	_	_
+10-15	884-887	der	_	_
+10-16	888-893	Woche	_	_
+10-17	894-897	die	_	_
+10-18	898-910	Versicherung	_	_
+10-19	911-921	hinzugügen	_	_
+10-20	922-923	,	_	_
+10-21	924-927	daß	_	_
+10-22	928-930	es	_	_
+10-23	931-940	unmöglich	_	_
+10-24	941-948	gewesen	_	_
+10-25	949-950	.	_	_
+
+#Text=Jeden Augenblick Störungen , sie meisten durch neuangekommene und empfohlene ward wenn auch minorum gentium veranlasst .
+11-1	951-956	Jeden	_	_
+11-2	957-967	Augenblick	_	_
+11-3	968-977	Störungen	_	_
+11-4	978-979	,	_	_
+11-5	980-983	sie	_	_
+11-6	984-991	meisten	_	_
+11-7	992-997	durch	_	_
+11-8	998-1012	neuangekommene	_	_
+11-9	1013-1016	und	_	_
+11-10	1017-1027	empfohlene	_	_
+11-11	1028-1032	ward	_	_
+11-12	1033-1037	wenn	_	_
+11-13	1038-1042	auch	_	_
+11-14	1043-1050	minorum	_	_
+11-15	1051-1058	gentium	_	_
+11-16	1059-1069	veranlasst	_	_
+11-17	1070-1071	.	_	_
+
+#Text=Es wäre unpolitisch die Thüre zu schließen , man muß annehmen was kommt , um die Goldkörner mit dem Flußsand zu erreichen .
+12-1	1072-1074	Es	_	_
+12-2	1075-1079	wäre	_	_
+12-3	1080-1091	unpolitisch	_	_
+12-4	1092-1095	die	_	_
+12-5	1096-1101	Thüre	_	_
+12-6	1102-1104	zu	_	_
+12-7	1105-1114	schließen	_	_
+12-8	1115-1116	,	_	_
+12-9	1117-1120	man	_	_
+12-10	1121-1124	muß	_	_
+12-11	1125-1133	annehmen	_	_
+12-12	1134-1137	was	_	_
+12-13	1138-1143	kommt	_	_
+12-14	1144-1145	,	_	_
+12-15	1146-1148	um	_	_
+12-16	1149-1152	die	_	_
+12-17	1153-1163	Goldkörner	_	_
+12-18	1164-1167	mit	_	_
+12-19	1168-1171	dem	_	_
+12-20	1172-1180	Flußsand	_	_
+12-21	1181-1183	zu	_	_
+12-22	1184-1193	erreichen	_	_
+12-23	1194-1195	.	_	_
+
+#Text=Das versichere ich Ihnen aber , daß wenn mir nicht die Anstalt zu viel Respect eingeflößt hätte , wenn ich nicht heilige Scheu empfände das was jahrelange Anstrengung und deutsche Beharrlichkeit aufgebaut hat durch Fahrlässigkeit oder durch
+13-1	1196-1199	Das	_	_
+13-2	1200-1210	versichere	_	_
+13-3	1211-1214	ich	_	_
+13-4	1215-1220	Ihnen	_	_
+13-5	1221-1225	aber	_	_
+13-6	1226-1227	,	_	_
+13-7	1228-1231	daß	_	_
+13-8	1232-1236	wenn	_	_
+13-9	1237-1240	mir	_	_
+13-10	1241-1246	nicht	_	_
+13-11	1247-1250	die	_	_
+13-12	1251-1258	Anstalt	_	_
+13-13	1259-1261	zu	_	_
+13-14	1262-1266	viel	_	_
+13-15	1267-1274	Respect	_	_
+13-16	1275-1285	eingeflößt	_	_
+13-17	1286-1291	hätte	_	_
+13-18	1292-1293	,	_	_
+13-19	1294-1298	wenn	_	_
+13-20	1299-1302	ich	_	_
+13-21	1303-1308	nicht	_	_
+13-22	1309-1316	heilige	_	_
+13-23	1317-1322	Scheu	_	_
+13-24	1323-1331	empfände	_	_
+13-25	1332-1335	das	_	_
+13-26	1336-1339	was	_	_
+13-27	1340-1350	jahrelange	_	_
+13-28	1351-1362	Anstrengung	_	_
+13-29	1363-1366	und	_	_
+13-30	1367-1375	deutsche	_	_
+13-31	1376-1390	Beharrlichkeit	_	_
+13-32	1391-1400	aufgebaut	_	_
+13-33	1401-1404	hat	_	_
+13-34	1405-1410	durch	_	_
+13-35	1411-1425	Fahrlässigkeit	_	_
+13-36	1426-1430	oder	_	_
+13-37	1431-1436	durch	_	_

@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen R ( om ) , 28 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-17	R	*[12]	PLACEfrom[12]
+1-5	18-19	(	*[12]	PLACEfrom[12]
+1-6	20-22	om	*[12]	PLACEfrom[12]
+1-7	23-24	)	*[12]	PLACEfrom[12]
+1-8	25-26	,	_	_
+1-9	27-29	28	*[9]	DATEletter[9]
+1-10	30-31	.	*[9]	DATEletter[9]
+
+#Text=August 1861 g . 28 .
+2-1	32-38	August	*[9]	DATEletter[9]
+2-2	39-43	1861	*[9]	DATEletter[9]
+2-3	44-45	g	_	_
+2-4	46-47	.	_	_
+2-5	48-50	28	*[10]	DATErecieved[10]
+2-6	51-52	.	*[10]	DATErecieved[10]
+
+#Text=August 186 % ner Lieber Henzen \| !
+3-1	53-59	August	*[10]	DATErecieved[10]
+3-2	60-63	186	*[10]	DATErecieved[10]
+3-3	64-65	%	_	_
+3-4	66-69	ner	_	_
+3-5	70-76	Lieber	_	_
+3-6	77-83	Henzen	*	PERaddressee
+3-7	84-85	\|	_	_
+3-8	86-87	!	_	_
+
+#Text=Ihre gestrige Sendung ist heute früh angelangt - mit Ausschluß dessen , was Sie als mich angehend bezeichnen .
+4-1	88-92	Ihre	_	_
+4-2	93-101	gestrige	_	_
+4-3	102-109	Sendung	_	_
+4-4	110-113	ist	_	_
+4-5	114-119	heute	_	_
+4-6	120-124	früh	_	_
+4-7	125-134	angelangt	_	_
+4-8	135-136	-	_	_
+4-9	137-140	mit	_	_
+4-10	141-150	Ausschluß	_	_
+4-11	151-157	dessen	_	_
+4-12	158-159	,	_	_
+4-13	160-163	was	_	_
+4-14	164-167	Sie	_	_
+4-15	168-171	als	_	_
+4-16	172-176	mich	_	_
+4-17	177-185	angehend	_	_
+4-18	186-196	bezeichnen	_	_
+4-19	197-198	.	_	_
+
+#Text=Ich vermuthe , daß die Lectur Bachofens Ihren Kopf confus gemacht hat , daß Sie den Beischluß vergaßen .
+5-1	199-202	Ich	_	_
+5-2	203-211	vermuthe	_	_
+5-3	212-213	,	_	_
+5-4	214-217	daß	_	_
+5-5	218-221	die	_	_
+5-6	222-228	Lectur	_	_
+5-7	229-238	Bachofens	*	PERmentioned
+5-8	239-244	Ihren	_	_
+5-9	245-249	Kopf	_	_
+5-10	250-256	confus	_	_
+5-11	257-264	gemacht	_	_
+5-12	265-268	hat	_	_
+5-13	269-270	,	_	_
+5-14	271-274	daß	_	_
+5-15	275-278	Sie	_	_
+5-16	279-282	den	_	_
+5-17	283-292	Beischluß	_	_
+5-18	293-301	vergaßen	_	_
+5-19	302-303	.	_	_
+
+#Text=Auch ich hatte Sonntag davon moralischen Katzenjammer .
+6-1	304-308	Auch	_	_
+6-2	309-312	ich	_	_
+6-3	313-318	hatte	_	_
+6-4	319-326	Sonntag	*	DATEmentioned
+6-5	327-332	davon	_	_
+6-6	333-344	moralischen	_	_
+6-7	345-357	Katzenjammer	_	_
+6-8	358-359	.	_	_
+
+#Text=Ich wünschte nur , daß auch seine Hand eine weibliche wäre und Strümpfe strickte , oder wenigstens daß es meinem Arm , der männlich ist , gestattet wäre , ihn zu prügeln für seinen Unsinn .
+7-1	360-363	Ich	_	_
+7-2	364-372	wünschte	_	_
+7-3	373-376	nur	_	_
+7-4	377-378	,	_	_
+7-5	379-382	daß	_	_
+7-6	383-387	auch	_	_
+7-7	388-393	seine	_	_
+7-8	394-398	Hand	_	_
+7-9	399-403	eine	_	_
+7-10	404-413	weibliche	_	_
+7-11	414-418	wäre	_	_
+7-12	419-422	und	_	_
+7-13	423-431	Strümpfe	_	_
+7-14	432-440	strickte	_	_
+7-15	441-442	,	_	_
+7-16	443-447	oder	_	_
+7-17	448-458	wenigstens	_	_
+7-18	459-462	daß	_	_
+7-19	463-465	es	_	_
+7-20	466-472	meinem	_	_
+7-21	473-476	Arm	_	_
+7-22	477-478	,	_	_
+7-23	479-482	der	_	_
+7-24	483-491	männlich	_	_
+7-25	492-495	ist	_	_
+7-26	496-497	,	_	_
+7-27	498-507	gestattet	_	_
+7-28	508-512	wäre	_	_
+7-29	513-514	,	_	_
+7-30	515-518	ihn	_	_
+7-31	519-521	zu	_	_
+7-32	522-529	prügeln	_	_
+7-33	530-533	für	_	_
+7-34	534-540	seinen	_	_
+7-35	541-547	Unsinn	_	_
+7-36	548-549	.	_	_
+
+#Text=Die Hauptsache in Mommsens Nachrichten wird wohl sein , daß in München die Kammern erst Geld bewilligen müssen , wie mir Ritschl gestern schrieb .
+8-1	550-553	Die	_	_
+8-2	554-564	Hauptsache	_	_
+8-3	565-567	in	_	_
+8-4	568-576	Mommsens	*	PERmentioned
+8-5	577-588	Nachrichten	_	_
+8-6	589-593	wird	_	_
+8-7	594-598	wohl	_	_
+8-8	599-603	sein	_	_
+8-9	604-605	,	_	_
+8-10	606-609	daß	_	_
+8-11	610-612	in	_	_
+8-12	613-620	München	*	PLACEmentioned
+8-13	621-624	die	_	_
+8-14	625-632	Kammern	_	_
+8-15	633-637	erst	_	_
+8-16	638-642	Geld	_	_
+8-17	643-653	bewilligen	_	_
+8-18	654-660	müssen	_	_
+8-19	661-662	,	_	_
+8-20	663-666	wie	_	_
+8-21	667-670	mir	_	_
+8-22	671-678	Ritschl	*	PERmentioned
+8-23	679-686	gestern	_	_
+8-24	687-694	schrieb	_	_
+8-25	695-696	.	_	_
+
+#Text=Die Erwähnung Lerchenfelds bei Ihnen kann ich noch nicht verstehen .
+9-1	697-700	Die	_	_
+9-2	701-710	Erwähnung	_	_
+9-3	711-723	Lerchenfelds	*	PERmentioned
+9-4	724-727	bei	_	_
+9-5	728-733	Ihnen	_	_
+9-6	734-738	kann	_	_
+9-7	739-742	ich	_	_
+9-8	743-747	noch	_	_
+9-9	748-753	nicht	_	_
+9-10	754-763	verstehen	_	_
+9-11	764-765	.	_	_
+
+#Text=Doch scheint man mir sehr gute Bedingungen stellen zu wollen .
+10-1	766-770	Doch	_	_
+10-2	771-778	scheint	_	_
+10-3	779-782	man	_	_
+10-4	783-786	mir	_	_
+10-5	787-791	sehr	_	_
+10-6	792-796	gute	_	_
+10-7	797-808	Bedingungen	_	_
+10-8	809-816	stellen	_	_
+10-9	817-819	zu	_	_
+10-10	820-826	wollen	_	_
+10-11	827-828	.	_	_
+
+#Text=Auf der andern Seite scheint Welcker tüchtig für Rom kämpfen zu wollen .
+11-1	829-832	Auf	_	_
+11-2	833-836	der	_	_
+11-3	837-843	andern	_	_
+11-4	844-849	Seite	_	_
+11-5	850-857	scheint	_	_
+11-6	858-865	Welcker	*	PERmentioned
+11-7	866-873	tüchtig	_	_
+11-8	874-877	für	_	_
+11-9	878-881	Rom	*	PLACEmentioned
+11-10	882-889	kämpfen	_	_
+11-11	890-892	zu	_	_
+11-12	893-899	wollen	_	_
+11-13	900-901	.	_	_
+
+#Text=Ritschl bleibt in Bonn , wenigstens bis auf Weiteres .
+12-1	902-909	Ritschl	*	PERmentioned
+12-2	910-916	bleibt	_	_
+12-3	917-919	in	_	_
+12-4	920-924	Bonn	*	PLACEmentioned
+12-5	925-926	,	_	_
+12-6	927-937	wenigstens	_	_
+12-7	938-941	bis	_	_
+12-8	942-945	auf	_	_
+12-9	946-954	Weiteres	_	_
+12-10	955-956	.	_	_
+
+#Text=Auch seine Frau ist sehr leidend an der Leber , war in Karlsbad und dann auf dem Lande bei Heidelberg .
+13-1	957-961	Auch	_	_
+13-2	962-967	seine	*[11]	PERmentioned[11]
+13-3	968-972	Frau	*[11]	PERmentioned[11]
+13-4	973-976	ist	_	_
+13-5	977-981	sehr	_	_
+13-6	982-989	leidend	_	_
+13-7	990-992	an	_	_
+13-8	993-996	der	_	_
+13-9	997-1002	Leber	_	_
+13-10	1003-1004	,	_	_
+13-11	1005-1008	war	_	_
+13-12	1009-1011	in	_	_
+13-13	1012-1020	Karlsbad	*	PLACEmentioned
+13-14	1021-1024	und	_	_
+13-15	1025-1029	dann	_	_
+13-16	1030-1033	auf	_	_
+13-17	1034-1037	dem	_	_
+13-18	1038-1043	Lande	_	_
+13-19	1044-1047	bei	_	_
+13-20	1048-1058	Heidelberg	*	PLACEmentioned
+13-21	1059-1060	.	_	_
+
+#Text=Die übrigen Dinge sind besorgt oder werden besorgt .
+14-1	1061-1064	Die	_	_
+14-2	1065-1072	übrigen	_	_
+14-3	1073-1078	Dinge	_	_
+14-4	1079-1083	sind	_	_
+14-5	1084-1091	besorgt	_	_
+14-6	1092-1096	oder	_	_
+14-7	1097-1103	werden	_	_
+14-8	1104-1111	besorgt	_	_
+14-9	1112-1113	.	_	_

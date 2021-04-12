@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 30 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	30	*[5]	DATEletter[5]
+1-7	26-27	.	*[5]	DATEletter[5]
+
+#Text=Januar 1838 Herrn Prof. Cav .
+2-1	28-34	Januar	*[5]	DATEletter[5]
+2-2	35-39	1838	*[5]	DATEletter[5]
+2-3	40-45	Herrn	_	_
+2-4	46-51	Prof.	_	_
+2-5	52-55	Cav	_	_
+2-6	56-57	.	_	_
+
+#Text=Gerhard Rom 30 Jamuar 1838 .
+3-1	58-65	Gerhard	*	PERaddressee
+3-2	66-69	Rom	*	PLACEfrom
+3-3	70-72	30	*[7]	DATEletter[7]
+3-4	73-79	Jamuar	*[7]	DATEletter[7]
+3-5	80-84	1838	*[7]	DATEletter[7]
+3-6	85-86	.	_	_
+
+#Text=Unsere Drucksachen anlangend , so bemerke ich Ihnen , daß das Guattanische Manifest von Lanci eingerückt worden ist , der sich dabei in Personalbedrängniß befand .
+4-1	87-93	Unsere	_	_
+4-2	94-105	Drucksachen	_	_
+4-3	106-115	anlangend	_	_
+4-4	116-117	,	_	_
+4-5	118-120	so	_	_
+4-6	121-128	bemerke	_	_
+4-7	129-132	ich	_	_
+4-8	133-138	Ihnen	_	_
+4-9	139-140	,	_	_
+4-10	141-144	daß	_	_
+4-11	145-148	das	_	_
+4-12	149-161	Guattanische	*	PERmentioned
+4-13	162-170	Manifest	_	_
+4-14	171-174	von	_	_
+4-15	175-180	Lanci	*	PERmentioned
+4-16	181-191	eingerückt	_	_
+4-17	192-198	worden	_	_
+4-18	199-202	ist	_	_
+4-19	203-204	,	_	_
+4-20	205-208	der	_	_
+4-21	209-213	sich	_	_
+4-22	214-219	dabei	_	_
+4-23	220-222	in	_	_
+4-24	223-241	Personalbedrängniß	_	_
+4-25	242-248	befand	_	_
+4-26	249-250	.	_	_
+
+#Text=Er hat keinen von uns darum befragt , also haben wir es gehen lassen , um den Frieden nicht zu stören .
+5-1	251-253	Er	_	_
+5-2	254-257	hat	_	_
+5-3	258-264	keinen	_	_
+5-4	265-268	von	_	_
+5-5	269-272	uns	_	_
+5-6	273-278	darum	_	_
+5-7	279-286	befragt	_	_
+5-8	287-288	,	_	_
+5-9	289-293	also	_	_
+5-10	294-299	haben	_	_
+5-11	300-303	wir	_	_
+5-12	304-306	es	_	_
+5-13	307-312	gehen	_	_
+5-14	313-319	lassen	_	_
+5-15	320-321	,	_	_
+5-16	322-324	um	_	_
+5-17	325-328	den	_	_
+5-18	329-336	Frieden	_	_
+5-19	337-342	nicht	_	_
+5-20	343-345	zu	_	_
+5-21	346-352	stören	_	_
+5-22	353-354	.	_	_
+
+#Text=Guattani 's Name ist ja übrigens unseren Schriften nicht fremd .
+6-1	355-363	Guattani	*[8]	PERmentioned[8]
+6-2	364-366	's	*[8]	PERmentioned[8]
+6-3	367-371	Name	_	_
+6-4	372-375	ist	_	_
+6-5	376-378	ja	_	_
+6-6	379-387	übrigens	_	_
+6-7	388-395	unseren	_	_
+6-8	396-405	Schriften	_	_
+6-9	406-411	nicht	_	_
+6-10	412-417	fremd	_	_
+6-11	418-419	.	_	_
+
+#Text=Der Mann , seines Handwerks allerdings ein Rindvieh , hat in einer Zeit gearbeitet , wo andere rasteten \; demnach kann unser Manifest als eine Art von Pietätsact angesehen werden .
+7-1	420-423	Der	_	_
+7-2	424-428	Mann	_	_
+7-3	429-430	,	_	_
+7-4	431-437	seines	_	_
+7-5	438-447	Handwerks	_	_
+7-6	448-458	allerdings	_	_
+7-7	459-462	ein	_	_
+7-8	463-471	Rindvieh	_	_
+7-9	472-473	,	_	_
+7-10	474-477	hat	_	_
+7-11	478-480	in	_	_
+7-12	481-486	einer	_	_
+7-13	487-491	Zeit	_	_
+7-14	492-502	gearbeitet	_	_
+7-15	503-504	,	_	_
+7-16	505-507	wo	_	_
+7-17	508-514	andere	_	_
+7-18	515-523	rasteten	_	_
+7-19	524-525	\;	_	_
+7-20	526-533	demnach	_	_
+7-21	534-538	kann	_	_
+7-22	539-544	unser	_	_
+7-23	545-553	Manifest	_	_
+7-24	554-557	als	_	_
+7-25	558-562	eine	_	_
+7-26	563-566	Art	_	_
+7-27	567-570	von	_	_
+7-28	571-581	Pietätsact	_	_
+7-29	582-591	angesehen	_	_
+7-30	592-598	werden	_	_
+7-31	599-600	.	_	_
+
+#Text=- Wer hat dann den it sapiente : genannt ?
+8-1	601-602	-	_	_
+8-2	603-606	Wer	_	_
+8-3	607-610	hat	_	_
+8-4	611-615	dann	_	_
+8-5	616-619	den	_	_
+8-6	620-622	it	_	_
+8-7	623-631	sapiente	_	_
+8-8	632-633	:	_	_
+8-9	634-641	genannt	_	_
+8-10	642-643	?	_	_
+
+#Text=Wer übrigens diesen Ausdruck belächelt , ist eben des italienischen Sprachidioms wenig mächtig und darf nur auf das Dizionario della Crusca verwiesen werden .
+9-1	644-647	Wer	_	_
+9-2	648-656	übrigens	_	_
+9-3	657-663	diesen	_	_
+9-4	664-672	Ausdruck	_	_
+9-5	673-682	belächelt	_	_
+9-6	683-684	,	_	_
+9-7	685-688	ist	_	_
+9-8	689-693	eben	_	_
+9-9	694-697	des	_	_
+9-10	698-711	italienischen	_	_
+9-11	712-724	Sprachidioms	_	_
+9-12	725-730	wenig	_	_
+9-13	731-738	mächtig	_	_
+9-14	739-742	und	_	_
+9-15	743-747	darf	_	_
+9-16	748-751	nur	_	_
+9-17	752-755	auf	_	_
+9-18	756-759	das	_	_
+9-19	760-770	Dizionario	_	_
+9-20	771-776	della	_	_
+9-21	777-783	Crusca	_	_
+9-22	784-793	verwiesen	_	_
+9-23	794-800	werden	_	_
+9-24	801-802	.	_	_
+
+#Text=- Panofka ist von mir klimpflich behandelt worden .
+10-1	803-804	-	_	_
+10-2	805-812	Panofka	*	PERmentioned
+10-3	813-816	ist	_	_
+10-4	817-820	von	_	_
+10-5	821-824	mir	_	_
+10-6	825-835	klimpflich	_	_
+10-7	836-845	behandelt	_	_
+10-8	846-852	worden	_	_
+10-9	853-854	.	_	_
+
+#Text=Seine Arbeit hätte hartem und immer noch gerechtem Tadel schwache Seiten dargeboten .
+11-1	855-860	Seine	_	_
+11-2	861-867	Arbeit	_	_
+11-3	868-873	hätte	_	_
+11-4	874-880	hartem	_	_
+11-5	881-884	und	_	_
+11-6	885-890	immer	_	_
+11-7	891-895	noch	_	_
+11-8	896-905	gerechtem	_	_
+11-9	906-911	Tadel	_	_
+11-10	912-920	schwache	_	_
+11-11	921-927	Seiten	_	_
+11-12	928-938	dargeboten	_	_
+11-13	939-940	.	_	_
+
+#Text=Daß ein Mann , dem Ihre Mappen zugänglich sind , nicht mehr Monumentenkenntniß hat und so ungereimte Dinge vorbringt , muß allerdings verwundern .
+12-1	941-944	Daß	_	_
+12-2	945-948	ein	_	_
+12-3	949-953	Mann	_	_
+12-4	954-955	,	_	_
+12-5	956-959	dem	_	_
+12-6	960-964	Ihre	_	_
+12-7	965-971	Mappen	_	_
+12-8	972-982	zugänglich	_	_
+12-9	983-987	sind	_	_
+12-10	988-989	,	_	_
+12-11	990-995	nicht	_	_
+12-12	996-1000	mehr	_	_
+12-13	1001-1019	Monumentenkenntniß	_	_
+12-14	1020-1023	hat	_	_
+12-15	1024-1027	und	_	_
+12-16	1028-1030	so	_	_
+12-17	1031-1041	ungereimte	_	_
+12-18	1042-1047	Dinge	_	_
+12-19	1048-1057	vorbringt	_	_
+12-20	1058-1059	,	_	_
+12-21	1060-1063	muß	_	_
+12-22	1064-1074	allerdings	_	_
+12-23	1075-1085	verwundern	_	_
+12-24	1086-1087	.	_	_
+
+#Text=In meiner Anzeige hat es sich nicht von abweichenden Ansichten gehandelt , die.Begründung bedürfen , sondern um ganz offenbare Schnitzer , wie sie Müller zu machen pflegt .
+13-1	1088-1090	In	_	_
+13-2	1091-1097	meiner	_	_
+13-3	1098-1105	Anzeige	_	_
+13-4	1106-1109	hat	_	_
+13-5	1110-1112	es	_	_
+13-6	1113-1117	sich	_	_
+13-7	1118-1123	nicht	_	_
+13-8	1124-1127	von	_	_
+13-9	1128-1140	abweichenden	_	_
+13-10	1141-1150	Ansichten	_	_
+13-11	1151-1160	gehandelt	_	_
+13-12	1161-1162	,	_	_
+13-13	1163-1177	die.Begründung	_	_
+13-14	1178-1186	bedürfen	_	_
+13-15	1187-1188	,	_	_
+13-16	1189-1196	sondern	_	_
+13-17	1197-1199	um	_	_
+13-18	1200-1204	ganz	_	_
+13-19	1205-1214	offenbare	_	_
+13-20	1215-1224	Schnitzer	_	_
+13-21	1225-1226	,	_	_
+13-22	1227-1230	wie	_	_
+13-23	1231-1234	sie	_	_
+13-24	1235-1241	Müller	*	PERmentioned
+13-25	1242-1244	zu	_	_
+13-26	1245-1251	machen	_	_
+13-27	1252-1258	pflegt	_	_
+13-28	1259-1260	.	_	_
+
+#Text=- Der apologestos ist meines und anderers Erachtens gerade mit Geschmack und reinlicher Grabstichelhülfe ganz genügend behandelt \; die Zeichnung von Freytag liegt zu Grunde .
+14-1	1261-1262	-	_	_
+14-2	1263-1266	Der	_	_
+14-3	1267-1278	apologestos	_	_
+14-4	1279-1282	ist	_	_
+14-5	1283-1289	meines	_	_
+14-6	1290-1293	und	_	_
+14-7	1294-1302	anderers	_	_
+14-8	1303-1312	Erachtens	_	_
+14-9	1313-1319	gerade	_	_
+14-10	1320-1323	mit	_	_
+14-11	1324-1333	Geschmack	_	_
+14-12	1334-1337	und	_	_
+14-13	1338-1348	reinlicher	_	_
+14-14	1349-1365	Grabstichelhülfe	_	_
+14-15	1366-1370	ganz	_	_
+14-16	1371-1379	genügend	_	_
+14-17	1380-1389	behandelt	_	_
+14-18	1390-1391	\;	_	_
+14-19	1392-1395	die	_	_
+14-20	1396-1405	Zeichnung	_	_
+14-21	1406-1409	von	_	_
+14-22	1410-1417	Freytag	_	_
+14-23	1418-1423	liegt	_	_
+14-24	1424-1426	zu	_	_
+14-25	1427-1433	Grunde	_	_
+14-26	1434-1435	.	_	_
+
+#Text=Ich kenne das Monument und finde den Character gut wiedergegeben .
+15-1	1436-1439	Ich	_	_
+15-2	1440-1445	kenne	_	_
+15-3	1446-1449	das	_	_
+15-4	1450-1458	Monument	_	_
+15-5	1459-1462	und	_	_
+15-6	1463-1468	finde	_	_
+15-7	1469-1472	den	_	_
+15-8	1473-1482	Character	_	_
+15-9	1483-1486	gut	_	_
+15-10	1487-1500	wiedergegeben	_	_
+15-11	1501-1502	.	_	_
+
+#Text=- Die Cades'sche Angelegenheit copire ich
+16-1	1503-1504	-	_	_
+16-2	1505-1508	Die	_	_
+16-3	1509-1519	Cades'sche	*	PERmentioned
+16-4	1520-1533	Angelegenheit	_	_
+16-5	1534-1540	copire	_	_
+16-6	1541-1544	ich	_	_

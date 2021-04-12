@@ -1,0 +1,183 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 11. Dezember 1848 der Entführung des Papstes gefehlt zu haben thut ihn wol leid , gestern war er in Potsdam seine neuliche Abreise festellen zu lassen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	11.	*[1]	DATEletter[1]
+1-7	30-38	Dezember	*[1]	DATEletter[1]
+1-8	39-43	1848	*[1]	DATEletter[1]
+1-9	44-47	der	_	_
+1-10	48-58	Entführung	_	_
+1-11	59-62	des	_	_
+1-12	63-70	Papstes	*	PERmentioned
+1-13	71-78	gefehlt	_	_
+1-14	79-81	zu	_	_
+1-15	82-87	haben	_	_
+1-16	88-92	thut	_	_
+1-17	93-96	ihn	_	_
+1-18	97-100	wol	_	_
+1-19	101-105	leid	_	_
+1-20	106-107	,	_	_
+1-21	108-115	gestern	_	_
+1-22	116-119	war	_	_
+1-23	120-122	er	_	_
+1-24	123-125	in	_	_
+1-25	126-133	Potsdam	*	PLACEmentioned
+1-26	134-139	seine	_	_
+1-27	140-148	neuliche	_	_
+1-28	149-156	Abreise	_	_
+1-29	157-166	festellen	_	_
+1-30	167-169	zu	_	_
+1-31	170-176	lassen	_	_
+1-32	177-178	.	_	_
+
+#Text=Newton wurde zum gestrigen Winckelmann Fest vergebens erwartet .
+2-1	179-185	Newton	*	PERmentioned
+2-2	186-191	wurde	_	_
+2-3	192-195	zum	_	_
+2-4	196-205	gestrigen	_	_
+2-5	206-217	Winckelmann	*	PERmentioned
+2-6	218-222	Fest	_	_
+2-7	223-232	vergebens	_	_
+2-8	233-241	erwartet	_	_
+2-9	242-243	.	_	_
+
+#Text=Wir feierten es still und vergnügt , das Programm zwei Minerven sende ich unter Band .
+3-1	244-247	Wir	_	_
+3-2	248-256	feierten	_	_
+3-3	257-259	es	_	_
+3-4	260-265	still	_	_
+3-5	266-269	und	_	_
+3-6	270-278	vergnügt	_	_
+3-7	279-280	,	_	_
+3-8	281-284	das	_	_
+3-9	285-293	Programm	_	_
+3-10	294-298	zwei	*[2]	OBJ[2]
+3-11	299-307	Minerven	*[2]	OBJ[2]
+3-12	308-313	sende	_	_
+3-13	314-317	ich	_	_
+3-14	318-323	unter	_	_
+3-15	324-328	Band	_	_
+3-16	329-330	.	_	_
+
+#Text=Reumont radical ?
+4-1	331-338	Reumont	*	PERmentioned
+4-2	339-346	radical	_	_
+4-3	347-348	?	_	_
+
+#Text=Seine Aufsätze in der Allgemeinen Zeitung sprechen ihn davon frei .
+5-1	349-354	Seine	_	_
+5-2	355-363	Aufsätze	_	_
+5-3	364-366	in	_	_
+5-4	367-370	der	_	_
+5-5	371-382	Allgemeinen	_	_
+5-6	383-390	Zeitung	_	_
+5-7	391-399	sprechen	_	_
+5-8	400-403	ihn	_	_
+5-9	404-409	davon	_	_
+5-10	410-414	frei	_	_
+5-11	415-416	.	_	_
+
+#Text=Wer sollte auch nicht an Toscana 's Exempel viel mehr die Nothwendigkeit stehender Herren erweisen ?
+6-1	417-420	Wer	_	_
+6-2	421-427	sollte	_	_
+6-3	428-432	auch	_	_
+6-4	433-438	nicht	_	_
+6-5	439-441	an	_	_
+6-6	442-449	Toscana	*	PLACEmentioned
+6-7	450-452	's	_	_
+6-8	453-460	Exempel	_	_
+6-9	461-465	viel	_	_
+6-10	466-470	mehr	_	_
+6-11	471-474	die	_	_
+6-12	475-489	Nothwendigkeit	_	_
+6-13	490-499	stehender	_	_
+6-14	500-506	Herren	_	_
+6-15	507-515	erweisen	_	_
+6-16	516-517	?	_	_
+
+#Text=- Über das rönmische Winckelmann Fest senden Sie oder Henzen wol eine Notiz für die Archäologische Zeitung .
+7-1	518-519	-	_	_
+7-2	520-524	Über	_	_
+7-3	525-528	das	_	_
+7-4	529-538	rönmische	_	_
+7-5	539-550	Winckelmann	*	PERmentioned
+7-6	551-555	Fest	_	_
+7-7	556-562	senden	_	_
+7-8	563-566	Sie	_	_
+7-9	567-571	oder	_	_
+7-10	572-578	Henzen	*	PERmentioned
+7-11	579-582	wol	_	_
+7-12	583-587	eine	_	_
+7-13	588-593	Notiz	_	_
+7-14	594-597	für	_	_
+7-15	598-601	die	_	_
+7-16	602-616	Archäologische	_	_
+7-17	617-624	Zeitung	_	_
+7-18	625-626	.	_	_
+
+#Text=Henzen bitte ich für seinen Brief vorläufig zu danken \; ein paar Briefe davon einer an ihn gerichtet gehen dem J. Friedländer zu liebe bei .
+8-1	627-633	Henzen	*	PERmentioned
+8-2	634-639	bitte	_	_
+8-3	640-643	ich	_	_
+8-4	644-647	für	_	_
+8-5	648-654	seinen	_	_
+8-6	655-660	Brief	_	_
+8-7	661-670	vorläufig	_	_
+8-8	671-673	zu	_	_
+8-9	674-680	danken	_	_
+8-10	681-682	\;	_	_
+8-11	683-686	ein	_	_
+8-12	687-691	paar	_	_
+8-13	692-698	Briefe	_	_
+8-14	699-704	davon	_	_
+8-15	705-710	einer	_	_
+8-16	711-713	an	_	_
+8-17	714-717	ihn	_	_
+8-18	718-727	gerichtet	_	_
+8-19	728-733	gehen	_	_
+8-20	734-737	dem	_	_
+8-21	738-740	J.	*[3]	PERmentioned[3]
+8-22	741-752	Friedländer	*[3]	PERmentioned[3]
+8-23	753-755	zu	_	_
+8-24	756-761	liebe	_	_
+8-25	762-765	bei	_	_
+8-26	766-767	.	_	_
+
+#Text=Das Museum ist nun wieder von Soldaten frei , deren gute Aufführung selbst aus den Gemälderäumen wo sie 8 Tage lagen bescheinigt wird .
+9-1	768-771	Das	_	_
+9-2	772-778	Museum	*	ORGmentioned
+9-3	779-782	ist	_	_
+9-4	783-786	nun	_	_
+9-5	787-793	wieder	_	_
+9-6	794-797	von	_	_
+9-7	798-806	Soldaten	_	_
+9-8	807-811	frei	_	_
+9-9	812-813	,	_	_
+9-10	814-819	deren	_	_
+9-11	820-824	gute	_	_
+9-12	825-835	Aufführung	_	_
+9-13	836-842	selbst	_	_
+9-14	843-846	aus	_	_
+9-15	847-850	den	_	_
+9-16	851-864	Gemälderäumen	_	_
+9-17	865-867	wo	_	_
+9-18	868-871	sie	_	_
+9-19	872-873	8	_	_
+9-20	874-878	Tage	_	_
+9-21	879-884	lagen	_	_
+9-22	885-896	bescheinigt	_	_
+9-23	897-901	wird	_	_
+9-24	902-903	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+10-1	904-907	Von	_	_
+10-2	908-914	Herzen	_	_
+10-3	915-918	der	_	_
+10-4	919-925	Ihrige	_	_
+10-5	926-933	Gerhard	*	PERauthor

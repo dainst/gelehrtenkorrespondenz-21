@@ -1,0 +1,201 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=60 Gerhard an Braun Berlin , 21 .
+1-1	0-2	60	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	21	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Jamuar 1844 g . 6/II 4 r . 6/II 44 Berlin 21 Jan 44 Mein theurer Freund .
+2-1	34-40	Jamuar	*[1]	DATEletter[1]
+2-2	41-45	1844	*[1]	DATEletter[1]
+2-3	46-47	g	_	_
+2-4	48-49	.	_	_
+2-5	50-54	6/II	*[2]	DATErecieved[2]
+2-6	55-56	4	*[2]	DATErecieved[2]
+2-7	57-58	r	_	_
+2-8	59-60	.	_	_
+2-9	61-65	6/II	*[3]	DATEanswered[3]
+2-10	66-68	44	*[3]	DATEanswered[3]
+2-11	69-75	Berlin	*	PLACEfrom
+2-12	76-78	21	_	_
+2-13	79-82	Jan	*[4]	DATEletter[4]
+2-14	83-85	44	*[4]	DATEletter[4]
+2-15	86-90	Mein	_	_
+2-16	91-98	theurer	_	_
+2-17	99-105	Freund	_	_
+2-18	106-107	.	_	_
+
+#Text=Endlich hat Brockhaus die Monumenti- und Annalihefte hier vertheilt \; Ihr Bericht ist gleichzeitig ans Ministerium abgegangen mit dem Vorbehalt auf dessen Inhalt Seitens der Direktion zurückzukommen und desgleichen habe ich die an den König ergangne Exemplarsendung mit einem gedrängten Bericht über Ihre und des Instituts Thaten abgehen lassen .
+3-1	108-115	Endlich	_	_
+3-2	116-119	hat	_	_
+3-3	120-129	Brockhaus	*	ORGmentioned
+3-4	130-133	die	_	_
+3-5	134-144	Monumenti-	_	_
+3-6	145-148	und	_	_
+3-7	149-160	Annalihefte	_	_
+3-8	161-165	hier	_	_
+3-9	166-175	vertheilt	_	_
+3-10	176-177	\;	_	_
+3-11	178-181	Ihr	_	_
+3-12	182-189	Bericht	_	_
+3-13	190-193	ist	_	_
+3-14	194-206	gleichzeitig	_	_
+3-15	207-210	ans	_	_
+3-16	211-222	Ministerium	*	ORGmentioned
+3-17	223-233	abgegangen	_	_
+3-18	234-237	mit	_	_
+3-19	238-241	dem	_	_
+3-20	242-251	Vorbehalt	_	_
+3-21	252-255	auf	_	_
+3-22	256-262	dessen	_	_
+3-23	263-269	Inhalt	_	_
+3-24	270-277	Seitens	_	_
+3-25	278-281	der	_	_
+3-26	282-291	Direktion	*	ORGmentioned
+3-27	292-306	zurückzukommen	_	_
+3-28	307-310	und	_	_
+3-29	311-322	desgleichen	_	_
+3-30	323-327	habe	_	_
+3-31	328-331	ich	_	_
+3-32	332-335	die	_	_
+3-33	336-338	an	_	_
+3-34	339-342	den	_	_
+3-35	343-348	König	*	PERmentioned
+3-36	349-357	ergangne	_	_
+3-37	358-373	Exemplarsendung	_	_
+3-38	374-377	mit	_	_
+3-39	378-383	einem	_	_
+3-40	384-394	gedrängten	_	_
+3-41	395-402	Bericht	_	_
+3-42	403-407	über	_	_
+3-43	408-412	Ihre	_	_
+3-44	413-416	und	_	_
+3-45	417-420	des	_	_
+3-46	421-430	Instituts	*	ORGmentioned
+3-47	431-437	Thaten	_	_
+3-48	438-445	abgehen	_	_
+3-49	446-452	lassen	_	_
+3-50	453-454	.	_	_
+
+#Text=Ich will nun suchen weitere Hülfe durch Bunsen , den einzigen dafür praktischen Mittelsmann , zu veranlassen \; vielleicht geht er auf Ihren Vorschlag ein für eine Schulausgabe der Monumenti des Instituts .
+4-1	455-458	Ich	_	_
+4-2	459-463	will	_	_
+4-3	464-467	nun	_	_
+4-4	468-474	suchen	_	_
+4-5	475-482	weitere	_	_
+4-6	483-488	Hülfe	_	_
+4-7	489-494	durch	_	_
+4-8	495-501	Bunsen	*	PERmentioned
+4-9	502-503	,	_	_
+4-10	504-507	den	_	_
+4-11	508-516	einzigen	_	_
+4-12	517-522	dafür	_	_
+4-13	523-534	praktischen	_	_
+4-14	535-546	Mittelsmann	_	_
+4-15	547-548	,	_	_
+4-16	549-551	zu	_	_
+4-17	552-563	veranlassen	_	_
+4-18	564-565	\;	_	_
+4-19	566-576	vielleicht	_	_
+4-20	577-581	geht	_	_
+4-21	582-584	er	_	_
+4-22	585-588	auf	_	_
+4-23	589-594	Ihren	_	_
+4-24	595-604	Vorschlag	_	_
+4-25	605-608	ein	_	_
+4-26	609-612	für	_	_
+4-27	613-617	eine	_	_
+4-28	618-630	Schulausgabe	_	_
+4-29	631-634	der	_	_
+4-30	635-644	Monumenti	_	_
+4-31	645-648	des	_	_
+4-32	649-658	Instituts	_	_
+4-33	659-660	.	_	_
+
+#Text=Unterstützung zu suchen .
+5-1	661-674	Unterstützung	_	_
+5-2	675-677	zu	_	_
+5-3	678-684	suchen	_	_
+5-4	685-686	.	_	_
+
+#Text=Am ersten würde es mit Exemplaren gehen \; nimmt der König 30 Exemplare ä & 25 rt so hätten wir 500 Scudi und eine Quelle künftiger Einnahme obenein .
+6-1	687-689	Am	_	_
+6-2	690-696	ersten	_	_
+6-3	697-702	würde	_	_
+6-4	703-705	es	_	_
+6-5	706-709	mit	_	_
+6-6	710-720	Exemplaren	_	_
+6-7	721-726	gehen	_	_
+6-8	727-728	\;	_	_
+6-9	729-734	nimmt	_	_
+6-10	735-738	der	_	_
+6-11	739-744	König	*	PERmentioned
+6-12	745-747	30	_	_
+6-13	748-757	Exemplare	_	_
+6-14	758-759	ä	_	_
+6-15	760-761	&	_	_
+6-16	762-764	25	_	_
+6-17	765-767	rt	_	_
+6-18	768-770	so	_	_
+6-19	771-777	hätten	_	_
+6-20	778-781	wir	_	_
+6-21	782-785	500	_	_
+6-22	786-791	Scudi	_	_
+6-23	792-795	und	_	_
+6-24	796-800	eine	_	_
+6-25	801-807	Quelle	_	_
+6-26	808-817	künftiger	_	_
+6-27	818-826	Einnahme	_	_
+6-28	827-834	obenein	_	_
+6-29	835-836	.	_	_
+
+#Text=Vielleicht ließe sich bis auf 20 rt Nettopreis für die Associati kommen .
+7-1	837-847	Vielleicht	_	_
+7-2	848-853	ließe	_	_
+7-3	854-858	sich	_	_
+7-4	859-862	bis	_	_
+7-5	863-866	auf	_	_
+7-6	867-869	20	_	_
+7-7	870-872	rt	_	_
+7-8	873-883	Nettopreis	_	_
+7-9	884-887	für	_	_
+7-10	888-891	die	_	_
+7-11	892-901	Associati	_	_
+7-12	902-908	kommen	_	_
+7-13	909-910	.	_	_
+
+#Text=De Witte schreibt , seine Privatmeinung über meine an luynes gegangenen Vorschläge halte er lieber zurück bis das Comit & gesessen habe \; diese Äußerung läßt mich
+8-1	911-913	De	*[5]	PERmentioned[5]
+8-2	914-919	Witte	*[5]	PERmentioned[5]
+8-3	920-928	schreibt	_	_
+8-4	929-930	,	_	_
+8-5	931-936	seine	_	_
+8-6	937-950	Privatmeinung	_	_
+8-7	951-955	über	_	_
+8-8	956-961	meine	_	_
+8-9	962-964	an	_	_
+8-10	965-971	luynes	*	PERmentioned
+8-11	972-982	gegangenen	_	_
+8-12	983-993	Vorschläge	_	_
+8-13	994-999	halte	_	_
+8-14	1000-1002	er	_	_
+8-15	1003-1009	lieber	_	_
+8-16	1010-1016	zurück	_	_
+8-17	1017-1020	bis	_	_
+8-18	1021-1024	das	_	_
+8-19	1025-1030	Comit	_	_
+8-20	1031-1032	&	_	_
+8-21	1033-1041	gesessen	_	_
+8-22	1042-1046	habe	_	_
+8-23	1047-1048	\;	_	_
+8-24	1049-1054	diese	_	_
+8-25	1055-1063	Äußerung	_	_
+8-26	1064-1068	läßt	_	_
+8-27	1069-1073	mich	_	_

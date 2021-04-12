@@ -1,0 +1,151 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=347 Braun an Gerhard Rom , 31. März 1835 31 März 1835 Ich übersende Ihnen anbei einen Brief von Campanari und einen Aufsatz von Franz über die griechischen Inschriften welche Sie für die Annalen erhielten .
+1-1	0-3	347	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	31.	*[1]	DATEletter[1]
+1-8	31-35	März	*[1]	DATEletter[1]
+1-9	36-40	1835	*[1]	DATEletter[1]
+1-10	41-43	31	*[2]	DATEletter[2]
+1-11	44-48	März	*[2]	DATEletter[2]
+1-12	49-53	1835	*[2]	DATEletter[2]
+1-13	54-57	Ich	_	_
+1-14	58-67	übersende	_	_
+1-15	68-73	Ihnen	_	_
+1-16	74-79	anbei	_	_
+1-17	80-85	einen	_	_
+1-18	86-91	Brief	_	_
+1-19	92-95	von	_	_
+1-20	96-105	Campanari	*	PERmentioned
+1-21	106-109	und	_	_
+1-22	110-115	einen	_	_
+1-23	116-123	Aufsatz	*[3]	LIT[3]
+1-24	124-127	von	*[3]	LIT[3]
+1-25	128-133	Franz	*[3]|*[4]	LIT[3]|PERmentioned[4]
+1-26	134-138	über	*[3]	LIT[3]
+1-27	139-142	die	*[3]	LIT[3]
+1-28	143-155	griechischen	*[3]	LIT[3]
+1-29	156-167	Inschriften	*[3]	LIT[3]
+1-30	168-174	welche	_	_
+1-31	175-178	Sie	_	_
+1-32	179-182	für	_	_
+1-33	183-186	die	_	_
+1-34	187-194	Annalen	_	_
+1-35	195-204	erhielten	_	_
+1-36	205-206	.	_	_
+
+#Text=Bunsen lässt Ihnen erklären , daß er das Bull .
+2-1	207-213	Bunsen	*	PERmentioned
+2-2	214-219	lässt	_	_
+2-3	220-225	Ihnen	_	_
+2-4	226-234	erklären	_	_
+2-5	235-236	,	_	_
+2-6	237-240	daß	_	_
+2-7	241-243	er	_	_
+2-8	244-247	das	_	_
+2-9	248-252	Bull	*[5]	LIT[5]
+2-10	253-254	.	*[5]	LIT[5]
+
+#Text=nicht fortdrucken würde , wenn das archäologische Intelligenzblatt Nicht suspendirt würde \; es thäte dem Bull .
+3-1	255-260	nicht	_	_
+3-2	261-272	fortdrucken	_	_
+3-3	273-278	würde	_	_
+3-4	279-280	,	_	_
+3-5	281-285	wenn	_	_
+3-6	286-289	das	_	_
+3-7	290-304	archäologische	*[6]	LIT[6]
+3-8	305-321	Intelligenzblatt	*[6]	LIT[6]
+3-9	322-327	Nicht	_	_
+3-10	328-338	suspendirt	_	_
+3-11	339-344	würde	_	_
+3-12	345-346	\;	_	_
+3-13	347-349	es	_	_
+3-14	350-355	thäte	_	_
+3-15	356-359	dem	_	_
+3-16	360-364	Bull	*[7]	LIT[7]
+3-17	365-366	.	*[7]	LIT[7]
+
+#Text=Eintrag , Böckh habe darüber geklagt etc. - Ich habe erwiedert , was ich durfte ohne unberufener Vertheidiger einer Sache zu werden , die eigentlich keiner Anklage fähig ist .
+4-1	367-374	Eintrag	_	_
+4-2	375-376	,	_	_
+4-3	377-382	Böckh	*	PERmentioned
+4-4	383-387	habe	_	_
+4-5	388-395	darüber	_	_
+4-6	396-403	geklagt	_	_
+4-7	404-408	etc.	_	_
+4-8	409-410	-	_	_
+4-9	411-414	Ich	_	_
+4-10	415-419	habe	_	_
+4-11	420-429	erwiedert	_	_
+4-12	430-431	,	_	_
+4-13	432-435	was	_	_
+4-14	436-439	ich	_	_
+4-15	440-446	durfte	_	_
+4-16	447-451	ohne	_	_
+4-17	452-463	unberufener	_	_
+4-18	464-476	Vertheidiger	_	_
+4-19	477-482	einer	_	_
+4-20	483-488	Sache	_	_
+4-21	489-491	zu	_	_
+4-22	492-498	werden	_	_
+4-23	499-500	,	_	_
+4-24	501-504	die	_	_
+4-25	505-515	eigentlich	_	_
+4-26	516-522	keiner	_	_
+4-27	523-530	Anklage	_	_
+4-28	531-536	fähig	_	_
+4-29	537-540	ist	_	_
+4-30	541-542	.	_	_
+
+#Text=Das Märzbull .
+5-1	543-546	Das	_	_
+5-2	547-555	Märzbull	_	_
+5-3	556-557	.	_	_
+
+#Text=ist mißrathen , .
+6-1	558-561	ist	_	_
+6-2	562-571	mißrathen	_	_
+6-3	572-573	,	_	_
+6-4	574-575	.	_	_
+
+#Text=Lanci thut nichts mehr als was Pflicht ist und so fehlt und sein praktische guter Rath , - Intanto etc. Briefe müssen Sie alle 8 Tage von mir haben .
+7-1	576-581	Lanci	*	PERmentioned
+7-2	582-586	thut	_	_
+7-3	587-593	nichts	_	_
+7-4	594-598	mehr	_	_
+7-5	599-602	als	_	_
+7-6	603-606	was	_	_
+7-7	607-614	Pflicht	_	_
+7-8	615-618	ist	_	_
+7-9	619-622	und	_	_
+7-10	623-625	so	_	_
+7-11	626-631	fehlt	_	_
+7-12	632-635	und	_	_
+7-13	636-640	sein	_	_
+7-14	641-651	praktische	_	_
+7-15	652-657	guter	_	_
+7-16	658-662	Rath	_	_
+7-17	663-664	,	_	_
+7-18	665-666	-	_	_
+7-19	667-674	Intanto	_	_
+7-20	675-679	etc.	_	_
+7-21	680-686	Briefe	_	_
+7-22	687-693	müssen	_	_
+7-23	694-697	Sie	_	_
+7-24	698-702	alle	_	_
+7-25	703-704	8	_	_
+7-26	705-709	Tage	_	_
+7-27	710-713	von	_	_
+7-28	714-717	mir	_	_
+7-29	718-723	haben	_	_
+7-30	724-725	.	_	_
+
+#Text=Ihr Braun
+8-1	726-729	Ihr	_	_
+8-2	730-735	Braun	*	PERauthor

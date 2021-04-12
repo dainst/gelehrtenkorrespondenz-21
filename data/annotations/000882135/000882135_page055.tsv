@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=336 Braun an Gerhard Rom , 10. Mai 1838 Sig .
+1-1	0-3	336	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	10.	*[6]	DATEletter[6]
+1-8	31-34	Mai	*[6]	DATEletter[6]
+1-9	35-39	1838	*[6]	DATEletter[6]
+1-10	40-43	Sig	_	_
+1-11	44-45	.	_	_
+
+#Text=Cav .
+2-1	46-49	Cav	_	_
+2-2	50-51	.	_	_
+
+#Text=Gerhard Berlino .
+3-1	52-59	Gerhard	*	PERaddressee
+3-2	60-67	Berlino	*	PLACEto
+3-3	68-69	.	_	_
+
+#Text=Roma li 10 Maggsio 1838 .
+4-1	70-74	Roma	*	PLACEfrom
+4-2	75-77	li	_	_
+4-3	78-80	10	*[8]	DATEletter[8]
+4-4	81-88	Maggsio	*[8]	DATEletter[8]
+4-5	89-93	1838	*[8]	DATEletter[8]
+4-6	94-95	.	_	_
+
+#Text=Hochverehrtester Freund !
+5-1	96-112	Hochverehrtester	_	_
+5-2	113-119	Freund	_	_
+5-3	120-121	!	_	_
+
+#Text=Die mir übersandte Rechnung geht mich eigentlich gar nichts an .
+6-1	122-125	Die	_	_
+6-2	126-129	mir	_	_
+6-3	130-140	übersandte	_	_
+6-4	141-149	Rechnung	_	_
+6-5	150-154	geht	_	_
+6-6	155-159	mich	_	_
+6-7	160-170	eigentlich	_	_
+6-8	171-174	gar	_	_
+6-9	175-181	nichts	_	_
+6-10	182-184	an	_	_
+6-11	185-186	.	_	_
+
+#Text=Der Hauptbetrag derselben wurde in den Institutsrechnungen Gerstäckern zugeschrieben .
+7-1	187-190	Der	_	_
+7-2	191-202	Hauptbetrag	_	_
+7-3	203-212	derselben	_	_
+7-4	213-218	wurde	_	_
+7-5	219-221	in	_	_
+7-6	222-225	den	_	_
+7-7	226-245	Institutsrechnungen	_	_
+7-8	246-257	Gerstäckern	*	PERmentioned
+7-9	258-271	zugeschrieben	_	_
+7-10	272-273	.	_	_
+
+#Text=Jetzt da Sie 's anders eingerichtet haben , mag es so bleiben .
+8-1	274-279	Jetzt	_	_
+8-2	280-282	da	_	_
+8-3	283-286	Sie	_	_
+8-4	287-289	's	_	_
+8-5	290-296	anders	_	_
+8-6	297-309	eingerichtet	_	_
+8-7	310-315	haben	_	_
+8-8	316-317	,	_	_
+8-9	318-321	mag	_	_
+8-10	322-324	es	_	_
+8-11	325-327	so	_	_
+8-12	328-335	bleiben	_	_
+8-13	336-337	.	_	_
+
+#Text=Ich werde die nöthigen Schritte thuen , um alles ins Gleiche zu bringen .
+9-1	338-341	Ich	_	_
+9-2	342-347	werde	_	_
+9-3	348-351	die	_	_
+9-4	352-360	nöthigen	_	_
+9-5	361-369	Schritte	_	_
+9-6	370-375	thuen	_	_
+9-7	376-377	,	_	_
+9-8	378-380	um	_	_
+9-9	381-386	alles	_	_
+9-10	387-390	ins	_	_
+9-11	391-398	Gleiche	_	_
+9-12	399-401	zu	_	_
+9-13	402-409	bringen	_	_
+9-14	410-411	.	_	_
+
+#Text=Ich kann nicht recht begreifen wie Sie von hier aus ohne Nachrichten sein können , indem ich wiederholt Briefe an Sie abgesandt .
+10-1	412-415	Ich	_	_
+10-2	416-420	kann	_	_
+10-3	421-426	nicht	_	_
+10-4	427-432	recht	_	_
+10-5	433-442	begreifen	_	_
+10-6	443-446	wie	_	_
+10-7	447-450	Sie	_	_
+10-8	451-454	von	_	_
+10-9	455-459	hier	_	_
+10-10	460-463	aus	_	_
+10-11	464-468	ohne	_	_
+10-12	469-480	Nachrichten	_	_
+10-13	481-485	sein	_	_
+10-14	486-492	können	_	_
+10-15	493-494	,	_	_
+10-16	495-500	indem	_	_
+10-17	501-504	ich	_	_
+10-18	505-515	wiederholt	_	_
+10-19	516-522	Briefe	_	_
+10-20	523-525	an	_	_
+10-21	526-529	Sie	_	_
+10-22	530-539	abgesandt	_	_
+10-23	540-541	.	_	_
+
+#Text=Jetzt muß Bunsen bei Ihnen sein .
+11-1	542-547	Jetzt	_	_
+11-2	548-551	muß	_	_
+11-3	552-558	Bunsen	*	PERmentioned
+11-4	559-562	bei	_	_
+11-5	563-568	Ihnen	_	_
+11-6	569-573	sein	_	_
+11-7	574-575	.	_	_
+
+#Text=Die Cistenform geht größerer Sicherheit und Wohlfeilheit wegen erst nächsten Sonnabend mit dem österreichischen Courier an Sie ab .
+12-1	576-579	Die	_	_
+12-2	580-590	Cistenform	*	OBJ
+12-3	591-595	geht	_	_
+12-4	596-604	größerer	_	_
+12-5	605-615	Sicherheit	_	_
+12-6	616-619	und	_	_
+12-7	620-632	Wohlfeilheit	_	_
+12-8	633-638	wegen	_	_
+12-9	639-643	erst	_	_
+12-10	644-652	nächsten	_	_
+12-11	653-662	Sonnabend	_	_
+12-12	663-666	mit	_	_
+12-13	667-670	dem	_	_
+12-14	671-687	österreichischen	_	_
+12-15	688-695	Courier	_	_
+12-16	696-698	an	_	_
+12-17	699-702	Sie	_	_
+12-18	703-705	ab	_	_
+12-19	706-707	.	_	_
+
+#Text=Raoul Rochette ist den 21 v. M. von Paris mit Mosey , den französischen Architekten der das Forum des Trajan restaurirt , nach Griechenland abgereist und wird im Herbst über Apulien zurückkehren .
+13-1	708-713	Raoul	*[12]	PERmentioned[12]
+13-2	714-722	Rochette	*[12]	PERmentioned[12]
+13-3	723-726	ist	_	_
+13-4	727-730	den	_	_
+13-5	731-733	21	*[13]	DATEmentioned[13]
+13-6	734-736	v.	*[13]	DATEmentioned[13]
+13-7	737-739	M.	*[13]	DATEmentioned[13]
+13-8	740-743	von	_	_
+13-9	744-749	Paris	*	PLACEmentioned
+13-10	750-753	mit	_	_
+13-11	754-759	Mosey	*	PERmentioned
+13-12	760-761	,	_	_
+13-13	762-765	den	_	_
+13-14	766-779	französischen	_	_
+13-15	780-791	Architekten	_	_
+13-16	792-795	der	_	_
+13-17	796-799	das	_	_
+13-18	800-805	Forum	*[16]	OBJ[16]
+13-19	806-809	des	*[16]	OBJ[16]
+13-20	810-816	Trajan	*[16]	OBJ[16]
+13-21	817-827	restaurirt	_	_
+13-22	828-829	,	_	_
+13-23	830-834	nach	_	_
+13-24	835-847	Griechenland	*	PLACEmentioned
+13-25	848-857	abgereist	_	_
+13-26	858-861	und	_	_
+13-27	862-866	wird	_	_
+13-28	867-869	im	_	_
+13-29	870-876	Herbst	_	_
+13-30	877-881	über	_	_
+13-31	882-889	Apulien	*	PLACEmentioned
+13-32	890-902	zurückkehren	_	_
+13-33	903-904	.	_	_
+
+#Text=Spiegelinedita werden gemeinhin von dem Gregorianum bewacht und verschlungen .
+14-1	905-919	Spiegelinedita	_	_
+14-2	920-926	werden	_	_
+14-3	927-936	gemeinhin	_	_
+14-4	937-940	von	_	_
+14-5	941-944	dem	_	_
+14-6	945-956	Gregorianum	*	ORGmentioned
+14-7	957-964	bewacht	_	_
+14-8	965-968	und	_	_
+14-9	969-981	verschlungen	_	_
+14-10	982-983	.	_	_
+
+#Text=Demnächst lauern die Jesuiten fürs Kircherianum auf .
+15-1	984-993	Demnächst	_	_
+15-2	994-1000	lauern	_	_
+15-3	1001-1004	die	_	_
+15-4	1005-1013	Jesuiten	_	_
+15-5	1014-1018	fürs	_	_
+15-6	1019-1031	Kircherianum	*	ORGmentioned
+15-7	1032-1035	auf	_	_
+15-8	1036-1037	.	_	_
+
+#Text=Dadurch sind sie ungemein , selbst an den Ausgrabungen gestiegen .
+16-1	1038-1045	Dadurch	_	_
+16-2	1046-1050	sind	_	_
+16-3	1051-1054	sie	_	_
+16-4	1055-1063	ungemein	_	_
+16-5	1064-1065	,	_	_
+16-6	1066-1072	selbst	_	_
+16-7	1073-1075	an	_	_
+16-8	1076-1079	den	_	_
+16-9	1080-1092	Ausgrabungen	_	_
+16-10	1093-1102	gestiegen	_	_
+16-11	1103-1104	.	_	_
+
+#Text=Man spricht von einem der seit einiger Zeit in Toscanella um 60 Scudi verkauft sein soll .
+17-1	1105-1108	Man	_	_
+17-2	1109-1116	spricht	_	_
+17-3	1117-1120	von	_	_
+17-4	1121-1126	einem	_	_
+17-5	1127-1130	der	_	_
+17-6	1131-1135	seit	_	_
+17-7	1136-1143	einiger	_	_
+17-8	1144-1148	Zeit	_	_
+17-9	1149-1151	in	_	_
+17-10	1152-1162	Toscanella	*	PLACEmentioned
+17-11	1163-1165	um	_	_
+17-12	1166-1168	60	_	_
+17-13	1169-1174	Scudi	_	_
+17-14	1175-1183	verkauft	_	_
+17-15	1184-1188	sein	_	_
+17-16	1189-1193	soll	_	_
+17-17	1194-1195	.	_	_
+
+#Text=- Vom Zeichnen ist sar keine Rede .
+18-1	1196-1197	-	_	_
+18-2	1198-1201	Vom	_	_
+18-3	1202-1210	Zeichnen	_	_
+18-4	1211-1214	ist	_	_
+18-5	1215-1218	sar	_	_
+18-6	1219-1224	keine	_	_
+18-7	1225-1229	Rede	_	_
+18-8	1230-1231	.	_	_
+
+#Text=Aus Furcht vor dem Camerlengel lassen einen die Leute die Sachen nicht einmal sehen .
+19-1	1232-1235	Aus	_	_
+19-2	1236-1242	Furcht	_	_
+19-3	1243-1246	vor	_	_
+19-4	1247-1250	dem	_	_
+19-5	1251-1262	Camerlengel	_	_
+19-6	1263-1269	lassen	_	_
+19-7	1270-1275	einen	_	_
+19-8	1276-1279	die	_	_
+19-9	1280-1285	Leute	_	_
+19-10	1286-1289	die	_	_
+19-11	1290-1296	Sachen	_	_
+19-12	1297-1302	nicht	_	_
+19-13	1303-1309	einmal	_	_
+19-14	1310-1315	sehen	_	_
+19-15	1316-1317	.	_	_
+
+#Text=- Von
+20-1	1318-1319	-	_	_
+20-2	1320-1323	Von	_	_

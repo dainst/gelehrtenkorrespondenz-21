@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=403 Helbig an Henzen Dresden , 5. September 1868 10/9 68 Dresden , 5. September 1868 Lieber Herr Professor Erst vorgestern , also beinah drei Wochen später als wir vorausgesehen hatten , sind wir in Dresden eingetroffen .
+1-1	0-3	403	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-28	Dresden	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	5.	*[1]	DATEletter[1]
+1-8	34-43	September	*[1]	DATEletter[1]
+1-9	44-48	1868	*[1]	DATEletter[1]
+1-10	49-53	10/9	*[2]	DATErecieved[2]
+1-11	54-56	68	*[2]	DATErecieved[2]
+1-12	57-64	Dresden	*	PLACEfrom
+1-13	65-66	,	_	_
+1-14	67-69	5.	*[3]	DATEletter[3]
+1-15	70-79	September	*[3]	DATEletter[3]
+1-16	80-84	1868	*[3]	DATEletter[3]
+1-17	85-91	Lieber	_	_
+1-18	92-96	Herr	_	_
+1-19	97-106	Professor	_	_
+1-20	107-111	Erst	_	_
+1-21	112-122	vorgestern	_	_
+1-22	123-124	,	_	_
+1-23	125-129	also	_	_
+1-24	130-136	beinah	_	_
+1-25	137-141	drei	_	_
+1-26	142-148	Wochen	_	_
+1-27	149-155	später	_	_
+1-28	156-159	als	_	_
+1-29	160-163	wir	_	_
+1-30	164-177	vorausgesehen	_	_
+1-31	178-184	hatten	_	_
+1-32	185-186	,	_	_
+1-33	187-191	sind	_	_
+1-34	192-195	wir	_	_
+1-35	196-198	in	_	_
+1-36	199-206	Dresden	*	PLACEmentioned
+1-37	207-219	eingetroffen	_	_
+1-38	220-221	.	_	_
+
+#Text=Wie es uns überall in Rußland gegangen war , dauerte auch die Regelung der Angelegenheiten bei Pskoff ungleich länger , als wir erwarteten .
+2-1	222-225	Wie	_	_
+2-2	226-228	es	_	_
+2-3	229-232	uns	_	_
+2-4	233-240	überall	_	_
+2-5	241-243	in	_	_
+2-6	244-251	Rußland	*	PLACEmentioned
+2-7	252-260	gegangen	_	_
+2-8	261-264	war	_	_
+2-9	265-266	,	_	_
+2-10	267-274	dauerte	_	_
+2-11	275-279	auch	_	_
+2-12	280-283	die	_	_
+2-13	284-292	Regelung	_	_
+2-14	293-296	der	_	_
+2-15	297-312	Angelegenheiten	_	_
+2-16	313-316	bei	_	_
+2-17	317-323	Pskoff	*	PLACEmentioned
+2-18	324-332	ungleich	_	_
+2-19	333-339	länger	_	_
+2-20	340-341	,	_	_
+2-21	342-345	als	_	_
+2-22	346-349	wir	_	_
+2-23	350-360	erwarteten	_	_
+2-24	361-362	.	_	_
+
+#Text=In Berlin blieben wir drei Tage .
+3-1	363-365	In	_	_
+3-2	366-372	Berlin	*	PLACEmentioned
+3-3	373-380	blieben	_	_
+3-4	381-384	wir	_	_
+3-5	385-389	drei	_	_
+3-6	390-394	Tage	_	_
+3-7	395-396	.	_	_
+
+#Text=Ich besuchte Lepsius und Mommsen \; die übrigen waren verreist .
+4-1	397-400	Ich	_	_
+4-2	401-409	besuchte	_	_
+4-3	410-417	Lepsius	*	PERmentioned
+4-4	418-421	und	_	_
+4-5	422-429	Mommsen	*	PERmentioned
+4-6	430-431	\;	_	_
+4-7	432-435	die	_	_
+4-8	436-443	übrigen	_	_
+4-9	444-449	waren	_	_
+4-10	450-458	verreist	_	_
+4-11	459-460	.	_	_
+
+#Text=Die Stimmung in der Metropole der Intelligenz war nicht gerade eine erquickliche .
+5-1	461-464	Die	_	_
+5-2	465-473	Stimmung	_	_
+5-3	474-476	in	_	_
+5-4	477-480	der	_	_
+5-5	481-490	Metropole	_	_
+5-6	491-494	der	_	_
+5-7	495-506	Intelligenz	_	_
+5-8	507-510	war	_	_
+5-9	511-516	nicht	_	_
+5-10	517-523	gerade	_	_
+5-11	524-528	eine	_	_
+5-12	529-541	erquickliche	_	_
+5-13	542-543	.	_	_
+
+#Text=Es scheint , als ob auf 1866 ein ähnlicher Katzenjammer folgen soll wie auf 1813 .
+6-1	544-546	Es	_	_
+6-2	547-554	scheint	_	_
+6-3	555-556	,	_	_
+6-4	557-560	als	_	_
+6-5	561-563	ob	_	_
+6-6	564-567	auf	_	_
+6-7	568-572	1866	*	DATEmentioned
+6-8	573-576	ein	_	_
+6-9	577-586	ähnlicher	_	_
+6-10	587-599	Katzenjammer	_	_
+6-11	600-606	folgen	_	_
+6-12	607-611	soll	_	_
+6-13	612-615	wie	_	_
+6-14	616-619	auf	_	_
+6-15	620-624	1813	*	DATEmentioned
+6-16	625-626	.	_	_
+
+#Text=Namentlich im Kultministerium sind die Verhältnisse scheußlich \; die Illiberalität , das Maßregeln und Nichtbestätigen stehen wiederum in vollster Blühte .
+7-1	627-637	Namentlich	_	_
+7-2	638-640	im	_	_
+7-3	641-656	Kultministerium	*	ORGmentioned
+7-4	657-661	sind	_	_
+7-5	662-665	die	_	_
+7-6	666-678	Verhältnisse	_	_
+7-7	679-689	scheußlich	_	_
+7-8	690-691	\;	_	_
+7-9	692-695	die	_	_
+7-10	696-709	Illiberalität	_	_
+7-11	710-711	,	_	_
+7-12	712-715	das	_	_
+7-13	716-725	Maßregeln	_	_
+7-14	726-729	und	_	_
+7-15	730-745	Nichtbestätigen	_	_
+7-16	746-752	stehen	_	_
+7-17	753-761	wiederum	_	_
+7-18	762-764	in	_	_
+7-19	765-773	vollster	_	_
+7-20	774-780	Blühte	_	_
+7-21	781-782	.	_	_
+
+#Text=läugnen läßt es sich allerdings nicht , daß auch die Gelehrten das Ihrige dazu thun , den Zorn des Himmels gegen sich herauf zu beschwören .
+8-1	783-790	läugnen	_	_
+8-2	791-795	läßt	_	_
+8-3	796-798	es	_	_
+8-4	799-803	sich	_	_
+8-5	804-814	allerdings	_	_
+8-6	815-820	nicht	_	_
+8-7	821-822	,	_	_
+8-8	823-826	daß	_	_
+8-9	827-831	auch	_	_
+8-10	832-835	die	_	_
+8-11	836-845	Gelehrten	_	_
+8-12	846-849	das	_	_
+8-13	850-856	Ihrige	_	_
+8-14	857-861	dazu	_	_
+8-15	862-866	thun	_	_
+8-16	867-868	,	_	_
+8-17	869-872	den	_	_
+8-18	873-877	Zorn	_	_
+8-19	878-881	des	_	_
+8-20	882-889	Himmels	_	_
+8-21	890-895	gegen	_	_
+8-22	896-900	sich	_	_
+8-23	901-907	herauf	_	_
+8-24	908-910	zu	_	_
+8-25	911-921	beschwören	_	_
+8-26	922-923	.	_	_
+
+#Text=Von dem in Berlin herrschenden Sich zerfleischen und auffressen der Gelehrten kann man sich nur an Ort und Stelle einen Begriff machen .
+9-1	924-927	Von	_	_
+9-2	928-931	dem	_	_
+9-3	932-934	in	_	_
+9-4	935-941	Berlin	*	PLACEmentioned
+9-5	942-954	herrschenden	_	_
+9-6	955-959	Sich	_	_
+9-7	960-972	zerfleischen	_	_
+9-8	973-976	und	_	_
+9-9	977-987	auffressen	_	_
+9-10	988-991	der	_	_
+9-11	992-1001	Gelehrten	_	_
+9-12	1002-1006	kann	_	_
+9-13	1007-1010	man	_	_
+9-14	1011-1015	sich	_	_
+9-15	1016-1019	nur	_	_
+9-16	1020-1022	an	_	_
+9-17	1023-1026	Ort	_	_
+9-18	1027-1030	und	_	_
+9-19	1031-1037	Stelle	_	_
+9-20	1038-1043	einen	_	_
+9-21	1044-1051	Begriff	_	_
+9-22	1052-1058	machen	_	_
+9-23	1059-1060	.	_	_
+
+#Text=Namentlich am Museum geht es lustig zu .
+10-1	1061-1071	Namentlich	_	_
+10-2	1072-1074	am	_	_
+10-3	1075-1081	Museum	*	ORGmentioned
+10-4	1082-1086	geht	_	_
+10-5	1087-1089	es	_	_
+10-6	1090-1096	lustig	_	_
+10-7	1097-1099	zu	_	_
+10-8	1100-1101	.	_	_
+
+#Text=Friederichs steht contra Friedländer ,
+11-1	1102-1113	Friederichs	*	PERmentioned
+11-2	1114-1119	steht	_	_
+11-3	1120-1126	contra	_	_
+11-4	1127-1138	Friedländer	*	PERmentioned
+11-5	1139-1140	,	_	_

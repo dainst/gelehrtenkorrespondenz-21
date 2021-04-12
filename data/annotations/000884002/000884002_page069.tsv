@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=380 Brunn an Henzen ( Ariccia ) , 13.8ept.1860 Hercher ist noch nicht wieder zurück \; Fournier seit gestern hier , will bis Sonnabend bleiben .
+1-1	0-3	380	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-21	(	_	_
+1-6	22-29	Ariccia	*	PLACEfrom
+1-7	30-31	)	_	_
+1-8	32-33	,	_	_
+1-9	34-46	13.8ept.1860	*	DATEletter
+1-10	47-54	Hercher	*	PERmentioned
+1-11	55-58	ist	_	_
+1-12	59-63	noch	_	_
+1-13	64-69	nicht	_	_
+1-14	70-76	wieder	_	_
+1-15	77-83	zurück	_	_
+1-16	84-85	\;	_	_
+1-17	86-94	Fournier	*	PERmentioned
+1-18	95-99	seit	_	_
+1-19	100-107	gestern	_	_
+1-20	108-112	hier	_	_
+1-21	113-114	,	_	_
+1-22	115-119	will	_	_
+1-23	120-123	bis	_	_
+1-24	124-133	Sonnabend	*	DATEmentioned
+1-25	134-141	bleiben	_	_
+1-26	142-143	.	_	_
+
+#Text=Wie machen Sie es da mit Capobianchi ?
+2-1	144-147	Wie	_	_
+2-2	148-154	machen	_	_
+2-3	155-158	Sie	_	_
+2-4	159-161	es	_	_
+2-5	162-164	da	_	_
+2-6	165-168	mit	_	_
+2-7	169-180	Capobianchi	*	PERmentioned
+2-8	181-182	?	_	_
+
+#Text=- Cornelius will übermorgen nach Rom zurück .
+3-1	183-184	-	_	_
+3-2	185-194	Cornelius	*	PERmentioned
+3-3	195-199	will	_	_
+3-4	200-210	übermorgen	_	_
+3-5	211-215	nach	_	_
+3-6	216-219	Rom	*	PLACEmentioned
+3-7	220-226	zurück	_	_
+3-8	227-228	.	_	_
+
+#Text=Also nur noch , für diesmal wenigstens , die letzten Grüße aus Ariccia von meiner Frau .
+4-1	229-233	Also	_	_
+4-2	234-237	nur	_	_
+4-3	238-242	noch	_	_
+4-4	243-244	,	_	_
+4-5	245-248	für	_	_
+4-6	249-256	diesmal	_	_
+4-7	257-267	wenigstens	_	_
+4-8	268-269	,	_	_
+4-9	270-273	die	_	_
+4-10	274-281	letzten	_	_
+4-11	282-287	Grüße	_	_
+4-12	288-291	aus	_	_
+4-13	292-299	Ariccia	*	PLACEmentioned
+4-14	300-303	von	_	_
+4-15	304-310	meiner	*[3]	PERmentioned[3]
+4-16	311-315	Frau	*[3]	PERmentioned[3]
+4-17	316-317	.	_	_
+
+#Text=Ihr HBrunn .
+5-1	318-321	Ihr	_	_
+5-2	322-328	HBrunn	*	PERauthor
+5-3	329-330	.	_	_
+
+#Text=Donnerstag 13 Sept .
+6-1	331-341	Donnerstag	*[4]	DATEletter[4]
+6-2	342-344	13	*[4]	DATEletter[4]
+6-3	345-349	Sept	*[4]	DATEletter[4]
+6-4	350-351	.	*[4]	DATEletter[4]
+
+#Text=1860. aebs Anbei ein Zettelchen , das Mich .
+7-1	352-357	1860.	*[4]	DATEletter[4]
+7-2	358-362	aebs	_	_
+7-3	363-368	Anbei	_	_
+7-4	369-372	ein	_	_
+7-5	373-383	Zettelchen	_	_
+7-6	384-385	,	_	_
+7-7	386-389	das	_	_
+7-8	390-394	Mich	*	PERmentioned
+7-9	395-396	.	_	_
+
+#Text=durch Kopf an Petersen schickt .
+8-1	397-402	durch	_	_
+8-2	403-407	Kopf	*	PERmentioned
+8-3	408-410	an	_	_
+8-4	411-419	Petersen	*	PERmentioned
+8-5	420-427	schickt	_	_
+8-6	428-429	.	_	_

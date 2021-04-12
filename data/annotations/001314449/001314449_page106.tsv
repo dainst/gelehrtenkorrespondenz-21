@@ -1,0 +1,374 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=il a u u ® 124 Henzen an Gerhard 11/1V/53 Verehrtester Herr Professor !
+1-1	0-2	il	_	_
+1-2	3-4	a	_	_
+1-3	5-6	u	_	_
+1-4	7-8	u	_	_
+1-5	9-10	®	_	_
+1-6	11-14	124	_	_
+1-7	15-21	Henzen	*	PERauthor
+1-8	22-24	an	_	_
+1-9	25-32	Gerhard	*	PERaddressee
+1-10	33-41	11/1V/53	*	DATEletter
+1-11	42-54	Verehrtester	_	_
+1-12	55-59	Herr	_	_
+1-13	60-69	Professor	_	_
+1-14	70-71	!	_	_
+
+#Text=\\ Es sind so lange keine Nachrichten von Ihnen angelangt , dß .
+2-1	72-73	\\	_	_
+2-2	74-76	Es	_	_
+2-3	77-81	sind	_	_
+2-4	82-84	so	_	_
+2-5	85-90	lange	_	_
+2-6	91-96	keine	_	_
+2-7	97-108	Nachrichten	_	_
+2-8	109-112	von	_	_
+2-9	113-118	Ihnen	_	_
+2-10	119-128	angelangt	_	_
+2-11	129-130	,	_	_
+2-12	131-133	dß	_	_
+2-13	134-135	.	_	_
+
+#Text=mir bange wird , es möge Ihnen nicht gut gehen .
+3-1	136-139	mir	_	_
+3-2	140-145	bange	_	_
+3-3	146-150	wird	_	_
+3-4	151-152	,	_	_
+3-5	153-155	es	_	_
+3-6	156-160	möge	_	_
+3-7	161-166	Ihnen	_	_
+3-8	167-172	nicht	_	_
+3-9	173-176	gut	_	_
+3-10	177-182	gehen	_	_
+3-11	183-184	.	_	_
+
+#Text=\| Mein Brief vom 7.ten März ist noch ohne Antwort .
+4-1	185-186	\|	_	_
+4-2	187-191	Mein	_	_
+4-3	192-197	Brief	_	_
+4-4	198-201	vom	_	_
+4-5	202-207	7.ten	*[1]	DATEmentioned[1]
+4-6	208-212	März	*[1]	DATEmentioned[1]
+4-7	213-216	ist	_	_
+4-8	217-221	noch	_	_
+4-9	222-226	ohne	_	_
+4-10	227-234	Antwort	_	_
+4-11	235-236	.	_	_
+
+#Text=- Ich ee er ine bin begierig , wie Sie meine epigraphischen Vorschläge vom 27a v.M .
+5-1	237-238	-	_	_
+5-2	239-242	Ich	_	_
+5-3	243-245	ee	_	_
+5-4	246-248	er	_	_
+5-5	249-252	ine	_	_
+5-6	253-256	bin	_	_
+5-7	257-265	begierig	_	_
+5-8	266-267	,	_	_
+5-9	268-271	wie	_	_
+5-10	272-275	Sie	_	_
+5-11	276-281	meine	_	_
+5-12	282-296	epigraphischen	*	MISC
+5-13	297-307	Vorschläge	_	_
+5-14	308-311	vom	_	_
+5-15	312-315	27a	*[2]	DATEmentioned[2]
+5-16	316-319	v.M	_	_
+5-17	320-321	.	_	_
+
+#Text=aufgenommen .
+6-1	322-333	aufgenommen	_	_
+6-2	334-335	.	_	_
+
+#Text=Ich füge noch hinzu , daß Rocchi in Bologna die Inschriften , die noch in den Hauptorten der Romagna u. bis nach Pesaro u. Urbino herab existiren , auf Kosten der Franzosen in den Jahren 45 - 47 sorgfältigst abgeschrieben , resp .
+7-1	336-339	Ich	_	_
+7-2	340-344	füge	_	_
+7-3	345-349	noch	_	_
+7-4	350-355	hinzu	_	_
+7-5	356-357	,	_	_
+7-6	358-361	daß	_	_
+7-7	362-368	Rocchi	*	PERmentioned
+7-8	369-371	in	_	_
+7-9	372-379	Bologna	*	PLACEmentioned
+7-10	380-383	die	_	_
+7-11	384-395	Inschriften	*	OBJ
+7-12	396-397	,	_	_
+7-13	398-401	die	_	_
+7-14	402-406	noch	_	_
+7-15	407-409	in	_	_
+7-16	410-413	den	_	_
+7-17	414-424	Hauptorten	_	_
+7-18	425-428	der	_	_
+7-19	429-436	Romagna	*	PLACEmentioned
+7-20	437-439	u.	_	_
+7-21	440-443	bis	_	_
+7-22	444-448	nach	_	_
+7-23	449-455	Pesaro	*	PLACEmentioned
+7-24	456-458	u.	_	_
+7-25	459-465	Urbino	*	PLACEmentioned
+7-26	466-471	herab	_	_
+7-27	472-481	existiren	_	_
+7-28	482-483	,	_	_
+7-29	484-487	auf	_	_
+7-30	488-494	Kosten	_	_
+7-31	495-498	der	_	_
+7-32	499-508	Franzosen	_	_
+7-33	509-511	in	_	_
+7-34	512-515	den	_	_
+7-35	516-522	Jahren	_	_
+7-36	523-525	45	_	_
+7-37	526-527	-	_	_
+7-38	528-530	47	_	_
+7-39	531-543	sorgfältigst	_	_
+7-40	544-557	abgeschrieben	_	_
+7-41	558-559	,	_	_
+7-42	560-564	resp	_	_
+7-43	565-566	.	_	_
+
+#Text=collationirt hat , u. glaube ich wohl , dß .
+8-1	567-579	collationirt	_	_
+8-2	580-583	hat	_	_
+8-3	584-585	,	_	_
+8-4	586-588	u.	_	_
+8-5	589-595	glaube	_	_
+8-6	596-599	ich	_	_
+8-7	600-604	wohl	_	_
+8-8	605-606	,	_	_
+8-9	607-609	dß	_	_
+8-10	610-611	.	_	_
+
+#Text=er sie mir zum Zwecke eines C , I.L , für ein Billiges ablassen würde .
+9-1	612-614	er	_	_
+9-2	615-618	sie	_	_
+9-3	619-622	mir	_	_
+9-4	623-626	zum	_	_
+9-5	627-633	Zwecke	_	_
+9-6	634-639	eines	_	_
+9-7	640-641	C	_	_
+9-8	642-643	,	_	_
+9-9	644-647	I.L	_	_
+9-10	648-649	,	_	_
+9-11	650-653	für	_	_
+9-12	654-657	ein	_	_
+9-13	658-666	Billiges	_	_
+9-14	667-675	ablassen	_	_
+9-15	676-681	würde	_	_
+9-16	682-683	.	_	_
+
+#Text=VUebrigens sehen wir täglich der Änkunft des Vergers entgegen , von dem ich wohl Näheres über das nie aufgegebne Frfs .
+10-1	684-694	VUebrigens	_	_
+10-2	695-700	sehen	_	_
+10-3	701-704	wir	_	_
+10-4	705-712	täglich	_	_
+10-5	713-716	der	_	_
+10-6	717-724	Änkunft	_	_
+10-7	725-728	des	*[3]	PERmentioned[3]
+10-8	729-736	Vergers	*[3]	PERmentioned[3]
+10-9	737-745	entgegen	_	_
+10-10	746-747	,	_	_
+10-11	748-751	von	_	_
+10-12	752-755	dem	_	_
+10-13	756-759	ich	_	_
+10-14	760-764	wohl	_	_
+10-15	765-772	Näheres	_	_
+10-16	773-777	über	_	_
+10-17	778-781	das	_	_
+10-18	782-785	nie	_	_
+10-19	786-796	aufgegebne	_	_
+10-20	797-801	Frfs	_	_
+10-21	802-803	.	_	_
+
+#Text=Corpus erfahren werde .
+11-1	804-810	Corpus	_	_
+11-2	811-819	erfahren	_	_
+11-3	820-825	werde	_	_
+11-4	826-827	.	_	_
+
+#Text=Jeden Falls wird es gut sein , die etwaigen Beschlüsse der Akademie zu beschleunigen , damit man endlich weiß , woran man ist \; denn ich verhehle : Ihnen nicht , dß .
+12-1	828-833	Jeden	_	_
+12-2	834-839	Falls	_	_
+12-3	840-844	wird	_	_
+12-4	845-847	es	_	_
+12-5	848-851	gut	_	_
+12-6	852-856	sein	_	_
+12-7	857-858	,	_	_
+12-8	859-862	die	_	_
+12-9	863-871	etwaigen	_	_
+12-10	872-882	Beschlüsse	_	_
+12-11	883-886	der	_	_
+12-12	887-895	Akademie	*	ORGmentioned
+12-13	896-898	zu	_	_
+12-14	899-912	beschleunigen	_	_
+12-15	913-914	,	_	_
+12-16	915-920	damit	_	_
+12-17	921-924	man	_	_
+12-18	925-932	endlich	_	_
+12-19	933-937	weiß	_	_
+12-20	938-939	,	_	_
+12-21	940-945	woran	_	_
+12-22	946-949	man	_	_
+12-23	950-953	ist	_	_
+12-24	954-955	\;	_	_
+12-25	956-960	denn	_	_
+12-26	961-964	ich	_	_
+12-27	965-973	verhehle	_	_
+12-28	974-975	:	_	_
+12-29	976-981	Ihnen	_	_
+12-30	982-987	nicht	_	_
+12-31	988-989	,	_	_
+12-32	990-992	dß	_	_
+12-33	993-994	.	_	_
+
+#Text=weder Nommsen , noch ich , noch de Rossi uns ein Gewissen daraus machen würden , uns an die Franzosen anzuschließen , sobald dieselben wirklich Ernst zeigen u. annehmbare Bedingungen stellen .
+13-1	995-1000	weder	_	_
+13-2	1001-1008	Nommsen	*	PERmentioned
+13-3	1009-1010	,	_	_
+13-4	1011-1015	noch	_	_
+13-5	1016-1019	ich	_	_
+13-6	1020-1021	,	_	_
+13-7	1022-1026	noch	_	_
+13-8	1027-1029	de	*[4]	PERmentioned[4]
+13-9	1030-1035	Rossi	*[4]	PERmentioned[4]
+13-10	1036-1039	uns	_	_
+13-11	1040-1043	ein	_	_
+13-12	1044-1052	Gewissen	_	_
+13-13	1053-1059	daraus	_	_
+13-14	1060-1066	machen	_	_
+13-15	1067-1073	würden	_	_
+13-16	1074-1075	,	_	_
+13-17	1076-1079	uns	_	_
+13-18	1080-1082	an	_	_
+13-19	1083-1086	die	_	_
+13-20	1087-1096	Franzosen	_	_
+13-21	1097-1110	anzuschließen	_	_
+13-22	1111-1112	,	_	_
+13-23	1113-1119	sobald	_	_
+13-24	1120-1129	dieselben	_	_
+13-25	1130-1138	wirklich	_	_
+13-26	1139-1144	Ernst	_	_
+13-27	1145-1151	zeigen	_	_
+13-28	1152-1154	u.	_	_
+13-29	1155-1165	annehmbare	_	_
+13-30	1166-1177	Bedingungen	_	_
+13-31	1178-1185	stellen	_	_
+13-32	1186-1187	.	_	_
+
+#Text=De Rossi erinnerte mich noch neulich wieder an das Project , die Inschriften der Stadt Rom zu sammeln .
+14-1	1188-1190	De	*[5]	PERmentioned[5]
+14-2	1191-1196	Rossi	*[5]	PERmentioned[5]
+14-3	1197-1206	erinnerte	_	_
+14-4	1207-1211	mich	_	_
+14-5	1212-1216	noch	_	_
+14-6	1217-1224	neulich	_	_
+14-7	1225-1231	wieder	_	_
+14-8	1232-1234	an	_	_
+14-9	1235-1238	das	_	_
+14-10	1239-1246	Project	_	_
+14-11	1247-1248	,	_	_
+14-12	1249-1252	die	_	_
+14-13	1253-1264	Inschriften	*	OBJ
+14-14	1265-1268	der	_	_
+14-15	1269-1274	Stadt	_	_
+14-16	1275-1278	Rom	*	PLACEmentioned
+14-17	1279-1281	zu	_	_
+14-18	1282-1289	sammeln	_	_
+14-19	1290-1291	.	_	_
+
+#Text=7 Lanci geht morren nach Neapel u. wird im Namen des !
+15-1	1292-1293	7	_	_
+15-2	1294-1299	Lanci	*	PERmentioned
+15-3	1300-1304	geht	_	_
+15-4	1305-1311	morren	_	_
+15-5	1312-1316	nach	_	_
+15-6	1317-1323	Neapel	*	PLACEmentioned
+15-7	1324-1326	u.	_	_
+15-8	1327-1331	wird	_	_
+15-9	1332-1334	im	_	_
+15-10	1335-1340	Namen	_	_
+15-11	1341-1344	des	_	_
+15-12	1345-1346	!	_	_
+
+#Text=Instituts dem Grafen D. Leopoldo von 3 kl . Hoheit « a .
+16-1	1347-1356	Instituts	*	ORGmentioned
+16-2	1357-1360	dem	_	_
+16-3	1361-1367	Grafen	*[6]	PERmentioned[6]
+16-4	1368-1370	D.	*[6]	PERmentioned[6]
+16-5	1371-1379	Leopoldo	*[6]	PERmentioned[6]
+16-6	1380-1383	von	_	_
+16-7	1384-1385	3	_	_
+16-8	1386-1388	kl	_	_
+16-9	1389-1390	.	_	_
+16-10	1391-1397	Hoheit	_	_
+16-11	1398-1399	«	_	_
+16-12	1400-1401	a	_	_
+16-13	1402-1403	.	_	_
+
+#Text=» .
+17-1	1404-1405	»	_	_
+17-2	1406-1407	.	_	_
+
+#Text=oO .
+18-1	1408-1410	oO	_	_
+18-2	1411-1412	.	_	_
+
+#Text=das Diplom als \\ihrenmitglied überreichen .
+19-1	1413-1416	das	_	_
+19-2	1417-1423	Diplom	_	_
+19-3	1424-1427	als	_	_
+19-4	1428-1442	\\ihrenmitglied	_	_
+19-5	1443-1454	überreichen	_	_
+19-6	1455-1456	.	_	_
+
+#Text=- D , Burfian ist anzekommen \; muß auch wohl zum Correspondenten gemacht werden .
+20-1	1457-1458	-	_	_
+20-2	1459-1460	D	_	_
+20-3	1461-1462	,	_	_
+20-4	1463-1470	Burfian	_	_
+20-5	1471-1474	ist	_	_
+20-6	1475-1485	anzekommen	_	_
+20-7	1486-1487	\;	_	_
+20-8	1488-1491	muß	_	_
+20-9	1492-1496	auch	_	_
+20-10	1497-1501	wohl	_	_
+20-11	1502-1505	zum	_	_
+20-12	1506-1521	Correspondenten	_	_
+20-13	1522-1529	gemacht	_	_
+20-14	1530-1536	werden	_	_
+20-15	1537-1538	.	_	_
+
+#Text=-— Welcker wird heute in Florenz ankommen .
+21-1	1539-1541	-—	_	_
+21-2	1542-1549	Welcker	*	PERmentioned
+21-3	1550-1554	wird	_	_
+21-4	1555-1560	heute	_	_
+21-5	1561-1563	in	_	_
+21-6	1564-1571	Florenz	*	PLACEmentioned
+21-7	1572-1580	ankommen	_	_
+21-8	1581-1582	.	_	_
+
+#Text=- Die Institutswerke sind zur Spedition seit 2 Wochen zusammen gelegt u. warten nur auf Braun 's Tischler , die die Kisten nee
+22-1	1583-1584	-	_	_
+22-2	1585-1588	Die	_	_
+22-3	1589-1603	Institutswerke	_	_
+22-4	1604-1608	sind	_	_
+22-5	1609-1612	zur	_	_
+22-6	1613-1622	Spedition	_	_
+22-7	1623-1627	seit	_	_
+22-8	1628-1629	2	_	_
+22-9	1630-1636	Wochen	_	_
+22-10	1637-1645	zusammen	_	_
+22-11	1646-1652	gelegt	_	_
+22-12	1653-1655	u.	_	_
+22-13	1656-1662	warten	_	_
+22-14	1663-1666	nur	_	_
+22-15	1667-1670	auf	_	_
+22-16	1671-1676	Braun	*[7]	PERmentioned[7]
+22-17	1677-1679	's	*[7]	PERmentioned[7]
+22-18	1680-1688	Tischler	_	_
+22-19	1689-1690	,	_	_
+22-20	1691-1694	die	_	_
+22-21	1695-1698	die	_	_
+22-22	1699-1705	Kisten	_	_
+22-23	1706-1709	nee	_	_

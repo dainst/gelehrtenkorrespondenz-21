@@ -1,0 +1,128 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Corfu , 25. März 1837 legte \; vielleicht befaßt sich Col .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-22	Corfu	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-28	25.	*[4]	DATEletter[4]
+1-7	29-33	März	*[4]	DATEletter[4]
+1-8	34-38	1837	*[4]	DATEletter[4]
+1-9	39-44	legte	_	_
+1-10	45-46	\;	_	_
+1-11	47-57	vielleicht	_	_
+1-12	58-64	befaßt	_	_
+1-13	65-69	sich	_	_
+1-14	70-73	Col	_	_
+1-15	74-75	.	_	_
+
+#Text=Mure oder sonst ein freundlicher Engländer mit der letzteren .
+2-1	76-80	Mure	*	PERmentioned
+2-2	81-85	oder	_	_
+2-3	86-91	sonst	_	_
+2-4	92-95	ein	_	_
+2-5	96-108	freundlicher	_	_
+2-6	109-118	Engländer	_	_
+2-7	119-122	mit	_	_
+2-8	123-126	der	_	_
+2-9	127-136	letzteren	_	_
+2-10	137-138	.	_	_
+
+#Text=Was Sie Dringendstes haben , senden Sie gefälligst ein zum Dampfschiff welches am 20.sten oder ? 21.sten April abgeht nach Ancona ( Cav .
+3-1	139-142	Was	_	_
+3-2	143-146	Sie	_	_
+3-3	147-159	Dringendstes	_	_
+3-4	160-165	haben	_	_
+3-5	166-167	,	_	_
+3-6	168-174	senden	_	_
+3-7	175-178	Sie	_	_
+3-8	179-189	gefälligst	_	_
+3-9	190-193	ein	_	_
+3-10	194-197	zum	_	_
+3-11	198-209	Dampfschiff	_	_
+3-12	210-217	welches	_	_
+3-13	218-220	am	_	_
+3-14	221-228	20.sten	_	_
+3-15	229-233	oder	_	_
+3-16	234-235	?	_	_
+3-17	236-243	21.sten	*[7]	DATEmentioned|DATEmentioned[7]
+3-18	244-249	April	*[7]	DATEmentioned[7]
+3-19	250-256	abgeht	_	_
+3-20	257-261	nach	_	_
+3-21	262-268	Ancona	*	PLACEmentioned
+3-22	269-270	(	_	_
+3-23	271-274	Cav	*[9]	PERmentioned[9]
+3-24	275-276	.	*[9]	PERmentioned[9]
+
+#Text=Balaffi ) , aber nur das Dringendste , denn das Postgeld ist theuer , möglicherweise könnte ich sogar den Empfang in Griechenland verfehlen und in B a th fände ich für das Vebrige Zeit .
+4-1	277-284	Balaffi	*[9]	PERmentioned[9]
+4-2	285-286	)	_	_
+4-3	287-288	,	_	_
+4-4	289-293	aber	_	_
+4-5	294-297	nur	_	_
+4-6	298-301	das	_	_
+4-7	302-313	Dringendste	_	_
+4-8	314-315	,	_	_
+4-9	316-320	denn	_	_
+4-10	321-324	das	_	_
+4-11	325-333	Postgeld	_	_
+4-12	334-337	ist	_	_
+4-13	338-344	theuer	_	_
+4-14	345-346	,	_	_
+4-15	347-361	möglicherweise	_	_
+4-16	362-368	könnte	_	_
+4-17	369-372	ich	_	_
+4-18	373-378	sogar	_	_
+4-19	379-382	den	_	_
+4-20	383-390	Empfang	_	_
+4-21	391-393	in	_	_
+4-22	394-406	Griechenland	*	PLACEmentioned
+4-23	407-416	verfehlen	_	_
+4-24	417-420	und	_	_
+4-25	421-423	in	_	_
+4-26	424-425	B	_	_
+4-27	426-427	a	_	_
+4-28	428-430	th	_	_
+4-29	431-436	fände	_	_
+4-30	437-440	ich	_	_
+4-31	441-444	für	_	_
+4-32	445-448	das	_	_
+4-33	449-456	Vebrige	_	_
+4-34	457-461	Zeit	_	_
+4-35	462-463	.	_	_
+
+#Text=Dringend nennächsten ne ich Ihre Mittheilungen und die derfrömischen Freunde , über etwanige Familienbriefe oder Correspond .
+5-1	464-472	Dringend	_	_
+5-2	473-484	nennächsten	_	_
+5-3	485-487	ne	_	_
+5-4	488-491	ich	_	_
+5-5	492-496	Ihre	_	_
+5-6	497-510	Mittheilungen	_	_
+5-7	511-514	und	_	_
+5-8	515-518	die	_	_
+5-9	519-532	derfrömischen	_	_
+5-10	533-540	Freunde	_	_
+5-11	541-542	,	_	_
+5-12	543-547	über	_	_
+5-13	548-556	etwanige	_	_
+5-14	557-571	Familienbriefe	_	_
+5-15	572-576	oder	_	_
+5-16	577-587	Correspond	_	_
+5-17	588-589	.	_	_
+
+#Text=Grüßen Sie recht herzlich Reihe herum !
+6-1	590-596	Grüßen	_	_
+6-2	597-600	Sie	_	_
+6-3	601-606	recht	_	_
+6-4	607-615	herzlich	_	_
+6-5	616-621	Reihe	_	_
+6-6	622-627	herum	_	_
+6-7	628-629	!	_	_
+
+#Text=Der Ihrige Gerhard
+7-1	630-633	Der	_	_
+7-2	634-640	Ihrige	_	_
+7-3	641-648	Gerhard	*	PERauthor

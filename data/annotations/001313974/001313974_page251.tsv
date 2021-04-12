@@ -1,0 +1,186 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=381 Helbig an Henzen Ohne Datum .
+1-1	0-3	381	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-25	Ohne	_	_
+1-6	26-31	Datum	_	_
+1-7	32-33	.	_	_
+
+#Text=Poststempel Siena , 24. Juli 1875 8 .
+2-1	34-45	Poststempel	_	_
+2-2	46-51	Siena	*	PLACEfrom
+2-3	52-53	,	_	_
+2-4	54-57	24.	_	_
+2-5	58-62	Juli	*[1]	DATEpoststamp[1]
+2-6	63-67	1875	*[1]	DATEpoststamp[1]
+2-7	68-69	8	_	_
+2-8	70-71	.	_	_
+
+#Text=25/7 75 Postkarte Ohne Datum Lieber Herr Professor Eben bin ich im Begriff , nach Montepulciano ( festa di Poliziano ) abzureisen , wo ich Gamurrini treffen werde -— hoffentlich allein .
+3-1	72-76	25/7	*[2]	DATErecieved[2]
+3-2	77-79	75	*[2]	DATErecieved[2]
+3-3	80-89	Postkarte	_	_
+3-4	90-94	Ohne	_	_
+3-5	95-100	Datum	_	_
+3-6	101-107	Lieber	_	_
+3-7	108-112	Herr	_	_
+3-8	113-122	Professor	_	_
+3-9	123-127	Eben	_	_
+3-10	128-131	bin	_	_
+3-11	132-135	ich	_	_
+3-12	136-138	im	_	_
+3-13	139-146	Begriff	_	_
+3-14	147-148	,	_	_
+3-15	149-153	nach	_	_
+3-16	154-167	Montepulciano	*	PLACEmentioned
+3-17	168-169	(	_	_
+3-18	170-175	festa	_	_
+3-19	176-178	di	_	_
+3-20	179-188	Poliziano	_	_
+3-21	189-190	)	_	_
+3-22	191-201	abzureisen	_	_
+3-23	202-203	,	_	_
+3-24	204-206	wo	_	_
+3-25	207-210	ich	_	_
+3-26	211-220	Gamurrini	*	PERmentioned
+3-27	221-228	treffen	_	_
+3-28	229-234	werde	_	_
+3-29	235-237	-—	_	_
+3-30	238-249	hoffentlich	_	_
+3-31	250-256	allein	_	_
+3-32	257-258	.	_	_
+
+#Text=Heydemann kann die Tafel erhalten , nachdem Mariani von den darauf beigefügten Bemerkungen Notiz genommen .
+4-1	259-268	Heydemann	*	PERmentioned
+4-2	269-273	kann	_	_
+4-3	274-277	die	_	_
+4-4	278-283	Tafel	_	_
+4-5	284-292	erhalten	_	_
+4-6	293-294	,	_	_
+4-7	295-302	nachdem	_	_
+4-8	303-310	Mariani	*	PERmentioned
+4-9	311-314	von	_	_
+4-10	315-318	den	_	_
+4-11	319-325	darauf	_	_
+4-12	326-337	beigefügten	_	_
+4-13	338-349	Bemerkungen	_	_
+4-14	350-355	Notiz	_	_
+4-15	356-364	genommen	_	_
+4-16	365-366	.	_	_
+
+#Text=Die Parrocchi von Collalto und Marmoraja machen Ausgrabungen und sind zu Correspondenten geeignet .
+5-1	367-370	Die	_	_
+5-2	371-380	Parrocchi	_	_
+5-3	381-384	von	_	_
+5-4	385-393	Collalto	*	PLACEmentioned
+5-5	394-397	und	_	_
+5-6	398-407	Marmoraja	*	PLACEmentioned
+5-7	408-414	machen	_	_
+5-8	415-427	Ausgrabungen	_	_
+5-9	428-431	und	_	_
+5-10	432-436	sind	_	_
+5-11	437-439	zu	_	_
+5-12	440-455	Correspondenten	_	_
+5-13	456-464	geeignet	_	_
+5-14	465-466	.	_	_
+
+#Text=Ich möchte ihnen Bullettino Artikel als Muster für Correspondenzen überantworten .
+6-1	467-470	Ich	_	_
+6-2	471-477	möchte	_	_
+6-3	478-483	ihnen	_	_
+6-4	484-494	Bullettino	_	_
+6-5	495-502	Artikel	_	_
+6-6	503-506	als	_	_
+6-7	507-513	Muster	_	_
+6-8	514-517	für	_	_
+6-9	518-533	Correspondenzen	_	_
+6-10	534-547	überantworten	_	_
+6-11	548-549	.	_	_
+
+#Text=Am Meisten dafür geeignet wären wohl aus dem Jahre 1874 der Artikel Scavi di Chiusi von Nardi-Dei und mein Artikel in demselben Jahrgang Scavi di Chiusi ( Grab Terrosi ) .
+7-1	550-552	Am	_	_
+7-2	553-560	Meisten	_	_
+7-3	561-566	dafür	_	_
+7-4	567-575	geeignet	_	_
+7-5	576-581	wären	_	_
+7-6	582-586	wohl	_	_
+7-7	587-590	aus	_	_
+7-8	591-594	dem	_	_
+7-9	595-600	Jahre	_	_
+7-10	601-605	1874	*	DATEmentioned
+7-11	606-609	der	_	_
+7-12	610-617	Artikel	_	_
+7-13	618-623	Scavi	_	_
+7-14	624-626	di	_	_
+7-15	627-633	Chiusi	*	PLACEmentioned
+7-16	634-637	von	_	_
+7-17	638-647	Nardi-Dei	*	PERmentioned
+7-18	648-651	und	_	_
+7-19	652-656	mein	_	_
+7-20	657-664	Artikel	_	_
+7-21	665-667	in	_	_
+7-22	668-677	demselben	_	_
+7-23	678-686	Jahrgang	_	_
+7-24	687-692	Scavi	_	_
+7-25	693-695	di	_	_
+7-26	696-702	Chiusi	*	PLACEmentioned
+7-27	703-704	(	_	_
+7-28	705-709	Grab	*[3]	OBJ[3]
+7-29	710-717	Terrosi	*[3]	OBJ[3]
+7-30	718-719	)	_	_
+7-31	720-721	.	_	_
+
+#Text=Dürfte ich um zwei Exemplare der beiden Nummern bitten ?
+8-1	722-728	Dürfte	_	_
+8-2	729-732	ich	_	_
+8-3	733-735	um	_	_
+8-4	736-740	zwei	_	_
+8-5	741-750	Exemplare	_	_
+8-6	751-754	der	_	_
+8-7	755-761	beiden	_	_
+8-8	762-769	Nummern	_	_
+8-9	770-776	bitten	_	_
+8-10	777-778	?	_	_
+
+#Text=Danke sehr für die Angabe des Gewichts des phönikischen Staters .
+9-1	779-784	Danke	_	_
+9-2	785-789	sehr	_	_
+9-3	790-793	für	_	_
+9-4	794-797	die	_	_
+9-5	798-804	Angabe	_	_
+9-6	805-808	des	_	_
+9-7	809-817	Gewichts	_	_
+9-8	818-821	des	_	_
+9-9	822-834	phönikischen	*[4]	OBJ[4]
+9-10	835-842	Staters	*[4]	OBJ[4]
+9-11	843-844	.	_	_
+
+#Text=Doch sind die gallischen Goldmünzen in einem anderen leichteren Fuße gepräst , den ich in Rom constatiren muß .
+10-1	845-849	Doch	_	_
+10-2	850-854	sind	_	_
+10-3	855-858	die	_	_
+10-4	859-869	gallischen	*[5]	OBJ[5]
+10-5	870-880	Goldmünzen	*[5]	OBJ[5]
+10-6	881-883	in	_	_
+10-7	884-889	einem	_	_
+10-8	890-897	anderen	_	_
+10-9	898-908	leichteren	_	_
+10-10	909-913	Fuße	_	_
+10-11	914-921	gepräst	_	_
+10-12	922-923	,	_	_
+10-13	924-927	den	_	_
+10-14	928-931	ich	_	_
+10-15	932-934	in	_	_
+10-16	935-938	Rom	*	PLACEmentioned
+10-17	939-950	constatiren	_	_
+10-18	951-954	muß	_	_
+10-19	955-956	.	_	_
+
+#Text=Ihr Helbig
+11-1	957-960	Ihr	_	_
+11-2	961-967	Helbig	*	PERauthor

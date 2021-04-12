@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2 Gerhard an Braun Berlin 24/XI/1835 H. Dr. Braun Nust amemı WuLhnel Berlin 24 Nov .
+1-1	0-1	2	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-36	24/XI/1835	*	DATEletter
+1-7	37-39	H.	_	_
+1-8	40-43	Dr.	_	_
+1-9	44-49	Braun	*	PERaddressee
+1-10	50-54	Nust	_	_
+1-11	55-60	amemı	_	_
+1-12	61-68	WuLhnel	_	_
+1-13	69-75	Berlin	*	PLACEfrom
+1-14	76-78	24	*[7]	DATEletter[7]
+1-15	79-82	Nov	*[7]	DATEletter[7]
+1-16	83-84	.	*[7]	DATEletter[7]
+
+#Text=35 Ihr Brief 1 .
+2-1	85-87	35	*[7]	DATEletter[7]
+2-2	88-91	Ihr	_	_
+2-3	92-97	Brief	_	_
+2-4	98-99	1	_	_
+2-5	100-101	.	_	_
+
+#Text=Fr. vom 8 Nov .
+3-1	102-105	Fr.	_	_
+3-2	106-109	vom	_	_
+3-3	110-111	8	*[8]	DATEmentioned[8]
+3-4	112-115	Nov	*[8]	DATEmentioned[8]
+3-5	116-117	.	*[8]	DATEmentioned[8]
+
+#Text=enthielt , wie gewöhnlich , viel Dankenswerthes und wie selten , keine Odiosen .
+4-1	118-126	enthielt	_	_
+4-2	127-128	,	_	_
+4-3	129-132	wie	_	_
+4-4	133-143	gewöhnlich	_	_
+4-5	144-145	,	_	_
+4-6	146-150	viel	_	_
+4-7	151-165	Dankenswerthes	_	_
+4-8	166-169	und	_	_
+4-9	170-173	wie	_	_
+4-10	174-180	selten	_	_
+4-11	181-182	,	_	_
+4-12	183-188	keine	_	_
+4-13	189-196	Odiosen	_	_
+4-14	197-198	.	_	_
+
+#Text=Die Ausgrabungsextrakte werde ich redigiren und Theils für das Int.Bl .
+5-1	199-202	Die	_	_
+5-2	203-222	Ausgrabungsextrakte	_	_
+5-3	223-228	werde	_	_
+5-4	229-232	ich	_	_
+5-5	233-242	redigiren	_	_
+5-6	243-246	und	_	_
+5-7	247-253	Theils	_	_
+5-8	254-257	für	_	_
+5-9	258-261	das	_	_
+5-10	262-268	Int.Bl	_	_
+5-11	269-270	.	_	_
+
+#Text=gebrauchen , Theils , insofern ( ich die Volcenter alten Neuigkeiten bereits selbst aus dem Bull .
+6-1	271-281	gebrauchen	_	_
+6-2	282-283	,	_	_
+6-3	284-290	Theils	_	_
+6-4	291-292	,	_	_
+6-5	293-301	insofern	_	_
+6-6	302-303	(	_	_
+6-7	304-307	ich	_	_
+6-8	308-311	die	_	_
+6-9	312-321	Volcenter	_	_
+6-10	322-327	alten	_	_
+6-11	328-339	Neuigkeiten	_	_
+6-12	340-347	bereits	_	_
+6-13	348-354	selbst	_	_
+6-14	355-358	aus	_	_
+6-15	359-362	dem	_	_
+6-16	363-367	Bull	_	_
+6-17	368-369	.	_	_
+
+#Text=auszog ) an Sehen schicken .
+7-1	370-376	auszog	_	_
+7-2	377-378	)	_	_
+7-3	379-381	an	_	_
+7-4	382-387	Sehen	_	_
+7-5	388-396	schicken	_	_
+7-6	397-398	.	_	_
+
+#Text=Da Kramer 's Autorität in den igsten Dingen nicht über die Geltung eines Berichterstellers zu stehn scheint ( etwa gleich mit dem was Zunpt und a. Reisende gleichzeitg erzählen können ) , so mildere ich die persönl .
+8-1	399-401	Da	_	_
+8-2	402-408	Kramer	*	PERmentioned
+8-3	409-411	's	_	_
+8-4	412-421	Autorität	_	_
+8-5	422-424	in	_	_
+8-6	425-428	den	_	_
+8-7	429-435	igsten	_	_
+8-8	436-442	Dingen	_	_
+8-9	443-448	nicht	_	_
+8-10	449-453	über	_	_
+8-11	454-457	die	_	_
+8-12	458-465	Geltung	_	_
+8-13	466-471	eines	_	_
+8-14	472-489	Berichterstellers	_	_
+8-15	490-492	zu	_	_
+8-16	493-498	stehn	_	_
+8-17	499-506	scheint	_	_
+8-18	507-508	(	_	_
+8-19	509-513	etwa	_	_
+8-20	514-520	gleich	_	_
+8-21	521-524	mit	_	_
+8-22	525-528	dem	_	_
+8-23	529-532	was	_	_
+8-24	533-538	Zunpt	*	PERmentioned
+8-25	539-542	und	_	_
+8-26	543-545	a.	_	_
+8-27	546-554	Reisende	_	_
+8-28	555-566	gleichzeitg	_	_
+8-29	567-575	erzählen	_	_
+8-30	576-582	können	_	_
+8-31	583-584	)	_	_
+8-32	585-586	,	_	_
+8-33	587-589	so	_	_
+8-34	590-597	mildere	_	_
+8-35	598-601	ich	_	_
+8-36	602-605	die	_	_
+8-37	606-613	persönl	_	_
+8-38	614-615	.	_	_
+
+#Text=Hinweisung für unsern guten Freund ein wenig , indem dergleichen Berichte entweder von dem Beschauer selbst in 1.ster Person ab mur mit einer allg . Verweisung auf ihn , meines Erachtens , gegeben werden müssen .
+9-1	616-626	Hinweisung	_	_
+9-2	627-630	für	_	_
+9-3	631-637	unsern	_	_
+9-4	638-643	guten	_	_
+9-5	644-650	Freund	_	_
+9-6	651-654	ein	_	_
+9-7	655-660	wenig	_	_
+9-8	661-662	,	_	_
+9-9	663-668	indem	_	_
+9-10	669-680	dergleichen	_	_
+9-11	681-689	Berichte	_	_
+9-12	690-698	entweder	_	_
+9-13	699-702	von	_	_
+9-14	703-706	dem	_	_
+9-15	707-716	Beschauer	_	_
+9-16	717-723	selbst	_	_
+9-17	724-726	in	_	_
+9-18	727-733	1.ster	_	_
+9-19	734-740	Person	_	_
+9-20	741-743	ab	_	_
+9-21	744-747	mur	_	_
+9-22	748-751	mit	_	_
+9-23	752-757	einer	_	_
+9-24	758-762	allg	_	_
+9-25	763-764	.	_	_
+9-26	765-775	Verweisung	_	_
+9-27	776-779	auf	_	_
+9-28	780-783	ihn	_	_
+9-29	784-785	,	_	_
+9-30	786-792	meines	_	_
+9-31	793-802	Erachtens	_	_
+9-32	803-804	,	_	_
+9-33	805-812	gegeben	_	_
+9-34	813-819	werden	_	_
+9-35	820-826	müssen	_	_
+9-36	827-828	.	_	_
+
+#Text=Arm zu sein an Duamzsuhn über athenisches , ist heut zu Tage eyne Schmach die kein anständiger Redakteur an sich leiden darf .
+10-1	829-832	Arm	_	_
+10-2	833-835	zu	_	_
+10-3	836-840	sein	_	_
+10-4	841-843	an	_	_
+10-5	844-853	Duamzsuhn	_	_
+10-6	854-858	über	_	_
+10-7	859-870	athenisches	_	_
+10-8	871-872	,	_	_
+10-9	873-876	ist	_	_
+10-10	877-881	heut	_	_
+10-11	882-884	zu	_	_
+10-12	885-889	Tage	_	_
+10-13	890-894	eyne	_	_
+10-14	895-902	Schmach	_	_
+10-15	903-906	die	_	_
+10-16	907-911	kein	_	_
+10-17	912-923	anständiger	_	_
+10-18	924-933	Redakteur	_	_
+10-19	934-936	an	_	_
+10-20	937-941	sich	_	_
+10-21	942-948	leiden	_	_
+10-22	949-953	darf	_	_
+10-23	954-955	.	_	_
+
+#Text=Wegen der Cjiste ist zunächst also nichts zu machen .
+11-1	956-961	Wegen	_	_
+11-2	962-965	der	_	_
+11-3	966-972	Cjiste	_	_
+11-4	973-976	ist	_	_
+11-5	977-985	zunächst	_	_
+11-6	986-990	also	_	_
+11-7	991-997	nichts	_	_
+11-8	998-1000	zu	_	_
+11-9	1001-1007	machen	_	_
+11-10	1008-1009	.	_	_
+
+#Text=- Ein positiver Anlaß für den .- .. .... - , Witz über die Capitol .
+12-1	1010-1011	-	_	_
+12-2	1012-1015	Ein	_	_
+12-3	1016-1025	positiver	_	_
+12-4	1026-1031	Anlaß	_	_
+12-5	1032-1035	für	_	_
+12-6	1036-1039	den	_	_
+12-7	1040-1042	.-	_	_
+12-8	1043-1045	..	_	_
+12-9	1046-1050	....	_	_
+12-10	1051-1052	-	_	_
+12-11	1053-1054	,	_	_
+12-12	1055-1059	Witz	_	_
+12-13	1060-1064	über	_	_
+12-14	1065-1068	die	_	_
+12-15	1069-1076	Capitol	_	_
+12-16	1077-1078	.	_	_
+
+#Text=Gänse kenne ich nicht .
+13-1	1079-1084	Gänse	_	_
+13-2	1085-1090	kenne	_	_
+13-3	1091-1094	ich	_	_
+13-4	1095-1100	nicht	_	_
+13-5	1101-1102	.	_	_
+
+#Text=Daß ich in so nützlichen Wagstücken wie den Fräisabguß Sie nicht so liegen lasse , so weit ich helfen kann , versteht sich von selbst \; hier aber den Abguß sofort unterzubringen , ist mir ganz
+14-1	1103-1106	Daß	_	_
+14-2	1107-1110	ich	_	_
+14-3	1111-1113	in	_	_
+14-4	1114-1116	so	_	_
+14-5	1117-1127	nützlichen	_	_
+14-6	1128-1138	Wagstücken	_	_
+14-7	1139-1142	wie	_	_
+14-8	1143-1146	den	_	_
+14-9	1147-1157	Fräisabguß	_	_
+14-10	1158-1161	Sie	_	_
+14-11	1162-1167	nicht	_	_
+14-12	1168-1170	so	_	_
+14-13	1171-1177	liegen	_	_
+14-14	1178-1183	lasse	_	_
+14-15	1184-1185	,	_	_
+14-16	1186-1188	so	_	_
+14-17	1189-1193	weit	_	_
+14-18	1194-1197	ich	_	_
+14-19	1198-1204	helfen	_	_
+14-20	1205-1209	kann	_	_
+14-21	1210-1211	,	_	_
+14-22	1212-1220	versteht	_	_
+14-23	1221-1225	sich	_	_
+14-24	1226-1229	von	_	_
+14-25	1230-1236	selbst	_	_
+14-26	1237-1238	\;	_	_
+14-27	1239-1243	hier	_	_
+14-28	1244-1248	aber	_	_
+14-29	1249-1252	den	_	_
+14-30	1253-1258	Abguß	_	_
+14-31	1259-1265	sofort	_	_
+14-32	1266-1280	unterzubringen	_	_
+14-33	1281-1282	,	_	_
+14-34	1283-1286	ist	_	_
+14-35	1287-1290	mir	_	_
+14-36	1291-1295	ganz	_	_

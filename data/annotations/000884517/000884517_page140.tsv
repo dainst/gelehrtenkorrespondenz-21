@@ -1,0 +1,205 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=175 Gerhard an Braun Berlin , 15. Mai 1845 A. d . Dir .
+1-1	0-3	175	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	15.	*[1]	DATEletter[1]
+1-8	34-37	Mai	*[1]	DATEletter[1]
+1-9	38-42	1845	*[1]	DATEletter[1]
+1-10	43-45	A.	_	_
+1-11	46-47	d	_	_
+1-12	48-49	.	_	_
+1-13	50-53	Dir	_	_
+1-14	54-55	.	_	_
+
+#Text=g . 26/V 45 r . 26/V 45 Berlin 15 Mai Mein theurer Freund .
+2-1	56-57	g	_	_
+2-2	58-59	.	_	_
+2-3	60-64	26/V	*[2]	DATErecieved[2]
+2-4	65-67	45	*[2]	DATErecieved[2]
+2-5	68-69	r	_	_
+2-6	70-71	.	_	_
+2-7	72-76	26/V	*[3]	DATEanswered[3]
+2-8	77-79	45	*[3]	DATEanswered[3]
+2-9	80-86	Berlin	*	PLACEfrom
+2-10	87-89	15	*[4]	DATEletter[4]
+2-11	90-93	Mai	*[4]	DATEletter[4]
+2-12	94-98	Mein	_	_
+2-13	99-106	theurer	_	_
+2-14	107-113	Freund	_	_
+2-15	114-115	.	_	_
+
+#Text=Ihre beiden Briefe voll Hiobsposten sind glücklich angelangt \; die vielfache Noth thut mir von Herzen Leid .
+3-1	116-120	Ihre	_	_
+3-2	121-127	beiden	_	_
+3-3	128-134	Briefe	_	_
+3-4	135-139	voll	_	_
+3-5	140-151	Hiobsposten	_	_
+3-6	152-156	sind	_	_
+3-7	157-166	glücklich	_	_
+3-8	167-176	angelangt	_	_
+3-9	177-178	\;	_	_
+3-10	179-182	die	_	_
+3-11	183-192	vielfache	_	_
+3-12	193-197	Noth	_	_
+3-13	198-202	thut	_	_
+3-14	203-206	mir	_	_
+3-15	207-210	von	_	_
+3-16	211-217	Herzen	_	_
+3-17	218-222	Leid	_	_
+3-18	223-224	.	_	_
+
+#Text=Wie viel mag es auch bei Vollards und bei dem Prinzen geben \| !
+4-1	225-228	Wie	_	_
+4-2	229-233	viel	_	_
+4-3	234-237	mag	_	_
+4-4	238-240	es	_	_
+4-5	241-245	auch	_	_
+4-6	246-249	bei	_	_
+4-7	250-258	Vollards	*	PERmentioned
+4-8	259-262	und	_	_
+4-9	263-266	bei	_	_
+4-10	267-270	dem	_	_
+4-11	271-278	Prinzen	_	_
+4-12	279-284	geben	_	_
+4-13	285-286	\|	_	_
+4-14	287-288	!	_	_
+
+#Text=Ihr in der Kürze praktischer 7 % .
+5-1	289-292	Ihr	_	_
+5-2	293-295	in	_	_
+5-3	296-299	der	_	_
+5-4	300-305	Kürze	_	_
+5-5	306-317	praktischer	_	_
+5-6	318-319	7	_	_
+5-7	320-321	%	_	_
+5-8	322-323	.	_	_
+
+#Text=meine Spiegel betreffend ist sehr dankenswerth .
+6-1	324-329	meine	_	_
+6-2	330-337	Spiegel	_	_
+6-3	338-348	betreffend	_	_
+6-4	349-352	ist	_	_
+6-5	353-357	sehr	_	_
+6-6	358-370	dankenswerth	_	_
+6-7	371-372	.	_	_
+
+#Text=Endlich hat Dr. Gelbke einkassirt \; einen 500 rt Beutel zu vertheilen ( die Kasse hatte eine Zahlung für mich damit verbunden ) machte Noth bis ich ihn für 1/2 rt Schaden in Kassenscheine umsetzte \; diesen kleinen Schaden habe ich vertheilt und lege nun die Quittungen bei über 333.20 und 66 rt .
+7-1	373-380	Endlich	_	_
+7-2	381-384	hat	_	_
+7-3	385-388	Dr.	*[5]	PERmentioned[5]
+7-4	389-395	Gelbke	*[5]	PERmentioned[5]
+7-5	396-406	einkassirt	_	_
+7-6	407-408	\;	_	_
+7-7	409-414	einen	_	_
+7-8	415-418	500	_	_
+7-9	419-421	rt	_	_
+7-10	422-428	Beutel	_	_
+7-11	429-431	zu	_	_
+7-12	432-442	vertheilen	_	_
+7-13	443-444	(	_	_
+7-14	445-448	die	_	_
+7-15	449-454	Kasse	_	_
+7-16	455-460	hatte	_	_
+7-17	461-465	eine	_	_
+7-18	466-473	Zahlung	_	_
+7-19	474-477	für	_	_
+7-20	478-482	mich	_	_
+7-21	483-488	damit	_	_
+7-22	489-498	verbunden	_	_
+7-23	499-500	)	_	_
+7-24	501-507	machte	_	_
+7-25	508-512	Noth	_	_
+7-26	513-516	bis	_	_
+7-27	517-520	ich	_	_
+7-28	521-524	ihn	_	_
+7-29	525-528	für	_	_
+7-30	529-532	1/2	_	_
+7-31	533-535	rt	_	_
+7-32	536-543	Schaden	_	_
+7-33	544-546	in	_	_
+7-34	547-560	Kassenscheine	_	_
+7-35	561-569	umsetzte	_	_
+7-36	570-571	\;	_	_
+7-37	572-578	diesen	_	_
+7-38	579-586	kleinen	_	_
+7-39	587-594	Schaden	_	_
+7-40	595-599	habe	_	_
+7-41	600-603	ich	_	_
+7-42	604-613	vertheilt	_	_
+7-43	614-617	und	_	_
+7-44	618-622	lege	_	_
+7-45	623-626	nun	_	_
+7-46	627-630	die	_	_
+7-47	631-641	Quittungen	_	_
+7-48	642-645	bei	_	_
+7-49	646-650	über	_	_
+7-50	651-657	333.20	_	_
+7-51	658-661	und	_	_
+7-52	662-664	66	_	_
+7-53	665-667	rt	_	_
+7-54	668-669	.	_	_
+
+#Text=Meine Frau denkt nach Mitte Juni auf 5 Wochen nach Elgersburg zu gehn \; ich gegen Mitte August sie in Frankfurt zu finden .
+8-1	670-675	Meine	_	_
+8-2	676-680	Frau	_	_
+8-3	681-686	denkt	_	_
+8-4	687-691	nach	_	_
+8-5	692-697	Mitte	*[6]	DATEmentioned[6]
+8-6	698-702	Juni	*[6]	DATEmentioned[6]
+8-7	703-706	auf	_	_
+8-8	707-708	5	_	_
+8-9	709-715	Wochen	_	_
+8-10	716-720	nach	_	_
+8-11	721-731	Elgersburg	*	PLACEmentioned
+8-12	732-734	zu	_	_
+8-13	735-739	gehn	_	_
+8-14	740-741	\;	_	_
+8-15	742-745	ich	_	_
+8-16	746-751	gegen	_	_
+8-17	752-757	Mitte	*[7]	DATEmentioned[7]
+8-18	758-764	August	*[7]	DATEmentioned[7]
+8-19	765-768	sie	_	_
+8-20	769-771	in	_	_
+8-21	772-781	Frankfurt	*	PLACEmentioned
+8-22	782-784	zu	_	_
+8-23	785-791	finden	_	_
+8-24	792-793	.	_	_
+
+#Text=An eine Möglichkeit italienischer Reise denke wir noch .
+9-1	794-796	An	_	_
+9-2	797-801	eine	_	_
+9-3	802-813	Möglichkeit	_	_
+9-4	814-827	italienischer	_	_
+9-5	828-833	Reise	_	_
+9-6	834-839	denke	_	_
+9-7	840-843	wir	_	_
+9-8	844-848	noch	_	_
+9-9	849-850	.	_	_
+
+#Text=Der Minister würde nichts dagegen haben .
+10-1	851-854	Der	_	_
+10-2	855-863	Minister	*	PERmentioned
+10-3	864-869	würde	_	_
+10-4	870-876	nichts	_	_
+10-5	877-884	dagegen	_	_
+10-6	885-890	haben	_	_
+10-7	891-892	.	_	_
+
+#Text=Ihre epigraphischen Notizen werde ich discret zu beherzigen wissen .
+11-1	893-897	Ihre	_	_
+11-2	898-912	epigraphischen	*	MISC
+11-3	913-920	Notizen	_	_
+11-4	921-926	werde	_	_
+11-5	927-930	ich	_	_
+11-6	931-938	discret	_	_
+11-7	939-941	zu	_	_
+11-8	942-952	beherzigen	_	_
+11-9	953-959	wissen	_	_
+11-10	960-961	.	_	_

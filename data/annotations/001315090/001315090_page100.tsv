@@ -1,0 +1,127 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 2. Juli 1873 2 Juli 1873 Lieber Freund Hierbei der vollzogene Etat für 1873 in Abschrift den ich beizulegen versäunte .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	2.	*[1]	DATEletter[1]
+1-7	30-34	Juli	*[1]	DATEletter[1]
+1-8	35-39	1873	*[1]	DATEletter[1]
+1-9	40-41	2	*[2]	DATEletter[2]
+1-10	42-46	Juli	*[2]	DATEletter[2]
+1-11	47-51	1873	*[2]	DATEletter[2]
+1-12	52-58	Lieber	_	_
+1-13	59-65	Freund	_	_
+1-14	66-73	Hierbei	_	_
+1-15	74-77	der	_	_
+1-16	78-88	vollzogene	_	_
+1-17	89-93	Etat	_	_
+1-18	94-97	für	_	_
+1-19	98-102	1873	*	DATEmentioned
+1-20	103-105	in	_	_
+1-21	106-115	Abschrift	_	_
+1-22	116-119	den	_	_
+1-23	120-123	ich	_	_
+1-24	124-134	beizulegen	_	_
+1-25	135-144	versäunte	_	_
+1-26	145-146	.	_	_
+
+#Text=Ihr RL .
+2-1	147-150	Ihr	_	_
+2-2	151-153	RL	*[3]	PERauthor[3]
+2-3	154-155	.	_	_
+
+#Text=Schrieb ich Ihnen , daß die Central Direktion außer den 250 Fr. für das Medaillon auch 800 r für das Sarkophagwerk des Pr .
+3-1	156-163	Schrieb	_	_
+3-2	164-167	ich	_	_
+3-3	168-173	Ihnen	_	_
+3-4	174-175	,	_	_
+3-5	176-179	daß	_	_
+3-6	180-183	die	_	_
+3-7	184-191	Central	*[4]	ORGmentioned[4]
+3-8	192-201	Direktion	*[4]	ORGmentioned[4]
+3-9	202-207	außer	_	_
+3-10	208-211	den	_	_
+3-11	212-215	250	_	_
+3-12	216-219	Fr.	_	_
+3-13	220-223	für	_	_
+3-14	224-227	das	_	_
+3-15	228-237	Medaillon	_	_
+3-16	238-242	auch	_	_
+3-17	243-246	800	_	_
+3-18	247-248	r	_	_
+3-19	249-252	für	_	_
+3-20	253-256	das	_	_
+3-21	257-270	Sarkophagwerk	_	_
+3-22	271-274	des	_	_
+3-23	275-277	Pr	_	_
+3-24	278-279	.	_	_
+
+#Text=Matz aus dem Reservefonds bewilligt hat , die er von Asher erheben wird .
+4-1	280-284	Matz	*	PERmentioned
+4-2	285-288	aus	_	_
+4-3	289-292	dem	_	_
+4-4	293-305	Reservefonds	_	_
+4-5	306-315	bewilligt	_	_
+4-6	316-319	hat	_	_
+4-7	320-321	,	_	_
+4-8	322-325	die	_	_
+4-9	326-328	er	_	_
+4-10	329-332	von	_	_
+4-11	333-338	Asher	*	PERmentioned
+4-12	339-346	erheben	_	_
+4-13	347-351	wird	_	_
+4-14	352-353	.	_	_
+
+#Text=Ich erfahre so eben von Mommsen , daß Sie bereits Ihre Briefe nach Florenz adressiert zu erhalten wünschen , und öffne daher den Brief nochmals , um Ihnen zu sagen , daß ich die Abschrift des Etats nun einfach hier behalten und Ihnen hier übergeben werde .
+5-1	354-357	Ich	_	_
+5-2	358-365	erfahre	_	_
+5-3	366-368	so	_	_
+5-4	369-373	eben	_	_
+5-5	374-377	von	_	_
+5-6	378-385	Mommsen	*	PERmentioned
+5-7	386-387	,	_	_
+5-8	388-391	daß	_	_
+5-9	392-395	Sie	_	_
+5-10	396-403	bereits	_	_
+5-11	404-408	Ihre	_	_
+5-12	409-415	Briefe	_	_
+5-13	416-420	nach	_	_
+5-14	421-428	Florenz	*	PLACEmentioned
+5-15	429-439	adressiert	_	_
+5-16	440-442	zu	_	_
+5-17	443-451	erhalten	_	_
+5-18	452-460	wünschen	_	_
+5-19	461-462	,	_	_
+5-20	463-466	und	_	_
+5-21	467-472	öffne	_	_
+5-22	473-478	daher	_	_
+5-23	479-482	den	_	_
+5-24	483-488	Brief	_	_
+5-25	489-497	nochmals	_	_
+5-26	498-499	,	_	_
+5-27	500-502	um	_	_
+5-28	503-508	Ihnen	_	_
+5-29	509-511	zu	_	_
+5-30	512-517	sagen	_	_
+5-31	518-519	,	_	_
+5-32	520-523	daß	_	_
+5-33	524-527	ich	_	_
+5-34	528-531	die	_	_
+5-35	532-541	Abschrift	_	_
+5-36	542-545	des	_	_
+5-37	546-551	Etats	_	_
+5-38	552-555	nun	_	_
+5-39	556-563	einfach	_	_
+5-40	564-568	hier	_	_
+5-41	569-577	behalten	_	_
+5-42	578-581	und	_	_
+5-43	582-587	Ihnen	_	_
+5-44	588-592	hier	_	_
+5-45	593-602	übergeben	_	_
+5-46	603-608	werde	_	_
+5-47	609-610	.	_	_

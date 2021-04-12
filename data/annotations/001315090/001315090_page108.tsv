@@ -1,0 +1,112 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=298 Lepsius an Henzen Berlin , 2. November 1873 resrechnung wieder beilegen würden .
+1-1	0-3	298	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	2.	*[3]	DATEletter[3]
+1-8	34-42	November	*[3]	DATEletter[3]
+1-9	43-47	1873	*[3]	DATEletter[3]
+1-10	48-59	resrechnung	_	_
+1-11	60-66	wieder	_	_
+1-12	67-75	beilegen	_	_
+1-13	76-82	würden	_	_
+1-14	83-84	.	_	_
+
+#Text=Ich bin begierig zu hören , ob Helbig nun befriedigt zurückgekehrt ist .
+2-1	85-88	Ich	_	_
+2-2	89-92	bin	_	_
+2-3	93-101	begierig	_	_
+2-4	102-104	zu	_	_
+2-5	105-110	hören	_	_
+2-6	111-112	,	_	_
+2-7	113-115	ob	_	_
+2-8	116-122	Helbig	*	PERmentioned
+2-9	123-126	nun	_	_
+2-10	127-137	befriedigt	_	_
+2-11	138-151	zurückgekehrt	_	_
+2-12	152-155	ist	_	_
+2-13	156-157	.	_	_
+
+#Text=Übermorgen feiern wir Olshausens Jubiläum , Universität und Akademie Adressen , außerdem eine Anzahl Freunde , ein Ehrengeschenk , 3 golden und silberne Thaler von Werth ( 250 r ) .
+3-1	158-168	Übermorgen	_	_
+3-2	169-175	feiern	_	_
+3-3	176-179	wir	_	_
+3-4	180-190	Olshausens	*	PERmentioned
+3-5	191-199	Jubiläum	_	_
+3-6	200-201	,	_	_
+3-7	202-213	Universität	*	ORGmentioned
+3-8	214-217	und	_	_
+3-9	218-226	Akademie	*	ORGmentioned
+3-10	227-235	Adressen	_	_
+3-11	236-237	,	_	_
+3-12	238-246	außerdem	_	_
+3-13	247-251	eine	_	_
+3-14	252-258	Anzahl	_	_
+3-15	259-266	Freunde	_	_
+3-16	267-268	,	_	_
+3-17	269-272	ein	_	_
+3-18	273-286	Ehrengeschenk	_	_
+3-19	287-288	,	_	_
+3-20	289-290	3	_	_
+3-21	291-297	golden	_	_
+3-22	298-301	und	_	_
+3-23	302-310	silberne	_	_
+3-24	311-317	Thaler	_	_
+3-25	318-321	von	_	_
+3-26	322-327	Werth	_	_
+3-27	328-329	(	_	_
+3-28	330-333	250	_	_
+3-29	334-335	r	_	_
+3-30	336-337	)	_	_
+3-31	338-339	.	_	_
+
+#Text=Er wird aber den Tag verreisen .
+4-1	340-342	Er	_	_
+4-2	343-347	wird	_	_
+4-3	348-352	aber	_	_
+4-4	353-356	den	_	_
+4-5	357-360	Tag	_	_
+4-6	361-370	verreisen	_	_
+4-7	371-372	.	_	_
+
+#Text=Sie kennen ihn ja wohl auch näher wenn ich nicht irre .
+5-1	373-376	Sie	_	_
+5-2	377-383	kennen	_	_
+5-3	384-387	ihn	_	_
+5-4	388-390	ja	_	_
+5-5	391-395	wohl	_	_
+5-6	396-400	auch	_	_
+5-7	401-406	näher	_	_
+5-8	407-411	wenn	_	_
+5-9	412-415	ich	_	_
+5-10	416-421	nicht	_	_
+5-11	422-426	irre	_	_
+5-12	427-428	.	_	_
+
+#Text=Ihm zu schreiben wäre noch Gelegenheit zum 29. November , Datum seines Doktordiplons .
+6-1	429-432	Ihm	_	_
+6-2	433-435	zu	_	_
+6-3	436-445	schreiben	_	_
+6-4	446-450	wäre	_	_
+6-5	451-455	noch	_	_
+6-6	456-467	Gelegenheit	_	_
+6-7	468-471	zum	_	_
+6-8	472-475	29.	*[4]	DATEmentioned[4]
+6-9	476-484	November	*[4]	DATEmentioned[4]
+6-10	485-486	,	_	_
+6-11	487-492	Datum	_	_
+6-12	493-499	seines	_	_
+6-13	500-513	Doktordiplons	_	_
+6-14	514-515	.	_	_
+
+#Text=Herzlichen Gruß R Lepsius
+7-1	516-526	Herzlichen	_	_
+7-2	527-531	Gruß	_	_
+7-3	532-533	R	*[5]	PERauthor[5]
+7-4	534-541	Lepsius	*[5]	PERauthor[5]

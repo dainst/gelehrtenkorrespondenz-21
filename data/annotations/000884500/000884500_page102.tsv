@@ -1,0 +1,107 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 15. Mai 1838 Großherzog von Weimar in Rom kaufte ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	15.	*[4]	DATEletter[4]
+1-7	30-33	Mai	*[4]	DATEletter[4]
+1-8	34-38	1838	*[4]	DATEletter[4]
+1-9	39-49	Großherzog	*[5]	PERmentioned[5]
+1-10	50-53	von	*[5]	PERmentioned[5]
+1-11	54-60	Weimar	*[5]|*[6]	PERmentioned[5]|PLACEmentioned[6]
+1-12	61-63	in	_	_
+1-13	64-67	Rom	*	PLACEmentioned
+1-14	68-74	kaufte	_	_
+1-15	75-76	?	_	_
+
+#Text=Sie schrieben mir damals davon \; nun ich die Zeichnung sehe finde ich dieselbe die ich schon in einem alten Kupferstich besitze .
+2-1	77-80	Sie	_	_
+2-2	81-90	schrieben	_	_
+2-3	91-94	mir	_	_
+2-4	95-101	damals	_	_
+2-5	102-107	davon	_	_
+2-6	108-109	\;	_	_
+2-7	110-113	nun	_	_
+2-8	114-117	ich	_	_
+2-9	118-121	die	_	_
+2-10	122-131	Zeichnung	_	_
+2-11	132-136	sehe	_	_
+2-12	137-142	finde	_	_
+2-13	143-146	ich	_	_
+2-14	147-155	dieselbe	_	_
+2-15	156-159	die	_	_
+2-16	160-163	ich	_	_
+2-17	164-169	schon	_	_
+2-18	170-172	in	_	_
+2-19	173-178	einem	_	_
+2-20	179-184	alten	_	_
+2-21	185-196	Kupferstich	_	_
+2-22	197-204	besitze	_	_
+2-23	205-206	.	_	_
+
+#Text=- Reise ich , so denke ich über Weimar nach Bonn zu gehn \; es thäte mir sehr Noth diese luft zu ändern .
+3-1	207-208	-	_	_
+3-2	209-214	Reise	_	_
+3-3	215-218	ich	_	_
+3-4	219-220	,	_	_
+3-5	221-223	so	_	_
+3-6	224-229	denke	_	_
+3-7	230-233	ich	_	_
+3-8	234-238	über	_	_
+3-9	239-245	Weimar	*	PLACEmentioned
+3-10	246-250	nach	_	_
+3-11	251-255	Bonn	*	PLACEmentioned
+3-12	256-258	zu	_	_
+3-13	259-263	gehn	_	_
+3-14	264-265	\;	_	_
+3-15	266-268	es	_	_
+3-16	269-274	thäte	_	_
+3-17	275-278	mir	_	_
+3-18	279-283	sehr	_	_
+3-19	284-288	Noth	_	_
+3-20	289-294	diese	_	_
+3-21	295-299	luft	_	_
+3-22	300-302	zu	_	_
+3-23	303-309	ändern	_	_
+3-24	310-311	.	_	_
+
+#Text=Gott befohlen \| !
+4-1	312-316	Gott	_	_
+4-2	317-325	befohlen	_	_
+4-3	326-327	\|	_	_
+4-4	328-329	!	_	_
+
+#Text=Ihr Gerhard Liphart fragt wo seine Gemmenabdrücke bleiben .
+5-1	330-333	Ihr	_	_
+5-2	334-341	Gerhard	*	PERauthor
+5-3	342-349	Liphart	*	PERmentioned
+5-4	350-355	fragt	_	_
+5-5	356-358	wo	_	_
+5-6	359-364	seine	_	_
+5-7	365-379	Gemmenabdrücke	_	_
+5-8	380-387	bleiben	_	_
+5-9	388-389	.	_	_
+
+#Text=Bekomme ich auch einen Rosenkranz ( höchstens um 5 Paoli ) ?
+6-1	390-397	Bekomme	_	_
+6-2	398-401	ich	_	_
+6-3	402-406	auch	_	_
+6-4	407-412	einen	_	_
+6-5	413-423	Rosenkranz	_	_
+6-6	424-425	(	_	_
+6-7	426-435	höchstens	_	_
+6-8	436-438	um	_	_
+6-9	439-440	5	_	_
+6-10	441-446	Paoli	_	_
+6-11	447-448	)	_	_
+6-12	449-450	?	_	_
+
+#Text=nämlich bepapsirt .
+7-1	451-458	nämlich	_	_
+7-2	459-468	bepapsirt	_	_
+7-3	469-470	.	_	_

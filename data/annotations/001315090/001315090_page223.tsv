@@ -1,0 +1,186 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=264 Lepsius an Henzen Berlin , 26. Mai 1875 N . % 8 .
+1-1	0-3	264	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	26.	*[1]	DATEletter[1]
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1875	*[1]	DATEletter[1]
+1-10	44-45	N	_	_
+1-11	46-47	.	_	_
+1-12	48-49	%	_	_
+1-13	50-51	8	_	_
+1-14	52-53	.	_	_
+
+#Text=30/5 75 r . 31/5 Berlin d . 26. Mai 1875 Verehrter Freund Ich habe vor Absendung der Diplome ausdrücklich in das Auswärtige Amt geschickt um nach einem Kurrier zu fragen , erhielt aber zur Antwort , es sei eben einer abgegangen und es sei ungewiß , wann der nächste abgehen werde .
+2-1	54-58	30/5	*[2]	DATErecieved[2]
+2-2	59-61	75	*[2]	DATErecieved[2]
+2-3	62-63	r	_	_
+2-4	64-65	.	_	_
+2-5	66-70	31/5	*	DATEanswered
+2-6	71-77	Berlin	*	PLACEfrom
+2-7	78-79	d	_	_
+2-8	80-81	.	_	_
+2-9	82-85	26.	*[3]	DATEletter[3]
+2-10	86-89	Mai	*[3]	DATEletter[3]
+2-11	90-94	1875	*[3]	DATEletter[3]
+2-12	95-104	Verehrter	_	_
+2-13	105-111	Freund	_	_
+2-14	112-115	Ich	_	_
+2-15	116-120	habe	_	_
+2-16	121-124	vor	_	_
+2-17	125-134	Absendung	_	_
+2-18	135-138	der	_	_
+2-19	139-146	Diplome	_	_
+2-20	147-159	ausdrücklich	_	_
+2-21	160-162	in	_	_
+2-22	163-166	das	_	_
+2-23	167-177	Auswärtige	*[4]	ORGmentioned[4]
+2-24	178-181	Amt	*[4]	ORGmentioned[4]
+2-25	182-191	geschickt	_	_
+2-26	192-194	um	_	_
+2-27	195-199	nach	_	_
+2-28	200-205	einem	_	_
+2-29	206-213	Kurrier	_	_
+2-30	214-216	zu	_	_
+2-31	217-223	fragen	_	_
+2-32	224-225	,	_	_
+2-33	226-233	erhielt	_	_
+2-34	234-238	aber	_	_
+2-35	239-242	zur	_	_
+2-36	243-250	Antwort	_	_
+2-37	251-252	,	_	_
+2-38	253-255	es	_	_
+2-39	256-259	sei	_	_
+2-40	260-264	eben	_	_
+2-41	265-270	einer	_	_
+2-42	271-281	abgegangen	_	_
+2-43	282-285	und	_	_
+2-44	286-288	es	_	_
+2-45	289-292	sei	_	_
+2-46	293-300	ungewiß	_	_
+2-47	301-302	,	_	_
+2-48	303-307	wann	_	_
+2-49	308-311	der	_	_
+2-50	312-319	nächste	_	_
+2-51	320-327	abgehen	_	_
+2-52	328-333	werde	_	_
+2-53	334-335	.	_	_
+
+#Text=Nicht in der Ordnung war es jedenfalls , daß Sie die Diplome unfrankirt erhalten haben .
+3-1	336-341	Nicht	_	_
+3-2	342-344	in	_	_
+3-3	345-348	der	_	_
+3-4	349-356	Ordnung	_	_
+3-5	357-360	war	_	_
+3-6	361-363	es	_	_
+3-7	364-374	jedenfalls	_	_
+3-8	375-376	,	_	_
+3-9	377-380	daß	_	_
+3-10	381-384	Sie	_	_
+3-11	385-388	die	_	_
+3-12	389-396	Diplome	_	_
+3-13	397-407	unfrankirt	_	_
+3-14	408-416	erhalten	_	_
+3-15	417-422	haben	_	_
+3-16	423-424	.	_	_
+
+#Text=Ich werde nachfragen wie das zusammenhängt , da mir in der That kein Porto berechnet worden ist von dem Bibliotheksbeamten , der es besorgt hat .
+4-1	425-428	Ich	_	_
+4-2	429-434	werde	_	_
+4-3	435-445	nachfragen	_	_
+4-4	446-449	wie	_	_
+4-5	450-453	das	_	_
+4-6	454-467	zusammenhängt	_	_
+4-7	468-469	,	_	_
+4-8	470-472	da	_	_
+4-9	473-476	mir	_	_
+4-10	477-479	in	_	_
+4-11	480-483	der	_	_
+4-12	484-488	That	_	_
+4-13	489-493	kein	_	_
+4-14	494-499	Porto	_	_
+4-15	500-509	berechnet	_	_
+4-16	510-516	worden	_	_
+4-17	517-520	ist	_	_
+4-18	521-524	von	_	_
+4-19	525-528	dem	_	_
+4-20	529-547	Bibliotheksbeamten	_	_
+4-21	548-549	,	_	_
+4-22	550-553	der	_	_
+4-23	554-556	es	_	_
+4-24	557-564	besorgt	_	_
+4-25	565-568	hat	_	_
+4-26	569-570	.	_	_
+
+#Text=Von neuen Mitgliedern werden Ihnen noch unbekannt sein : Membro ordinario : Prof. Re .
+5-1	571-574	Von	_	_
+5-2	575-580	neuen	_	_
+5-3	581-592	Mitgliedern	_	_
+5-4	593-599	werden	_	_
+5-5	600-605	Ihnen	_	_
+5-6	606-610	noch	_	_
+5-7	611-620	unbekannt	_	_
+5-8	621-625	sein	_	_
+5-9	626-627	:	_	_
+5-10	628-634	Membro	_	_
+5-11	635-644	ordinario	_	_
+5-12	645-646	:	_	_
+5-13	647-652	Prof.	_	_
+5-14	653-655	Re	*[5]	PERmentioned[5]
+5-15	656-657	.	*[5]	PERmentioned[5]
+
+#Text=Förster , Breslau Membro corrispondente : Pr .
+6-1	658-665	Förster	*[5]	PERmentioned[5]
+6-2	666-667	,	_	_
+6-3	668-675	Breslau	*	PLACEmentioned
+6-4	676-682	Membro	_	_
+6-5	683-697	corrispondente	_	_
+6-6	698-699	:	_	_
+6-7	700-702	Pr	_	_
+6-8	703-704	.	_	_
+
+#Text=Pietro Matkovic , Agram Jos .
+7-1	705-711	Pietro	*[6]	PERauthor[6]
+7-2	712-720	Matkovic	*[6]	PERauthor[6]
+7-3	721-722	,	_	_
+7-4	723-728	Agram	*	PLACEmentioned
+7-5	729-732	Jos	*[7]	PERmentioned[7]
+7-6	733-734	.	*[7]	PERmentioned[7]
+
+#Text=Hampel , Custos des Museums in Perth Pr .
+8-1	735-741	Hampel	*[7]	PERmentioned[7]
+8-2	742-743	,	_	_
+8-3	744-750	Custos	_	_
+8-4	751-754	des	_	_
+8-5	755-762	Museums	*	ORGmentioned
+8-6	763-765	in	_	_
+8-7	766-771	Perth	*	PLACEmentioned
+8-8	772-774	Pr	_	_
+8-9	775-776	.	_	_
+
+#Text=Heinr .
+9-1	777-782	Heinr	*[8]	PERmentioned[8]
+9-2	783-784	.	*[8]	PERmentioned[8]
+
+#Text=Gelzer , Heidelberg Pr .
+10-1	785-791	Gelzer	*[8]	PERmentioned[8]
+10-2	792-793	,	_	_
+10-3	794-804	Heidelberg	*	PLACEmentioned
+10-4	805-807	Pr	_	_
+10-5	808-809	.	_	_
+
+#Text=Arn .
+11-1	810-813	Arn	*[9]	PERmentioned[9]
+11-2	814-815	.	*[9]	PERmentioned[9]
+
+#Text=Schäfer , Bonn
+12-1	816-823	Schäfer	*[9]	PERmentioned[9]
+12-2	824-825	,	_	_
+12-3	826-830	Bonn	*	PLACEmentioned

@@ -1,0 +1,63 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=81 Lepsius an Henzen Berlin , 30 .
+1-1	0-2	81	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	30	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=Januar 1877 Jahren sein .
+2-1	35-41	Januar	*[3]	DATEletter[3]
+2-2	42-46	1877	*[3]	DATEletter[3]
+2-3	47-53	Jahren	_	_
+2-4	54-58	sein	_	_
+2-5	59-60	.	_	_
+
+#Text=Warum sich scheuen in den schönen Räumen zwei Feste zu feiern so verschiedener Art , ein Lokalfest zu erst und dann ein internationales ?
+3-1	61-66	Warum	_	_
+3-2	67-71	sich	_	_
+3-3	72-79	scheuen	_	_
+3-4	80-82	in	_	_
+3-5	83-86	den	_	_
+3-6	87-94	schönen	_	_
+3-7	95-101	Räumen	_	_
+3-8	102-106	zwei	_	_
+3-9	107-112	Feste	_	_
+3-10	113-115	zu	_	_
+3-11	116-122	feiern	_	_
+3-12	123-125	so	_	_
+3-13	126-139	verschiedener	_	_
+3-14	140-143	Art	_	_
+3-15	144-145	,	_	_
+3-16	146-149	ein	_	_
+3-17	150-159	Lokalfest	_	_
+3-18	160-162	zu	_	_
+3-19	163-167	erst	_	_
+3-20	168-171	und	_	_
+3-21	172-176	dann	_	_
+3-22	177-180	ein	_	_
+3-23	181-196	internationales	_	_
+3-24	197-198	?	_	_
+
+#Text=Doch will es freilich überlegt sein .
+4-1	199-203	Doch	_	_
+4-2	204-208	will	_	_
+4-3	209-211	es	_	_
+4-4	212-220	freilich	_	_
+4-5	221-229	überlegt	_	_
+4-6	230-234	sein	_	_
+4-7	235-236	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr R Lepsius
+5-1	237-240	Mit	_	_
+5-2	241-251	herzlichem	_	_
+5-3	252-256	Gruß	_	_
+5-4	257-260	Ihr	_	_
+5-5	261-262	R	*[4]	PERauthor[4]
+5-6	263-270	Lepsius	*[4]	PERauthor[4]

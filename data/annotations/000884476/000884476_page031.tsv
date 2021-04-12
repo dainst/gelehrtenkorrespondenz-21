@@ -1,0 +1,280 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Paris , 20. September 1834 Unbegreiflich daß noch nicht einmal Bull .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-22	Paris	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-28	20.	*[4]	DATEletter[4]
+1-7	29-38	September	*[4]	DATEletter[4]
+1-8	39-43	1834	*[4]	DATEletter[4]
+1-9	44-57	Unbegreiflich	_	_
+1-10	58-61	daß	_	_
+1-11	62-66	noch	_	_
+1-12	67-72	nicht	_	_
+1-13	73-79	einmal	_	_
+1-14	80-84	Bull	_	_
+1-15	85-86	.	_	_
+
+#Text=vom August hier ist \; gerade die französischen Scavi so lang zu verspäten ist verdrießlich .
+2-1	87-90	vom	_	_
+2-2	91-97	August	*	DATEmentioned
+2-3	98-102	hier	_	_
+2-4	103-106	ist	_	_
+2-5	107-108	\;	_	_
+2-6	109-115	gerade	_	_
+2-7	116-119	die	_	_
+2-8	120-133	französischen	_	_
+2-9	134-139	Scavi	_	_
+2-10	140-142	so	_	_
+2-11	143-147	lang	_	_
+2-12	148-150	zu	_	_
+2-13	151-160	verspäten	_	_
+2-14	161-164	ist	_	_
+2-15	165-177	verdrießlich	_	_
+2-16	178-179	.	_	_
+
+#Text=Mr .
+3-1	180-182	Mr	_	_
+3-2	183-184	.	_	_
+
+#Text=De Witte Rue des trois Freres 4 Das Museo Chiusino Fasc .
+4-1	185-187	De	*[6]	PERmentioned[6]
+4-2	188-193	Witte	*[6]	PERmentioned[6]
+4-3	194-197	Rue	_	_
+4-4	198-201	des	_	_
+4-5	202-207	trois	_	_
+4-6	208-214	Freres	_	_
+4-7	215-216	4	_	_
+4-8	217-220	Das	_	_
+4-9	221-226	Museo	*[7]	ORGmentioned[7]
+4-10	227-235	Chiusino	*[7]	ORGmentioned[7]
+4-11	236-240	Fasc	_	_
+4-12	241-242	.	_	_
+
+#Text=18 , längst bei Capobianchi , war zur Zeit meiner Abreise uns noch nicht zugestellt .
+5-1	243-245	18	_	_
+5-2	246-247	,	_	_
+5-3	248-254	längst	_	_
+5-4	255-258	bei	_	_
+5-5	259-270	Capobianchi	*	PERmentioned
+5-6	271-272	,	_	_
+5-7	273-276	war	_	_
+5-8	277-280	zur	_	_
+5-9	281-285	Zeit	_	_
+5-10	286-292	meiner	_	_
+5-11	293-300	Abreise	_	_
+5-12	301-304	uns	_	_
+5-13	305-309	noch	_	_
+5-14	310-315	nicht	_	_
+5-15	316-326	zugestellt	_	_
+5-16	327-328	.	_	_
+
+#Text=Helfen Sie dem nach - Sie wissen daß ich 1 Exemplar fürs Institut , 1 für mich ( Ambrosch ) , 1 für Rös !
+6-1	329-335	Helfen	_	_
+6-2	336-339	Sie	_	_
+6-3	340-343	dem	_	_
+6-4	344-348	nach	_	_
+6-5	349-350	-	_	_
+6-6	351-354	Sie	_	_
+6-7	355-361	wissen	_	_
+6-8	362-365	daß	_	_
+6-9	366-369	ich	_	_
+6-10	370-371	1	_	_
+6-11	372-380	Exemplar	_	_
+6-12	381-385	fürs	_	_
+6-13	386-394	Institut	*	ORGmentioned
+6-14	395-396	,	_	_
+6-15	397-398	1	_	_
+6-16	399-402	für	_	_
+6-17	403-407	mich	_	_
+6-18	408-409	(	_	_
+6-19	410-418	Ambrosch	*	PERmentioned
+6-20	419-420	)	_	_
+6-21	421-422	,	_	_
+6-22	423-424	1	_	_
+6-23	425-428	für	_	_
+6-24	429-432	Rös	*[11]	PERmentioned[11]
+6-25	433-434	!	*[11]	PERmentioned[11]
+
+#Text=11 und 1 für Bonn empfange .
+7-1	435-437	11	*[11]	PERmentioned[11]
+7-2	438-441	und	_	_
+7-3	442-443	1	_	_
+7-4	444-447	für	_	_
+7-5	448-452	Bonn	*	PLACEmentioned
+7-6	453-461	empfange	_	_
+7-7	462-463	.	_	_
+
+#Text=Vopult Grüßen Sie Wagner von mir und bei Erwähnung meiner plötzlichen Abreise drücken Sie ihm mein Bedauern aus daß ich nicht weiter zu ihm und den Vasen konnte .
+8-1	464-470	Vopult	_	_
+8-2	471-477	Grüßen	_	_
+8-3	478-481	Sie	_	_
+8-4	482-488	Wagner	*	PERmentioned
+8-5	489-492	von	_	_
+8-6	493-496	mir	_	_
+8-7	497-500	und	_	_
+8-8	501-504	bei	_	_
+8-9	505-514	Erwähnung	_	_
+8-10	515-521	meiner	_	_
+8-11	522-533	plötzlichen	_	_
+8-12	534-541	Abreise	_	_
+8-13	542-549	drücken	_	_
+8-14	550-553	Sie	_	_
+8-15	554-557	ihm	_	_
+8-16	558-562	mein	_	_
+8-17	563-571	Bedauern	_	_
+8-18	572-575	aus	_	_
+8-19	576-579	daß	_	_
+8-20	580-583	ich	_	_
+8-21	584-589	nicht	_	_
+8-22	590-596	weiter	_	_
+8-23	597-599	zu	_	_
+8-24	600-603	ihm	_	_
+8-25	604-607	und	_	_
+8-26	608-611	den	_	_
+8-27	612-617	Vasen	*	OBJ
+8-28	618-624	konnte	_	_
+8-29	625-626	.	_	_
+
+#Text=Dann bitten Sie ihn doch mir eine Notiz über die Cornetspieler zuzustellen , die er in seinen Vasen mit Namen ( anderen als Achill und Ajax ) zu haben behauptet .
+9-1	627-631	Dann	_	_
+9-2	632-638	bitten	_	_
+9-3	639-642	Sie	_	_
+9-4	643-646	ihn	_	_
+9-5	647-651	doch	_	_
+9-6	652-655	mir	_	_
+9-7	656-660	eine	_	_
+9-8	661-666	Notiz	_	_
+9-9	667-671	über	_	_
+9-10	672-675	die	_	_
+9-11	676-689	Cornetspieler	*	OBJ
+9-12	690-701	zuzustellen	_	_
+9-13	702-703	,	_	_
+9-14	704-707	die	_	_
+9-15	708-710	er	_	_
+9-16	711-713	in	_	_
+9-17	714-720	seinen	_	_
+9-18	721-726	Vasen	_	_
+9-19	727-730	mit	_	_
+9-20	731-736	Namen	_	_
+9-21	737-738	(	_	_
+9-22	739-746	anderen	_	_
+9-23	747-750	als	_	_
+9-24	751-757	Achill	_	_
+9-25	758-761	und	_	_
+9-26	762-766	Ajax	_	_
+9-27	767-768	)	_	_
+9-28	769-771	zu	_	_
+9-29	772-777	haben	_	_
+9-30	778-787	behauptet	_	_
+9-31	788-789	.	_	_
+
+#Text=Machen Sie doch Sig .
+10-1	790-796	Machen	_	_
+10-2	797-800	Sie	_	_
+10-3	801-805	doch	_	_
+10-4	806-809	Sig	*[16]	OBJ[16]
+10-5	810-811	.	*[16]	OBJ[16]
+
+#Text=Policarpo Candelori ( Palazzo Cr t i Bei Argentina ) einen Besuch von mir , um zu hören wie es mit der Publikation der Platten von Achill und Ajax steht .
+11-1	812-821	Policarpo	*[16]	OBJ[16]
+11-2	822-831	Candelori	*[16]	OBJ[16]
+11-3	832-833	(	_	_
+11-4	834-841	Palazzo	_	_
+11-5	842-844	Cr	_	_
+11-6	845-846	t	_	_
+11-7	847-848	i	_	_
+11-8	849-852	Bei	_	_
+11-9	853-862	Argentina	*	PLACEmentioned
+11-10	863-864	)	_	_
+11-11	865-870	einen	_	_
+11-12	871-877	Besuch	_	_
+11-13	878-881	von	_	_
+11-14	882-885	mir	_	_
+11-15	886-887	,	_	_
+11-16	888-890	um	_	_
+11-17	891-893	zu	_	_
+11-18	894-899	hören	_	_
+11-19	900-903	wie	_	_
+11-20	904-906	es	_	_
+11-21	907-910	mit	_	_
+11-22	911-914	der	_	_
+11-23	915-926	Publikation	_	_
+11-24	927-930	der	_	_
+11-25	931-938	Platten	_	_
+11-26	939-942	von	_	_
+11-27	943-949	Achill	_	_
+11-28	950-953	und	_	_
+11-29	954-958	Ajax	_	_
+11-30	959-964	steht	_	_
+11-31	965-966	.	_	_
+
+#Text=- Den nächsten Anlaß dazu gibt Ihnen der Dank für die Nibbysche Illustration ab , wenn er sie nicht sandte , Mahnung darum in meinem namen .
+12-1	967-968	-	_	_
+12-2	969-972	Den	_	_
+12-3	973-981	nächsten	_	_
+12-4	982-987	Anlaß	_	_
+12-5	988-992	dazu	_	_
+12-6	993-997	gibt	_	_
+12-7	998-1003	Ihnen	_	_
+12-8	1004-1007	der	_	_
+12-9	1008-1012	Dank	_	_
+12-10	1013-1016	für	_	_
+12-11	1017-1020	die	_	_
+12-12	1021-1030	Nibbysche	*	PERmentioned
+12-13	1031-1043	Illustration	_	_
+12-14	1044-1046	ab	_	_
+12-15	1047-1048	,	_	_
+12-16	1049-1053	wenn	_	_
+12-17	1054-1056	er	_	_
+12-18	1057-1060	sie	_	_
+12-19	1061-1066	nicht	_	_
+12-20	1067-1073	sandte	_	_
+12-21	1074-1075	,	_	_
+12-22	1076-1083	Mahnung	_	_
+12-23	1084-1089	darum	_	_
+12-24	1090-1092	in	_	_
+12-25	1093-1099	meinem	_	_
+12-26	1100-1105	namen	_	_
+12-27	1106-1107	.	_	_
+
+#Text=Die Platten müssen nun bald fertig seyn \; da ich auswärts bin , so gibt er wol 1 fürs Institut und eine für mich , was man ihm sagen kann .
+13-1	1108-1111	Die	_	_
+13-2	1112-1119	Platten	_	_
+13-3	1120-1126	müssen	_	_
+13-4	1127-1130	nun	_	_
+13-5	1131-1135	bald	_	_
+13-6	1136-1142	fertig	_	_
+13-7	1143-1147	seyn	_	_
+13-8	1148-1149	\;	_	_
+13-9	1150-1152	da	_	_
+13-10	1153-1156	ich	_	_
+13-11	1157-1165	auswärts	_	_
+13-12	1166-1169	bin	_	_
+13-13	1170-1171	,	_	_
+13-14	1172-1174	so	_	_
+13-15	1175-1179	gibt	_	_
+13-16	1180-1182	er	_	_
+13-17	1183-1186	wol	_	_
+13-18	1187-1188	1	_	_
+13-19	1189-1193	fürs	_	_
+13-20	1194-1202	Institut	*	ORGmentioned
+13-21	1203-1206	und	_	_
+13-22	1207-1211	eine	_	_
+13-23	1212-1215	für	_	_
+13-24	1216-1220	mich	_	_
+13-25	1221-1222	,	_	_
+13-26	1223-1226	was	_	_
+13-27	1227-1230	man	_	_
+13-28	1231-1234	ihm	_	_
+13-29	1235-1240	sagen	_	_
+13-30	1241-1245	kann	_	_
+13-31	1246-1247	.	_	_
+
+#Text=Diese Platte
+14-1	1248-1253	Diese	_	_
+14-2	1254-1260	Platte	_	_

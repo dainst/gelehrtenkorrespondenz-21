@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=23 Lepsius an Henzen Berlin , 6 .
+1-1	0-2	23	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	6	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Januar 1875 g . 1/1 795 r . 12/75 Berlin , den 6 .
+2-1	34-40	Januar	*[1]	DATEletter[1]
+2-2	41-45	1875	*[1]	DATEletter[1]
+2-3	46-47	g	_	_
+2-4	48-49	.	_	_
+2-5	50-53	1/1	*[2]	DATErecieved[2]
+2-6	54-57	795	*[2]	DATErecieved[2]
+2-7	58-59	r	_	_
+2-8	60-61	.	_	_
+2-9	62-67	12/75	*	DATEanswered
+2-10	68-74	Berlin	*	PLACEfrom
+2-11	75-76	,	_	_
+2-12	77-80	den	_	_
+2-13	81-82	6	*[3]	DATEletter[3]
+2-14	83-84	.	*[3]	DATEletter[3]
+
+#Text=Jan .
+3-1	85-88	Jan	*[3]	DATEletter[3]
+3-2	89-90	.	*[3]	DATEletter[3]
+
+#Text=1875 Verehrter Freund Heute hat mir Asher die von Ihnen angekündigten 400 r 16 . 6. ausgezahlt , als zum Reservefonds gehörig .
+4-1	91-95	1875	*[3]	DATEletter[3]
+4-2	96-105	Verehrter	_	_
+4-3	106-112	Freund	_	_
+4-4	113-118	Heute	_	_
+4-5	119-122	hat	_	_
+4-6	123-126	mir	_	_
+4-7	127-132	Asher	*	PERmentioned
+4-8	133-136	die	_	_
+4-9	137-140	von	_	_
+4-10	141-146	Ihnen	_	_
+4-11	147-160	angekündigten	_	_
+4-12	161-164	400	_	_
+4-13	165-166	r	_	_
+4-14	167-169	16	_	_
+4-15	170-171	.	_	_
+4-16	172-174	6.	_	_
+4-17	175-185	ausgezahlt	_	_
+4-18	186-187	,	_	_
+4-19	188-191	als	_	_
+4-20	192-195	zum	_	_
+4-21	196-208	Reservefonds	_	_
+4-22	209-216	gehörig	_	_
+4-23	217-218	.	_	_
+
+#Text=Sie lagern einstweilen bei mir .
+5-1	219-222	Sie	_	_
+5-2	223-229	lagern	_	_
+5-3	230-241	einstweilen	_	_
+5-4	242-245	bei	_	_
+5-5	246-249	mir	_	_
+5-6	250-251	.	_	_
+
+#Text=Zu Ihrer Liste der neuen Institutsmitglieder kommen nun von hier aus noch : Prof. Dr. Förster in Breslau membro ordinario ( Schöne ) Joseph Kampel , Kustos am Museum zu Pest Prof. Matkovic , in Agram beide membri corrispondenti ( Mommsen ) Ich lege Ihnen Mommsen 's Zettel bei , da ich ihn heute nicht fragen kann ob der Mann Hampel oder Kampel heißt .
+6-1	252-254	Zu	_	_
+6-2	255-260	Ihrer	_	_
+6-3	261-266	Liste	_	_
+6-4	267-270	der	_	_
+6-5	271-276	neuen	_	_
+6-6	277-296	Institutsmitglieder	_	_
+6-7	297-303	kommen	_	_
+6-8	304-307	nun	_	_
+6-9	308-311	von	_	_
+6-10	312-316	hier	_	_
+6-11	317-320	aus	_	_
+6-12	321-325	noch	_	_
+6-13	326-327	:	_	_
+6-14	328-333	Prof.	_	_
+6-15	334-337	Dr.	_	_
+6-16	338-345	Förster	*	PERmentioned
+6-17	346-348	in	_	_
+6-18	349-356	Breslau	*	PLACEmentioned
+6-19	357-363	membro	_	_
+6-20	364-373	ordinario	_	_
+6-21	374-375	(	_	_
+6-22	376-382	Schöne	*	PERmentioned
+6-23	383-384	)	_	_
+6-24	385-391	Joseph	*[4]	PERmentioned[4]
+6-25	392-398	Kampel	*[4]	PERmentioned[4]
+6-26	399-400	,	_	_
+6-27	401-407	Kustos	_	_
+6-28	408-410	am	_	_
+6-29	411-417	Museum	*	ORGmentioned
+6-30	418-420	zu	_	_
+6-31	421-425	Pest	*	PLACEmentioned
+6-32	426-431	Prof.	_	_
+6-33	432-440	Matkovic	*	PERmentioned
+6-34	441-442	,	_	_
+6-35	443-445	in	_	_
+6-36	446-451	Agram	*	PLACEmentioned
+6-37	452-457	beide	_	_
+6-38	458-464	membri	_	_
+6-39	465-479	corrispondenti	_	_
+6-40	480-481	(	_	_
+6-41	482-489	Mommsen	*	PERmentioned
+6-42	490-491	)	_	_
+6-43	492-495	Ich	_	_
+6-44	496-500	lege	_	_
+6-45	501-506	Ihnen	_	_
+6-46	507-514	Mommsen	*[6]	PERmentioned[6]
+6-47	515-517	's	*[6]	PERmentioned[6]
+6-48	518-524	Zettel	_	_
+6-49	525-528	bei	_	_
+6-50	529-530	,	_	_
+6-51	531-533	da	_	_
+6-52	534-537	ich	_	_
+6-53	538-541	ihn	_	_
+6-54	542-547	heute	_	_
+6-55	548-553	nicht	_	_
+6-56	554-560	fragen	_	_
+6-57	561-565	kann	_	_
+6-58	566-568	ob	_	_
+6-59	569-572	der	_	_
+6-60	573-577	Mann	_	_
+6-61	578-584	Hampel	*	PERmentioned
+6-62	585-589	oder	_	_
+6-63	590-596	Kampel	*	PERmentioned
+6-64	597-602	heißt	_	_
+6-65	603-604	.	_	_
+
+#Text=Sie kennen seine Hand , um das Richtige zu lesen .
+7-1	605-608	Sie	_	_
+7-2	609-615	kennen	_	_
+7-3	616-621	seine	_	_
+7-4	622-626	Hand	_	_
+7-5	627-628	,	_	_
+7-6	629-631	um	_	_
+7-7	632-635	das	_	_
+7-8	636-644	Richtige	_	_
+7-9	645-647	zu	_	_
+7-10	648-653	lesen	_	_
+7-11	654-655	.	_	_
+
+#Text=Wenige Tage nach meinem letzten Briefe am 30 % Mittags ist dann Matz gestorben \; am 2R d. haben wir ihn begraben .
+8-1	656-662	Wenige	_	_
+8-2	663-667	Tage	_	_
+8-3	668-672	nach	_	_
+8-4	673-679	meinem	_	_
+8-5	680-687	letzten	_	_
+8-6	688-694	Briefe	_	_
+8-7	695-697	am	_	_
+8-8	698-700	30	*[5]	DATEmentioned[5]
+8-9	701-702	%	*[5]	DATEmentioned[5]
+8-10	703-710	Mittags	*[5]	DATEmentioned[5]
+8-11	711-714	ist	_	_
+8-12	715-719	dann	_	_
+8-13	720-724	Matz	*	PERmentioned
+8-14	725-734	gestorben	_	_
+8-15	735-736	\;	_	_
+8-16	737-739	am	_	_
+8-17	740-742	2R	_	_
+8-18	743-745	d.	_	_
+8-19	746-751	haben	_	_
+8-20	752-755	wir	_	_
+8-21	756-759	ihn	_	_
+8-22	760-768	begraben	_	_
+8-23	769-770	.	_	_
+
+#Text=Je näher man ihn kannte , um so mehr lernte man ihn auch schätzen .
+9-1	771-773	Je	_	_
+9-2	774-779	näher	_	_
+9-3	780-783	man	_	_
+9-4	784-787	ihn	_	_
+9-5	788-794	kannte	_	_
+9-6	795-796	,	_	_
+9-7	797-799	um	_	_
+9-8	800-802	so	_	_
+9-9	803-807	mehr	_	_
+9-10	808-814	lernte	_	_
+9-11	815-818	man	_	_
+9-12	819-822	ihn	_	_
+9-13	823-827	auch	_	_
+9-14	828-836	schätzen	_	_
+9-15	837-838	.	_	_
+
+#Text=Die Lücke die er läßt , wird auch schwer zu ersetzen sein .
+10-1	839-842	Die	_	_
+10-2	843-848	Lücke	_	_
+10-3	849-852	die	_	_
+10-4	853-855	er	_	_
+10-5	856-860	läßt	_	_
+10-6	861-862	,	_	_
+10-7	863-867	wird	_	_
+10-8	868-872	auch	_	_
+10-9	873-879	schwer	_	_
+10-10	880-882	zu	_	_
+10-11	883-891	ersetzen	_	_
+10-12	892-896	sein	_	_
+10-13	897-898	.	_	_
+
+#Text=Grüßen Sie Helbig , dessen Brief ich so eben erhalten .
+11-1	899-905	Grüßen	_	_
+11-2	906-909	Sie	_	_
+11-3	910-916	Helbig	*	PERmentioned
+11-4	917-918	,	_	_
+11-5	919-925	dessen	_	_
+11-6	926-931	Brief	_	_
+11-7	932-935	ich	_	_
+11-8	936-938	so	_	_
+11-9	939-943	eben	_	_
+11-10	944-952	erhalten	_	_
+11-11	953-954	.	_	_
+
+#Text=Seine Frage wird von hier aus schwer zu beant-
+12-1	955-960	Seine	_	_
+12-2	961-966	Frage	_	_
+12-3	967-971	wird	_	_
+12-4	972-975	von	_	_
+12-5	976-980	hier	_	_
+12-6	981-984	aus	_	_
+12-7	985-991	schwer	_	_
+12-8	992-994	zu	_	_
+12-9	995-1001	beant-	_	_

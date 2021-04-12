@@ -1,0 +1,187 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=214 Braun an Gerhard Rom , 20. Juni 1840 deckungsberichte .
+1-1	0-3	214	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	20.	*[4]	DATEletter[4]
+1-8	31-35	Juni	*[4]	DATEletter[4]
+1-9	36-40	1840	*[4]	DATEletter[4]
+1-10	41-57	deckungsberichte	_	_
+1-11	58-59	.	_	_
+
+#Text=In S. Marinella ist ein schwarzes Mosaik mit Orpheus und Bacchicis aufgefunden worden .
+2-1	60-62	In	_	_
+2-2	63-65	S.	*[5]	PLACEmentioned[5]
+2-3	66-75	Marinella	*[5]	PLACEmentioned[5]
+2-4	76-79	ist	_	_
+2-5	80-83	ein	_	_
+2-6	84-93	schwarzes	_	_
+2-7	94-100	Mosaik	*[6]	OBJ[6]
+2-8	101-104	mit	*[6]	OBJ[6]
+2-9	105-112	Orpheus	*[6]	OBJ[6]
+2-10	113-116	und	*[6]	OBJ[6]
+2-11	117-126	Bacchicis	*[6]	OBJ[6]
+2-12	127-138	aufgefunden	_	_
+2-13	139-145	worden	_	_
+2-14	146-147	.	_	_
+
+#Text=Basseggio bildet sich ein , der Duc de Luynes habe ihn wegen anders gerichteter politischer Gesinnung übergangen .
+3-1	148-157	Basseggio	*	PERmentioned
+3-2	158-164	bildet	_	_
+3-3	165-169	sich	_	_
+3-4	170-173	ein	_	_
+3-5	174-175	,	_	_
+3-6	176-179	der	_	_
+3-7	180-183	Duc	*[8]	PERmentioned[8]
+3-8	184-186	de	*[8]	PERmentioned[8]
+3-9	187-193	Luynes	*[8]	PERmentioned[8]
+3-10	194-198	habe	_	_
+3-11	199-202	ihn	_	_
+3-12	203-208	wegen	_	_
+3-13	209-215	anders	_	_
+3-14	216-227	gerichteter	_	_
+3-15	228-239	politischer	_	_
+3-16	240-249	Gesinnung	_	_
+3-17	250-260	übergangen	_	_
+3-18	261-262	.	_	_
+
+#Text=Er sei Carlista und Basseggio amico del giusto .
+4-1	263-265	Er	_	_
+4-2	266-269	sei	_	_
+4-3	270-278	Carlista	_	_
+4-4	279-282	und	_	_
+4-5	283-292	Basseggio	*	PERmentioned
+4-6	293-298	amico	_	_
+4-7	299-302	del	_	_
+4-8	303-309	giusto	_	_
+4-9	310-311	.	_	_
+
+#Text=Dabei ist ihm ein Faß Wein in den Keller gelaufen und außerdem leidet er viel von den soverchiatori .
+5-1	312-317	Dabei	_	_
+5-2	318-321	ist	_	_
+5-3	322-325	ihm	_	_
+5-4	326-329	ein	_	_
+5-5	330-333	Faß	_	_
+5-6	334-338	Wein	_	_
+5-7	339-341	in	_	_
+5-8	342-345	den	_	_
+5-9	346-352	Keller	_	_
+5-10	353-361	gelaufen	_	_
+5-11	362-365	und	_	_
+5-12	366-374	außerdem	_	_
+5-13	375-381	leidet	_	_
+5-14	382-384	er	_	_
+5-15	385-389	viel	_	_
+5-16	390-393	von	_	_
+5-17	394-397	den	_	_
+5-18	398-411	soverchiatori	_	_
+5-19	412-413	.	_	_
+
+#Text=Er nimmt daher die pillole di Franck nella minestra .
+6-1	414-416	Er	_	_
+6-2	417-422	nimmt	_	_
+6-3	423-428	daher	_	_
+6-4	429-432	die	_	_
+6-5	433-440	pillole	_	_
+6-6	441-443	di	_	_
+6-7	444-450	Franck	_	_
+6-8	451-456	nella	_	_
+6-9	457-465	minestra	_	_
+6-10	466-467	.	_	_
+
+#Text=Die schönste Glaspaste bestitzt Freund Vollard , der herzlichst grüßt .
+7-1	468-471	Die	_	_
+7-2	472-480	schönste	_	_
+7-3	481-490	Glaspaste	*	OBJ
+7-4	491-499	bestitzt	_	_
+7-5	500-506	Freund	_	_
+7-6	507-514	Vollard	*	PERmentioned
+7-7	515-516	,	_	_
+7-8	517-520	der	_	_
+7-9	521-531	herzlichst	_	_
+7-10	532-537	grüßt	_	_
+7-11	538-539	.	_	_
+
+#Text=Der Streit des Pan und des Eros , rechts Silla als Pädotrib , links Dionysos stehend , inmitten zu Füßen einer ithyphallischen Herme Venus sitzend mit einem langen Aehrenhelm .
+8-1	540-543	Der	_	_
+8-2	544-550	Streit	_	_
+8-3	551-554	des	_	_
+8-4	555-558	Pan	*	MISC
+8-5	559-562	und	_	_
+8-6	563-566	des	_	_
+8-7	567-571	Eros	*	MISC
+8-8	572-573	,	_	_
+8-9	574-580	rechts	_	_
+8-10	581-586	Silla	*	MISC
+8-11	587-590	als	_	_
+8-12	591-599	Pädotrib	_	_
+8-13	600-601	,	_	_
+8-14	602-607	links	_	_
+8-15	608-616	Dionysos	*	MISC
+8-16	617-624	stehend	_	_
+8-17	625-626	,	_	_
+8-18	627-635	inmitten	_	_
+8-19	636-638	zu	_	_
+8-20	639-644	Füßen	_	_
+8-21	645-650	einer	_	_
+8-22	651-666	ithyphallischen	*[16]	MISC[16]
+8-23	667-672	Herme	*[16]	MISC[16]
+8-24	673-678	Venus	*	MISC
+8-25	679-686	sitzend	_	_
+8-26	687-690	mit	_	_
+8-27	691-696	einem	_	_
+8-28	697-703	langen	_	_
+8-29	704-714	Aehrenhelm	_	_
+8-30	715-716	.	_	_
+
+#Text=Letzteres Attribut habe ich als palastisches Siegeszeichen schon bei der Carlsruher Vase nachgewiesen und nochmals auch andere Bestätigungen gefunden .
+9-1	717-726	Letzteres	_	_
+9-2	727-735	Attribut	_	_
+9-3	736-740	habe	_	_
+9-4	741-744	ich	_	_
+9-5	745-748	als	_	_
+9-6	749-761	palastisches	_	_
+9-7	762-775	Siegeszeichen	_	_
+9-8	776-781	schon	_	_
+9-9	782-785	bei	_	_
+9-10	786-789	der	_	_
+9-11	790-800	Carlsruher	*[18]|*[19]	OBJ[18]|PLACEmentioned[19]
+9-12	801-805	Vase	*[18]	OBJ[18]
+9-13	806-818	nachgewiesen	_	_
+9-14	819-822	und	_	_
+9-15	823-831	nochmals	_	_
+9-16	832-836	auch	_	_
+9-17	837-843	andere	_	_
+9-18	844-857	Bestätigungen	_	_
+9-19	858-866	gefunden	_	_
+9-20	867-868	.	_	_
+
+#Text=Der Duc de Iuynes wird die Neapolitaner-Ruveser Amazonenvase herausgeben .
+10-1	869-872	Der	_	_
+10-2	873-876	Duc	*[20]	PERmentioned[20]
+10-3	877-879	de	*[20]	PERmentioned[20]
+10-4	880-886	Iuynes	*[20]	PERmentioned[20]
+10-5	887-891	wird	_	_
+10-6	892-895	die	_	_
+10-7	896-916	Neapolitaner-Ruveser	*[21]|*[22]	PLACEmentioned[21]|PLACEmentioned[22]
+10-8	917-929	Amazonenvase	*	OBJ
+10-9	930-941	herausgeben	_	_
+10-10	942-943	.	_	_
+
+#Text=Ihr EBraun .
+11-1	944-947	Ihr	_	_
+11-2	948-954	EBraun	*	PERauthor
+11-3	955-956	.	_	_
+
+#Text=Rom 20 Juni 1840 .
+12-1	957-960	Rom	*	PLACEfrom
+12-2	961-963	20	*[25]	DATEletter[25]
+12-3	964-968	Juni	*[25]	DATEletter[25]
+12-4	969-973	1840	*[25]	DATEletter[25]
+12-5	974-975	.	_	_

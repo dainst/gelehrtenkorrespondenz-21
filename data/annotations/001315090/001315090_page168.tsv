@@ -1,0 +1,49 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=327 Lepsius an Henzen Berlin , 5. Juli 1874 Einmalig : Übersiedlung des Athen .
+1-1	0-3	327	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	5.	*[3]	DATEletter[3]
+1-8	34-38	Juli	*[3]	DATEletter[3]
+1-9	39-43	1874	*[3]	DATEletter[3]
+1-10	44-52	Einmalig	_	_
+1-11	53-54	:	_	_
+1-12	55-67	Übersiedlung	_	_
+1-13	68-71	des	_	_
+1-14	72-77	Athen	*	PLACEmentioned
+1-15	78-79	.	_	_
+
+#Text=Sekretars ( fällt weg ) 1200 r - Einrichtung der Institutsräume Athen 2000 3200 Einnahmen : Zinsen 200 Publikationen 1500 1700 Mit herzlichem Gruß Ihr R Lepsius
+2-1	80-89	Sekretars	*	PERmentioned
+2-2	90-91	(	_	_
+2-3	92-97	fällt	_	_
+2-4	98-101	weg	_	_
+2-5	102-103	)	_	_
+2-6	104-108	1200	_	_
+2-7	109-110	r	_	_
+2-8	111-112	-	_	_
+2-9	113-124	Einrichtung	_	_
+2-10	125-128	der	_	_
+2-11	129-143	Institutsräume	_	_
+2-12	144-149	Athen	*	PLACEmentioned
+2-13	150-154	2000	_	_
+2-14	155-159	3200	_	_
+2-15	160-169	Einnahmen	_	_
+2-16	170-171	:	_	_
+2-17	172-178	Zinsen	_	_
+2-18	179-182	200	_	_
+2-19	183-196	Publikationen	_	_
+2-20	197-201	1500	_	_
+2-21	202-206	1700	_	_
+2-22	207-210	Mit	_	_
+2-23	211-221	herzlichem	_	_
+2-24	222-226	Gruß	_	_
+2-25	227-230	Ihr	_	_
+2-26	231-232	R	*[4]	PERauthor[4]
+2-27	233-240	Lepsius	*[4]	PERauthor[4]

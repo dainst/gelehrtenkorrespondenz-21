@@ -1,0 +1,202 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=297 Lepsius an Henzen Berlin , 27. Mai 1876 g . 30/5 76 r . 31/5 Berlin , den 27. Mai 1876 Verehrter Freund Ich sende Ihnen nun auch die Diplome zugleich vom 9. Dezember und 21. April .
+1-1	0-3	297	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	27.	*[1]	DATEletter[1]
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1876	*[1]	DATEletter[1]
+1-10	44-45	g	_	_
+1-11	46-47	.	_	_
+1-12	48-52	30/5	*[2]	DATErecieved[2]
+1-13	53-55	76	*[2]	DATErecieved[2]
+1-14	56-57	r	_	_
+1-15	58-59	.	_	_
+1-16	60-64	31/5	*	DATEanswered
+1-17	65-71	Berlin	*	PLACEfrom
+1-18	72-73	,	_	_
+1-19	74-77	den	_	_
+1-20	78-81	27.	*[3]	DATEletter[3]
+1-21	82-85	Mai	*[3]	DATEletter[3]
+1-22	86-90	1876	*[3]	DATEletter[3]
+1-23	91-100	Verehrter	_	_
+1-24	101-107	Freund	_	_
+1-25	108-111	Ich	_	_
+1-26	112-117	sende	_	_
+1-27	118-123	Ihnen	_	_
+1-28	124-127	nun	_	_
+1-29	128-132	auch	_	_
+1-30	133-136	die	_	_
+1-31	137-144	Diplome	_	_
+1-32	145-153	zugleich	_	_
+1-33	154-157	vom	_	_
+1-34	158-160	9.	*[4]	DATEmentioned[4]
+1-35	161-169	Dezember	*[4]	DATEmentioned[4]
+1-36	170-173	und	_	_
+1-37	174-177	21.	*[5]	DATEmentioned[5]
+1-38	178-183	April	*[5]	DATEmentioned[5]
+1-39	184-185	.	_	_
+
+#Text=Ich habe wieder die Namen nur in Bleistift geschrieben \; bei einem fehlt noch der Vorname .
+2-1	186-189	Ich	_	_
+2-2	190-194	habe	_	_
+2-3	195-201	wieder	_	_
+2-4	202-205	die	_	_
+2-5	206-211	Namen	_	_
+2-6	212-215	nur	_	_
+2-7	216-218	in	_	_
+2-8	219-228	Bleistift	_	_
+2-9	229-240	geschrieben	_	_
+2-10	241-242	\;	_	_
+2-11	243-246	bei	_	_
+2-12	247-252	einem	_	_
+2-13	253-258	fehlt	_	_
+2-14	259-263	noch	_	_
+2-15	264-267	der	_	_
+2-16	268-275	Vorname	_	_
+2-17	276-277	.	_	_
+
+#Text=Ferner ist noch Ihre oder Mommsen's Unterschrift zuzufügen .
+3-1	278-284	Ferner	_	_
+3-2	285-288	ist	_	_
+3-3	289-293	noch	_	_
+3-4	294-298	Ihre	_	_
+3-5	299-303	oder	_	_
+3-6	304-313	Mommsen's	*	PERmentioned
+3-7	314-326	Unterschrift	_	_
+3-8	327-336	zuzufügen	_	_
+3-9	337-338	.	_	_
+
+#Text=Daß N° .
+4-1	339-342	Daß	_	_
+4-2	343-345	N°	_	_
+4-3	346-347	.	_	_
+
+#Text=1027 den 9. Dezember trägst , ist kein Irrthum .
+5-1	348-352	1027	_	_
+5-2	353-356	den	_	_
+5-3	357-359	9.	*[6]	DATEmentioned[6]
+5-4	360-368	Dezember	*[6]	DATEmentioned[6]
+5-5	369-375	trägst	_	_
+5-6	376-377	,	_	_
+5-7	378-381	ist	_	_
+5-8	382-386	kein	_	_
+5-9	387-394	Irrthum	_	_
+5-10	395-396	.	_	_
+
+#Text=Sie hatten einige Namen in der letzten Liste wieder vorgeschlagen die sich schon in der früheren vorfanden .
+6-1	397-400	Sie	_	_
+6-2	401-407	hatten	_	_
+6-3	408-414	einige	_	_
+6-4	415-420	Namen	_	_
+6-5	421-423	in	_	_
+6-6	424-427	der	_	_
+6-7	428-435	letzten	_	_
+6-8	436-441	Liste	_	_
+6-9	442-448	wieder	_	_
+6-10	449-462	vorgeschlagen	_	_
+6-11	463-466	die	_	_
+6-12	467-471	sich	_	_
+6-13	472-477	schon	_	_
+6-14	478-480	in	_	_
+6-15	481-484	der	_	_
+6-16	485-493	früheren	_	_
+6-17	494-503	vorfanden	_	_
+6-18	504-505	.	_	_
+
+#Text=Daher sind auch die Nunmern 1029 . 1033. jetzt ganz ohne Inhaber .
+7-1	506-511	Daher	_	_
+7-2	512-516	sind	_	_
+7-3	517-521	auch	_	_
+7-4	522-525	die	_	_
+7-5	526-533	Nunmern	_	_
+7-6	534-538	1029	_	_
+7-7	539-540	.	_	_
+7-8	541-546	1033.	_	_
+7-9	547-552	jetzt	_	_
+7-10	553-557	ganz	_	_
+7-11	558-562	ohne	_	_
+7-12	563-570	Inhaber	_	_
+7-13	571-572	.	_	_
+
+#Text=Der Feldjäger soll wie ich höre morgen früh von hier abgehen .
+8-1	573-576	Der	_	_
+8-2	577-586	Feldjäger	_	_
+8-3	587-591	soll	_	_
+8-4	592-595	wie	_	_
+8-5	596-599	ich	_	_
+8-6	600-604	höre	_	_
+8-7	605-611	morgen	_	_
+8-8	612-616	früh	_	_
+8-9	617-620	von	_	_
+8-10	621-625	hier	_	_
+8-11	626-633	abgehen	_	_
+8-12	634-635	.	_	_
+
+#Text=Meinen gestrigen Brief werden Sie erhalten haben .
+9-1	636-642	Meinen	_	_
+9-2	643-652	gestrigen	_	_
+9-3	653-658	Brief	_	_
+9-4	659-665	werden	_	_
+9-5	666-669	Sie	_	_
+9-6	670-678	erhalten	_	_
+9-7	679-684	haben	_	_
+9-8	685-686	.	_	_
+
+#Text=Mit herzlichstem Gruß Ihr ergebenster R Lepsius Sie finden ferner unter dem 9. Dezember einen N . 1027 Bianchi , Don Pedro , sindaco , Fontanola , und einen n . 1020 Bianchi , Don Pietro , Fontanarosa \; der erste ist von Ihnen , der zweite von Dressel vorgeschla-
+10-1	687-690	Mit	_	_
+10-2	691-703	herzlichstem	_	_
+10-3	704-708	Gruß	_	_
+10-4	709-712	Ihr	_	_
+10-5	713-724	ergebenster	_	_
+10-6	725-726	R	*[7]	PERauthor[7]
+10-7	727-734	Lepsius	*[7]	PERauthor[7]
+10-8	735-738	Sie	_	_
+10-9	739-745	finden	_	_
+10-10	746-752	ferner	_	_
+10-11	753-758	unter	_	_
+10-12	759-762	dem	_	_
+10-13	763-765	9.	*[8]	DATEmentioned[8]
+10-14	766-774	Dezember	*[8]	DATEmentioned[8]
+10-15	775-780	einen	_	_
+10-16	781-782	N	_	_
+10-17	783-784	.	_	_
+10-18	785-789	1027	_	_
+10-19	790-797	Bianchi	*	PERmentioned
+10-20	798-799	,	_	_
+10-21	800-803	Don	*[9]	PERmentioned[9]
+10-22	804-809	Pedro	*[9]	PERmentioned[9]
+10-23	810-811	,	_	_
+10-24	812-819	sindaco	_	_
+10-25	820-821	,	_	_
+10-26	822-831	Fontanola	*	PERmentioned
+10-27	832-833	,	_	_
+10-28	834-837	und	_	_
+10-29	838-843	einen	_	_
+10-30	844-845	n	_	_
+10-31	846-847	.	_	_
+10-32	848-852	1020	_	_
+10-33	853-860	Bianchi	*	PERmentioned
+10-34	861-862	,	_	_
+10-35	863-866	Don	*[10]	PERmentioned[10]
+10-36	867-873	Pietro	*[10]	PERmentioned[10]
+10-37	874-875	,	_	_
+10-38	876-887	Fontanarosa	*	PLACEmentioned
+10-39	888-889	\;	_	_
+10-40	890-893	der	_	_
+10-41	894-899	erste	_	_
+10-42	900-903	ist	_	_
+10-43	904-907	von	_	_
+10-44	908-913	Ihnen	_	_
+10-45	914-915	,	_	_
+10-46	916-919	der	_	_
+10-47	920-926	zweite	_	_
+10-48	927-930	von	_	_
+10-49	931-938	Dressel	*	PERmentioned
+10-50	939-950	vorgeschla-	_	_

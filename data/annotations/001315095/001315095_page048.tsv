@@ -1,0 +1,112 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Leipzig , 26. Februar 1851 Hier das Geld , lieber Brunn .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-24	Leipzig	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	26.	*[3]	DATEletter[3]
+1-7	31-38	Februar	*[3]	DATEletter[3]
+1-8	39-43	1851	*[3]	DATEletter[3]
+1-9	44-48	Hier	_	_
+1-10	49-52	das	_	_
+1-11	53-57	Geld	_	_
+1-12	58-59	,	_	_
+1-13	60-66	lieber	_	_
+1-14	67-72	Brunn	*	PERaddressee
+1-15	73-74	.	_	_
+
+#Text=Ich bin durch den Index seit zwei Monaten so entsetzlich in Anspruch genommen , daß ich nicht schreiben kann , aber auch wirklich nicht kann .
+2-1	75-78	Ich	_	_
+2-2	79-82	bin	_	_
+2-3	83-88	durch	_	_
+2-4	89-92	den	_	_
+2-5	93-98	Index	_	_
+2-6	99-103	seit	_	_
+2-7	104-108	zwei	_	_
+2-8	109-116	Monaten	_	_
+2-9	117-119	so	_	_
+2-10	120-131	entsetzlich	_	_
+2-11	132-134	in	_	_
+2-12	135-143	Anspruch	_	_
+2-13	144-152	genommen	_	_
+2-14	153-154	,	_	_
+2-15	155-158	daß	_	_
+2-16	159-162	ich	_	_
+2-17	163-168	nicht	_	_
+2-18	169-178	schreiben	_	_
+2-19	179-183	kann	_	_
+2-20	184-185	,	_	_
+2-21	186-190	aber	_	_
+2-22	191-195	auch	_	_
+2-23	196-204	wirklich	_	_
+2-24	205-210	nicht	_	_
+2-25	211-215	kann	_	_
+2-26	216-217	.	_	_
+
+#Text=Willst Du das auch an Henzen sagen ?
+3-1	218-224	Willst	_	_
+3-2	225-227	Du	_	_
+3-3	228-231	das	_	_
+3-4	232-236	auch	_	_
+3-5	237-239	an	_	_
+3-6	240-246	Henzen	*	PERmentioned
+3-7	247-252	sagen	_	_
+3-8	253-254	?	_	_
+
+#Text=der es sich übrigens vermuthlich ohnehin gedacht hat , In vier oder fünf Tagen bin ich mit der Arbeit durch \; dann schreibe ich Dir und ihm , Lebe wohl .
+4-1	255-258	der	_	_
+4-2	259-261	es	_	_
+4-3	262-266	sich	_	_
+4-4	267-275	übrigens	_	_
+4-5	276-287	vermuthlich	_	_
+4-6	288-295	ohnehin	_	_
+4-7	296-303	gedacht	_	_
+4-8	304-307	hat	_	_
+4-9	308-309	,	_	_
+4-10	310-312	In	_	_
+4-11	313-317	vier	_	_
+4-12	318-322	oder	_	_
+4-13	323-327	fünf	_	_
+4-14	328-333	Tagen	_	_
+4-15	334-337	bin	_	_
+4-16	338-341	ich	_	_
+4-17	342-345	mit	_	_
+4-18	346-349	der	_	_
+4-19	350-356	Arbeit	_	_
+4-20	357-362	durch	_	_
+4-21	363-364	\;	_	_
+4-22	365-369	dann	_	_
+4-23	370-378	schreibe	_	_
+4-24	379-382	ich	_	_
+4-25	383-386	Dir	_	_
+4-26	387-390	und	_	_
+4-27	391-394	ihm	_	_
+4-28	395-396	,	_	_
+4-29	397-401	Lebe	_	_
+4-30	402-406	wohl	_	_
+4-31	407-408	.	_	_
+
+#Text=M , L .
+5-1	409-410	M	*[4]	PERauthor[4]
+5-2	411-412	,	*[4]	PERauthor[4]
+5-3	413-414	L	*[4]	PERauthor[4]
+5-4	415-416	.	*[4]	PERauthor[4]
+
+#Text=26 Febr .
+6-1	417-419	26	*[5]	DATEletter[5]
+6-2	420-424	Febr	*[5]	DATEletter[5]
+6-3	425-426	.	*[5]	DATEletter[5]
+
+#Text=1851 Die Berechnung mit dem nächsten Brief .
+7-1	427-431	1851	*[5]	DATEletter[5]
+7-2	432-435	Die	_	_
+7-3	436-446	Berechnung	_	_
+7-4	447-450	mit	_	_
+7-5	451-454	dem	_	_
+7-6	455-463	nächsten	_	_
+7-7	464-469	Brief	_	_
+7-8	470-471	.	_	_

@@ -1,0 +1,247 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=674 Lepsius an Henzen Berlin , 25 .
+1-1	0-3	674	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*[1]	PLACEfrom[1]
+1-6	29-30	,	_	_
+1-7	31-33	25	_	_
+1-8	34-35	.	_	_
+
+#Text=Oktober 1877 8 .
+2-1	36-43	Oktober	*[2]	DATEletter[2]
+2-2	44-48	1877	*[2]	DATEletter[2]
+2-3	49-50	8	_	_
+2-4	51-52	.	_	_
+
+#Text=29/10 77 r . 5/1 7 Berlin , den 25 .
+3-1	53-58	29/10	*[3]	DATErecieved[3]
+3-2	59-61	77	*[3]	DATErecieved[3]
+3-3	62-63	r	_	_
+3-4	64-65	.	_	_
+3-5	66-69	5/1	*[4]	DATEanswered[4]
+3-6	70-71	7	*[4]	DATEanswered[4]
+3-7	72-78	Berlin	*	PLACEfrom
+3-8	79-80	,	_	_
+3-9	81-84	den	_	_
+3-10	85-87	25	*[5]	DATEletter[5]
+3-11	88-89	.	*[5]	DATEletter[5]
+
+#Text=Okt .
+4-1	90-93	Okt	*[5]	DATEletter[5]
+4-2	94-95	.	*[5]	DATEletter[5]
+
+#Text=1877 Verehrtester Freund Wiederum nur eine vorläufige Zeile .
+5-1	96-100	1877	*[5]	DATEletter[5]
+5-2	101-113	Verehrtester	_	_
+5-3	114-120	Freund	_	_
+5-4	121-129	Wiederum	_	_
+5-5	130-133	nur	_	_
+5-6	134-138	eine	_	_
+5-7	139-149	vorläufige	_	_
+5-8	150-155	Zeile	_	_
+5-9	156-157	.	_	_
+
+#Text=Auch Ihr letzter Brief ist eingegangen und eine Anfrage von Dahn .
+6-1	158-162	Auch	_	_
+6-2	163-166	Ihr	_	_
+6-3	167-174	letzter	_	_
+6-4	175-180	Brief	_	_
+6-5	181-184	ist	_	_
+6-6	185-196	eingegangen	_	_
+6-7	197-200	und	_	_
+6-8	201-205	eine	_	_
+6-9	206-213	Anfrage	_	_
+6-10	214-217	von	_	_
+6-11	218-222	Dahn	*	PERmentioned
+6-12	223-224	.	_	_
+
+#Text=Beides wird in der nächsten Sitzung vorgelegt werden .
+7-1	225-231	Beides	_	_
+7-2	232-236	wird	_	_
+7-3	237-239	in	_	_
+7-4	240-243	der	_	_
+7-5	244-252	nächsten	_	_
+7-6	253-260	Sitzung	_	_
+7-7	261-270	vorgelegt	_	_
+7-8	271-277	werden	_	_
+7-9	278-279	.	_	_
+
+#Text=Die Iwanoff'sche Sache haben wir in der letzten Sitzung noch nicht erledigen können .
+8-1	280-283	Die	_	_
+8-2	284-296	Iwanoff'sche	*	PERmentioned
+8-3	297-302	Sache	_	_
+8-4	303-308	haben	_	_
+8-5	309-312	wir	_	_
+8-6	313-315	in	_	_
+8-7	316-319	der	_	_
+8-8	320-327	letzten	_	_
+8-9	328-335	Sitzung	_	_
+8-10	336-340	noch	_	_
+8-11	341-346	nicht	_	_
+8-12	347-356	erledigen	_	_
+8-13	357-363	können	_	_
+8-14	364-365	.	_	_
+
+#Text=Minister Krüger will weitere Erkundigungen einziehen und nächsten Montag referiren .
+9-1	366-374	Minister	_	_
+9-2	375-381	Krüger	*	PERmentioned
+9-3	382-386	will	_	_
+9-4	387-394	weitere	_	_
+9-5	395-408	Erkundigungen	_	_
+9-6	409-418	einziehen	_	_
+9-7	419-422	und	_	_
+9-8	423-431	nächsten	_	_
+9-9	432-438	Montag	_	_
+9-10	439-448	referiren	_	_
+9-11	449-450	.	_	_
+
+#Text=Ich habe jetzt die wesentlichen praktischen Geschäfte an Conze übergeben .
+10-1	451-454	Ich	_	_
+10-2	455-459	habe	_	_
+10-3	460-465	jetzt	_	_
+10-4	466-469	die	_	_
+10-5	470-482	wesentlichen	_	_
+10-6	483-494	praktischen	_	_
+10-7	495-504	Geschäfte	_	_
+10-8	505-507	an	_	_
+10-9	508-513	Conze	*	PERmentioned
+10-10	514-523	übergeben	_	_
+10-11	524-525	.	_	_
+
+#Text=Er wird hiefür unser Schriftführer oder Sekretar sein , ohne jedoch einen besonderen Namen zu führen .
+11-1	526-528	Er	_	_
+11-2	529-533	wird	_	_
+11-3	534-540	hiefür	_	_
+11-4	541-546	unser	_	_
+11-5	547-560	Schriftführer	_	_
+11-6	561-565	oder	_	_
+11-7	566-574	Sekretar	_	_
+11-8	575-579	sein	_	_
+11-9	580-581	,	_	_
+11-10	582-586	ohne	_	_
+11-11	587-593	jedoch	_	_
+11-12	594-599	einen	_	_
+11-13	600-610	besonderen	_	_
+11-14	611-616	Namen	_	_
+11-15	617-619	zu	_	_
+11-16	620-626	führen	_	_
+11-17	627-628	.	_	_
+
+#Text=Da ich den Vorsitz , den ich auch abzugeben wünschte , behalten soll , und vorläufig bis zur Generalversammlung behalten muß , so werden wir uns eben beide mit einander verständigen über die Vorlagen .
+12-1	629-631	Da	_	_
+12-2	632-635	ich	_	_
+12-3	636-639	den	_	_
+12-4	640-647	Vorsitz	_	_
+12-5	648-649	,	_	_
+12-6	650-653	den	_	_
+12-7	654-657	ich	_	_
+12-8	658-662	auch	_	_
+12-9	663-672	abzugeben	_	_
+12-10	673-681	wünschte	_	_
+12-11	682-683	,	_	_
+12-12	684-692	behalten	_	_
+12-13	693-697	soll	_	_
+12-14	698-699	,	_	_
+12-15	700-703	und	_	_
+12-16	704-713	vorläufig	_	_
+12-17	714-717	bis	_	_
+12-18	718-721	zur	_	_
+12-19	722-740	Generalversammlung	_	_
+12-20	741-749	behalten	_	_
+12-21	750-753	muß	_	_
+12-22	754-755	,	_	_
+12-23	756-758	so	_	_
+12-24	759-765	werden	_	_
+12-25	766-769	wir	_	_
+12-26	770-773	uns	_	_
+12-27	774-778	eben	_	_
+12-28	779-784	beide	_	_
+12-29	785-788	mit	_	_
+12-30	789-797	einander	_	_
+12-31	798-810	verständigen	_	_
+12-32	811-815	über	_	_
+12-33	816-819	die	_	_
+12-34	820-828	Vorlagen	_	_
+12-35	829-830	.	_	_
+
+#Text=Es ist daher fernerhin ziemlich gleich , ob Sie an mich oder Conze schreiben , da es jeder dem andern mittheilt .
+13-1	831-833	Es	_	_
+13-2	834-837	ist	_	_
+13-3	838-843	daher	_	_
+13-4	844-853	fernerhin	_	_
+13-5	854-862	ziemlich	_	_
+13-6	863-869	gleich	_	_
+13-7	870-871	,	_	_
+13-8	872-874	ob	_	_
+13-9	875-878	Sie	_	_
+13-10	879-881	an	_	_
+13-11	882-886	mich	_	_
+13-12	887-891	oder	_	_
+13-13	892-897	Conze	*	PERmentioned
+13-14	898-907	schreiben	_	_
+13-15	908-909	,	_	_
+13-16	910-912	da	_	_
+13-17	913-915	es	_	_
+13-18	916-921	jeder	_	_
+13-19	922-925	dem	_	_
+13-20	926-932	andern	_	_
+13-21	933-942	mittheilt	_	_
+13-22	943-944	.	_	_
+
+#Text=Wollen Sie dieses vorläufige Privatabkommen zwischen uns auch Helbig mittheilen , dessen Brief über den Sarkophag ich Curtius und Conze mitgetheilt habe .
+14-1	945-951	Wollen	_	_
+14-2	952-955	Sie	_	_
+14-3	956-962	dieses	_	_
+14-4	963-973	vorläufige	_	_
+14-5	974-988	Privatabkommen	_	_
+14-6	989-997	zwischen	_	_
+14-7	998-1001	uns	_	_
+14-8	1002-1006	auch	_	_
+14-9	1007-1013	Helbig	*	PERmentioned
+14-10	1014-1024	mittheilen	_	_
+14-11	1025-1026	,	_	_
+14-12	1027-1033	dessen	_	_
+14-13	1034-1039	Brief	_	_
+14-14	1040-1044	über	_	_
+14-15	1045-1048	den	_	_
+14-16	1049-1058	Sarkophag	*	OBJ
+14-17	1059-1062	ich	_	_
+14-18	1063-1070	Curtius	*	PERmentioned
+14-19	1071-1074	und	_	_
+14-20	1075-1080	Conze	*	PERmentioned
+14-21	1081-1092	mitgetheilt	_	_
+14-22	1093-1097	habe	_	_
+14-23	1098-1099	.	_	_
+
+#Text=letzteren geht die Sache zunächst an \; er wird ihm also antworten .
+15-1	1100-1109	letzteren	_	_
+15-2	1110-1114	geht	_	_
+15-3	1115-1118	die	_	_
+15-4	1119-1124	Sache	_	_
+15-5	1125-1133	zunächst	_	_
+15-6	1134-1136	an	_	_
+15-7	1137-1138	\;	_	_
+15-8	1139-1141	er	_	_
+15-9	1142-1146	wird	_	_
+15-10	1147-1150	ihm	_	_
+15-11	1151-1155	also	_	_
+15-12	1156-1165	antworten	_	_
+15-13	1166-1167	.	_	_
+
+#Text=Ich schreibe Ihnen also nächste Woche mehr , oder Conze .
+16-1	1168-1171	Ich	_	_
+16-2	1172-1180	schreibe	_	_
+16-3	1181-1186	Ihnen	_	_
+16-4	1187-1191	also	_	_
+16-5	1192-1199	nächste	_	_
+16-6	1200-1205	Woche	_	_
+16-7	1206-1210	mehr	_	_
+16-8	1211-1212	,	_	_
+16-9	1213-1217	oder	_	_
+16-10	1218-1223	Conze	*	PERmentioned
+16-11	1224-1225	.	_	_

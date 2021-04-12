@@ -1,0 +1,62 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1015 Braun an Gerhard Rom , 3. November 1835 - 10 - tut und auch einiges für Privatrechnungen .
+1-1	0-4	1015	_	_
+1-2	5-10	Braun	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-25	Rom	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	3.	*[5]	DATEletter[5]
+1-8	31-39	November	*[5]	DATEletter[5]
+1-9	40-44	1835	*[5]	DATEletter[5]
+1-10	45-46	-	_	_
+1-11	47-49	10	_	_
+1-12	50-51	-	_	_
+1-13	52-55	tut	*	ORGmentioned
+1-14	56-59	und	_	_
+1-15	60-64	auch	_	_
+1-16	65-72	einiges	_	_
+1-17	73-76	für	_	_
+1-18	77-93	Privatrechnungen	_	_
+1-19	94-95	.	_	_
+
+#Text=Daß ich Ihnen Ihre Privatrechnungen nicht habe gesondert halten können entschuldigen Sie aus dem Geschäftsdrang und aus der Gewohnheit auch hierin am alten und an dem mir von Lanci eingewiesenen festzuhalten .
+2-1	96-99	Daß	_	_
+2-2	100-103	ich	_	_
+2-3	104-109	Ihnen	_	_
+2-4	110-114	Ihre	_	_
+2-5	115-131	Privatrechnungen	_	_
+2-6	132-137	nicht	_	_
+2-7	138-142	habe	_	_
+2-8	143-152	gesondert	_	_
+2-9	153-159	halten	_	_
+2-10	160-166	können	_	_
+2-11	167-180	entschuldigen	_	_
+2-12	181-184	Sie	_	_
+2-13	185-188	aus	_	_
+2-14	189-192	dem	_	_
+2-15	193-207	Geschäftsdrang	_	_
+2-16	208-211	und	_	_
+2-17	212-215	aus	_	_
+2-18	216-219	der	_	_
+2-19	220-230	Gewohnheit	_	_
+2-20	231-235	auch	_	_
+2-21	236-242	hierin	_	_
+2-22	243-245	am	_	_
+2-23	246-251	alten	_	_
+2-24	252-255	und	_	_
+2-25	256-258	an	_	_
+2-26	259-262	dem	_	_
+2-27	263-266	mir	_	_
+2-28	267-270	von	_	_
+2-29	271-276	Lanci	*	PERmentioned
+2-30	277-290	eingewiesenen	_	_
+2-31	291-303	festzuhalten	_	_
+2-32	304-305	.	_	_
+
+#Text=& Braun
+3-1	306-307	&	_	_
+3-2	308-313	Braun	*	PERauthor

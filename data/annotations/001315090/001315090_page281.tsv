@@ -1,0 +1,52 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=329 Lepsius an Henzen Berlin , 13. Juni 1876 Grüßen Sie Mommsen herzlich , wenn er noch bei Ihnen ist .
+1-1	0-3	329	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	13.	*[3]	DATEletter[3]
+1-8	35-39	Juni	*[3]	DATEletter[3]
+1-9	40-44	1876	*[3]	DATEletter[3]
+1-10	45-51	Grüßen	_	_
+1-11	52-55	Sie	_	_
+1-12	56-63	Mommsen	*	PERmentioned
+1-13	64-72	herzlich	_	_
+1-14	73-74	,	_	_
+1-15	75-79	wenn	_	_
+1-16	80-82	er	_	_
+1-17	83-87	noch	_	_
+1-18	88-91	bei	_	_
+1-19	92-97	Ihnen	_	_
+1-20	98-101	ist	_	_
+1-21	102-103	.	_	_
+
+#Text=Stets der Ihrige R Lepsius Am Rande Sonnenbrand und Gewitterfluthen wechseln in Dar diesen Tagen des Übergangs zum wirklichen Sommers .
+2-1	104-109	Stets	_	_
+2-2	110-113	der	_	_
+2-3	114-120	Ihrige	_	_
+2-4	121-122	R	*[4]	PERauthor[4]
+2-5	123-130	Lepsius	*[4]	PERauthor[4]
+2-6	131-133	Am	_	_
+2-7	134-139	Rande	_	_
+2-8	140-151	Sonnenbrand	_	_
+2-9	152-155	und	_	_
+2-10	156-171	Gewitterfluthen	_	_
+2-11	172-180	wechseln	_	_
+2-12	181-183	in	_	_
+2-13	184-187	Dar	_	_
+2-14	188-194	diesen	_	_
+2-15	195-200	Tagen	_	_
+2-16	201-204	des	_	_
+2-17	205-214	Übergangs	_	_
+2-18	215-218	zum	_	_
+2-19	219-229	wirklichen	_	_
+2-20	230-237	Sommers	_	_
+2-21	238-239	.	_	_
+
+#Text=vv
+3-1	240-242	vv	_	_

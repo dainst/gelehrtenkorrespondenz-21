@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=273 Lepsius an Henzen Berlin , 19. April 1879 g . 21/4 79 Berlin , den 19 .
+1-1	0-3	273	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	19.	*[1]	DATEletter[1]
+1-8	35-40	April	*[1]	DATEletter[1]
+1-9	41-45	1879	*[1]	DATEletter[1]
+1-10	46-47	g	_	_
+1-11	48-49	.	_	_
+1-12	50-54	21/4	*[2]	DATErecieved[2]
+1-13	55-57	79	*[2]	DATErecieved[2]
+1-14	58-64	Berlin	*	PLACEfrom
+1-15	65-66	,	_	_
+1-16	67-70	den	_	_
+1-17	71-73	19	*[3]	DATEmentioned[3]
+1-18	74-75	.	*[3]	DATEmentioned[3]
+
+#Text=Apr .
+2-1	76-79	Apr	*[3]	DATEmentioned[3]
+2-2	80-81	.	*[3]	DATEmentioned[3]
+
+#Text=1879 Verehrter Freund Ich erhalte so eben einen Brief von Köhler vom 11.20 .
+3-1	82-86	1879	*[3]	DATEmentioned[3]
+3-2	87-96	Verehrter	_	_
+3-3	97-103	Freund	_	_
+3-4	104-107	Ich	_	_
+3-5	108-115	erhalte	_	_
+3-6	116-118	so	_	_
+3-7	119-123	eben	_	_
+3-8	124-129	einen	_	_
+3-9	130-135	Brief	_	_
+3-10	136-139	von	_	_
+3-11	140-146	Köhler	*	PERmentioned
+3-12	147-150	vom	_	_
+3-13	151-156	11.20	*[4]	DATEmentioned[4]
+3-14	157-158	.	_	_
+
+#Text=‚ „ worin er ausführlich auseinandersetzt , warum es ihm unzweckmäßig erscheint , Herrn Stamatakis , der erst im vergangenen Jahre mit großer Freude die auf seinen Vorschlag erfolgte Ernennung zum Korrespondenten aufgenommen habe , jetzt schon zum ord .
+4-1	159-160	‚	_	_
+4-2	161-162	„	_	_
+4-3	163-168	worin	_	_
+4-4	169-171	er	_	_
+4-5	172-183	ausführlich	_	_
+4-6	184-200	auseinandersetzt	_	_
+4-7	201-202	,	_	_
+4-8	203-208	warum	_	_
+4-9	209-211	es	_	_
+4-10	212-215	ihm	_	_
+4-11	216-228	unzweckmäßig	_	_
+4-12	229-238	erscheint	_	_
+4-13	239-240	,	_	_
+4-14	241-246	Herrn	_	_
+4-15	247-257	Stamatakis	*	PERmentioned
+4-16	258-259	,	_	_
+4-17	260-263	der	_	_
+4-18	264-268	erst	_	_
+4-19	269-271	im	_	_
+4-20	272-283	vergangenen	_	_
+4-21	284-289	Jahre	_	_
+4-22	290-293	mit	_	_
+4-23	294-300	großer	_	_
+4-24	301-307	Freude	_	_
+4-25	308-311	die	_	_
+4-26	312-315	auf	_	_
+4-27	316-322	seinen	_	_
+4-28	323-332	Vorschlag	_	_
+4-29	333-341	erfolgte	_	_
+4-30	342-351	Ernennung	_	_
+4-31	352-355	zum	_	_
+4-32	356-371	Korrespondenten	_	_
+4-33	372-383	aufgenommen	_	_
+4-34	384-388	habe	_	_
+4-35	389-390	,	_	_
+4-36	391-396	jetzt	_	_
+4-37	397-402	schon	_	_
+4-38	403-406	zum	_	_
+4-39	407-410	ord	_	_
+4-40	411-412	.	_	_
+
+#Text=Mitglied zu machen .
+5-1	413-421	Mitglied	_	_
+5-2	422-424	zu	_	_
+5-3	425-431	machen	_	_
+5-4	432-433	.	_	_
+
+#Text=Es würde dies in Athen geradezu Anstoß erregen .
+6-1	434-436	Es	_	_
+6-2	437-442	würde	_	_
+6-3	443-447	dies	_	_
+6-4	448-450	in	_	_
+6-5	451-456	Athen	*	PLACEmentioned
+6-6	457-465	geradezu	_	_
+6-7	466-472	Anstoß	_	_
+6-8	473-480	erregen	_	_
+6-9	481-482	.	_	_
+
+#Text=Ebenso hält er es für richtig Herrn Dimitoiadäs , der bisher keine Berührung mit dem Institut gehabt habe , zum Korrespondenten , statt zum ord .
+7-1	483-489	Ebenso	_	_
+7-2	490-494	hält	_	_
+7-3	495-497	er	_	_
+7-4	498-500	es	_	_
+7-5	501-504	für	_	_
+7-6	505-512	richtig	_	_
+7-7	513-518	Herrn	_	_
+7-8	519-530	Dimitoiadäs	*	PERmentioned
+7-9	531-532	,	_	_
+7-10	533-536	der	_	_
+7-11	537-543	bisher	_	_
+7-12	544-549	keine	_	_
+7-13	550-559	Berührung	_	_
+7-14	560-563	mit	_	_
+7-15	564-567	dem	_	_
+7-16	568-576	Institut	*	ORGmentioned
+7-17	577-583	gehabt	_	_
+7-18	584-588	habe	_	_
+7-19	589-590	,	_	_
+7-20	591-594	zum	_	_
+7-21	595-610	Korrespondenten	_	_
+7-22	611-612	,	_	_
+7-23	613-618	statt	_	_
+7-24	619-622	zum	_	_
+7-25	623-626	ord	_	_
+7-26	627-628	.	_	_
+
+#Text=Mitglied zu ernennen .
+8-1	629-637	Mitglied	_	_
+8-2	638-640	zu	_	_
+8-3	641-649	ernennen	_	_
+8-4	650-651	.	_	_
+
+#Text=Unliebsame Erfahrungen hätten ihn belehrt , daß bei der Ernennung von Instituts Mitgliedern in Griechenland mit größerer Vorsüäht verfahren werden müsse als vielleicht in andern Ländern .
+9-1	652-662	Unliebsame	_	_
+9-2	663-674	Erfahrungen	_	_
+9-3	675-681	hätten	_	_
+9-4	682-685	ihn	_	_
+9-5	686-693	belehrt	_	_
+9-6	694-695	,	_	_
+9-7	696-699	daß	_	_
+9-8	700-703	bei	_	_
+9-9	704-707	der	_	_
+9-10	708-717	Ernennung	_	_
+9-11	718-721	von	_	_
+9-12	722-731	Instituts	*	ORGmentioned
+9-13	732-743	Mitgliedern	_	_
+9-14	744-746	in	_	_
+9-15	747-759	Griechenland	*	PLACEmentioned
+9-16	760-763	mit	_	_
+9-17	764-772	größerer	_	_
+9-18	773-781	Vorsüäht	_	_
+9-19	782-791	verfahren	_	_
+9-20	792-798	werden	_	_
+9-21	799-804	müsse	_	_
+9-22	805-808	als	_	_
+9-23	809-819	vielleicht	_	_
+9-24	820-822	in	_	_
+9-25	823-829	andern	_	_
+9-26	830-837	Ländern	_	_
+9-27	838-839	.	_	_
+
+#Text=Da Köhler ausdrücklich zur Begutachtung aufgefordert war , so wird seine Stimme ohne Zweifel entscheidend sein müssen - wenn noch Zeit ist , die Namen zurückzu halten .
+10-1	840-842	Da	_	_
+10-2	843-849	Köhler	*	PERmentioned
+10-3	850-862	ausdrücklich	_	_
+10-4	863-866	zur	_	_
+10-5	867-879	Begutachtung	_	_
+10-6	880-892	aufgefordert	_	_
+10-7	893-896	war	_	_
+10-8	897-898	,	_	_
+10-9	899-901	so	_	_
+10-10	902-906	wird	_	_
+10-11	907-912	seine	_	_
+10-12	913-919	Stimme	_	_
+10-13	920-924	ohne	_	_
+10-14	925-932	Zweifel	_	_
+10-15	933-945	entscheidend	_	_
+10-16	946-950	sein	_	_
+10-17	951-957	müssen	_	_
+10-18	958-959	-	_	_
+10-19	960-964	wenn	_	_
+10-20	965-969	noch	_	_
+10-21	970-974	Zeit	_	_
+10-22	975-978	ist	_	_
+10-23	979-980	,	_	_
+10-24	981-984	die	_	_
+10-25	985-990	Namen	_	_
+10-26	991-999	zurückzu	_	_
+10-27	1000-1006	halten	_	_
+10-28	1007-1008	.	_	_
+
+#Text=Ob ich vor Abgang dieser Zeilen noch ein Direktionsmitglied hier erlangen kann , ist mir zweifelhaft .
+11-1	1009-1011	Ob	_	_
+11-2	1012-1015	ich	_	_
+11-3	1016-1019	vor	_	_
+11-4	1020-1026	Abgang	_	_
+11-5	1027-1033	dieser	_	_
+11-6	1034-1040	Zeilen	_	_
+11-7	1041-1045	noch	_	_
+11-8	1046-1049	ein	_	_
+11-9	1050-1068	Direktionsmitglied	_	_
+11-10	1069-1073	hier	_	_
+11-11	1074-1082	erlangen	_	_
+11-12	1083-1087	kann	_	_
+11-13	1088-1089	,	_	_
+11-14	1090-1093	ist	_	_
+11-15	1094-1097	mir	_	_
+11-16	1098-1109	zweifelhaft	_	_
+11-17	1110-1111	.	_	_
+
+#Text=Der Ihrige R Lepsius
+12-1	1112-1115	Der	_	_
+12-2	1116-1122	Ihrige	_	_
+12-3	1123-1124	R	*[5]	PERauthor[5]
+12-4	1125-1132	Lepsius	*[5]	PERauthor[5]

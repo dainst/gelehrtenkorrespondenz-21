@@ -1,0 +1,128 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ko OR \| Ohne Nummer Henzen an Gerhard 31/V11/55 Exemplar zu liefern .
+1-1	0-2	Ko	_	_
+1-2	3-5	OR	_	_
+1-3	6-7	\|	_	_
+1-4	8-12	Ohne	_	_
+1-5	13-19	Nummer	_	_
+1-6	20-26	Henzen	*	PERauthor
+1-7	27-29	an	_	_
+1-8	30-37	Gerhard	*	PERaddressee
+1-9	38-47	31/V11/55	*	DATEletter
+1-10	48-56	Exemplar	_	_
+1-11	57-59	zu	_	_
+1-12	60-67	liefern	_	_
+1-13	68-69	.	_	_
+
+#Text=Es sei jetzt die beste Gelegenheit , es nach Rom zu schicken \; doch müsse ich es binnen 10 - 12 Tagen haben .
+2-1	70-72	Es	_	_
+2-2	73-76	sei	_	_
+2-3	77-82	jetzt	_	_
+2-4	83-86	die	_	_
+2-5	87-92	beste	_	_
+2-6	93-104	Gelegenheit	_	_
+2-7	105-106	,	_	_
+2-8	107-109	es	_	_
+2-9	110-114	nach	_	_
+2-10	115-118	Rom	*	PLACEmentioned
+2-11	119-121	zu	_	_
+2-12	122-130	schicken	_	_
+2-13	131-132	\;	_	_
+2-14	133-137	doch	_	_
+2-15	138-143	müsse	_	_
+2-16	144-147	ich	_	_
+2-17	148-150	es	_	_
+2-18	151-157	binnen	_	_
+2-19	158-160	10	_	_
+2-20	161-162	-	_	_
+2-21	163-165	12	_	_
+2-22	166-171	Tagen	_	_
+2-23	172-177	haben	_	_
+2-24	178-179	.	_	_
+
+#Text=Eben geht A bro weg , der mich eine Stunde lang unter= , resp .
+3-1	180-184	Eben	_	_
+3-2	185-189	geht	_	_
+3-3	190-191	A	_	_
+3-4	192-195	bro	_	_
+3-5	196-199	weg	_	_
+3-6	200-201	,	_	_
+3-7	202-205	der	_	_
+3-8	206-210	mich	_	_
+3-9	211-215	eine	_	_
+3-10	216-222	Stunde	_	_
+3-11	223-227	lang	_	_
+3-12	228-234	unter=	_	_
+3-13	235-236	,	_	_
+3-14	237-241	resp	_	_
+3-15	242-243	.	_	_
+
+#Text=aufgehalten .
+4-1	244-255	aufgehalten	_	_
+4-2	256-257	.	_	_
+
+#Text=Daher kurz zum Schluß .
+5-1	258-263	Daher	_	_
+5-2	264-268	kurz	_	_
+5-3	269-272	zum	_	_
+5-4	273-279	Schluß	_	_
+5-5	280-281	.	_	_
+
+#Text=Herzliche Empfehlungen an Ihre 1 .
+6-1	282-291	Herzliche	_	_
+6-2	292-304	Empfehlungen	_	_
+6-3	305-307	an	_	_
+6-4	308-312	Ihre	_	_
+6-5	313-314	1	_	_
+6-6	315-316	.	_	_
+
+#Text=Frau u. für Ihre beiderseitige Freundlichkeit besten Dank .
+7-1	317-321	Frau	_	_
+7-2	322-324	u.	_	_
+7-3	325-328	für	_	_
+7-4	329-333	Ihre	_	_
+7-5	334-347	beiderseitige	_	_
+7-6	348-362	Freundlichkeit	_	_
+7-7	363-369	besten	_	_
+7-8	370-374	Dank	_	_
+7-9	375-376	.	_	_
+
+#Text=Möchten wir sie in Rom erwiedern können .
+8-1	377-384	Möchten	_	_
+8-2	385-388	wir	_	_
+8-3	389-392	sie	_	_
+8-4	393-395	in	_	_
+8-5	396-399	Rom	*	PLACEmentioned
+8-6	400-409	erwiedern	_	_
+8-7	410-416	können	_	_
+8-8	417-418	.	_	_
+
+#Text=Mommsen wünscht , seine Notizen ohne seinen Namen benutzt \; sie sind schnell hingeworfen .
+9-1	419-426	Mommsen	*	PERmentioned
+9-2	427-434	wünscht	_	_
+9-3	435-436	,	_	_
+9-4	437-442	seine	_	_
+9-5	443-450	Notizen	_	_
+9-6	451-455	ohne	_	_
+9-7	456-462	seinen	_	_
+9-8	463-468	Namen	_	_
+9-9	469-476	benutzt	_	_
+9-10	477-478	\;	_	_
+9-11	479-482	sie	_	_
+9-12	483-487	sind	_	_
+9-13	488-495	schnell	_	_
+9-14	496-507	hingeworfen	_	_
+9-15	508-509	.	_	_
+
+#Text=Ihr Breslau 31/VII 55 .
+10-1	510-513	Ihr	_	_
+10-2	514-521	Breslau	*	PLACEfrom
+10-3	522-528	31/VII	*[1]	DATEletter[1]
+10-4	529-531	55	*[1]	DATEletter[1]
+10-5	532-533	.	_	_
+
+#Text=WHenzen
+11-1	534-541	WHenzen	*	PERauthor

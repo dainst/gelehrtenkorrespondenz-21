@@ -1,0 +1,54 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=301 Braun an Gerhard Rom , 9. April 1836 neuen Künstlers \; \] ANPAOE für 18 Scudi in Kauf bekommen .
+1-1	0-3	301	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	9.	*[3]	DATEletter[3]
+1-8	30-35	April	*[3]	DATEletter[3]
+1-9	36-40	1836	*[3]	DATEletter[3]
+1-10	41-46	neuen	_	_
+1-11	47-56	Künstlers	_	_
+1-12	57-58	\;	_	_
+1-13	59-60	\]	_	_
+1-14	61-67	ANPAOE	_	_
+1-15	68-71	für	_	_
+1-16	72-74	18	_	_
+1-17	75-80	Scudi	_	_
+1-18	81-83	in	_	_
+1-19	84-88	Kauf	_	_
+1-20	89-97	bekommen	_	_
+1-21	98-99	.	_	_
+
+#Text=Ist Ihnen damit gedient ?
+2-1	100-103	Ist	_	_
+2-2	104-109	Ihnen	_	_
+2-3	110-115	damit	_	_
+2-4	116-123	gedient	_	_
+2-5	124-125	?	_	_
+
+#Text=Veber einige die Todtenstatue angehende Entdekungen schließe ich vielleicht noch einige Zeilen bei .
+3-1	126-131	Veber	_	_
+3-2	132-138	einige	_	_
+3-3	139-142	die	_	_
+3-4	143-155	Todtenstatue	*	OBJ
+3-5	156-165	angehende	_	_
+3-6	166-177	Entdekungen	_	_
+3-7	178-186	schließe	_	_
+3-8	187-190	ich	_	_
+3-9	191-201	vielleicht	_	_
+3-10	202-206	noch	_	_
+3-11	207-213	einige	_	_
+3-12	214-220	Zeilen	_	_
+3-13	221-224	bei	_	_
+3-14	225-226	.	_	_
+
+#Text=Ihr Braun .
+4-1	227-230	Ihr	_	_
+4-2	231-236	Braun	*	PERauthor
+4-3	237-238	.	_	_

@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=368 Brunn an Henzen Berlin , 7 .
+1-1	0-3	368	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	7	*[1]	DATEletter[1]
+1-8	31-32	.	*[1]	DATEletter[1]
+
+#Text=August 1864 Gegen meine Aeneas-Erklärung wehrt sich Mommsen mit Händen und Füßen .
+2-1	33-39	August	*[1]	DATEletter[1]
+2-2	40-44	1864	*[1]	DATEletter[1]
+2-3	45-50	Gegen	_	_
+2-4	51-56	meine	_	_
+2-5	57-73	Aeneas-Erklärung	_	_
+2-6	74-79	wehrt	_	_
+2-7	80-84	sich	_	_
+2-8	85-92	Mommsen	*	PERmentioned
+2-9	93-96	mit	_	_
+2-10	97-103	Händen	_	_
+2-11	104-107	und	_	_
+2-12	108-113	Füßen	_	_
+2-13	114-115	.	_	_
+
+#Text=Ich werde darum auf einige Dinge schärfer eingehen müssen als ich es sonst wohl gethan hätte .
+3-1	116-119	Ich	_	_
+3-2	120-125	werde	_	_
+3-3	126-131	darum	_	_
+3-4	132-135	auf	_	_
+3-5	136-142	einige	_	_
+3-6	143-148	Dinge	_	_
+3-7	149-157	schärfer	_	_
+3-8	158-166	eingehen	_	_
+3-9	167-173	müssen	_	_
+3-10	174-177	als	_	_
+3-11	178-181	ich	_	_
+3-12	182-184	es	_	_
+3-13	185-190	sonst	_	_
+3-14	191-195	wohl	_	_
+3-15	196-202	gethan	_	_
+3-16	203-208	hätte	_	_
+3-17	209-210	.	_	_
+
+#Text=Bötticher leider nicht hier \; auch Stuler nicht .
+4-1	211-220	Bötticher	*	PERmentioned
+4-2	221-227	leider	_	_
+4-3	228-233	nicht	_	_
+4-4	234-238	hier	_	_
+4-5	239-240	\;	_	_
+4-6	241-245	auch	_	_
+4-7	246-252	Stuler	*	PERmentioned
+4-8	253-258	nicht	_	_
+4-9	259-260	.	_	_
+
+#Text=Vielleicht schafft uns aber Strack Nachricht über Lletarouilly .
+5-1	261-271	Vielleicht	_	_
+5-2	272-279	schafft	_	_
+5-3	280-283	uns	_	_
+5-4	284-288	aber	_	_
+5-5	289-295	Strack	*	PERmentioned
+5-6	296-305	Nachricht	_	_
+5-7	306-310	über	_	_
+5-8	311-323	Lletarouilly	*	PERmentioned
+5-9	324-325	.	_	_
+
+#Text=Die andern Bücher sind bis auf eins vom Ministerium bewilligt .
+6-1	326-329	Die	_	_
+6-2	330-336	andern	_	_
+6-3	337-343	Bücher	_	_
+6-4	344-348	sind	_	_
+6-5	349-352	bis	_	_
+6-6	353-356	auf	_	_
+6-7	357-361	eins	_	_
+6-8	362-365	vom	_	_
+6-9	366-377	Ministerium	*	ORGmentioned
+6-10	378-387	bewilligt	_	_
+6-11	388-389	.	_	_
+
+#Text=- Spiro , die Hauptperson in Calvary's Geschäft , ist leider gestorben .
+7-1	390-391	-	_	_
+7-2	392-397	Spiro	*	PERmentioned
+7-3	398-399	,	_	_
+7-4	400-403	die	_	_
+7-5	404-415	Hauptperson	_	_
+7-6	416-418	in	_	_
+7-7	419-428	Calvary's	*	PERmentioned
+7-8	429-437	Geschäft	_	_
+7-9	438-439	,	_	_
+7-10	440-443	ist	_	_
+7-11	444-450	leider	_	_
+7-12	451-460	gestorben	_	_
+7-13	461-462	.	_	_
+
+#Text=- Was von Büchern ec . hier für uns vorhanden ist , lasse ich nach Oranienbaun dirigiren , von wo ich doch eine Kiste nach Rom werde expediren müssen .
+8-1	463-464	-	_	_
+8-2	465-468	Was	_	_
+8-3	469-472	von	_	_
+8-4	473-480	Büchern	_	_
+8-5	481-483	ec	_	_
+8-6	484-485	.	_	_
+8-7	486-490	hier	_	_
+8-8	491-494	für	_	_
+8-9	495-498	uns	_	_
+8-10	499-508	vorhanden	_	_
+8-11	509-512	ist	_	_
+8-12	513-514	,	_	_
+8-13	515-520	lasse	_	_
+8-14	521-524	ich	_	_
+8-15	525-529	nach	_	_
+8-16	530-541	Oranienbaun	*	PLACEmentioned
+8-17	542-551	dirigiren	_	_
+8-18	552-553	,	_	_
+8-19	554-557	von	_	_
+8-20	558-560	wo	_	_
+8-21	561-564	ich	_	_
+8-22	565-569	doch	_	_
+8-23	570-574	eine	_	_
+8-24	575-580	Kiste	_	_
+8-25	581-585	nach	_	_
+8-26	586-589	Rom	*	PLACEmentioned
+8-27	590-595	werde	_	_
+8-28	596-605	expediren	_	_
+8-29	606-612	müssen	_	_
+8-30	613-614	.	_	_
+
+#Text=Eine separate Bücherkiste von Berlin können wir doch in diesem Jahre nicht schicken lassen .
+9-1	615-619	Eine	_	_
+9-2	620-628	separate	_	_
+9-3	629-640	Bücherkiste	_	_
+9-4	641-644	von	_	_
+9-5	645-651	Berlin	*	PLACEmentioned
+9-6	652-658	können	_	_
+9-7	659-662	wir	_	_
+9-8	663-667	doch	_	_
+9-9	668-670	in	_	_
+9-10	671-677	diesem	_	_
+9-11	678-683	Jahre	_	_
+9-12	684-689	nicht	_	_
+9-13	690-698	schicken	_	_
+9-14	699-705	lassen	_	_
+9-15	706-707	.	_	_
+
+#Text=Von Oranienbaum werde ich endlich auch einmal einen schönen Schreibebrief an Nino und Maricuccia erlassen , die gewiß einmal etwas mehr über die pupi hören wollen .
+10-1	708-711	Von	_	_
+10-2	712-723	Oranienbaum	*	PLACEmentioned
+10-3	724-729	werde	_	_
+10-4	730-733	ich	_	_
+10-5	734-741	endlich	_	_
+10-6	742-746	auch	_	_
+10-7	747-753	einmal	_	_
+10-8	754-759	einen	_	_
+10-9	760-767	schönen	_	_
+10-10	768-781	Schreibebrief	_	_
+10-11	782-784	an	_	_
+10-12	785-789	Nino	*	PERmentioned
+10-13	790-793	und	_	_
+10-14	794-804	Maricuccia	*	PERmentioned
+10-15	805-813	erlassen	_	_
+10-16	814-815	,	_	_
+10-17	816-819	die	_	_
+10-18	820-825	gewiß	_	_
+10-19	826-832	einmal	_	_
+10-20	833-838	etwas	_	_
+10-21	839-843	mehr	_	_
+10-22	844-848	über	_	_
+10-23	849-852	die	_	_
+10-24	853-857	pupi	_	_
+10-25	858-863	hören	_	_
+10-26	864-870	wollen	_	_
+10-27	871-872	.	_	_
+
+#Text=Rosa 's meine Glückwünsche : der capitolinischen zu ihrer , wie Zumpt berichtet , bevorstehenden Hochzeit , dem palatinischen zum Torso .
+11-1	873-877	Rosa	*[3]	PERmentioned[3]
+11-2	878-880	's	*[3]	PERmentioned[3]
+11-3	881-886	meine	_	_
+11-4	887-899	Glückwünsche	_	_
+11-5	900-901	:	_	_
+11-6	902-905	der	_	_
+11-7	906-921	capitolinischen	_	_
+11-8	922-924	zu	_	_
+11-9	925-930	ihrer	_	_
+11-10	931-932	,	_	_
+11-11	933-936	wie	_	_
+11-12	937-942	Zumpt	*	PERmentioned
+11-13	943-952	berichtet	_	_
+11-14	953-954	,	_	_
+11-15	955-969	bevorstehenden	_	_
+11-16	970-978	Hochzeit	_	_
+11-17	979-980	,	_	_
+11-18	981-984	dem	_	_
+11-19	985-998	palatinischen	_	_
+11-20	999-1002	zum	_	_
+11-21	1003-1008	Torso	_	_
+11-22	1009-1010	.	_	_
+
+#Text=So viel für heute eiligst !
+12-1	1011-1013	So	_	_
+12-2	1014-1018	viel	_	_
+12-3	1019-1022	für	_	_
+12-4	1023-1028	heute	_	_
+12-5	1029-1036	eiligst	_	_
+12-6	1037-1038	!	_	_
+
+#Text=Grüße etc. auch von meiner Frau .
+13-1	1039-1044	Grüße	_	_
+13-2	1045-1049	etc.	_	_
+13-3	1050-1054	auch	_	_
+13-4	1055-1058	von	_	_
+13-5	1059-1065	meiner	*[2]	PERmentioned[2]
+13-6	1066-1070	Frau	*[2]	PERmentioned[2]
+13-7	1071-1072	.	_	_
+
+#Text=Ihr HBrunn .
+14-1	1073-1076	Ihr	_	_
+14-2	1077-1083	HBrunn	*	PERauthor
+14-3	1084-1085	.	_	_

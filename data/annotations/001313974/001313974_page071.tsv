@@ -1,0 +1,263 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=° 19 Helbig an Henzen Rom , 21 .
+1-1	0-1	°	_	_
+1-2	2-4	19	_	_
+1-3	5-11	Helbig	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-21	Henzen	*	PERaddressee
+1-6	22-25	Rom	*	PLACEfrom
+1-7	26-27	,	_	_
+1-8	28-30	21	*[1]	DATEletter[1]
+1-9	31-32	.	*[1]	DATEletter[1]
+
+#Text=August 1865 Da ich nicht im Stande bin , Ihnen die von Ihnen gewünschten Gegenstände persönlich zu überbringen , so schicke ich Ihnen das betreffende Päckchen und den Cacao per Vetturin .
+2-1	33-39	August	*[1]	DATEletter[1]
+2-2	40-44	1865	*[1]	DATEletter[1]
+2-3	45-47	Da	_	_
+2-4	48-51	ich	_	_
+2-5	52-57	nicht	_	_
+2-6	58-60	im	_	_
+2-7	61-67	Stande	_	_
+2-8	68-71	bin	_	_
+2-9	72-73	,	_	_
+2-10	74-79	Ihnen	_	_
+2-11	80-83	die	_	_
+2-12	84-87	von	_	_
+2-13	88-93	Ihnen	_	_
+2-14	94-105	gewünschten	_	_
+2-15	106-117	Gegenstände	_	_
+2-16	118-128	persönlich	_	_
+2-17	129-131	zu	_	_
+2-18	132-143	überbringen	_	_
+2-19	144-145	,	_	_
+2-20	146-148	so	_	_
+2-21	149-156	schicke	_	_
+2-22	157-160	ich	_	_
+2-23	161-166	Ihnen	_	_
+2-24	167-170	das	_	_
+2-25	171-182	betreffende	_	_
+2-26	183-191	Päckchen	_	_
+2-27	192-195	und	_	_
+2-28	196-199	den	_	_
+2-29	200-205	Cacao	_	_
+2-30	206-209	per	_	_
+2-31	210-218	Vetturin	_	_
+2-32	219-220	.	_	_
+
+#Text=Da es mir bedenklich scheint , das Geld derselben Senung anzuvertrauen , so werde ich Ihnen dieses selbst überbringen .
+3-1	221-223	Da	_	_
+3-2	224-226	es	_	_
+3-3	227-230	mir	_	_
+3-4	231-241	bedenklich	_	_
+3-5	242-249	scheint	_	_
+3-6	250-251	,	_	_
+3-7	252-255	das	_	_
+3-8	256-260	Geld	_	_
+3-9	261-270	derselben	_	_
+3-10	271-277	Senung	_	_
+3-11	278-291	anzuvertrauen	_	_
+3-12	292-293	,	_	_
+3-13	294-296	so	_	_
+3-14	297-302	werde	_	_
+3-15	303-306	ich	_	_
+3-16	307-312	Ihnen	_	_
+3-17	313-319	dieses	_	_
+3-18	320-326	selbst	_	_
+3-19	327-338	überbringen	_	_
+3-20	339-340	.	_	_
+
+#Text=Sie brauchen es ja , wie Sie schreiben , erst gegen Ende Ihres Aufenthaltes .
+4-1	341-344	Sie	_	_
+4-2	345-353	brauchen	_	_
+4-3	354-356	es	_	_
+4-4	357-359	ja	_	_
+4-5	360-361	,	_	_
+4-6	362-365	wie	_	_
+4-7	366-369	Sie	_	_
+4-8	370-379	schreiben	_	_
+4-9	380-381	,	_	_
+4-10	382-386	erst	_	_
+4-11	387-392	gegen	_	_
+4-12	393-397	Ende	_	_
+4-13	398-403	Ihres	_	_
+4-14	404-416	Aufenthaltes	_	_
+4-15	417-418	.	_	_
+
+#Text=Libbert ist gestern eingetroffen , grüßt herzlich , bedauert jedoch nicht nach Olevano gehen zu können , da er bereits Donnerstag nach Florenz reisen will .
+5-1	419-426	Libbert	*	PERmentioned
+5-2	427-430	ist	_	_
+5-3	431-438	gestern	_	_
+5-4	439-451	eingetroffen	_	_
+5-5	452-453	,	_	_
+5-6	454-459	grüßt	_	_
+5-7	460-468	herzlich	_	_
+5-8	469-470	,	_	_
+5-9	471-479	bedauert	_	_
+5-10	480-486	jedoch	_	_
+5-11	487-492	nicht	_	_
+5-12	493-497	nach	_	_
+5-13	498-505	Olevano	*	PLACEmentioned
+5-14	506-511	gehen	_	_
+5-15	512-514	zu	_	_
+5-16	515-521	können	_	_
+5-17	522-523	,	_	_
+5-18	524-526	da	_	_
+5-19	527-529	er	_	_
+5-20	530-537	bereits	_	_
+5-21	538-548	Donnerstag	*	DATEmentioned
+5-22	549-553	nach	_	_
+5-23	554-561	Florenz	*	PLACEmentioned
+5-24	562-568	reisen	_	_
+5-25	569-573	will	_	_
+5-26	574-575	.	_	_
+
+#Text=Den gestern und vorgestern arrangirten Extrazug für das Fest von Anagni habe ich benutzt , um Martinelli einen Besuch abzustatten .
+6-1	576-579	Den	_	_
+6-2	580-587	gestern	_	_
+6-3	588-591	und	_	_
+6-4	592-602	vorgestern	_	_
+6-5	603-614	arrangirten	_	_
+6-6	615-623	Extrazug	_	_
+6-7	624-627	für	_	_
+6-8	628-631	das	_	_
+6-9	632-636	Fest	_	_
+6-10	637-640	von	_	_
+6-11	641-647	Anagni	*	PLACEmentioned
+6-12	648-652	habe	_	_
+6-13	653-656	ich	_	_
+6-14	657-664	benutzt	_	_
+6-15	665-666	,	_	_
+6-16	667-669	um	_	_
+6-17	670-680	Martinelli	*	PERmentioned
+6-18	681-686	einen	_	_
+6-19	687-693	Besuch	_	_
+6-20	694-705	abzustatten	_	_
+6-21	706-707	.	_	_
+
+#Text=Derselbe ist ein wahrer Schatz für das Institut .
+7-1	708-716	Derselbe	_	_
+7-2	717-720	ist	_	_
+7-3	721-724	ein	_	_
+7-4	725-731	wahrer	_	_
+7-5	732-738	Schatz	_	_
+7-6	739-742	für	_	_
+7-7	743-746	das	_	_
+7-8	747-755	Institut	*	ORGmentioned
+7-9	756-757	.	_	_
+
+#Text=Er hat drei Inschriften aufgestöbert , von welchen die eine , eine Grabschrift in Distichen , sehr interessant ist .
+8-1	758-760	Er	_	_
+8-2	761-764	hat	_	_
+8-3	765-769	drei	_	_
+8-4	770-781	Inschriften	*	OBJ
+8-5	782-794	aufgestöbert	_	_
+8-6	795-796	,	_	_
+8-7	797-800	von	_	_
+8-8	801-808	welchen	_	_
+8-9	809-812	die	_	_
+8-10	813-817	eine	_	_
+8-11	818-819	,	_	_
+8-12	820-824	eine	_	_
+8-13	825-836	Grabschrift	_	_
+8-14	837-839	in	_	_
+8-15	840-849	Distichen	_	_
+8-16	850-851	,	_	_
+8-17	852-856	sehr	_	_
+8-18	857-868	interessant	_	_
+8-19	869-872	ist	_	_
+8-20	873-874	.	_	_
+
+#Text=Eine Abschrift davon konnte ich nicht machen , da er selbst sehr eifersüchtig darauf ist und persönlich Abklatsche davon nehmen und uns zuschicken will .
+9-1	875-879	Eine	_	_
+9-2	880-889	Abschrift	_	_
+9-3	890-895	davon	_	_
+9-4	896-902	konnte	_	_
+9-5	903-906	ich	_	_
+9-6	907-912	nicht	_	_
+9-7	913-919	machen	_	_
+9-8	920-921	,	_	_
+9-9	922-924	da	_	_
+9-10	925-927	er	_	_
+9-11	928-934	selbst	_	_
+9-12	935-939	sehr	_	_
+9-13	940-952	eifersüchtig	_	_
+9-14	953-959	darauf	_	_
+9-15	960-963	ist	_	_
+9-16	964-967	und	_	_
+9-17	968-978	persönlich	_	_
+9-18	979-989	Abklatsche	_	_
+9-19	990-995	davon	_	_
+9-20	996-1002	nehmen	_	_
+9-21	1003-1006	und	_	_
+9-22	1007-1010	uns	_	_
+9-23	1011-1021	zuschicken	_	_
+9-24	1022-1026	will	_	_
+9-25	1027-1028	.	_	_
+
+#Text=Seine architektonischen und topographischen Collectionen sind höchst interessant .
+10-1	1029-1034	Seine	_	_
+10-2	1035-1052	architektonischen	_	_
+10-3	1053-1056	und	_	_
+10-4	1057-1072	topographischen	_	_
+10-5	1073-1085	Collectionen	_	_
+10-6	1086-1090	sind	_	_
+10-7	1091-1097	höchst	_	_
+10-8	1098-1109	interessant	_	_
+10-9	1110-1111	.	_	_
+
+#Text=Nach langem Drängen habe ich nicht umhin gekonnt , Malpieri und dem Stampatore dei rami , jedem ein acconto von 30 Scudi zu gewähren .
+11-1	1112-1116	Nach	_	_
+11-2	1117-1123	langem	_	_
+11-3	1124-1131	Drängen	_	_
+11-4	1132-1136	habe	_	_
+11-5	1137-1140	ich	_	_
+11-6	1141-1146	nicht	_	_
+11-7	1147-1152	umhin	_	_
+11-8	1153-1160	gekonnt	_	_
+11-9	1161-1162	,	_	_
+11-10	1163-1171	Malpieri	*	PERmentioned
+11-11	1172-1175	und	_	_
+11-12	1176-1179	dem	_	_
+11-13	1180-1190	Stampatore	_	_
+11-14	1191-1194	dei	_	_
+11-15	1195-1199	rami	_	_
+11-16	1200-1201	,	_	_
+11-17	1202-1207	jedem	_	_
+11-18	1208-1211	ein	_	_
+11-19	1212-1219	acconto	_	_
+11-20	1220-1223	von	_	_
+11-21	1224-1226	30	_	_
+11-22	1227-1232	Scudi	_	_
+11-23	1233-1235	zu	_	_
+11-24	1236-1244	gewähren	_	_
+11-25	1245-1246	.	_	_
+
+#Text=Jener erklärte , daß ihm das Geld für die Emballage der Dresdner Bestellungen fehle .
+12-1	1247-1252	Jener	_	_
+12-2	1253-1261	erklärte	_	_
+12-3	1262-1263	,	_	_
+12-4	1264-1267	daß	_	_
+12-5	1268-1271	ihm	_	_
+12-6	1272-1275	das	_	_
+12-7	1276-1280	Geld	_	_
+12-8	1281-1284	für	_	_
+12-9	1285-1288	die	_	_
+12-10	1289-1298	Emballage	_	_
+12-11	1299-1302	der	_	_
+12-12	1303-1311	Dresdner	*	PLACEmentioned
+12-13	1312-1324	Bestellungen	_	_
+12-14	1325-1330	fehle	_	_
+12-15	1331-1332	.	_	_
+
+#Text=Übermorgen erhalte ich die definitive Rechnung und wird
+13-1	1333-1343	Übermorgen	_	_
+13-2	1344-1351	erhalte	_	_
+13-3	1352-1355	ich	_	_
+13-4	1356-1359	die	_	_
+13-5	1360-1370	definitive	_	_
+13-6	1371-1379	Rechnung	_	_
+13-7	1380-1383	und	_	_
+13-8	1384-1388	wird	_	_

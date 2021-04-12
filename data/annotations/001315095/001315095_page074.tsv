@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Zürich , 20 .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Zürich	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	20	*[3]	DATEletter[3]
+1-7	29-30	.	*[3]	DATEletter[3]
+
+#Text=Septenber 52 nammentlich ob z.B. Septumanum oder Septumianum steht .
+2-1	31-40	Septenber	*[3]	DATEletter[3]
+2-2	41-43	52	*[3]	DATEletter[3]
+2-3	44-55	nammentlich	_	_
+2-4	56-58	ob	_	_
+2-5	59-63	z.B.	_	_
+2-6	64-74	Septumanum	_	_
+2-7	75-79	oder	_	_
+2-8	80-91	Septumianum	_	_
+2-9	92-97	steht	_	_
+2-10	98-99	.	_	_
+
+#Text=Ferner sollen auf der Minerva die Papiere des Dominicus Georgius ( bekannt durch seine Noten zum ronius ) aufbewahrt werden \; es wäre mir lieb von den Epigraphicis darüber einige Kunde , namentlich die Neapolitane daraus zu erhalten .
+3-1	100-106	Ferner	_	_
+3-2	107-113	sollen	_	_
+3-3	114-117	auf	_	_
+3-4	118-121	der	_	_
+3-5	122-129	Minerva	_	_
+3-6	130-133	die	_	_
+3-7	134-141	Papiere	_	_
+3-8	142-145	des	_	_
+3-9	146-155	Dominicus	*[4]	PERmentioned[4]
+3-10	156-164	Georgius	*[4]	PERmentioned[4]
+3-11	165-166	(	_	_
+3-12	167-174	bekannt	_	_
+3-13	175-180	durch	_	_
+3-14	181-186	seine	_	_
+3-15	187-192	Noten	_	_
+3-16	193-196	zum	_	_
+3-17	197-203	ronius	_	_
+3-18	204-205	)	_	_
+3-19	206-216	aufbewahrt	_	_
+3-20	217-223	werden	_	_
+3-21	224-225	\;	_	_
+3-22	226-228	es	_	_
+3-23	229-233	wäre	_	_
+3-24	234-237	mir	_	_
+3-25	238-242	lieb	_	_
+3-26	243-246	von	_	_
+3-27	247-250	den	_	_
+3-28	251-263	Epigraphicis	_	_
+3-29	264-271	darüber	_	_
+3-30	272-278	einige	_	_
+3-31	279-284	Kunde	_	_
+3-32	285-286	,	_	_
+3-33	287-297	namentlich	_	_
+3-34	298-301	die	_	_
+3-35	302-313	Neapolitane	_	_
+3-36	314-320	daraus	_	_
+3-37	321-323	zu	_	_
+3-38	324-332	erhalten	_	_
+3-39	333-334	.	_	_
+
+#Text=Versteht sich für die Gebühr \; denn ich kann zahlen und zahle gern an Dich \; sonst kriegt es ja doch der Schneider \| !
+4-1	335-343	Versteht	_	_
+4-2	344-348	sich	_	_
+4-3	349-352	für	_	_
+4-4	353-356	die	_	_
+4-5	357-363	Gebühr	_	_
+4-6	364-365	\;	_	_
+4-7	366-370	denn	_	_
+4-8	371-374	ich	_	_
+4-9	375-379	kann	_	_
+4-10	380-386	zahlen	_	_
+4-11	387-390	und	_	_
+4-12	391-396	zahle	_	_
+4-13	397-401	gern	_	_
+4-14	402-404	an	_	_
+4-15	405-409	Dich	_	_
+4-16	410-411	\;	_	_
+4-17	412-417	sonst	_	_
+4-18	418-424	kriegt	_	_
+4-19	425-427	es	_	_
+4-20	428-430	ja	_	_
+4-21	431-435	doch	_	_
+4-22	436-439	der	_	_
+4-23	440-449	Schneider	*	PERmentioned
+4-24	450-451	\|	_	_
+4-25	452-453	!	_	_
+
+#Text=Finden sich in Grut .
+5-1	454-460	Finden	_	_
+5-2	461-465	sich	_	_
+5-3	466-468	in	_	_
+5-4	469-473	Grut	_	_
+5-5	474-475	.	_	_
+
+#Text=864,4 , jetzt im Vatican Gall .
+6-1	476-481	864,4	_	_
+6-2	482-483	,	_	_
+6-3	484-489	jetzt	_	_
+6-4	490-492	im	_	_
+6-5	493-500	Vatican	_	_
+6-6	501-505	Gall	_	_
+6-7	506-507	.	_	_
+
+#Text=Cap . inc . Ip .
+7-1	508-511	Cap	_	_
+7-2	512-513	.	_	_
+7-3	514-517	inc	_	_
+7-4	518-519	.	_	_
+7-5	520-522	Ip	_	_
+7-6	523-524	.	_	_
+
+#Text=34 wirklich Accente über MARMORI ( oder MARMORE ?
+8-1	525-527	34	_	_
+8-2	528-536	wirklich	_	_
+8-3	537-544	Accente	_	_
+8-4	545-549	über	_	_
+8-5	550-557	MARMORI	_	_
+8-6	558-559	(	_	_
+8-7	560-564	oder	_	_
+8-8	565-572	MARMORE	_	_
+8-9	573-574	?	_	_
+
+#Text=und STIPATVM ?
+9-1	575-578	und	_	_
+9-2	579-587	STIPATVM	_	_
+9-3	588-589	?	_	_
+
+#Text='Wer von uns zunächst wieder an Brunn schreibt , möge ihn doch ja veranlassen dem Vischer gut zuzustutzen für Abklatschung etwaiger römischer Archive in Griechenland ' .
+10-1	590-594	'Wer	_	_
+10-2	595-598	von	_	_
+10-3	599-602	uns	_	_
+10-4	603-611	zunächst	_	_
+10-5	612-618	wieder	_	_
+10-6	619-621	an	_	_
+10-7	622-627	Brunn	*	PERmentioned
+10-8	628-636	schreibt	_	_
+10-9	637-638	,	_	_
+10-10	639-643	möge	_	_
+10-11	644-647	ihn	_	_
+10-12	648-652	doch	_	_
+10-13	653-655	ja	_	_
+10-14	656-667	veranlassen	_	_
+10-15	668-671	dem	_	_
+10-16	672-679	Vischer	*	PERmentioned
+10-17	680-683	gut	_	_
+10-18	684-695	zuzustutzen	_	_
+10-19	696-699	für	_	_
+10-20	700-712	Abklatschung	_	_
+10-21	713-721	etwaiger	_	_
+10-22	722-731	römischer	_	_
+10-23	732-739	Archive	_	_
+10-24	740-742	in	_	_
+10-25	743-755	Griechenland	*	PLACEmentioned
+10-26	756-757	'	_	_
+10-27	758-759	.	_	_
+
+#Text=So Ritschl \; ich habe bloß das etwaiger '' unterstrichen , da ich schwerlich glaube , daß unser beseler Freund , den Du Dir übrigens empfohlen lassen sein magst so gut wie meinen Spanier , in Hellas eine , geschweige denn eine alte lateinische Inschrift zu Gesicht bekommen wird .
+11-1	760-762	So	_	_
+11-2	763-770	Ritschl	*	PERmentioned
+11-3	771-772	\;	_	_
+11-4	773-776	ich	_	_
+11-5	777-781	habe	_	_
+11-6	782-786	bloß	_	_
+11-7	787-790	das	_	_
+11-8	791-799	etwaiger	_	_
+11-9	800-802	''	_	_
+11-10	803-816	unterstrichen	_	_
+11-11	817-818	,	_	_
+11-12	819-821	da	_	_
+11-13	822-825	ich	_	_
+11-14	826-836	schwerlich	_	_
+11-15	837-843	glaube	_	_
+11-16	844-845	,	_	_
+11-17	846-849	daß	_	_
+11-18	850-855	unser	_	_
+11-19	856-863	beseler	_	_
+11-20	864-870	Freund	_	_
+11-21	871-872	,	_	_
+11-22	873-876	den	_	_
+11-23	877-879	Du	_	_
+11-24	880-883	Dir	_	_
+11-25	884-892	übrigens	_	_
+11-26	893-902	empfohlen	_	_
+11-27	903-909	lassen	_	_
+11-28	910-914	sein	_	_
+11-29	915-920	magst	_	_
+11-30	921-923	so	_	_
+11-31	924-927	gut	_	_
+11-32	928-931	wie	_	_
+11-33	932-938	meinen	_	_
+11-34	939-946	Spanier	_	_
+11-35	947-948	,	_	_
+11-36	949-951	in	_	_
+11-37	952-958	Hellas	*	PLACEmentioned
+11-38	959-963	eine	_	_
+11-39	964-965	,	_	_
+11-40	966-976	geschweige	_	_
+11-41	977-981	denn	_	_
+11-42	982-986	eine	_	_
+11-43	987-991	alte	_	_
+11-44	992-1003	lateinische	*[5]	OBJ[5]
+11-45	1004-1013	Inschrift	*[5]	OBJ[5]
+11-46	1014-1016	zu	_	_
+11-47	1017-1024	Gesicht	_	_
+11-48	1025-1033	bekommen	_	_
+11-49	1034-1038	wird	_	_
+11-50	1039-1040	.	_	_
+
+#Text=Lebe wohl , lieber Brunn .
+12-1	1041-1045	Lebe	_	_
+12-2	1046-1050	wohl	_	_
+12-3	1051-1052	,	_	_
+12-4	1053-1059	lieber	_	_
+12-5	1060-1065	Brunn	*	PERaddressee
+12-6	1066-1067	.	_	_
+
+#Text=Schade , daß ich nicht König von Hinterpommern bin - wo man , wie Du weißt , dem König an der Landesgrenze einen Ehrenbogen errichtet mit der Inschrift : Wie in dem vf dern du wardst herzlich aufgenommen Schallt aus dem hintern auch ein donnerndes Willkomme
+13-1	1068-1074	Schade	_	_
+13-2	1075-1076	,	_	_
+13-3	1077-1080	daß	_	_
+13-4	1081-1084	ich	_	_
+13-5	1085-1090	nicht	_	_
+13-6	1091-1096	König	_	_
+13-7	1097-1100	von	_	_
+13-8	1101-1114	Hinterpommern	_	_
+13-9	1115-1118	bin	_	_
+13-10	1119-1120	-	_	_
+13-11	1121-1123	wo	_	_
+13-12	1124-1127	man	_	_
+13-13	1128-1129	,	_	_
+13-14	1130-1133	wie	_	_
+13-15	1134-1136	Du	_	_
+13-16	1137-1142	weißt	_	_
+13-17	1143-1144	,	_	_
+13-18	1145-1148	dem	_	_
+13-19	1149-1154	König	_	_
+13-20	1155-1157	an	_	_
+13-21	1158-1161	der	_	_
+13-22	1162-1174	Landesgrenze	_	_
+13-23	1175-1180	einen	_	_
+13-24	1181-1191	Ehrenbogen	_	_
+13-25	1192-1201	errichtet	_	_
+13-26	1202-1205	mit	_	_
+13-27	1206-1209	der	_	_
+13-28	1210-1219	Inschrift	_	_
+13-29	1220-1221	:	_	_
+13-30	1222-1225	Wie	_	_
+13-31	1226-1228	in	_	_
+13-32	1229-1232	dem	_	_
+13-33	1233-1235	vf	_	_
+13-34	1236-1240	dern	_	_
+13-35	1241-1243	du	_	_
+13-36	1244-1250	wardst	_	_
+13-37	1251-1259	herzlich	_	_
+13-38	1260-1271	aufgenommen	_	_
+13-39	1272-1279	Schallt	_	_
+13-40	1280-1283	aus	_	_
+13-41	1284-1287	dem	_	_
+13-42	1288-1295	hintern	_	_
+13-43	1296-1300	auch	_	_
+13-44	1301-1304	ein	_	_
+13-45	1305-1315	donnerndes	_	_
+13-46	1316-1325	Willkomme	_	_

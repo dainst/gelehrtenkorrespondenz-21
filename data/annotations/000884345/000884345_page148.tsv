@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2 Bunsen an Gerhard HbL1 , 26. Februar 1840 in Verbineung zu setzen , ehe das Werk abgeschlossen wird ?
+1-1	0-1	2	_	_	
+1-2	2-8	Bunsen	*	PERauthor	
+1-3	9-11	an	_	_	
+1-4	12-19	Gerhard	*	PERaddressee	
+1-5	20-24	HbL1	_	_	
+1-6	25-26	,	_	_	
+1-7	27-30	26.	*[1]	DATEletter[1]	
+1-8	31-38	Februar	*[1]	DATEletter[1]	
+1-9	39-43	1840	*[1]	DATEletter[1]	
+1-10	44-46	in	_	_	
+1-11	47-57	Verbineung	_	_	
+1-12	58-60	zu	_	_	
+1-13	61-67	setzen	_	_	
+1-14	68-69	,	_	_	
+1-15	70-73	ehe	_	_	
+1-16	74-77	das	_	_	
+1-17	78-82	Werk	_	_	
+1-18	83-96	abgeschlossen	_	_	
+1-19	97-101	wird	_	_	
+1-20	102-103	?	_	_	
+
+#Text=Dieser hat herrliche Schätze für eine neue Ausgabe , die schwerlich Herr Prof. Erdmann besitzt .
+2-1	104-110	Dieser	_	_	
+2-2	111-114	hat	_	_	
+2-3	115-124	herrliche	_	_	
+2-4	125-132	Schätze	_	_	
+2-5	133-136	für	_	_	
+2-6	137-141	eine	_	_	
+2-7	142-146	neue	_	_	
+2-8	147-154	Ausgabe	_	_	
+2-9	155-156	,	_	_	
+2-10	157-160	die	_	_	
+2-11	161-171	schwerlich	_	_	
+2-12	172-176	Herr	*[2]	PERmentioned[2]	
+2-13	177-182	Prof.	*[2]	PERmentioned[2]	
+2-14	183-190	Erdmann	*[2]	PERmentioned[2]	
+2-15	191-198	besitzt	_	_	
+2-16	199-200	.	_	_	
+
+#Text=Dergleichen Werke können nur sehr selten gedruckt werden , und deshalb sollte alles aufgenommen werden .
+3-1	201-212	Dergleichen	_	_	
+3-2	213-218	Werke	_	_	
+3-3	219-225	können	_	_	
+3-4	226-229	nur	_	_	
+3-5	230-234	sehr	_	_	
+3-6	235-241	selten	_	_	
+3-7	242-250	gedruckt	_	_	
+3-8	251-257	werden	_	_	
+3-9	258-259	,	_	_	
+3-10	260-263	und	_	_	
+3-11	264-271	deshalb	_	_	
+3-12	272-278	sollte	_	_	
+3-13	279-284	alles	_	_	
+3-14	285-296	aufgenommen	_	_	
+3-15	297-303	werden	_	_	
+3-16	304-305	.	_	_	
+
+#Text=Dr. H. bereitete selbst eine solche Ausgabdvor , und ich that deßhalb Schritte in England .
+4-1	306-309	Dr.	*[3]	PERmentioned[3]	
+4-2	310-312	H.	*[3]	PERmentioned[3]	
+4-3	313-322	bereitete	_	_	
+4-4	323-329	selbst	_	_	
+4-5	330-334	eine	_	_	
+4-6	335-341	solche	_	_	
+4-7	342-352	Ausgabdvor	_	_	
+4-8	353-354	,	_	_	
+4-9	355-358	und	_	_	
+4-10	359-362	ich	_	_	
+4-11	363-367	that	_	_	
+4-12	368-375	deßhalb	_	_	
+4-13	376-384	Schritte	_	_	
+4-14	385-387	in	_	_	
+4-15	388-395	England	*	PLACEmentioned	
+4-16	396-397	.	_	_	
+
+#Text=Herr Prof. E ( rdmann ) kann nur erwähnen , daß ich dieses vorgeschlagen , im .
+5-1	398-402	Herr	*[4]	PERmentioned[4]	
+5-2	403-408	Prof.	*[4]	PERmentioned[4]	
+5-3	409-410	E	*[4]	PERmentioned[4]	
+5-4	411-412	(	*[4]	PERmentioned[4]	
+5-5	413-419	rdmann	*[4]	PERmentioned[4]	
+5-6	420-421	)	*[4]	PERmentioned[4]	
+5-7	422-426	kann	_	_	
+5-8	427-430	nur	_	_	
+5-9	431-439	erwähnen	_	_	
+5-10	440-441	,	_	_	
+5-11	442-445	daß	_	_	
+5-12	446-449	ich	_	_	
+5-13	450-456	dieses	_	_	
+5-14	457-470	vorgeschlagen	_	_	
+5-15	471-472	,	_	_	
+5-16	473-475	im	_	_	
+5-17	476-477	.	_	_	
+
+#Text=Vertrauen auf seine , so wie Herrn Gisen ers Wissenschaftlichen Eifer und Liebe .
+6-1	478-487	Vertrauen	_	_	
+6-2	488-491	auf	_	_	
+6-3	492-497	seine	_	_	
+6-4	498-499	,	_	_	
+6-5	500-502	so	_	_	
+6-6	503-506	wie	_	_	
+6-7	507-512	Herrn	_	_	
+6-8	513-518	Gisen	_	_	
+6-9	519-522	ers	_	_	
+6-10	523-541	Wissenschaftlichen	_	_	
+6-11	542-547	Eifer	_	_	
+6-12	548-551	und	_	_	
+6-13	552-557	Liebe	_	_	
+6-14	558-559	.	_	_	
+
+#Text=Ich höre Steffens soll sich über unseres Freundes M. Royan sehr anerkennend geäußert haben .
+7-1	560-563	Ich	_	_	
+7-2	564-568	höre	_	_	
+7-3	569-577	Steffens	*	PERmentioned	
+7-4	578-582	soll	_	_	
+7-5	583-587	sich	_	_	
+7-6	588-592	über	_	_	
+7-7	593-600	unseres	_	_	
+7-8	601-609	Freundes	_	_	
+7-9	610-612	M.	*[5]	PERmentioned[5]	
+7-10	613-618	Royan	*[5]	PERmentioned[5]	
+7-11	619-623	sehr	_	_	
+7-12	624-635	anerkennend	_	_	
+7-13	636-644	geäußert	_	_	
+7-14	645-650	haben	_	_	
+7-15	651-652	.	_	_	
+
+#Text=Ists wahr ?
+8-1	653-657	Ists	_	_	
+8-2	658-662	wahr	_	_	
+8-3	663-664	?	_	_	
+
+#Text=Ihr Bs Am Rande der dritten Seite : N . S . Können Sie mir umgehend sagen , ob Eichler die Asia polyglotta mit dem Sprachatlas von F. Kleproth wohlfeil schaffen kann und für wie viel : ich gebe sonst zum 16 März durch A Commission in Paris bey Kigproths Versteigerung .
+9-1	665-668	Ihr	_	_	
+9-2	669-671	Bs	_	_	
+9-3	672-674	Am	_	_	
+9-4	675-680	Rande	_	_	
+9-5	681-684	der	_	_	
+9-6	685-692	dritten	_	_	
+9-7	693-698	Seite	_	_	
+9-8	699-700	:	_	_	
+9-9	701-702	N	_	_	
+9-10	703-704	.	_	_	
+9-11	705-706	S	_	_	
+9-12	707-708	.	_	_	
+9-13	709-715	Können	_	_	
+9-14	716-719	Sie	_	_	
+9-15	720-723	mir	_	_	
+9-16	724-732	umgehend	_	_	
+9-17	733-738	sagen	_	_	
+9-18	739-740	,	_	_	
+9-19	741-743	ob	_	_	
+9-20	744-751	Eichler	*	PERmentioned	
+9-21	752-755	die	_	_	
+9-22	756-760	Asia	_	_	
+9-23	761-771	polyglotta	_	_	
+9-24	772-775	mit	_	_	
+9-25	776-779	dem	_	_	
+9-26	780-791	Sprachatlas	_	_	
+9-27	792-795	von	_	_	
+9-28	796-798	F.	*[6]	PERmentioned[6]	
+9-29	799-807	Kleproth	*[6]	PERmentioned[6]	
+9-30	808-816	wohlfeil	_	_	
+9-31	817-825	schaffen	_	_	
+9-32	826-830	kann	_	_	
+9-33	831-834	und	_	_	
+9-34	835-838	für	_	_	
+9-35	839-842	wie	_	_	
+9-36	843-847	viel	_	_	
+9-37	848-849	:	_	_	
+9-38	850-853	ich	_	_	
+9-39	854-858	gebe	_	_	
+9-40	859-864	sonst	_	_	
+9-41	865-868	zum	_	_	
+9-42	869-871	16	_	_	
+9-43	872-876	März	_	_	
+9-44	877-882	durch	_	_	
+9-45	883-884	A	_	_	
+9-46	885-895	Commission	_	_	
+9-47	896-898	in	_	_	
+9-48	899-904	Paris	*	PLACEmentioned	
+9-49	905-908	bey	_	_	
+9-50	909-918	Kigproths	*	PERmentioned	
+9-51	919-932	Versteigerung	_	_	
+9-52	933-934	.	_	_	
+
+#Text=Ihr Stillschweigen gilt als Verneinung .
+10-1	935-938	Ihr	_	_	
+10-2	939-953	Stillschweigen	_	_	
+10-3	954-958	gilt	_	_	
+10-4	959-962	als	_	_	
+10-5	963-973	Verneinung	_	_	
+10-6	974-975	.	_	_	
+
+#Text=Auf der vierten Seite : Soeben trifft Ihr Brief ein : dieser Brief geht also morgen ab .
+11-1	976-979	Auf	_	_	
+11-2	980-983	der	_	_	
+11-3	984-991	vierten	_	_	
+11-4	992-997	Seite	_	_	
+11-5	998-999	:	_	_	
+11-6	1000-1006	Soeben	_	_	
+11-7	1007-1013	trifft	_	_	
+11-8	1014-1017	Ihr	_	_	
+11-9	1018-1023	Brief	_	_	
+11-10	1024-1027	ein	_	_	
+11-11	1028-1029	:	_	_	
+11-12	1030-1036	dieser	_	_	
+11-13	1037-1042	Brief	_	_	
+11-14	1043-1047	geht	_	_	
+11-15	1048-1052	also	_	_	
+11-16	1053-1059	morgen	_	_	
+11-17	1060-1062	ab	_	_	
+11-18	1063-1064	.	_	_	
+
+#Text=Ich bleibe durchaus bei meiner Ansicht ,
+12-1	1065-1068	Ich	_	_	
+12-2	1069-1075	bleibe	_	_	
+12-3	1076-1084	durchaus	_	_	
+12-4	1085-1088	bei	_	_	
+12-5	1089-1095	meiner	_	_	
+12-6	1096-1103	Ansicht	_	_	
+12-7	1104-1105	,	_	_	

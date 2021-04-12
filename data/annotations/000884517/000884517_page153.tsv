@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=266 Gerhard an Braun Berlin , 26. Juli 1845 A. d . Dir .
+1-1	0-3	266	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	26.	*[2]	DATEletter[2]
+1-8	34-38	Juli	*[2]	DATEletter[2]
+1-9	39-43	1845	*[2]	DATEletter[2]
+1-10	44-46	A.	_	_
+1-11	47-48	d	_	_
+1-12	49-50	.	_	_
+1-13	51-54	Dir	_	_
+1-14	55-56	.	_	_
+
+#Text=g . 7/VIII 45 r . 7/VIII 45 Dr. Braun Berlin 26 Juli 45 Mein theurer Freund .
+2-1	57-58	g	_	_
+2-2	59-60	.	_	_
+2-3	61-67	7/VIII	*[3]	DATErecieved[3]
+2-4	68-70	45	*[3]	DATErecieved[3]
+2-5	71-72	r	_	_
+2-6	73-74	.	_	_
+2-7	75-81	7/VIII	*[4]	DATEanswered[4]
+2-8	82-84	45	*[4]	DATEanswered[4]
+2-9	85-88	Dr.	_	_
+2-10	89-94	Braun	*[1]	PERaddressee[1]
+2-11	95-101	Berlin	*	PLACEfrom
+2-12	102-104	26	_	_
+2-13	105-109	Juli	*[5]	DATEletter[5]
+2-14	110-112	45	*[5]	DATEletter[5]
+2-15	113-117	Mein	_	_
+2-16	118-125	theurer	_	_
+2-17	126-132	Freund	_	_
+2-18	133-134	.	_	_
+
+#Text=Ich hätte für diesen Brief gern den Mechanikus abgewartet , der aber Ihre 50 rt noch immer mir läßt .
+3-1	135-138	Ich	_	_
+3-2	139-144	hätte	_	_
+3-3	145-148	für	_	_
+3-4	149-155	diesen	_	_
+3-5	156-161	Brief	_	_
+3-6	162-166	gern	_	_
+3-7	167-170	den	_	_
+3-8	171-181	Mechanikus	*	PERmentioned
+3-9	182-192	abgewartet	_	_
+3-10	193-194	,	_	_
+3-11	195-198	der	_	_
+3-12	199-203	aber	_	_
+3-13	204-208	Ihre	_	_
+3-14	209-211	50	_	_
+3-15	212-214	rt	_	_
+3-16	215-219	noch	_	_
+3-17	220-225	immer	_	_
+3-18	226-229	mir	_	_
+3-19	230-234	läßt	_	_
+3-20	235-236	.	_	_
+
+#Text=Meine Frau ist fortwährend in Eigersburg und sehr zufrieden damit , Ihnen und Piutti ' n dankbar .
+4-1	237-242	Meine	_	_
+4-2	243-247	Frau	_	_
+4-3	248-251	ist	_	_
+4-4	252-263	fortwährend	_	_
+4-5	264-266	in	_	_
+4-6	267-277	Eigersburg	*	PLACEmentioned
+4-7	278-281	und	_	_
+4-8	282-286	sehr	_	_
+4-9	287-296	zufrieden	_	_
+4-10	297-302	damit	_	_
+4-11	303-304	,	_	_
+4-12	305-310	Ihnen	_	_
+4-13	311-314	und	_	_
+4-14	315-321	Piutti	*[7]	PERmentioned[7]
+4-15	322-323	'	*[7]	PERmentioned[7]
+4-16	324-325	n	*[7]	PERmentioned[7]
+4-17	326-333	dankbar	_	_
+4-18	334-335	.	_	_
+
+#Text=Erst gegen Mitte August denken wir in Frankfurt zu sein und bis Ende des Monats dortzubleiben .
+5-1	336-340	Erst	_	_
+5-2	341-346	gegen	_	_
+5-3	347-352	Mitte	_	_
+5-4	353-359	August	*	DATEmentioned
+5-5	360-366	denken	_	_
+5-6	367-370	wir	_	_
+5-7	371-373	in	_	_
+5-8	374-383	Frankfurt	*	PLACEmentioned
+5-9	384-386	zu	_	_
+5-10	387-391	sein	_	_
+5-11	392-395	und	_	_
+5-12	396-399	bis	_	_
+5-13	400-404	Ende	_	_
+5-14	405-408	des	_	_
+5-15	409-415	Monats	_	_
+5-16	416-429	dortzubleiben	_	_
+5-17	430-431	.	_	_
+
+#Text=Mein Reisetermin bleibt der 9.te August .
+6-1	432-436	Mein	_	_
+6-2	437-448	Reisetermin	_	_
+6-3	449-455	bleibt	_	_
+6-4	456-459	der	_	_
+6-5	460-464	9.te	*[6]	DATEmentioned[6]
+6-6	465-471	August	*[6]	DATEmentioned[6]
+6-7	472-473	.	_	_
+
+#Text=Roß den ich tagtäglich hier erwartete ist wegen Hämorrhoiden nach Kissingen und Eger gesandt .
+7-1	474-477	Roß	*	PERmentioned
+7-2	478-481	den	_	_
+7-3	482-485	ich	_	_
+7-4	486-496	tagtäglich	_	_
+7-5	497-501	hier	_	_
+7-6	502-511	erwartete	_	_
+7-7	512-515	ist	_	_
+7-8	516-521	wegen	_	_
+7-9	522-534	Hämorrhoiden	_	_
+7-10	535-539	nach	_	_
+7-11	540-549	Kissingen	*	PLACEmentioned
+7-12	550-553	und	_	_
+7-13	554-558	Eger	*	PLACEmentioned
+7-14	559-566	gesandt	_	_
+7-15	567-568	.	_	_
+
+#Text=Panofka will nach England .
+8-1	569-576	Panofka	*	PERmentioned
+8-2	577-581	will	_	_
+8-3	582-586	nach	_	_
+8-4	587-594	England	*	PLACEmentioned
+8-5	595-596	.	_	_
+
+#Text=Lanci ' n meine Anerkennung seiner penna mordace .
+9-1	597-602	Lanci	*[8]	PERmentioned[8]
+9-2	603-604	'	*[8]	PERmentioned[8]
+9-3	605-606	n	_	_
+9-4	607-612	meine	_	_
+9-5	613-624	Anerkennung	_	_
+9-6	625-631	seiner	_	_
+9-7	632-637	penna	_	_
+9-8	638-645	mordace	_	_
+9-9	646-647	.	_	_
+
+#Text=Falbe , ein unwissender und widerwärtiger Mensch , beklagt sich daß Sie ihm die .
+10-1	648-653	Falbe	*	PERmentioned
+10-2	654-655	,	_	_
+10-3	656-659	ein	_	_
+10-4	660-671	unwissender	_	_
+10-5	672-675	und	_	_
+10-6	676-689	widerwärtiger	_	_
+10-7	690-696	Mensch	_	_
+10-8	697-698	,	_	_
+10-9	699-706	beklagt	_	_
+10-10	707-711	sich	_	_
+10-11	712-715	daß	_	_
+10-12	716-719	Sie	_	_
+10-13	720-723	ihm	_	_
+10-14	724-727	die	_	_
+10-15	728-729	.	_	_
+
+#Text=lische Sammlung vertheuert haben , für die er nicht über8000 Scudi geben will .
+11-1	730-736	lische	_	_
+11-2	737-745	Sammlung	_	_
+11-3	746-756	vertheuert	_	_
+11-4	757-762	haben	_	_
+11-5	763-764	,	_	_
+11-6	765-768	für	_	_
+11-7	769-772	die	_	_
+11-8	773-775	er	_	_
+11-9	776-781	nicht	_	_
+11-10	782-790	über8000	_	_
+11-11	791-796	Scudi	_	_
+11-12	797-802	geben	_	_
+11-13	803-807	will	_	_
+11-14	808-809	.	_	_
+
+#Text=Sonst spricht er von Aufträgen die er dem Dr. Ussing gebe und mir mit anempfehle , falls ich nach Rom käme \; er spricht von Annalensufsätzen desselben , bei denen Sie , wie selbst bei Mommsen , wol im Auge haben werden , daß die junge deutsche Philologie sich nicht allzu breit und übermüthig mache .
+12-1	810-815	Sonst	_	_
+12-2	816-823	spricht	_	_
+12-3	824-826	er	_	_
+12-4	827-830	von	_	_
+12-5	831-840	Aufträgen	_	_
+12-6	841-844	die	_	_
+12-7	845-847	er	_	_
+12-8	848-851	dem	_	_
+12-9	852-855	Dr.	_	_
+12-10	856-862	Ussing	*	PERmentioned
+12-11	863-867	gebe	_	_
+12-12	868-871	und	_	_
+12-13	872-875	mir	_	_
+12-14	876-879	mit	_	_
+12-15	880-890	anempfehle	_	_
+12-16	891-892	,	_	_
+12-17	893-898	falls	_	_
+12-18	899-902	ich	_	_
+12-19	903-907	nach	_	_
+12-20	908-911	Rom	*	PLACEmentioned
+12-21	912-916	käme	_	_
+12-22	917-918	\;	_	_
+12-23	919-921	er	_	_
+12-24	922-929	spricht	_	_
+12-25	930-933	von	_	_
+12-26	934-950	Annalensufsätzen	_	_
+12-27	951-960	desselben	_	_
+12-28	961-962	,	_	_
+12-29	963-966	bei	_	_
+12-30	967-972	denen	_	_
+12-31	973-976	Sie	_	_
+12-32	977-978	,	_	_
+12-33	979-982	wie	_	_
+12-34	983-989	selbst	_	_
+12-35	990-993	bei	_	_
+12-36	994-1001	Mommsen	*	PERmentioned
+12-37	1002-1003	,	_	_
+12-38	1004-1007	wol	_	_
+12-39	1008-1010	im	_	_
+12-40	1011-1015	Auge	_	_
+12-41	1016-1021	haben	_	_
+12-42	1022-1028	werden	_	_
+12-43	1029-1030	,	_	_
+12-44	1031-1034	daß	_	_
+12-45	1035-1038	die	_	_
+12-46	1039-1044	junge	_	_
+12-47	1045-1053	deutsche	_	_
+12-48	1054-1064	Philologie	_	_
+12-49	1065-1069	sich	_	_
+12-50	1070-1075	nicht	_	_
+12-51	1076-1081	allzu	_	_
+12-52	1082-1087	breit	_	_
+12-53	1088-1091	und	_	_
+12-54	1092-1102	übermüthig	_	_
+12-55	1103-1108	mache	_	_
+12-56	1109-1110	.	_	_
+
+#Text=Thomsen denkt auch nach Italien .
+13-1	1111-1118	Thomsen	*	PERmentioned
+13-2	1119-1124	denkt	_	_
+13-3	1125-1129	auch	_	_
+13-4	1130-1134	nach	_	_
+13-5	1135-1142	Italien	*	PLACEmentioned
+13-6	1143-1144	.	_	_

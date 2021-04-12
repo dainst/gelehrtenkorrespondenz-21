@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=308 Helbig an Henzen zürich , 19 .
+1-1	0-3	308	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	zürich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	19	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1870 les gut geht .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1870	*[1]	DATEletter[1]
+2-3	47-50	les	_	_
+2-4	51-54	gut	_	_
+2-5	55-59	geht	_	_
+2-6	60-61	.	_	_
+
+#Text=lIch arbeite am zweiten Bande meiner Wandgemälde und habe , obwohl vielfach gestört durch die Aufregung , in die mich die politischen Verhältnisse und meine Privatangelegenheiten versetzen , ein leidliches Stück zu Wege gebracht und hoffe , daß der Druck , falls ich nicht wieder durch Entdeckung etruskischer Wandgemälde gestört werde , nächsten Winter beginnen kann .
+3-1	62-66	lIch	_	_
+3-2	67-74	arbeite	_	_
+3-3	75-77	am	_	_
+3-4	78-85	zweiten	_	_
+3-5	86-91	Bande	_	_
+3-6	92-98	meiner	_	_
+3-7	99-110	Wandgemälde	_	_
+3-8	111-114	und	_	_
+3-9	115-119	habe	_	_
+3-10	120-121	,	_	_
+3-11	122-128	obwohl	_	_
+3-12	129-137	vielfach	_	_
+3-13	138-145	gestört	_	_
+3-14	146-151	durch	_	_
+3-15	152-155	die	_	_
+3-16	156-165	Aufregung	_	_
+3-17	166-167	,	_	_
+3-18	168-170	in	_	_
+3-19	171-174	die	_	_
+3-20	175-179	mich	_	_
+3-21	180-183	die	_	_
+3-22	184-195	politischen	_	_
+3-23	196-208	Verhältnisse	_	_
+3-24	209-212	und	_	_
+3-25	213-218	meine	_	_
+3-26	219-240	Privatangelegenheiten	_	_
+3-27	241-250	versetzen	_	_
+3-28	251-252	,	_	_
+3-29	253-256	ein	_	_
+3-30	257-267	leidliches	_	_
+3-31	268-273	Stück	_	_
+3-32	274-276	zu	_	_
+3-33	277-281	Wege	_	_
+3-34	282-290	gebracht	_	_
+3-35	291-294	und	_	_
+3-36	295-300	hoffe	_	_
+3-37	301-302	,	_	_
+3-38	303-306	daß	_	_
+3-39	307-310	der	_	_
+3-40	311-316	Druck	_	_
+3-41	317-318	,	_	_
+3-42	319-324	falls	_	_
+3-43	325-328	ich	_	_
+3-44	329-334	nicht	_	_
+3-45	335-341	wieder	_	_
+3-46	342-347	durch	_	_
+3-47	348-358	Entdeckung	_	_
+3-48	359-371	etruskischer	_	_
+3-49	372-383	Wandgemälde	_	_
+3-50	384-391	gestört	_	_
+3-51	392-397	werde	_	_
+3-52	398-399	,	_	_
+3-53	400-408	nächsten	_	_
+3-54	409-415	Winter	_	_
+3-55	416-424	beginnen	_	_
+3-56	425-429	kann	_	_
+3-57	430-431	.	_	_
+
+#Text=Jetzt gilt es sich mit Härtel über den Verlag zu verständigen .
+4-1	432-437	Jetzt	_	_
+4-2	438-442	gilt	_	_
+4-3	443-445	es	_	_
+4-4	446-450	sich	_	_
+4-5	451-454	mit	_	_
+4-6	455-461	Härtel	*	ORGmentioned
+4-7	462-466	über	_	_
+4-8	467-470	den	_	_
+4-9	471-477	Verlag	_	_
+4-10	478-480	zu	_	_
+4-11	481-493	verständigen	_	_
+4-12	494-495	.	_	_
+
+#Text=Von Hinck habe ich gestern einen Brief mit guten Nachrichten erhalten .
+5-1	496-499	Von	_	_
+5-2	500-505	Hinck	*	PERmentioned
+5-3	506-510	habe	_	_
+5-4	511-514	ich	_	_
+5-5	515-522	gestern	_	_
+5-6	523-528	einen	_	_
+5-7	529-534	Brief	_	_
+5-8	535-538	mit	_	_
+5-9	539-544	guten	_	_
+5-10	545-556	Nachrichten	_	_
+5-11	557-565	erhalten	_	_
+5-12	566-567	.	_	_
+
+#Text=Für das Institut ist bei der Umgestaltung der römischen Verhältnisse meines Erachtens gegenwärtig nichts zu befürchten .
+6-1	568-571	Für	_	_
+6-2	572-575	das	_	_
+6-3	576-584	Institut	*	ORGmentioned
+6-4	585-588	ist	_	_
+6-5	589-592	bei	_	_
+6-6	593-596	der	_	_
+6-7	597-609	Umgestaltung	_	_
+6-8	610-613	der	_	_
+6-9	614-623	römischen	_	_
+6-10	624-636	Verhältnisse	_	_
+6-11	637-643	meines	_	_
+6-12	644-653	Erachtens	_	_
+6-13	654-665	gegenwärtig	_	_
+6-14	666-672	nichts	_	_
+6-15	673-675	zu	_	_
+6-16	676-686	befürchten	_	_
+6-17	687-688	.	_	_
+
+#Text=Bekommen die Italiener Rom , was doch immer nur in beschränkter Weise der Fall sein wird , dann wird die Occupation ohne Zweifel gegenwärtig durch die regulären Truppen erfolgen und ist somit an materielle Schädigung nicht zu denken .
+7-1	689-697	Bekommen	_	_
+7-2	698-701	die	_	_
+7-3	702-711	Italiener	_	_
+7-4	712-715	Rom	*	PLACEmentioned
+7-5	716-717	,	_	_
+7-6	718-721	was	_	_
+7-7	722-726	doch	_	_
+7-8	727-732	immer	_	_
+7-9	733-736	nur	_	_
+7-10	737-739	in	_	_
+7-11	740-752	beschränkter	_	_
+7-12	753-758	Weise	_	_
+7-13	759-762	der	_	_
+7-14	763-767	Fall	_	_
+7-15	768-772	sein	_	_
+7-16	773-777	wird	_	_
+7-17	778-779	,	_	_
+7-18	780-784	dann	_	_
+7-19	785-789	wird	_	_
+7-20	790-793	die	_	_
+7-21	794-804	Occupation	_	_
+7-22	805-809	ohne	_	_
+7-23	810-817	Zweifel	_	_
+7-24	818-829	gegenwärtig	_	_
+7-25	830-835	durch	_	_
+7-26	836-839	die	_	_
+7-27	840-849	regulären	_	_
+7-28	850-857	Truppen	_	_
+7-29	858-866	erfolgen	_	_
+7-30	867-870	und	_	_
+7-31	871-874	ist	_	_
+7-32	875-880	somit	_	_
+7-33	881-883	an	_	_
+7-34	884-894	materielle	_	_
+7-35	895-905	Schädigung	_	_
+7-36	906-911	nicht	_	_
+7-37	912-914	zu	_	_
+7-38	915-921	denken	_	_
+7-39	922-923	.	_	_
+
+#Text=Immerhin wäre es gut , wenn auf alle Fälle das Institut so gestellt würde , daß es sich unter den neuen Verhältnissen über dem Wasser halten kann .
+8-1	924-932	Immerhin	_	_
+8-2	933-937	wäre	_	_
+8-3	938-940	es	_	_
+8-4	941-944	gut	_	_
+8-5	945-946	,	_	_
+8-6	947-951	wenn	_	_
+8-7	952-955	auf	_	_
+8-8	956-960	alle	_	_
+8-9	961-966	Fälle	_	_
+8-10	967-970	das	_	_
+8-11	971-979	Institut	*	ORGmentioned
+8-12	980-982	so	_	_
+8-13	983-991	gestellt	_	_
+8-14	992-997	würde	_	_
+8-15	998-999	,	_	_
+8-16	1000-1003	daß	_	_
+8-17	1004-1006	es	_	_
+8-18	1007-1011	sich	_	_
+8-19	1012-1017	unter	_	_
+8-20	1018-1021	den	_	_
+8-21	1022-1027	neuen	_	_
+8-22	1028-1041	Verhältnissen	_	_
+8-23	1042-1046	über	_	_
+8-24	1047-1050	dem	_	_
+8-25	1051-1057	Wasser	_	_
+8-26	1058-1064	halten	_	_
+8-27	1065-1069	kann	_	_
+8-28	1070-1071	.	_	_
+
+#Text=Marcelliani , dem ich unvorsichtiger Weise meinen Sommeraufenthalt mitgetheilt , verfolgt mich bis hierher mit seinen Briefen .
+9-1	1072-1083	Marcelliani	*	PERmentioned
+9-2	1084-1085	,	_	_
+9-3	1086-1089	dem	_	_
+9-4	1090-1093	ich	_	_
+9-5	1094-1108	unvorsichtiger	_	_
+9-6	1109-1114	Weise	_	_
+9-7	1115-1121	meinen	_	_
+9-8	1122-1138	Sommeraufenthalt	_	_
+9-9	1139-1150	mitgetheilt	_	_
+9-10	1151-1152	,	_	_
+9-11	1153-1161	verfolgt	_	_
+9-12	1162-1166	mich	_	_
+9-13	1167-1170	bis	_	_
+9-14	1171-1178	hierher	_	_
+9-15	1179-1182	mit	_	_
+9-16	1183-1189	seinen	_	_
+9-17	1190-1197	Briefen	_	_
+9-18	1198-1199	.	_	_
+
+#Text=Können Sie ihm nicht einige Subscribenten für sein Buch , dessen Prospect ich Ihnen in mehreren Exemplaren nach Berlin geschickt , in Berlin verschaffen ?
+10-1	1200-1206	Können	_	_
+10-2	1207-1210	Sie	_	_
+10-3	1211-1214	ihm	_	_
+10-4	1215-1220	nicht	_	_
+10-5	1221-1227	einige	_	_
+10-6	1228-1241	Subscribenten	_	_
+10-7	1242-1245	für	_	_
+10-8	1246-1250	sein	_	_
+10-9	1251-1255	Buch	_	_
+10-10	1256-1257	,	_	_
+10-11	1258-1264	dessen	_	_
+10-12	1265-1273	Prospect	_	_
+10-13	1274-1277	ich	_	_
+10-14	1278-1283	Ihnen	_	_
+10-15	1284-1286	in	_	_
+10-16	1287-1295	mehreren	_	_
+10-17	1296-1306	Exemplaren	_	_
+10-18	1307-1311	nach	_	_
+10-19	1312-1318	Berlin	*	PLACEmentioned
+10-20	1319-1328	geschickt	_	_
+10-21	1329-1330	,	_	_
+10-22	1331-1333	in	_	_
+10-23	1334-1340	Berlin	*	PLACEmentioned
+10-24	1341-1352	verschaffen	_	_
+10-25	1353-1354	?	_	_
+
+#Text=So lange wir nicht das von ihm entdeckte Grab ge-
+11-1	1355-1357	So	_	_
+11-2	1358-1363	lange	_	_
+11-3	1364-1367	wir	_	_
+11-4	1368-1373	nicht	_	_
+11-5	1374-1377	das	_	_
+11-6	1378-1381	von	_	_
+11-7	1382-1385	ihm	_	_
+11-8	1386-1395	entdeckte	_	_
+11-9	1396-1400	Grab	_	_
+11-10	1401-1404	ge-	_	_

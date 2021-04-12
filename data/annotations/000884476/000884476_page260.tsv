@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=u ‘ 10019 Gerhard an Braun Berlin , 27 .
+1-1	0-1	u	_	_
+1-2	2-3	‘	_	_
+1-3	4-9	10019	_	_
+1-4	10-17	Gerhard	*	PERauthor
+1-5	18-20	an	_	_
+1-6	21-26	Braun	*	PERaddressee
+1-7	27-33	Berlin	*	PLACEfrom
+1-8	34-35	,	_	_
+1-9	36-38	27	*[4]	DATEletter[4]
+1-10	39-40	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1835 hat ihm einstweilen die provisorische Administration des ganzen Antiquars zugetheilt .
+2-1	41-48	Oktober	*[4]	DATEletter[4]
+2-2	49-53	1835	*[4]	DATEletter[4]
+2-3	54-57	hat	_	_
+2-4	58-61	ihm	_	_
+2-5	62-73	einstweilen	_	_
+2-6	74-77	die	_	_
+2-7	78-91	provisorische	_	_
+2-8	92-106	Administration	_	_
+2-9	107-110	des	_	_
+2-10	111-117	ganzen	_	_
+2-11	118-127	Antiquars	_	_
+2-12	128-138	zugetheilt	_	_
+2-13	139-140	.	_	_
+
+#Text=Aller Tage Abend ist darum noch nicht , aber - Entsetzlich daß Sie gar nicht daran denken was denn aus den Zeichnungen werden soll \; hoffentlich ist Ihre : .
+3-1	141-146	Aller	_	_
+3-2	147-151	Tage	_	_
+3-3	152-157	Abend	_	_
+3-4	158-161	ist	_	_
+3-5	162-167	darum	_	_
+3-6	168-172	noch	_	_
+3-7	173-178	nicht	_	_
+3-8	179-180	,	_	_
+3-9	181-185	aber	_	_
+3-10	186-187	-	_	_
+3-11	188-199	Entsetzlich	_	_
+3-12	200-203	daß	_	_
+3-13	204-207	Sie	_	_
+3-14	208-211	gar	_	_
+3-15	212-217	nicht	_	_
+3-16	218-223	daran	_	_
+3-17	224-230	denken	_	_
+3-18	231-234	was	_	_
+3-19	235-239	denn	_	_
+3-20	240-243	aus	_	_
+3-21	244-247	den	_	_
+3-22	248-259	Zeichnungen	_	_
+3-23	260-266	werden	_	_
+3-24	267-271	soll	_	_
+3-25	272-273	\;	_	_
+3-26	274-285	hoffentlich	_	_
+3-27	286-289	ist	_	_
+3-28	290-294	Ihre	_	_
+3-29	295-296	:	_	_
+3-30	297-298	.	_	_
+
+#Text=die defective Bezifferung der Norm $ Tafel die in den Annali erklärt werden müssen umtvı Lie .
+4-1	299-302	die	_	_
+4-2	303-312	defective	_	_
+4-3	313-324	Bezifferung	_	_
+4-4	325-328	der	_	_
+4-5	329-333	Norm	_	_
+4-6	334-335	$	_	_
+4-7	336-341	Tafel	_	_
+4-8	342-345	die	_	_
+4-9	346-348	in	_	_
+4-10	349-352	den	_	_
+4-11	353-359	Annali	_	_
+4-12	360-367	erklärt	_	_
+4-13	368-374	werden	_	_
+4-14	375-381	müssen	_	_
+4-15	382-387	umtvı	_	_
+4-16	388-391	Lie	_	_
+4-17	392-393	.	_	_
+
+#Text=Von der Cäre vase habe ich noch keinen Probedruck .
+5-1	394-397	Von	_	_
+5-2	398-401	der	_	_
+5-3	402-406	Cäre	*[5]	OBJ[5]
+5-4	407-411	vase	*[5]	OBJ[5]
+5-5	412-416	habe	_	_
+5-6	417-420	ich	_	_
+5-7	421-425	noch	_	_
+5-8	426-432	keinen	_	_
+5-9	433-443	Probedruck	_	_
+5-10	444-445	.	_	_
+
+#Text=Es ist sehr schlimm wenn Sie den Monum ezst nicht bald schaffen und Tanapa ken : ich hoffe wenigstens umgehends nach diesen Brief .
+6-1	446-448	Es	_	_
+6-2	449-452	ist	_	_
+6-3	453-457	sehr	_	_
+6-4	458-465	schlimm	_	_
+6-5	466-470	wenn	_	_
+6-6	471-474	Sie	_	_
+6-7	475-478	den	_	_
+6-8	479-484	Monum	_	_
+6-9	485-489	ezst	_	_
+6-10	490-495	nicht	_	_
+6-11	496-500	bald	_	_
+6-12	501-509	schaffen	_	_
+6-13	510-513	und	_	_
+6-14	514-520	Tanapa	_	_
+6-15	521-524	ken	_	_
+6-16	525-526	:	_	_
+6-17	527-530	ich	_	_
+6-18	531-536	hoffe	_	_
+6-19	537-547	wenigstens	_	_
+6-20	548-557	umgehends	_	_
+6-21	558-562	nach	_	_
+6-22	563-569	diesen	_	_
+6-23	570-575	Brief	_	_
+6-24	576-577	.	_	_
+
+#Text=Rau Ste nicht bald anfangen können die Annali erst zu druc- Briefe wie die an B. mit fremder Hand zu schreiben , steht mir jetzt kaum zu Gebote , dir Quinar \_-wäre wie die Ihrige und nur die meiner Schwester .
+7-1	578-581	Rau	_	_
+7-2	582-585	Ste	_	_
+7-3	586-591	nicht	_	_
+7-4	592-596	bald	_	_
+7-5	597-605	anfangen	_	_
+7-6	606-612	können	_	_
+7-7	613-616	die	_	_
+7-8	617-623	Annali	_	_
+7-9	624-628	erst	_	_
+7-10	629-631	zu	_	_
+7-11	632-637	druc-	_	_
+7-12	638-644	Briefe	_	_
+7-13	645-648	wie	_	_
+7-14	649-652	die	_	_
+7-15	653-655	an	_	_
+7-16	656-658	B.	_	_
+7-17	659-662	mit	_	_
+7-18	663-670	fremder	_	_
+7-19	671-675	Hand	_	_
+7-20	676-678	zu	_	_
+7-21	679-688	schreiben	_	_
+7-22	689-690	,	_	_
+7-23	691-696	steht	_	_
+7-24	697-700	mir	_	_
+7-25	701-706	jetzt	_	_
+7-26	707-711	kaum	_	_
+7-27	712-714	zu	_	_
+7-28	715-721	Gebote	_	_
+7-29	722-723	,	_	_
+7-30	724-727	dir	_	_
+7-31	728-734	Quinar	_	_
+7-32	735-741	\_-wäre	_	_
+7-33	742-745	wie	_	_
+7-34	746-749	die	_	_
+7-35	750-756	Ihrige	_	_
+7-36	757-760	und	_	_
+7-37	761-764	nur	_	_
+7-38	765-768	die	_	_
+7-39	769-775	meiner	_	_
+7-40	776-785	Schwester	_	_
+7-41	786-787	.	_	_
+
+#Text=Die Seitenzahl des Bull .
+8-1	788-791	Die	_	_
+8-2	792-802	Seitenzahl	_	_
+8-3	803-806	des	_	_
+8-4	807-811	Bull	_	_
+8-5	812-813	.	_	_
+
+#Text=ist nun in Ordnung \; Ma- III ce im Münsbogen eine neue bestialitä .
+9-1	814-817	ist	_	_
+9-2	818-821	nun	_	_
+9-3	822-824	in	_	_
+9-4	825-832	Ordnung	_	_
+9-5	833-834	\;	_	_
+9-6	835-838	Ma-	_	_
+9-7	839-842	III	_	_
+9-8	843-845	ce	_	_
+9-9	846-848	im	_	_
+9-10	849-858	Münsbogen	_	_
+9-11	859-863	eine	_	_
+9-12	864-868	neue	_	_
+9-13	869-879	bestialitä	_	_
+9-14	880-881	.	_	_
+
+#Text=Müllers Archäologie habe ich für Sie eingekauft \; geben Sie es wem Sie wollen .
+10-1	882-889	Müllers	*	PERmentioned
+10-2	890-901	Archäologie	_	_
+10-3	902-906	habe	_	_
+10-4	907-910	ich	_	_
+10-5	911-914	für	_	_
+10-6	915-918	Sie	_	_
+10-7	919-929	eingekauft	_	_
+10-8	930-931	\;	_	_
+10-9	932-937	geben	_	_
+10-10	938-941	Sie	_	_
+10-11	942-944	es	_	_
+10-12	945-948	wem	_	_
+10-13	949-952	Sie	_	_
+10-14	953-959	wollen	_	_
+10-15	960-961	.	_	_
+
+#Text=Das Buch ital . zu bearbeiten wäre ganz möglich , so nämlich daß auch eine Arbeit von Ihrex alten die traduzione daran hänge .
+11-1	962-965	Das	_	_
+11-2	966-970	Buch	_	_
+11-3	971-975	ital	_	_
+11-4	976-977	.	_	_
+11-5	978-980	zu	_	_
+11-6	981-991	bearbeiten	_	_
+11-7	992-996	wäre	_	_
+11-8	997-1001	ganz	_	_
+11-9	1002-1009	möglich	_	_
+11-10	1010-1011	,	_	_
+11-11	1012-1014	so	_	_
+11-12	1015-1022	nämlich	_	_
+11-13	1023-1026	daß	_	_
+11-14	1027-1031	auch	_	_
+11-15	1032-1036	eine	_	_
+11-16	1037-1043	Arbeit	_	_
+11-17	1044-1047	von	_	_
+11-18	1048-1053	Ihrex	_	_
+11-19	1054-1059	alten	_	_
+11-20	1060-1063	die	_	_
+11-21	1064-1074	traduzione	_	_
+11-22	1075-1080	daran	_	_
+11-23	1081-1086	hänge	_	_
+11-24	1087-1088	.	_	_
+
+#Text=Sie müssen etwas schreiben was Sie mehr als bisheriges bekannt macht .
+12-1	1089-1092	Sie	_	_
+12-2	1093-1099	müssen	_	_
+12-3	1100-1105	etwas	_	_
+12-4	1106-1115	schreiben	_	_
+12-5	1116-1119	was	_	_
+12-6	1120-1123	Sie	_	_
+12-7	1124-1128	mehr	_	_
+12-8	1129-1132	als	_	_
+12-9	1133-1143	bisheriges	_	_
+12-10	1144-1151	bekannt	_	_
+12-11	1152-1157	macht	_	_
+12-12	1158-1159	.	_	_
+
+#Text=Nur rasch herbei was für die Annali soll \; schreibt Kramer nicht rasch über Cerveteri , so citirt man seinen Bull .
+13-1	1160-1163	Nur	_	_
+13-2	1164-1169	rasch	_	_
+13-3	1170-1176	herbei	_	_
+13-4	1177-1180	was	_	_
+13-5	1181-1184	für	_	_
+13-6	1185-1188	die	_	_
+13-7	1189-1195	Annali	_	_
+13-8	1196-1200	soll	_	_
+13-9	1201-1202	\;	_	_
+13-10	1203-1211	schreibt	_	_
+13-11	1212-1218	Kramer	*	PERmentioned
+13-12	1219-1224	nicht	_	_
+13-13	1225-1230	rasch	_	_
+13-14	1231-1235	über	_	_
+13-15	1236-1245	Cerveteri	*	PLACEmentioned
+13-16	1246-1247	,	_	_
+13-17	1248-1250	so	_	_
+13-18	1251-1257	citirt	_	_
+13-19	1258-1261	man	_	_
+13-20	1262-1268	seinen	_	_
+13-21	1269-1273	Bull	_	_
+13-22	1274-1275	.	_	_
+
+#Text=Aufsatz statt des Textes .
+14-1	1276-1283	Aufsatz	_	_
+14-2	1284-1289	statt	_	_
+14-3	1290-1293	des	_	_
+14-4	1294-1300	Textes	_	_
+14-5	1301-1302	.	_	_
+
+#Text=Diese Drucksache 1äßt sich nicht mehr verschleppen .
+15-1	1303-1308	Diese	_	_
+15-2	1309-1319	Drucksache	_	_
+15-3	1320-1324	1äßt	_	_
+15-4	1325-1329	sich	_	_
+15-5	1330-1335	nicht	_	_
+15-6	1336-1340	mehr	_	_
+15-7	1341-1353	verschleppen	_	_
+15-8	1354-1355	.	_	_

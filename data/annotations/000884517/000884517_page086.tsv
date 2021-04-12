@@ -1,0 +1,223 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=446 Gerhard an Braun Berlin , 21. November 1844 Den Auszug aus lIuynes Ihrerseits zu beantwortenden Vorschläge werden Sie auf der Rückseite von Gerstäckers 1000 rt Sendung gefunden haben .
+1-1	0-3	446	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	21.	*[1]	DATEletter[1]
+1-8	34-42	November	*[1]	DATEletter[1]
+1-9	43-47	1844	*[1]	DATEletter[1]
+1-10	48-51	Den	_	_
+1-11	52-58	Auszug	_	_
+1-12	59-62	aus	_	_
+1-13	63-70	lIuynes	*	PERmentioned
+1-14	71-81	Ihrerseits	_	_
+1-15	82-84	zu	_	_
+1-16	85-99	beantwortenden	_	_
+1-17	100-110	Vorschläge	_	_
+1-18	111-117	werden	_	_
+1-19	118-121	Sie	_	_
+1-20	122-125	auf	_	_
+1-21	126-129	der	_	_
+1-22	130-139	Rückseite	_	_
+1-23	140-143	von	_	_
+1-24	144-155	Gerstäckers	*	ORGmentioned
+1-25	156-160	1000	_	_
+1-26	161-163	rt	_	_
+1-27	164-171	Sendung	_	_
+1-28	172-180	gefunden	_	_
+1-29	181-186	haben	_	_
+1-30	187-188	.	_	_
+
+#Text=Mein Verleger wird immer muthloser , ich muß die Flügel einziehen und werde die Spiegel wol nicht vollständig geben können .
+2-1	189-193	Mein	_	_
+2-2	194-202	Verleger	_	_
+2-3	203-207	wird	_	_
+2-4	208-213	immer	_	_
+2-5	214-223	muthloser	_	_
+2-6	224-225	,	_	_
+2-7	226-229	ich	_	_
+2-8	230-233	muß	_	_
+2-9	234-237	die	_	_
+2-10	238-244	Flügel	_	_
+2-11	245-254	einziehen	_	_
+2-12	255-258	und	_	_
+2-13	259-264	werde	_	_
+2-14	265-268	die	_	_
+2-15	269-276	Spiegel	*	OBJ
+2-16	277-280	wol	_	_
+2-17	281-286	nicht	_	_
+2-18	287-298	vollständig	_	_
+2-19	299-304	geben	_	_
+2-20	305-311	können	_	_
+2-21	312-313	.	_	_
+
+#Text=So wenig Absatz , selbst in Italien !
+3-1	314-316	So	_	_
+3-2	317-322	wenig	_	_
+3-3	323-329	Absatz	_	_
+3-4	330-331	,	_	_
+3-5	332-338	selbst	_	_
+3-6	339-341	in	_	_
+3-7	342-349	Italien	*	PLACEmentioned
+3-8	350-351	!	_	_
+
+#Text=Ob Henzen mir Zardetti 's und der Turiner Bibliothek Schuld wol eingemahnt haben mag , wie er vor seiner Reise Willens war ?
+4-1	352-354	Ob	_	_
+4-2	355-361	Henzen	*	PERmentioned
+4-3	362-365	mir	_	_
+4-4	366-374	Zardetti	*[4]	PERmentioned[4]
+4-5	375-377	's	*[4]	PERmentioned[4]
+4-6	378-381	und	_	_
+4-7	382-385	der	_	_
+4-8	386-393	Turiner	*[2]	ORGmentioned[2]
+4-9	394-404	Bibliothek	*[2]	ORGmentioned[2]
+4-10	405-411	Schuld	_	_
+4-11	412-415	wol	_	_
+4-12	416-426	eingemahnt	_	_
+4-13	427-432	haben	_	_
+4-14	433-436	mag	_	_
+4-15	437-438	,	_	_
+4-16	439-442	wie	_	_
+4-17	443-445	er	_	_
+4-18	446-449	vor	_	_
+4-19	450-456	seiner	_	_
+4-20	457-462	Reise	_	_
+4-21	463-470	Willens	_	_
+4-22	471-474	war	_	_
+4-23	475-476	?	_	_
+
+#Text=Beides für je ein Exemplar Etruskische etc. Vasenbilder .
+5-1	477-483	Beides	_	_
+5-2	484-487	für	_	_
+5-3	488-490	je	_	_
+5-4	491-494	ein	_	_
+5-5	495-503	Exemplar	_	_
+5-6	504-515	Etruskische	_	_
+5-7	516-520	etc.	_	_
+5-8	521-532	Vasenbilder	_	_
+5-9	533-534	.	_	_
+
+#Text=Die Inschrift des Relief-Spiegels im britischen Museum habe ich als Maduch kopiert , also nicht ganz revidirt , obwohl wahrscheinlich , identisch mit Malufisch \; die Lesart Malacisch scheint irris .
+6-1	535-538	Die	_	_
+6-2	539-548	Inschrift	*	OBJ
+6-3	549-552	des	_	_
+6-4	553-568	Relief-Spiegels	*	OBJ
+6-5	569-571	im	_	_
+6-6	572-582	britischen	*[3]	ORGmentioned[3]
+6-7	583-589	Museum	*[3]	ORGmentioned[3]
+6-8	590-594	habe	_	_
+6-9	595-598	ich	_	_
+6-10	599-602	als	_	_
+6-11	603-609	Maduch	*	PERmentioned
+6-12	610-617	kopiert	_	_
+6-13	618-619	,	_	_
+6-14	620-624	also	_	_
+6-15	625-630	nicht	_	_
+6-16	631-635	ganz	_	_
+6-17	636-644	revidirt	_	_
+6-18	645-646	,	_	_
+6-19	647-653	obwohl	_	_
+6-20	654-668	wahrscheinlich	_	_
+6-21	669-670	,	_	_
+6-22	671-680	identisch	_	_
+6-23	681-684	mit	_	_
+6-24	685-694	Malufisch	*	PERmentioned
+6-25	695-696	\;	_	_
+6-26	697-700	die	_	_
+6-27	701-707	Lesart	_	_
+6-28	708-717	Malacisch	*	PERmentioned
+6-29	718-725	scheint	_	_
+6-30	726-731	irris	_	_
+6-31	732-733	.	_	_
+
+#Text=Ich bin noch immer äußerst reizbar , arbeite sehr wenig und hüte Abend das Haus .
+7-1	734-737	Ich	_	_
+7-2	738-741	bin	_	_
+7-3	742-746	noch	_	_
+7-4	747-752	immer	_	_
+7-5	753-760	äußerst	_	_
+7-6	761-768	reizbar	_	_
+7-7	769-770	,	_	_
+7-8	771-778	arbeite	_	_
+7-9	779-783	sehr	_	_
+7-10	784-789	wenig	_	_
+7-11	790-793	und	_	_
+7-12	794-798	hüte	_	_
+7-13	799-804	Abend	_	_
+7-14	805-808	das	_	_
+7-15	809-813	Haus	_	_
+7-16	814-815	.	_	_
+
+#Text=Leider ist auch meiner Frau zum erstmal daß wir zusammen sind es begegnet , von nervösen Kopfweh so überwältigt zu werden daß sie weder ausgehn noch sich beschäftigen kann .
+8-1	816-822	Leider	_	_
+8-2	823-826	ist	_	_
+8-3	827-831	auch	_	_
+8-4	832-838	meiner	_	_
+8-5	839-843	Frau	_	_
+8-6	844-847	zum	_	_
+8-7	848-855	erstmal	_	_
+8-8	856-859	daß	_	_
+8-9	860-863	wir	_	_
+8-10	864-872	zusammen	_	_
+8-11	873-877	sind	_	_
+8-12	878-880	es	_	_
+8-13	881-889	begegnet	_	_
+8-14	890-891	,	_	_
+8-15	892-895	von	_	_
+8-16	896-904	nervösen	_	_
+8-17	905-912	Kopfweh	_	_
+8-18	913-915	so	_	_
+8-19	916-927	überwältigt	_	_
+8-20	928-930	zu	_	_
+8-21	931-937	werden	_	_
+8-22	938-941	daß	_	_
+8-23	942-945	sie	_	_
+8-24	946-951	weder	_	_
+8-25	952-959	ausgehn	_	_
+8-26	960-964	noch	_	_
+8-27	965-969	sich	_	_
+8-28	970-982	beschäftigen	_	_
+8-29	983-987	kann	_	_
+8-30	988-989	.	_	_
+
+#Text=Melicher behandelt sie .
+9-1	990-998	Melicher	*	PERmentioned
+9-2	999-1008	behandelt	_	_
+9-3	1009-1012	sie	_	_
+9-4	1013-1014	.	_	_
+
+#Text=Von Welcker eben ein fast verdrießlicher Brief mit der Triptolemos Zeichnung die ich nach genommener Durchzeichnung ihm zurücksende .
+10-1	1015-1018	Von	_	_
+10-2	1019-1026	Welcker	*	PERmentioned
+10-3	1027-1031	eben	_	_
+10-4	1032-1035	ein	_	_
+10-5	1036-1040	fast	_	_
+10-6	1041-1055	verdrießlicher	_	_
+10-7	1056-1061	Brief	_	_
+10-8	1062-1065	mit	_	_
+10-9	1066-1069	der	_	_
+10-10	1070-1081	Triptolemos	*	PERmentioned
+10-11	1082-1091	Zeichnung	_	_
+10-12	1092-1095	die	_	_
+10-13	1096-1099	ich	_	_
+10-14	1100-1104	nach	_	_
+10-15	1105-1115	genommener	_	_
+10-16	1116-1130	Durchzeichnung	_	_
+10-17	1131-1134	ihm	_	_
+10-18	1135-1146	zurücksende	_	_
+10-19	1147-1148	.	_	_
+
+#Text=Was haben Sie für Absichten damit ?
+11-1	1149-1152	Was	_	_
+11-2	1153-1158	haben	_	_
+11-3	1159-1162	Sie	_	_
+11-4	1163-1166	für	_	_
+11-5	1167-1176	Absichten	_	_
+11-6	1177-1182	damit	_	_
+11-7	1183-1184	?	_	_

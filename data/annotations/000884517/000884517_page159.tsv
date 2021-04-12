@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=300 Gerhard an Braun Frankfurt , 25 .
+1-1	0-3	300	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-30	Frankfurt	*	PLACEfrom
+1-6	31-32	,	_	_
+1-7	33-35	25	*[3]	DATEletter[3]
+1-8	36-37	.	*[3]	DATEletter[3]
+
+#Text=August 1845 der sie künftig in unsre Nähe ins Pommerland bringt .
+2-1	38-44	August	*[3]	DATEletter[3]
+2-2	45-49	1845	*[3]	DATEletter[3]
+2-3	50-53	der	_	_
+2-4	54-57	sie	_	_
+2-5	58-65	künftig	_	_
+2-6	66-68	in	_	_
+2-7	69-74	unsre	_	_
+2-8	75-79	Nähe	_	_
+2-9	80-83	ins	_	_
+2-10	84-94	Pommerland	*	PLACEmentioned
+2-11	95-101	bringt	_	_
+2-12	102-103	.	_	_
+
+#Text=Aller brieflichen Bemühung ungeachtet weiß ich nicht genau wie es um Welcker steht , nur daß er am 10.ten noch krank war , jetzt schwerlich reisen und im Winter schwerlich lesen kann .
+3-1	104-109	Aller	_	_
+3-2	110-121	brieflichen	_	_
+3-3	122-130	Bemühung	_	_
+3-4	131-141	ungeachtet	_	_
+3-5	142-146	weiß	_	_
+3-6	147-150	ich	_	_
+3-7	151-156	nicht	_	_
+3-8	157-162	genau	_	_
+3-9	163-166	wie	_	_
+3-10	167-169	es	_	_
+3-11	170-172	um	_	_
+3-12	173-180	Welcker	*	PERmentioned
+3-13	181-186	steht	_	_
+3-14	187-188	,	_	_
+3-15	189-192	nur	_	_
+3-16	193-196	daß	_	_
+3-17	197-199	er	_	_
+3-18	200-202	am	_	_
+3-19	203-209	10.ten	*	DATEmentioned
+3-20	210-214	noch	_	_
+3-21	215-220	krank	_	_
+3-22	221-224	war	_	_
+3-23	225-226	,	_	_
+3-24	227-232	jetzt	_	_
+3-25	233-243	schwerlich	_	_
+3-26	244-250	reisen	_	_
+3-27	251-254	und	_	_
+3-28	255-257	im	_	_
+3-29	258-264	Winter	_	_
+3-30	265-275	schwerlich	_	_
+3-31	276-281	lesen	_	_
+3-32	282-286	kann	_	_
+3-33	287-288	.	_	_
+
+#Text=Ich wäre zu ihm gereist , wäre sein Übel nicht gerade geeignet von Gesprächen ihn abzuhalten und hätte ich irgend einen Wink dazu von ihm erhalten \; ich habe ihn nochmals um direkte Kunde , bis jetzt vergeblich , gebeten .
+4-1	289-292	Ich	_	_
+4-2	293-297	wäre	_	_
+4-3	298-300	zu	_	_
+4-4	301-304	ihm	_	_
+4-5	305-312	gereist	_	_
+4-6	313-314	,	_	_
+4-7	315-319	wäre	_	_
+4-8	320-324	sein	_	_
+4-9	325-329	Übel	_	_
+4-10	330-335	nicht	_	_
+4-11	336-342	gerade	_	_
+4-12	343-351	geeignet	_	_
+4-13	352-355	von	_	_
+4-14	356-366	Gesprächen	_	_
+4-15	367-370	ihn	_	_
+4-16	371-381	abzuhalten	_	_
+4-17	382-385	und	_	_
+4-18	386-391	hätte	_	_
+4-19	392-395	ich	_	_
+4-20	396-402	irgend	_	_
+4-21	403-408	einen	_	_
+4-22	409-413	Wink	_	_
+4-23	414-418	dazu	_	_
+4-24	419-422	von	_	_
+4-25	423-426	ihm	_	_
+4-26	427-435	erhalten	_	_
+4-27	436-437	\;	_	_
+4-28	438-441	ich	_	_
+4-29	442-446	habe	_	_
+4-30	447-450	ihn	_	_
+4-31	451-459	nochmals	_	_
+4-32	460-462	um	_	_
+4-33	463-470	direkte	_	_
+4-34	471-476	Kunde	_	_
+4-35	477-478	,	_	_
+4-36	479-482	bis	_	_
+4-37	483-488	jetzt	_	_
+4-38	489-499	vergeblich	_	_
+4-39	500-501	,	_	_
+4-40	502-509	gebeten	_	_
+4-41	510-511	.	_	_
+
+#Text=Dagegen erwarte ich noch Roß hier zu sehen , von Kissingen aus , sprach Göttingen auf seiner Durchreise nach London und denke mit Blessig heute nach Wiesbaden zu gehen .
+5-1	512-519	Dagegen	_	_
+5-2	520-527	erwarte	_	_
+5-3	528-531	ich	_	_
+5-4	532-536	noch	_	_
+5-5	537-540	Roß	*	PERmentioned
+5-6	541-545	hier	_	_
+5-7	546-548	zu	_	_
+5-8	549-554	sehen	_	_
+5-9	555-556	,	_	_
+5-10	557-560	von	_	_
+5-11	561-570	Kissingen	*	PLACEmentioned
+5-12	571-574	aus	_	_
+5-13	575-576	,	_	_
+5-14	577-583	sprach	_	_
+5-15	584-593	Göttingen	*	PLACEmentioned
+5-16	594-597	auf	_	_
+5-17	598-604	seiner	_	_
+5-18	605-615	Durchreise	_	_
+5-19	616-620	nach	_	_
+5-20	621-627	London	*	PLACEmentioned
+5-21	628-631	und	_	_
+5-22	632-637	denke	_	_
+5-23	638-641	mit	_	_
+5-24	642-649	Blessig	*	PERmentioned
+5-25	650-655	heute	_	_
+5-26	656-660	nach	_	_
+5-27	661-670	Wiesbaden	*	PLACEmentioned
+5-28	671-673	zu	_	_
+5-29	674-679	gehen	_	_
+5-30	680-681	.	_	_
+
+#Text=Piutti hat nichts gegen eine Wohnung am Meer \; ich wünschte daher eine der üblichen Wohnungen an S. Iucia einigermaßen mich versichern zu können , bevor die Naturalisten alles wegnehmen .
+6-1	682-688	Piutti	*	PERmentioned
+6-2	689-692	hat	_	_
+6-3	693-699	nichts	_	_
+6-4	700-705	gegen	_	_
+6-5	706-710	eine	_	_
+6-6	711-718	Wohnung	_	_
+6-7	719-721	am	_	_
+6-8	722-726	Meer	_	_
+6-9	727-728	\;	_	_
+6-10	729-732	ich	_	_
+6-11	733-741	wünschte	_	_
+6-12	742-747	daher	_	_
+6-13	748-752	eine	_	_
+6-14	753-756	der	_	_
+6-15	757-765	üblichen	_	_
+6-16	766-775	Wohnungen	_	_
+6-17	776-778	an	_	_
+6-18	779-781	S.	*[4]	PLACEmentioned[4]
+6-19	782-787	Iucia	*[4]	PLACEmentioned[4]
+6-20	788-800	einigermaßen	_	_
+6-21	801-805	mich	_	_
+6-22	806-816	versichern	_	_
+6-23	817-819	zu	_	_
+6-24	820-826	können	_	_
+6-25	827-828	,	_	_
+6-26	829-834	bevor	_	_
+6-27	835-838	die	_	_
+6-28	839-851	Naturalisten	_	_
+6-29	852-857	alles	_	_
+6-30	858-867	wegnehmen	_	_
+6-31	868-869	.	_	_
+
+#Text=Vielleicht können Sie einen unsrer guten Freunde in Neapel oder der nach Neapel geht dafür interessiren .
+7-1	870-880	Vielleicht	_	_
+7-2	881-887	können	_	_
+7-3	888-891	Sie	_	_
+7-4	892-897	einen	_	_
+7-5	898-904	unsrer	_	_
+7-6	905-910	guten	_	_
+7-7	911-918	Freunde	_	_
+7-8	919-921	in	_	_
+7-9	922-928	Neapel	*	PLACEmentioned
+7-10	929-933	oder	_	_
+7-11	934-937	der	_	_
+7-12	938-942	nach	_	_
+7-13	943-949	Neapel	*	PLACEmentioned
+7-14	950-954	geht	_	_
+7-15	955-960	dafür	_	_
+7-16	961-973	interessiren	_	_
+7-17	974-975	.	_	_
+
+#Text=Es ist eine gar schöne Sache nach Reisemühen eine wohlbekannte Stätte zu finden .
+8-1	976-978	Es	_	_
+8-2	979-982	ist	_	_
+8-3	983-987	eine	_	_
+8-4	988-991	gar	_	_
+8-5	992-998	schöne	_	_
+8-6	999-1004	Sache	_	_
+8-7	1005-1009	nach	_	_
+8-8	1010-1020	Reisemühen	_	_
+8-9	1021-1025	eine	_	_
+8-10	1026-1038	wohlbekannte	_	_
+8-11	1039-1045	Stätte	_	_
+8-12	1046-1048	zu	_	_
+8-13	1049-1055	finden	_	_
+8-14	1056-1057	.	_	_
+
+#Text=- Eben kündet Welcker an daß er zunächst nach Ens gehe , noch im September aber zum Winteraufenthalt nach Italien .
+9-1	1058-1059	-	_	_
+9-2	1060-1064	Eben	_	_
+9-3	1065-1071	kündet	_	_
+9-4	1072-1079	Welcker	*	PERmentioned
+9-5	1080-1082	an	_	_
+9-6	1083-1086	daß	_	_
+9-7	1087-1089	er	_	_
+9-8	1090-1098	zunächst	_	_
+9-9	1099-1103	nach	_	_
+9-10	1104-1107	Ens	*	PLACEmentioned
+9-11	1108-1112	gehe	_	_
+9-12	1113-1114	,	_	_
+9-13	1115-1119	noch	_	_
+9-14	1120-1122	im	_	_
+9-15	1123-1132	September	*	DATEmentioned
+9-16	1133-1137	aber	_	_
+9-17	1138-1141	zum	_	_
+9-18	1142-1158	Winteraufenthalt	_	_
+9-19	1159-1163	nach	_	_
+9-20	1164-1171	Italien	*	PLACEmentioned
+9-21	1172-1173	.	_	_
+
+#Text=Hoffentlich folgen wir diesem Brief bald glücklich nach .
+10-1	1174-1185	Hoffentlich	_	_
+10-2	1186-1192	folgen	_	_
+10-3	1193-1196	wir	_	_
+10-4	1197-1203	diesem	_	_
+10-5	1204-1209	Brief	_	_
+10-6	1210-1214	bald	_	_
+10-7	1215-1224	glücklich	_	_
+10-8	1225-1229	nach	_	_
+10-9	1230-1231	.	_	_
+
+#Text=Mit besten Grüßen meiner Frau - Ihnen Ihrer lieben Frau und gemeinsamen Freunden .
+11-1	1232-1235	Mit	_	_
+11-2	1236-1242	besten	_	_
+11-3	1243-1249	Grüßen	_	_
+11-4	1250-1256	meiner	_	_
+11-5	1257-1261	Frau	_	_
+11-6	1262-1263	-	_	_
+11-7	1264-1269	Ihnen	_	_
+11-8	1270-1275	Ihrer	_	_
+11-9	1276-1282	lieben	_	_
+11-10	1283-1287	Frau	_	_
+11-11	1288-1291	und	_	_
+11-12	1292-1303	gemeinsamen	_	_
+11-13	1304-1312	Freunden	_	_
+11-14	1313-1314	.	_	_

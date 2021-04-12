@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia , 15.Juli 1863 dinien als Kunigzeichen dienen .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Perugia	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-33	15.Juli	*[7]	DATEletter[7]
+1-7	34-38	1863	*[7]	DATEletter[7]
+1-8	39-45	dinien	*	PLACEmentioned
+1-9	46-49	als	_	_
+1-10	50-62	Kunigzeichen	_	_
+1-11	63-69	dienen	_	_
+1-12	70-71	.	_	_
+
+#Text=Falsch urtheilt er über das Alter der Inschrift , da \[ und ) nicht archaisch , wie er will , sondern quasi römisch sind \; auch A .
+2-1	72-78	Falsch	_	_
+2-2	79-87	urtheilt	_	_
+2-3	88-90	er	_	_
+2-4	91-95	über	_	_
+2-5	96-99	das	_	_
+2-6	100-105	Alter	_	_
+2-7	106-109	der	_	_
+2-8	110-119	Inschrift	*	OBJ
+2-9	120-121	,	_	_
+2-10	122-124	da	_	_
+2-11	125-126	\[	_	_
+2-12	127-130	und	_	_
+2-13	131-132	)	_	_
+2-14	133-138	nicht	_	_
+2-15	139-148	archaisch	_	_
+2-16	149-150	,	_	_
+2-17	151-154	wie	_	_
+2-18	155-157	er	_	_
+2-19	158-162	will	_	_
+2-20	163-164	,	_	_
+2-21	165-172	sondern	_	_
+2-22	173-178	quasi	_	_
+2-23	179-186	römisch	_	_
+2-24	187-191	sind	_	_
+2-25	192-193	\;	_	_
+2-26	194-198	auch	_	_
+2-27	199-200	A	_	_
+2-28	201-202	.	_	_
+
+#Text=Vebrigens läßt er uns vollkommen freie Hand seinen Artikel umzuwerfen .
+3-1	203-212	Vebrigens	_	_
+3-2	213-217	läßt	_	_
+3-3	218-220	er	_	_
+3-4	221-224	uns	_	_
+3-5	225-235	vollkommen	_	_
+3-6	236-241	freie	_	_
+3-7	242-246	Hand	_	_
+3-8	247-253	seinen	_	_
+3-9	254-261	Artikel	_	_
+3-10	262-272	umzuwerfen	_	_
+3-11	273-274	.	_	_
+
+#Text=Das Gefäß ist ganz einfach , so daß ein Stich kaum nöthig scheint .
+4-1	275-278	Das	_	_
+4-2	279-284	Gefäß	*	OBJ
+4-3	285-288	ist	_	_
+4-4	289-293	ganz	_	_
+4-5	294-301	einfach	_	_
+4-6	302-303	,	_	_
+4-7	304-306	so	_	_
+4-8	307-310	daß	_	_
+4-9	311-314	ein	_	_
+4-10	315-320	Stich	_	_
+4-11	321-325	kaum	_	_
+4-12	326-332	nöthig	_	_
+4-13	333-340	scheint	_	_
+4-14	341-342	.	_	_
+
+#Text=Ich werde ihm vorläufig schreiben , erwarte aber über Nachricht von Ihnen , da ich hier nichts nachsehen kann .
+5-1	343-346	Ich	_	_
+5-2	347-352	werde	_	_
+5-3	353-356	ihm	_	_
+5-4	357-366	vorläufig	_	_
+5-5	367-376	schreiben	_	_
+5-6	377-378	,	_	_
+5-7	379-386	erwarte	_	_
+5-8	387-391	aber	_	_
+5-9	392-396	über	_	_
+5-10	397-406	Nachricht	_	_
+5-11	407-410	von	_	_
+5-12	411-416	Ihnen	_	_
+5-13	417-418	,	_	_
+5-14	419-421	da	_	_
+5-15	422-425	ich	_	_
+5-16	426-430	hier	_	_
+5-17	431-437	nichts	_	_
+5-18	438-447	nachsehen	_	_
+5-19	448-452	kann	_	_
+5-20	453-454	.	_	_
+
+#Text=- Einen Brief an Ihre Frau entkleide ich des Portos wegen seines norwegischen Couverts .
+6-1	455-456	-	_	_
+6-2	457-462	Einen	_	_
+6-3	463-468	Brief	_	_
+6-4	469-471	an	_	_
+6-5	472-476	Ihre	*[8]	PERmentioned[8]
+6-6	477-481	Frau	*[8]	PERmentioned[8]
+6-7	482-491	entkleide	_	_
+6-8	492-495	ich	_	_
+6-9	496-499	des	_	_
+6-10	500-506	Portos	_	_
+6-11	507-512	wegen	_	_
+6-12	513-519	seines	_	_
+6-13	520-532	norwegischen	*	MISC
+6-14	533-541	Couverts	_	_
+6-15	542-543	.	_	_
+
+#Text=Eine Einlage darin an Mes .
+7-1	544-548	Eine	_	_
+7-2	549-556	Einlage	_	_
+7-3	557-562	darin	_	_
+7-4	563-565	an	_	_
+7-5	566-569	Mes	*[9]	PERmentioned[9]
+7-6	570-571	.	*[9]	PERmentioned[9]
+
+#Text=Foljambe wird hoffentlich Nino an die richtige Adresse befördern können .
+8-1	572-580	Foljambe	*[9]	PERmentioned[9]
+8-2	581-585	wird	_	_
+8-3	586-597	hoffentlich	_	_
+8-4	598-602	Nino	*	PERauthor
+8-5	603-605	an	_	_
+8-6	606-609	die	_	_
+8-7	610-618	richtige	_	_
+8-8	619-626	Adresse	_	_
+8-9	627-636	befördern	_	_
+8-10	637-643	können	_	_
+8-11	644-645	.	_	_
+
+#Text=- Von Gerhard hatte ich gestern einen höchst dürftigen Brief , in dem kein Wort über die betreffende Angelegenheit und zum Schluß nicht einmal ein Gruß .
+9-1	646-647	-	_	_
+9-2	648-651	Von	_	_
+9-3	652-659	Gerhard	*	PERmentioned
+9-4	660-665	hatte	_	_
+9-5	666-669	ich	_	_
+9-6	670-677	gestern	_	_
+9-7	678-683	einen	_	_
+9-8	684-690	höchst	_	_
+9-9	691-700	dürftigen	_	_
+9-10	701-706	Brief	_	_
+9-11	707-708	,	_	_
+9-12	709-711	in	_	_
+9-13	712-715	dem	_	_
+9-14	716-720	kein	_	_
+9-15	721-725	Wort	_	_
+9-16	726-730	über	_	_
+9-17	731-734	die	_	_
+9-18	735-746	betreffende	_	_
+9-19	747-760	Angelegenheit	_	_
+9-20	761-764	und	_	_
+9-21	765-768	zum	_	_
+9-22	769-775	Schluß	_	_
+9-23	776-781	nicht	_	_
+9-24	782-788	einmal	_	_
+9-25	789-792	ein	_	_
+9-26	793-797	Gruß	_	_
+9-27	798-799	.	_	_
+
+#Text=Scheidung des officiellen und privaten scheint ihm geradzu unmöglich .
+10-1	800-809	Scheidung	_	_
+10-2	810-813	des	_	_
+10-3	814-825	officiellen	_	_
+10-4	826-829	und	_	_
+10-5	830-838	privaten	_	_
+10-6	839-846	scheint	_	_
+10-7	847-850	ihm	_	_
+10-8	851-858	geradzu	_	_
+10-9	859-868	unmöglich	_	_
+10-10	869-870	.	_	_
+
+#Text=Denn um die Durchzeichnung einer Triptolemosvase , „ die er doch für seine eigenen Studien haben will , bittet er ( `` wir '' ) im officiellen Theil seines Briefes .
+11-1	871-875	Denn	_	_
+11-2	876-878	um	_	_
+11-3	879-882	die	_	_
+11-4	883-897	Durchzeichnung	_	_
+11-5	898-903	einer	_	_
+11-6	904-919	Triptolemosvase	*	OBJ
+11-7	920-921	,	_	_
+11-8	922-923	„	_	_
+11-9	924-927	die	_	_
+11-10	928-930	er	_	_
+11-11	931-935	doch	_	_
+11-12	936-939	für	_	_
+11-13	940-945	seine	_	_
+11-14	946-953	eigenen	_	_
+11-15	954-961	Studien	_	_
+11-16	962-967	haben	_	_
+11-17	968-972	will	_	_
+11-18	973-974	,	_	_
+11-19	975-981	bittet	_	_
+11-20	982-984	er	_	_
+11-21	985-986	(	_	_
+11-22	987-989	``	_	_
+11-23	990-993	wir	_	_
+11-24	994-996	''	_	_
+11-25	997-998	)	_	_
+11-26	999-1001	im	_	_
+11-27	1002-1013	officiellen	_	_
+11-28	1014-1019	Theil	_	_
+11-29	1020-1026	seines	_	_
+11-30	1027-1034	Briefes	_	_
+11-31	1035-1036	.	_	_
+
+#Text=Ich bin begierig , wie sich die \_Sache weiter entwickeln wird , denke sie aber.in der Folge sehr ruhig zu nehmen .
+12-1	1037-1040	Ich	_	_
+12-2	1041-1044	bin	_	_
+12-3	1045-1053	begierig	_	_
+12-4	1054-1055	,	_	_
+12-5	1056-1059	wie	_	_
+12-6	1060-1064	sich	_	_
+12-7	1065-1068	die	_	_
+12-8	1069-1075	\_Sache	_	_
+12-9	1076-1082	weiter	_	_
+12-10	1083-1093	entwickeln	_	_
+12-11	1094-1098	wird	_	_
+12-12	1099-1100	,	_	_
+12-13	1101-1106	denke	_	_
+12-14	1107-1110	sie	_	_
+12-15	1111-1118	aber.in	_	_
+12-16	1119-1122	der	_	_
+12-17	1123-1128	Folge	_	_
+12-18	1129-1133	sehr	_	_
+12-19	1134-1139	ruhig	_	_
+12-20	1140-1142	zu	_	_
+12-21	1143-1149	nehmen	_	_
+12-22	1150-1151	.	_	_
+
+#Text=Eine von Hansen in Gotha an Sie gerichtete Anfrage wegen der Braun-Campanischen Marmorfabrik beantworte ich direct .
+13-1	1152-1156	Eine	_	_
+13-2	1157-1160	von	_	_
+13-3	1161-1167	Hansen	*	PERmentioned
+13-4	1168-1170	in	_	_
+13-5	1171-1176	Gotha	*	PLACEmentioned
+13-6	1177-1179	an	_	_
+13-7	1180-1183	Sie	_	_
+13-8	1184-1194	gerichtete	_	_
+13-9	1195-1202	Anfrage	_	_
+13-10	1203-1208	wegen	_	_
+13-11	1209-1212	der	_	_
+13-12	1213-1231	Braun-Campanischen	*[10]	MISC[10]
+13-13	1232-1244	Marmorfabrik	*[10]	MISC[10]
+13-14	1245-1255	beantworte	_	_
+13-15	1256-1259	ich	_	_
+13-16	1260-1266	direct	_	_
+13-17	1267-1268	.	_	_
+
+#Text=Pupo piccolo ist stark erkältet oder laborirt an den Zähnen .
+14-1	1269-1273	Pupo	_	_
+14-2	1274-1281	piccolo	_	_
+14-3	1282-1285	ist	_	_
+14-4	1286-1291	stark	_	_
+14-5	1292-1300	erkältet	_	_
+14-6	1301-1305	oder	_	_
+14-7	1306-1314	laborirt	_	_
+14-8	1315-1317	an	_	_
+14-9	1318-1321	den	_	_
+14-10	1322-1328	Zähnen	_	_
+14-11	1329-1330	.	_	_
+
+#Text=Es fängt an besser zu gehen , war auch sonst
+15-1	1331-1333	Es	_	_
+15-2	1334-1339	fängt	_	_
+15-3	1340-1342	an	_	_
+15-4	1343-1349	besser	_	_
+15-5	1350-1352	zu	_	_
+15-6	1353-1358	gehen	_	_
+15-7	1359-1360	,	_	_
+15-8	1361-1364	war	_	_
+15-9	1365-1369	auch	_	_
+15-10	1370-1375	sonst	_	_

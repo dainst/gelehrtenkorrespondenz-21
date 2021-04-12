@@ -1,0 +1,320 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=344 Henzen an Gerhard 22/X/52 Verehrter Herr Professor !
+1-1	0-3	344	_	_	
+1-2	4-10	Henzen	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-21	Gerhard	*	PERaddressee	
+1-5	22-29	22/X/52	*	DATEletter	
+1-6	30-39	Verehrter	_	_	
+1-7	40-44	Herr	_	_	
+1-8	45-54	Professor	_	_	
+1-9	55-56	!	_	_	
+
+#Text=Die gestrige A , .A.Z .
+2-1	57-60	Die	_	_	
+2-2	61-69	gestrige	_	_	
+2-3	70-71	A	_	_	
+2-4	72-73	,	_	_	
+2-5	74-78	.A.Z	_	_	
+2-6	79-80	.	_	_	
+
+#Text=brachte uns aus Kiel die Nachricht , dß .
+3-1	81-88	brachte	_	_	
+3-2	89-92	uns	_	_	
+3-3	93-96	aus	_	_	
+3-4	97-101	Kiel	*	PLACEmentioned	
+3-5	102-105	die	_	_	
+3-6	106-115	Nachricht	_	_	
+3-7	116-117	,	_	_	
+3-8	118-120	dß	_	_	
+3-9	121-122	.	_	_	
+
+#Text=der Dr. Lorenzen von dort als Secretär des Ärchäol .
+4-1	123-126	der	_	_	
+4-2	127-130	Dr.	*[1]	PERmentioned[1]	
+4-3	131-139	Lorenzen	*[1]	PERmentioned[1]	
+4-4	140-143	von	_	_	
+4-5	144-148	dort	_	_	
+4-6	149-152	als	_	_	
+4-7	153-161	Secretär	_	_	
+4-8	162-165	des	_	_	
+4-9	166-173	Ärchäol	*[2]	ORGmentioned[2]	
+4-10	174-175	.	*[2]	ORGmentioned[2]	
+
+#Text=Institutsin Rom angestellt sei .
+5-1	176-187	Institutsin	*[2]	ORGmentioned[2]	
+5-2	188-191	Rom	*	PLACEmentioned	
+5-3	192-202	angestellt	_	_	
+5-4	203-206	sei	_	_	
+5-5	207-208	.	_	_	
+
+#Text=Da diese Nachricht bei Ihnen , vielleicht auch bei I , Schutz , Verwunderung erregen muß , so beeilen wir uns , Ihnen heute den missverstandnen Zusammenhang der Sache darzulegen , Braun hatte längst gewünscht , einen Fhilologen bei sich zu haben , um ihm vorzuarbeiten , da seine Geschäfte immer mehr Ueberhand nehmen ; zugleich wollte er durch denselben hie u. da auch für ds . Institut arbeiten lassen , das Ganze aber natürlich auf seine eigenen Kosten .
+6-1	209-211	Da	_	_	
+6-2	212-217	diese	_	_	
+6-3	218-227	Nachricht	_	_	
+6-4	228-231	bei	_	_	
+6-5	232-237	Ihnen	_	_	
+6-6	238-239	,	_	_	
+6-7	240-250	vielleicht	_	_	
+6-8	251-255	auch	_	_	
+6-9	256-259	bei	_	_	
+6-10	260-261	I	*[3]	PERmentioned[3]	
+6-11	262-263	,	*[3]	PERmentioned[3]	
+6-12	264-270	Schutz	*[3]	PERmentioned[3]	
+6-13	271-272	,	_	_	
+6-14	273-285	Verwunderung	_	_	
+6-15	286-293	erregen	_	_	
+6-16	294-297	muß	_	_	
+6-17	298-299	,	_	_	
+6-18	300-302	so	_	_	
+6-19	303-310	beeilen	_	_	
+6-20	311-314	wir	_	_	
+6-21	315-318	uns	_	_	
+6-22	319-320	,	_	_	
+6-23	321-326	Ihnen	_	_	
+6-24	327-332	heute	_	_	
+6-25	333-336	den	_	_	
+6-26	337-352	missverstandnen	_	_	
+6-27	353-365	Zusammenhang	_	_	
+6-28	366-369	der	_	_	
+6-29	370-375	Sache	_	_	
+6-30	376-386	darzulegen	_	_	
+6-31	387-388	,	_	_	
+6-32	389-394	Braun	*	PERmentioned	
+6-33	395-400	hatte	_	_	
+6-34	401-407	längst	_	_	
+6-35	408-417	gewünscht	_	_	
+6-36	418-419	,	_	_	
+6-37	420-425	einen	_	_	
+6-38	426-436	Fhilologen	_	_	
+6-39	437-440	bei	_	_	
+6-40	441-445	sich	_	_	
+6-41	446-448	zu	_	_	
+6-42	449-454	haben	_	_	
+6-43	455-456	,	_	_	
+6-44	457-459	um	_	_	
+6-45	460-463	ihm	_	_	
+6-46	464-477	vorzuarbeiten	_	_	
+6-47	478-479	,	_	_	
+6-48	480-482	da	_	_	
+6-49	483-488	seine	_	_	
+6-50	489-498	Geschäfte	_	_	
+6-51	499-504	immer	_	_	
+6-52	505-509	mehr	_	_	
+6-53	510-519	Ueberhand	_	_	
+6-54	520-526	nehmen	_	_	
+6-55	527-528	;	_	_	
+6-56	529-537	zugleich	_	_	
+6-57	538-544	wollte	_	_	
+6-58	545-547	er	_	_	
+6-59	548-553	durch	_	_	
+6-60	554-563	denselben	_	_	
+6-61	564-567	hie	_	_	
+6-62	568-570	u.	_	_	
+6-63	571-573	da	_	_	
+6-64	574-578	auch	_	_	
+6-65	579-582	für	_	_	
+6-66	583-585	ds	_	_	
+6-67	586-587	.	_	_	
+6-68	588-596	Institut	*	ORGmentioned	
+6-69	597-605	arbeiten	_	_	
+6-70	606-612	lassen	_	_	
+6-71	613-614	,	_	_	
+6-72	615-618	das	_	_	
+6-73	619-624	Ganze	_	_	
+6-74	625-629	aber	_	_	
+6-75	630-639	natürlich	_	_	
+6-76	640-643	auf	_	_	
+6-77	644-649	seine	_	_	
+6-78	650-657	eigenen	_	_	
+6-79	658-664	Kosten	_	_	
+6-80	665-666	.	_	_	
+
+#Text=Da nun Nitzsch sich an mich wandte , um für einen jungen hier eine Hauslehrerstelle zu erlangen , so wünschte Braun , diesen in jener Eigenschaft zu erhalten .
+7-1	667-669	Da	_	_	
+7-2	670-673	nun	_	_	
+7-3	674-681	Nitzsch	*	PERmentioned	
+7-4	682-686	sich	_	_	
+7-5	687-689	an	_	_	
+7-6	690-694	mich	_	_	
+7-7	695-701	wandte	_	_	
+7-8	702-703	,	_	_	
+7-9	704-706	um	_	_	
+7-10	707-710	für	_	_	
+7-11	711-716	einen	_	_	
+7-12	717-723	jungen	_	_	
+7-13	724-728	hier	_	_	
+7-14	729-733	eine	_	_	
+7-15	734-750	Hauslehrerstelle	_	_	
+7-16	751-753	zu	_	_	
+7-17	754-762	erlangen	_	_	
+7-18	763-764	,	_	_	
+7-19	765-767	so	_	_	
+7-20	768-776	wünschte	_	_	
+7-21	777-782	Braun	*	PERmentioned	
+7-22	783-784	,	_	_	
+7-23	785-791	diesen	_	_	
+7-24	792-794	in	_	_	
+7-25	795-800	jener	_	_	
+7-26	801-812	Eigenschaft	_	_	
+7-27	813-815	zu	_	_	
+7-28	816-824	erhalten	_	_	
+7-29	825-826	.	_	_	
+
+#Text=Unterdeß war derselbe anderweitig untergekommen , u. Nitzsch schlug statt seiner den Dr. lLorenzen vor .
+8-1	827-835	Unterdeß	_	_	
+8-2	836-839	war	_	_	
+8-3	840-848	derselbe	_	_	
+8-4	849-860	anderweitig	_	_	
+8-5	861-874	untergekommen	_	_	
+8-6	875-876	,	_	_	
+8-7	877-879	u.	_	_	
+8-8	880-887	Nitzsch	*	PERmentioned	
+8-9	888-894	schlug	_	_	
+8-10	895-900	statt	_	_	
+8-11	901-907	seiner	_	_	
+8-12	908-911	den	_	_	
+8-13	912-915	Dr.	*[4]	PERmentioned[4]	
+8-14	916-925	lLorenzen	*[4]	PERmentioned[4]	
+8-15	926-929	vor	_	_	
+8-16	930-931	.	_	_	
+
+#Text=Also handelt es sich eigentlich um einen philologischen Privatsecretär Braun 's .
+9-1	932-936	Also	_	_	
+9-2	937-944	handelt	_	_	
+9-3	945-947	es	_	_	
+9-4	948-952	sich	_	_	
+9-5	953-963	eigentlich	_	_	
+9-6	964-966	um	_	_	
+9-7	967-972	einen	_	_	
+9-8	973-987	philologischen	_	_	
+9-9	988-1002	Privatsecretär	_	_	
+9-10	1003-1008	Braun	*[5]	PERmentioned[5]	
+9-11	1009-1011	's	*[5]	PERmentioned[5]	
+9-12	1012-1013	.	_	_	
+
+#Text=Wie er dessen Arbeiten einrichten wird , wird sich zeigen , Dr. Ribbeck ist angekommen , leider ohne in unserm Hause Wohnung zu finden , “ Wie er mir sagt , hat er auch Auftrag , die epigraphischen Manuscripte einzusehen .
+10-1	1014-1017	Wie	_	_	
+10-2	1018-1020	er	_	_	
+10-3	1021-1027	dessen	_	_	
+10-4	1028-1036	Arbeiten	_	_	
+10-5	1037-1047	einrichten	_	_	
+10-6	1048-1052	wird	_	_	
+10-7	1053-1054	,	_	_	
+10-8	1055-1059	wird	_	_	
+10-9	1060-1064	sich	_	_	
+10-10	1065-1071	zeigen	_	_	
+10-11	1072-1073	,	_	_	
+10-12	1074-1077	Dr.	*[6]	PERmentioned[6]	
+10-13	1078-1085	Ribbeck	*[6]	PERmentioned[6]	
+10-14	1086-1089	ist	_	_	
+10-15	1090-1100	angekommen	_	_	
+10-16	1101-1102	,	_	_	
+10-17	1103-1109	leider	_	_	
+10-18	1110-1114	ohne	_	_	
+10-19	1115-1117	in	_	_	
+10-20	1118-1124	unserm	_	_	
+10-21	1125-1130	Hause	_	_	
+10-22	1131-1138	Wohnung	_	_	
+10-23	1139-1141	zu	_	_	
+10-24	1142-1148	finden	_	_	
+10-25	1149-1150	,	_	_	
+10-26	1151-1152	“	_	_	
+10-27	1153-1156	Wie	_	_	
+10-28	1157-1159	er	_	_	
+10-29	1160-1163	mir	_	_	
+10-30	1164-1168	sagt	_	_	
+10-31	1169-1170	,	_	_	
+10-32	1171-1174	hat	_	_	
+10-33	1175-1177	er	_	_	
+10-34	1178-1182	auch	_	_	
+10-35	1183-1190	Auftrag	_	_	
+10-36	1191-1192	,	_	_	
+10-37	1193-1196	die	_	_	
+10-38	1197-1211	epigraphischen	*	MISC	
+10-39	1212-1223	Manuscripte	_	_	
+10-40	1224-1234	einzusehen	_	_	
+10-41	1235-1236	.	_	_	
+
+#Text=Es zeigt mir ds . aufs Neue , dß .
+11-1	1237-1239	Es	_	_	
+11-2	1240-1245	zeigt	_	_	
+11-3	1246-1249	mir	_	_	
+11-4	1250-1252	ds	_	_	
+11-5	1253-1254	.	_	_	
+11-6	1255-1259	aufs	_	_	
+11-7	1260-1264	Neue	_	_	
+11-8	1265-1266	,	_	_	
+11-9	1267-1269	dß	_	_	
+11-10	1270-1271	.	_	_	
+
+#Text=eine hochlöbl .
+12-1	1272-1276	eine	_	_	
+12-2	1277-1285	hochlöbl	_	_	
+12-3	1286-1287	.	_	_	
+
+#Text=Akademie auch nicht die entfernsteste Vorstellung von dem hat , worum es sich handelt .
+13-1	1288-1296	Akademie	*	ORGmentioned	
+13-2	1297-1301	auch	_	_	
+13-3	1302-1307	nicht	_	_	
+13-4	1308-1311	die	_	_	
+13-5	1312-1325	entfernsteste	_	_	
+13-6	1326-1337	Vorstellung	_	_	
+13-7	1338-1341	von	_	_	
+13-8	1342-1345	dem	_	_	
+13-9	1346-1349	hat	_	_	
+13-10	1350-1351	,	_	_	
+13-11	1352-1357	worum	_	_	
+13-12	1358-1360	es	_	_	
+13-13	1361-1365	sich	_	_	
+13-14	1366-1373	handelt	_	_	
+13-15	1374-1375	.	_	_	
+
+#Text=Das ist keine Arbeit für 6 Wochen , sondern für Jahre , u. nicht für einen noch so tüchtigen Philologen , sondern für Jemanden , der in Epigraphicis Bescheid weiß .
+14-1	1376-1379	Das	_	_	
+14-2	1380-1383	ist	_	_	
+14-3	1384-1389	keine	_	_	
+14-4	1390-1396	Arbeit	_	_	
+14-5	1397-1400	für	_	_	
+14-6	1401-1402	6	_	_	
+14-7	1403-1409	Wochen	_	_	
+14-8	1410-1411	,	_	_	
+14-9	1412-1419	sondern	_	_	
+14-10	1420-1423	für	_	_	
+14-11	1424-1429	Jahre	_	_	
+14-12	1430-1431	,	_	_	
+14-13	1432-1434	u.	_	_	
+14-14	1435-1440	nicht	_	_	
+14-15	1441-1444	für	_	_	
+14-16	1445-1450	einen	_	_	
+14-17	1451-1455	noch	_	_	
+14-18	1456-1458	so	_	_	
+14-19	1459-1468	tüchtigen	_	_	
+14-20	1469-1479	Philologen	*	MISC	
+14-21	1480-1481	,	_	_	
+14-22	1482-1489	sondern	_	_	
+14-23	1490-1493	für	_	_	
+14-24	1494-1502	Jemanden	_	_	
+14-25	1503-1504	,	_	_	
+14-26	1505-1508	der	_	_	
+14-27	1509-1511	in	_	_	
+14-28	1512-1524	Epigraphicis	_	_	
+14-29	1525-1533	Bescheid	_	_	
+14-30	1534-1538	weiß	_	_	
+14-31	1539-1540	.	_	_	
+
+#Text=Uebrigens hat de Rossi die epigraph .
+15-1	1541-1550	Uebrigens	_	_	
+15-2	1551-1554	hat	_	_	
+15-3	1555-1557	de	*[7]	PERmentioned[7]	
+15-4	1558-1563	Rossi	*[7]	PERmentioned[7]	
+15-5	1564-1567	die	_	_	
+15-6	1568-1576	epigraph	_	_	
+15-7	1577-1578	.	_	_	
+
+#Text=Codices in
+16-1	1579-1586	Codices	_	_	
+16-2	1587-1589	in	_	_	

@@ -1,0 +1,115 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 21. Juli 1837 Auch alle anderen Flätze sind angefüllt .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	21.	*[1]	DATEletter[1]
+1-7	27-31	Juli	*[1]	DATEletter[1]
+1-8	32-36	1837	*[1]	DATEletter[1]
+1-9	37-41	Auch	_	_
+1-10	42-46	alle	_	_
+1-11	47-54	anderen	_	_
+1-12	55-61	Flätze	_	_
+1-13	62-66	sind	_	_
+1-14	67-76	angefüllt	_	_
+1-15	77-78	.	_	_
+
+#Text=- Kestner reist heute Nacht nach Deutschland ab , mit dem S \| rath Lotsch .
+2-1	79-80	-	_	_
+2-2	81-88	Kestner	*	PERmentioned
+2-3	89-94	reist	_	_
+2-4	95-100	heute	_	_
+2-5	101-106	Nacht	_	_
+2-6	107-111	nach	_	_
+2-7	112-123	Deutschland	*	PLACEmentioned
+2-8	124-126	ab	_	_
+2-9	127-128	,	_	_
+2-10	129-132	mit	_	_
+2-11	133-136	dem	_	_
+2-12	137-138	S	_	_
+2-13	139-140	\|	_	_
+2-14	141-145	rath	_	_
+2-15	146-152	Lotsch	*	PERmentioned
+2-16	153-154	.	_	_
+
+#Text=Brockhaus hat eine Handlung für den ausländischen Bücherverkehr in Paris gegründet .
+3-1	155-164	Brockhaus	*	PERmentioned
+3-2	165-168	hat	_	_
+3-3	169-173	eine	_	_
+3-4	174-182	Handlung	_	_
+3-5	183-186	für	_	_
+3-6	187-190	den	_	_
+3-7	191-204	ausländischen	_	_
+3-8	205-218	Bücherverkehr	_	_
+3-9	219-221	in	_	_
+3-10	222-227	Paris	*	PLACEmentioned
+3-11	228-237	gegründet	_	_
+3-12	238-239	.	_	_
+
+#Text=Er bietet dem Institut seine Dienste an .
+4-1	240-242	Er	_	_
+4-2	243-249	bietet	_	_
+4-3	250-253	dem	_	_
+4-4	254-262	Institut	*	ORGmentioned
+4-5	263-268	seine	_	_
+4-6	269-276	Dienste	_	_
+4-7	277-279	an	_	_
+4-8	280-281	.	_	_
+
+#Text=Ich meines Theils würde dieses Anerbiten für sehr günstig halten , zumal sich Maze äußerst säumig , untreu und fortwährend Flegelhaft beträgt .
+5-1	282-285	Ich	_	_
+5-2	286-292	meines	_	_
+5-3	293-299	Theils	_	_
+5-4	300-305	würde	_	_
+5-5	306-312	dieses	_	_
+5-6	313-322	Anerbiten	_	_
+5-7	323-326	für	_	_
+5-8	327-331	sehr	_	_
+5-9	332-339	günstig	_	_
+5-10	340-346	halten	_	_
+5-11	347-348	,	_	_
+5-12	349-354	zumal	_	_
+5-13	355-359	sich	_	_
+5-14	360-364	Maze	*	PERmentioned
+5-15	365-372	äußerst	_	_
+5-16	373-379	säumig	_	_
+5-17	380-381	,	_	_
+5-18	382-388	untreu	_	_
+5-19	389-392	und	_	_
+5-20	393-404	fortwährend	_	_
+5-21	405-415	Flegelhaft	_	_
+5-22	416-423	beträgt	_	_
+5-23	424-425	.	_	_
+
+#Text=Weder Geld noch Antwort !
+6-1	426-431	Weder	_	_
+6-2	432-436	Geld	_	_
+6-3	437-441	noch	_	_
+6-4	442-449	Antwort	_	_
+6-5	450-451	!	_	_
+
+#Text=Besonders gut müßte sich dies auch für England schicken .
+7-1	452-461	Besonders	_	_
+7-2	462-465	gut	_	_
+7-3	466-471	müßte	_	_
+7-4	472-476	sich	_	_
+7-5	477-481	dies	_	_
+7-6	482-486	auch	_	_
+7-7	487-490	für	_	_
+7-8	491-498	England	*	PLACEmentioned
+7-9	499-507	schicken	_	_
+7-10	508-509	.	_	_
+
+#Text=Soweit für heut Ihr treuer EBraun .
+8-1	510-516	Soweit	_	_
+8-2	517-520	für	_	_
+8-3	521-525	heut	_	_
+8-4	526-529	Ihr	_	_
+8-5	530-536	treuer	_	_
+8-6	537-543	EBraun	*	PERauthor
+8-7	544-545	.	_	_

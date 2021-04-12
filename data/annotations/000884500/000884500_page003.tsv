@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=u Gerhard an Braun Berlin , 2 .
+1-1	0-1	u	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-29	2	_	_
+1-8	30-31	.	_	_
+
+#Text=Januar 1838 zu lassen .
+2-1	32-38	Januar	*[4]	DATEletter[4]
+2-2	39-43	1838	*[4]	DATEletter[4]
+2-3	44-46	zu	_	_
+2-4	47-53	lassen	_	_
+2-5	54-55	.	_	_
+
+#Text=Einen von den 3 beinigen Kandelabern wollten wir gelegentlich Campanaris gegen andre Gegenstände zurückgeben , als woran ich erinnere .
+3-1	56-61	Einen	_	_
+3-2	62-65	von	_	_
+3-3	66-69	den	_	_
+3-4	70-71	3	_	_
+3-5	72-80	beinigen	_	_
+3-6	81-92	Kandelabern	*	OBJ
+3-7	93-100	wollten	_	_
+3-8	101-104	wir	_	_
+3-9	105-117	gelegentlich	_	_
+3-10	118-128	Campanaris	*	PERmentioned
+3-11	129-134	gegen	_	_
+3-12	135-140	andre	_	_
+3-13	141-152	Gegenstände	_	_
+3-14	153-164	zurückgeben	_	_
+3-15	165-166	,	_	_
+3-16	167-170	als	_	_
+3-17	171-176	woran	_	_
+3-18	177-180	ich	_	_
+3-19	181-189	erinnere	_	_
+3-20	190-191	.	_	_
+
+#Text=Sind A dainis Sachen dem Governo verblieben ?
+4-1	192-196	Sind	_	_
+4-2	197-198	A	*[7]	PERmentioned[7]
+4-3	199-205	dainis	*[7]	PERmentioned[7]
+4-4	206-212	Sachen	_	_
+4-5	213-216	dem	_	_
+4-6	217-224	Governo	*	ORGmentioned
+4-7	225-235	verblieben	_	_
+4-8	236-237	?	_	_
+
+#Text=- Die mir zugehörigen kleinen Bronzen bitte ich wenn Beischlüsse mit meiner Addresse versehen einzupacken .
+5-1	238-239	-	_	_
+5-2	240-243	Die	_	_
+5-3	244-247	mir	_	_
+5-4	248-259	zugehörigen	_	_
+5-5	260-267	kleinen	_	_
+5-6	268-275	Bronzen	*	OBJ
+5-7	276-281	bitte	_	_
+5-8	282-285	ich	_	_
+5-9	286-290	wenn	_	_
+5-10	291-302	Beischlüsse	_	_
+5-11	303-306	mit	_	_
+5-12	307-313	meiner	_	_
+5-13	314-322	Addresse	_	_
+5-14	323-331	versehen	_	_
+5-15	332-343	einzupacken	_	_
+5-16	344-345	.	_	_
+
+#Text=- Die etlichen Schalen an deren Restauration ich die Kosten noch nicht zu wenden mich entschließen konnte werden wol einstweilen in Rom bleiben müssen .
+6-1	346-347	-	_	_
+6-2	348-351	Die	_	_
+6-3	352-360	etlichen	_	_
+6-4	361-368	Schalen	_	_
+6-5	369-371	an	_	_
+6-6	372-377	deren	_	_
+6-7	378-390	Restauration	_	_
+6-8	391-394	ich	_	_
+6-9	395-398	die	_	_
+6-10	399-405	Kosten	_	_
+6-11	406-410	noch	_	_
+6-12	411-416	nicht	_	_
+6-13	417-419	zu	_	_
+6-14	420-426	wenden	_	_
+6-15	427-431	mich	_	_
+6-16	432-444	entschließen	_	_
+6-17	445-451	konnte	_	_
+6-18	452-458	werden	_	_
+6-19	459-462	wol	_	_
+6-20	463-474	einstweilen	_	_
+6-21	475-477	in	_	_
+6-22	478-481	Rom	*	PLACEmentioned
+6-23	482-489	bleiben	_	_
+6-24	490-496	müssen	_	_
+6-25	497-498	.	_	_
+
+#Text=- Panofka entschließt sich 71 Ex .
+7-1	499-500	-	_	_
+7-2	501-508	Panofka	*	PERmentioned
+7-3	509-520	entschließt	_	_
+7-4	521-525	sich	_	_
+7-5	526-528	71	_	_
+7-6	529-531	Ex	_	_
+7-7	532-533	.	_	_
+
+#Text=Skiron an Capranesi zu geben , dem man eine Süßfigkeit damit erweist \; er kann ihm gelegentlich eine Antiquen Kleinigkeit dafür senden , Werth 2 Scudi .
+8-1	534-540	Skiron	_	_
+8-2	541-543	an	_	_
+8-3	544-553	Capranesi	*	PERmentioned
+8-4	554-556	zu	_	_
+8-5	557-562	geben	_	_
+8-6	563-564	,	_	_
+8-7	565-568	dem	_	_
+8-8	569-572	man	_	_
+8-9	573-577	eine	_	_
+8-10	578-588	Süßfigkeit	_	_
+8-11	589-594	damit	_	_
+8-12	595-602	erweist	_	_
+8-13	603-604	\;	_	_
+8-14	605-607	er	_	_
+8-15	608-612	kann	_	_
+8-16	613-616	ihm	_	_
+8-17	617-629	gelegentlich	_	_
+8-18	630-634	eine	_	_
+8-19	635-643	Antiquen	_	_
+8-20	644-655	Kleinigkeit	_	_
+8-21	656-661	dafür	_	_
+8-22	662-668	senden	_	_
+8-23	669-670	,	_	_
+8-24	671-676	Werth	_	_
+8-25	677-678	2	_	_
+8-26	679-684	Scudi	_	_
+8-27	685-686	.	_	_
+
+#Text=Ich schreibe wol selbst anhangend ein paar Zeilen für Ihren Gebrauch für Capranesi .
+9-1	687-690	Ich	_	_
+9-2	691-699	schreibe	_	_
+9-3	700-703	wol	_	_
+9-4	704-710	selbst	_	_
+9-5	711-720	anhangend	_	_
+9-6	721-724	ein	_	_
+9-7	725-729	paar	_	_
+9-8	730-736	Zeilen	_	_
+9-9	737-740	für	_	_
+9-10	741-746	Ihren	_	_
+9-11	747-755	Gebrauch	_	_
+9-12	756-759	für	_	_
+9-13	760-769	Capranesi	*	PERmentioned
+9-14	770-771	.	_	_
+
+#Text=lassen Sie Sich lieber Freund die allerlei Mühe zu der dieser Brief Sie veranhßt nicht verdrießen , sondern geben Sie mir Gelegenheit Ihnen mit That und Willen wieder förderlich zu sein !
+10-1	772-778	lassen	_	_
+10-2	779-782	Sie	_	_
+10-3	783-787	Sich	_	_
+10-4	788-794	lieber	_	_
+10-5	795-801	Freund	_	_
+10-6	802-805	die	_	_
+10-7	806-814	allerlei	_	_
+10-8	815-819	Mühe	_	_
+10-9	820-822	zu	_	_
+10-10	823-826	der	_	_
+10-11	827-833	dieser	_	_
+10-12	834-839	Brief	_	_
+10-13	840-843	Sie	_	_
+10-14	844-852	veranhßt	_	_
+10-15	853-858	nicht	_	_
+10-16	859-869	verdrießen	_	_
+10-17	870-871	,	_	_
+10-18	872-879	sondern	_	_
+10-19	880-885	geben	_	_
+10-20	886-889	Sie	_	_
+10-21	890-893	mir	_	_
+10-22	894-905	Gelegenheit	_	_
+10-23	906-911	Ihnen	_	_
+10-24	912-915	mit	_	_
+10-25	916-920	That	_	_
+10-26	921-924	und	_	_
+10-27	925-931	Willen	_	_
+10-28	932-938	wieder	_	_
+10-29	939-949	förderlich	_	_
+10-30	950-952	zu	_	_
+10-31	953-957	sein	_	_
+10-32	958-959	!	_	_
+
+#Text=Herzlichst Ihr Gerhard Capranesi hat mir für die 2 durch Bunsen zurückgesandten Steine 32 Scudi abzunehmen , wogegen ich den Annello di Giove d'argento 30 , den Delfin von Thon 5 und allenfalls auch das Gefäß in ägyptisirender Frauenbildung für 10 Scudi zu nehmen bereit bin , wenn Sie lezte-
+11-1	960-970	Herzlichst	_	_
+11-2	971-974	Ihr	_	_
+11-3	975-982	Gerhard	*	PERauthor
+11-4	983-992	Capranesi	*	PERmentioned
+11-5	993-996	hat	_	_
+11-6	997-1000	mir	_	_
+11-7	1001-1004	für	_	_
+11-8	1005-1008	die	_	_
+11-9	1009-1010	2	_	_
+11-10	1011-1016	durch	_	_
+11-11	1017-1023	Bunsen	*	PERmentioned
+11-12	1024-1039	zurückgesandten	_	_
+11-13	1040-1046	Steine	_	_
+11-14	1047-1049	32	_	_
+11-15	1050-1055	Scudi	_	_
+11-16	1056-1066	abzunehmen	_	_
+11-17	1067-1068	,	_	_
+11-18	1069-1076	wogegen	_	_
+11-19	1077-1080	ich	_	_
+11-20	1081-1084	den	_	_
+11-21	1085-1092	Annello	*[17]	OBJ[17]
+11-22	1093-1095	di	*[17]	OBJ[17]
+11-23	1096-1101	Giove	*[17]	OBJ[17]
+11-24	1102-1111	d'argento	*[17]	OBJ[17]
+11-25	1112-1114	30	_	_
+11-26	1115-1116	,	_	_
+11-27	1117-1120	den	_	_
+11-28	1121-1127	Delfin	*[18]	OBJ[18]
+11-29	1128-1131	von	*[18]	OBJ[18]
+11-30	1132-1136	Thon	*[18]	OBJ[18]
+11-31	1137-1138	5	_	_
+11-32	1139-1142	und	_	_
+11-33	1143-1153	allenfalls	_	_
+11-34	1154-1158	auch	_	_
+11-35	1159-1162	das	_	_
+11-36	1163-1168	Gefäß	*[19]	OBJ[19]
+11-37	1169-1171	in	*[19]	OBJ[19]
+11-38	1172-1186	ägyptisirender	*[19]	OBJ[19]
+11-39	1187-1200	Frauenbildung	*[19]	OBJ[19]
+11-40	1201-1204	für	_	_
+11-41	1205-1207	10	_	_
+11-42	1208-1213	Scudi	_	_
+11-43	1214-1216	zu	_	_
+11-44	1217-1223	nehmen	_	_
+11-45	1224-1230	bereit	_	_
+11-46	1231-1234	bin	_	_
+11-47	1235-1236	,	_	_
+11-48	1237-1241	wenn	_	_
+11-49	1242-1245	Sie	_	_
+11-50	1246-1252	lezte-	_	_

@@ -1,0 +1,165 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 19 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	19	*[1]	DATEletter[1]
+1-7	30-31	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1875 die Central Direktion von Rom aus ganz ex nexa gelassen war .
+2-1	32-39	Oktober	*[1]	DATEletter[1]
+2-2	40-44	1875	*[1]	DATEletter[1]
+2-3	45-48	die	_	_
+2-4	49-56	Central	*[2]	ORGmentioned[2]
+2-5	57-66	Direktion	*[2]	ORGmentioned[2]
+2-6	67-70	von	_	_
+2-7	71-74	Rom	*	PLACEmentioned
+2-8	75-78	aus	_	_
+2-9	79-83	ganz	_	_
+2-10	84-86	ex	_	_
+2-11	87-91	nexa	_	_
+2-12	92-100	gelassen	_	_
+2-13	101-104	war	_	_
+2-14	105-106	.	_	_
+
+#Text=Als sich Lüders eine Zeit lang direkt an das Auswärtige Amt wendete , wurde er von dort ausdrücklich an die Central Direktion gewiesen und uns dies mitgetheilt , als seiner nächsten Behörde .
+3-1	107-110	Als	_	_
+3-2	111-115	sich	_	_
+3-3	116-122	Lüders	*	PERmentioned
+3-4	123-127	eine	_	_
+3-5	128-132	Zeit	_	_
+3-6	133-137	lang	_	_
+3-7	138-144	direkt	_	_
+3-8	145-147	an	_	_
+3-9	148-151	das	_	_
+3-10	152-162	Auswärtige	*[3]	ORGmentioned[3]
+3-11	163-166	Amt	*[3]	ORGmentioned[3]
+3-12	167-174	wendete	_	_
+3-13	175-176	,	_	_
+3-14	177-182	wurde	_	_
+3-15	183-185	er	_	_
+3-16	186-189	von	_	_
+3-17	190-194	dort	_	_
+3-18	195-207	ausdrücklich	_	_
+3-19	208-210	an	_	_
+3-20	211-214	die	_	_
+3-21	215-222	Central	*[4]	ORGmentioned[4]
+3-22	223-232	Direktion	*[4]	ORGmentioned[4]
+3-23	233-241	gewiesen	_	_
+3-24	242-245	und	_	_
+3-25	246-249	uns	_	_
+3-26	250-254	dies	_	_
+3-27	255-266	mitgetheilt	_	_
+3-28	267-268	,	_	_
+3-29	269-272	als	_	_
+3-30	273-279	seiner	_	_
+3-31	280-288	nächsten	_	_
+3-32	289-296	Behörde	_	_
+3-33	297-298	.	_	_
+
+#Text=Etwas anderes ist es natürlich , wenn der Gesandte , noch dazu in so wohlwollender Weise wie Herr von Keudell die Initiative ergreäft \; dafür können wir nur dankbar sein \; das hindert aber nicht eine zweckmäßige Fühlung nebenbei zu behalten zwischen dem Sekretariat und der Central Direktion , damit beide Hand in Hand gehen können .
+4-1	299-304	Etwas	_	_
+4-2	305-312	anderes	_	_
+4-3	313-316	ist	_	_
+4-4	317-319	es	_	_
+4-5	320-329	natürlich	_	_
+4-6	330-331	,	_	_
+4-7	332-336	wenn	_	_
+4-8	337-340	der	_	_
+4-9	341-349	Gesandte	_	_
+4-10	350-351	,	_	_
+4-11	352-356	noch	_	_
+4-12	357-361	dazu	_	_
+4-13	362-364	in	_	_
+4-14	365-367	so	_	_
+4-15	368-381	wohlwollender	_	_
+4-16	382-387	Weise	_	_
+4-17	388-391	wie	_	_
+4-18	392-396	Herr	_	_
+4-19	397-400	von	*[5]	PERmentioned[5]
+4-20	401-408	Keudell	*[5]	PERmentioned[5]
+4-21	409-412	die	_	_
+4-22	413-423	Initiative	_	_
+4-23	424-432	ergreäft	_	_
+4-24	433-434	\;	_	_
+4-25	435-440	dafür	_	_
+4-26	441-447	können	_	_
+4-27	448-451	wir	_	_
+4-28	452-455	nur	_	_
+4-29	456-463	dankbar	_	_
+4-30	464-468	sein	_	_
+4-31	469-470	\;	_	_
+4-32	471-474	das	_	_
+4-33	475-482	hindert	_	_
+4-34	483-487	aber	_	_
+4-35	488-493	nicht	_	_
+4-36	494-498	eine	_	_
+4-37	499-510	zweckmäßige	_	_
+4-38	511-518	Fühlung	_	_
+4-39	519-527	nebenbei	_	_
+4-40	528-530	zu	_	_
+4-41	531-539	behalten	_	_
+4-42	540-548	zwischen	_	_
+4-43	549-552	dem	_	_
+4-44	553-564	Sekretariat	_	_
+4-45	565-568	und	_	_
+4-46	569-572	der	_	_
+4-47	573-580	Central	*[6]	ORGmentioned[6]
+4-48	581-590	Direktion	*[6]	ORGmentioned[6]
+4-49	591-592	,	_	_
+4-50	593-598	damit	_	_
+4-51	599-604	beide	_	_
+4-52	605-609	Hand	_	_
+4-53	610-612	in	_	_
+4-54	613-617	Hand	_	_
+4-55	618-623	gehen	_	_
+4-56	624-630	können	_	_
+4-57	631-632	.	_	_
+
+#Text=Ich schließe mit der Überschrift , daß dies nur vetrauliche Mittheilungen an Sie sind .
+5-1	633-636	Ich	_	_
+5-2	637-645	schließe	_	_
+5-3	646-649	mit	_	_
+5-4	650-653	der	_	_
+5-5	654-665	Überschrift	_	_
+5-6	666-667	,	_	_
+5-7	668-671	daß	_	_
+5-8	672-676	dies	_	_
+5-9	677-680	nur	_	_
+5-10	681-692	vetrauliche	_	_
+5-11	693-706	Mittheilungen	_	_
+5-12	707-709	an	_	_
+5-13	710-713	Sie	_	_
+5-14	714-718	sind	_	_
+5-15	719-720	.	_	_
+
+#Text=- Mit Helbig bin ich überein gekommen , gleichfalls officielle und Privatbriefe ganz zu trennen und frühere Mißverständnisse für die Folge zu vermeiden .
+6-1	721-722	-	_	_
+6-2	723-726	Mit	_	_
+6-3	727-733	Helbig	*	PERmentioned
+6-4	734-737	bin	_	_
+6-5	738-741	ich	_	_
+6-6	742-749	überein	_	_
+6-7	750-758	gekommen	_	_
+6-8	759-760	,	_	_
+6-9	761-772	gleichfalls	_	_
+6-10	773-783	officielle	_	_
+6-11	784-787	und	_	_
+6-12	788-800	Privatbriefe	_	_
+6-13	801-805	ganz	_	_
+6-14	806-808	zu	_	_
+6-15	809-816	trennen	_	_
+6-16	817-820	und	_	_
+6-17	821-828	frühere	_	_
+6-18	829-845	Mißverständnisse	_	_
+6-19	846-849	für	_	_
+6-20	850-853	die	_	_
+6-21	854-859	Folge	_	_
+6-22	860-862	zu	_	_
+6-23	863-872	vermeiden	_	_
+6-24	873-874	.	_	_

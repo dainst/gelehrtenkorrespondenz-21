@@ -1,0 +1,87 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=6 Lepsius an Henzen Berlin , 29. Dezember 1876 bei uns Hausfreund war , hat Herz und Hand gewonnen und vorgestern meinen Segen dazu erhalten .
+1-1	0-1	6	_	_
+1-2	2-9	Lepsius	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	29.	*[1]	DATEletter[1]
+1-8	33-41	Dezember	*[1]	DATEletter[1]
+1-9	42-46	1876	*[1]	DATEletter[1]
+1-10	47-50	bei	_	_
+1-11	51-54	uns	_	_
+1-12	55-65	Hausfreund	_	_
+1-13	66-69	war	_	_
+1-14	70-71	,	_	_
+1-15	72-75	hat	_	_
+1-16	76-80	Herz	_	_
+1-17	81-84	und	_	_
+1-18	85-89	Hand	_	_
+1-19	90-98	gewonnen	_	_
+1-20	99-102	und	_	_
+1-21	103-113	vorgestern	_	_
+1-22	114-120	meinen	_	_
+1-23	121-126	Segen	_	_
+1-24	127-131	dazu	_	_
+1-25	132-140	erhalten	_	_
+1-26	141-142	.	_	_
+
+#Text=Große Freude darob im ganzen Hause .
+2-1	143-148	Große	_	_
+2-2	149-155	Freude	_	_
+2-3	156-161	darob	_	_
+2-4	162-164	im	_	_
+2-5	165-171	ganzen	_	_
+2-6	172-177	Hause	_	_
+2-7	178-179	.	_	_
+
+#Text=Mit herzlichen Glückwünschen zum neuen Jahre der Ihrige RL .
+3-1	180-183	Mit	_	_
+3-2	184-194	herzlichen	_	_
+3-3	195-208	Glückwünschen	_	_
+3-4	209-212	zum	_	_
+3-5	213-218	neuen	_	_
+3-6	219-224	Jahre	_	_
+3-7	225-228	der	_	_
+3-8	229-235	Ihrige	_	_
+3-9	236-238	RL	*[2]	PERauthor[2]
+3-10	239-240	.	*[2]	PERauthor[2]
+
+#Text=Wir erwarten noch die nähere Anweisung , wie es mit dem Rechnungsabschlusse von 1876 und des ersten Vierteljahres 1877 gehalten werden soll .
+4-1	241-244	Wir	_	_
+4-2	245-253	erwarten	_	_
+4-3	254-258	noch	_	_
+4-4	259-262	die	_	_
+4-5	263-269	nähere	_	_
+4-6	270-279	Anweisung	_	_
+4-7	280-281	,	_	_
+4-8	282-285	wie	_	_
+4-9	286-288	es	_	_
+4-10	289-292	mit	_	_
+4-11	293-296	dem	_	_
+4-12	297-316	Rechnungsabschlusse	_	_
+4-13	317-320	von	_	_
+4-14	321-325	1876	*	DATEmentioned
+4-15	326-329	und	_	_
+4-16	330-333	des	_	_
+4-17	334-340	ersten	_	_
+4-18	341-354	Vierteljahres	_	_
+4-19	355-359	1877	*	DATEmentioned
+4-20	360-368	gehalten	_	_
+4-21	369-375	werden	_	_
+4-22	376-380	soll	_	_
+4-23	381-382	.	_	_
+
+#Text=Ich lasse Ihnen dann das Nöthige zugehen .
+5-1	383-386	Ich	_	_
+5-2	387-392	lasse	_	_
+5-3	393-398	Ihnen	_	_
+5-4	399-403	dann	_	_
+5-5	404-407	das	_	_
+5-6	408-415	Nöthige	_	_
+5-7	416-423	zugehen	_	_
+5-8	424-425	.	_	_

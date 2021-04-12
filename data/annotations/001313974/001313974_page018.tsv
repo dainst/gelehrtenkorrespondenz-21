@@ -1,0 +1,88 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=n/ Helbig an Henzen Neapel , 210. Juni 1864 Am Rande der dritten Seite : Immer noch nichts Neues von Berlin ?
+1-1	0-2	n/	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Neapel	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-33	210.	*[1]	DATEletter[1]
+1-8	34-38	Juni	*[1]	DATEletter[1]
+1-9	39-43	1864	*[1]	DATEletter[1]
+1-10	44-46	Am	_	_
+1-11	47-52	Rande	_	_
+1-12	53-56	der	_	_
+1-13	57-64	dritten	_	_
+1-14	65-70	Seite	_	_
+1-15	71-72	:	_	_
+1-16	73-78	Immer	_	_
+1-17	79-83	noch	_	_
+1-18	84-90	nichts	_	_
+1-19	91-96	Neues	_	_
+1-20	97-100	von	_	_
+1-21	101-107	Berlin	*	PLACEmentioned
+1-22	108-109	?	_	_
+
+#Text=Aus guter Quelle weiß ich , daß eine Stelle in Brunns Scavibericht ( Bull .
+2-1	110-113	Aus	_	_
+2-2	114-119	guter	_	_
+2-3	120-126	Quelle	_	_
+2-4	127-131	weiß	_	_
+2-5	132-135	ich	_	_
+2-6	136-137	,	_	_
+2-7	138-141	daß	_	_
+2-8	142-146	eine	_	_
+2-9	147-153	Stelle	_	_
+2-10	154-156	in	_	_
+2-11	157-163	Brunns	*	PERmentioned
+2-12	164-176	Scavibericht	_	_
+2-13	177-178	(	_	_
+2-14	179-183	Bull	_	_
+2-15	184-185	.	_	_
+
+#Text=1863 p . 107 ) , wo es von der conseguenza dello stato politico die Rede ist , namentlich in Turin benutzt tet worden ist , um das Institut zu discreditiren .
+3-1	186-190	1863	*	DATEmentioned
+3-2	191-192	p	_	_
+3-3	193-194	.	_	_
+3-4	195-198	107	_	_
+3-5	199-200	)	_	_
+3-6	201-202	,	_	_
+3-7	203-205	wo	_	_
+3-8	206-208	es	_	_
+3-9	209-212	von	_	_
+3-10	213-216	der	_	_
+3-11	217-228	conseguenza	_	_
+3-12	229-234	dello	_	_
+3-13	235-240	stato	_	_
+3-14	241-249	politico	_	_
+3-15	250-253	die	_	_
+3-16	254-258	Rede	_	_
+3-17	259-262	ist	_	_
+3-18	263-264	,	_	_
+3-19	265-275	namentlich	_	_
+3-20	276-278	in	_	_
+3-21	279-284	Turin	*	PLACEmentioned
+3-22	285-292	benutzt	_	_
+3-23	293-296	tet	_	_
+3-24	297-303	worden	_	_
+3-25	304-307	ist	_	_
+3-26	308-309	,	_	_
+3-27	310-312	um	_	_
+3-28	313-316	das	_	_
+3-29	317-325	Institut	*	ORGmentioned
+3-30	326-328	zu	_	_
+3-31	329-342	discreditiren	_	_
+3-32	343-344	.	_	_
+
+#Text=Jedenfalls hat sich Brunn etwas unbedachtsam ausgedrückt .
+4-1	345-355	Jedenfalls	_	_
+4-2	356-359	hat	_	_
+4-3	360-364	sich	_	_
+4-4	365-370	Brunn	*	PERmentioned
+4-5	371-376	etwas	_	_
+4-6	377-389	unbedachtsam	_	_
+4-7	390-401	ausgedrückt	_	_
+4-8	402-403	.	_	_

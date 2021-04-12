@@ -1,0 +1,65 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=269 Braun an Gerhard Rom , 15. Juni 1837 wir sind um Ihretwillen in großer Besorgniß gewesen .
+1-1	0-3	269	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	15.	*[3]	DATEletter[3]
+1-8	31-35	Juni	*[3]	DATEletter[3]
+1-9	36-40	1837	*[3]	DATEletter[3]
+1-10	41-44	wir	_	_
+1-11	45-49	sind	_	_
+1-12	50-52	um	_	_
+1-13	53-64	Ihretwillen	_	_
+1-14	65-67	in	_	_
+1-15	68-74	großer	_	_
+1-16	75-84	Besorgniß	_	_
+1-17	85-92	gewesen	_	_
+1-18	93-94	.	_	_
+
+#Text=Gott möge es gnädig gewendet haben !
+2-1	95-99	Gott	_	_
+2-2	100-104	möge	_	_
+2-3	105-107	es	_	_
+2-4	108-114	gnädig	_	_
+2-5	115-123	gewendet	_	_
+2-6	124-129	haben	_	_
+2-7	130-131	!	_	_
+
+#Text=Für Sie liegen Scudi 648 bei mir .
+3-1	132-135	Für	_	_
+3-2	136-139	Sie	_	_
+3-3	140-146	liegen	_	_
+3-4	147-152	Scudi	_	_
+3-5	153-156	648	_	_
+3-6	157-160	bei	_	_
+3-7	161-164	mir	_	_
+3-8	165-166	.	_	_
+
+#Text=Ich habe die Wechsel haben müssen , damit sie nicht verfielen .
+4-1	167-170	Ich	_	_
+4-2	171-175	habe	_	_
+4-3	176-179	die	_	_
+4-4	180-187	Wechsel	_	_
+4-5	188-193	haben	_	_
+4-6	194-200	müssen	_	_
+4-7	201-202	,	_	_
+4-8	203-208	damit	_	_
+4-9	209-212	sie	_	_
+4-10	213-218	nicht	_	_
+4-11	219-228	verfielen	_	_
+4-12	229-230	.	_	_
+
+#Text=Auf frohes Wiedersehen Ihr treuer EBraun .
+5-1	231-234	Auf	_	_
+5-2	235-241	frohes	_	_
+5-3	242-253	Wiedersehen	_	_
+5-4	254-257	Ihr	_	_
+5-5	258-264	treuer	_	_
+5-6	265-271	EBraun	*	PERauthor
+5-7	272-273	.	_	_

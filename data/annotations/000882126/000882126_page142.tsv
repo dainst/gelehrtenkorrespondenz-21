@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=504 Braun an Gerhard Rom , 28. Juni 1836 fleißigen gesucht .
+1-1	0-3	504	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	28.	*[15]	DATEletter[15]
+1-8	31-35	Juni	*[15]	DATEletter[15]
+1-9	36-40	1836	*[15]	DATEletter[15]
+1-10	41-50	fleißigen	_	_
+1-11	51-58	gesucht	_	_
+1-12	59-60	.	_	_
+
+#Text=Ihr Braun .
+2-1	61-64	Ihr	_	_
+2-2	65-70	Braun	*	PERauthor
+2-3	71-72	.	_	_
+
+#Text=Nach Empfang Ihres Briefes vom 13 Juni habe ich hinzuzufügen : Friedländer soll ins nächste Bull .
+3-1	73-77	Nach	_	_
+3-2	78-85	Empfang	_	_
+3-3	86-91	Ihres	_	_
+3-4	92-99	Briefes	_	_
+3-5	100-103	vom	_	_
+3-6	104-106	13	*[16]	DATEmentioned[16]
+3-7	107-111	Juni	*[16]	DATEmentioned[16]
+3-8	112-116	habe	_	_
+3-9	117-120	ich	_	_
+3-10	121-133	hinzuzufügen	_	_
+3-11	134-135	:	_	_
+3-12	136-147	Friedländer	*	PERmentioned
+3-13	148-152	soll	_	_
+3-14	153-156	ins	_	_
+3-15	157-164	nächste	_	_
+3-16	165-169	Bull	_	_
+3-17	170-171	.	_	_
+
+#Text=mit einer Hand voll Jesuiten kommen .
+4-1	172-175	mit	_	_
+4-2	176-181	einer	_	_
+4-3	182-186	Hand	_	_
+4-4	187-191	voll	_	_
+4-5	192-200	Jesuiten	_	_
+4-6	201-207	kommen	_	_
+4-7	208-209	.	_	_
+
+#Text=Sie hatten mir übrigens nie offiziell über Friedländers offizielle Ernennung geschrieben .
+5-1	210-213	Sie	_	_
+5-2	214-220	hatten	_	_
+5-3	221-224	mir	_	_
+5-4	225-233	übrigens	_	_
+5-5	234-237	nie	_	_
+5-6	238-247	offiziell	_	_
+5-7	248-252	über	_	_
+5-8	253-265	Friedländers	*	PERmentioned
+5-9	266-276	offizielle	_	_
+5-10	277-286	Ernennung	_	_
+5-11	287-298	geschrieben	_	_
+5-12	299-300	.	_	_
+
+#Text=Das sind ja übrigens Kleinigkeiten .
+6-1	301-304	Das	_	_
+6-2	305-309	sind	_	_
+6-3	310-312	ja	_	_
+6-4	313-321	übrigens	_	_
+6-5	322-335	Kleinigkeiten	_	_
+6-6	336-337	.	_	_
+
+#Text=Die diesjährigen Volcenter Zeichnungen bleiben also allein für Sie 24 Stück \; darunter ein sehr merkwürdiger Spiegel kosten nur 30 Scudi , wenig theurer als wenn sie in Rom gemacht worden wären oder fast dasselbe .
+7-1	338-341	Die	_	_
+7-2	342-354	diesjährigen	_	_
+7-3	355-364	Volcenter	_	_
+7-4	365-376	Zeichnungen	_	_
+7-5	377-384	bleiben	_	_
+7-6	385-389	also	_	_
+7-7	390-396	allein	_	_
+7-8	397-400	für	_	_
+7-9	401-404	Sie	_	_
+7-10	405-407	24	_	_
+7-11	408-413	Stück	_	_
+7-12	414-415	\;	_	_
+7-13	416-424	darunter	_	_
+7-14	425-428	ein	_	_
+7-15	429-433	sehr	_	_
+7-16	434-446	merkwürdiger	_	_
+7-17	447-454	Spiegel	*	OBJ
+7-18	455-461	kosten	_	_
+7-19	462-465	nur	_	_
+7-20	466-468	30	_	_
+7-21	469-474	Scudi	_	_
+7-22	475-476	,	_	_
+7-23	477-482	wenig	_	_
+7-24	483-490	theurer	_	_
+7-25	491-494	als	_	_
+7-26	495-499	wenn	_	_
+7-27	500-503	sie	_	_
+7-28	504-506	in	_	_
+7-29	507-510	Rom	*	PLACEmentioned
+7-30	511-518	gemacht	_	_
+7-31	519-525	worden	_	_
+7-32	526-531	wären	_	_
+7-33	532-536	oder	_	_
+7-34	537-541	fast	_	_
+7-35	542-550	dasselbe	_	_
+7-36	551-552	.	_	_
+
+#Text=Sind sie einmal hier , dann ist jede Möglichkeit Zeichnungen zu erhalten abgeschnitten .
+8-1	553-557	Sind	_	_
+8-2	558-561	sie	_	_
+8-3	562-568	einmal	_	_
+8-4	569-573	hier	_	_
+8-5	574-575	,	_	_
+8-6	576-580	dann	_	_
+8-7	581-584	ist	_	_
+8-8	585-589	jede	_	_
+8-9	590-601	Möglichkeit	_	_
+8-10	602-613	Zeichnungen	_	_
+8-11	614-616	zu	_	_
+8-12	617-625	erhalten	_	_
+8-13	626-639	abgeschnitten	_	_
+8-14	640-641	.	_	_
+
+#Text=Dem guten Rö tell herzlichen Dank für seine Zeilen .
+9-1	642-645	Dem	_	_
+9-2	646-651	guten	_	_
+9-3	652-654	Rö	*[17]	PERmentioned[17]
+9-4	655-659	tell	*[17]	PERmentioned[17]
+9-5	660-670	herzlichen	_	_
+9-6	671-675	Dank	_	_
+9-7	676-679	für	_	_
+9-8	680-685	seine	_	_
+9-9	686-692	Zeilen	_	_
+9-10	693-694	.	_	_
+
+#Text=Hab ich so viel auf mich genommen , warum nicht auch dies ?
+10-1	695-698	Hab	_	_
+10-2	699-702	ich	_	_
+10-3	703-705	so	_	_
+10-4	706-710	viel	_	_
+10-5	711-714	auf	_	_
+10-6	715-719	mich	_	_
+10-7	720-728	genommen	_	_
+10-8	729-730	,	_	_
+10-9	731-736	warum	_	_
+10-10	737-742	nicht	_	_
+10-11	743-747	auch	_	_
+10-12	748-752	dies	_	_
+10-13	753-754	?	_	_
+
+#Text=Lepsius dankt herzlich für die angenehme Nachricht , die Sie ihm freundlichst durch mich zu Theil werden lassen .
+11-1	755-762	Lepsius	*	PERmentioned
+11-2	763-768	dankt	_	_
+11-3	769-777	herzlich	_	_
+11-4	778-781	für	_	_
+11-5	782-785	die	_	_
+11-6	786-795	angenehme	_	_
+11-7	796-805	Nachricht	_	_
+11-8	806-807	,	_	_
+11-9	808-811	die	_	_
+11-10	812-815	Sie	_	_
+11-11	816-819	ihm	_	_
+11-12	820-832	freundlichst	_	_
+11-13	833-838	durch	_	_
+11-14	839-843	mich	_	_
+11-15	844-846	zu	_	_
+11-16	847-852	Theil	_	_
+11-17	853-859	werden	_	_
+11-18	860-866	lassen	_	_
+11-19	867-868	.	_	_
+
+#Text=Campanari ist noch auswärts \; Bunsen auch .
+12-1	869-878	Campanari	*	PERmentioned
+12-2	879-882	ist	_	_
+12-3	883-887	noch	_	_
+12-4	888-896	auswärts	_	_
+12-5	897-898	\;	_	_
+12-6	899-905	Bunsen	*	PERmentioned
+12-7	906-910	auch	_	_
+12-8	911-912	.	_	_
+
+#Text=Beide werden ungefähr gleichzeitig eintreffen , dann wird man sehen was sich thuen läßt .
+13-1	913-918	Beide	_	_
+13-2	919-925	werden	_	_
+13-3	926-934	ungefähr	_	_
+13-4	935-947	gleichzeitig	_	_
+13-5	948-958	eintreffen	_	_
+13-6	959-960	,	_	_
+13-7	961-965	dann	_	_
+13-8	966-970	wird	_	_
+13-9	971-974	man	_	_
+13-10	975-980	sehen	_	_
+13-11	981-984	was	_	_
+13-12	985-989	sich	_	_
+13-13	990-995	thuen	_	_
+13-14	996-1000	läßt	_	_
+13-15	1001-1002	.	_	_
+
+#Text=S .
+14-1	1003-1004	S	*[18]	PERmentioned[18]
+14-2	1005-1006	.	*[18]	PERmentioned[18]
+
+#Text=Campanari hat seine Preisschrift für Sie und Müller mit Brifen bei mir abgegeben .
+15-1	1007-1016	Campanari	*[18]	PERmentioned[18]
+15-2	1017-1020	hat	_	_
+15-3	1021-1026	seine	_	_
+15-4	1027-1039	Preisschrift	_	_
+15-5	1040-1043	für	_	_
+15-6	1044-1047	Sie	_	_
+15-7	1048-1051	und	_	_
+15-8	1052-1058	Müller	*	PERmentioned
+15-9	1059-1062	mit	_	_
+15-10	1063-1069	Brifen	_	_
+15-11	1070-1073	bei	_	_
+15-12	1074-1077	mir	_	_
+15-13	1078-1087	abgegeben	_	_
+15-14	1088-1089	.	_	_
+
+#Text=Ich schicke alles zusammen mit Gelegenheit \; vielleicht danken Sie ihm vorläufig ?
+16-1	1090-1093	Ich	_	_
+16-2	1094-1101	schicke	_	_
+16-3	1102-1107	alles	_	_
+16-4	1108-1116	zusammen	_	_
+16-5	1117-1120	mit	_	_
+16-6	1121-1132	Gelegenheit	_	_
+16-7	1133-1134	\;	_	_
+16-8	1135-1145	vielleicht	_	_
+16-9	1146-1152	danken	_	_
+16-10	1153-1156	Sie	_	_
+16-11	1157-1160	ihm	_	_
+16-12	1161-1170	vorläufig	_	_
+16-13	1171-1172	?	_	_
+
+#Text=Müllern könnten Sie ja auch davon benachrichtigen , da er doch wohl nicht gern für einen Höflichkeitsbrief Porto bezahlen wird .
+17-1	1173-1180	Müllern	*	PERmentioned
+17-2	1181-1188	könnten	_	_
+17-3	1189-1192	Sie	_	_
+17-4	1193-1195	ja	_	_
+17-5	1196-1200	auch	_	_
+17-6	1201-1206	davon	_	_
+17-7	1207-1222	benachrichtigen	_	_
+17-8	1223-1224	,	_	_
+17-9	1225-1227	da	_	_
+17-10	1228-1230	er	_	_
+17-11	1231-1235	doch	_	_
+17-12	1236-1240	wohl	_	_
+17-13	1241-1246	nicht	_	_
+17-14	1247-1251	gern	_	_
+17-15	1252-1255	für	_	_
+17-16	1256-1261	einen	_	_
+17-17	1262-1279	Höflichkeitsbrief	_	_
+17-18	1280-1285	Porto	_	_
+17-19	1286-1294	bezahlen	_	_
+17-20	1295-1299	wird	_	_
+17-21	1300-1301	.	_	_
+
+#Text=Mit Lanci habe ich Ursache sehr unzufrieden sein .
+18-1	1302-1305	Mit	_	_
+18-2	1306-1311	Lanci	*	PERmentioned
+18-3	1312-1316	habe	_	_
+18-4	1317-1320	ich	_	_
+18-5	1321-1328	Ursache	_	_
+18-6	1329-1333	sehr	_	_
+18-7	1334-1345	unzufrieden	_	_
+18-8	1346-1350	sein	_	_
+18-9	1351-1352	.	_	_

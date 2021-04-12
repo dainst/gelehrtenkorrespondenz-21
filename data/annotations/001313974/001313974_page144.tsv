@@ -1,0 +1,224 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=308 Helbig an Henzen Zärich , 19 .
+1-1	0-3	308	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zärich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	19	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=August 1870 g . 23/8 70 r . 26/8 70 Zürich , Fluntern , Plattenwiese 19 .
+2-1	35-41	August	*[1]	DATEletter[1]
+2-2	42-46	1870	*[1]	DATEletter[1]
+2-3	47-48	g	_	_
+2-4	49-50	.	_	_
+2-5	51-55	23/8	*[2]	DATErecieved[2]
+2-6	56-58	70	*[2]	DATErecieved[2]
+2-7	59-60	r	_	_
+2-8	61-62	.	_	_
+2-9	63-67	26/8	*[3]	DATEanswered[3]
+2-10	68-70	70	*[3]	DATEanswered[3]
+2-11	71-77	Zürich	*[4]	PLACEfrom[4]
+2-12	78-79	,	*[4]	PLACEfrom[4]
+2-13	80-88	Fluntern	*[4]	PLACEfrom[4]
+2-14	89-90	,	*[4]	PLACEfrom[4]
+2-15	91-103	Plattenwiese	*[4]	PLACEfrom[4]
+2-16	104-106	19	*[4]	PLACEfrom[4]
+2-17	107-108	.	_	_
+
+#Text=August Lieber Herr Professor Besten Dank für Ihren lieben Brief vom 13. , den ich heute Morgen erhalten .
+3-1	109-115	August	_	_
+3-2	116-122	Lieber	_	_
+3-3	123-127	Herr	_	_
+3-4	128-137	Professor	_	_
+3-5	138-144	Besten	_	_
+3-6	145-149	Dank	_	_
+3-7	150-153	für	_	_
+3-8	154-159	Ihren	_	_
+3-9	160-166	lieben	_	_
+3-10	167-172	Brief	_	_
+3-11	173-176	vom	_	_
+3-12	177-180	13.	*[5]	DATEmentioned[5]
+3-13	181-182	,	_	_
+3-14	183-186	den	_	_
+3-15	187-190	ich	_	_
+3-16	191-196	heute	_	_
+3-17	197-203	Morgen	_	_
+3-18	204-212	erhalten	_	_
+3-19	213-214	.	_	_
+
+#Text=Wegen des anderen , den Sie , wie Sie schreiben , nach Zürich geschickt , habe ich soeben noch Recherchen im Schwan angestellt , die jedoch zu keinem Resultate geführt haben : der Brief ist entschieden verloren .
+4-1	215-220	Wegen	_	_
+4-2	221-224	des	_	_
+4-3	225-232	anderen	_	_
+4-4	233-234	,	_	_
+4-5	235-238	den	_	_
+4-6	239-242	Sie	_	_
+4-7	243-244	,	_	_
+4-8	245-248	wie	_	_
+4-9	249-252	Sie	_	_
+4-10	253-262	schreiben	_	_
+4-11	263-264	,	_	_
+4-12	265-269	nach	_	_
+4-13	270-276	Zürich	*	PLACEmentioned
+4-14	277-286	geschickt	_	_
+4-15	287-288	,	_	_
+4-16	289-293	habe	_	_
+4-17	294-297	ich	_	_
+4-18	298-304	soeben	_	_
+4-19	305-309	noch	_	_
+4-20	310-320	Recherchen	_	_
+4-21	321-323	im	_	_
+4-22	324-330	Schwan	_	_
+4-23	331-341	angestellt	_	_
+4-24	342-343	,	_	_
+4-25	344-347	die	_	_
+4-26	348-354	jedoch	_	_
+4-27	355-357	zu	_	_
+4-28	358-364	keinem	_	_
+4-29	365-374	Resultate	_	_
+4-30	375-382	geführt	_	_
+4-31	383-388	haben	_	_
+4-32	389-390	:	_	_
+4-33	391-394	der	_	_
+4-34	395-400	Brief	_	_
+4-35	401-404	ist	_	_
+4-36	405-416	entschieden	_	_
+4-37	417-425	verloren	_	_
+4-38	426-427	.	_	_
+
+#Text=Was die Sarkophagangelegenheit betrifft , so bitte ich Sie , beschäftigt wie Sie sind , die Besprechung auf Rom zu verschieben .
+5-1	428-431	Was	_	_
+5-2	432-435	die	_	_
+5-3	436-458	Sarkophagangelegenheit	*	OBJ
+5-4	459-467	betrifft	_	_
+5-5	468-469	,	_	_
+5-6	470-472	so	_	_
+5-7	473-478	bitte	_	_
+5-8	479-482	ich	_	_
+5-9	483-486	Sie	_	_
+5-10	487-488	,	_	_
+5-11	489-500	beschäftigt	_	_
+5-12	501-504	wie	_	_
+5-13	505-508	Sie	_	_
+5-14	509-513	sind	_	_
+5-15	514-515	,	_	_
+5-16	516-519	die	_	_
+5-17	520-531	Besprechung	_	_
+5-18	532-535	auf	_	_
+5-19	536-539	Rom	*	PLACEmentioned
+5-20	540-542	zu	_	_
+5-21	543-554	verschieben	_	_
+5-22	555-556	.	_	_
+
+#Text=Meiner Frau geht es leider nicht besonders gut .
+6-1	557-563	Meiner	_	_
+6-2	564-568	Frau	_	_
+6-3	569-573	geht	_	_
+6-4	574-576	es	_	_
+6-5	577-583	leider	_	_
+6-6	584-589	nicht	_	_
+6-7	590-599	besonders	_	_
+6-8	600-603	gut	_	_
+6-9	604-605	.	_	_
+
+#Text=Sie ist sehr schwach , theils vom Fieber , theils von zwei Anfängen von faussescouches , die sie in meiner Abwesenheit gehabt und mir bisher verheimlicht hatte .
+7-1	606-609	Sie	_	_
+7-2	610-613	ist	_	_
+7-3	614-618	sehr	_	_
+7-4	619-626	schwach	_	_
+7-5	627-628	,	_	_
+7-6	629-635	theils	_	_
+7-7	636-639	vom	_	_
+7-8	640-646	Fieber	_	_
+7-9	647-648	,	_	_
+7-10	649-655	theils	_	_
+7-11	656-659	von	_	_
+7-12	660-664	zwei	_	_
+7-13	665-673	Anfängen	_	_
+7-14	674-677	von	_	_
+7-15	678-692	faussescouches	_	_
+7-16	693-694	,	_	_
+7-17	695-698	die	_	_
+7-18	699-702	sie	_	_
+7-19	703-705	in	_	_
+7-20	706-712	meiner	_	_
+7-21	713-724	Abwesenheit	_	_
+7-22	725-731	gehabt	_	_
+7-23	732-735	und	_	_
+7-24	736-739	mir	_	_
+7-25	740-746	bisher	_	_
+7-26	747-759	verheimlicht	_	_
+7-27	760-765	hatte	_	_
+7-28	766-767	.	_	_
+
+#Text=Ich will Gott danken , wenn die Geschichte glücklich vorüber ist .
+8-1	768-771	Ich	_	_
+8-2	772-776	will	_	_
+8-3	777-781	Gott	_	_
+8-4	782-788	danken	_	_
+8-5	789-790	,	_	_
+8-6	791-795	wenn	_	_
+8-7	796-799	die	_	_
+8-8	800-810	Geschichte	_	_
+8-9	811-820	glücklich	_	_
+8-10	821-828	vorüber	_	_
+8-11	829-832	ist	_	_
+8-12	833-834	.	_	_
+
+#Text=Lili dagegen befindet sich vortrefflich \; sie hat gut Deutsch gelernt und dabei auch das Italienische nicht vollständig vergessen .
+9-1	835-839	Lili	*	PERmentioned
+9-2	840-847	dagegen	_	_
+9-3	848-856	befindet	_	_
+9-4	857-861	sich	_	_
+9-5	862-874	vortrefflich	_	_
+9-6	875-876	\;	_	_
+9-7	877-880	sie	_	_
+9-8	881-884	hat	_	_
+9-9	885-888	gut	_	_
+9-10	889-896	Deutsch	_	_
+9-11	897-904	gelernt	_	_
+9-12	905-908	und	_	_
+9-13	909-914	dabei	_	_
+9-14	915-919	auch	_	_
+9-15	920-923	das	_	_
+9-16	924-936	Italienische	_	_
+9-17	937-942	nicht	_	_
+9-18	943-954	vollständig	_	_
+9-19	955-964	vergessen	_	_
+9-20	965-966	.	_	_
+
+#Text=Obwohl und Paris hier immer mit Siegesdepeschen aufwartet und der Berliner Telegraph nur selten spricht , zeigt doch ein Blick auf die Karte , daß unserer Seits Al-
+10-1	967-973	Obwohl	_	_
+10-2	974-977	und	_	_
+10-3	978-983	Paris	*	PLACEmentioned
+10-4	984-988	hier	_	_
+10-5	989-994	immer	_	_
+10-6	995-998	mit	_	_
+10-7	999-1014	Siegesdepeschen	_	_
+10-8	1015-1024	aufwartet	_	_
+10-9	1025-1028	und	_	_
+10-10	1029-1032	der	_	_
+10-11	1033-1041	Berliner	*	PLACEmentioned
+10-12	1042-1051	Telegraph	_	_
+10-13	1052-1055	nur	_	_
+10-14	1056-1062	selten	_	_
+10-15	1063-1070	spricht	_	_
+10-16	1071-1072	,	_	_
+10-17	1073-1078	zeigt	_	_
+10-18	1079-1083	doch	_	_
+10-19	1084-1087	ein	_	_
+10-20	1088-1093	Blick	_	_
+10-21	1094-1097	auf	_	_
+10-22	1098-1101	die	_	_
+10-23	1102-1107	Karte	_	_
+10-24	1108-1109	,	_	_
+10-25	1110-1113	daß	_	_
+10-26	1114-1121	unserer	_	_
+10-27	1122-1127	Seits	_	_
+10-28	1128-1131	Al-	_	_

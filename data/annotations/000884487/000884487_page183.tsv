@@ -1,0 +1,261 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=/ + i » a \| rare MU HERA Gerhard an Braun Livorno , 29. Juni 1837 Direz .
+1-1	0-1	/	_	_
+1-2	2-3	+	_	_
+1-3	4-5	i	_	_
+1-4	6-7	»	_	_
+1-5	8-9	a	_	_
+1-6	10-11	\|	_	_
+1-7	12-16	rare	_	_
+1-8	17-19	MU	_	_
+1-9	20-24	HERA	_	_
+1-10	25-32	Gerhard	*	PERauthor
+1-11	33-35	an	_	_
+1-12	36-41	Braun	*	PERaddressee
+1-13	42-49	Livorno	*	PLACEfrom
+1-14	50-51	,	_	_
+1-15	52-55	29.	*[4]	DATEletter[4]
+1-16	56-60	Juni	*[4]	DATEletter[4]
+1-17	61-65	1837	*[4]	DATEletter[4]
+1-18	66-71	Direz	_	_
+1-19	72-73	.	_	_
+
+#Text=CCIII 8 .
+2-1	74-79	CCIII	_	_
+2-2	80-81	8	_	_
+2-3	82-83	.	_	_
+
+#Text=3/7 37 Livorno 29 Juni 37 Wo kam das kleine Briefchen her lieber Freund daß Ihrer Annalensendung beilag ?
+3-1	84-87	3/7	*[5]	DATErecieved[5]
+3-2	88-90	37	*[5]	DATErecieved[5]
+3-3	91-98	Livorno	*	PLACEfrom
+3-4	99-101	29	*[7]	DATEletter[7]
+3-5	102-106	Juni	*[7]	DATEletter[7]
+3-6	107-109	37	*[7]	DATEletter[7]
+3-7	110-112	Wo	_	_
+3-8	113-116	kam	_	_
+3-9	117-120	das	_	_
+3-10	121-127	kleine	_	_
+3-11	128-137	Briefchen	_	_
+3-12	138-141	her	_	_
+3-13	142-148	lieber	_	_
+3-14	149-155	Freund	_	_
+3-15	156-159	daß	_	_
+3-16	160-165	Ihrer	_	_
+3-17	166-180	Annalensendung	_	_
+3-18	181-187	beilag	_	_
+3-19	188-189	?	_	_
+
+#Text=Es war von Stbg und verkündet mir , zu Anderem was meine Seele bewegt , den am 8 April zu St. Petersburg erfolgten Tod Stakelbergs .
+4-1	190-192	Es	_	_
+4-2	193-196	war	_	_
+4-3	197-200	von	_	_
+4-4	201-205	Stbg	_	_
+4-5	206-209	und	_	_
+4-6	210-219	verkündet	_	_
+4-7	220-223	mir	_	_
+4-8	224-225	,	_	_
+4-9	226-228	zu	_	_
+4-10	229-236	Anderem	_	_
+4-11	237-240	was	_	_
+4-12	241-246	meine	_	_
+4-13	247-252	Seele	_	_
+4-14	253-259	bewegt	_	_
+4-15	260-261	,	_	_
+4-16	262-265	den	_	_
+4-17	266-268	am	_	_
+4-18	269-270	8	*[8]	DATEmentioned[8]
+4-19	271-276	April	*[8]	DATEmentioned[8]
+4-20	277-279	zu	_	_
+4-21	280-283	St.	*[9]	PLACEmentioned[9]
+4-22	284-294	Petersburg	*[9]	PLACEmentioned[9]
+4-23	295-304	erfolgten	_	_
+4-24	305-308	Tod	_	_
+4-25	309-320	Stakelbergs	*	PERmentioned
+4-26	321-322	.	_	_
+
+#Text=Für gedachte Sendung wie für Früheres viel Dank \; die ganze Briefschaft von Ancona her ist in meinen Händen .
+5-1	323-326	Für	_	_
+5-2	327-335	gedachte	_	_
+5-3	336-343	Sendung	_	_
+5-4	344-347	wie	_	_
+5-5	348-351	für	_	_
+5-6	352-360	Früheres	_	_
+5-7	361-365	viel	_	_
+5-8	366-370	Dank	_	_
+5-9	371-372	\;	_	_
+5-10	373-376	die	_	_
+5-11	377-382	ganze	_	_
+5-12	383-394	Briefschaft	_	_
+5-13	395-398	von	_	_
+5-14	399-405	Ancona	*	PLACEmentioned
+5-15	406-409	her	_	_
+5-16	410-413	ist	_	_
+5-17	414-416	in	_	_
+5-18	417-423	meinen	_	_
+5-19	424-430	Händen	_	_
+5-20	431-432	.	_	_
+
+#Text=Dank für den ärztlichen Rath \; manche Tage sehe ich keinen Buchstaben an und mein Auge bleibt versteckt .
+6-1	433-437	Dank	_	_
+6-2	438-441	für	_	_
+6-3	442-445	den	_	_
+6-4	446-456	ärztlichen	_	_
+6-5	457-461	Rath	_	_
+6-6	462-463	\;	_	_
+6-7	464-470	manche	_	_
+6-8	471-475	Tage	_	_
+6-9	476-480	sehe	_	_
+6-10	481-484	ich	_	_
+6-11	485-491	keinen	_	_
+6-12	492-502	Buchstaben	_	_
+6-13	503-505	an	_	_
+6-14	506-509	und	_	_
+6-15	510-514	mein	_	_
+6-16	515-519	Auge	_	_
+6-17	520-526	bleibt	_	_
+6-18	527-536	versteckt	_	_
+6-19	537-538	.	_	_
+
+#Text=Ich kann Ihnen nur das Wichtigste schreiben .
+7-1	539-542	Ich	_	_
+7-2	543-547	kann	_	_
+7-3	548-553	Ihnen	_	_
+7-4	554-557	nur	_	_
+7-5	558-561	das	_	_
+7-6	562-572	Wichtigste	_	_
+7-7	573-582	schreiben	_	_
+7-8	583-584	.	_	_
+
+#Text=Wie sehr mir auch Ihre Anwesenheit in Rom fehlen möge , so sollen Sie doch , wenn es bloß meinetwegen geschähe , Ihren Aufenthalt nicht verlängern \; Sie können mich hier am Gitter besuchen , ich Sie in Mailand .
+8-1	585-588	Wie	_	_
+8-2	589-593	sehr	_	_
+8-3	594-597	mir	_	_
+8-4	598-602	auch	_	_
+8-5	603-607	Ihre	_	_
+8-6	608-619	Anwesenheit	_	_
+8-7	620-622	in	_	_
+8-8	623-626	Rom	*	PLACEmentioned
+8-9	627-633	fehlen	_	_
+8-10	634-638	möge	_	_
+8-11	639-640	,	_	_
+8-12	641-643	so	_	_
+8-13	644-650	sollen	_	_
+8-14	651-654	Sie	_	_
+8-15	655-659	doch	_	_
+8-16	660-661	,	_	_
+8-17	662-666	wenn	_	_
+8-18	667-669	es	_	_
+8-19	670-674	bloß	_	_
+8-20	675-686	meinetwegen	_	_
+8-21	687-695	geschähe	_	_
+8-22	696-697	,	_	_
+8-23	698-703	Ihren	_	_
+8-24	704-714	Aufenthalt	_	_
+8-25	715-720	nicht	_	_
+8-26	721-731	verlängern	_	_
+8-27	732-733	\;	_	_
+8-28	734-737	Sie	_	_
+8-29	738-744	können	_	_
+8-30	745-749	mich	_	_
+8-31	750-754	hier	_	_
+8-32	755-757	am	_	_
+8-33	758-764	Gitter	_	_
+8-34	765-773	besuchen	_	_
+8-35	774-775	,	_	_
+8-36	776-779	ich	_	_
+8-37	780-783	Sie	_	_
+8-38	784-786	in	_	_
+8-39	787-794	Mailand	*	PLACEmentioned
+8-40	795-796	.	_	_
+
+#Text=Sehen Sie indeß zu ob sich mit Bunsen dergestalt kapituliren läßt daß sie für spätere Abreise etliche Wochen länger bleiben \; für den Fall daß Ihnen das passen könnte , sende ich ihm heute einen Brief .
+9-1	797-802	Sehen	_	_
+9-2	803-806	Sie	_	_
+9-3	807-812	indeß	_	_
+9-4	813-815	zu	_	_
+9-5	816-818	ob	_	_
+9-6	819-823	sich	_	_
+9-7	824-827	mit	_	_
+9-8	828-834	Bunsen	*	PERmentioned
+9-9	835-845	dergestalt	_	_
+9-10	846-857	kapituliren	_	_
+9-11	858-862	läßt	_	_
+9-12	863-866	daß	_	_
+9-13	867-870	sie	_	_
+9-14	871-874	für	_	_
+9-15	875-882	spätere	_	_
+9-16	883-890	Abreise	_	_
+9-17	891-898	etliche	_	_
+9-18	899-905	Wochen	_	_
+9-19	906-912	länger	_	_
+9-20	913-920	bleiben	_	_
+9-21	921-922	\;	_	_
+9-22	923-926	für	_	_
+9-23	927-930	den	_	_
+9-24	931-935	Fall	_	_
+9-25	936-939	daß	_	_
+9-26	940-945	Ihnen	_	_
+9-27	946-949	das	_	_
+9-28	950-956	passen	_	_
+9-29	957-963	könnte	_	_
+9-30	964-965	,	_	_
+9-31	966-971	sende	_	_
+9-32	972-975	ich	_	_
+9-33	976-979	ihm	_	_
+9-34	980-985	heute	_	_
+9-35	986-991	einen	_	_
+9-36	992-997	Brief	_	_
+9-37	998-999	.	_	_
+
+#Text=Meine Sachen finde ich wol auch ohne Sie heraus , wenn Sie vertrauten Händen Schriftl .
+10-1	1000-1005	Meine	_	_
+10-2	1006-1012	Sachen	_	_
+10-3	1013-1018	finde	_	_
+10-4	1019-1022	ich	_	_
+10-5	1023-1026	wol	_	_
+10-6	1027-1031	auch	_	_
+10-7	1032-1036	ohne	_	_
+10-8	1037-1040	Sie	_	_
+10-9	1041-1047	heraus	_	_
+10-10	1048-1049	,	_	_
+10-11	1050-1054	wenn	_	_
+10-12	1055-1058	Sie	_	_
+10-13	1059-1069	vertrauten	_	_
+10-14	1070-1076	Händen	_	_
+10-15	1077-1085	Schriftl	_	_
+10-16	1086-1087	.	_	_
+
+#Text=zurücklassen .
+11-1	1088-1100	zurücklassen	_	_
+11-2	1101-1102	.	_	_
+
+#Text=Daß die Restaurkion so völlig zurück ist , ja wie es scheint völlig gesteckt hat , ist die desparateste Nachricht \; die Verpackung dieser Ge-
+12-1	1103-1106	Daß	_	_
+12-2	1107-1110	die	_	_
+12-3	1111-1122	Restaurkion	_	_
+12-4	1123-1125	so	_	_
+12-5	1126-1132	völlig	_	_
+12-6	1133-1139	zurück	_	_
+12-7	1140-1143	ist	_	_
+12-8	1144-1145	,	_	_
+12-9	1146-1148	ja	_	_
+12-10	1149-1152	wie	_	_
+12-11	1153-1155	es	_	_
+12-12	1156-1163	scheint	_	_
+12-13	1164-1170	völlig	_	_
+12-14	1171-1179	gesteckt	_	_
+12-15	1180-1183	hat	_	_
+12-16	1184-1185	,	_	_
+12-17	1186-1189	ist	_	_
+12-18	1190-1193	die	_	_
+12-19	1194-1206	desparateste	_	_
+12-20	1207-1216	Nachricht	_	_
+12-21	1217-1218	\;	_	_
+12-22	1219-1222	die	_	_
+12-23	1223-1233	Verpackung	_	_
+12-24	1234-1240	dieser	_	_
+12-25	1241-1244	Ge-	_	_

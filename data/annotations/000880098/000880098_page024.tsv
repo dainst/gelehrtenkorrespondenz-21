@@ -1,0 +1,134 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Berlin , 30. Mai 1833 Berlin X May 33 , Revision und Campanische Ausgrabungen habe ich nicht erhalten .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	30.	*[1]	DATEletter[1]
+1-7	30-33	Mai	*[1]	DATEletter[1]
+1-8	34-38	1833	*[1]	DATEletter[1]
+1-9	39-45	Berlin	*	PLACEfrom
+1-10	46-47	X	_	_
+1-11	48-51	May	*[2]	DATEletter[2]
+1-12	52-54	33	*[2]	DATEletter[2]
+1-13	55-56	,	_	_
+1-14	57-65	Revision	_	_
+1-15	66-69	und	_	_
+1-16	70-81	Campanische	*[3]	LIT[3]
+1-17	82-94	Ausgrabungen	*[3]	LIT[3]
+1-18	95-99	habe	_	_
+1-19	100-103	ich	_	_
+1-20	104-109	nicht	_	_
+1-21	110-118	erhalten	_	_
+1-22	119-120	.	_	_
+
+#Text=Anbei die Correctur zu eiliger Besorgung .
+2-1	121-126	Anbei	_	_
+2-2	127-130	die	_	_
+2-3	131-140	Correctur	_	_
+2-4	141-143	zu	_	_
+2-5	144-151	eiliger	_	_
+2-6	152-161	Besorgung	_	_
+2-7	162-163	.	_	_
+
+#Text=Zugleich die Bitte um Bestimmung des Termins , bis zu welchem Ihnen Briefe und derlei nachgesandt werden sollen ?
+3-1	164-172	Zugleich	_	_
+3-2	173-176	die	_	_
+3-3	177-182	Bitte	_	_
+3-4	183-185	um	_	_
+3-5	186-196	Bestimmung	_	_
+3-6	197-200	des	_	_
+3-7	201-208	Termins	_	_
+3-8	209-210	,	_	_
+3-9	211-214	bis	_	_
+3-10	215-217	zu	_	_
+3-11	218-225	welchem	_	_
+3-12	226-231	Ihnen	_	_
+3-13	232-238	Briefe	_	_
+3-14	239-242	und	_	_
+3-15	243-249	derlei	_	_
+3-16	250-261	nachgesandt	_	_
+3-17	262-268	werden	_	_
+3-18	269-275	sollen	_	_
+3-19	276-277	?	_	_
+
+#Text=- Die vordere Stube in meinem Logis nebst einem kleinen Vorzimmer bleibt für Sie offen \; ich denke es soll Ihnen conveniren .
+4-1	278-279	-	_	_
+4-2	280-283	Die	_	_
+4-3	284-291	vordere	_	_
+4-4	292-297	Stube	_	_
+4-5	298-300	in	_	_
+4-6	301-307	meinem	_	_
+4-7	308-313	Logis	_	_
+4-8	314-319	nebst	_	_
+4-9	320-325	einem	_	_
+4-10	326-333	kleinen	_	_
+4-11	334-343	Vorzimmer	_	_
+4-12	344-350	bleibt	_	_
+4-13	351-354	für	_	_
+4-14	355-358	Sie	_	_
+4-15	359-364	offen	_	_
+4-16	365-366	\;	_	_
+4-17	367-370	ich	_	_
+4-18	371-376	denke	_	_
+4-19	377-379	es	_	_
+4-20	380-384	soll	_	_
+4-21	385-390	Ihnen	_	_
+4-22	391-401	conveniren	_	_
+4-23	402-403	.	_	_
+
+#Text=- Gruessen Sie Ritscheln und sagen ihm gefälligst , dass von dem Comicus Mantuanus aus der Kaiserzeit mehrere Stücke in Palimpfesten liegen sollen .
+5-1	404-405	-	_	_
+5-2	406-414	Gruessen	_	_
+5-3	415-418	Sie	_	_
+5-4	419-428	Ritscheln	*	PERmentioned
+5-5	429-432	und	_	_
+5-6	433-438	sagen	_	_
+5-7	439-442	ihm	_	_
+5-8	443-453	gefälligst	_	_
+5-9	454-455	,	_	_
+5-10	456-460	dass	_	_
+5-11	461-464	von	_	_
+5-12	465-468	dem	_	_
+5-13	469-476	Comicus	*[4]	LIT[4]
+5-14	477-486	Mantuanus	*[4]	LIT[4]
+5-15	487-490	aus	_	_
+5-16	491-494	der	_	_
+5-17	495-505	Kaiserzeit	_	_
+5-18	506-513	mehrere	_	_
+5-19	514-520	Stücke	_	_
+5-20	521-523	in	_	_
+5-21	524-536	Palimpfesten	*	LIT
+5-22	537-543	liegen	_	_
+5-23	544-550	sollen	_	_
+5-24	551-552	.	_	_
+
+#Text=- Schreiben Sie etwas langsamer und deutlicher , Irrungen zu vermeiden : bitte , bitte .
+6-1	553-554	-	_	_
+6-2	555-564	Schreiben	_	_
+6-3	565-568	Sie	_	_
+6-4	569-574	etwas	_	_
+6-5	575-584	langsamer	_	_
+6-6	585-588	und	_	_
+6-7	589-599	deutlicher	_	_
+6-8	600-601	,	_	_
+6-9	602-610	Irrungen	_	_
+6-10	611-613	zu	_	_
+6-11	614-623	vermeiden	_	_
+6-12	624-625	:	_	_
+6-13	626-631	bitte	_	_
+6-14	632-633	,	_	_
+6-15	634-639	bitte	_	_
+6-16	640-641	.	_	_
+
+#Text=Ihr E .
+7-1	642-645	Ihr	_	_
+7-2	646-647	E	*[5]	PERauthor[5]
+7-3	648-649	.	*[5]	PERauthor[5]
+
+#Text=Braun
+8-1	650-655	Braun	*[5]	PERauthor[5]

@@ -1,0 +1,260 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=n Gerhard an Braun Berlin , 19. Juni 1838 sorgsam und geschickten Anfänger auch wol zuzumuthen .
+1-1	0-1	n	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	19.	*[4]	DATEletter[4]
+1-8	32-36	Juni	*[4]	DATEletter[4]
+1-9	37-41	1838	*[4]	DATEletter[4]
+1-10	42-49	sorgsam	_	_
+1-11	50-53	und	_	_
+1-12	54-65	geschickten	_	_
+1-13	66-74	Anfänger	_	_
+1-14	75-79	auch	_	_
+1-15	80-83	wol	_	_
+1-16	84-94	zuzumuthen	_	_
+1-17	95-96	.	_	_
+
+#Text=Die Fossatischen Spiegel sind mir also ganz willkommen .
+2-1	97-100	Die	_	_
+2-2	101-113	Fossatischen	*	PERmentioned
+2-3	114-121	Spiegel	*	OBJ
+2-4	122-126	sind	_	_
+2-5	127-130	mir	_	_
+2-6	131-135	also	_	_
+2-7	136-140	ganz	_	_
+2-8	141-151	willkommen	_	_
+2-9	152-153	.	_	_
+
+#Text=- Wenn das Französisch meiner Notice Tadel erleidet , so ist es schlimm \; darin ein werde ich hier nicht besser aufstellen können .
+3-1	154-155	-	_	_
+3-2	156-160	Wenn	_	_
+3-3	161-164	das	_	_
+3-4	165-176	Französisch	_	_
+3-5	177-183	meiner	_	_
+3-6	184-190	Notice	_	_
+3-7	191-196	Tadel	_	_
+3-8	197-205	erleidet	_	_
+3-9	206-207	,	_	_
+3-10	208-210	so	_	_
+3-11	211-214	ist	_	_
+3-12	215-217	es	_	_
+3-13	218-225	schlimm	_	_
+3-14	226-227	\;	_	_
+3-15	228-233	darin	_	_
+3-16	234-237	ein	_	_
+3-17	238-243	werde	_	_
+3-18	244-247	ich	_	_
+3-19	248-252	hier	_	_
+3-20	253-258	nicht	_	_
+3-21	259-265	besser	_	_
+3-22	266-276	aufstellen	_	_
+3-23	277-283	können	_	_
+3-24	284-285	.	_	_
+
+#Text=Dennoch sehe ich kaum ab wie der Text meiner Spiegel- und Vasenwerke anders als Französisch einzurichten sei - „ zweierlei Ausgaben sind sind buchhändlerisch unausführbar und im Ausland werde ich mehr gelesen als in Deutschland .
+4-1	286-293	Dennoch	_	_
+4-2	294-298	sehe	_	_
+4-3	299-302	ich	_	_
+4-4	303-307	kaum	_	_
+4-5	308-310	ab	_	_
+4-6	311-314	wie	_	_
+4-7	315-318	der	_	_
+4-8	319-323	Text	_	_
+4-9	324-330	meiner	_	_
+4-10	331-339	Spiegel-	_	_
+4-11	340-343	und	_	_
+4-12	344-354	Vasenwerke	_	_
+4-13	355-361	anders	_	_
+4-14	362-365	als	_	_
+4-15	366-377	Französisch	_	_
+4-16	378-390	einzurichten	_	_
+4-17	391-394	sei	_	_
+4-18	395-396	-	_	_
+4-19	397-398	„	_	_
+4-20	399-408	zweierlei	_	_
+4-21	409-417	Ausgaben	_	_
+4-22	418-422	sind	_	_
+4-23	423-427	sind	_	_
+4-24	428-443	buchhändlerisch	_	_
+4-25	444-456	unausführbar	_	_
+4-26	457-460	und	_	_
+4-27	461-463	im	_	_
+4-28	464-471	Ausland	_	_
+4-29	472-477	werde	_	_
+4-30	478-481	ich	_	_
+4-31	482-486	mehr	_	_
+4-32	487-494	gelesen	_	_
+4-33	495-498	als	_	_
+4-34	499-501	in	_	_
+4-35	502-513	Deutschland	*	PLACEmentioned
+4-36	514-515	.	_	_
+
+#Text=Für das Corpus hoffen wir auf eine Einrichtung , die zugleich Franz und Finder auf mehrere Jahre beschäftigen und das Werk von der Stelle bringen können .
+5-1	516-519	Für	_	_
+5-2	520-523	das	_	_
+5-3	524-530	Corpus	_	_
+5-4	531-537	hoffen	_	_
+5-5	538-541	wir	_	_
+5-6	542-545	auf	_	_
+5-7	546-550	eine	_	_
+5-8	551-562	Einrichtung	_	_
+5-9	563-564	,	_	_
+5-10	565-568	die	_	_
+5-11	569-577	zugleich	_	_
+5-12	578-583	Franz	*	PERmentioned
+5-13	584-587	und	_	_
+5-14	588-594	Finder	*	PERmentioned
+5-15	595-598	auf	_	_
+5-16	599-606	mehrere	_	_
+5-17	607-612	Jahre	_	_
+5-18	613-625	beschäftigen	_	_
+5-19	626-629	und	_	_
+5-20	630-633	das	_	_
+5-21	634-638	Werk	_	_
+5-22	639-642	von	_	_
+5-23	643-646	der	_	_
+5-24	647-653	Stelle	_	_
+5-25	654-661	bringen	_	_
+5-26	662-668	können	_	_
+5-27	669-670	.	_	_
+
+#Text=- Campanaris Resultate über den Nersaspiegel wünsche ich , wenigstens dem Hauptnamen nach dem er liegst zu kennen .
+6-1	671-672	-	_	_
+6-2	673-683	Campanaris	*	PERmentioned
+6-3	684-693	Resultate	_	_
+6-4	694-698	über	_	_
+6-5	699-702	den	_	_
+6-6	703-715	Nersaspiegel	*	OBJ
+6-7	716-723	wünsche	_	_
+6-8	724-727	ich	_	_
+6-9	728-729	,	_	_
+6-10	730-740	wenigstens	_	_
+6-11	741-744	dem	_	_
+6-12	745-755	Hauptnamen	_	_
+6-13	756-760	nach	_	_
+6-14	761-764	dem	_	_
+6-15	765-767	er	_	_
+6-16	768-774	liegst	_	_
+6-17	775-777	zu	_	_
+6-18	778-784	kennen	_	_
+6-19	785-786	.	_	_
+
+#Text=Ich schließe einen Brief an Millinger bei .
+7-1	787-790	Ich	_	_
+7-2	791-799	schließe	_	_
+7-3	800-805	einen	_	_
+7-4	806-811	Brief	_	_
+7-5	812-814	an	_	_
+7-6	815-824	Millinger	*	PERmentioned
+7-7	825-828	bei	_	_
+7-8	829-830	.	_	_
+
+#Text=In den Rechnungsangelegenheiten schrieb ich Ihnen schon früher .
+8-1	831-833	In	_	_
+8-2	834-837	den	_	_
+8-3	838-862	Rechnungsangelegenheiten	_	_
+8-4	863-870	schrieb	_	_
+8-5	871-874	ich	_	_
+8-6	875-880	Ihnen	_	_
+8-7	881-886	schon	_	_
+8-8	887-893	früher	_	_
+8-9	894-895	.	_	_
+
+#Text=Ob er mir sein Münzwerk schicken werde weiß ich nicht \; geschieht es , so vertreiben Sie Sich wol zur gung .
+9-1	896-898	Ob	_	_
+9-2	899-901	er	_	_
+9-3	902-905	mir	_	_
+9-4	906-910	sein	_	_
+9-5	911-919	Münzwerk	_	_
+9-6	920-928	schicken	_	_
+9-7	929-934	werde	_	_
+9-8	935-939	weiß	_	_
+9-9	940-943	ich	_	_
+9-10	944-949	nicht	_	_
+9-11	950-951	\;	_	_
+9-12	952-961	geschieht	_	_
+9-13	962-964	es	_	_
+9-14	965-966	,	_	_
+9-15	967-969	so	_	_
+9-16	970-980	vertreiben	_	_
+9-17	981-984	Sie	_	_
+9-18	985-989	Sich	_	_
+9-19	990-993	wol	_	_
+9-20	994-997	zur	_	_
+9-21	998-1002	gung	_	_
+9-22	1003-1004	.	_	_
+
+#Text=Ich schicke ihm 1 Ex .
+10-1	1005-1008	Ich	_	_
+10-2	1009-1016	schicke	_	_
+10-3	1017-1020	ihm	_	_
+10-4	1021-1022	1	_	_
+10-5	1023-1025	Ex	_	_
+10-6	1026-1027	.	_	_
+
+#Text=der Abhandlung über die Süiegel durch Sie .
+11-1	1028-1031	der	_	_
+11-2	1032-1042	Abhandlung	_	_
+11-3	1043-1047	über	_	_
+11-4	1048-1051	die	_	_
+11-5	1052-1059	Süiegel	_	_
+11-6	1060-1065	durch	_	_
+11-7	1066-1069	Sie	_	_
+11-8	1070-1071	.	_	_
+
+#Text=Das Spiegelfragment ist also verloren \; AP kann meine Deduktionen nicht widerlegen daß es geradehin unmöglich war in den 3 Tagen zwischen Kauf und Abreise nur ihn zu erledigen , und ich weiß positiv daß ich das Fragment mit Schmerzen in seinen Händen zurückließ .
+12-1	1072-1075	Das	_	_
+12-2	1076-1091	Spiegelfragment	*	OBJ
+12-3	1092-1095	ist	_	_
+12-4	1096-1100	also	_	_
+12-5	1101-1109	verloren	_	_
+12-6	1110-1111	\;	_	_
+12-7	1112-1114	AP	_	_
+12-8	1115-1119	kann	_	_
+12-9	1120-1125	meine	_	_
+12-10	1126-1137	Deduktionen	_	_
+12-11	1138-1143	nicht	_	_
+12-12	1144-1154	widerlegen	_	_
+12-13	1155-1158	daß	_	_
+12-14	1159-1161	es	_	_
+12-15	1162-1171	geradehin	_	_
+12-16	1172-1181	unmöglich	_	_
+12-17	1182-1185	war	_	_
+12-18	1186-1188	in	_	_
+12-19	1189-1192	den	_	_
+12-20	1193-1194	3	_	_
+12-21	1195-1200	Tagen	_	_
+12-22	1201-1209	zwischen	_	_
+12-23	1210-1214	Kauf	_	_
+12-24	1215-1218	und	_	_
+12-25	1219-1226	Abreise	_	_
+12-26	1227-1230	nur	_	_
+12-27	1231-1234	ihn	_	_
+12-28	1235-1237	zu	_	_
+12-29	1238-1247	erledigen	_	_
+12-30	1248-1249	,	_	_
+12-31	1250-1253	und	_	_
+12-32	1254-1257	ich	_	_
+12-33	1258-1262	weiß	_	_
+12-34	1263-1270	positiv	_	_
+12-35	1271-1274	daß	_	_
+12-36	1275-1278	ich	_	_
+12-37	1279-1282	das	_	_
+12-38	1283-1291	Fragment	_	_
+12-39	1292-1295	mit	_	_
+12-40	1296-1305	Schmerzen	_	_
+12-41	1306-1308	in	_	_
+12-42	1309-1315	seinen	_	_
+12-43	1316-1322	Händen	_	_
+12-44	1323-1333	zurückließ	_	_
+12-45	1334-1335	.	_	_
+
+#Text=Es
+13-1	1336-1338	Es	_	_

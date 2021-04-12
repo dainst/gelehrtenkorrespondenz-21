@@ -1,0 +1,53 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=313 Braun an Gerhard Rom , 30. April 1838 - u — Mit der Sendung der Kircherschen Cistenzeichnung stehe ich bis Donnerstag an , um mich erst genauer wegen des Portos zu unterrichten .
+1-1	0-3	313	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	30.	*[4]	DATEletter[4]
+1-8	31-36	April	*[4]	DATEletter[4]
+1-9	37-41	1838	*[4]	DATEletter[4]
+1-10	42-43	-	_	_
+1-11	44-45	u	_	_
+1-12	46-47	—	_	_
+1-13	48-51	Mit	_	_
+1-14	52-55	der	_	_
+1-15	56-63	Sendung	_	_
+1-16	64-67	der	_	_
+1-17	68-80	Kircherschen	*[5]	ORGmentioned[5]
+1-18	81-96	Cistenzeichnung	*[5]	ORGmentioned[5]
+1-19	97-102	stehe	_	_
+1-20	103-106	ich	_	_
+1-21	107-110	bis	_	_
+1-22	111-121	Donnerstag	*	DATEmentioned
+1-23	122-124	an	_	_
+1-24	125-126	,	_	_
+1-25	127-129	um	_	_
+1-26	130-134	mich	_	_
+1-27	135-139	erst	_	_
+1-28	140-147	genauer	_	_
+1-29	148-153	wegen	_	_
+1-30	154-157	des	_	_
+1-31	158-164	Portos	_	_
+1-32	165-167	zu	_	_
+1-33	168-180	unterrichten	_	_
+1-34	181-182	.	_	_
+
+#Text=Von Valentini habe ich Scudi 67.80 auf Ihren letzten Wechsel einkassirt .
+2-1	183-186	Von	_	_
+2-2	187-196	Valentini	*	PERmentioned
+2-3	197-201	habe	_	_
+2-4	202-205	ich	_	_
+2-5	206-211	Scudi	_	_
+2-6	212-217	67.80	_	_
+2-7	218-221	auf	_	_
+2-8	222-227	Ihren	_	_
+2-9	228-235	letzten	_	_
+2-10	236-243	Wechsel	_	_
+2-11	244-254	einkassirt	_	_
+2-12	255-256	.	_	_

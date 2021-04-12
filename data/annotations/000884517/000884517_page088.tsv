@@ -1,0 +1,196 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=“ 47 460 Gerhard an Braun Berlin , 10. Dezember 1844 A. d . Dir .
+1-1	0-1	“	_	_
+1-2	2-4	47	_	_
+1-3	5-8	460	_	_
+1-4	9-16	Gerhard	*	PERauthor
+1-5	17-19	an	_	_
+1-6	20-25	Braun	*	PERaddressee
+1-7	26-32	Berlin	*	PLACEfrom
+1-8	33-34	,	_	_
+1-9	35-38	10.	*[2]	DATEletter[2]
+1-10	39-47	Dezember	*[2]	DATEletter[2]
+1-11	48-52	1844	*[2]	DATEletter[2]
+1-12	53-55	A.	_	_
+1-13	56-57	d	_	_
+1-14	58-59	.	_	_
+1-15	60-63	Dir	_	_
+1-16	64-65	.	_	_
+
+#Text=g . 24/XII 4 r . 24/XII 44 Dr. Braun Berlin 10 Dec 44 Mein theurer Freund .
+2-1	66-67	g	_	_
+2-2	68-69	.	_	_
+2-3	70-76	24/XII	*[3]	DATErecieved[3]
+2-4	77-78	4	*[3]	DATErecieved[3]
+2-5	79-80	r	_	_
+2-6	81-82	.	_	_
+2-7	83-89	24/XII	*[4]	DATEanswered[4]
+2-8	90-92	44	*[4]	DATEanswered[4]
+2-9	93-96	Dr.	*[1]	PERaddressee[1]
+2-10	97-102	Braun	*[1]	PERaddressee[1]
+2-11	103-109	Berlin	*	PLACEfrom
+2-12	110-112	10	*[5]	DATEletter[5]
+2-13	113-116	Dec	*[5]	DATEletter[5]
+2-14	117-119	44	*[5]	DATEletter[5]
+2-15	120-124	Mein	_	_
+2-16	125-132	theurer	_	_
+2-17	133-139	Freund	_	_
+2-18	140-141	.	_	_
+
+#Text=Gestern feierten wir ein anständiges Winckelmann Fest .
+3-1	142-149	Gestern	_	_
+3-2	150-158	feierten	_	_
+3-3	159-162	wir	_	_
+3-4	163-166	ein	_	_
+3-5	167-178	anständiges	_	_
+3-6	179-190	Winckelmann	_	_
+3-7	191-195	Fest	_	_
+3-8	196-197	.	_	_
+
+#Text=Mein Programm erhalten Sie unter Band , obwohl heute kaum Zeit dazu sein wird .
+4-1	198-202	Mein	_	_
+4-2	203-211	Programm	_	_
+4-3	212-220	erhalten	_	_
+4-4	221-224	Sie	_	_
+4-5	225-230	unter	_	_
+4-6	231-235	Band	_	_
+4-7	236-237	,	_	_
+4-8	238-244	obwohl	_	_
+4-9	245-250	heute	_	_
+4-10	251-255	kaum	_	_
+4-11	256-260	Zeit	_	_
+4-12	261-265	dazu	_	_
+4-13	266-270	sein	_	_
+4-14	271-275	wird	_	_
+4-15	276-277	.	_	_
+
+#Text=Es lasen : Panofka über Midas , Wiese über Caninas topographische Blätter , Curtius über Messene , versöhnungshalber selbst Tölken über den Krotos , Taktschläger , als bacchischer Dämon .
+5-1	278-280	Es	_	_
+5-2	281-286	lasen	_	_
+5-3	287-288	:	_	_
+5-4	289-296	Panofka	*	PERmentioned
+5-5	297-301	über	_	_
+5-6	302-307	Midas	*	PERmentioned
+5-7	308-309	,	_	_
+5-8	310-315	Wiese	*	PERmentioned
+5-9	316-320	über	_	_
+5-10	321-328	Caninas	*	PERmentioned
+5-11	329-343	topographische	_	_
+5-12	344-351	Blätter	_	_
+5-13	352-353	,	_	_
+5-14	354-361	Curtius	*	PERmentioned
+5-15	362-366	über	_	_
+5-16	367-374	Messene	*	PLACEmentioned
+5-17	375-376	,	_	_
+5-18	377-394	versöhnungshalber	_	_
+5-19	395-401	selbst	_	_
+5-20	402-408	Tölken	*	PERmentioned
+5-21	409-413	über	_	_
+5-22	414-417	den	_	_
+5-23	418-424	Krotos	*	PERmentioned
+5-24	425-426	,	_	_
+5-25	427-439	Taktschläger	_	_
+5-26	440-441	,	_	_
+5-27	442-445	als	_	_
+5-28	446-457	bacchischer	_	_
+5-29	458-463	Dämon	_	_
+5-30	464-465	.	_	_
+
+#Text=Für Horkel fehlte es an Zeit .
+6-1	466-469	Für	_	_
+6-2	470-476	Horkel	*	PERmentioned
+6-3	477-483	fehlte	_	_
+6-4	484-486	es	_	_
+6-5	487-489	an	_	_
+6-6	490-494	Zeit	_	_
+6-7	495-496	.	_	_
+
+#Text=Falbe bittet die Bestellung zu suspendiren .
+7-1	497-502	Falbe	*	PERmentioned
+7-2	503-509	bittet	_	_
+7-3	510-513	die	_	_
+7-4	514-524	Bestellung	_	_
+7-5	525-527	zu	_	_
+7-6	528-539	suspendiren	_	_
+7-7	540-541	.	_	_
+
+#Text=Eines Katalogs Fontana'scher Vasen bin ich mir nicht bewußt .
+8-1	542-547	Eines	_	_
+8-2	548-556	Katalogs	_	_
+8-3	557-570	Fontana'scher	*	PERmentioned
+8-4	571-576	Vasen	*	OBJ
+8-5	577-580	bin	_	_
+8-6	581-584	ich	_	_
+8-7	585-588	mir	_	_
+8-8	589-594	nicht	_	_
+8-9	595-601	bewußt	_	_
+8-10	602-603	.	_	_
+
+#Text=Wegen der Triptolemos Schale vase glaube ich Ihnen geschrieben zu haben daß Welcker verletzt war \; ich sende ihm die Durchzeichnung und Ihnen das von Welcker erhaltene Original , um es für die Institutswerke bald stechen zu lassen .
+9-1	604-609	Wegen	_	_
+9-2	610-613	der	_	_
+9-3	614-625	Triptolemos	*[6]	OBJ[6]
+9-4	626-632	Schale	*[6]	OBJ[6]
+9-5	633-637	vase	*[6]	OBJ[6]
+9-6	638-644	glaube	_	_
+9-7	645-648	ich	_	_
+9-8	649-654	Ihnen	_	_
+9-9	655-666	geschrieben	_	_
+9-10	667-669	zu	_	_
+9-11	670-675	haben	_	_
+9-12	676-679	daß	_	_
+9-13	680-687	Welcker	*	PERmentioned
+9-14	688-696	verletzt	_	_
+9-15	697-700	war	_	_
+9-16	701-702	\;	_	_
+9-17	703-706	ich	_	_
+9-18	707-712	sende	_	_
+9-19	713-716	ihm	_	_
+9-20	717-720	die	_	_
+9-21	721-735	Durchzeichnung	_	_
+9-22	736-739	und	_	_
+9-23	740-745	Ihnen	_	_
+9-24	746-749	das	_	_
+9-25	750-753	von	_	_
+9-26	754-761	Welcker	*	PERmentioned
+9-27	762-771	erhaltene	_	_
+9-28	772-780	Original	_	_
+9-29	781-782	,	_	_
+9-30	783-785	um	_	_
+9-31	786-788	es	_	_
+9-32	789-792	für	_	_
+9-33	793-796	die	_	_
+9-34	797-811	Institutswerke	_	_
+9-35	812-816	bald	_	_
+9-36	817-824	stechen	_	_
+9-37	825-827	zu	_	_
+9-38	828-834	lassen	_	_
+9-39	835-836	.	_	_
+
+#Text=Meine Rückseite von Gerstäcker 's Wechselsendung die französische Section betreffend wird Ihnen nicht entgangen sein .
+10-1	837-842	Meine	_	_
+10-2	843-852	Rückseite	_	_
+10-3	853-856	von	_	_
+10-4	857-867	Gerstäcker	*[8]	ORGmentioned[8]
+10-5	868-870	's	*[8]	ORGmentioned[8]
+10-6	871-885	Wechselsendung	_	_
+10-7	886-889	die	_	_
+10-8	890-902	französische	*[7]	ORGmentioned[7]
+10-9	903-910	Section	*[7]	ORGmentioned[7]
+10-10	911-921	betreffend	_	_
+10-11	922-926	wird	_	_
+10-12	927-932	Ihnen	_	_
+10-13	933-938	nicht	_	_
+10-14	939-948	entgangen	_	_
+10-15	949-953	sein	_	_
+10-16	954-955	.	_	_
+
+#Text=Wünschen Sie Akademie Correspondenten vorgeschla-
+11-1	956-964	Wünschen	_	_
+11-2	965-968	Sie	_	_
+11-3	969-977	Akademie	*	ORGmentioned
+11-4	978-993	Correspondenten	_	_
+11-5	994-1005	vorgeschla-	_	_

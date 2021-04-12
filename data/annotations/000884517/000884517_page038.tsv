@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=167 Gerhard an Braun Berlin , 25. März 1844 A. d . Dir .
+1-1	0-3	167	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	25.	*[3]	DATEletter[3]
+1-8	34-38	März	*[3]	DATEletter[3]
+1-9	39-43	1844	*[3]	DATEletter[3]
+1-10	44-46	A.	_	_
+1-11	47-48	d	_	_
+1-12	49-50	.	_	_
+1-13	51-54	Dir	_	_
+1-14	55-56	.	_	_
+
+#Text=g . 9/IV 44 r . 9/IV 44 Berlin d 25 ten März 1844 Zwei Ihrer Briefe , lieber Freund , habe ich zu beantworten und hoffe dazu gerade zulänglich zu sein , obwohl ich seit gerade einem Monat vegetire .
+2-1	57-58	g	_	_
+2-2	59-60	.	_	_
+2-3	61-65	9/IV	*[4]	DATErecieved[4]
+2-4	66-68	44	*[4]	DATErecieved[4]
+2-5	69-70	r	_	_
+2-6	71-72	.	_	_
+2-7	73-77	9/IV	*[5]	DATEanswered[5]
+2-8	78-80	44	*[5]	DATEanswered[5]
+2-9	81-87	Berlin	*	PLACEfrom
+2-10	88-89	d	_	_
+2-11	90-92	25	*[6]	DATEletter[6]
+2-12	93-96	ten	*[6]	DATEletter[6]
+2-13	97-101	März	*[6]	DATEletter[6]
+2-14	102-106	1844	*[6]	DATEletter[6]
+2-15	107-111	Zwei	_	_
+2-16	112-117	Ihrer	_	_
+2-17	118-124	Briefe	_	_
+2-18	125-126	,	_	_
+2-19	127-133	lieber	_	_
+2-20	134-140	Freund	_	_
+2-21	141-142	,	_	_
+2-22	143-147	habe	_	_
+2-23	148-151	ich	_	_
+2-24	152-154	zu	_	_
+2-25	155-166	beantworten	_	_
+2-26	167-170	und	_	_
+2-27	171-176	hoffe	_	_
+2-28	177-181	dazu	_	_
+2-29	182-188	gerade	_	_
+2-30	189-199	zulänglich	_	_
+2-31	200-202	zu	_	_
+2-32	203-207	sein	_	_
+2-33	208-209	,	_	_
+2-34	210-216	obwohl	_	_
+2-35	217-220	ich	_	_
+2-36	221-225	seit	_	_
+2-37	226-232	gerade	_	_
+2-38	233-238	einem	_	_
+2-39	239-244	Monat	_	_
+2-40	245-253	vegetire	_	_
+2-41	254-255	.	_	_
+
+#Text=Die Sache ist so lästig daß ich für mein rheumatisch.und nervös afficirtes Auge außer Melicher auch Jüngken consultirt habe \; beide machen nichts daraus und verweisen mich auf besseres Wetter .
+3-1	256-259	Die	_	_
+3-2	260-265	Sache	_	_
+3-3	266-269	ist	_	_
+3-4	270-272	so	_	_
+3-5	273-279	lästig	_	_
+3-6	280-283	daß	_	_
+3-7	284-287	ich	_	_
+3-8	288-291	für	_	_
+3-9	292-296	mein	_	_
+3-10	297-312	rheumatisch.und	_	_
+3-11	313-319	nervös	_	_
+3-12	320-330	afficirtes	_	_
+3-13	331-335	Auge	_	_
+3-14	336-341	außer	_	_
+3-15	342-350	Melicher	*	PERmentioned
+3-16	351-355	auch	_	_
+3-17	356-363	Jüngken	*	PERmentioned
+3-18	364-374	consultirt	_	_
+3-19	375-379	habe	_	_
+3-20	380-381	\;	_	_
+3-21	382-387	beide	_	_
+3-22	388-394	machen	_	_
+3-23	395-401	nichts	_	_
+3-24	402-408	daraus	_	_
+3-25	409-412	und	_	_
+3-26	413-422	verweisen	_	_
+3-27	423-427	mich	_	_
+3-28	428-431	auf	_	_
+3-29	432-440	besseres	_	_
+3-30	441-447	Wetter	_	_
+3-31	448-449	.	_	_
+
+#Text=Gegen den Magnetismus fährt Melicher fort entschieden zu protestiren .
+4-1	450-455	Gegen	_	_
+4-2	456-459	den	_	_
+4-3	460-471	Magnetismus	_	_
+4-4	472-477	fährt	_	_
+4-5	478-486	Melicher	*	PERmentioned
+4-6	487-491	fort	_	_
+4-7	492-503	entschieden	_	_
+4-8	504-506	zu	_	_
+4-9	507-518	protestiren	_	_
+4-10	519-520	.	_	_
+
+#Text=Bunsen den ich heute Früh sprach hat an Ruhe gewonnen .
+5-1	521-527	Bunsen	*	PERmentioned
+5-2	528-531	den	_	_
+5-3	532-535	ich	_	_
+5-4	536-541	heute	_	_
+5-5	542-546	Früh	_	_
+5-6	547-553	sprach	_	_
+5-7	554-557	hat	_	_
+5-8	558-560	an	_	_
+5-9	561-565	Ruhe	_	_
+5-10	566-574	gewonnen	_	_
+5-11	575-576	.	_	_
+
+#Text=Die Aushängebogen seines ägyptischen Werks nehmen sich stattlich aus \; auch viel Bildliches ist dabei , Pyramidenapparat größtentheils nach Vyse .
+6-1	577-580	Die	_	_
+6-2	581-594	Aushängebogen	_	_
+6-3	595-601	seines	_	_
+6-4	602-613	ägyptischen	_	_
+6-5	614-619	Werks	_	_
+6-6	620-626	nehmen	_	_
+6-7	627-631	sich	_	_
+6-8	632-641	stattlich	_	_
+6-9	642-645	aus	_	_
+6-10	646-647	\;	_	_
+6-11	648-652	auch	_	_
+6-12	653-657	viel	_	_
+6-13	658-668	Bildliches	_	_
+6-14	669-672	ist	_	_
+6-15	673-678	dabei	_	_
+6-16	679-680	,	_	_
+6-17	681-697	Pyramidenapparat	_	_
+6-18	698-711	größtentheils	_	_
+6-19	712-716	nach	_	_
+6-20	717-721	Vyse	*	PERmentioned
+6-21	722-723	.	_	_
+
+#Text=Über das Institut habe ich ihn noch nicht sprechen können .
+7-1	724-728	Über	_	_
+7-2	729-732	das	_	_
+7-3	733-741	Institut	*	ORGmentioned
+7-4	742-746	habe	_	_
+7-5	747-750	ich	_	_
+7-6	751-754	ihn	_	_
+7-7	755-759	noch	_	_
+7-8	760-765	nicht	_	_
+7-9	766-774	sprechen	_	_
+7-10	775-781	können	_	_
+7-11	782-783	.	_	_
+
+#Text=Waagen habe ich auffordern lassen eine Antwort in Blessigs Sache mir für ihn zugehn zu lassen .
+8-1	784-790	Waagen	*	PERmentioned
+8-2	791-795	habe	_	_
+8-3	796-799	ich	_	_
+8-4	800-810	auffordern	_	_
+8-5	811-817	lassen	_	_
+8-6	818-822	eine	_	_
+8-7	823-830	Antwort	_	_
+8-8	831-833	in	_	_
+8-9	834-842	Blessigs	*	PERmentioned
+8-10	843-848	Sache	_	_
+8-11	849-852	mir	_	_
+8-12	853-856	für	_	_
+8-13	857-860	ihn	_	_
+8-14	861-867	zugehn	_	_
+8-15	868-870	zu	_	_
+8-16	871-877	lassen	_	_
+8-17	878-879	.	_	_
+
+#Text=Die Prinz Augustische Sache werde ich nach fünfmaligem Sturmanlauf auf eine römische Administrationsfeder in dieser rein administrativen Sache nun vielleicht fallen lassen \; an drei Malen hatte selbst Achilles genug .
+9-1	880-883	Die	_	_
+9-2	884-889	Prinz	*[7]	PERmentioned[7]
+9-3	890-901	Augustische	*[7]	PERmentioned[7]
+9-4	902-907	Sache	_	_
+9-5	908-913	werde	_	_
+9-6	914-917	ich	_	_
+9-7	918-922	nach	_	_
+9-8	923-934	fünfmaligem	_	_
+9-9	935-946	Sturmanlauf	_	_
+9-10	947-950	auf	_	_
+9-11	951-955	eine	_	_
+9-12	956-964	römische	_	_
+9-13	965-985	Administrationsfeder	_	_
+9-14	986-988	in	_	_
+9-15	989-995	dieser	_	_
+9-16	996-1000	rein	_	_
+9-17	1001-1016	administrativen	_	_
+9-18	1017-1022	Sache	_	_
+9-19	1023-1026	nun	_	_
+9-20	1027-1037	vielleicht	_	_
+9-21	1038-1044	fallen	_	_
+9-22	1045-1051	lassen	_	_
+9-23	1052-1053	\;	_	_
+9-24	1054-1056	an	_	_
+9-25	1057-1061	drei	_	_
+9-26	1062-1067	Malen	_	_
+9-27	1068-1073	hatte	_	_
+9-28	1074-1080	selbst	_	_
+9-29	1081-1089	Achilles	*	PERmentioned
+9-30	1090-1095	genug	_	_
+9-31	1096-1097	.	_	_
+
+#Text=Das Institut hat schon öfter Geld verloren blos : weil es zu faul war zu rechter Zeit zu liquidiren \; was
+10-1	1098-1101	Das	_	_
+10-2	1102-1110	Institut	*	ORGmentioned
+10-3	1111-1114	hat	_	_
+10-4	1115-1120	schon	_	_
+10-5	1121-1126	öfter	_	_
+10-6	1127-1131	Geld	_	_
+10-7	1132-1140	verloren	_	_
+10-8	1141-1145	blos	_	_
+10-9	1146-1147	:	_	_
+10-10	1148-1152	weil	_	_
+10-11	1153-1155	es	_	_
+10-12	1156-1158	zu	_	_
+10-13	1159-1163	faul	_	_
+10-14	1164-1167	war	_	_
+10-15	1168-1170	zu	_	_
+10-16	1171-1178	rechter	_	_
+10-17	1179-1183	Zeit	_	_
+10-18	1184-1186	zu	_	_
+10-19	1187-1197	liquidiren	_	_
+10-20	1198-1199	\;	_	_
+10-21	1200-1203	was	_	_

@@ -1,0 +1,267 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=418 Braun an Gerhard Rom , 26. Juni 1838 Sig .
+1-1	0-3	418	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	26.	*[6]	DATEletter[6]
+1-8	31-35	Juni	*[6]	DATEletter[6]
+1-9	36-40	1838	*[6]	DATEletter[6]
+1-10	41-44	Sig	_	_
+1-11	45-46	.	_	_
+
+#Text=Cav .
+2-1	47-50	Cav	_	_
+2-2	51-52	.	_	_
+
+#Text=Gerhard Berlino .
+3-1	53-60	Gerhard	*	PERaddressee
+3-2	61-68	Berlino	*	PLACEto
+3-3	69-70	.	_	_
+
+#Text=Roma li 26 Juni 1838 .
+4-1	71-75	Roma	*	PLACEfrom
+4-2	76-78	li	_	_
+4-3	79-81	26	*[8]	DATEletter[8]
+4-4	82-86	Juni	*[8]	DATEletter[8]
+4-5	87-91	1838	*[8]	DATEletter[8]
+4-6	92-93	.	_	_
+
+#Text=Hochverehrtester Freund !
+5-1	94-110	Hochverehrtester	_	_
+5-2	111-117	Freund	_	_
+5-3	118-119	!	_	_
+
+#Text=Ich beantworte Ihren Brief vom 7 und die gleichzeitig eingelaufenen vom 10 und 14 d. Mi .
+6-1	120-123	Ich	_	_
+6-2	124-134	beantworte	_	_
+6-3	135-140	Ihren	_	_
+6-4	141-146	Brief	_	_
+6-5	147-150	vom	_	_
+6-6	151-152	7	*	DATEmentioned
+6-7	153-156	und	_	_
+6-8	157-160	die	_	_
+6-9	161-173	gleichzeitig	_	_
+6-10	174-187	eingelaufenen	_	_
+6-11	188-191	vom	_	_
+6-12	192-194	10	*	DATEmentioned
+6-13	195-198	und	_	_
+6-14	199-201	14	*[11]	DATEmentioned[11]
+6-15	202-204	d.	*[11]	DATEmentioned[11]
+6-16	205-207	Mi	_	_
+6-17	208-209	.	_	_
+
+#Text=Die Spiegel nach denen Sie fragen können keine anderen als Ihre eigenen sein , von denen Apolloni die Telchis zurückbehalten und die fertigen Zeichnungen erst jetzt ausgeliefert hat .
+7-1	210-213	Die	_	_
+7-2	214-221	Spiegel	*	OBJ
+7-3	222-226	nach	_	_
+7-4	227-232	denen	_	_
+7-5	233-236	Sie	_	_
+7-6	237-243	fragen	_	_
+7-7	244-250	können	_	_
+7-8	251-256	keine	_	_
+7-9	257-264	anderen	_	_
+7-10	265-268	als	_	_
+7-11	269-273	Ihre	_	_
+7-12	274-281	eigenen	_	_
+7-13	282-286	sein	_	_
+7-14	287-288	,	_	_
+7-15	289-292	von	_	_
+7-16	293-298	denen	_	_
+7-17	299-307	Apolloni	*	PERmentioned
+7-18	308-311	die	_	_
+7-19	312-319	Telchis	_	_
+7-20	320-334	zurückbehalten	_	_
+7-21	335-338	und	_	_
+7-22	339-342	die	_	_
+7-23	343-351	fertigen	_	_
+7-24	352-363	Zeichnungen	_	_
+7-25	364-368	erst	_	_
+7-26	369-374	jetzt	_	_
+7-27	375-387	ausgeliefert	_	_
+7-28	388-391	hat	_	_
+7-29	392-393	.	_	_
+
+#Text=Selbiger behauptet fortwährend das Spiegelfragment ausgeliefert zu haben .
+8-1	394-402	Selbiger	_	_
+8-2	403-412	behauptet	_	_
+8-3	413-424	fortwährend	_	_
+8-4	425-428	das	_	_
+8-5	429-444	Spiegelfragment	_	_
+8-6	445-457	ausgeliefert	_	_
+8-7	458-460	zu	_	_
+8-8	461-466	haben	_	_
+8-9	467-468	.	_	_
+
+#Text=Mir persönlich hat er unlängst auch einen höchst fatalen Streich gespielt .
+9-1	469-472	Mir	_	_
+9-2	473-483	persönlich	_	_
+9-3	484-487	hat	_	_
+9-4	488-490	er	_	_
+9-5	491-499	unlängst	_	_
+9-6	500-504	auch	_	_
+9-7	505-510	einen	_	_
+9-8	511-517	höchst	_	_
+9-9	518-525	fatalen	_	_
+9-10	526-533	Streich	_	_
+9-11	534-542	gespielt	_	_
+9-12	543-544	.	_	_
+
+#Text=-— Dennoch sind wir bei gewissen Arbeiten auf ihn angewiesen und ich weiß keinen anderen .
+10-1	545-547	-—	_	_
+10-2	548-555	Dennoch	_	_
+10-3	556-560	sind	_	_
+10-4	561-564	wir	_	_
+10-5	565-568	bei	_	_
+10-6	569-577	gewissen	_	_
+10-7	578-586	Arbeiten	_	_
+10-8	587-590	auf	_	_
+10-9	591-594	ihn	_	_
+10-10	595-605	angewiesen	_	_
+10-11	606-609	und	_	_
+10-12	610-613	ich	_	_
+10-13	614-618	weiß	_	_
+10-14	619-625	keinen	_	_
+10-15	626-633	anderen	_	_
+10-16	634-635	.	_	_
+
+#Text=Millingen ist hier und räth neuerdinss die Institutsschriften in einem gleichförmigen Quartformat zu drucken .
+11-1	636-645	Millingen	*	PERmentioned
+11-2	646-649	ist	_	_
+11-3	650-654	hier	_	_
+11-4	655-658	und	_	_
+11-5	659-663	räth	_	_
+11-6	664-674	neuerdinss	_	_
+11-7	675-678	die	_	_
+11-8	679-697	Institutsschriften	_	_
+11-9	698-700	in	_	_
+11-10	701-706	einem	_	_
+11-11	707-721	gleichförmigen	_	_
+11-12	722-733	Quartformat	_	_
+11-13	734-736	zu	_	_
+11-14	737-744	drucken	_	_
+11-15	745-746	.	_	_
+
+#Text=Das Bull .
+12-1	747-750	Das	_	_
+12-2	751-755	Bull	_	_
+12-3	756-757	.	_	_
+
+#Text=in dem Format des Journal des So - s . Ich ersuche Sie den Vorschlag in Betrachtung und Umlauf zu brigen .
+13-1	758-760	in	_	_
+13-2	761-764	dem	_	_
+13-3	765-771	Format	_	_
+13-4	772-775	des	_	_
+13-5	776-783	Journal	_	_
+13-6	784-787	des	_	_
+13-7	788-790	So	_	_
+13-8	791-792	-	_	_
+13-9	793-794	s	_	_
+13-10	795-796	.	_	_
+13-11	797-800	Ich	_	_
+13-12	801-808	ersuche	_	_
+13-13	809-812	Sie	_	_
+13-14	813-816	den	_	_
+13-15	817-826	Vorschlag	_	_
+13-16	827-829	in	_	_
+13-17	830-841	Betrachtung	_	_
+13-18	842-845	und	_	_
+13-19	846-852	Umlauf	_	_
+13-20	853-855	zu	_	_
+13-21	856-862	brigen	_	_
+13-22	863-864	.	_	_
+
+#Text=Wegen der lüllerschen Sauerei bedaure ich Ihre Mühe aufrichtig .
+14-1	865-870	Wegen	_	_
+14-2	871-874	der	_	_
+14-3	875-886	lüllerschen	*	PERmentioned
+14-4	887-894	Sauerei	_	_
+14-5	895-902	bedaure	_	_
+14-6	903-906	ich	_	_
+14-7	907-911	Ihre	_	_
+14-8	912-916	Mühe	_	_
+14-9	917-927	aufrichtig	_	_
+14-10	928-929	.	_	_
+
+#Text=Ich ersuche Sie selbiges nach Gotha an meinen Schwager Consistorialsecretär Purgold nebst Nachmahne der römischen Fracht ( also alles in Gotha zahlbar ) gelangen zu lassen .
+15-1	930-933	Ich	_	_
+15-2	934-941	ersuche	_	_
+15-3	942-945	Sie	_	_
+15-4	946-954	selbiges	_	_
+15-5	955-959	nach	_	_
+15-6	960-965	Gotha	*	PLACEmentioned
+15-7	966-968	an	_	_
+15-8	969-975	meinen	_	_
+15-9	976-984	Schwager	_	_
+15-10	985-1005	Consistorialsecretär	_	_
+15-11	1006-1013	Purgold	*	PERmentioned
+15-12	1014-1019	nebst	_	_
+15-13	1020-1029	Nachmahne	_	_
+15-14	1030-1033	der	_	_
+15-15	1034-1043	römischen	_	_
+15-16	1044-1050	Fracht	_	_
+15-17	1051-1052	(	_	_
+15-18	1053-1057	also	_	_
+15-19	1058-1063	alles	_	_
+15-20	1064-1066	in	_	_
+15-21	1067-1072	Gotha	*	PLACEmentioned
+15-22	1073-1080	zahlbar	_	_
+15-23	1081-1082	)	_	_
+15-24	1083-1091	gelangen	_	_
+15-25	1092-1094	zu	_	_
+15-26	1095-1101	lassen	_	_
+15-27	1102-1103	.	_	_
+
+#Text=Der Spediteur zahlt ja Vorschuß .
+16-1	1104-1107	Der	_	_
+16-2	1108-1117	Spediteur	_	_
+16-3	1118-1123	zahlt	_	_
+16-4	1124-1126	ja	_	_
+16-5	1127-1135	Vorschuß	_	_
+16-6	1136-1137	.	_	_
+
+#Text=Der Unfall mit der Vasensendung ist ganz entsetzlich .
+17-1	1138-1141	Der	_	_
+17-2	1142-1148	Unfall	_	_
+17-3	1149-1152	mit	_	_
+17-4	1153-1156	der	_	_
+17-5	1157-1169	Vasensendung	_	_
+17-6	1170-1173	ist	_	_
+17-7	1174-1178	ganz	_	_
+17-8	1179-1190	entsetzlich	_	_
+17-9	1191-1192	.	_	_
+
+#Text=Ich muß gestehen daß ich es kaum begreife .
+18-1	1193-1196	Ich	_	_
+18-2	1197-1200	muß	_	_
+18-3	1201-1209	gestehen	_	_
+18-4	1210-1213	daß	_	_
+18-5	1214-1217	ich	_	_
+18-6	1218-1220	es	_	_
+18-7	1221-1225	kaum	_	_
+18-8	1226-1234	begreife	_	_
+18-9	1235-1236	.	_	_
+
+#Text=Derselbe Mann , welcher sie verpackt , hat andre Male bei gleicher Verfahrungsweise glänzende Beweise seiner Ge-
+19-1	1237-1245	Derselbe	_	_
+19-2	1246-1250	Mann	_	_
+19-3	1251-1252	,	_	_
+19-4	1253-1260	welcher	_	_
+19-5	1261-1264	sie	_	_
+19-6	1265-1273	verpackt	_	_
+19-7	1274-1275	,	_	_
+19-8	1276-1279	hat	_	_
+19-9	1280-1285	andre	_	_
+19-10	1286-1290	Male	_	_
+19-11	1291-1294	bei	_	_
+19-12	1295-1303	gleicher	_	_
+19-13	1304-1320	Verfahrungsweise	_	_
+19-14	1321-1330	glänzende	_	_
+19-15	1331-1338	Beweise	_	_
+19-16	1339-1345	seiner	_	_
+19-17	1346-1349	Ge-	_	_

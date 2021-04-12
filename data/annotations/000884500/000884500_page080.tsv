@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=7 Gerhard an Braun Berlin , 9. April 1838 Dr. Braun g . 23/4 38 ff. d . Dir .
+1-1	0-1	7	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	9.	*[5]	DATEletter[5]
+1-8	31-36	April	*[5]	DATEletter[5]
+1-9	37-41	1838	*[5]	DATEletter[5]
+1-10	42-45	Dr.	_	_
+1-11	46-51	Braun	*	PERaddressee
+1-12	52-53	g	_	_
+1-13	54-55	.	_	_
+1-14	56-60	23/4	*[6]|*[7]	DATErecieved[6]|DATEanswered[7]
+1-15	61-63	38	*[6]|*[7]	DATErecieved[6]|DATEanswered[7]
+1-16	64-67	ff.	_	_
+1-17	68-69	d	_	_
+1-18	70-71	.	_	_
+1-19	72-75	Dir	_	_
+1-20	76-77	.	_	_
+
+#Text=CIWII r . 2u/u 38 Berlin 9 April 38 Mein theurer Freund .
+2-1	78-83	CIWII	_	_
+2-2	84-85	r	_	_
+2-3	86-87	.	_	_
+2-4	88-92	2u/u	_	_
+2-5	93-95	38	_	_
+2-6	96-102	Berlin	*	PLACEfrom
+2-7	103-104	9	*[9]	DATEletter[9]
+2-8	105-110	April	*[9]	DATEletter[9]
+2-9	111-113	38	*[9]	DATEletter[9]
+2-10	114-118	Mein	_	_
+2-11	119-126	theurer	_	_
+2-12	127-133	Freund	_	_
+2-13	134-135	.	_	_
+
+#Text=Sie erhalten beiliegend den angekündisten Wechsel von 100 rt .
+3-1	136-139	Sie	_	_
+3-2	140-148	erhalten	_	_
+3-3	149-159	beiliegend	_	_
+3-4	160-163	den	_	_
+3-5	164-177	angekündisten	_	_
+3-6	178-185	Wechsel	_	_
+3-7	186-189	von	_	_
+3-8	190-193	100	_	_
+3-9	194-196	rt	_	_
+3-10	197-198	.	_	_
+
+#Text=Betrag zur Besoldabrechnung und Auslagen .
+4-1	199-205	Betrag	_	_
+4-2	206-209	zur	_	_
+4-3	210-226	Besoldabrechnung	_	_
+4-4	227-230	und	_	_
+4-5	231-239	Auslagen	_	_
+4-6	240-241	.	_	_
+
+#Text=Gegenwärtiges wird Sie wol mitten in den Folgen alles Gewinns finden , welcher Ihnen U. mitgebracht hat und das Capitol droht sich wol zu bewegen wie Bienen - wald .
+5-1	242-255	Gegenwärtiges	_	_
+5-2	256-260	wird	_	_
+5-3	261-264	Sie	_	_
+5-4	265-268	wol	_	_
+5-5	269-275	mitten	_	_
+5-6	276-278	in	_	_
+5-7	279-282	den	_	_
+5-8	283-289	Folgen	_	_
+5-9	290-295	alles	_	_
+5-10	296-303	Gewinns	_	_
+5-11	304-310	finden	_	_
+5-12	311-312	,	_	_
+5-13	313-320	welcher	_	_
+5-14	321-326	Ihnen	_	_
+5-15	327-329	U.	_	_
+5-16	330-341	mitgebracht	_	_
+5-17	342-345	hat	_	_
+5-18	346-349	und	_	_
+5-19	350-353	das	_	_
+5-20	354-361	Capitol	*	PLACEmentioned
+5-21	362-367	droht	_	_
+5-22	368-372	sich	_	_
+5-23	373-376	wol	_	_
+5-24	377-379	zu	_	_
+5-25	380-387	bewegen	_	_
+5-26	388-391	wie	_	_
+5-27	392-398	Bienen	_	_
+5-28	399-400	-	_	_
+5-29	401-405	wald	_	_
+5-30	406-407	.	_	_
+
+#Text=Einiges Gehör schenken Sie mir dennoch , so wie Sie einige Rast üben müssen .
+6-1	408-415	Einiges	_	_
+6-2	416-421	Gehör	_	_
+6-3	422-430	schenken	_	_
+6-4	431-434	Sie	_	_
+6-5	435-438	mir	_	_
+6-6	439-446	dennoch	_	_
+6-7	447-448	,	_	_
+6-8	449-451	so	_	_
+6-9	452-455	wie	_	_
+6-10	456-459	Sie	_	_
+6-11	460-466	einige	_	_
+6-12	467-471	Rast	_	_
+6-13	472-476	üben	_	_
+6-14	477-483	müssen	_	_
+6-15	484-485	.	_	_
+
+#Text=Stier war eben bei mir \; ich hoffe er wird Euch Abdrücke seiner hübschen Platten wohlfeil geben .
+7-1	486-491	Stier	_	_
+7-2	492-495	war	_	_
+7-3	496-500	eben	_	_
+7-4	501-504	bei	_	_
+7-5	505-508	mir	_	_
+7-6	509-510	\;	_	_
+7-7	511-514	ich	_	_
+7-8	515-520	hoffe	_	_
+7-9	521-523	er	_	_
+7-10	524-528	wird	_	_
+7-11	529-533	Euch	_	_
+7-12	534-542	Abdrücke	_	_
+7-13	543-549	seiner	_	_
+7-14	550-558	hübschen	_	_
+7-15	559-566	Platten	_	_
+7-16	567-575	wohlfeil	_	_
+7-17	576-581	geben	_	_
+7-18	582-583	.	_	_
+
+#Text=Er legt dem Heftpreis von 6 Tafeln & 2 1/2 Scudi , 40 rt abnehmend , zu Grunde und wird wol einen Preis ausmachen jenem gleich für welchen er seine Abdrücke Euch schafft .
+8-1	584-586	Er	_	_
+8-2	587-591	legt	_	_
+8-3	592-595	dem	_	_
+8-4	596-605	Heftpreis	_	_
+8-5	606-609	von	_	_
+8-6	610-611	6	_	_
+8-7	612-618	Tafeln	_	_
+8-8	619-620	&	_	_
+8-9	621-622	2	_	_
+8-10	623-626	1/2	_	_
+8-11	627-632	Scudi	_	_
+8-12	633-634	,	_	_
+8-13	635-637	40	_	_
+8-14	638-640	rt	_	_
+8-15	641-650	abnehmend	_	_
+8-16	651-652	,	_	_
+8-17	653-655	zu	_	_
+8-18	656-662	Grunde	_	_
+8-19	663-666	und	_	_
+8-20	667-671	wird	_	_
+8-21	672-675	wol	_	_
+8-22	676-681	einen	_	_
+8-23	682-687	Preis	_	_
+8-24	688-697	ausmachen	_	_
+8-25	698-703	jenem	_	_
+8-26	704-710	gleich	_	_
+8-27	711-714	für	_	_
+8-28	715-722	welchen	_	_
+8-29	723-725	er	_	_
+8-30	726-731	seine	_	_
+8-31	732-740	Abdrücke	_	_
+8-32	741-745	Euch	_	_
+8-33	746-753	schafft	_	_
+8-34	754-755	.	_	_
+
+#Text=Vor einigen Tagen 20 Scudi für die Platte wollte er nichts wissen und äußerte nur billigste Gesinnung \; er ist ein allzu eigenwilliger Kopf als daß man ihn einreden könnte .
+9-1	756-759	Vor	_	_
+9-2	760-767	einigen	_	_
+9-3	768-773	Tagen	_	_
+9-4	774-776	20	_	_
+9-5	777-782	Scudi	_	_
+9-6	783-786	für	_	_
+9-7	787-790	die	_	_
+9-8	791-797	Platte	_	_
+9-9	798-804	wollte	_	_
+9-10	805-807	er	_	_
+9-11	808-814	nichts	_	_
+9-12	815-821	wissen	_	_
+9-13	822-825	und	_	_
+9-14	826-833	äußerte	_	_
+9-15	834-837	nur	_	_
+9-16	838-847	billigste	_	_
+9-17	848-857	Gesinnung	_	_
+9-18	858-859	\;	_	_
+9-19	860-862	er	_	_
+9-20	863-866	ist	_	_
+9-21	867-870	ein	_	_
+9-22	871-876	allzu	_	_
+9-23	877-890	eigenwilliger	_	_
+9-24	891-895	Kopf	_	_
+9-25	896-899	als	_	_
+9-26	900-903	daß	_	_
+9-27	904-907	man	_	_
+9-28	908-911	ihn	_	_
+9-29	912-920	einreden	_	_
+9-30	921-927	könnte	_	_
+9-31	928-929	.	_	_
+
+#Text=Sie jagen mir Schrecken ein würden Sie den fragmentalen Spiegel mir verleugnen den ich von Basseggio kaufte \; ohne Zweifel ist er dann noch bei Apolloni an den er sofort zum zeichnen übergeben wurde .
+10-1	930-933	Sie	_	_
+10-2	934-939	jagen	_	_
+10-3	940-943	mir	_	_
+10-4	944-953	Schrecken	_	_
+10-5	954-957	ein	_	_
+10-6	958-964	würden	_	_
+10-7	965-968	Sie	_	_
+10-8	969-972	den	_	_
+10-9	973-985	fragmentalen	_	_
+10-10	986-993	Spiegel	_	_
+10-11	994-997	mir	_	_
+10-12	998-1008	verleugnen	_	_
+10-13	1009-1012	den	_	_
+10-14	1013-1016	ich	_	_
+10-15	1017-1020	von	_	_
+10-16	1021-1030	Basseggio	*	PERmentioned
+10-17	1031-1037	kaufte	_	_
+10-18	1038-1039	\;	_	_
+10-19	1040-1044	ohne	_	_
+10-20	1045-1052	Zweifel	_	_
+10-21	1053-1056	ist	_	_
+10-22	1057-1059	er	_	_
+10-23	1060-1064	dann	_	_
+10-24	1065-1069	noch	_	_
+10-25	1070-1073	bei	_	_
+10-26	1074-1082	Apolloni	*	PERmentioned
+10-27	1083-1085	an	_	_
+10-28	1086-1089	den	_	_
+10-29	1090-1092	er	_	_
+10-30	1093-1099	sofort	_	_
+10-31	1100-1103	zum	_	_
+10-32	1104-1112	zeichnen	_	_
+10-33	1113-1122	übergeben	_	_
+10-34	1123-1128	wurde	_	_
+10-35	1129-1130	.	_	_
+
+#Text=Ich dachte
+11-1	1131-1134	Ich	_	_
+11-2	1135-1141	dachte	_	_

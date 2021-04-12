@@ -1,0 +1,39 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=426 Lepsius an Henzen Berlin , 23. Dezember 1873 oder Italienischen Bibliothek aufsuchen und den genauen Titel abschreiben zu lassen ?
+1-1	0-3	426	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	23.	*[1]	DATEletter[1]
+1-8	35-43	Dezember	*[1]	DATEletter[1]
+1-9	44-48	1873	*[1]	DATEletter[1]
+1-10	49-53	oder	_	_
+1-11	54-67	Italienischen	*[2]	ORGmentioned[2]
+1-12	68-78	Bibliothek	*[2]	ORGmentioned[2]
+1-13	79-88	aufsuchen	_	_
+1-14	89-92	und	_	_
+1-15	93-96	den	_	_
+1-16	97-104	genauen	_	_
+1-17	105-110	Titel	_	_
+1-18	111-122	abschreiben	_	_
+1-19	123-125	zu	_	_
+1-20	126-132	lassen	_	_
+1-21	133-134	?	_	_
+
+#Text=Mit herzlichen Wünschen für das Fest stets der Ihre R Lepsius
+2-1	135-138	Mit	_	_
+2-2	139-149	herzlichen	_	_
+2-3	150-158	Wünschen	_	_
+2-4	159-162	für	_	_
+2-5	163-166	das	_	_
+2-6	167-171	Fest	_	_
+2-7	172-177	stets	_	_
+2-8	178-181	der	_	_
+2-9	182-186	Ihre	_	_
+2-10	187-188	R	*[3]	PERauthor[3]
+2-11	189-196	Lepsius	*[3]	PERauthor[3]

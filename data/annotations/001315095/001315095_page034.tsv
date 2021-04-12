@@ -1,0 +1,79 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Leipzig , 26. November 1849 Hr .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-24	Leipzig	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	26.	*[1]	DATEletter[1]
+1-7	31-39	November	*[1]	DATEletter[1]
+1-8	40-44	1849	*[1]	DATEletter[1]
+1-9	45-47	Hr	_	_
+1-10	48-49	.	_	_
+
+#Text=Hantzen , der Die dies Billet überbringt , wird Dir als Freund und Compagnon non Gommenter schon hinreichend empfohlen sein \; wenn indeß meine Dir hiedurch zugesandten Grüße Dir etwas angenehm sind , so laß ihm die Früchte und Zeichen davon zukommen .
+2-1	50-57	Hantzen	*	PERmentioned
+2-2	58-59	,	_	_
+2-3	60-63	der	_	_
+2-4	64-67	Die	_	_
+2-5	68-72	dies	_	_
+2-6	73-79	Billet	_	_
+2-7	80-90	überbringt	_	_
+2-8	91-92	,	_	_
+2-9	93-97	wird	_	_
+2-10	98-101	Dir	_	_
+2-11	102-105	als	_	_
+2-12	106-112	Freund	_	_
+2-13	113-116	und	_	_
+2-14	117-126	Compagnon	_	_
+2-15	127-130	non	_	_
+2-16	131-140	Gommenter	_	_
+2-17	141-146	schon	_	_
+2-18	147-158	hinreichend	_	_
+2-19	159-168	empfohlen	_	_
+2-20	169-173	sein	_	_
+2-21	174-175	\;	_	_
+2-22	176-180	wenn	_	_
+2-23	181-186	indeß	_	_
+2-24	187-192	meine	_	_
+2-25	193-196	Dir	_	_
+2-26	197-205	hiedurch	_	_
+2-27	206-217	zugesandten	_	_
+2-28	218-223	Grüße	_	_
+2-29	224-227	Dir	_	_
+2-30	228-233	etwas	_	_
+2-31	234-242	angenehm	_	_
+2-32	243-247	sind	_	_
+2-33	248-249	,	_	_
+2-34	250-252	so	_	_
+2-35	253-256	laß	_	_
+2-36	257-260	ihm	_	_
+2-37	261-264	die	_	_
+2-38	265-272	Früchte	_	_
+2-39	273-276	und	_	_
+2-40	277-284	Zeichen	_	_
+2-41	285-290	davon	_	_
+2-42	291-299	zukommen	_	_
+2-43	300-301	.	_	_
+
+#Text=Lebewohl .
+3-1	302-310	Lebewohl	_	_
+3-2	311-312	.	_	_
+
+#Text=Dein Mommsen .
+4-1	313-317	Dein	_	_
+4-2	318-325	Mommsen	*	PERauthor
+4-3	326-327	.	_	_
+
+#Text=Leipzig 26 Nov .
+5-1	328-335	Leipzig	*	PLACEfrom
+5-2	336-338	26	*[2]	DATEletter[2]
+5-3	339-342	Nov	*[2]	DATEletter[2]
+5-4	343-344	.	*[2]	DATEletter[2]
+
+#Text=1849 .
+6-1	345-349	1849	*[2]	DATEletter[2]
+6-2	350-351	.	_	_

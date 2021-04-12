@@ -1,0 +1,57 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=92 Lepsius an Henzen Berlin , 19. Februar 1874 Sie verweisen auf Postanweisungen , die ja meines Wissens nicht nach Italien eingerichtet sind .
+1-1	0-2	92	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	19.	*[1]	DATEletter[1]
+1-8	34-41	Februar	*[1]	DATEletter[1]
+1-9	42-46	1874	*[1]	DATEletter[1]
+1-10	47-50	Sie	_	_
+1-11	51-60	verweisen	_	_
+1-12	61-64	auf	_	_
+1-13	65-80	Postanweisungen	_	_
+1-14	81-82	,	_	_
+1-15	83-86	die	_	_
+1-16	87-89	ja	_	_
+1-17	90-96	meines	_	_
+1-18	97-104	Wissens	_	_
+1-19	105-110	nicht	_	_
+1-20	111-115	nach	_	_
+1-21	116-123	Italien	*	PLACEmentioned
+1-22	124-136	eingerichtet	_	_
+1-23	137-141	sind	_	_
+1-24	142-143	.	_	_
+
+#Text=Schreiben Sie mir Näheres über Ihre Wünsche .
+2-1	144-153	Schreiben	_	_
+2-2	154-157	Sie	_	_
+2-3	158-161	mir	_	_
+2-4	162-169	Näheres	_	_
+2-5	170-174	über	_	_
+2-6	175-179	Ihre	_	_
+2-7	180-187	Wünsche	_	_
+2-8	188-189	.	_	_
+
+#Text=Mir schien die Verrechnung mit Asher gerade recht bequem .
+3-1	190-193	Mir	_	_
+3-2	194-200	schien	_	_
+3-3	201-204	die	_	_
+3-4	205-216	Verrechnung	_	_
+3-5	217-220	mit	_	_
+3-6	221-226	Asher	*	PERmentioned
+3-7	227-233	gerade	_	_
+3-8	234-239	recht	_	_
+3-9	240-246	bequem	_	_
+3-10	247-248	.	_	_
+
+#Text=Herzlich Ihr R Lepsius
+4-1	249-257	Herzlich	_	_
+4-2	258-261	Ihr	_	_
+4-3	262-263	R	*[2]	PERauthor[2]
+4-4	264-271	Lepsius	*[2]	PERauthor[2]

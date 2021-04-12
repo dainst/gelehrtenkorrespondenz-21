@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Berlin , 1. Juni 1833 Berlin 1 Jun .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	1.	*[1]	DATEletter[1]
+1-7	29-33	Juni	*[1]	DATEletter[1]
+1-8	34-38	1833	*[1]	DATEletter[1]
+1-9	39-45	Berlin	*	PLACEfrom
+1-10	46-47	1	*[2]	DATEletter[2]
+1-11	48-51	Jun	*[2]	DATEletter[2]
+1-12	52-53	.	*[2]	DATEletter[2]
+
+#Text=1833 .
+2-1	54-58	1833	*[2]	DATEletter[2]
+2-2	59-60	.	_	_
+
+#Text=Ihr lieber Brief vom 28 , Mai kommt später in meine Hände als der vom 29. d.M .
+3-1	61-64	Ihr	_	_
+3-2	65-71	lieber	_	_
+3-3	72-77	Brief	_	_
+3-4	78-81	vom	_	_
+3-5	82-84	28	*[3]	DATEmentioned[3]
+3-6	85-86	,	*[3]	DATEmentioned[3]
+3-7	87-90	Mai	*[3]	DATEmentioned[3]
+3-8	91-96	kommt	_	_
+3-9	97-103	später	_	_
+3-10	104-106	in	_	_
+3-11	107-112	meine	_	_
+3-12	113-118	Hände	_	_
+3-13	119-122	als	_	_
+3-14	123-126	der	_	_
+3-15	127-130	vom	*[4]	DATEmentioned[4]
+3-16	131-134	29.	*[4]	DATEmentioned[4]
+3-17	135-138	d.M	*[4]	DATEmentioned[4]
+3-18	139-140	.	*[4]	DATEmentioned[4]
+
+#Text=das spaetere Manuscript wurde somit früher abgegeben als das nun erst angelangte \; jedoch sind bereits Anordnungen getroffen , welche eine Irrung verhüten sollen .
+4-1	141-144	das	_	_
+4-2	145-153	spaetere	_	_
+4-3	154-164	Manuscript	_	_
+4-4	165-170	wurde	_	_
+4-5	171-176	somit	_	_
+4-6	177-183	früher	_	_
+4-7	184-193	abgegeben	_	_
+4-8	194-197	als	_	_
+4-9	198-201	das	_	_
+4-10	202-205	nun	_	_
+4-11	206-210	erst	_	_
+4-12	211-221	angelangte	_	_
+4-13	222-223	\;	_	_
+4-14	224-230	jedoch	_	_
+4-15	231-235	sind	_	_
+4-16	236-243	bereits	_	_
+4-17	244-255	Anordnungen	_	_
+4-18	256-265	getroffen	_	_
+4-19	266-267	,	_	_
+4-20	268-274	welche	_	_
+4-21	275-279	eine	_	_
+4-22	280-286	Irrung	_	_
+4-23	287-295	verhüten	_	_
+4-24	296-302	sollen	_	_
+4-25	303-304	.	_	_
+
+#Text=- Wegen der Wohnung sollen Sie selbst entscheiden .
+5-1	305-306	-	_	_
+5-2	307-312	Wegen	_	_
+5-3	313-316	der	_	_
+5-4	317-324	Wohnung	_	_
+5-5	325-331	sollen	_	_
+5-6	332-335	Sie	_	_
+5-7	336-342	selbst	_	_
+5-8	343-354	entscheiden	_	_
+5-9	355-356	.	_	_
+
+#Text=Im Nothfall koennte Ihnen mein unmittelbar en das Ihrige stoßende Zimmer , zum Geschäftszimmer taugen .
+6-1	357-359	Im	_	_
+6-2	360-368	Nothfall	_	_
+6-3	369-376	koennte	_	_
+6-4	377-382	Ihnen	_	_
+6-5	383-387	mein	_	_
+6-6	388-399	unmittelbar	_	_
+6-7	400-402	en	_	_
+6-8	403-406	das	_	_
+6-9	407-413	Ihrige	_	_
+6-10	414-422	stoßende	_	_
+6-11	423-429	Zimmer	_	_
+6-12	430-431	,	_	_
+6-13	432-435	zum	_	_
+6-14	436-451	Geschäftszimmer	_	_
+6-15	452-458	taugen	_	_
+6-16	459-460	.	_	_
+
+#Text=Das Vorzimmer eignet sich nur zur Schlafstelle , wozu es auch der dadurch nöthige Durchgang zur Wohnung des Baron von Guthschmidt nicht untauglich machen wird .
+7-1	461-464	Das	_	_
+7-2	465-474	Vorzimmer	_	_
+7-3	475-481	eignet	_	_
+7-4	482-486	sich	_	_
+7-5	487-490	nur	_	_
+7-6	491-494	zur	_	_
+7-7	495-507	Schlafstelle	_	_
+7-8	508-509	,	_	_
+7-9	510-514	wozu	_	_
+7-10	515-517	es	_	_
+7-11	518-522	auch	_	_
+7-12	523-526	der	_	_
+7-13	527-534	dadurch	_	_
+7-14	535-542	nöthige	_	_
+7-15	543-552	Durchgang	_	_
+7-16	553-556	zur	_	_
+7-17	557-564	Wohnung	_	_
+7-18	565-568	des	_	_
+7-19	569-574	Baron	*[5]	PERmentioned[5]
+7-20	575-578	von	*[5]	PERmentioned[5]
+7-21	579-590	Guthschmidt	*[5]	PERmentioned[5]
+7-22	591-596	nicht	_	_
+7-23	597-607	untauglich	_	_
+7-24	608-614	machen	_	_
+7-25	615-619	wird	_	_
+7-26	620-621	.	_	_
+
+#Text=Kurz Sie müssen selbst sehen .
+8-1	622-626	Kurz	_	_
+8-2	627-630	Sie	_	_
+8-3	631-637	müssen	_	_
+8-4	638-644	selbst	_	_
+8-5	645-650	sehen	_	_
+8-6	651-652	.	_	_
+
+#Text=Der Preis von 14 rT .
+9-1	653-656	Der	_	_
+9-2	657-662	Preis	_	_
+9-3	663-666	von	_	_
+9-4	667-669	14	_	_
+9-5	670-672	rT	_	_
+9-6	673-674	.	_	_
+
+#Text=dünkt mich nicht zu viel .
+10-1	675-680	dünkt	_	_
+10-2	681-685	mich	_	_
+10-3	686-691	nicht	_	_
+10-4	692-694	zu	_	_
+10-5	695-699	viel	_	_
+10-6	700-701	.	_	_
+
+#Text=Sind Ihnen drei Treppen , obwohl hell und schoen , nicht zu unbequem ?
+11-1	702-706	Sind	_	_
+11-2	707-712	Ihnen	_	_
+11-3	713-717	drei	_	_
+11-4	718-725	Treppen	_	_
+11-5	726-727	,	_	_
+11-6	728-734	obwohl	_	_
+11-7	735-739	hell	_	_
+11-8	740-743	und	_	_
+11-9	744-750	schoen	_	_
+11-10	751-752	,	_	_
+11-11	753-758	nicht	_	_
+11-12	759-761	zu	_	_
+11-13	762-770	unbequem	_	_
+11-14	771-772	?	_	_
+
+#Text=Gerstäcker grüsst herzlich und lässt Ihnen melden , als theilnehmendem Freunde und zur etwanigen Beachtung , dass ein seiner Kinder die Masern bekommen .
+12-1	773-783	Gerstäcker	*	PERmentioned
+12-2	784-790	grüsst	_	_
+12-3	791-799	herzlich	_	_
+12-4	800-803	und	_	_
+12-5	804-809	lässt	_	_
+12-6	810-815	Ihnen	_	_
+12-7	816-822	melden	_	_
+12-8	823-824	,	_	_
+12-9	825-828	als	_	_
+12-10	829-843	theilnehmendem	_	_
+12-11	844-851	Freunde	_	_
+12-12	852-855	und	_	_
+12-13	856-859	zur	_	_
+12-14	860-869	etwanigen	_	_
+12-15	870-879	Beachtung	_	_
+12-16	880-881	,	_	_
+12-17	882-886	dass	_	_
+12-18	887-890	ein	_	_
+12-19	891-897	seiner	_	_
+12-20	898-904	Kinder	_	_
+12-21	905-908	die	_	_
+12-22	909-915	Masern	_	_
+12-23	916-924	bekommen	_	_
+12-24	925-926	.	_	_
+
+#Text=Das Tiecksfest war sehr zahlreich und durch die langweiligen Vorträge recht unterhaltend .
+13-1	927-930	Das	_	_
+13-2	931-941	Tiecksfest	*[6]|*[7]	MISC[6]|PERmentioned[7]
+13-3	942-945	war	_	_
+13-4	946-950	sehr	_	_
+13-5	951-960	zahlreich	_	_
+13-6	961-964	und	_	_
+13-7	965-970	durch	_	_
+13-8	971-974	die	_	_
+13-9	975-987	langweiligen	_	_
+13-10	988-996	Vorträge	_	_
+13-11	997-1002	recht	_	_
+13-12	1003-1015	unterhaltend	_	_
+13-13	1016-1017	.	_	_
+
+#Text=Die Deutschen und insbesondere die Berliner Thuen für die Geschmacklosigkeit was sich thuen lässt : Häring in wiederholten Vorträgen , Steffens in einer Rede , bei der er immer den Faden zum Ende verlor und Raumer in einer universalhistorischen Vorlesung über den Fürsten Hardenberg .
+14-1	1018-1021	Die	_	_
+14-2	1022-1031	Deutschen	_	_
+14-3	1032-1035	und	_	_
+14-4	1036-1048	insbesondere	_	_
+14-5	1049-1052	die	_	_
+14-6	1053-1061	Berliner	_	_
+14-7	1062-1067	Thuen	_	_
+14-8	1068-1071	für	_	_
+14-9	1072-1075	die	_	_
+14-10	1076-1094	Geschmacklosigkeit	_	_
+14-11	1095-1098	was	_	_
+14-12	1099-1103	sich	_	_
+14-13	1104-1109	thuen	_	_
+14-14	1110-1115	lässt	_	_
+14-15	1116-1117	:	_	_
+14-16	1118-1124	Häring	*	PERmentioned
+14-17	1125-1127	in	_	_
+14-18	1128-1140	wiederholten	_	_
+14-19	1141-1150	Vorträgen	_	_
+14-20	1151-1152	,	_	_
+14-21	1153-1161	Steffens	*	PERmentioned
+14-22	1162-1164	in	_	_
+14-23	1165-1170	einer	_	_
+14-24	1171-1175	Rede	_	_
+14-25	1176-1177	,	_	_
+14-26	1178-1181	bei	_	_
+14-27	1182-1185	der	_	_
+14-28	1186-1188	er	_	_
+14-29	1189-1194	immer	_	_
+14-30	1195-1198	den	_	_
+14-31	1199-1204	Faden	_	_
+14-32	1205-1208	zum	_	_
+14-33	1209-1213	Ende	_	_
+14-34	1214-1220	verlor	_	_
+14-35	1221-1224	und	_	_
+14-36	1225-1231	Raumer	*	PERmentioned
+14-37	1232-1234	in	_	_
+14-38	1235-1240	einer	_	_
+14-39	1241-1262	universalhistorischen	_	_
+14-40	1263-1272	Vorlesung	_	_
+14-41	1273-1277	über	_	_
+14-42	1278-1281	den	_	_
+14-43	1282-1289	Fürsten	*[8]	PERmentioned[8]
+14-44	1290-1300	Hardenberg	*[8]	PERmentioned[8]
+14-45	1301-1302	.	_	_

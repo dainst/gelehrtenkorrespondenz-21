@@ -1,0 +1,111 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=130 Braun an Gerhard Rom , 14. April 1840 nen zur Berücksichtigung empfehlen : Marchese Gargallo - Grimaldi in Neapel : hat die Zeichnung der Torrse geliefert , nebst dem in den Annalen abgedruckten Aufsatz .
+1-1	0-3	130	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	14.	*[4]	DATEletter[4]
+1-8	31-36	April	*[4]	DATEletter[4]
+1-9	37-41	1840	*[4]	DATEletter[4]
+1-10	42-45	nen	_	_
+1-11	46-49	zur	_	_
+1-12	50-66	Berücksichtigung	_	_
+1-13	67-76	empfehlen	_	_
+1-14	77-78	:	_	_
+1-15	79-87	Marchese	*[5]	PERmentioned[5]
+1-16	88-96	Gargallo	*[5]	PERmentioned[5]
+1-17	97-98	-	*[5]	PERmentioned[5]
+1-18	99-107	Grimaldi	*[5]	PERmentioned[5]
+1-19	108-110	in	_	_
+1-20	111-117	Neapel	*	PLACEmentioned
+1-21	118-119	:	_	_
+1-22	120-123	hat	_	_
+1-23	124-127	die	_	_
+1-24	128-137	Zeichnung	_	_
+1-25	138-141	der	_	_
+1-26	142-148	Torrse	*	OBJ
+1-27	149-158	geliefert	_	_
+1-28	159-160	,	_	_
+1-29	161-166	nebst	_	_
+1-30	167-170	dem	_	_
+1-31	171-173	in	_	_
+1-32	174-177	den	_	_
+1-33	178-185	Annalen	_	_
+1-34	186-198	abgedruckten	_	_
+1-35	199-206	Aufsatz	_	_
+1-36	207-208	.	_	_
+
+#Text=Stefano Garriri , Avvocato da Piemonte , in Smirne : hat eine Reihe von Münzpasten eingesandt , welche Raoul Rochette verweigert wurden und die er uns zur Publication überläßt .
+2-1	209-216	Stefano	*[8]	PERmentioned[8]
+2-2	217-224	Garriri	*[8]	PERmentioned[8]
+2-3	225-226	,	_	_
+2-4	227-235	Avvocato	_	_
+2-5	236-238	da	_	_
+2-6	239-247	Piemonte	*	PERmentioned
+2-7	248-249	,	_	_
+2-8	250-252	in	_	_
+2-9	253-259	Smirne	*	PERmentioned
+2-10	260-261	:	_	_
+2-11	262-265	hat	_	_
+2-12	266-270	eine	_	_
+2-13	271-276	Reihe	_	_
+2-14	277-280	von	_	_
+2-15	281-291	Münzpasten	*	MISC
+2-16	292-302	eingesandt	_	_
+2-17	303-304	,	_	_
+2-18	305-311	welche	_	_
+2-19	312-317	Raoul	*[12]	PERmentioned[12]
+2-20	318-326	Rochette	*[12]	PERmentioned[12]
+2-21	327-337	verweigert	_	_
+2-22	338-344	wurden	_	_
+2-23	345-348	und	_	_
+2-24	349-352	die	_	_
+2-25	353-355	er	_	_
+2-26	356-359	uns	_	_
+2-27	360-363	zur	_	_
+2-28	364-375	Publication	_	_
+2-29	376-384	überläßt	_	_
+2-30	385-386	.	_	_
+
+#Text=Ich überlasse es Ihnen zu bedenken , wie wohl es dem Institut ansteht mit einem Mann wie Feuerbach außer aller Verbindung zu sein .
+3-1	387-390	Ich	_	_
+3-2	391-400	überlasse	_	_
+3-3	401-403	es	_	_
+3-4	404-409	Ihnen	_	_
+3-5	410-412	zu	_	_
+3-6	413-421	bedenken	_	_
+3-7	422-423	,	_	_
+3-8	424-427	wie	_	_
+3-9	428-432	wohl	_	_
+3-10	433-435	es	_	_
+3-11	436-439	dem	_	_
+3-12	440-448	Institut	*	ORGmentioned
+3-13	449-456	ansteht	_	_
+3-14	457-460	mit	_	_
+3-15	461-466	einem	_	_
+3-16	467-471	Mann	_	_
+3-17	472-475	wie	_	_
+3-18	476-485	Feuerbach	*	PERmentioned
+3-19	486-491	außer	_	_
+3-20	492-497	aller	_	_
+3-21	498-508	Verbindung	_	_
+3-22	509-511	zu	_	_
+3-23	512-516	sein	_	_
+3-24	517-518	.	_	_
+
+#Text=Ihr EBraun .
+4-1	519-522	Ihr	_	_
+4-2	523-529	EBraun	*	PERauthor
+4-3	530-531	.	_	_
+
+#Text=Rom 714 April 1840 .
+5-1	532-535	Rom	*	PLACEfrom
+5-2	536-539	714	*[17]	DATEletter[17]
+5-3	540-545	April	*[17]	DATEletter[17]
+5-4	546-550	1840	*[17]	DATEletter[17]
+5-5	551-552	.	_	_

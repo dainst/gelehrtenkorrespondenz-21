@@ -1,0 +1,70 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=207 Gerhard an Braun Berlin , 7. Mai 1844 schen # # .
+1-1	0-3	207	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	7.	*[1]	DATEletter[1]
+1-8	33-36	Mai	*[1]	DATEletter[1]
+1-9	37-41	1844	*[1]	DATEletter[1]
+1-10	42-47	schen	_	_
+1-11	48-49	#	_	_
+1-12	50-51	#	_	_
+1-13	52-53	.	_	_
+
+#Text=li .
+2-1	54-56	li	_	_
+2-2	57-58	.	_	_
+
+#Text=‚ ich glaube für 20 Scudi , verschafft \; können Sie eines für Rom gebrauchen , so 8 .. ...... 2.tes schaffen zu können .
+3-1	59-60	‚	_	_
+3-2	61-64	ich	_	_
+3-3	65-71	glaube	_	_
+3-4	72-75	für	_	_
+3-5	76-78	20	_	_
+3-6	79-84	Scudi	_	_
+3-7	85-86	,	_	_
+3-8	87-97	verschafft	_	_
+3-9	98-99	\;	_	_
+3-10	100-106	können	_	_
+3-11	107-110	Sie	_	_
+3-12	111-116	eines	_	_
+3-13	117-120	für	_	_
+3-14	121-124	Rom	*	PLACEmentioned
+3-15	125-135	gebrauchen	_	_
+3-16	136-137	,	_	_
+3-17	138-140	so	_	_
+3-18	141-142	8	_	_
+3-19	143-145	..	_	_
+3-20	146-152	......	_	_
+3-21	153-158	2.tes	_	_
+3-22	159-167	schaffen	_	_
+3-23	168-170	zu	_	_
+3-24	171-177	können	_	_
+3-25	178-179	.	_	_
+
+#Text=Ein drittes Reisejahr für Lepsius bewilligt .
+4-1	180-183	Ein	_	_
+4-2	184-191	drittes	_	_
+4-3	192-201	Reisejahr	_	_
+4-4	202-205	für	_	_
+4-5	206-213	Lepsius	*	PERmentioned
+4-6	214-223	bewilligt	_	_
+4-7	224-225	.	_	_
+
+#Text=In Athen fürchtete man , Lebas sei verloren gegangen .
+5-1	226-228	In	_	_
+5-2	229-234	Athen	*	PLACEmentioned
+5-3	235-244	fürchtete	_	_
+5-4	245-248	man	_	_
+5-5	249-250	,	_	_
+5-6	251-256	Lebas	*	PERmentioned
+5-7	257-260	sei	_	_
+5-8	261-269	verloren	_	_
+5-9	270-278	gegangen	_	_
+5-10	279-280	.	_	_

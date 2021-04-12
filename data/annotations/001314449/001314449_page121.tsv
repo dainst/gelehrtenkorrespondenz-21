@@ -1,0 +1,74 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=172 Henzen an Gerhard 13/V/53 Viele Grüße meiner Frau an » ie u. die Ihrige .
+1-1	0-3	172	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-29	13/V/53	*	DATEletter
+1-6	30-35	Viele	_	_
+1-7	36-41	Grüße	_	_
+1-8	42-48	meiner	_	_
+1-9	49-53	Frau	_	_
+1-10	54-56	an	_	_
+1-11	57-58	»	_	_
+1-12	59-61	ie	_	_
+1-13	62-64	u.	_	_
+1-14	65-68	die	_	_
+1-15	69-75	Ihrige	_	_
+1-16	76-77	.	_	_
+
+#Text=Ihr ergebener WH Rom 13/V 53 .
+2-1	78-81	Ihr	_	_
+2-2	82-91	ergebener	_	_
+2-3	92-94	WH	_	_
+2-4	95-98	Rom	*	PLACEfrom
+2-5	99-103	13/V	*[1]	DATEletter[1]
+2-6	104-106	53	*[1]	DATEletter[1]
+2-7	107-108	.	_	_
+
+#Text=PS .
+3-1	109-111	PS	_	_
+3-2	112-113	.	_	_
+
+#Text=Der Micali ist unterwegs nch .
+4-1	114-117	Der	_	_
+4-2	118-124	Micali	*	PERmentioned
+4-3	125-128	ist	_	_
+4-4	129-138	unterwegs	_	_
+4-5	139-142	nch	_	_
+4-6	143-144	.	_	_
+
+#Text=Berlin \; Visconti auch unverkauft , .
+5-1	145-151	Berlin	*	PLACEmentioned
+5-2	152-153	\;	_	_
+5-3	154-162	Visconti	*	PERmentioned
+5-4	163-167	auch	_	_
+5-5	168-178	unverkauft	_	_
+5-6	179-180	,	_	_
+5-7	181-182	.	_	_
+
+#Text=Viseler hatte einmal Lust , biß aber zuletzt doch nicht an .
+6-1	183-190	Viseler	*	PERmentioned
+6-2	191-196	hatte	_	_
+6-3	197-203	einmal	_	_
+6-4	204-208	Lust	_	_
+6-5	209-210	,	_	_
+6-6	211-214	biß	_	_
+6-7	215-219	aber	_	_
+6-8	220-227	zuletzt	_	_
+6-9	228-232	doch	_	_
+6-10	233-238	nicht	_	_
+6-11	239-241	an	_	_
+6-12	242-243	.	_	_
+
+#Text=Burhian muß doch wohl Correspondent werden ,
+7-1	244-251	Burhian	*	PERmentioned
+7-2	252-255	muß	_	_
+7-3	256-260	doch	_	_
+7-4	261-265	wohl	_	_
+7-5	266-279	Correspondent	_	_
+7-6	280-286	werden	_	_
+7-7	287-288	,	_	_

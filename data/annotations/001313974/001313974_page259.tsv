@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> 427 Helbig an Henzen Siena , 10 .
+1-1	0-1	>	_	_
+1-2	2-5	427	_	_
+1-3	6-12	Helbig	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-22	Henzen	*	PERaddressee
+1-6	23-28	Siena	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-33	10	*[1]	DATEletter[1]
+1-9	34-35	.	*[1]	DATEletter[1]
+
+#Text=August 1875 8 .
+2-1	36-42	August	*[1]	DATEletter[1]
+2-2	43-47	1875	*[1]	DATEletter[1]
+2-3	48-49	8	_	_
+2-4	50-51	.	_	_
+
+#Text=11/8 75 Siena , li 210 .
+3-1	52-56	11/8	*[2]	DATErecieved[2]
+3-2	57-59	75	*[2]	DATErecieved[2]
+3-3	60-65	Siena	*	PLACEfrom
+3-4	66-67	,	_	_
+3-5	68-70	li	_	_
+3-6	71-74	210	*[3]	DATEletter[3]
+3-7	75-76	.	*[3]	DATEletter[3]
+
+#Text=Aug . 1875 Lieber Herr Professor wir bitten Sie , doch ja auf der Herreise zu uns zu kommen .
+4-1	77-80	Aug	*[3]	DATEletter[3]
+4-2	81-82	.	*[3]	DATEletter[3]
+4-3	83-87	1875	*[3]	DATEletter[3]
+4-4	88-94	Lieber	_	_
+4-5	95-99	Herr	_	_
+4-6	100-109	Professor	_	_
+4-7	110-113	wir	_	_
+4-8	114-120	bitten	_	_
+4-9	121-124	Sie	_	_
+4-10	125-126	,	_	_
+4-11	127-131	doch	_	_
+4-12	132-134	ja	_	_
+4-13	135-138	auf	_	_
+4-14	139-142	der	_	_
+4-15	143-151	Herreise	_	_
+4-16	152-154	zu	_	_
+4-17	155-158	uns	_	_
+4-18	159-161	zu	_	_
+4-19	162-168	kommen	_	_
+4-20	169-170	.	_	_
+
+#Text=Meine Frau nämlich muß den 10. September in Familienangelegenheiten nach Rußland reisen und wird erst im October zurückkehren , nachdem ich und die Kinder Siena bereits verlassen .
+5-1	171-176	Meine	*[4]	PERmentioned[4]
+5-2	177-181	Frau	*[4]	PERmentioned[4]
+5-3	182-189	nämlich	_	_
+5-4	190-193	muß	_	_
+5-5	194-197	den	_	_
+5-6	198-201	10.	*[5]	DATEmentioned[5]
+5-7	202-211	September	*[5]	DATEmentioned[5]
+5-8	212-214	in	_	_
+5-9	215-238	Familienangelegenheiten	_	_
+5-10	239-243	nach	_	_
+5-11	244-251	Rußland	*	PLACEmentioned
+5-12	252-258	reisen	_	_
+5-13	259-262	und	_	_
+5-14	263-267	wird	_	_
+5-15	268-272	erst	_	_
+5-16	273-275	im	_	_
+5-17	276-283	October	*	DATEmentioned
+5-18	284-296	zurückkehren	_	_
+5-19	297-298	,	_	_
+5-20	299-306	nachdem	_	_
+5-21	307-310	ich	_	_
+5-22	311-314	und	_	_
+5-23	315-318	die	_	_
+5-24	319-325	Kinder	_	_
+5-25	326-331	Siena	*	PLACEmentioned
+5-26	332-339	bereits	_	_
+5-27	340-349	verlassen	_	_
+5-28	350-351	.	_	_
+
+#Text=Wie Sie sich denken können , ist sie nicht sehr erbaut von dieser Aussicht .
+6-1	352-355	Wie	_	_
+6-2	356-359	Sie	_	_
+6-3	360-364	sich	_	_
+6-4	365-371	denken	_	_
+6-5	372-378	können	_	_
+6-6	379-380	,	_	_
+6-7	381-384	ist	_	_
+6-8	385-388	sie	_	_
+6-9	389-394	nicht	_	_
+6-10	395-399	sehr	_	_
+6-11	400-406	erbaut	_	_
+6-12	407-410	von	_	_
+6-13	411-417	dieser	_	_
+6-14	418-426	Aussicht	_	_
+6-15	427-428	.	_	_
+
+#Text=Aber es läßt sich nun einmal nicht ändern .
+7-1	429-433	Aber	_	_
+7-2	434-436	es	_	_
+7-3	437-441	läßt	_	_
+7-4	442-446	sich	_	_
+7-5	447-450	nun	_	_
+7-6	451-457	einmal	_	_
+7-7	458-463	nicht	_	_
+7-8	464-470	ändern	_	_
+7-9	471-472	.	_	_
+
+#Text=Beiliegende Zeilen bitte ich Sie an Brandis - Heckert ist noch abwesend - zu Schicken , den Paß durch Nino auf der russischen Gesandtschaft visiren zu lassen und ihn dann entweder selbst mitzubringen oder per Post an uns zu schicken .
+8-1	473-484	Beiliegende	_	_
+8-2	485-491	Zeilen	_	_
+8-3	492-497	bitte	_	_
+8-4	498-501	ich	_	_
+8-5	502-505	Sie	_	_
+8-6	506-508	an	_	_
+8-7	509-516	Brandis	*	PERmentioned
+8-8	517-518	-	_	_
+8-9	519-526	Heckert	*	PERmentioned
+8-10	527-530	ist	_	_
+8-11	531-535	noch	_	_
+8-12	536-544	abwesend	_	_
+8-13	545-546	-	_	_
+8-14	547-549	zu	_	_
+8-15	550-558	Schicken	_	_
+8-16	559-560	,	_	_
+8-17	561-564	den	_	_
+8-18	565-568	Paß	_	_
+8-19	569-574	durch	_	_
+8-20	575-579	Nino	*	PERmentioned
+8-21	580-583	auf	_	_
+8-22	584-587	der	_	_
+8-23	588-598	russischen	*[6]	ORGmentioned[6]
+8-24	599-612	Gesandtschaft	*[6]	ORGmentioned[6]
+8-25	613-620	visiren	_	_
+8-26	621-623	zu	_	_
+8-27	624-630	lassen	_	_
+8-28	631-634	und	_	_
+8-29	635-638	ihn	_	_
+8-30	639-643	dann	_	_
+8-31	644-652	entweder	_	_
+8-32	653-659	selbst	_	_
+8-33	660-672	mitzubringen	_	_
+8-34	673-677	oder	_	_
+8-35	678-681	per	_	_
+8-36	682-686	Post	_	_
+8-37	687-689	an	_	_
+8-38	690-693	uns	_	_
+8-39	694-696	zu	_	_
+8-40	697-705	schicken	_	_
+8-41	706-707	.	_	_
+
+#Text=Von Curtius erhielt ich einen im Ganzen liebenswürdigen Brief , in dem er mir mittheilte , die CD habe für mich bei dem Reichskanzleramte Gehaltserhöhung beantragt , dabei aber sub rosa zu verstehen gab , ich sei doch eigentlich durch mein passives Verhalten daran schuld , daß aus dem Ankaufe bei Castellani nichts geworden .
+9-1	708-711	Von	_	_
+9-2	712-719	Curtius	*	PERmentioned
+9-3	720-727	erhielt	_	_
+9-4	728-731	ich	_	_
+9-5	732-737	einen	_	_
+9-6	738-740	im	_	_
+9-7	741-747	Ganzen	_	_
+9-8	748-763	liebenswürdigen	_	_
+9-9	764-769	Brief	_	_
+9-10	770-771	,	_	_
+9-11	772-774	in	_	_
+9-12	775-778	dem	_	_
+9-13	779-781	er	_	_
+9-14	782-785	mir	_	_
+9-15	786-796	mittheilte	_	_
+9-16	797-798	,	_	_
+9-17	799-802	die	_	_
+9-18	803-805	CD	*	ORGmentioned
+9-19	806-810	habe	_	_
+9-20	811-814	für	_	_
+9-21	815-819	mich	_	_
+9-22	820-823	bei	_	_
+9-23	824-827	dem	_	_
+9-24	828-845	Reichskanzleramte	*	ORGmentioned
+9-25	846-861	Gehaltserhöhung	_	_
+9-26	862-871	beantragt	_	_
+9-27	872-873	,	_	_
+9-28	874-879	dabei	_	_
+9-29	880-884	aber	_	_
+9-30	885-888	sub	_	_
+9-31	889-893	rosa	_	_
+9-32	894-896	zu	_	_
+9-33	897-906	verstehen	_	_
+9-34	907-910	gab	_	_
+9-35	911-912	,	_	_
+9-36	913-916	ich	_	_
+9-37	917-920	sei	_	_
+9-38	921-925	doch	_	_
+9-39	926-936	eigentlich	_	_
+9-40	937-942	durch	_	_
+9-41	943-947	mein	_	_
+9-42	948-956	passives	_	_
+9-43	957-966	Verhalten	_	_
+9-44	967-972	daran	_	_
+9-45	973-979	schuld	_	_
+9-46	980-981	,	_	_
+9-47	982-985	daß	_	_
+9-48	986-989	aus	_	_
+9-49	990-993	dem	_	_
+9-50	994-1001	Ankaufe	_	_
+9-51	1002-1005	bei	_	_
+9-52	1006-1016	Castellani	*	PERmentioned
+9-53	1017-1023	nichts	_	_
+9-54	1024-1032	geworden	_	_
+9-55	1033-1034	.	_	_
+
+#Text=H. Castellani war nämlich in Berlin und hat die Marmorwerke von dort nach London transportiren lassen .
+10-1	1035-1037	H.	*[7]	PERmentioned[7]
+10-2	1038-1048	Castellani	*[7]	PERmentioned[7]
+10-3	1049-1052	war	_	_
+10-4	1053-1060	nämlich	_	_
+10-5	1061-1063	in	_	_
+10-6	1064-1070	Berlin	*	PLACEmentioned
+10-7	1071-1074	und	_	_
+10-8	1075-1078	hat	_	_
+10-9	1079-1082	die	_	_
+10-10	1083-1094	Marmorwerke	*	OBJ
+10-11	1095-1098	von	_	_
+10-12	1099-1103	dort	_	_
+10-13	1104-1108	nach	_	_
+10-14	1109-1115	London	*	PLACEmentioned
+10-15	1116-1129	transportiren	_	_
+10-16	1130-1136	lassen	_	_
+10-17	1137-1138	.	_	_
+
+#Text=Es ist wirklich nicht zum Aushalten mit dem Berliner Museum !
+11-1	1139-1141	Es	_	_
+11-2	1142-1145	ist	_	_
+11-3	1146-1154	wirklich	_	_
+11-4	1155-1160	nicht	_	_
+11-5	1161-1164	zum	_	_
+11-6	1165-1174	Aushalten	_	_
+11-7	1175-1178	mit	_	_
+11-8	1179-1182	dem	_	_
+11-9	1183-1191	Berliner	*[8]	ORGmentioned[8]
+11-10	1192-1198	Museum	*[8]	ORGmentioned[8]
+11-11	1199-1200	!	_	_

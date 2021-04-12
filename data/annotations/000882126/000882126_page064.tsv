@@ -1,0 +1,294 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=6 Braun an Gerhard Rom , 5 .
+1-1	0-1	6	_	_
+1-2	2-7	Braun	*	PERauthor
+1-3	8-10	an	_	_
+1-4	11-18	Gerhard	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-26	5	*[19]	DATEletter[19]
+1-8	27-28	.	*[19]	DATEletter[19]
+
+#Text=Januar 1836 Prof. Gerhard Roma li 5 Gennaro 1826 .
+2-1	29-35	Januar	*[19]	DATEletter[19]
+2-2	36-40	1836	*[19]	DATEletter[19]
+2-3	41-46	Prof.	_	_
+2-4	47-54	Gerhard	*	PERaddressee
+2-5	55-59	Roma	*	PLACEfrom
+2-6	60-62	li	_	_
+2-7	63-64	5	*[20]	DATEletter[20]
+2-8	65-72	Gennaro	*[20]	DATEletter[20]
+2-9	73-77	1826	*[20]	DATEletter[20]
+2-10	78-79	.	_	_
+
+#Text=Hochzuverehrender Freund !
+3-1	80-97	Hochzuverehrender	_	_
+3-2	98-104	Freund	_	_
+3-3	105-106	!	_	_
+
+#Text=Vor allem meinen herzlichsten , wärnmsten und aufrichtigsten Glückwunsch zum neuen Jahr !
+4-1	107-110	Vor	_	_
+4-2	111-116	allem	_	_
+4-3	117-123	meinen	_	_
+4-4	124-136	herzlichsten	_	_
+4-5	137-138	,	_	_
+4-6	139-148	wärnmsten	_	_
+4-7	149-152	und	_	_
+4-8	153-167	aufrichtigsten	_	_
+4-9	168-179	Glückwunsch	_	_
+4-10	180-183	zum	_	_
+4-11	184-189	neuen	_	_
+4-12	190-194	Jahr	_	_
+4-13	195-196	!	_	_
+
+#Text=Das alte hat des Erfreulichen nicht gar viel gebracht , aber viel Verdruß .
+5-1	197-200	Das	_	_
+5-2	201-205	alte	_	_
+5-3	206-209	hat	_	_
+5-4	210-213	des	_	_
+5-5	214-226	Erfreulichen	_	_
+5-6	227-232	nicht	_	_
+5-7	233-236	gar	_	_
+5-8	237-241	viel	_	_
+5-9	242-250	gebracht	_	_
+5-10	251-252	,	_	_
+5-11	253-257	aber	_	_
+5-12	258-262	viel	_	_
+5-13	263-270	Verdruß	_	_
+5-14	271-272	.	_	_
+
+#Text=Das neue mög all solches Ungemach ausgleichen !
+6-1	273-276	Das	_	_
+6-2	277-281	neue	_	_
+6-3	282-285	mög	_	_
+6-4	286-289	all	_	_
+6-5	290-297	solches	_	_
+6-6	298-306	Ungemach	_	_
+6-7	307-318	ausgleichen	_	_
+6-8	319-320	!	_	_
+
+#Text=Des Besten werde Ihnen im selbigen recht viel !
+7-1	321-324	Des	_	_
+7-2	325-331	Besten	_	_
+7-3	332-337	werde	_	_
+7-4	338-343	Ihnen	_	_
+7-5	344-346	im	_	_
+7-6	347-355	selbigen	_	_
+7-7	356-361	recht	_	_
+7-8	362-366	viel	_	_
+7-9	367-368	!	_	_
+
+#Text=Ich wundre mich so ganz ohne Nachrichten von Ihnen zu bleiben .
+8-1	369-372	Ich	_	_
+8-2	373-379	wundre	_	_
+8-3	380-384	mich	_	_
+8-4	385-387	so	_	_
+8-5	388-392	ganz	_	_
+8-6	393-397	ohne	_	_
+8-7	398-409	Nachrichten	_	_
+8-8	410-413	von	_	_
+8-9	414-419	Ihnen	_	_
+8-10	420-422	zu	_	_
+8-11	423-430	bleiben	_	_
+8-12	431-432	.	_	_
+
+#Text=Ich wünschte Sie wollten mich etwas genauer von Ihren Plänen unterrichten , insofern Sie auf meine Stellung Einfluß haben .
+9-1	433-436	Ich	_	_
+9-2	437-445	wünschte	_	_
+9-3	446-449	Sie	_	_
+9-4	450-457	wollten	_	_
+9-5	458-462	mich	_	_
+9-6	463-468	etwas	_	_
+9-7	469-476	genauer	_	_
+9-8	477-480	von	_	_
+9-9	481-486	Ihren	_	_
+9-10	487-493	Plänen	_	_
+9-11	494-506	unterrichten	_	_
+9-12	507-508	,	_	_
+9-13	509-517	insofern	_	_
+9-14	518-521	Sie	_	_
+9-15	522-525	auf	_	_
+9-16	526-531	meine	_	_
+9-17	532-540	Stellung	_	_
+9-18	541-548	Einfluß	_	_
+9-19	549-554	haben	_	_
+9-20	555-556	.	_	_
+
+#Text=Sie machen Panofkas Kommen durchaus unwahrscheinlich , aber versprechen das Ihrige so Erfreuliche als Wichtige als ganz gewiß und nah .
+10-1	557-560	Sie	_	_
+10-2	561-567	machen	_	_
+10-3	568-576	Panofkas	*	PERmentioned
+10-4	577-583	Kommen	_	_
+10-5	584-592	durchaus	_	_
+10-6	593-609	unwahrscheinlich	_	_
+10-7	610-611	,	_	_
+10-8	612-616	aber	_	_
+10-9	617-628	versprechen	_	_
+10-10	629-632	das	_	_
+10-11	633-639	Ihrige	_	_
+10-12	640-642	so	_	_
+10-13	643-654	Erfreuliche	_	_
+10-14	655-658	als	_	_
+10-15	659-667	Wichtige	_	_
+10-16	668-671	als	_	_
+10-17	672-676	ganz	_	_
+10-18	677-682	gewiß	_	_
+10-19	683-686	und	_	_
+10-20	687-690	nah	_	_
+10-21	691-692	.	_	_
+
+#Text=Bunsen dagegen will nur von Panofkas Kommen hören und verspricht dies ebenso sicher als Sie es unsicher stellen .
+11-1	693-699	Bunsen	*	PERmentioned
+11-2	700-707	dagegen	_	_
+11-3	708-712	will	_	_
+11-4	713-716	nur	_	_
+11-5	717-720	von	_	_
+11-6	721-729	Panofkas	*	PERmentioned
+11-7	730-736	Kommen	_	_
+11-8	737-742	hören	_	_
+11-9	743-746	und	_	_
+11-10	747-757	verspricht	_	_
+11-11	758-762	dies	_	_
+11-12	763-769	ebenso	_	_
+11-13	770-776	sicher	_	_
+11-14	777-780	als	_	_
+11-15	781-784	Sie	_	_
+11-16	785-787	es	_	_
+11-17	788-796	unsicher	_	_
+11-18	797-804	stellen	_	_
+11-19	805-806	.	_	_
+
+#Text=Ihr Brief an ihn hat zudem die Folge gehabt , daß er sich jetzt als dem Institut direct vorstehend betrachtet \; von einer Einwendung in Ihrem Namen soll nicht mehr die Rede sein .
+12-1	807-810	Ihr	_	_
+12-2	811-816	Brief	_	_
+12-3	817-819	an	_	_
+12-4	820-823	ihn	_	_
+12-5	824-827	hat	_	_
+12-6	828-833	zudem	_	_
+12-7	834-837	die	_	_
+12-8	838-843	Folge	_	_
+12-9	844-850	gehabt	_	_
+12-10	851-852	,	_	_
+12-11	853-856	daß	_	_
+12-12	857-859	er	_	_
+12-13	860-864	sich	_	_
+12-14	865-870	jetzt	_	_
+12-15	871-874	als	_	_
+12-16	875-878	dem	_	_
+12-17	879-887	Institut	*	ORGmentioned
+12-18	888-894	direct	_	_
+12-19	895-905	vorstehend	_	_
+12-20	906-916	betrachtet	_	_
+12-21	917-918	\;	_	_
+12-22	919-922	von	_	_
+12-23	923-928	einer	_	_
+12-24	929-939	Einwendung	_	_
+12-25	940-942	in	_	_
+12-26	943-948	Ihrem	_	_
+12-27	949-954	Namen	_	_
+12-28	955-959	soll	_	_
+12-29	960-965	nicht	_	_
+12-30	966-970	mehr	_	_
+12-31	971-974	die	_	_
+12-32	975-979	Rede	_	_
+12-33	980-984	sein	_	_
+12-34	985-986	.	_	_
+
+#Text=Sie hingegen wünschen , daß alles beim Alten bleibe , wenigstens bis zu Ihrer Zurückkunft .
+13-1	987-990	Sie	_	_
+13-2	991-999	hingegen	_	_
+13-3	1000-1008	wünschen	_	_
+13-4	1009-1010	,	_	_
+13-5	1011-1014	daß	_	_
+13-6	1015-1020	alles	_	_
+13-7	1021-1025	beim	_	_
+13-8	1026-1031	Alten	_	_
+13-9	1032-1038	bleibe	_	_
+13-10	1039-1040	,	_	_
+13-11	1041-1051	wenigstens	_	_
+13-12	1052-1055	bis	_	_
+13-13	1056-1058	zu	_	_
+13-14	1059-1064	Ihrer	_	_
+13-15	1065-1076	Zurückkunft	_	_
+13-16	1077-1078	.	_	_
+
+#Text=Was von dem Allen soll ich nun als fest nehmen ?
+14-1	1079-1082	Was	_	_
+14-2	1083-1086	von	_	_
+14-3	1087-1090	dem	_	_
+14-4	1091-1096	Allen	_	_
+14-5	1097-1101	soll	_	_
+14-6	1102-1105	ich	_	_
+14-7	1106-1109	nun	_	_
+14-8	1110-1113	als	_	_
+14-9	1114-1118	fest	_	_
+14-10	1119-1125	nehmen	_	_
+14-11	1126-1127	?	_	_
+
+#Text=Sie begreifen wie peinlich mir solche Ungewißheit ist .
+15-1	1128-1131	Sie	_	_
+15-2	1132-1141	begreifen	_	_
+15-3	1142-1145	wie	_	_
+15-4	1146-1154	peinlich	_	_
+15-5	1155-1158	mir	_	_
+15-6	1159-1165	solche	_	_
+15-7	1166-1177	Ungewißheit	_	_
+15-8	1178-1181	ist	_	_
+15-9	1182-1183	.	_	_
+
+#Text=- Alles was ich habe thun können , ist daß Franz , wie Sie wünschten , als Assistent eingetreten ist .
+16-1	1184-1185	-	_	_
+16-2	1186-1191	Alles	_	_
+16-3	1192-1195	was	_	_
+16-4	1196-1199	ich	_	_
+16-5	1200-1204	habe	_	_
+16-6	1205-1209	thun	_	_
+16-7	1210-1216	können	_	_
+16-8	1217-1218	,	_	_
+16-9	1219-1222	ist	_	_
+16-10	1223-1226	daß	_	_
+16-11	1227-1232	Franz	*	PERmentioned
+16-12	1233-1234	,	_	_
+16-13	1235-1238	wie	_	_
+16-14	1239-1242	Sie	_	_
+16-15	1243-1252	wünschten	_	_
+16-16	1253-1254	,	_	_
+16-17	1255-1258	als	_	_
+16-18	1259-1268	Assistent	_	_
+16-19	1269-1280	eingetreten	_	_
+16-20	1281-1284	ist	_	_
+16-21	1285-1286	.	_	_
+
+#Text=Für die ersten 3 Monate und was etwa bis zu Panofkas Eintreffen noch über diese Zeit hinaus laufen sollte , sind ihm 100 Scudi zugesagt .
+17-1	1287-1290	Für	_	_
+17-2	1291-1294	die	_	_
+17-3	1295-1301	ersten	_	_
+17-4	1302-1303	3	_	_
+17-5	1304-1310	Monate	_	_
+17-6	1311-1314	und	_	_
+17-7	1315-1318	was	_	_
+17-8	1319-1323	etwa	_	_
+17-9	1324-1327	bis	_	_
+17-10	1328-1330	zu	_	_
+17-11	1331-1339	Panofkas	*	PERmentioned
+17-12	1340-1350	Eintreffen	_	_
+17-13	1351-1355	noch	_	_
+17-14	1356-1360	über	_	_
+17-15	1361-1366	diese	_	_
+17-16	1367-1371	Zeit	_	_
+17-17	1372-1378	hinaus	_	_
+17-18	1379-1385	laufen	_	_
+17-19	1386-1392	sollte	_	_
+17-20	1393-1394	,	_	_
+17-21	1395-1399	sind	_	_
+17-22	1400-1403	ihm	_	_
+17-23	1404-1407	100	_	_
+17-24	1408-1413	Scudi	_	_
+17-25	1414-1422	zugesagt	_	_
+17-26	1423-1424	.	_	_
+
+#Text=Bis
+18-1	1425-1428	Bis	_	_

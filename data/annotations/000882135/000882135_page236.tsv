@@ -1,0 +1,149 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerahrd Rom , 23. Mai 1840 - uk —auf einer Münze deren Reverseinen Dreizack zeigt , .eoc .... den Eichenhain des Neptun .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerahrd	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	23.	*[4]	DATEletter[4]
+1-7	27-30	Mai	*[4]	DATEletter[4]
+1-8	31-35	1840	*[4]	DATEletter[4]
+1-9	36-37	-	_	_
+1-10	38-40	uk	_	_
+1-11	41-45	—auf	_	_
+1-12	46-51	einer	_	_
+1-13	52-57	Münze	_	_
+1-14	58-63	deren	_	_
+1-15	64-75	Reverseinen	_	_
+1-16	76-84	Dreizack	_	_
+1-17	85-90	zeigt	_	_
+1-18	91-92	,	_	_
+1-19	93-97	.eoc	_	_
+1-20	98-102	....	_	_
+1-21	103-106	den	_	_
+1-22	107-117	Eichenhain	_	_
+1-23	118-121	des	_	_
+1-24	122-128	Neptun	_	_
+1-25	129-130	.	_	_
+
+#Text=Che ne dice Lei ?
+2-1	131-134	Che	_	_
+2-2	135-137	ne	_	_
+2-3	138-142	dice	_	_
+2-4	143-146	Lei	_	_
+2-5	147-148	?	_	_
+
+#Text=Finck ist hier und hat große Ankäufe bei der Vaticana gemacht .
+3-1	149-154	Finck	*	PERmentioned
+3-2	155-158	ist	_	_
+3-3	159-163	hier	_	_
+3-4	164-167	und	_	_
+3-5	168-171	hat	_	_
+3-6	172-177	große	_	_
+3-7	178-185	Ankäufe	_	_
+3-8	186-189	bei	_	_
+3-9	190-193	der	_	_
+3-10	194-202	Vaticana	*	ORGmentioned
+3-11	203-210	gemacht	_	_
+3-12	211-212	.	_	_
+
+#Text=Basseggio geht nach England .
+4-1	213-222	Basseggio	*	PERmentioned
+4-2	223-227	geht	_	_
+4-3	228-232	nach	_	_
+4-4	233-240	England	*	PLACEmentioned
+4-5	241-242	.	_	_
+
+#Text=In Corneto soll eine neue gemalte Grotte entdeckt worden sein .
+5-1	243-245	In	_	_
+5-2	246-253	Corneto	*	PLACEmentioned
+5-3	254-258	soll	_	_
+5-4	259-263	eine	_	_
+5-5	264-268	neue	_	_
+5-6	269-276	gemalte	_	_
+5-7	277-283	Grotte	*	OBJ
+5-8	284-292	entdeckt	_	_
+5-9	293-299	worden	_	_
+5-10	300-304	sein	_	_
+5-11	305-306	.	_	_
+
+#Text=Avvolta hat sie in Jahresfrist noch nicht einmal gesehen .
+6-1	307-314	Avvolta	*	PERmentioned
+6-2	315-318	hat	_	_
+6-3	319-322	sie	_	_
+6-4	323-325	in	_	_
+6-5	326-337	Jahresfrist	_	_
+6-6	338-342	noch	_	_
+6-7	343-348	nicht	_	_
+6-8	349-355	einmal	_	_
+6-9	356-363	gesehen	_	_
+6-10	364-365	.	_	_
+
+#Text=Basseggio hat eine sehr erhaltene Vase mit dem Opfer der Polyxena , ein vollkommenes Gegenstück zu der bayrischen Troilosvase .
+7-1	366-375	Basseggio	*	PERmentioned
+7-2	376-379	hat	_	_
+7-3	380-384	eine	_	_
+7-4	385-389	sehr	_	_
+7-5	390-399	erhaltene	_	_
+7-6	400-404	Vase	*[13]	OBJ[13]
+7-7	405-408	mit	*[13]	OBJ[13]
+7-8	409-412	dem	*[13]	OBJ[13]
+7-9	413-418	Opfer	*[13]	OBJ[13]
+7-10	419-422	der	*[13]	OBJ[13]
+7-11	423-431	Polyxena	*[13]	OBJ[13]
+7-12	432-433	,	_	_
+7-13	434-437	ein	_	_
+7-14	438-450	vollkommenes	_	_
+7-15	451-461	Gegenstück	_	_
+7-16	462-464	zu	_	_
+7-17	465-468	der	_	_
+7-18	469-479	bayrischen	*	PLACEmentioned
+7-19	480-491	Troilosvase	*	OBJ
+7-20	492-493	.	_	_
+
+#Text=Scudi 110 .
+8-1	494-499	Scudi	_	_
+8-2	500-503	110	_	_
+8-3	504-505	.	_	_
+
+#Text=Zwei andere vollkommene Pendents bildende Vasen sind sehr erheblich .
+9-1	506-510	Zwei	_	_
+9-2	511-517	andere	_	_
+9-3	518-529	vollkommene	_	_
+9-4	530-538	Pendents	_	_
+9-5	539-547	bildende	_	_
+9-6	548-553	Vasen	*	OBJ
+9-7	554-558	sind	_	_
+9-8	559-563	sehr	_	_
+9-9	564-573	erheblich	_	_
+9-10	574-575	.	_	_
+
+#Text=Sie scheinen mir unter den Henkeln Deimos und FPhobos zu liefern bei dem löwenwürgenden Herkules .
+10-1	576-579	Sie	_	_
+10-2	580-588	scheinen	_	_
+10-3	589-592	mir	_	_
+10-4	593-598	unter	_	_
+10-5	599-602	den	_	_
+10-6	603-610	Henkeln	_	_
+10-7	611-617	Deimos	*	MISC
+10-8	618-621	und	_	_
+10-9	622-629	FPhobos	*	MISC
+10-10	630-632	zu	_	_
+10-11	633-640	liefern	_	_
+10-12	641-644	bei	_	_
+10-13	645-648	dem	_	_
+10-14	649-663	löwenwürgenden	*[19]	MISC[19]
+10-15	664-672	Herkules	*[19]	MISC[19]
+10-16	673-674	.	_	_
+
+#Text=Ihr EBraun Rom 22 Mai 1840 .
+11-1	675-678	Ihr	_	_
+11-2	679-685	EBraun	*	PERauthor
+11-3	686-689	Rom	*	PLACEfrom
+11-4	690-692	22	*[22]	DATEletter[22]
+11-5	693-696	Mai	*[22]	DATEletter[22]
+11-6	697-701	1840	*[22]	DATEletter[22]
+11-7	702-703	.	_	_

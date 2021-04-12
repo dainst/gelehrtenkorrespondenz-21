@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun München , 9 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	München	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	9	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=August 1836 tens dermalen verantwortliche Norm für Ausgaben der Monum .
+2-1	31-37	August	*[4]	DATEletter[4]
+2-2	38-42	1836	*[4]	DATEletter[4]
+2-3	43-47	tens	_	_
+2-4	48-56	dermalen	_	_
+2-5	57-72	verantwortliche	_	_
+2-6	73-77	Norm	_	_
+2-7	78-81	für	_	_
+2-8	82-90	Ausgaben	_	_
+2-9	91-94	der	_	_
+2-10	95-100	Monum	_	_
+2-11	101-102	.	_	_
+
+#Text=platten erinnert habe .
+3-1	103-110	platten	_	_
+3-2	111-119	erinnert	_	_
+3-3	120-124	habe	_	_
+3-4	125-126	.	_	_
+
+#Text=Ich müßte sehr stark darüber schreiben , wollte ich Ihre Details so annehmen als wüßte ich sie oder glaubte daran .
+4-1	127-130	Ich	_	_
+4-2	131-136	müßte	_	_
+4-3	137-141	sehr	_	_
+4-4	142-147	stark	_	_
+4-5	148-155	darüber	_	_
+4-6	156-165	schreiben	_	_
+4-7	166-167	,	_	_
+4-8	168-174	wollte	_	_
+4-9	175-178	ich	_	_
+4-10	179-183	Ihre	_	_
+4-11	184-191	Details	_	_
+4-12	192-194	so	_	_
+4-13	195-203	annehmen	_	_
+4-14	204-207	als	_	_
+4-15	208-213	wüßte	_	_
+4-16	214-217	ich	_	_
+4-17	218-221	sie	_	_
+4-18	222-226	oder	_	_
+4-19	227-234	glaubte	_	_
+4-20	235-240	daran	_	_
+4-21	241-242	.	_	_
+
+#Text=Als Panofka fast eben so wahnsinnig verschwendete um dem Institut schöne Platten zu schaffen that er es für sein eigen Geld und in der Voraussetzung er werde es in der fortgesetzten Geschäftsführung die sich ihm nicht nehmen lasse anderweitig decken können \; jetzt können ähnliche Verschwendungen nur mit Geld gedeckt werden , welches dem Institut nicht gehört und welches kein zweiter Narr ihm wird auslegen wollen .
+5-1	243-246	Als	_	_
+5-2	247-254	Panofka	*	PERmentioned
+5-3	255-259	fast	_	_
+5-4	260-264	eben	_	_
+5-5	265-267	so	_	_
+5-6	268-278	wahnsinnig	_	_
+5-7	279-292	verschwendete	_	_
+5-8	293-295	um	_	_
+5-9	296-299	dem	_	_
+5-10	300-308	Institut	*	ORGmentioned
+5-11	309-315	schöne	_	_
+5-12	316-323	Platten	_	_
+5-13	324-326	zu	_	_
+5-14	327-335	schaffen	_	_
+5-15	336-340	that	_	_
+5-16	341-343	er	_	_
+5-17	344-346	es	_	_
+5-18	347-350	für	_	_
+5-19	351-355	sein	_	_
+5-20	356-361	eigen	_	_
+5-21	362-366	Geld	_	_
+5-22	367-370	und	_	_
+5-23	371-373	in	_	_
+5-24	374-377	der	_	_
+5-25	378-391	Voraussetzung	_	_
+5-26	392-394	er	_	_
+5-27	395-400	werde	_	_
+5-28	401-403	es	_	_
+5-29	404-406	in	_	_
+5-30	407-410	der	_	_
+5-31	411-424	fortgesetzten	_	_
+5-32	425-441	Geschäftsführung	_	_
+5-33	442-445	die	_	_
+5-34	446-450	sich	_	_
+5-35	451-454	ihm	_	_
+5-36	455-460	nicht	_	_
+5-37	461-467	nehmen	_	_
+5-38	468-473	lasse	_	_
+5-39	474-485	anderweitig	_	_
+5-40	486-492	decken	_	_
+5-41	493-499	können	_	_
+5-42	500-501	\;	_	_
+5-43	502-507	jetzt	_	_
+5-44	508-514	können	_	_
+5-45	515-523	ähnliche	_	_
+5-46	524-539	Verschwendungen	_	_
+5-47	540-543	nur	_	_
+5-48	544-547	mit	_	_
+5-49	548-552	Geld	_	_
+5-50	553-560	gedeckt	_	_
+5-51	561-567	werden	_	_
+5-52	568-569	,	_	_
+5-53	570-577	welches	_	_
+5-54	578-581	dem	_	_
+5-55	582-590	Institut	*	ORGmentioned
+5-56	591-596	nicht	_	_
+5-57	597-603	gehört	_	_
+5-58	604-607	und	_	_
+5-59	608-615	welches	_	_
+5-60	616-620	kein	_	_
+5-61	621-628	zweiter	_	_
+5-62	629-633	Narr	_	_
+5-63	634-637	ihm	_	_
+5-64	638-642	wird	_	_
+5-65	643-651	auslegen	_	_
+5-66	652-658	wollen	_	_
+5-67	659-660	.	_	_
+
+#Text=`` Drei Blätter von einer Prachtvase '' berichten sie mir \; ich weiß nicht welche .
+6-1	661-663	``	_	_
+6-2	664-668	Drei	_	_
+6-3	669-676	Blätter	_	_
+6-4	677-680	von	_	_
+6-5	681-686	einer	_	_
+6-6	687-697	Prachtvase	*	OBJ
+6-7	698-700	''	_	_
+6-8	701-710	berichten	_	_
+6-9	711-714	sie	_	_
+6-10	715-718	mir	_	_
+6-11	719-720	\;	_	_
+6-12	721-724	ich	_	_
+6-13	725-729	weiß	_	_
+6-14	730-735	nicht	_	_
+6-15	736-742	welche	_	_
+6-16	743-744	.	_	_
+
+#Text=Von der Vase des Anhemoros die ich eben in 3 Blättern habe std en lassen kann natürlich nicht die Rede sein \; Sie haben selbst Bull .
+7-1	745-748	Von	_	_
+7-2	749-752	der	*[9]	OBJ[9]
+7-3	753-757	Vase	*[9]	OBJ[9]
+7-4	758-761	des	*[9]	OBJ[9]
+7-5	762-771	Anhemoros	*[9]	OBJ[9]
+7-6	772-775	die	_	_
+7-7	776-779	ich	_	_
+7-8	780-784	eben	_	_
+7-9	785-787	in	_	_
+7-10	788-789	3	_	_
+7-11	790-798	Blättern	_	_
+7-12	799-803	habe	_	_
+7-13	804-807	std	_	_
+7-14	808-810	en	_	_
+7-15	811-817	lassen	_	_
+7-16	818-822	kann	_	_
+7-17	823-832	natürlich	_	_
+7-18	833-838	nicht	_	_
+7-19	839-842	die	_	_
+7-20	843-847	Rede	_	_
+7-21	848-852	sein	_	_
+7-22	853-854	\;	_	_
+7-23	855-858	Sie	_	_
+7-24	859-864	haben	_	_
+7-25	865-871	selbst	_	_
+7-26	872-876	Bull	_	_
+7-27	877-878	.	_	_
+
+#Text=1834 Dec .
+8-1	879-883	1834	_	_
+8-2	884-887	Dec	_	_
+8-3	888-889	.	_	_
+
+#Text=angekündigt , ich werde sie herausgeben .
+9-1	890-901	angekündigt	_	_
+9-2	902-903	,	_	_
+9-3	904-907	ich	_	_
+9-4	908-913	werde	_	_
+9-5	914-917	sie	_	_
+9-6	918-929	herausgeben	_	_
+9-7	930-931	.	_	_
+
+#Text=Leider habe ich es versuchen müssen um die Zeichnung nicht umsonst bezahlt zu haben \; nun höre ich daß ich nicht nur Ra sondern auch Gag zum Conkurrenten habe .
+10-1	932-938	Leider	_	_
+10-2	939-943	habe	_	_
+10-3	944-947	ich	_	_
+10-4	948-950	es	_	_
+10-5	951-960	versuchen	_	_
+10-6	961-967	müssen	_	_
+10-7	968-970	um	_	_
+10-8	971-974	die	_	_
+10-9	975-984	Zeichnung	_	_
+10-10	985-990	nicht	_	_
+10-11	991-998	umsonst	_	_
+10-12	999-1006	bezahlt	_	_
+10-13	1007-1009	zu	_	_
+10-14	1010-1015	haben	_	_
+10-15	1016-1017	\;	_	_
+10-16	1018-1021	nun	_	_
+10-17	1022-1026	höre	_	_
+10-18	1027-1030	ich	_	_
+10-19	1031-1034	daß	_	_
+10-20	1035-1038	ich	_	_
+10-21	1039-1044	nicht	_	_
+10-22	1045-1048	nur	_	_
+10-23	1049-1051	Ra	_	_
+10-24	1052-1059	sondern	_	_
+10-25	1060-1064	auch	_	_
+10-26	1065-1068	Gag	_	_
+10-27	1069-1072	zum	_	_
+10-28	1073-1085	Conkurrenten	_	_
+10-29	1086-1090	habe	_	_
+10-30	1091-1092	.	_	_
+
+#Text=Ich denke hier bis zum 22.sten zu bleiben \; Thiersch ist nach dem Rhein und Paris , = .
+11-1	1093-1096	Ich	_	_
+11-2	1097-1102	denke	_	_
+11-3	1103-1107	hier	_	_
+11-4	1108-1111	bis	_	_
+11-5	1112-1115	zum	_	_
+11-6	1116-1123	22.sten	*	DATEmentioned
+11-7	1124-1126	zu	_	_
+11-8	1127-1134	bleiben	_	_
+11-9	1135-1136	\;	_	_
+11-10	1137-1145	Thiersch	_	_
+11-11	1146-1149	ist	_	_
+11-12	1150-1154	nach	_	_
+11-13	1155-1158	dem	_	_
+11-14	1159-1164	Rhein	*	PLACEmentioned
+11-15	1165-1168	und	_	_
+11-16	1169-1174	Paris	*	PLACEmentioned
+11-17	1175-1176	,	_	_
+11-18	1177-1178	=	_	_
+11-19	1179-1180	.	_	_
+
+#Text=BUSswärts , Archäologisches wenig zu sehen .
+12-1	1181-1190	BUSswärts	_	_
+12-2	1191-1192	,	_	_
+12-3	1193-1208	Archäologisches	_	_
+12-4	1209-1214	wenig	_	_
+12-5	1215-1217	zu	_	_
+12-6	1218-1223	sehen	_	_
+12-7	1224-1225	.	_	_
+
+#Text=Ihre Bücherwünsche erfülle ich , falls ich von hier meine Büchersendung
+13-1	1226-1230	Ihre	_	_
+13-2	1231-1244	Bücherwünsche	_	_
+13-3	1245-1252	erfülle	_	_
+13-4	1253-1256	ich	_	_
+13-5	1257-1258	,	_	_
+13-6	1259-1264	falls	_	_
+13-7	1265-1268	ich	_	_
+13-8	1269-1272	von	_	_
+13-9	1273-1277	hier	_	_
+13-10	1278-1283	meine	_	_
+13-11	1284-1297	Büchersendung	_	_

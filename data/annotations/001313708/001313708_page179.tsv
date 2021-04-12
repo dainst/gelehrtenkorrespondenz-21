@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N Gerhard an Bunsen Berlin , 28. März 1835 An die Direktion des Instituts zu Händen des Generalsekretärs Herrn Minister Bunsen B Berlin den 28.sten März 71835 450 Den am 29.sten Januar d. J. der Direktion des Instituts von mir überreichten Artikeln bin ich , da dieselben mancher Abänderung und mancher ausführlichen Begründung zu bedürfen schienen , die nachstehenden Erörterungen nachzusenden veranlaßt .
+1-1	0-1	N	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Bunsen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	28.	*[4]	DATEletter[4]
+1-8	33-37	März	*[4]	DATEletter[4]
+1-9	38-42	1835	*[4]	DATEletter[4]
+1-10	43-45	An	_	_
+1-11	46-49	die	_	_
+1-12	50-59	Direktion	*[5]	ORGmentioned[5]
+1-13	60-63	des	*[5]	ORGmentioned[5]
+1-14	64-73	Instituts	*[5]	ORGmentioned[5]
+1-15	74-76	zu	_	_
+1-16	77-83	Händen	_	_
+1-17	84-87	des	_	_
+1-18	88-104	Generalsekretärs	_	_
+1-19	105-110	Herrn	_	_
+1-20	111-119	Minister	*[6]	PERaddressee[6]
+1-21	120-126	Bunsen	*[6]	PERaddressee[6]
+1-22	127-128	B	_	_
+1-23	129-135	Berlin	*	PLACEfrom
+1-24	136-139	den	_	_
+1-25	140-147	28.sten	*[8]	DATEletter[8]
+1-26	148-152	März	*[8]	DATEletter[8]
+1-27	153-158	71835	*[8]	DATEletter[8]
+1-28	159-162	450	_	_
+1-29	163-166	Den	_	_
+1-30	167-169	am	_	_
+1-31	170-177	29.sten	*[9]	DATEmentioned[9]
+1-32	178-184	Januar	*[9]	DATEmentioned[9]
+1-33	185-187	d.	*[9]	DATEmentioned[9]
+1-34	188-190	J.	*[9]	DATEmentioned[9]
+1-35	191-194	der	_	_
+1-36	195-204	Direktion	*[10]	ORGmentioned[10]
+1-37	205-208	des	*[10]	ORGmentioned[10]
+1-38	209-218	Instituts	*[10]	ORGmentioned[10]
+1-39	219-222	von	_	_
+1-40	223-226	mir	_	_
+1-41	227-239	überreichten	_	_
+1-42	240-248	Artikeln	_	_
+1-43	249-252	bin	_	_
+1-44	253-256	ich	_	_
+1-45	257-258	,	_	_
+1-46	259-261	da	_	_
+1-47	262-271	dieselben	_	_
+1-48	272-279	mancher	_	_
+1-49	280-290	Abänderung	_	_
+1-50	291-294	und	_	_
+1-51	295-302	mancher	_	_
+1-52	303-316	ausführlichen	_	_
+1-53	317-327	Begründung	_	_
+1-54	328-330	zu	_	_
+1-55	331-339	bedürfen	_	_
+1-56	340-348	schienen	_	_
+1-57	349-350	,	_	_
+1-58	351-354	die	_	_
+1-59	355-368	nachstehenden	_	_
+1-60	369-381	Erörterungen	_	_
+1-61	382-394	nachzusenden	_	_
+1-62	395-404	veranlaßt	_	_
+1-63	405-406	.	_	_
+
+#Text=1 .
+2-1	407-408	1	_	_
+2-2	409-410	.	_	_
+
+#Text=Das aräologische Institut zu einer öffentlichen , von Privatinteressen unabhängigen Stiftung zu erheben , ist und bleibt seit dessen Anbeginn die Bestrebung derjenigen , welche es gründeten , förderten und aufrecht halten .
+3-1	411-414	Das	_	_
+3-2	415-427	aräologische	*[11]	ORGmentioned[11]
+3-3	428-436	Institut	*[11]	ORGmentioned[11]
+3-4	437-439	zu	_	_
+3-5	440-445	einer	_	_
+3-6	446-458	öffentlichen	_	_
+3-7	459-460	,	_	_
+3-8	461-464	von	_	_
+3-9	465-481	Privatinteressen	_	_
+3-10	482-494	unabhängigen	_	_
+3-11	495-503	Stiftung	_	_
+3-12	504-506	zu	_	_
+3-13	507-514	erheben	_	_
+3-14	515-516	,	_	_
+3-15	517-520	ist	_	_
+3-16	521-524	und	_	_
+3-17	525-531	bleibt	_	_
+3-18	532-536	seit	_	_
+3-19	537-543	dessen	_	_
+3-20	544-552	Anbeginn	_	_
+3-21	553-556	die	_	_
+3-22	557-567	Bestrebung	_	_
+3-23	568-578	derjenigen	_	_
+3-24	579-580	,	_	_
+3-25	581-587	welche	_	_
+3-26	588-590	es	_	_
+3-27	591-600	gründeten	_	_
+3-28	601-602	,	_	_
+3-29	603-612	förderten	_	_
+3-30	613-616	und	_	_
+3-31	617-625	aufrecht	_	_
+3-32	626-632	halten	_	_
+3-33	633-634	.	_	_
+
+#Text=Daß jedoch diese Anstalt zu einer solchen Unabhängigkeit gelangt sey , kann erst dann zustande werden , wenn das Institut sich mit denjenigen abgefunden hat , die ihm auf eigene Gefahr Zeit , Geld und Gesundheit gewidmet haben .
+4-1	635-638	Daß	_	_
+4-2	639-645	jedoch	_	_
+4-3	646-651	diese	_	_
+4-4	652-659	Anstalt	_	_
+4-5	660-662	zu	_	_
+4-6	663-668	einer	_	_
+4-7	669-676	solchen	_	_
+4-8	677-691	Unabhängigkeit	_	_
+4-9	692-699	gelangt	_	_
+4-10	700-703	sey	_	_
+4-11	704-705	,	_	_
+4-12	706-710	kann	_	_
+4-13	711-715	erst	_	_
+4-14	716-720	dann	_	_
+4-15	721-729	zustande	_	_
+4-16	730-736	werden	_	_
+4-17	737-738	,	_	_
+4-18	739-743	wenn	_	_
+4-19	744-747	das	_	_
+4-20	748-756	Institut	*	ORGmentioned
+4-21	757-761	sich	_	_
+4-22	762-765	mit	_	_
+4-23	766-776	denjenigen	_	_
+4-24	777-787	abgefunden	_	_
+4-25	788-791	hat	_	_
+4-26	792-793	,	_	_
+4-27	794-797	die	_	_
+4-28	798-801	ihm	_	_
+4-29	802-805	auf	_	_
+4-30	806-812	eigene	_	_
+4-31	813-819	Gefahr	_	_
+4-32	820-824	Zeit	_	_
+4-33	825-826	,	_	_
+4-34	827-831	Geld	_	_
+4-35	832-835	und	_	_
+4-36	836-846	Gesundheit	_	_
+4-37	847-855	gewidmet	_	_
+4-38	856-861	haben	_	_
+4-39	862-863	.	_	_
+
+#Text=Si vedino le prescrizioni normali sez .
+5-1	864-866	Si	_	_
+5-2	867-873	vedino	_	_
+5-3	874-876	le	_	_
+5-4	877-889	prescrizioni	_	_
+5-5	890-897	normali	_	_
+5-6	898-901	sez	_	_
+5-7	902-903	.	_	_
+
+#Text=XXIII - XV .
+6-1	904-909	XXIII	_	_
+6-2	910-911	-	_	_
+6-3	912-914	XV	_	_
+6-4	915-916	.	_	_
+
+#Text=XIX . )
+7-1	917-920	XIX	_	_
+7-2	921-922	.	_	_
+7-3	923-924	)	_	_
+
+#Text=2 .
+8-1	925-926	2	_	_
+8-2	927-928	.	_	_
+
+#Text=Nach diesem Grundsatz steht das Institut noch immer in einem obligatorischen Verhältnis zu denjenigen , welche es stifteten , und mehr oder weniger ihre darauf begründeten Ansprüche geltend machen dürfen .
+9-1	929-933	Nach	_	_
+9-2	934-940	diesem	_	_
+9-3	941-950	Grundsatz	_	_
+9-4	951-956	steht	_	_
+9-5	957-960	das	_	_
+9-6	961-969	Institut	*	ORGmentioned
+9-7	970-974	noch	_	_
+9-8	975-980	immer	_	_
+9-9	981-983	in	_	_
+9-10	984-989	einem	_	_
+9-11	990-1005	obligatorischen	_	_
+9-12	1006-1016	Verhältnis	_	_
+9-13	1017-1019	zu	_	_
+9-14	1020-1030	denjenigen	_	_
+9-15	1031-1032	,	_	_
+9-16	1033-1039	welche	_	_
+9-17	1040-1042	es	_	_
+9-18	1043-1052	stifteten	_	_
+9-19	1053-1054	,	_	_
+9-20	1055-1058	und	_	_
+9-21	1059-1063	mehr	_	_
+9-22	1064-1068	oder	_	_
+9-23	1069-1076	weniger	_	_
+9-24	1077-1081	ihre	_	_
+9-25	1082-1088	darauf	_	_
+9-26	1089-1100	begründeten	_	_
+9-27	1101-1110	Ansprüche	_	_
+9-28	1111-1118	geltend	_	_
+9-29	1119-1125	machen	_	_
+9-30	1126-1132	dürfen	_	_
+9-31	1133-1134	.	_	_
+
+#Text=Man wird
+10-1	1135-1138	Man	_	_
+10-2	1139-1143	wird	_	_

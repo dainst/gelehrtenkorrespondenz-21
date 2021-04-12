@@ -1,0 +1,166 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=-2- Gerhard an Braun Berlin , „ 13 . 11 . 1844 1 .
+1-1	0-3	-2-	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	„	_	_
+1-8	32-34	13	*[3]	DATEletter[3]
+1-9	35-36	.	*[3]	DATEletter[3]
+1-10	37-39	11	*[3]	DATEletter[3]
+1-11	40-41	.	*[3]	DATEletter[3]
+1-12	42-46	1844	*[3]	DATEletter[3]
+1-13	47-48	1	_	_
+1-14	49-50	.	_	_
+
+#Text=Die römische Direction druckt Tom .
+2-1	51-54	Die	_	_
+2-2	55-63	römische	*[4]	ORGmentioned[4]
+2-3	64-73	Direction	*[4]	ORGmentioned[4]
+2-4	74-80	druckt	_	_
+2-5	81-84	Tom	_	_
+2-6	85-86	.	_	_
+
+#Text=XVI der Annalen samt allen dessen Abbildungen ( für 1844 ) 2 .
+3-1	87-90	XVI	_	_
+3-2	91-94	der	_	_
+3-3	95-102	Annalen	_	_
+3-4	103-107	samt	_	_
+3-5	108-113	allen	_	_
+3-6	114-120	dessen	_	_
+3-7	121-132	Abbildungen	_	_
+3-8	133-134	(	_	_
+3-9	135-138	für	_	_
+3-10	139-143	1844	*	DATEmentioned
+3-11	144-145	)	_	_
+3-12	146-147	2	_	_
+3-13	148-149	.	_	_
+
+#Text=Das Bullettin wird fortwährend in Rom gedruckt .
+4-1	150-153	Das	_	_
+4-2	154-163	Bullettin	_	_
+4-3	164-168	wird	_	_
+4-4	169-180	fortwährend	_	_
+4-5	181-183	in	_	_
+4-6	184-187	Rom	*	PLACEmentioned
+4-7	188-196	gedruckt	_	_
+4-8	197-198	.	_	_
+
+#Text=3 .
+5-1	199-200	3	_	_
+5-2	201-202	.	_	_
+
+#Text=Das Comite francais übernimmt Tom XVII ( 1845 ) der Annalen .
+6-1	203-206	Das	_	_
+6-2	207-213	Comite	*[5]	ORGmentioned[5]
+6-3	214-222	francais	*[5]	ORGmentioned[5]
+6-4	223-232	übernimmt	_	_
+6-5	233-236	Tom	_	_
+6-6	237-241	XVII	_	_
+6-7	242-243	(	_	_
+6-8	244-248	1845	*	DATEmentioned
+6-9	249-250	)	_	_
+6-10	251-254	der	_	_
+6-11	255-262	Annalen	_	_
+6-12	263-264	.	_	_
+
+#Text=4 .
+7-1	265-266	4	_	_
+7-2	267-268	.	_	_
+
+#Text=Dasselbe nimmt Aufsätze und Zeichnungen ais Rom und Deutschland gern dazu an .
+8-1	269-277	Dasselbe	_	_
+8-2	278-283	nimmt	_	_
+8-3	284-292	Aufsätze	_	_
+8-4	293-296	und	_	_
+8-5	297-308	Zeichnungen	_	_
+8-6	309-312	ais	_	_
+8-7	313-316	Rom	*	PLACEmentioned
+8-8	317-320	und	_	_
+8-9	321-332	Deutschland	*	PLACEmentioned
+8-10	333-337	gern	_	_
+8-11	338-342	dazu	_	_
+8-12	343-345	an	_	_
+8-13	346-347	.	_	_
+
+#Text=5 .
+9-1	348-349	5	_	_
+9-2	350-351	.	_	_
+
+#Text=Die röm .
+10-1	352-355	Die	_	_
+10-2	356-359	röm	*[6]	ORGmentioned[6]
+10-3	360-361	.	*[6]	ORGmentioned[6]
+
+#Text=Direction verleit dem Comite für die ( in Paris stehenden ) 12 Abbildungen von 1845 liches zifferrn , 6 .
+11-1	362-371	Direction	*[6]	ORGmentioned[6]
+11-2	372-379	verleit	_	_
+11-3	380-383	dem	_	_
+11-4	384-390	Comite	*	ORGmentioned
+11-5	391-394	für	_	_
+11-6	395-398	die	_	_
+11-7	399-400	(	_	_
+11-8	401-403	in	_	_
+11-9	404-409	Paris	*	PLACEmentioned
+11-10	410-419	stehenden	_	_
+11-11	420-421	)	_	_
+11-12	422-424	12	_	_
+11-13	425-436	Abbildungen	_	_
+11-14	437-440	von	_	_
+11-15	441-445	1845	*	DATEmentioned
+11-16	446-452	liches	_	_
+11-17	453-461	zifferrn	_	_
+11-18	462-463	,	_	_
+11-19	464-465	6	_	_
+11-20	466-467	.	_	_
+
+#Text=Im Format wird nichts geändert , Sobald hierauf Antwort da ist will man den Druck anfangen \; lassen Sie also diese Antwort über seine Pariser Kollegen zugehen .
+12-1	468-470	Im	_	_
+12-2	471-477	Format	_	_
+12-3	478-482	wird	_	_
+12-4	483-489	nichts	_	_
+12-5	490-498	geändert	_	_
+12-6	499-500	,	_	_
+12-7	501-507	Sobald	_	_
+12-8	508-515	hierauf	_	_
+12-9	516-523	Antwort	_	_
+12-10	524-526	da	_	_
+12-11	527-530	ist	_	_
+12-12	531-535	will	_	_
+12-13	536-539	man	_	_
+12-14	540-543	den	_	_
+12-15	544-549	Druck	_	_
+12-16	550-558	anfangen	_	_
+12-17	559-560	\;	_	_
+12-18	561-567	lassen	_	_
+12-19	568-571	Sie	_	_
+12-20	572-576	also	_	_
+12-21	577-582	diese	_	_
+12-22	583-590	Antwort	_	_
+12-23	591-595	über	_	_
+12-24	596-601	seine	_	_
+12-25	602-609	Pariser	*	PLACEmentioned
+12-26	610-618	Kollegen	_	_
+12-27	619-626	zugehen	_	_
+12-28	627-628	.	_	_
+
+#Text=Bei uns geht es leidlich !
+13-1	629-632	Bei	_	_
+13-2	633-636	uns	_	_
+13-3	637-641	geht	_	_
+13-4	642-644	es	_	_
+13-5	645-653	leidlich	_	_
+13-6	654-655	!	_	_
+
+#Text=Mit besten Grüßen herzlichst Ihr Gerhard
+14-1	656-659	Mit	_	_
+14-2	660-666	besten	_	_
+14-3	667-673	Grüßen	_	_
+14-4	674-684	herzlichst	_	_
+14-5	685-688	Ihr	_	_
+14-6	689-696	Gerhard	*	PERauthor

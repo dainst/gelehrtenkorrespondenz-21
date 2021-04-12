@@ -1,0 +1,286 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard München , 4 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	München	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	4	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=August 1839 München 4 August 39 .
+2-1	31-37	August	*[4]	DATEletter[4]
+2-2	38-42	1839	*[4]	DATEletter[4]
+2-3	43-50	München	*	PLACEfrom
+2-4	51-52	4	*[6]	DATEletter[6]
+2-5	53-59	August	*[6]	DATEletter[6]
+2-6	60-62	39	*[6]	DATEletter[6]
+2-7	63-64	.	_	_
+
+#Text=Ihren lieben Brief d. d. Bonn 29 Juli erhalte ich gestern durch H. Oldenburg .
+3-1	65-70	Ihren	_	_
+3-2	71-77	lieben	_	_
+3-3	78-83	Brief	_	_
+3-4	84-86	d.	_	_
+3-5	87-89	d.	_	_
+3-6	90-94	Bonn	*	PLACEmentioned
+3-7	95-97	29	*[8]	DATEmentioned[8]
+3-8	98-102	Juli	*[8]	DATEmentioned[8]
+3-9	103-110	erhalte	_	_
+3-10	111-114	ich	_	_
+3-11	115-122	gestern	_	_
+3-12	123-128	durch	_	_
+3-13	129-131	H.	*[9]	PERmentioned[9]
+3-14	132-141	Oldenburg	*[9]	PERmentioned[9]
+3-15	142-143	.	_	_
+
+#Text=Ihren früheren Briefen zufolge durfte ich nicht einmal glauben , daß meine Briefe Sie noch in Bonn treffen könnten \; ich habe daher nach Frankfurt geschrieben .
+4-1	144-149	Ihren	_	_
+4-2	150-158	früheren	_	_
+4-3	159-166	Briefen	_	_
+4-4	167-174	zufolge	_	_
+4-5	175-181	durfte	_	_
+4-6	182-185	ich	_	_
+4-7	186-191	nicht	_	_
+4-8	192-198	einmal	_	_
+4-9	199-206	glauben	_	_
+4-10	207-208	,	_	_
+4-11	209-212	daß	_	_
+4-12	213-218	meine	_	_
+4-13	219-225	Briefe	_	_
+4-14	226-229	Sie	_	_
+4-15	230-234	noch	_	_
+4-16	235-237	in	_	_
+4-17	238-242	Bonn	*	PLACEmentioned
+4-18	243-250	treffen	_	_
+4-19	251-258	könnten	_	_
+4-20	259-260	\;	_	_
+4-21	261-264	ich	_	_
+4-22	265-269	habe	_	_
+4-23	270-275	daher	_	_
+4-24	276-280	nach	_	_
+4-25	281-290	Frankfurt	*	PLACEmentioned
+4-26	291-302	geschrieben	_	_
+4-27	303-304	.	_	_
+
+#Text=Jetzt schreibe ich aufs Geradewohl auch diesen Brief nach Frankfurt , ohne daß ich hoffen darf daß er Bie trifft .
+5-1	305-310	Jetzt	_	_
+5-2	311-319	schreibe	_	_
+5-3	320-323	ich	_	_
+5-4	324-328	aufs	_	_
+5-5	329-339	Geradewohl	_	_
+5-6	340-344	auch	_	_
+5-7	345-351	diesen	_	_
+5-8	352-357	Brief	_	_
+5-9	358-362	nach	_	_
+5-10	363-372	Frankfurt	*	PLACEmentioned
+5-11	373-374	,	_	_
+5-12	375-379	ohne	_	_
+5-13	380-383	daß	_	_
+5-14	384-387	ich	_	_
+5-15	388-394	hoffen	_	_
+5-16	395-399	darf	_	_
+5-17	400-403	daß	_	_
+5-18	404-406	er	_	_
+5-19	407-410	Bie	_	_
+5-20	411-417	trifft	_	_
+5-21	418-419	.	_	_
+
+#Text=Hätten Sie mir früher ein genaues Appuntamento gegeben , so wäre ich gern nach Bonn gekommen .
+6-1	420-426	Hätten	_	_
+6-2	427-430	Sie	_	_
+6-3	431-434	mir	_	_
+6-4	435-441	früher	_	_
+6-5	442-445	ein	_	_
+6-6	446-453	genaues	_	_
+6-7	454-466	Appuntamento	_	_
+6-8	467-474	gegeben	_	_
+6-9	475-476	,	_	_
+6-10	477-479	so	_	_
+6-11	480-484	wäre	_	_
+6-12	485-488	ich	_	_
+6-13	489-493	gern	_	_
+6-14	494-498	nach	_	_
+6-15	499-503	Bonn	*	PLACEmentioned
+6-16	504-512	gekommen	_	_
+6-17	513-514	.	_	_
+
+#Text=Jetzt sitze ich schon 14 Tage hier ohne Nachrichten von Ihnen zu erhalten , die ich jeden Tag sehnlichst erwartete .
+7-1	515-520	Jetzt	_	_
+7-2	521-526	sitze	_	_
+7-3	527-530	ich	_	_
+7-4	531-536	schon	_	_
+7-5	537-539	14	_	_
+7-6	540-544	Tage	_	_
+7-7	545-549	hier	_	_
+7-8	550-554	ohne	_	_
+7-9	555-566	Nachrichten	_	_
+7-10	567-570	von	_	_
+7-11	571-576	Ihnen	_	_
+7-12	577-579	zu	_	_
+7-13	580-588	erhalten	_	_
+7-14	589-590	,	_	_
+7-15	591-594	die	_	_
+7-16	595-598	ich	_	_
+7-17	599-604	jeden	_	_
+7-18	605-608	Tag	_	_
+7-19	609-619	sehnlichst	_	_
+7-20	620-629	erwartete	_	_
+7-21	630-631	.	_	_
+
+#Text=Nun habe ich angefangen Abhandlungen drucken zu lassen und kann mich unmöglich unterbrechen .
+8-1	632-635	Nun	_	_
+8-2	636-640	habe	_	_
+8-3	641-644	ich	_	_
+8-4	645-655	angefangen	_	_
+8-5	656-668	Abhandlungen	_	_
+8-6	669-676	drucken	_	_
+8-7	677-679	zu	_	_
+8-8	680-686	lassen	_	_
+8-9	687-690	und	_	_
+8-10	691-695	kann	_	_
+8-11	696-700	mich	_	_
+8-12	701-710	unmöglich	_	_
+8-13	711-723	unterbrechen	_	_
+8-14	724-725	.	_	_
+
+#Text=Nach Gotha komme ich erst Anfang September .
+9-1	726-730	Nach	_	_
+9-2	731-736	Gotha	*	PLACEmentioned
+9-3	737-742	komme	_	_
+9-4	743-746	ich	_	_
+9-5	747-751	erst	_	_
+9-6	752-758	Anfang	_	_
+9-7	759-768	September	*	DATEmentioned
+9-8	769-770	.	_	_
+
+#Text=Da ich schon im October nach Rom zurück sein will , so muß ich meine Zeit gewaltig zusammennehmen .
+10-1	771-773	Da	_	_
+10-2	774-777	ich	_	_
+10-3	778-783	schon	_	_
+10-4	784-786	im	_	_
+10-5	787-794	October	*	DATEmentioned
+10-6	795-799	nach	_	_
+10-7	800-803	Rom	*	PLACEmentioned
+10-8	804-810	zurück	_	_
+10-9	811-815	sein	_	_
+10-10	816-820	will	_	_
+10-11	821-822	,	_	_
+10-12	823-825	so	_	_
+10-13	826-829	muß	_	_
+10-14	830-833	ich	_	_
+10-15	834-839	meine	_	_
+10-16	840-844	Zeit	_	_
+10-17	845-853	gewaltig	_	_
+10-18	854-868	zusammennehmen	_	_
+10-19	869-870	.	_	_
+
+#Text=Aber gesetzt auch ich könnte sofort von hier aufbrechen , so würde ich auf die wage Angabe Ihrer Rendez-vous nicht zu reisen wagen .
+11-1	871-875	Aber	_	_
+11-2	876-883	gesetzt	_	_
+11-3	884-888	auch	_	_
+11-4	889-892	ich	_	_
+11-5	893-899	könnte	_	_
+11-6	900-906	sofort	_	_
+11-7	907-910	von	_	_
+11-8	911-915	hier	_	_
+11-9	916-926	aufbrechen	_	_
+11-10	927-928	,	_	_
+11-11	929-931	so	_	_
+11-12	932-937	würde	_	_
+11-13	938-941	ich	_	_
+11-14	942-945	auf	_	_
+11-15	946-949	die	_	_
+11-16	950-954	wage	_	_
+11-17	955-961	Angabe	_	_
+11-18	962-967	Ihrer	_	_
+11-19	968-979	Rendez-vous	_	_
+11-20	980-985	nicht	_	_
+11-21	986-988	zu	_	_
+11-22	989-995	reisen	_	_
+11-23	996-1001	wagen	_	_
+11-24	1002-1003	.	_	_
+
+#Text=Meine Briefe müssen Ihnen nicht zugekommen sein .
+12-1	1004-1009	Meine	_	_
+12-2	1010-1016	Briefe	_	_
+12-3	1017-1023	müssen	_	_
+12-4	1024-1029	Ihnen	_	_
+12-5	1030-1035	nicht	_	_
+12-6	1036-1046	zugekommen	_	_
+12-7	1047-1051	sein	_	_
+12-8	1052-1053	.	_	_
+
+#Text=Ich habe keinen der Ihrigen unbeantwortet gelassen .
+13-1	1054-1057	Ich	_	_
+13-2	1058-1062	habe	_	_
+13-3	1063-1069	keinen	_	_
+13-4	1070-1073	der	_	_
+13-5	1074-1081	Ihrigen	_	_
+13-6	1082-1095	unbeantwortet	_	_
+13-7	1096-1104	gelassen	_	_
+13-8	1105-1106	.	_	_
+
+#Text=Da ich hier durch Meyer erfuhr , Sie würden hierher kommen , so mußte ich um so mehr glauben , Sie würden hierher reisen .
+14-1	1107-1109	Da	_	_
+14-2	1110-1113	ich	_	_
+14-3	1114-1118	hier	_	_
+14-4	1119-1124	durch	_	_
+14-5	1125-1130	Meyer	*	PERmentioned
+14-6	1131-1137	erfuhr	_	_
+14-7	1138-1139	,	_	_
+14-8	1140-1143	Sie	_	_
+14-9	1144-1150	würden	_	_
+14-10	1151-1158	hierher	_	_
+14-11	1159-1165	kommen	_	_
+14-12	1166-1167	,	_	_
+14-13	1168-1170	so	_	_
+14-14	1171-1176	mußte	_	_
+14-15	1177-1180	ich	_	_
+14-16	1181-1183	um	_	_
+14-17	1184-1186	so	_	_
+14-18	1187-1191	mehr	_	_
+14-19	1192-1199	glauben	_	_
+14-20	1200-1201	,	_	_
+14-21	1202-1205	Sie	_	_
+14-22	1206-1212	würden	_	_
+14-23	1213-1220	hierher	_	_
+14-24	1221-1227	reisen	_	_
+14-25	1228-1229	.	_	_
+
+#Text=Sie haben mir von Anfang an von München geschrieben .
+15-1	1230-1233	Sie	_	_
+15-2	1234-1239	haben	_	_
+15-3	1240-1243	mir	_	_
+15-4	1244-1247	von	_	_
+15-5	1248-1254	Anfang	_	_
+15-6	1255-1257	an	_	_
+15-7	1258-1261	von	_	_
+15-8	1262-1269	München	*	PLACEmentioned
+15-9	1270-1281	geschrieben	_	_
+15-10	1282-1283	.	_	_
+
+#Text=Diesmal weiß ich recht eigentlich nicht was ich thuen soll .
+16-1	1284-1291	Diesmal	_	_
+16-2	1292-1296	weiß	_	_
+16-3	1297-1300	ich	_	_
+16-4	1301-1306	recht	_	_
+16-5	1307-1317	eigentlich	_	_
+16-6	1318-1323	nicht	_	_
+16-7	1324-1327	was	_	_
+16-8	1328-1331	ich	_	_
+16-9	1332-1337	thuen	_	_
+16-10	1338-1342	soll	_	_
+16-11	1343-1344	.	_	_
+
+#Text=Ich verhalte mich daher ruhig und er-
+17-1	1345-1348	Ich	_	_
+17-2	1349-1357	verhalte	_	_
+17-3	1358-1362	mich	_	_
+17-4	1363-1368	daher	_	_
+17-5	1369-1374	ruhig	_	_
+17-6	1375-1378	und	_	_
+17-7	1379-1382	er-	_	_

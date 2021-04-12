@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=290 Helbig an Henzen Rom , 13. Juli 1870 H 8 .
+1-1	0-3	290	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[1]	DATEletter[1]
+1-8	31-35	Juli	*[1]	DATEletter[1]
+1-9	36-40	1870	*[1]	DATEletter[1]
+1-10	41-42	H	_	_
+1-11	43-44	8	_	_
+1-12	45-46	.	_	_
+
+#Text=19/7 70 Roma , 1i 13. Juli 1870 Lieber Herr Professor Ich bin im Stande , Ihnen in Betreff von Hinck gute Nachrichten zu geben .
+2-1	47-51	19/7	*[2]	DATErecieved[2]
+2-2	52-54	70	*[2]	DATErecieved[2]
+2-3	55-59	Roma	*	PLACEfrom
+2-4	60-61	,	_	_
+2-5	62-64	1i	_	_
+2-6	65-68	13.	*[3]	DATEletter[3]
+2-7	69-73	Juli	*[3]	DATEletter[3]
+2-8	74-78	1870	*[3]	DATEletter[3]
+2-9	79-85	Lieber	_	_
+2-10	86-90	Herr	_	_
+2-11	91-100	Professor	_	_
+2-12	101-104	Ich	_	_
+2-13	105-108	bin	_	_
+2-14	109-111	im	_	_
+2-15	112-118	Stande	_	_
+2-16	119-120	,	_	_
+2-17	121-126	Ihnen	_	_
+2-18	127-129	in	_	_
+2-19	130-137	Betreff	_	_
+2-20	138-141	von	_	_
+2-21	142-147	Hinck	*	PERmentioned
+2-22	148-152	gute	_	_
+2-23	153-164	Nachrichten	_	_
+2-24	165-167	zu	_	_
+2-25	168-173	geben	_	_
+2-26	174-175	.	_	_
+
+#Text=Seit drei Tagen ist nichts vorgekommen und er ist entschieden in der Reconvalescenz begriffen .
+3-1	176-180	Seit	_	_
+3-2	181-185	drei	_	_
+3-3	186-191	Tagen	_	_
+3-4	192-195	ist	_	_
+3-5	196-202	nichts	_	_
+3-6	203-214	vorgekommen	_	_
+3-7	215-218	und	_	_
+3-8	219-221	er	_	_
+3-9	222-225	ist	_	_
+3-10	226-237	entschieden	_	_
+3-11	238-240	in	_	_
+3-12	241-244	der	_	_
+3-13	245-259	Reconvalescenz	_	_
+3-14	260-269	begriffen	_	_
+3-15	270-271	.	_	_
+
+#Text=Somit ist Trendelenburgs Anwesenheit in Rom unnöthig .
+4-1	272-277	Somit	_	_
+4-2	278-281	ist	_	_
+4-3	282-296	Trendelenburgs	*	PERmentioned
+4-4	297-308	Anwesenheit	_	_
+4-5	309-311	in	_	_
+4-6	312-315	Rom	*	PLACEmentioned
+4-7	316-324	unnöthig	_	_
+4-8	325-326	.	_	_
+
+#Text=Ohnehin wäre sie unstatthaft gewesen , da er in Folge seines pompeianischen Aufenthalts unwohl geworden ist und keinesfalls die römische Sommerhitze ertragen würde .
+5-1	327-334	Ohnehin	_	_
+5-2	335-339	wäre	_	_
+5-3	340-343	sie	_	_
+5-4	344-355	unstatthaft	_	_
+5-5	356-363	gewesen	_	_
+5-6	364-365	,	_	_
+5-7	366-368	da	_	_
+5-8	369-371	er	_	_
+5-9	372-374	in	_	_
+5-10	375-380	Folge	_	_
+5-11	381-387	seines	_	_
+5-12	388-402	pompeianischen	_	_
+5-13	403-414	Aufenthalts	_	_
+5-14	415-421	unwohl	_	_
+5-15	422-430	geworden	_	_
+5-16	431-434	ist	_	_
+5-17	435-438	und	_	_
+5-18	439-450	keinesfalls	_	_
+5-19	451-454	die	_	_
+5-20	455-463	römische	_	_
+5-21	464-475	Sommerhitze	_	_
+5-22	476-484	ertragen	_	_
+5-23	485-490	würde	_	_
+5-24	491-492	.	_	_
+
+#Text=Hincks Absicht ist vor der Hand in Rom zu bleiben .
+6-1	493-499	Hincks	*	PERmentioned
+6-2	500-507	Absicht	_	_
+6-3	508-511	ist	_	_
+6-4	512-515	vor	_	_
+6-5	516-519	der	_	_
+6-6	520-524	Hand	_	_
+6-7	525-527	in	_	_
+6-8	528-531	Rom	*	PLACEmentioned
+6-9	532-534	zu	_	_
+6-10	535-542	bleiben	_	_
+6-11	543-544	.	_	_
+
+#Text=Nach etwa : vier Wochen räth ihm Erhardt in das Gebrige zu gehen .
+7-1	545-549	Nach	_	_
+7-2	550-554	etwa	_	_
+7-3	555-556	:	_	_
+7-4	557-561	vier	_	_
+7-5	562-568	Wochen	_	_
+7-6	569-573	räth	_	_
+7-7	574-577	ihm	_	_
+7-8	578-585	Erhardt	*	PERmentioned
+7-9	586-588	in	_	_
+7-10	589-592	das	_	_
+7-11	593-600	Gebrige	_	_
+7-12	601-603	zu	_	_
+7-13	604-609	gehen	_	_
+7-14	610-611	.	_	_
+
+#Text=Da es ihm unmöglich sein wird , bei der Hitze öfters in die Stadt zu kommen , so schlage ich vor , daß Gerdhausen , der in Rom aushalten will , falls Dinge vorkommen , die er sich selbst nicht zu erledigen getraut , zu Hinck auf das land geht , um sich von ihm Raths zu erholen .
+8-1	612-614	Da	_	_
+8-2	615-617	es	_	_
+8-3	618-621	ihm	_	_
+8-4	622-631	unmöglich	_	_
+8-5	632-636	sein	_	_
+8-6	637-641	wird	_	_
+8-7	642-643	,	_	_
+8-8	644-647	bei	_	_
+8-9	648-651	der	_	_
+8-10	652-657	Hitze	_	_
+8-11	658-664	öfters	_	_
+8-12	665-667	in	_	_
+8-13	668-671	die	_	_
+8-14	672-677	Stadt	_	_
+8-15	678-680	zu	_	_
+8-16	681-687	kommen	_	_
+8-17	688-689	,	_	_
+8-18	690-692	so	_	_
+8-19	693-700	schlage	_	_
+8-20	701-704	ich	_	_
+8-21	705-708	vor	_	_
+8-22	709-710	,	_	_
+8-23	711-714	daß	_	_
+8-24	715-725	Gerdhausen	*	PERmentioned
+8-25	726-727	,	_	_
+8-26	728-731	der	_	_
+8-27	732-734	in	_	_
+8-28	735-738	Rom	*	PLACEmentioned
+8-29	739-748	aushalten	_	_
+8-30	749-753	will	_	_
+8-31	754-755	,	_	_
+8-32	756-761	falls	_	_
+8-33	762-767	Dinge	_	_
+8-34	768-777	vorkommen	_	_
+8-35	778-779	,	_	_
+8-36	780-783	die	_	_
+8-37	784-786	er	_	_
+8-38	787-791	sich	_	_
+8-39	792-798	selbst	_	_
+8-40	799-804	nicht	_	_
+8-41	805-807	zu	_	_
+8-42	808-817	erledigen	_	_
+8-43	818-825	getraut	_	_
+8-44	826-827	,	_	_
+8-45	828-830	zu	_	_
+8-46	831-836	Hinck	*	PERmentioned
+8-47	837-840	auf	_	_
+8-48	841-844	das	_	_
+8-49	845-849	land	_	_
+8-50	850-854	geht	_	_
+8-51	855-856	,	_	_
+8-52	857-859	um	_	_
+8-53	860-864	sich	_	_
+8-54	865-868	von	_	_
+8-55	869-872	ihm	_	_
+8-56	873-878	Raths	_	_
+8-57	879-881	zu	_	_
+8-58	882-889	erholen	_	_
+8-59	890-891	.	_	_
+
+#Text=Gerdhausen hat sich mit diesem Vorschlage einverstanden erklärt .
+9-1	892-902	Gerdhausen	*	PERmentioned
+9-2	903-906	hat	_	_
+9-3	907-911	sich	_	_
+9-4	912-915	mit	_	_
+9-5	916-922	diesem	_	_
+9-6	923-933	Vorschlage	_	_
+9-7	934-947	einverstanden	_	_
+9-8	948-955	erklärt	_	_
+9-9	956-957	.	_	_
+
+#Text=Meines Erachtens wäre es übrigens für Hinck besser , er bleibe in Rom .
+10-1	958-964	Meines	_	_
+10-2	965-974	Erachtens	_	_
+10-3	975-979	wäre	_	_
+10-4	980-982	es	_	_
+10-5	983-991	übrigens	_	_
+10-6	992-995	für	_	_
+10-7	996-1001	Hinck	*	PERmentioned
+10-8	1002-1008	besser	_	_
+10-9	1009-1010	,	_	_
+10-10	1011-1013	er	_	_
+10-11	1014-1020	bleibe	_	_
+10-12	1021-1023	in	_	_
+10-13	1024-1027	Rom	*	PLACEmentioned
+10-14	1028-1029	.	_	_
+
+#Text=Hier hat er wenigstens den kleinen Schulz , der ihn etwas dirigirt und auf den er unter Umständen hört .
+11-1	1030-1034	Hier	_	_
+11-2	1035-1038	hat	_	_
+11-3	1039-1041	er	_	_
+11-4	1042-1052	wenigstens	_	_
+11-5	1053-1056	den	_	_
+11-6	1057-1064	kleinen	_	_
+11-7	1065-1071	Schulz	*	PERmentioned
+11-8	1072-1073	,	_	_
+11-9	1074-1077	der	_	_
+11-10	1078-1081	ihn	_	_
+11-11	1082-1087	etwas	_	_
+11-12	1088-1096	dirigirt	_	_
+11-13	1097-1100	und	_	_
+11-14	1101-1104	auf	_	_
+11-15	1105-1108	den	_	_
+11-16	1109-1111	er	_	_
+11-17	1112-1117	unter	_	_
+11-18	1118-1127	Umständen	_	_
+11-19	1128-1132	hört	_	_
+11-20	1133-1134	.	_	_
+
+#Text=Sich selbst überlassen und in der Künstlergesellschaft im Gebirge könnte er leicht neue spropositi begehen .
+12-1	1135-1139	Sich	_	_
+12-2	1140-1146	selbst	_	_
+12-3	1147-1157	überlassen	_	_
+12-4	1158-1161	und	_	_
+12-5	1162-1164	in	_	_
+12-6	1165-1168	der	_	_
+12-7	1169-1189	Künstlergesellschaft	_	_
+12-8	1190-1192	im	_	_
+12-9	1193-1200	Gebirge	_	_
+12-10	1201-1207	könnte	_	_
+12-11	1208-1210	er	_	_
+12-12	1211-1217	leicht	_	_
+12-13	1218-1222	neue	_	_
+12-14	1223-1233	spropositi	_	_
+12-15	1234-1241	begehen	_	_
+12-16	1242-1243	.	_	_

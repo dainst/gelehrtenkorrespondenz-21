@@ -1,0 +1,49 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Nadine Helbig an Henzen Siena , 25. Juli 1874 Nun kommen Sie bald zu uns .
+1-1	0-6	Nadine	*[1]	PERauthor[1]
+1-2	7-13	Helbig	*[1]	PERauthor[1]
+1-3	14-16	an	_	_
+1-4	17-23	Henzen	*	PERaddressee
+1-5	24-29	Siena	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-35	25.	*[2]	DATEletter[2]
+1-8	36-40	Juli	*[2]	DATEletter[2]
+1-9	41-45	1874	*[2]	DATEletter[2]
+1-10	46-49	Nun	_	_
+1-11	50-56	kommen	_	_
+1-12	57-60	Sie	_	_
+1-13	61-65	bald	_	_
+1-14	66-68	zu	_	_
+1-15	69-72	uns	_	_
+1-16	73-74	.	_	_
+
+#Text=Wir Alle grüßen Sie herzlich .
+2-1	75-78	Wir	_	_
+2-2	79-83	Alle	_	_
+2-3	84-90	grüßen	_	_
+2-4	91-94	Sie	_	_
+2-5	95-103	herzlich	_	_
+2-6	104-105	.	_	_
+
+#Text=Bitte grüßen Sie gar herzlich von mir Rosina und Hennebergs .
+3-1	106-111	Bitte	_	_
+3-2	112-118	grüßen	_	_
+3-3	119-122	Sie	_	_
+3-4	123-126	gar	_	_
+3-5	127-135	herzlich	_	_
+3-6	136-139	von	_	_
+3-7	140-143	mir	_	_
+3-8	144-150	Rosina	*	PERmentioned
+3-9	151-154	und	_	_
+3-10	155-165	Hennebergs	*	PERmentioned
+3-11	166-167	.	_	_
+
+#Text=Ihre treue alte N Helbig
+4-1	168-172	Ihre	_	_
+4-2	173-178	treue	_	_
+4-3	179-183	alte	_	_
+4-4	184-185	N	*[3]	PERauthor[3]
+4-5	186-192	Helbig	*[3]	PERauthor[3]

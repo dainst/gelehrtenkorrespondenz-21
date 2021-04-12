@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=291 Helbig an Henzen Achern , 27 .
+1-1	0-3	291	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Achern	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	27	*[5]	DATEletter[5]
+1-8	33-34	.	*[5]	DATEletter[5]
+
+#Text=Oktober 1873 H g . 31/10 73 Achern 27 .
+2-1	35-42	Oktober	*[5]	DATEletter[5]
+2-2	43-47	1873	*[5]	DATEletter[5]
+2-3	48-49	H	_	_
+2-4	50-51	g	_	_
+2-5	52-53	.	_	_
+2-6	54-59	31/10	*[6]	DATErecieved[6]
+2-7	60-62	73	*[6]	DATErecieved[6]
+2-8	63-69	Achern	*	PLACEfrom
+2-9	70-72	27	*[7]	DATEletter[7]
+2-10	73-74	.	*[7]	DATEletter[7]
+
+#Text=Oct .
+3-1	75-78	Oct	*[7]	DATEletter[7]
+3-2	79-80	.	*[7]	DATEletter[7]
+
+#Text=71873 Lieber Herr Professor Ich muß Ihnen leider mittheilen , daß das Ereignis immer noch nicht eingetreten ist .
+4-1	81-86	71873	*[7]	DATEletter[7]
+4-2	87-93	Lieber	_	_
+4-3	94-98	Herr	_	_
+4-4	99-108	Professor	_	_
+4-5	109-112	Ich	_	_
+4-6	113-116	muß	_	_
+4-7	117-122	Ihnen	_	_
+4-8	123-129	leider	_	_
+4-9	130-140	mittheilen	_	_
+4-10	141-142	,	_	_
+4-11	143-146	daß	_	_
+4-12	147-150	das	_	_
+4-13	151-159	Ereignis	_	_
+4-14	160-165	immer	_	_
+4-15	166-170	noch	_	_
+4-16	171-176	nicht	_	_
+4-17	177-188	eingetreten	_	_
+4-18	189-192	ist	_	_
+4-19	193-194	.	_	_
+
+#Text=Gestern war es das vierte Mal , daß meine Frau Wehen hatte .
+5-1	195-202	Gestern	_	_
+5-2	203-206	war	_	_
+5-3	207-209	es	_	_
+5-4	210-213	das	_	_
+5-5	214-220	vierte	_	_
+5-6	221-224	Mal	_	_
+5-7	225-226	,	_	_
+5-8	227-230	daß	_	_
+5-9	231-236	meine	*[8]	PERmentioned[8]
+5-10	237-241	Frau	*[8]	PERmentioned[8]
+5-11	242-247	Wehen	_	_
+5-12	248-253	hatte	_	_
+5-13	254-255	.	_	_
+
+#Text=Sie fangen in der Regel früh gegen 11 Uhr an und gehen zu Ende Nachts gegen 1 Uhr , wenn meine Frau einschläft .
+6-1	256-259	Sie	_	_
+6-2	260-266	fangen	_	_
+6-3	267-269	in	_	_
+6-4	270-273	der	_	_
+6-5	274-279	Regel	_	_
+6-6	280-284	früh	_	_
+6-7	285-290	gegen	_	_
+6-8	291-293	11	_	_
+6-9	294-297	Uhr	_	_
+6-10	298-300	an	_	_
+6-11	301-304	und	_	_
+6-12	305-310	gehen	_	_
+6-13	311-313	zu	_	_
+6-14	314-318	Ende	_	_
+6-15	319-325	Nachts	_	_
+6-16	326-331	gegen	_	_
+6-17	332-333	1	_	_
+6-18	334-337	Uhr	_	_
+6-19	338-339	,	_	_
+6-20	340-344	wenn	_	_
+6-21	345-350	meine	_	_
+6-22	351-355	Frau	_	_
+6-23	356-366	einschläft	_	_
+6-24	367-368	.	_	_
+
+#Text=Gusserow fürchtet , daß in Folge der fausse couche , welche im April beinah eingetreten wäre , etwas an der Gebärmutter in Unordnung ist und daß der Fall möglicher Weise durch eine mehrfache proles complicirt werden könnte .
+7-1	369-377	Gusserow	*	PERmentioned
+7-2	378-386	fürchtet	_	_
+7-3	387-388	,	_	_
+7-4	389-392	daß	_	_
+7-5	393-395	in	_	_
+7-6	396-401	Folge	_	_
+7-7	402-405	der	_	_
+7-8	406-412	fausse	_	_
+7-9	413-419	couche	_	_
+7-10	420-421	,	_	_
+7-11	422-428	welche	_	_
+7-12	429-431	im	_	_
+7-13	432-437	April	*	DATEmentioned
+7-14	438-444	beinah	_	_
+7-15	445-456	eingetreten	_	_
+7-16	457-461	wäre	_	_
+7-17	462-463	,	_	_
+7-18	464-469	etwas	_	_
+7-19	470-472	an	_	_
+7-20	473-476	der	_	_
+7-21	477-488	Gebärmutter	_	_
+7-22	489-491	in	_	_
+7-23	492-501	Unordnung	_	_
+7-24	502-505	ist	_	_
+7-25	506-509	und	_	_
+7-26	510-513	daß	_	_
+7-27	514-517	der	_	_
+7-28	518-522	Fall	_	_
+7-29	523-532	möglicher	_	_
+7-30	533-538	Weise	_	_
+7-31	539-544	durch	_	_
+7-32	545-549	eine	_	_
+7-33	550-559	mehrfache	_	_
+7-34	560-566	proles	_	_
+7-35	567-577	complicirt	_	_
+7-36	578-584	werden	_	_
+7-37	585-591	könnte	_	_
+7-38	592-593	.	_	_
+
+#Text=Jeden Falls schicke ich Ihnen sofort telegraphischen Bescheid und verspreche ich Ihnen , daß ich meine Abreise auch keine Stunde länger hinausschiebe , als es absolut nöthig ist .
+8-1	594-599	Jeden	_	_
+8-2	600-605	Falls	_	_
+8-3	606-613	schicke	_	_
+8-4	614-617	ich	_	_
+8-5	618-623	Ihnen	_	_
+8-6	624-630	sofort	_	_
+8-7	631-646	telegraphischen	_	_
+8-8	647-655	Bescheid	_	_
+8-9	656-659	und	_	_
+8-10	660-670	verspreche	_	_
+8-11	671-674	ich	_	_
+8-12	675-680	Ihnen	_	_
+8-13	681-682	,	_	_
+8-14	683-686	daß	_	_
+8-15	687-690	ich	_	_
+8-16	691-696	meine	_	_
+8-17	697-704	Abreise	_	_
+8-18	705-709	auch	_	_
+8-19	710-715	keine	_	_
+8-20	716-722	Stunde	_	_
+8-21	723-729	länger	_	_
+8-22	730-743	hinausschiebe	_	_
+8-23	744-745	,	_	_
+8-24	746-749	als	_	_
+8-25	750-752	es	_	_
+8-26	753-760	absolut	_	_
+8-27	761-767	nöthig	_	_
+8-28	768-771	ist	_	_
+8-29	772-773	.	_	_
+
+#Text=Gleichzeitig theile ich die Situation an Mommsen mit .
+9-1	774-786	Gleichzeitig	_	_
+9-2	787-793	theile	_	_
+9-3	794-797	ich	_	_
+9-4	798-801	die	_	_
+9-5	802-811	Situation	_	_
+9-6	812-814	an	_	_
+9-7	815-822	Mommsen	*	PERmentioned
+9-8	823-826	mit	_	_
+9-9	827-828	.	_	_
+
+#Text=Übrigens befindet sich meine Frau abgesehen von der Zeit , in welcher sie Wehen hat , leidlich wohl \; nur ist sie sehr nervös aufgeregt .
+10-1	829-837	Übrigens	_	_
+10-2	838-846	befindet	_	_
+10-3	847-851	sich	_	_
+10-4	852-857	meine	_	_
+10-5	858-862	Frau	_	_
+10-6	863-872	abgesehen	_	_
+10-7	873-876	von	_	_
+10-8	877-880	der	_	_
+10-9	881-885	Zeit	_	_
+10-10	886-887	,	_	_
+10-11	888-890	in	_	_
+10-12	891-898	welcher	_	_
+10-13	899-902	sie	_	_
+10-14	903-908	Wehen	_	_
+10-15	909-912	hat	_	_
+10-16	913-914	,	_	_
+10-17	915-923	leidlich	_	_
+10-18	924-928	wohl	_	_
+10-19	929-930	\;	_	_
+10-20	931-934	nur	_	_
+10-21	935-938	ist	_	_
+10-22	939-942	sie	_	_
+10-23	943-947	sehr	_	_
+10-24	948-954	nervös	_	_
+10-25	955-964	aufgeregt	_	_
+10-26	965-966	.	_	_
+
+#Text=Vor drei Tagen war Michaelis mit den Zeichnungen des Nereidenmonuments hier .
+11-1	967-970	Vor	_	_
+11-2	971-975	drei	_	_
+11-3	976-981	Tagen	_	_
+11-4	982-985	war	_	_
+11-5	986-995	Michaelis	*	PERmentioned
+11-6	996-999	mit	_	_
+11-7	1000-1003	den	_	_
+11-8	1004-1015	Zeichnungen	_	_
+11-9	1016-1019	des	_	_
+11-10	1020-1037	Nereidenmonuments	*	OBJ
+11-11	1038-1042	hier	_	_
+11-12	1043-1044	.	_	_
+
+#Text=Wenn man dem dunklen Local Rechnung trägt , in welchem sich die Sculpturen befinden ,
+12-1	1045-1049	Wenn	_	_
+12-2	1050-1053	man	_	_
+12-3	1054-1057	dem	_	_
+12-4	1058-1065	dunklen	_	_
+12-5	1066-1071	Local	_	_
+12-6	1072-1080	Rechnung	_	_
+12-7	1081-1086	trägt	_	_
+12-8	1087-1088	,	_	_
+12-9	1089-1091	in	_	_
+12-10	1092-1099	welchem	_	_
+12-11	1100-1104	sich	_	_
+12-12	1105-1108	die	_	_
+12-13	1109-1119	Sculpturen	*	OBJ
+12-14	1120-1128	befinden	_	_
+12-15	1129-1130	,	_	_

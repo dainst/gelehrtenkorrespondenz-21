@@ -1,0 +1,320 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=89 z Henzen an Gerhard vV 1/2447754 Verehrter Herr Professor !
+1-1	0-2	89	_	_
+1-2	3-4	z	_	_
+1-3	5-11	Henzen	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-22	Gerhard	*	PERaddressee
+1-6	23-25	vV	_	_
+1-7	26-35	1/2447754	*	DATEletter
+1-8	36-45	Verehrter	_	_
+1-9	46-50	Herr	_	_
+1-10	51-60	Professor	_	_
+1-11	61-62	!	_	_
+
+#Text=Mit Vergnügen entaehme ich Ihrem 1 .
+2-1	63-66	Mit	_	_
+2-2	67-76	Vergnügen	_	_
+2-3	77-85	entaehme	_	_
+2-4	86-89	ich	_	_
+2-5	90-95	Ihrem	_	_
+2-6	96-97	1	_	_
+2-7	98-99	.	_	_
+
+#Text=Briefe vom 21 v .
+3-1	100-106	Briefe	_	_
+3-2	107-110	vom	_	_
+3-3	111-113	21	*[1]	DATEmentioned[1]
+3-4	114-115	v	*[1]	DATEmentioned[1]
+3-5	116-117	.	*[1]	DATEmentioned[1]
+
+#Text=NM. , daß die Zumptischen Papiere ausgeliefert werden .
+4-1	118-121	NM.	*[1]	DATEmentioned[1]
+4-2	122-123	,	_	_
+4-3	124-127	daß	_	_
+4-4	128-131	die	_	_
+4-5	132-143	Zumptischen	_	_
+4-6	144-151	Papiere	_	_
+4-7	152-164	ausgeliefert	_	_
+4-8	165-171	werden	_	_
+4-9	172-173	.	_	_
+
+#Text=Da Mommsen vielleicht gerade in Berlin ist , so ist es unnütz , von meiner Seite noch um möglichste Beschleunigung zu bitten , damit jener vor meiner Ankunft in Zürich noch nöthisge Vorbereitungen treffen könne .
+5-1	174-176	Da	_	_
+5-2	177-184	Mommsen	*	PERmentioned
+5-3	185-195	vielleicht	_	_
+5-4	196-202	gerade	_	_
+5-5	203-205	in	_	_
+5-6	206-212	Berlin	*	PLACEmentioned
+5-7	213-216	ist	_	_
+5-8	217-218	,	_	_
+5-9	219-221	so	_	_
+5-10	222-225	ist	_	_
+5-11	226-228	es	_	_
+5-12	229-235	unnütz	_	_
+5-13	236-237	,	_	_
+5-14	238-241	von	_	_
+5-15	242-248	meiner	_	_
+5-16	249-254	Seite	_	_
+5-17	255-259	noch	_	_
+5-18	260-262	um	_	_
+5-19	263-273	möglichste	_	_
+5-20	274-288	Beschleunigung	_	_
+5-21	289-291	zu	_	_
+5-22	292-298	bitten	_	_
+5-23	299-300	,	_	_
+5-24	301-306	damit	_	_
+5-25	307-312	jener	_	_
+5-26	313-316	vor	_	_
+5-27	317-323	meiner	_	_
+5-28	324-331	Ankunft	_	_
+5-29	332-334	in	_	_
+5-30	335-341	Zürich	*	PLACEmentioned
+5-31	342-346	noch	_	_
+5-32	347-355	nöthisge	_	_
+5-33	356-370	Vorbereitungen	_	_
+5-34	371-378	treffen	_	_
+5-35	379-384	könne	_	_
+5-36	385-386	.	_	_
+
+#Text=-— Es freut mich , Rinder hier zu sehen , mit dem sich mündlich gewiß allerlei wird abmachen lassen .
+6-1	387-389	-—	_	_
+6-2	390-392	Es	_	_
+6-3	393-398	freut	_	_
+6-4	399-403	mich	_	_
+6-5	404-405	,	_	_
+6-6	406-412	Rinder	*	PERmentioned
+6-7	413-417	hier	_	_
+6-8	418-420	zu	_	_
+6-9	421-426	sehen	_	_
+6-10	427-428	,	_	_
+6-11	429-432	mit	_	_
+6-12	433-436	dem	_	_
+6-13	437-441	sich	_	_
+6-14	442-450	mündlich	_	_
+6-15	451-456	gewiß	_	_
+6-16	457-465	allerlei	_	_
+6-17	466-470	wird	_	_
+6-18	471-479	abmachen	_	_
+6-19	480-486	lassen	_	_
+6-20	487-488	.	_	_
+
+#Text=Zunächst erbitte ich mir aber von der Commission darüber Auskunft , in wie weit bei der dereinstigen Herauszabe des Corpus auf Größe u. Form der Buchstaben Rücksicht genommen werden soll .
+7-1	489-497	Zunächst	_	_
+7-2	498-505	erbitte	_	_
+7-3	506-509	ich	_	_
+7-4	510-513	mir	_	_
+7-5	514-518	aber	_	_
+7-6	519-522	von	_	_
+7-7	523-526	der	_	_
+7-8	527-537	Commission	*	ORGmentioned
+7-9	538-545	darüber	_	_
+7-10	546-554	Auskunft	_	_
+7-11	555-556	,	_	_
+7-12	557-559	in	_	_
+7-13	560-563	wie	_	_
+7-14	564-568	weit	_	_
+7-15	569-572	bei	_	_
+7-16	573-576	der	_	_
+7-17	577-589	dereinstigen	_	_
+7-18	590-600	Herauszabe	_	_
+7-19	601-604	des	_	_
+7-20	605-611	Corpus	_	_
+7-21	612-615	auf	_	_
+7-22	616-621	Größe	_	_
+7-23	622-624	u.	_	_
+7-24	625-629	Form	_	_
+7-25	630-633	der	_	_
+7-26	634-644	Buchstaben	_	_
+7-27	645-654	Rücksicht	_	_
+7-28	655-663	genommen	_	_
+7-29	664-670	werden	_	_
+7-30	671-675	soll	_	_
+7-31	676-677	.	_	_
+
+#Text=Es ist dieses zunächst für de Rossi u. mich wichtig , da wir darnach unsre äÄbschriften in den Nuseen einrichten müssen .
+8-1	678-680	Es	_	_
+8-2	681-684	ist	_	_
+8-3	685-691	dieses	_	_
+8-4	692-700	zunächst	_	_
+8-5	701-704	für	_	_
+8-6	705-707	de	*[2]	PERmentioned[2]
+8-7	708-713	Rossi	*[2]	PERmentioned[2]
+8-8	714-716	u.	_	_
+8-9	717-721	mich	_	_
+8-10	722-729	wichtig	_	_
+8-11	730-731	,	_	_
+8-12	732-734	da	_	_
+8-13	735-738	wir	_	_
+8-14	739-746	darnach	_	_
+8-15	747-752	unsre	_	_
+8-16	753-765	äÄbschriften	_	_
+8-17	766-768	in	_	_
+8-18	769-772	den	_	_
+8-19	773-779	Nuseen	_	_
+8-20	780-790	einrichten	_	_
+8-21	791-797	müssen	_	_
+8-22	798-799	.	_	_
+
+#Text=Wollte man bloß einen richtigen Text , so Könnte ich mir z . B. neue Abschrift ds . Nuseo Capitol .
+9-1	800-806	Wollte	_	_
+9-2	807-810	man	_	_
+9-3	811-815	bloß	_	_
+9-4	816-821	einen	_	_
+9-5	822-831	richtigen	_	_
+9-6	832-836	Text	_	_
+9-7	837-838	,	_	_
+9-8	839-841	so	_	_
+9-9	842-848	Könnte	_	_
+9-10	849-852	ich	_	_
+9-11	853-856	mir	_	_
+9-12	857-858	z	_	_
+9-13	859-860	.	_	_
+9-14	861-863	B.	_	_
+9-15	864-868	neue	_	_
+9-16	869-878	Abschrift	_	_
+9-17	879-881	ds	_	_
+9-18	882-883	.	_	_
+9-19	884-889	Nuseo	*[3]	ORGmentioned[3]
+9-20	890-897	Capitol	*[3]	ORGmentioned[3]
+9-21	898-899	.	_	_
+
+#Text=u. großen Theils des Vatican's sparen , da ich ersteres fast ganz u. vom letzterem sehr vieles collationirt habe , Uns wäre also dieses Systen bequemer .
+10-1	900-902	u.	_	_
+10-2	903-909	großen	_	_
+10-3	910-916	Theils	_	_
+10-4	917-920	des	_	_
+10-5	921-930	Vatican's	*	ORGmentioned
+10-6	931-937	sparen	_	_
+10-7	938-939	,	_	_
+10-8	940-942	da	_	_
+10-9	943-946	ich	_	_
+10-10	947-955	ersteres	_	_
+10-11	956-960	fast	_	_
+10-12	961-965	ganz	_	_
+10-13	966-968	u.	_	_
+10-14	969-972	vom	_	_
+10-15	973-982	letzterem	_	_
+10-16	983-987	sehr	_	_
+10-17	988-994	vieles	_	_
+10-18	995-1007	collationirt	_	_
+10-19	1008-1012	habe	_	_
+10-20	1013-1014	,	_	_
+10-21	1015-1018	Uns	_	_
+10-22	1019-1023	wäre	_	_
+10-23	1024-1028	also	_	_
+10-24	1029-1035	dieses	_	_
+10-25	1036-1042	Systen	_	_
+10-26	1043-1051	bequemer	_	_
+10-27	1052-1053	.	_	_
+
+#Text=Dennoch aber sind wir der Neinung , daß man in Nachahmung der Originale so weit gehen müsse , wie lommsen in den I , N , -— Ich bitte also um baldige Auskunft darüber , damit wir nicht vergebens arbeiten .
+11-1	1054-1061	Dennoch	_	_
+11-2	1062-1066	aber	_	_
+11-3	1067-1071	sind	_	_
+11-4	1072-1075	wir	_	_
+11-5	1076-1079	der	_	_
+11-6	1080-1087	Neinung	_	_
+11-7	1088-1089	,	_	_
+11-8	1090-1093	daß	_	_
+11-9	1094-1097	man	_	_
+11-10	1098-1100	in	_	_
+11-11	1101-1111	Nachahmung	_	_
+11-12	1112-1115	der	_	_
+11-13	1116-1125	Originale	_	_
+11-14	1126-1128	so	_	_
+11-15	1129-1133	weit	_	_
+11-16	1134-1139	gehen	_	_
+11-17	1140-1145	müsse	_	_
+11-18	1146-1147	,	_	_
+11-19	1148-1151	wie	_	_
+11-20	1152-1159	lommsen	*	PERmentioned
+11-21	1160-1162	in	_	_
+11-22	1163-1166	den	_	_
+11-23	1167-1168	I	_	_
+11-24	1169-1170	,	_	_
+11-25	1171-1172	N	_	_
+11-26	1173-1174	,	_	_
+11-27	1175-1177	-—	_	_
+11-28	1178-1181	Ich	_	_
+11-29	1182-1187	bitte	_	_
+11-30	1188-1192	also	_	_
+11-31	1193-1195	um	_	_
+11-32	1196-1203	baldige	_	_
+11-33	1204-1212	Auskunft	_	_
+11-34	1213-1220	darüber	_	_
+11-35	1221-1222	,	_	_
+11-36	1223-1228	damit	_	_
+11-37	1229-1232	wir	_	_
+11-38	1233-1238	nicht	_	_
+11-39	1239-1248	vergebens	_	_
+11-40	1249-1257	arbeiten	_	_
+11-41	1258-1259	.	_	_
+
+#Text=Nit Nommsen werden Ja wohl auch diese secundären Frasen absesprochen sein .
+12-1	1260-1263	Nit	_	_
+12-2	1264-1271	Nommsen	*	PERmentioned
+12-3	1272-1278	werden	_	_
+12-4	1279-1281	Ja	_	_
+12-5	1282-1286	wohl	_	_
+12-6	1287-1291	auch	_	_
+12-7	1292-1297	diese	_	_
+12-8	1298-1308	secundären	_	_
+12-9	1309-1315	Frasen	_	_
+12-10	1316-1328	absesprochen	_	_
+12-11	1329-1333	sein	_	_
+12-12	1334-1335	.	_	_
+
+#Text=Daß wir Usedom verlieren sollen , ist sehr schlimm .
+13-1	1336-1339	Daß	_	_
+13-2	1340-1343	wir	_	_
+13-3	1344-1350	Usedom	*	PERmentioned
+13-4	1351-1360	verlieren	_	_
+13-5	1361-1367	sollen	_	_
+13-6	1368-1369	,	_	_
+13-7	1370-1373	ist	_	_
+13-8	1374-1378	sehr	_	_
+13-9	1379-1386	schlimm	_	_
+13-10	1387-1388	.	_	_
+
+#Text=\| Spricht man denn schon von einer Wechfolger ?
+14-1	1389-1390	\|	_	_
+14-2	1391-1398	Spricht	_	_
+14-3	1399-1402	man	_	_
+14-4	1403-1407	denn	_	_
+14-5	1408-1413	schon	_	_
+14-6	1414-1417	von	_	_
+14-7	1418-1423	einer	_	_
+14-8	1424-1434	Wechfolger	_	_
+14-9	1435-1436	?	_	_
+
+#Text=Zur Erwiederunz auf Ihre Bemerkunsen über meine Wünsche nur die Versicherungs , daß ich gewiß nicht nach künftirem hohen Gehalte strebe oder meinen Ital . Aufent-
+15-1	1437-1440	Zur	_	_
+15-2	1441-1452	Erwiederunz	_	_
+15-3	1453-1456	auf	_	_
+15-4	1457-1461	Ihre	_	_
+15-5	1462-1473	Bemerkunsen	_	_
+15-6	1474-1478	über	_	_
+15-7	1479-1484	meine	_	_
+15-8	1485-1492	Wünsche	_	_
+15-9	1493-1496	nur	_	_
+15-10	1497-1500	die	_	_
+15-11	1501-1514	Versicherungs	_	_
+15-12	1515-1516	,	_	_
+15-13	1517-1520	daß	_	_
+15-14	1521-1524	ich	_	_
+15-15	1525-1530	gewiß	_	_
+15-16	1531-1536	nicht	_	_
+15-17	1537-1541	nach	_	_
+15-18	1542-1551	künftirem	_	_
+15-19	1552-1557	hohen	_	_
+15-20	1558-1565	Gehalte	_	_
+15-21	1566-1572	strebe	_	_
+15-22	1573-1577	oder	_	_
+15-23	1578-1584	meinen	_	_
+15-24	1585-1589	Ital	_	_
+15-25	1590-1591	.	_	_
+15-26	1592-1599	Aufent-	_	_

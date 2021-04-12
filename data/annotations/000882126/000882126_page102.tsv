@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=320 Braun an Gerhard Rom , 19. April 1836 Prof. Gerhard Roma li 19 April 1836 .
+1-1	0-3	320	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	19.	*[17]	DATEletter[17]
+1-8	31-36	April	*[17]	DATEletter[17]
+1-9	37-41	1836	*[17]	DATEletter[17]
+1-10	42-47	Prof.	*[18]	PERaddressee[18]
+1-11	48-55	Gerhard	*[18]	PERaddressee[18]
+1-12	56-60	Roma	*	PLACEfrom
+1-13	61-63	li	_	_
+1-14	64-66	19	*[19]	DATEletter[19]
+1-15	67-72	April	*[19]	DATEletter[19]
+1-16	73-77	1836	*[19]	DATEletter[19]
+1-17	78-79	.	_	_
+
+#Text=Hochverehrtester Freund !
+2-1	80-96	Hochverehrtester	_	_
+2-2	97-103	Freund	_	_
+2-3	104-105	!	_	_
+
+#Text=Unsere Verhältnisse gestalten sich tragisch .
+3-1	106-112	Unsere	_	_
+3-2	113-125	Verhältnisse	_	_
+3-3	126-135	gestalten	_	_
+3-4	136-140	sich	_	_
+3-5	141-149	tragisch	_	_
+3-6	150-151	.	_	_
+
+#Text=Gestern erhielt ich auf der Post einen Brief von einem Freund aus der Schweiz , von Ihnen nicht .
+4-1	152-159	Gestern	_	_
+4-2	160-167	erhielt	_	_
+4-3	168-171	ich	_	_
+4-4	172-175	auf	_	_
+4-5	176-179	der	_	_
+4-6	180-184	Post	_	_
+4-7	185-190	einen	_	_
+4-8	191-196	Brief	_	_
+4-9	197-200	von	_	_
+4-10	201-206	einem	_	_
+4-11	207-213	Freund	_	_
+4-12	214-217	aus	_	_
+4-13	218-221	der	_	_
+4-14	222-229	Schweiz	*	PLACEmentioned
+4-15	230-231	,	_	_
+4-16	232-235	von	_	_
+4-17	236-241	Ihnen	_	_
+4-18	242-247	nicht	_	_
+4-19	248-249	.	_	_
+
+#Text=Heute Morgen erhalte ich Ihren Brief , der mit derselben Addresse versehen war , durch Geh .
+5-1	250-255	Heute	_	_
+5-2	256-262	Morgen	_	_
+5-3	263-270	erhalte	_	_
+5-4	271-274	ich	_	_
+5-5	275-280	Ihren	_	_
+5-6	281-286	Brief	_	_
+5-7	287-288	,	_	_
+5-8	289-292	der	_	_
+5-9	293-296	mit	_	_
+5-10	297-306	derselben	_	_
+5-11	307-315	Addresse	_	_
+5-12	316-324	versehen	_	_
+5-13	325-328	war	_	_
+5-14	329-330	,	_	_
+5-15	331-336	durch	_	_
+5-16	337-340	Geh	_	_
+5-17	341-342	.	_	_
+
+#Text=Rath Bunsen erbrochen .
+6-1	343-347	Rath	_	_
+6-2	348-354	Bunsen	*	PERmentioned
+6-3	355-364	erbrochen	_	_
+6-4	365-366	.	_	_
+
+#Text=Wie er in seine Hände gekommen weiß ich nicht .
+7-1	367-370	Wie	_	_
+7-2	371-373	er	_	_
+7-3	374-376	in	_	_
+7-4	377-382	seine	_	_
+7-5	383-388	Hände	_	_
+7-6	389-397	gekommen	_	_
+7-7	398-402	weiß	_	_
+7-8	403-406	ich	_	_
+7-9	407-412	nicht	_	_
+7-10	413-414	.	_	_
+
+#Text=Ob er ihn auf der Post selbst hat holen lassen ?
+8-1	415-417	Ob	_	_
+8-2	418-420	er	_	_
+8-3	421-424	ihn	_	_
+8-4	425-428	auf	_	_
+8-5	429-432	der	_	_
+8-6	433-437	Post	_	_
+8-7	438-444	selbst	_	_
+8-8	445-448	hat	_	_
+8-9	449-454	holen	_	_
+8-10	455-461	lassen	_	_
+8-11	462-463	?	_	_
+
+#Text=In Ihrem Brief sprechen Sie gegen mich die eventuelle Drohung aus zu erklären die Direction des Instituts befinde sich in Berlin und Paris .
+9-1	464-466	In	_	_
+9-2	467-472	Ihrem	_	_
+9-3	473-478	Brief	_	_
+9-4	479-487	sprechen	_	_
+9-5	488-491	Sie	_	_
+9-6	492-497	gegen	_	_
+9-7	498-502	mich	_	_
+9-8	503-506	die	_	_
+9-9	507-517	eventuelle	_	_
+9-10	518-525	Drohung	_	_
+9-11	526-529	aus	_	_
+9-12	530-532	zu	_	_
+9-13	533-541	erklären	_	_
+9-14	542-545	die	_	_
+9-15	546-555	Direction	_	_
+9-16	556-559	des	_	_
+9-17	560-569	Instituts	*	ORGmentioned
+9-18	570-577	befinde	_	_
+9-19	578-582	sich	_	_
+9-20	583-585	in	_	_
+9-21	586-592	Berlin	*	PLACEmentioned
+9-22	593-596	und	_	_
+9-23	597-602	Paris	*	PLACEmentioned
+9-24	603-604	.	_	_
+
+#Text=Dies hat Bunsen gelesen und gewaltig übel genommen .
+10-1	605-609	Dies	_	_
+10-2	610-613	hat	_	_
+10-3	614-620	Bunsen	*	PERmentioned
+10-4	621-628	gelesen	_	_
+10-5	629-632	und	_	_
+10-6	633-641	gewaltig	_	_
+10-7	642-646	übel	_	_
+10-8	647-655	genommen	_	_
+10-9	656-657	.	_	_
+
+#Text=Er fürchtet Sie möchten es thuen und a faccia del protettore .
+11-1	658-660	Er	_	_
+11-2	661-669	fürchtet	_	_
+11-3	670-673	Sie	_	_
+11-4	674-681	möchten	_	_
+11-5	682-684	es	_	_
+11-6	685-690	thuen	_	_
+11-7	691-694	und	_	_
+11-8	695-696	a	_	_
+11-9	697-703	faccia	_	_
+11-10	704-707	del	_	_
+11-11	708-718	protettore	_	_
+11-12	719-720	.	_	_
+
+#Text=Deshalb hat er an Röstell geschrieben , der Ihnen die Sache in Bunsens Namen vorstellen wird .
+12-1	721-728	Deshalb	_	_
+12-2	729-732	hat	_	_
+12-3	733-735	er	_	_
+12-4	736-738	an	_	_
+12-5	739-746	Röstell	*	PERmentioned
+12-6	747-758	geschrieben	_	_
+12-7	759-760	,	_	_
+12-8	761-764	der	_	_
+12-9	765-770	Ihnen	_	_
+12-10	771-774	die	_	_
+12-11	775-780	Sache	_	_
+12-12	781-783	in	_	_
+12-13	784-791	Bunsens	*	PERmentioned
+12-14	792-797	Namen	_	_
+12-15	798-808	vorstellen	_	_
+12-16	809-813	wird	_	_
+12-17	814-815	.	_	_
+
+#Text=Die Mittheilung dieser unangenehmen Notiz konnte ich Ihnen nicht ersparen \; ich mußte sie Ihnen zu meiner eigenen Legitimation machen .
+13-1	816-819	Die	_	_
+13-2	820-831	Mittheilung	_	_
+13-3	832-838	dieser	_	_
+13-4	839-851	unangenehmen	_	_
+13-5	852-857	Notiz	_	_
+13-6	858-864	konnte	_	_
+13-7	865-868	ich	_	_
+13-8	869-874	Ihnen	_	_
+13-9	875-880	nicht	_	_
+13-10	881-889	ersparen	_	_
+13-11	890-891	\;	_	_
+13-12	892-895	ich	_	_
+13-13	896-901	mußte	_	_
+13-14	902-905	sie	_	_
+13-15	906-911	Ihnen	_	_
+13-16	912-914	zu	_	_
+13-17	915-921	meiner	_	_
+13-18	922-929	eigenen	_	_
+13-19	930-942	Legitimation	_	_
+13-20	943-949	machen	_	_
+13-21	950-951	.	_	_
+
+#Text=Sie werden die Sache nicht kleinlich , nicht leidenschaftlich und ohne Häst hinnehmen .
+14-1	952-955	Sie	_	_
+14-2	956-962	werden	_	_
+14-3	963-966	die	_	_
+14-4	967-972	Sache	_	_
+14-5	973-978	nicht	_	_
+14-6	979-988	kleinlich	_	_
+14-7	989-990	,	_	_
+14-8	991-996	nicht	_	_
+14-9	997-1013	leidenschaftlich	_	_
+14-10	1014-1017	und	_	_
+14-11	1018-1022	ohne	_	_
+14-12	1023-1027	Häst	_	_
+14-13	1028-1037	hinnehmen	_	_
+14-14	1038-1039	.	_	_
+
+#Text=Lanci und ich , wir denken in der Sache wie Sie .
+15-1	1040-1045	Lanci	*	PERmentioned
+15-2	1046-1049	und	_	_
+15-3	1050-1053	ich	_	_
+15-4	1054-1055	,	_	_
+15-5	1056-1059	wir	_	_
+15-6	1060-1066	denken	_	_
+15-7	1067-1069	in	_	_
+15-8	1070-1073	der	_	_
+15-9	1074-1079	Sache	_	_
+15-10	1080-1083	wie	_	_
+15-11	1084-1087	Sie	_	_
+15-12	1088-1089	.	_	_
+
+#Text=Das Recht scheint vollkommen auf Ihrer Seite \; ob in Kleiniskeiten das Ganze modificirt wird , kann ich nicht übersehen .
+16-1	1090-1093	Das	_	_
+16-2	1094-1099	Recht	_	_
+16-3	1100-1107	scheint	_	_
+16-4	1108-1118	vollkommen	_	_
+16-5	1119-1122	auf	_	_
+16-6	1123-1128	Ihrer	_	_
+16-7	1129-1134	Seite	_	_
+16-8	1135-1136	\;	_	_
+16-9	1137-1139	ob	_	_
+16-10	1140-1142	in	_	_
+16-11	1143-1156	Kleiniskeiten	_	_
+16-12	1157-1160	das	_	_
+16-13	1161-1166	Ganze	_	_
+16-14	1167-1177	modificirt	_	_
+16-15	1178-1182	wird	_	_
+16-16	1183-1184	,	_	_
+16-17	1185-1189	kann	_	_
+16-18	1190-1193	ich	_	_
+16-19	1194-1199	nicht	_	_
+16-20	1200-1209	übersehen	_	_
+16-21	1210-1211	.	_	_
+
+#Text=- Mir thut es unendlich leid daß durch Leidenschaftlichkeit und Härte der Gesinnung die Sache so schlimm , ganz bös geworden ist .
+17-1	1212-1213	-	_	_
+17-2	1214-1217	Mir	_	_
+17-3	1218-1222	thut	_	_
+17-4	1223-1225	es	_	_
+17-5	1226-1235	unendlich	_	_
+17-6	1236-1240	leid	_	_
+17-7	1241-1244	daß	_	_
+17-8	1245-1250	durch	_	_
+17-9	1251-1271	Leidenschaftlichkeit	_	_
+17-10	1272-1275	und	_	_
+17-11	1276-1281	Härte	_	_
+17-12	1282-1285	der	_	_
+17-13	1286-1295	Gesinnung	_	_
+17-14	1296-1299	die	_	_
+17-15	1300-1305	Sache	_	_
+17-16	1306-1308	so	_	_
+17-17	1309-1316	schlimm	_	_
+17-18	1317-1318	,	_	_
+17-19	1319-1323	ganz	_	_
+17-20	1324-1327	bös	_	_
+17-21	1328-1336	geworden	_	_
+17-22	1337-1340	ist	_	_
+17-23	1341-1342	.	_	_

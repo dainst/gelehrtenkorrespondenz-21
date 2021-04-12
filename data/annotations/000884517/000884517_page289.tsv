@@ -1,0 +1,161 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=130 Eduard Gerhard an Emil Braun Wilhelm Henzen , Heinrich Brunn Berlin , 16. Mai 1850 A. di Dir .
+1-1	0-3	130	_	_
+1-2	4-10	Eduard	*[1]	PERauthor[1]
+1-3	11-18	Gerhard	*[1]	PERauthor[1]
+1-4	19-21	an	_	_
+1-5	22-26	Emil	*[2]	PERaddressee[2]
+1-6	27-32	Braun	*[2]	PERaddressee|PERaddressee[2]
+1-7	33-40	Wilhelm	*[3]	PERaddressee[3]
+1-8	41-47	Henzen	*[3]	PERaddressee|PERaddressee[3]
+1-9	48-49	,	_	_
+1-10	50-58	Heinrich	*[4]	PERaddressee[4]
+1-11	59-64	Brunn	*[4]	PERaddressee|PERaddressee[4]
+1-12	65-71	Berlin	*	PLACEfrom
+1-13	72-73	,	_	_
+1-14	74-77	16.	*[5]	DATEletter[5]
+1-15	78-81	Mai	*[5]	DATEletter[5]
+1-16	82-86	1850	*[5]	DATEletter[5]
+1-17	87-89	A.	_	_
+1-18	90-92	di	_	_
+1-19	93-96	Dir	_	_
+1-20	97-98	.	_	_
+
+#Text=g . 2/WVII 50 HH .
+2-1	99-100	g	_	_
+2-2	101-102	.	_	_
+2-3	103-109	2/WVII	*[6]	DATErecieved[6]
+2-4	110-112	50	*[6]	DATErecieved[6]
+2-5	113-115	HH	_	_
+2-6	116-117	.	_	_
+
+#Text=D Braun , Henzen , Brunn : Denjenigen Kapitolinischen Freund welcher die beigehende archäologische Sendung eröffnet , bitte ich die gefällige Überbringerin desselben Fräulein Ludendorff aus Hamburg vorkommenden Falls für römische Beschauungen zu unterstützen .
+3-1	118-119	D	_	_
+3-2	120-125	Braun	_	_
+3-3	126-127	,	_	_
+3-4	128-134	Henzen	_	_
+3-5	135-136	,	_	_
+3-6	137-142	Brunn	_	_
+3-7	143-144	:	_	_
+3-8	145-155	Denjenigen	_	_
+3-9	156-171	Kapitolinischen	_	_
+3-10	172-178	Freund	_	_
+3-11	179-186	welcher	_	_
+3-12	187-190	die	_	_
+3-13	191-201	beigehende	_	_
+3-14	202-216	archäologische	_	_
+3-15	217-224	Sendung	_	_
+3-16	225-233	eröffnet	_	_
+3-17	234-235	,	_	_
+3-18	236-241	bitte	_	_
+3-19	242-245	ich	_	_
+3-20	246-249	die	_	_
+3-21	250-259	gefällige	_	_
+3-22	260-273	Überbringerin	_	_
+3-23	274-283	desselben	_	_
+3-24	284-292	Fräulein	*[7]	PERmentioned[7]
+3-25	293-303	Ludendorff	*[7]	PERmentioned[7]
+3-26	304-307	aus	_	_
+3-27	308-315	Hamburg	*	PLACEmentioned
+3-28	316-328	vorkommenden	_	_
+3-29	329-334	Falls	_	_
+3-30	335-338	für	_	_
+3-31	339-347	römische	_	_
+3-32	348-360	Beschauungen	_	_
+3-33	361-363	zu	_	_
+3-34	364-376	unterstützen	_	_
+3-35	377-378	.	_	_
+
+#Text=Obwohl dieselbe nur den Gesammteindruck Roms sucht und mit einem bereits in Rom gewesenen Freunde reist , so wird sie doch einen Besuch und etwanige Nachweisungen -— für Villa Mills , Villa Ludovisi se mai und dergl .
+4-1	379-385	Obwohl	_	_
+4-2	386-394	dieselbe	_	_
+4-3	395-398	nur	_	_
+4-4	399-402	den	_	_
+4-5	403-418	Gesammteindruck	_	_
+4-6	419-423	Roms	*	PLACEmentioned
+4-7	424-429	sucht	_	_
+4-8	430-433	und	_	_
+4-9	434-437	mit	_	_
+4-10	438-443	einem	_	_
+4-11	444-451	bereits	_	_
+4-12	452-454	in	_	_
+4-13	455-458	Rom	*	PLACEmentioned
+4-14	459-468	gewesenen	_	_
+4-15	469-476	Freunde	_	_
+4-16	477-482	reist	_	_
+4-17	483-484	,	_	_
+4-18	485-487	so	_	_
+4-19	488-492	wird	_	_
+4-20	493-496	sie	_	_
+4-21	497-501	doch	_	_
+4-22	502-507	einen	_	_
+4-23	508-514	Besuch	_	_
+4-24	515-518	und	_	_
+4-25	519-527	etwanige	_	_
+4-26	528-541	Nachweisungen	_	_
+4-27	542-544	-—	_	_
+4-28	545-548	für	_	_
+4-29	549-554	Villa	*[8]	PLACEmentioned[8]
+4-30	555-560	Mills	*[8]	PLACEmentioned[8]
+4-31	561-562	,	_	_
+4-32	563-568	Villa	*[9]	PLACEmentioned[9]
+4-33	569-577	Ludovisi	*[9]	PLACEmentioned[9]
+4-34	578-580	se	_	_
+4-35	581-584	mai	_	_
+4-36	585-588	und	_	_
+4-37	589-594	dergl	_	_
+4-38	595-596	.	_	_
+
+#Text=a . - dankbar zu schätzen wissen .
+5-1	597-598	a	_	_
+5-2	599-600	.	_	_
+5-3	601-602	-	_	_
+5-4	603-610	dankbar	_	_
+5-5	611-613	zu	_	_
+5-6	614-622	schätzen	_	_
+5-7	623-629	wissen	_	_
+5-8	630-631	.	_	_
+
+#Text=Herzlich grüßend Gerhard Berlin 16/5 50 Ich sende die 3 dringendsten Exemplare der Archäol ( ogischen ) Z ( ei ) t ( un ) g , und halte das für Freund Henzen wegen Raumersparniß auch diesmal zurück .
+6-1	632-640	Herzlich	_	_
+6-2	641-648	grüßend	_	_
+6-3	649-656	Gerhard	*	PERauthor
+6-4	657-663	Berlin	*	PLACEfrom
+6-5	664-668	16/5	*[10]	DATEletter[10]
+6-6	669-671	50	*[10]	DATEletter[10]
+6-7	672-675	Ich	_	_
+6-8	676-681	sende	_	_
+6-9	682-685	die	_	_
+6-10	686-687	3	_	_
+6-11	688-700	dringendsten	_	_
+6-12	701-710	Exemplare	_	_
+6-13	711-714	der	_	_
+6-14	715-722	Archäol	_	_
+6-15	723-724	(	_	_
+6-16	725-733	ogischen	_	_
+6-17	734-735	)	_	_
+6-18	736-737	Z	_	_
+6-19	738-739	(	_	_
+6-20	740-742	ei	_	_
+6-21	743-744	)	_	_
+6-22	745-746	t	_	_
+6-23	747-748	(	_	_
+6-24	749-751	un	_	_
+6-25	752-753	)	_	_
+6-26	754-755	g	_	_
+6-27	756-757	,	_	_
+6-28	758-761	und	_	_
+6-29	762-767	halte	_	_
+6-30	768-771	das	_	_
+6-31	772-775	für	_	_
+6-32	776-782	Freund	_	_
+6-33	783-789	Henzen	*	PERmentioned
+6-34	790-795	wegen	_	_
+6-35	796-809	Raumersparniß	_	_
+6-36	810-814	auch	_	_
+6-37	815-822	diesmal	_	_
+6-38	823-829	zurück	_	_
+6-39	830-831	.	_	_

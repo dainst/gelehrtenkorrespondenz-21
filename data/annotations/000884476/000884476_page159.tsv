@@ -1,0 +1,260 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=477 Gerhard an Braun Berlin , 23. März 71835 ich in Rom zahlen ?
+1-1	0-3	477	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	23.	*[4]	DATEletter[4]
+1-8	34-38	März	*[4]	DATEletter[4]
+1-9	39-44	71835	*[4]	DATEletter[4]
+1-10	45-48	ich	_	_
+1-11	49-51	in	_	_
+1-12	52-55	Rom	*	PLACEmentioned
+1-13	56-62	zahlen	_	_
+1-14	63-64	?	_	_
+
+#Text=Dite al mio amico Lanci ch'io lo compatisco della sua disperazione di I !
+2-1	65-69	Dite	_	_
+2-2	70-72	al	_	_
+2-3	73-76	mio	_	_
+2-4	77-82	amico	_	_
+2-5	83-88	Lanci	*	PERmentioned
+2-6	89-94	ch'io	_	_
+2-7	95-97	lo	_	_
+2-8	98-108	compatisco	_	_
+2-9	109-114	della	_	_
+2-10	115-118	sua	_	_
+2-11	119-131	disperazione	_	_
+2-12	132-134	di	_	_
+2-13	135-136	I	_	_
+2-14	137-138	!	_	_
+
+#Text=Ich freue mich sehr auf die schönen Elfenbeinsachen die Sie für mich gekauft .
+3-1	139-142	Ich	_	_
+3-2	143-148	freue	_	_
+3-3	149-153	mich	_	_
+3-4	154-158	sehr	_	_
+3-5	159-162	auf	_	_
+3-6	163-166	die	_	_
+3-7	167-174	schönen	_	_
+3-8	175-190	Elfenbeinsachen	_	_
+3-9	191-194	die	_	_
+3-10	195-198	Sie	_	_
+3-11	199-202	für	_	_
+3-12	203-207	mich	_	_
+3-13	208-215	gekauft	_	_
+3-14	216-217	.	_	_
+
+#Text=Ich lasse die Jason Schale stechen zum > .
+4-1	218-221	Ich	_	_
+4-2	222-227	lasse	_	_
+4-3	228-231	die	_	_
+4-4	232-237	Jason	*[7]	OBJ[7]
+4-5	238-244	Schale	*[7]	OBJ[7]
+4-6	245-252	stechen	_	_
+4-7	253-256	zum	_	_
+4-8	257-258	>	_	_
+4-9	259-260	.	*[8]	DATEmentioned[8]
+
+#Text=April .
+5-1	261-266	April	*[8]	DATEmentioned[8]
+5-2	267-268	.	_	_
+
+#Text=Am 17 März hatte ich eine vielbesuchte archäologische Abendunterhaltung im Hotel de Russie .
+6-1	269-271	Am	_	_
+6-2	272-274	17	*[9]	DATEmentioned[9]
+6-3	275-279	März	*[9]	DATEmentioned[9]
+6-4	280-285	hatte	_	_
+6-5	286-289	ich	_	_
+6-6	290-294	eine	_	_
+6-7	295-307	vielbesuchte	_	_
+6-8	308-322	archäologische	_	_
+6-9	323-340	Abendunterhaltung	_	_
+6-10	341-343	im	_	_
+6-11	344-349	Hotel	_	_
+6-12	350-352	de	_	_
+6-13	353-359	Russie	_	_
+6-14	360-361	.	_	_
+
+#Text=zu Vnrlenumgar sind 350 Billets gelöst \; die Hälfte der Leute Beante .
+7-1	362-364	zu	_	_
+7-2	365-376	Vnrlenumgar	_	_
+7-3	377-381	sind	_	_
+7-4	382-385	350	_	_
+7-5	386-393	Billets	_	_
+7-6	394-400	gelöst	_	_
+7-7	401-402	\;	_	_
+7-8	403-406	die	_	_
+7-9	407-413	Hälfte	_	_
+7-10	414-417	der	_	_
+7-11	418-423	Leute	_	_
+7-12	424-430	Beante	_	_
+7-13	431-432	.	_	_
+
+#Text=seeo .... Mein Gemmenkatalog ist fertig \; ohne ( Comeerw und ohne Notiz der Stoffischen Bezifferung .
+8-1	433-437	seeo	_	_
+8-2	438-442	....	_	_
+8-3	443-447	Mein	_	_
+8-4	448-461	Gemmenkatalog	_	_
+8-5	462-465	ist	_	_
+8-6	466-472	fertig	_	_
+8-7	473-474	\;	_	_
+8-8	475-479	ohne	_	_
+8-9	480-481	(	_	_
+8-10	482-489	Comeerw	_	_
+8-11	490-493	und	_	_
+8-12	494-498	ohne	_	_
+8-13	499-504	Notiz	_	_
+8-14	505-508	der	_	_
+8-15	509-520	Stoffischen	_	_
+8-16	521-532	Bezifferung	_	_
+8-17	533-534	.	_	_
+
+#Text=( Es folgen einige total unleserliche Zeilen ) % am neo ...
+9-1	535-536	(	_	_
+9-2	537-539	Es	_	_
+9-3	540-546	folgen	_	_
+9-4	547-553	einige	_	_
+9-5	554-559	total	_	_
+9-6	560-572	unleserliche	_	_
+9-7	573-579	Zeilen	_	_
+9-8	580-581	)	_	_
+9-9	582-583	%	_	_
+9-10	584-586	am	_	_
+9-11	587-590	neo	_	_
+9-12	591-594	...	_	_
+
+#Text=Setzen den Annalendruck Ku ‚ daher ich fortfahre hier nunmehr 8 Platten - -- — - micht unmögeich Aatb - - - -- - Atsrolinen ur nuiclel \| vn wicht , Hurt Wiecnde ‚D wurd - .
+10-1	595-601	Setzen	_	_
+10-2	602-605	den	_	_
+10-3	606-618	Annalendruck	_	_
+10-4	619-621	Ku	_	_
+10-5	622-623	‚	_	_
+10-6	624-629	daher	_	_
+10-7	630-633	ich	_	_
+10-8	634-643	fortfahre	_	_
+10-9	644-648	hier	_	_
+10-10	649-656	nunmehr	_	_
+10-11	657-658	8	_	_
+10-12	659-666	Platten	_	_
+10-13	667-668	-	_	_
+10-14	669-671	--	_	_
+10-15	672-673	—	_	_
+10-16	674-675	-	_	_
+10-17	676-681	micht	_	_
+10-18	682-691	unmögeich	_	_
+10-19	692-696	Aatb	_	_
+10-20	697-698	-	_	_
+10-21	699-700	-	_	_
+10-22	701-702	-	_	_
+10-23	703-705	--	_	_
+10-24	706-707	-	_	_
+10-25	708-718	Atsrolinen	_	_
+10-26	719-721	ur	_	_
+10-27	722-729	nuiclel	_	_
+10-28	730-731	\|	_	_
+10-29	732-734	vn	_	_
+10-30	735-740	wicht	_	_
+10-31	741-742	,	_	_
+10-32	743-747	Hurt	_	_
+10-33	748-755	Wiecnde	_	_
+10-34	756-758	‚D	_	_
+10-35	759-763	wurd	_	_
+10-36	764-765	-	_	_
+10-37	766-767	.	_	_
+
+#Text=un “ & ii “ x ( ud unleserlich ) A ulüh Sie ... .
+11-1	768-770	un	_	_
+11-2	771-772	“	_	_
+11-3	773-774	&	_	_
+11-4	775-777	ii	_	_
+11-5	778-779	“	_	_
+11-6	780-781	x	_	_
+11-7	782-783	(	_	_
+11-8	784-786	ud	_	_
+11-9	787-798	unleserlich	_	_
+11-10	799-800	)	_	_
+11-11	801-802	A	_	_
+11-12	803-807	ulüh	_	_
+11-13	808-811	Sie	_	_
+11-14	812-815	...	_	_
+11-15	816-817	.	_	_
+
+#Text=LI .
+12-1	818-820	LI	_	_
+12-2	821-822	.	_	_
+
+#Text=.\_ Un las anne an Wenn ran i Am Rande der ersten Seite Ihre Sendung Probedrücke und Beischlüsse angekonmen \; alles soll besorgt werden .
+13-1	823-825	.\_	_	_
+13-2	826-828	Un	_	_
+13-3	829-832	las	_	_
+13-4	833-837	anne	_	_
+13-5	838-840	an	_	_
+13-6	841-845	Wenn	_	_
+13-7	846-849	ran	_	_
+13-8	850-851	i	_	_
+13-9	852-854	Am	_	_
+13-10	855-860	Rande	_	_
+13-11	861-864	der	_	_
+13-12	865-871	ersten	_	_
+13-13	872-877	Seite	_	_
+13-14	878-882	Ihre	_	_
+13-15	883-890	Sendung	_	_
+13-16	891-902	Probedrücke	_	_
+13-17	903-906	und	_	_
+13-18	907-918	Beischlüsse	_	_
+13-19	919-929	angekonmen	_	_
+13-20	930-931	\;	_	_
+13-21	932-937	alles	_	_
+13-22	938-942	soll	_	_
+13-23	943-950	besorgt	_	_
+13-24	951-957	werden	_	_
+13-25	958-959	.	_	_
+
+#Text=20 rt .
+14-1	960-962	20	_	_
+14-2	963-965	rt	_	_
+14-3	966-967	.	_	_
+
+#Text=für unductt tur .... längst bewilligt und bin ich gern bereit dieselben zu vertreten , sofern Sie das Geld , m ssazaheln und nicht dringlich brauchen , auch ehe die officielle Bewilligung vom Ministerium anlangt .
+15-1	968-971	für	_	_
+15-2	972-979	unductt	_	_
+15-3	980-983	tur	_	_
+15-4	984-988	....	_	_
+15-5	989-995	längst	_	_
+15-6	996-1005	bewilligt	_	_
+15-7	1006-1009	und	_	_
+15-8	1010-1013	bin	_	_
+15-9	1014-1017	ich	_	_
+15-10	1018-1022	gern	_	_
+15-11	1023-1029	bereit	_	_
+15-12	1030-1039	dieselben	_	_
+15-13	1040-1042	zu	_	_
+15-14	1043-1052	vertreten	_	_
+15-15	1053-1054	,	_	_
+15-16	1055-1061	sofern	_	_
+15-17	1062-1065	Sie	_	_
+15-18	1066-1069	das	_	_
+15-19	1070-1074	Geld	_	_
+15-20	1075-1076	,	_	_
+15-21	1077-1078	m	_	_
+15-22	1079-1088	ssazaheln	_	_
+15-23	1089-1092	und	_	_
+15-24	1093-1098	nicht	_	_
+15-25	1099-1108	dringlich	_	_
+15-26	1109-1117	brauchen	_	_
+15-27	1118-1119	,	_	_
+15-28	1120-1124	auch	_	_
+15-29	1125-1128	ehe	_	_
+15-30	1129-1132	die	_	_
+15-31	1133-1143	officielle	_	_
+15-32	1144-1155	Bewilligung	_	_
+15-33	1156-1159	vom	_	_
+15-34	1160-1171	Ministerium	*	ORGmentioned
+15-35	1172-1179	anlangt	_	_
+15-36	1180-1181	.	_	_

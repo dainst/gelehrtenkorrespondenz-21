@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Leipzig , 31. Dezember 184 müßten auch gessi davon bei Campana existiren .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-24	Leipzig	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	31.	*[3]	DATEletter[3]
+1-7	31-39	Dezember	*[3]	DATEletter[3]
+1-8	40-43	184	*[3]	DATEletter[3]
+1-9	44-50	müßten	_	_
+1-10	51-55	auch	_	_
+1-11	56-61	gessi	_	_
+1-12	62-67	davon	_	_
+1-13	68-71	bei	_	_
+1-14	72-79	Campana	*	PERmentioned
+1-15	80-89	existiren	_	_
+1-16	90-91	.	_	_
+
+#Text=Ferner hätte ich gern eine Copie der Inschriften auf der cista Praenestina im Kirch. , welche Brauns hohe Weisheit als nicht zur Sache gehörig bei seinem Stich weggelassen hat .
+2-1	92-98	Ferner	_	_
+2-2	99-104	hätte	_	_
+2-3	105-108	ich	_	_
+2-4	109-113	gern	_	_
+2-5	114-118	eine	_	_
+2-6	119-124	Copie	_	_
+2-7	125-128	der	_	_
+2-8	129-140	Inschriften	*	OBJ
+2-9	141-144	auf	_	_
+2-10	145-148	der	_	_
+2-11	149-154	cista	*[4]	OBJ[4]
+2-12	155-166	Praenestina	*[4]	OBJ[4]
+2-13	167-169	im	_	_
+2-14	170-176	Kirch.	*	ORGmentioned
+2-15	177-178	,	_	_
+2-16	179-185	welche	_	_
+2-17	186-192	Brauns	*	PERmentioned
+2-18	193-197	hohe	_	_
+2-19	198-206	Weisheit	_	_
+2-20	207-210	als	_	_
+2-21	211-216	nicht	_	_
+2-22	217-220	zur	_	_
+2-23	221-226	Sache	_	_
+2-24	227-234	gehörig	_	_
+2-25	235-238	bei	_	_
+2-26	239-245	seinem	_	_
+2-27	246-251	Stich	_	_
+2-28	252-263	weggelassen	_	_
+2-29	264-267	hat	_	_
+2-30	268-269	.	_	_
+
+#Text=Die bisherigen Stiche von Maffei und Lanzi genügen nicht .
+3-1	270-273	Die	_	_
+3-2	274-284	bisherigen	_	_
+3-3	285-291	Stiche	_	_
+3-4	292-295	von	_	_
+3-5	296-302	Maffei	*	PERmentioned
+3-6	303-306	und	_	_
+3-7	307-312	Lanzi	*	PERmentioned
+3-8	313-320	genügen	_	_
+3-9	321-326	nicht	_	_
+3-10	327-328	.	_	_
+
+#Text=Rocchi's und Marchi 's schöne Seelen thun Dir schon um meinetwillen das gern zu Gefallen .
+4-1	329-337	Rocchi's	*	PERmentioned
+4-2	338-341	und	_	_
+4-3	342-348	Marchi	*[5]	PERmentioned[5]
+4-4	349-351	's	*[5]	PERmentioned[5]
+4-5	352-358	schöne	_	_
+4-6	359-365	Seelen	_	_
+4-7	366-370	thun	_	_
+4-8	371-374	Dir	_	_
+4-9	375-380	schon	_	_
+4-10	381-383	um	_	_
+4-11	384-396	meinetwillen	_	_
+4-12	397-400	das	_	_
+4-13	401-405	gern	_	_
+4-14	406-408	zu	_	_
+4-15	409-417	Gefallen	_	_
+4-16	418-419	.	_	_
+
+#Text=- Auch über der AD SAXV des Kalenders ( s. den Brief an Rossi ) hätte ich gern Deine Meinung .
+5-1	420-421	-	_	_
+5-2	422-426	Auch	_	_
+5-3	427-431	über	_	_
+5-4	432-435	der	_	_
+5-5	436-438	AD	_	_
+5-6	439-443	SAXV	_	_
+5-7	444-447	des	_	_
+5-8	448-457	Kalenders	_	_
+5-9	458-459	(	_	_
+5-10	460-462	s.	_	_
+5-11	463-466	den	_	_
+5-12	467-472	Brief	_	_
+5-13	473-475	an	_	_
+5-14	476-481	Rossi	*	PERmentioned
+5-15	482-483	)	_	_
+5-16	484-489	hätte	_	_
+5-17	490-493	ich	_	_
+5-18	494-498	gern	_	_
+5-19	499-504	Deine	_	_
+5-20	505-512	Meinung	_	_
+5-21	513-514	.	_	_
+
+#Text=Glaube nicht , daß ich das Leidige in Deiner Stellung verkenne \; aber dessen ungeachtet würde ich nicht daran denken sie aufzugeben - wenigstens glaube ich das .
+6-1	515-521	Glaube	_	_
+6-2	522-527	nicht	_	_
+6-3	528-529	,	_	_
+6-4	530-533	daß	_	_
+6-5	534-537	ich	_	_
+6-6	538-541	das	_	_
+6-7	542-549	Leidige	_	_
+6-8	550-552	in	_	_
+6-9	553-559	Deiner	_	_
+6-10	560-568	Stellung	_	_
+6-11	569-577	verkenne	_	_
+6-12	578-579	\;	_	_
+6-13	580-584	aber	_	_
+6-14	585-591	dessen	_	_
+6-15	592-602	ungeachtet	_	_
+6-16	603-608	würde	_	_
+6-17	609-612	ich	_	_
+6-18	613-618	nicht	_	_
+6-19	619-624	daran	_	_
+6-20	625-631	denken	_	_
+6-21	632-635	sie	_	_
+6-22	636-646	aufzugeben	_	_
+6-23	647-648	-	_	_
+6-24	649-659	wenigstens	_	_
+6-25	660-666	glaube	_	_
+6-26	667-670	ich	_	_
+6-27	671-674	das	_	_
+6-28	675-676	.	_	_
+
+#Text=Es ist unendlich schwer selbst unter günstigen Verhältnissen von Italien nach Deutschland zurückzukehren , und Sprache , Sitte , Klima , Beschäftigung ganz zu ändern , eigentlich auch neue Studien anzufangen , denn was man dort treibt , kann man hier nicht brauchen , und umgekehrt .
+7-1	677-679	Es	_	_
+7-2	680-683	ist	_	_
+7-3	684-693	unendlich	_	_
+7-4	694-700	schwer	_	_
+7-5	701-707	selbst	_	_
+7-6	708-713	unter	_	_
+7-7	714-723	günstigen	_	_
+7-8	724-737	Verhältnissen	_	_
+7-9	738-741	von	_	_
+7-10	742-749	Italien	*	PLACEmentioned
+7-11	750-754	nach	_	_
+7-12	755-766	Deutschland	*	PLACEmentioned
+7-13	767-781	zurückzukehren	_	_
+7-14	782-783	,	_	_
+7-15	784-787	und	_	_
+7-16	788-795	Sprache	_	_
+7-17	796-797	,	_	_
+7-18	798-803	Sitte	_	_
+7-19	804-805	,	_	_
+7-20	806-811	Klima	_	_
+7-21	812-813	,	_	_
+7-22	814-827	Beschäftigung	_	_
+7-23	828-832	ganz	_	_
+7-24	833-835	zu	_	_
+7-25	836-842	ändern	_	_
+7-26	843-844	,	_	_
+7-27	845-855	eigentlich	_	_
+7-28	856-860	auch	_	_
+7-29	861-865	neue	_	_
+7-30	866-873	Studien	_	_
+7-31	874-884	anzufangen	_	_
+7-32	885-886	,	_	_
+7-33	887-891	denn	_	_
+7-34	892-895	was	_	_
+7-35	896-899	man	_	_
+7-36	900-904	dort	_	_
+7-37	905-911	treibt	_	_
+7-38	912-913	,	_	_
+7-39	914-918	kann	_	_
+7-40	919-922	man	_	_
+7-41	923-927	hier	_	_
+7-42	928-933	nicht	_	_
+7-43	934-942	brauchen	_	_
+7-44	943-944	,	_	_
+7-45	945-948	und	_	_
+7-46	949-958	umgekehrt	_	_
+7-47	959-960	.	_	_
+
+#Text=Nimm Gerhard !
+8-1	961-965	Nimm	_	_
+8-2	966-973	Gerhard	*	PERmentioned
+8-3	974-975	!	_	_
+
+#Text=Und ist Dir eine Gymnasialstelle in Deutschland gewisser als eine Anstellung im Institut in Rom , quandoche sia ?
+9-1	976-979	Und	_	_
+9-2	980-983	ist	_	_
+9-3	984-987	Dir	_	_
+9-4	988-992	eine	_	_
+9-5	993-1008	Gymnasialstelle	_	_
+9-6	1009-1011	in	_	_
+9-7	1012-1023	Deutschland	*	PLACEmentioned
+9-8	1024-1032	gewisser	_	_
+9-9	1033-1036	als	_	_
+9-10	1037-1041	eine	_	_
+9-11	1042-1052	Anstellung	_	_
+9-12	1053-1055	im	_	_
+9-13	1056-1064	Institut	*	ORGmentioned
+9-14	1065-1067	in	_	_
+9-15	1068-1071	Rom	*	PLACEmentioned
+9-16	1072-1073	,	_	_
+9-17	1074-1083	quandoche	_	_
+9-18	1084-1087	sia	_	_
+9-19	1088-1089	?	_	_
+
+#Text=Denn freilich kennen wir die berliner Placirungstaktik .
+10-1	1090-1094	Denn	_	_
+10-2	1095-1103	freilich	_	_
+10-3	1104-1110	kennen	_	_
+10-4	1111-1114	wir	_	_
+10-5	1115-1118	die	_	_
+10-6	1119-1127	berliner	_	_
+10-7	1128-1144	Placirungstaktik	_	_
+10-8	1145-1146	.	_	_
+
+#Text=Die drückenden Fesseln , die Braun Dir aufgelegt hat , werden Ja sich lösen \; und dann hast Du eine leidliche Existenz und einige Aussicht - was hat man anderswo mehr ?
+11-1	1147-1150	Die	_	_
+11-2	1151-1161	drückenden	_	_
+11-3	1162-1169	Fesseln	_	_
+11-4	1170-1171	,	_	_
+11-5	1172-1175	die	_	_
+11-6	1176-1181	Braun	*	PERauthor
+11-7	1182-1185	Dir	_	_
+11-8	1186-1195	aufgelegt	_	_
+11-9	1196-1199	hat	_	_
+11-10	1200-1201	,	_	_
+11-11	1202-1208	werden	_	_
+11-12	1209-1211	Ja	_	_
+11-13	1212-1216	sich	_	_
+11-14	1217-1222	lösen	_	_
+11-15	1223-1224	\;	_	_
+11-16	1225-1228	und	_	_
+11-17	1229-1233	dann	_	_
+11-18	1234-1238	hast	_	_
+11-19	1239-1241	Du	_	_
+11-20	1242-1246	eine	_	_
+11-21	1247-1256	leidliche	_	_
+11-22	1257-1265	Existenz	_	_
+11-23	1266-1269	und	_	_
+11-24	1270-1276	einige	_	_
+11-25	1277-1285	Aussicht	_	_
+11-26	1286-1287	-	_	_
+11-27	1288-1291	was	_	_
+11-28	1292-1295	hat	_	_
+11-29	1296-1299	man	_	_
+11-30	1300-1308	anderswo	_	_
+11-31	1309-1313	mehr	_	_
+11-32	1314-1315	?	_	_
+
+#Text=Braun hab ich hier gesehen mit seiner Lady \; er hat mich stark turbirt , daß ich auch mein Maul lösen mußte , was ich
+12-1	1316-1321	Braun	*	PERmentioned
+12-2	1322-1325	hab	_	_
+12-3	1326-1329	ich	_	_
+12-4	1330-1334	hier	_	_
+12-5	1335-1342	gesehen	_	_
+12-6	1343-1346	mit	_	_
+12-7	1347-1353	seiner	_	_
+12-8	1354-1358	Lady	_	_
+12-9	1359-1360	\;	_	_
+12-10	1361-1363	er	_	_
+12-11	1364-1367	hat	_	_
+12-12	1368-1372	mich	_	_
+12-13	1373-1378	stark	_	_
+12-14	1379-1386	turbirt	_	_
+12-15	1387-1388	,	_	_
+12-16	1389-1392	daß	_	_
+12-17	1393-1396	ich	_	_
+12-18	1397-1401	auch	_	_
+12-19	1402-1406	mein	_	_
+12-20	1407-1411	Maul	_	_
+12-21	1412-1417	lösen	_	_
+12-22	1418-1423	mußte	_	_
+12-23	1424-1425	,	_	_
+12-24	1426-1429	was	_	_
+12-25	1430-1433	ich	_	_

@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin 6/V/1847 A. di Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-33	6/V/1847	*	DATEletter
+1-6	34-36	A.	_	_
+1-7	37-39	di	_	_
+1-8	40-43	Dir	_	_
+1-9	44-45	.	_	_
+
+#Text=g . 18/V 47 r . 24/V 47 Berlin 6 Mai 47 .
+2-1	46-47	g	_	_
+2-2	48-49	.	_	_
+2-3	50-54	18/V	*[1]	DATErecieved[1]
+2-4	55-57	47	*[1]	DATErecieved[1]
+2-5	58-59	r	_	_
+2-6	60-61	.	_	_
+2-7	62-66	24/V	*[2]	DATEanswered[2]
+2-8	67-69	47	_	_
+2-9	70-76	Berlin	*	PLACEfrom
+2-10	77-78	6	*[3]	DATEletter[3]
+2-11	79-82	Mai	*[3]	DATEletter[3]
+2-12	83-85	47	_	_
+2-13	86-87	.	_	_
+
+#Text=Ich antworte gleich auf Ihren Brief vom 17 den ich , in Verona VoLndumt , später als Brauns Brief vom 22 erhielt .
+3-1	88-91	Ich	_	_
+3-2	92-100	antworte	_	_
+3-3	101-107	gleich	_	_
+3-4	108-111	auf	_	_
+3-5	112-117	Ihren	_	_
+3-6	118-123	Brief	_	_
+3-7	124-127	vom	_	_
+3-8	128-130	17	*[4]	DATEmentioned[4]
+3-9	131-134	den	*[4]	DATEmentioned[4]
+3-10	135-138	ich	_	_
+3-11	139-140	,	_	_
+3-12	141-143	in	_	_
+3-13	144-150	Verona	*	PLACEmentioned
+3-14	151-159	VoLndumt	_	_
+3-15	160-161	,	_	_
+3-16	162-168	später	_	_
+3-17	169-172	als	_	_
+3-18	173-179	Brauns	*	PERmentioned
+3-19	180-185	Brief	_	_
+3-20	186-189	vom	_	_
+3-21	190-192	22	_	_
+3-22	193-200	erhielt	_	_
+3-23	201-202	.	_	_
+
+#Text=Das Bull no 3 samt Beischluß für Jahn kam gleichzeitig .
+4-1	203-206	Das	_	_
+4-2	207-211	Bull	_	_
+4-3	212-214	no	_	_
+4-4	215-216	3	_	_
+4-5	217-221	samt	_	_
+4-6	222-231	Beischluß	_	_
+4-7	232-235	für	_	_
+4-8	236-240	Jahn	*	PERmentioned
+4-9	241-244	kam	_	_
+4-10	245-257	gleichzeitig	_	_
+4-11	258-259	.	_	_
+
+#Text=Ihr fortwährendes Augenleid bedaure ich , selbst ein solcher Praktikus , von Herzen und mahne um Schonung .
+5-1	260-263	Ihr	_	_
+5-2	264-277	fortwährendes	_	_
+5-3	278-287	Augenleid	_	_
+5-4	288-295	bedaure	_	_
+5-5	296-299	ich	_	_
+5-6	300-301	,	_	_
+5-7	302-308	selbst	_	_
+5-8	309-312	ein	_	_
+5-9	313-320	solcher	_	_
+5-10	321-330	Praktikus	_	_
+5-11	331-332	,	_	_
+5-12	333-336	von	_	_
+5-13	337-343	Herzen	_	_
+5-14	344-347	und	_	_
+5-15	348-353	mahne	_	_
+5-16	354-356	um	_	_
+5-17	357-365	Schonung	_	_
+5-18	366-367	.	_	_
+
+#Text=Mommsen erwarten wir mit Freuden , hoffen er werde Hiefsiges mit Billigkeit und Vernunft beurtheilen und können sein wohl motivirtes Verweilen nur loben , sofern er nicht später als Ende Juni hier eintrifft .
+6-1	368-375	Mommsen	*	PERmentioned
+6-2	376-384	erwarten	_	_
+6-3	385-388	wir	_	_
+6-4	389-392	mit	_	_
+6-5	393-400	Freuden	_	_
+6-6	401-402	,	_	_
+6-7	403-409	hoffen	_	_
+6-8	410-412	er	_	_
+6-9	413-418	werde	_	_
+6-10	419-428	Hiefsiges	_	_
+6-11	429-432	mit	_	_
+6-12	433-443	Billigkeit	_	_
+6-13	444-447	und	_	_
+6-14	448-456	Vernunft	_	_
+6-15	457-468	beurtheilen	_	_
+6-16	469-472	und	_	_
+6-17	473-479	können	_	_
+6-18	480-484	sein	_	_
+6-19	485-489	wohl	_	_
+6-20	490-500	motivirtes	_	_
+6-21	501-510	Verweilen	_	_
+6-22	511-514	nur	_	_
+6-23	515-520	loben	_	_
+6-24	521-522	,	_	_
+6-25	523-529	sofern	_	_
+6-26	530-532	er	_	_
+6-27	533-538	nicht	_	_
+6-28	539-545	später	_	_
+6-29	546-549	als	_	_
+6-30	550-554	Ende	_	_
+6-31	555-559	Juni	_	_
+6-32	560-564	hier	_	_
+6-33	565-574	eintrifft	_	_
+6-34	575-576	.	_	_
+
+#Text=Daß J Friedländer für 300 xt ans Dresdner Münzkabinet gehen kann und in “ rmanglung hiesiger Aussicht wol gehen wird , schrieb ich wol schon .
+7-1	577-580	Daß	_	_
+7-2	581-582	J	*[5]	PERmentioned[5]
+7-3	583-594	Friedländer	*[5]	PERmentioned[5]
+7-4	595-598	für	_	_
+7-5	599-602	300	_	_
+7-6	603-605	xt	_	_
+7-7	606-609	ans	_	_
+7-8	610-618	Dresdner	*[6]	ORGmentioned[6]
+7-9	619-630	Münzkabinet	*[6]	ORGmentioned[6]
+7-10	631-636	gehen	_	_
+7-11	637-641	kann	_	_
+7-12	642-645	und	_	_
+7-13	646-648	in	_	_
+7-14	649-650	“	_	_
+7-15	651-660	rmanglung	_	_
+7-16	661-669	hiesiger	_	_
+7-17	670-678	Aussicht	_	_
+7-18	679-682	wol	_	_
+7-19	683-688	gehen	_	_
+7-20	689-693	wird	_	_
+7-21	694-695	,	_	_
+7-22	696-703	schrieb	_	_
+7-23	704-707	ich	_	_
+7-24	708-711	wol	_	_
+7-25	712-717	schon	_	_
+7-26	718-719	.	_	_
+
+#Text=De Agostinis ist notirt \; da er aber M. onor .
+8-1	720-722	De	*[7]	PERmentioned[7]
+8-2	723-732	Agostinis	*[7]	PERmentioned[7]
+8-3	733-736	ist	_	_
+8-4	737-743	notirt	_	_
+8-5	744-745	\;	_	_
+8-6	746-748	da	_	_
+8-7	749-751	er	_	_
+8-8	752-756	aber	_	_
+8-9	757-759	M.	_	_
+8-10	760-764	onor	_	_
+8-11	765-766	.	_	_
+
+#Text=hei- Ben soll , so glaube ich Ihnen schon geäußert zu haben daß es mir schicklich scheint die nächste Lieferung zu der seiner Zeit an Mettor mich Anmeldungen erfolgen , abzuwarten .
+9-1	767-771	hei-	_	_
+9-2	772-775	Ben	_	_
+9-3	776-780	soll	_	_
+9-4	781-782	,	_	_
+9-5	783-785	so	_	_
+9-6	786-792	glaube	_	_
+9-7	793-796	ich	_	_
+9-8	797-802	Ihnen	_	_
+9-9	803-808	schon	_	_
+9-10	809-817	geäußert	_	_
+9-11	818-820	zu	_	_
+9-12	821-826	haben	_	_
+9-13	827-830	daß	_	_
+9-14	831-833	es	_	_
+9-15	834-837	mir	_	_
+9-16	838-848	schicklich	_	_
+9-17	849-856	scheint	_	_
+9-18	857-860	die	_	_
+9-19	861-868	nächste	_	_
+9-20	869-878	Lieferung	_	_
+9-21	879-881	zu	_	_
+9-22	882-885	der	_	_
+9-23	886-892	seiner	_	_
+9-24	893-897	Zeit	_	_
+9-25	898-900	an	_	_
+9-26	901-907	Mettor	_	_
+9-27	908-912	mich	_	_
+9-28	913-924	Anmeldungen	_	_
+9-29	925-933	erfolgen	_	_
+9-30	934-935	,	_	_
+9-31	936-946	abzuwarten	_	_
+9-32	947-948	.	_	_
+
+#Text=Daß ihm die Ehre bevorsteht kann ihm einstweilen immerhin gemeldet werden .
+10-1	949-952	Daß	_	_
+10-2	953-956	ihm	_	_
+10-3	957-960	die	_	_
+10-4	961-965	Ehre	_	_
+10-5	966-976	bevorsteht	_	_
+10-6	977-981	kann	_	_
+10-7	982-985	ihm	_	_
+10-8	986-997	einstweilen	_	_
+10-9	998-1006	immerhin	_	_
+10-10	1007-1015	gemeldet	_	_
+10-11	1016-1022	werden	_	_
+10-12	1023-1024	.	_	_
+
+#Text=Neigebaurs Maulmacherei in der Allg . 2. über das durch ihn `` entzückte '' Institut werden Sie gelesen haben .
+11-1	1025-1035	Neigebaurs	*	PERmentioned
+11-2	1036-1048	Maulmacherei	_	_
+11-3	1049-1051	in	_	_
+11-4	1052-1055	der	_	_
+11-5	1056-1060	Allg	_	_
+11-6	1061-1062	.	_	_
+11-7	1063-1065	2.	_	_
+11-8	1066-1070	über	_	_
+11-9	1071-1074	das	_	_
+11-10	1075-1080	durch	_	_
+11-11	1081-1084	ihn	_	_
+11-12	1085-1087	``	_	_
+11-13	1088-1097	entzückte	_	_
+11-14	1098-1100	''	_	_
+11-15	1101-1109	Institut	*	ORGmentioned
+11-16	1110-1116	werden	_	_
+11-17	1117-1120	Sie	_	_
+11-18	1121-1128	gelesen	_	_
+11-19	1129-1134	haben	_	_
+11-20	1135-1136	.	_	_
+
+#Text=Die Briefe v. ihm an ” ie gehen durch das Ministerium nächstens \; Sie werden ihm geschrieben haben daß er direkt
+12-1	1137-1140	Die	_	_
+12-2	1141-1147	Briefe	_	_
+12-3	1148-1150	v.	_	_
+12-4	1151-1154	ihm	_	_
+12-5	1155-1157	an	_	_
+12-6	1158-1159	”	_	_
+12-7	1160-1162	ie	_	_
+12-8	1163-1168	gehen	_	_
+12-9	1169-1174	durch	_	_
+12-10	1175-1178	das	_	_
+12-11	1179-1190	Ministerium	_	_
+12-12	1191-1200	nächstens	_	_
+12-13	1201-1202	\;	_	_
+12-14	1203-1206	Sie	_	_
+12-15	1207-1213	werden	_	_
+12-16	1214-1217	ihm	_	_
+12-17	1218-1229	geschrieben	_	_
+12-18	1230-1235	haben	_	_
+12-19	1236-1239	daß	_	_
+12-20	1240-1242	er	_	_
+12-21	1243-1249	direkt	_	_

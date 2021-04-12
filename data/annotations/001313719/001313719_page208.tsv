@@ -1,0 +1,290 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=94 Gerhard an Henzen 11/V/1850 doch aussenden .
+1-1	0-2	94	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-30	11/V/1850	*	DATEletter
+1-6	31-35	doch	_	_
+1-7	36-45	aussenden	_	_
+1-8	46-47	.	_	_
+
+#Text=- Wie steht es mit dem bedenklich befundenen Aufsatz Panofka 's ?
+2-1	48-49	-	_	_
+2-2	50-53	Wie	_	_
+2-3	54-59	steht	_	_
+2-4	60-62	es	_	_
+2-5	63-66	mit	_	_
+2-6	67-70	dem	_	_
+2-7	71-81	bedenklich	_	_
+2-8	82-92	befundenen	_	_
+2-9	93-100	Aufsatz	_	_
+2-10	101-108	Panofka	*[4]	PERmentioned[4]
+2-11	109-111	's	*[4]	PERmentioned[4]
+2-12	112-113	?	_	_
+
+#Text=Wars der p . 255 abgedruckte Vlisse e Fenice oder ein zurückgelegter , worüber ?
+3-1	114-118	Wars	_	_
+3-2	119-122	der	_	_
+3-3	123-124	p	_	_
+3-4	125-126	.	_	_
+3-5	127-130	255	_	_
+3-6	131-142	abgedruckte	_	_
+3-7	143-149	Vlisse	_	_
+3-8	150-151	e	_	_
+3-9	152-158	Fenice	_	_
+3-10	159-163	oder	_	_
+3-11	164-167	ein	_	_
+3-12	168-182	zurückgelegter	_	_
+3-13	183-184	,	_	_
+3-14	185-192	worüber	_	_
+3-15	193-194	?	_	_
+
+#Text=- Und wie steht es nun mit dem XII Götter dipinto ?
+4-1	195-196	-	_	_
+4-2	197-200	Und	_	_
+4-3	201-204	wie	_	_
+4-4	205-210	steht	_	_
+4-5	211-213	es	_	_
+4-6	214-217	nun	_	_
+4-7	218-221	mit	_	_
+4-8	222-225	dem	_	_
+4-9	226-229	XII	_	_
+4-10	230-236	Götter	_	_
+4-11	237-244	dipinto	_	_
+4-12	245-246	?	_	_
+
+#Text=Auf Minervini als ängstlicher ERolanese dabei zu rechnen war wol vergeblich , aber Aloe schafft gewiß Rath , wenn die Zeichnung noch immer nicht zur Stelle sein sollte .
+5-1	247-250	Auf	_	_
+5-2	251-260	Minervini	*	PERmentioned
+5-3	261-264	als	_	_
+5-4	265-276	ängstlicher	_	_
+5-5	277-286	ERolanese	_	_
+5-6	287-292	dabei	_	_
+5-7	293-295	zu	_	_
+5-8	296-303	rechnen	_	_
+5-9	304-307	war	_	_
+5-10	308-311	wol	_	_
+5-11	312-322	vergeblich	_	_
+5-12	323-324	,	_	_
+5-13	325-329	aber	_	_
+5-14	330-334	Aloe	*	PERmentioned
+5-15	335-342	schafft	_	_
+5-16	343-348	gewiß	_	_
+5-17	349-353	Rath	_	_
+5-18	354-355	,	_	_
+5-19	356-360	wenn	_	_
+5-20	361-364	die	_	_
+5-21	365-374	Zeichnung	_	_
+5-22	375-379	noch	_	_
+5-23	380-385	immer	_	_
+5-24	386-391	nicht	_	_
+5-25	392-395	zur	_	_
+5-26	396-402	Stelle	_	_
+5-27	403-407	sein	_	_
+5-28	408-414	sollte	_	_
+5-29	415-416	.	_	_
+
+#Text=Was hört man sonst von unsern Neapler Freunden ?
+6-1	417-420	Was	_	_
+6-2	421-425	hört	_	_
+6-3	426-429	man	_	_
+6-4	430-435	sonst	_	_
+6-5	436-439	von	_	_
+6-6	440-446	unsern	_	_
+6-7	447-454	Neapler	*	PLACEmentioned
+6-8	455-463	Freunden	_	_
+6-9	464-465	?	_	_
+
+#Text=Ich schrieb vergeblich an NMinervini \; an © .
+7-1	466-469	Ich	_	_
+7-2	470-477	schrieb	_	_
+7-3	478-488	vergeblich	_	_
+7-4	489-491	an	_	_
+7-5	492-502	NMinervini	*	PERmentioned
+7-6	503-504	\;	_	_
+7-7	505-507	an	_	_
+7-8	508-509	©	_	_
+7-9	510-511	.	*[1]	PERmentioned[1]
+
+#Text=Giorgio war ich bisher noch zu faul , seine hiesige akademische Ernennung als M. onor .
+8-1	512-519	Giorgio	*[1]	PERmentioned[1]
+8-2	520-523	war	_	_
+8-3	524-527	ich	_	_
+8-4	528-534	bisher	_	_
+8-5	535-539	noch	_	_
+8-6	540-542	zu	_	_
+8-7	543-547	faul	_	_
+8-8	548-549	,	_	_
+8-9	550-555	seine	_	_
+8-10	556-563	hiesige	_	_
+8-11	564-575	akademische	_	_
+8-12	576-585	Ernennung	_	_
+8-13	586-589	als	_	_
+8-14	590-592	M.	_	_
+8-15	593-597	onor	_	_
+8-16	598-599	.	_	_
+
+#Text=ihm zu melden - , sein Naturell scheint rückzuwirken auf mich , In der Epigraphik wird hie und da aibattirt \; erfuhren ®ie daß Zell in Heidelberg ein Compendium vorbereiten sollte ?
+9-1	600-603	ihm	_	_
+9-2	604-606	zu	_	_
+9-3	607-613	melden	_	_
+9-4	614-615	-	_	_
+9-5	616-617	,	_	_
+9-6	618-622	sein	_	_
+9-7	623-631	Naturell	_	_
+9-8	632-639	scheint	_	_
+9-9	640-652	rückzuwirken	_	_
+9-10	653-656	auf	_	_
+9-11	657-661	mich	_	_
+9-12	662-663	,	_	_
+9-13	664-666	In	_	_
+9-14	667-670	der	_	_
+9-15	671-681	Epigraphik	_	_
+9-16	682-686	wird	_	_
+9-17	687-690	hie	_	_
+9-18	691-694	und	_	_
+9-19	695-697	da	_	_
+9-20	698-707	aibattirt	_	_
+9-21	708-709	\;	_	_
+9-22	710-718	erfuhren	_	_
+9-23	719-722	®ie	_	_
+9-24	723-726	daß	_	_
+9-25	727-731	Zell	*	PERmentioned
+9-26	732-734	in	_	_
+9-27	735-745	Heidelberg	*	PLACEmentioned
+9-28	746-749	ein	_	_
+9-29	750-760	Compendium	_	_
+9-30	761-772	vorbereiten	_	_
+9-31	773-779	sollte	_	_
+9-32	780-781	?	_	_
+
+#Text=Philologencongreß wird , wenn Friede bleibt , im Herbst doch wol hier gehalten .
+10-1	782-799	Philologencongreß	_	_
+10-2	800-804	wird	_	_
+10-3	805-806	,	_	_
+10-4	807-811	wenn	_	_
+10-5	812-818	Friede	_	_
+10-6	819-825	bleibt	_	_
+10-7	826-827	,	_	_
+10-8	828-830	im	_	_
+10-9	831-837	Herbst	_	_
+10-10	838-842	doch	_	_
+10-11	843-846	wol	_	_
+10-12	847-851	hier	_	_
+10-13	852-860	gehalten	_	_
+10-14	861-862	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard P. Ss .
+11-1	863-866	Von	_	_
+11-2	867-873	Herzen	_	_
+11-3	874-877	der	_	_
+11-4	878-884	Ihrige	_	_
+11-5	885-892	Gerhard	*	PERauthor
+11-6	893-895	P.	_	_
+11-7	896-898	Ss	_	_
+11-8	899-900	.	_	_
+
+#Text=12/5 .
+12-1	901-905	12/5	_	_
+12-2	906-907	.	_	_
+
+#Text=Eben recht kommt Ihr Brief vom 2 d. M. an und läßt mich ........ liche obige Stelle als erledigt ausstreichen , - L. Schmidt will mit Anbeginn der Ferien seinex Frl .
+13-1	908-912	Eben	_	_
+13-2	913-918	recht	_	_
+13-3	919-924	kommt	_	_
+13-4	925-928	Ihr	_	_
+13-5	929-934	Brief	_	_
+13-6	935-938	vom	_	_
+13-7	939-940	2	*[2]	DATEmentioned[2]
+13-8	941-943	d.	*[2]	DATEmentioned[2]
+13-9	944-946	M.	*[2]	DATEmentioned[2]
+13-10	947-949	an	_	_
+13-11	950-953	und	_	_
+13-12	954-958	läßt	_	_
+13-13	959-963	mich	_	_
+13-14	964-972	........	_	_
+13-15	973-978	liche	_	_
+13-16	979-984	obige	_	_
+13-17	985-991	Stelle	_	_
+13-18	992-995	als	_	_
+13-19	996-1004	erledigt	_	_
+13-20	1005-1017	ausstreichen	_	_
+13-21	1018-1019	,	_	_
+13-22	1020-1021	-	_	_
+13-23	1022-1024	L.	*[3]	PERmentioned[3]
+13-24	1025-1032	Schmidt	*[3]	PERmentioned[3]
+13-25	1033-1037	will	_	_
+13-26	1038-1041	mit	_	_
+13-27	1042-1050	Anbeginn	_	_
+13-28	1051-1054	der	_	_
+13-29	1055-1061	Ferien	_	_
+13-30	1062-1068	seinex	_	_
+13-31	1069-1072	Frl	_	_
+13-32	1073-1074	.	_	_
+
+#Text=Schreyer sich zueignen und ehe er sie heimführt ihr einen Winter über Italien zeigen \; daß er sich in Allerlei versucht kann ich ihm nicht übel nehmen , auch nicht daß er das eben Erlernte rasch an den Mann bringt : docendo discimus und für Bonner Studenten wird auch sein Be Maß epigraphischer Kenntnisse immer belehrend sein .
+14-1	1075-1083	Schreyer	*	PERmentioned
+14-2	1084-1088	sich	_	_
+14-3	1089-1097	zueignen	_	_
+14-4	1098-1101	und	_	_
+14-5	1102-1105	ehe	_	_
+14-6	1106-1108	er	_	_
+14-7	1109-1112	sie	_	_
+14-8	1113-1122	heimführt	_	_
+14-9	1123-1126	ihr	_	_
+14-10	1127-1132	einen	_	_
+14-11	1133-1139	Winter	_	_
+14-12	1140-1144	über	_	_
+14-13	1145-1152	Italien	*	PLACEmentioned
+14-14	1153-1159	zeigen	_	_
+14-15	1160-1161	\;	_	_
+14-16	1162-1165	daß	_	_
+14-17	1166-1168	er	_	_
+14-18	1169-1173	sich	_	_
+14-19	1174-1176	in	_	_
+14-20	1177-1185	Allerlei	_	_
+14-21	1186-1194	versucht	_	_
+14-22	1195-1199	kann	_	_
+14-23	1200-1203	ich	_	_
+14-24	1204-1207	ihm	_	_
+14-25	1208-1213	nicht	_	_
+14-26	1214-1218	übel	_	_
+14-27	1219-1225	nehmen	_	_
+14-28	1226-1227	,	_	_
+14-29	1228-1232	auch	_	_
+14-30	1233-1238	nicht	_	_
+14-31	1239-1242	daß	_	_
+14-32	1243-1245	er	_	_
+14-33	1246-1249	das	_	_
+14-34	1250-1254	eben	_	_
+14-35	1255-1263	Erlernte	_	_
+14-36	1264-1269	rasch	_	_
+14-37	1270-1272	an	_	_
+14-38	1273-1276	den	_	_
+14-39	1277-1281	Mann	_	_
+14-40	1282-1288	bringt	_	_
+14-41	1289-1290	:	_	_
+14-42	1291-1298	docendo	_	_
+14-43	1299-1307	discimus	_	_
+14-44	1308-1311	und	_	_
+14-45	1312-1315	für	_	_
+14-46	1316-1322	Bonner	*	PLACEmentioned
+14-47	1323-1332	Studenten	_	_
+14-48	1333-1337	wird	_	_
+14-49	1338-1342	auch	_	_
+14-50	1343-1347	sein	_	_
+14-51	1348-1350	Be	_	_
+14-52	1351-1354	Maß	_	_
+14-53	1355-1369	epigraphischer	_	_
+14-54	1370-1380	Kenntnisse	_	_
+14-55	1381-1386	immer	_	_
+14-56	1387-1396	belehrend	_	_
+14-57	1397-1401	sein	_	_
+14-58	1402-1403	.	_	_
+
+#Text=Ueber
+15-1	1404-1409	Ueber	_	_

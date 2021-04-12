@@ -1,0 +1,126 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=23 Lepsius an Henzen Berlin , 214 .
+1-1	0-2	23	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	214	*[1]	DATEletter[1]
+1-8	34-35	.	*[1]	DATEletter[1]
+
+#Text=Januar 1873 den könnte .
+2-1	36-42	Januar	*[1]	DATEletter[1]
+2-2	43-47	1873	*[1]	DATEletter[1]
+2-3	48-51	den	_	_
+2-4	52-58	könnte	_	_
+2-5	59-60	.	_	_
+
+#Text=Die Forderungen des Herrn Laspeyres schienen uns richtiger direkt an das Unterrichtsministeriun , resp .
+3-1	61-64	Die	_	_
+3-2	65-76	Forderungen	_	_
+3-3	77-80	des	_	_
+3-4	81-86	Herrn	_	_
+3-5	87-96	Laspeyres	*	PERmentioned
+3-6	97-105	schienen	_	_
+3-7	106-109	uns	_	_
+3-8	110-119	richtiger	_	_
+3-9	120-126	direkt	_	_
+3-10	127-129	an	_	_
+3-11	130-133	das	_	_
+3-12	134-156	Unterrichtsministeriun	_	_
+3-13	157-158	,	_	_
+3-14	159-163	resp	_	_
+3-15	164-165	.	_	_
+
+#Text=durch dieses an das Reichsministerium von H. Laspeyres gerichtet : werden zu müssen .
+4-1	166-171	durch	_	_
+4-2	172-178	dieses	_	_
+4-3	179-181	an	_	_
+4-4	182-185	das	_	_
+4-5	186-203	Reichsministerium	*	ORGmentioned
+4-6	204-207	von	_	_
+4-7	208-210	H.	*[2]	PERmentioned[2]
+4-8	211-220	Laspeyres	*[2]	PERmentioned[2]
+4-9	221-230	gerichtet	_	_
+4-10	231-232	:	_	_
+4-11	233-239	werden	_	_
+4-12	240-242	zu	_	_
+4-13	243-249	müssen	_	_
+4-14	250-251	.	_	_
+
+#Text=Ich sende Ihnen hierbei gleichzeitig unter Kreuzband ein andres Schema für die Rechnungen , die Sie ohne Zweifel wieder in Lire aufstellen können .
+5-1	252-255	Ich	_	_
+5-2	256-261	sende	_	_
+5-3	262-267	Ihnen	_	_
+5-4	268-275	hierbei	_	_
+5-5	276-288	gleichzeitig	_	_
+5-6	289-294	unter	_	_
+5-7	295-304	Kreuzband	_	_
+5-8	305-308	ein	_	_
+5-9	309-315	andres	_	_
+5-10	316-322	Schema	_	_
+5-11	323-326	für	_	_
+5-12	327-330	die	_	_
+5-13	331-341	Rechnungen	_	_
+5-14	342-343	,	_	_
+5-15	344-347	die	_	_
+5-16	348-351	Sie	_	_
+5-17	352-356	ohne	_	_
+5-18	357-364	Zweifel	_	_
+5-19	365-371	wieder	_	_
+5-20	372-374	in	_	_
+5-21	375-379	Lire	_	_
+5-22	380-390	aufstellen	_	_
+5-23	391-397	können	_	_
+5-24	398-399	.	_	_
+
+#Text=Da nun Mommsen im Februar zu Ihnen kommen wird , so können Sie ja nun Alles mit ihm im Einzelnen besprechen .
+6-1	400-402	Da	_	_
+6-2	403-406	nun	_	_
+6-3	407-414	Mommsen	*	PERmentioned
+6-4	415-417	im	_	_
+6-5	418-425	Februar	*	DATEmentioned
+6-6	426-428	zu	_	_
+6-7	429-434	Ihnen	_	_
+6-8	435-441	kommen	_	_
+6-9	442-446	wird	_	_
+6-10	447-448	,	_	_
+6-11	449-451	so	_	_
+6-12	452-458	können	_	_
+6-13	459-462	Sie	_	_
+6-14	463-465	ja	_	_
+6-15	466-469	nun	_	_
+6-16	470-475	Alles	_	_
+6-17	476-479	mit	_	_
+6-18	480-483	ihm	_	_
+6-19	484-486	im	_	_
+6-20	487-496	Einzelnen	_	_
+6-21	497-507	besprechen	_	_
+6-22	508-509	.	_	_
+
+#Text=Ihre nachträglichen Vorschläge wegen Corrispondenti und Membri Ordinari sind angenommen worden .
+7-1	510-514	Ihre	_	_
+7-2	515-529	nachträglichen	_	_
+7-3	530-540	Vorschläge	_	_
+7-4	541-546	wegen	_	_
+7-5	547-561	Corrispondenti	_	_
+7-6	562-565	und	_	_
+7-7	566-572	Membri	_	_
+7-8	573-581	Ordinari	_	_
+7-9	582-586	sind	_	_
+7-10	587-597	angenommen	_	_
+7-11	598-604	worden	_	_
+7-12	605-606	.	_	_
+
+#Text=Mit herzlichem Gruß der Ihrige R Lepsius
+8-1	607-610	Mit	_	_
+8-2	611-621	herzlichem	_	_
+8-3	622-626	Gruß	_	_
+8-4	627-630	der	_	_
+8-5	631-637	Ihrige	_	_
+8-6	638-639	R	*[3]	PERauthor[3]
+8-7	640-647	Lepsius	*[3]	PERauthor[3]

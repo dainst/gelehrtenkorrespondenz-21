@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=16 Lepsius an Henzen Berlin , 8 .
+1-1	0-2	16	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	8	*[1]	DATEletter[1]
+1-8	32-33	.	*[1]	DATEletter[1]
+
+#Text=Jamuar 1876 g . 11/76 N . 6 r . 15/76 Berlin , den 8 .
+2-1	34-40	Jamuar	*[1]	DATEletter[1]
+2-2	41-45	1876	*[1]	DATEletter[1]
+2-3	46-47	g	_	_
+2-4	48-49	.	_	_
+2-5	50-55	11/76	*	DATEanswered
+2-6	56-57	N	_	_
+2-7	58-59	.	_	_
+2-8	60-61	6	_	_
+2-9	62-63	r	_	_
+2-10	64-65	.	_	_
+2-11	66-71	15/76	*	DATErecieved
+2-12	72-78	Berlin	*	PLACEfrom
+2-13	79-80	,	_	_
+2-14	81-84	den	_	_
+2-15	85-86	8	*[2]	DATEletter[2]
+2-16	87-88	.	*[2]	DATEletter[2]
+
+#Text=Jan .
+3-1	89-92	Jan	*[2]	DATEletter[2]
+3-2	93-94	.	*[2]	DATEletter[2]
+
+#Text=1876 Verehrter Freund Den Etat betreffend , wird es dieses Jahr wohl nicht nöthig sein , wieder ein Blatt drucken zu lassen , da sich eben nichts ändert an ( sic ! )
+4-1	95-99	1876	*[2]	DATEletter[2]
+4-2	100-109	Verehrter	_	_
+4-3	110-116	Freund	_	_
+4-4	117-120	Den	_	_
+4-5	121-125	Etat	_	_
+4-6	126-136	betreffend	_	_
+4-7	137-138	,	_	_
+4-8	139-143	wird	_	_
+4-9	144-146	es	_	_
+4-10	147-153	dieses	_	_
+4-11	154-158	Jahr	_	_
+4-12	159-163	wohl	_	_
+4-13	164-169	nicht	_	_
+4-14	170-176	nöthig	_	_
+4-15	177-181	sein	_	_
+4-16	182-183	,	_	_
+4-17	184-190	wieder	_	_
+4-18	191-194	ein	_	_
+4-19	195-200	Blatt	_	_
+4-20	201-208	drucken	_	_
+4-21	209-211	zu	_	_
+4-22	212-218	lassen	_	_
+4-23	219-220	,	_	_
+4-24	221-223	da	_	_
+4-25	224-228	sich	_	_
+4-26	229-233	eben	_	_
+4-27	234-240	nichts	_	_
+4-28	241-247	ändert	_	_
+4-29	248-250	an	_	_
+4-30	251-252	(	_	_
+4-31	253-256	sic	_	_
+4-32	257-258	!	_	_
+4-33	259-260	)	_	_
+
+#Text=, mit Ausnahme allerdings Ihrer Gehalte , über die Ihnen ja eine vorläufige Nachricht bereits zugegangen ist .
+5-1	261-262	,	_	_
+5-2	263-266	mit	_	_
+5-3	267-275	Ausnahme	_	_
+5-4	276-286	allerdings	_	_
+5-5	287-292	Ihrer	_	_
+5-6	293-300	Gehalte	_	_
+5-7	301-302	,	_	_
+5-8	303-307	über	_	_
+5-9	308-311	die	_	_
+5-10	312-317	Ihnen	_	_
+5-11	318-320	ja	_	_
+5-12	321-325	eine	_	_
+5-13	326-336	vorläufige	_	_
+5-14	337-346	Nachricht	_	_
+5-15	347-354	bereits	_	_
+5-16	355-365	zugegangen	_	_
+5-17	366-369	ist	_	_
+5-18	370-371	.	_	_
+
+#Text=Ich meinte Sie wollten von dem Publikationsfonds sprechen , deren Erhöhung uns abgeschlagen worden ist .
+6-1	372-375	Ich	_	_
+6-2	376-382	meinte	_	_
+6-3	383-386	Sie	_	_
+6-4	387-394	wollten	_	_
+6-5	395-398	von	_	_
+6-6	399-402	dem	_	_
+6-7	403-420	Publikationsfonds	_	_
+6-8	421-429	sprechen	_	_
+6-9	430-431	,	_	_
+6-10	432-437	deren	_	_
+6-11	438-446	Erhöhung	_	_
+6-12	447-450	uns	_	_
+6-13	451-463	abgeschlagen	_	_
+6-14	464-470	worden	_	_
+6-15	471-474	ist	_	_
+6-16	475-476	.	_	_
+
+#Text=Über die Gehalte die mit dem ganzen Etat , wie Sie aus den Zeitungen wissen werden , vom Reichstage bewilligt worden sind , das Ihrige zu 7 500 M. , das von Helbig zu 5 400 , ist nir allerdings noch keine amtliche Mittheilung zugegangen , weil das Budget erst noch vom Kaiser zu genehmigen war \; doch habe ich vor einigen Tagen ein Schreiben an das Auswärtige Amt gerichtet , worin ich um Ermächtigung gebeten habe , Ihnen schon jetzt die Erhöhungen aus der Lesationskasse auszahlen zu lassen .
+7-1	477-481	Über	_	_
+7-2	482-485	die	_	_
+7-3	486-493	Gehalte	_	_
+7-4	494-497	die	_	_
+7-5	498-501	mit	_	_
+7-6	502-505	dem	_	_
+7-7	506-512	ganzen	_	_
+7-8	513-517	Etat	_	_
+7-9	518-519	,	_	_
+7-10	520-523	wie	_	_
+7-11	524-527	Sie	_	_
+7-12	528-531	aus	_	_
+7-13	532-535	den	_	_
+7-14	536-545	Zeitungen	_	_
+7-15	546-552	wissen	_	_
+7-16	553-559	werden	_	_
+7-17	560-561	,	_	_
+7-18	562-565	vom	_	_
+7-19	566-576	Reichstage	_	_
+7-20	577-586	bewilligt	_	_
+7-21	587-593	worden	_	_
+7-22	594-598	sind	_	_
+7-23	599-600	,	_	_
+7-24	601-604	das	_	_
+7-25	605-611	Ihrige	_	_
+7-26	612-614	zu	_	_
+7-27	615-616	7	_	_
+7-28	617-620	500	_	_
+7-29	621-623	M.	_	_
+7-30	624-625	,	_	_
+7-31	626-629	das	_	_
+7-32	630-633	von	_	_
+7-33	634-640	Helbig	*	PERmentioned
+7-34	641-643	zu	_	_
+7-35	644-645	5	_	_
+7-36	646-649	400	_	_
+7-37	650-651	,	_	_
+7-38	652-655	ist	_	_
+7-39	656-659	nir	_	_
+7-40	660-670	allerdings	_	_
+7-41	671-675	noch	_	_
+7-42	676-681	keine	_	_
+7-43	682-690	amtliche	_	_
+7-44	691-702	Mittheilung	_	_
+7-45	703-713	zugegangen	_	_
+7-46	714-715	,	_	_
+7-47	716-720	weil	_	_
+7-48	721-724	das	_	_
+7-49	725-731	Budget	_	_
+7-50	732-736	erst	_	_
+7-51	737-741	noch	_	_
+7-52	742-745	vom	_	_
+7-53	746-752	Kaiser	*	PERmentioned
+7-54	753-755	zu	_	_
+7-55	756-766	genehmigen	_	_
+7-56	767-770	war	_	_
+7-57	771-772	\;	_	_
+7-58	773-777	doch	_	_
+7-59	778-782	habe	_	_
+7-60	783-786	ich	_	_
+7-61	787-790	vor	_	_
+7-62	791-798	einigen	_	_
+7-63	799-804	Tagen	_	_
+7-64	805-808	ein	_	_
+7-65	809-818	Schreiben	_	_
+7-66	819-821	an	_	_
+7-67	822-825	das	_	_
+7-68	826-836	Auswärtige	*[3]	ORGmentioned[3]
+7-69	837-840	Amt	*[3]	ORGmentioned[3]
+7-70	841-850	gerichtet	_	_
+7-71	851-852	,	_	_
+7-72	853-858	worin	_	_
+7-73	859-862	ich	_	_
+7-74	863-865	um	_	_
+7-75	866-878	Ermächtigung	_	_
+7-76	879-886	gebeten	_	_
+7-77	887-891	habe	_	_
+7-78	892-893	,	_	_
+7-79	894-899	Ihnen	_	_
+7-80	900-905	schon	_	_
+7-81	906-911	jetzt	_	_
+7-82	912-915	die	_	_
+7-83	916-926	Erhöhungen	_	_
+7-84	927-930	aus	_	_
+7-85	931-934	der	_	_
+7-86	935-949	Lesationskasse	_	_
+7-87	950-959	auszahlen	_	_
+7-88	960-962	zu	_	_
+7-89	963-969	lassen	_	_
+7-90	970-971	.	_	_
+
+#Text=Sobald Antwort eingeht , werde ich es Ihnen mittheilen .
+8-1	972-978	Sobald	_	_
+8-2	979-986	Antwort	_	_
+8-3	987-994	eingeht	_	_
+8-4	995-996	,	_	_
+8-5	997-1002	werde	_	_
+8-6	1003-1006	ich	_	_
+8-7	1007-1009	es	_	_
+8-8	1010-1015	Ihnen	_	_
+8-9	1016-1026	mittheilen	_	_
+8-10	1027-1028	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr ergebenster R Lepsius
+9-1	1029-1032	Mit	_	_
+9-2	1033-1043	herzlichem	_	_
+9-3	1044-1048	Gruß	_	_
+9-4	1049-1052	Ihr	_	_
+9-5	1053-1064	ergebenster	_	_
+9-6	1065-1066	R	*[4]	PERauthor[4]
+9-7	1067-1074	Lepsius	*[4]	PERauthor[4]

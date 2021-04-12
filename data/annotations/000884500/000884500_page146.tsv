@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 4. Juli 1838 chen 1äßt sich nichts Hinlängliches anfangen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	4.	*[4]	DATEletter[4]
+1-7	29-33	Juli	*[4]	DATEletter[4]
+1-8	34-38	1838	*[4]	DATEletter[4]
+1-9	39-43	chen	_	_
+1-10	44-48	1äßt	_	_
+1-11	49-53	sich	_	_
+1-12	54-60	nichts	_	_
+1-13	61-74	Hinlängliches	_	_
+1-14	75-83	anfangen	_	_
+1-15	84-85	.	_	_
+
+#Text=Es muß eine Curve gezeichnet oder gleich in Fläche gestellt werden , und das Beste wird wol sein Sie lassen gerade in solcher Voraussetzung für die Figuren ein Angesicht der Vase skizziren , so daß der Lithograph Alles ohne viel Rede begreift : Ausführung der einzelnen Figuren ist natürlich nicht von Nöthen , da die frühere Durchzeichnung dazu hinreicht .
+2-1	86-88	Es	_	_
+2-2	89-92	muß	_	_
+2-3	93-97	eine	_	_
+2-4	98-103	Curve	_	_
+2-5	104-114	gezeichnet	_	_
+2-6	115-119	oder	_	_
+2-7	120-126	gleich	_	_
+2-8	127-129	in	_	_
+2-9	130-136	Fläche	_	_
+2-10	137-145	gestellt	_	_
+2-11	146-152	werden	_	_
+2-12	153-154	,	_	_
+2-13	155-158	und	_	_
+2-14	159-162	das	_	_
+2-15	163-168	Beste	_	_
+2-16	169-173	wird	_	_
+2-17	174-177	wol	_	_
+2-18	178-182	sein	_	_
+2-19	183-186	Sie	_	_
+2-20	187-193	lassen	_	_
+2-21	194-200	gerade	_	_
+2-22	201-203	in	_	_
+2-23	204-211	solcher	_	_
+2-24	212-225	Voraussetzung	_	_
+2-25	226-229	für	_	_
+2-26	230-233	die	_	_
+2-27	234-241	Figuren	_	_
+2-28	242-245	ein	_	_
+2-29	246-255	Angesicht	_	_
+2-30	256-259	der	_	_
+2-31	260-264	Vase	*	OBJ
+2-32	265-274	skizziren	_	_
+2-33	275-276	,	_	_
+2-34	277-279	so	_	_
+2-35	280-283	daß	_	_
+2-36	284-287	der	_	_
+2-37	288-298	Lithograph	_	_
+2-38	299-304	Alles	_	_
+2-39	305-309	ohne	_	_
+2-40	310-314	viel	_	_
+2-41	315-319	Rede	_	_
+2-42	320-328	begreift	_	_
+2-43	329-330	:	_	_
+2-44	331-341	Ausführung	_	_
+2-45	342-345	der	_	_
+2-46	346-355	einzelnen	_	_
+2-47	356-363	Figuren	_	_
+2-48	364-367	ist	_	_
+2-49	368-377	natürlich	_	_
+2-50	378-383	nicht	_	_
+2-51	384-387	von	_	_
+2-52	388-394	Nöthen	_	_
+2-53	395-396	,	_	_
+2-54	397-399	da	_	_
+2-55	400-403	die	_	_
+2-56	404-411	frühere	_	_
+2-57	412-426	Durchzeichnung	_	_
+2-58	427-431	dazu	_	_
+2-59	432-441	hinreicht	_	_
+2-60	442-443	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Wer hat die schöne anfische Amphore , die T Hercules mit dem Löwen , von Basseggio gekauft ?
+3-1	444-454	Herzlichst	_	_
+3-2	455-458	Ihr	_	_
+3-3	459-466	Gerhard	*	PERauthor
+3-4	467-470	Wer	_	_
+3-5	471-474	hat	_	_
+3-6	475-478	die	_	_
+3-7	479-485	schöne	_	_
+3-8	486-494	anfische	*[7]	OBJ[7]
+3-9	495-502	Amphore	*[7]	OBJ[7]
+3-10	503-504	,	*[7]	OBJ[7]
+3-11	505-508	die	*[7]	OBJ[7]
+3-12	509-510	T	*[7]	OBJ[7]
+3-13	511-519	Hercules	*[7]	OBJ[7]
+3-14	520-523	mit	*[7]	OBJ[7]
+3-15	524-527	dem	*[7]	OBJ[7]
+3-16	528-533	Löwen	*[7]	OBJ[7]
+3-17	534-535	,	_	_
+3-18	536-539	von	_	_
+3-19	540-549	Basseggio	*	PERmentioned
+3-20	550-557	gekauft	_	_
+3-21	558-559	?	_	_
+
+#Text=Darf man sie ediren ?
+4-1	560-564	Darf	_	_
+4-2	565-568	man	_	_
+4-3	569-572	sie	_	_
+4-4	573-579	ediren	_	_
+4-5	580-581	?	_	_
+
+#Text=Meine rückständigen Antiken können , so bald sie in Ordnung sind , allerdings spedirt werden .
+5-1	582-587	Meine	_	_
+5-2	588-601	rückständigen	_	_
+5-3	602-609	Antiken	_	_
+5-4	610-616	können	_	_
+5-5	617-618	,	_	_
+5-6	619-621	so	_	_
+5-7	622-626	bald	_	_
+5-8	627-630	sie	_	_
+5-9	631-633	in	_	_
+5-10	634-641	Ordnung	_	_
+5-11	642-646	sind	_	_
+5-12	647-648	,	_	_
+5-13	649-659	allerdings	_	_
+5-14	660-667	spedirt	_	_
+5-15	668-674	werden	_	_
+5-16	675-676	.	_	_

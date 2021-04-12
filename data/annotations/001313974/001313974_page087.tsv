@@ -1,0 +1,251 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 29 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	29	*[1]	DATEletter[1]
+1-7	26-27	.	*[1]	DATEletter[1]
+
+#Text=August 1866 H 8 .
+2-1	28-34	August	*[1]	DATEletter[1]
+2-2	35-39	1866	*[1]	DATEletter[1]
+2-3	40-41	H	_	_
+2-4	42-43	8	_	_
+2-5	44-45	.	_	_
+
+#Text=12/9 66 n. Cc .
+3-1	46-50	12/9	*[2]	DATErecieved[2]
+3-2	51-53	66	*[2]	DATErecieved[2]
+3-3	54-56	n.	_	_
+3-4	57-59	Cc	_	_
+3-5	60-61	.	_	_
+
+#Text=T. Roma li 29 .
+4-1	62-64	T.	_	_
+4-2	65-69	Roma	*	PLACEfrom
+4-3	70-72	li	_	_
+4-4	73-75	29	*[3]	DATEletter[3]
+4-5	76-77	.	*[3]	DATEletter[3]
+
+#Text=Agosto 1866 Lieber Herr Professor Herzlichen Dank für Ihren freundlichen Brief und Ihren Glückwunsch .
+5-1	78-84	Agosto	*[3]	DATEletter[3]
+5-2	85-89	1866	*[3]	DATEletter[3]
+5-3	90-96	Lieber	_	_
+5-4	97-101	Herr	_	_
+5-5	102-111	Professor	_	_
+5-6	112-122	Herzlichen	_	_
+5-7	123-127	Dank	_	_
+5-8	128-131	für	_	_
+5-9	132-137	Ihren	_	_
+5-10	138-150	freundlichen	_	_
+5-11	151-156	Brief	_	_
+5-12	157-160	und	_	_
+5-13	161-166	Ihren	_	_
+5-14	167-178	Glückwunsch	_	_
+5-15	179-180	.	_	_
+
+#Text=Ich habe hier in den letzten Zeiten wie auf Kohlen gesessen , da bereits seit Freitag , also seit 6 Tagen , das Telegramm eingetroffen ist , welches mich zur Abreise aufforderte .
+6-1	181-184	Ich	_	_
+6-2	185-189	habe	_	_
+6-3	190-194	hier	_	_
+6-4	195-197	in	_	_
+6-5	198-201	den	_	_
+6-6	202-209	letzten	_	_
+6-7	210-216	Zeiten	_	_
+6-8	217-220	wie	_	_
+6-9	221-224	auf	_	_
+6-10	225-231	Kohlen	_	_
+6-11	232-240	gesessen	_	_
+6-12	241-242	,	_	_
+6-13	243-245	da	_	_
+6-14	246-253	bereits	_	_
+6-15	254-258	seit	_	_
+6-16	259-266	Freitag	*	DATEmentioned
+6-17	267-268	,	_	_
+6-18	269-273	also	_	_
+6-19	274-278	seit	_	_
+6-20	279-280	6	_	_
+6-21	281-286	Tagen	_	_
+6-22	287-288	,	_	_
+6-23	289-292	das	_	_
+6-24	293-302	Telegramm	_	_
+6-25	303-315	eingetroffen	_	_
+6-26	316-319	ist	_	_
+6-27	320-321	,	_	_
+6-28	322-329	welches	_	_
+6-29	330-334	mich	_	_
+6-30	335-338	zur	_	_
+6-31	339-346	Abreise	_	_
+6-32	347-358	aufforderte	_	_
+6-33	359-360	.	_	_
+
+#Text=Wenn ich fertig werden kann , reise ich schon morgen .
+7-1	361-365	Wenn	_	_
+7-2	366-369	ich	_	_
+7-3	370-376	fertig	_	_
+7-4	377-383	werden	_	_
+7-5	384-388	kann	_	_
+7-6	389-390	,	_	_
+7-7	391-396	reise	_	_
+7-8	397-400	ich	_	_
+7-9	401-406	schon	_	_
+7-10	407-413	morgen	_	_
+7-11	414-415	.	_	_
+
+#Text=Da jede Minute kostbar ist , so erlaube ich mir nur Sie darauf aufmerksam zu machen , daß Sie auf Ihrem Stehpulte unter dem marmornen Briefbeschwerer die nöthigen Bemerkungen über den Stand der Geschäfte vorfinden werden und über etwaige Punkte , über welche ich von unserer früheren Verabredung vorläufig abgewichen bin .
+8-1	416-418	Da	_	_
+8-2	419-423	jede	_	_
+8-3	424-430	Minute	_	_
+8-4	431-438	kostbar	_	_
+8-5	439-442	ist	_	_
+8-6	443-444	,	_	_
+8-7	445-447	so	_	_
+8-8	448-455	erlaube	_	_
+8-9	456-459	ich	_	_
+8-10	460-463	mir	_	_
+8-11	464-467	nur	_	_
+8-12	468-471	Sie	_	_
+8-13	472-478	darauf	_	_
+8-14	479-489	aufmerksam	_	_
+8-15	490-492	zu	_	_
+8-16	493-499	machen	_	_
+8-17	500-501	,	_	_
+8-18	502-505	daß	_	_
+8-19	506-509	Sie	_	_
+8-20	510-513	auf	_	_
+8-21	514-519	Ihrem	_	_
+8-22	520-529	Stehpulte	_	_
+8-23	530-535	unter	_	_
+8-24	536-539	dem	_	_
+8-25	540-549	marmornen	_	_
+8-26	550-565	Briefbeschwerer	_	_
+8-27	566-569	die	_	_
+8-28	570-578	nöthigen	_	_
+8-29	579-590	Bemerkungen	_	_
+8-30	591-595	über	_	_
+8-31	596-599	den	_	_
+8-32	600-605	Stand	_	_
+8-33	606-609	der	_	_
+8-34	610-619	Geschäfte	_	_
+8-35	620-629	vorfinden	_	_
+8-36	630-636	werden	_	_
+8-37	637-640	und	_	_
+8-38	641-645	über	_	_
+8-39	646-653	etwaige	_	_
+8-40	654-660	Punkte	_	_
+8-41	661-662	,	_	_
+8-42	663-667	über	_	_
+8-43	668-674	welche	_	_
+8-44	675-678	ich	_	_
+8-45	679-682	von	_	_
+8-46	683-690	unserer	_	_
+8-47	691-699	früheren	_	_
+8-48	700-711	Verabredung	_	_
+8-49	712-721	vorläufig	_	_
+8-50	722-732	abgewichen	_	_
+8-51	733-736	bin	_	_
+8-52	737-738	.	_	_
+
+#Text=Zu Ihrer Beruhigung sei Ihnen notificirt , daß das Augustbullettino gestern spedirt worden ist , daß von den Annali Bogen 16 gedruckt ist , ebenso sämmtliche Tav .
+9-1	739-741	Zu	_	_
+9-2	742-747	Ihrer	_	_
+9-3	748-758	Beruhigung	_	_
+9-4	759-762	sei	_	_
+9-5	763-768	Ihnen	_	_
+9-6	769-779	notificirt	_	_
+9-7	780-781	,	_	_
+9-8	782-785	daß	_	_
+9-9	786-789	das	_	_
+9-10	790-806	Augustbullettino	_	_
+9-11	807-814	gestern	_	_
+9-12	815-822	spedirt	_	_
+9-13	823-829	worden	_	_
+9-14	830-833	ist	_	_
+9-15	834-835	,	_	_
+9-16	836-839	daß	_	_
+9-17	840-843	von	_	_
+9-18	844-847	den	_	_
+9-19	848-854	Annali	_	_
+9-20	855-860	Bogen	_	_
+9-21	861-863	16	_	_
+9-22	864-872	gedruckt	_	_
+9-23	873-876	ist	_	_
+9-24	877-878	,	_	_
+9-25	879-885	ebenso	_	_
+9-26	886-896	sämmtliche	_	_
+9-27	897-900	Tav	_	_
+9-28	901-902	.	_	_
+
+#Text=d'agg .
+10-1	903-908	d'agg	_	_
+10-2	909-910	.	_	_
+
+#Text=bis R inclusive .
+11-1	911-914	bis	_	_
+11-2	915-916	R	_	_
+11-3	917-926	inclusive	_	_
+11-4	927-928	.	_	_
+
+#Text=Von den Monumenti habe ich nur drei Tafeln drucken lassen können , was an der Langsamkeit der Bearbeiter liegt .
+12-1	929-932	Von	_	_
+12-2	933-936	den	_	_
+12-3	937-946	Monumenti	_	_
+12-4	947-951	habe	_	_
+12-5	952-955	ich	_	_
+12-6	956-959	nur	_	_
+12-7	960-964	drei	_	_
+12-8	965-971	Tafeln	_	_
+12-9	972-979	drucken	_	_
+12-10	980-986	lassen	_	_
+12-11	987-993	können	_	_
+12-12	994-995	,	_	_
+12-13	996-999	was	_	_
+12-14	1000-1002	an	_	_
+12-15	1003-1006	der	_	_
+12-16	1007-1018	Langsamkeit	_	_
+12-17	1019-1022	der	_	_
+12-18	1023-1033	Bearbeiter	_	_
+12-19	1034-1039	liegt	_	_
+12-20	1040-1041	.	_	_
+
+#Text=Der einzige Impiccio ist der unselige Geldzettel , welchen ich immer noch vergeblich suche .
+13-1	1042-1045	Der	_	_
+13-2	1046-1053	einzige	_	_
+13-3	1054-1062	Impiccio	_	_
+13-4	1063-1066	ist	_	_
+13-5	1067-1070	der	_	_
+13-6	1071-1079	unselige	_	_
+13-7	1080-1090	Geldzettel	_	_
+13-8	1091-1092	,	_	_
+13-9	1093-1100	welchen	_	_
+13-10	1101-1104	ich	_	_
+13-11	1105-1110	immer	_	_
+13-12	1111-1115	noch	_	_
+13-13	1116-1126	vergeblich	_	_
+13-14	1127-1132	suche	_	_
+13-15	1133-1134	.	_	_
+
+#Text=Über Garruccis Wunsch werden Sie unterdeß geantwortet haben .
+14-1	1135-1139	Über	_	_
+14-2	1140-1149	Garruccis	*	PERmentioned
+14-3	1150-1156	Wunsch	_	_
+14-4	1157-1163	werden	_	_
+14-5	1164-1167	Sie	_	_
+14-6	1168-1176	unterdeß	_	_
+14-7	1177-1188	geantwortet	_	_
+14-8	1189-1194	haben	_	_
+14-9	1195-1196	.	_	_
+
+#Text=Benndorf wird ihm , falls ich schon
+15-1	1197-1205	Benndorf	*	PERmentioned
+15-2	1206-1210	wird	_	_
+15-3	1211-1214	ihm	_	_
+15-4	1215-1216	,	_	_
+15-5	1217-1222	falls	_	_
+15-6	1223-1226	ich	_	_
+15-7	1227-1232	schon	_	_

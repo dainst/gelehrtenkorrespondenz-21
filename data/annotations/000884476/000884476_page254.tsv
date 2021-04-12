@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=m ; 195 Gerhard an Braun Berlin , 15 .
+1-1	0-1	m	_	_	
+1-2	2-3	;	_	_	
+1-3	4-7	195	_	_	
+1-4	8-15	Gerhard	*	PERauthor	
+1-5	16-18	an	_	_	
+1-6	19-24	Braun	*	PERaddressee	
+1-7	25-31	Berlin	*	PLACEfrom	
+1-8	32-33	,	_	_	
+1-9	34-36	15	*[1]	DATEletter[1]	
+1-10	37-38	.	*[1]	DATEletter[1]	
+
+#Text=Oktober 1835 ren von Ihnen höre über die Publikation des Monum , Heftes ! !
+2-1	39-46	Oktober	*[1]	DATEletter[1]	
+2-2	47-51	1835	*[1]	DATEletter[1]	
+2-3	52-55	ren	_	_	
+2-4	56-59	von	_	_	
+2-5	60-65	Ihnen	_	_	
+2-6	66-70	höre	_	_	
+2-7	71-75	über	_	_	
+2-8	76-79	die	_	_	
+2-9	80-91	Publikation	_	_	
+2-10	92-95	des	_	_	
+2-11	96-101	Monum	_	_	
+2-12	102-103	,	_	_	
+2-13	104-110	Heftes	_	_	
+2-14	111-112	!	_	_	
+2-15	113-114	!	_	_	
+
+#Text=-— In den Zeichnungsausgaben für mich fahren Sie ja fort ; fehlt es an Geld , so sende ich neuen Privatfonds , die dann aber Privatfonds und ohne alle Notiz fürs Institut bleiben müßten .
+3-1	115-117	-—	_	_	
+3-2	118-120	In	_	_	
+3-3	121-124	den	_	_	
+3-4	125-143	Zeichnungsausgaben	_	_	
+3-5	144-147	für	_	_	
+3-6	148-152	mich	_	_	
+3-7	153-159	fahren	_	_	
+3-8	160-163	Sie	_	_	
+3-9	164-166	ja	_	_	
+3-10	167-171	fort	_	_	
+3-11	172-173	;	_	_	
+3-12	174-179	fehlt	_	_	
+3-13	180-182	es	_	_	
+3-14	183-185	an	_	_	
+3-15	186-190	Geld	_	_	
+3-16	191-192	,	_	_	
+3-17	193-195	so	_	_	
+3-18	196-201	sende	_	_	
+3-19	202-205	ich	_	_	
+3-20	206-211	neuen	_	_	
+3-21	212-223	Privatfonds	_	_	
+3-22	224-225	,	_	_	
+3-23	226-229	die	_	_	
+3-24	230-234	dann	_	_	
+3-25	235-239	aber	_	_	
+3-26	240-251	Privatfonds	_	_	
+3-27	252-255	und	_	_	
+3-28	256-260	ohne	_	_	
+3-29	261-265	alle	_	_	
+3-30	266-271	Notiz	_	_	
+3-31	272-276	fürs	_	_	
+3-32	277-285	Institut	*	ORGmentioned	
+3-33	286-293	bleiben	_	_	
+3-34	294-300	müßten	_	_	
+3-35	301-302	.	_	_	
+
+#Text=Gerhard Am Rande der ersten Seite : yet BR Panofka hat erst ser Ihren Brief hier vorgefunden und dankt bestens .
+4-1	303-310	Gerhard	*	PERauthor	
+4-2	311-313	Am	_	_	
+4-3	314-319	Rande	_	_	
+4-4	320-323	der	_	_	
+4-5	324-330	ersten	_	_	
+4-6	331-336	Seite	_	_	
+4-7	337-338	:	_	_	
+4-8	339-342	yet	_	_	
+4-9	343-345	BR	_	_	
+4-10	346-353	Panofka	*	PERmentioned	
+4-11	354-357	hat	_	_	
+4-12	358-362	erst	_	_	
+4-13	363-366	ser	_	_	
+4-14	367-372	Ihren	_	_	
+4-15	373-378	Brief	_	_	
+4-16	379-383	hier	_	_	
+4-17	384-395	vorgefunden	_	_	
+4-18	396-399	und	_	_	
+4-19	400-405	dankt	_	_	
+4-20	406-413	bestens	_	_	
+4-21	414-415	.	_	_	
+
+#Text=Kein Bull .
+5-1	416-420	Kein	_	_	
+5-2	421-425	Bull	_	_	
+5-3	426-427	.	_	_	
+
+#Text=seitdem ! ! !
+6-1	428-435	seitdem	_	_	
+6-2	436-437	!	_	_	
+6-3	438-439	!	_	_	
+6-4	440-441	!	_	_	
+
+#Text=Mit der Ref .
+7-1	442-445	Mit	_	_	
+7-2	446-449	der	_	_	
+7-3	450-453	Ref	_	_	
+7-4	454-455	.	_	_	
+
+#Text=des Cakmet Pont - s ist er zufrieden ; Grüßen Sie Meyor auch meinerseits .
+8-1	456-459	des	_	_	
+8-2	460-466	Cakmet	_	_	
+8-3	467-471	Pont	_	_	
+8-4	472-473	-	_	_	
+8-5	474-475	s	_	_	
+8-6	476-479	ist	_	_	
+8-7	480-482	er	_	_	
+8-8	483-492	zufrieden	_	_	
+8-9	493-494	;	_	_	
+8-10	495-501	Grüßen	_	_	
+8-11	502-505	Sie	_	_	
+8-12	506-511	Meyor	_	_	
+8-13	512-516	auch	_	_	
+8-14	517-528	meinerseits	_	_	
+8-15	529-530	.	_	_	
+
+#Text=Soviel schrieb ich gestern und dachte zu Ende zu seyn ; es ist aber schwer , wenn ich an Sie schreibe , zu Ende zu kommen .
+9-1	531-537	Soviel	_	_	
+9-2	538-545	schrieb	_	_	
+9-3	546-549	ich	_	_	
+9-4	550-557	gestern	_	_	
+9-5	558-561	und	_	_	
+9-6	562-568	dachte	_	_	
+9-7	569-571	zu	_	_	
+9-8	572-576	Ende	_	_	
+9-9	577-579	zu	_	_	
+9-10	580-584	seyn	_	_	
+9-11	585-586	;	_	_	
+9-12	587-589	es	_	_	
+9-13	590-593	ist	_	_	
+9-14	594-598	aber	_	_	
+9-15	599-605	schwer	_	_	
+9-16	606-607	,	_	_	
+9-17	608-612	wenn	_	_	
+9-18	613-616	ich	_	_	
+9-19	617-619	an	_	_	
+9-20	620-623	Sie	_	_	
+9-21	624-632	schreibe	_	_	
+9-22	633-634	,	_	_	
+9-23	635-637	zu	_	_	
+9-24	638-642	Ende	_	_	
+9-25	643-645	zu	_	_	
+9-26	646-652	kommen	_	_	
+9-27	653-654	.	_	_	
+
+#Text=Ceterun ?
+10-1	655-662	Ceterun	_	_	
+10-2	663-664	?	_	_	
+
+#Text=delendam !
+11-1	665-673	delendam	_	_	
+11-2	674-675	!	_	_	
+
+#Text=Den Gleichmuth mit welchemSie über die längst übernommene und wie ich dachte abgemachte Publikation der Mon .
+12-1	676-679	Den	_	_	
+12-2	680-690	Gleichmuth	_	_	
+12-3	691-694	mit	_	_	
+12-4	695-705	welchemSie	_	_	
+12-5	706-710	über	_	_	
+12-6	711-714	die	_	_	
+12-7	715-721	längst	_	_	
+12-8	722-733	übernommene	_	_	
+12-9	734-737	und	_	_	
+12-10	738-741	wie	_	_	
+12-11	742-745	ich	_	_	
+12-12	746-752	dachte	_	_	
+12-13	753-763	abgemachte	_	_	
+12-14	764-775	Publikation	_	_	
+12-15	776-779	der	_	_	
+12-16	780-783	Mon	_	_	
+12-17	784-785	.	_	_	
+
+#Text=des Instituts RN J. schweigen , begreife ich nicht .
+13-1	786-789	des	_	_	
+13-2	790-799	Instituts	_	_	
+13-3	800-802	RN	_	_	
+13-4	803-805	J.	_	_	
+13-5	806-815	schweigen	_	_	
+13-6	816-817	,	_	_	
+13-7	818-826	begreife	_	_	
+13-8	827-830	ich	_	_	
+13-9	831-836	nicht	_	_	
+13-10	837-838	.	_	_	
+
+#Text=Ums Himmelswillen , machen Sie der Sache ein Ende , und senden Sie zumindest den Index der Tafeln wenn derselbe bliebe .
+14-1	839-842	Ums	_	_	
+14-2	843-856	Himmelswillen	_	_	
+14-3	857-858	,	_	_	
+14-4	859-865	machen	_	_	
+14-5	866-869	Sie	_	_	
+14-6	870-873	der	_	_	
+14-7	874-879	Sache	_	_	
+14-8	880-883	ein	_	_	
+14-9	884-888	Ende	_	_	
+14-10	889-890	,	_	_	
+14-11	891-894	und	_	_	
+14-12	895-901	senden	_	_	
+14-13	902-905	Sie	_	_	
+14-14	906-915	zumindest	_	_	
+14-15	916-919	den	_	_	
+14-16	920-925	Index	_	_	
+14-17	926-929	der	_	_	
+14-18	930-936	Tafeln	_	_	
+14-19	937-941	wenn	_	_	
+14-20	942-950	derselbe	_	_	
+14-21	951-957	bliebe	_	_	
+14-22	958-959	.	_	_	
+
+#Text=Rot Panofka muß den R & der Annali schleunigst drucre Fwult ken ; sobald Ihr Index uns Ja Be von Mißverständnissen in der Bezifferung uber lebt , een diejenigen Plat-
+15-1	960-963	Rot	_	_	
+15-2	964-971	Panofka	*	PERmentioned	
+15-3	972-975	muß	_	_	
+15-4	976-979	den	_	_	
+15-5	980-981	R	_	_	
+15-6	982-983	&	_	_	
+15-7	984-987	der	_	_	
+15-8	988-994	Annali	_	_	
+15-9	995-1006	schleunigst	_	_	
+15-10	1007-1013	drucre	_	_	
+15-11	1014-1019	Fwult	_	_	
+15-12	1020-1023	ken	_	_	
+15-13	1024-1025	;	_	_	
+15-14	1026-1032	sobald	_	_	
+15-15	1033-1036	Ihr	_	_	
+15-16	1037-1042	Index	_	_	
+15-17	1043-1046	uns	_	_	
+15-18	1047-1049	Ja	_	_	
+15-19	1050-1052	Be	_	_	
+15-20	1053-1056	von	_	_	
+15-21	1057-1074	Mißverständnissen	_	_	
+15-22	1075-1077	in	_	_	
+15-23	1078-1081	der	_	_	
+15-24	1082-1093	Bezifferung	_	_	
+15-25	1094-1098	uber	_	_	
+15-26	1099-1103	lebt	_	_	
+15-27	1104-1105	,	_	_	
+15-28	1106-1109	een	_	_	
+15-29	1110-1120	diejenigen	_	_	
+15-30	1121-1126	Plat-	_	_	

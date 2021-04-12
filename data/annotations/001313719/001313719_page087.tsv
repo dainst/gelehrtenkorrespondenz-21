@@ -1,0 +1,204 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=onen .
+1-1	0-4	onen	_	_
+1-2	5-6	.	_	_
+
+#Text=Gerhard an Henzen Berlin , 12. November 1846 ob er sie aber zum Guten , oder als Bestechungsversuch für den Vatikan deuten werde , muß ich dahin gestellt sein lassen .
+2-1	7-14	Gerhard	*	PERauthor
+2-2	15-17	an	_	_
+2-3	18-24	Henzen	*	PERaddressee
+2-4	25-31	Berlin	*	PLACEfrom
+2-5	32-33	,	_	_
+2-6	34-37	12.	*[1]	DATEletter[1]
+2-7	38-46	November	*[1]	DATEletter[1]
+2-8	47-51	1846	*[1]	DATEletter[1]
+2-9	52-54	ob	_	_
+2-10	55-57	er	_	_
+2-11	58-61	sie	_	_
+2-12	62-66	aber	_	_
+2-13	67-70	zum	_	_
+2-14	71-76	Guten	_	_
+2-15	77-78	,	_	_
+2-16	79-83	oder	_	_
+2-17	84-87	als	_	_
+2-18	88-106	Bestechungsversuch	_	_
+2-19	107-110	für	_	_
+2-20	111-114	den	_	_
+2-21	115-122	Vatikan	*	PLACEmentioned
+2-22	123-129	deuten	_	_
+2-23	130-135	werde	_	_
+2-24	136-137	,	_	_
+2-25	138-141	muß	_	_
+2-26	142-145	ich	_	_
+2-27	146-151	dahin	_	_
+2-28	152-160	gestellt	_	_
+2-29	161-165	sein	_	_
+2-30	166-172	lassen	_	_
+2-31	173-174	.	_	_
+
+#Text=wir leben in leidlicher Gesundheit still weg .
+3-1	175-178	wir	_	_
+3-2	179-184	leben	_	_
+3-3	185-187	in	_	_
+3-4	188-198	leidlicher	_	_
+3-5	199-209	Gesundheit	_	_
+3-6	210-215	still	_	_
+3-7	216-219	weg	_	_
+3-8	220-221	.	_	_
+
+#Text=Ihrer lieben Frau viel Herzliches von der meinigen und von mir .
+4-1	222-227	Ihrer	_	_
+4-2	228-234	lieben	_	_
+4-3	235-239	Frau	_	_
+4-4	240-244	viel	_	_
+4-5	245-255	Herzliches	_	_
+4-6	256-259	von	_	_
+4-7	260-263	der	_	_
+4-8	264-272	meinigen	_	_
+4-9	273-276	und	_	_
+4-10	277-280	von	_	_
+4-11	281-284	mir	_	_
+4-12	285-286	.	_	_
+
+#Text=Ihr Gerhard Viel Neigebaursche Epigraphica sende ich durch das Ministerium und bitte sie bald direkt ihm zu bescheinigen \; er verwilt bei S. v. Bandocz .
+5-1	287-290	Ihr	_	_
+5-2	291-298	Gerhard	*	PERauthor
+5-3	299-303	Viel	_	_
+5-4	304-317	Neigebaursche	_	_
+5-5	318-329	Epigraphica	_	_
+5-6	330-335	sende	_	_
+5-7	336-339	ich	_	_
+5-8	340-345	durch	_	_
+5-9	346-349	das	_	_
+5-10	350-361	Ministerium	_	_
+5-11	362-365	und	_	_
+5-12	366-371	bitte	_	_
+5-13	372-375	sie	_	_
+5-14	376-380	bald	_	_
+5-15	381-387	direkt	_	_
+5-16	388-391	ihm	_	_
+5-17	392-394	zu	_	_
+5-18	395-407	bescheinigen	_	_
+5-19	408-409	\;	_	_
+5-20	410-412	er	_	_
+5-21	413-420	verwilt	_	_
+5-22	421-424	bei	_	_
+5-23	425-427	S.	*[2]	PERmentioned[2]
+5-24	428-430	v.	*[2]	PERmentioned[2]
+5-25	431-438	Bandocz	*[2]	PERmentioned[2]
+5-26	439-440	.	_	_
+
+#Text=Minervini bitte ich für seinen Brief vorläufig zu danken \; mit dem Bemerk ...... , .00.0 ..... Quaranta über die Amazonenvase aus Ruvo , sondern über die Amazo- DEN eeerenererenn .. Nola mit Inschrift ( Neapek Bilder Ss .
+6-1	441-450	Minervini	*	PERmentioned
+6-2	451-456	bitte	_	_
+6-3	457-460	ich	_	_
+6-4	461-464	für	_	_
+6-5	465-471	seinen	_	_
+6-6	472-477	Brief	_	_
+6-7	478-487	vorläufig	_	_
+6-8	488-490	zu	_	_
+6-9	491-497	danken	_	_
+6-10	498-499	\;	_	_
+6-11	500-503	mit	_	_
+6-12	504-507	dem	_	_
+6-13	508-514	Bemerk	_	_
+6-14	515-521	......	_	_
+6-15	522-523	,	_	_
+6-16	524-529	.00.0	_	_
+6-17	530-535	.....	_	_
+6-18	536-544	Quaranta	_	_
+6-19	545-549	über	_	_
+6-20	550-553	die	_	_
+6-21	554-566	Amazonenvase	*	OBJ
+6-22	567-570	aus	_	_
+6-23	571-575	Ruvo	*	PLACEmentioned
+6-24	576-577	,	_	_
+6-25	578-585	sondern	_	_
+6-26	586-590	über	_	_
+6-27	591-594	die	_	_
+6-28	595-601	Amazo-	_	_
+6-29	602-605	DEN	_	_
+6-30	606-619	eeerenererenn	_	_
+6-31	620-622	..	_	_
+6-32	623-627	Nola	*	PLACEmentioned
+6-33	628-631	mit	_	_
+6-34	632-641	Inschrift	*	OBJ
+6-35	642-643	(	_	_
+6-36	644-650	Neapek	*	PLACEmentioned
+6-37	651-657	Bilder	_	_
+6-38	658-660	Ss	_	_
+6-39	661-662	.	_	_
+
+#Text=349 £ . )
+7-1	663-666	349	_	_
+7-2	667-668	£	_	_
+7-3	669-670	.	_	_
+7-4	671-672	)	_	_
+
+#Text=gesucht habe .
+8-1	673-680	gesucht	_	_
+8-2	681-685	habe	_	_
+8-3	686-687	.	_	_
+
+#Text=Die Exemplare Ihrer Tabula alimentaria habe ich also , da Sie nicht anders bestimmten nn Brockhaus an Besser überwiesen \; nun fehlt aber noch Ihre Preis .. ee.oreeen0 .. Für den Buchhandel von dem 50 rt als üblicher Commissionsrabatt ........ Fiorelli 's Giornale numismatico habe ich also zu erwarten ?
+9-1	688-691	Die	_	_
+9-2	692-701	Exemplare	_	_
+9-3	702-707	Ihrer	_	_
+9-4	708-714	Tabula	*[3]	OBJ[3]
+9-5	715-726	alimentaria	*[3]	OBJ[3]
+9-6	727-731	habe	_	_
+9-7	732-735	ich	_	_
+9-8	736-740	also	_	_
+9-9	741-742	,	_	_
+9-10	743-745	da	_	_
+9-11	746-749	Sie	_	_
+9-12	750-755	nicht	_	_
+9-13	756-762	anders	_	_
+9-14	763-773	bestimmten	_	_
+9-15	774-776	nn	_	_
+9-16	777-786	Brockhaus	_	_
+9-17	787-789	an	_	_
+9-18	790-796	Besser	_	_
+9-19	797-807	überwiesen	_	_
+9-20	808-809	\;	_	_
+9-21	810-813	nun	_	_
+9-22	814-819	fehlt	_	_
+9-23	820-824	aber	_	_
+9-24	825-829	noch	_	_
+9-25	830-834	Ihre	_	_
+9-26	835-840	Preis	_	_
+9-27	841-843	..	_	_
+9-28	844-854	ee.oreeen0	_	_
+9-29	855-857	..	_	_
+9-30	858-861	Für	_	_
+9-31	862-865	den	_	_
+9-32	866-876	Buchhandel	_	_
+9-33	877-880	von	_	_
+9-34	881-884	dem	_	_
+9-35	885-887	50	_	_
+9-36	888-890	rt	_	_
+9-37	891-894	als	_	_
+9-38	895-903	üblicher	_	_
+9-39	904-921	Commissionsrabatt	_	_
+9-40	922-930	........	_	_
+9-41	931-939	Fiorelli	*[4]	PERmentioned[4]
+9-42	940-942	's	*[4]	PERmentioned[4]
+9-43	943-951	Giornale	_	_
+9-44	952-963	numismatico	_	_
+9-45	964-968	habe	_	_
+9-46	969-972	ich	_	_
+9-47	973-977	also	_	_
+9-48	978-980	zu	_	_
+9-49	981-989	erwarten	_	_
+9-50	990-991	?	_	_
+
+#Text=Ich sende ihm Archäologische Zeitung sobald
+10-1	992-995	Ich	_	_
+10-2	996-1001	sende	_	_
+10-3	1002-1005	ihm	_	_
+10-4	1006-1020	Archäologische	_	_
+10-5	1021-1028	Zeitung	_	_
+10-6	1029-1035	sobald	_	_

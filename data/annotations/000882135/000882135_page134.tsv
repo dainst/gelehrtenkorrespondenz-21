@@ -1,0 +1,70 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=826 Braun an Gerhard Rom , 25. Dezember 1838 Kestner scheint den Titel eines General Secretärs sehr zu ambiren , obwohl er wiederholt versichert , daß er ganz und gar nicht zu einer solchen Stelle passe .
+1-1	0-3	826	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	25.	*[4]	DATEletter[4]
+1-8	31-39	Dezember	*[4]	DATEletter[4]
+1-9	40-44	1838	*[4]	DATEletter[4]
+1-10	45-52	Kestner	*	PERmentioned
+1-11	53-60	scheint	_	_
+1-12	61-64	den	_	_
+1-13	65-70	Titel	_	_
+1-14	71-76	eines	_	_
+1-15	77-84	General	_	_
+1-16	85-94	Secretärs	_	_
+1-17	95-99	sehr	_	_
+1-18	100-102	zu	_	_
+1-19	103-110	ambiren	_	_
+1-20	111-112	,	_	_
+1-21	113-119	obwohl	_	_
+1-22	120-122	er	_	_
+1-23	123-133	wiederholt	_	_
+1-24	134-144	versichert	_	_
+1-25	145-146	,	_	_
+1-26	147-150	daß	_	_
+1-27	151-153	er	_	_
+1-28	154-158	ganz	_	_
+1-29	159-162	und	_	_
+1-30	163-166	gar	_	_
+1-31	167-172	nicht	_	_
+1-32	173-175	zu	_	_
+1-33	176-181	einer	_	_
+1-34	182-189	solchen	_	_
+1-35	190-196	Stelle	_	_
+1-36	197-202	passe	_	_
+1-37	203-204	.	_	_
+
+#Text=Gottbefohlen .
+2-1	205-217	Gottbefohlen	_	_
+2-2	218-219	.	_	_
+
+#Text=Ihr treu ergebener EBraun .
+3-1	220-223	Ihr	_	_
+3-2	224-228	treu	_	_
+3-3	229-238	ergebener	_	_
+3-4	239-245	EBraun	*	PERauthor
+3-5	246-247	.	_	_
+
+#Text=mit herzlichen Glückwünschen zu dem bevorstehenden Jahreswechsel .
+4-1	248-251	mit	_	_
+4-2	252-262	herzlichen	_	_
+4-3	263-276	Glückwünschen	_	_
+4-4	277-279	zu	_	_
+4-5	280-283	dem	_	_
+4-6	284-298	bevorstehenden	_	_
+4-7	299-312	Jahreswechsel	_	_
+4-8	313-314	.	_	_
+
+#Text=Rom 25 Debre 1858 .
+5-1	315-318	Rom	*	PLACEfrom
+5-2	319-321	25	*[8]	DATEletter[8]
+5-3	322-327	Debre	*[8]	DATEletter[8]
+5-4	328-332	1858	*[8]	DATEletter[8]
+5-5	333-334	.	_	_

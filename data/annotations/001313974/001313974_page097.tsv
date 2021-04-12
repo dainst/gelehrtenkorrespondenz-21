@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=193 Helbig an Henzen Neapel , 21. April 1868 2u/4 68 Neapel 21/4 68 Lieber Herr Professor In aller Eile nur wenige Worte .
+1-1	0-3	193	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	21.	*[3]	DATEletter[3]
+1-8	34-39	April	*[3]	DATEletter[3]
+1-9	40-44	1868	*[3]	DATEletter[3]
+1-10	45-49	2u/4	*[4]	DATErecieved[4]
+1-11	50-52	68	*[4]	DATErecieved[4]
+1-12	53-59	Neapel	*	PLACEfrom
+1-13	60-64	21/4	*[5]	DATEletter[5]
+1-14	65-67	68	*[5]	DATEletter[5]
+1-15	68-74	Lieber	_	_
+1-16	75-79	Herr	_	_
+1-17	80-89	Professor	_	_
+1-18	90-92	In	_	_
+1-19	93-98	aller	_	_
+1-20	99-103	Eile	_	_
+1-21	104-107	nur	_	_
+1-22	108-114	wenige	_	_
+1-23	115-120	Worte	_	_
+1-24	121-122	.	_	_
+
+#Text=Castellani hat Monumente von solcher Wichtigkeit angekauft , wie ich noch nie bei einem Privatmann gefunden habe .
+2-1	123-133	Castellani	*	PERmentioned
+2-2	134-137	hat	_	_
+2-3	138-147	Monumente	_	_
+2-4	148-151	von	_	_
+2-5	152-159	solcher	_	_
+2-6	160-171	Wichtigkeit	_	_
+2-7	172-181	angekauft	_	_
+2-8	182-183	,	_	_
+2-9	184-187	wie	_	_
+2-10	188-191	ich	_	_
+2-11	192-196	noch	_	_
+2-12	197-200	nie	_	_
+2-13	201-204	bei	_	_
+2-14	205-210	einem	_	_
+2-15	211-221	Privatmann	_	_
+2-16	222-230	gefunden	_	_
+2-17	231-235	habe	_	_
+2-18	236-237	.	_	_
+
+#Text=In vier Wochen bringt er sie nach Paris und London .
+3-1	238-240	In	_	_
+3-2	241-245	vier	_	_
+3-3	246-252	Wochen	_	_
+3-4	253-259	bringt	_	_
+3-5	260-262	er	_	_
+3-6	263-266	sie	_	_
+3-7	267-271	nach	_	_
+3-8	272-277	Paris	*	PLACEmentioned
+3-9	278-281	und	_	_
+3-10	282-288	London	*	PLACEmentioned
+3-11	289-290	.	_	_
+
+#Text=Sollen sie gezeichnet werden , so ist die größte Eile nöthig .
+4-1	291-297	Sollen	_	_
+4-2	298-301	sie	_	_
+4-3	302-312	gezeichnet	_	_
+4-4	313-319	werden	_	_
+4-5	320-321	,	_	_
+4-6	322-324	so	_	_
+4-7	325-328	ist	_	_
+4-8	329-332	die	_	_
+4-9	333-339	größte	_	_
+4-10	340-344	Eile	_	_
+4-11	345-351	nöthig	_	_
+4-12	352-353	.	_	_
+
+#Text=In Capua ein bemaltes Grab , ebenfalls höchst wichtig .
+5-1	354-356	In	_	_
+5-2	357-362	Capua	*	PLACEmentioned
+5-3	363-366	ein	_	_
+5-4	367-375	bemaltes	*[6]	OBJ[6]
+5-5	376-380	Grab	*[6]	OBJ[6]
+5-6	381-382	,	_	_
+5-7	383-392	ebenfalls	_	_
+5-8	393-399	höchst	_	_
+5-9	400-407	wichtig	_	_
+5-10	408-409	.	_	_
+
+#Text=Schicken Sie , bitte , umgehend Schulz .
+6-1	410-418	Schicken	_	_
+6-2	419-422	Sie	_	_
+6-3	423-424	,	_	_
+6-4	425-430	bitte	_	_
+6-5	431-432	,	_	_
+6-6	433-441	umgehend	_	_
+6-7	442-448	Schulz	*	PERmentioned
+6-8	449-450	.	_	_
+
+#Text=Entschuldigen Sie bitte , daß ich Sie am Morgen meiner Abreise nicht besucht habe .
+7-1	451-464	Entschuldigen	_	_
+7-2	465-468	Sie	_	_
+7-3	469-474	bitte	_	_
+7-4	475-476	,	_	_
+7-5	477-480	daß	_	_
+7-6	481-484	ich	_	_
+7-7	485-488	Sie	_	_
+7-8	489-491	am	_	_
+7-9	492-498	Morgen	_	_
+7-10	499-505	meiner	_	_
+7-11	506-513	Abreise	_	_
+7-12	514-519	nicht	_	_
+7-13	520-527	besucht	_	_
+7-14	528-532	habe	_	_
+7-15	533-534	.	_	_
+
+#Text=Ich hatte zu große Eile .
+8-1	535-538	Ich	_	_
+8-2	539-544	hatte	_	_
+8-3	545-547	zu	_	_
+8-4	548-553	große	_	_
+8-5	554-558	Eile	_	_
+8-6	559-560	.	_	_
+
+#Text=Grüßen Sie , bitte , Frau Henzen und die zurückgebliebenen Capitoliner .
+9-1	561-567	Grüßen	_	_
+9-2	568-571	Sie	_	_
+9-3	572-573	,	_	_
+9-4	574-579	bitte	_	_
+9-5	580-581	,	_	_
+9-6	582-586	Frau	*[7]	PERmentioned[7]
+9-7	587-593	Henzen	*[7]	PERmentioned[7]
+9-8	594-597	und	_	_
+9-9	598-601	die	_	_
+9-10	602-619	zurückgebliebenen	_	_
+9-11	620-631	Capitoliner	_	_
+9-12	632-633	.	_	_
+
+#Text=Castellani hat auch prachtvolle geschnittene Steine , welche ich für eine Centurie auszunutzen gedenke .
+10-1	634-644	Castellani	*	PERmentioned
+10-2	645-648	hat	_	_
+10-3	649-653	auch	_	_
+10-4	654-665	prachtvolle	_	_
+10-5	666-678	geschnittene	_	_
+10-6	679-685	Steine	_	_
+10-7	686-687	,	_	_
+10-8	688-694	welche	_	_
+10-9	695-698	ich	_	_
+10-10	699-702	für	_	_
+10-11	703-707	eine	_	_
+10-12	708-716	Centurie	_	_
+10-13	717-728	auszunutzen	_	_
+10-14	729-736	gedenke	_	_
+10-15	737-738	.	_	_
+
+#Text=Leider giebt es ganz Neapel nicht den geeigenten feinen Gyps .
+11-1	739-745	Leider	_	_
+11-2	746-751	giebt	_	_
+11-3	752-754	es	_	_
+11-4	755-759	ganz	_	_
+11-5	760-766	Neapel	*	PLACEmentioned
+11-6	767-772	nicht	_	_
+11-7	773-776	den	_	_
+11-8	777-787	geeigenten	_	_
+11-9	788-794	feinen	_	_
+11-10	795-799	Gyps	_	_
+11-11	800-801	.	_	_
+
+#Text=Sagen Sie , bitte , Schulz , daß er zwei Pfund davon aus Rom mitbringt .
+12-1	802-807	Sagen	_	_
+12-2	808-811	Sie	_	_
+12-3	812-813	,	_	_
+12-4	814-819	bitte	_	_
+12-5	820-821	,	_	_
+12-6	822-828	Schulz	*	PERmentioned
+12-7	829-830	,	_	_
+12-8	831-834	daß	_	_
+12-9	835-837	er	_	_
+12-10	838-842	zwei	_	_
+12-11	843-848	Pfund	_	_
+12-12	849-854	davon	_	_
+12-13	855-858	aus	_	_
+12-14	859-862	Rom	*	PLACEmentioned
+12-15	863-872	mitbringt	_	_
+12-16	873-874	.	_	_
+
+#Text=Wo man den besten kauft , mag er bei Martinetti erfragen .
+13-1	875-877	Wo	_	_
+13-2	878-881	man	_	_
+13-3	882-885	den	_	_
+13-4	886-892	besten	_	_
+13-5	893-898	kauft	_	_
+13-6	899-900	,	_	_
+13-7	901-904	mag	_	_
+13-8	905-907	er	_	_
+13-9	908-911	bei	_	_
+13-10	912-922	Martinetti	*	PERmentioned
+13-11	923-931	erfragen	_	_
+13-12	932-933	.	_	_
+
+#Text=Der Technische Ausdruck ist scajola per impronte gemmarie .
+14-1	934-937	Der	_	_
+14-2	938-948	Technische	_	_
+14-3	949-957	Ausdruck	_	_
+14-4	958-961	ist	_	_
+14-5	962-969	scajola	_	_
+14-6	970-973	per	_	_
+14-7	974-982	impronte	_	_
+14-8	983-991	gemmarie	_	_
+14-9	992-993	.	_	_
+
+#Text=Meine Frau grüßt bestens .
+15-1	994-999	Meine	_	_
+15-2	1000-1004	Frau	_	_
+15-3	1005-1010	grüßt	_	_
+15-4	1011-1018	bestens	_	_
+15-5	1019-1020	.	_	_
+
+#Text=Es geht uns allen ganz gut .
+16-1	1021-1023	Es	_	_
+16-2	1024-1028	geht	_	_
+16-3	1029-1032	uns	_	_
+16-4	1033-1038	allen	_	_
+16-5	1039-1043	ganz	_	_
+16-6	1044-1047	gut	_	_
+16-7	1048-1049	.	_	_
+
+#Text=Mit besten Grüßen Ihr ergebener W. Helbig .
+17-1	1050-1053	Mit	_	_
+17-2	1054-1060	besten	_	_
+17-3	1061-1067	Grüßen	_	_
+17-4	1068-1071	Ihr	_	_
+17-5	1072-1081	ergebener	_	_
+17-6	1082-1084	W.	*[8]	PERauthor[8]
+17-7	1085-1091	Helbig	*[8]	PERauthor[8]
+17-8	1092-1093	.	_	_

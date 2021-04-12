@@ -1,0 +1,66 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=73 Henzen an Gerhard 19/II1/55 Ist denn mein assecurirter Brief vom 19° .
+1-1	0-2	73	_	_	
+1-2	3-9	Henzen	*	PERauthor	
+1-3	10-12	an	_	_	
+1-4	13-20	Gerhard	*	PERaddressee	
+1-5	21-30	19/II1/55	*	DATEletter	
+1-6	31-34	Ist	_	_	
+1-7	35-39	denn	_	_	
+1-8	40-44	mein	_	_	
+1-9	45-57	assecurirter	_	_	
+1-10	58-63	Brief	_	_	
+1-11	64-67	vom	_	_	
+1-12	68-71	19°	*[1]	DATEmentioned[1]	
+1-13	72-73	.	*[1]	DATEmentioned[1]	
+
+#Text=v. M. mit dem Akademiecontracte richtig angekommen ?
+2-1	74-76	v.	*[1]	DATEmentioned[1]	
+2-2	77-79	M.	*[1]	DATEmentioned[1]	
+2-3	80-83	mit	_	_	
+2-4	84-87	dem	_	_	
+2-5	88-105	Akademiecontracte	_	_	
+2-6	106-113	richtig	_	_	
+2-7	114-124	angekommen	_	_	
+2-8	125-126	?	_	_	
+
+#Text=Meine Frau grüßt herzlich mit mir Sie und die Ihrige , Ihr ergebner WHenzen Rom 19/III 55 P.S , Wollen ” ie so gütig sein , einliegendes Briefchen einfach auf die Post geben zu lassen ?
+3-1	127-132	Meine	_	_	
+3-2	133-137	Frau	_	_	
+3-3	138-143	grüßt	_	_	
+3-4	144-152	herzlich	_	_	
+3-5	153-156	mit	_	_	
+3-6	157-160	mir	_	_	
+3-7	161-164	Sie	_	_	
+3-8	165-168	und	_	_	
+3-9	169-172	die	_	_	
+3-10	173-179	Ihrige	_	_	
+3-11	180-181	,	_	_	
+3-12	182-185	Ihr	_	_	
+3-13	186-194	ergebner	_	_	
+3-14	195-202	WHenzen	*	PERauthor	
+3-15	203-206	Rom	*	PLACEfrom	
+3-16	207-213	19/III	*[2]	DATEletter[2]	
+3-17	214-216	55	*[2]	DATEletter[2]	
+3-18	217-220	P.S	_	_	
+3-19	221-222	,	_	_	
+3-20	223-229	Wollen	_	_	
+3-21	230-231	”	_	_	
+3-22	232-234	ie	_	_	
+3-23	235-237	so	_	_	
+3-24	238-243	gütig	_	_	
+3-25	244-248	sein	_	_	
+3-26	249-250	,	_	_	
+3-27	251-263	einliegendes	_	_	
+3-28	264-273	Briefchen	_	_	
+3-29	274-281	einfach	_	_	
+3-30	282-285	auf	_	_	
+3-31	286-289	die	_	_	
+3-32	290-294	Post	_	_	
+3-33	295-300	geben	_	_	
+3-34	301-303	zu	_	_	
+3-35	304-310	lassen	_	_	
+3-36	311-312	?	_	_	

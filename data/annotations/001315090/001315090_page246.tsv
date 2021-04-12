@@ -1,0 +1,86 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=589 Lepsius an Henzen Berlin , 22. Dezember 1875 woarzu g . 27/XII 75 Berlin , den 22 .
+1-1	0-3	589	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	22.	*[1]	DATEletter[1]
+1-8	35-43	Dezember	*[1]	DATEletter[1]
+1-9	44-48	1875	*[1]	DATEletter[1]
+1-10	49-55	woarzu	_	_
+1-11	56-57	g	_	_
+1-12	58-59	.	_	_
+1-13	60-66	27/XII	*[2]	DATErecieved[2]
+1-14	67-69	75	*[2]	DATErecieved[2]
+1-15	70-76	Berlin	*	PLACEfrom
+1-16	77-78	,	_	_
+1-17	79-82	den	_	_
+1-18	83-85	22	*[3]	DATEletter[3]
+1-19	86-87	.	*[3]	DATEletter[3]
+
+#Text=Dez . 1875 Herrn Professor Henzen Es stellt sich nun nachträglich heraus , daß für das Pariser Depot doch gar keine Schwierigkeit vorhanden ist hierher verlegt zu werden .
+2-1	88-91	Dez	*[3]	DATEletter[3]
+2-2	92-93	.	*[3]	DATEletter[3]
+2-3	94-98	1875	*[3]	DATEletter[3]
+2-4	99-104	Herrn	_	_
+2-5	105-114	Professor	_	_
+2-6	115-121	Henzen	*	PERaddressee
+2-7	122-124	Es	_	_
+2-8	125-131	stellt	_	_
+2-9	132-136	sich	_	_
+2-10	137-140	nun	_	_
+2-11	141-153	nachträglich	_	_
+2-12	154-160	heraus	_	_
+2-13	161-162	,	_	_
+2-14	163-166	daß	_	_
+2-15	167-170	für	_	_
+2-16	171-174	das	_	_
+2-17	175-182	Pariser	*	PLACEmentioned
+2-18	183-188	Depot	_	_
+2-19	189-193	doch	_	_
+2-20	194-197	gar	_	_
+2-21	198-203	keine	_	_
+2-22	204-217	Schwierigkeit	_	_
+2-23	218-227	vorhanden	_	_
+2-24	228-231	ist	_	_
+2-25	232-239	hierher	_	_
+2-26	240-247	verlegt	_	_
+2-27	248-250	zu	_	_
+2-28	251-257	werden	_	_
+2-29	258-259	.	_	_
+
+#Text=Ich frage daher nochmals an , welche Gründe , außer der Transportfrage , etwa dafür sprechen , daß es hierher oder nach Rom transportirt werde .
+3-1	260-263	Ich	_	_
+3-2	264-269	frage	_	_
+3-3	270-275	daher	_	_
+3-4	276-284	nochmals	_	_
+3-5	285-287	an	_	_
+3-6	288-289	,	_	_
+3-7	290-296	welche	_	_
+3-8	297-303	Gründe	_	_
+3-9	304-305	,	_	_
+3-10	306-311	außer	_	_
+3-11	312-315	der	_	_
+3-12	316-330	Transportfrage	_	_
+3-13	331-332	,	_	_
+3-14	333-337	etwa	_	_
+3-15	338-343	dafür	_	_
+3-16	344-352	sprechen	_	_
+3-17	353-354	,	_	_
+3-18	355-358	daß	_	_
+3-19	359-361	es	_	_
+3-20	362-369	hierher	_	_
+3-21	370-374	oder	_	_
+3-22	375-379	nach	_	_
+3-23	380-383	Rom	*	PLACEmentioned
+3-24	384-396	transportirt	_	_
+3-25	397-402	werde	_	_
+3-26	403-404	.	_	_
+
+#Text=Lepsius
+4-1	405-412	Lepsius	*	PERauthor

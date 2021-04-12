@@ -1,0 +1,293 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=nn Bunsen an Gerhard Rom , 5 .
+1-1	0-2	nn	_	_
+1-2	3-9	Bunsen	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-28	5	_	_
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1833 zahlen .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1833	*[4]	DATEletter[4]
+2-3	43-49	zahlen	_	_
+2-4	50-51	.	_	_
+
+#Text=Ich kann also damit zufrieden sein , was er bis jetzt gehabt .
+3-1	52-55	Ich	_	_
+3-2	56-60	kann	_	_
+3-3	61-65	also	_	_
+3-4	66-71	damit	_	_
+3-5	72-81	zufrieden	_	_
+3-6	82-86	sein	_	_
+3-7	87-88	,	_	_
+3-8	89-92	was	_	_
+3-9	93-95	er	_	_
+3-10	96-99	bis	_	_
+3-11	100-105	jetzt	_	_
+3-12	106-112	gehabt	_	_
+3-13	113-114	.	_	_
+
+#Text=- Kann man ihm 1835 nicht mehr entreißen ?
+4-1	115-116	-	_	_
+4-2	117-121	Kann	_	_
+4-3	122-125	man	_	_
+4-4	126-129	ihm	_	_
+4-5	130-134	1835	*	DATEmentioned
+4-6	135-140	nicht	_	_
+4-7	141-145	mehr	_	_
+4-8	146-155	entreißen	_	_
+4-9	156-157	?	_	_
+
+#Text=Wir harren sehnsüchtig auf Ihre Geldsendungen aus Deutschland namentlich die Gelder von Marcus .
+5-1	158-161	Wir	_	_
+5-2	162-168	harren	_	_
+5-3	169-180	sehnsüchtig	_	_
+5-4	181-184	auf	_	_
+5-5	185-189	Ihre	_	_
+5-6	190-203	Geldsendungen	_	_
+5-7	204-207	aus	_	_
+5-8	208-219	Deutschland	*	PLACEmentioned
+5-9	220-230	namentlich	_	_
+5-10	231-234	die	_	_
+5-11	235-241	Gelder	_	_
+5-12	242-245	von	_	_
+5-13	246-252	Marcus	*	PERmentioned
+5-14	253-254	.	_	_
+
+#Text=Sie erhalten heut Lanci 's Berechnung .
+6-1	255-258	Sie	_	_
+6-2	259-267	erhalten	_	_
+6-3	268-272	heut	_	_
+6-4	273-278	Lanci	*[19]	PERmentioned[19]
+6-5	279-281	's	*[19]	PERmentioned[19]
+6-6	282-292	Berechnung	_	_
+6-7	293-294	.	_	_
+
+#Text=: Die Ihrige scheint mir ganz liquide : Panofka 's wird schwerlich in Ordnung zu bringen sein , bis er kommt .
+7-1	295-296	:	_	_
+7-2	297-300	Die	_	_
+7-3	301-307	Ihrige	_	_
+7-4	308-315	scheint	_	_
+7-5	316-319	mir	_	_
+7-6	320-324	ganz	_	_
+7-7	325-332	liquide	_	_
+7-8	333-334	:	_	_
+7-9	335-342	Panofka	*[20]	PERmentioned[20]
+7-10	343-345	's	*[20]	PERmentioned[20]
+7-11	346-350	wird	_	_
+7-12	351-361	schwerlich	_	_
+7-13	362-364	in	_	_
+7-14	365-372	Ordnung	_	_
+7-15	373-375	zu	_	_
+7-16	376-383	bringen	_	_
+7-17	384-388	sein	_	_
+7-18	389-390	,	_	_
+7-19	391-394	bis	_	_
+7-20	395-397	er	_	_
+7-21	398-403	kommt	_	_
+7-22	404-405	.	_	_
+
+#Text=Das wird hoffentlich im April gescheen können : Anfang März hat die Kasse gesch ( rieben ) daß mir die Zahlung der 763 Scudi aus dem Fonds der ausw .
+8-1	406-409	Das	_	_
+8-2	410-414	wird	_	_
+8-3	415-426	hoffentlich	_	_
+8-4	427-429	im	_	_
+8-5	430-435	April	*	DATEmentioned
+8-6	436-444	gescheen	_	_
+8-7	445-451	können	_	_
+8-8	452-453	:	_	_
+8-9	454-460	Anfang	_	_
+8-10	461-465	März	*	DATEmentioned
+8-11	466-469	hat	_	_
+8-12	470-473	die	_	_
+8-13	474-479	Kasse	_	_
+8-14	480-485	gesch	_	_
+8-15	486-487	(	_	_
+8-16	488-494	rieben	_	_
+8-17	495-496	)	_	_
+8-18	497-500	daß	_	_
+8-19	501-504	mir	_	_
+8-20	505-508	die	_	_
+8-21	509-516	Zahlung	_	_
+8-22	517-520	der	_	_
+8-23	521-524	763	_	_
+8-24	525-530	Scudi	_	_
+8-25	531-534	aus	_	_
+8-26	535-538	dem	_	_
+8-27	539-544	Fonds	_	_
+8-28	545-548	der	_	_
+8-29	549-553	ausw	_	_
+8-30	554-555	.	_	_
+
+#Text=Angelegenheiten versprochen .
+9-1	556-571	Angelegenheiten	_	_
+9-2	572-583	versprochen	_	_
+9-3	584-585	.	_	_
+
+#Text=Vorläufig habe ich Dr. Franz als zweiten der Sekretäre in Pflicht genommen : er arbeitet fleißig , er steht sich gut mit Braun .
+10-1	586-595	Vorläufig	_	_
+10-2	596-600	habe	_	_
+10-3	601-604	ich	_	_
+10-4	605-608	Dr.	_	_
+10-5	609-614	Franz	*	PERmentioned
+10-6	615-618	als	_	_
+10-7	619-626	zweiten	_	_
+10-8	627-630	der	_	_
+10-9	631-640	Sekretäre	_	_
+10-10	641-643	in	_	_
+10-11	644-651	Pflicht	_	_
+10-12	652-660	genommen	_	_
+10-13	661-662	:	_	_
+10-14	663-665	er	_	_
+10-15	666-674	arbeitet	_	_
+10-16	675-682	fleißig	_	_
+10-17	683-684	,	_	_
+10-18	685-687	er	_	_
+10-19	688-693	steht	_	_
+10-20	694-698	sich	_	_
+10-21	699-702	gut	_	_
+10-22	703-706	mit	_	_
+10-23	707-712	Braun	*	PERmentioned
+10-24	713-714	.	_	_
+
+#Text=Heut in 14 Tagen gehen unsere Vorlesungen in Rupe Tarpeja an ( Forum und Marsfeld , und Dr. Meyer Kunstmythologie .
+11-1	715-719	Heut	_	_
+11-2	720-722	in	_	_
+11-3	723-725	14	_	_
+11-4	726-731	Tagen	_	_
+11-5	732-737	gehen	_	_
+11-6	738-744	unsere	_	_
+11-7	745-756	Vorlesungen	_	_
+11-8	757-759	in	_	_
+11-9	760-764	Rupe	*[14]	PLACEmentioned[14]
+11-10	765-772	Tarpeja	*[14]	PLACEmentioned[14]
+11-11	773-775	an	_	_
+11-12	776-777	(	_	_
+11-13	778-783	Forum	*	OBJ
+11-14	784-787	und	_	_
+11-15	788-796	Marsfeld	*	OBJ
+11-16	797-798	,	_	_
+11-17	799-802	und	_	_
+11-18	803-806	Dr.	_	_
+11-19	807-812	Meyer	*	PERmentioned
+11-20	813-828	Kunstmythologie	_	_
+11-21	829-830	.	_	_
+
+#Text=— Unser Gebäude hat Porticus mit Timpanum ( wofür Wolf archäologisch Composition entwarf , mit Tiberis und Tarpeja an den beiden Winkeln ) und Atrium .
+12-1	831-832	—	_	_
+12-2	833-838	Unser	_	_
+12-3	839-846	Gebäude	_	_
+12-4	847-850	hat	_	_
+12-5	851-859	Porticus	_	_
+12-6	860-863	mit	_	_
+12-7	864-872	Timpanum	_	_
+12-8	873-874	(	_	_
+12-9	875-880	wofür	_	_
+12-10	881-885	Wolf	_	_
+12-11	886-899	archäologisch	_	_
+12-12	900-911	Composition	_	_
+12-13	912-919	entwarf	_	_
+12-14	920-921	,	_	_
+12-15	922-925	mit	_	_
+12-16	926-933	Tiberis	_	_
+12-17	934-937	und	_	_
+12-18	938-945	Tarpeja	_	_
+12-19	946-948	an	_	_
+12-20	949-952	den	_	_
+12-21	953-959	beiden	_	_
+12-22	960-967	Winkeln	_	_
+12-23	968-969	)	_	_
+12-24	970-973	und	_	_
+12-25	974-980	Atrium	_	_
+12-26	981-982	.	_	_
+
+#Text=Ganz Ben läuft dahin .
+13-1	983-987	Ganz	_	_
+13-2	988-991	Ben	_	_
+13-3	992-997	läuft	_	_
+13-4	998-1003	dahin	_	_
+13-5	1004-1005	.	_	_
+
+#Text=Und doch kostet es nichts , da ich die Kosten ( 1000 Scudi ) aufgenommen , und von dem Ertrage des K. Palastes und M. Cavallo , vom 1 Januar dem Hospital 190 Scudi Miethe zahle : in 15 Jahren ist das Kapital getilgt , und die 100 Scudi ganz frei .
+14-1	1006-1009	Und	_	_
+14-2	1010-1014	doch	_	_
+14-3	1015-1021	kostet	_	_
+14-4	1022-1024	es	_	_
+14-5	1025-1031	nichts	_	_
+14-6	1032-1033	,	_	_
+14-7	1034-1036	da	_	_
+14-8	1037-1040	ich	_	_
+14-9	1041-1044	die	_	_
+14-10	1045-1051	Kosten	_	_
+14-11	1052-1053	(	_	_
+14-12	1054-1058	1000	_	_
+14-13	1059-1064	Scudi	_	_
+14-14	1065-1066	)	_	_
+14-15	1067-1078	aufgenommen	_	_
+14-16	1079-1080	,	_	_
+14-17	1081-1084	und	_	_
+14-18	1085-1088	von	_	_
+14-19	1089-1092	dem	_	_
+14-20	1093-1100	Ertrage	_	_
+14-21	1101-1104	des	_	_
+14-22	1105-1107	K.	_	_
+14-23	1108-1116	Palastes	_	_
+14-24	1117-1120	und	_	_
+14-25	1121-1123	M.	_	_
+14-26	1124-1131	Cavallo	_	_
+14-27	1132-1133	,	_	_
+14-28	1134-1137	vom	_	_
+14-29	1138-1139	1	*[18]	DATEmentioned[18]
+14-30	1140-1146	Januar	*[18]	DATEmentioned[18]
+14-31	1147-1150	dem	_	_
+14-32	1151-1159	Hospital	_	_
+14-33	1160-1163	190	_	_
+14-34	1164-1169	Scudi	_	_
+14-35	1170-1176	Miethe	_	_
+14-36	1177-1182	zahle	_	_
+14-37	1183-1184	:	_	_
+14-38	1185-1187	in	_	_
+14-39	1188-1190	15	_	_
+14-40	1191-1197	Jahren	_	_
+14-41	1198-1201	ist	_	_
+14-42	1202-1205	das	_	_
+14-43	1206-1213	Kapital	_	_
+14-44	1214-1221	getilgt	_	_
+14-45	1222-1223	,	_	_
+14-46	1224-1227	und	_	_
+14-47	1228-1231	die	_	_
+14-48	1232-1235	100	_	_
+14-49	1236-1241	Scudi	_	_
+14-50	1242-1246	ganz	_	_
+14-51	1247-1251	frei	_	_
+14-52	1252-1253	.	_	_
+
+#Text=Die Archäol .
+15-1	1254-1257	Die	_	_
+15-2	1258-1265	Archäol	_	_
+15-3	1266-1267	.	_	_
+
+#Text=Pont .
+16-1	1268-1272	Pont	_	_
+16-2	1273-1274	.	_	_
+
+#Text=macht Anstalt sich mit uns zu vereinigen .
+17-1	1275-1280	macht	_	_
+17-2	1281-1288	Anstalt	_	_
+17-3	1289-1293	sich	_	_
+17-4	1294-1297	mit	_	_
+17-5	1298-1301	uns	_	_
+17-6	1302-1304	zu	_	_
+17-7	1305-1315	vereinigen	_	_
+17-8	1316-1317	.	_	_
+
+#Text=Dies wäre er-
+18-1	1318-1322	Dies	_	_
+18-2	1323-1327	wäre	_	_
+18-3	1328-1331	er-	_	_

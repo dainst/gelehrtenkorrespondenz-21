@@ -1,0 +1,71 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=171 Gerhard an Braun Berlin , 51. Mai 1836 Gott mit Ihnen \| !
+1-1	0-3	171	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	51.	_	_
+1-8	34-37	Mai	*[4]	DATEletter[4]
+1-9	38-42	1836	*[4]	DATEletter[4]
+1-10	43-47	Gott	_	_
+1-11	48-51	mit	_	_
+1-12	52-57	Ihnen	_	_
+1-13	58-59	\|	_	_
+1-14	60-61	!	_	_
+
+#Text=Gerhard Die Kiste ist angekommen .
+2-1	62-69	Gerhard	*	PERauthor
+2-2	70-73	Die	_	_
+2-3	74-79	Kiste	_	_
+2-4	80-83	ist	_	_
+2-5	84-94	angekommen	_	_
+2-6	95-96	.	_	_
+
+#Text=Die Umschläge zu den Monum .
+3-1	97-100	Die	_	_
+3-2	101-110	Umschläge	_	_
+3-3	111-113	zu	_	_
+3-4	114-117	den	_	_
+3-5	118-123	Monum	_	_
+3-6	124-125	.	_	_
+
+#Text=sind geblieben \; um nicht 15 rt hier für neue auszugeben muß das Heft nackt vertheilt werden .
+4-1	126-130	sind	_	_
+4-2	131-140	geblieben	_	_
+4-3	141-142	\;	_	_
+4-4	143-145	um	_	_
+4-5	146-151	nicht	_	_
+4-6	152-154	15	_	_
+4-7	155-157	rt	_	_
+4-8	158-162	hier	_	_
+4-9	163-166	für	_	_
+4-10	167-171	neue	_	_
+4-11	172-182	auszugeben	_	_
+4-12	183-186	muß	_	_
+4-13	187-190	das	_	_
+4-14	191-195	Heft	_	_
+4-15	196-201	nackt	_	_
+4-16	202-211	vertheilt	_	_
+4-17	212-218	werden	_	_
+4-18	219-220	.	_	_
+
+#Text=Außerden fehlen 10 Ex , des Bull .
+5-1	221-229	Außerden	_	_
+5-2	230-236	fehlen	_	_
+5-3	237-239	10	_	_
+5-4	240-242	Ex	_	_
+5-5	243-244	,	_	_
+5-6	245-248	des	_	_
+5-7	249-253	Bull	_	_
+5-8	254-255	.	_	_
+
+#Text=Ottobre und Novembre .
+6-1	256-263	Ottobre	_	_
+6-2	264-267	und	_	_
+6-3	268-276	Novembre	_	_
+6-4	277-278	.	_	_

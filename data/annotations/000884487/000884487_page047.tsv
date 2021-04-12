@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Ohne Nummer Gerhard an Braun Berlin , 5. April 1836 Dr. Braun Berlin 5 April 36 .
+1-1	0-4	Ohne	_	_
+1-2	5-11	Nummer	_	_
+1-3	12-19	Gerhard	*	PERauthor
+1-4	20-22	an	_	_
+1-5	23-28	Braun	*	PERaddressee
+1-6	29-35	Berlin	*	PLACEfrom
+1-7	36-37	,	_	_
+1-8	38-40	5.	*[4]	DATEletter[4]
+1-9	41-46	April	*[4]	DATEletter[4]
+1-10	47-51	1836	*[4]	DATEletter[4]
+1-11	52-55	Dr.	_	_
+1-12	56-61	Braun	*	PERaddressee
+1-13	62-68	Berlin	*	PLACEfrom
+1-14	69-70	5	*[7]	DATEletter[7]
+1-15	71-76	April	*[7]	DATEletter[7]
+1-16	77-79	36	*[7]	DATEletter[7]
+1-17	80-81	.	_	_
+
+#Text=Mein theurer Freund .
+2-1	82-86	Mein	_	_
+2-2	87-94	theurer	_	_
+2-3	95-101	Freund	_	_
+2-4	102-103	.	_	_
+
+#Text=Obwohl Ihr Brief vom 22 März eben keine dringende Antwort erheischt , so ist es mir doch Bedürfniß geworden , wenn ich irgend ein verstimtes Lebenszeichen von Ihnen erhalten habe , es mit meinem beruhigenden zu erwiedern .
+3-1	104-110	Obwohl	_	_
+3-2	111-114	Ihr	_	_
+3-3	115-120	Brief	_	_
+3-4	121-124	vom	_	_
+3-5	125-127	22	*[8]	DATEmentioned[8]
+3-6	128-132	März	*[8]	DATEmentioned[8]
+3-7	133-137	eben	_	_
+3-8	138-143	keine	_	_
+3-9	144-153	dringende	_	_
+3-10	154-161	Antwort	_	_
+3-11	162-171	erheischt	_	_
+3-12	172-173	,	_	_
+3-13	174-176	so	_	_
+3-14	177-180	ist	_	_
+3-15	181-183	es	_	_
+3-16	184-187	mir	_	_
+3-17	188-192	doch	_	_
+3-18	193-202	Bedürfniß	_	_
+3-19	203-211	geworden	_	_
+3-20	212-213	,	_	_
+3-21	214-218	wenn	_	_
+3-22	219-222	ich	_	_
+3-23	223-229	irgend	_	_
+3-24	230-233	ein	_	_
+3-25	234-244	verstimtes	_	_
+3-26	245-258	Lebenszeichen	_	_
+3-27	259-262	von	_	_
+3-28	263-268	Ihnen	_	_
+3-29	269-277	erhalten	_	_
+3-30	278-282	habe	_	_
+3-31	283-284	,	_	_
+3-32	285-287	es	_	_
+3-33	288-291	mit	_	_
+3-34	292-298	meinem	_	_
+3-35	299-311	beruhigenden	_	_
+3-36	312-314	zu	_	_
+3-37	315-324	erwiedern	_	_
+3-38	325-326	.	_	_
+
+#Text=Gleichzeitig gehn an Bunsen die Annali 2 , ° und letztes Heft ab , nebst 1 Ex .
+4-1	327-339	Gleichzeitig	_	_
+4-2	340-344	gehn	_	_
+4-3	345-347	an	_	_
+4-4	348-354	Bunsen	*	PERmentioned
+4-5	355-358	die	_	_
+4-6	359-365	Annali	_	_
+4-7	366-367	2	_	_
+4-8	368-369	,	_	_
+4-9	370-371	°	_	_
+4-10	372-375	und	_	_
+4-11	376-383	letztes	_	_
+4-12	384-388	Heft	_	_
+4-13	389-391	ab	_	_
+4-14	392-393	,	_	_
+4-15	394-399	nebst	_	_
+4-16	400-401	1	_	_
+4-17	402-404	Ex	_	_
+4-18	405-406	.	_	_
+
+#Text=Neo Delliner des Berliner Museums .
+5-1	407-410	Neo	_	_
+5-2	411-419	Delliner	_	_
+5-3	420-423	des	_	_
+5-4	424-432	Berliner	*[10]	ORGmentioned[10]
+5-5	433-440	Museums	*[10]	ORGmentioned[10]
+5-6	441-442	.	_	_
+
+#Text=Sie werden in jenem Heft den Text zu Tafel 25 . 26. finden .
+6-1	443-446	Sie	_	_
+6-2	447-453	werden	_	_
+6-3	454-456	in	_	_
+6-4	457-462	jenem	_	_
+6-5	463-467	Heft	_	_
+6-6	468-471	den	_	_
+6-7	472-476	Text	_	_
+6-8	477-479	zu	_	_
+6-9	480-485	Tafel	_	_
+6-10	486-488	25	_	_
+6-11	489-490	.	_	_
+6-12	491-494	26.	_	_
+6-13	495-501	finden	_	_
+6-14	502-503	.	_	_
+
+#Text=Da wir beide Menschenkinder sind , so werden wir uns nicht darum streiten , wer von uns Unrecht gehabt habe diese Sache so lange in sospenso zu lassen , bis es hier nothwendig wurde die Knoten zu zerhauen \; auch ist es jetzt noch nicht klar wie dem Uebelstand abzuhelfen ist , da ich noch immer und zwar aufs entschiedenste an einer Fortsetzung dieses Jahrgangs der Monum .
+7-1	504-506	Da	_	_
+7-2	507-510	wir	_	_
+7-3	511-516	beide	_	_
+7-4	517-531	Menschenkinder	_	_
+7-5	532-536	sind	_	_
+7-6	537-538	,	_	_
+7-7	539-541	so	_	_
+7-8	542-548	werden	_	_
+7-9	549-552	wir	_	_
+7-10	553-556	uns	_	_
+7-11	557-562	nicht	_	_
+7-12	563-568	darum	_	_
+7-13	569-577	streiten	_	_
+7-14	578-579	,	_	_
+7-15	580-583	wer	_	_
+7-16	584-587	von	_	_
+7-17	588-591	uns	_	_
+7-18	592-599	Unrecht	_	_
+7-19	600-606	gehabt	_	_
+7-20	607-611	habe	_	_
+7-21	612-617	diese	_	_
+7-22	618-623	Sache	_	_
+7-23	624-626	so	_	_
+7-24	627-632	lange	_	_
+7-25	633-635	in	_	_
+7-26	636-644	sospenso	_	_
+7-27	645-647	zu	_	_
+7-28	648-654	lassen	_	_
+7-29	655-656	,	_	_
+7-30	657-660	bis	_	_
+7-31	661-663	es	_	_
+7-32	664-668	hier	_	_
+7-33	669-679	nothwendig	_	_
+7-34	680-685	wurde	_	_
+7-35	686-689	die	_	_
+7-36	690-696	Knoten	_	_
+7-37	697-699	zu	_	_
+7-38	700-708	zerhauen	_	_
+7-39	709-710	\;	_	_
+7-40	711-715	auch	_	_
+7-41	716-719	ist	_	_
+7-42	720-722	es	_	_
+7-43	723-728	jetzt	_	_
+7-44	729-733	noch	_	_
+7-45	734-739	nicht	_	_
+7-46	740-744	klar	_	_
+7-47	745-748	wie	_	_
+7-48	749-752	dem	_	_
+7-49	753-763	Uebelstand	_	_
+7-50	764-774	abzuhelfen	_	_
+7-51	775-778	ist	_	_
+7-52	779-780	,	_	_
+7-53	781-783	da	_	_
+7-54	784-787	ich	_	_
+7-55	788-792	noch	_	_
+7-56	793-798	immer	_	_
+7-57	799-802	und	_	_
+7-58	803-807	zwar	_	_
+7-59	808-812	aufs	_	_
+7-60	813-827	entschiedenste	_	_
+7-61	828-830	an	_	_
+7-62	831-836	einer	_	_
+7-63	837-848	Fortsetzung	_	_
+7-64	849-855	dieses	_	_
+7-65	856-865	Jahrgangs	_	_
+7-66	866-869	der	_	_
+7-67	870-875	Monum	_	_
+7-68	876-877	.	_	_
+
+#Text=in Paris und nicht in Rom glaube .
+8-1	878-880	in	_	_
+8-2	881-886	Paris	*	PLACEmentioned
+8-3	887-890	und	_	_
+8-4	891-896	nicht	_	_
+8-5	897-899	in	_	_
+8-6	900-903	Rom	*	PLACEmentioned
+8-7	904-910	glaube	_	_
+8-8	911-912	.	_	_
+
+#Text=Indeß ist zweckmäßige Vorbeh „ .... : ... dadurch der Weg geöffnet , daß De Witte benachrichtigt ist von Tafel 27 und nicht von 25 anzufangen „ ....... in der Voraussetzung daß 25 und 26 schon bei Ihnen abgezogen liege .
+9-1	913-918	Indeß	_	_
+9-2	919-922	ist	_	_
+9-3	923-934	zweckmäßige	_	_
+9-4	935-941	Vorbeh	_	_
+9-5	942-943	„	_	_
+9-6	944-948	....	_	_
+9-7	949-950	:	_	_
+9-8	951-954	...	_	_
+9-9	955-962	dadurch	_	_
+9-10	963-966	der	_	_
+9-11	967-970	Weg	_	_
+9-12	971-979	geöffnet	_	_
+9-13	980-981	,	_	_
+9-14	982-985	daß	_	_
+9-15	986-988	De	*[13]	PERmentioned[13]
+9-16	989-994	Witte	*[13]	PERmentioned[13]
+9-17	995-1009	benachrichtigt	_	_
+9-18	1010-1013	ist	_	_
+9-19	1014-1017	von	_	_
+9-20	1018-1023	Tafel	_	_
+9-21	1024-1026	27	_	_
+9-22	1027-1030	und	_	_
+9-23	1031-1036	nicht	_	_
+9-24	1037-1040	von	_	_
+9-25	1041-1043	25	_	_
+9-26	1044-1054	anzufangen	_	_
+9-27	1055-1056	„	_	_
+9-28	1057-1064	.......	_	_
+9-29	1065-1067	in	_	_
+9-30	1068-1071	der	_	_
+9-31	1072-1085	Voraussetzung	_	_
+9-32	1086-1089	daß	_	_
+9-33	1090-1092	25	_	_
+9-34	1093-1096	und	_	_
+9-35	1097-1099	26	_	_
+9-36	1100-1105	schon	_	_
+9-37	1106-1109	bei	_	_
+9-38	1110-1115	Ihnen	_	_
+9-39	1116-1125	abgezogen	_	_
+9-40	1126-1131	liege	_	_
+9-41	1132-1133	.	_	_
+
+#Text=Wäre diese Voraussetzung irrig , So wäre es am erwünschtesten .
+10-1	1134-1138	Wäre	_	_
+10-2	1139-1144	diese	_	_
+10-3	1145-1158	Voraussetzung	_	_
+10-4	1159-1164	irrig	_	_
+10-5	1165-1166	,	_	_
+10-6	1167-1169	So	_	_
+10-7	1170-1174	wäre	_	_
+10-8	1175-1177	es	_	_
+10-9	1178-1180	am	_	_
+10-10	1181-1195	erwünschtesten	_	_
+10-11	1196-1197	.	_	_
+
+#Text=Die Rechnung für Canina folgt bei \; sobald das
+11-1	1198-1201	Die	_	_
+11-2	1202-1210	Rechnung	_	_
+11-3	1211-1214	für	_	_
+11-4	1215-1221	Canina	*	PERmentioned
+11-5	1222-1227	folgt	_	_
+11-6	1228-1231	bei	_	_
+11-7	1232-1233	\;	_	_
+11-8	1234-1240	sobald	_	_
+11-9	1241-1244	das	_	_

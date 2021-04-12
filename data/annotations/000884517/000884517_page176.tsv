@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Mailand , 2. April 1846 g . 9/IV 46 r . 2/V 46 Dr. Braun Mailand 2 April 46 al Caffe del Duomo Lieber Freund .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Mailand	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	2.	*[2]	DATEletter[2]
+1-7	30-35	April	*[2]	DATEletter[2]
+1-8	36-40	1846	*[2]	DATEletter[2]
+1-9	41-42	g	_	_
+1-10	43-44	.	_	_
+1-11	45-49	9/IV	*[3]	DATErecieved[3]
+1-12	50-52	46	*[3]	DATErecieved[3]
+1-13	53-54	r	_	_
+1-14	55-56	.	_	_
+1-15	57-60	2/V	*[4]	DATEanswered[4]
+1-16	61-63	46	*[4]	DATEanswered[4]
+1-17	64-67	Dr.	*[1]	PERaddressee[1]
+1-18	68-73	Braun	*[1]	PERaddressee[1]
+1-19	74-81	Mailand	*	PLACEfrom
+1-20	82-83	2	*[5]	DATEletter[5]
+1-21	84-89	April	*[5]	DATEletter[5]
+1-22	90-92	46	*[5]	DATEletter[5]
+1-23	93-95	al	_	_
+1-24	96-101	Caffe	*[6]	PLACEmentioned[6]
+1-25	102-105	del	*[6]	PLACEmentioned[6]
+1-26	106-111	Duomo	*[6]	PLACEmentioned[6]
+1-27	112-118	Lieber	_	_
+1-28	119-125	Freund	_	_
+1-29	126-127	.	_	_
+
+#Text=Anderthalb Tage in Mantua verzögert gehen wir erst heute von hier nach dem Gotthard .
+2-1	128-138	Anderthalb	_	_
+2-2	139-143	Tage	_	_
+2-3	144-146	in	_	_
+2-4	147-153	Mantua	*	PLACEmentioned
+2-5	154-163	verzögert	_	_
+2-6	164-169	gehen	_	_
+2-7	170-173	wir	_	_
+2-8	174-178	erst	_	_
+2-9	179-184	heute	_	_
+2-10	185-188	von	_	_
+2-11	189-193	hier	_	_
+2-12	194-198	nach	_	_
+2-13	199-202	dem	_	_
+2-14	203-211	Gotthard	*	PLACEmentioned
+2-15	212-213	.	_	_
+
+#Text=Ich bitte Sie nochmals mich auf den Jahresbericht nicht warten zu lassen .
+3-1	214-217	Ich	_	_
+3-2	218-223	bitte	_	_
+3-3	224-227	Sie	_	_
+3-4	228-236	nochmals	_	_
+3-5	237-241	mich	_	_
+3-6	242-245	auf	_	_
+3-7	246-249	den	_	_
+3-8	250-263	Jahresbericht	_	_
+3-9	264-269	nicht	_	_
+3-10	270-276	warten	_	_
+3-11	277-279	zu	_	_
+3-12	280-286	lassen	_	_
+3-13	287-288	.	_	_
+
+#Text=Nachdem der Rechnungsabschluß bis zu meiner Abreise von Florenz zögerte , habe ich es für besser erachtet nun Alles zusammen erst von Berlin aus an Bunsen zu senden , auch wegen des Portos , aber gleich nach meiner Ankunft daselbst .
+4-1	289-296	Nachdem	_	_
+4-2	297-300	der	_	_
+4-3	301-318	Rechnungsabschluß	_	_
+4-4	319-322	bis	_	_
+4-5	323-325	zu	_	_
+4-6	326-332	meiner	_	_
+4-7	333-340	Abreise	_	_
+4-8	341-344	von	_	_
+4-9	345-352	Florenz	*	PLACEmentioned
+4-10	353-360	zögerte	_	_
+4-11	361-362	,	_	_
+4-12	363-367	habe	_	_
+4-13	368-371	ich	_	_
+4-14	372-374	es	_	_
+4-15	375-378	für	_	_
+4-16	379-385	besser	_	_
+4-17	386-394	erachtet	_	_
+4-18	395-398	nun	_	_
+4-19	399-404	Alles	_	_
+4-20	405-413	zusammen	_	_
+4-21	414-418	erst	_	_
+4-22	419-422	von	_	_
+4-23	423-429	Berlin	*	PLACEmentioned
+4-24	430-433	aus	_	_
+4-25	434-436	an	_	_
+4-26	437-443	Bunsen	*	PERmentioned
+4-27	444-446	zu	_	_
+4-28	447-453	senden	_	_
+4-29	454-455	,	_	_
+4-30	456-460	auch	_	_
+4-31	461-466	wegen	_	_
+4-32	467-470	des	_	_
+4-33	471-477	Portos	_	_
+4-34	478-479	,	_	_
+4-35	480-484	aber	_	_
+4-36	485-491	gleich	_	_
+4-37	492-496	nach	_	_
+4-38	497-503	meiner	_	_
+4-39	504-511	Ankunft	_	_
+4-40	512-520	daselbst	_	_
+4-41	521-522	.	_	_
+
+#Text=Hoffentlich kann ich dann auch noch Ihr Ultimatum über Lanci beifügen , vielleicht auch das Kestnerianum .
+5-1	523-534	Hoffentlich	_	_
+5-2	535-539	kann	_	_
+5-3	540-543	ich	_	_
+5-4	544-548	dann	_	_
+5-5	549-553	auch	_	_
+5-6	554-558	noch	_	_
+5-7	559-562	Ihr	_	_
+5-8	563-572	Ultimatum	_	_
+5-9	573-577	über	_	_
+5-10	578-583	Lanci	*	PERmentioned
+5-11	584-592	beifügen	_	_
+5-12	593-594	,	_	_
+5-13	595-605	vielleicht	_	_
+5-14	606-610	auch	_	_
+5-15	611-614	das	_	_
+5-16	615-627	Kestnerianum	_	_
+5-17	628-629	.	_	_
+
+#Text=Es bleibt doch dabei daß zugleich mit diesem ein Manifest die Nuova Serie betreffend unter die Leute geht .
+6-1	630-632	Es	_	_
+6-2	633-639	bleibt	_	_
+6-3	640-644	doch	_	_
+6-4	645-650	dabei	_	_
+6-5	651-654	daß	_	_
+6-6	655-663	zugleich	_	_
+6-7	664-667	mit	_	_
+6-8	668-674	diesem	_	_
+6-9	675-678	ein	_	_
+6-10	679-687	Manifest	_	_
+6-11	688-691	die	_	_
+6-12	692-697	Nuova	_	_
+6-13	698-703	Serie	_	_
+6-14	704-714	betreffend	_	_
+6-15	715-720	unter	_	_
+6-16	721-724	die	_	_
+6-17	725-730	Leute	_	_
+6-18	731-735	geht	_	_
+6-19	736-737	.	_	_
+
+#Text=In Mantua will Conte d'Arco dieselbe der Bibliothek empfehlen \; hinlänglich verbreitet , aber bevor der Jahrgang 1845 die Spesa doppelt macht , sollte diese Maßregel eine gute Zahl Associati schaffen können .
+7-1	738-740	In	_	_
+7-2	741-747	Mantua	*	PLACEmentioned
+7-3	748-752	will	_	_
+7-4	753-758	Conte	*[7]	PERmentioned[7]
+7-5	759-765	d'Arco	*[7]	PERmentioned[7]
+7-6	766-774	dieselbe	_	_
+7-7	775-778	der	_	_
+7-8	779-789	Bibliothek	*	ORGmentioned
+7-9	790-799	empfehlen	_	_
+7-10	800-801	\;	_	_
+7-11	802-813	hinlänglich	_	_
+7-12	814-824	verbreitet	_	_
+7-13	825-826	,	_	_
+7-14	827-831	aber	_	_
+7-15	832-837	bevor	_	_
+7-16	838-841	der	_	_
+7-17	842-850	Jahrgang	_	_
+7-18	851-855	1845	*	DATEmentioned
+7-19	856-859	die	_	_
+7-20	860-865	Spesa	_	_
+7-21	866-873	doppelt	_	_
+7-22	874-879	macht	_	_
+7-23	880-881	,	_	_
+7-24	882-888	sollte	_	_
+7-25	889-894	diese	_	_
+7-26	895-903	Maßregel	_	_
+7-27	904-908	eine	_	_
+7-28	909-913	gute	_	_
+7-29	914-918	Zahl	_	_
+7-30	919-928	Associati	_	_
+7-31	929-937	schaffen	_	_
+7-32	938-944	können	_	_
+7-33	945-946	.	_	_
+
+#Text=Ist denn für die Institutsassociati bei den kunstprangenden Mailänder Familien gar nichts anzufangen ?
+8-1	947-950	Ist	_	_
+8-2	951-955	denn	_	_
+8-3	956-959	für	_	_
+8-4	960-963	die	_	_
+8-5	964-982	Institutsassociati	_	_
+8-6	983-986	bei	_	_
+8-7	987-990	den	_	_
+8-8	991-1006	kunstprangenden	_	_
+8-9	1007-1016	Mailänder	*	PLACEmentioned
+8-10	1017-1025	Familien	_	_
+8-11	1026-1029	gar	_	_
+8-12	1030-1036	nichts	_	_
+8-13	1037-1047	anzufangen	_	_
+8-14	1048-1049	?	_	_
+
+#Text=Nicht einmal bei den halbrömischen Castelbarcos ?
+9-1	1050-1055	Nicht	_	_
+9-2	1056-1062	einmal	_	_
+9-3	1063-1066	bei	_	_
+9-4	1067-1070	den	_	_
+9-5	1071-1084	halbrömischen	_	_
+9-6	1085-1097	Castelbarcos	*	PERmentioned
+9-7	1098-1099	?	_	_

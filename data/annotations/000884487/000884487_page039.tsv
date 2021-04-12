@@ -1,0 +1,158 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=128 Gerhard an Braun Berlin , 28. März 1836 - 2 .
+1-1	0-3	128	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	28.	*[4]	DATEletter[4]
+1-8	34-38	März	*[4]	DATEletter[4]
+1-9	39-43	1836	*[4]	DATEletter[4]
+1-10	44-45	-	_	_
+1-11	46-47	2	_	_
+1-12	48-49	.	_	_
+
+#Text=-— Meine Rückkehr nach Rom für den nächsten Winter bleibt bei mir feststehend beschlossen .
+2-1	50-52	-—	_	_
+2-2	53-58	Meine	_	_
+2-3	59-67	Rückkehr	_	_
+2-4	68-72	nach	_	_
+2-5	73-76	Rom	*	PLACEmentioned
+2-6	77-80	für	_	_
+2-7	81-84	den	_	_
+2-8	85-93	nächsten	_	_
+2-9	94-100	Winter	_	_
+2-10	101-107	bleibt	_	_
+2-11	108-111	bei	_	_
+2-12	112-115	mir	_	_
+2-13	116-127	feststehend	_	_
+2-14	128-139	beschlossen	_	_
+2-15	140-141	.	_	_
+
+#Text=Bunsen der dem Gedanken daran ausweicht scheine ich freilich nichts mehr davon sagen zu dürfen , Ich sende Ihnen nächstens Berechnungen , wegen Honorar und Ist .
+3-1	142-148	Bunsen	*	PERmentioned
+3-2	149-152	der	_	_
+3-3	153-156	dem	_	_
+3-4	157-165	Gedanken	_	_
+3-5	166-171	daran	_	_
+3-6	172-181	ausweicht	_	_
+3-7	182-189	scheine	_	_
+3-8	190-193	ich	_	_
+3-9	194-202	freilich	_	_
+3-10	203-209	nichts	_	_
+3-11	210-214	mehr	_	_
+3-12	215-220	davon	_	_
+3-13	221-226	sagen	_	_
+3-14	227-229	zu	_	_
+3-15	230-236	dürfen	_	_
+3-16	237-238	,	_	_
+3-17	239-242	Ich	_	_
+3-18	243-248	sende	_	_
+3-19	249-254	Ihnen	_	_
+3-20	255-264	nächstens	_	_
+3-21	265-277	Berechnungen	_	_
+3-22	278-279	,	_	_
+3-23	280-285	wegen	_	_
+3-24	286-293	Honorar	_	_
+3-25	294-297	und	_	_
+3-26	298-301	Ist	_	_
+3-27	302-303	.	_	_
+
+#Text=Bl . und Cades .
+4-1	304-306	Bl	_	_
+4-2	307-308	.	_	_
+4-3	309-312	und	_	_
+4-4	313-318	Cades	*	PERmentioned
+4-5	319-320	.	_	_
+
+#Text=Für lezteren ist Kellermann thätig gewesen \; in Deutschland geht es sehr übel damit .
+5-1	321-324	Für	_	_
+5-2	325-333	lezteren	_	_
+5-3	334-337	ist	_	_
+5-4	338-348	Kellermann	*	PERmentioned
+5-5	349-355	thätig	_	_
+5-6	356-363	gewesen	_	_
+5-7	364-365	\;	_	_
+5-8	366-368	in	_	_
+5-9	369-380	Deutschland	*	PLACEmentioned
+5-10	381-385	geht	_	_
+5-11	386-388	es	_	_
+5-12	389-393	sehr	_	_
+5-13	394-398	übel	_	_
+5-14	399-404	damit	_	_
+5-15	405-406	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Sagen Sie Franz mit meinen Grüßen , daß Müller mir die nahe Sendung seiner Abhandlung angekündigt auch versichert meiner Mahhung ‘ gemäß alle Achtung für Franz geäußert zu haben , der natürlich für die schlechten Copien nicht verantwortlich war .
+6-1	407-417	Herzlichst	_	_
+6-2	418-421	Ihr	_	_
+6-3	422-429	Gerhard	*	PERauthor
+6-4	430-435	Sagen	_	_
+6-5	436-439	Sie	_	_
+6-6	440-445	Franz	*	PERmentioned
+6-7	446-449	mit	_	_
+6-8	450-456	meinen	_	_
+6-9	457-463	Grüßen	_	_
+6-10	464-465	,	_	_
+6-11	466-469	daß	_	_
+6-12	470-476	Müller	*	PERmentioned
+6-13	477-480	mir	_	_
+6-14	481-484	die	_	_
+6-15	485-489	nahe	_	_
+6-16	490-497	Sendung	_	_
+6-17	498-504	seiner	_	_
+6-18	505-515	Abhandlung	_	_
+6-19	516-527	angekündigt	_	_
+6-20	528-532	auch	_	_
+6-21	533-543	versichert	_	_
+6-22	544-550	meiner	_	_
+6-23	551-558	Mahhung	_	_
+6-24	559-560	‘	_	_
+6-25	561-566	gemäß	_	_
+6-26	567-571	alle	_	_
+6-27	572-579	Achtung	_	_
+6-28	580-583	für	_	_
+6-29	584-589	Franz	*	PERmentioned
+6-30	590-598	geäußert	_	_
+6-31	599-601	zu	_	_
+6-32	602-607	haben	_	_
+6-33	608-609	,	_	_
+6-34	610-613	der	_	_
+6-35	614-623	natürlich	_	_
+6-36	624-627	für	_	_
+6-37	628-631	die	_	_
+6-38	632-642	schlechten	_	_
+6-39	643-649	Copien	_	_
+6-40	650-655	nicht	_	_
+6-41	656-670	verantwortlich	_	_
+6-42	671-674	war	_	_
+6-43	675-676	.	_	_
+
+#Text=Dank für den Spiegelabdruck \; gehört das Original jezt an B , ?
+7-1	677-681	Dank	_	_
+7-2	682-685	für	_	_
+7-3	686-689	den	_	_
+7-4	690-704	Spiegelabdruck	_	_
+7-5	705-706	\;	_	_
+7-6	707-713	gehört	_	_
+7-7	714-717	das	_	_
+7-8	718-726	Original	_	_
+7-9	727-731	jezt	_	_
+7-10	732-734	an	_	_
+7-11	735-736	B	_	_
+7-12	737-738	,	_	_
+7-13	739-740	?	_	_
+
+#Text=Etliche uspische Drucker hätten der Zeichnung gut gethan .
+8-1	741-748	Etliche	_	_
+8-2	749-757	uspische	_	_
+8-3	758-765	Drucker	_	_
+8-4	766-772	hätten	_	_
+8-5	773-776	der	_	_
+8-6	777-786	Zeichnung	_	_
+8-7	787-790	gut	_	_
+8-8	791-797	gethan	_	_
+8-9	798-799	.	_	_

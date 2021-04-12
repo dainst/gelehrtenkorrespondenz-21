@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Hubel bei Bern , 28 .
+1-1	0-5	Hubel	*[1]	PLACEfrom[1]	
+1-2	6-9	bei	*[1]	PLACEfrom[1]	
+1-3	10-14	Bern	*[1]	PLACEfrom[1]	
+1-4	15-16	,	_	_	
+1-5	17-19	28	*[2]	DATEletter[2]	
+1-6	20-21	.	*[2]	DATEletter[2]	
+
+#Text=Januar 1840 pr & te-nom : aber jene sind mehr .
+2-1	22-28	Januar	*[2]	DATEletter[2]	
+2-2	29-33	1840	*[2]	DATEletter[2]	
+2-3	34-36	pr	_	_	
+2-4	37-38	&	_	_	
+2-5	39-45	te-nom	_	_	
+2-6	46-47	:	_	_	
+2-7	48-52	aber	_	_	
+2-8	53-57	jene	_	_	
+2-9	58-62	sind	_	_	
+2-10	63-67	mehr	_	_	
+2-11	68-69	.	_	_	
+
+#Text=Durch M ( etternich ) , wenn er es annähme , würde der Polizei-Argwohn gegen das unschuldige Institut versöhnt : auch in dem Kaiserreich vieles erleichtert .
+3-1	70-75	Durch	_	_	
+3-2	76-77	M	*[3]	PERmentioned[3]	
+3-3	78-79	(	*[3]	PERmentioned[3]	
+3-4	80-89	etternich	*[3]	PERmentioned[3]	
+3-5	90-91	)	*[3]	PERmentioned[3]	
+3-6	92-93	,	_	_	
+3-7	94-98	wenn	_	_	
+3-8	99-101	er	_	_	
+3-9	102-104	es	_	_	
+3-10	105-112	annähme	_	_	
+3-11	113-114	,	_	_	
+3-12	115-120	würde	_	_	
+3-13	121-124	der	_	_	
+3-14	125-140	Polizei-Argwohn	_	_	
+3-15	141-146	gegen	_	_	
+3-16	147-150	das	_	_	
+3-17	151-162	unschuldige	_	_	
+3-18	163-171	Institut	*	ORGmentioned	
+3-19	172-180	versöhnt	_	_	
+3-20	181-182	:	_	_	
+3-21	183-187	auch	_	_	
+3-22	188-190	in	_	_	
+3-23	191-194	dem	_	_	
+3-24	195-206	Kaiserreich	_	_	
+3-25	207-213	vieles	_	_	
+3-26	214-225	erleichtert	_	_	
+3-27	226-227	.	_	_	
+
+#Text=Man kann jedoch sagen , daß wir auf leidlichem Fuße sind , und daß M ( etternich ) 's Ernennung schwerlich das Institut in Frankreich beliebt machen würde .
+4-1	228-231	Man	_	_	
+4-2	232-236	kann	_	_	
+4-3	237-243	jedoch	_	_	
+4-4	244-249	sagen	_	_	
+4-5	250-251	,	_	_	
+4-6	252-255	daß	_	_	
+4-7	256-259	wir	_	_	
+4-8	260-263	auf	_	_	
+4-9	264-274	leidlichem	_	_	
+4-10	275-279	Fuße	_	_	
+4-11	280-284	sind	_	_	
+4-12	285-286	,	_	_	
+4-13	287-290	und	_	_	
+4-14	291-294	daß	_	_	
+4-15	295-296	M	_	_	
+4-16	297-298	(	_	_	
+4-17	299-308	etternich	*[4]	PERmentioned[4]	
+4-18	309-310	)	*[4]	PERmentioned[4]	
+4-19	311-313	's	*[4]	PERmentioned[4]	
+4-20	314-323	Ernennung	_	_	
+4-21	324-334	schwerlich	_	_	
+4-22	335-338	das	_	_	
+4-23	339-347	Institut	*	ORGmentioned	
+4-24	348-350	in	_	_	
+4-25	351-361	Frankreich	*	PLACEmentioned	
+4-26	362-369	beliebt	_	_	
+4-27	370-376	machen	_	_	
+4-28	377-382	würde	_	_	
+4-29	383-384	.	_	_	
+
+#Text=Gegen Luynes ist nichts .
+5-1	385-390	Gegen	_	_	
+5-2	391-397	Luynes	*	PERmentioned	
+5-3	398-401	ist	_	_	
+5-4	402-408	nichts	_	_	
+5-5	409-410	.	_	_	
+
+#Text=Dabei läßt sich aber doch wieder sagen : M ( etternich ) wird bald absegeln zu den viel gesuchten `` glückseligen Inseln '' , und dann käme die Reihe ganz natürlich an Luynes , den Rüstigen Vorhaltenden .
+6-1	411-416	Dabei	_	_	
+6-2	417-421	läßt	_	_	
+6-3	422-426	sich	_	_	
+6-4	427-431	aber	_	_	
+6-5	432-436	doch	_	_	
+6-6	437-443	wieder	_	_	
+6-7	444-449	sagen	_	_	
+6-8	450-451	:	_	_	
+6-9	452-453	M	*[5]	PERmentioned[5]	
+6-10	454-455	(	*[5]	PERmentioned[5]	
+6-11	456-465	etternich	*[5]	PERmentioned[5]	
+6-12	466-467	)	*[5]	PERmentioned[5]	
+6-13	468-472	wird	_	_	
+6-14	473-477	bald	_	_	
+6-15	478-486	absegeln	_	_	
+6-16	487-489	zu	_	_	
+6-17	490-493	den	_	_	
+6-18	494-498	viel	_	_	
+6-19	499-508	gesuchten	_	_	
+6-20	509-511	``	_	_	
+6-21	512-524	glückseligen	_	_	
+6-22	525-531	Inseln	_	_	
+6-23	532-534	''	_	_	
+6-24	535-536	,	_	_	
+6-25	537-540	und	_	_	
+6-26	541-545	dann	_	_	
+6-27	546-550	käme	_	_	
+6-28	551-554	die	_	_	
+6-29	555-560	Reihe	_	_	
+6-30	561-565	ganz	_	_	
+6-31	566-575	natürlich	_	_	
+6-32	576-578	an	_	_	
+6-33	579-585	Luynes	*	PERmentioned	
+6-34	586-587	,	_	_	
+6-35	588-591	den	_	_	
+6-36	592-600	Rüstigen	_	_	
+6-37	601-613	Vorhaltenden	_	_	
+6-38	614-615	.	_	_	
+
+#Text=Wäre es vielleicht nicht am Besten , den Kronprinzen unsern Protektor , zu befragen ?
+7-1	616-620	Wäre	_	_	
+7-2	621-623	es	_	_	
+7-3	624-634	vielleicht	_	_	
+7-4	635-640	nicht	_	_	
+7-5	641-643	am	_	_	
+7-6	644-650	Besten	_	_	
+7-7	651-652	,	_	_	
+7-8	653-656	den	_	_	
+7-9	657-668	Kronprinzen	*	PERmentioned	
+7-10	669-675	unsern	_	_	
+7-11	676-685	Protektor	_	_	
+7-12	686-687	,	_	_	
+7-13	688-690	zu	_	_	
+7-14	691-699	befragen	_	_	
+7-15	700-701	?	_	_	
+
+#Text=Über die Sache , und den modus , wenn er jene Ansicht , eben wie Sie theilt .
+8-1	702-706	Über	_	_	
+8-2	707-710	die	_	_	
+8-3	711-716	Sache	_	_	
+8-4	717-718	,	_	_	
+8-5	719-722	und	_	_	
+8-6	723-726	den	_	_	
+8-7	727-732	modus	_	_	
+8-8	733-734	,	_	_	
+8-9	735-739	wenn	_	_	
+8-10	740-742	er	_	_	
+8-11	743-747	jene	_	_	
+8-12	748-755	Ansicht	_	_	
+8-13	756-757	,	_	_	
+8-14	758-762	eben	_	_	
+8-15	763-766	wie	_	_	
+8-16	767-770	Sie	_	_	
+8-17	771-777	theilt	_	_	
+8-18	778-779	.	_	_	
+
+#Text=Lepsius könnte diese ermitteln ?
+9-1	780-787	Lepsius	*	PERmentioned	
+9-2	788-794	könnte	_	_	
+9-3	795-800	diese	_	_	
+9-4	801-810	ermitteln	_	_	
+9-5	811-812	?	_	_	
+
+#Text=Oder soll ich schreiben ?
+10-1	813-817	Oder	_	_	
+10-2	818-822	soll	_	_	
+10-3	823-826	ich	_	_	
+10-4	827-836	schreiben	_	_	
+10-5	837-838	?	_	_	
+
+#Text=Jedenfalls wäre mündliche Verständigung besser .
+11-1	839-849	Jedenfalls	_	_	
+11-2	850-854	wäre	_	_	
+11-3	855-864	mündliche	_	_	
+11-4	865-878	Verständigung	_	_	
+11-5	879-885	besser	_	_	
+11-6	886-887	.	_	_	
+
+#Text=Was Braun betrifft , so glaube ich keineswegs , daß L ( anci ) sich irrt : wir werden es sehen .
+12-1	888-891	Was	_	_	
+12-2	892-897	Braun	*	PERmentioned	
+12-3	898-906	betrifft	_	_	
+12-4	907-908	,	_	_	
+12-5	909-911	so	_	_	
+12-6	912-918	glaube	_	_	
+12-7	919-922	ich	_	_	
+12-8	923-933	keineswegs	_	_	
+12-9	934-935	,	_	_	
+12-10	936-939	daß	_	_	
+12-11	940-941	L	*[6]	PERmentioned[6]	
+12-12	942-943	(	*[6]	PERmentioned[6]	
+12-13	944-948	anci	*[6]	PERmentioned[6]	
+12-14	949-950	)	*[6]	PERmentioned[6]	
+12-15	951-955	sich	_	_	
+12-16	956-960	irrt	_	_	
+12-17	961-962	:	_	_	
+12-18	963-966	wir	_	_	
+12-19	967-973	werden	_	_	
+12-20	974-976	es	_	_	
+12-21	977-982	sehen	_	_	
+12-22	983-984	.	_	_	
+
+#Text=Was Leps ( ius ) selbst betrifft , so vermisse ich den Titel Segretario onorario , was mir wesentlich scheint , und zwar als dauernd .
+13-1	985-988	Was	_	_	
+13-2	989-993	Leps	*[7]	PERmentioned[7]	
+13-3	994-995	(	*[7]	PERmentioned[7]	
+13-4	996-999	ius	*[7]	PERmentioned[7]	
+13-5	1000-1001	)	*[7]	PERmentioned[7]	
+13-6	1002-1008	selbst	_	_	
+13-7	1009-1017	betrifft	_	_	
+13-8	1018-1019	,	_	_	
+13-9	1020-1022	so	_	_	
+13-10	1023-1031	vermisse	_	_	
+13-11	1032-1035	ich	_	_	
+13-12	1036-1039	den	_	_	
+13-13	1040-1045	Titel	_	_	
+13-14	1046-1056	Segretario	_	_	
+13-15	1057-1065	onorario	_	_	
+13-16	1066-1067	,	_	_	
+13-17	1068-1071	was	_	_	
+13-18	1072-1075	mir	_	_	
+13-19	1076-1086	wesentlich	_	_	
+13-20	1087-1094	scheint	_	_	
+13-21	1095-1096	,	_	_	
+13-22	1097-1100	und	_	_	
+13-23	1101-1105	zwar	_	_	
+13-24	1106-1109	als	_	_	
+13-25	1110-1117	dauernd	_	_	
+13-26	1118-1119	.	_	_	
+
+#Text=In dieselbe Kategorie wünschte ich auch sehr entschieden zu verschwinden , als Segretario generale onorario .
+14-1	1120-1122	In	_	_	
+14-2	1123-1131	dieselbe	_	_	
+14-3	1132-1141	Kategorie	_	_	
+14-4	1142-1150	wünschte	_	_	
+14-5	1151-1154	ich	_	_	
+14-6	1155-1159	auch	_	_	
+14-7	1160-1164	sehr	_	_	
+14-8	1165-1176	entschieden	_	_	
+14-9	1177-1179	zu	_	_	
+14-10	1180-1192	verschwinden	_	_	
+14-11	1193-1194	,	_	_	
+14-12	1195-1198	als	_	_	
+14-13	1199-1209	Segretario	_	_	
+14-14	1210-1218	generale	_	_	
+14-15	1219-1227	onorario	_	_	
+14-16	1228-1229	.	_	_	
+
+#Text=Es ist ein thätiger , gegenwärtiger General Sekretar
+15-1	1230-1232	Es	_	_	
+15-2	1233-1236	ist	_	_	
+15-3	1237-1240	ein	_	_	
+15-4	1241-1249	thätiger	_	_	
+15-5	1250-1251	,	_	_	
+15-6	1252-1265	gegenwärtiger	_	_	
+15-7	1266-1273	General	_	_	
+15-8	1274-1282	Sekretar	_	_	

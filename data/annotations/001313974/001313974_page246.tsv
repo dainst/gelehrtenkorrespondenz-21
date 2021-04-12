@@ -1,0 +1,119 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=356 Helbig an Henzen \| Siena , 9. Juli 1875 sitzt .
+1-1	0-3	356	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-22	\|	_	_
+1-6	23-28	Siena	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-33	9.	*[3]	DATEletter[3]
+1-9	34-38	Juli	*[3]	DATEletter[3]
+1-10	39-43	1875	*[3]	DATEletter[3]
+1-11	44-49	sitzt	_	_
+1-12	50-51	.	_	_
+
+#Text=Diltheys Brief enthält ein Besiderium wegen einer in Pompei auszuführenden Zeichnung .
+2-1	52-60	Diltheys	*	PERmentioned
+2-2	61-66	Brief	_	_
+2-3	67-74	enthält	_	_
+2-4	75-78	ein	_	_
+2-5	79-89	Besiderium	_	_
+2-6	90-95	wegen	_	_
+2-7	96-101	einer	_	_
+2-8	102-104	in	_	_
+2-9	105-111	Pompei	*	PLACEmentioned
+2-10	112-126	auszuführenden	_	_
+2-11	127-136	Zeichnung	_	_
+2-12	137-138	.	_	_
+
+#Text=Ich bitte Sie , beifolgendes Blatt , welches die betreffende Angabe enthält , Mau zukommen zu lassen .
+3-1	139-142	Ich	_	_
+3-2	143-148	bitte	_	_
+3-3	149-152	Sie	_	_
+3-4	153-154	,	_	_
+3-5	155-167	beifolgendes	_	_
+3-6	168-173	Blatt	_	_
+3-7	174-175	,	_	_
+3-8	176-183	welches	_	_
+3-9	184-187	die	_	_
+3-10	188-199	betreffende	_	_
+3-11	200-206	Angabe	_	_
+3-12	207-214	enthält	_	_
+3-13	215-216	,	_	_
+3-14	217-220	Mau	*	PERmentioned
+3-15	221-229	zukommen	_	_
+3-16	230-232	zu	_	_
+3-17	233-239	lassen	_	_
+3-18	240-241	.	_	_
+
+#Text=Auch hier ist es jetzt recht heiß .
+4-1	242-246	Auch	_	_
+4-2	247-251	hier	_	_
+4-3	252-255	ist	_	_
+4-4	256-258	es	_	_
+4-5	259-264	jetzt	_	_
+4-6	265-270	recht	_	_
+4-7	271-275	heiß	_	_
+4-8	276-277	.	_	_
+
+#Text=Doch wird die Hitze durch den auf dem Flateau der Villa herrschenden Sturm erträglich gemacht .
+5-1	278-282	Doch	_	_
+5-2	283-287	wird	_	_
+5-3	288-291	die	_	_
+5-4	292-297	Hitze	_	_
+5-5	298-303	durch	_	_
+5-6	304-307	den	_	_
+5-7	308-311	auf	_	_
+5-8	312-315	dem	_	_
+5-9	316-323	Flateau	_	_
+5-10	324-327	der	_	_
+5-11	328-333	Villa	_	_
+5-12	334-346	herrschenden	_	_
+5-13	347-352	Sturm	_	_
+5-14	353-363	erträglich	_	_
+5-15	364-371	gemacht	_	_
+5-16	372-373	.	_	_
+
+#Text=Noch nichts von de Sanctis ?
+6-1	374-378	Noch	_	_
+6-2	379-385	nichts	_	_
+6-3	386-389	von	_	_
+6-4	390-392	de	*[4]	PERmentioned[4]
+6-5	393-400	Sanctis	*[4]	PERmentioned[4]
+6-6	401-402	?	_	_
+
+#Text=Herzliche Grüßen von den Meinigen !
+7-1	403-412	Herzliche	_	_
+7-2	413-419	Grüßen	_	_
+7-3	420-423	von	_	_
+7-4	424-427	den	_	_
+7-5	428-436	Meinigen	_	_
+7-6	437-438	!	_	_
+
+#Text=Ihr ergebener Helbig Nero fängt wieder an , sich zu erholen .
+8-1	439-442	Ihr	_	_
+8-2	443-452	ergebener	_	_
+8-3	453-459	Helbig	*	PERauthor
+8-4	460-464	Nero	_	_
+8-5	465-470	fängt	_	_
+8-6	471-477	wieder	_	_
+8-7	478-480	an	_	_
+8-8	481-482	,	_	_
+8-9	483-487	sich	_	_
+8-10	488-490	zu	_	_
+8-11	491-498	erholen	_	_
+8-12	499-500	.	_	_
+
+#Text=Doch schreitet seine Genesung sehr langsam vorwärts .
+9-1	501-505	Doch	_	_
+9-2	506-515	schreitet	_	_
+9-3	516-521	seine	_	_
+9-4	522-530	Genesung	_	_
+9-5	531-535	sehr	_	_
+9-6	536-543	langsam	_	_
+9-7	544-552	vorwärts	_	_
+9-8	553-554	.	_	_

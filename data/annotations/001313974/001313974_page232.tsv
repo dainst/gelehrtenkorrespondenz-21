@@ -1,0 +1,272 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Siena , 1. September 1874 Nöthigen Falls können Sie ja Dressel diesen Brief zuschicken , damit er nach bestem Ermessen das zweckmäßigste Verfahren einschlägt .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-22	Siena	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	1.	*[1]	DATEletter[1]
+1-7	28-37	September	*[1]	DATEletter[1]
+1-8	38-42	1874	*[1]	DATEletter[1]
+1-9	43-51	Nöthigen	_	_
+1-10	52-57	Falls	_	_
+1-11	58-64	können	_	_
+1-12	65-68	Sie	_	_
+1-13	69-71	ja	_	_
+1-14	72-79	Dressel	*	PERmentioned
+1-15	80-86	diesen	_	_
+1-16	87-92	Brief	_	_
+1-17	93-103	zuschicken	_	_
+1-18	104-105	,	_	_
+1-19	106-111	damit	_	_
+1-20	112-114	er	_	_
+1-21	115-119	nach	_	_
+1-22	120-126	bestem	_	_
+1-23	127-135	Ermessen	_	_
+1-24	136-139	das	_	_
+1-25	140-153	zweckmäßigste	_	_
+1-26	154-163	Verfahren	_	_
+1-27	164-174	einschlägt	_	_
+1-28	175-176	.	_	_
+
+#Text=ZEntschuldigen Sie viele Male diesen Impiccio !
+2-1	177-191	ZEntschuldigen	_	_
+2-2	192-195	Sie	_	_
+2-3	196-201	viele	_	_
+2-4	202-206	Male	_	_
+2-5	207-213	diesen	_	_
+2-6	214-222	Impiccio	_	_
+2-7	223-224	!	_	_
+
+#Text=Ihre Absicht , erst gegen Ende d. M. hierher zu kommen , leuchtet uns wenig ein .
+3-1	225-229	Ihre	_	_
+3-2	230-237	Absicht	_	_
+3-3	238-239	,	_	_
+3-4	240-244	erst	_	_
+3-5	245-250	gegen	_	_
+3-6	251-255	Ende	*[2]	DATEmentioned[2]
+3-7	256-258	d.	*[2]	DATEmentioned[2]
+3-8	259-261	M.	*[2]	DATEmentioned[2]
+3-9	262-269	hierher	_	_
+3-10	270-272	zu	_	_
+3-11	273-279	kommen	_	_
+3-12	280-281	,	_	_
+3-13	282-290	leuchtet	_	_
+3-14	291-294	uns	_	_
+3-15	295-300	wenig	_	_
+3-16	301-304	ein	_	_
+3-17	305-306	.	_	_
+
+#Text=Wenn Sie in der Agquila nera , die Meinigen aber in der Pensione im Palazzo Bandini oder Chiusarelli wohnen , so hätte dies wahrlich wenig Humor .
+4-1	307-311	Wenn	_	_
+4-2	312-315	Sie	_	_
+4-3	316-318	in	_	_
+4-4	319-322	der	_	_
+4-5	323-330	Agquila	*[3]	PLACEmentioned[3]
+4-6	331-335	nera	*[3]	PLACEmentioned[3]
+4-7	336-337	,	_	_
+4-8	338-341	die	_	_
+4-9	342-350	Meinigen	_	_
+4-10	351-355	aber	_	_
+4-11	356-358	in	_	_
+4-12	359-362	der	_	_
+4-13	363-371	Pensione	_	_
+4-14	372-374	im	_	_
+4-15	375-382	Palazzo	*[4]	PLACEmentioned[4]
+4-16	383-390	Bandini	*[4]	PLACEmentioned[4]
+4-17	391-395	oder	_	_
+4-18	396-407	Chiusarelli	*	PLACEmentioned
+4-19	408-414	wohnen	_	_
+4-20	415-416	,	_	_
+4-21	417-419	so	_	_
+4-22	420-425	hätte	_	_
+4-23	426-430	dies	_	_
+4-24	431-439	wahrlich	_	_
+4-25	440-445	wenig	_	_
+4-26	446-451	Humor	_	_
+4-27	452-453	.	_	_
+
+#Text=Gerade die Villa Poggiarello-Bargagli mit ihrem Park und der wundervollen Aussicht würde Ihnen den hiesigen Aufenthalt angenehm machen und an dem Sturm , der Sie umwettert , sind Sie ja von Rom heigewohnt .
+5-1	454-460	Gerade	_	_
+5-2	461-464	die	_	_
+5-3	465-470	Villa	*[5]	PLACEmentioned[5]
+5-4	471-491	Poggiarello-Bargagli	*[5]	PLACEmentioned[5]
+5-5	492-495	mit	_	_
+5-6	496-501	ihrem	_	_
+5-7	502-506	Park	_	_
+5-8	507-510	und	_	_
+5-9	511-514	der	_	_
+5-10	515-527	wundervollen	_	_
+5-11	528-536	Aussicht	_	_
+5-12	537-542	würde	_	_
+5-13	543-548	Ihnen	_	_
+5-14	549-552	den	_	_
+5-15	553-561	hiesigen	_	_
+5-16	562-572	Aufenthalt	_	_
+5-17	573-581	angenehm	_	_
+5-18	582-588	machen	_	_
+5-19	589-592	und	_	_
+5-20	593-595	an	_	_
+5-21	596-599	dem	_	_
+5-22	600-605	Sturm	_	_
+5-23	606-607	,	_	_
+5-24	608-611	der	_	_
+5-25	612-615	Sie	_	_
+5-26	616-625	umwettert	_	_
+5-27	626-627	,	_	_
+5-28	628-632	sind	_	_
+5-29	633-636	Sie	_	_
+5-30	637-639	ja	_	_
+5-31	640-643	von	_	_
+5-32	644-647	Rom	*	PLACEmentioned
+5-33	648-658	heigewohnt	_	_
+5-34	659-660	.	_	_
+
+#Text=Also ändern Sie , bitte , Ihren Plan und kommen Sie bald .
+6-1	661-665	Also	_	_
+6-2	666-672	ändern	_	_
+6-3	673-676	Sie	_	_
+6-4	677-678	,	_	_
+6-5	679-684	bitte	_	_
+6-6	685-686	,	_	_
+6-7	687-692	Ihren	_	_
+6-8	693-697	Plan	_	_
+6-9	698-701	und	_	_
+6-10	702-708	kommen	_	_
+6-11	709-712	Sie	_	_
+6-12	713-717	bald	_	_
+6-13	718-719	.	_	_
+
+#Text=Um den 8. September werden Sie Eitelberger hier treffen .
+7-1	720-722	Um	_	_
+7-2	723-726	den	_	_
+7-3	727-729	8.	*[6]	DATEmentioned[6]
+7-4	730-739	September	*[6]	DATEmentioned[6]
+7-5	740-746	werden	_	_
+7-6	747-750	Sie	_	_
+7-7	751-762	Eitelberger	*	PERmentioned
+7-8	763-767	hier	_	_
+7-9	768-775	treffen	_	_
+7-10	776-777	.	_	_
+
+#Text=Sie : könnten die erste Zeit Ihres Aufenthalts auf die Besichtigung der Umgegend ( Bel Gavo , S. Lionardo , $ .
+8-1	778-781	Sie	_	_
+8-2	782-783	:	_	_
+8-3	784-791	könnten	_	_
+8-4	792-795	die	_	_
+8-5	796-801	erste	_	_
+8-6	802-806	Zeit	_	_
+8-7	807-812	Ihres	_	_
+8-8	813-824	Aufenthalts	_	_
+8-9	825-828	auf	_	_
+8-10	829-832	die	_	_
+8-11	833-845	Besichtigung	_	_
+8-12	846-849	der	_	_
+8-13	850-858	Umgegend	_	_
+8-14	859-860	(	_	_
+8-15	861-864	Bel	*[7]	PLACEmentioned[7]
+8-16	865-869	Gavo	*[7]	PLACEmentioned[7]
+8-17	870-871	,	_	_
+8-18	872-874	S.	*[8]	PLACEmentioned[8]
+8-19	875-883	Lionardo	*[8]	PLACEmentioned[8]
+8-20	884-885	,	_	_
+8-21	886-887	$	_	_
+8-22	888-889	.	*[9]	PLACEmentioned[9]
+
+#Text=Ansano , Osservanza , Monastero - alles Partien von einem halben Tage ) verwenden , sich dann in der Stadt @ tabliren und diese ansehen .
+9-1	890-896	Ansano	*[9]	PLACEmentioned[9]
+9-2	897-898	,	_	_
+9-3	899-909	Osservanza	*	PLACEmentioned
+9-4	910-911	,	_	_
+9-5	912-921	Monastero	*	PLACEmentioned
+9-6	922-923	-	_	_
+9-7	924-929	alles	_	_
+9-8	930-937	Partien	_	_
+9-9	938-941	von	_	_
+9-10	942-947	einem	_	_
+9-11	948-954	halben	_	_
+9-12	955-959	Tage	_	_
+9-13	960-961	)	_	_
+9-14	962-971	verwenden	_	_
+9-15	972-973	,	_	_
+9-16	974-978	sich	_	_
+9-17	979-983	dann	_	_
+9-18	984-986	in	_	_
+9-19	987-990	der	_	_
+9-20	991-996	Stadt	_	_
+9-21	997-998	@	_	_
+9-22	999-1007	tabliren	_	_
+9-23	1008-1011	und	_	_
+9-24	1012-1017	diese	_	_
+9-25	1018-1025	ansehen	_	_
+9-26	1026-1027	.	_	_
+
+#Text=Ich versichere Ihnen , daß nach Rom kaum eine italienische Stadt einen so mächtigen Eindruck auf mich “ gemacht hat , wie Siena .
+10-1	1028-1031	Ich	_	_
+10-2	1032-1042	versichere	_	_
+10-3	1043-1048	Ihnen	_	_
+10-4	1049-1050	,	_	_
+10-5	1051-1054	daß	_	_
+10-6	1055-1059	nach	_	_
+10-7	1060-1063	Rom	*	PLACEmentioned
+10-8	1064-1068	kaum	_	_
+10-9	1069-1073	eine	_	_
+10-10	1074-1086	italienische	_	_
+10-11	1087-1092	Stadt	_	_
+10-12	1093-1098	einen	_	_
+10-13	1099-1101	so	_	_
+10-14	1102-1111	mächtigen	_	_
+10-15	1112-1120	Eindruck	_	_
+10-16	1121-1124	auf	_	_
+10-17	1125-1129	mich	_	_
+10-18	1130-1131	“	_	_
+10-19	1132-1139	gemacht	_	_
+10-20	1140-1143	hat	_	_
+10-21	1144-1145	,	_	_
+10-22	1146-1149	wie	_	_
+10-23	1150-1155	Siena	*	PLACEmentioned
+10-24	1156-1157	.	_	_
+
+#Text=Das Wetter hat sich seit vorgestern gebessert .
+11-1	1158-1161	Das	_	_
+11-2	1162-1168	Wetter	_	_
+11-3	1169-1172	hat	_	_
+11-4	1173-1177	sich	_	_
+11-5	1178-1182	seit	_	_
+11-6	1183-1193	vorgestern	_	_
+11-7	1194-1203	gebessert	_	_
+11-8	1204-1205	.	_	_
+
+#Text=Wir haben klaren Himmel \; doch dauert der Sturm noch fort .
+12-1	1206-1209	Wir	_	_
+12-2	1210-1215	haben	_	_
+12-3	1216-1222	klaren	_	_
+12-4	1223-1229	Himmel	_	_
+12-5	1230-1231	\;	_	_
+12-6	1232-1236	doch	_	_
+12-7	1237-1243	dauert	_	_
+12-8	1244-1247	der	_	_
+12-9	1248-1253	Sturm	_	_
+12-10	1254-1258	noch	_	_
+12-11	1259-1263	fort	_	_
+12-12	1264-1265	.	_	_
+
+#Text=Viele Grüße von meiner Frau und Lili an Sie und Fräulein Kopf Ihr ergebener Helbig
+13-1	1266-1271	Viele	_	_
+13-2	1272-1277	Grüße	_	_
+13-3	1278-1281	von	_	_
+13-4	1282-1288	meiner	*[10]	PERmentioned[10]
+13-5	1289-1293	Frau	*[10]	PERmentioned[10]
+13-6	1294-1297	und	_	_
+13-7	1298-1302	Lili	*	PERmentioned
+13-8	1303-1305	an	_	_
+13-9	1306-1309	Sie	_	_
+13-10	1310-1313	und	_	_
+13-11	1314-1322	Fräulein	_	_
+13-12	1323-1327	Kopf	*	PERmentioned
+13-13	1328-1331	Ihr	_	_
+13-14	1332-1341	ergebener	_	_
+13-15	1342-1348	Helbig	*	PERauthor

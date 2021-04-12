@@ -1,0 +1,187 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=54 Henzen an Gerhard 20/II/54 frieden sein würden .
+1-1	0-2	54	_	_	
+1-2	3-9	Henzen	*	PERauthor	
+1-3	10-12	an	_	_	
+1-4	13-20	Gerhard	*	PERaddressee	
+1-5	21-29	20/II/54	*	DATEletter	
+1-6	30-37	frieden	_	_	
+1-7	38-42	sein	_	_	
+1-8	43-49	würden	_	_	
+1-9	50-51	.	_	_	
+
+#Text=Er grüßt Sie bestens .
+2-1	52-54	Er	_	_	
+2-2	55-60	grüßt	_	_	
+2-3	61-64	Sie	_	_	
+2-4	65-72	bestens	_	_	
+2-5	73-74	.	_	_	
+
+#Text=Selbst das Albaner Gebirge bis tief herab voll Schnee , u. Carneval , wie ich höre , unbeschreiblich scheußlich , ich selbst noch dh .
+3-1	75-81	Selbst	_	_	
+3-2	82-85	das	_	_	
+3-3	86-93	Albaner	*[1]	PLACEmentioned[1]	
+3-4	94-101	Gebirge	*[1]	PLACEmentioned[1]	
+3-5	102-105	bis	_	_	
+3-6	106-110	tief	_	_	
+3-7	111-116	herab	_	_	
+3-8	117-121	voll	_	_	
+3-9	122-128	Schnee	_	_	
+3-10	129-130	,	_	_	
+3-11	131-133	u.	_	_	
+3-12	134-142	Carneval	_	_	
+3-13	143-144	,	_	_	
+3-14	145-148	wie	_	_	
+3-15	149-152	ich	_	_	
+3-16	153-157	höre	_	_	
+3-17	158-159	,	_	_	
+3-18	160-175	unbeschreiblich	_	_	
+3-19	176-186	scheußlich	_	_	
+3-20	187-188	,	_	_	
+3-21	189-192	ich	_	_	
+3-22	193-199	selbst	_	_	
+3-23	200-204	noch	_	_	
+3-24	205-207	dh	_	_	
+3-25	208-209	.	_	_	
+
+#Text=geschwollne Backen ans ' Haus gefesselt .
+4-1	210-221	geschwollne	_	_	
+4-2	222-228	Backen	_	_	
+4-3	229-232	ans	_	_	
+4-4	233-234	'	_	_	
+4-5	235-239	Haus	_	_	
+4-6	240-249	gefesselt	_	_	
+4-7	250-251	.	_	_	
+
+#Text=I Meine Frau dankt der Ihrigsen herzlich für ihren liebenswürdigen Brief u. grüßt mit mir Sie beide freund- |lichst .
+5-1	252-253	I	_	_	
+5-2	254-259	Meine	_	_	
+5-3	260-264	Frau	_	_	
+5-4	265-270	dankt	_	_	
+5-5	271-274	der	_	_	
+5-6	275-283	Ihrigsen	_	_	
+5-7	284-292	herzlich	_	_	
+5-8	293-296	für	_	_	
+5-9	297-302	ihren	_	_	
+5-10	303-318	liebenswürdigen	_	_	
+5-11	319-324	Brief	_	_	
+5-12	325-327	u.	_	_	
+5-13	328-333	grüßt	_	_	
+5-14	334-337	mit	_	_	
+5-15	338-341	mir	_	_	
+5-16	342-345	Sie	_	_	
+5-17	346-351	beide	_	_	
+5-18	352-359	freund-	_	_	
+5-19	360-367	|lichst	_	_	
+5-20	368-369	.	_	_	
+
+#Text=Binliegenden Brief an Friedlaender empfehle ich , Ihr ergebenster W. Henzen Rom 20/II 54 , T Dominus Piper reist übermorgen nach Neapel , nachdem er sich hier in Ermangelung jeglichen Italienisch od . Französisch mit Lateinisch alla meglio durchgeholfen ; schließlich sehr befriedist , da er zu guter Letzt mehr erreicht , als zu erwarten war , bes . dh .
+6-1	370-382	Binliegenden	_	_	
+6-2	383-388	Brief	_	_	
+6-3	389-391	an	_	_	
+6-4	392-404	Friedlaender	*	PERmentioned	
+6-5	405-413	empfehle	_	_	
+6-6	414-417	ich	_	_	
+6-7	418-419	,	_	_	
+6-8	420-423	Ihr	_	_	
+6-9	424-435	ergebenster	_	_	
+6-10	436-438	W.	*[2]	PERauthor[2]	
+6-11	439-445	Henzen	*[2]	PERauthor[2]	
+6-12	446-449	Rom	*	PLACEfrom	
+6-13	450-455	20/II	*[3]	DATEletter[3]	
+6-14	456-458	54	*[3]	DATEletter[3]	
+6-15	459-460	,	_	_	
+6-16	461-462	T	_	_	
+6-17	463-470	Dominus	*[4]	PERmentioned[4]	
+6-18	471-476	Piper	*[4]	PERmentioned[4]	
+6-19	477-482	reist	_	_	
+6-20	483-493	übermorgen	_	_	
+6-21	494-498	nach	_	_	
+6-22	499-505	Neapel	*	PLACEmentioned	
+6-23	506-507	,	_	_	
+6-24	508-515	nachdem	_	_	
+6-25	516-518	er	_	_	
+6-26	519-523	sich	_	_	
+6-27	524-528	hier	_	_	
+6-28	529-531	in	_	_	
+6-29	532-543	Ermangelung	_	_	
+6-30	544-553	jeglichen	_	_	
+6-31	554-565	Italienisch	_	_	
+6-32	566-568	od	_	_	
+6-33	569-570	.	_	_	
+6-34	571-582	Französisch	_	_	
+6-35	583-586	mit	_	_	
+6-36	587-597	Lateinisch	_	_	
+6-37	598-602	alla	_	_	
+6-38	603-609	meglio	_	_	
+6-39	610-623	durchgeholfen	_	_	
+6-40	624-625	;	_	_	
+6-41	626-637	schließlich	_	_	
+6-42	638-642	sehr	_	_	
+6-43	643-653	befriedist	_	_	
+6-44	654-655	,	_	_	
+6-45	656-658	da	_	_	
+6-46	659-661	er	_	_	
+6-47	662-664	zu	_	_	
+6-48	665-670	guter	_	_	
+6-49	671-676	Letzt	_	_	
+6-50	677-681	mehr	_	_	
+6-51	682-690	erreicht	_	_	
+6-52	691-692	,	_	_	
+6-53	693-696	als	_	_	
+6-54	697-699	zu	_	_	
+6-55	700-708	erwarten	_	_	
+6-56	709-712	war	_	_	
+6-57	713-714	,	_	_	
+6-58	715-718	bes	_	_	
+6-59	719-720	.	_	_	
+6-60	721-723	dh	_	_	
+6-61	724-725	.	_	_	
+
+#Text=de Rossi 's Verwendung , mit dem ich ihn gleich bekannt machte .
+7-1	726-728	de	*[5]	PERmentioned[5]	
+7-2	729-734	Rossi	*[5]	PERmentioned[5]	
+7-3	735-737	's	*[5]	PERmentioned[5]	
+7-4	738-748	Verwendung	_	_	
+7-5	749-750	,	_	_	
+7-6	751-754	mit	_	_	
+7-7	755-758	dem	_	_	
+7-8	759-762	ich	_	_	
+7-9	763-766	ihn	_	_	
+7-10	767-773	gleich	_	_	
+7-11	774-781	bekannt	_	_	
+7-12	782-788	machte	_	_	
+7-13	789-790	.	_	_	
+
+#Text=Es ist doch ein sehr guter kerl ; Ihre Empfehlung hatte mir anfangs etwas bange gemacht , aber ich hatte sie wohl etwas zu '' spitzfindig interpretirt .
+8-1	791-793	Es	_	_	
+8-2	794-797	ist	_	_	
+8-3	798-802	doch	_	_	
+8-4	803-806	ein	_	_	
+8-5	807-811	sehr	_	_	
+8-6	812-817	guter	_	_	
+8-7	818-822	kerl	_	_	
+8-8	823-824	;	_	_	
+8-9	825-829	Ihre	_	_	
+8-10	830-840	Empfehlung	_	_	
+8-11	841-846	hatte	_	_	
+8-12	847-850	mir	_	_	
+8-13	851-858	anfangs	_	_	
+8-14	859-864	etwas	_	_	
+8-15	865-870	bange	_	_	
+8-16	871-878	gemacht	_	_	
+8-17	879-880	,	_	_	
+8-18	881-885	aber	_	_	
+8-19	886-889	ich	_	_	
+8-20	890-895	hatte	_	_	
+8-21	896-899	sie	_	_	
+8-22	900-904	wohl	_	_	
+8-23	905-910	etwas	_	_	
+8-24	911-913	zu	_	_	
+8-25	914-916	''	_	_	
+8-26	917-928	spitzfindig	_	_	
+8-27	929-941	interpretirt	_	_	
+8-28	942-943	.	_	_	

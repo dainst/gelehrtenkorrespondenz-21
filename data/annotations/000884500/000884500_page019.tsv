@@ -1,0 +1,267 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Co ) Gerhard an Braun Berlin , 25 .
+1-1	0-2	Co	_	_
+1-2	3-4	)	_	_
+1-3	5-12	Gerhard	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-21	Braun	*	PERaddressee
+1-6	22-28	Berlin	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-33	25	*[4]	DATEletter[4]
+1-9	34-35	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 hier vor deren Ankunft nichts vornehmen und große Auslagen bleiben mir auf dem Hals .
+2-1	36-42	Januar	*[4]	DATEletter[4]
+2-2	43-47	1838	*[4]	DATEletter[4]
+2-3	48-52	hier	_	_
+2-4	53-56	vor	_	_
+2-5	57-62	deren	_	_
+2-6	63-70	Ankunft	_	_
+2-7	71-77	nichts	_	_
+2-8	78-87	vornehmen	_	_
+2-9	88-91	und	_	_
+2-10	92-97	große	_	_
+2-11	98-106	Auslagen	_	_
+2-12	107-114	bleiben	_	_
+2-13	115-118	mir	_	_
+2-14	119-122	auf	_	_
+2-15	123-126	dem	_	_
+2-16	127-131	Hals	_	_
+2-17	132-133	.	_	_
+
+#Text=Wegen der Mitgliederernennungen habe ich bereits an Lepsius geantwortet , ziemlich alles gut heißend außer dem Haufen der von mir selbst genannten kleinen Leute in Griechenland und für alle ähnlichen Fälle nur einige alte Maximen anempfehlend .
+3-1	134-139	Wegen	_	_
+3-2	140-143	der	_	_
+3-3	144-165	Mitgliederernennungen	_	_
+3-4	166-170	habe	_	_
+3-5	171-174	ich	_	_
+3-6	175-182	bereits	_	_
+3-7	183-185	an	_	_
+3-8	186-193	Lepsius	*	PERmentioned
+3-9	194-205	geantwortet	_	_
+3-10	206-207	,	_	_
+3-11	208-216	ziemlich	_	_
+3-12	217-222	alles	_	_
+3-13	223-226	gut	_	_
+3-14	227-234	heißend	_	_
+3-15	235-240	außer	_	_
+3-16	241-244	dem	_	_
+3-17	245-251	Haufen	_	_
+3-18	252-255	der	_	_
+3-19	256-259	von	_	_
+3-20	260-263	mir	_	_
+3-21	264-270	selbst	_	_
+3-22	271-280	genannten	_	_
+3-23	281-288	kleinen	_	_
+3-24	289-294	Leute	_	_
+3-25	295-297	in	_	_
+3-26	298-310	Griechenland	*	PLACEmentioned
+3-27	311-314	und	_	_
+3-28	315-318	für	_	_
+3-29	319-323	alle	_	_
+3-30	324-333	ähnlichen	_	_
+3-31	334-339	Fälle	_	_
+3-32	340-343	nur	_	_
+3-33	344-350	einige	_	_
+3-34	351-355	alte	_	_
+3-35	356-363	Maximen	_	_
+3-36	364-376	anempfehlend	_	_
+3-37	377-378	.	_	_
+
+#Text=Leemanns , dem ich längst wegen der Haute triformis und bei solcher Gelegenheit im Interesse des Instituts schreiben wollte , notirt zu finden ist mir angenehm , und zwar scheint er mir mehr zum M. ord .
+4-1	379-387	Leemanns	*	PERmentioned
+4-2	388-389	,	_	_
+4-3	390-393	dem	_	_
+4-4	394-397	ich	_	_
+4-5	398-404	längst	_	_
+4-6	405-410	wegen	_	_
+4-7	411-414	der	_	_
+4-8	415-420	Haute	_	_
+4-9	421-430	triformis	_	_
+4-10	431-434	und	_	_
+4-11	435-438	bei	_	_
+4-12	439-446	solcher	_	_
+4-13	447-458	Gelegenheit	_	_
+4-14	459-461	im	_	_
+4-15	462-471	Interesse	_	_
+4-16	472-475	des	_	_
+4-17	476-485	Instituts	*	ORGmentioned
+4-18	486-495	schreiben	_	_
+4-19	496-502	wollte	_	_
+4-20	503-504	,	_	_
+4-21	505-511	notirt	_	_
+4-22	512-514	zu	_	_
+4-23	515-521	finden	_	_
+4-24	522-525	ist	_	_
+4-25	526-529	mir	_	_
+4-26	530-538	angenehm	_	_
+4-27	539-540	,	_	_
+4-28	541-544	und	_	_
+4-29	545-549	zwar	_	_
+4-30	550-557	scheint	_	_
+4-31	558-560	er	_	_
+4-32	561-564	mir	_	_
+4-33	565-569	mehr	_	_
+4-34	570-573	zum	_	_
+4-35	574-576	M.	_	_
+4-36	577-580	ord	_	_
+4-37	581-582	.	_	_
+
+#Text=als zum Correspondenten geeignet .
+5-1	583-586	als	_	_
+5-2	587-590	zum	_	_
+5-3	591-606	Correspondenten	_	_
+5-4	607-615	geeignet	_	_
+5-5	616-617	.	_	_
+
+#Text=Habt ihr den H skurs wirklich noch einmal neu angezeigt , so kann ich Euch nur das Studium der Institutswerke zur Vermeidung ähnlicher Vebelstände neu empfehlen .
+6-1	618-622	Habt	_	_
+6-2	623-626	ihr	_	_
+6-3	627-630	den	_	_
+6-4	631-632	H	_	_
+6-5	633-638	skurs	_	_
+6-6	639-647	wirklich	_	_
+6-7	648-652	noch	_	_
+6-8	653-659	einmal	_	_
+6-9	660-663	neu	_	_
+6-10	664-673	angezeigt	_	_
+6-11	674-675	,	_	_
+6-12	676-678	so	_	_
+6-13	679-683	kann	_	_
+6-14	684-687	ich	_	_
+6-15	688-692	Euch	_	_
+6-16	693-696	nur	_	_
+6-17	697-700	das	_	_
+6-18	701-708	Studium	_	_
+6-19	709-712	der	_	_
+6-20	713-727	Institutswerke	_	_
+6-21	728-731	zur	_	_
+6-22	732-742	Vermeidung	_	_
+6-23	743-752	ähnlicher	_	_
+6-24	753-764	Vebelstände	_	_
+6-25	765-768	neu	_	_
+6-26	769-778	empfehlen	_	_
+6-27	779-780	.	_	_
+
+#Text=Ob in Turin der Assistente zugleich mit dem Direktor zu kreiren ist , muß Lepsius zu entscheiden wissen .
+7-1	781-783	Ob	_	_
+7-2	784-786	in	_	_
+7-3	787-792	Turin	*	PLACEmentioned
+7-4	793-796	der	_	_
+7-5	797-807	Assistente	_	_
+7-6	808-816	zugleich	_	_
+7-7	817-820	mit	_	_
+7-8	821-824	dem	_	_
+7-9	825-833	Direktor	_	_
+7-10	834-836	zu	_	_
+7-11	837-844	kreiren	_	_
+7-12	845-848	ist	_	_
+7-13	849-850	,	_	_
+7-14	851-854	muß	_	_
+7-15	855-862	Lepsius	*	PERmentioned
+7-16	863-865	zu	_	_
+7-17	866-877	entscheiden	_	_
+7-18	878-884	wissen	_	_
+7-19	885-886	.	_	_
+
+#Text=Ihr dem Jolli zugetheiltes Fragezeichen habe ich schon auch meinerseits eingelegt , eben so wegen des mir unbekannten Reinhard .
+8-1	887-890	Ihr	_	_
+8-2	891-894	dem	_	_
+8-3	895-900	Jolli	*	PERmentioned
+8-4	901-913	zugetheiltes	_	_
+8-5	914-926	Fragezeichen	_	_
+8-6	927-931	habe	_	_
+8-7	932-935	ich	_	_
+8-8	936-941	schon	_	_
+8-9	942-946	auch	_	_
+8-10	947-958	meinerseits	_	_
+8-11	959-968	eingelegt	_	_
+8-12	969-970	,	_	_
+8-13	971-975	eben	_	_
+8-14	976-978	so	_	_
+8-15	979-984	wegen	_	_
+8-16	985-988	des	_	_
+8-17	989-992	mir	_	_
+8-18	993-1004	unbekannten	_	_
+8-19	1005-1013	Reinhard	*	PERmentioned
+8-20	1014-1015	.	_	_
+
+#Text=Drei Correspondenten für Mantua ist viel \; faccia Lei !
+9-1	1016-1020	Drei	_	_
+9-2	1021-1036	Correspondenten	_	_
+9-3	1037-1040	für	_	_
+9-4	1041-1047	Mantua	*	PLACEmentioned
+9-5	1048-1051	ist	_	_
+9-6	1052-1056	viel	_	_
+9-7	1057-1058	\;	_	_
+9-8	1059-1065	faccia	_	_
+9-9	1066-1069	Lei	_	_
+9-10	1070-1071	!	_	_
+
+#Text=Monga dachte ich zum Correspondenten \; die onorarj soll man doch wol höher stecken .
+10-1	1072-1077	Monga	*	PERmentioned
+10-2	1078-1084	dachte	_	_
+10-3	1085-1088	ich	_	_
+10-4	1089-1092	zum	_	_
+10-5	1093-1108	Correspondenten	_	_
+10-6	1109-1110	\;	_	_
+10-7	1111-1114	die	_	_
+10-8	1115-1122	onorarj	_	_
+10-9	1123-1127	soll	_	_
+10-10	1128-1131	man	_	_
+10-11	1132-1136	doch	_	_
+10-12	1137-1140	wol	_	_
+10-13	1141-1146	höher	_	_
+10-14	1147-1154	stecken	_	_
+10-15	1155-1156	.	_	_
+
+#Text=Wegen der Märkischen nehmen Sie was Sie mögen , nur rathe ich die nicht allzu dringenden auf die nicht allzu entfernte Osterlieferung zu versparen \; es werden sonst allzu viel auf einmal .
+11-1	1157-1162	Wegen	_	_
+11-2	1163-1166	der	_	_
+11-3	1167-1177	Märkischen	_	_
+11-4	1178-1184	nehmen	_	_
+11-5	1185-1188	Sie	_	_
+11-6	1189-1192	was	_	_
+11-7	1193-1196	Sie	_	_
+11-8	1197-1202	mögen	_	_
+11-9	1203-1204	,	_	_
+11-10	1205-1208	nur	_	_
+11-11	1209-1214	rathe	_	_
+11-12	1215-1218	ich	_	_
+11-13	1219-1222	die	_	_
+11-14	1223-1228	nicht	_	_
+11-15	1229-1234	allzu	_	_
+11-16	1235-1245	dringenden	_	_
+11-17	1246-1249	auf	_	_
+11-18	1250-1253	die	_	_
+11-19	1254-1259	nicht	_	_
+11-20	1260-1265	allzu	_	_
+11-21	1266-1275	entfernte	_	_
+11-22	1276-1290	Osterlieferung	_	_
+11-23	1291-1293	zu	_	_
+11-24	1294-1303	versparen	_	_
+11-25	1304-1305	\;	_	_
+11-26	1306-1308	es	_	_
+11-27	1309-1315	werden	_	_
+11-28	1316-1321	sonst	_	_
+11-29	1322-1327	allzu	_	_
+11-30	1328-1332	viel	_	_
+11-31	1333-1336	auf	_	_
+11-32	1337-1343	einmal	_	_
+11-33	1344-1345	.	_	_
+
+#Text=Für Griechenland sagte ich : Finlay , Schaubert , Hansen ,
+12-1	1346-1349	Für	_	_
+12-2	1350-1362	Griechenland	*	PLACEmentioned
+12-3	1363-1368	sagte	_	_
+12-4	1369-1372	ich	_	_
+12-5	1373-1374	:	_	_
+12-6	1375-1381	Finlay	*	PERmentioned
+12-7	1382-1383	,	_	_
+12-8	1384-1393	Schaubert	*	PERmentioned
+12-9	1394-1395	,	_	_
+12-10	1396-1402	Hansen	*	PERmentioned
+12-11	1403-1404	,	_	_

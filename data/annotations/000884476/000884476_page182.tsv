@@ -1,0 +1,45 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin 7/V/1835 Unbegreiflich daß meine vor 1 Jan .
+1-1	0-7	Gerhard	*	PERauthor	
+1-2	8-10	an	_	_	
+1-3	11-16	Braun	*	PERaddressee	
+1-4	17-23	Berlin	*	PLACEfrom	
+1-5	24-32	7/V/1835	*	DATEletter	
+1-6	33-46	Unbegreiflich	_	_	
+1-7	47-50	daß	_	_	
+1-8	51-56	meine	_	_	
+1-9	57-60	vor	_	_	
+1-10	61-62	1	*[1]	DATEmentioned[1]	
+1-11	63-66	Jan	*[1]	DATEmentioned[1]	
+1-12	67-68	.	*[1]	DATEmentioned[1]	
+
+#Text=abgegangene Kiste noch nicht bei Ihnen zu seyn scheint .
+2-1	69-80	abgegangene	_	_	
+2-2	81-86	Kiste	_	_	
+2-3	87-91	noch	_	_	
+2-4	92-97	nicht	_	_	
+2-5	98-101	bei	_	_	
+2-6	102-107	Ihnen	_	_	
+2-7	108-110	zu	_	_	
+2-8	111-115	seyn	_	_	
+2-9	116-123	scheint	_	_	
+2-10	124-125	.	_	_	
+
+#Text=Parteuyn Mur Nillin wird sofort au » gedruckt , ohne Berechnung der Kupfer .
+3-1	126-134	Parteuyn	*	PERmentioned	
+3-2	135-138	Mur	_	_	
+3-3	139-145	Nillin	_	_	
+3-4	146-150	wird	_	_	
+3-5	151-157	sofort	_	_	
+3-6	158-160	au	_	_	
+3-7	161-162	»	_	_	
+3-8	163-171	gedruckt	_	_	
+3-9	172-173	,	_	_	
+3-10	174-178	ohne	_	_	
+3-11	179-189	Berechnung	_	_	
+3-12	190-193	der	_	_	
+3-13	194-200	Kupfer	_	_	
+3-14	201-202	.	_	_	

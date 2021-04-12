@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=209 Braun an Gerhard Rom , 19 .
+1-1	0-3	209	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	19	*[1]	DATEletter[1]
+1-8	30-31	.	*[1]	DATEletter[1]
+
+#Text=Januar 1835 Auch habe ich ihm allerlei andere Mittheilungen gemacht \; durch die Vebersendungen von einigen Gemmenzeichnungen mit Assessionsanträgen z . B. hoffte ich den alten Sylvestre de Lany zu einer Mittheilung über dieselben für unsere Pubblicationen zu veranlassen .
+2-1	32-38	Januar	*[1]	DATEletter[1]
+2-2	39-43	1835	*[1]	DATEletter[1]
+2-3	44-48	Auch	_	_
+2-4	49-53	habe	_	_
+2-5	54-57	ich	_	_
+2-6	58-61	ihm	_	_
+2-7	62-70	allerlei	_	_
+2-8	71-77	andere	_	_
+2-9	78-91	Mittheilungen	_	_
+2-10	92-99	gemacht	_	_
+2-11	100-101	\;	_	_
+2-12	102-107	durch	_	_
+2-13	108-111	die	_	_
+2-14	112-126	Vebersendungen	_	_
+2-15	127-130	von	_	_
+2-16	131-138	einigen	_	_
+2-17	139-156	Gemmenzeichnungen	_	_
+2-18	157-160	mit	_	_
+2-19	161-179	Assessionsanträgen	_	_
+2-20	180-181	z	_	_
+2-21	182-183	.	_	_
+2-22	184-186	B.	_	_
+2-23	187-193	hoffte	_	_
+2-24	194-197	ich	_	_
+2-25	198-201	den	_	_
+2-26	202-207	alten	_	_
+2-27	208-217	Sylvestre	*[2]	PERmentioned[2]
+2-28	218-220	de	*[2]	PERmentioned[2]
+2-29	221-225	Lany	*[2]	PERmentioned[2]
+2-30	226-228	zu	_	_
+2-31	229-234	einer	_	_
+2-32	235-246	Mittheilung	_	_
+2-33	247-251	über	_	_
+2-34	252-261	dieselben	_	_
+2-35	262-265	für	_	_
+2-36	266-272	unsere	_	_
+2-37	273-287	Pubblicationen	_	_
+2-38	288-290	zu	_	_
+2-39	291-302	veranlassen	_	_
+2-40	303-304	.	_	_
+
+#Text=Die Kunst ist doch immer gfiechisch und die neuesten Entdeckungen , von denen auch das Bull .
+3-1	305-308	Die	_	_
+3-2	309-314	Kunst	_	_
+3-3	315-318	ist	_	_
+3-4	319-323	doch	_	_
+3-5	324-329	immer	_	_
+3-6	330-340	gfiechisch	_	_
+3-7	341-344	und	_	_
+3-8	345-348	die	_	_
+3-9	349-357	neuesten	_	_
+3-10	358-370	Entdeckungen	_	_
+3-11	371-372	,	_	_
+3-12	373-376	von	_	_
+3-13	377-382	denen	_	_
+3-14	383-387	auch	_	_
+3-15	388-391	das	_	_
+3-16	392-396	Bull	_	_
+3-17	397-398	.	_	_
+
+#Text=reden wird , führen darauf zurück.- Die große Lamberti , Vase sollten Sie den Institutswerken zur Pubblication überlassen \; das Ding ist riesig , aber sehr interessant .
+4-1	399-404	reden	_	_
+4-2	405-409	wird	_	_
+4-3	410-411	,	_	_
+4-4	412-418	führen	_	_
+4-5	419-425	darauf	_	_
+4-6	426-434	zurück.-	_	_
+4-7	435-438	Die	*[3]	OBJ[3]
+4-8	439-444	große	*[3]	OBJ[3]
+4-9	445-453	Lamberti	*[3]|*[4]	OBJ[3]|PERmentioned[4]
+4-10	454-455	,	*[3]	OBJ[3]
+4-11	456-460	Vase	*[3]	OBJ[3]
+4-12	461-468	sollten	_	_
+4-13	469-472	Sie	_	_
+4-14	473-476	den	_	_
+4-15	477-492	Institutswerken	_	_
+4-16	493-496	zur	_	_
+4-17	497-509	Pubblication	_	_
+4-18	510-520	überlassen	_	_
+4-19	521-522	\;	_	_
+4-20	523-526	das	_	_
+4-21	527-531	Ding	_	_
+4-22	532-535	ist	_	_
+4-23	536-542	riesig	_	_
+4-24	543-544	,	_	_
+4-25	545-549	aber	_	_
+4-26	550-554	sehr	_	_
+4-27	555-566	interessant	_	_
+4-28	567-568	.	_	_
+
+#Text=Andre Dinge erhalten Sie nächstens in Proben .
+5-1	569-574	Andre	_	_
+5-2	575-580	Dinge	_	_
+5-3	581-589	erhalten	_	_
+5-4	590-593	Sie	_	_
+5-5	594-603	nächstens	_	_
+5-6	604-606	in	_	_
+5-7	607-613	Proben	_	_
+5-8	614-615	.	_	_
+
+#Text=Ueber den Cycnostod schreibe ich ebenfalls nächstens \; ich habe ihn stechen lassen , nach Durands Vase , werde aber nicht eher davon reden beovr ich die Erlaubnis von Ihnen erhalten , mich auf Ihr Journal beziehen zu dürfen .
+6-1	616-621	Ueber	_	_
+6-2	622-625	den	_	_
+6-3	626-635	Cycnostod	_	_
+6-4	636-644	schreibe	_	_
+6-5	645-648	ich	_	_
+6-6	649-658	ebenfalls	_	_
+6-7	659-668	nächstens	_	_
+6-8	669-670	\;	_	_
+6-9	671-674	ich	_	_
+6-10	675-679	habe	_	_
+6-11	680-683	ihn	_	_
+6-12	684-691	stechen	_	_
+6-13	692-698	lassen	_	_
+6-14	699-700	,	_	_
+6-15	701-705	nach	_	_
+6-16	706-713	Durands	*[5]|*[6]	OBJ[5]|PERmentioned[6]
+6-17	714-718	Vase	*[5]	OBJ[5]
+6-18	719-720	,	_	_
+6-19	721-726	werde	_	_
+6-20	727-731	aber	_	_
+6-21	732-737	nicht	_	_
+6-22	738-742	eher	_	_
+6-23	743-748	davon	_	_
+6-24	749-754	reden	_	_
+6-25	755-760	beovr	_	_
+6-26	761-764	ich	_	_
+6-27	765-768	die	_	_
+6-28	769-778	Erlaubnis	_	_
+6-29	779-782	von	_	_
+6-30	783-788	Ihnen	_	_
+6-31	789-797	erhalten	_	_
+6-32	798-799	,	_	_
+6-33	800-804	mich	_	_
+6-34	805-808	auf	_	_
+6-35	809-812	Ihr	_	_
+6-36	813-820	Journal	_	_
+6-37	821-829	beziehen	_	_
+6-38	830-832	zu	_	_
+6-39	833-839	dürfen	_	_
+6-40	840-841	.	_	_
+
+#Text=Soll ich dann dieses durch den Domen .
+7-1	842-846	Soll	_	_
+7-2	847-850	ich	_	_
+7-3	851-855	dann	_	_
+7-4	856-862	dieses	_	_
+7-5	863-868	durch	_	_
+7-6	869-872	den	_	_
+7-7	873-878	Domen	*[7]	PERmentioned[7]
+7-8	879-880	.	*[7]	PERmentioned[7]
+
+#Text=restaurieren lassen ?
+8-1	881-893	restaurieren	_	_
+8-2	894-900	lassen	_	_
+8-3	901-902	?	_	_
+
+#Text=Die Vase mit der Aethere , wel he ich in Corneto sah , habe ich ungestochen abgegeben .
+9-1	903-906	Die	_	_
+9-2	907-911	Vase	*[8]	OBJ[8]
+9-3	912-915	mit	*[8]	OBJ[8]
+9-4	916-919	der	*[8]	OBJ[8]
+9-5	920-927	Aethere	*[8]	OBJ[8]
+9-6	928-929	,	_	_
+9-7	930-933	wel	_	_
+9-8	934-936	he	_	_
+9-9	937-940	ich	_	_
+9-10	941-943	in	_	_
+9-11	944-951	Corneto	*	PLACEmentioned
+9-12	952-955	sah	_	_
+9-13	956-957	,	_	_
+9-14	958-962	habe	_	_
+9-15	963-966	ich	_	_
+9-16	967-978	ungestochen	_	_
+9-17	979-988	abgegeben	_	_
+9-18	989-990	.	_	_
+
+#Text=Ein herrliches Monument und populär-interessandt .
+10-1	991-994	Ein	_	_
+10-2	995-1005	herrliches	_	_
+10-3	1006-1014	Monument	_	_
+10-4	1015-1018	und	_	_
+10-5	1019-1039	populär-interessandt	_	_
+10-6	1040-1041	.	_	_
+
+#Text=Will sie das Institut nicht , so pubbliciere ich sie selbst .
+11-1	1042-1046	Will	_	_
+11-2	1047-1050	sie	_	_
+11-3	1051-1054	das	_	_
+11-4	1055-1063	Institut	*	ORGmentioned
+11-5	1064-1069	nicht	_	_
+11-6	1070-1071	,	_	_
+11-7	1072-1074	so	_	_
+11-8	1075-1086	pubbliciere	_	_
+11-9	1087-1090	ich	_	_
+11-10	1091-1094	sie	_	_
+11-11	1095-1101	selbst	_	_
+11-12	1102-1103	.	_	_
+
+#Text=Ich werde Ihnen darüber schreiben , wenn ich Ihnen die Proben übersende .
+12-1	1104-1107	Ich	_	_
+12-2	1108-1113	werde	_	_
+12-3	1114-1119	Ihnen	_	_
+12-4	1120-1127	darüber	_	_
+12-5	1128-1137	schreiben	_	_
+12-6	1138-1139	,	_	_
+12-7	1140-1144	wenn	_	_
+12-8	1145-1148	ich	_	_
+12-9	1149-1154	Ihnen	_	_
+12-10	1155-1158	die	_	_
+12-11	1159-1165	Proben	_	_
+12-12	1166-1175	übersende	_	_
+12-13	1176-1177	.	_	_
+
+#Text=Schließen muß ich jetzt .
+13-1	1178-1187	Schließen	_	_
+13-2	1188-1191	muß	_	_
+13-3	1192-1195	ich	_	_
+13-4	1196-1201	jetzt	_	_
+13-5	1202-1203	.	_	_
+
+#Text=Pazienza , ma il tempo materiale manca e pci ... Ihr Braun
+14-1	1204-1212	Pazienza	_	_
+14-2	1213-1214	,	_	_
+14-3	1215-1217	ma	_	_
+14-4	1218-1220	il	_	_
+14-5	1221-1226	tempo	_	_
+14-6	1227-1236	materiale	_	_
+14-7	1237-1242	manca	_	_
+14-8	1243-1244	e	_	_
+14-9	1245-1248	pci	_	_
+14-10	1249-1252	...	_	_
+14-11	1253-1256	Ihr	_	_
+14-12	1257-1262	Braun	*	PERauthor

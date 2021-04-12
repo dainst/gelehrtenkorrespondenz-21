@@ -1,0 +1,123 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N ” N N -u— Mommsen an Brunn 5. September 1845 Schindluderkönig , sit venia verbo , Ich erschrecke vor dem Wort , aber da steht es .
+1-1	0-1	N	_	_
+1-2	2-3	”	_	_
+1-3	4-5	N	_	_
+1-4	6-7	N	_	_
+1-5	8-11	-u—	_	_
+1-6	12-19	Mommsen	*	PERauthor
+1-7	20-22	an	_	_
+1-8	23-28	Brunn	*	PERaddressee
+1-9	29-31	5.	*[3]	DATEletter[3]
+1-10	32-41	September	*[3]	DATEletter[3]
+1-11	42-46	1845	*[3]	DATEletter[3]
+1-12	47-63	Schindluderkönig	_	_
+1-13	64-65	,	_	_
+1-14	66-69	sit	_	_
+1-15	70-75	venia	_	_
+1-16	76-81	verbo	_	_
+1-17	82-83	,	_	_
+1-18	84-87	Ich	_	_
+1-19	88-98	erschrecke	_	_
+1-20	99-102	vor	_	_
+1-21	103-106	dem	_	_
+1-22	107-111	Wort	_	_
+1-23	112-113	,	_	_
+1-24	114-118	aber	_	_
+1-25	119-121	da	_	_
+1-26	122-127	steht	_	_
+1-27	128-130	es	_	_
+1-28	131-132	.	_	_
+
+#Text=Lebe wohl , ich muß auf die Bibliothek und habe schon Zeit versäumt .
+2-1	133-137	Lebe	_	_
+2-2	138-142	wohl	_	_
+2-3	143-144	,	_	_
+2-4	145-148	ich	_	_
+2-5	149-152	muß	_	_
+2-6	153-156	auf	_	_
+2-7	157-160	die	_	_
+2-8	161-171	Bibliothek	*	ORGmentioned
+2-9	172-175	und	_	_
+2-10	176-180	habe	_	_
+2-11	181-186	schon	_	_
+2-12	187-191	Zeit	_	_
+2-13	192-200	versäumt	_	_
+2-14	201-202	.	_	_
+
+#Text=Grüß Henzen und gieb ihm den Brief an Jahn zum Lesen und Expedieren \; ich habe keine Zeit ihm noch zu schreiben .
+3-1	203-207	Grüß	_	_
+3-2	208-214	Henzen	*	PERmentioned
+3-3	215-218	und	_	_
+3-4	219-223	gieb	_	_
+3-5	224-227	ihm	_	_
+3-6	228-231	den	_	_
+3-7	232-237	Brief	_	_
+3-8	238-240	an	_	_
+3-9	241-245	Jahn	*	PERmentioned
+3-10	246-249	zum	_	_
+3-11	250-255	Lesen	_	_
+3-12	256-259	und	_	_
+3-13	260-270	Expedieren	_	_
+3-14	271-272	\;	_	_
+3-15	273-276	ich	_	_
+3-16	277-281	habe	_	_
+3-17	282-287	keine	_	_
+3-18	288-292	Zeit	_	_
+3-19	293-296	ihm	_	_
+3-20	297-301	noch	_	_
+3-21	302-304	zu	_	_
+3-22	305-314	schreiben	_	_
+3-23	315-316	.	_	_
+
+#Text=Schreib mir immer , wenn es auch nur ein paar Worte sind , wie diese .
+4-1	317-324	Schreib	_	_
+4-2	325-328	mir	_	_
+4-3	329-334	immer	_	_
+4-4	335-336	,	_	_
+4-5	337-341	wenn	_	_
+4-6	342-344	es	_	_
+4-7	345-349	auch	_	_
+4-8	350-353	nur	_	_
+4-9	354-357	ein	_	_
+4-10	358-362	paar	_	_
+4-11	363-368	Worte	_	_
+4-12	369-373	sind	_	_
+4-13	374-375	,	_	_
+4-14	376-379	wie	_	_
+4-15	380-385	diese	_	_
+4-16	386-387	.	_	_
+
+#Text=Vale , amico .
+5-1	388-392	Vale	_	_
+5-2	393-394	,	_	_
+5-3	395-400	amico	_	_
+5-4	401-402	.	_	_
+
+#Text=Th. M. Neapel , 5 Sept .
+6-1	403-406	Th.	*[4]	PERauthor[4]
+6-2	407-409	M.	*[4]	PERauthor[4]
+6-3	410-416	Neapel	*	PLACEfrom
+6-4	417-418	,	_	_
+6-5	419-420	5	*[5]	DATEletter[5]
+6-6	421-425	Sept	*[5]	DATEletter[5]
+6-7	426-427	.	*[5]	DATEletter[5]
+
+#Text=45 Es klitscht wie in Holstein , ich muß auf die Bibliothek fahren ,
+7-1	428-430	45	*[5]	DATEletter[5]
+7-2	431-433	Es	_	_
+7-3	434-442	klitscht	_	_
+7-4	443-446	wie	_	_
+7-5	447-449	in	_	_
+7-6	450-458	Holstein	*	PLACEmentioned
+7-7	459-460	,	_	_
+7-8	461-464	ich	_	_
+7-9	465-468	muß	_	_
+7-10	469-472	auf	_	_
+7-11	473-476	die	_	_
+7-12	477-487	Bibliothek	*	ORGmentioned
+7-13	488-494	fahren	_	_
+7-14	495-496	,	_	_

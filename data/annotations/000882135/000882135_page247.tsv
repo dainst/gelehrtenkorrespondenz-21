@@ -1,0 +1,42 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=205 Braun an Gerhard Rom , 16. Juni 1840 ich sehe daher neuer Geldnoth entgegen .
+1-1	0-3	205	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	16.	*[4]	DATEletter[4]
+1-8	31-35	Juni	*[4]	DATEletter[4]
+1-9	36-40	1840	*[4]	DATEletter[4]
+1-10	41-44	ich	_	_
+1-11	45-49	sehe	_	_
+1-12	50-55	daher	_	_
+1-13	56-61	neuer	_	_
+1-14	62-70	Geldnoth	_	_
+1-15	71-79	entgegen	_	_
+1-16	80-81	.	_	_
+
+#Text=Lassen Sie das doch gelegentlich dem leipziger Haus wissen .
+2-1	82-88	Lassen	_	_
+2-2	89-92	Sie	_	_
+2-3	93-96	das	_	_
+2-4	97-101	doch	_	_
+2-5	102-114	gelegentlich	_	_
+2-6	115-118	dem	_	_
+2-7	119-128	leipziger	*	PLACEmentioned
+2-8	129-133	Haus	_	_
+2-9	134-140	wissen	_	_
+2-10	141-142	.	_	_
+
+#Text=Ihr EBraun R . 16/6 40 .
+3-1	143-146	Ihr	_	_
+3-2	147-153	EBraun	*	PERauthor
+3-3	154-155	R	*[9]	PLACEfrom[9]
+3-4	156-157	.	*[9]	PLACEfrom[9]
+3-5	158-162	16/6	*[8]	DATEletter[8]
+3-6	163-165	40	*[8]	DATEletter[8]
+3-7	166-167	.	_	_

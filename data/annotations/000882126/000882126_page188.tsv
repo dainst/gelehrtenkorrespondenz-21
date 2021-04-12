@@ -1,0 +1,136 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 4. Juli 1837 einzelner Darstellung .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	4.	_	_
+1-7	26-30	Juli	*[3]	DATEletter[3]
+1-8	31-35	1837	*[3]	DATEletter[3]
+1-9	36-45	einzelner	_	_
+1-10	46-57	Darstellung	_	_
+1-11	58-59	.	_	_
+
+#Text=4 .
+2-1	60-61	4	_	_
+2-2	62-63	.	_	_
+
+#Text=Pelastrische Vase ( Pelika ? )
+3-1	64-76	Pelastrische	*[4]	OBJ[4]
+3-2	77-81	Vase	*[4]	OBJ[4]
+3-3	82-83	(	*[4]	OBJ[4]
+3-4	84-90	Pelika	*[4]	OBJ[4]
+3-5	91-92	?	_	_
+3-6	93-94	)	_	_
+
+#Text=mit dem Graphit ( .X . )
+4-1	95-98	mit	_	_
+4-2	99-102	dem	_	_
+4-3	103-110	Graphit	_	_
+4-4	111-112	(	_	_
+4-5	113-115	.X	_	_
+4-6	116-117	.	_	_
+4-7	118-119	)	_	_
+
+#Text=auf dem Fuß \; wichtig doch immer für den ersten Untersuchungsanknüpfungspunkt .
+5-1	120-123	auf	_	_
+5-2	124-127	dem	_	_
+5-3	128-131	Fuß	_	_
+5-4	132-133	\;	_	_
+5-5	134-141	wichtig	_	_
+5-6	142-146	doch	_	_
+5-7	147-152	immer	_	_
+5-8	153-156	für	_	_
+5-9	157-160	den	_	_
+5-10	161-167	ersten	_	_
+5-11	168-197	Untersuchungsanknüpfungspunkt	_	_
+5-12	198-199	.	_	_
+
+#Text=Mit Campanaris habe ich gesprochen und ihm ins Gewissen geredet \; es ist wenig zu machen : der Bediente ist geschickt aber ein Träumeschmied .
+6-1	200-203	Mit	_	_
+6-2	204-214	Campanaris	*	PERmentioned
+6-3	215-219	habe	_	_
+6-4	220-223	ich	_	_
+6-5	224-234	gesprochen	_	_
+6-6	235-238	und	_	_
+6-7	239-242	ihm	_	_
+6-8	243-246	ins	_	_
+6-9	247-255	Gewissen	_	_
+6-10	256-263	geredet	_	_
+6-11	264-265	\;	_	_
+6-12	266-268	es	_	_
+6-13	269-272	ist	_	_
+6-14	273-278	wenig	_	_
+6-15	279-281	zu	_	_
+6-16	282-288	machen	_	_
+6-17	289-290	:	_	_
+6-18	291-294	der	_	_
+6-19	295-303	Bediente	_	_
+6-20	304-307	ist	_	_
+6-21	308-317	geschickt	_	_
+6-22	318-322	aber	_	_
+6-23	323-326	ein	_	_
+6-24	327-340	Träumeschmied	_	_
+6-25	341-342	.	_	_
+
+#Text=Dabei scheint er sich verrechnet zu haben .
+7-1	343-348	Dabei	_	_
+7-2	349-356	scheint	_	_
+7-3	357-359	er	_	_
+7-4	360-364	sich	_	_
+7-5	365-375	verrechnet	_	_
+7-6	376-378	zu	_	_
+7-7	379-384	haben	_	_
+7-8	385-386	.	_	_
+
+#Text=Denn die Kosten wachsen ihm über den Kopf .
+8-1	387-391	Denn	_	_
+8-2	392-395	die	_	_
+8-3	396-402	Kosten	_	_
+8-4	403-410	wachsen	_	_
+8-5	411-414	ihm	_	_
+8-6	415-419	über	_	_
+8-7	420-423	den	_	_
+8-8	424-428	Kopf	_	_
+8-9	429-430	.	_	_
+
+#Text=Die Hydrophonenvase in England scheint schon von Bröndste dt beschrieben worden zu sein .
+9-1	431-434	Die	_	_
+9-2	435-450	Hydrophonenvase	*	OBJ
+9-3	451-453	in	_	_
+9-4	454-461	England	*	PLACEmentioned
+9-5	462-469	scheint	_	_
+9-6	470-475	schon	_	_
+9-7	476-479	von	_	_
+9-8	480-488	Bröndste	*[5]	PERmentioned[5]
+9-9	489-491	dt	*[5]	PERmentioned[5]
+9-10	492-503	beschrieben	_	_
+9-11	504-510	worden	_	_
+9-12	511-513	zu	_	_
+9-13	514-518	sein	_	_
+9-14	519-520	.	_	_
+
+#Text=Ich muß schließen .
+10-1	521-524	Ich	_	_
+10-2	525-528	muß	_	_
+10-3	529-538	schließen	_	_
+10-4	539-540	.	_	_
+
+#Text=Sie erhalten diesen Brief mit dem Caninavasenverzeichniß .
+11-1	541-544	Sie	_	_
+11-2	545-553	erhalten	_	_
+11-3	554-560	diesen	_	_
+11-4	561-566	Brief	_	_
+11-5	567-570	mit	_	_
+11-6	571-574	dem	_	_
+11-7	575-597	Caninavasenverzeichniß	*	MISC
+11-8	598-599	.	_	_
+
+#Text=Ihr EBraun .
+12-1	600-603	Ihr	_	_
+12-2	604-610	EBraun	*	PERauthor
+12-3	611-612	.	_	_

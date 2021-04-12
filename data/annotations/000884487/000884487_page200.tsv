@@ -1,0 +1,245 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 9. Juli 1837 Dr. Braun gs .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	9.	*[5]	DATEletter[5]
+1-7	30-34	Juli	*[5]	DATEletter[5]
+1-8	35-39	1837	*[5]	DATEletter[5]
+1-9	40-43	Dr.	_	_
+1-10	44-49	Braun	*	PERaddressee
+1-11	50-52	gs	_	_
+1-12	53-54	.	_	_
+
+#Text=12/7 37 Aff .
+2-1	55-59	12/7	*[6]	DATErecieved[6]
+2-2	60-62	37	*[6]	DATErecieved[6]
+2-3	63-66	Aff	_	_
+2-4	67-68	.	_	_
+
+#Text=d. Direz .
+3-1	69-71	d.	_	_
+3-2	72-77	Direz	_	_
+3-3	78-79	.	_	_
+
+#Text=CCXII r . 15/7 37 Ihren Entschluß mich abzuwarten lieber Freund nehme ich so dankbar an wie man eine große Aufopferung annehmen muß , und hoffe gleichzeitig daß Sie ihn nur in Folge meiner wiederholten Mahnung gefaßt haben , keinen wesentlichen Zweck dafür aufzuopfern .
+4-1	80-85	CCXII	_	_
+4-2	86-87	r	_	_
+4-3	88-89	.	_	_
+4-4	90-94	15/7	*[7]	DATEanswered[7]
+4-5	95-97	37	*[7]	DATEanswered[7]
+4-6	98-103	Ihren	_	_
+4-7	104-113	Entschluß	_	_
+4-8	114-118	mich	_	_
+4-9	119-129	abzuwarten	_	_
+4-10	130-136	lieber	_	_
+4-11	137-143	Freund	_	_
+4-12	144-149	nehme	_	_
+4-13	150-153	ich	_	_
+4-14	154-156	so	_	_
+4-15	157-164	dankbar	_	_
+4-16	165-167	an	_	_
+4-17	168-171	wie	_	_
+4-18	172-175	man	_	_
+4-19	176-180	eine	_	_
+4-20	181-186	große	_	_
+4-21	187-198	Aufopferung	_	_
+4-22	199-207	annehmen	_	_
+4-23	208-211	muß	_	_
+4-24	212-213	,	_	_
+4-25	214-217	und	_	_
+4-26	218-223	hoffe	_	_
+4-27	224-236	gleichzeitig	_	_
+4-28	237-240	daß	_	_
+4-29	241-244	Sie	_	_
+4-30	245-248	ihn	_	_
+4-31	249-252	nur	_	_
+4-32	253-255	in	_	_
+4-33	256-261	Folge	_	_
+4-34	262-268	meiner	_	_
+4-35	269-281	wiederholten	_	_
+4-36	282-289	Mahnung	_	_
+4-37	290-296	gefaßt	_	_
+4-38	297-302	haben	_	_
+4-39	303-304	,	_	_
+4-40	305-311	keinen	_	_
+4-41	312-324	wesentlichen	_	_
+4-42	325-330	Zweck	_	_
+4-43	331-336	dafür	_	_
+4-44	337-348	aufzuopfern	_	_
+4-45	349-350	.	_	_
+
+#Text=Übrigens glaube ich noch immer auf 24 Juli meine Ankunft in Rom berechnen zu können \; demnach könnten Sie den darauf folgenden Dienstag oder Sonnabend , das ist am 29.sten oder , wenn es drängt , selbst am 27 Juli nach genommener nöthiger Rücksprache abreisen \; sei es mit Dampfschiff von Civitavecchia über Genua nach Mailand oder mit dem Courier .
+5-1	351-359	Übrigens	_	_
+5-2	360-366	glaube	_	_
+5-3	367-370	ich	_	_
+5-4	371-375	noch	_	_
+5-5	376-381	immer	_	_
+5-6	382-385	auf	_	_
+5-7	386-388	24	*[8]	DATEmentioned[8]
+5-8	389-393	Juli	*[8]	DATEmentioned[8]
+5-9	394-399	meine	_	_
+5-10	400-407	Ankunft	_	_
+5-11	408-410	in	_	_
+5-12	411-414	Rom	*	PLACEmentioned
+5-13	415-424	berechnen	_	_
+5-14	425-427	zu	_	_
+5-15	428-434	können	_	_
+5-16	435-436	\;	_	_
+5-17	437-444	demnach	_	_
+5-18	445-452	könnten	_	_
+5-19	453-456	Sie	_	_
+5-20	457-460	den	_	_
+5-21	461-467	darauf	_	_
+5-22	468-477	folgenden	_	_
+5-23	478-486	Dienstag	*	DATEmentioned
+5-24	487-491	oder	_	_
+5-25	492-501	Sonnabend	*	DATEmentioned
+5-26	502-503	,	_	_
+5-27	504-507	das	_	_
+5-28	508-511	ist	_	_
+5-29	512-514	am	_	_
+5-30	515-522	29.sten	*	DATEmentioned
+5-31	523-527	oder	_	_
+5-32	528-529	,	_	_
+5-33	530-534	wenn	_	_
+5-34	535-537	es	_	_
+5-35	538-544	drängt	_	_
+5-36	545-546	,	_	_
+5-37	547-553	selbst	_	_
+5-38	554-556	am	_	_
+5-39	557-559	27	*[13]	DATEmentioned[13]
+5-40	560-564	Juli	*[13]	DATEmentioned[13]
+5-41	565-569	nach	_	_
+5-42	570-580	genommener	_	_
+5-43	581-589	nöthiger	_	_
+5-44	590-601	Rücksprache	_	_
+5-45	602-610	abreisen	_	_
+5-46	611-612	\;	_	_
+5-47	613-616	sei	_	_
+5-48	617-619	es	_	_
+5-49	620-623	mit	_	_
+5-50	624-635	Dampfschiff	_	_
+5-51	636-639	von	_	_
+5-52	640-653	Civitavecchia	*	PLACEmentioned
+5-53	654-658	über	_	_
+5-54	659-664	Genua	*	PLACEmentioned
+5-55	665-669	nach	_	_
+5-56	670-677	Mailand	*	PLACEmentioned
+5-57	678-682	oder	_	_
+5-58	683-686	mit	_	_
+5-59	687-690	dem	_	_
+5-60	691-698	Courier	_	_
+5-61	699-700	.	_	_
+
+#Text=Was Sie durch die schnellere Weise der Reise pekuniär einbüßen , schreiben Sie mir zur Last .
+6-1	701-704	Was	_	_
+6-2	705-708	Sie	_	_
+6-3	709-714	durch	_	_
+6-4	715-718	die	_	_
+6-5	719-729	schnellere	_	_
+6-6	730-735	Weise	_	_
+6-7	736-739	der	_	_
+6-8	740-745	Reise	_	_
+6-9	746-754	pekuniär	_	_
+6-10	755-763	einbüßen	_	_
+6-11	764-765	,	_	_
+6-12	766-775	schreiben	_	_
+6-13	776-779	Sie	_	_
+6-14	780-783	mir	_	_
+6-15	784-787	zur	_	_
+6-16	788-792	Last	_	_
+6-17	793-794	.	_	_
+
+#Text=Innerhalb 3 Tagen können wir glaube ich fraglich alle Rücksprache unter uns nehmen .
+7-1	795-804	Innerhalb	_	_
+7-2	805-806	3	_	_
+7-3	807-812	Tagen	_	_
+7-4	813-819	können	_	_
+7-5	820-823	wir	_	_
+7-6	824-830	glaube	_	_
+7-7	831-834	ich	_	_
+7-8	835-843	fraglich	_	_
+7-9	844-848	alle	_	_
+7-10	849-860	Rücksprache	_	_
+7-11	861-866	unter	_	_
+7-12	867-870	uns	_	_
+7-13	871-877	nehmen	_	_
+7-14	878-879	.	_	_
+
+#Text=Ich bitte Sie nur mir vorher zu besagen was ohne mich geschehen kann , namentlich auch setze ich voraus daß das akkordirte Datum mit dem Spediteur aufs Reine ist .
+8-1	880-883	Ich	_	_
+8-2	884-889	bitte	_	_
+8-3	890-893	Sie	_	_
+8-4	894-897	nur	_	_
+8-5	898-901	mir	_	_
+8-6	902-908	vorher	_	_
+8-7	909-911	zu	_	_
+8-8	912-919	besagen	_	_
+8-9	920-923	was	_	_
+8-10	924-928	ohne	_	_
+8-11	929-933	mich	_	_
+8-12	934-943	geschehen	_	_
+8-13	944-948	kann	_	_
+8-14	949-950	,	_	_
+8-15	951-961	namentlich	_	_
+8-16	962-966	auch	_	_
+8-17	967-972	setze	_	_
+8-18	973-976	ich	_	_
+8-19	977-983	voraus	_	_
+8-20	984-987	daß	_	_
+8-21	988-991	das	_	_
+8-22	992-1002	akkordirte	_	_
+8-23	1003-1008	Datum	_	_
+8-24	1009-1012	mit	_	_
+8-25	1013-1016	dem	_	_
+8-26	1017-1026	Spediteur	_	_
+8-27	1027-1031	aufs	_	_
+8-28	1032-1037	Reine	_	_
+8-29	1038-1041	ist	_	_
+8-30	1042-1043	.	_	_
+
+#Text=Irre ich nicht , so übernahm : “ Mate 7 sicher auch die Verzollung wie die Anträge der Commission .
+9-1	1044-1048	Irre	_	_
+9-2	1049-1052	ich	_	_
+9-3	1053-1058	nicht	_	_
+9-4	1059-1060	,	_	_
+9-5	1061-1063	so	_	_
+9-6	1064-1072	übernahm	_	_
+9-7	1073-1074	:	_	_
+9-8	1075-1076	“	_	_
+9-9	1077-1081	Mate	_	_
+9-10	1082-1083	7	_	_
+9-11	1084-1090	sicher	_	_
+9-12	1091-1095	auch	_	_
+9-13	1096-1099	die	_	_
+9-14	1100-1110	Verzollung	_	_
+9-15	1111-1114	wie	_	_
+9-16	1115-1118	die	_	_
+9-17	1119-1126	Anträge	_	_
+9-18	1127-1130	der	_	_
+9-19	1131-1141	Commission	*	ORGmentioned
+9-20	1142-1143	.	_	_
+
+#Text=Campanis werden Sie wol gegrüßt und versichert haben daß ich die Statue sehr eifrig betriben .
+10-1	1144-1152	Campanis	*	PERmentioned
+10-2	1153-1159	werden	_	_
+10-3	1160-1163	Sie	_	_
+10-4	1164-1167	wol	_	_
+10-5	1168-1175	gegrüßt	_	_
+10-6	1176-1179	und	_	_
+10-7	1180-1190	versichert	_	_
+10-8	1191-1196	haben	_	_
+10-9	1197-1200	daß	_	_
+10-10	1201-1204	ich	_	_
+10-11	1205-1208	die	_	_
+10-12	1209-1215	Statue	*	OBJ
+10-13	1216-1220	sehr	_	_
+10-14	1221-1227	eifrig	_	_
+10-15	1228-1236	betriben	_	_
+10-16	1237-1238	.	_	_

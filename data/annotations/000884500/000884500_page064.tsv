@@ -1,0 +1,24 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 16. März 1838 Grüßen Sie alle lieben Freunde !
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	16.	*[4]	DATEletter[4]
+1-7	30-34	März	*[4]	DATEletter[4]
+1-8	35-39	1838	*[4]	DATEletter[4]
+1-9	40-46	Grüßen	_	_
+1-10	47-50	Sie	_	_
+1-11	51-55	alle	_	_
+1-12	56-62	lieben	_	_
+1-13	63-70	Freunde	_	_
+1-14	71-72	!	_	_
+
+#Text=Herzlich Ihr Gerhard
+2-1	73-81	Herzlich	_	_
+2-2	82-85	Ihr	_	_
+2-3	86-93	Gerhard	*	PERauthor

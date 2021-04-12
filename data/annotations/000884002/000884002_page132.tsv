@@ -1,0 +1,200 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Florenz , 16 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-23	Florenz	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	16	*[7]	DATEletter[7]
+1-7	29-30	.	*[7]	DATEletter[7]
+
+#Text=Okt .
+2-1	31-34	Okt	*[7]	DATEletter[7]
+2-2	35-36	.	*[7]	DATEletter[7]
+
+#Text=1862 Ueber die Urnen Ihnen viel zu sagen , bin ich heute zu müde : überhaupt wird die ganze Sache sich mündlich besser erörtern lassen .
+3-1	37-41	1862	*[7]	DATEletter[7]
+3-2	42-47	Ueber	_	_
+3-3	48-51	die	_	_
+3-4	52-57	Urnen	*	OBJ
+3-5	58-63	Ihnen	_	_
+3-6	64-68	viel	_	_
+3-7	69-71	zu	_	_
+3-8	72-77	sagen	_	_
+3-9	78-79	,	_	_
+3-10	80-83	bin	_	_
+3-11	84-87	ich	_	_
+3-12	88-93	heute	_	_
+3-13	94-96	zu	_	_
+3-14	97-101	müde	_	_
+3-15	102-103	:	_	_
+3-16	104-113	überhaupt	_	_
+3-17	114-118	wird	_	_
+3-18	119-122	die	_	_
+3-19	123-128	ganze	_	_
+3-20	129-134	Sache	_	_
+3-21	135-139	sich	_	_
+3-22	140-148	mündlich	_	_
+3-23	149-155	besser	_	_
+3-24	156-164	erörtern	_	_
+3-25	165-171	lassen	_	_
+3-26	172-173	.	_	_
+
+#Text=Ein Paar Hundert Scudi sind noch nöthig , um alle Zeichnungen zu beschaffen : auch hier ist nach einer Recognescirung noch reichlich die Hälfte zu thun übrig .
+4-1	174-177	Ein	_	_
+4-2	178-182	Paar	_	_
+4-3	183-190	Hundert	_	_
+4-4	191-196	Scudi	_	_
+4-5	197-201	sind	_	_
+4-6	202-206	noch	_	_
+4-7	207-213	nöthig	_	_
+4-8	214-215	,	_	_
+4-9	216-218	um	_	_
+4-10	219-223	alle	_	_
+4-11	224-235	Zeichnungen	_	_
+4-12	236-238	zu	_	_
+4-13	239-249	beschaffen	_	_
+4-14	250-251	:	_	_
+4-15	252-256	auch	_	_
+4-16	257-261	hier	_	_
+4-17	262-265	ist	_	_
+4-18	266-270	nach	_	_
+4-19	271-276	einer	_	_
+4-20	277-291	Recognescirung	_	_
+4-21	292-296	noch	_	_
+4-22	297-306	reichlich	_	_
+4-23	307-310	die	_	_
+4-24	311-317	Hälfte	_	_
+4-25	318-320	zu	_	_
+4-26	321-325	thun	_	_
+4-27	326-331	übrig	_	_
+4-28	332-333	.	_	_
+
+#Text=Ueber Volterra sind wir genau orientirt , um mit ruhiger Ueberlegung zu beschließen .
+5-1	334-339	Ueber	_	_
+5-2	340-348	Volterra	*	PLACEmentioned
+5-3	349-353	sind	_	_
+5-4	354-357	wir	_	_
+5-5	358-363	genau	_	_
+5-6	364-373	orientirt	_	_
+5-7	374-375	,	_	_
+5-8	376-378	um	_	_
+5-9	379-382	mit	_	_
+5-10	383-390	ruhiger	_	_
+5-11	391-402	Ueberlegung	_	_
+5-12	403-405	zu	_	_
+5-13	406-417	beschließen	_	_
+5-14	418-419	.	_	_
+
+#Text=Im Winter läßt sich in dem dortigen Local ohnehin nicht viel machen .
+6-1	420-422	Im	_	_
+6-2	423-429	Winter	*	DATEmentioned
+6-3	430-434	läßt	_	_
+6-4	435-439	sich	_	_
+6-5	440-442	in	_	_
+6-6	443-446	dem	_	_
+6-7	447-455	dortigen	_	_
+6-8	456-461	Local	_	_
+6-9	462-469	ohnehin	_	_
+6-10	470-475	nicht	_	_
+6-11	476-480	viel	_	_
+6-12	481-487	machen	_	_
+6-13	488-489	.	_	_
+
+#Text=Ueber die weitere Reise wird Ihnen meine Frau berichten .
+7-1	490-495	Ueber	_	_
+7-2	496-499	die	_	_
+7-3	500-507	weitere	_	_
+7-4	508-513	Reise	_	_
+7-5	514-518	wird	_	_
+7-6	519-524	Ihnen	_	_
+7-7	525-530	meine	_	_
+7-8	531-535	Frau	_	_
+7-9	536-545	berichten	_	_
+7-10	546-547	.	_	_
+
+#Text=Vieusseux klagt , daß de Rossi mit der Fortsetzung des Borghesi-Necrologs so gar lange zögere .
+8-1	548-557	Vieusseux	*	PERmentioned
+8-2	558-563	klagt	_	_
+8-3	564-565	,	_	_
+8-4	566-569	daß	_	_
+8-5	570-572	de	_	_
+8-6	573-578	Rossi	*[8]	PERmentioned[8]
+8-7	579-582	mit	_	_
+8-8	583-586	der	_	_
+8-9	587-598	Fortsetzung	_	_
+8-10	599-602	des	_	_
+8-11	603-621	Borghesi-Necrologs	*	MISC
+8-12	622-624	so	_	_
+8-13	625-628	gar	_	_
+8-14	629-634	lange	_	_
+8-15	635-641	zögere	_	_
+8-16	642-643	.	_	_
+
+#Text=Donnerstag früh : eben war Cosci bei mir und um 12 soll ich die Sachen der Colombarien sehen .
+9-1	644-654	Donnerstag	*	DATEmentioned
+9-2	655-659	früh	_	_
+9-3	660-661	:	_	_
+9-4	662-666	eben	_	_
+9-5	667-670	war	_	_
+9-6	671-676	Cosci	*	PERmentioned
+9-7	677-680	bei	_	_
+9-8	681-684	mir	_	_
+9-9	685-688	und	_	_
+9-10	689-691	um	_	_
+9-11	692-694	12	_	_
+9-12	695-699	soll	_	_
+9-13	700-703	ich	_	_
+9-14	704-707	die	_	_
+9-15	708-714	Sachen	_	_
+9-16	715-718	der	_	_
+9-17	719-730	Colombarien	*	MISC
+9-18	731-736	sehen	_	_
+9-19	737-738	.	_	_
+
+#Text=Migliarini , wie immer .
+10-1	739-749	Migliarini	*	PERmentioned
+10-2	750-751	,	_	_
+10-3	752-755	wie	_	_
+10-4	756-761	immer	_	_
+10-5	762-763	.	_	_
+
+#Text=Pulcinella noch nicht gefunden .
+11-1	764-774	Pulcinella	*	PERmentioned
+11-2	775-779	noch	_	_
+11-3	780-785	nicht	_	_
+11-4	786-794	gefunden	_	_
+11-5	795-796	.	_	_
+
+#Text=Ich muß zum Frühstück .
+12-1	797-800	Ich	_	_
+12-2	801-804	muß	_	_
+12-3	805-808	zum	_	_
+12-4	809-818	Frühstück	_	_
+12-5	819-820	.	_	_
+
+#Text=Mit besten Grüßen an alle .
+13-1	821-824	Mit	_	_
+13-2	825-831	besten	_	_
+13-3	832-838	Grüßen	_	_
+13-4	839-841	an	_	_
+13-5	842-846	alle	_	_
+13-6	847-848	.	_	_
+
+#Text=Ihr HBrunn .
+14-1	849-852	Ihr	_	_
+14-2	853-859	HBrunn	*	PERauthor
+14-3	860-861	.	_	_
+
+#Text=Flor . 16 : X , © .
+15-1	862-866	Flor	*	PLACEfrom
+15-2	867-868	.	_	_
+15-3	869-871	16	*[9]	DATEletter[9]
+15-4	872-873	:	*[9]	DATEletter[9]
+15-5	874-875	X	*[9]	DATEletter[9]
+15-6	876-877	,	*[9]	DATEletter[9]
+15-7	878-879	©	_	_
+15-8	880-881	.	_	_

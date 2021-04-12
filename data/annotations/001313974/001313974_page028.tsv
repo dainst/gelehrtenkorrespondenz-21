@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=381 Helbig an Henzen Neapel , 16 .
+1-1	0-3	381	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	16	_	_
+1-8	33-34	.	*[2]	DATErecieved[2]
+
+#Text=August 1864 H g- 19/8 64 Te Napoli 16 .
+2-1	35-41	August	*[1]|*[2]	DATEletter[1]|DATErecieved[2]
+2-2	42-46	1864	*[1]|*[2]	DATEletter[1]|DATErecieved[2]
+2-3	47-48	H	_	_
+2-4	49-51	g-	_	_
+2-5	52-56	19/8	_	_
+2-6	57-59	64	_	_
+2-7	60-62	Te	_	_
+2-8	63-69	Napoli	*	PLACEfrom
+2-9	70-72	16	_	_
+2-10	73-74	.	*[3]	DATEletter[3]
+
+#Text=Aug . 1864 .
+3-1	75-78	Aug	*[3]	DATEletter[3]
+3-2	79-80	.	*[3]	DATEletter[3]
+3-3	81-85	1864	*[3]	DATEletter[3]
+3-4	86-87	.	_	_
+
+#Text=Lieber Herr Professor \| !
+4-1	88-94	Lieber	_	_
+4-2	95-99	Herr	_	_
+4-3	100-109	Professor	_	_
+4-4	110-111	\|	_	_
+4-5	112-113	!	_	_
+
+#Text=Ecco ein Artikel über einige interessante Antiquitäten , welche übrigens sämmtlich für einen Spottpreis zu verkaufen sind .
+5-1	114-118	Ecco	_	_
+5-2	119-122	ein	_	_
+5-3	123-130	Artikel	_	_
+5-4	131-135	über	_	_
+5-5	136-142	einige	_	_
+5-6	143-155	interessante	_	_
+5-7	156-168	Antiquitäten	*	MISC
+5-8	169-170	,	_	_
+5-9	171-177	welche	_	_
+5-10	178-186	übrigens	_	_
+5-11	187-196	sämmtlich	_	_
+5-12	197-200	für	_	_
+5-13	201-206	einen	_	_
+5-14	207-217	Spottpreis	_	_
+5-15	218-220	zu	_	_
+5-16	221-230	verkaufen	_	_
+5-17	231-235	sind	_	_
+5-18	236-237	.	_	_
+
+#Text=Die Statuette ist beim ersten Gebot auf 35 Piaster geschätzt worden , geht also sicher bis auf 30 herunter .
+6-1	238-241	Die	_	_
+6-2	242-251	Statuette	*	OBJ
+6-3	252-255	ist	_	_
+6-4	256-260	beim	_	_
+6-5	261-267	ersten	_	_
+6-6	268-273	Gebot	_	_
+6-7	274-277	auf	_	_
+6-8	278-280	35	_	_
+6-9	281-288	Piaster	_	_
+6-10	289-298	geschätzt	_	_
+6-11	299-305	worden	_	_
+6-12	306-307	,	_	_
+6-13	308-312	geht	_	_
+6-14	313-317	also	_	_
+6-15	318-324	sicher	_	_
+6-16	325-328	bis	_	_
+6-17	329-332	auf	_	_
+6-18	333-335	30	_	_
+6-19	336-344	herunter	_	_
+6-20	345-346	.	_	_
+
+#Text=Ich habe darüber an Gerhard und Olfers geschrieben , voraussichtlich natürlich ohne Erfolg , da die Sache Eile hat und der Besitzer bereits mit Torlonia anknüpft , welcher binnen 4 Wochen hierher kommt .
+7-1	347-350	Ich	_	_
+7-2	351-355	habe	_	_
+7-3	356-363	darüber	_	_
+7-4	364-366	an	_	_
+7-5	367-374	Gerhard	*	PERmentioned
+7-6	375-378	und	_	_
+7-7	379-385	Olfers	*	PERmentioned
+7-8	386-397	geschrieben	_	_
+7-9	398-399	,	_	_
+7-10	400-415	voraussichtlich	_	_
+7-11	416-425	natürlich	_	_
+7-12	426-430	ohne	_	_
+7-13	431-437	Erfolg	_	_
+7-14	438-439	,	_	_
+7-15	440-442	da	_	_
+7-16	443-446	die	_	_
+7-17	447-452	Sache	_	_
+7-18	453-457	Eile	_	_
+7-19	458-461	hat	_	_
+7-20	462-465	und	_	_
+7-21	466-469	der	_	_
+7-22	470-478	Besitzer	_	_
+7-23	479-486	bereits	_	_
+7-24	487-490	mit	_	_
+7-25	491-499	Torlonia	*	PERmentioned
+7-26	500-508	anknüpft	_	_
+7-27	509-510	,	_	_
+7-28	511-518	welcher	_	_
+7-29	519-525	binnen	_	_
+7-30	526-527	4	_	_
+7-31	528-534	Wochen	_	_
+7-32	535-542	hierher	_	_
+7-33	543-548	kommt	_	_
+7-34	549-550	.	_	_
+
+#Text=Die archäologischen Entdeckungen folgen Schlag auf Schlag .
+8-1	551-554	Die	_	_
+8-2	555-570	archäologischen	_	_
+8-3	571-583	Entdeckungen	_	_
+8-4	584-590	folgen	_	_
+8-5	591-597	Schlag	_	_
+8-6	598-601	auf	_	_
+8-7	602-608	Schlag	_	_
+8-8	609-610	.	_	_
+
+#Text=In Paestum sind zwei prachtvolle Kolossalstatuen des Germanicus und der älteren Antonia gefunden worden , welche ich hier bei dem Restaurateur gesehen und notirt habe .
+9-1	611-613	In	_	_
+9-2	614-621	Paestum	*	PLACEmentioned
+9-3	622-626	sind	_	_
+9-4	627-631	zwei	_	_
+9-5	632-643	prachtvolle	_	_
+9-6	644-659	Kolossalstatuen	*	OBJ
+9-7	660-663	des	_	_
+9-8	664-674	Germanicus	*	PERmentioned
+9-9	675-678	und	_	_
+9-10	679-682	der	_	_
+9-11	683-690	älteren	_	_
+9-12	691-698	Antonia	*	PERmentioned
+9-13	699-707	gefunden	_	_
+9-14	708-714	worden	_	_
+9-15	715-716	,	_	_
+9-16	717-723	welche	_	_
+9-17	724-727	ich	_	_
+9-18	728-732	hier	_	_
+9-19	733-736	bei	_	_
+9-20	737-740	dem	_	_
+9-21	741-753	Restaurateur	_	_
+9-22	754-761	gesehen	_	_
+9-23	762-765	und	_	_
+9-24	766-772	notirt	_	_
+9-25	773-777	habe	_	_
+9-26	778-779	.	_	_
+
+#Text=Doch kann ich Ihnen meinen Artikel darüber erst schicken , wenn ich in Paestum gewesen bin , da sich daselbst noch zwei Pendants zu denselben befinden sollen , welche von einem anderen Speculanten in unmittelbarer Nähe jener beiden gefunden wären .
+10-1	780-784	Doch	_	_
+10-2	785-789	kann	_	_
+10-3	790-793	ich	_	_
+10-4	794-799	Ihnen	_	_
+10-5	800-806	meinen	_	_
+10-6	807-814	Artikel	_	_
+10-7	815-822	darüber	_	_
+10-8	823-827	erst	_	_
+10-9	828-836	schicken	_	_
+10-10	837-838	,	_	_
+10-11	839-843	wenn	_	_
+10-12	844-847	ich	_	_
+10-13	848-850	in	_	_
+10-14	851-858	Paestum	_	_
+10-15	859-866	gewesen	_	_
+10-16	867-870	bin	_	_
+10-17	871-872	,	_	_
+10-18	873-875	da	_	_
+10-19	876-880	sich	_	_
+10-20	881-889	daselbst	_	_
+10-21	890-894	noch	_	_
+10-22	895-899	zwei	_	_
+10-23	900-908	Pendants	_	_
+10-24	909-911	zu	_	_
+10-25	912-921	denselben	_	_
+10-26	922-930	befinden	_	_
+10-27	931-937	sollen	_	_
+10-28	938-939	,	_	_
+10-29	940-946	welche	_	_
+10-30	947-950	von	_	_
+10-31	951-956	einem	_	_
+10-32	957-964	anderen	_	_
+10-33	965-976	Speculanten	_	_
+10-34	977-979	in	_	_
+10-35	980-993	unmittelbarer	_	_
+10-36	994-998	Nähe	_	_
+10-37	999-1004	jener	_	_
+10-38	1005-1011	beiden	_	_
+10-39	1012-1020	gefunden	_	_
+10-40	1021-1026	wären	_	_
+10-41	1027-1028	.	_	_
+
+#Text=In Calvi : Kolossalstatue des L. Verus und , um mit Gerhardscher Prägnanz zu schreiben , anziehendes Votivrelief an Mercur wegen Kin-
+11-1	1029-1031	In	_	_
+11-2	1032-1037	Calvi	*	PLACEmentioned
+11-3	1038-1039	:	_	_
+11-4	1040-1054	Kolossalstatue	*	OBJ
+11-5	1055-1058	des	_	_
+11-6	1059-1061	L.	*[4]	PERmentioned[4]
+11-7	1062-1067	Verus	*[4]	PERmentioned[4]
+11-8	1068-1071	und	_	_
+11-9	1072-1073	,	_	_
+11-10	1074-1076	um	_	_
+11-11	1077-1080	mit	_	_
+11-12	1081-1093	Gerhardscher	_	_
+11-13	1094-1102	Prägnanz	_	_
+11-14	1103-1105	zu	_	_
+11-15	1106-1115	schreiben	_	_
+11-16	1116-1117	,	_	_
+11-17	1118-1129	anziehendes	_	_
+11-18	1130-1141	Votivrelief	*	OBJ
+11-19	1142-1144	an	_	_
+11-20	1145-1151	Mercur	*	PERmentioned
+11-21	1152-1157	wegen	_	_
+11-22	1158-1162	Kin-	_	_

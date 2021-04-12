@@ -1,0 +1,281 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin 6/11/1847 A. di Direz .
+1-1	0-7	Gerhard	*	PERauthor	
+1-2	8-10	an	_	_	
+1-3	11-17	Henzen	*	PERaddressee	
+1-4	18-24	Berlin	*	PLACEfrom	
+1-5	25-34	6/11/1847	*	DATEletter	
+1-6	35-37	A.	_	_	
+1-7	38-40	di	_	_	
+1-8	41-46	Direz	_	_	
+1-9	47-48	.	_	_	
+
+#Text=g . 18/II 47 r . 20/II 47 Berlin 6 Febr .
+2-1	49-50	g	_	_	
+2-2	51-52	.	_	_	
+2-3	53-58	18/II	*[1]	DATErecieved[1]	
+2-4	59-61	47	*[1]	DATErecieved[1]	
+2-5	62-63	r	_	_	
+2-6	64-65	.	_	_	
+2-7	66-71	20/II	*[2]	DATEanswered[2]	
+2-8	72-74	47	*[2]	DATEanswered[2]	
+2-9	75-81	Berlin	*	PLACEfrom	
+2-10	82-83	6	*[3]	DATEletter[3]	
+2-11	84-88	Febr	*[3]	DATEletter[3]	
+2-12	89-90	.	*[3]	DATEletter[3]	
+
+#Text=47. serseeeneeece .. für Ihre Mittheilungen über den Stand des Pariser Inschriftunternehmens ; ich werde „ .uoernnonenese Discretion und bester Einsicht davon Gebrauch machen .
+3-1	91-94	47.	*[3]	DATEletter[3]	
+3-2	95-108	serseeeneeece	_	_	
+3-3	109-111	..	_	_	
+3-4	112-115	für	_	_	
+3-5	116-120	Ihre	_	_	
+3-6	121-134	Mittheilungen	_	_	
+3-7	135-139	über	_	_	
+3-8	140-143	den	_	_	
+3-9	144-149	Stand	_	_	
+3-10	150-153	des	_	_	
+3-11	154-161	Pariser	_	_	
+3-12	162-183	Inschriftunternehmens	_	_	
+3-13	184-185	;	_	_	
+3-14	186-189	ich	_	_	
+3-15	190-195	werde	_	_	
+3-16	196-197	„	_	_	
+3-17	198-212	.uoernnonenese	_	_	
+3-18	213-223	Discretion	_	_	
+3-19	224-227	und	_	_	
+3-20	228-234	bester	_	_	
+3-21	235-243	Einsicht	_	_	
+3-22	244-249	davon	_	_	
+3-23	250-258	Gebrauch	_	_	
+3-24	259-265	machen	_	_	
+3-25	266-267	.	_	_	
+
+#Text=seoreruene .
+4-1	268-278	seoreruene	_	_	
+4-2	279-280	.	_	_	
+
+#Text=8 epigr .
+5-1	281-282	8	_	_	
+5-2	283-288	epigr	_	_	
+5-3	289-290	.	_	_	
+
+#Text=Aufsatz ist gesetzt und wird noch vor der bevorstehenden Sitzung der epigraphischen Commission .orernc1 .. ell sein ; ich habe in Drucksorte und Correctur ihn möglichst correct und eindrücklich Hana ZU neo .
+6-1	291-298	Aufsatz	_	_	
+6-2	299-302	ist	_	_	
+6-3	303-310	gesetzt	_	_	
+6-4	311-314	und	_	_	
+6-5	315-319	wird	_	_	
+6-6	320-324	noch	_	_	
+6-7	325-328	vor	_	_	
+6-8	329-332	der	_	_	
+6-9	333-347	bevorstehenden	_	_	
+6-10	348-355	Sitzung	_	_	
+6-11	356-359	der	_	_	
+6-12	360-374	epigraphischen	_	_	
+6-13	375-385	Commission	_	_	
+6-14	386-394	.orernc1	_	_	
+6-15	395-397	..	_	_	
+6-16	398-401	ell	_	_	
+6-17	402-406	sein	_	_	
+6-18	407-408	;	_	_	
+6-19	409-412	ich	_	_	
+6-20	413-417	habe	_	_	
+6-21	418-420	in	_	_	
+6-22	421-431	Drucksorte	_	_	
+6-23	432-435	und	_	_	
+6-24	436-445	Correctur	_	_	
+6-25	446-449	ihn	_	_	
+6-26	450-459	möglichst	_	_	
+6-27	460-467	correct	_	_	
+6-28	468-471	und	_	_	
+6-29	472-484	eindrücklich	_	_	
+6-30	485-489	Hana	_	_	
+6-31	490-492	ZU	_	_	
+6-32	493-496	neo	_	_	
+6-33	497-498	.	_	_	
+
+#Text=oe ... en gesucht , obwohl Parthey der Sitzung.etwäs , än & stlich ökonomisch und darum eben nicht elegent „ ..... gerichtet hat .
+7-1	499-501	oe	_	_	
+7-2	502-505	...	_	_	
+7-3	506-508	en	_	_	
+7-4	509-516	gesucht	_	_	
+7-5	517-518	,	_	_	
+7-6	519-525	obwohl	_	_	
+7-7	526-533	Parthey	*	PERmentioned	
+7-8	534-537	der	_	_	
+7-9	538-551	Sitzung.etwäs	_	_	
+7-10	552-553	,	_	_	
+7-11	554-556	än	_	_	
+7-12	557-558	&	_	_	
+7-13	559-565	stlich	_	_	
+7-14	566-576	ökonomisch	_	_	
+7-15	577-580	und	_	_	
+7-16	581-586	darum	_	_	
+7-17	587-591	eben	_	_	
+7-18	592-597	nicht	_	_	
+7-19	598-605	elegent	_	_	
+7-20	606-607	„	_	_	
+7-21	608-613	.....	_	_	
+7-22	614-623	gerichtet	_	_	
+7-23	624-627	hat	_	_	
+7-24	628-629	.	_	_	
+
+#Text=Der Aufsatz ist mir übrigens sehr zu Dank und hoffe ich er werde sumun guten Erfolgs nicht verfehlen , wie ich auch selbst schon vor einigen Tagen an wo st schrieb .
+8-1	630-633	Der	_	_	
+8-2	634-641	Aufsatz	_	_	
+8-3	642-645	ist	_	_	
+8-4	646-649	mir	_	_	
+8-5	650-658	übrigens	_	_	
+8-6	659-663	sehr	_	_	
+8-7	664-666	zu	_	_	
+8-8	667-671	Dank	_	_	
+8-9	672-675	und	_	_	
+8-10	676-681	hoffe	_	_	
+8-11	682-685	ich	_	_	
+8-12	686-688	er	_	_	
+8-13	689-694	werde	_	_	
+8-14	695-700	sumun	_	_	
+8-15	701-706	guten	_	_	
+8-16	707-714	Erfolgs	_	_	
+8-17	715-720	nicht	_	_	
+8-18	721-730	verfehlen	_	_	
+8-19	731-732	,	_	_	
+8-20	733-736	wie	_	_	
+8-21	737-740	ich	_	_	
+8-22	741-745	auch	_	_	
+8-23	746-752	selbst	_	_	
+8-24	753-758	schon	_	_	
+8-25	759-762	vor	_	_	
+8-26	763-770	einigen	_	_	
+8-27	771-776	Tagen	_	_	
+8-28	777-779	an	_	_	
+8-29	780-782	wo	_	_	
+8-30	783-785	st	_	_	
+8-31	786-793	schrieb	_	_	
+8-32	794-795	.	_	_	
+
+#Text=Fben stellt mir auch Sadeieny dessen an ihn gerichteten Brief samt der Quittung zu .
+9-1	796-800	Fben	_	_	
+9-2	801-807	stellt	_	_	
+9-3	808-811	mir	_	_	
+9-4	812-816	auch	_	_	
+9-5	817-825	Sadeieny	*	PERmentioned	
+9-6	826-832	dessen	_	_	
+9-7	833-835	an	_	_	
+9-8	836-839	ihn	_	_	
+9-9	840-851	gerichteten	_	_	
+9-10	852-857	Brief	_	_	
+9-11	858-862	samt	_	_	
+9-12	863-866	der	_	_	
+9-13	867-875	Quittung	_	_	
+9-14	876-878	zu	_	_	
+9-15	879-880	.	_	_	
+
+#Text=Der Gedanke die eammtipkum Inschriften alsTurdnomus eines C.I .
+10-1	881-884	Der	_	_	
+10-2	885-892	Gedanke	_	_	
+10-3	893-896	die	_	_	
+10-4	897-907	eammtipkum	_	_	
+10-5	908-919	Inschriften	*	OBJ	
+10-6	920-932	alsTurdnomus	_	_	
+10-7	933-938	eines	_	_	
+10-8	939-942	C.I	_	_	
+10-9	943-944	.	_	_	
+
+#Text=bald he- bald raus zu aan scheint mir sehr gut , und da m ch selbst in Deutschland sein will , so wird er sich ja wol leicht av un lassen .
+11-1	945-949	bald	_	_	
+11-2	950-953	he-	_	_	
+11-3	954-958	bald	_	_	
+11-4	959-963	raus	_	_	
+11-5	964-966	zu	_	_	
+11-6	967-970	aan	_	_	
+11-7	971-978	scheint	_	_	
+11-8	979-982	mir	_	_	
+11-9	983-987	sehr	_	_	
+11-10	988-991	gut	_	_	
+11-11	992-993	,	_	_	
+11-12	994-997	und	_	_	
+11-13	998-1000	da	_	_	
+11-14	1001-1002	m	_	_	
+11-15	1003-1005	ch	_	_	
+11-16	1006-1012	selbst	_	_	
+11-17	1013-1015	in	_	_	
+11-18	1016-1027	Deutschland	*	PLACEmentioned	
+11-19	1028-1032	sein	_	_	
+11-20	1033-1037	will	_	_	
+11-21	1038-1039	,	_	_	
+11-22	1040-1042	so	_	_	
+11-23	1043-1047	wird	_	_	
+11-24	1048-1050	er	_	_	
+11-25	1051-1055	sich	_	_	
+11-26	1056-1058	ja	_	_	
+11-27	1059-1062	wol	_	_	
+11-28	1063-1069	leicht	_	_	
+11-29	1070-1072	av	_	_	
+11-30	1073-1075	un	_	_	
+11-31	1076-1082	lassen	_	_	
+11-32	1083-1084	.	_	_	
+
+#Text=Berathen Sie übrigens ehe er weg geht doch auch mit ihm ob der Gedanke Borghesis prnscula zus .
+12-1	1085-1093	Berathen	_	_	
+12-2	1094-1097	Sie	_	_	
+12-3	1098-1106	übrigens	_	_	
+12-4	1107-1110	ehe	_	_	
+12-5	1111-1113	er	_	_	
+12-6	1114-1117	weg	_	_	
+12-7	1118-1122	geht	_	_	
+12-8	1123-1127	doch	_	_	
+12-9	1128-1132	auch	_	_	
+12-10	1133-1136	mit	_	_	
+12-11	1137-1140	ihm	_	_	
+12-12	1141-1143	ob	_	_	
+12-13	1144-1147	der	_	_	
+12-14	1148-1155	Gedanke	_	_	
+12-15	1156-1165	Borghesis	*	PERmentioned	
+12-16	1166-1174	prnscula	_	_	
+12-17	1175-1178	zus	_	_	
+12-18	1179-1180	.	_	_	
+
+#Text=zustellen dadurch ganz fallen soll , daß B eine Verantwortung und keine andre Arbeit dafür Limpetzem will .
+13-1	1181-1190	zustellen	_	_	
+13-2	1191-1198	dadurch	_	_	
+13-3	1199-1203	ganz	_	_	
+13-4	1204-1210	fallen	_	_	
+13-5	1211-1215	soll	_	_	
+13-6	1216-1217	,	_	_	
+13-7	1218-1221	daß	_	_	
+13-8	1222-1223	B	_	_	
+13-9	1224-1228	eine	_	_	
+13-10	1229-1242	Verantwortung	_	_	
+13-11	1243-1246	und	_	_	
+13-12	1247-1252	keine	_	_	
+13-13	1253-1258	andre	_	_	
+13-14	1259-1265	Arbeit	_	_	
+13-15	1266-1271	dafür	_	_	
+13-16	1272-1281	Limpetzem	_	_	
+13-17	1282-1286	will	_	_	
+13-18	1287-1288	.	_	_	
+
+#Text=Mit DeWitte und Braun gutes Vernehmen zu stiften gebe ich auf und habe daher beiden meinen Wunsch ausge-
+14-1	1289-1292	Mit	_	_	
+14-2	1293-1300	DeWitte	*	PERmentioned	
+14-3	1301-1304	und	_	_	
+14-4	1305-1310	Braun	*	PERmentioned	
+14-5	1311-1316	gutes	_	_	
+14-6	1317-1326	Vernehmen	_	_	
+14-7	1327-1329	zu	_	_	
+14-8	1330-1337	stiften	_	_	
+14-9	1338-1342	gebe	_	_	
+14-10	1343-1346	ich	_	_	
+14-11	1347-1350	auf	_	_	
+14-12	1351-1354	und	_	_	
+14-13	1355-1359	habe	_	_	
+14-14	1360-1365	daher	_	_	
+14-15	1366-1372	beiden	_	_	
+14-16	1373-1379	meinen	_	_	
+14-17	1380-1386	Wunsch	_	_	
+14-18	1387-1393	ausge-	_	_	

@@ -1,0 +1,196 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 25. Juni 1846 g . 6/VII 46 r . 7/VII 46 Dr. Braun Berlin 25/6 46 Vielen Dank lieber Freund für Ihre freundlichen Zeilen vom 13 „ noch ohne Kunde vom neuen Papst der uns seit gestern Abend aus telegraphischer Quelle über Marseille und Koblenz versichert wird .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	25.	_	_
+1-7	30-34	Juni	*[2]	DATEletter[2]
+1-8	35-39	1846	*[2]	DATEletter[2]
+1-9	40-41	g	_	_
+1-10	42-43	.	_	_
+1-11	44-49	6/VII	*[3]	DATErecieved[3]
+1-12	50-52	46	*[3]	DATErecieved[3]
+1-13	53-54	r	_	_
+1-14	55-56	.	_	_
+1-15	57-62	7/VII	*[4]	DATEanswered[4]
+1-16	63-65	46	*[4]	DATEanswered[4]
+1-17	66-69	Dr.	*[1]	PERaddressee[1]
+1-18	70-75	Braun	*[1]	PERaddressee[1]
+1-19	76-82	Berlin	*	PLACEfrom
+1-20	83-87	25/6	*[5]	DATEletter[5]
+1-21	88-90	46	*[5]	DATEletter[5]
+1-22	91-97	Vielen	_	_
+1-23	98-102	Dank	_	_
+1-24	103-109	lieber	_	_
+1-25	110-116	Freund	_	_
+1-26	117-120	für	_	_
+1-27	121-125	Ihre	_	_
+1-28	126-138	freundlichen	_	_
+1-29	139-145	Zeilen	_	_
+1-30	146-149	vom	_	_
+1-31	150-152	13	*	DATEmentioned
+1-32	153-154	„	_	_
+1-33	155-159	noch	_	_
+1-34	160-164	ohne	_	_
+1-35	165-170	Kunde	_	_
+1-36	171-174	vom	_	_
+1-37	175-180	neuen	_	_
+1-38	181-186	Papst	*	PERmentioned
+1-39	187-190	der	_	_
+1-40	191-194	uns	_	_
+1-41	195-199	seit	_	_
+1-42	200-207	gestern	_	_
+1-43	208-213	Abend	_	_
+1-44	214-217	aus	_	_
+1-45	218-233	telegraphischer	_	_
+1-46	234-240	Quelle	_	_
+1-47	241-245	über	_	_
+1-48	246-255	Marseille	*	PLACEmentioned
+1-49	256-259	und	_	_
+1-50	260-267	Koblenz	*	PLACEmentioned
+1-51	268-278	versichert	_	_
+1-52	279-283	wird	_	_
+1-53	284-285	.	_	_
+
+#Text=Sie haben mir also auch in neuesten Ausfuhrnöthen mit gewohnter einsichtiger Freundschaft beigestanden .
+2-1	286-289	Sie	_	_
+2-2	290-295	haben	_	_
+2-3	296-299	mir	_	_
+2-4	300-304	also	_	_
+2-5	305-309	auch	_	_
+2-6	310-312	in	_	_
+2-7	313-321	neuesten	_	_
+2-8	322-335	Ausfuhrnöthen	_	_
+2-9	336-339	mit	_	_
+2-10	340-349	gewohnter	_	_
+2-11	350-362	einsichtiger	_	_
+2-12	363-375	Freundschaft	_	_
+2-13	376-388	beigestanden	_	_
+2-14	389-390	.	_	_
+
+#Text=Tausend Dank !
+3-1	391-398	Tausend	_	_
+3-2	399-403	Dank	_	_
+3-3	404-405	!	_	_
+
+#Text=Abgegangen scheinen die Kisten noch nicht zu sein ? ?
+4-1	406-416	Abgegangen	_	_
+4-2	417-425	scheinen	_	_
+4-3	426-429	die	_	_
+4-4	430-436	Kisten	_	_
+4-5	437-441	noch	_	_
+4-6	442-447	nicht	_	_
+4-7	448-450	zu	_	_
+4-8	451-455	sein	_	_
+4-9	456-457	?	_	_
+4-10	458-459	?	_	_
+
+#Text=Das Mosaik sollte aber doch keine neuen Nöthen machen , nach allen früheren Klauseln \| !
+5-1	460-463	Das	_	_
+5-2	464-470	Mosaik	*	OBJ
+5-3	471-477	sollte	_	_
+5-4	478-482	aber	_	_
+5-5	483-487	doch	_	_
+5-6	488-493	keine	_	_
+5-7	494-499	neuen	_	_
+5-8	500-506	Nöthen	_	_
+5-9	507-513	machen	_	_
+5-10	514-515	,	_	_
+5-11	516-520	nach	_	_
+5-12	521-526	allen	_	_
+5-13	527-535	früheren	_	_
+5-14	536-544	Klauseln	_	_
+5-15	545-546	\|	_	_
+5-16	547-548	!	_	_
+
+#Text=Dank auch für die Lajard'schen Zeichnungen \; dabei hatte ich nun gar keine Schwierigkeit vorausgesetzt .
+6-1	549-553	Dank	_	_
+6-2	554-558	auch	_	_
+6-3	559-562	für	_	_
+6-4	563-566	die	_	_
+6-5	567-579	Lajard'schen	*	PERmentioned
+6-6	580-591	Zeichnungen	_	_
+6-7	592-593	\;	_	_
+6-8	594-599	dabei	_	_
+6-9	600-605	hatte	_	_
+6-10	606-609	ich	_	_
+6-11	610-613	nun	_	_
+6-12	614-617	gar	_	_
+6-13	618-623	keine	_	_
+6-14	624-637	Schwierigkeit	_	_
+6-15	638-651	vorausgesetzt	_	_
+6-16	652-653	.	_	_
+
+#Text=Alles anders als vormals .
+7-1	654-659	Alles	_	_
+7-2	660-666	anders	_	_
+7-3	667-670	als	_	_
+7-4	671-678	vormals	_	_
+7-5	679-680	.	_	_
+
+#Text=Wo vormals panathenäische Vasen zu stehn pikreoenoch .
+8-1	681-683	Wo	_	_
+8-2	684-691	vormals	_	_
+8-3	692-706	panathenäische	*[6]	OBJ[6]
+8-4	707-712	Vasen	*[6]	OBJ[6]
+8-5	713-715	zu	_	_
+8-6	716-721	stehn	_	_
+8-7	722-733	pikreoenoch	_	_
+8-8	734-735	.	_	_
+
+#Text=ten , etwa hatte Baseggio anath .
+9-1	736-739	ten	_	_
+9-2	740-741	,	_	_
+9-3	742-746	etwa	_	_
+9-4	747-752	hatte	_	_
+9-5	753-761	Baseggio	*	PERmentioned
+9-6	762-767	anath	_	_
+9-7	768-769	.	_	_
+
+#Text=er die besagte Oenochoe , mit derber Schnauze seformt als gewöhnlich , der Thon besonders leicht , die Figuren blaß röthlich .
+10-1	770-772	er	_	_
+10-2	773-776	die	_	_
+10-3	777-784	besagte	_	_
+10-4	785-793	Oenochoe	*	OBJ
+10-5	794-795	,	_	_
+10-6	796-799	mit	_	_
+10-7	800-806	derber	_	_
+10-8	807-815	Schnauze	_	_
+10-9	816-823	seformt	_	_
+10-10	824-827	als	_	_
+10-11	828-838	gewöhnlich	_	_
+10-12	839-840	,	_	_
+10-13	841-844	der	_	_
+10-14	845-849	Thon	_	_
+10-15	850-859	besonders	_	_
+10-16	860-866	leicht	_	_
+10-17	867-868	,	_	_
+10-18	869-872	die	_	_
+10-19	873-880	Figuren	_	_
+10-20	881-885	blaß	_	_
+10-21	886-894	röthlich	_	_
+10-22	895-896	.	_	_
+
+#Text=Dem Vernehmen nach wird Maßmann als Ordinar mit 2000 rt bei der Universität angestellt , Vielen mißfäl-
+11-1	897-900	Dem	_	_
+11-2	901-910	Vernehmen	_	_
+11-3	911-915	nach	_	_
+11-4	916-920	wird	_	_
+11-5	921-928	Maßmann	*	PERmentioned
+11-6	929-932	als	_	_
+11-7	933-940	Ordinar	_	_
+11-8	941-944	mit	_	_
+11-9	945-949	2000	_	_
+11-10	950-952	rt	_	_
+11-11	953-956	bei	_	_
+11-12	957-960	der	_	_
+11-13	961-972	Universität	*	ORGmentioned
+11-14	973-983	angestellt	_	_
+11-15	984-985	,	_	_
+11-16	986-992	Vielen	_	_
+11-17	993-1000	mißfäl-	_	_

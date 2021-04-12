@@ -1,0 +1,226 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Rom , 10 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-26	10	*[5]	DATEletter[5]
+1-7	27-28	.	*[5]	DATEletter[5]
+
+#Text=Jamuar 1833 An Gerhard Rom 10 Jan 1833 .
+2-1	29-35	Jamuar	*[5]	DATEletter[5]
+2-2	36-40	1833	*[5]	DATEletter[5]
+2-3	41-43	An	_	_
+2-4	44-51	Gerhard	*	PERaddressee
+2-5	52-55	Rom	*	PLACEfrom
+2-6	56-58	10	*[7]	DATEletter[7]
+2-7	59-62	Jan	*[7]	DATEletter[7]
+2-8	63-67	1833	*[7]	DATEletter[7]
+2-9	68-69	.	_	_
+
+#Text=Ebdlich , mein theurer Freund , kann ich vor Ihnen mit gutem Gewissen erscheinen .
+3-1	70-77	Ebdlich	_	_
+3-2	78-79	,	_	_
+3-3	80-84	mein	_	_
+3-4	85-92	theurer	_	_
+3-5	93-99	Freund	_	_
+3-6	100-101	,	_	_
+3-7	102-106	kann	_	_
+3-8	107-110	ich	_	_
+3-9	111-114	vor	_	_
+3-10	115-120	Ihnen	_	_
+3-11	121-124	mit	_	_
+3-12	125-130	gutem	_	_
+3-13	131-139	Gewissen	_	_
+3-14	140-150	erscheinen	_	_
+3-15	151-152	.	_	_
+
+#Text=Die heutige Post bringt dem Herrn Altenstein einen motivirten Antrag und Bitte auf Subscription für 20 Exemplare , und , im Einschluß dem Herrn Geheimrath Schulze ( keine Antwort , denn sein Brief war eine Antwort auf meinen vom December 1829 ) eine wiederholte Bitte um seine wohlwollende Theilnahme .
+4-1	153-156	Die	_	_
+4-2	157-164	heutige	_	_
+4-3	165-169	Post	_	_
+4-4	170-176	bringt	_	_
+4-5	177-180	dem	_	_
+4-6	181-186	Herrn	_	_
+4-7	187-197	Altenstein	*	PERmentioned
+4-8	198-203	einen	_	_
+4-9	204-214	motivirten	_	_
+4-10	215-221	Antrag	_	_
+4-11	222-225	und	_	_
+4-12	226-231	Bitte	_	_
+4-13	232-235	auf	_	_
+4-14	236-248	Subscription	_	_
+4-15	249-252	für	_	_
+4-16	253-255	20	_	_
+4-17	256-265	Exemplare	_	_
+4-18	266-267	,	_	_
+4-19	268-271	und	_	_
+4-20	272-273	,	_	_
+4-21	274-276	im	_	_
+4-22	277-286	Einschluß	_	_
+4-23	287-290	dem	_	_
+4-24	291-296	Herrn	_	_
+4-25	297-307	Geheimrath	*[9]	PERmentioned[9]
+4-26	308-315	Schulze	*[9]	PERmentioned[9]
+4-27	316-317	(	_	_
+4-28	318-323	keine	_	_
+4-29	324-331	Antwort	_	_
+4-30	332-333	,	_	_
+4-31	334-338	denn	_	_
+4-32	339-343	sein	_	_
+4-33	344-349	Brief	_	_
+4-34	350-353	war	_	_
+4-35	354-358	eine	_	_
+4-36	359-366	Antwort	_	_
+4-37	367-370	auf	_	_
+4-38	371-377	meinen	_	_
+4-39	378-381	vom	_	_
+4-40	382-390	December	*[10]	DATEmentioned[10]
+4-41	391-395	1829	*[10]	DATEmentioned[10]
+4-42	396-397	)	_	_
+4-43	398-402	eine	_	_
+4-44	403-414	wiederholte	_	_
+4-45	415-420	Bitte	_	_
+4-46	421-423	um	_	_
+4-47	424-429	seine	_	_
+4-48	430-442	wohlwollende	_	_
+4-49	443-453	Theilnahme	_	_
+4-50	454-455	.	_	_
+
+#Text=Ich habe dem Minister auch gesagt , daß unser Streben dahin gehen muß , die Unternehmung durch solche stehende , sichere Subschtionen zu suchen , und daß dies Beispiel für Deutschland entscheidend sein wird .
+5-1	456-459	Ich	_	_
+5-2	460-464	habe	_	_
+5-3	465-468	dem	_	_
+5-4	469-477	Minister	*	PERmentioned
+5-5	478-482	auch	_	_
+5-6	483-489	gesagt	_	_
+5-7	490-491	,	_	_
+5-8	492-495	daß	_	_
+5-9	496-501	unser	_	_
+5-10	502-509	Streben	_	_
+5-11	510-515	dahin	_	_
+5-12	516-521	gehen	_	_
+5-13	522-525	muß	_	_
+5-14	526-527	,	_	_
+5-15	528-531	die	_	_
+5-16	532-544	Unternehmung	_	_
+5-17	545-550	durch	_	_
+5-18	551-557	solche	_	_
+5-19	558-566	stehende	_	_
+5-20	567-568	,	_	_
+5-21	569-576	sichere	_	_
+5-22	577-589	Subschtionen	_	_
+5-23	590-592	zu	_	_
+5-24	593-599	suchen	_	_
+5-25	600-601	,	_	_
+5-26	602-605	und	_	_
+5-27	606-609	daß	_	_
+5-28	610-614	dies	_	_
+5-29	615-623	Beispiel	_	_
+5-30	624-627	für	_	_
+5-31	628-639	Deutschland	*	PLACEmentioned
+5-32	640-652	entscheidend	_	_
+5-33	653-657	sein	_	_
+5-34	658-662	wird	_	_
+5-35	663-664	.	_	_
+
+#Text=An Nagler soll übermorgen ein neues Petitum abgehen .
+6-1	665-667	An	_	_
+6-2	668-674	Nagler	*	PERmentioned
+6-3	675-679	soll	_	_
+6-4	680-690	übermorgen	_	_
+6-5	691-694	ein	_	_
+6-6	695-700	neues	_	_
+6-7	701-708	Petitum	_	_
+6-8	709-716	abgehen	_	_
+6-9	717-718	.	_	_
+
+#Text=Der Wechsel ist angekommen und zum Credit geschrieben .
+7-1	719-722	Der	_	_
+7-2	723-730	Wechsel	_	_
+7-3	731-734	ist	_	_
+7-4	735-745	angekommen	_	_
+7-5	746-749	und	_	_
+7-6	750-753	zum	_	_
+7-7	754-760	Credit	_	_
+7-8	761-772	geschrieben	_	_
+7-9	773-774	.	_	_
+
+#Text=Kestner ist sehr empfindlich .
+8-1	775-782	Kestner	*	PERmentioned
+8-2	783-786	ist	_	_
+8-3	787-791	sehr	_	_
+8-4	792-803	empfindlich	_	_
+8-5	804-805	.	_	_
+
+#Text=Das Betragen Capob ( ianchis ) und die Säumnis Bellottis ( der in 8 Tagen das Einkassierte zu schicken verspricht ) hat allerdings viel Schuld .
+9-1	806-809	Das	_	_
+9-2	810-818	Betragen	_	_
+9-3	819-824	Capob	*[15]	PERmentioned[15]
+9-4	825-826	(	*[15]	PERmentioned[15]
+9-5	827-834	ianchis	*[15]	PERmentioned[15]
+9-6	835-836	)	*[15]	PERmentioned[15]
+9-7	837-840	und	_	_
+9-8	841-844	die	_	_
+9-9	845-852	Säumnis	_	_
+9-10	853-862	Bellottis	*	PERmentioned
+9-11	863-864	(	_	_
+9-12	865-868	der	_	_
+9-13	869-871	in	_	_
+9-14	872-873	8	_	_
+9-15	874-879	Tagen	_	_
+9-16	880-883	das	_	_
+9-17	884-896	Einkassierte	_	_
+9-18	897-899	zu	_	_
+9-19	900-908	schicken	_	_
+9-20	909-919	verspricht	_	_
+9-21	920-921	)	_	_
+9-22	922-925	hat	_	_
+9-23	926-936	allerdings	_	_
+9-24	937-941	viel	_	_
+9-25	942-948	Schuld	_	_
+9-26	949-950	.	_	_
+
+#Text=Es ergeben sich über euch sehr große non valens und Verluste , durch Abtreten , Tod , Abfall vieler , die wir immer fortgesetzt hatten , und die Bellotti uns jetzt als Nullen in der Rechnung aufführt .
+10-1	951-953	Es	_	_
+10-2	954-961	ergeben	_	_
+10-3	962-966	sich	_	_
+10-4	967-971	über	_	_
+10-5	972-976	euch	_	_
+10-6	977-981	sehr	_	_
+10-7	982-987	große	_	_
+10-8	988-991	non	_	_
+10-9	992-998	valens	_	_
+10-10	999-1002	und	_	_
+10-11	1003-1011	Verluste	_	_
+10-12	1012-1013	,	_	_
+10-13	1014-1019	durch	_	_
+10-14	1020-1028	Abtreten	_	_
+10-15	1029-1030	,	_	_
+10-16	1031-1034	Tod	_	_
+10-17	1035-1036	,	_	_
+10-18	1037-1043	Abfall	_	_
+10-19	1044-1050	vieler	_	_
+10-20	1051-1052	,	_	_
+10-21	1053-1056	die	_	_
+10-22	1057-1060	wir	_	_
+10-23	1061-1066	immer	_	_
+10-24	1067-1078	fortgesetzt	_	_
+10-25	1079-1085	hatten	_	_
+10-26	1086-1087	,	_	_
+10-27	1088-1091	und	_	_
+10-28	1092-1095	die	_	_
+10-29	1096-1104	Bellotti	*	PERmentioned
+10-30	1105-1108	uns	_	_
+10-31	1109-1114	jetzt	_	_
+10-32	1115-1118	als	_	_
+10-33	1119-1125	Nullen	_	_
+10-34	1126-1128	in	_	_
+10-35	1129-1132	der	_	_
+10-36	1133-1141	Rechnung	_	_
+10-37	1142-1150	aufführt	_	_
+10-38	1151-1152	.	_	_

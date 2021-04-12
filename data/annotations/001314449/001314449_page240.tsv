@@ -1,0 +1,84 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=114 Henzen an Gerhard 30/IV/55 Frau Braun war 3 Wochen lang sehr schwer krank u. litt viel \; jetzt Besserung .
+1-1	0-3	114	_	_
+1-2	4-10	Henzen	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-30	30/IV/55	*	DATEletter
+1-6	31-35	Frau	_	_
+1-7	36-41	Braun	*	PERmentioned
+1-8	42-45	war	_	_
+1-9	46-47	3	_	_
+1-10	48-54	Wochen	_	_
+1-11	55-59	lang	_	_
+1-12	60-64	sehr	_	_
+1-13	65-71	schwer	_	_
+1-14	72-77	krank	_	_
+1-15	78-80	u.	_	_
+1-16	81-85	litt	_	_
+1-17	86-90	viel	_	_
+1-18	91-92	\;	_	_
+1-19	93-98	jetzt	_	_
+1-20	99-108	Besserung	_	_
+1-21	109-110	.	_	_
+
+#Text=Er weiß nicht , wo ihm der Kopf steht \; wird aber nächstens schreiben , Herzliche Grüße Ihr ergebner WHenzen Rom 30/IV 55 Adr .
+2-1	111-113	Er	_	_
+2-2	114-118	weiß	_	_
+2-3	119-124	nicht	_	_
+2-4	125-126	,	_	_
+2-5	127-129	wo	_	_
+2-6	130-133	ihm	_	_
+2-7	134-137	der	_	_
+2-8	138-142	Kopf	_	_
+2-9	143-148	steht	_	_
+2-10	149-150	\;	_	_
+2-11	151-155	wird	_	_
+2-12	156-160	aber	_	_
+2-13	161-170	nächstens	_	_
+2-14	171-180	schreiben	_	_
+2-15	181-182	,	_	_
+2-16	183-192	Herzliche	_	_
+2-17	193-198	Grüße	_	_
+2-18	199-202	Ihr	_	_
+2-19	203-211	ergebner	_	_
+2-20	212-219	WHenzen	*	PERauthor
+2-21	220-223	Rom	*	PLACEfrom
+2-22	224-229	30/IV	*[1]	DATEletter[1]
+2-23	230-232	55	*[1]	DATEletter[1]
+2-24	233-236	Adr	_	_
+2-25	237-238	.	_	_
+
+#Text=bis etwa zum ana , G. Velentinelli , Prefetto della Marciana , Venezia \; u. bis gegen den a5 , Seidl in Wien , se comanda qualche cosa .
+3-1	239-242	bis	_	_
+3-2	243-247	etwa	_	_
+3-3	248-251	zum	*[2]	DATEmentioned[2]
+3-4	252-255	ana	*[2]	DATEmentioned[2]
+3-5	256-257	,	*[2]	DATEmentioned[2]
+3-6	258-260	G.	*[3]	PERmentioned[3]
+3-7	261-273	Velentinelli	*[3]	PERmentioned[3]
+3-8	274-275	,	_	_
+3-9	276-284	Prefetto	_	_
+3-10	285-290	della	_	_
+3-11	291-299	Marciana	*	ORGmentioned
+3-12	300-301	,	_	_
+3-13	302-309	Venezia	*	PLACEmentioned
+3-14	310-311	\;	_	_
+3-15	312-314	u.	_	_
+3-16	315-318	bis	_	_
+3-17	319-324	gegen	_	_
+3-18	325-328	den	_	_
+3-19	329-331	a5	*[4]	DATEmentioned[4]
+3-20	332-333	,	*[4]	DATEmentioned[4]
+3-21	334-339	Seidl	*	PERmentioned
+3-22	340-342	in	_	_
+3-23	343-347	Wien	*	PLACEmentioned
+3-24	348-349	,	_	_
+3-25	350-352	se	_	_
+3-26	353-360	comanda	_	_
+3-27	361-368	qualche	_	_
+3-28	369-373	cosa	_	_
+3-29	374-375	.	_	_

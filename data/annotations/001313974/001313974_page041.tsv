@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=428 Helbig an Henzen Pompei , 13. September 1864 H .
+1-1	0-3	428	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Pompei	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	13.	*[1]	DATEletter[1]
+1-8	34-43	September	*[1]	DATEletter[1]
+1-9	44-48	1864	*[1]	DATEletter[1]
+1-10	49-50	H	_	_
+1-11	51-52	.	_	_
+
+#Text=E 15/9 64 Tr .
+2-1	53-54	E	_	_
+2-2	55-59	15/9	*[2]	DATErecieved[2]
+2-3	60-62	64	*[2]	DATErecieved[2]
+2-4	63-65	Tr	_	_
+2-5	66-67	.	_	_
+
+#Text=Pompei 13 .
+3-1	68-74	Pompei	*	PLACEfrom
+3-2	75-77	13	*[3]	DATEletter[3]
+3-3	78-79	.	*[3]	DATEletter[3]
+
+#Text=Sept .
+4-1	80-84	Sept	*[3]	DATEletter[3]
+4-2	85-86	.	*[3]	DATEletter[3]
+
+#Text=1864 Lieber Herr Professor !
+5-1	87-91	1864	*[3]	DATEletter[3]
+5-2	92-98	Lieber	_	_
+5-3	99-103	Herr	_	_
+5-4	104-113	Professor	_	_
+5-5	114-115	!	_	_
+
+#Text=Soeben war der Stadtsyndicus Duncker mit seiner Frau aus Berlin bei mir und fragte mich , ob es möglich sein würde , vom 18. dieses Monats an ein Logis in der Casa Tarpea zu erhalten .
+6-1	116-122	Soeben	_	_
+6-2	123-126	war	_	_
+6-3	127-130	der	_	_
+6-4	131-144	Stadtsyndicus	_	_
+6-5	145-152	Duncker	*	PERmentioned
+6-6	153-156	mit	_	_
+6-7	157-163	seiner	_	_
+6-8	164-168	Frau	_	_
+6-9	169-172	aus	_	_
+6-10	173-179	Berlin	*	PLACEmentioned
+6-11	180-183	bei	_	_
+6-12	184-187	mir	_	_
+6-13	188-191	und	_	_
+6-14	192-198	fragte	_	_
+6-15	199-203	mich	_	_
+6-16	204-205	,	_	_
+6-17	206-208	ob	_	_
+6-18	209-211	es	_	_
+6-19	212-219	möglich	_	_
+6-20	220-224	sein	_	_
+6-21	225-230	würde	_	_
+6-22	231-232	,	_	_
+6-23	233-236	vom	_	_
+6-24	237-240	18.	*[4]	DATEmentioned[4]
+6-25	241-247	dieses	*[4]	DATEmentioned[4]
+6-26	248-254	Monats	*[4]	DATEmentioned[4]
+6-27	255-257	an	_	_
+6-28	258-261	ein	_	_
+6-29	262-267	Logis	_	_
+6-30	268-270	in	_	_
+6-31	271-274	der	_	_
+6-32	275-279	Casa	*[5]	PLACEmentioned[5]
+6-33	280-286	Tarpea	*[5]	PLACEmentioned[5]
+6-34	287-289	zu	_	_
+6-35	290-298	erhalten	_	_
+6-36	299-300	.	_	_
+
+#Text=Er wiil entweder ein großes oder zwei kleine Zimmer haben und will sich monatlich zu einem Preise bis zu 12 Scudi verstehen .
+7-1	301-303	Er	_	_
+7-2	304-308	wiil	_	_
+7-3	309-317	entweder	_	_
+7-4	318-321	ein	_	_
+7-5	322-328	großes	_	_
+7-6	329-333	oder	_	_
+7-7	334-338	zwei	_	_
+7-8	339-345	kleine	_	_
+7-9	346-352	Zimmer	_	_
+7-10	353-358	haben	_	_
+7-11	359-362	und	_	_
+7-12	363-367	will	_	_
+7-13	368-372	sich	_	_
+7-14	373-382	monatlich	_	_
+7-15	383-385	zu	_	_
+7-16	386-391	einem	_	_
+7-17	392-398	Preise	_	_
+7-18	399-402	bis	_	_
+7-19	403-405	zu	_	_
+7-20	406-408	12	_	_
+7-21	409-414	Scudi	_	_
+7-22	415-424	verstehen	_	_
+7-23	425-426	.	_	_
+
+#Text=Ich bitte Sie daher Schulz zu fragen , ob ein derartiges Logis vom 18. an frei ist und ob er es im betreffenden Fall an Duncker vermiethen will , und mir seine Antwort möglichst rasch mitzutheilen , da Duncker schon nächsten Sonntag oder spätestens Montag nach Rom abzureisen gedenkt und vorher sicheren Bescheid zu haben wünscht .
+8-1	427-430	Ich	_	_
+8-2	431-436	bitte	_	_
+8-3	437-440	Sie	_	_
+8-4	441-446	daher	_	_
+8-5	447-453	Schulz	*	PERmentioned
+8-6	454-456	zu	_	_
+8-7	457-463	fragen	_	_
+8-8	464-465	,	_	_
+8-9	466-468	ob	_	_
+8-10	469-472	ein	_	_
+8-11	473-483	derartiges	_	_
+8-12	484-489	Logis	_	_
+8-13	490-493	vom	_	_
+8-14	494-497	18.	*[6]	DATEmentioned[6]
+8-15	498-500	an	_	_
+8-16	501-505	frei	_	_
+8-17	506-509	ist	_	_
+8-18	510-513	und	_	_
+8-19	514-516	ob	_	_
+8-20	517-519	er	_	_
+8-21	520-522	es	_	_
+8-22	523-525	im	_	_
+8-23	526-538	betreffenden	_	_
+8-24	539-543	Fall	_	_
+8-25	544-546	an	_	_
+8-26	547-554	Duncker	*	PERmentioned
+8-27	555-565	vermiethen	_	_
+8-28	566-570	will	_	_
+8-29	571-572	,	_	_
+8-30	573-576	und	_	_
+8-31	577-580	mir	_	_
+8-32	581-586	seine	_	_
+8-33	587-594	Antwort	_	_
+8-34	595-604	möglichst	_	_
+8-35	605-610	rasch	_	_
+8-36	611-623	mitzutheilen	_	_
+8-37	624-625	,	_	_
+8-38	626-628	da	_	_
+8-39	629-636	Duncker	*	PERmentioned
+8-40	637-642	schon	_	_
+8-41	643-651	nächsten	_	_
+8-42	652-659	Sonntag	*	DATEmentioned
+8-43	660-664	oder	_	_
+8-44	665-675	spätestens	_	_
+8-45	676-682	Montag	*	DATEmentioned
+8-46	683-687	nach	_	_
+8-47	688-691	Rom	*	PLACEmentioned
+8-48	692-702	abzureisen	_	_
+8-49	703-710	gedenkt	_	_
+8-50	711-714	und	_	_
+8-51	715-721	vorher	_	_
+8-52	722-730	sicheren	_	_
+8-53	731-739	Bescheid	_	_
+8-54	740-742	zu	_	_
+8-55	743-748	haben	_	_
+8-56	749-756	wünscht	_	_
+8-57	757-758	.	_	_
+
+#Text=Duncker , welcher übrigens auch an Sie empfohlen ist , ist entschieden ein sehr liebenswürdiger Mann und er wie seine Frau eine vortreffliche Aquisition für die Wintersaison in der Casa .
+9-1	759-766	Duncker	*	PERmentioned
+9-2	767-768	,	_	_
+9-3	769-776	welcher	_	_
+9-4	777-785	übrigens	_	_
+9-5	786-790	auch	_	_
+9-6	791-793	an	_	_
+9-7	794-797	Sie	_	_
+9-8	798-807	empfohlen	_	_
+9-9	808-811	ist	_	_
+9-10	812-813	,	_	_
+9-11	814-817	ist	_	_
+9-12	818-829	entschieden	_	_
+9-13	830-833	ein	_	_
+9-14	834-838	sehr	_	_
+9-15	839-854	liebenswürdiger	_	_
+9-16	855-859	Mann	_	_
+9-17	860-863	und	_	_
+9-18	864-866	er	_	_
+9-19	867-870	wie	_	_
+9-20	871-876	seine	_	_
+9-21	877-881	Frau	_	_
+9-22	882-886	eine	_	_
+9-23	887-900	vortreffliche	_	_
+9-24	901-911	Aquisition	_	_
+9-25	912-915	für	_	_
+9-26	916-919	die	_	_
+9-27	920-932	Wintersaison	_	_
+9-28	933-935	in	_	_
+9-29	936-939	der	_	_
+9-30	940-944	Casa	_	_
+9-31	945-946	.	_	_
+
+#Text=Die herrliche Iuft in Pompei hat mich völlig wieder hergestellt und ich werde nicht unterlassen , nunmehr die betreffenden Partien nach Paestum u.s.w .
+10-1	947-950	Die	_	_
+10-2	951-960	herrliche	_	_
+10-3	961-965	Iuft	_	_
+10-4	966-968	in	_	_
+10-5	969-975	Pompei	*	PLACEmentioned
+10-6	976-979	hat	_	_
+10-7	980-984	mich	_	_
+10-8	985-991	völlig	_	_
+10-9	992-998	wieder	_	_
+10-10	999-1010	hergestellt	_	_
+10-11	1011-1014	und	_	_
+10-12	1015-1018	ich	_	_
+10-13	1019-1024	werde	_	_
+10-14	1025-1030	nicht	_	_
+10-15	1031-1042	unterlassen	_	_
+10-16	1043-1044	,	_	_
+10-17	1045-1052	nunmehr	_	_
+10-18	1053-1056	die	_	_
+10-19	1057-1069	betreffenden	_	_
+10-20	1070-1077	Partien	_	_
+10-21	1078-1082	nach	_	_
+10-22	1083-1090	Paestum	*	PLACEmentioned
+10-23	1091-1096	u.s.w	_	_
+10-24	1097-1098	.	_	_
+
+#Text=zu unternehmen .
+11-1	1099-1101	zu	_	_
+11-2	1102-1113	unternehmen	_	_
+11-3	1114-1115	.	_	_
+
+#Text=Leider muß ich mich , was meine ohnehin sehr herun-
+12-1	1116-1122	Leider	_	_
+12-2	1123-1126	muß	_	_
+12-3	1127-1130	ich	_	_
+12-4	1131-1135	mich	_	_
+12-5	1136-1137	,	_	_
+12-6	1138-1141	was	_	_
+12-7	1142-1147	meine	_	_
+12-8	1148-1155	ohnehin	_	_
+12-9	1156-1160	sehr	_	_
+12-10	1161-1167	herun-	_	_

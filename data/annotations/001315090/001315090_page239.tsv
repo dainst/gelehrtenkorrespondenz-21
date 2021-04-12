@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 19 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	19	*[3]	DATEletter[3]
+1-7	30-31	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1875 8 .
+2-1	32-39	Oktober	*[3]	DATEletter[3]
+2-2	40-44	1875	*[3]	DATEletter[3]
+2-3	45-46	8	_	_
+2-4	47-48	.	_	_
+
+#Text=23/10 75 Tr .
+3-1	49-54	23/10	*[4]	DATErecieved[4]
+3-2	55-57	75	_	_
+3-3	58-60	Tr	_	_
+3-4	61-62	.	_	_
+
+#Text=Privatim Berlin , den 19 .
+4-1	63-71	Privatim	_	_
+4-2	72-78	Berlin	*	PLACEfrom
+4-3	79-80	,	_	_
+4-4	81-84	den	_	_
+4-5	85-87	19	*[5]	DATEletter[5]
+4-6	88-89	.	*[5]	DATEletter[5]
+
+#Text=Ikt .
+5-1	90-93	Ikt	*[5]	DATEletter[5]
+5-2	94-95	.	*[5]	DATEletter[5]
+
+#Text=1875 Verehrter Freund Ich habe Ihren Brief vom 16/7 .
+6-1	96-100	1875	*[5]	DATEletter[5]
+6-2	101-110	Verehrter	_	_
+6-3	111-117	Freund	_	_
+6-4	118-121	Ich	_	_
+6-5	122-126	habe	_	_
+6-6	127-132	Ihren	_	_
+6-7	133-138	Brief	_	_
+6-8	139-142	vom	_	_
+6-9	143-147	16/7	*[6]	DATEmentioned[6]
+6-10	148-149	.	*[6]	DATEmentioned[6]
+
+#Text=Ihrem Wunsche gemäß der gestern zum letztenmale wieder versammelten Central Direktion vorgelegt , nachdem ich Ihnen schon in meinem Briefe vom 23. Juli eine Äußerung darüber gemacht hatte .
+7-1	150-155	Ihrem	_	_
+7-2	156-163	Wunsche	_	_
+7-3	164-169	gemäß	_	_
+7-4	170-173	der	_	_
+7-5	174-181	gestern	_	_
+7-6	182-185	zum	_	_
+7-7	186-197	letztenmale	_	_
+7-8	198-204	wieder	_	_
+7-9	205-217	versammelten	_	_
+7-10	218-225	Central	*[7]	ORGmentioned[7]
+7-11	226-235	Direktion	*[7]	ORGmentioned[7]
+7-12	236-245	vorgelegt	_	_
+7-13	246-247	,	_	_
+7-14	248-255	nachdem	_	_
+7-15	256-259	ich	_	_
+7-16	260-265	Ihnen	_	_
+7-17	266-271	schon	_	_
+7-18	272-274	in	_	_
+7-19	275-281	meinem	_	_
+7-20	282-288	Briefe	_	_
+7-21	289-292	vom	_	_
+7-22	293-296	23.	*[8]	DATEmentioned[8]
+7-23	297-301	Juli	*[8]	DATEmentioned[8]
+7-24	302-306	eine	_	_
+7-25	307-315	Äußerung	_	_
+7-26	316-323	darüber	_	_
+7-27	324-331	gemacht	_	_
+7-28	332-337	hatte	_	_
+7-29	338-339	.	_	_
+
+#Text=Sie schreiben darin , daß das Auswärtige Amt den Antrag des Herrn v. nz falsch verstanden haben müsse nach einer Äußerung des Auswärtigen Amtes ( an wen ?
+8-1	340-343	Sie	_	_
+8-2	344-353	schreiben	_	_
+8-3	354-359	darin	_	_
+8-4	360-361	,	_	_
+8-5	362-365	daß	_	_
+8-6	366-369	das	_	_
+8-7	370-380	Auswärtige	*[9]	ORGmentioned[9]
+8-8	381-384	Amt	_	_
+8-9	385-388	den	_	_
+8-10	389-395	Antrag	_	_
+8-11	396-399	des	_	_
+8-12	400-405	Herrn	_	_
+8-13	406-408	v.	*[10]	PERmentioned[10]
+8-14	409-411	nz	_	_
+8-15	412-418	falsch	_	_
+8-16	419-429	verstanden	_	_
+8-17	430-435	haben	_	_
+8-18	436-441	müsse	_	_
+8-19	442-446	nach	_	_
+8-20	447-452	einer	_	_
+8-21	453-461	Äußerung	_	_
+8-22	462-465	des	_	_
+8-23	466-477	Auswärtigen	*[11]	ORGmentioned[11]
+8-24	478-483	Amtes	*[11]	ORGmentioned[11]
+8-25	484-485	(	_	_
+8-26	486-488	an	_	_
+8-27	489-492	wen	_	_
+8-28	493-494	?	_	_
+
+#Text=Wir haben den Antrag des Herrn v. Ko der uns abschriftlich vorliegt , nur so verstehen können , daß er wünschte , das Auswärtige Amt möchte für 1875 eine Remuneration von 1.000 M aus seinen Fonds bewilligen , für 1876 aber `` eine entsprechende Erhöhung des Dispositionsfonds beim Archäologischen Institut zum Zwecke der Remuneration für Italiener anzumelden '' .
+9-1	495-498	Wir	_	_
+9-2	499-504	haben	_	_
+9-3	505-508	den	_	_
+9-4	509-515	Antrag	_	_
+9-5	516-519	des	_	_
+9-6	520-525	Herrn	_	_
+9-7	526-528	v.	*[12]	PERmentioned[12]
+9-8	529-531	Ko	*[12]	PERmentioned[12]
+9-9	532-535	der	_	_
+9-10	536-539	uns	_	_
+9-11	540-553	abschriftlich	_	_
+9-12	554-562	vorliegt	_	_
+9-13	563-564	,	_	_
+9-14	565-568	nur	_	_
+9-15	569-571	so	_	_
+9-16	572-581	verstehen	_	_
+9-17	582-588	können	_	_
+9-18	589-590	,	_	_
+9-19	591-594	daß	_	_
+9-20	595-597	er	_	_
+9-21	598-606	wünschte	_	_
+9-22	607-608	,	_	_
+9-23	609-612	das	_	_
+9-24	613-623	Auswärtige	*[13]	ORGmentioned[13]
+9-25	624-627	Amt	*[13]	ORGmentioned[13]
+9-26	628-634	möchte	_	_
+9-27	635-638	für	_	_
+9-28	639-643	1875	*	DATEmentioned
+9-29	644-648	eine	_	_
+9-30	649-661	Remuneration	_	_
+9-31	662-665	von	_	_
+9-32	666-671	1.000	_	_
+9-33	672-673	M	_	_
+9-34	674-677	aus	_	_
+9-35	678-684	seinen	_	_
+9-36	685-690	Fonds	_	_
+9-37	691-701	bewilligen	_	_
+9-38	702-703	,	_	_
+9-39	704-707	für	_	_
+9-40	708-712	1876	*	DATEmentioned
+9-41	713-717	aber	_	_
+9-42	718-720	``	_	_
+9-43	721-725	eine	_	_
+9-44	726-739	entsprechende	_	_
+9-45	740-748	Erhöhung	_	_
+9-46	749-752	des	_	_
+9-47	753-770	Dispositionsfonds	_	_
+9-48	771-775	beim	_	_
+9-49	776-791	Archäologischen	*[14]	ORGmentioned[14]
+9-50	792-800	Institut	*[14]	ORGmentioned[14]
+9-51	801-804	zum	_	_
+9-52	805-811	Zwecke	_	_
+9-53	812-815	der	_	_
+9-54	816-828	Remuneration	_	_
+9-55	829-832	für	_	_
+9-56	833-842	Italiener	_	_
+9-57	843-853	anzumelden	_	_
+9-58	854-856	''	_	_
+9-59	857-858	.	_	_
+
+#Text=Der erste Theil des Antrags betraf uns nicht \; er ist aber in dem Schreiben des Auswärtigen Amtes an uns bereits abgelehnt .
+10-1	859-862	Der	_	_
+10-2	863-868	erste	_	_
+10-3	869-874	Theil	_	_
+10-4	875-878	des	_	_
+10-5	879-886	Antrags	_	_
+10-6	887-893	betraf	_	_
+10-7	894-897	uns	_	_
+10-8	898-903	nicht	_	_
+10-9	904-905	\;	_	_
+10-10	906-908	er	_	_
+10-11	909-912	ist	_	_
+10-12	913-917	aber	_	_
+10-13	918-920	in	_	_
+10-14	921-924	dem	_	_
+10-15	925-934	Schreiben	_	_
+10-16	935-938	des	_	_
+10-17	939-950	Auswärtigen	*[15]	ORGmentioned[15]
+10-18	951-956	Amtes	*[15]	ORGmentioned[15]
+10-19	957-959	an	_	_
+10-20	960-963	uns	_	_
+10-21	964-971	bereits	_	_
+10-22	972-981	abgelehnt	_	_
+10-23	982-983	.	_	_
+
+#Text=In Bezug auf den 2 .
+11-1	984-986	In	_	_
+11-2	987-992	Bezug	_	_
+11-3	993-996	auf	_	_
+11-4	997-1000	den	_	_
+11-5	1001-1002	2	_	_
+11-6	1003-1004	.	_	_
+
+#Text=Theil bemerkt das Auswärtige Amt gleichfalls vorweg `` daß ihm eine Erhöhung des Dispositionsfods des archäologischen Instituts mit Rücksicht auf eine der Natur der Sache nach nicht dauernde Thätigkeit des Dr. Helbig nicht angezeigt scheint '' .
+12-1	1005-1010	Theil	_	_
+12-2	1011-1018	bemerkt	_	_
+12-3	1019-1022	das	_	_
+12-4	1023-1033	Auswärtige	*[16]	ORGmentioned[16]
+12-5	1034-1037	Amt	*[16]	ORGmentioned[16]
+12-6	1038-1049	gleichfalls	_	_
+12-7	1050-1056	vorweg	_	_
+12-8	1057-1059	``	_	_
+12-9	1060-1063	daß	_	_
+12-10	1064-1067	ihm	_	_
+12-11	1068-1072	eine	_	_
+12-12	1073-1081	Erhöhung	_	_
+12-13	1082-1085	des	_	_
+12-14	1086-1102	Dispositionsfods	_	_
+12-15	1103-1106	des	_	_
+12-16	1107-1122	archäologischen	*[17]	ORGmentioned[17]
+12-17	1123-1132	Instituts	*[17]	ORGmentioned[17]
+12-18	1133-1136	mit	_	_
+12-19	1137-1146	Rücksicht	_	_
+12-20	1147-1150	auf	_	_
+12-21	1151-1155	eine	_	_
+12-22	1156-1159	der	_	_
+12-23	1160-1165	Natur	_	_
+12-24	1166-1169	der	_	_
+12-25	1170-1175	Sache	_	_
+12-26	1176-1180	nach	_	_
+12-27	1181-1186	nicht	_	_
+12-28	1187-1195	dauernde	_	_
+12-29	1196-1206	Thätigkeit	_	_
+12-30	1207-1210	des	_	_
+12-31	1211-1214	Dr.	_	_
+12-32	1215-1221	Helbig	*	PERmentioned
+12-33	1222-1227	nicht	_	_
+12-34	1228-1237	angezeigt	_	_
+12-35	1238-1245	scheint	_	_
+12-36	1246-1248	''	_	_
+12-37	1249-1250	.	_	_
+
+#Text=Es dränge sich außerdem die Erwägung
+13-1	1251-1253	Es	_	_
+13-2	1254-1260	dränge	_	_
+13-3	1261-1265	sich	_	_
+13-4	1266-1274	außerdem	_	_
+13-5	1275-1278	die	_	_
+13-6	1279-1287	Erwägung	_	_

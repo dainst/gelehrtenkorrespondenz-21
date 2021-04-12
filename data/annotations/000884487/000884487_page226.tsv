@@ -1,0 +1,63 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Atuttgart , 16 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-26	Atuttgart	*	PLACEfrom
+1-5	27-28	,	_	_
+1-6	29-31	16	*[4]	DATEletter[4]
+1-7	32-33	.	*[4]	DATEletter[4]
+
+#Text=August 1837 weitere Briefe und Sendungen bis dorthin .
+2-1	34-40	August	*[4]	DATEletter[4]
+2-2	41-45	1837	*[4]	DATEletter[4]
+2-3	46-53	weitere	_	_
+2-4	54-60	Briefe	_	_
+2-5	61-64	und	_	_
+2-6	65-74	Sendungen	_	_
+2-7	75-78	bis	_	_
+2-8	79-86	dorthin	_	_
+2-9	87-88	.	_	_
+
+#Text=Sie benachrichtigen wol vorläufig die römischen Freunde daß ich in Berlin zu suchen bin , \; von Briefen habe ich hier nichts als ein officielles Museunschreiben , nicht aber den erwarteten Geldbrief , aus Rom nachgesandt erhalten .
+3-1	89-92	Sie	_	_
+3-2	93-108	benachrichtigen	_	_
+3-3	109-112	wol	_	_
+3-4	113-122	vorläufig	_	_
+3-5	123-126	die	_	_
+3-6	127-136	römischen	_	_
+3-7	137-144	Freunde	_	_
+3-8	145-148	daß	_	_
+3-9	149-152	ich	_	_
+3-10	153-155	in	_	_
+3-11	156-162	Berlin	*	PLACEmentioned
+3-12	163-165	zu	_	_
+3-13	166-172	suchen	_	_
+3-14	173-176	bin	_	_
+3-15	177-178	,	_	_
+3-16	179-180	\;	_	_
+3-17	181-184	von	_	_
+3-18	185-192	Briefen	_	_
+3-19	193-197	habe	_	_
+3-20	198-201	ich	_	_
+3-21	202-206	hier	_	_
+3-22	207-213	nichts	_	_
+3-23	214-217	als	_	_
+3-24	218-221	ein	_	_
+3-25	222-233	officielles	_	_
+3-26	234-249	Museunschreiben	_	_
+3-27	250-251	,	_	_
+3-28	252-257	nicht	_	_
+3-29	258-262	aber	_	_
+3-30	263-266	den	_	_
+3-31	267-277	erwarteten	_	_
+3-32	278-287	Geldbrief	_	_
+3-33	288-289	,	_	_
+3-34	290-293	aus	_	_
+3-35	294-297	Rom	*	PLACEmentioned
+3-36	298-309	nachgesandt	_	_
+3-37	310-318	erhalten	_	_
+3-38	319-320	.	_	_

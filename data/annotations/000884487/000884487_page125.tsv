@@ -1,0 +1,74 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 9 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	9	*[4]	DATEletter[4]
+1-7	28-29	.	*[4]	DATEletter[4]
+
+#Text=August 1836 nach Rom veranlasse , was nicht unmöglich .
+2-1	30-36	August	*[4]	DATEletter[4]
+2-2	37-41	1836	*[4]	DATEletter[4]
+2-3	42-46	nach	_	_
+2-4	47-50	Rom	*	PLACEmentioned
+2-5	51-61	veranlasse	_	_
+2-6	62-63	,	_	_
+2-7	64-67	was	_	_
+2-8	68-73	nicht	_	_
+2-9	74-83	unmöglich	_	_
+2-10	84-85	.	_	_
+
+#Text=Aber auch über Kistensendung und wie dergleichen etwa bei dem Cholera stand ist , schreiben Sie und schreibt B. mir nichts \; ich habe getrost unter seiner Addresse Bücher und Kleider in einer Kiste nach Rom gesandt .
+3-1	86-90	Aber	_	_
+3-2	91-95	auch	_	_
+3-3	96-100	über	_	_
+3-4	101-114	Kistensendung	_	_
+3-5	115-118	und	_	_
+3-6	119-122	wie	_	_
+3-7	123-134	dergleichen	_	_
+3-8	135-139	etwa	_	_
+3-9	140-143	bei	_	_
+3-10	144-147	dem	_	_
+3-11	148-155	Cholera	_	_
+3-12	156-161	stand	_	_
+3-13	162-165	ist	_	_
+3-14	166-167	,	_	_
+3-15	168-177	schreiben	_	_
+3-16	178-181	Sie	_	_
+3-17	182-185	und	_	_
+3-18	186-194	schreibt	_	_
+3-19	195-197	B.	_	_
+3-20	198-201	mir	_	_
+3-21	202-208	nichts	_	_
+3-22	209-210	\;	_	_
+3-23	211-214	ich	_	_
+3-24	215-219	habe	_	_
+3-25	220-227	getrost	_	_
+3-26	228-233	unter	_	_
+3-27	234-240	seiner	_	_
+3-28	241-249	Addresse	_	_
+3-29	250-256	Bücher	_	_
+3-30	257-260	und	_	_
+3-31	261-268	Kleider	_	_
+3-32	269-271	in	_	_
+3-33	272-277	einer	_	_
+3-34	278-283	Kiste	_	_
+3-35	284-288	nach	_	_
+3-36	289-292	Rom	*	PLACEmentioned
+3-37	293-300	gesandt	_	_
+3-38	301-302	.	_	_
+
+#Text=Gott mit Ihnen \| !
+4-1	303-307	Gott	_	_
+4-2	308-311	mit	_	_
+4-3	312-317	Ihnen	_	_
+4-4	318-319	\|	_	_
+4-5	320-321	!	_	_
+
+#Text=Gerhard
+5-1	322-329	Gerhard	*	PERauthor

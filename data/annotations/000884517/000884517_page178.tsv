@@ -1,0 +1,196 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 17. April 1846 8 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	17.	*[2]	DATEletter[2]
+1-7	30-35	April	*[2]	DATEletter[2]
+1-8	36-40	1846	*[2]	DATEletter[2]
+1-9	41-42	8	_	_
+1-10	43-44	.	_	_
+
+#Text=28/IV 46 r . 2/7 46 Dr. Braun Berlin 7 April 46 Ich mag nicht zögern lieber Freund Ihnen meine glückliche Heimkehr zu berichten \; gestern langte ich hier an , fand auch Ihren Brief vor .
+2-1	45-50	28/IV	*[3]	DATErecieved[3]
+2-2	51-53	46	*[3]	DATErecieved[3]
+2-3	54-55	r	_	_
+2-4	56-57	.	_	_
+2-5	58-61	2/7	*[4]	DATEanswered[4]
+2-6	62-64	46	*[4]	DATEanswered[4]
+2-7	65-68	Dr.	*[1]	PERaddressee[1]
+2-8	69-74	Braun	*[1]	PERaddressee[1]
+2-9	75-81	Berlin	*	PLACEfrom
+2-10	82-83	7	*[5]	DATEletter[5]
+2-11	84-89	April	*[5]	DATEletter[5]
+2-12	90-92	46	*[5]	DATEletter[5]
+2-13	93-96	Ich	_	_
+2-14	97-100	mag	_	_
+2-15	101-106	nicht	_	_
+2-16	107-113	zögern	_	_
+2-17	114-120	lieber	_	_
+2-18	121-127	Freund	_	_
+2-19	128-133	Ihnen	_	_
+2-20	134-139	meine	_	_
+2-21	140-150	glückliche	_	_
+2-22	151-159	Heimkehr	_	_
+2-23	160-162	zu	_	_
+2-24	163-172	berichten	_	_
+2-25	173-174	\;	_	_
+2-26	175-182	gestern	_	_
+2-27	183-189	langte	_	_
+2-28	190-193	ich	_	_
+2-29	194-198	hier	_	_
+2-30	199-201	an	_	_
+2-31	202-203	,	_	_
+2-32	204-208	fand	_	_
+2-33	209-213	auch	_	_
+2-34	214-219	Ihren	_	_
+2-35	220-225	Brief	_	_
+2-36	226-229	vor	_	_
+2-37	230-231	.	_	_
+
+#Text=Leider ohne Jahresbericht und selbst ohne die rückständigen Quittungen und die Notiz Ihrer Sculpturen .
+3-1	232-238	Leider	_	_
+3-2	239-243	ohne	_	_
+3-3	244-257	Jahresbericht	_	_
+3-4	258-261	und	_	_
+3-5	262-268	selbst	_	_
+3-6	269-273	ohne	_	_
+3-7	274-277	die	_	_
+3-8	278-291	rückständigen	_	_
+3-9	292-302	Quittungen	_	_
+3-10	303-306	und	_	_
+3-11	307-310	die	_	_
+3-12	311-316	Notiz	_	_
+3-13	317-322	Ihrer	_	_
+3-14	323-333	Sculpturen	*	OBJ
+3-15	334-335	.	_	_
+
+#Text=Ich habe es verabsäumt das Annalen und Monunenti Exemplar von 1844 nachdem es von mir weggeholt war mir wieder zurückzufordern und kann nun nichts vom Institut hier anzeigen vor Ankunft der Brockhaus-Sendung .
+4-1	336-339	Ich	_	_
+4-2	340-344	habe	_	_
+4-3	345-347	es	_	_
+4-4	348-358	verabsäumt	_	_
+4-5	359-362	das	_	_
+4-6	363-370	Annalen	_	_
+4-7	371-374	und	_	_
+4-8	375-384	Monunenti	_	_
+4-9	385-393	Exemplar	_	_
+4-10	394-397	von	_	_
+4-11	398-402	1844	*	DATEmentioned
+4-12	403-410	nachdem	_	_
+4-13	411-413	es	_	_
+4-14	414-417	von	_	_
+4-15	418-421	mir	_	_
+4-16	422-431	weggeholt	_	_
+4-17	432-435	war	_	_
+4-18	436-439	mir	_	_
+4-19	440-446	wieder	_	_
+4-20	447-462	zurückzufordern	_	_
+4-21	463-466	und	_	_
+4-22	467-471	kann	_	_
+4-23	472-475	nun	_	_
+4-24	476-482	nichts	_	_
+4-25	483-486	vom	_	_
+4-26	487-495	Institut	*	ORGmentioned
+4-27	496-500	hier	_	_
+4-28	501-509	anzeigen	_	_
+4-29	510-513	vor	_	_
+4-30	514-521	Ankunft	_	_
+4-31	522-525	der	_	_
+4-32	526-543	Brockhaus-Sendung	_	_
+4-33	544-545	.	_	_
+
+#Text=In Chiusi kaufte ich eine hübsche Schaukelvase mit Torso in Skyphosform , sonst allerlei Brauchbares nichts Eclatantes .
+5-1	546-548	In	_	_
+5-2	549-555	Chiusi	*	PLACEmentioned
+5-3	556-562	kaufte	_	_
+5-4	563-566	ich	_	_
+5-5	567-571	eine	_	_
+5-6	572-579	hübsche	_	_
+5-7	580-592	Schaukelvase	*	OBJ
+5-8	593-596	mit	_	_
+5-9	597-602	Torso	*	OBJ
+5-10	603-605	in	_	_
+5-11	606-617	Skyphosform	*	OBJ
+5-12	618-619	,	_	_
+5-13	620-625	sonst	_	_
+5-14	626-634	allerlei	_	_
+5-15	635-646	Brauchbares	_	_
+5-16	647-653	nichts	_	_
+5-17	654-664	Eclatantes	_	_
+5-18	665-666	.	_	_
+
+#Text=Auch eine hübsche Todtenkiste Frangois gehörig \; einige andre schlug ich vor .
+6-1	667-671	Auch	_	_
+6-2	672-676	eine	_	_
+6-3	677-684	hübsche	_	_
+6-4	685-696	Todtenkiste	*	OBJ
+6-5	697-705	Frangois	*[6]	PERmentioned[6]
+6-6	706-713	gehörig	_	_
+6-7	714-715	\;	_	_
+6-8	716-722	einige	_	_
+6-9	723-728	andre	_	_
+6-10	729-735	schlug	_	_
+6-11	736-739	ich	_	_
+6-12	740-743	vor	_	_
+6-13	744-745	.	_	_
+
+#Text=Über die 2 Baseggioschen Vasen und sonstigen Vorschlägn wird Herr von Olfers den ich noch nicht sah sich ja wol bald äussern .
+7-1	746-750	Über	_	_
+7-2	751-754	die	_	_
+7-3	755-756	2	_	_
+7-4	757-770	Baseggioschen	*	PERmentioned
+7-5	771-776	Vasen	*	OBJ
+7-6	777-780	und	_	_
+7-7	781-790	sonstigen	_	_
+7-8	791-801	Vorschlägn	_	_
+7-9	802-806	wird	_	_
+7-10	807-811	Herr	_	_
+7-11	812-815	von	*[7]	PERmentioned[7]
+7-12	816-822	Olfers	*[7]	PERmentioned[7]
+7-13	823-826	den	_	_
+7-14	827-830	ich	_	_
+7-15	831-835	noch	_	_
+7-16	836-841	nicht	_	_
+7-17	842-845	sah	_	_
+7-18	846-850	sich	_	_
+7-19	851-853	ja	_	_
+7-20	854-857	wol	_	_
+7-21	858-862	bald	_	_
+7-22	863-870	äussern	_	_
+7-23	871-872	.	_	_
+
+#Text=Über Welckers Laune und Ergehen sind Sie ja sehr lakonisch .
+8-1	873-877	Über	_	_
+8-2	878-886	Welckers	*	PERmentioned
+8-3	887-892	Laune	_	_
+8-4	893-896	und	_	_
+8-5	897-904	Ergehen	_	_
+8-6	905-909	sind	_	_
+8-7	910-913	Sie	_	_
+8-8	914-916	ja	_	_
+8-9	917-921	sehr	_	_
+8-10	922-931	lakonisch	_	_
+8-11	932-933	.	_	_
+
+#Text=Die \* Dsendung meiner Vasenkiste mit allem Privatbeischluß wünsche ich freilich baldmöglichst zu hören \;
+9-1	934-937	Die	_	_
+9-2	938-939	\*	_	_
+9-3	940-948	Dsendung	_	_
+9-4	949-955	meiner	_	_
+9-5	956-966	Vasenkiste	_	_
+9-6	967-970	mit	_	_
+9-7	971-976	allem	_	_
+9-8	977-992	Privatbeischluß	_	_
+9-9	993-1000	wünsche	_	_
+9-10	1001-1004	ich	_	_
+9-11	1005-1013	freilich	_	_
+9-12	1014-1027	baldmöglichst	_	_
+9-13	1028-1030	zu	_	_
+9-14	1031-1036	hören	_	_
+9-15	1037-1038	\;	_	_

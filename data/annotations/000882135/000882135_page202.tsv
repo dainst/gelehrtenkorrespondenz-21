@@ -1,0 +1,180 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Det .
+1-1	0-3	Det	_	_
+1-2	4-5	.	_	_
+
+#Text=Braun an Gerhard Rom , 25. Februar 1840 schwankend genug steht .
+2-1	6-11	Braun	*	PERauthor
+2-2	12-14	an	_	_
+2-3	15-22	Gerhard	*	PERaddressee
+2-4	23-26	Rom	*	PLACEfrom
+2-5	27-28	,	_	_
+2-6	29-32	25.	*[4]	DATEletter[4]
+2-7	33-40	Februar	*[4]	DATEletter[4]
+2-8	41-45	1840	*[4]	DATEletter[4]
+2-9	46-56	schwankend	_	_
+2-10	57-62	genug	_	_
+2-11	63-68	steht	_	_
+2-12	69-70	.	_	_
+
+#Text=Dennoch hoffe ich das Körnerwerk unsrer Anstalt noch einige Zeit drüber sie zu balanciren .
+3-1	71-78	Dennoch	_	_
+3-2	79-84	hoffe	_	_
+3-3	85-88	ich	_	_
+3-4	89-92	das	_	_
+3-5	93-103	Körnerwerk	_	_
+3-6	104-110	unsrer	_	_
+3-7	111-118	Anstalt	_	_
+3-8	119-123	noch	_	_
+3-9	124-130	einige	_	_
+3-10	131-135	Zeit	_	_
+3-11	136-142	drüber	_	_
+3-12	143-146	sie	_	_
+3-13	147-149	zu	_	_
+3-14	150-160	balanciren	_	_
+3-15	161-162	.	_	_
+
+#Text=// Zu Ihrem strengsten Privatgebrauch .
+4-1	163-165	//	_	_
+4-2	166-168	Zu	_	_
+4-3	169-174	Ihrem	_	_
+4-4	175-185	strengsten	_	_
+4-5	186-200	Privatgebrauch	_	_
+4-6	201-202	.	_	_
+
+#Text=// Den Basseggioschen Dreifuß wird Ihnen Wolff in Vorschlag bringen .
+5-1	203-205	//	_	_
+5-2	206-209	Den	_	_
+5-3	210-224	Basseggioschen	*	PERmentioned
+5-4	225-232	Dreifuß	*	OBJ
+5-5	233-237	wird	_	_
+5-6	238-243	Ihnen	_	_
+5-7	244-249	Wolff	*	PERmentioned
+5-8	250-252	in	_	_
+5-9	253-262	Vorschlag	_	_
+5-10	263-270	bringen	_	_
+5-11	271-272	.	_	_
+
+#Text=Es ist bei weitem der schönste und reichste dieser Art .
+6-1	273-275	Es	_	_
+6-2	276-279	ist	_	_
+6-3	280-283	bei	_	_
+6-4	284-290	weitem	_	_
+6-5	291-294	der	_	_
+6-6	295-303	schönste	_	_
+6-7	304-307	und	_	_
+6-8	308-316	reichste	_	_
+6-9	317-323	dieser	_	_
+6-10	324-327	Art	_	_
+6-11	328-329	.	_	_
+
+#Text=Es würde mir nicht schwer werden Campana ' n dazu zu veranlassen , daß er mit seinem nächstens erscheinenden Terracottenwerk , Abgüsse von seiner in der That stupenden Sammlung , nach Berlin schenkte und sie dann Seiner Majestät zu Füßen legte .
+7-1	330-332	Es	_	_
+7-2	333-338	würde	_	_
+7-3	339-342	mir	_	_
+7-4	343-348	nicht	_	_
+7-5	349-355	schwer	_	_
+7-6	356-362	werden	_	_
+7-7	363-370	Campana	*[14]	PERmentioned[14]
+7-8	371-372	'	*[14]	PERmentioned[14]
+7-9	373-374	n	_	_
+7-10	375-379	dazu	_	_
+7-11	380-382	zu	_	_
+7-12	383-394	veranlassen	_	_
+7-13	395-396	,	_	_
+7-14	397-400	daß	_	_
+7-15	401-403	er	_	_
+7-16	404-407	mit	_	_
+7-17	408-414	seinem	_	_
+7-18	415-424	nächstens	_	_
+7-19	425-438	erscheinenden	_	_
+7-20	439-454	Terracottenwerk	_	_
+7-21	455-456	,	_	_
+7-22	457-464	Abgüsse	_	_
+7-23	465-468	von	_	_
+7-24	469-475	seiner	_	_
+7-25	476-478	in	_	_
+7-26	479-482	der	_	_
+7-27	483-487	That	_	_
+7-28	488-497	stupenden	_	_
+7-29	498-506	Sammlung	_	_
+7-30	507-508	,	_	_
+7-31	509-513	nach	_	_
+7-32	514-520	Berlin	*	PLACEmentioned
+7-33	521-529	schenkte	_	_
+7-34	530-533	und	_	_
+7-35	534-537	sie	_	_
+7-36	538-542	dann	_	_
+7-37	543-549	Seiner	_	_
+7-38	550-558	Majestät	_	_
+7-39	559-561	zu	_	_
+7-40	562-567	Füßen	_	_
+7-41	568-573	legte	_	_
+7-42	574-575	.	_	_
+
+#Text=Diese würden wegen ihres Reichthums an prachtvollen Priorathen für das Gewerbinstitut von einem ganz besonderen Interesse sein .
+8-1	576-581	Diese	_	_
+8-2	582-588	würden	_	_
+8-3	589-594	wegen	_	_
+8-4	595-600	ihres	_	_
+8-5	601-611	Reichthums	_	_
+8-6	612-614	an	_	_
+8-7	615-627	prachtvollen	_	_
+8-8	628-638	Priorathen	_	_
+8-9	639-642	für	_	_
+8-10	643-646	das	_	_
+8-11	647-661	Gewerbinstitut	_	_
+8-12	662-665	von	_	_
+8-13	666-671	einem	_	_
+8-14	672-676	ganz	_	_
+8-15	677-687	besonderen	_	_
+8-16	688-697	Interesse	_	_
+8-17	698-702	sein	_	_
+8-18	703-704	.	_	_
+
+#Text=Schreiben Sie mir Ihre Ansicht darüber , bevor ich ihm darüber rede .
+9-1	705-714	Schreiben	_	_
+9-2	715-718	Sie	_	_
+9-3	719-722	mir	_	_
+9-4	723-727	Ihre	_	_
+9-5	728-735	Ansicht	_	_
+9-6	736-743	darüber	_	_
+9-7	744-745	,	_	_
+9-8	746-751	bevor	_	_
+9-9	752-755	ich	_	_
+9-10	756-759	ihm	_	_
+9-11	760-767	darüber	_	_
+9-12	768-772	rede	_	_
+9-13	773-774	.	_	_
+
+#Text=Die Sieneser Giuli-Millingensche Bronze stellt den Kephalos in den Armen der Eos vor , wie aus mehreren Parrallelmonumenten hervorgeht .
+10-1	775-778	Die	_	_
+10-2	779-787	Sieneser	*	PLACEmentioned
+10-3	788-807	Giuli-Millingensche	*[11]|*[12]	PERmentioned[11]|PERmentioned[12]
+10-4	808-814	Bronze	*[13]	OBJ[13]
+10-5	815-821	stellt	*[13]	OBJ[13]
+10-6	822-825	den	*[13]	OBJ[13]
+10-7	826-834	Kephalos	*[13]	OBJ[13]
+10-8	835-837	in	*[13]	OBJ[13]
+10-9	838-841	den	*[13]	OBJ[13]
+10-10	842-847	Armen	*[13]	OBJ[13]
+10-11	848-851	der	*[13]	OBJ[13]
+10-12	852-855	Eos	_	_
+10-13	856-859	vor	_	_
+10-14	860-861	,	_	_
+10-15	862-865	wie	_	_
+10-16	866-869	aus	_	_
+10-17	870-878	mehreren	_	_
+10-18	879-898	Parrallelmonumenten	_	_
+10-19	899-909	hervorgeht	_	_
+10-20	910-911	.	_	_
+
+#Text=.
+11-1	912-913	.	_	_
+
+#Text=Ihr EBraun
+12-1	914-917	Ihr	_	_
+12-2	918-924	EBraun	*	PERauthor

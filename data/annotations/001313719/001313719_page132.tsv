@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=D. Henzen Gerhard an Henzen Berlin 12/XI/47 A. di Dir .
+1-1	0-2	D.	_	_
+1-2	3-9	Henzen	*	PERaddressee
+1-3	10-17	Gerhard	*[4]	PERauthor[4]
+1-4	18-20	an	*[4]	PERauthor[4]
+1-5	21-27	Henzen	*	PERaddressee
+1-6	28-34	Berlin	*	PLACEfrom
+1-7	35-43	12/XI/47	*	DATEletter
+1-8	44-46	A.	_	_
+1-9	47-49	di	_	_
+1-10	50-53	Dir	_	_
+1-11	54-55	.	_	_
+
+#Text=gs .
+2-1	56-58	gs	_	_
+2-2	59-60	.	_	_
+
+#Text=r . 25/XI 47 Berlin 12 November 47 Lieber Freund Dank für alle Ihre Mittheilungen wie auch für das Bull .
+3-1	61-62	r	_	_
+3-2	63-64	.	_	_
+3-3	65-70	25/XI	*[1]	DATEanswered[1]
+3-4	71-73	47	*[1]	DATEanswered[1]
+3-5	74-80	Berlin	*	PLACEfrom
+3-6	81-83	12	*[2]	DATEletter[2]
+3-7	84-92	November	*[2]	DATEletter[2]
+3-8	93-95	47	*[2]	DATEletter[2]
+3-9	96-102	Lieber	_	_
+3-10	103-109	Freund	_	_
+3-11	110-114	Dank	_	_
+3-12	115-118	für	_	_
+3-13	119-123	alle	_	_
+3-14	124-128	Ihre	_	_
+3-15	129-142	Mittheilungen	_	_
+3-16	143-146	wie	_	_
+3-17	147-151	auch	_	_
+3-18	152-155	für	_	_
+3-19	156-159	das	_	_
+3-20	160-164	Bull	_	_
+3-21	165-166	.	_	_
+
+#Text=von dem ich die letzte halbleere freie Seite aus der Oklıweezeit vor mir habe .
+4-1	167-170	von	_	_
+4-2	171-174	dem	_	_
+4-3	175-178	ich	_	_
+4-4	179-182	die	_	_
+4-5	183-189	letzte	_	_
+4-6	190-199	halbleere	_	_
+4-7	200-205	freie	_	_
+4-8	206-211	Seite	_	_
+4-9	212-215	aus	_	_
+4-10	216-219	der	_	_
+4-11	220-231	Oklıweezeit	_	_
+4-12	232-235	vor	_	_
+4-13	236-239	mir	_	_
+4-14	240-244	habe	_	_
+4-15	245-246	.	_	_
+
+#Text=Die Redaction der napoletanischen epigraphischen Correspondenzen nimmt sich ganz gut darin aus und verdient den Leuten die man als Correspondenten verkündet hat mit dringender Anempfehlung ihrer Schuldigkeit zugesandt zu werden .
+5-1	247-250	Die	_	_
+5-2	251-260	Redaction	_	_
+5-3	261-264	der	_	_
+5-4	265-280	napoletanischen	_	_
+5-5	281-295	epigraphischen	_	_
+5-6	296-311	Correspondenzen	_	_
+5-7	312-317	nimmt	_	_
+5-8	318-322	sich	_	_
+5-9	323-327	ganz	_	_
+5-10	328-331	gut	_	_
+5-11	332-337	darin	_	_
+5-12	338-341	aus	_	_
+5-13	342-345	und	_	_
+5-14	346-354	verdient	_	_
+5-15	355-358	den	_	_
+5-16	359-365	Leuten	_	_
+5-17	366-369	die	_	_
+5-18	370-373	man	_	_
+5-19	374-377	als	_	_
+5-20	378-393	Correspondenten	_	_
+5-21	394-403	verkündet	_	_
+5-22	404-407	hat	_	_
+5-23	408-411	mit	_	_
+5-24	412-422	dringender	_	_
+5-25	423-435	Anempfehlung	_	_
+5-26	436-441	ihrer	_	_
+5-27	442-454	Schuldigkeit	_	_
+5-28	455-464	zugesandt	_	_
+5-29	465-467	zu	_	_
+5-30	468-474	werden	_	_
+5-31	475-476	.	_	_
+
+#Text=- Auch die Sendung durch Frau von Görzke ist richtig angelangt , besten Dank !
+6-1	477-478	-	_	_
+6-2	479-483	Auch	_	_
+6-3	484-487	die	_	_
+6-4	488-495	Sendung	_	_
+6-5	496-501	durch	_	_
+6-6	502-506	Frau	*[3]	PERmentioned[3]
+6-7	507-510	von	*[3]	PERmentioned[3]
+6-8	511-517	Görzke	*[3]	PERmentioned[3]
+6-9	518-521	ist	_	_
+6-10	522-529	richtig	_	_
+6-11	530-539	angelangt	_	_
+6-12	540-541	,	_	_
+6-13	542-548	besten	_	_
+6-14	549-553	Dank	_	_
+6-15	554-555	!	_	_
+
+#Text=In Ihrer Gehaltssache habe ich bestmöglichst und ich glaube durchaus Ihren Wünschen entsprechend geschrieben , obwohl dieselben weder von Ihnen noch von Braun mit den erforderlichen Ziffern specificirt waren .
+7-1	556-558	In	_	_
+7-2	559-564	Ihrer	_	_
+7-3	565-577	Gehaltssache	_	_
+7-4	578-582	habe	_	_
+7-5	583-586	ich	_	_
+7-6	587-600	bestmöglichst	_	_
+7-7	601-604	und	_	_
+7-8	605-608	ich	_	_
+7-9	609-615	glaube	_	_
+7-10	616-624	durchaus	_	_
+7-11	625-630	Ihren	_	_
+7-12	631-639	Wünschen	_	_
+7-13	640-652	entsprechend	_	_
+7-14	653-664	geschrieben	_	_
+7-15	665-666	,	_	_
+7-16	667-673	obwohl	_	_
+7-17	674-683	dieselben	_	_
+7-18	684-689	weder	_	_
+7-19	690-693	von	_	_
+7-20	694-699	Ihnen	_	_
+7-21	700-704	noch	_	_
+7-22	705-708	von	_	_
+7-23	709-714	Braun	*	PERmentioned
+7-24	715-718	mit	_	_
+7-25	719-722	den	_	_
+7-26	723-737	erforderlichen	_	_
+7-27	738-745	Ziffern	_	_
+7-28	746-757	specificirt	_	_
+7-29	758-763	waren	_	_
+7-30	764-765	.	_	_
+
+#Text=Neigebaur der nun in Siebenbürgen von Nutzen ist wird nächstens wieder das Capitol besteigen .
+8-1	766-775	Neigebaur	*	PERmentioned
+8-2	776-779	der	_	_
+8-3	780-783	nun	_	_
+8-4	784-786	in	_	_
+8-5	787-799	Siebenbürgen	*	PLACEmentioned
+8-6	800-803	von	_	_
+8-7	804-810	Nutzen	_	_
+8-8	811-814	ist	_	_
+8-9	815-819	wird	_	_
+8-10	820-829	nächstens	_	_
+8-11	830-836	wieder	_	_
+8-12	837-840	das	_	_
+8-13	841-848	Capitol	*	PLACEmentioned
+8-14	849-858	besteigen	_	_
+8-15	859-860	.	_	_
+
+#Text=Die epigraphische Angelegenheit wälzt sich langsam weiter \; Mommsen mag aus Unmuth über diesen Schneckengang und eins und das andere Verafif & rliche was damit zusanmen hängt Ihnen Briefe schulden .
+9-1	861-864	Die	_	_
+9-2	865-878	epigraphische	_	_
+9-3	879-892	Angelegenheit	_	_
+9-4	893-898	wälzt	_	_
+9-5	899-903	sich	_	_
+9-6	904-911	langsam	_	_
+9-7	912-918	weiter	_	_
+9-8	919-920	\;	_	_
+9-9	921-928	Mommsen	*	PERmentioned
+9-10	929-932	mag	_	_
+9-11	933-936	aus	_	_
+9-12	937-943	Unmuth	_	_
+9-13	944-948	über	_	_
+9-14	949-955	diesen	_	_
+9-15	956-969	Schneckengang	_	_
+9-16	970-973	und	_	_
+9-17	974-978	eins	_	_
+9-18	979-982	und	_	_
+9-19	983-986	das	_	_
+9-20	987-993	andere	_	_
+9-21	994-1001	Verafif	_	_
+9-22	1002-1003	&	_	_
+9-23	1004-1010	rliche	_	_
+9-24	1011-1014	was	_	_
+9-25	1015-1020	damit	_	_
+9-26	1021-1029	zusanmen	_	_
+9-27	1030-1035	hängt	_	_
+9-28	1036-1041	Ihnen	_	_
+9-29	1042-1048	Briefe	_	_
+9-30	1049-1057	schulden	_	_
+9-31	1058-1059	.	_	_
+
+#Text=Ich habe viel Qual damit und kündigte eh wieder einmal meinen Äntheil daran auf \; doch ist alles einverstanden darüber daß ein Corpus I .. L. erfolgen solle , daß es am Geldpunkt nicht scheitern könne , und daß Mommsen wenigstens die Communalinschriften
+10-1	1060-1063	Ich	_	_
+10-2	1064-1068	habe	_	_
+10-3	1069-1073	viel	_	_
+10-4	1074-1078	Qual	_	_
+10-5	1079-1084	damit	_	_
+10-6	1085-1088	und	_	_
+10-7	1089-1097	kündigte	_	_
+10-8	1098-1100	eh	_	_
+10-9	1101-1107	wieder	_	_
+10-10	1108-1114	einmal	_	_
+10-11	1115-1121	meinen	_	_
+10-12	1122-1129	Äntheil	_	_
+10-13	1130-1135	daran	_	_
+10-14	1136-1139	auf	_	_
+10-15	1140-1141	\;	_	_
+10-16	1142-1146	doch	_	_
+10-17	1147-1150	ist	_	_
+10-18	1151-1156	alles	_	_
+10-19	1157-1170	einverstanden	_	_
+10-20	1171-1178	darüber	_	_
+10-21	1179-1182	daß	_	_
+10-22	1183-1186	ein	_	_
+10-23	1187-1193	Corpus	_	_
+10-24	1194-1195	I	_	_
+10-25	1196-1198	..	_	_
+10-26	1199-1201	L.	_	_
+10-27	1202-1210	erfolgen	_	_
+10-28	1211-1216	solle	_	_
+10-29	1217-1218	,	_	_
+10-30	1219-1222	daß	_	_
+10-31	1223-1225	es	_	_
+10-32	1226-1228	am	_	_
+10-33	1229-1238	Geldpunkt	_	_
+10-34	1239-1244	nicht	_	_
+10-35	1245-1254	scheitern	_	_
+10-36	1255-1260	könne	_	_
+10-37	1261-1262	,	_	_
+10-38	1263-1266	und	_	_
+10-39	1267-1270	daß	_	_
+10-40	1271-1278	Mommsen	*	PERmentioned
+10-41	1279-1289	wenigstens	_	_
+10-42	1290-1293	die	_	_
+10-43	1294-1313	Communalinschriften	_	_

@@ -1,0 +1,276 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=( ner c 883 Braun an Gerhard Rom , 22. Dezember 1834 Auf einem , an den Brief geklebten Zettelchen \; Pentesil und Achill auf einem silbenern estrusk .
+1-1	0-1	(	_	_
+1-2	2-5	ner	_	_
+1-3	6-7	c	_	_
+1-4	8-11	883	_	_
+1-5	12-17	Braun	*	PERauthor
+1-6	18-20	an	_	_
+1-7	21-28	Gerhard	*	PERaddressee
+1-8	29-32	Rom	*	PLACEfrom
+1-9	33-34	,	_	_
+1-10	35-38	22.	*[1]	DATEletter[1]
+1-11	39-47	Dezember	*[1]	DATEletter[1]
+1-12	48-52	1834	*[1]	DATEletter[1]
+1-13	53-56	Auf	_	_
+1-14	57-62	einem	_	_
+1-15	63-64	,	_	_
+1-16	65-67	an	_	_
+1-17	68-71	den	_	_
+1-18	72-77	Brief	_	_
+1-19	78-87	geklebten	_	_
+1-20	88-98	Zettelchen	_	_
+1-21	99-100	\;	_	_
+1-22	101-109	Pentesil	_	_
+1-23	110-113	und	_	_
+1-24	114-120	Achill	_	_
+1-25	121-124	auf	_	_
+1-26	125-130	einem	_	_
+1-27	131-140	silbenern	_	_
+1-28	141-148	estrusk	_	_
+1-29	149-150	.	_	_
+
+#Text=Spiegel : in Durands Händen , woher ich ihn kannte .
+2-1	151-158	Spiegel	*	OBJ
+2-2	159-160	:	_	_
+2-3	161-163	in	_	_
+2-4	164-171	Durands	*	PERmentioned
+2-5	172-178	Händen	_	_
+2-6	179-180	,	_	_
+2-7	181-186	woher	_	_
+2-8	187-190	ich	_	_
+2-9	191-194	ihn	_	_
+2-10	195-201	kannte	_	_
+2-11	202-203	.	_	_
+
+#Text=Canpanari bot ihn mir an .
+3-1	204-213	Canpanari	_	_
+3-2	214-217	bot	_	_
+3-3	218-221	ihn	_	_
+3-4	222-225	mir	_	_
+3-5	226-228	an	_	_
+3-6	229-230	.	_	_
+
+#Text=Ich erstand ihn für 20 Scudi , da Durand ein Doppelgebot gethan .
+4-1	231-234	Ich	_	_
+4-2	235-242	erstand	_	_
+4-3	243-246	ihn	_	_
+4-4	247-250	für	_	_
+4-5	251-253	20	_	_
+4-6	254-259	Scudi	_	_
+4-7	260-261	,	_	_
+4-8	262-264	da	_	_
+4-9	265-271	Durand	*	PERmentioned
+4-10	272-275	ein	_	_
+4-11	276-287	Doppelgebot	_	_
+4-12	288-294	gethan	_	_
+4-13	295-296	.	_	_
+
+#Text=Es ist Camp .
+5-1	297-299	Es	_	_
+5-2	300-303	ist	_	_
+5-3	304-308	Camp	*[2]	PERmentioned[2]
+5-4	309-310	.	*[2]	PERmentioned[2]
+
+#Text=Sorge ihn zurückzuziehen .
+6-1	311-316	Sorge	_	_
+6-2	317-320	ihn	_	_
+6-3	321-335	zurückzuziehen	_	_
+6-4	336-337	.	_	_
+
+#Text=Für Sie muß ihn Coll . später offensibel kaufen .
+7-1	338-341	Für	_	_
+7-2	342-345	Sie	_	_
+7-3	346-349	muß	_	_
+7-4	350-353	ihn	_	_
+7-5	354-358	Coll	_	_
+7-6	359-360	.	_	_
+7-7	361-367	später	_	_
+7-8	368-378	offensibel	_	_
+7-9	379-385	kaufen	_	_
+7-10	386-387	.	_	_
+
+#Text=Ein Hauptcoup \| !
+8-1	388-391	Ein	_	_
+8-2	392-401	Hauptcoup	_	_
+8-3	402-403	\|	_	_
+8-4	404-405	!	_	_
+
+#Text=Ferner habe ich die unten beschriebne Tasse mit dem Hercules bibax für 12 Sc. auch sehr wohlfeil gekauft .
+9-1	406-412	Ferner	_	_
+9-2	413-417	habe	_	_
+9-3	418-421	ich	_	_
+9-4	422-425	die	_	_
+9-5	426-431	unten	_	_
+9-6	432-443	beschriebne	_	_
+9-7	444-449	Tasse	*[3]	OBJ[3]
+9-8	450-453	mit	*[3]	OBJ[3]
+9-9	454-457	dem	*[3]	OBJ[3]
+9-10	458-466	Hercules	*[3]	OBJ[3]
+9-11	467-472	bibax	*[3]	OBJ[3]
+9-12	473-476	für	_	_
+9-13	477-479	12	_	_
+9-14	480-483	Sc.	_	_
+9-15	484-488	auch	_	_
+9-16	489-493	sehr	_	_
+9-17	494-502	wohlfeil	_	_
+9-18	503-510	gekauft	_	_
+9-19	511-512	.	_	_
+
+#Text=Erschrecken Sie nicht vor meinem Käufertalent .
+10-1	513-524	Erschrecken	_	_
+10-2	525-528	Sie	_	_
+10-3	529-534	nicht	_	_
+10-4	535-538	vor	_	_
+10-5	539-545	meinem	_	_
+10-6	546-558	Käufertalent	_	_
+10-7	559-560	.	_	_
+
+#Text=Den Spiegel erhalten Sie bald in Zeichnung .
+11-1	561-564	Den	_	_
+11-2	565-572	Spiegel	*	OBJ
+11-3	573-581	erhalten	_	_
+11-4	582-585	Sie	_	_
+11-5	586-590	bald	_	_
+11-6	591-593	in	_	_
+11-7	594-603	Zeichnung	*	MISC
+11-8	604-605	.	_	_
+
+#Text=Die Tasse in raten , mit einem Gypsabguß der ähnlich aus Cerveteri .
+12-1	606-609	Die	_	_
+12-2	610-615	Tasse	*	OBJ
+12-3	616-618	in	_	_
+12-4	619-624	raten	_	_
+12-5	625-626	,	_	_
+12-6	627-630	mit	_	_
+12-7	631-636	einem	_	_
+12-8	637-646	Gypsabguß	*	MISC
+12-9	647-650	der	_	_
+12-10	651-658	ähnlich	_	_
+12-11	659-662	aus	_	_
+12-12	663-672	Cerveteri	*	PLACEmentioned
+12-13	673-674	.	_	_
+
+#Text=Camp .
+13-1	675-679	Camp	*[4]	PERmentioned[4]
+13-2	680-681	.	*[4]	PERmentioned[4]
+
+#Text=haben Ihnen offenbar ein Zeichen Ihrer Attention geben wollen .
+14-1	682-687	haben	_	_
+14-2	688-693	Ihnen	_	_
+14-3	694-702	offenbar	_	_
+14-4	703-706	ein	_	_
+14-5	707-714	Zeichen	_	_
+14-6	715-720	Ihrer	_	_
+14-7	721-730	Attention	_	_
+14-8	731-736	geben	_	_
+14-9	737-743	wollen	_	_
+14-10	744-745	.	_	_
+
+#Text=Denn beides sind Effeotstücke .
+15-1	746-750	Denn	_	_
+15-2	751-757	beides	_	_
+15-3	758-762	sind	_	_
+15-4	763-775	Effeotstücke	_	_
+15-5	776-777	.	_	_
+
+#Text=Abeken können Sie nur bitten , sich gesittet in , unsren Adunanzan zu betragen , Lancin , dem ich jeden Abend den Hof mache und der mich sehr unterstützt , hat es mir für Monate verdrießlich gemacht , dadurch , daß er ein herziges Vaschen im Processo verbale vor die Augen uns im Beisem der Adunanza zu corrigieren aufforderte .
+16-1	778-784	Abeken	*	PERmentioned
+16-2	785-791	können	_	_
+16-3	792-795	Sie	_	_
+16-4	796-799	nur	_	_
+16-5	800-806	bitten	_	_
+16-6	807-808	,	_	_
+16-7	809-813	sich	_	_
+16-8	814-822	gesittet	_	_
+16-9	823-825	in	_	_
+16-10	826-827	,	_	_
+16-11	828-834	unsren	_	_
+16-12	835-844	Adunanzan	_	_
+16-13	845-847	zu	_	_
+16-14	848-856	betragen	_	_
+16-15	857-858	,	_	_
+16-16	859-865	Lancin	*	PERmentioned
+16-17	866-867	,	_	_
+16-18	868-871	dem	_	_
+16-19	872-875	ich	_	_
+16-20	876-881	jeden	_	_
+16-21	882-887	Abend	_	_
+16-22	888-891	den	_	_
+16-23	892-895	Hof	_	_
+16-24	896-901	mache	_	_
+16-25	902-905	und	_	_
+16-26	906-909	der	_	_
+16-27	910-914	mich	_	_
+16-28	915-919	sehr	_	_
+16-29	920-931	unterstützt	_	_
+16-30	932-933	,	_	_
+16-31	934-937	hat	_	_
+16-32	938-940	es	_	_
+16-33	941-944	mir	_	_
+16-34	945-948	für	_	_
+16-35	949-955	Monate	_	_
+16-36	956-968	verdrießlich	_	_
+16-37	969-976	gemacht	_	_
+16-38	977-978	,	_	_
+16-39	979-986	dadurch	_	_
+16-40	987-988	,	_	_
+16-41	989-992	daß	_	_
+16-42	993-995	er	_	_
+16-43	996-999	ein	_	_
+16-44	1000-1008	herziges	_	_
+16-45	1009-1016	Vaschen	_	_
+16-46	1017-1019	im	_	_
+16-47	1020-1028	Processo	_	_
+16-48	1029-1036	verbale	_	_
+16-49	1037-1040	vor	_	_
+16-50	1041-1044	die	_	_
+16-51	1045-1050	Augen	_	_
+16-52	1051-1054	uns	_	_
+16-53	1055-1057	im	_	_
+16-54	1058-1064	Beisem	_	_
+16-55	1065-1068	der	_	_
+16-56	1069-1077	Adunanza	_	_
+16-57	1078-1080	zu	_	_
+16-58	1081-1092	corrigieren	_	_
+16-59	1093-1104	aufforderte	_	_
+16-60	1105-1106	.	_	_
+
+#Text=Dann Bunsen noch aufzusetzen .
+17-1	1107-1111	Dann	_	_
+17-2	1112-1118	Bunsen	*	PERmentioned
+17-3	1119-1123	noch	_	_
+17-4	1124-1135	aufzusetzen	_	_
+17-5	1136-1137	.	_	_
+
+#Text=- UVeberhaupt ist es eine schwierige Stellung .
+18-1	1138-1139	-	_	_
+18-2	1140-1151	UVeberhaupt	_	_
+18-3	1152-1155	ist	_	_
+18-4	1156-1158	es	_	_
+18-5	1159-1163	eine	_	_
+18-6	1164-1174	schwierige	_	_
+18-7	1175-1183	Stellung	_	_
+18-8	1184-1185	.	_	_
+
+#Text=Dies unter uns .
+19-1	1186-1190	Dies	_	_
+19-2	1191-1196	unter	_	_
+19-3	1197-1200	uns	_	_
+19-4	1201-1202	.	_	_
+
+#Text=Ich thue meine Pflicht und bin in sofern selten angreifbar .
+20-1	1203-1206	Ich	_	_
+20-2	1207-1211	thue	_	_
+20-3	1212-1217	meine	_	_
+20-4	1218-1225	Pflicht	_	_
+20-5	1226-1229	und	_	_
+20-6	1230-1233	bin	_	_
+20-7	1234-1236	in	_	_
+20-8	1237-1243	sofern	_	_
+20-9	1244-1250	selten	_	_
+20-10	1251-1261	angreifbar	_	_
+20-11	1262-1263	.	_	_

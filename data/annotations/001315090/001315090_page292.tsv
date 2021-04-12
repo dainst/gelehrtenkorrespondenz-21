@@ -1,0 +1,102 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=593 Lepsius an Henzen Berlin , 18 .
+1-1	0-3	593	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	18	*[1]	DATEletter[1]
+1-8	34-35	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1876 Ich wünsche von Herzen , daß Sie neu gestärkt in den Winter wieder eintreten .
+2-1	36-43	Oktober	*[1]	DATEletter[1]
+2-2	44-48	1876	*[1]	DATEletter[1]
+2-3	49-52	Ich	_	_
+2-4	53-60	wünsche	_	_
+2-5	61-64	von	_	_
+2-6	65-71	Herzen	_	_
+2-7	72-73	,	_	_
+2-8	74-77	daß	_	_
+2-9	78-81	Sie	_	_
+2-10	82-85	neu	_	_
+2-11	86-94	gestärkt	_	_
+2-12	95-97	in	_	_
+2-13	98-101	den	_	_
+2-14	102-108	Winter	_	_
+2-15	109-115	wieder	_	_
+2-16	116-125	eintreten	_	_
+2-17	126-127	.	_	_
+
+#Text=Wir sind hier endlich in einem schönen Nachherbst eingetreten , der auch dem spärlichen Obst zu Gute kommt , besonders den Trauben die nun eine gute Ernte versprechen .
+3-1	128-131	Wir	_	_
+3-2	132-136	sind	_	_
+3-3	137-141	hier	_	_
+3-4	142-149	endlich	_	_
+3-5	150-152	in	_	_
+3-6	153-158	einem	_	_
+3-7	159-166	schönen	_	_
+3-8	167-177	Nachherbst	_	_
+3-9	178-189	eingetreten	_	_
+3-10	190-191	,	_	_
+3-11	192-195	der	_	_
+3-12	196-200	auch	_	_
+3-13	201-204	dem	_	_
+3-14	205-215	spärlichen	_	_
+3-15	216-220	Obst	_	_
+3-16	221-223	zu	_	_
+3-17	224-228	Gute	_	_
+3-18	229-234	kommt	_	_
+3-19	235-236	,	_	_
+3-20	237-246	besonders	_	_
+3-21	247-250	den	_	_
+3-22	251-258	Trauben	_	_
+3-23	259-262	die	_	_
+3-24	263-266	nun	_	_
+3-25	267-271	eine	_	_
+3-26	272-276	gute	_	_
+3-27	277-282	Ernte	_	_
+3-28	283-294	versprechen	_	_
+3-29	295-296	.	_	_
+
+#Text=Mich hat Kissingen zwar nicht wieder verjüngt , aber doch im Ganzen gestärkt .
+4-1	297-301	Mich	_	_
+4-2	302-305	hat	_	_
+4-3	306-315	Kissingen	*	PLACEmentioned
+4-4	316-320	zwar	_	_
+4-5	321-326	nicht	_	_
+4-6	327-333	wieder	_	_
+4-7	334-342	verjüngt	_	_
+4-8	343-344	,	_	_
+4-9	345-349	aber	_	_
+4-10	350-354	doch	_	_
+4-11	355-357	im	_	_
+4-12	358-364	Ganzen	_	_
+4-13	365-373	gestärkt	_	_
+4-14	374-375	.	_	_
+
+#Text=Grüßen Sie Helbig von mir .
+5-1	376-382	Grüßen	_	_
+5-2	383-386	Sie	_	_
+5-3	387-393	Helbig	*	PERmentioned
+5-4	394-397	von	_	_
+5-5	398-401	mir	_	_
+5-6	402-403	.	_	_
+
+#Text=Der Antrag für ihn geht natürlich ab .
+6-1	404-407	Der	_	_
+6-2	408-414	Antrag	_	_
+6-3	415-418	für	_	_
+6-4	419-422	ihn	_	_
+6-5	423-427	geht	_	_
+6-6	428-437	natürlich	_	_
+6-7	438-440	ab	_	_
+6-8	441-442	.	_	_
+
+#Text=Ihr RL .
+7-1	443-446	Ihr	_	_
+7-2	447-449	RL	*[2]	PERauthor[2]
+7-3	450-451	.	*[2]	PERauthor[2]

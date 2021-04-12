@@ -1,0 +1,181 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=525 Lepsius an Henzen Berlin , 7. Juni 1872 8 .
+1-1	0-3	525	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	7.	_	_
+1-8	34-38	Juni	*[1]	DATEletter[1]
+1-9	39-43	1872	*[1]	DATEletter[1]
+1-10	44-45	8	_	_
+1-11	46-47	.	_	_
+
+#Text=11/6 72 r . 12/6 72 Berlin d . 7. Juni 1872 .
+2-1	48-52	11/6	*[2]	DATErecieved[2]
+2-2	53-55	72	*[2]	DATErecieved[2]
+2-3	56-57	r	_	_
+2-4	58-59	.	_	_
+2-5	60-64	12/6	*[3]	DATEanswered[3]
+2-6	65-67	72	*[3]	DATEanswered[3]
+2-7	68-74	Berlin	*	PLACEfrom
+2-8	75-76	d	_	_
+2-9	77-78	.	_	_
+2-10	79-81	7.	*[4]	DATEletter[4]
+2-11	82-86	Juni	*[4]	DATEletter[4]
+2-12	87-91	1872	*[4]	DATEletter[4]
+2-13	92-93	.	_	_
+
+#Text=Verehrtester Freund Von der Oberrechnungskammer sind einige Monita eingegangen , von denen ich Ihnen die folgenden drei schwer wiegenden Berichtigungen mittheilen soll , um bei der nächsten Rechnung richtig anzuknüpfen \; Antwort von Ihnen wird nicht erwartet .
+3-1	94-106	Verehrtester	_	_
+3-2	107-113	Freund	_	_
+3-3	114-117	Von	_	_
+3-4	118-121	der	_	_
+3-5	122-141	Oberrechnungskammer	_	_
+3-6	142-146	sind	_	_
+3-7	147-153	einige	_	_
+3-8	154-160	Monita	_	_
+3-9	161-172	eingegangen	_	_
+3-10	173-174	,	_	_
+3-11	175-178	von	_	_
+3-12	179-184	denen	_	_
+3-13	185-188	ich	_	_
+3-14	189-194	Ihnen	_	_
+3-15	195-198	die	_	_
+3-16	199-208	folgenden	_	_
+3-17	209-213	drei	_	_
+3-18	214-220	schwer	_	_
+3-19	221-230	wiegenden	_	_
+3-20	231-245	Berichtigungen	_	_
+3-21	246-256	mittheilen	_	_
+3-22	257-261	soll	_	_
+3-23	262-263	,	_	_
+3-24	264-266	um	_	_
+3-25	267-270	bei	_	_
+3-26	271-274	der	_	_
+3-27	275-283	nächsten	_	_
+3-28	284-292	Rechnung	_	_
+3-29	293-300	richtig	_	_
+3-30	301-312	anzuknüpfen	_	_
+3-31	313-314	\;	_	_
+3-32	315-322	Antwort	_	_
+3-33	323-326	von	_	_
+3-34	327-332	Ihnen	_	_
+3-35	333-337	wird	_	_
+3-36	338-343	nicht	_	_
+3-37	344-352	erwartet	_	_
+3-38	353-354	.	_	_
+
+#Text=1 .
+4-1	355-356	1	_	_
+4-2	357-358	.	_	_
+
+#Text=Die Rechnung von Francesco Josa beträgt nicht £ & 590 sondern L 5.915 . 2 .
+5-1	359-362	Die	_	_
+5-2	363-371	Rechnung	_	_
+5-3	372-375	von	_	_
+5-4	376-385	Francesco	*[5]	PERmentioned[5]
+5-5	386-390	Josa	*[5]	PERmentioned[5]
+5-6	391-398	beträgt	_	_
+5-7	399-404	nicht	_	_
+5-8	405-406	£	_	_
+5-9	407-408	&	_	_
+5-10	409-412	590	_	_
+5-11	413-420	sondern	_	_
+5-12	421-422	L	_	_
+5-13	423-428	5.915	_	_
+5-14	429-430	.	_	_
+5-15	431-432	2	_	_
+5-16	433-434	.	_	_
+
+#Text=Der vorjährige Bestand des Reservefonds beträgt nicht £ & 26971-16-5 , sondern nur 26971-15-5 . 3 .
+6-1	435-438	Der	_	_
+6-2	439-449	vorjährige	_	_
+6-3	450-457	Bestand	_	_
+6-4	458-461	des	_	_
+6-5	462-474	Reservefonds	_	_
+6-6	475-482	beträgt	_	_
+6-7	483-488	nicht	_	_
+6-8	489-490	£	_	_
+6-9	491-492	&	_	_
+6-10	493-503	26971-16-5	_	_
+6-11	504-505	,	_	_
+6-12	506-513	sondern	_	_
+6-13	514-517	nur	_	_
+6-14	518-528	26971-15-5	_	_
+6-15	529-530	.	_	_
+6-16	531-532	3	_	_
+6-17	533-534	.	_	_
+
+#Text=Unter Berücksichtigung der ad 1 und 2 nachgewiesenen Cent .
+7-1	535-540	Unter	_	_
+7-2	541-557	Berücksichtigung	_	_
+7-3	558-561	der	_	_
+7-4	562-564	ad	_	_
+7-5	565-566	1	_	_
+7-6	567-570	und	_	_
+7-7	571-572	2	_	_
+7-8	573-587	nachgewiesenen	_	_
+7-9	588-592	Cent	_	_
+7-10	593-594	.	_	_
+
+#Text=1,5 + 1 - GC .
+8-1	595-598	1,5	_	_
+8-2	599-600	+	_	_
+8-3	601-602	1	_	_
+8-4	603-604	-	_	_
+8-5	605-607	GC	_	_
+8-6	608-609	.	_	_
+
+#Text=2,5 stellt sich der Reservefonds wie folgt Einnahme & 37439-26- 5 Ausgabe & 2611 -59- O Bleibt Bestand & 34,827-67- 5 In gleicher Weise vermindert sich der Kassenbestand des Instituts um diese 2,5 Centesimi und stellt sich folgendermaßen Reservefonds & 34827-67-5 Überschuß des Apparats £ & 4372-5
+9-1	610-613	2,5	_	_
+9-2	614-620	stellt	_	_
+9-3	621-625	sich	_	_
+9-4	626-629	der	_	_
+9-5	630-642	Reservefonds	_	_
+9-6	643-646	wie	_	_
+9-7	647-652	folgt	_	_
+9-8	653-661	Einnahme	_	_
+9-9	662-663	&	_	_
+9-10	664-673	37439-26-	_	_
+9-11	674-675	5	_	_
+9-12	676-683	Ausgabe	_	_
+9-13	684-685	&	_	_
+9-14	686-690	2611	_	_
+9-15	691-695	-59-	_	_
+9-16	696-697	O	_	_
+9-17	698-704	Bleibt	_	_
+9-18	705-712	Bestand	_	_
+9-19	713-714	&	_	_
+9-20	715-725	34,827-67-	_	_
+9-21	726-727	5	_	_
+9-22	728-730	In	_	_
+9-23	731-739	gleicher	_	_
+9-24	740-745	Weise	_	_
+9-25	746-756	vermindert	_	_
+9-26	757-761	sich	_	_
+9-27	762-765	der	_	_
+9-28	766-779	Kassenbestand	_	_
+9-29	780-783	des	_	_
+9-30	784-793	Instituts	*	ORGmentioned
+9-31	794-796	um	_	_
+9-32	797-802	diese	_	_
+9-33	803-806	2,5	_	_
+9-34	807-816	Centesimi	_	_
+9-35	817-820	und	_	_
+9-36	821-827	stellt	_	_
+9-37	828-832	sich	_	_
+9-38	833-847	folgendermaßen	_	_
+9-39	848-860	Reservefonds	_	_
+9-40	861-862	&	_	_
+9-41	863-873	34827-67-5	_	_
+9-42	874-883	Überschuß	_	_
+9-43	884-887	des	_	_
+9-44	888-896	Apparats	_	_
+9-45	897-898	£	_	_
+9-46	899-900	&	_	_
+9-47	901-907	4372-5	_	_

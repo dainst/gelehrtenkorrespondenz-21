@@ -1,0 +1,136 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=296 Helbig an Henzen London , 4. Juni 1871 Güte , zu verificiren , ob wir haben : Murdoch Smith and Porcher hist . of the rec .
+1-1	0-3	296	_	_	
+1-2	4-10	Helbig	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-20	Henzen	*	PERaddressee	
+1-5	21-27	London	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-32	4.	*[1]	DATEletter[1]	
+1-8	33-37	Juni	*[1]	DATEletter[1]	
+1-9	38-42	1871	*[1]	DATEletter[1]	
+1-10	43-47	Güte	_	_	
+1-11	48-49	,	_	_	
+1-12	50-52	zu	_	_	
+1-13	53-64	verificiren	_	_	
+1-14	65-66	,	_	_	
+1-15	67-69	ob	_	_	
+1-16	70-73	wir	_	_	
+1-17	74-79	haben	_	_	
+1-18	80-81	:	_	_	
+1-19	82-89	Murdoch	*[2]	PERmentioned[2]	
+1-20	90-95	Smith	*[2]	PERmentioned[2]	
+1-21	96-99	and	_	_	
+1-22	100-107	Porcher	*	PERmentioned	
+1-23	108-112	hist	_	_	
+1-24	113-114	.	_	_	
+1-25	115-117	of	_	_	
+1-26	118-121	the	_	_	
+1-27	122-125	rec	_	_	
+1-28	126-127	.	_	_	
+
+#Text=disc .
+2-1	128-132	disc	_	_	
+2-2	133-134	.	_	_	
+
+#Text=at Cyrene London 1864 fol . Ich glaube bestimmt , daß auch dieses Buch uns fehlt .
+3-1	135-137	at	_	_	
+3-2	138-144	Cyrene	*	PLACEmentioned	
+3-3	145-151	London	*	PLACEmentioned	
+3-4	152-156	1864	*	DATEmentioned	
+3-5	157-160	fol	_	_	
+3-6	161-162	.	_	_	
+3-7	163-166	Ich	_	_	
+3-8	167-173	glaube	_	_	
+3-9	174-182	bestimmt	_	_	
+3-10	183-184	,	_	_	
+3-11	185-188	daß	_	_	
+3-12	189-193	auch	_	_	
+3-13	194-200	dieses	_	_	
+3-14	201-205	Buch	_	_	
+3-15	206-209	uns	_	_	
+3-16	210-215	fehlt	_	_	
+3-17	216-217	.	_	_	
+
+#Text=Newton und Franks haben versprochen , die Direction des Brit .
+4-1	218-224	Newton	*	PERmentioned	
+4-2	225-228	und	_	_	
+4-3	229-235	Franks	*	PERmentioned	
+4-4	236-241	haben	_	_	
+4-5	242-253	versprochen	_	_	
+4-6	254-255	,	_	_	
+4-7	256-259	die	_	_	
+4-8	260-269	Direction	*[3]	ORGmentioned[3]	
+4-9	270-273	des	*[3]	ORGmentioned[3]	
+4-10	274-278	Brit	*[3]	ORGmentioned[3]	
+4-11	279-280	.	*[3]	ORGmentioned[3]	
+
+#Text=Museums zu veranlassen , uns diese Werke zu Schenken .
+5-1	281-288	Museums	*[3]	ORGmentioned[3]	
+5-2	289-291	zu	_	_	
+5-3	292-303	veranlassen	_	_	
+5-4	304-305	,	_	_	
+5-5	306-309	uns	_	_	
+5-6	310-315	diese	_	_	
+5-7	316-321	Werke	_	_	
+5-8	322-324	zu	_	_	
+5-9	325-333	Schenken	_	_	
+5-10	334-335	.	_	_	
+
+#Text=Sie verreisen gegen Mitte Juli und es wäre wünschenswerth das Eisen zu schmieden , so lange es warm ist .
+6-1	336-339	Sie	_	_	
+6-2	340-349	verreisen	_	_	
+6-3	350-355	gegen	_	_	
+6-4	356-361	Mitte	*[4]	DATEmentioned[4]	
+6-5	362-366	Juli	*[4]	DATEmentioned[4]	
+6-6	367-370	und	_	_	
+6-7	371-373	es	_	_	
+6-8	374-378	wäre	_	_	
+6-9	379-393	wünschenswerth	_	_	
+6-10	394-397	das	_	_	
+6-11	398-403	Eisen	_	_	
+6-12	404-406	zu	_	_	
+6-13	407-416	schmieden	_	_	
+6-14	417-418	,	_	_	
+6-15	419-421	so	_	_	
+6-16	422-427	lange	_	_	
+6-17	428-430	es	_	_	
+6-18	431-435	warm	_	_	
+6-19	436-439	ist	_	_	
+6-20	440-441	.	_	_	
+
+#Text=Die Dürftigkeit meines Schreibmaterials hindert mich an ausführlicher Mittheilung .
+7-1	442-445	Die	_	_	
+7-2	446-457	Dürftigkeit	_	_	
+7-3	458-464	meines	_	_	
+7-4	465-481	Schreibmaterials	_	_	
+7-5	482-489	hindert	_	_	
+7-6	490-494	mich	_	_	
+7-7	495-497	an	_	_	
+7-8	498-511	ausführlicher	_	_	
+7-9	512-523	Mittheilung	_	_	
+7-10	524-525	.	_	_	
+
+#Text=Entschuldigen Sie !
+8-1	526-539	Entschuldigen	_	_	
+8-2	540-543	Sie	_	_	
+8-3	544-545	!	_	_	
+
+#Text=Herzliche Grüße an Fräulein Kopf und die Kapitoliner !
+9-1	546-555	Herzliche	_	_	
+9-2	556-561	Grüße	_	_	
+9-3	562-564	an	_	_	
+9-4	565-573	Fräulein	_	_	
+9-5	574-578	Kopf	*	PERmentioned	
+9-6	579-582	und	_	_	
+9-7	583-586	die	_	_	
+9-8	587-598	Kapitoliner	_	_	
+9-9	599-600	!	_	_	
+
+#Text=Ihr ergebener Helbig
+10-1	601-604	Ihr	_	_	
+10-2	605-614	ergebener	_	_	
+10-3	615-621	Helbig	*	PERauthor	

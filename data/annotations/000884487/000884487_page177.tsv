@@ -1,0 +1,261 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Livorno , 20. Juni 1837 Dr. Braun g . 24/6 37 CLXXXV Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Livorno	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	20.	*[6]	DATEletter[6]
+1-7	31-35	Juni	*[6]	DATEletter[6]
+1-8	36-40	1837	*[6]	DATEletter[6]
+1-9	41-44	Dr.	_	_
+1-10	45-50	Braun	*	PERaddressee
+1-11	51-52	g	_	_
+1-12	53-54	.	_	_
+1-13	55-59	24/6	*[7]	DATErecieved[7]
+1-14	60-62	37	*[7]	DATErecieved[7]
+1-15	63-69	CLXXXV	_	_
+1-16	70-73	Dir	_	_
+1-17	74-75	.	_	_
+
+#Text=Rom .
+2-1	76-79	Rom	*	PLACEto
+2-2	80-81	.	_	_
+
+#Text=r . 24/6 37 Volle 5 Wochen Einsperrung sind in der That über mich und meine Companie ausgesprochen \; erst am 22 Juli ist Hoffnung herauszudürfen .
+3-1	82-83	r	_	_
+3-2	84-85	.	_	_
+3-3	86-90	24/6	*[8]	DATEanswered[8]
+3-4	91-93	37	*[8]	DATEanswered[8]
+3-5	94-99	Volle	_	_
+3-6	100-101	5	_	_
+3-7	102-108	Wochen	_	_
+3-8	109-120	Einsperrung	_	_
+3-9	121-125	sind	_	_
+3-10	126-128	in	_	_
+3-11	129-132	der	_	_
+3-12	133-137	That	_	_
+3-13	138-142	über	_	_
+3-14	143-147	mich	_	_
+3-15	148-151	und	_	_
+3-16	152-157	meine	_	_
+3-17	158-166	Companie	_	_
+3-18	167-180	ausgesprochen	_	_
+3-19	181-182	\;	_	_
+3-20	183-187	erst	_	_
+3-21	188-190	am	_	_
+3-22	191-193	22	*[9]	DATEmentioned[9]
+3-23	194-198	Juli	*[9]	DATEmentioned[9]
+3-24	199-202	ist	_	_
+3-25	203-211	Hoffnung	_	_
+3-26	212-226	herauszudürfen	_	_
+3-27	227-228	.	_	_
+
+#Text=Obwohl Augen und Laune mir dato noch nicht recht zusagen wollen , so hoffe ich doch arbeiten zu können , sofern sich Stoff dazu findet , an den ich leider nicht denken konnte \; die Reise hat wenig zu verarbeiten gegeben .
+4-1	229-235	Obwohl	_	_
+4-2	236-241	Augen	_	_
+4-3	242-245	und	_	_
+4-4	246-251	Laune	_	_
+4-5	252-255	mir	_	_
+4-6	256-260	dato	_	_
+4-7	261-265	noch	_	_
+4-8	266-271	nicht	_	_
+4-9	272-277	recht	_	_
+4-10	278-285	zusagen	_	_
+4-11	286-292	wollen	_	_
+4-12	293-294	,	_	_
+4-13	295-297	so	_	_
+4-14	298-303	hoffe	_	_
+4-15	304-307	ich	_	_
+4-16	308-312	doch	_	_
+4-17	313-321	arbeiten	_	_
+4-18	322-324	zu	_	_
+4-19	325-331	können	_	_
+4-20	332-333	,	_	_
+4-21	334-340	sofern	_	_
+4-22	341-345	sich	_	_
+4-23	346-351	Stoff	_	_
+4-24	352-356	dazu	_	_
+4-25	357-363	findet	_	_
+4-26	364-365	,	_	_
+4-27	366-368	an	_	_
+4-28	369-372	den	_	_
+4-29	373-376	ich	_	_
+4-30	377-383	leider	_	_
+4-31	384-389	nicht	_	_
+4-32	390-396	denken	_	_
+4-33	397-403	konnte	_	_
+4-34	404-405	\;	_	_
+4-35	406-409	die	_	_
+4-36	410-415	Reise	_	_
+4-37	416-419	hat	_	_
+4-38	420-425	wenig	_	_
+4-39	426-428	zu	_	_
+4-40	429-440	verarbeiten	_	_
+4-41	441-448	gegeben	_	_
+4-42	449-450	.	_	_
+
+#Text=Habt ihr daher irgend etwas nöthig was ich Euch leisten kann so schickt mirs zu .
+5-1	451-455	Habt	_	_
+5-2	456-459	ihr	_	_
+5-3	460-465	daher	_	_
+5-4	466-472	irgend	_	_
+5-5	473-478	etwas	_	_
+5-6	479-485	nöthig	_	_
+5-7	486-489	was	_	_
+5-8	490-493	ich	_	_
+5-9	494-498	Euch	_	_
+5-10	499-506	leisten	_	_
+5-11	507-511	kann	_	_
+5-12	512-514	so	_	_
+5-13	515-522	schickt	_	_
+5-14	523-527	mirs	_	_
+5-15	528-530	zu	_	_
+5-16	531-532	.	_	_
+
+#Text=Bücher in denen sich strichweise , mit schwachen Augen , lesen läßt hätte ich auch gern , weiß aber nicht recht welche ich speciell zu solchem Behuf erlangen könnte \; auch brauche ich mehr Esprit als Erudition um hier einige Lebenslust zu behalten und zu erlangen .
+6-1	533-539	Bücher	_	_
+6-2	540-542	in	_	_
+6-3	543-548	denen	_	_
+6-4	549-553	sich	_	_
+6-5	554-565	strichweise	_	_
+6-6	566-567	,	_	_
+6-7	568-571	mit	_	_
+6-8	572-581	schwachen	_	_
+6-9	582-587	Augen	_	_
+6-10	588-589	,	_	_
+6-11	590-595	lesen	_	_
+6-12	596-600	läßt	_	_
+6-13	601-606	hätte	_	_
+6-14	607-610	ich	_	_
+6-15	611-615	auch	_	_
+6-16	616-620	gern	_	_
+6-17	621-622	,	_	_
+6-18	623-627	weiß	_	_
+6-19	628-632	aber	_	_
+6-20	633-638	nicht	_	_
+6-21	639-644	recht	_	_
+6-22	645-651	welche	_	_
+6-23	652-655	ich	_	_
+6-24	656-664	speciell	_	_
+6-25	665-667	zu	_	_
+6-26	668-675	solchem	_	_
+6-27	676-681	Behuf	_	_
+6-28	682-690	erlangen	_	_
+6-29	691-697	könnte	_	_
+6-30	698-699	\;	_	_
+6-31	700-704	auch	_	_
+6-32	705-712	brauche	_	_
+6-33	713-716	ich	_	_
+6-34	717-721	mehr	_	_
+6-35	722-728	Esprit	_	_
+6-36	729-732	als	_	_
+6-37	733-742	Erudition	_	_
+6-38	743-745	um	_	_
+6-39	746-750	hier	_	_
+6-40	751-757	einige	_	_
+6-41	758-768	Lebenslust	_	_
+6-42	769-771	zu	_	_
+6-43	772-780	behalten	_	_
+6-44	781-784	und	_	_
+6-45	785-787	zu	_	_
+6-46	788-796	erlangen	_	_
+6-47	797-798	.	_	_
+
+#Text=Einen freundlichen Vi hätte ich gern , immerhin den Th sch .
+7-1	799-804	Einen	_	_
+7-2	805-817	freundlichen	_	_
+7-3	818-820	Vi	_	_
+7-4	821-826	hätte	_	_
+7-5	827-830	ich	_	_
+7-6	831-835	gern	_	_
+7-7	836-837	,	_	_
+7-8	838-846	immerhin	_	_
+7-9	847-850	den	_	_
+7-10	851-853	Th	_	_
+7-11	854-857	sch	_	_
+7-12	858-859	.	_	_
+
+#Text=Gäbe es irgend etwas was nur zu Awu siren paßte ?
+8-1	860-864	Gäbe	_	_
+8-2	865-867	es	_	_
+8-3	868-874	irgend	_	_
+8-4	875-880	etwas	_	_
+8-5	881-884	was	_	_
+8-6	885-888	nur	_	_
+8-7	889-891	zu	_	_
+8-8	892-895	Awu	_	_
+8-9	896-901	siren	_	_
+8-10	902-907	paßte	_	_
+8-11	908-909	?	_	_
+
+#Text=Die Korrespondenz werden Sie mir wol so vertheilen daß ich dasjenige was nicht Rom , Berlin , Ausland zur Firma hat , durch ein Courierpacket bekomme .
+9-1	910-913	Die	_	_
+9-2	914-927	Korrespondenz	_	_
+9-3	928-934	werden	_	_
+9-4	935-938	Sie	_	_
+9-5	939-942	mir	_	_
+9-6	943-946	wol	_	_
+9-7	947-949	so	_	_
+9-8	950-960	vertheilen	_	_
+9-9	961-964	daß	_	_
+9-10	965-968	ich	_	_
+9-11	969-978	dasjenige	_	_
+9-12	979-982	was	_	_
+9-13	983-988	nicht	_	_
+9-14	989-992	Rom	*	PLACEmentioned
+9-15	993-994	,	_	_
+9-16	995-1001	Berlin	*	PLACEmentioned
+9-17	1002-1003	,	_	_
+9-18	1004-1011	Ausland	_	_
+9-19	1012-1015	zur	_	_
+9-20	1016-1021	Firma	_	_
+9-21	1022-1025	hat	_	_
+9-22	1026-1027	,	_	_
+9-23	1028-1033	durch	_	_
+9-24	1034-1037	ein	_	_
+9-25	1038-1051	Courierpacket	_	_
+9-26	1052-1059	bekomme	_	_
+9-27	1060-1061	.	_	_
+
+#Text=Die Beilage an Zahn senden Sie gefälligst mit der Post , wenn der Neapter Courier nicht bald geht .
+10-1	1062-1065	Die	_	_
+10-2	1066-1073	Beilage	_	_
+10-3	1074-1076	an	_	_
+10-4	1077-1081	Zahn	*	PERmentioned
+10-5	1082-1088	senden	_	_
+10-6	1089-1092	Sie	_	_
+10-7	1093-1103	gefälligst	_	_
+10-8	1104-1107	mit	_	_
+10-9	1108-1111	der	_	_
+10-10	1112-1116	Post	_	_
+10-11	1117-1118	,	_	_
+10-12	1119-1123	wenn	_	_
+10-13	1124-1127	der	_	_
+10-14	1128-1135	Neapter	*	PLACEmentioned
+10-15	1136-1143	Courier	_	_
+10-16	1144-1149	nicht	_	_
+10-17	1150-1154	bald	_	_
+10-18	1155-1159	geht	_	_
+10-19	1160-1161	.	_	_
+
+#Text=Ich habe ihm Ausgrabungsfragen gestellt , die Statistik der dortigen Einrichtungen betreffend , und wünschte Sie
+11-1	1162-1165	Ich	_	_
+11-2	1166-1170	habe	_	_
+11-3	1171-1174	ihm	_	_
+11-4	1175-1192	Ausgrabungsfragen	_	_
+11-5	1193-1201	gestellt	_	_
+11-6	1202-1203	,	_	_
+11-7	1204-1207	die	_	_
+11-8	1208-1217	Statistik	_	_
+11-9	1218-1221	der	_	_
+11-10	1222-1230	dortigen	_	_
+11-11	1231-1244	Einrichtungen	_	_
+11-12	1245-1255	betreffend	_	_
+11-13	1256-1257	,	_	_
+11-14	1258-1261	und	_	_
+11-15	1262-1270	wünschte	_	_
+11-16	1271-1274	Sie	_	_

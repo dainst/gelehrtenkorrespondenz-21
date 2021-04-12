@@ -1,0 +1,226 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=20 Lepsius an Henzen Berlin , 7 .
+1-1	0-2	20	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	7	_	_
+1-8	32-33	.	_	_
+
+#Text=Januar 1875 g . 1/1 75 r . 12/75 Berlin d . 7 .
+2-1	34-40	Januar	*[1]	DATEletter[1]
+2-2	41-45	1875	*[1]	DATEletter[1]
+2-3	46-47	g	_	_
+2-4	48-49	.	_	_
+2-5	50-53	1/1	*[2]	DATErecieved[2]
+2-6	54-56	75	*[2]	DATErecieved[2]
+2-7	57-58	r	_	_
+2-8	59-60	.	_	_
+2-9	61-66	12/75	*	DATEanswered
+2-10	67-73	Berlin	*	PLACEfrom
+2-11	74-75	d	_	_
+2-12	76-77	.	_	_
+2-13	78-79	7	*[3]	DATEletter[3]
+2-14	80-81	.	*[3]	DATEletter[3]
+
+#Text=Jan .
+3-1	82-85	Jan	*[3]	DATEletter[3]
+3-2	86-87	.	*[3]	DATEletter[3]
+
+#Text=1875 Verehrter Freund Ich eile meinen gestrigen Konfusen wieder gut zu machen .
+4-1	88-92	1875	*[3]	DATEletter[3]
+4-2	93-102	Verehrter	_	_
+4-3	103-109	Freund	_	_
+4-4	110-113	Ich	_	_
+4-5	114-118	eile	_	_
+4-6	119-125	meinen	_	_
+4-7	126-135	gestrigen	_	_
+4-8	136-144	Konfusen	_	_
+4-9	145-151	wieder	_	_
+4-10	152-155	gut	_	_
+4-11	156-158	zu	_	_
+4-12	159-165	machen	_	_
+4-13	166-167	.	_	_
+
+#Text=Sie werden selbst gesehen haben , daß ich die Preußischen mit den Deutschen Institutsfonds verwechselt habe , da ich leider immer mit beiden , dem Reichstags und dem Landtag 's Bewilligungen zu thun habe .
+5-1	168-171	Sie	_	_
+5-2	172-178	werden	_	_
+5-3	179-185	selbst	_	_
+5-4	186-193	gesehen	_	_
+5-5	194-199	haben	_	_
+5-6	200-201	,	_	_
+5-7	202-205	daß	_	_
+5-8	206-209	ich	_	_
+5-9	210-213	die	_	_
+5-10	214-225	Preußischen	_	_
+5-11	226-229	mit	_	_
+5-12	230-233	den	_	_
+5-13	234-243	Deutschen	_	_
+5-14	244-258	Institutsfonds	_	_
+5-15	259-270	verwechselt	_	_
+5-16	271-275	habe	_	_
+5-17	276-277	,	_	_
+5-18	278-280	da	_	_
+5-19	281-284	ich	_	_
+5-20	285-291	leider	_	_
+5-21	292-297	immer	_	_
+5-22	298-301	mit	_	_
+5-23	302-308	beiden	_	_
+5-24	309-310	,	_	_
+5-25	311-314	dem	_	_
+5-26	315-325	Reichstags	*	ORGmentioned
+5-27	326-329	und	_	_
+5-28	330-333	dem	_	_
+5-29	334-341	Landtag	*[6]	ORGmentioned[6]
+5-30	342-344	's	*[6]	ORGmentioned[6]
+5-31	345-358	Bewilligungen	_	_
+5-32	359-361	zu	_	_
+5-33	362-366	thun	_	_
+5-34	367-371	habe	_	_
+5-35	372-373	.	_	_
+
+#Text=und mit den letztern jetzt vornehmlich .
+6-1	374-377	und	_	_
+6-2	378-381	mit	_	_
+6-3	382-385	den	_	_
+6-4	386-394	letztern	_	_
+6-5	395-400	jetzt	_	_
+6-6	401-412	vornehmlich	_	_
+6-7	413-414	.	_	_
+
+#Text=Unsre Reichstagsbewilligungen sind ja da , und die Anweisungen für 1875 werden Ihnen etwa in 4 Tagen zugeschickt werden .
+7-1	415-420	Unsre	_	_
+7-2	421-444	Reichstagsbewilligungen	_	_
+7-3	445-449	sind	_	_
+7-4	450-452	ja	_	_
+7-5	453-455	da	_	_
+7-6	456-457	,	_	_
+7-7	458-461	und	_	_
+7-8	462-465	die	_	_
+7-9	466-477	Anweisungen	_	_
+7-10	478-481	für	_	_
+7-11	482-486	1875	*	DATEmentioned
+7-12	487-493	werden	_	_
+7-13	494-499	Ihnen	_	_
+7-14	500-504	etwa	_	_
+7-15	505-507	in	_	_
+7-16	508-509	4	_	_
+7-17	510-515	Tagen	_	_
+7-18	516-527	zugeschickt	_	_
+7-19	528-534	werden	_	_
+7-20	535-536	.	_	_
+
+#Text=Es wird dann die ganze Summe Ihres Römischen Etats auf einmal auf die Römische Gesandtschaft angewiesen werden , zu Ihrer Disposition , vierteljährlich praenumerando zu erheben .
+8-1	537-539	Es	_	_
+8-2	540-544	wird	_	_
+8-3	545-549	dann	_	_
+8-4	550-553	die	_	_
+8-5	554-559	ganze	_	_
+8-6	560-565	Summe	_	_
+8-7	566-571	Ihres	_	_
+8-8	572-581	Römischen	_	_
+8-9	582-587	Etats	_	_
+8-10	588-591	auf	_	_
+8-11	592-598	einmal	_	_
+8-12	599-602	auf	_	_
+8-13	603-606	die	_	_
+8-14	607-615	Römische	*[4]	ORGmentioned[4]
+8-15	616-629	Gesandtschaft	*[4]	ORGmentioned[4]
+8-16	630-640	angewiesen	_	_
+8-17	641-647	werden	_	_
+8-18	648-649	,	_	_
+8-19	650-652	zu	_	_
+8-20	653-658	Ihrer	_	_
+8-21	659-670	Disposition	_	_
+8-22	671-672	,	_	_
+8-23	673-688	vierteljährlich	_	_
+8-24	689-702	praenumerando	_	_
+8-25	703-705	zu	_	_
+8-26	706-713	erheben	_	_
+8-27	714-715	.	_	_
+
+#Text=Sobald die Ausfertigung des definitiven Etats in meinen Händen ist , werde ich Ihnen den für Sie bestimmten Auszug senden in Abschrift .
+9-1	716-722	Sobald	_	_
+9-2	723-726	die	_	_
+9-3	727-739	Ausfertigung	_	_
+9-4	740-743	des	_	_
+9-5	744-755	definitiven	_	_
+9-6	756-761	Etats	_	_
+9-7	762-764	in	_	_
+9-8	765-771	meinen	_	_
+9-9	772-778	Händen	_	_
+9-10	779-782	ist	_	_
+9-11	783-784	,	_	_
+9-12	785-790	werde	_	_
+9-13	791-794	ich	_	_
+9-14	795-800	Ihnen	_	_
+9-15	801-804	den	_	_
+9-16	805-808	für	_	_
+9-17	809-812	Sie	_	_
+9-18	813-823	bestimmten	_	_
+9-19	824-830	Auszug	_	_
+9-20	831-837	senden	_	_
+9-21	838-840	in	_	_
+9-22	841-850	Abschrift	_	_
+9-23	851-852	.	_	_
+
+#Text=Die Kasse ist auch jetzt erst dahinter gekommen , daß der Reservefonds doch wieder anwachsen wird .
+10-1	853-856	Die	_	_
+10-2	857-862	Kasse	_	_
+10-3	863-866	ist	_	_
+10-4	867-871	auch	_	_
+10-5	872-877	jetzt	_	_
+10-6	878-882	erst	_	_
+10-7	883-891	dahinter	_	_
+10-8	892-900	gekommen	_	_
+10-9	901-902	,	_	_
+10-10	903-906	daß	_	_
+10-11	907-910	der	_	_
+10-12	911-923	Reservefonds	_	_
+10-13	924-928	doch	_	_
+10-14	929-935	wieder	_	_
+10-15	936-945	anwachsen	_	_
+10-16	946-950	wird	_	_
+10-17	951-952	.	_	_
+
+#Text=Denn die Überschüsse der einzelnen Titel werden zunächst dem Titel Insgemein der Central Direktion zugeschrieben und wenn dieses zu voll wird , werden die zunächst überflüssigen Gelder in den Reservefonds gelegt , wo sie uns
+11-1	953-957	Denn	_	_
+11-2	958-961	die	_	_
+11-3	962-973	Überschüsse	_	_
+11-4	974-977	der	_	_
+11-5	978-987	einzelnen	_	_
+11-6	988-993	Titel	_	_
+11-7	994-1000	werden	_	_
+11-8	1001-1009	zunächst	_	_
+11-9	1010-1013	dem	_	_
+11-10	1014-1019	Titel	_	_
+11-11	1020-1029	Insgemein	_	_
+11-12	1030-1033	der	_	_
+11-13	1034-1041	Central	*[5]	ORGmentioned[5]
+11-14	1042-1051	Direktion	*[5]	ORGmentioned[5]
+11-15	1052-1065	zugeschrieben	_	_
+11-16	1066-1069	und	_	_
+11-17	1070-1074	wenn	_	_
+11-18	1075-1081	dieses	_	_
+11-19	1082-1084	zu	_	_
+11-20	1085-1089	voll	_	_
+11-21	1090-1094	wird	_	_
+11-22	1095-1096	,	_	_
+11-23	1097-1103	werden	_	_
+11-24	1104-1107	die	_	_
+11-25	1108-1116	zunächst	_	_
+11-26	1117-1130	überflüssigen	_	_
+11-27	1131-1137	Gelder	_	_
+11-28	1138-1140	in	_	_
+11-29	1141-1144	den	_	_
+11-30	1145-1157	Reservefonds	_	_
+11-31	1158-1164	gelegt	_	_
+11-32	1165-1166	,	_	_
+11-33	1167-1169	wo	_	_
+11-34	1170-1173	sie	_	_
+11-35	1174-1177	uns	_	_

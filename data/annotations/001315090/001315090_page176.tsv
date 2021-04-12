@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=464 lepsius an Henzen Berlin , 13 .
+1-1	0-3	464	_	_
+1-2	4-11	lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	13	_	_
+1-8	34-35	.	_	_
+
+#Text=Oktober 1874 g . 16/X 74 r . 17/10 Berlin , d . 13 .
+2-1	36-43	Oktober	*[5]	DATEletter[5]
+2-2	44-48	1874	*[5]	DATEletter[5]
+2-3	49-50	g	_	_
+2-4	51-52	.	_	_
+2-5	53-57	16/X	*[6]	DATErecieved[6]
+2-6	58-60	74	*[6]	DATErecieved[6]
+2-7	61-62	r	_	_
+2-8	63-64	.	_	_
+2-9	65-70	17/10	*	DATEanswered
+2-10	71-77	Berlin	*	PLACEfrom
+2-11	78-79	,	_	_
+2-12	80-81	d	*[7]	DATEletter[7]
+2-13	82-83	.	*[7]	DATEletter[7]
+2-14	84-86	13	*[7]	DATEletter[7]
+2-15	87-88	.	*[7]	DATEletter[7]
+
+#Text=Okt .
+3-1	89-92	Okt	*[7]	DATEletter[7]
+3-2	93-94	.	*[7]	DATEletter[7]
+
+#Text=1874 .
+4-1	95-99	1874	*[7]	DATEletter[7]
+4-2	100-101	.	_	_
+
+#Text=Verehrter Freund Von London endlich zurückgekehrt und wohl befriedigt von meiner Reise , eile ich um Ihren letzten Brief den ich so eben erhalten zu beantworten .
+5-1	102-111	Verehrter	_	_
+5-2	112-118	Freund	_	_
+5-3	119-122	Von	_	_
+5-4	123-129	London	*	PLACEmentioned
+5-5	130-137	endlich	_	_
+5-6	138-151	zurückgekehrt	_	_
+5-7	152-155	und	_	_
+5-8	156-160	wohl	_	_
+5-9	161-171	befriedigt	_	_
+5-10	172-175	von	_	_
+5-11	176-182	meiner	_	_
+5-12	183-188	Reise	_	_
+5-13	189-190	,	_	_
+5-14	191-195	eile	_	_
+5-15	196-199	ich	_	_
+5-16	200-202	um	_	_
+5-17	203-208	Ihren	_	_
+5-18	209-216	letzten	_	_
+5-19	217-222	Brief	_	_
+5-20	223-226	den	_	_
+5-21	227-230	ich	_	_
+5-22	231-233	so	_	_
+5-23	234-238	eben	_	_
+5-24	239-247	erhalten	_	_
+5-25	248-250	zu	_	_
+5-26	251-262	beantworten	_	_
+5-27	263-264	.	_	_
+
+#Text=Die freie Wohnung ist Ihnen nun in der That gewährt \; Sie verdanken sie lediglich Herrn von Keudell , dem ich mit meiner Empfehlung auch unsern Dank für seine Fürsprache auszusprechen bitte .
+6-1	265-268	Die	_	_
+6-2	269-274	freie	_	_
+6-3	275-282	Wohnung	_	_
+6-4	283-286	ist	_	_
+6-5	287-292	Ihnen	_	_
+6-6	293-296	nun	_	_
+6-7	297-299	in	_	_
+6-8	300-303	der	_	_
+6-9	304-308	That	_	_
+6-10	309-316	gewährt	_	_
+6-11	317-318	\;	_	_
+6-12	319-322	Sie	_	_
+6-13	323-332	verdanken	_	_
+6-14	333-336	sie	_	_
+6-15	337-346	lediglich	_	_
+6-16	347-352	Herrn	_	_
+6-17	353-356	von	*[8]	PERmentioned[8]
+6-18	357-364	Keudell	*[8]	PERmentioned[8]
+6-19	365-366	,	_	_
+6-20	367-370	dem	_	_
+6-21	371-374	ich	_	_
+6-22	375-378	mit	_	_
+6-23	379-385	meiner	_	_
+6-24	386-396	Empfehlung	_	_
+6-25	397-401	auch	_	_
+6-26	402-408	unsern	_	_
+6-27	409-413	Dank	_	_
+6-28	414-417	für	_	_
+6-29	418-423	seine	_	_
+6-30	424-434	Fürsprache	_	_
+6-31	435-448	auszusprechen	_	_
+6-32	449-454	bitte	_	_
+6-33	455-456	.	_	_
+
+#Text=Hier hatte die Central Direktion die freie Wohnung nur vom neuen Hause verstanden und beantragt .
+7-1	457-461	Hier	_	_
+7-2	462-467	hatte	_	_
+7-3	468-471	die	_	_
+7-4	472-479	Central	*[9]	ORGmentioned[9]
+7-5	480-489	Direktion	*[9]	ORGmentioned[9]
+7-6	490-493	die	_	_
+7-7	494-499	freie	_	_
+7-8	500-507	Wohnung	_	_
+7-9	508-511	nur	_	_
+7-10	512-515	vom	_	_
+7-11	516-521	neuen	_	_
+7-12	522-527	Hause	_	_
+7-13	528-538	verstanden	_	_
+7-14	539-542	und	_	_
+7-15	543-552	beantragt	_	_
+7-16	553-554	.	_	_
+
+#Text=Nach Ihrem ersten Briefe darüber ging ich in die Kasse , wo mir Hofrath Wiegener sagte , an Ihre Auffassung werde im Ministerium nicht gedacht \; er wolle aber noch besonders anfragen .
+8-1	555-559	Nach	_	_
+8-2	560-565	Ihrem	_	_
+8-3	566-572	ersten	_	_
+8-4	573-579	Briefe	_	_
+8-5	580-587	darüber	_	_
+8-6	588-592	ging	_	_
+8-7	593-596	ich	_	_
+8-8	597-599	in	_	_
+8-9	600-603	die	_	_
+8-10	604-609	Kasse	_	_
+8-11	610-611	,	_	_
+8-12	612-614	wo	_	_
+8-13	615-618	mir	_	_
+8-14	619-626	Hofrath	_	_
+8-15	627-635	Wiegener	*	PERmentioned
+8-16	636-641	sagte	_	_
+8-17	642-643	,	_	_
+8-18	644-646	an	_	_
+8-19	647-651	Ihre	_	_
+8-20	652-662	Auffassung	_	_
+8-21	663-668	werde	_	_
+8-22	669-671	im	_	_
+8-23	672-683	Ministerium	*	ORGmentioned
+8-24	684-689	nicht	_	_
+8-25	690-697	gedacht	_	_
+8-26	698-699	\;	_	_
+8-27	700-702	er	_	_
+8-28	703-708	wolle	_	_
+8-29	709-713	aber	_	_
+8-30	714-718	noch	_	_
+8-31	719-728	besonders	_	_
+8-32	729-737	anfragen	_	_
+8-33	738-739	.	_	_
+
+#Text=Das geschah und Heppke bestätigte dies auf das Bestimmteste \; man könne keine freie Wohnung gewähren , außer wenn man ein Haus dafür habe .
+9-1	740-743	Das	_	_
+9-2	744-751	geschah	_	_
+9-3	752-755	und	_	_
+9-4	756-762	Heppke	*	PERmentioned
+9-5	763-773	bestätigte	_	_
+9-6	774-778	dies	_	_
+9-7	779-782	auf	_	_
+9-8	783-786	das	_	_
+9-9	787-799	Bestimmteste	_	_
+9-10	800-801	\;	_	_
+9-11	802-805	man	_	_
+9-12	806-811	könne	_	_
+9-13	812-817	keine	_	_
+9-14	818-823	freie	_	_
+9-15	824-831	Wohnung	_	_
+9-16	832-840	gewähren	_	_
+9-17	841-842	,	_	_
+9-18	843-848	außer	_	_
+9-19	849-853	wenn	_	_
+9-20	854-857	man	_	_
+9-21	858-861	ein	_	_
+9-22	862-866	Haus	_	_
+9-23	867-872	dafür	_	_
+9-24	873-877	habe	_	_
+9-25	878-879	.	_	_
+
+#Text=Er werde aber noch einmal einen besonderen Bericht darüber machen , da auch Herr von Keudell angefragt habe , aber einen abschläglichen .
+10-1	880-882	Er	_	_
+10-2	883-888	werde	_	_
+10-3	889-893	aber	_	_
+10-4	894-898	noch	_	_
+10-5	899-905	einmal	_	_
+10-6	906-911	einen	_	_
+10-7	912-922	besonderen	_	_
+10-8	923-930	Bericht	_	_
+10-9	931-938	darüber	_	_
+10-10	939-945	machen	_	_
+10-11	946-947	,	_	_
+10-12	948-950	da	_	_
+10-13	951-955	auch	_	_
+10-14	956-960	Herr	_	_
+10-15	961-964	von	*[10]	PERmentioned[10]
+10-16	965-972	Keudell	*[10]	PERmentioned[10]
+10-17	973-982	angefragt	_	_
+10-18	983-987	habe	_	_
+10-19	988-989	,	_	_
+10-20	990-994	aber	_	_
+10-21	995-1000	einen	_	_
+10-22	1001-1015	abschläglichen	_	_
+10-23	1016-1017	.	_	_
+
+#Text=Darauf ein zweiter Brief von Herrn von Keudell , der sich auf den Wortlaut der Statuten berief .
+11-1	1018-1024	Darauf	_	_
+11-2	1025-1028	ein	_	_
+11-3	1029-1036	zweiter	_	_
+11-4	1037-1042	Brief	_	_
+11-5	1043-1046	von	_	_
+11-6	1047-1052	Herrn	_	_
+11-7	1053-1056	von	*[11]	PERmentioned[11]
+11-8	1057-1064	Keudell	*[11]	PERmentioned[11]
+11-9	1065-1066	,	_	_
+11-10	1067-1070	der	_	_
+11-11	1071-1075	sich	_	_
+11-12	1076-1079	auf	_	_
+11-13	1080-1083	den	_	_
+11-14	1084-1092	Wortlaut	_	_
+11-15	1093-1096	der	_	_
+11-16	1097-1105	Statuten	_	_
+11-17	1106-1112	berief	_	_
+11-18	1113-1114	.	_	_
+
+#Text=Daraufhin hat der Minister Heppke 's bereits vorliegenden Bericht verworfen und be-
+12-1	1115-1124	Daraufhin	_	_
+12-2	1125-1128	hat	_	_
+12-3	1129-1132	der	_	_
+12-4	1133-1141	Minister	_	_
+12-5	1142-1148	Heppke	*[12]	PERmentioned[12]
+12-6	1149-1151	's	*[12]	PERmentioned[12]
+12-7	1152-1159	bereits	_	_
+12-8	1160-1172	vorliegenden	_	_
+12-9	1173-1180	Bericht	_	_
+12-10	1181-1190	verworfen	_	_
+12-11	1191-1194	und	_	_
+12-12	1195-1198	be-	_	_

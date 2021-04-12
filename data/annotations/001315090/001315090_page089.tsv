@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=84 Lepsius an Henzen Berlin , 2. April 1873 g . 6/4 79 B. d . 2. April 1873 .
+1-1	0-2	84	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	2.	*[1]	DATEletter[1]
+1-8	33-38	April	*[1]	DATEletter[1]
+1-9	39-43	1873	*[1]	DATEletter[1]
+1-10	44-45	g	_	_
+1-11	46-47	.	_	_
+1-12	48-51	6/4	*[2]	DATErecieved[2]
+1-13	52-54	79	*[2]	DATErecieved[2]
+1-14	55-57	B.	_	_
+1-15	58-59	d	_	_
+1-16	60-61	.	_	_
+1-17	62-64	2.	*[3]	DATEletter[3]
+1-18	65-70	April	*[3]	DATEletter[3]
+1-19	71-75	1873	*[3]	DATEletter[3]
+1-20	76-77	.	_	_
+
+#Text=Verehrtester Freund Nur für einige Worte habe ich eben Zeit um Ihnen zu melden , daß soeben die officielle Nachricht von der Zulage zu Ihren Besoldungen von resp .
+2-1	78-90	Verehrtester	_	_
+2-2	91-97	Freund	_	_
+2-3	98-101	Nur	_	_
+2-4	102-105	für	_	_
+2-5	106-112	einige	_	_
+2-6	113-118	Worte	_	_
+2-7	119-123	habe	_	_
+2-8	124-127	ich	_	_
+2-9	128-132	eben	_	_
+2-10	133-137	Zeit	_	_
+2-11	138-140	um	_	_
+2-12	141-146	Ihnen	_	_
+2-13	147-149	zu	_	_
+2-14	150-156	melden	_	_
+2-15	157-158	,	_	_
+2-16	159-162	daß	_	_
+2-17	163-169	soeben	_	_
+2-18	170-173	die	_	_
+2-19	174-184	officielle	_	_
+2-20	185-194	Nachricht	_	_
+2-21	195-198	von	_	_
+2-22	199-202	der	_	_
+2-23	203-209	Zulage	_	_
+2-24	210-212	zu	_	_
+2-25	213-218	Ihren	_	_
+2-26	219-230	Besoldungen	_	_
+2-27	231-234	von	_	_
+2-28	235-239	resp	_	_
+2-29	240-241	.	_	_
+
+#Text=600 r und 200 r , so wie von 400 r zur Remunerirung eines Gehülfen Für Sie bei mir eingeht .
+3-1	242-245	600	_	_
+3-2	246-247	r	_	_
+3-3	248-251	und	_	_
+3-4	252-255	200	_	_
+3-5	256-257	r	_	_
+3-6	258-259	,	_	_
+3-7	260-262	so	_	_
+3-8	263-266	wie	_	_
+3-9	267-270	von	_	_
+3-10	271-274	400	_	_
+3-11	275-276	r	_	_
+3-12	277-280	zur	_	_
+3-13	281-293	Remunerirung	_	_
+3-14	294-299	eines	_	_
+3-15	300-308	Gehülfen	_	_
+3-16	309-312	Für	_	_
+3-17	313-316	Sie	_	_
+3-18	317-320	bei	_	_
+3-19	321-324	mir	_	_
+3-20	325-332	eingeht	_	_
+3-21	333-334	.	_	_
+
+#Text=Die Kaiserl .
+4-1	335-338	Die	_	_
+4-2	339-346	Kaiserl	*[4]	ORGmentioned[4]
+4-3	347-348	.	*[4]	ORGmentioned[4]
+
+#Text=Gesandkschaft ist angewiesen zu zaheln .
+5-1	349-362	Gesandkschaft	*[4]	ORGmentioned[4]
+5-2	363-366	ist	_	_
+5-3	367-377	angewiesen	_	_
+5-4	378-380	zu	_	_
+5-5	381-387	zaheln	_	_
+5-6	388-389	.	_	_
+
+#Text=Ferner ist heute Morgen Ihr Brief vom 29.2 , gleichzeitig mit obigem Reskripte , das auch vom 29.2 datirt ist , angekommen .
+6-1	390-396	Ferner	_	_
+6-2	397-400	ist	_	_
+6-3	401-406	heute	_	_
+6-4	407-413	Morgen	_	_
+6-5	414-417	Ihr	_	_
+6-6	418-423	Brief	_	_
+6-7	424-427	vom	_	_
+6-8	428-432	29.2	*[5]	DATEmentioned[5]
+6-9	433-434	,	_	_
+6-10	435-447	gleichzeitig	_	_
+6-11	448-451	mit	_	_
+6-12	452-458	obigem	_	_
+6-13	459-468	Reskripte	_	_
+6-14	469-470	,	_	_
+6-15	471-474	das	_	_
+6-16	475-479	auch	_	_
+6-17	480-483	vom	_	_
+6-18	484-488	29.2	*[6]	DATEmentioned[6]
+6-19	489-495	datirt	_	_
+6-20	496-499	ist	_	_
+6-21	500-501	,	_	_
+6-22	502-512	angekommen	_	_
+6-23	513-514	.	_	_
+
+#Text=Inventarisationsattest und Accessionsverzeichnis gehen alsbald ab , den Rechnungen nach .
+7-1	515-537	Inventarisationsattest	_	_
+7-2	538-541	und	_	_
+7-3	542-563	Accessionsverzeichnis	_	_
+7-4	564-569	gehen	_	_
+7-5	570-577	alsbald	_	_
+7-6	578-580	ab	_	_
+7-7	581-582	,	_	_
+7-8	583-586	den	_	_
+7-9	587-597	Rechnungen	_	_
+7-10	598-602	nach	_	_
+7-11	603-604	.	_	_
+
+#Text=Mommsens Brief ist angekommen .
+8-1	605-613	Mommsens	*	PERmentioned
+8-2	614-619	Brief	_	_
+8-3	620-623	ist	_	_
+8-4	624-634	angekommen	_	_
+8-5	635-636	.	_	_
+
+#Text=Ich freue mich daß es ihm so wohl geht .
+9-1	637-640	Ich	_	_
+9-2	641-646	freue	_	_
+9-3	647-651	mich	_	_
+9-4	652-655	daß	_	_
+9-5	656-658	es	_	_
+9-6	659-662	ihm	_	_
+9-7	663-665	so	_	_
+9-8	666-670	wohl	_	_
+9-9	671-675	geht	_	_
+9-10	676-677	.	_	_
+
+#Text=Es ist begreiflich , daß sein Erscheinen in Rom dieses Jahr besonderes Interesse nach allen Seiten hin erweckt .
+10-1	678-680	Es	_	_
+10-2	681-684	ist	_	_
+10-3	685-696	begreiflich	_	_
+10-4	697-698	,	_	_
+10-5	699-702	daß	_	_
+10-6	703-707	sein	_	_
+10-7	708-718	Erscheinen	_	_
+10-8	719-721	in	_	_
+10-9	722-725	Rom	*	PLACEmentioned
+10-10	726-732	dieses	_	_
+10-11	733-737	Jahr	_	_
+10-12	738-748	besonderes	_	_
+10-13	749-758	Interesse	_	_
+10-14	759-763	nach	_	_
+10-15	764-769	allen	_	_
+10-16	770-776	Seiten	_	_
+10-17	777-780	hin	_	_
+10-18	781-788	erweckt	_	_
+10-19	789-790	.	_	_
+
+#Text=Grüßen Sie ihn herzlich von mir \; ich schreibe ihm nächstens .
+11-1	791-797	Grüßen	_	_
+11-2	798-801	Sie	_	_
+11-3	802-805	ihn	_	_
+11-4	806-814	herzlich	_	_
+11-5	815-818	von	_	_
+11-6	819-822	mir	_	_
+11-7	823-824	\;	_	_
+11-8	825-828	ich	_	_
+11-9	829-837	schreibe	_	_
+11-10	838-841	ihm	_	_
+11-11	842-851	nächstens	_	_
+11-12	852-853	.	_	_
+
+#Text=Wenn das Medaillon gut ausfällt , werde ich der Familie vorschlagen eines in Mamor ( für sein Grab ? )
+12-1	854-858	Wenn	_	_
+12-2	859-862	das	_	_
+12-3	863-872	Medaillon	_	_
+12-4	873-876	gut	_	_
+12-5	877-885	ausfällt	_	_
+12-6	886-887	,	_	_
+12-7	888-893	werde	_	_
+12-8	894-897	ich	_	_
+12-9	898-901	der	_	_
+12-10	902-909	Familie	_	_
+12-11	910-921	vorschlagen	_	_
+12-12	922-927	eines	_	_
+12-13	928-930	in	_	_
+12-14	931-936	Mamor	_	_
+12-15	937-938	(	_	_
+12-16	939-942	für	_	_
+12-17	943-947	sein	_	_
+12-18	948-952	Grab	_	_
+12-19	953-954	?	_	_
+12-20	955-956	)	_	_
+
+#Text=ausführen zu lassen .
+13-1	957-966	ausführen	_	_
+13-2	967-969	zu	_	_
+13-3	970-976	lassen	_	_
+13-4	977-978	.	_	_
+
+#Text=Die Notiz von Helbig durch Mommsen über die Vasen habe ich abgegeben .
+14-1	979-982	Die	_	_
+14-2	983-988	Notiz	_	_
+14-3	989-992	von	_	_
+14-4	993-999	Helbig	*	PERmentioned
+14-5	1000-1005	durch	_	_
+14-6	1006-1013	Mommsen	*	PERmentioned
+14-7	1014-1018	über	_	_
+14-8	1019-1022	die	_	_
+14-9	1023-1028	Vasen	*	OBJ
+14-10	1029-1033	habe	_	_
+14-11	1034-1037	ich	_	_
+14-12	1038-1047	abgegeben	_	_
+14-13	1048-1049	.	_	_
+
+#Text=Usedom ist gestern gekommen o-
+15-1	1050-1056	Usedom	*	PERmentioned
+15-2	1057-1060	ist	_	_
+15-3	1061-1068	gestern	_	_
+15-4	1069-1077	gekommen	_	_
+15-5	1078-1080	o-	_	_

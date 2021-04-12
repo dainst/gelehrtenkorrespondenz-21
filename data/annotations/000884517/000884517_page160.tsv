@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=300 Gerhard an Braun Frankfurt , 25 .
+1-1	0-3	300	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-30	Frankfurt	*	PLACEfrom
+1-6	31-32	,	_	_
+1-7	33-35	25	*[1]	DATEletter[1]
+1-8	36-37	.	*[1]	DATEletter[1]
+
+#Text=August 1845 Herzlichst der Ihrige Gerhard Empfangen Sie diesen Brief noch zeitig genug , so wird es doch sicherer sein mir nach Livorno zu schreiben als nach Civita Vecchia .
+2-1	38-44	August	*[1]	DATEletter[1]
+2-2	45-49	1845	*[1]	DATEletter[1]
+2-3	50-60	Herzlichst	_	_
+2-4	61-64	der	_	_
+2-5	65-71	Ihrige	_	_
+2-6	72-79	Gerhard	*	PERauthor
+2-7	80-89	Empfangen	_	_
+2-8	90-93	Sie	_	_
+2-9	94-100	diesen	_	_
+2-10	101-106	Brief	_	_
+2-11	107-111	noch	_	_
+2-12	112-118	zeitig	_	_
+2-13	119-124	genug	_	_
+2-14	125-126	,	_	_
+2-15	127-129	so	_	_
+2-16	130-134	wird	_	_
+2-17	135-137	es	_	_
+2-18	138-142	doch	_	_
+2-19	143-151	sicherer	_	_
+2-20	152-156	sein	_	_
+2-21	157-160	mir	_	_
+2-22	161-165	nach	_	_
+2-23	166-173	Livorno	*	PLACEmentioned
+2-24	174-176	zu	_	_
+2-25	177-186	schreiben	_	_
+2-26	187-190	als	_	_
+2-27	191-195	nach	_	_
+2-28	196-202	Civita	*[2]	PLACEmentioned[2]
+2-29	203-210	Vecchia	*[2]	PLACEmentioned[2]
+2-30	211-212	.	_	_
+
+#Text=Ich ginge gern über Siena \; Blessig macht mich nur irr , als ob auf den Eilwagen wegen häufiger Überfüllung nich zu zählen sei .
+3-1	213-216	Ich	_	_
+3-2	217-222	ginge	_	_
+3-3	223-227	gern	_	_
+3-4	228-232	über	_	_
+3-5	233-238	Siena	*	PLACEmentioned
+3-6	239-240	\;	_	_
+3-7	241-248	Blessig	*	PERmentioned
+3-8	249-254	macht	_	_
+3-9	255-259	mich	_	_
+3-10	260-263	nur	_	_
+3-11	264-267	irr	_	_
+3-12	268-269	,	_	_
+3-13	270-273	als	_	_
+3-14	274-276	ob	_	_
+3-15	277-280	auf	_	_
+3-16	281-284	den	_	_
+3-17	285-293	Eilwagen	_	_
+3-18	294-299	wegen	_	_
+3-19	300-308	häufiger	_	_
+3-20	309-320	Überfüllung	_	_
+3-21	321-325	nich	_	_
+3-22	326-328	zu	_	_
+3-23	329-335	zählen	_	_
+3-24	336-339	sei	_	_
+3-25	340-341	.	_	_
+
+#Text=Das Curiosum des Berichts über Thiersch 's Vasenaufsatz in der Allgemeinen Zeitung , eines Studenten dem er am selben Tage der Vasenkunde imponirt , dürfen Sie nicht übersehen .
+4-1	342-345	Das	_	_
+4-2	346-354	Curiosum	_	_
+4-3	355-358	des	_	_
+4-4	359-367	Berichts	_	_
+4-5	368-372	über	_	_
+4-6	373-381	Thiersch	*[4]	PERmentioned[4]
+4-7	382-384	's	*[4]	PERmentioned[4]
+4-8	385-397	Vasenaufsatz	_	_
+4-9	398-400	in	_	_
+4-10	401-404	der	_	_
+4-11	405-416	Allgemeinen	_	_
+4-12	417-424	Zeitung	_	_
+4-13	425-426	,	_	_
+4-14	427-432	eines	_	_
+4-15	433-442	Studenten	_	_
+4-16	443-446	dem	_	_
+4-17	447-449	er	_	_
+4-18	450-452	am	_	_
+4-19	453-459	selben	_	_
+4-20	460-464	Tage	_	_
+4-21	465-468	der	_	_
+4-22	469-479	Vasenkunde	_	_
+4-23	480-488	imponirt	_	_
+4-24	489-490	,	_	_
+4-25	491-497	dürfen	_	_
+4-26	498-501	Sie	_	_
+4-27	502-507	nicht	_	_
+4-28	508-517	übersehen	_	_
+4-29	518-519	.	_	_
+
+#Text=- - Eben bekomme ich den Schluß und sehe daß ich die ewige Jugendlichkeit Ch . Walzii verkannt habe .
+5-1	520-521	-	_	_
+5-2	522-523	-	_	_
+5-3	524-528	Eben	_	_
+5-4	529-536	bekomme	_	_
+5-5	537-540	ich	_	_
+5-6	541-544	den	_	_
+5-7	545-551	Schluß	_	_
+5-8	552-555	und	_	_
+5-9	556-560	sehe	_	_
+5-10	561-564	daß	_	_
+5-11	565-568	ich	_	_
+5-12	569-572	die	_	_
+5-13	573-578	ewige	_	_
+5-14	579-593	Jugendlichkeit	_	_
+5-15	594-596	Ch	*[3]	PERmentioned[3]
+5-16	597-598	.	*[3]	PERmentioned[3]
+5-17	599-605	Walzii	*[3]	PERmentioned[3]
+5-18	606-614	verkannt	_	_
+5-19	615-619	habe	_	_
+5-20	620-621	.	_	_

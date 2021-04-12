@@ -1,0 +1,311 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\\ Gre .
+1-1	0-1	\\	_	_
+1-2	2-5	Gre	_	_
+1-3	6-7	.	_	_
+
+#Text=310 Braun an Gerhard Rom , 18. Juli 1837 Herrn Prof. Gerhard Livorno Rom 18 Juli 1837 Ihre Fossatische Minervengeburt wird unter den Händen unseres Orlandi ein stolzes Gefäß .
+2-1	8-11	310	_	_
+2-2	12-17	Braun	*	PERauthor
+2-3	18-20	an	_	_
+2-4	21-28	Gerhard	*	PERaddressee
+2-5	29-32	Rom	*	PLACEfrom
+2-6	33-34	,	_	_
+2-7	35-38	18.	*[5]	DATEletter[5]
+2-8	39-43	Juli	*[5]	DATEletter[5]
+2-9	44-48	1837	*[5]	DATEletter[5]
+2-10	49-54	Herrn	_	_
+2-11	55-60	Prof.	_	_
+2-12	61-68	Gerhard	*	PERaddressee
+2-13	69-76	Livorno	*	PLACEfrom
+2-14	77-80	Rom	*	PLACEfrom
+2-15	81-83	18	*[6]	DATEletter[6]
+2-16	84-88	Juli	*[6]	DATEletter[6]
+2-17	89-93	1837	*[6]	DATEletter[6]
+2-18	94-98	Ihre	_	_
+2-19	99-110	Fossatische	*	MISC
+2-20	111-125	Minervengeburt	*	OBJ
+2-21	126-130	wird	_	_
+2-22	131-136	unter	_	_
+2-23	137-140	den	_	_
+2-24	141-147	Händen	_	_
+2-25	148-155	unseres	_	_
+2-26	156-163	Orlandi	*	PERmentioned
+2-27	164-167	ein	_	_
+2-28	168-175	stolzes	_	_
+2-29	176-181	Gefäß	_	_
+2-30	182-183	.	_	_
+
+#Text=Er ist damit bereits weit vorgerückt und wird es vielleicht bis zu Ihrer Rückkunft beendigen .
+3-1	184-186	Er	_	_
+3-2	187-190	ist	_	_
+3-3	191-196	damit	_	_
+3-4	197-204	bereits	_	_
+3-5	205-209	weit	_	_
+3-6	210-220	vorgerückt	_	_
+3-7	221-224	und	_	_
+3-8	225-229	wird	_	_
+3-9	230-232	es	_	_
+3-10	233-243	vielleicht	_	_
+3-11	244-247	bis	_	_
+3-12	248-250	zu	_	_
+3-13	251-256	Ihrer	_	_
+3-14	257-266	Rückkunft	_	_
+3-15	267-276	beendigen	_	_
+3-16	277-278	.	_	_
+
+#Text=Die Vulcenter Minerva Ergane darf das Museum nicht mehr verlassen .
+4-1	279-282	Die	_	_
+4-2	283-292	Vulcenter	*	MISC
+4-3	293-300	Minerva	*[7]	PERmentioned[7]
+4-4	301-307	Ergane	*[7]	PERmentioned[7]
+4-5	308-312	darf	_	_
+4-6	313-316	das	_	_
+4-7	317-323	Museum	*	ORGmentioned
+4-8	324-329	nicht	_	_
+4-9	330-334	mehr	_	_
+4-10	335-344	verlassen	_	_
+4-11	345-346	.	_	_
+
+#Text=Es scheint daß man den Campanaris mehr hat eine Lection geben wollen , als sie in Schaden bringen .
+5-1	347-349	Es	_	_
+5-2	350-357	scheint	_	_
+5-3	358-361	daß	_	_
+5-4	362-365	man	_	_
+5-5	366-369	den	_	_
+5-6	370-380	Campanaris	*	PERmentioned
+5-7	381-385	mehr	_	_
+5-8	386-389	hat	_	_
+5-9	390-394	eine	_	_
+5-10	395-402	Lection	_	_
+5-11	403-408	geben	_	_
+5-12	409-415	wollen	_	_
+5-13	416-417	,	_	_
+5-14	418-421	als	_	_
+5-15	422-425	sie	_	_
+5-16	426-428	in	_	_
+5-17	429-436	Schaden	_	_
+5-18	437-444	bringen	_	_
+5-19	445-446	.	_	_
+
+#Text=Dies theilt mir Capranesi mit .
+6-1	447-451	Dies	_	_
+6-2	452-458	theilt	_	_
+6-3	459-462	mir	_	_
+6-4	463-472	Capranesi	*	PERmentioned
+6-5	473-476	mit	_	_
+6-6	477-478	.	_	_
+
+#Text=Es bleibt Ihnen also hoffentlich Fond die Fossatischen Vasen zu kaufen , zu denen ich sehr rathe .
+7-1	479-481	Es	_	_
+7-2	482-488	bleibt	_	_
+7-3	489-494	Ihnen	_	_
+7-4	495-499	also	_	_
+7-5	500-511	hoffentlich	_	_
+7-6	512-516	Fond	_	_
+7-7	517-520	die	_	_
+7-8	521-533	Fossatischen	*	MISC
+7-9	534-539	Vasen	*	OBJ
+7-10	540-542	zu	_	_
+7-11	543-549	kaufen	_	_
+7-12	550-551	,	_	_
+7-13	552-554	zu	_	_
+7-14	555-560	denen	_	_
+7-15	561-564	ich	_	_
+7-16	565-569	sehr	_	_
+7-17	570-575	rathe	_	_
+7-18	576-577	.	_	_
+
+#Text=Es ist ganz gegen meinen Vortheil , wenn ich dazu rathe , denn Fossati wollte mir die Publication derselben übertragen , allein Sie wissen , daß ich meinen Vortheil nie sehr im Auge habe .
+8-1	578-580	Es	_	_
+8-2	581-584	ist	_	_
+8-3	585-589	ganz	_	_
+8-4	590-595	gegen	_	_
+8-5	596-602	meinen	_	_
+8-6	603-611	Vortheil	_	_
+8-7	612-613	,	_	_
+8-8	614-618	wenn	_	_
+8-9	619-622	ich	_	_
+8-10	623-627	dazu	_	_
+8-11	628-633	rathe	_	_
+8-12	634-635	,	_	_
+8-13	636-640	denn	_	_
+8-14	641-648	Fossati	*	PERmentioned
+8-15	649-655	wollte	_	_
+8-16	656-659	mir	_	_
+8-17	660-663	die	_	_
+8-18	664-675	Publication	_	_
+8-19	676-685	derselben	_	_
+8-20	686-696	übertragen	_	_
+8-21	697-698	,	_	_
+8-22	699-705	allein	_	_
+8-23	706-709	Sie	_	_
+8-24	710-716	wissen	_	_
+8-25	717-718	,	_	_
+8-26	719-722	daß	_	_
+8-27	723-726	ich	_	_
+8-28	727-733	meinen	_	_
+8-29	734-742	Vortheil	_	_
+8-30	743-746	nie	_	_
+8-31	747-751	sehr	_	_
+8-32	752-754	im	_	_
+8-33	755-759	Auge	_	_
+8-34	760-764	habe	_	_
+8-35	765-766	.	_	_
+
+#Text=800 Scudi für 4 Kapitalstücke , unter denen sich der Sonnenaufgang , majestätisch und singulär , wie er auf Monumenten noch nie gesehen worden , ist eine billige Forderung .
+9-1	767-770	800	_	_
+9-2	771-776	Scudi	_	_
+9-3	777-780	für	_	_
+9-4	781-782	4	_	_
+9-5	783-796	Kapitalstücke	*	OBJ
+9-6	797-798	,	_	_
+9-7	799-804	unter	_	_
+9-8	805-810	denen	_	_
+9-9	811-815	sich	_	_
+9-10	816-819	der	_	_
+9-11	820-833	Sonnenaufgang	*	OBJ
+9-12	834-835	,	_	_
+9-13	836-848	majestätisch	_	_
+9-14	849-852	und	_	_
+9-15	853-861	singulär	_	_
+9-16	862-863	,	_	_
+9-17	864-867	wie	_	_
+9-18	868-870	er	_	_
+9-19	871-874	auf	_	_
+9-20	875-885	Monumenten	_	_
+9-21	886-890	noch	_	_
+9-22	891-894	nie	_	_
+9-23	895-902	gesehen	_	_
+9-24	903-909	worden	_	_
+9-25	910-911	,	_	_
+9-26	912-915	ist	_	_
+9-27	916-920	eine	_	_
+9-28	921-928	billige	_	_
+9-29	929-938	Forderung	_	_
+9-30	939-940	.	_	_
+
+#Text=Man kann sie wohl auch noch um einen etwas geringeren Preis haben .
+10-1	941-944	Man	_	_
+10-2	945-949	kann	_	_
+10-3	950-953	sie	_	_
+10-4	954-958	wohl	_	_
+10-5	959-963	auch	_	_
+10-6	964-968	noch	_	_
+10-7	969-971	um	_	_
+10-8	972-977	einen	_	_
+10-9	978-983	etwas	_	_
+10-10	984-994	geringeren	_	_
+10-11	995-1000	Preis	_	_
+10-12	1001-1006	haben	_	_
+10-13	1007-1008	.	_	_
+
+#Text=- Bei den Campanaris ist dies Jahr schwer zu kaufen .
+11-1	1009-1010	-	_	_
+11-2	1011-1014	Bei	_	_
+11-3	1015-1018	den	_	_
+11-4	1019-1029	Campanaris	*	PERmentioned
+11-5	1030-1033	ist	_	_
+11-6	1034-1038	dies	*[8]	DATEmentioned[8]
+11-7	1039-1043	Jahr	*[8]	DATEmentioned[8]
+11-8	1044-1050	schwer	_	_
+11-9	1051-1053	zu	_	_
+11-10	1054-1060	kaufen	_	_
+11-11	1061-1062	.	_	_
+
+#Text=Siccome hanno avuto il commodo di farsi stimare la robba pezzo per pezzo da Capranesi , cosi tutti gli oggetti quest'anno hanno prezzi fissi secondo il catalogo .
+12-1	1063-1070	Siccome	_	_
+12-2	1071-1076	hanno	_	_
+12-3	1077-1082	avuto	_	_
+12-4	1083-1085	il	_	_
+12-5	1086-1093	commodo	_	_
+12-6	1094-1096	di	_	_
+12-7	1097-1102	farsi	_	_
+12-8	1103-1110	stimare	_	_
+12-9	1111-1113	la	_	_
+12-10	1114-1119	robba	_	_
+12-11	1120-1125	pezzo	_	_
+12-12	1126-1129	per	_	_
+12-13	1130-1135	pezzo	_	_
+12-14	1136-1138	da	_	_
+12-15	1139-1148	Capranesi	*	PERmentioned
+12-16	1149-1150	,	_	_
+12-17	1151-1155	cosi	_	_
+12-18	1156-1161	tutti	_	_
+12-19	1162-1165	gli	_	_
+12-20	1166-1173	oggetti	_	_
+12-21	1174-1184	quest'anno	_	_
+12-22	1185-1190	hanno	_	_
+12-23	1191-1197	prezzi	_	_
+12-24	1198-1203	fissi	_	_
+12-25	1204-1211	secondo	_	_
+12-26	1212-1214	il	_	_
+12-27	1215-1223	catalogo	_	_
+12-28	1224-1225	.	_	_
+
+#Text=Ich bin indeß heut Morgen eben , als ich mit Apolloni hingegangen war um zeichnen zu lassen , 2 Stück gekauft , die ich billig habe , die mir aber mit Gold aufgewogen werden müssen , wenn ich sie wieder wggeben soll .
+13-1	1226-1229	Ich	_	_
+13-2	1230-1233	bin	_	_
+13-3	1234-1239	indeß	_	_
+13-4	1240-1244	heut	_	_
+13-5	1245-1251	Morgen	_	_
+13-6	1252-1256	eben	_	_
+13-7	1257-1258	,	_	_
+13-8	1259-1262	als	_	_
+13-9	1263-1266	ich	_	_
+13-10	1267-1270	mit	_	_
+13-11	1271-1279	Apolloni	*	PERmentioned
+13-12	1280-1291	hingegangen	_	_
+13-13	1292-1295	war	_	_
+13-14	1296-1298	um	_	_
+13-15	1299-1307	zeichnen	_	_
+13-16	1308-1310	zu	_	_
+13-17	1311-1317	lassen	_	_
+13-18	1318-1319	,	_	_
+13-19	1320-1321	2	_	_
+13-20	1322-1327	Stück	_	_
+13-21	1328-1335	gekauft	_	_
+13-22	1336-1337	,	_	_
+13-23	1338-1341	die	_	_
+13-24	1342-1345	ich	_	_
+13-25	1346-1352	billig	_	_
+13-26	1353-1357	habe	_	_
+13-27	1358-1359	,	_	_
+13-28	1360-1363	die	_	_
+13-29	1364-1367	mir	_	_
+13-30	1368-1372	aber	_	_
+13-31	1373-1376	mit	_	_
+13-32	1377-1381	Gold	_	_
+13-33	1382-1392	aufgewogen	_	_
+13-34	1393-1399	werden	_	_
+13-35	1400-1406	müssen	_	_
+13-36	1407-1408	,	_	_
+13-37	1409-1413	wenn	_	_
+13-38	1414-1417	ich	_	_
+13-39	1418-1421	sie	_	_
+13-40	1422-1428	wieder	_	_
+13-41	1429-1436	wggeben	_	_
+13-42	1437-1441	soll	_	_
+13-43	1442-1443	.	_	_
+
+#Text=Das eine ist die Schaale des Euphronios welche in Fragmenten in den Thermen von Vulci gefunden worden
+14-1	1444-1447	Das	_	_
+14-2	1448-1452	eine	_	_
+14-3	1453-1456	ist	_	_
+14-4	1457-1460	die	_	_
+14-5	1461-1468	Schaale	*[9]	OBJ[9]
+14-6	1469-1472	des	*[9]	OBJ[9]
+14-7	1473-1483	Euphronios	*[9]	OBJ[9]
+14-8	1484-1490	welche	_	_
+14-9	1491-1493	in	_	_
+14-10	1494-1504	Fragmenten	_	_
+14-11	1505-1507	in	_	_
+14-12	1508-1511	den	_	_
+14-13	1512-1519	Thermen	*	OBJ
+14-14	1520-1523	von	_	_
+14-15	1524-1529	Vulci	*	PERmentioned
+14-16	1530-1538	gefunden	_	_
+14-17	1539-1545	worden	_	_

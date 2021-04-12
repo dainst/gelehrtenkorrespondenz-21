@@ -1,0 +1,158 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\| \| \| 206 Braun an Gerhard Rom , 4. Februar 1836 Prof. Gerhard .
+1-1	0-1	\|	_	_
+1-2	2-3	\|	_	_
+1-3	4-5	\|	_	_
+1-4	6-9	206	_	_
+1-5	10-15	Braun	*	PERauthor
+1-6	16-18	an	_	_
+1-7	19-26	Gerhard	*	PERaddressee
+1-8	27-30	Rom	*	PLACEfrom
+1-9	31-32	,	_	_
+1-10	33-35	4.	*[5]	DATEletter[5]
+1-11	36-43	Februar	*[5]	DATEletter[5]
+1-12	44-48	1836	*[5]	DATEletter[5]
+1-13	49-54	Prof.	_	_
+1-14	55-62	Gerhard	*	PERaddressee
+1-15	63-64	.	_	_
+
+#Text=Roma li 4 Febbrajo 1836 .
+2-1	65-69	Roma	*	PLACEfrom
+2-2	70-72	li	_	_
+2-3	73-74	4	*[6]	DATEletter[6]
+2-4	75-83	Febbrajo	*[6]	DATEletter[6]
+2-5	84-88	1836	*[6]	DATEletter[6]
+2-6	89-90	.	_	_
+
+#Text=Hochverehrtester Freund !
+3-1	91-107	Hochverehrtester	_	_
+3-2	108-114	Freund	_	_
+3-3	115-116	!	_	_
+
+#Text=Auf Ihren letzten Brief ist wenig zu antworten .
+4-1	117-120	Auf	_	_
+4-2	121-126	Ihren	_	_
+4-3	127-134	letzten	_	_
+4-4	135-140	Brief	_	_
+4-5	141-144	ist	_	_
+4-6	145-150	wenig	_	_
+4-7	151-153	zu	_	_
+4-8	154-163	antworten	_	_
+4-9	164-165	.	_	_
+
+#Text=Anbei das Manuscript von Poletti , mit dem Sie zufrieden sein werden .
+5-1	166-171	Anbei	_	_
+5-2	172-175	das	_	_
+5-3	176-186	Manuscript	_	_
+5-4	187-190	von	_	_
+5-5	191-198	Poletti	*	PERmentioned
+5-6	199-200	,	_	_
+5-7	201-204	mit	_	_
+5-8	205-208	dem	_	_
+5-9	209-212	Sie	_	_
+5-10	213-222	zufrieden	_	_
+5-11	223-227	sein	_	_
+5-12	228-234	werden	_	_
+5-13	235-236	.	_	_
+
+#Text=Nächsten Sonnabend mit der Couriersendung erwarten uns auch einen Aufsatz von Lanci über die Thamyrisvase .
+6-1	237-245	Nächsten	_	_
+6-2	246-255	Sonnabend	_	_
+6-3	256-259	mit	_	_
+6-4	260-263	der	_	_
+6-5	264-278	Couriersendung	_	_
+6-6	279-287	erwarten	_	_
+6-7	288-291	uns	_	_
+6-8	292-296	auch	_	_
+6-9	297-302	einen	_	_
+6-10	303-310	Aufsatz	_	_
+6-11	311-314	von	_	_
+6-12	315-320	Lanci	*	PERmentioned
+6-13	321-325	über	_	_
+6-14	326-329	die	_	_
+6-15	330-342	Thamyrisvase	*	OBJ
+6-16	343-344	.	_	_
+
+#Text=Ich habe in Bunsens Auftrag eine Liste der vorzuschlagenden Monumente ausarbeiten müssen , die Sie mit gleicher Gelegenheit erhalten werden .
+7-1	345-348	Ich	_	_
+7-2	349-353	habe	_	_
+7-3	354-356	in	_	_
+7-4	357-364	Bunsens	*	PERmentioned
+7-5	365-372	Auftrag	_	_
+7-6	373-377	eine	_	_
+7-7	378-383	Liste	_	_
+7-8	384-387	der	_	_
+7-9	388-404	vorzuschlagenden	_	_
+7-10	405-414	Monumente	_	_
+7-11	415-426	ausarbeiten	_	_
+7-12	427-433	müssen	_	_
+7-13	434-435	,	_	_
+7-14	436-439	die	_	_
+7-15	440-443	Sie	_	_
+7-16	444-447	mit	_	_
+7-17	448-456	gleicher	_	_
+7-18	457-468	Gelegenheit	_	_
+7-19	469-477	erhalten	_	_
+7-20	478-484	werden	_	_
+7-21	485-486	.	_	_
+
+#Text=Ich bin noch immer im Zweifel was ich mit der Aethravase anfange .
+8-1	487-490	Ich	_	_
+8-2	491-494	bin	_	_
+8-3	495-499	noch	_	_
+8-4	500-505	immer	_	_
+8-5	506-508	im	_	_
+8-6	509-516	Zweifel	_	_
+8-7	517-520	was	_	_
+8-8	521-524	ich	_	_
+8-9	525-528	mit	_	_
+8-10	529-532	der	_	_
+8-11	533-543	Aethravase	*	OBJ
+8-12	544-551	anfange	_	_
+8-13	552-553	.	_	_
+
+#Text=Ein neues Heft kann man nicht leicht mit ihr beginnen .
+9-1	554-557	Ein	_	_
+9-2	558-563	neues	_	_
+9-3	564-568	Heft	_	_
+9-4	569-573	kann	_	_
+9-5	574-577	man	_	_
+9-6	578-583	nicht	_	_
+9-7	584-590	leicht	_	_
+9-8	591-594	mit	_	_
+9-9	595-598	ihr	_	_
+9-10	599-607	beginnen	_	_
+9-11	608-609	.	_	_
+
+#Text=Mit nächstem Mehreres .
+10-1	610-613	Mit	_	_
+10-2	614-622	nächstem	_	_
+10-3	623-631	Mehreres	_	_
+10-4	632-633	.	_	_
+
+#Text=Den Schluß Ihres Briefes , welcher von meiner durch Consequenzen bedrohten Nachgiebigkeit apricht , verstehe ich nicht .
+11-1	634-637	Den	_	_
+11-2	638-644	Schluß	_	_
+11-3	645-650	Ihres	_	_
+11-4	651-658	Briefes	_	_
+11-5	659-660	,	_	_
+11-6	661-668	welcher	_	_
+11-7	669-672	von	_	_
+11-8	673-679	meiner	_	_
+11-9	680-685	durch	_	_
+11-10	686-698	Consequenzen	_	_
+11-11	699-708	bedrohten	_	_
+11-12	709-723	Nachgiebigkeit	_	_
+11-13	724-731	apricht	_	_
+11-14	732-733	,	_	_
+11-15	734-742	verstehe	_	_
+11-16	743-746	ich	_	_
+11-17	747-752	nicht	_	_
+11-18	753-754	.	_	_
+
+#Text=Ihr Braun
+12-1	755-758	Ihr	_	_
+12-2	759-764	Braun	*	PERauthor

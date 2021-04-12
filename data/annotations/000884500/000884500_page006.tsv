@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ar aelneik ‘ , N Gerhard an Braun Berlin , 5 .
+1-1	0-2	ar	_	_
+1-2	3-10	aelneik	_	_
+1-3	11-12	‘	_	_
+1-4	13-14	,	_	_
+1-5	15-16	N	_	_
+1-6	17-24	Gerhard	*	PERauthor
+1-7	25-27	an	_	_
+1-8	28-33	Braun	*	PERaddressee
+1-9	34-40	Berlin	*	PLACEfrom
+1-10	41-42	,	_	_
+1-11	43-44	5	*[5]	DATEletter[5]
+1-12	45-46	.	*[5]	DATEletter[5]
+
+#Text=Januar 1838 Dr. Braun g . 19/1 38 Aff .
+2-1	47-53	Januar	*[5]	DATEletter[5]
+2-2	54-58	1838	*[5]	DATEletter[5]
+2-3	59-62	Dr.	_	_
+2-4	63-68	Braun	*	PERaddressee
+2-5	69-70	g	_	_
+2-6	71-72	.	_	_
+2-7	73-77	19/1	*[6]	DATErecieved[6]
+2-8	78-80	38	*[6]	DATErecieved[6]
+2-9	81-84	Aff	_	_
+2-10	85-86	.	_	_
+
+#Text=d. Direz , .
+3-1	87-89	d.	_	_
+3-2	90-95	Direz	_	_
+3-3	96-97	,	_	_
+3-4	98-99	.	_	_
+
+#Text=XXIII r . 20/1 38 Berlin 5 Jan 38 Sie erhalten anbei lieber Freund einen Wechsel von 100 rt Betrag \; davon bitte ich Sie sobald er drängt , meine 60 Scudi an Wolff zu zahlen , die Büste aber einpacken und einstweilen im Institutslokal deponiren zu lassen .
+4-1	100-105	XXIII	_	_
+4-2	106-107	r	_	_
+4-3	108-109	.	_	_
+4-4	110-114	20/1	*[7]	DATEanswered[7]
+4-5	115-117	38	*[7]	DATEanswered[7]
+4-6	118-124	Berlin	*	PLACEfrom
+4-7	125-126	5	*[9]	DATEletter[9]
+4-8	127-130	Jan	*[9]	DATEletter[9]
+4-9	131-133	38	*[9]	DATEletter[9]
+4-10	134-137	Sie	_	_
+4-11	138-146	erhalten	_	_
+4-12	147-152	anbei	_	_
+4-13	153-159	lieber	_	_
+4-14	160-166	Freund	_	_
+4-15	167-172	einen	_	_
+4-16	173-180	Wechsel	_	_
+4-17	181-184	von	_	_
+4-18	185-188	100	_	_
+4-19	189-191	rt	_	_
+4-20	192-198	Betrag	_	_
+4-21	199-200	\;	_	_
+4-22	201-206	davon	_	_
+4-23	207-212	bitte	_	_
+4-24	213-216	ich	_	_
+4-25	217-220	Sie	_	_
+4-26	221-227	sobald	_	_
+4-27	228-230	er	_	_
+4-28	231-237	drängt	_	_
+4-29	238-239	,	_	_
+4-30	240-245	meine	_	_
+4-31	246-248	60	_	_
+4-32	249-254	Scudi	_	_
+4-33	255-257	an	_	_
+4-34	258-263	Wolff	*	PERmentioned
+4-35	264-266	zu	_	_
+4-36	267-273	zahlen	_	_
+4-37	274-275	,	_	_
+4-38	276-279	die	_	_
+4-39	280-285	Büste	*	OBJ
+4-40	286-290	aber	_	_
+4-41	291-300	einpacken	_	_
+4-42	301-304	und	_	_
+4-43	305-316	einstweilen	_	_
+4-44	317-319	im	_	_
+4-45	320-334	Institutslokal	_	_
+4-46	335-344	deponiren	_	_
+4-47	345-347	zu	_	_
+4-48	348-354	lassen	_	_
+4-49	355-356	.	_	_
+
+#Text=Unter meinen Zeichnungen glaubt Fanofka außer der in 3 Fig . bestehenden zierlichen Zeichnung des Jo und Argosmythos v. Fig . eine andre Vorstellung desselben Mythos gesehen zu haben , die ich nicht aufzufinden im Stande bin \; ist Ihnen noch ein solches 2.tes Argosmonument bekannt ?
+5-1	357-362	Unter	_	_
+5-2	363-369	meinen	_	_
+5-3	370-381	Zeichnungen	_	_
+5-4	382-388	glaubt	_	_
+5-5	389-396	Fanofka	*	PERmentioned
+5-6	397-402	außer	_	_
+5-7	403-406	der	_	_
+5-8	407-409	in	_	_
+5-9	410-411	3	_	_
+5-10	412-415	Fig	_	_
+5-11	416-417	.	_	_
+5-12	418-429	bestehenden	_	_
+5-13	430-440	zierlichen	_	_
+5-14	441-450	Zeichnung	_	_
+5-15	451-454	des	_	_
+5-16	455-457	Jo	_	_
+5-17	458-461	und	_	_
+5-18	462-473	Argosmythos	_	_
+5-19	474-476	v.	_	_
+5-20	477-480	Fig	_	_
+5-21	481-482	.	_	_
+5-22	483-487	eine	_	_
+5-23	488-493	andre	_	_
+5-24	494-505	Vorstellung	_	_
+5-25	506-515	desselben	_	_
+5-26	516-522	Mythos	_	_
+5-27	523-530	gesehen	_	_
+5-28	531-533	zu	_	_
+5-29	534-539	haben	_	_
+5-30	540-541	,	_	_
+5-31	542-545	die	_	_
+5-32	546-549	ich	_	_
+5-33	550-555	nicht	_	_
+5-34	556-567	aufzufinden	_	_
+5-35	568-570	im	_	_
+5-36	571-577	Stande	_	_
+5-37	578-581	bin	_	_
+5-38	582-583	\;	_	_
+5-39	584-587	ist	_	_
+5-40	588-593	Ihnen	_	_
+5-41	594-598	noch	_	_
+5-42	599-602	ein	_	_
+5-43	603-610	solches	_	_
+5-44	611-616	2.tes	_	_
+5-45	617-630	Argosmonument	_	_
+5-46	631-638	bekannt	_	_
+5-47	639-640	?	_	_
+
+#Text=De Wittes Cosmographie macht mich nicht todt , aber Freud zur Publikation habe ich nicht .
+6-1	641-643	De	*[13]	PERmentioned[13]
+6-2	644-650	Wittes	*[13]	PERmentioned[13]
+6-3	651-663	Cosmographie	_	_
+6-4	664-669	macht	_	_
+6-5	670-674	mich	_	_
+6-6	675-680	nicht	_	_
+6-7	681-685	todt	_	_
+6-8	686-687	,	_	_
+6-9	688-692	aber	_	_
+6-10	693-698	Freud	_	_
+6-11	699-702	zur	_	_
+6-12	703-714	Publikation	_	_
+6-13	715-719	habe	_	_
+6-14	720-723	ich	_	_
+6-15	724-729	nicht	_	_
+6-16	730-731	.	_	_
+
+#Text=Die vom Museum zu erwartende sch ' Tölker zur Publ .
+7-1	732-735	Die	_	_
+7-2	736-739	vom	_	_
+7-3	740-746	Museum	*	ORGmentioned
+7-4	747-749	zu	_	_
+7-5	750-760	erwartende	_	_
+7-6	761-764	sch	_	_
+7-7	765-766	'	_	_
+7-8	767-773	Tölker	*	PERmentioned
+7-9	774-777	zur	_	_
+7-10	778-782	Publ	_	_
+7-11	783-784	.	_	_
+
+#Text=des 0 ?
+8-1	785-788	des	_	_
+8-2	789-790	0	_	_
+8-3	791-792	?	_	_
+
+#Text=, als Mitglied des Triumvirats wodurch jezt das Museum resirt wird .
+9-1	793-794	,	_	_
+9-2	795-798	als	_	_
+9-3	799-807	Mitglied	_	_
+9-4	808-811	des	_	_
+9-5	812-823	Triumvirats	_	_
+9-6	824-831	wodurch	_	_
+9-7	832-836	jezt	_	_
+9-8	837-840	das	_	_
+9-9	841-847	Museum	*	ORGmentioned
+9-10	848-854	resirt	_	_
+9-11	855-859	wird	_	_
+9-12	860-861	.	_	_
+
+#Text=Unterdeß bleibt die Museumdirektion unbesetzt , wahrscheinlich doch wol wegen möglicher Rücksicht für römische Personen .
+10-1	862-870	Unterdeß	_	_
+10-2	871-877	bleibt	_	_
+10-3	878-881	die	_	_
+10-4	882-897	Museumdirektion	*	ORGmentioned
+10-5	898-907	unbesetzt	_	_
+10-6	908-909	,	_	_
+10-7	910-924	wahrscheinlich	_	_
+10-8	925-929	doch	_	_
+10-9	930-933	wol	_	_
+10-10	934-939	wegen	_	_
+10-11	940-949	möglicher	_	_
+10-12	950-959	Rücksicht	_	_
+10-13	960-963	für	_	_
+10-14	964-972	römische	_	_
+10-15	973-981	Personen	_	_
+10-16	982-983	.	_	_
+
+#Text=So wird man durch die Angelegenheiten von Berlin und Göttingen beengt \; Sie begreifen wie sehr ich auf römische Nachrichten gespannt bin .
+11-1	984-986	So	_	_
+11-2	987-991	wird	_	_
+11-3	992-995	man	_	_
+11-4	996-1001	durch	_	_
+11-5	1002-1005	die	_	_
+11-6	1006-1021	Angelegenheiten	_	_
+11-7	1022-1025	von	_	_
+11-8	1026-1032	Berlin	*	PLACEmentioned
+11-9	1033-1036	und	_	_
+11-10	1037-1046	Göttingen	*	PLACEmentioned
+11-11	1047-1053	beengt	_	_
+11-12	1054-1055	\;	_	_
+11-13	1056-1059	Sie	_	_
+11-14	1060-1069	begreifen	_	_
+11-15	1070-1073	wie	_	_
+11-16	1074-1078	sehr	_	_
+11-17	1079-1082	ich	_	_
+11-18	1083-1086	auf	_	_
+11-19	1087-1095	römische	_	_
+11-20	1096-1107	Nachrichten	_	_
+11-21	1108-1116	gespannt	_	_
+11-22	1117-1120	bin	_	_
+11-23	1121-1122	.	_	_

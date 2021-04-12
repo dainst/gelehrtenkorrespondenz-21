@@ -1,0 +1,299 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=158 Braun an Gerhard Rom , 8. Mai 1840 Sie nächsten Herbst zu sehen verlangt mich sehr .
+1-1	0-3	158	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	8.	*[4]	DATEletter[4]
+1-8	30-33	Mai	*[4]	DATEletter[4]
+1-9	34-38	1840	*[4]	DATEletter[4]
+1-10	39-42	Sie	_	_
+1-11	43-51	nächsten	_	_
+1-12	52-58	Herbst	_	_
+1-13	59-61	zu	_	_
+1-14	62-67	sehen	_	_
+1-15	68-76	verlangt	_	_
+1-16	77-81	mich	_	_
+1-17	82-86	sehr	_	_
+1-18	87-88	.	_	_
+
+#Text=Ich kann mich wahrscheinlich nicht vom Platze bewegen .
+2-1	89-92	Ich	_	_
+2-2	93-97	kann	_	_
+2-3	98-102	mich	_	_
+2-4	103-117	wahrscheinlich	_	_
+2-5	118-123	nicht	_	_
+2-6	124-127	vom	_	_
+2-7	128-134	Platze	_	_
+2-8	135-142	bewegen	_	_
+2-9	143-144	.	_	_
+
+#Text=Die Geschäfte erheischen zu sehr meine Gegenwart , daß ich zu jedem Opfer bereit sein muß .
+3-1	145-148	Die	_	_
+3-2	149-158	Geschäfte	_	_
+3-3	159-169	erheischen	_	_
+3-4	170-172	zu	_	_
+3-5	173-177	sehr	_	_
+3-6	178-183	meine	_	_
+3-7	184-193	Gegenwart	_	_
+3-8	194-195	,	_	_
+3-9	196-199	daß	_	_
+3-10	200-203	ich	_	_
+3-11	204-206	zu	_	_
+3-12	207-212	jedem	_	_
+3-13	213-218	Opfer	_	_
+3-14	219-225	bereit	_	_
+3-15	226-230	sein	_	_
+3-16	231-234	muß	_	_
+3-17	235-236	.	_	_
+
+#Text=Werde sehen wie ich die Hitze aushalten kann , Alle Arbeiten sind an meine persönliche Gegenwart gebunden , da ich der einzige Leiter lancischer Electricität bin .
+4-1	237-242	Werde	_	_
+4-2	243-248	sehen	_	_
+4-3	249-252	wie	_	_
+4-4	253-256	ich	_	_
+4-5	257-260	die	_	_
+4-6	261-266	Hitze	_	_
+4-7	267-276	aushalten	_	_
+4-8	277-281	kann	_	_
+4-9	282-283	,	_	_
+4-10	284-288	Alle	_	_
+4-11	289-297	Arbeiten	_	_
+4-12	298-302	sind	_	_
+4-13	303-305	an	_	_
+4-14	306-311	meine	_	_
+4-15	312-323	persönliche	_	_
+4-16	324-333	Gegenwart	_	_
+4-17	334-342	gebunden	_	_
+4-18	343-344	,	_	_
+4-19	345-347	da	_	_
+4-20	348-351	ich	_	_
+4-21	352-355	der	_	_
+4-22	356-363	einzige	_	_
+4-23	364-370	Leiter	_	_
+4-24	371-381	lancischer	_	_
+4-25	382-394	Electricität	_	_
+4-26	395-398	bin	_	_
+4-27	399-400	.	_	_
+
+#Text=Dies Jahr müssen wir in Ordnung kommen oder das Institut fallirt .
+5-1	401-405	Dies	_	_
+5-2	406-410	Jahr	_	_
+5-3	411-417	müssen	_	_
+5-4	418-421	wir	_	_
+5-5	422-424	in	_	_
+5-6	425-432	Ordnung	_	_
+5-7	433-439	kommen	_	_
+5-8	440-444	oder	_	_
+5-9	445-448	das	_	_
+5-10	449-457	Institut	*	ORGmentioned
+5-11	458-465	fallirt	_	_
+5-12	466-467	.	_	_
+
+#Text=Haben Sie nicht Exemplare meiner Abhandlungen an De Witte gesandt ?
+6-1	468-473	Haben	_	_
+6-2	474-477	Sie	_	_
+6-3	478-483	nicht	_	_
+6-4	484-493	Exemplare	_	_
+6-5	494-500	meiner	_	_
+6-6	501-513	Abhandlungen	_	_
+6-7	514-516	an	_	_
+6-8	517-519	De	*[6]	PERmentioned[6]
+6-9	520-525	Witte	*[6]	PERmentioned[6]
+6-10	526-533	gesandt	_	_
+6-11	534-535	?	_	_
+
+#Text=Er scheint sie zu haben .
+7-1	536-538	Er	_	_
+7-2	539-546	scheint	_	_
+7-3	547-550	sie	_	_
+7-4	551-553	zu	_	_
+7-5	554-559	haben	_	_
+7-6	560-561	.	_	_
+
+#Text=Wittes Beugnot-Catalog ist mir zugekommen : fleißig und mit Sorgfalt , wie es scheint , er hat mich um Anzeige desselben gebeten .
+8-1	562-568	Wittes	*	PERmentioned
+8-2	569-584	Beugnot-Catalog	*	PERmentioned
+8-3	585-588	ist	_	_
+8-4	589-592	mir	_	_
+8-5	593-603	zugekommen	_	_
+8-6	604-605	:	_	_
+8-7	606-613	fleißig	_	_
+8-8	614-617	und	_	_
+8-9	618-621	mit	_	_
+8-10	622-630	Sorgfalt	_	_
+8-11	631-632	,	_	_
+8-12	633-636	wie	_	_
+8-13	637-639	es	_	_
+8-14	640-647	scheint	_	_
+8-15	648-649	,	_	_
+8-16	650-652	er	_	_
+8-17	653-656	hat	_	_
+8-18	657-661	mich	_	_
+8-19	662-664	um	_	_
+8-20	665-672	Anzeige	_	_
+8-21	673-682	desselben	_	_
+8-22	683-690	gebeten	_	_
+8-23	691-692	.	_	_
+
+#Text=Papencordt ist noch hier .
+9-1	693-703	Papencordt	*	PERmentioned
+9-2	704-707	ist	_	_
+9-3	708-712	noch	_	_
+9-4	713-717	hier	_	_
+9-5	718-719	.	_	_
+
+#Text=Urlichs in diesen Tagen hier angelangt , um das römische Werk zu vollenden .
+10-1	720-727	Urlichs	*	PERmentioned
+10-2	728-730	in	_	_
+10-3	731-737	diesen	_	_
+10-4	738-743	Tagen	_	_
+10-5	744-748	hier	_	_
+10-6	749-758	angelangt	_	_
+10-7	759-760	,	_	_
+10-8	761-763	um	_	_
+10-9	764-767	das	_	_
+10-10	768-776	römische	_	_
+10-11	777-781	Werk	_	_
+10-12	782-784	zu	_	_
+10-13	785-794	vollenden	_	_
+10-14	795-796	.	_	_
+
+#Text=Die bacchische Vorstellung Rapp Vol .
+11-1	797-800	Die	_	_
+11-2	801-811	bacchische	_	_
+11-3	812-823	Vorstellung	_	_
+11-4	824-828	Rapp	_	_
+11-5	829-832	Vol	_	_
+11-6	833-834	.	_	_
+
+#Text=258. c. 303 ist mir wohl bekannt .
+12-1	835-839	258.	_	_
+12-2	840-842	c.	_	_
+12-3	843-846	303	_	_
+12-4	847-850	ist	_	_
+12-5	851-854	mir	_	_
+12-6	855-859	wohl	_	_
+12-7	860-867	bekannt	_	_
+12-8	868-869	.	_	_
+
+#Text=Das genus masculinum beider mach \; besonders Schwierigkeit .
+13-1	870-873	Das	_	_
+13-2	874-879	genus	_	_
+13-3	880-890	masculinum	_	_
+13-4	891-897	beider	_	_
+13-5	898-902	mach	_	_
+13-6	903-904	\;	_	_
+13-7	905-914	besonders	_	_
+13-8	915-928	Schwierigkeit	_	_
+13-9	929-930	.	_	_
+
+#Text=Sie auf Minerva zu beziehen , sehe ich doch keinen Grund .
+14-1	931-934	Sie	_	_
+14-2	935-938	auf	_	_
+14-3	939-946	Minerva	*	MISC
+14-4	947-949	zu	_	_
+14-5	950-958	beziehen	_	_
+14-6	959-960	,	_	_
+14-7	961-965	sehe	_	_
+14-8	966-969	ich	_	_
+14-9	970-974	doch	_	_
+14-10	975-981	keinen	_	_
+14-11	982-987	Grund	_	_
+14-12	988-989	.	_	_
+
+#Text=Auf dem etruskischen Museum scheint die Frau allerdings ein Aegidencamisol zu haben , allein ähnliche Kleidung kömmt auch sonst vor ohne Bezug auf Minerva .
+15-1	990-993	Auf	_	_
+15-2	994-997	dem	_	_
+15-3	998-1010	etruskischen	*[12]	ORGmentioned[12]
+15-4	1011-1017	Museum	*[12]	ORGmentioned[12]
+15-5	1018-1025	scheint	_	_
+15-6	1026-1029	die	_	_
+15-7	1030-1034	Frau	_	_
+15-8	1035-1045	allerdings	_	_
+15-9	1046-1049	ein	_	_
+15-10	1050-1064	Aegidencamisol	_	_
+15-11	1065-1067	zu	_	_
+15-12	1068-1073	haben	_	_
+15-13	1074-1075	,	_	_
+15-14	1076-1082	allein	_	_
+15-15	1083-1091	ähnliche	_	_
+15-16	1092-1100	Kleidung	_	_
+15-17	1101-1106	kömmt	_	_
+15-18	1107-1111	auch	_	_
+15-19	1112-1117	sonst	_	_
+15-20	1118-1121	vor	_	_
+15-21	1122-1126	ohne	_	_
+15-22	1127-1132	Bezug	_	_
+15-23	1133-1136	auf	_	_
+15-24	1137-1144	Minerva	*	MISC
+15-25	1145-1146	.	_	_
+
+#Text=Uebrigens lasse nicht ich allein die Minerva Hochzeit machen , ein Kind der Minerva kennen auch unsre mythologischen Wörterbücher .
+16-1	1147-1156	Uebrigens	_	_
+16-2	1157-1162	lasse	_	_
+16-3	1163-1168	nicht	_	_
+16-4	1169-1172	ich	_	_
+16-5	1173-1179	allein	_	_
+16-6	1180-1183	die	_	_
+16-7	1184-1191	Minerva	*	MISC
+16-8	1192-1200	Hochzeit	_	_
+16-9	1201-1207	machen	_	_
+16-10	1208-1209	,	_	_
+16-11	1210-1213	ein	_	_
+16-12	1214-1218	Kind	_	_
+16-13	1219-1222	der	_	_
+16-14	1223-1230	Minerva	*	MISC
+16-15	1231-1237	kennen	_	_
+16-16	1238-1242	auch	_	_
+16-17	1243-1248	unsre	_	_
+16-18	1249-1263	mythologischen	_	_
+16-19	1264-1276	Wörterbücher	_	_
+16-20	1277-1278	.	_	_
+
+#Text=In jedem Fall wären mir einige porzellanene Reibschaalen , aber wohl gewählte , etwa ein Dutzend sehr willkommen .
+17-1	1279-1281	In	_	_
+17-2	1282-1287	jedem	_	_
+17-3	1288-1292	Fall	_	_
+17-4	1293-1298	wären	_	_
+17-5	1299-1302	mir	_	_
+17-6	1303-1309	einige	_	_
+17-7	1310-1322	porzellanene	_	_
+17-8	1323-1335	Reibschaalen	_	_
+17-9	1336-1337	,	_	_
+17-10	1338-1342	aber	_	_
+17-11	1343-1347	wohl	_	_
+17-12	1348-1356	gewählte	_	_
+17-13	1357-1358	,	_	_
+17-14	1359-1363	etwa	_	_
+17-15	1364-1367	ein	_	_
+17-16	1368-1375	Dutzend	_	_
+17-17	1376-1380	sehr	_	_
+17-18	1381-1391	willkommen	_	_
+17-19	1392-1393	.	_	_
+
+#Text=Andre Wünsche später \| Stuks Mythologien könnten ja wohl auch interessant sein .
+18-1	1394-1399	Andre	_	_
+18-2	1400-1407	Wünsche	_	_
+18-3	1408-1414	später	_	_
+18-4	1415-1416	\|	_	_
+18-5	1417-1422	Stuks	*	PERmentioned
+18-6	1423-1434	Mythologien	_	_
+18-7	1435-1442	könnten	_	_
+18-8	1443-1445	ja	_	_
+18-9	1446-1450	wohl	_	_
+18-10	1451-1455	auch	_	_
+18-11	1456-1467	interessant	_	_
+18-12	1468-1472	sein	_	_
+18-13	1473-1474	.	_	_
+
+#Text=Herzlich Ihr EBraun ,
+19-1	1475-1483	Herzlich	_	_
+19-2	1484-1487	Ihr	_	_
+19-3	1488-1494	EBraun	*	PERauthor
+19-4	1495-1496	,	_	_

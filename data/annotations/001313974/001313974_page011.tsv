@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an das Institut Neapel , 12. Mai 1864 Neapel 12. Mai 71864 Geehrteste Herrn !
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-13	das	_	_
+1-4	14-22	Institut	*	ORGaddressee
+1-5	23-29	Neapel	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-35	12.	*[2]	DATEletter[2]
+1-8	36-39	Mai	*[2]	DATEletter[2]
+1-9	40-44	1864	*[2]	DATEletter[2]
+1-10	45-51	Neapel	*	PLACEfrom
+1-11	52-55	12.	*[1]	DATEletter[1]
+1-12	56-59	Mai	*[1]	DATEletter[1]
+1-13	60-65	71864	*[1]	DATEletter[1]
+1-14	66-76	Geehrteste	_	_
+1-15	77-82	Herrn	_	_
+1-16	83-84	!	_	_
+
+#Text=Ihre beiden Briefe habe ich richtig erhalten , den zweiten jedoch erst nach Klügmanns Abreise , sodaß ich die Saup£rsche Angelegenheit selbst übernehmen werde .
+2-1	85-89	Ihre	_	_
+2-2	90-96	beiden	_	_
+2-3	97-103	Briefe	_	_
+2-4	104-108	habe	_	_
+2-5	109-112	ich	_	_
+2-6	113-120	richtig	_	_
+2-7	121-129	erhalten	_	_
+2-8	130-131	,	_	_
+2-9	132-135	den	_	_
+2-10	136-143	zweiten	_	_
+2-11	144-150	jedoch	_	_
+2-12	151-155	erst	_	_
+2-13	156-160	nach	_	_
+2-14	161-170	Klügmanns	*	PERmentioned
+2-15	171-178	Abreise	_	_
+2-16	179-180	,	_	_
+2-17	181-186	sodaß	_	_
+2-18	187-190	ich	_	_
+2-19	191-194	die	_	_
+2-20	195-205	Saup£rsche	_	_
+2-21	206-219	Angelegenheit	_	_
+2-22	220-226	selbst	_	_
+2-23	227-237	übernehmen	_	_
+2-24	238-243	werde	_	_
+2-25	244-245	.	_	_
+
+#Text=Augenblicklich ist derselbe in Sorrent und muß demnach seine Rückkunft nach Neapel abgewartet werden .
+3-1	246-260	Augenblicklich	_	_
+3-2	261-264	ist	_	_
+3-3	265-273	derselbe	_	_
+3-4	274-276	in	_	_
+3-5	277-284	Sorrent	*	PLACEmentioned
+3-6	285-288	und	_	_
+3-7	289-292	muß	_	_
+3-8	293-300	demnach	_	_
+3-9	301-306	seine	_	_
+3-10	307-316	Rückkunft	_	_
+3-11	317-321	nach	_	_
+3-12	322-328	Neapel	*	PLACEmentioned
+3-13	329-339	abgewartet	_	_
+3-14	340-346	werden	_	_
+3-15	347-348	.	_	_
+
+#Text=Der Zeichner hat die Aufträge im Museum beinah vollendet .
+4-1	349-352	Der	_	_
+4-2	353-361	Zeichner	_	_
+4-3	362-365	hat	_	_
+4-4	366-369	die	_	_
+4-5	370-378	Aufträge	_	_
+4-6	379-381	im	_	_
+4-7	382-388	Museum	*	ORGmentioned
+4-8	389-395	beinah	_	_
+4-9	396-405	vollendet	_	_
+4-10	406-407	.	_	_
+
+#Text=Außer den Aufträgen von Seiten des Instituts habe ich ihn drei unpublicirte Wandgemälde zeichnen lassen , eines mit Apoll und Daphne , zwei mit einer möglicher Weise anderen Liebesgeschichte des Apoll , welche sehr schön sind und jedenfalls im Zusammenhange mit dem Daphnemythos behandelt werden müssen .
+5-1	408-413	Außer	_	_
+5-2	414-417	den	_	_
+5-3	418-427	Aufträgen	_	_
+5-4	428-431	von	_	_
+5-5	432-438	Seiten	_	_
+5-6	439-442	des	_	_
+5-7	443-452	Instituts	*	ORGmentioned
+5-8	453-457	habe	_	_
+5-9	458-461	ich	_	_
+5-10	462-465	ihn	_	_
+5-11	466-470	drei	_	_
+5-12	471-483	unpublicirte	_	_
+5-13	484-495	Wandgemälde	*	OBJ
+5-14	496-504	zeichnen	_	_
+5-15	505-511	lassen	_	_
+5-16	512-513	,	_	_
+5-17	514-519	eines	_	_
+5-18	520-523	mit	_	_
+5-19	524-529	Apoll	*	PERmentioned
+5-20	530-533	und	_	_
+5-21	534-540	Daphne	*	PERmentioned
+5-22	541-542	,	_	_
+5-23	543-547	zwei	_	_
+5-24	548-551	mit	_	_
+5-25	552-557	einer	_	_
+5-26	558-567	möglicher	_	_
+5-27	568-573	Weise	_	_
+5-28	574-581	anderen	_	_
+5-29	582-598	Liebesgeschichte	_	_
+5-30	599-602	des	_	_
+5-31	603-608	Apoll	*	PERmentioned
+5-32	609-610	,	_	_
+5-33	611-617	welche	_	_
+5-34	618-622	sehr	_	_
+5-35	623-628	schön	_	_
+5-36	629-633	sind	_	_
+5-37	634-637	und	_	_
+5-38	638-648	jedenfalls	_	_
+5-39	649-651	im	_	_
+5-40	652-665	Zusammenhange	_	_
+5-41	666-669	mit	_	_
+5-42	670-673	dem	_	_
+5-43	674-686	Daphnemythos	_	_
+5-44	687-696	behandelt	_	_
+5-45	697-703	werden	_	_
+5-46	704-710	müssen	_	_
+5-47	711-712	.	_	_
+
+#Text=Dreimal dazwischen war der Zeichner im Pompei .
+6-1	713-720	Dreimal	_	_
+6-2	721-731	dazwischen	_	_
+6-3	732-735	war	_	_
+6-4	736-739	der	_	_
+6-5	740-748	Zeichner	_	_
+6-6	749-751	im	_	_
+6-7	752-758	Pompei	*	PLACEmentioned
+6-8	759-760	.	_	_
+
+#Text=Hierüber bitte ich um nähere Verhaltungsmaßregeln .
+7-1	761-769	Hierüber	_	_
+7-2	770-775	bitte	_	_
+7-3	776-779	ich	_	_
+7-4	780-782	um	_	_
+7-5	783-789	nähere	_	_
+7-6	790-810	Verhaltungsmaßregeln	_	_
+7-7	811-812	.	_	_
+
+#Text=Einmal erklärt Fiorelli nichts von dem Entree nachlassen zu können .
+8-1	813-819	Einmal	_	_
+8-2	820-827	erklärt	_	_
+8-3	828-836	Fiorelli	*	PERmentioned
+8-4	837-843	nichts	_	_
+8-5	844-847	von	_	_
+8-6	848-851	dem	_	_
+8-7	852-858	Entree	_	_
+8-8	859-869	nachlassen	_	_
+8-9	870-872	zu	_	_
+8-10	873-879	können	_	_
+8-11	880-881	.	_	_
+
+#Text=Er sagt , daß die Maschine bei einem jedesmaligen Eintritte zwei Francs ankreide und daß ein Erlaß des Eintrittsgelds seine ganze Rechenschaftsablage verwirren würde .
+9-1	882-884	Er	_	_
+9-2	885-889	sagt	_	_
+9-3	890-891	,	_	_
+9-4	892-895	daß	_	_
+9-5	896-899	die	_	_
+9-6	900-908	Maschine	_	_
+9-7	909-912	bei	_	_
+9-8	913-918	einem	_	_
+9-9	919-931	jedesmaligen	_	_
+9-10	932-941	Eintritte	_	_
+9-11	942-946	zwei	_	_
+9-12	947-953	Francs	_	_
+9-13	954-962	ankreide	_	_
+9-14	963-966	und	_	_
+9-15	967-970	daß	_	_
+9-16	971-974	ein	_	_
+9-17	975-980	Erlaß	_	_
+9-18	981-984	des	_	_
+9-19	985-999	Eintrittsgelds	_	_
+9-20	1000-1005	seine	_	_
+9-21	1006-1011	ganze	_	_
+9-22	1012-1031	Rechenschaftsablage	_	_
+9-23	1032-1041	verwirren	_	_
+9-24	1042-1047	würde	_	_
+9-25	1048-1049	.	_	_
+
+#Text=Andererseits sagt der Zeichner , daß er die pompeianische Sonne nicht vetragen könne und zum Mindesten die Zeit nach : dem Zeichnen in einem ordentlich geschützten Local , oder in Neapel , verbringen müsse .
+10-1	1050-1062	Andererseits	_	_
+10-2	1063-1067	sagt	_	_
+10-3	1068-1071	der	_	_
+10-4	1072-1080	Zeichner	_	_
+10-5	1081-1082	,	_	_
+10-6	1083-1086	daß	_	_
+10-7	1087-1089	er	_	_
+10-8	1090-1093	die	_	_
+10-9	1094-1107	pompeianische	_	_
+10-10	1108-1113	Sonne	_	_
+10-11	1114-1119	nicht	_	_
+10-12	1120-1128	vetragen	_	_
+10-13	1129-1134	könne	_	_
+10-14	1135-1138	und	_	_
+10-15	1139-1142	zum	_	_
+10-16	1143-1152	Mindesten	_	_
+10-17	1153-1156	die	_	_
+10-18	1157-1161	Zeit	_	_
+10-19	1162-1166	nach	_	_
+10-20	1167-1168	:	_	_
+10-21	1169-1172	dem	_	_
+10-22	1173-1181	Zeichnen	_	_
+10-23	1182-1184	in	_	_
+10-24	1185-1190	einem	_	_
+10-25	1191-1201	ordentlich	_	_
+10-26	1202-1213	geschützten	_	_
+10-27	1214-1219	Local	_	_
+10-28	1220-1221	,	_	_
+10-29	1222-1226	oder	_	_
+10-30	1227-1229	in	_	_
+10-31	1230-1236	Neapel	*	PLACEmentioned
+10-32	1237-1238	,	_	_
+10-33	1239-1249	verbringen	_	_
+10-34	1250-1255	müsse	_	_
+10-35	1256-1257	.	_	_
+
+#Text=Kurz , er will sich nicht häuslich in der pompeianischen
+11-1	1258-1262	Kurz	_	_
+11-2	1263-1264	,	_	_
+11-3	1265-1267	er	_	_
+11-4	1268-1272	will	_	_
+11-5	1273-1277	sich	_	_
+11-6	1278-1283	nicht	_	_
+11-7	1284-1292	häuslich	_	_
+11-8	1293-1295	in	_	_
+11-9	1296-1299	der	_	_
+11-10	1300-1314	pompeianischen	_	_

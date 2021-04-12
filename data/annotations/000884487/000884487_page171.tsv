@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=N Gerhard an Braun Athen , 20. April 1837 Dir .
+1-1	0-1	N	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-24	Athen	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	20.	_	_
+1-8	31-36	April	*[5]	DATEletter[5]
+1-9	37-41	1837	*[5]	DATEletter[5]
+1-10	42-45	Dir	_	_
+1-11	46-47	.	_	_
+
+#Text=Rom .
+2-1	48-51	Rom	*	PLACEto
+2-2	52-53	.	_	_
+
+#Text=g . 24/6 37 CLXXXVI ri 24/6 37 Nicht noch immer hier lieber Freund sondern wiederum hier , zum 3.ten mal .
+3-1	54-55	g	_	_
+3-2	56-57	.	_	_
+3-3	58-62	24/6	*[6]	DATErecieved[6]
+3-4	63-65	37	*[6]	DATErecieved[6]
+3-5	66-73	CLXXXVI	_	_
+3-6	74-76	ri	_	_
+3-7	77-81	24/6	*[7]	DATEanswered[7]
+3-8	82-84	37	*[7]	DATEanswered[7]
+3-9	85-90	Nicht	_	_
+3-10	91-95	noch	_	_
+3-11	96-101	immer	_	_
+3-12	102-106	hier	_	_
+3-13	107-113	lieber	_	_
+3-14	114-120	Freund	_	_
+3-15	121-128	sondern	_	_
+3-16	129-137	wiederum	_	_
+3-17	138-142	hier	_	_
+3-18	143-144	,	_	_
+3-19	145-148	zum	_	_
+3-20	149-154	3.ten	_	_
+3-21	155-158	mal	_	_
+3-22	159-160	.	_	_
+
+#Text=Diesesmal ist allerlei Mißgeschick # daran Schuld , sehr hinderliches .
+4-1	161-170	Diesesmal	_	_
+4-2	171-174	ist	_	_
+4-3	175-183	allerlei	_	_
+4-4	184-195	Mißgeschick	_	_
+4-5	196-197	#	_	_
+4-6	198-203	daran	_	_
+4-7	204-210	Schuld	_	_
+4-8	211-212	,	_	_
+4-9	213-217	sehr	_	_
+4-10	218-230	hinderliches	_	_
+4-11	231-232	.	_	_
+
+#Text=Ein in Navarin gestrandetes Schiff belegt gesondernd bei den ionischen Inseln mit 26 Tagen Sperrung \; somit ist mir das Dampfschiff entzogen , die Rückkehr nach Ancona zur rechten Zeit nicht mehr möglich , und es bleibt nichts andres übrig als mit dem östreich .
+5-1	233-236	Ein	_	_
+5-2	237-239	in	_	_
+5-3	240-247	Navarin	*	PLACEmentioned
+5-4	248-260	gestrandetes	_	_
+5-5	261-267	Schiff	_	_
+5-6	268-274	belegt	_	_
+5-7	275-285	gesondernd	_	_
+5-8	286-289	bei	_	_
+5-9	290-293	den	_	_
+5-10	294-303	ionischen	*[9]	PLACEmentioned[9]
+5-11	304-310	Inseln	*[9]	PLACEmentioned[9]
+5-12	311-314	mit	_	_
+5-13	315-317	26	_	_
+5-14	318-323	Tagen	_	_
+5-15	324-332	Sperrung	_	_
+5-16	333-334	\;	_	_
+5-17	335-340	somit	_	_
+5-18	341-344	ist	_	_
+5-19	345-348	mir	_	_
+5-20	349-352	das	_	_
+5-21	353-364	Dampfschiff	_	_
+5-22	365-373	entzogen	_	_
+5-23	374-375	,	_	_
+5-24	376-379	die	_	_
+5-25	380-388	Rückkehr	_	_
+5-26	389-393	nach	_	_
+5-27	394-400	Ancona	*	PLACEmentioned
+5-28	401-404	zur	_	_
+5-29	405-412	rechten	_	_
+5-30	413-417	Zeit	_	_
+5-31	418-423	nicht	_	_
+5-32	424-428	mehr	_	_
+5-33	429-436	möglich	_	_
+5-34	437-438	,	_	_
+5-35	439-442	und	_	_
+5-36	443-445	es	_	_
+5-37	446-452	bleibt	_	_
+5-38	453-459	nichts	_	_
+5-39	460-466	andres	_	_
+5-40	467-472	übrig	_	_
+5-41	473-476	als	_	_
+5-42	477-480	mit	_	_
+5-43	481-484	dem	_	_
+5-44	485-493	östreich	_	_
+5-45	494-495	.	_	_
+
+#Text=FPaketboot erst am 21.sten Mai nach Triest , sage Triest , abzuschiffen , wo ich wol vor Mitte Juni nicht eintreffen werden dürfte .
+6-1	496-506	FPaketboot	_	_
+6-2	507-511	erst	_	_
+6-3	512-514	am	_	_
+6-4	515-522	21.sten	*[11]	DATEmentioned[11]
+6-5	523-526	Mai	*[11]	DATEmentioned[11]
+6-6	527-531	nach	_	_
+6-7	532-538	Triest	*	PLACEmentioned
+6-8	539-540	,	_	_
+6-9	541-545	sage	_	_
+6-10	546-552	Triest	*	PLACEmentioned
+6-11	553-554	,	_	_
+6-12	555-567	abzuschiffen	_	_
+6-13	568-569	,	_	_
+6-14	570-572	wo	_	_
+6-15	573-576	ich	_	_
+6-16	577-580	wol	_	_
+6-17	581-584	vor	_	_
+6-18	585-590	Mitte	*[14]	DATEmentioned[14]
+6-19	591-595	Juni	*[14]	DATEmentioned[14]
+6-20	596-601	nicht	_	_
+6-21	602-612	eintreffen	_	_
+6-22	613-619	werden	_	_
+6-23	620-626	dürfte	_	_
+6-24	627-628	.	_	_
+
+#Text=Man muß sich darein finden \; ist es möglich , so komme ich dennoch nach Rom und Neapel .
+7-1	629-632	Man	_	_
+7-2	633-636	muß	_	_
+7-3	637-641	sich	_	_
+7-4	642-648	darein	_	_
+7-5	649-655	finden	_	_
+7-6	656-657	\;	_	_
+7-7	658-661	ist	_	_
+7-8	662-664	es	_	_
+7-9	665-672	möglich	_	_
+7-10	673-674	,	_	_
+7-11	675-677	so	_	_
+7-12	678-683	komme	_	_
+7-13	684-687	ich	_	_
+7-14	688-695	dennoch	_	_
+7-15	696-700	nach	_	_
+7-16	701-704	Rom	*	PLACEmentioned
+7-17	705-708	und	_	_
+7-18	709-715	Neapel	*	PLACEmentioned
+7-19	716-717	.	_	_
+
+#Text=Damit ich sofort darüber klar sehe , so lassen Sie mich einen Brief der mir eine Quintessenz über den mindesten Stand der Dinge gebe ( Neapol.-Scavi und die von Panofka Ihnen vielleicht mitgetheilte Angelegenheit meiner Wechsel ) in Triest poste rest .
+8-1	718-723	Damit	_	_
+8-2	724-727	ich	_	_
+8-3	728-734	sofort	_	_
+8-4	735-742	darüber	_	_
+8-5	743-747	klar	_	_
+8-6	748-752	sehe	_	_
+8-7	753-754	,	_	_
+8-8	755-757	so	_	_
+8-9	758-764	lassen	_	_
+8-10	765-768	Sie	_	_
+8-11	769-773	mich	_	_
+8-12	774-779	einen	_	_
+8-13	780-785	Brief	_	_
+8-14	786-789	der	_	_
+8-15	790-793	mir	_	_
+8-16	794-798	eine	_	_
+8-17	799-810	Quintessenz	_	_
+8-18	811-815	über	_	_
+8-19	816-819	den	_	_
+8-20	820-829	mindesten	_	_
+8-21	830-835	Stand	_	_
+8-22	836-839	der	_	_
+8-23	840-845	Dinge	_	_
+8-24	846-850	gebe	_	_
+8-25	851-852	(	_	_
+8-26	853-866	Neapol.-Scavi	*	PLACEmentioned
+8-27	867-870	und	_	_
+8-28	871-874	die	_	_
+8-29	875-878	von	_	_
+8-30	879-886	Panofka	*	PERmentioned
+8-31	887-892	Ihnen	_	_
+8-32	893-903	vielleicht	_	_
+8-33	904-916	mitgetheilte	_	_
+8-34	917-930	Angelegenheit	_	_
+8-35	931-937	meiner	_	_
+8-36	938-945	Wechsel	_	_
+8-37	946-947	)	_	_
+8-38	948-950	in	_	_
+8-39	951-957	Triest	*	PLACEmentioned
+8-40	958-963	poste	_	_
+8-41	964-968	rest	_	_
+8-42	969-970	.	_	_
+
+#Text=finden .
+9-1	971-977	finden	_	_
+9-2	978-979	.	_	_
+
+#Text=leider muß ich Ihnen diese Schreiberei zumuthen um irgendwo diese Nachrichten zu finden \; den Brieftransport von Ancona werde ich mir natürlich nachsenden lassen .
+10-1	980-986	leider	_	_
+10-2	987-990	muß	_	_
+10-3	991-994	ich	_	_
+10-4	995-1000	Ihnen	_	_
+10-5	1001-1006	diese	_	_
+10-6	1007-1018	Schreiberei	_	_
+10-7	1019-1027	zumuthen	_	_
+10-8	1028-1030	um	_	_
+10-9	1031-1039	irgendwo	_	_
+10-10	1040-1045	diese	_	_
+10-11	1046-1057	Nachrichten	_	_
+10-12	1058-1060	zu	_	_
+10-13	1061-1067	finden	_	_
+10-14	1068-1069	\;	_	_
+10-15	1070-1073	den	_	_
+10-16	1074-1088	Brieftransport	_	_
+10-17	1089-1092	von	_	_
+10-18	1093-1099	Ancona	*	PLACEmentioned
+10-19	1100-1105	werde	_	_
+10-20	1106-1109	ich	_	_
+10-21	1110-1113	mir	_	_
+10-22	1114-1123	natürlich	_	_
+10-23	1124-1134	nachsenden	_	_
+10-24	1135-1141	lassen	_	_
+10-25	1142-1143	.	_	_
+
+#Text=Anderes Mißgeschick .
+11-1	1144-1151	Anderes	_	_
+11-2	1152-1163	Mißgeschick	_	_
+11-3	1164-1165	.	_	_
+
+#Text=hat nicht gefehlt .
+12-1	1166-1169	hat	_	_
+12-2	1170-1175	nicht	_	_
+12-3	1176-1183	gefehlt	_	_
+12-4	1184-1185	.	_	_
+
+#Text=Nach Aegäa abgesegelt vermißte ich einen Theil meiner Sachen \; ich mußte nach Athen zurück um diesen nachzuforschen
+13-1	1186-1190	Nach	_	_
+13-2	1191-1196	Aegäa	*	PLACEmentioned
+13-3	1197-1207	abgesegelt	_	_
+13-4	1208-1216	vermißte	_	_
+13-5	1217-1220	ich	_	_
+13-6	1221-1226	einen	_	_
+13-7	1227-1232	Theil	_	_
+13-8	1233-1239	meiner	_	_
+13-9	1240-1246	Sachen	_	_
+13-10	1247-1248	\;	_	_
+13-11	1249-1252	ich	_	_
+13-12	1253-1258	mußte	_	_
+13-13	1259-1263	nach	_	_
+13-14	1264-1269	Athen	*	PLACEmentioned
+13-15	1270-1276	zurück	_	_
+13-16	1277-1279	um	_	_
+13-17	1280-1286	diesen	_	_
+13-18	1287-1301	nachzuforschen	_	_

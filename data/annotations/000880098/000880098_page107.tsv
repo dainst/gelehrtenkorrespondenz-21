@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=847 Braun an Gerhard Rom , 25. November 71834 Unter Band erhalten Sie durch die heutige Post .
+1-1	0-3	847	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	25.	*[1]	DATEletter[1]
+1-8	31-39	November	*[1]	DATEletter[1]
+1-9	40-45	71834	*[1]	DATEletter[1]
+1-10	46-51	Unter	_	_
+1-11	52-56	Band	_	_
+1-12	57-65	erhalten	_	_
+1-13	66-69	Sie	_	_
+1-14	70-75	durch	_	_
+1-15	76-79	die	_	_
+1-16	80-87	heutige	_	_
+1-17	88-92	Post	_	_
+1-18	93-94	.	_	_
+
+#Text=Bull .
+2-1	95-99	Bull	*[2]	LIT[2]
+2-2	100-101	.	_	_
+
+#Text=X. und XI .
+3-1	102-104	X.	_	_
+3-2	105-108	und	_	_
+3-3	109-111	XI	_	_
+3-4	112-113	.	_	_
+
+#Text=Ottbre .
+4-1	114-120	Ottbre	_	_
+4-2	121-122	.	_	_
+
+#Text=Nobre .
+5-1	123-128	Nobre	_	_
+5-2	129-130	.	_	_
+
+#Text=Die Russosche Geschichte ist unangenehm .
+6-1	131-134	Die	_	_
+6-2	135-144	Russosche	*	PERmentioned
+6-3	145-155	Geschichte	_	_
+6-4	156-159	ist	_	_
+6-5	160-170	unangenehm	_	_
+6-6	171-172	.	_	_
+
+#Text=Lamberti avisirt die Beendigung der gewünschten Zeichnungen \; die nächste Post bringt einen Brief in welchem er die Zeichnungen an Russo bezahlt zu haben ankündigt und den Betrag , welchen Bellßtti verweigert , zurückverlangt .
+7-1	173-181	Lamberti	*	PERmentioned
+7-2	182-189	avisirt	_	_
+7-3	190-193	die	_	_
+7-4	194-204	Beendigung	_	_
+7-5	205-208	der	_	_
+7-6	209-220	gewünschten	_	_
+7-7	221-232	Zeichnungen	_	_
+7-8	233-234	\;	_	_
+7-9	235-238	die	_	_
+7-10	239-246	nächste	_	_
+7-11	247-251	Post	_	_
+7-12	252-258	bringt	_	_
+7-13	259-264	einen	_	_
+7-14	265-270	Brief	_	_
+7-15	271-273	in	_	_
+7-16	274-281	welchem	_	_
+7-17	282-284	er	_	_
+7-18	285-288	die	_	_
+7-19	289-300	Zeichnungen	_	_
+7-20	301-303	an	_	_
+7-21	304-309	Russo	*	PERmentioned
+7-22	310-317	bezahlt	_	_
+7-23	318-320	zu	_	_
+7-24	321-326	haben	_	_
+7-25	327-336	ankündigt	_	_
+7-26	337-340	und	_	_
+7-27	341-344	den	_	_
+7-28	345-351	Betrag	_	_
+7-29	352-353	,	_	_
+7-30	354-361	welchen	_	_
+7-31	362-370	Bellßtti	*	PERmentioned
+7-32	371-381	verweigert	_	_
+7-33	382-383	,	_	_
+7-34	384-398	zurückverlangt	_	_
+7-35	399-400	.	_	_
+
+#Text=Er hat die Figur angeblich mit 3 Karlin bezahlt , so daß Sie für 3 Vasen gegen 40 Duc .
+8-1	401-403	Er	_	_
+8-2	404-407	hat	_	_
+8-3	408-411	die	_	_
+8-4	412-417	Figur	_	_
+8-5	418-427	angeblich	_	_
+8-6	428-431	mit	_	_
+8-7	432-433	3	_	_
+8-8	434-440	Karlin	_	_
+8-9	441-448	bezahlt	_	_
+8-10	449-450	,	_	_
+8-11	451-453	so	_	_
+8-12	454-457	daß	_	_
+8-13	458-461	Sie	_	_
+8-14	462-465	für	_	_
+8-15	466-467	3	_	_
+8-16	468-473	Vasen	_	_
+8-17	474-479	gegen	_	_
+8-18	480-482	40	_	_
+8-19	483-486	Duc	_	_
+8-20	487-488	.	_	_
+
+#Text=zu zahlen hätten .
+9-1	489-491	zu	_	_
+9-2	492-498	zahlen	_	_
+9-3	499-505	hätten	_	_
+9-4	506-507	.	_	_
+
+#Text=Nun habe ich an Lanberti durch Lanci unter meinem Namen einen äußerst freundlichen Brief gesandt , worin wir für solche wiederholte Güte danken , andre Male aber für diese übergroße Gefälligkeit danken , indem wir das nicht von ihm verlangen könnten .
+10-1	508-511	Nun	_	_
+10-2	512-516	habe	_	_
+10-3	517-520	ich	_	_
+10-4	521-523	an	_	_
+10-5	524-532	Lanberti	*	PERmentioned
+10-6	533-538	durch	_	_
+10-7	539-544	Lanci	*	PERmentioned
+10-8	545-550	unter	_	_
+10-9	551-557	meinem	_	_
+10-10	558-563	Namen	_	_
+10-11	564-569	einen	_	_
+10-12	570-577	äußerst	_	_
+10-13	578-590	freundlichen	_	_
+10-14	591-596	Brief	_	_
+10-15	597-604	gesandt	_	_
+10-16	605-606	,	_	_
+10-17	607-612	worin	_	_
+10-18	613-616	wir	_	_
+10-19	617-620	für	_	_
+10-20	621-627	solche	_	_
+10-21	628-639	wiederholte	_	_
+10-22	640-644	Güte	_	_
+10-23	645-651	danken	_	_
+10-24	652-653	,	_	_
+10-25	654-659	andre	_	_
+10-26	660-664	Male	_	_
+10-27	665-669	aber	_	_
+10-28	670-673	für	_	_
+10-29	674-679	diese	_	_
+10-30	680-689	übergroße	_	_
+10-31	690-702	Gefälligkeit	_	_
+10-32	703-709	danken	_	_
+10-33	710-711	,	_	_
+10-34	712-717	indem	_	_
+10-35	718-721	wir	_	_
+10-36	722-725	das	_	_
+10-37	726-731	nicht	_	_
+10-38	732-735	von	_	_
+10-39	736-739	ihm	_	_
+10-40	740-749	verlangen	_	_
+10-41	750-757	könnten	_	_
+10-42	758-759	.	_	_
+
+#Text=Bellätti dagegen , der diesen Brief subvdant erhielt , wird gebeten zu thuen was sich in der Sache thuen lässt , um wo möglich mit einem Acconto bis zu Ihren weiteren Bestimmungen daran zu kommen .
+11-1	760-768	Bellätti	*	PERmentioned
+11-2	769-776	dagegen	_	_
+11-3	777-778	,	_	_
+11-4	779-782	der	_	_
+11-5	783-789	diesen	_	_
+11-6	790-795	Brief	_	_
+11-7	796-804	subvdant	_	_
+11-8	805-812	erhielt	_	_
+11-9	813-814	,	_	_
+11-10	815-819	wird	_	_
+11-11	820-827	gebeten	_	_
+11-12	828-830	zu	_	_
+11-13	831-836	thuen	_	_
+11-14	837-840	was	_	_
+11-15	841-845	sich	_	_
+11-16	846-848	in	_	_
+11-17	849-852	der	_	_
+11-18	853-858	Sache	_	_
+11-19	859-864	thuen	_	_
+11-20	865-870	lässt	_	_
+11-21	871-872	,	_	_
+11-22	873-875	um	_	_
+11-23	876-878	wo	_	_
+11-24	879-886	möglich	_	_
+11-25	887-890	mit	_	_
+11-26	891-896	einem	_	_
+11-27	897-904	Acconto	_	_
+11-28	905-908	bis	_	_
+11-29	909-911	zu	_	_
+11-30	912-917	Ihren	_	_
+11-31	918-926	weiteren	_	_
+11-32	927-939	Bestimmungen	_	_
+11-33	940-945	daran	_	_
+11-34	946-948	zu	_	_
+11-35	949-955	kommen	_	_
+11-36	956-957	.	_	_
+
+#Text=Jetzt lassen Sie mir schleunist Ihre Nachrichten zu kommen , wenn es nicht schon zu spät ist .
+12-1	958-963	Jetzt	_	_
+12-2	964-970	lassen	_	_
+12-3	971-974	Sie	_	_
+12-4	975-978	mir	_	_
+12-5	979-989	schleunist	_	_
+12-6	990-994	Ihre	_	_
+12-7	995-1006	Nachrichten	_	_
+12-8	1007-1009	zu	_	_
+12-9	1010-1016	kommen	_	_
+12-10	1017-1018	,	_	_
+12-11	1019-1023	wenn	_	_
+12-12	1024-1026	es	_	_
+12-13	1027-1032	nicht	_	_
+12-14	1033-1038	schon	_	_
+12-15	1039-1041	zu	_	_
+12-16	1042-1046	spät	_	_
+12-17	1047-1050	ist	_	_
+12-18	1051-1052	.	_	_
+
+#Text=Sie hätten früher etwas hinterlassen sollen darüber , Apolloni hat von mir 2 Scudi vorausgenommen auf Rechnung der im Kirchenianum bestellten Sachen .
+13-1	1053-1056	Sie	_	_
+13-2	1057-1063	hätten	_	_
+13-3	1064-1070	früher	_	_
+13-4	1071-1076	etwas	_	_
+13-5	1077-1089	hinterlassen	_	_
+13-6	1090-1096	sollen	_	_
+13-7	1097-1104	darüber	_	_
+13-8	1105-1106	,	_	_
+13-9	1107-1115	Apolloni	*	PERmentioned
+13-10	1116-1119	hat	_	_
+13-11	1120-1123	von	_	_
+13-12	1124-1127	mir	_	_
+13-13	1128-1129	2	_	_
+13-14	1130-1135	Scudi	_	_
+13-15	1136-1150	vorausgenommen	_	_
+13-16	1151-1154	auf	_	_
+13-17	1155-1163	Rechnung	_	_
+13-18	1164-1167	der	_	_
+13-19	1168-1170	im	_	_
+13-20	1171-1183	Kirchenianum	*	ORGmentioned
+13-21	1184-1194	bestellten	_	_
+13-22	1195-1201	Sachen	_	_
+13-23	1202-1203	.	_	_
+
+#Text=Mit 14 Sachen sehe ich ihn aber nicht mehr .
+14-1	1204-1207	Mit	_	_
+14-2	1208-1210	14	_	_
+14-3	1211-1217	Sachen	_	_
+14-4	1218-1222	sehe	_	_
+14-5	1223-1226	ich	_	_
+14-6	1227-1230	ihn	_	_
+14-7	1231-1235	aber	_	_
+14-8	1236-1241	nicht	_	_
+14-9	1242-1246	mehr	_	_
+14-10	1247-1248	.	_	_
+
+#Text=Ich habe nichts mehr mit ihm zu thuen , \; er ist ein Schlingel und hat schlecht gearbeitet .
+15-1	1249-1252	Ich	_	_
+15-2	1253-1257	habe	_	_
+15-3	1258-1264	nichts	_	_
+15-4	1265-1269	mehr	_	_
+15-5	1270-1273	mit	_	_
+15-6	1274-1277	ihm	_	_
+15-7	1278-1280	zu	_	_
+15-8	1281-1286	thuen	_	_
+15-9	1287-1288	,	_	_
+15-10	1289-1290	\;	_	_
+15-11	1291-1293	er	_	_
+15-12	1294-1297	ist	_	_
+15-13	1298-1301	ein	_	_
+15-14	1302-1311	Schlingel	_	_
+15-15	1312-1315	und	_	_
+15-16	1316-1319	hat	_	_
+15-17	1320-1328	schlecht	_	_
+15-18	1329-1339	gearbeitet	_	_
+15-19	1340-1341	.	_	_
+
+#Text=- Die Kiste Russo übergeben , weil
+16-1	1342-1343	-	_	_
+16-2	1344-1347	Die	_	_
+16-3	1348-1353	Kiste	_	_
+16-4	1354-1359	Russo	*	PERmentioned
+16-5	1360-1369	übergeben	_	_
+16-6	1370-1371	,	_	_
+16-7	1372-1376	weil	_	_

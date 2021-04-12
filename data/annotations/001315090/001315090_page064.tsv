@@ -1,0 +1,65 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=499 Lepsius an Henzen Berlin , 24. November 1872 Auch die Monumenti von Rosellini ( ohne Text ) , und die Monuments ( 400 Tafeln ) von Champollion finden sich vielleicht antiquarisch zu einem civilen Preise .
+1-1	0-3	499	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	24.	*[1]	DATEletter[1]
+1-8	35-43	November	*[1]	DATEletter[1]
+1-9	44-48	1872	*[1]	DATEletter[1]
+1-10	49-53	Auch	_	_
+1-11	54-57	die	_	_
+1-12	58-67	Monumenti	_	_
+1-13	68-71	von	_	_
+1-14	72-81	Rosellini	*	PERmentioned
+1-15	82-83	(	_	_
+1-16	84-88	ohne	_	_
+1-17	89-93	Text	_	_
+1-18	94-95	)	_	_
+1-19	96-97	,	_	_
+1-20	98-101	und	_	_
+1-21	102-105	die	_	_
+1-22	106-115	Monuments	_	_
+1-23	116-117	(	_	_
+1-24	118-121	400	_	_
+1-25	122-128	Tafeln	_	_
+1-26	129-130	)	_	_
+1-27	131-134	von	_	_
+1-28	135-146	Champollion	*	PERmentioned
+1-29	147-153	finden	_	_
+1-30	154-158	sich	_	_
+1-31	159-169	vielleicht	_	_
+1-32	170-182	antiquarisch	_	_
+1-33	183-185	zu	_	_
+1-34	186-191	einem	_	_
+1-35	192-199	civilen	_	_
+1-36	200-206	Preise	_	_
+1-37	207-208	.	_	_
+
+#Text=- Entschuldigen Sie die Mühe die Ihnen die Nachfrage nachen könnte .
+2-1	209-210	-	_	_
+2-2	211-224	Entschuldigen	_	_
+2-3	225-228	Sie	_	_
+2-4	229-232	die	_	_
+2-5	233-237	Mühe	_	_
+2-6	238-241	die	_	_
+2-7	242-247	Ihnen	_	_
+2-8	248-251	die	_	_
+2-9	252-261	Nachfrage	_	_
+2-10	262-268	nachen	_	_
+2-11	269-275	könnte	_	_
+2-12	276-277	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr ergebenster R Lepsius
+3-1	278-281	Mit	_	_
+3-2	282-292	herzlichem	_	_
+3-3	293-297	Gruß	_	_
+3-4	298-301	Ihr	_	_
+3-5	302-313	ergebenster	_	_
+3-6	314-315	R	*[2]	PERauthor[2]
+3-7	316-323	Lepsius	*[2]	PERauthor[2]

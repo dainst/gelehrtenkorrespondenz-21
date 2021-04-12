@@ -1,0 +1,151 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Achern , 18 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Achern	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	18	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1873 leicht vergessen haben , die Blätter Mariani einzuhändigen ?
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-43	1873	*[1]	DATEletter[1]
+2-3	44-50	leicht	_	_
+2-4	51-60	vergessen	_	_
+2-5	61-66	haben	_	_
+2-6	67-68	,	_	_
+2-7	69-72	die	_	_
+2-8	73-80	Blätter	_	_
+2-9	81-88	Mariani	*	PERmentioned
+2-10	89-102	einzuhändigen	_	_
+2-11	103-104	?	_	_
+
+#Text=Michaelis trifft den 24 .
+3-1	105-114	Michaelis	*	PERmentioned
+3-2	115-121	trifft	_	_
+3-3	122-125	den	_	_
+3-4	126-128	24	*[2]	DATEmentioned[2]
+3-5	129-130	.	*[2]	DATEmentioned[2]
+
+#Text=Oktober in Straßburg ein und bringt die für uns bestimmten Zeichnungen des Nereidenmonuments mit .
+4-1	131-138	Oktober	*[2]	DATEmentioned[2]
+4-2	139-141	in	_	_
+4-3	142-151	Straßburg	*	PLACEmentioned
+4-4	152-155	ein	_	_
+4-5	156-159	und	_	_
+4-6	160-166	bringt	_	_
+4-7	167-170	die	_	_
+4-8	171-174	für	_	_
+4-9	175-178	uns	_	_
+4-10	179-189	bestimmten	_	_
+4-11	190-201	Zeichnungen	_	_
+4-12	202-205	des	_	_
+4-13	206-223	Nereidenmonuments	*	OBJ
+4-14	224-227	mit	_	_
+4-15	228-229	.	_	_
+
+#Text=Was meinen Sie dazu , wenn wir dieselbe von dem kleinen Schulz stechen ließen ?
+5-1	230-233	Was	_	_
+5-2	234-240	meinen	_	_
+5-3	241-244	Sie	_	_
+5-4	245-249	dazu	_	_
+5-5	250-251	,	_	_
+5-6	252-256	wenn	_	_
+5-7	257-260	wir	_	_
+5-8	261-269	dieselbe	_	_
+5-9	270-273	von	_	_
+5-10	274-277	dem	_	_
+5-11	278-285	kleinen	_	_
+5-12	286-292	Schulz	*	PERmentioned
+5-13	293-300	stechen	_	_
+5-14	301-307	ließen	_	_
+5-15	308-309	?	_	_
+
+#Text=Die Zeichnungen sind in der `` blassen Bleistiftmanier '' - so schreibt Michaelis - ausgeführt und ich fürchte , daß sich De Sanctis nur schwer in diese ihm wenig geläufige Weise hineinfinden wird .
+6-1	310-313	Die	_	_
+6-2	314-325	Zeichnungen	_	_
+6-3	326-330	sind	_	_
+6-4	331-333	in	_	_
+6-5	334-337	der	_	_
+6-6	338-340	``	_	_
+6-7	341-348	blassen	_	_
+6-8	349-364	Bleistiftmanier	_	_
+6-9	365-367	''	_	_
+6-10	368-369	-	_	_
+6-11	370-372	so	_	_
+6-12	373-381	schreibt	_	_
+6-13	382-391	Michaelis	*	PERmentioned
+6-14	392-393	-	_	_
+6-15	394-404	ausgeführt	_	_
+6-16	405-408	und	_	_
+6-17	409-412	ich	_	_
+6-18	413-420	fürchte	_	_
+6-19	421-422	,	_	_
+6-20	423-426	daß	_	_
+6-21	427-431	sich	_	_
+6-22	432-434	De	*[3]	PERmentioned[3]
+6-23	435-442	Sanctis	*[3]	PERmentioned[3]
+6-24	443-446	nur	_	_
+6-25	447-453	schwer	_	_
+6-26	454-456	in	_	_
+6-27	457-462	diese	_	_
+6-28	463-466	ihm	_	_
+6-29	467-472	wenig	_	_
+6-30	473-482	geläufige	_	_
+6-31	483-488	Weise	_	_
+6-32	489-501	hineinfinden	_	_
+6-33	502-506	wird	_	_
+6-34	507-508	.	_	_
+
+#Text=Von Kaibel habe ich seit seiner Abreise von Rom keine Nachricht gehabt .
+7-1	509-512	Von	_	_
+7-2	513-519	Kaibel	*	PERmentioned
+7-3	520-524	habe	_	_
+7-4	525-528	ich	_	_
+7-5	529-533	seit	_	_
+7-6	534-540	seiner	_	_
+7-7	541-548	Abreise	_	_
+7-8	549-552	von	_	_
+7-9	553-556	Rom	*	PLACEmentioned
+7-10	557-562	keine	_	_
+7-11	563-572	Nachricht	_	_
+7-12	573-579	gehabt	_	_
+7-13	580-581	.	_	_
+
+#Text=Grüßen Sie alle Capitoliner .
+8-1	582-588	Grüßen	_	_
+8-2	589-592	Sie	_	_
+8-3	593-597	alle	_	_
+8-4	598-609	Capitoliner	_	_
+8-5	610-611	.	_	_
+
+#Text=Wie Sie sich denken können , bin ich in keiner geringen Aufregung .
+9-1	612-615	Wie	_	_
+9-2	616-619	Sie	_	_
+9-3	620-624	sich	_	_
+9-4	625-631	denken	_	_
+9-5	632-638	können	_	_
+9-6	639-640	,	_	_
+9-7	641-644	bin	_	_
+9-8	645-648	ich	_	_
+9-9	649-651	in	_	_
+9-10	652-658	keiner	_	_
+9-11	659-667	geringen	_	_
+9-12	668-677	Aufregung	_	_
+9-13	678-679	.	_	_
+
+#Text=Hoffen wir das Beste .
+10-1	680-686	Hoffen	_	_
+10-2	687-690	wir	_	_
+10-3	691-694	das	_	_
+10-4	695-700	Beste	_	_
+10-5	701-702	.	_	_
+
+#Text=Ihr ergebener Helbig
+11-1	703-706	Ihr	_	_
+11-2	707-716	ergebener	_	_
+11-3	717-723	Helbig	*	PERauthor

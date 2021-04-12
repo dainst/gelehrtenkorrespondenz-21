@@ -1,0 +1,224 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=73 Lepsius an Henzen Berlin , 20. Februar 1872 g . 23/2 72 r . 2u/2 72 Berlin d . 20 .
+1-1	0-2	73	_	_	
+1-2	3-10	Lepsius	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-20	Henzen	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-33	20.	*[1]	DATEletter[1]	
+1-8	34-41	Februar	*[1]	DATEletter[1]	
+1-9	42-46	1872	*[1]	DATEletter[1]	
+1-10	47-48	g	_	_	
+1-11	49-50	.	_	_	
+1-12	51-55	23/2	*[2]	DATErecieved[2]	
+1-13	56-58	72	*[2]	DATErecieved[2]	
+1-14	59-60	r	_	_	
+1-15	61-62	.	_	_	
+1-16	63-67	2u/2	*[3]	DATEanswered[3]	
+1-17	68-70	72	*[3]	DATEanswered[3]	
+1-18	71-77	Berlin	*	PLACEfrom	
+1-19	78-79	d	_	_	
+1-20	80-81	.	_	_	
+1-21	82-84	20	_	_	
+1-22	85-86	.	*[4]	DATEletter[4]	
+
+#Text=Febr .
+2-1	87-91	Febr	*[4]	DATEletter[4]	
+2-2	92-93	.	*[4]	DATEletter[4]	
+
+#Text=1872 .
+3-1	94-98	1872	*[4]	DATEletter[4]	
+3-2	99-100	.	_	_	
+
+#Text=Verehrtester Freund Ich habe den Etat nun wieder an die Kalkulatur zurückgegeben und sie aufgefordert , die Zahlen ganz nach den neusten Rechnungen einzutragen .
+4-1	101-113	Verehrtester	_	_	
+4-2	114-120	Freund	_	_	
+4-3	121-124	Ich	_	_	
+4-4	125-129	habe	_	_	
+4-5	130-133	den	_	_	
+4-6	134-138	Etat	_	_	
+4-7	139-142	nun	_	_	
+4-8	143-149	wieder	_	_	
+4-9	150-152	an	_	_	
+4-10	153-156	die	_	_	
+4-11	157-167	Kalkulatur	_	_	
+4-12	168-181	zurückgegeben	_	_	
+4-13	182-185	und	_	_	
+4-14	186-189	sie	_	_	
+4-15	190-202	aufgefordert	_	_	
+4-16	203-204	,	_	_	
+4-17	205-208	die	_	_	
+4-18	209-215	Zahlen	_	_	
+4-19	216-220	ganz	_	_	
+4-20	221-225	nach	_	_	
+4-21	226-229	den	_	_	
+4-22	230-237	neusten	_	_	
+4-23	238-248	Rechnungen	_	_	
+4-24	249-260	einzutragen	_	_	
+4-25	261-262	.	_	_	
+
+#Text=Wenn er fertig und von uns approbirt ist , wird er Ihnen zugehen .
+5-1	263-267	Wenn	_	_	
+5-2	268-270	er	_	_	
+5-3	271-277	fertig	_	_	
+5-4	278-281	und	_	_	
+5-5	282-285	von	_	_	
+5-6	286-289	uns	_	_	
+5-7	290-299	approbirt	_	_	
+5-8	300-303	ist	_	_	
+5-9	304-305	,	_	_	
+5-10	306-310	wird	_	_	
+5-11	311-313	er	_	_	
+5-12	314-319	Ihnen	_	_	
+5-13	320-327	zugehen	_	_	
+5-14	328-329	.	_	_	
+
+#Text=Sie müssen dann freilich Ihre Rechnungslegung damit in Übereinstimmung bringen , was Ihnen aber nicht schwer fallen wird , 2 .
+6-1	330-333	Sie	_	_	
+6-2	334-340	müssen	_	_	
+6-3	341-345	dann	_	_	
+6-4	346-354	freilich	_	_	
+6-5	355-359	Ihre	_	_	
+6-6	360-375	Rechnungslegung	_	_	
+6-7	376-381	damit	_	_	
+6-8	382-384	in	_	_	
+6-9	385-400	Übereinstimmung	_	_	
+6-10	401-408	bringen	_	_	
+6-11	409-410	,	_	_	
+6-12	411-414	was	_	_	
+6-13	415-420	Ihnen	_	_	
+6-14	421-425	aber	_	_	
+6-15	426-431	nicht	_	_	
+6-16	432-438	schwer	_	_	
+6-17	439-445	fallen	_	_	
+6-18	446-450	wird	_	_	
+6-19	451-452	,	_	_	
+6-20	453-454	2	_	_	
+6-21	455-456	.	_	_	
+
+#Text=B. alle Einnahmen und alle Ausgaben zusammenzulegen , die Gehalte der Sekretare und der Stipendiaten mit zu verzeichnen und die einzelnen Titel einzuhalten und dgl .
+7-1	457-459	B.	_	_	
+7-2	460-464	alle	_	_	
+7-3	465-474	Einnahmen	_	_	
+7-4	475-478	und	_	_	
+7-5	479-483	alle	_	_	
+7-6	484-492	Ausgaben	_	_	
+7-7	493-508	zusammenzulegen	_	_	
+7-8	509-510	,	_	_	
+7-9	511-514	die	_	_	
+7-10	515-522	Gehalte	_	_	
+7-11	523-526	der	_	_	
+7-12	527-536	Sekretare	_	_	
+7-13	537-540	und	_	_	
+7-14	541-544	der	_	_	
+7-15	545-557	Stipendiaten	_	_	
+7-16	558-561	mit	_	_	
+7-17	562-564	zu	_	_	
+7-18	565-576	verzeichnen	_	_	
+7-19	577-580	und	_	_	
+7-20	581-584	die	_	_	
+7-21	585-594	einzelnen	_	_	
+7-22	595-600	Titel	_	_	
+7-23	601-612	einzuhalten	_	_	
+7-24	613-616	und	_	_	
+7-25	617-620	dgl	_	_	
+7-26	621-622	.	_	_	
+
+#Text=Dagegen muthet Ihnen niemand zu , die Rechnungen selbst anders zu machen oder sich um unsre Thalerrechnung zu bekümmern ; alle Umrechnungen fallen der Kalkulatur zu .
+8-1	623-630	Dagegen	_	_	
+8-2	631-637	muthet	_	_	
+8-3	638-643	Ihnen	_	_	
+8-4	644-651	niemand	_	_	
+8-5	652-654	zu	_	_	
+8-6	655-656	,	_	_	
+8-7	657-660	die	_	_	
+8-8	661-671	Rechnungen	_	_	
+8-9	672-678	selbst	_	_	
+8-10	679-685	anders	_	_	
+8-11	686-688	zu	_	_	
+8-12	689-695	machen	_	_	
+8-13	696-700	oder	_	_	
+8-14	701-705	sich	_	_	
+8-15	706-708	um	_	_	
+8-16	709-714	unsre	_	_	
+8-17	715-729	Thalerrechnung	_	_	
+8-18	730-732	zu	_	_	
+8-19	733-742	bekümmern	_	_	
+8-20	743-744	;	_	_	
+8-21	745-749	alle	_	_	
+8-22	750-762	Umrechnungen	_	_	
+8-23	763-769	fallen	_	_	
+8-24	770-773	der	_	_	
+8-25	774-784	Kalkulatur	_	_	
+8-26	785-787	zu	_	_	
+8-27	788-789	.	_	_	
+
+#Text=Sollte sich die Comptabilität noch erheblich vermehren und Sie eines Gehülfen bedürfen , so wird sich ja bei der Gesandtschaft jemand finden , der das gegen eine Vergütung übernimmt .
+9-1	790-796	Sollte	_	_	
+9-2	797-801	sich	_	_	
+9-3	802-805	die	_	_	
+9-4	806-819	Comptabilität	_	_	
+9-5	820-824	noch	_	_	
+9-6	825-834	erheblich	_	_	
+9-7	835-844	vermehren	_	_	
+9-8	845-848	und	_	_	
+9-9	849-852	Sie	_	_	
+9-10	853-858	eines	_	_	
+9-11	859-867	Gehülfen	_	_	
+9-12	868-876	bedürfen	_	_	
+9-13	877-878	,	_	_	
+9-14	879-881	so	_	_	
+9-15	882-886	wird	_	_	
+9-16	887-891	sich	_	_	
+9-17	892-894	ja	_	_	
+9-18	895-898	bei	_	_	
+9-19	899-902	der	_	_	
+9-20	903-916	Gesandtschaft	*	ORGmentioned	
+9-21	917-923	jemand	_	_	
+9-22	924-930	finden	_	_	
+9-23	931-932	,	_	_	
+9-24	933-936	der	_	_	
+9-25	937-940	das	_	_	
+9-26	941-946	gegen	_	_	
+9-27	947-951	eine	_	_	
+9-28	952-961	Vergütung	_	_	
+9-29	962-971	übernimmt	_	_	
+9-30	972-973	.	_	_	
+
+#Text=Ihre Berichte habe ich in der letzten Sitzung vorgetragen ; sie haben wie immer völlig befriedigt und unsern Dank herausgefordert .
+10-1	974-978	Ihre	_	_	
+10-2	979-987	Berichte	_	_	
+10-3	988-992	habe	_	_	
+10-4	993-996	ich	_	_	
+10-5	997-999	in	_	_	
+10-6	1000-1003	der	_	_	
+10-7	1004-1011	letzten	_	_	
+10-8	1012-1019	Sitzung	_	_	
+10-9	1020-1031	vorgetragen	_	_	
+10-10	1032-1033	;	_	_	
+10-11	1034-1037	sie	_	_	
+10-12	1038-1043	haben	_	_	
+10-13	1044-1047	wie	_	_	
+10-14	1048-1053	immer	_	_	
+10-15	1054-1060	völlig	_	_	
+10-16	1061-1071	befriedigt	_	_	
+10-17	1072-1075	und	_	_	
+10-18	1076-1082	unsern	_	_	
+10-19	1083-1087	Dank	_	_	
+10-20	1088-1103	herausgefordert	_	_	
+10-21	1104-1105	.	_	_	
+
+#Text=Über die Zulage von 10 Lire monatlich für den
+11-1	1106-1110	Über	_	_	
+11-2	1111-1114	die	_	_	
+11-3	1115-1121	Zulage	_	_	
+11-4	1122-1125	von	_	_	
+11-5	1126-1128	10	_	_	
+11-6	1129-1133	Lire	_	_	
+11-7	1134-1143	monatlich	_	_	
+11-8	1144-1147	für	_	_	
+11-9	1148-1151	den	_	_	

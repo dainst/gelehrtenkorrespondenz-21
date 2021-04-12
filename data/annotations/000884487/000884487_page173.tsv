@@ -1,0 +1,268 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ZN Gerhard an Braun Athen , 20. April 1837 den ionischen Inseln bereits aufgehoben Sei \; demnach verkürze ich meine Reise , opfere sogar Sparta und Mestene und thue alles um binnen 9 Tagen mich in Zante zu befinden und den früheren Termin in Ancona zu halten .
+1-1	0-2	ZN	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-25	Athen	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	20.	*[4]	DATEletter[4]
+1-8	32-37	April	*[4]	DATEletter[4]
+1-9	38-42	1837	*[4]	DATEletter[4]
+1-10	43-46	den	_	_
+1-11	47-56	ionischen	*[5]	PLACEmentioned[5]
+1-12	57-63	Inseln	*[5]	PLACEmentioned[5]
+1-13	64-71	bereits	_	_
+1-14	72-82	aufgehoben	_	_
+1-15	83-86	Sei	_	_
+1-16	87-88	\;	_	_
+1-17	89-96	demnach	_	_
+1-18	97-105	verkürze	_	_
+1-19	106-109	ich	_	_
+1-20	110-115	meine	_	_
+1-21	116-121	Reise	_	_
+1-22	122-123	,	_	_
+1-23	124-130	opfere	_	_
+1-24	131-136	sogar	_	_
+1-25	137-143	Sparta	*	PLACEmentioned
+1-26	144-147	und	_	_
+1-27	148-155	Mestene	*	PLACEmentioned
+1-28	156-159	und	_	_
+1-29	160-164	thue	_	_
+1-30	165-170	alles	_	_
+1-31	171-173	um	_	_
+1-32	174-180	binnen	_	_
+1-33	181-182	9	_	_
+1-34	183-188	Tagen	_	_
+1-35	189-193	mich	_	_
+1-36	194-196	in	_	_
+1-37	197-202	Zante	*	PLACEmentioned
+1-38	203-205	zu	_	_
+1-39	206-214	befinden	_	_
+1-40	215-218	und	_	_
+1-41	219-222	den	_	_
+1-42	223-231	früheren	_	_
+1-43	232-238	Termin	_	_
+1-44	239-241	in	_	_
+1-45	242-248	Ancona	*	PLACEmentioned
+1-46	249-251	zu	_	_
+1-47	252-258	halten	_	_
+1-48	259-260	.	_	_
+
+#Text=Dennoch wiederhole ich meine früher in solcher Voraussetzung an Sie gerichtete Bitte mich am 18.ten mich alle wünschenswerthen brieflichen Notizen finden zu lassen .
+2-1	261-268	Dennoch	_	_
+2-2	269-279	wiederhole	_	_
+2-3	280-283	ich	_	_
+2-4	284-289	meine	_	_
+2-5	290-296	früher	_	_
+2-6	297-299	in	_	_
+2-7	300-307	solcher	_	_
+2-8	308-321	Voraussetzung	_	_
+2-9	322-324	an	_	_
+2-10	325-328	Sie	_	_
+2-11	329-339	gerichtete	_	_
+2-12	340-345	Bitte	_	_
+2-13	346-350	mich	_	_
+2-14	351-353	am	_	_
+2-15	354-360	18.ten	*	DATEmentioned
+2-16	361-365	mich	_	_
+2-17	366-370	alle	_	_
+2-18	371-387	wünschenswerthen	_	_
+2-19	388-399	brieflichen	_	_
+2-20	400-407	Notizen	_	_
+2-21	408-414	finden	_	_
+2-22	415-417	zu	_	_
+2-23	418-424	lassen	_	_
+2-24	425-426	.	_	_
+
+#Text=Sollten die DampfreiSe .
+3-1	427-434	Sollten	_	_
+3-2	435-438	die	_	_
+3-3	439-449	DampfreiSe	_	_
+3-4	450-451	.	_	_
+
+#Text=nach Ancona mißlingen , so wird ein andrer Brief dem gegenwärtigen bald nachfolgen .
+4-1	452-456	nach	_	_
+4-2	457-463	Ancona	*	PLACEmentioned
+4-3	464-473	mißlingen	_	_
+4-4	474-475	,	_	_
+4-5	476-478	so	_	_
+4-6	479-483	wird	_	_
+4-7	484-487	ein	_	_
+4-8	488-494	andrer	_	_
+4-9	495-500	Brief	_	_
+4-10	501-504	dem	_	_
+4-11	505-518	gegenwärtigen	_	_
+4-12	519-523	bald	_	_
+4-13	524-534	nachfolgen	_	_
+4-14	535-536	.	_	_
+
+#Text=Also auf Wiedersehn !
+5-1	537-541	Also	_	_
+5-2	542-545	auf	_	_
+5-3	546-556	Wiedersehn	_	_
+5-4	557-558	!	_	_
+
+#Text=Ihr Gerhard Patras .
+6-1	559-562	Ihr	_	_
+6-2	563-570	Gerhard	*	PERauthor
+6-3	571-577	Patras	*	PLACEmentioned
+6-4	578-579	.	_	_
+
+#Text=19 Mai .
+7-1	580-582	19	*[13]	DATEmentioned[13]
+7-2	583-586	Mai	*[13]	DATEmentioned[13]
+7-3	587-588	.	_	_
+
+#Text=In Athen gab ich diesen Brief nicht zu Post weil alle Aussicht da war ihn eben so rasch und sicherer selbst nach Zante zu bringen .
+8-1	589-591	In	_	_
+8-2	592-597	Athen	*	PLACEfrom
+8-3	598-601	gab	_	_
+8-4	602-605	ich	_	_
+8-5	606-612	diesen	_	_
+8-6	613-618	Brief	_	_
+8-7	619-624	nicht	_	_
+8-8	625-627	zu	_	_
+8-9	628-632	Post	_	_
+8-10	633-637	weil	_	_
+8-11	638-642	alle	_	_
+8-12	643-651	Aussicht	_	_
+8-13	652-654	da	_	_
+8-14	655-658	war	_	_
+8-15	659-662	ihn	_	_
+8-16	663-667	eben	_	_
+8-17	668-670	so	_	_
+8-18	671-676	rasch	_	_
+8-19	677-680	und	_	_
+8-20	681-689	sicherer	_	_
+8-21	690-696	selbst	_	_
+8-22	697-701	nach	_	_
+8-23	702-707	Zante	*	PLACEmentioned
+8-24	708-710	zu	_	_
+8-25	711-718	bringen	_	_
+8-26	719-720	.	_	_
+
+#Text=Ich eilte zur Einschiffung dorthin \; unterwegs die Nachricht der Fost in Poros , wonach die ionischen Inseln 46 Tage gegen Griechenland sperren .
+9-1	721-724	Ich	_	_
+9-2	725-730	eilte	_	_
+9-3	731-734	zur	_	_
+9-4	735-747	Einschiffung	_	_
+9-5	748-755	dorthin	_	_
+9-6	756-757	\;	_	_
+9-7	758-767	unterwegs	_	_
+9-8	768-771	die	_	_
+9-9	772-781	Nachricht	_	_
+9-10	782-785	der	_	_
+9-11	786-790	Fost	_	_
+9-12	791-793	in	_	_
+9-13	794-799	Poros	*	PLACEmentioned
+9-14	800-801	,	_	_
+9-15	802-808	wonach	_	_
+9-16	809-812	die	_	_
+9-17	813-822	ionischen	*[18]	PLACEmentioned[18]
+9-18	823-829	Inseln	*[18]	PLACEmentioned[18]
+9-19	830-832	46	_	_
+9-20	833-837	Tage	_	_
+9-21	838-843	gegen	_	_
+9-22	844-856	Griechenland	*	PLACEmentioned
+9-23	857-864	sperren	_	_
+9-24	865-866	.	_	_
+
+#Text=Demnach ist dieses Blatt mit mir N durch Sparta , Mass ‚fh eg lia , Olympia hieher \; gewandert , wo ich abgemattet aber über Vergangnes und Großes sehr zufrieden gestern hier anlangte .
+10-1	867-874	Demnach	_	_
+10-2	875-878	ist	_	_
+10-3	879-885	dieses	_	_
+10-4	886-891	Blatt	_	_
+10-5	892-895	mit	_	_
+10-6	896-899	mir	_	_
+10-7	900-901	N	_	_
+10-8	902-907	durch	_	_
+10-9	908-914	Sparta	*	PLACEmentioned
+10-10	915-916	,	_	_
+10-11	917-921	Mass	*	PLACEmentioned
+10-12	922-925	‚fh	*[22]	PLACEmentioned[22]
+10-13	926-928	eg	*[22]	PLACEmentioned[22]
+10-14	929-932	lia	*[22]	PLACEmentioned[22]
+10-15	933-934	,	_	_
+10-16	935-942	Olympia	*	PLACEmentioned
+10-17	943-949	hieher	_	_
+10-18	950-951	\;	_	_
+10-19	952-961	gewandert	_	_
+10-20	962-963	,	_	_
+10-21	964-966	wo	_	_
+10-22	967-970	ich	_	_
+10-23	971-981	abgemattet	_	_
+10-24	982-986	aber	_	_
+10-25	987-991	über	_	_
+10-26	992-1002	Vergangnes	_	_
+10-27	1003-1006	und	_	_
+10-28	1007-1013	Großes	_	_
+10-29	1014-1018	sehr	_	_
+10-30	1019-1028	zufrieden	_	_
+10-31	1029-1036	gestern	_	_
+10-32	1037-1041	hier	_	_
+10-33	1042-1050	anlangte	_	_
+10-34	1051-1052	.	_	_
+
+#Text=Bitter ist die nächste Zukunft \; es bleibt mir keine Reisegelegenheit übrig als das östreich .
+11-1	1053-1059	Bitter	_	_
+11-2	1060-1063	ist	_	_
+11-3	1064-1067	die	_	_
+11-4	1068-1075	nächste	_	_
+11-5	1076-1083	Zukunft	_	_
+11-6	1084-1085	\;	_	_
+11-7	1086-1088	es	_	_
+11-8	1089-1095	bleibt	_	_
+11-9	1096-1099	mir	_	_
+11-10	1100-1105	keine	_	_
+11-11	1106-1122	Reisegelegenheit	_	_
+11-12	1123-1128	übrig	_	_
+11-13	1129-1132	als	_	_
+11-14	1133-1136	das	_	_
+11-15	1137-1145	östreich	_	_
+11-16	1146-1147	.	_	_
+
+#Text=Paketboot nach Triest zu nehmen und dort jedenfalls e3ne ziemlich lange Reise und Quarantaine zu halten .
+12-1	1148-1157	Paketboot	_	_
+12-2	1158-1162	nach	_	_
+12-3	1163-1169	Triest	*	PLACEmentioned
+12-4	1170-1172	zu	_	_
+12-5	1173-1179	nehmen	_	_
+12-6	1180-1183	und	_	_
+12-7	1184-1188	dort	_	_
+12-8	1189-1199	jedenfalls	_	_
+12-9	1200-1204	e3ne	_	_
+12-10	1205-1213	ziemlich	_	_
+12-11	1214-1219	lange	_	_
+12-12	1220-1225	Reise	_	_
+12-13	1226-1229	und	_	_
+12-14	1230-1241	Quarantaine	_	_
+12-15	1242-1244	zu	_	_
+12-16	1245-1251	halten	_	_
+12-17	1252-1253	.	_	_
+
+#Text=Sie können mir dorthin schreiben ( Consol .
+13-1	1254-1257	Sie	_	_
+13-2	1258-1264	können	_	_
+13-3	1265-1268	mir	_	_
+13-4	1269-1276	dorthin	_	_
+13-5	1277-1286	schreiben	_	_
+13-6	1287-1288	(	_	_
+13-7	1289-1295	Consol	_	_
+13-8	1296-1297	.	_	_
+
+#Text=di `` russia ) \; die Briefe aus Ancona lasse ich
+14-1	1298-1300	di	_	_
+14-2	1301-1303	``	_	_
+14-3	1304-1310	russia	_	_
+14-4	1311-1312	)	_	_
+14-5	1313-1314	\;	_	_
+14-6	1315-1318	die	_	_
+14-7	1319-1325	Briefe	_	_
+14-8	1326-1329	aus	_	_
+14-9	1330-1336	Ancona	*	PLACEmentioned
+14-10	1337-1342	lasse	_	_
+14-11	1343-1346	ich	_	_

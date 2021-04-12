@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Le .
+1-1	0-2	Le	_	_
+1-2	3-4	.	_	_
+
+#Text=Gerhard an Braun Berlin , 22 Januar 1849 preises nicht \; ich denke aber sie zunächst aufrecht zu halten , nöthigenfalls mit eigner Geldeinbuße .
+2-1	5-12	Gerhard	*	PERauthor
+2-2	13-15	an	_	_
+2-3	16-21	Braun	*	PERaddressee
+2-4	22-28	Berlin	*	PLACEfrom
+2-5	29-30	,	_	_
+2-6	31-33	22	*[1]	DATEletter[1]
+2-7	34-40	Januar	*[1]	DATEletter[1]
+2-8	41-45	1849	*[1]	DATEletter[1]
+2-9	46-53	preises	_	_
+2-10	54-59	nicht	_	_
+2-11	60-61	\;	_	_
+2-12	62-65	ich	_	_
+2-13	66-71	denke	_	_
+2-14	72-76	aber	_	_
+2-15	77-80	sie	_	_
+2-16	81-89	zunächst	_	_
+2-17	90-98	aufrecht	_	_
+2-18	99-101	zu	_	_
+2-19	102-108	halten	_	_
+2-20	109-110	,	_	_
+2-21	111-124	nöthigenfalls	_	_
+2-22	125-128	mit	_	_
+2-23	129-135	eigner	_	_
+2-24	136-147	Geldeinbuße	_	_
+2-25	148-149	.	_	_
+
+#Text=( Usedons ) `` Politische Bilder etc. aus der Gegenwart '' , Briefwechsel zwischen M. und G. machen hier Aufsehen und sind ohne Zweifel auch in Ihren Händen .
+3-1	150-151	(	_	_
+3-2	152-159	Usedons	*	PERmentioned
+3-3	160-161	)	_	_
+3-4	162-164	``	_	_
+3-5	165-175	Politische	_	_
+3-6	176-182	Bilder	_	_
+3-7	183-187	etc.	_	_
+3-8	188-191	aus	_	_
+3-9	192-195	der	_	_
+3-10	196-205	Gegenwart	_	_
+3-11	206-208	''	_	_
+3-12	209-210	,	_	_
+3-13	211-223	Briefwechsel	_	_
+3-14	224-232	zwischen	_	_
+3-15	233-235	M.	*	PERmentioned
+3-16	236-239	und	_	_
+3-17	240-242	G.	*	PERmentioned
+3-18	243-249	machen	_	_
+3-19	250-254	hier	_	_
+3-20	255-263	Aufsehen	_	_
+3-21	264-267	und	_	_
+3-22	268-272	sind	_	_
+3-23	273-277	ohne	_	_
+3-24	278-285	Zweifel	_	_
+3-25	286-290	auch	_	_
+3-26	291-293	in	_	_
+3-27	294-299	Ihren	_	_
+3-28	300-306	Händen	_	_
+3-29	307-308	.	_	_
+
+#Text=Er selbst , meint man hier , müsse bald hieher zurück wo er zu wirken berufen sei .
+4-1	309-311	Er	_	_
+4-2	312-318	selbst	_	_
+4-3	319-320	,	_	_
+4-4	321-326	meint	_	_
+4-5	327-330	man	_	_
+4-6	331-335	hier	_	_
+4-7	336-337	,	_	_
+4-8	338-343	müsse	_	_
+4-9	344-348	bald	_	_
+4-10	349-355	hieher	_	_
+4-11	356-362	zurück	_	_
+4-12	363-365	wo	_	_
+4-13	366-368	er	_	_
+4-14	369-371	zu	_	_
+4-15	372-378	wirken	_	_
+4-16	379-386	berufen	_	_
+4-17	387-390	sei	_	_
+4-18	391-392	.	_	_
+
+#Text=Ihr Manuscript über Duccio liegt auch schon lange unverfügt bei mir .
+5-1	393-396	Ihr	_	_
+5-2	397-407	Manuscript	_	_
+5-3	408-412	über	_	_
+5-4	413-419	Duccio	_	_
+5-5	420-425	liegt	_	_
+5-6	426-430	auch	_	_
+5-7	431-436	schon	_	_
+5-8	437-442	lange	_	_
+5-9	443-452	unverfügt	_	_
+5-10	453-456	bei	_	_
+5-11	457-460	mir	_	_
+5-12	461-462	.	_	_
+
+#Text=Die Archäologische Zeitung hat allerdings sehr wenig Spielraum \; Tagesberichte aber und pikante kurze Artikel zum archäologischen Allerlei sind mir von säntlichen guten Freunden , von Ihnen was Sie mir überhaupt schicken wollen mir willkommen .
+6-1	463-466	Die	_	_
+6-2	467-481	Archäologische	_	_
+6-3	482-489	Zeitung	_	_
+6-4	490-493	hat	_	_
+6-5	494-504	allerdings	_	_
+6-6	505-509	sehr	_	_
+6-7	510-515	wenig	_	_
+6-8	516-525	Spielraum	_	_
+6-9	526-527	\;	_	_
+6-10	528-541	Tagesberichte	_	_
+6-11	542-546	aber	_	_
+6-12	547-550	und	_	_
+6-13	551-558	pikante	_	_
+6-14	559-564	kurze	_	_
+6-15	565-572	Artikel	_	_
+6-16	573-576	zum	_	_
+6-17	577-592	archäologischen	_	_
+6-18	593-601	Allerlei	_	_
+6-19	602-606	sind	_	_
+6-20	607-610	mir	_	_
+6-21	611-614	von	_	_
+6-22	615-625	säntlichen	_	_
+6-23	626-631	guten	_	_
+6-24	632-640	Freunden	_	_
+6-25	641-642	,	_	_
+6-26	643-646	von	_	_
+6-27	647-652	Ihnen	_	_
+6-28	653-656	was	_	_
+6-29	657-660	Sie	_	_
+6-30	661-664	mir	_	_
+6-31	665-674	überhaupt	_	_
+6-32	675-683	schicken	_	_
+6-33	684-690	wollen	_	_
+6-34	691-694	mir	_	_
+6-35	695-705	willkommen	_	_
+6-36	706-707	.	_	_
+
+#Text=Besondrer Ansichten über Deukalion bin ich mir nicht bewußt , freue mich aber von Posadowski gutes zu hören , der hier geisteskrank ( ? )
+7-1	708-717	Besondrer	_	_
+7-2	718-727	Ansichten	_	_
+7-3	728-732	über	_	_
+7-4	733-742	Deukalion	_	_
+7-5	743-746	bin	_	_
+7-6	747-750	ich	_	_
+7-7	751-754	mir	_	_
+7-8	755-760	nicht	_	_
+7-9	761-767	bewußt	_	_
+7-10	768-769	,	_	_
+7-11	770-775	freue	_	_
+7-12	776-780	mich	_	_
+7-13	781-785	aber	_	_
+7-14	786-789	von	_	_
+7-15	790-800	Posadowski	*	PERmentioned
+7-16	801-806	gutes	_	_
+7-17	807-809	zu	_	_
+7-18	810-815	hören	_	_
+7-19	816-817	,	_	_
+7-20	818-821	der	_	_
+7-21	822-826	hier	_	_
+7-22	827-839	geisteskrank	_	_
+7-23	840-841	(	_	_
+7-24	842-843	?	_	_
+7-25	844-845	)	_	_
+
+#Text=gesagt wurde .
+8-1	846-852	gesagt	_	_
+8-2	853-858	wurde	_	_
+8-3	859-860	.	_	_
+
+#Text=Grüssen Sie ihn samt Henzen : , „ Brunn Schmidt etc .
+9-1	861-868	Grüssen	_	_
+9-2	869-872	Sie	_	_
+9-3	873-876	ihn	_	_
+9-4	877-881	samt	_	_
+9-5	882-888	Henzen	*	PERmentioned
+9-6	889-890	:	_	_
+9-7	891-892	,	_	_
+9-8	893-894	„	_	_
+9-9	895-900	Brunn	*	PERmentioned
+9-10	901-908	Schmidt	*	PERmentioned
+9-11	909-912	etc	_	_
+9-12	913-914	.	_	_
+
+#Text=Meine Frau hat nach leidenden Monaten jetzt ein paar gute Tage gehabt , in denen aber eine seit geraumer Zeit behütete Drüsenanschwellung der Brust sie auf ganz andre Besorgnisse hinlenkt die von ihrer seligen Mutter her ihr furchtbar sind .
+10-1	915-920	Meine	_	_
+10-2	921-925	Frau	_	_
+10-3	926-929	hat	_	_
+10-4	930-934	nach	_	_
+10-5	935-944	leidenden	_	_
+10-6	945-952	Monaten	_	_
+10-7	953-958	jetzt	_	_
+10-8	959-962	ein	_	_
+10-9	963-967	paar	_	_
+10-10	968-972	gute	_	_
+10-11	973-977	Tage	_	_
+10-12	978-984	gehabt	_	_
+10-13	985-986	,	_	_
+10-14	987-989	in	_	_
+10-15	990-995	denen	_	_
+10-16	996-1000	aber	_	_
+10-17	1001-1005	eine	_	_
+10-18	1006-1010	seit	_	_
+10-19	1011-1019	geraumer	_	_
+10-20	1020-1024	Zeit	_	_
+10-21	1025-1033	behütete	_	_
+10-22	1034-1052	Drüsenanschwellung	_	_
+10-23	1053-1056	der	_	_
+10-24	1057-1062	Brust	_	_
+10-25	1063-1066	sie	_	_
+10-26	1067-1070	auf	_	_
+10-27	1071-1075	ganz	_	_
+10-28	1076-1081	andre	_	_
+10-29	1082-1093	Besorgnisse	_	_
+10-30	1094-1102	hinlenkt	_	_
+10-31	1103-1106	die	_	_
+10-32	1107-1110	von	_	_
+10-33	1111-1116	ihrer	_	_
+10-34	1117-1124	seligen	_	_
+10-35	1125-1131	Mutter	_	_
+10-36	1132-1135	her	_	_
+10-37	1136-1139	ihr	_	_
+10-38	1140-1149	furchtbar	_	_
+10-39	1150-1154	sind	_	_
+10-40	1155-1156	.	_	_
+
+#Text=Ich bin dadurch veranlaßt worden sie wieder einmal einen Brief über Gesundheitssachen schreiben zu lassen der offen an Wahle geschrieben und zu-
+11-1	1157-1160	Ich	_	_
+11-2	1161-1164	bin	_	_
+11-3	1165-1172	dadurch	_	_
+11-4	1173-1182	veranlaßt	_	_
+11-5	1183-1189	worden	_	_
+11-6	1190-1193	sie	_	_
+11-7	1194-1200	wieder	_	_
+11-8	1201-1207	einmal	_	_
+11-9	1208-1213	einen	_	_
+11-10	1214-1219	Brief	_	_
+11-11	1220-1224	über	_	_
+11-12	1225-1242	Gesundheitssachen	_	_
+11-13	1243-1252	schreiben	_	_
+11-14	1253-1255	zu	_	_
+11-15	1256-1262	lassen	_	_
+11-16	1263-1266	der	_	_
+11-17	1267-1272	offen	_	_
+11-18	1273-1275	an	_	_
+11-19	1276-1281	Wahle	*	PERmentioned
+11-20	1282-1293	geschrieben	_	_
+11-21	1294-1297	und	_	_
+11-22	1298-1301	zu-	_	_

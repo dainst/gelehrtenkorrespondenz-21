@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=364 Braun an Gerhard Mantova , 20 .
+1-1	0-3	364	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-28	Mantova	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	20	*[7]	DATEletter[7]
+1-8	34-35	.	*[7]	DATEletter[7]
+
+#Text=Oktober 1837 Sig .
+2-1	36-43	Oktober	*[7]	DATEletter[7]
+2-2	44-48	1837	*[7]	DATEletter[7]
+2-3	49-52	Sig	_	_
+2-4	53-54	.	_	_
+
+#Text=Cav .
+3-1	55-58	Cav	_	_
+3-2	59-60	.	_	_
+
+#Text=Gerhard Mantova 20 Ottbre 1837 .
+4-1	61-68	Gerhard	*	PERaddressee
+4-2	69-76	Mantova	*	PLACEfrom
+4-3	77-79	20	*[8]	DATEletter[8]
+4-4	80-86	Ottbre	*[8]	DATEletter[8]
+4-5	87-91	1837	*[8]	DATEletter[8]
+4-6	92-93	.	_	_
+
+#Text=Hochverehrtester Freund !
+5-1	94-110	Hochverehrtester	_	_
+5-2	111-117	Freund	_	_
+5-3	118-119	!	_	_
+
+#Text=Mein Besuch von Catajo hat mir eine 14 tagige Quarantäne zugezogen , die mir äußerst sauer ankommt .
+6-1	120-124	Mein	_	_
+6-2	125-131	Besuch	_	_
+6-3	132-135	von	_	_
+6-4	136-142	Catajo	*	PLACEmentioned
+6-5	143-146	hat	_	_
+6-6	147-150	mir	_	_
+6-7	151-155	eine	_	_
+6-8	156-158	14	_	_
+6-9	159-165	tagige	_	_
+6-10	166-176	Quarantäne	_	_
+6-11	177-186	zugezogen	_	_
+6-12	187-188	,	_	_
+6-13	189-192	die	_	_
+6-14	193-196	mir	_	_
+6-15	197-204	äußerst	_	_
+6-16	205-210	sauer	_	_
+6-17	211-218	ankommt	_	_
+6-18	219-220	.	_	_
+
+#Text=Ich verschmerze sie indeß , da ich in dem dortigen Museum in der That seltene Schätze gefunden habe .
+7-1	221-224	Ich	_	_
+7-2	225-236	verschmerze	_	_
+7-3	237-240	sie	_	_
+7-4	241-246	indeß	_	_
+7-5	247-248	,	_	_
+7-6	249-251	da	_	_
+7-7	252-255	ich	_	_
+7-8	256-258	in	_	_
+7-9	259-262	dem	_	_
+7-10	263-271	dortigen	_	_
+7-11	272-278	Museum	*	ORGmentioned
+7-12	279-281	in	_	_
+7-13	282-285	der	_	_
+7-14	286-290	That	_	_
+7-15	291-298	seltene	_	_
+7-16	299-306	Schätze	_	_
+7-17	307-315	gefunden	_	_
+7-18	316-320	habe	_	_
+7-19	321-322	.	_	_
+
+#Text=Von dieser Erhaltung , wie sie ein großer Theil der daselbst aufgehäuften Denkmäler zeigt , hat man keinen Begriff .
+8-1	323-326	Von	_	_
+8-2	327-333	dieser	_	_
+8-3	334-343	Erhaltung	_	_
+8-4	344-345	,	_	_
+8-5	346-349	wie	_	_
+8-6	350-353	sie	_	_
+8-7	354-357	ein	_	_
+8-8	358-364	großer	_	_
+8-9	365-370	Theil	_	_
+8-10	371-374	der	_	_
+8-11	375-383	daselbst	_	_
+8-12	384-396	aufgehäuften	_	_
+8-13	397-406	Denkmäler	_	_
+8-14	407-412	zeigt	_	_
+8-15	413-414	,	_	_
+8-16	415-418	hat	_	_
+8-17	419-422	man	_	_
+8-18	423-429	keinen	_	_
+8-19	430-437	Begriff	_	_
+8-20	438-439	.	_	_
+
+#Text=Bekomme ich Erlaubniß zu zeichnen , so gehe ich sofort an die etruskischen Todtenkisten , für die ich durch Charontica ziemlich vorbereitet und durch 20 der auserlesensten wohlerhaltensten Stücke stark ausgerüstet bin .
+9-1	440-447	Bekomme	_	_
+9-2	448-451	ich	_	_
+9-3	452-461	Erlaubniß	_	_
+9-4	462-464	zu	_	_
+9-5	465-473	zeichnen	_	_
+9-6	474-475	,	_	_
+9-7	476-478	so	_	_
+9-8	479-483	gehe	_	_
+9-9	484-487	ich	_	_
+9-10	488-494	sofort	_	_
+9-11	495-497	an	_	_
+9-12	498-501	die	_	_
+9-13	502-514	etruskischen	*	MISC
+9-14	515-527	Todtenkisten	*	OBJ
+9-15	528-529	,	_	_
+9-16	530-533	für	_	_
+9-17	534-537	die	_	_
+9-18	538-541	ich	_	_
+9-19	542-547	durch	_	_
+9-20	548-558	Charontica	_	_
+9-21	559-567	ziemlich	_	_
+9-22	568-579	vorbereitet	_	_
+9-23	580-583	und	_	_
+9-24	584-589	durch	_	_
+9-25	590-592	20	_	_
+9-26	593-596	der	_	_
+9-27	597-611	auserlesensten	_	_
+9-28	612-628	wohlerhaltensten	_	_
+9-29	629-635	Stücke	_	_
+9-30	636-641	stark	_	_
+9-31	642-653	ausgerüstet	_	_
+9-32	654-657	bin	_	_
+9-33	658-659	.	_	_
+
+#Text=Die angenehmste Nachricht , welche Sie mir mittheilen konnten , ist die von Bunsens definitiver Zurückkunft .
+10-1	660-663	Die	_	_
+10-2	664-675	angenehmste	_	_
+10-3	676-685	Nachricht	_	_
+10-4	686-687	,	_	_
+10-5	688-694	welche	_	_
+10-6	695-698	Sie	_	_
+10-7	699-702	mir	_	_
+10-8	703-713	mittheilen	_	_
+10-9	714-721	konnten	_	_
+10-10	722-723	,	_	_
+10-11	724-727	ist	_	_
+10-12	728-731	die	_	_
+10-13	732-735	von	_	_
+10-14	736-743	Bunsens	*	PERmentioned
+10-15	744-755	definitiver	_	_
+10-16	756-767	Zurückkunft	_	_
+10-17	768-769	.	_	_
+
+#Text=Ich darf Ihnen nur gestehen , daß ich bereits ernstliche Anstalten für mein weiteres Unterkonmen getroffen hatte und dasselbe auch mit Gottes Hülfe bereits gefunden hatte .
+11-1	770-773	Ich	_	_
+11-2	774-778	darf	_	_
+11-3	779-784	Ihnen	_	_
+11-4	785-788	nur	_	_
+11-5	789-797	gestehen	_	_
+11-6	798-799	,	_	_
+11-7	800-803	daß	_	_
+11-8	804-807	ich	_	_
+11-9	808-815	bereits	_	_
+11-10	816-826	ernstliche	_	_
+11-11	827-836	Anstalten	_	_
+11-12	837-840	für	_	_
+11-13	841-845	mein	_	_
+11-14	846-854	weiteres	_	_
+11-15	855-866	Unterkonmen	_	_
+11-16	867-876	getroffen	_	_
+11-17	877-882	hatte	_	_
+11-18	883-886	und	_	_
+11-19	887-895	dasselbe	_	_
+11-20	896-900	auch	_	_
+11-21	901-904	mit	_	_
+11-22	905-911	Gottes	_	_
+11-23	912-917	Hülfe	_	_
+11-24	918-925	bereits	_	_
+11-25	926-934	gefunden	_	_
+11-26	935-940	hatte	_	_
+11-27	941-942	.	_	_
+
+#Text=Es hängt noch jetzt von mir ab , nach Beendigung meiner dringendsten Institutsgeschäfte , sofort in eine ziemlich gute Condition einzutreten , ohne deshalb Italien verlassen zu müssen .
+12-1	943-945	Es	_	_
+12-2	946-951	hängt	_	_
+12-3	952-956	noch	_	_
+12-4	957-962	jetzt	_	_
+12-5	963-966	von	_	_
+12-6	967-970	mir	_	_
+12-7	971-973	ab	_	_
+12-8	974-975	,	_	_
+12-9	976-980	nach	_	_
+12-10	981-991	Beendigung	_	_
+12-11	992-998	meiner	_	_
+12-12	999-1011	dringendsten	_	_
+12-13	1012-1030	Institutsgeschäfte	*	ORGmentioned
+12-14	1031-1032	,	_	_
+12-15	1033-1039	sofort	_	_
+12-16	1040-1042	in	_	_
+12-17	1043-1047	eine	_	_
+12-18	1048-1056	ziemlich	_	_
+12-19	1057-1061	gute	_	_
+12-20	1062-1071	Condition	_	_
+12-21	1072-1083	einzutreten	_	_
+12-22	1084-1085	,	_	_
+12-23	1086-1090	ohne	_	_
+12-24	1091-1098	deshalb	_	_
+12-25	1099-1106	Italien	*	PLACEmentioned
+12-26	1107-1116	verlassen	_	_
+12-27	1117-1119	zu	_	_
+12-28	1120-1126	müssen	_	_
+12-29	1127-1128	.	_	_
+
+#Text=So spar ich es für andre Zeiten auf und richte mich nach den Umständen , welche die nächste Kommezeit herbeiführt , Den 25 October reise ich nach Modena ab , den 28 bin ich wohl in Bologna , Ende des Monats gehe ich nach S. Marino , wo mich Borghesi für wenigstens 8 Tage
+13-1	1129-1131	So	_	_
+13-2	1132-1136	spar	_	_
+13-3	1137-1140	ich	_	_
+13-4	1141-1143	es	_	_
+13-5	1144-1147	für	_	_
+13-6	1148-1153	andre	_	_
+13-7	1154-1160	Zeiten	_	_
+13-8	1161-1164	auf	_	_
+13-9	1165-1168	und	_	_
+13-10	1169-1175	richte	_	_
+13-11	1176-1180	mich	_	_
+13-12	1181-1185	nach	_	_
+13-13	1186-1189	den	_	_
+13-14	1190-1199	Umständen	_	_
+13-15	1200-1201	,	_	_
+13-16	1202-1208	welche	_	_
+13-17	1209-1212	die	_	_
+13-18	1213-1220	nächste	_	_
+13-19	1221-1230	Kommezeit	_	_
+13-20	1231-1242	herbeiführt	_	_
+13-21	1243-1244	,	_	_
+13-22	1245-1248	Den	_	_
+13-23	1249-1251	25	*[9]	DATEmentioned[9]
+13-24	1252-1259	October	*[9]	DATEmentioned[9]
+13-25	1260-1265	reise	_	_
+13-26	1266-1269	ich	_	_
+13-27	1270-1274	nach	_	_
+13-28	1275-1281	Modena	*	PLACEmentioned
+13-29	1282-1284	ab	_	_
+13-30	1285-1286	,	_	_
+13-31	1287-1290	den	_	_
+13-32	1291-1293	28	*	DATEmentioned
+13-33	1294-1297	bin	_	_
+13-34	1298-1301	ich	_	_
+13-35	1302-1306	wohl	_	_
+13-36	1307-1309	in	_	_
+13-37	1310-1317	Bologna	*	PLACEmentioned
+13-38	1318-1319	,	_	_
+13-39	1320-1324	Ende	_	_
+13-40	1325-1328	des	_	_
+13-41	1329-1335	Monats	*	DATEmentioned
+13-42	1336-1340	gehe	_	_
+13-43	1341-1344	ich	_	_
+13-44	1345-1349	nach	_	_
+13-45	1350-1352	S.	*[10]	PLACEmentioned[10]
+13-46	1353-1359	Marino	*[10]	PLACEmentioned[10]
+13-47	1360-1361	,	_	_
+13-48	1362-1364	wo	_	_
+13-49	1365-1369	mich	_	_
+13-50	1370-1378	Borghesi	*	PERmentioned
+13-51	1379-1382	für	_	_
+13-52	1383-1393	wenigstens	_	_
+13-53	1394-1395	8	_	_
+13-54	1396-1400	Tage	_	_

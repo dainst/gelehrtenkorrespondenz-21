@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=49 Lepsius an Heusen Berlin , 30 .
+1-1	0-2	49	_	_	
+1-2	3-10	Lepsius	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-20	Heusen	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-32	30	*[1]	DATEletter[1]	
+1-8	33-34	.	*[1]	DATEletter[1]	
+
+#Text=Januar 1872 vom Standpunkte des Museums aus aufgefaßt hatte .
+2-1	35-41	Januar	*[1]	DATEletter[1]	
+2-2	42-46	1872	*[1]	DATEletter[1]	
+2-3	47-50	vom	_	_	
+2-4	51-62	Standpunkte	_	_	
+2-5	63-66	des	_	_	
+2-6	67-74	Museums	*	ORGmentioned	
+2-7	75-78	aus	_	_	
+2-8	79-88	aufgefaßt	_	_	
+2-9	89-94	hatte	_	_	
+2-10	95-96	.	_	_	
+
+#Text=Meine Privatmeinung ist nun allerdings die , daß , wenn Aussicht ist daß etwas daraus werde , eine Verbindung mit Rom eintreten müsse , worüber Curtius noch schwankt .
+3-1	97-102	Meine	_	_	
+3-2	103-116	Privatmeinung	_	_	
+3-3	117-120	ist	_	_	
+3-4	121-124	nun	_	_	
+3-5	125-135	allerdings	_	_	
+3-6	136-139	die	_	_	
+3-7	140-141	,	_	_	
+3-8	142-145	daß	_	_	
+3-9	146-147	,	_	_	
+3-10	148-152	wenn	_	_	
+3-11	153-161	Aussicht	_	_	
+3-12	162-165	ist	_	_	
+3-13	166-169	daß	_	_	
+3-14	170-175	etwas	_	_	
+3-15	176-182	daraus	_	_	
+3-16	183-188	werde	_	_	
+3-17	189-190	,	_	_	
+3-18	191-195	eine	_	_	
+3-19	196-206	Verbindung	_	_	
+3-20	207-210	mit	_	_	
+3-21	211-214	Rom	*	PLACEmentioned	
+3-22	215-224	eintreten	_	_	
+3-23	225-230	müsse	_	_	
+3-24	231-232	,	_	_	
+3-25	233-240	worüber	_	_	
+3-26	241-248	Curtius	*	PERmentioned	
+3-27	249-253	noch	_	_	
+3-28	254-262	schwankt	_	_	
+3-29	263-264	.	_	_	
+
+#Text=Man müßte überhaupt dort klein anfangen , eine Wohnung miethen , in der sich ein Stellvertreter unsrer Interessen festsetzte , an den die Stipendiaten gewiesen würden , und dem eine Summe überwiesen würde für kleine Ankäufe und sonstige gelehrte und antiquarische Thätigkeit .
+4-1	265-268	Man	_	_	
+4-2	269-274	müßte	_	_	
+4-3	275-284	überhaupt	_	_	
+4-4	285-289	dort	_	_	
+4-5	290-295	klein	_	_	
+4-6	296-304	anfangen	_	_	
+4-7	305-306	,	_	_	
+4-8	307-311	eine	_	_	
+4-9	312-319	Wohnung	_	_	
+4-10	320-327	miethen	_	_	
+4-11	328-329	,	_	_	
+4-12	330-332	in	_	_	
+4-13	333-336	der	_	_	
+4-14	337-341	sich	_	_	
+4-15	342-345	ein	_	_	
+4-16	346-360	Stellvertreter	_	_	
+4-17	361-367	unsrer	_	_	
+4-18	368-378	Interessen	_	_	
+4-19	379-389	festsetzte	_	_	
+4-20	390-391	,	_	_	
+4-21	392-394	an	_	_	
+4-22	395-398	den	_	_	
+4-23	399-402	die	_	_	
+4-24	403-415	Stipendiaten	_	_	
+4-25	416-424	gewiesen	_	_	
+4-26	425-431	würden	_	_	
+4-27	432-433	,	_	_	
+4-28	434-437	und	_	_	
+4-29	438-441	dem	_	_	
+4-30	442-446	eine	_	_	
+4-31	447-452	Summe	_	_	
+4-32	453-463	überwiesen	_	_	
+4-33	464-469	würde	_	_	
+4-34	470-473	für	_	_	
+4-35	474-480	kleine	_	_	
+4-36	481-488	Ankäufe	_	_	
+4-37	489-492	und	_	_	
+4-38	493-501	sonstige	_	_	
+4-39	502-510	gelehrte	_	_	
+4-40	511-514	und	_	_	
+4-41	515-528	antiquarische	_	_	
+4-42	529-539	Thätigkeit	_	_	
+4-43	540-541	.	_	_	
+
+#Text=Aufsätze und Material , könnte zunächst Ihnen zur Publikation zugehen .
+5-1	542-550	Aufsätze	_	_	
+5-2	551-554	und	_	_	
+5-3	555-563	Material	_	_	
+5-4	564-565	,	_	_	
+5-5	566-572	könnte	_	_	
+5-6	573-581	zunächst	_	_	
+5-7	582-587	Ihnen	_	_	
+5-8	588-591	zur	_	_	
+5-9	592-603	Publikation	_	_	
+5-10	604-611	zugehen	_	_	
+5-11	612-613	.	_	_	
+
+#Text=Aber wie gesagt , es schwebt bis jetzt Alles noch vollständig in der Iuft und ist zu irgend einer näheren Besprechung , noch nicht reif .
+6-1	614-618	Aber	_	_	
+6-2	619-622	wie	_	_	
+6-3	623-629	gesagt	_	_	
+6-4	630-631	,	_	_	
+6-5	632-634	es	_	_	
+6-6	635-642	schwebt	_	_	
+6-7	643-646	bis	_	_	
+6-8	647-652	jetzt	_	_	
+6-9	653-658	Alles	_	_	
+6-10	659-663	noch	_	_	
+6-11	664-675	vollständig	_	_	
+6-12	676-678	in	_	_	
+6-13	679-682	der	_	_	
+6-14	683-687	Iuft	_	_	
+6-15	688-691	und	_	_	
+6-16	692-695	ist	_	_	
+6-17	696-698	zu	_	_	
+6-18	699-705	irgend	_	_	
+6-19	706-711	einer	_	_	
+6-20	712-719	näheren	_	_	
+6-21	720-731	Besprechung	_	_	
+6-22	732-733	,	_	_	
+6-23	734-738	noch	_	_	
+6-24	739-744	nicht	_	_	
+6-25	745-749	reif	_	_	
+6-26	750-751	.	_	_	
+
+#Text=Ich glaube voraussetzen zu dürfen , daß Sie mit jeder derartigen Erweiterung des Arbeitsfeldes sehr einverstanden sein werden .
+7-1	752-755	Ich	_	_	
+7-2	756-762	glaube	_	_	
+7-3	763-775	voraussetzen	_	_	
+7-4	776-778	zu	_	_	
+7-5	779-785	dürfen	_	_	
+7-6	786-787	,	_	_	
+7-7	788-791	daß	_	_	
+7-8	792-795	Sie	_	_	
+7-9	796-799	mit	_	_	
+7-10	800-805	jeder	_	_	
+7-11	806-816	derartigen	_	_	
+7-12	817-828	Erweiterung	_	_	
+7-13	829-832	des	_	_	
+7-14	833-846	Arbeitsfeldes	_	_	
+7-15	847-851	sehr	_	_	
+7-16	852-865	einverstanden	_	_	
+7-17	866-870	sein	_	_	
+7-18	871-877	werden	_	_	
+7-19	878-879	.	_	_	
+
+#Text=Für Engelmann ist wenig Hoffnung da ; doch kann ich noch nichts Offizielles schreiben .
+8-1	880-883	Für	_	_	
+8-2	884-893	Engelmann	*	PERmentioned	
+8-3	894-897	ist	_	_	
+8-4	898-903	wenig	_	_	
+8-5	904-912	Hoffnung	_	_	
+8-6	913-915	da	_	_	
+8-7	916-917	;	_	_	
+8-8	918-922	doch	_	_	
+8-9	923-927	kann	_	_	
+8-10	928-931	ich	_	_	
+8-11	932-936	noch	_	_	
+8-12	937-943	nichts	_	_	
+8-13	944-955	Offizielles	_	_	
+8-14	956-965	schreiben	_	_	
+8-15	966-967	.	_	_	
+
+#Text=Mir persönlich würde es bedenklich scheinen für Engelmann zu verlangen , was uns für Trend .
+9-1	968-971	Mir	_	_	
+9-2	972-982	persönlich	_	_	
+9-3	983-988	würde	_	_	
+9-4	989-991	es	_	_	
+9-5	992-1002	bedenklich	_	_	
+9-6	1003-1011	scheinen	_	_	
+9-7	1012-1015	für	_	_	
+9-8	1016-1025	Engelmann	*	PERmentioned	
+9-9	1026-1028	zu	_	_	
+9-10	1029-1038	verlangen	_	_	
+9-11	1039-1040	,	_	_	
+9-12	1041-1044	was	_	_	
+9-13	1045-1048	uns	_	_	
+9-14	1049-1052	für	_	_	
+9-15	1053-1058	Trend	_	_	
+9-16	1059-1060	.	_	_	
+
+#Text=abgeschlagen wurde , aber auch uns an seiner Person ein so weitschichtiges kostbares Unternehmen irgendwie zu binden .
+10-1	1061-1073	abgeschlagen	_	_	
+10-2	1074-1079	wurde	_	_	
+10-3	1080-1081	,	_	_	
+10-4	1082-1086	aber	_	_	
+10-5	1087-1091	auch	_	_	
+10-6	1092-1095	uns	_	_	
+10-7	1096-1098	an	_	_	
+10-8	1099-1105	seiner	_	_	
+10-9	1106-1112	Person	_	_	
+10-10	1113-1116	ein	_	_	
+10-11	1117-1119	so	_	_	
+10-12	1120-1135	weitschichtiges	_	_	
+10-13	1136-1145	kostbares	_	_	
+10-14	1146-1157	Unternehmen	_	_	
+10-15	1158-1167	irgendwie	_	_	
+10-16	1168-1170	zu	_	_	
+10-17	1171-1177	binden	_	_	
+10-18	1178-1179	.	_	_	
+
+#Text=Schon seine Eingabe spricht nicht sehr für ihn ; er sollte seine übrige Zeit lieber noch fleißig anwenden vielseitige klassische Anschauungen zu sammeln für seine Lehrthätigkeit an der Schule .
+11-1	1180-1185	Schon	_	_	
+11-2	1186-1191	seine	_	_	
+11-3	1192-1199	Eingabe	_	_	
+11-4	1200-1207	spricht	_	_	
+11-5	1208-1213	nicht	_	_	
+11-6	1214-1218	sehr	_	_	
+11-7	1219-1222	für	_	_	
+11-8	1223-1226	ihn	_	_	
+11-9	1227-1228	;	_	_	
+11-10	1229-1231	er	_	_	
+11-11	1232-1238	sollte	_	_	
+11-12	1239-1244	seine	_	_	
+11-13	1245-1251	übrige	_	_	
+11-14	1252-1256	Zeit	_	_	
+11-15	1257-1263	lieber	_	_	
+11-16	1264-1268	noch	_	_	
+11-17	1269-1276	fleißig	_	_	
+11-18	1277-1285	anwenden	_	_	
+11-19	1286-1297	vielseitige	_	_	
+11-20	1298-1308	klassische	_	_	
+11-21	1309-1321	Anschauungen	_	_	
+11-22	1322-1324	zu	_	_	
+11-23	1325-1332	sammeln	_	_	
+11-24	1333-1336	für	_	_	
+11-25	1337-1342	seine	_	_	
+11-26	1343-1357	Lehrthätigkeit	_	_	
+11-27	1358-1360	an	_	_	
+11-28	1361-1364	der	_	_	
+11-29	1365-1371	Schule	_	_	
+11-30	1372-1373	.	_	_	

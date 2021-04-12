@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=210 Lepsius an Henzen Berlin , 19. April 1876 22/u 76 Berlin , den 19 .
+1-1	0-3	210	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	19.	*[1]	DATEletter[1]
+1-8	35-40	April	*[1]	DATEletter[1]
+1-9	41-45	1876	*[1]	DATEletter[1]
+1-10	46-50	22/u	*[2]	DATErecieved[2]
+1-11	51-53	76	*[2]	DATErecieved[2]
+1-12	54-60	Berlin	*	PLACEfrom
+1-13	61-62	,	_	_
+1-14	63-66	den	_	_
+1-15	67-69	19	*[3]	DATEletter[3]
+1-16	70-71	.	*[3]	DATEletter[3]
+
+#Text=Apr .
+2-1	72-75	Apr	*[3]	DATEletter[3]
+2-2	76-77	.	*[3]	DATEletter[3]
+
+#Text=1876 Verehrter Freund Ihr Brief vom 13. ist eingelaufen .
+3-1	78-82	1876	*[3]	DATEletter[3]
+3-2	83-92	Verehrter	_	_
+3-3	93-99	Freund	_	_
+3-4	100-103	Ihr	_	_
+3-5	104-109	Brief	_	_
+3-6	110-113	vom	_	_
+3-7	114-117	13.	*[4]	DATEmentioned[4]
+3-8	118-121	ist	_	_
+3-9	122-133	eingelaufen	_	_
+3-10	134-135	.	_	_
+
+#Text=Inzwischen ist auch Minister Krüger , nach dem Sie fragen , in Rom hoffentlich wohlbehalten eingetroffen .
+4-1	136-146	Inzwischen	_	_
+4-2	147-150	ist	_	_
+4-3	151-155	auch	_	_
+4-4	156-164	Minister	_	_
+4-5	165-171	Krüger	*	PERmentioned
+4-6	172-173	,	_	_
+4-7	174-178	nach	_	_
+4-8	179-182	dem	_	_
+4-9	183-186	Sie	_	_
+4-10	187-193	fragen	_	_
+4-11	194-195	,	_	_
+4-12	196-198	in	_	_
+4-13	199-202	Rom	*	PLACEmentioned
+4-14	203-214	hoffentlich	_	_
+4-15	215-227	wohlbehalten	_	_
+4-16	228-240	eingetroffen	_	_
+4-17	241-242	.	_	_
+
+#Text=Nachricht darüber kann a1Mraings kaum schon hier sein .
+5-1	243-252	Nachricht	_	_
+5-2	253-260	darüber	_	_
+5-3	261-265	kann	_	_
+5-4	266-275	a1Mraings	_	_
+5-5	276-280	kaum	_	_
+5-6	281-286	schon	_	_
+5-7	287-291	hier	_	_
+5-8	292-296	sein	_	_
+5-9	297-298	.	_	_
+
+#Text=Er und Momnsen werden Sie über vielerlei Hiesiges unterrichten , was sich der schriftlichen Diskussion entzieht .
+6-1	299-301	Er	_	_
+6-2	302-305	und	_	_
+6-3	306-313	Momnsen	*	PERmentioned
+6-4	314-320	werden	_	_
+6-5	321-324	Sie	_	_
+6-6	325-329	über	_	_
+6-7	330-339	vielerlei	_	_
+6-8	340-348	Hiesiges	_	_
+6-9	349-361	unterrichten	_	_
+6-10	362-363	,	_	_
+6-11	364-367	was	_	_
+6-12	368-372	sich	_	_
+6-13	373-376	der	_	_
+6-14	377-390	schriftlichen	_	_
+6-15	391-401	Diskussion	_	_
+6-16	402-410	entzieht	_	_
+6-17	411-412	.	_	_
+
+#Text=In Bezug auf das Verhältnis des Hauses zur Botschaft wird Ihre Stimme allerdings entscheidend sein müssen .
+7-1	413-415	In	_	_
+7-2	416-421	Bezug	_	_
+7-3	422-425	auf	_	_
+7-4	426-429	das	_	_
+7-5	430-440	Verhältnis	_	_
+7-6	441-444	des	_	_
+7-7	445-451	Hauses	_	_
+7-8	452-455	zur	_	_
+7-9	456-465	Botschaft	*	ORGmentioned
+7-10	466-470	wird	_	_
+7-11	471-475	Ihre	_	_
+7-12	476-482	Stimme	_	_
+7-13	483-493	allerdings	_	_
+7-14	494-506	entscheidend	_	_
+7-15	507-511	sein	_	_
+7-16	512-518	müssen	_	_
+7-17	519-520	.	_	_
+
+#Text=Was Preller betrifft , so bezog ich mich im letzten Briefe auf einen früheren in dem ich einen Antrag von unsrer Seite von einer Änregung die von oben etwa durch Keudell veranlaßt würde , abhängig gemacht hatte .
+8-1	521-524	Was	_	_
+8-2	525-532	Preller	*	PERmentioned
+8-3	533-541	betrifft	_	_
+8-4	542-543	,	_	_
+8-5	544-546	so	_	_
+8-6	547-552	bezog	_	_
+8-7	553-556	ich	_	_
+8-8	557-561	mich	_	_
+8-9	562-564	im	_	_
+8-10	565-572	letzten	_	_
+8-11	573-579	Briefe	_	_
+8-12	580-583	auf	_	_
+8-13	584-589	einen	_	_
+8-14	590-598	früheren	_	_
+8-15	599-601	in	_	_
+8-16	602-605	dem	_	_
+8-17	606-609	ich	_	_
+8-18	610-615	einen	_	_
+8-19	616-622	Antrag	_	_
+8-20	623-626	von	_	_
+8-21	627-633	unsrer	_	_
+8-22	634-639	Seite	_	_
+8-23	640-643	von	_	_
+8-24	644-649	einer	_	_
+8-25	650-658	Änregung	_	_
+8-26	659-662	die	_	_
+8-27	663-666	von	_	_
+8-28	667-671	oben	_	_
+8-29	672-676	etwa	_	_
+8-30	677-682	durch	_	_
+8-31	683-690	Keudell	*	PERmentioned
+8-32	691-700	veranlaßt	_	_
+8-33	701-706	würde	_	_
+8-34	707-708	,	_	_
+8-35	709-717	abhängig	_	_
+8-36	718-725	gemacht	_	_
+8-37	726-731	hatte	_	_
+8-38	732-733	.	_	_
+
+#Text=Die Sache steht auch jetzt noch so , daß der Antrag in der General Versammlung vorläufig abgelehnt ist \; sollte eine Anregung aus dem Auswärtigen Anmte vereithelt werden , So wird er von uns sehr gern aufgenommen werden .
+9-1	734-737	Die	_	_
+9-2	738-743	Sache	_	_
+9-3	744-749	steht	_	_
+9-4	750-754	auch	_	_
+9-5	755-760	jetzt	_	_
+9-6	761-765	noch	_	_
+9-7	766-768	so	_	_
+9-8	769-770	,	_	_
+9-9	771-774	daß	_	_
+9-10	775-778	der	_	_
+9-11	779-785	Antrag	_	_
+9-12	786-788	in	_	_
+9-13	789-792	der	_	_
+9-14	793-800	General	_	_
+9-15	801-812	Versammlung	_	_
+9-16	813-822	vorläufig	_	_
+9-17	823-832	abgelehnt	_	_
+9-18	833-836	ist	_	_
+9-19	837-838	\;	_	_
+9-20	839-845	sollte	_	_
+9-21	846-850	eine	_	_
+9-22	851-859	Anregung	_	_
+9-23	860-863	aus	_	_
+9-24	864-867	dem	_	_
+9-25	868-879	Auswärtigen	*[5]	ORGmentioned[5]
+9-26	880-885	Anmte	*[5]	ORGmentioned[5]
+9-27	886-896	vereithelt	_	_
+9-28	897-903	werden	_	_
+9-29	904-905	,	_	_
+9-30	906-908	So	_	_
+9-31	909-913	wird	_	_
+9-32	914-916	er	_	_
+9-33	917-920	von	_	_
+9-34	921-924	uns	_	_
+9-35	925-929	sehr	_	_
+9-36	930-934	gern	_	_
+9-37	935-946	aufgenommen	_	_
+9-38	947-953	werden	_	_
+9-39	954-955	.	_	_
+
+#Text=Über Helbig 's Erhöhung um 200 r hatte Ihnen H. Krüger der damals auf meinen Wunsch die Auseinandersetzung übernahm , geschrieben \; d. h. von der Absicht sie in diesem Jahre zu beantragen .
+10-1	956-960	Über	_	_
+10-2	961-967	Helbig	*[7]	PERmentioned[7]
+10-3	968-970	's	*[7]	PERmentioned[7]
+10-4	971-979	Erhöhung	_	_
+10-5	980-982	um	_	_
+10-6	983-986	200	_	_
+10-7	987-988	r	_	_
+10-8	989-994	hatte	_	_
+10-9	995-1000	Ihnen	_	_
+10-10	1001-1003	H.	*[6]	PERmentioned[6]
+10-11	1004-1010	Krüger	*[6]	PERmentioned[6]
+10-12	1011-1014	der	_	_
+10-13	1015-1021	damals	_	_
+10-14	1022-1025	auf	_	_
+10-15	1026-1032	meinen	_	_
+10-16	1033-1039	Wunsch	_	_
+10-17	1040-1043	die	_	_
+10-18	1044-1062	Auseinandersetzung	_	_
+10-19	1063-1071	übernahm	_	_
+10-20	1072-1073	,	_	_
+10-21	1074-1085	geschrieben	_	_
+10-22	1086-1087	\;	_	_
+10-23	1088-1090	d.	_	_
+10-24	1091-1093	h.	_	_
+10-25	1094-1097	von	_	_
+10-26	1098-1101	der	_	_
+10-27	1102-1109	Absicht	_	_
+10-28	1110-1113	sie	_	_
+10-29	1114-1116	in	_	_
+10-30	1117-1123	diesem	_	_
+10-31	1124-1129	Jahre	_	_
+10-32	1130-1132	zu	_	_
+10-33	1133-1143	beantragen	_	_
+10-34	1144-1145	.	_	_
+
+#Text=Die Sache konnte Ihnen
+11-1	1146-1149	Die	_	_
+11-2	1150-1155	Sache	_	_
+11-3	1156-1162	konnte	_	_
+11-4	1163-1168	Ihnen	_	_

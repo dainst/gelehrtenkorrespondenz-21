@@ -1,0 +1,211 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=453 Helbig an Henzen Neapel , 28. September 1864 30/9 64 Neapel 28 .
+1-1	0-3	453	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	28.	*[1]	DATEletter[1]
+1-8	34-43	September	*[1]	DATEletter[1]
+1-9	44-48	1864	*[1]	DATEletter[1]
+1-10	49-53	30/9	*[2]	DATErecieved[2]
+1-11	54-56	64	*[2]	DATErecieved[2]
+1-12	57-63	Neapel	*	PLACEfrom
+1-13	64-66	28	*[3]	DATEletter[3]
+1-14	67-68	.	*[3]	DATEletter[3]
+
+#Text=Sept .
+2-1	69-73	Sept	*[3]	DATEletter[3]
+2-2	74-75	.	*[3]	DATEletter[3]
+
+#Text=1864 .
+3-1	76-80	1864	*[3]	DATEletter[3]
+3-2	81-82	.	_	_
+
+#Text=Lieber Herr Professor !
+4-1	83-89	Lieber	_	_
+4-2	90-94	Herr	_	_
+4-3	95-104	Professor	_	_
+4-4	105-106	!	_	_
+
+#Text=Da Sie mir betreffs Scalabrini die Pistole auf die Brust setzen , so gebe ich hiermit folgendes Gutachten ab : Im Museum sind für Scalabrini die auf beiliegendem Zettel verzeichneten Gemälde zu zeichnen .
+5-1	107-109	Da	_	_
+5-2	110-113	Sie	_	_
+5-3	114-117	mir	_	_
+5-4	118-126	betreffs	_	_
+5-5	127-137	Scalabrini	*	PERmentioned
+5-6	138-141	die	_	_
+5-7	142-149	Pistole	_	_
+5-8	150-153	auf	_	_
+5-9	154-157	die	_	_
+5-10	158-163	Brust	_	_
+5-11	164-170	setzen	_	_
+5-12	171-172	,	_	_
+5-13	173-175	so	_	_
+5-14	176-180	gebe	_	_
+5-15	181-184	ich	_	_
+5-16	185-192	hiermit	_	_
+5-17	193-202	folgendes	_	_
+5-18	203-212	Gutachten	_	_
+5-19	213-215	ab	_	_
+5-20	216-217	:	_	_
+5-21	218-220	Im	_	_
+5-22	221-227	Museum	*	ORGmentioned
+5-23	228-232	sind	_	_
+5-24	233-236	für	_	_
+5-25	237-247	Scalabrini	*	PERmentioned
+5-26	248-251	die	_	_
+5-27	252-255	auf	_	_
+5-28	256-268	beiliegendem	_	_
+5-29	269-275	Zettel	_	_
+5-30	276-289	verzeichneten	_	_
+5-31	290-297	Gemälde	*	OBJ
+5-32	298-300	zu	_	_
+5-33	301-309	zeichnen	_	_
+5-34	310-311	.	_	_
+
+#Text=Es sind durchweg wichtige und interessante Gegenstände , die im hohen Grade der Publication würdig sind .
+6-1	312-314	Es	_	_
+6-2	315-319	sind	_	_
+6-3	320-328	durchweg	_	_
+6-4	329-337	wichtige	_	_
+6-5	338-341	und	_	_
+6-6	342-354	interessante	_	_
+6-7	355-366	Gegenstände	_	_
+6-8	367-368	,	_	_
+6-9	369-372	die	_	_
+6-10	373-375	im	_	_
+6-11	376-381	hohen	_	_
+6-12	382-387	Grade	_	_
+6-13	388-391	der	_	_
+6-14	392-403	Publication	_	_
+6-15	404-410	würdig	_	_
+6-16	411-415	sind	_	_
+6-17	416-417	.	_	_
+
+#Text=Was die Ruveser Fresken betrifft , so würden vielleicht nicht die Fresken sämmtlicher Wände zu zeichnen sein , da eine analoge Darstellung auf ihnen allen wiederkehrt , sondern eine Wand stylistisch treu wiedergeben genügen .
+7-1	418-421	Was	_	_
+7-2	422-425	die	_	_
+7-3	426-433	Ruveser	*	MISC
+7-4	434-441	Fresken	*	OBJ
+7-5	442-450	betrifft	_	_
+7-6	451-452	,	_	_
+7-7	453-455	so	_	_
+7-8	456-462	würden	_	_
+7-9	463-473	vielleicht	_	_
+7-10	474-479	nicht	_	_
+7-11	480-483	die	_	_
+7-12	484-491	Fresken	_	_
+7-13	492-503	sämmtlicher	_	_
+7-14	504-509	Wände	_	_
+7-15	510-512	zu	_	_
+7-16	513-521	zeichnen	_	_
+7-17	522-526	sein	_	_
+7-18	527-528	,	_	_
+7-19	529-531	da	_	_
+7-20	532-536	eine	_	_
+7-21	537-544	analoge	_	_
+7-22	545-556	Darstellung	_	_
+7-23	557-560	auf	_	_
+7-24	561-566	ihnen	_	_
+7-25	567-572	allen	_	_
+7-26	573-584	wiederkehrt	_	_
+7-27	585-586	,	_	_
+7-28	587-594	sondern	_	_
+7-29	595-599	eine	_	_
+7-30	600-604	Wand	_	_
+7-31	605-616	stylistisch	_	_
+7-32	617-621	treu	_	_
+7-33	622-633	wiedergeben	_	_
+7-34	634-641	genügen	_	_
+7-35	642-643	.	_	_
+
+#Text=Gargiulo ist derartigen Aufgaben nicht gewachsen .
+8-1	644-652	Gargiulo	*	PERmentioned
+8-2	653-656	ist	_	_
+8-3	657-667	derartigen	_	_
+8-4	668-676	Aufgaben	_	_
+8-5	677-682	nicht	_	_
+8-6	683-692	gewachsen	_	_
+8-7	693-694	.	_	_
+
+#Text=Was er zu leisten im Stande ist , habe ich ihm aufgetragen , außer den früher erwähnten Reliefs u. a. die Zeichnung einer von Michaelis bestellten Vase .
+9-1	695-698	Was	_	_
+9-2	699-701	er	_	_
+9-3	702-704	zu	_	_
+9-4	705-712	leisten	_	_
+9-5	713-715	im	_	_
+9-6	716-722	Stande	_	_
+9-7	723-726	ist	_	_
+9-8	727-728	,	_	_
+9-9	729-733	habe	_	_
+9-10	734-737	ich	_	_
+9-11	738-741	ihm	_	_
+9-12	742-753	aufgetragen	_	_
+9-13	754-755	,	_	_
+9-14	756-761	außer	_	_
+9-15	762-765	den	_	_
+9-16	766-772	früher	_	_
+9-17	773-782	erwähnten	_	_
+9-18	783-790	Reliefs	*	OBJ
+9-19	791-793	u.	_	_
+9-20	794-796	a.	_	_
+9-21	797-800	die	_	_
+9-22	801-810	Zeichnung	_	_
+9-23	811-816	einer	_	_
+9-24	817-820	von	_	_
+9-25	821-830	Michaelis	*	PERmentioned
+9-26	831-841	bestellten	_	_
+9-27	842-846	Vase	*	OBJ
+9-28	847-848	.	_	_
+
+#Text=Wenn für Scalabrini ein vierzehntägiger Aufenthalt in Neapel genügen wird , um die betreffenden Gegenstände des Museo nazionale zu absolviren , so liegt dagesen in Pompei eine Fülle von Stoff für ihn vor .
+10-1	849-853	Wenn	_	_
+10-2	854-857	für	_	_
+10-3	858-868	Scalabrini	*	PERmentioned
+10-4	869-872	ein	_	_
+10-5	873-888	vierzehntägiger	_	_
+10-6	889-899	Aufenthalt	_	_
+10-7	900-902	in	_	_
+10-8	903-909	Neapel	*	PLACEmentioned
+10-9	910-917	genügen	_	_
+10-10	918-922	wird	_	_
+10-11	923-924	,	_	_
+10-12	925-927	um	_	_
+10-13	928-931	die	_	_
+10-14	932-944	betreffenden	_	_
+10-15	945-956	Gegenstände	_	_
+10-16	957-960	des	_	_
+10-17	961-966	Museo	*[4]	ORGmentioned[4]
+10-18	967-976	nazionale	*[4]	ORGmentioned[4]
+10-19	977-979	zu	_	_
+10-20	980-990	absolviren	_	_
+10-21	991-992	,	_	_
+10-22	993-995	so	_	_
+10-23	996-1001	liegt	_	_
+10-24	1002-1009	dagesen	_	_
+10-25	1010-1012	in	_	_
+10-26	1013-1019	Pompei	*	PLACEmentioned
+10-27	1020-1024	eine	_	_
+10-28	1025-1030	Fülle	_	_
+10-29	1031-1034	von	_	_
+10-30	1035-1040	Stoff	_	_
+10-31	1041-1044	für	_	_
+10-32	1045-1048	ihn	_	_
+10-33	1049-1052	vor	_	_
+10-34	1053-1054	.	_	_
+
+#Text=Mein Vorschlag ist folgender : Sie erwarten meine Rückkehr
+11-1	1055-1059	Mein	_	_
+11-2	1060-1069	Vorschlag	_	_
+11-3	1070-1073	ist	_	_
+11-4	1074-1083	folgender	_	_
+11-5	1084-1085	:	_	_
+11-6	1086-1089	Sie	_	_
+11-7	1090-1098	erwarten	_	_
+11-8	1099-1104	meine	_	_
+11-9	1105-1113	Rückkehr	_	_

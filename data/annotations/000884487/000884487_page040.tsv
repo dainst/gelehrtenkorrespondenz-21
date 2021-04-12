@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=134 Gerhard an Braun Berlin , 31. März 1836 Copia Berlin den 31 März 1836 SS .
+1-1	0-3	134	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	31.	*[4]	DATEletter[4]
+1-8	34-38	März	*[4]	DATEletter[4]
+1-9	39-43	1836	*[4]	DATEletter[4]
+1-10	44-49	Copia	_	_
+1-11	50-56	Berlin	_	_
+1-12	57-60	den	_	_
+1-13	61-63	31	*[5]	DATEletter[5]
+1-14	64-68	März	*[5]	DATEletter[5]
+1-15	69-73	1836	*[5]	DATEletter[5]
+1-16	74-76	SS	_	_
+1-17	77-78	.	_	_
+
+#Text=EL .
+2-1	79-81	EL	_	_
+2-2	82-83	.	_	_
+
+#Text=Cav .
+3-1	84-87	Cav	_	_
+3-2	88-89	.	_	_
+
+#Text=Bunsen , Segretario generale dell'Instituto .
+4-1	90-96	Bunsen	*	PERmentioned
+4-2	97-98	,	_	_
+4-3	99-109	Segretario	_	_
+4-4	110-118	generale	_	_
+4-5	119-133	dell'Instituto	_	_
+4-6	134-135	.	_	_
+
+#Text=1 .
+5-1	136-137	1	_	_
+5-2	138-139	.	_	_
+
+#Text=Ho ricevuto 1'Avviso p li i del Bullettino del 1836 , sottoscritto dall ' E .
+6-1	140-142	Ho	_	_
+6-2	143-151	ricevuto	_	_
+6-3	152-160	1'Avviso	_	_
+6-4	161-162	p	_	_
+6-5	163-165	li	_	_
+6-6	166-167	i	_	_
+6-7	168-171	del	_	_
+6-8	172-182	Bullettino	_	_
+6-9	183-186	del	_	_
+6-10	187-191	1836	*	DATEmentioned
+6-11	192-193	,	_	_
+6-12	194-206	sottoscritto	_	_
+6-13	207-211	dall	_	_
+6-14	212-213	'	_	_
+6-15	214-215	E	_	_
+6-16	216-217	.	_	_
+
+#Text=V. e contenente nella forma di Manifestdll 'esecuzione sopratutto delle preposizioni gia da Lei comunicatemi nella memoria degli 8 di maggio 1835 . 2 .
+7-1	218-220	V.	_	_
+7-2	221-222	e	_	_
+7-3	223-233	contenente	_	_
+7-4	234-239	nella	_	_
+7-5	240-245	forma	_	_
+7-6	246-248	di	_	_
+7-7	249-260	Manifestdll	_	_
+7-8	261-272	'esecuzione	_	_
+7-9	273-283	sopratutto	_	_
+7-10	284-289	delle	_	_
+7-11	290-302	preposizioni	_	_
+7-12	303-306	gia	_	_
+7-13	307-309	da	_	_
+7-14	310-313	Lei	_	_
+7-15	314-326	comunicatemi	_	_
+7-16	327-332	nella	_	_
+7-17	333-340	memoria	_	_
+7-18	341-346	degli	_	_
+7-19	347-348	8	*[8]	DATEmentioned[8]
+7-20	349-351	di	*[8]	DATEmentioned[8]
+7-21	352-358	maggio	*[8]	DATEmentioned[8]
+7-22	359-363	1835	*[8]	DATEmentioned[8]
+7-23	364-365	.	_	_
+7-24	366-367	2	_	_
+7-25	368-369	.	_	_
+
+#Text=In riscontro di questa memoria io Stesso , scrivendole li 5 giugno , mi accordai colle medesime , perche 1 ) fossero adempiti gli obblighi pecuniarii dell'Instituto , e fosse 2 ) determinato un su @ essore , capace : di rimpiazzarmi solla sola sua persona .
+8-1	370-372	In	_	_
+8-2	373-382	riscontro	_	_
+8-3	383-385	di	_	_
+8-4	386-392	questa	_	_
+8-5	393-400	memoria	_	_
+8-6	401-403	io	_	_
+8-7	404-410	Stesso	_	_
+8-8	411-412	,	_	_
+8-9	413-424	scrivendole	_	_
+8-10	425-427	li	_	_
+8-11	428-429	5	_	_
+8-12	430-436	giugno	_	_
+8-13	437-438	,	_	_
+8-14	439-441	mi	_	_
+8-15	442-450	accordai	_	_
+8-16	451-456	colle	_	_
+8-17	457-465	medesime	_	_
+8-18	466-467	,	_	_
+8-19	468-474	perche	_	_
+8-20	475-476	1	_	_
+8-21	477-478	)	_	_
+8-22	479-486	fossero	_	_
+8-23	487-495	adempiti	_	_
+8-24	496-499	gli	_	_
+8-25	500-508	obblighi	_	_
+8-26	509-519	pecuniarii	_	_
+8-27	520-534	dell'Instituto	_	_
+8-28	535-536	,	_	_
+8-29	537-538	e	_	_
+8-30	539-544	fosse	_	_
+8-31	545-546	2	_	_
+8-32	547-548	)	_	_
+8-33	549-560	determinato	_	_
+8-34	561-563	un	_	_
+8-35	564-566	su	_	_
+8-36	567-568	@	_	_
+8-37	569-575	essore	_	_
+8-38	576-577	,	_	_
+8-39	578-584	capace	_	_
+8-40	585-586	:	_	_
+8-41	587-589	di	_	_
+8-42	590-602	rimpiazzarmi	_	_
+8-43	603-608	solla	_	_
+8-44	609-613	sola	_	_
+8-45	614-617	sua	_	_
+8-46	618-625	persona	_	_
+8-47	626-627	.	_	_
+
+#Text=3 .
+9-1	628-629	3	_	_
+9-2	630-631	.	_	_
+
+#Text=In conseguenza sto aspettando soltanto i documenti relativi .
+10-1	632-634	In	_	_
+10-2	635-646	conseguenza	_	_
+10-3	647-650	sto	_	_
+10-4	651-661	aspettando	_	_
+10-5	662-670	soltanto	_	_
+10-6	671-672	i	_	_
+10-7	673-682	documenti	_	_
+10-8	683-691	relativi	_	_
+10-9	692-693	.	_	_
+
+#Text=Quelle due condizioni dell'adesione mia , come ancora le sottoscrizioni degli altri Membri ordinarij della Direzione tanto romani quanto esteri , per rinunziare agli affari fin qui diretti o da me stesso o da un mio sostituto .
+11-1	694-700	Quelle	_	_
+11-2	701-704	due	_	_
+11-3	705-715	condizioni	_	_
+11-4	716-729	dell'adesione	_	_
+11-5	730-733	mia	_	_
+11-6	734-735	,	_	_
+11-7	736-740	come	_	_
+11-8	741-747	ancora	_	_
+11-9	748-750	le	_	_
+11-10	751-765	sottoscrizioni	_	_
+11-11	766-771	degli	_	_
+11-12	772-777	altri	_	_
+11-13	778-784	Membri	_	_
+11-14	785-794	ordinarij	_	_
+11-15	795-800	della	_	_
+11-16	801-810	Direzione	_	_
+11-17	811-816	tanto	_	_
+11-18	817-823	romani	_	_
+11-19	824-830	quanto	_	_
+11-20	831-837	esteri	_	_
+11-21	838-839	,	_	_
+11-22	840-843	per	_	_
+11-23	844-854	rinunziare	_	_
+11-24	855-859	agli	_	_
+11-25	860-866	affari	_	_
+11-26	867-870	fin	_	_
+11-27	871-874	qui	_	_
+11-28	875-882	diretti	_	_
+11-29	883-884	o	_	_
+11-30	885-887	da	_	_
+11-31	888-890	me	_	_
+11-32	891-897	stesso	_	_
+11-33	898-899	o	_	_
+11-34	900-902	da	_	_
+11-35	903-905	un	_	_
+11-36	906-909	mio	_	_
+11-37	910-919	sostituto	_	_
+11-38	920-921	.	_	_
+
+#Text=4 .
+12-1	922-923	4	_	_
+12-2	924-925	.	_	_
+
+#Text=Prevedendo pertanto che il nuovo Instituto , fondato da V. E. sulla base dell'antico da me diretto , provenga da massime troppo differenti dal mio modo di r pensare , perche io possa prestäli i miei servizi , debbo
+13-1	926-936	Prevedendo	_	_
+13-2	937-945	pertanto	_	_
+13-3	946-949	che	_	_
+13-4	950-952	il	_	_
+13-5	953-958	nuovo	_	_
+13-6	959-968	Instituto	_	_
+13-7	969-970	,	_	_
+13-8	971-978	fondato	_	_
+13-9	979-981	da	_	_
+13-10	982-984	V.	_	_
+13-11	985-987	E.	_	_
+13-12	988-993	sulla	_	_
+13-13	994-998	base	_	_
+13-14	999-1010	dell'antico	_	_
+13-15	1011-1013	da	_	_
+13-16	1014-1016	me	_	_
+13-17	1017-1024	diretto	_	_
+13-18	1025-1026	,	_	_
+13-19	1027-1035	provenga	_	_
+13-20	1036-1038	da	_	_
+13-21	1039-1046	massime	_	_
+13-22	1047-1053	troppo	_	_
+13-23	1054-1064	differenti	_	_
+13-24	1065-1068	dal	_	_
+13-25	1069-1072	mio	_	_
+13-26	1073-1077	modo	_	_
+13-27	1078-1080	di	_	_
+13-28	1081-1082	r	_	_
+13-29	1083-1090	pensare	_	_
+13-30	1091-1092	,	_	_
+13-31	1093-1099	perche	_	_
+13-32	1100-1102	io	_	_
+13-33	1103-1108	possa	_	_
+13-34	1109-1117	prestäli	_	_
+13-35	1118-1119	i	_	_
+13-36	1120-1124	miei	_	_
+13-37	1125-1132	servizi	_	_
+13-38	1133-1134	,	_	_
+13-39	1135-1140	debbo	_	_

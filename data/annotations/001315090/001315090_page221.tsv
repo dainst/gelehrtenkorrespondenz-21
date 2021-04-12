@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=205 Lepsius an Henzen Berlin , 24. April 1875 8 .
+1-1	0-3	205	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	24.	*[1]	DATEletter[1]
+1-8	35-40	April	*[1]	DATEletter[1]
+1-9	41-45	1875	*[1]	DATEletter[1]
+1-10	46-47	8	_	_
+1-11	48-49	.	_	_
+
+#Text=30/4 75 Te N . 89 Berlin , dem 14 .
+2-1	50-54	30/4	*[2]	DATErecieved[2]
+2-2	55-57	75	*[2]	DATErecieved[2]
+2-3	58-60	Te	_	_
+2-4	61-62	N	_	_
+2-5	63-64	.	_	_
+2-6	65-67	89	_	_
+2-7	68-74	Berlin	*	PLACEfrom
+2-8	75-76	,	_	_
+2-9	77-80	dem	_	_
+2-10	81-83	14	*[3]	DATEletter[3]
+2-11	84-85	.	*[3]	DATEletter[3]
+
+#Text=Apri .
+3-1	86-90	Apri	*[3]	DATEletter[3]
+3-2	91-92	.	*[3]	DATEletter[3]
+
+#Text=1875 Verehrter Freund Klügmann fragt an , ob wir uns nicht beim Auswärtigen Amte verwenden könnten um ihm eine Wohnung in der Casa Tarpea zu sichern .
+4-1	93-97	1875	*[3]	DATEletter[3]
+4-2	98-107	Verehrter	_	_
+4-3	108-114	Freund	_	_
+4-4	115-123	Klügmann	*	PERmentioned
+4-5	124-129	fragt	_	_
+4-6	130-132	an	_	_
+4-7	133-134	,	_	_
+4-8	135-137	ob	_	_
+4-9	138-141	wir	_	_
+4-10	142-145	uns	_	_
+4-11	146-151	nicht	_	_
+4-12	152-156	beim	_	_
+4-13	157-168	Auswärtigen	*[4]	ORGmentioned[4]
+4-14	169-173	Amte	*[4]	ORGmentioned[4]
+4-15	174-183	verwenden	_	_
+4-16	184-191	könnten	_	_
+4-17	192-194	um	_	_
+4-18	195-198	ihm	_	_
+4-19	199-203	eine	_	_
+4-20	204-211	Wohnung	_	_
+4-21	212-214	in	_	_
+4-22	215-218	der	_	_
+4-23	219-223	Casa	*[5]	PLACEmentioned[5]
+4-24	224-230	Tarpea	*[5]	PLACEmentioned[5]
+4-25	231-233	zu	_	_
+4-26	234-241	sichern	_	_
+4-27	242-243	.	_	_
+
+#Text=Es scheint dies eng mit dem Künstlerprojekte zusammenzuhängen , und über dieses müssen doch Keudell und Sie mehr wissen als wir .
+5-1	244-246	Es	_	_
+5-2	247-254	scheint	_	_
+5-3	255-259	dies	_	_
+5-4	260-263	eng	_	_
+5-5	264-267	mit	_	_
+5-6	268-271	dem	_	_
+5-7	272-288	Künstlerprojekte	_	_
+5-8	289-305	zusammenzuhängen	_	_
+5-9	306-307	,	_	_
+5-10	308-311	und	_	_
+5-11	312-316	über	_	_
+5-12	317-323	dieses	_	_
+5-13	324-330	müssen	_	_
+5-14	331-335	doch	_	_
+5-15	336-343	Keudell	*	PERmentioned
+5-16	344-347	und	_	_
+5-17	348-351	Sie	_	_
+5-18	352-356	mehr	_	_
+5-19	357-363	wissen	_	_
+5-20	364-367	als	_	_
+5-21	368-371	wir	_	_
+5-22	372-373	.	_	_
+
+#Text=Überhaupt würde wohl Keudell dazu mehr thun können als wir .
+6-1	374-383	Überhaupt	_	_
+6-2	384-389	würde	_	_
+6-3	390-394	wohl	_	_
+6-4	395-402	Keudell	*	PERmentioned
+6-5	403-407	dazu	_	_
+6-6	408-412	mehr	_	_
+6-7	413-417	thun	_	_
+6-8	418-424	können	_	_
+6-9	425-428	als	_	_
+6-10	429-432	wir	_	_
+6-11	433-434	.	_	_
+
+#Text=Wer ist eigentlich Urheber und Gönner dieses Projektes für eine Tarpeische Künstlerkolonie .
+7-1	435-438	Wer	_	_
+7-2	439-442	ist	_	_
+7-3	443-453	eigentlich	_	_
+7-4	454-461	Urheber	_	_
+7-5	462-465	und	_	_
+7-6	466-472	Gönner	_	_
+7-7	473-479	dieses	_	_
+7-8	480-489	Projektes	_	_
+7-9	490-493	für	_	_
+7-10	494-498	eine	_	_
+7-11	499-509	Tarpeische	_	_
+7-12	510-525	Künstlerkolonie	_	_
+7-13	526-527	.	_	_
+
+#Text=Ich kann mir nicht denken daß es zur Ausführung kommen wird , wenn sich nicht in Rom Vieles verändert hat .
+8-1	528-531	Ich	_	_
+8-2	532-536	kann	_	_
+8-3	537-540	mir	_	_
+8-4	541-546	nicht	_	_
+8-5	547-553	denken	_	_
+8-6	554-557	daß	_	_
+8-7	558-560	es	_	_
+8-8	561-564	zur	_	_
+8-9	565-575	Ausführung	_	_
+8-10	576-582	kommen	_	_
+8-11	583-587	wird	_	_
+8-12	588-589	,	_	_
+8-13	590-594	wenn	_	_
+8-14	595-599	sich	_	_
+8-15	600-605	nicht	_	_
+8-16	606-608	in	_	_
+8-17	609-612	Rom	*	PLACEmentioned
+8-18	613-619	Vieles	_	_
+8-19	620-629	verändert	_	_
+8-20	630-633	hat	_	_
+8-21	634-635	.	_	_
+
+#Text=Schreiben Sie doch , was Sie darüber wissen .
+9-1	636-645	Schreiben	_	_
+9-2	646-649	Sie	_	_
+9-3	650-654	doch	_	_
+9-4	655-656	,	_	_
+9-5	657-660	was	_	_
+9-6	661-664	Sie	_	_
+9-7	665-672	darüber	_	_
+9-8	673-679	wissen	_	_
+9-9	680-681	.	_	_
+
+#Text=Davo , wird ja auch die Möglichkeit abhängen , für Klügmann zu wirken .
+10-1	682-686	Davo	_	_
+10-2	687-688	,	_	_
+10-3	689-693	wird	_	_
+10-4	694-696	ja	_	_
+10-5	697-701	auch	_	_
+10-6	702-705	die	_	_
+10-7	706-717	Möglichkeit	_	_
+10-8	718-726	abhängen	_	_
+10-9	727-728	,	_	_
+10-10	729-732	für	_	_
+10-11	733-741	Klügmann	*	PERmentioned
+10-12	742-744	zu	_	_
+10-13	745-751	wirken	_	_
+10-14	752-753	.	_	_
+
+#Text=Ich sende Ihnen eine Anzahl Exemplare der Stipendien-Paragraphen zu gelegentlicher Verwendung .
+11-1	754-757	Ich	_	_
+11-2	758-763	sende	_	_
+11-3	764-769	Ihnen	_	_
+11-4	770-774	eine	_	_
+11-5	775-781	Anzahl	_	_
+11-6	782-791	Exemplare	_	_
+11-7	792-795	der	_	_
+11-8	796-818	Stipendien-Paragraphen	_	_
+11-9	819-821	zu	_	_
+11-10	822-836	gelegentlicher	_	_
+11-11	837-847	Verwendung	_	_
+11-12	848-849	.	_	_
+
+#Text=Helbig habe ich gebeten , hiefüro Officielles und Privates in seinen Mittheilungen streng auseinander zu halten .
+12-1	850-856	Helbig	*	PERmentioned
+12-2	857-861	habe	_	_
+12-3	862-865	ich	_	_
+12-4	866-873	gebeten	_	_
+12-5	874-875	,	_	_
+12-6	876-883	hiefüro	_	_
+12-7	884-895	Officielles	_	_
+12-8	896-899	und	_	_
+12-9	900-908	Privates	_	_
+12-10	909-911	in	_	_
+12-11	912-918	seinen	_	_
+12-12	919-932	Mittheilungen	_	_
+12-13	933-939	streng	_	_
+12-14	940-951	auseinander	_	_
+12-15	952-954	zu	_	_
+12-16	955-961	halten	_	_
+12-17	962-963	.	_	_
+
+#Text=Er wird Ihnen wohl meinen Brief mittheilen .
+13-1	964-966	Er	_	_
+13-2	967-971	wird	_	_
+13-3	972-977	Ihnen	_	_
+13-4	978-982	wohl	_	_
+13-5	983-989	meinen	_	_
+13-6	990-995	Brief	_	_
+13-7	996-1006	mittheilen	_	_
+13-8	1007-1008	.	_	_
+
+#Text=Mit Lüders ist die Central Direktion bereits so weit auseinander wegen seiner Ungeschäftlichkeiten und Querelen , daß nun sein Hierherkommen recht nöthig wird ,
+14-1	1009-1012	Mit	_	_
+14-2	1013-1019	Lüders	*	PERmentioned
+14-3	1020-1023	ist	_	_
+14-4	1024-1027	die	_	_
+14-5	1028-1035	Central	*[6]	ORGmentioned[6]
+14-6	1036-1045	Direktion	*[6]	ORGmentioned[6]
+14-7	1046-1053	bereits	_	_
+14-8	1054-1056	so	_	_
+14-9	1057-1061	weit	_	_
+14-10	1062-1073	auseinander	_	_
+14-11	1074-1079	wegen	_	_
+14-12	1080-1086	seiner	_	_
+14-13	1087-1107	Ungeschäftlichkeiten	_	_
+14-14	1108-1111	und	_	_
+14-15	1112-1120	Querelen	_	_
+14-16	1121-1122	,	_	_
+14-17	1123-1126	daß	_	_
+14-18	1127-1130	nun	_	_
+14-19	1131-1135	sein	_	_
+14-20	1136-1149	Hierherkommen	_	_
+14-21	1150-1155	recht	_	_
+14-22	1156-1162	nöthig	_	_
+14-23	1163-1167	wird	_	_
+14-24	1168-1169	,	_	_

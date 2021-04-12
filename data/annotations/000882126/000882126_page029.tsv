@@ -1,0 +1,297 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ur 3 Dr , 1015 Braun an Gerhard Rom , 3. November 1835 - 1717 .
+1-1	0-2	ur	_	_
+1-2	3-4	3	_	_
+1-3	5-7	Dr	_	_
+1-4	8-9	,	_	_
+1-5	10-14	1015	_	_
+1-6	15-20	Braun	*	PERauthor
+1-7	21-23	an	_	_
+1-8	24-31	Gerhard	*	PERaddressee
+1-9	32-35	Rom	*	PLACEfrom
+1-10	36-37	,	_	_
+1-11	38-40	3.	*[11]	DATEletter[11]
+1-12	41-49	November	*[11]	DATEletter[11]
+1-13	50-54	1835	*[11]	DATEletter[11]
+1-14	55-56	-	_	_
+1-15	57-61	1717	_	_
+1-16	62-63	.	_	_
+
+#Text=Sie mir wiederholt aufgetragen .
+2-1	64-67	Sie	_	_
+2-2	68-71	mir	_	_
+2-3	72-82	wiederholt	_	_
+2-4	83-94	aufgetragen	_	_
+2-5	95-96	.	_	_
+
+#Text=Daß bei der Ausführung eines solchen Auftrags mancher Fehlgriff stattfinden muß , werden Sie mit Ihrer erprobten Billigkeit entschuldigen .
+3-1	97-100	Daß	_	_
+3-2	101-104	bei	_	_
+3-3	105-108	der	_	_
+3-4	109-119	Ausführung	_	_
+3-5	120-125	eines	_	_
+3-6	126-133	solchen	_	_
+3-7	134-142	Auftrags	_	_
+3-8	143-150	mancher	_	_
+3-9	151-160	Fehlgriff	_	_
+3-10	161-172	stattfinden	_	_
+3-11	173-176	muß	_	_
+3-12	177-178	,	_	_
+3-13	179-185	werden	_	_
+3-14	186-189	Sie	_	_
+3-15	190-193	mit	_	_
+3-16	194-199	Ihrer	_	_
+3-17	200-209	erprobten	_	_
+3-18	210-220	Billigkeit	_	_
+3-19	221-234	entschuldigen	_	_
+3-20	235-236	.	_	_
+
+#Text=DBunsen hat mir dagegen diese meine Geschäftigkeit in Ihrem Interesse übel auslegen wollen .
+4-1	237-244	DBunsen	*	PERmentioned
+4-2	245-248	hat	_	_
+4-3	249-252	mir	_	_
+4-4	253-260	dagegen	_	_
+4-5	261-266	diese	_	_
+4-6	267-272	meine	_	_
+4-7	273-287	Geschäftigkeit	_	_
+4-8	288-290	in	_	_
+4-9	291-296	Ihrem	_	_
+4-10	297-306	Interesse	_	_
+4-11	307-311	übel	_	_
+4-12	312-320	auslegen	_	_
+4-13	321-327	wollen	_	_
+4-14	328-329	.	_	_
+
+#Text=Aus den 168.93 , in Folgen deren Berechnung die sehr unzarte , auch ganz geschäftswidrige Mahnung erhielten sind jetzt 175.43 geworden , nachdem einige kleine Ausgaben hinzugekommen , aber auch einige Posten herabgesetzt worden sind , Franz nemlich hat nur Scudi 32.80 erhalten .
+5-1	330-333	Aus	_	_
+5-2	334-337	den	_	_
+5-3	338-344	168.93	_	_
+5-4	345-346	,	_	_
+5-5	347-349	in	_	_
+5-6	350-356	Folgen	_	_
+5-7	357-362	deren	_	_
+5-8	363-373	Berechnung	_	_
+5-9	374-377	die	_	_
+5-10	378-382	sehr	_	_
+5-11	383-390	unzarte	_	_
+5-12	391-392	,	_	_
+5-13	393-397	auch	_	_
+5-14	398-402	ganz	_	_
+5-15	403-419	geschäftswidrige	_	_
+5-16	420-427	Mahnung	_	_
+5-17	428-437	erhielten	_	_
+5-18	438-442	sind	_	_
+5-19	443-448	jetzt	_	_
+5-20	449-455	175.43	_	_
+5-21	456-464	geworden	_	_
+5-22	465-466	,	_	_
+5-23	467-474	nachdem	_	_
+5-24	475-481	einige	_	_
+5-25	482-488	kleine	_	_
+5-26	489-497	Ausgaben	_	_
+5-27	498-511	hinzugekommen	_	_
+5-28	512-513	,	_	_
+5-29	514-518	aber	_	_
+5-30	519-523	auch	_	_
+5-31	524-530	einige	_	_
+5-32	531-537	Posten	_	_
+5-33	538-550	herabgesetzt	_	_
+5-34	551-557	worden	_	_
+5-35	558-562	sind	_	_
+5-36	563-564	,	_	_
+5-37	565-570	Franz	*	PERmentioned
+5-38	571-578	nemlich	_	_
+5-39	579-582	hat	_	_
+5-40	583-586	nur	_	_
+5-41	587-592	Scudi	_	_
+5-42	593-598	32.80	_	_
+5-43	599-607	erhalten	_	_
+5-44	608-609	.	_	_
+
+#Text=- Mir dürfen Sie also nicht zur last legen , daß ich unordentlich verfahren sei .
+6-1	610-611	-	_	_
+6-2	612-615	Mir	_	_
+6-3	616-622	dürfen	_	_
+6-4	623-626	Sie	_	_
+6-5	627-631	also	_	_
+6-6	632-637	nicht	_	_
+6-7	638-641	zur	_	_
+6-8	642-646	last	_	_
+6-9	647-652	legen	_	_
+6-10	653-654	,	_	_
+6-11	655-658	daß	_	_
+6-12	659-662	ich	_	_
+6-13	663-675	unordentlich	_	_
+6-14	676-685	verfahren	_	_
+6-15	686-689	sei	_	_
+6-16	690-691	.	_	_
+
+#Text=Berichtigungen muß selbst der geübteste Geschäftsmann entgegensehen .
+7-1	692-706	Berichtigungen	_	_
+7-2	707-710	muß	_	_
+7-3	711-717	selbst	_	_
+7-4	718-721	der	_	_
+7-5	722-731	geübteste	_	_
+7-6	732-745	Geschäftsmann	_	_
+7-7	746-759	entgegensehen	_	_
+7-8	760-761	.	_	_
+
+#Text=Gegen die Direzione hätte ich mich noch ganz anders herausstellen können .
+8-1	762-767	Gegen	_	_
+8-2	768-771	die	_	_
+8-3	772-781	Direzione	*	ORGmentioned
+8-4	782-787	hätte	_	_
+8-5	788-791	ich	_	_
+8-6	792-796	mich	_	_
+8-7	797-801	noch	_	_
+8-8	802-806	ganz	_	_
+8-9	807-813	anders	_	_
+8-10	814-827	herausstellen	_	_
+8-11	828-834	können	_	_
+8-12	835-836	.	_	_
+
+#Text=Sie haben nemlich Credit an Serradifalco - von welchem bereits 4 Louis d'or dem Institut verrechnet worden sind .
+9-1	837-840	Sie	_	_
+9-2	841-846	haben	_	_
+9-3	847-854	nemlich	_	_
+9-4	855-861	Credit	_	_
+9-5	862-864	an	_	_
+9-6	865-877	Serradifalco	*	PERmentioned
+9-7	878-879	-	_	_
+9-8	880-883	von	_	_
+9-9	884-891	welchem	_	_
+9-10	892-899	bereits	_	_
+9-11	900-901	4	_	_
+9-12	902-907	Louis	_	_
+9-13	908-912	d'or	_	_
+9-14	913-916	dem	_	_
+9-15	917-925	Institut	*	ORGmentioned
+9-16	926-936	verrechnet	_	_
+9-17	937-943	worden	_	_
+9-18	944-948	sind	_	_
+9-19	949-950	.	_	_
+
+#Text=Maggiore - der zu bezahlen sich erboten .
+10-1	951-959	Maggiore	*	PERmentioned
+10-2	960-961	-	_	_
+10-3	962-965	der	_	_
+10-4	966-968	zu	_	_
+10-5	969-977	bezahlen	_	_
+10-6	978-982	sich	_	_
+10-7	983-990	erboten	_	_
+10-8	991-992	.	_	_
+
+#Text=Avellino - dito Liphart - der noch nicht zurück ist .
+11-1	993-1001	Avellino	*	PERmentioned
+11-2	1002-1003	-	_	_
+11-3	1004-1008	dito	_	_
+11-4	1009-1016	Liphart	*	PERmentioned
+11-5	1017-1018	-	_	_
+11-6	1019-1022	der	_	_
+11-7	1023-1027	noch	_	_
+11-8	1028-1033	nicht	_	_
+11-9	1034-1040	zurück	_	_
+11-10	1041-1044	ist	_	_
+11-11	1045-1046	.	_	_
+
+#Text=Außerdem habe ich die zuletzt übersandten 100 Scudi Ihnen und nicht Gerstäcker verrechnet .
+12-1	1047-1055	Außerdem	_	_
+12-2	1056-1060	habe	_	_
+12-3	1061-1064	ich	_	_
+12-4	1065-1068	die	_	_
+12-5	1069-1076	zuletzt	_	_
+12-6	1077-1088	übersandten	_	_
+12-7	1089-1092	100	_	_
+12-8	1093-1098	Scudi	_	_
+12-9	1099-1104	Ihnen	_	_
+12-10	1105-1108	und	_	_
+12-11	1109-1114	nicht	_	_
+12-12	1115-1125	Gerstäcker	*	PERmentioned
+12-13	1126-1136	verrechnet	_	_
+12-14	1137-1138	.	_	_
+
+#Text=Kurz die Direction hat ganz und gar keinen Grund mich zu malträtiren wie sie thut .
+13-1	1139-1143	Kurz	_	_
+13-2	1144-1147	die	_	_
+13-3	1148-1157	Direction	*	ORGmentioned
+13-4	1158-1161	hat	_	_
+13-5	1162-1166	ganz	_	_
+13-6	1167-1170	und	_	_
+13-7	1171-1174	gar	_	_
+13-8	1175-1181	keinen	_	_
+13-9	1182-1187	Grund	_	_
+13-10	1188-1192	mich	_	_
+13-11	1193-1195	zu	_	_
+13-12	1196-1207	malträtiren	_	_
+13-13	1208-1211	wie	_	_
+13-14	1212-1215	sie	_	_
+13-15	1216-1220	thut	_	_
+13-16	1221-1222	.	_	_
+
+#Text=Ich habe nicht nur nicht zu viel ausgegeben , sondern wesentliche Erparnisse gemacht und bei der Geldnoth selbst Geld beigeschafft .
+14-1	1223-1226	Ich	_	_
+14-2	1227-1231	habe	_	_
+14-3	1232-1237	nicht	_	_
+14-4	1238-1241	nur	_	_
+14-5	1242-1247	nicht	_	_
+14-6	1248-1250	zu	_	_
+14-7	1251-1255	viel	_	_
+14-8	1256-1266	ausgegeben	_	_
+14-9	1267-1268	,	_	_
+14-10	1269-1276	sondern	_	_
+14-11	1277-1288	wesentliche	_	_
+14-12	1289-1299	Erparnisse	_	_
+14-13	1300-1307	gemacht	_	_
+14-14	1308-1311	und	_	_
+14-15	1312-1315	bei	_	_
+14-16	1316-1319	der	_	_
+14-17	1320-1328	Geldnoth	_	_
+14-18	1329-1335	selbst	_	_
+14-19	1336-1340	Geld	_	_
+14-20	1341-1353	beigeschafft	_	_
+14-21	1354-1355	.	_	_
+
+#Text=Daß der Segretario Generale nichts von den particolären Geschäftsgang des Instituts als bekannt voraussetzt , ist doch wahrlich nicht meine Schuld .
+15-1	1356-1359	Daß	_	_
+15-2	1360-1363	der	_	_
+15-3	1364-1374	Segretario	*[12]	PERmentioned[12]
+15-4	1375-1383	Generale	*[12]	PERmentioned[12]
+15-5	1384-1390	nichts	_	_
+15-6	1391-1394	von	_	_
+15-7	1395-1398	den	_	_
+15-8	1399-1411	particolären	_	_
+15-9	1412-1425	Geschäftsgang	_	_
+15-10	1426-1429	des	_	_
+15-11	1430-1439	Instituts	*	ORGmentioned
+15-12	1440-1443	als	_	_
+15-13	1444-1451	bekannt	_	_
+15-14	1452-1463	voraussetzt	_	_
+15-15	1464-1465	,	_	_
+15-16	1466-1469	ist	_	_
+15-17	1470-1474	doch	_	_
+15-18	1475-1483	wahrlich	_	_
+15-19	1484-1489	nicht	_	_
+15-20	1490-1495	meine	_	_
+15-21	1496-1502	Schuld	_	_
+15-22	1503-1504	.	_	_
+
+#Text=Ich habe , wie ich nur immer konnte , vorschriftsmäßig und mit genauer Beobachtung des Traditionellhergebrachten
+16-1	1505-1508	Ich	_	_
+16-2	1509-1513	habe	_	_
+16-3	1514-1515	,	_	_
+16-4	1516-1519	wie	_	_
+16-5	1520-1523	ich	_	_
+16-6	1524-1527	nur	_	_
+16-7	1528-1533	immer	_	_
+16-8	1534-1540	konnte	_	_
+16-9	1541-1542	,	_	_
+16-10	1543-1559	vorschriftsmäßig	_	_
+16-11	1560-1563	und	_	_
+16-12	1564-1567	mit	_	_
+16-13	1568-1575	genauer	_	_
+16-14	1576-1587	Beobachtung	_	_
+16-15	1588-1591	des	_	_
+16-16	1592-1617	Traditionellhergebrachten	_	_

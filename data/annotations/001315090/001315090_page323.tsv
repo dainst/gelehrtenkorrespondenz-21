@@ -1,0 +1,147 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=343 Lepsius an Henzen Berlin , 1. Juni 1877 r . 4/6 77 Berlin , d . 1. Juni 1877 Verehrter Freund Ich übersende Ihnen hierbei zur Kenntnisnahme die Antwort des Auswärtigen Amtes auf unsre Vorschläge wegen der Römischen Verwaltung .
+1-1	0-3	343	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	1.	*[3]	DATEletter[3]
+1-8	34-38	Juni	*[3]	DATEletter[3]
+1-9	39-43	1877	*[3]	DATEletter[3]
+1-10	44-45	r	_	_
+1-11	46-47	.	_	_
+1-12	48-51	4/6	*[4]	DATEanswered[4]
+1-13	52-54	77	*[4]	DATEanswered[4]
+1-14	55-61	Berlin	*	PLACEfrom
+1-15	62-63	,	_	_
+1-16	64-65	d	_	_
+1-17	66-67	.	_	_
+1-18	68-70	1.	*[5]	DATEletter[5]
+1-19	71-75	Juni	*[5]	DATEletter[5]
+1-20	76-80	1877	*[5]	DATEletter[5]
+1-21	81-90	Verehrter	_	_
+1-22	91-97	Freund	_	_
+1-23	98-101	Ich	_	_
+1-24	102-111	übersende	_	_
+1-25	112-117	Ihnen	_	_
+1-26	118-125	hierbei	_	_
+1-27	126-129	zur	_	_
+1-28	130-143	Kenntnisnahme	_	_
+1-29	144-147	die	_	_
+1-30	148-155	Antwort	_	_
+1-31	156-159	des	_	_
+1-32	160-171	Auswärtigen	*[6]	ORGmentioned[6]
+1-33	172-177	Amtes	*[6]	ORGmentioned[6]
+1-34	178-181	auf	_	_
+1-35	182-187	unsre	_	_
+1-36	188-198	Vorschläge	_	_
+1-37	199-204	wegen	_	_
+1-38	205-208	der	_	_
+1-39	209-218	Römischen	*[7]	ORGmentioned[7]
+1-40	219-229	Verwaltung	*[7]	ORGmentioned[7]
+1-41	230-231	.	_	_
+
+#Text=Die Auszahlung der Russischen Fonds ist jedenfalls sehr erwünscht .
+2-1	232-235	Die	_	_
+2-2	236-246	Auszahlung	_	_
+2-3	247-250	der	_	_
+2-4	251-261	Russischen	_	_
+2-5	262-267	Fonds	_	_
+2-6	268-271	ist	_	_
+2-7	272-282	jedenfalls	_	_
+2-8	283-287	sehr	_	_
+2-9	288-297	erwünscht	_	_
+2-10	298-299	.	_	_
+
+#Text=Schritte beim Auswärtigen Amte schienen auch Mommsen und xrl für jetzt nicht angezeigt , Dagegen macht Schöne mit Recht darauf aufmerksan , daß die Russischen Gelder nach Berlin werden auszahlt ( sic ! )
+3-1	300-308	Schritte	_	_
+3-2	309-313	beim	_	_
+3-3	314-325	Auswärtigen	*[8]	ORGmentioned[8]
+3-4	326-330	Amte	*[8]	ORGmentioned[8]
+3-5	331-339	schienen	_	_
+3-6	340-344	auch	_	_
+3-7	345-352	Mommsen	*	PERmentioned
+3-8	353-356	und	_	_
+3-9	357-360	xrl	*	PERmentioned
+3-10	361-364	für	_	_
+3-11	365-370	jetzt	_	_
+3-12	371-376	nicht	_	_
+3-13	377-386	angezeigt	_	_
+3-14	387-388	,	_	_
+3-15	389-396	Dagegen	_	_
+3-16	397-402	macht	_	_
+3-17	403-409	Schöne	*	PERmentioned
+3-18	410-413	mit	_	_
+3-19	414-419	Recht	_	_
+3-20	420-426	darauf	_	_
+3-21	427-437	aufmerksan	_	_
+3-22	438-439	,	_	_
+3-23	440-443	daß	_	_
+3-24	444-447	die	_	_
+3-25	448-458	Russischen	_	_
+3-26	459-465	Gelder	_	_
+3-27	466-470	nach	_	_
+3-28	471-477	Berlin	*	PLACEmentioned
+3-29	478-484	werden	_	_
+3-30	485-493	auszahlt	_	_
+3-31	494-495	(	_	_
+3-32	496-499	sic	_	_
+3-33	500-501	!	_	_
+3-34	502-503	)	_	_
+
+#Text=werden müssen , um in Fopds angelegt zu werden , die dem Reiche als zu sicher gelten .
+4-1	504-510	werden	_	_
+4-2	511-517	müssen	_	_
+4-3	518-519	,	_	_
+4-4	520-522	um	_	_
+4-5	523-525	in	_	_
+4-6	526-531	Fopds	_	_
+4-7	532-540	angelegt	_	_
+4-8	541-543	zu	_	_
+4-9	544-550	werden	_	_
+4-10	551-552	,	_	_
+4-11	553-556	die	_	_
+4-12	557-560	dem	_	_
+4-13	561-567	Reiche	_	_
+4-14	568-571	als	_	_
+4-15	572-574	zu	_	_
+4-16	575-581	sicher	_	_
+4-17	582-588	gelten	_	_
+4-18	589-590	.	_	_
+
+#Text=Es würde also gleich die Berechnung hierher zu richten sein , um nicht doppelte Spesen zu haben .
+5-1	591-593	Es	_	_
+5-2	594-599	würde	_	_
+5-3	600-604	also	_	_
+5-4	605-611	gleich	_	_
+5-5	612-615	die	_	_
+5-6	616-626	Berechnung	_	_
+5-7	627-634	hierher	_	_
+5-8	635-637	zu	_	_
+5-9	638-645	richten	_	_
+5-10	646-650	sein	_	_
+5-11	651-652	,	_	_
+5-12	653-655	um	_	_
+5-13	656-661	nicht	_	_
+5-14	662-670	doppelte	_	_
+5-15	671-677	Spesen	_	_
+5-16	678-680	zu	_	_
+5-17	681-686	haben	_	_
+5-18	687-688	.	_	_
+
+#Text=Der Ihrige R Lepsius Ich schreibe heute auch an Helbig .
+6-1	689-692	Der	_	_
+6-2	693-699	Ihrige	_	_
+6-3	700-701	R	*[9]	PERauthor[9]
+6-4	702-709	Lepsius	*[9]	PERauthor[9]
+6-5	710-713	Ich	_	_
+6-6	714-722	schreibe	_	_
+6-7	723-728	heute	_	_
+6-8	729-733	auch	_	_
+6-9	734-736	an	_	_
+6-10	737-743	Helbig	*	PERmentioned
+6-11	744-745	.	_	_

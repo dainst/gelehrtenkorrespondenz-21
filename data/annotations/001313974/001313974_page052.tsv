@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=109 Helbig an das Institut Paris , 10. März 1865 H g.- 15/3 65 Paris 10. März 1865 Geehrteste Herrn !
+1-1	0-3	109	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-17	das	_	_
+1-5	18-26	Institut	*	ORGaddressee
+1-6	27-32	Paris	*	PLACEfrom
+1-7	33-34	,	_	_
+1-8	35-38	10.	*[3]	DATEletter[3]
+1-9	39-43	März	*[3]	DATEletter[3]
+1-10	44-48	1865	*[3]	DATEletter[3]
+1-11	49-50	H	_	_
+1-12	51-54	g.-	_	_
+1-13	55-59	15/3	*[2]	DATErecieved[2]
+1-14	60-62	65	*[2]	DATErecieved[2]
+1-15	63-68	Paris	*	PLACEfrom
+1-16	69-72	10.	*[1]	DATEletter[1]
+1-17	73-77	März	*[1]	DATEletter[1]
+1-18	78-82	1865	*[1]	DATEletter[1]
+1-19	83-93	Geehrteste	_	_
+1-20	94-99	Herrn	_	_
+1-21	100-101	!	_	_
+
+#Text=Soeben habe ich Ihre Depesche erhalten , die ja ganz erfreulich klingt , wiewohl ich mich , durch frühere Erfahrungen gewitzigt , eines gewissen Mißtrauens nicht entschlagen kann .
+2-1	102-108	Soeben	_	_
+2-2	109-113	habe	_	_
+2-3	114-117	ich	_	_
+2-4	118-122	Ihre	_	_
+2-5	123-131	Depesche	_	_
+2-6	132-140	erhalten	_	_
+2-7	141-142	,	_	_
+2-8	143-146	die	_	_
+2-9	147-149	ja	_	_
+2-10	150-154	ganz	_	_
+2-11	155-165	erfreulich	_	_
+2-12	166-172	klingt	_	_
+2-13	173-174	,	_	_
+2-14	175-182	wiewohl	_	_
+2-15	183-186	ich	_	_
+2-16	187-191	mich	_	_
+2-17	192-193	,	_	_
+2-18	194-199	durch	_	_
+2-19	200-207	frühere	_	_
+2-20	208-219	Erfahrungen	_	_
+2-21	220-229	gewitzigt	_	_
+2-22	230-231	,	_	_
+2-23	232-237	eines	_	_
+2-24	238-246	gewissen	_	_
+2-25	247-257	Mißtrauens	_	_
+2-26	258-263	nicht	_	_
+2-27	264-275	entschlagen	_	_
+2-28	276-280	kann	_	_
+2-29	281-282	.	_	_
+
+#Text=Meinen herzlichen Dank für Ihre Bemühungen in dieser Angelegenheit .
+3-1	283-289	Meinen	_	_
+3-2	290-300	herzlichen	_	_
+3-3	301-305	Dank	_	_
+3-4	306-309	für	_	_
+3-5	310-314	Ihre	_	_
+3-6	315-325	Bemühungen	_	_
+3-7	326-328	in	_	_
+3-8	329-335	dieser	_	_
+3-9	336-349	Angelegenheit	_	_
+3-10	350-351	.	_	_
+
+#Text=Dem morgen abgehenden Courier , welcher diesen Brief überbringt , habe ich folgende Gegenstände mitgegeben , welche ich im betreffenden Falle von der Gesandtschaft in Rom zu reclamiren bitte Für Frau Professor Brunn : Grimms Märchen .
+4-1	352-355	Dem	_	_
+4-2	356-362	morgen	_	_
+4-3	363-373	abgehenden	_	_
+4-4	374-381	Courier	_	_
+4-5	382-383	,	_	_
+4-6	384-391	welcher	_	_
+4-7	392-398	diesen	_	_
+4-8	399-404	Brief	_	_
+4-9	405-415	überbringt	_	_
+4-10	416-417	,	_	_
+4-11	418-422	habe	_	_
+4-12	423-426	ich	_	_
+4-13	427-435	folgende	_	_
+4-14	436-447	Gegenstände	_	_
+4-15	448-458	mitgegeben	_	_
+4-16	459-460	,	_	_
+4-17	461-467	welche	_	_
+4-18	468-471	ich	_	_
+4-19	472-474	im	_	_
+4-20	475-487	betreffenden	_	_
+4-21	488-493	Falle	_	_
+4-22	494-497	von	_	_
+4-23	498-501	der	_	_
+4-24	502-515	Gesandtschaft	*	ORGmentioned
+4-25	516-518	in	_	_
+4-26	519-522	Rom	*	PLACEmentioned
+4-27	523-525	zu	_	_
+4-28	526-536	reclamiren	_	_
+4-29	537-542	bitte	_	_
+4-30	543-546	Für	_	_
+4-31	547-551	Frau	_	_
+4-32	552-561	Professor	_	_
+4-33	562-567	Brunn	*	PERmentioned
+4-34	568-569	:	_	_
+4-35	570-576	Grimms	_	_
+4-36	577-584	Märchen	_	_
+4-37	585-586	.	_	_
+
+#Text=Für Herrn Professor Henzen : Das Kohnsche Buch .
+5-1	587-590	Für	_	_
+5-2	591-596	Herrn	_	_
+5-3	597-606	Professor	_	_
+5-4	607-613	Henzen	*	PERmentioned
+5-5	614-615	:	_	_
+5-6	616-619	Das	_	_
+5-7	620-628	Kohnsche	_	_
+5-8	629-633	Buch	_	_
+5-9	634-635	.	_	_
+
+#Text=Für das Institut : Monumenti 1843 .
+6-1	636-639	Für	_	_
+6-2	640-643	das	_	_
+6-3	644-652	Institut	*	ORGmentioned
+6-4	653-654	:	_	_
+6-5	655-664	Monumenti	_	_
+6-6	665-669	1843	*	DATEmentioned
+6-7	670-671	.	_	_
+
+#Text=Frau Duprat bittet tausendmal um Entschuldigung wegen der duch den Tod ihres Mannes dem Institut verursachten Con/fusionen und ist bereit , das de Wittesche Paket , welches sich nicht vorfindet , zu ersetzen .
+7-1	672-676	Frau	_	_
+7-2	677-683	Duprat	*	PERmentioned
+7-3	684-690	bittet	_	_
+7-4	691-701	tausendmal	_	_
+7-5	702-704	um	_	_
+7-6	705-719	Entschuldigung	_	_
+7-7	720-725	wegen	_	_
+7-8	726-729	der	_	_
+7-9	730-734	duch	_	_
+7-10	735-738	den	_	_
+7-11	739-742	Tod	_	_
+7-12	743-748	ihres	_	_
+7-13	749-755	Mannes	_	_
+7-14	756-759	dem	_	_
+7-15	760-768	Institut	*	ORGmentioned
+7-16	769-781	verursachten	_	_
+7-17	782-794	Con/fusionen	_	_
+7-18	795-798	und	_	_
+7-19	799-802	ist	_	_
+7-20	803-809	bereit	_	_
+7-21	810-811	,	_	_
+7-22	812-815	das	_	_
+7-23	816-818	de	*[4]	MISC[4]
+7-24	819-828	Wittesche	*[4]	MISC[4]
+7-25	829-834	Paket	_	_
+7-26	835-836	,	_	_
+7-27	837-844	welches	_	_
+7-28	845-849	sich	_	_
+7-29	850-855	nicht	_	_
+7-30	856-865	vorfindet	_	_
+7-31	866-867	,	_	_
+7-32	868-870	zu	_	_
+7-33	871-879	ersetzen	_	_
+7-34	880-881	.	_	_
+
+#Text=Ich muß de Witte fragen , welches die betreffenden Hefte waren .
+8-1	882-885	Ich	_	_
+8-2	886-889	muß	_	_
+8-3	890-892	de	*[5]	PERmentioned[5]
+8-4	893-898	Witte	*[5]	PERmentioned[5]
+8-5	899-905	fragen	_	_
+8-6	906-907	,	_	_
+8-7	908-915	welches	_	_
+8-8	916-919	die	_	_
+8-9	920-932	betreffenden	_	_
+8-10	933-938	Hefte	_	_
+8-11	939-944	waren	_	_
+8-12	945-946	.	_	_
+
+#Text=Texier ist gestorben .
+9-1	947-953	Texier	*	PERmentioned
+9-2	954-957	ist	_	_
+9-3	958-967	gestorben	_	_
+9-4	968-969	.	_	_
+
+#Text=Der Clarac ist übergegangen in den Besitz von Mr .
+10-1	970-973	Der	_	_
+10-2	974-980	Clarac	*	PERmentioned
+10-3	981-984	ist	_	_
+10-4	985-997	übergegangen	_	_
+10-5	998-1000	in	_	_
+10-6	1001-1004	den	_	_
+10-7	1005-1011	Besitz	_	_
+10-8	1012-1015	von	_	_
+10-9	1016-1018	Mr	_	_
+10-10	1019-1020	.	_	_
+
+#Text=Le Borgne ( Ministere d ' & tat \; rue de Rivoli ) .
+11-1	1021-1023	Le	*[6]	PERmentioned[6]
+11-2	1024-1030	Borgne	*[6]	PERmentioned[6]
+11-3	1031-1032	(	_	_
+11-4	1033-1042	Ministere	*[7]	ORGmentioned[7]
+11-5	1043-1044	d	*[7]	ORGmentioned[7]
+11-6	1045-1046	'	*[7]	ORGmentioned[7]
+11-7	1047-1048	&	*[7]	ORGmentioned[7]
+11-8	1049-1052	tat	*[7]	ORGmentioned[7]
+11-9	1053-1054	\;	_	_
+11-10	1055-1058	rue	*[8]	PLACEmentioned[8]
+11-11	1059-1061	de	*[8]	PLACEmentioned[8]
+11-12	1062-1068	Rivoli	*[8]	PLACEmentioned[8]
+11-13	1069-1070	)	_	_
+11-14	1071-1072	.	_	_
+
+#Text=Da ich nicht genau weiß , welche Hefte fehlen , kann ich in dieser Angelegenheit nichts thun , es sei
+12-1	1073-1075	Da	_	_
+12-2	1076-1079	ich	_	_
+12-3	1080-1085	nicht	_	_
+12-4	1086-1091	genau	_	_
+12-5	1092-1096	weiß	_	_
+12-6	1097-1098	,	_	_
+12-7	1099-1105	welche	_	_
+12-8	1106-1111	Hefte	_	_
+12-9	1112-1118	fehlen	_	_
+12-10	1119-1120	,	_	_
+12-11	1121-1125	kann	_	_
+12-12	1126-1129	ich	_	_
+12-13	1130-1132	in	_	_
+12-14	1133-1139	dieser	_	_
+12-15	1140-1153	Angelegenheit	_	_
+12-16	1154-1160	nichts	_	_
+12-17	1161-1165	thun	_	_
+12-18	1166-1167	,	_	_
+12-19	1168-1170	es	_	_
+12-20	1171-1174	sei	_	_

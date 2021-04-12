@@ -1,0 +1,300 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=2219 Braun an Gerhard Rom , 17. Februar 1838 Ch.mo Sig .
+1-1	0-4	2219	_	_
+1-2	5-10	Braun	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-25	Rom	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	17.	*[6]	DATEletter[6]
+1-8	32-39	Februar	*[6]	DATEletter[6]
+1-9	40-44	1838	*[6]	DATEletter[6]
+1-10	45-50	Ch.mo	_	_
+1-11	51-54	Sig	_	_
+1-12	55-56	.	_	_
+
+#Text=Cav .
+2-1	57-60	Cav	_	_
+2-2	61-62	.	_	_
+
+#Text=Gerhard Berlino Roma li 17 Febbraio 1838 .
+3-1	63-70	Gerhard	*	PERaddressee
+3-2	71-78	Berlino	*	PLACEto
+3-3	79-83	Roma	*	PLACEfrom
+3-4	84-86	li	_	_
+3-5	87-89	17	*[8]	DATEletter[8]
+3-6	90-98	Febbraio	*[8]	DATEletter[8]
+3-7	99-103	1838	*[8]	DATEletter[8]
+3-8	104-105	.	_	_
+
+#Text=Hochverehrtester Freund !
+4-1	106-122	Hochverehrtester	_	_
+4-2	123-129	Freund	_	_
+4-3	130-131	!	_	_
+
+#Text=Wegen Eröffnung der Briefe brauchen wir keine Bangigkeit zu haben .
+5-1	132-137	Wegen	_	_
+5-2	138-147	Eröffnung	_	_
+5-3	148-151	der	_	_
+5-4	152-158	Briefe	_	_
+5-5	159-167	brauchen	_	_
+5-6	168-171	wir	_	_
+5-7	172-177	keine	_	_
+5-8	178-188	Bangigkeit	_	_
+5-9	189-191	zu	_	_
+5-10	192-197	haben	_	_
+5-11	198-199	.	_	_
+
+#Text=Ich habe keine Spur davon endteckt .
+6-1	200-203	Ich	_	_
+6-2	204-208	habe	_	_
+6-3	209-214	keine	_	_
+6-4	215-219	Spur	_	_
+6-5	220-225	davon	_	_
+6-6	226-234	endteckt	_	_
+6-7	235-236	.	_	_
+
+#Text=Die schlechte Witterung hat Schuld an ankonmender Verspätung .
+7-1	237-240	Die	_	_
+7-2	241-250	schlechte	_	_
+7-3	251-260	Witterung	_	_
+7-4	261-264	hat	_	_
+7-5	265-271	Schuld	_	_
+7-6	272-274	an	_	_
+7-7	275-286	ankonmender	_	_
+7-8	287-297	Verspätung	_	_
+7-9	298-299	.	_	_
+
+#Text=Ich meine Sie hatten mir 4 Nap .
+8-1	300-303	Ich	_	_
+8-2	304-309	meine	_	_
+8-3	310-313	Sie	_	_
+8-4	314-320	hatten	_	_
+8-5	321-324	mir	_	_
+8-6	325-326	4	_	_
+8-7	327-330	Nap	_	_
+8-8	331-332	.	_	_
+
+#Text=d'or gegeben , bin aber deß nicht gewiß .
+9-1	333-337	d'or	_	_
+9-2	338-345	gegeben	_	_
+9-3	346-347	,	_	_
+9-4	348-351	bin	_	_
+9-5	352-356	aber	_	_
+9-6	357-360	deß	_	_
+9-7	361-366	nicht	_	_
+9-8	367-372	gewiß	_	_
+9-9	373-374	.	_	_
+
+#Text=Deshalb frage ich .
+10-1	375-382	Deshalb	_	_
+10-2	383-388	frage	_	_
+10-3	389-392	ich	_	_
+10-4	393-394	.	_	_
+
+#Text=De Antonis ist bis dahin zu gar keiner Rückzahlung zu bringen gewesen , indem ich der nöthigen Documente ermangle .
+11-1	395-397	De	*[9]	PERmentioned[9]
+11-2	398-405	Antonis	*[9]	PERmentioned[9]
+11-3	406-409	ist	_	_
+11-4	410-413	bis	_	_
+11-5	414-419	dahin	_	_
+11-6	420-422	zu	_	_
+11-7	423-426	gar	_	_
+11-8	427-433	keiner	_	_
+11-9	434-445	Rückzahlung	_	_
+11-10	446-448	zu	_	_
+11-11	449-456	bringen	_	_
+11-12	457-464	gewesen	_	_
+11-13	465-466	,	_	_
+11-14	467-472	indem	_	_
+11-15	473-476	ich	_	_
+11-16	477-480	der	_	_
+11-17	481-489	nöthigen	_	_
+11-18	490-499	Documente	_	_
+11-19	500-508	ermangle	_	_
+11-20	509-510	.	_	_
+
+#Text=- Ihre Rechnungen habe ich Ihnen bereits eingesandt .
+12-1	511-512	-	_	_
+12-2	513-517	Ihre	_	_
+12-3	518-528	Rechnungen	_	_
+12-4	529-533	habe	_	_
+12-5	534-537	ich	_	_
+12-6	538-543	Ihnen	_	_
+12-7	544-551	bereits	_	_
+12-8	552-562	eingesandt	_	_
+12-9	563-564	.	_	_
+
+#Text=In Geldangelegenheiten hoffe ich Sie nicht beeinträchtigt zu haben .
+13-1	565-567	In	_	_
+13-2	568-587	Geldangelegenheiten	_	_
+13-3	588-593	hoffe	_	_
+13-4	594-597	ich	_	_
+13-5	598-601	Sie	_	_
+13-6	602-607	nicht	_	_
+13-7	608-622	beeinträchtigt	_	_
+13-8	623-625	zu	_	_
+13-9	626-631	haben	_	_
+13-10	632-633	.	_	_
+
+#Text=Alles Zahlbare ist bezahlt worden .
+14-1	634-639	Alles	_	_
+14-2	640-648	Zahlbare	_	_
+14-3	649-652	ist	_	_
+14-4	653-660	bezahlt	_	_
+14-5	661-667	worden	_	_
+14-6	668-669	.	_	_
+
+#Text=Seit der Zeit habe ich wieder an Apolloni , Depoletti etc. Zahlungen für Sie gemacht .
+15-1	670-674	Seit	_	_
+15-2	675-678	der	_	_
+15-3	679-683	Zeit	_	_
+15-4	684-688	habe	_	_
+15-5	689-692	ich	_	_
+15-6	693-699	wieder	_	_
+15-7	700-702	an	_	_
+15-8	703-711	Apolloni	*	PERmentioned
+15-9	712-713	,	_	_
+15-10	714-723	Depoletti	*	PERmentioned
+15-11	724-728	etc.	_	_
+15-12	729-738	Zahlungen	_	_
+15-13	739-742	für	_	_
+15-14	743-746	Sie	_	_
+15-15	747-754	gemacht	_	_
+15-16	755-756	.	_	_
+
+#Text=Meine Zeit ist gar zu besetzt \; unmnöthig würde ich gewiß nicht klagen .
+16-1	757-762	Meine	_	_
+16-2	763-767	Zeit	_	_
+16-3	768-771	ist	_	_
+16-4	772-775	gar	_	_
+16-5	776-778	zu	_	_
+16-6	779-786	besetzt	_	_
+16-7	787-788	\;	_	_
+16-8	789-798	unmnöthig	_	_
+16-9	799-804	würde	_	_
+16-10	805-808	ich	_	_
+16-11	809-814	gewiß	_	_
+16-12	815-820	nicht	_	_
+16-13	821-827	klagen	_	_
+16-14	828-829	.	_	_
+
+#Text=Ich arbeite den ganzen Tag bis Abends 11 Uhr , meist fürs Institut .
+17-1	830-833	Ich	_	_
+17-2	834-841	arbeite	_	_
+17-3	842-845	den	_	_
+17-4	846-852	ganzen	_	_
+17-5	853-856	Tag	_	_
+17-6	857-860	bis	_	_
+17-7	861-867	Abends	_	_
+17-8	868-870	11	_	_
+17-9	871-874	Uhr	_	_
+17-10	875-876	,	_	_
+17-11	877-882	meist	_	_
+17-12	883-887	fürs	_	_
+17-13	888-896	Institut	*	ORGmentioned
+17-14	897-898	.	_	_
+
+#Text=Allein es fehlt mir an Hülfe .
+18-1	899-905	Allein	_	_
+18-2	906-908	es	_	_
+18-3	909-914	fehlt	_	_
+18-4	915-918	mir	_	_
+18-5	919-921	an	_	_
+18-6	922-927	Hülfe	_	_
+18-7	928-929	.	_	_
+
+#Text=Soviel zur Motivirung meiner Klagen , die übrigens gewöhnlich verhallt sind , wenn bei Ihnen meine Briefe angelangen .
+19-1	930-936	Soviel	_	_
+19-2	937-940	zur	_	_
+19-3	941-951	Motivirung	_	_
+19-4	952-958	meiner	_	_
+19-5	959-965	Klagen	_	_
+19-6	966-967	,	_	_
+19-7	968-971	die	_	_
+19-8	972-980	übrigens	_	_
+19-9	981-991	gewöhnlich	_	_
+19-10	992-1000	verhallt	_	_
+19-11	1001-1005	sind	_	_
+19-12	1006-1007	,	_	_
+19-13	1008-1012	wenn	_	_
+19-14	1013-1016	bei	_	_
+19-15	1017-1022	Ihnen	_	_
+19-16	1023-1028	meine	_	_
+19-17	1029-1035	Briefe	_	_
+19-18	1036-1046	angelangen	_	_
+19-19	1047-1048	.	_	_
+
+#Text=- Daß Sie mir alle Rechnungen von Avellino , Serradifalco übergeben ist nur insofern zuzugest\_ehen , als Sie mir dieselben hinterlassen haben .
+20-1	1049-1050	-	_	_
+20-2	1051-1054	Daß	_	_
+20-3	1055-1058	Sie	_	_
+20-4	1059-1062	mir	_	_
+20-5	1063-1067	alle	_	_
+20-6	1068-1078	Rechnungen	_	_
+20-7	1079-1082	von	_	_
+20-8	1083-1091	Avellino	*	PERmentioned
+20-9	1092-1093	,	_	_
+20-10	1094-1106	Serradifalco	*	PERmentioned
+20-11	1107-1116	übergeben	_	_
+20-12	1117-1120	ist	_	_
+20-13	1121-1124	nur	_	_
+20-14	1125-1133	insofern	_	_
+20-15	1134-1147	zuzugest\_ehen	_	_
+20-16	1148-1149	,	_	_
+20-17	1150-1153	als	_	_
+20-18	1154-1157	Sie	_	_
+20-19	1158-1161	mir	_	_
+20-20	1162-1171	dieselben	_	_
+20-21	1172-1184	hinterlassen	_	_
+20-22	1185-1190	haben	_	_
+20-23	1191-1192	.	_	_
+
+#Text=Es muß dieß vor 4 Jahren gewesen sein , wo Sie übrigens versäumten mir genau das dabei nöthige Verfahren vorzuschreiben .
+21-1	1193-1195	Es	_	_
+21-2	1196-1199	muß	_	_
+21-3	1200-1204	dieß	_	_
+21-4	1205-1208	vor	_	_
+21-5	1209-1210	4	_	_
+21-6	1211-1217	Jahren	_	_
+21-7	1218-1225	gewesen	_	_
+21-8	1226-1230	sein	_	_
+21-9	1231-1232	,	_	_
+21-10	1233-1235	wo	_	_
+21-11	1236-1239	Sie	_	_
+21-12	1240-1248	übrigens	_	_
+21-13	1249-1259	versäumten	_	_
+21-14	1260-1263	mir	_	_
+21-15	1264-1269	genau	_	_
+21-16	1270-1273	das	_	_
+21-17	1274-1279	dabei	_	_
+21-18	1280-1287	nöthige	_	_
+21-19	1288-1297	Verfahren	_	_
+21-20	1298-1312	vorzuschreiben	_	_
+21-21	1313-1314	.	_	_
+
+#Text=Basta !
+22-1	1315-1320	Basta	_	_
+22-2	1321-1322	!	_	_
+
+#Text=Maggiore und Serradifalco haben nie bezahlt und auf Mahnbriefe nicht geantwortet .
+23-1	1323-1331	Maggiore	*	PERmentioned
+23-2	1332-1335	und	_	_
+23-3	1336-1348	Serradifalco	*	PERmentioned
+23-4	1349-1354	haben	_	_
+23-5	1355-1358	nie	_	_
+23-6	1359-1366	bezahlt	_	_
+23-7	1367-1370	und	_	_
+23-8	1371-1374	auf	_	_
+23-9	1375-1385	Mahnbriefe	_	_
+23-10	1386-1391	nicht	_	_
+23-11	1392-1403	geantwortet	_	_
+23-12	1404-1405	.	_	_
+
+#Text=- Sonst ist
+24-1	1406-1407	-	_	_
+24-2	1408-1413	Sonst	_	_
+24-3	1414-1417	ist	_	_

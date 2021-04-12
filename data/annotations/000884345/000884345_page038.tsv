@@ -1,0 +1,117 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an ah cd Frascati ?
+1-1	0-6	Bunsen	*	PERmentioned
+1-2	7-9	an	_	_
+1-3	10-12	ah	_	_
+1-4	13-15	cd	_	_
+1-5	16-24	Frascati	*	PLACEfrom
+1-6	25-26	?	_	_
+
+#Text=9. September 1831 9 Sept 71 Liebster Freund !
+2-1	27-29	9.	*[3]	DATEletter[3]
+2-2	30-39	September	*[3]	DATEletter[3]
+2-3	40-44	1831	*[3]	DATEletter[3]
+2-4	45-46	9	*[4]	DATEletter[4]
+2-5	47-51	Sept	*[4]	DATEletter[4]
+2-6	52-54	71	*[4]	DATEletter[4]
+2-7	55-63	Liebster	_	_
+2-8	64-70	Freund	_	_
+2-9	71-72	!	_	_
+
+#Text=Hier Müllers geistreicher Aufsatz , mit dem von mir eröffneten Briefe .
+3-1	73-77	Hier	_	_
+3-2	78-85	Müllers	*	PERmentioned
+3-3	86-98	geistreicher	_	_
+3-4	99-106	Aufsatz	_	_
+3-5	107-108	,	_	_
+3-6	109-112	mit	_	_
+3-7	113-116	dem	_	_
+3-8	117-120	von	_	_
+3-9	121-124	mir	_	_
+3-10	125-135	eröffneten	_	_
+3-11	136-142	Briefe	_	_
+3-12	143-144	.	_	_
+
+#Text=Er nimmt allerdings mancherlei vorweg , macht aber die Vertheilung Ihres Berichts um so dringender .
+4-1	145-147	Er	_	_
+4-2	148-153	nimmt	_	_
+4-3	154-164	allerdings	_	_
+4-4	165-175	mancherlei	_	_
+4-5	176-182	vorweg	_	_
+4-6	183-184	,	_	_
+4-7	185-190	macht	_	_
+4-8	191-195	aber	_	_
+4-9	196-199	die	_	_
+4-10	200-211	Vertheilung	_	_
+4-11	212-217	Ihres	_	_
+4-12	218-226	Berichts	_	_
+4-13	227-229	um	_	_
+4-14	230-232	so	_	_
+4-15	233-243	dringender	_	_
+4-16	244-245	.	_	_
+
+#Text=Vielleicht müßte man in dem Rest des Jahres wenig mehr von Vasen sagen .
+5-1	246-256	Vielleicht	_	_
+5-2	257-262	müßte	_	_
+5-3	263-266	man	_	_
+5-4	267-269	in	_	_
+5-5	270-273	dem	_	_
+5-6	274-278	Rest	_	_
+5-7	279-282	des	_	_
+5-8	283-289	Jahres	_	_
+5-9	290-295	wenig	_	_
+5-10	296-300	mehr	_	_
+5-11	301-304	von	_	_
+5-12	305-310	Vasen	*	OBJ
+5-13	311-316	sagen	_	_
+5-14	317-318	.	_	_
+
+#Text=Niebuhrs und Borgk- ” Erklärung sollte wohl Heft II eröffnen .
+6-1	319-327	Niebuhrs	*	PERmentioned
+6-2	328-331	und	_	_
+6-3	332-338	Borgk-	*	PERmentioned
+6-4	339-340	”	_	_
+6-5	341-350	Erklärung	_	_
+6-6	351-357	sollte	_	_
+6-7	358-362	wohl	_	_
+6-8	363-367	Heft	_	_
+6-9	368-370	II	_	_
+6-10	371-379	eröffnen	_	_
+6-11	380-381	.	_	_
+
+#Text=- Montag mache ich den Brief fertig ( an Panofka ) .
+7-1	382-383	-	_	_
+7-2	384-390	Montag	*	DATEmentioned
+7-3	391-396	mache	_	_
+7-4	397-400	ich	_	_
+7-5	401-404	den	_	_
+7-6	405-410	Brief	_	_
+7-7	411-417	fertig	_	_
+7-8	418-419	(	_	_
+7-9	420-422	an	_	_
+7-10	423-430	Panofka	*	PERmentioned
+7-11	431-432	)	_	_
+7-12	433-434	.	_	_
+
+#Text=Bis deln steckte ich gar tief in den Liedern .
+8-1	435-438	Bis	_	_
+8-2	439-443	deln	_	_
+8-3	444-451	steckte	_	_
+8-4	452-455	ich	_	_
+8-5	456-459	gar	_	_
+8-6	460-464	tief	_	_
+8-7	465-467	in	_	_
+8-8	468-471	den	_	_
+8-9	472-479	Liedern	_	_
+8-10	480-481	.	_	_
+
+#Text=Herzlich der Ihrige Bn Freitag .
+9-1	482-490	Herzlich	_	_
+9-2	491-494	der	_	_
+9-3	495-501	Ihrige	_	_
+9-4	502-504	Bn	*	PERauthor
+9-5	505-512	Freitag	*	DATEmentioned
+9-6	513-514	.	_	_

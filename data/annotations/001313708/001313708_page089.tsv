@@ -1,0 +1,129 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Rom , 10. Mai 1834 des vom Drachen verschlungenen Jason zu 100 Scudi auszeichnen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-27	10.	_	_
+1-7	28-31	Mai	*[4]	DATEletter[4]
+1-8	32-36	1834	*[4]	DATEletter[4]
+1-9	37-40	des	_	_
+1-10	41-44	vom	_	_
+1-11	45-52	Drachen	*[5]	OBJ[5]
+1-12	53-67	verschlungenen	*[5]	OBJ[5]
+1-13	68-73	Jason	*[5]	OBJ[5]
+1-14	74-76	zu	_	_
+1-15	77-80	100	_	_
+1-16	81-86	Scudi	_	_
+1-17	87-98	auszeichnen	_	_
+1-18	99-100	.	_	_
+
+#Text=Zu erwähnen ist hierbei daß der Reichthum jener Ausgrabungen offenbar im Abnehmen , der Geldwerth ihrer auserlesenen Gegenstände eher im Steigen als im Sinken , die Möglichkeit wahrhaft seltene Stücke zu ermitteln schon jetzt weit geringer ist , als sie es in den ersten Jahren der durch Iucian Bonaparte besonders berühmt gewordenen Entdeckungen war .
+2-1	101-103	Zu	_	_
+2-2	104-112	erwähnen	_	_
+2-3	113-116	ist	_	_
+2-4	117-124	hierbei	_	_
+2-5	125-128	daß	_	_
+2-6	129-132	der	_	_
+2-7	133-142	Reichthum	_	_
+2-8	143-148	jener	_	_
+2-9	149-161	Ausgrabungen	_	_
+2-10	162-170	offenbar	_	_
+2-11	171-173	im	_	_
+2-12	174-182	Abnehmen	_	_
+2-13	183-184	,	_	_
+2-14	185-188	der	_	_
+2-15	189-198	Geldwerth	_	_
+2-16	199-204	ihrer	_	_
+2-17	205-217	auserlesenen	_	_
+2-18	218-229	Gegenstände	_	_
+2-19	230-234	eher	_	_
+2-20	235-237	im	_	_
+2-21	238-245	Steigen	_	_
+2-22	246-249	als	_	_
+2-23	250-252	im	_	_
+2-24	253-259	Sinken	_	_
+2-25	260-261	,	_	_
+2-26	262-265	die	_	_
+2-27	266-277	Möglichkeit	_	_
+2-28	278-286	wahrhaft	_	_
+2-29	287-294	seltene	_	_
+2-30	295-301	Stücke	_	_
+2-31	302-304	zu	_	_
+2-32	305-314	ermitteln	_	_
+2-33	315-320	schon	_	_
+2-34	321-326	jetzt	_	_
+2-35	327-331	weit	_	_
+2-36	332-340	geringer	_	_
+2-37	341-344	ist	_	_
+2-38	345-346	,	_	_
+2-39	347-350	als	_	_
+2-40	351-354	sie	_	_
+2-41	355-357	es	_	_
+2-42	358-360	in	_	_
+2-43	361-364	den	_	_
+2-44	365-371	ersten	_	_
+2-45	372-378	Jahren	_	_
+2-46	379-382	der	_	_
+2-47	383-388	durch	_	_
+2-48	389-395	Iucian	*[6]	PERmentioned[6]
+2-49	396-405	Bonaparte	*[6]	PERmentioned[6]
+2-50	406-415	besonders	_	_
+2-51	416-423	berühmt	_	_
+2-52	424-434	gewordenen	_	_
+2-53	435-447	Entdeckungen	_	_
+2-54	448-451	war	_	_
+2-55	452-453	.	_	_
+
+#Text=Der ich ehrerbietig verkarre Ew .
+3-1	454-457	Der	_	_
+3-2	458-461	ich	_	_
+3-3	462-473	ehrerbietig	_	_
+3-4	474-482	verkarre	_	_
+3-5	483-485	Ew	_	_
+3-6	486-487	.	_	_
+
+#Text=Hochwohlgeboren gehorsamst ergebenster Dr .
+4-1	488-503	Hochwohlgeboren	_	_
+4-2	504-514	gehorsamst	_	_
+4-3	515-526	ergebenster	_	_
+4-4	527-529	Dr	_	_
+4-5	530-531	.	_	_
+
+#Text=Ed .
+5-1	532-534	Ed	_	_
+5-2	535-536	.	_	_
+
+#Text=Gerhard Königlicher Professor un.d Archäolog des Königlichen Museums Rom 10 Mai 1834 Des Königlichen Geheim Legations Rath und Ministerresidenten am Päpstlichen Hofe Herrn Dr , Bunsen Hochwohlgeboren Berlin
+6-1	537-544	Gerhard	*	PERauthor
+6-2	545-556	Königlicher	_	_
+6-3	557-566	Professor	_	_
+6-4	567-571	un.d	_	_
+6-5	572-581	Archäolog	_	_
+6-6	582-585	des	_	_
+6-7	586-597	Königlichen	*[8]	ORGmentioned[8]
+6-8	598-605	Museums	*[8]	ORGmentioned[8]
+6-9	606-609	Rom	*	PLACEfrom
+6-10	610-612	10	*[10]	DATEletter[10]
+6-11	613-616	Mai	*[10]	DATEletter[10]
+6-12	617-621	1834	*[10]	DATEletter[10]
+6-13	622-625	Des	_	_
+6-14	626-637	Königlichen	_	_
+6-15	638-644	Geheim	_	_
+6-16	645-654	Legations	_	_
+6-17	655-659	Rath	_	_
+6-18	660-663	und	_	_
+6-19	664-682	Ministerresidenten	_	_
+6-20	683-685	am	_	_
+6-21	686-697	Päpstlichen	_	_
+6-22	698-702	Hofe	_	_
+6-23	703-708	Herrn	_	_
+6-24	709-711	Dr	*[11]	PERaddressee[11]
+6-25	712-713	,	*[11]	PERaddressee[11]
+6-26	714-720	Bunsen	*[11]	PERaddressee[11]
+6-27	721-736	Hochwohlgeboren	_	_
+6-28	737-743	Berlin	*	PLACEto

@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 28. September 1837 Dr. Braun Berlin 28 Sept 1837 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	28.	*[4]	DATEletter[4]
+1-7	30-39	September	*[4]	DATEletter[4]
+1-8	40-44	1837	*[4]	DATEletter[4]
+1-9	45-48	Dr.	_	_
+1-10	49-54	Braun	*	PERaddressee
+1-11	55-61	Berlin	*	PLACEfrom
+1-12	62-64	28	*[7]	DATEletter[7]
+1-13	65-69	Sept	*[7]	DATEletter[7]
+1-14	70-74	1837	*[7]	DATEletter[7]
+1-15	75-76	.	_	_
+
+#Text=Meinem vorgestrigen Brief lieber Freund folgt gegenwärtiger sofort nach , weil es Ihnen lieb sein wird zu wissen daß Bunsen entschieden ist nach Rom zurückzugehn , etwa zum 8 Oktober .
+2-1	77-83	Meinem	_	_
+2-2	84-96	vorgestrigen	_	_
+2-3	97-102	Brief	_	_
+2-4	103-109	lieber	_	_
+2-5	110-116	Freund	_	_
+2-6	117-122	folgt	_	_
+2-7	123-136	gegenwärtiger	_	_
+2-8	137-143	sofort	_	_
+2-9	144-148	nach	_	_
+2-10	149-150	,	_	_
+2-11	151-155	weil	_	_
+2-12	156-158	es	_	_
+2-13	159-164	Ihnen	_	_
+2-14	165-169	lieb	_	_
+2-15	170-174	sein	_	_
+2-16	175-179	wird	_	_
+2-17	180-182	zu	_	_
+2-18	183-189	wissen	_	_
+2-19	190-193	daß	_	_
+2-20	194-200	Bunsen	*	PERmentioned
+2-21	201-212	entschieden	_	_
+2-22	213-216	ist	_	_
+2-23	217-221	nach	_	_
+2-24	222-225	Rom	*	PLACEmentioned
+2-25	226-238	zurückzugehn	_	_
+2-26	239-240	,	_	_
+2-27	241-245	etwa	_	_
+2-28	246-249	zum	_	_
+2-29	250-251	8	*[10]	DATEmentioned[10]
+2-30	252-259	Oktober	*[10]	DATEmentioned[10]
+2-31	260-261	.	_	_
+
+#Text=Der schwierige Transport seiner Familie mit unentwöhnten Kindern wird als Hauptgrund angeführt \; auch ist es schwer ihm Angemessenes für das Capitol ihm zu bieten .
+3-1	262-265	Der	_	_
+3-2	266-276	schwierige	_	_
+3-3	277-286	Transport	_	_
+3-4	287-293	seiner	_	_
+3-5	294-301	Familie	_	_
+3-6	302-305	mit	_	_
+3-7	306-318	unentwöhnten	_	_
+3-8	319-326	Kindern	_	_
+3-9	327-331	wird	_	_
+3-10	332-335	als	_	_
+3-11	336-346	Hauptgrund	_	_
+3-12	347-356	angeführt	_	_
+3-13	357-358	\;	_	_
+3-14	359-363	auch	_	_
+3-15	364-367	ist	_	_
+3-16	368-370	es	_	_
+3-17	371-377	schwer	_	_
+3-18	378-381	ihm	_	_
+3-19	382-394	Angemessenes	_	_
+3-20	395-398	für	_	_
+3-21	399-402	das	_	_
+3-22	403-410	Capitol	*	PLACEmentioned
+3-23	411-414	ihm	_	_
+3-24	415-417	zu	_	_
+3-25	418-424	bieten	_	_
+3-26	425-426	.	_	_
+
+#Text=Die Museumstelle fällt nun um so sicherer dem H. Olfers anheim .
+4-1	427-430	Die	_	_
+4-2	431-443	Museumstelle	_	_
+4-3	444-449	fällt	_	_
+4-4	450-453	nun	_	_
+4-5	454-456	um	_	_
+4-6	457-459	so	_	_
+4-7	460-468	sicherer	_	_
+4-8	469-472	dem	_	_
+4-9	473-475	H.	*[12]	PERmentioned[12]
+4-10	476-482	Olfers	*[12]	PERmentioned[12]
+4-11	483-489	anheim	_	_
+4-12	490-491	.	_	_
+
+#Text=Usedom ist gesund zurück .
+5-1	492-498	Usedom	*	PERmentioned
+5-2	499-502	ist	_	_
+5-3	503-509	gesund	_	_
+5-4	510-516	zurück	_	_
+5-5	517-518	.	_	_
+
+#Text=Neapel ist also wieder offen !
+6-1	519-525	Neapel	*	PLACEmentioned
+6-2	526-529	ist	_	_
+6-3	530-534	also	_	_
+6-4	535-541	wieder	_	_
+6-5	542-547	offen	_	_
+6-6	548-549	!	_	_
+
+#Text=Sie hätten am Ende nicht viel mehr Zeit nöthig noch dahin zu gehn , falls ihnen an Bologna und Florenz nicht sehr viel liegt , und wer weiß ob Sie im Frühling fortkommen .
+7-1	550-553	Sie	_	_
+7-2	554-560	hätten	_	_
+7-3	561-563	am	_	_
+7-4	564-568	Ende	_	_
+7-5	569-574	nicht	_	_
+7-6	575-579	viel	_	_
+7-7	580-584	mehr	_	_
+7-8	585-589	Zeit	_	_
+7-9	590-596	nöthig	_	_
+7-10	597-601	noch	_	_
+7-11	602-607	dahin	_	_
+7-12	608-610	zu	_	_
+7-13	611-615	gehn	_	_
+7-14	616-617	,	_	_
+7-15	618-623	falls	_	_
+7-16	624-629	ihnen	_	_
+7-17	630-632	an	_	_
+7-18	633-640	Bologna	*	PLACEmentioned
+7-19	641-644	und	_	_
+7-20	645-652	Florenz	*	PLACEmentioned
+7-21	653-658	nicht	_	_
+7-22	659-663	sehr	_	_
+7-23	664-668	viel	_	_
+7-24	669-674	liegt	_	_
+7-25	675-676	,	_	_
+7-26	677-680	und	_	_
+7-27	681-684	wer	_	_
+7-28	685-689	weiß	_	_
+7-29	690-692	ob	_	_
+7-30	693-696	Sie	_	_
+7-31	697-699	im	_	_
+7-32	700-708	Frühling	_	_
+7-33	709-719	fortkommen	_	_
+7-34	720-721	.	_	_
+
+#Text=Gehen Sie nach Bologna , so bitte ich außer den Wappensiegeln auch des säugenden Herkules-Spiegels zu gedenken , dessen schöne Zeichnung einen genauen Calco verdient .
+8-1	722-727	Gehen	_	_
+8-2	728-731	Sie	_	_
+8-3	732-736	nach	_	_
+8-4	737-744	Bologna	*	PLACEmentioned
+8-5	745-746	,	_	_
+8-6	747-749	so	_	_
+8-7	750-755	bitte	_	_
+8-8	756-759	ich	_	_
+8-9	760-765	außer	_	_
+8-10	766-769	den	_	_
+8-11	770-783	Wappensiegeln	_	_
+8-12	784-788	auch	_	_
+8-13	789-792	des	_	_
+8-14	793-802	säugenden	_	_
+8-15	803-820	Herkules-Spiegels	*	OBJ
+8-16	821-823	zu	_	_
+8-17	824-832	gedenken	_	_
+8-18	833-834	,	_	_
+8-19	835-841	dessen	_	_
+8-20	842-848	schöne	_	_
+8-21	849-858	Zeichnung	_	_
+8-22	859-864	einen	_	_
+8-23	865-872	genauen	_	_
+8-24	873-878	Calco	_	_
+8-25	879-887	verdient	_	_
+8-26	888-889	.	_	_
+
+#Text=Ich erwähnte Ihnen DelAntonis Berechnung für die 4 Kisten nach Livorno \; auch die der 3 hieher gesandten ist hoch , obwohl minder übermäßig .
+9-1	890-893	Ich	_	_
+9-2	894-902	erwähnte	_	_
+9-3	903-908	Ihnen	_	_
+9-4	909-919	DelAntonis	*	PERmentioned
+9-5	920-930	Berechnung	_	_
+9-6	931-934	für	_	_
+9-7	935-938	die	_	_
+9-8	939-940	4	_	_
+9-9	941-947	Kisten	_	_
+9-10	948-952	nach	_	_
+9-11	953-960	Livorno	*	PLACEmentioned
+9-12	961-962	\;	_	_
+9-13	963-967	auch	_	_
+9-14	968-971	die	_	_
+9-15	972-975	der	_	_
+9-16	976-977	3	_	_
+9-17	978-984	hieher	_	_
+9-18	985-994	gesandten	_	_
+9-19	995-998	ist	_	_
+9-20	999-1003	hoch	_	_
+9-21	1004-1005	,	_	_
+9-22	1006-1012	obwohl	_	_
+9-23	1013-1019	minder	_	_
+9-24	1020-1029	übermäßig	_	_
+9-25	1030-1031	.	_	_
+
+#Text=Aber das Gewicht ist für die 3 Kisten zu 1370 Pfund ( peso lordo ) angegeben und dafür Colonnati Cento gefordert worden , welche der Spediteur zu Ponti ( Ferrara ) De Samovich in
+10-1	1032-1036	Aber	_	_
+10-2	1037-1040	das	_	_
+10-3	1041-1048	Gewicht	_	_
+10-4	1049-1052	ist	_	_
+10-5	1053-1056	für	_	_
+10-6	1057-1060	die	_	_
+10-7	1061-1062	3	_	_
+10-8	1063-1069	Kisten	_	_
+10-9	1070-1072	zu	_	_
+10-10	1073-1077	1370	_	_
+10-11	1078-1083	Pfund	_	_
+10-12	1084-1085	(	_	_
+10-13	1086-1090	peso	_	_
+10-14	1091-1096	lordo	_	_
+10-15	1097-1098	)	_	_
+10-16	1099-1108	angegeben	_	_
+10-17	1109-1112	und	_	_
+10-18	1113-1118	dafür	_	_
+10-19	1119-1128	Colonnati	_	_
+10-20	1129-1134	Cento	_	_
+10-21	1135-1144	gefordert	_	_
+10-22	1145-1151	worden	_	_
+10-23	1152-1153	,	_	_
+10-24	1154-1160	welche	_	_
+10-25	1161-1164	der	_	_
+10-26	1165-1174	Spediteur	_	_
+10-27	1175-1177	zu	_	_
+10-28	1178-1183	Ponti	*	PERmentioned
+10-29	1184-1185	(	_	_
+10-30	1186-1193	Ferrara	*	PLACEmentioned
+10-31	1194-1195	)	_	_
+10-32	1196-1198	De	*[23]	PERmentioned[23]
+10-33	1199-1207	Samovich	*[23]	PERmentioned[23]
+10-34	1208-1210	in	_	_

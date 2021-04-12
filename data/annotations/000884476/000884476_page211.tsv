@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=- Dr. Braun Gerhard an Braun Berlin 25/VI/1835 Berlin 25/6 35 Nein tus Vereh .
+1-1	0-1	-	_	_
+1-2	2-5	Dr.	*[1]	PERaddressee[1]
+1-3	6-11	Braun	*[1]	PERaddressee[1]
+1-4	12-19	Gerhard	*	PERauthor
+1-5	20-22	an	_	_
+1-6	23-28	Braun	*	PERaddressee
+1-7	29-35	Berlin	*	PLACEfrom
+1-8	36-46	25/VI/1835	*	DATEletter
+1-9	47-53	Berlin	*	PLACEfrom
+1-10	54-58	25/6	*[7]	DATEletter[7]
+1-11	59-61	35	*[7]	DATEletter[7]
+1-12	62-66	Nein	_	_
+1-13	67-70	tus	_	_
+1-14	71-76	Vereh	_	_
+1-15	77-78	.	_	_
+
+#Text=Fr .
+2-1	79-81	Fr	_	_
+2-2	82-83	.	_	_
+
+#Text=Das Gedränge der Abreise und die Ambıne ernster Stimmung die sich dazu diesmal in une ichen Massen häufen , sind durch häuslichen Greuel fast übertäubt , die mir unsre alte wohlbekannte Vermietherin macht .
+3-1	84-87	Das	_	_
+3-2	88-96	Gedränge	_	_
+3-3	97-100	der	_	_
+3-4	101-108	Abreise	_	_
+3-5	109-112	und	_	_
+3-6	113-116	die	_	_
+3-7	117-123	Ambıne	_	_
+3-8	124-131	ernster	_	_
+3-9	132-140	Stimmung	_	_
+3-10	141-144	die	_	_
+3-11	145-149	sich	_	_
+3-12	150-154	dazu	_	_
+3-13	155-162	diesmal	_	_
+3-14	163-165	in	_	_
+3-15	166-169	une	_	_
+3-16	170-175	ichen	_	_
+3-17	176-182	Massen	_	_
+3-18	183-189	häufen	_	_
+3-19	190-191	,	_	_
+3-20	192-196	sind	_	_
+3-21	197-202	durch	_	_
+3-22	203-213	häuslichen	_	_
+3-23	214-220	Greuel	_	_
+3-24	221-225	fast	_	_
+3-25	226-235	übertäubt	_	_
+3-26	236-237	,	_	_
+3-27	238-241	die	_	_
+3-28	242-245	mir	_	_
+3-29	246-251	unsre	_	_
+3-30	252-256	alte	_	_
+3-31	257-269	wohlbekannte	_	_
+3-32	270-282	Vermietherin	_	_
+3-33	283-288	macht	_	_
+3-34	289-290	.	_	_
+
+#Text=Kann mein Besitzstand hinlänglich vor ihr ge werden , so reise ich morgen ab , und erhalte Ihre ferneren Briefe erst wieder in Bonn zum Anfang des August .
+4-1	291-295	Kann	_	_
+4-2	296-300	mein	_	_
+4-3	301-312	Besitzstand	_	_
+4-4	313-324	hinlänglich	_	_
+4-5	325-328	vor	_	_
+4-6	329-332	ihr	_	_
+4-7	333-335	ge	_	_
+4-8	336-342	werden	_	_
+4-9	343-344	,	_	_
+4-10	345-347	so	_	_
+4-11	348-353	reise	_	_
+4-12	354-357	ich	_	_
+4-13	358-364	morgen	_	_
+4-14	365-367	ab	_	_
+4-15	368-369	,	_	_
+4-16	370-373	und	_	_
+4-17	374-381	erhalte	_	_
+4-18	382-386	Ihre	_	_
+4-19	387-395	ferneren	_	_
+4-20	396-402	Briefe	_	_
+4-21	403-407	erst	_	_
+4-22	408-414	wieder	_	_
+4-23	415-417	in	_	_
+4-24	418-422	Bonn	*	PLACEmentioned
+4-25	423-426	zum	_	_
+4-26	427-433	Anfang	_	_
+4-27	434-437	des	_	_
+4-28	438-444	August	*	DATEmentioned
+4-29	445-446	.	_	_
+
+#Text=Bis etwa zum 10 August .
+5-1	447-450	Bis	_	_
+5-2	451-455	etwa	_	_
+5-3	456-459	zum	_	_
+5-4	460-462	10	*[10]	DATEmentioned[10]
+5-5	463-469	August	*[10]	DATEmentioned[10]
+5-6	470-471	.	_	_
+
+#Text=ar & a ben ist noch nicht hier angekommen , obwohl das für ihn bestimmte 7 .
+6-1	472-474	ar	_	_
+6-2	475-476	&	_	_
+6-3	477-478	a	_	_
+6-4	479-482	ben	_	_
+6-5	483-486	ist	_	_
+6-6	487-491	noch	_	_
+6-7	492-497	nicht	_	_
+6-8	498-502	hier	_	_
+6-9	503-513	angekommen	_	_
+6-10	514-515	,	_	_
+6-11	516-522	obwohl	_	_
+6-12	523-526	das	_	_
+6-13	527-530	für	_	_
+6-14	531-534	ihn	_	_
+6-15	535-544	bestimmte	_	_
+6-16	545-546	7	_	_
+6-17	547-548	.	_	_
+
+#Text=Das Annaliheft ist in 8 Tagen fertig \; dann reist Panofka nach Year , Seine Addresse für schleunige Dinge ist Gerstäcker wie es die meinige bleibt für aufschiebbare Dinge .
+7-1	549-552	Das	_	_
+7-2	553-563	Annaliheft	_	_
+7-3	564-567	ist	_	_
+7-4	568-570	in	_	_
+7-5	571-572	8	_	_
+7-6	573-578	Tagen	_	_
+7-7	579-585	fertig	_	_
+7-8	586-587	\;	_	_
+7-9	588-592	dann	_	_
+7-10	593-598	reist	_	_
+7-11	599-606	Panofka	*	PERmentioned
+7-12	607-611	nach	_	_
+7-13	612-616	Year	_	_
+7-14	617-618	,	_	_
+7-15	619-624	Seine	_	_
+7-16	625-633	Addresse	_	_
+7-17	634-637	für	_	_
+7-18	638-648	schleunige	_	_
+7-19	649-654	Dinge	_	_
+7-20	655-658	ist	_	_
+7-21	659-669	Gerstäcker	*	PERmentioned
+7-22	670-673	wie	_	_
+7-23	674-676	es	_	_
+7-24	677-680	die	_	_
+7-25	681-688	meinige	_	_
+7-26	689-695	bleibt	_	_
+7-27	696-699	für	_	_
+7-28	700-713	aufschiebbare	_	_
+7-29	714-719	Dinge	_	_
+7-30	720-721	.	_	_
+
+#Text=Die Kistensendung nach Rom geht in etwa 14 Tagen .
+8-1	722-725	Die	_	_
+8-2	726-739	Kistensendung	_	_
+8-3	740-744	nach	_	_
+8-4	745-748	Rom	*	PLACEmentioned
+8-5	749-753	geht	_	_
+8-6	754-756	in	_	_
+8-7	757-761	etwa	_	_
+8-8	762-764	14	_	_
+8-9	765-770	Tagen	_	_
+8-10	771-772	.	_	_
+
+#Text=Wenn Sie Toelkers Arbeit ernstlich machen wollen , etwa für die Hallische LZ so wäre es ganz nützlich , er ist sehr üppig darüber , Lenzens Kataloge eignen sich zu kurzer Anzeige , Toelker für das Bull .
+9-1	773-777	Wenn	_	_
+9-2	778-781	Sie	_	_
+9-3	782-790	Toelkers	*	PERmentioned
+9-4	791-797	Arbeit	_	_
+9-5	798-807	ernstlich	_	_
+9-6	808-814	machen	_	_
+9-7	815-821	wollen	_	_
+9-8	822-823	,	_	_
+9-9	824-828	etwa	_	_
+9-10	829-832	für	_	_
+9-11	833-836	die	_	_
+9-12	837-846	Hallische	_	_
+9-13	847-849	LZ	_	_
+9-14	850-852	so	_	_
+9-15	853-857	wäre	_	_
+9-16	858-860	es	_	_
+9-17	861-865	ganz	_	_
+9-18	866-874	nützlich	_	_
+9-19	875-876	,	_	_
+9-20	877-879	er	_	_
+9-21	880-883	ist	_	_
+9-22	884-888	sehr	_	_
+9-23	889-894	üppig	_	_
+9-24	895-902	darüber	_	_
+9-25	903-904	,	_	_
+9-26	905-912	Lenzens	*	PERmentioned
+9-27	913-921	Kataloge	_	_
+9-28	922-928	eignen	_	_
+9-29	929-933	sich	_	_
+9-30	934-936	zu	_	_
+9-31	937-943	kurzer	_	_
+9-32	944-951	Anzeige	_	_
+9-33	952-953	,	_	_
+9-34	954-961	Toelker	_	_
+9-35	962-965	für	_	_
+9-36	966-969	das	_	_
+9-37	970-974	Bull	_	_
+9-38	975-976	.	_	_
+
+#Text=auch zu kurzer obwohl die Unbrauchbarkeit des Katalogs ohne Kamen .
+10-1	977-981	auch	_	_
+10-2	982-984	zu	_	_
+10-3	985-991	kurzer	_	_
+10-4	992-998	obwohl	_	_
+10-5	999-1002	die	_	_
+10-6	1003-1018	Unbrauchbarkeit	_	_
+10-7	1019-1022	des	_	_
+10-8	1023-1031	Katalogs	_	_
+10-9	1032-1036	ohne	_	_
+10-10	1037-1042	Kamen	_	_
+10-11	1043-1044	.	_	_
+
+#Text=und ohne die Stomd .
+11-1	1045-1048	und	_	_
+11-2	1049-1053	ohne	_	_
+11-3	1054-1057	die	_	_
+11-4	1058-1063	Stomd	_	_
+11-5	1064-1065	.	_	_
+
+#Text=: schen Ziffern ihm nicht erlassen werden kann .
+12-1	1066-1067	:	_	_
+12-2	1068-1073	schen	_	_
+12-3	1074-1081	Ziffern	_	_
+12-4	1082-1085	ihm	_	_
+12-5	1086-1091	nicht	_	_
+12-6	1092-1100	erlassen	_	_
+12-7	1101-1107	werden	_	_
+12-8	1108-1112	kann	_	_
+12-9	1113-1114	.	_	_
+
+#Text=- Grüßen Sie Millingen vielmals und machen Sie ihn
+13-1	1115-1116	-	_	_
+13-2	1117-1123	Grüßen	_	_
+13-3	1124-1127	Sie	_	_
+13-4	1128-1137	Millingen	*	PERmentioned
+13-5	1138-1146	vielmals	_	_
+13-6	1147-1150	und	_	_
+13-7	1151-1157	machen	_	_
+13-8	1158-1161	Sie	_	_
+13-9	1162-1165	ihn	_	_

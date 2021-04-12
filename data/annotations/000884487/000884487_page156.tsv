@@ -1,0 +1,102 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Rom , 10. März 1837 SS .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	10.	*[6]	DATEletter[6]
+1-7	27-31	März	*[6]	DATEletter[6]
+1-8	32-36	1837	*[6]	DATEletter[6]
+1-9	37-39	SS	_	_
+1-10	40-41	.	_	_
+
+#Text=Braun und Lepsius con fogli 12 Roma , 10/2 37 Io s ato prof. Gerhard avendo inviato quest !
+2-1	42-47	Braun	*	PERaddressee
+2-2	48-51	und	_	_
+2-3	52-59	Lepsius	*	PERaddressee
+2-4	60-63	con	_	_
+2-5	64-69	fogli	_	_
+2-6	70-72	12	_	_
+2-7	73-77	Roma	*	PLACEfrom
+2-8	78-79	,	_	_
+2-9	80-84	10/2	*[8]	DATEletter[8]
+2-10	85-87	37	*[8]	DATEletter[8]
+2-11	88-90	Io	_	_
+2-12	91-92	s	_	_
+2-13	93-96	ato	_	_
+2-14	97-102	prof.	_	_
+2-15	103-110	Gerhard	*	PERauthor
+2-16	111-117	avendo	_	_
+2-17	118-125	inviato	_	_
+2-18	126-131	quest	_	_
+2-19	132-133	!	_	_
+
+#Text=oggi istesso al Sig .
+3-1	134-138	oggi	_	_
+3-2	139-146	istesso	_	_
+3-3	147-149	al	_	_
+3-4	150-153	Sig	_	_
+3-5	154-155	.	_	_
+
+#Text=cav .
+4-1	156-159	cav	_	_
+4-2	160-161	.	_	_
+
+#Text=Bunsen Disegni 9 di vasi ineaiti ( cioe 4 di Napoli e 5 de !
+5-1	162-168	Bunsen	*	PERmentioned
+5-2	169-176	Disegni	_	_
+5-3	177-178	9	_	_
+5-4	179-181	di	_	_
+5-5	182-186	vasi	*[11]	OBJ[11]
+5-6	187-194	ineaiti	*[11]	OBJ[11]
+5-7	195-196	(	_	_
+5-8	197-201	cioe	_	_
+5-9	202-203	4	_	_
+5-10	204-206	di	_	_
+5-11	207-213	Napoli	*	PLACEmentioned
+5-12	214-215	e	_	_
+5-13	216-217	5	_	_
+5-14	218-220	de	_	_
+5-15	221-222	!	_	_
+
+#Text=vaso giä Candelori ) offre inoltre alll ! lInstituto qui appresso Disegni 4 di vasi volcenti Litografie 2 di sarcofaghi d'Ifigenia , publicati da Millei .
+6-1	223-227	vaso	_	_
+6-2	228-231	giä	_	_
+6-3	232-241	Candelori	*	PERmentioned
+6-4	242-243	)	_	_
+6-5	244-249	offre	_	_
+6-6	250-257	inoltre	_	_
+6-7	258-262	alll	_	_
+6-8	263-264	!	_	_
+6-9	265-275	lInstituto	_	_
+6-10	276-279	qui	_	_
+6-11	280-288	appresso	_	_
+6-12	289-296	Disegni	_	_
+6-13	297-298	4	_	_
+6-14	299-301	di	_	_
+6-15	302-306	vasi	_	_
+6-16	307-315	volcenti	_	_
+6-17	316-326	Litografie	_	_
+6-18	327-328	2	_	_
+6-19	329-331	di	_	_
+6-20	332-342	sarcofaghi	*[14]	OBJ[14]
+6-21	343-353	d'Ifigenia	*[14]	OBJ[14]
+6-22	354-355	,	_	_
+6-23	356-365	publicati	_	_
+6-24	366-368	da	_	_
+6-25	369-375	Millei	*	PERmentioned
+6-26	376-377	.	_	_
+
+#Text=Fogli 6 dell'opera Sua tuttora inedita Griechische Mysterienbilder
+7-1	378-383	Fogli	_	_
+7-2	384-385	6	_	_
+7-3	386-396	dell'opera	_	_
+7-4	397-400	Sua	_	_
+7-5	401-408	tuttora	_	_
+7-6	409-416	inedita	_	_
+7-7	417-428	Griechische	_	_
+7-8	429-444	Mysterienbilder	_	_

@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=209 Braun an Gerhard Prof , Gerhard Rom , 19 .
+1-1	0-3	209	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-25	Prof	*[1]	PERaddressee[1]
+1-6	26-27	,	*[1]	PERaddressee[1]
+1-7	28-35	Gerhard	*[1]	PERaddressee[1]
+1-8	36-39	Rom	*	PLACEfrom
+1-9	40-41	,	_	_
+1-10	42-44	19	*[2]	DATEletter[2]
+1-11	45-46	.	*[2]	DATEletter[2]
+
+#Text=Januar 1835 Roma li 19 Gennaro 1835 Es ist eine sehr üble Einrichtung , dass man Sonnabends nicht Briefe absenden darf .
+2-1	47-53	Januar	*[2]	DATEletter[2]
+2-2	54-58	1835	*[2]	DATEletter[2]
+2-3	59-63	Roma	*	PLACEfrom
+2-4	64-66	li	_	_
+2-5	67-69	19	*[3]	DATEletter[3]
+2-6	70-77	Gennaro	*[3]	DATEletter[3]
+2-7	78-82	1835	*[3]	DATEletter[3]
+2-8	83-85	Es	_	_
+2-9	86-89	ist	_	_
+2-10	90-94	eine	_	_
+2-11	95-99	sehr	_	_
+2-12	100-104	üble	_	_
+2-13	105-116	Einrichtung	_	_
+2-14	117-118	,	_	_
+2-15	119-123	dass	_	_
+2-16	124-127	man	_	_
+2-17	128-138	Sonnabends	_	_
+2-18	139-144	nicht	_	_
+2-19	145-151	Briefe	_	_
+2-20	152-160	absenden	_	_
+2-21	161-165	darf	_	_
+2-22	166-167	.	_	_
+
+#Text=Die ersten Tage der Woche sind wegen der Vorlesungen gar zu troublös \; So weit war ich vorigen Montag gekommen .
+3-1	168-171	Die	_	_
+3-2	172-178	ersten	_	_
+3-3	179-183	Tage	_	_
+3-4	184-187	der	_	_
+3-5	188-193	Woche	_	_
+3-6	194-198	sind	_	_
+3-7	199-204	wegen	_	_
+3-8	205-208	der	_	_
+3-9	209-220	Vorlesungen	_	_
+3-10	221-224	gar	_	_
+3-11	225-227	zu	_	_
+3-12	228-236	troublös	_	_
+3-13	237-238	\;	_	_
+3-14	239-241	So	_	_
+3-15	242-246	weit	_	_
+3-16	247-250	war	_	_
+3-17	251-254	ich	_	_
+3-18	255-262	vorigen	_	_
+3-19	263-269	Montag	_	_
+3-20	270-278	gekommen	_	_
+3-21	279-280	.	_	_
+
+#Text=Erst heute 22 , Jan .
+4-1	281-285	Erst	_	_
+4-2	286-291	heute	_	_
+4-3	292-294	22	*[4]	DATEmentioned[4]
+4-4	295-296	,	*[4]	DATEmentioned[4]
+4-5	297-300	Jan	*[4]	DATEmentioned[4]
+4-6	301-302	.	_	_
+
+#Text=gelingt es mir fortzufahren , Die Druckfehler im Bullettino betreffend , so ist bei Walckeraer De Wittes Setzer verglichen worden .
+5-1	303-310	gelingt	_	_
+5-2	311-313	es	_	_
+5-3	314-317	mir	_	_
+5-4	318-330	fortzufahren	_	_
+5-5	331-332	,	_	_
+5-6	333-336	Die	_	_
+5-7	337-348	Druckfehler	_	_
+5-8	349-351	im	_	_
+5-9	352-362	Bullettino	_	_
+5-10	363-373	betreffend	_	_
+5-11	374-375	,	_	_
+5-12	376-378	so	_	_
+5-13	379-382	ist	_	_
+5-14	383-386	bei	_	_
+5-15	387-397	Walckeraer	*	PERmentioned
+5-16	398-400	De	*[5]	PERmentioned[5]
+5-17	401-407	Wittes	*[5]	PERmentioned[5]
+5-18	408-414	Setzer	*	PERmentioned
+5-19	415-425	verglichen	_	_
+5-20	426-432	worden	_	_
+5-21	433-434	.	_	_
+
+#Text=Im Allgemeinen aber müssen Sie gar vieles aus den Umständen erklären , welche mich noch nicht alles beherrschen lassen .
+6-1	435-437	Im	_	_
+6-2	438-449	Allgemeinen	_	_
+6-3	450-454	aber	_	_
+6-4	455-461	müssen	_	_
+6-5	462-465	Sie	_	_
+6-6	466-469	gar	_	_
+6-7	470-476	vieles	_	_
+6-8	477-480	aus	_	_
+6-9	481-484	den	_	_
+6-10	485-494	Umständen	_	_
+6-11	495-503	erklären	_	_
+6-12	504-505	,	_	_
+6-13	506-512	welche	_	_
+6-14	513-517	mich	_	_
+6-15	518-522	noch	_	_
+6-16	523-528	nicht	_	_
+6-17	529-534	alles	_	_
+6-18	535-546	beherrschen	_	_
+6-19	547-553	lassen	_	_
+6-20	554-555	.	_	_
+
+#Text=Ich habe indeß gute Hoffnung nach und nach den Massen Herr zu werden und die Details zeitig zu bedenken .
+7-1	556-559	Ich	_	_
+7-2	560-564	habe	_	_
+7-3	565-570	indeß	_	_
+7-4	571-575	gute	_	_
+7-5	576-584	Hoffnung	_	_
+7-6	585-589	nach	_	_
+7-7	590-593	und	_	_
+7-8	594-598	nach	_	_
+7-9	599-602	den	_	_
+7-10	603-609	Massen	_	_
+7-11	610-614	Herr	_	_
+7-12	615-617	zu	_	_
+7-13	618-624	werden	_	_
+7-14	625-628	und	_	_
+7-15	629-632	die	_	_
+7-16	633-640	Details	_	_
+7-17	641-647	zeitig	_	_
+7-18	648-650	zu	_	_
+7-19	651-659	bedenken	_	_
+7-20	660-661	.	_	_
+
+#Text=Mit Cades bin ich nun allerdings in Oydnung .
+8-1	662-665	Mit	_	_
+8-2	666-671	Cades	*	PERmentioned
+8-3	672-675	bin	_	_
+8-4	676-679	ich	_	_
+8-5	680-683	nun	_	_
+8-6	684-694	allerdings	_	_
+8-7	695-697	in	_	_
+8-8	698-705	Oydnung	_	_
+8-9	706-707	.	_	_
+
+#Text=Aber allerdings ist die von Ihnen eingesandte Summe fast ganz darauf gegangen .
+9-1	708-712	Aber	_	_
+9-2	713-723	allerdings	_	_
+9-3	724-727	ist	_	_
+9-4	728-731	die	_	_
+9-5	732-735	von	_	_
+9-6	736-741	Ihnen	_	_
+9-7	742-753	eingesandte	_	_
+9-8	754-759	Summe	_	_
+9-9	760-764	fast	_	_
+9-10	765-769	ganz	_	_
+9-11	770-776	darauf	_	_
+9-12	777-785	gegangen	_	_
+9-13	786-787	.	_	_
+
+#Text=Kestner hat noch nicht gezahlt \; von dem Principe di Canind ließ sich wegen Mangel neuer Pubblicationen nichts einnehmen .
+10-1	788-795	Kestner	*	PERmentioned
+10-2	796-799	hat	_	_
+10-3	800-804	noch	_	_
+10-4	805-810	nicht	_	_
+10-5	811-818	gezahlt	_	_
+10-6	819-820	\;	_	_
+10-7	821-824	von	_	_
+10-8	825-828	dem	_	_
+10-9	829-837	Principe	*[6]	PERmentioned[6]
+10-10	838-840	di	*[6]	PERmentioned[6]
+10-11	841-847	Canind	*[6]	PERmentioned[6]
+10-12	848-852	ließ	_	_
+10-13	853-857	sich	_	_
+10-14	858-863	wegen	_	_
+10-15	864-870	Mangel	_	_
+10-16	871-876	neuer	_	_
+10-17	877-891	Pubblicationen	_	_
+10-18	892-898	nichts	_	_
+10-19	899-908	einnehmen	_	_
+10-20	909-910	.	_	_
+
+#Text=Die Maestä Neelandese zahlt erst , wenn das erste Quinquenium durch das letzte Heft vervollständigt ist .
+11-1	911-914	Die	_	_
+11-2	915-921	Maestä	*[7]	PERmentioned[7]
+11-3	922-932	Neelandese	*[7]	PERmentioned[7]
+11-4	933-938	zahlt	_	_
+11-5	939-943	erst	_	_
+11-6	944-945	,	_	_
+11-7	946-950	wenn	_	_
+11-8	951-954	das	_	_
+11-9	955-960	erste	_	_
+11-10	961-972	Quinquenium	_	_
+11-11	973-978	durch	_	_
+11-12	979-982	das	_	_
+11-13	983-989	letzte	_	_
+11-14	990-994	Heft	_	_
+11-15	995-1010	vervollständigt	_	_
+11-16	1011-1014	ist	_	_
+11-17	1015-1016	.	_	_
+
+#Text=Viele Associati wollen ihre Exemplare nicht eher in Empfang nehmen , bis alles vollständig ist .
+12-1	1017-1022	Viele	_	_
+12-2	1023-1032	Associati	_	_
+12-3	1033-1039	wollen	_	_
+12-4	1040-1044	ihre	_	_
+12-5	1045-1054	Exemplare	_	_
+12-6	1055-1060	nicht	_	_
+12-7	1061-1065	eher	_	_
+12-8	1066-1068	in	_	_
+12-9	1069-1076	Empfang	_	_
+12-10	1077-1083	nehmen	_	_
+12-11	1084-1085	,	_	_
+12-12	1086-1089	bis	_	_
+12-13	1090-1095	alles	_	_
+12-14	1096-1107	vollständig	_	_
+12-15	1108-1111	ist	_	_
+12-16	1112-1113	.	_	_
+
+#Text=Es hat wegen des 3ten Heftes viel zu viele Aequivoci gegeben \; Liedekerk hat z . B. sein Exemplar schon binden lassen .
+13-1	1114-1116	Es	_	_
+13-2	1117-1120	hat	_	_
+13-3	1121-1126	wegen	_	_
+13-4	1127-1130	des	_	_
+13-5	1131-1135	3ten	_	_
+13-6	1136-1142	Heftes	_	_
+13-7	1143-1147	viel	_	_
+13-8	1148-1150	zu	_	_
+13-9	1151-1156	viele	_	_
+13-10	1157-1166	Aequivoci	_	_
+13-11	1167-1174	gegeben	_	_
+13-12	1175-1176	\;	_	_
+13-13	1177-1186	Liedekerk	_	_
+13-14	1187-1190	hat	_	_
+13-15	1191-1192	z	_	_
+13-16	1193-1194	.	_	_
+13-17	1195-1197	B.	_	_
+13-18	1198-1202	sein	_	_
+13-19	1203-1211	Exemplar	_	_
+13-20	1212-1217	schon	_	_
+13-21	1218-1224	binden	_	_
+13-22	1225-1231	lassen	_	_
+13-23	1232-1233	.	_	_
+
+#Text=Kurz , raschen Druckes würde ich mich immer sehr beflei- Bigen \; ich will es mit dem Bullettino auch thuen , In diesem Augenblick tritt nur noch alles hemmend im Weg ,
+14-1	1234-1238	Kurz	_	_
+14-2	1239-1240	,	_	_
+14-3	1241-1248	raschen	_	_
+14-4	1249-1256	Druckes	_	_
+14-5	1257-1262	würde	_	_
+14-6	1263-1266	ich	_	_
+14-7	1267-1271	mich	_	_
+14-8	1272-1277	immer	_	_
+14-9	1278-1282	sehr	_	_
+14-10	1283-1290	beflei-	_	_
+14-11	1291-1296	Bigen	_	_
+14-12	1297-1298	\;	_	_
+14-13	1299-1302	ich	_	_
+14-14	1303-1307	will	_	_
+14-15	1308-1310	es	_	_
+14-16	1311-1314	mit	_	_
+14-17	1315-1318	dem	_	_
+14-18	1319-1329	Bullettino	_	_
+14-19	1330-1334	auch	_	_
+14-20	1335-1340	thuen	_	_
+14-21	1341-1342	,	_	_
+14-22	1343-1345	In	_	_
+14-23	1346-1352	diesem	_	_
+14-24	1353-1363	Augenblick	_	_
+14-25	1364-1369	tritt	_	_
+14-26	1370-1373	nur	_	_
+14-27	1374-1378	noch	_	_
+14-28	1379-1384	alles	_	_
+14-29	1385-1392	hemmend	_	_
+14-30	1393-1395	im	_	_
+14-31	1396-1399	Weg	_	_
+14-32	1400-1401	,	_	_

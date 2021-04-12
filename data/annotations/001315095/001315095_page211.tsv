@@ -1,0 +1,303 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , Mai 1893 - 3 - von Brunn , Professor Dr. , Geheimrath , München .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	Mai	*[1]	DATEletter[1]
+1-7	30-34	1893	*[1]	DATEletter[1]
+1-8	35-36	-	_	_
+1-9	37-38	3	_	_
+1-10	39-40	-	_	_
+1-11	41-44	von	_	_
+1-12	45-50	Brunn	*[2]	PERauthor[2]
+1-13	51-52	,	*[2]	PERauthor[2]
+1-14	53-62	Professor	_	_
+1-15	63-66	Dr.	_	_
+1-16	67-68	,	_	_
+1-17	69-79	Geheimrath	_	_
+1-18	80-81	,	_	_
+1-19	82-89	München	*	PLACEmentioned
+1-20	90-91	.	_	_
+
+#Text=Bruns , I. , Professor Dr. , Kiel .
+2-1	92-97	Bruns	*[3]	PERauthor[3]
+2-2	98-99	,	*[3]	PERauthor[3]
+2-3	100-102	I.	*[3]	PERauthor[3]
+2-4	103-104	,	_	_
+2-5	105-114	Professor	_	_
+2-6	115-118	Dr.	_	_
+2-7	119-120	,	_	_
+2-8	121-125	Kiel	*	PLACEmentioned
+2-9	126-127	.	_	_
+
+#Text=Buecheler , F , , Professor Dr. , Geheimrath , Bonn .
+3-1	128-137	Buecheler	*[4]	PERauthor[4]
+3-2	138-139	,	*[4]	PERauthor[4]
+3-3	140-141	F	_	_
+3-4	142-143	,	_	_
+3-5	144-145	,	_	_
+3-6	146-155	Professor	_	_
+3-7	156-159	Dr.	_	_
+3-8	160-161	,	_	_
+3-9	162-172	Geheimrath	_	_
+3-10	173-174	,	_	_
+3-11	175-179	Bonn	*	PLACEmentioned
+3-12	180-181	.	_	_
+
+#Text=Buli® , Fr. , Direttore del Museo , Spalato .
+4-1	182-187	Buli®	*[5]	PERauthor[5]
+4-2	188-189	,	*[5]	PERauthor[5]
+4-3	190-193	Fr.	*[5]	PERauthor[5]
+4-4	194-195	,	_	_
+4-5	196-205	Direttore	_	_
+4-6	206-209	del	_	_
+4-7	210-215	Museo	_	_
+4-8	216-217	,	_	_
+4-9	218-225	Spalato	*	PLACEmentioned
+4-10	226-227	.	_	_
+
+#Text=von Bunsen , G. , Dr. , Berlin , Bywater , Ingram , Reader in Greek , Oxford .
+5-1	228-231	von	_	_
+5-2	232-238	Bunsen	*[6]	PERauthor[6]
+5-3	239-240	,	*[6]	PERauthor[6]
+5-4	241-243	G.	*[6]	PERauthor[6]
+5-5	244-245	,	_	_
+5-6	246-249	Dr.	_	_
+5-7	250-251	,	_	_
+5-8	252-258	Berlin	*	PLACEmentioned
+5-9	259-260	,	_	_
+5-10	261-268	Bywater	*[7]	PERauthor[7]
+5-11	269-270	,	*[7]	PERauthor[7]
+5-12	271-277	Ingram	*[7]	PERauthor[7]
+5-13	278-279	,	_	_
+5-14	280-286	Reader	_	_
+5-15	287-289	in	_	_
+5-16	290-295	Greek	_	_
+5-17	296-297	,	_	_
+5-18	298-304	Oxford	*	PLACEmentioned
+5-19	305-306	.	_	_
+
+#Text=Conze , A. , Professor Dr. , Berlin , Curtius , E. , Professor Dr. , Geheimrath , Berlin .
+6-1	307-312	Conze	*[8]	PERauthor[8]
+6-2	313-314	,	*[8]	PERauthor[8]
+6-3	315-317	A.	*[8]	PERauthor[8]
+6-4	318-319	,	_	_
+6-5	320-329	Professor	_	_
+6-6	330-333	Dr.	_	_
+6-7	334-335	,	_	_
+6-8	336-342	Berlin	*	PLACEmentioned
+6-9	343-344	,	_	_
+6-10	345-352	Curtius	*[9]	PERauthor[9]
+6-11	353-354	,	*[9]	PERauthor[9]
+6-12	355-357	E.	*[9]	PERauthor[9]
+6-13	358-359	,	_	_
+6-14	360-369	Professor	_	_
+6-15	370-373	Dr.	_	_
+6-16	374-375	,	_	_
+6-17	376-386	Geheimrath	_	_
+6-18	387-388	,	_	_
+6-19	389-395	Berlin	*	PLACEmentioned
+6-20	396-397	.	_	_
+
+#Text=von Cwiklinski , L. , Professor Dr. , Lemberg , Degenkolb , H. , Professor Dr. , Leipzig .
+7-1	398-401	von	_	_
+7-2	402-412	Cwiklinski	*[10]	PERauthor[10]
+7-3	413-414	,	*[10]	PERauthor[10]
+7-4	415-417	L.	*[10]	PERauthor[10]
+7-5	418-419	,	_	_
+7-6	420-429	Professor	_	_
+7-7	430-433	Dr.	_	_
+7-8	434-435	,	_	_
+7-9	436-443	Lemberg	*	PLACEmentioned
+7-10	444-445	,	_	_
+7-11	446-455	Degenkolb	*[11]	PERauthor[11]
+7-12	456-457	,	*[11]	PERauthor[11]
+7-13	458-460	H.	*[11]	PERauthor[11]
+7-14	461-462	,	_	_
+7-15	463-472	Professor	_	_
+7-16	473-476	Dr.	_	_
+7-17	477-478	,	_	_
+7-18	479-486	Leipzig	*	PLACEmentioned
+7-19	487-488	.	_	_
+
+#Text=Delbrück , L. , Berlin .
+8-1	489-497	Delbrück	*[12]	PERauthor[12]
+8-2	498-499	,	*[12]	PERauthor[12]
+8-3	500-502	L.	*[12]	PERauthor[12]
+8-4	503-504	,	_	_
+8-5	505-511	Berlin	*	PLACEmentioned
+8-6	512-513	.	_	_
+
+#Text=von Domaszewski , A. , Professor Dr. , Heidelberg .
+9-1	514-517	von	_	_
+9-2	518-529	Domaszewski	*[13]	PERauthor[13]
+9-3	530-531	,	*[13]	PERauthor[13]
+9-4	532-534	A.	*[13]	PERauthor[13]
+9-5	535-536	,	_	_
+9-6	537-546	Professor	_	_
+9-7	547-550	Dr.	_	_
+9-8	551-552	,	_	_
+9-9	553-563	Heidelberg	*	PLACEmentioned
+9-10	564-565	.	_	_
+
+#Text=Dörpfeld , W. , Professor Dr. , Athein .
+10-1	566-574	Dörpfeld	*[14]	PERauthor[14]
+10-2	575-576	,	*[14]	PERauthor[14]
+10-3	577-579	W.	*[14]	PERauthor[14]
+10-4	580-581	,	_	_
+10-5	582-591	Professor	_	_
+10-6	592-595	Dr.	_	_
+10-7	596-597	,	_	_
+10-8	598-604	Athein	*	PLACEmentioned
+10-9	605-606	.	_	_
+
+#Text=Dümmler , E. Professor Dr. , Geheimrath , Berlin .
+11-1	607-614	Dümmler	*[15]	PERauthor[15]
+11-2	615-616	,	*[15]	PERauthor[15]
+11-3	617-619	E.	*[15]	PERauthor[15]
+11-4	620-629	Professor	_	_
+11-5	630-633	Dr.	_	_
+11-6	634-635	,	_	_
+11-7	636-646	Geheimrath	_	_
+11-8	647-648	,	_	_
+11-9	649-655	Berlin	*	PLACEmentioned
+11-10	656-657	.	_	_
+
+#Text=Eck , E. , Professor Dr. , Geheimrath , Berlin .
+12-1	658-661	Eck	*[16]	PERauthor[16]
+12-2	662-663	,	*[16]	PERauthor[16]
+12-3	664-666	E.	*[16]	PERauthor[16]
+12-4	667-668	,	_	_
+12-5	669-678	Professor	_	_
+12-6	679-682	Dr.	_	_
+12-7	683-684	,	_	_
+12-8	685-695	Geheimrath	_	_
+12-9	696-697	,	_	_
+12-10	698-704	Berlin	*	PLACEmentioned
+12-11	705-706	.	_	_
+
+#Text=Exner , A. , Professor Dr. , Wien .
+13-1	707-712	Exner	*[17]	PERauthor[17]
+13-2	713-714	,	*[17]	PERauthor[17]
+13-3	715-717	A.	*[17]	PERauthor[17]
+13-4	718-719	,	_	_
+13-5	720-729	Professor	_	_
+13-6	730-733	Dr.	_	_
+13-7	734-735	,	_	_
+13-8	736-740	Wien	*	PLACEmentioned
+13-9	741-742	.	_	_
+
+#Text=Fabricius , E. , Professor Dr. , Freiburg i .
+14-1	743-752	Fabricius	*[18]	PERauthor[18]
+14-2	753-754	,	*[18]	PERauthor[18]
+14-3	755-757	E.	*[18]	PERauthor[18]
+14-4	758-759	,	*[18]	PERauthor[18]
+14-5	760-769	Professor	_	_
+14-6	770-773	Dr.	_	_
+14-7	774-775	,	_	_
+14-8	776-784	Freiburg	*[19]	PLACEmentioned[19]
+14-9	785-786	i	*[19]	PLACEmentioned[19]
+14-10	787-788	.	*[19]	PLACEmentioned[19]
+
+#Text=B. Fitting , H. , Professor Dr. , Geheimrath , Halle a . S. Freytag , G. , Dr. , Geheimrath , Wiesbaden .
+15-1	789-791	B.	*[19]	PLACEmentioned[19]
+15-2	792-799	Fitting	*[20]	PERauthor[20]
+15-3	800-801	,	*[20]	PERauthor[20]
+15-4	802-804	H.	*[20]	PERauthor[20]
+15-5	805-806	,	_	_
+15-6	807-816	Professor	_	_
+15-7	817-820	Dr.	_	_
+15-8	821-822	,	_	_
+15-9	823-833	Geheimrath	_	_
+15-10	834-835	,	_	_
+15-11	836-841	Halle	*[21]	PLACEmentioned[21]
+15-12	842-843	a	*[21]	PLACEmentioned[21]
+15-13	844-845	.	*[21]	PLACEmentioned[21]
+15-14	846-848	S.	*[21]	PLACEmentioned[21]
+15-15	849-856	Freytag	*[22]	PERauthor[22]
+15-16	857-858	,	*[22]	PERauthor[22]
+15-17	859-861	G.	*[22]	PERauthor[22]
+15-18	862-863	,	_	_
+15-19	864-867	Dr.	_	_
+15-20	868-869	,	_	_
+15-21	870-880	Geheimrath	_	_
+15-22	881-882	,	_	_
+15-23	883-892	Wiesbaden	*	PLACEmentioned
+15-24	893-894	.	_	_
+
+#Text=von Friedberg , H. , Dr. , Staats-Minister u.Kronsyndicus , Berlin Girard , P. , Professeur ä la Facult & des Lettres , Paris .
+16-1	895-898	von	_	_
+16-2	899-908	Friedberg	*[23]	PERauthor[23]
+16-3	909-910	,	*[23]	PERauthor[23]
+16-4	911-913	H.	*[23]	PERauthor[23]
+16-5	914-915	,	_	_
+16-6	916-919	Dr.	_	_
+16-7	920-921	,	_	_
+16-8	922-937	Staats-Minister	_	_
+16-9	938-952	u.Kronsyndicus	*[28]	PLACEmentioned[28]
+16-10	953-954	,	*[28]	PLACEmentioned[28]
+16-11	955-961	Berlin	*[28]	PLACEmentioned[28]
+16-12	962-968	Girard	*[24]	PERauthor[24]
+16-13	969-970	,	*[24]	PERauthor[24]
+16-14	971-973	P.	*[24]	PERauthor[24]
+16-15	974-975	,	_	_
+16-16	976-986	Professeur	_	_
+16-17	987-988	ä	_	_
+16-18	989-991	la	_	_
+16-19	992-998	Facult	_	_
+16-20	999-1000	&	_	_
+16-21	1001-1004	des	_	_
+16-22	1005-1012	Lettres	_	_
+16-23	1013-1014	,	_	_
+16-24	1015-1020	Paris	*	PLACEmentioned
+16-25	1021-1022	.	_	_
+
+#Text=Girard , P.Fr. , Pfrofesseur agr & g & ä la Facult & de Droit , Paris von Gneist , .
+17-1	1023-1029	Girard	*[25]	PERauthor[25]
+17-2	1030-1031	,	*[25]	PERauthor[25]
+17-3	1032-1037	P.Fr.	*[25]	PERauthor[25]
+17-4	1038-1039	,	_	_
+17-5	1040-1051	Pfrofesseur	_	_
+17-6	1052-1055	agr	_	_
+17-7	1056-1057	&	_	_
+17-8	1058-1059	g	_	_
+17-9	1060-1061	&	_	_
+17-10	1062-1063	ä	_	_
+17-11	1064-1066	la	_	_
+17-12	1067-1073	Facult	_	_
+17-13	1074-1075	&	_	_
+17-14	1076-1078	de	_	_
+17-15	1079-1084	Droit	*[29]	PLACEmentioned[29]
+17-16	1085-1086	,	*[29]	PLACEmentioned[29]
+17-17	1087-1092	Paris	*[29]	PLACEmentioned[29]
+17-18	1093-1096	von	*[26]	PERauthor[26]
+17-19	1097-1103	Gneist	*[26]	PERauthor[26]
+17-20	1104-1105	,	*[26]	PERauthor[26]
+17-21	1106-1107	.	*[26]	PERauthor[26]
+
+#Text=R. , Professor Dr. , Wirkl.Geh.Ob.-Just.-Rath , Berlin .
+18-1	1108-1110	R.	_	_
+18-2	1111-1112	,	_	_
+18-3	1113-1122	Professor	_	_
+18-4	1123-1126	Dr.	_	_
+18-5	1127-1128	,	_	_
+18-6	1129-1153	Wirkl.Geh.Ob.-Just.-Rath	_	_
+18-7	1154-1155	,	_	_
+18-8	1156-1162	Berlin	*	PLACEmentioned
+18-9	1163-1164	.	_	_
+
+#Text=Gomperz , Th. , Professor Dr. , Wien .
+19-1	1165-1172	Gomperz	*[27]	PERauthor[27]
+19-2	1173-1174	,	*[27]	PERauthor[27]
+19-3	1175-1178	Th.	_	_
+19-4	1179-1180	,	_	_
+19-5	1181-1190	Professor	_	_
+19-6	1191-1194	Dr.	_	_
+19-7	1195-1196	,	_	_
+19-8	1197-1201	Wien	*	PLACEmentioned
+19-9	1202-1203	.	_	_

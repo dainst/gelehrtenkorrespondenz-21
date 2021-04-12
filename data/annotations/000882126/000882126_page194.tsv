@@ -1,0 +1,301 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=310 Braun an Gerhard Rom , 18. Juli 1837 Tage sind mit Recht die mezzi ristauri in voller Aufnahme .
+1-1	0-3	310	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	18.	*[11]	DATEletter[11]
+1-8	31-35	Juli	*[11]	DATEletter[11]
+1-9	36-40	1837	*[11]	DATEletter[11]
+1-10	41-45	Tage	_	_
+1-11	46-50	sind	_	_
+1-12	51-54	mit	_	_
+1-13	55-60	Recht	_	_
+1-14	61-64	die	_	_
+1-15	65-70	mezzi	_	_
+1-16	71-79	ristauri	_	_
+1-17	80-82	in	_	_
+1-18	83-89	voller	_	_
+1-19	90-98	Aufnahme	_	_
+1-20	99-100	.	_	_
+
+#Text=Ich denke Orlandi ( dessen Namen Sie übrigens als strenges Geheimniß bewahren müssen ) macht Sie Ihnen für 10 Scudi zurecht .
+2-1	101-104	Ich	_	_
+2-2	105-110	denke	_	_
+2-3	111-118	Orlandi	*	PERmentioned
+2-4	119-120	(	_	_
+2-5	121-127	dessen	_	_
+2-6	128-133	Namen	_	_
+2-7	134-137	Sie	_	_
+2-8	138-146	übrigens	_	_
+2-9	147-150	als	_	_
+2-10	151-159	strenges	_	_
+2-11	160-169	Geheimniß	_	_
+2-12	170-178	bewahren	_	_
+2-13	179-185	müssen	_	_
+2-14	186-187	)	_	_
+2-15	188-193	macht	_	_
+2-16	194-197	Sie	_	_
+2-17	198-203	Ihnen	_	_
+2-18	204-207	für	_	_
+2-19	208-210	10	_	_
+2-20	211-216	Scudi	_	_
+2-21	217-224	zurecht	_	_
+2-22	225-226	.	_	_
+
+#Text=Von der Güte der Ristauri hängt der Credit und das Schicksal eines Museums ab .
+3-1	227-230	Von	_	_
+3-2	231-234	der	_	_
+3-3	235-239	Güte	_	_
+3-4	240-243	der	_	_
+3-5	244-252	Ristauri	_	_
+3-6	253-258	hängt	_	_
+3-7	259-262	der	_	_
+3-8	263-269	Credit	_	_
+3-9	270-273	und	_	_
+3-10	274-277	das	_	_
+3-11	278-287	Schicksal	_	_
+3-12	288-293	eines	_	_
+3-13	294-301	Museums	_	_
+3-14	302-304	ab	_	_
+3-15	305-306	.	_	_
+
+#Text=Es darf einmal ein Mann von Einsicht und Autorität ein piquantes Wort über verdächtige und schlechte Restaurationen fallen lassen , so schadet dies selbst bei independtenten vorurtheilsfreien Personen .
+4-1	307-309	Es	_	_
+4-2	310-314	darf	_	_
+4-3	315-321	einmal	_	_
+4-4	322-325	ein	_	_
+4-5	326-330	Mann	_	_
+4-6	331-334	von	_	_
+4-7	335-343	Einsicht	_	_
+4-8	344-347	und	_	_
+4-9	348-357	Autorität	_	_
+4-10	358-361	ein	_	_
+4-11	362-371	piquantes	_	_
+4-12	372-376	Wort	_	_
+4-13	377-381	über	_	_
+4-14	382-393	verdächtige	_	_
+4-15	394-397	und	_	_
+4-16	398-407	schlechte	_	_
+4-17	408-422	Restaurationen	_	_
+4-18	423-429	fallen	_	_
+4-19	430-436	lassen	_	_
+4-20	437-438	,	_	_
+4-21	439-441	so	_	_
+4-22	442-449	schadet	_	_
+4-23	450-454	dies	_	_
+4-24	455-461	selbst	_	_
+4-25	462-465	bei	_	_
+4-26	466-480	independtenten	_	_
+4-27	481-498	vorurtheilsfreien	_	_
+4-28	499-507	Personen	_	_
+4-29	508-509	.	_	_
+
+#Text=Der Text des Jason muß diese Woche gedruckt werden .
+5-1	510-513	Der	_	_
+5-2	514-518	Text	_	_
+5-3	519-522	des	_	_
+5-4	523-528	Jason	*[12]|*[13]	PERmentioned[12]|OBJ[13]
+5-5	529-532	muß	_	_
+5-6	533-538	diese	_	_
+5-7	539-544	Woche	_	_
+5-8	545-553	gedruckt	_	_
+5-9	554-560	werden	_	_
+5-10	561-562	.	_	_
+
+#Text=Das Kunstblatt mit Abbildungen athen .
+6-1	563-566	Das	_	_
+6-2	567-577	Kunstblatt	_	_
+6-3	578-581	mit	_	_
+6-4	582-593	Abbildungen	_	_
+6-5	594-599	athen	*[14]	OBJ[14]
+6-6	600-601	.	*[14]	OBJ[14]
+
+#Text=Reliefs ist mir bis dato nicht zu Gesicht gekommen .
+7-1	602-609	Reliefs	*[14]	OBJ[14]
+7-2	610-613	ist	_	_
+7-3	614-617	mir	_	_
+7-4	618-621	bis	_	_
+7-5	622-626	dato	_	_
+7-6	627-632	nicht	_	_
+7-7	633-635	zu	_	_
+7-8	636-643	Gesicht	_	_
+7-9	644-652	gekommen	_	_
+7-10	653-654	.	_	_
+
+#Text=Wegen Verpackung der Vasen werde ich Ihnen möglichst an die Hand gehen .
+8-1	655-660	Wegen	_	_
+8-2	661-671	Verpackung	_	_
+8-3	672-675	der	_	_
+8-4	676-681	Vasen	*	OBJ
+8-5	682-687	werde	_	_
+8-6	688-691	ich	_	_
+8-7	692-697	Ihnen	_	_
+8-8	698-707	möglichst	_	_
+8-9	708-710	an	_	_
+8-10	711-714	die	_	_
+8-11	715-719	Hand	_	_
+8-12	720-725	gehen	_	_
+8-13	726-727	.	_	_
+
+#Text=Nur warne ich vor Uebereilung .
+9-1	728-731	Nur	_	_
+9-2	732-737	warne	_	_
+9-3	738-741	ich	_	_
+9-4	742-745	vor	_	_
+9-5	746-757	Uebereilung	_	_
+9-6	758-759	.	_	_
+
+#Text=Schulzeitung 1833 October - December hat Avellino bereits bezahlt , er kann also nicht nachzahlen , Marcus muß die Defecte nachliefern .
+10-1	760-772	Schulzeitung	_	_
+10-2	773-777	1833	*[15]	DATEmentioned[15]
+10-3	778-785	October	*[15]	DATEmentioned[15]
+10-4	786-787	-	*[15]	DATEmentioned[15]
+10-5	788-796	December	*[15]	DATEmentioned[15]
+10-6	797-800	hat	_	_
+10-7	801-809	Avellino	*	PLACEmentioned
+10-8	810-817	bereits	_	_
+10-9	818-825	bezahlt	_	_
+10-10	826-827	,	_	_
+10-11	828-830	er	_	_
+10-12	831-835	kann	_	_
+10-13	836-840	also	_	_
+10-14	841-846	nicht	_	_
+10-15	847-857	nachzahlen	_	_
+10-16	858-859	,	_	_
+10-17	860-866	Marcus	*	PERmentioned
+10-18	867-870	muß	_	_
+10-19	871-874	die	_	_
+10-20	875-882	Defecte	_	_
+10-21	883-894	nachliefern	_	_
+10-22	895-896	.	_	_
+
+#Text=Wenn Sie etwas über griechische Bildwerke für die Annalen schreiben wollten , so wäre dies sehr schön .
+11-1	897-901	Wenn	_	_
+11-2	902-905	Sie	_	_
+11-3	906-911	etwas	_	_
+11-4	912-916	über	_	_
+11-5	917-928	griechische	_	_
+11-6	929-938	Bildwerke	_	_
+11-7	939-942	für	_	_
+11-8	943-946	die	_	_
+11-9	947-954	Annalen	_	_
+11-10	955-964	schreiben	_	_
+11-11	965-972	wollten	_	_
+11-12	973-974	,	_	_
+11-13	975-977	so	_	_
+11-14	978-982	wäre	_	_
+11-15	983-987	dies	_	_
+11-16	988-992	sehr	_	_
+11-17	993-998	schön	_	_
+11-18	999-1000	.	_	_
+
+#Text=Es ist ein Franzose hier , der Bunsen treuen und geschickten Beistand geleistet hat .
+12-1	1001-1003	Es	_	_
+12-2	1004-1007	ist	_	_
+12-3	1008-1011	ein	_	_
+12-4	1012-1020	Franzose	*	PERmentioned
+12-5	1021-1025	hier	_	_
+12-6	1026-1027	,	_	_
+12-7	1028-1031	der	_	_
+12-8	1032-1038	Bunsen	*	PERmentioned
+12-9	1039-1045	treuen	_	_
+12-10	1046-1049	und	_	_
+12-11	1050-1061	geschickten	_	_
+12-12	1062-1070	Beistand	_	_
+12-13	1071-1080	geleistet	_	_
+12-14	1081-1084	hat	_	_
+12-15	1085-1086	.	_	_
+
+#Text=Aus Neapel ist mir durchaus nichts anderes zugekommen als die Orpheusvase , wird auch nichts kommen , wenn nicht einer an Ort und Stelle treibt .
+13-1	1087-1090	Aus	_	_
+13-2	1091-1097	Neapel	*	PLACEmentioned
+13-3	1098-1101	ist	_	_
+13-4	1102-1105	mir	_	_
+13-5	1106-1114	durchaus	_	_
+13-6	1115-1121	nichts	_	_
+13-7	1122-1129	anderes	_	_
+13-8	1130-1140	zugekommen	_	_
+13-9	1141-1144	als	_	_
+13-10	1145-1148	die	_	_
+13-11	1149-1160	Orpheusvase	*	OBJ
+13-12	1161-1162	,	_	_
+13-13	1163-1167	wird	_	_
+13-14	1168-1172	auch	_	_
+13-15	1173-1179	nichts	_	_
+13-16	1180-1186	kommen	_	_
+13-17	1187-1188	,	_	_
+13-18	1189-1193	wenn	_	_
+13-19	1194-1199	nicht	_	_
+13-20	1200-1205	einer	_	_
+13-21	1206-1208	an	_	_
+13-22	1209-1212	Ort	_	_
+13-23	1213-1216	und	_	_
+13-24	1217-1223	Stelle	_	_
+13-25	1224-1230	treibt	_	_
+13-26	1231-1232	.	_	_
+
+#Text=Es ist ein sroßer Uebelstand , daß man kein Geld hat .
+14-1	1233-1235	Es	_	_
+14-2	1236-1239	ist	_	_
+14-3	1240-1243	ein	_	_
+14-4	1244-1250	sroßer	_	_
+14-5	1251-1261	Uebelstand	_	_
+14-6	1262-1263	,	_	_
+14-7	1264-1267	daß	_	_
+14-8	1268-1271	man	_	_
+14-9	1272-1276	kein	_	_
+14-10	1277-1281	Geld	_	_
+14-11	1282-1285	hat	_	_
+14-12	1286-1287	.	_	_
+
+#Text=Jetzt habe ich einen trefflichen Zeichner gewonnen , der mich auf meiner Reise nach Oberitalien , wenn es noch dazu kommt , begleiten würde blos gegen Freihaltung auf der Reise .
+15-1	1288-1293	Jetzt	_	_
+15-2	1294-1298	habe	_	_
+15-3	1299-1302	ich	_	_
+15-4	1303-1308	einen	_	_
+15-5	1309-1320	trefflichen	_	_
+15-6	1321-1329	Zeichner	*	PERmentioned
+15-7	1330-1338	gewonnen	_	_
+15-8	1339-1340	,	_	_
+15-9	1341-1344	der	_	_
+15-10	1345-1349	mich	_	_
+15-11	1350-1353	auf	_	_
+15-12	1354-1360	meiner	_	_
+15-13	1361-1366	Reise	_	_
+15-14	1367-1371	nach	_	_
+15-15	1372-1383	Oberitalien	*	PLACEmentioned
+15-16	1384-1385	,	_	_
+15-17	1386-1390	wenn	_	_
+15-18	1391-1393	es	_	_
+15-19	1394-1398	noch	_	_
+15-20	1399-1403	dazu	_	_
+15-21	1404-1409	kommt	_	_
+15-22	1410-1411	,	_	_
+15-23	1412-1421	begleiten	_	_
+15-24	1422-1427	würde	_	_
+15-25	1428-1432	blos	_	_
+15-26	1433-1438	gegen	_	_
+15-27	1439-1450	Freihaltung	_	_
+15-28	1451-1454	auf	_	_
+15-29	1455-1458	der	_	_
+15-30	1459-1464	Reise	_	_
+15-31	1465-1466	.	_	_
+
+#Text=Mit einem solchen müßte man nach Neapel gehen , um dort
+16-1	1467-1470	Mit	_	_
+16-2	1471-1476	einem	_	_
+16-3	1477-1484	solchen	_	_
+16-4	1485-1490	müßte	_	_
+16-5	1491-1494	man	_	_
+16-6	1495-1499	nach	_	_
+16-7	1500-1506	Neapel	*	PLACEmentioned
+16-8	1507-1512	gehen	_	_
+16-9	1513-1514	,	_	_
+16-10	1515-1517	um	_	_
+16-11	1518-1522	dort	_	_

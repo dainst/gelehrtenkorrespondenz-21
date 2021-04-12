@@ -1,0 +1,314 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=231 Braun an Gerhard Rom , 16. Dezember 1839 Pluvius , Kopf auf einer Hermenbüste etwas verwaschen aber gut gearbeitet .
+1-1	0-3	231	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	16.	*[4]	DATEletter[4]
+1-8	31-39	Dezember	*[4]	DATEletter[4]
+1-9	40-44	1839	*[4]	DATEletter[4]
+1-10	45-52	Pluvius	*	OBJ
+1-11	53-54	,	_	_
+1-12	55-59	Kopf	*[6]	OBJ[6]
+1-13	60-63	auf	*[6]	OBJ[6]
+1-14	64-69	einer	*[6]	OBJ[6]
+1-15	70-81	Hermenbüste	*[6]	OBJ[6]
+1-16	82-87	etwas	_	_
+1-17	88-98	verwaschen	_	_
+1-18	99-103	aber	_	_
+1-19	104-107	gut	_	_
+1-20	108-118	gearbeitet	_	_
+1-21	119-120	.	_	_
+
+#Text=- Nackte Figur ( hermaphroditisch nach Wolff ) mit Fruchtkorb in den hocherhobenen Händen , eine andere umschlingt sie .
+2-1	121-122	-	_	_
+2-2	123-129	Nackte	*[7]	OBJ[7]
+2-3	130-135	Figur	*[7]	OBJ[7]
+2-4	136-137	(	_	_
+2-5	138-154	hermaphroditisch	_	_
+2-6	155-159	nach	_	_
+2-7	160-165	Wolff	*	PERmentioned
+2-8	166-167	)	_	_
+2-9	168-171	mit	_	_
+2-10	172-182	Fruchtkorb	_	_
+2-11	183-185	in	_	_
+2-12	186-189	den	_	_
+2-13	190-203	hocherhobenen	_	_
+2-14	204-210	Händen	_	_
+2-15	211-212	,	_	_
+2-16	213-217	eine	_	_
+2-17	218-224	andere	_	_
+2-18	225-235	umschlingt	_	_
+2-19	236-239	sie	_	_
+2-20	240-241	.	_	_
+
+#Text=Früher in Canovas Besitz .
+3-1	242-248	Früher	_	_
+3-2	249-251	in	_	_
+3-3	252-259	Canovas	*	PLACEmentioned
+3-4	260-266	Besitz	_	_
+3-5	267-268	.	_	_
+
+#Text=100 Scudi .
+4-1	269-272	100	_	_
+4-2	273-278	Scudi	_	_
+4-3	279-280	.	_	_
+
+#Text=- Erudirter römischer Cippus mit Togafigur und einer Frau die ein Büchschen über einem Kohlenbecken entleert .
+5-1	281-282	-	_	_
+5-2	283-292	Erudirter	_	_
+5-3	293-302	römischer	*[10]	OBJ[10]
+5-4	303-309	Cippus	*[10]	OBJ[10]
+5-5	310-313	mit	_	_
+5-6	314-323	Togafigur	_	_
+5-7	324-327	und	_	_
+5-8	328-333	einer	_	_
+5-9	334-338	Frau	_	_
+5-10	339-342	die	_	_
+5-11	343-346	ein	_	_
+5-12	347-356	Büchschen	_	_
+5-13	357-361	über	_	_
+5-14	362-367	einem	_	_
+5-15	368-380	Kohlenbecken	_	_
+5-16	381-389	entleert	_	_
+5-17	390-391	.	_	_
+
+#Text=Basseggio hat alle Goldsachen verkauft und auch die Canino'schen für Campana aus England beigeschafft .
+6-1	392-401	Basseggio	*	PERmentioned
+6-2	402-405	hat	_	_
+6-3	406-410	alle	_	_
+6-4	411-421	Goldsachen	*	OBJ
+6-5	422-430	verkauft	_	_
+6-6	431-434	und	_	_
+6-7	435-439	auch	_	_
+6-8	440-443	die	_	_
+6-9	444-456	Canino'schen	*	PERmentioned
+6-10	457-460	für	_	_
+6-11	461-468	Campana	*	PERmentioned
+6-12	469-472	aus	_	_
+6-13	473-480	England	*	PLACEmentioned
+6-14	481-493	beigeschafft	_	_
+6-15	494-495	.	_	_
+
+#Text=Wegen der Gerstäckerschen Bücherdesiderien muß ich mir die Bestellung neu erbitten , da das Original abgesandt worden ist .
+7-1	496-501	Wegen	_	_
+7-2	502-505	der	_	_
+7-3	506-521	Gerstäckerschen	*	PERmentioned
+7-4	522-538	Bücherdesiderien	_	_
+7-5	539-542	muß	_	_
+7-6	543-546	ich	_	_
+7-7	547-550	mir	_	_
+7-8	551-554	die	_	_
+7-9	555-565	Bestellung	_	_
+7-10	566-569	neu	_	_
+7-11	570-578	erbitten	_	_
+7-12	579-580	,	_	_
+7-13	581-583	da	_	_
+7-14	584-587	das	_	_
+7-15	588-596	Original	_	_
+7-16	597-606	abgesandt	_	_
+7-17	607-613	worden	_	_
+7-18	614-617	ist	_	_
+7-19	618-619	.	_	_
+
+#Text=Um die Sache anzuregen , gehört dies nun dazu .
+8-1	620-622	Um	_	_
+8-2	623-626	die	_	_
+8-3	627-632	Sache	_	_
+8-4	633-642	anzuregen	_	_
+8-5	643-644	,	_	_
+8-6	645-651	gehört	_	_
+8-7	652-656	dies	_	_
+8-8	657-660	nun	_	_
+8-9	661-665	dazu	_	_
+8-10	666-667	.	_	_
+
+#Text=Wegen der Vedutendesiderien will ich mein Möglichstes thuen .
+9-1	668-673	Wegen	_	_
+9-2	674-677	der	_	_
+9-3	678-695	Vedutendesiderien	_	_
+9-4	696-700	will	_	_
+9-5	701-704	ich	_	_
+9-6	705-709	mein	_	_
+9-7	710-721	Möglichstes	_	_
+9-8	722-727	thuen	_	_
+9-9	728-729	.	_	_
+
+#Text=Die Institutsveduta ist seit einem Jahr bestellt und noch nicht ermittelt .
+10-1	730-733	Die	_	_
+10-2	734-749	Institutsveduta	_	_
+10-3	750-753	ist	_	_
+10-4	754-758	seit	_	_
+10-5	759-764	einem	_	_
+10-6	765-769	Jahr	_	_
+10-7	770-778	bestellt	_	_
+10-8	779-782	und	_	_
+10-9	783-787	noch	_	_
+10-10	788-793	nicht	_	_
+10-11	794-803	ermittelt	_	_
+10-12	804-805	.	_	_
+
+#Text=Mit Marcus bin ich ganz gut auseinandergekommen .
+11-1	806-809	Mit	_	_
+11-2	810-816	Marcus	*	PERmentioned
+11-3	817-820	bin	_	_
+11-4	821-824	ich	_	_
+11-5	825-829	ganz	_	_
+11-6	830-833	gut	_	_
+11-7	834-853	auseinandergekommen	_	_
+11-8	854-855	.	_	_
+
+#Text=Er hat 170 rt .
+12-1	856-858	Er	_	_
+12-2	859-862	hat	_	_
+12-3	863-866	170	_	_
+12-4	867-869	rt	_	_
+12-5	870-871	.	_	_
+
+#Text=bezahlt und bleibt noch eine hübsche Summe schuldig die ich Webern für Byzantiner anweisen werde .
+13-1	872-879	bezahlt	_	_
+13-2	880-883	und	_	_
+13-3	884-890	bleibt	_	_
+13-4	891-895	noch	_	_
+13-5	896-900	eine	_	_
+13-6	901-908	hübsche	_	_
+13-7	909-914	Summe	_	_
+13-8	915-923	schuldig	_	_
+13-9	924-927	die	_	_
+13-10	928-931	ich	_	_
+13-11	932-938	Webern	*	PERmentioned
+13-12	939-942	für	_	_
+13-13	943-953	Byzantiner	*	MISC
+13-14	954-962	anweisen	_	_
+13-15	963-968	werde	_	_
+13-16	969-970	.	_	_
+
+#Text=Ueber die Besetzung der Präsidentenstelle habe ich vielfach mit Lanci Raths gepflogen .
+14-1	971-976	Ueber	_	_
+14-2	977-980	die	_	_
+14-3	981-990	Besetzung	_	_
+14-4	991-994	der	_	_
+14-5	995-1012	Präsidentenstelle	_	_
+14-6	1013-1017	habe	_	_
+14-7	1018-1021	ich	_	_
+14-8	1022-1030	vielfach	_	_
+14-9	1031-1034	mit	_	_
+14-10	1035-1040	Lanci	*	PERmentioned
+14-11	1041-1046	Raths	_	_
+14-12	1047-1056	gepflogen	_	_
+14-13	1057-1058	.	_	_
+
+#Text=Das beste wäre ein Italiener .
+15-1	1059-1062	Das	_	_
+15-2	1063-1068	beste	_	_
+15-3	1069-1073	wäre	_	_
+15-4	1074-1077	ein	_	_
+15-5	1078-1087	Italiener	_	_
+15-6	1088-1089	.	_	_
+
+#Text=Allein woher nehmen ?
+16-1	1090-1096	Allein	_	_
+16-2	1097-1102	woher	_	_
+16-3	1103-1109	nehmen	_	_
+16-4	1110-1111	?	_	_
+
+#Text=Dennoch habe ich deshalb bei Borghesi angefragt .
+17-1	1112-1119	Dennoch	_	_
+17-2	1120-1124	habe	_	_
+17-3	1125-1128	ich	_	_
+17-4	1129-1136	deshalb	_	_
+17-5	1137-1140	bei	_	_
+17-6	1141-1149	Borghesi	*	PERmentioned
+17-7	1150-1159	angefragt	_	_
+17-8	1160-1161	.	_	_
+
+#Text=- An Bunsen habe ich folgenden Vorschlag gethan : Campana könnte Vice Präsident werden , was uns eine wesentliche Hülfe wäre und uns beim hiesigen Gouvernement gutes Blut machen würde .
+18-1	1162-1163	-	_	_
+18-2	1164-1166	An	_	_
+18-3	1167-1173	Bunsen	*	PERmentioned
+18-4	1174-1178	habe	_	_
+18-5	1179-1182	ich	_	_
+18-6	1183-1192	folgenden	_	_
+18-7	1193-1202	Vorschlag	_	_
+18-8	1203-1209	gethan	_	_
+18-9	1210-1211	:	_	_
+18-10	1212-1219	Campana	*	PERmentioned
+18-11	1220-1226	könnte	_	_
+18-12	1227-1231	Vice	_	_
+18-13	1232-1241	Präsident	_	_
+18-14	1242-1248	werden	_	_
+18-15	1249-1250	,	_	_
+18-16	1251-1254	was	_	_
+18-17	1255-1258	uns	_	_
+18-18	1259-1263	eine	_	_
+18-19	1264-1275	wesentliche	_	_
+18-20	1276-1281	Hülfe	_	_
+18-21	1282-1286	wäre	_	_
+18-22	1287-1290	und	_	_
+18-23	1291-1294	uns	_	_
+18-24	1295-1299	beim	_	_
+18-25	1300-1308	hiesigen	_	_
+18-26	1309-1321	Gouvernement	_	_
+18-27	1322-1327	gutes	_	_
+18-28	1328-1332	Blut	_	_
+18-29	1333-1339	machen	_	_
+18-30	1340-1345	würde	_	_
+18-31	1346-1347	.	_	_
+
+#Text=In Betreff des Präsidenten dachte ich , so auf gut Glück hin , auf den zukünftigen König von England .
+19-1	1348-1350	In	_	_
+19-2	1351-1358	Betreff	_	_
+19-3	1359-1362	des	_	_
+19-4	1363-1374	Präsidenten	_	_
+19-5	1375-1381	dachte	_	_
+19-6	1382-1385	ich	_	_
+19-7	1386-1387	,	_	_
+19-8	1388-1390	so	_	_
+19-9	1391-1394	auf	_	_
+19-10	1395-1398	gut	_	_
+19-11	1399-1404	Glück	_	_
+19-12	1405-1408	hin	_	_
+19-13	1409-1410	,	_	_
+19-14	1411-1414	auf	_	_
+19-15	1415-1418	den	_	_
+19-16	1419-1430	zukünftigen	*[24]	PERmentioned[24]
+19-17	1431-1436	König	*[24]	PERmentioned[24]
+19-18	1437-1440	von	_	_
+19-19	1441-1448	England	*	PLACEmentioned
+19-20	1449-1450	.	_	_
+
+#Text=Sollte dies Schwierigkeiten haben , so könnte man auch den Kronprinzen von Bayern ( für die hiesigen Verhätnisse sehr passend ) darauf prüfen .
+20-1	1451-1457	Sollte	_	_
+20-2	1458-1462	dies	_	_
+20-3	1463-1478	Schwierigkeiten	_	_
+20-4	1479-1484	haben	_	_
+20-5	1485-1486	,	_	_
+20-6	1487-1489	so	_	_
+20-7	1490-1496	könnte	_	_
+20-8	1497-1500	man	_	_
+20-9	1501-1505	auch	_	_
+20-10	1506-1509	den	_	_
+20-11	1510-1521	Kronprinzen	*[26]	PERmentioned[26]
+20-12	1522-1525	von	*[26]	PERmentioned[26]
+20-13	1526-1532	Bayern	*[26]	PERmentioned[26]
+20-14	1533-1534	(	_	_
+20-15	1535-1538	für	_	_
+20-16	1539-1542	die	_	_
+20-17	1543-1551	hiesigen	_	_
+20-18	1552-1563	Verhätnisse	_	_
+20-19	1564-1568	sehr	_	_
+20-20	1569-1576	passend	_	_
+20-21	1577-1578	)	_	_
+20-22	1579-1585	darauf	_	_
+20-23	1586-1592	prüfen	_	_
+20-24	1593-1594	.	_	_
+
+#Text=Ihr Kronprinz ,
+21-1	1595-1598	Ihr	_	_
+21-2	1599-1608	Kronprinz	_	_
+21-3	1609-1610	,	_	_

@@ -1,0 +1,39 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn ohne Ort/ohne Datum Lieber Brunn- Wir bitten Dich Donnerstag Abend zu uns zu kommen , Du findest wohl nur Brunn und Hercher , .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-21	ohne	_	_
+1-5	22-30	Ort/ohne	_	_
+1-6	31-36	Datum	_	_
+1-7	37-43	Lieber	_	_
+1-8	44-50	Brunn-	*	PERaddressee
+1-9	51-54	Wir	_	_
+1-10	55-61	bitten	_	_
+1-11	62-66	Dich	_	_
+1-12	67-77	Donnerstag	*	DATEmentioned
+1-13	78-83	Abend	_	_
+1-14	84-86	zu	_	_
+1-15	87-90	uns	_	_
+1-16	91-93	zu	_	_
+1-17	94-100	kommen	_	_
+1-18	101-102	,	_	_
+1-19	103-105	Du	_	_
+1-20	106-113	findest	_	_
+1-21	114-118	wohl	_	_
+1-22	119-122	nur	_	_
+1-23	123-128	Brunn	*	PERmentioned
+1-24	129-132	und	_	_
+1-25	133-140	Hercher	*	PERmentioned
+1-26	141-142	,	_	_
+1-27	143-144	.	_	_
+
+#Text=y Dein M , Montag
+2-1	145-146	y	_	_
+2-2	147-151	Dein	_	_
+2-3	152-153	M	*	PERauthor
+2-4	154-155	,	_	_
+2-5	156-162	Montag	_	_

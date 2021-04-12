@@ -1,0 +1,247 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Bern , 4. April 1840 Bern 4 April 71840 Ich eile , theurer Freund , Ihren Brief vom 22.sten zu beantworten , zugleich mit Dank für die vom 10.ten .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-22	Bern	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	4.	*[4]	DATEletter[4]
+1-7	28-33	April	*[4]	DATEletter[4]
+1-8	34-38	1840	*[4]	DATEletter[4]
+1-9	39-43	Bern	*	PLACEfrom
+1-10	44-45	4	*[6]	DATEletter[6]
+1-11	46-51	April	*[6]	DATEletter[6]
+1-12	52-57	71840	*[6]	DATEletter[6]
+1-13	58-61	Ich	_	_
+1-14	62-66	eile	_	_
+1-15	67-68	,	_	_
+1-16	69-76	theurer	_	_
+1-17	77-83	Freund	_	_
+1-18	84-85	,	_	_
+1-19	86-91	Ihren	_	_
+1-20	92-97	Brief	_	_
+1-21	98-101	vom	_	_
+1-22	102-109	22.sten	*	DATEmentioned
+1-23	110-112	zu	_	_
+1-24	113-124	beantworten	_	_
+1-25	125-126	,	_	_
+1-26	127-135	zugleich	_	_
+1-27	136-139	mit	_	_
+1-28	140-144	Dank	_	_
+1-29	145-148	für	_	_
+1-30	149-152	die	_	_
+1-31	153-156	vom	_	_
+1-32	157-163	10.ten	*	DATEmentioned
+1-33	164-165	.	_	_
+
+#Text=Winckelmann wird Ihnen von Lepsius zugekommen sein .
+2-1	166-177	Winckelmann	*	PERmentioned
+2-2	178-182	wird	_	_
+2-3	183-188	Ihnen	_	_
+2-4	189-192	von	_	_
+2-5	193-200	Lepsius	*	PERmentioned
+2-6	201-211	zugekommen	_	_
+2-7	212-216	sein	_	_
+2-8	217-218	.	_	_
+
+#Text=Ich bin sehr einverstanden , daß die W ( inckelmanniana ) im Sommer erscheinen , um im Winter gebraucht werden zu können .
+3-1	219-222	Ich	_	_
+3-2	223-226	bin	_	_
+3-3	227-231	sehr	_	_
+3-4	232-245	einverstanden	_	_
+3-5	246-247	,	_	_
+3-6	248-251	daß	_	_
+3-7	252-255	die	_	_
+3-8	256-257	W	_	_
+3-9	258-259	(	_	_
+3-10	260-274	inckelmanniana	_	_
+3-11	275-276	)	_	_
+3-12	277-279	im	_	_
+3-13	280-286	Sommer	_	_
+3-14	287-297	erscheinen	_	_
+3-15	298-299	,	_	_
+3-16	300-302	um	_	_
+3-17	303-305	im	_	_
+3-18	306-312	Winter	_	_
+3-19	313-322	gebraucht	_	_
+3-20	323-329	werden	_	_
+3-21	330-332	zu	_	_
+3-22	333-339	können	_	_
+3-23	340-341	.	_	_
+
+#Text=( Nachträge und Anmerkungen behalte ich nun hier , und bitte um Rücksendung der Rede ) .
+4-1	342-343	(	_	_
+4-2	344-353	Nachträge	_	_
+4-3	354-357	und	_	_
+4-4	358-369	Anmerkungen	_	_
+4-5	370-377	behalte	_	_
+4-6	378-381	ich	_	_
+4-7	382-385	nun	_	_
+4-8	386-390	hier	_	_
+4-9	391-392	,	_	_
+4-10	393-396	und	_	_
+4-11	397-402	bitte	_	_
+4-12	403-405	um	_	_
+4-13	406-417	Rücksendung	_	_
+4-14	418-421	der	_	_
+4-15	422-426	Rede	_	_
+4-16	427-428	)	_	_
+4-17	429-430	.	_	_
+
+#Text=Keineswegs aber kann ich das sein hinsichtlich Ihres Vorschlages wegen Lepsius .
+5-1	431-441	Keineswegs	_	_
+5-2	442-446	aber	_	_
+5-3	447-451	kann	_	_
+5-4	452-455	ich	_	_
+5-5	456-459	das	_	_
+5-6	460-464	sein	_	_
+5-7	465-477	hinsichtlich	_	_
+5-8	478-483	Ihres	_	_
+5-9	484-495	Vorschlages	_	_
+5-10	496-501	wegen	_	_
+5-11	502-509	Lepsius	*	PERmentioned
+5-12	510-511	.	_	_
+
+#Text=Erstlich kann Birch nicht unter die Agenti gesetzt werden : er hat sein , uns unentbehrliches Amt angenommen , unter der Bedingung des Gegentheiles .
+6-1	512-520	Erstlich	_	_
+6-2	521-525	kann	_	_
+6-3	526-531	Birch	*	PERmentioned
+6-4	532-537	nicht	_	_
+6-5	538-543	unter	_	_
+6-6	544-547	die	_	_
+6-7	548-554	Agenti	_	_
+6-8	555-562	gesetzt	_	_
+6-9	563-569	werden	_	_
+6-10	570-571	:	_	_
+6-11	572-574	er	_	_
+6-12	575-578	hat	_	_
+6-13	579-583	sein	_	_
+6-14	584-585	,	_	_
+6-15	586-589	uns	_	_
+6-16	590-605	unentbehrliches	_	_
+6-17	606-609	Amt	_	_
+6-18	610-620	angenommen	_	_
+6-19	621-622	,	_	_
+6-20	623-628	unter	_	_
+6-21	629-632	der	_	_
+6-22	633-642	Bedingung	_	_
+6-23	643-646	des	_	_
+6-24	647-659	Gegentheiles	_	_
+6-25	660-661	.	_	_
+
+#Text=Ob es räthlich sein werde De Witte wegzulassen , will ich nicht entscheiden : ich glaube , er ist uns nützlich .
+7-1	662-664	Ob	_	_
+7-2	665-667	es	_	_
+7-3	668-676	räthlich	_	_
+7-4	677-681	sein	_	_
+7-5	682-687	werde	_	_
+7-6	688-690	De	*[13]	PERmentioned[13]
+7-7	691-696	Witte	*[13]	PERmentioned[13]
+7-8	697-708	wegzulassen	_	_
+7-9	709-710	,	_	_
+7-10	711-715	will	_	_
+7-11	716-719	ich	_	_
+7-12	720-725	nicht	_	_
+7-13	726-737	entscheiden	_	_
+7-14	738-739	:	_	_
+7-15	740-743	ich	_	_
+7-16	744-750	glaube	_	_
+7-17	751-752	,	_	_
+7-18	753-755	er	_	_
+7-19	756-759	ist	_	_
+7-20	760-763	uns	_	_
+7-21	764-772	nützlich	_	_
+7-22	773-774	.	_	_
+
+#Text=Auch paßt Lepsius gar nicht dahin : er hat eine andere Stellung gehabt : habe ich dort nach der Abreise gestanden , so war das ein Versehen .
+8-1	775-779	Auch	_	_
+8-2	780-784	paßt	_	_
+8-3	785-792	Lepsius	*	PERmentioned
+8-4	793-796	gar	_	_
+8-5	797-802	nicht	_	_
+8-6	803-808	dahin	_	_
+8-7	809-810	:	_	_
+8-8	811-813	er	_	_
+8-9	814-817	hat	_	_
+8-10	818-822	eine	_	_
+8-11	823-829	andere	_	_
+8-12	830-838	Stellung	_	_
+8-13	839-845	gehabt	_	_
+8-14	846-847	:	_	_
+8-15	848-852	habe	_	_
+8-16	853-856	ich	_	_
+8-17	857-861	dort	_	_
+8-18	862-866	nach	_	_
+8-19	867-870	der	_	_
+8-20	871-878	Abreise	_	_
+8-21	879-888	gestanden	_	_
+8-22	889-890	,	_	_
+8-23	891-893	so	_	_
+8-24	894-897	war	_	_
+8-25	898-901	das	_	_
+8-26	902-905	ein	_	_
+8-27	906-914	Versehen	_	_
+8-28	915-916	.	_	_
+
+#Text=- Sie wandten gegen Braun und Lepsius Aufnahme unter den Mitgliedern der X Viri die Statuten ein : jetzt aber bringen Sie auch die heilige Doppel- Fahrzahl wegen der Membri Onorar , j hervor , und machen die Statuten daher geltend .
+9-1	917-918	-	_	_
+9-2	919-922	Sie	_	_
+9-3	923-930	wandten	_	_
+9-4	931-936	gegen	_	_
+9-5	937-942	Braun	*	PERmentioned
+9-6	943-946	und	_	_
+9-7	947-954	Lepsius	*	PERmentioned
+9-8	955-963	Aufnahme	_	_
+9-9	964-969	unter	_	_
+9-10	970-973	den	_	_
+9-11	974-985	Mitgliedern	_	_
+9-12	986-989	der	_	_
+9-13	990-991	X	_	_
+9-14	992-996	Viri	_	_
+9-15	997-1000	die	_	_
+9-16	1001-1009	Statuten	_	_
+9-17	1010-1013	ein	_	_
+9-18	1014-1015	:	_	_
+9-19	1016-1021	jetzt	_	_
+9-20	1022-1026	aber	_	_
+9-21	1027-1034	bringen	_	_
+9-22	1035-1038	Sie	_	_
+9-23	1039-1043	auch	_	_
+9-24	1044-1047	die	_	_
+9-25	1048-1055	heilige	_	_
+9-26	1056-1063	Doppel-	_	_
+9-27	1064-1072	Fahrzahl	_	_
+9-28	1073-1078	wegen	_	_
+9-29	1079-1082	der	_	_
+9-30	1083-1089	Membri	_	_
+9-31	1090-1096	Onorar	_	_
+9-32	1097-1098	,	_	_
+9-33	1099-1100	j	_	_
+9-34	1101-1107	hervor	_	_
+9-35	1108-1109	,	_	_
+9-36	1110-1113	und	_	_
+9-37	1114-1120	machen	_	_
+9-38	1121-1124	die	_	_
+9-39	1125-1133	Statuten	_	_
+9-40	1134-1139	daher	_	_
+9-41	1140-1147	geltend	_	_
+9-42	1148-1149	.	_	_
+
+#Text=In meinem Gedächtnisse steht aber davon nichts geschrieben : sondern dies scheint eine Privatan-
+10-1	1150-1152	In	_	_
+10-2	1153-1159	meinem	_	_
+10-3	1160-1172	Gedächtnisse	_	_
+10-4	1173-1178	steht	_	_
+10-5	1179-1183	aber	_	_
+10-6	1184-1189	davon	_	_
+10-7	1190-1196	nichts	_	_
+10-8	1197-1208	geschrieben	_	_
+10-9	1209-1210	:	_	_
+10-10	1211-1218	sondern	_	_
+10-11	1219-1223	dies	_	_
+10-12	1224-1231	scheint	_	_
+10-13	1232-1236	eine	_	_
+10-14	1237-1246	Privatan-	_	_

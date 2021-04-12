@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Rom , 19 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-26	19	*[4]	DATEletter[4]
+1-7	27-28	.	*[4]	DATEletter[4]
+
+#Text=Januar 1835 nach Marseille von uns geschrieben werden .
+2-1	29-35	Januar	*[4]	DATEletter[4]
+2-2	36-40	1835	*[4]	DATEletter[4]
+2-3	41-45	nach	_	_
+2-4	46-55	Marseille	*	PLACEmentioned
+2-5	56-59	von	_	_
+2-6	60-63	uns	_	_
+2-7	64-75	geschrieben	_	_
+2-8	76-82	werden	_	_
+2-9	83-84	.	_	_
+
+#Text=Im schlimnsten Fall druckt man wenig Text .
+3-1	85-87	Im	_	_
+3-2	88-99	schlimnsten	_	_
+3-3	100-104	Fall	_	_
+3-4	105-111	druckt	_	_
+3-5	112-115	man	_	_
+3-6	116-121	wenig	_	_
+3-7	122-126	Text	_	_
+3-8	127-128	.	_	_
+
+#Text=4 .
+4-1	129-130	4	_	_
+4-2	131-132	.	_	_
+
+#Text=Wegen der Valentinischen Rechnung werde ich nächste Woche eine gründliche Untersuchung anstellen .
+5-1	133-138	Wegen	_	_
+5-2	139-142	der	_	_
+5-3	143-157	Valentinischen	*	PERmentioned
+5-4	158-166	Rechnung	_	_
+5-5	167-172	werde	_	_
+5-6	173-176	ich	_	_
+5-7	177-184	nächste	_	_
+5-8	185-190	Woche	_	_
+5-9	191-195	eine	_	_
+5-10	196-206	gründliche	_	_
+5-11	207-219	Untersuchung	_	_
+5-12	220-229	anstellen	_	_
+5-13	230-231	.	_	_
+
+#Text=Für die Zukunft ist gesorgt .
+6-1	232-235	Für	_	_
+6-2	236-239	die	_	_
+6-3	240-247	Zukunft	_	_
+6-4	248-251	ist	_	_
+6-5	252-259	gesorgt	_	_
+6-6	260-261	.	_	_
+
+#Text=5 .
+7-1	262-263	5	_	_
+7-2	264-265	.	_	_
+
+#Text=Die Aegyptiaca liefre ich für Ende 1835 oder Anfang 1836 , wie Sie wollen .
+8-1	266-269	Die	_	_
+8-2	270-280	Aegyptiaca	*	MISC
+8-3	281-287	liefre	_	_
+8-4	288-291	ich	_	_
+8-5	292-295	für	_	_
+8-6	296-300	Ende	_	_
+8-7	301-305	1835	*	DATEmentioned
+8-8	306-310	oder	_	_
+8-9	311-317	Anfang	_	_
+8-10	318-322	1836	*	DATEmentioned
+8-11	323-324	,	_	_
+8-12	325-328	wie	_	_
+8-13	329-332	Sie	_	_
+8-14	333-339	wollen	_	_
+8-15	340-341	.	_	_
+
+#Text=Es thut mir leid , daß letronne nicht den Text zu Champ ( ollion ) historische Darstellingen schreibt , oder commentiert .
+9-1	342-344	Es	_	_
+9-2	345-349	thut	_	_
+9-3	350-353	mir	_	_
+9-4	354-358	leid	_	_
+9-5	359-360	,	_	_
+9-6	361-364	daß	_	_
+9-7	365-373	letronne	*	PERmentioned
+9-8	374-379	nicht	_	_
+9-9	380-383	den	_	_
+9-10	384-388	Text	_	_
+9-11	389-391	zu	_	_
+9-12	392-397	Champ	*[5]	PERmentioned[5]
+9-13	398-399	(	*[5]	PERmentioned[5]
+9-14	400-406	ollion	*[5]	PERmentioned[5]
+9-15	407-408	)	*[5]	PERmentioned[5]
+9-16	409-420	historische	_	_
+9-17	421-434	Darstellingen	_	_
+9-18	435-443	schreibt	_	_
+9-19	444-445	,	_	_
+9-20	446-450	oder	_	_
+9-21	451-462	commentiert	_	_
+9-22	463-464	.	_	_
+
+#Text=6 .
+10-1	465-466	6	_	_
+10-2	467-468	.	_	_
+
+#Text=Wegen des Artikels der Statuten hinsichtlich der Redactions Honorare habe ich immer die Ansicht gehabt ( ich glaube auch bei der Berathung ausgesprochen ) daß es eben ein Honorar und kein Gehalt sei : was alason den Sekretären redigiert wird , ist demjenigen zu honorieren , der es besorgt .
+11-1	469-474	Wegen	_	_
+11-2	475-478	des	_	_
+11-3	479-487	Artikels	_	_
+11-4	488-491	der	_	_
+11-5	492-500	Statuten	_	_
+11-6	501-513	hinsichtlich	_	_
+11-7	514-517	der	_	_
+11-8	518-528	Redactions	_	_
+11-9	529-537	Honorare	_	_
+11-10	538-542	habe	_	_
+11-11	543-546	ich	_	_
+11-12	547-552	immer	_	_
+11-13	553-556	die	_	_
+11-14	557-564	Ansicht	_	_
+11-15	565-571	gehabt	_	_
+11-16	572-573	(	_	_
+11-17	574-577	ich	_	_
+11-18	578-584	glaube	_	_
+11-19	585-589	auch	_	_
+11-20	590-593	bei	_	_
+11-21	594-597	der	_	_
+11-22	598-607	Berathung	_	_
+11-23	608-621	ausgesprochen	_	_
+11-24	622-623	)	_	_
+11-25	624-627	daß	_	_
+11-26	628-630	es	_	_
+11-27	631-635	eben	_	_
+11-28	636-639	ein	_	_
+11-29	640-647	Honorar	_	_
+11-30	648-651	und	_	_
+11-31	652-656	kein	_	_
+11-32	657-663	Gehalt	_	_
+11-33	664-667	sei	_	_
+11-34	668-669	:	_	_
+11-35	670-673	was	_	_
+11-36	674-680	alason	_	_
+11-37	681-684	den	_	_
+11-38	685-695	Sekretären	_	_
+11-39	696-705	redigiert	_	_
+11-40	706-710	wird	_	_
+11-41	711-712	,	_	_
+11-42	713-716	ist	_	_
+11-43	717-727	demjenigen	_	_
+11-44	728-730	zu	_	_
+11-45	731-741	honorieren	_	_
+11-46	742-743	,	_	_
+11-47	744-747	der	_	_
+11-48	748-750	es	_	_
+11-49	751-758	besorgt	_	_
+11-50	759-760	.	_	_
+
+#Text=Ob für viel oder weniger ?
+12-1	761-763	Ob	_	_
+12-2	764-767	für	_	_
+12-3	768-772	viel	_	_
+12-4	773-777	oder	_	_
+12-5	778-785	weniger	_	_
+12-6	786-787	?	_	_
+
+#Text=kann im Einzelnen die Frage sein .
+13-1	788-792	kann	_	_
+13-2	793-795	im	_	_
+13-3	796-805	Einzelnen	_	_
+13-4	806-809	die	_	_
+13-5	810-815	Frage	_	_
+13-6	816-820	sein	_	_
+13-7	821-822	.	_	_
+
+#Text=Hier rechnen wir allenfals aus , da wir 120 Scudi bedürfen .
+14-1	823-827	Hier	_	_
+14-2	828-835	rechnen	_	_
+14-3	836-839	wir	_	_
+14-4	840-849	allenfals	_	_
+14-5	850-853	aus	_	_
+14-6	854-855	,	_	_
+14-7	856-858	da	_	_
+14-8	859-862	wir	_	_
+14-9	863-866	120	_	_
+14-10	867-872	Scudi	_	_
+14-11	873-881	bedürfen	_	_
+14-12	882-883	.	_	_
+
+#Text=7 .
+15-1	884-885	7	_	_
+15-2	886-887	.	_	_
+
+#Text=Mit der Bibliothek steht es so , daß wir jetzt ( mit mir und Kestner , zusammen 8 Louisdor ) 40 - 42 Louisdor haben .
+16-1	888-891	Mit	_	_
+16-2	892-895	der	_	_
+16-3	896-906	Bibliothek	*	ORGmentioned
+16-4	907-912	steht	_	_
+16-5	913-915	es	_	_
+16-6	916-918	so	_	_
+16-7	919-920	,	_	_
+16-8	921-924	daß	_	_
+16-9	925-928	wir	_	_
+16-10	929-934	jetzt	_	_
+16-11	935-936	(	_	_
+16-12	937-940	mit	_	_
+16-13	941-944	mir	_	_
+16-14	945-948	und	_	_
+16-15	949-956	Kestner	*[6]	PERmentioned[6]
+16-16	957-958	,	*[6]	PERmentioned[6]
+16-17	959-967	zusammen	*[6]	PERmentioned[6]
+16-18	968-969	8	_	_
+16-19	970-978	Louisdor	_	_
+16-20	979-980	)	_	_
+16-21	981-983	40	_	_
+16-22	984-985	-	_	_
+16-23	986-988	42	_	_
+16-24	989-997	Louisdor	_	_
+16-25	998-1003	haben	_	_
+16-26	1004-1005	.	_	_
+
+#Text=Gekauft sind für 45 Scudi wichtige Werke .
+17-1	1006-1013	Gekauft	_	_
+17-2	1014-1018	sind	_	_
+17-3	1019-1022	für	_	_
+17-4	1023-1025	45	_	_
+17-5	1026-1031	Scudi	_	_
+17-6	1032-1040	wichtige	_	_
+17-7	1041-1046	Werke	_	_
+17-8	1047-1048	.	_	_
+
+#Text=Spaur wird wahrscheinlich Ihre Kiste gegen 40 Scudi bewilligen .
+18-1	1049-1054	Spaur	*	PERmentioned
+18-2	1055-1059	wird	_	_
+18-3	1060-1074	wahrscheinlich	_	_
+18-4	1075-1079	Ihre	_	_
+18-5	1080-1085	Kiste	_	_
+18-6	1086-1091	gegen	_	_
+18-7	1092-1094	40	_	_
+18-8	1095-1100	Scudi	_	_
+18-9	1101-1111	bewilligen	_	_
+18-10	1112-1113	.	_	_
+
+#Text=Sie sehen also , daß wir schon im Deficit sind , da wir 120 Scudi an Braun zahlen , ( ohne daß der Katalog hat gemacht werden können , da der ProßSekretär dem Bibliothekar keine Zeit läßt . )
+19-1	1114-1117	Sie	_	_
+19-2	1118-1123	sehen	_	_
+19-3	1124-1128	also	_	_
+19-4	1129-1130	,	_	_
+19-5	1131-1134	daß	_	_
+19-6	1135-1138	wir	_	_
+19-7	1139-1144	schon	_	_
+19-8	1145-1147	im	_	_
+19-9	1148-1155	Deficit	_	_
+19-10	1156-1160	sind	_	_
+19-11	1161-1162	,	_	_
+19-12	1163-1165	da	_	_
+19-13	1166-1169	wir	_	_
+19-14	1170-1173	120	_	_
+19-15	1174-1179	Scudi	_	_
+19-16	1180-1182	an	_	_
+19-17	1183-1188	Braun	*	PERmentioned
+19-18	1189-1195	zahlen	_	_
+19-19	1196-1197	,	_	_
+19-20	1198-1199	(	_	_
+19-21	1200-1204	ohne	_	_
+19-22	1205-1208	daß	_	_
+19-23	1209-1212	der	_	_
+19-24	1213-1220	Katalog	_	_
+19-25	1221-1224	hat	_	_
+19-26	1225-1232	gemacht	_	_
+19-27	1233-1239	werden	_	_
+19-28	1240-1246	können	_	_
+19-29	1247-1248	,	_	_
+19-30	1249-1251	da	_	_
+19-31	1252-1255	der	_	_
+19-32	1256-1268	ProßSekretär	_	_
+19-33	1269-1272	dem	_	_
+19-34	1273-1285	Bibliothekar	_	_
+19-35	1286-1291	keine	_	_
+19-36	1292-1296	Zeit	_	_
+19-37	1297-1301	läßt	_	_
+19-38	1302-1303	.	_	_
+19-39	1304-1305	)	_	_
+
+#Text=Ich will meim ganzes Honorar ,
+20-1	1306-1309	Ich	_	_
+20-2	1310-1314	will	_	_
+20-3	1315-1319	meim	_	_
+20-4	1320-1326	ganzes	_	_
+20-5	1327-1334	Honorar	_	_
+20-6	1335-1336	,	_	_

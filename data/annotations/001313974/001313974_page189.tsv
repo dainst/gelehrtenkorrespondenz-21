@@ -1,0 +1,191 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 26. Juli 1873 H g 247 73 r . 3/8 79 Roma , li 26. Juli 1873 Lieber Herr Professor Herzlichen Dank für die Münchener Correspondenzkarte , die erste dieser Gattung , die ich zu Gesicht bekan .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	26.	_	_
+1-7	27-31	Juli	*[1]	DATEletter[1]
+1-8	32-36	1873	*[1]	DATEletter[1]
+1-9	37-38	H	_	_
+1-10	39-40	g	_	_
+1-11	41-44	247	*[2]	DATErecieved[2]
+1-12	45-47	73	*[2]	DATErecieved[2]
+1-13	48-49	r	_	_
+1-14	50-51	.	_	_
+1-15	52-55	3/8	*[3]	DATEanswered[3]
+1-16	56-58	79	*[3]	DATEanswered[3]
+1-17	59-63	Roma	*	PLACEfrom
+1-18	64-65	,	_	_
+1-19	66-68	li	_	_
+1-20	69-72	26.	*[4]	DATEletter[4]
+1-21	73-77	Juli	*[4]	DATEletter[4]
+1-22	78-82	1873	*[4]	DATEletter[4]
+1-23	83-89	Lieber	_	_
+1-24	90-94	Herr	_	_
+1-25	95-104	Professor	_	_
+1-26	105-115	Herzlichen	_	_
+1-27	116-120	Dank	_	_
+1-28	121-124	für	_	_
+1-29	125-128	die	_	_
+1-30	129-138	Münchener	_	_
+1-31	139-157	Correspondenzkarte	_	_
+1-32	158-159	,	_	_
+1-33	160-163	die	_	_
+1-34	164-169	erste	_	_
+1-35	170-176	dieser	_	_
+1-36	177-184	Gattung	_	_
+1-37	185-186	,	_	_
+1-38	187-190	die	_	_
+1-39	191-194	ich	_	_
+1-40	195-197	zu	_	_
+1-41	198-205	Gesicht	_	_
+1-42	206-211	bekan	_	_
+1-43	212-213	.	_	_
+
+#Text=Von Rom ist nicht viel Gutes zu melden .
+2-1	214-217	Von	_	_
+2-2	218-221	Rom	*	PLACEmentioned
+2-3	222-225	ist	_	_
+2-4	226-231	nicht	_	_
+2-5	232-236	viel	_	_
+2-6	237-242	Gutes	_	_
+2-7	243-245	zu	_	_
+2-8	246-252	melden	_	_
+2-9	253-254	.	_	_
+
+#Text=Ich bin gegenwärtig beschäftigt , den Apparat und die ungebundenen Bücher in den neuen uns angewiesenen Raum zu transportiren , wobei der ohnehin schon so complicirte Mechanismus keineswegs an Klarheit gewinnt .
+3-1	255-258	Ich	_	_
+3-2	259-262	bin	_	_
+3-3	263-274	gegenwärtig	_	_
+3-4	275-286	beschäftigt	_	_
+3-5	287-288	,	_	_
+3-6	289-292	den	_	_
+3-7	293-300	Apparat	_	_
+3-8	301-304	und	_	_
+3-9	305-308	die	_	_
+3-10	309-321	ungebundenen	_	_
+3-11	322-328	Bücher	_	_
+3-12	329-331	in	_	_
+3-13	332-335	den	_	_
+3-14	336-341	neuen	_	_
+3-15	342-345	uns	_	_
+3-16	346-358	angewiesenen	_	_
+3-17	359-363	Raum	_	_
+3-18	364-366	zu	_	_
+3-19	367-380	transportiren	_	_
+3-20	381-382	,	_	_
+3-21	383-388	wobei	_	_
+3-22	389-392	der	_	_
+3-23	393-400	ohnehin	_	_
+3-24	401-406	schon	_	_
+3-25	407-409	so	_	_
+3-26	410-421	complicirte	_	_
+3-27	422-433	Mechanismus	_	_
+3-28	434-444	keineswegs	_	_
+3-29	445-447	an	_	_
+3-30	448-456	Klarheit	_	_
+3-31	457-464	gewinnt	_	_
+3-32	465-466	.	_	_
+
+#Text=Ich habe dabei Dressel zu Hülfe genommen und werde die Centraldirection bitten , ihm dafür eine angemessene Renumeration zu gewähren .
+4-1	467-470	Ich	_	_
+4-2	471-475	habe	_	_
+4-3	476-481	dabei	_	_
+4-4	482-489	Dressel	*	PERmentioned
+4-5	490-492	zu	_	_
+4-6	493-498	Hülfe	_	_
+4-7	499-507	genommen	_	_
+4-8	508-511	und	_	_
+4-9	512-517	werde	_	_
+4-10	518-521	die	_	_
+4-11	522-538	Centraldirection	*	ORGmentioned
+4-12	539-545	bitten	_	_
+4-13	546-547	,	_	_
+4-14	548-551	ihm	_	_
+4-15	552-557	dafür	_	_
+4-16	558-562	eine	_	_
+4-17	563-574	angemessene	_	_
+4-18	575-587	Renumeration	_	_
+4-19	588-590	zu	_	_
+4-20	591-599	gewähren	_	_
+4-21	600-601	.	_	_
+
+#Text=Gamurrini hat endlich die chiusiner Protokolle zurückgeschickt und dabei furchtbar in den Druckbogen gewirthschaftet .
+5-1	602-611	Gamurrini	*	PERmentioned
+5-2	612-615	hat	_	_
+5-3	616-623	endlich	_	_
+5-4	624-627	die	_	_
+5-5	628-637	chiusiner	*	MISC
+5-6	638-648	Protokolle	_	_
+5-7	649-664	zurückgeschickt	_	_
+5-8	665-668	und	_	_
+5-9	669-674	dabei	_	_
+5-10	675-684	furchtbar	_	_
+5-11	685-687	in	_	_
+5-12	688-691	den	_	_
+5-13	692-702	Druckbogen	_	_
+5-14	703-718	gewirthschaftet	_	_
+5-15	719-720	.	_	_
+
+#Text=Er hat es nicht unterlassen können , eine Einleitung und am Schlusse eine Beschreibung der nach meinem dortigen Aufenthalt fehlenden Ausgrabungen beizufügen , so daß der Artikel unter seinen Namen erscheint .
+6-1	721-723	Er	_	_
+6-2	724-727	hat	_	_
+6-3	728-730	es	_	_
+6-4	731-736	nicht	_	_
+6-5	737-748	unterlassen	_	_
+6-6	749-755	können	_	_
+6-7	756-757	,	_	_
+6-8	758-762	eine	_	_
+6-9	763-773	Einleitung	_	_
+6-10	774-777	und	_	_
+6-11	778-780	am	_	_
+6-12	781-789	Schlusse	_	_
+6-13	790-794	eine	_	_
+6-14	795-807	Beschreibung	_	_
+6-15	808-811	der	_	_
+6-16	812-816	nach	_	_
+6-17	817-823	meinem	_	_
+6-18	824-832	dortigen	_	_
+6-19	833-843	Aufenthalt	_	_
+6-20	844-853	fehlenden	_	_
+6-21	854-866	Ausgrabungen	_	_
+6-22	867-877	beizufügen	_	_
+6-23	878-879	,	_	_
+6-24	880-882	so	_	_
+6-25	883-886	daß	_	_
+6-26	887-890	der	_	_
+6-27	891-898	Artikel	_	_
+6-28	899-904	unter	_	_
+6-29	905-911	seinen	_	_
+6-30	912-917	Namen	_	_
+6-31	918-927	erscheint	_	_
+6-32	928-929	.	_	_
+
+#Text=Habeat sibi .
+7-1	930-936	Habeat	_	_
+7-2	937-941	sibi	_	_
+7-3	942-943	.	_	_
+
+#Text=Hierdurch ist die von mir nach Chiusi projectirte Reise überflüssig geworden .
+8-1	944-953	Hierdurch	_	_
+8-2	954-957	ist	_	_
+8-3	958-961	die	_	_
+8-4	962-965	von	_	_
+8-5	966-969	mir	_	_
+8-6	970-974	nach	_	_
+8-7	975-981	Chiusi	*	PLACEmentioned
+8-8	982-993	projectirte	_	_
+8-9	994-999	Reise	_	_
+8-10	1000-1011	überflüssig	_	_
+8-11	1012-1020	geworden	_	_
+8-12	1021-1022	.	_	_
+
+#Text=Dagegen werde ich
+9-1	1023-1030	Dagegen	_	_
+9-2	1031-1036	werde	_	_
+9-3	1037-1040	ich	_	_

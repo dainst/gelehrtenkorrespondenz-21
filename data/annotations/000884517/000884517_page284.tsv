@@ -1,0 +1,211 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=81 Gerhard an Braun Berlin , 22. März 1849 8 .
+1-1	0-2	81	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	22.	*[1]	DATEletter[1]
+1-8	33-37	März	*[1]	DATEletter[1]
+1-9	38-42	1849	*[1]	DATEletter[1]
+1-10	43-44	8	_	_
+1-11	45-46	.	_	_
+
+#Text=2/IV 49 r . 12/IV 49 Dr. Braun Berlin 22 März 49 Mein .
+2-1	47-51	2/IV	*[2]	DATErecieved[2]
+2-2	52-54	49	*[2]	DATErecieved[2]
+2-3	55-56	r	_	_
+2-4	57-58	.	_	_
+2-5	59-64	12/IV	*[3]	DATEanswered[3]
+2-6	65-67	49	*[3]	DATEanswered[3]
+2-7	68-71	Dr.	*[4]	PERaddressee[4]
+2-8	72-77	Braun	*[4]	PERaddressee[4]
+2-9	78-84	Berlin	*	PLACEfrom
+2-10	85-87	22	*[5]	DATEletter[5]
+2-11	88-92	März	*[5]	DATEletter[5]
+2-12	93-95	49	*[5]	DATEletter[5]
+2-13	96-100	Mein	_	_
+2-14	101-102	.	_	_
+
+#Text=theurer Freund .
+3-1	103-110	theurer	_	_
+3-2	111-117	Freund	_	_
+3-3	118-119	.	_	_
+
+#Text=Unsre Idus des März sind zu erster Nachfrage vorüber , mögen die Ihrigen auch gnädig und wo möglich mit dem Umschwung gekommen sein dessen die römischen Zustände so dringend bedürfen .
+4-1	120-125	Unsre	_	_
+4-2	126-130	Idus	_	_
+4-3	131-134	des	_	_
+4-4	135-139	März	*	DATEmentioned
+4-5	140-144	sind	_	_
+4-6	145-147	zu	_	_
+4-7	148-154	erster	_	_
+4-8	155-164	Nachfrage	_	_
+4-9	165-172	vorüber	_	_
+4-10	173-174	,	_	_
+4-11	175-180	mögen	_	_
+4-12	181-184	die	_	_
+4-13	185-192	Ihrigen	_	_
+4-14	193-197	auch	_	_
+4-15	198-204	gnädig	_	_
+4-16	205-208	und	_	_
+4-17	209-211	wo	_	_
+4-18	212-219	möglich	_	_
+4-19	220-223	mit	_	_
+4-20	224-227	dem	_	_
+4-21	228-237	Umschwung	_	_
+4-22	238-246	gekommen	_	_
+4-23	247-251	sein	_	_
+4-24	252-258	dessen	_	_
+4-25	259-262	die	_	_
+4-26	263-272	römischen	_	_
+4-27	273-281	Zustände	_	_
+4-28	282-284	so	_	_
+4-29	285-293	dringend	_	_
+4-30	294-302	bedürfen	_	_
+4-31	303-304	.	_	_
+
+#Text=Wir haben viel Angst und Sorge darum und für unsre dortigen Freunde .
+5-1	305-308	Wir	_	_
+5-2	309-314	haben	_	_
+5-3	315-319	viel	_	_
+5-4	320-325	Angst	_	_
+5-5	326-329	und	_	_
+5-6	330-335	Sorge	_	_
+5-7	336-341	darum	_	_
+5-8	342-345	und	_	_
+5-9	346-349	für	_	_
+5-10	350-355	unsre	_	_
+5-11	356-364	dortigen	_	_
+5-12	365-372	Freunde	_	_
+5-13	373-374	.	_	_
+
+#Text=Archäologische Freunde die in der Politik stecken - Forchhammer , Urlichs , Frokesch - werden mir dadurch unsichtbar \; dagegen ist es der Politik , nämlich seiner tüchtigen Wahlmannschaft hauptsächlich zu danken daß unser Horkel eine gute Oberlehrerstelle ( 700 rt und Wohnung ) im demokratischen Zulläkan gefunden hat .
+6-1	375-389	Archäologische	_	_
+6-2	390-397	Freunde	_	_
+6-3	398-401	die	_	_
+6-4	402-404	in	_	_
+6-5	405-408	der	_	_
+6-6	409-416	Politik	_	_
+6-7	417-424	stecken	_	_
+6-8	425-426	-	_	_
+6-9	427-438	Forchhammer	*	PERmentioned
+6-10	439-440	,	_	_
+6-11	441-448	Urlichs	*	PERmentioned
+6-12	449-450	,	_	_
+6-13	451-459	Frokesch	*	PERmentioned
+6-14	460-461	-	_	_
+6-15	462-468	werden	_	_
+6-16	469-472	mir	_	_
+6-17	473-480	dadurch	_	_
+6-18	481-491	unsichtbar	_	_
+6-19	492-493	\;	_	_
+6-20	494-501	dagegen	_	_
+6-21	502-505	ist	_	_
+6-22	506-508	es	_	_
+6-23	509-512	der	_	_
+6-24	513-520	Politik	_	_
+6-25	521-522	,	_	_
+6-26	523-530	nämlich	_	_
+6-27	531-537	seiner	_	_
+6-28	538-547	tüchtigen	_	_
+6-29	548-562	Wahlmannschaft	_	_
+6-30	563-576	hauptsächlich	_	_
+6-31	577-579	zu	_	_
+6-32	580-586	danken	_	_
+6-33	587-590	daß	_	_
+6-34	591-596	unser	_	_
+6-35	597-603	Horkel	*	PERmentioned
+6-36	604-608	eine	_	_
+6-37	609-613	gute	_	_
+6-38	614-630	Oberlehrerstelle	_	_
+6-39	631-632	(	_	_
+6-40	633-636	700	_	_
+6-41	637-639	rt	_	_
+6-42	640-643	und	_	_
+6-43	644-651	Wohnung	_	_
+6-44	652-653	)	_	_
+6-45	654-656	im	_	_
+6-46	657-671	demokratischen	_	_
+6-47	672-680	Zulläkan	_	_
+6-48	681-689	gefunden	_	_
+6-49	690-693	hat	_	_
+6-50	694-695	.	_	_
+
+#Text=Dank für die restirenden Bullettino Bogen 1848 die viel Gutes enthalten \; Archäologischer Anzeiger no 2 erhielten Sie incl .
+7-1	696-700	Dank	_	_
+7-2	701-704	für	_	_
+7-3	705-708	die	_	_
+7-4	709-720	restirenden	_	_
+7-5	721-731	Bullettino	_	_
+7-6	732-737	Bogen	_	_
+7-7	738-742	1848	*	DATEmentioned
+7-8	743-746	die	_	_
+7-9	747-751	viel	_	_
+7-10	752-757	Gutes	_	_
+7-11	758-767	enthalten	_	_
+7-12	768-769	\;	_	_
+7-13	770-785	Archäologischer	_	_
+7-14	786-794	Anzeiger	_	_
+7-15	795-797	no	_	_
+7-16	798-799	2	_	_
+7-17	800-809	erhielten	_	_
+7-18	810-813	Sie	_	_
+7-19	814-818	incl	_	_
+7-20	819-820	.	_	_
+
+#Text=dem Lästergg .
+8-1	821-824	dem	_	_
+8-2	825-833	Lästergg	_	_
+8-3	834-835	.	_	_
+
+#Text=Aufsatz unter Kreuzband .
+9-1	836-843	Aufsatz	_	_
+9-2	844-849	unter	_	_
+9-3	850-859	Kreuzband	_	_
+9-4	860-861	.	_	_
+
+#Text=Ihr kundiges Kunstblatt no 8 ist freilich auch angelangt .
+10-1	862-865	Ihr	_	_
+10-2	866-874	kundiges	_	_
+10-3	875-885	Kunstblatt	_	_
+10-4	886-888	no	_	_
+10-5	889-890	8	_	_
+10-6	891-894	ist	_	_
+10-7	895-903	freilich	_	_
+10-8	904-908	auch	_	_
+10-9	909-918	angelangt	_	_
+10-10	919-920	.	_	_
+
+#Text=In Erwägung jedoch daß mein Ausdruck von Betrübnis und Beileid durch verkehrte Auslegung mich nicht friedlich zu stimmen vermag - , „ daß üble Witze die man
+11-1	921-923	In	_	_
+11-2	924-932	Erwägung	_	_
+11-3	933-939	jedoch	_	_
+11-4	940-943	daß	_	_
+11-5	944-948	mein	_	_
+11-6	949-957	Ausdruck	_	_
+11-7	958-961	von	_	_
+11-8	962-971	Betrübnis	_	_
+11-9	972-975	und	_	_
+11-10	976-983	Beileid	_	_
+11-11	984-989	durch	_	_
+11-12	990-999	verkehrte	_	_
+11-13	1000-1009	Auslegung	_	_
+11-14	1010-1014	mich	_	_
+11-15	1015-1020	nicht	_	_
+11-16	1021-1030	friedlich	_	_
+11-17	1031-1033	zu	_	_
+11-18	1034-1041	stimmen	_	_
+11-19	1042-1048	vermag	_	_
+11-20	1049-1050	-	_	_
+11-21	1051-1052	,	_	_
+11-22	1053-1054	„	_	_
+11-23	1055-1058	daß	_	_
+11-24	1059-1063	üble	_	_
+11-25	1064-1069	Witze	_	_
+11-26	1070-1073	die	_	_
+11-27	1074-1077	man	_	_

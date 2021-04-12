@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Dr. Henzen Gerhard an Äenzen | Berlin 1/II/1847 a. di Dir , g . 12/II 47 r . 26/II 47 Berlin 1 Febr 47 .
+1-1	0-3	Dr.	_	_	
+1-2	4-10	Henzen	*	PERaddressee	
+1-3	11-18	Gerhard	*	PERauthor	
+1-4	19-21	an	_	_	
+1-5	22-28	Äenzen	*	PERaddressee	
+1-6	29-30	|	_	_	
+1-7	31-37	Berlin	*	PLACEfrom	
+1-8	38-47	1/II/1847	*	DATEletter	
+1-9	48-50	a.	_	_	
+1-10	51-53	di	_	_	
+1-11	54-57	Dir	_	_	
+1-12	58-59	,	_	_	
+1-13	60-61	g	_	_	
+1-14	62-63	.	_	_	
+1-15	64-69	12/II	*[1]	DATErecieved[1]	
+1-16	70-72	47	*[1]	DATErecieved[1]	
+1-17	73-74	r	_	_	
+1-18	75-76	.	_	_	
+1-19	77-82	26/II	*[2]	DATEanswered[2]	
+1-20	83-85	47	*[2]	DATEanswered[2]	
+1-21	86-92	Berlin	*	PLACEfrom	
+1-22	93-94	1	*[3]	DATEletter[3]	
+1-23	95-99	Febr	*[3]	DATEletter[3]	
+1-24	100-102	47	*[3]	DATEletter[3]	
+1-25	103-104	.	_	_	
+
+#Text=Lieber Freund Göttling in dessen dicken Brief ich dies Blättchen einlege schuldet Ihw ch immer , schreibt auch darüber nicht ist aber nuUL gemahnt I Sonst geht die epigraphische Sache nicht übel vorwärts ; ich schreibe darüber an Mommsen .
+2-1	105-111	Lieber	_	_	
+2-2	112-118	Freund	_	_	
+2-3	119-127	Göttling	*	PERmentioned	
+2-4	128-130	in	_	_	
+2-5	131-137	dessen	_	_	
+2-6	138-144	dicken	_	_	
+2-7	145-150	Brief	_	_	
+2-8	151-154	ich	_	_	
+2-9	155-159	dies	_	_	
+2-10	160-169	Blättchen	_	_	
+2-11	170-177	einlege	_	_	
+2-12	178-186	schuldet	_	_	
+2-13	187-190	Ihw	_	_	
+2-14	191-193	ch	_	_	
+2-15	194-199	immer	_	_	
+2-16	200-201	,	_	_	
+2-17	202-210	schreibt	_	_	
+2-18	211-215	auch	_	_	
+2-19	216-223	darüber	_	_	
+2-20	224-229	nicht	_	_	
+2-21	230-233	ist	_	_	
+2-22	234-238	aber	_	_	
+2-23	239-243	nuUL	_	_	
+2-24	244-251	gemahnt	_	_	
+2-25	252-253	I	_	_	
+2-26	254-259	Sonst	_	_	
+2-27	260-264	geht	_	_	
+2-28	265-268	die	_	_	
+2-29	269-282	epigraphische	_	_	
+2-30	283-288	Sache	_	_	
+2-31	289-294	nicht	_	_	
+2-32	295-299	übel	_	_	
+2-33	300-308	vorwärts	_	_	
+2-34	309-310	;	_	_	
+2-35	311-314	ich	_	_	
+2-36	315-323	schreibe	_	_	
+2-37	324-331	darüber	_	_	
+2-38	332-334	an	_	_	
+2-39	335-342	Mommsen	*	PERmentioned	
+2-40	343-344	.	_	_	
+
+#Text=Annali und Dec .
+3-1	345-351	Annali	_	_	
+3-2	352-355	und	_	_	
+3-3	356-359	Dec	_	_	
+3-4	360-361	.	_	_	
+
+#Text=Bull .
+4-1	362-366	Bull	_	_	
+4-2	367-368	.	_	_	
+
+#Text=habe richtig erhalten , einen Neigebaurschen Brief auflgesandtschaftlichen Weg Ihnen gesandt .
+5-1	369-373	habe	_	_	
+5-2	374-381	richtig	_	_	
+5-3	382-390	erhalten	_	_	
+5-4	391-392	,	_	_	
+5-5	393-398	einen	_	_	
+5-6	399-413	Neigebaurschen	_	_	
+5-7	414-419	Brief	_	_	
+5-8	420-443	auflgesandtschaftlichen	_	_	
+5-9	444-447	Weg	_	_	
+5-10	448-453	Ihnen	_	_	
+5-11	454-461	gesandt	_	_	
+5-12	462-463	.	_	_	
+
+#Text=Cav , De Agostini notire ich also , als von Ihnen und Braun vorgeschlagen , zum M. onor .
+6-1	464-467	Cav	_	_	
+6-2	468-469	,	_	_	
+6-3	470-472	De	*[4]	PERmentioned[4]	
+6-4	473-481	Agostini	*[4]	PERmentioned[4]	
+6-5	482-488	notire	_	_	
+6-6	489-492	ich	_	_	
+6-7	493-497	also	_	_	
+6-8	498-499	,	_	_	
+6-9	500-503	als	_	_	
+6-10	504-507	von	_	_	
+6-11	508-513	Ihnen	_	_	
+6-12	514-517	und	_	_	
+6-13	518-523	Braun	*	PERmentioned	
+6-14	524-537	vorgeschlagen	_	_	
+6-15	538-539	,	_	_	
+6-16	540-543	zum	_	_	
+6-17	544-546	M.	_	_	
+6-18	547-551	onor	_	_	
+6-19	552-553	.	_	_	
+
+#Text=für den 21 April da er obscur ist , so sorgen Sie wol dafür daß das Bull .
+7-1	554-557	für	_	_	
+7-2	558-561	den	_	_	
+7-3	562-564	21	*[5]	DATEmentioned[5]	
+7-4	565-570	April	*[5]	DATEmentioned[5]	
+7-5	571-573	da	_	_	
+7-6	574-576	er	_	_	
+7-7	577-583	obscur	_	_	
+7-8	584-587	ist	_	_	
+7-9	588-589	,	_	_	
+7-10	590-592	so	_	_	
+7-11	593-599	sorgen	_	_	
+7-12	600-603	Sie	_	_	
+7-13	604-607	wol	_	_	
+7-14	608-613	dafür	_	_	
+7-15	614-617	daß	_	_	
+7-16	618-621	das	_	_	
+7-17	622-626	Bull	_	_	
+7-18	627-628	.	_	_	
+
+#Text=ihn noch einmal gelegentlich als Mäcen und Antikensammler charakterisire .
+8-1	629-632	ihn	_	_	
+8-2	633-637	noch	_	_	
+8-3	638-644	einmal	_	_	
+8-4	645-657	gelegentlich	_	_	
+8-5	658-661	als	_	_	
+8-6	662-667	Mäcen	_	_	
+8-7	668-671	und	_	_	
+8-8	672-686	Antikensammler	_	_	
+8-9	687-701	charakterisire	_	_	
+8-10	702-703	.	_	_	
+
+#Text=- Das Diplom für Botta sandte ich nach Paris .
+9-1	704-705	-	_	_	
+9-2	706-709	Das	_	_	
+9-3	710-716	Diplom	_	_	
+9-4	717-720	für	_	_	
+9-5	721-726	Botta	*	PERmentioned	
+9-6	727-733	sandte	_	_	
+9-7	734-737	ich	_	_	
+9-8	738-742	nach	_	_	
+9-9	743-748	Paris	*	PLACEmentioned	
+9-10	749-750	.	_	_	
+
+#Text=Ihre Augen müssen Sie ja recht schonen .
+10-1	751-755	Ihre	_	_	
+10-2	756-761	Augen	_	_	
+10-3	762-768	müssen	_	_	
+10-4	769-772	Sie	_	_	
+10-5	773-775	ja	_	_	
+10-6	776-781	recht	_	_	
+10-7	782-789	schonen	_	_	
+10-8	790-791	.	_	_	
+
+#Text=Sollte denn gar kein Kopist sich vorfinden für die allerdings Tin nothwendige Abschrift meines zu äußersten tediren von Ihnen bereits kopirten Käppotto ?
+11-1	792-798	Sollte	_	_	
+11-2	799-803	denn	_	_	
+11-3	804-807	gar	_	_	
+11-4	808-812	kein	_	_	
+11-5	813-819	Kopist	_	_	
+11-6	820-824	sich	_	_	
+11-7	825-834	vorfinden	_	_	
+11-8	835-838	für	_	_	
+11-9	839-842	die	_	_	
+11-10	843-853	allerdings	_	_	
+11-11	854-857	Tin	_	_	
+11-12	858-869	nothwendige	_	_	
+11-13	870-879	Abschrift	_	_	
+11-14	880-886	meines	_	_	
+11-15	887-889	zu	_	_	
+11-16	890-899	äußersten	_	_	
+11-17	900-907	tediren	_	_	
+11-18	908-911	von	_	_	
+11-19	912-917	Ihnen	_	_	
+11-20	918-925	bereits	_	_	
+11-21	926-934	kopirten	_	_	
+11-22	935-943	Käppotto	_	_	
+11-23	944-945	?	_	_	
+
+#Text=Veber Ku md : D. Camillo Minieri Ricci zu Neapel ?
+12-1	946-951	Veber	_	_	
+12-2	952-954	Ku	_	_	
+12-3	955-957	md	_	_	
+12-4	958-959	:	_	_	
+12-5	960-962	D.	*[6]	PERmentioned[6]	
+12-6	963-970	Camillo	*[6]	PERmentioned[6]	
+12-7	971-978	Minieri	*[6]	PERmentioned[6]	
+12-8	979-984	Ricci	_	_	
+12-9	985-987	zu	_	_	
+12-10	988-994	Neapel	*	PLACEmentioned	
+12-11	995-996	?	_	_	
+
+#Text=der Name war unter dem Siegel .
+13-1	997-1000	der	_	_	
+13-2	1001-1005	Name	_	_	
+13-3	1006-1009	war	_	_	
+13-4	1010-1015	unter	_	_	
+13-5	1016-1019	dem	_	_	
+13-6	1020-1026	Siegel	_	_	
+13-7	1027-1028	.	_	_	
+
+#Text=Lassen Sie über Secchi 's neue kwtvat Weisheit doch etwas Näheres hieher gelangen .
+14-1	1029-1035	Lassen	_	_	
+14-2	1036-1039	Sie	_	_	
+14-3	1040-1044	über	_	_	
+14-4	1045-1051	Secchi	*	PERmentioned	
+14-5	1052-1054	's	_	_	
+14-6	1055-1059	neue	_	_	
+14-7	1060-1066	kwtvat	_	_	
+14-8	1067-1075	Weisheit	_	_	
+14-9	1076-1080	doch	_	_	
+14-10	1081-1086	etwas	_	_	
+14-11	1087-1094	Näheres	_	_	
+14-12	1095-1101	hieher	_	_	
+14-13	1102-1110	gelangen	_	_	
+14-14	1111-1112	.	_	_	
+
+#Text=Braun wird also wol an Ersatzdruck früherer fehlender Hefte der Institutswerke denken , damit wir uns keine
+15-1	1113-1118	Braun	*	PERmentioned	
+15-2	1119-1123	wird	_	_	
+15-3	1124-1128	also	_	_	
+15-4	1129-1132	wol	_	_	
+15-5	1133-1135	an	_	_	
+15-6	1136-1147	Ersatzdruck	_	_	
+15-7	1148-1156	früherer	_	_	
+15-8	1157-1166	fehlender	_	_	
+15-9	1167-1172	Hefte	_	_	
+15-10	1173-1176	der	_	_	
+15-11	1177-1191	Institutswerke	_	_	
+15-12	1192-1198	denken	_	_	
+15-13	1199-1200	,	_	_	
+15-14	1201-1206	damit	_	_	
+15-15	1207-1210	wir	_	_	
+15-16	1211-1214	uns	_	_	
+15-17	1215-1220	keine	_	_	

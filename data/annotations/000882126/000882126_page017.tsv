@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=990 Braun an Gerhard Rom , 29. September 1835 Hochzuverehrender Freund !
+1-1	0-3	990	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	29.	*[19]	DATEletter[19]
+1-8	31-40	September	*[19]	DATEletter[19]
+1-9	41-45	1835	*[19]	DATEletter[19]
+1-10	46-63	Hochzuverehrender	_	_
+1-11	64-70	Freund	_	_
+1-12	71-72	!	_	_
+
+#Text=Vorstehende Epistel ist von Lanci concipirt und von Bunsen angeordnet worden .
+2-1	73-84	Vorstehende	_	_
+2-2	85-92	Epistel	_	_
+2-3	93-96	ist	_	_
+2-4	97-100	von	_	_
+2-5	101-106	Lanci	*	PERmentioned
+2-6	107-116	concipirt	_	_
+2-7	117-120	und	_	_
+2-8	121-124	von	_	_
+2-9	125-131	Bunsen	*	PERmentioned
+2-10	132-142	angeordnet	_	_
+2-11	143-149	worden	_	_
+2-12	150-151	.	_	_
+
+#Text=Das Ausbleiben der Fonds hat eine langwierige Verlegenheit für mich zu Wege gebracht .
+3-1	152-155	Das	_	_
+3-2	156-166	Ausbleiben	_	_
+3-3	167-170	der	_	_
+3-4	171-176	Fonds	_	_
+3-5	177-180	hat	_	_
+3-6	181-185	eine	_	_
+3-7	186-197	langwierige	_	_
+3-8	198-210	Verlegenheit	_	_
+3-9	211-214	für	_	_
+3-10	215-219	mich	_	_
+3-11	220-222	zu	_	_
+3-12	223-227	Wege	_	_
+3-13	228-236	gebracht	_	_
+3-14	237-238	.	_	_
+
+#Text=Die für Sie ausgelegten Scudi 168.90 erhalten Sie anbei spezifizirt .
+4-1	239-242	Die	_	_
+4-2	243-246	für	_	_
+4-3	247-250	Sie	_	_
+4-4	251-262	ausgelegten	_	_
+4-5	263-268	Scudi	_	_
+4-6	269-275	168.90	_	_
+4-7	276-284	erhalten	_	_
+4-8	285-288	Sie	_	_
+4-9	289-294	anbei	_	_
+4-10	295-306	spezifizirt	_	_
+4-11	307-308	.	_	_
+
+#Text=Ich hoffe nicht die von Ihnen gesetzten oder gewünschten Beschränkungen übertreten zu haben .
+5-1	309-312	Ich	_	_
+5-2	313-318	hoffe	_	_
+5-3	319-324	nicht	_	_
+5-4	325-328	die	_	_
+5-5	329-332	von	_	_
+5-6	333-338	Ihnen	_	_
+5-7	339-348	gesetzten	_	_
+5-8	349-353	oder	_	_
+5-9	354-365	gewünschten	_	_
+5-10	366-380	Beschränkungen	_	_
+5-11	381-391	übertreten	_	_
+5-12	392-394	zu	_	_
+5-13	395-400	haben	_	_
+5-14	401-402	.	_	_
+
+#Text=Ich habe für Sie und nicht für das Institut ( wie es Bunsen wollte ) fortzeichnen lassen , weil Sie nicht aufgesagt und das Institut nicht solennen Auftrag gegeben hat .
+6-1	403-406	Ich	_	_
+6-2	407-411	habe	_	_
+6-3	412-415	für	_	_
+6-4	416-419	Sie	_	_
+6-5	420-423	und	_	_
+6-6	424-429	nicht	_	_
+6-7	430-433	für	_	_
+6-8	434-437	das	_	_
+6-9	438-446	Institut	*	ORGmentioned
+6-10	447-448	(	_	_
+6-11	449-452	wie	_	_
+6-12	453-455	es	_	_
+6-13	456-462	Bunsen	*	PERmentioned
+6-14	463-469	wollte	_	_
+6-15	470-471	)	_	_
+6-16	472-484	fortzeichnen	_	_
+6-17	485-491	lassen	_	_
+6-18	492-493	,	_	_
+6-19	494-498	weil	_	_
+6-20	499-502	Sie	_	_
+6-21	503-508	nicht	_	_
+6-22	509-518	aufgesagt	_	_
+6-23	519-522	und	_	_
+6-24	523-526	das	_	_
+6-25	527-535	Institut	*	ORGmentioned
+6-26	536-541	nicht	_	_
+6-27	542-550	solennen	_	_
+6-28	551-558	Auftrag	_	_
+6-29	559-566	gegeben	_	_
+6-30	567-570	hat	_	_
+6-31	571-572	.	_	_
+
+#Text=Franz hat etwas über 60 rt .
+7-1	573-578	Franz	*	PERmentioned
+7-2	579-582	hat	_	_
+7-3	583-588	etwas	_	_
+7-4	589-593	über	_	_
+7-5	594-596	60	_	_
+7-6	597-599	rt	_	_
+7-7	600-601	.	_	_
+
+#Text=erhalten , allein er hatte von Ritschl 60 Scudi zu fordern \; letzterer sollte zufrieden sein , da ich ihm gar keine Rechnung und nicht einmal die 2 Scudi für das Collationsexemplar in Zahlung gestellt habe .
+8-1	602-610	erhalten	_	_
+8-2	611-612	,	_	_
+8-3	613-619	allein	_	_
+8-4	620-622	er	_	_
+8-5	623-628	hatte	_	_
+8-6	629-632	von	_	_
+8-7	633-640	Ritschl	*	PERmentioned
+8-8	641-643	60	_	_
+8-9	644-649	Scudi	_	_
+8-10	650-652	zu	_	_
+8-11	653-660	fordern	_	_
+8-12	661-662	\;	_	_
+8-13	663-672	letzterer	_	_
+8-14	673-679	sollte	_	_
+8-15	680-689	zufrieden	_	_
+8-16	690-694	sein	_	_
+8-17	695-696	,	_	_
+8-18	697-699	da	_	_
+8-19	700-703	ich	_	_
+8-20	704-707	ihm	_	_
+8-21	708-711	gar	_	_
+8-22	712-717	keine	_	_
+8-23	718-726	Rechnung	_	_
+8-24	727-730	und	_	_
+8-25	731-736	nicht	_	_
+8-26	737-743	einmal	_	_
+8-27	744-747	die	_	_
+8-28	748-749	2	_	_
+8-29	750-755	Scudi	_	_
+8-30	756-759	für	_	_
+8-31	760-763	das	_	_
+8-32	764-782	Collationsexemplar	_	_
+8-33	783-785	in	_	_
+8-34	786-793	Zahlung	_	_
+8-35	794-802	gestellt	_	_
+8-36	803-807	habe	_	_
+8-37	808-809	.	_	_
+
+#Text=Außerdem können Sie Franzens kleinen VUeberschuß leicht durch Originale gedeckt oder auch zurückerstattet erhalten .
+9-1	810-818	Außerdem	_	_
+9-2	819-825	können	_	_
+9-3	826-829	Sie	_	_
+9-4	830-838	Franzens	*	PERmentioned
+9-5	839-846	kleinen	_	_
+9-6	847-858	VUeberschuß	_	_
+9-7	859-865	leicht	_	_
+9-8	866-871	durch	_	_
+9-9	872-881	Originale	_	_
+9-10	882-889	gedeckt	_	_
+9-11	890-894	oder	_	_
+9-12	895-899	auch	_	_
+9-13	900-915	zurückerstattet	_	_
+9-14	916-924	erhalten	_	_
+9-15	925-926	.	_	_
+
+#Text=- Hoffentlich habe ich Ihnen den Berlin .
+10-1	927-928	-	_	_
+10-2	929-940	Hoffentlich	_	_
+10-3	941-945	habe	_	_
+10-4	946-949	ich	_	_
+10-5	950-955	Ihnen	_	_
+10-6	956-959	den	_	_
+10-7	960-966	Berlin	_	_
+10-8	967-968	.	_	_
+
+#Text=nicht schon einmal berechnet , was Sie aus Ihren früheren Rechnungen ersehen werden , Gerstäcker danken Sie einstweilen für seinen sehr angenehmen Brief .
+11-1	969-974	nicht	_	_
+11-2	975-980	schon	_	_
+11-3	981-987	einmal	_	_
+11-4	988-997	berechnet	_	_
+11-5	998-999	,	_	_
+11-6	1000-1003	was	_	_
+11-7	1004-1007	Sie	_	_
+11-8	1008-1011	aus	_	_
+11-9	1012-1017	Ihren	_	_
+11-10	1018-1026	früheren	_	_
+11-11	1027-1037	Rechnungen	_	_
+11-12	1038-1045	ersehen	_	_
+11-13	1046-1052	werden	_	_
+11-14	1053-1054	,	_	_
+11-15	1055-1065	Gerstäcker	*	PERmentioned
+11-16	1066-1072	danken	_	_
+11-17	1073-1076	Sie	_	_
+11-18	1077-1088	einstweilen	_	_
+11-19	1089-1092	für	_	_
+11-20	1093-1099	seinen	_	_
+11-21	1100-1104	sehr	_	_
+11-22	1105-1115	angenehmen	_	_
+11-23	1116-1121	Brief	_	_
+11-24	1122-1123	.	_	_
+
+#Text=Die Neapeler Bücher sind bereits bestellt .
+12-1	1124-1127	Die	_	_
+12-2	1128-1136	Neapeler	*	PLACEmentioned
+12-3	1137-1143	Bücher	_	_
+12-4	1144-1148	sind	_	_
+12-5	1149-1156	bereits	_	_
+12-6	1157-1165	bestellt	_	_
+12-7	1166-1167	.	_	_
+
+#Text=Die Calcografia camerale gibt seit Ende vorigen Jahres gar keinen Ribasso mehr .
+13-1	1168-1171	Die	_	_
+13-2	1172-1183	Calcografia	*[20]	ORGmentioned[20]
+13-3	1184-1192	camerale	*[20]	ORGmentioned[20]
+13-4	1193-1197	gibt	_	_
+13-5	1198-1202	seit	_	_
+13-6	1203-1207	Ende	_	_
+13-7	1208-1215	vorigen	_	_
+13-8	1216-1222	Jahres	_	_
+13-9	1223-1226	gar	_	_
+13-10	1227-1233	keinen	_	_
+13-11	1234-1241	Ribasso	_	_
+13-12	1242-1246	mehr	_	_
+13-13	1247-1248	.	_	_
+
+#Text=Um diesen zu erlangen , muß bei Monsignor Tesoriere mit einer Memorie einkommen .
+14-1	1249-1251	Um	_	_
+14-2	1252-1258	diesen	_	_
+14-3	1259-1261	zu	_	_
+14-4	1262-1270	erlangen	_	_
+14-5	1271-1272	,	_	_
+14-6	1273-1276	muß	_	_
+14-7	1277-1280	bei	_	_
+14-8	1281-1290	Monsignor	*[21]	PERmentioned[21]
+14-9	1291-1300	Tesoriere	*[21]	PERmentioned[21]
+14-10	1301-1304	mit	_	_
+14-11	1305-1310	einer	_	_
+14-12	1311-1318	Memorie	_	_
+14-13	1319-1328	einkommen	_	_
+14-14	1329-1330	.	_	_
+
+#Text=Mit nächster Post schicke ich ihm selbst das Nähere .
+15-1	1331-1334	Mit	_	_
+15-2	1335-1343	nächster	_	_
+15-3	1344-1348	Post	_	_
+15-4	1349-1356	schicke	_	_
+15-5	1357-1360	ich	_	_
+15-6	1361-1364	ihm	_	_
+15-7	1365-1371	selbst	_	_
+15-8	1372-1375	das	_	_
+15-9	1376-1382	Nähere	_	_
+15-10	1383-1384	.	_	_
+
+#Text=Daß ich noch kein Annalenmanuscript eingesandt ist traurig genug , aber mein Zustand war diesen ganzen Sommer über auch traurig .
+16-1	1385-1388	Daß	_	_
+16-2	1389-1392	ich	_	_
+16-3	1393-1397	noch	_	_
+16-4	1398-1402	kein	_	_
+16-5	1403-1420	Annalenmanuscript	_	_
+16-6	1421-1431	eingesandt	_	_
+16-7	1432-1435	ist	_	_
+16-8	1436-1443	traurig	_	_
+16-9	1444-1449	genug	_	_
+16-10	1450-1451	,	_	_
+16-11	1452-1456	aber	_	_
+16-12	1457-1461	mein	_	_
+16-13	1462-1469	Zustand	_	_
+16-14	1470-1473	war	_	_
+16-15	1474-1480	diesen	_	_
+16-16	1481-1487	ganzen	_	_
+16-17	1488-1494	Sommer	_	_
+16-18	1495-1499	über	_	_
+16-19	1500-1504	auch	_	_
+16-20	1505-1512	traurig	_	_
+16-21	1513-1514	.	_	_
+
+#Text=Das Klima mehr als sonst ungesund und ich habe mich sehr schonen müssen .
+17-1	1515-1518	Das	_	_
+17-2	1519-1524	Klima	_	_
+17-3	1525-1529	mehr	_	_
+17-4	1530-1533	als	_	_
+17-5	1534-1539	sonst	_	_
+17-6	1540-1548	ungesund	_	_
+17-7	1549-1552	und	_	_
+17-8	1553-1556	ich	_	_
+17-9	1557-1561	habe	_	_
+17-10	1562-1566	mich	_	_
+17-11	1567-1571	sehr	_	_
+17-12	1572-1579	schonen	_	_
+17-13	1580-1586	müssen	_	_
+17-14	1587-1588	.	_	_
+
+#Text=Nach
+18-1	1589-1593	Nach	_	_

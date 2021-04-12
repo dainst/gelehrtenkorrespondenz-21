@@ -1,0 +1,194 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=79 Gerhard an Braun Berlin , 30 .
+1-1	0-2	79	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	30	*[2]	DATEletter[2]
+1-8	32-33	.	*[2]	DATEletter[2]
+
+#Text=Januar 1844 g . 15/I 44 r . 15/1 44 Dr. Braun Berlin 30 Jan 44 Mein theurer Freund .
+2-1	34-40	Januar	*[2]	DATEletter[2]
+2-2	41-45	1844	*[2]	DATEletter[2]
+2-3	46-47	g	_	_
+2-4	48-49	.	_	_
+2-5	50-54	15/I	*[3]	DATErecieved[3]
+2-6	55-57	44	*[3]	DATErecieved[3]
+2-7	58-59	r	_	_
+2-8	60-61	.	_	_
+2-9	62-66	15/1	*[4]	DATEanswered[4]
+2-10	67-69	44	*[4]	DATEanswered[4]
+2-11	70-73	Dr.	*[1]	PERaddressee[1]
+2-12	74-79	Braun	*[1]	PERaddressee[1]
+2-13	80-86	Berlin	*	PLACEfrom
+2-14	87-89	30	*[5]	DATEletter[5]
+2-15	90-93	Jan	*[5]	DATEletter[5]
+2-16	94-96	44	*[5]	DATEletter[5]
+2-17	97-101	Mein	_	_
+2-18	102-109	theurer	_	_
+2-19	110-116	Freund	_	_
+2-20	117-118	.	_	_
+
+#Text=Ohne Dringendes bin ich zweien Ihrer Briefe Antwort schuldig \; auch hat Dr. Wex die Einlage die ich ungelesen öffne nebst 25 rt gesandt über die Sie verfügen mögen .
+3-1	119-123	Ohne	_	_
+3-2	124-134	Dringendes	_	_
+3-3	135-138	bin	_	_
+3-4	139-142	ich	_	_
+3-5	143-149	zweien	_	_
+3-6	150-155	Ihrer	_	_
+3-7	156-162	Briefe	_	_
+3-8	163-170	Antwort	_	_
+3-9	171-179	schuldig	_	_
+3-10	180-181	\;	_	_
+3-11	182-186	auch	_	_
+3-12	187-190	hat	_	_
+3-13	191-194	Dr.	*[6]	PERmentioned[6]
+3-14	195-198	Wex	*[6]	PERmentioned[6]
+3-15	199-202	die	_	_
+3-16	203-210	Einlage	_	_
+3-17	211-214	die	_	_
+3-18	215-218	ich	_	_
+3-19	219-228	ungelesen	_	_
+3-20	229-234	öffne	_	_
+3-21	235-240	nebst	_	_
+3-22	241-243	25	_	_
+3-23	244-246	rt	_	_
+3-24	247-254	gesandt	_	_
+3-25	255-259	über	_	_
+3-26	260-263	die	_	_
+3-27	264-267	Sie	_	_
+3-28	268-276	verfügen	_	_
+3-29	277-282	mögen	_	_
+3-30	283-284	.	_	_
+
+#Text=Mit Olfers hatte ich dies Jahr noch kein Geschäftsgespräch , werde aber nächstens an Ihre , Wolffs und Baseggios Marmore erinnern und glaube deren Ankauf seinerseits voraussetzen zu dürfen \; wenn man die Zeit ihm läßt die Niemanden zu warten bindet .
+4-1	285-288	Mit	_	_
+4-2	289-295	Olfers	*	PERmentioned
+4-3	296-301	hatte	_	_
+4-4	302-305	ich	_	_
+4-5	306-310	dies	_	_
+4-6	311-315	Jahr	_	_
+4-7	316-320	noch	_	_
+4-8	321-325	kein	_	_
+4-9	326-343	Geschäftsgespräch	_	_
+4-10	344-345	,	_	_
+4-11	346-351	werde	_	_
+4-12	352-356	aber	_	_
+4-13	357-366	nächstens	_	_
+4-14	367-369	an	_	_
+4-15	370-374	Ihre	_	_
+4-16	375-376	,	_	_
+4-17	377-383	Wolffs	*	PERmentioned
+4-18	384-387	und	_	_
+4-19	388-397	Baseggios	*	PERmentioned
+4-20	398-405	Marmore	*	OBJ
+4-21	406-414	erinnern	_	_
+4-22	415-418	und	_	_
+4-23	419-425	glaube	_	_
+4-24	426-431	deren	_	_
+4-25	432-438	Ankauf	_	_
+4-26	439-450	seinerseits	_	_
+4-27	451-463	voraussetzen	_	_
+4-28	464-466	zu	_	_
+4-29	467-473	dürfen	_	_
+4-30	474-475	\;	_	_
+4-31	476-480	wenn	_	_
+4-32	481-484	man	_	_
+4-33	485-488	die	_	_
+4-34	489-493	Zeit	_	_
+4-35	494-497	ihm	_	_
+4-36	498-502	läßt	_	_
+4-37	503-506	die	_	_
+4-38	507-516	Niemanden	_	_
+4-39	517-519	zu	_	_
+4-40	520-526	warten	_	_
+4-41	527-533	bindet	_	_
+4-42	534-535	.	_	_
+
+#Text=Paris-Tiresias-vase nenne ich die im Bullettino Napoletano edirte vom Paris Urtheil und Tiresias vor 0dysseus .
+5-1	536-555	Paris-Tiresias-vase	*	OBJ
+5-2	556-561	nenne	_	_
+5-3	562-565	ich	_	_
+5-4	566-569	die	_	_
+5-5	570-572	im	_	_
+5-6	573-583	Bullettino	_	_
+5-7	584-594	Napoletano	_	_
+5-8	595-601	edirte	_	_
+5-9	602-605	vom	_	_
+5-10	606-611	Paris	*	PERmentioned
+5-11	612-619	Urtheil	_	_
+5-12	620-623	und	_	_
+5-13	624-632	Tiresias	*	PERmentioned
+5-14	633-636	vor	_	_
+5-15	637-645	0dysseus	*	PERmentioned
+5-16	646-647	.	_	_
+
+#Text=Lanci 's Herumschweifen ist eine wahre Calamität \; wüßten Sie ihn zu ersetzen , so wäre diese Krisis wie dazu gemacht .
+6-1	648-653	Lanci	*[7]	PERmentioned[7]
+6-2	654-656	's	*[7]	PERmentioned[7]
+6-3	657-671	Herumschweifen	_	_
+6-4	672-675	ist	_	_
+6-5	676-680	eine	_	_
+6-6	681-686	wahre	_	_
+6-7	687-696	Calamität	_	_
+6-8	697-698	\;	_	_
+6-9	699-705	wüßten	_	_
+6-10	706-709	Sie	_	_
+6-11	710-713	ihn	_	_
+6-12	714-716	zu	_	_
+6-13	717-725	ersetzen	_	_
+6-14	726-727	,	_	_
+6-15	728-730	so	_	_
+6-16	731-735	wäre	_	_
+6-17	736-741	diese	_	_
+6-18	742-748	Krisis	_	_
+6-19	749-752	wie	_	_
+6-20	753-757	dazu	_	_
+6-21	758-765	gemacht	_	_
+6-22	766-767	.	_	_
+
+#Text=Sollte es denn nicht möglich sein ? ?
+7-1	768-774	Sollte	_	_
+7-2	775-777	es	_	_
+7-3	778-782	denn	_	_
+7-4	783-788	nicht	_	_
+7-5	789-796	möglich	_	_
+7-6	797-801	sein	_	_
+7-7	802-803	?	_	_
+7-8	804-805	?	_	_
+
+#Text=Ihre Xylographie erregt große Hoffnungen , Ihr neuer Zuschnitt der Institutswerke wird gut sein \; mur bedenken Sie daß wir für Pariser Druck uns auf Niemanden verlassen können .
+8-1	806-810	Ihre	_	_
+8-2	811-822	Xylographie	_	_
+8-3	823-829	erregt	_	_
+8-4	830-835	große	_	_
+8-5	836-846	Hoffnungen	_	_
+8-6	847-848	,	_	_
+8-7	849-852	Ihr	_	_
+8-8	853-858	neuer	_	_
+8-9	859-868	Zuschnitt	_	_
+8-10	869-872	der	_	_
+8-11	873-887	Institutswerke	_	_
+8-12	888-892	wird	_	_
+8-13	893-896	gut	_	_
+8-14	897-901	sein	_	_
+8-15	902-903	\;	_	_
+8-16	904-907	mur	_	_
+8-17	908-916	bedenken	_	_
+8-18	917-920	Sie	_	_
+8-19	921-924	daß	_	_
+8-20	925-928	wir	_	_
+8-21	929-932	für	_	_
+8-22	933-940	Pariser	*	PLACEmentioned
+8-23	941-946	Druck	_	_
+8-24	947-950	uns	_	_
+8-25	951-954	auf	_	_
+8-26	955-964	Niemanden	_	_
+8-27	965-974	verlassen	_	_
+8-28	975-981	können	_	_
+8-29	982-983	.	_	_

@@ -1,0 +1,115 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=104 Lepsius an Henzen Berlin , 2. Februar 1875 B- W375 Berlin d . 2 .
+1-1	0-3	104	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	2.	*[1]	DATEletter[1]
+1-8	34-41	Februar	*[1]	DATEletter[1]
+1-9	42-46	1875	*[1]	DATEletter[1]
+1-10	47-49	B-	_	_
+1-11	50-54	W375	*[2]	DATErecieved[2]
+1-12	55-61	Berlin	*	PLACEfrom
+1-13	62-63	d	_	_
+1-14	64-65	.	_	_
+1-15	66-67	2	*[3]	DATEletter[3]
+1-16	68-69	.	*[3]	DATEletter[3]
+
+#Text=Febr .
+2-1	70-74	Febr	*[3]	DATEletter[3]
+2-2	75-76	.	*[3]	DATEletter[3]
+
+#Text=1875 Verehrter Freund Ich übersende Ihnen hierbei 3 Zeichnungen , die sich unter den Eichler'schen als für das Institut gefertigt finden .
+3-1	77-81	1875	*[3]	DATEletter[3]
+3-2	82-91	Verehrter	_	_
+3-3	92-98	Freund	_	_
+3-4	99-102	Ich	_	_
+3-5	103-112	übersende	_	_
+3-6	113-118	Ihnen	_	_
+3-7	119-126	hierbei	_	_
+3-8	127-128	3	_	_
+3-9	129-140	Zeichnungen	_	_
+3-10	141-142	,	_	_
+3-11	143-146	die	_	_
+3-12	147-151	sich	_	_
+3-13	152-157	unter	_	_
+3-14	158-161	den	_	_
+3-15	162-175	Eichler'schen	*	PERmentioned
+3-16	176-179	als	_	_
+3-17	180-183	für	_	_
+3-18	184-187	das	_	_
+3-19	188-196	Institut	*	ORGmentioned
+3-20	197-206	gefertigt	_	_
+3-21	207-213	finden	_	_
+3-22	214-215	.	_	_
+
+#Text=Sie sind in seinen Rechnungen mit 15 r angesetzt , die also auf Ihre Rechnung gehören .
+4-1	216-219	Sie	_	_
+4-2	220-224	sind	_	_
+4-3	225-227	in	_	_
+4-4	228-234	seinen	_	_
+4-5	235-245	Rechnungen	_	_
+4-6	246-249	mit	_	_
+4-7	250-252	15	_	_
+4-8	253-254	r	_	_
+4-9	255-264	angesetzt	_	_
+4-10	265-266	,	_	_
+4-11	267-270	die	_	_
+4-12	271-275	also	_	_
+4-13	276-279	auf	_	_
+4-14	280-284	Ihre	_	_
+4-15	285-293	Rechnung	_	_
+4-16	294-301	gehören	_	_
+4-17	302-303	.	_	_
+
+#Text=Er bezeichnet ferner eine Ausgabe von 14 r als für eine Privatzeichnung gemacht .
+5-1	304-306	Er	_	_
+5-2	307-317	bezeichnet	_	_
+5-3	318-324	ferner	_	_
+5-4	325-329	eine	_	_
+5-5	330-337	Ausgabe	_	_
+5-6	338-341	von	_	_
+5-7	342-344	14	_	_
+5-8	345-346	r	_	_
+5-9	347-350	als	_	_
+5-10	351-354	für	_	_
+5-11	355-359	eine	_	_
+5-12	360-375	Privatzeichnung	_	_
+5-13	376-383	gemacht	_	_
+5-14	384-385	.	_	_
+
+#Text=Wissen Sie davon etwas ?
+6-1	386-392	Wissen	_	_
+6-2	393-396	Sie	_	_
+6-3	397-402	davon	_	_
+6-4	403-408	etwas	_	_
+6-5	409-410	?	_	_
+
+#Text=Den Ungarelli , den das Museum nachzuzahlen hat , werde ich hier abfolgen lassen .
+7-1	411-414	Den	_	_
+7-2	415-424	Ungarelli	*	PERmentioned
+7-3	425-426	,	_	_
+7-4	427-430	den	_	_
+7-5	431-434	das	_	_
+7-6	435-441	Museum	*	ORGmentioned
+7-7	442-454	nachzuzahlen	_	_
+7-8	455-458	hat	_	_
+7-9	459-460	,	_	_
+7-10	461-466	werde	_	_
+7-11	467-470	ich	_	_
+7-12	471-475	hier	_	_
+7-13	476-484	abfolgen	_	_
+7-14	485-491	lassen	_	_
+7-15	492-493	.	_	_
+
+#Text=Herzlich der Ihrige R Lepsius
+8-1	494-502	Herzlich	_	_
+8-2	503-506	der	_	_
+8-3	507-513	Ihrige	_	_
+8-4	514-515	R	*[4]	PERauthor[4]
+8-5	516-523	Lepsius	*[4]	PERauthor[4]

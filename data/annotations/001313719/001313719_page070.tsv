@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=unter unee Gerhard an Henzen Berlin , 9. September 1846 A. di Direz .
+1-1	0-5	unter	_	_
+1-2	6-10	unee	_	_
+1-3	11-18	Gerhard	*	PERauthor
+1-4	19-21	an	_	_
+1-5	22-28	Henzen	*	PERaddressee
+1-6	29-35	Berlin	*	PLACEfrom
+1-7	36-37	,	_	_
+1-8	38-40	9.	*[5]	DATEletter[5]
+1-9	41-50	September	*[5]	DATEletter[5]
+1-10	51-55	1846	*[5]	DATEletter[5]
+1-11	56-58	A.	_	_
+1-12	59-61	di	_	_
+1-13	62-67	Direz	_	_
+1-14	68-69	.	_	_
+
+#Text=g . 21/IX 46 r . 17/X 46 eseeeee ... Henzen Berlin 9 Sept 46 Ich beantworte sogleich lieber Freund Ihren Brief mit der guten Kunde von Ihrer gesundenen Rückkehr , obwohl er mir sonst mehr zu vernehmen als zu beantworten gibt .
+2-1	70-71	g	_	_
+2-2	72-73	.	_	_
+2-3	74-79	21/IX	*[6]	DATErecieved[6]
+2-4	80-82	46	*[6]	DATErecieved[6]
+2-5	83-84	r	_	_
+2-6	85-86	.	_	_
+2-7	87-91	17/X	*[7]	DATEanswered[7]
+2-8	92-94	46	*[7]	DATEanswered[7]
+2-9	95-102	eseeeee	_	_
+2-10	103-106	...	_	_
+2-11	107-113	Henzen	*	PERaddressee
+2-12	114-120	Berlin	*	PLACEfrom
+2-13	121-122	9	*[8]	DATEletter[8]
+2-14	123-127	Sept	*[8]	DATEletter[8]
+2-15	128-130	46	*[8]	DATEletter[8]
+2-16	131-134	Ich	_	_
+2-17	135-145	beantworte	_	_
+2-18	146-154	sogleich	_	_
+2-19	155-161	lieber	_	_
+2-20	162-168	Freund	_	_
+2-21	169-174	Ihren	_	_
+2-22	175-180	Brief	_	_
+2-23	181-184	mit	_	_
+2-24	185-188	der	_	_
+2-25	189-194	guten	_	_
+2-26	195-200	Kunde	_	_
+2-27	201-204	von	_	_
+2-28	205-210	Ihrer	_	_
+2-29	211-221	gesundenen	_	_
+2-30	222-230	Rückkehr	_	_
+2-31	231-232	,	_	_
+2-32	233-239	obwohl	_	_
+2-33	240-242	er	_	_
+2-34	243-246	mir	_	_
+2-35	247-252	sonst	_	_
+2-36	253-257	mehr	_	_
+2-37	258-260	zu	_	_
+2-38	261-270	vernehmen	_	_
+2-39	271-274	als	_	_
+2-40	275-277	zu	_	_
+2-41	278-289	beantworten	_	_
+2-42	290-294	gibt	_	_
+2-43	295-296	.	_	_
+
+#Text=Mit dem Bullettino bin ich doch wol in Ordnung , sofern ich es bis Juli habe ?
+3-1	297-300	Mit	_	_
+3-2	301-304	dem	_	_
+3-3	305-315	Bullettino	_	_
+3-4	316-319	bin	_	_
+3-5	320-323	ich	_	_
+3-6	324-328	doch	_	_
+3-7	329-332	wol	_	_
+3-8	333-335	in	_	_
+3-9	336-343	Ordnung	_	_
+3-10	344-345	,	_	_
+3-11	346-352	sofern	_	_
+3-12	353-356	ich	_	_
+3-13	357-359	es	_	_
+3-14	360-363	bis	_	_
+3-15	364-368	Juli	*	DATEmentioned
+3-16	369-373	habe	_	_
+3-17	374-375	?	_	_
+
+#Text=Die Diplome für den 9 December so zeitig zu besorgen findet darin Schwierigkeit daß sich gewöhnlich noch später Einiges nachfindet \; doch werde ich die , welche Sie mir aufgaben , alsbald zurüsten .
+4-1	376-379	Die	_	_
+4-2	380-387	Diplome	_	_
+4-3	388-391	für	_	_
+4-4	392-395	den	_	_
+4-5	396-397	9	*[9]	DATEmentioned[9]
+4-6	398-406	December	*[9]	DATEmentioned[9]
+4-7	407-409	so	_	_
+4-8	410-416	zeitig	_	_
+4-9	417-419	zu	_	_
+4-10	420-428	besorgen	_	_
+4-11	429-435	findet	_	_
+4-12	436-441	darin	_	_
+4-13	442-455	Schwierigkeit	_	_
+4-14	456-459	daß	_	_
+4-15	460-464	sich	_	_
+4-16	465-475	gewöhnlich	_	_
+4-17	476-480	noch	_	_
+4-18	481-487	später	_	_
+4-19	488-495	Einiges	_	_
+4-20	496-506	nachfindet	_	_
+4-21	507-508	\;	_	_
+4-22	509-513	doch	_	_
+4-23	514-519	werde	_	_
+4-24	520-523	ich	_	_
+4-25	524-527	die	_	_
+4-26	528-529	,	_	_
+4-27	530-536	welche	_	_
+4-28	537-540	Sie	_	_
+4-29	541-544	mir	_	_
+4-30	545-553	aufgaben	_	_
+4-31	554-555	,	_	_
+4-32	556-563	alsbald	_	_
+4-33	564-572	zurüsten	_	_
+4-34	573-574	.	_	_
+
+#Text=Den Mann in Eboli finde ich ebenfalls Angelluzzi ( oder Aug- ? )
+5-1	575-578	Den	_	_
+5-2	579-583	Mann	_	_
+5-3	584-586	in	_	_
+5-4	587-592	Eboli	*	PLACEmentioned
+5-5	593-598	finde	_	_
+5-6	599-602	ich	_	_
+5-7	603-612	ebenfalls	_	_
+5-8	613-623	Angelluzzi	*	PERmentioned
+5-9	624-625	(	_	_
+5-10	626-630	oder	_	_
+5-11	631-635	Aug-	_	_
+5-12	636-637	?	_	_
+5-13	638-639	)	_	_
+
+#Text=aufgeschrieben , doch ohne nome cristiano .
+6-1	640-654	aufgeschrieben	_	_
+6-2	655-656	,	_	_
+6-3	657-661	doch	_	_
+6-4	662-666	ohne	_	_
+6-5	667-671	nome	_	_
+6-6	672-681	cristiano	_	_
+6-7	682-683	.	_	_
+
+#Text=An Göttling werde ich Ihre Ermächtigung Schärfen gegen Zumpt zu mildern bald gelangen lassen .
+7-1	684-686	An	_	_
+7-2	687-695	Göttling	*	PERmentioned
+7-3	696-701	werde	_	_
+7-4	702-705	ich	_	_
+7-5	706-710	Ihre	_	_
+7-6	711-723	Ermächtigung	_	_
+7-7	724-732	Schärfen	_	_
+7-8	733-738	gegen	_	_
+7-9	739-744	Zumpt	*	PERmentioned
+7-10	745-747	zu	_	_
+7-11	748-755	mildern	_	_
+7-12	756-760	bald	_	_
+7-13	761-769	gelangen	_	_
+7-14	770-776	lassen	_	_
+7-15	777-778	.	_	_
+
+#Text=Daß ein Index gedruckt wird freut mich .
+8-1	779-782	Daß	_	_
+8-2	783-786	ein	_	_
+8-3	787-792	Index	_	_
+8-4	793-801	gedruckt	_	_
+8-5	802-806	wird	_	_
+8-6	807-812	freut	_	_
+8-7	813-817	mich	_	_
+8-8	818-819	.	_	_
+
+#Text=Horkel ' n werde ich Ihre Botschaft bestellen .
+9-1	820-826	Horkel	*[11]	PERmentioned[11]
+9-2	827-828	'	*[11]	PERmentioned[11]
+9-3	829-830	n	*[11]	PERmentioned[11]
+9-4	831-836	werde	_	_
+9-5	837-840	ich	_	_
+9-6	841-845	Ihre	_	_
+9-7	846-855	Botschaft	_	_
+9-8	856-865	bestellen	_	_
+9-9	866-867	.	_	_
+
+#Text=Soviel als schuldige Antwort auf Einzelnes .
+10-1	868-874	Soviel	_	_
+10-2	875-878	als	_	_
+10-3	879-888	schuldige	_	_
+10-4	889-896	Antwort	_	_
+10-5	897-900	auf	_	_
+10-6	901-910	Einzelnes	_	_
+10-7	911-912	.	_	_
+
+#Text=Von Mommsen habe ich einen Sorrenter Brief vom 23 August der sein Bleiben für den Winter mir zusichert .
+11-1	913-916	Von	_	_
+11-2	917-924	Mommsen	*	PERmentioned
+11-3	925-929	habe	_	_
+11-4	930-933	ich	_	_
+11-5	934-939	einen	_	_
+11-6	940-949	Sorrenter	*	PLACEmentioned
+11-7	950-955	Brief	_	_
+11-8	956-959	vom	_	_
+11-9	960-962	23	*[10]	DATEmentioned[10]
+11-10	963-969	August	*[10]	DATEmentioned[10]
+11-11	970-973	der	_	_
+11-12	974-978	sein	_	_
+11-13	979-986	Bleiben	_	_
+11-14	987-990	für	_	_
+11-15	991-994	den	_	_
+11-16	995-1001	Winter	_	_
+11-17	1002-1005	mir	_	_
+11-18	1006-1015	zusichert	_	_
+11-19	1016-1017	.	_	_
+
+#Text=Ich habe sogleich Anlaß genommen durch Mittheilungen daraus Herrn Savigny an ihn und den Stand seiner Angelegenheit zu erinnern , hätte aber ohne Zweifel schon selbst
+12-1	1018-1021	Ich	_	_
+12-2	1022-1026	habe	_	_
+12-3	1027-1035	sogleich	_	_
+12-4	1036-1041	Anlaß	_	_
+12-5	1042-1050	genommen	_	_
+12-6	1051-1056	durch	_	_
+12-7	1057-1070	Mittheilungen	_	_
+12-8	1071-1077	daraus	_	_
+12-9	1078-1083	Herrn	_	_
+12-10	1084-1091	Savigny	*	PERmentioned
+12-11	1092-1094	an	_	_
+12-12	1095-1098	ihn	_	_
+12-13	1099-1102	und	_	_
+12-14	1103-1106	den	_	_
+12-15	1107-1112	Stand	_	_
+12-16	1113-1119	seiner	_	_
+12-17	1120-1133	Angelegenheit	_	_
+12-18	1134-1136	zu	_	_
+12-19	1137-1145	erinnern	_	_
+12-20	1146-1147	,	_	_
+12-21	1148-1153	hätte	_	_
+12-22	1154-1158	aber	_	_
+12-23	1159-1163	ohne	_	_
+12-24	1164-1171	Zweifel	_	_
+12-25	1172-1177	schon	_	_
+12-26	1178-1184	selbst	_	_

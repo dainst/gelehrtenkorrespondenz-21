@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 25. Mai 1838 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	25.	*[4]	DATEletter[4]
+1-7	30-33	Mai	*[4]	DATEletter[4]
+1-8	34-38	1838	*[4]	DATEletter[4]
+1-9	39-42	Aff	_	_
+1-10	43-44	.	_	_
+
+#Text=d . Dir .
+2-1	45-46	d	_	_
+2-2	47-48	.	_	_
+2-3	49-52	Dir	_	_
+2-4	53-54	.	_	_
+
+#Text=CCLIII g . 6/6 38 r . 6/6 38 Berlin 25 Mai 38 Mein theurer Freund .
+3-1	55-61	CCLIII	_	_
+3-2	62-63	g	_	_
+3-3	64-65	.	_	_
+3-4	66-69	6/6	*[5]	DATErecieved[5]
+3-5	70-72	38	*[5]	DATErecieved[5]
+3-6	73-74	r	_	_
+3-7	75-76	.	_	_
+3-8	77-80	6/6	*[6]	DATEanswered[6]
+3-9	81-83	38	*[6]	DATEanswered[6]
+3-10	84-90	Berlin	*	PLACEfrom
+3-11	91-93	25	*[8]	DATEletter[8]
+3-12	94-97	Mai	*[8]	DATEletter[8]
+3-13	98-100	38	*[8]	DATEletter[8]
+3-14	101-105	Mein	_	_
+3-15	106-113	theurer	_	_
+3-16	114-120	Freund	_	_
+3-17	121-122	.	_	_
+
+#Text=Ihr Brief vom 10 Mai ist mir richtig zugekommen \; merkwürdiger Weise ohne jede Spur von Siegel .
+4-1	123-126	Ihr	_	_
+4-2	127-132	Brief	_	_
+4-3	133-136	vom	_	_
+4-4	137-139	10	*[9]	DATEmentioned[9]
+4-5	140-143	Mai	*[9]	DATEmentioned[9]
+4-6	144-147	ist	_	_
+4-7	148-151	mir	_	_
+4-8	152-159	richtig	_	_
+4-9	160-170	zugekommen	_	_
+4-10	171-172	\;	_	_
+4-11	173-185	merkwürdiger	_	_
+4-12	186-191	Weise	_	_
+4-13	192-196	ohne	_	_
+4-14	197-201	jede	_	_
+4-15	202-206	Spur	_	_
+4-16	207-210	von	_	_
+4-17	211-217	Siegel	_	_
+4-18	218-219	.	_	_
+
+#Text=Etwas später Ihr Röllchen , enthaltend die Zeichnung der Herren von Cattaio für die ich sehr danke , die 5 Abdrücke die mir zu künftigen Ex .
+5-1	220-225	Etwas	_	_
+5-2	226-232	später	_	_
+5-3	233-236	Ihr	_	_
+5-4	237-245	Röllchen	_	_
+5-5	246-247	,	_	_
+5-6	248-258	enthaltend	_	_
+5-7	259-262	die	_	_
+5-8	263-272	Zeichnung	_	_
+5-9	273-276	der	_	_
+5-10	277-283	Herren	_	_
+5-11	284-287	von	_	_
+5-12	288-295	Cattaio	*	PLACEmentioned
+5-13	296-299	für	_	_
+5-14	300-303	die	_	_
+5-15	304-307	ich	_	_
+5-16	308-312	sehr	_	_
+5-17	313-318	danke	_	_
+5-18	319-320	,	_	_
+5-19	321-324	die	_	_
+5-20	325-326	5	_	_
+5-21	327-335	Abdrücke	_	_
+5-22	336-339	die	_	_
+5-23	340-343	mir	_	_
+5-24	344-346	zu	_	_
+5-25	347-356	künftigen	_	_
+5-26	357-359	Ex	_	_
+5-27	360-361	.	_	_
+
+#Text=der Notice sehr willkommen sein werden , weiter aber nichts , so daß ich , Ihre sorgliche Vermeidung unnöthigen Portos kennend , fürchten muß die ersehnten Cistenzeichnungen seien beim Einpacken verloren gegangen .
+6-1	362-365	der	_	_
+6-2	366-372	Notice	_	_
+6-3	373-377	sehr	_	_
+6-4	378-388	willkommen	_	_
+6-5	389-393	sein	_	_
+6-6	394-400	werden	_	_
+6-7	401-402	,	_	_
+6-8	403-409	weiter	_	_
+6-9	410-414	aber	_	_
+6-10	415-421	nichts	_	_
+6-11	422-423	,	_	_
+6-12	424-426	so	_	_
+6-13	427-430	daß	_	_
+6-14	431-434	ich	_	_
+6-15	435-436	,	_	_
+6-16	437-441	Ihre	_	_
+6-17	442-451	sorgliche	_	_
+6-18	452-462	Vermeidung	_	_
+6-19	463-473	unnöthigen	_	_
+6-20	474-480	Portos	_	_
+6-21	481-488	kennend	_	_
+6-22	489-490	,	_	_
+6-23	491-499	fürchten	_	_
+6-24	500-503	muß	_	_
+6-25	504-507	die	_	_
+6-26	508-517	ersehnten	_	_
+6-27	518-535	Cistenzeichnungen	_	_
+6-28	536-541	seien	_	_
+6-29	542-546	beim	_	_
+6-30	547-556	Einpacken	_	_
+6-31	557-565	verloren	_	_
+6-32	566-574	gegangen	_	_
+6-33	575-576	.	_	_
+
+#Text=Von No i s Plan erhielt Gerstäcker nie etwas .
+7-1	577-580	Von	_	_
+7-2	581-583	No	*[11]	PERmentioned[11]
+7-3	584-585	i	*[11]	PERmentioned[11]
+7-4	586-587	s	*[11]	PERmentioned[11]
+7-5	588-592	Plan	_	_
+7-6	593-600	erhielt	_	_
+7-7	601-611	Gerstäcker	*	PERmentioned
+7-8	612-615	nie	_	_
+7-9	616-621	etwas	_	_
+7-10	622-623	.	_	_
+
+#Text=Franz ist hier fröhlich zu finden , voll Hoffnungen obwohl ohne Geld .
+8-1	624-629	Franz	*	PERmentioned
+8-2	630-633	ist	_	_
+8-3	634-638	hier	_	_
+8-4	639-647	fröhlich	_	_
+8-5	648-650	zu	_	_
+8-6	651-657	finden	_	_
+8-7	658-659	,	_	_
+8-8	660-664	voll	_	_
+8-9	665-675	Hoffnungen	_	_
+8-10	676-682	obwohl	_	_
+8-11	683-687	ohne	_	_
+8-12	688-692	Geld	_	_
+8-13	693-694	.	_	_
+
+#Text=Mit der Zeit wird er hier eingeschaltet werden können , obwohl nicht ohne Oberlehrerexamen .
+9-1	695-698	Mit	_	_
+9-2	699-702	der	_	_
+9-3	703-707	Zeit	_	_
+9-4	708-712	wird	_	_
+9-5	713-715	er	_	_
+9-6	716-720	hier	_	_
+9-7	721-734	eingeschaltet	_	_
+9-8	735-741	werden	_	_
+9-9	742-748	können	_	_
+9-10	749-750	,	_	_
+9-11	751-757	obwohl	_	_
+9-12	758-763	nicht	_	_
+9-13	764-768	ohne	_	_
+9-14	769-785	Oberlehrerexamen	_	_
+9-15	786-787	.	_	_
+
+#Text=Angelangt ist auch Wolbreck , der mich bittet an Abeken seine Bitte um ferneres Festhalten seiner Miethe gelangen zu lassen .
+10-1	788-797	Angelangt	_	_
+10-2	798-801	ist	_	_
+10-3	802-806	auch	_	_
+10-4	807-815	Wolbreck	*	PERmentioned
+10-5	816-817	,	_	_
+10-6	818-821	der	_	_
+10-7	822-826	mich	_	_
+10-8	827-833	bittet	_	_
+10-9	834-836	an	_	_
+10-10	837-843	Abeken	*	PERmentioned
+10-11	844-849	seine	_	_
+10-12	850-855	Bitte	_	_
+10-13	856-858	um	_	_
+10-14	859-867	ferneres	_	_
+10-15	868-878	Festhalten	_	_
+10-16	879-885	seiner	_	_
+10-17	886-892	Miethe	_	_
+10-18	893-901	gelangen	_	_
+10-19	902-904	zu	_	_
+10-20	905-911	lassen	_	_
+10-21	912-913	.	_	_
+
+#Text=Wollen Sie das übernehmen .
+11-1	914-920	Wollen	_	_
+11-2	921-924	Sie	_	_
+11-3	925-928	das	_	_
+11-4	929-939	übernehmen	_	_
+11-5	940-941	.	_	_
+
+#Text=Einen an Bunsen hier angelangten Institutsbrief hat Röstell nach München gesandt .
+12-1	942-947	Einen	_	_
+12-2	948-950	an	_	_
+12-3	951-957	Bunsen	*	PERmentioned
+12-4	958-962	hier	_	_
+12-5	963-974	angelangten	_	_
+12-6	975-989	Institutsbrief	_	_
+12-7	990-993	hat	_	_
+12-8	994-1001	Röstell	*	PERmentioned
+12-9	1002-1006	nach	_	_
+12-10	1007-1014	München	*	PLACEmentioned
+12-11	1015-1022	gesandt	_	_
+12-12	1023-1024	.	_	_
+
+#Text=Daß R. Rochette uns möglichst wenig imbrogli verursache , werden Sie wol besorgt sein .
+13-1	1025-1028	Daß	_	_
+13-2	1029-1031	R.	*[19]	PERmentioned[19]
+13-3	1032-1040	Rochette	*[19]	PERmentioned[19]
+13-4	1041-1044	uns	_	_
+13-5	1045-1054	möglichst	_	_
+13-6	1055-1060	wenig	_	_
+13-7	1061-1069	imbrogli	_	_
+13-8	1070-1080	verursache	_	_
+13-9	1081-1082	,	_	_
+13-10	1083-1089	werden	_	_
+13-11	1090-1093	Sie	_	_
+13-12	1094-1097	wol	_	_
+13-13	1098-1105	besorgt	_	_
+13-14	1106-1110	sein	_	_
+13-15	1111-1112	.	_	_

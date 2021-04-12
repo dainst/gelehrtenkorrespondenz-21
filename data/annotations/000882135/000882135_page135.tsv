@@ -1,0 +1,290 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 6 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	6	_	_
+1-7	25-26	.	_	_
+
+#Text=Januar 1839 Sig .
+2-1	27-33	Januar	*[5]	DATEletter[5]
+2-2	34-38	1839	*[5]	DATEletter[5]
+2-3	39-42	Sig	_	_
+2-4	43-44	.	_	_
+
+#Text=Cav .
+3-1	45-48	Cav	_	_
+3-2	49-50	.	_	_
+
+#Text=Gerhard Riserbato Roma 6 gennaio 1839 .
+4-1	51-58	Gerhard	*	PERaddressee
+4-2	59-68	Riserbato	_	_
+4-3	69-73	Roma	*	PLACEfrom
+4-4	74-75	6	*[7]	DATEletter[7]
+4-5	76-83	gennaio	*[7]	DATEletter[7]
+4-6	84-88	1839	*[7]	DATEletter[7]
+4-7	89-90	.	_	_
+
+#Text=Wolff versprach Ihnen direct wegen der Depol .
+5-1	91-96	Wolff	*	PERmentioned
+5-2	97-106	versprach	_	_
+5-3	107-112	Ihnen	_	_
+5-4	113-119	direct	_	_
+5-5	120-125	wegen	_	_
+5-6	126-129	der	_	_
+5-7	130-135	Depol	*	PERmentioned
+5-8	136-137	.	_	_
+
+#Text=Reliefs zu schreiben .
+6-1	138-145	Reliefs	*	OBJ
+6-2	146-148	zu	_	_
+6-3	149-158	schreiben	_	_
+6-4	159-160	.	_	_
+
+#Text=In Betreff der Institutsangelegenheiten bitte ich , wie ich früher inständig und ganz ausdrücklich gebeten , diese von der Spitalverwaltung getrennt zu halten .
+7-1	161-163	In	_	_
+7-2	164-171	Betreff	_	_
+7-3	172-175	der	_	_
+7-4	176-200	Institutsangelegenheiten	_	_
+7-5	201-206	bitte	_	_
+7-6	207-210	ich	_	_
+7-7	211-212	,	_	_
+7-8	213-216	wie	_	_
+7-9	217-220	ich	_	_
+7-10	221-227	früher	_	_
+7-11	228-237	inständig	_	_
+7-12	238-241	und	_	_
+7-13	242-246	ganz	_	_
+7-14	247-259	ausdrücklich	_	_
+7-15	260-267	gebeten	_	_
+7-16	268-269	,	_	_
+7-17	270-275	diese	_	_
+7-18	276-279	von	_	_
+7-19	280-283	der	_	_
+7-20	284-300	Spitalverwaltung	_	_
+7-21	301-309	getrennt	_	_
+7-22	310-312	zu	_	_
+7-23	313-319	halten	_	_
+7-24	320-321	.	_	_
+
+#Text=Diese habe ich aus Rücksicht für Bunsen übernommen .
+8-1	322-327	Diese	_	_
+8-2	328-332	habe	_	_
+8-3	333-336	ich	_	_
+8-4	337-340	aus	_	_
+8-5	341-350	Rücksicht	_	_
+8-6	351-354	für	_	_
+8-7	355-361	Bunsen	*	PERmentioned
+8-8	362-372	übernommen	_	_
+8-9	373-374	.	_	_
+
+#Text=So schrieb mir dieser , so nehme ich es und hat er es oder haben Sie es anders gemeint , pazienza .
+9-1	375-377	So	_	_
+9-2	378-385	schrieb	_	_
+9-3	386-389	mir	_	_
+9-4	390-396	dieser	_	_
+9-5	397-398	,	_	_
+9-6	399-401	so	_	_
+9-7	402-407	nehme	_	_
+9-8	408-411	ich	_	_
+9-9	412-414	es	_	_
+9-10	415-418	und	_	_
+9-11	419-422	hat	_	_
+9-12	423-425	er	_	_
+9-13	426-428	es	_	_
+9-14	429-433	oder	_	_
+9-15	434-439	haben	_	_
+9-16	440-443	Sie	_	_
+9-17	444-446	es	_	_
+9-18	447-453	anders	_	_
+9-19	454-461	gemeint	_	_
+9-20	462-463	,	_	_
+9-21	464-472	pazienza	_	_
+9-22	473-474	.	_	_
+
+#Text=- Ich habe die Verwaltung seit dem 1 Januar übernommen \; kömmt Schulz nun zurück , so bitte ich es mir eiligst zu melden , denn dann ziehe ich sofort aus und reconsegnire alles wieder in die Hände dessen , der mir es als Schulzens Substitut übergeben .
+10-1	475-476	-	_	_
+10-2	477-480	Ich	_	_
+10-3	481-485	habe	_	_
+10-4	486-489	die	_	_
+10-5	490-500	Verwaltung	_	_
+10-6	501-505	seit	_	_
+10-7	506-509	dem	_	_
+10-8	510-511	1	*[12]	DATEmentioned[12]
+10-9	512-518	Januar	*[12]	DATEmentioned[12]
+10-10	519-529	übernommen	_	_
+10-11	530-531	\;	_	_
+10-12	532-537	kömmt	_	_
+10-13	538-544	Schulz	*	PERmentioned
+10-14	545-548	nun	_	_
+10-15	549-555	zurück	_	_
+10-16	556-557	,	_	_
+10-17	558-560	so	_	_
+10-18	561-566	bitte	_	_
+10-19	567-570	ich	_	_
+10-20	571-573	es	_	_
+10-21	574-577	mir	_	_
+10-22	578-585	eiligst	_	_
+10-23	586-588	zu	_	_
+10-24	589-595	melden	_	_
+10-25	596-597	,	_	_
+10-26	598-602	denn	_	_
+10-27	603-607	dann	_	_
+10-28	608-613	ziehe	_	_
+10-29	614-617	ich	_	_
+10-30	618-624	sofort	_	_
+10-31	625-628	aus	_	_
+10-32	629-632	und	_	_
+10-33	633-645	reconsegnire	_	_
+10-34	646-651	alles	_	_
+10-35	652-658	wieder	_	_
+10-36	659-661	in	_	_
+10-37	662-665	die	_	_
+10-38	666-671	Hände	_	_
+10-39	672-678	dessen	_	_
+10-40	679-680	,	_	_
+10-41	681-684	der	_	_
+10-42	685-688	mir	_	_
+10-43	689-691	es	_	_
+10-44	692-695	als	_	_
+10-45	696-705	Schulzens	*	PERmentioned
+10-46	706-715	Substitut	_	_
+10-47	716-725	übergeben	_	_
+10-48	726-727	.	_	_
+
+#Text=Arbeit und Verdruß haben wir bereits genug davon gehabt .
+11-1	728-734	Arbeit	_	_
+11-2	735-738	und	_	_
+11-3	739-746	Verdruß	_	_
+11-4	747-752	haben	_	_
+11-5	753-756	wir	_	_
+11-6	757-764	bereits	_	_
+11-7	765-770	genug	_	_
+11-8	771-776	davon	_	_
+11-9	777-783	gehabt	_	_
+11-10	784-785	.	_	_
+
+#Text=Julius hat 500 Scudi für Mulles ausgegeben , und mit den Finanzen wird's sonach dies Jahr knapp gehen .
+12-1	786-792	Julius	*	PERmentioned
+12-2	793-796	hat	_	_
+12-3	797-800	500	_	_
+12-4	801-806	Scudi	_	_
+12-5	807-810	für	_	_
+12-6	811-817	Mulles	*	PERmentioned
+12-7	818-828	ausgegeben	_	_
+12-8	829-830	,	_	_
+12-9	831-834	und	_	_
+12-10	835-838	mit	_	_
+12-11	839-842	den	_	_
+12-12	843-851	Finanzen	_	_
+12-13	852-858	wird's	_	_
+12-14	859-865	sonach	_	_
+12-15	866-870	dies	_	_
+12-16	871-875	Jahr	_	_
+12-17	876-881	knapp	_	_
+12-18	882-887	gehen	_	_
+12-19	888-889	.	_	_
+
+#Text=Diese Angelegenheit hat aber , ich wiederhole es , mit dem Institut durchaus nichts zu thuen .
+13-1	890-895	Diese	_	_
+13-2	896-909	Angelegenheit	_	_
+13-3	910-913	hat	_	_
+13-4	914-918	aber	_	_
+13-5	919-920	,	_	_
+13-6	921-924	ich	_	_
+13-7	925-935	wiederhole	_	_
+13-8	936-938	es	_	_
+13-9	939-940	,	_	_
+13-10	941-944	mit	_	_
+13-11	945-948	dem	_	_
+13-12	949-957	Institut	*	ORGmentioned
+13-13	958-966	durchaus	_	_
+13-14	967-973	nichts	_	_
+13-15	974-976	zu	_	_
+13-16	977-982	thuen	_	_
+13-17	983-984	.	_	_
+
+#Text=Letzteres anlangend , so bitte ich zu berücksichtigen , das ich seit ... Jahren manichfach das Opfer einer häufig des Instituts Untergang drohenden Verwaltung geworden bin .
+14-1	985-994	Letzteres	_	_
+14-2	995-1004	anlangend	_	_
+14-3	1005-1006	,	_	_
+14-4	1007-1009	so	_	_
+14-5	1010-1015	bitte	_	_
+14-6	1016-1019	ich	_	_
+14-7	1020-1022	zu	_	_
+14-8	1023-1038	berücksichtigen	_	_
+14-9	1039-1040	,	_	_
+14-10	1041-1044	das	_	_
+14-11	1045-1048	ich	_	_
+14-12	1049-1053	seit	_	_
+14-13	1054-1057	...	_	_
+14-14	1058-1064	Jahren	_	_
+14-15	1065-1075	manichfach	_	_
+14-16	1076-1079	das	_	_
+14-17	1080-1085	Opfer	_	_
+14-18	1086-1091	einer	_	_
+14-19	1092-1098	häufig	_	_
+14-20	1099-1102	des	_	_
+14-21	1103-1112	Instituts	*	ORGmentioned
+14-22	1113-1122	Untergang	_	_
+14-23	1123-1132	drohenden	_	_
+14-24	1133-1143	Verwaltung	_	_
+14-25	1144-1152	geworden	_	_
+14-26	1153-1156	bin	_	_
+14-27	1157-1158	.	_	_
+
+#Text=Unsere Vorlesungen anlangend , so hatte ich 15 Scudi für A. vorgeschlagen und da Sie auf 25 bestanden , 20 als Mittelzahl zugegeben \; 10 an der Bibliothek .
+15-1	1159-1165	Unsere	_	_
+15-2	1166-1177	Vorlesungen	_	_
+15-3	1178-1187	anlangend	_	_
+15-4	1188-1189	,	_	_
+15-5	1190-1192	so	_	_
+15-6	1193-1198	hatte	_	_
+15-7	1199-1202	ich	_	_
+15-8	1203-1205	15	_	_
+15-9	1206-1211	Scudi	_	_
+15-10	1212-1215	für	_	_
+15-11	1216-1218	A.	_	_
+15-12	1219-1232	vorgeschlagen	_	_
+15-13	1233-1236	und	_	_
+15-14	1237-1239	da	_	_
+15-15	1240-1243	Sie	_	_
+15-16	1244-1247	auf	_	_
+15-17	1248-1250	25	_	_
+15-18	1251-1260	bestanden	_	_
+15-19	1261-1262	,	_	_
+15-20	1263-1265	20	_	_
+15-21	1266-1269	als	_	_
+15-22	1270-1280	Mittelzahl	_	_
+15-23	1281-1290	zugegeben	_	_
+15-24	1291-1292	\;	_	_
+15-25	1293-1295	10	_	_
+15-26	1296-1298	an	_	_
+15-27	1299-1302	der	_	_
+15-28	1303-1313	Bibliothek	*	ORGmentioned
+15-29	1314-1315	.	_	_
+
+#Text=10 ans Institut .
+16-1	1316-1318	10	_	_
+16-2	1319-1322	ans	_	_
+16-3	1323-1331	Institut	*	ORGmentioned
+16-4	1332-1333	.	_	_
+
+#Text=Jetzt versprechen Sie ihm noch überdies Emolumente an der Bibliothek die in-
+17-1	1334-1339	Jetzt	_	_
+17-2	1340-1351	versprechen	_	_
+17-3	1352-1355	Sie	_	_
+17-4	1356-1359	ihm	_	_
+17-5	1360-1364	noch	_	_
+17-6	1365-1373	überdies	_	_
+17-7	1374-1384	Emolumente	_	_
+17-8	1385-1387	an	_	_
+17-9	1388-1391	der	_	_
+17-10	1392-1402	Bibliothek	*	ORGmentioned
+17-11	1403-1406	die	_	_
+17-12	1407-1410	in-	_	_

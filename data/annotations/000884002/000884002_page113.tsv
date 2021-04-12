@@ -1,0 +1,91 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , % .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-23	%	_	_
+1-7	24-25	.	*[1]	DATEletter[1]
+
+#Text=Juli 1862 Ma invece delle parti che mancano , si trova presso 1'Instituto una seconda copia delle seguenti parti : Testo : Mon .
+2-1	26-30	Juli	*[1]	DATEletter[1]
+2-2	31-35	1862	*[1]	DATEletter[1]
+2-3	36-38	Ma	_	_
+2-4	39-45	invece	_	_
+2-5	46-51	delle	_	_
+2-6	52-57	parti	_	_
+2-7	58-61	che	_	_
+2-8	62-69	mancano	_	_
+2-9	70-71	,	_	_
+2-10	72-74	si	_	_
+2-11	75-80	trova	_	_
+2-12	81-87	presso	_	_
+2-13	88-99	1'Instituto	_	_
+2-14	100-103	una	_	_
+2-15	104-111	seconda	_	_
+2-16	112-117	copia	_	_
+2-17	118-123	delle	_	_
+2-18	124-132	seguenti	_	_
+2-19	133-138	parti	_	_
+2-20	139-140	:	_	_
+2-21	141-146	Testo	_	_
+2-22	147-148	:	_	_
+2-23	149-152	Mon	_	_
+2-24	153-154	.	_	_
+
+#Text=stor .
+3-1	155-159	stor	_	_
+3-2	160-161	.	_	_
+
+#Text=III , 2 .
+4-1	162-165	III	_	_
+4-2	166-167	,	_	_
+4-3	168-169	2	_	_
+4-4	170-171	.	_	_
+
+#Text=IV Mon .
+5-1	172-174	IV	_	_
+5-2	175-178	Mon	_	_
+5-3	179-180	.	_	_
+
+#Text=civ . I.II.III .
+6-1	181-184	civ	_	_
+6-2	185-186	.	_	_
+6-3	187-195	I.II.III	_	_
+6-4	196-197	.	_	_
+
+#Text=Tavole .
+7-1	198-204	Tavole	_	_
+7-2	205-206	.	_	_
+
+#Text=M.R .
+8-1	207-210	M.R	_	_
+8-2	211-212	.	_	_
+
+#Text=I -169 .
+9-1	213-214	I	_	_
+9-2	215-219	-169	_	_
+9-3	220-221	.	_	_
+
+#Text=M.C .
+10-1	222-225	M.C	_	_
+10-2	226-227	.	_	_
+
+#Text=I - 135 .
+11-1	228-229	I	_	_
+11-2	230-231	-	_	_
+11-3	232-235	135	_	_
+11-4	236-237	.	_	_
+
+#Text=M.d.C .
+12-1	238-243	M.d.C	_	_
+12-2	244-245	.	_	_
+
+#Text=come sopra .
+13-1	246-250	come	_	_
+13-2	251-256	sopra	_	_
+13-3	257-258	.	_	_

@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=409 Gerhard an Braun Berlin , 7. Juli 1844 A. d . Dir .
+1-1	0-3	409	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	7.	*[1]	DATEletter[1]
+1-8	33-37	Juli	*[1]	DATEletter[1]
+1-9	38-42	1844	*[1]	DATEletter[1]
+1-10	43-45	A.	_	_
+1-11	46-47	d	_	_
+1-12	48-49	.	_	_
+1-13	50-53	Dir	_	_
+1-14	54-55	.	_	_
+
+#Text=g . 12/VIII 44 Mein theurer Freund .
+2-1	56-57	g	_	_
+2-2	58-59	.	_	_
+2-3	60-67	12/VIII	*[2]	DATErecieved[2]
+2-4	68-70	44	*[2]	DATErecieved[2]
+2-5	71-75	Mein	_	_
+2-6	76-83	theurer	_	_
+2-7	84-90	Freund	_	_
+2-8	91-92	.	_	_
+
+#Text=Seien Sie willkommen in Deutschland \; endlich kann man Ihnen doch wohl an den Rhein schreiben .
+3-1	93-98	Seien	_	_
+3-2	99-102	Sie	_	_
+3-3	103-113	willkommen	_	_
+3-4	114-116	in	_	_
+3-5	117-128	Deutschland	*	PLACEmentioned
+3-6	129-130	\;	_	_
+3-7	131-138	endlich	_	_
+3-8	139-143	kann	_	_
+3-9	144-147	man	_	_
+3-10	148-153	Ihnen	_	_
+3-11	154-158	doch	_	_
+3-12	159-163	wohl	_	_
+3-13	164-166	an	_	_
+3-14	167-170	den	_	_
+3-15	171-176	Rhein	*	PLACEmentioned
+3-16	177-186	schreiben	_	_
+3-17	187-188	.	_	_
+
+#Text=Rückständige Antworten giebt es wenig .
+4-1	189-201	Rückständige	_	_
+4-2	202-211	Antworten	_	_
+4-3	212-217	giebt	_	_
+4-4	218-220	es	_	_
+4-5	221-226	wenig	_	_
+4-6	227-228	.	_	_
+
+#Text=Die Kistensache hat Ihnen noch nachträglich Mühe gemacht , das thut mir leid .
+5-1	229-232	Die	_	_
+5-2	233-244	Kistensache	_	_
+5-3	245-248	hat	_	_
+5-4	249-254	Ihnen	_	_
+5-5	255-259	noch	_	_
+5-6	260-272	nachträglich	_	_
+5-7	273-277	Mühe	_	_
+5-8	278-285	gemacht	_	_
+5-9	286-287	,	_	_
+5-10	288-291	das	_	_
+5-11	292-296	thut	_	_
+5-12	297-300	mir	_	_
+5-13	301-305	leid	_	_
+5-14	306-307	.	_	_
+
+#Text=Ihnen je ungefällig zu sein kann weder Gerstäcker noch mir einfallen \; doch liegt das Unpraktische am Tage daß die Campana'schen erst hierher gingen von wo aus sie nun an Brockhaus empfohlen sind , ohne daß sich Porto dafür einfordern ließ .
+6-1	308-313	Ihnen	_	_
+6-2	314-316	je	_	_
+6-3	317-327	ungefällig	_	_
+6-4	328-330	zu	_	_
+6-5	331-335	sein	_	_
+6-6	336-340	kann	_	_
+6-7	341-346	weder	_	_
+6-8	347-357	Gerstäcker	*	ORGmentioned
+6-9	358-362	noch	_	_
+6-10	363-366	mir	_	_
+6-11	367-376	einfallen	_	_
+6-12	377-378	\;	_	_
+6-13	379-383	doch	_	_
+6-14	384-389	liegt	_	_
+6-15	390-393	das	_	_
+6-16	394-406	Unpraktische	_	_
+6-17	407-409	am	_	_
+6-18	410-414	Tage	_	_
+6-19	415-418	daß	_	_
+6-20	419-422	die	_	_
+6-21	423-436	Campana'schen	*	PERmentioned
+6-22	437-441	erst	_	_
+6-23	442-449	hierher	_	_
+6-24	450-456	gingen	_	_
+6-25	457-460	von	_	_
+6-26	461-463	wo	_	_
+6-27	464-467	aus	_	_
+6-28	468-471	sie	_	_
+6-29	472-475	nun	_	_
+6-30	476-478	an	_	_
+6-31	479-488	Brockhaus	*	ORGmentioned
+6-32	489-498	empfohlen	_	_
+6-33	499-503	sind	_	_
+6-34	504-505	,	_	_
+6-35	506-510	ohne	_	_
+6-36	511-514	daß	_	_
+6-37	515-519	sich	_	_
+6-38	520-525	Porto	_	_
+6-39	526-531	dafür	_	_
+6-40	532-542	einfordern	_	_
+6-41	543-547	ließ	_	_
+6-42	548-549	.	_	_
+
+#Text=So kommt jeder einzelne Artikel der Ladung um so theurer .
+7-1	550-552	So	_	_
+7-2	553-558	kommt	_	_
+7-3	559-564	jeder	_	_
+7-4	565-573	einzelne	_	_
+7-5	574-581	Artikel	_	_
+7-6	582-585	der	_	_
+7-7	586-592	Ladung	_	_
+7-8	593-595	um	_	_
+7-9	596-598	so	_	_
+7-10	599-606	theurer	_	_
+7-11	607-608	.	_	_
+
+#Text=Die Illusion daß die Verweisung erst von Grenzmauthen kam dürfen Sie laut Gerstäckers Versicherung Sich für andre Fälle nicht machen \; wir wollen Alles auf Henzen schieben , der als Verliebter Schuld an dem Versäumniß sein kann ohne daß wir ihm deshalb zürnen können .
+8-1	609-612	Die	_	_
+8-2	613-621	Illusion	_	_
+8-3	622-625	daß	_	_
+8-4	626-629	die	_	_
+8-5	630-640	Verweisung	_	_
+8-6	641-645	erst	_	_
+8-7	646-649	von	_	_
+8-8	650-662	Grenzmauthen	_	_
+8-9	663-666	kam	_	_
+8-10	667-673	dürfen	_	_
+8-11	674-677	Sie	_	_
+8-12	678-682	laut	_	_
+8-13	683-694	Gerstäckers	*	ORGmentioned
+8-14	695-707	Versicherung	_	_
+8-15	708-712	Sich	_	_
+8-16	713-716	für	_	_
+8-17	717-722	andre	_	_
+8-18	723-728	Fälle	_	_
+8-19	729-734	nicht	_	_
+8-20	735-741	machen	_	_
+8-21	742-743	\;	_	_
+8-22	744-747	wir	_	_
+8-23	748-754	wollen	_	_
+8-24	755-760	Alles	_	_
+8-25	761-764	auf	_	_
+8-26	765-771	Henzen	*	PERmentioned
+8-27	772-780	schieben	_	_
+8-28	781-782	,	_	_
+8-29	783-786	der	_	_
+8-30	787-790	als	_	_
+8-31	791-801	Verliebter	_	_
+8-32	802-808	Schuld	_	_
+8-33	809-811	an	_	_
+8-34	812-815	dem	_	_
+8-35	816-826	Versäumniß	_	_
+8-36	827-831	sein	_	_
+8-37	832-836	kann	_	_
+8-38	837-841	ohne	_	_
+8-39	842-845	daß	_	_
+8-40	846-849	wir	_	_
+8-41	850-853	ihm	_	_
+8-42	854-861	deshalb	_	_
+8-43	862-868	zürnen	_	_
+8-44	869-875	können	_	_
+8-45	876-877	.	_	_
+
+#Text=Möge es diesen Ehestand nur ferner wohl gehen !
+9-1	878-882	Möge	_	_
+9-2	883-885	es	_	_
+9-3	886-892	diesen	_	_
+9-4	893-901	Ehestand	_	_
+9-5	902-905	nur	_	_
+9-6	906-912	ferner	_	_
+9-7	913-917	wohl	_	_
+9-8	918-923	gehen	_	_
+9-9	924-925	!	_	_
+
+#Text=Ich hoffe er hat gut gewählt \; Frau Henzen hörte ich ja immer sehr rühmen .
+10-1	926-929	Ich	_	_
+10-2	930-935	hoffe	_	_
+10-3	936-938	er	_	_
+10-4	939-942	hat	_	_
+10-5	943-946	gut	_	_
+10-6	947-954	gewählt	_	_
+10-7	955-956	\;	_	_
+10-8	957-961	Frau	*[3]	PERmentioned[3]
+10-9	962-968	Henzen	*[3]	PERmentioned[3]
+10-10	969-974	hörte	_	_
+10-11	975-978	ich	_	_
+10-12	979-981	ja	_	_
+10-13	982-987	immer	_	_
+10-14	988-992	sehr	_	_
+10-15	993-999	rühmen	_	_
+10-16	1000-1001	.	_	_
+
+#Text=Krause hat über den empfangenen Trippel der ihm so wenig nützen als der vollblasige früher empfangene Glasfluß gejammert , und nach Ihrer Liste wird es nun zweifelhaft ob überhaupt er die/Tatale Bendung haben sollte oder vielleicht Rauch , der bei Ihnen mit einem
+11-1	1002-1008	Krause	*	PERmentioned
+11-2	1009-1012	hat	_	_
+11-3	1013-1017	über	_	_
+11-4	1018-1021	den	_	_
+11-5	1022-1033	empfangenen	_	_
+11-6	1034-1041	Trippel	_	_
+11-7	1042-1045	der	_	_
+11-8	1046-1049	ihm	_	_
+11-9	1050-1052	so	_	_
+11-10	1053-1058	wenig	_	_
+11-11	1059-1065	nützen	_	_
+11-12	1066-1069	als	_	_
+11-13	1070-1073	der	_	_
+11-14	1074-1085	vollblasige	_	_
+11-15	1086-1092	früher	_	_
+11-16	1093-1103	empfangene	_	_
+11-17	1104-1112	Glasfluß	_	_
+11-18	1113-1122	gejammert	_	_
+11-19	1123-1124	,	_	_
+11-20	1125-1128	und	_	_
+11-21	1129-1133	nach	_	_
+11-22	1134-1139	Ihrer	_	_
+11-23	1140-1145	Liste	_	_
+11-24	1146-1150	wird	_	_
+11-25	1151-1153	es	_	_
+11-26	1154-1157	nun	_	_
+11-27	1158-1169	zweifelhaft	_	_
+11-28	1170-1172	ob	_	_
+11-29	1173-1182	überhaupt	_	_
+11-30	1183-1185	er	_	_
+11-31	1186-1196	die/Tatale	_	_
+11-32	1197-1204	Bendung	_	_
+11-33	1205-1210	haben	_	_
+11-34	1211-1217	sollte	_	_
+11-35	1218-1222	oder	_	_
+11-36	1223-1233	vielleicht	_	_
+11-37	1234-1239	Rauch	*	PERmentioned
+11-38	1240-1241	,	_	_
+11-39	1242-1245	der	_	_
+11-40	1246-1249	bei	_	_
+11-41	1250-1255	Ihnen	_	_
+11-42	1256-1259	mit	_	_
+11-43	1260-1265	einem	_	_

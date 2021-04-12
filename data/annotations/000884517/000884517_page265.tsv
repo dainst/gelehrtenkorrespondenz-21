@@ -1,0 +1,200 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=13 Gerhard an Braun Berlin , 2 .
+1-1	0-2	13	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	2	*[4]	DATEletter[4]
+1-8	31-32	.	*[4]	DATEletter[4]
+
+#Text=Januar 1849 g . 13/I 49 r . 13/I 49 Dr. Braun Berlin 2/1849 Mein theurer Freund .
+2-1	33-39	Januar	*[4]	DATEletter[4]
+2-2	40-44	1849	*[4]	DATEletter[4]
+2-3	45-46	g	_	_
+2-4	47-48	.	_	_
+2-5	49-53	13/I	*[6]	DATEanswered[6]
+2-6	54-56	49	*[6]	DATEanswered[6]
+2-7	57-58	r	_	_
+2-8	59-60	.	_	_
+2-9	61-65	13/I	*[5]	DATErecieved[5]
+2-10	66-68	49	*[5]	DATErecieved[5]
+2-11	69-72	Dr.	*[3]	PERaddressee[3]
+2-12	73-78	Braun	*[3]	PERaddressee[3]
+2-13	79-85	Berlin	*	PLACEfrom
+2-14	86-92	2/1849	*	DATEletter
+2-15	93-97	Mein	_	_
+2-16	98-105	theurer	_	_
+2-17	106-112	Freund	_	_
+2-18	113-114	.	_	_
+
+#Text=Zum neuen Jahr allen Gottessegen dessen wir tausendfältig bedürfen !
+3-1	115-118	Zum	_	_
+3-2	119-124	neuen	_	_
+3-3	125-129	Jahr	_	_
+3-4	130-135	allen	_	_
+3-5	136-147	Gottessegen	_	_
+3-6	148-154	dessen	_	_
+3-7	155-158	wir	_	_
+3-8	159-172	tausendfältig	_	_
+3-9	173-181	bedürfen	_	_
+3-10	182-183	!	_	_
+
+#Text=Die Eingabe an den König ging zum Jahresschluß ab , ohne das Register das ich nothdürftig wie es eben ging in Aussicht stellte .
+4-1	184-187	Die	_	_
+4-2	188-195	Eingabe	_	_
+4-3	196-198	an	_	_
+4-4	199-202	den	_	_
+4-5	203-208	König	*	PERmentioned
+4-6	209-213	ging	_	_
+4-7	214-217	zum	_	_
+4-8	218-230	Jahresschluß	_	_
+4-9	231-233	ab	_	_
+4-10	234-235	,	_	_
+4-11	236-240	ohne	_	_
+4-12	241-244	das	_	_
+4-13	245-253	Register	_	_
+4-14	254-257	das	_	_
+4-15	258-261	ich	_	_
+4-16	262-273	nothdürftig	_	_
+4-17	274-277	wie	_	_
+4-18	278-280	es	_	_
+4-19	281-285	eben	_	_
+4-20	286-290	ging	_	_
+4-21	291-293	in	_	_
+4-22	294-302	Aussicht	_	_
+4-23	303-310	stellte	_	_
+4-24	311-312	.	_	_
+
+#Text=Zu warten aber bis Wahlen und Kammern alle jetzige gute Stimmung neu verbittern schien mir allzu gewagt .
+5-1	313-315	Zu	_	_
+5-2	316-322	warten	_	_
+5-3	323-327	aber	_	_
+5-4	328-331	bis	_	_
+5-5	332-338	Wahlen	_	_
+5-6	339-342	und	_	_
+5-7	343-350	Kammern	_	_
+5-8	351-355	alle	_	_
+5-9	356-363	jetzige	_	_
+5-10	364-368	gute	_	_
+5-11	369-377	Stimmung	_	_
+5-12	378-381	neu	_	_
+5-13	382-392	verbittern	_	_
+5-14	393-399	schien	_	_
+5-15	400-403	mir	_	_
+5-16	404-409	allzu	_	_
+5-17	410-416	gewagt	_	_
+5-18	417-418	.	_	_
+
+#Text=Dagegen habe ich 1 Galvanoplasticum Apotheose Homeri geschickt eingebunden und betitelt der Königlichen Beachtung unterlegt .
+6-1	419-426	Dagegen	_	_
+6-2	427-431	habe	_	_
+6-3	432-435	ich	_	_
+6-4	436-437	1	_	_
+6-5	438-454	Galvanoplasticum	_	_
+6-6	455-464	Apotheose	_	_
+6-7	465-471	Homeri	_	_
+6-8	472-481	geschickt	_	_
+6-9	482-493	eingebunden	_	_
+6-10	494-497	und	_	_
+6-11	498-506	betitelt	_	_
+6-12	507-510	der	_	_
+6-13	511-522	Königlichen	_	_
+6-14	523-532	Beachtung	_	_
+6-15	533-542	unterlegt	_	_
+6-16	543-544	.	_	_
+
+#Text=Die Gelder von Leemans und von W. G. Korn werden Sie nun durch Usedom erhalten haben \; letzterer hat Wahlaussicht in Rügen und käme dann vielleicht bald zurück .
+7-1	545-548	Die	_	_
+7-2	549-555	Gelder	_	_
+7-3	556-559	von	_	_
+7-4	560-567	Leemans	*	PERmentioned
+7-5	568-571	und	_	_
+7-6	572-575	von	_	_
+7-7	576-578	W.	*[7]	PERmentioned[7]
+7-8	579-581	G.	*[7]	PERmentioned[7]
+7-9	582-586	Korn	*[7]	PERmentioned[7]
+7-10	587-593	werden	_	_
+7-11	594-597	Sie	_	_
+7-12	598-601	nun	_	_
+7-13	602-607	durch	_	_
+7-14	608-614	Usedom	*	PERmentioned
+7-15	615-623	erhalten	_	_
+7-16	624-629	haben	_	_
+7-17	630-631	\;	_	_
+7-18	632-641	letzterer	_	_
+7-19	642-645	hat	_	_
+7-20	646-658	Wahlaussicht	_	_
+7-21	659-661	in	_	_
+7-22	662-667	Rügen	*	PLACEmentioned
+7-23	668-671	und	_	_
+7-24	672-676	käme	_	_
+7-25	677-681	dann	_	_
+7-26	682-692	vielleicht	_	_
+7-27	693-697	bald	_	_
+7-28	698-704	zurück	_	_
+7-29	705-706	.	_	_
+
+#Text=Für die Notiz des Steinmetzmonuments den besten Dank : was mich darauf führte , die Verschiedenheit der Flügel beider Eroten , ließen Sie unberührt .
+8-1	707-710	Für	_	_
+8-2	711-714	die	_	_
+8-3	715-720	Notiz	_	_
+8-4	721-724	des	_	_
+8-5	725-743	Steinmetzmonuments	*	OBJ
+8-6	744-747	den	_	_
+8-7	748-754	besten	_	_
+8-8	755-759	Dank	_	_
+8-9	760-761	:	_	_
+8-10	762-765	was	_	_
+8-11	766-770	mich	_	_
+8-12	771-777	darauf	_	_
+8-13	778-784	führte	_	_
+8-14	785-786	,	_	_
+8-15	787-790	die	_	_
+8-16	791-806	Verschiedenheit	_	_
+8-17	807-810	der	_	_
+8-18	811-817	Flügel	_	_
+8-19	818-824	beider	_	_
+8-20	825-831	Eroten	_	_
+8-21	832-833	,	_	_
+8-22	834-840	ließen	_	_
+8-23	841-844	Sie	_	_
+8-24	845-854	unberührt	_	_
+8-25	855-856	.	_	_
+
+#Text=Über Ihre Adunanzen erhalte ich also wol noch etwas für den Abschluß der Archäologischen Zeitung 1848 .
+9-1	857-861	Über	_	_
+9-2	862-866	Ihre	_	_
+9-3	867-876	Adunanzen	_	_
+9-4	877-884	erhalte	_	_
+9-5	885-888	ich	_	_
+9-6	889-893	also	_	_
+9-7	894-897	wol	_	_
+9-8	898-902	noch	_	_
+9-9	903-908	etwas	_	_
+9-10	909-912	für	_	_
+9-11	913-916	den	_	_
+9-12	917-925	Abschluß	_	_
+9-13	926-929	der	_	_
+9-14	930-945	Archäologischen	_	_
+9-15	946-953	Zeitung	_	_
+9-16	954-958	1848	*	DATEmentioned
+9-17	959-960	.	_	_
+
+#Text=Hätte ich es jetzt gehabt , so wäre es mir lieb gewesen
+10-1	961-966	Hätte	_	_
+10-2	967-970	ich	_	_
+10-3	971-973	es	_	_
+10-4	974-979	jetzt	_	_
+10-5	980-986	gehabt	_	_
+10-6	987-988	,	_	_
+10-7	989-991	so	_	_
+10-8	992-996	wäre	_	_
+10-9	997-999	es	_	_
+10-10	1000-1003	mir	_	_
+10-11	1004-1008	lieb	_	_
+10-12	1009-1016	gewesen	_	_

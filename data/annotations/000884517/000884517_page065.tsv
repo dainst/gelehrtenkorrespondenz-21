@@ -1,0 +1,119 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=405 Gerhard an Braun Berlin , 24 .
+1-1	0-3	405	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	24	*[1]	DATEletter[1]
+1-8	33-34	.	*[1]	DATEletter[1]
+
+#Text=Jwni 1844 Nachricht von Ihnen zu erhalten \; sonst in Frankfurt ( Kurhessische Gesandtschaft ) zu hören , wann und wo wir uns zusammentreffen können .
+2-1	35-39	Jwni	*[1]	DATEletter[1]
+2-2	40-44	1844	*[1]	DATEletter[1]
+2-3	45-54	Nachricht	_	_
+2-4	55-58	von	_	_
+2-5	59-64	Ihnen	_	_
+2-6	65-67	zu	_	_
+2-7	68-76	erhalten	_	_
+2-8	77-78	\;	_	_
+2-9	79-84	sonst	_	_
+2-10	85-87	in	_	_
+2-11	88-97	Frankfurt	*	PLACEmentioned
+2-12	98-99	(	_	_
+2-13	100-112	Kurhessische	*[2]	ORGmentioned[2]
+2-14	113-126	Gesandtschaft	*[2]	ORGmentioned[2]
+2-15	127-128	)	_	_
+2-16	129-131	zu	_	_
+2-17	132-137	hören	_	_
+2-18	138-139	,	_	_
+2-19	140-144	wann	_	_
+2-20	145-148	und	_	_
+2-21	149-151	wo	_	_
+2-22	152-155	wir	_	_
+2-23	156-159	uns	_	_
+2-24	160-175	zusammentreffen	_	_
+2-25	176-182	können	_	_
+2-26	183-184	.	_	_
+
+#Text=Daß statt meiner Panofka nach Paris geht und dort zwischen 8 und 20 August mit Ihnen zusammenzutreffen hofft , ich dagegen in Wildbad und dann in Frankfurt bis Mitte September herunschweifen werde schrieb ich Ihnen .
+3-1	185-188	Daß	_	_
+3-2	189-194	statt	_	_
+3-3	195-201	meiner	_	_
+3-4	202-209	Panofka	*	PERmentioned
+3-5	210-214	nach	_	_
+3-6	215-220	Paris	*	PLACEmentioned
+3-7	221-225	geht	_	_
+3-8	226-229	und	_	_
+3-9	230-234	dort	_	_
+3-10	235-243	zwischen	_	_
+3-11	244-245	8	*	DATEmentioned
+3-12	246-249	und	_	_
+3-13	250-252	20	*[3]	DATEmentioned[3]
+3-14	253-259	August	*[3]	DATEmentioned[3]
+3-15	260-263	mit	_	_
+3-16	264-269	Ihnen	_	_
+3-17	270-287	zusammenzutreffen	_	_
+3-18	288-293	hofft	_	_
+3-19	294-295	,	_	_
+3-20	296-299	ich	_	_
+3-21	300-307	dagegen	_	_
+3-22	308-310	in	_	_
+3-23	311-318	Wildbad	*	PLACEmentioned
+3-24	319-322	und	_	_
+3-25	323-327	dann	_	_
+3-26	328-330	in	_	_
+3-27	331-340	Frankfurt	*	PLACEmentioned
+3-28	341-344	bis	_	_
+3-29	345-350	Mitte	_	_
+3-30	351-360	September	*	DATEmentioned
+3-31	361-375	herunschweifen	_	_
+3-32	376-381	werde	_	_
+3-33	382-389	schrieb	_	_
+3-34	390-393	ich	_	_
+3-35	394-399	Ihnen	_	_
+3-36	400-401	.	_	_
+
+#Text=Sollten Sie von Paris über Brüssel gehen , so könnten wir auch dort uns vielleicht treffen \; doch wird das schwer sich fügen und waren Sie Ja dort glaube ich auch schon .
+4-1	402-409	Sollten	_	_
+4-2	410-413	Sie	_	_
+4-3	414-417	von	_	_
+4-4	418-423	Paris	*	PLACEmentioned
+4-5	424-428	über	_	_
+4-6	429-436	Brüssel	*	PLACEmentioned
+4-7	437-442	gehen	_	_
+4-8	443-444	,	_	_
+4-9	445-447	so	_	_
+4-10	448-455	könnten	_	_
+4-11	456-459	wir	_	_
+4-12	460-464	auch	_	_
+4-13	465-469	dort	_	_
+4-14	470-473	uns	_	_
+4-15	474-484	vielleicht	_	_
+4-16	485-492	treffen	_	_
+4-17	493-494	\;	_	_
+4-18	495-499	doch	_	_
+4-19	500-504	wird	_	_
+4-20	505-508	das	_	_
+4-21	509-515	schwer	_	_
+4-22	516-520	sich	_	_
+4-23	521-526	fügen	_	_
+4-24	527-530	und	_	_
+4-25	531-536	waren	_	_
+4-26	537-540	Sie	_	_
+4-27	541-543	Ja	_	_
+4-28	544-548	dort	_	_
+4-29	549-555	glaube	_	_
+4-30	556-559	ich	_	_
+4-31	560-564	auch	_	_
+4-32	565-570	schon	_	_
+4-33	571-572	.	_	_
+
+#Text=Herzlichst Ihr Gerhard
+5-1	573-583	Herzlichst	_	_
+5-2	584-587	Ihr	_	_
+5-3	588-595	Gerhard	*	PERauthor

@@ -1,0 +1,226 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 4. Juli 1838 Dr. Braun g . 19/7 38 Aff .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	4.	*[5]	DATEletter[5]
+1-7	29-33	Juli	*[5]	DATEletter[5]
+1-8	34-38	1838	*[5]	DATEletter[5]
+1-9	39-42	Dr.	_	_
+1-10	43-48	Braun	*	PERaddressee
+1-11	49-50	g	_	_
+1-12	51-52	.	_	_
+1-13	53-57	19/7	*[6]	DATErecieved[6]
+1-14	58-60	38	*[6]	DATErecieved[6]
+1-15	61-64	Aff	_	_
+1-16	65-66	.	_	_
+
+#Text=d . Dir .
+2-1	67-68	d	_	_
+2-2	69-70	.	_	_
+2-3	71-74	Dir	_	_
+2-4	75-76	.	_	_
+
+#Text=CCCXXIII r . 19/7 38 Berlin 4 Juli 38 Kommt kein Brief heute von Ihnen , so ist es Grund genug Ihnen zu schreiben damit Sie wissen meine Abreise von hier sei auf mörgen anberaumt .
+3-1	77-85	CCCXXIII	_	_
+3-2	86-87	r	_	_
+3-3	88-89	.	_	_
+3-4	90-94	19/7	*[7]	DATEanswered[7]
+3-5	95-97	38	*[7]	DATEanswered[7]
+3-6	98-104	Berlin	*	PLACEfrom
+3-7	105-106	4	*[9]	DATEletter[9]
+3-8	107-111	Juli	*[9]	DATEletter[9]
+3-9	112-114	38	*[9]	DATEletter[9]
+3-10	115-120	Kommt	_	_
+3-11	121-125	kein	_	_
+3-12	126-131	Brief	_	_
+3-13	132-137	heute	_	_
+3-14	138-141	von	_	_
+3-15	142-147	Ihnen	_	_
+3-16	148-149	,	_	_
+3-17	150-152	so	_	_
+3-18	153-156	ist	_	_
+3-19	157-159	es	_	_
+3-20	160-165	Grund	_	_
+3-21	166-171	genug	_	_
+3-22	172-177	Ihnen	_	_
+3-23	178-180	zu	_	_
+3-24	181-190	schreiben	_	_
+3-25	191-196	damit	_	_
+3-26	197-200	Sie	_	_
+3-27	201-207	wissen	_	_
+3-28	208-213	meine	_	_
+3-29	214-221	Abreise	_	_
+3-30	222-225	von	_	_
+3-31	226-230	hier	_	_
+3-32	231-234	sei	_	_
+3-33	235-238	auf	_	_
+3-34	239-245	mörgen	_	_
+3-35	246-255	anberaumt	_	_
+3-36	256-257	.	_	_
+
+#Text=Außerdem wünscht Panofka einen Brief an Vollard beigeschlossen , wogegen das Institut dem er viel andres Briefporto erlassen habe sich nicht setzen werde .
+4-1	258-266	Außerdem	_	_
+4-2	267-274	wünscht	_	_
+4-3	275-282	Panofka	*	PERmentioned
+4-4	283-288	einen	_	_
+4-5	289-294	Brief	_	_
+4-6	295-297	an	_	_
+4-7	298-305	Vollard	*	PERmentioned
+4-8	306-320	beigeschlossen	_	_
+4-9	321-322	,	_	_
+4-10	323-330	wogegen	_	_
+4-11	331-334	das	_	_
+4-12	335-343	Institut	*	ORGmentioned
+4-13	344-347	dem	_	_
+4-14	348-350	er	_	_
+4-15	351-355	viel	_	_
+4-16	356-362	andres	_	_
+4-17	363-373	Briefporto	_	_
+4-18	374-382	erlassen	_	_
+4-19	383-387	habe	_	_
+4-20	388-392	sich	_	_
+4-21	393-398	nicht	_	_
+4-22	399-405	setzen	_	_
+4-23	406-411	werde	_	_
+4-24	412-413	.	_	_
+
+#Text=Endlich eine Einlage an Jorio .
+5-1	414-421	Endlich	_	_
+5-2	422-426	eine	_	_
+5-3	427-434	Einlage	_	_
+5-4	435-437	an	_	_
+5-5	438-443	Jorio	*	PERmentioned
+5-6	444-445	.	_	_
+
+#Text=Spiegel- und Vasenwerk sind bei Reimer untergebracht \; Honorar nur im Exemplar beider Werke , ich aber bin froh daß die Sachen flott werden .
+6-1	446-454	Spiegel-	_	_
+6-2	455-458	und	_	_
+6-3	459-468	Vasenwerk	_	_
+6-4	469-473	sind	_	_
+6-5	474-477	bei	_	_
+6-6	478-484	Reimer	*	ORGmentioned
+6-7	485-498	untergebracht	_	_
+6-8	499-500	\;	_	_
+6-9	501-508	Honorar	_	_
+6-10	509-512	nur	_	_
+6-11	513-515	im	_	_
+6-12	516-524	Exemplar	_	_
+6-13	525-531	beider	_	_
+6-14	532-537	Werke	_	_
+6-15	538-539	,	_	_
+6-16	540-543	ich	_	_
+6-17	544-548	aber	_	_
+6-18	549-552	bin	_	_
+6-19	553-557	froh	_	_
+6-20	558-561	daß	_	_
+6-21	562-565	die	_	_
+6-22	566-572	Sachen	_	_
+6-23	573-578	flott	_	_
+6-24	579-585	werden	_	_
+6-25	586-587	.	_	_
+
+#Text=Zur Michalisvase - erscheint ein Anhang Beider \; nachher soll alle6 - 8 Wochen ein Heft folgen .
+7-1	588-591	Zur	_	_
+7-2	592-604	Michalisvase	*	OBJ
+7-3	605-606	-	_	_
+7-4	607-616	erscheint	_	_
+7-5	617-620	ein	_	_
+7-6	621-627	Anhang	_	_
+7-7	628-634	Beider	_	_
+7-8	635-636	\;	_	_
+7-9	637-644	nachher	_	_
+7-10	645-649	soll	_	_
+7-11	650-655	alle6	_	_
+7-12	656-657	-	_	_
+7-13	658-659	8	_	_
+7-14	660-666	Wochen	_	_
+7-15	667-670	ein	_	_
+7-16	671-675	Heft	_	_
+7-17	676-682	folgen	_	_
+7-18	683-684	.	_	_
+
+#Text=Die Vasen in 6 Blatt das Heft vermuthlich 2 1/2 rt = 9 fr wie das frnzösische Werk , die Spiegel in 10 Bl . vermuthlich zu circa 2 rt = 7 fr das Heft ..
+8-1	685-688	Die	_	_
+8-2	689-694	Vasen	*	OBJ
+8-3	695-697	in	_	_
+8-4	698-699	6	_	_
+8-5	700-705	Blatt	_	_
+8-6	706-709	das	_	_
+8-7	710-714	Heft	_	_
+8-8	715-726	vermuthlich	_	_
+8-9	727-728	2	_	_
+8-10	729-732	1/2	_	_
+8-11	733-735	rt	_	_
+8-12	736-737	=	_	_
+8-13	738-739	9	_	_
+8-14	740-742	fr	_	_
+8-15	743-746	wie	_	_
+8-16	747-750	das	_	_
+8-17	751-762	frnzösische	_	_
+8-18	763-767	Werk	_	_
+8-19	768-769	,	_	_
+8-20	770-773	die	_	_
+8-21	774-781	Spiegel	*	OBJ
+8-22	782-784	in	_	_
+8-23	785-787	10	_	_
+8-24	788-790	Bl	_	_
+8-25	791-792	.	_	_
+8-26	793-804	vermuthlich	_	_
+8-27	805-807	zu	_	_
+8-28	808-813	circa	_	_
+8-29	814-815	2	_	_
+8-30	816-818	rt	_	_
+8-31	819-820	=	_	_
+8-32	821-822	7	_	_
+8-33	823-825	fr	_	_
+8-34	826-829	das	_	_
+8-35	830-834	Heft	_	_
+8-36	835-837	..	_	_
+
+#Text=Auch diese Notiz können Sie diskursiv nennen und den andern Associati sichern \; zum Behuf des Bull .
+9-1	838-842	Auch	_	_
+9-2	843-848	diese	_	_
+9-3	849-854	Notiz	_	_
+9-4	855-861	können	_	_
+9-5	862-865	Sie	_	_
+9-6	866-875	diskursiv	_	_
+9-7	876-882	nennen	_	_
+9-8	883-886	und	_	_
+9-9	887-890	den	_	_
+9-10	891-897	andern	_	_
+9-11	898-907	Associati	_	_
+9-12	908-915	sichern	_	_
+9-13	916-917	\;	_	_
+9-14	918-921	zum	_	_
+9-15	922-927	Behuf	_	_
+9-16	928-931	des	_	_
+9-17	932-936	Bull	_	_
+9-18	937-938	.	_	_
+
+#Text=gebe ich Ihnen späterhin eine Notiz .
+10-1	939-943	gebe	_	_
+10-2	944-947	ich	_	_
+10-3	948-953	Ihnen	_	_
+10-4	954-963	späterhin	_	_
+10-5	964-968	eine	_	_
+10-6	969-974	Notiz	_	_
+10-7	975-976	.	_	_
+
+#Text=Das Paket der Exemplare des französischen Artikels ist richtig angekommen .
+11-1	977-980	Das	_	_
+11-2	981-986	Paket	_	_
+11-3	987-990	der	_	_
+11-4	991-1000	Exemplare	_	_
+11-5	1001-1004	des	_	_
+11-6	1005-1018	französischen	_	_
+11-7	1019-1027	Artikels	_	_
+11-8	1028-1031	ist	_	_
+11-9	1032-1039	richtig	_	_
+11-10	1040-1050	angekommen	_	_
+11-11	1051-1052	.	_	_

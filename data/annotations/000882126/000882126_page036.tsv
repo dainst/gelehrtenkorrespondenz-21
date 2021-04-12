@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mi , 1046 Braun an Gerhard Rom , 8. November 1835 Prof. Gerhard .
+1-1	0-2	Mi	_	_
+1-2	3-4	,	_	_
+1-3	5-9	1046	_	_
+1-4	10-15	Braun	*	PERauthor
+1-5	16-18	an	_	_
+1-6	19-26	Gerhard	*	PERaddressee
+1-7	27-30	Rom	*	PLACEfrom
+1-8	31-32	,	_	_
+1-9	33-35	8.	*[9]	DATEletter[9]
+1-10	36-44	November	*[9]	DATEletter[9]
+1-11	45-49	1835	*[9]	DATEletter[9]
+1-12	50-55	Prof.	*[10]	PERaddressee[10]
+1-13	56-63	Gerhard	*[10]	PERaddressee[10]
+1-14	64-65	.	_	_
+
+#Text=Roma li 8 Nbre 1835 Henning , ist der Maler , Wachs Schüler , ein galantuomissimo \| Hochverehrtester Freund \| !
+2-1	66-70	Roma	*	PLACEfrom
+2-2	71-73	li	_	_
+2-3	74-75	8	*[11]	DATEletter[11]
+2-4	76-80	Nbre	*[11]	DATEletter[11]
+2-5	81-85	1835	*[11]	DATEletter[11]
+2-6	86-93	Henning	*	PERmentioned
+2-7	94-95	,	_	_
+2-8	96-99	ist	_	_
+2-9	100-103	der	_	_
+2-10	104-109	Maler	_	_
+2-11	110-111	,	_	_
+2-12	112-117	Wachs	*	PERmentioned
+2-13	118-125	Schüler	_	_
+2-14	126-127	,	_	_
+2-15	128-131	ein	_	_
+2-16	132-147	galantuomissimo	_	_
+2-17	148-149	\|	_	_
+2-18	150-166	Hochverehrtester	_	_
+2-19	167-173	Freund	_	_
+2-20	174-175	\|	_	_
+2-21	176-177	!	_	_
+
+#Text=Allerdings erhält Panofka die ergänzenden Theile des in seinen Händen befindlichen Theiles von Forcellini .
+3-1	178-188	Allerdings	_	_
+3-2	189-195	erhält	_	_
+3-3	196-203	Panofka	*	PERmentioned
+3-4	204-207	die	_	_
+3-5	208-219	ergänzenden	_	_
+3-6	220-226	Theile	_	_
+3-7	227-230	des	_	_
+3-8	231-233	in	_	_
+3-9	234-240	seinen	_	_
+3-10	241-247	Händen	_	_
+3-11	248-260	befindlichen	_	_
+3-12	261-268	Theiles	_	_
+3-13	269-272	von	_	_
+3-14	273-283	Forcellini	*	PERmentioned
+3-15	284-285	.	_	_
+
+#Text=Ich habe den ganzen Rest in die letzte Kistensendung verpacken lassen .
+4-1	286-289	Ich	_	_
+4-2	290-294	habe	_	_
+4-3	295-298	den	_	_
+4-4	299-305	ganzen	_	_
+4-5	306-310	Rest	_	_
+4-6	311-313	in	_	_
+4-7	314-317	die	_	_
+4-8	318-324	letzte	_	_
+4-9	325-338	Kistensendung	_	_
+4-10	339-348	verpacken	_	_
+4-11	349-355	lassen	_	_
+4-12	356-357	.	_	_
+
+#Text=Außerdem erhalten Sie in jener an Gerstäcker näher zu spezificirenden Sendung : cop .
+5-1	358-366	Außerdem	_	_
+5-2	367-375	erhalten	_	_
+5-3	376-379	Sie	_	_
+5-4	380-382	in	_	_
+5-5	383-388	jener	_	_
+5-6	389-391	an	_	_
+5-7	392-402	Gerstäcker	*	PERmentioned
+5-8	403-408	näher	_	_
+5-9	409-411	zu	_	_
+5-10	412-427	spezificirenden	_	_
+5-11	428-435	Sendung	_	_
+5-12	436-437	:	_	_
+5-13	438-441	cop	_	_
+5-14	442-443	.	_	_
+
+#Text=Avellino , A i odo .
+6-1	444-452	Avellino	*	PERmentioned
+6-2	453-454	,	_	_
+6-3	455-456	A	_	_
+6-4	457-458	i	_	_
+6-5	459-462	odo	_	_
+6-6	463-464	.	_	_
+
+#Text=in Corelli Numism .
+7-1	465-467	in	_	_
+7-2	468-475	Corelli	_	_
+7-3	476-482	Numism	_	_
+7-4	483-484	.	_	_
+
+#Text=cop .
+8-1	485-488	cop	_	_
+8-2	489-490	.	_	_
+
+#Text=Museo di Mantova 1 - 3. cop .
+9-1	491-496	Museo	*[12]	ORGmentioned[12]
+9-2	497-499	di	*[12]	ORGmentioned[12]
+9-3	500-507	Mantova	*[12]	ORGmentioned[12]
+9-4	508-509	1	_	_
+9-5	510-511	-	_	_
+9-6	512-514	3.	_	_
+9-7	515-518	cop	_	_
+9-8	519-520	.	_	_
+
+#Text=Roß , Inscriptt .
+10-1	521-524	Roß	*	PERmentioned
+10-2	525-526	,	_	_
+10-3	527-536	Inscriptt	_	_
+10-4	537-538	.	_	_
+
+#Text=Graec .
+11-1	539-544	Graec	_	_
+11-2	545-546	.	_	_
+
+#Text=cartella con 59 disegni di vasi etruschi dito con 15 disegni di Specchj .
+12-1	547-555	cartella	_	_
+12-2	556-559	con	_	_
+12-3	560-562	59	_	_
+12-4	563-570	disegni	_	_
+12-5	571-573	di	_	_
+12-6	574-578	vasi	_	_
+12-7	579-587	etruschi	*[13]	OBJ[13]
+12-8	588-592	dito	_	_
+12-9	593-596	con	_	_
+12-10	597-599	15	_	_
+12-11	600-607	disegni	_	_
+12-12	608-610	di	_	_
+12-13	611-618	Specchj	*	OBJ
+12-14	619-620	.	_	_
+
+#Text=dito con 1 disegno di terracotta 1 cassa con 9 specchi etruschi di bronzo .
+13-1	621-625	dito	_	_
+13-2	626-629	con	_	_
+13-3	630-631	1	_	_
+13-4	632-639	disegno	_	_
+13-5	640-642	di	_	_
+13-6	643-653	terracotta	*	OBJ
+13-7	654-655	1	_	_
+13-8	656-661	cassa	_	_
+13-9	662-665	con	_	_
+13-10	666-667	9	_	_
+13-11	668-675	specchi	_	_
+13-12	676-684	etruschi	*[14]	OBJ[14]
+13-13	685-687	di	*[14]	OBJ[14]
+13-14	688-694	bronzo	*[14]	OBJ[14]
+13-15	695-696	.	_	_
+
+#Text=Sonst ist nichts für Sie beigeschlossen worden , da Sie meine Anfrage , ob Sie sonstige Wünsche hegten , nicht beantwortet haben .
+14-1	697-702	Sonst	_	_
+14-2	703-706	ist	_	_
+14-3	707-713	nichts	_	_
+14-4	714-717	für	_	_
+14-5	718-721	Sie	_	_
+14-6	722-736	beigeschlossen	_	_
+14-7	737-743	worden	_	_
+14-8	744-745	,	_	_
+14-9	746-748	da	_	_
+14-10	749-752	Sie	_	_
+14-11	753-758	meine	_	_
+14-12	759-766	Anfrage	_	_
+14-13	767-768	,	_	_
+14-14	769-771	ob	_	_
+14-15	772-775	Sie	_	_
+14-16	776-784	sonstige	_	_
+14-17	785-792	Wünsche	_	_
+14-18	793-799	hegten	_	_
+14-19	800-801	,	_	_
+14-20	802-807	nicht	_	_
+14-21	808-819	beantwortet	_	_
+14-22	820-825	haben	_	_
+14-23	826-827	.	_	_
+
+#Text=Die Kiste mit den Monumenten geht nächstens ab .
+15-1	828-831	Die	_	_
+15-2	832-837	Kiste	_	_
+15-3	838-841	mit	_	_
+15-4	842-845	den	_	_
+15-5	846-856	Monumenten	_	_
+15-6	857-861	geht	_	_
+15-7	862-871	nächstens	_	_
+15-8	872-874	ab	_	_
+15-9	875-876	.	_	_
+
+#Text=An Inghirani hatte ich allerdings geschrieben , aber bis dahin keine Antwort erhalten .
+16-1	877-879	An	_	_
+16-2	880-889	Inghirani	*	PERmentioned
+16-3	890-895	hatte	_	_
+16-4	896-899	ich	_	_
+16-5	900-910	allerdings	_	_
+16-6	911-922	geschrieben	_	_
+16-7	923-924	,	_	_
+16-8	925-929	aber	_	_
+16-9	930-933	bis	_	_
+16-10	934-939	dahin	_	_
+16-11	940-945	keine	_	_
+16-12	946-953	Antwort	_	_
+16-13	954-962	erhalten	_	_
+16-14	963-964	.	_	_
+
+#Text=Ich will ihn nun bearbeiten .
+17-1	965-968	Ich	_	_
+17-2	969-973	will	_	_
+17-3	974-977	ihn	_	_
+17-4	978-981	nun	_	_
+17-5	982-992	bearbeiten	_	_
+17-6	993-994	.	_	_
+
+#Text=Ich weiß nicht was er im Kopf haben muß , daß er nicht antwortet .
+18-1	995-998	Ich	_	_
+18-2	999-1003	weiß	_	_
+18-3	1004-1009	nicht	_	_
+18-4	1010-1013	was	_	_
+18-5	1014-1016	er	_	_
+18-6	1017-1019	im	_	_
+18-7	1020-1024	Kopf	_	_
+18-8	1025-1030	haben	_	_
+18-9	1031-1034	muß	_	_
+18-10	1035-1036	,	_	_
+18-11	1037-1040	daß	_	_
+18-12	1041-1043	er	_	_
+18-13	1044-1049	nicht	_	_
+18-14	1050-1059	antwortet	_	_
+18-15	1060-1061	.	_	_
+
+#Text=Leider haben Sie den Titel des Werks über die Pent .
+19-1	1062-1068	Leider	_	_
+19-2	1069-1074	haben	_	_
+19-3	1075-1078	Sie	_	_
+19-4	1079-1082	den	_	_
+19-5	1083-1088	Titel	_	_
+19-6	1089-1092	des	_	_
+19-7	1093-1098	Werks	_	_
+19-8	1099-1103	über	_	_
+19-9	1104-1107	die	_	_
+19-10	1108-1112	Pent	_	_
+19-11	1113-1114	.	_	_
+
+#Text=Tafel so undeutlich geschrieben , Daß ich den Namen des Autors bis jetzt nicht habe klar kriegen können .
+20-1	1115-1120	Tafel	_	_
+20-2	1121-1123	so	_	_
+20-3	1124-1134	undeutlich	_	_
+20-4	1135-1146	geschrieben	_	_
+20-5	1147-1148	,	_	_
+20-6	1149-1152	Daß	_	_
+20-7	1153-1156	ich	_	_
+20-8	1157-1160	den	_	_
+20-9	1161-1166	Namen	_	_
+20-10	1167-1170	des	_	_
+20-11	1171-1177	Autors	_	_
+20-12	1178-1181	bis	_	_
+20-13	1182-1187	jetzt	_	_
+20-14	1188-1193	nicht	_	_
+20-15	1194-1198	habe	_	_
+20-16	1199-1203	klar	_	_
+20-17	1204-1211	kriegen	_	_
+20-18	1212-1218	können	_	_
+20-19	1219-1220	.	_	_
+
+#Text=Indeß hoffe ich es beizuschaffen .
+21-1	1221-1226	Indeß	_	_
+21-2	1227-1232	hoffe	_	_
+21-3	1233-1236	ich	_	_
+21-4	1237-1239	es	_	_
+21-5	1240-1253	beizuschaffen	_	_
+21-6	1254-1255	.	_	_
+
+#Text=San a
+22-1	1256-1259	San	_	_
+22-2	1260-1261	a	_	_

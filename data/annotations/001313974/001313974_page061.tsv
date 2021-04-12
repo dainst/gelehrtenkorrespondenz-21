@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=298 Helbig an Henzen Neapel , 3. Juli 1865 H g . 5/7 65 non c ' & risposta Neapel 3. Juli 1865 .
+1-1	0-3	298	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	3.	*[1]	DATEletter[1]
+1-8	33-37	Juli	*[1]	DATEletter[1]
+1-9	38-42	1865	*[1]	DATEletter[1]
+1-10	43-44	H	_	_
+1-11	45-46	g	_	_
+1-12	47-48	.	_	_
+1-13	49-52	5/7	*[2]	DATErecieved[2]
+1-14	53-55	65	*[2]	DATErecieved[2]
+1-15	56-59	non	_	_
+1-16	60-61	c	_	_
+1-17	62-63	'	_	_
+1-18	64-65	&	_	_
+1-19	66-74	risposta	_	_
+1-20	75-81	Neapel	*	PLACEfrom
+1-21	82-84	3.	*[3]	DATEletter[3]
+1-22	85-89	Juli	*[3]	DATEletter[3]
+1-23	90-94	1865	*[3]	DATEletter[3]
+1-24	95-96	.	_	_
+
+#Text=Lieber Herr Professor !
+2-1	97-103	Lieber	_	_
+2-2	104-108	Herr	_	_
+2-3	109-118	Professor	_	_
+2-4	119-120	!	_	_
+
+#Text=Mit großem Bedauern habe ich von Lübbert , welcher vorgestern hier eingetroffen ist , vernommen , daß Sie unwohl sind .
+3-1	121-124	Mit	_	_
+3-2	125-131	großem	_	_
+3-3	132-140	Bedauern	_	_
+3-4	141-145	habe	_	_
+3-5	146-149	ich	_	_
+3-6	150-153	von	_	_
+3-7	154-161	Lübbert	*	PERmentioned
+3-8	162-163	,	_	_
+3-9	164-171	welcher	_	_
+3-10	172-182	vorgestern	_	_
+3-11	183-187	hier	_	_
+3-12	188-200	eingetroffen	_	_
+3-13	201-204	ist	_	_
+3-14	205-206	,	_	_
+3-15	207-216	vernommen	_	_
+3-16	217-218	,	_	_
+3-17	219-222	daß	_	_
+3-18	223-226	Sie	_	_
+3-19	227-233	unwohl	_	_
+3-20	234-238	sind	_	_
+3-21	239-240	.	_	_
+
+#Text=Jedenfalls soll es nicht an mir liegen , Sie länger in Rom zurückzuhalten .
+4-1	241-251	Jedenfalls	_	_
+4-2	252-256	soll	_	_
+4-3	257-259	es	_	_
+4-4	260-265	nicht	_	_
+4-5	266-268	an	_	_
+4-6	269-272	mir	_	_
+4-7	273-279	liegen	_	_
+4-8	280-281	,	_	_
+4-9	282-285	Sie	_	_
+4-10	286-292	länger	_	_
+4-11	293-295	in	_	_
+4-12	296-299	Rom	*	PLACEmentioned
+4-13	300-314	zurückzuhalten	_	_
+4-14	315-316	.	_	_
+
+#Text=Ich habe nämlich heute Morgen die von mir begonnene Ordnungsarbeit der Bilder sofort wieder einstellen müssen , da der mir zugemessene Raum unrichtig berechnet und sofort gefüllt war .
+5-1	317-320	Ich	_	_
+5-2	321-325	habe	_	_
+5-3	326-333	nämlich	_	_
+5-4	334-339	heute	_	_
+5-5	340-346	Morgen	_	_
+5-6	347-350	die	_	_
+5-7	351-354	von	_	_
+5-8	355-358	mir	_	_
+5-9	359-368	begonnene	_	_
+5-10	369-383	Ordnungsarbeit	_	_
+5-11	384-387	der	_	_
+5-12	388-394	Bilder	_	_
+5-13	395-401	sofort	_	_
+5-14	402-408	wieder	_	_
+5-15	409-419	einstellen	_	_
+5-16	420-426	müssen	_	_
+5-17	427-428	,	_	_
+5-18	429-431	da	_	_
+5-19	432-435	der	_	_
+5-20	436-439	mir	_	_
+5-21	440-451	zugemessene	_	_
+5-22	452-456	Raum	_	_
+5-23	457-466	unrichtig	_	_
+5-24	467-476	berechnet	_	_
+5-25	477-480	und	_	_
+5-26	481-487	sofort	_	_
+5-27	488-495	gefüllt	_	_
+5-28	496-499	war	_	_
+5-29	500-501	.	_	_
+
+#Text=Überhaupt sieht es gegenwärtig , da die Santangelosche Sammlung in das Museum translocirt wird und das Museum selbst höchstens zum sechsten Theil geordnet ist , schlimmer aus im Museum , als im Toilettenzimmer des berühmten Immondezzaio .
+6-1	502-511	Überhaupt	_	_
+6-2	512-517	sieht	_	_
+6-3	518-520	es	_	_
+6-4	521-532	gegenwärtig	_	_
+6-5	533-534	,	_	_
+6-6	535-537	da	_	_
+6-7	538-541	die	_	_
+6-8	542-556	Santangelosche	*	MISC
+6-9	557-565	Sammlung	_	_
+6-10	566-568	in	_	_
+6-11	569-572	das	_	_
+6-12	573-579	Museum	*	ORGmentioned
+6-13	580-591	translocirt	_	_
+6-14	592-596	wird	_	_
+6-15	597-600	und	_	_
+6-16	601-604	das	_	_
+6-17	605-611	Museum	*	ORGmentioned
+6-18	612-618	selbst	_	_
+6-19	619-628	höchstens	_	_
+6-20	629-632	zum	_	_
+6-21	633-641	sechsten	_	_
+6-22	642-647	Theil	_	_
+6-23	648-656	geordnet	_	_
+6-24	657-660	ist	_	_
+6-25	661-662	,	_	_
+6-26	663-672	schlimmer	_	_
+6-27	673-676	aus	_	_
+6-28	677-679	im	_	_
+6-29	680-686	Museum	*	ORGmentioned
+6-30	687-688	,	_	_
+6-31	689-692	als	_	_
+6-32	693-695	im	_	_
+6-33	696-711	Toilettenzimmer	_	_
+6-34	712-715	des	_	_
+6-35	716-725	berühmten	_	_
+6-36	726-738	Immondezzaio	_	_
+6-37	739-740	.	_	_
+
+#Text=Die erste Serie der Zeichnungen von Don Antonio Ala ist , sowie die Rechnung für dieselbe , zur Zufriedenheit ausgefallen .
+7-1	741-744	Die	_	_
+7-2	745-750	erste	_	_
+7-3	751-756	Serie	_	_
+7-4	757-760	der	_	_
+7-5	761-772	Zeichnungen	_	_
+7-6	773-776	von	_	_
+7-7	777-780	Don	_	_
+7-8	781-788	Antonio	*[4]	PERmentioned[4]
+7-9	789-792	Ala	*[4]	PERmentioned[4]
+7-10	793-796	ist	_	_
+7-11	797-798	,	_	_
+7-12	799-804	sowie	_	_
+7-13	805-808	die	_	_
+7-14	809-817	Rechnung	_	_
+7-15	818-821	für	_	_
+7-16	822-830	dieselbe	_	_
+7-17	831-832	,	_	_
+7-18	833-836	zur	_	_
+7-19	837-850	Zufriedenheit	_	_
+7-20	851-862	ausgefallen	_	_
+7-21	863-864	.	_	_
+
+#Text=Einige Tage werde ich nichts desto weniger noch in Neapel bleiben müssen , um über die in den noch übrigen vier Wochen von Scalabrini zu fertigenden Zeichnungen zu disponiren .
+8-1	865-871	Einige	_	_
+8-2	872-876	Tage	_	_
+8-3	877-882	werde	_	_
+8-4	883-886	ich	_	_
+8-5	887-893	nichts	_	_
+8-6	894-899	desto	_	_
+8-7	900-907	weniger	_	_
+8-8	908-912	noch	_	_
+8-9	913-915	in	_	_
+8-10	916-922	Neapel	*	PLACEmentioned
+8-11	923-930	bleiben	_	_
+8-12	931-937	müssen	_	_
+8-13	938-939	,	_	_
+8-14	940-942	um	_	_
+8-15	943-947	über	_	_
+8-16	948-951	die	_	_
+8-17	952-954	in	_	_
+8-18	955-958	den	_	_
+8-19	959-963	noch	_	_
+8-20	964-971	übrigen	_	_
+8-21	972-976	vier	_	_
+8-22	977-983	Wochen	_	_
+8-23	984-987	von	_	_
+8-24	988-998	Scalabrini	*	PERmentioned
+8-25	999-1001	zu	_	_
+8-26	1002-1013	fertigenden	_	_
+8-27	1014-1025	Zeichnungen	_	_
+8-28	1026-1028	zu	_	_
+8-29	1029-1039	disponiren	_	_
+8-30	1040-1041	.	_	_
+
+#Text=Dann werde ich zusammen mit Ala nach Capua reisen , um ihn das Capuaner Relief für Jahn zeichnen zu lassen .
+9-1	1042-1046	Dann	_	_
+9-2	1047-1052	werde	_	_
+9-3	1053-1056	ich	_	_
+9-4	1057-1065	zusammen	_	_
+9-5	1066-1069	mit	_	_
+9-6	1070-1073	Ala	*	PERmentioned
+9-7	1074-1078	nach	_	_
+9-8	1079-1084	Capua	*	PLACEmentioned
+9-9	1085-1091	reisen	_	_
+9-10	1092-1093	,	_	_
+9-11	1094-1096	um	_	_
+9-12	1097-1100	ihn	_	_
+9-13	1101-1104	das	_	_
+9-14	1105-1113	Capuaner	*[5]	OBJ[5]
+9-15	1114-1120	Relief	*[5]	OBJ[5]
+9-16	1121-1124	für	_	_
+9-17	1125-1129	Jahn	*	PERmentioned
+9-18	1130-1138	zeichnen	_	_
+9-19	1139-1141	zu	_	_
+9-20	1142-1148	lassen	_	_
+9-21	1149-1150	.	_	_
+
+#Text=Von da direct nach Rom .
+10-1	1151-1154	Von	_	_
+10-2	1155-1157	da	_	_
+10-3	1158-1164	direct	_	_
+10-4	1165-1169	nach	_	_
+10-5	1170-1173	Rom	*	PLACEmentioned
+10-6	1174-1175	.	_	_
+
+#Text=Jahn hat von mir die Zeichnung keines neapler Reliefs verlangt .
+11-1	1176-1180	Jahn	*	PERmentioned
+11-2	1181-1184	hat	_	_
+11-3	1185-1188	von	_	_
+11-4	1189-1192	mir	_	_
+11-5	1193-1196	die	_	_
+11-6	1197-1206	Zeichnung	_	_
+11-7	1207-1213	keines	_	_
+11-8	1214-1221	neapler	*[6]	OBJ[6]
+11-9	1222-1229	Reliefs	*[6]	OBJ[6]
+11-10	1230-1238	verlangt	_	_
+11-11	1239-1240	.	_	_

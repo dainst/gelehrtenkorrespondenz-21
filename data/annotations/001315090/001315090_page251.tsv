@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=46 Lepsius an Henzen Berlin , 22 .
+1-1	0-2	46	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	22	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=Januar 1876 26/76 Berlin , den 22.ten Januar 1876 Verehrter Freund Ich lege Ihnen heute den neuen Etat bei , den ich nun doch noch habe drucken lassen .
+2-1	35-41	Januar	*[3]	DATEletter[3]
+2-2	42-46	1876	*[3]	DATEletter[3]
+2-3	47-52	26/76	*	DATErecieved
+2-4	53-59	Berlin	*	PLACEfrom
+2-5	60-61	,	_	_
+2-6	62-65	den	_	_
+2-7	66-72	22.ten	*[4]	DATEletter[4]
+2-8	73-79	Januar	*[4]	DATEletter[4]
+2-9	80-84	1876	*[4]	DATEletter[4]
+2-10	85-94	Verehrter	_	_
+2-11	95-101	Freund	_	_
+2-12	102-105	Ich	_	_
+2-13	106-110	lege	_	_
+2-14	111-116	Ihnen	_	_
+2-15	117-122	heute	_	_
+2-16	123-126	den	_	_
+2-17	127-132	neuen	_	_
+2-18	133-137	Etat	_	_
+2-19	138-141	bei	_	_
+2-20	142-143	,	_	_
+2-21	144-147	den	_	_
+2-22	148-151	ich	_	_
+2-23	152-155	nun	_	_
+2-24	156-160	doch	_	_
+2-25	161-165	noch	_	_
+2-26	166-170	habe	_	_
+2-27	171-178	drucken	_	_
+2-28	179-185	lassen	_	_
+2-29	186-187	.	_	_
+
+#Text=Sollte ich Ihnen dasselbe Blatt für 1875 nicht zugesendet haben ?
+3-1	188-194	Sollte	_	_
+3-2	195-198	ich	_	_
+3-3	199-204	Ihnen	_	_
+3-4	205-213	dasselbe	_	_
+3-5	214-219	Blatt	_	_
+3-6	220-223	für	_	_
+3-7	224-228	1875	*	DATEmentioned
+3-8	229-234	nicht	_	_
+3-9	235-245	zugesendet	_	_
+3-10	246-251	haben	_	_
+3-11	252-253	?	_	_
+
+#Text=Von einem Zurückhalten irgend einer Position oder Zahl des ganzen Instituts von der Mittheilung nach Rom oder Athen ist nie und in keiner Weise die Rede gewesen .
+4-1	254-257	Von	_	_
+4-2	258-263	einem	_	_
+4-3	264-276	Zurückhalten	_	_
+4-4	277-283	irgend	_	_
+4-5	284-289	einer	_	_
+4-6	290-298	Position	_	_
+4-7	299-303	oder	_	_
+4-8	304-308	Zahl	_	_
+4-9	309-312	des	_	_
+4-10	313-319	ganzen	_	_
+4-11	320-329	Instituts	*	ORGmentioned
+4-12	330-333	von	_	_
+4-13	334-337	der	_	_
+4-14	338-349	Mittheilung	_	_
+4-15	350-354	nach	_	_
+4-16	355-358	Rom	*	PLACEmentioned
+4-17	359-363	oder	_	_
+4-18	364-369	Athen	*	PLACEmentioned
+4-19	370-373	ist	_	_
+4-20	374-377	nie	_	_
+4-21	378-381	und	_	_
+4-22	382-384	in	_	_
+4-23	385-391	keiner	_	_
+4-24	392-397	Weise	_	_
+4-25	398-401	die	_	_
+4-26	402-406	Rede	_	_
+4-27	407-414	gewesen	_	_
+4-28	415-416	.	_	_
+
+#Text=Wenn Krüger Köhler's Gehalt nicht genannt hat , so wird ihm der Anlaß gefehlt haben .
+5-1	417-421	Wenn	_	_
+5-2	422-428	Krüger	*	PERmentioned
+5-3	429-437	Köhler's	*	PERmentioned
+5-4	438-444	Gehalt	_	_
+5-5	445-450	nicht	_	_
+5-6	451-458	genannt	_	_
+5-7	459-462	hat	_	_
+5-8	463-464	,	_	_
+5-9	465-467	so	_	_
+5-10	468-472	wird	_	_
+5-11	473-476	ihm	_	_
+5-12	477-480	der	_	_
+5-13	481-486	Anlaß	_	_
+5-14	487-494	gefehlt	_	_
+5-15	495-500	haben	_	_
+5-16	501-502	.	_	_
+
+#Text=Es wäre eben so unnütz , als unmöglich , dergleichen Fakta verheimlichen oder nicht berühren zu wollen .
+6-1	503-505	Es	_	_
+6-2	506-510	wäre	_	_
+6-3	511-515	eben	_	_
+6-4	516-518	so	_	_
+6-5	519-525	unnütz	_	_
+6-6	526-527	,	_	_
+6-7	528-531	als	_	_
+6-8	532-541	unmöglich	_	_
+6-9	542-543	,	_	_
+6-10	544-555	dergleichen	_	_
+6-11	556-561	Fakta	_	_
+6-12	562-575	verheimlichen	_	_
+6-13	576-580	oder	_	_
+6-14	581-586	nicht	_	_
+6-15	587-595	berühren	_	_
+6-16	596-598	zu	_	_
+6-17	599-605	wollen	_	_
+6-18	606-607	.	_	_
+
+#Text=Auch sind wir immer bereit gewesen jeden unsrer Anträge zu vertreten und zu erklären , wenn es gewünscht wird .
+7-1	608-612	Auch	_	_
+7-2	613-617	sind	_	_
+7-3	618-621	wir	_	_
+7-4	622-627	immer	_	_
+7-5	628-634	bereit	_	_
+7-6	635-642	gewesen	_	_
+7-7	643-648	jeden	_	_
+7-8	649-655	unsrer	_	_
+7-9	656-663	Anträge	_	_
+7-10	664-666	zu	_	_
+7-11	667-676	vertreten	_	_
+7-12	677-680	und	_	_
+7-13	681-683	zu	_	_
+7-14	684-692	erklären	_	_
+7-15	693-694	,	_	_
+7-16	695-699	wenn	_	_
+7-17	700-702	es	_	_
+7-18	703-712	gewünscht	_	_
+7-19	713-717	wird	_	_
+7-20	718-719	.	_	_
+
+#Text=Die 900 M. für die Ephemeris finden Sie wieder in den Römischen Kolumnen .
+8-1	720-723	Die	_	_
+8-2	724-727	900	_	_
+8-3	728-730	M.	_	_
+8-4	731-734	für	_	_
+8-5	735-738	die	_	_
+8-6	739-748	Ephemeris	_	_
+8-7	749-755	finden	_	_
+8-8	756-759	Sie	_	_
+8-9	760-766	wieder	_	_
+8-10	767-769	in	_	_
+8-11	770-773	den	_	_
+8-12	774-783	Römischen	_	_
+8-13	784-792	Kolumnen	_	_
+8-14	793-794	.	_	_
+
+#Text=Meine Remonstration des vorigen Jahrs hat nichts genützt .
+9-1	795-800	Meine	_	_
+9-2	801-814	Remonstration	_	_
+9-3	815-818	des	_	_
+9-4	819-826	vorigen	_	_
+9-5	827-832	Jahrs	_	_
+9-6	833-836	hat	_	_
+9-7	837-843	nichts	_	_
+9-8	844-851	genützt	_	_
+9-9	852-853	.	_	_
+
+#Text=Jetzt habe ich aber diese Änderung und die des Titels in `` Archäologisches Institut '' aktenmäßig eintragen lassen , damit es nicht wieder vergessen wird .
+10-1	854-859	Jetzt	_	_
+10-2	860-864	habe	_	_
+10-3	865-868	ich	_	_
+10-4	869-873	aber	_	_
+10-5	874-879	diese	_	_
+10-6	880-888	Änderung	_	_
+10-7	889-892	und	_	_
+10-8	893-896	die	_	_
+10-9	897-900	des	_	_
+10-10	901-907	Titels	_	_
+10-11	908-910	in	_	_
+10-12	911-913	``	_	_
+10-13	914-929	Archäologisches	*[5]	ORGmentioned[5]
+10-14	930-938	Institut	*[5]	ORGmentioned[5]
+10-15	939-941	''	_	_
+10-16	942-952	aktenmäßig	_	_
+10-17	953-962	eintragen	_	_
+10-18	963-969	lassen	_	_
+10-19	970-971	,	_	_
+10-20	972-977	damit	_	_
+10-21	978-980	es	_	_
+10-22	981-986	nicht	_	_
+10-23	987-993	wieder	_	_
+10-24	994-1003	vergessen	_	_
+10-25	1004-1008	wird	_	_
+10-26	1009-1010	.	_	_
+
+#Text=Sie können nun also Alles , Gehalte und Römische Summen bei der Römischen Legationskasse in gewohnter
+11-1	1011-1014	Sie	_	_
+11-2	1015-1021	können	_	_
+11-3	1022-1025	nun	_	_
+11-4	1026-1030	also	_	_
+11-5	1031-1036	Alles	_	_
+11-6	1037-1038	,	_	_
+11-7	1039-1046	Gehalte	_	_
+11-8	1047-1050	und	_	_
+11-9	1051-1059	Römische	_	_
+11-10	1060-1066	Summen	_	_
+11-11	1067-1070	bei	_	_
+11-12	1071-1074	der	_	_
+11-13	1075-1084	Römischen	_	_
+11-14	1085-1099	Legationskasse	_	_
+11-15	1100-1102	in	_	_
+11-16	1103-1112	gewohnter	_	_

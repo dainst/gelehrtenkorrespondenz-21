@@ -1,0 +1,219 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=293 Helbig an Henzen Rom , 16. Juli 1870 H g . 20/7 70 Roma , li 16. Juli 1870 Lieber Herr Professor Besten Dank für Ihren freundlichen Brief .
+1-1	0-3	293	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	16.	*[1]	DATEletter[1]
+1-8	31-35	Juli	*[1]	DATEletter[1]
+1-9	36-40	1870	*[1]	DATEletter[1]
+1-10	41-42	H	_	_
+1-11	43-44	g	_	_
+1-12	45-46	.	_	_
+1-13	47-51	20/7	*[2]	DATErecieved[2]
+1-14	52-54	70	*[2]	DATErecieved[2]
+1-15	55-59	Roma	*	PLACEfrom
+1-16	60-61	,	_	_
+1-17	62-64	li	_	_
+1-18	65-68	16.	*[3]	DATEletter[3]
+1-19	69-73	Juli	*[3]	DATEletter[3]
+1-20	74-78	1870	*[3]	DATEletter[3]
+1-21	79-85	Lieber	_	_
+1-22	86-90	Herr	_	_
+1-23	91-100	Professor	_	_
+1-24	101-107	Besten	_	_
+1-25	108-112	Dank	_	_
+1-26	113-116	für	_	_
+1-27	117-122	Ihren	_	_
+1-28	123-135	freundlichen	_	_
+1-29	136-141	Brief	_	_
+1-30	142-143	.	_	_
+
+#Text=Garrucci und Aurora werden besorgt werden .
+2-1	144-152	Garrucci	*	PERmentioned
+2-2	153-156	und	_	_
+2-3	157-163	Aurora	_	_
+2-4	164-170	werden	_	_
+2-5	171-178	besorgt	_	_
+2-6	179-185	werden	_	_
+2-7	186-187	.	_	_
+
+#Text=Hinck hat den gestrigen Tag außer dem Bett zugebracht und fühlt sich wohl .
+3-1	188-193	Hinck	*	PERmentioned
+3-2	194-197	hat	_	_
+3-3	198-201	den	_	_
+3-4	202-211	gestrigen	_	_
+3-5	212-215	Tag	_	_
+3-6	216-221	außer	_	_
+3-7	222-225	dem	_	_
+3-8	226-230	Bett	_	_
+3-9	231-241	zugebracht	_	_
+3-10	242-245	und	_	_
+3-11	246-251	fühlt	_	_
+3-12	252-256	sich	_	_
+3-13	257-261	wohl	_	_
+3-14	262-263	.	_	_
+
+#Text=Der ihn seit Erhards Abreise behandelnde Arzt Manassei ist dagegen , daß er auf das Land gehe \; er fürchtet , daß die zu feine luft eher schädlich , als nützlich sei .
+4-1	264-267	Der	_	_
+4-2	268-271	ihn	_	_
+4-3	272-276	seit	_	_
+4-4	277-284	Erhards	*	PERmentioned
+4-5	285-292	Abreise	_	_
+4-6	293-304	behandelnde	_	_
+4-7	305-309	Arzt	_	_
+4-8	310-318	Manassei	*	PERmentioned
+4-9	319-322	ist	_	_
+4-10	323-330	dagegen	_	_
+4-11	331-332	,	_	_
+4-12	333-336	daß	_	_
+4-13	337-339	er	_	_
+4-14	340-343	auf	_	_
+4-15	344-347	das	_	_
+4-16	348-352	Land	_	_
+4-17	353-357	gehe	_	_
+4-18	358-359	\;	_	_
+4-19	360-362	er	_	_
+4-20	363-371	fürchtet	_	_
+4-21	372-373	,	_	_
+4-22	374-377	daß	_	_
+4-23	378-381	die	_	_
+4-24	382-384	zu	_	_
+4-25	385-390	feine	_	_
+4-26	391-395	luft	_	_
+4-27	396-400	eher	_	_
+4-28	401-410	schädlich	_	_
+4-29	411-412	,	_	_
+4-30	413-416	als	_	_
+4-31	417-425	nützlich	_	_
+4-32	426-429	sei	_	_
+4-33	430-431	.	_	_
+
+#Text=An Trendelenburg habe ich geschrieben , damit er , faläis er den Brief von der CGentraldirection schon erhalten hätte , ruhig in Neapel bleibe .
+5-1	432-434	An	_	_
+5-2	435-448	Trendelenburg	*	PERmentioned
+5-3	449-453	habe	_	_
+5-4	454-457	ich	_	_
+5-5	458-469	geschrieben	_	_
+5-6	470-471	,	_	_
+5-7	472-477	damit	_	_
+5-8	478-480	er	_	_
+5-9	481-482	,	_	_
+5-10	483-489	faläis	_	_
+5-11	490-492	er	_	_
+5-12	493-496	den	_	_
+5-13	497-502	Brief	_	_
+5-14	503-506	von	_	_
+5-15	507-510	der	_	_
+5-16	511-528	CGentraldirection	*	ORGmentioned
+5-17	529-534	schon	_	_
+5-18	535-543	erhalten	_	_
+5-19	544-549	hätte	_	_
+5-20	550-551	,	_	_
+5-21	552-557	ruhig	_	_
+5-22	558-560	in	_	_
+5-23	561-567	Neapel	*	PLACEmentioned
+5-24	568-574	bleibe	_	_
+5-25	575-576	.	_	_
+
+#Text=Bei Calvary hätte ich nur die auf beiliegendem Zettel angegebene Broschüre zu bestellen .
+6-1	577-580	Bei	_	_
+6-2	581-588	Calvary	*	PERmentioned
+6-3	589-594	hätte	_	_
+6-4	595-598	ich	_	_
+6-5	599-602	nur	_	_
+6-6	603-606	die	_	_
+6-7	607-610	auf	_	_
+6-8	611-623	beiliegendem	_	_
+6-9	624-630	Zettel	_	_
+6-10	631-641	angegebene	_	_
+6-11	642-651	Broschüre	_	_
+6-12	652-654	zu	_	_
+6-13	655-664	bestellen	_	_
+6-14	665-666	.	_	_
+
+#Text=Haben Sie die Güte , die beiden von der Jablonowskyschen Gesellschaft gekrönten Preisschriften über den antiken Handel ( Büchsenschütz ?
+7-1	667-672	Haben	_	_
+7-2	673-676	Sie	_	_
+7-3	677-680	die	_	_
+7-4	681-685	Güte	_	_
+7-5	686-687	,	_	_
+7-6	688-691	die	_	_
+7-7	692-698	beiden	_	_
+7-8	699-702	von	_	_
+7-9	703-706	der	_	_
+7-10	707-723	Jablonowskyschen	*[4]	ORGmentioned[4]
+7-11	724-736	Gesellschaft	*[4]	ORGmentioned[4]
+7-12	737-746	gekrönten	_	_
+7-13	747-761	Preisschriften	_	_
+7-14	762-766	über	_	_
+7-15	767-770	den	_	_
+7-16	771-778	antiken	_	_
+7-17	779-785	Handel	_	_
+7-18	786-787	(	_	_
+7-19	788-801	Büchsenschütz	*	PERmentioned
+7-20	802-803	?	_	_
+
+#Text=Blümmer ? )
+8-1	804-811	Blümmer	*	PERmentioned
+8-2	812-813	?	_	_
+8-3	814-815	)	_	_
+
+#Text=defügen \; ich habe den Schlüssel zu meinem Sekretär , in dem sich mein Notizbuch mit den betreffenden Titeln befindet , verlegt und süche ihn den ganzen Morgen vergebens .
+9-1	816-823	defügen	_	_
+9-2	824-825	\;	_	_
+9-3	826-829	ich	_	_
+9-4	830-834	habe	_	_
+9-5	835-838	den	_	_
+9-6	839-848	Schlüssel	_	_
+9-7	849-851	zu	_	_
+9-8	852-858	meinem	_	_
+9-9	859-867	Sekretär	_	_
+9-10	868-869	,	_	_
+9-11	870-872	in	_	_
+9-12	873-876	dem	_	_
+9-13	877-881	sich	_	_
+9-14	882-886	mein	_	_
+9-15	887-896	Notizbuch	_	_
+9-16	897-900	mit	_	_
+9-17	901-904	den	_	_
+9-18	905-917	betreffenden	_	_
+9-19	918-924	Titeln	_	_
+9-20	925-933	befindet	_	_
+9-21	934-935	,	_	_
+9-22	936-943	verlegt	_	_
+9-23	944-947	und	_	_
+9-24	948-953	süche	_	_
+9-25	954-957	ihn	_	_
+9-26	958-961	den	_	_
+9-27	962-968	ganzen	_	_
+9-28	969-975	Morgen	_	_
+9-29	976-985	vergebens	_	_
+9-30	986-987	.	_	_
+
+#Text=Meine Abreise habe ich , falls nicht unerwartete Hindernisse dazwischen kommen , auf das Ende der nächsten Woche festgesetzt .
+10-1	988-993	Meine	_	_
+10-2	994-1001	Abreise	_	_
+10-3	1002-1006	habe	_	_
+10-4	1007-1010	ich	_	_
+10-5	1011-1012	,	_	_
+10-6	1013-1018	falls	_	_
+10-7	1019-1024	nicht	_	_
+10-8	1025-1036	unerwartete	_	_
+10-9	1037-1048	Hindernisse	_	_
+10-10	1049-1059	dazwischen	_	_
+10-11	1060-1066	kommen	_	_
+10-12	1067-1068	,	_	_
+10-13	1069-1072	auf	_	_
+10-14	1073-1076	das	_	_
+10-15	1077-1081	Ende	_	_
+10-16	1082-1085	der	_	_
+10-17	1086-1094	nächsten	_	_
+10-18	1095-1100	Woche	_	_
+10-19	1101-1112	festgesetzt	_	_
+10-20	1113-1114	.	_	_

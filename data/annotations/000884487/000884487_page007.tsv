@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=67 Gerhard an Braun Berlin , 26 .
+1-1	0-2	67	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	26	*[4]	DATEletter[4]
+1-8	32-33	.	*[4]	DATEletter[4]
+
+#Text=Januar 1836 Dr. Braun Berlin den 26 Jan .
+2-1	34-40	Januar	*[4]	DATEletter[4]
+2-2	41-45	1836	*[4]	DATEletter[4]
+2-3	46-49	Dr.	_	_
+2-4	50-55	Braun	*	PERaddressee
+2-5	56-62	Berlin	*	PLACEfrom
+2-6	63-66	den	_	_
+2-7	67-69	26	*[7]	DATEletter[7]
+2-8	70-73	Jan	*[7]	DATEletter[7]
+2-9	74-75	.	*[7]	DATEletter[7]
+
+#Text=1836 Meinen Augen geht es seit etlichen Wochen wieder äußerst übel \; seit heute vor 8 Tagen schrieb ich keinen Brief , und ich schreibe Ihnen daher nur das Dringendste .
+3-1	76-80	1836	*[7]	DATEletter[7]
+3-2	81-87	Meinen	_	_
+3-3	88-93	Augen	_	_
+3-4	94-98	geht	_	_
+3-5	99-101	es	_	_
+3-6	102-106	seit	_	_
+3-7	107-115	etlichen	_	_
+3-8	116-122	Wochen	_	_
+3-9	123-129	wieder	_	_
+3-10	130-137	äußerst	_	_
+3-11	138-142	übel	_	_
+3-12	143-144	\;	_	_
+3-13	145-149	seit	_	_
+3-14	150-155	heute	_	_
+3-15	156-159	vor	_	_
+3-16	160-161	8	_	_
+3-17	162-167	Tagen	_	_
+3-18	168-175	schrieb	_	_
+3-19	176-179	ich	_	_
+3-20	180-186	keinen	_	_
+3-21	187-192	Brief	_	_
+3-22	193-194	,	_	_
+3-23	195-198	und	_	_
+3-24	199-202	ich	_	_
+3-25	203-211	schreibe	_	_
+3-26	212-217	Ihnen	_	_
+3-27	218-223	daher	_	_
+3-28	224-227	nur	_	_
+3-29	228-231	das	_	_
+3-30	232-243	Dringendste	_	_
+3-31	244-245	.	_	_
+
+#Text=Lancin habe ich nun selbst gebeten 1 ) unsre Privatrechnungen , die das Publikum aus dem Bull .
+4-1	246-252	Lancin	*	PERmentioned
+4-2	253-257	habe	_	_
+4-3	258-261	ich	_	_
+4-4	262-265	nun	_	_
+4-5	266-272	selbst	_	_
+4-6	273-280	gebeten	_	_
+4-7	281-282	1	_	_
+4-8	283-284	)	_	_
+4-9	285-290	unsre	_	_
+4-10	291-307	Privatrechnungen	_	_
+4-11	308-309	,	_	_
+4-12	310-313	die	_	_
+4-13	314-317	das	_	_
+4-14	318-326	Publikum	_	_
+4-15	327-330	aus	_	_
+4-16	331-334	dem	_	_
+4-17	335-339	Bull	_	_
+4-18	340-341	.	_	_
+
+#Text=kennt und wir selber nicht wissen zu liquidiren 2 ) den Erlös der Ex .
+5-1	342-347	kennt	_	_
+5-2	348-351	und	_	_
+5-3	352-355	wir	_	_
+5-4	356-362	selber	_	_
+5-5	363-368	nicht	_	_
+5-6	369-375	wissen	_	_
+5-7	376-378	zu	_	_
+5-8	379-389	liquidiren	_	_
+5-9	390-391	2	_	_
+5-10	392-393	)	_	_
+5-11	394-397	den	_	_
+5-12	398-403	Erlös	_	_
+5-13	404-407	der	_	_
+5-14	408-410	Ex	_	_
+5-15	411-412	.	_	_
+
+#Text=früherer Jahrgänge , der bekanntlich den Sekretären zu Gute kommt , zu verrechnen , Alles Sachen die sehr einfach sein müssen , sie sind aber auch wichtig .
+6-1	413-421	früherer	_	_
+6-2	422-431	Jahrgänge	_	_
+6-3	432-433	,	_	_
+6-4	434-437	der	_	_
+6-5	438-449	bekanntlich	_	_
+6-6	450-453	den	_	_
+6-7	454-464	Sekretären	_	_
+6-8	465-467	zu	_	_
+6-9	468-472	Gute	_	_
+6-10	473-478	kommt	_	_
+6-11	479-480	,	_	_
+6-12	481-483	zu	_	_
+6-13	484-494	verrechnen	_	_
+6-14	495-496	,	_	_
+6-15	497-502	Alles	_	_
+6-16	503-509	Sachen	_	_
+6-17	510-513	die	_	_
+6-18	514-518	sehr	_	_
+6-19	519-526	einfach	_	_
+6-20	527-531	sein	_	_
+6-21	532-538	müssen	_	_
+6-22	539-540	,	_	_
+6-23	541-544	sie	_	_
+6-24	545-549	sind	_	_
+6-25	550-554	aber	_	_
+6-26	555-559	auch	_	_
+6-27	560-567	wichtig	_	_
+6-28	568-569	.	_	_
+
+#Text=Es liegt am Tage daß ich keine folgende Rechnung schicken kann ehe zwei frühere mir nicht vorliegen die daran zu knüpfen \; also auch kein Geld , selbst wenn welches da wäre - Amulund Unglaublich daß Bunsen es aufgibt die 280 rt die dem Institut vom Ministerium noch für 1835 gebühren , auf 1836 und 37 zusfammenfallen zu lassen .
+7-1	570-572	Es	_	_
+7-2	573-578	liegt	_	_
+7-3	579-581	am	_	_
+7-4	582-586	Tage	_	_
+7-5	587-590	daß	_	_
+7-6	591-594	ich	_	_
+7-7	595-600	keine	_	_
+7-8	601-609	folgende	_	_
+7-9	610-618	Rechnung	_	_
+7-10	619-627	schicken	_	_
+7-11	628-632	kann	_	_
+7-12	633-636	ehe	_	_
+7-13	637-641	zwei	_	_
+7-14	642-649	frühere	_	_
+7-15	650-653	mir	_	_
+7-16	654-659	nicht	_	_
+7-17	660-669	vorliegen	_	_
+7-18	670-673	die	_	_
+7-19	674-679	daran	_	_
+7-20	680-682	zu	_	_
+7-21	683-690	knüpfen	_	_
+7-22	691-692	\;	_	_
+7-23	693-697	also	_	_
+7-24	698-702	auch	_	_
+7-25	703-707	kein	_	_
+7-26	708-712	Geld	_	_
+7-27	713-714	,	_	_
+7-28	715-721	selbst	_	_
+7-29	722-726	wenn	_	_
+7-30	727-734	welches	_	_
+7-31	735-737	da	_	_
+7-32	738-742	wäre	_	_
+7-33	743-744	-	_	_
+7-34	745-752	Amulund	_	_
+7-35	753-764	Unglaublich	_	_
+7-36	765-768	daß	_	_
+7-37	769-775	Bunsen	*	PERmentioned
+7-38	776-778	es	_	_
+7-39	779-786	aufgibt	_	_
+7-40	787-790	die	_	_
+7-41	791-794	280	_	_
+7-42	795-797	rt	_	_
+7-43	798-801	die	_	_
+7-44	802-805	dem	_	_
+7-45	806-814	Institut	*	ORGmentioned
+7-46	815-818	vom	_	_
+7-47	819-830	Ministerium	*	ORGmentioned
+7-48	831-835	noch	_	_
+7-49	836-839	für	_	_
+7-50	840-844	1835	*	DATEmentioned
+7-51	845-853	gebühren	_	_
+7-52	854-855	,	_	_
+7-53	856-859	auf	_	_
+7-54	860-864	1836	*	DATEmentioned
+7-55	865-868	und	_	_
+7-56	869-871	37	_	_
+7-57	872-887	zusfammenfallen	_	_
+7-58	888-890	zu	_	_
+7-59	891-897	lassen	_	_
+7-60	898-899	.	_	_
+
+#Text=( Zundili a ) 3 5 Wegen der Erzstatue von Todi erwarte ich künstlerische Begutachtung ( Thorwandsens Name ist gut dabei \; kann sie Gegenstück zum Adorante heißen ?
+8-1	900-901	(	_	_
+8-2	902-909	Zundili	_	_
+8-3	910-911	a	_	_
+8-4	912-913	)	_	_
+8-5	914-915	3	_	_
+8-6	916-917	5	_	_
+8-7	918-923	Wegen	_	_
+8-8	924-927	der	_	_
+8-9	928-937	Erzstatue	*	OBJ
+8-10	938-941	von	_	_
+8-11	942-946	Todi	*	PLACEmentioned
+8-12	947-954	erwarte	_	_
+8-13	955-958	ich	_	_
+8-14	959-972	künstlerische	_	_
+8-15	973-985	Begutachtung	_	_
+8-16	986-987	(	_	_
+8-17	988-1000	Thorwandsens	*	PERmentioned
+8-18	1001-1005	Name	_	_
+8-19	1006-1009	ist	_	_
+8-20	1010-1013	gut	_	_
+8-21	1014-1019	dabei	_	_
+8-22	1020-1021	\;	_	_
+8-23	1022-1026	kann	_	_
+8-24	1027-1030	sie	_	_
+8-25	1031-1041	Gegenstück	_	_
+8-26	1042-1045	zum	_	_
+8-27	1046-1054	Adorante	*	OBJ
+8-28	1055-1061	heißen	_	_
+8-29	1062-1063	?	_	_
+
+#Text=soll Wolf sagen ) und genaue Notiz über die Kaufverhältnisse .
+9-1	1064-1068	soll	_	_
+9-2	1069-1073	Wolf	*	PERmentioned
+9-3	1074-1079	sagen	_	_
+9-4	1080-1081	)	_	_
+9-5	1082-1085	und	_	_
+9-6	1086-1092	genaue	_	_
+9-7	1093-1098	Notiz	_	_
+9-8	1099-1103	über	_	_
+9-9	1104-1107	die	_	_
+9-10	1108-1124	Kaufverhältnisse	_	_
+9-11	1125-1126	.	_	_
+
+#Text=- Ich glaube man würde sie hier kaufen , wenn man in 2 0-
+10-1	1127-1128	-	_	_
+10-2	1129-1132	Ich	_	_
+10-3	1133-1139	glaube	_	_
+10-4	1140-1143	man	_	_
+10-5	1144-1149	würde	_	_
+10-6	1150-1153	sie	_	_
+10-7	1154-1158	hier	_	_
+10-8	1159-1165	kaufen	_	_
+10-9	1166-1167	,	_	_
+10-10	1168-1172	wenn	_	_
+10-11	1173-1176	man	_	_
+10-12	1177-1179	in	_	_
+10-13	1180-1181	2	_	_
+10-14	1182-1184	0-	_	_

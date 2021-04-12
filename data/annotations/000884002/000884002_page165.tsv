@@ -1,0 +1,272 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 29. Juni 1863 g . 4. Juli 1863 r . 7. Juli 1863 Lieber Henzen !
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	29.	*[3]	DATEletter[3]
+1-7	26-30	Juni	*[3]	DATEletter[3]
+1-8	31-35	1863	*[3]	DATEletter[3]
+1-9	36-37	g	_	_
+1-10	38-39	.	_	_
+1-11	40-42	4.	*[4]	DATErecieved[4]
+1-12	43-47	Juli	*[4]	DATErecieved[4]
+1-13	48-52	1863	*[4]	DATErecieved[4]
+1-14	53-54	r	_	_
+1-15	55-56	.	_	_
+1-16	57-59	7.	*[5]	DATEanswered[5]
+1-17	60-64	Juli	*[5]	DATEanswered[5]
+1-18	65-69	1863	*[5]	DATEanswered[5]
+1-19	70-76	Lieber	_	_
+1-20	77-83	Henzen	*	PERaddressee
+1-21	84-85	!	_	_
+
+#Text=Eben langt Ihr Brief von Verdig an , auf den ich nur wartete , um meinerseits den letzten Brief vor meiner Abreise an Sie zu schreiben .
+2-1	86-90	Eben	_	_
+2-2	91-96	langt	_	_
+2-3	97-100	Ihr	_	_
+2-4	101-106	Brief	_	_
+2-5	107-110	von	_	_
+2-6	111-117	Verdig	_	_
+2-7	118-120	an	_	_
+2-8	121-122	,	_	_
+2-9	123-126	auf	_	_
+2-10	127-130	den	_	_
+2-11	131-134	ich	_	_
+2-12	135-138	nur	_	_
+2-13	139-146	wartete	_	_
+2-14	147-148	,	_	_
+2-15	149-151	um	_	_
+2-16	152-163	meinerseits	_	_
+2-17	164-167	den	_	_
+2-18	168-175	letzten	_	_
+2-19	176-181	Brief	_	_
+2-20	182-185	vor	_	_
+2-21	186-192	meiner	_	_
+2-22	193-200	Abreise	_	_
+2-23	201-203	an	_	_
+2-24	204-207	Sie	_	_
+2-25	208-210	zu	_	_
+2-26	211-220	schreiben	_	_
+2-27	221-222	.	_	_
+
+#Text=Bartoccini trieb entsetzlich , in mancher Beziehung mit Recht , und so werden wir übermorgen , d. am ren ‚ „ abfahren .
+3-1	223-233	Bartoccini	*	PERmentioned
+3-2	234-239	trieb	_	_
+3-3	240-251	entsetzlich	_	_
+3-4	252-253	,	_	_
+3-5	254-256	in	_	_
+3-6	257-264	mancher	_	_
+3-7	265-274	Beziehung	_	_
+3-8	275-278	mit	_	_
+3-9	279-284	Recht	_	_
+3-10	285-286	,	_	_
+3-11	287-290	und	_	_
+3-12	291-293	so	_	_
+3-13	294-300	werden	_	_
+3-14	301-304	wir	_	_
+3-15	305-315	übermorgen	_	_
+3-16	316-317	,	_	_
+3-17	318-320	d.	_	_
+3-18	321-323	am	_	_
+3-19	324-327	ren	*[6]	DATEmentioned[6]
+3-20	328-329	‚	*[6]	DATEmentioned[6]
+3-21	330-331	„	*[6]	DATEmentioned[6]
+3-22	332-340	abfahren	_	_
+3-23	341-342	.	_	_
+
+#Text=Meine Zeit ist mir durch eine Masse von Kleinigkeiten ganz entsetzlich zerrissen worden , doch bin ich mit den Nothwendigkeiten zu Rande gekommen .
+4-1	343-348	Meine	_	_
+4-2	349-353	Zeit	_	_
+4-3	354-357	ist	_	_
+4-4	358-361	mir	_	_
+4-5	362-367	durch	_	_
+4-6	368-372	eine	_	_
+4-7	373-378	Masse	_	_
+4-8	379-382	von	_	_
+4-9	383-396	Kleinigkeiten	_	_
+4-10	397-401	ganz	_	_
+4-11	402-413	entsetzlich	_	_
+4-12	414-423	zerrissen	_	_
+4-13	424-430	worden	_	_
+4-14	431-432	,	_	_
+4-15	433-437	doch	_	_
+4-16	438-441	bin	_	_
+4-17	442-445	ich	_	_
+4-18	446-449	mit	_	_
+4-19	450-453	den	_	_
+4-20	454-470	Nothwendigkeiten	_	_
+4-21	471-473	zu	_	_
+4-22	474-479	Rande	_	_
+4-23	480-488	gekommen	_	_
+4-24	489-490	.	_	_
+
+#Text=Ann .
+5-1	491-494	Ann	_	_
+5-2	495-496	.	_	_
+
+#Text=und Bull .
+6-1	497-500	und	_	_
+6-2	501-505	Bull	_	_
+6-3	506-507	.	_	_
+
+#Text=habe ich für Conze complet zusammengebracht bis auf Anno 1854 , was ja von Leipzig sich wird ergänzen lassen .
+7-1	508-512	habe	_	_
+7-2	513-516	ich	_	_
+7-3	517-520	für	_	_
+7-4	521-526	Conze	*	PERmentioned
+7-5	527-534	complet	_	_
+7-6	535-551	zusammengebracht	_	_
+7-7	552-555	bis	_	_
+7-8	556-559	auf	_	_
+7-9	560-564	Anno	_	_
+7-10	565-569	1854	*	DATEmentioned
+7-11	570-571	,	_	_
+7-12	572-575	was	_	_
+7-13	576-578	ja	_	_
+7-14	579-582	von	_	_
+7-15	583-590	Leipzig	*	PLACEmentioned
+7-16	591-595	sich	_	_
+7-17	596-600	wird	_	_
+7-18	601-609	ergänzen	_	_
+7-19	610-616	lassen	_	_
+7-20	617-618	.	_	_
+
+#Text=Die Monumenti sind noch nicht complet \; ich habe aber die Platten ( auch wegen Brockhaus , an den ich nun schreiben werde ) vor einigen Tagen geordnet und lasse nun eine ganze Masse nachdrucken , um unser Lager überhaupt zu completiren , so daß die Sachen für Conze in circa 14 Tagen bereit liegen werden .
+8-1	619-622	Die	_	_
+8-2	623-632	Monumenti	_	_
+8-3	633-637	sind	_	_
+8-4	638-642	noch	_	_
+8-5	643-648	nicht	_	_
+8-6	649-656	complet	_	_
+8-7	657-658	\;	_	_
+8-8	659-662	ich	_	_
+8-9	663-667	habe	_	_
+8-10	668-672	aber	_	_
+8-11	673-676	die	_	_
+8-12	677-684	Platten	_	_
+8-13	685-686	(	_	_
+8-14	687-691	auch	_	_
+8-15	692-697	wegen	_	_
+8-16	698-707	Brockhaus	*	PERmentioned
+8-17	708-709	,	_	_
+8-18	710-712	an	_	_
+8-19	713-716	den	_	_
+8-20	717-720	ich	_	_
+8-21	721-724	nun	_	_
+8-22	725-734	schreiben	_	_
+8-23	735-740	werde	_	_
+8-24	741-742	)	_	_
+8-25	743-746	vor	_	_
+8-26	747-754	einigen	_	_
+8-27	755-760	Tagen	_	_
+8-28	761-769	geordnet	_	_
+8-29	770-773	und	_	_
+8-30	774-779	lasse	_	_
+8-31	780-783	nun	_	_
+8-32	784-788	eine	_	_
+8-33	789-794	ganze	_	_
+8-34	795-800	Masse	_	_
+8-35	801-812	nachdrucken	_	_
+8-36	813-814	,	_	_
+8-37	815-817	um	_	_
+8-38	818-823	unser	_	_
+8-39	824-829	Lager	_	_
+8-40	830-839	überhaupt	_	_
+8-41	840-842	zu	_	_
+8-42	843-854	completiren	_	_
+8-43	855-856	,	_	_
+8-44	857-859	so	_	_
+8-45	860-863	daß	_	_
+8-46	864-867	die	_	_
+8-47	868-874	Sachen	_	_
+8-48	875-878	für	_	_
+8-49	879-884	Conze	*	PERmentioned
+8-50	885-887	in	_	_
+8-51	888-893	circa	_	_
+8-52	894-896	14	_	_
+8-53	897-902	Tagen	_	_
+8-54	903-909	bereit	_	_
+8-55	910-916	liegen	_	_
+8-56	917-923	werden	_	_
+8-57	924-925	.	_	_
+
+#Text=Von den Monum .
+9-1	926-929	Von	_	_
+9-2	930-933	den	_	_
+9-3	934-939	Monum	_	_
+9-4	940-941	.	_	_
+
+#Text=fehlt uns übrigens 1843 , fasc .
+10-1	942-947	fehlt	_	_
+10-2	948-951	uns	_	_
+10-3	952-960	übrigens	_	_
+10-4	961-965	1843	*	DATEmentioned
+10-5	966-967	,	_	_
+10-6	968-972	fasc	_	_
+10-7	973-974	.	_	_
+
+#Text=I aus Paris wieder ganz .
+11-1	975-976	I	_	_
+11-2	977-980	aus	_	_
+11-3	981-986	Paris	*	PLACEmentioned
+11-4	987-993	wieder	_	_
+11-5	994-998	ganz	_	_
+11-6	999-1000	.	_	_
+
+#Text=Doch ist er vielleicht im Moment dort noch nicht zu bestellen , bis ich auch das Annalenlager revidirt habe .
+12-1	1001-1005	Doch	_	_
+12-2	1006-1009	ist	_	_
+12-3	1010-1012	er	_	_
+12-4	1013-1023	vielleicht	_	_
+12-5	1024-1026	im	_	_
+12-6	1027-1033	Moment	_	_
+12-7	1034-1038	dort	_	_
+12-8	1039-1043	noch	_	_
+12-9	1044-1049	nicht	_	_
+12-10	1050-1052	zu	_	_
+12-11	1053-1062	bestellen	_	_
+12-12	1063-1064	,	_	_
+12-13	1065-1068	bis	_	_
+12-14	1069-1072	ich	_	_
+12-15	1073-1077	auch	_	_
+12-16	1078-1081	das	_	_
+12-17	1082-1094	Annalenlager	_	_
+12-18	1095-1103	revidirt	_	_
+12-19	1104-1108	habe	_	_
+12-20	1109-1110	.	_	_
+
+#Text=Das war augenblicklich unmöglich .
+13-1	1111-1114	Das	_	_
+13-2	1115-1118	war	_	_
+13-3	1119-1133	augenblicklich	_	_
+13-4	1134-1143	unmöglich	_	_
+13-5	1144-1145	.	_	_
+
+#Text=- Uebrigens schreibt so eben Gerhard , daß Conze nach Halle als Extraord .
+14-1	1146-1147	-	_	_
+14-2	1148-1157	Uebrigens	_	_
+14-3	1158-1166	schreibt	_	_
+14-4	1167-1169	so	_	_
+14-5	1170-1174	eben	_	_
+14-6	1175-1182	Gerhard	*	PERmentioned
+14-7	1183-1184	,	_	_
+14-8	1185-1188	daß	_	_
+14-9	1189-1194	Conze	*	PERmentioned
+14-10	1195-1199	nach	_	_
+14-11	1200-1205	Halle	*	PLACEmentioned
+14-12	1206-1209	als	_	_
+14-13	1210-1218	Extraord	_	_
+14-14	1219-1220	.	_	_
+
+#Text=komme .
+15-1	1221-1226	komme	_	_
+15-2	1227-1228	.	_	_
+
+#Text=Die Spedition
+16-1	1229-1232	Die	_	_
+16-2	1233-1242	Spedition	_	_

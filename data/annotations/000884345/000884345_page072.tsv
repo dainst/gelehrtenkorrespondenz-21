@@ -1,0 +1,140 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard 24 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-20	24	*[3]	DATEletter[3]
+1-5	21-22	.	*[3]	DATEletter[3]
+
+#Text=Januar 1834 Lieber Freund !
+2-1	23-29	Januar	*[3]	DATEletter[3]
+2-2	30-34	1834	*[3]	DATEletter[3]
+2-3	35-41	Lieber	_	_
+2-4	42-48	Freund	_	_
+2-5	49-50	!	_	_
+
+#Text=Lord Dr. Arnold , Master of Rugby School ( der Herausgeber des Tucydides und römischer Geschäftsehreiber ) könnte unser Membro werden : ist er es etwa schon ?
+3-1	51-55	Lord	_	_
+3-2	56-59	Dr.	_	_
+3-3	60-66	Arnold	*	PERmentioned
+3-4	67-68	,	_	_
+3-5	69-75	Master	_	_
+3-6	76-78	of	_	_
+3-7	79-84	Rugby	*[5]	ORGmentioned[5]
+3-8	85-91	School	*[5]	ORGmentioned[5]
+3-9	92-93	(	_	_
+3-10	94-97	der	_	_
+3-11	98-109	Herausgeber	_	_
+3-12	110-113	des	_	_
+3-13	114-123	Tucydides	_	_
+3-14	124-127	und	_	_
+3-15	128-137	römischer	_	_
+3-16	138-155	Geschäftsehreiber	_	_
+3-17	156-157	)	_	_
+3-18	158-164	könnte	_	_
+3-19	165-170	unser	_	_
+3-20	171-177	Membro	_	_
+3-21	178-184	werden	_	_
+3-22	185-186	:	_	_
+3-23	187-190	ist	_	_
+3-24	191-193	er	_	_
+3-25	194-196	es	_	_
+3-26	197-201	etwa	_	_
+3-27	202-207	schon	_	_
+3-28	208-209	?	_	_
+
+#Text=Ich schreibe heut an ihn , und da wäre es gut , daß ich das Diploma mitschickte .
+4-1	210-213	Ich	_	_
+4-2	214-222	schreibe	_	_
+4-3	223-227	heut	_	_
+4-4	228-230	an	_	_
+4-5	231-234	ihn	_	_
+4-6	235-236	,	_	_
+4-7	237-240	und	_	_
+4-8	241-243	da	_	_
+4-9	244-248	wäre	_	_
+4-10	249-251	es	_	_
+4-11	252-255	gut	_	_
+4-12	256-257	,	_	_
+4-13	258-261	daß	_	_
+4-14	262-265	ich	_	_
+4-15	266-269	das	_	_
+4-16	270-277	Diploma	_	_
+4-17	278-289	mitschickte	_	_
+4-18	290-291	.	_	_
+
+#Text=Wie könnten wir es mit einem Exenplar machen , daß es hier bezahlt werde oder in Paris ?
+5-1	292-295	Wie	_	_
+5-2	296-303	könnten	_	_
+5-3	304-307	wir	_	_
+5-4	308-310	es	_	_
+5-5	311-314	mit	_	_
+5-6	315-320	einem	_	_
+5-7	321-329	Exenplar	_	_
+5-8	330-336	machen	_	_
+5-9	337-338	,	_	_
+5-10	339-342	daß	_	_
+5-11	343-345	es	_	_
+5-12	346-350	hier	_	_
+5-13	351-358	bezahlt	_	_
+5-14	359-364	werde	_	_
+5-15	365-369	oder	_	_
+5-16	370-372	in	_	_
+5-17	373-378	Paris	*	PLACEmentioned
+5-18	379-380	?	_	_
+
+#Text=Wollen wir heut die Reglemens vorlesen .
+6-1	381-387	Wollen	_	_
+6-2	388-391	wir	_	_
+6-3	392-396	heut	_	_
+6-4	397-400	die	_	_
+6-5	401-410	Reglemens	_	_
+6-6	411-419	vorlesen	_	_
+6-7	420-421	.	_	_
+
+#Text=- Wie wird es mit Minutoli und Ich denke unsere Einladung war genug .
+7-1	422-423	-	_	_
+7-2	424-427	Wie	_	_
+7-3	428-432	wird	_	_
+7-4	433-435	es	_	_
+7-5	436-439	mit	_	_
+7-6	440-448	Minutoli	*	PERmentioned
+7-7	449-452	und	_	_
+7-8	453-456	Ich	_	_
+7-9	457-462	denke	_	_
+7-10	463-469	unsere	_	_
+7-11	470-479	Einladung	_	_
+7-12	480-483	war	_	_
+7-13	484-489	genug	_	_
+7-14	490-491	.	_	_
+
+#Text=Lord Compton dankt für das Billet , er kann nicht kommen .
+8-1	492-496	Lord	*[8]	PERmentioned[8]
+8-2	497-504	Compton	*[8]	PERmentioned[8]
+8-3	505-510	dankt	_	_
+8-4	511-514	für	_	_
+8-5	515-518	das	_	_
+8-6	519-525	Billet	_	_
+8-7	526-527	,	_	_
+8-8	528-530	er	_	_
+8-9	531-535	kann	_	_
+8-10	536-541	nicht	_	_
+8-11	542-548	kommen	_	_
+8-12	549-550	.	_	_
+
+#Text=Der Ihrige Bn Freitag früh .
+9-1	551-554	Der	_	_
+9-2	555-561	Ihrige	_	_
+9-3	562-564	Bn	*	PERauthor
+9-4	565-572	Freitag	_	_
+9-5	573-577	früh	_	_
+9-6	578-579	.	_	_
+
+#Text=24 Jen 34 .
+10-1	580-582	24	*[9]	DATEletter[9]
+10-2	583-586	Jen	*[9]	DATEletter[9]
+10-3	587-589	34	*[9]	DATEletter[9]
+10-4	590-591	.	_	_

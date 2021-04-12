@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=35 Braun an Gerhard Rom , 19 .
+1-1	0-2	35	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	19	*[5]	DATEletter[5]
+1-8	29-30	.	*[5]	DATEletter[5]
+
+#Text=Januar 1836 Prof. Gerhard Roma 1i 19 Gennaro 1836 Hochverehrtester Freund !
+2-1	31-37	Januar	*[5]	DATEletter[5]
+2-2	38-42	1836	*[5]	DATEletter[5]
+2-3	43-48	Prof.	_	_
+2-4	49-56	Gerhard	*	PERaddressee
+2-5	57-61	Roma	*	PLACEfrom
+2-6	62-64	1i	_	_
+2-7	65-67	19	*[6]	DATEletter[6]
+2-8	68-75	Gennaro	*[6]	DATEletter[6]
+2-9	76-80	1836	*[6]	DATEletter[6]
+2-10	81-97	Hochverehrtester	_	_
+2-11	98-104	Freund	_	_
+2-12	105-106	!	_	_
+
+#Text=Ich lebe von neuem in unglücklicher Differenz mit Bunsen um Ihren Anordnungen in Betreff des gebenedeiten Ungarn .
+3-1	107-110	Ich	_	_
+3-2	111-115	lebe	_	_
+3-3	116-119	von	_	_
+3-4	120-125	neuem	_	_
+3-5	126-128	in	_	_
+3-6	129-142	unglücklicher	_	_
+3-7	143-152	Differenz	_	_
+3-8	153-156	mit	_	_
+3-9	157-163	Bunsen	*	PERmentioned
+3-10	164-166	um	_	_
+3-11	167-172	Ihren	_	_
+3-12	173-184	Anordnungen	_	_
+3-13	185-187	in	_	_
+3-14	188-195	Betreff	_	_
+3-15	196-199	des	_	_
+3-16	200-212	gebenedeiten	_	_
+3-17	213-219	Ungarn	*	PERmentioned
+3-18	220-221	.	_	_
+
+#Text=Bunsen behauptet , er sei archäologischer Schriftsteller und für Ungarn ein Mann von Bedeutung .
+4-1	222-228	Bunsen	*	PERmentioned
+4-2	229-238	behauptet	_	_
+4-3	239-240	,	_	_
+4-4	241-243	er	_	_
+4-5	244-247	sei	_	_
+4-6	248-263	archäologischer	_	_
+4-7	264-278	Schriftsteller	_	_
+4-8	279-282	und	_	_
+4-9	283-286	für	_	_
+4-10	287-293	Ungarn	*	PLACEmentioned
+4-11	294-297	ein	_	_
+4-12	298-302	Mann	_	_
+4-13	303-306	von	_	_
+4-14	307-316	Bedeutung	_	_
+4-15	317-318	.	_	_
+
+#Text=Zudem hat er den kgl .
+5-1	319-324	Zudem	_	_
+5-2	325-328	hat	_	_
+5-3	329-331	er	_	_
+5-4	332-335	den	_	_
+5-5	336-339	kgl	_	_
+5-6	340-341	.	_	_
+
+#Text=Preuß .
+6-1	342-347	Preuß	_	_
+6-2	348-349	.	_	_
+
+#Text=rothen Adlerorden und scheint deshalb nicht zum Correspondenten ernannt werden zu können .
+7-1	350-356	rothen	_	_
+7-2	357-367	Adlerorden	_	_
+7-3	368-371	und	_	_
+7-4	372-379	scheint	_	_
+7-5	380-387	deshalb	_	_
+7-6	388-393	nicht	_	_
+7-7	394-397	zum	_	_
+7-8	398-413	Correspondenten	_	_
+7-9	414-421	ernannt	_	_
+7-10	422-428	werden	_	_
+7-11	429-431	zu	_	_
+7-12	432-438	können	_	_
+7-13	439-440	.	_	_
+
+#Text=Bunsens Gefühlen wenigstens scheint dieser Gedanke zu widerstehen .
+8-1	441-448	Bunsens	*	PERmentioned
+8-2	449-457	Gefühlen	_	_
+8-3	458-468	wenigstens	_	_
+8-4	469-476	scheint	_	_
+8-5	477-483	dieser	_	_
+8-6	484-491	Gedanke	_	_
+8-7	492-494	zu	_	_
+8-8	495-506	widerstehen	_	_
+8-9	507-508	.	_	_
+
+#Text=Was soll man nun bei soberandten Umständen thuen : die Avvisi bis ins Jahr 1836 zu verschleppen ist doch etwas unanständig .
+9-1	509-512	Was	_	_
+9-2	513-517	soll	_	_
+9-3	518-521	man	_	_
+9-4	522-525	nun	_	_
+9-5	526-529	bei	_	_
+9-6	530-541	soberandten	_	_
+9-7	542-551	Umständen	_	_
+9-8	552-557	thuen	_	_
+9-9	558-559	:	_	_
+9-10	560-563	die	_	_
+9-11	564-570	Avvisi	_	_
+9-12	571-574	bis	_	_
+9-13	575-578	ins	_	_
+9-14	579-583	Jahr	*[7]	DATEmentioned[7]
+9-15	584-588	1836	*[7]	DATEmentioned[7]
+9-16	589-591	zu	_	_
+9-17	592-604	verschleppen	_	_
+9-18	605-608	ist	_	_
+9-19	609-613	doch	_	_
+9-20	614-619	etwas	_	_
+9-21	620-631	unanständig	_	_
+9-22	632-633	.	_	_
+
+#Text=Doch wie Sie wollen .
+10-1	634-638	Doch	_	_
+10-2	639-642	wie	_	_
+10-3	643-646	Sie	_	_
+10-4	647-653	wollen	_	_
+10-5	654-655	.	_	_
+
+#Text=Bunsen giebt nicht nach und Sie scheinen ebenfalls von Grundsätzen zu sein .
+11-1	656-662	Bunsen	*	PERmentioned
+11-2	663-668	giebt	_	_
+11-3	669-674	nicht	_	_
+11-4	675-679	nach	_	_
+11-5	680-683	und	_	_
+11-6	684-687	Sie	_	_
+11-7	688-696	scheinen	_	_
+11-8	697-706	ebenfalls	_	_
+11-9	707-710	von	_	_
+11-10	711-722	Grundsätzen	_	_
+11-11	723-725	zu	_	_
+11-12	726-730	sein	_	_
+11-13	731-732	.	_	_
+
+#Text=Eh bene \| !
+12-1	733-735	Eh	_	_
+12-2	736-740	bene	_	_
+12-3	741-742	\|	_	_
+12-4	743-744	!	_	_
+
+#Text=An Wilkinson hat Bunsen schon vordem geschrieben \; auch glaubt er eine freundliche Antwort von ihm erhalten zu haben .
+13-1	745-747	An	_	_
+13-2	748-757	Wilkinson	*	PERmentioned
+13-3	758-761	hat	_	_
+13-4	762-768	Bunsen	*	PERmentioned
+13-5	769-774	schon	_	_
+13-6	775-781	vordem	_	_
+13-7	782-793	geschrieben	_	_
+13-8	794-795	\;	_	_
+13-9	796-800	auch	_	_
+13-10	801-807	glaubt	_	_
+13-11	808-810	er	_	_
+13-12	811-815	eine	_	_
+13-13	816-827	freundliche	_	_
+13-14	828-835	Antwort	_	_
+13-15	836-839	von	_	_
+13-16	840-843	ihm	_	_
+13-17	844-852	erhalten	_	_
+13-18	853-855	zu	_	_
+13-19	856-861	haben	_	_
+13-20	862-863	.	_	_
+
+#Text=Wegen der Cycnusvase bin ich sehr unschuldig .
+14-1	864-869	Wegen	_	_
+14-2	870-873	der	_	_
+14-3	874-884	Cycnusvase	*	OBJ
+14-4	885-888	bin	_	_
+14-5	889-892	ich	_	_
+14-6	893-897	sehr	_	_
+14-7	898-908	unschuldig	_	_
+14-8	909-910	.	_	_
+
+#Text=In der Adunanza war sie einmal profanirt worden .
+15-1	911-913	In	_	_
+15-2	914-917	der	_	_
+15-3	918-926	Adunanza	_	_
+15-4	927-930	war	_	_
+15-5	931-934	sie	_	_
+15-6	935-941	einmal	_	_
+15-7	942-951	profanirt	_	_
+15-8	952-958	worden	_	_
+15-9	959-960	.	_	_
+
+#Text=Diesen Winter profanire ich nichts mehr \; die Adunanzen ohne Monumente machen mir weniger Schererej als mit dergleichen Verdrießlichkeiten .
+16-1	961-967	Diesen	_	_
+16-2	968-974	Winter	_	_
+16-3	975-984	profanire	_	_
+16-4	985-988	ich	_	_
+16-5	989-995	nichts	_	_
+16-6	996-1000	mehr	_	_
+16-7	1001-1002	\;	_	_
+16-8	1003-1006	die	_	_
+16-9	1007-1016	Adunanzen	_	_
+16-10	1017-1021	ohne	_	_
+16-11	1022-1031	Monumente	_	_
+16-12	1032-1038	machen	_	_
+16-13	1039-1042	mir	_	_
+16-14	1043-1050	weniger	_	_
+16-15	1051-1060	Schererej	_	_
+16-16	1061-1064	als	_	_
+16-17	1065-1068	mit	_	_
+16-18	1069-1080	dergleichen	_	_
+16-19	1081-1099	Verdrießlichkeiten	_	_
+16-20	1100-1101	.	_	_
+
+#Text=Bunsen forderte die Vervollständigung der Atti , für die er nun einmal eingenommen ist .
+17-1	1102-1108	Bunsen	*	PERmentioned
+17-2	1109-1117	forderte	_	_
+17-3	1118-1121	die	_	_
+17-4	1122-1139	Vervollständigung	_	_
+17-5	1140-1143	der	_	_
+17-6	1144-1148	Atti	_	_
+17-7	1149-1150	,	_	_
+17-8	1151-1154	für	_	_
+17-9	1155-1158	die	_	_
+17-10	1159-1161	er	_	_
+17-11	1162-1165	nun	_	_
+17-12	1166-1172	einmal	_	_
+17-13	1173-1184	eingenommen	_	_
+17-14	1185-1188	ist	_	_
+17-15	1189-1190	.	_	_
+
+#Text=Ich habe gezaudert so lange es gehen wollte \; zuletzt noch Nase darüber eingeholt und endlich nach allem diesen mache ich Ihre Unzufriedenheit auch noch rege .
+18-1	1191-1194	Ich	_	_
+18-2	1195-1199	habe	_	_
+18-3	1200-1209	gezaudert	_	_
+18-4	1210-1212	so	_	_
+18-5	1213-1218	lange	_	_
+18-6	1219-1221	es	_	_
+18-7	1222-1227	gehen	_	_
+18-8	1228-1234	wollte	_	_
+18-9	1235-1236	\;	_	_
+18-10	1237-1244	zuletzt	_	_
+18-11	1245-1249	noch	_	_
+18-12	1250-1254	Nase	_	_
+18-13	1255-1262	darüber	_	_
+18-14	1263-1272	eingeholt	_	_
+18-15	1273-1276	und	_	_
+18-16	1277-1284	endlich	_	_
+18-17	1285-1289	nach	_	_
+18-18	1290-1295	allem	_	_
+18-19	1296-1302	diesen	_	_
+18-20	1303-1308	mache	_	_
+18-21	1309-1312	ich	_	_
+18-22	1313-1317	Ihre	_	_
+18-23	1318-1333	Unzufriedenheit	_	_
+18-24	1334-1338	auch	_	_
+18-25	1339-1343	noch	_	_
+18-26	1344-1348	rege	_	_
+18-27	1349-1350	.	_	_
+
+#Text=Das thut mir sehr leid !
+19-1	1351-1354	Das	_	_
+19-2	1355-1359	thut	_	_
+19-3	1360-1363	mir	_	_
+19-4	1364-1368	sehr	_	_
+19-5	1369-1373	leid	_	_
+19-6	1374-1375	!	_	_
+
+#Text=Mehr kann
+20-1	1376-1380	Mehr	_	_
+20-2	1381-1385	kann	_	_

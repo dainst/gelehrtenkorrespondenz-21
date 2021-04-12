@@ -1,0 +1,70 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=78 Gerhard an Braun Berlin , 6. März 1849 dann gefragt werden , der ohnehin besten Grund hat zu bleiben wo er ist .
+1-1	0-2	78	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	6.	*[1]	DATEletter[1]
+1-8	32-36	März	*[1]	DATEletter[1]
+1-9	37-41	1849	*[1]	DATEletter[1]
+1-10	42-46	dann	_	_
+1-11	47-54	gefragt	_	_
+1-12	55-61	werden	_	_
+1-13	62-63	,	_	_
+1-14	64-67	der	_	_
+1-15	68-75	ohnehin	_	_
+1-16	76-82	besten	_	_
+1-17	83-88	Grund	_	_
+1-18	89-92	hat	_	_
+1-19	93-95	zu	_	_
+1-20	96-103	bleiben	_	_
+1-21	104-106	wo	_	_
+1-22	107-109	er	_	_
+1-23	110-113	ist	_	_
+1-24	114-115	.	_	_
+
+#Text=Stephani ist fruchtbar \; für den Laokoon ursprünglich in Kaiser Titi Haus , anzi dessen eigensten Häuschen , hat er viel Dialektik losgelassen .
+2-1	116-124	Stephani	*	PERmentioned
+2-2	125-128	ist	_	_
+2-3	129-138	fruchtbar	_	_
+2-4	139-140	\;	_	_
+2-5	141-144	für	_	_
+2-6	145-148	den	_	_
+2-7	149-156	Laokoon	*	OBJ
+2-8	157-169	ursprünglich	_	_
+2-9	170-172	in	_	_
+2-10	173-179	Kaiser	*[2]	PERmentioned[2]
+2-11	180-184	Titi	*[2]	PERmentioned[2]
+2-12	185-189	Haus	_	_
+2-13	190-191	,	_	_
+2-14	192-196	anzi	_	_
+2-15	197-203	dessen	_	_
+2-16	204-213	eigensten	_	_
+2-17	214-222	Häuschen	_	_
+2-18	223-224	,	_	_
+2-19	225-228	hat	_	_
+2-20	229-231	er	_	_
+2-21	232-236	viel	_	_
+2-22	237-246	Dialektik	_	_
+2-23	247-258	losgelassen	_	_
+2-24	259-260	.	_	_
+
+#Text=In der Petersburger Archäologie den Köhne zu überbieten kann ihm nicht fehlen .
+3-1	261-263	In	_	_
+3-2	264-267	der	_	_
+3-3	268-280	Petersburger	*	PLACEmentioned
+3-4	281-292	Archäologie	_	_
+3-5	293-296	den	_	_
+3-6	297-302	Köhne	*	PERmentioned
+3-7	303-305	zu	_	_
+3-8	306-316	überbieten	_	_
+3-9	317-321	kann	_	_
+3-10	322-325	ihm	_	_
+3-11	326-331	nicht	_	_
+3-12	332-338	fehlen	_	_
+3-13	339-340	.	_	_

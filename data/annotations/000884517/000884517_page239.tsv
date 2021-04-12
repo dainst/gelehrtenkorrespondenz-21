@@ -1,0 +1,59 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27. April 1847 ben .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	27.	*[1]	DATEletter[1]
+1-7	30-35	April	*[1]	DATEletter[1]
+1-8	36-40	1847	*[1]	DATEletter[1]
+1-9	41-44	ben	_	_
+1-10	45-46	.	_	_
+
+#Text=Fr. Lanci hat seinen Paß noch nicht eingeforlert und meinen Brief vielleicht gar nicht bekommen .
+2-1	47-50	Fr.	_	_
+2-2	51-56	Lanci	*	PERmentioned
+2-3	57-60	hat	_	_
+2-4	61-67	seinen	_	_
+2-5	68-71	Paß	_	_
+2-6	72-76	noch	_	_
+2-7	77-82	nicht	_	_
+2-8	83-95	eingeforlert	_	_
+2-9	96-99	und	_	_
+2-10	100-106	meinen	_	_
+2-11	107-112	Brief	_	_
+2-12	113-123	vielleicht	_	_
+2-13	124-127	gar	_	_
+2-14	128-133	nicht	_	_
+2-15	134-142	bekommen	_	_
+2-16	143-144	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard Viel Grüße ringsum und auch an Henzen dem ich schreiben wollte , nun allein nichts Dringendes vorliegen finde .
+3-1	145-148	Von	_	_
+3-2	149-155	Herzen	_	_
+3-3	156-159	der	_	_
+3-4	160-166	Ihrige	_	_
+3-5	167-174	Gerhard	*	PERauthor
+3-6	175-179	Viel	_	_
+3-7	180-185	Grüße	_	_
+3-8	186-193	ringsum	_	_
+3-9	194-197	und	_	_
+3-10	198-202	auch	_	_
+3-11	203-205	an	_	_
+3-12	206-212	Henzen	*	PERmentioned
+3-13	213-216	dem	_	_
+3-14	217-220	ich	_	_
+3-15	221-230	schreiben	_	_
+3-16	231-237	wollte	_	_
+3-17	238-239	,	_	_
+3-18	240-243	nun	_	_
+3-19	244-250	allein	_	_
+3-20	251-257	nichts	_	_
+3-21	258-268	Dringendes	_	_
+3-22	269-278	vorliegen	_	_
+3-23	279-284	finde	_	_
+3-24	285-286	.	_	_

@@ -1,0 +1,51 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Zürich , 22. Mai 1852 Addio , Lieber .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Zürich	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	22.	*[1]	DATEletter[1]
+1-7	30-33	Mai	*[1]	DATEletter[1]
+1-8	34-38	1852	*[1]	DATEletter[1]
+1-9	39-44	Addio	_	_
+1-10	45-46	,	_	_
+1-11	47-53	Lieber	_	_
+1-12	54-55	.	_	_
+
+#Text=Ich schreibe bald wieder einmal , laß Du mich auch von Dir hören , wenn es auch nur wenig ist , man sieht doch die Pfote , M. Zürich 22 Mai 1852
+2-1	56-59	Ich	_	_
+2-2	60-68	schreibe	_	_
+2-3	69-73	bald	_	_
+2-4	74-80	wieder	_	_
+2-5	81-87	einmal	_	_
+2-6	88-89	,	_	_
+2-7	90-93	laß	_	_
+2-8	94-96	Du	_	_
+2-9	97-101	mich	_	_
+2-10	102-106	auch	_	_
+2-11	107-110	von	_	_
+2-12	111-114	Dir	_	_
+2-13	115-120	hören	_	_
+2-14	121-122	,	_	_
+2-15	123-127	wenn	_	_
+2-16	128-130	es	_	_
+2-17	131-135	auch	_	_
+2-18	136-139	nur	_	_
+2-19	140-145	wenig	_	_
+2-20	146-149	ist	_	_
+2-21	150-151	,	_	_
+2-22	152-155	man	_	_
+2-23	156-161	sieht	_	_
+2-24	162-166	doch	_	_
+2-25	167-170	die	_	_
+2-26	171-176	Pfote	_	_
+2-27	177-178	,	_	_
+2-28	179-181	M.	*	PERauthor
+2-29	182-188	Zürich	*	PLACEfrom
+2-30	189-191	22	*[2]	DATEletter[2]
+2-31	192-195	Mai	*[2]	DATEletter[2]
+2-32	196-200	1852	*[2]	DATEletter[2]

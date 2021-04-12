@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=13 Braun an Gerhard Rom , 14 .
+1-1	0-2	13	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	14	_	_
+1-8	29-30	.	*[5]	DATEletter[5]
+
+#Text=Januar 1840 Sig .
+2-1	31-37	Januar	*[5]	DATEletter[5]
+2-2	38-42	1840	*[5]	DATEletter[5]
+2-3	43-46	Sig	_	_
+2-4	47-48	.	_	_
+
+#Text=Cav .
+3-1	49-52	Cav	_	_
+3-2	53-54	.	_	_
+
+#Text=Gerhard Roma li 14 Gennajo 1840 Die Zeichnungen , welche Ihnen zum Behuf der Museumsankäufe nöthig sind , werden hoffentlich jetzt alle in Ihren Händen sein .
+4-1	55-62	Gerhard	*	PERaddressee
+4-2	63-67	Roma	*	PLACEfrom
+4-3	68-70	li	_	_
+4-4	71-73	14	*[7]	DATEletter[7]
+4-5	74-81	Gennajo	*[7]	DATEletter[7]
+4-6	82-86	1840	*[7]	DATEletter[7]
+4-7	87-90	Die	_	_
+4-8	91-102	Zeichnungen	_	_
+4-9	103-104	,	_	_
+4-10	105-111	welche	_	_
+4-11	112-117	Ihnen	_	_
+4-12	118-121	zum	_	_
+4-13	122-127	Behuf	_	_
+4-14	128-131	der	_	_
+4-15	132-146	Museumsankäufe	_	_
+4-16	147-153	nöthig	_	_
+4-17	154-158	sind	_	_
+4-18	159-160	,	_	_
+4-19	161-167	werden	_	_
+4-20	168-179	hoffentlich	_	_
+4-21	180-185	jetzt	_	_
+4-22	186-190	alle	_	_
+4-23	191-193	in	_	_
+4-24	194-199	Ihren	_	_
+4-25	200-206	Händen	_	_
+4-26	207-211	sein	_	_
+4-27	212-213	.	_	_
+
+#Text=In Cerveteri sollen 7 unversehrte Statuen mit Piedestallen in einem Brunnen durch Zufall gefunden worden sein .
+5-1	214-216	In	_	_
+5-2	217-226	Cerveteri	*	PLACEmentioned
+5-3	227-233	sollen	_	_
+5-4	234-235	7	_	_
+5-5	236-247	unversehrte	_	_
+5-6	248-255	Statuen	*[9]	OBJ[9]
+5-7	256-259	mit	*[9]	OBJ[9]
+5-8	260-272	Piedestallen	*[9]	OBJ[9]
+5-9	273-275	in	_	_
+5-10	276-281	einem	_	_
+5-11	282-289	Brunnen	_	_
+5-12	290-295	durch	_	_
+5-13	296-302	Zufall	_	_
+5-14	303-311	gefunden	_	_
+5-15	312-318	worden	_	_
+5-16	319-323	sein	_	_
+5-17	324-325	.	_	_
+
+#Text=In Tusculum hat man ein wunderschönes Gefäß mit einem von 2 Greifen zerfleischten Hirsch gefunden .
+6-1	326-328	In	_	_
+6-2	329-337	Tusculum	*	PLACEmentioned
+6-3	338-341	hat	_	_
+6-4	342-345	man	_	_
+6-5	346-349	ein	_	_
+6-6	350-363	wunderschönes	*[11]	OBJ[11]
+6-7	364-369	Gefäß	*[11]	OBJ[11]
+6-8	370-373	mit	_	_
+6-9	374-379	einem	_	_
+6-10	380-383	von	_	_
+6-11	384-385	2	_	_
+6-12	386-393	Greifen	_	_
+6-13	394-407	zerfleischten	_	_
+6-14	408-414	Hirsch	_	_
+6-15	415-423	gefunden	_	_
+6-16	424-425	.	_	_
+
+#Text=Canina schreibt eine Monographie über Tusculum .
+7-1	426-432	Canina	*	PERmentioned
+7-2	433-441	schreibt	_	_
+7-3	442-446	eine	_	_
+7-4	447-458	Monographie	_	_
+7-5	459-463	über	_	_
+7-6	464-472	Tusculum	*	PLACEmentioned
+7-7	473-474	.	_	_
+
+#Text=Für Nibby ist viel zusammengekommen , gegen 500 Scudi .
+8-1	475-478	Für	_	_
+8-2	479-484	Nibby	*	PERmentioned
+8-3	485-488	ist	_	_
+8-4	489-493	viel	_	_
+8-5	494-510	zusammengekommen	_	_
+8-6	511-512	,	_	_
+8-7	513-518	gegen	_	_
+8-8	519-522	500	_	_
+8-9	523-528	Scudi	_	_
+8-10	529-530	.	_	_
+
+#Text=Ein Präsident ist uns vor allem schleunig nöthig \; ohne eine solche Aegide werden wir die hiesigen Intriguen nicht aushalten können .
+9-1	531-534	Ein	_	_
+9-2	535-544	Präsident	_	_
+9-3	545-548	ist	_	_
+9-4	549-552	uns	_	_
+9-5	553-556	vor	_	_
+9-6	557-562	allem	_	_
+9-7	563-572	schleunig	_	_
+9-8	573-579	nöthig	_	_
+9-9	580-581	\;	_	_
+9-10	582-586	ohne	_	_
+9-11	587-591	eine	_	_
+9-12	592-598	solche	_	_
+9-13	599-605	Aegide	_	_
+9-14	606-612	werden	_	_
+9-15	613-616	wir	_	_
+9-16	617-620	die	_	_
+9-17	621-629	hiesigen	_	_
+9-18	630-639	Intriguen	_	_
+9-19	640-645	nicht	_	_
+9-20	646-655	aushalten	_	_
+9-21	656-662	können	_	_
+9-22	663-664	.	_	_
+
+#Text=An Klatschereien beim Censurcollegium hat es bereits nicht gefehlt .
+10-1	665-667	An	_	_
+10-2	668-681	Klatschereien	_	_
+10-3	682-686	beim	_	_
+10-4	687-702	Censurcollegium	_	_
+10-5	703-706	hat	_	_
+10-6	707-709	es	_	_
+10-7	710-717	bereits	_	_
+10-8	718-723	nicht	_	_
+10-9	724-731	gefehlt	_	_
+10-10	732-733	.	_	_
+
+#Text=Der bloße Name reicht hin um die Leute hier in Respect zu erhalten .
+11-1	734-737	Der	_	_
+11-2	738-743	bloße	_	_
+11-3	744-748	Name	_	_
+11-4	749-755	reicht	_	_
+11-5	756-759	hin	_	_
+11-6	760-762	um	_	_
+11-7	763-766	die	_	_
+11-8	767-772	Leute	_	_
+11-9	773-777	hier	_	_
+11-10	778-780	in	_	_
+11-11	781-788	Respect	_	_
+11-12	789-791	zu	_	_
+11-13	792-800	erhalten	_	_
+11-14	801-802	.	_	_
+
+#Text=Nehmen Sie wen Sie wollen , aber denken Sie rasch daran und verlassen Sie Sich dabei auf mein richtiges Gefühl .
+12-1	803-809	Nehmen	_	_
+12-2	810-813	Sie	_	_
+12-3	814-817	wen	_	_
+12-4	818-821	Sie	_	_
+12-5	822-828	wollen	_	_
+12-6	829-830	,	_	_
+12-7	831-835	aber	_	_
+12-8	836-842	denken	_	_
+12-9	843-846	Sie	_	_
+12-10	847-852	rasch	_	_
+12-11	853-858	daran	_	_
+12-12	859-862	und	_	_
+12-13	863-872	verlassen	_	_
+12-14	873-876	Sie	_	_
+12-15	877-881	Sich	_	_
+12-16	882-887	dabei	_	_
+12-17	888-891	auf	_	_
+12-18	892-896	mein	_	_
+12-19	897-906	richtiges	_	_
+12-20	907-913	Gefühl	_	_
+12-21	914-915	.	_	_
+
+#Text=Hätte ich nicht anderweitige diplomatische Relationen , so hätten wir schon eine Salve auf dem Pelz .
+13-1	916-921	Hätte	_	_
+13-2	922-925	ich	_	_
+13-3	926-931	nicht	_	_
+13-4	932-944	anderweitige	_	_
+13-5	945-958	diplomatische	_	_
+13-6	959-969	Relationen	_	_
+13-7	970-971	,	_	_
+13-8	972-974	so	_	_
+13-9	975-981	hätten	_	_
+13-10	982-985	wir	_	_
+13-11	986-991	schon	_	_
+13-12	992-996	eine	_	_
+13-13	997-1002	Salve	_	_
+13-14	1003-1006	auf	_	_
+13-15	1007-1010	dem	_	_
+13-16	1011-1015	Pelz	_	_
+13-17	1016-1017	.	_	_
+
+#Text=Dabei ist zu erwägen , daß der Name Lanci vom Fratello her anrüchig ist .
+14-1	1018-1023	Dabei	_	_
+14-2	1024-1027	ist	_	_
+14-3	1028-1030	zu	_	_
+14-4	1031-1038	erwägen	_	_
+14-5	1039-1040	,	_	_
+14-6	1041-1044	daß	_	_
+14-7	1045-1048	der	_	_
+14-8	1049-1053	Name	_	_
+14-9	1054-1059	Lanci	*	PERmentioned
+14-10	1060-1063	vom	_	_
+14-11	1064-1072	Fratello	_	_
+14-12	1073-1076	her	_	_
+14-13	1077-1085	anrüchig	_	_
+14-14	1086-1089	ist	_	_
+14-15	1090-1091	.	_	_
+
+#Text=Ueber meinen B s Philax wird Ihnen Wolff mit nächstem berichten .
+15-1	1092-1097	Ueber	_	_
+15-2	1098-1104	meinen	_	_
+15-3	1105-1106	B	*[16]	OBJ[16]
+15-4	1107-1108	s	*[16]	OBJ[16]
+15-5	1109-1115	Philax	*[16]	OBJ[16]
+15-6	1116-1120	wird	_	_
+15-7	1121-1126	Ihnen	_	_
+15-8	1127-1132	Wolff	*	PERmentioned
+15-9	1133-1136	mit	_	_
+15-10	1137-1145	nächstem	_	_
+15-11	1146-1155	berichten	_	_
+15-12	1156-1157	.	_	_
+
+#Text=Panofkas Gedanke an Trophonius mißfällt mir keineswegs .
+16-1	1158-1166	Panofkas	*	PERmentioned
+16-2	1167-1174	Gedanke	_	_
+16-3	1175-1177	an	_	_
+16-4	1178-1188	Trophonius	*	MISC
+16-5	1189-1197	mißfällt	_	_
+16-6	1198-1201	mir	_	_
+16-7	1202-1212	keineswegs	_	_
+16-8	1213-1214	.	_	_
+
+#Text=Ursprünglich hatte ich selbst an etwas der Art gedacht .
+17-1	1215-1227	Ursprünglich	_	_
+17-2	1228-1233	hatte	_	_
+17-3	1234-1237	ich	_	_
+17-4	1238-1244	selbst	_	_
+17-5	1245-1247	an	_	_
+17-6	1248-1253	etwas	_	_
+17-7	1254-1257	der	_	_
+17-8	1258-1261	Art	_	_
+17-9	1262-1269	gedacht	_	_
+17-10	1270-1271	.	_	_
+
+#Text=Ist Trophonius ein Flußgott ?
+18-1	1272-1275	Ist	_	_
+18-2	1276-1286	Trophonius	*	MISC
+18-3	1287-1290	ein	_	_
+18-4	1291-1299	Flußgott	_	_
+18-5	1300-1301	?	_	_
+
+#Text=- Die ohnmächtige Frauengestalt im Hintergrund , welche sich von allen anderen Gestalten scharf absetzt , be-
+19-1	1302-1303	-	_	_
+19-2	1304-1307	Die	_	_
+19-3	1308-1319	ohnmächtige	_	_
+19-4	1320-1333	Frauengestalt	_	_
+19-5	1334-1336	im	_	_
+19-6	1337-1348	Hintergrund	_	_
+19-7	1349-1350	,	_	_
+19-8	1351-1357	welche	_	_
+19-9	1358-1362	sich	_	_
+19-10	1363-1366	von	_	_
+19-11	1367-1372	allen	_	_
+19-12	1373-1380	anderen	_	_
+19-13	1381-1390	Gestalten	_	_
+19-14	1391-1397	scharf	_	_
+19-15	1398-1405	absetzt	_	_
+19-16	1406-1407	,	_	_
+19-17	1408-1411	be-	_	_

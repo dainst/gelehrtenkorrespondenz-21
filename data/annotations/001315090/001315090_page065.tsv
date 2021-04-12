@@ -1,0 +1,136 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=598 Lepsius an Helbig Berlin , 8. Dezember 1872 Berlin d . 8 .
+1-1	0-3	598	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Helbig	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	8.	*[1]	DATEletter[1]
+1-8	34-42	Dezember	*[1]	DATEletter[1]
+1-9	43-47	1872	*[1]	DATEletter[1]
+1-10	48-54	Berlin	*	PLACEfrom
+1-11	55-56	d	_	_
+1-12	57-58	.	_	_
+1-13	59-60	8	*[2]	DATEletter[2]
+1-14	61-62	.	*[2]	DATEletter[2]
+
+#Text=Dez . 1872 .
+2-1	63-66	Dez	*[2]	DATEletter[2]
+2-2	67-68	.	*[2]	DATEletter[2]
+2-3	69-73	1872	*[2]	DATEletter[2]
+2-4	74-75	.	_	_
+
+#Text=Verehrter Freund Ich habe Ihnen nur officiell mitzutheilen , daß , nach einem vom 3. Dezember datirten Schreiben des Ministers , Ihnen für das Jahr 1873 eine Gehaltszulage von 200 r bestimmt ist , und füge nur noch mein persönliches Bedauern hinzu , daß die Summe nicht größer ist .
+3-1	76-85	Verehrter	_	_
+3-2	86-92	Freund	_	_
+3-3	93-96	Ich	_	_
+3-4	97-101	habe	_	_
+3-5	102-107	Ihnen	_	_
+3-6	108-111	nur	_	_
+3-7	112-121	officiell	_	_
+3-8	122-134	mitzutheilen	_	_
+3-9	135-136	,	_	_
+3-10	137-140	daß	_	_
+3-11	141-142	,	_	_
+3-12	143-147	nach	_	_
+3-13	148-153	einem	_	_
+3-14	154-157	vom	_	_
+3-15	158-160	3.	*[3]	DATEmentioned[3]
+3-16	161-169	Dezember	*[3]	DATEmentioned[3]
+3-17	170-178	datirten	_	_
+3-18	179-188	Schreiben	_	_
+3-19	189-192	des	_	_
+3-20	193-202	Ministers	_	_
+3-21	203-204	,	_	_
+3-22	205-210	Ihnen	_	_
+3-23	211-214	für	_	_
+3-24	215-218	das	_	_
+3-25	219-223	Jahr	_	_
+3-26	224-228	1873	*	DATEmentioned
+3-27	229-233	eine	_	_
+3-28	234-247	Gehaltszulage	_	_
+3-29	248-251	von	_	_
+3-30	252-255	200	_	_
+3-31	256-257	r	_	_
+3-32	258-266	bestimmt	_	_
+3-33	267-270	ist	_	_
+3-34	271-272	,	_	_
+3-35	273-276	und	_	_
+3-36	277-281	füge	_	_
+3-37	282-285	nur	_	_
+3-38	286-290	noch	_	_
+3-39	291-295	mein	_	_
+3-40	296-308	persönliches	_	_
+3-41	309-317	Bedauern	_	_
+3-42	318-323	hinzu	_	_
+3-43	324-325	,	_	_
+3-44	326-329	daß	_	_
+3-45	330-333	die	_	_
+3-46	334-339	Summe	_	_
+3-47	340-345	nicht	_	_
+3-48	346-352	größer	_	_
+3-49	353-356	ist	_	_
+3-50	357-358	.	_	_
+
+#Text=Ich hoffe , daß wir beim Übergange des Instituts auf das Reich die Gehalts Frage bald wieder von neuen anregen zu können .
+4-1	359-362	Ich	_	_
+4-2	363-368	hoffe	_	_
+4-3	369-370	,	_	_
+4-4	371-374	daß	_	_
+4-5	375-378	wir	_	_
+4-6	379-383	beim	_	_
+4-7	384-393	Übergange	_	_
+4-8	394-397	des	_	_
+4-9	398-407	Instituts	*	ORGmentioned
+4-10	408-411	auf	_	_
+4-11	412-415	das	_	_
+4-12	416-421	Reich	_	_
+4-13	422-425	die	_	_
+4-14	426-433	Gehalts	_	_
+4-15	434-439	Frage	_	_
+4-16	440-444	bald	_	_
+4-17	445-451	wieder	_	_
+4-18	452-455	von	_	_
+4-19	456-461	neuen	_	_
+4-20	462-469	anregen	_	_
+4-21	470-472	zu	_	_
+4-22	473-479	können	_	_
+4-23	480-481	.	_	_
+
+#Text=Ich hoffe daß Sie und Ihre Familie gesund und erfrischt aus den Ferien zurückgekehrt sind und bitte mich Ihrer Frau Gemahlin bestens zu empfehlen .
+5-1	482-485	Ich	_	_
+5-2	486-491	hoffe	_	_
+5-3	492-495	daß	_	_
+5-4	496-499	Sie	_	_
+5-5	500-503	und	_	_
+5-6	504-508	Ihre	_	_
+5-7	509-516	Familie	_	_
+5-8	517-523	gesund	_	_
+5-9	524-527	und	_	_
+5-10	528-537	erfrischt	_	_
+5-11	538-541	aus	_	_
+5-12	542-545	den	_	_
+5-13	546-552	Ferien	_	_
+5-14	553-566	zurückgekehrt	_	_
+5-15	567-571	sind	_	_
+5-16	572-575	und	_	_
+5-17	576-581	bitte	_	_
+5-18	582-586	mich	_	_
+5-19	587-592	Ihrer	_	_
+5-20	593-597	Frau	_	_
+5-21	598-606	Gemahlin	_	_
+5-22	607-614	bestens	_	_
+5-23	615-617	zu	_	_
+5-24	618-627	empfehlen	_	_
+5-25	628-629	.	_	_
+
+#Text=Ihr ganz ergebesnter R Lepsius
+6-1	630-633	Ihr	_	_
+6-2	634-638	ganz	_	_
+6-3	639-650	ergebesnter	_	_
+6-4	651-652	R	*[4]	PERauthor[4]
+6-5	653-660	Lepsius	*[4]	PERauthor[4]

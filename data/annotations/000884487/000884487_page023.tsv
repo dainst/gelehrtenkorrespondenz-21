@@ -1,0 +1,294 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 23. Februar 1836 Zur Kiste habe ich abgegeben 5 Pakete , 1 für Sie von Brockhaus , 1 für das Institut von Weber ( ) 1 archäol .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	23.	*[4]	DATEletter[4]
+1-7	30-37	Februar	*[4]	DATEletter[4]
+1-8	38-42	1836	*[4]	DATEletter[4]
+1-9	43-46	Zur	_	_
+1-10	47-52	Kiste	_	_
+1-11	53-57	habe	_	_
+1-12	58-61	ich	_	_
+1-13	62-71	abgegeben	_	_
+1-14	72-73	5	_	_
+1-15	74-80	Pakete	_	_
+1-16	81-82	,	_	_
+1-17	83-84	1	_	_
+1-18	85-88	für	_	_
+1-19	89-92	Sie	_	_
+1-20	93-96	von	_	_
+1-21	97-106	Brockhaus	*	PERmentioned
+1-22	107-108	,	_	_
+1-23	109-110	1	_	_
+1-24	111-114	für	_	_
+1-25	115-118	das	_	_
+1-26	119-127	Institut	*	ORGmentioned
+1-27	128-131	von	_	_
+1-28	132-137	Weber	*	PERmentioned
+1-29	138-139	(	_	_
+1-30	140-141	)	_	_
+1-31	142-143	1	_	_
+1-32	144-151	archäol	_	_
+1-33	152-153	.	_	_
+
+#Text=Inst .
+2-1	154-158	Inst	_	_
+2-2	159-160	.	_	_
+
+#Text=Bl . nebst Miscellen , 1 Paket für Bunsen , 1 von der ruß .
+3-1	161-163	Bl	_	_
+3-2	164-165	.	_	_
+3-3	166-171	nebst	_	_
+3-4	172-181	Miscellen	_	_
+3-5	182-183	,	_	_
+3-6	184-185	1	_	_
+3-7	186-191	Paket	_	_
+3-8	192-195	für	_	_
+3-9	196-202	Bunsen	*	PERmentioned
+3-10	203-204	,	_	_
+3-11	205-206	1	_	_
+3-12	207-210	von	_	_
+3-13	211-214	der	_	_
+3-14	215-218	ruß	*[9]	ORGmentioned[9]
+3-15	219-220	.	*[9]	ORGmentioned[9]
+
+#Text=Akademie \; noch ein Convolut für 8. di Falco .
+4-1	221-229	Akademie	*[9]	ORGmentioned[9]
+4-2	230-231	\;	_	_
+4-3	232-236	noch	_	_
+4-4	237-240	ein	_	_
+4-5	241-249	Convolut	_	_
+4-6	250-253	für	_	_
+4-7	254-256	8.	*[10]	PERmentioned[10]
+4-8	257-259	di	*[10]	PERmentioned[10]
+4-9	260-265	Falco	*[10]	PERmentioned[10]
+4-10	266-267	.	_	_
+
+#Text=Das Vebrige specificiert Ihnen Gerstäcker .
+5-1	268-271	Das	_	_
+5-2	272-279	Vebrige	_	_
+5-3	280-292	specificiert	_	_
+5-4	293-298	Ihnen	_	_
+5-5	299-309	Gerstäcker	*	PERmentioned
+5-6	310-311	.	_	_
+
+#Text=Vielen Dank für Ihre Inedita \; es brauchte 14 Tage ehe ich eine Stunde Zeit gewann sie zu besehen .
+6-1	312-318	Vielen	_	_
+6-2	319-323	Dank	_	_
+6-3	324-327	für	_	_
+6-4	328-332	Ihre	_	_
+6-5	333-340	Inedita	_	_
+6-6	341-342	\;	_	_
+6-7	343-345	es	_	_
+6-8	346-354	brauchte	_	_
+6-9	355-357	14	_	_
+6-10	358-362	Tage	_	_
+6-11	363-366	ehe	_	_
+6-12	367-370	ich	_	_
+6-13	371-375	eine	_	_
+6-14	376-382	Stunde	_	_
+6-15	383-387	Zeit	_	_
+6-16	388-394	gewann	_	_
+6-17	395-398	sie	_	_
+6-18	399-401	zu	_	_
+6-19	402-409	besehen	_	_
+6-20	410-411	.	_	_
+
+#Text=Viel Erfreuliches !
+7-1	412-416	Viel	_	_
+7-2	417-429	Erfreuliches	_	_
+7-3	430-431	!	_	_
+
+#Text=Hie und da vermisse ich die Namen der Besitzer .
+8-1	432-435	Hie	_	_
+8-2	436-439	und	_	_
+8-3	440-442	da	_	_
+8-4	443-451	vermisse	_	_
+8-5	452-455	ich	_	_
+8-6	456-459	die	_	_
+8-7	460-465	Namen	_	_
+8-8	466-469	der	_	_
+8-9	470-478	Besitzer	_	_
+8-10	479-480	.	_	_
+
+#Text=Wo hat das Minerva usgefäß mit mg no .
+9-1	481-483	Wo	_	_
+9-2	484-487	hat	_	_
+9-3	488-491	das	_	_
+9-4	492-499	Minerva	*[12]	OBJ[12]
+9-5	500-507	usgefäß	*[12]	OBJ[12]
+9-6	508-511	mit	_	_
+9-7	512-514	mg	_	_
+9-8	515-517	no	_	_
+9-9	518-519	.	_	_
+
+#Text=auf den Säulen ?
+10-1	520-523	auf	_	_
+10-2	524-527	den	_	_
+10-3	528-534	Säulen	*	OBJ
+10-4	535-536	?	_	_
+
+#Text=wie heißt der Spiegel-prete ?
+11-1	537-540	wie	_	_
+11-2	541-546	heißt	_	_
+11-3	547-550	der	_	_
+11-4	551-564	Spiegel-prete	_	_
+11-5	565-566	?	_	_
+
+#Text=Apolloni scheint mir allerlei Duplikate geschickt zu haben , die er wohl hätte bei mir vermuthen können z . B. die von ihm sicher mit Mühe und Noth gezeichnete Telephus patera bei Campanari ?
+12-1	567-575	Apolloni	*	PERmentioned
+12-2	576-583	scheint	_	_
+12-3	584-587	mir	_	_
+12-4	588-596	allerlei	_	_
+12-5	597-606	Duplikate	_	_
+12-6	607-616	geschickt	_	_
+12-7	617-619	zu	_	_
+12-8	620-625	haben	_	_
+12-9	626-627	,	_	_
+12-10	628-631	die	_	_
+12-11	632-634	er	_	_
+12-12	635-639	wohl	_	_
+12-13	640-645	hätte	_	_
+12-14	646-649	bei	_	_
+12-15	650-653	mir	_	_
+12-16	654-663	vermuthen	_	_
+12-17	664-670	können	_	_
+12-18	671-672	z	_	_
+12-19	673-674	.	_	_
+12-20	675-677	B.	_	_
+12-21	678-681	die	_	_
+12-22	682-685	von	_	_
+12-23	686-689	ihm	_	_
+12-24	690-696	sicher	_	_
+12-25	697-700	mit	_	_
+12-26	701-705	Mühe	_	_
+12-27	706-709	und	_	_
+12-28	710-714	Noth	_	_
+12-29	715-726	gezeichnete	_	_
+12-30	727-735	Telephus	*[15]	OBJ[15]
+12-31	736-742	patera	*[15]	OBJ[15]
+12-32	743-746	bei	_	_
+12-33	747-756	Campanari	*	PERmentioned
+12-34	757-758	?	_	_
+
+#Text=Wo kommt denn auch das Stück bild auf der Vase von Lord Tonton und Nothampton her ?
+13-1	759-761	Wo	_	_
+13-2	762-767	kommt	_	_
+13-3	768-772	denn	_	_
+13-4	773-777	auch	_	_
+13-5	778-781	das	_	_
+13-6	782-787	Stück	_	_
+13-7	788-792	bild	_	_
+13-8	793-796	auf	_	_
+13-9	797-800	der	_	_
+13-10	801-805	Vase	*	OBJ
+13-11	806-809	von	_	_
+13-12	810-814	Lord	*[18]	PERmentioned[18]
+13-13	815-821	Tonton	*[18]	PERmentioned[18]
+13-14	822-825	und	_	_
+13-15	826-836	Nothampton	*	PERmentioned
+13-16	837-840	her	_	_
+13-17	841-842	?	_	_
+
+#Text=Ist es eine Durchzeichnung die er von früher bei sich behält und wieder bei mir anbringt .
+14-1	843-846	Ist	_	_
+14-2	847-849	es	_	_
+14-3	850-854	eine	_	_
+14-4	855-869	Durchzeichnung	_	_
+14-5	870-873	die	_	_
+14-6	874-876	er	_	_
+14-7	877-880	von	_	_
+14-8	881-887	früher	_	_
+14-9	888-891	bei	_	_
+14-10	892-896	sich	_	_
+14-11	897-903	behält	_	_
+14-12	904-907	und	_	_
+14-13	908-914	wieder	_	_
+14-14	915-918	bei	_	_
+14-15	919-922	mir	_	_
+14-16	923-931	anbringt	_	_
+14-17	932-933	.	_	_
+
+#Text=Künftiges lassen Sie einstweilen bei sich \; ich bitte aber von neuem die Durchzeichnungen mit der Feder nachzeichnen zu lassen , was die Mühe um ein geringes vermehrt und die Zeichnungen dauernder macht .
+15-1	934-943	Künftiges	_	_
+15-2	944-950	lassen	_	_
+15-3	951-954	Sie	_	_
+15-4	955-966	einstweilen	_	_
+15-5	967-970	bei	_	_
+15-6	971-975	sich	_	_
+15-7	976-977	\;	_	_
+15-8	978-981	ich	_	_
+15-9	982-987	bitte	_	_
+15-10	988-992	aber	_	_
+15-11	993-996	von	_	_
+15-12	997-1002	neuem	_	_
+15-13	1003-1006	die	_	_
+15-14	1007-1023	Durchzeichnungen	_	_
+15-15	1024-1027	mit	_	_
+15-16	1028-1031	der	_	_
+15-17	1032-1037	Feder	_	_
+15-18	1038-1050	nachzeichnen	_	_
+15-19	1051-1053	zu	_	_
+15-20	1054-1060	lassen	_	_
+15-21	1061-1062	,	_	_
+15-22	1063-1066	was	_	_
+15-23	1067-1070	die	_	_
+15-24	1071-1075	Mühe	_	_
+15-25	1076-1078	um	_	_
+15-26	1079-1082	ein	_	_
+15-27	1083-1091	geringes	_	_
+15-28	1092-1100	vermehrt	_	_
+15-29	1101-1104	und	_	_
+15-30	1105-1108	die	_	_
+15-31	1109-1120	Zeichnungen	_	_
+15-32	1121-1130	dauernder	_	_
+15-33	1131-1136	macht	_	_
+15-34	1137-1138	.	_	_
+
+#Text=Von Neapel officiel nur Zeichnungen von 5 neuen mathol .
+16-1	1139-1142	Von	_	_
+16-2	1143-1149	Neapel	*	PLACEmentioned
+16-3	1150-1158	officiel	_	_
+16-4	1159-1162	nur	_	_
+16-5	1163-1174	Zeichnungen	_	_
+16-6	1175-1178	von	_	_
+16-7	1179-1180	5	_	_
+16-8	1181-1186	neuen	_	_
+16-9	1187-1193	mathol	_	_
+16-10	1194-1195	.	_	_
+
+#Text=Vasen Lambertis \; es ist mir ganz recht dieselben durch Freitag machen zu lassen und bitte Sie dies zu besorgen .
+17-1	1196-1201	Vasen	*	OBJ
+17-2	1202-1211	Lambertis	*	PERmentioned
+17-3	1212-1213	\;	_	_
+17-4	1214-1216	es	_	_
+17-5	1217-1220	ist	_	_
+17-6	1221-1224	mir	_	_
+17-7	1225-1229	ganz	_	_
+17-8	1230-1235	recht	_	_
+17-9	1236-1245	dieselben	_	_
+17-10	1246-1251	durch	_	_
+17-11	1252-1259	Freitag	*	PERmentioned
+17-12	1260-1266	machen	_	_
+17-13	1267-1269	zu	_	_
+17-14	1270-1276	lassen	_	_
+17-15	1277-1280	und	_	_
+17-16	1281-1286	bitte	_	_
+17-17	1287-1290	Sie	_	_
+17-18	1291-1295	dies	_	_
+17-19	1296-1298	zu	_	_
+17-20	1299-1307	besorgen	_	_
+17-21	1308-1309	.	_	_
+
+#Text=Nur muß derselbe , wie
+18-1	1310-1313	Nur	_	_
+18-2	1314-1317	muß	_	_
+18-3	1318-1326	derselbe	_	_
+18-4	1327-1328	,	_	_
+18-5	1329-1332	wie	_	_

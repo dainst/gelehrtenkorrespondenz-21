@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=34 Helbig an Henzen Siena , 6. Juli 1875 7 75 6. Juli 1875 Lieber Herr Professor Obwohl ich Ihnen eigentlich nichts besonders Wissenswürdiges mitzutheilen habe , schreibe ich Ihnen doch diese Zeilen , um Ihnen wenigstens ein Lebenszeichen zu geben .
+1-1	0-2	34	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-25	Siena	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	6.	*[1]	DATEletter[1]
+1-8	31-35	Juli	*[1]	DATEletter[1]
+1-9	36-40	1875	*[1]	DATEletter[1]
+1-10	41-42	7	*[2]	DATErecieved[2]
+1-11	43-45	75	*[2]	DATErecieved[2]
+1-12	46-48	6.	*[3]	DATEanswered[3]
+1-13	49-53	Juli	*[3]	DATEanswered[3]
+1-14	54-58	1875	*[3]	DATEanswered[3]
+1-15	59-65	Lieber	_	_
+1-16	66-70	Herr	_	_
+1-17	71-80	Professor	_	_
+1-18	81-87	Obwohl	_	_
+1-19	88-91	ich	_	_
+1-20	92-97	Ihnen	_	_
+1-21	98-108	eigentlich	_	_
+1-22	109-115	nichts	_	_
+1-23	116-125	besonders	_	_
+1-24	126-141	Wissenswürdiges	_	_
+1-25	142-154	mitzutheilen	_	_
+1-26	155-159	habe	_	_
+1-27	160-161	,	_	_
+1-28	162-170	schreibe	_	_
+1-29	171-174	ich	_	_
+1-30	175-180	Ihnen	_	_
+1-31	181-185	doch	_	_
+1-32	186-191	diese	_	_
+1-33	192-198	Zeilen	_	_
+1-34	199-200	,	_	_
+1-35	201-203	um	_	_
+1-36	204-209	Ihnen	_	_
+1-37	210-220	wenigstens	_	_
+1-38	221-224	ein	_	_
+1-39	225-238	Lebenszeichen	_	_
+1-40	239-241	zu	_	_
+1-41	242-247	geben	_	_
+1-42	248-249	.	_	_
+
+#Text=Es geht uns gut und auch meine Hypochondrie , die ich in Rom durch Grin Auen .
+2-1	250-252	Es	_	_
+2-2	253-257	geht	_	_
+2-3	258-261	uns	_	_
+2-4	262-265	gut	_	_
+2-5	266-269	und	_	_
+2-6	270-274	auch	_	_
+2-7	275-280	meine	_	_
+2-8	281-293	Hypochondrie	_	_
+2-9	294-295	,	_	_
+2-10	296-299	die	_	_
+2-11	300-303	ich	_	_
+2-12	304-306	in	_	_
+2-13	307-310	Rom	*	PLACEmentioned
+2-14	311-316	durch	_	_
+2-15	317-321	Grin	_	_
+2-16	322-326	Auen	_	_
+2-17	327-328	.	_	_
+
+#Text=niederzukämpfen suchte , ist bei der hiesigen Ruhe und kühlen luft entschieden im Abnehmen begriffen .
+3-1	329-344	niederzukämpfen	_	_
+3-2	345-351	suchte	_	_
+3-3	352-353	,	_	_
+3-4	354-357	ist	_	_
+3-5	358-361	bei	_	_
+3-6	362-365	der	_	_
+3-7	366-374	hiesigen	_	_
+3-8	375-379	Ruhe	_	_
+3-9	380-383	und	_	_
+3-10	384-390	kühlen	_	_
+3-11	391-395	luft	_	_
+3-12	396-407	entschieden	_	_
+3-13	408-410	im	_	_
+3-14	411-419	Abnehmen	_	_
+3-15	420-429	begriffen	_	_
+3-16	430-431	.	_	_
+
+#Text=Wir haben bis jetzt jeden Tag ein Gewitter gehabt und so hat der Thermometer niemals 10° im Schatten überschritten .
+4-1	432-435	Wir	_	_
+4-2	436-441	haben	_	_
+4-3	442-445	bis	_	_
+4-4	446-451	jetzt	_	_
+4-5	452-457	jeden	_	_
+4-6	458-461	Tag	_	_
+4-7	462-465	ein	_	_
+4-8	466-474	Gewitter	_	_
+4-9	475-481	gehabt	_	_
+4-10	482-485	und	_	_
+4-11	486-488	so	_	_
+4-12	489-492	hat	_	_
+4-13	493-496	der	_	_
+4-14	497-508	Thermometer	_	_
+4-15	509-516	niemals	_	_
+4-16	517-520	10°	_	_
+4-17	521-523	im	_	_
+4-18	524-532	Schatten	_	_
+4-19	533-546	überschritten	_	_
+4-20	547-548	.	_	_
+
+#Text=Lili gewinnt allmählig ihr früheres kräftiges Aussehen wieder .
+5-1	549-553	Lili	*	PERmentioned
+5-2	554-561	gewinnt	_	_
+5-3	562-571	allmählig	_	_
+5-4	572-575	ihr	_	_
+5-5	576-584	früheres	_	_
+5-6	585-594	kräftiges	_	_
+5-7	595-603	Aussehen	_	_
+5-8	604-610	wieder	_	_
+5-9	611-612	.	_	_
+
+#Text=An Besuchern fehlt es uns keineswegs : Hagens , Thorstrick , Raeteke , J. P. Richter .
+6-1	613-615	An	_	_
+6-2	616-625	Besuchern	_	_
+6-3	626-631	fehlt	_	_
+6-4	632-634	es	_	_
+6-5	635-638	uns	_	_
+6-6	639-649	keineswegs	_	_
+6-7	650-651	:	_	_
+6-8	652-658	Hagens	*	PERmentioned
+6-9	659-660	,	_	_
+6-10	661-671	Thorstrick	*	PERmentioned
+6-11	672-673	,	_	_
+6-12	674-681	Raeteke	*	PERmentioned
+6-13	682-683	,	_	_
+6-14	684-686	J.	*[4]	PERmentioned[4]
+6-15	687-689	P.	*[4]	PERmentioned[4]
+6-16	690-697	Richter	*[4]	PERmentioned[4]
+6-17	698-699	.	_	_
+
+#Text=Unerfreulich ist es , daß ich durch die Nachlässigkeit des Museums auch hier zu leiden habe .
+7-1	700-712	Unerfreulich	_	_
+7-2	713-716	ist	_	_
+7-3	717-719	es	_	_
+7-4	720-721	,	_	_
+7-5	722-725	daß	_	_
+7-6	726-729	ich	_	_
+7-7	730-735	durch	_	_
+7-8	736-739	die	_	_
+7-9	740-754	Nachlässigkeit	_	_
+7-10	755-758	des	_	_
+7-11	759-766	Museums	*	ORGmentioned
+7-12	767-771	auch	_	_
+7-13	772-776	hier	_	_
+7-14	777-779	zu	_	_
+7-15	780-786	leiden	_	_
+7-16	787-791	habe	_	_
+7-17	792-793	.	_	_
+
+#Text=Der Gypsabguß des Weihwasserbeckens im Dom ist vollendet \; aber , obwohl Lombardi , der mit der Überwachung beauftragt ist , nach Berlin geschrieben , ist keine Geldanweisung erfolgt .
+8-1	794-797	Der	_	_
+8-2	798-807	Gypsabguß	_	_
+8-3	808-811	des	_	_
+8-4	812-829	Weihwasserbeckens	_	_
+8-5	830-832	im	_	_
+8-6	833-836	Dom	*	PLACEmentioned
+8-7	837-840	ist	_	_
+8-8	841-850	vollendet	_	_
+8-9	851-852	\;	_	_
+8-10	853-857	aber	_	_
+8-11	858-859	,	_	_
+8-12	860-866	obwohl	_	_
+8-13	867-875	Lombardi	*	PERmentioned
+8-14	876-877	,	_	_
+8-15	878-881	der	_	_
+8-16	882-885	mit	_	_
+8-17	886-889	der	_	_
+8-18	890-901	Überwachung	_	_
+8-19	902-912	beauftragt	_	_
+8-20	913-916	ist	_	_
+8-21	917-918	,	_	_
+8-22	919-923	nach	_	_
+8-23	924-930	Berlin	*	PLACEmentioned
+8-24	931-942	geschrieben	_	_
+8-25	943-944	,	_	_
+8-26	945-948	ist	_	_
+8-27	949-954	keine	_	_
+8-28	955-968	Geldanweisung	_	_
+8-29	969-976	erfolgt	_	_
+8-30	977-978	.	_	_
+
+#Text=Die Leute haben sich zu diesen Zwecke an mich gewendet .
+9-1	979-982	Die	_	_
+9-2	983-988	Leute	_	_
+9-3	989-994	haben	_	_
+9-4	995-999	sich	_	_
+9-5	1000-1002	zu	_	_
+9-6	1003-1009	diesen	_	_
+9-7	1010-1016	Zwecke	_	_
+9-8	1017-1019	an	_	_
+9-9	1020-1024	mich	_	_
+9-10	1025-1033	gewendet	_	_
+9-11	1034-1035	.	_	_
+
+#Text=Könnten Sie mir vielleicht die Adresse der beiden Bildhauer mittheilen , die mit der Lei-
+10-1	1036-1043	Könnten	_	_
+10-2	1044-1047	Sie	_	_
+10-3	1048-1051	mir	_	_
+10-4	1052-1062	vielleicht	_	_
+10-5	1063-1066	die	_	_
+10-6	1067-1074	Adresse	_	_
+10-7	1075-1078	der	_	_
+10-8	1079-1085	beiden	_	_
+10-9	1086-1095	Bildhauer	_	_
+10-10	1096-1106	mittheilen	_	_
+10-11	1107-1108	,	_	_
+10-12	1109-1112	die	_	_
+10-13	1113-1116	mit	_	_
+10-14	1117-1120	der	_	_
+10-15	1121-1125	Lei-	_	_

@@ -1,0 +1,226 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=62 Lepsius an Henzen Berlin , 12. Februar 1872 gs .
+1-1	0-2	62	_	_
+1-2	3-10	Lepsius	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	12.	*[1]	DATEletter[1]
+1-8	34-41	Februar	*[1]	DATEletter[1]
+1-9	42-46	1872	*[1]	DATEletter[1]
+1-10	47-49	gs	_	_
+1-11	50-51	.	_	_
+
+#Text=16/2 72 Berlin den 12 .
+2-1	52-56	16/2	*[2]	DATErecieved[2]
+2-2	57-59	72	*[2]	DATErecieved[2]
+2-3	60-66	Berlin	*	PLACEfrom
+2-4	67-70	den	_	_
+2-5	71-73	12	*[3]	DATEletter[3]
+2-6	74-75	.	*[3]	DATEletter[3]
+
+#Text=Febr .
+3-1	76-80	Febr	*[3]	DATEletter[3]
+3-2	81-82	.	*[3]	DATEletter[3]
+
+#Text=1872 Verehrter Freund Ich bedaure wenn der Fortgang der Bauangelegenheit Ihren Wünschen nicht entspricht .
+4-1	83-87	1872	*[3]	DATEletter[3]
+4-2	88-97	Verehrter	_	_
+4-3	98-104	Freund	_	_
+4-4	105-108	Ich	_	_
+4-5	109-116	bedaure	_	_
+4-6	117-121	wenn	_	_
+4-7	122-125	der	_	_
+4-8	126-134	Fortgang	_	_
+4-9	135-138	der	_	_
+4-10	139-155	Bauangelegenheit	_	_
+4-11	156-161	Ihren	_	_
+4-12	162-170	Wünschen	_	_
+4-13	171-176	nicht	_	_
+4-14	177-187	entspricht	_	_
+4-15	188-189	.	_	_
+
+#Text=Er entspricht auch den unsrigen nicht , in dem wir sie am liebsten schon ganz hinter uns hätten .
+5-1	190-192	Er	_	_
+5-2	193-203	entspricht	_	_
+5-3	204-208	auch	_	_
+5-4	209-212	den	_	_
+5-5	213-221	unsrigen	_	_
+5-6	222-227	nicht	_	_
+5-7	228-229	,	_	_
+5-8	230-232	in	_	_
+5-9	233-236	dem	_	_
+5-10	237-240	wir	_	_
+5-11	241-244	sie	_	_
+5-12	245-247	am	_	_
+5-13	248-256	liebsten	_	_
+5-14	257-262	schon	_	_
+5-15	263-267	ganz	_	_
+5-16	268-274	hinter	_	_
+5-17	275-278	uns	_	_
+5-18	279-285	hätten	_	_
+5-19	286-287	.	_	_
+
+#Text=Was wir aber zunächst wünschen , die Ermächtigung mit den Plänen vorzugehen , ist ja längst erledigt .
+6-1	288-291	Was	_	_
+6-2	292-295	wir	_	_
+6-3	296-300	aber	_	_
+6-4	301-309	zunächst	_	_
+6-5	310-318	wünschen	_	_
+6-6	319-320	,	_	_
+6-7	321-324	die	_	_
+6-8	325-337	Ermächtigung	_	_
+6-9	338-341	mit	_	_
+6-10	342-345	den	_	_
+6-11	346-352	Plänen	_	_
+6-12	353-363	vorzugehen	_	_
+6-13	364-365	,	_	_
+6-14	366-369	ist	_	_
+6-15	370-372	ja	_	_
+6-16	373-379	längst	_	_
+6-17	380-388	erledigt	_	_
+6-18	389-390	.	_	_
+
+#Text=Ich schrieb Ihnen schon als Resultat unsrer letzten Hauptsitzung , daß sich die Central Direktion mit Ihnen gegen den jetzigen Institutsplatz und für den Granaro entschieden habe , falls nicht etwa der Garten Montanari noch in Betracht kommen könnte , was durch den Ankauf bedingt werde .
+7-1	391-394	Ich	_	_
+7-2	395-402	schrieb	_	_
+7-3	403-408	Ihnen	_	_
+7-4	409-414	schon	_	_
+7-5	415-418	als	_	_
+7-6	419-427	Resultat	_	_
+7-7	428-434	unsrer	_	_
+7-8	435-442	letzten	_	_
+7-9	443-455	Hauptsitzung	_	_
+7-10	456-457	,	_	_
+7-11	458-461	daß	_	_
+7-12	462-466	sich	_	_
+7-13	467-470	die	_	_
+7-14	471-478	Central	*[4]	ORGmentioned[4]
+7-15	479-488	Direktion	*[4]	ORGmentioned[4]
+7-16	489-492	mit	_	_
+7-17	493-498	Ihnen	_	_
+7-18	499-504	gegen	_	_
+7-19	505-508	den	_	_
+7-20	509-517	jetzigen	_	_
+7-21	518-532	Institutsplatz	_	_
+7-22	533-536	und	_	_
+7-23	537-540	für	_	_
+7-24	541-544	den	_	_
+7-25	545-552	Granaro	_	_
+7-26	553-564	entschieden	_	_
+7-27	565-569	habe	_	_
+7-28	570-571	,	_	_
+7-29	572-577	falls	_	_
+7-30	578-583	nicht	_	_
+7-31	584-588	etwa	_	_
+7-32	589-592	der	_	_
+7-33	593-599	Garten	_	_
+7-34	600-609	Montanari	*	PERmentioned
+7-35	610-614	noch	_	_
+7-36	615-617	in	_	_
+7-37	618-626	Betracht	_	_
+7-38	627-633	kommen	_	_
+7-39	634-640	könnte	_	_
+7-40	641-642	,	_	_
+7-41	643-646	was	_	_
+7-42	647-652	durch	_	_
+7-43	653-656	den	_	_
+7-44	657-663	Ankauf	_	_
+7-45	664-671	bedingt	_	_
+7-46	672-677	werde	_	_
+7-47	678-679	.	_	_
+
+#Text=Nun der Ankauf sich zerschlagen und Adler uns noch weiter informirt hat , war auch von jenem Platze nicht mehr die Rede .
+8-1	680-683	Nun	_	_
+8-2	684-687	der	_	_
+8-3	688-694	Ankauf	_	_
+8-4	695-699	sich	_	_
+8-5	700-711	zerschlagen	_	_
+8-6	712-715	und	_	_
+8-7	716-721	Adler	*	PERmentioned
+8-8	722-725	uns	_	_
+8-9	726-730	noch	_	_
+8-10	731-737	weiter	_	_
+8-11	738-747	informirt	_	_
+8-12	748-751	hat	_	_
+8-13	752-753	,	_	_
+8-14	754-757	war	_	_
+8-15	758-762	auch	_	_
+8-16	763-766	von	_	_
+8-17	767-772	jenem	_	_
+8-18	773-779	Platze	_	_
+8-19	780-785	nicht	_	_
+8-20	786-790	mehr	_	_
+8-21	791-794	die	_	_
+8-22	795-799	Rede	_	_
+8-23	800-801	.	_	_
+
+#Text=Ich sehe also nicht , was Herrn Laspeyres hindert , der sehr bestimmten officiellen Aufforderung die Pläne herzustellen , jetzt Folge zu leisten , da namentlich auch die beiden Bedenken der Feuergefahr und der Grundmauer die nun verworfen sind , beseitigt worden sind , abgesehen von den möglichen Ausstellungen , die von den früheren Behörden noch gemacht werden können .
+9-1	802-805	Ich	_	_
+9-2	806-810	sehe	_	_
+9-3	811-815	also	_	_
+9-4	816-821	nicht	_	_
+9-5	822-823	,	_	_
+9-6	824-827	was	_	_
+9-7	828-833	Herrn	_	_
+9-8	834-843	Laspeyres	*	PERmentioned
+9-9	844-851	hindert	_	_
+9-10	852-853	,	_	_
+9-11	854-857	der	_	_
+9-12	858-862	sehr	_	_
+9-13	863-873	bestimmten	_	_
+9-14	874-885	officiellen	_	_
+9-15	886-898	Aufforderung	_	_
+9-16	899-902	die	_	_
+9-17	903-908	Pläne	_	_
+9-18	909-921	herzustellen	_	_
+9-19	922-923	,	_	_
+9-20	924-929	jetzt	_	_
+9-21	930-935	Folge	_	_
+9-22	936-938	zu	_	_
+9-23	939-946	leisten	_	_
+9-24	947-948	,	_	_
+9-25	949-951	da	_	_
+9-26	952-962	namentlich	_	_
+9-27	963-967	auch	_	_
+9-28	968-971	die	_	_
+9-29	972-978	beiden	_	_
+9-30	979-987	Bedenken	_	_
+9-31	988-991	der	_	_
+9-32	992-1003	Feuergefahr	_	_
+9-33	1004-1007	und	_	_
+9-34	1008-1011	der	_	_
+9-35	1012-1022	Grundmauer	_	_
+9-36	1023-1026	die	_	_
+9-37	1027-1030	nun	_	_
+9-38	1031-1040	verworfen	_	_
+9-39	1041-1045	sind	_	_
+9-40	1046-1047	,	_	_
+9-41	1048-1057	beseitigt	_	_
+9-42	1058-1064	worden	_	_
+9-43	1065-1069	sind	_	_
+9-44	1070-1071	,	_	_
+9-45	1072-1081	abgesehen	_	_
+9-46	1082-1085	von	_	_
+9-47	1086-1089	den	_	_
+9-48	1090-1099	möglichen	_	_
+9-49	1100-1113	Ausstellungen	_	_
+9-50	1114-1115	,	_	_
+9-51	1116-1119	die	_	_
+9-52	1120-1123	von	_	_
+9-53	1124-1127	den	_	_
+9-54	1128-1136	früheren	_	_
+9-55	1137-1145	Behörden	_	_
+9-56	1146-1150	noch	_	_
+9-57	1151-1158	gemacht	_	_
+9-58	1159-1165	werden	_	_
+9-59	1166-1172	können	_	_
+9-60	1173-1174	.	_	_
+
+#Text=Die Einsendung
+10-1	1175-1178	Die	_	_
+10-2	1179-1189	Einsendung	_	_

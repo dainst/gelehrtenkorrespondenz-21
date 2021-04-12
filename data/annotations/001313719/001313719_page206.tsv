@@ -1,0 +1,130 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=90 Gerhard an Henzen 8/V/1850 Na Vertheil setzt , denn Ihrer lieben Frau Briefe machen hier immer große Freude : es ging aber den ganzen kaum geendeten Winter ( wir heizten noch heut ) über gar nicht gut und war , so oft ich nach Rom schrieb ( heute desgleichen ) unmöglich .
+1-1	0-2	90	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-29	8/V/1850	*	DATEletter
+1-6	30-32	Na	_	_
+1-7	33-41	Vertheil	_	_
+1-8	42-47	setzt	_	_
+1-9	48-49	,	_	_
+1-10	50-54	denn	_	_
+1-11	55-60	Ihrer	_	_
+1-12	61-67	lieben	_	_
+1-13	68-72	Frau	_	_
+1-14	73-79	Briefe	_	_
+1-15	80-86	machen	_	_
+1-16	87-91	hier	_	_
+1-17	92-97	immer	_	_
+1-18	98-103	große	_	_
+1-19	104-110	Freude	_	_
+1-20	111-112	:	_	_
+1-21	113-115	es	_	_
+1-22	116-120	ging	_	_
+1-23	121-125	aber	_	_
+1-24	126-129	den	_	_
+1-25	130-136	ganzen	_	_
+1-26	137-141	kaum	_	_
+1-27	142-151	geendeten	_	_
+1-28	152-158	Winter	_	_
+1-29	159-160	(	_	_
+1-30	161-164	wir	_	_
+1-31	165-172	heizten	_	_
+1-32	173-177	noch	_	_
+1-33	178-182	heut	_	_
+1-34	183-184	)	_	_
+1-35	185-189	über	_	_
+1-36	190-193	gar	_	_
+1-37	194-199	nicht	_	_
+1-38	200-203	gut	_	_
+1-39	204-207	und	_	_
+1-40	208-211	war	_	_
+1-41	212-213	,	_	_
+1-42	214-216	so	_	_
+1-43	217-220	oft	_	_
+1-44	221-224	ich	_	_
+1-45	225-229	nach	_	_
+1-46	230-233	Rom	*	PLACEmentioned
+1-47	234-241	schrieb	_	_
+1-48	242-243	(	_	_
+1-49	244-249	heute	_	_
+1-50	250-261	desgleichen	_	_
+1-51	262-263	)	_	_
+1-52	264-273	unmöglich	_	_
+1-53	274-275	.	_	_
+
+#Text=Also auch diesmal beschrinkt sie sich « af herzliche Grüße .
+2-1	276-280	Also	_	_
+2-2	281-285	auch	_	_
+2-3	286-293	diesmal	_	_
+2-4	294-304	beschrinkt	_	_
+2-5	305-308	sie	_	_
+2-6	309-313	sich	_	_
+2-7	314-315	«	_	_
+2-8	316-318	af	_	_
+2-9	319-328	herzliche	_	_
+2-10	329-334	Grüße	_	_
+2-11	335-336	.	_	_
+
+#Text=- Archäol .
+3-1	337-338	-	_	_
+3-2	339-346	Archäol	_	_
+3-3	347-348	.	_	_
+
+#Text=Zeitung hoffe durch Gelegenheit zu senden die ich an Braun genannt habe \; sollte Ihr Exenplar zurückbleiben müssen so bleibt es Ihnen doch unbenonmen .
+4-1	349-356	Zeitung	_	_
+4-2	357-362	hoffe	_	_
+4-3	363-368	durch	_	_
+4-4	369-380	Gelegenheit	_	_
+4-5	381-383	zu	_	_
+4-6	384-390	senden	_	_
+4-7	391-394	die	_	_
+4-8	395-398	ich	_	_
+4-9	399-401	an	_	_
+4-10	402-407	Braun	*	PERmentioned
+4-11	408-415	genannt	_	_
+4-12	416-420	habe	_	_
+4-13	421-422	\;	_	_
+4-14	423-429	sollte	_	_
+4-15	430-433	Ihr	_	_
+4-16	434-442	Exenplar	_	_
+4-17	443-456	zurückbleiben	_	_
+4-18	457-463	müssen	_	_
+4-19	464-466	so	_	_
+4-20	467-473	bleibt	_	_
+4-21	474-476	es	_	_
+4-22	477-482	Ihnen	_	_
+4-23	483-487	doch	_	_
+4-24	488-498	unbenonmen	_	_
+4-25	499-500	.	_	_
+
+#Text=Jahrsang 1849 werden Sie durch Dr. Seiler , Heimbacks Li ch . Empfohlier , erhalten haben ? ?
+5-1	501-509	Jahrsang	_	_
+5-2	510-514	1849	*	DATEmentioned
+5-3	515-521	werden	_	_
+5-4	522-525	Sie	_	_
+5-5	526-531	durch	_	_
+5-6	532-535	Dr.	_	_
+5-7	536-542	Seiler	*	PERmentioned
+5-8	543-544	,	_	_
+5-9	545-554	Heimbacks	*	PERmentioned
+5-10	555-557	Li	*[1]	PERmentioned[1]
+5-11	558-560	ch	*[1]	PERmentioned[1]
+5-12	561-562	.	*[1]	PERmentioned[1]
+5-13	563-573	Empfohlier	_	_
+5-14	574-575	,	_	_
+5-15	576-584	erhalten	_	_
+5-16	585-590	haben	_	_
+5-17	591-592	?	_	_
+5-18	593-594	?	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+6-1	595-598	Von	_	_
+6-2	599-605	Herzen	_	_
+6-3	606-609	der	_	_
+6-4	610-616	Ihrige	_	_
+6-5	617-624	Gerhard	*	PERauthor

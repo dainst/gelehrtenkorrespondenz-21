@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 14. Mai 1846 letzten Woche kaum sah , während Böckh durch Veranlassung eines akademischen Dianos ihn obligirt hat , Tölken Werkmann Temite um seine Gunst gebuhlt haben .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	14.	*[1]	DATEletter[1]
+1-7	30-33	Mai	*[1]	DATEletter[1]
+1-8	34-38	1846	*[1]	DATEletter[1]
+1-9	39-46	letzten	_	_
+1-10	47-52	Woche	_	_
+1-11	53-57	kaum	_	_
+1-12	58-61	sah	_	_
+1-13	62-63	,	_	_
+1-14	64-71	während	_	_
+1-15	72-77	Böckh	*	PERmentioned
+1-16	78-83	durch	_	_
+1-17	84-96	Veranlassung	_	_
+1-18	97-102	eines	_	_
+1-19	103-115	akademischen	_	_
+1-20	116-122	Dianos	_	_
+1-21	123-126	ihn	_	_
+1-22	127-135	obligirt	_	_
+1-23	136-139	hat	_	_
+1-24	140-141	,	_	_
+1-25	142-148	Tölken	*	PERmentioned
+1-26	149-157	Werkmann	*	PERmentioned
+1-27	158-164	Temite	*	PERmentioned
+1-28	165-167	um	_	_
+1-29	168-173	seine	_	_
+1-30	174-179	Gunst	_	_
+1-31	180-187	gebuhlt	_	_
+1-32	188-193	haben	_	_
+1-33	194-195	.	_	_
+
+#Text=A propos Temite : haben Sie ihm wirklich einen Text versprochen , so ist gute Hoffnung da daß Sie sich mit Zahn und Rochette auch noch accomodiren .
+2-1	196-197	A	_	_
+2-2	198-204	propos	_	_
+2-3	205-211	Temite	*	PERmentioned
+2-4	212-213	:	_	_
+2-5	214-219	haben	_	_
+2-6	220-223	Sie	_	_
+2-7	224-227	ihm	_	_
+2-8	228-236	wirklich	_	_
+2-9	237-242	einen	_	_
+2-10	243-247	Text	_	_
+2-11	248-259	versprochen	_	_
+2-12	260-261	,	_	_
+2-13	262-264	so	_	_
+2-14	265-268	ist	_	_
+2-15	269-273	gute	_	_
+2-16	274-282	Hoffnung	_	_
+2-17	283-285	da	_	_
+2-18	286-289	daß	_	_
+2-19	290-293	Sie	_	_
+2-20	294-298	sich	_	_
+2-21	299-302	mit	_	_
+2-22	303-307	Zahn	*	PERmentioned
+2-23	308-311	und	_	_
+2-24	312-320	Rochette	*	PERmentioned
+2-25	321-325	auch	_	_
+2-26	326-330	noch	_	_
+2-27	331-342	accomodiren	_	_
+2-28	343-344	.	_	_
+
+#Text=Über Epigraphisches nächstens \; sind 2 Inschriften des M. Aurel und L. Verus von der Straße gen Damaskus bekannt ?
+3-1	345-349	Über	_	_
+3-2	350-364	Epigraphisches	_	_
+3-3	365-374	nächstens	_	_
+3-4	375-376	\;	_	_
+3-5	377-381	sind	_	_
+3-6	382-383	2	_	_
+3-7	384-395	Inschriften	*	OBJ
+3-8	396-399	des	_	_
+3-9	400-402	M.	*[2]	PERmentioned[2]
+3-10	403-408	Aurel	*[2]	PERmentioned[2]
+3-11	409-412	und	_	_
+3-12	413-415	L.	*[3]	PERmentioned[3]
+3-13	416-421	Verus	*[3]	PERmentioned[3]
+3-14	422-425	von	_	_
+3-15	426-429	der	_	_
+3-16	430-436	Straße	_	_
+3-17	437-440	gen	_	_
+3-18	441-449	Damaskus	*	PLACEmentioned
+3-19	450-457	bekannt	_	_
+3-20	458-459	?	_	_
+
+#Text=Von Muschelschnitten erhielt ich bereits alles Gewünschte .
+4-1	460-463	Von	_	_
+4-2	464-480	Muschelschnitten	_	_
+4-3	481-488	erhielt	_	_
+4-4	489-492	ich	_	_
+4-5	493-500	bereits	_	_
+4-6	501-506	alles	_	_
+4-7	507-517	Gewünschte	_	_
+4-8	518-519	.	_	_
+
+#Text=Lanci erbietet sich seine Rückstände für die Rechnungen von 1845 zu besorgen \; soll man ihn erst wieder dafür einziehen ?
+5-1	520-525	Lanci	*	PERmentioned
+5-2	526-534	erbietet	_	_
+5-3	535-539	sich	_	_
+5-4	540-545	seine	_	_
+5-5	546-556	Rückstände	_	_
+5-6	557-560	für	_	_
+5-7	561-564	die	_	_
+5-8	565-575	Rechnungen	_	_
+5-9	576-579	von	_	_
+5-10	580-584	1845	*	DATEmentioned
+5-11	585-587	zu	_	_
+5-12	588-596	besorgen	_	_
+5-13	597-598	\;	_	_
+5-14	599-603	soll	_	_
+5-15	604-607	man	_	_
+5-16	608-611	ihn	_	_
+5-17	612-616	erst	_	_
+5-18	617-623	wieder	_	_
+5-19	624-629	dafür	_	_
+5-20	630-639	einziehen	_	_
+5-21	640-641	?	_	_
+
+#Text=Um Troschkes Antwort habe ich mich bemüht \; er wird sie , nachdem sie in Rom längst lag , nun wol aufgetrieben haben .
+6-1	642-644	Um	_	_
+6-2	645-654	Troschkes	*	PERmentioned
+6-3	655-662	Antwort	_	_
+6-4	663-667	habe	_	_
+6-5	668-671	ich	_	_
+6-6	672-676	mich	_	_
+6-7	677-683	bemüht	_	_
+6-8	684-685	\;	_	_
+6-9	686-688	er	_	_
+6-10	689-693	wird	_	_
+6-11	694-697	sie	_	_
+6-12	698-699	,	_	_
+6-13	700-707	nachdem	_	_
+6-14	708-711	sie	_	_
+6-15	712-714	in	_	_
+6-16	715-718	Rom	*	PLACEmentioned
+6-17	719-725	längst	_	_
+6-18	726-729	lag	_	_
+6-19	730-731	,	_	_
+6-20	732-735	nun	_	_
+6-21	736-739	wol	_	_
+6-22	740-752	aufgetrieben	_	_
+6-23	753-758	haben	_	_
+6-24	759-760	.	_	_
+
+#Text=Hier wird eine pompöse Empfangmusik für Corneljus bereitet \; für Lepsius und Franz Ordinariate .
+7-1	761-765	Hier	_	_
+7-2	766-770	wird	_	_
+7-3	771-775	eine	_	_
+7-4	776-783	pompöse	_	_
+7-5	784-796	Empfangmusik	_	_
+7-6	797-800	für	_	_
+7-7	801-810	Corneljus	*	PERmentioned
+7-8	811-819	bereitet	_	_
+7-9	820-821	\;	_	_
+7-10	822-825	für	_	_
+7-11	826-833	Lepsius	*	PERmentioned
+7-12	834-837	und	_	_
+7-13	838-843	Franz	*	PERmentioned
+7-14	844-855	Ordinariate	_	_
+7-15	856-857	.	_	_
+
+#Text=Was ist vom Kunstwerth des Laokoonfragments in Neapel Bullettino 1837 p . 218 zu halten ?
+8-1	858-861	Was	_	_
+8-2	862-865	ist	_	_
+8-3	866-869	vom	_	_
+8-4	870-880	Kunstwerth	_	_
+8-5	881-884	des	_	_
+8-6	885-901	Laokoonfragments	*	OBJ
+8-7	902-904	in	_	_
+8-8	905-911	Neapel	*	PLACEmentioned
+8-9	912-922	Bullettino	_	_
+8-10	923-927	1837	*	DATEmentioned
+8-11	928-929	p	_	_
+8-12	930-931	.	_	_
+8-13	932-935	218	_	_
+8-14	936-938	zu	_	_
+8-15	939-945	halten	_	_
+8-16	946-947	?	_	_
+
+#Text=Ich sah es nicht !
+9-1	948-951	Ich	_	_
+9-2	952-955	sah	_	_
+9-3	956-958	es	_	_
+9-4	959-964	nicht	_	_
+9-5	965-966	!	_	_
+
+#Text=Über die Nymphe die Defabris unecht machen will sollte man doch andre Künstler abhören .
+10-1	967-971	Über	_	_
+10-2	972-975	die	_	_
+10-3	976-982	Nymphe	*	OBJ
+10-4	983-986	die	_	_
+10-5	987-995	Defabris	*	PERmentioned
+10-6	996-1002	unecht	_	_
+10-7	1003-1009	machen	_	_
+10-8	1010-1014	will	_	_
+10-9	1015-1021	sollte	_	_
+10-10	1022-1025	man	_	_
+10-11	1026-1030	doch	_	_
+10-12	1031-1036	andre	_	_
+10-13	1037-1045	Künstler	_	_
+10-14	1046-1053	abhören	_	_
+10-15	1054-1055	.	_	_
+
+#Text=Seine hyprischen Entdeckungen hatte Roß den Fran-
+11-1	1056-1061	Seine	_	_
+11-2	1062-1072	hyprischen	_	_
+11-3	1073-1085	Entdeckungen	_	_
+11-4	1086-1091	hatte	_	_
+11-5	1092-1095	Roß	*	PERmentioned
+11-6	1096-1099	den	_	_
+11-7	1100-1105	Fran-	_	_

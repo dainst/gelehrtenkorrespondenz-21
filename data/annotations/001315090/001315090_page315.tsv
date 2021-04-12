@@ -1,0 +1,95 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=248 Lepsius an Henzen Berlin , 19. April 1877 g . 23/4 77 Berlin d . 19 .
+1-1	0-3	248	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	19.	*[1]	DATEletter[1]
+1-8	35-40	April	*[1]	DATEletter[1]
+1-9	41-45	1877	*[1]	DATEletter[1]
+1-10	46-47	g	_	_
+1-11	48-49	.	_	_
+1-12	50-54	23/4	*[2]	DATErecieved[2]
+1-13	55-57	77	*[2]	DATErecieved[2]
+1-14	58-64	Berlin	*	PLACEfrom
+1-15	65-66	d	_	_
+1-16	67-68	.	_	_
+1-17	69-71	19	*[3]	DATEletter[3]
+1-18	72-73	.	*[3]	DATEletter[3]
+
+#Text=Apr .
+2-1	74-77	Apr	*[3]	DATEletter[3]
+2-2	78-79	.	*[3]	DATEletter[3]
+
+#Text=1877 Verehrter Freund Die Rolle mit den Diplomen wird Ihnen gleichzeitig zugehen .
+3-1	80-84	1877	*[3]	DATEletter[3]
+3-2	85-94	Verehrter	_	_
+3-3	95-101	Freund	_	_
+3-4	102-105	Die	_	_
+3-5	106-111	Rolle	_	_
+3-6	112-115	mit	_	_
+3-7	116-119	den	_	_
+3-8	120-128	Diplomen	_	_
+3-9	129-133	wird	_	_
+3-10	134-139	Ihnen	_	_
+3-11	140-152	gleichzeitig	_	_
+3-12	153-160	zugehen	_	_
+3-13	161-162	.	_	_
+
+#Text=Es sind auch die für Dresden etc. beigelegt , da die Vorschläge von Ihnen ausgingen und daher zu contrasigniren sind .
+4-1	163-165	Es	_	_
+4-2	166-170	sind	_	_
+4-3	171-175	auch	_	_
+4-4	176-179	die	_	_
+4-5	180-183	für	_	_
+4-6	184-191	Dresden	*	PLACEmentioned
+4-7	192-196	etc.	_	_
+4-8	197-206	beigelegt	_	_
+4-9	207-208	,	_	_
+4-10	209-211	da	_	_
+4-11	212-215	die	_	_
+4-12	216-226	Vorschläge	_	_
+4-13	227-230	von	_	_
+4-14	231-236	Ihnen	_	_
+4-15	237-246	ausgingen	_	_
+4-16	247-250	und	_	_
+4-17	251-256	daher	_	_
+4-18	257-259	zu	_	_
+4-19	260-274	contrasigniren	_	_
+4-20	275-279	sind	_	_
+4-21	280-281	.	_	_
+
+#Text=Ich bitte diese nun entweder wieder hierher , wenn das bequemer sein sollte , oder direkt den Herren zugehen zu lassen .
+5-1	282-285	Ich	_	_
+5-2	286-291	bitte	_	_
+5-3	292-297	diese	_	_
+5-4	298-301	nun	_	_
+5-5	302-310	entweder	_	_
+5-6	311-317	wieder	_	_
+5-7	318-325	hierher	_	_
+5-8	326-327	,	_	_
+5-9	328-332	wenn	_	_
+5-10	333-336	das	_	_
+5-11	337-345	bequemer	_	_
+5-12	346-350	sein	_	_
+5-13	351-357	sollte	_	_
+5-14	358-359	,	_	_
+5-15	360-364	oder	_	_
+5-16	365-371	direkt	_	_
+5-17	372-375	den	_	_
+5-18	376-382	Herren	_	_
+5-19	383-390	zugehen	_	_
+5-20	391-393	zu	_	_
+5-21	394-400	lassen	_	_
+5-22	401-402	.	_	_
+
+#Text=Ihr ergebenster Ris .
+6-1	403-406	Ihr	_	_
+6-2	407-418	ergebenster	_	_
+6-3	419-422	Ris	*[4]	PERauthor[4]
+6-4	423-424	.	_	_

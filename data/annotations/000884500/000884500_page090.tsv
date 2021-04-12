@@ -1,0 +1,242 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 1. Mai 1838 zu haben \; ich will sehen ob ich es noch wegschleifen und durch ein anderes Bild ersetzen kann .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	1.	*[4]	DATEletter[4]
+1-7	29-32	Mai	*[4]	DATEletter[4]
+1-8	33-37	1838	*[4]	DATEletter[4]
+1-9	38-40	zu	_	_
+1-10	41-46	haben	_	_
+1-11	47-48	\;	_	_
+1-12	49-52	ich	_	_
+1-13	53-57	will	_	_
+1-14	58-63	sehen	_	_
+1-15	64-66	ob	_	_
+1-16	67-70	ich	_	_
+1-17	71-73	es	_	_
+1-18	74-78	noch	_	_
+1-19	79-91	wegschleifen	_	_
+1-20	92-95	und	_	_
+1-21	96-101	durch	_	_
+1-22	102-105	ein	_	_
+1-23	106-113	anderes	_	_
+1-24	114-118	Bild	_	_
+1-25	119-127	ersetzen	_	_
+1-26	128-132	kann	_	_
+1-27	133-134	.	_	_
+
+#Text=Die Verkleinerung der Vase werden Sie übrigens genau finden .
+2-1	135-138	Die	_	_
+2-2	139-152	Verkleinerung	_	_
+2-3	153-156	der	_	_
+2-4	157-161	Vase	*	OBJ
+2-5	162-168	werden	_	_
+2-6	169-172	Sie	_	_
+2-7	173-181	übrigens	_	_
+2-8	182-187	genau	_	_
+2-9	188-194	finden	_	_
+2-10	195-196	.	_	_
+
+#Text=Es soll mir lieb sein in Betreff der schief gestellten Minervageburt der Basseggioschen Vase von Ihnen nach Vergleichung des Originals zu vernehmen ob dieselbe so bleiben könne .
+3-1	197-199	Es	_	_
+3-2	200-204	soll	_	_
+3-3	205-208	mir	_	_
+3-4	209-213	lieb	_	_
+3-5	214-218	sein	_	_
+3-6	219-221	in	_	_
+3-7	222-229	Betreff	_	_
+3-8	230-233	der	_	_
+3-9	234-240	schief	_	_
+3-10	241-251	gestellten	_	_
+3-11	252-265	Minervageburt	*[6]	OBJ[6]
+3-12	266-269	der	*[6]	OBJ[6]
+3-13	270-284	Basseggioschen	*[6]|*[7]	OBJ[6]|PERmentioned[7]
+3-14	285-289	Vase	*[6]	OBJ[6]
+3-15	290-293	von	_	_
+3-16	294-299	Ihnen	_	_
+3-17	300-304	nach	_	_
+3-18	305-317	Vergleichung	_	_
+3-19	318-321	des	_	_
+3-20	322-331	Originals	_	_
+3-21	332-334	zu	_	_
+3-22	335-344	vernehmen	_	_
+3-23	345-347	ob	_	_
+3-24	348-356	dieselbe	_	_
+3-25	357-359	so	_	_
+3-26	360-367	bleiben	_	_
+3-27	368-373	könne	_	_
+3-28	374-375	.	_	_
+
+#Text=Das Relief von Paris müssen Sie mit der Publikation bei Stuart vergleichen .
+4-1	376-379	Das	_	_
+4-2	380-386	Relief	*[8]	OBJ[8]
+4-3	387-390	von	*[8]	OBJ[8]
+4-4	391-396	Paris	*[8]|*[9]	OBJ[8]|PLACEmentioned[9]
+4-5	397-403	müssen	_	_
+4-6	404-407	Sie	_	_
+4-7	408-411	mit	_	_
+4-8	412-415	der	_	_
+4-9	416-427	Publikation	_	_
+4-10	428-431	bei	_	_
+4-11	432-438	Stuart	*	PERmentioned
+4-12	439-450	vergleichen	_	_
+4-13	451-452	.	_	_
+
+#Text=Die Zeichnung ist vermuthlich ungleich genauer und in solchem Fall können Sie ja wol in die Mo d. \; ohne Noth wenigstens darf man diese Gabe wohlwollender Athener nicht unbenutzt lassen .
+5-1	453-456	Die	_	_
+5-2	457-466	Zeichnung	_	_
+5-3	467-470	ist	_	_
+5-4	471-482	vermuthlich	_	_
+5-5	483-491	ungleich	_	_
+5-6	492-499	genauer	_	_
+5-7	500-503	und	_	_
+5-8	504-506	in	_	_
+5-9	507-514	solchem	_	_
+5-10	515-519	Fall	_	_
+5-11	520-526	können	_	_
+5-12	527-530	Sie	_	_
+5-13	531-533	ja	_	_
+5-14	534-537	wol	_	_
+5-15	538-540	in	_	_
+5-16	541-544	die	_	_
+5-17	545-547	Mo	_	_
+5-18	548-550	d.	_	_
+5-19	551-552	\;	_	_
+5-20	553-557	ohne	_	_
+5-21	558-562	Noth	_	_
+5-22	563-573	wenigstens	_	_
+5-23	574-578	darf	_	_
+5-24	579-582	man	_	_
+5-25	583-588	diese	_	_
+5-26	589-593	Gabe	_	_
+5-27	594-607	wohlwollender	_	_
+5-28	608-615	Athener	*	PLACEmentioned
+5-29	616-621	nicht	_	_
+5-30	622-631	unbenutzt	_	_
+5-31	632-638	lassen	_	_
+5-32	639-640	.	_	_
+
+#Text=Rudharts Bibliographie ist erster Versuch sich dem Institut anzupassen \; Ein von Fremdartigen ist dabei kein großes Uebel , wenn nur übriges und Arbeit genau ist , wie ich glaube , und , was die Hauptsache ist , dem sonstigen Zweck des Instituts angepaßt werden kann .
+6-1	641-649	Rudharts	*	PERmentioned
+6-2	650-663	Bibliographie	_	_
+6-3	664-667	ist	_	_
+6-4	668-674	erster	_	_
+6-5	675-682	Versuch	_	_
+6-6	683-687	sich	_	_
+6-7	688-691	dem	_	_
+6-8	692-700	Institut	*	ORGmentioned
+6-9	701-711	anzupassen	_	_
+6-10	712-713	\;	_	_
+6-11	714-717	Ein	_	_
+6-12	718-721	von	_	_
+6-13	722-734	Fremdartigen	_	_
+6-14	735-738	ist	_	_
+6-15	739-744	dabei	_	_
+6-16	745-749	kein	_	_
+6-17	750-756	großes	_	_
+6-18	757-762	Uebel	_	_
+6-19	763-764	,	_	_
+6-20	765-769	wenn	_	_
+6-21	770-773	nur	_	_
+6-22	774-781	übriges	_	_
+6-23	782-785	und	_	_
+6-24	786-792	Arbeit	_	_
+6-25	793-798	genau	_	_
+6-26	799-802	ist	_	_
+6-27	803-804	,	_	_
+6-28	805-808	wie	_	_
+6-29	809-812	ich	_	_
+6-30	813-819	glaube	_	_
+6-31	820-821	,	_	_
+6-32	822-825	und	_	_
+6-33	826-827	,	_	_
+6-34	828-831	was	_	_
+6-35	832-835	die	_	_
+6-36	836-846	Hauptsache	_	_
+6-37	847-850	ist	_	_
+6-38	851-852	,	_	_
+6-39	853-856	dem	_	_
+6-40	857-866	sonstigen	_	_
+6-41	867-872	Zweck	_	_
+6-42	873-876	des	_	_
+6-43	877-886	Instituts	*	ORGmentioned
+6-44	887-895	angepaßt	_	_
+6-45	896-902	werden	_	_
+6-46	903-907	kann	_	_
+6-47	908-909	.	_	_
+
+#Text=Ich erwarte deshalb eine officielle Antwort für R. ob er fortfahren soll und wie .
+7-1	910-913	Ich	_	_
+7-2	914-921	erwarte	_	_
+7-3	922-929	deshalb	_	_
+7-4	930-934	eine	_	_
+7-5	935-945	officielle	_	_
+7-6	946-953	Antwort	_	_
+7-7	954-957	für	_	_
+7-8	958-960	R.	_	_
+7-9	961-963	ob	_	_
+7-10	964-966	er	_	_
+7-11	967-977	fortfahren	_	_
+7-12	978-982	soll	_	_
+7-13	983-986	und	_	_
+7-14	987-990	wie	_	_
+7-15	991-992	.	_	_
+
+#Text=Ihre bibliographischen Papiere liegen hier und sollen Ihnen gelegentlich zukommen .
+8-1	993-997	Ihre	_	_
+8-2	998-1015	bibliographischen	_	_
+8-3	1016-1023	Papiere	_	_
+8-4	1024-1030	liegen	_	_
+8-5	1031-1035	hier	_	_
+8-6	1036-1039	und	_	_
+8-7	1040-1046	sollen	_	_
+8-8	1047-1052	Ihnen	_	_
+8-9	1053-1065	gelegentlich	_	_
+8-10	1066-1074	zukommen	_	_
+8-11	1075-1076	.	_	_
+
+#Text=Von der .
+9-1	1077-1080	Von	_	_
+9-2	1081-1084	der	_	_
+9-3	1085-1086	.	_	_
+
+#Text=Römerstraßen habe ich endlich 71 Ex .
+10-1	1087-1099	Römerstraßen	_	_
+10-2	1100-1104	habe	_	_
+10-3	1105-1108	ich	_	_
+10-4	1109-1116	endlich	_	_
+10-5	1117-1119	71	_	_
+10-6	1120-1122	Ex	_	_
+10-7	1123-1124	.	_	_
+
+#Text=erlangt daß Sie hoffentlich durch den allernächstens abreisenden Urlich erhalten .
+11-1	1125-1132	erlangt	_	_
+11-2	1133-1136	daß	_	_
+11-3	1137-1140	Sie	_	_
+11-4	1141-1152	hoffentlich	_	_
+11-5	1153-1158	durch	_	_
+11-6	1159-1162	den	_	_
+11-7	1163-1177	allernächstens	_	_
+11-8	1178-1189	abreisenden	_	_
+11-9	1190-1196	Urlich	_	_
+11-10	1197-1205	erhalten	_	_
+11-11	1206-1207	.	_	_
+
+#Text=Ich gab an Urlich \; ein Röllchen , auch Briefe für
+12-1	1208-1211	Ich	_	_
+12-2	1212-1215	gab	_	_
+12-3	1216-1218	an	_	_
+12-4	1219-1225	Urlich	*	PERmentioned
+12-5	1226-1227	\;	_	_
+12-6	1228-1231	ein	_	_
+12-7	1232-1240	Röllchen	_	_
+12-8	1241-1242	,	_	_
+12-9	1243-1247	auch	_	_
+12-10	1248-1254	Briefe	_	_
+12-11	1255-1258	für	_	_

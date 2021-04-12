@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=5 vi , N nn ) 97 Lepsius an Henzen Berlin , 1. Februar 1872 w ; un gs .
+1-1	0-1	5	_	_	
+1-2	2-4	vi	_	_	
+1-3	5-6	,	_	_	
+1-4	7-8	N	_	_	
+1-5	9-11	nn	_	_	
+1-6	12-13	)	_	_	
+1-7	14-16	97	_	_	
+1-8	17-24	Lepsius	*	PERauthor	
+1-9	25-27	an	_	_	
+1-10	28-34	Henzen	*	PERaddressee	
+1-11	35-41	Berlin	*	PLACEfrom	
+1-12	42-43	,	_	_	
+1-13	44-46	1.	*[1]	DATEletter[1]	
+1-14	47-54	Februar	*[1]	DATEletter[1]	
+1-15	55-59	1872	*[1]	DATEletter[1]	
+1-16	60-61	w	_	_	
+1-17	62-63	;	_	_	
+1-18	64-66	un	_	_	
+1-19	67-69	gs	_	_	
+1-20	70-71	.	_	_	
+
+#Text=5/3 72 © , r . 6/3 72 | \\ Da Berlin d . 1 .
+2-1	72-75	5/3	*[2]	DATErecieved[2]	
+2-2	76-78	72	*[2]	DATErecieved[2]	
+2-3	79-80	©	_	_	
+2-4	81-82	,	_	_	
+2-5	83-84	r	_	_	
+2-6	85-86	.	_	_	
+2-7	87-90	6/3	*[3]	DATEanswered[3]	
+2-8	91-93	72	*[3]	DATEanswered[3]	
+2-9	94-95	|	_	_	
+2-10	96-97	\	_	_	
+2-11	98-100	Da	_	_	
+2-12	101-107	Berlin	*	PLACEfrom	
+2-13	108-109	d	_	_	
+2-14	110-111	.	_	_	
+2-15	112-113	1	*[4]	DATEletter[4]	
+2-16	114-115	.	*[4]	DATEletter[4]	
+
+#Text=Febr .
+3-1	116-120	Febr	*[4]	DATEletter[4]	
+3-2	121-122	.	*[4]	DATEletter[4]	
+
+#Text=1872 Verehrter Freund In Bälde wird ein Landrath , Freiherr von Zedlitz mit seiner Frau , geb . von Kutmitz , mit einem Empfehlungsbruefe von mir an Sie und Dr. Helbig in Rom anlangen .
+4-1	123-127	1872	*[4]	DATEletter[4]	
+4-2	128-137	Verehrter	_	_	
+4-3	138-144	Freund	_	_	
+4-4	145-147	In	_	_	
+4-5	148-153	Bälde	_	_	
+4-6	154-158	wird	_	_	
+4-7	159-162	ein	_	_	
+4-8	163-171	Landrath	_	_	
+4-9	172-173	,	_	_	
+4-10	174-182	Freiherr	*[5]	PERmentioned[5]	
+4-11	183-186	von	*[5]	PERmentioned[5]	
+4-12	187-194	Zedlitz	*[5]	PERmentioned[5]	
+4-13	195-198	mit	_	_	
+4-14	199-205	seiner	_	_	
+4-15	206-210	Frau	_	_	
+4-16	211-212	,	_	_	
+4-17	213-216	geb	_	_	
+4-18	217-218	.	_	_	
+4-19	219-222	von	_	_	
+4-20	223-230	Kutmitz	*	PERmentioned	
+4-21	231-232	,	_	_	
+4-22	233-236	mit	_	_	
+4-23	237-242	einem	_	_	
+4-24	243-260	Empfehlungsbruefe	_	_	
+4-25	261-264	von	_	_	
+4-26	265-268	mir	_	_	
+4-27	269-271	an	_	_	
+4-28	272-275	Sie	_	_	
+4-29	276-279	und	_	_	
+4-30	280-283	Dr.	*[6]	PERmentioned[6]	
+4-31	284-290	Helbig	*[6]	PERmentioned[6]	
+4-32	291-293	in	_	_	
+4-33	294-297	Rom	*	PLACEmentioned	
+4-34	298-306	anlangen	_	_	
+4-35	307-308	.	_	_	
+
+#Text=Ich kenne die Leute nicht persönlich , doch hat Geh .
+5-1	309-312	Ich	_	_	
+5-2	313-318	kenne	_	_	
+5-3	319-322	die	_	_	
+5-4	323-328	Leute	_	_	
+5-5	329-334	nicht	_	_	
+5-6	335-345	persönlich	_	_	
+5-7	346-347	,	_	_	
+5-8	348-352	doch	_	_	
+5-9	353-356	hat	_	_	
+5-10	357-360	Geh	_	_	
+5-11	361-362	.	_	_	
+
+#Text=Rath Kueck den Brief von mir gewünscht , der namentlich mit der Frau ihrer Familie eng befreundet oder gar verwandt ist .
+6-1	363-367	Rath	_	_	
+6-2	368-373	Kueck	*	PERmentioned	
+6-3	374-377	den	_	_	
+6-4	378-383	Brief	_	_	
+6-5	384-387	von	_	_	
+6-6	388-391	mir	_	_	
+6-7	392-401	gewünscht	_	_	
+6-8	402-403	,	_	_	
+6-9	404-407	der	_	_	
+6-10	408-418	namentlich	_	_	
+6-11	419-422	mit	_	_	
+6-12	423-426	der	_	_	
+6-13	427-431	Frau	_	_	
+6-14	432-437	ihrer	_	_	
+6-15	438-445	Familie	_	_	
+6-16	446-449	eng	_	_	
+6-17	450-460	befreundet	_	_	
+6-18	461-465	oder	_	_	
+6-19	466-469	gar	_	_	
+6-20	470-478	verwandt	_	_	
+6-21	479-482	ist	_	_	
+6-22	483-484	.	_	_	
+
+#Text=Aus letzterem Grunde , wenn sich nicht andre , wofür ich nicht stehen kann , vorfinden , wird es gut sein , sich der Leute anzunehmen , da wir Kneck 's guten Willen jetzt vielfach nöthig haben .
+7-1	485-488	Aus	_	_	
+7-2	489-498	letzterem	_	_	
+7-3	499-505	Grunde	_	_	
+7-4	506-507	,	_	_	
+7-5	508-512	wenn	_	_	
+7-6	513-517	sich	_	_	
+7-7	518-523	nicht	_	_	
+7-8	524-529	andre	_	_	
+7-9	530-531	,	_	_	
+7-10	532-537	wofür	_	_	
+7-11	538-541	ich	_	_	
+7-12	542-547	nicht	_	_	
+7-13	548-554	stehen	_	_	
+7-14	555-559	kann	_	_	
+7-15	560-561	,	_	_	
+7-16	562-571	vorfinden	_	_	
+7-17	572-573	,	_	_	
+7-18	574-578	wird	_	_	
+7-19	579-581	es	_	_	
+7-20	582-585	gut	_	_	
+7-21	586-590	sein	_	_	
+7-22	591-592	,	_	_	
+7-23	593-597	sich	_	_	
+7-24	598-601	der	_	_	
+7-25	602-607	Leute	_	_	
+7-26	608-618	anzunehmen	_	_	
+7-27	619-620	,	_	_	
+7-28	621-623	da	_	_	
+7-29	624-627	wir	_	_	
+7-30	628-633	Kneck	*[7]	PERmentioned[7]	
+7-31	634-636	's	*[7]	PERmentioned[7]	
+7-32	637-642	guten	_	_	
+7-33	643-649	Willen	_	_	
+7-34	650-655	jetzt	_	_	
+7-35	656-664	vielfach	_	_	
+7-36	665-671	nöthig	_	_	
+7-37	672-677	haben	_	_	
+7-38	678-679	.	_	_	
+
+#Text=Meinen letzten Brief werden Sie erhalten haben .
+8-1	680-686	Meinen	_	_	
+8-2	687-694	letzten	_	_	
+8-3	695-700	Brief	_	_	
+8-4	701-707	werden	_	_	
+8-5	708-711	Sie	_	_	
+8-6	712-720	erhalten	_	_	
+8-7	721-726	haben	_	_	
+8-8	727-728	.	_	_	
+
+#Text=Ich habe mir jetzt die Plände wieder geben lassen und werde sie durchzeichnen lassen .
+9-1	729-732	Ich	_	_	
+9-2	733-737	habe	_	_	
+9-3	738-741	mir	_	_	
+9-4	742-747	jetzt	_	_	
+9-5	748-751	die	_	_	
+9-6	752-758	Plände	_	_	
+9-7	759-765	wieder	_	_	
+9-8	766-771	geben	_	_	
+9-9	772-778	lassen	_	_	
+9-10	779-782	und	_	_	
+9-11	783-788	werde	_	_	
+9-12	789-792	sie	_	_	
+9-13	793-806	durchzeichnen	_	_	
+9-14	807-813	lassen	_	_	
+9-15	814-815	.	_	_	
+
+#Text=Die Projekte gefallen mir sehr , was aber mit den Anschlägen zu thun sein wird ist schwer zu sagen .
+10-1	816-819	Die	_	_	
+10-2	820-828	Projekte	_	_	
+10-3	829-837	gefallen	_	_	
+10-4	838-841	mir	_	_	
+10-5	842-846	sehr	_	_	
+10-6	847-848	,	_	_	
+10-7	849-852	was	_	_	
+10-8	853-857	aber	_	_	
+10-9	858-861	mit	_	_	
+10-10	862-865	den	_	_	
+10-11	866-876	Anschlägen	_	_	
+10-12	877-879	zu	_	_	
+10-13	880-884	thun	_	_	
+10-14	885-889	sein	_	_	
+10-15	890-894	wird	_	_	
+10-16	895-898	ist	_	_	
+10-17	899-905	schwer	_	_	
+10-18	906-908	zu	_	_	
+10-19	909-914	sagen	_	_	
+10-20	915-916	.	_	_	
+
+#Text=Ich hoffe übermorgen eine Sitzung zu Stande zu bekommen .
+11-1	917-920	Ich	_	_	
+11-2	921-926	hoffe	_	_	
+11-3	927-937	übermorgen	_	_	
+11-4	938-942	eine	_	_	
+11-5	943-950	Sitzung	_	_	
+11-6	951-953	zu	_	_	
+11-7	954-960	Stande	_	_	
+11-8	961-963	zu	_	_	
+11-9	964-972	bekommen	_	_	
+11-10	973-974	.	_	_	
+
+#Text=Vielleicht ist es trotz alledem noch immer gerathen die Anschläge wie sie sind , einzuschicken und die Streichungen des Finanzministers , wenn dieser nicht gar auf vorherigen genauen Anschlägen besteht , anzuwarten .
+12-1	975-985	Vielleicht	_	_	
+12-2	986-989	ist	_	_	
+12-3	990-992	es	_	_	
+12-4	993-998	trotz	_	_	
+12-5	999-1006	alledem	_	_	
+12-6	1007-1011	noch	_	_	
+12-7	1012-1017	immer	_	_	
+12-8	1018-1026	gerathen	_	_	
+12-9	1027-1030	die	_	_	
+12-10	1031-1040	Anschläge	_	_	
+12-11	1041-1044	wie	_	_	
+12-12	1045-1048	sie	_	_	
+12-13	1049-1053	sind	_	_	
+12-14	1054-1055	,	_	_	
+12-15	1056-1069	einzuschicken	_	_	
+12-16	1070-1073	und	_	_	
+12-17	1074-1077	die	_	_	
+12-18	1078-1090	Streichungen	_	_	
+12-19	1091-1094	des	_	_	
+12-20	1095-1110	Finanzministers	_	_	
+12-21	1111-1112	,	_	_	
+12-22	1113-1117	wenn	_	_	
+12-23	1118-1124	dieser	_	_	
+12-24	1125-1130	nicht	_	_	
+12-25	1131-1134	gar	_	_	
+12-26	1135-1138	auf	_	_	
+12-27	1139-1149	vorherigen	_	_	
+12-28	1150-1157	genauen	_	_	
+12-29	1158-1168	Anschlägen	_	_	
+12-30	1169-1176	besteht	_	_	
+12-31	1177-1178	,	_	_	
+12-32	1179-1189	anzuwarten	_	_	
+12-33	1190-1191	.	_	_	
+
+#Text=Ich glaube in der That , daß eine ganze An-
+13-1	1192-1195	Ich	_	_	
+13-2	1196-1202	glaube	_	_	
+13-3	1203-1205	in	_	_	
+13-4	1206-1209	der	_	_	
+13-5	1210-1214	That	_	_	
+13-6	1215-1216	,	_	_	
+13-7	1217-1220	daß	_	_	
+13-8	1221-1225	eine	_	_	
+13-9	1226-1231	ganze	_	_	
+13-10	1232-1235	An-	_	_	

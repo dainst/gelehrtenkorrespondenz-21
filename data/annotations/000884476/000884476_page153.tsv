@@ -1,0 +1,230 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=nt 417 Gerhard an Braun Berlin 5/III/1835 Von Piali 's Dissertazioni habe ich ein Ex .
+1-1	0-2	nt	_	_
+1-2	3-6	417	_	_
+1-3	7-14	Gerhard	*	PERauthor
+1-4	15-17	an	_	_
+1-5	18-23	Braun	*	PERaddressee
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-41	5/III/1835	*[4]	DATEletter[4]
+1-8	42-45	Von	_	_
+1-9	46-51	Piali	*[13]	PERmentioned[13]
+1-10	52-54	's	*[13]	PERmentioned[13]
+1-11	55-68	Dissertazioni	_	_
+1-12	69-73	habe	_	_
+1-13	74-77	ich	_	_
+1-14	78-81	ein	_	_
+1-15	82-84	Ex	_	_
+1-16	85-86	.	_	_
+
+#Text=bloß bis fasc .
+2-1	87-91	bloß	_	_
+2-2	92-95	bis	_	_
+2-3	96-100	fasc	_	_
+2-4	101-102	.	_	_
+
+#Text=15 .
+3-1	103-105	15	_	_
+3-2	106-107	.	_	_
+
+#Text=Hoffentlich findet sich 16 - 21 noch einmal unter meinen Sachen vor \; sonst müßte ich Sie bitten diese Hefte noch einmal anzuschaffen .
+4-1	108-119	Hoffentlich	_	_
+4-2	120-126	findet	_	_
+4-3	127-131	sich	_	_
+4-4	132-134	16	_	_
+4-5	135-136	-	_	_
+4-6	137-139	21	_	_
+4-7	140-144	noch	_	_
+4-8	145-151	einmal	_	_
+4-9	152-157	unter	_	_
+4-10	158-164	meinen	_	_
+4-11	165-171	Sachen	_	_
+4-12	172-175	vor	_	_
+4-13	176-177	\;	_	_
+4-14	178-183	sonst	_	_
+4-15	184-189	müßte	_	_
+4-16	190-193	ich	_	_
+4-17	194-197	Sie	_	_
+4-18	198-204	bitten	_	_
+4-19	205-210	diese	_	_
+4-20	211-216	Hefte	_	_
+4-21	217-221	noch	_	_
+4-22	222-228	einmal	_	_
+4-23	229-241	anzuschaffen	_	_
+4-24	242-243	.	_	_
+
+#Text=Haben Sie Fea nicht einmal erinnert wegen des Ex .
+5-1	244-249	Haben	_	_
+5-2	250-253	Sie	_	_
+5-3	254-257	Fea	*	PERmentioned
+5-4	258-263	nicht	_	_
+5-5	264-270	einmal	_	_
+5-6	271-279	erinnert	_	_
+5-7	280-285	wegen	_	_
+5-8	286-289	des	_	_
+5-9	290-292	Ex	_	_
+5-10	293-294	.	_	_
+
+#Text=seines ?
+6-1	295-301	seines	_	_
+6-2	302-303	?	_	_
+
+#Text=für das Institut oder wenigstens käuflich für mich v des einzelnen 3.ten Theils worin die Rovine di Roma ?
+7-1	304-307	für	_	_
+7-2	308-311	das	_	_
+7-3	312-320	Institut	*	ORGmentioned
+7-4	321-325	oder	_	_
+7-5	326-336	wenigstens	_	_
+7-6	337-345	käuflich	_	_
+7-7	346-349	für	_	_
+7-8	350-354	mich	_	_
+7-9	355-356	v	_	_
+7-10	357-360	des	_	_
+7-11	361-370	einzelnen	_	_
+7-12	371-376	3.ten	_	_
+7-13	377-383	Theils	_	_
+7-14	384-389	worin	_	_
+7-15	390-393	die	_	_
+7-16	394-400	Rovine	_	_
+7-17	401-403	di	_	_
+7-18	404-408	Roma	*	PLACEmentioned
+7-19	409-410	?	_	_
+
+#Text=Durch Böckhs Sohn der am 12 d. M. abreist und Anfang Mai in Rom seyn will , erhalten Sie die 2.te Ausgabe von Müllers Handbuch und Welckerss u. Minaciccı Molti saluti all'amico Lanci , al quale presto invierd i® conti dell'anno .
+8-1	411-416	Durch	_	_
+8-2	417-423	Böckhs	*[9]|*[10]	PERmentioned[9]|PERmentioned[10]
+8-3	424-428	Sohn	*[9]	PERmentioned[9]
+8-4	429-432	der	_	_
+8-5	433-435	am	_	_
+8-6	436-438	12	*[11]	DATEmentioned[11]
+8-7	439-441	d.	*[11]	DATEmentioned[11]
+8-8	442-444	M.	*[11]	DATEmentioned[11]
+8-9	445-452	abreist	_	_
+8-10	453-456	und	_	_
+8-11	457-463	Anfang	*[12]	DATEmentioned[12]
+8-12	464-467	Mai	*[12]	DATEmentioned[12]
+8-13	468-470	in	_	_
+8-14	471-474	Rom	*	PLACEmentioned
+8-15	475-479	seyn	_	_
+8-16	480-484	will	_	_
+8-17	485-486	,	_	_
+8-18	487-495	erhalten	_	_
+8-19	496-499	Sie	_	_
+8-20	500-503	die	_	_
+8-21	504-508	2.te	_	_
+8-22	509-516	Ausgabe	_	_
+8-23	517-520	von	_	_
+8-24	521-528	Müllers	*	PERmentioned
+8-25	529-537	Handbuch	_	_
+8-26	538-541	und	_	_
+8-27	542-551	Welckerss	*	PERmentioned
+8-28	552-554	u.	_	_
+8-29	555-564	Minaciccı	_	_
+8-30	565-570	Molti	_	_
+8-31	571-577	saluti	_	_
+8-32	578-587	all'amico	_	_
+8-33	588-593	Lanci	*	PERmentioned
+8-34	594-595	,	_	_
+8-35	596-598	al	_	_
+8-36	599-604	quale	_	_
+8-37	605-611	presto	_	_
+8-38	612-619	invierd	_	_
+8-39	620-622	i®	_	_
+8-40	623-628	conti	_	_
+8-41	629-638	dell'anno	_	_
+8-42	639-640	.	_	_
+
+#Text=An Kellorrmar lege ich ein Blättchen bei das odlanau Sie lesen mögen um in Bezug aueh mit ihm wegen der Sylloge zu sprechen .
+9-1	641-643	An	_	_
+9-2	644-654	Kellorrmar	_	_
+9-3	655-659	lege	_	_
+9-4	660-663	ich	_	_
+9-5	664-667	ein	_	_
+9-6	668-677	Blättchen	_	_
+9-7	678-681	bei	_	_
+9-8	682-685	das	_	_
+9-9	686-693	odlanau	_	_
+9-10	694-697	Sie	_	_
+9-11	698-703	lesen	_	_
+9-12	704-709	mögen	_	_
+9-13	710-712	um	_	_
+9-14	713-715	in	_	_
+9-15	716-721	Bezug	_	_
+9-16	722-726	aueh	_	_
+9-17	727-730	mit	_	_
+9-18	731-734	ihm	_	_
+9-19	735-740	wegen	_	_
+9-20	741-744	der	_	_
+9-21	745-752	Sylloge	_	_
+9-22	753-755	zu	_	_
+9-23	756-764	sprechen	_	_
+9-24	765-766	.	_	_
+
+#Text=Läßt er seine 2 liegen , so wäre es hübsch Sie trieben selbige weiter .
+10-1	767-771	Läßt	_	_
+10-2	772-774	er	_	_
+10-3	775-780	seine	_	_
+10-4	781-782	2	_	_
+10-5	783-789	liegen	_	_
+10-6	790-791	,	_	_
+10-7	792-794	so	_	_
+10-8	795-799	wäre	_	_
+10-9	800-802	es	_	_
+10-10	803-809	hübsch	_	_
+10-11	810-813	Sie	_	_
+10-12	814-821	trieben	_	_
+10-13	822-829	selbige	_	_
+10-14	830-836	weiter	_	_
+10-15	837-838	.	_	_
+
+#Text=Einen Buchhändler findet die Arbeit schwer , vor der Vollendung gar nicht , mein Spiegelopus hat kaum Fonds dafür .
+11-1	839-844	Einen	_	_
+11-2	845-856	Buchhändler	_	_
+11-3	857-863	findet	_	_
+11-4	864-867	die	_	_
+11-5	868-874	Arbeit	_	_
+11-6	875-881	schwer	_	_
+11-7	882-883	,	_	_
+11-8	884-887	vor	_	_
+11-9	888-891	der	_	_
+11-10	892-902	Vollendung	_	_
+11-11	903-906	gar	_	_
+11-12	907-912	nicht	_	_
+11-13	913-914	,	_	_
+11-14	915-919	mein	_	_
+11-15	920-931	Spiegelopus	_	_
+11-16	932-935	hat	_	_
+11-17	936-940	kaum	_	_
+11-18	941-946	Fonds	_	_
+11-19	947-952	dafür	_	_
+11-20	953-954	.	_	_
+
+#Text=Indeß lasse sich ein Vorschlag machen , soweit Sie auch die Fortsetzung machen wollen und ne Papiere zu solchem Zweck kauflich Ceohkem verdinen wollte ,
+12-1	955-960	Indeß	_	_
+12-2	961-966	lasse	_	_
+12-3	967-971	sich	_	_
+12-4	972-975	ein	_	_
+12-5	976-985	Vorschlag	_	_
+12-6	986-992	machen	_	_
+12-7	993-994	,	_	_
+12-8	995-1001	soweit	_	_
+12-9	1002-1005	Sie	_	_
+12-10	1006-1010	auch	_	_
+12-11	1011-1014	die	_	_
+12-12	1015-1026	Fortsetzung	_	_
+12-13	1027-1033	machen	_	_
+12-14	1034-1040	wollen	_	_
+12-15	1041-1044	und	_	_
+12-16	1045-1047	ne	_	_
+12-17	1048-1055	Papiere	_	_
+12-18	1056-1058	zu	_	_
+12-19	1059-1066	solchem	_	_
+12-20	1067-1072	Zweck	_	_
+12-21	1073-1081	kauflich	_	_
+12-22	1082-1089	Ceohkem	_	_
+12-23	1090-1098	verdinen	_	_
+12-24	1099-1105	wollte	_	_
+12-25	1106-1107	,	_	_

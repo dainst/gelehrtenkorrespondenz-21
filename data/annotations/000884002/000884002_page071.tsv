@@ -1,0 +1,83 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 26. Juli 1861 8 . 26 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	26.	_	_
+1-7	26-30	Juli	*[3]	DATEletter[3]
+1-8	31-35	1861	*[3]	DATEletter[3]
+1-9	36-37	8	_	_
+1-10	38-39	.	*	PERaddressee
+1-11	40-42	26	_	_
+1-12	43-44	.	_	_
+
+#Text=August 186 % r . 27 .
+2-1	45-51	August	*[4]	DATErecieved[4]
+2-2	52-55	186	*[4]	DATErecieved[4]
+2-3	56-57	%	_	_
+2-4	58-59	r	_	_
+2-5	60-61	.	_	_
+2-6	62-64	27	*[5]	DATEanswered[5]
+2-7	65-66	.	*[5]	DATEanswered[5]
+
+#Text=August 186 L. HB , Für Sie sieben Briefe , für mich O0 \; doch wird wohl einer oder der andere der Ihrigen irgend eine Notiz für mich enthalten , die ich morgen Abend erwarte .
+3-1	67-73	August	*[5]	DATEanswered[5]
+3-2	74-77	186	*[5]	DATEanswered[5]
+3-3	78-80	L.	_	_
+3-4	81-83	HB	_	_
+3-5	84-85	,	_	_
+3-6	86-89	Für	_	_
+3-7	90-93	Sie	_	_
+3-8	94-100	sieben	_	_
+3-9	101-107	Briefe	_	_
+3-10	108-109	,	_	_
+3-11	110-113	für	_	_
+3-12	114-118	mich	_	_
+3-13	119-121	O0	_	_
+3-14	122-123	\;	_	_
+3-15	124-128	doch	_	_
+3-16	129-133	wird	_	_
+3-17	134-138	wohl	_	_
+3-18	139-144	einer	_	_
+3-19	145-149	oder	_	_
+3-20	150-153	der	_	_
+3-21	154-160	andere	_	_
+3-22	161-164	der	_	_
+3-23	165-172	Ihrigen	_	_
+3-24	173-179	irgend	_	_
+3-25	180-184	eine	_	_
+3-26	185-190	Notiz	_	_
+3-27	191-194	für	_	_
+3-28	195-199	mich	_	_
+3-29	200-209	enthalten	_	_
+3-30	210-211	,	_	_
+3-31	212-215	die	_	_
+3-32	216-219	ich	_	_
+3-33	220-226	morgen	_	_
+3-34	227-232	Abend	_	_
+3-35	233-240	erwarte	_	_
+3-36	241-242	.	_	_
+
+#Text=Sonst niente di nuovo .
+4-1	243-248	Sonst	_	_
+4-2	249-255	niente	_	_
+4-3	256-258	di	_	_
+4-4	259-264	nuovo	_	_
+4-5	265-266	.	_	_
+
+#Text=Ihr HBrunn .
+5-1	267-270	Ihr	_	_
+5-2	271-277	HBrunn	*	PERauthor
+5-3	278-279	.	_	_
+
+#Text=R . 26/VII 61 .
+6-1	280-281	R	_	_
+6-2	282-283	.	_	_
+6-3	284-290	26/VII	*[6]	DATEletter[6]
+6-4	291-293	61	*[6]	DATEletter[6]
+6-5	294-295	.	_	_

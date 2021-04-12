@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 23 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	23	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text='Oktober 1834 den in Scherben aus Sicilien gekommenen bacchischen Labythos ?
+2-1	31-39	'Oktober	*[4]	DATEletter[4]
+2-2	40-44	1834	*[4]	DATEletter[4]
+2-3	45-48	den	_	_
+2-4	49-51	in	_	_
+2-5	52-60	Scherben	_	_
+2-6	61-64	aus	_	_
+2-7	65-73	Sicilien	*	PLACEmentioned
+2-8	74-84	gekommenen	_	_
+2-9	85-96	bacchischen	*[6]	OBJ[6]
+2-10	97-105	Labythos	*[6]	OBJ[6]
+2-11	106-107	?	_	_
+
+#Text=Ich wiederhole Ihnen daß ich für Sonstiges muhigere Zeit abwarten muß \; in wenig Stunden gehe ich nach Breslau und bleibe dort höchstens 14 Tage , schreibe wol auch von dort .
+3-1	108-111	Ich	_	_
+3-2	112-122	wiederhole	_	_
+3-3	123-128	Ihnen	_	_
+3-4	129-132	daß	_	_
+3-5	133-136	ich	_	_
+3-6	137-140	für	_	_
+3-7	141-150	Sonstiges	_	_
+3-8	151-159	muhigere	_	_
+3-9	160-164	Zeit	_	_
+3-10	165-173	abwarten	_	_
+3-11	174-177	muß	_	_
+3-12	178-179	\;	_	_
+3-13	180-182	in	_	_
+3-14	183-188	wenig	_	_
+3-15	189-196	Stunden	_	_
+3-16	197-201	gehe	_	_
+3-17	202-205	ich	_	_
+3-18	206-210	nach	_	_
+3-19	211-218	Breslau	*	PLACEmentioned
+3-20	219-222	und	_	_
+3-21	223-229	bleibe	_	_
+3-22	230-234	dort	_	_
+3-23	235-244	höchstens	_	_
+3-24	245-247	14	_	_
+3-25	248-252	Tage	_	_
+3-26	253-254	,	_	_
+3-27	255-263	schreibe	_	_
+3-28	264-267	wol	_	_
+3-29	268-272	auch	_	_
+3-30	273-276	von	_	_
+3-31	277-281	dort	_	_
+3-32	282-283	.	_	_
+
+#Text=Hoffentlich bringe ich meine Schwester zurück , alles ist aber hier noch so unwohnlich als unheimlich .
+4-1	284-295	Hoffentlich	_	_
+4-2	296-302	bringe	_	_
+4-3	303-306	ich	_	_
+4-4	307-312	meine	_	_
+4-5	313-322	Schwester	_	_
+4-6	323-329	zurück	_	_
+4-7	330-331	,	_	_
+4-8	332-337	alles	_	_
+4-9	338-341	ist	_	_
+4-10	342-346	aber	_	_
+4-11	347-351	hier	_	_
+4-12	352-356	noch	_	_
+4-13	357-359	so	_	_
+4-14	360-370	unwohnlich	_	_
+4-15	371-374	als	_	_
+4-16	375-385	unheimlich	_	_
+4-17	386-387	.	_	_
+
+#Text=De Witte klagt noch nichts von Ihnen gehört zu haben \; vernachlässigen Sie jenes gute Gemüth beim Leibe nicht , am wenigsten so daß er denkt Sie halten es mit Lepsius gegen ihn .
+5-1	388-390	De	*[8]	PERmentioned[8]
+5-2	391-396	Witte	*[8]	PERmentioned[8]
+5-3	397-402	klagt	_	_
+5-4	403-407	noch	_	_
+5-5	408-414	nichts	_	_
+5-6	415-418	von	_	_
+5-7	419-424	Ihnen	_	_
+5-8	425-431	gehört	_	_
+5-9	432-434	zu	_	_
+5-10	435-440	haben	_	_
+5-11	441-442	\;	_	_
+5-12	443-458	vernachlässigen	_	_
+5-13	459-462	Sie	_	_
+5-14	463-468	jenes	_	_
+5-15	469-473	gute	_	_
+5-16	474-480	Gemüth	_	_
+5-17	481-485	beim	_	_
+5-18	486-491	Leibe	_	_
+5-19	492-497	nicht	_	_
+5-20	498-499	,	_	_
+5-21	500-502	am	_	_
+5-22	503-512	wenigsten	_	_
+5-23	513-515	so	_	_
+5-24	516-519	daß	_	_
+5-25	520-522	er	_	_
+5-26	523-528	denkt	_	_
+5-27	529-532	Sie	_	_
+5-28	533-539	halten	_	_
+5-29	540-542	es	_	_
+5-30	543-546	mit	_	_
+5-31	547-554	Lepsius	*	PERmentioned
+5-32	555-560	gegen	_	_
+5-33	561-564	ihn	_	_
+5-34	565-566	.	_	_
+
+#Text=- Die Bull .
+6-1	567-568	-	_	_
+6-2	569-572	Die	_	_
+6-3	573-577	Bull	_	_
+6-4	578-579	.	_	_
+
+#Text=1832 die hier sehr fehlen sind vermuthlich in der gesandten Kiste .
+7-1	580-584	1832	*	DATEmentioned
+7-2	585-588	die	_	_
+7-3	589-593	hier	_	_
+7-4	594-598	sehr	_	_
+7-5	599-605	fehlen	_	_
+7-6	606-610	sind	_	_
+7-7	611-622	vermuthlich	_	_
+7-8	623-625	in	_	_
+7-9	626-629	der	_	_
+7-10	630-639	gesandten	_	_
+7-11	640-645	Kiste	_	_
+7-12	646-647	.	_	_
+
+#Text=- Die einliegende Quittung von Weiß stellen Sie gefälligst an Luigi Rossini zu der wie Sie wissen Via Felice , dem Wolbreck gegenüber , wohnt .
+8-1	648-649	-	_	_
+8-2	650-653	Die	_	_
+8-3	654-665	einliegende	_	_
+8-4	666-674	Quittung	_	_
+8-5	675-678	von	_	_
+8-6	679-683	Weiß	*	PERmentioned
+8-7	684-691	stellen	_	_
+8-8	692-695	Sie	_	_
+8-9	696-706	gefälligst	_	_
+8-10	707-709	an	_	_
+8-11	710-715	Luigi	*[12]	PERmentioned[12]
+8-12	716-723	Rossini	*[12]	PERmentioned[12]
+8-13	724-726	zu	_	_
+8-14	727-730	der	_	_
+8-15	731-734	wie	_	_
+8-16	735-738	Sie	_	_
+8-17	739-745	wissen	_	_
+8-18	746-749	Via	*[13]	PLACEmentioned[13]
+8-19	750-756	Felice	*[13]	PLACEmentioned[13]
+8-20	757-758	,	_	_
+8-21	759-762	dem	_	_
+8-22	763-771	Wolbreck	*	PERmentioned
+8-23	772-781	gegenüber	_	_
+8-24	782-783	,	_	_
+8-25	784-789	wohnt	_	_
+8-26	790-791	.	_	_
+
+#Text=- Schreiben Sie mir wie mein Wegbleiben in Rom aufgenommen wird \; an Vollard lege ich einige Zeilen bei .
+9-1	792-793	-	_	_
+9-2	794-803	Schreiben	_	_
+9-3	804-807	Sie	_	_
+9-4	808-811	mir	_	_
+9-5	812-815	wie	_	_
+9-6	816-820	mein	_	_
+9-7	821-831	Wegbleiben	_	_
+9-8	832-834	in	_	_
+9-9	835-838	Rom	*	PLACEmentioned
+9-10	839-850	aufgenommen	_	_
+9-11	851-855	wird	_	_
+9-12	856-857	\;	_	_
+9-13	858-860	an	_	_
+9-14	861-868	Vollard	*	PERmentioned
+9-15	869-873	lege	_	_
+9-16	874-877	ich	_	_
+9-17	878-884	einige	_	_
+9-18	885-891	Zeilen	_	_
+9-19	892-895	bei	_	_
+9-20	896-897	.	_	_
+
+#Text=- Ist es wahr daß Wolff geheirathet hat \; ich gedenke ihm bald nach meiner Rückkehr zu schreiben .
+10-1	898-899	-	_	_
+10-2	900-903	Ist	_	_
+10-3	904-906	es	_	_
+10-4	907-911	wahr	_	_
+10-5	912-915	daß	_	_
+10-6	916-921	Wolff	*	PERmentioned
+10-7	922-933	geheirathet	_	_
+10-8	934-937	hat	_	_
+10-9	938-939	\;	_	_
+10-10	940-943	ich	_	_
+10-11	944-951	gedenke	_	_
+10-12	952-955	ihm	_	_
+10-13	956-960	bald	_	_
+10-14	961-965	nach	_	_
+10-15	966-972	meiner	_	_
+10-16	973-981	Rückkehr	_	_
+10-17	982-984	zu	_	_
+10-18	985-994	schreiben	_	_
+10-19	995-996	.	_	_
+
+#Text=Hat Capobianchi bezahlt und Cades seinen Nolles empfangen ?
+11-1	997-1000	Hat	_	_
+11-2	1001-1012	Capobianchi	*	PERmentioned
+11-3	1013-1020	bezahlt	_	_
+11-4	1021-1024	und	_	_
+11-5	1025-1030	Cades	*	PERmentioned
+11-6	1031-1037	seinen	_	_
+11-7	1038-1044	Nolles	_	_
+11-8	1045-1054	empfangen	_	_
+11-9	1055-1056	?	_	_
+
+#Text=Ihnen , hat Cades auch die sehr nöthigen Defekte für Schulze und Ritschl seiner Zeit beigelegt ?
+12-1	1057-1062	Ihnen	_	_
+12-2	1063-1064	,	_	_
+12-3	1065-1068	hat	_	_
+12-4	1069-1074	Cades	*	PERmentioned
+12-5	1075-1079	auch	_	_
+12-6	1080-1083	die	_	_
+12-7	1084-1088	sehr	_	_
+12-8	1089-1097	nöthigen	_	_
+12-9	1098-1105	Defekte	_	_
+12-10	1106-1109	für	_	_
+12-11	1110-1117	Schulze	*	PERmentioned
+12-12	1118-1121	und	_	_
+12-13	1122-1129	Ritschl	*	PERmentioned
+12-14	1130-1136	seiner	_	_
+12-15	1137-1141	Zeit	_	_
+12-16	1142-1151	beigelegt	_	_
+12-17	1152-1153	?	_	_
+
+#Text=( ohne Unterschrift )
+13-1	1154-1155	(	_	_
+13-2	1156-1160	ohne	_	_
+13-3	1161-1173	Unterschrift	_	_
+13-4	1174-1175	)	_	_

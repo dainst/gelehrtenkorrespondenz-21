@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Volterra , 21 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-24	Volterra	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	21	*[5]	DATEletter[5]
+1-7	30-31	.	*[5]	DATEletter[5]
+
+#Text=August 1863 -5 .
+2-1	32-38	August	*[5]	DATEletter[5]
+2-2	39-43	1863	*[5]	DATEletter[5]
+2-3	44-46	-5	_	_
+2-4	47-48	.	_	_
+
+#Text=Geduld haben wir die Erlaubniß erhalten , sie herauszuschaffen vor den Eingang , wo eine Baracke eingerichtet wird .
+3-1	49-55	Geduld	_	_
+3-2	56-61	haben	_	_
+3-3	62-65	wir	_	_
+3-4	66-69	die	_	_
+3-5	70-79	Erlaubniß	_	_
+3-6	80-88	erhalten	_	_
+3-7	89-90	,	_	_
+3-8	91-94	sie	_	_
+3-9	95-111	herauszuschaffen	_	_
+3-10	112-115	vor	_	_
+3-11	116-119	den	_	_
+3-12	120-127	Eingang	_	_
+3-13	128-129	,	_	_
+3-14	130-132	wo	_	_
+3-15	133-137	eine	_	_
+3-16	138-145	Baracke	_	_
+3-17	146-158	eingerichtet	_	_
+3-18	159-163	wird	_	_
+3-19	164-165	.	_	_
+
+#Text=Wobei mir einfällt , daß ich die C.D .
+4-1	166-171	Wobei	_	_
+4-2	172-175	mir	_	_
+4-3	176-184	einfällt	_	_
+4-4	185-186	,	_	_
+4-5	187-190	daß	_	_
+4-6	191-194	ich	_	_
+4-7	195-198	die	_	_
+4-8	199-202	C.D	*[9]	ORGmentioned[9]
+4-9	203-204	.	*[9]	ORGmentioned[9]
+
+#Text=benachrichtigt habe , daß eine Etatsüberschreitung nöthig sein wird .
+5-1	205-219	benachrichtigt	_	_
+5-2	220-224	habe	_	_
+5-3	225-226	,	_	_
+5-4	227-230	daß	_	_
+5-5	231-235	eine	_	_
+5-6	236-255	Etatsüberschreitung	_	_
+5-7	256-262	nöthig	_	_
+5-8	263-267	sein	_	_
+5-9	268-272	wird	_	_
+5-10	273-274	.	_	_
+
+#Text=Wir müssen die Zeichner diesmal etwas theurer bezahlen , als voriges Jahr namentlich in Perugia .
+6-1	275-278	Wir	_	_
+6-2	279-285	müssen	_	_
+6-3	286-289	die	_	_
+6-4	290-298	Zeichner	_	_
+6-5	299-306	diesmal	_	_
+6-6	307-312	etwas	_	_
+6-7	313-320	theurer	_	_
+6-8	321-329	bezahlen	_	_
+6-9	330-331	,	_	_
+6-10	332-335	als	_	_
+6-11	336-343	voriges	_	_
+6-12	344-348	Jahr	_	_
+6-13	349-359	namentlich	_	_
+6-14	360-362	in	_	_
+6-15	363-370	Perugia	*	PLACEmentioned
+6-16	371-372	.	_	_
+
+#Text=Nebenspesen hat dann 2.B .
+7-1	373-384	Nebenspesen	_	_
+7-2	385-388	hat	_	_
+7-3	389-393	dann	_	_
+7-4	394-397	2.B	_	_
+7-5	398-399	.	_	_
+
+#Text=auch das hiesige Museum verursacht für Facchine , welche die gar zu übel postirten Urnen in besseres Licht bringen mußten .
+8-1	400-404	auch	_	_
+8-2	405-408	das	_	_
+8-3	409-416	hiesige	_	_
+8-4	417-423	Museum	*	ORGmentioned
+8-5	424-434	verursacht	_	_
+8-6	435-438	für	_	_
+8-7	439-447	Facchine	_	_
+8-8	448-449	,	_	_
+8-9	450-456	welche	_	_
+8-10	457-460	die	_	_
+8-11	461-464	gar	_	_
+8-12	465-467	zu	_	_
+8-13	468-472	übel	_	_
+8-14	473-482	postirten	_	_
+8-15	483-488	Urnen	*	OBJ
+8-16	489-491	in	_	_
+8-17	492-500	besseres	_	_
+8-18	501-506	Licht	_	_
+8-19	507-514	bringen	_	_
+8-20	515-521	mußten	_	_
+8-21	522-523	.	_	_
+
+#Text=So wird uns auch die tomba Inghirami allerlei Spesen verursachen , wenn auch Inghirami uns alles nöthige Material zur Baracke liefert .
+9-1	524-526	So	_	_
+9-2	527-531	wird	_	_
+9-3	532-535	uns	_	_
+9-4	536-540	auch	_	_
+9-5	541-544	die	_	_
+9-6	545-550	tomba	*[6]	OBJ[6]
+9-7	551-560	Inghirami	*[6]	OBJ[6]
+9-8	561-569	allerlei	_	_
+9-9	570-576	Spesen	_	_
+9-10	577-588	verursachen	_	_
+9-11	589-590	,	_	_
+9-12	591-595	wenn	_	_
+9-13	596-600	auch	_	_
+9-14	601-610	Inghirami	*	PERmentioned
+9-15	611-614	uns	_	_
+9-16	615-620	alles	_	_
+9-17	621-628	nöthige	_	_
+9-18	629-637	Material	_	_
+9-19	638-641	zur	_	_
+9-20	642-649	Baracke	_	_
+9-21	650-657	liefert	_	_
+9-22	658-659	.	_	_
+
+#Text=Bartoccini grüßt bestens .
+10-1	660-670	Bartoccini	*	PERmentioned
+10-2	671-676	grüßt	_	_
+10-3	677-684	bestens	_	_
+10-4	685-686	.	_	_
+
+#Text=Er arbeit von früh bis zum Abend unverdrossen .
+11-1	687-689	Er	_	_
+11-2	690-696	arbeit	_	_
+11-3	697-700	von	_	_
+11-4	701-705	früh	_	_
+11-5	706-709	bis	_	_
+11-6	710-713	zum	_	_
+11-7	714-719	Abend	_	_
+11-8	720-732	unverdrossen	_	_
+11-9	733-734	.	_	_
+
+#Text=Cinci ist , wie früher , ausnehmend freundlich .
+12-1	735-740	Cinci	*	PERmentioned
+12-2	741-744	ist	_	_
+12-3	745-746	,	_	_
+12-4	747-750	wie	_	_
+12-5	751-757	früher	_	_
+12-6	758-759	,	_	_
+12-7	760-770	ausnehmend	_	_
+12-8	771-781	freundlich	_	_
+12-9	782-783	.	_	_
+
+#Text=- Wie lange wir hier zu thun haben und bleiben , kann ich noch nicht genau berechnen und werde es vor Ablauf von weiteren 10-12 Tagen auch kaum bestimmen können .
+13-1	784-785	-	_	_
+13-2	786-789	Wie	_	_
+13-3	790-795	lange	_	_
+13-4	796-799	wir	_	_
+13-5	800-804	hier	_	_
+13-6	805-807	zu	_	_
+13-7	808-812	thun	_	_
+13-8	813-818	haben	_	_
+13-9	819-822	und	_	_
+13-10	823-830	bleiben	_	_
+13-11	831-832	,	_	_
+13-12	833-837	kann	_	_
+13-13	838-841	ich	_	_
+13-14	842-846	noch	_	_
+13-15	847-852	nicht	_	_
+13-16	853-858	genau	_	_
+13-17	859-868	berechnen	_	_
+13-18	869-872	und	_	_
+13-19	873-878	werde	_	_
+13-20	879-881	es	_	_
+13-21	882-885	vor	_	_
+13-22	886-892	Ablauf	_	_
+13-23	893-896	von	_	_
+13-24	897-905	weiteren	_	_
+13-25	906-911	10-12	_	_
+13-26	912-917	Tagen	_	_
+13-27	918-922	auch	_	_
+13-28	923-927	kaum	_	_
+13-29	928-937	bestimmen	_	_
+13-30	938-944	können	_	_
+13-31	945-946	.	_	_
+
+#Text=Unterdessen erhalte ich gewiß Nachricht von Ihnen aus Mailand .
+14-1	947-958	Unterdessen	_	_
+14-2	959-966	erhalte	_	_
+14-3	967-970	ich	_	_
+14-4	971-976	gewiß	_	_
+14-5	977-986	Nachricht	_	_
+14-6	987-990	von	_	_
+14-7	991-996	Ihnen	_	_
+14-8	997-1000	aus	_	_
+14-9	1001-1008	Mailand	*	PLACEmentioned
+14-10	1009-1010	.	_	_
+
+#Text=Mit besten Grüßen an Ihre Frau Ihr HBrunn .
+15-1	1011-1014	Mit	_	_
+15-2	1015-1021	besten	_	_
+15-3	1022-1028	Grüßen	_	_
+15-4	1029-1031	an	_	_
+15-5	1032-1036	Ihre	*[7]	PERmentioned[7]
+15-6	1037-1041	Frau	*[7]	PERmentioned[7]
+15-7	1042-1045	Ihr	_	_
+15-8	1046-1052	HBrunn	*	PERauthor
+15-9	1053-1054	.	_	_
+
+#Text=Volterra , 21 : VIII , 63 .
+16-1	1055-1063	Volterra	*	PLACEfrom
+16-2	1064-1065	,	_	_
+16-3	1066-1068	21	*[8]	DATEletter[8]
+16-4	1069-1070	:	*[8]	DATEletter[8]
+16-5	1071-1075	VIII	*[8]	DATEletter[8]
+16-6	1076-1077	,	*[8]	DATEletter[8]
+16-7	1078-1080	63	*[8]	DATEletter[8]
+16-8	1081-1082	.	_	_

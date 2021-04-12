@@ -1,0 +1,178 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=100 Gerhard an Braun Berlin , 19. März 1845 A. d . Dir .
+1-1	0-3	100	_	_	
+1-2	4-11	Gerhard	*	PERauthor	
+1-3	12-14	an	_	_	
+1-4	15-20	Braun	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-29	,	_	_	
+1-7	30-33	19.	*[1]	DATEletter[1]	
+1-8	34-38	März	*[1]	DATEletter[1]	
+1-9	39-43	1845	*[1]	DATEletter[1]	
+1-10	44-46	A.	_	_	
+1-11	47-48	d	_	_	
+1-12	49-50	.	_	_	
+1-13	51-54	Dir	_	_	
+1-14	55-56	.	_	_	
+
+#Text=g . 3Z1/III 45 r . 1/WV 45 Dr. Braun Berlin 19 März 45 Nebst Beischluß für Vollard zum 3 April Mein theurer Freund .
+2-1	57-58	g	_	_	
+2-2	59-60	.	_	_	
+2-3	61-68	3Z1/III	*[2]	DATErecieved[2]	
+2-4	69-71	45	*[2]	DATErecieved[2]	
+2-5	72-73	r	_	_	
+2-6	74-75	.	_	_	
+2-7	76-80	1/WV	*[3]	DATEanswered[3]	
+2-8	81-83	45	*[3]	DATEanswered[3]	
+2-9	84-87	Dr.	*[4]	PERaddressee[4]	
+2-10	88-93	Braun	*[4]	PERaddressee[4]	
+2-11	94-100	Berlin	*	PLACEfrom	
+2-12	101-103	19	*[5]	DATEletter[5]	
+2-13	104-108	März	*[5]	DATEletter[5]	
+2-14	109-111	45	*[5]	DATEletter[5]	
+2-15	112-117	Nebst	_	_	
+2-16	118-127	Beischluß	_	_	
+2-17	128-131	für	_	_	
+2-18	132-139	Vollard	*	PERmentioned	
+2-19	140-143	zum	_	_	
+2-20	144-145	3	*[6]	DATEmentioned[6]	
+2-21	146-151	April	*[6]	DATEmentioned[6]	
+2-22	152-156	Mein	_	_	
+2-23	157-164	theurer	_	_	
+2-24	165-171	Freund	_	_	
+2-25	172-173	.	_	_	
+
+#Text=Cornelius der am 15 von hier abreiste um unsre schneefesten Straßen zu benützen - die der Himmel ihm noch länger zu gönnen scheint - nahm verschiedne Diplome mit die nur Borghesi 's Unterschrift als Segretario della Sezione italiana bedürfen .
+3-1	174-183	Cornelius	*	PERmentioned	
+3-2	184-187	der	_	_	
+3-3	188-190	am	_	_	
+3-4	191-193	15	*	DATEmentioned	
+3-5	194-197	von	_	_	
+3-6	198-202	hier	_	_	
+3-7	203-211	abreiste	_	_	
+3-8	212-214	um	_	_	
+3-9	215-220	unsre	_	_	
+3-10	221-233	schneefesten	_	_	
+3-11	234-241	Straßen	_	_	
+3-12	242-244	zu	_	_	
+3-13	245-253	benützen	_	_	
+3-14	254-255	-	_	_	
+3-15	256-259	die	_	_	
+3-16	260-263	der	_	_	
+3-17	264-270	Himmel	_	_	
+3-18	271-274	ihm	_	_	
+3-19	275-279	noch	_	_	
+3-20	280-286	länger	_	_	
+3-21	287-289	zu	_	_	
+3-22	290-296	gönnen	_	_	
+3-23	297-304	scheint	_	_	
+3-24	305-306	-	_	_	
+3-25	307-311	nahm	_	_	
+3-26	312-323	verschiedne	_	_	
+3-27	324-331	Diplome	_	_	
+3-28	332-335	mit	_	_	
+3-29	336-339	die	_	_	
+3-30	340-343	nur	_	_	
+3-31	344-352	Borghesi	*[7]	PERmentioned[7]	
+3-32	353-355	's	*[7]	PERmentioned[7]	
+3-33	356-368	Unterschrift	_	_	
+3-34	369-372	als	_	_	
+3-35	373-383	Segretario	_	_	
+3-36	384-389	della	_	_	
+3-37	390-397	Sezione	*[8]	ORGmentioned[8]	
+3-38	398-406	italiana	*[8]	ORGmentioned[8]	
+3-39	407-415	bedürfen	_	_	
+3-40	416-417	.	_	_	
+
+#Text=Nächstens lasse ich auch ein akademisches für Cavedoni durch Ihre Hände gehen .
+4-1	418-427	Nächstens	_	_	
+4-2	428-433	lasse	_	_	
+4-3	434-437	ich	_	_	
+4-4	438-442	auch	_	_	
+4-5	443-446	ein	_	_	
+4-6	447-459	akademisches	_	_	
+4-7	460-463	für	_	_	
+4-8	464-472	Cavedoni	*	PERmentioned	
+4-9	473-478	durch	_	_	
+4-10	479-483	Ihre	_	_	
+4-11	484-489	Hände	_	_	
+4-12	490-495	gehen	_	_	
+4-13	496-497	.	_	_	
+
+#Text=Die Bücher für Orti ( Steiner Inscriptt . )
+5-1	498-501	Die	_	_	
+5-2	502-508	Bücher	_	_	
+5-3	509-512	für	_	_	
+5-4	513-517	Orti	*	PERmentioned	
+5-5	518-519	(	_	_	
+5-6	520-527	Steiner	*	PERmentioned	
+5-7	528-537	Inscriptt	_	_	
+5-8	538-539	.	_	_	
+5-9	540-541	)	_	_	
+
+#Text=und Gargallo müssen seiner Zeit eingetroffen sein ; sonst hätten sich beide gerührt .
+6-1	542-545	und	_	_	
+6-2	546-554	Gargallo	*	PERmentioned	
+6-3	555-561	müssen	_	_	
+6-4	562-568	seiner	_	_	
+6-5	569-573	Zeit	_	_	
+6-6	574-586	eingetroffen	_	_	
+6-7	587-591	sein	_	_	
+6-8	592-593	;	_	_	
+6-9	594-599	sonst	_	_	
+6-10	600-606	hätten	_	_	
+6-11	607-611	sich	_	_	
+6-12	612-617	beide	_	_	
+6-13	618-625	gerührt	_	_	
+6-14	626-627	.	_	_	
+
+#Text=Hier haben die Künstler Schinkels Geburtsfest solenn begangen , mit der Bedingung kein andrer als Künstler solle dabei sein ; Waagen hat jedoch darin gesprochen .
+7-1	628-632	Hier	_	_	
+7-2	633-638	haben	_	_	
+7-3	639-642	die	_	_	
+7-4	643-651	Künstler	_	_	
+7-5	652-661	Schinkels	*	PERmentioned	
+7-6	662-673	Geburtsfest	_	_	
+7-7	674-680	solenn	_	_	
+7-8	681-689	begangen	_	_	
+7-9	690-691	,	_	_	
+7-10	692-695	mit	_	_	
+7-11	696-699	der	_	_	
+7-12	700-709	Bedingung	_	_	
+7-13	710-714	kein	_	_	
+7-14	715-721	andrer	_	_	
+7-15	722-725	als	_	_	
+7-16	726-734	Künstler	_	_	
+7-17	735-740	solle	_	_	
+7-18	741-746	dabei	_	_	
+7-19	747-751	sein	_	_	
+7-20	752-753	;	_	_	
+7-21	754-760	Waagen	*	PERmentioned	
+7-22	761-764	hat	_	_	
+7-23	765-771	jedoch	_	_	
+7-24	772-777	darin	_	_	
+7-25	778-788	gesprochen	_	_	
+7-26	789-790	.	_	_	
+
+#Text=Köhne wird beim Münzkabinet in St. Petersburg angestellt .
+8-1	791-796	Köhne	*	PERmentioned	
+8-2	797-801	wird	_	_	
+8-3	802-806	beim	_	_	
+8-4	807-818	Münzkabinet	*	ORGmentioned	
+8-5	819-821	in	_	_	
+8-6	822-825	St.	*[9]	PLACEmentioned[9]	
+8-7	826-836	Petersburg	*[9]	PLACEmentioned[9]	
+8-8	837-847	angestellt	_	_	
+8-9	848-849	.	_	_	
+
+#Text=Schulz lamentirt daß Sie seine Amazonen Publi-
+9-1	850-856	Schulz	*	PERmentioned	
+9-2	857-866	lamentirt	_	_	
+9-3	867-870	daß	_	_	
+9-4	871-874	Sie	_	_	
+9-5	875-880	seine	_	_	
+9-6	881-889	Amazonen	*	MISC	
+9-7	890-896	Publi-	_	_	

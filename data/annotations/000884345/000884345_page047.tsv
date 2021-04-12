@@ -1,0 +1,32 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen .an Gerhard Rom , 8. Dezember 1832 - 3 Ihnen selbst bei erster Gelegenheit schreiben .
+1-1	0-6	Bunsen	*[5]	PERauthor[5]
+1-2	7-10	.an	*[5]	PERauthor[5]
+1-3	11-18	Gerhard	*	PERaddressee
+1-4	19-22	Rom	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	8.	*[4]	DATEletter[4]
+1-7	28-36	Dezember	*[4]	DATEletter[4]
+1-8	37-41	1832	*[4]	DATEletter[4]
+1-9	42-43	-	_	_
+1-10	44-45	3	_	_
+1-11	46-51	Ihnen	_	_
+1-12	52-58	selbst	_	_
+1-13	59-62	bei	_	_
+1-14	63-69	erster	_	_
+1-15	70-81	Gelegenheit	_	_
+1-16	82-91	schreiben	_	_
+1-17	92-93	.	_	_
+
+#Text=Mit unveränderliecher-Liebe Der Ihrige Bn Die Diplome nächstens
+2-1	94-97	Mit	_	_
+2-2	98-121	unveränderliecher-Liebe	_	_
+2-3	122-125	Der	_	_
+2-4	126-132	Ihrige	_	_
+2-5	133-135	Bn	*	PERauthor
+2-6	136-139	Die	_	_
+2-7	140-147	Diplome	_	_
+2-8	148-157	nächstens	_	_

@@ -1,0 +1,117 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 20. Juli 1872 pendium beantragt werden .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	20.	*[1]	DATEletter[1]
+1-7	31-35	Juli	*[1]	DATEletter[1]
+1-8	36-40	1872	*[1]	DATEletter[1]
+1-9	41-48	pendium	_	_
+1-10	49-58	beantragt	_	_
+1-11	59-65	werden	_	_
+1-12	66-67	.	_	_
+
+#Text=Ob es gelingt , steht dain .
+2-1	68-70	Ob	_	_
+2-2	71-73	es	_	_
+2-3	74-81	gelingt	_	_
+2-4	82-83	,	_	_
+2-5	84-89	steht	_	_
+2-6	90-94	dain	_	_
+2-7	95-96	.	_	_
+
+#Text=Laspeyres hat sich recht gut erholt wie es Jetzt scheint .
+3-1	97-106	Laspeyres	*	PERmentioned
+3-2	107-110	hat	_	_
+3-3	111-115	sich	_	_
+3-4	116-121	recht	_	_
+3-5	122-125	gut	_	_
+3-6	126-132	erholt	_	_
+3-7	133-136	wie	_	_
+3-8	137-139	es	_	_
+3-9	140-145	Jetzt	_	_
+3-10	146-153	scheint	_	_
+3-11	154-155	.	_	_
+
+#Text=Veronica Parthey rühmte ihn gestern sehr gegen mich wegen seiner großen Hülfreichheit bei Parthey's Tode .
+4-1	156-164	Veronica	*[2]	PERmentioned[2]
+4-2	165-172	Parthey	*[2]	PERmentioned[2]
+4-3	173-179	rühmte	_	_
+4-4	180-183	ihn	_	_
+4-5	184-191	gestern	_	_
+4-6	192-196	sehr	_	_
+4-7	197-202	gegen	_	_
+4-8	203-207	mich	_	_
+4-9	208-213	wegen	_	_
+4-10	214-220	seiner	_	_
+4-11	221-227	großen	_	_
+4-12	228-241	Hülfreichheit	_	_
+4-13	242-245	bei	_	_
+4-14	246-255	Parthey's	*	PERmentioned
+4-15	256-260	Tode	_	_
+4-16	261-262	.	_	_
+
+#Text=Würden Sie nicht einen Vorschlag machen wegen seines Bildnisses für das Institut .
+5-1	263-269	Würden	_	_
+5-2	270-273	Sie	_	_
+5-3	274-279	nicht	_	_
+5-4	280-285	einen	_	_
+5-5	286-295	Vorschlag	_	_
+5-6	296-302	machen	_	_
+5-7	303-308	wegen	_	_
+5-8	309-315	seines	_	_
+5-9	316-326	Bildnisses	_	_
+5-10	327-330	für	_	_
+5-11	331-334	das	_	_
+5-12	335-343	Institut	*	ORGmentioned
+5-13	344-345	.	_	_
+
+#Text=ich höre von Veronica , daß Troschel sein .
+6-1	346-349	ich	_	_
+6-2	350-354	höre	_	_
+6-3	355-358	von	_	_
+6-4	359-367	Veronica	*	PERmentioned
+6-5	368-369	,	_	_
+6-6	370-373	daß	_	_
+6-7	374-382	Troschel	*	PERmentioned
+6-8	383-387	sein	_	_
+6-9	388-389	.	_	_
+
+#Text=Medaillon für das Grab machen soll .
+7-1	390-399	Medaillon	_	_
+7-2	400-403	für	_	_
+7-3	404-407	das	_	_
+7-4	408-412	Grab	_	_
+7-5	413-419	machen	_	_
+7-6	420-424	soll	_	_
+7-7	425-426	.	_	_
+
+#Text=Wenn es gelingt , könnte man wenigstens dieses wiederholen .
+8-1	427-431	Wenn	_	_
+8-2	432-434	es	_	_
+8-3	435-442	gelingt	_	_
+8-4	443-444	,	_	_
+8-5	445-451	könnte	_	_
+8-6	452-455	man	_	_
+8-7	456-466	wenigstens	_	_
+8-8	467-473	dieses	_	_
+8-9	474-485	wiederholen	_	_
+8-10	486-487	.	_	_
+
+#Text=Danke für den Glückwunsch .
+9-1	488-493	Danke	_	_
+9-2	494-497	für	_	_
+9-3	498-501	den	_	_
+9-4	502-513	Glückwunsch	_	_
+9-5	514-515	.	_	_
+
+#Text=Ihr ergebenster R Lepsius
+10-1	516-519	Ihr	_	_
+10-2	520-531	ergebenster	_	_
+10-3	532-533	R	*[3]	PERauthor[3]
+10-4	534-541	Lepsius	*[3]	PERauthor[3]

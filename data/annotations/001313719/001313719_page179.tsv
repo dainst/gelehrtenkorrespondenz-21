@@ -1,0 +1,74 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=154 Gerhard an Henzen Berlin A41/VIII/1849 A. di Dir .
+1-1	0-3	154	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-42	A41/VIII/1849	*	DATEletter
+1-7	43-45	A.	_	_
+1-8	46-48	di	_	_
+1-9	49-52	Dir	_	_
+1-10	53-54	.	_	_
+
+#Text=g . 22/VIII 49 r. A/IX 49 D. Henzen Berlin 19 Aug 49 Meinem vorgestrigen Brief sende ich Erklärung D , Bethmanns daß derselbe vermuthlich direkt seinen “ rtikel absenden wird und die Bitte noch Inliegendes an Dahl zu befördern .
+2-1	55-56	g	_	_
+2-2	57-58	.	_	_
+2-3	59-66	22/VIII	*[1]	DATErecieved[1]
+2-4	67-69	49	*[1]	DATErecieved[1]
+2-5	70-72	r.	_	_
+2-6	73-77	A/IX	*[2]	DATEanswered[2]
+2-7	78-80	49	*[2]	DATEanswered[2]
+2-8	81-83	D.	_	_
+2-9	84-90	Henzen	*	PERaddressee
+2-10	91-97	Berlin	*	PLACEfrom
+2-11	98-100	19	*[3]	DATEletter[3]
+2-12	101-104	Aug	*[3]	DATEletter[3]
+2-13	105-107	49	*[3]	DATEletter[3]
+2-14	108-114	Meinem	_	_
+2-15	115-127	vorgestrigen	_	_
+2-16	128-133	Brief	_	_
+2-17	134-139	sende	_	_
+2-18	140-143	ich	_	_
+2-19	144-153	Erklärung	_	_
+2-20	154-155	D	_	_
+2-21	156-157	,	_	_
+2-22	158-167	Bethmanns	*	PERmentioned
+2-23	168-171	daß	_	_
+2-24	172-180	derselbe	_	_
+2-25	181-192	vermuthlich	_	_
+2-26	193-199	direkt	_	_
+2-27	200-206	seinen	_	_
+2-28	207-208	“	_	_
+2-29	209-215	rtikel	_	_
+2-30	216-224	absenden	_	_
+2-31	225-229	wird	_	_
+2-32	230-233	und	_	_
+2-33	234-237	die	_	_
+2-34	238-243	Bitte	_	_
+2-35	244-248	noch	_	_
+2-36	249-260	Inliegendes	_	_
+2-37	261-263	an	_	_
+2-38	264-268	Dahl	*	PERmentioned
+2-39	269-271	zu	_	_
+2-40	272-281	befördern	_	_
+2-41	282-283	.	_	_
+
+#Text=Mit bestem Gruß , der Abreise für etliche Wochen nahe , der Ihrige Gerhard
+3-1	284-287	Mit	_	_
+3-2	288-294	bestem	_	_
+3-3	295-299	Gruß	_	_
+3-4	300-301	,	_	_
+3-5	302-305	der	_	_
+3-6	306-313	Abreise	_	_
+3-7	314-317	für	_	_
+3-8	318-325	etliche	_	_
+3-9	326-332	Wochen	_	_
+3-10	333-337	nahe	_	_
+3-11	338-339	,	_	_
+3-12	340-343	der	_	_
+3-13	344-350	Ihrige	_	_
+3-14	351-358	Gerhard	*	PERauthor

@@ -1,0 +1,263 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Nadine Helbig an Henzen Siena , 25. Juli 1874 siehe : Helbig an Henzen vom 25. Juli 1874 Lieber Herr Professor , tausend Dank für Ihren lieben Brief .
+1-1	0-6	Nadine	*[1]	PERauthor[1]
+1-2	7-13	Helbig	*[1]	PERauthor[1]
+1-3	14-16	an	_	_
+1-4	17-23	Henzen	*	PERaddressee
+1-5	24-29	Siena	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-35	25.	*[2]	DATEletter[2]
+1-8	36-40	Juli	*[2]	DATEletter[2]
+1-9	41-45	1874	*[2]	DATEletter[2]
+1-10	46-51	siehe	_	_
+1-11	52-53	:	_	_
+1-12	54-60	Helbig	*	PERauthor
+1-13	61-63	an	_	_
+1-14	64-70	Henzen	*	PERaddressee
+1-15	71-74	vom	_	_
+1-16	75-78	25.	*[3]	DATEletter[3]
+1-17	79-83	Juli	*[3]	DATEletter[3]
+1-18	84-88	1874	*[3]	DATEletter[3]
+1-19	89-95	Lieber	_	_
+1-20	96-100	Herr	_	_
+1-21	101-110	Professor	_	_
+1-22	111-112	,	_	_
+1-23	113-120	tausend	_	_
+1-24	121-125	Dank	_	_
+1-25	126-129	für	_	_
+1-26	130-135	Ihren	_	_
+1-27	136-142	lieben	_	_
+1-28	143-148	Brief	_	_
+1-29	149-150	.	_	_
+
+#Text=Hoffentlich machen Sie Ernst mit Ihrem Besuch hier .
+2-1	151-162	Hoffentlich	_	_
+2-2	163-169	machen	_	_
+2-3	170-173	Sie	_	_
+2-4	174-179	Ernst	_	_
+2-5	180-183	mit	_	_
+2-6	184-189	Ihrem	_	_
+2-7	190-196	Besuch	_	_
+2-8	197-201	hier	_	_
+2-9	202-203	.	_	_
+
+#Text=Es wäre mir sehr lieb , wenn Sie am 15.ten August hier wären , um dem Palio beizuwohnen .
+3-1	204-206	Es	_	_
+3-2	207-211	wäre	_	_
+3-3	212-215	mir	_	_
+3-4	216-220	sehr	_	_
+3-5	221-225	lieb	_	_
+3-6	226-227	,	_	_
+3-7	228-232	wenn	_	_
+3-8	233-236	Sie	_	_
+3-9	237-239	am	_	_
+3-10	240-246	15.ten	*[4]	DATEmentioned[4]
+3-11	247-253	August	*[4]	DATEmentioned[4]
+3-12	254-258	hier	_	_
+3-13	259-264	wären	_	_
+3-14	265-266	,	_	_
+3-15	267-269	um	_	_
+3-16	270-273	dem	_	_
+3-17	274-279	Palio	_	_
+3-18	280-291	beizuwohnen	_	_
+3-19	292-293	.	_	_
+
+#Text=Auch Rosina würde dieser Klimawechsel wohl thun .
+4-1	294-298	Auch	_	_
+4-2	299-305	Rosina	*	PERmentioned
+4-3	306-311	würde	_	_
+4-4	312-318	dieser	_	_
+4-5	319-331	Klimawechsel	_	_
+4-6	332-336	wohl	_	_
+4-7	337-341	thun	_	_
+4-8	342-343	.	_	_
+
+#Text=Sogar Wolfgang ist zufrieden , mir ist es zu kalt , so können wir z . B. heute nicht bei offenen Fenstern bleiben , denn draußen haben wir bloß 13 Grad R. und gestern sind wir in Plaids ausgegangen .
+5-1	344-349	Sogar	_	_
+5-2	350-358	Wolfgang	*	PERmentioned
+5-3	359-362	ist	_	_
+5-4	363-372	zufrieden	_	_
+5-5	373-374	,	_	_
+5-6	375-378	mir	_	_
+5-7	379-382	ist	_	_
+5-8	383-385	es	_	_
+5-9	386-388	zu	_	_
+5-10	389-393	kalt	_	_
+5-11	394-395	,	_	_
+5-12	396-398	so	_	_
+5-13	399-405	können	_	_
+5-14	406-409	wir	_	_
+5-15	410-411	z	_	_
+5-16	412-413	.	_	_
+5-17	414-416	B.	_	_
+5-18	417-422	heute	_	_
+5-19	423-428	nicht	_	_
+5-20	429-432	bei	_	_
+5-21	433-440	offenen	_	_
+5-22	441-449	Fenstern	_	_
+5-23	450-457	bleiben	_	_
+5-24	458-459	,	_	_
+5-25	460-464	denn	_	_
+5-26	465-472	draußen	_	_
+5-27	473-478	haben	_	_
+5-28	479-482	wir	_	_
+5-29	483-487	bloß	_	_
+5-30	488-490	13	_	_
+5-31	491-495	Grad	_	_
+5-32	496-498	R.	_	_
+5-33	499-502	und	_	_
+5-34	503-510	gestern	_	_
+5-35	511-515	sind	_	_
+5-36	516-519	wir	_	_
+5-37	520-522	in	_	_
+5-38	523-529	Plaids	_	_
+5-39	530-541	ausgegangen	_	_
+5-40	542-543	.	_	_
+
+#Text=Uns geht es Allen ausgezeichnet , aber ich habe viel Trauriges erlebt , da das jüngste Kind von Burtschaell 's , meinen englischen Freunden , ganz plötzlich gestorben ist .
+6-1	544-547	Uns	_	_
+6-2	548-552	geht	_	_
+6-3	553-555	es	_	_
+6-4	556-561	Allen	_	_
+6-5	562-575	ausgezeichnet	_	_
+6-6	576-577	,	_	_
+6-7	578-582	aber	_	_
+6-8	583-586	ich	_	_
+6-9	587-591	habe	_	_
+6-10	592-596	viel	_	_
+6-11	597-606	Trauriges	_	_
+6-12	607-613	erlebt	_	_
+6-13	614-615	,	_	_
+6-14	616-618	da	_	_
+6-15	619-622	das	_	_
+6-16	623-630	jüngste	_	_
+6-17	631-635	Kind	_	_
+6-18	636-639	von	_	_
+6-19	640-651	Burtschaell	*[6]	PERmentioned[6]
+6-20	652-654	's	*[6]	PERmentioned[6]
+6-21	655-656	,	_	_
+6-22	657-663	meinen	_	_
+6-23	664-674	englischen	_	_
+6-24	675-683	Freunden	_	_
+6-25	684-685	,	_	_
+6-26	686-690	ganz	_	_
+6-27	691-700	plötzlich	_	_
+6-28	701-710	gestorben	_	_
+6-29	711-714	ist	_	_
+6-30	715-716	.	_	_
+
+#Text=wir haben uns sehr über Bormanns Besuch gefreut , sonst leben wir hier sehr einsam , wenngleich auch hier es unprotected females in Hülle und Fülle giebt .
+7-1	717-720	wir	_	_
+7-2	721-726	haben	_	_
+7-3	727-730	uns	_	_
+7-4	731-735	sehr	_	_
+7-5	736-740	über	_	_
+7-6	741-749	Bormanns	*	PERmentioned
+7-7	750-756	Besuch	_	_
+7-8	757-764	gefreut	_	_
+7-9	765-766	,	_	_
+7-10	767-772	sonst	_	_
+7-11	773-778	leben	_	_
+7-12	779-782	wir	_	_
+7-13	783-787	hier	_	_
+7-14	788-792	sehr	_	_
+7-15	793-799	einsam	_	_
+7-16	800-801	,	_	_
+7-17	802-812	wenngleich	_	_
+7-18	813-817	auch	_	_
+7-19	818-822	hier	_	_
+7-20	823-825	es	_	_
+7-21	826-837	unprotected	_	_
+7-22	838-845	females	_	_
+7-23	846-848	in	_	_
+7-24	849-854	Hülle	_	_
+7-25	855-858	und	_	_
+7-26	859-864	Fülle	_	_
+7-27	865-870	giebt	_	_
+7-28	871-872	.	_	_
+
+#Text=Trotz fleißigem Sight seeing , haben wir noch lange nicht Alles gesehen .
+8-1	873-878	Trotz	_	_
+8-2	879-888	fleißigem	_	_
+8-3	889-894	Sight	_	_
+8-4	895-901	seeing	_	_
+8-5	902-903	,	_	_
+8-6	904-909	haben	_	_
+8-7	910-913	wir	_	_
+8-8	914-918	noch	_	_
+8-9	919-924	lange	_	_
+8-10	925-930	nicht	_	_
+8-11	931-936	Alles	_	_
+8-12	937-944	gesehen	_	_
+8-13	945-946	.	_	_
+
+#Text=Jetzt fangen wir aber an zu arbeiten .
+9-1	947-952	Jetzt	_	_
+9-2	953-959	fangen	_	_
+9-3	960-963	wir	_	_
+9-4	964-968	aber	_	_
+9-5	969-971	an	_	_
+9-6	972-974	zu	_	_
+9-7	975-983	arbeiten	_	_
+9-8	984-985	.	_	_
+
+#Text=Wolf ist mit seiner Kur sehr zufrieden und ist sehr fleißig .
+10-1	986-990	Wolf	*	PERmentioned
+10-2	991-994	ist	_	_
+10-3	995-998	mit	_	_
+10-4	999-1005	seiner	_	_
+10-5	1006-1009	Kur	_	_
+10-6	1010-1014	sehr	_	_
+10-7	1015-1024	zufrieden	_	_
+10-8	1025-1028	und	_	_
+10-9	1029-1032	ist	_	_
+10-10	1033-1037	sehr	_	_
+10-11	1038-1045	fleißig	_	_
+10-12	1046-1047	.	_	_
+
+#Text=Joukowsky komponirt , wir beide wir kopiren eine herrliche Sybilla tiburtina von Peruzzi und ich bause den Fußboden in S. Caterina .
+11-1	1048-1057	Joukowsky	*	PERmentioned
+11-2	1058-1067	komponirt	_	_
+11-3	1068-1069	,	_	_
+11-4	1070-1073	wir	_	_
+11-5	1074-1079	beide	_	_
+11-6	1080-1083	wir	_	_
+11-7	1084-1091	kopiren	_	_
+11-8	1092-1096	eine	_	_
+11-9	1097-1106	herrliche	_	_
+11-10	1107-1114	Sybilla	_	_
+11-11	1115-1124	tiburtina	_	_
+11-12	1125-1128	von	_	_
+11-13	1129-1136	Peruzzi	*	PERmentioned
+11-14	1137-1140	und	_	_
+11-15	1141-1144	ich	_	_
+11-16	1145-1150	bause	_	_
+11-17	1151-1154	den	_	_
+11-18	1155-1163	Fußboden	_	_
+11-19	1164-1166	in	_	_
+11-20	1167-1169	S.	*[5]	PLACEmentioned[5]
+11-21	1170-1178	Caterina	*[5]	PLACEmentioned[5]
+11-22	1179-1180	.	_	_
+
+#Text=Vorgestern habe ich einen langen Brief von Klügmann , aber dies schreibe ich Alles extra an Rosina .
+12-1	1181-1191	Vorgestern	_	_
+12-2	1192-1196	habe	_	_
+12-3	1197-1200	ich	_	_
+12-4	1201-1206	einen	_	_
+12-5	1207-1213	langen	_	_
+12-6	1214-1219	Brief	_	_
+12-7	1220-1223	von	_	_
+12-8	1224-1232	Klügmann	*	PERmentioned
+12-9	1233-1234	,	_	_
+12-10	1235-1239	aber	_	_
+12-11	1240-1244	dies	_	_
+12-12	1245-1253	schreibe	_	_
+12-13	1254-1257	ich	_	_
+12-14	1258-1263	Alles	_	_
+12-15	1264-1269	extra	_	_
+12-16	1270-1272	an	_	_
+12-17	1273-1279	Rosina	*	PERmentioned
+12-18	1280-1281	.	_	_

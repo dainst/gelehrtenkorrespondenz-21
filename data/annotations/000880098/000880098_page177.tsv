@@ -1,0 +1,48 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=273 Braun an Gerhard Rom , 26. Februar 1835 -5- Ueber eine etruskische Kunsttopographie schreibe ich Ihnen vielleicht nächstens .
+1-1	0-3	273	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	26.	*[1]	DATEletter[1]
+1-8	31-38	Februar	*[1]	DATEletter[1]
+1-9	39-43	1835	*[1]	DATEletter[1]
+1-10	44-47	-5-	_	_
+1-11	48-53	Ueber	_	_
+1-12	54-58	eine	_	_
+1-13	59-70	etruskische	_	_
+1-14	71-87	Kunsttopographie	_	_
+1-15	88-96	schreibe	_	_
+1-16	97-100	ich	_	_
+1-17	101-106	Ihnen	_	_
+1-18	107-117	vielleicht	_	_
+1-19	118-127	nächstens	_	_
+1-20	128-129	.	_	_
+
+#Text=Ich habe den Micali mit meinen Zuhörern durchgenommen und einiges ist mir vielleicht gelungen .
+2-1	130-133	Ich	_	_
+2-2	134-138	habe	_	_
+2-3	139-142	den	_	_
+2-4	143-149	Micali	*	PERmentioned
+2-5	150-153	mit	_	_
+2-6	154-160	meinen	_	_
+2-7	161-169	Zuhörern	_	_
+2-8	170-183	durchgenommen	_	_
+2-9	184-187	und	_	_
+2-10	188-195	einiges	_	_
+2-11	196-199	ist	_	_
+2-12	200-203	mir	_	_
+2-13	204-214	vielleicht	_	_
+2-14	215-223	gelungen	_	_
+2-15	224-225	.	_	_
+
+#Text=\| Herzlichst Ihr Braun
+3-1	226-227	\|	_	_
+3-2	228-238	Herzlichst	_	_
+3-3	239-242	Ihr	_	_
+3-4	243-248	Braun	*	PERauthor

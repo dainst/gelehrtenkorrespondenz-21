@@ -1,0 +1,50 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 20. Juli 1873 Am Rande Das Diplom für Nardi Dei scheint verloren gegangen zu sein .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	20.	*[1]	DATEletter[1]
+1-7	27-31	Juli	*[1]	DATEletter[1]
+1-8	32-36	1873	*[1]	DATEletter[1]
+1-9	37-39	Am	_	_
+1-10	40-45	Rande	_	_
+1-11	46-49	Das	_	_
+1-12	50-56	Diplom	_	_
+1-13	57-60	für	_	_
+1-14	61-66	Nardi	*[2]	PERmentioned[2]
+1-15	67-70	Dei	*[2]	PERmentioned[2]
+1-16	71-78	scheint	_	_
+1-17	79-87	verloren	_	_
+1-18	88-96	gegangen	_	_
+1-19	97-99	zu	_	_
+1-20	100-104	sein	_	_
+1-21	105-106	.	_	_
+
+#Text=Lepsius schreibt am 14. , er sei vorgestern von Berlin abgegangen .
+2-1	107-114	Lepsius	*	PERmentioned
+2-2	115-123	schreibt	_	_
+2-3	124-126	am	_	_
+2-4	127-130	14.	*	DATEmentioned
+2-5	131-132	,	_	_
+2-6	133-135	er	_	_
+2-7	136-139	sei	_	_
+2-8	140-150	vorgestern	_	_
+2-9	151-154	von	_	_
+2-10	155-161	Berlin	*	PLACEmentioned
+2-11	162-172	abgegangen	_	_
+2-12	173-174	.	_	_
+
+#Text=Doch ist er bis jetzt nicht eingetroffen .
+3-1	175-179	Doch	_	_
+3-2	180-183	ist	_	_
+3-3	184-186	er	_	_
+3-4	187-190	bis	_	_
+3-5	191-196	jetzt	_	_
+3-6	197-202	nicht	_	_
+3-7	203-215	eingetroffen	_	_
+3-8	216-217	.	_	_

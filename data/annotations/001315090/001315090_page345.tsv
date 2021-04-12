@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=797 Lepsius an Henzen L Berlin , 17 .
+1-1	0-3	797	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-23	L	_	_
+1-6	24-30	Berlin	*	PLACEfrom
+1-7	31-32	,	_	_
+1-8	33-35	17	*[3]	DATEletter[3]
+1-9	36-37	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1879 Berlin , d . 17 .
+2-1	38-45	Oktober	*[3]	DATEletter[3]
+2-2	46-50	1879	*[3]	DATEletter[3]
+2-3	51-57	Berlin	*	PLACEfrom
+2-4	58-59	,	_	_
+2-5	60-61	d	_	_
+2-6	62-63	.	_	_
+2-7	64-66	17	*[4]	DATEletter[4]
+2-8	67-68	.	*[4]	DATEletter[4]
+
+#Text=Okt .
+3-1	69-72	Okt	*[4]	DATEletter[4]
+3-2	73-74	.	*[4]	DATEletter[4]
+
+#Text=1879 Verehrter Freund Ich bin erst vor kurzem aus den Ferien zurückgekehrt und fand hier Ihre Briefe vor \; sonst hätte ich früher geantwortet .
+4-1	75-79	1879	*[4]	DATEletter[4]
+4-2	80-89	Verehrter	_	_
+4-3	90-96	Freund	_	_
+4-4	97-100	Ich	_	_
+4-5	101-104	bin	_	_
+4-6	105-109	erst	_	_
+4-7	110-113	vor	_	_
+4-8	114-120	kurzem	_	_
+4-9	121-124	aus	_	_
+4-10	125-128	den	_	_
+4-11	129-135	Ferien	_	_
+4-12	136-149	zurückgekehrt	_	_
+4-13	150-153	und	_	_
+4-14	154-158	fand	_	_
+4-15	159-163	hier	_	_
+4-16	164-168	Ihre	_	_
+4-17	169-175	Briefe	_	_
+4-18	176-179	vor	_	_
+4-19	180-181	\;	_	_
+4-20	182-187	sonst	_	_
+4-21	188-193	hätte	_	_
+4-22	194-197	ich	_	_
+4-23	198-204	früher	_	_
+4-24	205-216	geantwortet	_	_
+4-25	217-218	.	_	_
+
+#Text=Für Ihre Bemühungen wegen der Daini bin ich Ihnen sehr dankbar .
+5-1	219-222	Für	_	_
+5-2	223-227	Ihre	_	_
+5-3	228-238	Bemühungen	_	_
+5-4	239-244	wegen	_	_
+5-5	245-248	der	_	_
+5-6	249-254	Daini	*	PERmentioned
+5-7	255-258	bin	_	_
+5-8	259-262	ich	_	_
+5-9	263-268	Ihnen	_	_
+5-10	269-273	sehr	_	_
+5-11	274-281	dankbar	_	_
+5-12	282-283	.	_	_
+
+#Text=Freilich kommt es hier weniger auf die Familienverhältnisse als darauf an , ob sich aus diesen ermitteln läßt , wo ihre Sammlungen hingekommen sein mögen , um nach dem Nebucadnezarkopfe auszuschauen .
+6-1	284-292	Freilich	_	_
+6-2	293-298	kommt	_	_
+6-3	299-301	es	_	_
+6-4	302-306	hier	_	_
+6-5	307-314	weniger	_	_
+6-6	315-318	auf	_	_
+6-7	319-322	die	_	_
+6-8	323-343	Familienverhältnisse	_	_
+6-9	344-347	als	_	_
+6-10	348-354	darauf	_	_
+6-11	355-357	an	_	_
+6-12	358-359	,	_	_
+6-13	360-362	ob	_	_
+6-14	363-367	sich	_	_
+6-15	368-371	aus	_	_
+6-16	372-378	diesen	_	_
+6-17	379-388	ermitteln	_	_
+6-18	389-393	läßt	_	_
+6-19	394-395	,	_	_
+6-20	396-398	wo	_	_
+6-21	399-403	ihre	_	_
+6-22	404-414	Sammlungen	_	_
+6-23	415-426	hingekommen	_	_
+6-24	427-431	sein	_	_
+6-25	432-437	mögen	_	_
+6-26	438-439	,	_	_
+6-27	440-442	um	_	_
+6-28	443-447	nach	_	_
+6-29	448-451	dem	_	_
+6-30	452-469	Nebucadnezarkopfe	*	OBJ
+6-31	470-482	auszuschauen	_	_
+6-32	483-484	.	_	_
+
+#Text=Er wird sich wohl in irgend einer Römischen Sammlung verhalten , wo ihn ein glückliches Auge einmal trifft .
+7-1	485-487	Er	_	_
+7-2	488-492	wird	_	_
+7-3	493-497	sich	_	_
+7-4	498-502	wohl	_	_
+7-5	503-505	in	_	_
+7-6	506-512	irgend	_	_
+7-7	513-518	einer	_	_
+7-8	519-528	Römischen	_	_
+7-9	529-537	Sammlung	_	_
+7-10	538-547	verhalten	_	_
+7-11	548-549	,	_	_
+7-12	550-552	wo	_	_
+7-13	553-556	ihn	_	_
+7-14	557-560	ein	_	_
+7-15	561-572	glückliches	_	_
+7-16	573-577	Auge	_	_
+7-17	578-584	einmal	_	_
+7-18	585-591	trifft	_	_
+7-19	592-593	.	_	_
+
+#Text=Man muß nur von der Sache wissen und die Gestalt kennen .
+8-1	594-597	Man	_	_
+8-2	598-601	muß	_	_
+8-3	602-605	nur	_	_
+8-4	606-609	von	_	_
+8-5	610-613	der	_	_
+8-6	614-619	Sache	_	_
+8-7	620-626	wissen	_	_
+8-8	627-630	und	_	_
+8-9	631-634	die	_	_
+8-10	635-642	Gestalt	_	_
+8-11	643-649	kennen	_	_
+8-12	650-651	.	_	_
+
+#Text=Was die kleine Gemme betrifft , deren Abdruck Sie mir geschickt haben , so ist sie ohne Zweifel asiatischen Ursprungs .
+9-1	652-655	Was	_	_
+9-2	656-659	die	_	_
+9-3	660-666	kleine	_	_
+9-4	667-672	Gemme	*	OBJ
+9-5	673-681	betrifft	_	_
+9-6	682-683	,	_	_
+9-7	684-689	deren	_	_
+9-8	690-697	Abdruck	_	_
+9-9	698-701	Sie	_	_
+9-10	702-705	mir	_	_
+9-11	706-715	geschickt	_	_
+9-12	716-721	haben	_	_
+9-13	722-723	,	_	_
+9-14	724-726	so	_	_
+9-15	727-730	ist	_	_
+9-16	731-734	sie	_	_
+9-17	735-739	ohne	_	_
+9-18	740-747	Zweifel	_	_
+9-19	748-759	asiatischen	_	_
+9-20	760-769	Ursprungs	_	_
+9-21	770-771	.	_	_
+
+#Text=Über die Zeit der Entstehung wüßte ich aber gar keine Vermuthung aufzustellen .
+10-1	772-776	Über	_	_
+10-2	777-780	die	_	_
+10-3	781-785	Zeit	_	_
+10-4	786-789	der	_	_
+10-5	790-800	Entstehung	_	_
+10-6	801-806	wüßte	_	_
+10-7	807-810	ich	_	_
+10-8	811-815	aber	_	_
+10-9	816-819	gar	_	_
+10-10	820-825	keine	_	_
+10-11	826-836	Vermuthung	_	_
+10-12	837-849	aufzustellen	_	_
+10-13	850-851	.	_	_
+
+#Text=Die Entscheidung über Ihren Vorschlag wegen Bodkine , der mir übrigens allein richtig scheint , kann nur in einer Sitzung der Central Direktion getroffen werden , die aber vor Ende Monats schwerlich berufen werden kann .
+11-1	852-855	Die	_	_
+11-2	856-868	Entscheidung	_	_
+11-3	869-873	über	_	_
+11-4	874-879	Ihren	_	_
+11-5	880-889	Vorschlag	_	_
+11-6	890-895	wegen	_	_
+11-7	896-903	Bodkine	*	PERmentioned
+11-8	904-905	,	_	_
+11-9	906-909	der	_	_
+11-10	910-913	mir	_	_
+11-11	914-922	übrigens	_	_
+11-12	923-929	allein	_	_
+11-13	930-937	richtig	_	_
+11-14	938-945	scheint	_	_
+11-15	946-947	,	_	_
+11-16	948-952	kann	_	_
+11-17	953-956	nur	_	_
+11-18	957-959	in	_	_
+11-19	960-965	einer	_	_
+11-20	966-973	Sitzung	_	_
+11-21	974-977	der	_	_
+11-22	978-985	Central	*[5]	ORGmentioned[5]
+11-23	986-995	Direktion	*[5]	ORGmentioned[5]
+11-24	996-1005	getroffen	_	_
+11-25	1006-1012	werden	_	_
+11-26	1013-1014	,	_	_
+11-27	1015-1018	die	_	_
+11-28	1019-1023	aber	_	_
+11-29	1024-1027	vor	_	_
+11-30	1028-1032	Ende	*[6]	DATEmentioned[6]
+11-31	1033-1039	Monats	*[6]	DATEmentioned[6]
+11-32	1040-1050	schwerlich	_	_
+11-33	1051-1058	berufen	_	_
+11-34	1059-1065	werden	_	_
+11-35	1066-1070	kann	_	_
+11-36	1071-1072	.	_	_
+
+#Text=Die gewünschten Programme werde ich Ihnen noch heute bei Abher bestillen .
+12-1	1073-1076	Die	_	_
+12-2	1077-1088	gewünschten	_	_
+12-3	1089-1098	Programme	_	_
+12-4	1099-1104	werde	_	_
+12-5	1105-1108	ich	_	_
+12-6	1109-1114	Ihnen	_	_
+12-7	1115-1119	noch	_	_
+12-8	1120-1125	heute	_	_
+12-9	1126-1129	bei	_	_
+12-10	1130-1135	Abher	*	PERmentioned
+12-11	1136-1145	bestillen	_	_
+12-12	1146-1147	.	_	_
+
+#Text=Mit herzlichem Gruße Ihr ergebener R Lepsius
+13-1	1148-1151	Mit	_	_
+13-2	1152-1162	herzlichem	_	_
+13-3	1163-1168	Gruße	_	_
+13-4	1169-1172	Ihr	_	_
+13-5	1173-1182	ergebener	_	_
+13-6	1183-1184	R	*[7]	PERauthor[7]
+13-7	1185-1192	Lepsius	*[7]	PERauthor[7]

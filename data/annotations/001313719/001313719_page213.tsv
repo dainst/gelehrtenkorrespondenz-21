@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=134 Gerhard an Henzen Berlin 24/VI/1850 A. di Dir .
+1-1	0-3	134	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-39	24/VI/1850	*	DATEletter
+1-7	40-42	A.	_	_
+1-8	43-45	di	_	_
+1-9	46-49	Dir	_	_
+1-10	50-51	.	_	_
+
+#Text=g . 5/VII 50 r . 10/VII 50 D. Henzen Berlin 24 Juni 50 tehrter Freund .
+2-1	52-53	g	_	_
+2-2	54-55	.	_	_
+2-3	56-61	5/VII	*[1]	DATErecieved[1]
+2-4	62-64	50	*[1]	DATErecieved[1]
+2-5	65-66	r	_	_
+2-6	67-68	.	_	_
+2-7	69-75	10/VII	*[2]	DATEanswered[2]
+2-8	76-78	50	*[2]	DATEanswered[2]
+2-9	79-81	D.	_	_
+2-10	82-88	Henzen	*	PERaddressee
+2-11	89-95	Berlin	*	PLACEfrom
+2-12	96-98	24	*[3]	DATEletter[3]
+2-13	99-103	Juni	*[3]	DATEletter[3]
+2-14	104-106	50	*[3]	DATEletter[3]
+2-15	107-114	tehrter	_	_
+2-16	115-121	Freund	_	_
+2-17	122-123	.	_	_
+
+#Text=Der Vicepresidente dellInstituto hat sich hier ins Klume zurückgezogen um `` Freunde und Gemälde '' unsrer Hauptstadt zu genießen , der Demokrat Bonaparte von Rom Anz in unsre Museen und die Akademie geguckt , Braun fährt vor unsern Ihoren vorbei 2 una bei so viel Hanu .
+3-1	124-127	Der	_	_
+3-2	128-142	Vicepresidente	_	_
+3-3	143-156	dellInstituto	_	_
+3-4	157-160	hat	_	_
+3-5	161-165	sich	_	_
+3-6	166-170	hier	_	_
+3-7	171-174	ins	_	_
+3-8	175-180	Klume	_	_
+3-9	181-194	zurückgezogen	_	_
+3-10	195-197	um	_	_
+3-11	198-200	``	_	_
+3-12	201-208	Freunde	_	_
+3-13	209-212	und	_	_
+3-14	213-220	Gemälde	_	_
+3-15	221-223	''	_	_
+3-16	224-230	unsrer	_	_
+3-17	231-241	Hauptstadt	_	_
+3-18	242-244	zu	_	_
+3-19	245-253	genießen	_	_
+3-20	254-255	,	_	_
+3-21	256-259	der	_	_
+3-22	260-268	Demokrat	_	_
+3-23	269-278	Bonaparte	*	PERmentioned
+3-24	279-282	von	_	_
+3-25	283-286	Rom	*	PLACEmentioned
+3-26	287-290	Anz	_	_
+3-27	291-293	in	_	_
+3-28	294-299	unsre	_	_
+3-29	300-306	Museen	_	_
+3-30	307-310	und	_	_
+3-31	311-314	die	_	_
+3-32	315-323	Akademie	*	ORGmentioned
+3-33	324-331	geguckt	_	_
+3-34	332-333	,	_	_
+3-35	334-339	Braun	*	PERmentioned
+3-36	340-345	fährt	_	_
+3-37	346-349	vor	_	_
+3-38	350-356	unsern	_	_
+3-39	357-363	Ihoren	_	_
+3-40	364-370	vorbei	_	_
+3-41	371-372	2	_	_
+3-42	373-376	una	_	_
+3-43	377-380	bei	_	_
+3-44	381-383	so	_	_
+3-45	384-388	viel	_	_
+3-46	389-393	Hanu	_	_
+3-47	394-395	.	_	_
+
+#Text=bergen aus dem aufgerüttelten Rom habe ich immer noch als an einen Stillsitzenden an Sie zu schreiben .
+4-1	396-402	bergen	_	_
+4-2	403-406	aus	_	_
+4-3	407-410	dem	_	_
+4-4	411-425	aufgerüttelten	_	_
+4-5	426-429	Rom	*	PLACEmentioned
+4-6	430-434	habe	_	_
+4-7	435-438	ich	_	_
+4-8	439-444	immer	_	_
+4-9	445-449	noch	_	_
+4-10	450-453	als	_	_
+4-11	454-456	an	_	_
+4-12	457-462	einen	_	_
+4-13	463-477	Stillsitzenden	_	_
+4-14	478-480	an	_	_
+4-15	481-484	Sie	_	_
+4-16	485-487	zu	_	_
+4-17	488-497	schreiben	_	_
+4-18	498-499	.	_	_
+
+#Text=Seien Sie im Namen des Instituts schönstens dafür bedankt , und N Ihrer Geduld nicht zu lange geprüft werden , denn Sommerfrische bedürfen Sie !
+5-1	500-505	Seien	_	_
+5-2	506-509	Sie	_	_
+5-3	510-512	im	_	_
+5-4	513-518	Namen	_	_
+5-5	519-522	des	_	_
+5-6	523-532	Instituts	*	ORGmentioned
+5-7	533-543	schönstens	_	_
+5-8	544-549	dafür	_	_
+5-9	550-557	bedankt	_	_
+5-10	558-559	,	_	_
+5-11	560-563	und	_	_
+5-12	564-565	N	_	_
+5-13	566-571	Ihrer	_	_
+5-14	572-578	Geduld	_	_
+5-15	579-584	nicht	_	_
+5-16	585-587	zu	_	_
+5-17	588-593	lange	_	_
+5-18	594-601	geprüft	_	_
+5-19	602-608	werden	_	_
+5-20	609-610	,	_	_
+5-21	611-615	denn	_	_
+5-22	616-629	Sommerfrische	_	_
+5-23	630-638	bedürfen	_	_
+5-24	639-642	Sie	_	_
+5-25	643-644	!	_	_
+
+#Text=Wie ist es für Braun möglich gewesen , Brunns Vicariat für so lange Zeit verlangen und vergüten zu können ?
+6-1	645-648	Wie	_	_
+6-2	649-652	ist	_	_
+6-3	653-655	es	_	_
+6-4	656-659	für	_	_
+6-5	660-665	Braun	*	PERmentioned
+6-6	666-673	möglich	_	_
+6-7	674-681	gewesen	_	_
+6-8	682-683	,	_	_
+6-9	684-690	Brunns	*	PERmentioned
+6-10	691-699	Vicariat	_	_
+6-11	700-703	für	_	_
+6-12	704-706	so	_	_
+6-13	707-712	lange	_	_
+6-14	713-717	Zeit	_	_
+6-15	718-727	verlangen	_	_
+6-16	728-731	und	_	_
+6-17	732-740	vergüten	_	_
+6-18	741-743	zu	_	_
+6-19	744-750	können	_	_
+6-20	751-752	?	_	_
+
+#Text=Und kann Brunn für alle Correspondenz einstehn ?
+7-1	753-756	Und	_	_
+7-2	757-761	kann	_	_
+7-3	762-767	Brunn	*	PERmentioned
+7-4	768-771	für	_	_
+7-5	772-776	alle	_	_
+7-6	777-790	Correspondenz	_	_
+7-7	791-799	einstehn	_	_
+7-8	800-801	?	_	_
+
+#Text=Wohlbegründete Restaurationen alter Kunstwerke können in Monum .
+8-1	802-816	Wohlbegründete	_	_
+8-2	817-831	Restaurationen	_	_
+8-3	832-837	alter	_	_
+8-4	838-848	Kunstwerke	_	_
+8-5	849-855	können	_	_
+8-6	856-858	in	_	_
+8-7	859-864	Monum	_	_
+8-8	865-866	.	_	_
+
+#Text=ined .
+9-1	867-871	ined	_	_
+9-2	872-873	.	_	_
+
+#Text=eben auch eine Stelle einnehmen , nur nicht mehrere selbstständige Blätter , und erfahre ich wol gelegentlich von Braun etwas mehr darüber , Sieben Tafeln Via Appia ist viel , werden aber , wohl vertheilt , willkommen sein .
+10-1	874-878	eben	_	_
+10-2	879-883	auch	_	_
+10-3	884-888	eine	_	_
+10-4	889-895	Stelle	_	_
+10-5	896-905	einnehmen	_	_
+10-6	906-907	,	_	_
+10-7	908-911	nur	_	_
+10-8	912-917	nicht	_	_
+10-9	918-925	mehrere	_	_
+10-10	926-940	selbstständige	_	_
+10-11	941-948	Blätter	_	_
+10-12	949-950	,	_	_
+10-13	951-954	und	_	_
+10-14	955-962	erfahre	_	_
+10-15	963-966	ich	_	_
+10-16	967-970	wol	_	_
+10-17	971-983	gelegentlich	_	_
+10-18	984-987	von	_	_
+10-19	988-993	Braun	*	PERmentioned
+10-20	994-999	etwas	_	_
+10-21	1000-1004	mehr	_	_
+10-22	1005-1012	darüber	_	_
+10-23	1013-1014	,	_	_
+10-24	1015-1021	Sieben	_	_
+10-25	1022-1028	Tafeln	_	_
+10-26	1029-1032	Via	*[4]	PLACEmentioned[4]
+10-27	1033-1038	Appia	*[4]	PLACEmentioned[4]
+10-28	1039-1042	ist	_	_
+10-29	1043-1047	viel	_	_
+10-30	1048-1049	,	_	_
+10-31	1050-1056	werden	_	_
+10-32	1057-1061	aber	_	_
+10-33	1062-1063	,	_	_
+10-34	1064-1068	wohl	_	_
+10-35	1069-1078	vertheilt	_	_
+10-36	1079-1080	,	_	_
+10-37	1081-1091	willkommen	_	_
+10-38	1092-1096	sein	_	_
+10-39	1097-1098	.	_	_
+
+#Text=Wagner immer noch der - Bader Bär aber vorzugsweise Baier \| Die Einlage an Friedlaender wird besorgt \; ich bit-
+11-1	1099-1105	Wagner	*	PERmentioned
+11-2	1106-1111	immer	_	_
+11-3	1112-1116	noch	_	_
+11-4	1117-1120	der	_	_
+11-5	1121-1122	-	_	_
+11-6	1123-1128	Bader	_	_
+11-7	1129-1132	Bär	_	_
+11-8	1133-1137	aber	_	_
+11-9	1138-1150	vorzugsweise	_	_
+11-10	1151-1156	Baier	*	PERmentioned
+11-11	1157-1158	\|	_	_
+11-12	1159-1162	Die	_	_
+11-13	1163-1170	Einlage	_	_
+11-14	1171-1173	an	_	_
+11-15	1174-1186	Friedlaender	*	PERmentioned
+11-16	1187-1191	wird	_	_
+11-17	1192-1199	besorgt	_	_
+11-18	1200-1201	\;	_	_
+11-19	1202-1205	ich	_	_
+11-20	1206-1210	bit-	_	_

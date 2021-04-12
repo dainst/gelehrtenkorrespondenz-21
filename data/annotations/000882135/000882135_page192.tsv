@@ -1,0 +1,301 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=13 Braun an Gerhard Rom , 14 .
+1-1	0-2	13	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	14	*[4]	DATEletter[4]
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1840 stimmt mich für Alpheus .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1840	*[4]	DATEletter[4]
+2-3	43-49	stimmt	_	_
+2-4	50-54	mich	_	_
+2-5	55-58	für	_	_
+2-6	59-66	Alpheus	*	MISC
+2-7	67-68	.	_	_
+
+#Text=- Aber was sagen Sie zu dieser sublimen Composition ?
+3-1	69-70	-	_	_
+3-2	71-75	Aber	_	_
+3-3	76-79	was	_	_
+3-4	80-85	sagen	_	_
+3-5	86-89	Sie	_	_
+3-6	90-92	zu	_	_
+3-7	93-99	dieser	_	_
+3-8	100-108	sublimen	_	_
+3-9	109-120	Composition	_	_
+3-10	121-122	?	_	_
+
+#Text=Haben Sie schon etwas ähnliches gesehen ?
+4-1	123-128	Haben	_	_
+4-2	129-132	Sie	_	_
+4-3	133-138	schon	_	_
+4-4	139-144	etwas	_	_
+4-5	145-154	ähnliches	_	_
+4-6	155-162	gesehen	_	_
+4-7	163-164	?	_	_
+
+#Text=Cardinalis Abhandlung über den Dreifußraub ist noch gar nicht gedruckt \; die von Melchiorri wird Ihnen nicht viel Neues lehren .
+5-1	165-175	Cardinalis	*	PERmentioned
+5-2	176-186	Abhandlung	_	_
+5-3	187-191	über	_	_
+5-4	192-195	den	_	_
+5-5	196-207	Dreifußraub	*	OBJ
+5-6	208-211	ist	_	_
+5-7	212-216	noch	_	_
+5-8	217-220	gar	_	_
+5-9	221-226	nicht	_	_
+5-10	227-235	gedruckt	_	_
+5-11	236-237	\;	_	_
+5-12	238-241	die	_	_
+5-13	242-245	von	_	_
+5-14	246-256	Melchiorri	*	PERmentioned
+5-15	257-261	wird	_	_
+5-16	262-267	Ihnen	_	_
+5-17	268-273	nicht	_	_
+5-18	274-278	viel	_	_
+5-19	279-284	Neues	_	_
+5-20	285-291	lehren	_	_
+5-21	292-293	.	_	_
+
+#Text=Sie erhalten Sie übrigens mit nächsten .
+6-1	294-297	Sie	_	_
+6-2	298-306	erhalten	_	_
+6-3	307-310	Sie	_	_
+6-4	311-319	übrigens	_	_
+6-5	320-323	mit	_	_
+6-6	324-332	nächsten	_	_
+6-7	333-334	.	_	_
+
+#Text=Die Vasen warten also nun auf den Abgang der Skulpturen , was mir in mehr als einer Beziehung vortheilhaft erscheint , obwohl sie jetzt marschfertig sind .
+7-1	335-338	Die	_	_
+7-2	339-344	Vasen	*	OBJ
+7-3	345-351	warten	_	_
+7-4	352-356	also	_	_
+7-5	357-360	nun	_	_
+7-6	361-364	auf	_	_
+7-7	365-368	den	_	_
+7-8	369-375	Abgang	_	_
+7-9	376-379	der	_	_
+7-10	380-390	Skulpturen	*	OBJ
+7-11	391-392	,	_	_
+7-12	393-396	was	_	_
+7-13	397-400	mir	_	_
+7-14	401-403	in	_	_
+7-15	404-408	mehr	_	_
+7-16	409-412	als	_	_
+7-17	413-418	einer	_	_
+7-18	419-428	Beziehung	_	_
+7-19	429-441	vortheilhaft	_	_
+7-20	442-451	erscheint	_	_
+7-21	452-453	,	_	_
+7-22	454-460	obwohl	_	_
+7-23	461-464	sie	_	_
+7-24	465-470	jetzt	_	_
+7-25	471-483	marschfertig	_	_
+7-26	484-488	sind	_	_
+7-27	489-490	.	_	_
+
+#Text=Die mir äußerst lästigen Institutsbesoldungsangelegenheiten werden sich ja wohl nun ausgleichen .
+8-1	491-494	Die	_	_
+8-2	495-498	mir	_	_
+8-3	499-506	äußerst	_	_
+8-4	507-515	lästigen	_	_
+8-5	516-550	Institutsbesoldungsangelegenheiten	_	_
+8-6	551-557	werden	_	_
+8-7	558-562	sich	_	_
+8-8	563-565	ja	_	_
+8-9	566-570	wohl	_	_
+8-10	571-574	nun	_	_
+8-11	575-586	ausgleichen	_	_
+8-12	587-588	.	_	_
+
+#Text=Ich bitte nochmals das Spital außer Spiel zu lassen .
+9-1	589-592	Ich	_	_
+9-2	593-598	bitte	_	_
+9-3	599-607	nochmals	_	_
+9-4	608-611	das	_	_
+9-5	612-618	Spital	_	_
+9-6	619-624	außer	_	_
+9-7	625-630	Spiel	_	_
+9-8	631-633	zu	_	_
+9-9	634-640	lassen	_	_
+9-10	641-642	.	_	_
+
+#Text=Vebrigens ist es eine sehr imaginäre Berechnung das Quartier auf 200 Scudi anzusetzen .
+10-1	643-652	Vebrigens	_	_
+10-2	653-656	ist	_	_
+10-3	657-659	es	_	_
+10-4	660-664	eine	_	_
+10-5	665-669	sehr	_	_
+10-6	670-679	imaginäre	_	_
+10-7	680-690	Berechnung	_	_
+10-8	691-694	das	_	_
+10-9	695-703	Quartier	_	_
+10-10	704-707	auf	_	_
+10-11	708-711	200	_	_
+10-12	712-717	Scudi	_	_
+10-13	718-728	anzusetzen	_	_
+10-14	729-730	.	_	_
+
+#Text=Ein Quartier wie ich es brauche kostet nie über 84 Scudi .
+11-1	731-734	Ein	_	_
+11-2	735-743	Quartier	_	_
+11-3	744-747	wie	_	_
+11-4	748-751	ich	_	_
+11-5	752-754	es	_	_
+11-6	755-762	brauche	_	_
+11-7	763-769	kostet	_	_
+11-8	770-773	nie	_	_
+11-9	774-778	über	_	_
+11-10	779-781	84	_	_
+11-11	782-787	Scudi	_	_
+11-12	788-789	.	_	_
+
+#Text=Bringen nir die Verhältnisse ein Größeres , so ist dies Gewinn , aber nicht anschlagsmäßig .
+12-1	790-797	Bringen	_	_
+12-2	798-801	nir	_	_
+12-3	802-805	die	_	_
+12-4	806-818	Verhältnisse	_	_
+12-5	819-822	ein	_	_
+12-6	823-831	Größeres	_	_
+12-7	832-833	,	_	_
+12-8	834-836	so	_	_
+12-9	837-840	ist	_	_
+12-10	841-845	dies	_	_
+12-11	846-852	Gewinn	_	_
+12-12	853-854	,	_	_
+12-13	855-859	aber	_	_
+12-14	860-865	nicht	_	_
+12-15	866-880	anschlagsmäßig	_	_
+12-16	881-882	.	_	_
+
+#Text=—- Mühe habe ich und noch mehr meine Frau genug vom Haus .
+13-1	883-885	—-	_	_
+13-2	886-890	Mühe	_	_
+13-3	891-895	habe	_	_
+13-4	896-899	ich	_	_
+13-5	900-903	und	_	_
+13-6	904-908	noch	_	_
+13-7	909-913	mehr	_	_
+13-8	914-919	meine	_	_
+13-9	920-924	Frau	_	_
+13-10	925-930	genug	_	_
+13-11	931-934	vom	_	_
+13-12	935-939	Haus	_	_
+13-13	940-941	.	_	_
+
+#Text=Es darf also gar nicht mit anderen Mühhabungen zusammengeschmissen werden .
+14-1	942-944	Es	_	_
+14-2	945-949	darf	_	_
+14-3	950-954	also	_	_
+14-4	955-958	gar	_	_
+14-5	959-964	nicht	_	_
+14-6	965-968	mit	_	_
+14-7	969-976	anderen	_	_
+14-8	977-988	Mühhabungen	_	_
+14-9	989-1008	zusammengeschmissen	_	_
+14-10	1009-1015	werden	_	_
+14-11	1016-1017	.	_	_
+
+#Text=In Beziehung auf das Institut so überlegen Sie Sich in Gottes Namen meine Stellung mit Lepsius .
+15-1	1018-1020	In	_	_
+15-2	1021-1030	Beziehung	_	_
+15-3	1031-1034	auf	_	_
+15-4	1035-1038	das	_	_
+15-5	1039-1047	Institut	*	ORGmentioned
+15-6	1048-1050	so	_	_
+15-7	1051-1060	überlegen	_	_
+15-8	1061-1064	Sie	_	_
+15-9	1065-1069	Sich	_	_
+15-10	1070-1072	in	_	_
+15-11	1073-1079	Gottes	_	_
+15-12	1080-1085	Namen	_	_
+15-13	1086-1091	meine	_	_
+15-14	1092-1100	Stellung	_	_
+15-15	1101-1104	mit	_	_
+15-16	1105-1112	Lepsius	*	PERmentioned
+15-17	1113-1114	.	_	_
+
+#Text=Er .
+16-1	1115-1117	Er	_	_
+16-2	1118-1119	.	_	_
+
+#Text=kann am besten beurtheilen , was mir seit Jahren zusteht , und wie ich mich habe durchschlagen müssen .
+17-1	1120-1124	kann	_	_
+17-2	1125-1127	am	_	_
+17-3	1128-1134	besten	_	_
+17-4	1135-1146	beurtheilen	_	_
+17-5	1147-1148	,	_	_
+17-6	1149-1152	was	_	_
+17-7	1153-1156	mir	_	_
+17-8	1157-1161	seit	_	_
+17-9	1162-1168	Jahren	_	_
+17-10	1169-1176	zusteht	_	_
+17-11	1177-1178	,	_	_
+17-12	1179-1182	und	_	_
+17-13	1183-1186	wie	_	_
+17-14	1187-1190	ich	_	_
+17-15	1191-1195	mich	_	_
+17-16	1196-1200	habe	_	_
+17-17	1201-1214	durchschlagen	_	_
+17-18	1215-1221	müssen	_	_
+17-19	1222-1223	.	_	_
+
+#Text=Machen Sie es übrigens wie Sie wollen .
+18-1	1224-1230	Machen	_	_
+18-2	1231-1234	Sie	_	_
+18-3	1235-1237	es	_	_
+18-4	1238-1246	übrigens	_	_
+18-5	1247-1250	wie	_	_
+18-6	1251-1254	Sie	_	_
+18-7	1255-1261	wollen	_	_
+18-8	1262-1263	.	_	_
+
+#Text=Sehe ich keine Möglichkeit mehr unter solchen Bedingungen auszuhalten , so befreie ich mich von einer Last , die ehrlich mit keiner geringen Verantwortlichkeit verbunden ist .
+19-1	1264-1268	Sehe	_	_
+19-2	1269-1272	ich	_	_
+19-3	1273-1278	keine	_	_
+19-4	1279-1290	Möglichkeit	_	_
+19-5	1291-1295	mehr	_	_
+19-6	1296-1301	unter	_	_
+19-7	1302-1309	solchen	_	_
+19-8	1310-1321	Bedingungen	_	_
+19-9	1322-1333	auszuhalten	_	_
+19-10	1334-1335	,	_	_
+19-11	1336-1338	so	_	_
+19-12	1339-1346	befreie	_	_
+19-13	1347-1350	ich	_	_
+19-14	1351-1355	mich	_	_
+19-15	1356-1359	von	_	_
+19-16	1360-1365	einer	_	_
+19-17	1366-1370	Last	_	_
+19-18	1371-1372	,	_	_
+19-19	1373-1376	die	_	_
+19-20	1377-1384	ehrlich	_	_
+19-21	1385-1388	mit	_	_
+19-22	1389-1395	keiner	_	_
+19-23	1396-1404	geringen	_	_
+19-24	1405-1423	Verantwortlichkeit	_	_
+19-25	1424-1433	verbunden	_	_
+19-26	1434-1437	ist	_	_
+19-27	1438-1439	.	_	_
+
+#Text=Denken Sie Sich nur immer recht an meine Stelle !
+20-1	1440-1446	Denken	_	_
+20-2	1447-1450	Sie	_	_
+20-3	1451-1455	Sich	_	_
+20-4	1456-1459	nur	_	_
+20-5	1460-1465	immer	_	_
+20-6	1466-1471	recht	_	_
+20-7	1472-1474	an	_	_
+20-8	1475-1480	meine	_	_
+20-9	1481-1487	Stelle	_	_
+20-10	1488-1489	!	_	_

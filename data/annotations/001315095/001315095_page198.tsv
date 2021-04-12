@@ -1,0 +1,90 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=“ omg Mommsen an Brunn Charlottenburg 11. Februar 1891 zu theilen \| !
+1-1	0-1	“	_	_
+1-2	2-5	omg	_	_
+1-3	6-13	Mommsen	*	PERauthor
+1-4	14-16	an	_	_
+1-5	17-22	Brunn	*	PERaddressee
+1-6	23-37	Charlottenburg	*	PLACEfrom
+1-7	38-41	11.	*[1]	DATEletter[1]
+1-8	42-49	Februar	*[1]	DATEletter[1]
+1-9	50-54	1891	*[1]	DATEletter[1]
+1-10	55-57	zu	_	_
+1-11	58-65	theilen	_	_
+1-12	66-67	\|	_	_
+1-13	68-69	!	_	_
+
+#Text=Wenn Du wüßtest , theils wie unbeschreiblich verkehrt dies ist , theils wie ich dies für mich als einen Stoß ins Herz betrachte , so würdest Du so nicht schreiben .
+2-1	70-74	Wenn	_	_
+2-2	75-77	Du	_	_
+2-3	78-85	wüßtest	_	_
+2-4	86-87	,	_	_
+2-5	88-94	theils	_	_
+2-6	95-98	wie	_	_
+2-7	99-114	unbeschreiblich	_	_
+2-8	115-123	verkehrt	_	_
+2-9	124-128	dies	_	_
+2-10	129-132	ist	_	_
+2-11	133-134	,	_	_
+2-12	135-141	theils	_	_
+2-13	142-145	wie	_	_
+2-14	146-149	ich	_	_
+2-15	150-154	dies	_	_
+2-16	155-158	für	_	_
+2-17	159-163	mich	_	_
+2-18	164-167	als	_	_
+2-19	168-173	einen	_	_
+2-20	174-178	Stoß	_	_
+2-21	179-182	ins	_	_
+2-22	183-187	Herz	_	_
+2-23	188-197	betrachte	_	_
+2-24	198-199	,	_	_
+2-25	200-202	so	_	_
+2-26	203-210	würdest	_	_
+2-27	211-213	Du	_	_
+2-28	214-216	so	_	_
+2-29	217-222	nicht	_	_
+2-30	223-232	schreiben	_	_
+2-31	233-234	.	_	_
+
+#Text=Aber unser armes Vaterland ist trotz der scheinhaften Einigung so zerrißen und , und unsre Kinder werden dafür büßen müssen .
+3-1	235-239	Aber	_	_
+3-2	240-245	unser	_	_
+3-3	246-251	armes	_	_
+3-4	252-261	Vaterland	_	_
+3-5	262-265	ist	_	_
+3-6	266-271	trotz	_	_
+3-7	272-275	der	_	_
+3-8	276-288	scheinhaften	_	_
+3-9	289-297	Einigung	_	_
+3-10	298-300	so	_	_
+3-11	301-309	zerrißen	_	_
+3-12	310-313	und	_	_
+3-13	314-315	,	_	_
+3-14	316-319	und	_	_
+3-15	320-325	unsre	_	_
+3-16	326-332	Kinder	_	_
+3-17	333-339	werden	_	_
+3-18	340-345	dafür	_	_
+3-19	346-351	büßen	_	_
+3-20	352-358	müssen	_	_
+3-21	359-360	.	_	_
+
+#Text=Lebewohl .
+4-1	361-369	Lebewohl	_	_
+4-2	370-371	.	_	_
+
+#Text=M. Ch . 11 Febr .
+5-1	372-374	M.	*	PERauthor
+5-2	375-377	Ch	*	PLACEfrom
+5-3	378-379	.	_	_
+5-4	380-382	11	*[2]	DATEletter[2]
+5-5	383-387	Febr	*[2]	DATEletter[2]
+5-6	388-389	.	*[2]	DATEletter[2]
+
+#Text=91 .
+6-1	390-392	91	_	_
+6-2	393-394	.	_	_

@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Be in 3 er Bunsen an rbancl Rom ?
+1-1	0-2	Be	_	_
+1-2	3-5	in	_	_
+1-3	6-7	3	_	_
+1-4	8-10	er	_	_
+1-5	11-17	Bunsen	*	PERauthor
+1-6	18-20	an	_	_
+1-7	21-27	rbancl	_	_
+1-8	28-31	Rom	*	PLACEfrom
+1-9	32-33	?	_	_
+
+#Text=5. Februar 1838 2 ( ? )
+2-1	34-36	5.	*[3]	DATEletter[3]
+2-2	37-44	Februar	*[3]	DATEletter[3]
+2-3	45-49	1838	*[3]	DATEletter[3]
+2-4	50-51	2	_	_
+2-5	52-53	(	_	_
+2-6	54-55	?	_	_
+2-7	56-57	)	_	_
+
+#Text=Ic \| Altenst- Schlußworten eine Andeutung davon liegt : a auch sendet man Ihnen nur Geld ohne Befehl , .
+3-1	58-60	Ic	_	_
+3-2	61-62	\|	_	_
+3-3	63-71	Altenst-	_	_
+3-4	72-84	Schlußworten	_	_
+3-5	85-89	eine	_	_
+3-6	90-99	Andeutung	_	_
+3-7	100-105	davon	_	_
+3-8	106-111	liegt	_	_
+3-9	112-113	:	_	_
+3-10	114-115	a	_	_
+3-11	116-120	auch	_	_
+3-12	121-127	sendet	_	_
+3-13	128-131	man	_	_
+3-14	132-137	Ihnen	_	_
+3-15	138-141	nur	_	_
+3-16	142-146	Geld	_	_
+3-17	147-151	ohne	_	_
+3-18	152-158	Befehl	_	_
+3-19	159-160	,	_	_
+3-20	161-162	.	_	_
+
+#Text=so würde ich Ihnen die Reise anrathen .
+4-1	163-165	so	_	_
+4-2	166-171	würde	_	_
+4-3	172-175	ich	_	_
+4-4	176-181	Ihnen	_	_
+4-5	182-185	die	_	_
+4-6	186-191	Reise	_	_
+4-7	192-200	anrathen	_	_
+4-8	201-202	.	_	_
+
+#Text=„ tens Das Bullettino muß gehalten werden , und zwar hier .
+5-1	203-204	„	_	_
+5-2	205-209	tens	_	_
+5-3	210-213	Das	_	_
+5-4	214-224	Bullettino	_	_
+5-5	225-228	muß	_	_
+5-6	229-237	gehalten	_	_
+5-7	238-244	werden	_	_
+5-8	245-246	,	_	_
+5-9	247-250	und	_	_
+5-10	251-255	zwar	_	_
+5-11	256-260	hier	_	_
+5-12	261-262	.	_	_
+
+#Text=Neben den Annali ist es , bei Amb ( rosch ) unvermeidlichen Ausscheiden unmöglich .
+6-1	263-268	Neben	_	_
+6-2	269-272	den	_	_
+6-3	273-279	Annali	_	_
+6-4	280-283	ist	_	_
+6-5	284-286	es	_	_
+6-6	287-288	,	_	_
+6-7	289-292	bei	_	_
+6-8	293-296	Amb	*[10]	PERmentioned[10]
+6-9	297-298	(	*[10]	PERmentioned[10]
+6-10	299-304	rosch	*[10]	PERmentioned[10]
+6-11	305-306	)	*[10]	PERmentioned[10]
+6-12	307-322	unvermeidlichen	_	_
+6-13	323-334	Ausscheiden	_	_
+6-14	335-344	unmöglich	_	_
+6-15	345-346	.	_	_
+
+#Text=Alles was Sie thun können , ist dieß hier monatlich erscheinen zu lassen , und so aufzuräumen , daß wir bei Ihrem Abgange die Sache fortsetzen können , wozu ich alsdann gern meine ernstliche Mitwirkung verspreche , in der Hoffnung Ihrer Rückkehr in 1 - 1 1/2 Jahren .
+7-1	347-352	Alles	_	_
+7-2	353-356	was	_	_
+7-3	357-360	Sie	_	_
+7-4	361-365	thun	_	_
+7-5	366-372	können	_	_
+7-6	373-374	,	_	_
+7-7	375-378	ist	_	_
+7-8	379-383	dieß	_	_
+7-9	384-388	hier	_	_
+7-10	389-398	monatlich	_	_
+7-11	399-409	erscheinen	_	_
+7-12	410-412	zu	_	_
+7-13	413-419	lassen	_	_
+7-14	420-421	,	_	_
+7-15	422-425	und	_	_
+7-16	426-428	so	_	_
+7-17	429-440	aufzuräumen	_	_
+7-18	441-442	,	_	_
+7-19	443-446	daß	_	_
+7-20	447-450	wir	_	_
+7-21	451-454	bei	_	_
+7-22	455-460	Ihrem	_	_
+7-23	461-468	Abgange	_	_
+7-24	469-472	die	_	_
+7-25	473-478	Sache	_	_
+7-26	479-489	fortsetzen	_	_
+7-27	490-496	können	_	_
+7-28	497-498	,	_	_
+7-29	499-503	wozu	_	_
+7-30	504-507	ich	_	_
+7-31	508-515	alsdann	_	_
+7-32	516-520	gern	_	_
+7-33	521-526	meine	_	_
+7-34	527-537	ernstliche	_	_
+7-35	538-548	Mitwirkung	_	_
+7-36	549-559	verspreche	_	_
+7-37	560-561	,	_	_
+7-38	562-564	in	_	_
+7-39	565-568	der	_	_
+7-40	569-577	Hoffnung	_	_
+7-41	578-583	Ihrer	_	_
+7-42	584-592	Rückkehr	_	_
+7-43	593-595	in	_	_
+7-44	596-597	1	_	_
+7-45	598-599	-	_	_
+7-46	600-601	1	_	_
+7-47	602-605	1/2	_	_
+7-48	606-612	Jahren	_	_
+7-49	613-614	.	_	_
+
+#Text=Ich habe den ökonomischen Punkt nicht berührt , weil ich ihn nicht kenne .
+8-1	615-618	Ich	_	_
+8-2	619-623	habe	_	_
+8-3	624-627	den	_	_
+8-4	628-640	ökonomischen	_	_
+8-5	641-646	Punkt	_	_
+8-6	647-652	nicht	_	_
+8-7	653-660	berührt	_	_
+8-8	661-662	,	_	_
+8-9	663-667	weil	_	_
+8-10	668-671	ich	_	_
+8-11	672-675	ihn	_	_
+8-12	676-681	nicht	_	_
+8-13	682-687	kenne	_	_
+8-14	688-689	.	_	_
+
+#Text=Unmöglich aber kann ich mir denken , daß darin Gründe gegen mich sein sollten .
+9-1	690-699	Unmöglich	_	_
+9-2	700-704	aber	_	_
+9-3	705-709	kann	_	_
+9-4	710-713	ich	_	_
+9-5	714-717	mir	_	_
+9-6	718-724	denken	_	_
+9-7	725-726	,	_	_
+9-8	727-730	daß	_	_
+9-9	731-736	darin	_	_
+9-10	737-743	Gründe	_	_
+9-11	744-749	gegen	_	_
+9-12	750-754	mich	_	_
+9-13	755-759	sein	_	_
+9-14	760-767	sollten	_	_
+9-15	768-769	.	_	_
+
+#Text=Die ganz unhaltbare Methode der Zahlung in England und Deutschland wird sich erst bessern , wenn die Expeditionp von Paris gemacht werden xönnkh .
+10-1	770-773	Die	_	_
+10-2	774-778	ganz	_	_
+10-3	779-789	unhaltbare	_	_
+10-4	790-797	Methode	_	_
+10-5	798-801	der	_	_
+10-6	802-809	Zahlung	_	_
+10-7	810-812	in	_	_
+10-8	813-820	England	*	PLACEmentioned
+10-9	821-824	und	_	_
+10-10	825-836	Deutschland	*	PLACEmentioned
+10-11	837-841	wird	_	_
+10-12	842-846	sich	_	_
+10-13	847-851	erst	_	_
+10-14	852-859	bessern	_	_
+10-15	860-861	,	_	_
+10-16	862-866	wenn	_	_
+10-17	867-870	die	_	_
+10-18	871-882	Expeditionp	_	_
+10-19	883-886	von	_	_
+10-20	887-892	Paris	*	PLACEmentioned
+10-21	893-900	gemacht	_	_
+10-22	901-907	werden	_	_
+10-23	908-914	xönnkh	_	_
+10-24	915-916	.	_	_
+
+#Text=Nehmen Sie diese Betrachtungen freundlich auf , und lassen uns bald darüber mündlich oder schriftlich weiter verhandeln .
+11-1	917-923	Nehmen	_	_
+11-2	924-927	Sie	_	_
+11-3	928-933	diese	_	_
+11-4	934-947	Betrachtungen	_	_
+11-5	948-958	freundlich	_	_
+11-6	959-962	auf	_	_
+11-7	963-964	,	_	_
+11-8	965-968	und	_	_
+11-9	969-975	lassen	_	_
+11-10	976-979	uns	_	_
+11-11	980-984	bald	_	_
+11-12	985-992	darüber	_	_
+11-13	993-1001	mündlich	_	_
+11-14	1002-1006	oder	_	_
+11-15	1007-1018	schriftlich	_	_
+11-16	1019-1025	weiter	_	_
+11-17	1026-1036	verhandeln	_	_
+11-18	1037-1038	.	_	_
+
+#Text=Herzlich der .
+12-1	1039-1047	Herzlich	_	_
+12-2	1048-1051	der	_	_
+12-3	1052-1053	.	_	_
+
+#Text=Ihrige Bn 5 Febr Morgens
+13-1	1054-1060	Ihrige	_	_
+13-2	1061-1063	Bn	*	PERauthor
+13-3	1064-1065	5	*[9]	DATEletter[9]
+13-4	1066-1070	Febr	*[9]	DATEletter[9]
+13-5	1071-1078	Morgens	_	_

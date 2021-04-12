@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 9. Dezember 1834 Zeichnung bezahlt haben werde \; um so mehr habe ich Grund , die letztere bald zu wünschen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	9.	*[4]	DATEletter[4]
+1-7	29-37	Dezember	*[4]	DATEletter[4]
+1-8	38-42	1834	*[4]	DATEletter[4]
+1-9	43-52	Zeichnung	_	_
+1-10	53-60	bezahlt	_	_
+1-11	61-66	haben	_	_
+1-12	67-72	werde	_	_
+1-13	73-74	\;	_	_
+1-14	75-77	um	_	_
+1-15	78-80	so	_	_
+1-16	81-85	mehr	_	_
+1-17	86-90	habe	_	_
+1-18	91-94	ich	_	_
+1-19	95-100	Grund	_	_
+1-20	101-102	,	_	_
+1-21	103-106	die	_	_
+1-22	107-115	letztere	_	_
+1-23	116-120	bald	_	_
+1-24	121-123	zu	_	_
+1-25	124-132	wünschen	_	_
+1-26	133-134	.	_	_
+
+#Text=Dank für die Notizen des Inhalts der Kisten : Mit Cades sind Sie ja nun gut heraus .
+2-1	135-139	Dank	_	_
+2-2	140-143	für	_	_
+2-3	144-147	die	_	_
+2-4	148-155	Notizen	_	_
+2-5	156-159	des	_	_
+2-6	160-167	Inhalts	_	_
+2-7	168-171	der	_	_
+2-8	172-178	Kisten	_	_
+2-9	179-180	:	_	_
+2-10	181-184	Mit	_	_
+2-11	185-190	Cades	*	PERmentioned
+2-12	191-195	sind	_	_
+2-13	196-199	Sie	_	_
+2-14	200-202	ja	_	_
+2-15	203-206	nun	_	_
+2-16	207-210	gut	_	_
+2-17	211-217	heraus	_	_
+2-18	218-219	.	_	_
+
+#Text=Für einige bibliographische Hülfe sorge ich vermittelst der Kisten .
+3-1	220-223	Für	_	_
+3-2	224-230	einige	_	_
+3-3	231-247	bibliographische	_	_
+3-4	248-253	Hülfe	_	_
+3-5	254-259	sorge	_	_
+3-6	260-263	ich	_	_
+3-7	264-275	vermittelst	_	_
+3-8	276-279	der	_	_
+3-9	280-286	Kisten	_	_
+3-10	287-288	.	_	_
+
+#Text=Wegen des Strabo für Cramer gehe ich noch heute zu Eichler .
+4-1	289-294	Wegen	_	_
+4-2	295-298	des	_	_
+4-3	299-305	Strabo	_	_
+4-4	306-309	für	_	_
+4-5	310-316	Cramer	*	PERmentioned
+4-6	317-321	gehe	_	_
+4-7	322-325	ich	_	_
+4-8	326-330	noch	_	_
+4-9	331-336	heute	_	_
+4-10	337-339	zu	_	_
+4-11	340-347	Eichler	*[12]	PERmentioned[12]
+4-12	348-349	.	*[12]	PERmentioned[12]
+
+#Text=Ein nützliches Strabo Register erfolgt im 4.ten Band der Übersetzung von Groß Kurt , den Parthey für das Institut den früheren Bänden nachzusenden verspricht .
+5-1	350-353	Ein	*[12]	PERmentioned[12]
+5-2	354-364	nützliches	_	_
+5-3	365-371	Strabo	_	_
+5-4	372-380	Register	_	_
+5-5	381-388	erfolgt	_	_
+5-6	389-391	im	_	_
+5-7	392-397	4.ten	_	_
+5-8	398-402	Band	_	_
+5-9	403-406	der	_	_
+5-10	407-418	Übersetzung	_	_
+5-11	419-422	von	_	_
+5-12	423-427	Groß	*[8]	PERmentioned[8]
+5-13	428-432	Kurt	*[8]	PERmentioned[8]
+5-14	433-434	,	_	_
+5-15	435-438	den	_	_
+5-16	439-446	Parthey	*	PERmentioned
+5-17	447-450	für	_	_
+5-18	451-454	das	_	_
+5-19	455-463	Institut	*	ORGmentioned
+5-20	464-467	den	_	_
+5-21	468-476	früheren	_	_
+5-22	477-483	Bänden	_	_
+5-23	484-496	nachzusenden	_	_
+5-24	497-507	verspricht	_	_
+5-25	508-509	.	_	_
+
+#Text=Ich fürchte nur , daß jene früheren von unserm wohlwollenden Freund aus Unkenntniß der römischen Verhältnisse an die deutsche Bibliothek gewiesen wurden , während das Institut dieses Buch recht gut brauchen kann .
+6-1	510-513	Ich	_	_
+6-2	514-521	fürchte	_	_
+6-3	522-525	nur	_	_
+6-4	526-527	,	_	_
+6-5	528-531	daß	_	_
+6-6	532-536	jene	_	_
+6-7	537-545	früheren	_	_
+6-8	546-549	von	_	_
+6-9	550-556	unserm	_	_
+6-10	557-570	wohlwollenden	_	_
+6-11	571-577	Freund	_	_
+6-12	578-581	aus	_	_
+6-13	582-592	Unkenntniß	_	_
+6-14	593-596	der	_	_
+6-15	597-606	römischen	_	_
+6-16	607-619	Verhältnisse	_	_
+6-17	620-622	an	_	_
+6-18	623-626	die	_	_
+6-19	627-635	deutsche	*[11]	ORGmentioned[11]
+6-20	636-646	Bibliothek	*[11]	ORGmentioned[11]
+6-21	647-655	gewiesen	_	_
+6-22	656-662	wurden	_	_
+6-23	663-664	,	_	_
+6-24	665-672	während	_	_
+6-25	673-676	das	_	_
+6-26	677-685	Institut	*	ORGmentioned
+6-27	686-692	dieses	_	_
+6-28	693-697	Buch	_	_
+6-29	698-703	recht	_	_
+6-30	704-707	gut	_	_
+6-31	708-716	brauchen	_	_
+6-32	717-721	kann	_	_
+6-33	722-723	.	_	_
+
+#Text=Übrigens \| präpariert Parthey einen neuen Millin auf eigne Faust \; in Paris , von worin französisches Exemplar für das Institut kaufen hieß , versicherte man mich , die Platten seyen noch in gutem Zustande , obwohl zunächst bestimmt samt und sonders die Fortsetzung des Guinotschen Treutzer zu begleiten .
+7-1	724-732	Übrigens	_	_
+7-2	733-734	\|	_	_
+7-3	735-745	präpariert	_	_
+7-4	746-753	Parthey	*	PERmentioned
+7-5	754-759	einen	_	_
+7-6	760-765	neuen	_	_
+7-7	766-772	Millin	*	PERmentioned
+7-8	773-776	auf	_	_
+7-9	777-782	eigne	_	_
+7-10	783-788	Faust	_	_
+7-11	789-790	\;	_	_
+7-12	791-793	in	_	_
+7-13	794-799	Paris	*	PLACEmentioned
+7-14	800-801	,	_	_
+7-15	802-805	von	_	_
+7-16	806-811	worin	_	_
+7-17	812-825	französisches	_	_
+7-18	826-834	Exemplar	_	_
+7-19	835-838	für	_	_
+7-20	839-842	das	_	_
+7-21	843-851	Institut	*	ORGmentioned
+7-22	852-858	kaufen	_	_
+7-23	859-863	hieß	_	_
+7-24	864-865	,	_	_
+7-25	866-877	versicherte	_	_
+7-26	878-881	man	_	_
+7-27	882-886	mich	_	_
+7-28	887-888	,	_	_
+7-29	889-892	die	_	_
+7-30	893-900	Platten	_	_
+7-31	901-906	seyen	_	_
+7-32	907-911	noch	_	_
+7-33	912-914	in	_	_
+7-34	915-920	gutem	_	_
+7-35	921-929	Zustande	_	_
+7-36	930-931	,	_	_
+7-37	932-938	obwohl	_	_
+7-38	939-947	zunächst	_	_
+7-39	948-956	bestimmt	_	_
+7-40	957-961	samt	_	_
+7-41	962-965	und	_	_
+7-42	966-973	sonders	_	_
+7-43	974-977	die	_	_
+7-44	978-989	Fortsetzung	_	_
+7-45	990-993	des	_	_
+7-46	994-1005	Guinotschen	_	_
+7-47	1006-1014	Treutzer	_	_
+7-48	1015-1017	zu	_	_
+7-49	1018-1027	begleiten	_	_
+7-50	1028-1029	.	_	_
+
+#Text=An der zweiten Auflage von Müllers Archäologie wird erst gedruckt .
+8-1	1030-1032	An	_	_
+8-2	1033-1036	der	_	_
+8-3	1037-1044	zweiten	_	_
+8-4	1045-1052	Auflage	_	_
+8-5	1053-1056	von	_	_
+8-6	1057-1064	Müllers	*	PERmentioned
+8-7	1065-1076	Archäologie	_	_
+8-8	1077-1081	wird	_	_
+8-9	1082-1086	erst	_	_
+8-10	1087-1095	gedruckt	_	_
+8-11	1096-1097	.	_	_
+
+#Text=Pinder hat ein Münzbüchlein herausgegeben , welches ich mit der Kiste schicke .
+9-1	1098-1104	Pinder	*	PERmentioned
+9-2	1105-1108	hat	_	_
+9-3	1109-1112	ein	_	_
+9-4	1113-1125	Münzbüchlein	_	_
+9-5	1126-1139	herausgegeben	_	_
+9-6	1140-1141	,	_	_
+9-7	1142-1149	welches	_	_
+9-8	1150-1153	ich	_	_
+9-9	1154-1157	mit	_	_
+9-10	1158-1161	der	_	_
+9-11	1162-1167	Kiste	_	_
+9-12	1168-1175	schicke	_	_
+9-13	1176-1177	.	_	_
+
+#Text=Den Varro betreffend , so hatte Müller denselben schon im Frühjahr als abgegeben für das Institut mir angekündigt , welchem mithin das an Kellermann adressirte Exemplar zweifels ohne gehört .
+10-1	1178-1181	Den	_	_
+10-2	1182-1187	Varro	_	_
+10-3	1188-1198	betreffend	_	_
+10-4	1199-1200	,	_	_
+10-5	1201-1203	so	_	_
+10-6	1204-1209	hatte	_	_
+10-7	1210-1216	Müller	*	PERmentioned
+10-8	1217-1226	denselben	_	_
+10-9	1227-1232	schon	_	_
+10-10	1233-1235	im	_	_
+10-11	1236-1244	Frühjahr	_	_
+10-12	1245-1248	als	_	_
+10-13	1249-1258	abgegeben	_	_
+10-14	1259-1262	für	_	_
+10-15	1263-1266	das	_	_
+10-16	1267-1275	Institut	*	ORGmentioned
+10-17	1276-1279	mir	_	_
+10-18	1280-1291	angekündigt	_	_
+10-19	1292-1293	,	_	_
+10-20	1294-1301	welchem	_	_
+10-21	1302-1308	mithin	_	_
+10-22	1309-1312	das	_	_
+10-23	1313-1315	an	_	_
+10-24	1316-1326	Kellermann	*	PERmentioned
+10-25	1327-1337	adressirte	_	_
+10-26	1338-1346	Exemplar	_	_
+10-27	1347-1355	zweifels	_	_
+10-28	1356-1360	ohne	_	_
+10-29	1361-1367	gehört	_	_
+10-30	1368-1369	.	_	_
+
+#Text=- Der angefangenen Bullettinobogen ist gut
+11-1	1370-1371	-	_	_
+11-2	1372-1375	Der	_	_
+11-3	1376-1388	angefangenen	_	_
+11-4	1389-1404	Bullettinobogen	_	_
+11-5	1405-1408	ist	_	_
+11-6	1409-1412	gut	_	_

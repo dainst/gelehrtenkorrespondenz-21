@@ -1,0 +1,248 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=265 Brunn an Henzen Paris , 23. Juni 1864 g- .
+1-1	0-3	265	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-25	Paris	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	23.	_	_
+1-8	32-36	Juni	_	_
+1-9	37-41	1864	_	_
+1-10	42-44	g-	_	_
+1-11	45-46	.	_	_
+
+#Text=27. Juni 71864 r . 28. Juni 71864 Paris , Donnerstag 23 Juni 1864 .
+2-1	47-50	27.	*[3]	DATEletter[3]
+2-2	51-55	Juni	*[3]	DATEletter[3]
+2-3	56-61	71864	*[3]	DATEletter[3]
+2-4	62-63	r	_	_
+2-5	64-65	.	_	_
+2-6	66-69	28.	*[4]	DATErecieved[4]
+2-7	70-74	Juni	*[4]	DATErecieved[4]
+2-8	75-80	71864	*[4]	DATErecieved[4]
+2-9	81-86	Paris	*	PLACEfrom
+2-10	87-88	,	_	_
+2-11	89-99	Donnerstag	*[6]	DATEletter[6]
+2-12	100-102	23	*[5]|*[6]	DATEanswered[5]|DATEletter[6]
+2-13	103-107	Juni	*[5]|*[6]	DATEanswered[5]|DATEletter[6]
+2-14	108-112	1864	*[5]|*[6]	DATEanswered[5]|DATEletter[6]
+2-15	113-114	.	_	_
+
+#Text=Lieber Henzen \| !
+3-1	115-121	Lieber	_	_
+3-2	122-128	Henzen	*	PERaddressee
+3-3	129-130	\|	_	_
+3-4	131-132	!	_	_
+
+#Text=Die Urnenzeichnung ist die richtige .
+4-1	133-136	Die	_	_
+4-2	137-151	Urnenzeichnung	_	_
+4-3	152-155	ist	_	_
+4-4	156-159	die	_	_
+4-5	160-168	richtige	_	_
+4-6	169-170	.	_	_
+
+#Text=Kein Zweifel , daß ich Bartoccini gesagt habe , die Unterweltsvase sei zu reduciren in die Größe einer gewöhnl .
+5-1	171-175	Kein	_	_
+5-2	176-183	Zweifel	_	_
+5-3	184-185	,	_	_
+5-4	186-189	daß	_	_
+5-5	190-193	ich	_	_
+5-6	194-204	Bartoccini	*	PERmentioned
+5-7	205-211	gesagt	_	_
+5-8	212-216	habe	_	_
+5-9	217-218	,	_	_
+5-10	219-222	die	_	_
+5-11	223-237	Unterweltsvase	*	OBJ
+5-12	238-241	sei	_	_
+5-13	242-244	zu	_	_
+5-14	245-254	reduciren	_	_
+5-15	255-257	in	_	_
+5-16	258-261	die	_	_
+5-17	262-267	Größe	_	_
+5-18	268-273	einer	_	_
+5-19	274-281	gewöhnl	_	_
+5-20	282-283	.	_	_
+
+#Text=Monumententafel .
+6-1	284-299	Monumententafel	_	_
+6-2	300-301	.	_	_
+
+#Text=Die Nebendinge als tav .
+7-1	302-305	Die	_	_
+7-2	306-316	Nebendinge	_	_
+7-3	317-320	als	_	_
+7-4	321-324	tav	_	_
+7-5	325-326	.	_	_
+
+#Text=d'agg .
+8-1	327-332	d'agg	_	_
+8-2	333-334	.	_	_
+
+#Text=Vebrigens werden Sie auch noch von hier aus Stoff zu einer Monumententafel erhalten .
+9-1	335-344	Vebrigens	_	_
+9-2	345-351	werden	_	_
+9-3	352-355	Sie	_	_
+9-4	356-360	auch	_	_
+9-5	361-365	noch	_	_
+9-6	366-369	von	_	_
+9-7	370-374	hier	_	_
+9-8	375-378	aus	_	_
+9-9	379-384	Stoff	_	_
+9-10	385-387	zu	_	_
+9-11	388-393	einer	_	_
+9-12	394-409	Monumententafel	_	_
+9-13	410-418	erhalten	_	_
+9-14	419-420	.	_	_
+
+#Text=Salinas , der jetzt hier ist , nächstens nach London geht , und vielleicht im Winter nach Rom kommt , hat eine sehr curiose Sammlung von Bleien , wahrscheinlich Colli di Dogana , fast alle aus Syracus wohl über Hundert , ein ganz neues genus , das noch zu manchen Erörterungen Anlaß geben kann .
+10-1	421-428	Salinas	*	PERmentioned
+10-2	429-430	,	_	_
+10-3	431-434	der	_	_
+10-4	435-440	jetzt	_	_
+10-5	441-445	hier	_	_
+10-6	446-449	ist	_	_
+10-7	450-451	,	_	_
+10-8	452-461	nächstens	_	_
+10-9	462-466	nach	_	_
+10-10	467-473	London	*	PLACEmentioned
+10-11	474-478	geht	_	_
+10-12	479-480	,	_	_
+10-13	481-484	und	_	_
+10-14	485-495	vielleicht	_	_
+10-15	496-498	im	_	_
+10-16	499-505	Winter	*	DATEmentioned
+10-17	506-510	nach	_	_
+10-18	511-514	Rom	*	PLACEmentioned
+10-19	515-520	kommt	_	_
+10-20	521-522	,	_	_
+10-21	523-526	hat	_	_
+10-22	527-531	eine	_	_
+10-23	532-536	sehr	_	_
+10-24	537-544	curiose	_	_
+10-25	545-553	Sammlung	_	_
+10-26	554-557	von	_	_
+10-27	558-564	Bleien	*	OBJ
+10-28	565-566	,	_	_
+10-29	567-581	wahrscheinlich	_	_
+10-30	582-587	Colli	*[7]	OBJ[7]
+10-31	588-590	di	*[7]	OBJ[7]
+10-32	591-597	Dogana	*[7]	OBJ[7]
+10-33	598-599	,	_	_
+10-34	600-604	fast	_	_
+10-35	605-609	alle	_	_
+10-36	610-613	aus	_	_
+10-37	614-621	Syracus	*	PLACEmentioned
+10-38	622-626	wohl	_	_
+10-39	627-631	über	_	_
+10-40	632-639	Hundert	_	_
+10-41	640-641	,	_	_
+10-42	642-645	ein	_	_
+10-43	646-650	ganz	_	_
+10-44	651-656	neues	_	_
+10-45	657-662	genus	_	_
+10-46	663-664	,	_	_
+10-47	665-668	das	_	_
+10-48	669-673	noch	_	_
+10-49	674-676	zu	_	_
+10-50	677-684	manchen	_	_
+10-51	685-697	Erörterungen	_	_
+10-52	698-703	Anlaß	_	_
+10-53	704-709	geben	_	_
+10-54	710-714	kann	_	_
+10-55	715-716	.	_	_
+
+#Text=Die Zeichnungen sind auf 4 Quarttafeln arrangirt , zu groß für tav .
+11-1	717-720	Die	_	_
+11-2	721-732	Zeichnungen	_	_
+11-3	733-737	sind	_	_
+11-4	738-741	auf	_	_
+11-5	742-743	4	_	_
+11-6	744-755	Quarttafeln	_	_
+11-7	756-765	arrangirt	_	_
+11-8	766-767	,	_	_
+11-9	768-770	zu	_	_
+11-10	771-775	groß	_	_
+11-11	776-779	für	_	_
+11-12	780-783	tav	_	_
+11-13	784-785	.	_	_
+
+#Text=d'agg. , aber alle 4 gerade auf eine Monumententafel zu placiren .
+12-1	786-792	d'agg.	_	_
+12-2	793-794	,	_	_
+12-3	795-799	aber	_	_
+12-4	800-804	alle	_	_
+12-5	805-806	4	_	_
+12-6	807-813	gerade	_	_
+12-7	814-817	auf	_	_
+12-8	818-822	eine	_	_
+12-9	823-838	Monumententafel	_	_
+12-10	839-841	zu	_	_
+12-11	842-850	placiren	_	_
+12-12	851-852	.	_	_
+
+#Text=Zeichnungen gratis \; Text so weit fertig , daß er bis zu meiner Abreise geliefert werden kann .
+13-1	853-864	Zeichnungen	_	_
+13-2	865-871	gratis	_	_
+13-3	872-873	\;	_	_
+13-4	874-878	Text	_	_
+13-5	879-881	so	_	_
+13-6	882-886	weit	_	_
+13-7	887-893	fertig	_	_
+13-8	894-895	,	_	_
+13-9	896-899	daß	_	_
+13-10	900-902	er	_	_
+13-11	903-906	bis	_	_
+13-12	907-909	zu	_	_
+13-13	910-916	meiner	_	_
+13-14	917-924	Abreise	_	_
+13-15	925-934	geliefert	_	_
+13-16	935-941	werden	_	_
+13-17	942-946	kann	_	_
+13-18	947-948	.	_	_
+
+#Text=Ich habe sofort acceptirt , und lasse lieber etwa die kleinen Bronzen weg .
+14-1	949-952	Ich	_	_
+14-2	953-957	habe	_	_
+14-3	958-964	sofort	_	_
+14-4	965-974	acceptirt	_	_
+14-5	975-976	,	_	_
+14-6	977-980	und	_	_
+14-7	981-986	lasse	_	_
+14-8	987-993	lieber	_	_
+14-9	994-998	etwa	_	_
+14-10	999-1002	die	_	_
+14-11	1003-1010	kleinen	_	_
+14-12	1011-1018	Bronzen	*	OBJ
+14-13	1019-1022	weg	_	_
+14-14	1023-1024	.	_	_
+
+#Text=Pervanoglu hat Recht , wie ich aus einer Zeichnung bei Salinas sehe .
+15-1	1025-1035	Pervanoglu	*	PERmentioned
+15-2	1036-1039	hat	_	_
+15-3	1040-1045	Recht	_	_
+15-4	1046-1047	,	_	_
+15-5	1048-1051	wie	_	_
+15-6	1052-1055	ich	_	_
+15-7	1056-1059	aus	_	_
+15-8	1060-1065	einer	_	_
+15-9	1066-1075	Zeichnung	_	_
+15-10	1076-1079	bei	_	_
+15-11	1080-1087	Salinas	*	PERmentioned
+15-12	1088-1092	sehe	_	_
+15-13	1093-1094	.	_	_
+
+#Text=Ich irrte , da Delharme von Bonn sprach ,
+16-1	1095-1098	Ich	_	_
+16-2	1099-1104	irrte	_	_
+16-3	1105-1106	,	_	_
+16-4	1107-1109	da	_	_
+16-5	1110-1118	Delharme	*	PERmentioned
+16-6	1119-1122	von	_	_
+16-7	1123-1127	Bonn	*	PLACEmentioned
+16-8	1128-1134	sprach	_	_
+16-9	1135-1136	,	_	_

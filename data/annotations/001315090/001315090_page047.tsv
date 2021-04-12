@@ -1,0 +1,180 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=293 Lepsius an Henzen Berlin , 24. Juni 1872 dem guten persönlichen Verständnis das angebahnt war , wieder herausgekommen sind \; denn das giebt mir auch für die Zukunft wenig Vertrauen .
+1-1	0-3	293	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	24.	*[1]	DATEletter[1]
+1-8	35-39	Juni	*[1]	DATEletter[1]
+1-9	40-44	1872	*[1]	DATEletter[1]
+1-10	45-48	dem	_	_
+1-11	49-54	guten	_	_
+1-12	55-67	persönlichen	_	_
+1-13	68-79	Verständnis	_	_
+1-14	80-83	das	_	_
+1-15	84-93	angebahnt	_	_
+1-16	94-97	war	_	_
+1-17	98-99	,	_	_
+1-18	100-106	wieder	_	_
+1-19	107-121	herausgekommen	_	_
+1-20	122-126	sind	_	_
+1-21	127-128	\;	_	_
+1-22	129-133	denn	_	_
+1-23	134-137	das	_	_
+1-24	138-143	giebt	_	_
+1-25	144-147	mir	_	_
+1-26	148-152	auch	_	_
+1-27	153-156	für	_	_
+1-28	157-160	die	_	_
+1-29	161-168	Zukunft	_	_
+1-30	169-174	wenig	_	_
+1-31	175-184	Vertrauen	_	_
+1-32	185-186	.	_	_
+
+#Text=Was die Erhöhung der Gehalte betrifft , so haben wir die Sache nochmals dringend empfohlen in dem Etatbericht , den ich vor einigen Tagen absendete .
+2-1	187-190	Was	_	_
+2-2	191-194	die	_	_
+2-3	195-203	Erhöhung	_	_
+2-4	204-207	der	_	_
+2-5	208-215	Gehalte	_	_
+2-6	216-224	betrifft	_	_
+2-7	225-226	,	_	_
+2-8	227-229	so	_	_
+2-9	230-235	haben	_	_
+2-10	236-239	wir	_	_
+2-11	240-243	die	_	_
+2-12	244-249	Sache	_	_
+2-13	250-258	nochmals	_	_
+2-14	259-267	dringend	_	_
+2-15	268-277	empfohlen	_	_
+2-16	278-280	in	_	_
+2-17	281-284	dem	_	_
+2-18	285-296	Etatbericht	_	_
+2-19	297-298	,	_	_
+2-20	299-302	den	_	_
+2-21	303-306	ich	_	_
+2-22	307-310	vor	_	_
+2-23	311-318	einigen	_	_
+2-24	319-324	Tagen	_	_
+2-25	325-334	absendete	_	_
+2-26	335-336	.	_	_
+
+#Text=Ebekßo ist sie vom Reichskanzleramt bei Gelegenheit der Ablehnung der Übernahme des Instituts vor dem 1 .
+3-1	337-343	Ebekßo	_	_
+3-2	344-347	ist	_	_
+3-3	348-351	sie	_	_
+3-4	352-355	vom	_	_
+3-5	356-372	Reichskanzleramt	*	ORGmentioned
+3-6	373-376	bei	_	_
+3-7	377-388	Gelegenheit	_	_
+3-8	389-392	der	_	_
+3-9	393-402	Ablehnung	_	_
+3-10	403-406	der	_	_
+3-11	407-416	Übernahme	_	_
+3-12	417-420	des	_	_
+3-13	421-430	Instituts	*	ORGmentioned
+3-14	431-434	vor	_	_
+3-15	435-438	dem	_	_
+3-16	439-440	1	*[2]	DATEmentioned[2]
+3-17	441-442	.	*[2]	DATEmentioned[2]
+
+#Text=Januar 1874 unsrem Ministerium empfohlen .
+4-1	443-449	Januar	*[2]	DATEmentioned[2]
+4-2	450-454	1874	*[2]	DATEmentioned[2]
+4-3	455-461	unsrem	_	_
+4-4	462-473	Ministerium	*	ORGmentioned
+4-5	474-483	empfohlen	_	_
+4-6	484-485	.	_	_
+
+#Text=Ich habe daher nicht den mindesten Zweifel an der Erfüllung .
+5-1	486-489	Ich	_	_
+5-2	490-494	habe	_	_
+5-3	495-500	daher	_	_
+5-4	501-506	nicht	_	_
+5-5	507-510	den	_	_
+5-6	511-520	mindesten	_	_
+5-7	521-528	Zweifel	_	_
+5-8	529-531	an	_	_
+5-9	532-535	der	_	_
+5-10	536-545	Erfüllung	_	_
+5-11	546-547	.	_	_
+
+#Text=Mommsen spricht mir heute den Wunsch aus , daß nachträglich noch Folrf .
+6-1	548-555	Mommsen	*	PERmentioned
+6-2	556-563	spricht	_	_
+6-3	564-567	mir	_	_
+6-4	568-573	heute	_	_
+6-5	574-577	den	_	_
+6-6	578-584	Wunsch	_	_
+6-7	585-588	aus	_	_
+6-8	589-590	,	_	_
+6-9	591-594	daß	_	_
+6-10	595-607	nachträglich	_	_
+6-11	608-612	noch	_	_
+6-12	613-618	Folrf	_	_
+6-13	619-620	.	_	_
+
+#Text=G. Wilmanns unter die Korrespondenten des Instituts aufgenommen werde .
+7-1	621-623	G.	*[3]	PERmentioned[3]
+7-2	624-632	Wilmanns	*[3]	PERmentioned[3]
+7-3	633-638	unter	_	_
+7-4	639-642	die	_	_
+7-5	643-658	Korrespondenten	_	_
+7-6	659-662	des	_	_
+7-7	663-672	Instituts	*	ORGmentioned
+7-8	673-684	aufgenommen	_	_
+7-9	685-690	werde	_	_
+7-10	691-692	.	_	_
+
+#Text=Das hat ja natürlich keinen Anstand \; ich sende ihm daher gelentlich das Diplom und bitte Sie ihn zu verzeichnen .
+8-1	693-696	Das	_	_
+8-2	697-700	hat	_	_
+8-3	701-703	ja	_	_
+8-4	704-713	natürlich	_	_
+8-5	714-720	keinen	_	_
+8-6	721-728	Anstand	_	_
+8-7	729-730	\;	_	_
+8-8	731-734	ich	_	_
+8-9	735-740	sende	_	_
+8-10	741-744	ihm	_	_
+8-11	745-750	daher	_	_
+8-12	751-761	gelentlich	_	_
+8-13	762-765	das	_	_
+8-14	766-772	Diplom	_	_
+8-15	773-776	und	_	_
+8-16	777-782	bitte	_	_
+8-17	783-786	Sie	_	_
+8-18	787-790	ihn	_	_
+8-19	791-793	zu	_	_
+8-20	794-805	verzeichnen	_	_
+8-21	806-807	.	_	_
+
+#Text=Der Ihrige R Lepsius Meinerseits wünschte ich den Prof. Dr. Johannes Dümichen , Professor in Straßburg , als Korrespondent aufgenommen zu sehen .
+9-1	808-811	Der	_	_
+9-2	812-818	Ihrige	_	_
+9-3	819-820	R	*[4]	PERauthor[4]
+9-4	821-828	Lepsius	*[4]	PERauthor[4]
+9-5	829-840	Meinerseits	_	_
+9-6	841-849	wünschte	_	_
+9-7	850-853	ich	_	_
+9-8	854-857	den	_	_
+9-9	858-863	Prof.	_	_
+9-10	864-867	Dr.	_	_
+9-11	868-876	Johannes	*[5]	PERmentioned[5]
+9-12	877-885	Dümichen	*[5]	PERmentioned[5]
+9-13	886-887	,	_	_
+9-14	888-897	Professor	_	_
+9-15	898-900	in	_	_
+9-16	901-910	Straßburg	*	PLACEmentioned
+9-17	911-912	,	_	_
+9-18	913-916	als	_	_
+9-19	917-930	Korrespondent	_	_
+9-20	931-942	aufgenommen	_	_
+9-21	943-945	zu	_	_
+9-22	946-951	sehen	_	_
+9-23	952-953	.	_	_

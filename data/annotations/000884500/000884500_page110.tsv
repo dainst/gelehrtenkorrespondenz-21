@@ -1,0 +1,70 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 25. Mai 1838 loszukommen .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	25.	*[4]	DATEletter[4]
+1-7	30-33	Mai	*[4]	DATEletter[4]
+1-8	34-38	1838	*[4]	DATEletter[4]
+1-9	39-50	loszukommen	_	_
+1-10	51-52	.	_	_
+
+#Text=Gott befohlen \| !
+2-1	53-57	Gott	_	_
+2-2	58-66	befohlen	_	_
+2-3	67-68	\|	_	_
+2-4	69-70	!	_	_
+
+#Text=Ihr Gerhard Geht denn nicht irgend ein Reisender heraus den Sie ein Bündel Ex .
+3-1	71-74	Ihr	_	_
+3-2	75-82	Gerhard	*	PERauthor
+3-3	83-87	Geht	_	_
+3-4	88-92	denn	_	_
+3-5	93-98	nicht	_	_
+3-6	99-105	irgend	_	_
+3-7	106-109	ein	_	_
+3-8	110-119	Reisender	_	_
+3-9	120-126	heraus	_	_
+3-10	127-130	den	_	_
+3-11	131-134	Sie	_	_
+3-12	135-138	ein	_	_
+3-13	139-145	Bündel	_	_
+3-14	146-148	Ex	_	_
+3-15	149-150	.	_	_
+
+#Text=meiner Notice , wäre es auch nur für Absteigquartiere meiner Reise ( Bonn , Frankfurt , im äußersten Fall München und von da zur Post ) aufpacken könnten \| !
+4-1	151-157	meiner	_	_
+4-2	158-164	Notice	_	_
+4-3	165-166	,	_	_
+4-4	167-171	wäre	_	_
+4-5	172-174	es	_	_
+4-6	175-179	auch	_	_
+4-7	180-183	nur	_	_
+4-8	184-187	für	_	_
+4-9	188-204	Absteigquartiere	_	_
+4-10	205-211	meiner	_	_
+4-11	212-217	Reise	_	_
+4-12	218-219	(	_	_
+4-13	220-224	Bonn	*	PLACEmentioned
+4-14	225-226	,	_	_
+4-15	227-236	Frankfurt	*	PLACEmentioned
+4-16	237-238	,	_	_
+4-17	239-241	im	_	_
+4-18	242-251	äußersten	_	_
+4-19	252-256	Fall	_	_
+4-20	257-264	München	*	PLACEmentioned
+4-21	265-268	und	_	_
+4-22	269-272	von	_	_
+4-23	273-275	da	_	_
+4-24	276-279	zur	_	_
+4-25	280-284	Post	_	_
+4-26	285-286	)	_	_
+4-27	287-296	aufpacken	_	_
+4-28	297-304	könnten	_	_
+4-29	305-306	\|	_	_
+4-30	307-308	!	_	_

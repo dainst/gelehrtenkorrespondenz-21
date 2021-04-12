@@ -1,0 +1,171 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=on Braun an Gerhard ohne Datum Poststempel - 1/8 u. 6 .
+1-1	0-2	on	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-24	ohne	_	_
+1-6	25-30	Datum	*[1]	DATEpoststamp[1]
+1-7	31-42	Poststempel	*[1]	DATEpoststamp[1]
+1-8	43-44	-	*[1]	DATEpoststamp[1]
+1-9	45-48	1/8	*[1]	DATEpoststamp[1]
+1-10	49-51	u.	*[1]	DATEpoststamp[1]
+1-11	52-53	6	*[1]	DATEpoststamp[1]
+1-12	54-55	.	*[1]	DATEpoststamp[1]
+
+#Text=August Ausführliche Nachricht von Ihrem Befinden \| Die schwarze Decke ist durch Rademao veranlasst , wenn auch nicht verschuldet , Ich bin durch Krankheit einige Tage übel gestellt gewesen .
+2-1	56-62	August	*[1]	DATEpoststamp[1]
+2-2	63-75	Ausführliche	_	_
+2-3	76-85	Nachricht	_	_
+2-4	86-89	von	_	_
+2-5	90-95	Ihrem	_	_
+2-6	96-104	Befinden	_	_
+2-7	105-106	\|	_	_
+2-8	107-110	Die	_	_
+2-9	111-119	schwarze	_	_
+2-10	120-125	Decke	_	_
+2-11	126-129	ist	_	_
+2-12	130-135	durch	_	_
+2-13	136-143	Rademao	_	_
+2-14	144-154	veranlasst	_	_
+2-15	155-156	,	_	_
+2-16	157-161	wenn	_	_
+2-17	162-166	auch	_	_
+2-18	167-172	nicht	_	_
+2-19	173-184	verschuldet	_	_
+2-20	185-186	,	_	_
+2-21	187-190	Ich	_	_
+2-22	191-194	bin	_	_
+2-23	195-200	durch	_	_
+2-24	201-210	Krankheit	_	_
+2-25	211-217	einige	_	_
+2-26	218-222	Tage	_	_
+2-27	223-227	übel	_	_
+2-28	228-236	gestellt	_	_
+2-29	237-244	gewesen	_	_
+2-30	245-246	.	_	_
+
+#Text=Besser jetzt als später .
+3-1	247-253	Besser	_	_
+3-2	254-259	jetzt	_	_
+3-3	260-263	als	_	_
+3-4	264-270	später	_	_
+3-5	271-272	.	_	_
+
+#Text=Mich maltraitirt ein Allocopath , der Probe wegen .
+4-1	273-277	Mich	_	_
+4-2	278-289	maltraitirt	_	_
+4-3	290-293	ein	_	_
+4-4	294-304	Allocopath	_	_
+4-5	305-306	,	_	_
+4-6	307-310	der	_	_
+4-7	311-316	Probe	_	_
+4-8	317-322	wegen	_	_
+4-9	323-324	.	_	_
+
+#Text=Stüler hat , wie Fr. v. Arnim sagt , versprochen Sie zu heilen , wenn Sie in der Cur verharrten .
+5-1	325-331	Stüler	*	PERmentioned
+5-2	332-335	hat	_	_
+5-3	336-337	,	_	_
+5-4	338-341	wie	_	_
+5-5	342-345	Fr.	*[2]	PERmentioned[2]
+5-6	346-348	v.	*[2]	PERmentioned[2]
+5-7	349-354	Arnim	*[2]	PERmentioned[2]
+5-8	355-359	sagt	_	_
+5-9	360-361	,	_	_
+5-10	362-373	versprochen	_	_
+5-11	374-377	Sie	_	_
+5-12	378-380	zu	_	_
+5-13	381-387	heilen	_	_
+5-14	388-389	,	_	_
+5-15	390-394	wenn	_	_
+5-16	395-398	Sie	_	_
+5-17	399-401	in	_	_
+5-18	402-405	der	_	_
+5-19	406-409	Cur	_	_
+5-20	410-420	verharrten	_	_
+5-21	421-422	.	_	_
+
+#Text=Das Museum ist im Begriff den Ankauf von mehreren trefflichen Vasen im Style des Kylix des Sosia mit Bunsen abzuschließen .
+6-1	423-426	Das	_	_
+6-2	427-433	Museum	*	ORGmentioned
+6-3	434-437	ist	_	_
+6-4	438-440	im	_	_
+6-5	441-448	Begriff	_	_
+6-6	449-452	den	_	_
+6-7	453-459	Ankauf	_	_
+6-8	460-463	von	_	_
+6-9	464-472	mehreren	_	_
+6-10	473-484	trefflichen	_	_
+6-11	485-490	Vasen	*[3]	OBJ[3]
+6-12	491-493	im	*[3]	OBJ[3]
+6-13	494-499	Style	*[3]	OBJ[3]
+6-14	500-503	des	*[3]	OBJ[3]
+6-15	504-509	Kylix	*[3]|*[4]	OBJ[3]|OBJ[4]
+6-16	510-513	des	*[3]|*[4]	OBJ[3]|OBJ[4]
+6-17	514-519	Sosia	*[3]|*[4]	OBJ[3]|OBJ[4]
+6-18	520-523	mit	_	_
+6-19	524-530	Bunsen	*	PERmentioned
+6-20	531-544	abzuschließen	_	_
+6-21	545-546	.	_	_
+
+#Text=Gigantenschlacht , Mord des Aegystos , Palens und Thetis , ganz neue Vorstellung ecc .
+7-1	547-563	Gigantenschlacht	*	OBJ
+7-2	564-565	,	_	_
+7-3	566-570	Mord	*[5]	OBJ[5]
+7-4	571-574	des	*[5]	OBJ[5]
+7-5	575-583	Aegystos	*[5]	OBJ[5]
+7-6	584-585	,	_	_
+7-7	586-592	Palens	*[6]	OBJ[6]
+7-8	593-596	und	*[6]	OBJ[6]
+7-9	597-603	Thetis	*[6]	OBJ[6]
+7-10	604-605	,	_	_
+7-11	606-610	ganz	_	_
+7-12	611-615	neue	_	_
+7-13	616-627	Vorstellung	_	_
+7-14	628-631	ecc	_	_
+7-15	632-633	.	_	_
+
+#Text=Aber alles dieses unter dem Siegel des unverbrüchlichsten Geheimnis , wie Vater Levezow befohlen , bei dem ich die Zeichnungen sah , Die Register wachsen zu einem Lexicon heran , werden aber brauchbar .
+8-1	634-638	Aber	_	_
+8-2	639-644	alles	_	_
+8-3	645-651	dieses	_	_
+8-4	652-657	unter	_	_
+8-5	658-661	dem	_	_
+8-6	662-668	Siegel	_	_
+8-7	669-672	des	_	_
+8-8	673-691	unverbrüchlichsten	_	_
+8-9	692-701	Geheimnis	_	_
+8-10	702-703	,	_	_
+8-11	704-707	wie	_	_
+8-12	708-713	Vater	_	_
+8-13	714-721	Levezow	*	PERmentioned
+8-14	722-730	befohlen	_	_
+8-15	731-732	,	_	_
+8-16	733-736	bei	_	_
+8-17	737-740	dem	_	_
+8-18	741-744	ich	_	_
+8-19	745-748	die	_	_
+8-20	749-760	Zeichnungen	_	_
+8-21	761-764	sah	_	_
+8-22	765-766	,	_	_
+8-23	767-770	Die	_	_
+8-24	771-779	Register	_	_
+8-25	780-787	wachsen	_	_
+8-26	788-790	zu	_	_
+8-27	791-796	einem	_	_
+8-28	797-804	Lexicon	_	_
+8-29	805-810	heran	_	_
+8-30	811-812	,	_	_
+8-31	813-819	werden	_	_
+8-32	820-824	aber	_	_
+8-33	825-834	brauchbar	_	_
+8-34	835-836	.	_	_
+
+#Text=Ihr Braun .
+9-1	837-840	Ihr	_	_
+9-2	841-846	Braun	*	PERauthor
+9-3	847-848	.	_	_

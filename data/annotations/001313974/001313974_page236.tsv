@@ -1,0 +1,142 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Ohne Datum .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERmentioned
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datum	_	_
+1-6	28-29	.	_	_
+
+#Text=Poststempel Siena , 16. September 1874 Postkarte 19/9 74 r . Lieber Herr Professor !
+2-1	30-41	Poststempel	_	_
+2-2	42-47	Siena	*	PLACEfrom
+2-3	48-49	,	_	_
+2-4	50-53	16.	*[3]	DATEpoststamp[3]
+2-5	54-63	September	*[3]	DATEpoststamp[3]
+2-6	64-68	1874	*[3]	DATEpoststamp[3]
+2-7	69-78	Postkarte	_	_
+2-8	79-83	19/9	*[4]	DATErecieved[4]
+2-9	84-86	74	*[4]	DATErecieved[4]
+2-10	87-88	r	_	_
+2-11	89-90	.	_	_
+2-12	91-97	Lieber	_	_
+2-13	98-102	Herr	_	_
+2-14	103-112	Professor	_	_
+2-15	113-114	!	_	_
+
+#Text=Die Nachrichten , die wir über die klimatischen Verhältnisse Roms erhalten , bestimmen uns , den 20. direct nach Rom abzureisen und zwar alle zusammen .
+3-1	115-118	Die	_	_
+3-2	119-130	Nachrichten	_	_
+3-3	131-132	,	_	_
+3-4	133-136	die	_	_
+3-5	137-140	wir	_	_
+3-6	141-145	über	_	_
+3-7	146-149	die	_	_
+3-8	150-162	klimatischen	_	_
+3-9	163-175	Verhältnisse	_	_
+3-10	176-180	Roms	*	PLACEmentioned
+3-11	181-189	erhalten	_	_
+3-12	190-191	,	_	_
+3-13	192-201	bestimmen	_	_
+3-14	202-205	uns	_	_
+3-15	206-207	,	_	_
+3-16	208-211	den	_	_
+3-17	212-215	20.	*[5]	DATEmentioned[5]
+3-18	216-222	direct	_	_
+3-19	223-227	nach	_	_
+3-20	228-231	Rom	*	PLACEmentioned
+3-21	232-242	abzureisen	_	_
+3-22	243-246	und	_	_
+3-23	247-251	zwar	_	_
+3-24	252-256	alle	_	_
+3-25	257-265	zusammen	_	_
+3-26	266-267	.	_	_
+
+#Text=Den 21. und 22. bleibe ich in Rom und reise den 23. weiter .
+4-1	268-271	Den	_	_
+4-2	272-275	21.	*[6]	DATEmentioned[6]
+4-3	276-279	und	_	_
+4-4	280-283	22.	*[7]	DATEmentioned[7]
+4-5	284-290	bleibe	_	_
+4-6	291-294	ich	_	_
+4-7	295-297	in	_	_
+4-8	298-301	Rom	*	PLACEmentioned
+4-9	302-305	und	_	_
+4-10	306-311	reise	_	_
+4-11	312-315	den	_	_
+4-12	316-319	23.	*[8]	DATEmentioned[8]
+4-13	320-326	weiter	_	_
+4-14	327-328	.	_	_
+
+#Text=Es wäre mir sehr erfreulich und außerdem für die Geschäftsangelegenheiten ersprießlich , wenn ich Sie den 21. oder 22. in Rom sehen könnte .
+5-1	329-331	Es	_	_
+5-2	332-336	wäre	_	_
+5-3	337-340	mir	_	_
+5-4	341-345	sehr	_	_
+5-5	346-356	erfreulich	_	_
+5-6	357-360	und	_	_
+5-7	361-369	außerdem	_	_
+5-8	370-373	für	_	_
+5-9	374-377	die	_	_
+5-10	378-402	Geschäftsangelegenheiten	_	_
+5-11	403-415	ersprießlich	_	_
+5-12	416-417	,	_	_
+5-13	418-422	wenn	_	_
+5-14	423-426	ich	_	_
+5-15	427-430	Sie	_	_
+5-16	431-434	den	_	_
+5-17	435-438	21.	*[9]	DATEmentioned[9]
+5-18	439-443	oder	_	_
+5-19	444-447	22.	*[10]	DATEmentioned[10]
+5-20	448-450	in	_	_
+5-21	451-454	Rom	*	PLACEmentioned
+5-22	455-460	sehen	_	_
+5-23	461-467	könnte	_	_
+5-24	468-469	.	_	_
+
+#Text=Wenn wir die Geschäftssachen erörtern , wäre Dressels Gegenwart erwünscht , da ich über manche Sachen die Correspondenz nicht gehörig kenne .
+6-1	470-474	Wenn	_	_
+6-2	475-478	wir	_	_
+6-3	479-482	die	_	_
+6-4	483-498	Geschäftssachen	_	_
+6-5	499-507	erörtern	_	_
+6-6	508-509	,	_	_
+6-7	510-514	wäre	_	_
+6-8	515-523	Dressels	*	PERmentioned
+6-9	524-533	Gegenwart	_	_
+6-10	534-543	erwünscht	_	_
+6-11	544-545	,	_	_
+6-12	546-548	da	_	_
+6-13	549-552	ich	_	_
+6-14	553-557	über	_	_
+6-15	558-564	manche	_	_
+6-16	565-571	Sachen	_	_
+6-17	572-575	die	_	_
+6-18	576-589	Correspondenz	_	_
+6-19	590-595	nicht	_	_
+6-20	596-603	gehörig	_	_
+6-21	604-609	kenne	_	_
+6-22	610-611	.	_	_
+
+#Text=Also hoffentlich auf Wiedersehen binnen 5 Tagen .
+7-1	612-616	Also	_	_
+7-2	617-628	hoffentlich	_	_
+7-3	629-632	auf	_	_
+7-4	633-644	Wiedersehen	_	_
+7-5	645-651	binnen	_	_
+7-6	652-653	5	_	_
+7-7	654-659	Tagen	_	_
+7-8	660-661	.	_	_
+
+#Text=Mit herzlichen Grüßen von uns allen Ihr Helbig
+8-1	662-665	Mit	_	_
+8-2	666-676	herzlichen	_	_
+8-3	677-683	Grüßen	_	_
+8-4	684-687	von	_	_
+8-5	688-691	uns	_	_
+8-6	692-697	allen	_	_
+8-7	698-701	Ihr	_	_
+8-8	702-708	Helbig	*	PERauthor

@@ -1,0 +1,101 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=213 Braun an Gerhard Rom , 15. April 1837 ti vertheidigt sich das nächste Mal .
+1-1	0-3	213	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	15.	*[3]	DATEletter[3]
+1-8	31-36	April	*[3]	DATEletter[3]
+1-9	37-41	1837	*[3]	DATEletter[3]
+1-10	42-44	ti	*	PERmentioned
+1-11	45-56	vertheidigt	_	_
+1-12	57-61	sich	_	_
+1-13	62-65	das	_	_
+1-14	66-73	nächste	_	_
+1-15	74-77	Mal	_	_
+1-16	78-79	.	_	_
+
+#Text=Lanci erklärt laut , daß der von Visconti beigebrachte Gypsabdruck fa vedere che il Commissario dell'Antichita manco € buono per copiare un'iscrizione .
+2-1	80-85	Lanci	*	PERmentioned
+2-2	86-93	erklärt	_	_
+2-3	94-98	laut	_	_
+2-4	99-100	,	_	_
+2-5	101-104	daß	_	_
+2-6	105-108	der	_	_
+2-7	109-112	von	_	_
+2-8	113-121	Visconti	*	PERmentioned
+2-9	122-134	beigebrachte	_	_
+2-10	135-146	Gypsabdruck	_	_
+2-11	147-149	fa	_	_
+2-12	150-156	vedere	_	_
+2-13	157-160	che	_	_
+2-14	161-163	il	_	_
+2-15	164-175	Commissario	_	_
+2-16	176-190	dell'Antichita	_	_
+2-17	191-196	manco	_	_
+2-18	197-198	€	_	_
+2-19	199-204	buono	_	_
+2-20	205-208	per	_	_
+2-21	209-216	copiare	_	_
+2-22	217-230	un'iscrizione	_	_
+2-23	231-232	.	_	_
+
+#Text=Die Kardinäle stimmen bei .
+3-1	233-236	Die	_	_
+3-2	237-246	Kardinäle	_	_
+3-3	247-254	stimmen	_	_
+3-4	255-258	bei	_	_
+3-5	259-260	.	_	_
+
+#Text=Jetzt stürmt alles auf ihn los .
+4-1	261-266	Jetzt	_	_
+4-2	267-273	stürmt	_	_
+4-3	274-279	alles	_	_
+4-4	280-283	auf	_	_
+4-5	284-287	ihn	_	_
+4-6	288-291	los	_	_
+4-7	292-293	.	_	_
+
+#Text=Unser dicker Lanci bewegt sich selbst nach dem Vatican um Wachsabdrücke zu machen etc. Mein Artikel über das Museum Gregorianunm ist ebenfalls etwas bitter ausgefallen .
+5-1	294-299	Unser	_	_
+5-2	300-306	dicker	_	_
+5-3	307-312	Lanci	*	PERmentioned
+5-4	313-319	bewegt	_	_
+5-5	320-324	sich	_	_
+5-6	325-331	selbst	_	_
+5-7	332-336	nach	_	_
+5-8	337-340	dem	_	_
+5-9	341-348	Vatican	*	PLACEmentioned
+5-10	349-351	um	_	_
+5-11	352-365	Wachsabdrücke	_	_
+5-12	366-368	zu	_	_
+5-13	369-375	machen	_	_
+5-14	376-380	etc.	_	_
+5-15	381-385	Mein	_	_
+5-16	386-393	Artikel	_	_
+5-17	394-398	über	_	_
+5-18	399-402	das	_	_
+5-19	403-409	Museum	*[4]	ORGmentioned[4]
+5-20	410-422	Gregorianunm	*[4]	ORGmentioned[4]
+5-21	423-426	ist	_	_
+5-22	427-436	ebenfalls	_	_
+5-23	437-442	etwas	_	_
+5-24	443-449	bitter	_	_
+5-25	450-461	ausgefallen	_	_
+5-26	462-463	.	_	_
+
+#Text=Gott behüte Sie !
+6-1	464-468	Gott	_	_
+6-2	469-475	behüte	_	_
+6-3	476-479	Sie	_	_
+6-4	480-481	!	_	_
+
+#Text=Ihr EBraun .
+7-1	482-485	Ihr	_	_
+7-2	486-492	EBraun	*	PERauthor
+7-3	493-494	.	_	_

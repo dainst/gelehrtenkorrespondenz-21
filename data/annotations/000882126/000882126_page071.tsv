@@ -1,0 +1,142 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\[ si 35 Braun an Gerhard Rom , 19 .
+1-1	0-1	\[	_	_
+1-2	2-4	si	_	_
+1-3	5-7	35	_	_
+1-4	8-13	Braun	*	PERauthor
+1-5	14-16	an	_	_
+1-6	17-24	Gerhard	*	PERaddressee
+1-7	25-28	Rom	*	PLACEfrom
+1-8	29-30	,	_	_
+1-9	31-33	19	*[11]	DATEletter[11]
+1-10	34-35	.	*[11]	DATEletter[11]
+
+#Text=Januar 1836 - 5 - gen Corrispondenten haben .
+2-1	36-42	Januar	*[11]	DATEletter[11]
+2-2	43-47	1836	*[11]	DATEletter[11]
+2-3	48-49	-	_	_
+2-4	50-51	5	_	_
+2-5	52-53	-	_	_
+2-6	54-57	gen	_	_
+2-7	58-73	Corrispondenten	_	_
+2-8	74-79	haben	_	_
+2-9	80-81	.	_	_
+
+#Text=Anbei ein Brief von Millingen .
+3-1	82-87	Anbei	_	_
+3-2	88-91	ein	_	_
+3-3	92-97	Brief	_	_
+3-4	98-101	von	_	_
+3-5	102-111	Millingen	*	PERmentioned
+3-6	112-113	.	_	_
+
+#Text=- Für die Bücherkiste erbitte ich mir Homoeopathica .
+4-1	114-115	-	_	_
+4-2	116-119	Für	_	_
+4-3	120-123	die	_	_
+4-4	124-135	Bücherkiste	_	_
+4-5	136-143	erbitte	_	_
+4-6	144-147	ich	_	_
+4-7	148-151	mir	_	_
+4-8	152-165	Homoeopathica	_	_
+4-9	166-167	.	_	_
+
+#Text=Fortsetzungen und Neues .
+5-1	168-181	Fortsetzungen	_	_
+5-2	182-185	und	_	_
+5-3	186-191	Neues	_	_
+5-4	192-193	.	_	_
+
+#Text=Bönninghausens aphorische Mittel etc. Dann auch Don Quixote übers . von Tieck , neuste Ausgabe .
+6-1	194-208	Bönninghausens	*	PERmentioned
+6-2	209-219	aphorische	_	_
+6-3	220-226	Mittel	_	_
+6-4	227-231	etc.	_	_
+6-5	232-236	Dann	_	_
+6-6	237-241	auch	_	_
+6-7	242-245	Don	*[12]	PERmentioned[12]
+6-8	246-253	Quixote	*[12]	PERmentioned[12]
+6-9	254-259	übers	_	_
+6-10	260-261	.	_	_
+6-11	262-265	von	_	_
+6-12	266-271	Tieck	*	PERmentioned
+6-13	272-273	,	_	_
+6-14	274-280	neuste	_	_
+6-15	281-288	Ausgabe	_	_
+6-16	289-290	.	_	_
+
+#Text=Lieb wär es mir , wenn Sie sich eines homöopathischen Arzneischatzes , den Dr. Grosz aus Jüterbol gegen beiliegenden Brief an Gerstäckers Addresse absenden wird , in der Weise annehmen wollten , daß Sie die Zahlung übernähmen , die ich Ihnen hier sofort aar erstatten werde .
+7-1	291-295	Lieb	_	_
+7-2	296-299	wär	_	_
+7-3	300-302	es	_	_
+7-4	303-306	mir	_	_
+7-5	307-308	,	_	_
+7-6	309-313	wenn	_	_
+7-7	314-317	Sie	_	_
+7-8	318-322	sich	_	_
+7-9	323-328	eines	_	_
+7-10	329-344	homöopathischen	_	_
+7-11	345-359	Arzneischatzes	_	_
+7-12	360-361	,	_	_
+7-13	362-365	den	_	_
+7-14	366-369	Dr.	*[13]	PERmentioned[13]
+7-15	370-375	Grosz	*[13]	PERmentioned[13]
+7-16	376-379	aus	_	_
+7-17	380-388	Jüterbol	*	PLACEmentioned
+7-18	389-394	gegen	_	_
+7-19	395-407	beiliegenden	_	_
+7-20	408-413	Brief	_	_
+7-21	414-416	an	_	_
+7-22	417-428	Gerstäckers	*	PERmentioned
+7-23	429-437	Addresse	_	_
+7-24	438-446	absenden	_	_
+7-25	447-451	wird	_	_
+7-26	452-453	,	_	_
+7-27	454-456	in	_	_
+7-28	457-460	der	_	_
+7-29	461-466	Weise	_	_
+7-30	467-475	annehmen	_	_
+7-31	476-483	wollten	_	_
+7-32	484-485	,	_	_
+7-33	486-489	daß	_	_
+7-34	490-493	Sie	_	_
+7-35	494-497	die	_	_
+7-36	498-505	Zahlung	_	_
+7-37	506-516	übernähmen	_	_
+7-38	517-518	,	_	_
+7-39	519-522	die	_	_
+7-40	523-526	ich	_	_
+7-41	527-532	Ihnen	_	_
+7-42	533-537	hier	_	_
+7-43	538-544	sofort	_	_
+7-44	545-548	aar	_	_
+7-45	549-558	erstatten	_	_
+7-46	559-564	werde	_	_
+7-47	565-566	.	_	_
+
+#Text=Ist Ihnen die Sache lästig , So unterdrücken Sie den Brief , schreiben mir aber davon .
+8-1	567-570	Ist	_	_
+8-2	571-576	Ihnen	_	_
+8-3	577-580	die	_	_
+8-4	581-586	Sache	_	_
+8-5	587-593	lästig	_	_
+8-6	594-595	,	_	_
+8-7	596-598	So	_	_
+8-8	599-611	unterdrücken	_	_
+8-9	612-615	Sie	_	_
+8-10	616-619	den	_	_
+8-11	620-625	Brief	_	_
+8-12	626-627	,	_	_
+8-13	628-637	schreiben	_	_
+8-14	638-641	mir	_	_
+8-15	642-646	aber	_	_
+8-16	647-652	davon	_	_
+8-17	653-654	.	_	_
+
+#Text=Ihr Braun .
+9-1	655-658	Ihr	_	_
+9-2	659-664	Braun	*	PERauthor
+9-3	665-666	.	_	_

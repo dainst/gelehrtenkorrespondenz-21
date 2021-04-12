@@ -1,0 +1,169 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=238 Gerhard an Braun Berlin , 18. Mai 1844 ber reichend abhängen \; wäre ich frisch wie vormals , so machte ich in Paris , London , Leiden kurze Besuche .
+1-1	0-3	238	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	18.	*[1]	DATEletter[1]
+1-8	34-37	Mai	*[1]	DATEletter[1]
+1-9	38-42	1844	*[1]	DATEletter[1]
+1-10	43-46	ber	_	_
+1-11	47-55	reichend	_	_
+1-12	56-64	abhängen	_	_
+1-13	65-66	\;	_	_
+1-14	67-71	wäre	_	_
+1-15	72-75	ich	_	_
+1-16	76-82	frisch	_	_
+1-17	83-86	wie	_	_
+1-18	87-94	vormals	_	_
+1-19	95-96	,	_	_
+1-20	97-99	so	_	_
+1-21	100-106	machte	_	_
+1-22	107-110	ich	_	_
+1-23	111-113	in	_	_
+1-24	114-119	Paris	*	PLACEmentioned
+1-25	120-121	,	_	_
+1-26	122-128	London	*	PLACEmentioned
+1-27	129-130	,	_	_
+1-28	131-137	Leiden	*	PLACEmentioned
+1-29	138-143	kurze	_	_
+1-30	144-151	Besuche	_	_
+1-31	152-153	.	_	_
+
+#Text=Die Sozzische Notiz über Catoneser Ruinen citirte ich Ihnen aus dem Kunstblatt .
+2-1	154-157	Die	_	_
+2-2	158-167	Sozzische	*	PERmentioned
+2-3	168-173	Notiz	_	_
+2-4	174-178	über	_	_
+2-5	179-188	Catoneser	*[2]	OBJ[2]
+2-6	189-195	Ruinen	*[2]	OBJ[2]
+2-7	196-203	citirte	_	_
+2-8	204-207	ich	_	_
+2-9	208-213	Ihnen	_	_
+2-10	214-217	aus	_	_
+2-11	218-221	dem	_	_
+2-12	222-232	Kunstblatt	_	_
+2-13	233-234	.	_	_
+
+#Text=Noch kein Bullettino angelangt und noch nichts Neues für das Institut von Bunsen .
+3-1	235-239	Noch	_	_
+3-2	240-244	kein	_	_
+3-3	245-255	Bullettino	_	_
+3-4	256-265	angelangt	_	_
+3-5	266-269	und	_	_
+3-6	270-274	noch	_	_
+3-7	275-281	nichts	_	_
+3-8	282-287	Neues	_	_
+3-9	288-291	für	_	_
+3-10	292-295	das	_	_
+3-11	296-304	Institut	*	ORGmentioned
+3-12	305-308	von	_	_
+3-13	309-315	Bunsen	*	PERmentioned
+3-14	316-317	.	_	_
+
+#Text=In der archäologischen Zeitung bin ich mir nur bewußt Sie gegen Welcker 's Mißverstandniß vertheidigt zu haben .
+4-1	318-320	In	_	_
+4-2	321-324	der	_	_
+4-3	325-340	archäologischen	_	_
+4-4	341-348	Zeitung	_	_
+4-5	349-352	bin	_	_
+4-6	353-356	ich	_	_
+4-7	357-360	mir	_	_
+4-8	361-364	nur	_	_
+4-9	365-371	bewußt	_	_
+4-10	372-375	Sie	_	_
+4-11	376-381	gegen	_	_
+4-12	382-389	Welcker	*[3]	PERmentioned[3]
+4-13	390-392	's	*[3]	PERmentioned[3]
+4-14	393-407	Mißverstandniß	_	_
+4-15	408-419	vertheidigt	_	_
+4-16	420-422	zu	_	_
+4-17	423-428	haben	_	_
+4-18	429-430	.	_	_
+
+#Text=Welcker schrieb mir darauf ich hätte statt der Berichtigung sein monitum ganz streichen können .
+5-1	431-438	Welcker	*	PERmentioned
+5-2	439-446	schrieb	_	_
+5-3	447-450	mir	_	_
+5-4	451-457	darauf	_	_
+5-5	458-461	ich	_	_
+5-6	462-467	hätte	_	_
+5-7	468-473	statt	_	_
+5-8	474-477	der	_	_
+5-9	478-490	Berichtigung	_	_
+5-10	491-495	sein	_	_
+5-11	496-503	monitum	_	_
+5-12	504-508	ganz	_	_
+5-13	509-518	streichen	_	_
+5-14	519-525	können	_	_
+5-15	526-527	.	_	_
+
+#Text=Übrigens können Sie mir von Ihrer Reise nur dann und wann einmal ein Artikelchen dazu senden , was Ihnen nicht ins Bullettino paßt .
+6-1	528-536	Übrigens	_	_
+6-2	537-543	können	_	_
+6-3	544-547	Sie	_	_
+6-4	548-551	mir	_	_
+6-5	552-555	von	_	_
+6-6	556-561	Ihrer	_	_
+6-7	562-567	Reise	_	_
+6-8	568-571	nur	_	_
+6-9	572-576	dann	_	_
+6-10	577-580	und	_	_
+6-11	581-585	wann	_	_
+6-12	586-592	einmal	_	_
+6-13	593-596	ein	_	_
+6-14	597-608	Artikelchen	_	_
+6-15	609-613	dazu	_	_
+6-16	614-620	senden	_	_
+6-17	621-622	,	_	_
+6-18	623-626	was	_	_
+6-19	627-632	Ihnen	_	_
+6-20	633-638	nicht	_	_
+6-21	639-642	ins	_	_
+6-22	643-653	Bullettino	_	_
+6-23	654-658	paßt	_	_
+6-24	659-660	.	_	_
+
+#Text=Für dieselbe Reise empfehle ich Ihnen , wo die Gelegenheit sich giebt zur Kenntnis und Verbreitung meiner Werke beizutragen \; es geht recht flau damit .
+7-1	661-664	Für	_	_
+7-2	665-673	dieselbe	_	_
+7-3	674-679	Reise	_	_
+7-4	680-688	empfehle	_	_
+7-5	689-692	ich	_	_
+7-6	693-698	Ihnen	_	_
+7-7	699-700	,	_	_
+7-8	701-703	wo	_	_
+7-9	704-707	die	_	_
+7-10	708-719	Gelegenheit	_	_
+7-11	720-724	sich	_	_
+7-12	725-730	giebt	_	_
+7-13	731-734	zur	_	_
+7-14	735-743	Kenntnis	_	_
+7-15	744-747	und	_	_
+7-16	748-759	Verbreitung	_	_
+7-17	760-766	meiner	_	_
+7-18	767-772	Werke	_	_
+7-19	773-784	beizutragen	_	_
+7-20	785-786	\;	_	_
+7-21	787-789	es	_	_
+7-22	790-794	geht	_	_
+7-23	795-800	recht	_	_
+7-24	801-805	flau	_	_
+7-25	806-811	damit	_	_
+7-26	812-813	.	_	_
+
+#Text=Mit bestem Gruß an gemeinsame Freunde Herzlichst Ihr Gerhard
+8-1	814-817	Mit	_	_
+8-2	818-824	bestem	_	_
+8-3	825-829	Gruß	_	_
+8-4	830-832	an	_	_
+8-5	833-843	gemeinsame	_	_
+8-6	844-851	Freunde	_	_
+8-7	852-862	Herzlichst	_	_
+8-8	863-866	Ihr	_	_
+8-9	867-874	Gerhard	*	PERauthor

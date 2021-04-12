@@ -1,0 +1,309 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=318 Breun an Gerhard Rom , 12. März 1835 übernommen und zwar für 5 1/2 Scudi \; auch verspricht er ordentliche Bedienung .
+1-1	0-3	318	_	_
+1-2	4-9	Breun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	12.	*[1]	DATEletter[1]
+1-8	31-35	März	*[1]	DATEletter[1]
+1-9	36-40	1835	*[1]	DATEletter[1]
+1-10	41-51	übernommen	_	_
+1-11	52-55	und	_	_
+1-12	56-60	zwar	_	_
+1-13	61-64	für	_	_
+1-14	65-66	5	_	_
+1-15	67-70	1/2	_	_
+1-16	71-76	Scudi	_	_
+1-17	77-78	\;	_	_
+1-18	79-83	auch	_	_
+1-19	84-94	verspricht	_	_
+1-20	95-97	er	_	_
+1-21	98-109	ordentliche	_	_
+1-22	110-119	Bedienung	_	_
+1-23	120-121	.	_	_
+
+#Text=Wir wollen also einmal sehen , welcher Gewinn oder Ungewinn dabei ist .
+2-1	122-125	Wir	_	_
+2-2	126-132	wollen	_	_
+2-3	133-137	also	_	_
+2-4	138-144	einmal	_	_
+2-5	145-150	sehen	_	_
+2-6	151-152	,	_	_
+2-7	153-160	welcher	_	_
+2-8	161-167	Gewinn	_	_
+2-9	168-172	oder	_	_
+2-10	173-181	Ungewinn	_	_
+2-11	182-187	dabei	_	_
+2-12	188-191	ist	_	_
+2-13	192-193	.	_	_
+
+#Text=Sie haben die Kiste Anfang oder Mitte März zu erwarten \; 50 - 60 giorni zählen von Morgen an .
+3-1	194-197	Sie	_	_
+3-2	198-203	haben	_	_
+3-3	204-207	die	_	_
+3-4	208-213	Kiste	_	_
+3-5	214-220	Anfang	_	_
+3-6	221-225	oder	_	_
+3-7	226-231	Mitte	_	_
+3-8	232-236	März	*	DATEmentioned
+3-9	237-239	zu	_	_
+3-10	240-248	erwarten	_	_
+3-11	249-250	\;	_	_
+3-12	251-253	50	_	_
+3-13	254-255	-	_	_
+3-14	256-258	60	_	_
+3-15	259-265	giorni	_	_
+3-16	266-272	zählen	_	_
+3-17	273-276	von	_	_
+3-18	277-283	Morgen	_	_
+3-19	284-286	an	_	_
+3-20	287-288	.	_	_
+
+#Text=In selbiger Kiste wurde verpackt , was nur hineingehen wollte , wie folgt : 1 .
+4-1	289-291	In	_	_
+4-2	292-300	selbiger	_	_
+4-3	301-306	Kiste	_	_
+4-4	307-312	wurde	_	_
+4-5	313-321	verpackt	_	_
+4-6	322-323	,	_	_
+4-7	324-327	was	_	_
+4-8	328-331	nur	_	_
+4-9	332-343	hineingehen	_	_
+4-10	344-350	wollte	_	_
+4-11	351-352	,	_	_
+4-12	353-356	wie	_	_
+4-13	357-362	folgt	_	_
+4-14	363-364	:	_	_
+4-15	365-366	1	_	_
+4-16	367-368	.	_	_
+
+#Text=Bull .
+5-1	369-373	Bull	*[2]	LIT[2]
+5-2	374-375	.	*[2]	LIT[2]
+
+#Text=1834 Viii-XIIC incl .
+6-1	376-380	1834	*[2]	LIT[2]
+6-2	381-390	Viii-XIIC	*[2]	LIT[2]
+6-3	391-395	incl	*[2]	LIT[2]
+6-4	396-397	.	*[2]	LIT[2]
+
+#Text=cop .
+7-1	398-401	cop	*[2]	LIT[2]
+7-2	402-403	.	*[2]	LIT[2]
+
+#Text=70 2 .
+8-1	404-406	70	*[2]	LIT[2]
+8-2	407-408	2	_	_
+8-3	409-410	.	_	_
+
+#Text=Bull .
+9-1	411-415	Bull	*[3]	LIT[3]
+9-2	416-417	.	*[3]	LIT[3]
+
+#Text=do.do .
+10-1	418-423	do.do	*[3]	LIT[3]
+10-2	424-425	.	*[3]	LIT[3]
+
+#Text=in carta velina .
+11-1	426-428	in	*[3]	LIT[3]
+11-2	429-434	carta	*[3]	LIT[3]
+11-3	435-441	velina	*[3]	LIT[3]
+11-4	442-443	.	*[3]	LIT[3]
+
+#Text=cop .
+12-1	444-447	cop	*[3]	LIT[3]
+12-2	448-449	.	*[3]	LIT[3]
+
+#Text=2 3 .
+13-1	450-451	2	*[3]	LIT[3]
+13-2	452-453	3	_	_
+13-3	454-455	.	_	_
+
+#Text=Memorie fasc .
+14-1	456-463	Memorie	*[4]	LIT[4]
+14-2	464-468	fasc	*[4]	LIT[4]
+14-3	469-470	.	*[4]	LIT[4]
+
+#Text=III cop .
+15-1	471-474	III	*[4]	LIT[4]
+15-2	475-478	cop	*[4]	LIT[4]
+15-3	479-480	.	*[4]	LIT[4]
+
+#Text=50 4 .
+16-1	481-483	50	*[4]	LIT[4]
+16-2	484-485	4	_	_
+16-3	486-487	.	_	_
+
+#Text=Bötticher , die Hexe 5 .
+17-1	488-497	Bötticher	*	PERmentioned
+17-2	498-499	,	_	_
+17-3	500-503	die	*[5]	LIT[5]
+17-4	504-508	Hexe	*[5]	LIT[5]
+17-5	509-510	5	_	_
+17-6	511-512	.	_	_
+
+#Text=Hagen , Ghiberti 6 .
+18-1	513-518	Hagen	*	PERmentioned
+18-2	519-520	,	_	_
+18-3	521-529	Ghiberti	*	PERmentioned
+18-4	530-531	6	_	_
+18-5	532-533	.	_	_
+
+#Text=Welckers Zeitschr .
+19-1	534-542	Welckers	*	PERmentioned
+19-2	543-551	Zeitschr	*[6]	LIT[6]
+19-3	552-553	.	*[6]	LIT[6]
+
+#Text=I 7 .
+20-1	554-555	I	_	_
+20-2	556-557	7	_	_
+20-3	558-559	.	_	_
+
+#Text=Clark , Antiq .
+21-1	560-565	Clark	*	PERmentioned
+21-2	566-567	,	_	_
+21-3	568-573	Antiq	*[7]	LIT[7]
+21-4	574-575	.	*[7]	LIT[7]
+
+#Text=de Luvre 8 .
+22-1	576-578	de	*[7]	LIT[7]
+22-2	579-584	Luvre	*[7]	LIT[7]
+22-3	585-586	8	_	_
+22-4	587-588	.	_	_
+
+#Text=Hirts , Bra 9 , Müllers Bilderb.Heft 2 ( 4 Stempel : Kellermann ) 10 .
+23-1	589-594	Hirts	*	PERmentioned
+23-2	595-596	,	_	_
+23-3	597-600	Bra	*	LIT
+23-4	601-602	9	_	_
+23-5	603-604	,	_	_
+23-6	605-612	Müllers	*	PERmentioned
+23-7	613-625	Bilderb.Heft	*[8]	LIT[8]
+23-8	626-627	2	*[8]	LIT[8]
+23-9	628-629	(	_	_
+23-10	630-631	4	_	_
+23-11	632-639	Stempel	_	_
+23-12	640-641	:	_	_
+23-13	642-652	Kellermann	_	_
+23-14	653-654	)	_	_
+23-15	655-657	10	_	_
+23-16	658-659	.	_	_
+
+#Text=Mus . Chiusi fasc .
+24-1	660-663	Mus	_	_
+24-2	664-665	.	_	_
+24-3	666-672	Chiusi	*[9]	LIT[9]
+24-4	673-677	fasc	*[9]	LIT[9]
+24-5	678-679	.	*[9]	LIT[9]
+
+#Text=13 cop .
+25-1	680-682	13	*[9]	LIT[9]
+25-2	683-686	cop	*[9]	LIT[9]
+25-3	687-688	.	*[9]	LIT[9]
+
+#Text=3 “ 1 .
+26-1	689-690	3	*[9]	LIT[9]
+26-2	691-692	“	_	_
+26-3	693-694	1	_	_
+26-4	695-696	.	_	_
+
+#Text=Massi , Vatican .
+27-1	697-702	Massi	*	PERmentioned
+27-2	703-704	,	_	_
+27-3	705-712	Vatican	*[10]	LIT[10]
+27-4	713-714	.	*[10]	LIT[10]
+
+#Text=Mus . 12 .
+28-1	715-718	Mus	*[10]	LIT[10]
+28-2	719-720	.	*[10]	LIT[10]
+28-3	721-723	12	_	_
+28-4	724-725	.	_	_
+
+#Text=Rhein .
+29-1	726-731	Rhein	_	_
+29-2	732-733	.	*[11]	LIT[11]
+
+#Text=Mus . 2 Hefte .
+30-1	734-737	Mus	*[11]	LIT[11]
+30-2	738-739	.	*[11]	LIT[11]
+30-3	740-741	2	*[11]	LIT[11]
+30-4	742-747	Hefte	*[11]	LIT[11]
+30-5	748-749	.	*[11]	LIT[11]
+
+#Text=13 .
+31-1	750-752	13	_	_
+31-2	753-754	.	_	_
+
+#Text=Novaes ( für Ranke S. 8 ) 14. re , Mus . Capitol .
+32-1	755-761	Novaes	*	PERmentioned
+32-2	762-763	(	_	_
+32-3	764-767	für	_	_
+32-4	768-773	Ranke	*	PERmentioned
+32-5	774-776	S.	_	_
+32-6	777-778	8	_	_
+32-7	779-780	)	_	_
+32-8	781-784	14.	_	_
+32-9	785-787	re	_	_
+32-10	788-789	,	_	_
+32-11	790-793	Mus	*[12]	LIT[12]
+32-12	794-795	.	*[12]	LIT[12]
+32-13	796-803	Capitol	*[12]	LIT[12]
+32-14	804-805	.	*[12]	LIT[12]
+
+#Text=( S. 2 ) 15 , Forcellini , cop .
+33-1	806-807	(	_	_
+33-2	808-810	S.	_	_
+33-3	811-812	2	_	_
+33-4	813-814	)	_	_
+33-5	815-817	15	_	_
+33-6	818-819	,	_	_
+33-7	820-830	Forcellini	*	PERmentioned
+33-8	831-832	,	_	_
+33-9	833-836	cop	*[13]	LIT[13]
+33-10	837-838	.	*[13]	LIT[13]
+
+#Text=I. intera 16.Piale , Dissert .
+34-1	839-841	I.	*[13]	LIT[13]
+34-2	842-848	intera	*[13]	LIT[13]
+34-3	849-857	16.Piale	*	PERmentioned
+34-4	858-859	,	_	_
+34-5	860-867	Dissert	*[14]	LIT[14]
+34-6	868-869	.	*[14]	LIT[14]
+
+#Text=compiute 17 .
+35-1	870-878	compiute	*[14]	LIT[14]
+35-2	879-881	17	_	_
+35-3	882-883	.	_	_
+
+#Text=Fea , Rovine di Roma 18 .
+36-1	884-887	Fea	*	PERmentioned
+36-2	888-889	,	_	_
+36-3	890-896	Rovine	*[15]	LIT[15]
+36-4	897-899	di	*[15]	LIT[15]
+36-5	900-904	Roma	*[15]	LIT[15]
+36-6	905-907	18	_	_
+36-7	908-909	.	_	_
+
+#Text=Inghirami , Vasi Fitt .
+37-1	910-919	Inghirami	*	PERmentioned
+37-2	920-921	,	_	_
+37-3	922-926	Vasi	*[16]	LIT[16]
+37-4	927-931	Fitt	*[16]	LIT[16]
+37-5	932-933	.	*[16]	LIT[16]
+
+#Text=fasc .
+38-1	934-938	fasc	*[16]	LIT[16]
+38-2	939-940	.	*[16]	LIT[16]
+
+#Text=16 cop .
+39-1	941-943	16	*[16]	LIT[16]
+39-2	944-947	cop	_	_
+39-3	948-949	.	_	_
+
+#Text=2
+40-1	950-951	2	_	_

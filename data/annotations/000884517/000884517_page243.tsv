@@ -1,0 +1,77 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Frankfurt , 21. September 71847 von mir erzählen und den Winter dort bleiben wird .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-26	Frankfurt	*	PLACEfrom
+1-5	27-28	,	_	_
+1-6	29-32	21.	*[1]	DATEletter[1]
+1-7	33-42	September	*[1]	DATEletter[1]
+1-8	43-48	71847	*[1]	DATEletter[1]
+1-9	49-52	von	_	_
+1-10	53-56	mir	_	_
+1-11	57-65	erzählen	_	_
+1-12	66-69	und	_	_
+1-13	70-73	den	_	_
+1-14	74-80	Winter	_	_
+1-15	81-85	dort	_	_
+1-16	86-93	bleiben	_	_
+1-17	94-98	wird	_	_
+1-18	99-100	.	_	_
+
+#Text=Ich schreibe an Henzen von Berlin aus baldmöglichst \; grüßen Sie ihn und Brunn .
+2-1	101-104	Ich	_	_
+2-2	105-113	schreibe	_	_
+2-3	114-116	an	_	_
+2-4	117-123	Henzen	*	PERmentioned
+2-5	124-127	von	_	_
+2-6	128-134	Berlin	*	PLACEmentioned
+2-7	135-138	aus	_	_
+2-8	139-152	baldmöglichst	_	_
+2-9	153-154	\;	_	_
+2-10	155-161	grüßen	_	_
+2-11	162-165	Sie	_	_
+2-12	166-169	ihn	_	_
+2-13	170-173	und	_	_
+2-14	174-179	Brunn	*	PERmentioned
+2-15	180-181	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard Launitz und Melly haben sich zu einem Kongreß für Mittelalter verbündet , der im nächsten Jahr zu Banberg beginnen solle .
+3-1	182-185	Von	_	_
+3-2	186-192	Herzen	_	_
+3-3	193-196	der	_	_
+3-4	197-203	Ihrige	_	_
+3-5	204-211	Gerhard	*	PERauthor
+3-6	212-219	Launitz	*	PERmentioned
+3-7	220-223	und	_	_
+3-8	224-229	Melly	*	PERmentioned
+3-9	230-235	haben	_	_
+3-10	236-240	sich	_	_
+3-11	241-243	zu	_	_
+3-12	244-249	einem	_	_
+3-13	250-257	Kongreß	_	_
+3-14	258-261	für	_	_
+3-15	262-273	Mittelalter	_	_
+3-16	274-283	verbündet	_	_
+3-17	284-285	,	_	_
+3-18	286-289	der	_	_
+3-19	290-292	im	_	_
+3-20	293-301	nächsten	_	_
+3-21	302-306	Jahr	_	_
+3-22	307-309	zu	_	_
+3-23	310-317	Banberg	*	PLACEmentioned
+3-24	318-326	beginnen	_	_
+3-25	327-332	solle	_	_
+3-26	333-334	.	_	_
+
+#Text=Schwanck ist gesünder und docirt wieder .
+4-1	335-343	Schwanck	*	PERmentioned
+4-2	344-347	ist	_	_
+4-3	348-356	gesünder	_	_
+4-4	357-360	und	_	_
+4-5	361-367	docirt	_	_
+4-6	368-374	wieder	_	_
+4-7	375-376	.	_	_

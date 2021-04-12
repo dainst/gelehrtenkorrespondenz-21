@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=u. 1023 Gerhard an Braun Berlin , 30. Dezember 1834 Preises \; denn der Stich würde theurer kommen .
+1-1	0-2	u.	_	_
+1-2	3-7	1023	_	_
+1-3	8-15	Gerhard	*	PERauthor
+1-4	16-18	an	_	_
+1-5	19-24	Braun	*	PERaddressee
+1-6	25-31	Berlin	*	PLACEfrom
+1-7	32-33	,	_	_
+1-8	34-37	30.	*[4]	DATEletter[4]
+1-9	38-46	Dezember	*[4]	DATEletter[4]
+1-10	47-51	1834	*[4]	DATEletter[4]
+1-11	52-59	Preises	_	_
+1-12	60-61	\;	_	_
+1-13	62-66	denn	_	_
+1-14	67-70	der	_	_
+1-15	71-76	Stich	_	_
+1-16	77-82	würde	_	_
+1-17	83-90	theurer	_	_
+1-18	91-97	kommen	_	_
+1-19	98-99	.	_	_
+
+#Text=Übrigens hatte ich die Zeichnung eher als Nibby .
+2-1	100-108	Übrigens	_	_
+2-2	109-114	hatte	_	_
+2-3	115-118	ich	_	_
+2-4	119-122	die	_	_
+2-5	123-132	Zeichnung	_	_
+2-6	133-137	eher	_	_
+2-7	138-141	als	_	_
+2-8	142-147	Nibby	*	PERmentioned
+2-9	148-149	.	_	_
+
+#Text=Das Campanasche Relief hatte ich für die Institutswerke bestimmt \; ist die Zeichnung zu danke , so mögen Sie sich nach einem Kupfer as .
+3-1	150-153	Das	_	_
+3-2	154-165	Campanasche	*[6]	OBJ[6]
+3-3	166-172	Relief	*[6]	OBJ[6]
+3-4	173-178	hatte	_	_
+3-5	179-182	ich	_	_
+3-6	183-186	für	_	_
+3-7	187-190	die	_	_
+3-8	191-205	Institutswerke	_	_
+3-9	206-214	bestimmt	_	_
+3-10	215-216	\;	_	_
+3-11	217-220	ist	_	_
+3-12	221-224	die	_	_
+3-13	225-234	Zeichnung	_	_
+3-14	235-237	zu	_	_
+3-15	238-243	danke	_	_
+3-16	244-245	,	_	_
+3-17	246-248	so	_	_
+3-18	249-254	mögen	_	_
+3-19	255-258	Sie	_	_
+3-20	259-263	sich	_	_
+3-21	264-268	nach	_	_
+3-22	269-274	einem	_	_
+3-23	275-281	Kupfer	_	_
+3-24	282-284	as	_	_
+3-25	285-286	.	_	_
+
+#Text=N sehen .
+4-1	287-288	N	_	_
+4-2	289-294	sehen	_	_
+4-3	295-296	.	_	_
+
+#Text=Hoffentlich wird sie ein ganzes Blatt anständig füllen .
+5-1	297-308	Hoffentlich	_	_
+5-2	309-313	wird	_	_
+5-3	314-317	sie	_	_
+5-4	318-321	ein	_	_
+5-5	322-328	ganzes	_	_
+5-6	329-334	Blatt	_	_
+5-7	335-344	anständig	_	_
+5-8	345-351	füllen	_	_
+5-9	352-353	.	_	_
+
+#Text=Was ist aus der Campanari-Manzischen Ausgrabungs- Subskr „ oocsorcnenre .
+6-1	354-357	Was	_	_
+6-2	358-361	ist	_	_
+6-3	362-365	aus	_	_
+6-4	366-369	der	_	_
+6-5	370-390	Campanari-Manzischen	*	PERmentioned
+6-6	391-403	Ausgrabungs-	_	_
+6-7	404-410	Subskr	_	_
+6-8	411-412	„	_	_
+6-9	413-425	oocsorcnenre	_	_
+6-10	426-427	.	_	_
+
+#Text=Warum und für wen Sie die Schwalbenvase neu zeichnen ließen , ist mir nicht klar \; Apolloni lieferte sie mir in Durchzeichnung „ ... c .... se.0 .... einmal farbig , später als , wie Sie sich erinnern werden , ich die Zeichnung nach Berlin sandte .
+7-1	428-433	Warum	_	_
+7-2	434-437	und	_	_
+7-3	438-441	für	_	_
+7-4	442-445	wen	_	_
+7-5	446-449	Sie	_	_
+7-6	450-453	die	_	_
+7-7	454-467	Schwalbenvase	*	OBJ
+7-8	468-471	neu	_	_
+7-9	472-480	zeichnen	_	_
+7-10	481-487	ließen	_	_
+7-11	488-489	,	_	_
+7-12	490-493	ist	_	_
+7-13	494-497	mir	_	_
+7-14	498-503	nicht	_	_
+7-15	504-508	klar	_	_
+7-16	509-510	\;	_	_
+7-17	511-519	Apolloni	*	PERmentioned
+7-18	520-528	lieferte	_	_
+7-19	529-532	sie	_	_
+7-20	533-536	mir	_	_
+7-21	537-539	in	_	_
+7-22	540-554	Durchzeichnung	_	_
+7-23	555-556	„	_	_
+7-24	557-560	...	_	_
+7-25	561-562	c	_	_
+7-26	563-567	....	_	_
+7-27	568-572	se.0	_	_
+7-28	573-577	....	_	_
+7-29	578-584	einmal	_	_
+7-30	585-591	farbig	_	_
+7-31	592-593	,	_	_
+7-32	594-600	später	_	_
+7-33	601-604	als	_	_
+7-34	605-606	,	_	_
+7-35	607-610	wie	_	_
+7-36	611-614	Sie	_	_
+7-37	615-619	sich	_	_
+7-38	620-628	erinnern	_	_
+7-39	629-635	werden	_	_
+7-40	636-637	,	_	_
+7-41	638-641	ich	_	_
+7-42	642-645	die	_	_
+7-43	646-655	Zeichnung	_	_
+7-44	656-660	nach	_	_
+7-45	661-667	Berlin	*	PLACEmentioned
+7-46	668-674	sandte	_	_
+7-47	675-676	.	_	_
+
+#Text=Selbst zum Stich hätte ich recht gut meine Zeichnung schicken können \; übrigens ist es mir sehr genehm , wenn Sie sie stechen lassen , wozu vermuthlich ein einziges weiches Blatt genügt .
+8-1	677-683	Selbst	_	_
+8-2	684-687	zum	_	_
+8-3	688-693	Stich	_	_
+8-4	694-699	hätte	_	_
+8-5	700-703	ich	_	_
+8-6	704-709	recht	_	_
+8-7	710-713	gut	_	_
+8-8	714-719	meine	_	_
+8-9	720-729	Zeichnung	_	_
+8-10	730-738	schicken	_	_
+8-11	739-745	können	_	_
+8-12	746-747	\;	_	_
+8-13	748-756	übrigens	_	_
+8-14	757-760	ist	_	_
+8-15	761-763	es	_	_
+8-16	764-767	mir	_	_
+8-17	768-772	sehr	_	_
+8-18	773-779	genehm	_	_
+8-19	780-781	,	_	_
+8-20	782-786	wenn	_	_
+8-21	787-790	Sie	_	_
+8-22	791-794	sie	_	_
+8-23	795-802	stechen	_	_
+8-24	803-809	lassen	_	_
+8-25	810-811	,	_	_
+8-26	812-816	wozu	_	_
+8-27	817-828	vermuthlich	_	_
+8-28	829-832	ein	_	_
+8-29	833-841	einziges	_	_
+8-30	842-849	weiches	_	_
+8-31	850-855	Blatt	_	_
+8-32	856-862	genügt	_	_
+8-33	863-864	.	_	_
+
+#Text=Nach dem von Cades 4 Centurien in Paris 2 Exenplare zu 120 Fr. privatissime und ein drittes in Brüssel für 160 Fr. abgesetzt sind , habe ich de Witten , dem das Geld mangelt , die 400 Fr. zu Gute geschrieben .
+9-1	865-869	Nach	_	_
+9-2	870-873	dem	_	_
+9-3	874-877	von	_	_
+9-4	878-883	Cades	*	PERmentioned
+9-5	884-885	4	_	_
+9-6	886-895	Centurien	_	_
+9-7	896-898	in	_	_
+9-8	899-904	Paris	*	PLACEmentioned
+9-9	905-906	2	_	_
+9-10	907-916	Exenplare	_	_
+9-11	917-919	zu	_	_
+9-12	920-923	120	_	_
+9-13	924-927	Fr.	_	_
+9-14	928-940	privatissime	_	_
+9-15	941-944	und	_	_
+9-16	945-948	ein	_	_
+9-17	949-956	drittes	_	_
+9-18	957-959	in	_	_
+9-19	960-967	Brüssel	*	PLACEmentioned
+9-20	968-971	für	_	_
+9-21	972-975	160	_	_
+9-22	976-979	Fr.	_	_
+9-23	980-989	abgesetzt	_	_
+9-24	990-994	sind	_	_
+9-25	995-996	,	_	_
+9-26	997-1001	habe	_	_
+9-27	1002-1005	ich	_	_
+9-28	1006-1008	de	*[14]	PERmentioned[14]
+9-29	1009-1015	Witten	*[14]	PERmentioned[14]
+9-30	1016-1017	,	_	_
+9-31	1018-1021	dem	_	_
+9-32	1022-1025	das	_	_
+9-33	1026-1030	Geld	_	_
+9-34	1031-1038	mangelt	_	_
+9-35	1039-1040	,	_	_
+9-36	1041-1044	die	_	_
+9-37	1045-1048	400	_	_
+9-38	1049-1052	Fr.	_	_
+9-39	1053-1055	zu	_	_
+9-40	1056-1060	Gute	_	_
+9-41	1061-1072	geschrieben	_	_
+9-42	1073-1074	.	_	_
+
+#Text=Wir sind dafür den Betrag von 12 Centurien ä Scudi 5 .
+10-1	1075-1078	Wir	_	_
+10-2	1079-1083	sind	_	_
+10-3	1084-1089	dafür	_	_
+10-4	1090-1093	den	_	_
+10-5	1094-1100	Betrag	_	_
+10-6	1101-1104	von	_	_
+10-7	1105-1107	12	_	_
+10-8	1108-1117	Centurien	_	_
+10-9	1118-1119	ä	_	_
+10-10	1120-1125	Scudi	_	_
+10-11	1126-1127	5	_	_
+10-12	1128-1129	.	_	_
+
+#Text=Baj 40 , also Scudi 64 Baj .
+11-1	1130-1133	Baj	_	_
+11-2	1134-1136	40	_	_
+11-3	1137-1138	,	_	_
+11-4	1139-1143	also	_	_
+11-5	1144-1149	Scudi	_	_
+11-6	1150-1152	64	_	_
+11-7	1153-1156	Baj	_	_
+11-8	1157-1158	.	_	_
+
+#Text=80 an Cades schuldig , dagegen der Überschuß ( die Differenz der 68.80. von den 400 Fr. ) der Bibliothek des Instituts zu Gute zu schreiben ist .
+12-1	1159-1161	80	_	_
+12-2	1162-1164	an	_	_
+12-3	1165-1170	Cades	*	PERmentioned
+12-4	1171-1179	schuldig	_	_
+12-5	1180-1181	,	_	_
+12-6	1182-1189	dagegen	_	_
+12-7	1190-1193	der	_	_
+12-8	1194-1203	Überschuß	_	_
+12-9	1204-1205	(	_	_
+12-10	1206-1209	die	_	_
+12-11	1210-1219	Differenz	_	_
+12-12	1220-1223	der	_	_
+12-13	1224-1230	68.80.	_	_
+12-14	1231-1234	von	_	_
+12-15	1235-1238	den	_	_
+12-16	1239-1242	400	_	_
+12-17	1243-1246	Fr.	_	_
+12-18	1247-1248	)	_	_
+12-19	1249-1252	der	_	_
+12-20	1253-1263	Bibliothek	*[16]	ORGmentioned[16]
+12-21	1264-1267	des	*[16]	ORGmentioned[16]
+12-22	1268-1277	Instituts	*[16]	ORGmentioned[16]
+12-23	1278-1280	zu	_	_
+12-24	1281-1285	Gute	_	_
+12-25	1286-1288	zu	_	_
+12-26	1289-1298	schreiben	_	_
+12-27	1299-1302	ist	_	_
+12-28	1303-1304	.	_	_
+
+#Text=Hat Durand die Schwalbenvase oder wer sonst ?
+13-1	1305-1308	Hat	_	_
+13-2	1309-1315	Durand	*	PERmentioned
+13-3	1316-1319	die	_	_
+13-4	1320-1333	Schwalbenvase	*	OBJ
+13-5	1334-1338	oder	_	_
+13-6	1339-1342	wer	_	_
+13-7	1343-1348	sonst	_	_
+13-8	1349-1350	?	_	_

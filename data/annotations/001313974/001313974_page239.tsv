@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=465 Helbig an Henzen Athen , 10 .
+1-1	0-3	465	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-26	Athen	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	10	*[3]	DATEletter[3]
+1-8	32-33	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1874 H g . 16/2 74 Athen , den 10 .
+2-1	34-41	Oktober	*[3]	DATEletter[3]
+2-2	42-46	1874	*[3]	DATEletter[3]
+2-3	47-48	H	_	_
+2-4	49-50	g	_	_
+2-5	51-52	.	_	_
+2-6	53-57	16/2	*[4]	DATErecieved[4]
+2-7	58-60	74	*[4]	DATErecieved[4]
+2-8	61-66	Athen	*	PLACEfrom
+2-9	67-68	,	_	_
+2-10	69-72	den	_	_
+2-11	73-75	10	*[5]	DATEletter[5]
+2-12	76-77	.	*[5]	DATEletter[5]
+
+#Text=Oct .
+3-1	78-81	Oct	*[5]	DATEletter[5]
+3-2	82-83	.	*[5]	DATEletter[5]
+
+#Text=1874 Lieber Herr Professor Auch heute nur wenige Zeilen , da ich alle schwebenden Fragen doch am Besten mündlich mit Ihnen bespreche .
+4-1	84-88	1874	*[5]	DATEletter[5]
+4-2	89-95	Lieber	_	_
+4-3	96-100	Herr	_	_
+4-4	101-110	Professor	_	_
+4-5	111-115	Auch	_	_
+4-6	116-121	heute	_	_
+4-7	122-125	nur	_	_
+4-8	126-132	wenige	_	_
+4-9	133-139	Zeilen	_	_
+4-10	140-141	,	_	_
+4-11	142-144	da	_	_
+4-12	145-148	ich	_	_
+4-13	149-153	alle	_	_
+4-14	154-165	schwebenden	_	_
+4-15	166-172	Fragen	_	_
+4-16	173-177	doch	_	_
+4-17	178-180	am	_	_
+4-18	181-187	Besten	_	_
+4-19	188-196	mündlich	_	_
+4-20	197-200	mit	_	_
+4-21	201-206	Ihnen	_	_
+4-22	207-216	bespreche	_	_
+4-23	217-218	.	_	_
+
+#Text=1 ) Chiusiner Artikel : il muro piü lungo misura m. 3,70 , il muro piü corto 3,50 , wie mein Notizbuch besagt , das ich glücklicher Weise bei mir habe .
+5-1	219-220	1	_	_
+5-2	221-222	)	_	_
+5-3	223-232	Chiusiner	*	MISC
+5-4	233-240	Artikel	_	_
+5-5	241-242	:	_	_
+5-6	243-245	il	_	_
+5-7	246-250	muro	_	_
+5-8	251-254	piü	_	_
+5-9	255-260	lungo	_	_
+5-10	261-267	misura	_	_
+5-11	268-270	m.	_	_
+5-12	271-275	3,70	_	_
+5-13	276-277	,	_	_
+5-14	278-280	il	_	_
+5-15	281-285	muro	_	_
+5-16	286-289	piü	_	_
+5-17	290-295	corto	_	_
+5-18	296-300	3,50	_	_
+5-19	301-302	,	_	_
+5-20	303-306	wie	_	_
+5-21	307-311	mein	_	_
+5-22	312-321	Notizbuch	_	_
+5-23	322-328	besagt	_	_
+5-24	329-330	,	_	_
+5-25	331-334	das	_	_
+5-26	335-338	ich	_	_
+5-27	339-350	glücklicher	_	_
+5-28	351-356	Weise	_	_
+5-29	357-360	bei	_	_
+5-30	361-364	mir	_	_
+5-31	365-369	habe	_	_
+5-32	370-371	.	_	_
+
+#Text=2 ) Schliemann , mit dem ich mich gut gestellt , wird voraussichtlich um den 20 .
+6-1	372-373	2	_	_
+6-2	374-375	)	_	_
+6-3	376-386	Schliemann	*	PERmentioned
+6-4	387-388	,	_	_
+6-5	389-392	mit	_	_
+6-6	393-396	dem	_	_
+6-7	397-400	ich	_	_
+6-8	401-405	mich	_	_
+6-9	406-409	gut	_	_
+6-10	410-418	gestellt	_	_
+6-11	419-420	,	_	_
+6-12	421-425	wird	_	_
+6-13	426-441	voraussichtlich	_	_
+6-14	442-444	um	_	_
+6-15	445-448	den	_	_
+6-16	449-451	20	*[6]	DATEmentioned[6]
+6-17	452-453	.	*[6]	DATEmentioned[6]
+
+#Text=October in Rom eintreffen .
+7-1	454-461	October	*[6]	DATEmentioned[6]
+7-2	462-464	in	_	_
+7-3	465-468	Rom	*	PLACEmentioned
+7-4	469-479	eintreffen	_	_
+7-5	480-481	.	_	_
+
+#Text=Er will in Italien kolossale Ausgrabungen unternehnen .
+8-1	482-484	Er	_	_
+8-2	485-489	will	_	_
+8-3	490-492	in	_	_
+8-4	493-500	Italien	*	PLACEmentioned
+8-5	501-510	kolossale	_	_
+8-6	511-523	Ausgrabungen	_	_
+8-7	524-535	unternehnen	_	_
+8-8	536-537	.	_	_
+
+#Text=Ich brauche wohl kaum darum zu bitten , daß Sie ihn freundlich aufnehmen und seine Susceptibilitäten schonen .
+9-1	538-541	Ich	_	_
+9-2	542-549	brauche	_	_
+9-3	550-554	wohl	_	_
+9-4	555-559	kaum	_	_
+9-5	560-565	darum	_	_
+9-6	566-568	zu	_	_
+9-7	569-575	bitten	_	_
+9-8	576-577	,	_	_
+9-9	578-581	daß	_	_
+9-10	582-585	Sie	_	_
+9-11	586-589	ihn	_	_
+9-12	590-600	freundlich	_	_
+9-13	601-610	aufnehmen	_	_
+9-14	611-614	und	_	_
+9-15	615-620	seine	_	_
+9-16	621-638	Susceptibilitäten	_	_
+9-17	639-646	schonen	_	_
+9-18	647-648	.	_	_
+
+#Text=Er kann unendlich nützlich werden .
+10-1	649-651	Er	_	_
+10-2	652-656	kann	_	_
+10-3	657-666	unendlich	_	_
+10-4	667-675	nützlich	_	_
+10-5	676-682	werden	_	_
+10-6	683-684	.	_	_
+
+#Text=3 ) Lüders wünscht sehr , daß ich , der ich mich über die hiesige Situation orientirt , der Centraldirection gegenüber über dieselbe auslasse .
+11-1	685-686	3	_	_
+11-2	687-688	)	_	_
+11-3	689-695	Lüders	*	PERmentioned
+11-4	696-703	wünscht	_	_
+11-5	704-708	sehr	_	_
+11-6	709-710	,	_	_
+11-7	711-714	daß	_	_
+11-8	715-718	ich	_	_
+11-9	719-720	,	_	_
+11-10	721-724	der	_	_
+11-11	725-728	ich	_	_
+11-12	729-733	mich	_	_
+11-13	734-738	über	_	_
+11-14	739-742	die	_	_
+11-15	743-750	hiesige	_	_
+11-16	751-760	Situation	_	_
+11-17	761-770	orientirt	_	_
+11-18	771-772	,	_	_
+11-19	773-776	der	_	_
+11-20	777-793	Centraldirection	*	ORGmentioned
+11-21	794-803	gegenüber	_	_
+11-22	804-808	über	_	_
+11-23	809-817	dieselbe	_	_
+11-24	818-826	auslasse	_	_
+11-25	827-828	.	_	_
+
+#Text=Von selbst kann ich dies nicht thun , ohne aufdringlich zu erscheinen .
+12-1	829-832	Von	_	_
+12-2	833-839	selbst	_	_
+12-3	840-844	kann	_	_
+12-4	845-848	ich	_	_
+12-5	849-853	dies	_	_
+12-6	854-859	nicht	_	_
+12-7	860-864	thun	_	_
+12-8	865-866	,	_	_
+12-9	867-871	ohne	_	_
+12-10	872-884	aufdringlich	_	_
+12-11	885-887	zu	_	_
+12-12	888-898	erscheinen	_	_
+12-13	899-900	.	_	_
+
+#Text=Werde ich dagegen dazu aufgefordert , so thue ich es ganz gern .
+13-1	901-906	Werde	_	_
+13-2	907-910	ich	_	_
+13-3	911-918	dagegen	_	_
+13-4	919-923	dazu	_	_
+13-5	924-936	aufgefordert	_	_
+13-6	937-938	,	_	_
+13-7	939-941	so	_	_
+13-8	942-946	thue	_	_
+13-9	947-950	ich	_	_
+13-10	951-953	es	_	_
+13-11	954-958	ganz	_	_
+13-12	959-963	gern	_	_
+13-13	964-965	.	_	_
+
+#Text=Könnten Sie bei der CD eine Aufforderung in diesen Sinne vermitteln , so würde Ihnen lüders sehr dankbar sein .
+14-1	966-973	Könnten	_	_
+14-2	974-977	Sie	_	_
+14-3	978-981	bei	_	_
+14-4	982-985	der	_	_
+14-5	986-988	CD	*	ORGmentioned
+14-6	989-993	eine	_	_
+14-7	994-1006	Aufforderung	_	_
+14-8	1007-1009	in	_	_
+14-9	1010-1016	diesen	_	_
+14-10	1017-1022	Sinne	_	_
+14-11	1023-1033	vermitteln	_	_
+14-12	1034-1035	,	_	_
+14-13	1036-1038	so	_	_
+14-14	1039-1044	würde	_	_
+14-15	1045-1050	Ihnen	_	_
+14-16	1051-1057	lüders	*	PERmentioned
+14-17	1058-1062	sehr	_	_
+14-18	1063-1070	dankbar	_	_
+14-19	1071-1075	sein	_	_
+14-20	1076-1077	.	_	_
+
+#Text=In Eile mir herzlichen Grüßen Ihr Helbig In ‘ , .
+15-1	1078-1080	In	_	_
+15-2	1081-1085	Eile	_	_
+15-3	1086-1089	mir	_	_
+15-4	1090-1100	herzlichen	_	_
+15-5	1101-1107	Grüßen	_	_
+15-6	1108-1111	Ihr	_	_
+15-7	1112-1118	Helbig	*	PERauthor
+15-8	1119-1121	In	_	_
+15-9	1122-1123	‘	_	_
+15-10	1124-1125	,	_	_
+15-11	1126-1127	.	_	_
+
+#Text=- EU .
+16-1	1128-1129	-	_	_
+16-2	1130-1132	EU	_	_
+16-3	1133-1134	.	_	_
+
+#Text=j e .. 5 .
+17-1	1135-1136	j	_	_
+17-2	1137-1138	e	_	_
+17-3	1139-1141	..	_	_
+17-4	1142-1143	5	_	_
+17-5	1144-1145	.	_	_
+
+#Text=Br Men eclen “ 2 , la lach fr , iR Y .
+18-1	1146-1148	Br	_	_
+18-2	1149-1152	Men	_	_
+18-3	1153-1158	eclen	_	_
+18-4	1159-1160	“	_	_
+18-5	1161-1162	2	_	_
+18-6	1163-1164	,	_	_
+18-7	1165-1167	la	_	_
+18-8	1168-1172	lach	_	_
+18-9	1173-1175	fr	_	_
+18-10	1176-1177	,	_	_
+18-11	1178-1180	iR	_	_
+18-12	1181-1182	Y	_	_
+18-13	1183-1184	.	_	_
+
+#Text=£ “ \\
+19-1	1185-1186	£	_	_
+19-2	1187-1188	“	_	_
+19-3	1189-1190	\\	_	_

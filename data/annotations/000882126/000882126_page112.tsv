@@ -1,0 +1,308 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=363 Braun an Gerhard Rom , 31. Mai 1836 - 4 Bunsen bei ihr .
+1-1	0-3	363	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	31.	*[11]	DATEletter[11]
+1-8	31-34	Mai	*[11]	DATEletter[11]
+1-9	35-39	1836	*[11]	DATEletter[11]
+1-10	40-41	-	_	_
+1-11	42-43	4	_	_
+1-12	44-50	Bunsen	*	PERmentioned
+1-13	51-54	bei	_	_
+1-14	55-58	ihr	_	_
+1-15	59-60	.	_	_
+
+#Text=Sie ließ mir eine sehr interessante Tasse sehen , worauf unter andern Vorstellungen ein Riesenkörper von zwei geflügelten geharrnischten Männern , in elegentem Styl hinweggetragen wird .
+2-1	61-64	Sie	_	_
+2-2	65-69	ließ	_	_
+2-3	70-73	mir	_	_
+2-4	74-78	eine	_	_
+2-5	79-83	sehr	_	_
+2-6	84-96	interessante	_	_
+2-7	97-102	Tasse	*	OBJ
+2-8	103-108	sehen	_	_
+2-9	109-110	,	_	_
+2-10	111-117	worauf	_	_
+2-11	118-123	unter	_	_
+2-12	124-130	andern	_	_
+2-13	131-144	Vorstellungen	_	_
+2-14	145-148	ein	_	_
+2-15	149-161	Riesenkörper	_	_
+2-16	162-165	von	_	_
+2-17	166-170	zwei	_	_
+2-18	171-182	geflügelten	_	_
+2-19	183-197	geharrnischten	_	_
+2-20	198-205	Männern	_	_
+2-21	206-207	,	_	_
+2-22	208-210	in	_	_
+2-23	211-220	elegentem	_	_
+2-24	221-225	Styl	_	_
+2-25	226-240	hinweggetragen	_	_
+2-26	241-245	wird	_	_
+2-27	246-247	.	_	_
+
+#Text=Erinnern Sie sich des Monuments ?
+3-1	248-256	Erinnern	_	_
+3-2	257-260	Sie	_	_
+3-3	261-265	sich	_	_
+3-4	266-269	des	_	_
+3-5	270-279	Monuments	_	_
+3-6	280-281	?	_	_
+
+#Text=Durch Campanari erhalte ich vielleicht eine Zeichnung davon .
+4-1	282-287	Durch	_	_
+4-2	288-297	Campanari	*	PERmentioned
+4-3	298-305	erhalte	_	_
+4-4	306-309	ich	_	_
+4-5	310-320	vielleicht	_	_
+4-6	321-325	eine	_	_
+4-7	326-335	Zeichnung	_	_
+4-8	336-341	davon	_	_
+4-9	342-343	.	_	_
+
+#Text=Haben Sie wohl Campanaris , des Vasenrestaurateurs Sache , in Ueberlegung genommen ?
+5-1	344-349	Haben	_	_
+5-2	350-353	Sie	_	_
+5-3	354-358	wohl	_	_
+5-4	359-369	Campanaris	*	PERmentioned
+5-5	370-371	,	_	_
+5-6	372-375	des	_	_
+5-7	376-394	Vasenrestaurateurs	_	_
+5-8	395-400	Sache	_	_
+5-9	401-402	,	_	_
+5-10	403-405	in	_	_
+5-11	406-417	Ueberlegung	_	_
+5-12	418-426	genommen	_	_
+5-13	427-428	?	_	_
+
+#Text=Er wünscht gern in Berlin zu restauriren , weil er hier von Grifi , Nibby etc. zu sehr intriguirt werde .
+6-1	429-431	Er	_	_
+6-2	432-439	wünscht	_	_
+6-3	440-444	gern	_	_
+6-4	445-447	in	_	_
+6-5	448-454	Berlin	*	PLACEmentioned
+6-6	455-457	zu	_	_
+6-7	458-469	restauriren	_	_
+6-8	470-471	,	_	_
+6-9	472-476	weil	_	_
+6-10	477-479	er	_	_
+6-11	480-484	hier	_	_
+6-12	485-488	von	_	_
+6-13	489-494	Grifi	*	PERmentioned
+6-14	495-496	,	_	_
+6-15	497-502	Nibby	*	PERmentioned
+6-16	503-507	etc.	_	_
+6-17	508-510	zu	_	_
+6-18	511-515	sehr	_	_
+6-19	516-526	intriguirt	_	_
+6-20	527-532	werde	_	_
+6-21	533-534	.	_	_
+
+#Text=Er hat uns diesen Winter wesentliche Dienste gethan .
+7-1	535-537	Er	_	_
+7-2	538-541	hat	_	_
+7-3	542-545	uns	_	_
+7-4	546-552	diesen	_	_
+7-5	553-559	Winter	_	_
+7-6	560-571	wesentliche	_	_
+7-7	572-579	Dienste	_	_
+7-8	580-586	gethan	_	_
+7-9	587-588	.	_	_
+
+#Text=Durch ihn haben wir alle Vasenrapporte mitgetheilt bekommen \; außerdem hat er sich sehr bemüht unsere Aufmerksamkeit auf schöne Ankäufe hinzulenken und das ohne alle Hoffnung auf Gewinn von seiner Seite , endlich haben wir zuletzt .
+8-1	589-594	Durch	_	_
+8-2	595-598	ihn	_	_
+8-3	599-604	haben	_	_
+8-4	605-608	wir	_	_
+8-5	609-613	alle	_	_
+8-6	614-627	Vasenrapporte	_	_
+8-7	628-639	mitgetheilt	_	_
+8-8	640-648	bekommen	_	_
+8-9	649-650	\;	_	_
+8-10	651-659	außerdem	_	_
+8-11	660-663	hat	_	_
+8-12	664-666	er	_	_
+8-13	667-671	sich	_	_
+8-14	672-676	sehr	_	_
+8-15	677-683	bemüht	_	_
+8-16	684-690	unsere	_	_
+8-17	691-705	Aufmerksamkeit	_	_
+8-18	706-709	auf	_	_
+8-19	710-716	schöne	_	_
+8-20	717-724	Ankäufe	_	_
+8-21	725-736	hinzulenken	_	_
+8-22	737-740	und	_	_
+8-23	741-744	das	_	_
+8-24	745-749	ohne	_	_
+8-25	750-754	alle	_	_
+8-26	755-763	Hoffnung	_	_
+8-27	764-767	auf	_	_
+8-28	768-774	Gewinn	_	_
+8-29	775-778	von	_	_
+8-30	779-785	seiner	_	_
+8-31	786-791	Seite	_	_
+8-32	792-793	,	_	_
+8-33	794-801	endlich	_	_
+8-34	802-807	haben	_	_
+8-35	808-811	wir	_	_
+8-36	812-819	zuletzt	_	_
+8-37	820-821	.	_	_
+
+#Text=den favore von ihm erlangt alle ausgegrabenen Vasen zeichnen zu dürfen .
+9-1	822-825	den	_	_
+9-2	826-832	favore	_	_
+9-3	833-836	von	_	_
+9-4	837-840	ihm	_	_
+9-5	841-848	erlangt	_	_
+9-6	849-853	alle	_	_
+9-7	854-867	ausgegrabenen	_	_
+9-8	868-873	Vasen	_	_
+9-9	874-882	zeichnen	_	_
+9-10	883-885	zu	_	_
+9-11	886-892	dürfen	_	_
+9-12	893-894	.	_	_
+
+#Text=Ich ergreife Ihr Anerbieten topographische Artikel für die Encycopädie zu liefern .
+10-1	895-898	Ich	_	_
+10-2	899-907	ergreife	_	_
+10-3	908-911	Ihr	_	_
+10-4	912-922	Anerbieten	_	_
+10-5	923-937	topographische	_	_
+10-6	938-945	Artikel	_	_
+10-7	946-949	für	_	_
+10-8	950-953	die	_	_
+10-9	954-965	Encycopädie	_	_
+10-10	966-968	zu	_	_
+10-11	969-976	liefern	_	_
+10-12	977-978	.	_	_
+
+#Text=Bunsen hat mir nichts davon gesagt , und ich habe deshalb auch bei ihm nicht darum angefragt .
+11-1	979-985	Bunsen	*	PERmentioned
+11-2	986-989	hat	_	_
+11-3	990-993	mir	_	_
+11-4	994-1000	nichts	_	_
+11-5	1001-1006	davon	_	_
+11-6	1007-1013	gesagt	_	_
+11-7	1014-1015	,	_	_
+11-8	1016-1019	und	_	_
+11-9	1020-1023	ich	_	_
+11-10	1024-1028	habe	_	_
+11-11	1029-1036	deshalb	_	_
+11-12	1037-1041	auch	_	_
+11-13	1042-1045	bei	_	_
+11-14	1046-1049	ihm	_	_
+11-15	1050-1055	nicht	_	_
+11-16	1056-1061	darum	_	_
+11-17	1062-1071	angefragt	_	_
+11-18	1072-1073	.	_	_
+
+#Text=Im Fall jedoch daß er seinen Urlichs , einen geschickten aber von üblen Charakterseiten bekannten jungen Mann , vorschlagen sollte , so will ich vorerst nur das Pantheon zusichern und jenem den Palatina domus überlassen .
+12-1	1074-1076	Im	_	_
+12-2	1077-1081	Fall	_	_
+12-3	1082-1088	jedoch	_	_
+12-4	1089-1092	daß	_	_
+12-5	1093-1095	er	_	_
+12-6	1096-1102	seinen	_	_
+12-7	1103-1110	Urlichs	*	PERmentioned
+12-8	1111-1112	,	_	_
+12-9	1113-1118	einen	_	_
+12-10	1119-1130	geschickten	_	_
+12-11	1131-1135	aber	_	_
+12-12	1136-1139	von	_	_
+12-13	1140-1145	üblen	_	_
+12-14	1146-1161	Charakterseiten	_	_
+12-15	1162-1171	bekannten	_	_
+12-16	1172-1178	jungen	_	_
+12-17	1179-1183	Mann	_	_
+12-18	1184-1185	,	_	_
+12-19	1186-1197	vorschlagen	_	_
+12-20	1198-1204	sollte	_	_
+12-21	1205-1206	,	_	_
+12-22	1207-1209	so	_	_
+12-23	1210-1214	will	_	_
+12-24	1215-1218	ich	_	_
+12-25	1219-1226	vorerst	_	_
+12-26	1227-1230	nur	_	_
+12-27	1231-1234	das	_	_
+12-28	1235-1243	Pantheon	*	OBJ
+12-29	1244-1253	zusichern	_	_
+12-30	1254-1257	und	_	_
+12-31	1258-1263	jenem	_	_
+12-32	1264-1267	den	_	_
+12-33	1268-1276	Palatina	*[12]	OBJ[12]
+12-34	1277-1282	domus	*[12]	OBJ[12]
+12-35	1283-1293	überlassen	_	_
+12-36	1294-1295	.	_	_
+
+#Text=Schreiben Sie mir darüber umgehends definitiv .
+13-1	1296-1305	Schreiben	_	_
+13-2	1306-1309	Sie	_	_
+13-3	1310-1313	mir	_	_
+13-4	1314-1321	darüber	_	_
+13-5	1322-1331	umgehends	_	_
+13-6	1332-1341	definitiv	_	_
+13-7	1342-1343	.	_	_
+
+#Text=Wenn ich Ihren letzten lieben Brief überlese , so kommt es mir ganz unbegreiflich , kaum glaubhaft , ja unmöglich vor , daß Sie an Bunsen geschrieben hätten , wie er mir mittheilt .
+14-1	1344-1348	Wenn	_	_
+14-2	1349-1352	ich	_	_
+14-3	1353-1358	Ihren	_	_
+14-4	1359-1366	letzten	_	_
+14-5	1367-1373	lieben	_	_
+14-6	1374-1379	Brief	_	_
+14-7	1380-1388	überlese	_	_
+14-8	1389-1390	,	_	_
+14-9	1391-1393	so	_	_
+14-10	1394-1399	kommt	_	_
+14-11	1400-1402	es	_	_
+14-12	1403-1406	mir	_	_
+14-13	1407-1411	ganz	_	_
+14-14	1412-1425	unbegreiflich	_	_
+14-15	1426-1427	,	_	_
+14-16	1428-1432	kaum	_	_
+14-17	1433-1442	glaubhaft	_	_
+14-18	1443-1444	,	_	_
+14-19	1445-1447	ja	_	_
+14-20	1448-1457	unmöglich	_	_
+14-21	1458-1461	vor	_	_
+14-22	1462-1463	,	_	_
+14-23	1464-1467	daß	_	_
+14-24	1468-1471	Sie	_	_
+14-25	1472-1474	an	_	_
+14-26	1475-1481	Bunsen	*	PERmentioned
+14-27	1482-1493	geschrieben	_	_
+14-28	1494-1500	hätten	_	_
+14-29	1501-1502	,	_	_
+14-30	1503-1506	wie	_	_
+14-31	1507-1509	er	_	_
+14-32	1510-1513	mir	_	_
+14-33	1514-1523	mittheilt	_	_
+14-34	1524-1525	.	_	_
+
+#Text=Sei dem wie ihm wolle , ich halte mich an Ihre Briefe und nicht an das was andre mir
+15-1	1526-1529	Sei	_	_
+15-2	1530-1533	dem	_	_
+15-3	1534-1537	wie	_	_
+15-4	1538-1541	ihm	_	_
+15-5	1542-1547	wolle	_	_
+15-6	1548-1549	,	_	_
+15-7	1550-1553	ich	_	_
+15-8	1554-1559	halte	_	_
+15-9	1560-1564	mich	_	_
+15-10	1565-1567	an	_	_
+15-11	1568-1572	Ihre	_	_
+15-12	1573-1579	Briefe	_	_
+15-13	1580-1583	und	_	_
+15-14	1584-1589	nicht	_	_
+15-15	1590-1592	an	_	_
+15-16	1593-1596	das	_	_
+15-17	1597-1600	was	_	_
+15-18	1601-1606	andre	_	_
+15-19	1607-1610	mir	_	_

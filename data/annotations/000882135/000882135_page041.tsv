@@ -1,0 +1,174 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=287 Braun an Gerhard Rom , 31. März 1838 Sig .
+1-1	0-3	287	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	31.	*[4]	DATEletter[4]
+1-8	31-35	März	*[4]	DATEletter[4]
+1-9	36-40	1838	*[4]	DATEletter[4]
+1-10	41-44	Sig	_	_
+1-11	45-46	.	_	_
+
+#Text=Cav .
+2-1	47-50	Cav	_	_
+2-2	51-52	.	_	_
+
+#Text=Gerhard Roma li 321 Marzo 1838 .
+3-1	53-60	Gerhard	*	PERaddressee
+3-2	61-65	Roma	*	PLACEfrom
+3-3	66-68	li	_	_
+3-4	69-72	321	*[7]	DATEletter[7]
+3-5	73-78	Marzo	*[7]	DATEletter[7]
+3-6	79-83	1838	*[7]	DATEletter[7]
+3-7	84-85	.	_	_
+
+#Text=Hochverehrtester Freund !
+4-1	86-102	Hochverehrtester	_	_
+4-2	103-109	Freund	_	_
+4-3	110-111	!	_	_
+
+#Text=Sie erhalten anbei Briefe für Gerstäcker ( mit quittirter Rechnung ) Marcus und Panofka .
+5-1	112-115	Sie	_	_
+5-2	116-124	erhalten	_	_
+5-3	125-130	anbei	_	_
+5-4	131-137	Briefe	_	_
+5-5	138-141	für	_	_
+5-6	142-152	Gerstäcker	*	PERmentioned
+5-7	153-154	(	_	_
+5-8	155-158	mit	_	_
+5-9	159-169	quittirter	_	_
+5-10	170-178	Rechnung	_	_
+5-11	179-180	)	_	_
+5-12	181-187	Marcus	*	PERmentioned
+5-13	188-191	und	_	_
+5-14	192-199	Panofka	*	PERmentioned
+5-15	200-201	.	_	_
+
+#Text=Die weißhaarige Figur auf der Thamyrisvase dürfte wohl keine Musengroßmutter sein .
+6-1	202-205	Die	_	_
+6-2	206-217	weißhaarige	_	_
+6-3	218-223	Figur	_	_
+6-4	224-227	auf	_	_
+6-5	228-231	der	_	_
+6-6	232-244	Thamyrisvase	*	OBJ
+6-7	245-251	dürfte	_	_
+6-8	252-256	wohl	_	_
+6-9	257-262	keine	_	_
+6-10	263-278	Musengroßmutter	_	_
+6-11	279-283	sein	_	_
+6-12	284-285	.	_	_
+
+#Text=Sie tanzt sehr lustig .
+7-1	286-289	Sie	_	_
+7-2	290-295	tanzt	_	_
+7-3	296-300	sehr	_	_
+7-4	301-307	lustig	_	_
+7-5	308-309	.	_	_
+
+#Text=Ich weiß nichts von eisernen Spiegeln .
+8-1	310-313	Ich	_	_
+8-2	314-318	weiß	_	_
+8-3	319-325	nichts	_	_
+8-4	326-329	von	_	_
+8-5	330-338	eisernen	_	_
+8-6	339-347	Spiegeln	*	OBJ
+8-7	348-349	.	_	_
+
+#Text=Bei den Griffen bin ich eher für Reh- als Eselskopf .
+9-1	350-353	Bei	_	_
+9-2	354-357	den	_	_
+9-3	358-365	Griffen	_	_
+9-4	366-369	bin	_	_
+9-5	370-373	ich	_	_
+9-6	374-378	eher	_	_
+9-7	379-382	für	_	_
+9-8	383-387	Reh-	_	_
+9-9	388-391	als	_	_
+9-10	392-401	Eselskopf	_	_
+9-11	402-403	.	_	_
+
+#Text=Doch will ich es noch einmal ansehen .
+10-1	404-408	Doch	_	_
+10-2	409-413	will	_	_
+10-3	414-417	ich	_	_
+10-4	418-420	es	_	_
+10-5	421-425	noch	_	_
+10-6	426-432	einmal	_	_
+10-7	433-440	ansehen	_	_
+10-8	441-442	.	_	_
+
+#Text=Die E osvase ist nicht klar .
+11-1	443-446	Die	_	_
+11-2	447-448	E	*[13]	OBJ[13]
+11-3	449-455	osvase	*[13]	OBJ[13]
+11-4	456-459	ist	_	_
+11-5	460-465	nicht	_	_
+11-6	466-470	klar	_	_
+11-7	471-472	.	_	_
+
+#Text=Ich habe Nachfrage gehalten aber keine Auskunft gekrigt .
+12-1	473-476	Ich	_	_
+12-2	477-481	habe	_	_
+12-3	482-491	Nachfrage	_	_
+12-4	492-500	gehalten	_	_
+12-5	501-505	aber	_	_
+12-6	506-511	keine	_	_
+12-7	512-520	Auskunft	_	_
+12-8	521-528	gekrigt	_	_
+12-9	529-530	.	_	_
+
+#Text=Kellermanns Bücher ruhen noch immer .
+13-1	531-542	Kellermanns	*	PERmentioned
+13-2	543-549	Bücher	_	_
+13-3	550-555	ruhen	_	_
+13-4	556-560	noch	_	_
+13-5	561-566	immer	_	_
+13-6	567-568	.	_	_
+
+#Text=Ihr französischer Artikel ist bereis gedruckt .
+14-1	569-572	Ihr	_	_
+14-2	573-586	französischer	_	_
+14-3	587-594	Artikel	_	_
+14-4	595-598	ist	_	_
+14-5	599-605	bereis	_	_
+14-6	606-614	gedruckt	_	_
+14-7	615-616	.	_	_
+
+#Text=Lepsius hat denselben zu besorgen .
+15-1	617-624	Lepsius	*	PERmentioned
+15-2	625-628	hat	_	_
+15-3	629-638	denselben	_	_
+15-4	639-641	zu	_	_
+15-5	642-650	besorgen	_	_
+15-6	651-652	.	_	_
+
+#Text=Wir drucken in 2 Druckereien Annalen .
+16-1	653-656	Wir	_	_
+16-2	657-664	drucken	_	_
+16-3	665-667	in	_	_
+16-4	668-669	2	_	_
+16-5	670-681	Druckereien	_	_
+16-6	682-689	Annalen	_	_
+16-7	690-691	.	_	_
+
+#Text=Herzlich Ihr Braun .
+17-1	692-700	Herzlich	_	_
+17-2	701-704	Ihr	_	_
+17-3	705-710	Braun	*	PERauthor
+17-4	711-712	.	_	_
+
+#Text=Bemerkung von Gerhard 's Schrift : Meine Arbeit
+18-1	713-722	Bemerkung	_	_
+18-2	723-726	von	_	_
+18-3	727-734	Gerhard	*[14]	PERmentioned[14]
+18-4	735-737	's	*[14]	PERmentioned[14]
+18-5	738-745	Schrift	_	_
+18-6	746-747	:	_	_
+18-7	748-753	Meine	_	_
+18-8	754-760	Arbeit	_	_

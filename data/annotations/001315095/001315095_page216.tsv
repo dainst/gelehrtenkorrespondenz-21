@@ -1,0 +1,124 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , Mai 1893 Heron de Villefosse , A. , Membre de 1'Institut , Paris .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	Mai	*[1]	DATEletter[1]
+1-7	30-34	1893	*[1]	DATEletter[1]
+1-8	35-40	Heron	*[2]	PERauthor[2]
+1-9	41-43	de	*[2]	PERauthor[2]
+1-10	44-54	Villefosse	*[2]	PERauthor[2]
+1-11	55-56	,	*[2]	PERauthor[2]
+1-12	57-59	A.	*[2]	PERauthor[2]
+1-13	60-61	,	_	_
+1-14	62-68	Membre	_	_
+1-15	69-71	de	_	_
+1-16	72-82	1'Institut	*	ORGmentioned
+1-17	83-84	,	_	_
+1-18	85-90	Paris	*	PLACEmentioned
+1-19	91-92	.	_	_
+
+#Text=Virchow , R. , Professor Dr. , Geheimrath , Berlin .
+2-1	93-100	Virchow	*[3]	PERauthor[3]
+2-2	101-102	,	*[3]	PERauthor[3]
+2-3	103-105	R.	_	_
+2-4	106-107	,	_	_
+2-5	108-117	Professor	_	_
+2-6	118-121	Dr.	_	_
+2-7	122-123	,	_	_
+2-8	124-134	Geheimrath	_	_
+2-9	135-136	,	_	_
+2-10	137-143	Berlin	*	PLACEmentioned
+2-11	144-145	.	_	_
+
+#Text=Weber , M. , Dr. Stadtrath , Charlottenburg .
+3-1	146-151	Weber	*[4]	PERauthor[4]
+3-2	152-153	,	*[4]	PERauthor[4]
+3-3	154-156	M.	*[4]	PERauthor[4]
+3-4	157-158	,	_	_
+3-5	159-162	Dr.	_	_
+3-6	163-172	Stadtrath	_	_
+3-7	173-174	,	_	_
+3-8	175-189	Charlottenburg	*	PLACEmentioned
+3-9	190-191	.	_	_
+
+#Text=von Wegele , F. X. , Professor Dr. , Geheimrath , Würzburg .
+4-1	192-195	von	*[5]	PERauthor[5]
+4-2	196-202	Wegele	*[5]	PERauthor[5]
+4-3	203-204	,	*[5]	PERauthor[5]
+4-4	205-207	F.	*[5]	PERauthor[5]
+4-5	208-210	X.	*[5]	PERauthor[5]
+4-6	211-212	,	_	_
+4-7	213-222	Professor	_	_
+4-8	223-226	Dr.	_	_
+4-9	227-228	,	_	_
+4-10	229-239	Geheimrath	_	_
+4-11	240-241	,	_	_
+4-12	242-250	Würzburg	*	PLACEmentioned
+4-13	251-252	.	_	_
+
+#Text=Wilmanns , A , , Generaldirector Professor Dr. , Berlin .
+5-1	253-261	Wilmanns	*[6]	PERauthor[6]
+5-2	262-263	,	*[6]	PERauthor[6]
+5-3	264-265	A	*[6]	PERauthor[6]
+5-4	266-267	,	_	_
+5-5	268-269	,	_	_
+5-6	270-285	Generaldirector	_	_
+5-7	286-295	Professor	_	_
+5-8	296-299	Dr.	_	_
+5-9	300-301	,	_	_
+5-10	302-308	Berlin	*	PLACEmentioned
+5-11	309-310	.	_	_
+
+#Text=Wissowa , G. , Professor Dr. , Marburg .
+6-1	311-318	Wissowa	*[7]	PERauthor[7]
+6-2	319-320	,	*[7]	PERauthor[7]
+6-3	321-323	G.	*[7]	PERauthor[7]
+6-4	324-325	,	_	_
+6-5	326-335	Professor	_	_
+6-6	336-339	Dr.	_	_
+6-7	340-341	,	_	_
+6-8	342-349	Marburg	*	PLACEmentioned
+6-9	350-351	.	_	_
+
+#Text=Zangemeister , K. , Professor , Dr. , Hofrath , Heidelberg .
+7-1	352-364	Zangemeister	*[8]	PERauthor[8]
+7-2	365-366	,	*[8]	PERauthor[8]
+7-3	367-369	K.	*[8]	PERauthor[8]
+7-4	370-371	,	_	_
+7-5	372-381	Professor	_	_
+7-6	382-383	,	_	_
+7-7	384-387	Dr.	_	_
+7-8	388-389	,	_	_
+7-9	390-397	Hofrath	_	_
+7-10	398-399	,	_	_
+7-11	400-410	Heidelberg	*	PLACEmentioned
+7-12	411-412	.	_	_
+
+#Text=Zeller , E. , Professor Dr. , Geheimrath , Berlin .
+8-1	413-419	Zeller	*[9]	PERauthor[9]
+8-2	420-421	,	*[9]	PERauthor[9]
+8-3	422-424	E.	*[9]	PERauthor[9]
+8-4	425-426	,	_	_
+8-5	427-436	Professor	_	_
+8-6	437-440	Dr.	_	_
+8-7	441-442	,	_	_
+8-8	443-453	Geheimrath	_	_
+8-9	454-455	,	_	_
+8-10	456-462	Berlin	*	PLACEmentioned
+8-11	463-464	.	_	_
+
+#Text=Zimmer , H. Professor Dr. , Greifswald .
+9-1	465-471	Zimmer	*[10]	PERauthor[10]
+9-2	472-473	,	*[10]	PERauthor[10]
+9-3	474-476	H.	*[10]	PERauthor[10]
+9-4	477-486	Professor	_	_
+9-5	487-490	Dr.	_	_
+9-6	491-492	,	_	_
+9-7	493-503	Greifswald	*	PLACEmentioned
+9-8	504-505	.	_	_

@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=251 Gerhard an Henzen Berlin 10/X1/1849 A. di Dir , & .
+1-1	0-3	251	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-39	10/X1/1849	*	DATEletter
+1-7	40-42	A.	_	_
+1-8	43-45	di	_	_
+1-9	46-49	Dir	_	_
+1-10	50-51	,	_	_
+1-11	52-53	&	_	_
+1-12	54-55	.	_	_
+
+#Text=22/XI 49 r . 7/XII 49 D. Henzen Berlin 410 Nov 49 Worker Vershrter Freund .
+2-1	56-61	22/XI	*[1]	DATErecieved[1]
+2-2	62-64	49	*[1]	DATErecieved[1]
+2-3	65-66	r	_	_
+2-4	67-68	.	_	_
+2-5	69-74	7/XII	*[2]	DATEanswered[2]
+2-6	75-77	49	*[2]	DATEanswered[2]
+2-7	78-80	D.	_	_
+2-8	81-87	Henzen	*	PERaddressee
+2-9	88-94	Berlin	*	PLACEfrom
+2-10	95-98	410	*[3]	DATEletter[3]
+2-11	99-102	Nov	*[3]	DATEletter[3]
+2-12	103-105	49	*[3]	DATEletter[3]
+2-13	106-112	Worker	_	_
+2-14	113-122	Vershrter	_	_
+2-15	123-129	Freund	_	_
+2-16	130-131	.	_	_
+
+#Text=Ihre Nachricht , daß Braun bereits nahe in Rom bevorstehe durchkreuzt unsre Erwartung sein doppeltes Ich nächstens noch hier zu sehn , doch denke ich er kommt noch , Die Institutswerke von 1848 sind endlich so eben eingelaufen .
+3-1	132-136	Ihre	_	_
+3-2	137-146	Nachricht	_	_
+3-3	147-148	,	_	_
+3-4	149-152	daß	_	_
+3-5	153-158	Braun	*	PERmentioned
+3-6	159-166	bereits	_	_
+3-7	167-171	nahe	_	_
+3-8	172-174	in	_	_
+3-9	175-178	Rom	*	PLACEmentioned
+3-10	179-189	bevorstehe	_	_
+3-11	190-201	durchkreuzt	_	_
+3-12	202-207	unsre	_	_
+3-13	208-217	Erwartung	_	_
+3-14	218-222	sein	_	_
+3-15	223-232	doppeltes	_	_
+3-16	233-236	Ich	_	_
+3-17	237-246	nächstens	_	_
+3-18	247-251	noch	_	_
+3-19	252-256	hier	_	_
+3-20	257-259	zu	_	_
+3-21	260-264	sehn	_	_
+3-22	265-266	,	_	_
+3-23	267-271	doch	_	_
+3-24	272-277	denke	_	_
+3-25	278-281	ich	_	_
+3-26	282-284	er	_	_
+3-27	285-290	kommt	_	_
+3-28	291-295	noch	_	_
+3-29	296-297	,	_	_
+3-30	298-301	Die	_	_
+3-31	302-316	Institutswerke	_	_
+3-32	317-320	von	_	_
+3-33	321-325	1848	*	DATEmentioned
+3-34	326-330	sind	_	_
+3-35	331-338	endlich	_	_
+3-36	339-341	so	_	_
+3-37	342-346	eben	_	_
+3-38	347-358	eingelaufen	_	_
+3-39	359-360	.	_	_
+
+#Text=Della Marmora hat ihnen doch wol die Pergamene ai Gehbärda von 8 .
+4-1	361-366	Della	*[4]	PERmentioned[4]
+4-2	367-374	Marmora	*[4]	PERmentioned[4]
+4-3	375-378	hat	_	_
+4-4	379-384	ihnen	_	_
+4-5	385-389	doch	_	_
+4-6	390-393	wol	_	_
+4-7	394-397	die	_	_
+4-8	398-407	Pergamene	_	_
+4-9	408-410	ai	_	_
+4-10	411-419	Gehbärda	_	_
+4-11	420-423	von	_	_
+4-12	424-425	8	_	_
+4-13	426-427	.	*[5]	PERmentioned[5]
+
+#Text=Martini edirt eingesandt , er Aelupet auf diese Reimchron : k die pateras storiatas aus “ usgrabungen sei 8 bezeugt und bestimmt danach die Nuraghen als Gräber .
+5-1	428-435	Martini	*[5]	PERmentioned[5]
+5-2	436-441	edirt	_	_
+5-3	442-452	eingesandt	_	_
+5-4	453-454	,	_	_
+5-5	455-457	er	_	_
+5-6	458-465	Aelupet	_	_
+5-7	466-469	auf	_	_
+5-8	470-475	diese	_	_
+5-9	476-485	Reimchron	_	_
+5-10	486-487	:	_	_
+5-11	488-489	k	_	_
+5-12	490-493	die	_	_
+5-13	494-501	pateras	_	_
+5-14	502-511	storiatas	_	_
+5-15	512-515	aus	_	_
+5-16	516-517	“	_	_
+5-17	518-529	usgrabungen	_	_
+5-18	530-533	sei	_	_
+5-19	534-535	8	_	_
+5-20	536-543	bezeugt	_	_
+5-21	544-547	und	_	_
+5-22	548-556	bestimmt	_	_
+5-23	557-563	danach	_	_
+5-24	564-567	die	_	_
+5-25	568-576	Nuraghen	_	_
+5-26	577-580	als	_	_
+5-27	581-587	Gräber	_	_
+5-28	588-589	.	_	_
+
+#Text=Ist es ein Betrug so wäre es ein äußerst geschickter , aus Sardinien kaum zu erwartender .
+6-1	590-593	Ist	_	_
+6-2	594-596	es	_	_
+6-3	597-600	ein	_	_
+6-4	601-607	Betrug	_	_
+6-5	608-610	so	_	_
+6-6	611-615	wäre	_	_
+6-7	616-618	es	_	_
+6-8	619-622	ein	_	_
+6-9	623-630	äußerst	_	_
+6-10	631-642	geschickter	_	_
+6-11	643-644	,	_	_
+6-12	645-648	aus	_	_
+6-13	649-658	Sardinien	*	PLACEmentioned
+6-14	659-663	kaum	_	_
+6-15	664-666	zu	_	_
+6-16	667-678	erwartender	_	_
+6-17	679-680	.	_	_
+
+#Text=\\as hält Canina davon ?
+7-1	681-684	\\as	_	_
+7-2	685-689	hält	_	_
+7-3	690-696	Canina	*	PERmentioned
+7-4	697-702	davon	_	_
+7-5	703-704	?	_	_
+
+#Text=Sarti 's Hinscheiden mag vielleicht nützlicher sein als sein Fortleben gewesen wär , doch Deiase ich seinen Verlust von ganzen Herzen .
+8-1	705-710	Sarti	*[6]	PERmentioned[6]
+8-2	711-713	's	*[6]	PERmentioned[6]
+8-3	714-725	Hinscheiden	_	_
+8-4	726-729	mag	_	_
+8-5	730-740	vielleicht	_	_
+8-6	741-751	nützlicher	_	_
+8-7	752-756	sein	_	_
+8-8	757-760	als	_	_
+8-9	761-765	sein	_	_
+8-10	766-775	Fortleben	_	_
+8-11	776-783	gewesen	_	_
+8-12	784-787	wär	_	_
+8-13	788-789	,	_	_
+8-14	790-794	doch	_	_
+8-15	795-801	Deiase	_	_
+8-16	802-805	ich	_	_
+8-17	806-812	seinen	_	_
+8-18	813-820	Verlust	_	_
+8-19	821-824	von	_	_
+8-20	825-831	ganzen	_	_
+8-21	832-838	Herzen	_	_
+8-22	839-840	.	_	_
+
+#Text=Auf Bergks Artikel gab ich freilich nicht viel , that aber mein Aeußerstes Ihnen dessen Namen noch für die Annali zu schaffen , nun machen ” ie damit was Sie mögen \| !
+9-1	841-844	Auf	_	_
+9-2	845-851	Bergks	*	PERmentioned
+9-3	852-859	Artikel	_	_
+9-4	860-863	gab	_	_
+9-5	864-867	ich	_	_
+9-6	868-876	freilich	_	_
+9-7	877-882	nicht	_	_
+9-8	883-887	viel	_	_
+9-9	888-889	,	_	_
+9-10	890-894	that	_	_
+9-11	895-899	aber	_	_
+9-12	900-904	mein	_	_
+9-13	905-915	Aeußerstes	_	_
+9-14	916-921	Ihnen	_	_
+9-15	922-928	dessen	_	_
+9-16	929-934	Namen	_	_
+9-17	935-939	noch	_	_
+9-18	940-943	für	_	_
+9-19	944-947	die	_	_
+9-20	948-954	Annali	_	_
+9-21	955-957	zu	_	_
+9-22	958-966	schaffen	_	_
+9-23	967-968	,	_	_
+9-24	969-972	nun	_	_
+9-25	973-979	machen	_	_
+9-26	980-981	”	_	_
+9-27	982-984	ie	_	_
+9-28	985-990	damit	_	_
+9-29	991-994	was	_	_
+9-30	995-998	Sie	_	_
+9-31	999-1004	mögen	_	_
+9-32	1005-1006	\|	_	_
+9-33	1007-1008	!	_	_
+
+#Text=Gerade wegen der Ministerialsache des Instituts hoffe ich sehr auf Brauns persönliches Erscheinen .
+10-1	1009-1015	Gerade	_	_
+10-2	1016-1021	wegen	_	_
+10-3	1022-1025	der	_	_
+10-4	1026-1042	Ministerialsache	_	_
+10-5	1043-1046	des	_	_
+10-6	1047-1056	Instituts	*	ORGmentioned
+10-7	1057-1062	hoffe	_	_
+10-8	1063-1066	ich	_	_
+10-9	1067-1071	sehr	_	_
+10-10	1072-1075	auf	_	_
+10-11	1076-1082	Brauns	*	PERmentioned
+10-12	1083-1095	persönliches	_	_
+10-13	1096-1106	Erscheinen	_	_
+10-14	1107-1108	.	_	_
+
+#Text=vs ... lege für Neigebaur oder von ihm für ? ie ein Manuscript bei das hier nur vergessen worden war und ich ihm aus Verwehse-
+11-1	1109-1111	vs	_	_
+11-2	1112-1115	...	_	_
+11-3	1116-1120	lege	_	_
+11-4	1121-1124	für	_	_
+11-5	1125-1134	Neigebaur	*	PERmentioned
+11-6	1135-1139	oder	_	_
+11-7	1140-1143	von	_	_
+11-8	1144-1147	ihm	_	_
+11-9	1148-1151	für	_	_
+11-10	1152-1153	?	_	_
+11-11	1154-1156	ie	_	_
+11-12	1157-1160	ein	_	_
+11-13	1161-1171	Manuscript	_	_
+11-14	1172-1175	bei	_	_
+11-15	1176-1179	das	_	_
+11-16	1180-1184	hier	_	_
+11-17	1185-1188	nur	_	_
+11-18	1189-1198	vergessen	_	_
+11-19	1199-1205	worden	_	_
+11-20	1206-1209	war	_	_
+11-21	1210-1213	und	_	_
+11-22	1214-1217	ich	_	_
+11-23	1218-1221	ihm	_	_
+11-24	1222-1225	aus	_	_
+11-25	1226-1235	Verwehse-	_	_

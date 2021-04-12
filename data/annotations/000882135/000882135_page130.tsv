@@ -1,0 +1,294 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=900 Braun an Gerhard Florenz , 4. Dezember 1838 Sig .
+1-1	0-3	900	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-28	Florenz	*	PLACEfrom
+1-6	29-30	,	*[4]	DATEletter[4]
+1-7	31-33	4.	*[4]	DATEletter[4]
+1-8	34-42	Dezember	*[4]	DATEletter[4]
+1-9	43-47	1838	*[4]	DATEletter[4]
+1-10	48-51	Sig	_	_
+1-11	52-53	.	_	_
+
+#Text=Cav .
+2-1	54-57	Cav	_	_
+2-2	58-59	.	_	_
+
+#Text=Gerhard Firenze 4 4 Debre 1838 Hochverehrtester Freund !
+3-1	60-67	Gerhard	*	PERaddressee
+3-2	68-75	Firenze	*	PLACEfrom
+3-3	76-77	4	_	_
+3-4	78-79	4	*[7]	DATEletter[7]
+3-5	80-85	Debre	*[7]	DATEletter[7]
+3-6	86-90	1838	*[7]	DATEletter[7]
+3-7	91-107	Hochverehrtester	_	_
+3-8	108-114	Freund	_	_
+3-9	115-116	!	_	_
+
+#Text=Sie werden sich nicht wenig wundern diesmal Ihren Brief vom 20 v. M. aus Florenz beantwortet zu erhalten .
+4-1	117-120	Sie	_	_
+4-2	121-127	werden	_	_
+4-3	128-132	sich	_	_
+4-4	133-138	nicht	_	_
+4-5	139-144	wenig	_	_
+4-6	145-152	wundern	_	_
+4-7	153-160	diesmal	_	_
+4-8	161-166	Ihren	_	_
+4-9	167-172	Brief	_	_
+4-10	173-176	vom	_	_
+4-11	177-179	20	*[8]	DATEmentioned[8]
+4-12	180-182	v.	*[8]	DATEmentioned[8]
+4-13	183-185	M.	*[8]	DATEmentioned[8]
+4-14	186-189	aus	_	_
+4-15	190-197	Florenz	*	PLACEmentioned
+4-16	198-209	beantwortet	_	_
+4-17	210-212	zu	_	_
+4-18	213-221	erhalten	_	_
+4-19	222-223	.	_	_
+
+#Text=Herr von FPotemkin der russische Gesandte in Rom hat mich so dringend gebeten ihn hierher zu begleiten , daß es weder schicklich noch klug war es abzulehnen .
+5-1	224-228	Herr	_	_
+5-2	229-232	von	*[10]	PERmentioned[10]
+5-3	233-242	FPotemkin	*[10]	PERmentioned[10]
+5-4	243-246	der	_	_
+5-5	247-256	russische	_	_
+5-6	257-265	Gesandte	_	_
+5-7	266-268	in	_	_
+5-8	269-272	Rom	*	PLACEmentioned
+5-9	273-276	hat	_	_
+5-10	277-281	mich	_	_
+5-11	282-284	so	_	_
+5-12	285-293	dringend	_	_
+5-13	294-301	gebeten	_	_
+5-14	302-305	ihn	_	_
+5-15	306-313	hierher	_	_
+5-16	314-316	zu	_	_
+5-17	317-326	begleiten	_	_
+5-18	327-328	,	_	_
+5-19	329-332	daß	_	_
+5-20	333-335	es	_	_
+5-21	336-341	weder	_	_
+5-22	342-352	schicklich	_	_
+5-23	353-357	noch	_	_
+5-24	358-362	klug	_	_
+5-25	363-366	war	_	_
+5-26	367-369	es	_	_
+5-27	370-380	abzulehnen	_	_
+5-28	381-382	.	_	_
+
+#Text=Seit gestern Morgen studiere ich die hiesigen Sammlungen und bereue es sehr solches nicht früher gethan zu haben .
+6-1	383-387	Seit	_	_
+6-2	388-395	gestern	_	_
+6-3	396-402	Morgen	_	_
+6-4	403-411	studiere	_	_
+6-5	412-415	ich	_	_
+6-6	416-419	die	_	_
+6-7	420-428	hiesigen	_	_
+6-8	429-439	Sammlungen	_	_
+6-9	440-443	und	_	_
+6-10	444-450	bereue	_	_
+6-11	451-453	es	_	_
+6-12	454-458	sehr	_	_
+6-13	459-466	solches	_	_
+6-14	467-472	nicht	_	_
+6-15	473-479	früher	_	_
+6-16	480-486	gethan	_	_
+6-17	487-489	zu	_	_
+6-18	490-495	haben	_	_
+6-19	496-497	.	_	_
+
+#Text=Bereits hat sich diese Reise durch eine Reihe für mich äußerst wichtiger Beobachtungen belohnt .
+7-1	498-505	Bereits	_	_
+7-2	506-509	hat	_	_
+7-3	510-514	sich	_	_
+7-4	515-520	diese	_	_
+7-5	521-526	Reise	_	_
+7-6	527-532	durch	_	_
+7-7	533-537	eine	_	_
+7-8	538-543	Reihe	_	_
+7-9	544-547	für	_	_
+7-10	548-552	mich	_	_
+7-11	553-560	äußerst	_	_
+7-12	561-570	wichtiger	_	_
+7-13	571-584	Beobachtungen	_	_
+7-14	585-592	belohnt	_	_
+7-15	593-594	.	_	_
+
+#Text=Wir erwarten hier den Großfürst Thronfolger und kehren dann rasch nach Rom zurück .
+8-1	595-598	Wir	_	_
+8-2	599-607	erwarten	_	_
+8-3	608-612	hier	_	_
+8-4	613-616	den	_	_
+8-5	617-626	Großfürst	_	_
+8-6	627-638	Thronfolger	_	_
+8-7	639-642	und	_	_
+8-8	643-649	kehren	_	_
+8-9	650-654	dann	_	_
+8-10	655-660	rasch	_	_
+8-11	661-665	nach	_	_
+8-12	666-669	Rom	*	PLACEmentioned
+8-13	670-676	zurück	_	_
+8-14	677-678	.	_	_
+
+#Text=-— In Rom ist alles von mir so zurückgelassen worden , daß meine Abwesenheit für diese wenigen Tage nicht allzu fühlbar wird .
+9-1	679-681	-—	_	_
+9-2	682-684	In	_	_
+9-3	685-688	Rom	*	PLACEmentioned
+9-4	689-692	ist	_	_
+9-5	693-698	alles	_	_
+9-6	699-702	von	_	_
+9-7	703-706	mir	_	_
+9-8	707-709	so	_	_
+9-9	710-724	zurückgelassen	_	_
+9-10	725-731	worden	_	_
+9-11	732-733	,	_	_
+9-12	734-737	daß	_	_
+9-13	738-743	meine	_	_
+9-14	744-755	Abwesenheit	_	_
+9-15	756-759	für	_	_
+9-16	760-765	diese	_	_
+9-17	766-773	wenigen	_	_
+9-18	774-778	Tage	_	_
+9-19	779-784	nicht	_	_
+9-20	785-790	allzu	_	_
+9-21	791-798	fühlbar	_	_
+9-22	799-803	wird	_	_
+9-23	804-805	.	_	_
+
+#Text=Der 9 December fällt auf einen Sonntag , muß also ohnedies nachträglich gefeiert werden .
+10-1	806-809	Der	_	_
+10-2	810-811	9	*[14]	DATEmentioned[14]
+10-3	812-820	December	*[14]	DATEmentioned[14]
+10-4	821-826	fällt	_	_
+10-5	827-830	auf	_	_
+10-6	831-836	einen	_	_
+10-7	837-844	Sonntag	_	_
+10-8	845-846	,	_	_
+10-9	847-850	muß	_	_
+10-10	851-855	also	_	_
+10-11	856-864	ohnedies	_	_
+10-12	865-877	nachträglich	_	_
+10-13	878-886	gefeiert	_	_
+10-14	887-893	werden	_	_
+10-15	894-895	.	_	_
+
+#Text=Wir wollen versuchen den Großfürst , oder wenigstens einen Fetzen seiner Seite ins Institut zu locken .
+11-1	896-899	Wir	_	_
+11-2	900-906	wollen	_	_
+11-3	907-916	versuchen	_	_
+11-4	917-920	den	_	_
+11-5	921-930	Großfürst	_	_
+11-6	931-932	,	_	_
+11-7	933-937	oder	_	_
+11-8	938-948	wenigstens	_	_
+11-9	949-954	einen	_	_
+11-10	955-961	Fetzen	_	_
+11-11	962-968	seiner	_	_
+11-12	969-974	Seite	_	_
+11-13	975-978	ins	_	_
+11-14	979-987	Institut	*	ORGmentioned
+11-15	988-990	zu	_	_
+11-16	991-997	locken	_	_
+11-17	998-999	.	_	_
+
+#Text=\| Lanci wünscht Ihre persönliche Anwesenheit in Rom .
+12-1	1000-1001	\|	_	_
+12-2	1002-1007	Lanci	*	PERmentioned
+12-3	1008-1015	wünscht	_	_
+12-4	1016-1020	Ihre	_	_
+12-5	1021-1032	persönliche	_	_
+12-6	1033-1044	Anwesenheit	_	_
+12-7	1045-1047	in	_	_
+12-8	1048-1051	Rom	*	PLACEmentioned
+12-9	1052-1053	.	_	_
+
+#Text=Kommen Sie nächsten Sommer , so finden Sie mich nicht .
+13-1	1054-1060	Kommen	_	_
+13-2	1061-1064	Sie	_	_
+13-3	1065-1073	nächsten	_	_
+13-4	1074-1080	Sommer	_	_
+13-5	1081-1082	,	_	_
+13-6	1083-1085	so	_	_
+13-7	1086-1092	finden	_	_
+13-8	1093-1096	Sie	_	_
+13-9	1097-1101	mich	_	_
+13-10	1102-1107	nicht	_	_
+13-11	1108-1109	.	_	_
+
+#Text=Ich darf keinen Sommer mehr in Rom zubringen , sonst sterbe ich .
+14-1	1110-1113	Ich	_	_
+14-2	1114-1118	darf	_	_
+14-3	1119-1125	keinen	_	_
+14-4	1126-1132	Sommer	_	_
+14-5	1133-1137	mehr	_	_
+14-6	1138-1140	in	_	_
+14-7	1141-1144	Rom	*	PLACEmentioned
+14-8	1145-1154	zubringen	_	_
+14-9	1155-1156	,	_	_
+14-10	1157-1162	sonst	_	_
+14-11	1163-1169	sterbe	_	_
+14-12	1170-1173	ich	_	_
+14-13	1174-1175	.	_	_
+
+#Text=Nächsten Herbst aber bin ich wieder so Gott will , auf dem Platz .
+15-1	1176-1184	Nächsten	_	_
+15-2	1185-1191	Herbst	_	_
+15-3	1192-1196	aber	_	_
+15-4	1197-1200	bin	_	_
+15-5	1201-1204	ich	_	_
+15-6	1205-1211	wieder	_	_
+15-7	1212-1214	so	_	_
+15-8	1215-1219	Gott	_	_
+15-9	1220-1224	will	_	_
+15-10	1225-1226	,	_	_
+15-11	1227-1230	auf	_	_
+15-12	1231-1234	dem	_	_
+15-13	1235-1240	Platz	_	_
+15-14	1241-1242	.	_	_
+
+#Text=- lanci hat wieder angefangen etwas zu arbeiten .
+16-1	1243-1244	-	_	_
+16-2	1245-1250	lanci	*	PERmentioned
+16-3	1251-1254	hat	_	_
+16-4	1255-1261	wieder	_	_
+16-5	1262-1272	angefangen	_	_
+16-6	1273-1278	etwas	_	_
+16-7	1279-1281	zu	_	_
+16-8	1282-1290	arbeiten	_	_
+16-9	1291-1292	.	_	_
+
+#Text=Ihn zu ersetzen fällt schwer .
+17-1	1293-1296	Ihn	_	_
+17-2	1297-1299	zu	_	_
+17-3	1300-1308	ersetzen	_	_
+17-4	1309-1314	fällt	_	_
+17-5	1315-1321	schwer	_	_
+17-6	1322-1323	.	_	_
+
+#Text=Ich selbst brauche ihn nicht so nöthig , weil ich am Ende die Verhältnisse so gut los habe als er ,
+18-1	1324-1327	Ich	_	_
+18-2	1328-1334	selbst	_	_
+18-3	1335-1342	brauche	_	_
+18-4	1343-1346	ihn	_	_
+18-5	1347-1352	nicht	_	_
+18-6	1353-1355	so	_	_
+18-7	1356-1362	nöthig	_	_
+18-8	1363-1364	,	_	_
+18-9	1365-1369	weil	_	_
+18-10	1370-1373	ich	_	_
+18-11	1374-1376	am	_	_
+18-12	1377-1381	Ende	_	_
+18-13	1382-1385	die	_	_
+18-14	1386-1398	Verhältnisse	_	_
+18-15	1399-1401	so	_	_
+18-16	1402-1405	gut	_	_
+18-17	1406-1409	los	_	_
+18-18	1410-1414	habe	_	_
+18-19	1415-1418	als	_	_
+18-20	1419-1421	er	_	_
+18-21	1422-1423	,	_	_

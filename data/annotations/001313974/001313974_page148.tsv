@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=320 Helbig an Henzen Zürich , 30 August 1870 H g . 2/9 70 r . 13/9 70 Zürich , Fluntern , Plattenwiese 30/8 70 Lieber Herr Professor Ihren Brief vom 26. beantworte ich umgehend .
+1-1	0-3	320	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zürich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	30	*[1]	DATEletter[1]
+1-8	33-39	August	*[1]	DATEletter[1]
+1-9	40-44	1870	*[1]	DATEletter[1]
+1-10	45-46	H	_	_
+1-11	47-48	g	_	_
+1-12	49-50	.	_	_
+1-13	51-54	2/9	*[2]	DATErecieved[2]
+1-14	55-57	70	*[2]	DATErecieved[2]
+1-15	58-59	r	_	_
+1-16	60-61	.	_	_
+1-17	62-66	13/9	*[3]	DATEanswered[3]
+1-18	67-69	70	*[3]	DATEanswered[3]
+1-19	70-76	Zürich	*[4]	PLACEfrom[4]
+1-20	77-78	,	*[4]	PLACEfrom[4]
+1-21	79-87	Fluntern	*[4]	PLACEfrom[4]
+1-22	88-89	,	*[4]	PLACEfrom[4]
+1-23	90-102	Plattenwiese	*[4]	PLACEfrom[4]
+1-24	103-107	30/8	*[5]	DATEletter[5]
+1-25	108-110	70	*[5]	DATEletter[5]
+1-26	111-117	Lieber	_	_
+1-27	118-122	Herr	_	_
+1-28	123-132	Professor	_	_
+1-29	133-138	Ihren	_	_
+1-30	139-144	Brief	_	_
+1-31	145-148	vom	_	_
+1-32	149-152	26.	*[6]	DATEmentioned[6]
+1-33	153-163	beantworte	_	_
+1-34	164-167	ich	_	_
+1-35	168-176	umgehend	_	_
+1-36	177-178	.	_	_
+
+#Text=Was die von Calvary angebotenen Bücher betrifft , so haben wir sie alle abgesehen von Guignant , der wegen der Abbildungen wünschenswerth , und Albertini opusc .
+2-1	179-182	Was	_	_
+2-2	183-186	die	_	_
+2-3	187-190	von	_	_
+2-4	191-198	Calvary	*	PERmentioned
+2-5	199-210	angebotenen	_	_
+2-6	211-217	Bücher	_	_
+2-7	218-226	betrifft	_	_
+2-8	227-228	,	_	_
+2-9	229-231	so	_	_
+2-10	232-237	haben	_	_
+2-11	238-241	wir	_	_
+2-12	242-245	sie	_	_
+2-13	246-250	alle	_	_
+2-14	251-260	abgesehen	_	_
+2-15	261-264	von	_	_
+2-16	265-273	Guignant	*	PERmentioned
+2-17	274-275	,	_	_
+2-18	276-279	der	_	_
+2-19	280-285	wegen	_	_
+2-20	286-289	der	_	_
+2-21	290-301	Abbildungen	_	_
+2-22	302-316	wünschenswerth	_	_
+2-23	317-318	,	_	_
+2-24	319-322	und	_	_
+2-25	323-332	Albertini	*	PERmentioned
+2-26	333-338	opusc	_	_
+2-27	339-340	.	_	_
+
+#Text=de mirab. , den ich nicht kenne .
+3-1	341-343	de	_	_
+3-2	344-350	mirab.	_	_
+3-3	351-352	,	_	_
+3-4	353-356	den	_	_
+3-5	357-360	ich	_	_
+3-6	361-366	nicht	_	_
+3-7	367-372	kenne	_	_
+3-8	373-374	.	_	_
+
+#Text=Für unsere Publicationen des laufenden Jahres ist es die Hauptsache , daß Brunn Wort hält und seinen Aufsatz über die Gallier schickt .
+4-1	375-378	Für	_	_
+4-2	379-385	unsere	_	_
+4-3	386-399	Publicationen	_	_
+4-4	400-403	des	_	_
+4-5	404-413	laufenden	_	_
+4-6	414-420	Jahres	_	_
+4-7	421-424	ist	_	_
+4-8	425-427	es	_	_
+4-9	428-431	die	_	_
+4-10	432-442	Hauptsache	_	_
+4-11	443-444	,	_	_
+4-12	445-448	daß	_	_
+4-13	449-454	Brunn	*	PERmentioned
+4-14	455-459	Wort	_	_
+4-15	460-464	hält	_	_
+4-16	465-468	und	_	_
+4-17	469-475	seinen	_	_
+4-18	476-483	Aufsatz	_	_
+4-19	484-488	über	_	_
+4-20	489-492	die	_	_
+4-21	493-500	Gallier	_	_
+4-22	501-508	schickt	_	_
+4-23	509-510	.	_	_
+
+#Text=Da bereits 5 Monumententafeln gedeckt sind ( 3 durch mich , 1 durch Matz , 1 durch Heydemann ) , „ so würde die Publication Brunns 9 Tafeln voll machen .
+5-1	511-513	Da	_	_
+5-2	514-521	bereits	_	_
+5-3	522-523	5	_	_
+5-4	524-540	Monumententafeln	_	_
+5-5	541-548	gedeckt	_	_
+5-6	549-553	sind	_	_
+5-7	554-555	(	_	_
+5-8	556-557	3	_	_
+5-9	558-563	durch	_	_
+5-10	564-568	mich	_	_
+5-11	569-570	,	_	_
+5-12	571-572	1	_	_
+5-13	573-578	durch	_	_
+5-14	579-583	Matz	*	PERmentioned
+5-15	584-585	,	_	_
+5-16	586-587	1	_	_
+5-17	588-593	durch	_	_
+5-18	594-603	Heydemann	*	PERmentioned
+5-19	604-605	)	_	_
+5-20	606-607	,	_	_
+5-21	608-609	„	_	_
+5-22	610-612	so	_	_
+5-23	613-618	würde	_	_
+5-24	619-622	die	_	_
+5-25	623-634	Publication	_	_
+5-26	635-641	Brunns	*	PERmentioned
+5-27	642-643	9	_	_
+5-28	644-650	Tafeln	_	_
+5-29	651-655	voll	_	_
+5-30	656-662	machen	_	_
+5-31	663-664	.	_	_
+
+#Text=Monumententafeln befinden sich außerdem noch in den Händen folgender Mitarbeiter : Bei Schöne : die große Doppeltafel der Ciste mit den vielen lateinischen Inschriften und die einfache Tafel der Ciste pater poimilionom .
+6-1	665-681	Monumententafeln	_	_
+6-2	682-690	befinden	_	_
+6-3	691-695	sich	_	_
+6-4	696-704	außerdem	_	_
+6-5	705-709	noch	_	_
+6-6	710-712	in	_	_
+6-7	713-716	den	_	_
+6-8	717-723	Händen	_	_
+6-9	724-733	folgender	_	_
+6-10	734-745	Mitarbeiter	_	_
+6-11	746-747	:	_	_
+6-12	748-751	Bei	_	_
+6-13	752-758	Schöne	*	PERmentioned
+6-14	759-760	:	_	_
+6-15	761-764	die	_	_
+6-16	765-770	große	_	_
+6-17	771-782	Doppeltafel	_	_
+6-18	783-786	der	_	_
+6-19	787-792	Ciste	*	OBJ
+6-20	793-796	mit	_	_
+6-21	797-800	den	_	_
+6-22	801-807	vielen	_	_
+6-23	808-820	lateinischen	_	_
+6-24	821-832	Inschriften	*	OBJ
+6-25	833-836	und	_	_
+6-26	837-840	die	_	_
+6-27	841-849	einfache	_	_
+6-28	850-855	Tafel	_	_
+6-29	856-859	der	_	_
+6-30	860-865	Ciste	*	OBJ
+6-31	866-871	pater	_	_
+6-32	872-883	poimilionom	_	_
+6-33	884-885	.	_	_
+
+#Text=Bei Kekul @ : archaischer Apollokopf aus Neapel .
+7-1	886-889	Bei	_	_
+7-2	890-895	Kekul	*	PERmentioned
+7-3	896-897	@	_	_
+7-4	898-899	:	_	_
+7-5	900-911	archaischer	*[7]	OBJ[7]
+7-6	912-922	Apollokopf	*[7]	OBJ[7]
+7-7	923-926	aus	_	_
+7-8	927-933	Neapel	*	PLACEmentioned
+7-9	934-935	.	_	_
+
+#Text=Kekul & setzte seinen Aufsatz für diesen Monat in Aussicht \; ich werde ihn sofort erinnern .
+8-1	936-941	Kekul	*	PERmentioned
+8-2	942-943	&	_	_
+8-3	944-950	setzte	_	_
+8-4	951-957	seinen	_	_
+8-5	958-965	Aufsatz	_	_
+8-6	966-969	für	_	_
+8-7	970-976	diesen	_	_
+8-8	977-982	Monat	_	_
+8-9	983-985	in	_	_
+8-10	986-994	Aussicht	_	_
+8-11	995-996	\;	_	_
+8-12	997-1000	ich	_	_
+8-13	1001-1006	werde	_	_
+8-14	1007-1010	ihn	_	_
+8-15	1011-1017	sofort	_	_
+8-16	1018-1026	erinnern	_	_
+8-17	1027-1028	.	_	_
+
+#Text=Bei de Witte : De : isschale .
+9-1	1029-1032	Bei	_	_
+9-2	1033-1035	de	*[8]	PERmentioned[8]
+9-3	1036-1041	Witte	*[8]	PERmentioned[8]
+9-4	1042-1043	:	_	_
+9-5	1044-1046	De	*[9]	OBJ[9]
+9-6	1047-1048	:	*[9]	OBJ[9]
+9-7	1049-1057	isschale	*[9]	OBJ[9]
+9-8	1058-1059	.	_	_
+
+#Text=Ich werde an ihn schreiben - nach Paris \; denn seine belgische Adresse ken-
+10-1	1060-1063	Ich	_	_
+10-2	1064-1069	werde	_	_
+10-3	1070-1072	an	_	_
+10-4	1073-1076	ihn	_	_
+10-5	1077-1086	schreiben	_	_
+10-6	1087-1088	-	_	_
+10-7	1089-1093	nach	_	_
+10-8	1094-1099	Paris	*	PLACEmentioned
+10-9	1100-1101	\;	_	_
+10-10	1102-1106	denn	_	_
+10-11	1107-1112	seine	_	_
+10-12	1113-1122	belgische	_	_
+10-13	1123-1130	Adresse	_	_
+10-14	1131-1135	ken-	_	_

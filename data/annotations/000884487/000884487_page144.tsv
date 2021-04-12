@@ -1,0 +1,165 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Ohne Datum Dr. Braun Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datum	_	_
+1-6	28-31	Dr.	_	_
+1-7	32-37	Braun	*	PERaddressee
+1-8	38-41	Dir	_	_
+1-9	42-43	.	_	_
+
+#Text=Rom .
+2-1	44-47	Rom	*	PLACEto
+2-2	48-49	.	_	_
+
+#Text=XI s . 9/1 37 Montags Lieber Freund .
+3-1	50-52	XI	_	_
+3-2	53-54	s	_	_
+3-3	55-56	.	_	_
+3-4	57-60	9/1	*[5]	DATErecieved[5]
+3-5	61-63	37	*[5]	DATErecieved[5]
+3-6	64-71	Montags	_	_
+3-7	72-78	Lieber	_	_
+3-8	79-85	Freund	_	_
+3-9	86-87	.	_	_
+
+#Text=Ich muß darauf rechnen können daß es Mittwochs zur Vorlesung an Eg von Taf . 26 der Monumente und Ö Karte nicht fehlt , etwa daß der Tischler mir bis dahin mit einem Rahmen dienen könne .
+4-1	88-91	Ich	_	_
+4-2	92-95	muß	_	_
+4-3	96-102	darauf	_	_
+4-4	103-110	rechnen	_	_
+4-5	111-117	können	_	_
+4-6	118-121	daß	_	_
+4-7	122-124	es	_	_
+4-8	125-134	Mittwochs	_	_
+4-9	135-138	zur	_	_
+4-10	139-148	Vorlesung	_	_
+4-11	149-151	an	_	_
+4-12	152-154	Eg	_	_
+4-13	155-158	von	_	_
+4-14	159-162	Taf	_	_
+4-15	163-164	.	_	_
+4-16	165-167	26	_	_
+4-17	168-171	der	_	_
+4-18	172-181	Monumente	_	_
+4-19	182-185	und	_	_
+4-20	186-187	Ö	_	_
+4-21	188-193	Karte	_	_
+4-22	194-199	nicht	_	_
+4-23	200-205	fehlt	_	_
+4-24	206-207	,	_	_
+4-25	208-212	etwa	_	_
+4-26	213-216	daß	_	_
+4-27	217-220	der	_	_
+4-28	221-229	Tischler	_	_
+4-29	230-233	mir	_	_
+4-30	234-237	bis	_	_
+4-31	238-243	dahin	_	_
+4-32	244-247	mit	_	_
+4-33	248-253	einem	_	_
+4-34	254-260	Rahmen	_	_
+4-35	261-267	dienen	_	_
+4-36	268-273	könne	_	_
+4-37	274-275	.	_	_
+
+#Text=Ich brauche ein gedrucktes Ex .
+5-1	276-279	Ich	_	_
+5-2	280-287	brauche	_	_
+5-3	288-291	ein	_	_
+5-4	292-302	gedrucktes	_	_
+5-5	303-305	Ex	_	_
+5-6	306-307	.	_	_
+
+#Text=der letzten Mitgliederliste des Instituts so wie die versprochene J schriftl Ich wünsche sehr das kurze Verzeichniß der zum Verkauf bei Ihnen von mir deponirten Bücher zu haben .
+6-1	308-311	der	_	_
+6-2	312-319	letzten	_	_
+6-3	320-335	Mitgliederliste	_	_
+6-4	336-339	des	_	_
+6-5	340-349	Instituts	*	ORGmentioned
+6-6	350-352	so	_	_
+6-7	353-356	wie	_	_
+6-8	357-360	die	_	_
+6-9	361-373	versprochene	_	_
+6-10	374-375	J	_	_
+6-11	376-384	schriftl	_	_
+6-12	385-388	Ich	_	_
+6-13	389-396	wünsche	_	_
+6-14	397-401	sehr	_	_
+6-15	402-405	das	_	_
+6-16	406-411	kurze	_	_
+6-17	412-423	Verzeichniß	_	_
+6-18	424-427	der	_	_
+6-19	428-431	zum	_	_
+6-20	432-439	Verkauf	_	_
+6-21	440-443	bei	_	_
+6-22	444-449	Ihnen	_	_
+6-23	450-453	von	_	_
+6-24	454-457	mir	_	_
+6-25	458-468	deponirten	_	_
+6-26	469-475	Bücher	_	_
+6-27	476-478	zu	_	_
+6-28	479-484	haben	_	_
+6-29	485-486	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Bis um 10 Uhr habe ich vergebens auf den Tischler gewartet : lassen Sie ihn 1/4 vor 12 Uhr in der Nähe sein , damit ich ihn oben spreche .
+7-1	487-497	Herzlichst	_	_
+7-2	498-501	Ihr	_	_
+7-3	502-509	Gerhard	*	PERauthor
+7-4	510-513	Bis	_	_
+7-5	514-516	um	_	_
+7-6	517-519	10	_	_
+7-7	520-523	Uhr	_	_
+7-8	524-528	habe	_	_
+7-9	529-532	ich	_	_
+7-10	533-542	vergebens	_	_
+7-11	543-546	auf	_	_
+7-12	547-550	den	_	_
+7-13	551-559	Tischler	_	_
+7-14	560-568	gewartet	_	_
+7-15	569-570	:	_	_
+7-16	571-577	lassen	_	_
+7-17	578-581	Sie	_	_
+7-18	582-585	ihn	_	_
+7-19	586-589	1/4	_	_
+7-20	590-593	vor	_	_
+7-21	594-596	12	_	_
+7-22	597-600	Uhr	_	_
+7-23	601-603	in	_	_
+7-24	604-607	der	_	_
+7-25	608-612	Nähe	_	_
+7-26	613-617	sein	_	_
+7-27	618-619	,	_	_
+7-28	620-625	damit	_	_
+7-29	626-629	ich	_	_
+7-30	630-633	ihn	_	_
+7-31	634-638	oben	_	_
+7-32	639-646	spreche	_	_
+7-33	647-648	.	_	_
+
+#Text=Hier bleibt Mon .
+8-1	649-653	Hier	_	_
+8-2	654-660	bleibt	_	_
+8-3	661-664	Mon	_	_
+8-4	665-666	.	_	_
+
+#Text=ad .
+9-1	667-669	ad	_	_
+9-2	670-671	.	_	_
+
+#Text=Inst .
+10-1	672-676	Inst	_	_
+10-2	677-678	.	_	_
+
+#Text=muß als Maß zur Hand sein .
+11-1	679-682	muß	_	_
+11-2	683-686	als	_	_
+11-3	687-690	Maß	_	_
+11-4	691-694	zur	_	_
+11-5	695-699	Hand	_	_
+11-6	700-704	sein	_	_
+11-7	705-706	.	_	_

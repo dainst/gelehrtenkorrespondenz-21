@@ -1,0 +1,206 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 25 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	25	*[4]	DATEletter[4]
+1-7	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 Geschäfts .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-52	Geschäfts	_	_
+2-4	53-54	.	_	_
+
+#Text=Wie können Sie von folgende rechnungen erlangen , ehe die früheren quittirt sind , würde Gerstäcker K mn haben anfertigen lassen nachdem er früher auf seinen Brief Antwort vermißte ?
+3-1	55-58	Wie	_	_
+3-2	59-65	können	_	_
+3-3	66-69	Sie	_	_
+3-4	70-73	von	_	_
+3-5	74-82	folgende	_	_
+3-6	83-93	rechnungen	_	_
+3-7	94-102	erlangen	_	_
+3-8	103-104	,	_	_
+3-9	105-108	ehe	_	_
+3-10	109-112	die	_	_
+3-11	113-121	früheren	_	_
+3-12	122-130	quittirt	_	_
+3-13	131-135	sind	_	_
+3-14	136-137	,	_	_
+3-15	138-143	würde	_	_
+3-16	144-154	Gerstäcker	*	PERmentioned
+3-17	155-156	K	_	_
+3-18	157-159	mn	_	_
+3-19	160-165	haben	_	_
+3-20	166-176	anfertigen	_	_
+3-21	177-183	lassen	_	_
+3-22	184-191	nachdem	_	_
+3-23	192-194	er	_	_
+3-24	195-201	früher	_	_
+3-25	202-205	auf	_	_
+3-26	206-212	seinen	_	_
+3-27	213-218	Brief	_	_
+3-28	219-226	Antwort	_	_
+3-29	227-235	vermißte	_	_
+3-30	236-237	?	_	_
+
+#Text=Das sind seine Klagen , relata refero .
+4-1	238-241	Das	_	_
+4-2	242-246	sind	_	_
+4-3	247-252	seine	_	_
+4-4	253-259	Klagen	_	_
+4-5	260-261	,	_	_
+4-6	262-268	relata	_	_
+4-7	269-275	refero	_	_
+4-8	276-277	.	_	_
+
+#Text=Mich selbst empfehle ich auch schließlich noch einmal aufs dringendste wegen Vasenabsendungen so wie für die Rechnungsabschlüsse mit Dellantonis \; auch mit Ihnen selbst rechne ich gern h b um meinen Kassenstand zu übersehen , obwohl ich darauf rechne daß Sie bei eignem durch die Reise geschwächten Kassenstand ein Darlehen von mir zurückbehalten .
+5-1	278-282	Mich	_	_
+5-2	283-289	selbst	_	_
+5-3	290-298	empfehle	_	_
+5-4	299-302	ich	_	_
+5-5	303-307	auch	_	_
+5-6	308-319	schließlich	_	_
+5-7	320-324	noch	_	_
+5-8	325-331	einmal	_	_
+5-9	332-336	aufs	_	_
+5-10	337-348	dringendste	_	_
+5-11	349-354	wegen	_	_
+5-12	355-371	Vasenabsendungen	_	_
+5-13	372-374	so	_	_
+5-14	375-378	wie	_	_
+5-15	379-382	für	_	_
+5-16	383-386	die	_	_
+5-17	387-406	Rechnungsabschlüsse	_	_
+5-18	407-410	mit	_	_
+5-19	411-422	Dellantonis	*	PERmentioned
+5-20	423-424	\;	_	_
+5-21	425-429	auch	_	_
+5-22	430-433	mit	_	_
+5-23	434-439	Ihnen	_	_
+5-24	440-446	selbst	_	_
+5-25	447-453	rechne	_	_
+5-26	454-457	ich	_	_
+5-27	458-462	gern	_	_
+5-28	463-464	h	_	_
+5-29	465-466	b	_	_
+5-30	467-469	um	_	_
+5-31	470-476	meinen	_	_
+5-32	477-488	Kassenstand	_	_
+5-33	489-491	zu	_	_
+5-34	492-501	übersehen	_	_
+5-35	502-503	,	_	_
+5-36	504-510	obwohl	_	_
+5-37	511-514	ich	_	_
+5-38	515-521	darauf	_	_
+5-39	522-528	rechne	_	_
+5-40	529-532	daß	_	_
+5-41	533-536	Sie	_	_
+5-42	537-540	bei	_	_
+5-43	541-547	eignem	_	_
+5-44	548-553	durch	_	_
+5-45	554-557	die	_	_
+5-46	558-563	Reise	_	_
+5-47	564-576	geschwächten	_	_
+5-48	577-588	Kassenstand	_	_
+5-49	589-592	ein	_	_
+5-50	593-601	Darlehen	_	_
+5-51	602-605	von	_	_
+5-52	606-609	mir	_	_
+5-53	610-624	zurückbehalten	_	_
+5-54	625-626	.	_	_
+
+#Text=Lepsius und Lanci bitte schönstens zu grüßen .
+6-1	627-634	Lepsius	*	PERmentioned
+6-2	635-638	und	_	_
+6-3	639-644	Lanci	*	PERmentioned
+6-4	645-650	bitte	_	_
+6-5	651-661	schönstens	_	_
+6-6	662-664	zu	_	_
+6-7	665-671	grüßen	_	_
+6-8	672-673	.	_	_
+
+#Text=Marini hat doch seiner Zeit meinen Brief erhalten und ist zufrieden mit mir ?
+7-1	674-680	Marini	*	PERmentioned
+7-2	681-684	hat	_	_
+7-3	685-689	doch	_	_
+7-4	690-696	seiner	_	_
+7-5	697-701	Zeit	_	_
+7-6	702-708	meinen	_	_
+7-7	709-714	Brief	_	_
+7-8	715-723	erhalten	_	_
+7-9	724-727	und	_	_
+7-10	728-731	ist	_	_
+7-11	732-741	zufrieden	_	_
+7-12	742-745	mit	_	_
+7-13	746-749	mir	_	_
+7-14	750-751	?	_	_
+
+#Text=Sein Ex .
+8-1	752-756	Sein	_	_
+8-2	757-759	Ex	_	_
+8-3	760-761	.	_	_
+
+#Text=für die Bibliothek ist nun angekommen .
+9-1	762-765	für	_	_
+9-2	766-769	die	_	_
+9-3	770-780	Bibliothek	*	ORGmentioned
+9-4	781-784	ist	_	_
+9-5	785-788	nun	_	_
+9-6	789-799	angekommen	_	_
+9-7	800-801	.	_	_
+
+#Text=Lajard will in : .den Ann .
+10-1	802-808	Lajard	*	PERmentioned
+10-2	809-813	will	_	_
+10-3	814-816	in	_	_
+10-4	817-818	:	_	_
+10-5	819-823	.den	_	_
+10-6	824-827	Ann	_	_
+10-7	828-829	.	_	_
+
+#Text=recensirt sein , worauf ich mich nicht einlasse , zumal er dem Institut sein Buch nicht geschenkt zu haben scheint \; ihr müßt aber die Franzosen warm halten .
+11-1	830-839	recensirt	_	_
+11-2	840-844	sein	_	_
+11-3	845-846	,	_	_
+11-4	847-853	worauf	_	_
+11-5	854-857	ich	_	_
+11-6	858-862	mich	_	_
+11-7	863-868	nicht	_	_
+11-8	869-877	einlasse	_	_
+11-9	878-879	,	_	_
+11-10	880-885	zumal	_	_
+11-11	886-888	er	_	_
+11-12	889-892	dem	_	_
+11-13	893-901	Institut	*	ORGmentioned
+11-14	902-906	sein	_	_
+11-15	907-911	Buch	_	_
+11-16	912-917	nicht	_	_
+11-17	918-927	geschenkt	_	_
+11-18	928-930	zu	_	_
+11-19	931-936	haben	_	_
+11-20	937-944	scheint	_	_
+11-21	945-946	\;	_	_
+11-22	947-950	ihr	_	_
+11-23	951-955	müßt	_	_
+11-24	956-960	aber	_	_
+11-25	961-964	die	_	_
+11-26	965-974	Franzosen	_	_
+11-27	975-979	warm	_	_
+11-28	980-986	halten	_	_
+11-29	987-988	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Nebst Einlage für Zahn .
+12-1	989-999	Herzlichst	_	_
+12-2	1000-1003	Ihr	_	_
+12-3	1004-1011	Gerhard	*	PERauthor
+12-4	1012-1017	Nebst	_	_
+12-5	1018-1025	Einlage	_	_
+12-6	1026-1029	für	_	_
+12-7	1030-1034	Zahn	*	PERmentioned
+12-8	1035-1036	.	_	_

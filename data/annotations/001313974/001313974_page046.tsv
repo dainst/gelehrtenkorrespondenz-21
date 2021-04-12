@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=459 Helbig an Henzen Neapel , 29. September 1864 H g . 4/10 64 n.c.r Napoli 29 Sept .
+1-1	0-3	459	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Neapel	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	29.	*[3]	DATEletter[3]
+1-8	34-43	September	*[3]	DATEletter[3]
+1-9	44-48	1864	*[3]	DATEletter[3]
+1-10	49-50	H	_	_
+1-11	51-52	g	_	_
+1-12	53-54	.	_	_
+1-13	55-59	4/10	*[4]	DATErecieved[4]
+1-14	60-62	64	*[4]	DATErecieved[4]
+1-15	63-68	n.c.r	_	_
+1-16	69-75	Napoli	*	PLACEfrom
+1-17	76-78	29	*[5]	DATEletter[5]
+1-18	79-83	Sept	*[5]	DATEletter[5]
+1-19	84-85	.	*[5]	DATEletter[5]
+
+#Text=1864 Lieber Herr Professor !
+2-1	86-90	1864	*[5]	DATEletter[5]
+2-2	91-97	Lieber	_	_
+2-3	98-102	Herr	_	_
+2-4	103-112	Professor	_	_
+2-5	113-114	!	_	_
+
+#Text=Hier noch in aller Eile einige Notizen für das Bullettino .
+3-1	115-119	Hier	_	_
+3-2	120-124	noch	_	_
+3-3	125-127	in	_	_
+3-4	128-133	aller	_	_
+3-5	134-138	Eile	_	_
+3-6	139-145	einige	_	_
+3-7	146-153	Notizen	_	_
+3-8	154-157	für	_	_
+3-9	158-161	das	_	_
+3-10	162-172	Bullettino	_	_
+3-11	173-174	.	_	_
+
+#Text=Es wäre sehr erwünscht , sie baldigst abzudrucken , da alle diese Gegenstände zu verkaufen und zum Theil wohl des Berliner Museums würdig sind .
+4-1	175-177	Es	_	_
+4-2	178-182	wäre	_	_
+4-3	183-187	sehr	_	_
+4-4	188-197	erwünscht	_	_
+4-5	198-199	,	_	_
+4-6	200-203	sie	_	_
+4-7	204-212	baldigst	_	_
+4-8	213-224	abzudrucken	_	_
+4-9	225-226	,	_	_
+4-10	227-229	da	_	_
+4-11	230-234	alle	_	_
+4-12	235-240	diese	_	_
+4-13	241-252	Gegenstände	_	_
+4-14	253-255	zu	_	_
+4-15	256-265	verkaufen	_	_
+4-16	266-269	und	_	_
+4-17	270-273	zum	_	_
+4-18	274-279	Theil	_	_
+4-19	280-284	wohl	_	_
+4-20	285-288	des	_	_
+4-21	289-297	Berliner	*[6]	ORGmentioned[6]
+4-22	298-305	Museums	*[6]	ORGmentioned[6]
+4-23	306-312	würdig	_	_
+4-24	313-317	sind	_	_
+4-25	318-319	.	_	_
+
+#Text=Einige kleinere Gegenstände , die ich am Ende des Artikels genannt habe , habe ich auf eigenes Risico für Berlin gekauft .
+5-1	320-326	Einige	_	_
+5-2	327-335	kleinere	_	_
+5-3	336-347	Gegenstände	_	_
+5-4	348-349	,	_	_
+5-5	350-353	die	_	_
+5-6	354-357	ich	_	_
+5-7	358-360	am	_	_
+5-8	361-365	Ende	_	_
+5-9	366-369	des	_	_
+5-10	370-378	Artikels	_	_
+5-11	379-386	genannt	_	_
+5-12	387-391	habe	_	_
+5-13	392-393	,	_	_
+5-14	394-398	habe	_	_
+5-15	399-402	ich	_	_
+5-16	403-406	auf	_	_
+5-17	407-414	eigenes	_	_
+5-18	415-421	Risico	_	_
+5-19	422-425	für	_	_
+5-20	426-432	Berlin	*	PLACEmentioned
+5-21	433-440	gekauft	_	_
+5-22	441-442	.	_	_
+
+#Text=Für andere größere ist Vollmacht nöthig und die gedruckten Notizen können die breitspurige Eingabe ersparen .
+6-1	443-446	Für	_	_
+6-2	447-453	andere	_	_
+6-3	454-461	größere	_	_
+6-4	462-465	ist	_	_
+6-5	466-475	Vollmacht	_	_
+6-6	476-482	nöthig	_	_
+6-7	483-486	und	_	_
+6-8	487-490	die	_	_
+6-9	491-501	gedruckten	_	_
+6-10	502-509	Notizen	_	_
+6-11	510-516	können	_	_
+6-12	517-520	die	_	_
+6-13	521-533	breitspurige	_	_
+6-14	534-541	Eingabe	_	_
+6-15	542-550	ersparen	_	_
+6-16	551-552	.	_	_
+
+#Text=Von den für Berlin aquirirten Gegenständen habe ich aus Mitleid für die archäologische Zeitung keine Zeichnungen machen lassen .
+7-1	553-556	Von	_	_
+7-2	557-560	den	_	_
+7-3	561-564	für	_	_
+7-4	565-571	Berlin	*	PLACEmentioned
+7-5	572-582	aquirirten	_	_
+7-6	583-595	Gegenständen	_	_
+7-7	596-600	habe	_	_
+7-8	601-604	ich	_	_
+7-9	605-608	aus	_	_
+7-10	609-616	Mitleid	_	_
+7-11	617-620	für	_	_
+7-12	621-624	die	_	_
+7-13	625-639	archäologische	_	_
+7-14	640-647	Zeitung	_	_
+7-15	648-653	keine	_	_
+7-16	654-665	Zeichnungen	_	_
+7-17	666-672	machen	_	_
+7-18	673-679	lassen	_	_
+7-19	680-681	.	_	_
+
+#Text=Dagegen habe ich dem jungen Gargiulo aufgetragen , Num .
+8-1	682-689	Dagegen	_	_
+8-2	690-694	habe	_	_
+8-3	695-698	ich	_	_
+8-4	699-702	dem	_	_
+8-5	703-709	jungen	_	_
+8-6	710-718	Gargiulo	*	PERmentioned
+8-7	719-730	aufgetragen	_	_
+8-8	731-732	,	_	_
+8-9	733-736	Num	_	_
+8-10	737-738	.	_	_
+
+#Text=12 und 13 für das Institut zu zeichnen .
+9-1	739-741	12	_	_
+9-2	742-745	und	_	_
+9-3	746-748	13	_	_
+9-4	749-752	für	_	_
+9-5	753-756	das	_	_
+9-6	757-765	Institut	*	ORGmentioned
+9-7	766-768	zu	_	_
+9-8	769-777	zeichnen	_	_
+9-9	778-779	.	_	_
+
+#Text=Meinen Artikel über die Antichita di Nasti bitte ich , wenn möglich , noch zurückzuhalten , damit ich die Frage , ob Narciss oder Todesgenius , in Rom in das Reine bringen kann .
+10-1	780-786	Meinen	_	_
+10-2	787-794	Artikel	_	_
+10-3	795-799	über	_	_
+10-4	800-803	die	_	_
+10-5	804-813	Antichita	_	_
+10-6	814-816	di	_	_
+10-7	817-822	Nasti	_	_
+10-8	823-828	bitte	_	_
+10-9	829-832	ich	_	_
+10-10	833-834	,	_	_
+10-11	835-839	wenn	_	_
+10-12	840-847	möglich	_	_
+10-13	848-849	,	_	_
+10-14	850-854	noch	_	_
+10-15	855-869	zurückzuhalten	_	_
+10-16	870-871	,	_	_
+10-17	872-877	damit	_	_
+10-18	878-881	ich	_	_
+10-19	882-885	die	_	_
+10-20	886-891	Frage	_	_
+10-21	892-893	,	_	_
+10-22	894-896	ob	_	_
+10-23	897-904	Narciss	_	_
+10-24	905-909	oder	_	_
+10-25	910-921	Todesgenius	_	_
+10-26	922-923	,	_	_
+10-27	924-926	in	_	_
+10-28	927-930	Rom	*	PLACEmentioned
+10-29	931-933	in	_	_
+10-30	934-937	das	_	_
+10-31	938-943	Reine	_	_
+10-32	944-951	bringen	_	_
+10-33	952-956	kann	_	_
+10-34	957-958	.	_	_
+
+#Text=Montag über acht Tage werde ich in Rom sein .
+11-1	959-965	Montag	*	DATEmentioned
+11-2	966-970	über	_	_
+11-3	971-975	acht	_	_
+11-4	976-980	Tage	_	_
+11-5	981-986	werde	_	_
+11-6	987-990	ich	_	_
+11-7	991-993	in	_	_
+11-8	994-997	Rom	*	PLACEmentioned
+11-9	998-1002	sein	_	_
+11-10	1003-1004	.	_	_
+
+#Text=Ende nächster Woche erhält Barone eine große Kiste aus Altamura .
+12-1	1005-1009	Ende	_	_
+12-2	1010-1018	nächster	_	_
+12-3	1019-1024	Woche	_	_
+12-4	1025-1031	erhält	_	_
+12-5	1032-1038	Barone	*	PERmentioned
+12-6	1039-1043	eine	_	_
+12-7	1044-1049	große	_	_
+12-8	1050-1055	Kiste	_	_
+12-9	1056-1059	aus	_	_
+12-10	1060-1068	Altamura	*	PLACEmentioned
+12-11	1069-1070	.	_	_
+
+#Text=Er erzählt Wunderdinge davon .
+13-1	1071-1073	Er	_	_
+13-2	1074-1081	erzählt	_	_
+13-3	1082-1093	Wunderdinge	_	_
+13-4	1094-1099	davon	_	_
+13-5	1100-1101	.	_	_
+
+#Text=Nidherzlichen Grüßen an die Frau Professorin Ihr Wolfgang Helbig
+14-1	1102-1115	Nidherzlichen	_	_
+14-2	1116-1122	Grüßen	_	_
+14-3	1123-1125	an	_	_
+14-4	1126-1129	die	_	_
+14-5	1130-1134	Frau	_	_
+14-6	1135-1146	Professorin	_	_
+14-7	1147-1150	Ihr	_	_
+14-8	1151-1159	Wolfgang	*[7]	PERauthor[7]
+14-9	1160-1166	Helbig	*[7]	PERauthor[7]

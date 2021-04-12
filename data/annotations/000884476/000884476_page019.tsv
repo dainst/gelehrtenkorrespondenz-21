@@ -1,0 +1,71 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=mn Gerhard an Braun Livorno , 3. September 1834 Wenn Sie ( über Civitavecchia durch Valentini , in Civitavecchia für Schiffe die nach Sicilien direkt gehn ) an Serra di Falco Bücher senden , so legen Sie 2 Exemplare Mus & e Blacas für Serra di Falco und Maggiore , und 17 Exemplar .
+1-1	0-2	mn	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-27	Livorno	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	3.	*[4]	DATEletter[4]
+1-8	33-42	September	*[4]	DATEletter[4]
+1-9	43-47	1834	*[4]	DATEletter[4]
+1-10	48-52	Wenn	_	_
+1-11	53-56	Sie	_	_
+1-12	57-58	(	_	_
+1-13	59-63	über	_	_
+1-14	64-77	Civitavecchia	*	PLACEmentioned
+1-15	78-83	durch	_	_
+1-16	84-93	Valentini	*	PERmentioned
+1-17	94-95	,	_	_
+1-18	96-98	in	_	_
+1-19	99-112	Civitavecchia	*	PLACEmentioned
+1-20	113-116	für	_	_
+1-21	117-124	Schiffe	_	_
+1-22	125-128	die	_	_
+1-23	129-133	nach	_	_
+1-24	134-142	Sicilien	*	PLACEmentioned
+1-25	143-149	direkt	_	_
+1-26	150-154	gehn	_	_
+1-27	155-156	)	_	_
+1-28	157-159	an	_	_
+1-29	160-165	Serra	*[9]	PERmentioned[9]
+1-30	166-168	di	*[9]	PERmentioned[9]
+1-31	169-174	Falco	*[9]	PERmentioned[9]
+1-32	175-181	Bücher	_	_
+1-33	182-188	senden	_	_
+1-34	189-190	,	_	_
+1-35	191-193	so	_	_
+1-36	194-199	legen	_	_
+1-37	200-203	Sie	_	_
+1-38	204-205	2	_	_
+1-39	206-215	Exemplare	_	_
+1-40	216-219	Mus	_	_
+1-41	220-221	&	_	_
+1-42	222-223	e	_	_
+1-43	224-230	Blacas	*	PERmentioned
+1-44	231-234	für	_	_
+1-45	235-240	Serra	*[11]	PERmentioned[11]
+1-46	241-243	di	*[11]	PERmentioned[11]
+1-47	244-249	Falco	*[11]	PERmentioned[11]
+1-48	250-253	und	_	_
+1-49	254-262	Maggiore	*	PERmentioned
+1-50	263-264	,	_	_
+1-51	265-268	und	_	_
+1-52	269-271	17	_	_
+1-53	272-280	Exemplar	_	_
+1-54	281-282	.	_	_
+
+#Text=für Politi bei , alles Dona autori . „ .......
+2-1	283-286	für	_	_
+2-2	287-293	Politi	*	PERmentioned
+2-3	294-297	bei	_	_
+2-4	298-299	,	_	_
+2-5	300-305	alles	_	_
+2-6	306-310	Dona	_	_
+2-7	311-317	autori	_	_
+2-8	318-319	.	_	_
+2-9	320-321	„	_	_
+2-10	322-329	.......	_	_

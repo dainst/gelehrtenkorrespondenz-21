@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=ra Brunn an Henzen Rom , 18. September 1861 g . 18. September 186 % r . 19. September 71861 L. RB .
+1-1	0-2	ra	_	_
+1-2	3-8	Brunn	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-18	Henzen	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-28	18.	_	_
+1-8	29-38	September	_	_
+1-9	39-43	1861	_	_
+1-10	44-45	g	_	_
+1-11	46-47	.	*	PERaddressee
+1-12	48-51	18.	*[5]	DATEletter[5]
+1-13	52-61	September	*[5]|*[6]	DATEletter[5]|DATErecieved[6]
+1-14	62-65	186	*[6]	DATErecieved[6]
+1-15	66-67	%	_	_
+1-16	68-69	r	_	_
+1-17	70-71	.	_	_
+1-18	72-75	19.	*[7]	DATEanswered[7]
+1-19	76-85	September	*[7]	DATEanswered[7]
+1-20	86-91	71861	*[7]	DATEanswered[7]
+1-21	92-94	L.	_	_
+1-22	95-97	RB	_	_
+1-23	98-99	.	_	_
+
+#Text=Wenn die Katze nicht zu Hause ist , tanzen die Mäuse 9 .
+2-1	100-104	Wenn	_	_
+2-2	105-108	die	_	_
+2-3	109-114	Katze	_	_
+2-4	115-120	nicht	_	_
+2-5	121-123	zu	_	_
+2-6	124-129	Hause	_	_
+2-7	130-133	ist	_	_
+2-8	134-135	,	_	_
+2-9	136-142	tanzen	_	_
+2-10	143-146	die	_	_
+2-11	147-152	Mäuse	_	_
+2-12	153-154	9	_	_
+2-13	155-156	.	_	_
+
+#Text=wörtlich !
+3-1	157-165	wörtlich	_	_
+3-2	166-167	!	_	_
+
+#Text=Kaum senkte sich nach Ihrer Abreise die Sonne , als der Tanz über meinem Schlafzimmer losging .
+4-1	168-172	Kaum	_	_
+4-2	173-179	senkte	_	_
+4-3	180-184	sich	_	_
+4-4	185-189	nach	_	_
+4-5	190-195	Ihrer	_	_
+4-6	196-203	Abreise	_	_
+4-7	204-207	die	_	_
+4-8	208-213	Sonne	_	_
+4-9	214-215	,	_	_
+4-10	216-219	als	_	_
+4-11	220-223	der	_	_
+4-12	224-228	Tanz	_	_
+4-13	229-233	über	_	_
+4-14	234-240	meinem	_	_
+4-15	241-253	Schlafzimmer	_	_
+4-16	254-261	losging	_	_
+4-17	262-263	.	_	_
+
+#Text=Es werden jetzt Fallen gestellt .
+5-1	264-266	Es	_	_
+5-2	267-273	werden	_	_
+5-3	274-279	jetzt	_	_
+5-4	280-286	Fallen	_	_
+5-5	287-295	gestellt	_	_
+5-6	296-297	.	_	_
+
+#Text=Bei Tage hat Forcella mörderische Attacken schwarzer Cavallerie zu bestehen , weshalb ich Bellardine habe auffordern lassen , einige Male in der Woche feucht auszukehren .
+6-1	298-301	Bei	_	_
+6-2	302-306	Tage	_	_
+6-3	307-310	hat	_	_
+6-4	311-319	Forcella	*	PERmentioned
+6-5	320-331	mörderische	_	_
+6-6	332-340	Attacken	_	_
+6-7	341-350	schwarzer	_	_
+6-8	351-361	Cavallerie	_	_
+6-9	362-364	zu	_	_
+6-10	365-373	bestehen	_	_
+6-11	374-375	,	_	_
+6-12	376-383	weshalb	_	_
+6-13	384-387	ich	_	_
+6-14	388-398	Bellardine	*	PERmentioned
+6-15	399-403	habe	_	_
+6-16	404-414	auffordern	_	_
+6-17	415-421	lassen	_	_
+6-18	422-423	,	_	_
+6-19	424-430	einige	_	_
+6-20	431-435	Male	_	_
+6-21	436-438	in	_	_
+6-22	439-442	der	_	_
+6-23	443-448	Woche	_	_
+6-24	449-455	feucht	_	_
+6-25	456-467	auszukehren	_	_
+6-26	468-469	.	_	_
+
+#Text=Im Vebrigen ist alles in Ordnung .
+7-1	470-472	Im	_	_
+7-2	473-481	Vebrigen	_	_
+7-3	482-485	ist	_	_
+7-4	486-491	alles	_	_
+7-5	492-494	in	_	_
+7-6	495-502	Ordnung	_	_
+7-7	503-504	.	_	_
+
+#Text=Heyse abgereist .
+8-1	505-510	Heyse	*	PERmentioned
+8-2	511-520	abgereist	_	_
+8-3	521-522	.	_	_
+
+#Text=Cornu dito , nachdem er den ersten Zug ohne seine Schuld verpaßt hatte .
+9-1	523-528	Cornu	*	PERmentioned
+9-2	529-533	dito	_	_
+9-3	534-535	,	_	_
+9-4	536-543	nachdem	_	_
+9-5	544-546	er	_	_
+9-6	547-550	den	_	_
+9-7	551-557	ersten	_	_
+9-8	558-561	Zug	_	_
+9-9	562-566	ohne	_	_
+9-10	567-572	seine	_	_
+9-11	573-579	Schuld	_	_
+9-12	580-587	verpaßt	_	_
+9-13	588-593	hatte	_	_
+9-14	594-595	.	_	_
+
+#Text=Post : Avviso von Cerasi , nicht mitgeschickt .
+10-1	596-600	Post	_	_
+10-2	601-602	:	_	_
+10-3	603-609	Avviso	_	_
+10-4	610-613	von	_	_
+10-5	614-620	Cerasi	*	PERmentioned
+10-6	621-622	,	_	_
+10-7	623-628	nicht	_	_
+10-8	629-641	mitgeschickt	_	_
+10-9	642-643	.	_	_
+
+#Text=Brief von Tycho Momnmsen .
+11-1	644-649	Brief	_	_
+11-2	650-653	von	_	_
+11-3	654-659	Tycho	*[8]	PERmentioned[8]
+11-4	660-668	Momnmsen	*[8]	PERmentioned[8]
+11-5	669-670	.	_	_
+
+#Text=Dto .
+12-1	671-674	Dto	_	_
+12-2	675-676	.	_	_
+
+#Text=wahrscheinlich von Gildemeister , da gleichzeitig der Calco der phönic .
+13-1	677-691	wahrscheinlich	_	_
+13-2	692-695	von	_	_
+13-3	696-708	Gildemeister	*	PERmentioned
+13-4	709-710	,	_	_
+13-5	711-713	da	_	_
+13-6	714-726	gleichzeitig	_	_
+13-7	727-730	der	_	_
+13-8	731-736	Calco	_	_
+13-9	737-740	der	_	_
+13-10	741-747	phönic	*[9]	OBJ[9]
+13-11	748-749	.	*[9]	OBJ[9]
+
+#Text=Inschrift anlangte .
+14-1	750-759	Inschrift	*[9]	OBJ[9]
+14-2	760-768	anlangte	_	_
+14-3	769-770	.	_	_
+
+#Text=Dto .
+15-1	771-774	Dto	_	_
+15-2	775-776	.	_	_
+
+#Text=v. Desjardins , Ich öffnete das große Couvert und behalte Bogen 8-10 della gente Arria vorläufig hier .
+16-1	777-779	v.	_	_
+16-2	780-790	Desjardins	*	PERmentioned
+16-3	791-792	,	_	_
+16-4	793-796	Ich	_	_
+16-5	797-804	öffnete	_	_
+16-6	805-808	das	_	_
+16-7	809-814	große	_	_
+16-8	815-822	Couvert	_	_
+16-9	823-826	und	_	_
+16-10	827-834	behalte	_	_
+16-11	835-840	Bogen	_	_
+16-12	841-845	8-10	_	_
+16-13	846-851	della	_	_
+16-14	852-857	gente	_	_
+16-15	858-863	Arria	_	_
+16-16	864-873	vorläufig	_	_
+16-17	874-878	hier	_	_
+16-18	879-880	.	_	_
+
+#Text=Endlich Zeitung von Mittwoch , während ich Donnerstag und Freitag übermorgen mitbringe .
+17-1	881-888	Endlich	_	_
+17-2	889-896	Zeitung	_	_
+17-3	897-900	von	_	_
+17-4	901-909	Mittwoch	*	DATEmentioned
+17-5	910-911	,	_	_
+17-6	912-919	während	_	_
+17-7	920-923	ich	_	_
+17-8	924-934	Donnerstag	*	DATEmentioned
+17-9	935-938	und	_	_
+17-10	939-946	Freitag	*	DATEmentioned
+17-11	947-957	übermorgen	_	_
+17-12	958-967	mitbringe	_	_
+17-13	968-969	.	_	_
+
+#Text=Sehen Sie meine Frau , so sagen Sie wohl , daß alles in Ordnung .
+18-1	970-975	Sehen	_	_
+18-2	976-979	Sie	_	_
+18-3	980-985	meine	*[10]	PERmentioned[10]
+18-4	986-990	Frau	*[10]	PERmentioned[10]
+18-5	991-992	,	_	_
+18-6	993-995	so	_	_
+18-7	996-1001	sagen	_	_
+18-8	1002-1005	Sie	_	_
+18-9	1006-1010	wohl	_	_
+18-10	1011-1012	,	_	_
+18-11	1013-1016	daß	_	_
+18-12	1017-1022	alles	_	_
+18-13	1023-1025	in	_	_
+18-14	1026-1033	Ordnung	_	_
+18-15	1034-1035	.	_	_
+
+#Text=Ihr HBrunn .
+19-1	1036-1039	Ihr	_	_
+19-2	1040-1046	HBrunn	*	PERauthor
+19-3	1047-1048	.	_	_
+
+#Text=Rom , 18:1IX , 61 .
+20-1	1049-1052	Rom	*	PLACEfrom
+20-2	1053-1054	,	_	_
+20-3	1055-1061	18:1IX	*[11]	DATEletter[11]
+20-4	1062-1063	,	*[11]	DATEletter[11]
+20-5	1064-1066	61	*[11]	DATEletter[11]
+20-6	1067-1068	.	_	_

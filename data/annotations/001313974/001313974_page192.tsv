@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Achern , 6 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Achern	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	6	_	_
+1-7	28-29	.	_	_
+
+#Text=August 1873 H g.- 7/8 73 r . 9/8 Achern , Haus Villinger 6 .
+2-1	30-36	August	*[1]	DATEletter[1]
+2-2	37-41	1873	*[1]	DATEletter[1]
+2-3	42-43	H	_	_
+2-4	44-47	g.-	_	_
+2-5	48-51	7/8	*[2]	DATErecieved[2]
+2-6	52-54	73	*[2]	DATErecieved[2]
+2-7	55-56	r	_	_
+2-8	57-58	.	_	_
+2-9	59-62	9/8	*	DATEanswered
+2-10	63-69	Achern	*	PLACEfrom
+2-11	70-71	,	_	_
+2-12	72-76	Haus	_	_
+2-13	77-86	Villinger	_	_
+2-14	87-88	6	*[3]	DATEletter[3]
+2-15	89-90	.	*[3]	DATEletter[3]
+
+#Text=August 1873 Lieber Herr Professor Herzlichen Dank für Ihren Brief .
+3-1	91-97	August	*[3]	DATEletter[3]
+3-2	98-102	1873	*[3]	DATEletter[3]
+3-3	103-109	Lieber	_	_
+3-4	110-114	Herr	_	_
+3-5	115-124	Professor	_	_
+3-6	125-135	Herzlichen	_	_
+3-7	136-140	Dank	_	_
+3-8	141-144	für	_	_
+3-9	145-150	Ihren	_	_
+3-10	151-156	Brief	_	_
+3-11	157-158	.	_	_
+
+#Text=Ich bin vorgestern hier angekommen und finde den Aufenthalt hier prachtvoll : Ruhe , Wälder , kühle luft - mehr kann man nach dem römischen Sommer nicht verlangen .
+4-1	159-162	Ich	_	_
+4-2	163-166	bin	_	_
+4-3	167-177	vorgestern	_	_
+4-4	178-182	hier	_	_
+4-5	183-193	angekommen	_	_
+4-6	194-197	und	_	_
+4-7	198-203	finde	_	_
+4-8	204-207	den	_	_
+4-9	208-218	Aufenthalt	_	_
+4-10	219-223	hier	_	_
+4-11	224-234	prachtvoll	_	_
+4-12	235-236	:	_	_
+4-13	237-241	Ruhe	_	_
+4-14	242-243	,	_	_
+4-15	244-250	Wälder	_	_
+4-16	251-252	,	_	_
+4-17	253-258	kühle	_	_
+4-18	259-263	luft	_	_
+4-19	264-265	-	_	_
+4-20	266-270	mehr	_	_
+4-21	271-275	kann	_	_
+4-22	276-279	man	_	_
+4-23	280-284	nach	_	_
+4-24	285-288	dem	_	_
+4-25	289-298	römischen	_	_
+4-26	299-305	Sommer	_	_
+4-27	306-311	nicht	_	_
+4-28	312-321	verlangen	_	_
+4-29	322-323	.	_	_
+
+#Text=Ich rathe Ihnen in der That , in unserer Nähe Ihr Zelt aufzuschlagen .
+5-1	324-327	Ich	_	_
+5-2	328-333	rathe	_	_
+5-3	334-339	Ihnen	_	_
+5-4	340-342	in	_	_
+5-5	343-346	der	_	_
+5-6	347-351	That	_	_
+5-7	352-353	,	_	_
+5-8	354-356	in	_	_
+5-9	357-364	unserer	_	_
+5-10	365-369	Nähe	_	_
+5-11	370-373	Ihr	_	_
+5-12	374-378	Zelt	_	_
+5-13	379-392	aufzuschlagen	_	_
+5-14	393-394	.	_	_
+
+#Text=Frühstücken und Essen können Sie bei uns .
+6-1	395-406	Frühstücken	_	_
+6-2	407-410	und	_	_
+6-3	411-416	Essen	_	_
+6-4	417-423	können	_	_
+6-5	424-427	Sie	_	_
+6-6	428-431	bei	_	_
+6-7	432-435	uns	_	_
+6-8	436-437	.	_	_
+
+#Text=Ein Zimmer findet sich leicht in einem der neben uns gelegenen Häuser .
+7-1	438-441	Ein	_	_
+7-2	442-448	Zimmer	_	_
+7-3	449-455	findet	_	_
+7-4	456-460	sich	_	_
+7-5	461-467	leicht	_	_
+7-6	468-470	in	_	_
+7-7	471-476	einem	_	_
+7-8	477-480	der	_	_
+7-9	481-486	neben	_	_
+7-10	487-490	uns	_	_
+7-11	491-500	gelegenen	_	_
+7-12	501-507	Häuser	_	_
+7-13	508-509	.	_	_
+
+#Text=Schreiben Sie mir nur ein Wort einige Tage vorher .
+8-1	510-519	Schreiben	_	_
+8-2	520-523	Sie	_	_
+8-3	524-527	mir	_	_
+8-4	528-531	nur	_	_
+8-5	532-535	ein	_	_
+8-6	536-540	Wort	_	_
+8-7	541-547	einige	_	_
+8-8	548-552	Tage	_	_
+8-9	553-559	vorher	_	_
+8-10	560-561	.	_	_
+
+#Text=Das Befinden meiner Frau läßt leider zu wünschen übrig .
+9-1	562-565	Das	_	_
+9-2	566-574	Befinden	_	_
+9-3	575-581	meiner	_	_
+9-4	582-586	Frau	_	_
+9-5	587-591	läßt	_	_
+9-6	592-598	leider	_	_
+9-7	599-601	zu	_	_
+9-8	602-610	wünschen	_	_
+9-9	611-616	übrig	_	_
+9-10	617-618	.	_	_
+
+#Text=Sie hat sich wiederum etwas übernommen und muß auf Befehl Gusserows bis auf Weiteres wiederum das Bett hüten .
+10-1	619-622	Sie	_	_
+10-2	623-626	hat	_	_
+10-3	627-631	sich	_	_
+10-4	632-640	wiederum	_	_
+10-5	641-646	etwas	_	_
+10-6	647-657	übernommen	_	_
+10-7	658-661	und	_	_
+10-8	662-665	muß	_	_
+10-9	666-669	auf	_	_
+10-10	670-676	Befehl	_	_
+10-11	677-686	Gusserows	*	PERmentioned
+10-12	687-690	bis	_	_
+10-13	691-694	auf	_	_
+10-14	695-703	Weiteres	_	_
+10-15	704-712	wiederum	_	_
+10-16	713-716	das	_	_
+10-17	717-721	Bett	_	_
+10-18	722-727	hüten	_	_
+10-19	728-729	.	_	_
+
+#Text=Gestern war ich in Straßburg und sah Michaelis , Köhler und Studemund .
+11-1	730-737	Gestern	_	_
+11-2	738-741	war	_	_
+11-3	742-745	ich	_	_
+11-4	746-748	in	_	_
+11-5	749-758	Straßburg	*	PLACEmentioned
+11-6	759-762	und	_	_
+11-7	763-766	sah	_	_
+11-8	767-776	Michaelis	*	PERmentioned
+11-9	777-778	,	_	_
+11-10	779-785	Köhler	*	PERmentioned
+11-11	786-789	und	_	_
+11-12	790-799	Studemund	*	PERmentioned
+11-13	800-801	.	_	_
+
+#Text=letzterer bittet Sie , ihm unter Conzes Adresse zu schreiben , wo er Sie nach etwa 14 Tagen - auf seiner Reise nach London - treffen kann .
+12-1	802-811	letzterer	_	_
+12-2	812-818	bittet	_	_
+12-3	819-822	Sie	_	_
+12-4	823-824	,	_	_
+12-5	825-828	ihm	_	_
+12-6	829-834	unter	_	_
+12-7	835-841	Conzes	*	PERmentioned
+12-8	842-849	Adresse	_	_
+12-9	850-852	zu	_	_
+12-10	853-862	schreiben	_	_
+12-11	863-864	,	_	_
+12-12	865-867	wo	_	_
+12-13	868-870	er	_	_
+12-14	871-874	Sie	_	_
+12-15	875-879	nach	_	_
+12-16	880-884	etwa	_	_
+12-17	885-887	14	_	_
+12-18	888-893	Tagen	_	_
+12-19	894-895	-	_	_
+12-20	896-899	auf	_	_
+12-21	900-906	seiner	_	_
+12-22	907-912	Reise	_	_
+12-23	913-917	nach	_	_
+12-24	918-924	London	*	PLACEmentioned
+12-25	925-926	-	_	_
+12-26	927-934	treffen	_	_
+12-27	935-939	kann	_	_
+12-28	940-941	.	_	_
+
+#Text=Die Scavi di Chiusi sind so , wie sie Dressel bezeichnet : Einleitung , Protocolle von Nardi-Dei , Nachträge von Gamurrini , Alles von dem letzteren gezeichnet .
+13-1	942-945	Die	_	_
+13-2	946-951	Scavi	_	_
+13-3	952-954	di	_	_
+13-4	955-961	Chiusi	*	PLACEmentioned
+13-5	962-966	sind	_	_
+13-6	967-969	so	_	_
+13-7	970-971	,	_	_
+13-8	972-975	wie	_	_
+13-9	976-979	sie	_	_
+13-10	980-987	Dressel	*	PERmentioned
+13-11	988-998	bezeichnet	_	_
+13-12	999-1000	:	_	_
+13-13	1001-1011	Einleitung	_	_
+13-14	1012-1013	,	_	_
+13-15	1014-1024	Protocolle	_	_
+13-16	1025-1028	von	_	_
+13-17	1029-1038	Nardi-Dei	*	PERmentioned
+13-18	1039-1040	,	_	_
+13-19	1041-1050	Nachträge	_	_
+13-20	1051-1054	von	_	_
+13-21	1055-1064	Gamurrini	*	PERmentioned
+13-22	1065-1066	,	_	_
+13-23	1067-1072	Alles	_	_
+13-24	1073-1076	von	_	_
+13-25	1077-1080	dem	_	_
+13-26	1081-1090	letzteren	_	_
+13-27	1091-1101	gezeichnet	_	_
+13-28	1102-1103	.	_	_

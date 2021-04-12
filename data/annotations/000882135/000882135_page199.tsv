@@ -1,0 +1,296 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 18. Februar 1840 Rom 18 Februar 1840 Hochverehrtester Freund !
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	18.	*[4]	DATEletter[4]
+1-7	27-34	Februar	*[4]	DATEletter[4]
+1-8	35-39	1840	*[4]	DATEletter[4]
+1-9	40-43	Rom	*	PLACEfrom
+1-10	44-46	18	*[6]	DATEletter[6]
+1-11	47-54	Februar	*[6]	DATEletter[6]
+1-12	55-59	1840	*[6]	DATEletter[6]
+1-13	60-76	Hochverehrtester	_	_
+1-14	77-83	Freund	_	_
+1-15	84-85	!	_	_
+
+#Text=Vorgestern habe ich und Wolff Basseggio heimgesucht .
+2-1	86-96	Vorgestern	_	_
+2-2	97-101	habe	_	_
+2-3	102-105	ich	_	_
+2-4	106-109	und	_	_
+2-5	110-115	Wolff	*	PERmentioned
+2-6	116-125	Basseggio	*	PERmentioned
+2-7	126-137	heimgesucht	_	_
+2-8	138-139	.	_	_
+
+#Text=Weder der Scepter noch der Reliefspiegel sind disponibel .
+3-1	140-145	Weder	_	_
+3-2	146-149	der	_	_
+3-3	150-157	Scepter	*	OBJ
+3-4	158-162	noch	_	_
+3-5	163-166	der	_	_
+3-6	167-180	Reliefspiegel	*	OBJ
+3-7	181-185	sind	_	_
+3-8	186-196	disponibel	_	_
+3-9	197-198	.	_	_
+
+#Text=Wolff hat daher die Fischchwänzige Flügelfrau und eine der beiden Kronen ( er fand beide einander ähnlich und daher eine genügend ) vorläufig fixirt .
+4-1	199-204	Wolff	*	PERmentioned
+4-2	205-208	hat	_	_
+4-3	209-214	daher	_	_
+4-4	215-218	die	_	_
+4-5	219-233	Fischchwänzige	*[12]	OBJ[12]
+4-6	234-244	Flügelfrau	*[12]	OBJ[12]
+4-7	245-248	und	_	_
+4-8	249-253	eine	_	_
+4-9	254-257	der	_	_
+4-10	258-264	beiden	_	_
+4-11	265-271	Kronen	*	OBJ
+4-12	272-273	(	_	_
+4-13	274-276	er	_	_
+4-14	277-281	fand	_	_
+4-15	282-287	beide	_	_
+4-16	288-296	einander	_	_
+4-17	297-304	ähnlich	_	_
+4-18	305-308	und	_	_
+4-19	309-314	daher	_	_
+4-20	315-319	eine	_	_
+4-21	320-328	genügend	_	_
+4-22	329-330	)	_	_
+4-23	331-340	vorläufig	_	_
+4-24	341-347	fixirt	_	_
+4-25	348-349	.	_	_
+
+#Text=Allerdings ist es weit mehr die jetzige Stellung des Instituts als das Ableben des Herzogs von Blacas , die einen neuen Präsidenten erheischt .
+5-1	350-360	Allerdings	_	_
+5-2	361-364	ist	_	_
+5-3	365-367	es	_	_
+5-4	368-372	weit	_	_
+5-5	373-377	mehr	_	_
+5-6	378-381	die	_	_
+5-7	382-389	jetzige	_	_
+5-8	390-398	Stellung	_	_
+5-9	399-402	des	_	_
+5-10	403-412	Instituts	*	ORGmentioned
+5-11	413-416	als	_	_
+5-12	417-420	das	_	_
+5-13	421-428	Ableben	_	_
+5-14	429-432	des	_	_
+5-15	433-440	Herzogs	*[15]	PERmentioned[15]
+5-16	441-444	von	*[15]	PERmentioned[15]
+5-17	445-451	Blacas	*[15]	PERmentioned[15]
+5-18	452-453	,	_	_
+5-19	454-457	die	_	_
+5-20	458-463	einen	_	_
+5-21	464-469	neuen	_	_
+5-22	470-481	Präsidenten	_	_
+5-23	482-491	erheischt	_	_
+5-24	492-493	.	_	_
+
+#Text=Bunsen ist für Metternich oder Iuynes .
+6-1	494-500	Bunsen	*	PERmentioned
+6-2	501-504	ist	_	_
+6-3	505-508	für	_	_
+6-4	509-519	Metternich	*	PERmentioned
+6-5	520-524	oder	_	_
+6-6	525-531	Iuynes	*	PERmentioned
+6-7	532-533	.	_	_
+
+#Text=letzterer kann uns nichts nützen , der erstere dagegen verdient vor allen anderen den Vorzug .
+7-1	534-543	letzterer	_	_
+7-2	544-548	kann	_	_
+7-3	549-552	uns	_	_
+7-4	553-559	nichts	_	_
+7-5	560-566	nützen	_	_
+7-6	567-568	,	_	_
+7-7	569-572	der	_	_
+7-8	573-580	erstere	_	_
+7-9	581-588	dagegen	_	_
+7-10	589-597	verdient	_	_
+7-11	598-601	vor	_	_
+7-12	602-607	allen	_	_
+7-13	608-615	anderen	_	_
+7-14	616-619	den	_	_
+7-15	620-626	Vorzug	_	_
+7-16	627-628	.	_	_
+
+#Text=Die von Ihnen vorgeschlagenen Stipulationen , welche mir Bunsen im Vertrauen mitgetheilt hat , befriedigen mich .
+8-1	629-632	Die	_	_
+8-2	633-636	von	_	_
+8-3	637-642	Ihnen	_	_
+8-4	643-658	vorgeschlagenen	_	_
+8-5	659-672	Stipulationen	_	_
+8-6	673-674	,	_	_
+8-7	675-681	welche	_	_
+8-8	682-685	mir	_	_
+8-9	686-692	Bunsen	*	PERmentioned
+8-10	693-695	im	_	_
+8-11	696-705	Vertrauen	_	_
+8-12	706-717	mitgetheilt	_	_
+8-13	718-721	hat	_	_
+8-14	722-723	,	_	_
+8-15	724-735	befriedigen	_	_
+8-16	736-740	mich	_	_
+8-17	741-742	.	_	_
+
+#Text=Eine solche Unterscheidung ist durchaus nöthig , weil sonst Niemand weiß , wer Koch oder Kellner ist .
+9-1	743-747	Eine	_	_
+9-2	748-754	solche	_	_
+9-3	755-769	Unterscheidung	_	_
+9-4	770-773	ist	_	_
+9-5	774-782	durchaus	_	_
+9-6	783-789	nöthig	_	_
+9-7	790-791	,	_	_
+9-8	792-796	weil	_	_
+9-9	797-802	sonst	_	_
+9-10	803-810	Niemand	_	_
+9-11	811-815	weiß	_	_
+9-12	816-817	,	_	_
+9-13	818-821	wer	_	_
+9-14	822-826	Koch	_	_
+9-15	827-831	oder	_	_
+9-16	832-839	Kellner	_	_
+9-17	840-843	ist	_	_
+9-18	844-845	.	_	_
+
+#Text=In den Instructionen muß dieselbe auch noch deutlich ausgesprochen werden .
+10-1	846-848	In	_	_
+10-2	849-852	den	_	_
+10-3	853-866	Instructionen	_	_
+10-4	867-870	muß	_	_
+10-5	871-879	dieselbe	_	_
+10-6	880-884	auch	_	_
+10-7	885-889	noch	_	_
+10-8	890-898	deutlich	_	_
+10-9	899-912	ausgesprochen	_	_
+10-10	913-919	werden	_	_
+10-11	920-921	.	_	_
+
+#Text=- - Es hat mir viel , sehr viel gekostet , mich so auszulassen wie ich gethan .
+11-1	922-923	-	_	_
+11-2	924-925	-	_	_
+11-3	926-928	Es	_	_
+11-4	929-932	hat	_	_
+11-5	933-936	mir	_	_
+11-6	937-941	viel	_	_
+11-7	942-943	,	_	_
+11-8	944-948	sehr	_	_
+11-9	949-953	viel	_	_
+11-10	954-962	gekostet	_	_
+11-11	963-964	,	_	_
+11-12	965-969	mich	_	_
+11-13	970-972	so	_	_
+11-14	973-984	auszulassen	_	_
+11-15	985-988	wie	_	_
+11-16	989-992	ich	_	_
+11-17	993-999	gethan	_	_
+11-18	1000-1001	.	_	_
+
+#Text=Denken Sie sich andrerseits in meine Stellung .
+12-1	1002-1008	Denken	_	_
+12-2	1009-1012	Sie	_	_
+12-3	1013-1017	sich	_	_
+12-4	1018-1029	andrerseits	_	_
+12-5	1030-1032	in	_	_
+12-6	1033-1038	meine	_	_
+12-7	1039-1047	Stellung	_	_
+12-8	1048-1049	.	_	_
+
+#Text=Würden Sie so lange geschwiegen haben als ich gethan ?
+13-1	1050-1056	Würden	_	_
+13-2	1057-1060	Sie	_	_
+13-3	1061-1063	so	_	_
+13-4	1064-1069	lange	_	_
+13-5	1070-1081	geschwiegen	_	_
+13-6	1082-1087	haben	_	_
+13-7	1088-1091	als	_	_
+13-8	1092-1095	ich	_	_
+13-9	1096-1102	gethan	_	_
+13-10	1103-1104	?	_	_
+
+#Text=Lanci ist jetzt bei der Diligence in den Nachmittagsstunden employirt und hofft bei dem Rechnungsbureau der Sali und Tabacchi einzutreten .
+14-1	1105-1110	Lanci	*	PERmentioned
+14-2	1111-1114	ist	_	_
+14-3	1115-1120	jetzt	_	_
+14-4	1121-1124	bei	_	_
+14-5	1125-1128	der	_	_
+14-6	1129-1138	Diligence	_	_
+14-7	1139-1141	in	_	_
+14-8	1142-1145	den	_	_
+14-9	1146-1164	Nachmittagsstunden	_	_
+14-10	1165-1174	employirt	_	_
+14-11	1175-1178	und	_	_
+14-12	1179-1184	hofft	_	_
+14-13	1185-1188	bei	_	_
+14-14	1189-1192	dem	_	_
+14-15	1193-1208	Rechnungsbureau	_	_
+14-16	1209-1212	der	_	_
+14-17	1213-1217	Sali	_	_
+14-18	1218-1221	und	_	_
+14-19	1222-1230	Tabacchi	_	_
+14-20	1231-1242	einzutreten	_	_
+14-21	1243-1244	.	_	_
+
+#Text=So günstige Aussichten lassen ihm die Hörner wachsen .
+15-1	1245-1247	So	_	_
+15-2	1248-1256	günstige	_	_
+15-3	1257-1267	Aussichten	_	_
+15-4	1268-1274	lassen	_	_
+15-5	1275-1278	ihm	_	_
+15-6	1279-1282	die	_	_
+15-7	1283-1289	Hörner	_	_
+15-8	1290-1297	wachsen	_	_
+15-9	1298-1299	.	_	_
+
+#Text=Unlängst benahm er sich recht impertinent gegen Kestner , der darauf und dran war sich von dem Institut definitiv zurückzuziehen .
+16-1	1300-1308	Unlängst	_	_
+16-2	1309-1315	benahm	_	_
+16-3	1316-1318	er	_	_
+16-4	1319-1323	sich	_	_
+16-5	1324-1329	recht	_	_
+16-6	1330-1341	impertinent	_	_
+16-7	1342-1347	gegen	_	_
+16-8	1348-1355	Kestner	*	PERmentioned
+16-9	1356-1357	,	_	_
+16-10	1358-1361	der	_	_
+16-11	1362-1368	darauf	_	_
+16-12	1369-1372	und	_	_
+16-13	1373-1377	dran	_	_
+16-14	1378-1381	war	_	_
+16-15	1382-1386	sich	_	_
+16-16	1387-1390	von	_	_
+16-17	1391-1394	dem	_	_
+16-18	1395-1403	Institut	*	ORGmentioned
+16-19	1404-1413	definitiv	_	_
+16-20	1414-1428	zurückzuziehen	_	_
+16-21	1429-1430	.	_	_
+
+#Text=Canina hat ihn beruhigt .
+17-1	1431-1437	Canina	*	PERmentioned
+17-2	1438-1441	hat	_	_
+17-3	1442-1445	ihn	_	_
+17-4	1446-1454	beruhigt	_	_
+17-5	1455-1456	.	_	_
+
+#Text=- Der ganze Battal bestand darin , daß der eine die Namen der Nibby'schen Be-
+18-1	1457-1458	-	_	_
+18-2	1459-1462	Der	_	_
+18-3	1463-1468	ganze	_	_
+18-4	1469-1475	Battal	_	_
+18-5	1476-1483	bestand	_	_
+18-6	1484-1489	darin	_	_
+18-7	1490-1491	,	_	_
+18-8	1492-1495	daß	_	_
+18-9	1496-1499	der	_	_
+18-10	1500-1504	eine	_	_
+18-11	1505-1508	die	_	_
+18-12	1509-1514	Namen	_	_
+18-13	1515-1518	der	_	_
+18-14	1519-1530	Nibby'schen	*	PERmentioned
+18-15	1531-1534	Be-	_	_

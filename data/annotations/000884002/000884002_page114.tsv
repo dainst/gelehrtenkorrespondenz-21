@@ -1,0 +1,284 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 12. Juli 1862 g . 14. Juli 1862 r . 20. Juli 1862 Lieber Henzen !
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	12.	*[7]	DATEletter[7]
+1-7	26-30	Juli	*[7]	DATEletter[7]
+1-8	31-35	1862	*[7]	DATEletter[7]
+1-9	36-37	g	_	_
+1-10	38-39	.	_	_
+1-11	40-43	14.	*[8]	DATErecieved[8]
+1-12	44-48	Juli	*[8]	DATErecieved[8]
+1-13	49-53	1862	*[8]	DATErecieved[8]
+1-14	54-55	r	_	_
+1-15	56-57	.	_	_
+1-16	58-61	20.	*[9]	DATEanswered[9]
+1-17	62-66	Juli	*[9]	DATEanswered[9]
+1-18	67-71	1862	*[9]	DATEanswered[9]
+1-19	72-78	Lieber	_	_
+1-20	79-85	Henzen	*	PERaddressee
+1-21	86-87	!	_	_
+
+#Text=Kiessling wird Ihnen ja wohl das Nothwendige mitgetheilt haben .
+2-1	88-97	Kiessling	*	PERmentioned
+2-2	98-102	wird	_	_
+2-3	103-108	Ihnen	_	_
+2-4	109-111	ja	_	_
+2-5	112-116	wohl	_	_
+2-6	117-120	das	_	_
+2-7	121-132	Nothwendige	_	_
+2-8	133-144	mitgetheilt	_	_
+2-9	145-150	haben	_	_
+2-10	151-152	.	_	_
+
+#Text=Ich selbst zögerte bis heute mit dem Schreiben , weil Canitz nur Freitags von Ariccia herkommt .
+3-1	153-156	Ich	_	_
+3-2	157-163	selbst	_	_
+3-3	164-171	zögerte	_	_
+3-4	172-175	bis	_	_
+3-5	176-181	heute	_	_
+3-6	182-185	mit	_	_
+3-7	186-189	dem	_	_
+3-8	190-199	Schreiben	_	_
+3-9	200-201	,	_	_
+3-10	202-206	weil	_	_
+3-11	207-213	Canitz	*	PERmentioned
+3-12	214-217	nur	_	_
+3-13	218-226	Freitags	*	DATEmentioned
+3-14	227-230	von	_	_
+3-15	231-238	Ariccia	*	PLACEmentioned
+3-16	239-247	herkommt	_	_
+3-17	248-249	.	_	_
+
+#Text=Da er ja doch immer fragt , ob man etwas Specielles wünsche , so benutze ich Ihren Wunsch als willkommenen Anlaß , um einmal mit Ja antworten zu können und eine lange schuldige Visite abzumachen .
+4-1	250-252	Da	_	_
+4-2	253-255	er	_	_
+4-3	256-258	ja	_	_
+4-4	259-263	doch	_	_
+4-5	264-269	immer	_	_
+4-6	270-275	fragt	_	_
+4-7	276-277	,	_	_
+4-8	278-280	ob	_	_
+4-9	281-284	man	_	_
+4-10	285-290	etwas	_	_
+4-11	291-301	Specielles	_	_
+4-12	302-309	wünsche	_	_
+4-13	310-311	,	_	_
+4-14	312-314	so	_	_
+4-15	315-322	benutze	_	_
+4-16	323-326	ich	_	_
+4-17	327-332	Ihren	_	_
+4-18	333-339	Wunsch	_	_
+4-19	340-343	als	_	_
+4-20	344-356	willkommenen	_	_
+4-21	357-362	Anlaß	_	_
+4-22	363-364	,	_	_
+4-23	365-367	um	_	_
+4-24	368-374	einmal	_	_
+4-25	375-378	mit	_	_
+4-26	379-381	Ja	_	_
+4-27	382-391	antworten	_	_
+4-28	392-394	zu	_	_
+4-29	395-401	können	_	_
+4-30	402-405	und	_	_
+4-31	406-410	eine	_	_
+4-32	411-416	lange	_	_
+4-33	417-426	schuldige	_	_
+4-34	427-433	Visite	_	_
+4-35	434-444	abzumachen	_	_
+4-36	445-446	.	_	_
+
+#Text=Er concedirte scf ’ ort , daß Sieaäne .
+5-1	447-449	Er	_	_
+5-2	450-460	concedirte	_	_
+5-3	461-464	scf	_	_
+5-4	465-466	’	_	_
+5-5	467-470	ort	_	_
+5-6	471-472	,	_	_
+5-7	473-476	daß	_	_
+5-8	477-484	Sieaäne	_	_
+5-9	485-486	.	_	_
+
+#Text=Kiste an die Gesandtschaft addressiren könnten , natürlich nicht ohne Randglosse , daß sie nur Sachen für Sie und das Institut enthalten dürfe , worüber ich ihn tröstete .
+6-1	487-492	Kiste	_	_
+6-2	493-495	an	_	_
+6-3	496-499	die	_	_
+6-4	500-513	Gesandtschaft	*	ORGmentioned
+6-5	514-525	addressiren	_	_
+6-6	526-533	könnten	_	_
+6-7	534-535	,	_	_
+6-8	536-545	natürlich	_	_
+6-9	546-551	nicht	_	_
+6-10	552-556	ohne	_	_
+6-11	557-567	Randglosse	_	_
+6-12	568-569	,	_	_
+6-13	570-573	daß	_	_
+6-14	574-577	sie	_	_
+6-15	578-581	nur	_	_
+6-16	582-588	Sachen	_	_
+6-17	589-592	für	_	_
+6-18	593-596	Sie	_	_
+6-19	597-600	und	_	_
+6-20	601-604	das	_	_
+6-21	605-613	Institut	*	ORGmentioned
+6-22	614-623	enthalten	_	_
+6-23	624-629	dürfe	_	_
+6-24	630-631	,	_	_
+6-25	632-639	worüber	_	_
+6-26	640-643	ich	_	_
+6-27	644-647	ihn	_	_
+6-28	648-656	tröstete	_	_
+6-29	657-658	.	_	_
+
+#Text=- Heute corrigirt die pagin .
+7-1	659-660	-	_	_
+7-2	661-666	Heute	_	_
+7-3	667-676	corrigirt	_	_
+7-4	677-680	die	_	_
+7-5	681-686	pagin	_	_
+7-6	687-688	.	_	_
+
+#Text=von Bull .
+8-1	689-692	von	_	_
+8-2	693-697	Bull	_	_
+8-3	698-699	.	_	_
+
+#Text=Juni und Juli , 2 Bogen Scavi d'Atene , di Modena .
+9-1	700-704	Juni	*	DATEmentioned
+9-2	705-708	und	_	_
+9-3	709-713	Juli	*	DATEmentioned
+9-4	714-715	,	_	_
+9-5	716-717	2	_	_
+9-6	718-723	Bogen	_	_
+9-7	724-729	Scavi	_	_
+9-8	730-737	d'Atene	*	PLACEmentioned
+9-9	738-739	,	_	_
+9-10	740-742	di	_	_
+9-11	743-749	Modena	_	_
+9-12	750-751	.	_	_
+
+#Text=- Vasi Barone ( Kißsling ) .
+10-1	752-753	-	_	_
+10-2	754-758	Vasi	*	OBJ
+10-3	759-765	Barone	*	PERmentioned
+10-4	766-767	(	_	_
+10-5	768-776	Kißsling	*[14]	PERmentioned[14]
+10-6	777-778	)	*[14]	PERmentioned[14]
+10-7	779-780	.	_	_
+
+#Text=- Medaglia di Sinope Lovatti \; - Rhusopulos Inschrift \; Cherbonneau \; und auch die kurzen Artikel : inser .
+11-1	781-782	-	_	_
+11-2	783-791	Medaglia	*[10]	OBJ[10]
+11-3	792-794	di	*[10]	OBJ[10]
+11-4	795-801	Sinope	*[10]	OBJ[10]
+11-5	802-809	Lovatti	*	PERmentioned
+11-6	810-811	\;	_	_
+11-7	812-813	-	_	_
+11-8	814-824	Rhusopulos	*[11]	OBJ[11]
+11-9	825-834	Inschrift	*[11]	OBJ[11]
+11-10	835-836	\;	_	_
+11-11	837-848	Cherbonneau	*	PERmentioned
+11-12	849-850	\;	_	_
+11-13	851-854	und	_	_
+11-14	855-859	auch	_	_
+11-15	860-863	die	_	_
+11-16	864-870	kurzen	_	_
+11-17	871-878	Artikel	_	_
+11-18	879-880	:	_	_
+11-19	881-886	inser	*[12]	OBJ[12]
+11-20	887-888	.	*[12]	OBJ[12]
+
+#Text=di Tolosa \; und Bruzza : Novara .
+12-1	889-891	di	*[12]	OBJ[12]
+12-2	892-898	Tolosa	*[12]	OBJ[12]
+12-3	899-900	\;	_	_
+12-4	901-904	und	_	_
+12-5	905-911	Bruzza	*	PERmentioned
+12-6	912-913	:	_	_
+12-7	914-920	Novara	*	PLACEmentioned
+12-8	921-922	.	_	_
+
+#Text=Von Cherbonneau habejich der Orthographie und Accente wegen Descemet um eine Correctur gebeten .
+13-1	923-926	Von	_	_
+13-2	927-938	Cherbonneau	*	PERmentioned
+13-3	939-947	habejich	_	_
+13-4	948-951	der	_	_
+13-5	952-964	Orthographie	_	_
+13-6	965-968	und	_	_
+13-7	969-976	Accente	_	_
+13-8	977-982	wegen	_	_
+13-9	983-991	Descemet	*	PERmentioned
+13-10	992-994	um	_	_
+13-11	995-999	eine	_	_
+13-12	1000-1009	Correctur	_	_
+13-13	1010-1017	gebeten	_	_
+13-14	1018-1019	.	_	_
+
+#Text=Eroli : er habe Ihnen im Oct .
+14-1	1020-1025	Eroli	*	PERmentioned
+14-2	1026-1027	:	_	_
+14-3	1028-1030	er	_	_
+14-4	1031-1035	habe	_	_
+14-5	1036-1041	Ihnen	_	_
+14-6	1042-1044	im	_	_
+14-7	1045-1048	Oct	*[13]	DATEmentioned[13]
+14-8	1049-1050	.	*[13]	DATEmentioned[13]
+
+#Text=1860 zur Spedition an Desjardins geschickt einige Abschriften Borghesischer Briefe , dazu Vol . I der Misc . Narnesi und libro della Sapienza .
+15-1	1051-1055	1860	*[13]	DATEmentioned[13]
+15-2	1056-1059	zur	_	_
+15-3	1060-1069	Spedition	_	_
+15-4	1070-1072	an	_	_
+15-5	1073-1083	Desjardins	*	PERmentioned
+15-6	1084-1093	geschickt	_	_
+15-7	1094-1100	einige	_	_
+15-8	1101-1112	Abschriften	_	_
+15-9	1113-1126	Borghesischer	*	MISC
+15-10	1127-1133	Briefe	_	_
+15-11	1134-1135	,	_	_
+15-12	1136-1140	dazu	_	_
+15-13	1141-1144	Vol	_	_
+15-14	1145-1146	.	_	_
+15-15	1147-1148	I	_	_
+15-16	1149-1152	der	_	_
+15-17	1153-1157	Misc	_	_
+15-18	1158-1159	.	_	_
+15-19	1160-1167	Narnesi	_	_
+15-20	1168-1171	und	_	_
+15-21	1172-1177	libro	_	_
+15-22	1178-1183	della	_	_
+15-23	1184-1192	Sapienza	_	_
+15-24	1193-1194	.	_	_
+
+#Text=Auf seine Anfrage habe ihm jetzt Desjardings geantwortet , daß er die Borghesischen Briefe erhalten , das übrige nicht .
+16-1	1195-1198	Auf	_	_
+16-2	1199-1204	seine	_	_
+16-3	1205-1212	Anfrage	_	_
+16-4	1213-1217	habe	_	_
+16-5	1218-1221	ihm	_	_
+16-6	1222-1227	jetzt	_	_
+16-7	1228-1239	Desjardings	*	PERmentioned
+16-8	1240-1251	geantwortet	_	_
+16-9	1252-1253	,	_	_
+16-10	1254-1257	daß	_	_
+16-11	1258-1260	er	_	_
+16-12	1261-1264	die	_	_
+16-13	1265-1278	Borghesischen	*	MISC
+16-14	1279-1285	Briefe	_	_
+16-15	1286-1294	erhalten	_	_
+16-16	1295-1296	,	_	_
+16-17	1297-1300	das	_	_
+16-18	1301-1307	übrige	_	_
+16-19	1308-1313	nicht	_	_
+16-20	1314-1315	.	_	_
+
+#Text=Wünscht Auskunft .
+17-1	1316-1323	Wünscht	_	_
+17-2	1324-1332	Auskunft	_	_
+17-3	1333-1334	.	_	_

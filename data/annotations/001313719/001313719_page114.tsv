@@ -1,0 +1,60 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen 6/V/1847 nach Rom senden möge , denn es kostet auch hier reichlich Postgeld .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-26	6/V/1847	*	DATEletter
+1-5	27-31	nach	_	_
+1-6	32-35	Rom	*	PLACEmentioned
+1-7	36-42	senden	_	_
+1-8	43-47	möge	_	_
+1-9	48-49	,	_	_
+1-10	50-54	denn	_	_
+1-11	55-57	es	_	_
+1-12	58-64	kostet	_	_
+1-13	65-69	auch	_	_
+1-14	70-74	hier	_	_
+1-15	75-84	reichlich	_	_
+1-16	85-93	Postgeld	_	_
+1-17	94-95	.	_	_
+
+#Text=Ihrer lieben “ rau unsre besten Grüße \; Dank und Gruß auch an Brunn .
+2-1	96-101	Ihrer	_	_
+2-2	102-108	lieben	_	_
+2-3	109-110	“	_	_
+2-4	111-114	rau	_	_
+2-5	115-120	unsre	_	_
+2-6	121-127	besten	_	_
+2-7	128-133	Grüße	_	_
+2-8	134-135	\;	_	_
+2-9	136-140	Dank	_	_
+2-10	141-144	und	_	_
+2-11	145-149	Gruß	_	_
+2-12	150-154	auch	_	_
+2-13	155-157	an	_	_
+2-14	158-163	Brunn	*	PERmentioned
+2-15	164-165	.	_	_
+
+#Text=Eben war dies geschrieben als nach raschester Reise Blessig hier eintrat .
+3-1	166-170	Eben	_	_
+3-2	171-174	war	_	_
+3-3	175-179	dies	_	_
+3-4	180-191	geschrieben	_	_
+3-5	192-195	als	_	_
+3-6	196-200	nach	_	_
+3-7	201-211	raschester	_	_
+3-8	212-217	Reise	_	_
+3-9	218-225	Blessig	*	PERmentioned
+3-10	226-230	hier	_	_
+3-11	231-238	eintrat	_	_
+3-12	239-240	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+4-1	241-244	Von	_	_
+4-2	245-251	Herzen	_	_
+4-3	252-255	der	_	_
+4-4	256-262	Ihrige	_	_
+4-5	263-270	Gerhard	*	PERauthor

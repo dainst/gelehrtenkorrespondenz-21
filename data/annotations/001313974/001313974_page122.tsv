@@ -1,0 +1,140 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=225 Helbig an Henzen Rom , 7. Juni 1870 Die Reise ist Lilli sehr gut , meiner Frau leidlich bekommen .
+1-1	0-3	225	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	7.	*[1]	DATEletter[1]
+1-8	30-34	Juni	*[1]	DATEletter[1]
+1-9	35-39	1870	*[1]	DATEletter[1]
+1-10	40-43	Die	_	_
+1-11	44-49	Reise	_	_
+1-12	50-53	ist	_	_
+1-13	54-59	Lilli	*	PERmentioned
+1-14	60-64	sehr	_	_
+1-15	65-68	gut	_	_
+1-16	69-70	,	_	_
+1-17	71-77	meiner	_	_
+1-18	78-82	Frau	_	_
+1-19	83-91	leidlich	_	_
+1-20	92-100	bekommen	_	_
+1-21	101-102	.	_	_
+
+#Text=DBenndorf habe ich bis jetzt nur flüchtig gesehen .
+2-1	103-112	DBenndorf	*	PERmentioned
+2-2	113-117	habe	_	_
+2-3	118-121	ich	_	_
+2-4	122-125	bis	_	_
+2-5	126-131	jetzt	_	_
+2-6	132-135	nur	_	_
+2-7	136-144	flüchtig	_	_
+2-8	145-152	gesehen	_	_
+2-9	153-154	.	_	_
+
+#Text=Er scheint sich in Zürich sehr wohl zu fühlen .
+3-1	155-157	Er	_	_
+3-2	158-165	scheint	_	_
+3-3	166-170	sich	_	_
+3-4	171-173	in	_	_
+3-5	174-180	Zürich	*	PLACEmentioned
+3-6	181-185	sehr	_	_
+3-7	186-190	wohl	_	_
+3-8	191-193	zu	_	_
+3-9	194-200	fühlen	_	_
+3-10	201-202	.	_	_
+
+#Text=Wir erwarten in diesen Tagen Vater Willmanns , welcher bei der am 11. in Olten stattfindenden Monstrekneiperei schweizer und süddeutscher Professoren die Universität Freiburg vertreten wird .
+4-1	203-206	Wir	_	_
+4-2	207-215	erwarten	_	_
+4-3	216-218	in	_	_
+4-4	219-225	diesen	_	_
+4-5	226-231	Tagen	_	_
+4-6	232-237	Vater	_	_
+4-7	238-247	Willmanns	*	PERmentioned
+4-8	248-249	,	_	_
+4-9	250-257	welcher	_	_
+4-10	258-261	bei	_	_
+4-11	262-265	der	_	_
+4-12	266-268	am	_	_
+4-13	269-272	11.	*[2]	DATEmentioned[2]
+4-14	273-275	in	_	_
+4-15	276-281	Olten	*	PLACEmentioned
+4-16	282-296	stattfindenden	_	_
+4-17	297-313	Monstrekneiperei	_	_
+4-18	314-323	schweizer	_	_
+4-19	324-327	und	_	_
+4-20	328-340	süddeutscher	_	_
+4-21	341-352	Professoren	_	_
+4-22	353-356	die	_	_
+4-23	357-368	Universität	*	ORGmentioned
+4-24	369-377	Freiburg	*	PLACEmentioned
+4-25	378-387	vertreten	_	_
+4-26	388-392	wird	_	_
+4-27	393-394	.	_	_
+
+#Text=Hoffentlich versieht er sich zu diesem Zwecke mit dem nöthigen Vorrathe von Brillen .
+5-1	395-406	Hoffentlich	_	_
+5-2	407-415	versieht	_	_
+5-3	416-418	er	_	_
+5-4	419-423	sich	_	_
+5-5	424-426	zu	_	_
+5-6	427-433	diesem	_	_
+5-7	434-440	Zwecke	_	_
+5-8	441-444	mit	_	_
+5-9	445-448	dem	_	_
+5-10	449-457	nöthigen	_	_
+5-11	458-466	Vorrathe	_	_
+5-12	467-470	von	_	_
+5-13	471-478	Brillen	_	_
+5-14	479-480	.	_	_
+
+#Text=Herzliche Grüße an Fräulein Kopf und Hink .
+6-1	481-490	Herzliche	_	_
+6-2	491-496	Grüße	_	_
+6-3	497-499	an	_	_
+6-4	500-508	Fräulein	_	_
+6-5	509-513	Kopf	*	PERmentioned
+6-6	514-517	und	_	_
+6-7	518-522	Hink	*	PERmentioned
+6-8	523-524	.	_	_
+
+#Text=Auf baldiges Wiedersehen Ihr ergebener Helbig Soeben geht mir der von Ihnen uns nachgeschickte russische Brief zu .
+7-1	525-528	Auf	_	_
+7-2	529-537	baldiges	_	_
+7-3	538-549	Wiedersehen	_	_
+7-4	550-553	Ihr	_	_
+7-5	554-563	ergebener	_	_
+7-6	564-570	Helbig	*	PERauthor
+7-7	571-577	Soeben	_	_
+7-8	578-582	geht	_	_
+7-9	583-586	mir	_	_
+7-10	587-590	der	_	_
+7-11	591-594	von	_	_
+7-12	595-600	Ihnen	_	_
+7-13	601-604	uns	_	_
+7-14	605-619	nachgeschickte	_	_
+7-15	620-629	russische	_	_
+7-16	630-635	Brief	_	_
+7-17	636-638	zu	_	_
+7-18	639-640	.	_	_
+
+#Text=Herzlichen Dank .
+8-1	641-651	Herzlichen	_	_
+8-2	652-656	Dank	_	_
+8-3	657-658	.	_	_
+
+#Text=Wie steht es mit der Spedition nach P. ?
+9-1	659-662	Wie	_	_
+9-2	663-668	steht	_	_
+9-3	669-671	es	_	_
+9-4	672-675	mit	_	_
+9-5	676-679	der	_	_
+9-6	680-689	Spedition	_	_
+9-7	690-694	nach	_	_
+9-8	695-697	P.	_	_
+9-9	698-699	?	_	_

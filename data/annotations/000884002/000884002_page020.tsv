@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=SIE TORRENT EEK SE 254 Brunn an Henzen Perugia , 31 .
+1-1	0-3	SIE	_	_
+1-2	4-11	TORRENT	_	_
+1-3	12-15	EEK	_	_
+1-4	16-18	SE	_	_
+1-5	19-22	254	_	_
+1-6	23-28	Brunn	*	PERauthor
+1-7	29-31	an	_	_
+1-8	32-38	Henzen	*	PERaddressee
+1-9	39-46	Perugia	*	PLACEfrom
+1-10	47-48	,	_	_
+1-11	49-51	31	*[5]	DATEletter[5]
+1-12	52-53	.	*[5]	DATEletter[5]
+
+#Text=August 1858 A. di Dir , 8 . 2. September 1858 r . 9. September 1858 Lieber Henzen \| !
+2-1	54-60	August	*[5]	DATEletter[5]
+2-2	61-65	1858	*[5]	DATEletter[5]
+2-3	66-68	A.	_	_
+2-4	69-71	di	_	_
+2-5	72-75	Dir	_	_
+2-6	76-77	,	_	_
+2-7	78-79	8	_	_
+2-8	80-81	.	_	_
+2-9	82-84	2.	*[6]	DATErecieved[6]
+2-10	85-94	September	*[6]	DATErecieved[6]
+2-11	95-99	1858	*[6]	DATErecieved[6]
+2-12	100-101	r	_	_
+2-13	102-103	.	_	_
+2-14	104-106	9.	*[7]	DATEanswered[7]
+2-15	107-116	September	*[7]	DATEanswered[7]
+2-16	117-121	1858	*[7]	DATEanswered[7]
+2-17	122-128	Lieber	_	_
+2-18	129-135	Henzen	*	PERaddressee
+2-19	136-137	\|	_	_
+2-20	138-139	!	_	_
+
+#Text=Eigentlich schreibe ich heute nur , damit Sie nicht glauben , es sei ein Brief verloren gegangen .
+3-1	140-150	Eigentlich	_	_
+3-2	151-159	schreibe	_	_
+3-3	160-163	ich	_	_
+3-4	164-169	heute	_	_
+3-5	170-173	nur	_	_
+3-6	174-175	,	_	_
+3-7	176-181	damit	_	_
+3-8	182-185	Sie	_	_
+3-9	186-191	nicht	_	_
+3-10	192-199	glauben	_	_
+3-11	200-201	,	_	_
+3-12	202-204	es	_	_
+3-13	205-208	sei	_	_
+3-14	209-212	ein	_	_
+3-15	213-218	Brief	_	_
+3-16	219-227	verloren	_	_
+3-17	228-236	gegangen	_	_
+3-18	237-238	.	_	_
+
+#Text=Das Wetter war schlecht , meine Frau wenig mobil ( beides hat sich jetzt gebessert ) , so daß ich sehr still zu Hause gesessen und ein tüchtiges Stück in die Vasenmaler hineingearbeitet habe : sehr langweilig , daß es schwer ist guten Humor dabei zu beralten , .
+4-1	239-242	Das	_	_
+4-2	243-249	Wetter	_	_
+4-3	250-253	war	_	_
+4-4	254-262	schlecht	_	_
+4-5	263-264	,	_	_
+4-6	265-270	meine	*[8]	PERmentioned[8]
+4-7	271-275	Frau	*[8]	PERmentioned[8]
+4-8	276-281	wenig	_	_
+4-9	282-287	mobil	_	_
+4-10	288-289	(	_	_
+4-11	290-296	beides	_	_
+4-12	297-300	hat	_	_
+4-13	301-305	sich	_	_
+4-14	306-311	jetzt	_	_
+4-15	312-321	gebessert	_	_
+4-16	322-323	)	_	_
+4-17	324-325	,	_	_
+4-18	326-328	so	_	_
+4-19	329-332	daß	_	_
+4-20	333-336	ich	_	_
+4-21	337-341	sehr	_	_
+4-22	342-347	still	_	_
+4-23	348-350	zu	_	_
+4-24	351-356	Hause	_	_
+4-25	357-365	gesessen	_	_
+4-26	366-369	und	_	_
+4-27	370-373	ein	_	_
+4-28	374-383	tüchtiges	_	_
+4-29	384-389	Stück	_	_
+4-30	390-392	in	_	_
+4-31	393-396	die	_	_
+4-32	397-407	Vasenmaler	_	_
+4-33	408-424	hineingearbeitet	_	_
+4-34	425-429	habe	_	_
+4-35	430-431	:	_	_
+4-36	432-436	sehr	_	_
+4-37	437-447	langweilig	_	_
+4-38	448-449	,	_	_
+4-39	450-453	daß	_	_
+4-40	454-456	es	_	_
+4-41	457-463	schwer	_	_
+4-42	464-467	ist	_	_
+4-43	468-473	guten	_	_
+4-44	474-479	Humor	_	_
+4-45	480-485	dabei	_	_
+4-46	486-488	zu	_	_
+4-47	489-497	beralten	_	_
+4-48	498-499	,	_	_
+4-49	500-501	.	_	_
+
+#Text=Die Bossi'schen Zeichnungen sind richtig angekommen \; jetzt wahrscheinlich auch der Talco , doch habe ich Bartoccini seit zwei Tagen nicht gesehen .
+5-1	502-505	Die	_	_
+5-2	506-517	Bossi'schen	*	PERmentioned
+5-3	518-529	Zeichnungen	_	_
+5-4	530-534	sind	_	_
+5-5	535-542	richtig	_	_
+5-6	543-553	angekommen	_	_
+5-7	554-555	\;	_	_
+5-8	556-561	jetzt	_	_
+5-9	562-576	wahrscheinlich	_	_
+5-10	577-581	auch	_	_
+5-11	582-585	der	_	_
+5-12	586-591	Talco	_	_
+5-13	592-593	,	_	_
+5-14	594-598	doch	_	_
+5-15	599-603	habe	_	_
+5-16	604-607	ich	_	_
+5-17	608-618	Bartoccini	*	PERmentioned
+5-18	619-623	seit	_	_
+5-19	624-628	zwei	_	_
+5-20	629-634	Tagen	_	_
+5-21	635-640	nicht	_	_
+5-22	641-648	gesehen	_	_
+5-23	649-650	.	_	_
+
+#Text=- In Betreff des Bullettino in spe - facciamo pure !
+6-1	651-652	-	_	_
+6-2	653-655	In	_	_
+6-3	656-663	Betreff	_	_
+6-4	664-667	des	_	_
+6-5	668-678	Bullettino	_	_
+6-6	679-681	in	_	_
+6-7	682-685	spe	_	_
+6-8	686-687	-	_	_
+6-9	688-696	facciamo	_	_
+6-10	697-701	pure	_	_
+6-11	702-703	!	_	_
+
+#Text=Zuletzt wird es denen , die uns fressen wollen , gehen wie den beiden Löwen , die sich selbst auffraßen , daß nur noch die beiden Schwänze übrig blieben .
+7-1	704-711	Zuletzt	_	_
+7-2	712-716	wird	_	_
+7-3	717-719	es	_	_
+7-4	720-725	denen	_	_
+7-5	726-727	,	_	_
+7-6	728-731	die	_	_
+7-7	732-735	uns	_	_
+7-8	736-743	fressen	_	_
+7-9	744-750	wollen	_	_
+7-10	751-752	,	_	_
+7-11	753-758	gehen	_	_
+7-12	759-762	wie	_	_
+7-13	763-766	den	_	_
+7-14	767-773	beiden	_	_
+7-15	774-779	Löwen	_	_
+7-16	780-781	,	_	_
+7-17	782-785	die	_	_
+7-18	786-790	sich	_	_
+7-19	791-797	selbst	_	_
+7-20	798-807	auffraßen	_	_
+7-21	808-809	,	_	_
+7-22	810-813	daß	_	_
+7-23	814-817	nur	_	_
+7-24	818-822	noch	_	_
+7-25	823-826	die	_	_
+7-26	827-833	beiden	_	_
+7-27	834-842	Schwänze	_	_
+7-28	843-848	übrig	_	_
+7-29	849-856	blieben	_	_
+7-30	857-858	.	_	_
+
+#Text=Daß Sie bei icı Gelegenheit den Palonbofilo vernahmen , Orvieto nicht zu umgehen , könnte fast wie eine Beleidigung scheinen .
+8-1	859-862	Daß	_	_
+8-2	863-866	Sie	_	_
+8-3	867-870	bei	_	_
+8-4	871-874	icı	_	_
+8-5	875-886	Gelegenheit	_	_
+8-6	887-890	den	_	_
+8-7	891-902	Palonbofilo	_	_
+8-8	903-912	vernahmen	_	_
+8-9	913-914	,	_	_
+8-10	915-922	Orvieto	*	PLACEmentioned
+8-11	923-928	nicht	_	_
+8-12	929-931	zu	_	_
+8-13	932-939	umgehen	_	_
+8-14	940-941	,	_	_
+8-15	942-948	könnte	_	_
+8-16	949-953	fast	_	_
+8-17	954-957	wie	_	_
+8-18	958-962	eine	_	_
+8-19	963-974	Beleidigung	_	_
+8-20	975-983	scheinen	_	_
+8-21	984-985	.	_	_
+
+#Text=Aber allerdings wollen wir uns tüchtig ins Zeug legen .
+9-1	986-990	Aber	_	_
+9-2	991-1001	allerdings	_	_
+9-3	1002-1008	wollen	_	_
+9-4	1009-1012	wir	_	_
+9-5	1013-1016	uns	_	_
+9-6	1017-1024	tüchtig	_	_
+9-7	1025-1028	ins	_	_
+9-8	1029-1033	Zeug	_	_
+9-9	1034-1039	legen	_	_
+9-10	1040-1041	.	_	_
+
+#Text=Gubbio gebe ich wahrscheinlich auf , da , wenigstens nach Conestabile 's Angabe , dort nichts zu holen ist : also lieber die Hauptorte wie Chiusi , Orvieto , mehr berücksichtigt \; und wie möglich auch Orbeteillo erreicht .
+10-1	1042-1048	Gubbio	*	PLACEmentioned
+10-2	1049-1053	gebe	_	_
+10-3	1054-1057	ich	_	_
+10-4	1058-1072	wahrscheinlich	_	_
+10-5	1073-1076	auf	_	_
+10-6	1077-1078	,	_	_
+10-7	1079-1081	da	_	_
+10-8	1082-1083	,	_	_
+10-9	1084-1094	wenigstens	_	_
+10-10	1095-1099	nach	_	_
+10-11	1100-1111	Conestabile	*	PERmentioned
+10-12	1112-1114	's	_	_
+10-13	1115-1121	Angabe	_	_
+10-14	1122-1123	,	_	_
+10-15	1124-1128	dort	_	_
+10-16	1129-1135	nichts	_	_
+10-17	1136-1138	zu	_	_
+10-18	1139-1144	holen	_	_
+10-19	1145-1148	ist	_	_
+10-20	1149-1150	:	_	_
+10-21	1151-1155	also	_	_
+10-22	1156-1162	lieber	_	_
+10-23	1163-1166	die	_	_
+10-24	1167-1176	Hauptorte	_	_
+10-25	1177-1180	wie	_	_
+10-26	1181-1187	Chiusi	*	PLACEmentioned
+10-27	1188-1189	,	_	_
+10-28	1190-1197	Orvieto	*	PLACEmentioned
+10-29	1198-1199	,	_	_
+10-30	1200-1204	mehr	_	_
+10-31	1205-1219	berücksichtigt	_	_
+10-32	1220-1221	\;	_	_
+10-33	1222-1225	und	_	_
+10-34	1226-1229	wie	_	_
+10-35	1230-1237	möglich	_	_
+10-36	1238-1242	auch	_	_
+10-37	1243-1253	Orbeteillo	*	PLACEmentioned
+10-38	1254-1262	erreicht	_	_
+10-39	1263-1264	.	_	_
+
+#Text=Auch wird wohl eine Revision der vulcentischen
+11-1	1265-1269	Auch	_	_
+11-2	1270-1274	wird	_	_
+11-3	1275-1279	wohl	_	_
+11-4	1280-1284	eine	_	_
+11-5	1285-1293	Revision	_	_
+11-6	1294-1297	der	_	_
+11-7	1298-1311	vulcentischen	*	PLACEmentioned

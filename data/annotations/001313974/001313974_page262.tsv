@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Siena , 4. September 1875 H g . 6/9 75 ne ce T. Siena , Villa Poggiarello- Bergagli 4 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-22	Siena	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	4.	*[1]	DATEletter[1]
+1-7	28-37	September	*[1]	DATEletter[1]
+1-8	38-42	1875	*[1]	DATEletter[1]
+1-9	43-44	H	_	_
+1-10	45-46	g	_	_
+1-11	47-48	.	_	_
+1-12	49-52	6/9	*[2]	DATErecieved[2]
+1-13	53-55	75	*[2]	DATErecieved[2]
+1-14	56-58	ne	_	_
+1-15	59-61	ce	_	_
+1-16	62-64	T.	_	_
+1-17	65-70	Siena	*	PLACEfrom
+1-18	71-72	,	_	_
+1-19	73-78	Villa	*[3]	PLACEmentioned[3]
+1-20	79-91	Poggiarello-	*[3]	PLACEmentioned[3]
+1-21	92-100	Bergagli	*[3]	PLACEmentioned[3]
+1-22	101-102	4	_	_
+1-23	103-104	.	*[4]	DATEletter[4]
+
+#Text=Sept .
+2-1	105-109	Sept	*[4]	DATEletter[4]
+2-2	110-111	.	*[4]	DATEletter[4]
+
+#Text=1875 Lieber Herr Professor Herzlichen Dank für Ihren freundlichen Brief vom 27 .
+3-1	112-116	1875	*[4]	DATEletter[4]
+3-2	117-123	Lieber	_	_
+3-3	124-128	Herr	_	_
+3-4	129-138	Professor	_	_
+3-5	139-149	Herzlichen	_	_
+3-6	150-154	Dank	_	_
+3-7	155-158	für	_	_
+3-8	159-164	Ihren	_	_
+3-9	165-177	freundlichen	_	_
+3-10	178-183	Brief	_	_
+3-11	184-187	vom	_	_
+3-12	188-190	27	*[5]	DATEmentioned[5]
+3-13	191-192	.	*[5]	DATEmentioned[5]
+
+#Text=August , den ich mit wenigen Zeilen erwiedere , da auch ich Ihnen nicht viel Neues und Wissenswürdiges mittheilen kann .
+4-1	193-199	August	*[5]	DATEmentioned[5]
+4-2	200-201	,	_	_
+4-3	202-205	den	_	_
+4-4	206-209	ich	_	_
+4-5	210-213	mit	_	_
+4-6	214-221	wenigen	_	_
+4-7	222-228	Zeilen	_	_
+4-8	229-238	erwiedere	_	_
+4-9	239-240	,	_	_
+4-10	241-243	da	_	_
+4-11	244-248	auch	_	_
+4-12	249-252	ich	_	_
+4-13	253-258	Ihnen	_	_
+4-14	259-264	nicht	_	_
+4-15	265-269	viel	_	_
+4-16	270-275	Neues	_	_
+4-17	276-279	und	_	_
+4-18	280-295	Wissenswürdiges	_	_
+4-19	296-306	mittheilen	_	_
+4-20	307-311	kann	_	_
+4-21	312-313	.	_	_
+
+#Text=Schade wirklich , daß Sie nicht durch ” iena reisten !
+5-1	314-320	Schade	_	_
+5-2	321-329	wirklich	_	_
+5-3	330-331	,	_	_
+5-4	332-335	daß	_	_
+5-5	336-339	Sie	_	_
+5-6	340-345	nicht	_	_
+5-7	346-351	durch	_	_
+5-8	352-353	”	_	_
+5-9	354-358	iena	*	PLACEmentioned
+5-10	359-366	reisten	_	_
+5-11	367-368	!	_	_
+
+#Text=Ich versichere Ihnen , daß die hiesige Temperatur sich von der in Oberbozen herrschenden höchstens ganz unmerklich unterscheiden kann .
+6-1	369-372	Ich	_	_
+6-2	373-383	versichere	_	_
+6-3	384-389	Ihnen	_	_
+6-4	390-391	,	_	_
+6-5	392-395	daß	_	_
+6-6	396-399	die	_	_
+6-7	400-407	hiesige	_	_
+6-8	408-418	Temperatur	_	_
+6-9	419-423	sich	_	_
+6-10	424-427	von	_	_
+6-11	428-431	der	_	_
+6-12	432-434	in	_	_
+6-13	435-444	Oberbozen	*	PLACEmentioned
+6-14	445-457	herrschenden	_	_
+6-15	458-467	höchstens	_	_
+6-16	468-472	ganz	_	_
+6-17	473-483	unmerklich	_	_
+6-18	484-497	unterscheiden	_	_
+6-19	498-502	kann	_	_
+6-20	503-504	.	_	_
+
+#Text=Wir haben jetzt Vormittags 6 Uhr nur au R . De Sanctis kann in der That nicht vor Ende September abreisen , da Terresi ( Cetona ) erst gegen den 10 .
+7-1	505-508	Wir	_	_
+7-2	509-514	haben	_	_
+7-3	515-520	jetzt	_	_
+7-4	521-531	Vormittags	_	_
+7-5	532-533	6	_	_
+7-6	534-537	Uhr	_	_
+7-7	538-541	nur	_	_
+7-8	542-544	au	_	_
+7-9	545-546	R	_	_
+7-10	547-548	.	_	_
+7-11	549-551	De	*[6]	PERmentioned[6]
+7-12	552-559	Sanctis	*[6]	PERmentioned[6]
+7-13	560-564	kann	_	_
+7-14	565-567	in	_	_
+7-15	568-571	der	_	_
+7-16	572-576	That	_	_
+7-17	577-582	nicht	_	_
+7-18	583-586	vor	_	_
+7-19	587-591	Ende	_	_
+7-20	592-601	September	*	DATEmentioned
+7-21	602-610	abreisen	_	_
+7-22	611-612	,	_	_
+7-23	613-615	da	_	_
+7-24	616-623	Terresi	*	PERmentioned
+7-25	624-625	(	_	_
+7-26	626-632	Cetona	*	PLACEmentioned
+7-27	633-634	)	_	_
+7-28	635-639	erst	_	_
+7-29	640-645	gegen	_	_
+7-30	646-649	den	_	_
+7-31	650-652	10	*[7]	DATEmentioned[7]
+7-32	653-654	.	*[7]	DATEmentioned[7]
+
+#Text=October aus Florenz zurückkehrt und seine Sammlung bis dahin unzugänglich ist .
+8-1	655-662	October	*[7]	DATEmentioned[7]
+8-2	663-666	aus	_	_
+8-3	667-674	Florenz	*	PLACEmentioned
+8-4	675-686	zurückkehrt	_	_
+8-5	687-690	und	_	_
+8-6	691-696	seine	_	_
+8-7	697-705	Sammlung	_	_
+8-8	706-709	bis	_	_
+8-9	710-715	dahin	_	_
+8-10	716-728	unzugänglich	_	_
+8-11	729-732	ist	_	_
+8-12	733-734	.	_	_
+
+#Text=Daß Dumont nach Athen geht , thut mir leid sowohl unseretwegen , da es sich ja recht angenehm mit ihm verkehrte , als auch wegen unseres athenischen Instituts , welches , wenigstens was die Pflege der antichita figurata betrifft , in ihm einen sehr gefährlichen Rivalen erhält .
+9-1	735-738	Daß	_	_
+9-2	739-745	Dumont	*	PERmentioned
+9-3	746-750	nach	_	_
+9-4	751-756	Athen	*	PLACEmentioned
+9-5	757-761	geht	_	_
+9-6	762-763	,	_	_
+9-7	764-768	thut	_	_
+9-8	769-772	mir	_	_
+9-9	773-777	leid	_	_
+9-10	778-784	sowohl	_	_
+9-11	785-797	unseretwegen	_	_
+9-12	798-799	,	_	_
+9-13	800-802	da	_	_
+9-14	803-805	es	_	_
+9-15	806-810	sich	_	_
+9-16	811-813	ja	_	_
+9-17	814-819	recht	_	_
+9-18	820-828	angenehm	_	_
+9-19	829-832	mit	_	_
+9-20	833-836	ihm	_	_
+9-21	837-846	verkehrte	_	_
+9-22	847-848	,	_	_
+9-23	849-852	als	_	_
+9-24	853-857	auch	_	_
+9-25	858-863	wegen	_	_
+9-26	864-871	unseres	_	_
+9-27	872-883	athenischen	*[8]	ORGmentioned[8]
+9-28	884-893	Instituts	*[8]	ORGmentioned[8]
+9-29	894-895	,	_	_
+9-30	896-903	welches	_	_
+9-31	904-905	,	_	_
+9-32	906-916	wenigstens	_	_
+9-33	917-920	was	_	_
+9-34	921-924	die	_	_
+9-35	925-931	Pflege	_	_
+9-36	932-935	der	_	_
+9-37	936-945	antichita	_	_
+9-38	946-954	figurata	_	_
+9-39	955-963	betrifft	_	_
+9-40	964-965	,	_	_
+9-41	966-968	in	_	_
+9-42	969-972	ihm	_	_
+9-43	973-978	einen	_	_
+9-44	979-983	sehr	_	_
+9-45	984-996	gefährlichen	_	_
+9-46	997-1004	Rivalen	_	_
+9-47	1005-1011	erhält	_	_
+9-48	1012-1013	.	_	_
+
+#Text=Einer der Dumontschen Zöglinge , den ich in Siena sah , sagte mir , man sei in Paris in großer Verlegenheit , wie die
+10-1	1014-1019	Einer	_	_
+10-2	1020-1023	der	_	_
+10-3	1024-1035	Dumontschen	_	_
+10-4	1036-1044	Zöglinge	_	_
+10-5	1045-1046	,	_	_
+10-6	1047-1050	den	_	_
+10-7	1051-1054	ich	_	_
+10-8	1055-1057	in	_	_
+10-9	1058-1063	Siena	*	PLACEmentioned
+10-10	1064-1067	sah	_	_
+10-11	1068-1069	,	_	_
+10-12	1070-1075	sagte	_	_
+10-13	1076-1079	mir	_	_
+10-14	1080-1081	,	_	_
+10-15	1082-1085	man	_	_
+10-16	1086-1089	sei	_	_
+10-17	1090-1092	in	_	_
+10-18	1093-1098	Paris	*	PLACEmentioned
+10-19	1099-1101	in	_	_
+10-20	1102-1108	großer	_	_
+10-21	1109-1121	Verlegenheit	_	_
+10-22	1122-1123	,	_	_
+10-23	1124-1127	wie	_	_
+10-24	1128-1131	die	_	_

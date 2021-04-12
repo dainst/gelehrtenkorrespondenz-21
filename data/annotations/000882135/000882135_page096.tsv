@@ -1,0 +1,345 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=603 Braun an Gerhard Rom , 27 .
+1-1	0-3	603	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	27	*[4]	DATEletter[4]
+1-8	30-31	.	*[4]	DATEletter[4]
+
+#Text=August 1838 - u — ist sie nicht und abhanden gekommen kann sie auch nicht sein .
+2-1	32-38	August	*[4]	DATEletter[4]
+2-2	39-43	1838	*[4]	DATEletter[4]
+2-3	44-45	-	_	_
+2-4	46-47	u	_	_
+2-5	48-49	—	_	_
+2-6	50-53	ist	_	_
+2-7	54-57	sie	_	_
+2-8	58-63	nicht	_	_
+2-9	64-67	und	_	_
+2-10	68-76	abhanden	_	_
+2-11	77-85	gekommen	_	_
+2-12	86-90	kann	_	_
+2-13	91-94	sie	_	_
+2-14	95-99	auch	_	_
+2-15	100-105	nicht	_	_
+2-16	106-110	sein	_	_
+2-17	111-112	.	_	_
+
+#Text=Irren Sie sich vielleicht in der Benennung ?
+3-1	113-118	Irren	_	_
+3-2	119-122	Sie	_	_
+3-3	123-127	sich	_	_
+3-4	128-138	vielleicht	_	_
+3-5	139-141	in	_	_
+3-6	142-145	der	_	_
+3-7	146-155	Benennung	_	_
+3-8	156-157	?	_	_
+
+#Text=- Nach dem Spiegelfragment habe ich vergebens überall gesucht .
+4-1	158-159	-	_	_
+4-2	160-164	Nach	_	_
+4-3	165-168	dem	_	_
+4-4	169-184	Spiegelfragment	*	OBJ
+4-5	185-189	habe	_	_
+4-6	190-193	ich	_	_
+4-7	194-203	vergebens	_	_
+4-8	204-211	überall	_	_
+4-9	212-219	gesucht	_	_
+4-10	220-221	.	_	_
+
+#Text=Apolloni behauptet es abgegeben zu haben .
+5-1	222-230	Apolloni	*	PERmentioned
+5-2	231-240	behauptet	_	_
+5-3	241-243	es	_	_
+5-4	244-253	abgegeben	_	_
+5-5	254-256	zu	_	_
+5-6	257-262	haben	_	_
+5-7	263-264	.	_	_
+
+#Text=Irgendwo müßte es also in Ihren Kistensendungen stecken .
+6-1	265-273	Irgendwo	_	_
+6-2	274-279	müßte	_	_
+6-3	280-282	es	_	_
+6-4	283-287	also	_	_
+6-5	288-290	in	_	_
+6-6	291-296	Ihren	_	_
+6-7	297-312	Kistensendungen	_	_
+6-8	313-320	stecken	_	_
+6-9	321-322	.	_	_
+
+#Text=Von dem Goldplättchen weiß ich gar nichts , werde aber dennoch alles durchsuchen .
+7-1	323-326	Von	_	_
+7-2	327-330	dem	_	_
+7-3	331-344	Goldplättchen	*	OBJ
+7-4	345-349	weiß	_	_
+7-5	350-353	ich	_	_
+7-6	354-357	gar	_	_
+7-7	358-364	nichts	_	_
+7-8	365-366	,	_	_
+7-9	367-372	werde	_	_
+7-10	373-377	aber	_	_
+7-11	378-385	dennoch	_	_
+7-12	386-391	alles	_	_
+7-13	392-403	durchsuchen	_	_
+7-14	404-405	.	_	_
+
+#Text=- Die Kyknoszeichnung war nach den mir von Ihnen bezeichneten Umständen gar nicht wieder in meinen Händen und daher auch nicht in mein Gedächtniß zurückgekehrt .
+8-1	406-407	-	_	_
+8-2	408-411	Die	_	_
+8-3	412-427	Kyknoszeichnung	_	_
+8-4	428-431	war	_	_
+8-5	432-436	nach	_	_
+8-6	437-440	den	_	_
+8-7	441-444	mir	_	_
+8-8	445-448	von	_	_
+8-9	449-454	Ihnen	_	_
+8-10	455-467	bezeichneten	_	_
+8-11	468-477	Umständen	_	_
+8-12	478-481	gar	_	_
+8-13	482-487	nicht	_	_
+8-14	488-494	wieder	_	_
+8-15	495-497	in	_	_
+8-16	498-504	meinen	_	_
+8-17	505-511	Händen	_	_
+8-18	512-515	und	_	_
+8-19	516-521	daher	_	_
+8-20	522-526	auch	_	_
+8-21	527-532	nicht	_	_
+8-22	533-535	in	_	_
+8-23	536-540	mein	_	_
+8-24	541-551	Gedächtniß	_	_
+8-25	552-565	zurückgekehrt	_	_
+8-26	566-567	.	_	_
+
+#Text=Ich werde den Restaurator deshalb befragen und sie einziehen .
+9-1	568-571	Ich	_	_
+9-2	572-577	werde	_	_
+9-3	578-581	den	_	_
+9-4	582-593	Restaurator	_	_
+9-5	594-601	deshalb	_	_
+9-6	602-610	befragen	_	_
+9-7	611-614	und	_	_
+9-8	615-618	sie	_	_
+9-9	619-628	einziehen	_	_
+9-10	629-630	.	_	_
+
+#Text=- Die Minervengeburtszeichnung hat mir A. wiederholt versprochen .
+10-1	631-632	-	_	_
+10-2	633-636	Die	_	_
+10-3	637-661	Minervengeburtszeichnung	_	_
+10-4	662-665	hat	_	_
+10-5	666-669	mir	_	_
+10-6	670-672	A.	_	_
+10-7	673-683	wiederholt	_	_
+10-8	684-695	versprochen	_	_
+10-9	696-697	.	_	_
+
+#Text=Er will immer vorher etwas für Basseggio beenden , weil dieser ihn sonst verschreit .
+11-1	698-700	Er	_	_
+11-2	701-705	will	_	_
+11-3	706-711	immer	_	_
+11-4	712-718	vorher	_	_
+11-5	719-724	etwas	_	_
+11-6	725-728	für	_	_
+11-7	729-738	Basseggio	*	PERmentioned
+11-8	739-746	beenden	_	_
+11-9	747-748	,	_	_
+11-10	749-753	weil	_	_
+11-11	754-760	dieser	_	_
+11-12	761-764	ihn	_	_
+11-13	765-770	sonst	_	_
+11-14	771-781	verschreit	_	_
+11-15	782-783	.	_	_
+
+#Text=Mit nächster Post hoffe ich sie Ihnen indeß zu senden .
+12-1	784-787	Mit	_	_
+12-2	788-796	nächster	_	_
+12-3	797-801	Post	_	_
+12-4	802-807	hoffe	_	_
+12-5	808-811	ich	_	_
+12-6	812-815	sie	_	_
+12-7	816-821	Ihnen	_	_
+12-8	822-827	indeß	_	_
+12-9	828-830	zu	_	_
+12-10	831-837	senden	_	_
+12-11	838-839	.	_	_
+
+#Text=- Vor allem mache ich Sie darauf aufmerksam , daß die von Ihrem Lithographen gewählten Tinten durchaus den Character der Vasen nicht wiedergeben .
+13-1	840-841	-	_	_
+13-2	842-845	Vor	_	_
+13-3	846-851	allem	_	_
+13-4	852-857	mache	_	_
+13-5	858-861	ich	_	_
+13-6	862-865	Sie	_	_
+13-7	866-872	darauf	_	_
+13-8	873-883	aufmerksam	_	_
+13-9	884-885	,	_	_
+13-10	886-889	daß	_	_
+13-11	890-893	die	_	_
+13-12	894-897	von	_	_
+13-13	898-903	Ihrem	_	_
+13-14	904-916	Lithographen	_	_
+13-15	917-926	gewählten	_	_
+13-16	927-933	Tinten	_	_
+13-17	934-942	durchaus	_	_
+13-18	943-946	den	_	_
+13-19	947-956	Character	_	_
+13-20	957-960	der	_	_
+13-21	961-966	Vasen	*	OBJ
+13-22	967-972	nicht	_	_
+13-23	973-984	wiedergeben	_	_
+13-24	985-986	.	_	_
+
+#Text=Das giftige Grüne welches er an die Stelle eines mehr oder weniger reinen Ziegelroth gesetzt hat , wird gerechten Tadel erregen .
+14-1	987-990	Das	_	_
+14-2	991-998	giftige	_	_
+14-3	999-1004	Grüne	_	_
+14-4	1005-1012	welches	_	_
+14-5	1013-1015	er	_	_
+14-6	1016-1018	an	_	_
+14-7	1019-1022	die	_	_
+14-8	1023-1029	Stelle	_	_
+14-9	1030-1035	eines	_	_
+14-10	1036-1040	mehr	_	_
+14-11	1041-1045	oder	_	_
+14-12	1046-1053	weniger	_	_
+14-13	1054-1060	reinen	_	_
+14-14	1061-1071	Ziegelroth	_	_
+14-15	1072-1079	gesetzt	_	_
+14-16	1080-1083	hat	_	_
+14-17	1084-1085	,	_	_
+14-18	1086-1090	wird	_	_
+14-19	1091-1100	gerechten	_	_
+14-20	1101-1106	Tadel	_	_
+14-21	1107-1114	erregen	_	_
+14-22	1115-1116	.	_	_
+
+#Text=- Des Tages Wegen komme ich nicht nach Berlin .
+15-1	1117-1118	-	_	_
+15-2	1119-1122	Des	_	_
+15-3	1123-1128	Tages	_	_
+15-4	1129-1134	Wegen	_	_
+15-5	1135-1140	komme	_	_
+15-6	1141-1144	ich	_	_
+15-7	1145-1150	nicht	_	_
+15-8	1151-1155	nach	_	_
+15-9	1156-1162	Berlin	*	PLACEmentioned
+15-10	1163-1164	.	_	_
+
+#Text=Nehmen wir mit dem was hier giebt vorlieb !
+16-1	1165-1171	Nehmen	_	_
+16-2	1172-1175	wir	_	_
+16-3	1176-1179	mit	_	_
+16-4	1180-1183	dem	_	_
+16-5	1184-1187	was	_	_
+16-6	1188-1192	hier	_	_
+16-7	1193-1198	giebt	_	_
+16-8	1199-1206	vorlieb	_	_
+16-9	1207-1208	!	_	_
+
+#Text=- Vescovalis Pastenkameen hat bereits Basseggio angekauft , der auch mit Lancin in Unterhandlungen steht .
+17-1	1209-1210	-	_	_
+17-2	1211-1221	Vescovalis	*	PERmentioned
+17-3	1222-1234	Pastenkameen	*	OBJ
+17-4	1235-1238	hat	_	_
+17-5	1239-1246	bereits	_	_
+17-6	1247-1256	Basseggio	*	PERmentioned
+17-7	1257-1266	angekauft	_	_
+17-8	1267-1268	,	_	_
+17-9	1269-1272	der	_	_
+17-10	1273-1277	auch	_	_
+17-11	1278-1281	mit	_	_
+17-12	1282-1288	Lancin	*	PERmentioned
+17-13	1289-1291	in	_	_
+17-14	1292-1307	Unterhandlungen	_	_
+17-15	1308-1313	steht	_	_
+17-16	1314-1315	.	_	_
+
+#Text=Für 20 auserlesene Vasen hat er 4000 Scudi geboten , für die ganze Sammlung 8000 Scudi .
+18-1	1316-1319	Für	_	_
+18-2	1320-1322	20	_	_
+18-3	1323-1334	auserlesene	_	_
+18-4	1335-1340	Vasen	_	_
+18-5	1341-1344	hat	_	_
+18-6	1345-1347	er	_	_
+18-7	1348-1352	4000	_	_
+18-8	1353-1358	Scudi	_	_
+18-9	1359-1366	geboten	_	_
+18-10	1367-1368	,	_	_
+18-11	1369-1372	für	_	_
+18-12	1373-1376	die	_	_
+18-13	1377-1382	ganze	_	_
+18-14	1383-1391	Sammlung	_	_
+18-15	1392-1396	8000	_	_
+18-16	1397-1402	Scudi	_	_
+18-17	1403-1404	.	_	_
+
+#Text=- Brönsstedt's Bogen in Si s besorgt das Institut .
+19-1	1405-1406	-	_	_
+19-2	1407-1419	Brönsstedt's	*	PERmentioned
+19-3	1420-1425	Bogen	_	_
+19-4	1426-1428	in	_	_
+19-5	1429-1431	Si	_	_
+19-6	1432-1433	s	_	_
+19-7	1434-1441	besorgt	_	_
+19-8	1442-1445	das	_	_
+19-9	1446-1454	Institut	*	ORGmentioned
+19-10	1455-1456	.	_	_
+
+#Text=- Reden Sie von Strebers oder Starks mythologischen Forschungen vom philosophisch-philologischen Standpunkt ?
+20-1	1457-1458	-	_	_
+20-2	1459-1464	Reden	_	_
+20-3	1465-1468	Sie	_	_
+20-4	1469-1472	von	_	_
+20-5	1473-1481	Strebers	*	PERmentioned
+20-6	1482-1486	oder	_	_
+20-7	1487-1493	Starks	*	PERmentioned
+20-8	1494-1508	mythologischen	_	_
+20-9	1509-1520	Forschungen	_	_
+20-10	1521-1524	vom	_	_
+20-11	1525-1553	philosophisch-philologischen	_	_
+20-12	1554-1564	Standpunkt	_	_
+20-13	1565-1566	?	_	_
+
+#Text=- Wann wird denn Welcker einmal damit herauskommen ?
+21-1	1567-1568	-	_	_
+21-2	1569-1573	Wann	_	_
+21-3	1574-1578	wird	_	_
+21-4	1579-1583	denn	_	_
+21-5	1584-1591	Welcker	*	PERmentioned
+21-6	1592-1598	einmal	_	_
+21-7	1599-1604	damit	_	_
+21-8	1605-1617	herauskommen	_	_
+21-9	1618-1619	?	_	_
+
+#Text=\_ Lepsius ist nun also auch nach London abgereist .
+22-1	1620-1621	\_	_	_
+22-2	1622-1629	Lepsius	*	PERmentioned
+22-3	1630-1633	ist	_	_
+22-4	1634-1637	nun	_	_
+22-5	1638-1642	also	_	_
+22-6	1643-1647	auch	_	_
+22-7	1648-1652	nach	_	_
+22-8	1653-1659	London	*	PLACEmentioned
+22-9	1660-1669	abgereist	_	_
+22-10	1670-1671	.	_	_
+
+#Text=Dieß Jahr ist kein Reisejahr .
+23-1	1672-1676	Dieß	_	_
+23-2	1677-1681	Jahr	_	_
+23-3	1682-1685	ist	_	_
+23-4	1686-1690	kein	_	_
+23-5	1691-1700	Reisejahr	_	_
+23-6	1701-1702	.	_	_
+
+#Text=Nächsten Sommer bringe ich
+24-1	1703-1711	Nächsten	_	_
+24-2	1712-1718	Sommer	_	_
+24-3	1719-1725	bringe	_	_
+24-4	1726-1729	ich	_	_

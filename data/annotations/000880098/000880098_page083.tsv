@@ -1,0 +1,305 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=687 Braun an Gerhard Rom , 2.8 .
+1-1	0-3	687	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	2.8	*[1]	DATEletter[1]
+1-8	31-32	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1834 -5piacgue gentilmente incaricarsi .
+2-1	33-40	Oktober	*[1]	DATEletter[1]
+2-2	41-45	1834	*[1]	DATEletter[1]
+2-3	46-55	-5piacgue	_	_
+2-4	56-67	gentilmente	_	_
+2-5	68-79	incaricarsi	_	_
+2-6	80-81	.	_	_
+
+#Text=- Sento quanto ella ha fatto col Conte di Clarac .
+3-1	82-83	-	_	_
+3-2	84-89	Sento	_	_
+3-3	90-96	quanto	_	_
+3-4	97-101	ella	_	_
+3-5	102-104	ha	_	_
+3-6	105-110	fatto	_	_
+3-7	111-114	col	_	_
+3-8	115-120	Conte	*[2]	PERmentioned[2]
+3-9	121-123	di	*[2]	PERmentioned[2]
+3-10	124-130	Clarac	*[2]	PERmentioned[2]
+3-11	131-132	.	_	_
+
+#Text=Direttore delle antichitä del Museo , e spero che per aber ella scelta una si buona strada a diretta , il museo non vorrä negare l'acquisto di quella bella collezione d'ori , che il Sig .
+4-1	133-142	Direttore	_	_
+4-2	143-148	delle	_	_
+4-3	149-158	antichitä	_	_
+4-4	159-162	del	_	_
+4-5	163-168	Museo	*	ORGmentioned
+4-6	169-170	,	_	_
+4-7	171-172	e	_	_
+4-8	173-178	spero	_	_
+4-9	179-182	che	_	_
+4-10	183-186	per	_	_
+4-11	187-191	aber	_	_
+4-12	192-196	ella	_	_
+4-13	197-203	scelta	_	_
+4-14	204-207	una	_	_
+4-15	208-210	si	_	_
+4-16	211-216	buona	_	_
+4-17	217-223	strada	_	_
+4-18	224-225	a	_	_
+4-19	226-233	diretta	_	_
+4-20	234-235	,	_	_
+4-21	236-238	il	_	_
+4-22	239-244	museo	*	ORGmentioned
+4-23	245-248	non	_	_
+4-24	249-254	vorrä	_	_
+4-25	255-261	negare	_	_
+4-26	262-272	l'acquisto	_	_
+4-27	273-275	di	_	_
+4-28	276-282	quella	_	_
+4-29	283-288	bella	_	_
+4-30	289-299	collezione	_	_
+4-31	300-305	d'ori	_	_
+4-32	306-307	,	_	_
+4-33	308-311	che	_	_
+4-34	312-314	il	_	_
+4-35	315-318	Sig	*[3]	PERmentioned[3]
+4-36	319-320	.	*[3]	PERmentioned[3]
+
+#Text=Conte stesso proprooä per ornamento del medesimo .
+5-1	321-326	Conte	*[3]	PERmentioned[3]
+5-2	327-333	stesso	_	_
+5-3	334-342	proprooä	_	_
+5-4	343-346	per	_	_
+5-5	347-356	ornamento	_	_
+5-6	357-360	del	_	_
+5-7	361-369	medesimo	_	_
+5-8	370-371	.	_	_
+
+#Text=- Ella insomma ha fatto tutto bene , e ve la ringrazio .
+6-1	372-373	-	_	_
+6-2	374-378	Ella	_	_
+6-3	379-386	insomma	_	_
+6-4	387-389	ha	_	_
+6-5	390-395	fatto	_	_
+6-6	396-401	tutto	_	_
+6-7	402-406	bene	_	_
+6-8	407-408	,	_	_
+6-9	409-410	e	_	_
+6-10	411-413	ve	_	_
+6-11	414-416	la	_	_
+6-12	417-426	ringrazio	_	_
+6-13	427-428	.	_	_
+
+#Text=Solo raccomando a lei , che mentre si trattiene ancorea costä non lasci di affrettare il Conte ad iniziare le trattative , le quali nel caso che non sortissero infine l'effetto desiderato , bisognerebbe pensare al modo di far tornare in mie mani la raccolta suddetta per quella medesiama strada e per quel mezzo sicuro con cui fa da lei condotta costä , dico per quello dell'ambasciata , che vi lasciasse sopra il suo timbro .
+7-1	429-433	Solo	_	_
+7-2	434-444	raccomando	_	_
+7-3	445-446	a	_	_
+7-4	447-450	lei	_	_
+7-5	451-452	,	_	_
+7-6	453-456	che	_	_
+7-7	457-463	mentre	_	_
+7-8	464-466	si	_	_
+7-9	467-476	trattiene	_	_
+7-10	477-484	ancorea	_	_
+7-11	485-490	costä	_	_
+7-12	491-494	non	_	_
+7-13	495-500	lasci	_	_
+7-14	501-503	di	_	_
+7-15	504-514	affrettare	_	_
+7-16	515-517	il	_	_
+7-17	518-523	Conte	*	PERmentioned
+7-18	524-526	ad	_	_
+7-19	527-535	iniziare	_	_
+7-20	536-538	le	_	_
+7-21	539-549	trattative	_	_
+7-22	550-551	,	_	_
+7-23	552-554	le	_	_
+7-24	555-560	quali	_	_
+7-25	561-564	nel	_	_
+7-26	565-569	caso	_	_
+7-27	570-573	che	_	_
+7-28	574-577	non	_	_
+7-29	578-588	sortissero	_	_
+7-30	589-595	infine	_	_
+7-31	596-605	l'effetto	_	_
+7-32	606-616	desiderato	_	_
+7-33	617-618	,	_	_
+7-34	619-631	bisognerebbe	_	_
+7-35	632-639	pensare	_	_
+7-36	640-642	al	_	_
+7-37	643-647	modo	_	_
+7-38	648-650	di	_	_
+7-39	651-654	far	_	_
+7-40	655-662	tornare	_	_
+7-41	663-665	in	_	_
+7-42	666-669	mie	_	_
+7-43	670-674	mani	_	_
+7-44	675-677	la	_	_
+7-45	678-686	raccolta	_	_
+7-46	687-695	suddetta	_	_
+7-47	696-699	per	_	_
+7-48	700-706	quella	_	_
+7-49	707-716	medesiama	_	_
+7-50	717-723	strada	_	_
+7-51	724-725	e	_	_
+7-52	726-729	per	_	_
+7-53	730-734	quel	_	_
+7-54	735-740	mezzo	_	_
+7-55	741-747	sicuro	_	_
+7-56	748-751	con	_	_
+7-57	752-755	cui	_	_
+7-58	756-758	fa	_	_
+7-59	759-761	da	_	_
+7-60	762-765	lei	_	_
+7-61	766-774	condotta	_	_
+7-62	775-780	costä	_	_
+7-63	781-782	,	_	_
+7-64	783-787	dico	_	_
+7-65	788-791	per	_	_
+7-66	792-798	quello	_	_
+7-67	799-814	dell'ambasciata	_	_
+7-68	815-816	,	_	_
+7-69	817-820	che	_	_
+7-70	821-823	vi	_	_
+7-71	824-833	lasciasse	_	_
+7-72	834-839	sopra	_	_
+7-73	840-842	il	_	_
+7-74	843-846	suo	_	_
+7-75	847-853	timbro	_	_
+7-76	854-855	.	_	_
+
+#Text=-— Ella prima di partire si compiaccia di prendere le cautele tutte in proposito , che sarebbero di mestieri per una cosa qualungque sua propria , nel caso che la raccolta non venisse acquistata dal museo .
+8-1	856-858	-—	_	_
+8-2	859-863	Ella	_	_
+8-3	864-869	prima	_	_
+8-4	870-872	di	_	_
+8-5	873-880	partire	_	_
+8-6	881-883	si	_	_
+8-7	884-894	compiaccia	_	_
+8-8	895-897	di	_	_
+8-9	898-906	prendere	_	_
+8-10	907-909	le	_	_
+8-11	910-917	cautele	_	_
+8-12	918-923	tutte	_	_
+8-13	924-926	in	_	_
+8-14	927-936	proposito	_	_
+8-15	937-938	,	_	_
+8-16	939-942	che	_	_
+8-17	943-952	sarebbero	_	_
+8-18	953-955	di	_	_
+8-19	956-964	mestieri	_	_
+8-20	965-968	per	_	_
+8-21	969-972	una	_	_
+8-22	973-977	cosa	_	_
+8-23	978-988	qualungque	_	_
+8-24	989-992	sua	_	_
+8-25	993-1000	propria	_	_
+8-26	1001-1002	,	_	_
+8-27	1003-1006	nel	_	_
+8-28	1007-1011	caso	_	_
+8-29	1012-1015	che	_	_
+8-30	1016-1018	la	_	_
+8-31	1019-1027	raccolta	_	_
+8-32	1028-1031	non	_	_
+8-33	1032-1039	venisse	_	_
+8-34	1040-1050	acquistata	_	_
+8-35	1051-1054	dal	_	_
+8-36	1055-1060	museo	*	ORGmentioned
+8-37	1061-1062	.	_	_
+
+#Text=Con Durand non vi € nulla da sperare , le ho giä esternato il suo .
+9-1	1063-1066	Con	_	_
+9-2	1067-1073	Durand	*	PERmentioned
+9-3	1074-1077	non	_	_
+9-4	1078-1080	vi	_	_
+9-5	1081-1082	€	_	_
+9-6	1083-1088	nulla	_	_
+9-7	1089-1091	da	_	_
+9-8	1092-1099	sperare	_	_
+9-9	1100-1101	,	_	_
+9-10	1102-1104	le	_	_
+9-11	1105-1107	ho	_	_
+9-12	1108-1111	giä	_	_
+9-13	1112-1121	esternato	_	_
+9-14	1122-1124	il	_	_
+9-15	1125-1128	suo	_	_
+9-16	1129-1130	.	_	_
+
+#Text=sentimento per una sola scelta .
+10-1	1131-1141	sentimento	_	_
+10-2	1142-1145	per	_	_
+10-3	1146-1149	una	_	_
+10-4	1150-1154	sola	_	_
+10-5	1155-1161	scelta	_	_
+10-6	1162-1163	.	_	_
+
+#Text=Partendo Ella di Parigi , raccomanderä al Conte di Clarac di scrivere direttamente a lei in Roma , o a me , ma per mezzo sempre del suo Instituto archeologico le notizie opportune nel caso di vendita e no ecc .
+11-1	1164-1172	Partendo	_	_
+11-2	1173-1177	Ella	_	_
+11-3	1178-1180	di	_	_
+11-4	1181-1187	Parigi	*	PLACEmentioned
+11-5	1188-1189	,	_	_
+11-6	1190-1202	raccomanderä	_	_
+11-7	1203-1205	al	_	_
+11-8	1206-1211	Conte	*[4]	PERmentioned[4]
+11-9	1212-1214	di	*[4]	PERmentioned[4]
+11-10	1215-1221	Clarac	*[4]	PERmentioned[4]
+11-11	1222-1224	di	_	_
+11-12	1225-1233	scrivere	_	_
+11-13	1234-1246	direttamente	_	_
+11-14	1247-1248	a	_	_
+11-15	1249-1252	lei	_	_
+11-16	1253-1255	in	_	_
+11-17	1256-1260	Roma	*	PLACEmentioned
+11-18	1261-1262	,	_	_
+11-19	1263-1264	o	_	_
+11-20	1265-1266	a	_	_
+11-21	1267-1269	me	_	_
+11-22	1270-1271	,	_	_
+11-23	1272-1274	ma	_	_
+11-24	1275-1278	per	_	_
+11-25	1279-1284	mezzo	_	_
+11-26	1285-1291	sempre	_	_
+11-27	1292-1295	del	_	_
+11-28	1296-1299	suo	_	_
+11-29	1300-1309	Instituto	*[5]	ORGmentioned[5]
+11-30	1310-1322	archeologico	*[5]	ORGmentioned[5]
+11-31	1323-1325	le	_	_
+11-32	1326-1333	notizie	_	_
+11-33	1334-1343	opportune	_	_
+11-34	1344-1347	nel	_	_
+11-35	1348-1352	caso	_	_
+11-36	1353-1355	di	_	_
+11-37	1356-1363	vendita	_	_
+11-38	1364-1365	e	_	_
+11-39	1366-1368	no	_	_
+11-40	1369-1372	ecc	_	_
+11-41	1373-1374	.	_	_
+
+#Text=dirigendo le sue lettere in die lei mancanza al Sig .
+12-1	1375-1384	dirigendo	_	_
+12-2	1385-1387	le	_	_
+12-3	1388-1391	sue	_	_
+12-4	1392-1399	lettere	_	_
+12-5	1400-1402	in	_	_
+12-6	1403-1406	die	_	_
+12-7	1407-1410	lei	_	_
+12-8	1411-1419	mancanza	_	_
+12-9	1420-1422	al	_	_
+12-10	1423-1426	Sig	_	_
+12-11	1427-1428	.	_	_
+
+#Text=Bramn medesimo .
+13-1	1429-1434	Bramn	*[6]	PERmentioned[6]
+13-2	1435-1443	medesimo	_	_
+13-3	1444-1445	.	_	_
+
+#Text=- Le
+14-1	1446-1447	-	_	_
+14-2	1448-1450	Le	_	_

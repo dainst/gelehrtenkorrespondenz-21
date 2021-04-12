@@ -1,0 +1,313 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=378 Braun an Gerhard Rom , 26. Mai 1838 - 3 - sleiche Linie darunter ziehen lassen .
+1-1	0-3	378	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	26.	*[4]	DATEletter[4]
+1-8	31-34	Mai	*[4]	DATEletter[4]
+1-9	35-39	1838	*[4]	DATEletter[4]
+1-10	40-41	-	_	_
+1-11	42-43	3	_	_
+1-12	44-45	-	_	_
+1-13	46-53	sleiche	_	_
+1-14	54-59	Linie	_	_
+1-15	60-68	darunter	_	_
+1-16	69-75	ziehen	_	_
+1-17	76-82	lassen	_	_
+1-18	83-84	.	_	_
+
+#Text=Rio NM \_ so ungefähr \; denn ähnlich ist 's im Original ausgefallen .
+2-1	85-88	Rio	_	_
+2-2	89-91	NM	_	_
+2-3	92-93	\_	_	_
+2-4	94-96	so	_	_
+2-5	97-105	ungefähr	_	_
+2-6	106-107	\;	_	_
+2-7	108-112	denn	_	_
+2-8	113-120	ähnlich	_	_
+2-9	121-124	ist	_	_
+2-10	125-127	's	_	_
+2-11	128-130	im	_	_
+2-12	131-139	Original	_	_
+2-13	140-151	ausgefallen	_	_
+2-14	152-153	.	_	_
+
+#Text=- Zu Ihrer Notiz : mit der letzten Kiste sind zwei Zeichnungen mit Minervengeburt abgegangen .
+3-1	154-155	-	_	_
+3-2	156-158	Zu	_	_
+3-3	159-164	Ihrer	_	_
+3-4	165-170	Notiz	_	_
+3-5	171-172	:	_	_
+3-6	173-176	mit	_	_
+3-7	177-180	der	_	_
+3-8	181-188	letzten	_	_
+3-9	189-194	Kiste	_	_
+3-10	195-199	sind	_	_
+3-11	200-204	zwei	_	_
+3-12	205-216	Zeichnungen	_	_
+3-13	217-220	mit	_	_
+3-14	221-235	Minervengeburt	*	OBJ
+3-15	236-246	abgegangen	_	_
+3-16	247-248	.	_	_
+
+#Text=-— Es wird beständig gezeichnet .
+4-1	249-251	-—	_	_
+4-2	252-254	Es	_	_
+4-3	255-259	wird	_	_
+4-4	260-269	beständig	_	_
+4-5	270-280	gezeichnet	_	_
+4-6	281-282	.	_	_
+
+#Text=Nur fehlt mir Apolloni .
+5-1	283-286	Nur	_	_
+5-2	287-292	fehlt	_	_
+5-3	293-296	mir	_	_
+5-4	297-305	Apolloni	*	PERmentioned
+5-5	306-307	.	_	_
+
+#Text=- An die Restauration werde ich denken und nächstens darüber schreiben .
+6-1	308-309	-	_	_
+6-2	310-312	An	_	_
+6-3	313-316	die	_	_
+6-4	317-329	Restauration	_	_
+6-5	330-335	werde	_	_
+6-6	336-339	ich	_	_
+6-7	340-346	denken	_	_
+6-8	347-350	und	_	_
+6-9	351-360	nächstens	_	_
+6-10	361-368	darüber	_	_
+6-11	369-378	schreiben	_	_
+6-12	379-380	.	_	_
+
+#Text=- En ler geben eine Tazza und sind beim Restaurator \; ebenso befindet sich das Oxy phon ( 15 Scudi taxirt ) noch bei mir .
+7-1	381-382	-	_	_
+7-2	383-385	En	_	_
+7-3	386-389	ler	_	_
+7-4	390-395	geben	_	_
+7-5	396-400	eine	_	_
+7-6	401-406	Tazza	*	OBJ
+7-7	407-410	und	_	_
+7-8	411-415	sind	_	_
+7-9	416-420	beim	_	_
+7-10	421-432	Restaurator	_	_
+7-11	433-434	\;	_	_
+7-12	435-441	ebenso	_	_
+7-13	442-450	befindet	_	_
+7-14	451-455	sich	_	_
+7-15	456-459	das	_	_
+7-16	460-463	Oxy	*[8]	OBJ[8]
+7-17	464-468	phon	*[8]	OBJ[8]
+7-18	469-470	(	_	_
+7-19	471-473	15	_	_
+7-20	474-479	Scudi	_	_
+7-21	480-486	taxirt	_	_
+7-22	487-488	)	_	_
+7-23	489-493	noch	_	_
+7-24	494-497	bei	_	_
+7-25	498-501	mir	_	_
+7-26	502-503	.	_	_
+
+#Text=- Wer soll das Annalenheft der französischen Section anzeigen ?
+8-1	504-505	-	_	_
+8-2	506-509	Wer	_	_
+8-3	510-514	soll	_	_
+8-4	515-518	das	_	_
+8-5	519-530	Annalenheft	_	_
+8-6	531-534	der	_	_
+8-7	535-548	französischen	*[9]	ORGmentioned[9]
+8-8	549-556	Section	*[9]	ORGmentioned[9]
+8-9	557-565	anzeigen	_	_
+8-10	566-567	?	_	_
+
+#Text=A chi basta l'anima ?
+9-1	568-569	A	_	_
+9-2	570-573	chi	_	_
+9-3	574-579	basta	_	_
+9-4	580-587	l'anima	_	_
+9-5	588-589	?	_	_
+
+#Text=- Vom Spiegel desG h Ss von Wimmer weiß ich nichts .
+10-1	590-591	-	_	_
+10-2	592-595	Vom	_	_
+10-3	596-603	Spiegel	*	OBJ
+10-4	604-608	desG	_	_
+10-5	609-610	h	_	_
+10-6	611-613	Ss	_	_
+10-7	614-617	von	_	_
+10-8	618-624	Wimmer	*	PERmentioned
+10-9	625-629	weiß	_	_
+10-10	630-633	ich	_	_
+10-11	634-640	nichts	_	_
+10-12	641-642	.	_	_
+
+#Text=Lassen Sie sich von Liphart , dessen Gemmen mit Bunsens Effecten abgehen sollten , 55 Scudi geben \; ich zahle sie an Vollard für Kellermann 's G ( Abeken ist unsere Rettung mit Liphart ) .
+11-1	643-649	Lassen	_	_
+11-2	650-653	Sie	_	_
+11-3	654-658	sich	_	_
+11-4	659-662	von	_	_
+11-5	663-670	Liphart	*	PERmentioned
+11-6	671-672	,	_	_
+11-7	673-679	dessen	_	_
+11-8	680-686	Gemmen	*	OBJ
+11-9	687-690	mit	_	_
+11-10	691-698	Bunsens	*	PERmentioned
+11-11	699-707	Effecten	_	_
+11-12	708-715	abgehen	_	_
+11-13	716-723	sollten	_	_
+11-14	724-725	,	_	_
+11-15	726-728	55	_	_
+11-16	729-734	Scudi	_	_
+11-17	735-740	geben	_	_
+11-18	741-742	\;	_	_
+11-19	743-746	ich	_	_
+11-20	747-752	zahle	_	_
+11-21	753-756	sie	_	_
+11-22	757-759	an	_	_
+11-23	760-767	Vollard	*	PERmentioned
+11-24	768-771	für	_	_
+11-25	772-782	Kellermann	*[10]	PERmentioned[10]
+11-26	783-785	's	*[10]	PERmentioned[10]
+11-27	786-787	G	_	_
+11-28	788-789	(	_	_
+11-29	790-796	Abeken	*	PERmentioned
+11-30	797-800	ist	_	_
+11-31	801-807	unsere	_	_
+11-32	808-815	Rettung	_	_
+11-33	816-819	mit	_	_
+11-34	820-827	Liphart	*	PERmentioned
+11-35	828-829	)	_	_
+11-36	830-831	.	_	_
+
+#Text=In der Ihnen mit meinem nächsten Schreiben zu specificierenden Kistensendung befindet sich das von Gerstäcker verlangte Exemplar von Caninas Architecturwerke , der von ihm gemachten Angabe zufolge Sezione 2° , Greca Archit .
+12-1	832-834	In	_	_
+12-2	835-838	der	_	_
+12-3	839-844	Ihnen	_	_
+12-4	845-848	mit	_	_
+12-5	849-855	meinem	_	_
+12-6	856-864	nächsten	_	_
+12-7	865-874	Schreiben	_	_
+12-8	875-877	zu	_	_
+12-9	878-894	specificierenden	_	_
+12-10	895-908	Kistensendung	_	_
+12-11	909-917	befindet	_	_
+12-12	918-922	sich	_	_
+12-13	923-926	das	_	_
+12-14	927-930	von	_	_
+12-15	931-941	Gerstäcker	*	ORGmentioned
+12-16	942-951	verlangte	_	_
+12-17	952-960	Exemplar	_	_
+12-18	961-964	von	_	_
+12-19	965-972	Caninas	*	PERmentioned
+12-20	973-989	Architecturwerke	_	_
+12-21	990-991	,	_	_
+12-22	992-995	der	_	_
+12-23	996-999	von	_	_
+12-24	1000-1003	ihm	_	_
+12-25	1004-1013	gemachten	_	_
+12-26	1014-1020	Angabe	_	_
+12-27	1021-1028	zufolge	_	_
+12-28	1029-1036	Sezione	_	_
+12-29	1037-1039	2°	_	_
+12-30	1040-1041	,	_	_
+12-31	1042-1047	Greca	_	_
+12-32	1048-1054	Archit	_	_
+12-33	1055-1056	.	_	_
+
+#Text=Disp .
+13-1	1057-1061	Disp	_	_
+13-2	1062-1063	.	_	_
+
+#Text=7 e 8 Scudi 3 3° , Romana - - 9e212 - 6 Testo , vol . III .
+14-1	1064-1065	7	_	_
+14-2	1066-1067	e	_	_
+14-3	1068-1069	8	_	_
+14-4	1070-1075	Scudi	_	_
+14-5	1076-1077	3	_	_
+14-6	1078-1080	3°	_	_
+14-7	1081-1082	,	_	_
+14-8	1083-1089	Romana	_	_
+14-9	1090-1091	-	_	_
+14-10	1092-1093	-	_	_
+14-11	1094-1099	9e212	_	_
+14-12	1100-1101	-	_	_
+14-13	1102-1103	6	_	_
+14-14	1104-1109	Testo	_	_
+14-15	1110-1111	,	_	_
+14-16	1112-1115	vol	_	_
+14-17	1116-1117	.	_	_
+14-18	1118-1121	III	_	_
+14-19	1122-1123	.	_	_
+
+#Text=della pubblicaz .
+15-1	1124-1129	della	_	_
+15-2	1130-1139	pubblicaz	_	_
+15-3	1140-1141	.	_	_
+
+#Text=3.12 Scudi 12.12 Fossati hat eine Vase ( St nos mit rothen Figuren ) die aus Vulci stammt , auf welcher man die etruskische Inschrift { s n ı N .
+16-1	1142-1146	3.12	_	_
+16-2	1147-1152	Scudi	_	_
+16-3	1153-1158	12.12	_	_
+16-4	1159-1166	Fossati	*	PERmentioned
+16-5	1167-1170	hat	_	_
+16-6	1171-1175	eine	_	_
+16-7	1176-1180	Vase	*	OBJ
+16-8	1181-1182	(	_	_
+16-9	1183-1185	St	_	_
+16-10	1186-1189	nos	_	_
+16-11	1190-1193	mit	_	_
+16-12	1194-1200	rothen	_	_
+16-13	1201-1208	Figuren	_	_
+16-14	1209-1210	)	_	_
+16-15	1211-1214	die	_	_
+16-16	1215-1218	aus	_	_
+16-17	1219-1224	Vulci	*	PLACEmentioned
+16-18	1225-1231	stammt	_	_
+16-19	1232-1233	,	_	_
+16-20	1234-1237	auf	_	_
+16-21	1238-1245	welcher	_	_
+16-22	1246-1249	man	_	_
+16-23	1250-1253	die	_	_
+16-24	1254-1265	etruskische	_	_
+16-25	1266-1275	Inschrift	_	_
+16-26	1276-1277	{	_	_
+16-27	1278-1279	s	_	_
+16-28	1280-1281	n	_	_
+16-29	1282-1283	ı	_	_
+16-30	1284-1285	N	_	_
+16-31	1286-1287	.	_	_
+
+#Text=\\ \\ “ F £ d N Bo 1 \\ } !
+17-1	1288-1289	\\	_	_
+17-2	1290-1291	\\	_	_
+17-3	1292-1293	“	_	_
+17-4	1294-1295	F	_	_
+17-5	1296-1297	£	_	_
+17-6	1298-1299	d	_	_
+17-7	1300-1301	N	_	_
+17-8	1302-1304	Bo	_	_
+17-9	1305-1306	1	_	_
+17-10	1307-1308	\\	_	_
+17-11	1309-1310	}	_	_
+17-12	1311-1312	!	_	_
+
+#Text=B £ en ı , I liest .
+18-1	1313-1314	B	_	_
+18-2	1315-1316	£	_	_
+18-3	1317-1319	en	_	_
+18-4	1320-1321	ı	_	_
+18-5	1322-1323	,	_	_
+18-6	1324-1325	I	_	_
+18-7	1326-1331	liest	_	_
+18-8	1332-1333	.	_	_
+
+#Text=Sie steht auf einer
+19-1	1334-1337	Sie	_	_
+19-2	1338-1343	steht	_	_
+19-3	1344-1347	auf	_	_
+19-4	1348-1353	einer	_	_

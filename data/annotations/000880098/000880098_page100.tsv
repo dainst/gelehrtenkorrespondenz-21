@@ -1,0 +1,195 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=697 Braun an Gerhard Rom , 13. November 1834 - 9 - kaum \; die Museen vorher zu besuchen noch weniger .
+1-1	0-3	697	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	13.	*[2]	DATEletter[2]
+1-8	31-39	November	*[2]	DATEletter[2]
+1-9	40-44	1834	*[2]	DATEletter[2]
+1-10	45-46	-	_	_
+1-11	47-48	9	_	_
+1-12	49-50	-	_	_
+1-13	51-55	kaum	_	_
+1-14	56-57	\;	_	_
+1-15	58-61	die	_	_
+1-16	62-68	Museen	_	_
+1-17	69-75	vorher	_	_
+1-18	76-78	zu	_	_
+1-19	79-87	besuchen	_	_
+1-20	88-92	noch	_	_
+1-21	93-100	weniger	_	_
+1-22	101-102	.	_	_
+
+#Text=Senden Sie mir ja so eilig wie möglich Müllers Handbuch , wenn sich eim neue Ausgabe davon sollte blicken lassen , sollten es auch nur einzelne Bogen sein .
+2-1	103-109	Senden	_	_
+2-2	110-113	Sie	_	_
+2-3	114-117	mir	_	_
+2-4	118-120	ja	_	_
+2-5	121-123	so	_	_
+2-6	124-129	eilig	_	_
+2-7	130-133	wie	_	_
+2-8	134-141	möglich	_	_
+2-9	142-149	Müllers	*	PERmentioned
+2-10	150-158	Handbuch	*	LIT
+2-11	159-160	,	_	_
+2-12	161-165	wenn	_	_
+2-13	166-170	sich	_	_
+2-14	171-174	eim	_	_
+2-15	175-179	neue	_	_
+2-16	180-187	Ausgabe	_	_
+2-17	188-193	davon	_	_
+2-18	194-200	sollte	_	_
+2-19	201-208	blicken	_	_
+2-20	209-215	lassen	_	_
+2-21	216-217	,	_	_
+2-22	218-225	sollten	_	_
+2-23	226-228	es	_	_
+2-24	229-233	auch	_	_
+2-25	234-237	nur	_	_
+2-26	238-246	einzelne	_	_
+2-27	247-252	Bogen	_	_
+2-28	253-257	sein	_	_
+2-29	258-259	.	_	_
+
+#Text=Haben Sie nicht zufällig von Wolff erfahren , wie es mit der Gesch .
+3-1	260-265	Haben	_	_
+3-2	266-269	Sie	_	_
+3-3	270-275	nicht	_	_
+3-4	276-284	zufällig	_	_
+3-5	285-288	von	_	_
+3-6	289-294	Wolff	*	PERmentioned
+3-7	295-303	erfahren	_	_
+3-8	304-305	,	_	_
+3-9	306-309	wie	_	_
+3-10	310-312	es	_	_
+3-11	313-316	mit	_	_
+3-12	317-320	der	_	_
+3-13	321-326	Gesch	_	_
+3-14	327-328	.	_	_
+
+#Text=v. Miltiz geht ?
+4-1	329-331	v.	_	_
+4-2	332-338	Miltiz	*	PERmentioned
+4-3	339-343	geht	_	_
+4-4	344-345	?	_	_
+
+#Text=Es läge mir viel daran .
+5-1	346-348	Es	_	_
+5-2	349-353	läge	_	_
+5-3	354-357	mir	_	_
+5-4	358-362	viel	_	_
+5-5	363-368	daran	_	_
+5-6	369-370	.	_	_
+
+#Text=Vielleicht haben Sie ja wohl auch dem alten Wetzdorf eine Visite gemacht .
+6-1	371-381	Vielleicht	_	_
+6-2	382-387	haben	_	_
+6-3	388-391	Sie	_	_
+6-4	392-394	ja	_	_
+6-5	395-399	wohl	_	_
+6-6	400-404	auch	_	_
+6-7	405-408	dem	_	_
+6-8	409-414	alten	_	_
+6-9	415-423	Wetzdorf	*	PERmentioned
+6-10	424-428	eine	_	_
+6-11	429-435	Visite	_	_
+6-12	436-443	gemacht	_	_
+6-13	444-445	.	_	_
+
+#Text=Das laufende Bullettino wird Sie zufrieden stellen : Manigfaches und Interessantes .
+7-1	446-449	Das	_	_
+7-2	450-458	laufende	_	_
+7-3	459-469	Bullettino	*	LIT
+7-4	470-474	wird	_	_
+7-5	475-478	Sie	_	_
+7-6	479-488	zufrieden	_	_
+7-7	489-496	stellen	_	_
+7-8	497-498	:	_	_
+7-9	499-510	Manigfaches	_	_
+7-10	511-514	und	_	_
+7-11	515-528	Interessantes	_	_
+7-12	529-530	.	_	_
+
+#Text=Canina hat das Gladiatorenmusaik beschrieben .
+8-1	531-537	Canina	*	PERmentioned
+8-2	538-541	hat	_	_
+8-3	542-545	das	*[3]	OBJ[3]
+8-4	546-563	Gladiatorenmusaik	*[3]	OBJ[3]
+8-5	564-575	beschrieben	_	_
+8-6	576-577	.	_	_
+
+#Text=Sonst bekannte Artikel .
+9-1	578-583	Sonst	_	_
+9-2	584-592	bekannte	_	_
+9-3	593-600	Artikel	_	_
+9-4	601-602	.	_	_
+
+#Text=Genug für heute .
+10-1	603-608	Genug	_	_
+10-2	609-612	für	_	_
+10-3	613-618	heute	_	_
+10-4	619-620	.	_	_
+
+#Text=Meine Klagen sollen Sie nicht rühren \; zu Entschuldigungen können sie immer dienen .
+11-1	621-626	Meine	_	_
+11-2	627-633	Klagen	_	_
+11-3	634-640	sollen	_	_
+11-4	641-644	Sie	_	_
+11-5	645-650	nicht	_	_
+11-6	651-657	rühren	_	_
+11-7	658-659	\;	_	_
+11-8	660-662	zu	_	_
+11-9	663-679	Entschuldigungen	_	_
+11-10	680-686	können	_	_
+11-11	687-690	sie	_	_
+11-12	691-696	immer	_	_
+11-13	697-703	dienen	_	_
+11-14	704-705	.	_	_
+
+#Text=Ich kann mir so schwer helfen lassen , weil ich überhaupt alles selbst zu machen gewohnt bin und dann weil ich nichts dagegen anzubieten habe .
+12-1	706-709	Ich	_	_
+12-2	710-714	kann	_	_
+12-3	715-718	mir	_	_
+12-4	719-721	so	_	_
+12-5	722-728	schwer	_	_
+12-6	729-735	helfen	_	_
+12-7	736-742	lassen	_	_
+12-8	743-744	,	_	_
+12-9	745-749	weil	_	_
+12-10	750-753	ich	_	_
+12-11	754-763	überhaupt	_	_
+12-12	764-769	alles	_	_
+12-13	770-776	selbst	_	_
+12-14	777-779	zu	_	_
+12-15	780-786	machen	_	_
+12-16	787-794	gewohnt	_	_
+12-17	795-798	bin	_	_
+12-18	799-802	und	_	_
+12-19	803-807	dann	_	_
+12-20	808-812	weil	_	_
+12-21	813-816	ich	_	_
+12-22	817-823	nichts	_	_
+12-23	824-831	dagegen	_	_
+12-24	832-842	anzubieten	_	_
+12-25	843-847	habe	_	_
+12-26	848-849	.	_	_
+
+#Text=Viele Grüße an alle die meiner gedenken .
+13-1	850-855	Viele	_	_
+13-2	856-861	Grüße	_	_
+13-3	862-864	an	_	_
+13-4	865-869	alle	_	_
+13-5	870-873	die	_	_
+13-6	874-880	meiner	_	_
+13-7	881-889	gedenken	_	_
+13-8	890-891	.	_	_
+
+#Text=Ihr Braun
+14-1	892-895	Ihr	_	_
+14-2	896-901	Braun	*	PERauthor

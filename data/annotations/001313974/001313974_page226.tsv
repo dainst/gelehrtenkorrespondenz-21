@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Siena , 26 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-22	Siena	*	PLACEfrom
+1-5	23-24	,	_	_
+1-6	25-27	26	_	_
+1-7	28-29	.	_	_
+
+#Text=August 1874 H g . 27/8 74 r . 28/8 74 Siena 26 .
+2-1	30-36	August	*[3]	DATEletter[3]
+2-2	37-41	1874	*[3]	DATEletter[3]
+2-3	42-43	H	_	_
+2-4	44-45	g	_	_
+2-5	46-47	.	_	_
+2-6	48-52	27/8	*[4]	DATErecieved[4]
+2-7	53-55	74	*[4]	DATErecieved[4]
+2-8	56-57	r	_	_
+2-9	58-59	.	_	_
+2-10	60-64	28/8	*[5]	DATEanswered[5]
+2-11	65-67	74	*[5]	DATEanswered[5]
+2-12	68-73	Siena	*	PLACEfrom
+2-13	74-76	26	*[6]	DATEletter[6]
+2-14	77-78	.	*[6]	DATEletter[6]
+
+#Text=Aug . 1874 Lieber Herr Professor Gleichzeitig mit diesem geht der unselige cornetaner Artikel an Dressel ab d. h. die Liste ohne Einleitung und Anmerkungen .
+3-1	79-82	Aug	*[6]	DATEletter[6]
+3-2	83-84	.	*[6]	DATEletter[6]
+3-3	85-89	1874	*[6]	DATEletter[6]
+3-4	90-96	Lieber	_	_
+3-5	97-101	Herr	_	_
+3-6	102-111	Professor	_	_
+3-7	112-124	Gleichzeitig	_	_
+3-8	125-128	mit	_	_
+3-9	129-135	diesem	_	_
+3-10	136-140	geht	_	_
+3-11	141-144	der	_	_
+3-12	145-153	unselige	_	_
+3-13	154-164	cornetaner	*	MISC
+3-14	165-172	Artikel	_	_
+3-15	173-175	an	_	_
+3-16	176-183	Dressel	*	PERmentioned
+3-17	184-186	ab	_	_
+3-18	187-189	d.	_	_
+3-19	190-192	h.	_	_
+3-20	193-196	die	_	_
+3-21	197-202	Liste	_	_
+3-22	203-207	ohne	_	_
+3-23	208-218	Einleitung	_	_
+3-24	219-222	und	_	_
+3-25	223-234	Anmerkungen	_	_
+3-26	235-236	.	_	_
+
+#Text=Um die fehlenden Theile in einer einiger Maßen anständigen Weise herzustellen , brauche ich nothwendig ein vollständiges Exemplar von Lindenschmitt , Alterthümer der heidnischen Vorzeit - was uns fehlt , habe ich im Desiderienbuche notirt - und Salzmanns Kameiros und ich würde Ihnen sehr dankbar sein , wenn ich diese : .
+4-1	237-239	Um	_	_
+4-2	240-243	die	_	_
+4-3	244-253	fehlenden	_	_
+4-4	254-260	Theile	_	_
+4-5	261-263	in	_	_
+4-6	264-269	einer	_	_
+4-7	270-277	einiger	_	_
+4-8	278-283	Maßen	_	_
+4-9	284-295	anständigen	_	_
+4-10	296-301	Weise	_	_
+4-11	302-314	herzustellen	_	_
+4-12	315-316	,	_	_
+4-13	317-324	brauche	_	_
+4-14	325-328	ich	_	_
+4-15	329-339	nothwendig	_	_
+4-16	340-343	ein	_	_
+4-17	344-357	vollständiges	_	_
+4-18	358-366	Exemplar	_	_
+4-19	367-370	von	_	_
+4-20	371-384	Lindenschmitt	*	PERmentioned
+4-21	385-386	,	_	_
+4-22	387-398	Alterthümer	_	_
+4-23	399-402	der	_	_
+4-24	403-414	heidnischen	_	_
+4-25	415-422	Vorzeit	_	_
+4-26	423-424	-	_	_
+4-27	425-428	was	_	_
+4-28	429-432	uns	_	_
+4-29	433-438	fehlt	_	_
+4-30	439-440	,	_	_
+4-31	441-445	habe	_	_
+4-32	446-449	ich	_	_
+4-33	450-452	im	_	_
+4-34	453-468	Desiderienbuche	_	_
+4-35	469-475	notirt	_	_
+4-36	476-477	-	_	_
+4-37	478-481	und	_	_
+4-38	482-491	Salzmanns	*	PERmentioned
+4-39	492-500	Kameiros	*	PLACEmentioned
+4-40	501-504	und	_	_
+4-41	505-508	ich	_	_
+4-42	509-514	würde	_	_
+4-43	515-520	Ihnen	_	_
+4-44	521-525	sehr	_	_
+4-45	526-533	dankbar	_	_
+4-46	534-538	sein	_	_
+4-47	539-540	,	_	_
+4-48	541-545	wenn	_	_
+4-49	546-549	ich	_	_
+4-50	550-555	diese	_	_
+4-51	556-557	:	_	_
+4-52	558-559	.	_	_
+
+#Text=beiden Opera nach meiner Rückkehr aus Griechenland in Rom vorfände .
+5-1	560-566	beiden	_	_
+5-2	567-572	Opera	_	_
+5-3	573-577	nach	_	_
+5-4	578-584	meiner	_	_
+5-5	585-593	Rückkehr	_	_
+5-6	594-597	aus	_	_
+5-7	598-610	Griechenland	*	PLACEmentioned
+5-8	611-613	in	_	_
+5-9	614-617	Rom	*	PLACEmentioned
+5-10	618-626	vorfände	_	_
+5-11	627-628	.	_	_
+
+#Text=Schlecht genug wird der Artikel schon ausfallen und es ist wünschenswerth , daß wenigstens dies nothwendige Material darin geboten werde .
+6-1	629-637	Schlecht	_	_
+6-2	638-643	genug	_	_
+6-3	644-648	wird	_	_
+6-4	649-652	der	_	_
+6-5	653-660	Artikel	_	_
+6-6	661-666	schon	_	_
+6-7	667-676	ausfallen	_	_
+6-8	677-680	und	_	_
+6-9	681-683	es	_	_
+6-10	684-687	ist	_	_
+6-11	688-702	wünschenswerth	_	_
+6-12	703-704	,	_	_
+6-13	705-708	daß	_	_
+6-14	709-719	wenigstens	_	_
+6-15	720-724	dies	_	_
+6-16	725-736	nothwendige	_	_
+6-17	737-745	Material	_	_
+6-18	746-751	darin	_	_
+6-19	752-759	geboten	_	_
+6-20	760-765	werde	_	_
+6-21	766-767	.	_	_
+
+#Text=Der Aufenthalt wird hier so unangenehm , daß wir uns definitiv entschieden haben , den 15. September in die Stadt zu ziehen .
+7-1	768-771	Der	_	_
+7-2	772-782	Aufenthalt	_	_
+7-3	783-787	wird	_	_
+7-4	788-792	hier	_	_
+7-5	793-795	so	_	_
+7-6	796-806	unangenehm	_	_
+7-7	807-808	,	_	_
+7-8	809-812	daß	_	_
+7-9	813-816	wir	_	_
+7-10	817-820	uns	_	_
+7-11	821-830	definitiv	_	_
+7-12	831-842	entschieden	_	_
+7-13	843-848	haben	_	_
+7-14	849-850	,	_	_
+7-15	851-854	den	_	_
+7-16	855-858	15.	*[7]	DATEmentioned[7]
+7-17	859-868	September	*[7]	DATEmentioned[7]
+7-18	869-871	in	_	_
+7-19	872-875	die	_	_
+7-20	876-881	Stadt	_	_
+7-21	882-884	zu	_	_
+7-22	885-891	ziehen	_	_
+7-23	892-893	.	_	_
+
+#Text=Also kommen Sie , bitte , bald .
+8-1	894-898	Also	_	_
+8-2	899-905	kommen	_	_
+8-3	906-909	Sie	_	_
+8-4	910-911	,	_	_
+8-5	912-917	bitte	_	_
+8-6	918-919	,	_	_
+8-7	920-924	bald	_	_
+8-8	925-926	.	_	_
+
+#Text=Über Hitze werden Sie sich gewiß nicht zu beklagen haben .
+9-1	927-931	Über	_	_
+9-2	932-937	Hitze	_	_
+9-3	938-944	werden	_	_
+9-4	945-948	Sie	_	_
+9-5	949-953	sich	_	_
+9-6	954-959	gewiß	_	_
+9-7	960-965	nicht	_	_
+9-8	966-968	zu	_	_
+9-9	969-977	beklagen	_	_
+9-10	978-983	haben	_	_
+9-11	984-985	.	_	_
+
+#Text=Jetzt haben wir seit drei Tagen einen Sturm , wie er etwa in Rom im December vorkommt , und wissen wir uns vor Krachen der Thüren und Fenster kaum zu retten .
+10-1	986-991	Jetzt	_	_
+10-2	992-997	haben	_	_
+10-3	998-1001	wir	_	_
+10-4	1002-1006	seit	_	_
+10-5	1007-1011	drei	_	_
+10-6	1012-1017	Tagen	_	_
+10-7	1018-1023	einen	_	_
+10-8	1024-1029	Sturm	_	_
+10-9	1030-1031	,	_	_
+10-10	1032-1035	wie	_	_
+10-11	1036-1038	er	_	_
+10-12	1039-1043	etwa	_	_
+10-13	1044-1046	in	_	_
+10-14	1047-1050	Rom	*	PLACEmentioned
+10-15	1051-1053	im	_	_
+10-16	1054-1062	December	*	DATEmentioned
+10-17	1063-1071	vorkommt	_	_
+10-18	1072-1073	,	_	_
+10-19	1074-1077	und	_	_
+10-20	1078-1084	wissen	_	_
+10-21	1085-1088	wir	_	_
+10-22	1089-1092	uns	_	_
+10-23	1093-1096	vor	_	_
+10-24	1097-1104	Krachen	_	_
+10-25	1105-1108	der	_	_
+10-26	1109-1115	Thüren	_	_
+10-27	1116-1119	und	_	_
+10-28	1120-1127	Fenster	_	_
+10-29	1128-1132	kaum	_	_
+10-30	1133-1135	zu	_	_
+10-31	1136-1142	retten	_	_
+10-32	1143-1144	.	_	_
+
+#Text=Wunderbar
+11-1	1145-1154	Wunderbar	_	_

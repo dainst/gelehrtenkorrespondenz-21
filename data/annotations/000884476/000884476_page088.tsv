@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1007 Gerhard an Braun Berlin , 18. Dezember 1834 G . 3/1 35 Berlin 18 Dec .
+1-1	0-4	1007	_	_
+1-2	5-12	Gerhard	*	PERauthor
+1-3	13-15	an	_	_
+1-4	16-21	Braun	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	18.	*[4]	DATEletter[4]
+1-8	35-43	Dezember	*[4]	DATEletter[4]
+1-9	44-48	1834	*[4]	DATEletter[4]
+1-10	49-50	G	_	_
+1-11	51-52	.	_	_
+1-12	53-56	3/1	*[5]	DATErecieved[5]
+1-13	57-59	35	*[5]	DATErecieved[5]
+1-14	60-66	Berlin	*	PLACEfrom
+1-15	67-69	18	*[7]	DATEletter[7]
+1-16	70-73	Dec	*[7]	DATEletter[7]
+1-17	74-75	.	*[7]	DATEletter[7]
+
+#Text=34 .
+2-1	76-78	34	*[7]	DATEletter[7]
+2-2	79-80	.	_	_
+
+#Text=Mit Beischlüssen , zu verklebenden , an Bunsen und Vollard .
+3-1	81-84	Mit	_	_
+3-2	85-97	Beischlüssen	_	_
+3-3	98-99	,	_	_
+3-4	100-102	zu	_	_
+3-5	103-115	verklebenden	_	_
+3-6	116-117	,	_	_
+3-7	118-120	an	_	_
+3-8	121-127	Bunsen	*	PERmentioned
+3-9	128-131	und	_	_
+3-10	132-139	Vollard	*	PERmentioned
+3-11	140-141	.	_	_
+
+#Text=Mein theurer Freund .
+4-1	142-146	Mein	_	_
+4-2	147-154	theurer	_	_
+4-3	155-161	Freund	_	_
+4-4	162-163	.	_	_
+
+#Text=Zum Jahresanfang , an dem dieser Brief Ihnen zukommen wird , so kurze als herzliche Wünsche für Ihr Wohlergehen und guten Muth , für des Instituts Fortgang und für die Fortdauer unserer Freundschaft .
+5-1	164-167	Zum	_	_
+5-2	168-180	Jahresanfang	_	_
+5-3	181-182	,	_	_
+5-4	183-185	an	_	_
+5-5	186-189	dem	_	_
+5-6	190-196	dieser	_	_
+5-7	197-202	Brief	_	_
+5-8	203-208	Ihnen	_	_
+5-9	209-217	zukommen	_	_
+5-10	218-222	wird	_	_
+5-11	223-224	,	_	_
+5-12	225-227	so	_	_
+5-13	228-233	kurze	_	_
+5-14	234-237	als	_	_
+5-15	238-247	herzliche	_	_
+5-16	248-255	Wünsche	_	_
+5-17	256-259	für	_	_
+5-18	260-263	Ihr	_	_
+5-19	264-275	Wohlergehen	_	_
+5-20	276-279	und	_	_
+5-21	280-285	guten	_	_
+5-22	286-290	Muth	_	_
+5-23	291-292	,	_	_
+5-24	293-296	für	_	_
+5-25	297-300	des	_	_
+5-26	301-310	Instituts	*	ORGmentioned
+5-27	311-319	Fortgang	_	_
+5-28	320-323	und	_	_
+5-29	324-327	für	_	_
+5-30	328-331	die	_	_
+5-31	332-341	Fortdauer	_	_
+5-32	342-349	unserer	_	_
+5-33	350-362	Freundschaft	_	_
+5-34	363-364	.	_	_
+
+#Text=Meinen vorgestrigen Brief und Wechsel werden Sie erhalten haben .
+6-1	365-371	Meinen	_	_
+6-2	372-384	vorgestrigen	_	_
+6-3	385-390	Brief	_	_
+6-4	391-394	und	_	_
+6-5	395-402	Wechsel	_	_
+6-6	403-409	werden	_	_
+6-7	410-413	Sie	_	_
+6-8	414-422	erhalten	_	_
+6-9	423-428	haben	_	_
+6-10	429-430	.	_	_
+
+#Text=Aus Ihrer Specifikation der am 3 Oktober abgesandten Kiste entnehme ich daß noch gar keine Memorie 53. an Gerstäcker gesandt wurden .
+7-1	431-434	Aus	_	_
+7-2	435-440	Ihrer	_	_
+7-3	441-454	Specifikation	_	_
+7-4	455-458	der	_	_
+7-5	459-461	am	_	_
+7-6	462-463	3	*[11]	DATEmentioned[11]
+7-7	464-471	Oktober	*[11]	DATEmentioned[11]
+7-8	472-483	abgesandten	_	_
+7-9	484-489	Kiste	_	_
+7-10	490-498	entnehme	_	_
+7-11	499-502	ich	_	_
+7-12	503-506	daß	_	_
+7-13	507-511	noch	_	_
+7-14	512-515	gar	_	_
+7-15	516-521	keine	_	_
+7-16	522-529	Memorie	_	_
+7-17	530-533	53.	_	_
+7-18	534-536	an	_	_
+7-19	537-547	Gerstäcker	*	PERmentioned
+7-20	548-555	gesandt	_	_
+7-21	556-562	wurden	_	_
+7-22	563-564	.	_	_
+
+#Text=Er braucht davon lieber 50 als 40 mit der nächsten Kistensendung .
+8-1	565-567	Er	_	_
+8-2	568-575	braucht	_	_
+8-3	576-581	davon	_	_
+8-4	582-588	lieber	_	_
+8-5	589-591	50	_	_
+8-6	592-595	als	_	_
+8-7	596-598	40	_	_
+8-8	599-602	mit	_	_
+8-9	603-606	der	_	_
+8-10	607-615	nächsten	_	_
+8-11	616-629	Kistensendung	_	_
+8-12	630-631	.	_	_
+
+#Text=Ich bedarf einen Extrakt der durch Sie von mir ausgefolgten und in Ihrem Register verzeichneten Briefe \; es fehlt mir oft Nummer und Datum .
+9-1	632-635	Ich	_	_
+9-2	636-642	bedarf	_	_
+9-3	643-648	einen	_	_
+9-4	649-656	Extrakt	_	_
+9-5	657-660	der	_	_
+9-6	661-666	durch	_	_
+9-7	667-670	Sie	_	_
+9-8	671-674	von	_	_
+9-9	675-678	mir	_	_
+9-10	679-691	ausgefolgten	_	_
+9-11	692-695	und	_	_
+9-12	696-698	in	_	_
+9-13	699-704	Ihrem	_	_
+9-14	705-713	Register	_	_
+9-15	714-727	verzeichneten	_	_
+9-16	728-734	Briefe	_	_
+9-17	735-736	\;	_	_
+9-18	737-739	es	_	_
+9-19	740-745	fehlt	_	_
+9-20	746-749	mir	_	_
+9-21	750-753	oft	_	_
+9-22	754-760	Nummer	_	_
+9-23	761-764	und	_	_
+9-24	765-770	Datum	_	_
+9-25	771-772	.	_	_
+
+#Text=Derselben Kistensendung belieben Sie 1 Exemplar des Forcellinus für mich beizulegen \; das andere verkauft sich wol in Rom .
+10-1	773-782	Derselben	_	_
+10-2	783-796	Kistensendung	_	_
+10-3	797-805	belieben	_	_
+10-4	806-809	Sie	_	_
+10-5	810-811	1	_	_
+10-6	812-820	Exemplar	_	_
+10-7	821-824	des	_	_
+10-8	825-836	Forcellinus	*	PERmentioned
+10-9	837-840	für	_	_
+10-10	841-845	mich	_	_
+10-11	846-856	beizulegen	_	_
+10-12	857-858	\;	_	_
+10-13	859-862	das	_	_
+10-14	863-869	andere	_	_
+10-15	870-878	verkauft	_	_
+10-16	879-883	sich	_	_
+10-17	884-887	wol	_	_
+10-18	888-890	in	_	_
+10-19	891-894	Rom	*	PLACEmentioned
+10-20	895-896	.	_	_
+
+#Text=Bei der stillschweigenden Zuweisung zu Vorlesungen die hier ein opus plenum aleae sind , befinde ich mich ungefähr in Ihrem Fall \; dem nach kann ich zu kei-
+11-1	897-900	Bei	_	_
+11-2	901-904	der	_	_
+11-3	905-922	stillschweigenden	_	_
+11-4	923-932	Zuweisung	_	_
+11-5	933-935	zu	_	_
+11-6	936-947	Vorlesungen	_	_
+11-7	948-951	die	_	_
+11-8	952-956	hier	_	_
+11-9	957-960	ein	_	_
+11-10	961-965	opus	_	_
+11-11	966-972	plenum	_	_
+11-12	973-978	aleae	_	_
+11-13	979-983	sind	_	_
+11-14	984-985	,	_	_
+11-15	986-993	befinde	_	_
+11-16	994-997	ich	_	_
+11-17	998-1002	mich	_	_
+11-18	1003-1011	ungefähr	_	_
+11-19	1012-1014	in	_	_
+11-20	1015-1020	Ihrem	_	_
+11-21	1021-1025	Fall	_	_
+11-22	1026-1027	\;	_	_
+11-23	1028-1031	dem	_	_
+11-24	1032-1036	nach	_	_
+11-25	1037-1041	kann	_	_
+11-26	1042-1045	ich	_	_
+11-27	1046-1048	zu	_	_
+11-28	1049-1053	kei-	_	_

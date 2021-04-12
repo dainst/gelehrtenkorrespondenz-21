@@ -1,0 +1,104 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 28. Dezember 1837 ben .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	28.	*[4]	DATEletter[4]
+1-7	30-38	Dezember	*[4]	DATEletter[4]
+1-8	39-43	1837	*[4]	DATEletter[4]
+1-9	44-47	ben	_	_
+1-10	48-49	.	_	_
+
+#Text=Von Forlanetto erhalte ich eben 1 Ex .
+2-1	50-53	Von	_	_
+2-2	54-64	Forlanetto	*	PERmentioned
+2-3	65-72	erhalte	_	_
+2-4	73-76	ich	_	_
+2-5	77-81	eben	_	_
+2-6	82-83	1	_	_
+2-7	84-86	Ex	_	_
+2-8	87-88	.	_	_
+
+#Text=der Lapide d'Este und 2 andre für Böckh und für Lepsius \; soll nun lezteres nach Rom ?
+3-1	89-92	der	_	_
+3-2	93-99	Lapide	_	_
+3-3	100-106	d'Este	_	_
+3-4	107-110	und	_	_
+3-5	111-112	2	_	_
+3-6	113-118	andre	_	_
+3-7	119-122	für	_	_
+3-8	123-128	Böckh	*	PERmentioned
+3-9	129-132	und	_	_
+3-10	133-136	für	_	_
+3-11	137-144	Lepsius	*	PERmentioned
+3-12	145-146	\;	_	_
+3-13	147-151	soll	_	_
+3-14	152-155	nun	_	_
+3-15	156-164	lezteres	_	_
+3-16	165-169	nach	_	_
+3-17	170-173	Rom	*	PLACEmentioned
+3-18	174-175	?	_	_
+
+#Text=und wollen Sie F. an den Sie doch schreiben gelegentlich schönstens danken .
+4-1	176-179	und	_	_
+4-2	180-186	wollen	_	_
+4-3	187-190	Sie	_	_
+4-4	191-193	F.	_	_
+4-5	194-196	an	_	_
+4-6	197-200	den	_	_
+4-7	201-204	Sie	_	_
+4-8	205-209	doch	_	_
+4-9	210-219	schreiben	_	_
+4-10	220-232	gelegentlich	_	_
+4-11	233-243	schönstens	_	_
+4-12	244-250	danken	_	_
+4-13	251-252	.	_	_
+
+#Text=Einige Besonderheiten der Achemorosvase habe ich schon neulich Zahn zu verificiren gebeten \; da andre dazu kommen , werde ich Ihnen die Liste noch einmal empfehlen .
+5-1	253-259	Einige	_	_
+5-2	260-274	Besonderheiten	_	_
+5-3	275-278	der	_	_
+5-4	279-292	Achemorosvase	*	OBJ
+5-5	293-297	habe	_	_
+5-6	298-301	ich	_	_
+5-7	302-307	schon	_	_
+5-8	308-315	neulich	_	_
+5-9	316-320	Zahn	*	PERmentioned
+5-10	321-323	zu	_	_
+5-11	324-335	verificiren	_	_
+5-12	336-343	gebeten	_	_
+5-13	344-345	\;	_	_
+5-14	346-348	da	_	_
+5-15	349-354	andre	_	_
+5-16	355-359	dazu	_	_
+5-17	360-366	kommen	_	_
+5-18	367-368	,	_	_
+5-19	369-374	werde	_	_
+5-20	375-378	ich	_	_
+5-21	379-384	Ihnen	_	_
+5-22	385-388	die	_	_
+5-23	389-394	Liste	_	_
+5-24	395-399	noch	_	_
+5-25	400-406	einmal	_	_
+5-26	407-416	empfehlen	_	_
+5-27	417-418	.	_	_
+
+#Text=Sollte Schulze noch in M. sein , so ist dieser wol zuverlässiger .
+6-1	419-425	Sollte	_	_
+6-2	426-433	Schulze	*	PERmentioned
+6-3	434-438	noch	_	_
+6-4	439-441	in	_	_
+6-5	442-444	M.	*	PLACEmentioned
+6-6	445-449	sein	_	_
+6-7	450-451	,	_	_
+6-8	452-454	so	_	_
+6-9	455-458	ist	_	_
+6-10	459-465	dieser	_	_
+6-11	466-469	wol	_	_
+6-12	470-483	zuverlässiger	_	_
+6-13	484-485	.	_	_

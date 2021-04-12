@@ -1,0 +1,125 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 22 .
+1-1	0-6	Helbig	*	PERmentioned
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	22	*[4]	DATEletter[4]
+1-7	26-27	.	*[4]	DATEletter[4]
+
+#Text=August 1867 Hirk hat ungefähr drei Wochen bei uns gewohnt und hat uns sehr gestärkt verlassen .
+2-1	28-34	August	*[4]	DATEletter[4]
+2-2	35-39	1867	*[4]	DATEletter[4]
+2-3	40-44	Hirk	*	PERmentioned
+2-4	45-48	hat	_	_
+2-5	49-57	ungefähr	_	_
+2-6	58-62	drei	_	_
+2-7	63-69	Wochen	_	_
+2-8	70-73	bei	_	_
+2-9	74-77	uns	_	_
+2-10	78-85	gewohnt	_	_
+2-11	86-89	und	_	_
+2-12	90-93	hat	_	_
+2-13	94-97	uns	_	_
+2-14	98-102	sehr	_	_
+2-15	103-111	gestärkt	_	_
+2-16	112-121	verlassen	_	_
+2-17	122-123	.	_	_
+
+#Text=Von anderen Amici hat uns de Witte heimgesucht , welcher in Albana Villegiatur machte , sich aber baldigst nach Frascati flüchtete .
+3-1	124-127	Von	_	_
+3-2	128-135	anderen	_	_
+3-3	136-141	Amici	_	_
+3-4	142-145	hat	_	_
+3-5	146-149	uns	_	_
+3-6	150-152	de	*[3]	PERmentioned[3]
+3-7	153-158	Witte	*[3]	PERmentioned[3]
+3-8	159-170	heimgesucht	_	_
+3-9	171-172	,	_	_
+3-10	173-180	welcher	_	_
+3-11	181-183	in	_	_
+3-12	184-190	Albana	*	PLACEmentioned
+3-13	191-202	Villegiatur	_	_
+3-14	203-209	machte	_	_
+3-15	210-211	,	_	_
+3-16	212-216	sich	_	_
+3-17	217-221	aber	_	_
+3-18	222-230	baldigst	_	_
+3-19	231-235	nach	_	_
+3-20	236-244	Frascati	*	PLACEmentioned
+3-21	245-254	flüchtete	_	_
+3-22	255-256	.	_	_
+
+#Text=DBedenklich bin ich um Mr .
+4-1	257-268	DBedenklich	_	_
+4-2	269-272	bin	_	_
+4-3	273-276	ich	_	_
+4-4	277-279	um	_	_
+4-5	280-282	Mr	*[5]	PERmentioned[5]
+4-6	283-284	.	*[5]	PERmentioned[5]
+
+#Text=Marr , nach dem ich sowohl in Albano wie in Rom habe Nachforschungen anstellen lassen , doch ohne Erfolg .
+5-1	285-289	Marr	*[5]	PERmentioned[5]
+5-2	290-291	,	_	_
+5-3	292-296	nach	_	_
+5-4	297-300	dem	_	_
+5-5	301-304	ich	_	_
+5-6	305-311	sowohl	_	_
+5-7	312-314	in	_	_
+5-8	315-321	Albano	*	PLACEmentioned
+5-9	322-325	wie	_	_
+5-10	326-328	in	_	_
+5-11	329-332	Rom	*	PLACEmentioned
+5-12	333-337	habe	_	_
+5-13	338-353	Nachforschungen	_	_
+5-14	354-363	anstellen	_	_
+5-15	364-370	lassen	_	_
+5-16	371-372	,	_	_
+5-17	373-377	doch	_	_
+5-18	378-382	ohne	_	_
+5-19	383-389	Erfolg	_	_
+5-20	390-391	.	_	_
+
+#Text=Wir selbst befinden uns alle wohl .
+6-1	392-395	Wir	_	_
+6-2	396-402	selbst	_	_
+6-3	403-411	befinden	_	_
+6-4	412-415	uns	_	_
+6-5	416-420	alle	_	_
+6-6	421-425	wohl	_	_
+6-7	426-427	.	_	_
+
+#Text=Hoffentlich geht es auch bei Ihnen gut .
+7-1	428-439	Hoffentlich	_	_
+7-2	440-444	geht	_	_
+7-3	445-447	es	_	_
+7-4	448-452	auch	_	_
+7-5	453-456	bei	_	_
+7-6	457-462	Ihnen	_	_
+7-7	463-466	gut	_	_
+7-8	467-468	.	_	_
+
+#Text=Ich bitte mich der Frau Professorin vielmals zu empfehlen .
+8-1	469-472	Ich	_	_
+8-2	473-478	bitte	_	_
+8-3	479-483	mich	_	_
+8-4	484-487	der	_	_
+8-5	488-492	Frau	_	_
+8-6	493-504	Professorin	_	_
+8-7	505-513	vielmals	_	_
+8-8	514-516	zu	_	_
+8-9	517-526	empfehlen	_	_
+8-10	527-528	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr ergebener W. Helbig
+9-1	529-532	Mit	_	_
+9-2	533-543	herzlichen	_	_
+9-3	544-550	Grüßen	_	_
+9-4	551-554	Ihr	_	_
+9-5	555-564	ergebener	_	_
+9-6	565-567	W.	*[6]	PERauthor[6]
+9-7	568-574	Helbig	*[6]	PERauthor[6]

@@ -1,0 +1,216 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=63 Gerhard an Braun Berlin , 10. Februar 1845 A. cd .
+1-1	0-2	63	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	10.	*[3]	DATEletter[3]
+1-8	33-40	Februar	*[3]	DATEletter[3]
+1-9	41-45	1845	*[3]	DATEletter[3]
+1-10	46-48	A.	_	_
+1-11	49-51	cd	_	_
+1-12	52-53	.	_	_
+
+#Text=Dir .
+2-1	54-57	Dir	_	_
+2-2	58-59	.	_	_
+
+#Text=g . 22/II 45 r . 22/II 45 Berlin 10 Febr 45 Mein theurer Freund .
+3-1	60-61	g	_	_
+3-2	62-63	.	_	_
+3-3	64-69	22/II	*[4]	DATErecieved[4]
+3-4	70-72	45	*[4]	DATErecieved[4]
+3-5	73-74	r	_	_
+3-6	75-76	.	_	_
+3-7	77-82	22/II	*[5]	DATEanswered[5]
+3-8	83-85	45	*[5]	DATEanswered[5]
+3-9	86-92	Berlin	*	PLACEfrom
+3-10	93-95	10	*[6]	DATEletter[6]
+3-11	96-100	Febr	*[6]	DATEletter[6]
+3-12	101-103	45	*[6]	DATEletter[6]
+3-13	104-108	Mein	_	_
+3-14	109-116	theurer	_	_
+3-15	117-123	Freund	_	_
+3-16	124-125	.	_	_
+
+#Text=Durch Dr. Schrader von der hiesigen Bibliothek habe ich Ihnen Nägelsbach und Anderes gesandt , auch geschrieben .
+4-1	126-131	Durch	_	_
+4-2	132-135	Dr.	*[7]	PERmentioned[7]
+4-3	136-144	Schrader	*[7]	PERmentioned[7]
+4-4	145-148	von	_	_
+4-5	149-152	der	_	_
+4-6	153-161	hiesigen	_	_
+4-7	162-172	Bibliothek	*	ORGmentioned
+4-8	173-177	habe	_	_
+4-9	178-181	ich	_	_
+4-10	182-187	Ihnen	_	_
+4-11	188-198	Nägelsbach	*	PERmentioned
+4-12	199-202	und	_	_
+4-13	203-210	Anderes	_	_
+4-14	211-218	gesandt	_	_
+4-15	219-220	,	_	_
+4-16	221-225	auch	_	_
+4-17	226-237	geschrieben	_	_
+4-18	238-239	.	_	_
+
+#Text=Unter den durch ihn erfolgenden Scripturen ist auch eine ungefähre Reinschrift des Mitglieder Verzeichnisses , die Sie wiederum mundiren und ausfüllen lassen werden .
+5-1	240-245	Unter	_	_
+5-2	246-249	den	_	_
+5-3	250-255	durch	_	_
+5-4	256-259	ihn	_	_
+5-5	260-271	erfolgenden	_	_
+5-6	272-282	Scripturen	_	_
+5-7	283-286	ist	_	_
+5-8	287-291	auch	_	_
+5-9	292-296	eine	_	_
+5-10	297-306	ungefähre	_	_
+5-11	307-318	Reinschrift	_	_
+5-12	319-322	des	_	_
+5-13	323-333	Mitglieder	_	_
+5-14	334-348	Verzeichnisses	_	_
+5-15	349-350	,	_	_
+5-16	351-354	die	_	_
+5-17	355-358	Sie	_	_
+5-18	359-367	wiederum	_	_
+5-19	368-376	mundiren	_	_
+5-20	377-380	und	_	_
+5-21	381-390	ausfüllen	_	_
+5-22	391-397	lassen	_	_
+5-23	398-404	werden	_	_
+5-24	405-406	.	_	_
+
+#Text=Ob Wagner 's Institutsehren in Ordnung und meine für Stephani und Brunn beantragten Ehren als Membri ordinari Ihnen recht sind , werden Sie schreiben .
+6-1	407-409	Ob	_	_
+6-2	410-416	Wagner	*[9]	PERmentioned[9]
+6-3	417-419	's	*[9]	PERmentioned[9]
+6-4	420-434	Institutsehren	_	_
+6-5	435-437	in	_	_
+6-6	438-445	Ordnung	_	_
+6-7	446-449	und	_	_
+6-8	450-455	meine	_	_
+6-9	456-459	für	_	_
+6-10	460-468	Stephani	*	PERmentioned
+6-11	469-472	und	_	_
+6-12	473-478	Brunn	*	PERmentioned
+6-13	479-490	beantragten	_	_
+6-14	491-496	Ehren	_	_
+6-15	497-500	als	_	_
+6-16	501-507	Membri	_	_
+6-17	508-516	ordinari	_	_
+6-18	517-522	Ihnen	_	_
+6-19	523-528	recht	_	_
+6-20	529-533	sind	_	_
+6-21	534-535	,	_	_
+6-22	536-542	werden	_	_
+6-23	543-546	Sie	_	_
+6-24	547-556	schreiben	_	_
+6-25	557-558	.	_	_
+
+#Text=Daß der Webersche Parthenonskopf aus Venedig wo Waagen so viel Geld hatte , an Laborde gekommen ist , ist eine neue große Schmach für uns .
+7-1	559-562	Daß	_	_
+7-2	563-566	der	_	_
+7-3	567-576	Webersche	*[8]	OBJ[8]
+7-4	577-591	Parthenonskopf	*[8]	OBJ[8]
+7-5	592-595	aus	_	_
+7-6	596-603	Venedig	*	PLACEmentioned
+7-7	604-606	wo	_	_
+7-8	607-613	Waagen	*	PERmentioned
+7-9	614-616	so	_	_
+7-10	617-621	viel	_	_
+7-11	622-626	Geld	_	_
+7-12	627-632	hatte	_	_
+7-13	633-634	,	_	_
+7-14	635-637	an	_	_
+7-15	638-645	Laborde	*	PERmentioned
+7-16	646-654	gekommen	_	_
+7-17	655-658	ist	_	_
+7-18	659-660	,	_	_
+7-19	661-664	ist	_	_
+7-20	665-669	eine	_	_
+7-21	670-674	neue	_	_
+7-22	675-680	große	_	_
+7-23	681-688	Schmach	_	_
+7-24	689-692	für	_	_
+7-25	693-696	uns	_	_
+7-26	697-698	.	_	_
+
+#Text=An Henzen schrieb ich durch Schrader daß hier keine Thorlaciana neurer als 1828 sind \; man muß nach Kopenhagen deshalb schreiben .
+8-1	699-701	An	_	_
+8-2	702-708	Henzen	*	PERmentioned
+8-3	709-716	schrieb	_	_
+8-4	717-720	ich	_	_
+8-5	721-726	durch	_	_
+8-6	727-735	Schrader	*	PERmentioned
+8-7	736-739	daß	_	_
+8-8	740-744	hier	_	_
+8-9	745-750	keine	_	_
+8-10	751-762	Thorlaciana	_	_
+8-11	763-769	neurer	_	_
+8-12	770-773	als	_	_
+8-13	774-778	1828	*	DATEmentioned
+8-14	779-783	sind	_	_
+8-15	784-785	\;	_	_
+8-16	786-789	man	_	_
+8-17	790-793	muß	_	_
+8-18	794-798	nach	_	_
+8-19	799-809	Kopenhagen	*	PLACEmentioned
+8-20	810-817	deshalb	_	_
+8-21	818-827	schreiben	_	_
+8-22	828-829	.	_	_
+
+#Text=Über Rathgebrs Sache schrieb ich Ihnen .
+9-1	830-834	Über	_	_
+9-2	835-844	Rathgebrs	*	PERmentioned
+9-3	845-850	Sache	_	_
+9-4	851-858	schrieb	_	_
+9-5	859-862	ich	_	_
+9-6	863-868	Ihnen	_	_
+9-7	869-870	.	_	_
+
+#Text=Ihre Ausfälle deshalb waren ungehörig und ungerecht \; nicht weil verstreute Abhandlungen weniger werth sind als ein Buch , sondern weil sie weniger zur Hand sind und mehr Einführungsreden gebrauchen , war Ihr Vorschlag jetzt MH wat ?
+10-1	871-875	Ihre	_	_
+10-2	876-884	Ausfälle	_	_
+10-3	885-892	deshalb	_	_
+10-4	893-898	waren	_	_
+10-5	899-908	ungehörig	_	_
+10-6	909-912	und	_	_
+10-7	913-922	ungerecht	_	_
+10-8	923-924	\;	_	_
+10-9	925-930	nicht	_	_
+10-10	931-935	weil	_	_
+10-11	936-946	verstreute	_	_
+10-12	947-959	Abhandlungen	_	_
+10-13	960-967	weniger	_	_
+10-14	968-973	werth	_	_
+10-15	974-978	sind	_	_
+10-16	979-982	als	_	_
+10-17	983-986	ein	_	_
+10-18	987-991	Buch	_	_
+10-19	992-993	,	_	_
+10-20	994-1001	sondern	_	_
+10-21	1002-1006	weil	_	_
+10-22	1007-1010	sie	_	_
+10-23	1011-1018	weniger	_	_
+10-24	1019-1022	zur	_	_
+10-25	1023-1027	Hand	_	_
+10-26	1028-1032	sind	_	_
+10-27	1033-1036	und	_	_
+10-28	1037-1041	mehr	_	_
+10-29	1042-1058	Einführungsreden	_	_
+10-30	1059-1069	gebrauchen	_	_
+10-31	1070-1071	,	_	_
+10-32	1072-1075	war	_	_
+10-33	1076-1079	Ihr	_	_
+10-34	1080-1089	Vorschlag	_	_
+10-35	1090-1095	jetzt	_	_
+10-36	1096-1098	MH	_	_
+10-37	1099-1102	wat	_	_
+10-38	1103-1104	?	_	_
+
+#Text=fi
+11-1	1105-1107	fi	_	_

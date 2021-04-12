@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=11 Helbig an Henzen Rom , 7 .
+1-1	0-2	11	_	_
+1-2	3-9	Helbig	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-27	7	*[3]	DATEletter[3]
+1-8	28-29	.	*[3]	DATEletter[3]
+
+#Text=August 1865 H g.- 9/8 65 r . 10/8 65 Rom 7/8 65 .
+2-1	30-36	August	*[3]	DATEletter[3]
+2-2	37-41	1865	*[3]	DATEletter[3]
+2-3	42-43	H	_	_
+2-4	44-47	g.-	_	_
+2-5	48-51	9/8	*[4]	DATErecieved[4]
+2-6	52-54	65	*[4]	DATErecieved[4]
+2-7	55-56	r	_	_
+2-8	57-58	.	_	_
+2-9	59-63	10/8	*[5]	DATEanswered[5]
+2-10	64-66	65	*[5]	DATEanswered[5]
+2-11	67-70	Rom	*	PLACEfrom
+2-12	71-74	7/8	*[6]	DATEletter[6]
+2-13	75-77	65	*[6]	DATEletter[6]
+2-14	78-79	.	_	_
+
+#Text=Lieber Herr Professor !
+3-1	80-86	Lieber	_	_
+3-2	87-91	Herr	_	_
+3-3	92-101	Professor	_	_
+3-4	102-103	!	_	_
+
+#Text=Der Mangel eines großen Couverts nöthigt mich , Ihnen die Briefe heut einzeln zu schicken .
+4-1	104-107	Der	_	_
+4-2	108-114	Mangel	_	_
+4-3	115-120	eines	_	_
+4-4	121-127	großen	_	_
+4-5	128-136	Couverts	_	_
+4-6	137-144	nöthigt	_	_
+4-7	145-149	mich	_	_
+4-8	150-151	,	_	_
+4-9	152-157	Ihnen	_	_
+4-10	158-161	die	_	_
+4-11	162-168	Briefe	_	_
+4-12	169-173	heut	_	_
+4-13	174-181	einzeln	_	_
+4-14	182-184	zu	_	_
+4-15	185-193	schicken	_	_
+4-16	194-195	.	_	_
+
+#Text=Zu fragen hätte ich Sie zwei Dinge .
+5-1	196-198	Zu	_	_
+5-2	199-205	fragen	_	_
+5-3	206-211	hätte	_	_
+5-4	212-215	ich	_	_
+5-5	216-219	Sie	_	_
+5-6	220-224	zwei	_	_
+5-7	225-230	Dinge	_	_
+5-8	231-232	.	_	_
+
+#Text=Erstens Marietti , der Besitzer der Druckerei der Propaganda , hat sich für die Institutspublicationen associirt und die Bände der Annali , welche ihm aus früheren Jahrgängen fehlten , angekauft .
+6-1	233-240	Erstens	_	_
+6-2	241-249	Marietti	*	PERmentioned
+6-3	250-251	,	_	_
+6-4	252-255	der	_	_
+6-5	256-264	Besitzer	_	_
+6-6	265-268	der	_	_
+6-7	269-278	Druckerei	_	_
+6-8	279-282	der	_	_
+6-9	283-293	Propaganda	_	_
+6-10	294-295	,	_	_
+6-11	296-299	hat	_	_
+6-12	300-304	sich	_	_
+6-13	305-308	für	_	_
+6-14	309-312	die	_	_
+6-15	313-335	Institutspublicationen	_	_
+6-16	336-345	associirt	_	_
+6-17	346-349	und	_	_
+6-18	350-353	die	_	_
+6-19	354-359	Bände	_	_
+6-20	360-363	der	_	_
+6-21	364-370	Annali	_	_
+6-22	371-372	,	_	_
+6-23	373-379	welche	_	_
+6-24	380-383	ihm	_	_
+6-25	384-387	aus	_	_
+6-26	388-396	früheren	_	_
+6-27	397-407	Jahrgängen	_	_
+6-28	408-415	fehlten	_	_
+6-29	416-417	,	_	_
+6-30	418-427	angekauft	_	_
+6-31	428-429	.	_	_
+
+#Text=Es sind dies Vol . 17 . 26 . 27 . 28 . 32 . 34 .
+7-1	430-432	Es	_	_
+7-2	433-437	sind	_	_
+7-3	438-442	dies	_	_
+7-4	443-446	Vol	_	_
+7-5	447-448	.	_	_
+7-6	449-451	17	_	_
+7-7	452-453	.	_	_
+7-8	454-456	26	_	_
+7-9	457-458	.	_	_
+7-10	459-461	27	_	_
+7-11	462-463	.	_	_
+7-12	464-466	28	_	_
+7-13	467-468	.	_	_
+7-14	469-471	32	_	_
+7-15	472-473	.	_	_
+7-16	474-476	34	_	_
+7-17	477-478	.	_	_
+
+#Text=Beil Vol . 26 - 28 sind , wie bekannt , Bullettino und Monumenti mit einbegriffen .
+8-1	479-483	Beil	_	_
+8-2	484-487	Vol	_	_
+8-3	488-489	.	_	_
+8-4	490-492	26	_	_
+8-5	493-494	-	_	_
+8-6	495-497	28	_	_
+8-7	498-502	sind	_	_
+8-8	503-504	,	_	_
+8-9	505-508	wie	_	_
+8-10	509-516	bekannt	_	_
+8-11	517-518	,	_	_
+8-12	519-529	Bullettino	_	_
+8-13	530-533	und	_	_
+8-14	534-543	Monumenti	_	_
+8-15	544-547	mit	_	_
+8-16	548-560	einbegriffen	_	_
+8-17	561-562	.	_	_
+
+#Text=Marietti behauptet , das Institut gebe bei Verkauf früherer Jahrgänge einen ribasso .
+9-1	563-571	Marietti	*	PERmentioned
+9-2	572-581	behauptet	_	_
+9-3	582-583	,	_	_
+9-4	584-587	das	_	_
+9-5	588-596	Institut	*	ORGmentioned
+9-6	597-601	gebe	_	_
+9-7	602-605	bei	_	_
+9-8	606-613	Verkauf	_	_
+9-9	614-622	früherer	_	_
+9-10	623-632	Jahrgänge	_	_
+9-11	633-638	einen	_	_
+9-12	639-646	ribasso	_	_
+9-13	647-648	.	_	_
+
+#Text=Wie steht es damit ?
+10-1	649-652	Wie	_	_
+10-2	653-658	steht	_	_
+10-3	659-661	es	_	_
+10-4	662-667	damit	_	_
+10-5	668-669	?	_	_
+
+#Text=Zweitens Gerhard hat mir in seinem letzten Briefe seine Adresse geschrieben , aber so confus , daß ich nichts damit zu machen weiß .
+11-1	670-678	Zweitens	_	_
+11-2	679-686	Gerhard	*	PERmentioned
+11-3	687-690	hat	_	_
+11-4	691-694	mir	_	_
+11-5	695-697	in	_	_
+11-6	698-704	seinem	_	_
+11-7	705-712	letzten	_	_
+11-8	713-719	Briefe	_	_
+11-9	720-725	seine	_	_
+11-10	726-733	Adresse	_	_
+11-11	734-745	geschrieben	_	_
+11-12	746-747	,	_	_
+11-13	748-752	aber	_	_
+11-14	753-755	so	_	_
+11-15	756-762	confus	_	_
+11-16	763-764	,	_	_
+11-17	765-768	daß	_	_
+11-18	769-772	ich	_	_
+11-19	773-779	nichts	_	_
+11-20	780-785	damit	_	_
+11-21	786-788	zu	_	_
+11-22	789-795	machen	_	_
+11-23	796-800	weiß	_	_
+11-24	801-802	.	_	_
+
+#Text=Sollte sie sich in Ihrem Briefe vorfinden , dann bitte ich Sie , sie m ir zu schreiben .. Ende dieser Woche wird das Bullettino fertig .
+12-1	803-809	Sollte	_	_
+12-2	810-813	sie	_	_
+12-3	814-818	sich	_	_
+12-4	819-821	in	_	_
+12-5	822-827	Ihrem	_	_
+12-6	828-834	Briefe	_	_
+12-7	835-844	vorfinden	_	_
+12-8	845-846	,	_	_
+12-9	847-851	dann	_	_
+12-10	852-857	bitte	_	_
+12-11	858-861	ich	_	_
+12-12	862-865	Sie	_	_
+12-13	866-867	,	_	_
+12-14	868-871	sie	_	_
+12-15	872-873	m	_	_
+12-16	874-876	ir	_	_
+12-17	877-879	zu	_	_
+12-18	880-889	schreiben	_	_
+12-19	890-892	..	_	_
+12-20	893-897	Ende	_	_
+12-21	898-904	dieser	_	_
+12-22	905-910	Woche	_	_
+12-23	911-915	wird	_	_
+12-24	916-919	das	_	_
+12-25	920-930	Bullettino	_	_
+12-26	931-937	fertig	_	_
+12-27	938-939	.	_	_
+
+#Text=Vielleicht komme ich dann - etwa Sonntag - auf einige Tage nach Olevano .
+13-1	940-950	Vielleicht	_	_
+13-2	951-956	komme	_	_
+13-3	957-960	ich	_	_
+13-4	961-965	dann	_	_
+13-5	966-967	-	_	_
+13-6	968-972	etwa	_	_
+13-7	973-980	Sonntag	*	DATEmentioned
+13-8	981-982	-	_	_
+13-9	983-986	auf	_	_
+13-10	987-993	einige	_	_
+13-11	994-998	Tage	_	_
+13-12	999-1003	nach	_	_
+13-13	1004-1011	Olevano	*	PLACEmentioned
+13-14	1012-1013	.	_	_
+
+#Text=Mit dem Schneiden der Garruccischen
+14-1	1014-1017	Mit	_	_
+14-2	1018-1021	dem	_	_
+14-3	1022-1031	Schneiden	_	_
+14-4	1032-1035	der	_	_
+14-5	1036-1049	Garruccischen	*	MISC

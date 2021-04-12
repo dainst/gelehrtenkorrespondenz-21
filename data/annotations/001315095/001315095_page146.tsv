@@ -1,0 +1,72 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn „ u .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-18	„	_	_
+1-5	19-20	u	_	_
+1-6	21-22	.	_	_
+
+#Text=Berlin , 10. März 1865 ( Über dem Kopf der letzten Seite ) : Gehst Du auf den Gedanken wegen des Urnenwerkes ein , So stipulire etwas Besonderes an Reisegeldern für Dich und Zuschuß zur Publication , wenn Du dafür Chance siehst .
+2-1	23-29	Berlin	*	PLACEfrom
+2-2	30-31	,	_	_
+2-3	32-35	10.	*[1]	DATEletter[1]
+2-4	36-40	März	*[1]	DATEletter[1]
+2-5	41-45	1865	*[1]	DATEletter[1]
+2-6	46-47	(	_	_
+2-7	48-52	Über	_	_
+2-8	53-56	dem	_	_
+2-9	57-61	Kopf	_	_
+2-10	62-65	der	_	_
+2-11	66-73	letzten	_	_
+2-12	74-79	Seite	_	_
+2-13	80-81	)	_	_
+2-14	82-83	:	_	_
+2-15	84-89	Gehst	_	_
+2-16	90-92	Du	_	_
+2-17	93-96	auf	_	_
+2-18	97-100	den	_	_
+2-19	101-109	Gedanken	_	_
+2-20	110-115	wegen	_	_
+2-21	116-119	des	_	_
+2-22	120-131	Urnenwerkes	_	_
+2-23	132-135	ein	_	_
+2-24	136-137	,	_	_
+2-25	138-140	So	_	_
+2-26	141-150	stipulire	_	_
+2-27	151-156	etwas	_	_
+2-28	157-167	Besonderes	_	_
+2-29	168-170	an	_	_
+2-30	171-183	Reisegeldern	_	_
+2-31	184-187	für	_	_
+2-32	188-192	Dich	_	_
+2-33	193-196	und	_	_
+2-34	197-204	Zuschuß	_	_
+2-35	205-208	zur	_	_
+2-36	209-220	Publication	_	_
+2-37	221-222	,	_	_
+2-38	223-227	wenn	_	_
+2-39	228-230	Du	_	_
+2-40	231-236	dafür	_	_
+2-41	237-243	Chance	_	_
+2-42	244-250	siehst	_	_
+2-43	251-252	.	_	_
+
+#Text=Unbestimmte Zusagen gelten nirgends viel , in Baiern gar nichts \; dennoch handle .
+3-1	253-264	Unbestimmte	_	_
+3-2	265-272	Zusagen	_	_
+3-3	273-279	gelten	_	_
+3-4	280-288	nirgends	_	_
+3-5	289-293	viel	_	_
+3-6	294-295	,	_	_
+3-7	296-298	in	_	_
+3-8	299-305	Baiern	*	PLACEmentioned
+3-9	306-309	gar	_	_
+3-10	310-316	nichts	_	_
+3-11	317-318	\;	_	_
+3-12	319-326	dennoch	_	_
+3-13	327-333	handle	_	_
+3-14	334-335	.	_	_

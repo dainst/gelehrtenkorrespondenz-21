@@ -1,0 +1,294 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , November 1835 ner ehemaligen Blüthe erfreute .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	*[7]	DATEletter[7]
+1-6	23-31	November	*[7]	DATEletter[7]
+1-7	32-36	1835	*[7]	DATEletter[7]
+1-8	37-40	ner	_	_
+1-9	41-51	ehemaligen	_	_
+1-10	52-58	Blüthe	_	_
+1-11	59-67	erfreute	_	_
+1-12	68-69	.	_	_
+
+#Text=Mehr versprechend als wichtig ist sodann die Entdeckung eines antiken Töpferofens gewesen , in welchem man eine zahlreiche Menge graziöser Terracottenfigürchen aufgefunden hat .
+2-1	70-74	Mehr	_	_
+2-2	75-87	versprechend	_	_
+2-3	88-91	als	_	_
+2-4	92-99	wichtig	_	_
+2-5	100-103	ist	_	_
+2-6	104-110	sodann	_	_
+2-7	111-114	die	_	_
+2-8	115-125	Entdeckung	_	_
+2-9	126-131	eines	_	_
+2-10	132-139	antiken	*[8]	OBJ[8]
+2-11	140-151	Töpferofens	*[8]	OBJ[8]
+2-12	152-159	gewesen	_	_
+2-13	160-161	,	_	_
+2-14	162-164	in	_	_
+2-15	165-172	welchem	_	_
+2-16	173-176	man	_	_
+2-17	177-181	eine	_	_
+2-18	182-192	zahlreiche	_	_
+2-19	193-198	Menge	_	_
+2-20	199-208	graziöser	_	_
+2-21	209-229	Terracottenfigürchen	*	OBJ
+2-22	230-241	aufgefunden	_	_
+2-23	242-245	hat	_	_
+2-24	246-247	.	_	_
+
+#Text=Würde man bei der bald zu erhoffenden Fortsetzung dieser Grabung auch Spuren von Vasenfabrication entdecken , so würden auch die müßigen Untersuchungen über auswärtige und einheimische Fertigung der herrlichen Thongefäße , die sich allüberall in Etrurien bei Haufen finden , ein erfreuliches und beruhigendes Ende finden .
+3-1	248-253	Würde	_	_
+3-2	254-257	man	_	_
+3-3	258-261	bei	_	_
+3-4	262-265	der	_	_
+3-5	266-270	bald	_	_
+3-6	271-273	zu	_	_
+3-7	274-285	erhoffenden	_	_
+3-8	286-297	Fortsetzung	_	_
+3-9	298-304	dieser	_	_
+3-10	305-312	Grabung	_	_
+3-11	313-317	auch	_	_
+3-12	318-324	Spuren	_	_
+3-13	325-328	von	_	_
+3-14	329-345	Vasenfabrication	_	_
+3-15	346-355	entdecken	_	_
+3-16	356-357	,	_	_
+3-17	358-360	so	_	_
+3-18	361-367	würden	_	_
+3-19	368-372	auch	_	_
+3-20	373-376	die	_	_
+3-21	377-384	müßigen	_	_
+3-22	385-399	Untersuchungen	_	_
+3-23	400-404	über	_	_
+3-24	405-415	auswärtige	_	_
+3-25	416-419	und	_	_
+3-26	420-432	einheimische	_	_
+3-27	433-442	Fertigung	_	_
+3-28	443-446	der	_	_
+3-29	447-457	herrlichen	_	_
+3-30	458-468	Thongefäße	_	_
+3-31	469-470	,	_	_
+3-32	471-474	die	_	_
+3-33	475-479	sich	_	_
+3-34	480-490	allüberall	_	_
+3-35	491-493	in	_	_
+3-36	494-502	Etrurien	*	PLACEmentioned
+3-37	503-506	bei	_	_
+3-38	507-513	Haufen	_	_
+3-39	514-520	finden	_	_
+3-40	521-522	,	_	_
+3-41	523-526	ein	_	_
+3-42	527-539	erfreuliches	_	_
+3-43	540-543	und	_	_
+3-44	544-556	beruhigendes	_	_
+3-45	557-561	Ende	_	_
+3-46	562-568	finden	_	_
+3-47	569-570	.	_	_
+
+#Text=Der wichtigste Fund endlich , welchen die Grabungen des vergangenen Winters geliefert , ist eine prachtvolle Bronzestatue , deren Kopf leider fehlt .
+4-1	571-574	Der	_	_
+4-2	575-585	wichtigste	_	_
+4-3	586-590	Fund	_	_
+4-4	591-598	endlich	_	_
+4-5	599-600	,	_	_
+4-6	601-608	welchen	_	_
+4-7	609-612	die	_	_
+4-8	613-622	Grabungen	_	_
+4-9	623-626	des	_	_
+4-10	627-638	vergangenen	_	_
+4-11	639-646	Winters	_	_
+4-12	647-656	geliefert	_	_
+4-13	657-658	,	_	_
+4-14	659-662	ist	_	_
+4-15	663-667	eine	_	_
+4-16	668-679	prachtvolle	_	_
+4-17	680-692	Bronzestatue	*	OBJ
+4-18	693-694	,	_	_
+4-19	695-700	deren	_	_
+4-20	701-705	Kopf	_	_
+4-21	706-712	leider	_	_
+4-22	713-718	fehlt	_	_
+4-23	719-720	.	_	_
+
+#Text=Ihr Gewand zeigt einen reichen Faltenwurf , an ihrer Linken befinden sich 2 Ringe \; es ist also vorauszusetzen , daß es eine römische vielleicht kaiserliche Bildnißstatue gewesen sein möge .
+5-1	721-724	Ihr	_	_
+5-2	725-731	Gewand	_	_
+5-3	732-737	zeigt	_	_
+5-4	738-743	einen	_	_
+5-5	744-751	reichen	_	_
+5-6	752-762	Faltenwurf	_	_
+5-7	763-764	,	_	_
+5-8	765-767	an	_	_
+5-9	768-773	ihrer	_	_
+5-10	774-780	Linken	_	_
+5-11	781-789	befinden	_	_
+5-12	790-794	sich	_	_
+5-13	795-796	2	_	_
+5-14	797-802	Ringe	_	_
+5-15	803-804	\;	_	_
+5-16	805-807	es	_	_
+5-17	808-811	ist	_	_
+5-18	812-816	also	_	_
+5-19	817-831	vorauszusetzen	_	_
+5-20	832-833	,	_	_
+5-21	834-837	daß	_	_
+5-22	838-840	es	_	_
+5-23	841-845	eine	_	_
+5-24	846-854	römische	_	_
+5-25	855-865	vielleicht	_	_
+5-26	866-877	kaiserliche	_	_
+5-27	878-891	Bildnißstatue	_	_
+5-28	892-899	gewesen	_	_
+5-29	900-904	sein	_	_
+5-30	905-909	möge	_	_
+5-31	910-911	.	_	_
+
+#Text=Die Finder wollen dies nicht zugeben .
+6-1	912-915	Die	_	_
+6-2	916-922	Finder	_	_
+6-3	923-929	wollen	_	_
+6-4	930-934	dies	_	_
+6-5	935-940	nicht	_	_
+6-6	941-948	zugeben	_	_
+6-7	949-950	.	_	_
+
+#Text=Sie trafen die Statue innerhalb des Bezirkes der alten Stadt .
+7-1	951-954	Sie	_	_
+7-2	955-961	trafen	_	_
+7-3	962-965	die	_	_
+7-4	966-972	Statue	*	OBJ
+7-5	973-982	innerhalb	_	_
+7-6	983-986	des	_	_
+7-7	987-995	Bezirkes	_	_
+7-8	996-999	der	_	_
+7-9	1000-1005	alten	*[9]	OBJtopography[9]
+7-10	1006-1011	Stadt	*[9]	OBJtopography[9]
+7-11	1012-1013	.	_	_
+
+#Text=Sie war unter Travertin gut verwahrt \; neben ihr oder auf ihr lag ein großer bronzener Helmbusch .
+8-1	1014-1017	Sie	_	_
+8-2	1018-1021	war	_	_
+8-3	1022-1027	unter	_	_
+8-4	1028-1037	Travertin	_	_
+8-5	1038-1041	gut	_	_
+8-6	1042-1050	verwahrt	_	_
+8-7	1051-1052	\;	_	_
+8-8	1053-1058	neben	_	_
+8-9	1059-1062	ihr	_	_
+8-10	1063-1067	oder	_	_
+8-11	1068-1071	auf	_	_
+8-12	1072-1075	ihr	_	_
+8-13	1076-1079	lag	_	_
+8-14	1080-1083	ein	_	_
+8-15	1084-1090	großer	_	_
+8-16	1091-1100	bronzener	*[10]	OBJ[10]
+8-17	1101-1110	Helmbusch	*[10]	OBJ[10]
+8-18	1111-1112	.	_	_
+
+#Text=Diesen wollte man der Statue zuertheilen und sie so zu einer Minerva machen .
+9-1	1113-1119	Diesen	_	_
+9-2	1120-1126	wollte	_	_
+9-3	1127-1130	man	_	_
+9-4	1131-1134	der	_	_
+9-5	1135-1141	Statue	*	OBJ
+9-6	1142-1153	zuertheilen	_	_
+9-7	1154-1157	und	_	_
+9-8	1158-1161	sie	_	_
+9-9	1162-1164	so	_	_
+9-10	1165-1167	zu	_	_
+9-11	1168-1173	einer	_	_
+9-12	1174-1181	Minerva	*	PERmentioned
+9-13	1182-1188	machen	_	_
+9-14	1189-1190	.	_	_
+
+#Text=Glauben mag jedoch kein Mensch an diese Annahme und Thorwaldsen restaurirt sie mit einem Portraitkopf .
+10-1	1191-1198	Glauben	_	_
+10-2	1199-1202	mag	_	_
+10-3	1203-1209	jedoch	_	_
+10-4	1210-1214	kein	_	_
+10-5	1215-1221	Mensch	_	_
+10-6	1222-1224	an	_	_
+10-7	1225-1230	diese	_	_
+10-8	1231-1238	Annahme	_	_
+10-9	1239-1242	und	_	_
+10-10	1243-1254	Thorwaldsen	*	PERmentioned
+10-11	1255-1265	restaurirt	_	_
+10-12	1266-1269	sie	_	_
+10-13	1270-1273	mit	_	_
+10-14	1274-1279	einem	_	_
+10-15	1280-1292	Portraitkopf	_	_
+10-16	1293-1294	.	_	_
+
+#Text=Dadurch daß sich das hiesige Guvernum den Herren Campanaris auf drei Jahre associirt hat , haben die Grabungen an Ausdehnung gewonnen .
+11-1	1295-1302	Dadurch	_	_
+11-2	1303-1306	daß	_	_
+11-3	1307-1311	sich	_	_
+11-4	1312-1315	das	_	_
+11-5	1316-1323	hiesige	_	_
+11-6	1324-1332	Guvernum	*	ORGmentioned
+11-7	1333-1336	den	_	_
+11-8	1337-1343	Herren	_	_
+11-9	1344-1354	Campanaris	*	PERmentioned
+11-10	1355-1358	auf	_	_
+11-11	1359-1363	drei	_	_
+11-12	1364-1369	Jahre	_	_
+11-13	1370-1379	associirt	_	_
+11-14	1380-1383	hat	_	_
+11-15	1384-1385	,	_	_
+11-16	1386-1391	haben	_	_
+11-17	1392-1395	die	_	_
+11-18	1396-1405	Grabungen	_	_
+11-19	1406-1408	an	_	_
+11-20	1409-1419	Ausdehnung	_	_
+11-21	1420-1428	gewonnen	_	_
+11-22	1429-1430	.	_	_
+
+#Text=Man gräbt in der alten Stadt und in der Necropole zugleich .
+12-1	1431-1434	Man	_	_
+12-2	1435-1440	gräbt	_	_
+12-3	1441-1443	in	_	_
+12-4	1444-1447	der	_	_
+12-5	1448-1453	alten	*[11]	OBJtopography[11]
+12-6	1454-1459	Stadt	*[11]	OBJtopography[11]
+12-7	1460-1463	und	_	_
+12-8	1464-1466	in	_	_
+12-9	1467-1470	der	_	_
+12-10	1471-1480	Necropole	*	OBJtopography
+12-11	1481-1489	zugleich	_	_
+12-12	1490-1491	.	_	_
+
+#Text=Dadurch sind jedoch die Kräfte zugleicher Zeit getheilt worden \; man hat sonach auch nur eine geringere Ausbeute von Vasen und andern Gräbergeräthen machen können , als in
+13-1	1492-1499	Dadurch	_	_
+13-2	1500-1504	sind	_	_
+13-3	1505-1511	jedoch	_	_
+13-4	1512-1515	die	_	_
+13-5	1516-1522	Kräfte	_	_
+13-6	1523-1533	zugleicher	_	_
+13-7	1534-1538	Zeit	_	_
+13-8	1539-1547	getheilt	_	_
+13-9	1548-1554	worden	_	_
+13-10	1555-1556	\;	_	_
+13-11	1557-1560	man	_	_
+13-12	1561-1564	hat	_	_
+13-13	1565-1571	sonach	_	_
+13-14	1572-1576	auch	_	_
+13-15	1577-1580	nur	_	_
+13-16	1581-1585	eine	_	_
+13-17	1586-1595	geringere	_	_
+13-18	1596-1604	Ausbeute	_	_
+13-19	1605-1608	von	_	_
+13-20	1609-1614	Vasen	*	OBJ
+13-21	1615-1618	und	_	_
+13-22	1619-1625	andern	_	_
+13-23	1626-1640	Gräbergeräthen	*	OBJ
+13-24	1641-1647	machen	_	_
+13-25	1648-1654	können	_	_
+13-26	1655-1656	,	_	_
+13-27	1657-1660	als	_	_
+13-28	1661-1663	in	_	_

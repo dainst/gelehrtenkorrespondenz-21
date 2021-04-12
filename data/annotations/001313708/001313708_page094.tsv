@@ -1,0 +1,201 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Bunsen Rom , 19. Mai 1834 bei Herrn von Schilden veranlaßt wurde .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Bunsen	*	PERaddressee
+1-4	18-21	Rom	*	PLACEfrom
+1-5	22-23	,	_	_
+1-6	24-27	19.	*[4]	DATEletter[4]
+1-7	28-31	Mai	*[4]	DATEletter[4]
+1-8	32-36	1834	*[4]	DATEletter[4]
+1-9	37-40	bei	_	_
+1-10	41-46	Herrn	_	_
+1-11	47-50	von	*[5]	PERmentioned[5]
+1-12	51-59	Schilden	*[5]	PERmentioned[5]
+1-13	60-69	veranlaßt	_	_
+1-14	70-75	wurde	_	_
+1-15	76-77	.	_	_
+
+#Text=Auch bemerke ich , daß von den Prinzen des Königlichen Hauses Prinz Albrecht , von den Berliner Bibliotheken die der Kriegsschule und der Bauschule nieht subseribirthaben , obwohl sie viel andere artistische Werke anschaffen sollen und vom Ministerium schwerlich betheiligt werden .
+2-1	78-82	Auch	_	_
+2-2	83-90	bemerke	_	_
+2-3	91-94	ich	_	_
+2-4	95-96	,	_	_
+2-5	97-100	daß	_	_
+2-6	101-104	von	_	_
+2-7	105-108	den	_	_
+2-8	109-116	Prinzen	*	PERmentioned
+2-9	117-120	des	_	_
+2-10	121-132	Königlichen	_	_
+2-11	133-139	Hauses	_	_
+2-12	140-145	Prinz	*[7]	PERmentioned[7]
+2-13	146-154	Albrecht	*[7]	PERmentioned[7]
+2-14	155-156	,	_	_
+2-15	157-160	von	_	_
+2-16	161-164	den	_	_
+2-17	165-173	Berliner	*	PLACEmentioned
+2-18	174-186	Bibliotheken	_	_
+2-19	187-190	die	_	_
+2-20	191-194	der	_	_
+2-21	195-207	Kriegsschule	*	ORGmentioned
+2-22	208-211	und	_	_
+2-23	212-215	der	_	_
+2-24	216-225	Bauschule	*	ORGmentioned
+2-25	226-231	nieht	_	_
+2-26	232-248	subseribirthaben	_	_
+2-27	249-250	,	_	_
+2-28	251-257	obwohl	_	_
+2-29	258-261	sie	_	_
+2-30	262-266	viel	_	_
+2-31	267-273	andere	_	_
+2-32	274-285	artistische	_	_
+2-33	286-291	Werke	_	_
+2-34	292-302	anschaffen	_	_
+2-35	303-309	sollen	_	_
+2-36	310-313	und	_	_
+2-37	314-317	vom	_	_
+2-38	318-329	Ministerium	*	ORGmentioned
+2-39	330-340	schwerlich	_	_
+2-40	341-351	betheiligt	_	_
+2-41	352-358	werden	_	_
+2-42	359-360	.	_	_
+
+#Text=-- Meine auf die Akademie gegründeten etruskischen Hoffnungen sind völlig eingeschlafen , obwohl bei meiner Abreise von Berlin jährliche 400 Rt zur Beendigung meines Corpus gewiß schienen .
+3-1	361-363	--	_	_
+3-2	364-369	Meine	_	_
+3-3	370-373	auf	_	_
+3-4	374-377	die	_	_
+3-5	378-386	Akademie	*	ORGmentioned
+3-6	387-398	gegründeten	_	_
+3-7	399-411	etruskischen	_	_
+3-8	412-422	Hoffnungen	_	_
+3-9	423-427	sind	_	_
+3-10	428-434	völlig	_	_
+3-11	435-448	eingeschlafen	_	_
+3-12	449-450	,	_	_
+3-13	451-457	obwohl	_	_
+3-14	458-461	bei	_	_
+3-15	462-468	meiner	_	_
+3-16	469-476	Abreise	_	_
+3-17	477-480	von	_	_
+3-18	481-487	Berlin	*	PLACEmentioned
+3-19	488-497	jährliche	_	_
+3-20	498-501	400	_	_
+3-21	502-504	Rt	_	_
+3-22	505-508	zur	_	_
+3-23	509-519	Beendigung	_	_
+3-24	520-526	meines	_	_
+3-25	527-533	Corpus	_	_
+3-26	534-539	gewiß	_	_
+3-27	540-548	schienen	_	_
+3-28	549-550	.	_	_
+
+#Text=Aber mein officielles Schreiben an Schleiermacher muß gar nicht abgegeben worden sein \; Levezow schrieb mir neulich die Sache sei neulich in einer Classensitzung zur Sprache gekommen , Niemand aber habe darum gewußt .
+4-1	551-555	Aber	_	_
+4-2	556-560	mein	_	_
+4-3	561-572	officielles	_	_
+4-4	573-582	Schreiben	_	_
+4-5	583-585	an	_	_
+4-6	586-600	Schleiermacher	*	PERmentioned
+4-7	601-604	muß	_	_
+4-8	605-608	gar	_	_
+4-9	609-614	nicht	_	_
+4-10	615-624	abgegeben	_	_
+4-11	625-631	worden	_	_
+4-12	632-636	sein	_	_
+4-13	637-638	\;	_	_
+4-14	639-646	Levezow	*	PERmentioned
+4-15	647-654	schrieb	_	_
+4-16	655-658	mir	_	_
+4-17	659-666	neulich	_	_
+4-18	667-670	die	_	_
+4-19	671-676	Sache	_	_
+4-20	677-680	sei	_	_
+4-21	681-688	neulich	_	_
+4-22	689-691	in	_	_
+4-23	692-697	einer	_	_
+4-24	698-712	Classensitzung	_	_
+4-25	713-716	zur	_	_
+4-26	717-724	Sprache	_	_
+4-27	725-733	gekommen	_	_
+4-28	734-735	,	_	_
+4-29	736-743	Niemand	_	_
+4-30	744-748	aber	_	_
+4-31	749-753	habe	_	_
+4-32	754-759	darum	_	_
+4-33	760-766	gewußt	_	_
+4-34	767-768	.	_	_
+
+#Text=-- Von hiesigen Institutstheilnehmern ist Lord Pembroke nicht ohne Villanie abgefallen .
+5-1	769-771	--	_	_
+5-2	772-775	Von	_	_
+5-3	776-784	hiesigen	_	_
+5-4	785-806	Institutstheilnehmern	_	_
+5-5	807-810	ist	_	_
+5-6	811-815	Lord	*[16]	PERmentioned[16]
+5-7	816-824	Pembroke	*[16]	PERmentioned[16]
+5-8	825-830	nicht	_	_
+5-9	831-835	ohne	_	_
+5-10	836-844	Villanie	_	_
+5-11	845-855	abgefallen	_	_
+5-12	856-857	.	_	_
+
+#Text=-- Meiner Gesundheit geht es einen Grad besser \; ich fürchte mich aber vor der sicilischen Reise und andre heise Wengen .
+6-1	858-860	--	_	_
+6-2	861-867	Meiner	_	_
+6-3	868-878	Gesundheit	_	_
+6-4	879-883	geht	_	_
+6-5	884-886	es	_	_
+6-6	887-892	einen	_	_
+6-7	893-897	Grad	_	_
+6-8	898-904	besser	_	_
+6-9	905-906	\;	_	_
+6-10	907-910	ich	_	_
+6-11	911-918	fürchte	_	_
+6-12	919-923	mich	_	_
+6-13	924-928	aber	_	_
+6-14	929-932	vor	_	_
+6-15	933-936	der	_	_
+6-16	937-948	sicilischen	_	_
+6-17	949-954	Reise	_	_
+6-18	955-958	und	_	_
+6-19	959-964	andre	_	_
+6-20	965-970	heise	_	_
+6-21	971-977	Wengen	_	_
+6-22	978-979	.	_	_
+
+#Text=Der Himmel wird weiter helfen .
+7-1	980-983	Der	_	_
+7-2	984-990	Himmel	_	_
+7-3	991-995	wird	_	_
+7-4	996-1002	weiter	_	_
+7-5	1003-1009	helfen	_	_
+7-6	1010-1011	.	_	_
+
+#Text=Tausendfältigen Dank 2Yi 0 » ( und\| für Ihre wohlwollende Eiranialeı ” ( bei ) der .
+8-1	1012-1027	Tausendfältigen	_	_
+8-2	1028-1032	Dank	_	_
+8-3	1033-1036	2Yi	_	_
+8-4	1037-1038	0	_	_
+8-5	1039-1040	»	_	_
+8-6	1041-1042	(	_	_
+8-7	1043-1047	und\|	_	_
+8-8	1048-1051	für	_	_
+8-9	1052-1056	Ihre	_	_
+8-10	1057-1069	wohlwollende	_	_
+8-11	1070-1080	Eiranialeı	_	_
+8-12	1081-1082	”	_	_
+8-13	1083-1084	(	_	_
+8-14	1085-1088	bei	_	_
+8-15	1089-1090	)	_	_
+8-16	1091-1094	der	_	_
+8-17	1095-1096	.	_	_
+
+#Text=1 Ihr getreuer Gerhard
+9-1	1097-1098	1	_	_
+9-2	1099-1102	Ihr	_	_
+9-3	1103-1111	getreuer	_	_
+9-4	1112-1119	Gerhard	*	PERauthor

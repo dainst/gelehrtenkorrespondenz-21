@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 14 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	14	*[5]	DATEletter[5]
+1-7	26-27	.	*[5]	DATEletter[5]
+
+#Text=August 1863 H. g . 31/8 63 Rom 14 .
+2-1	28-34	August	*[5]	DATEletter[5]
+2-2	35-39	1863	*[5]	DATEletter[5]
+2-3	40-42	H.	_	_
+2-4	43-44	g	_	_
+2-5	45-46	.	_	_
+2-6	47-51	31/8	*[6]	DATErecieved[6]
+2-7	52-54	63	*[6]	DATErecieved[6]
+2-8	55-58	Rom	*	PLACEfrom
+2-9	59-61	14	*[7]	DATEletter[7]
+2-10	62-63	.	*[7]	DATEletter[7]
+
+#Text=August 1863 Geehrtester Herr Professor !
+3-1	64-70	August	*[7]	DATEletter[7]
+3-2	71-75	1863	*[7]	DATEletter[7]
+3-3	76-87	Geehrtester	_	_
+3-4	88-92	Herr	_	_
+3-5	93-102	Professor	_	_
+3-6	103-104	!	_	_
+
+#Text=In der Bankrottabgelegenheit des venezianischen Buchhändlers habe ich die nöthigen Schritte gethan und das Autorisations- und Klagformular an den Avvocato abgeschickt .
+4-1	105-107	In	_	_
+4-2	108-111	der	_	_
+4-3	112-133	Bankrottabgelegenheit	_	_
+4-4	134-137	des	_	_
+4-5	138-152	venezianischen	_	_
+4-6	153-165	Buchhändlers	_	_
+4-7	166-170	habe	_	_
+4-8	171-174	ich	_	_
+4-9	175-178	die	_	_
+4-10	179-187	nöthigen	_	_
+4-11	188-196	Schritte	_	_
+4-12	197-203	gethan	_	_
+4-13	204-207	und	_	_
+4-14	208-211	das	_	_
+4-15	212-226	Autorisations-	_	_
+4-16	227-230	und	_	_
+4-17	231-243	Klagformular	_	_
+4-18	244-246	an	_	_
+4-19	247-250	den	_	_
+4-20	251-259	Avvocato	_	_
+4-21	260-271	abgeschickt	_	_
+4-22	272-273	.	_	_
+
+#Text=Doch habe ich nachträglich von diesem einen Brief erhalten , worin er die Angabe verlangt , wie hoch sich auf Heller und Pfennig die Summe beläuft , die er für das Institut einklagen soll - ich hatte ihm nach Ihrer Anweisung im Allgemeinen von 60 Scudi geschrieben - und ieh welcher Weise die Schuld von dem Buchhändler contractirt worden ist .
+5-1	274-278	Doch	_	_
+5-2	279-283	habe	_	_
+5-3	284-287	ich	_	_
+5-4	288-300	nachträglich	_	_
+5-5	301-304	von	_	_
+5-6	305-311	diesem	_	_
+5-7	312-317	einen	_	_
+5-8	318-323	Brief	_	_
+5-9	324-332	erhalten	_	_
+5-10	333-334	,	_	_
+5-11	335-340	worin	_	_
+5-12	341-343	er	_	_
+5-13	344-347	die	_	_
+5-14	348-354	Angabe	_	_
+5-15	355-363	verlangt	_	_
+5-16	364-365	,	_	_
+5-17	366-369	wie	_	_
+5-18	370-374	hoch	_	_
+5-19	375-379	sich	_	_
+5-20	380-383	auf	_	_
+5-21	384-390	Heller	_	_
+5-22	391-394	und	_	_
+5-23	395-402	Pfennig	_	_
+5-24	403-406	die	_	_
+5-25	407-412	Summe	_	_
+5-26	413-420	beläuft	_	_
+5-27	421-422	,	_	_
+5-28	423-426	die	_	_
+5-29	427-429	er	_	_
+5-30	430-433	für	_	_
+5-31	434-437	das	_	_
+5-32	438-446	Institut	*	ORGmentioned
+5-33	447-456	einklagen	_	_
+5-34	457-461	soll	_	_
+5-35	462-463	-	_	_
+5-36	464-467	ich	_	_
+5-37	468-473	hatte	_	_
+5-38	474-477	ihm	_	_
+5-39	478-482	nach	_	_
+5-40	483-488	Ihrer	_	_
+5-41	489-498	Anweisung	_	_
+5-42	499-501	im	_	_
+5-43	502-513	Allgemeinen	_	_
+5-44	514-517	von	_	_
+5-45	518-520	60	_	_
+5-46	521-526	Scudi	_	_
+5-47	527-538	geschrieben	_	_
+5-48	539-540	-	_	_
+5-49	541-544	und	_	_
+5-50	545-548	ieh	_	_
+5-51	549-556	welcher	_	_
+5-52	557-562	Weise	_	_
+5-53	563-566	die	_	_
+5-54	567-573	Schuld	_	_
+5-55	574-577	von	_	_
+5-56	578-581	dem	_	_
+5-57	582-593	Buchhändler	_	_
+5-58	594-605	contractirt	_	_
+5-59	606-612	worden	_	_
+5-60	613-616	ist	_	_
+5-61	617-618	.	_	_
+
+#Text=Ich bitte Sie deßhalb direct an den Advocaten zu schreiben .
+6-1	619-622	Ich	_	_
+6-2	623-628	bitte	_	_
+6-3	629-632	Sie	_	_
+6-4	633-640	deßhalb	_	_
+6-5	641-647	direct	_	_
+6-6	648-650	an	_	_
+6-7	651-654	den	_	_
+6-8	655-664	Advocaten	_	_
+6-9	665-667	zu	_	_
+6-10	668-677	schreiben	_	_
+6-11	678-679	.	_	_
+
+#Text=Dieselbe Bitte habe ich an Brunn gerichtet , der gegenwärtig in Chiusi ist .
+7-1	680-688	Dieselbe	_	_
+7-2	689-694	Bitte	_	_
+7-3	695-699	habe	_	_
+7-4	700-703	ich	_	_
+7-5	704-706	an	_	_
+7-6	707-712	Brunn	*	PERmentioned
+7-7	713-722	gerichtet	_	_
+7-8	723-724	,	_	_
+7-9	725-728	der	_	_
+7-10	729-740	gegenwärtig	_	_
+7-11	741-743	in	_	_
+7-12	744-750	Chiusi	*	PLACEmentioned
+7-13	751-754	ist	_	_
+7-14	755-756	.	_	_
+
+#Text=Ihr Brief kommt jedenfalls zur rechten Zeit , da bis Ende August die Meldungen in Empfang genommen werden und erst im September die Instruirung des Processes beginnt .
+8-1	757-760	Ihr	_	_
+8-2	761-766	Brief	_	_
+8-3	767-772	kommt	_	_
+8-4	773-783	jedenfalls	_	_
+8-5	784-787	zur	_	_
+8-6	788-795	rechten	_	_
+8-7	796-800	Zeit	_	_
+8-8	801-802	,	_	_
+8-9	803-805	da	_	_
+8-10	806-809	bis	_	_
+8-11	810-814	Ende	_	_
+8-12	815-821	August	*	DATEmentioned
+8-13	822-825	die	_	_
+8-14	826-835	Meldungen	_	_
+8-15	836-838	in	_	_
+8-16	839-846	Empfang	_	_
+8-17	847-855	genommen	_	_
+8-18	856-862	werden	_	_
+8-19	863-866	und	_	_
+8-20	867-871	erst	_	_
+8-21	872-874	im	_	_
+8-22	875-884	September	*	DATEmentioned
+8-23	885-888	die	_	_
+8-24	889-900	Instruirung	_	_
+8-25	901-904	des	_	_
+8-26	905-914	Processes	_	_
+8-27	915-922	beginnt	_	_
+8-28	923-924	.	_	_
+
+#Text=Hier in Rom geht Alles gut .
+9-1	925-929	Hier	_	_
+9-2	930-932	in	_	_
+9-3	933-936	Rom	*	PLACEmentioned
+9-4	937-941	geht	_	_
+9-5	942-947	Alles	_	_
+9-6	948-951	gut	_	_
+9-7	952-953	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr Wolfgang Helbig Adresse des Advocaten : Dr. Leone Fortis , Avvocato del Foro di Venezia .
+10-1	954-957	Mit	_	_
+10-2	958-968	herzlichen	_	_
+10-3	969-975	Grüßen	_	_
+10-4	976-979	Ihr	_	_
+10-5	980-988	Wolfgang	*[8]	PERauthor[8]
+10-6	989-995	Helbig	*[8]	PERauthor[8]
+10-7	996-1003	Adresse	_	_
+10-8	1004-1007	des	_	_
+10-9	1008-1017	Advocaten	_	_
+10-10	1018-1019	:	_	_
+10-11	1020-1023	Dr.	*[9]	PERmentioned[9]
+10-12	1024-1029	Leone	*[9]	PERmentioned[9]
+10-13	1030-1036	Fortis	*[9]	PERmentioned[9]
+10-14	1037-1038	,	_	_
+10-15	1039-1047	Avvocato	_	_
+10-16	1048-1051	del	_	_
+10-17	1052-1056	Foro	_	_
+10-18	1057-1059	di	_	_
+10-19	1060-1067	Venezia	*	PLACEmentioned
+10-20	1068-1069	.	_	_

@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=227 Brunn an Henzen Paris , 2. Juni 1864 g . 6. Juni 1864 r . 7. Juni 1864 Paris , Donnerstag 2 Juni Abends , 1864 .
+1-1	0-3	227	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-25	Paris	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	2.	_	_
+1-8	31-35	Juni	_	_
+1-9	36-40	1864	_	_
+1-10	41-42	g	_	_
+1-11	43-44	.	_	_
+1-12	45-47	6.	*[3]	DATEletter[3]
+1-13	48-52	Juni	*[3]|*[4]	DATEletter[3]|DATErecieved[4]
+1-14	53-57	1864	*[3]|*[4]	DATEletter[3]|DATErecieved[4]
+1-15	58-59	r	_	_
+1-16	60-61	.	_	_
+1-17	62-64	7.	_	_
+1-18	65-69	Juni	*[5]	DATEanswered[5]
+1-19	70-74	1864	*[5]	DATEanswered[5]
+1-20	75-80	Paris	*	PLACEfrom
+1-21	81-82	,	_	_
+1-22	83-93	Donnerstag	*[6]	DATEletter[6]
+1-23	94-95	2	*[6]	DATEletter[6]
+1-24	96-100	Juni	*[6]	DATEletter[6]
+1-25	101-107	Abends	*[6]	DATEletter[6]
+1-26	108-109	,	*[6]	DATEletter[6]
+1-27	110-114	1864	*[6]	DATEletter[6]
+1-28	115-116	.	_	_
+
+#Text=Lieber Henzen \| !
+2-1	117-123	Lieber	_	_
+2-2	124-130	Henzen	*	PERaddressee
+2-3	131-132	\|	_	_
+2-4	133-134	!	_	_
+
+#Text=Um vier Uhr heute hier eingerückt .
+3-1	135-137	Um	_	_
+3-2	138-142	vier	_	_
+3-3	143-146	Uhr	_	_
+3-4	147-152	heute	_	_
+3-5	153-157	hier	_	_
+3-6	158-168	eingerückt	_	_
+3-7	169-170	.	_	_
+
+#Text=Die Seefahrt begann prächtig , trotzdem daß 216 Mann Franzosen das ganze Vorderdeck occupirt hatten .
+4-1	171-174	Die	_	_
+4-2	175-183	Seefahrt	_	_
+4-3	184-190	begann	_	_
+4-4	191-199	prächtig	_	_
+4-5	200-201	,	_	_
+4-6	202-210	trotzdem	_	_
+4-7	211-214	daß	_	_
+4-8	215-218	216	_	_
+4-9	219-223	Mann	_	_
+4-10	224-233	Franzosen	_	_
+4-11	234-237	das	_	_
+4-12	238-243	ganze	_	_
+4-13	244-254	Vorderdeck	_	_
+4-14	255-263	occupirt	_	_
+4-15	264-270	hatten	_	_
+4-16	271-272	.	_	_
+
+#Text=Aber abgesehen von zwei Cardinälen , verschiedene Patriarchen , Erzbischöfen und Bischöfen hatten wir auch einen Capuciner an Bord und so konnte es natürlich nicht ganz glatt abgehen .
+5-1	273-277	Aber	_	_
+5-2	278-287	abgesehen	_	_
+5-3	288-291	von	_	_
+5-4	292-296	zwei	_	_
+5-5	297-307	Cardinälen	_	_
+5-6	308-309	,	_	_
+5-7	310-322	verschiedene	_	_
+5-8	323-334	Patriarchen	_	_
+5-9	335-336	,	_	_
+5-10	337-349	Erzbischöfen	_	_
+5-11	350-353	und	_	_
+5-12	354-363	Bischöfen	_	_
+5-13	364-370	hatten	_	_
+5-14	371-374	wir	_	_
+5-15	375-379	auch	_	_
+5-16	380-385	einen	_	_
+5-17	386-395	Capuciner	_	_
+5-18	396-398	an	_	_
+5-19	399-403	Bord	_	_
+5-20	404-407	und	_	_
+5-21	408-410	so	_	_
+5-22	411-417	konnte	_	_
+5-23	418-420	es	_	_
+5-24	421-430	natürlich	_	_
+5-25	431-436	nicht	_	_
+5-26	437-441	ganz	_	_
+5-27	442-447	glatt	_	_
+5-28	448-455	abgehen	_	_
+5-29	456-457	.	_	_
+
+#Text=Nach Mitternacht erhob sich ein Sturm , aber ein so curioser Wind , daß fast alles daranglauben mußte .
+6-1	458-462	Nach	_	_
+6-2	463-474	Mitternacht	_	_
+6-3	475-480	erhob	_	_
+6-4	481-485	sich	_	_
+6-5	486-489	ein	_	_
+6-6	490-495	Sturm	_	_
+6-7	496-497	,	_	_
+6-8	498-502	aber	_	_
+6-9	503-506	ein	_	_
+6-10	507-509	so	_	_
+6-11	510-518	curioser	_	_
+6-12	519-523	Wind	_	_
+6-13	524-525	,	_	_
+6-14	526-529	daß	_	_
+6-15	530-534	fast	_	_
+6-16	535-540	alles	_	_
+6-17	541-553	daranglauben	_	_
+6-18	554-559	mußte	_	_
+6-19	560-561	.	_	_
+
+#Text=Ich hatte mich zum Glück oben aufs Vordeck gebettet , wo ich freilich etwas fror , aber doch erreichte , daß ich gegen Morgen buchstäblich nur auf zwei Minuten mit einem leichten Anfall davonkam und nicht einmal das Frühstück sitzen zu lassen brauchte .
+7-1	562-565	Ich	_	_
+7-2	566-571	hatte	_	_
+7-3	572-576	mich	_	_
+7-4	577-580	zum	_	_
+7-5	581-586	Glück	_	_
+7-6	587-591	oben	_	_
+7-7	592-596	aufs	_	_
+7-8	597-604	Vordeck	_	_
+7-9	605-613	gebettet	_	_
+7-10	614-615	,	_	_
+7-11	616-618	wo	_	_
+7-12	619-622	ich	_	_
+7-13	623-631	freilich	_	_
+7-14	632-637	etwas	_	_
+7-15	638-642	fror	_	_
+7-16	643-644	,	_	_
+7-17	645-649	aber	_	_
+7-18	650-654	doch	_	_
+7-19	655-664	erreichte	_	_
+7-20	665-666	,	_	_
+7-21	667-670	daß	_	_
+7-22	671-674	ich	_	_
+7-23	675-680	gegen	_	_
+7-24	681-687	Morgen	_	_
+7-25	688-700	buchstäblich	_	_
+7-26	701-704	nur	_	_
+7-27	705-708	auf	_	_
+7-28	709-713	zwei	_	_
+7-29	714-721	Minuten	_	_
+7-30	722-725	mit	_	_
+7-31	726-731	einem	_	_
+7-32	732-740	leichten	_	_
+7-33	741-747	Anfall	_	_
+7-34	748-756	davonkam	_	_
+7-35	757-760	und	_	_
+7-36	761-766	nicht	_	_
+7-37	767-773	einmal	_	_
+7-38	774-777	das	_	_
+7-39	778-787	Frühstück	_	_
+7-40	788-794	sitzen	_	_
+7-41	795-797	zu	_	_
+7-42	798-804	lassen	_	_
+7-43	805-813	brauchte	_	_
+7-44	814-815	.	_	_
+
+#Text=Nachmittags wieder sehr schön .
+8-1	816-827	Nachmittags	_	_
+8-2	828-834	wieder	_	_
+8-3	835-839	sehr	_	_
+8-4	840-845	schön	_	_
+8-5	846-847	.	_	_
+
+#Text=Um 9 in Marseille , gerade noch früh genug , um die Eisenbahn zu erreichen .
+9-1	848-850	Um	_	_
+9-2	851-852	9	_	_
+9-3	853-855	in	_	_
+9-4	856-865	Marseille	*	PLACEmentioned
+9-5	866-867	,	_	_
+9-6	868-874	gerade	_	_
+9-7	875-879	noch	_	_
+9-8	880-884	früh	_	_
+9-9	885-890	genug	_	_
+9-10	891-892	,	_	_
+9-11	893-895	um	_	_
+9-12	896-899	die	_	_
+9-13	900-909	Eisenbahn	_	_
+9-14	910-912	zu	_	_
+9-15	913-922	erreichen	_	_
+9-16	923-924	.	_	_
+
+#Text=Um 71 Uhr in Tarascon , wo geruht , bis ich um 8 mit Diligenz in knapp 1 1/2 Stunden nach St. Remy fuhr .
+10-1	925-927	Um	_	_
+10-2	928-930	71	_	_
+10-3	931-934	Uhr	_	_
+10-4	935-937	in	_	_
+10-5	938-946	Tarascon	*	PLACEmentioned
+10-6	947-948	,	_	_
+10-7	949-951	wo	_	_
+10-8	952-958	geruht	_	_
+10-9	959-960	,	_	_
+10-10	961-964	bis	_	_
+10-11	965-968	ich	_	_
+10-12	969-971	um	_	_
+10-13	972-973	8	_	_
+10-14	974-977	mit	_	_
+10-15	978-986	Diligenz	_	_
+10-16	987-989	in	_	_
+10-17	990-995	knapp	_	_
+10-18	996-997	1	_	_
+10-19	998-1001	1/2	_	_
+10-20	1002-1009	Stunden	_	_
+10-21	1010-1014	nach	_	_
+10-22	1015-1018	St.	*[7]	PLACEmentioned[7]
+10-23	1019-1023	Remy	*[7]	PLACEmentioned[7]
+10-24	1024-1028	fuhr	_	_
+10-25	1029-1030	.	_	_
+
+#Text=Dort wurde ich bei meiner ersten Inspection vom Regen überrascht ( die Monumente sind 10 Minuten vom Orte ) .
+11-1	1031-1035	Dort	_	_
+11-2	1036-1041	wurde	_	_
+11-3	1042-1045	ich	_	_
+11-4	1046-1049	bei	_	_
+11-5	1050-1056	meiner	_	_
+11-6	1057-1063	ersten	_	_
+11-7	1064-1074	Inspection	_	_
+11-8	1075-1078	vom	_	_
+11-9	1079-1084	Regen	_	_
+11-10	1085-1095	überrascht	_	_
+11-11	1096-1097	(	_	_
+11-12	1098-1101	die	_	_
+11-13	1102-1111	Monumente	_	_
+11-14	1112-1116	sind	_	_
+11-15	1117-1119	10	_	_
+11-16	1120-1127	Minuten	_	_
+11-17	1128-1131	vom	_	_
+11-18	1132-1136	Orte	_	_
+11-19	1137-1138	)	_	_
+11-20	1139-1140	.	_	_
+
+#Text=Nach einem für das
+12-1	1141-1145	Nach	_	_
+12-2	1146-1151	einem	_	_
+12-3	1152-1155	für	_	_
+12-4	1156-1159	das	_	_

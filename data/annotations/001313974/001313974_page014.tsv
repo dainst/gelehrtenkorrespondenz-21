@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Neapel , 1. Juni 1864 220 H Neapel 1. Juni 1864 B- 3/ r . 6/64 Geehrtester Herr Professor \| !
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-23	Neapel	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	1.	_	_
+1-7	29-33	Juni	*[3]	DATEletter[3]
+1-8	34-38	1864	*[3]	DATEletter[3]
+1-9	39-42	220	_	_
+1-10	43-44	H	_	_
+1-11	45-51	Neapel	*	PLACEfrom
+1-12	52-54	1.	_	_
+1-13	55-59	Juni	*[4]	DATEletter[4]
+1-14	60-64	1864	*[4]	DATEletter[4]
+1-15	65-67	B-	_	_
+1-16	68-70	3/	*	DATErecieved
+1-17	71-72	r	_	_
+1-18	73-74	.	_	_
+1-19	75-79	6/64	*	DATEanswered
+1-20	80-91	Geehrtester	_	_
+1-21	92-96	Herr	_	_
+1-22	97-106	Professor	_	_
+1-23	107-108	\|	_	_
+1-24	109-110	!	_	_
+
+#Text=Heute hat der Zeichner seine Arbeiten wieder beginnen können .
+2-1	111-116	Heute	_	_
+2-2	117-120	hat	_	_
+2-3	121-124	der	_	_
+2-4	125-133	Zeichner	_	_
+2-5	134-139	seine	_	_
+2-6	140-148	Arbeiten	_	_
+2-7	149-155	wieder	_	_
+2-8	156-164	beginnen	_	_
+2-9	165-171	können	_	_
+2-10	172-173	.	_	_
+
+#Text=Doch denkt er sich nur bis Montag nächster Woche hier aufzuhalten und bittet um Geld und zwar um 250 Francs .
+3-1	174-178	Doch	_	_
+3-2	179-184	denkt	_	_
+3-3	185-187	er	_	_
+3-4	188-192	sich	_	_
+3-5	193-196	nur	_	_
+3-6	197-200	bis	_	_
+3-7	201-207	Montag	*	DATEmentioned
+3-8	208-216	nächster	_	_
+3-9	217-222	Woche	_	_
+3-10	223-227	hier	_	_
+3-11	228-239	aufzuhalten	_	_
+3-12	240-243	und	_	_
+3-13	244-250	bittet	_	_
+3-14	251-253	um	_	_
+3-15	254-258	Geld	_	_
+3-16	259-262	und	_	_
+3-17	263-267	zwar	_	_
+3-18	268-270	um	_	_
+3-19	271-274	250	_	_
+3-20	275-281	Francs	_	_
+3-21	282-283	.	_	_
+
+#Text=Die Rechenschaft wird er Ihnen in Rom ablegen .
+4-1	284-287	Die	_	_
+4-2	288-300	Rechenschaft	_	_
+4-3	301-305	wird	_	_
+4-4	306-308	er	_	_
+4-5	309-314	Ihnen	_	_
+4-6	315-317	in	_	_
+4-7	318-321	Rom	*	PLACEmentioned
+4-8	322-329	ablegen	_	_
+4-9	330-331	.	_	_
+
+#Text=Unter gegenwärtigen Umständen , da er in Pompei nicht zeichnen kann , ist es kein Unglück , daß er abzureisen gedenkt .
+5-1	332-337	Unter	_	_
+5-2	338-351	gegenwärtigen	_	_
+5-3	352-361	Umständen	_	_
+5-4	362-363	,	_	_
+5-5	364-366	da	_	_
+5-6	367-369	er	_	_
+5-7	370-372	in	_	_
+5-8	373-379	Pompei	*	PLACEmentioned
+5-9	380-385	nicht	_	_
+5-10	386-394	zeichnen	_	_
+5-11	395-399	kann	_	_
+5-12	400-401	,	_	_
+5-13	402-405	ist	_	_
+5-14	406-408	es	_	_
+5-15	409-413	kein	_	_
+5-16	414-421	Unglück	_	_
+5-17	422-423	,	_	_
+5-18	424-427	daß	_	_
+5-19	428-430	er	_	_
+5-20	431-441	abzureisen	_	_
+5-21	442-449	gedenkt	_	_
+5-22	450-451	.	_	_
+
+#Text=Die Hauptsache im Museum ist gemacht .
+6-1	452-455	Die	_	_
+6-2	456-466	Hauptsache	_	_
+6-3	467-469	im	_	_
+6-4	470-476	Museum	*	ORGmentioned
+6-5	477-480	ist	_	_
+6-6	481-488	gemacht	_	_
+6-7	489-490	.	_	_
+
+#Text=Über die noch restirende Zeit werde ich nach bestem Wissen verfügen , da keine Zeit mehr vorliegt , um Verhaltungsmaßregeln einzuholen , wasche aber im Voraus meine Hände in Unschuld wegen Gerhard , von dem ich gestern einen ziemlich nörgeinden Brief erhalten habe .
+7-1	491-495	Über	_	_
+7-2	496-499	die	_	_
+7-3	500-504	noch	_	_
+7-4	505-515	restirende	_	_
+7-5	516-520	Zeit	_	_
+7-6	521-526	werde	_	_
+7-7	527-530	ich	_	_
+7-8	531-535	nach	_	_
+7-9	536-542	bestem	_	_
+7-10	543-549	Wissen	_	_
+7-11	550-558	verfügen	_	_
+7-12	559-560	,	_	_
+7-13	561-563	da	_	_
+7-14	564-569	keine	_	_
+7-15	570-574	Zeit	_	_
+7-16	575-579	mehr	_	_
+7-17	580-588	vorliegt	_	_
+7-18	589-590	,	_	_
+7-19	591-593	um	_	_
+7-20	594-614	Verhaltungsmaßregeln	_	_
+7-21	615-625	einzuholen	_	_
+7-22	626-627	,	_	_
+7-23	628-634	wasche	_	_
+7-24	635-639	aber	_	_
+7-25	640-642	im	_	_
+7-26	643-649	Voraus	_	_
+7-27	650-655	meine	_	_
+7-28	656-661	Hände	_	_
+7-29	662-664	in	_	_
+7-30	665-673	Unschuld	_	_
+7-31	674-679	wegen	_	_
+7-32	680-687	Gerhard	*	PERmentioned
+7-33	688-689	,	_	_
+7-34	690-693	von	_	_
+7-35	694-697	dem	_	_
+7-36	698-701	ich	_	_
+7-37	702-709	gestern	_	_
+7-38	710-715	einen	_	_
+7-39	716-724	ziemlich	_	_
+7-40	725-735	nörgeinden	_	_
+7-41	736-741	Brief	_	_
+7-42	742-750	erhalten	_	_
+7-43	751-755	habe	_	_
+7-44	756-757	.	_	_
+
+#Text=Das Relief von Lecce habe ich nach Brunns Anweisung gekauft .
+8-1	758-761	Das	_	_
+8-2	762-768	Relief	*	OBJ
+8-3	769-772	von	_	_
+8-4	773-778	Lecce	*	PLACEmentioned
+8-5	779-783	habe	_	_
+8-6	784-787	ich	_	_
+8-7	788-792	nach	_	_
+8-8	793-799	Brunns	*	PERmentioned
+8-9	800-809	Anweisung	_	_
+8-10	810-817	gekauft	_	_
+8-11	818-819	.	_	_
+
+#Text=Barone verlangte erst 100 Francs , ging aber bis zu 55 herunter .
+9-1	820-826	Barone	*	PERmentioned
+9-2	827-836	verlangte	_	_
+9-3	837-841	erst	_	_
+9-4	842-845	100	_	_
+9-5	846-852	Francs	_	_
+9-6	853-854	,	_	_
+9-7	855-859	ging	_	_
+9-8	860-864	aber	_	_
+9-9	865-868	bis	_	_
+9-10	869-871	zu	_	_
+9-11	872-874	55	_	_
+9-12	875-883	herunter	_	_
+9-13	884-885	.	_	_
+
+#Text=Gegenwärtig brauche ich noch kein Geld , bitte aber , falls es mir zu fehlen anfangen sollte , mir es hier irgendwo anzuweisen .
+10-1	886-897	Gegenwärtig	_	_
+10-2	898-905	brauche	_	_
+10-3	906-909	ich	_	_
+10-4	910-914	noch	_	_
+10-5	915-919	kein	_	_
+10-6	920-924	Geld	_	_
+10-7	925-926	,	_	_
+10-8	927-932	bitte	_	_
+10-9	933-937	aber	_	_
+10-10	938-939	,	_	_
+10-11	940-945	falls	_	_
+10-12	946-948	es	_	_
+10-13	949-952	mir	_	_
+10-14	953-955	zu	_	_
+10-15	956-962	fehlen	_	_
+10-16	963-971	anfangen	_	_
+10-17	972-978	sollte	_	_
+10-18	979-980	,	_	_
+10-19	981-984	mir	_	_
+10-20	985-987	es	_	_
+10-21	988-992	hier	_	_
+10-22	993-1001	irgendwo	_	_
+10-23	1002-1012	anzuweisen	_	_
+10-24	1013-1014	.	_	_
+
+#Text=Die Anweisung für den Zeichner dagegen bitte ich direct zu schicken , da ich mich hier nicht zu sehr ausgeben will .
+11-1	1015-1018	Die	_	_
+11-2	1019-1028	Anweisung	_	_
+11-3	1029-1032	für	_	_
+11-4	1033-1036	den	_	_
+11-5	1037-1045	Zeichner	_	_
+11-6	1046-1053	dagegen	_	_
+11-7	1054-1059	bitte	_	_
+11-8	1060-1063	ich	_	_
+11-9	1064-1070	direct	_	_
+11-10	1071-1073	zu	_	_
+11-11	1074-1082	schicken	_	_
+11-12	1083-1084	,	_	_
+11-13	1085-1087	da	_	_
+11-14	1088-1091	ich	_	_
+11-15	1092-1096	mich	_	_
+11-16	1097-1101	hier	_	_
+11-17	1102-1107	nicht	_	_
+11-18	1108-1110	zu	_	_
+11-19	1111-1115	sehr	_	_
+11-20	1116-1124	ausgeben	_	_
+11-21	1125-1129	will	_	_
+11-22	1130-1131	.	_	_
+
+#Text=Betreffs Poz-
+12-1	1132-1140	Betreffs	_	_
+12-2	1141-1145	Poz-	_	_

@@ -1,0 +1,167 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 5. Juni 1846 Meine Frau ist glücklich zurückgekehrt und grüßt bestens .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	5.	*[5]	DATEletter[5]
+1-7	29-33	Juni	*[5]	DATEletter[5]
+1-8	34-38	1846	*[5]	DATEletter[5]
+1-9	39-44	Meine	_	_
+1-10	45-49	Frau	_	_
+1-11	50-53	ist	_	_
+1-12	54-63	glücklich	_	_
+1-13	64-77	zurückgekehrt	_	_
+1-14	78-81	und	_	_
+1-15	82-87	grüßt	_	_
+1-16	88-95	bestens	_	_
+1-17	96-97	.	_	_
+
+#Text=Mir geht es fortwährend gut , nur daß ich fortfahre viel müdes und gebrechliches Wesen für meinen Normalzustand zu erkennen und , da ich hingegen weder ärztliche Mittel noch einen Deus ex macchina absehen kann , mich überfrüh alternd zu finden .
+2-1	98-101	Mir	_	_
+2-2	102-106	geht	_	_
+2-3	107-109	es	_	_
+2-4	110-121	fortwährend	_	_
+2-5	122-125	gut	_	_
+2-6	126-127	,	_	_
+2-7	128-131	nur	_	_
+2-8	132-135	daß	_	_
+2-9	136-139	ich	_	_
+2-10	140-149	fortfahre	_	_
+2-11	150-154	viel	_	_
+2-12	155-160	müdes	_	_
+2-13	161-164	und	_	_
+2-14	165-178	gebrechliches	_	_
+2-15	179-184	Wesen	_	_
+2-16	185-188	für	_	_
+2-17	189-195	meinen	_	_
+2-18	196-209	Normalzustand	_	_
+2-19	210-212	zu	_	_
+2-20	213-221	erkennen	_	_
+2-21	222-225	und	_	_
+2-22	226-227	,	_	_
+2-23	228-230	da	_	_
+2-24	231-234	ich	_	_
+2-25	235-243	hingegen	_	_
+2-26	244-249	weder	_	_
+2-27	250-259	ärztliche	_	_
+2-28	260-266	Mittel	_	_
+2-29	267-271	noch	_	_
+2-30	272-277	einen	_	_
+2-31	278-282	Deus	_	_
+2-32	283-285	ex	_	_
+2-33	286-294	macchina	_	_
+2-34	295-302	absehen	_	_
+2-35	303-307	kann	_	_
+2-36	308-309	,	_	_
+2-37	310-314	mich	_	_
+2-38	315-323	überfrüh	_	_
+2-39	324-331	alternd	_	_
+2-40	332-334	zu	_	_
+2-41	335-341	finden	_	_
+2-42	342-343	.	_	_
+
+#Text=In Margine die Hauptneuigkeit : daß ich mit meinem Separatvotum noch ins Protokoll der Akademie vorgedrungen bin , und demnach hoffentlich nicht blos für hiesige epigraphische Arbeiten eine Summe beantragt wird , sondern für Arbeiten in Italien altrettanto .
+3-1	344-346	In	_	_
+3-2	347-354	Margine	_	_
+3-3	355-358	die	_	_
+3-4	359-373	Hauptneuigkeit	_	_
+3-5	374-375	:	_	_
+3-6	376-379	daß	_	_
+3-7	380-383	ich	_	_
+3-8	384-387	mit	_	_
+3-9	388-394	meinem	_	_
+3-10	395-407	Separatvotum	_	_
+3-11	408-412	noch	_	_
+3-12	413-416	ins	_	_
+3-13	417-426	Protokoll	_	_
+3-14	427-430	der	_	_
+3-15	431-439	Akademie	*	ORGmentioned
+3-16	440-452	vorgedrungen	_	_
+3-17	453-456	bin	_	_
+3-18	457-458	,	_	_
+3-19	459-462	und	_	_
+3-20	463-470	demnach	_	_
+3-21	471-482	hoffentlich	_	_
+3-22	483-488	nicht	_	_
+3-23	489-493	blos	_	_
+3-24	494-497	für	_	_
+3-25	498-505	hiesige	_	_
+3-26	506-519	epigraphische	_	_
+3-27	520-528	Arbeiten	_	_
+3-28	529-533	eine	_	_
+3-29	534-539	Summe	_	_
+3-30	540-549	beantragt	_	_
+3-31	550-554	wird	_	_
+3-32	555-556	,	_	_
+3-33	557-564	sondern	_	_
+3-34	565-568	für	_	_
+3-35	569-577	Arbeiten	_	_
+3-36	578-580	in	_	_
+3-37	581-588	Italien	*	PLACEmentioned
+3-38	589-600	altrettanto	_	_
+3-39	601-602	.	_	_
+
+#Text=- Ist Kopp Paleopgraph für Vermiglioli notirt ?
+4-1	603-604	-	_	_
+4-2	605-608	Ist	_	_
+4-3	609-613	Kopp	*	PERmentioned
+4-4	614-625	Paleopgraph	_	_
+4-5	626-629	für	_	_
+4-6	630-641	Vermiglioli	*	PERmentioned
+4-7	642-648	notirt	_	_
+4-8	649-650	?	_	_
+
+#Text=Kabrun hat mir wegen Ihrer Galvanoplastik gesprochen und sich sehr bereitwillig bezeigst mit Gropius und Schadow zu sprechen .
+5-1	651-657	Kabrun	*	PERmentioned
+5-2	658-661	hat	_	_
+5-3	662-665	mir	_	_
+5-4	666-671	wegen	_	_
+5-5	672-677	Ihrer	_	_
+5-6	678-692	Galvanoplastik	_	_
+5-7	693-703	gesprochen	_	_
+5-8	704-707	und	_	_
+5-9	708-712	sich	_	_
+5-10	713-717	sehr	_	_
+5-11	718-730	bereitwillig	_	_
+5-12	731-739	bezeigst	_	_
+5-13	740-743	mit	_	_
+5-14	744-751	Gropius	*	PERmentioned
+5-15	752-755	und	_	_
+5-16	756-763	Schadow	*	PERmentioned
+5-17	764-766	zu	_	_
+5-18	767-775	sprechen	_	_
+5-19	776-777	.	_	_
+
+#Text=Domenico hat mehr denn eine rührende Zuschrift an meine Frau gesandt worauf ich seine Creatura mit einer pezza dura zu beglückwünschen bitte .
+6-1	778-786	Domenico	*	PERmentioned
+6-2	787-790	hat	_	_
+6-3	791-795	mehr	_	_
+6-4	796-800	denn	_	_
+6-5	801-805	eine	_	_
+6-6	806-814	rührende	_	_
+6-7	815-824	Zuschrift	_	_
+6-8	825-827	an	_	_
+6-9	828-833	meine	_	_
+6-10	834-838	Frau	_	_
+6-11	839-846	gesandt	_	_
+6-12	847-853	worauf	_	_
+6-13	854-857	ich	_	_
+6-14	858-863	seine	_	_
+6-15	864-872	Creatura	_	_
+6-16	873-876	mit	_	_
+6-17	877-882	einer	_	_
+6-18	883-888	pezza	_	_
+6-19	889-893	dura	_	_
+6-20	894-896	zu	_	_
+6-21	897-912	beglückwünschen	_	_
+6-22	913-918	bitte	_	_
+6-23	919-920	.	_	_
+
+#Text=Ihr Gerhard
+7-1	921-924	Ihr	_	_
+7-2	925-932	Gerhard	*	PERauthor

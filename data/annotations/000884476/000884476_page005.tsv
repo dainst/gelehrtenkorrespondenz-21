@@ -1,0 +1,208 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Breslau , 28. Mai 1833 disponiblen Zimmer überlasse , kann ich das separirte Vorzimmer zu meinem Geschäftszimmer machen ?
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	28.	*[4]	DATEletter[4]
+1-7	31-34	Mai	*[4]	DATEletter[4]
+1-8	35-39	1833	*[4]	DATEletter[4]
+1-9	40-51	disponiblen	_	_
+1-10	52-58	Zimmer	_	_
+1-11	59-68	überlasse	_	_
+1-12	69-70	,	_	_
+1-13	71-75	kann	_	_
+1-14	76-79	ich	_	_
+1-15	80-83	das	_	_
+1-16	84-93	separirte	_	_
+1-17	94-103	Vorzimmer	_	_
+1-18	104-106	zu	_	_
+1-19	107-113	meinem	_	_
+1-20	114-129	Geschäftszimmer	_	_
+1-21	130-136	machen	_	_
+1-22	137-138	?	_	_
+
+#Text=Item wenn es irgendwie sich kombiniren läßt , so fixiren Sie die Wohnung ohne Weiteres : wo möglich zuvorderst auf 1/2 Monat , da ich mit meinem Willen in der That nicht 1länger zu bleiben gedenke .
+2-1	139-143	Item	_	_
+2-2	144-148	wenn	_	_
+2-3	149-151	es	_	_
+2-4	152-161	irgendwie	_	_
+2-5	162-166	sich	_	_
+2-6	167-177	kombiniren	_	_
+2-7	178-182	läßt	_	_
+2-8	183-184	,	_	_
+2-9	185-187	so	_	_
+2-10	188-195	fixiren	_	_
+2-11	196-199	Sie	_	_
+2-12	200-203	die	_	_
+2-13	204-211	Wohnung	_	_
+2-14	212-216	ohne	_	_
+2-15	217-225	Weiteres	_	_
+2-16	226-227	:	_	_
+2-17	228-230	wo	_	_
+2-18	231-238	möglich	_	_
+2-19	239-249	zuvorderst	_	_
+2-20	250-253	auf	_	_
+2-21	254-257	1/2	_	_
+2-22	258-263	Monat	_	_
+2-23	264-265	,	_	_
+2-24	266-268	da	_	_
+2-25	269-272	ich	_	_
+2-26	273-276	mit	_	_
+2-27	277-283	meinem	_	_
+2-28	284-290	Willen	_	_
+2-29	291-293	in	_	_
+2-30	294-297	der	_	_
+2-31	298-302	That	_	_
+2-32	303-308	nicht	_	_
+2-33	309-316	1länger	_	_
+2-34	317-319	zu	_	_
+2-35	320-327	bleiben	_	_
+2-36	328-335	gedenke	_	_
+2-37	336-337	.	_	_
+
+#Text=Ich denke Mittwochs 5 Juni von hier abzureisen und mithin Freitags am 7.ten Früh einzutreffen .
+3-1	338-341	Ich	_	_
+3-2	342-347	denke	_	_
+3-3	348-357	Mittwochs	*[5]	DATEmentioned[5]
+3-4	358-359	5	*[5]	DATEmentioned[5]
+3-5	360-364	Juni	*[5]	DATEmentioned[5]
+3-6	365-368	von	_	_
+3-7	369-373	hier	_	_
+3-8	374-384	abzureisen	_	_
+3-9	385-388	und	_	_
+3-10	389-395	mithin	_	_
+3-11	396-404	Freitags	_	_
+3-12	405-407	am	_	_
+3-13	408-413	7.ten	*	DATEmentioned
+3-14	414-418	Früh	_	_
+3-15	419-431	einzutreffen	_	_
+3-16	432-433	.	_	_
+
+#Text=Ich überlese Ihren Zettel noch einmal und finde meinen Wunsch gesteigert daß Sie die Wohnung auf jede : irgend annehmliche Weise fixiren .
+4-1	434-437	Ich	_	_
+4-2	438-446	überlese	_	_
+4-3	447-452	Ihren	_	_
+4-4	453-459	Zettel	_	_
+4-5	460-464	noch	_	_
+4-6	465-471	einmal	_	_
+4-7	472-475	und	_	_
+4-8	476-481	finde	_	_
+4-9	482-488	meinen	_	_
+4-10	489-495	Wunsch	_	_
+4-11	496-506	gesteigert	_	_
+4-12	507-510	daß	_	_
+4-13	511-514	Sie	_	_
+4-14	515-518	die	_	_
+4-15	519-526	Wohnung	_	_
+4-16	527-530	auf	_	_
+4-17	531-535	jede	_	_
+4-18	536-537	:	_	_
+4-19	538-544	irgend	_	_
+4-20	545-556	annehmliche	_	_
+4-21	557-562	Weise	_	_
+4-22	563-570	fixiren	_	_
+4-23	571-572	.	_	_
+
+#Text=Sorgen Sie aber doch ja dafür ( dergl .
+5-1	573-579	Sorgen	_	_
+5-2	580-583	Sie	_	_
+5-3	584-588	aber	_	_
+5-4	589-593	doch	_	_
+5-5	594-596	ja	_	_
+5-6	597-602	dafür	_	_
+5-7	603-604	(	_	_
+5-8	605-610	dergl	_	_
+5-9	611-612	.	_	_
+
+#Text=muß öfter erinnert werden ) daß die vorigen h sleute etwanige Bestellungen ( die Adresse haben Sie doch wol aufgeschrieben ? )
+6-1	613-616	muß	_	_
+6-2	617-622	öfter	_	_
+6-3	623-631	erinnert	_	_
+6-4	632-638	werden	_	_
+6-5	639-640	)	_	_
+6-6	641-644	daß	_	_
+6-7	645-648	die	_	_
+6-8	649-656	vorigen	_	_
+6-9	657-658	h	_	_
+6-10	659-665	sleute	_	_
+6-11	666-674	etwanige	_	_
+6-12	675-687	Bestellungen	_	_
+6-13	688-689	(	_	_
+6-14	690-693	die	_	_
+6-15	694-701	Adresse	_	_
+6-16	702-707	haben	_	_
+6-17	708-711	Sie	_	_
+6-18	712-716	doch	_	_
+6-19	717-720	wol	_	_
+6-20	721-735	aufgeschrieben	_	_
+6-21	736-737	?	_	_
+6-22	738-739	)	_	_
+
+#Text=oder noch besser ( weil es einfacher und Ge an Sie weisen kann ) an Gerstäcker Zu einiger Ermunterung können Sie dem Marstaller sagen daß H. Schall , ihr böser Schuldner , alneue Mahnungen daher vermuthlich nützlich seyn können : versteht sich ohne daß ich genannt werde .
+7-1	740-744	oder	_	_
+7-2	745-749	noch	_	_
+7-3	750-756	besser	_	_
+7-4	757-758	(	_	_
+7-5	759-763	weil	_	_
+7-6	764-766	es	_	_
+7-7	767-776	einfacher	_	_
+7-8	777-780	und	_	_
+7-9	781-783	Ge	_	_
+7-10	784-786	an	_	_
+7-11	787-790	Sie	_	_
+7-12	791-797	weisen	_	_
+7-13	798-802	kann	_	_
+7-14	803-804	)	_	_
+7-15	805-807	an	_	_
+7-16	808-818	Gerstäcker	*[10]	PERmentioned[10]
+7-17	819-821	Zu	*[10]	PERmentioned[10]
+7-18	822-829	einiger	*[10]	PERmentioned[10]
+7-19	830-841	Ermunterung	_	_
+7-20	842-848	können	_	_
+7-21	849-852	Sie	_	_
+7-22	853-856	dem	_	_
+7-23	857-867	Marstaller	*	PERmentioned
+7-24	868-873	sagen	_	_
+7-25	874-877	daß	_	_
+7-26	878-880	H.	*[9]	PERmentioned[9]
+7-27	881-887	Schall	*[9]	PERmentioned[9]
+7-28	888-889	,	_	_
+7-29	890-893	ihr	_	_
+7-30	894-899	böser	_	_
+7-31	900-909	Schuldner	_	_
+7-32	910-911	,	_	_
+7-33	912-918	alneue	_	_
+7-34	919-928	Mahnungen	_	_
+7-35	929-934	daher	_	_
+7-36	935-946	vermuthlich	_	_
+7-37	947-955	nützlich	_	_
+7-38	956-960	seyn	_	_
+7-39	961-967	können	_	_
+7-40	968-969	:	_	_
+7-41	970-978	versteht	_	_
+7-42	979-983	sich	_	_
+7-43	984-988	ohne	_	_
+7-44	989-992	daß	_	_
+7-45	993-996	ich	_	_
+7-46	997-1004	genannt	_	_
+7-47	1005-1010	werde	_	_
+7-48	1011-1012	.	_	_
+
+#Text=- Grüßen Sie mir Gerstäcker herzlich .
+8-1	1013-1014	-	_	_
+8-2	1015-1021	Grüßen	_	_
+8-3	1022-1025	Sie	_	_
+8-4	1026-1029	mir	_	_
+8-5	1030-1040	Gerstäcker	*	PERmentioned
+8-6	1041-1049	herzlich	_	_
+8-7	1050-1051	.	_	_
+
+#Text=Ihr Freund Gerhard
+9-1	1052-1055	Ihr	_	_
+9-2	1056-1062	Freund	_	_
+9-3	1063-1070	Gerhard	*	PERauthor

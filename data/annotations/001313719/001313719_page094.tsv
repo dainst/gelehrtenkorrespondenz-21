@@ -1,0 +1,270 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=on .
+1-1	0-2	on	_	_
+1-2	3-4	.	_	_
+
+#Text=.
+2-1	5-6	.	_	_
+
+#Text=Gerhard an Henzen Berlin , 26. Dezember 1846 Braun 's ungerechte Beschwerden über mich widerlege ich ihm selbst gleichzeitig .
+3-1	7-14	Gerhard	*	PERauthor
+3-2	15-17	an	_	_
+3-3	18-24	Henzen	*	PERaddressee
+3-4	25-31	Berlin	*	PLACEfrom
+3-5	32-33	,	_	_
+3-6	34-37	26.	*[1]	DATEletter[1]
+3-7	38-46	Dezember	*[1]	DATEletter[1]
+3-8	47-51	1846	*[1]	DATEletter[1]
+3-9	52-57	Braun	*	PERauthor
+3-10	58-60	's	_	_
+3-11	61-71	ungerechte	_	_
+3-12	72-83	Beschwerden	_	_
+3-13	84-88	über	_	_
+3-14	89-93	mich	_	_
+3-15	94-103	widerlege	_	_
+3-16	104-107	ich	_	_
+3-17	108-111	ihm	_	_
+3-18	112-118	selbst	_	_
+3-19	119-131	gleichzeitig	_	_
+3-20	132-133	.	_	_
+
+#Text=Wegen der Erlanger Bibliothek kann ich an Brockhaus doch wol nicht eher schreiben , ehe für ihn die Möglichkeit gegeben ist ein vollständiges Exemplar zu senden .
+4-1	134-139	Wegen	_	_
+4-2	140-143	der	_	_
+4-3	144-152	Erlanger	*[2]	ORGmentioned[2]
+4-4	153-163	Bibliothek	*[2]	ORGmentioned[2]
+4-5	164-168	kann	_	_
+4-6	169-172	ich	_	_
+4-7	173-175	an	_	_
+4-8	176-185	Brockhaus	*	ORGmentioned
+4-9	186-190	doch	_	_
+4-10	191-194	wol	_	_
+4-11	195-200	nicht	_	_
+4-12	201-205	eher	_	_
+4-13	206-215	schreiben	_	_
+4-14	216-217	,	_	_
+4-15	218-221	ehe	_	_
+4-16	222-225	für	_	_
+4-17	226-229	ihn	_	_
+4-18	230-233	die	_	_
+4-19	234-245	Möglichkeit	_	_
+4-20	246-253	gegeben	_	_
+4-21	254-257	ist	_	_
+4-22	258-261	ein	_	_
+4-23	262-275	vollständiges	_	_
+4-24	276-284	Exemplar	_	_
+4-25	285-287	zu	_	_
+4-26	288-294	senden	_	_
+4-27	295-296	.	_	_
+
+#Text=Ein solches werden Sie also vermuthlich durch die nächste Kistensendung von Rom aus ihm schaffen oder geschafft haben .
+5-1	297-300	Ein	_	_
+5-2	301-308	solches	_	_
+5-3	309-315	werden	_	_
+5-4	316-319	Sie	_	_
+5-5	320-324	also	_	_
+5-6	325-336	vermuthlich	_	_
+5-7	337-342	durch	_	_
+5-8	343-346	die	_	_
+5-9	347-354	nächste	_	_
+5-10	355-368	Kistensendung	_	_
+5-11	369-372	von	_	_
+5-12	373-376	Rom	*	PLACEmentioned
+5-13	377-380	aus	_	_
+5-14	381-384	ihm	_	_
+5-15	385-393	schaffen	_	_
+5-16	394-398	oder	_	_
+5-17	399-408	geschafft	_	_
+5-18	409-414	haben	_	_
+5-19	415-416	.	_	_
+
+#Text=Wieviel bleiben alsdann noch übrig ?
+6-1	417-424	Wieviel	_	_
+6-2	425-432	bleiben	_	_
+6-3	433-440	alsdann	_	_
+6-4	441-445	noch	_	_
+6-5	446-451	übrig	_	_
+6-6	452-453	?	_	_
+
+#Text=Auf das Maze'sche Depöt zu rechnen scheint mir höchst unsicher .
+7-1	454-457	Auf	_	_
+7-2	458-461	das	_	_
+7-3	462-471	Maze'sche	_	_
+7-4	472-477	Depöt	_	_
+7-5	478-480	zu	_	_
+7-6	481-488	rechnen	_	_
+7-7	489-496	scheint	_	_
+7-8	497-500	mir	_	_
+7-9	501-507	höchst	_	_
+7-10	508-516	unsicher	_	_
+7-11	517-518	.	_	_
+
+#Text=Sollten nun wirklich nur 2 oder 3 vollständige Exemplare noch da sein , so scheint es mir doch ungleich besser den Erlangern , die nur ratenweise bezahlen werden , erst die Nuova Serie zu geben , die früheren Jahrgänge auf späterhin ( nachdem die fehlenden Hefte neugedruckt ) zu versprechen , und die wenigen vorhandenen Exemplare für die Möglichkeit vollzahlender Engländer zu reserviren .
+8-1	519-526	Sollten	_	_
+8-2	527-530	nun	_	_
+8-3	531-539	wirklich	_	_
+8-4	540-543	nur	_	_
+8-5	544-545	2	_	_
+8-6	546-550	oder	_	_
+8-7	551-552	3	_	_
+8-8	553-565	vollständige	_	_
+8-9	566-575	Exemplare	_	_
+8-10	576-580	noch	_	_
+8-11	581-583	da	_	_
+8-12	584-588	sein	_	_
+8-13	589-590	,	_	_
+8-14	591-593	so	_	_
+8-15	594-601	scheint	_	_
+8-16	602-604	es	_	_
+8-17	605-608	mir	_	_
+8-18	609-613	doch	_	_
+8-19	614-622	ungleich	_	_
+8-20	623-629	besser	_	_
+8-21	630-633	den	_	_
+8-22	634-643	Erlangern	_	_
+8-23	644-645	,	_	_
+8-24	646-649	die	_	_
+8-25	650-653	nur	_	_
+8-26	654-664	ratenweise	_	_
+8-27	665-673	bezahlen	_	_
+8-28	674-680	werden	_	_
+8-29	681-682	,	_	_
+8-30	683-687	erst	_	_
+8-31	688-691	die	_	_
+8-32	692-697	Nuova	_	_
+8-33	698-703	Serie	_	_
+8-34	704-706	zu	_	_
+8-35	707-712	geben	_	_
+8-36	713-714	,	_	_
+8-37	715-718	die	_	_
+8-38	719-727	früheren	_	_
+8-39	728-737	Jahrgänge	_	_
+8-40	738-741	auf	_	_
+8-41	742-751	späterhin	_	_
+8-42	752-753	(	_	_
+8-43	754-761	nachdem	_	_
+8-44	762-765	die	_	_
+8-45	766-775	fehlenden	_	_
+8-46	776-781	Hefte	_	_
+8-47	782-793	neugedruckt	_	_
+8-48	794-795	)	_	_
+8-49	796-798	zu	_	_
+8-50	799-810	versprechen	_	_
+8-51	811-812	,	_	_
+8-52	813-816	und	_	_
+8-53	817-820	die	_	_
+8-54	821-828	wenigen	_	_
+8-55	829-840	vorhandenen	_	_
+8-56	841-850	Exemplare	_	_
+8-57	851-854	für	_	_
+8-58	855-858	die	_	_
+8-59	859-870	Möglichkeit	_	_
+8-60	871-884	vollzahlender	_	_
+8-61	885-894	Engländer	_	_
+8-62	895-897	zu	_	_
+8-63	898-908	reserviren	_	_
+8-64	909-910	.	_	_
+
+#Text=Hienach autcrisire ich dann Brockhaus zuvörderst zur Einsendung der Nuova Serie und behalte alles Übrige Ihrer und Brauns genaueren Bestimmungen vor , die Sie am liebsten direkt an Brockhaus erlassen mögen .
+9-1	911-918	Hienach	_	_
+9-2	919-929	autcrisire	_	_
+9-3	930-933	ich	_	_
+9-4	934-938	dann	_	_
+9-5	939-948	Brockhaus	*	ORGmentioned
+9-6	949-959	zuvörderst	_	_
+9-7	960-963	zur	_	_
+9-8	964-974	Einsendung	_	_
+9-9	975-978	der	_	_
+9-10	979-984	Nuova	_	_
+9-11	985-990	Serie	_	_
+9-12	991-994	und	_	_
+9-13	995-1002	behalte	_	_
+9-14	1003-1008	alles	_	_
+9-15	1009-1015	Übrige	_	_
+9-16	1016-1021	Ihrer	_	_
+9-17	1022-1025	und	_	_
+9-18	1026-1032	Brauns	*	PERmentioned
+9-19	1033-1042	genaueren	_	_
+9-20	1043-1055	Bestimmungen	_	_
+9-21	1056-1059	vor	_	_
+9-22	1060-1061	,	_	_
+9-23	1062-1065	die	_	_
+9-24	1066-1069	Sie	_	_
+9-25	1070-1072	am	_	_
+9-26	1073-1081	liebsten	_	_
+9-27	1082-1088	direkt	_	_
+9-28	1089-1091	an	_	_
+9-29	1092-1101	Brockhaus	*	ORGmentioned
+9-30	1102-1110	erlassen	_	_
+9-31	1111-1116	mögen	_	_
+9-32	1117-1118	.	_	_
+
+#Text=An Metternich habe ich kürzlich die Liste der zu approbirenden neuen Mitglieder eingesandt , nämlich zum 9 December no .
+10-1	1119-1121	An	_	_
+10-2	1122-1132	Metternich	*	PERmentioned
+10-3	1133-1137	habe	_	_
+10-4	1138-1141	ich	_	_
+10-5	1142-1150	kürzlich	_	_
+10-6	1151-1154	die	_	_
+10-7	1155-1160	Liste	_	_
+10-8	1161-1164	der	_	_
+10-9	1165-1167	zu	_	_
+10-10	1168-1181	approbirenden	_	_
+10-11	1182-1187	neuen	_	_
+10-12	1188-1198	Mitglieder	_	_
+10-13	1199-1209	eingesandt	_	_
+10-14	1210-1211	,	_	_
+10-15	1212-1219	nämlich	_	_
+10-16	1220-1223	zum	_	_
+10-17	1224-1225	9	*[3]	DATEmentioned[3]
+10-18	1226-1234	December	*[3]	DATEmentioned[3]
+10-19	1235-1237	no	_	_
+10-20	1238-1239	.	_	_
+
+#Text=304 - 309 , Ihnen bareits notirt .
+11-1	1240-1243	304	_	_
+11-2	1244-1245	-	_	_
+11-3	1246-1249	309	_	_
+11-4	1250-1251	,	_	_
+11-5	1252-1257	Ihnen	_	_
+11-6	1258-1265	bareits	_	_
+11-7	1266-1272	notirt	_	_
+11-8	1273-1274	.	_	_
+
+#Text=310 , 311 , 312 De Sacchy , De la Saussaye , A . de Longperier als ord .
+12-1	1275-1278	310	_	_
+12-2	1279-1280	,	_	_
+12-3	1281-1284	311	_	_
+12-4	1285-1286	,	_	_
+12-5	1287-1290	312	_	_
+12-6	1291-1293	De	*[4]	PERmentioned[4]
+12-7	1294-1300	Sacchy	*[4]	PERmentioned[4]
+12-8	1301-1302	,	_	_
+12-9	1303-1305	De	_	_
+12-10	1306-1308	la	_	_
+12-11	1309-1317	Saussaye	*[5]	PERmentioned[5]
+12-12	1318-1319	,	_	_
+12-13	1320-1321	A	_	_
+12-14	1322-1323	.	_	_
+12-15	1324-1326	de	*[6]	PERmentioned[6]
+12-16	1327-1337	Longperier	*[6]	PERmentioned[6]
+12-17	1338-1341	als	_	_
+12-18	1342-1345	ord	_	_
+12-19	1346-1347	.	_	_
+
+#Text=Mitglieder .
+13-1	1348-1358	Mitglieder	_	_
+13-2	1359-1360	.	_	_
+
+#Text=Dann als Korrespondenten no .
+14-1	1361-1365	Dann	_	_
+14-2	1366-1369	als	_	_
+14-3	1370-1385	Korrespondenten	_	_
+14-4	1386-1388	no	_	_
+14-5	1389-1390	.	_	_
+
+#Text=313
+15-1	1391-1394	313	_	_

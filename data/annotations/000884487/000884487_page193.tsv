@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> Gerhard an Braun Livorno , 1. Juli 1837 ta für das Institut oder mich zu erhalten .
+1-1	0-1	>	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-26	Livorno	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-31	1.	*[4]	DATEletter[4]
+1-8	32-36	Juli	*[4]	DATEletter[4]
+1-9	37-41	1837	*[4]	DATEletter[4]
+1-10	42-44	ta	_	_
+1-11	45-48	für	_	_
+1-12	49-52	das	_	_
+1-13	53-61	Institut	*	ORGmentioned
+1-14	62-66	oder	_	_
+1-15	67-71	mich	_	_
+1-16	72-74	zu	_	_
+1-17	75-83	erhalten	_	_
+1-18	84-85	.	_	_
+
+#Text=Für das Institut oder mich , sage ich \; die ich gia in statu quo dem Institut alles Mögliche , nur communio bono def nicht sein und was ich im Portefeuille als Hauptstück aufgenommen und bezahlt habe , was mir bei zukünftiger Verwahrung erst allerlei Dutzendsachen bei der Masse der Beschauer rechtfertigen soll , sehe ich natürlich ungern urplötzlich divulgirt : so auch die S onza vase Galassi 's .
+2-1	86-89	Für	_	_
+2-2	90-93	das	_	_
+2-3	94-102	Institut	*	ORGmentioned
+2-4	103-107	oder	_	_
+2-5	108-112	mich	_	_
+2-6	113-114	,	_	_
+2-7	115-119	sage	_	_
+2-8	120-123	ich	_	_
+2-9	124-125	\;	_	_
+2-10	126-129	die	_	_
+2-11	130-133	ich	_	_
+2-12	134-137	gia	_	_
+2-13	138-140	in	_	_
+2-14	141-146	statu	_	_
+2-15	147-150	quo	_	_
+2-16	151-154	dem	_	_
+2-17	155-163	Institut	*	ORGmentioned
+2-18	164-169	alles	_	_
+2-19	170-178	Mögliche	_	_
+2-20	179-180	,	_	_
+2-21	181-184	nur	_	_
+2-22	185-193	communio	_	_
+2-23	194-198	bono	_	_
+2-24	199-202	def	_	_
+2-25	203-208	nicht	_	_
+2-26	209-213	sein	_	_
+2-27	214-217	und	_	_
+2-28	218-221	was	_	_
+2-29	222-225	ich	_	_
+2-30	226-228	im	_	_
+2-31	229-241	Portefeuille	_	_
+2-32	242-245	als	_	_
+2-33	246-256	Hauptstück	_	_
+2-34	257-268	aufgenommen	_	_
+2-35	269-272	und	_	_
+2-36	273-280	bezahlt	_	_
+2-37	281-285	habe	_	_
+2-38	286-287	,	_	_
+2-39	288-291	was	_	_
+2-40	292-295	mir	_	_
+2-41	296-299	bei	_	_
+2-42	300-311	zukünftiger	_	_
+2-43	312-322	Verwahrung	_	_
+2-44	323-327	erst	_	_
+2-45	328-336	allerlei	_	_
+2-46	337-350	Dutzendsachen	_	_
+2-47	351-354	bei	_	_
+2-48	355-358	der	_	_
+2-49	359-364	Masse	_	_
+2-50	365-368	der	_	_
+2-51	369-378	Beschauer	_	_
+2-52	379-392	rechtfertigen	_	_
+2-53	393-397	soll	_	_
+2-54	398-399	,	_	_
+2-55	400-404	sehe	_	_
+2-56	405-408	ich	_	_
+2-57	409-418	natürlich	_	_
+2-58	419-425	ungern	_	_
+2-59	426-437	urplötzlich	_	_
+2-60	438-447	divulgirt	_	_
+2-61	448-449	:	_	_
+2-62	450-452	so	_	_
+2-63	453-457	auch	_	_
+2-64	458-461	die	_	_
+2-65	462-463	S	*[8]	OBJ[8]
+2-66	464-468	onza	*[8]	OBJ[8]
+2-67	469-473	vase	*[8]	OBJ[8]
+2-68	474-481	Galassi	*[19]	PERmentioned[19]
+2-69	482-484	's	*[19]	PERmentioned[19]
+2-70	485-486	.	_	_
+
+#Text=Grüßen Sie Maler schönstens \; ich kampirte 14 Tage lang bei seinem Freund Hr .
+3-1	487-493	Grüßen	_	_
+3-2	494-497	Sie	_	_
+3-3	498-503	Maler	*	PERmentioned
+3-4	504-514	schönstens	_	_
+3-5	515-516	\;	_	_
+3-6	517-520	ich	_	_
+3-7	521-529	kampirte	_	_
+3-8	530-532	14	_	_
+3-9	533-537	Tage	_	_
+3-10	538-542	lang	_	_
+3-11	543-546	bei	_	_
+3-12	547-553	seinem	_	_
+3-13	554-560	Freund	_	_
+3-14	561-563	Hr	_	_
+3-15	564-565	.	_	_
+
+#Text=Weiler in Syra .
+4-1	566-572	Weiler	*	PERmentioned
+4-2	573-575	in	_	_
+4-3	576-580	Syra	*	PLACEmentioned
+4-4	581-582	.	_	_
+
+#Text=- Sind die Spiegelfragmente aus Toscanella bei Basseggio mir anheimgefallen oder aufbehalten ?
+5-1	583-584	-	_	_
+5-2	585-589	Sind	_	_
+5-3	590-593	die	_	_
+5-4	594-610	Spiegelfragmente	*	OBJ
+5-5	611-614	aus	_	_
+5-6	615-625	Toscanella	*	PLACEmentioned
+5-7	626-629	bei	_	_
+5-8	630-639	Basseggio	*	PERmentioned
+5-9	640-643	mir	_	_
+5-10	644-658	anheimgefallen	_	_
+5-11	659-663	oder	_	_
+5-12	664-675	aufbehalten	_	_
+5-13	676-677	?	_	_
+
+#Text=Zu den Vasen deren Restauration ich vorzugsweise beendet wünsche gehört die Fossatische der Minervageburt \; vorzugsweise überhaupt die großen Stücke .
+6-1	678-680	Zu	_	_
+6-2	681-684	den	_	_
+6-3	685-690	Vasen	*	OBJ
+6-4	691-696	deren	_	_
+6-5	697-709	Restauration	_	_
+6-6	710-713	ich	_	_
+6-7	714-726	vorzugsweise	_	_
+6-8	727-734	beendet	_	_
+6-9	735-742	wünsche	_	_
+6-10	743-749	gehört	_	_
+6-11	750-753	die	_	_
+6-12	754-765	Fossatische	*[17]|*[18]	OBJ[17]|PERmentioned[18]
+6-13	766-769	der	*[17]	OBJ[17]
+6-14	770-783	Minervageburt	*[17]	OBJ[17]
+6-15	784-785	\;	_	_
+6-16	786-798	vorzugsweise	_	_
+6-17	799-808	überhaupt	_	_
+6-18	809-812	die	_	_
+6-19	813-819	großen	_	_
+6-20	820-826	Stücke	_	_
+6-21	827-828	.	_	_
+
+#Text=Hat Cades das von mir längst begehrte Ex .
+7-1	829-832	Hat	_	_
+7-2	833-838	Cades	*	PERmentioned
+7-3	839-842	das	_	_
+7-4	843-846	von	_	_
+7-5	847-850	mir	_	_
+7-6	851-857	längst	_	_
+7-7	858-866	begehrte	_	_
+7-8	867-869	Ex	_	_
+7-9	870-871	.	_	_
+
+#Text=Centurie 3 und 4 abgeliefert ?
+8-1	872-880	Centurie	_	_
+8-2	881-882	3	_	_
+8-3	883-886	und	_	_
+8-4	887-888	4	_	_
+8-5	889-900	abgeliefert	_	_
+8-6	901-902	?	_	_
+
+#Text=Due Anzeige über und seine Ee- Dali a ‚ sind nicht für Prälatur noch Litteratur , sondern für 1 Ex .
+9-1	903-906	Due	_	_
+9-2	907-914	Anzeige	_	_
+9-3	915-919	über	_	_
+9-4	920-923	und	_	_
+9-5	924-929	seine	_	_
+9-6	930-933	Ee-	_	_
+9-7	934-938	Dali	_	_
+9-8	939-940	a	_	_
+9-9	941-942	‚	_	_
+9-10	943-947	sind	_	_
+9-11	948-953	nicht	_	_
+9-12	954-957	für	_	_
+9-13	958-966	Prälatur	_	_
+9-14	967-971	noch	_	_
+9-15	972-982	Litteratur	_	_
+9-16	983-984	,	_	_
+9-17	985-992	sondern	_	_
+9-18	993-996	für	_	_
+9-19	997-998	1	_	_
+9-20	999-1001	Ex	_	_
+9-21	1002-1003	.	_	_
+
+#Text=ä 2 luigi , finde ich unschicklich \; auch ist es mit ’ Recht nie üblich gewesen die Associati abzukündigen .
+10-1	1004-1005	ä	_	_
+10-2	1006-1007	2	_	_
+10-3	1008-1013	luigi	_	_
+10-4	1014-1015	,	_	_
+10-5	1016-1021	finde	_	_
+10-6	1022-1025	ich	_	_
+10-7	1026-1038	unschicklich	_	_
+10-8	1039-1040	\;	_	_
+10-9	1041-1045	auch	_	_
+10-10	1046-1049	ist	_	_
+10-11	1050-1052	es	_	_
+10-12	1053-1056	mit	_	_
+10-13	1057-1058	’	_	_
+10-14	1059-1064	Recht	_	_
+10-15	1065-1068	nie	_	_
+10-16	1069-1075	üblich	_	_
+10-17	1076-1083	gewesen	_	_
+10-18	1084-1087	die	_	_
+10-19	1088-1097	Associati	_	_
+10-20	1098-1110	abzukündigen	_	_
+10-21	1111-1112	.	_	_
+
+#Text=Bunsen wird Ihnen meine , ich hoffe reichhaltigen und angenehme , Institutsnotizen mitgetheilt haben \; be-
+11-1	1113-1119	Bunsen	*	PERmentioned
+11-2	1120-1124	wird	_	_
+11-3	1125-1130	Ihnen	_	_
+11-4	1131-1136	meine	_	_
+11-5	1137-1138	,	_	_
+11-6	1139-1142	ich	_	_
+11-7	1143-1148	hoffe	_	_
+11-8	1149-1162	reichhaltigen	_	_
+11-9	1163-1166	und	_	_
+11-10	1167-1176	angenehme	_	_
+11-11	1177-1178	,	_	_
+11-12	1179-1195	Institutsnotizen	_	_
+11-13	1196-1207	mitgetheilt	_	_
+11-14	1208-1213	haben	_	_
+11-15	1214-1215	\;	_	_
+11-16	1216-1219	be-	_	_

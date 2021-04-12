@@ -1,0 +1,284 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=65 Braun an Gerhard Rom , 20 .
+1-1	0-2	65	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	20	*[4]	DATEletter[4]
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Jamuar 1838 Rom 20 Januar 1838 Hochverehrtester Freund !
+2-1	31-37	Jamuar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-46	Rom	*	PLACEfrom
+2-4	47-49	20	*[6]	DATEletter[6]
+2-5	50-56	Januar	*[6]	DATEletter[6]
+2-6	57-61	1838	*[6]	DATEletter[6]
+2-7	62-78	Hochverehrtester	_	_
+2-8	79-85	Freund	_	_
+2-9	86-87	!	_	_
+
+#Text=Ich beeile mich Ihnen den Empfang Ihres lieben Briefes d. d . 5 1 .
+3-1	88-91	Ich	_	_
+3-2	92-98	beeile	_	_
+3-3	99-103	mich	_	_
+3-4	104-109	Ihnen	_	_
+3-5	110-113	den	_	_
+3-6	114-121	Empfang	_	_
+3-7	122-127	Ihres	_	_
+3-8	128-134	lieben	_	_
+3-9	135-142	Briefes	_	_
+3-10	143-145	d.	_	_
+3-11	146-147	d	_	_
+3-12	148-149	.	_	_
+3-13	150-151	5	_	_
+3-14	152-153	1	_	_
+3-15	154-155	.	_	_
+
+#Text=M. mit 100 rt .
+4-1	156-158	M.	_	_
+4-2	159-162	mit	_	_
+4-3	163-166	100	_	_
+4-4	167-169	rt	_	_
+4-5	170-171	.	_	_
+
+#Text== 67.38 Scudi Wechseleinlage anzuzeigen .
+5-1	172-173	=	_	_
+5-2	174-179	67.38	_	_
+5-3	180-185	Scudi	_	_
+5-4	186-200	Wechseleinlage	_	_
+5-5	201-211	anzuzeigen	_	_
+5-6	212-213	.	_	_
+
+#Text=Ich habe die angewiesenen 60 Scudi sofort an Wolff gelangen lassen , der sich danach erkundigt hatte und in fortwährender Geldbedrängniß ist .
+6-1	214-217	Ich	_	_
+6-2	218-222	habe	_	_
+6-3	223-226	die	_	_
+6-4	227-239	angewiesenen	_	_
+6-5	240-242	60	_	_
+6-6	243-248	Scudi	_	_
+6-7	249-255	sofort	_	_
+6-8	256-258	an	_	_
+6-9	259-264	Wolff	*	PERmentioned
+6-10	265-273	gelangen	_	_
+6-11	274-280	lassen	_	_
+6-12	281-282	,	_	_
+6-13	283-286	der	_	_
+6-14	287-291	sich	_	_
+6-15	292-298	danach	_	_
+6-16	299-308	erkundigt	_	_
+6-17	309-314	hatte	_	_
+6-18	315-318	und	_	_
+6-19	319-321	in	_	_
+6-20	322-335	fortwährender	_	_
+6-21	336-350	Geldbedrängniß	_	_
+6-22	351-354	ist	_	_
+6-23	355-356	.	_	_
+
+#Text=Er seufzt nach Arbeit .
+7-1	357-359	Er	_	_
+7-2	360-366	seufzt	_	_
+7-3	367-371	nach	_	_
+7-4	372-378	Arbeit	_	_
+7-5	379-380	.	_	_
+
+#Text=Das zierliche Gefäß mit Jo , Argos , Mercur und Stierkopf ist jetzt in meinem Besitz .
+8-1	381-384	Das	_	_
+8-2	385-394	zierliche	_	_
+8-3	395-400	Gefäß	*[8]	OBJ[8]
+8-4	401-404	mit	*[8]	OBJ[8]
+8-5	405-407	Jo	*[8]	OBJ[8]
+8-6	408-409	,	*[8]	OBJ[8]
+8-7	410-415	Argos	*[8]	OBJ[8]
+8-8	416-417	,	*[8]	OBJ[8]
+8-9	418-424	Mercur	*[8]	OBJ[8]
+8-10	425-428	und	*[8]	OBJ[8]
+8-11	429-438	Stierkopf	*[8]	OBJ[8]
+8-12	439-442	ist	_	_
+8-13	443-448	jetzt	_	_
+8-14	449-451	in	_	_
+8-15	452-458	meinem	_	_
+8-16	459-465	Besitz	_	_
+8-17	466-467	.	_	_
+
+#Text=Ich ersuche Sie daher die Bekanntschaft mit dieser interessanten Composizion genügen zu lassen und darüber zu wachen , daß sie nicht veröffentlicht wird .
+9-1	468-471	Ich	_	_
+9-2	472-479	ersuche	_	_
+9-3	480-483	Sie	_	_
+9-4	484-489	daher	_	_
+9-5	490-493	die	_	_
+9-6	494-507	Bekanntschaft	_	_
+9-7	508-511	mit	_	_
+9-8	512-518	dieser	_	_
+9-9	519-532	interessanten	_	_
+9-10	533-544	Composizion	_	_
+9-11	545-552	genügen	_	_
+9-12	553-555	zu	_	_
+9-13	556-562	lassen	_	_
+9-14	563-566	und	_	_
+9-15	567-574	darüber	_	_
+9-16	575-577	zu	_	_
+9-17	578-584	wachen	_	_
+9-18	585-586	,	_	_
+9-19	587-590	daß	_	_
+9-20	591-594	sie	_	_
+9-21	595-600	nicht	_	_
+9-22	601-615	veröffentlicht	_	_
+9-23	616-620	wird	_	_
+9-24	621-622	.	_	_
+
+#Text=Dieses Recht nehme ich mit gleicher Billigkeit in Anspruch , als Sie es für Vasen Ihres Besitzes von denen ich Zeichnungen besitze geltend machen werden .
+10-1	623-629	Dieses	_	_
+10-2	630-635	Recht	_	_
+10-3	636-641	nehme	_	_
+10-4	642-645	ich	_	_
+10-5	646-649	mit	_	_
+10-6	650-658	gleicher	_	_
+10-7	659-669	Billigkeit	_	_
+10-8	670-672	in	_	_
+10-9	673-681	Anspruch	_	_
+10-10	682-683	,	_	_
+10-11	684-687	als	_	_
+10-12	688-691	Sie	_	_
+10-13	692-694	es	_	_
+10-14	695-698	für	_	_
+10-15	699-704	Vasen	_	_
+10-16	705-710	Ihres	_	_
+10-17	711-719	Besitzes	_	_
+10-18	720-723	von	_	_
+10-19	724-729	denen	_	_
+10-20	730-733	ich	_	_
+10-21	734-745	Zeichnungen	_	_
+10-22	746-753	besitze	_	_
+10-23	754-761	geltend	_	_
+10-24	762-768	machen	_	_
+10-25	769-775	werden	_	_
+10-26	776-777	.	_	_
+
+#Text=- FEbenso muß ich Sie ersuchen die Vase Basseggios , welche den Löwenkopf einerseits , und die Dioskurenfamilie andrerseits darstellt , vor der Hand in den Mappen zu behalten , indem ich den Ankauf derselben bewerkstelligt habe .
+11-1	778-779	-	_	_
+11-2	780-787	FEbenso	_	_
+11-3	788-791	muß	_	_
+11-4	792-795	ich	_	_
+11-5	796-799	Sie	_	_
+11-6	800-808	ersuchen	_	_
+11-7	809-812	die	_	_
+11-8	813-817	Vase	*	OBJ
+11-9	818-828	Basseggios	*	PERmentioned
+11-10	829-830	,	_	_
+11-11	831-837	welche	_	_
+11-12	838-841	den	_	_
+11-13	842-851	Löwenkopf	_	_
+11-14	852-862	einerseits	_	_
+11-15	863-864	,	_	_
+11-16	865-868	und	_	_
+11-17	869-872	die	_	_
+11-18	873-889	Dioskurenfamilie	_	_
+11-19	890-901	andrerseits	_	_
+11-20	902-911	darstellt	_	_
+11-21	912-913	,	_	_
+11-22	914-917	vor	_	_
+11-23	918-921	der	_	_
+11-24	922-926	Hand	_	_
+11-25	927-929	in	_	_
+11-26	930-933	den	_	_
+11-27	934-940	Mappen	_	_
+11-28	941-943	zu	_	_
+11-29	944-952	behalten	_	_
+11-30	953-954	,	_	_
+11-31	955-960	indem	_	_
+11-32	961-964	ich	_	_
+11-33	965-968	den	_	_
+11-34	969-975	Ankauf	_	_
+11-35	976-985	derselben	_	_
+11-36	986-1000	bewerkstelligt	_	_
+11-37	1001-1005	habe	_	_
+11-38	1006-1007	.	_	_
+
+#Text=Auf diese Grundsätze müssen wir halten , sowie ich stets mit pedantischer Gewissenhaftigkeit darauf gehalten habe .
+12-1	1008-1011	Auf	_	_
+12-2	1012-1017	diese	_	_
+12-3	1018-1028	Grundsätze	_	_
+12-4	1029-1035	müssen	_	_
+12-5	1036-1039	wir	_	_
+12-6	1040-1046	halten	_	_
+12-7	1047-1048	,	_	_
+12-8	1049-1054	sowie	_	_
+12-9	1055-1058	ich	_	_
+12-10	1059-1064	stets	_	_
+12-11	1065-1068	mit	_	_
+12-12	1069-1081	pedantischer	_	_
+12-13	1082-1100	Gewissenhaftigkeit	_	_
+12-14	1101-1107	darauf	_	_
+12-15	1108-1116	gehalten	_	_
+12-16	1117-1121	habe	_	_
+12-17	1122-1123	.	_	_
+
+#Text=Apolloni war in der letzten Zeit wenig disponibel , zumal beständige Geldebbe war .
+13-1	1124-1132	Apolloni	*	PERmentioned
+13-2	1133-1136	war	_	_
+13-3	1137-1139	in	_	_
+13-4	1140-1143	der	_	_
+13-5	1144-1151	letzten	_	_
+13-6	1152-1156	Zeit	_	_
+13-7	1157-1162	wenig	_	_
+13-8	1163-1173	disponibel	_	_
+13-9	1174-1175	,	_	_
+13-10	1176-1181	zumal	_	_
+13-11	1182-1192	beständige	_	_
+13-12	1193-1201	Geldebbe	_	_
+13-13	1202-1205	war	_	_
+13-14	1206-1207	.	_	_
+
+#Text=Ich werde das Geschäft mit der Cista betreiben .
+14-1	1208-1211	Ich	_	_
+14-2	1212-1217	werde	_	_
+14-3	1218-1221	das	_	_
+14-4	1222-1230	Geschäft	_	_
+14-5	1231-1234	mit	_	_
+14-6	1235-1238	der	_	_
+14-7	1239-1244	Cista	*	OBJ
+14-8	1245-1254	betreiben	_	_
+14-9	1255-1256	.	_	_
+
+#Text=Wegen der Spiegel tröstet Campanari mit hinaushaltenden Versprechungen .
+15-1	1257-1262	Wegen	_	_
+15-2	1263-1266	der	_	_
+15-3	1267-1274	Spiegel	*	OBJ
+15-4	1275-1282	tröstet	_	_
+15-5	1283-1292	Campanari	*	PERmentioned
+15-6	1293-1296	mit	_	_
+15-7	1297-1312	hinaushaltenden	_	_
+15-8	1313-1327	Versprechungen	_	_
+15-9	1328-1329	.	_	_
+
+#Text=Wenn Ihr mehr Bücher wie das Kramersche schreiben laßt , wird bald alles aus sein .
+16-1	1330-1334	Wenn	_	_
+16-2	1335-1338	Ihr	_	_
+16-3	1339-1343	mehr	_	_
+16-4	1344-1350	Bücher	_	_
+16-5	1351-1354	wie	_	_
+16-6	1355-1358	das	_	_
+16-7	1359-1369	Kramersche	_	_
+16-8	1370-1379	schreiben	_	_
+16-9	1380-1384	laßt	_	_
+16-10	1385-1386	,	_	_
+16-11	1387-1391	wird	_	_
+16-12	1392-1396	bald	_	_
+16-13	1397-1402	alles	_	_
+16-14	1403-1406	aus	_	_
+16-15	1407-1411	sein	_	_
+16-16	1412-1413	.	_	_
+
+#Text=Hier gehen die Angelegenheiten höherer Sphäre
+17-1	1414-1418	Hier	_	_
+17-2	1419-1424	gehen	_	_
+17-3	1425-1428	die	_	_
+17-4	1429-1444	Angelegenheiten	_	_
+17-5	1445-1452	höherer	_	_
+17-6	1453-1459	Sphäre	_	_

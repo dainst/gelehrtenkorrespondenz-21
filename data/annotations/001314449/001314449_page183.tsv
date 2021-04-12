@@ -1,0 +1,309 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=81 Henzen an Gerhard 7/I11/54 Hochverehrter Herr Frofessor !
+1-1	0-2	81	_	_
+1-2	3-9	Henzen	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-29	7/I11/54	*	DATEletter
+1-6	30-43	Hochverehrter	_	_
+1-7	44-48	Herr	_	_
+1-8	49-58	Frofessor	_	_
+1-9	59-60	!	_	_
+
+#Text=Besten Dank für Ihren 1 .
+2-1	61-67	Besten	_	_
+2-2	68-72	Dank	_	_
+2-3	73-76	für	_	_
+2-4	77-82	Ihren	_	_
+2-5	83-84	1	_	_
+2-6	85-86	.	_	_
+
+#Text=Brief vom amben v.\\M , und die erfreulichen Nittheilungen , die er enthält .
+3-1	87-92	Brief	_	_
+3-2	93-96	vom	_	_
+3-3	97-102	amben	*[1]	DATEmentioned[1]
+3-4	103-107	v.\\M	*[1]	DATEmentioned[1]
+3-5	108-109	,	*[1]	DATEmentioned[1]
+3-6	110-113	und	_	_
+3-7	114-117	die	_	_
+3-8	118-130	erfreulichen	_	_
+3-9	131-144	Nittheilungen	_	_
+3-10	145-146	,	_	_
+3-11	147-150	die	_	_
+3-12	151-153	er	_	_
+3-13	154-161	enthält	_	_
+3-14	162-163	.	_	_
+
+#Text=Ich werde heute die Gesandtschsft um das betreffende Zeitungsblatt bitten , um selbst das Genauere nachsehen zu können , sodann möglichst schnell mit de Rossi Rücksrrache nehmen und unsre vereinten Änträge einsenden , die aber in der Folge zur Vermeidunr jeglicher Nißverständnisse immer durch Nommsen sehn sollen .
+4-1	164-167	Ich	_	_
+4-2	168-173	werde	_	_
+4-3	174-179	heute	_	_
+4-4	180-183	die	_	_
+4-5	184-197	Gesandtschsft	_	_
+4-6	198-200	um	_	_
+4-7	201-204	das	_	_
+4-8	205-216	betreffende	_	_
+4-9	217-230	Zeitungsblatt	_	_
+4-10	231-237	bitten	_	_
+4-11	238-239	,	_	_
+4-12	240-242	um	_	_
+4-13	243-249	selbst	_	_
+4-14	250-253	das	_	_
+4-15	254-262	Genauere	_	_
+4-16	263-272	nachsehen	_	_
+4-17	273-275	zu	_	_
+4-18	276-282	können	_	_
+4-19	283-284	,	_	_
+4-20	285-291	sodann	_	_
+4-21	292-301	möglichst	_	_
+4-22	302-309	schnell	_	_
+4-23	310-313	mit	_	_
+4-24	314-316	de	*[2]	PERmentioned[2]
+4-25	317-322	Rossi	*[2]	PERmentioned[2]
+4-26	323-334	Rücksrrache	_	_
+4-27	335-341	nehmen	_	_
+4-28	342-345	und	_	_
+4-29	346-351	unsre	_	_
+4-30	352-361	vereinten	_	_
+4-31	362-369	Änträge	_	_
+4-32	370-379	einsenden	_	_
+4-33	380-381	,	_	_
+4-34	382-385	die	_	_
+4-35	386-390	aber	_	_
+4-36	391-393	in	_	_
+4-37	394-397	der	_	_
+4-38	398-403	Folge	_	_
+4-39	404-407	zur	_	_
+4-40	408-418	Vermeidunr	_	_
+4-41	419-428	jeglicher	_	_
+4-42	429-445	Nißverständnisse	_	_
+4-43	446-451	immer	_	_
+4-44	452-457	durch	_	_
+4-45	458-465	Nommsen	*	PERmentioned
+4-46	466-470	sehn	_	_
+4-47	471-477	sollen	_	_
+4-48	478-479	.	_	_
+
+#Text=Vebrigsens thun vie mir Unrecht , wenn Sie glauben , mein Verbitten des Ordens sründe sich auf Äbneirung zesen den König .
+5-1	480-490	Vebrigsens	_	_
+5-2	491-495	thun	_	_
+5-3	496-499	vie	_	_
+5-4	500-503	mir	_	_
+5-5	504-511	Unrecht	_	_
+5-6	512-513	,	_	_
+5-7	514-518	wenn	_	_
+5-8	519-522	Sie	_	_
+5-9	523-530	glauben	_	_
+5-10	531-532	,	_	_
+5-11	533-537	mein	_	_
+5-12	538-547	Verbitten	_	_
+5-13	548-551	des	_	_
+5-14	552-558	Ordens	_	_
+5-15	559-565	sründe	_	_
+5-16	566-570	sich	_	_
+5-17	571-574	auf	_	_
+5-18	575-584	Äbneirung	_	_
+5-19	585-590	zesen	_	_
+5-20	591-594	den	_	_
+5-21	595-600	König	*[3]	PERmentioned[3]
+5-22	601-602	.	*[3]	PERmentioned[3]
+
+#Text=Es ist vielmehr die Sache selber , die , wie sie jetzt ist , mir nicht wenirer lfcherlich , als verächtlich vorkommt , so bald sie eben durch Verwendungen und gar , wie es bei mir ja der Fall sein würde , mit Vorwissen des Betheilisten erlangt wird .
+6-1	603-605	Es	_	_
+6-2	606-609	ist	_	_
+6-3	610-618	vielmehr	_	_
+6-4	619-622	die	_	_
+6-5	623-628	Sache	_	_
+6-6	629-635	selber	_	_
+6-7	636-637	,	_	_
+6-8	638-641	die	_	_
+6-9	642-643	,	_	_
+6-10	644-647	wie	_	_
+6-11	648-651	sie	_	_
+6-12	652-657	jetzt	_	_
+6-13	658-661	ist	_	_
+6-14	662-663	,	_	_
+6-15	664-667	mir	_	_
+6-16	668-673	nicht	_	_
+6-17	674-681	wenirer	_	_
+6-18	682-692	lfcherlich	_	_
+6-19	693-694	,	_	_
+6-20	695-698	als	_	_
+6-21	699-710	verächtlich	_	_
+6-22	711-719	vorkommt	_	_
+6-23	720-721	,	_	_
+6-24	722-724	so	_	_
+6-25	725-729	bald	_	_
+6-26	730-733	sie	_	_
+6-27	734-738	eben	_	_
+6-28	739-744	durch	_	_
+6-29	745-757	Verwendungen	_	_
+6-30	758-761	und	_	_
+6-31	762-765	gar	_	_
+6-32	766-767	,	_	_
+6-33	768-771	wie	_	_
+6-34	772-774	es	_	_
+6-35	775-778	bei	_	_
+6-36	779-782	mir	_	_
+6-37	783-785	ja	_	_
+6-38	786-789	der	_	_
+6-39	790-794	Fall	_	_
+6-40	795-799	sein	_	_
+6-41	800-805	würde	_	_
+6-42	806-807	,	_	_
+6-43	808-811	mit	_	_
+6-44	812-821	Vorwissen	_	_
+6-45	822-825	des	_	_
+6-46	826-838	Betheilisten	_	_
+6-47	839-846	erlangt	_	_
+6-48	847-851	wird	_	_
+6-49	852-853	.	_	_
+
+#Text=Älso non ne parliamo piü .
+7-1	854-858	Älso	_	_
+7-2	859-862	non	_	_
+7-3	863-865	ne	_	_
+7-4	866-874	parliamo	_	_
+7-5	875-878	piü	_	_
+7-6	879-880	.	_	_
+
+#Text=Hinsichtlich der Zumptischen Zettel und meiner damit in Verbindung stehenden Reise berufe ich mich auf meinen letzten Rrief .
+8-1	881-893	Hinsichtlich	_	_
+8-2	894-897	der	_	_
+8-3	898-909	Zumptischen	_	_
+8-4	910-916	Zettel	_	_
+8-5	917-920	und	_	_
+8-6	921-927	meiner	_	_
+8-7	928-933	damit	_	_
+8-8	934-936	in	_	_
+8-9	937-947	Verbindung	_	_
+8-10	948-957	stehenden	_	_
+8-11	958-963	Reise	_	_
+8-12	964-970	berufe	_	_
+8-13	971-974	ich	_	_
+8-14	975-979	mich	_	_
+8-15	980-983	auf	_	_
+8-16	984-990	meinen	_	_
+8-17	991-998	letzten	_	_
+8-18	999-1004	Rrief	_	_
+8-19	1005-1006	.	_	_
+
+#Text=Ob ich die Reise mache , werde ich ganz von Nommsens Entscheidung abhansen lassen \; da ich nicht beurtheilen kann , ob sie unter diesen Umständen von Nutzen ist .
+9-1	1007-1009	Ob	_	_
+9-2	1010-1013	ich	_	_
+9-3	1014-1017	die	_	_
+9-4	1018-1023	Reise	_	_
+9-5	1024-1029	mache	_	_
+9-6	1030-1031	,	_	_
+9-7	1032-1037	werde	_	_
+9-8	1038-1041	ich	_	_
+9-9	1042-1046	ganz	_	_
+9-10	1047-1050	von	_	_
+9-11	1051-1059	Nommsens	*	PERmentioned
+9-12	1060-1072	Entscheidung	_	_
+9-13	1073-1081	abhansen	_	_
+9-14	1082-1088	lassen	_	_
+9-15	1089-1090	\;	_	_
+9-16	1091-1093	da	_	_
+9-17	1094-1097	ich	_	_
+9-18	1098-1103	nicht	_	_
+9-19	1104-1115	beurtheilen	_	_
+9-20	1116-1120	kann	_	_
+9-21	1121-1122	,	_	_
+9-22	1123-1125	ob	_	_
+9-23	1126-1129	sie	_	_
+9-24	1130-1135	unter	_	_
+9-25	1136-1142	diesen	_	_
+9-26	1143-1152	Umständen	_	_
+9-27	1153-1156	von	_	_
+9-28	1157-1163	Nutzen	_	_
+9-29	1164-1167	ist	_	_
+9-30	1168-1169	.	_	_
+
+#Text=Andrer Seits muß man in Berlin beszreifen , dass die Zettel wiederum nöthier sind , um ordentlich anfangen zu können .
+10-1	1170-1176	Andrer	_	_
+10-2	1177-1182	Seits	_	_
+10-3	1183-1186	muß	_	_
+10-4	1187-1190	man	_	_
+10-5	1191-1193	in	_	_
+10-6	1194-1200	Berlin	*	PLACEmentioned
+10-7	1201-1211	beszreifen	_	_
+10-8	1212-1213	,	_	_
+10-9	1214-1218	dass	_	_
+10-10	1219-1222	die	_	_
+10-11	1223-1229	Zettel	_	_
+10-12	1230-1238	wiederum	_	_
+10-13	1239-1246	nöthier	_	_
+10-14	1247-1251	sind	_	_
+10-15	1252-1253	,	_	_
+10-16	1254-1256	um	_	_
+10-17	1257-1267	ordentlich	_	_
+10-18	1268-1276	anfangen	_	_
+10-19	1277-1279	zu	_	_
+10-20	1280-1286	können	_	_
+10-21	1287-1288	.	_	_
+
+#Text=Daher mein ceterum censeo !
+11-1	1289-1294	Daher	_	_
+11-2	1295-1299	mein	_	_
+11-3	1300-1307	ceterum	_	_
+11-4	1308-1314	censeo	_	_
+11-5	1315-1316	!	_	_
+
+#Text=Ich schreibe heute an Usedom in der angesebnen Weise .
+12-1	1317-1320	Ich	_	_
+12-2	1321-1329	schreibe	_	_
+12-3	1330-1335	heute	_	_
+12-4	1336-1338	an	_	_
+12-5	1339-1345	Usedom	*	PERmentioned
+12-6	1346-1348	in	_	_
+12-7	1349-1352	der	_	_
+12-8	1353-1363	angesebnen	_	_
+12-9	1364-1369	Weise	_	_
+12-10	1370-1371	.	_	_
+
+#Text=- Braun ist eifrie mit allerlei Plönen für eine Ausstattung des Bullettino mit Bildern beschäftist , ob praktisch , kann ich noch nicht beurtheilen .
+13-1	1372-1373	-	_	_
+13-2	1374-1379	Braun	*	PERmentioned
+13-3	1380-1383	ist	_	_
+13-4	1384-1390	eifrie	_	_
+13-5	1391-1394	mit	_	_
+13-6	1395-1403	allerlei	_	_
+13-7	1404-1410	Plönen	_	_
+13-8	1411-1414	für	_	_
+13-9	1415-1419	eine	_	_
+13-10	1420-1431	Ausstattung	_	_
+13-11	1432-1435	des	_	_
+13-12	1436-1446	Bullettino	_	_
+13-13	1447-1450	mit	_	_
+13-14	1451-1458	Bildern	_	_
+13-15	1459-1470	beschäftist	_	_
+13-16	1471-1472	,	_	_
+13-17	1473-1475	ob	_	_
+13-18	1476-1485	praktisch	_	_
+13-19	1486-1487	,	_	_
+13-20	1488-1492	kann	_	_
+13-21	1493-1496	ich	_	_
+13-22	1497-1501	noch	_	_
+13-23	1502-1507	nicht	_	_
+13-24	1508-1519	beurtheilen	_	_
+13-25	1520-1521	.	_	_
+
+#Text=Jeden Falls werden wir 3 Toren auf einmal reben u. so schnell in Ord-
+14-1	1522-1527	Jeden	_	_
+14-2	1528-1533	Falls	_	_
+14-3	1534-1540	werden	_	_
+14-4	1541-1544	wir	_	_
+14-5	1545-1546	3	_	_
+14-6	1547-1552	Toren	_	_
+14-7	1553-1556	auf	_	_
+14-8	1557-1563	einmal	_	_
+14-9	1564-1569	reben	_	_
+14-10	1570-1572	u.	_	_
+14-11	1573-1575	so	_	_
+14-12	1576-1583	schnell	_	_
+14-13	1584-1586	in	_	_
+14-14	1587-1591	Ord-	_	_

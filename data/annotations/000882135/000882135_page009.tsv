@@ -1,0 +1,344 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=s2 Braun an Gerhard Rom , 16 .
+1-1	0-2	s2	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-28	16	*[4]	DATEletter[4]
+1-8	29-30	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 dies hier mit Protest .
+2-1	31-37	Januar	*[4]	DATEletter[4]
+2-2	38-42	1838	*[4]	DATEletter[4]
+2-3	43-47	dies	_	_
+2-4	48-52	hier	_	_
+2-5	53-56	mit	_	_
+2-6	57-64	Protest	_	_
+2-7	65-66	.	_	_
+
+#Text=In der Kiste von B. waren 3 Exemplare von dem Sprachwerk Wilh .
+3-1	67-69	In	_	_
+3-2	70-73	der	_	_
+3-3	74-79	Kiste	_	_
+3-4	80-83	von	_	_
+3-5	84-86	B.	_	_
+3-6	87-92	waren	_	_
+3-7	93-94	3	_	_
+3-8	95-104	Exemplare	_	_
+3-9	105-108	von	_	_
+3-10	109-112	dem	_	_
+3-11	113-123	Sprachwerk	_	_
+3-12	124-128	Wilh	*[5]	PERmentioned[5]
+3-13	129-130	.	*[5]	PERmentioned[5]
+
+#Text=Humbolds .
+4-1	131-139	Humbolds	*[5]	PERmentioned[5]
+4-2	140-141	.	_	_
+
+#Text=Des einen hat sich Bunsen selbst angenommen .
+5-1	142-145	Des	_	_
+5-2	146-151	einen	_	_
+5-3	152-155	hat	_	_
+5-4	156-160	sich	_	_
+5-5	161-167	Bunsen	*	PERmentioned
+5-6	168-174	selbst	_	_
+5-7	175-185	angenommen	_	_
+5-8	186-187	.	_	_
+
+#Text=Für wen sind die anderen beiden ?
+6-1	188-191	Für	_	_
+6-2	192-195	wen	_	_
+6-3	196-200	sind	_	_
+6-4	201-204	die	_	_
+6-5	205-212	anderen	_	_
+6-6	213-219	beiden	_	_
+6-7	220-221	?	_	_
+
+#Text=An Avellino habe ich geschrieben , er solle sich der Schulzeitung wegen direct an Sie wenden .
+7-1	222-224	An	_	_
+7-2	225-233	Avellino	*	PERmentioned
+7-3	234-238	habe	_	_
+7-4	239-242	ich	_	_
+7-5	243-254	geschrieben	_	_
+7-6	255-256	,	_	_
+7-7	257-259	er	_	_
+7-8	260-265	solle	_	_
+7-9	266-270	sich	_	_
+7-10	271-274	der	_	_
+7-11	275-287	Schulzeitung	_	_
+7-12	288-293	wegen	_	_
+7-13	294-300	direct	_	_
+7-14	301-303	an	_	_
+7-15	304-307	Sie	_	_
+7-16	308-314	wenden	_	_
+7-17	315-316	.	_	_
+
+#Text=Mir ist dies Geschäft nie überwiesen worden .
+8-1	317-320	Mir	_	_
+8-2	321-324	ist	_	_
+8-3	325-329	dies	_	_
+8-4	330-338	Geschäft	_	_
+8-5	339-342	nie	_	_
+8-6	343-353	überwiesen	_	_
+8-7	354-360	worden	_	_
+8-8	361-362	.	_	_
+
+#Text=In diesem Jahre schreibe ich bereits den 52. ten Brief .
+9-1	363-365	In	_	_
+9-2	366-372	diesem	_	_
+9-3	373-378	Jahre	_	_
+9-4	379-387	schreibe	_	_
+9-5	388-391	ich	_	_
+9-6	392-399	bereits	_	_
+9-7	400-403	den	_	_
+9-8	404-407	52.	_	_
+9-9	408-411	ten	_	_
+9-10	412-417	Brief	_	_
+9-11	418-419	.	_	_
+
+#Text=Sie können sich denken wie mich das niederdrückt .
+10-1	420-423	Sie	_	_
+10-2	424-430	können	_	_
+10-3	431-435	sich	_	_
+10-4	436-442	denken	_	_
+10-5	443-446	wie	_	_
+10-6	447-451	mich	_	_
+10-7	452-455	das	_	_
+10-8	456-468	niederdrückt	_	_
+10-9	469-470	.	_	_
+
+#Text=Keine Briefchen , lauter Geschäftsbriefe !
+11-1	471-476	Keine	_	_
+11-2	477-486	Briefchen	_	_
+11-3	487-488	,	_	_
+11-4	489-495	lauter	_	_
+11-5	496-511	Geschäftsbriefe	_	_
+11-6	512-513	!	_	_
+
+#Text=Dabei dauert die Geschäftsunorfung im Institut fort , so daß ich diesmal ganz ernstlich an ein definitives Ausscheiden denke .
+12-1	514-519	Dabei	_	_
+12-2	520-526	dauert	_	_
+12-3	527-530	die	_	_
+12-4	531-548	Geschäftsunorfung	_	_
+12-5	549-551	im	_	_
+12-6	552-560	Institut	*	ORGmentioned
+12-7	561-565	fort	_	_
+12-8	566-567	,	_	_
+12-9	568-570	so	_	_
+12-10	571-574	daß	_	_
+12-11	575-578	ich	_	_
+12-12	579-586	diesmal	_	_
+12-13	587-591	ganz	_	_
+12-14	592-601	ernstlich	_	_
+12-15	602-604	an	_	_
+12-16	605-608	ein	_	_
+12-17	609-620	definitives	_	_
+12-18	621-632	Ausscheiden	_	_
+12-19	633-638	denke	_	_
+12-20	639-640	.	_	_
+
+#Text=Vielleicht ist dies schon geschehen , wenn die Antwort auf diesen Brief ankommt .
+13-1	641-651	Vielleicht	_	_
+13-2	652-655	ist	_	_
+13-3	656-660	dies	_	_
+13-4	661-666	schon	_	_
+13-5	667-676	geschehen	_	_
+13-6	677-678	,	_	_
+13-7	679-683	wenn	_	_
+13-8	684-687	die	_	_
+13-9	688-695	Antwort	_	_
+13-10	696-699	auf	_	_
+13-11	700-706	diesen	_	_
+13-12	707-712	Brief	_	_
+13-13	713-720	ankommt	_	_
+13-14	721-722	.	_	_
+
+#Text=Die Geldnoth ist so groß , daß ich manchen Tag kein Brot habe .
+14-1	723-726	Die	_	_
+14-2	727-735	Geldnoth	_	_
+14-3	736-739	ist	_	_
+14-4	740-742	so	_	_
+14-5	743-747	groß	_	_
+14-6	748-749	,	_	_
+14-7	750-753	daß	_	_
+14-8	754-757	ich	_	_
+14-9	758-765	manchen	_	_
+14-10	766-769	Tag	_	_
+14-11	770-774	kein	_	_
+14-12	775-779	Brot	_	_
+14-13	780-784	habe	_	_
+14-14	785-786	.	_	_
+
+#Text=Die Zeichner drängen auf Zahlung \; Basseggio brummt \; eben war Wolff auch bei mir und hielt Nachfrage .
+15-1	787-790	Die	_	_
+15-2	791-799	Zeichner	_	_
+15-3	800-807	drängen	_	_
+15-4	808-811	auf	_	_
+15-5	812-819	Zahlung	_	_
+15-6	820-821	\;	_	_
+15-7	822-831	Basseggio	*	PERmentioned
+15-8	832-838	brummt	_	_
+15-9	839-840	\;	_	_
+15-10	841-845	eben	_	_
+15-11	846-849	war	_	_
+15-12	850-855	Wolff	*	PERmentioned
+15-13	856-860	auch	_	_
+15-14	861-864	bei	_	_
+15-15	865-868	mir	_	_
+15-16	869-872	und	_	_
+15-17	873-878	hielt	_	_
+15-18	879-888	Nachfrage	_	_
+15-19	889-890	.	_	_
+
+#Text=Das halte der Teufel aus \; ich nicht .
+16-1	891-894	Das	_	_
+16-2	895-900	halte	_	_
+16-3	901-904	der	_	_
+16-4	905-911	Teufel	_	_
+16-5	912-915	aus	_	_
+16-6	916-917	\;	_	_
+16-7	918-921	ich	_	_
+16-8	922-927	nicht	_	_
+16-9	928-929	.	_	_
+
+#Text=An dem Abdruck Ihres Aufsatzes über griechische Bildwerke ist unter 4 Wochen gar nicht zu denken .
+17-1	930-932	An	_	_
+17-2	933-936	dem	_	_
+17-3	937-944	Abdruck	_	_
+17-4	945-950	Ihres	_	_
+17-5	951-960	Aufsatzes	_	_
+17-6	961-965	über	_	_
+17-7	966-977	griechische	_	_
+17-8	978-987	Bildwerke	_	_
+17-9	988-991	ist	_	_
+17-10	992-997	unter	_	_
+17-11	998-999	4	_	_
+17-12	1000-1006	Wochen	_	_
+17-13	1007-1010	gar	_	_
+17-14	1011-1016	nicht	_	_
+17-15	1017-1019	zu	_	_
+17-16	1020-1026	denken	_	_
+17-17	1027-1028	.	_	_
+
+#Text=Der Annalendruck ist trotz meines ängstlichen beständigen Drängens gar nicht wieder aufgenommen .
+18-1	1029-1032	Der	_	_
+18-2	1033-1045	Annalendruck	_	_
+18-3	1046-1049	ist	_	_
+18-4	1050-1055	trotz	_	_
+18-5	1056-1062	meines	_	_
+18-6	1063-1074	ängstlichen	_	_
+18-7	1075-1086	beständigen	_	_
+18-8	1087-1095	Drängens	_	_
+18-9	1096-1099	gar	_	_
+18-10	1100-1105	nicht	_	_
+18-11	1106-1112	wieder	_	_
+18-12	1113-1124	aufgenommen	_	_
+18-13	1125-1126	.	_	_
+
+#Text=Gerstäckers bittere Klagen verstehe ich nicht .
+19-1	1127-1138	Gerstäckers	*	PERmentioned
+19-2	1139-1146	bittere	_	_
+19-3	1147-1153	Klagen	_	_
+19-4	1154-1162	verstehe	_	_
+19-5	1163-1166	ich	_	_
+19-6	1167-1172	nicht	_	_
+19-7	1173-1174	.	_	_
+
+#Text=Durch meine Hände ist nichts gegangen , was nicht expedirt worden wäre .
+20-1	1175-1180	Durch	_	_
+20-2	1181-1186	meine	_	_
+20-3	1187-1192	Hände	_	_
+20-4	1193-1196	ist	_	_
+20-5	1197-1203	nichts	_	_
+20-6	1204-1212	gegangen	_	_
+20-7	1213-1214	,	_	_
+20-8	1215-1218	was	_	_
+20-9	1219-1224	nicht	_	_
+20-10	1225-1233	expedirt	_	_
+20-11	1234-1240	worden	_	_
+20-12	1241-1245	wäre	_	_
+20-13	1246-1247	.	_	_
+
+#Text=Hat er an Sie je Rechnungen geschickt ?
+21-1	1248-1251	Hat	_	_
+21-2	1252-1254	er	_	_
+21-3	1255-1257	an	_	_
+21-4	1258-1261	Sie	_	_
+21-5	1262-1264	je	_	_
+21-6	1265-1275	Rechnungen	_	_
+21-7	1276-1285	geschickt	_	_
+21-8	1286-1287	?	_	_
+
+#Text=Dann hätten Sie die Quittung ermitteln müssen .
+22-1	1288-1292	Dann	_	_
+22-2	1293-1299	hätten	_	_
+22-3	1300-1303	Sie	_	_
+22-4	1304-1307	die	_	_
+22-5	1308-1316	Quittung	_	_
+22-6	1317-1326	ermitteln	_	_
+22-7	1327-1333	müssen	_	_
+22-8	1334-1335	.	_	_
+
+#Text=- Das Ganze hat in Geschäftslosigkeit seinen Höhepunkt erreicht .
+23-1	1336-1337	-	_	_
+23-2	1338-1341	Das	_	_
+23-3	1342-1347	Ganze	_	_
+23-4	1348-1351	hat	_	_
+23-5	1352-1354	in	_	_
+23-6	1355-1373	Geschäftslosigkeit	_	_
+23-7	1374-1380	seinen	_	_
+23-8	1381-1390	Höhepunkt	_	_
+23-9	1391-1399	erreicht	_	_
+23-10	1400-1401	.	_	_
+
+#Text=Länger kann es so fort nicht dauern .
+24-1	1402-1408	Länger	_	_
+24-2	1409-1413	kann	_	_
+24-3	1414-1416	es	_	_
+24-4	1417-1419	so	_	_
+24-5	1420-1424	fort	_	_
+24-6	1425-1430	nicht	_	_
+24-7	1431-1437	dauern	_	_
+24-8	1438-1439	.	_	_
+
+#Text=Eigentlich ist das Institut wohlhabend , aber die Verwaltung ist so schlecht , daß es einem verschuldeten sonst reichen Manne gleicht .
+25-1	1440-1450	Eigentlich	_	_
+25-2	1451-1454	ist	_	_
+25-3	1455-1458	das	_	_
+25-4	1459-1467	Institut	*	ORGmentioned
+25-5	1468-1478	wohlhabend	_	_
+25-6	1479-1480	,	_	_
+25-7	1481-1485	aber	_	_
+25-8	1486-1489	die	_	_
+25-9	1490-1500	Verwaltung	_	_
+25-10	1501-1504	ist	_	_
+25-11	1505-1507	so	_	_
+25-12	1508-1516	schlecht	_	_
+25-13	1517-1518	,	_	_
+25-14	1519-1522	daß	_	_
+25-15	1523-1525	es	_	_
+25-16	1526-1531	einem	_	_
+25-17	1532-1545	verschuldeten	_	_
+25-18	1546-1551	sonst	_	_
+25-19	1552-1559	reichen	_	_
+25-20	1560-1565	Manne	_	_
+25-21	1566-1573	gleicht	_	_
+25-22	1574-1575	.	_	_
+
+#Text=Schicken Sie mir gefälligst schleunigst ein Manifest von Rages Jahrbuch für
+26-1	1576-1584	Schicken	_	_
+26-2	1585-1588	Sie	_	_
+26-3	1589-1592	mir	_	_
+26-4	1593-1603	gefälligst	_	_
+26-5	1604-1615	schleunigst	_	_
+26-6	1616-1619	ein	_	_
+26-7	1620-1628	Manifest	_	_
+26-8	1629-1632	von	_	_
+26-9	1633-1638	Rages	_	_
+26-10	1639-1647	Jahrbuch	_	_
+26-11	1648-1651	für	_	_

@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=297 Helbig an Henzen Rom , 19. Juli 1870 bei manchem Nutzen im Einzelnen , doch die Sache nicht erschöpfen würde .
+1-1	0-3	297	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	19.	*[5]	DATEletter[5]
+1-8	31-35	Juli	*[5]	DATEletter[5]
+1-9	36-40	1870	*[5]	DATEletter[5]
+1-10	41-44	bei	_	_
+1-11	45-52	manchem	_	_
+1-12	53-59	Nutzen	_	_
+1-13	60-62	im	_	_
+1-14	63-72	Einzelnen	_	_
+1-15	73-74	,	_	_
+1-16	75-79	doch	_	_
+1-17	80-83	die	_	_
+1-18	84-89	Sache	_	_
+1-19	90-95	nicht	_	_
+1-20	96-106	erschöpfen	_	_
+1-21	107-112	würde	_	_
+1-22	113-114	.	_	_
+
+#Text=Mein Reiseplan würde folgender sein : ich bleibe zwei Tage in Arezzo - so lange werden mich , wenn der Bericht der Wahrheit gemäß ist , die dortigen Ausgrabungen aufhalten .
+2-1	115-119	Mein	_	_
+2-2	120-129	Reiseplan	_	_
+2-3	130-135	würde	_	_
+2-4	136-145	folgender	_	_
+2-5	146-150	sein	_	_
+2-6	151-152	:	_	_
+2-7	153-156	ich	_	_
+2-8	157-163	bleibe	_	_
+2-9	164-168	zwei	_	_
+2-10	169-173	Tage	_	_
+2-11	174-176	in	_	_
+2-12	177-183	Arezzo	*	PLACEmentioned
+2-13	184-185	-	_	_
+2-14	186-188	so	_	_
+2-15	189-194	lange	_	_
+2-16	195-201	werden	_	_
+2-17	202-206	mich	_	_
+2-18	207-208	,	_	_
+2-19	209-213	wenn	_	_
+2-20	214-217	der	_	_
+2-21	218-225	Bericht	_	_
+2-22	226-229	der	_	_
+2-23	230-238	Wahrheit	_	_
+2-24	239-244	gemäß	_	_
+2-25	245-248	ist	_	_
+2-26	249-250	,	_	_
+2-27	251-254	die	_	_
+2-28	255-263	dortigen	_	_
+2-29	264-276	Ausgrabungen	_	_
+2-30	277-286	aufhalten	_	_
+2-31	287-288	.	_	_
+
+#Text=Einen Tag rechne ich auf Mailand , wo ich die neuerdings gefundene angeblich mit Temperabildern bemalte marmorne Ara - also ein Seitenstück zu dem cornetaner Sarkophag - untersuchen will .
+3-1	289-294	Einen	_	_
+3-2	295-298	Tag	_	_
+3-3	299-305	rechne	_	_
+3-4	306-309	ich	_	_
+3-5	310-313	auf	_	_
+3-6	314-321	Mailand	*	PLACEmentioned
+3-7	322-323	,	_	_
+3-8	324-326	wo	_	_
+3-9	327-330	ich	_	_
+3-10	331-334	die	_	_
+3-11	335-345	neuerdings	_	_
+3-12	346-355	gefundene	_	_
+3-13	356-365	angeblich	_	_
+3-14	366-369	mit	_	_
+3-15	370-384	Temperabildern	_	_
+3-16	385-392	bemalte	_	_
+3-17	393-401	marmorne	_	_
+3-18	402-405	Ara	_	_
+3-19	406-407	-	_	_
+3-20	408-412	also	_	_
+3-21	413-416	ein	_	_
+3-22	417-428	Seitenstück	_	_
+3-23	429-431	zu	_	_
+3-24	432-435	dem	_	_
+3-25	436-446	cornetaner	*[6]	OBJ[6]
+3-26	447-456	Sarkophag	*[6]	OBJ[6]
+3-27	457-458	-	_	_
+3-28	459-470	untersuchen	_	_
+3-29	471-475	will	_	_
+3-30	476-477	.	_	_
+
+#Text=Von Mailand direct nach Zürich , wo ich demnach etwa um den 3 .
+4-1	478-481	Von	_	_
+4-2	482-489	Mailand	*	PLACEmentioned
+4-3	490-496	direct	_	_
+4-4	497-501	nach	_	_
+4-5	502-508	Zürich	*	PLACEmentioned
+4-6	509-510	,	_	_
+4-7	511-513	wo	_	_
+4-8	514-517	ich	_	_
+4-9	518-525	demnach	_	_
+4-10	526-530	etwa	_	_
+4-11	531-533	um	_	_
+4-12	534-537	den	_	_
+4-13	538-539	3	*[7]	DATEmentioned[7]
+4-14	540-541	.	*[7]	DATEmentioned[7]
+
+#Text=August eintreffen werde .
+5-1	542-548	August	*[7]	DATEmentioned[7]
+5-2	549-559	eintreffen	_	_
+5-3	560-565	werde	_	_
+5-4	566-567	.	_	_
+
+#Text=Vor der Hand bitte ich Sie , mir etwaige Mittheilungen noch unter der alten Adresse `` Pension zum Schwanen , Kreuzstraße , Zürich '' zukommen zu lassen .
+6-1	568-571	Vor	_	_
+6-2	572-575	der	_	_
+6-3	576-580	Hand	_	_
+6-4	581-586	bitte	_	_
+6-5	587-590	ich	_	_
+6-6	591-594	Sie	_	_
+6-7	595-596	,	_	_
+6-8	597-600	mir	_	_
+6-9	601-608	etwaige	_	_
+6-10	609-622	Mittheilungen	_	_
+6-11	623-627	noch	_	_
+6-12	628-633	unter	_	_
+6-13	634-637	der	_	_
+6-14	638-643	alten	_	_
+6-15	644-651	Adresse	_	_
+6-16	652-654	``	_	_
+6-17	655-662	Pension	_	_
+6-18	663-666	zum	_	_
+6-19	667-675	Schwanen	_	_
+6-20	676-677	,	_	_
+6-21	678-689	Kreuzstraße	_	_
+6-22	690-691	,	_	_
+6-23	692-698	Zürich	*	PLACEmentioned
+6-24	699-701	''	_	_
+6-25	702-710	zukommen	_	_
+6-26	711-713	zu	_	_
+6-27	714-720	lassen	_	_
+6-28	721-722	.	_	_
+
+#Text=Von Zürich aus schreibe ich Ihnen , wenn wir neu installirt sind , unsere neue Adresse .
+7-1	723-726	Von	_	_
+7-2	727-733	Zürich	*	PLACEmentioned
+7-3	734-737	aus	_	_
+7-4	738-746	schreibe	_	_
+7-5	747-750	ich	_	_
+7-6	751-756	Ihnen	_	_
+7-7	757-758	,	_	_
+7-8	759-763	wenn	_	_
+7-9	764-767	wir	_	_
+7-10	768-771	neu	_	_
+7-11	772-782	installirt	_	_
+7-12	783-787	sind	_	_
+7-13	788-789	,	_	_
+7-14	790-796	unsere	_	_
+7-15	797-801	neue	_	_
+7-16	802-809	Adresse	_	_
+7-17	810-811	.	_	_
+
+#Text=Bürger ist als Landwehrofficier einberufen und hat somit die Revision der Akten des Kopfschen Processes aufgeben müssen .
+8-1	812-818	Bürger	_	_
+8-2	819-822	ist	_	_
+8-3	823-826	als	_	_
+8-4	827-843	Landwehrofficier	_	_
+8-5	844-854	einberufen	_	_
+8-6	855-858	und	_	_
+8-7	859-862	hat	_	_
+8-8	863-868	somit	_	_
+8-9	869-872	die	_	_
+8-10	873-881	Revision	_	_
+8-11	882-885	der	_	_
+8-12	886-891	Akten	_	_
+8-13	892-895	des	_	_
+8-14	896-905	Kopfschen	_	_
+8-15	906-915	Processes	_	_
+8-16	916-924	aufgeben	_	_
+8-17	925-931	müssen	_	_
+8-18	932-933	.	_	_
+
+#Text=Das Urtheil in erster Instanz soll noch in diesem Monate erfolgen .
+9-1	934-937	Das	_	_
+9-2	938-945	Urtheil	_	_
+9-3	946-948	in	_	_
+9-4	949-955	erster	_	_
+9-5	956-963	Instanz	_	_
+9-6	964-968	soll	_	_
+9-7	969-973	noch	_	_
+9-8	974-976	in	_	_
+9-9	977-983	diesem	_	_
+9-10	984-990	Monate	_	_
+9-11	991-999	erfolgen	_	_
+9-12	1000-1001	.	_	_
+
+#Text=Jedenfalls schreibe ich Ihnen noch einmal vor meiner Abreise von Rom .
+10-1	1002-1012	Jedenfalls	_	_
+10-2	1013-1021	schreibe	_	_
+10-3	1022-1025	ich	_	_
+10-4	1026-1031	Ihnen	_	_
+10-5	1032-1036	noch	_	_
+10-6	1037-1043	einmal	_	_
+10-7	1044-1047	vor	_	_
+10-8	1048-1054	meiner	_	_
+10-9	1055-1062	Abreise	_	_
+10-10	1063-1066	von	_	_
+10-11	1067-1070	Rom	*	PLACEmentioned
+10-12	1071-1072	.	_	_
+
+#Text=Leben Sie wohl !
+11-1	1073-1078	Leben	_	_
+11-2	1079-1082	Sie	_	_
+11-3	1083-1087	wohl	_	_
+11-4	1088-1089	!	_	_
+
+#Text=Mit herzlichen Grüßen Ihr W. Helbig
+12-1	1090-1093	Mit	_	_
+12-2	1094-1104	herzlichen	_	_
+12-3	1105-1111	Grüßen	_	_
+12-4	1112-1115	Ihr	_	_
+12-5	1116-1118	W.	*[8]	PERauthor[8]
+12-6	1119-1125	Helbig	*[8]	PERauthor[8]

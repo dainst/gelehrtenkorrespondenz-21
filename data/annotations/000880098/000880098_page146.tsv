@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=205 Braun an Gerhard Rom , 15 .
+1-1	0-3	205	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	15	*[1]	DATEletter[1]
+1-8	30-31	.	*[1]	DATEletter[1]
+
+#Text=Januar 1835 ihm nicht spedirt wurde , Ueber Durands Vasen mit nächster Post allerlei .
+2-1	32-38	Januar	*[1]	DATEletter[1]
+2-2	39-43	1835	*[1]	DATEletter[1]
+2-3	44-47	ihm	_	_
+2-4	48-53	nicht	_	_
+2-5	54-61	spedirt	_	_
+2-6	62-67	wurde	_	_
+2-7	68-69	,	_	_
+2-8	70-75	Ueber	_	_
+2-9	76-83	Durands	*	PERmentioned
+2-10	84-89	Vasen	_	_
+2-11	90-93	mit	_	_
+2-12	94-102	nächster	_	_
+2-13	103-107	Post	_	_
+2-14	108-116	allerlei	_	_
+2-15	117-118	.	_	_
+
+#Text=Fürs Bull .
+3-1	119-123	Fürs	_	_
+3-2	124-128	Bull	_	_
+3-3	129-130	.	_	_
+
+#Text=hat Canina Scavi del Foro R. eingeliefert , Ich habe sie noch nicht gelesen , sondern für den Jahresschluß zum Setzen abliefern lassen .
+4-1	131-134	hat	_	_
+4-2	135-141	Canina	_	_
+4-3	142-147	Scavi	_	_
+4-4	148-151	del	_	_
+4-5	152-156	Foro	*[2]	OBJtopography[2]
+4-6	157-159	R.	*[2]	OBJtopography[2]
+4-7	160-172	eingeliefert	_	_
+4-8	173-174	,	_	_
+4-9	175-178	Ich	_	_
+4-10	179-183	habe	_	_
+4-11	184-187	sie	_	_
+4-12	188-192	noch	_	_
+4-13	193-198	nicht	_	_
+4-14	199-206	gelesen	_	_
+4-15	207-208	,	_	_
+4-16	209-216	sondern	_	_
+4-17	217-220	für	_	_
+4-18	221-224	den	_	_
+4-19	225-237	Jahresschluß	_	_
+4-20	238-241	zum	_	_
+4-21	242-248	Setzen	_	_
+4-22	249-258	abliefern	_	_
+4-23	259-265	lassen	_	_
+4-24	266-267	.	_	_
+
+#Text=Wegen der Tommasoschen Rechnungen hatte mich Bunsen einmal für unfähig erklärt die Institutsgeschäfte zu führen .
+5-1	268-273	Wegen	_	_
+5-2	274-277	der	_	_
+5-3	278-290	Tommasoschen	*	PERmentioned
+5-4	291-301	Rechnungen	_	_
+5-5	302-307	hatte	_	_
+5-6	308-312	mich	_	_
+5-7	313-319	Bunsen	_	_
+5-8	320-326	einmal	_	_
+5-9	327-330	für	_	_
+5-10	331-338	unfähig	_	_
+5-11	339-346	erklärt	_	_
+5-12	347-350	die	_	_
+5-13	351-369	Institutsgeschäfte	*	ORGmentioned
+5-14	370-372	zu	_	_
+5-15	373-379	führen	_	_
+5-16	380-381	.	_	_
+
+#Text=Ich habe still geschwiegen , aber die Fehler berichtigt , welche er selbst ähnlich lautenden Posten beigeschrieben .
+6-1	382-385	Ich	_	_
+6-2	386-390	habe	_	_
+6-3	391-396	still	_	_
+6-4	397-408	geschwiegen	_	_
+6-5	409-410	,	_	_
+6-6	411-415	aber	_	_
+6-7	416-419	die	_	_
+6-8	420-426	Fehler	_	_
+6-9	427-437	berichtigt	_	_
+6-10	438-439	,	_	_
+6-11	440-446	welche	_	_
+6-12	447-449	er	_	_
+6-13	450-456	selbst	_	_
+6-14	457-464	ähnlich	_	_
+6-15	465-474	lautenden	_	_
+6-16	475-481	Posten	_	_
+6-17	482-496	beigeschrieben	_	_
+6-18	497-498	.	_	_
+
+#Text=Si viel Heftigkeit greift mich gemüthlich und physisch überaus stark an .
+7-1	499-501	Si	_	_
+7-2	502-506	viel	_	_
+7-3	507-517	Heftigkeit	_	_
+7-4	518-524	greift	_	_
+7-5	525-529	mich	_	_
+7-6	530-540	gemüthlich	_	_
+7-7	541-544	und	_	_
+7-8	545-553	physisch	_	_
+7-9	554-561	überaus	_	_
+7-10	562-567	stark	_	_
+7-11	568-570	an	_	_
+7-12	571-572	.	_	_
+
+#Text=Ein Glück ists dass er sonst so wohlwollend als Mensch ist .
+8-1	573-576	Ein	_	_
+8-2	577-582	Glück	_	_
+8-3	583-587	ists	_	_
+8-4	588-592	dass	_	_
+8-5	593-595	er	_	_
+8-6	596-601	sonst	_	_
+8-7	602-604	so	_	_
+8-8	605-616	wohlwollend	_	_
+8-9	617-620	als	_	_
+8-10	621-627	Mensch	_	_
+8-11	628-631	ist	_	_
+8-12	632-633	.	_	_
+
+#Text=Damit tröste ich mich immer vor Unglücksgedanken .
+9-1	634-639	Damit	_	_
+9-2	640-646	tröste	_	_
+9-3	647-650	ich	_	_
+9-4	651-655	mich	_	_
+9-5	656-661	immer	_	_
+9-6	662-665	vor	_	_
+9-7	666-682	Unglücksgedanken	_	_
+9-8	683-684	.	_	_
+
+#Text=Wenn Sie Kellermann und Lanci vor voreiligen Zahlungen warnen „ so kann ich doch nur äußerst vorsichtig handeln .
+10-1	685-689	Wenn	_	_
+10-2	690-693	Sie	_	_
+10-3	694-704	Kellermann	*	PERmentioned
+10-4	705-708	und	_	_
+10-5	709-714	Lanci	*	PERmentioned
+10-6	715-718	vor	_	_
+10-7	719-729	voreiligen	_	_
+10-8	730-739	Zahlungen	_	_
+10-9	740-746	warnen	_	_
+10-10	747-748	„	_	_
+10-11	749-751	so	_	_
+10-12	752-756	kann	_	_
+10-13	757-760	ich	_	_
+10-14	761-765	doch	_	_
+10-15	766-769	nur	_	_
+10-16	770-777	äußerst	_	_
+10-17	778-788	vorsichtig	_	_
+10-18	789-796	handeln	_	_
+10-19	797-798	.	_	_
+
+#Text=Ein Zettel ohne Posten kann aber weder Vorbietungen noch Auszahlungen veranlassen .
+11-1	799-802	Ein	_	_
+11-2	803-809	Zettel	_	_
+11-3	810-814	ohne	_	_
+11-4	815-821	Posten	_	_
+11-5	822-826	kann	_	_
+11-6	827-831	aber	_	_
+11-7	832-837	weder	_	_
+11-8	838-850	Vorbietungen	_	_
+11-9	851-855	noch	_	_
+11-10	856-868	Auszahlungen	_	_
+11-11	869-880	veranlassen	_	_
+11-12	881-882	.	_	_
+
+#Text=Jetzt werde ich sehen wie ich durchkomme , .
+12-1	883-888	Jetzt	_	_
+12-2	889-894	werde	_	_
+12-3	895-898	ich	_	_
+12-4	899-904	sehen	_	_
+12-5	905-908	wie	_	_
+12-6	909-912	ich	_	_
+12-7	913-923	durchkomme	_	_
+12-8	924-925	,	_	_
+12-9	926-927	.	_	_
+
+#Text=Rechnen Sie auf Spiegelankäufe immerhin .
+13-1	928-935	Rechnen	_	_
+13-2	936-939	Sie	_	_
+13-3	940-943	auf	_	_
+13-4	944-958	Spiegelankäufe	_	_
+13-5	959-967	immerhin	_	_
+13-6	968-969	.	_	_
+
+#Text=Ich habe jetzt einen in Händen , welcher in einem sublimen Styl eomponirt und die Namen des Agamemnon , des Achilles und der Thetis enthält .
+14-1	970-973	Ich	_	_
+14-2	974-978	habe	_	_
+14-3	979-984	jetzt	_	_
+14-4	985-990	einen	*[3]	OBJ[3]
+14-5	991-993	in	*[3]	OBJ[3]
+14-6	994-1000	Händen	*[3]	OBJ[3]
+14-7	1001-1002	,	*[3]	OBJ[3]
+14-8	1003-1010	welcher	*[3]	OBJ[3]
+14-9	1011-1013	in	*[3]	OBJ[3]
+14-10	1014-1019	einem	*[3]	OBJ[3]
+14-11	1020-1028	sublimen	*[3]	OBJ[3]
+14-12	1029-1033	Styl	*[3]	OBJ[3]
+14-13	1034-1043	eomponirt	*[3]	OBJ[3]
+14-14	1044-1047	und	*[3]	OBJ[3]
+14-15	1048-1051	die	*[3]	OBJ[3]
+14-16	1052-1057	Namen	*[3]	OBJ[3]
+14-17	1058-1061	des	*[3]	OBJ[3]
+14-18	1062-1071	Agamemnon	*[3]|*[4]	OBJ[3]|PERmentioned[4]
+14-19	1072-1073	,	*[3]	OBJ[3]
+14-20	1074-1077	des	*[3]	OBJ[3]
+14-21	1078-1086	Achilles	*[3]|*[5]	OBJ[3]|PERmentioned[5]
+14-22	1087-1090	und	*[3]	OBJ[3]
+14-23	1091-1094	der	*[3]	OBJ[3]
+14-24	1095-1101	Thetis	*[3]|*[6]	OBJ[3]|PERmentioned[6]
+14-25	1102-1109	enthält	*[3]	OBJ[3]
+14-26	1110-1111	.	_	_
+
+#Text=Kestner wollte ihn wegen seiner Schönheit kaufen \; ich habe für Sie Beschlag darauf gelegt und denke bis auf 36 , auch 53 u. 40 Sc. zu steigen \; Sie müssen mit Durands Sammlung im Niveau bleiben .
+15-1	1112-1119	Kestner	*	PERmentioned
+15-2	1120-1126	wollte	_	_
+15-3	1127-1130	ihn	_	_
+15-4	1131-1136	wegen	_	_
+15-5	1137-1143	seiner	_	_
+15-6	1144-1153	Schönheit	_	_
+15-7	1154-1160	kaufen	_	_
+15-8	1161-1162	\;	_	_
+15-9	1163-1166	ich	_	_
+15-10	1167-1171	habe	_	_
+15-11	1172-1175	für	_	_
+15-12	1176-1179	Sie	_	_
+15-13	1180-1188	Beschlag	_	_
+15-14	1189-1195	darauf	_	_
+15-15	1196-1202	gelegt	_	_
+15-16	1203-1206	und	_	_
+15-17	1207-1212	denke	_	_
+15-18	1213-1216	bis	_	_
+15-19	1217-1220	auf	_	_
+15-20	1221-1223	36	_	_
+15-21	1224-1225	,	_	_
+15-22	1226-1230	auch	_	_
+15-23	1231-1233	53	_	_
+15-24	1234-1236	u.	_	_
+15-25	1237-1239	40	_	_
+15-26	1240-1243	Sc.	_	_
+15-27	1244-1246	zu	_	_
+15-28	1247-1254	steigen	_	_
+15-29	1255-1256	\;	_	_
+15-30	1257-1260	Sie	_	_
+15-31	1261-1267	müssen	_	_
+15-32	1268-1271	mit	_	_
+15-33	1272-1279	Durands	*	PERmentioned
+15-34	1280-1288	Sammlung	_	_
+15-35	1289-1291	im	_	_
+15-36	1292-1298	Niveau	_	_
+15-37	1299-1306	bleiben	_	_
+15-38	1307-1308	.	_	_

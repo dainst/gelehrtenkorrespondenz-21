@@ -1,0 +1,334 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=280 Braun an Gerhard Rom , 24. Juni 1837 Scudi werth sind , etwa 5 .
+1-1	0-3	280	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	24.	*[13]	DATEletter[13]
+1-8	31-35	Juni	*[13]	DATEletter[13]
+1-9	36-40	1837	*[13]	DATEletter[13]
+1-10	41-46	Scudi	_	_
+1-11	47-52	werth	_	_
+1-12	53-57	sind	_	_
+1-13	58-59	,	_	_
+1-14	60-64	etwa	_	_
+1-15	65-66	5	_	_
+1-16	67-68	.	_	_
+
+#Text=Es ist also aus der Gesantliste nichts zu entnehmen .
+2-1	69-71	Es	_	_
+2-2	72-75	ist	_	_
+2-3	76-80	also	_	_
+2-4	81-84	aus	_	_
+2-5	85-88	der	_	_
+2-6	89-100	Gesantliste	_	_
+2-7	101-107	nichts	_	_
+2-8	108-110	zu	_	_
+2-9	111-120	entnehmen	_	_
+2-10	121-122	.	_	_
+
+#Text=Ich befinde mich leider seit gestern unwohl \; kann daher Ihren Wünschen nur mäßig nachkommen .
+3-1	123-126	Ich	_	_
+3-2	127-134	befinde	_	_
+3-3	135-139	mich	_	_
+3-4	140-146	leider	_	_
+3-5	147-151	seit	_	_
+3-6	152-159	gestern	_	_
+3-7	160-166	unwohl	_	_
+3-8	167-168	\;	_	_
+3-9	169-173	kann	_	_
+3-10	174-179	daher	_	_
+3-11	180-185	Ihren	_	_
+3-12	186-194	Wünschen	_	_
+3-13	195-198	nur	_	_
+3-14	199-204	mäßig	_	_
+3-15	205-215	nachkommen	_	_
+3-16	216-217	.	_	_
+
+#Text=Sie erhalten : a , Annali 1836. fasc .
+4-1	218-221	Sie	_	_
+4-2	222-230	erhalten	_	_
+4-3	231-232	:	_	_
+4-4	233-234	a	_	_
+4-5	235-236	,	_	_
+4-6	237-243	Annali	_	_
+4-7	244-249	1836.	*	DATEmentioned
+4-8	250-254	fasc	_	_
+4-9	255-256	.	_	_
+
+#Text=1. b , Bull .
+5-1	257-259	1.	_	_
+5-2	260-261	b	_	_
+5-3	262-263	,	_	_
+5-4	264-268	Bull	_	_
+5-5	269-270	.	_	_
+
+#Text=1837. c , den 8 Band für Ihre Schwester .
+6-1	271-276	1837.	*	DATEmentioned
+6-2	277-278	c	_	_
+6-3	279-280	,	_	_
+6-4	281-284	den	_	_
+6-5	285-286	8	_	_
+6-6	287-291	Band	_	_
+6-7	292-295	für	_	_
+6-8	296-300	Ihre	_	_
+6-9	301-310	Schwester	*	PERmentioned
+6-10	311-312	.	_	_
+
+#Text=d , Pinder ed .
+7-1	313-314	d	_	_
+7-2	315-316	,	_	_
+7-3	317-323	Pinder	*	PERmentioned
+7-4	324-326	ed	_	_
+7-5	327-328	.	_	_
+
+#Text=Heque .
+8-1	329-334	Heque	_	_
+8-2	335-336	.	_	_
+
+#Text=e , Müllers Archäologie .
+9-1	337-338	e	_	_
+9-2	339-340	,	_	_
+9-3	341-348	Müllers	*	PERmentioned
+9-4	349-360	Archäologie	_	_
+9-5	361-362	.	_	_
+
+#Text=f , Probedrücke von Monumenten folgen später nach .
+10-1	363-364	f	_	_
+10-2	365-366	,	_	_
+10-3	367-378	Probedrücke	_	_
+10-4	379-382	von	_	_
+10-5	383-393	Monumenten	_	_
+10-6	394-400	folgen	_	_
+10-7	401-407	später	_	_
+10-8	408-412	nach	_	_
+10-9	413-414	.	_	_
+
+#Text=Das erste Monumentenheft dieses Jahres ist fertig und sollte heute schon versandt werden .
+11-1	415-418	Das	_	_
+11-2	419-424	erste	_	_
+11-3	425-439	Monumentenheft	_	_
+11-4	440-446	dieses	_	_
+11-5	447-453	Jahres	_	_
+11-6	454-457	ist	_	_
+11-7	458-464	fertig	_	_
+11-8	465-468	und	_	_
+11-9	469-475	sollte	_	_
+11-10	476-481	heute	_	_
+11-11	482-487	schon	_	_
+11-12	488-496	versandt	_	_
+11-13	497-503	werden	_	_
+11-14	504-505	.	_	_
+
+#Text=Einige Correcturen haben aufgehalten .
+12-1	506-512	Einige	_	_
+12-2	513-524	Correcturen	_	_
+12-3	525-530	haben	_	_
+12-4	531-542	aufgehalten	_	_
+12-5	543-544	.	_	_
+
+#Text=-— Hier druckt Bunsen das zweite Heft 1836 , Lepsius das erste 1837 .
+13-1	545-547	-—	_	_
+13-2	548-552	Hier	_	_
+13-3	553-559	druckt	_	_
+13-4	560-566	Bunsen	*	PERmentioned
+13-5	567-570	das	_	_
+13-6	571-577	zweite	_	_
+13-7	578-582	Heft	_	_
+13-8	583-587	1836	*	DATEmentioned
+13-9	588-589	,	_	_
+13-10	590-597	Lepsius	*	PERmentioned
+13-11	598-601	das	_	_
+13-12	602-607	erste	_	_
+13-13	608-612	1837	*	DATEmentioned
+13-14	613-614	.	_	_
+
+#Text=Letzterer hat den alten Lanci so wenig zu behandeln gewußt , daß ich mir von ihrem gemeinsamen Zusammenarbeiten wenig Gutes versprechen darf sub osa !
+14-1	615-624	Letzterer	_	_
+14-2	625-628	hat	_	_
+14-3	629-632	den	_	_
+14-4	633-638	alten	_	_
+14-5	639-644	Lanci	*	PERmentioned
+14-6	645-647	so	_	_
+14-7	648-653	wenig	_	_
+14-8	654-656	zu	_	_
+14-9	657-666	behandeln	_	_
+14-10	667-673	gewußt	_	_
+14-11	674-675	,	_	_
+14-12	676-679	daß	_	_
+14-13	680-683	ich	_	_
+14-14	684-687	mir	_	_
+14-15	688-691	von	_	_
+14-16	692-697	ihrem	_	_
+14-17	698-709	gemeinsamen	_	_
+14-18	710-726	Zusammenarbeiten	_	_
+14-19	727-732	wenig	_	_
+14-20	733-738	Gutes	_	_
+14-21	739-750	versprechen	_	_
+14-22	751-755	darf	_	_
+14-23	756-759	sub	_	_
+14-24	760-763	osa	_	_
+14-25	764-765	!	_	_
+
+#Text=An Welcker habe ich vor mehreren Monaten die von Ihnen für ihn angekauften Gypse abgesandt .
+15-1	766-768	An	_	_
+15-2	769-776	Welcker	*	PERmentioned
+15-3	777-781	habe	_	_
+15-4	782-785	ich	_	_
+15-5	786-789	vor	_	_
+15-6	790-798	mehreren	_	_
+15-7	799-806	Monaten	_	_
+15-8	807-810	die	_	_
+15-9	811-814	von	_	_
+15-10	815-820	Ihnen	_	_
+15-11	821-824	für	_	_
+15-12	825-828	ihn	_	_
+15-13	829-840	angekauften	_	_
+15-14	841-846	Gypse	*	MISC
+15-15	847-856	abgesandt	_	_
+15-16	857-858	.	_	_
+
+#Text=Die Portospesensind bedeutend aufgelaufen .
+16-1	859-862	Die	_	_
+16-2	863-878	Portospesensind	_	_
+16-3	879-888	bedeutend	_	_
+16-4	889-900	aufgelaufen	_	_
+16-5	901-902	.	_	_
+
+#Text=Ich habe sie ihm durch Marcus avisiren lassen .
+17-1	903-906	Ich	_	_
+17-2	907-911	habe	_	_
+17-3	912-915	sie	_	_
+17-4	916-919	ihm	_	_
+17-5	920-925	durch	_	_
+17-6	926-932	Marcus	*	PERmentioned
+17-7	933-941	avisiren	_	_
+17-8	942-948	lassen	_	_
+17-9	949-950	.	_	_
+
+#Text=Da ich nicht mit Welcker direct verkehre , so hatte ich bei Ihrer früher verhofften Rückkehr mir Ihre Zwischenankunft versprochen .
+18-1	951-953	Da	_	_
+18-2	954-957	ich	_	_
+18-3	958-963	nicht	_	_
+18-4	964-967	mit	_	_
+18-5	968-975	Welcker	*	PERmentioned
+18-6	976-982	direct	_	_
+18-7	983-991	verkehre	_	_
+18-8	992-993	,	_	_
+18-9	994-996	so	_	_
+18-10	997-1002	hatte	_	_
+18-11	1003-1006	ich	_	_
+18-12	1007-1010	bei	_	_
+18-13	1011-1016	Ihrer	_	_
+18-14	1017-1023	früher	_	_
+18-15	1024-1034	verhofften	_	_
+18-16	1035-1043	Rückkehr	_	_
+18-17	1044-1047	mir	_	_
+18-18	1048-1052	Ihre	_	_
+18-19	1053-1068	Zwischenankunft	_	_
+18-20	1069-1080	versprochen	_	_
+18-21	1081-1082	.	_	_
+
+#Text=Es wäre mir lieb , wenn Sie ihn veranlassen könnten , die mir geschuldetten 50 Scudi an FParthey gegen Abrechnung auszuzahlen .
+19-1	1083-1085	Es	_	_
+19-2	1086-1090	wäre	_	_
+19-3	1091-1094	mir	_	_
+19-4	1095-1099	lieb	_	_
+19-5	1100-1101	,	_	_
+19-6	1102-1106	wenn	_	_
+19-7	1107-1110	Sie	_	_
+19-8	1111-1114	ihn	_	_
+19-9	1115-1126	veranlassen	_	_
+19-10	1127-1134	könnten	_	_
+19-11	1135-1136	,	_	_
+19-12	1137-1140	die	_	_
+19-13	1141-1144	mir	_	_
+19-14	1145-1158	geschuldetten	_	_
+19-15	1159-1161	50	_	_
+19-16	1162-1167	Scudi	_	_
+19-17	1168-1170	an	_	_
+19-18	1171-1179	FParthey	*	PERmentioned
+19-19	1180-1185	gegen	_	_
+19-20	1186-1196	Abrechnung	_	_
+19-21	1197-1208	auszuzahlen	_	_
+19-22	1209-1210	.	_	_
+
+#Text=- Das Arrangement unserer gegenseitigen Geldangelegenheiten liegt mir auch sehr am Herzen .
+20-1	1211-1212	-	_	_
+20-2	1213-1216	Das	_	_
+20-3	1217-1228	Arrangement	_	_
+20-4	1229-1236	unserer	_	_
+20-5	1237-1250	gegenseitigen	_	_
+20-6	1251-1270	Geldangelegenheiten	_	_
+20-7	1271-1276	liegt	_	_
+20-8	1277-1280	mir	_	_
+20-9	1281-1285	auch	_	_
+20-10	1286-1290	sehr	_	_
+20-11	1291-1293	am	_	_
+20-12	1294-1300	Herzen	_	_
+20-13	1301-1302	.	_	_
+
+#Text=Sie ließen mir 100 Scudi zurück \; davon wurden 50 ihrer Zeit an Basseggio ausgezahlt , andere 50 verrechne ich Ihnen mit meinem nächsten Brief .
+21-1	1303-1306	Sie	_	_
+21-2	1307-1313	ließen	_	_
+21-3	1314-1317	mir	_	_
+21-4	1318-1321	100	_	_
+21-5	1322-1327	Scudi	_	_
+21-6	1328-1334	zurück	_	_
+21-7	1335-1336	\;	_	_
+21-8	1337-1342	davon	_	_
+21-9	1343-1349	wurden	_	_
+21-10	1350-1352	50	_	_
+21-11	1353-1358	ihrer	_	_
+21-12	1359-1363	Zeit	_	_
+21-13	1364-1366	an	_	_
+21-14	1367-1376	Basseggio	*	PERmentioned
+21-15	1377-1387	ausgezahlt	_	_
+21-16	1388-1389	,	_	_
+21-17	1390-1396	andere	_	_
+21-18	1397-1399	50	_	_
+21-19	1400-1409	verrechne	_	_
+21-20	1410-1413	ich	_	_
+21-21	1414-1419	Ihnen	_	_
+21-22	1420-1423	mit	_	_
+21-23	1424-1430	meinem	_	_
+21-24	1431-1439	nächsten	_	_
+21-25	1440-1445	Brief	_	_
+21-26	1446-1447	.	_	_
+
+#Text=- Wollen Sie die bei Basseggio angefertigten Zeichnungen für 38 Scudi behalten , so muß ich das Geld von den bei Valentini eingegangenen Geldern nehmen .
+22-1	1448-1449	-	_	_
+22-2	1450-1456	Wollen	_	_
+22-3	1457-1460	Sie	_	_
+22-4	1461-1464	die	_	_
+22-5	1465-1468	bei	_	_
+22-6	1469-1478	Basseggio	*	PERmentioned
+22-7	1479-1492	angefertigten	_	_
+22-8	1493-1504	Zeichnungen	_	_
+22-9	1505-1508	für	_	_
+22-10	1509-1511	38	_	_
+22-11	1512-1517	Scudi	_	_
+22-12	1518-1526	behalten	_	_
+22-13	1527-1528	,	_	_
+22-14	1529-1531	so	_	_
+22-15	1532-1535	muß	_	_
+22-16	1536-1539	ich	_	_
+22-17	1540-1543	das	_	_
+22-18	1544-1548	Geld	_	_
+22-19	1549-1552	von	_	_
+22-20	1553-1556	den	_	_
+22-21	1557-1560	bei	_	_
+22-22	1561-1570	Valentini	*	PERmentioned
+22-23	1571-1584	eingegangenen	_	_
+22-24	1585-1592	Geldern	_	_
+22-25	1593-1599	nehmen	_	_
+22-26	1600-1601	.	_	_
+
+#Text=Die Zeichnun-
+23-1	1602-1605	Die	_	_
+23-2	1606-1615	Zeichnun-	_	_

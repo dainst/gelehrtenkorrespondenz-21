@@ -1,0 +1,55 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Berlin , August 1890 Die Verlobung ihrer Tochter Marie mit dem Gerichtsassessor und Lieutnant der Reserve des k.b , .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-32	August	*[1]	DATEletter[1]
+1-7	33-37	1890	*[1]	DATEletter[1]
+1-8	38-41	Die	_	_
+1-9	42-51	Verlobung	_	_
+1-10	52-57	ihrer	_	_
+1-11	58-65	Tochter	_	_
+1-12	66-71	Marie	*	PERmentioned
+1-13	72-75	mit	_	_
+1-14	76-79	dem	_	_
+1-15	80-96	Gerichtsassessor	_	_
+1-16	97-100	und	_	_
+1-17	101-110	Lieutnant	_	_
+1-18	111-114	der	_	_
+1-19	115-122	Reserve	_	_
+1-20	123-126	des	_	_
+1-21	127-130	k.b	_	_
+1-22	131-132	,	_	_
+1-23	133-134	.	_	_
+
+#Text=10 , Infanterieregiments Prinz Ludwig Herrn Karl Momnmsen beehren sich ergebenst anzuzeigen Berlin im August 1890 .
+2-1	135-137	10	_	_
+2-2	138-139	,	_	_
+2-3	140-159	Infanterieregiments	_	_
+2-4	160-165	Prinz	_	_
+2-5	166-172	Ludwig	_	_
+2-6	173-178	Herrn	_	_
+2-7	179-183	Karl	*[2]	PERmentioned[2]
+2-8	184-192	Momnmsen	*[2]	PERmentioned[2]
+2-9	193-200	beehren	_	_
+2-10	201-205	sich	_	_
+2-11	206-215	ergebenst	_	_
+2-12	216-226	anzuzeigen	_	_
+2-13	227-233	Berlin	*	PLACEmentioned
+2-14	234-236	im	_	_
+2-15	237-243	August	*[3]	DATEmentioned[3]
+2-16	244-248	1890	*[3]	DATEmentioned[3]
+2-17	249-250	.	_	_
+
+#Text=Wohlers Geheimer Ober-Regierungsrath und Frau .
+3-1	251-258	Wohlers	*	PERmentioned
+3-2	259-267	Geheimer	_	_
+3-3	268-287	Ober-Regierungsrath	_	_
+3-4	288-291	und	_	_
+3-5	292-296	Frau	*[4]	PERmentioned[4]
+3-6	297-298	.	_	_

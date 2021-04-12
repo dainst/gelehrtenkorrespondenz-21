@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 13. Mai 1838 Dr. Braun 8 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	13.	*[5]	DATEletter[5]
+1-7	30-33	Mai	*[5]	DATEletter[5]
+1-8	34-38	1838	*[5]	DATEletter[5]
+1-9	39-42	Dr.	_	_
+1-10	43-48	Braun	*	PERaddressee
+1-11	49-50	8	_	_
+1-12	51-52	.	_	_
+
+#Text=26/5 38 Aff .
+2-1	53-57	26/5	*[6]	DATErecieved[6]
+2-2	58-60	38	*[6]	DATErecieved[6]
+2-3	61-64	Aff	_	_
+2-4	65-66	.	_	_
+
+#Text=d . Dir .
+3-1	67-68	d	_	_
+3-2	69-70	.	_	_
+3-3	71-74	Dir	_	_
+3-4	75-76	.	_	_
+
+#Text=CCXXVI r . 26/5 38 Berlin 13 Mai 38 Mein theurer Freund .
+4-1	77-83	CCXXVI	_	_
+4-2	84-85	r	_	_
+4-3	86-87	.	_	_
+4-4	88-92	26/5	*[7]	DATEanswered[7]
+4-5	93-95	38	*[7]	DATEanswered[7]
+4-6	96-102	Berlin	*	PLACEfrom
+4-7	103-105	13	*[9]	DATEletter[9]
+4-8	106-109	Mai	*[9]	DATEletter[9]
+4-9	110-112	38	*[9]	DATEletter[9]
+4-10	113-117	Mein	_	_
+4-11	118-125	theurer	_	_
+4-12	126-132	Freund	_	_
+4-13	133-134	.	_	_
+
+#Text=Bunsen ist noch nicht hier angelangt , vielleicht aufgehalten worden .
+5-1	135-141	Bunsen	*	PERmentioned
+5-2	142-145	ist	_	_
+5-3	146-150	noch	_	_
+5-4	151-156	nicht	_	_
+5-5	157-161	hier	_	_
+5-6	162-171	angelangt	_	_
+5-7	172-173	,	_	_
+5-8	174-184	vielleicht	_	_
+5-9	185-196	aufgehalten	_	_
+5-10	197-203	worden	_	_
+5-11	204-205	.	_	_
+
+#Text=Die Sachen scheinen nicht gut zu stehn und die von Ihnen für seine Zukunft vorausgesetzten Aussichten keineswegs sicher zu sein .
+6-1	206-209	Die	_	_
+6-2	210-216	Sachen	_	_
+6-3	217-225	scheinen	_	_
+6-4	226-231	nicht	_	_
+6-5	232-235	gut	_	_
+6-6	236-238	zu	_	_
+6-7	239-244	stehn	_	_
+6-8	245-248	und	_	_
+6-9	249-252	die	_	_
+6-10	253-256	von	_	_
+6-11	257-262	Ihnen	_	_
+6-12	263-266	für	_	_
+6-13	267-272	seine	_	_
+6-14	273-280	Zukunft	_	_
+6-15	281-296	vorausgesetzten	_	_
+6-16	297-307	Aussichten	_	_
+6-17	308-318	keineswegs	_	_
+6-18	319-325	sicher	_	_
+6-19	326-328	zu	_	_
+6-20	329-333	sein	_	_
+6-21	334-335	.	_	_
+
+#Text=Da Sie mir den Annalendruck als geschlossen bezeichnen , unterlasse ich meine Nachschrift .
+7-1	336-338	Da	_	_
+7-2	339-342	Sie	_	_
+7-3	343-346	mir	_	_
+7-4	347-350	den	_	_
+7-5	351-363	Annalendruck	_	_
+7-6	364-367	als	_	_
+7-7	368-379	geschlossen	_	_
+7-8	380-390	bezeichnen	_	_
+7-9	391-392	,	_	_
+7-10	393-403	unterlasse	_	_
+7-11	404-407	ich	_	_
+7-12	408-413	meine	_	_
+7-13	414-425	Nachschrift	_	_
+7-14	426-427	.	_	_
+
+#Text=Dank für den Bull .
+8-1	428-432	Dank	_	_
+8-2	433-436	für	_	_
+8-3	437-440	den	_	_
+8-4	441-445	Bull	_	_
+8-5	446-447	.	_	_
+
+#Text=Bogen , der gut ist .
+9-1	448-453	Bogen	_	_
+9-2	454-455	,	_	_
+9-3	456-459	der	_	_
+9-4	460-463	gut	_	_
+9-5	464-467	ist	_	_
+9-6	468-469	.	_	_
+
+#Text=Bull .
+10-1	470-474	Bull	_	_
+10-2	475-476	.	_	_
+
+#Text=1837 pag .
+11-1	477-481	1837	*	DATEmentioned
+11-2	482-485	pag	_	_
+11-3	486-487	.	_	_
+
+#Text=145 - 208 fehlt mir noch immer \; hoffentlich bringt es B. mit samt dem Exemplarbündel meines freßösischen Artikels .
+12-1	488-491	145	_	_
+12-2	492-493	-	_	_
+12-3	494-497	208	_	_
+12-4	498-503	fehlt	_	_
+12-5	504-507	mir	_	_
+12-6	508-512	noch	_	_
+12-7	513-518	immer	_	_
+12-8	519-520	\;	_	_
+12-9	521-532	hoffentlich	_	_
+12-10	533-539	bringt	_	_
+12-11	540-542	es	_	_
+12-12	543-545	B.	_	_
+12-13	546-549	mit	_	_
+12-14	550-554	samt	_	_
+12-15	555-558	dem	_	_
+12-16	559-573	Exemplarbündel	_	_
+12-17	574-580	meines	_	_
+12-18	581-593	freßösischen	_	_
+12-19	594-602	Artikels	_	_
+12-20	603-604	.	_	_
+
+#Text=Meine Abhandlung über die Lichtgottheiten wird wol erst in Jahr und Tag gedruckt , dagegen der bisher gedruckte ( mein vergessener Kat zur Ankemorosabhandlung begonnen ) Ihnen durch Abrik zukommt , der sich jedoch nur äußerst wenig , also nur 1 Ex .
+13-1	605-610	Meine	_	_
+13-2	611-621	Abhandlung	_	_
+13-3	622-626	über	_	_
+13-4	627-630	die	_	_
+13-5	631-646	Lichtgottheiten	_	_
+13-6	647-651	wird	_	_
+13-7	652-655	wol	_	_
+13-8	656-660	erst	_	_
+13-9	661-663	in	_	_
+13-10	664-668	Jahr	_	_
+13-11	669-672	und	_	_
+13-12	673-676	Tag	_	_
+13-13	677-685	gedruckt	_	_
+13-14	686-687	,	_	_
+13-15	688-695	dagegen	_	_
+13-16	696-699	der	_	_
+13-17	700-706	bisher	_	_
+13-18	707-716	gedruckte	_	_
+13-19	717-718	(	_	_
+13-20	719-723	mein	_	_
+13-21	724-735	vergessener	_	_
+13-22	736-739	Kat	_	_
+13-23	740-743	zur	_	_
+13-24	744-763	Ankemorosabhandlung	_	_
+13-25	764-772	begonnen	_	_
+13-26	773-774	)	_	_
+13-27	775-780	Ihnen	_	_
+13-28	781-786	durch	_	_
+13-29	787-792	Abrik	_	_
+13-30	793-800	zukommt	_	_
+13-31	801-802	,	_	_
+13-32	803-806	der	_	_
+13-33	807-811	sich	_	_
+13-34	812-818	jedoch	_	_
+13-35	819-822	nur	_	_
+13-36	823-830	äußerst	_	_
+13-37	831-836	wenig	_	_
+13-38	837-838	,	_	_
+13-39	839-843	also	_	_
+13-40	844-847	nur	_	_
+13-41	848-849	1	_	_
+13-42	850-852	Ex	_	_
+13-43	853-854	.	_	_
+
+#Text=von allen aufdrängen ließ .
+14-1	855-858	von	_	_
+14-2	859-864	allen	_	_
+14-3	865-875	aufdrängen	_	_
+14-4	876-880	ließ	_	_
+14-5	881-882	.	_	_
+
+#Text=Auch 2 Ex .
+15-1	883-887	Auch	_	_
+15-2	888-889	2	_	_
+15-3	890-892	Ex	_	_
+15-4	893-894	.	_	_
+
+#Text=von Passalacquas Notiz über die Ägyptiana hiesigen Museums liegen bei .
+16-1	895-898	von	_	_
+16-2	899-911	Passalacquas	*	PERmentioned
+16-3	912-917	Notiz	_	_
+16-4	918-922	über	_	_
+16-5	923-926	die	_	_
+16-6	927-936	Ägyptiana	_	_
+16-7	937-945	hiesigen	_	_
+16-8	946-953	Museums	*	ORGmentioned
+16-9	954-960	liegen	_	_
+16-10	961-964	bei	_	_
+16-11	965-966	.	_	_
+
+#Text=Bereits in der 9.ten Woche vegetire ich wider einmal völlig \; so schlimm ist mein Auge .
+17-1	967-974	Bereits	_	_
+17-2	975-977	in	_	_
+17-3	978-981	der	_	_
+17-4	982-987	9.ten	_	_
+17-5	988-993	Woche	_	_
+17-6	994-1002	vegetire	_	_
+17-7	1003-1006	ich	_	_
+17-8	1007-1012	wider	_	_
+17-9	1013-1019	einmal	_	_
+17-10	1020-1026	völlig	_	_
+17-11	1027-1028	\;	_	_
+17-12	1029-1031	so	_	_
+17-13	1032-1039	schlimm	_	_
+17-14	1040-1043	ist	_	_
+17-15	1044-1048	mein	_	_
+17-16	1049-1053	Auge	_	_
+17-17	1054-1055	.	_	_
+
+#Text=Soll ich fortfahren ohne Erfolg zu homäopathisiren oder halsbrechender
+18-1	1056-1060	Soll	_	_
+18-2	1061-1064	ich	_	_
+18-3	1065-1075	fortfahren	_	_
+18-4	1076-1080	ohne	_	_
+18-5	1081-1087	Erfolg	_	_
+18-6	1088-1090	zu	_	_
+18-7	1091-1106	homäopathisiren	_	_
+18-8	1107-1111	oder	_	_
+18-9	1112-1126	halsbrechender	_	_

@@ -1,0 +1,302 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=394 Braun an Gerhard Rom , 6. Juni 1838 sig .
+1-1	0-3	394	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	6.	*[5]	DATEletter[5]
+1-8	30-34	Juni	*[5]	DATEletter[5]
+1-9	35-39	1838	*[5]	DATEletter[5]
+1-10	40-43	sig	_	_
+1-11	44-45	.	_	_
+
+#Text=Cav .
+2-1	46-49	Cav	_	_
+2-2	50-51	.	_	_
+
+#Text=Gerhard Roma li & Giugno 1838 .
+3-1	52-59	Gerhard	*	PERaddressee
+3-2	60-64	Roma	*	PLACEfrom
+3-3	65-67	li	_	_
+3-4	68-69	&	_	_
+3-5	70-76	Giugno	*[7]	DATEletter[7]
+3-6	77-81	1838	*[7]	DATEletter[7]
+3-7	82-83	.	_	_
+
+#Text=Hochverehrtester Freund \| !
+4-1	84-100	Hochverehrtester	_	_
+4-2	101-107	Freund	_	_
+4-3	108-109	\|	_	_
+4-4	110-111	!	_	_
+
+#Text=Ich beantworte Ihren Brief vom 25 Mai .
+5-1	112-115	Ich	_	_
+5-2	116-126	beantworte	_	_
+5-3	127-132	Ihren	_	_
+5-4	133-138	Brief	_	_
+5-5	139-142	vom	_	_
+5-6	143-145	25	*[8]	DATEmentioned[8]
+5-7	146-149	Mai	*[8]	DATEmentioned[8]
+5-8	150-151	.	_	_
+
+#Text=Die Cistensendung wird wohl jetzt in Ihre Hände gelangt sein .
+6-1	152-155	Die	_	_
+6-2	156-169	Cistensendung	_	_
+6-3	170-174	wird	_	_
+6-4	175-179	wohl	_	_
+6-5	180-185	jetzt	_	_
+6-6	186-188	in	_	_
+6-7	189-193	Ihre	_	_
+6-8	194-199	Hände	_	_
+6-9	200-207	gelangt	_	_
+6-10	208-212	sein	_	_
+6-11	213-214	.	_	_
+
+#Text=Sie ging später ab und sollte Ihnen eigentlich durch Bunsen zukommen .
+7-1	215-218	Sie	_	_
+7-2	219-223	ging	_	_
+7-3	224-230	später	_	_
+7-4	231-233	ab	_	_
+7-5	234-237	und	_	_
+7-6	238-244	sollte	_	_
+7-7	245-250	Ihnen	_	_
+7-8	251-261	eigentlich	_	_
+7-9	262-267	durch	_	_
+7-10	268-274	Bunsen	*	PERmentioned
+7-11	275-283	zukommen	_	_
+7-12	284-285	.	_	_
+
+#Text=- Für Franz , den Sie srüßen mögen , lege ich in Gerstäckers Kiste einen Band des Böckheschen Findars bei , der hier geblieben war .
+8-1	286-287	-	_	_
+8-2	288-291	Für	_	_
+8-3	292-297	Franz	*	PERmentioned
+8-4	298-299	,	_	_
+8-5	300-303	den	_	_
+8-6	304-307	Sie	_	_
+8-7	308-314	srüßen	_	_
+8-8	315-320	mögen	_	_
+8-9	321-322	,	_	_
+8-10	323-327	lege	_	_
+8-11	328-331	ich	_	_
+8-12	332-334	in	_	_
+8-13	335-346	Gerstäckers	*	PERmentioned
+8-14	347-352	Kiste	_	_
+8-15	353-358	einen	_	_
+8-16	359-363	Band	_	_
+8-17	364-367	des	_	_
+8-18	368-379	Böckheschen	*	PERmentioned
+8-19	380-387	Findars	_	_
+8-20	388-391	bei	_	_
+8-21	392-393	,	_	_
+8-22	394-397	der	_	_
+8-23	398-402	hier	_	_
+8-24	403-412	geblieben	_	_
+8-25	413-416	war	_	_
+8-26	417-418	.	_	_
+
+#Text=- Was für imbrogli fürchten Sie von Raoul Rochette ?
+9-1	419-420	-	_	_
+9-2	421-424	Was	_	_
+9-3	425-428	für	_	_
+9-4	429-437	imbrogli	_	_
+9-5	438-446	fürchten	_	_
+9-6	447-450	Sie	_	_
+9-7	451-454	von	_	_
+9-8	455-460	Raoul	*[13]	PERmentioned[13]
+9-9	461-469	Rochette	*[13]	PERmentioned[13]
+9-10	470-471	?	_	_
+
+#Text=- Über den MV A spiegel hat Campanari eine Abhandlung gelesen .
+10-1	472-473	-	_	_
+10-2	474-478	Über	_	_
+10-3	479-482	den	_	_
+10-4	483-485	MV	_	_
+10-5	486-487	A	_	_
+10-6	488-495	spiegel	_	_
+10-7	496-499	hat	_	_
+10-8	500-509	Campanari	*	PERmentioned
+10-9	510-514	eine	_	_
+10-10	515-525	Abhandlung	_	_
+10-11	526-533	gelesen	_	_
+10-12	534-535	.	_	_
+
+#Text=Die Zeichnung samt den Inschriften ist so verwittert , daß das ganze einem Relief eher als einem Graphit gleicht .
+11-1	536-539	Die	_	_
+11-2	540-549	Zeichnung	_	_
+11-3	550-554	samt	_	_
+11-4	555-558	den	_	_
+11-5	559-570	Inschriften	*	OBJ
+11-6	571-574	ist	_	_
+11-7	575-577	so	_	_
+11-8	578-588	verwittert	_	_
+11-9	589-590	,	_	_
+11-10	591-594	daß	_	_
+11-11	595-598	das	_	_
+11-12	599-604	ganze	_	_
+11-13	605-610	einem	_	_
+11-14	611-617	Relief	_	_
+11-15	618-622	eher	_	_
+11-16	623-626	als	_	_
+11-17	627-632	einem	_	_
+11-18	633-640	Graphit	_	_
+11-19	641-648	gleicht	_	_
+11-20	649-650	.	_	_
+
+#Text=Der Auroraspiegel schien mir bedeutend und hübsch .
+12-1	651-654	Der	_	_
+12-2	655-668	Auroraspiegel	*	OBJ
+12-3	669-675	schien	_	_
+12-4	676-679	mir	_	_
+12-5	680-689	bedeutend	_	_
+12-6	690-693	und	_	_
+12-7	694-700	hübsch	_	_
+12-8	701-702	.	_	_
+
+#Text=Sie trägt einen Spiegel in der Rechten und ähnlich habe ich diese Figur nicht gesehen .
+13-1	703-706	Sie	_	_
+13-2	707-712	trägt	_	_
+13-3	713-718	einen	_	_
+13-4	719-726	Spiegel	*	OBJ
+13-5	727-729	in	_	_
+13-6	730-733	der	_	_
+13-7	734-741	Rechten	_	_
+13-8	742-745	und	_	_
+13-9	746-753	ähnlich	_	_
+13-10	754-758	habe	_	_
+13-11	759-762	ich	_	_
+13-12	763-768	diese	_	_
+13-13	769-774	Figur	_	_
+13-14	775-780	nicht	_	_
+13-15	781-788	gesehen	_	_
+13-16	789-790	.	_	_
+
+#Text=Der Spiegel ist sehr gut erhalten .
+14-1	791-794	Der	_	_
+14-2	795-802	Spiegel	*	OBJ
+14-3	803-806	ist	_	_
+14-4	807-811	sehr	_	_
+14-5	812-815	gut	_	_
+14-6	816-824	erhalten	_	_
+14-7	825-826	.	_	_
+
+#Text=Er dürfte auf 15 Scudi nach jetzigen Preisen werth sein .
+15-1	827-829	Er	_	_
+15-2	830-836	dürfte	_	_
+15-3	837-840	auf	_	_
+15-4	841-843	15	_	_
+15-5	844-849	Scudi	_	_
+15-6	850-854	nach	_	_
+15-7	855-863	jetzigen	_	_
+15-8	864-871	Preisen	_	_
+15-9	872-877	werth	_	_
+15-10	878-882	sein	_	_
+15-11	883-884	.	_	_
+
+#Text=Für den Candelaber haben Sie aber nur 12 Scudi ( höchstens ) bezahlt .
+16-1	885-888	Für	_	_
+16-2	889-892	den	_	_
+16-3	893-903	Candelaber	*	OBJ
+16-4	904-909	haben	_	_
+16-5	910-913	Sie	_	_
+16-6	914-918	aber	_	_
+16-7	919-922	nur	_	_
+16-8	923-925	12	_	_
+16-9	926-931	Scudi	_	_
+16-10	932-933	(	_	_
+16-11	934-943	höchstens	_	_
+16-12	944-945	)	_	_
+16-13	946-953	bezahlt	_	_
+16-14	954-955	.	_	_
+
+#Text=Ich will den Handel sofort suspendiren .
+17-1	956-959	Ich	_	_
+17-2	960-964	will	_	_
+17-3	965-968	den	_	_
+17-4	969-975	Handel	_	_
+17-5	976-982	sofort	_	_
+17-6	983-994	suspendiren	_	_
+17-7	995-996	.	_	_
+
+#Text=- Auf den Spiegelhandel hat der Durandsche Catalog großen Einfluß gehabt .
+18-1	997-998	-	_	_
+18-2	999-1002	Auf	_	_
+18-3	1003-1006	den	_	_
+18-4	1007-1020	Spiegelhandel	_	_
+18-5	1021-1024	hat	_	_
+18-6	1025-1028	der	_	_
+18-7	1029-1039	Durandsche	*	PERmentioned
+18-8	1040-1047	Catalog	_	_
+18-9	1048-1054	großen	_	_
+18-10	1055-1062	Einfluß	_	_
+18-11	1063-1069	gehabt	_	_
+18-12	1070-1071	.	_	_
+
+#Text=Zu oben der Eifer zweier hiesiger Museen .
+19-1	1072-1074	Zu	_	_
+19-2	1075-1079	oben	_	_
+19-3	1080-1083	der	_	_
+19-4	1084-1089	Eifer	_	_
+19-5	1090-1096	zweier	_	_
+19-6	1097-1105	hiesiger	_	_
+19-7	1106-1112	Museen	_	_
+19-8	1113-1114	.	_	_
+
+#Text=Der Vatican ist über jedes ihm entwendete Monument und gar Zeichnung wüthend .
+20-1	1115-1118	Der	_	_
+20-2	1119-1126	Vatican	*	PLACEmentioned
+20-3	1127-1130	ist	_	_
+20-4	1131-1135	über	_	_
+20-5	1136-1141	jedes	_	_
+20-6	1142-1145	ihm	_	_
+20-7	1146-1156	entwendete	_	_
+20-8	1157-1165	Monument	_	_
+20-9	1166-1169	und	_	_
+20-10	1170-1173	gar	_	_
+20-11	1174-1183	Zeichnung	_	_
+20-12	1184-1191	wüthend	_	_
+20-13	1192-1193	.	_	_
+
+#Text=Erst neulich ist über den Sonnenaufgansskrater , dessen Zeichnung ich früher besessen , eine Scene entstanden .
+21-1	1194-1198	Erst	_	_
+21-2	1199-1206	neulich	_	_
+21-3	1207-1210	ist	_	_
+21-4	1211-1215	über	_	_
+21-5	1216-1219	den	_	_
+21-6	1220-1240	Sonnenaufgansskrater	*	OBJ
+21-7	1241-1242	,	_	_
+21-8	1243-1249	dessen	_	_
+21-9	1250-1259	Zeichnung	_	_
+21-10	1260-1263	ich	_	_
+21-11	1264-1270	früher	_	_
+21-12	1271-1279	besessen	_	_
+21-13	1280-1281	,	_	_
+21-14	1282-1286	eine	_	_
+21-15	1287-1292	Scene	_	_
+21-16	1293-1303	entstanden	_	_
+21-17	1304-1305	.	_	_
+
+#Text=Bronzesachen werden rasend bezahlt .
+22-1	1306-1318	Bronzesachen	_	_
+22-2	1319-1325	werden	_	_
+22-3	1326-1332	rasend	_	_
+22-4	1333-1340	bezahlt	_	_
+22-5	1341-1342	.	_	_
+
+#Text=Basseggio besitzt auch neue Spiegel , aber hier kann nur an Zeich-
+23-1	1343-1352	Basseggio	*	PERmentioned
+23-2	1353-1360	besitzt	_	_
+23-3	1361-1365	auch	_	_
+23-4	1366-1370	neue	_	_
+23-5	1371-1378	Spiegel	_	_
+23-6	1379-1380	,	_	_
+23-7	1381-1385	aber	_	_
+23-8	1386-1390	hier	_	_
+23-9	1391-1395	kann	_	_
+23-10	1396-1399	nur	_	_
+23-11	1400-1402	an	_	_
+23-12	1403-1409	Zeich-	_	_

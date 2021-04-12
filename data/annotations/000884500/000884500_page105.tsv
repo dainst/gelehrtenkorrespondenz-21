@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=\| Gerhard an Braun Berlin , 22. Mai 1838 Dr. Braun g . 4/6 38 CCILII r . 5/6 38 Berlin 22 Mai 38 Mein theurer Freund .
+1-1	0-1	\|	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Braun	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	22.	*[5]	DATEletter[5]
+1-8	32-35	Mai	*[5]	DATEletter[5]
+1-9	36-40	1838	*[5]	DATEletter[5]
+1-10	41-44	Dr.	_	_
+1-11	45-50	Braun	*	PERaddressee
+1-12	51-52	g	_	_
+1-13	53-54	.	_	_
+1-14	55-58	4/6	*[6]	DATErecieved[6]
+1-15	59-61	38	*[6]	DATErecieved[6]
+1-16	62-68	CCILII	_	_
+1-17	69-70	r	_	_
+1-18	71-72	.	_	_
+1-19	73-76	5/6	*[7]	DATEanswered[7]
+1-20	77-79	38	*[7]	DATEanswered[7]
+1-21	80-86	Berlin	*	PLACEfrom
+1-22	87-89	22	*[9]	DATEletter[9]
+1-23	90-93	Mai	*[9]	DATEletter[9]
+1-24	94-96	38	*[9]	DATEletter[9]
+1-25	97-101	Mein	_	_
+1-26	102-109	theurer	_	_
+1-27	110-116	Freund	_	_
+1-28	117-118	.	_	_
+
+#Text=Franz und die römischen Sendungen sind angelangt .
+2-1	119-124	Franz	*	PERmentioned
+2-2	125-128	und	_	_
+2-3	129-132	die	_	_
+2-4	133-142	römischen	_	_
+2-5	143-152	Sendungen	_	_
+2-6	153-157	sind	_	_
+2-7	158-167	angelangt	_	_
+2-8	168-169	.	_	_
+
+#Text=Ich erhielt 2 Packete voll Lepsiana \; zu meinem Leidwesen nicht ein einziges Ex .
+3-1	170-173	Ich	_	_
+3-2	174-181	erhielt	_	_
+3-3	182-183	2	_	_
+3-4	184-191	Packete	_	_
+3-5	192-196	voll	_	_
+3-6	197-205	Lepsiana	_	_
+3-7	206-207	\;	_	_
+3-8	208-210	zu	_	_
+3-9	211-217	meinem	_	_
+3-10	218-227	Leidwesen	_	_
+3-11	228-233	nicht	_	_
+3-12	234-237	ein	_	_
+3-13	238-246	einziges	_	_
+3-14	247-249	Ex	_	_
+3-15	250-251	.	_	_
+
+#Text=meiner Notice , die bereits alt genug geworden ist und zu allerlei S längst ersehnt ist .
+4-1	252-258	meiner	_	_
+4-2	259-265	Notice	_	_
+4-3	266-267	,	_	_
+4-4	268-271	die	_	_
+4-5	272-279	bereits	_	_
+4-6	280-283	alt	_	_
+4-7	284-289	genug	_	_
+4-8	290-298	geworden	_	_
+4-9	299-302	ist	_	_
+4-10	303-306	und	_	_
+4-11	307-309	zu	_	_
+4-12	310-318	allerlei	_	_
+4-13	319-320	S	_	_
+4-14	321-327	längst	_	_
+4-15	328-335	ersehnt	_	_
+4-16	336-339	ist	_	_
+4-17	340-341	.	_	_
+
+#Text=Sehr verdrießlich wenn mir ein guter Haufen von Ex .
+5-1	342-346	Sehr	_	_
+5-2	347-359	verdrießlich	_	_
+5-3	360-364	wenn	_	_
+5-4	365-368	mir	_	_
+5-5	369-372	ein	_	_
+5-6	373-378	guter	_	_
+5-7	379-385	Haufen	_	_
+5-8	386-389	von	_	_
+5-9	390-392	Ex	_	_
+5-10	393-394	.	_	_
+
+#Text=derselben nicht durch eine andre nahe Gelegenheit zukommen kann .
+6-1	395-404	derselben	_	_
+6-2	405-410	nicht	_	_
+6-3	411-416	durch	_	_
+6-4	417-421	eine	_	_
+6-5	422-427	andre	_	_
+6-6	428-432	nahe	_	_
+6-7	433-444	Gelegenheit	_	_
+6-8	445-453	zukommen	_	_
+6-9	454-458	kann	_	_
+6-10	459-460	.	_	_
+
+#Text=Auch das Bull .
+7-1	461-465	Auch	_	_
+7-2	466-469	das	_	_
+7-3	470-474	Bull	_	_
+7-4	475-476	.	_	_
+
+#Text=1837.pag 145 - 208 wurden angeblich gesucht und blieben mir unbekannt .
+8-1	477-485	1837.pag	_	_
+8-2	486-489	145	_	_
+8-3	490-491	-	_	_
+8-4	492-495	208	_	_
+8-5	496-502	wurden	_	_
+8-6	503-512	angeblich	_	_
+8-7	513-520	gesucht	_	_
+8-8	521-524	und	_	_
+8-9	525-532	blieben	_	_
+8-10	533-536	mir	_	_
+8-11	537-546	unbekannt	_	_
+8-12	547-548	.	_	_
+
+#Text=Sehr willkommen war dagegen das Annalenheft , zu dem ich Ihnen und L. viel Glück wünsche .
+9-1	549-553	Sehr	_	_
+9-2	554-564	willkommen	_	_
+9-3	565-568	war	_	_
+9-4	569-576	dagegen	_	_
+9-5	577-580	das	_	_
+9-6	581-592	Annalenheft	_	_
+9-7	593-594	,	_	_
+9-8	595-597	zu	_	_
+9-9	598-601	dem	_	_
+9-10	602-605	ich	_	_
+9-11	606-611	Ihnen	_	_
+9-12	612-615	und	_	_
+9-13	616-618	L.	_	_
+9-14	619-623	viel	_	_
+9-15	624-629	Glück	_	_
+9-16	630-637	wünsche	_	_
+9-17	638-639	.	_	_
+
+#Text=Ihre Vasenerklärungen von denen ich Orfeo bereits los habe meinen vollen Beifall .
+10-1	640-644	Ihre	_	_
+10-2	645-661	Vasenerklärungen	_	_
+10-3	662-665	von	_	_
+10-4	666-671	denen	_	_
+10-5	672-675	ich	_	_
+10-6	676-681	Orfeo	_	_
+10-7	682-689	bereits	_	_
+10-8	690-693	los	_	_
+10-9	694-698	habe	_	_
+10-10	699-705	meinen	_	_
+10-11	706-712	vollen	_	_
+10-12	713-720	Beifall	_	_
+10-13	721-722	.	_	_
+
+#Text=Lepsius hat seine Broschüren ( für die meinige besten Dank \; warum schicken Sie mir gar keine Separatabdrücke Ihrer Vasenerklärungen ? )
+11-1	723-730	Lepsius	*	PERmentioned
+11-2	731-734	hat	_	_
+11-3	735-740	seine	_	_
+11-4	741-751	Broschüren	_	_
+11-5	752-753	(	_	_
+11-6	754-757	für	_	_
+11-7	758-761	die	_	_
+11-8	762-769	meinige	_	_
+11-9	770-776	besten	_	_
+11-10	777-781	Dank	_	_
+11-11	782-783	\;	_	_
+11-12	784-789	warum	_	_
+11-13	790-798	schicken	_	_
+11-14	799-802	Sie	_	_
+11-15	803-806	mir	_	_
+11-16	807-810	gar	_	_
+11-17	811-816	keine	_	_
+11-18	817-832	Separatabdrücke	_	_
+11-19	833-838	Ihrer	_	_
+11-20	839-855	Vasenerklärungen	_	_
+11-21	856-857	?	_	_
+11-22	858-859	)	_	_
+
+#Text=etwas nachlässig addressirt .
+12-1	860-865	etwas	_	_
+12-2	866-876	nachlässig	_	_
+12-3	877-887	addressirt	_	_
+12-4	888-889	.	_	_
+
+#Text=In Bezug auf den Minister habe ich durch einen Umschlag mit gehöriger Addresse nachgeholfen , die übrigen Ex .
+13-1	890-892	In	_	_
+13-2	893-898	Bezug	_	_
+13-3	899-902	auf	_	_
+13-4	903-906	den	_	_
+13-5	907-915	Minister	_	_
+13-6	916-920	habe	_	_
+13-7	921-924	ich	_	_
+13-8	925-930	durch	_	_
+13-9	931-936	einen	_	_
+13-10	937-945	Umschlag	_	_
+13-11	946-949	mit	_	_
+13-12	950-959	gehöriger	_	_
+13-13	960-968	Addresse	_	_
+13-14	969-981	nachgeholfen	_	_
+13-15	982-983	,	_	_
+13-16	984-987	die	_	_
+13-17	988-995	übrigen	_	_
+13-18	996-998	Ex	_	_
+13-19	999-1000	.	_	_
+
+#Text=aber ihren Weg durch Gerstäcker gehn lassen .
+14-1	1001-1005	aber	_	_
+14-2	1006-1011	ihren	_	_
+14-3	1012-1015	Weg	_	_
+14-4	1016-1021	durch	_	_
+14-5	1022-1032	Gerstäcker	*	ORGmentioned
+14-6	1033-1037	gehn	_	_
+14-7	1038-1044	lassen	_	_
+14-8	1045-1046	.	_	_
+
+#Text=Es lag keine schriftliche Anweisung von ihm bei was aus den separirt beifolgenden Tafeln 7 werden soll \; der Zahl der Ex .
+15-1	1047-1049	Es	_	_
+15-2	1050-1053	lag	_	_
+15-3	1054-1059	keine	_	_
+15-4	1060-1072	schriftliche	_	_
+15-5	1073-1082	Anweisung	_	_
+15-6	1083-1086	von	_	_
+15-7	1087-1090	ihm	_	_
+15-8	1091-1094	bei	_	_
+15-9	1095-1098	was	_	_
+15-10	1099-1102	aus	_	_
+15-11	1103-1106	den	_	_
+15-12	1107-1115	separirt	_	_
+15-13	1116-1128	beifolgenden	_	_
+15-14	1129-1135	Tafeln	_	_
+15-15	1136-1137	7	_	_
+15-16	1138-1144	werden	_	_
+15-17	1145-1149	soll	_	_
+15-18	1150-1151	\;	_	_
+15-19	1152-1155	der	_	_
+15-20	1156-1160	Zahl	_	_
+15-21	1161-1164	der	_	_
+15-22	1165-1167	Ex	_	_
+15-23	1168-1169	.	_	_
+
+#Text=entsprechen sie nicht , Buchbindermühe war umständ-
+16-1	1170-1181	entsprechen	_	_
+16-2	1182-1185	sie	_	_
+16-3	1186-1191	nicht	_	_
+16-4	1192-1193	,	_	_
+16-5	1194-1208	Buchbindermühe	_	_
+16-6	1209-1212	war	_	_
+16-7	1213-1221	umständ-	_	_

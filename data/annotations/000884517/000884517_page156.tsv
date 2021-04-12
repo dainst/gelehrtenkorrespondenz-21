@@ -1,0 +1,228 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=282 Gerhard an Braun Berlin , 9 .
+1-1	0-3	282	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	9	*[4]	DATEletter[4]
+1-8	32-33	.	*[4]	DATEletter[4]
+
+#Text=August 1845 A. d . Dir .
+2-1	34-40	August	*[4]	DATEletter[4]
+2-2	41-45	1845	*[4]	DATEletter[4]
+2-3	46-48	A.	_	_
+2-4	49-50	d	_	_
+2-5	51-52	.	_	_
+2-6	53-56	Dir	_	_
+2-7	57-58	.	_	_
+
+#Text=g . 22/VIII 45 Dr. Braun Berlin 9 Aug 45 Mein theurer Freund .
+3-1	59-60	g	_	_
+3-2	61-62	.	_	_
+3-3	63-70	22/VIII	*[5]	DATErecieved[5]
+3-4	71-73	45	*[5]	DATErecieved[5]
+3-5	74-77	Dr.	_	_
+3-6	78-83	Braun	*[3]	PERaddressee[3]
+3-7	84-90	Berlin	*	PLACEfrom
+3-8	91-92	9	*[6]	DATEletter[6]
+3-9	93-96	Aug	*[6]	DATEletter[6]
+3-10	97-99	45	*[6]	DATEletter[6]
+3-11	100-104	Mein	_	_
+3-12	105-112	theurer	_	_
+3-13	113-119	Freund	_	_
+3-14	120-121	.	_	_
+
+#Text=Ich schreibe Ihnen wenig Stunden vor meiner Abreise nach Frankfurt wo ich bis Ende des Monats zu verweilen gedenke .
+4-1	122-125	Ich	_	_
+4-2	126-134	schreibe	_	_
+4-3	135-140	Ihnen	_	_
+4-4	141-146	wenig	_	_
+4-5	147-154	Stunden	_	_
+4-6	155-158	vor	_	_
+4-7	159-165	meiner	_	_
+4-8	166-173	Abreise	_	_
+4-9	174-178	nach	_	_
+4-10	179-188	Frankfurt	*	PLACEmentioned
+4-11	189-191	wo	_	_
+4-12	192-195	ich	_	_
+4-13	196-199	bis	_	_
+4-14	200-204	Ende	_	_
+4-15	205-208	des	_	_
+4-16	209-215	Monats	_	_
+4-17	216-218	zu	_	_
+4-18	219-228	verweilen	_	_
+4-19	229-236	gedenke	_	_
+4-20	237-238	.	_	_
+
+#Text=Ich hole meine Frau in Elgersburg ab , wo beide Damen höchst zufrieden bis jetzt verweilten .
+5-1	239-242	Ich	_	_
+5-2	243-247	hole	_	_
+5-3	248-253	meine	_	_
+5-4	254-258	Frau	_	_
+5-5	259-261	in	_	_
+5-6	262-272	Elgersburg	*	PLACEmentioned
+5-7	273-275	ab	_	_
+5-8	276-277	,	_	_
+5-9	278-280	wo	_	_
+5-10	281-286	beide	_	_
+5-11	287-292	Damen	_	_
+5-12	293-299	höchst	_	_
+5-13	300-309	zufrieden	_	_
+5-14	310-313	bis	_	_
+5-15	314-319	jetzt	_	_
+5-16	320-330	verweilten	_	_
+5-17	331-332	.	_	_
+
+#Text=Die Quittung Ihres Mechanikus folgt in beikommendem Schnitzel .
+6-1	333-336	Die	_	_
+6-2	337-345	Quittung	_	_
+6-3	346-351	Ihres	_	_
+6-4	352-362	Mechanikus	*	PERmentioned
+6-5	363-368	folgt	_	_
+6-6	369-371	in	_	_
+6-7	372-384	beikommendem	_	_
+6-8	385-394	Schnitzel	_	_
+6-9	395-396	.	_	_
+
+#Text=Wollen Sie Kestner prevenieren , daß ich seiner Güte vertrauend 1 Kiste und 1 Koffer unter seiner Adresse sende .
+7-1	397-403	Wollen	_	_
+7-2	404-407	Sie	_	_
+7-3	408-415	Kestner	*	PERmentioned
+7-4	416-427	prevenieren	_	_
+7-5	428-429	,	_	_
+7-6	430-433	daß	_	_
+7-7	434-437	ich	_	_
+7-8	438-444	seiner	_	_
+7-9	445-449	Güte	_	_
+7-10	450-460	vertrauend	_	_
+7-11	461-462	1	_	_
+7-12	463-468	Kiste	_	_
+7-13	469-472	und	_	_
+7-14	473-474	1	_	_
+7-15	475-481	Koffer	_	_
+7-16	482-487	unter	_	_
+7-17	488-494	seiner	_	_
+7-18	495-502	Adresse	_	_
+7-19	503-508	sende	_	_
+7-20	509-510	.	_	_
+
+#Text=Die Aussicht mit Usedom war ein schöner Traun .
+8-1	511-514	Die	_	_
+8-2	515-523	Aussicht	_	_
+8-3	524-527	mit	_	_
+8-4	528-534	Usedom	*	PERmentioned
+8-5	535-538	war	_	_
+8-6	539-542	ein	_	_
+8-7	543-550	schöner	_	_
+8-8	551-556	Traun	_	_
+8-9	557-558	.	_	_
+
+#Text=Calandrelli erinnerlan 1 oder 2 Steine die Sie ihm versprochen hätten .
+9-1	559-570	Calandrelli	*	PERmentioned
+9-2	571-581	erinnerlan	_	_
+9-3	582-583	1	_	_
+9-4	584-588	oder	_	_
+9-5	589-590	2	_	_
+9-6	591-597	Steine	_	_
+9-7	598-601	die	_	_
+9-8	602-605	Sie	_	_
+9-9	606-609	ihm	_	_
+9-10	610-621	versprochen	_	_
+9-11	622-628	hätten	_	_
+9-12	629-630	.	_	_
+
+#Text=Welcker schreibt ja ganz zweifelhaft über die Reise .
+10-1	631-638	Welcker	*	PERmentioned
+10-2	639-647	schreibt	_	_
+10-3	648-650	ja	_	_
+10-4	651-655	ganz	_	_
+10-5	656-667	zweifelhaft	_	_
+10-6	668-672	über	_	_
+10-7	673-676	die	_	_
+10-8	677-682	Reise	_	_
+10-9	683-684	.	_	_
+
+#Text=Vollard bitte ich in Einliegendem über römische Wohnungsgedanken mit Ihnen zu sprechen .
+11-1	685-692	Vollard	*	PERmentioned
+11-2	693-698	bitte	_	_
+11-3	699-702	ich	_	_
+11-4	703-705	in	_	_
+11-5	706-718	Einliegendem	_	_
+11-6	719-723	über	_	_
+11-7	724-732	römische	_	_
+11-8	733-749	Wohnungsgedanken	_	_
+11-9	750-753	mit	_	_
+11-10	754-759	Ihnen	_	_
+11-11	760-762	zu	_	_
+11-12	763-771	sprechen	_	_
+11-13	772-773	.	_	_
+
+#Text=Es ist aber sehr möglich daß ich über Rom nach Neapel gehe , meiner Frau die Seereise zu ersparen .
+12-1	774-776	Es	_	_
+12-2	777-780	ist	_	_
+12-3	781-785	aber	_	_
+12-4	786-790	sehr	_	_
+12-5	791-798	möglich	_	_
+12-6	799-802	daß	_	_
+12-7	803-806	ich	_	_
+12-8	807-811	über	_	_
+12-9	812-815	Rom	*	PLACEmentioned
+12-10	816-820	nach	_	_
+12-11	821-827	Neapel	*	PLACEmentioned
+12-12	828-832	gehe	_	_
+12-13	833-834	,	_	_
+12-14	835-841	meiner	_	_
+12-15	842-846	Frau	_	_
+12-16	847-850	die	_	_
+12-17	851-859	Seereise	_	_
+12-18	860-862	zu	_	_
+12-19	863-871	ersparen	_	_
+12-20	872-873	.	_	_
+
+#Text=Melicher meint zwar , schaden könne sie ihr nicht .
+13-1	874-882	Melicher	*	PERmentioned
+13-2	883-888	meint	_	_
+13-3	889-893	zwar	_	_
+13-4	894-895	,	_	_
+13-5	896-903	schaden	_	_
+13-6	904-909	könne	_	_
+13-7	910-913	sie	_	_
+13-8	914-917	ihr	_	_
+13-9	918-923	nicht	_	_
+13-10	924-925	.	_	_
+
+#Text=Warum aber sollen wir an der See nicht wohnen und wie an Neapel denken ohne an der Küste ?
+14-1	926-931	Warum	_	_
+14-2	932-936	aber	_	_
+14-3	937-943	sollen	_	_
+14-4	944-947	wir	_	_
+14-5	948-950	an	_	_
+14-6	951-954	der	_	_
+14-7	955-958	See	_	_
+14-8	959-964	nicht	_	_
+14-9	965-971	wohnen	_	_
+14-10	972-975	und	_	_
+14-11	976-979	wie	_	_
+14-12	980-982	an	_	_
+14-13	983-989	Neapel	*	PLACEmentioned
+14-14	990-996	denken	_	_
+14-15	997-1001	ohne	_	_
+14-16	1002-1004	an	_	_
+14-17	1005-1008	der	_	_
+14-18	1009-1014	Küste	_	_
+14-19	1015-1016	?	_	_
+
+#Text=oder wie sonst im Angesicht des Golfs .
+15-1	1017-1021	oder	_	_
+15-2	1022-1025	wie	_	_
+15-3	1026-1031	sonst	_	_
+15-4	1032-1034	im	_	_
+15-5	1035-1044	Angesicht	_	_
+15-6	1045-1048	des	_	_
+15-7	1049-1054	Golfs	*	PLACEmentioned
+15-8	1055-1056	.	_	_

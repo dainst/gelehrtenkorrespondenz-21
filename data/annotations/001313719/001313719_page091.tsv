@@ -1,0 +1,246 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=er eonone Gerhard an Henzen Berlin , 28. November 1846 satz nicht liegen lassen .
+1-1	0-2	er	_	_
+1-2	3-9	eonone	_	_
+1-3	10-17	Gerhard	*	PERauthor
+1-4	18-20	an	_	_
+1-5	21-27	Henzen	*	PERaddressee
+1-6	28-34	Berlin	*	PLACEfrom
+1-7	35-36	,	_	_
+1-8	37-40	28.	*[1]	DATEletter[1]
+1-9	41-49	November	*[1]	DATEletter[1]
+1-10	50-54	1846	*[1]	DATEletter[1]
+1-11	55-59	satz	_	_
+1-12	60-65	nicht	_	_
+1-13	66-72	liegen	_	_
+1-14	73-79	lassen	_	_
+1-15	80-81	.	_	_
+
+#Text=Brockhaus heischt ein billiges Abkommen für die Erlanger Bibliothek , die geneigt sein soll ein vollständiges Exemplar der Institutswerke anzukaufen \; man habe ihn von Rom aus deshalb an mich gewiesen .
+2-1	82-91	Brockhaus	*	ORGmentioned
+2-2	92-99	heischt	_	_
+2-3	100-103	ein	_	_
+2-4	104-112	billiges	_	_
+2-5	113-121	Abkommen	_	_
+2-6	122-125	für	_	_
+2-7	126-129	die	_	_
+2-8	130-138	Erlanger	*[2]	ORGmentioned[2]
+2-9	139-149	Bibliothek	*[2]	ORGmentioned[2]
+2-10	150-151	,	_	_
+2-11	152-155	die	_	_
+2-12	156-163	geneigt	_	_
+2-13	164-168	sein	_	_
+2-14	169-173	soll	_	_
+2-15	174-177	ein	_	_
+2-16	178-191	vollständiges	_	_
+2-17	192-200	Exemplar	_	_
+2-18	201-204	der	_	_
+2-19	205-219	Institutswerke	_	_
+2-20	220-230	anzukaufen	_	_
+2-21	231-232	\;	_	_
+2-22	233-236	man	_	_
+2-23	237-241	habe	_	_
+2-24	242-245	ihn	_	_
+2-25	246-249	von	_	_
+2-26	250-253	Rom	*	PLACEmentioned
+2-27	254-257	aus	_	_
+2-28	258-265	deshalb	_	_
+2-29	266-268	an	_	_
+2-30	269-273	mich	_	_
+2-31	274-282	gewiesen	_	_
+2-32	283-284	.	_	_
+
+#Text=Ich antwortete den Bestand des römischen Depöts erst erkunden zu müssen und es werde alsdann die Antwort von Rom aus erfolgen .
+3-1	285-288	Ich	_	_
+3-2	289-299	antwortete	_	_
+3-3	300-303	den	_	_
+3-4	304-311	Bestand	_	_
+3-5	312-315	des	_	_
+3-6	316-325	römischen	_	_
+3-7	326-332	Depöts	_	_
+3-8	333-337	erst	_	_
+3-9	338-346	erkunden	_	_
+3-10	347-349	zu	_	_
+3-11	350-356	müssen	_	_
+3-12	357-360	und	_	_
+3-13	361-363	es	_	_
+3-14	364-369	werde	_	_
+3-15	370-377	alsdann	_	_
+3-16	378-381	die	_	_
+3-17	382-389	Antwort	_	_
+3-18	390-393	von	_	_
+3-19	394-397	Rom	*	PLACEmentioned
+3-20	398-401	aus	_	_
+3-21	402-410	erfolgen	_	_
+3-22	411-412	.	_	_
+
+#Text=In der That sollte ich meinen gewisse längst drohende Defekte müßten bevor man sie ergänzt hat es unmöglich machen vollständige Exemplare noch für einen andern als den vollen Preis zu geben .
+4-1	413-415	In	_	_
+4-2	416-419	der	_	_
+4-3	420-424	That	_	_
+4-4	425-431	sollte	_	_
+4-5	432-435	ich	_	_
+4-6	436-442	meinen	_	_
+4-7	443-450	gewisse	_	_
+4-8	451-457	längst	_	_
+4-9	458-466	drohende	_	_
+4-10	467-474	Defekte	_	_
+4-11	475-481	müßten	_	_
+4-12	482-487	bevor	_	_
+4-13	488-491	man	_	_
+4-14	492-495	sie	_	_
+4-15	496-503	ergänzt	_	_
+4-16	504-507	hat	_	_
+4-17	508-510	es	_	_
+4-18	511-520	unmöglich	_	_
+4-19	521-527	machen	_	_
+4-20	528-540	vollständige	_	_
+4-21	541-550	Exemplare	_	_
+4-22	551-555	noch	_	_
+4-23	556-559	für	_	_
+4-24	560-565	einen	_	_
+4-25	566-572	andern	_	_
+4-26	573-576	als	_	_
+4-27	577-580	den	_	_
+4-28	581-587	vollen	_	_
+4-29	588-593	Preis	_	_
+4-30	594-596	zu	_	_
+4-31	597-602	geben	_	_
+4-32	603-604	.	_	_
+
+#Text=Allenfalls könnte man die Jahrgänge der alten Series durch direkte Sendung zum Subscriptionspreis liefern , so daß die Provision des Buchhändlers erst von der Nova Serie an dem Institut entginge .
+5-1	605-615	Allenfalls	_	_
+5-2	616-622	könnte	_	_
+5-3	623-626	man	_	_
+5-4	627-630	die	_	_
+5-5	631-640	Jahrgänge	_	_
+5-6	641-644	der	_	_
+5-7	645-650	alten	_	_
+5-8	651-657	Series	_	_
+5-9	658-663	durch	_	_
+5-10	664-671	direkte	_	_
+5-11	672-679	Sendung	_	_
+5-12	680-683	zum	_	_
+5-13	684-702	Subscriptionspreis	_	_
+5-14	703-710	liefern	_	_
+5-15	711-712	,	_	_
+5-16	713-715	so	_	_
+5-17	716-719	daß	_	_
+5-18	720-723	die	_	_
+5-19	724-733	Provision	_	_
+5-20	734-737	des	_	_
+5-21	738-750	Buchhändlers	_	_
+5-22	751-755	erst	_	_
+5-23	756-759	von	_	_
+5-24	760-763	der	_	_
+5-25	764-768	Nova	_	_
+5-26	769-774	Serie	_	_
+5-27	775-777	an	_	_
+5-28	778-781	dem	_	_
+5-29	782-790	Institut	*	ORGmentioned
+5-30	791-799	entginge	_	_
+5-31	800-801	.	_	_
+
+#Text=Besprechen Sie die Sache hienächst mit Braun und verfügen Sie darüber wie über andre Angelegenheiten der römischen Administration .
+6-1	802-812	Besprechen	_	_
+6-2	813-816	Sie	_	_
+6-3	817-820	die	_	_
+6-4	821-826	Sache	_	_
+6-5	827-836	hienächst	_	_
+6-6	837-840	mit	_	_
+6-7	841-846	Braun	*	PERmentioned
+6-8	847-850	und	_	_
+6-9	851-859	verfügen	_	_
+6-10	860-863	Sie	_	_
+6-11	864-871	darüber	_	_
+6-12	872-875	wie	_	_
+6-13	876-880	über	_	_
+6-14	881-886	andre	_	_
+6-15	887-902	Angelegenheiten	_	_
+6-16	903-906	der	_	_
+6-17	907-916	römischen	_	_
+6-18	917-931	Administration	_	_
+6-19	932-933	.	_	_
+
+#Text=zseero0.00 ... ist sein Vater eingeschlafen \; ein Trauerfall auf den man vorbereitet war .
+7-1	934-944	zseero0.00	_	_
+7-2	945-948	...	_	_
+7-3	949-952	ist	_	_
+7-4	953-957	sein	_	_
+7-5	958-963	Vater	_	_
+7-6	964-977	eingeschlafen	_	_
+7-7	978-979	\;	_	_
+7-8	980-983	ein	_	_
+7-9	984-994	Trauerfall	_	_
+7-10	995-998	auf	_	_
+7-11	999-1002	den	_	_
+7-12	1003-1006	man	_	_
+7-13	1007-1018	vorbereitet	_	_
+7-14	1019-1022	war	_	_
+7-15	1023-1024	.	_	_
+
+#Text=H. sucht nun wohl ernstlicher nach einem Schulamt .
+8-1	1025-1027	H.	_	_
+8-2	1028-1033	sucht	_	_
+8-3	1034-1037	nun	_	_
+8-4	1038-1042	wohl	_	_
+8-5	1043-1054	ernstlicher	_	_
+8-6	1055-1059	nach	_	_
+8-7	1060-1065	einem	_	_
+8-8	1066-1074	Schulamt	_	_
+8-9	1075-1076	.	_	_
+
+#Text=Meine Frau 8T\_ oe ... 0 ... 0. und die Ihrige .
+9-1	1077-1082	Meine	_	_
+9-2	1083-1087	Frau	_	_
+9-3	1088-1091	8T\_	_	_
+9-4	1092-1094	oe	_	_
+9-5	1095-1098	...	_	_
+9-6	1099-1100	0	_	_
+9-7	1101-1104	...	_	_
+9-8	1105-1107	0.	_	_
+9-9	1108-1111	und	_	_
+9-10	1112-1115	die	_	_
+9-11	1116-1122	Ihrige	_	_
+9-12	1123-1124	.	_	_
+
+#Text=Der Himmel behüte Sie ( und lasse diese Schreiberei Ihre Augen nicht verderben ) .
+10-1	1125-1128	Der	_	_
+10-2	1129-1135	Himmel	_	_
+10-3	1136-1142	behüte	_	_
+10-4	1143-1146	Sie	_	_
+10-5	1147-1148	(	_	_
+10-6	1149-1152	und	_	_
+10-7	1153-1158	lasse	_	_
+10-8	1159-1164	diese	_	_
+10-9	1165-1176	Schreiberei	_	_
+10-10	1177-1181	Ihre	_	_
+10-11	1182-1187	Augen	_	_
+10-12	1188-1193	nicht	_	_
+10-13	1194-1203	verderben	_	_
+10-14	1204-1205	)	_	_
+10-15	1206-1207	.	_	_
+
+#Text=Es ist doch gut wenn man altes Manuscript aufhebt um die Ehre seiner Officin retten zu können \; Ihr
+11-1	1208-1210	Es	_	_
+11-2	1211-1214	ist	_	_
+11-3	1215-1219	doch	_	_
+11-4	1220-1223	gut	_	_
+11-5	1224-1228	wenn	_	_
+11-6	1229-1232	man	_	_
+11-7	1233-1238	altes	_	_
+11-8	1239-1249	Manuscript	_	_
+11-9	1250-1257	aufhebt	_	_
+11-10	1258-1260	um	_	_
+11-11	1261-1264	die	_	_
+11-12	1265-1269	Ehre	_	_
+11-13	1270-1276	seiner	_	_
+11-14	1277-1284	Officin	_	_
+11-15	1285-1291	retten	_	_
+11-16	1292-1294	zu	_	_
+11-17	1295-1301	können	_	_
+11-18	1302-1303	\;	_	_
+11-19	1304-1307	Ihr	_	_

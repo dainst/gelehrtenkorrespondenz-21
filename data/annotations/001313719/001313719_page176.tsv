@@ -1,0 +1,105 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=140 Gerhard an Henzen 31/VII/1849 den bitte ich auch das getreuean Angesichts des Avv .
+1-1	0-3	140	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-33	31/VII/1849	*	DATEletter
+1-6	34-37	den	_	_
+1-7	38-43	bitte	_	_
+1-8	44-47	ich	_	_
+1-9	48-52	auch	_	_
+1-10	53-56	das	_	_
+1-11	57-66	getreuean	_	_
+1-12	67-77	Angesichts	_	_
+1-13	78-81	des	_	_
+1-14	82-85	Avv	*[1]	PERmentioned[1]
+1-15	86-87	.	*[1]	PERmentioned[1]
+
+#Text=Belli zu grüßen .
+2-1	88-93	Belli	*[1]	PERmentioned[1]
+2-2	94-96	zu	_	_
+2-3	97-103	grüßen	_	_
+2-4	104-105	.	_	_
+
+#Text=\| Herzlichst der Ihrige Gerhard Von Mitte August bis gegen Mitte September bin ich außerhalb vorauszusetzen - am Rhein , vielleicht bis nach Holland - bleibe jedoch fortwährend erreichbar , wenn Sie mir den August hindurch nach Bonn ( poste rest .
+3-1	106-107	\|	_	_
+3-2	108-118	Herzlichst	_	_
+3-3	119-122	der	_	_
+3-4	123-129	Ihrige	_	_
+3-5	130-137	Gerhard	*	PERauthor
+3-6	138-141	Von	_	_
+3-7	142-147	Mitte	_	_
+3-8	148-154	August	*	DATEmentioned
+3-9	155-158	bis	_	_
+3-10	159-164	gegen	_	_
+3-11	165-170	Mitte	_	_
+3-12	171-180	September	*	DATEmentioned
+3-13	181-184	bin	_	_
+3-14	185-188	ich	_	_
+3-15	189-198	außerhalb	_	_
+3-16	199-213	vorauszusetzen	_	_
+3-17	214-215	-	_	_
+3-18	216-218	am	_	_
+3-19	219-224	Rhein	*	PLACEmentioned
+3-20	225-226	,	_	_
+3-21	227-237	vielleicht	_	_
+3-22	238-241	bis	_	_
+3-23	242-246	nach	_	_
+3-24	247-254	Holland	*	PLACEmentioned
+3-25	255-256	-	_	_
+3-26	257-263	bleibe	_	_
+3-27	264-270	jedoch	_	_
+3-28	271-282	fortwährend	_	_
+3-29	283-293	erreichbar	_	_
+3-30	294-295	,	_	_
+3-31	296-300	wenn	_	_
+3-32	301-304	Sie	_	_
+3-33	305-308	mir	_	_
+3-34	309-312	den	_	_
+3-35	313-319	August	*	DATEmentioned
+3-36	320-328	hindurch	_	_
+3-37	329-333	nach	_	_
+3-38	334-338	Bonn	*	PLACEmentioned
+3-39	339-340	(	_	_
+3-40	341-346	poste	_	_
+3-41	347-351	rest	_	_
+3-42	352-353	.	_	_
+
+#Text=lieber als Weläker ) schreiben wollen : Sder in den letzten Tagen des Monats dürfte ich mehr dort sein und circa 8 Tage später für alle Fälle auch Frankfurt a/M eine Adresse .
+4-1	354-360	lieber	_	_
+4-2	361-364	als	_	_
+4-3	365-372	Weläker	*	PERmentioned
+4-4	373-374	)	_	_
+4-5	375-384	schreiben	_	_
+4-6	385-391	wollen	_	_
+4-7	392-393	:	_	_
+4-8	394-398	Sder	_	_
+4-9	399-401	in	_	_
+4-10	402-405	den	_	_
+4-11	406-413	letzten	_	_
+4-12	414-419	Tagen	_	_
+4-13	420-423	des	_	_
+4-14	424-430	Monats	_	_
+4-15	431-437	dürfte	_	_
+4-16	438-441	ich	_	_
+4-17	442-446	mehr	_	_
+4-18	447-451	dort	_	_
+4-19	452-456	sein	_	_
+4-20	457-460	und	_	_
+4-21	461-466	circa	_	_
+4-22	467-468	8	_	_
+4-23	469-473	Tage	_	_
+4-24	474-480	später	_	_
+4-25	481-484	für	_	_
+4-26	485-489	alle	_	_
+4-27	490-495	Fälle	_	_
+4-28	496-500	auch	_	_
+4-29	501-510	Frankfurt	*[2]	PLACEmentioned[2]
+4-30	511-514	a/M	*[2]	PLACEmentioned[2]
+4-31	515-519	eine	_	_
+4-32	520-527	Adresse	_	_
+4-33	528-529	.	_	_

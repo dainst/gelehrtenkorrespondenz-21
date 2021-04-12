@@ -1,0 +1,286 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 12. Februar 1835 uns neben jener Pubblication nicht ärmlich finden lassen .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	12.	*[1]	DATEletter[1]
+1-7	27-34	Februar	*[1]	DATEletter[1]
+1-8	35-39	1835	*[1]	DATEletter[1]
+1-9	40-43	uns	_	_
+1-10	44-49	neben	_	_
+1-11	50-55	jener	_	_
+1-12	56-68	Pubblication	_	_
+1-13	69-74	nicht	_	_
+1-14	75-82	ärmlich	_	_
+1-15	83-89	finden	_	_
+1-16	90-96	lassen	_	_
+1-17	97-98	.	_	_
+
+#Text=Die Couriersendungen sind anjetzt wenig günstig .
+2-1	99-102	Die	_	_
+2-2	103-119	Couriersendungen	_	_
+2-3	120-124	sind	_	_
+2-4	125-132	anjetzt	_	_
+2-5	133-138	wenig	_	_
+2-6	139-146	günstig	_	_
+2-7	147-148	.	_	_
+
+#Text=Es wird selten etwas über Wien und wenig nach Berlin gesandt .
+3-1	149-151	Es	_	_
+3-2	152-156	wird	_	_
+3-3	157-163	selten	_	_
+3-4	164-169	etwas	_	_
+3-5	170-174	über	_	_
+3-6	175-179	Wien	*	PLACEmentioned
+3-7	180-183	und	_	_
+3-8	184-189	wenig	_	_
+3-9	190-194	nach	_	_
+3-10	195-201	Berlin	*	PLACEmentioned
+3-11	202-209	gesandt	_	_
+3-12	210-211	.	_	_
+
+#Text=Ich habe wenigstens immer wnig Bereitwilligkeit beim Anfragen gefunden .
+4-1	212-215	Ich	_	_
+4-2	216-220	habe	_	_
+4-3	221-231	wenigstens	_	_
+4-4	232-237	immer	_	_
+4-5	238-242	wnig	_	_
+4-6	243-259	Bereitwilligkeit	_	_
+4-7	260-264	beim	_	_
+4-8	265-273	Anfragen	_	_
+4-9	274-282	gefunden	_	_
+4-10	283-284	.	_	_
+
+#Text=Sonst ist Sydow schon behülflich bei der Ausführung , Yo Canina sta faticando sopra lL ' ’ affare del Conte di 2 !
+5-1	285-290	Sonst	_	_
+5-2	291-294	ist	_	_
+5-3	295-300	Sydow	*	PERmentioned
+5-4	301-306	schon	_	_
+5-5	307-317	behülflich	_	_
+5-6	318-321	bei	_	_
+5-7	322-325	der	_	_
+5-8	326-336	Ausführung	_	_
+5-9	337-338	,	_	_
+5-10	339-341	Yo	_	_
+5-11	342-348	Canina	*	PERmentioned
+5-12	349-352	sta	_	_
+5-13	353-362	faticando	_	_
+5-14	363-368	sopra	_	_
+5-15	369-371	lL	_	_
+5-16	372-373	'	_	_
+5-17	374-375	’	_	_
+5-18	376-382	affare	_	_
+5-19	383-386	del	_	_
+5-20	387-392	Conte	*[2]	PERmentioned[2]
+5-21	393-395	di	*[2]	PERmentioned[2]
+5-22	396-397	2	*[2]	PERmentioned[2]
+5-23	398-399	!	*[2]	PERmentioned[2]
+
+#Text=Civitella .
+6-1	400-409	Civitella	*[2]	PERmentioned[2]
+6-2	410-411	.	_	_
+
+#Text=Er will sogar einen Planextract für eine Tav .
+7-1	412-414	Er	_	_
+7-2	415-419	will	_	_
+7-3	420-425	sogar	_	_
+7-4	426-431	einen	_	_
+7-5	432-443	Planextract	_	_
+7-6	444-447	für	_	_
+7-7	448-452	eine	_	_
+7-8	453-456	Tav	_	_
+7-9	457-458	.	_	_
+
+#Text=d'aggiunta der Annalen besorgen \; vielleicht schenkt er sie .
+8-1	459-469	d'aggiunta	_	_
+8-2	470-473	der	_	_
+8-3	474-481	Annalen	_	_
+8-4	482-490	besorgen	_	_
+8-5	491-492	\;	_	_
+8-6	493-503	vielleicht	_	_
+8-7	504-511	schenkt	_	_
+8-8	512-514	er	_	_
+8-9	515-518	sie	_	_
+8-10	519-520	.	_	_
+
+#Text=Der Achillesspiegel der nun dem Telephas vindicirt ist , gehört also Ihnen für 30 Scudi .
+9-1	521-524	Der	_	_
+9-2	525-540	Achillesspiegel	*	OBJ
+9-3	541-544	der	_	_
+9-4	545-548	nun	_	_
+9-5	549-552	dem	_	_
+9-6	553-561	Telephas	_	_
+9-7	562-571	vindicirt	_	_
+9-8	572-575	ist	_	_
+9-9	576-577	,	_	_
+9-10	578-584	gehört	_	_
+9-11	585-589	also	_	_
+9-12	590-595	Ihnen	_	_
+9-13	596-599	für	_	_
+9-14	600-602	30	_	_
+9-15	603-608	Scudi	_	_
+9-16	609-610	.	_	_
+
+#Text=Der Name ist auf Unkosten der schönen Patina zum Vorschein gekommen .
+10-1	611-614	Der	_	_
+10-2	615-619	Name	_	_
+10-3	620-623	ist	_	_
+10-4	624-627	auf	_	_
+10-5	628-636	Unkosten	_	_
+10-6	637-640	der	_	_
+10-7	641-648	schönen	_	_
+10-8	649-655	Patina	_	_
+10-9	656-659	zum	_	_
+10-10	660-669	Vorschein	_	_
+10-11	670-678	gekommen	_	_
+10-12	679-680	.	_	_
+
+#Text=Gelitten hat er indeß nicht und außerdem hat es Ihr Proteg & e zu Paolloni gehtan .
+11-1	681-689	Gelitten	_	_
+11-2	690-693	hat	_	_
+11-3	694-696	er	_	_
+11-4	697-702	indeß	_	_
+11-5	703-708	nicht	_	_
+11-6	709-712	und	_	_
+11-7	713-721	außerdem	_	_
+11-8	722-725	hat	_	_
+11-9	726-728	es	_	_
+11-10	729-732	Ihr	_	_
+11-11	733-739	Proteg	_	_
+11-12	740-741	&	_	_
+11-13	742-743	e	_	_
+11-14	744-746	zu	_	_
+11-15	747-755	Paolloni	*	PERmentioned
+11-16	756-762	gehtan	_	_
+11-17	763-764	.	_	_
+
+#Text=Den anderen Tag sind mir 40 Scudi dafür wiederangeboten worden.- Auch hatte ich bei N selbigem Prediger die 10 andren Spiegel , mit Inbegriff Inv ums A eines schönen Candelabers für 60 Scudi gekauft , unter der Bedingung eine Zeichnung von den schönern etrusk .
+12-1	765-768	Den	_	_
+12-2	769-776	anderen	_	_
+12-3	777-780	Tag	_	_
+12-4	781-785	sind	_	_
+12-5	786-789	mir	_	_
+12-6	790-792	40	_	_
+12-7	793-798	Scudi	_	_
+12-8	799-804	dafür	_	_
+12-9	805-820	wiederangeboten	_	_
+12-10	821-829	worden.-	_	_
+12-11	830-834	Auch	_	_
+12-12	835-840	hatte	_	_
+12-13	841-844	ich	_	_
+12-14	845-848	bei	_	_
+12-15	849-850	N	_	_
+12-16	851-859	selbigem	_	_
+12-17	860-868	Prediger	*	PERmentioned
+12-18	869-872	die	_	_
+12-19	873-875	10	_	_
+12-20	876-882	andren	_	_
+12-21	883-890	Spiegel	_	_
+12-22	891-892	,	_	_
+12-23	893-896	mit	_	_
+12-24	897-906	Inbegriff	_	_
+12-25	907-910	Inv	_	_
+12-26	911-914	ums	_	_
+12-27	915-916	A	_	_
+12-28	917-922	eines	_	_
+12-29	923-930	schönen	_	_
+12-30	931-942	Candelabers	_	_
+12-31	943-946	für	_	_
+12-32	947-949	60	_	_
+12-33	950-955	Scudi	_	_
+12-34	956-963	gekauft	_	_
+12-35	964-965	,	_	_
+12-36	966-971	unter	_	_
+12-37	972-975	der	_	_
+12-38	976-985	Bedingung	_	_
+12-39	986-990	eine	_	_
+12-40	991-1000	Zeichnung	_	_
+12-41	1001-1004	von	_	_
+12-42	1005-1008	den	_	_
+12-43	1009-1017	schönern	_	_
+12-44	1018-1024	etrusk	_	_
+12-45	1025-1026	.	_	_
+
+#Text=Bronzebechern , die Capranesi trefflich restauriert hat , zu gestatte .
+13-1	1027-1040	Bronzebechern	_	_
+13-2	1041-1042	,	_	_
+13-3	1043-1046	die	_	_
+13-4	1047-1056	Capranesi	*	PERmentioned
+13-5	1057-1066	trefflich	_	_
+13-6	1067-1078	restauriert	_	_
+13-7	1079-1082	hat	_	_
+13-8	1083-1084	,	_	_
+13-9	1085-1087	zu	_	_
+13-10	1088-1096	gestatte	_	_
+13-11	1097-1098	.	_	_
+
+#Text=Diese letztere Bedingung hat er jedoch nicht gehalten \; der Camerlengo hat sie bei ihm abholen lassen und er ist mißtrauisch gegen eine Zeichnung .
+14-1	1099-1104	Diese	_	_
+14-2	1105-1113	letztere	_	_
+14-3	1114-1123	Bedingung	_	_
+14-4	1124-1127	hat	_	_
+14-5	1128-1130	er	_	_
+14-6	1131-1137	jedoch	_	_
+14-7	1138-1143	nicht	_	_
+14-8	1144-1152	gehalten	_	_
+14-9	1153-1154	\;	_	_
+14-10	1155-1158	der	_	_
+14-11	1159-1169	Camerlengo	_	_
+14-12	1170-1173	hat	_	_
+14-13	1174-1177	sie	_	_
+14-14	1178-1181	bei	_	_
+14-15	1182-1185	ihm	_	_
+14-16	1186-1193	abholen	_	_
+14-17	1194-1200	lassen	_	_
+14-18	1201-1204	und	_	_
+14-19	1205-1207	er	_	_
+14-20	1208-1211	ist	_	_
+14-21	1212-1223	mißtrauisch	_	_
+14-22	1224-1229	gegen	_	_
+14-23	1230-1234	eine	_	_
+14-24	1235-1244	Zeichnung	_	_
+14-25	1245-1246	.	_	_
+
+#Text=Ich habe deshalb den Ankuf der übrigen Sachen rückgängig gemacht .
+15-1	1247-1250	Ich	_	_
+15-2	1251-1255	habe	_	_
+15-3	1256-1263	deshalb	_	_
+15-4	1264-1267	den	_	_
+15-5	1268-1273	Ankuf	_	_
+15-6	1274-1277	der	_	_
+15-7	1278-1285	übrigen	_	_
+15-8	1286-1292	Sachen	_	_
+15-9	1293-1303	rückgängig	_	_
+15-10	1304-1311	gemacht	_	_
+15-11	1312-1313	.	_	_
+
+#Text=- Die Spiegel schlagen übrigens auf , da sie in Neapel guten Absatz finden und dorthin gesandt werden .
+16-1	1314-1315	-	_	_
+16-2	1316-1319	Die	_	_
+16-3	1320-1327	Spiegel	_	_
+16-4	1328-1336	schlagen	_	_
+16-5	1337-1345	übrigens	_	_
+16-6	1346-1349	auf	_	_
+16-7	1350-1351	,	_	_
+16-8	1352-1354	da	_	_
+16-9	1355-1358	sie	_	_
+16-10	1359-1361	in	_	_
+16-11	1362-1368	Neapel	*	PLACEmentioned
+16-12	1369-1374	guten	_	_
+16-13	1375-1381	Absatz	_	_
+16-14	1382-1388	finden	_	_
+16-15	1389-1392	und	_	_
+16-16	1393-1400	dorthin	_	_
+16-17	1401-1408	gesandt	_	_
+16-18	1409-1415	werden	_	_
+16-19	1416-1417	.	_	_
+
+#Text=-— Den Panthesilea-
+17-1	1418-1420	-—	_	_
+17-2	1421-1424	Den	_	_
+17-3	1425-1437	Panthesilea-	*	OBJ

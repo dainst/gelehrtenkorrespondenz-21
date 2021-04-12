@@ -1,0 +1,226 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1048 Braun an Gerhard Rom , 12. Dezember 1835 Prof. Gerhard Roma li 12 Decbre 1835 Briefbezifferung .
+1-1	0-4	1048	_	_
+1-2	5-10	Braun	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-21	Gerhard	*	PERaddressee
+1-5	22-25	Rom	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-31	12.	*[5]	DATEletter[5]
+1-8	32-40	Dezember	*[5]	DATEletter[5]
+1-9	41-45	1835	*[5]	DATEletter[5]
+1-10	46-51	Prof.	*[6]	PERaddressee[6]
+1-11	52-59	Gerhard	*[6]	PERaddressee[6]
+1-12	60-64	Roma	*	PLACEfrom
+1-13	65-67	li	_	_
+1-14	68-70	12	*[7]	DATEletter[7]
+1-15	71-77	Decbre	*[7]	DATEletter[7]
+1-16	78-82	1835	*[7]	DATEletter[7]
+1-17	83-99	Briefbezifferung	_	_
+1-18	100-101	.	_	_
+
+#Text=1 - 50 Rom 51 - 100 Gerhard 101 - 200 Panofka 201 - 600 Rom 601 - 800 Gerhard 801 - Rom ( ist von Prof. Gerhard geschrieben ) Hochverehrtester Freund !
+2-1	102-103	1	_	_
+2-2	104-105	-	_	_
+2-3	106-108	50	_	_
+2-4	109-112	Rom	*	PLACEmentioned
+2-5	113-115	51	_	_
+2-6	116-117	-	_	_
+2-7	118-121	100	_	_
+2-8	122-129	Gerhard	*[8]	PERmentioned[8]
+2-9	130-133	101	_	_
+2-10	134-135	-	_	_
+2-11	136-139	200	_	_
+2-12	140-147	Panofka	*	PERmentioned
+2-13	148-151	201	_	_
+2-14	152-153	-	_	_
+2-15	154-157	600	_	_
+2-16	158-161	Rom	*	PLACEmentioned
+2-17	162-165	601	_	_
+2-18	166-167	-	_	_
+2-19	168-171	800	_	_
+2-20	172-179	Gerhard	*	PERmentioned
+2-21	180-183	801	_	_
+2-22	184-185	-	_	_
+2-23	186-189	Rom	*	PLACEfrom
+2-24	190-191	(	_	_
+2-25	192-195	ist	_	_
+2-26	196-199	von	_	_
+2-27	200-205	Prof.	_	_
+2-28	206-213	Gerhard	*	PERmentioned
+2-29	214-225	geschrieben	_	_
+2-30	226-227	)	_	_
+2-31	228-244	Hochverehrtester	_	_
+2-32	245-251	Freund	_	_
+2-33	252-253	!	_	_
+
+#Text=Sie erhalten anbei vor allem 2 Aufsätze von Canina für die Annalen .
+3-1	254-257	Sie	_	_
+3-2	258-266	erhalten	_	_
+3-3	267-272	anbei	_	_
+3-4	273-276	vor	_	_
+3-5	277-282	allem	_	_
+3-6	283-284	2	_	_
+3-7	285-293	Aufsätze	_	_
+3-8	294-297	von	_	_
+3-9	298-304	Canina	*	PERmentioned
+3-10	305-308	für	_	_
+3-11	309-312	die	_	_
+3-12	313-320	Annalen	_	_
+3-13	321-322	.	_	_
+
+#Text=a , über die Scavi von Cividale b , über die etruskischen Kapitelle , welche Scheppig zusammengestellt .
+4-1	323-324	a	_	_
+4-2	325-326	,	_	_
+4-3	327-331	über	_	_
+4-4	332-335	die	_	_
+4-5	336-341	Scavi	*[9]	MISC[9]
+4-6	342-345	von	*[9]	MISC[9]
+4-7	346-354	Cividale	*[9]|*[10]	MISC[9]|PLACEmentioned[10]
+4-8	355-356	b	_	_
+4-9	357-358	,	_	_
+4-10	359-363	über	_	_
+4-11	364-367	die	_	_
+4-12	368-380	etruskischen	*[11]	OBJ[11]
+4-13	381-390	Kapitelle	*[11]	OBJ[11]
+4-14	391-392	,	_	_
+4-15	393-399	welche	_	_
+4-16	400-408	Scheppig	*	PERmentioned
+4-17	409-425	zusammengestellt	_	_
+4-18	426-427	.	_	_
+
+#Text=Hoffentlich werde ich noch einen epigraphischen Beitrag von Franz beizuschließen bekommen \; anzi soeben erhalte ich ihn .
+5-1	428-439	Hoffentlich	_	_
+5-2	440-445	werde	_	_
+5-3	446-449	ich	_	_
+5-4	450-454	noch	_	_
+5-5	455-460	einen	_	_
+5-6	461-475	epigraphischen	_	_
+5-7	476-483	Beitrag	_	_
+5-8	484-487	von	_	_
+5-9	488-493	Franz	*	PERmentioned
+5-10	494-508	beizuschließen	_	_
+5-11	509-517	bekommen	_	_
+5-12	518-519	\;	_	_
+5-13	520-524	anzi	_	_
+5-14	525-531	soeben	_	_
+5-15	532-539	erhalte	_	_
+5-16	540-543	ich	_	_
+5-17	544-547	ihn	_	_
+5-18	548-549	.	_	_
+
+#Text=Er ist in einem Brief an Böckh eingeschlossen , in welchen er selbigen einige Neuigkeiten zur Begutachtung vorlegt , wie Sie es gewünscht haben .
+6-1	550-552	Er	_	_
+6-2	553-556	ist	_	_
+6-3	557-559	in	_	_
+6-4	560-565	einem	_	_
+6-5	566-571	Brief	_	_
+6-6	572-574	an	_	_
+6-7	575-580	Böckh	*	PERmentioned
+6-8	581-595	eingeschlossen	_	_
+6-9	596-597	,	_	_
+6-10	598-600	in	_	_
+6-11	601-608	welchen	_	_
+6-12	609-611	er	_	_
+6-13	612-620	selbigen	_	_
+6-14	621-627	einige	_	_
+6-15	628-639	Neuigkeiten	_	_
+6-16	640-643	zur	_	_
+6-17	644-656	Begutachtung	_	_
+6-18	657-664	vorlegt	_	_
+6-19	665-666	,	_	_
+6-20	667-670	wie	_	_
+6-21	671-674	Sie	_	_
+6-22	675-677	es	_	_
+6-23	678-687	gewünscht	_	_
+6-24	688-693	haben	_	_
+6-25	694-695	.	_	_
+
+#Text=Von den ärgerlichen Differenzen , die übrigens Franz nicht einräumt , hat er nichts erwähnt .
+7-1	696-699	Von	_	_
+7-2	700-703	den	_	_
+7-3	704-715	ärgerlichen	_	_
+7-4	716-727	Differenzen	_	_
+7-5	728-729	,	_	_
+7-6	730-733	die	_	_
+7-7	734-742	übrigens	_	_
+7-8	743-748	Franz	*	PERmentioned
+7-9	749-754	nicht	_	_
+7-10	755-763	einräumt	_	_
+7-11	764-765	,	_	_
+7-12	766-769	hat	_	_
+7-13	770-772	er	_	_
+7-14	773-779	nichts	_	_
+7-15	780-787	erwähnt	_	_
+7-16	788-789	.	_	_
+
+#Text=Die von Böckh vergünstigte Abschrift soll ja alle Conjecturen von Franz bestätigen und nur 1 - 2 Lesarten wirklich bessern .
+8-1	790-793	Die	_	_
+8-2	794-797	von	_	_
+8-3	798-803	Böckh	*	PERmentioned
+8-4	804-816	vergünstigte	_	_
+8-5	817-826	Abschrift	_	_
+8-6	827-831	soll	_	_
+8-7	832-834	ja	_	_
+8-8	835-839	alle	_	_
+8-9	840-851	Conjecturen	_	_
+8-10	852-855	von	_	_
+8-11	856-861	Franz	*	PERmentioned
+8-12	862-872	bestätigen	_	_
+8-13	873-876	und	_	_
+8-14	877-880	nur	_	_
+8-15	881-882	1	_	_
+8-16	883-884	-	_	_
+8-17	885-886	2	_	_
+8-18	887-895	Lesarten	_	_
+8-19	896-904	wirklich	_	_
+8-20	905-912	bessern	_	_
+8-21	913-914	.	_	_
+
+#Text=Ich wünschte , daß Parthey schleunigst wieder ein Dutzend Exemplare von Westphals Campagna \; die vorigen sind alle verkauft .
+9-1	915-918	Ich	_	_
+9-2	919-927	wünschte	_	_
+9-3	928-929	,	_	_
+9-4	930-933	daß	_	_
+9-5	934-941	Parthey	*	PERmentioned
+9-6	942-953	schleunigst	_	_
+9-7	954-960	wieder	_	_
+9-8	961-964	ein	_	_
+9-9	965-972	Dutzend	_	_
+9-10	973-982	Exemplare	_	_
+9-11	983-986	von	_	_
+9-12	987-996	Westphals	*	PERmentioned
+9-13	997-1005	Campagna	_	_
+9-14	1006-1007	\;	_	_
+9-15	1008-1011	die	_	_
+9-16	1012-1019	vorigen	_	_
+9-17	1020-1024	sind	_	_
+9-18	1025-1029	alle	_	_
+9-19	1030-1038	verkauft	_	_
+9-20	1039-1040	.	_	_
+
+#Text=Von den Karten sind noch mehrere auf dem Lager .
+10-1	1041-1044	Von	_	_
+10-2	1045-1048	den	_	_
+10-3	1049-1055	Karten	_	_
+10-4	1056-1060	sind	_	_
+10-5	1061-1065	noch	_	_
+10-6	1066-1073	mehrere	_	_
+10-7	1074-1077	auf	_	_
+10-8	1078-1081	dem	_	_
+10-9	1082-1087	Lager	_	_
+10-10	1088-1089	.	_	_
+
+#Text=Nächstens werde ich ihm schreiben und Rechnung ablegen .
+11-1	1090-1099	Nächstens	_	_
+11-2	1100-1105	werde	_	_
+11-3	1106-1109	ich	_	_
+11-4	1110-1113	ihm	_	_
+11-5	1114-1123	schreiben	_	_
+11-6	1124-1127	und	_	_
+11-7	1128-1136	Rechnung	_	_
+11-8	1137-1144	ablegen	_	_
+11-9	1145-1146	.	_	_

@@ -1,0 +1,149 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 22 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	22	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=Januar 1849 gleich Ihrer Einsicht empfohlen wird \; Sie schaffen mir darauf wol ein Responsum , schriftlich und direkt oder , wenn das Schwierigkeit hätte , wenigstens durch Ihr Organ Wahles Ansicht sowohl über das Brustleiden als über zweckmäßige Benutzung des Frühlings .
+2-1	31-37	Januar	*[1]	DATEletter[1]
+2-2	38-42	1849	*[1]	DATEletter[1]
+2-3	43-49	gleich	_	_
+2-4	50-55	Ihrer	_	_
+2-5	56-64	Einsicht	_	_
+2-6	65-74	empfohlen	_	_
+2-7	75-79	wird	_	_
+2-8	80-81	\;	_	_
+2-9	82-85	Sie	_	_
+2-10	86-94	schaffen	_	_
+2-11	95-98	mir	_	_
+2-12	99-105	darauf	_	_
+2-13	106-109	wol	_	_
+2-14	110-113	ein	_	_
+2-15	114-123	Responsum	_	_
+2-16	124-125	,	_	_
+2-17	126-137	schriftlich	_	_
+2-18	138-141	und	_	_
+2-19	142-148	direkt	_	_
+2-20	149-153	oder	_	_
+2-21	154-155	,	_	_
+2-22	156-160	wenn	_	_
+2-23	161-164	das	_	_
+2-24	165-178	Schwierigkeit	_	_
+2-25	179-184	hätte	_	_
+2-26	185-186	,	_	_
+2-27	187-197	wenigstens	_	_
+2-28	198-203	durch	_	_
+2-29	204-207	Ihr	_	_
+2-30	208-213	Organ	_	_
+2-31	214-220	Wahles	*	PERmentioned
+2-32	221-228	Ansicht	_	_
+2-33	229-235	sowohl	_	_
+2-34	236-240	über	_	_
+2-35	241-244	das	_	_
+2-36	245-256	Brustleiden	_	_
+2-37	257-260	als	_	_
+2-38	261-265	über	_	_
+2-39	266-277	zweckmäßige	_	_
+2-40	278-287	Benutzung	_	_
+2-41	288-291	des	_	_
+2-42	292-301	Frühlings	_	_
+2-43	302-303	.	_	_
+
+#Text=Wir denken doch wieder an Wasserkur zu Elgersburg oder Boppart , obwohl die Besserung damals nicht lange anhielt .
+3-1	304-307	Wir	_	_
+3-2	308-314	denken	_	_
+3-3	315-319	doch	_	_
+3-4	320-326	wieder	_	_
+3-5	327-329	an	_	_
+3-6	330-339	Wasserkur	_	_
+3-7	340-342	zu	_	_
+3-8	343-353	Elgersburg	*	PLACEmentioned
+3-9	354-358	oder	_	_
+3-10	359-366	Boppart	*	PLACEmentioned
+3-11	367-368	,	_	_
+3-12	369-375	obwohl	_	_
+3-13	376-379	die	_	_
+3-14	380-389	Besserung	_	_
+3-15	390-396	damals	_	_
+3-16	397-402	nicht	_	_
+3-17	403-408	lange	_	_
+3-18	409-416	anhielt	_	_
+3-19	417-418	.	_	_
+
+#Text=Über archäologische Metrik - Rhythmik der Composition und Gruppirung oder was sonst ?
+4-1	419-423	Über	_	_
+4-2	424-438	archäologische	_	_
+4-3	439-445	Metrik	_	_
+4-4	446-447	-	_	_
+4-5	448-456	Rhythmik	_	_
+4-6	457-460	der	_	_
+4-7	461-472	Composition	_	_
+4-8	473-476	und	_	_
+4-9	477-487	Gruppirung	_	_
+4-10	488-492	oder	_	_
+4-11	493-496	was	_	_
+4-12	497-502	sonst	_	_
+4-13	503-504	?	_	_
+
+#Text=- hätte ich also wol auch noch bei Ihnen zu lernen \; immer frisch vorwärts \| !
+5-1	505-506	-	_	_
+5-2	507-512	hätte	_	_
+5-3	513-516	ich	_	_
+5-4	517-521	also	_	_
+5-5	522-525	wol	_	_
+5-6	526-530	auch	_	_
+5-7	531-535	noch	_	_
+5-8	536-539	bei	_	_
+5-9	540-545	Ihnen	_	_
+5-10	546-548	zu	_	_
+5-11	549-555	lernen	_	_
+5-12	556-557	\;	_	_
+5-13	558-563	immer	_	_
+5-14	564-570	frisch	_	_
+5-15	571-579	vorwärts	_	_
+5-16	580-581	\|	_	_
+5-17	582-583	!	_	_
+
+#Text=Der Ihrige Gerhard Unsre Wahlen für die zweite Kammer sind gestern bei mir zwar gut , in den meisten Bezirken aber schlecht abgelaufen .
+6-1	584-587	Der	_	_
+6-2	588-594	Ihrige	_	_
+6-3	595-602	Gerhard	*	PERauthor
+6-4	603-608	Unsre	_	_
+6-5	609-615	Wahlen	_	_
+6-6	616-619	für	_	_
+6-7	620-623	die	_	_
+6-8	624-630	zweite	_	_
+6-9	631-637	Kammer	_	_
+6-10	638-642	sind	_	_
+6-11	643-650	gestern	_	_
+6-12	651-654	bei	_	_
+6-13	655-658	mir	_	_
+6-14	659-663	zwar	_	_
+6-15	664-667	gut	_	_
+6-16	668-669	,	_	_
+6-17	670-672	in	_	_
+6-18	673-676	den	_	_
+6-19	677-684	meisten	_	_
+6-20	685-693	Bezirken	_	_
+6-21	694-698	aber	_	_
+6-22	699-707	schlecht	_	_
+6-23	708-718	abgelaufen	_	_
+6-24	719-720	.	_	_
+
+#Text=Einer der gewählten und gefürchtetsten Demokraten ist Martius .
+7-1	721-726	Einer	_	_
+7-2	727-730	der	_	_
+7-3	731-740	gewählten	_	_
+7-4	741-744	und	_	_
+7-5	745-759	gefürchtetsten	_	_
+7-6	760-770	Demokraten	_	_
+7-7	771-774	ist	_	_
+7-8	775-782	Martius	*	PERmentioned
+7-9	783-784	.	_	_

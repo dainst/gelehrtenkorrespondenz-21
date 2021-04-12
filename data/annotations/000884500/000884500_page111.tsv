@@ -1,0 +1,249 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=`` Lr Gerhard an Braun Berlin , 29. Mai 1838 Dr. Braun g . 21/6 38 Aff .
+1-1	0-2	``	_	_
+1-2	3-5	Lr	_	_
+1-3	6-13	Gerhard	*	PERauthor
+1-4	14-16	an	_	_
+1-5	17-22	Braun	*	PERaddressee
+1-6	23-29	Berlin	*	PLACEfrom
+1-7	30-31	,	_	_
+1-8	32-35	29.	*[5]	DATEletter[5]
+1-9	36-39	Mai	*[5]	DATEletter[5]
+1-10	40-44	1838	*[5]	DATEletter[5]
+1-11	45-48	Dr.	_	_
+1-12	49-54	Braun	*	PERaddressee
+1-13	55-56	g	_	_
+1-14	57-58	.	_	_
+1-15	59-63	21/6	*[6]	DATErecieved[6]
+1-16	64-66	38	*[6]	DATErecieved[6]
+1-17	67-70	Aff	_	_
+1-18	71-72	.	_	_
+
+#Text=d . Dir .
+2-1	73-74	d	_	_
+2-2	75-76	.	_	_
+2-3	77-80	Dir	_	_
+2-4	81-82	.	_	_
+
+#Text=CCIXIII r . 11/6 38 Berlin 29 Mai 38 Daß ich Ihnen heute schon wieder schreibe lieber Freund , ist besonders dem empfindlichen Mangel der vergebens durch Bunsensche Gelegenheit erwarteten Ex .
+3-1	83-90	CCIXIII	_	_
+3-2	91-92	r	_	_
+3-3	93-94	.	_	_
+3-4	95-99	11/6	*[7]	DATEanswered[7]
+3-5	100-102	38	*[7]	DATEanswered[7]
+3-6	103-109	Berlin	*	PLACEfrom
+3-7	110-112	29	*[9]	DATEletter[9]
+3-8	113-116	Mai	*[9]	DATEletter[9]
+3-9	117-119	38	*[9]	DATEletter[9]
+3-10	120-123	Daß	_	_
+3-11	124-127	ich	_	_
+3-12	128-133	Ihnen	_	_
+3-13	134-139	heute	_	_
+3-14	140-145	schon	_	_
+3-15	146-152	wieder	_	_
+3-16	153-161	schreibe	_	_
+3-17	162-168	lieber	_	_
+3-18	169-175	Freund	_	_
+3-19	176-177	,	_	_
+3-20	178-181	ist	_	_
+3-21	182-191	besonders	_	_
+3-22	192-195	dem	_	_
+3-23	196-209	empfindlichen	_	_
+3-24	210-216	Mangel	_	_
+3-25	217-220	der	_	_
+3-26	221-230	vergebens	_	_
+3-27	231-236	durch	_	_
+3-28	237-247	Bunsensche	*	PERmentioned
+3-29	248-259	Gelegenheit	_	_
+3-30	260-270	erwarteten	_	_
+3-31	271-273	Ex	_	_
+3-32	274-275	.	_	_
+
+#Text=meines frerösischen Artikels beizumessen .
+4-1	276-282	meines	_	_
+4-2	283-295	frerösischen	_	_
+4-3	296-304	Artikels	_	_
+4-4	305-316	beizumessen	_	_
+4-5	317-318	.	_	_
+
+#Text=Da ich ernstlich darauf rechne mit Anfang Juli zu verreisen , so muß ich mich , wenn Sie nicht bereits Rath geschafft haben , wol darin ergeben das Porto von etwa 20 Ex .
+5-1	319-321	Da	_	_
+5-2	322-325	ich	_	_
+5-3	326-335	ernstlich	_	_
+5-4	336-342	darauf	_	_
+5-5	343-349	rechne	_	_
+5-6	350-353	mit	_	_
+5-7	354-360	Anfang	_	_
+5-8	361-365	Juli	*	DATEmentioned
+5-9	366-368	zu	_	_
+5-10	369-378	verreisen	_	_
+5-11	379-380	,	_	_
+5-12	381-383	so	_	_
+5-13	384-387	muß	_	_
+5-14	388-391	ich	_	_
+5-15	392-396	mich	_	_
+5-16	397-398	,	_	_
+5-17	399-403	wenn	_	_
+5-18	404-407	Sie	_	_
+5-19	408-413	nicht	_	_
+5-20	414-421	bereits	_	_
+5-21	422-426	Rath	_	_
+5-22	427-436	geschafft	_	_
+5-23	437-442	haben	_	_
+5-24	443-444	,	_	_
+5-25	445-448	wol	_	_
+5-26	449-454	darin	_	_
+5-27	455-462	ergeben	_	_
+5-28	463-466	das	_	_
+5-29	467-472	Porto	_	_
+5-30	473-476	von	_	_
+5-31	477-481	etwa	_	_
+5-32	482-484	20	_	_
+5-33	485-487	Ex	_	_
+5-34	488-489	.	_	_
+
+#Text=von Verona aus hieher zu bezahlen , wenn Sie nur baldmöglichst eine solche Sendung nach Verona befördern .
+6-1	490-493	von	_	_
+6-2	494-500	Verona	*	PLACEmentioned
+6-3	501-504	aus	_	_
+6-4	505-511	hieher	_	_
+6-5	512-514	zu	_	_
+6-6	515-523	bezahlen	_	_
+6-7	524-525	,	_	_
+6-8	526-530	wenn	_	_
+6-9	531-534	Sie	_	_
+6-10	535-538	nur	_	_
+6-11	539-552	baldmöglichst	_	_
+6-12	553-557	eine	_	_
+6-13	558-564	solche	_	_
+6-14	565-572	Sendung	_	_
+6-15	573-577	nach	_	_
+6-16	578-584	Verona	*	PLACEmentioned
+6-17	585-594	befördern	_	_
+6-18	595-596	.	_	_
+
+#Text=Sollte ich je bei Ankunft des Packets schon abgereist sein , so müßte ich es mir nach Bonn nachschicken lassen von hier aus \; addressiren Sie also nur die Sendung hieher .
+7-1	597-603	Sollte	_	_
+7-2	604-607	ich	_	_
+7-3	608-610	je	_	_
+7-4	611-614	bei	_	_
+7-5	615-622	Ankunft	_	_
+7-6	623-626	des	_	_
+7-7	627-634	Packets	_	_
+7-8	635-640	schon	_	_
+7-9	641-650	abgereist	_	_
+7-10	651-655	sein	_	_
+7-11	656-657	,	_	_
+7-12	658-660	so	_	_
+7-13	661-666	müßte	_	_
+7-14	667-670	ich	_	_
+7-15	671-673	es	_	_
+7-16	674-677	mir	_	_
+7-17	678-682	nach	_	_
+7-18	683-687	Bonn	*	PLACEmentioned
+7-19	688-700	nachschicken	_	_
+7-20	701-707	lassen	_	_
+7-21	708-711	von	_	_
+7-22	712-716	hier	_	_
+7-23	717-720	aus	_	_
+7-24	721-722	\;	_	_
+7-25	723-734	addressiren	_	_
+7-26	735-738	Sie	_	_
+7-27	739-743	also	_	_
+7-28	744-747	nur	_	_
+7-29	748-751	die	_	_
+7-30	752-759	Sendung	_	_
+7-31	760-766	hieher	_	_
+7-32	767-768	.	_	_
+
+#Text=Ich habe schon mehrere Ex .
+8-1	769-772	Ich	_	_
+8-2	773-777	habe	_	_
+8-3	778-783	schon	_	_
+8-4	784-791	mehrere	_	_
+8-5	792-794	Ex	_	_
+8-6	795-796	.	_	_
+
+#Text=meiner akadenm .
+9-1	797-803	meiner	_	_
+9-2	804-811	akadenm	_	_
+9-3	812-813	.	_	_
+
+#Text=Abhandlung Won denen wenig abgegangen ist vergeuden müssen aus Mangel an andern Kleinigkeiten verschenkbarer Art .
+10-1	814-824	Abhandlung	_	_
+10-2	825-828	Won	_	_
+10-3	829-834	denen	_	_
+10-4	835-840	wenig	_	_
+10-5	841-851	abgegangen	_	_
+10-6	852-855	ist	_	_
+10-7	856-865	vergeuden	_	_
+10-8	866-872	müssen	_	_
+10-9	873-876	aus	_	_
+10-10	877-883	Mangel	_	_
+10-11	884-886	an	_	_
+10-12	887-893	andern	_	_
+10-13	894-907	Kleinigkeiten	_	_
+10-14	908-922	verschenkbarer	_	_
+10-15	923-926	Art	_	_
+10-16	927-928	.	_	_
+
+#Text=Lassen Sie mich doch gelegentlich wissen ob Campanari's noch in London sind - welches ihre Addresse .
+11-1	929-935	Lassen	_	_
+11-2	936-939	Sie	_	_
+11-3	940-944	mich	_	_
+11-4	945-949	doch	_	_
+11-5	950-962	gelegentlich	_	_
+11-6	963-969	wissen	_	_
+11-7	970-972	ob	_	_
+11-8	973-984	Campanari's	*	PERmentioned
+11-9	985-989	noch	_	_
+11-10	990-992	in	_	_
+11-11	993-999	London	*	PLACEmentioned
+11-12	1000-1004	sind	_	_
+11-13	1005-1006	-	_	_
+11-14	1007-1014	welches	_	_
+11-15	1015-1019	ihre	_	_
+11-16	1020-1028	Addresse	_	_
+11-17	1029-1030	.	_	_
+
+#Text=Das vornehme Gewirr , ich meine das von Kaiser und Königin , hört Gott sei Dank morgen auf \; zur Ruhe aber komme ich dennoch noch nicht und hoffe um so mehr bald flott zu werden .
+12-1	1031-1034	Das	_	_
+12-2	1035-1043	vornehme	_	_
+12-3	1044-1050	Gewirr	_	_
+12-4	1051-1052	,	_	_
+12-5	1053-1056	ich	_	_
+12-6	1057-1062	meine	_	_
+12-7	1063-1066	das	_	_
+12-8	1067-1070	von	_	_
+12-9	1071-1077	Kaiser	*	PERmentioned
+12-10	1078-1081	und	_	_
+12-11	1082-1089	Königin	*	PERmentioned
+12-12	1090-1091	,	_	_
+12-13	1092-1096	hört	_	_
+12-14	1097-1101	Gott	_	_
+12-15	1102-1105	sei	_	_
+12-16	1106-1110	Dank	_	_
+12-17	1111-1117	morgen	_	_
+12-18	1118-1121	auf	_	_
+12-19	1122-1123	\;	_	_
+12-20	1124-1127	zur	_	_
+12-21	1128-1132	Ruhe	_	_
+12-22	1133-1137	aber	_	_
+12-23	1138-1143	komme	_	_
+12-24	1144-1147	ich	_	_
+12-25	1148-1155	dennoch	_	_
+12-26	1156-1160	noch	_	_
+12-27	1161-1166	nicht	_	_
+12-28	1167-1170	und	_	_
+12-29	1171-1176	hoffe	_	_
+12-30	1177-1179	um	_	_
+12-31	1180-1182	so	_	_
+12-32	1183-1187	mehr	_	_
+12-33	1188-1192	bald	_	_
+12-34	1193-1198	flott	_	_
+12-35	1199-1201	zu	_	_
+12-36	1202-1208	werden	_	_
+12-37	1209-1210	.	_	_

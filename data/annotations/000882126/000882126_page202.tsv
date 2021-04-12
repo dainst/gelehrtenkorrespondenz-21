@@ -1,0 +1,237 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Mailand , 13. September 182 Hochverehrtester Freund !
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Mailand	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-30	13.	*[13]	DATEletter[13]
+1-7	31-40	September	*[13]	DATEletter[13]
+1-8	41-44	182	*[13]	DATEletter[13]
+1-9	45-61	Hochverehrtester	_	_
+1-10	62-68	Freund	_	_
+1-11	69-70	!	_	_
+
+#Text=Ich übersende Ihnen anbei einige Mittheilungen , von denen Sie Gebrauch machen mögen nach Ihrem Gutbefinden .
+2-1	71-74	Ich	_	_
+2-2	75-84	übersende	_	_
+2-3	85-90	Ihnen	_	_
+2-4	91-96	anbei	_	_
+2-5	97-103	einige	_	_
+2-6	104-117	Mittheilungen	_	_
+2-7	118-119	,	_	_
+2-8	120-123	von	_	_
+2-9	124-129	denen	_	_
+2-10	130-133	Sie	_	_
+2-11	134-142	Gebrauch	_	_
+2-12	143-149	machen	_	_
+2-13	150-155	mögen	_	_
+2-14	156-160	nach	_	_
+2-15	161-166	Ihrem	_	_
+2-16	167-178	Gutbefinden	_	_
+2-17	179-180	.	_	_
+
+#Text=- Die Nachrichten von Rom sind fürchterlich .
+3-1	181-182	-	_	_
+3-2	183-186	Die	_	_
+3-3	187-198	Nachrichten	_	_
+3-4	199-202	von	_	_
+3-5	203-206	Rom	*	PLACEmentioned
+3-6	207-211	sind	_	_
+3-7	212-224	fürchterlich	_	_
+3-8	225-226	.	_	_
+
+#Text=Kellermann todt !
+4-1	227-237	Kellermann	*	PERmentioned
+4-2	238-242	todt	_	_
+4-3	243-244	!	_	_
+
+#Text=Lanci todtkrank ! \| - -— - lch arbeite bei Cattaneo fürchterlich darauf los , jeden Tag von Morgens 7 Uhr bis Nachmittags 3 Uhr .
+5-1	245-250	Lanci	*	PERmentioned
+5-2	251-260	todtkrank	_	_
+5-3	261-262	!	_	_
+5-4	263-264	\|	_	_
+5-5	265-266	-	_	_
+5-6	267-269	-—	_	_
+5-7	270-271	-	_	_
+5-8	272-275	lch	_	_
+5-9	276-283	arbeite	_	_
+5-10	284-287	bei	_	_
+5-11	288-296	Cattaneo	*	PERmentioned
+5-12	297-309	fürchterlich	_	_
+5-13	310-316	darauf	_	_
+5-14	317-320	los	_	_
+5-15	321-322	,	_	_
+5-16	323-328	jeden	_	_
+5-17	329-332	Tag	_	_
+5-18	333-336	von	_	_
+5-19	337-344	Morgens	_	_
+5-20	345-346	7	_	_
+5-21	347-350	Uhr	_	_
+5-22	351-354	bis	_	_
+5-23	355-366	Nachmittags	_	_
+5-24	367-368	3	_	_
+5-25	369-372	Uhr	_	_
+5-26	373-374	.	_	_
+
+#Text=Die Bibliothek und das Münzkabinett fördern mich beide mit Macht .
+6-1	375-378	Die	_	_
+6-2	379-389	Bibliothek	*	ORGmentioned
+6-3	390-393	und	_	_
+6-4	394-397	das	_	_
+6-5	398-410	Münzkabinett	*	ORGmentioned
+6-6	411-418	fördern	_	_
+6-7	419-423	mich	_	_
+6-8	424-429	beide	_	_
+6-9	430-433	mit	_	_
+6-10	434-439	Macht	_	_
+6-11	440-441	.	_	_
+
+#Text=- Cattaneo hatte einen Brief für Sie , und bedauert Ihnen denselben nicht haben einhändigen zu können für die Annalen .
+7-1	442-443	-	_	_
+7-2	444-452	Cattaneo	*	PERmentioned
+7-3	453-458	hatte	_	_
+7-4	459-464	einen	_	_
+7-5	465-470	Brief	_	_
+7-6	471-474	für	_	_
+7-7	475-478	Sie	_	_
+7-8	479-480	,	_	_
+7-9	481-484	und	_	_
+7-10	485-493	bedauert	_	_
+7-11	494-499	Ihnen	_	_
+7-12	500-509	denselben	_	_
+7-13	510-515	nicht	_	_
+7-14	516-521	haben	_	_
+7-15	522-533	einhändigen	_	_
+7-16	534-536	zu	_	_
+7-17	537-543	können	_	_
+7-18	544-547	für	_	_
+7-19	548-551	die	_	_
+7-20	552-559	Annalen	_	_
+7-21	560-561	.	_	_
+
+#Text=- Von Ihnen höre ich gar nichts seit Frankfurt .
+8-1	562-563	-	_	_
+8-2	564-567	Von	_	_
+8-3	568-573	Ihnen	_	_
+8-4	574-578	höre	_	_
+8-5	579-582	ich	_	_
+8-6	583-586	gar	_	_
+8-7	587-593	nichts	_	_
+8-8	594-598	seit	_	_
+8-9	599-608	Frankfurt	*	PLACEmentioned
+8-10	609-610	.	_	_
+
+#Text=Cosa vuol dire questo suo silenzio ?
+9-1	611-615	Cosa	_	_
+9-2	616-620	vuol	_	_
+9-3	621-625	dire	_	_
+9-4	626-632	questo	_	_
+9-5	633-636	suo	_	_
+9-6	637-645	silenzio	_	_
+9-7	646-647	?	_	_
+
+#Text=-— Ich befinde mich außerdem fast immer unwohl mit Schnupfen und Husten und fürchtete mehrmals ernstlich zu erkranken .
+10-1	648-650	-—	_	_
+10-2	651-654	Ich	_	_
+10-3	655-662	befinde	_	_
+10-4	663-667	mich	_	_
+10-5	668-676	außerdem	_	_
+10-6	677-681	fast	_	_
+10-7	682-687	immer	_	_
+10-8	688-694	unwohl	_	_
+10-9	695-698	mit	_	_
+10-10	699-708	Schnupfen	_	_
+10-11	709-712	und	_	_
+10-12	713-719	Husten	_	_
+10-13	720-723	und	_	_
+10-14	724-733	fürchtete	_	_
+10-15	734-742	mehrmals	_	_
+10-16	743-752	ernstlich	_	_
+10-17	753-755	zu	_	_
+10-18	756-765	erkranken	_	_
+10-19	766-767	.	_	_
+
+#Text=Indessen Gott hat mir geholfen und so gehts vorwärts so lange ich kann .
+11-1	768-776	Indessen	_	_
+11-2	777-781	Gott	_	_
+11-3	782-785	hat	_	_
+11-4	786-789	mir	_	_
+11-5	790-798	geholfen	_	_
+11-6	799-802	und	_	_
+11-7	803-805	so	_	_
+11-8	806-811	gehts	_	_
+11-9	812-820	vorwärts	_	_
+11-10	821-823	so	_	_
+11-11	824-829	lange	_	_
+11-12	830-833	ich	_	_
+11-13	834-838	kann	_	_
+11-14	839-840	.	_	_
+
+#Text=Nach Padova muß ich zurück wegen Cattajo .
+12-1	841-845	Nach	_	_
+12-2	846-852	Padova	*	PLACEmentioned
+12-3	853-856	muß	_	_
+12-4	857-860	ich	_	_
+12-5	861-867	zurück	_	_
+12-6	868-873	wegen	_	_
+12-7	874-881	Cattajo	*	PLACEmentioned
+12-8	882-883	.	_	_
+
+#Text=Parma und Modena hoffe ich von hier aus zu besuchen .
+13-1	884-889	Parma	*	PLACEmentioned
+13-2	890-893	und	_	_
+13-3	894-900	Modena	*	PLACEmentioned
+13-4	901-906	hoffe	_	_
+13-5	907-910	ich	_	_
+13-6	911-914	von	_	_
+13-7	915-919	hier	_	_
+13-8	920-923	aus	_	_
+13-9	924-926	zu	_	_
+13-10	927-935	besuchen	_	_
+13-11	936-937	.	_	_
+
+#Text=Meine Adresse bleibt Jäger .
+14-1	938-943	Meine	_	_
+14-2	944-951	Adresse	_	_
+14-3	952-958	bleibt	_	_
+14-4	959-964	Jäger	*	PERmentioned
+14-5	965-966	.	_	_
+
+#Text=- Empfehlen Sie mich Herrn Geh .
+15-1	967-968	-	_	_
+15-2	969-978	Empfehlen	_	_
+15-3	979-982	Sie	_	_
+15-4	983-987	mich	_	_
+15-5	988-993	Herrn	_	_
+15-6	994-997	Geh	_	_
+15-7	998-999	.	_	_
+
+#Text=Rath Bunsen \; ich schreibe ihm in dem ersten freien Augenblick .
+16-1	1000-1004	Rath	_	_
+16-2	1005-1011	Bunsen	*	PERmentioned
+16-3	1012-1013	\;	_	_
+16-4	1014-1017	ich	_	_
+16-5	1018-1026	schreibe	_	_
+16-6	1027-1030	ihm	_	_
+16-7	1031-1033	in	_	_
+16-8	1034-1037	dem	_	_
+16-9	1038-1044	ersten	_	_
+16-10	1045-1051	freien	_	_
+16-11	1052-1062	Augenblick	_	_
+16-12	1063-1064	.	_	_
+
+#Text=Ihr EBraun .
+17-1	1065-1068	Ihr	_	_
+17-2	1069-1075	EBraun	*	PERauthor
+17-3	1076-1077	.	_	_
+
+#Text=Milano 13 Settembre 1837 .
+18-1	1078-1084	Milano	*	PLACEfrom
+18-2	1085-1087	13	*[14]	DATEletter[14]
+18-3	1088-1097	Settembre	*[14]	DATEletter[14]
+18-4	1098-1102	1837	*[14]	DATEletter[14]
+18-5	1103-1104	.	_	_

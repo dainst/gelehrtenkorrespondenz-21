@@ -1,0 +1,208 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Lepsius an Henzen Berlin , 10 .
+1-1	0-7	Lepsius	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	10	*[1]	DATEletter[1]
+1-7	30-31	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1872 14/10 72 Berlin d . 10 .
+2-1	32-39	Oktober	*[1]	DATEletter[1]
+2-2	40-44	1872	*[1]	DATEletter[1]
+2-3	45-50	14/10	*[2]	DATErecieved[2]
+2-4	51-53	72	*[2]	DATErecieved[2]
+2-5	54-60	Berlin	*	PLACEfrom
+2-6	61-62	d	_	_
+2-7	63-64	.	_	_
+2-8	65-67	10	*[3]	DATEletter[3]
+2-9	68-69	.	*[3]	DATEletter[3]
+
+#Text=Okt .
+3-1	70-73	Okt	*[3]	DATEletter[3]
+3-2	74-75	.	*[3]	DATEletter[3]
+
+#Text=1872 Verehrtester Freund Seit zwei Tagen bin ich hier zurück , nachdem ich den größten Theil der Ferien in einem lieblichen Thale in der Nähe von Teplitz zu meiner größten Zufriedenheit und Erholung zugebracht habe .
+4-1	76-80	1872	*[3]	DATEletter[3]
+4-2	81-93	Verehrtester	_	_
+4-3	94-100	Freund	_	_
+4-4	101-105	Seit	_	_
+4-5	106-110	zwei	_	_
+4-6	111-116	Tagen	_	_
+4-7	117-120	bin	_	_
+4-8	121-124	ich	_	_
+4-9	125-129	hier	_	_
+4-10	130-136	zurück	_	_
+4-11	137-138	,	_	_
+4-12	139-146	nachdem	_	_
+4-13	147-150	ich	_	_
+4-14	151-154	den	_	_
+4-15	155-162	größten	_	_
+4-16	163-168	Theil	_	_
+4-17	169-172	der	_	_
+4-18	173-179	Ferien	_	_
+4-19	180-182	in	_	_
+4-20	183-188	einem	_	_
+4-21	189-199	lieblichen	_	_
+4-22	200-205	Thale	_	_
+4-23	206-208	in	_	_
+4-24	209-212	der	_	_
+4-25	213-217	Nähe	_	_
+4-26	218-221	von	_	_
+4-27	222-229	Teplitz	*	PLACEmentioned
+4-28	230-232	zu	_	_
+4-29	233-239	meiner	_	_
+4-30	240-247	größten	_	_
+4-31	248-261	Zufriedenheit	_	_
+4-32	262-265	und	_	_
+4-33	266-274	Erholung	_	_
+4-34	275-285	zugebracht	_	_
+4-35	286-290	habe	_	_
+4-36	291-292	.	_	_
+
+#Text=Auch Sie werden nun wohl in die Römischen Winterquartiere wieder eingezogen sein , hoffentlich auch erquickt und neu gestärkt .
+5-1	293-297	Auch	_	_
+5-2	298-301	Sie	_	_
+5-3	302-308	werden	_	_
+5-4	309-312	nun	_	_
+5-5	313-317	wohl	_	_
+5-6	318-320	in	_	_
+5-7	321-324	die	_	_
+5-8	325-334	Römischen	_	_
+5-9	335-350	Winterquartiere	_	_
+5-10	351-357	wieder	_	_
+5-11	358-368	eingezogen	_	_
+5-12	369-373	sein	_	_
+5-13	374-375	,	_	_
+5-14	376-387	hoffentlich	_	_
+5-15	388-392	auch	_	_
+5-16	393-401	erquickt	_	_
+5-17	402-405	und	_	_
+5-18	406-409	neu	_	_
+5-19	410-418	gestärkt	_	_
+5-20	419-420	.	_	_
+
+#Text=Ihren Brief vom 15. September habe ich noch in meiner Waldeinsamkeit erhalten .
+6-1	421-426	Ihren	_	_
+6-2	427-432	Brief	_	_
+6-3	433-436	vom	_	_
+6-4	437-440	15.	*[4]	DATEmentioned[4]
+6-5	441-450	September	*[4]	DATEmentioned[4]
+6-6	451-455	habe	_	_
+6-7	456-459	ich	_	_
+6-8	460-464	noch	_	_
+6-9	465-467	in	_	_
+6-10	468-474	meiner	_	_
+6-11	475-489	Waldeinsamkeit	_	_
+6-12	490-498	erhalten	_	_
+6-13	499-500	.	_	_
+
+#Text=Geschäftliches war darin nichts zu beantworten .
+7-1	501-515	Geschäftliches	_	_
+7-2	516-519	war	_	_
+7-3	520-525	darin	_	_
+7-4	526-532	nichts	_	_
+7-5	533-535	zu	_	_
+7-6	536-547	beantworten	_	_
+7-7	548-549	.	_	_
+
+#Text=Von hier habe ich Ihnen nur zweierlei mitzutheilen .
+8-1	550-553	Von	_	_
+8-2	554-558	hier	_	_
+8-3	559-563	habe	_	_
+8-4	564-567	ich	_	_
+8-5	568-573	Ihnen	_	_
+8-6	574-577	nur	_	_
+8-7	578-587	zweierlei	_	_
+8-8	588-600	mitzutheilen	_	_
+8-9	601-602	.	_	_
+
+#Text=Erstens , daß mir unter dem 14. September wieder ein Monitum zugegangen ist aus unsrem Ministerium , daß die Oberrechnungskammer noch die Quittungen verlangt Seitens der beiden Instituts Sekretare über den Empfang ihrer Gehälter für 1870 im Betrage von 1.000 resp .
+9-1	603-610	Erstens	_	_
+9-2	611-612	,	_	_
+9-3	613-616	daß	_	_
+9-4	617-620	mir	_	_
+9-5	621-626	unter	_	_
+9-6	627-630	dem	_	_
+9-7	631-634	14.	*[5]	DATEmentioned[5]
+9-8	635-644	September	*[5]	DATEmentioned[5]
+9-9	645-651	wieder	_	_
+9-10	652-655	ein	_	_
+9-11	656-663	Monitum	_	_
+9-12	664-674	zugegangen	_	_
+9-13	675-678	ist	_	_
+9-14	679-682	aus	_	_
+9-15	683-689	unsrem	_	_
+9-16	690-701	Ministerium	*	ORGmentioned
+9-17	702-703	,	_	_
+9-18	704-707	daß	_	_
+9-19	708-711	die	_	_
+9-20	712-731	Oberrechnungskammer	_	_
+9-21	732-736	noch	_	_
+9-22	737-740	die	_	_
+9-23	741-751	Quittungen	_	_
+9-24	752-760	verlangt	_	_
+9-25	761-768	Seitens	_	_
+9-26	769-772	der	_	_
+9-27	773-779	beiden	_	_
+9-28	780-789	Instituts	*	ORGmentioned
+9-29	790-799	Sekretare	_	_
+9-30	800-804	über	_	_
+9-31	805-808	den	_	_
+9-32	809-816	Empfang	_	_
+9-33	817-822	ihrer	_	_
+9-34	823-831	Gehälter	_	_
+9-35	832-835	für	_	_
+9-36	836-840	1870	*	DATEmentioned
+9-37	841-843	im	_	_
+9-38	844-851	Betrage	_	_
+9-39	852-855	von	_	_
+9-40	856-861	1.000	_	_
+9-41	862-866	resp	_	_
+9-42	867-868	.	_	_
+
+#Text=800 r , und daß Sie auch die gleichfalls fehlenden Quittungen pro 1871 einsenden möchten um einem ferneren Monitum zuvorzukommen .
+10-1	869-872	800	_	_
+10-2	873-874	r	_	_
+10-3	875-876	,	_	_
+10-4	877-880	und	_	_
+10-5	881-884	daß	_	_
+10-6	885-888	Sie	_	_
+10-7	889-893	auch	_	_
+10-8	894-897	die	_	_
+10-9	898-909	gleichfalls	_	_
+10-10	910-919	fehlenden	_	_
+10-11	920-930	Quittungen	_	_
+10-12	931-934	pro	_	_
+10-13	935-939	1871	*	DATEmentioned
+10-14	940-949	einsenden	_	_
+10-15	950-957	möchten	_	_
+10-16	958-960	um	_	_
+10-17	961-966	einem	_	_
+10-18	967-975	ferneren	_	_
+10-19	976-983	Monitum	_	_
+10-20	984-997	zuvorzukommen	_	_
+10-21	998-999	.	_	_
+
+#Text=Zweitens muß ich Ihnen mittheilen , daß der Finanzminister , wie mir gestern Olshausen mitgetheilt hat ,
+11-1	1000-1008	Zweitens	_	_
+11-2	1009-1012	muß	_	_
+11-3	1013-1016	ich	_	_
+11-4	1017-1022	Ihnen	_	_
+11-5	1023-1033	mittheilen	_	_
+11-6	1034-1035	,	_	_
+11-7	1036-1039	daß	_	_
+11-8	1040-1043	der	_	_
+11-9	1044-1058	Finanzminister	*	PERmentioned
+11-10	1059-1060	,	_	_
+11-11	1061-1064	wie	_	_
+11-12	1065-1068	mir	_	_
+11-13	1069-1076	gestern	_	_
+11-14	1077-1086	Olshausen	*	PERmentioned
+11-15	1087-1098	mitgetheilt	_	_
+11-16	1099-1102	hat	_	_
+11-17	1103-1104	,	_	_

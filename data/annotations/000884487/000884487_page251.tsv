@@ -1,0 +1,28 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=net ?
+1-1	0-3	net	_	_
+1-2	4-5	?	_	_
+
+#Text=Gerhard an Braun Berlin , 7. November 1837 Mit Bianconi war ja wol weiland alles abgerech- Herzlichst Ihr Gerhard
+2-1	6-13	Gerhard	*	PERauthor
+2-2	14-16	an	_	_
+2-3	17-22	Braun	*	PERaddressee
+2-4	23-29	Berlin	*	PLACEfrom
+2-5	30-31	,	_	_
+2-6	32-34	7.	*[4]	DATEletter[4]
+2-7	35-43	November	*[4]	DATEletter[4]
+2-8	44-48	1837	*[4]	DATEletter[4]
+2-9	49-52	Mit	_	_
+2-10	53-61	Bianconi	*	PERmentioned
+2-11	62-65	war	_	_
+2-12	66-68	ja	_	_
+2-13	69-72	wol	_	_
+2-14	73-80	weiland	_	_
+2-15	81-86	alles	_	_
+2-16	87-96	abgerech-	_	_
+2-17	97-107	Herzlichst	_	_
+2-18	108-111	Ihr	_	_
+2-19	112-119	Gerhard	*	PERauthor

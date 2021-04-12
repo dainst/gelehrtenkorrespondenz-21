@@ -1,0 +1,189 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=107 Gerhard an Henzen Berlin , 21. Februar 1844 to ormai impossibile .
+1-1	0-3	107	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	21.	*[1]	DATEletter[1]
+1-8	35-42	Februar	*[1]	DATEletter[1]
+1-9	43-47	1844	*[1]	DATEletter[1]
+1-10	48-50	to	_	_
+1-11	51-56	ormai	_	_
+1-12	57-68	impossibile	_	_
+1-13	69-70	.	_	_
+
+#Text=Egli , caro e buono com'egli & , mi compatirä .
+2-1	71-75	Egli	_	_
+2-2	76-77	,	_	_
+2-3	78-82	caro	_	_
+2-4	83-84	e	_	_
+2-5	85-90	buono	_	_
+2-6	91-99	com'egli	_	_
+2-7	100-101	&	_	_
+2-8	102-103	,	_	_
+2-9	104-106	mi	_	_
+2-10	107-116	compatirä	_	_
+2-11	117-118	.	_	_
+
+#Text=Die christliche gewiss griechische Inschrift habe ich an Böckh gegeben , der sie auch für griechisch hält aber lieber von Franz auslegen läßt , wie auch Sie gedachten .
+3-1	119-122	Die	_	_
+3-2	123-134	christliche	_	_
+3-3	135-141	gewiss	_	_
+3-4	142-153	griechische	*[2]	OBJ[2]
+3-5	154-163	Inschrift	*[2]	OBJ[2]
+3-6	164-168	habe	_	_
+3-7	169-172	ich	_	_
+3-8	173-175	an	_	_
+3-9	176-181	Böckh	*	PERmentioned
+3-10	182-189	gegeben	_	_
+3-11	190-191	,	_	_
+3-12	192-195	der	_	_
+3-13	196-199	sie	_	_
+3-14	200-204	auch	_	_
+3-15	205-208	für	_	_
+3-16	209-219	griechisch	_	_
+3-17	220-224	hält	_	_
+3-18	225-229	aber	_	_
+3-19	230-236	lieber	_	_
+3-20	237-240	von	_	_
+3-21	241-246	Franz	*	PERmentioned
+3-22	247-255	auslegen	_	_
+3-23	256-260	läßt	_	_
+3-24	261-262	,	_	_
+3-25	263-266	wie	_	_
+3-26	267-271	auch	_	_
+3-27	272-275	Sie	_	_
+3-28	276-285	gedachten	_	_
+3-29	286-287	.	_	_
+
+#Text=Noch immer kein Schlußbullettino für 1843 .
+4-1	288-292	Noch	_	_
+4-2	293-298	immer	_	_
+4-3	299-303	kein	_	_
+4-4	304-320	Schlußbullettino	_	_
+4-5	321-324	für	_	_
+4-6	325-329	1843	*	DATEmentioned
+4-7	330-331	.	_	_
+
+#Text=Meine Archäologische Zeitung sendete ich Ihnen so gern rascher \; wie aber ?
+5-1	332-337	Meine	_	_
+5-2	338-352	Archäologische	_	_
+5-3	353-360	Zeitung	_	_
+5-4	361-368	sendete	_	_
+5-5	369-372	ich	_	_
+5-6	373-378	Ihnen	_	_
+5-7	379-381	so	_	_
+5-8	382-386	gern	_	_
+5-9	387-394	rascher	_	_
+5-10	395-396	\;	_	_
+5-11	397-400	wie	_	_
+5-12	401-405	aber	_	_
+5-13	406-407	?	_	_
+
+#Text=Soweit ich weiß haben Sie erst 2 Lieferungen \; 2 andre sind heraus .
+6-1	408-414	Soweit	_	_
+6-2	415-418	ich	_	_
+6-3	419-423	weiß	_	_
+6-4	424-429	haben	_	_
+6-5	430-433	Sie	_	_
+6-6	434-438	erst	_	_
+6-7	439-440	2	_	_
+6-8	441-452	Lieferungen	_	_
+6-9	453-454	\;	_	_
+6-10	455-456	2	_	_
+6-11	457-462	andre	_	_
+6-12	463-467	sind	_	_
+6-13	468-474	heraus	_	_
+6-14	475-476	.	_	_
+
+#Text=Die Palinsche Sache habe ich mehrmals an Olfers und auch direkt an den König empfohlen , kann aber , nachdem Unlust über viel verausgabtes Geld eingetreten ist , für den Erfolg nicht stehen .
+7-1	477-480	Die	_	_
+7-2	481-490	Palinsche	_	_
+7-3	491-496	Sache	_	_
+7-4	497-501	habe	_	_
+7-5	502-505	ich	_	_
+7-6	506-514	mehrmals	_	_
+7-7	515-517	an	_	_
+7-8	518-524	Olfers	*	PERmentioned
+7-9	525-528	und	_	_
+7-10	529-533	auch	_	_
+7-11	534-540	direkt	_	_
+7-12	541-543	an	_	_
+7-13	544-547	den	_	_
+7-14	548-553	König	*	PERmentioned
+7-15	554-563	empfohlen	_	_
+7-16	564-565	,	_	_
+7-17	566-570	kann	_	_
+7-18	571-575	aber	_	_
+7-19	576-577	,	_	_
+7-20	578-585	nachdem	_	_
+7-21	586-592	Unlust	_	_
+7-22	593-597	über	_	_
+7-23	598-602	viel	_	_
+7-24	603-615	verausgabtes	_	_
+7-25	616-620	Geld	_	_
+7-26	621-632	eingetreten	_	_
+7-27	633-636	ist	_	_
+7-28	637-638	,	_	_
+7-29	639-642	für	_	_
+7-30	643-646	den	_	_
+7-31	647-653	Erfolg	_	_
+7-32	654-659	nicht	_	_
+7-33	660-666	stehen	_	_
+7-34	667-668	.	_	_
+
+#Text=Meine Frau ist wohl und grüßt Sie und die übrigen Kapitoliner mit nir bestens , namentlich Horkel , FPreller , Blessig , ferner Kestner und Vollards von denen ich lange nichts hörte .
+8-1	669-674	Meine	_	_
+8-2	675-679	Frau	_	_
+8-3	680-683	ist	_	_
+8-4	684-688	wohl	_	_
+8-5	689-692	und	_	_
+8-6	693-698	grüßt	_	_
+8-7	699-702	Sie	_	_
+8-8	703-706	und	_	_
+8-9	707-710	die	_	_
+8-10	711-718	übrigen	_	_
+8-11	719-730	Kapitoliner	_	_
+8-12	731-734	mit	_	_
+8-13	735-738	nir	_	_
+8-14	739-746	bestens	_	_
+8-15	747-748	,	_	_
+8-16	749-759	namentlich	_	_
+8-17	760-766	Horkel	*	PERmentioned
+8-18	767-768	,	_	_
+8-19	769-777	FPreller	*	PERmentioned
+8-20	778-779	,	_	_
+8-21	780-787	Blessig	*	PERmentioned
+8-22	788-789	,	_	_
+8-23	790-796	ferner	_	_
+8-24	797-804	Kestner	*	PERmentioned
+8-25	805-808	und	_	_
+8-26	809-817	Vollards	*	PERmentioned
+8-27	818-821	von	_	_
+8-28	822-827	denen	_	_
+8-29	828-831	ich	_	_
+8-30	832-837	lange	_	_
+8-31	838-844	nichts	_	_
+8-32	845-850	hörte	_	_
+8-33	851-852	.	_	_
+
+#Text=Auch Domenico soll sein Theil haben .
+9-1	853-857	Auch	_	_
+9-2	858-866	Domenico	*	PERmentioned
+9-3	867-871	soll	_	_
+9-4	872-876	sein	_	_
+9-5	877-882	Theil	_	_
+9-6	883-888	haben	_	_
+9-7	889-890	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+10-1	891-894	Von	_	_
+10-2	895-901	Herzen	_	_
+10-3	902-905	der	_	_
+10-4	906-912	Ihrige	_	_
+10-5	913-920	Gerhard	*	PERauthor

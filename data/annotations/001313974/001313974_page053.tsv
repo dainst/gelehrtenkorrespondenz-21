@@ -1,0 +1,119 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=101 Helbig an das Institut Paris , 10. März 1865 - 2 - denn , daß man mich rasch über die fehlenden Hefte benachrichtigt .
+1-1	0-3	101	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-17	das	_	_
+1-5	18-26	Institut	*	ORGaddressee
+1-6	27-32	Paris	*	PLACEfrom
+1-7	33-34	,	_	_
+1-8	35-38	10.	*[3]	DATEletter[3]
+1-9	39-43	März	*[3]	DATEletter[3]
+1-10	44-48	1865	*[3]	DATEletter[3]
+1-11	49-50	-	_	_
+1-12	51-52	2	_	_
+1-13	53-54	-	_	_
+1-14	55-59	denn	_	_
+1-15	60-61	,	_	_
+1-16	62-65	daß	_	_
+1-17	66-69	man	_	_
+1-18	70-74	mich	_	_
+1-19	75-80	rasch	_	_
+1-20	81-85	über	_	_
+1-21	86-89	die	_	_
+1-22	90-99	fehlenden	_	_
+1-23	100-105	Hefte	_	_
+1-24	106-120	benachrichtigt	_	_
+1-25	121-122	.	_	_
+
+#Text=Didier behauptet , die Revue arch . 1863 ( November ) und 64 ( Jüället ) beide nach Ron : :geschickt zu haben , will die fehlenden Nummern ersetzen , verlangt aber für beide Bezahlung .
+2-1	123-129	Didier	*	PERmentioned
+2-2	130-139	behauptet	_	_
+2-3	140-141	,	_	_
+2-4	142-145	die	_	_
+2-5	146-151	Revue	_	_
+2-6	152-156	arch	_	_
+2-7	157-158	.	_	_
+2-8	159-163	1863	*	DATEmentioned
+2-9	164-165	(	_	_
+2-10	166-174	November	*	DATEmentioned
+2-11	175-176	)	_	_
+2-12	177-180	und	_	_
+2-13	181-183	64	_	_
+2-14	184-185	(	_	_
+2-15	186-193	Jüället	_	_
+2-16	194-195	)	_	_
+2-17	196-201	beide	_	_
+2-18	202-206	nach	_	_
+2-19	207-210	Ron	*[6]	PLACEmentioned[6]
+2-20	211-212	:	*[6]	PLACEmentioned[6]
+2-21	213-223	:geschickt	*[6]	PLACEmentioned[6]
+2-22	224-226	zu	_	_
+2-23	227-232	haben	_	_
+2-24	233-234	,	_	_
+2-25	235-239	will	_	_
+2-26	240-243	die	_	_
+2-27	244-253	fehlenden	_	_
+2-28	254-261	Nummern	_	_
+2-29	262-270	ersetzen	_	_
+2-30	271-272	,	_	_
+2-31	273-281	verlangt	_	_
+2-32	282-286	aber	_	_
+2-33	287-290	für	_	_
+2-34	291-296	beide	_	_
+2-35	297-306	Bezahlung	_	_
+2-36	307-308	.	_	_
+
+#Text=Es ist nunmehr entschieden , daß ich nicht weniger und nicht länger als bis zum 27. März in Paris bleiben werde .
+3-1	309-311	Es	_	_
+3-2	312-315	ist	_	_
+3-3	316-323	nunmehr	_	_
+3-4	324-335	entschieden	_	_
+3-5	336-337	,	_	_
+3-6	338-341	daß	_	_
+3-7	342-345	ich	_	_
+3-8	346-351	nicht	_	_
+3-9	352-359	weniger	_	_
+3-10	360-363	und	_	_
+3-11	364-369	nicht	_	_
+3-12	370-376	länger	_	_
+3-13	377-380	als	_	_
+3-14	381-384	bis	_	_
+3-15	385-388	zum	_	_
+3-16	389-392	27.	*[4]	DATEmentioned[4]
+3-17	393-397	März	*[4]	DATEmentioned[4]
+3-18	398-400	in	_	_
+3-19	401-406	Paris	*	PLACEmentioned
+3-20	407-414	bleiben	_	_
+3-21	415-420	werde	_	_
+3-22	421-422	.	_	_
+
+#Text=Ich bitte Sie , sich darnach mit etwaigen anderweitigen Aufträgen einzurichten .
+4-1	423-426	Ich	_	_
+4-2	427-432	bitte	_	_
+4-3	433-436	Sie	_	_
+4-4	437-438	,	_	_
+4-5	439-443	sich	_	_
+4-6	444-451	darnach	_	_
+4-7	452-455	mit	_	_
+4-8	456-464	etwaigen	_	_
+4-9	465-478	anderweitigen	_	_
+4-10	479-488	Aufträgen	_	_
+4-11	489-501	einzurichten	_	_
+4-12	502-503	.	_	_
+
+#Text=Mit herzlichen Grüßen an alle Inhaber der Casa Wolfgang Helbig .
+5-1	504-507	Mit	_	_
+5-2	508-518	herzlichen	_	_
+5-3	519-525	Grüßen	_	_
+5-4	526-528	an	_	_
+5-5	529-533	alle	_	_
+5-6	534-541	Inhaber	_	_
+5-7	542-545	der	_	_
+5-8	546-550	Casa	_	_
+5-9	551-559	Wolfgang	*[5]	PERauthor[5]
+5-10	560-566	Helbig	*[5]	PERauthor[5]
+5-11	567-568	.	_	_

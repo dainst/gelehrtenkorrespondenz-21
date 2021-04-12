@@ -1,0 +1,128 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Dresden , 29 Januar 1833 Leipzig haben sich bis jetzt 31 große Buchhandlungen zu ansehnlichen Spenden für die Bibliothek des Institits und die dort lebenden deutschen Künstler bereit finden lassen .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Dresden	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	29	*[1]	DATEletter[1]
+1-7	30-36	Januar	*[1]	DATEletter[1]
+1-8	37-41	1833	*[1]	DATEletter[1]
+1-9	42-49	Leipzig	*	PLACEmentioned
+1-10	50-55	haben	_	_
+1-11	56-60	sich	_	_
+1-12	61-64	bis	_	_
+1-13	65-70	jetzt	_	_
+1-14	71-73	31	_	_
+1-15	74-79	große	_	_
+1-16	80-94	Buchhandlungen	_	_
+1-17	95-97	zu	_	_
+1-18	98-110	ansehnlichen	_	_
+1-19	111-118	Spenden	_	_
+1-20	119-122	für	_	_
+1-21	123-126	die	_	_
+1-22	127-137	Bibliothek	*[2]	ORGmentioned[2]
+1-23	138-141	des	*[2]	ORGmentioned[2]
+1-24	142-151	Institits	*[2]	ORGmentioned[2]
+1-25	152-155	und	_	_
+1-26	156-159	die	_	_
+1-27	160-164	dort	_	_
+1-28	165-173	lebenden	_	_
+1-29	174-183	deutschen	_	_
+1-30	184-192	Künstler	_	_
+1-31	193-199	bereit	_	_
+1-32	200-206	finden	_	_
+1-33	207-213	lassen	_	_
+1-34	214-215	.	_	_
+
+#Text=Aber noch ist viel zu thun übrig .
+2-1	216-220	Aber	_	_
+2-2	221-225	noch	_	_
+2-3	226-229	ist	_	_
+2-4	230-234	viel	_	_
+2-5	235-237	zu	_	_
+2-6	238-242	thun	_	_
+2-7	243-248	übrig	_	_
+2-8	249-250	.	_	_
+
+#Text=Dies alles lernt man aus einer kleinen Schrift , Thatsachen des archäologischen Instituts in Rom , Berlin 1832 , 32 S. in 8 , welches der jetzt in Berlin anwesende dirigierende Secretär des Instituts in Rom , Prof .
+3-1	251-255	Dies	_	_
+3-2	256-261	alles	_	_
+3-3	262-267	lernt	_	_
+3-4	268-271	man	_	_
+3-5	272-275	aus	_	_
+3-6	276-281	einer	_	_
+3-7	282-289	kleinen	_	_
+3-8	290-297	Schrift	_	_
+3-9	298-299	,	_	_
+3-10	300-310	Thatsachen	*[3]	LIT[3]
+3-11	311-314	des	*[3]	LIT[3]
+3-12	315-330	archäologischen	*[3]	LIT[3]
+3-13	331-340	Instituts	*[3]	LIT[3]
+3-14	341-343	in	*[3]	LIT[3]
+3-15	344-347	Rom	*[3]	LIT[3]
+3-16	348-349	,	*[3]	LIT[3]
+3-17	350-356	Berlin	*[3]	LIT[3]
+3-18	357-361	1832	*[3]	LIT[3]
+3-19	362-363	,	_	_
+3-20	364-366	32	_	_
+3-21	367-369	S.	_	_
+3-22	370-372	in	_	_
+3-23	373-374	8	_	_
+3-24	375-376	,	_	_
+3-25	377-384	welches	_	_
+3-26	385-388	der	_	_
+3-27	389-394	jetzt	_	_
+3-28	395-397	in	_	_
+3-29	398-404	Berlin	*	PLACEmentioned
+3-30	405-414	anwesende	_	_
+3-31	415-427	dirigierende	_	_
+3-32	428-436	Secretär	_	_
+3-33	437-440	des	_	_
+3-34	441-450	Instituts	*	ORGmentioned
+3-35	451-453	in	_	_
+3-36	454-457	Rom	*	PLACEmentioned
+3-37	458-459	,	_	_
+3-38	460-464	Prof	*[4]	PERmentioned[4]
+3-39	465-466	.	*[4]	PERmentioned[4]
+
+#Text=Ed .
+4-1	467-469	Ed	*[4]	PERmentioned[4]
+4-2	470-471	.	*[4]	PERmentioned[4]
+
+#Text=Gerhard dort eben jetzt erscheinen ließ und welche wol von allen Kunst- und Alterthumsfreunden , sowie insbesondere auch von den Oberbibliothekaren und Vorstehern Öffentlicher Büchersammlungen gelesen und beherzigt zu werden verdient .
+5-1	472-479	Gerhard	*[4]	PERmentioned[4]
+5-2	480-484	dort	_	_
+5-3	485-489	eben	_	_
+5-4	490-495	jetzt	_	_
+5-5	496-506	erscheinen	_	_
+5-6	507-511	ließ	_	_
+5-7	512-515	und	_	_
+5-8	516-522	welche	_	_
+5-9	523-526	wol	_	_
+5-10	527-530	von	_	_
+5-11	531-536	allen	_	_
+5-12	537-543	Kunst-	_	_
+5-13	544-547	und	_	_
+5-14	548-566	Alterthumsfreunden	_	_
+5-15	567-568	,	_	_
+5-16	569-574	sowie	_	_
+5-17	575-587	insbesondere	_	_
+5-18	588-592	auch	_	_
+5-19	593-596	von	_	_
+5-20	597-600	den	_	_
+5-21	601-619	Oberbibliothekaren	_	_
+5-22	620-623	und	_	_
+5-23	624-634	Vorstehern	_	_
+5-24	635-647	Öffentlicher	_	_
+5-25	648-664	Büchersammlungen	_	_
+5-26	665-672	gelesen	_	_
+5-27	673-676	und	_	_
+5-28	677-686	beherzigt	_	_
+5-29	687-689	zu	_	_
+5-30	690-696	werden	_	_
+5-31	697-705	verdient	_	_
+5-32	706-707	.	_	_

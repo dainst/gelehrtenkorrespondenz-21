@@ -1,0 +1,294 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=847 Braun an Gerhard Prof. Gerhard Rom , 25. November 1834 Roma li 25 Nobre .
+1-1	0-3	847	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-26	Prof.	*[1]	PERaddressee[1]
+1-6	27-34	Gerhard	*[1]	PERaddressee[1]
+1-7	35-38	Rom	*	PLACEfrom
+1-8	39-40	,	_	_
+1-9	41-44	25.	*[2]	DATEletter[2]
+1-10	45-53	November	*[2]	DATEletter[2]
+1-11	54-58	1834	*[2]	DATEletter[2]
+1-12	59-63	Roma	*	PLACEfrom
+1-13	64-66	li	_	_
+1-14	67-69	25	*[3]	DATEletter[3]
+1-15	70-75	Nobre	*[3]	DATEletter[3]
+1-16	76-77	.	*[3]	DATEletter[3]
+
+#Text=1834 Hochverehrter Freund \| !
+2-1	78-82	1834	*[3]	DATEletter[3]
+2-2	83-96	Hochverehrter	_	_
+2-3	97-103	Freund	_	_
+2-4	104-105	\|	_	_
+2-5	106-107	!	_	_
+
+#Text=In der Privatadunanza vom 13 Nobre .
+3-1	108-110	In	_	_
+3-2	111-114	der	_	_
+3-3	115-129	Privatadunanza	_	_
+3-4	130-133	vom	_	_
+3-5	134-136	13	*[4]	DATEmentioned[4]
+3-6	137-142	Nobre	*[4]	DATEmentioned[4]
+3-7	143-144	.	_	_
+
+#Text=habe ich Bunsen die Rechnung vorgelegt .
+4-1	145-149	habe	_	_
+4-2	150-153	ich	_	_
+4-3	154-160	Bunsen	*	PERmentioned
+4-4	161-164	die	_	_
+4-5	165-173	Rechnung	_	_
+4-6	174-183	vorgelegt	_	_
+4-7	184-185	.	_	_
+
+#Text=Danach habe ich 344 Sc. 27 baj .
+5-1	186-192	Danach	_	_
+5-2	193-197	habe	_	_
+5-3	198-201	ich	_	_
+5-4	202-205	344	_	_
+5-5	206-209	Sc.	_	_
+5-6	210-212	27	_	_
+5-7	213-216	baj	_	_
+5-8	217-218	.	_	_
+
+#Text=Auslagen und 438.18 Einnahmen gehabt \; es bleiben demnach Sc. 9327 in Cassa .
+6-1	219-227	Auslagen	_	_
+6-2	228-231	und	_	_
+6-3	232-238	438.18	_	_
+6-4	239-248	Einnahmen	_	_
+6-5	249-255	gehabt	_	_
+6-6	256-257	\;	_	_
+6-7	258-260	es	_	_
+6-8	261-268	bleiben	_	_
+6-9	269-276	demnach	_	_
+6-10	277-280	Sc.	_	_
+6-11	281-285	9327	_	_
+6-12	286-288	in	_	_
+6-13	289-294	Cassa	_	_
+6-14	295-296	.	_	_
+
+#Text=Seit der Zeit sind nun wieder neue Ausgaben aufgelaufen \; indeß auch einige Introiti zu erwarten .
+7-1	297-301	Seit	_	_
+7-2	302-305	der	_	_
+7-3	306-310	Zeit	_	_
+7-4	311-315	sind	_	_
+7-5	316-319	nun	_	_
+7-6	320-326	wieder	_	_
+7-7	327-331	neue	_	_
+7-8	332-340	Ausgaben	_	_
+7-9	341-352	aufgelaufen	_	_
+7-10	353-354	\;	_	_
+7-11	355-360	indeß	_	_
+7-12	361-365	auch	_	_
+7-13	366-372	einige	_	_
+7-14	373-381	Introiti	_	_
+7-15	382-384	zu	_	_
+7-16	385-393	erwarten	_	_
+7-17	394-395	.	_	_
+
+#Text=Kestner hat noch nicht bezahlt .
+8-1	396-403	Kestner	*	PERmentioned
+8-2	404-407	hat	_	_
+8-3	408-412	noch	_	_
+8-4	413-418	nicht	_	_
+8-5	419-426	bezahlt	_	_
+8-6	427-428	.	_	_
+
+#Text=Der König der Niederlande schuldet ein Exemplar seit 1829 \; Lord Stanhope ( den Bunsen womöglich zum Ehrenmitglied vorschlagen will ) , nimmt ebenfalls ein vollständiges Exemplar \; Prinz Leopold v. Sicilien , der auch subscribirt fällt freilich auswärts .
+9-1	429-432	Der	_	_
+9-2	433-438	König	*[5]	PERmentioned[5]
+9-3	439-442	der	*[5]	PERmentioned[5]
+9-4	443-454	Niederlande	*[5]	PERmentioned[5]
+9-5	455-463	schuldet	_	_
+9-6	464-467	ein	_	_
+9-7	468-476	Exemplar	_	_
+9-8	477-481	seit	_	_
+9-9	482-486	1829	_	_
+9-10	487-488	\;	_	_
+9-11	489-493	Lord	*[6]	PERmentioned[6]
+9-12	494-502	Stanhope	*[6]	PERmentioned[6]
+9-13	503-504	(	_	_
+9-14	505-508	den	_	_
+9-15	509-515	Bunsen	*	PERmentioned
+9-16	516-525	womöglich	_	_
+9-17	526-529	zum	_	_
+9-18	530-543	Ehrenmitglied	_	_
+9-19	544-555	vorschlagen	_	_
+9-20	556-560	will	_	_
+9-21	561-562	)	_	_
+9-22	563-564	,	_	_
+9-23	565-570	nimmt	_	_
+9-24	571-580	ebenfalls	_	_
+9-25	581-584	ein	_	_
+9-26	585-598	vollständiges	_	_
+9-27	599-607	Exemplar	_	_
+9-28	608-609	\;	_	_
+9-29	610-615	Prinz	*[7]	PERmentioned[7]
+9-30	616-623	Leopold	*[7]	PERmentioned[7]
+9-31	624-626	v.	*[7]	PERmentioned[7]
+9-32	627-635	Sicilien	*[7]	PERmentioned[7]
+9-33	636-637	,	_	_
+9-34	638-641	der	_	_
+9-35	642-646	auch	_	_
+9-36	647-658	subscribirt	_	_
+9-37	659-664	fällt	_	_
+9-38	665-673	freilich	_	_
+9-39	674-682	auswärts	_	_
+9-40	683-684	.	_	_
+
+#Text=- Capobianchi hat noch nicht bezahlt \; nur ein kleines Sconto von 50 Scudi habe ich erpresst .
+10-1	685-686	-	_	_
+10-2	687-698	Capobianchi	*	PERmentioned
+10-3	699-702	hat	_	_
+10-4	703-707	noch	_	_
+10-5	708-713	nicht	_	_
+10-6	714-721	bezahlt	_	_
+10-7	722-723	\;	_	_
+10-8	724-727	nur	_	_
+10-9	728-731	ein	_	_
+10-10	732-739	kleines	_	_
+10-11	740-746	Sconto	_	_
+10-12	747-750	von	_	_
+10-13	751-753	50	_	_
+10-14	754-759	Scudi	_	_
+10-15	760-764	habe	_	_
+10-16	765-768	ich	_	_
+10-17	769-777	erpresst	_	_
+10-18	778-779	.	_	_
+
+#Text=Cades hat deshalb nur eine Rate von 100 Scudi erhalten \; zur zweiten habe ich eine Ordre auf Capobianchi gestellt .
+11-1	780-785	Cades	*	PERmentioned
+11-2	786-789	hat	_	_
+11-3	790-797	deshalb	_	_
+11-4	798-801	nur	_	_
+11-5	802-806	eine	_	_
+11-6	807-811	Rate	_	_
+11-7	812-815	von	_	_
+11-8	816-819	100	_	_
+11-9	820-825	Scudi	_	_
+11-10	826-834	erhalten	_	_
+11-11	835-836	\;	_	_
+11-12	837-840	zur	_	_
+11-13	841-848	zweiten	_	_
+11-14	849-853	habe	_	_
+11-15	854-857	ich	_	_
+11-16	858-862	eine	_	_
+11-17	863-868	Ordre	_	_
+11-18	869-872	auf	_	_
+11-19	873-884	Capobianchi	*	PERmentioned
+11-20	885-893	gestellt	_	_
+11-21	894-895	.	_	_
+
+#Text=Es brennt sehr , Die Speditionen für Bonn und Berlin enthielten : Bonn 23 Settembre 1834 .
+12-1	896-898	Es	_	_
+12-2	899-905	brennt	_	_
+12-3	906-910	sehr	_	_
+12-4	911-912	,	_	_
+12-5	913-916	Die	_	_
+12-6	917-928	Speditionen	_	_
+12-7	929-932	für	_	_
+12-8	933-937	Bonn	*	PLACEmentioned
+12-9	938-941	und	_	_
+12-10	942-948	Berlin	*	PLACEmentioned
+12-11	949-959	enthielten	_	_
+12-12	960-961	:	_	_
+12-13	962-966	Bonn	_	_
+12-14	967-969	23	*[8]	DATEmentioned[8]
+12-15	970-979	Settembre	*[8]	DATEmentioned[8]
+12-16	980-984	1834	*[8]	DATEmentioned[8]
+12-17	985-986	.	_	_
+
+#Text=( durch De Antonis auf den dten October mit 150 rtt und sechs Scudi Spesen bescheinigt ) : 20 Bull .
+13-1	987-988	(	_	_
+13-2	989-994	durch	_	_
+13-3	995-997	De	*[9]	PERmentioned[9]
+13-4	998-1005	Antonis	*[9]	PERmentioned[9]
+13-5	1006-1009	auf	_	_
+13-6	1010-1013	den	_	_
+13-7	1014-1018	dten	*[10]	DATEmentioned[10]
+13-8	1019-1026	October	*[10]	DATEmentioned[10]
+13-9	1027-1030	mit	_	_
+13-10	1031-1034	150	_	_
+13-11	1035-1038	rtt	_	_
+13-12	1039-1042	und	_	_
+13-13	1043-1048	sechs	_	_
+13-14	1049-1054	Scudi	_	_
+13-15	1055-1061	Spesen	_	_
+13-16	1062-1073	bescheinigt	_	_
+13-17	1074-1075	)	_	_
+13-18	1076-1077	:	_	_
+13-19	1078-1080	20	_	_
+13-20	1081-1085	Bull	*[11]	LIT[11]
+13-21	1086-1087	.	*[11]	LIT[11]
+
+#Text=1834 .
+14-1	1088-1092	1834	_	_
+14-2	1093-1094	.	_	_
+
+#Text=I - IX con Novero , Elenco .
+15-1	1095-1096	I	_	_
+15-2	1097-1098	-	_	_
+15-3	1099-1101	IX	_	_
+15-4	1102-1105	con	_	_
+15-5	1106-1112	Novero	_	_
+15-6	1113-1114	,	_	_
+15-7	1115-1121	Elenco	_	_
+15-8	1122-1123	.	_	_
+
+#Text=Statuti 20 Memorie Fasc .
+16-1	1124-1131	Statuti	_	_
+16-2	1132-1134	20	_	_
+16-3	1135-1142	Memorie	*[12]	LIT[12]
+16-4	1143-1147	Fasc	*[12]	LIT[12]
+16-5	1148-1149	.	*[12]	LIT[12]
+
+#Text=III \| 1 Impronte Gemmar .
+17-1	1150-1153	III	_	_
+17-2	1154-1155	\|	_	_
+17-3	1156-1157	1	_	_
+17-4	1158-1166	Impronte	*[13]	LIT[13]
+17-5	1167-1173	Gemmar	*[13]	LIT[13]
+17-6	1174-1175	.	*[13]	LIT[13]
+
+#Text=Cent .
+18-1	1176-1180	Cent	_	_
+18-2	1181-1182	.	_	_
+
+#Text=IIIe IV 1 Serradifalco , Sicilia antica 8 cop .
+19-1	1183-1187	IIIe	_	_
+19-2	1188-1190	IV	_	_
+19-3	1191-1192	1	_	_
+19-4	1193-1205	Serradifalco	*	PERmentioned
+19-5	1206-1207	,	_	_
+19-6	1208-1215	Sicilia	*[14]	LIT[14]
+19-7	1216-1222	antica	*[14]	LIT[14]
+19-8	1223-1224	8	_	_
+19-9	1225-1228	cop	_	_
+19-10	1229-1230	.	_	_
+
+#Text=Colonna Alex .
+20-1	1231-1238	Colonna	*[15]	LIT[15]
+20-2	1239-1243	Alex	*[15]	LIT[15]
+20-3	1244-1245	.	*[15]	LIT[15]
+
+#Text=p. il Prof. Oharn , Gießen und mehrere kleine Schriften für Prof , Weicker , .
+21-1	1246-1248	p.	_	_
+21-2	1249-1251	il	_	_
+21-3	1252-1257	Prof.	*[16]	PERmentioned[16]
+21-4	1258-1263	Oharn	*[16]	PERmentioned[16]
+21-5	1264-1265	,	_	_
+21-6	1266-1272	Gießen	*	PLACEmentioned
+21-7	1273-1276	und	_	_
+21-8	1277-1284	mehrere	_	_
+21-9	1285-1291	kleine	_	_
+21-10	1292-1301	Schriften	_	_
+21-11	1302-1305	für	_	_
+21-12	1306-1310	Prof	*[17]	PERmentioned[17]
+21-13	1311-1312	,	*[17]	PERmentioned[17]
+21-14	1313-1320	Weicker	*[17]	PERmentioned[17]
+21-15	1321-1322	,	_	_
+21-16	1323-1324	.	_	_

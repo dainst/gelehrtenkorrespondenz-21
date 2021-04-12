@@ -1,0 +1,227 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Breslau , 28 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	28	*[4]	DATEletter[4]
+1-7	30-31	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 Register erhöht werden darf \; rechnen Sie demnach darauf daß Ihre ökonomischen Bedürfnisse bei Regulierung der Institutsrechnung nicht vergessen werden .
+2-1	32-39	Oktober	*[4]	DATEletter[4]
+2-2	40-44	1834	*[4]	DATEletter[4]
+2-3	45-53	Register	_	_
+2-4	54-60	erhöht	_	_
+2-5	61-67	werden	_	_
+2-6	68-72	darf	_	_
+2-7	73-74	\;	_	_
+2-8	75-82	rechnen	_	_
+2-9	83-86	Sie	_	_
+2-10	87-94	demnach	_	_
+2-11	95-101	darauf	_	_
+2-12	102-105	daß	_	_
+2-13	106-110	Ihre	_	_
+2-14	111-123	ökonomischen	_	_
+2-15	124-135	Bedürfnisse	_	_
+2-16	136-139	bei	_	_
+2-17	140-151	Regulierung	_	_
+2-18	152-155	der	_	_
+2-19	156-173	Institutsrechnung	_	_
+2-20	174-179	nicht	_	_
+2-21	180-189	vergessen	_	_
+2-22	190-196	werden	_	_
+2-23	197-198	.	_	_
+
+#Text=Entschuldigen Sie angelegentlichst bei Lanci mein noch für eine Weile fortdauerndes Stillschweigen und sagen Sie ihm möglichst viel Freundliches .
+3-1	199-212	Entschuldigen	_	_
+3-2	213-216	Sie	_	_
+3-3	217-233	angelegentlichst	_	_
+3-4	234-237	bei	_	_
+3-5	238-243	Lanci	*	PERmentioned
+3-6	244-248	mein	_	_
+3-7	249-253	noch	_	_
+3-8	254-257	für	_	_
+3-9	258-262	eine	_	_
+3-10	263-268	Weile	_	_
+3-11	269-282	fortdauerndes	_	_
+3-12	283-297	Stillschweigen	_	_
+3-13	298-301	und	_	_
+3-14	302-307	sagen	_	_
+3-15	308-311	Sie	_	_
+3-16	312-315	ihm	_	_
+3-17	316-325	möglichst	_	_
+3-18	326-330	viel	_	_
+3-19	331-343	Freundliches	_	_
+3-20	344-345	.	_	_
+
+#Text=Unsere Bib } iothek hat glaube ich noch keine Venere Proserpina \; alsdann kann das disponible Exemplar ihr bleiben , obwohl ich selbst noch eines und etliche bedarf : fordern Sie gelegentlich von Inghirani noch 5 andere .
+4-1	346-352	Unsere	_	_
+4-2	353-356	Bib	*[16]	ORGmentioned[16]
+4-3	357-358	}	*[16]	ORGmentioned[16]
+4-4	359-365	iothek	*[16]	ORGmentioned[16]
+4-5	366-369	hat	_	_
+4-6	370-376	glaube	_	_
+4-7	377-380	ich	_	_
+4-8	381-385	noch	_	_
+4-9	386-391	keine	_	_
+4-10	392-398	Venere	_	_
+4-11	399-409	Proserpina	_	_
+4-12	410-411	\;	_	_
+4-13	412-419	alsdann	_	_
+4-14	420-424	kann	_	_
+4-15	425-428	das	_	_
+4-16	429-439	disponible	_	_
+4-17	440-448	Exemplar	_	_
+4-18	449-452	ihr	_	_
+4-19	453-460	bleiben	_	_
+4-20	461-462	,	_	_
+4-21	463-469	obwohl	_	_
+4-22	470-473	ich	_	_
+4-23	474-480	selbst	_	_
+4-24	481-485	noch	_	_
+4-25	486-491	eines	_	_
+4-26	492-495	und	_	_
+4-27	496-503	etliche	_	_
+4-28	504-510	bedarf	_	_
+4-29	511-512	:	_	_
+4-30	513-520	fordern	_	_
+4-31	521-524	Sie	_	_
+4-32	525-537	gelegentlich	_	_
+4-33	538-541	von	_	_
+4-34	542-551	Inghirani	*	PERmentioned
+4-35	552-556	noch	_	_
+4-36	557-558	5	_	_
+4-37	559-565	andere	_	_
+4-38	566-567	.	_	_
+
+#Text=Durch Lokalsgelegenheit können Sie ja wol wenigsstens die Kupferblätter der Achilles- und Ajax vase mir zusenden .
+5-1	568-573	Durch	_	_
+5-2	574-591	Lokalsgelegenheit	_	_
+5-3	592-598	können	_	_
+5-4	599-602	Sie	_	_
+5-5	603-605	ja	_	_
+5-6	606-609	wol	_	_
+5-7	610-621	wenigsstens	_	_
+5-8	622-625	die	_	_
+5-9	626-639	Kupferblätter	_	_
+5-10	640-643	der	_	_
+5-11	644-653	Achilles-	*[8]	OBJ[8]
+5-12	654-657	und	*[8]	OBJ[8]
+5-13	658-662	Ajax	*[8]	OBJ[8]
+5-14	663-667	vase	*[8]	OBJ[8]
+5-15	668-671	mir	_	_
+5-16	672-680	zusenden	_	_
+5-17	681-682	.	_	_
+
+#Text=Die Kolorierte Zeichnung Apollonis die ich mir zulezt glaube erbeten zu haben behalten Sie bloß wenn Sie ihr einige Wirkung in Couleur zutrauen .
+6-1	683-686	Die	_	_
+6-2	687-697	Kolorierte	_	_
+6-3	698-707	Zeichnung	_	_
+6-4	708-717	Apollonis	*	PERmentioned
+6-5	718-721	die	_	_
+6-6	722-725	ich	_	_
+6-7	726-729	mir	_	_
+6-8	730-736	zulezt	_	_
+6-9	737-743	glaube	_	_
+6-10	744-751	erbeten	_	_
+6-11	752-754	zu	_	_
+6-12	755-760	haben	_	_
+6-13	761-769	behalten	_	_
+6-14	770-773	Sie	_	_
+6-15	774-778	bloß	_	_
+6-16	779-783	wenn	_	_
+6-17	784-787	Sie	_	_
+6-18	788-791	ihr	_	_
+6-19	792-798	einige	_	_
+6-20	799-806	Wirkung	_	_
+6-21	807-809	in	_	_
+6-22	810-817	Couleur	_	_
+6-23	818-826	zutrauen	_	_
+6-24	827-828	.	_	_
+
+#Text=Daß Sie dem Lanci die Antwort an Santangelo über Qualität und Preis der Institutswerke nicht mit Leichtigkeit sollten erzwingen können , ist unglaublich \; sonst stehe ich auch aus der Ferne zu Diensten .
+7-1	829-832	Daß	_	_
+7-2	833-836	Sie	_	_
+7-3	837-840	dem	_	_
+7-4	841-846	Lanci	*	PERmentioned
+7-5	847-850	die	_	_
+7-6	851-858	Antwort	_	_
+7-7	859-861	an	_	_
+7-8	862-872	Santangelo	*	PERmentioned
+7-9	873-877	über	_	_
+7-10	878-886	Qualität	_	_
+7-11	887-890	und	_	_
+7-12	891-896	Preis	_	_
+7-13	897-900	der	_	_
+7-14	901-915	Institutswerke	_	_
+7-15	916-921	nicht	_	_
+7-16	922-925	mit	_	_
+7-17	926-938	Leichtigkeit	_	_
+7-18	939-946	sollten	_	_
+7-19	947-956	erzwingen	_	_
+7-20	957-963	können	_	_
+7-21	964-965	,	_	_
+7-22	966-969	ist	_	_
+7-23	970-981	unglaublich	_	_
+7-24	982-983	\;	_	_
+7-25	984-989	sonst	_	_
+7-26	990-995	stehe	_	_
+7-27	996-999	ich	_	_
+7-28	1000-1004	auch	_	_
+7-29	1005-1008	aus	_	_
+7-30	1009-1012	der	_	_
+7-31	1013-1018	Ferne	_	_
+7-32	1019-1021	zu	_	_
+7-33	1022-1030	Diensten	_	_
+7-34	1031-1032	.	_	_
+
+#Text=Lanci 's Bücherwunsch sine anno ist notirt , scheint aber außer dem Gebot : des Buchhandels zu liegen .
+8-1	1033-1038	Lanci	*[17]	PERmentioned[17]
+8-2	1039-1041	's	*[17]	PERmentioned[17]
+8-3	1042-1054	Bücherwunsch	_	_
+8-4	1055-1059	sine	_	_
+8-5	1060-1064	anno	_	_
+8-6	1065-1068	ist	_	_
+8-7	1069-1075	notirt	_	_
+8-8	1076-1077	,	_	_
+8-9	1078-1085	scheint	_	_
+8-10	1086-1090	aber	_	_
+8-11	1091-1096	außer	_	_
+8-12	1097-1100	dem	_	_
+8-13	1101-1106	Gebot	_	_
+8-14	1107-1108	:	_	_
+8-15	1109-1112	des	_	_
+8-16	1113-1124	Buchhandels	_	_
+8-17	1125-1127	zu	_	_
+8-18	1128-1134	liegen	_	_
+8-19	1135-1136	.	_	_
+
+#Text=-— Ist bei Campanari nichts über die rückständigen Scherben der Kyknosvase kund geworden ?
+9-1	1137-1139	-—	_	_
+9-2	1140-1143	Ist	_	_
+9-3	1144-1147	bei	_	_
+9-4	1148-1157	Campanari	*	PERmentioned
+9-5	1158-1164	nichts	_	_
+9-6	1165-1169	über	_	_
+9-7	1170-1173	die	_	_
+9-8	1174-1187	rückständigen	_	_
+9-9	1188-1196	Scherben	_	_
+9-10	1197-1200	der	_	_
+9-11	1201-1211	Kyknosvase	*	OBJ
+9-12	1212-1216	kund	_	_
+9-13	1217-1225	geworden	_	_
+9-14	1226-1227	?	_	_
+
+#Text=Von den durch De Antonis Ende August abgesand-
+10-1	1228-1231	Von	_	_
+10-2	1232-1235	den	_	_
+10-3	1236-1241	durch	_	_
+10-4	1242-1244	De	*[15]	PERmentioned[15]
+10-5	1245-1252	Antonis	*[15]	PERmentioned[15]
+10-6	1253-1257	Ende	_	_
+10-7	1258-1264	August	*	DATEmentioned
+10-8	1265-1274	abgesand-	_	_

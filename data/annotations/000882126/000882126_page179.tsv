@@ -1,0 +1,52 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=284 Braun an Gerhard Rom , 29. Juni 1857 die Verkleinerung inbegriffen .
+1-1	0-3	284	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	29.	*[3]	DATEletter[3]
+1-8	31-35	Juni	*[3]	DATEletter[3]
+1-9	36-40	1857	*[3]	DATEletter[3]
+1-10	41-44	die	_	_
+1-11	45-58	Verkleinerung	_	_
+1-12	59-70	inbegriffen	_	_
+1-13	71-72	.	_	_
+
+#Text=Theils um Ihnen nicht zu viel lesen zu lassen , theils weil die Postzeit nahe ist , schließe ich mit den besten Wünschen für Ihr Wohlergehen .
+2-1	73-79	Theils	_	_
+2-2	80-82	um	_	_
+2-3	83-88	Ihnen	_	_
+2-4	89-94	nicht	_	_
+2-5	95-97	zu	_	_
+2-6	98-102	viel	_	_
+2-7	103-108	lesen	_	_
+2-8	109-111	zu	_	_
+2-9	112-118	lassen	_	_
+2-10	119-120	,	_	_
+2-11	121-127	theils	_	_
+2-12	128-132	weil	_	_
+2-13	133-136	die	_	_
+2-14	137-145	Postzeit	_	_
+2-15	146-150	nahe	_	_
+2-16	151-154	ist	_	_
+2-17	155-156	,	_	_
+2-18	157-165	schließe	_	_
+2-19	166-169	ich	_	_
+2-20	170-173	mit	_	_
+2-21	174-177	den	_	_
+2-22	178-184	besten	_	_
+2-23	185-193	Wünschen	_	_
+2-24	194-197	für	_	_
+2-25	198-201	Ihr	_	_
+2-26	202-213	Wohlergehen	_	_
+2-27	214-215	.	_	_
+
+#Text=Ihr EBraun .
+3-1	216-219	Ihr	_	_
+3-2	220-226	EBraun	*	PERauthor
+3-3	227-228	.	_	_

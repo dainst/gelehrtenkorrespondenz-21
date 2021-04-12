@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=9 Henzen an Gerhard 12/V1/55 Mit andrer Schrift : Annali de Wit Lajard Verehrter Herr Professor !
+1-1	0-1	9	_	_
+1-2	2-8	Henzen	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-28	12/V1/55	*	DATEletter
+1-6	29-32	Mit	_	_
+1-7	33-39	andrer	_	_
+1-8	40-47	Schrift	_	_
+1-9	48-49	:	_	_
+1-10	50-56	Annali	_	_
+1-11	57-59	de	*[5]	PERmentioned[5]
+1-12	60-63	Wit	*[5]	PERmentioned[5]
+1-13	64-70	Lajard	*	PERmentioned
+1-14	71-80	Verehrter	_	_
+1-15	81-85	Herr	_	_
+1-16	86-95	Professor	_	_
+1-17	96-97	!	_	_
+
+#Text=r Mit bestem Dank für Ihren 1 .
+2-1	98-99	r	_	_
+2-2	100-103	Mit	_	_
+2-3	104-110	bestem	_	_
+2-4	111-115	Dank	_	_
+2-5	116-119	für	_	_
+2-6	120-125	Ihren	_	_
+2-7	126-127	1	_	_
+2-8	128-129	.	_	_
+
+#Text=Brief vom 11 d. beantworte ich sogleich Ihre “ nfrage in Betreff der Mittiriaca Grut .
+3-1	130-135	Brief	_	_
+3-2	136-139	vom	_	_
+3-3	140-142	11	*[6]	DATEmentioned[6]
+3-4	143-145	d.	*[6]	DATEmentioned[6]
+3-5	146-156	beantworte	_	_
+3-6	157-160	ich	_	_
+3-7	161-169	sogleich	_	_
+3-8	170-174	Ihre	_	_
+3-9	175-176	“	_	_
+3-10	177-183	nfrage	_	_
+3-11	184-186	in	_	_
+3-12	187-194	Betreff	_	_
+3-13	195-198	der	_	_
+3-14	199-209	Mittiriaca	_	_
+3-15	210-214	Grut	_	_
+3-16	215-216	.	_	_
+
+#Text=1087 , 4 5 .
+4-1	217-221	1087	_	_
+4-2	222-223	,	_	_
+4-3	224-225	4	_	_
+4-4	226-227	5	_	_
+4-5	228-229	.	_	_
+
+#Text=Wahrscheinlich sind sie in der That nicht im Fighius \; denn Zumpt hat an den betreffenden Stellen Nichts notirt .
+5-1	230-244	Wahrscheinlich	_	_
+5-2	245-249	sind	_	_
+5-3	250-253	sie	_	_
+5-4	254-256	in	_	_
+5-5	257-260	der	_	_
+5-6	261-265	That	_	_
+5-7	266-271	nicht	_	_
+5-8	272-274	im	_	_
+5-9	275-282	Fighius	_	_
+5-10	283-284	\;	_	_
+5-11	285-289	denn	_	_
+5-12	290-295	Zumpt	*	PERmentioned
+5-13	296-299	hat	_	_
+5-14	300-302	an	_	_
+5-15	303-306	den	_	_
+5-16	307-319	betreffenden	_	_
+5-17	320-327	Stellen	_	_
+5-18	328-334	Nichts	_	_
+5-19	335-341	notirt	_	_
+5-20	342-343	.	_	_
+
+#Text=Mit Minutoli halten Sie es , wie Sie meinen \; nur daß ihm u. Loving irgend Etwas erwiesen werde .
+6-1	344-347	Mit	_	_
+6-2	348-356	Minutoli	*	PERmentioned
+6-3	357-363	halten	_	_
+6-4	364-367	Sie	_	_
+6-5	368-370	es	_	_
+6-6	371-372	,	_	_
+6-7	373-376	wie	_	_
+6-8	377-380	Sie	_	_
+6-9	381-387	meinen	_	_
+6-10	388-389	\;	_	_
+6-11	390-393	nur	_	_
+6-12	394-397	daß	_	_
+6-13	398-401	ihm	_	_
+6-14	402-404	u.	_	_
+6-15	405-411	Loving	*	PERmentioned
+6-16	412-418	irgend	_	_
+6-17	419-424	Etwas	_	_
+6-18	425-433	erwiesen	_	_
+6-19	434-439	werde	_	_
+6-20	440-441	.	_	_
+
+#Text=- Ich bedaure , daß Sie den Brief an den König von Sachsen nicht übernehmen wollen \; denn Braun schreibt gewiß nicht , wenn ich nicht da bin , ihn zu erinnern .
+7-1	442-443	-	_	_
+7-2	444-447	Ich	_	_
+7-3	448-455	bedaure	_	_
+7-4	456-457	,	_	_
+7-5	458-461	daß	_	_
+7-6	462-465	Sie	_	_
+7-7	466-469	den	_	_
+7-8	470-475	Brief	_	_
+7-9	476-478	an	_	_
+7-10	479-482	den	_	_
+7-11	483-488	König	*[7]	PERmentioned[7]
+7-12	489-492	von	*[7]	PERmentioned[7]
+7-13	493-500	Sachsen	*[7]	PERmentioned[7]
+7-14	501-506	nicht	_	_
+7-15	507-517	übernehmen	_	_
+7-16	518-524	wollen	_	_
+7-17	525-526	\;	_	_
+7-18	527-531	denn	_	_
+7-19	532-537	Braun	*	PERmentioned
+7-20	538-546	schreibt	_	_
+7-21	547-552	gewiß	_	_
+7-22	553-558	nicht	_	_
+7-23	559-560	,	_	_
+7-24	561-565	wenn	_	_
+7-25	566-569	ich	_	_
+7-26	570-575	nicht	_	_
+7-27	576-578	da	_	_
+7-28	579-582	bin	_	_
+7-29	583-584	,	_	_
+7-30	585-588	ihn	_	_
+7-31	589-591	zu	_	_
+7-32	592-600	erinnern	_	_
+7-33	601-602	.	_	_
+
+#Text=Bei Ambrosch war ich bereits \; er war sehr freundlich .
+8-1	603-606	Bei	_	_
+8-2	607-615	Ambrosch	*	PERmentioned
+8-3	616-619	war	_	_
+8-4	620-623	ich	_	_
+8-5	624-631	bereits	_	_
+8-6	632-633	\;	_	_
+8-7	634-636	er	_	_
+8-8	637-640	war	_	_
+8-9	641-645	sehr	_	_
+8-10	646-656	freundlich	_	_
+8-11	657-658	.	_	_
+
+#Text=Momnsen bittet um Rücksendung des Briefes gon de Wit , den wohl Haupt haben müße , da wir ihm jetzt auf sein \|Anerbieten doch einmal antworten müssen , Wie lange werden Sie denn in diesem Sommer in Berlin bleiben ?
+9-1	659-666	Momnsen	*	PERmentioned
+9-2	667-673	bittet	_	_
+9-3	674-676	um	_	_
+9-4	677-688	Rücksendung	_	_
+9-5	689-692	des	_	_
+9-6	693-700	Briefes	_	_
+9-7	701-704	gon	_	_
+9-8	705-707	de	*[8]	PERmentioned[8]
+9-9	708-711	Wit	*[8]	PERmentioned[8]
+9-10	712-713	,	_	_
+9-11	714-717	den	_	_
+9-12	718-722	wohl	_	_
+9-13	723-728	Haupt	*	PERmentioned
+9-14	729-734	haben	_	_
+9-15	735-739	müße	_	_
+9-16	740-741	,	_	_
+9-17	742-744	da	_	_
+9-18	745-748	wir	_	_
+9-19	749-752	ihm	_	_
+9-20	753-758	jetzt	_	_
+9-21	759-762	auf	_	_
+9-22	763-767	sein	_	_
+9-23	768-779	\|Anerbieten	_	_
+9-24	780-784	doch	_	_
+9-25	785-791	einmal	_	_
+9-26	792-801	antworten	_	_
+9-27	802-808	müssen	_	_
+9-28	809-810	,	_	_
+9-29	811-814	Wie	_	_
+9-30	815-820	lange	_	_
+9-31	821-827	werden	_	_
+9-32	828-831	Sie	_	_
+9-33	832-836	denn	_	_
+9-34	837-839	in	_	_
+9-35	840-846	diesem	_	_
+9-36	847-853	Sommer	_	_
+9-37	854-856	in	_	_
+9-38	857-863	Berlin	*	PLACEmentioned
+9-39	864-871	bleiben	_	_
+9-40	872-873	?	_	_
+
+#Text=Sie können wohl denken , dß .
+10-1	874-877	Sie	_	_
+10-2	878-884	können	_	_
+10-3	885-889	wohl	_	_
+10-4	890-896	denken	_	_
+10-5	897-898	,	_	_
+10-6	899-901	dß	_	_
+10-7	902-903	.	_	_
+
+#Text=ich Sie u. einige “ ndere gern sähe , ungern aber zu einer Zeit , wo dieser ungeheure Berg langweiligster Arbeiten noch vor u. auf mir liegt .
+11-1	904-907	ich	_	_
+11-2	908-911	Sie	_	_
+11-3	912-914	u.	_	_
+11-4	915-921	einige	_	_
+11-5	922-923	“	_	_
+11-6	924-929	ndere	_	_
+11-7	930-934	gern	_	_
+11-8	935-939	sähe	_	_
+11-9	940-941	,	_	_
+11-10	942-948	ungern	_	_
+11-11	949-953	aber	_	_
+11-12	954-956	zu	_	_
+11-13	957-962	einer	_	_
+11-14	963-967	Zeit	_	_
+11-15	968-969	,	_	_
+11-16	970-972	wo	_	_
+11-17	973-979	dieser	_	_
+11-18	980-989	ungeheure	_	_
+11-19	990-994	Berg	_	_
+11-20	995-1009	langweiligster	_	_
+11-21	1010-1018	Arbeiten	_	_
+11-22	1019-1023	noch	_	_
+11-23	1024-1027	vor	_	_
+11-24	1028-1030	u.	_	_
+11-25	1031-1034	auf	_	_
+11-26	1035-1038	mir	_	_
+11-27	1039-1044	liegt	_	_
+11-28	1045-1046	.	_	_
+
+#Text=Auch ist es mir ganz recht , wenn einzelne Größen nicht in Berlin sind , wenn ich hinkomme , da unnütze Höflichkeitsvisiten bekanntlich nicht nach meinem Geschmack
+12-1	1047-1051	Auch	_	_
+12-2	1052-1055	ist	_	_
+12-3	1056-1058	es	_	_
+12-4	1059-1062	mir	_	_
+12-5	1063-1067	ganz	_	_
+12-6	1068-1073	recht	_	_
+12-7	1074-1075	,	_	_
+12-8	1076-1080	wenn	_	_
+12-9	1081-1089	einzelne	_	_
+12-10	1090-1096	Größen	_	_
+12-11	1097-1102	nicht	_	_
+12-12	1103-1105	in	_	_
+12-13	1106-1112	Berlin	*	PLACEmentioned
+12-14	1113-1117	sind	_	_
+12-15	1118-1119	,	_	_
+12-16	1120-1124	wenn	_	_
+12-17	1125-1128	ich	_	_
+12-18	1129-1137	hinkomme	_	_
+12-19	1138-1139	,	_	_
+12-20	1140-1142	da	_	_
+12-21	1143-1150	unnütze	_	_
+12-22	1151-1170	Höflichkeitsvisiten	_	_
+12-23	1171-1182	bekanntlich	_	_
+12-24	1183-1188	nicht	_	_
+12-25	1189-1193	nach	_	_
+12-26	1194-1200	meinem	_	_
+12-27	1201-1210	Geschmack	_	_

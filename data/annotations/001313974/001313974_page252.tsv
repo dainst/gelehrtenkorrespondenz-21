@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=399 Helbig an Henzen Siena , 29. Juli 1875 8 .
+1-1	0-3	399	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-26	Siena	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	29.	*[1]	DATEletter[1]
+1-8	33-37	Juli	*[1]	DATEletter[1]
+1-9	38-42	1875	*[1]	DATEletter[1]
+1-10	43-44	8	_	_
+1-11	45-46	.	_	_
+
+#Text=31/7 75 n. c.rT .
+2-1	47-51	31/7	*[2]	DATErecieved[2]
+2-2	52-54	75	*[2]	DATErecieved[2]
+2-3	55-57	n.	_	_
+2-4	58-62	c.rT	_	_
+2-5	63-64	.	_	_
+
+#Text=li , 29. Juli 1875 Lieber Herr Professor Aus Ihrem Briefe vom 27. an meine Frau sehe ich mit Schrecken , daß ein Brief von mir an Sie verloren gesangen .
+3-1	65-67	li	_	_
+3-2	68-69	,	_	_
+3-3	70-73	29.	*[3]	DATEletter[3]
+3-4	74-78	Juli	*[3]	DATEletter[3]
+3-5	79-83	1875	*[3]	DATEletter[3]
+3-6	84-90	Lieber	_	_
+3-7	91-95	Herr	_	_
+3-8	96-105	Professor	_	_
+3-9	106-109	Aus	_	_
+3-10	110-115	Ihrem	_	_
+3-11	116-122	Briefe	_	_
+3-12	123-126	vom	_	_
+3-13	127-130	27.	*[4]	DATEmentioned[4]
+3-14	131-133	an	_	_
+3-15	134-139	meine	*[5]	PERmentioned[5]
+3-16	140-144	Frau	*[5]	PERmentioned[5]
+3-17	145-149	sehe	_	_
+3-18	150-153	ich	_	_
+3-19	154-157	mit	_	_
+3-20	158-167	Schrecken	_	_
+3-21	168-169	,	_	_
+3-22	170-173	daß	_	_
+3-23	174-177	ein	_	_
+3-24	178-183	Brief	_	_
+3-25	184-187	von	_	_
+3-26	188-191	mir	_	_
+3-27	192-194	an	_	_
+3-28	195-198	Sie	_	_
+3-29	199-207	verloren	_	_
+3-30	208-216	gesangen	_	_
+3-31	217-218	.	_	_
+
+#Text=Das Exemplar der Tafel mit der Cornetaner Vase , das ich nach Rom zurückgeschickt , kann ja ganz gut an Heydemann abgeschickt werden d. h. nachdem Mariani di beiden von mir darauf notirten Correcturen berücksichtigt .
+4-1	219-222	Das	_	_
+4-2	223-231	Exemplar	_	_
+4-3	232-235	der	_	_
+4-4	236-241	Tafel	_	_
+4-5	242-245	mit	_	_
+4-6	246-249	der	_	_
+4-7	250-260	Cornetaner	*[6]	OBJ[6]
+4-8	261-265	Vase	*[6]	OBJ[6]
+4-9	266-267	,	_	_
+4-10	268-271	das	_	_
+4-11	272-275	ich	_	_
+4-12	276-280	nach	_	_
+4-13	281-284	Rom	*	PLACEmentioned
+4-14	285-300	zurückgeschickt	_	_
+4-15	301-302	,	_	_
+4-16	303-307	kann	_	_
+4-17	308-310	ja	_	_
+4-18	311-315	ganz	_	_
+4-19	316-319	gut	_	_
+4-20	320-322	an	_	_
+4-21	323-332	Heydemann	*	PERmentioned
+4-22	333-344	abgeschickt	_	_
+4-23	345-351	werden	_	_
+4-24	352-354	d.	_	_
+4-25	355-357	h.	_	_
+4-26	358-365	nachdem	_	_
+4-27	366-373	Mariani	*	PERmentioned
+4-28	374-376	di	_	_
+4-29	377-383	beiden	_	_
+4-30	384-387	von	_	_
+4-31	388-391	mir	_	_
+4-32	392-398	darauf	_	_
+4-33	399-407	notirten	_	_
+4-34	408-419	Correcturen	_	_
+4-35	420-434	berücksichtigt	_	_
+4-36	435-436	.	_	_
+
+#Text=In Montepulciano bei Buccelli nur robbaccia .
+5-1	437-439	In	_	_
+5-2	440-453	Montepulciano	*	PLACEmentioned
+5-3	454-457	bei	_	_
+5-4	458-466	Buccelli	*	PERmentioned
+5-5	467-470	nur	_	_
+5-6	471-480	robbaccia	_	_
+5-7	481-482	.	_	_
+
+#Text=Dagegen war das Fest , wenn man bedenkt , daß dasselbe in einem Städtchen von 3000 Einwohnern Statt fand , in authentischer und materieller Hinsicht gar nicht übel arrangirt .
+6-1	483-490	Dagegen	_	_
+6-2	491-494	war	_	_
+6-3	495-498	das	_	_
+6-4	499-503	Fest	_	_
+6-5	504-505	,	_	_
+6-6	506-510	wenn	_	_
+6-7	511-514	man	_	_
+6-8	515-522	bedenkt	_	_
+6-9	523-524	,	_	_
+6-10	525-528	daß	_	_
+6-11	529-537	dasselbe	_	_
+6-12	538-540	in	_	_
+6-13	541-546	einem	_	_
+6-14	547-556	Städtchen	_	_
+6-15	557-560	von	_	_
+6-16	561-565	3000	_	_
+6-17	566-576	Einwohnern	_	_
+6-18	577-582	Statt	_	_
+6-19	583-587	fand	_	_
+6-20	588-589	,	_	_
+6-21	590-592	in	_	_
+6-22	593-606	authentischer	_	_
+6-23	607-610	und	_	_
+6-24	611-622	materieller	_	_
+6-25	623-631	Hinsicht	_	_
+6-26	632-635	gar	_	_
+6-27	636-641	nicht	_	_
+6-28	642-646	übel	_	_
+6-29	647-656	arrangirt	_	_
+6-30	657-658	.	_	_
+
+#Text=Gamurrini kam nicht .
+7-1	659-668	Gamurrini	*	PERmentioned
+7-2	669-672	kam	_	_
+7-3	673-678	nicht	_	_
+7-4	679-680	.	_	_
+
+#Text=Auch ist er , wie ich von dem anwesenden Sindaco di Sarteano hörte , nicht in Chiusi , sondern auf seiner Tenuta im Chianathale .
+8-1	681-685	Auch	_	_
+8-2	686-689	ist	_	_
+8-3	690-692	er	_	_
+8-4	693-694	,	_	_
+8-5	695-698	wie	_	_
+8-6	699-702	ich	_	_
+8-7	703-706	von	_	_
+8-8	707-710	dem	_	_
+8-9	711-721	anwesenden	_	_
+8-10	722-729	Sindaco	_	_
+8-11	730-732	di	_	_
+8-12	733-741	Sarteano	*	PLACEmentioned
+8-13	742-747	hörte	_	_
+8-14	748-749	,	_	_
+8-15	750-755	nicht	_	_
+8-16	756-758	in	_	_
+8-17	759-765	Chiusi	*	PLACEmentioned
+8-18	766-767	,	_	_
+8-19	768-775	sondern	_	_
+8-20	776-779	auf	_	_
+8-21	780-786	seiner	_	_
+8-22	787-793	Tenuta	_	_
+8-23	794-796	im	_	_
+8-24	797-808	Chianathale	*	PLACEmentioned
+8-25	809-810	.	_	_
+
+#Text=Ich werde ihm nach Rom schreiben , von wo ihm , denke ich , die Briefe nachgeschickt werden .
+9-1	811-814	Ich	_	_
+9-2	815-820	werde	_	_
+9-3	821-824	ihm	_	_
+9-4	825-829	nach	_	_
+9-5	830-833	Rom	*	PLACEmentioned
+9-6	834-843	schreiben	_	_
+9-7	844-845	,	_	_
+9-8	846-849	von	_	_
+9-9	850-852	wo	_	_
+9-10	853-856	ihm	_	_
+9-11	857-858	,	_	_
+9-12	859-864	denke	_	_
+9-13	865-868	ich	_	_
+9-14	869-870	,	_	_
+9-15	871-874	die	_	_
+9-16	875-881	Briefe	_	_
+9-17	882-895	nachgeschickt	_	_
+9-18	896-902	werden	_	_
+9-19	903-904	.	_	_
+
+#Text=Um Sie nicht zu bemühen , habe ich an Nino um zwei weitere Exemplare der Bullettini geschrieben , die ich nächsten Sonntag an zwei weitere ausgrabende Piovani überliefern werde .
+10-1	905-907	Um	_	_
+10-2	908-911	Sie	_	_
+10-3	912-917	nicht	_	_
+10-4	918-920	zu	_	_
+10-5	921-928	bemühen	_	_
+10-6	929-930	,	_	_
+10-7	931-935	habe	_	_
+10-8	936-939	ich	_	_
+10-9	940-942	an	_	_
+10-10	943-947	Nino	*	PERmentioned
+10-11	948-950	um	_	_
+10-12	951-955	zwei	_	_
+10-13	956-963	weitere	_	_
+10-14	964-973	Exemplare	_	_
+10-15	974-977	der	_	_
+10-16	978-988	Bullettini	_	_
+10-17	989-1000	geschrieben	_	_
+10-18	1001-1002	,	_	_
+10-19	1003-1006	die	_	_
+10-20	1007-1010	ich	_	_
+10-21	1011-1019	nächsten	_	_
+10-22	1020-1027	Sonntag	*	DATEmentioned
+10-23	1028-1030	an	_	_
+10-24	1031-1035	zwei	_	_
+10-25	1036-1043	weitere	_	_
+10-26	1044-1055	ausgrabende	_	_
+10-27	1056-1063	Piovani	_	_
+10-28	1064-1075	überliefern	_	_
+10-29	1076-1081	werde	_	_
+10-30	1082-1083	.	_	_

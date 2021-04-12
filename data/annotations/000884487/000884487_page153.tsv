@@ -1,0 +1,106 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Ohne Datum Dr. Braun Dir .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-21	Ohne	_	_
+1-5	22-27	Datum	_	_
+1-6	28-31	Dr.	_	_
+1-7	32-37	Braun	*	PERaddressee
+1-8	38-41	Dir	_	_
+1-9	42-43	.	_	_
+
+#Text=Rom .
+2-1	44-47	Rom	*	PLACEto
+2-2	48-49	.	_	_
+
+#Text=Gerh .
+3-1	50-54	Gerh	_	_
+3-2	55-56	.	_	_
+
+#Text=LIX g . 4/3 37 Sonntags Lieber Freund .
+4-1	57-60	LIX	_	_
+4-2	61-62	g	_	_
+4-3	63-64	.	_	_
+4-4	65-68	4/3	*[5]	DATErecieved[5]
+4-5	69-71	37	*[5]	DATErecieved[5]
+4-6	72-80	Sonntags	_	_
+4-7	81-87	Lieber	_	_
+4-8	88-94	Freund	_	_
+4-9	95-96	.	_	_
+
+#Text=Der Zeichner Morelli wird Ihnen seine Zeichnung vorweisen , um von Ihnen zu hören bis zu welchem Termin ( rechnen Sie daß er Sie die doppelte Zeit warten läßt ) und für welchen Preis er den Stich davon übernehmen könne .
+5-1	97-100	Der	_	_
+5-2	101-109	Zeichner	_	_
+5-3	110-117	Morelli	*	PERmentioned
+5-4	118-122	wird	_	_
+5-5	123-128	Ihnen	_	_
+5-6	129-134	seine	_	_
+5-7	135-144	Zeichnung	_	_
+5-8	145-154	vorweisen	_	_
+5-9	155-156	,	_	_
+5-10	157-159	um	_	_
+5-11	160-163	von	_	_
+5-12	164-169	Ihnen	_	_
+5-13	170-172	zu	_	_
+5-14	173-178	hören	_	_
+5-15	179-182	bis	_	_
+5-16	183-185	zu	_	_
+5-17	186-193	welchem	_	_
+5-18	194-200	Termin	_	_
+5-19	201-202	(	_	_
+5-20	203-210	rechnen	_	_
+5-21	211-214	Sie	_	_
+5-22	215-218	daß	_	_
+5-23	219-221	er	_	_
+5-24	222-225	Sie	_	_
+5-25	226-229	die	_	_
+5-26	230-238	doppelte	_	_
+5-27	239-243	Zeit	_	_
+5-28	244-250	warten	_	_
+5-29	251-255	läßt	_	_
+5-30	256-257	)	_	_
+5-31	258-261	und	_	_
+5-32	262-265	für	_	_
+5-33	266-273	welchen	_	_
+5-34	274-279	Preis	_	_
+5-35	280-282	er	_	_
+5-36	283-286	den	_	_
+5-37	287-292	Stich	_	_
+5-38	293-298	davon	_	_
+5-39	299-309	übernehmen	_	_
+5-40	310-315	könne	_	_
+5-41	316-317	.	_	_
+
+#Text=Er ist nicht theuer \; doch könnte es sein Sie fänden es besser den Stich einem Andern ebenso wohlfeilen und rascheren Stecher zu übergeben .
+6-1	318-320	Er	_	_
+6-2	321-324	ist	_	_
+6-3	325-330	nicht	_	_
+6-4	331-337	theuer	_	_
+6-5	338-339	\;	_	_
+6-6	340-344	doch	_	_
+6-7	345-351	könnte	_	_
+6-8	352-354	es	_	_
+6-9	355-359	sein	_	_
+6-10	360-363	Sie	_	_
+6-11	364-370	fänden	_	_
+6-12	371-373	es	_	_
+6-13	374-380	besser	_	_
+6-14	381-384	den	_	_
+6-15	385-390	Stich	_	_
+6-16	391-396	einem	_	_
+6-17	397-403	Andern	_	_
+6-18	404-410	ebenso	_	_
+6-19	411-421	wohlfeilen	_	_
+6-20	422-425	und	_	_
+6-21	426-435	rascheren	_	_
+6-22	436-443	Stecher	_	_
+6-23	444-446	zu	_	_
+6-24	447-456	übergeben	_	_
+6-25	457-458	.	_	_
+
+#Text=Gerhard
+7-1	459-466	Gerhard	*	PERauthor

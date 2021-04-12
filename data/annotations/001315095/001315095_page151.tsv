@@ -1,0 +1,248 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> Mommsen an Brunn Berlin , 13 .
+1-1	0-1	>	_	_
+1-2	2-9	Mommsen	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Brunn	*	PERaddressee
+1-5	19-25	Berlin	*	PLACEfrom
+1-6	26-27	,	_	_
+1-7	28-30	13	*[1]	DATEletter[1]
+1-8	31-32	.	*[1]	DATEletter[1]
+
+#Text=Januar 1867 Ich danke Dir für die Mittheilung des Bronzetäfelchens , bin aber nicht im Stande eine sichere Erklärung der dunklen Zeile zu geben .
+2-1	33-39	Januar	*[1]	DATEletter[1]
+2-2	40-44	1867	*[1]	DATEletter[1]
+2-3	45-48	Ich	_	_
+2-4	49-54	danke	_	_
+2-5	55-58	Dir	_	_
+2-6	59-62	für	_	_
+2-7	63-66	die	_	_
+2-8	67-78	Mittheilung	_	_
+2-9	79-82	des	_	_
+2-10	83-99	Bronzetäfelchens	*	OBJ
+2-11	100-101	,	_	_
+2-12	102-105	bin	_	_
+2-13	106-110	aber	_	_
+2-14	111-116	nicht	_	_
+2-15	117-119	im	_	_
+2-16	120-126	Stande	_	_
+2-17	127-131	eine	_	_
+2-18	132-139	sichere	_	_
+2-19	140-149	Erklärung	_	_
+2-20	150-153	der	_	_
+2-21	154-161	dunklen	_	_
+2-22	162-167	Zeile	_	_
+2-23	168-170	zu	_	_
+2-24	171-176	geben	_	_
+2-25	177-178	.	_	_
+
+#Text=Vielleicht darf man daran erinnern , daß bei Tempelgaben , wie diese doch sicher war , es gewöhnlich ist am Schluß , gleichsam als sacrale Datirung , den Namen des weihenden Priesters oder der Priesterin im Ablativ zu setzen \; vergl .
+3-1	179-189	Vielleicht	_	_
+3-2	190-194	darf	_	_
+3-3	195-198	man	_	_
+3-4	199-204	daran	_	_
+3-5	205-213	erinnern	_	_
+3-6	214-215	,	_	_
+3-7	216-219	daß	_	_
+3-8	220-223	bei	_	_
+3-9	224-235	Tempelgaben	_	_
+3-10	236-237	,	_	_
+3-11	238-241	wie	_	_
+3-12	242-247	diese	_	_
+3-13	248-252	doch	_	_
+3-14	253-259	sicher	_	_
+3-15	260-263	war	_	_
+3-16	264-265	,	_	_
+3-17	266-268	es	_	_
+3-18	269-279	gewöhnlich	_	_
+3-19	280-283	ist	_	_
+3-20	284-286	am	_	_
+3-21	287-293	Schluß	_	_
+3-22	294-295	,	_	_
+3-23	296-305	gleichsam	_	_
+3-24	306-309	als	_	_
+3-25	310-317	sacrale	_	_
+3-26	318-326	Datirung	_	_
+3-27	327-328	,	_	_
+3-28	329-332	den	_	_
+3-29	333-338	Namen	_	_
+3-30	339-342	des	_	_
+3-31	343-352	weihenden	_	_
+3-32	353-362	Priesters	_	_
+3-33	363-367	oder	_	_
+3-34	368-371	der	_	_
+3-35	372-382	Priesterin	_	_
+3-36	383-385	im	_	_
+3-37	386-393	Ablativ	_	_
+3-38	394-396	zu	_	_
+3-39	397-403	setzen	_	_
+3-40	404-405	\;	_	_
+3-41	406-411	vergl	_	_
+3-42	412-413	.	_	_
+
+#Text=z . B. die bekannten Taur 1 - inschriften von Latour ( Orelli 2331 und sonst ) .
+4-1	414-415	z	_	_
+4-2	416-417	.	_	_
+4-3	418-420	B.	_	_
+4-4	421-424	die	_	_
+4-5	425-434	bekannten	_	_
+4-6	435-439	Taur	_	_
+4-7	440-441	1	_	_
+4-8	442-443	-	_	_
+4-9	444-455	inschriften	_	_
+4-10	456-459	von	_	_
+4-11	460-466	Latour	*	PLACEmentioned
+4-12	467-468	(	_	_
+4-13	469-475	Orelli	_	_
+4-14	476-480	2331	_	_
+4-15	481-484	und	_	_
+4-16	485-490	sonst	_	_
+4-17	491-492	)	_	_
+4-18	493-494	.	_	_
+
+#Text=Vielleicht stand hier ähnlich : consa ( viavit ) Cövodu .
+5-1	495-505	Vielleicht	_	_
+5-2	506-511	stand	_	_
+5-3	512-516	hier	_	_
+5-4	517-524	ähnlich	_	_
+5-5	525-526	:	_	_
+5-6	527-532	consa	_	_
+5-7	533-534	(	_	_
+5-8	535-541	viavit	_	_
+5-9	542-543	)	_	_
+5-10	544-550	Cövodu	_	_
+5-11	551-552	.	_	_
+
+#Text=Eigennamen , besonders weibliche , au und sind in Panno und Novicium keine Seltenheit \; vergl .
+6-1	553-563	Eigennamen	_	_
+6-2	564-565	,	_	_
+6-3	566-575	besonders	_	_
+6-4	576-585	weibliche	_	_
+6-5	586-587	,	_	_
+6-6	588-590	au	_	_
+6-7	591-594	und	_	_
+6-8	595-599	sind	_	_
+6-9	600-602	in	_	_
+6-10	603-608	Panno	_	_
+6-11	609-612	und	_	_
+6-12	613-621	Novicium	_	_
+6-13	622-627	keine	_	_
+6-14	628-638	Seltenheit	_	_
+6-15	639-640	\;	_	_
+6-16	641-646	vergl	_	_
+6-17	647-648	.	_	_
+
+#Text=z . B. Costu Successi f. cives Novica in einer Inschrift aus D Archiv f. K. öst .
+7-1	649-650	z	_	_
+7-2	651-652	.	_	_
+7-3	653-655	B.	_	_
+7-4	656-661	Costu	_	_
+7-5	662-670	Successi	_	_
+7-6	671-673	f.	_	_
+7-7	674-679	cives	_	_
+7-8	680-686	Novica	_	_
+7-9	687-689	in	_	_
+7-10	690-695	einer	_	_
+7-11	696-705	Inschrift	_	_
+7-12	706-709	aus	_	_
+7-13	710-711	D	_	_
+7-14	712-718	Archiv	_	_
+7-15	719-721	f.	_	_
+7-16	722-724	K.	_	_
+7-17	725-728	öst	_	_
+7-18	729-730	.	_	_
+
+#Text=Gesch.quellen 24 , 394 .
+8-1	731-744	Gesch.quellen	_	_
+8-2	745-747	24	_	_
+8-3	748-749	,	_	_
+8-4	750-753	394	_	_
+8-5	754-755	.	_	_
+
+#Text=Daß dieser Vermerk unter dem Namen des Dedicanten und nicht unter donum datirt steht , macht bei der Doppeltheilung der Inschrift wenig aus \; aber allerdings ist es fehlerhaft , daß das Zeitwort vor dem Hauptwort steht und kann dies nur auf Unkunde des Graveurs zurückgeführt werden , wenn man diese Erklärung festhalten will .
+9-1	756-759	Daß	_	_
+9-2	760-766	dieser	_	_
+9-3	767-774	Vermerk	_	_
+9-4	775-780	unter	_	_
+9-5	781-784	dem	_	_
+9-6	785-790	Namen	_	_
+9-7	791-794	des	_	_
+9-8	795-805	Dedicanten	_	_
+9-9	806-809	und	_	_
+9-10	810-815	nicht	_	_
+9-11	816-821	unter	_	_
+9-12	822-827	donum	_	_
+9-13	828-834	datirt	_	_
+9-14	835-840	steht	_	_
+9-15	841-842	,	_	_
+9-16	843-848	macht	_	_
+9-17	849-852	bei	_	_
+9-18	853-856	der	_	_
+9-19	857-871	Doppeltheilung	_	_
+9-20	872-875	der	_	_
+9-21	876-885	Inschrift	_	_
+9-22	886-891	wenig	_	_
+9-23	892-895	aus	_	_
+9-24	896-897	\;	_	_
+9-25	898-902	aber	_	_
+9-26	903-913	allerdings	_	_
+9-27	914-917	ist	_	_
+9-28	918-920	es	_	_
+9-29	921-931	fehlerhaft	_	_
+9-30	932-933	,	_	_
+9-31	934-937	daß	_	_
+9-32	938-941	das	_	_
+9-33	942-950	Zeitwort	_	_
+9-34	951-954	vor	_	_
+9-35	955-958	dem	_	_
+9-36	959-968	Hauptwort	_	_
+9-37	969-974	steht	_	_
+9-38	975-978	und	_	_
+9-39	979-983	kann	_	_
+9-40	984-988	dies	_	_
+9-41	989-992	nur	_	_
+9-42	993-996	auf	_	_
+9-43	997-1004	Unkunde	_	_
+9-44	1005-1008	des	_	_
+9-45	1009-1017	Graveurs	_	_
+9-46	1018-1031	zurückgeführt	_	_
+9-47	1032-1038	werden	_	_
+9-48	1039-1040	,	_	_
+9-49	1041-1045	wenn	_	_
+9-50	1046-1049	man	_	_
+9-51	1050-1055	diese	_	_
+9-52	1056-1065	Erklärung	_	_
+9-53	1066-1076	festhalten	_	_
+9-54	1077-1081	will	_	_
+9-55	1082-1083	.	_	_
+
+#Text=Auch kann ich Covudu als Eigennamen sonst nicht belegen .
+10-1	1084-1088	Auch	_	_
+10-2	1089-1093	kann	_	_
+10-3	1094-1097	ich	_	_
+10-4	1098-1104	Covudu	_	_
+10-5	1105-1108	als	_	_
+10-6	1109-1119	Eigennamen	*	DATEletter
+10-7	1120-1125	sonst	_	_
+10-8	1126-1131	nicht	_	_
+10-9	1132-1139	belegen	_	_
+10-10	1140-1141	.	_	_
+
+#Text=Mommsen .
+11-1	1142-1149	Mommsen	*	PERauthor
+11-2	1150-1151	.	_	_
+
+#Text=Berlin 13 .
+12-1	1152-1158	Berlin	*	PLACEfrom
+12-2	1159-1161	13	*[2]	DATEletter[2]
+12-3	1162-1163	.	*[2]	DATEletter[2]
+
+#Text=Jan .
+13-1	1164-1167	Jan	*[2]	DATEletter[2]
+13-2	1168-1169	.	*[2]	DATEletter[2]
+
+#Text=1867
+14-1	1170-1174	1867	*[2]	DATEletter[2]

@@ -1,0 +1,271 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=87 Braun an Gerhard Rom , 10. März 1840 Rom 10 März 1840 Hochverehrtester Freund !
+1-1	0-2	87	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	10.	*[4]	DATEletter[4]
+1-8	30-34	März	*[4]	DATEletter[4]
+1-9	35-39	1840	*[4]	DATEletter[4]
+1-10	40-43	Rom	*	PLACEfrom
+1-11	44-46	10	*[6]	DATEletter[6]
+1-12	47-51	März	*[6]	DATEletter[6]
+1-13	52-56	1840	*[6]	DATEletter[6]
+1-14	57-73	Hochverehrtester	_	_
+1-15	74-80	Freund	_	_
+1-16	81-82	!	_	_
+
+#Text=Es ist sehr löblich von Ihnen und verdient alle Anerkennung daß Sie von Ihrer Soc .
+2-1	83-85	Es	_	_
+2-2	86-89	ist	_	_
+2-3	90-94	sehr	_	_
+2-4	95-102	löblich	_	_
+2-5	103-106	von	_	_
+2-6	107-112	Ihnen	_	_
+2-7	113-116	und	_	_
+2-8	117-125	verdient	_	_
+2-9	126-130	alle	_	_
+2-10	131-142	Anerkennung	_	_
+2-11	143-146	daß	_	_
+2-12	147-150	Sie	_	_
+2-13	151-154	von	_	_
+2-14	155-160	Ihrer	_	_
+2-15	161-164	Soc	_	_
+2-16	165-166	.	_	_
+
+#Text=Ital . einen so ansehnlichen Beitrag erpreßt haben .
+3-1	167-171	Ital	_	_
+3-2	172-173	.	_	_
+3-3	174-179	einen	_	_
+3-4	180-182	so	_	_
+3-5	183-195	ansehnlichen	_	_
+3-6	196-203	Beitrag	_	_
+3-7	204-211	erpreßt	_	_
+3-8	212-217	haben	_	_
+3-9	218-219	.	_	_
+
+#Text=Kestner wird große Freude darüber haben .
+4-1	220-227	Kestner	*	PERmentioned
+4-2	228-232	wird	_	_
+4-3	233-238	große	_	_
+4-4	239-245	Freude	_	_
+4-5	246-253	darüber	_	_
+4-6	254-259	haben	_	_
+4-7	260-261	.	_	_
+
+#Text=Das Danksagungsschreiben werde ich besorgen .
+5-1	262-265	Das	_	_
+5-2	266-286	Danksagungsschreiben	_	_
+5-3	287-292	werde	_	_
+5-4	293-296	ich	_	_
+5-5	297-305	besorgen	_	_
+5-6	306-307	.	_	_
+
+#Text=An Serradifalco habe ich den Extract aus dem R .
+6-1	308-310	An	_	_
+6-2	311-323	Serradifalco	*	PERmentioned
+6-3	324-328	habe	_	_
+6-4	329-332	ich	_	_
+6-5	333-336	den	_	_
+6-6	337-344	Extract	_	_
+6-7	345-348	aus	_	_
+6-8	349-352	dem	_	_
+6-9	353-354	R	*[9]	ORGmentioned[9]
+6-10	355-356	.	*[9]	ORGmentioned[9]
+
+#Text=Mus . sofort abgesandt .
+7-1	357-360	Mus	*[9]	ORGmentioned[9]
+7-2	361-362	.	*[9]	ORGmentioned[9]
+7-3	363-369	sofort	_	_
+7-4	370-379	abgesandt	_	_
+7-5	380-381	.	_	_
+
+#Text=In Betreff Metternichs sind wir alle seit lange einverstanden .
+8-1	382-384	In	_	_
+8-2	385-392	Betreff	_	_
+8-3	393-404	Metternichs	*	PERmentioned
+8-4	405-409	sind	_	_
+8-5	410-413	wir	_	_
+8-6	414-418	alle	_	_
+8-7	419-423	seit	_	_
+8-8	424-429	lange	_	_
+8-9	430-443	einverstanden	_	_
+8-10	444-445	.	_	_
+
+#Text=Suchen Sie nur die Annahme schnell zu bewerkstelligen .
+9-1	446-452	Suchen	_	_
+9-2	453-456	Sie	_	_
+9-3	457-460	nur	_	_
+9-4	461-464	die	_	_
+9-5	465-472	Annahme	_	_
+9-6	473-480	schnell	_	_
+9-7	481-483	zu	_	_
+9-8	484-499	bewerkstelligen	_	_
+9-9	500-501	.	_	_
+
+#Text=Es wäre gut gewesen , wenn Sie mit Lepsius die letzte Auseinandersetzung hätten bewerkstelligen können .
+10-1	502-504	Es	_	_
+10-2	505-509	wäre	_	_
+10-3	510-513	gut	_	_
+10-4	514-521	gewesen	_	_
+10-5	522-523	,	_	_
+10-6	524-528	wenn	_	_
+10-7	529-532	Sie	_	_
+10-8	533-536	mit	_	_
+10-9	537-544	Lepsius	*	PERmentioned
+10-10	545-548	die	_	_
+10-11	549-555	letzte	_	_
+10-12	556-574	Auseinandersetzung	_	_
+10-13	575-581	hätten	_	_
+10-14	582-597	bewerkstelligen	_	_
+10-15	598-604	können	_	_
+10-16	605-606	.	_	_
+
+#Text=Er will schuldenfrei von hier abziehen und verlangt daß das Institut seine Schulden übernehmen soll .
+11-1	607-609	Er	_	_
+11-2	610-614	will	_	_
+11-3	615-627	schuldenfrei	_	_
+11-4	628-631	von	_	_
+11-5	632-636	hier	_	_
+11-6	637-645	abziehen	_	_
+11-7	646-649	und	_	_
+11-8	650-658	verlangt	_	_
+11-9	659-662	daß	_	_
+11-10	663-666	das	_	_
+11-11	667-675	Institut	*	ORGmentioned
+11-12	676-681	seine	_	_
+11-13	682-690	Schulden	_	_
+11-14	691-701	übernehmen	_	_
+11-15	702-706	soll	_	_
+11-16	707-708	.	_	_
+
+#Text=Dazu haben wir einige officielle Artikel nöthig .
+12-1	709-713	Dazu	_	_
+12-2	714-719	haben	_	_
+12-3	720-723	wir	_	_
+12-4	724-730	einige	_	_
+12-5	731-741	officielle	_	_
+12-6	742-749	Artikel	_	_
+12-7	750-756	nöthig	_	_
+12-8	757-758	.	_	_
+
+#Text=Centurien sind bis jetzt noch gar nicht spedirt .
+13-1	759-768	Centurien	_	_
+13-2	769-773	sind	_	_
+13-3	774-777	bis	_	_
+13-4	778-783	jetzt	_	_
+13-5	784-788	noch	_	_
+13-6	789-792	gar	_	_
+13-7	793-798	nicht	_	_
+13-8	799-806	spedirt	_	_
+13-9	807-808	.	_	_
+
+#Text=Ihre an Abeken gelangten Suscribentenangaben sind zu unvollständig .
+14-1	809-813	Ihre	_	_
+14-2	814-816	an	_	_
+14-3	817-823	Abeken	*	PERmentioned
+14-4	824-833	gelangten	_	_
+14-5	834-853	Suscribentenangaben	_	_
+14-6	854-858	sind	_	_
+14-7	859-861	zu	_	_
+14-8	862-875	unvollständig	_	_
+14-9	876-877	.	_	_
+
+#Text=Cades hat auch nur wenig daran gearbeitet \; er wird alt und unlustig .
+15-1	878-883	Cades	*	PERmentioned
+15-2	884-887	hat	_	_
+15-3	888-892	auch	_	_
+15-4	893-896	nur	_	_
+15-5	897-902	wenig	_	_
+15-6	903-908	daran	_	_
+15-7	909-919	gearbeitet	_	_
+15-8	920-921	\;	_	_
+15-9	922-924	er	_	_
+15-10	925-929	wird	_	_
+15-11	930-933	alt	_	_
+15-12	934-937	und	_	_
+15-13	938-946	unlustig	_	_
+15-14	947-948	.	_	_
+
+#Text=Das Centuriengeschäft hat uns leider Abeken durch Intriguen hinter meinen Rücken , Kestner durch unnützes Geschwätz verleidet .
+16-1	949-952	Das	_	_
+16-2	953-970	Centuriengeschäft	_	_
+16-3	971-974	hat	_	_
+16-4	975-978	uns	_	_
+16-5	979-985	leider	_	_
+16-6	986-992	Abeken	*	PERmentioned
+16-7	993-998	durch	_	_
+16-8	999-1008	Intriguen	_	_
+16-9	1009-1015	hinter	_	_
+16-10	1016-1022	meinen	_	_
+16-11	1023-1029	Rücken	_	_
+16-12	1030-1031	,	_	_
+16-13	1032-1039	Kestner	*	PERmentioned
+16-14	1040-1045	durch	_	_
+16-15	1046-1054	unnützes	_	_
+16-16	1055-1064	Geschwätz	_	_
+16-17	1065-1074	verleidet	_	_
+16-18	1075-1076	.	_	_
+
+#Text=Capranesi hat uns wenigstens ein Attestat ausgestellt , daß nichts Suspectes publicirt ist .
+17-1	1077-1086	Capranesi	*	PERmentioned
+17-2	1087-1090	hat	_	_
+17-3	1091-1094	uns	_	_
+17-4	1095-1105	wenigstens	_	_
+17-5	1106-1109	ein	_	_
+17-6	1110-1118	Attestat	_	_
+17-7	1119-1130	ausgestellt	_	_
+17-8	1131-1132	,	_	_
+17-9	1133-1136	daß	_	_
+17-10	1137-1143	nichts	_	_
+17-11	1144-1153	Suspectes	_	_
+17-12	1154-1163	publicirt	_	_
+17-13	1164-1167	ist	_	_
+17-14	1168-1169	.	_	_
+
+#Text=Das Gegentheil von dieser Behauptung hatte Abeken auszustreuen gesucht .
+18-1	1170-1173	Das	_	_
+18-2	1174-1184	Gegentheil	_	_
+18-3	1185-1188	von	_	_
+18-4	1189-1195	dieser	_	_
+18-5	1196-1206	Behauptung	_	_
+18-6	1207-1212	hatte	_	_
+18-7	1213-1219	Abeken	*	PERmentioned
+18-8	1220-1232	auszustreuen	_	_
+18-9	1233-1240	gesucht	_	_
+18-10	1241-1242	.	_	_
+
+#Text=Die Spiegel von Basseggio bekommen Sie definitiv nicht , wohl aber Scepter und Krone \; außerdem einige Bronzen .
+19-1	1243-1246	Die	_	_
+19-2	1247-1254	Spiegel	*	OBJ
+19-3	1255-1258	von	_	_
+19-4	1259-1268	Basseggio	*	PERmentioned
+19-5	1269-1277	bekommen	_	_
+19-6	1278-1281	Sie	_	_
+19-7	1282-1291	definitiv	_	_
+19-8	1292-1297	nicht	_	_
+19-9	1298-1299	,	_	_
+19-10	1300-1304	wohl	_	_
+19-11	1305-1309	aber	_	_
+19-12	1310-1317	Scepter	*	OBJ
+19-13	1318-1321	und	_	_
+19-14	1322-1327	Krone	*	OBJ
+19-15	1328-1329	\;	_	_
+19-16	1330-1338	außerdem	_	_
+19-17	1339-1345	einige	_	_
+19-18	1346-1353	Bronzen	*	OBJ
+19-19	1354-1355	.	_	_
+
+#Text=Lanci hat sich wieder entschlossen die Adunan-
+20-1	1356-1361	Lanci	*	PERmentioned
+20-2	1362-1365	hat	_	_
+20-3	1366-1370	sich	_	_
+20-4	1371-1377	wieder	_	_
+20-5	1378-1390	entschlossen	_	_
+20-6	1391-1394	die	_	_
+20-7	1395-1402	Adunan-	_	_

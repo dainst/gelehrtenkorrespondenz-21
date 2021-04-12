@@ -1,0 +1,226 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 9 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	9	*[4]	DATEletter[4]
+1-7	25-26	.	*[4]	DATEletter[4]
+
+#Text=Januar 1840 Rom 9 Januar 1840 .
+2-1	27-33	Januar	*[4]	DATEletter[4]
+2-2	34-38	1840	*[4]	DATEletter[4]
+2-3	39-42	Rom	*	PLACEfrom
+2-4	43-44	9	*[6]	DATEletter[6]
+2-5	45-51	Januar	*[6]	DATEletter[6]
+2-6	52-56	1840	*[6]	DATEletter[6]
+2-7	57-58	.	_	_
+
+#Text=Den armen alten Lepet hat der Schlag gerührt \; gestern Abend war er ohne Hoffnung .
+3-1	59-62	Den	_	_
+3-2	63-68	armen	_	_
+3-3	69-74	alten	_	_
+3-4	75-80	Lepet	*	PERmentioned
+3-5	81-84	hat	_	_
+3-6	85-88	der	_	_
+3-7	89-95	Schlag	_	_
+3-8	96-103	gerührt	_	_
+3-9	104-105	\;	_	_
+3-10	106-113	gestern	_	_
+3-11	114-119	Abend	_	_
+3-12	120-123	war	_	_
+3-13	124-126	er	_	_
+3-14	127-131	ohne	_	_
+3-15	132-140	Hoffnung	_	_
+3-16	141-142	.	_	_
+
+#Text=Flötzlich eingetretene Kälte hat viel Krankheiten hervorgerufen .
+4-1	143-152	Flötzlich	_	_
+4-2	153-165	eingetretene	_	_
+4-3	166-171	Kälte	_	_
+4-4	172-175	hat	_	_
+4-5	176-180	viel	_	_
+4-6	181-192	Krankheiten	_	_
+4-7	193-206	hervorgerufen	_	_
+4-8	207-208	.	_	_
+
+#Text=Gestern sollen 18 Fälle an Schlagfluß vorgekommen sein .
+5-1	209-216	Gestern	_	_
+5-2	217-223	sollen	_	_
+5-3	224-226	18	_	_
+5-4	227-232	Fälle	_	_
+5-5	233-235	an	_	_
+5-6	236-246	Schlagfluß	_	_
+5-7	247-258	vorgekommen	_	_
+5-8	259-263	sein	_	_
+5-9	264-265	.	_	_
+
+#Text=Auch dieses Jahr sind wir genöthigt das erste Blatt des Bullettino ohne Spezification der Direction zu drucken .
+6-1	266-270	Auch	_	_
+6-2	271-277	dieses	_	_
+6-3	278-282	Jahr	_	_
+6-4	283-287	sind	_	_
+6-5	288-291	wir	_	_
+6-6	292-301	genöthigt	_	_
+6-7	302-305	das	_	_
+6-8	306-311	erste	_	_
+6-9	312-317	Blatt	_	_
+6-10	318-321	des	_	_
+6-11	322-332	Bullettino	_	_
+6-12	333-337	ohne	_	_
+6-13	338-351	Spezification	_	_
+6-14	352-355	der	_	_
+6-15	356-365	Direction	*	ORGmentioned
+6-16	366-368	zu	_	_
+6-17	369-376	drucken	_	_
+6-18	377-378	.	_	_
+
+#Text=Kestner bringt mich zur Verzweiflung \; seine Unkenntniß aller Verhältnisse und die gänzliche Incapacität den Inhalt stattgehabter Vorträge zu behalten , schafft Schwierigkeiten wo keine sind und verursacht nutzlose aber sehr peinliche Zeitverluste .
+7-1	379-386	Kestner	*	PERmentioned
+7-2	387-393	bringt	_	_
+7-3	394-398	mich	_	_
+7-4	399-402	zur	_	_
+7-5	403-415	Verzweiflung	_	_
+7-6	416-417	\;	_	_
+7-7	418-423	seine	_	_
+7-8	424-434	Unkenntniß	_	_
+7-9	435-440	aller	_	_
+7-10	441-453	Verhältnisse	_	_
+7-11	454-457	und	_	_
+7-12	458-461	die	_	_
+7-13	462-471	gänzliche	_	_
+7-14	472-483	Incapacität	_	_
+7-15	484-487	den	_	_
+7-16	488-494	Inhalt	_	_
+7-17	495-508	stattgehabter	_	_
+7-18	509-517	Vorträge	_	_
+7-19	518-520	zu	_	_
+7-20	521-529	behalten	_	_
+7-21	530-531	,	_	_
+7-22	532-539	schafft	_	_
+7-23	540-555	Schwierigkeiten	_	_
+7-24	556-558	wo	_	_
+7-25	559-564	keine	_	_
+7-26	565-569	sind	_	_
+7-27	570-573	und	_	_
+7-28	574-584	verursacht	_	_
+7-29	585-593	nutzlose	_	_
+7-30	594-598	aber	_	_
+7-31	599-603	sehr	_	_
+7-32	604-613	peinliche	_	_
+7-33	614-626	Zeitverluste	_	_
+7-34	627-628	.	_	_
+
+#Text=Anbei erhalten Sie die Antwort des Prinzen von Canino .
+8-1	629-634	Anbei	_	_
+8-2	635-643	erhalten	_	_
+8-3	644-647	Sie	_	_
+8-4	648-651	die	_	_
+8-5	652-659	Antwort	_	_
+8-6	660-663	des	_	_
+8-7	664-671	Prinzen	*[10]	PERmentioned[10]
+8-8	672-675	von	*[10]	PERmentioned[10]
+8-9	676-682	Canino	*[10]	PERmentioned[10]
+8-10	683-684	.	_	_
+
+#Text=In derselben befindet sich zusammengebrochen der Lucido von dem Cippus der sich bei Depoletti um den früher gemeldeten Preis käuflich befindet .
+9-1	685-687	In	_	_
+9-2	688-697	derselben	_	_
+9-3	698-706	befindet	_	_
+9-4	707-711	sich	_	_
+9-5	712-729	zusammengebrochen	_	_
+9-6	730-733	der	_	_
+9-7	734-740	Lucido	_	_
+9-8	741-744	von	_	_
+9-9	745-748	dem	_	_
+9-10	749-755	Cippus	*	OBJ
+9-11	756-759	der	_	_
+9-12	760-764	sich	_	_
+9-13	765-768	bei	_	_
+9-14	769-778	Depoletti	*	PERmentioned
+9-15	779-781	um	_	_
+9-16	782-785	den	_	_
+9-17	786-792	früher	_	_
+9-18	793-803	gemeldeten	_	_
+9-19	804-809	Preis	_	_
+9-20	810-818	käuflich	_	_
+9-21	819-827	befindet	_	_
+9-22	828-829	.	_	_
+
+#Text=Angebogen übersende ich Ihnen die verlangte Quittung von 250 rt .
+10-1	830-839	Angebogen	_	_
+10-2	840-849	übersende	_	_
+10-3	850-853	ich	_	_
+10-4	854-859	Ihnen	_	_
+10-5	860-863	die	_	_
+10-6	864-873	verlangte	_	_
+10-7	874-882	Quittung	_	_
+10-8	883-886	von	_	_
+10-9	887-890	250	_	_
+10-10	891-893	rt	_	_
+10-11	894-895	.	_	_
+
+#Text=für die beiden dem Museum überlassenen Spiegel .
+11-1	896-899	für	_	_
+11-2	900-903	die	_	_
+11-3	904-910	beiden	_	_
+11-4	911-914	dem	_	_
+11-5	915-921	Museum	*	ORGmentioned
+11-6	922-934	überlassenen	_	_
+11-7	935-942	Spiegel	*	OBJ
+11-8	943-944	.	_	_
+
+#Text=Bis jetzt haben wir weder von Avenarius in Paris , noch von Brockhaus in Leipzig , noch von Rolandi in London Geldsendungen erhalten .
+12-1	945-948	Bis	_	_
+12-2	949-954	jetzt	_	_
+12-3	955-960	haben	_	_
+12-4	961-964	wir	_	_
+12-5	965-970	weder	_	_
+12-6	971-974	von	_	_
+12-7	975-984	Avenarius	*	PERmentioned
+12-8	985-987	in	_	_
+12-9	988-993	Paris	*	PLACEmentioned
+12-10	994-995	,	_	_
+12-11	996-1000	noch	_	_
+12-12	1001-1004	von	_	_
+12-13	1005-1014	Brockhaus	*	ORGmentioned
+12-14	1015-1017	in	_	_
+12-15	1018-1025	Leipzig	*	PLACEmentioned
+12-16	1026-1027	,	_	_
+12-17	1028-1032	noch	_	_
+12-18	1033-1036	von	_	_
+12-19	1037-1044	Rolandi	*	PERmentioned
+12-20	1045-1047	in	_	_
+12-21	1048-1054	London	*	PLACEmentioned
+12-22	1055-1068	Geldsendungen	_	_
+12-23	1069-1077	erhalten	_	_
+12-24	1078-1079	.	_	_
+
+#Text=Sie begreifen wie angenehm ich mich placirt fühle .
+13-1	1080-1083	Sie	_	_
+13-2	1084-1093	begreifen	_	_
+13-3	1094-1097	wie	_	_
+13-4	1098-1106	angenehm	_	_
+13-5	1107-1110	ich	_	_
+13-6	1111-1115	mich	_	_
+13-7	1116-1123	placirt	_	_
+13-8	1124-1129	fühle	_	_
+13-9	1130-1131	.	_	_
+
+#Text=Mit herzlichen Grüßen an die Ihrigen und an Panofka Ihr EBraun .
+14-1	1132-1135	Mit	_	_
+14-2	1136-1146	herzlichen	_	_
+14-3	1147-1153	Grüßen	_	_
+14-4	1154-1156	an	_	_
+14-5	1157-1160	die	_	_
+14-6	1161-1168	Ihrigen	_	_
+14-7	1169-1172	und	_	_
+14-8	1173-1175	an	_	_
+14-9	1176-1183	Panofka	*	PERmentioned
+14-10	1184-1187	Ihr	_	_
+14-11	1188-1194	EBraun	*	PERauthor
+14-12	1195-1196	.	_	_

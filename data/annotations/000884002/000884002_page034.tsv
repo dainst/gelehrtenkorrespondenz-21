@@ -1,0 +1,164 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=275 Brunn an Henzen Perugia , 27 .
+1-1	0-3	275	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Perugia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	27	*[5]	DATEletter[5]
+1-8	33-34	.	*[5]	DATEletter[5]
+
+#Text=Sept .
+2-1	35-39	Sept	*[5]	DATEletter[5]
+2-2	40-41	.	*[5]	DATEletter[5]
+
+#Text=1858 Meiner Frau geht es bis auf etwas vorübergehenden Rheumatismus gut .
+3-1	42-46	1858	*[5]	DATEletter[5]
+3-2	47-53	Meiner	*[6]	PERmentioned[6]
+3-3	54-58	Frau	*[6]	PERmentioned[6]
+3-4	59-63	geht	_	_
+3-5	64-66	es	_	_
+3-6	67-70	bis	_	_
+3-7	71-74	auf	_	_
+3-8	75-80	etwas	_	_
+3-9	81-96	vorübergehenden	_	_
+3-10	97-109	Rheumatismus	_	_
+3-11	110-113	gut	_	_
+3-12	114-115	.	_	_
+
+#Text=Beste Grüße .
+4-1	116-121	Beste	_	_
+4-2	122-127	Grüße	_	_
+4-3	128-129	.	_	_
+
+#Text=Lorini wunderte sich , daß das Bullettino fortwährend und immer in italienischer Sprache erschienen sei .
+5-1	130-136	Lorini	*	PERmentioned
+5-2	137-145	wunderte	_	_
+5-3	146-150	sich	_	_
+5-4	151-152	,	_	_
+5-5	153-156	daß	_	_
+5-6	157-160	das	_	_
+5-7	161-171	Bullettino	_	_
+5-8	172-183	fortwährend	_	_
+5-9	184-187	und	_	_
+5-10	188-193	immer	_	_
+5-11	194-196	in	_	_
+5-12	197-210	italienischer	_	_
+5-13	211-218	Sprache	_	_
+5-14	219-229	erschienen	_	_
+5-15	230-233	sei	_	_
+5-16	234-235	.	_	_
+
+#Text=Er wünscht daher die Assoc .
+6-1	236-238	Er	_	_
+6-2	239-246	wünscht	_	_
+6-3	247-252	daher	_	_
+6-4	253-256	die	_	_
+6-5	257-262	Assoc	_	_
+6-6	263-264	.	_	_
+
+#Text=auf dasselbe für die Akademie zu erneuern und bittet alles , seit Beginn des Folioformates bis jetzt nachzuliefern unter der Addresse von : Agostino Castellani , Segretario dell'Academia di Cortona .
+7-1	265-268	auf	_	_
+7-2	269-277	dasselbe	_	_
+7-3	278-281	für	_	_
+7-4	282-285	die	_	_
+7-5	286-294	Akademie	*	ORGmentioned
+7-6	295-297	zu	_	_
+7-7	298-306	erneuern	_	_
+7-8	307-310	und	_	_
+7-9	311-317	bittet	_	_
+7-10	318-323	alles	_	_
+7-11	324-325	,	_	_
+7-12	326-330	seit	_	_
+7-13	331-337	Beginn	_	_
+7-14	338-341	des	_	_
+7-15	342-355	Folioformates	_	_
+7-16	356-359	bis	_	_
+7-17	360-365	jetzt	_	_
+7-18	366-379	nachzuliefern	_	_
+7-19	380-385	unter	_	_
+7-20	386-389	der	_	_
+7-21	390-398	Addresse	_	_
+7-22	399-402	von	_	_
+7-23	403-404	:	_	_
+7-24	405-413	Agostino	*[7]	PERmentioned[7]
+7-25	414-424	Castellani	*[7]	PERmentioned[7]
+7-26	425-426	,	_	_
+7-27	427-437	Segretario	_	_
+7-28	438-451	dell'Academia	*[8]	ORGmentioned[8]
+7-29	452-454	di	*[8]	ORGmentioned[8]
+7-30	455-462	Cortona	*[8]	ORGmentioned[8]
+7-31	463-464	.	_	_
+
+#Text=Wie das einzurichten , wissen Sie am besten .
+8-1	465-468	Wie	_	_
+8-2	469-472	das	_	_
+8-3	473-485	einzurichten	_	_
+8-4	486-487	,	_	_
+8-5	488-494	wissen	_	_
+8-6	495-498	Sie	_	_
+8-7	499-501	am	_	_
+8-8	502-508	besten	_	_
+8-9	509-510	.	_	_
+
+#Text=Mein nächster Brief bringt hoffentlich den Termin der Abreise .
+9-1	511-515	Mein	_	_
+9-2	516-524	nächster	_	_
+9-3	525-530	Brief	_	_
+9-4	531-537	bringt	_	_
+9-5	538-549	hoffentlich	_	_
+9-6	550-553	den	_	_
+9-7	554-560	Termin	_	_
+9-8	561-564	der	_	_
+9-9	565-572	Abreise	_	_
+9-10	573-574	.	_	_
+
+#Text=Die Arbeiten , die mich in Rom erwarten , häufen sich gehörig , so daß ich mit der Zeit möglichst sparen muß .
+10-1	575-578	Die	_	_
+10-2	579-587	Arbeiten	_	_
+10-3	588-589	,	_	_
+10-4	590-593	die	_	_
+10-5	594-598	mich	_	_
+10-6	599-601	in	_	_
+10-7	602-605	Rom	*	PLACEmentioned
+10-8	606-614	erwarten	_	_
+10-9	615-616	,	_	_
+10-10	617-623	häufen	_	_
+10-11	624-628	sich	_	_
+10-12	629-636	gehörig	_	_
+10-13	637-638	,	_	_
+10-14	639-641	so	_	_
+10-15	642-645	daß	_	_
+10-16	646-649	ich	_	_
+10-17	650-653	mit	_	_
+10-18	654-657	der	_	_
+10-19	658-662	Zeit	_	_
+10-20	663-672	möglichst	_	_
+10-21	673-679	sparen	_	_
+10-22	680-683	muß	_	_
+10-23	684-685	.	_	_
+
+#Text=Dem Müßiggang habe ich mich freilich in der ganzen Zeit hier nicht hingegeben .
+11-1	686-689	Dem	_	_
+11-2	690-699	Müßiggang	_	_
+11-3	700-704	habe	_	_
+11-4	705-708	ich	_	_
+11-5	709-713	mich	_	_
+11-6	714-722	freilich	_	_
+11-7	723-725	in	_	_
+11-8	726-729	der	_	_
+11-9	730-736	ganzen	_	_
+11-10	737-741	Zeit	_	_
+11-11	742-746	hier	_	_
+11-12	747-752	nicht	_	_
+11-13	753-763	hingegeben	_	_
+11-14	764-765	.	_	_
+
+#Text=Ihr HBrunn .
+12-1	766-769	Ihr	_	_
+12-2	770-776	HBrunn	*	PERauthor
+12-3	777-778	.	_	_

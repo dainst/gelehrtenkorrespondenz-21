@@ -1,0 +1,181 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=233 Brunn an Henzen ohne Ort/24.Aug .
+1-1	0-3	233	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-24	ohne	_	_
+1-6	25-35	Ort/24.Aug	*[1]	DATEletter[1]
+1-7	36-37	.	*[1]	DATEletter[1]
+
+#Text=1859 -3te genau und bald angeben ( wegen der Bestimmung des Textformates ) .
+2-1	38-42	1859	*[1]	DATEletter[1]
+2-2	43-47	-3te	_	_
+2-3	48-53	genau	_	_
+2-4	54-57	und	_	_
+2-5	58-62	bald	_	_
+2-6	63-70	angeben	_	_
+2-7	71-72	(	_	_
+2-8	73-78	wegen	_	_
+2-9	79-82	der	_	_
+2-10	83-93	Bestimmung	_	_
+2-11	94-97	des	_	_
+2-12	98-110	Textformates	_	_
+2-13	111-112	)	_	_
+2-14	113-114	.	_	_
+
+#Text=wir hoffen , daß es Ihrer Frau wieder wohl geht .
+3-1	115-118	wir	_	_
+3-2	119-125	hoffen	_	_
+3-3	126-127	,	_	_
+3-4	128-131	daß	_	_
+3-5	132-134	es	_	_
+3-6	135-140	Ihrer	*[2]	PERmentioned[2]
+3-7	141-145	Frau	*[2]	PERmentioned[2]
+3-8	146-152	wieder	_	_
+3-9	153-157	wohl	_	_
+3-10	158-162	geht	_	_
+3-11	163-164	.	_	_
+
+#Text=- Canitz soll hier im Gasthof sein \; ich habe ihn aber noch nicht gesehen .
+4-1	165-166	-	_	_
+4-2	167-173	Canitz	*	PERmentioned
+4-3	174-178	soll	_	_
+4-4	179-183	hier	_	_
+4-5	184-186	im	_	_
+4-6	187-194	Gasthof	_	_
+4-7	195-199	sein	_	_
+4-8	200-201	\;	_	_
+4-9	202-205	ich	_	_
+4-10	206-210	habe	_	_
+4-11	211-214	ihn	_	_
+4-12	215-219	aber	_	_
+4-13	220-224	noch	_	_
+4-14	225-230	nicht	_	_
+4-15	231-238	gesehen	_	_
+4-16	239-240	.	_	_
+
+#Text=So viel für heute .
+5-1	241-243	So	_	_
+5-2	244-248	viel	_	_
+5-3	249-252	für	_	_
+5-4	253-258	heute	_	_
+5-5	259-260	.	_	_
+
+#Text=Ihr HBrunn .
+6-1	261-264	Ihr	_	_
+6-2	265-271	HBrunn	*	PERauthor
+6-3	272-273	.	_	_
+
+#Text=Mittwoch Mittags : 24 .
+7-1	274-282	Mittwoch	_	_
+7-2	283-290	Mittags	*[3]	DATEletter[3]
+7-3	291-292	:	*[3]	DATEletter[3]
+7-4	293-295	24	*[3]	DATEletter[3]
+7-5	296-297	.	*[3]	DATEletter[3]
+
+#Text=VIII , 59 .
+8-1	298-302	VIII	*[3]	DATEletter[3]
+8-2	303-304	,	*[3]	DATEletter[3]
+8-3	305-307	59	*[3]	DATEletter[3]
+8-4	308-309	.	_	_
+
+#Text=Troito attaccato da Achille N . 1 dei mio articolo = tre figure sole , esistente alla prima camera del gabinetto arch . dell'Universita .
+9-1	310-316	Troito	_	_
+9-2	317-326	attaccato	*[4]	OBJ[4]
+9-3	327-329	da	*[4]	OBJ[4]
+9-4	330-337	Achille	*[4]	OBJ[4]
+9-5	338-339	N	_	_
+9-6	340-341	.	_	_
+9-7	342-343	1	_	_
+9-8	344-347	dei	_	_
+9-9	348-351	mio	_	_
+9-10	352-360	articolo	_	_
+9-11	361-362	=	_	_
+9-12	363-366	tre	_	_
+9-13	367-373	figure	_	_
+9-14	374-378	sole	_	_
+9-15	379-380	,	_	_
+9-16	381-390	esistente	_	_
+9-17	391-395	alla	_	_
+9-18	396-401	prima	_	_
+9-19	402-408	camera	_	_
+9-20	409-412	del	_	_
+9-21	413-422	gabinetto	*[5]	ORGmentioned[5]
+9-22	423-427	arch	*[5]	ORGmentioned[5]
+9-23	428-429	.	*[5]	ORGmentioned[5]
+9-24	430-445	dell'Universita	*[5]	ORGmentioned[5]
+9-25	446-447	.	_	_
+
+#Text=N . 3 = 8 figure \; l'iscrizione & : ( N . 4 = simile a 3 : si trova nel gran corridojo sotto le iserizioni segnate coi numeri 98.99 ) N.o = esistente alla seconda tomba aperta , accanto al sepolcro de'Volunni N . 8 Gia pubbl .
+10-1	448-449	N	_	_
+10-2	450-451	.	_	_
+10-3	452-453	3	_	_
+10-4	454-455	=	_	_
+10-5	456-457	8	_	_
+10-6	458-464	figure	_	_
+10-7	465-466	\;	_	_
+10-8	467-479	l'iscrizione	*	OBJ
+10-9	480-481	&	_	_
+10-10	482-483	:	_	_
+10-11	484-485	(	_	_
+10-12	486-487	N	_	_
+10-13	488-489	.	_	_
+10-14	490-491	4	_	_
+10-15	492-493	=	_	_
+10-16	494-500	simile	_	_
+10-17	501-502	a	_	_
+10-18	503-504	3	_	_
+10-19	505-506	:	_	_
+10-20	507-509	si	_	_
+10-21	510-515	trova	_	_
+10-22	516-519	nel	_	_
+10-23	520-524	gran	_	_
+10-24	525-534	corridojo	_	_
+10-25	535-540	sotto	_	_
+10-26	541-543	le	_	_
+10-27	544-554	iserizioni	_	_
+10-28	555-562	segnate	_	_
+10-29	563-566	coi	_	_
+10-30	567-573	numeri	_	_
+10-31	574-579	98.99	_	_
+10-32	580-581	)	_	_
+10-33	582-585	N.o	_	_
+10-34	586-587	=	_	_
+10-35	588-597	esistente	_	_
+10-36	598-602	alla	_	_
+10-37	603-610	seconda	_	_
+10-38	611-616	tomba	*	OBJ
+10-39	617-623	aperta	_	_
+10-40	624-625	,	_	_
+10-41	626-633	accanto	_	_
+10-42	634-636	al	_	_
+10-43	637-645	sepolcro	*[6]	OBJ[6]
+10-44	646-656	de'Volunni	*[6]	OBJ[6]
+10-45	657-658	N	_	_
+10-46	659-660	.	_	_
+10-47	661-662	8	_	_
+10-48	663-666	Gia	_	_
+10-49	667-672	pubbl	_	_
+10-50	673-674	.	_	_
+
+#Text=dal conte Conestabile , tav .
+11-1	675-678	dal	_	_
+11-2	679-684	conte	_	_
+11-3	685-696	Conestabile	*	PERmentioned
+11-4	697-698	,	_	_
+11-5	699-702	tav	_	_
+11-6	703-704	.	_	_
+
+#Text=XX , ma in proporzioni troppo piccole .
+12-1	705-707	XX	_	_
+12-2	708-709	,	_	_
+12-3	710-712	ma	_	_
+12-4	713-715	in	_	_
+12-5	716-727	proporzioni	_	_
+12-6	728-734	troppo	_	_
+12-7	735-742	piccole	_	_
+12-8	743-744	.	_	_

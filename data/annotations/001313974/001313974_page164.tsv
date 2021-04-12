@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=273 Helbig an Henzen Dresden , 22. Juni 1871 zu entscheiden .
+1-1	0-3	273	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-28	Dresden	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	22.	*[3]	DATEletter[3]
+1-8	35-39	Juni	*[3]	DATEletter[3]
+1-9	40-44	1871	*[3]	DATEletter[3]
+1-10	45-47	zu	_	_
+1-11	48-59	entscheiden	_	_
+1-12	60-61	.	_	_
+
+#Text=Hettner reist übrigens um den 20 .
+2-1	62-69	Hettner	*	PERmentioned
+2-2	70-75	reist	_	_
+2-3	76-84	übrigens	_	_
+2-4	85-87	um	_	_
+2-5	88-91	den	_	_
+2-6	92-94	20	*[4]	DATEmentioned[4]
+2-7	95-96	.	*[4]	DATEmentioned[4]
+
+#Text=August von hier ab und wird nach einmonatlichem Aufenthalte in Oberitalien gegen Ende September in Rom eintreffen .
+3-1	97-103	August	*[4]	DATEmentioned[4]
+3-2	104-107	von	_	_
+3-3	108-112	hier	_	_
+3-4	113-115	ab	_	_
+3-5	116-119	und	_	_
+3-6	120-124	wird	_	_
+3-7	125-129	nach	_	_
+3-8	130-144	einmonatlichem	_	_
+3-9	145-156	Aufenthalte	_	_
+3-10	157-159	in	_	_
+3-11	160-171	Oberitalien	*	PLACEmentioned
+3-12	172-177	gegen	_	_
+3-13	178-182	Ende	*[5]	DATEmentioned[5]
+3-14	183-192	September	*[5]	DATEmentioned[5]
+3-15	193-195	in	_	_
+3-16	196-199	Rom	*	PLACEmentioned
+3-17	200-210	eintreffen	_	_
+3-18	211-212	.	_	_
+
+#Text=Ich glaube , daß Sie ihn sehr zu seinem Vortheil verändert finden werden .
+4-1	213-216	Ich	_	_
+4-2	217-223	glaube	_	_
+4-3	224-225	,	_	_
+4-4	226-229	daß	_	_
+4-5	230-233	Sie	_	_
+4-6	234-237	ihn	_	_
+4-7	238-242	sehr	_	_
+4-8	243-245	zu	_	_
+4-9	246-252	seinem	_	_
+4-10	253-261	Vortheil	_	_
+4-11	262-271	verändert	_	_
+4-12	272-278	finden	_	_
+4-13	279-285	werden	_	_
+4-14	286-287	.	_	_
+
+#Text=Den letzten Band seiner Litteraturgeschichte habe ich dieser Tage etwas überlesen und ich muß gestehen , daß er mir ausgezeichnet gefallen hat .
+5-1	288-291	Den	_	_
+5-2	292-299	letzten	_	_
+5-3	300-304	Band	_	_
+5-4	305-311	seiner	_	_
+5-5	312-332	Litteraturgeschichte	_	_
+5-6	333-337	habe	_	_
+5-7	338-341	ich	_	_
+5-8	342-348	dieser	_	_
+5-9	349-353	Tage	_	_
+5-10	354-359	etwas	_	_
+5-11	360-369	überlesen	_	_
+5-12	370-373	und	_	_
+5-13	374-377	ich	_	_
+5-14	378-381	muß	_	_
+5-15	382-390	gestehen	_	_
+5-16	391-392	,	_	_
+5-17	393-396	daß	_	_
+5-18	397-399	er	_	_
+5-19	400-403	mir	_	_
+5-20	404-417	ausgezeichnet	_	_
+5-21	418-426	gefallen	_	_
+5-22	427-430	hat	_	_
+5-23	431-432	.	_	_
+
+#Text=Meine Schwester , die Sie vielmals grüßt , geht nach drei Wochen unter sehr günstigen Bedingungen an das neu eröffnete Theater in Altenburg .
+6-1	433-438	Meine	_	_
+6-2	439-448	Schwester	_	_
+6-3	449-450	,	_	_
+6-4	451-454	die	_	_
+6-5	455-458	Sie	_	_
+6-6	459-467	vielmals	_	_
+6-7	468-473	grüßt	_	_
+6-8	474-475	,	_	_
+6-9	476-480	geht	_	_
+6-10	481-485	nach	_	_
+6-11	486-490	drei	_	_
+6-12	491-497	Wochen	_	_
+6-13	498-503	unter	_	_
+6-14	504-508	sehr	_	_
+6-15	509-518	günstigen	_	_
+6-16	519-530	Bedingungen	_	_
+6-17	531-533	an	_	_
+6-18	534-537	das	_	_
+6-19	538-541	neu	_	_
+6-20	542-551	eröffnete	_	_
+6-21	552-559	Theater	_	_
+6-22	560-562	in	_	_
+6-23	563-572	Altenburg	*	PLACEmentioned
+6-24	573-574	.	_	_
+
+#Text=Sonst giebt es aus der patria nicht viel Neues zu berichten .
+7-1	575-580	Sonst	_	_
+7-2	581-586	giebt	_	_
+7-3	587-589	es	_	_
+7-4	590-593	aus	_	_
+7-5	594-597	der	_	_
+7-6	598-604	patria	_	_
+7-7	605-610	nicht	_	_
+7-8	611-615	viel	_	_
+7-9	616-621	Neues	_	_
+7-10	622-624	zu	_	_
+7-11	625-634	berichten	_	_
+7-12	635-636	.	_	_
+
+#Text=Der Aufenthalt daselbst ist wegen des scheußlichen Wetters gegenwärtig sehr unerfreulich .
+8-1	637-640	Der	_	_
+8-2	641-651	Aufenthalt	_	_
+8-3	652-660	daselbst	_	_
+8-4	661-664	ist	_	_
+8-5	665-670	wegen	_	_
+8-6	671-674	des	_	_
+8-7	675-687	scheußlichen	_	_
+8-8	688-695	Wetters	_	_
+8-9	696-707	gegenwärtig	_	_
+8-10	708-712	sehr	_	_
+8-11	713-725	unerfreulich	_	_
+8-12	726-727	.	_	_
+
+#Text=Seitdem ich Triest verlassen , habe ich nur an zwei Tagen , am 15. und 16. , die Sonne gesehen .
+9-1	728-735	Seitdem	_	_
+9-2	736-739	ich	_	_
+9-3	740-746	Triest	*	PLACEmentioned
+9-4	747-756	verlassen	_	_
+9-5	757-758	,	_	_
+9-6	759-763	habe	_	_
+9-7	764-767	ich	_	_
+9-8	768-771	nur	_	_
+9-9	772-774	an	_	_
+9-10	775-779	zwei	_	_
+9-11	780-785	Tagen	_	_
+9-12	786-787	,	_	_
+9-13	788-790	am	_	_
+9-14	791-794	15.	*[6]	DATEmentioned[6]
+9-15	795-798	und	_	_
+9-16	799-802	16.	_	_
+9-17	803-804	,	_	_
+9-18	805-808	die	_	_
+9-19	809-814	Sonne	_	_
+9-20	815-822	gesehen	_	_
+9-21	823-824	.	_	_
+
+#Text=Sonst stets Regen und kalter Wind .
+10-1	825-830	Sonst	_	_
+10-2	831-836	stets	_	_
+10-3	837-842	Regen	_	_
+10-4	843-846	und	_	_
+10-5	847-853	kalter	_	_
+10-6	854-858	Wind	_	_
+10-7	859-860	.	_	_
+
+#Text=In Berlin hoffe ich in zwei Tagen mit dem Giro der Besuche fertig zu werden .
+11-1	861-863	In	_	_
+11-2	864-870	Berlin	*	PLACEmentioned
+11-3	871-876	hoffe	_	_
+11-4	877-880	ich	_	_
+11-5	881-883	in	_	_
+11-6	884-888	zwei	_	_
+11-7	889-894	Tagen	_	_
+11-8	895-898	mit	_	_
+11-9	899-902	dem	_	_
+11-10	903-907	Giro	_	_
+11-11	908-911	der	_	_
+11-12	912-919	Besuche	_	_
+11-13	920-926	fertig	_	_
+11-14	927-929	zu	_	_
+11-15	930-936	werden	_	_
+11-16	937-938	.	_	_
+
+#Text=Von London schreibe ich Ihnen wiederum und hoffe den Brief mit einem Bullettinoartikel begleiten zu können .
+12-1	939-942	Von	_	_
+12-2	943-949	London	*	PLACEmentioned
+12-3	950-958	schreibe	_	_
+12-4	959-962	ich	_	_
+12-5	963-968	Ihnen	_	_
+12-6	969-977	wiederum	_	_
+12-7	978-981	und	_	_
+12-8	982-987	hoffe	_	_
+12-9	988-991	den	_	_
+12-10	992-997	Brief	_	_
+12-11	998-1001	mit	_	_
+12-12	1002-1007	einem	_	_
+12-13	1008-1025	Bullettinoartikel	_	_
+12-14	1026-1035	begleiten	_	_
+12-15	1036-1038	zu	_	_
+12-16	1039-1045	können	_	_
+12-17	1046-1047	.	_	_
+
+#Text=Herzliche Grüße an Fr > äulein Kopf , Klügmannsund Hinck \| !
+13-1	1048-1057	Herzliche	_	_
+13-2	1058-1063	Grüße	_	_
+13-3	1064-1066	an	_	_
+13-4	1067-1069	Fr	_	_
+13-5	1070-1071	>	_	_
+13-6	1072-1078	äulein	_	_
+13-7	1079-1083	Kopf	*	PERmentioned
+13-8	1084-1085	,	_	_
+13-9	1086-1098	Klügmannsund	*	PERmentioned
+13-10	1099-1104	Hinck	*	PERmentioned
+13-11	1105-1106	\|	_	_
+13-12	1107-1108	!	_	_
+
+#Text=Ihr ergebener Helbig
+14-1	1109-1112	Ihr	_	_
+14-2	1113-1122	ergebener	_	_
+14-3	1123-1129	Helbig	*	PERauthor

@@ -1,0 +1,70 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=> Braun an Gerhard Dresden , 10. März 1832 ( Zettel an den Brief geklebt ) Thura verändert sich in Thyia \; Agranlos bleibt und heißt .- Das Citat des Prodomus trifft nicht ein .
+1-1	0-1	>	_	_
+1-2	2-7	Braun	*	PERauthor
+1-3	8-10	an	_	_
+1-4	11-18	Gerhard	*	PERaddressee
+1-5	19-26	Dresden	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	10.	*[1]	DATEletter[1]
+1-8	33-37	März	*[1]	DATEletter[1]
+1-9	38-42	1832	*[1]	DATEletter[1]
+1-10	43-44	(	_	_
+1-11	45-51	Zettel	_	_
+1-12	52-54	an	_	_
+1-13	55-58	den	_	_
+1-14	59-64	Brief	_	_
+1-15	65-72	geklebt	_	_
+1-16	73-74	)	_	_
+1-17	75-80	Thura	_	_
+1-18	81-90	verändert	_	_
+1-19	91-95	sich	_	_
+1-20	96-98	in	_	_
+1-21	99-104	Thyia	_	_
+1-22	105-106	\;	_	_
+1-23	107-115	Agranlos	_	_
+1-24	116-122	bleibt	_	_
+1-25	123-126	und	_	_
+1-26	127-132	heißt	_	_
+1-27	133-135	.-	_	_
+1-28	136-139	Das	_	_
+1-29	140-145	Citat	_	_
+1-30	146-149	des	_	_
+1-31	150-158	Prodomus	_	_
+1-32	159-165	trifft	_	_
+1-33	166-171	nicht	_	_
+1-34	172-175	ein	_	_
+1-35	176-177	.	_	_
+
+#Text=Rumohr ist hier , hat Ihren Brief durch die Stadtpost , den Spiegel aber gar nicht erhalten .
+2-1	178-184	Rumohr	*	PERmentioned
+2-2	185-188	ist	_	_
+2-3	189-193	hier	_	_
+2-4	194-195	,	_	_
+2-5	196-199	hat	_	_
+2-6	200-205	Ihren	_	_
+2-7	206-211	Brief	_	_
+2-8	212-217	durch	_	_
+2-9	218-221	die	_	_
+2-10	222-231	Stadtpost	_	_
+2-11	232-233	,	_	_
+2-12	234-237	den	_	_
+2-13	238-245	Spiegel	*	OBJ
+2-14	246-250	aber	_	_
+2-15	251-254	gar	_	_
+2-16	255-260	nicht	_	_
+2-17	261-269	erhalten	_	_
+2-18	270-271	.	_	_
+
+#Text=E .
+3-1	272-273	E	*[2]	PERauthor[2]
+3-2	274-275	.	*[2]	PERauthor[2]
+
+#Text=Braun Mai 33 .
+4-1	276-281	Braun	*[2]	PERauthor[2]
+4-2	282-285	Mai	*[3]	DATEletter[3]
+4-3	286-288	33	*[3]	DATEletter[3]
+4-4	289-290	.	*[3]	DATEletter[3]

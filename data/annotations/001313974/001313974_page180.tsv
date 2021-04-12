@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an Henzen Rom , 1. September 1872 H g . 6/9 72 r . 7/9 72 Roma , li 1 .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-16	Henzen	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-25	1.	*[1]	DATEletter[1]
+1-7	26-35	September	*[1]	DATEletter[1]
+1-8	36-40	1872	*[1]	DATEletter[1]
+1-9	41-42	H	_	_
+1-10	43-44	g	_	_
+1-11	45-46	.	_	_
+1-12	47-50	6/9	*[2]	DATErecieved[2]
+1-13	51-53	72	*[2]	DATErecieved[2]
+1-14	54-55	r	_	_
+1-15	56-57	.	_	_
+1-16	58-61	7/9	*[3]	DATEanswered[3]
+1-17	62-64	72	*[3]	DATEanswered[3]
+1-18	65-69	Roma	*	PLACEmentioned
+1-19	70-71	,	_	_
+1-20	72-74	li	_	_
+1-21	75-76	1	_	_
+1-22	77-78	.	*[4]	DATEletter[4]
+
+#Text=Sept .
+2-1	79-83	Sept	*[4]	DATEletter[4]
+2-2	84-85	.	*[4]	DATEletter[4]
+
+#Text=1872 Lieber Herr Professor Ich Kann Ihnen nun als Definitivum mittheilen , daß ich den 8. d. M. nach Sicilien abreise .
+3-1	86-90	1872	*[4]	DATEletter[4]
+3-2	91-97	Lieber	_	_
+3-3	98-102	Herr	_	_
+3-4	103-112	Professor	_	_
+3-5	113-116	Ich	_	_
+3-6	117-121	Kann	_	_
+3-7	122-127	Ihnen	_	_
+3-8	128-131	nun	_	_
+3-9	132-135	als	_	_
+3-10	136-147	Definitivum	_	_
+3-11	148-158	mittheilen	_	_
+3-12	159-160	,	_	_
+3-13	161-164	daß	_	_
+3-14	165-168	ich	_	_
+3-15	169-172	den	_	_
+3-16	173-175	8.	*[5]	DATEmentioned[5]
+3-17	176-178	d.	*[5]	DATEmentioned[5]
+3-18	179-181	M.	*[5]	DATEmentioned[5]
+3-19	182-186	nach	_	_
+3-20	187-195	Sicilien	*	PLACEmentioned
+3-21	196-203	abreise	_	_
+3-22	204-205	.	_	_
+
+#Text=Jeden Falls denke ich die Ost- und die Nordküste zu besuchen .
+4-1	206-211	Jeden	_	_
+4-2	212-217	Falls	_	_
+4-3	218-223	denke	_	_
+4-4	224-227	ich	_	_
+4-5	228-231	die	_	_
+4-6	232-236	Ost-	_	_
+4-7	237-240	und	_	_
+4-8	241-244	die	_	_
+4-9	245-254	Nordküste	_	_
+4-10	255-257	zu	_	_
+4-11	258-266	besuchen	_	_
+4-12	267-268	.	_	_
+
+#Text=Ob ich nach Selinunt und Girgenti kommen werde , ist fraglich \; einer Seits fürchte ich , daß ich nicht genug Zeit haben werde \; anderer Seits sind , wie die von mir eingezogenen Erkundigungen lauten , die dortigen Gegenden wieder einmal durch den Brigantaggio beunruhigt .
+5-1	269-271	Ob	_	_
+5-2	272-275	ich	_	_
+5-3	276-280	nach	_	_
+5-4	281-289	Selinunt	*	PLACEmentioned
+5-5	290-293	und	_	_
+5-6	294-302	Girgenti	*	PLACEmentioned
+5-7	303-309	kommen	_	_
+5-8	310-315	werde	_	_
+5-9	316-317	,	_	_
+5-10	318-321	ist	_	_
+5-11	322-330	fraglich	_	_
+5-12	331-332	\;	_	_
+5-13	333-338	einer	_	_
+5-14	339-344	Seits	_	_
+5-15	345-352	fürchte	_	_
+5-16	353-356	ich	_	_
+5-17	357-358	,	_	_
+5-18	359-362	daß	_	_
+5-19	363-366	ich	_	_
+5-20	367-372	nicht	_	_
+5-21	373-378	genug	_	_
+5-22	379-383	Zeit	_	_
+5-23	384-389	haben	_	_
+5-24	390-395	werde	_	_
+5-25	396-397	\;	_	_
+5-26	398-405	anderer	_	_
+5-27	406-411	Seits	_	_
+5-28	412-416	sind	_	_
+5-29	417-418	,	_	_
+5-30	419-422	wie	_	_
+5-31	423-426	die	_	_
+5-32	427-430	von	_	_
+5-33	431-434	mir	_	_
+5-34	435-447	eingezogenen	_	_
+5-35	448-461	Erkundigungen	_	_
+5-36	462-468	lauten	_	_
+5-37	469-470	,	_	_
+5-38	471-474	die	_	_
+5-39	475-483	dortigen	_	_
+5-40	484-492	Gegenden	_	_
+5-41	493-499	wieder	_	_
+5-42	500-506	einmal	_	_
+5-43	507-512	durch	_	_
+5-44	513-516	den	_	_
+5-45	517-529	Brigantaggio	_	_
+5-46	530-540	beunruhigt	_	_
+5-47	541-542	.	_	_
+
+#Text=Sollte es mir jetzt unmöglich sein , diese Punkte zu besuchen , so würde ich diese Lücke ein anderes Mal bei Gelegenheit meiner Reise nach Tunis ausfüllen .
+6-1	543-549	Sollte	_	_
+6-2	550-552	es	_	_
+6-3	553-556	mir	_	_
+6-4	557-562	jetzt	_	_
+6-5	563-572	unmöglich	_	_
+6-6	573-577	sein	_	_
+6-7	578-579	,	_	_
+6-8	580-585	diese	_	_
+6-9	586-592	Punkte	_	_
+6-10	593-595	zu	_	_
+6-11	596-604	besuchen	_	_
+6-12	605-606	,	_	_
+6-13	607-609	so	_	_
+6-14	610-615	würde	_	_
+6-15	616-619	ich	_	_
+6-16	620-625	diese	_	_
+6-17	626-631	Lücke	_	_
+6-18	632-635	ein	_	_
+6-19	636-643	anderes	_	_
+6-20	644-647	Mal	_	_
+6-21	648-651	bei	_	_
+6-22	652-663	Gelegenheit	_	_
+6-23	664-670	meiner	_	_
+6-24	671-676	Reise	_	_
+6-25	677-681	nach	_	_
+6-26	682-687	Tunis	*	PLACEmentioned
+6-27	688-697	ausfüllen	_	_
+6-28	698-699	.	_	_
+
+#Text=Endlich ist es mir gelungen , den Preis des Müsß & e Napol & on zu constatiren .
+7-1	700-707	Endlich	_	_
+7-2	708-711	ist	_	_
+7-3	712-714	es	_	_
+7-4	715-718	mir	_	_
+7-5	719-727	gelungen	_	_
+7-6	728-729	,	_	_
+7-7	730-733	den	_	_
+7-8	734-739	Preis	_	_
+7-9	740-743	des	_	_
+7-10	744-748	Müsß	_	_
+7-11	749-750	&	_	_
+7-12	751-752	e	_	_
+7-13	753-758	Napol	_	_
+7-14	759-760	&	_	_
+7-15	761-763	on	_	_
+7-16	764-766	zu	_	_
+7-17	767-778	constatiren	_	_
+7-18	779-780	.	_	_
+
+#Text=Der Ladenpreis der bis jetzt erschienenen 24 Lieferungen beläuft sich auf 94 Francs .
+8-1	781-784	Der	_	_
+8-2	785-795	Ladenpreis	_	_
+8-3	796-799	der	_	_
+8-4	800-803	bis	_	_
+8-5	804-809	jetzt	_	_
+8-6	810-822	erschienenen	_	_
+8-7	823-825	24	_	_
+8-8	826-837	Lieferungen	_	_
+8-9	838-845	beläuft	_	_
+8-10	846-850	sich	_	_
+8-11	851-854	auf	_	_
+8-12	855-857	94	_	_
+8-13	858-864	Francs	_	_
+8-14	865-866	.	_	_
+
+#Text=Wenn Sie an Mommsen schreiben , so sprechen Sie ihm , bitte , meinen besonderen Dank für seine kräftige Intervention aus .
+9-1	867-871	Wenn	_	_
+9-2	872-875	Sie	_	_
+9-3	876-878	an	_	_
+9-4	879-886	Mommsen	*	PERmentioned
+9-5	887-896	schreiben	_	_
+9-6	897-898	,	_	_
+9-7	899-901	so	_	_
+9-8	902-910	sprechen	_	_
+9-9	911-914	Sie	_	_
+9-10	915-918	ihm	_	_
+9-11	919-920	,	_	_
+9-12	921-926	bitte	_	_
+9-13	927-928	,	_	_
+9-14	929-935	meinen	_	_
+9-15	936-946	besonderen	_	_
+9-16	947-951	Dank	_	_
+9-17	952-955	für	_	_
+9-18	956-961	seine	_	_
+9-19	962-970	kräftige	_	_
+9-20	971-983	Intervention	_	_
+9-21	984-987	aus	_	_
+9-22	988-989	.	_	_
+
+#Text=Dieselbe hat Wunder gewirkt .
+10-1	990-998	Dieselbe	_	_
+10-2	999-1002	hat	_	_
+10-3	1003-1009	Wunder	_	_
+10-4	1010-1017	gewirkt	_	_
+10-5	1018-1019	.	_	_
+
+#Text=Der Ton der betreffenden Briefe ist ein ganz anderer geworden und bewegt sich nunmehr in Wendugen , wie `` höchst befriedigen-
+11-1	1020-1023	Der	_	_
+11-2	1024-1027	Ton	_	_
+11-3	1028-1031	der	_	_
+11-4	1032-1044	betreffenden	_	_
+11-5	1045-1051	Briefe	_	_
+11-6	1052-1055	ist	_	_
+11-7	1056-1059	ein	_	_
+11-8	1060-1064	ganz	_	_
+11-9	1065-1072	anderer	_	_
+11-10	1073-1081	geworden	_	_
+11-11	1082-1085	und	_	_
+11-12	1086-1092	bewegt	_	_
+11-13	1093-1097	sich	_	_
+11-14	1098-1105	nunmehr	_	_
+11-15	1106-1108	in	_	_
+11-16	1109-1117	Wendugen	_	_
+11-17	1118-1119	,	_	_
+11-18	1120-1123	wie	_	_
+11-19	1124-1126	``	_	_
+11-20	1127-1133	höchst	_	_
+11-21	1134-1146	befriedigen-	_	_

@@ -1,0 +1,279 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 25. Februar 1840 Rom 25 Februar 1840 Briefe liegen zwar nicht zur Beantwortung vor .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	25.	*[4]	DATEletter[4]
+1-7	27-34	Februar	*[4]	DATEletter[4]
+1-8	35-39	1840	*[4]	DATEletter[4]
+1-9	40-43	Rom	*	PLACEfrom
+1-10	44-46	25	*[6]	DATEletter[6]
+1-11	47-54	Februar	*[6]	DATEletter[6]
+1-12	55-59	1840	*[6]	DATEletter[6]
+1-13	60-66	Briefe	_	_
+1-14	67-73	liegen	_	_
+1-15	74-78	zwar	_	_
+1-16	79-84	nicht	_	_
+1-17	85-88	zur	_	_
+1-18	89-101	Beantwortung	_	_
+1-19	102-105	vor	_	_
+1-20	106-107	.	_	_
+
+#Text=Gleichwohl sollen diese Zeilen an Sie abgehen , um mich durch dieselben einiger Notizen zu entledigen , die ich nicht verschleppen möchte .
+2-1	108-118	Gleichwohl	_	_
+2-2	119-125	sollen	_	_
+2-3	126-131	diese	_	_
+2-4	132-138	Zeilen	_	_
+2-5	139-141	an	_	_
+2-6	142-145	Sie	_	_
+2-7	146-153	abgehen	_	_
+2-8	154-155	,	_	_
+2-9	156-158	um	_	_
+2-10	159-163	mich	_	_
+2-11	164-169	durch	_	_
+2-12	170-179	dieselben	_	_
+2-13	180-187	einiger	_	_
+2-14	188-195	Notizen	_	_
+2-15	196-198	zu	_	_
+2-16	199-209	entledigen	_	_
+2-17	210-211	,	_	_
+2-18	212-215	die	_	_
+2-19	216-219	ich	_	_
+2-20	220-225	nicht	_	_
+2-21	226-238	verschleppen	_	_
+2-22	239-245	möchte	_	_
+2-23	246-247	.	_	_
+
+#Text=Der König von Bayern hat die Dodwell'sche Sanmnlung um 10.000 Fl . angekauft .
+3-1	248-251	Der	_	_
+3-2	252-257	König	*[7]	PERmentioned[7]
+3-3	258-261	von	*[7]	PERmentioned[7]
+3-4	262-268	Bayern	*[7]	PERmentioned[7]
+3-5	269-272	hat	_	_
+3-6	273-276	die	_	_
+3-7	277-289	Dodwell'sche	*	PERmentioned
+3-8	290-299	Sanmnlung	_	_
+3-9	300-302	um	_	_
+3-10	303-309	10.000	_	_
+3-11	310-312	Fl	_	_
+3-12	313-314	.	_	_
+3-13	315-324	angekauft	_	_
+3-14	325-326	.	_	_
+
+#Text=Die durch Wolff angekauften Marmorreliefs sind zur See abgegangen .
+4-1	327-330	Die	_	_
+4-2	331-336	durch	_	_
+4-3	337-342	Wolff	*	PERmentioned
+4-4	343-354	angekauften	_	_
+4-5	355-368	Marmorreliefs	*	OBJ
+4-6	369-373	sind	_	_
+4-7	374-377	zur	_	_
+4-8	378-381	See	_	_
+4-9	382-392	abgegangen	_	_
+4-10	393-394	.	_	_
+
+#Text=Die Vasen wurden daher nicht beigeschlossen \; sie werden auf Wolff 's Rath besser mit den Basseggioschen Bronzen zusammengehen .
+5-1	395-398	Die	_	_
+5-2	399-404	Vasen	_	_
+5-3	405-411	wurden	_	_
+5-4	412-417	daher	_	_
+5-5	418-423	nicht	_	_
+5-6	424-438	beigeschlossen	_	_
+5-7	439-440	\;	_	_
+5-8	441-444	sie	_	_
+5-9	445-451	werden	_	_
+5-10	452-455	auf	_	_
+5-11	456-461	Wolff	*[20]	PERmentioned[20]
+5-12	462-464	's	*[20]	PERmentioned[20]
+5-13	465-469	Rath	_	_
+5-14	470-476	besser	_	_
+5-15	477-480	mit	_	_
+5-16	481-484	den	_	_
+5-17	485-499	Basseggioschen	*	PERmentioned
+5-18	500-507	Bronzen	*	OBJ
+5-19	508-521	zusammengehen	_	_
+5-20	522-523	.	_	_
+
+#Text=In Ihrem Brief vom 23 November v. J. verlangen Sie nur folgende Stücke a , die beiden Amphoren ( sic ! )
+6-1	524-526	In	_	_
+6-2	527-532	Ihrem	_	_
+6-3	533-538	Brief	_	_
+6-4	539-542	vom	_	_
+6-5	543-545	23	*[14]	DATEmentioned[14]
+6-6	546-554	November	*[14]	DATEmentioned[14]
+6-7	555-557	v.	*[14]	DATEmentioned[14]
+6-8	558-560	J.	*[14]	DATEmentioned[14]
+6-9	561-570	verlangen	_	_
+6-10	571-574	Sie	_	_
+6-11	575-578	nur	_	_
+6-12	579-587	folgende	_	_
+6-13	588-594	Stücke	_	_
+6-14	595-596	a	_	_
+6-15	597-598	,	_	_
+6-16	599-602	die	_	_
+6-17	603-609	beiden	_	_
+6-18	610-618	Amphoren	*	OBJ
+6-19	619-620	(	_	_
+6-20	621-624	sic	_	_
+6-21	625-626	!	_	_
+6-22	627-628	)	_	_
+
+#Text=mit etruskischer Schrift .
+7-1	629-632	mit	_	_
+7-2	633-645	etruskischer	_	_
+7-3	646-653	Schrift	_	_
+7-4	654-655	.	_	_
+
+#Text=Sind mir nie zu Gesichte gekommen .
+8-1	656-660	Sind	_	_
+8-2	661-664	mir	_	_
+8-3	665-668	nie	_	_
+8-4	669-671	zu	_	_
+8-5	672-680	Gesichte	_	_
+8-6	681-689	gekommen	_	_
+8-7	690-691	.	_	_
+
+#Text=b , die zierliche Schaale mit Schrift und frivoler archaischer Darstellung .
+9-1	692-693	b	_	_
+9-2	694-695	,	_	_
+9-3	696-699	die	_	_
+9-4	700-709	zierliche	*[16]	OBJ[16]
+9-5	710-717	Schaale	*[16]	OBJ[16]
+9-6	718-721	mit	_	_
+9-7	722-729	Schrift	_	_
+9-8	730-733	und	_	_
+9-9	734-742	frivoler	_	_
+9-10	743-754	archaischer	_	_
+9-11	755-766	Darstellung	_	_
+9-12	767-768	.	_	_
+
+#Text=Va bene .
+10-1	769-771	Va	_	_
+10-2	772-776	bene	_	_
+10-3	777-778	.	_	_
+
+#Text=c , ein Gefäß in Sphinxform .
+11-1	779-780	c	_	_
+11-2	781-782	,	_	_
+11-3	783-786	ein	_	_
+11-4	787-792	Gefäß	*[17]	OBJ[17]
+11-5	793-795	in	*[17]	OBJ[17]
+11-6	796-806	Sphinxform	*[17]	OBJ[17]
+11-7	807-808	.	_	_
+
+#Text=Kenne ich nicht .
+12-1	809-814	Kenne	_	_
+12-2	815-818	ich	_	_
+12-3	819-824	nicht	_	_
+12-4	825-826	.	_	_
+
+#Text=d , zwei große archaische Schaalen , d. h. 2 Schaalen mit schwarzen Figuren , die Arge bleibt also zurück ?
+13-1	827-828	d	_	_
+13-2	829-830	,	_	_
+13-3	831-835	zwei	*[18]	OBJ[18]
+13-4	836-841	große	*[18]	OBJ[18]
+13-5	842-852	archaische	*[18]	OBJ[18]
+13-6	853-861	Schaalen	*[18]	OBJ[18]
+13-7	862-863	,	_	_
+13-8	864-866	d.	_	_
+13-9	867-869	h.	_	_
+13-10	870-871	2	_	_
+13-11	872-880	Schaalen	_	_
+13-12	881-884	mit	_	_
+13-13	885-894	schwarzen	_	_
+13-14	895-902	Figuren	_	_
+13-15	903-904	,	_	_
+13-16	905-908	die	_	_
+13-17	909-913	Arge	_	_
+13-18	914-920	bleibt	_	_
+13-19	921-925	also	_	_
+13-20	926-932	zurück	_	_
+13-21	933-934	?	_	_
+
+#Text=e , Das Bacchanal nit bemaltem Gefäß .
+14-1	935-936	e	_	_
+14-2	937-938	,	_	_
+14-3	939-942	Das	_	_
+14-4	943-952	Bacchanal	*[19]	OBJ[19]
+14-5	953-956	nit	*[19]	OBJ[19]
+14-6	957-965	bemaltem	*[19]	OBJ[19]
+14-7	966-971	Gefäß	*[19]	OBJ[19]
+14-8	972-973	.	_	_
+
+#Text=Va bene .
+15-1	974-976	Va	_	_
+15-2	977-981	bene	_	_
+15-3	982-983	.	_	_
+
+#Text=Das vermißte Heft des Polygnot ist mit einer Brockhausischen Sendung abgegangen .
+16-1	984-987	Das	_	_
+16-2	988-996	vermißte	_	_
+16-3	997-1001	Heft	_	_
+16-4	1002-1005	des	_	_
+16-5	1006-1014	Polygnot	_	_
+16-6	1015-1018	ist	_	_
+16-7	1019-1022	mit	_	_
+16-8	1023-1028	einer	_	_
+16-9	1029-1044	Brockhausischen	*	ORGmentioned
+16-10	1045-1052	Sendung	_	_
+16-11	1053-1063	abgegangen	_	_
+16-12	1064-1065	.	_	_
+
+#Text=Erkundigen Sie Sich gefälligst dort .
+17-1	1066-1076	Erkundigen	_	_
+17-2	1077-1080	Sie	_	_
+17-3	1081-1085	Sich	_	_
+17-4	1086-1096	gefälligst	_	_
+17-5	1097-1101	dort	_	_
+17-6	1102-1103	.	_	_
+
+#Text=Die Zwistigkeiten in unserem Verwaltungspersonal dauern fort .
+18-1	1104-1107	Die	_	_
+18-2	1108-1121	Zwistigkeiten	_	_
+18-3	1122-1124	in	_	_
+18-4	1125-1132	unserem	_	_
+18-5	1133-1152	Verwaltungspersonal	_	_
+18-6	1153-1159	dauern	_	_
+18-7	1160-1164	fort	_	_
+18-8	1165-1166	.	_	_
+
+#Text=Lanci kommt nicht mehr in die Freitagssitzungen .
+19-1	1167-1172	Lanci	*	PERmentioned
+19-2	1173-1178	kommt	_	_
+19-3	1179-1184	nicht	_	_
+19-4	1185-1189	mehr	_	_
+19-5	1190-1192	in	_	_
+19-6	1193-1196	die	_	_
+19-7	1197-1214	Freitagssitzungen	_	_
+19-8	1215-1216	.	_	_
+
+#Text=Canina ' n hat er auch discontentirt .
+20-1	1217-1223	Canina	*[21]	PERmentioned[21]
+20-2	1224-1225	'	*[21]	PERmentioned[21]
+20-3	1226-1227	n	*[21]	PERmentioned[21]
+20-4	1228-1231	hat	_	_
+20-5	1232-1234	er	_	_
+20-6	1235-1239	auch	_	_
+20-7	1240-1253	discontentirt	_	_
+20-8	1254-1255	.	_	_
+
+#Text=Abekino sieht ihn nie .
+21-1	1256-1263	Abekino	*	PERmentioned
+21-2	1264-1269	sieht	_	_
+21-3	1270-1273	ihn	_	_
+21-4	1274-1277	nie	_	_
+21-5	1278-1279	.	_	_
+
+#Text=Ich bin also einzige Brücke , die
+22-1	1280-1283	Ich	_	_
+22-2	1284-1287	bin	_	_
+22-3	1288-1292	also	_	_
+22-4	1293-1300	einzige	_	_
+22-5	1301-1307	Brücke	_	_
+22-6	1308-1309	,	_	_
+22-7	1310-1313	die	_	_

@@ -1,0 +1,104 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=q Helbig an Henzen Rom , 24. Juli 1865 H g.- 26/7 65 r . 27/7 65 Rom 24/7 11865 Lieber Herr Professor \| !
+1-1	0-1	q	_	_
+1-2	2-8	Helbig	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-18	Henzen	*	PERaddressee
+1-5	19-22	Rom	*	PLACEfrom
+1-6	23-24	,	_	_
+1-7	25-28	24.	*[1]	DATEletter[1]
+1-8	29-33	Juli	*[1]	DATEletter[1]
+1-9	34-38	1865	*[1]	DATEletter[1]
+1-10	39-40	H	_	_
+1-11	41-44	g.-	_	_
+1-12	45-49	26/7	*[2]	DATErecieved[2]
+1-13	50-52	65	*[2]	DATErecieved[2]
+1-14	53-54	r	_	_
+1-15	55-56	.	_	_
+1-16	57-61	27/7	*[3]	DATEanswered[3]
+1-17	62-64	65	*[3]	DATEanswered[3]
+1-18	65-68	Rom	*	PLACEfrom
+1-19	69-73	24/7	*[4]	DATEletter[4]
+1-20	74-79	11865	*[4]	DATEletter[4]
+1-21	80-86	Lieber	_	_
+1-22	87-91	Herr	_	_
+1-23	92-101	Professor	_	_
+1-24	102-103	\|	_	_
+1-25	104-105	!	_	_
+
+#Text=Ich schicke Ihnen hier zwei Briefe , einen Privatbrief , und einen das Institut betreffenden von Fortunati .
+2-1	106-109	Ich	_	_
+2-2	110-117	schicke	_	_
+2-3	118-123	Ihnen	_	_
+2-4	124-128	hier	_	_
+2-5	129-133	zwei	_	_
+2-6	134-140	Briefe	_	_
+2-7	141-142	,	_	_
+2-8	143-148	einen	_	_
+2-9	149-160	Privatbrief	_	_
+2-10	161-162	,	_	_
+2-11	163-166	und	_	_
+2-12	167-172	einen	_	_
+2-13	173-176	das	_	_
+2-14	177-185	Institut	*	ORGmentioned
+2-15	186-198	betreffenden	_	_
+2-16	199-202	von	_	_
+2-17	203-212	Fortunati	*	PERmentioned
+2-18	213-214	.	_	_
+
+#Text=Da ich über die Fortunatische Angelegenheit durchaus nicht unterrichtet bin , habe ich ihm vor der Hand geantwortet , daß ich ohne weitere Rücksprache in der Sache nichts thun könne .
+3-1	215-217	Da	_	_
+3-2	218-221	ich	_	_
+3-3	222-226	über	_	_
+3-4	227-230	die	_	_
+3-5	231-244	Fortunatische	*	MISC
+3-6	245-258	Angelegenheit	_	_
+3-7	259-267	durchaus	_	_
+3-8	268-273	nicht	_	_
+3-9	274-286	unterrichtet	_	_
+3-10	287-290	bin	_	_
+3-11	291-292	,	_	_
+3-12	293-297	habe	_	_
+3-13	298-301	ich	_	_
+3-14	302-305	ihm	_	_
+3-15	306-309	vor	_	_
+3-16	310-313	der	_	_
+3-17	314-318	Hand	_	_
+3-18	319-330	geantwortet	_	_
+3-19	331-332	,	_	_
+3-20	333-336	daß	_	_
+3-21	337-340	ich	_	_
+3-22	341-345	ohne	_	_
+3-23	346-353	weitere	_	_
+3-24	354-365	Rücksprache	_	_
+3-25	366-368	in	_	_
+3-26	369-372	der	_	_
+3-27	373-378	Sache	_	_
+3-28	379-385	nichts	_	_
+3-29	386-390	thun	_	_
+3-30	391-396	könne	_	_
+3-31	397-398	.	_	_
+
+#Text=Brunns Wechsel ist eingetroffen .
+4-1	399-405	Brunns	*	PERmentioned
+4-2	406-413	Wechsel	_	_
+4-3	414-417	ist	_	_
+4-4	418-430	eingetroffen	_	_
+4-5	431-432	.	_	_
+
+#Text=Sonst nichts Neues .
+5-1	433-438	Sonst	_	_
+5-2	439-445	nichts	_	_
+5-3	446-451	Neues	_	_
+5-4	452-453	.	_	_
+
+#Text=Herzlich grüßend Ihr Wolfgang Helbig .
+6-1	454-462	Herzlich	_	_
+6-2	463-470	grüßend	_	_
+6-3	471-474	Ihr	_	_
+6-4	475-483	Wolfgang	*[5]	PERauthor[5]
+6-5	484-490	Helbig	*[5]	PERauthor[5]
+6-6	491-492	.	_	_

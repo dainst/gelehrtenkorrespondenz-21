@@ -1,0 +1,182 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 21. Mai 1846 nun endlich zu Anfang Juni bethätigen will .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	21.	*[1]	DATEletter[1]
+1-7	30-33	Mai	*[1]	DATEletter[1]
+1-8	34-38	1846	*[1]	DATEletter[1]
+1-9	39-42	nun	_	_
+1-10	43-50	endlich	_	_
+1-11	51-53	zu	_	_
+1-12	54-60	Anfang	_	_
+1-13	61-65	Juni	*	DATEmentioned
+1-14	66-76	bethätigen	_	_
+1-15	77-81	will	_	_
+1-16	82-83	.	_	_
+
+#Text=Beiderlei Personalien , Lanci und Paris , sind sehr ernst für die Existenz des Instituts \; habe ich Unrecht für Ihre Ausdauer und zarte Behandlung bange zu sein ?
+2-1	84-93	Beiderlei	_	_
+2-2	94-105	Personalien	_	_
+2-3	106-107	,	_	_
+2-4	108-113	Lanci	*	PERmentioned
+2-5	114-117	und	_	_
+2-6	118-123	Paris	*	PLACEmentioned
+2-7	124-125	,	_	_
+2-8	126-130	sind	_	_
+2-9	131-135	sehr	_	_
+2-10	136-141	ernst	_	_
+2-11	142-145	für	_	_
+2-12	146-149	die	_	_
+2-13	150-158	Existenz	_	_
+2-14	159-162	des	_	_
+2-15	163-172	Instituts	*	ORGmentioned
+2-16	173-174	\;	_	_
+2-17	175-179	habe	_	_
+2-18	180-183	ich	_	_
+2-19	184-191	Unrecht	_	_
+2-20	192-195	für	_	_
+2-21	196-200	Ihre	_	_
+2-22	201-209	Ausdauer	_	_
+2-23	210-213	und	_	_
+2-24	214-219	zarte	_	_
+2-25	220-230	Behandlung	_	_
+2-26	231-236	bange	_	_
+2-27	237-239	zu	_	_
+2-28	240-244	sein	_	_
+2-29	245-246	?	_	_
+
+#Text=Ein Klein Konvolut , Habelsches für das Institut etc. und 10 Scudi Inhalt , sandte ich gestern durchs Ministerium .
+3-1	247-250	Ein	_	_
+3-2	251-256	Klein	_	_
+3-3	257-265	Konvolut	_	_
+3-4	266-267	,	_	_
+3-5	268-278	Habelsches	_	_
+3-6	279-282	für	_	_
+3-7	283-286	das	_	_
+3-8	287-295	Institut	*	ORGmentioned
+3-9	296-300	etc.	_	_
+3-10	301-304	und	_	_
+3-11	305-307	10	_	_
+3-12	308-313	Scudi	_	_
+3-13	314-320	Inhalt	_	_
+3-14	321-322	,	_	_
+3-15	323-329	sandte	_	_
+3-16	330-333	ich	_	_
+3-17	334-341	gestern	_	_
+3-18	342-348	durchs	_	_
+3-19	349-360	Ministerium	*	ORGmentioned
+3-20	361-362	.	_	_
+
+#Text=Lepsius ist nach Dresden zur Braut gereist noch ehe ich ihn über Ihre ägyptische Grotte meiner Absicht gemäß gründlich sprechen konnte \; im Juli nach der Hochzeit geht er nach Paris und London .
+4-1	363-370	Lepsius	*	PERmentioned
+4-2	371-374	ist	_	_
+4-3	375-379	nach	_	_
+4-4	380-387	Dresden	*	PLACEmentioned
+4-5	388-391	zur	_	_
+4-6	392-397	Braut	_	_
+4-7	398-405	gereist	_	_
+4-8	406-410	noch	_	_
+4-9	411-414	ehe	_	_
+4-10	415-418	ich	_	_
+4-11	419-422	ihn	_	_
+4-12	423-427	über	_	_
+4-13	428-432	Ihre	_	_
+4-14	433-443	ägyptische	*[2]	OBJ[2]
+4-15	444-450	Grotte	*[2]	OBJ[2]
+4-16	451-457	meiner	_	_
+4-17	458-465	Absicht	_	_
+4-18	466-471	gemäß	_	_
+4-19	472-481	gründlich	_	_
+4-20	482-490	sprechen	_	_
+4-21	491-497	konnte	_	_
+4-22	498-499	\;	_	_
+4-23	500-502	im	_	_
+4-24	503-507	Juli	*	DATEmentioned
+4-25	508-512	nach	_	_
+4-26	513-516	der	_	_
+4-27	517-525	Hochzeit	_	_
+4-28	526-530	geht	_	_
+4-29	531-533	er	_	_
+4-30	534-538	nach	_	_
+4-31	539-544	Paris	*	PLACEmentioned
+4-32	545-548	und	_	_
+4-33	549-555	London	*	PLACEmentioned
+4-34	556-557	.	_	_
+
+#Text=Böckh geht nun an die neue Ausgabe der Staatshaushaltung .
+5-1	558-563	Böckh	*	PERmentioned
+5-2	564-568	geht	_	_
+5-3	569-572	nun	_	_
+5-4	573-575	an	_	_
+5-5	576-579	die	_	_
+5-6	580-584	neue	_	_
+5-7	585-592	Ausgabe	_	_
+5-8	593-596	der	_	_
+5-9	597-614	Staatshaushaltung	_	_
+5-10	615-616	.	_	_
+
+#Text=Bei Brockhaus habe auch ich die römischen Zeitungsartikel gerügt \; er verspricht sich zu bessern .
+6-1	617-620	Bei	_	_
+6-2	621-630	Brockhaus	*	ORGmentioned
+6-3	631-635	habe	_	_
+6-4	636-640	auch	_	_
+6-5	641-644	ich	_	_
+6-6	645-648	die	_	_
+6-7	649-658	römischen	_	_
+6-8	659-674	Zeitungsartikel	_	_
+6-9	675-681	gerügt	_	_
+6-10	682-683	\;	_	_
+6-11	684-686	er	_	_
+6-12	687-697	verspricht	_	_
+6-13	698-702	sich	_	_
+6-14	703-705	zu	_	_
+6-15	706-713	bessern	_	_
+6-16	714-715	.	_	_
+
+#Text=Wann werden die Register gedruckt , wann die Nuova Serie vertrieben ?
+7-1	716-720	Wann	_	_
+7-2	721-727	werden	_	_
+7-3	728-731	die	_	_
+7-4	732-740	Register	_	_
+7-5	741-749	gedruckt	_	_
+7-6	750-751	,	_	_
+7-7	752-756	wann	_	_
+7-8	757-760	die	_	_
+7-9	761-766	Nuova	_	_
+7-10	767-772	Serie	_	_
+7-11	773-783	vertrieben	_	_
+7-12	784-785	?	_	_
+
+#Text=Kestner 's Notice sah ich auch noch nicht .
+8-1	786-793	Kestner	*[3]	PERmentioned[3]
+8-2	794-796	's	*[3]	PERmentioned[3]
+8-3	797-803	Notice	_	_
+8-4	804-807	sah	_	_
+8-5	808-811	ich	_	_
+8-6	812-816	auch	_	_
+8-7	817-821	noch	_	_
+8-8	822-827	nicht	_	_
+8-9	828-829	.	_	_
+
+#Text=Wie steht 's mit Ihrer Reise nach Deutschland ?
+9-1	830-833	Wie	_	_
+9-2	834-839	steht	_	_
+9-3	840-842	's	_	_
+9-4	843-846	mit	_	_
+9-5	847-852	Ihrer	_	_
+9-6	853-858	Reise	_	_
+9-7	859-863	nach	_	_
+9-8	864-875	Deutschland	*	PLACEmentioned
+9-9	876-877	?	_	_
+
+#Text=Mit allem Herzlichen Gerhard
+10-1	878-881	Mit	_	_
+10-2	882-887	allem	_	_
+10-3	888-898	Herzlichen	_	_
+10-4	899-906	Gerhard	*	PERauthor

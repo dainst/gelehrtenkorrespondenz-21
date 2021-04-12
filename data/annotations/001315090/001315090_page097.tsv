@@ -1,0 +1,240 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=209 Lepsius .
+1-1	0-3	209	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-13	.	_	_
+
+#Text=an Henzen Berlin , 1. Juli 1873 g . 4/7 7 r . 5/77 9 Berlin d . 1. Juli 1873 Verehrter Freund Endlich bin ich wieder einmal in der Lage Ihnen allerlei Geschäftliches aus unserer gestrigen Sitzung mitzutheilen .
+2-1	14-16	an	_	_
+2-2	17-23	Henzen	*	PERaddressee
+2-3	24-30	Berlin	*	PLACEfrom
+2-4	31-32	,	_	_
+2-5	33-35	1.	*[1]	DATEletter[1]
+2-6	36-40	Juli	*[1]	DATEletter[1]
+2-7	41-45	1873	*[1]	DATEletter[1]
+2-8	46-47	g	_	_
+2-9	48-49	.	_	_
+2-10	50-53	4/7	*[2]	DATErecieved[2]
+2-11	54-55	7	*[2]	DATErecieved[2]
+2-12	56-57	r	_	_
+2-13	58-59	.	_	_
+2-14	60-64	5/77	*[3]	DATEanswered[3]
+2-15	65-66	9	_	_
+2-16	67-73	Berlin	*	PLACEfrom
+2-17	74-75	d	_	_
+2-18	76-77	.	_	_
+2-19	78-80	1.	*[4]	DATEletter[4]
+2-20	81-85	Juli	*[4]	DATEletter[4]
+2-21	86-90	1873	*[4]	DATEletter[4]
+2-22	91-100	Verehrter	_	_
+2-23	101-107	Freund	_	_
+2-24	108-115	Endlich	_	_
+2-25	116-119	bin	_	_
+2-26	120-123	ich	_	_
+2-27	124-130	wieder	_	_
+2-28	131-137	einmal	_	_
+2-29	138-140	in	_	_
+2-30	141-144	der	_	_
+2-31	145-149	Lage	_	_
+2-32	150-155	Ihnen	_	_
+2-33	156-164	allerlei	_	_
+2-34	165-179	Geschäftliches	_	_
+2-35	180-183	aus	_	_
+2-36	184-191	unserer	_	_
+2-37	192-201	gestrigen	_	_
+2-38	202-209	Sitzung	_	_
+2-39	210-222	mitzutheilen	_	_
+2-40	223-224	.	_	_
+
+#Text=Ich hatte sie hinausges @ & ben um Mommsens Rückkehr zu erwarten , der nun auch wirklich seit 3 Tagen zurückgekehrt ist , gebräunt und guter Dinge .
+3-1	225-228	Ich	_	_
+3-2	229-234	hatte	_	_
+3-3	235-238	sie	_	_
+3-4	239-248	hinausges	_	_
+3-5	249-250	@	_	_
+3-6	251-252	&	_	_
+3-7	253-256	ben	_	_
+3-8	257-259	um	_	_
+3-9	260-268	Mommsens	*	PERmentioned
+3-10	269-277	Rückkehr	_	_
+3-11	278-280	zu	_	_
+3-12	281-289	erwarten	_	_
+3-13	290-291	,	_	_
+3-14	292-295	der	_	_
+3-15	296-299	nun	_	_
+3-16	300-304	auch	_	_
+3-17	305-313	wirklich	_	_
+3-18	314-318	seit	_	_
+3-19	319-320	3	_	_
+3-20	321-326	Tagen	_	_
+3-21	327-340	zurückgekehrt	_	_
+3-22	341-344	ist	_	_
+3-23	345-346	,	_	_
+3-24	347-355	gebräunt	_	_
+3-25	356-359	und	_	_
+3-26	360-365	guter	_	_
+3-27	366-371	Dinge	_	_
+3-28	372-373	.	_	_
+
+#Text=Ihr Urlaub für die nächsten drei Monate wurde natürlich bestätigt .
+4-1	374-377	Ihr	_	_
+4-2	378-384	Urlaub	_	_
+4-3	385-388	für	_	_
+4-4	389-392	die	_	_
+4-5	393-401	nächsten	_	_
+4-6	402-406	drei	_	_
+4-7	407-413	Monate	_	_
+4-8	414-419	wurde	_	_
+4-9	420-429	natürlich	_	_
+4-10	430-439	bestätigt	_	_
+4-11	440-441	.	_	_
+
+#Text=Wir dürfen also hoffen Sie bald hier zu sehen .
+5-1	442-445	Wir	_	_
+5-2	446-452	dürfen	_	_
+5-3	453-457	also	_	_
+5-4	458-464	hoffen	_	_
+5-5	465-468	Sie	_	_
+5-6	469-473	bald	_	_
+5-7	474-478	hier	_	_
+5-8	479-481	zu	_	_
+5-9	482-487	sehen	_	_
+5-10	488-489	.	_	_
+
+#Text=Die Ausgabe der 250 fr. für das Medaillon Parthey aus dem Reservefonds wurde genehmigt .
+6-1	490-493	Die	_	_
+6-2	494-501	Ausgabe	_	_
+6-3	502-505	der	_	_
+6-4	506-509	250	_	_
+6-5	510-513	fr.	_	_
+6-6	514-517	für	_	_
+6-7	518-521	das	_	_
+6-8	522-531	Medaillon	_	_
+6-9	532-539	Parthey	*	PERmentioned
+6-10	540-543	aus	_	_
+6-11	544-547	dem	_	_
+6-12	548-560	Reservefonds	_	_
+6-13	561-566	wurde	_	_
+6-14	567-576	genehmigt	_	_
+6-15	577-578	.	_	_
+
+#Text=Es kam nur noch in Frage , ob es nicht wünschenswerth sei , es nicht nur für die Familie , sondern auch für das Neue Haus in Marmor zu bestellen .
+7-1	579-581	Es	_	_
+7-2	582-585	kam	_	_
+7-3	586-589	nur	_	_
+7-4	590-594	noch	_	_
+7-5	595-597	in	_	_
+7-6	598-603	Frage	_	_
+7-7	604-605	,	_	_
+7-8	606-608	ob	_	_
+7-9	609-611	es	_	_
+7-10	612-617	nicht	_	_
+7-11	618-632	wünschenswerth	_	_
+7-12	633-636	sei	_	_
+7-13	637-638	,	_	_
+7-14	639-641	es	_	_
+7-15	642-647	nicht	_	_
+7-16	648-651	nur	_	_
+7-17	652-655	für	_	_
+7-18	656-659	die	_	_
+7-19	660-667	Familie	_	_
+7-20	668-669	,	_	_
+7-21	670-677	sondern	_	_
+7-22	678-682	auch	_	_
+7-23	683-686	für	_	_
+7-24	687-690	das	_	_
+7-25	691-695	Neue	_	_
+7-26	696-700	Haus	_	_
+7-27	701-703	in	_	_
+7-28	704-710	Marmor	_	_
+7-29	711-713	zu	_	_
+7-30	714-723	bestellen	_	_
+7-31	724-725	.	_	_
+
+#Text=Lassen Sie mich doch gelegentlich wissen , was Herr Schulze dafür verlangt .
+8-1	726-732	Lassen	_	_
+8-2	733-736	Sie	_	_
+8-3	737-741	mich	_	_
+8-4	742-746	doch	_	_
+8-5	747-759	gelegentlich	_	_
+8-6	760-766	wissen	_	_
+8-7	767-768	,	_	_
+8-8	769-772	was	_	_
+8-9	773-777	Herr	_	_
+8-10	778-785	Schulze	*	PERmentioned
+8-11	786-791	dafür	_	_
+8-12	792-800	verlangt	_	_
+8-13	801-802	.	_	_
+
+#Text=Wenn die Summe mäßig ausfällt , würde ich wenigstens dafür stimmen .
+9-1	803-807	Wenn	_	_
+9-2	808-811	die	_	_
+9-3	812-817	Summe	_	_
+9-4	818-823	mäßig	_	_
+9-5	824-832	ausfällt	_	_
+9-6	833-834	,	_	_
+9-7	835-840	würde	_	_
+9-8	841-844	ich	_	_
+9-9	845-855	wenigstens	_	_
+9-10	856-861	dafür	_	_
+9-11	862-869	stimmen	_	_
+9-12	870-871	.	_	_
+
+#Text=Helbig hat wegen der bunten Ausführung der 17 - kiewi Vase für das nächte Monumenten Heft angefragt , obgleich sie 400 Lire kosten soll .
+10-1	872-878	Helbig	*	PERmentioned
+10-2	879-882	hat	_	_
+10-3	883-888	wegen	_	_
+10-4	889-892	der	_	_
+10-5	893-899	bunten	_	_
+10-6	900-910	Ausführung	_	_
+10-7	911-914	der	_	_
+10-8	915-917	17	_	_
+10-9	918-919	-	*[5]	PERmentioned[5]
+10-10	920-925	kiewi	*[5]	PERmentioned[5]
+10-11	926-930	Vase	*	OBJ
+10-12	931-934	für	_	_
+10-13	935-938	das	_	_
+10-14	939-945	nächte	_	_
+10-15	946-956	Monumenten	_	_
+10-16	957-961	Heft	_	_
+10-17	962-971	angefragt	_	_
+10-18	972-973	,	_	_
+10-19	974-982	obgleich	_	_
+10-20	983-986	sie	_	_
+10-21	987-990	400	_	_
+10-22	991-995	Lire	_	_
+10-23	996-1002	kosten	_	_
+10-24	1003-1007	soll	_	_
+10-25	1008-1009	.	_	_
+
+#Text=Sie wurde genehnist .
+11-1	1010-1013	Sie	_	_
+11-2	1014-1019	wurde	_	_
+11-3	1020-1029	genehnist	_	_
+11-4	1030-1031	.	_	_
+
+#Text=Ist Ihnen eine Anfrage über 2 Räume die Pa .
+12-1	1032-1035	Ist	_	_
+12-2	1036-1041	Ihnen	_	_
+12-3	1042-1046	eine	_	_
+12-4	1047-1054	Anfrage	_	_
+12-5	1055-1059	über	_	_
+12-6	1060-1061	2	_	_
+12-7	1062-1067	Räume	_	_
+12-8	1068-1071	die	_	_
+12-9	1072-1074	Pa	_	_
+12-10	1075-1076	.	_	_
+
+#Text=Fiper im Neuen Gebäude für Christliche Alterthümer wünscht ,
+13-1	1077-1082	Fiper	*	PERmentioned
+13-2	1083-1085	im	_	_
+13-3	1086-1091	Neuen	_	_
+13-4	1092-1099	Gebäude	_	_
+13-5	1100-1103	für	_	_
+13-6	1104-1115	Christliche	_	_
+13-7	1116-1127	Alterthümer	_	_
+13-8	1128-1135	wünscht	_	_
+13-9	1136-1137	,	_	_

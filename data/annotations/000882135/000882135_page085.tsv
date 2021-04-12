@@ -1,0 +1,320 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=7 479 Braun an Gerhard Rom , 30. Juni 1838 Brüste ebenso prononcirt weiblich .
+1-1	0-1	7	_	_
+1-2	2-5	479	_	_
+1-3	6-11	Braun	*	PERauthor
+1-4	12-14	an	_	_
+1-5	15-22	Gerhard	*	PERaddressee
+1-6	23-26	Rom	*	PLACEfrom
+1-7	27-28	,	_	_
+1-8	29-32	30.	*[4]	DATEletter[4]
+1-9	33-37	Juni	*[4]	DATEletter[4]
+1-10	38-42	1838	*[4]	DATEletter[4]
+1-11	43-49	Brüste	_	_
+1-12	50-56	ebenso	_	_
+1-13	57-67	prononcirt	_	_
+1-14	68-76	weiblich	_	_
+1-15	77-78	.	_	_
+
+#Text=VUebrigens habe ich in diesen Tagen eine Hebe mit ähnlicher Männertracht gesehen .
+2-1	79-89	VUebrigens	_	_
+2-2	90-94	habe	_	_
+2-3	95-98	ich	_	_
+2-4	99-101	in	_	_
+2-5	102-108	diesen	_	_
+2-6	109-114	Tagen	_	_
+2-7	115-119	eine	_	_
+2-8	120-124	Hebe	*[5]	MISC[5]
+2-9	125-128	mit	*[5]	MISC[5]
+2-10	129-138	ähnlicher	*[5]	MISC[5]
+2-11	139-151	Männertracht	*[5]	MISC[5]
+2-12	152-159	gesehen	_	_
+2-13	160-161	.	_	_
+
+#Text=An Thetis zu denken war Thorheit .
+3-1	162-164	An	_	_
+3-2	165-171	Thetis	*	MISC
+3-3	172-174	zu	_	_
+3-4	175-181	denken	_	_
+3-5	182-185	war	_	_
+3-6	186-194	Thorheit	_	_
+3-7	195-196	.	_	_
+
+#Text=Für Ihr Vasenwerk würde ich zu einer durch einen Franzosen zu bewerkstelligende Uebersetzung rathen .
+4-1	197-200	Für	_	_
+4-2	201-204	Ihr	_	_
+4-3	205-214	Vasenwerk	_	_
+4-4	215-220	würde	_	_
+4-5	221-224	ich	_	_
+4-6	225-227	zu	_	_
+4-7	228-233	einer	_	_
+4-8	234-239	durch	_	_
+4-9	240-245	einen	_	_
+4-10	246-255	Franzosen	_	_
+4-11	256-258	zu	_	_
+4-12	259-276	bewerkstelligende	_	_
+4-13	277-289	Uebersetzung	_	_
+4-14	290-296	rathen	_	_
+4-15	297-298	.	_	_
+
+#Text=Das Französische der Notice passirt durchaus nicht .
+5-1	299-302	Das	_	_
+5-2	303-315	Französische	_	_
+5-3	316-319	der	_	_
+5-4	320-326	Notice	_	_
+5-5	327-334	passirt	_	_
+5-6	335-343	durchaus	_	_
+5-7	344-349	nicht	_	_
+5-8	350-351	.	_	_
+
+#Text=Lepsius hat geglaubt , es habe es gar kein Franzose vorher gesehen .
+6-1	352-359	Lepsius	*	PERmentioned
+6-2	360-363	hat	_	_
+6-3	364-372	geglaubt	_	_
+6-4	373-374	,	_	_
+6-5	375-377	es	_	_
+6-6	378-382	habe	_	_
+6-7	383-385	es	_	_
+6-8	386-389	gar	_	_
+6-9	390-394	kein	_	_
+6-10	395-403	Franzose	_	_
+6-11	404-410	vorher	_	_
+6-12	411-418	gesehen	_	_
+6-13	419-420	.	_	_
+
+#Text=Für Franz beiliegendes Blättchen .
+7-1	421-424	Für	_	_
+7-2	425-430	Franz	*	PERmentioned
+7-3	431-443	beiliegendes	_	_
+7-4	444-453	Blättchen	_	_
+7-5	454-455	.	_	_
+
+#Text=- Campanari soll mir die Resultate in Betreff des Mus spiegels mittheilen .
+8-1	456-457	-	_	_
+8-2	458-467	Campanari	*	PERmentioned
+8-3	468-472	soll	_	_
+8-4	473-476	mir	_	_
+8-5	477-480	die	_	_
+8-6	481-490	Resultate	_	_
+8-7	491-493	in	_	_
+8-8	494-501	Betreff	_	_
+8-9	502-505	des	_	_
+8-10	506-509	Mus	_	_
+8-11	510-518	spiegels	_	_
+8-12	519-529	mittheilen	_	_
+8-13	530-531	.	_	_
+
+#Text=- Millingen übergebe ich Ihren Brief heute Abend .
+9-1	532-533	-	_	_
+9-2	534-543	Millingen	*	PERmentioned
+9-3	544-552	übergebe	_	_
+9-4	553-556	ich	_	_
+9-5	557-562	Ihren	_	_
+9-6	563-568	Brief	_	_
+9-7	569-574	heute	_	_
+9-8	575-580	Abend	_	_
+9-9	581-582	.	_	_
+
+#Text=- Das Spiegelfragment muß sich schon noch finden .
+10-1	583-584	-	_	_
+10-2	585-588	Das	_	_
+10-3	589-604	Spiegelfragment	*	OBJ
+10-4	605-608	muß	_	_
+10-5	609-613	sich	_	_
+10-6	614-619	schon	_	_
+10-7	620-624	noch	_	_
+10-8	625-631	finden	_	_
+10-9	632-633	.	_	_
+
+#Text=Ich will eine ernstliche Nachforschung meiner Seits anstellen .
+11-1	634-637	Ich	_	_
+11-2	638-642	will	_	_
+11-3	643-647	eine	_	_
+11-4	648-658	ernstliche	_	_
+11-5	659-672	Nachforschung	_	_
+11-6	673-679	meiner	_	_
+11-7	680-685	Seits	_	_
+11-8	686-695	anstellen	_	_
+11-9	696-697	.	_	_
+
+#Text=Es könnte doch noch im Kaffer sein .
+12-1	698-700	Es	_	_
+12-2	701-707	könnte	_	_
+12-3	708-712	doch	_	_
+12-4	713-717	noch	_	_
+12-5	718-720	im	_	_
+12-6	721-727	Kaffer	_	_
+12-7	728-732	sein	_	_
+12-8	733-734	.	_	_
+
+#Text=- Veber ähnliches Bruchunglück klagen viele Leute \; das sagt mir Vollard , der behauptwt der Verpacker könne keine Schuld dabei haben , es müßten die Douaniers der Bayrischen Gränze dabei im Spiel sein .
+13-1	735-736	-	_	_
+13-2	737-742	Veber	_	_
+13-3	743-752	ähnliches	_	_
+13-4	753-765	Bruchunglück	_	_
+13-5	766-772	klagen	_	_
+13-6	773-778	viele	_	_
+13-7	779-784	Leute	_	_
+13-8	785-786	\;	_	_
+13-9	787-790	das	_	_
+13-10	791-795	sagt	_	_
+13-11	796-799	mir	_	_
+13-12	800-807	Vollard	*	PERmentioned
+13-13	808-809	,	_	_
+13-14	810-813	der	_	_
+13-15	814-823	behauptwt	_	_
+13-16	824-827	der	_	_
+13-17	828-837	Verpacker	_	_
+13-18	838-843	könne	_	_
+13-19	844-849	keine	_	_
+13-20	850-856	Schuld	_	_
+13-21	857-862	dabei	_	_
+13-22	863-868	haben	_	_
+13-23	869-870	,	_	_
+13-24	871-873	es	_	_
+13-25	874-880	müßten	_	_
+13-26	881-884	die	_	_
+13-27	885-894	Douaniers	_	_
+13-28	895-898	der	_	_
+13-29	899-909	Bayrischen	*[13]	PLACEmentioned[13]
+13-30	910-916	Gränze	*[13]	PLACEmentioned[13]
+13-31	917-922	dabei	_	_
+13-32	923-925	im	_	_
+13-33	926-931	Spiel	_	_
+13-34	932-936	sein	_	_
+13-35	937-938	.	_	_
+
+#Text=Der lasciapassare war allerdings nur für Oesterreich .
+14-1	939-942	Der	_	_
+14-2	943-956	lasciapassare	_	_
+14-3	957-960	war	_	_
+14-4	961-971	allerdings	_	_
+14-5	972-975	nur	_	_
+14-6	976-979	für	_	_
+14-7	980-991	Oesterreich	*	PLACEmentioned
+14-8	992-993	.	_	_
+
+#Text=Heimbachs Reclamation habe ich an Lepsio übergeben , der sie an Abeken gelangen lassen wird .
+15-1	994-1003	Heimbachs	*	PERmentioned
+15-2	1004-1015	Reclamation	_	_
+15-3	1016-1020	habe	_	_
+15-4	1021-1024	ich	_	_
+15-5	1025-1027	an	_	_
+15-6	1028-1034	Lepsio	*	PERmentioned
+15-7	1035-1044	übergeben	_	_
+15-8	1045-1046	,	_	_
+15-9	1047-1050	der	_	_
+15-10	1051-1054	sie	_	_
+15-11	1055-1057	an	_	_
+15-12	1058-1064	Abeken	*	PERmentioned
+15-13	1065-1073	gelangen	_	_
+15-14	1074-1080	lassen	_	_
+15-15	1081-1085	wird	_	_
+15-16	1086-1087	.	_	_
+
+#Text=Ich erkenne Ihre Gründe in Betreff der Stadiumsherme an , muß aber dennoch dabei bleiben , sie vorläufig dem Amor der Herme von Chablais zu vergleichen .
+16-1	1088-1091	Ich	_	_
+16-2	1092-1099	erkenne	_	_
+16-3	1100-1104	Ihre	_	_
+16-4	1105-1111	Gründe	_	_
+16-5	1112-1114	in	_	_
+16-6	1115-1122	Betreff	_	_
+16-7	1123-1126	der	_	_
+16-8	1127-1140	Stadiumsherme	*	OBJ
+16-9	1141-1143	an	_	_
+16-10	1144-1145	,	_	_
+16-11	1146-1149	muß	_	_
+16-12	1150-1154	aber	_	_
+16-13	1155-1162	dennoch	_	_
+16-14	1163-1168	dabei	_	_
+16-15	1169-1176	bleiben	_	_
+16-16	1177-1178	,	_	_
+16-17	1179-1182	sie	_	_
+16-18	1183-1192	vorläufig	_	_
+16-19	1193-1196	dem	_	_
+16-20	1197-1201	Amor	*[19]	OBJ[19]
+16-21	1202-1205	der	*[19]	OBJ[19]
+16-22	1206-1211	Herme	*[19]	OBJ[19]
+16-23	1212-1215	von	*[19]	OBJ[19]
+16-24	1216-1224	Chablais	*[19]|*[20]	OBJ[19]|PLACEmentioned[20]
+16-25	1225-1227	zu	_	_
+16-26	1228-1239	vergleichen	_	_
+16-27	1240-1241	.	_	_
+
+#Text=Samothratische und .
+17-1	1242-1256	Samothratische	*	PLACEmentioned
+17-2	1257-1260	und	_	_
+17-3	1261-1262	.	_	_
+
+#Text=andere Mysterien kommen auf apulischen Vasen nicht vor .
+18-1	1263-1269	andere	_	_
+18-2	1270-1279	Mysterien	_	_
+18-3	1280-1286	kommen	_	_
+18-4	1287-1290	auf	_	_
+18-5	1291-1301	apulischen	*	PLACEmentioned
+18-6	1302-1307	Vasen	_	_
+18-7	1308-1313	nicht	_	_
+18-8	1314-1317	vor	_	_
+18-9	1318-1319	.	_	_
+
+#Text=Daß sie manchen Gruppirungen zu Grunde liegen , bin ich fest überzeugt .
+19-1	1320-1323	Daß	_	_
+19-2	1324-1327	sie	_	_
+19-3	1328-1335	manchen	_	_
+19-4	1336-1348	Gruppirungen	_	_
+19-5	1349-1351	zu	_	_
+19-6	1352-1358	Grunde	_	_
+19-7	1359-1365	liegen	_	_
+19-8	1366-1367	,	_	_
+19-9	1368-1371	bin	_	_
+19-10	1372-1375	ich	_	_
+19-11	1376-1380	fest	_	_
+19-12	1381-1390	überzeugt	_	_
+19-13	1391-1392	.	_	_
+
+#Text=Vor der Hand bin ich aber noch zu sehr mit dem beschäftigt , was sich den Sinnen darbietet .
+20-1	1393-1396	Vor	_	_
+20-2	1397-1400	der	_	_
+20-3	1401-1405	Hand	_	_
+20-4	1406-1409	bin	_	_
+20-5	1410-1413	ich	_	_
+20-6	1414-1418	aber	_	_
+20-7	1419-1423	noch	_	_
+20-8	1424-1426	zu	_	_
+20-9	1427-1431	sehr	_	_
+20-10	1432-1435	mit	_	_
+20-11	1436-1439	dem	_	_
+20-12	1440-1451	beschäftigt	_	_
+20-13	1452-1453	,	_	_
+20-14	1454-1457	was	_	_
+20-15	1458-1462	sich	_	_
+20-16	1463-1466	den	_	_
+20-17	1467-1473	Sinnen	_	_
+20-18	1474-1483	darbietet	_	_
+20-19	1484-1485	.	_	_
+
+#Text=Die Herme Altieri ist kein Cerberus .
+21-1	1486-1489	Die	_	_
+21-2	1490-1495	Herme	*[23]	OBJ[23]
+21-3	1496-1503	Altieri	*[23]	OBJ[23]
+21-4	1504-1507	ist	_	_
+21-5	1508-1512	kein	_	_
+21-6	1513-1521	Cerberus	_	_
+21-7	1522-1523	.	_	_
+
+#Text=Ein bärtiger Bacchus zwischen 2 Frauenköpfen , zu Füßen ein Amor .
+22-1	1524-1527	Ein	_	_
+22-2	1528-1536	bärtiger	_	_
+22-3	1537-1544	Bacchus	_	_
+22-4	1545-1553	zwischen	_	_
+22-5	1554-1555	2	_	_
+22-6	1556-1568	Frauenköpfen	_	_
+22-7	1569-1570	,	_	_
+22-8	1571-1573	zu	_	_
+22-9	1574-1579	Füßen	_	_
+22-10	1580-1583	ein	_	_
+22-11	1584-1588	Amor	_	_
+22-12	1589-1590	.	_	_

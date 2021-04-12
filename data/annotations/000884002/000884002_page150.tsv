@@ -1,0 +1,109 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 27. Mai 1863 - 4\_ William & Norgate schicken Abrechnung : & 19,14,0 welche deren Zahlung sie durch ihren Banquier Cotta an Torlonia angewiesen \; von wo aber nichts bis jetzt avvisirt ist .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	27.	*[3]	DATEletter[3]
+1-7	26-29	Mai	*[3]	DATEletter[3]
+1-8	30-34	1863	*[3]	DATEletter[3]
+1-9	35-36	-	_	_
+1-10	37-39	4\_	_	_
+1-11	40-47	William	*	PERmentioned
+1-12	48-49	&	_	_
+1-13	50-57	Norgate	*	PERmentioned
+1-14	58-66	schicken	_	_
+1-15	67-77	Abrechnung	_	_
+1-16	78-79	:	_	_
+1-17	80-81	&	_	_
+1-18	82-89	19,14,0	_	_
+1-19	90-96	welche	_	_
+1-20	97-102	deren	_	_
+1-21	103-110	Zahlung	_	_
+1-22	111-114	sie	_	_
+1-23	115-120	durch	_	_
+1-24	121-126	ihren	_	_
+1-25	127-135	Banquier	_	_
+1-26	136-141	Cotta	*	PERmentioned
+1-27	142-144	an	_	_
+1-28	145-153	Torlonia	*	PERmentioned
+1-29	154-164	angewiesen	_	_
+1-30	165-166	\;	_	_
+1-31	167-170	von	_	_
+1-32	171-173	wo	_	_
+1-33	174-178	aber	_	_
+1-34	179-185	nichts	_	_
+1-35	186-189	bis	_	_
+1-36	190-195	jetzt	_	_
+1-37	196-204	avvisirt	_	_
+1-38	205-208	ist	_	_
+1-39	209-210	.	_	_
+
+#Text=Ich werde mich mit Lanci darüber verständigen .
+2-1	211-214	Ich	_	_
+2-2	215-220	werde	_	_
+2-3	221-225	mich	_	_
+2-4	226-229	mit	_	_
+2-5	230-235	Lanci	*	PERmentioned
+2-6	236-243	darüber	_	_
+2-7	244-256	verständigen	_	_
+2-8	257-258	.	_	_
+
+#Text=Seit Sonnabend täglich mit Unterbrechungen Regen \; weshalb ich sehr still zu Hause sitze , nach Beseitigung der Bibliothek jetzt an der Pompiana .
+3-1	259-263	Seit	_	_
+3-2	264-273	Sonnabend	*	DATEmentioned
+3-3	274-281	täglich	_	_
+3-4	282-285	mit	_	_
+3-5	286-301	Unterbrechungen	_	_
+3-6	302-307	Regen	_	_
+3-7	308-309	\;	_	_
+3-8	310-317	weshalb	_	_
+3-9	318-321	ich	_	_
+3-10	322-326	sehr	_	_
+3-11	327-332	still	_	_
+3-12	333-335	zu	_	_
+3-13	336-341	Hause	_	_
+3-14	342-347	sitze	_	_
+3-15	348-349	,	_	_
+3-16	350-354	nach	_	_
+3-17	355-366	Beseitigung	_	_
+3-18	367-370	der	_	_
+3-19	371-381	Bibliothek	*	ORGmentioned
+3-20	382-387	jetzt	_	_
+3-21	388-390	an	_	_
+3-22	391-394	der	_	_
+3-23	395-403	Pompiana	*	MISC
+3-24	404-405	.	_	_
+
+#Text=Ihre Cousine wollte einige Zeilen beilegen , fühlt sich aber doch zu angegriffen .
+4-1	406-410	Ihre	*[4]	PERmentioned[4]
+4-2	411-418	Cousine	*[4]	PERmentioned[4]
+4-3	419-425	wollte	_	_
+4-4	426-432	einige	_	_
+4-5	433-439	Zeilen	_	_
+4-6	440-448	beilegen	_	_
+4-7	449-450	,	_	_
+4-8	451-456	fühlt	_	_
+4-9	457-461	sich	_	_
+4-10	462-466	aber	_	_
+4-11	467-471	doch	_	_
+4-12	472-474	zu	_	_
+4-13	475-486	angegriffen	_	_
+4-14	487-488	.	_	_
+
+#Text=Mit den obligaten Grüßen von X - Z Ihr HBrunn .
+5-1	489-492	Mit	_	_
+5-2	493-496	den	_	_
+5-3	497-506	obligaten	_	_
+5-4	507-513	Grüßen	_	_
+5-5	514-517	von	_	_
+5-6	518-519	X	_	_
+5-7	520-521	-	_	_
+5-8	522-523	Z	_	_
+5-9	524-527	Ihr	_	_
+5-10	528-534	HBrunn	*	PERauthor
+5-11	535-536	.	_	_

@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Henzen Berlin , 9 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-17	Henzen	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-28	9	*[3]	DATEletter[3]
+1-7	29-30	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1846 r . 7/XI 46 Dr. Henzen Berlin 9 Okt .
+2-1	31-38	Oktober	*[3]	DATEletter[3]
+2-2	39-43	1846	*[3]	DATEletter[3]
+2-3	44-45	r	_	_
+2-4	46-47	.	_	_
+2-5	48-52	7/XI	*[4]	DATEanswered[4]
+2-6	53-55	46	*[4]	DATEanswered[4]
+2-7	56-59	Dr.	_	_
+2-8	60-66	Henzen	*	PERaddressee
+2-9	67-73	Berlin	*	PLACEfrom
+2-10	74-75	9	*[5]	DATEletter[5]
+2-11	76-79	Okt	*[5]	DATEletter[5]
+2-12	80-81	.	*[5]	DATEletter[5]
+
+#Text=46 .
+3-1	82-84	46	*[5]	DATEletter[5]
+3-2	85-86	.	_	_
+
+#Text=Ich schreibe Ihnen als Reconvalescent lieber Freund nach allerlei Unpäßlichkeit und vorangegangener Zerstreuung , beschränke mich daher auf das wozu Ihr lieber Brief mich zunächst auffordert .
+4-1	87-90	Ich	_	_
+4-2	91-99	schreibe	_	_
+4-3	100-105	Ihnen	_	_
+4-4	106-109	als	_	_
+4-5	110-124	Reconvalescent	_	_
+4-6	125-131	lieber	_	_
+4-7	132-138	Freund	_	_
+4-8	139-143	nach	_	_
+4-9	144-152	allerlei	_	_
+4-10	153-166	Unpäßlichkeit	_	_
+4-11	167-170	und	_	_
+4-12	171-186	vorangegangener	_	_
+4-13	187-198	Zerstreuung	_	_
+4-14	199-200	,	_	_
+4-15	201-211	beschränke	_	_
+4-16	212-216	mich	_	_
+4-17	217-222	daher	_	_
+4-18	223-226	auf	_	_
+4-19	227-230	das	_	_
+4-20	231-235	wozu	_	_
+4-21	236-239	Ihr	_	_
+4-22	240-246	lieber	_	_
+4-23	247-252	Brief	_	_
+4-24	253-257	mich	_	_
+4-25	258-266	zunächst	_	_
+4-26	267-277	auffordert	_	_
+4-27	278-279	.	_	_
+
+#Text=Die epigraphische Angelegenheit hat in den Ferien natürlich geruht \; nächstens oder erst ein Monat später kommt sie durch Mommsens Samnitisches Manuscript neu angeregt , hoffentlich gründlich zur Sprache .
+5-1	280-283	Die	_	_
+5-2	284-297	epigraphische	_	_
+5-3	298-311	Angelegenheit	_	_
+5-4	312-315	hat	_	_
+5-5	316-318	in	_	_
+5-6	319-322	den	_	_
+5-7	323-329	Ferien	_	_
+5-8	330-339	natürlich	_	_
+5-9	340-346	geruht	_	_
+5-10	347-348	\;	_	_
+5-11	349-358	nächstens	_	_
+5-12	359-363	oder	_	_
+5-13	364-368	erst	_	_
+5-14	369-372	ein	_	_
+5-15	373-378	Monat	_	_
+5-16	379-385	später	_	_
+5-17	386-391	kommt	_	_
+5-18	392-395	sie	_	_
+5-19	396-401	durch	_	_
+5-20	402-410	Mommsens	*	PERmentioned
+5-21	411-423	Samnitisches	_	_
+5-22	424-434	Manuscript	_	_
+5-23	435-438	neu	_	_
+5-24	439-447	angeregt	_	_
+5-25	448-449	,	_	_
+5-26	450-461	hoffentlich	_	_
+5-27	462-471	gründlich	_	_
+5-28	472-475	zur	_	_
+5-29	476-483	Sprache	_	_
+5-30	484-485	.	_	_
+
+#Text=Sollte die königliche Zahlung für Mommsen sich sehr verzögern , so hilft vielleicht Savigny noch einmal privatim aus , daß Mommsen nicht ohne Geld bleibe .
+6-1	486-492	Sollte	_	_
+6-2	493-496	die	_	_
+6-3	497-507	königliche	_	_
+6-4	508-515	Zahlung	_	_
+6-5	516-519	für	_	_
+6-6	520-527	Mommsen	*	PERmentioned
+6-7	528-532	sich	_	_
+6-8	533-537	sehr	_	_
+6-9	538-547	verzögern	_	_
+6-10	548-549	,	_	_
+6-11	550-552	so	_	_
+6-12	553-558	hilft	_	_
+6-13	559-569	vielleicht	_	_
+6-14	570-577	Savigny	*	PERmentioned
+6-15	578-582	noch	_	_
+6-16	583-589	einmal	_	_
+6-17	590-598	privatim	_	_
+6-18	599-602	aus	_	_
+6-19	603-604	,	_	_
+6-20	605-608	daß	_	_
+6-21	609-616	Mommsen	*	PERmentioned
+6-22	617-622	nicht	_	_
+6-23	623-627	ohne	_	_
+6-24	628-632	Geld	_	_
+6-25	633-639	bleibe	_	_
+6-26	640-641	.	_	_
+
+#Text=Ich werde das Möglichste dafür thun .
+7-1	642-645	Ich	_	_
+7-2	646-651	werde	_	_
+7-3	652-655	das	_	_
+7-4	656-666	Möglichste	_	_
+7-5	667-672	dafür	_	_
+7-6	673-677	thun	_	_
+7-7	678-679	.	_	_
+
+#Text=Ihr Augenlied geht mir nahe , recht nahe \; hoffentlich ist es jetzt besser .
+8-1	680-683	Ihr	_	_
+8-2	684-693	Augenlied	_	_
+8-3	694-698	geht	_	_
+8-4	699-702	mir	_	_
+8-5	703-707	nahe	_	_
+8-6	708-709	,	_	_
+8-7	710-715	recht	_	_
+8-8	716-720	nahe	_	_
+8-9	721-722	\;	_	_
+8-10	723-734	hoffentlich	_	_
+8-11	735-738	ist	_	_
+8-12	739-741	es	_	_
+8-13	742-747	jetzt	_	_
+8-14	748-754	besser	_	_
+8-15	755-756	.	_	_
+
+#Text=Bullettino und Indexdruck sehe ich im besten Zug .
+9-1	757-767	Bullettino	_	_
+9-2	768-771	und	_	_
+9-3	772-782	Indexdruck	_	_
+9-4	783-787	sehe	_	_
+9-5	788-791	ich	_	_
+9-6	792-794	im	_	_
+9-7	795-801	besten	_	_
+9-8	802-805	Zug	_	_
+9-9	806-807	.	_	_
+
+#Text=Mit Ianci sind wir nun still in recht gute Ordnung gekommen \; ich hoffe besten Fortgang .
+10-1	808-811	Mit	_	_
+10-2	812-817	Ianci	*	PERmentioned
+10-3	818-822	sind	_	_
+10-4	823-826	wir	_	_
+10-5	827-830	nun	_	_
+10-6	831-836	still	_	_
+10-7	837-839	in	_	_
+10-8	840-845	recht	_	_
+10-9	846-850	gute	_	_
+10-10	851-858	Ordnung	_	_
+10-11	859-867	gekommen	_	_
+10-12	868-869	\;	_	_
+10-13	870-873	ich	_	_
+10-14	874-879	hoffe	_	_
+10-15	880-886	besten	_	_
+10-16	887-895	Fortgang	_	_
+10-17	896-897	.	_	_
+
+#Text=Daß Sie an epigraphische Ausbeutung des Vatikans in aller Stille planmäßig denken , bitte ich nicht abzulassen \; läßt sich die Arbeit nicht an jüngern unscheirbaren Kräften auch vertheilen ?
+11-1	898-901	Daß	_	_
+11-2	902-905	Sie	_	_
+11-3	906-908	an	_	_
+11-4	909-922	epigraphische	_	_
+11-5	923-933	Ausbeutung	_	_
+11-6	934-937	des	_	_
+11-7	938-946	Vatikans	*	PLACEmentioned
+11-8	947-949	in	_	_
+11-9	950-955	aller	_	_
+11-10	956-962	Stille	_	_
+11-11	963-972	planmäßig	_	_
+11-12	973-979	denken	_	_
+11-13	980-981	,	_	_
+11-14	982-987	bitte	_	_
+11-15	988-991	ich	_	_
+11-16	992-997	nicht	_	_
+11-17	998-1008	abzulassen	_	_
+11-18	1009-1010	\;	_	_
+11-19	1011-1015	läßt	_	_
+11-20	1016-1020	sich	_	_
+11-21	1021-1024	die	_	_
+11-22	1025-1031	Arbeit	_	_
+11-23	1032-1037	nicht	_	_
+11-24	1038-1040	an	_	_
+11-25	1041-1048	jüngern	_	_
+11-26	1049-1062	unscheirbaren	_	_
+11-27	1063-1070	Kräften	_	_
+11-28	1071-1075	auch	_	_
+11-29	1076-1086	vertheilen	_	_
+11-30	1087-1088	?	_	_
+
+#Text=Geschieht das nicht allmählich , so fürchte ich alle Anstalten italienische In-
+12-1	1089-1098	Geschieht	_	_
+12-2	1099-1102	das	_	_
+12-3	1103-1108	nicht	_	_
+12-4	1109-1119	allmählich	_	_
+12-5	1120-1121	,	_	_
+12-6	1122-1124	so	_	_
+12-7	1125-1132	fürchte	_	_
+12-8	1133-1136	ich	_	_
+12-9	1137-1141	alle	_	_
+12-10	1142-1151	Anstalten	_	_
+12-11	1152-1164	italienische	_	_
+12-12	1165-1168	In-	_	_

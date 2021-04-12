@@ -1,0 +1,300 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=D , Henzen Gerhard an Henzen Berlin X/1847 A. di Direz .
+1-1	0-1	D	_	_	
+1-2	2-3	,	_	_	
+1-3	4-10	Henzen	*	PERaddressee	
+1-4	11-18	Gerhard	*	PERauthor	
+1-5	19-21	an	_	_	
+1-6	22-28	Henzen	*	PERaddressee	
+1-7	29-35	Berlin	*	PLACEfrom	
+1-8	36-42	X/1847	*	DATEletter	
+1-9	43-45	A.	_	_	
+1-10	46-48	di	_	_	
+1-11	49-54	Direz	_	_	
+1-12	55-56	.	_	_	
+
+#Text=g. r . 6/XI 47 ia in : Wii 8 .
+2-1	57-59	g.	_	_	
+2-2	60-61	r	_	_	
+2-3	62-63	.	_	_	
+2-4	64-68	6/XI	*[1]	DATEanswered[1]	
+2-5	69-71	47	*[1]	DATEanswered[1]	
+2-6	72-74	ia	_	_	
+2-7	75-77	in	_	_	
+2-8	78-79	:	_	_	
+2-9	80-83	Wii	_	_	
+2-10	84-85	8	_	_	
+2-11	86-87	.	_	_	
+
+#Text=Mosaik Weber an Krtüm durch Abeken. )
+3-1	88-94	Mosaik	_	_	
+3-2	95-100	Weber	_	_	
+3-3	101-103	an	_	_	
+3-4	104-109	Krtüm	_	_	
+3-5	110-115	durch	_	_	
+3-6	116-123	Abeken.	_	_	
+3-7	124-125	)	_	_	
+
+#Text=Kosten mit Sache des Pr .
+4-1	126-132	Kosten	_	_	
+4-2	133-136	mit	_	_	
+4-3	137-142	Sache	_	_	
+4-4	143-146	des	_	_	
+4-5	147-149	Pr	_	_	
+4-6	150-151	.	_	_	
+
+#Text=Coot alf b Fe Cad ans Museum Berlin Okt .
+5-1	152-156	Coot	_	_	
+5-2	157-160	alf	_	_	
+5-3	161-162	b	_	_	
+5-4	163-165	Fe	_	_	
+5-5	166-169	Cad	_	_	
+5-6	170-173	ans	_	_	
+5-7	174-180	Museum	*[2]	ORGmentioned[2]	
+5-8	181-187	Berlin	*[2]	ORGmentioned[2]	
+5-9	188-191	Okt	_	_	
+5-10	192-193	.	_	_	
+
+#Text=47 .
+6-1	194-196	47	_	_	
+6-2	197-198	.	_	_	
+
+#Text=NB | Ehe ich lieber Freundmeinen andern Brief an ” ie anfange , möchte ich einen Notizenzettel durch das für die Bibliothek von Erlangen dringende , von Brockhaus seltsamer Weise an mich ( und zwar während meiner Abwesenheit 31 Aug . ) statt nach Rom gerichteten Requisits folgender 2 Defekte die einem vollständigen Exemplar der Institutswerke fehlen , nämlich Bullettino 1835 und Monumenti Vol . II fag .
+7-1	199-201	NB	_	_	
+7-2	202-203	|	_	_	
+7-3	204-207	Ehe	_	_	
+7-4	208-211	ich	_	_	
+7-5	212-218	lieber	_	_	
+7-6	219-231	Freundmeinen	_	_	
+7-7	232-238	andern	_	_	
+7-8	239-244	Brief	_	_	
+7-9	245-247	an	_	_	
+7-10	248-249	”	_	_	
+7-11	250-252	ie	_	_	
+7-12	253-260	anfange	_	_	
+7-13	261-262	,	_	_	
+7-14	263-269	möchte	_	_	
+7-15	270-273	ich	_	_	
+7-16	274-279	einen	_	_	
+7-17	280-293	Notizenzettel	_	_	
+7-18	294-299	durch	_	_	
+7-19	300-303	das	_	_	
+7-20	304-307	für	_	_	
+7-21	308-311	die	_	_	
+7-22	312-322	Bibliothek	*	ORGmentioned	
+7-23	323-326	von	_	_	
+7-24	327-335	Erlangen	*	PLACEmentioned	
+7-25	336-345	dringende	_	_	
+7-26	346-347	,	_	_	
+7-27	348-351	von	_	_	
+7-28	352-361	Brockhaus	*	ORGmentioned	
+7-29	362-371	seltsamer	_	_	
+7-30	372-377	Weise	_	_	
+7-31	378-380	an	_	_	
+7-32	381-385	mich	_	_	
+7-33	386-387	(	_	_	
+7-34	388-391	und	_	_	
+7-35	392-396	zwar	_	_	
+7-36	397-404	während	_	_	
+7-37	405-411	meiner	_	_	
+7-38	412-423	Abwesenheit	_	_	
+7-39	424-426	31	*[3]	DATEmentioned[3]	
+7-40	427-430	Aug	*[3]	DATEmentioned[3]	
+7-41	431-432	.	*[3]	DATEmentioned[3]	
+7-42	433-434	)	_	_	
+7-43	435-440	statt	_	_	
+7-44	441-445	nach	_	_	
+7-45	446-449	Rom	*	PLACEmentioned	
+7-46	450-461	gerichteten	_	_	
+7-47	462-471	Requisits	_	_	
+7-48	472-481	folgender	_	_	
+7-49	482-483	2	_	_	
+7-50	484-491	Defekte	_	_	
+7-51	492-495	die	_	_	
+7-52	496-501	einem	_	_	
+7-53	502-515	vollständigen	_	_	
+7-54	516-524	Exemplar	_	_	
+7-55	525-528	der	_	_	
+7-56	529-543	Institutswerke	_	_	
+7-57	544-550	fehlen	_	_	
+7-58	551-552	,	_	_	
+7-59	553-560	nämlich	_	_	
+7-60	561-571	Bullettino	_	_	
+7-61	572-576	1835	*	DATEmentioned	
+7-62	577-580	und	_	_	
+7-63	581-590	Monumenti	_	_	
+7-64	591-594	Vol	_	_	
+7-65	595-596	.	_	_	
+7-66	597-599	II	_	_	
+7-67	600-603	fag	_	_	
+7-68	604-605	.	_	_	
+
+#Text=8.9 .
+8-1	606-609	8.9	_	_	
+8-2	610-611	.	_	_	
+
+#Text=Zur Vereinfachung und weil es dringend ist empfehle ich statt des Buchhändlers dem Institut diese Ergänzung .
+9-1	612-615	Zur	_	_	
+9-2	616-629	Vereinfachung	_	_	
+9-3	630-633	und	_	_	
+9-4	634-638	weil	_	_	
+9-5	639-641	es	_	_	
+9-6	642-650	dringend	_	_	
+9-7	651-654	ist	_	_	
+9-8	655-663	empfehle	_	_	
+9-9	664-667	ich	_	_	
+9-10	668-673	statt	_	_	
+9-11	674-677	des	_	_	
+9-12	678-690	Buchhändlers	_	_	
+9-13	691-694	dem	_	_	
+9-14	695-703	Institut	*	ORGmentioned	
+9-15	704-709	diese	_	_	
+9-16	710-719	Ergänzung	_	_	
+9-17	720-721	.	_	_	
+
+#Text=Eben erhalte ich auch durch die Post von Bonn her ( also wol durch Welcker ? )
+10-1	722-726	Eben	_	_	
+10-2	727-734	erhalte	_	_	
+10-3	735-738	ich	_	_	
+10-4	739-743	auch	_	_	
+10-5	744-749	durch	_	_	
+10-6	750-753	die	_	_	
+10-7	754-758	Post	_	_	
+10-8	759-762	von	_	_	
+10-9	763-767	Bonn	*	PLACEmentioned	
+10-10	768-771	her	_	_	
+10-11	772-773	(	_	_	
+10-12	774-778	also	_	_	
+10-13	779-782	wol	_	_	
+10-14	783-788	durch	_	_	
+10-15	789-796	Welcker	*	PERmentioned	
+10-16	797-798	?	_	_	
+10-17	799-800	)	_	_	
+
+#Text=ein Röllchen mit dem von mir gewünschten Defekt der Ralauısblättchen .
+11-1	801-804	ein	_	_	
+11-2	805-813	Röllchen	_	_	
+11-3	814-817	mit	_	_	
+11-4	818-821	dem	_	_	
+11-5	822-825	von	_	_	
+11-6	826-829	mir	_	_	
+11-7	830-841	gewünschten	_	_	
+11-8	842-848	Defekt	_	_	
+11-9	849-852	der	_	_	
+11-10	853-869	Ralauısblättchen	_	_	
+11-11	870-871	.	_	_	
+
+#Text=Besten Dank !
+12-1	872-878	Besten	_	_	
+12-2	879-883	Dank	_	_	
+12-3	884-885	!	_	_	
+
+#Text=folgte doch auch das später nachgesuchte Heft meiner Vasenbilder bald nach ; es findet sich wol ein nächstfolgender Reisender .
+13-1	886-892	folgte	_	_	
+13-2	893-897	doch	_	_	
+13-3	898-902	auch	_	_	
+13-4	903-906	das	_	_	
+13-5	907-913	später	_	_	
+13-6	914-926	nachgesuchte	_	_	
+13-7	927-931	Heft	_	_	
+13-8	932-938	meiner	_	_	
+13-9	939-950	Vasenbilder	_	_	
+13-10	951-955	bald	_	_	
+13-11	956-960	nach	_	_	
+13-12	961-962	;	_	_	
+13-13	963-965	es	_	_	
+13-14	966-972	findet	_	_	
+13-15	973-977	sich	_	_	
+13-16	978-981	wol	_	_	
+13-17	982-985	ein	_	_	
+13-18	986-1001	nächstfolgender	_	_	
+13-19	1002-1011	Reisender	_	_	
+13-20	1012-1013	.	_	_	
+
+#Text=Leider kann ich ohne das meinen u Band Vieh binden .
+14-1	1014-1020	Leider	_	_	
+14-2	1021-1025	kann	_	_	
+14-3	1026-1029	ich	_	_	
+14-4	1030-1034	ohne	_	_	
+14-5	1035-1038	das	_	_	
+14-6	1039-1045	meinen	_	_	
+14-7	1046-1047	u	_	_	
+14-8	1048-1052	Band	_	_	
+14-9	1053-1057	Vieh	_	_	
+14-10	1058-1064	binden	_	_	
+14-11	1065-1066	.	_	_	
+
+#Text=D . Braun Dritte Seccatura , Ich versprach vor Monaten dem ne um .
+15-1	1067-1068	D	_	_	
+15-2	1069-1070	.	_	_	
+15-3	1071-1076	Braun	*	PERmentioned	
+15-4	1077-1083	Dritte	_	_	
+15-5	1084-1093	Seccatura	_	_	
+15-6	1094-1095	,	_	_	
+15-7	1096-1099	Ich	_	_	
+15-8	1100-1109	versprach	_	_	
+15-9	1110-1113	vor	_	_	
+15-10	1114-1121	Monaten	_	_	
+15-11	1122-1125	dem	_	_	
+15-12	1126-1128	ne	_	_	
+15-13	1129-1131	um	_	_	
+15-14	1132-1133	.	_	_	
+
+#Text=über das Schicksal seiner durch Usedom und Braun besorgten Kisten in Rom anzugragen , glaube das auch gethan zu haben .
+16-1	1134-1138	über	_	_	
+16-2	1139-1142	das	_	_	
+16-3	1143-1152	Schicksal	_	_	
+16-4	1153-1159	seiner	_	_	
+16-5	1160-1165	durch	_	_	
+16-6	1166-1172	Usedom	*	PERmentioned	
+16-7	1173-1176	und	_	_	
+16-8	1177-1182	Braun	*	PERmentioned	
+16-9	1183-1192	besorgten	_	_	
+16-10	1193-1199	Kisten	_	_	
+16-11	1200-1202	in	_	_	
+16-12	1203-1206	Rom	*	PLACEmentioned	
+16-13	1207-1217	anzugragen	_	_	
+16-14	1218-1219	,	_	_	
+16-15	1220-1226	glaube	_	_	
+16-16	1227-1230	das	_	_	
+16-17	1231-1235	auch	_	_	
+16-18	1236-1242	gethan	_	_	
+16-19	1243-1245	zu	_	_	
+16-20	1246-1251	haben	_	_	
+16-21	1252-1253	.	_	_	
+
+#Text=Gingen sie ab ?
+17-1	1254-1260	Gingen	_	_	
+17-2	1261-1264	sie	_	_	
+17-3	1265-1267	ab	_	_	
+17-4	1268-1269	?	_	_	
+
+#Text=wo können sie stecken ?
+18-1	1270-1272	wo	_	_	
+18-2	1273-1279	können	_	_	
+18-3	1280-1283	sie	_	_	
+18-4	1284-1291	stecken	_	_	
+18-5	1292-1293	?	_	_	
+
+#Text=a Ldor Da Ihr liebe Herren und namentlich 8 ” , . % ..... Braun 1 4 \\a
+19-1	1294-1295	a	_	_	
+19-2	1296-1300	Ldor	_	_	
+19-3	1301-1303	Da	_	_	
+19-4	1304-1307	Ihr	_	_	
+19-5	1308-1313	liebe	_	_	
+19-6	1314-1320	Herren	_	_	
+19-7	1321-1324	und	_	_	
+19-8	1325-1335	namentlich	_	_	
+19-9	1336-1337	8	_	_	
+19-10	1338-1339	”	_	_	
+19-11	1340-1341	,	_	_	
+19-12	1342-1343	.	_	_	
+19-13	1344-1345	%	_	_	
+19-14	1346-1351	.....	_	_	
+19-15	1352-1357	Braun	*	PERmentioned	
+19-16	1358-1359	1	_	_	
+19-17	1360-1361	4	_	_	
+19-18	1362-1364	\a	_	_	

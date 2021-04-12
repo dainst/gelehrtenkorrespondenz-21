@@ -1,0 +1,194 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Gerhard Berlin , 20 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-17	Gerhard	*	PERaddressee
+1-4	18-24	Berlin	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	20	*[4]	DATEletter[4]
+1-7	30-31	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1825 immer im Hause bleiben .
+2-1	32-39	Oktober	*[4]	DATEletter[4]
+2-2	40-44	1825	*[4]	DATEletter[4]
+2-3	45-50	immer	_	_
+2-4	51-53	im	_	_
+2-5	54-59	Hause	_	_
+2-6	60-67	bleiben	_	_
+2-7	68-69	.	_	_
+
+#Text=Ich gebe Ihnen zu bedenken , ob Panofka 's Mitarbeit vielleicht nicht sehr wünschenswerth wäre .
+3-1	70-73	Ich	_	_
+3-2	74-78	gebe	_	_
+3-3	79-84	Ihnen	_	_
+3-4	85-87	zu	_	_
+3-5	88-96	bedenken	_	_
+3-6	97-98	,	_	_
+3-7	99-101	ob	_	_
+3-8	102-109	Panofka	*[5]	PERmentioned[5]
+3-9	110-112	's	*[5]	PERmentioned[5]
+3-10	113-122	Mitarbeit	_	_
+3-11	123-133	vielleicht	_	_
+3-12	134-139	nicht	_	_
+3-13	140-144	sehr	_	_
+3-14	145-159	wünschenswerth	_	_
+3-15	160-164	wäre	_	_
+3-16	165-166	.	_	_
+
+#Text=Es sind die Notizen von B. auf jeden Fall nachzulesen , bei Anfertigung des Catalogs .
+4-1	167-169	Es	_	_
+4-2	170-174	sind	_	_
+4-3	175-178	die	_	_
+4-4	179-186	Notizen	_	_
+4-5	187-190	von	_	_
+4-6	191-193	B.	*	PERmentioned
+4-7	194-197	auf	_	_
+4-8	198-203	jeden	_	_
+4-9	204-208	Fall	_	_
+4-10	209-220	nachzulesen	_	_
+4-11	221-222	,	_	_
+4-12	223-226	bei	_	_
+4-13	227-238	Anfertigung	_	_
+4-14	239-242	des	_	_
+4-15	243-251	Catalogs	_	_
+4-16	252-253	.	_	_
+
+#Text=Kletsche müßte sonst vorlesen .
+5-1	254-262	Kletsche	*	PERmentioned
+5-2	263-268	müßte	_	_
+5-3	269-274	sonst	_	_
+5-4	275-283	vorlesen	_	_
+5-5	284-285	.	_	_
+
+#Text=Der Katalog müßte ins Französische übersetzt werden .
+6-1	286-289	Der	_	_
+6-2	290-297	Katalog	_	_
+6-3	298-303	müßte	_	_
+6-4	304-307	ins	_	_
+6-5	308-320	Französische	_	_
+6-6	321-330	übersetzt	_	_
+6-7	331-337	werden	_	_
+6-8	338-339	.	_	_
+
+#Text=Ich bitte umgehend um Antwort .
+7-1	340-343	Ich	_	_
+7-2	344-349	bitte	_	_
+7-3	350-358	umgehend	_	_
+7-4	359-361	um	_	_
+7-5	362-369	Antwort	_	_
+7-6	370-371	.	_	_
+
+#Text=Wir haben hier , besonders durch Festhaltung der beiden Tatsachen 1.tens der Veruntreuung Ihrer Zeichnungen 2.tens des Handels mit unsern bona fide cedirten Zeichnungen ( welches zwar juristisch kein Verbrechen , aber doch wegen Verletzung stillschweigend verstandener Bedingung , nicht honett ist ) die Gemüther besänftigt , und Ihnen zugewandt .
+8-1	372-375	Wir	_	_
+8-2	376-381	haben	_	_
+8-3	382-386	hier	_	_
+8-4	387-388	,	_	_
+8-5	389-398	besonders	_	_
+8-6	399-404	durch	_	_
+8-7	405-416	Festhaltung	_	_
+8-8	417-420	der	_	_
+8-9	421-427	beiden	_	_
+8-10	428-437	Tatsachen	_	_
+8-11	438-444	1.tens	_	_
+8-12	445-448	der	_	_
+8-13	449-461	Veruntreuung	_	_
+8-14	462-467	Ihrer	_	_
+8-15	468-479	Zeichnungen	_	_
+8-16	480-486	2.tens	_	_
+8-17	487-490	des	_	_
+8-18	491-498	Handels	_	_
+8-19	499-502	mit	_	_
+8-20	503-509	unsern	_	_
+8-21	510-514	bona	_	_
+8-22	515-519	fide	_	_
+8-23	520-528	cedirten	_	_
+8-24	529-540	Zeichnungen	_	_
+8-25	541-542	(	_	_
+8-26	543-550	welches	_	_
+8-27	551-555	zwar	_	_
+8-28	556-566	juristisch	_	_
+8-29	567-571	kein	_	_
+8-30	572-582	Verbrechen	_	_
+8-31	583-584	,	_	_
+8-32	585-589	aber	_	_
+8-33	590-594	doch	_	_
+8-34	595-600	wegen	_	_
+8-35	601-611	Verletzung	_	_
+8-36	612-627	stillschweigend	_	_
+8-37	628-640	verstandener	_	_
+8-38	641-650	Bedingung	_	_
+8-39	651-652	,	_	_
+8-40	653-658	nicht	_	_
+8-41	659-665	honett	_	_
+8-42	666-669	ist	_	_
+8-43	670-671	)	_	_
+8-44	672-675	die	_	_
+8-45	676-684	Gemüther	_	_
+8-46	685-695	besänftigt	_	_
+8-47	696-697	,	_	_
+8-48	698-701	und	_	_
+8-49	702-707	Ihnen	_	_
+8-50	708-717	zugewandt	_	_
+8-51	718-719	.	_	_
+
+#Text=Wegen des übrigen beziehe ich mich auf einen ausführlichen Brief .
+9-1	720-725	Wegen	_	_
+9-2	726-729	des	_	_
+9-3	730-737	übrigen	_	_
+9-4	738-745	beziehe	_	_
+9-5	746-749	ich	_	_
+9-6	750-754	mich	_	_
+9-7	755-758	auf	_	_
+9-8	759-764	einen	_	_
+9-9	765-778	ausführlichen	_	_
+9-10	779-784	Brief	_	_
+9-11	785-786	.	_	_
+
+#Text=Mit viel Gruß an Panofka der Ihrige Bunsen P.S .
+10-1	787-790	Mit	_	_
+10-2	791-795	viel	_	_
+10-3	796-800	Gruß	_	_
+10-4	801-803	an	_	_
+10-5	804-811	Panofka	*	PERmentioned
+10-6	812-815	der	_	_
+10-7	816-822	Ihrige	_	_
+10-8	823-829	Bunsen	*	PERauthor
+10-9	830-833	P.S	_	_
+10-10	834-835	.	_	_
+
+#Text=Ich bitte Sie , mündlich oder schriftlich den Herren Matsen und Aselmeyer in Neapel , Kaufleuten , ( ich denke Matsen ist Consul von Hamburg oder Bruder desselben ) wissen zu lassen
+11-1	836-839	Ich	_	_
+11-2	840-845	bitte	_	_
+11-3	846-849	Sie	_	_
+11-4	850-851	,	_	_
+11-5	852-860	mündlich	_	_
+11-6	861-865	oder	_	_
+11-7	866-877	schriftlich	_	_
+11-8	878-881	den	_	_
+11-9	882-888	Herren	_	_
+11-10	889-895	Matsen	*	PERmentioned
+11-11	896-899	und	_	_
+11-12	900-909	Aselmeyer	*	PERmentioned
+11-13	910-912	in	_	_
+11-14	913-919	Neapel	*	PLACEmentioned
+11-15	920-921	,	_	_
+11-16	922-932	Kaufleuten	_	_
+11-17	933-934	,	_	_
+11-18	935-936	(	_	_
+11-19	937-940	ich	_	_
+11-20	941-946	denke	_	_
+11-21	947-953	Matsen	*	PERmentioned
+11-22	954-957	ist	_	_
+11-23	958-964	Consul	_	_
+11-24	965-968	von	_	_
+11-25	969-976	Hamburg	*	PLACEmentioned
+11-26	977-981	oder	_	_
+11-27	982-988	Bruder	_	_
+11-28	989-998	desselben	_	_
+11-29	999-1000	)	_	_
+11-30	1001-1007	wissen	_	_
+11-31	1008-1010	zu	_	_
+11-32	1011-1017	lassen	_	_

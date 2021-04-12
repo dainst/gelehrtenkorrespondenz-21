@@ -1,0 +1,87 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Mommsen an Brunn Zürich , 19. Mai 1854 jetzt mehr als sonst , Dich bei mir zu sehen \; meine neue Wohnung , die ich mit 1 Juli beziehe , liegt prachtvoll am See mit der Aussicht in die Berge und wird wahrscheinlich noch sehenswerther sein als ich .
+1-1	0-7	Mommsen	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Brunn	*	PERaddressee
+1-4	17-23	Zürich	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	19.	*[3]	DATEletter[3]
+1-7	30-33	Mai	*[3]	DATEletter[3]
+1-8	34-38	1854	*[3]	DATEletter[3]
+1-9	39-44	jetzt	_	_
+1-10	45-49	mehr	_	_
+1-11	50-53	als	_	_
+1-12	54-59	sonst	_	_
+1-13	60-61	,	_	_
+1-14	62-66	Dich	_	_
+1-15	67-70	bei	_	_
+1-16	71-74	mir	_	_
+1-17	75-77	zu	_	_
+1-18	78-83	sehen	_	_
+1-19	84-85	\;	_	_
+1-20	86-91	meine	_	_
+1-21	92-96	neue	_	_
+1-22	97-104	Wohnung	_	_
+1-23	105-106	,	_	_
+1-24	107-110	die	_	_
+1-25	111-114	ich	_	_
+1-26	115-118	mit	_	_
+1-27	119-120	1	*[4]	DATEmentioned[4]
+1-28	121-125	Juli	*[4]	DATEmentioned[4]
+1-29	126-133	beziehe	_	_
+1-30	134-135	,	_	_
+1-31	136-141	liegt	_	_
+1-32	142-152	prachtvoll	_	_
+1-33	153-155	am	_	_
+1-34	156-159	See	_	_
+1-35	160-163	mit	_	_
+1-36	164-167	der	_	_
+1-37	168-176	Aussicht	_	_
+1-38	177-179	in	_	_
+1-39	180-183	die	_	_
+1-40	184-189	Berge	_	_
+1-41	190-193	und	_	_
+1-42	194-198	wird	_	_
+1-43	199-213	wahrscheinlich	_	_
+1-44	214-218	noch	_	_
+1-45	219-232	sehenswerther	_	_
+1-46	233-237	sein	_	_
+1-47	238-241	als	_	_
+1-48	242-245	ich	_	_
+1-49	246-247	.	_	_
+
+#Text=Unser Zusammentreffen in Leipzig war nur kurz und nicht eben sehr günstig getroffen \; sarä dunque per un altra volta .
+2-1	248-253	Unser	_	_
+2-2	254-269	Zusammentreffen	_	_
+2-3	270-272	in	_	_
+2-4	273-280	Leipzig	*	PLACEmentioned
+2-5	281-284	war	_	_
+2-6	285-288	nur	_	_
+2-7	289-293	kurz	_	_
+2-8	294-297	und	_	_
+2-9	298-303	nicht	_	_
+2-10	304-308	eben	_	_
+2-11	309-313	sehr	_	_
+2-12	314-321	günstig	_	_
+2-13	322-331	getroffen	_	_
+2-14	332-333	\;	_	_
+2-15	334-338	sarä	_	_
+2-16	339-345	dunque	_	_
+2-17	346-349	per	_	_
+2-18	350-352	un	_	_
+2-19	353-358	altra	_	_
+2-20	359-364	volta	_	_
+2-21	365-366	.	_	_
+
+#Text=Dein Mommsen , Zürich 19 Mai 1854 ,
+3-1	367-371	Dein	_	_
+3-2	372-379	Mommsen	*	PERauthor
+3-3	380-381	,	_	_
+3-4	382-388	Zürich	*	PLACEfrom
+3-5	389-391	19	*[5]	DATEletter[5]
+3-6	392-395	Mai	*[5]	DATEletter[5]
+3-7	396-400	1854	*[5]	DATEletter[5]
+3-8	401-402	,	_	_

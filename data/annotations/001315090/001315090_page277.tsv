@@ -1,0 +1,168 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=293 Lepsius an Henzen Berlin , 26. Mai 1876 B- 30/5 76 r . 39/55 Berlin , den 26. Mai 1876 Verehrter Freund Heute geht der von Mommsen gewünschte Codex der Beneventaner Inschriften an das Auswärtige Amt , für den nächsten Feldjäger der nach Rom abgehen wird .
+1-1	0-3	293	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	26.	*[1]	DATEletter[1]
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1876	*[1]	DATEletter[1]
+1-10	44-46	B-	_	_
+1-11	47-51	30/5	*[2]	DATErecieved[2]
+1-12	52-54	76	*[2]	DATErecieved[2]
+1-13	55-56	r	_	_
+1-14	57-58	.	_	_
+1-15	59-64	39/55	*	DATEanswered
+1-16	65-71	Berlin	*	PLACEfrom
+1-17	72-73	,	_	_
+1-18	74-77	den	_	_
+1-19	78-81	26.	*[3]	DATEletter[3]
+1-20	82-85	Mai	*[3]	DATEletter[3]
+1-21	86-90	1876	*[3]	DATEletter[3]
+1-22	91-100	Verehrter	_	_
+1-23	101-107	Freund	_	_
+1-24	108-113	Heute	_	_
+1-25	114-118	geht	_	_
+1-26	119-122	der	_	_
+1-27	123-126	von	_	_
+1-28	127-134	Mommsen	*	PERmentioned
+1-29	135-145	gewünschte	_	_
+1-30	146-151	Codex	_	_
+1-31	152-155	der	_	_
+1-32	156-168	Beneventaner	*[4]	OBJ[4]
+1-33	169-180	Inschriften	*[4]	OBJ[4]
+1-34	181-183	an	_	_
+1-35	184-187	das	_	_
+1-36	188-198	Auswärtige	*[5]	ORGmentioned[5]
+1-37	199-202	Amt	*[5]	ORGmentioned[5]
+1-38	203-204	,	_	_
+1-39	205-208	für	_	_
+1-40	209-212	den	_	_
+1-41	213-221	nächsten	_	_
+1-42	222-231	Feldjäger	_	_
+1-43	232-235	der	_	_
+1-44	236-240	nach	_	_
+1-45	241-244	Rom	*	PLACEmentioned
+1-46	245-252	abgehen	_	_
+1-47	253-257	wird	_	_
+1-48	258-259	.	_	_
+
+#Text=Vielleicht kann ich auch zugleich die Diplome senden .
+2-1	260-270	Vielleicht	_	_
+2-2	271-275	kann	_	_
+2-3	276-279	ich	_	_
+2-4	280-284	auch	_	_
+2-5	285-293	zugleich	_	_
+2-6	294-297	die	_	_
+2-7	298-305	Diplome	_	_
+2-8	306-312	senden	_	_
+2-9	313-314	.	_	_
+
+#Text=Von hier hat niemand Ihre und Mommsen 's Vorschläge vermehrt .
+3-1	315-318	Von	_	_
+3-2	319-323	hier	_	_
+3-3	324-327	hat	_	_
+3-4	328-335	niemand	_	_
+3-5	336-340	Ihre	_	_
+3-6	341-344	und	_	_
+3-7	345-352	Mommsen	*[7]	PERmentioned[7]
+3-8	353-355	's	*[7]	PERmentioned[7]
+3-9	356-366	Vorschläge	_	_
+3-10	367-375	vermehrt	_	_
+3-11	376-377	.	_	_
+
+#Text=Mein Brief an Helbig wegen seines Urlaubs wird eingegangen sein .
+4-1	378-382	Mein	_	_
+4-2	383-388	Brief	_	_
+4-3	389-391	an	_	_
+4-4	392-398	Helbig	*	PERmentioned
+4-5	399-404	wegen	_	_
+4-6	405-411	seines	_	_
+4-7	412-419	Urlaubs	_	_
+4-8	420-424	wird	_	_
+4-9	425-436	eingegangen	_	_
+4-10	437-441	sein	_	_
+4-11	442-443	.	_	_
+
+#Text=Sagen Sie Mommsen wenn er bei Ihnen sein sollte , daß die 20.000 Mark für auf 3 Jahre für die Attische Triangulirung bewilligt sind .
+5-1	444-449	Sagen	_	_
+5-2	450-453	Sie	_	_
+5-3	454-461	Mommsen	*	PERmentioned
+5-4	462-466	wenn	_	_
+5-5	467-469	er	_	_
+5-6	470-473	bei	_	_
+5-7	474-479	Ihnen	_	_
+5-8	480-484	sein	_	_
+5-9	485-491	sollte	_	_
+5-10	492-493	,	_	_
+5-11	494-497	daß	_	_
+5-12	498-501	die	_	_
+5-13	502-508	20.000	_	_
+5-14	509-513	Mark	_	_
+5-15	514-517	für	_	_
+5-16	518-521	auf	_	_
+5-17	522-523	3	_	_
+5-18	524-529	Jahre	_	_
+5-19	530-533	für	_	_
+5-20	534-537	die	_	_
+5-21	538-546	Attische	_	_
+5-22	547-560	Triangulirung	_	_
+5-23	561-570	bewilligt	_	_
+5-24	571-575	sind	_	_
+5-25	576-577	.	_	_
+
+#Text=Mit herzlichem Gruß Ihr ergebenster R Lepsius Temperatur bei uns noch immer 8 - 120 R . Aber eine Baumblüthe wie ich mich nach keiner erinnere .
+6-1	578-581	Mit	_	_
+6-2	582-592	herzlichem	_	_
+6-3	593-597	Gruß	_	_
+6-4	598-601	Ihr	_	_
+6-5	602-613	ergebenster	_	_
+6-6	614-615	R	*[6]	PERauthor[6]
+6-7	616-623	Lepsius	*[6]	PERauthor[6]
+6-8	624-634	Temperatur	_	_
+6-9	635-638	bei	_	_
+6-10	639-642	uns	_	_
+6-11	643-647	noch	_	_
+6-12	648-653	immer	_	_
+6-13	654-655	8	_	_
+6-14	656-657	-	_	_
+6-15	658-661	120	_	_
+6-16	662-663	R	_	_
+6-17	664-665	.	_	_
+6-18	666-670	Aber	_	_
+6-19	671-675	eine	_	_
+6-20	676-686	Baumblüthe	_	_
+6-21	687-690	wie	_	_
+6-22	691-694	ich	_	_
+6-23	695-699	mich	_	_
+6-24	700-704	nach	_	_
+6-25	705-711	keiner	_	_
+6-26	712-720	erinnere	_	_
+6-27	721-722	.	_	_
+
+#Text=Wenn das Obst , das vortrefflich angesetzt hat , reich wird , so wird es ein seltenes Obstjahr werden .
+7-1	723-727	Wenn	_	_
+7-2	728-731	das	_	_
+7-3	732-736	Obst	_	_
+7-4	737-738	,	_	_
+7-5	739-742	das	_	_
+7-6	743-755	vortrefflich	_	_
+7-7	756-765	angesetzt	_	_
+7-8	766-769	hat	_	_
+7-9	770-771	,	_	_
+7-10	772-777	reich	_	_
+7-11	778-782	wird	_	_
+7-12	783-784	,	_	_
+7-13	785-787	so	_	_
+7-14	788-792	wird	_	_
+7-15	793-795	es	_	_
+7-16	796-799	ein	_	_
+7-17	800-808	seltenes	_	_
+7-18	809-817	Obstjahr	_	_
+7-19	818-824	werden	_	_
+7-20	825-826	.	_	_

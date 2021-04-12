@@ -1,0 +1,171 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Berlin , 13 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	13	*[1]	DATEletter[1]
+1-7	29-30	.	*[1]	DATEletter[1]
+
+#Text=August 1833 Die Tausen Noten des Rapporto waeren eingetragen \| !
+2-1	31-37	August	*[1]	DATEletter[1]
+2-2	38-42	1833	*[1]	DATEletter[1]
+2-3	43-46	Die	_	_
+2-4	47-53	Tausen	_	_
+2-5	54-59	Noten	_	_
+2-6	60-63	des	_	_
+2-7	64-72	Rapporto	*	LIT
+2-8	73-79	waeren	_	_
+2-9	80-91	eingetragen	_	_
+2-10	92-93	\|	_	_
+2-11	94-95	!	_	_
+
+#Text=Gottlob .
+3-1	96-103	Gottlob	_	_
+3-2	104-105	.	_	_
+
+#Text=- Noch habe ich 1 1/2 Bände Annalen vor mir .
+4-1	106-107	-	_	_
+4-2	108-112	Noch	_	_
+4-3	113-117	habe	_	_
+4-4	118-121	ich	_	_
+4-5	122-123	1	_	_
+4-6	124-127	1/2	_	_
+4-7	128-133	Bände	_	_
+4-8	134-141	Annalen	*	LIT
+4-9	142-145	vor	_	_
+4-10	146-149	mir	_	_
+4-11	150-151	.	_	_
+
+#Text=Ob ich noch hier an die Memoiren gehe weiß ich nicht .
+5-1	152-154	Ob	_	_
+5-2	155-158	ich	_	_
+5-3	159-163	noch	_	_
+5-4	164-168	hier	_	_
+5-5	169-171	an	_	_
+5-6	172-175	die	_	_
+5-7	176-184	Memoiren	*	LIT
+5-8	185-189	gehe	_	_
+5-9	190-194	weiß	_	_
+5-10	195-198	ich	_	_
+5-11	199-204	nicht	_	_
+5-12	205-206	.	_	_
+
+#Text=Die Zeit läuft immer enger zusammen .
+6-1	207-210	Die	_	_
+6-2	211-215	Zeit	_	_
+6-3	216-221	läuft	_	_
+6-4	222-227	immer	_	_
+6-5	228-233	enger	_	_
+6-6	234-242	zusammen	_	_
+6-7	243-244	.	_	_
+
+#Text=Prof. Hoffmann wünscht gern etwas von Ihnen über Piermont zu wissen , in Betreff seines Freundes Mencke .
+7-1	245-250	Prof.	*[2]	PERmentioned[2]
+7-2	251-259	Hoffmann	*[2]	PERmentioned[2]
+7-3	260-267	wünscht	_	_
+7-4	268-272	gern	_	_
+7-5	273-278	etwas	_	_
+7-6	279-282	von	_	_
+7-7	283-288	Ihnen	_	_
+7-8	289-293	über	_	_
+7-9	294-302	Piermont	*	PERmentioned
+7-10	303-305	zu	_	_
+7-11	306-312	wissen	_	_
+7-12	313-314	,	_	_
+7-13	315-317	in	_	_
+7-14	318-325	Betreff	_	_
+7-15	326-332	seines	_	_
+7-16	333-341	Freundes	_	_
+7-17	342-348	Mencke	*	PERmentioned
+7-18	349-350	.	_	_
+
+#Text=So eben erhalte ich einen Band Novellen von Rumohr , - Levezow hat noch keinen Bescheid gegeben .
+8-1	351-353	So	_	_
+8-2	354-358	eben	_	_
+8-3	359-366	erhalte	_	_
+8-4	367-370	ich	_	_
+8-5	371-376	einen	_	_
+8-6	377-381	Band	*[3]	LIT[3]
+8-7	382-390	Novellen	*[3]	LIT[3]
+8-8	391-394	von	_	_
+8-9	395-401	Rumohr	*	PERmentioned
+8-10	402-403	,	_	_
+8-11	404-405	-	_	_
+8-12	406-413	Levezow	*	PERmentioned
+8-13	414-417	hat	_	_
+8-14	418-422	noch	_	_
+8-15	423-429	keinen	_	_
+8-16	430-438	Bescheid	_	_
+8-17	439-446	gegeben	_	_
+8-18	447-448	.	_	_
+
+#Text=Gelesen wird er ja nun wohl Ihren Brief haben , Sie wissen ja wohl , daß er stets fürchtet das eine oder das andre zu vergessen .
+9-1	449-456	Gelesen	_	_
+9-2	457-461	wird	_	_
+9-3	462-464	er	_	_
+9-4	465-467	ja	_	_
+9-5	468-471	nun	_	_
+9-6	472-476	wohl	_	_
+9-7	477-482	Ihren	_	_
+9-8	483-488	Brief	_	_
+9-9	489-494	haben	_	_
+9-10	495-496	,	_	_
+9-11	497-500	Sie	_	_
+9-12	501-507	wissen	_	_
+9-13	508-510	ja	_	_
+9-14	511-515	wohl	_	_
+9-15	516-517	,	_	_
+9-16	518-521	daß	_	_
+9-17	522-524	er	_	_
+9-18	525-530	stets	_	_
+9-19	531-539	fürchtet	_	_
+9-20	540-543	das	_	_
+9-21	544-548	eine	_	_
+9-22	549-553	oder	_	_
+9-23	554-557	das	_	_
+9-24	558-563	andre	_	_
+9-25	564-566	zu	_	_
+9-26	567-576	vergessen	_	_
+9-27	577-578	.	_	_
+
+#Text=Von den Vasen habe ich Ihnen übrigens trotz dem auferlegten Stillschweigen geschrieben .
+10-1	579-582	Von	_	_
+10-2	583-586	den	_	_
+10-3	587-592	Vasen	*	OBJ
+10-4	593-597	habe	_	_
+10-5	598-601	ich	_	_
+10-6	602-607	Ihnen	_	_
+10-7	608-616	übrigens	_	_
+10-8	617-622	trotz	_	_
+10-9	623-626	dem	_	_
+10-10	627-638	auferlegten	_	_
+10-11	639-653	Stillschweigen	_	_
+10-12	654-665	geschrieben	_	_
+10-13	666-667	.	_	_
+
+#Text=Neues hats gar nicht .
+11-1	668-673	Neues	_	_
+11-2	674-678	hats	_	_
+11-3	679-682	gar	_	_
+11-4	683-688	nicht	_	_
+11-5	689-690	.	_	_
+
+#Text=Ihr getreuester E .
+12-1	691-694	Ihr	_	_
+12-2	695-706	getreuester	_	_
+12-3	707-708	E	*[5]	PERauthor[5]
+12-4	709-710	.	*[5]	PERauthor[5]
+
+#Text=Braun Berlin 13 Aug . 33 .
+13-1	711-716	Braun	*[5]	PERauthor[5]
+13-2	717-723	Berlin	*	PLACEfrom
+13-3	724-726	13	*[4]	DATEletter[4]
+13-4	727-730	Aug	*[4]	DATEletter[4]
+13-5	731-732	.	*[4]	DATEletter[4]
+13-6	733-735	33	*[4]	DATEletter[4]
+13-7	736-737	.	_	_

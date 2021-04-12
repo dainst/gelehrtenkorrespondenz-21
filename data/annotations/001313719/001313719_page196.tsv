@@ -1,0 +1,239 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=269 Gerhard an Henzen Berlin 18/XII/1849 A , di Dir .
+1-1	0-3	269	_	_	
+1-2	4-11	Gerhard	*	PERauthor	
+1-3	12-14	an	_	_	
+1-4	15-21	Henzen	*	PERaddressee	
+1-5	22-28	Berlin	*	PLACEfrom	
+1-6	29-40	18/XII/1849	*	DATEletter	
+1-7	41-42	A	_	_	
+1-8	43-44	,	_	_	
+1-9	45-47	di	_	_	
+1-10	48-51	Dir	_	_	
+1-11	52-53	.	_	_	
+
+#Text=8 .
+2-1	54-55	8	_	_	
+2-2	56-57	.	_	_	
+
+#Text=29Y/XII 49 Tr .
+3-1	58-65	29Y/XII	*[1]	DATErecieved[1]	
+3-2	66-68	49	*[1]	DATErecieved[1]	
+3-3	69-71	Tr	_	_	
+3-4	72-73	.	_	_	
+
+#Text=WYIL 50 D. Henzen Berlin 18 Dec 49 Lieber armer Freund | !
+4-1	74-78	WYIL	*[2]	DATEanswered[2]	
+4-2	79-81	50	*[2]	DATEanswered[2]	
+4-3	82-84	D.	_	_	
+4-4	85-91	Henzen	*	PERaddressee	
+4-5	92-98	Berlin	*	PLACEfrom	
+4-6	99-101	18	*[3]	DATEletter[3]	
+4-7	102-105	Dec	*[3]	DATEletter[3]	
+4-8	106-108	49	*[3]	DATEletter[3]	
+4-9	109-115	Lieber	_	_	
+4-10	116-121	armer	_	_	
+4-11	122-128	Freund	_	_	
+4-12	129-130	|	_	_	
+4-13	131-132	!	_	_	
+
+#Text=Das lautet ja ungleich betrübter über Sie Reconvalescenten als Brunns neulicher Bericht aus Ihrer Krankheitszeit mich es hatte fürchten lassen !
+5-1	133-136	Das	_	_	
+5-2	137-143	lautet	_	_	
+5-3	144-146	ja	_	_	
+5-4	147-155	ungleich	_	_	
+5-5	156-165	betrübter	_	_	
+5-6	166-170	über	_	_	
+5-7	171-174	Sie	_	_	
+5-8	175-191	Reconvalescenten	_	_	
+5-9	192-195	als	_	_	
+5-10	196-202	Brunns	*	PERmentioned	
+5-11	203-212	neulicher	_	_	
+5-12	213-220	Bericht	_	_	
+5-13	221-224	aus	_	_	
+5-14	225-230	Ihrer	_	_	
+5-15	231-245	Krankheitszeit	_	_	
+5-16	246-250	mich	_	_	
+5-17	251-253	es	_	_	
+5-18	254-259	hatte	_	_	
+5-19	260-268	fürchten	_	_	
+5-20	269-275	lassen	_	_	
+5-21	276-277	!	_	_	
+
+#Text=Wir wollen aber Gott danken Sie wenigstens so weit wieder zu haben , und Sie selbst mögen , wie ich schon neulich mich äußerte , sich kein grau HaaYwachsen lassen daß in fortwährend so außerordentlichen und so fremdenleeren römischen Zeitumständen nicht alle Geschäftsordnung sich hat wahren lassen !
+6-1	278-281	Wir	_	_	
+6-2	282-288	wollen	_	_	
+6-3	289-293	aber	_	_	
+6-4	294-298	Gott	_	_	
+6-5	299-305	danken	_	_	
+6-6	306-309	Sie	_	_	
+6-7	310-320	wenigstens	_	_	
+6-8	321-323	so	_	_	
+6-9	324-328	weit	_	_	
+6-10	329-335	wieder	_	_	
+6-11	336-338	zu	_	_	
+6-12	339-344	haben	_	_	
+6-13	345-346	,	_	_	
+6-14	347-350	und	_	_	
+6-15	351-354	Sie	_	_	
+6-16	355-361	selbst	_	_	
+6-17	362-367	mögen	_	_	
+6-18	368-369	,	_	_	
+6-19	370-373	wie	_	_	
+6-20	374-377	ich	_	_	
+6-21	378-383	schon	_	_	
+6-22	384-391	neulich	_	_	
+6-23	392-396	mich	_	_	
+6-24	397-404	äußerte	_	_	
+6-25	405-406	,	_	_	
+6-26	407-411	sich	_	_	
+6-27	412-416	kein	_	_	
+6-28	417-421	grau	_	_	
+6-29	422-433	HaaYwachsen	_	_	
+6-30	434-440	lassen	_	_	
+6-31	441-444	daß	_	_	
+6-32	445-447	in	_	_	
+6-33	448-459	fortwährend	_	_	
+6-34	460-462	so	_	_	
+6-35	463-480	außerordentlichen	_	_	
+6-36	481-484	und	_	_	
+6-37	485-487	so	_	_	
+6-38	488-501	fremdenleeren	_	_	
+6-39	502-511	römischen	_	_	
+6-40	512-525	Zeitumständen	_	_	
+6-41	526-531	nicht	_	_	
+6-42	532-536	alle	_	_	
+6-43	537-553	Geschäftsordnung	_	_	
+6-44	554-558	sich	_	_	
+6-45	559-562	hat	_	_	
+6-46	563-569	wahren	_	_	
+6-47	570-576	lassen	_	_	
+6-48	577-578	!	_	_	
+
+#Text=Dank um so mehr für Bull .
+7-1	579-583	Dank	_	_	
+7-2	584-586	um	_	_	
+7-3	587-589	so	_	_	
+7-4	590-594	mehr	_	_	
+7-5	595-598	für	_	_	
+7-6	599-603	Bull	_	_	
+7-7	604-605	.	_	_	
+
+#Text=Novembre !
+8-1	606-614	Novembre	_	_	
+8-2	615-616	!	_	_	
+
+#Text=Den Uebelständen wegen des Winckelmannfestes wird Braun nachhelfen .
+9-1	617-620	Den	_	_	
+9-2	621-633	Uebelständen	_	_	
+9-3	634-639	wegen	_	_	
+9-4	640-643	des	_	_	
+9-5	644-661	Winckelmannfestes	_	_	
+9-6	662-666	wird	_	_	
+9-7	667-672	Braun	*	PERmentioned	
+9-8	673-683	nachhelfen	_	_	
+9-9	684-685	.	_	_	
+
+#Text=Hatte derselbe in England früher mehr als billig gezögert ( was ich nicht beurtheilen kann ) so verdient er freilich Tadel ; jetzt aber auf der Rückkehr konnte er bei so manchen unabweislichen Zwecken ( hier auch im Interesse des Instituts ) und so durchaus eigenthümlichen Verhältnissen die sich doch auch hoffentlich zu allgemeinen Segen wenden werden nicht kürzer verwälen als er that .
+10-1	686-691	Hatte	_	_	
+10-2	692-700	derselbe	_	_	
+10-3	701-703	in	_	_	
+10-4	704-711	England	*	PLACEmentioned	
+10-5	712-718	früher	_	_	
+10-6	719-723	mehr	_	_	
+10-7	724-727	als	_	_	
+10-8	728-734	billig	_	_	
+10-9	735-743	gezögert	_	_	
+10-10	744-745	(	_	_	
+10-11	746-749	was	_	_	
+10-12	750-753	ich	_	_	
+10-13	754-759	nicht	_	_	
+10-14	760-771	beurtheilen	_	_	
+10-15	772-776	kann	_	_	
+10-16	777-778	)	_	_	
+10-17	779-781	so	_	_	
+10-18	782-790	verdient	_	_	
+10-19	791-793	er	_	_	
+10-20	794-802	freilich	_	_	
+10-21	803-808	Tadel	_	_	
+10-22	809-810	;	_	_	
+10-23	811-816	jetzt	_	_	
+10-24	817-821	aber	_	_	
+10-25	822-825	auf	_	_	
+10-26	826-829	der	_	_	
+10-27	830-838	Rückkehr	_	_	
+10-28	839-845	konnte	_	_	
+10-29	846-848	er	_	_	
+10-30	849-852	bei	_	_	
+10-31	853-855	so	_	_	
+10-32	856-863	manchen	_	_	
+10-33	864-878	unabweislichen	_	_	
+10-34	879-886	Zwecken	_	_	
+10-35	887-888	(	_	_	
+10-36	889-893	hier	_	_	
+10-37	894-898	auch	_	_	
+10-38	899-901	im	_	_	
+10-39	902-911	Interesse	_	_	
+10-40	912-915	des	_	_	
+10-41	916-925	Instituts	*	ORGmentioned	
+10-42	926-927	)	_	_	
+10-43	928-931	und	_	_	
+10-44	932-934	so	_	_	
+10-45	935-943	durchaus	_	_	
+10-46	944-959	eigenthümlichen	_	_	
+10-47	960-973	Verhältnissen	_	_	
+10-48	974-977	die	_	_	
+10-49	978-982	sich	_	_	
+10-50	983-987	doch	_	_	
+10-51	988-992	auch	_	_	
+10-52	993-1004	hoffentlich	_	_	
+10-53	1005-1007	zu	_	_	
+10-54	1008-1019	allgemeinen	_	_	
+10-55	1020-1025	Segen	_	_	
+10-56	1026-1032	wenden	_	_	
+10-57	1033-1039	werden	_	_	
+10-58	1040-1045	nicht	_	_	
+10-59	1046-1052	kürzer	_	_	
+10-60	1053-1061	verwälen	_	_	
+10-61	1062-1065	als	_	_	
+10-62	1066-1068	er	_	_	
+10-63	1069-1073	that	_	_	
+10-64	1074-1075	.	_	_	
+
+#Text=Beurtheilen Sie ihn also billig in dieser Hinsicht und ertragen Sie die bisher geleisteten außerordentlichen Leistungen in Spe futuri : Sie werden ihn dann auch um so billiger finden Ihnen und dem Institut
+11-1	1076-1087	Beurtheilen	_	_	
+11-2	1088-1091	Sie	_	_	
+11-3	1092-1095	ihn	_	_	
+11-4	1096-1100	also	_	_	
+11-5	1101-1107	billig	_	_	
+11-6	1108-1110	in	_	_	
+11-7	1111-1117	dieser	_	_	
+11-8	1118-1126	Hinsicht	_	_	
+11-9	1127-1130	und	_	_	
+11-10	1131-1139	ertragen	_	_	
+11-11	1140-1143	Sie	_	_	
+11-12	1144-1147	die	_	_	
+11-13	1148-1154	bisher	_	_	
+11-14	1155-1166	geleisteten	_	_	
+11-15	1167-1184	außerordentlichen	_	_	
+11-16	1185-1195	Leistungen	_	_	
+11-17	1196-1198	in	_	_	
+11-18	1199-1202	Spe	_	_	
+11-19	1203-1209	futuri	_	_	
+11-20	1210-1211	:	_	_	
+11-21	1212-1215	Sie	_	_	
+11-22	1216-1222	werden	_	_	
+11-23	1223-1226	ihn	_	_	
+11-24	1227-1231	dann	_	_	
+11-25	1232-1236	auch	_	_	
+11-26	1237-1239	um	_	_	
+11-27	1240-1242	so	_	_	
+11-28	1243-1251	billiger	_	_	
+11-29	1252-1258	finden	_	_	
+11-30	1259-1264	Ihnen	_	_	
+11-31	1265-1268	und	_	_	
+11-32	1269-1272	dem	_	_	
+11-33	1273-1281	Institut	*	ORGmentioned	

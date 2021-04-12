@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen ( Rom ) , 29. Juli 1861 Lieber Henzen Forcella fand heute den Eingang von Citta delle Pulci von so starken Cavalleriemassen besetzt , daß er gar nicht einzudringen wagte .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-17	(	_	_
+1-5	18-21	Rom	*	PLACEfrom
+1-6	22-23	)	_	_
+1-7	24-25	,	_	_
+1-8	26-29	29.	*[5]	DATEletter[5]
+1-9	30-34	Juli	*[5]	DATEletter[5]
+1-10	35-39	1861	*[5]	DATEletter[5]
+1-11	40-46	Lieber	_	_
+1-12	47-53	Henzen	*	PERaddressee
+1-13	54-62	Forcella	*	PERmentioned
+1-14	63-67	fand	_	_
+1-15	68-73	heute	_	_
+1-16	74-77	den	_	_
+1-17	78-85	Eingang	_	_
+1-18	86-89	von	_	_
+1-19	90-95	Citta	*[6]	PERmentioned[6]
+1-20	96-101	delle	*[6]	PERmentioned[6]
+1-21	102-107	Pulci	*[6]	PERmentioned[6]
+1-22	108-111	von	_	_
+1-23	112-114	so	_	_
+1-24	115-122	starken	_	_
+1-25	123-139	Cavalleriemassen	_	_
+1-26	140-147	besetzt	_	_
+1-27	148-149	,	_	_
+1-28	150-153	daß	_	_
+1-29	154-156	er	_	_
+1-30	157-160	gar	_	_
+1-31	161-166	nicht	_	_
+1-32	167-179	einzudringen	_	_
+1-33	180-185	wagte	_	_
+1-34	186-187	.	_	_
+
+#Text=Er requirirte soford Bellard .
+2-1	188-190	Er	_	_
+2-2	191-201	requirirte	_	_
+2-3	202-208	soford	_	_
+2-4	209-216	Bellard	*	PERmentioned
+2-5	217-218	.	_	_
+
+#Text=und ließ unter seinen Augen den ersten gründlichen Feldzug vornehmen \; für Nachmittag ist ein zweiter angesagt , für morgen früh ein Dritter .
+3-1	219-222	und	_	_
+3-2	223-227	ließ	_	_
+3-3	228-233	unter	_	_
+3-4	234-240	seinen	_	_
+3-5	241-246	Augen	_	_
+3-6	247-250	den	_	_
+3-7	251-257	ersten	_	_
+3-8	258-269	gründlichen	_	_
+3-9	270-277	Feldzug	_	_
+3-10	278-287	vornehmen	_	_
+3-11	288-289	\;	_	_
+3-12	290-293	für	_	_
+3-13	294-304	Nachmittag	_	_
+3-14	305-308	ist	_	_
+3-15	309-312	ein	_	_
+3-16	313-320	zweiter	_	_
+3-17	321-329	angesagt	_	_
+3-18	330-331	,	_	_
+3-19	332-335	für	_	_
+3-20	336-342	morgen	_	_
+3-21	343-347	früh	_	_
+3-22	348-351	ein	_	_
+3-23	352-359	Dritter	_	_
+3-24	360-361	.	_	_
+
+#Text=Das wird hoffentlich helfen .
+4-1	362-365	Das	_	_
+4-2	366-370	wird	_	_
+4-3	371-382	hoffentlich	_	_
+4-4	383-389	helfen	_	_
+4-5	390-391	.	_	_
+
+#Text=Nachrichten für mich noch immer nicht .
+5-1	392-403	Nachrichten	_	_
+5-2	404-407	für	_	_
+5-3	408-412	mich	_	_
+5-4	413-417	noch	_	_
+5-5	418-423	immer	_	_
+5-6	424-429	nicht	_	_
+5-7	430-431	.	_	_
+
+#Text=Etwas sonderbar lautet der Artikel in der Beilage von n . 203 über Jahns Fackelzug .
+6-1	432-437	Etwas	_	_
+6-2	438-447	sonderbar	_	_
+6-3	448-454	lautet	_	_
+6-4	455-458	der	_	_
+6-5	459-466	Artikel	_	_
+6-6	467-469	in	_	_
+6-7	470-473	der	_	_
+6-8	474-481	Beilage	_	_
+6-9	482-485	von	_	_
+6-10	486-487	n	_	_
+6-11	488-489	.	_	_
+6-12	490-493	203	_	_
+6-13	494-498	über	_	_
+6-14	499-504	Jahns	*	PERmentioned
+6-15	505-514	Fackelzug	_	_
+6-16	515-516	.	_	_
+
+#Text=Cl & öment ist wieder wohler und hatte überhaupt keine Terzana , wie geglaubt wurde .
+7-1	517-519	Cl	*[9]	PERmentioned[9]
+7-2	520-521	&	*[9]	PERmentioned[9]
+7-3	522-527	öment	*[9]	PERmentioned[9]
+7-4	528-531	ist	_	_
+7-5	532-538	wieder	_	_
+7-6	539-545	wohler	_	_
+7-7	546-549	und	_	_
+7-8	550-555	hatte	_	_
+7-9	556-565	überhaupt	_	_
+7-10	566-571	keine	_	_
+7-11	572-579	Terzana	_	_
+7-12	580-581	,	_	_
+7-13	582-585	wie	_	_
+7-14	586-594	geglaubt	_	_
+7-15	595-600	wurde	_	_
+7-16	601-602	.	_	_
+
+#Text=So werde ich 's in dieser Woche nicht ganz so schlimm haben , wie ich dachte .
+8-1	603-605	So	_	_
+8-2	606-611	werde	_	_
+8-3	612-615	ich	_	_
+8-4	616-618	's	_	_
+8-5	619-621	in	_	_
+8-6	622-628	dieser	_	_
+8-7	629-634	Woche	_	_
+8-8	635-640	nicht	_	_
+8-9	641-645	ganz	_	_
+8-10	646-648	so	_	_
+8-11	649-656	schlimm	_	_
+8-12	657-662	haben	_	_
+8-13	663-664	,	_	_
+8-14	665-668	wie	_	_
+8-15	669-672	ich	_	_
+8-16	673-679	dachte	_	_
+8-17	680-681	.	_	_
+
+#Text=Wegen der Addresse war bei bei Spithöver und v. d. Goltz und denke , daß heute alles in Ordnung kommt .
+9-1	682-687	Wegen	_	_
+9-2	688-691	der	_	_
+9-3	692-700	Addresse	_	_
+9-4	701-704	war	_	_
+9-5	705-708	bei	_	_
+9-6	709-712	bei	_	_
+9-7	713-722	Spithöver	*	PERmentioned
+9-8	723-726	und	_	_
+9-9	727-729	v.	*[7]	PERmentioned[7]
+9-10	730-732	d.	*[7]	PERmentioned[7]
+9-11	733-738	Goltz	*[7]	PERmentioned[7]
+9-12	739-742	und	_	_
+9-13	743-748	denke	_	_
+9-14	749-750	,	_	_
+9-15	751-754	daß	_	_
+9-16	755-760	heute	_	_
+9-17	761-766	alles	_	_
+9-18	767-769	in	_	_
+9-19	770-777	Ordnung	_	_
+9-20	778-783	kommt	_	_
+9-21	784-785	.	_	_
+
+#Text=2 Briefe : von Cavedoni und der Braun ?
+10-1	786-787	2	_	_
+10-2	788-794	Briefe	_	_
+10-3	795-796	:	_	_
+10-4	797-800	von	_	_
+10-5	801-809	Cavedoni	*	PERmentioned
+10-6	810-813	und	_	_
+10-7	814-817	der	_	_
+10-8	818-823	Braun	*	PERauthor
+10-9	824-825	?	_	_
+
+#Text=Wenn letzteres , welche Nachrichten ?
+11-1	826-830	Wenn	_	_
+11-2	831-840	letzteres	_	_
+11-3	841-842	,	_	_
+11-4	843-849	welche	_	_
+11-5	850-861	Nachrichten	_	_
+11-6	862-863	?	_	_
+
+#Text=Die span , Grammatik hatten Sie wahrscheinlich bei Spithöver bestellt .
+12-1	864-867	Die	_	_
+12-2	868-872	span	_	_
+12-3	873-874	,	_	_
+12-4	875-884	Grammatik	_	_
+12-5	885-891	hatten	_	_
+12-6	892-895	Sie	_	_
+12-7	896-910	wahrscheinlich	_	_
+12-8	911-914	bei	_	_
+12-9	915-924	Spithöver	*	PERmentioned
+12-10	925-933	bestellt	_	_
+12-11	934-935	.	_	_
+
+#Text=Mit besten Grüßen Ihr HBrunn Montag , 29/VIL/61 .
+13-1	936-939	Mit	_	_
+13-2	940-946	besten	_	_
+13-3	947-953	Grüßen	_	_
+13-4	954-957	Ihr	_	_
+13-5	958-964	HBrunn	*	PERauthor
+13-6	965-971	Montag	*[8]	DATEletter[8]
+13-7	972-973	,	*[8]	DATEletter[8]
+13-8	974-983	29/VIL/61	*[8]	DATEletter[8]
+13-9	984-985	.	_	_

@@ -1,0 +1,260 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=I .
+1-1	0-1	I	_	_
+1-2	2-3	.	_	_
+
+#Text=273 Braun an Gerhard Rom , 26. Februar 1835 Bedingung zu erwarten hat , so ist immer Hoffnung zur glücklichen Erlangung vorhanden .
+2-1	4-7	273	_	_
+2-2	8-13	Braun	*	PERauthor
+2-3	14-16	an	_	_
+2-4	17-24	Gerhard	*	PERaddressee
+2-5	25-28	Rom	*	PLACEfrom
+2-6	29-30	,	_	_
+2-7	31-34	26.	*[1]	DATEletter[1]
+2-8	35-42	Februar	*[1]	DATEletter[1]
+2-9	43-47	1835	*[1]	DATEletter[1]
+2-10	48-57	Bedingung	_	_
+2-11	58-60	zu	_	_
+2-12	61-69	erwarten	_	_
+2-13	70-73	hat	_	_
+2-14	74-75	,	_	_
+2-15	76-78	so	_	_
+2-16	79-82	ist	_	_
+2-17	83-88	immer	_	_
+2-18	89-97	Hoffnung	_	_
+2-19	98-101	zur	_	_
+2-20	102-113	glücklichen	_	_
+2-21	114-123	Erlangung	_	_
+2-22	124-133	vorhanden	_	_
+2-23	134-135	.	_	_
+
+#Text=Der mazzo di fiori wurde von mir bezahlt und dadurch mit Inbegriff der Gemeindegutthaten Ihrer seits , das für mich in Paris erledigte Conto gedeckt .
+3-1	136-139	Der	_	_
+3-2	140-145	mazzo	_	_
+3-3	146-148	di	_	_
+3-4	149-154	fiori	_	_
+3-5	155-160	wurde	_	_
+3-6	161-164	von	_	_
+3-7	165-168	mir	_	_
+3-8	169-176	bezahlt	_	_
+3-9	177-180	und	_	_
+3-10	181-188	dadurch	_	_
+3-11	189-192	mit	_	_
+3-12	193-202	Inbegriff	_	_
+3-13	203-206	der	_	_
+3-14	207-224	Gemeindegutthaten	_	_
+3-15	225-230	Ihrer	_	_
+3-16	231-236	seits	_	_
+3-17	237-238	,	_	_
+3-18	239-242	das	_	_
+3-19	243-246	für	_	_
+3-20	247-251	mich	_	_
+3-21	252-254	in	_	_
+3-22	255-260	Paris	*	PLACEmentioned
+3-23	261-270	erledigte	_	_
+3-24	271-276	Conto	_	_
+3-25	277-284	gedeckt	_	_
+3-26	285-286	.	_	_
+
+#Text=Sie zahlten 7Sc .
+4-1	287-290	Sie	_	_
+4-2	291-298	zahlten	_	_
+4-3	299-302	7Sc	_	_
+4-4	303-304	.	_	_
+
+#Text=8 baj .
+5-1	305-306	8	_	_
+5-2	307-310	baj	_	_
+5-3	311-312	.	_	_
+
+#Text=Ich dagegen 2 Napold .
+6-1	313-316	Ich	_	_
+6-2	317-324	dagegen	_	_
+6-3	325-326	2	_	_
+6-4	327-333	Napold	_	_
+6-5	334-335	.	_	_
+
+#Text=und den mazz2o per uno Scudo .
+7-1	336-339	und	_	_
+7-2	340-343	den	_	_
+7-3	344-350	mazz2o	_	_
+7-4	351-354	per	_	_
+7-5	355-358	uno	_	_
+7-6	359-364	Scudo	_	_
+7-7	365-366	.	_	_
+
+#Text=Kestner hat bei einer neulichen größeren Geldnoth , plötzlich von mir überrumpelt , bezahlen müssen .
+8-1	367-374	Kestner	*	PERmentioned
+8-2	375-378	hat	_	_
+8-3	379-382	bei	_	_
+8-4	383-388	einer	_	_
+8-5	389-398	neulichen	_	_
+8-6	399-407	größeren	_	_
+8-7	408-416	Geldnoth	_	_
+8-8	417-418	,	_	_
+8-9	419-428	plötzlich	_	_
+8-10	429-432	von	_	_
+8-11	433-436	mir	_	_
+8-12	437-448	überrumpelt	_	_
+8-13	449-450	,	_	_
+8-14	451-459	bezahlen	_	_
+8-15	460-466	müssen	_	_
+8-16	467-468	.	_	_
+
+#Text=An Ouwaroff müssen Sie schreiben , daß er an Gourieff den Befehl oder die Altffßrderung gelangen lasse , die Exemplare in Empfang zu nehmen und sie zu bezahlen .
+9-1	469-471	An	_	_
+9-2	472-480	Ouwaroff	*	PERmentioned
+9-3	481-487	müssen	_	_
+9-4	488-491	Sie	_	_
+9-5	492-501	schreiben	_	_
+9-6	502-503	,	_	_
+9-7	504-507	daß	_	_
+9-8	508-510	er	_	_
+9-9	511-513	an	_	_
+9-10	514-522	Gourieff	_	_
+9-11	523-526	den	_	_
+9-12	527-533	Befehl	_	_
+9-13	534-538	oder	_	_
+9-14	539-542	die	_	_
+9-15	543-556	Altffßrderung	_	_
+9-16	557-565	gelangen	_	_
+9-17	566-571	lasse	_	_
+9-18	572-573	,	_	_
+9-19	574-577	die	_	_
+9-20	578-587	Exemplare	_	_
+9-21	588-590	in	_	_
+9-22	591-598	Empfang	_	_
+9-23	599-601	zu	_	_
+9-24	602-608	nehmen	_	_
+9-25	609-612	und	_	_
+9-26	613-616	sie	_	_
+9-27	617-619	zu	_	_
+9-28	620-628	bezahlen	_	_
+9-29	629-630	.	_	_
+
+#Text=Bunsen hat schon mit letzterem gesprochen , auch die an Sie übersandten Briefe vorgelegt , aber es läßt sich eben nichts weiter thuen , bevor Sie diesen Schritt gethan .
+10-1	631-637	Bunsen	*	PERmentioned
+10-2	638-641	hat	_	_
+10-3	642-647	schon	_	_
+10-4	648-651	mit	_	_
+10-5	652-661	letzterem	_	_
+10-6	662-672	gesprochen	_	_
+10-7	673-674	,	_	_
+10-8	675-679	auch	_	_
+10-9	680-683	die	_	_
+10-10	684-686	an	_	_
+10-11	687-690	Sie	_	_
+10-12	691-702	übersandten	_	_
+10-13	703-709	Briefe	_	_
+10-14	710-719	vorgelegt	_	_
+10-15	720-721	,	_	_
+10-16	722-726	aber	_	_
+10-17	727-729	es	_	_
+10-18	730-734	läßt	_	_
+10-19	735-739	sich	_	_
+10-20	740-744	eben	_	_
+10-21	745-751	nichts	_	_
+10-22	752-758	weiter	_	_
+10-23	759-764	thuen	_	_
+10-24	765-766	,	_	_
+10-25	767-772	bevor	_	_
+10-26	773-776	Sie	_	_
+10-27	777-783	diesen	_	_
+10-28	784-791	Schritt	_	_
+10-29	792-798	gethan	_	_
+10-30	799-800	.	_	_
+
+#Text=Bunsens Theilnahme an der Redaction ist nun durch ein von ihm selbst dictirtes Avviso d.D , angezeigt \; sie scheint sich vorzugsweise auf die Redaction der Atti delle Adunanze zu beziehen .
+11-1	801-808	Bunsens	*	PERmentioned
+11-2	809-819	Theilnahme	_	_
+11-3	820-822	an	_	_
+11-4	823-826	der	_	_
+11-5	827-836	Redaction	_	_
+11-6	837-840	ist	_	_
+11-7	841-844	nun	_	_
+11-8	845-850	durch	_	_
+11-9	851-854	ein	_	_
+11-10	855-858	von	_	_
+11-11	859-862	ihm	_	_
+11-12	863-869	selbst	_	_
+11-13	870-879	dictirtes	_	_
+11-14	880-886	Avviso	_	_
+11-15	887-890	d.D	_	_
+11-16	891-892	,	_	_
+11-17	893-902	angezeigt	_	_
+11-18	903-904	\;	_	_
+11-19	905-908	sie	_	_
+11-20	909-916	scheint	_	_
+11-21	917-921	sich	_	_
+11-22	922-934	vorzugsweise	_	_
+11-23	935-938	auf	_	_
+11-24	939-942	die	_	_
+11-25	943-952	Redaction	_	_
+11-26	953-956	der	_	_
+11-27	957-961	Atti	_	_
+11-28	962-967	delle	_	_
+11-29	968-976	Adunanze	_	_
+11-30	977-979	zu	_	_
+11-31	980-988	beziehen	_	_
+11-32	989-990	.	_	_
+
+#Text=In der ersten Sitzung ist gesetzlich augenommen worden , daß jeder der in der Adunanza etwas vorzeigt , binnen 24 Stunden es schriftlich an Lanci abgibt um es dann im Bull .
+12-1	991-993	In	_	_
+12-2	994-997	der	_	_
+12-3	998-1004	ersten	_	_
+12-4	1005-1012	Sitzung	_	_
+12-5	1013-1016	ist	_	_
+12-6	1017-1027	gesetzlich	_	_
+12-7	1028-1038	augenommen	_	_
+12-8	1039-1045	worden	_	_
+12-9	1046-1047	,	_	_
+12-10	1048-1051	daß	_	_
+12-11	1052-1057	jeder	_	_
+12-12	1058-1061	der	_	_
+12-13	1062-1064	in	_	_
+12-14	1065-1068	der	_	_
+12-15	1069-1077	Adunanza	_	_
+12-16	1078-1083	etwas	_	_
+12-17	1084-1092	vorzeigt	_	_
+12-18	1093-1094	,	_	_
+12-19	1095-1101	binnen	_	_
+12-20	1102-1104	24	_	_
+12-21	1105-1112	Stunden	_	_
+12-22	1113-1115	es	_	_
+12-23	1116-1127	schriftlich	_	_
+12-24	1128-1130	an	_	_
+12-25	1131-1136	Lanci	_	_
+12-26	1137-1143	abgibt	_	_
+12-27	1144-1146	um	_	_
+12-28	1147-1149	es	_	_
+12-29	1150-1154	dann	_	_
+12-30	1155-1157	im	_	_
+12-31	1158-1162	Bull	_	_
+12-32	1163-1164	.	_	_
+
+#Text=mit den nöthigen Formänderungen drucken zu lassen .
+13-1	1165-1168	mit	_	_
+13-2	1169-1172	den	_	_
+13-3	1173-1181	nöthigen	_	_
+13-4	1182-1196	Formänderungen	_	_
+13-5	1197-1204	drucken	_	_
+13-6	1205-1207	zu	_	_
+13-7	1208-1214	lassen	_	_
+13-8	1215-1216	.	_	_
+
+#Text=Er hofft dadurch auch mehr Monumente in den Adunanzen zu erhalten .
+14-1	1217-1219	Er	_	_
+14-2	1220-1225	hofft	_	_
+14-3	1226-1233	dadurch	_	_
+14-4	1234-1238	auch	_	_
+14-5	1239-1243	mehr	_	_
+14-6	1244-1253	Monumente	_	_
+14-7	1254-1256	in	_	_
+14-8	1257-1260	den	_	_
+14-9	1261-1270	Adunanzen	_	_
+14-10	1271-1273	zu	_	_
+14-11	1274-1282	erhalten	_	_
+14-12	1283-1284	.	_	_

@@ -1,0 +1,297 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=181 Gerhard an Braun Berlin , 13. Juni 1836 willigt .
+1-1	0-3	181	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	13.	*[4]	DATEletter[4]
+1-8	34-38	Juni	*[4]	DATEletter[4]
+1-9	39-43	1836	*[4]	DATEletter[4]
+1-10	44-51	willigt	_	_
+1-11	52-53	.	_	_
+
+#Text=Ich bin der Meinung , Sie können ihm gerade hin einen abziehen , etwa 15 rt und die Transportkosten , oder , da er doch Bücher schenkt und dgl .
+2-1	54-57	Ich	_	_
+2-2	58-61	bin	_	_
+2-3	62-65	der	_	_
+2-4	66-73	Meinung	_	_
+2-5	74-75	,	_	_
+2-6	76-79	Sie	_	_
+2-7	80-86	können	_	_
+2-8	87-90	ihm	_	_
+2-9	91-97	gerade	_	_
+2-10	98-101	hin	_	_
+2-11	102-107	einen	_	_
+2-12	108-116	abziehen	_	_
+2-13	117-118	,	_	_
+2-14	119-123	etwa	_	_
+2-15	124-126	15	_	_
+2-16	127-129	rt	_	_
+2-17	130-133	und	_	_
+2-18	134-137	die	_	_
+2-19	138-153	Transportkosten	_	_
+2-20	154-155	,	_	_
+2-21	156-160	oder	_	_
+2-22	161-162	,	_	_
+2-23	163-165	da	_	_
+2-24	166-168	er	_	_
+2-25	169-173	doch	_	_
+2-26	174-180	Bücher	_	_
+2-27	181-188	schenkt	_	_
+2-28	189-192	und	_	_
+2-29	193-196	dgl	_	_
+2-30	197-198	.	_	_
+
+#Text=zu schätzen weiß , immerhin nur 10 rt .
+3-1	199-201	zu	_	_
+3-2	202-210	schätzen	_	_
+3-3	211-215	weiß	_	_
+3-4	216-217	,	_	_
+3-5	218-226	immerhin	_	_
+3-6	227-230	nur	_	_
+3-7	231-233	10	_	_
+3-8	234-236	rt	_	_
+3-9	237-238	.	_	_
+
+#Text=Diese Normen lassen Sie doch von Bunsen bestimmen \; den P. glimpflich zu behandeln ist alle Rücksicht da und B. wird sie respektiren .
+4-1	239-244	Diese	_	_
+4-2	245-251	Normen	_	_
+4-3	252-258	lassen	_	_
+4-4	259-262	Sie	_	_
+4-5	263-267	doch	_	_
+4-6	268-271	von	_	_
+4-7	272-278	Bunsen	*	PERmentioned
+4-8	279-288	bestimmen	_	_
+4-9	289-290	\;	_	_
+4-10	291-294	den	_	_
+4-11	295-297	P.	_	_
+4-12	298-308	glimpflich	_	_
+4-13	309-311	zu	_	_
+4-14	312-321	behandeln	_	_
+4-15	322-325	ist	_	_
+4-16	326-330	alle	_	_
+4-17	331-340	Rücksicht	_	_
+4-18	341-343	da	_	_
+4-19	344-347	und	_	_
+4-20	348-350	B.	_	_
+4-21	351-355	wird	_	_
+4-22	356-359	sie	_	_
+4-23	360-371	respektiren	_	_
+4-24	372-373	.	_	_
+
+#Text=Ich meine aber , es sei besser demnach berechnet ihm seine Rechnung auszuziehen , als hier erst zu markten , Machen Sie das bald und ich zahle sofort .
+5-1	374-377	Ich	_	_
+5-2	378-383	meine	_	_
+5-3	384-388	aber	_	_
+5-4	389-390	,	_	_
+5-5	391-393	es	_	_
+5-6	394-397	sei	_	_
+5-7	398-404	besser	_	_
+5-8	405-412	demnach	_	_
+5-9	413-422	berechnet	_	_
+5-10	423-426	ihm	_	_
+5-11	427-432	seine	_	_
+5-12	433-441	Rechnung	_	_
+5-13	442-453	auszuziehen	_	_
+5-14	454-455	,	_	_
+5-15	456-459	als	_	_
+5-16	460-464	hier	_	_
+5-17	465-469	erst	_	_
+5-18	470-472	zu	_	_
+5-19	473-480	markten	_	_
+5-20	481-482	,	_	_
+5-21	483-489	Machen	_	_
+5-22	490-493	Sie	_	_
+5-23	494-497	das	_	_
+5-24	498-502	bald	_	_
+5-25	503-506	und	_	_
+5-26	507-510	ich	_	_
+5-27	511-516	zahle	_	_
+5-28	517-523	sofort	_	_
+5-29	524-525	.	_	_
+
+#Text=Die Panthaosschale ist mir lieb \; ich danke bestens und fahre fort Sie um Vermittelung kleiner singulärer Ankäufe zu bitten .
+6-1	526-529	Die	_	_
+6-2	530-544	Panthaosschale	*	OBJ
+6-3	545-548	ist	_	_
+6-4	549-552	mir	_	_
+6-5	553-557	lieb	_	_
+6-6	558-559	\;	_	_
+6-7	560-563	ich	_	_
+6-8	564-569	danke	_	_
+6-9	570-577	bestens	_	_
+6-10	578-581	und	_	_
+6-11	582-587	fahre	_	_
+6-12	588-592	fort	_	_
+6-13	593-596	Sie	_	_
+6-14	597-599	um	_	_
+6-15	600-612	Vermittelung	_	_
+6-16	613-620	kleiner	_	_
+6-17	621-631	singulärer	_	_
+6-18	632-639	Ankäufe	_	_
+6-19	640-642	zu	_	_
+6-20	643-649	bitten	_	_
+6-21	650-651	.	_	_
+
+#Text=- Von Maggiori sind meines Wissens vier Ex .
+7-1	652-653	-	_	_
+7-2	654-657	Von	_	_
+7-3	658-666	Maggiori	*	PERmentioned
+7-4	667-671	sind	_	_
+7-5	672-678	meines	_	_
+7-6	679-686	Wissens	_	_
+7-7	687-691	vier	_	_
+7-8	692-694	Ex	_	_
+7-9	695-696	.	_	_
+
+#Text=früher gekommen , wohl aber nach Rom , von wo aus man ihm daher Abrechnung wird machen können .
+8-1	697-703	früher	_	_
+8-2	704-712	gekommen	_	_
+8-3	713-714	,	_	_
+8-4	715-719	wohl	_	_
+8-5	720-724	aber	_	_
+8-6	725-729	nach	_	_
+8-7	730-733	Rom	*	PLACEmentioned
+8-8	734-735	,	_	_
+8-9	736-739	von	_	_
+8-10	740-742	wo	_	_
+8-11	743-746	aus	_	_
+8-12	747-750	man	_	_
+8-13	751-754	ihm	_	_
+8-14	755-760	daher	_	_
+8-15	761-771	Abrechnung	_	_
+8-16	772-776	wird	_	_
+8-17	777-783	machen	_	_
+8-18	784-790	können	_	_
+8-19	791-792	.	_	_
+
+#Text=Für S. di Falco hat Gerstäcker Weniges zu berechnen \; für Avellino so viel ich weiß nichts .
+9-1	793-796	Für	_	_
+9-2	797-799	S.	*[9]	PERmentioned[9]
+9-3	800-802	di	*[9]	PERmentioned[9]
+9-4	803-808	Falco	*[9]	PERmentioned[9]
+9-5	809-812	hat	_	_
+9-6	813-823	Gerstäcker	*	PERmentioned
+9-7	824-831	Weniges	_	_
+9-8	832-834	zu	_	_
+9-9	835-844	berechnen	_	_
+9-10	845-846	\;	_	_
+9-11	847-850	für	_	_
+9-12	851-859	Avellino	*	PERmentioned
+9-13	860-862	so	_	_
+9-14	863-867	viel	_	_
+9-15	868-871	ich	_	_
+9-16	872-876	weiß	_	_
+9-17	877-883	nichts	_	_
+9-18	884-885	.	_	_
+
+#Text=- Wie viel rt Capobianchi für die Memorie erhielt , muß aufgeschrieben stehn \; ich habe nie den Mann auf Lügen über solche Dinge ertappt .
+10-1	886-887	-	_	_
+10-2	888-891	Wie	_	_
+10-3	892-896	viel	_	_
+10-4	897-899	rt	_	_
+10-5	900-911	Capobianchi	*	PERmentioned
+10-6	912-915	für	_	_
+10-7	916-919	die	_	_
+10-8	920-927	Memorie	_	_
+10-9	928-935	erhielt	_	_
+10-10	936-937	,	_	_
+10-11	938-941	muß	_	_
+10-12	942-956	aufgeschrieben	_	_
+10-13	957-962	stehn	_	_
+10-14	963-964	\;	_	_
+10-15	965-968	ich	_	_
+10-16	969-973	habe	_	_
+10-17	974-977	nie	_	_
+10-18	978-981	den	_	_
+10-19	982-986	Mann	_	_
+10-20	987-990	auf	_	_
+10-21	991-996	Lügen	_	_
+10-22	997-1001	über	_	_
+10-23	1002-1008	solche	_	_
+10-24	1009-1014	Dinge	_	_
+10-25	1015-1022	ertappt	_	_
+10-26	1023-1024	.	_	_
+
+#Text=14. Juni .
+11-1	1025-1028	14.	*[13]	DATEanswered[13]
+11-2	1029-1033	Juni	*[13]	DATEanswered[13]
+11-3	1034-1035	.	*[13]	DATEanswered[13]
+
+#Text=Da ich es nicht vergessen kann Ihnen durch unsres guten R.s Mißbrauch sehr entfernter Andeutungen wehe gethan zu haben , lege ich Ihnen einen Zettel bei , der zugleich ihn und mich rechtfertigt .
+12-1	1036-1038	Da	_	_
+12-2	1039-1042	ich	_	_
+12-3	1043-1045	es	_	_
+12-4	1046-1051	nicht	_	_
+12-5	1052-1061	vergessen	_	_
+12-6	1062-1066	kann	_	_
+12-7	1067-1072	Ihnen	_	_
+12-8	1073-1078	durch	_	_
+12-9	1079-1085	unsres	_	_
+12-10	1086-1091	guten	_	_
+12-11	1092-1095	R.s	_	_
+12-12	1096-1105	Mißbrauch	_	_
+12-13	1106-1110	sehr	_	_
+12-14	1111-1121	entfernter	_	_
+12-15	1122-1133	Andeutungen	_	_
+12-16	1134-1138	wehe	_	_
+12-17	1139-1145	gethan	_	_
+12-18	1146-1148	zu	_	_
+12-19	1149-1154	haben	_	_
+12-20	1155-1156	,	_	_
+12-21	1157-1161	lege	_	_
+12-22	1162-1165	ich	_	_
+12-23	1166-1171	Ihnen	_	_
+12-24	1172-1177	einen	_	_
+12-25	1178-1184	Zettel	_	_
+12-26	1185-1188	bei	_	_
+12-27	1189-1190	,	_	_
+12-28	1191-1194	der	_	_
+12-29	1195-1203	zugleich	_	_
+12-30	1204-1207	ihn	_	_
+12-31	1208-1211	und	_	_
+12-32	1212-1216	mich	_	_
+12-33	1217-1229	rechtfertigt	_	_
+12-34	1230-1231	.	_	_
+
+#Text=Entfernt darauf hingedeutet zu haben , daß Ihre Geduld am Ende reißen und Ihre Freude an dortigen Geschäften ein Ende nehmen könnte , war ich in Ihrem Interesse , glaube ieh , eher schuldig und
+13-1	1232-1240	Entfernt	_	_
+13-2	1241-1247	darauf	_	_
+13-3	1248-1259	hingedeutet	_	_
+13-4	1260-1262	zu	_	_
+13-5	1263-1268	haben	_	_
+13-6	1269-1270	,	_	_
+13-7	1271-1274	daß	_	_
+13-8	1275-1279	Ihre	_	_
+13-9	1280-1286	Geduld	_	_
+13-10	1287-1289	am	_	_
+13-11	1290-1294	Ende	_	_
+13-12	1295-1301	reißen	_	_
+13-13	1302-1305	und	_	_
+13-14	1306-1310	Ihre	_	_
+13-15	1311-1317	Freude	_	_
+13-16	1318-1320	an	_	_
+13-17	1321-1329	dortigen	_	_
+13-18	1330-1340	Geschäften	_	_
+13-19	1341-1344	ein	_	_
+13-20	1345-1349	Ende	_	_
+13-21	1350-1356	nehmen	_	_
+13-22	1357-1363	könnte	_	_
+13-23	1364-1365	,	_	_
+13-24	1366-1369	war	_	_
+13-25	1370-1373	ich	_	_
+13-26	1374-1376	in	_	_
+13-27	1377-1382	Ihrem	_	_
+13-28	1383-1392	Interesse	_	_
+13-29	1393-1394	,	_	_
+13-30	1395-1401	glaube	_	_
+13-31	1402-1405	ieh	_	_
+13-32	1406-1407	,	_	_
+13-33	1408-1412	eher	_	_
+13-34	1413-1421	schuldig	_	_
+13-35	1422-1425	und	_	_

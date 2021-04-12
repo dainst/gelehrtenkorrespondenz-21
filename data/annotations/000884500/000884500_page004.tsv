@@ -1,0 +1,208 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 2 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	2	*[4]	DATEletter[4]
+1-7	28-29	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 res nicht zu garstig finden bei nochmaliger Besichtigung .
+2-1	30-36	Januar	*[4]	DATEletter[4]
+2-2	37-41	1838	*[4]	DATEletter[4]
+2-3	42-45	res	_	_
+2-4	46-51	nicht	_	_
+2-5	52-54	zu	_	_
+2-6	55-62	garstig	_	_
+2-7	63-69	finden	_	_
+2-8	70-73	bei	_	_
+2-9	74-85	nochmaliger	_	_
+2-10	86-98	Besichtigung	_	_
+2-11	99-100	.	_	_
+
+#Text=In Betreff meines Aufsatzes über die griechischen Bildwerke so sind davon neulich 100 Ex .
+3-1	101-103	In	_	_
+3-2	104-111	Betreff	_	_
+3-3	112-118	meines	_	_
+3-4	119-128	Aufsatzes	_	_
+3-5	129-133	über	_	_
+3-6	134-137	die	_	_
+3-7	138-150	griechischen	_	_
+3-8	151-160	Bildwerke	_	_
+3-9	161-163	so	_	_
+3-10	164-168	sind	_	_
+3-11	169-174	davon	_	_
+3-12	175-182	neulich	_	_
+3-13	183-186	100	_	_
+3-14	187-189	Ex	_	_
+3-15	190-191	.	_	_
+
+#Text=Separat nachgesucht worden \; ich erbitte mir davon hieher 80 Ex .
+4-1	192-199	Separat	_	_
+4-2	200-211	nachgesucht	_	_
+4-3	212-218	worden	_	_
+4-4	219-220	\;	_	_
+4-5	221-224	ich	_	_
+4-6	225-232	erbitte	_	_
+4-7	233-236	mir	_	_
+4-8	237-242	davon	_	_
+4-9	243-249	hieher	_	_
+4-10	250-252	80	_	_
+4-11	253-255	Ex	_	_
+4-12	256-257	.	_	_
+
+#Text=mit Inbegriff von 6 Velinexempl .
+5-1	258-261	mit	_	_
+5-2	262-271	Inbegriff	_	_
+5-3	272-275	von	_	_
+5-4	276-277	6	_	_
+5-5	278-289	Velinexempl	_	_
+5-6	290-291	.	_	_
+
+#Text=und wünsche selbige baldmöglichst .
+6-1	292-295	und	_	_
+6-2	296-303	wünsche	_	_
+6-3	304-311	selbige	_	_
+6-4	312-325	baldmöglichst	_	_
+6-5	326-327	.	_	_
+
+#Text=Allenfalls sind mir auch 70 genug .
+7-1	328-338	Allenfalls	_	_
+7-2	339-343	sind	_	_
+7-3	344-347	mir	_	_
+7-4	348-352	auch	_	_
+7-5	353-355	70	_	_
+7-6	356-361	genug	_	_
+7-7	362-363	.	_	_
+
+#Text=Ich setze voraus daß der Kostenbetrag mir nicht zur Last falle \; sie werden im Interesse des Instituts vertheilt .
+8-1	364-367	Ich	_	_
+8-2	368-373	setze	_	_
+8-3	374-380	voraus	_	_
+8-4	381-384	daß	_	_
+8-5	385-388	der	_	_
+8-6	389-401	Kostenbetrag	_	_
+8-7	402-405	mir	_	_
+8-8	406-411	nicht	_	_
+8-9	412-415	zur	_	_
+8-10	416-420	Last	_	_
+8-11	421-426	falle	_	_
+8-12	427-428	\;	_	_
+8-13	429-432	sie	_	_
+8-14	433-439	werden	_	_
+8-15	440-442	im	_	_
+8-16	443-452	Interesse	_	_
+8-17	453-456	des	_	_
+8-18	457-466	Instituts	*	ORGmentioned
+8-19	467-476	vertheilt	_	_
+8-20	477-478	.	_	_
+
+#Text=Reg . R. Müller ist neulich zurückgekommen und meldet an Ritschl dessen Brief ich beförderte daß Ihr Bild lange Zeit bei einem Banquier ( nicht Kunsthändler ) Besse hieselbst des Abholens gewartet habe und nun bei ihm darauf harre .
+9-1	479-482	Reg	_	_
+9-2	483-484	.	_	_
+9-3	485-487	R.	*[6]	PERmentioned[6]
+9-4	488-494	Müller	*[6]	PERmentioned[6]
+9-5	495-498	ist	_	_
+9-6	499-506	neulich	_	_
+9-7	507-521	zurückgekommen	_	_
+9-8	522-525	und	_	_
+9-9	526-532	meldet	_	_
+9-10	533-535	an	_	_
+9-11	536-543	Ritschl	*	PERmentioned
+9-12	544-550	dessen	_	_
+9-13	551-556	Brief	_	_
+9-14	557-560	ich	_	_
+9-15	561-571	beförderte	_	_
+9-16	572-575	daß	_	_
+9-17	576-579	Ihr	_	_
+9-18	580-584	Bild	_	_
+9-19	585-590	lange	_	_
+9-20	591-595	Zeit	_	_
+9-21	596-599	bei	_	_
+9-22	600-605	einem	_	_
+9-23	606-614	Banquier	_	_
+9-24	615-616	(	_	_
+9-25	617-622	nicht	_	_
+9-26	623-635	Kunsthändler	_	_
+9-27	636-637	)	_	_
+9-28	638-643	Besse	*	PERmentioned
+9-29	644-653	hieselbst	_	_
+9-30	654-657	des	_	_
+9-31	658-666	Abholens	_	_
+9-32	667-675	gewartet	_	_
+9-33	676-680	habe	_	_
+9-34	681-684	und	_	_
+9-35	685-688	nun	_	_
+9-36	689-692	bei	_	_
+9-37	693-696	ihm	_	_
+9-38	697-703	darauf	_	_
+9-39	704-709	harre	_	_
+9-40	710-711	.	_	_
+
+#Text=Was soll nun damit geschehen ?
+10-1	712-715	Was	_	_
+10-2	716-720	soll	_	_
+10-3	721-724	nun	_	_
+10-4	725-730	damit	_	_
+10-5	731-740	geschehen	_	_
+10-6	741-742	?	_	_
+
+#Text=soll ich es einfordern und nach Gotha senden ?
+11-1	743-747	soll	_	_
+11-2	748-751	ich	_	_
+11-3	752-754	es	_	_
+11-4	755-765	einfordern	_	_
+11-5	766-769	und	_	_
+11-6	770-774	nach	_	_
+11-7	775-780	Gotha	*	PLACEmentioned
+11-8	781-787	senden	_	_
+11-9	788-789	?	_	_
+
+#Text=Gerstäcker drängt mit bittrer Klage auf die endliche quittirte Rücksendung seiner Institutsrechnung für 1835 und erklärt jene schon von 71837 wovon er noch kein Blatt habe die Institutssachen abzugeben \; ich schreibe demnach an Manus ob dieser Termin auch ihm pas- Be «
+12-1	790-800	Gerstäcker	*	PERmentioned
+12-2	801-807	drängt	_	_
+12-3	808-811	mit	_	_
+12-4	812-819	bittrer	_	_
+12-5	820-825	Klage	_	_
+12-6	826-829	auf	_	_
+12-7	830-833	die	_	_
+12-8	834-842	endliche	_	_
+12-9	843-852	quittirte	_	_
+12-10	853-864	Rücksendung	_	_
+12-11	865-871	seiner	_	_
+12-12	872-889	Institutsrechnung	_	_
+12-13	890-893	für	_	_
+12-14	894-898	1835	*	DATEmentioned
+12-15	899-902	und	_	_
+12-16	903-910	erklärt	_	_
+12-17	911-915	jene	_	_
+12-18	916-921	schon	_	_
+12-19	922-925	von	_	_
+12-20	926-931	71837	*	DATEmentioned
+12-21	932-937	wovon	_	_
+12-22	938-940	er	_	_
+12-23	941-945	noch	_	_
+12-24	946-950	kein	_	_
+12-25	951-956	Blatt	_	_
+12-26	957-961	habe	_	_
+12-27	962-965	die	_	_
+12-28	966-981	Institutssachen	_	_
+12-29	982-991	abzugeben	_	_
+12-30	992-993	\;	_	_
+12-31	994-997	ich	_	_
+12-32	998-1006	schreibe	_	_
+12-33	1007-1014	demnach	_	_
+12-34	1015-1017	an	_	_
+12-35	1018-1023	Manus	*	PERmentioned
+12-36	1024-1026	ob	_	_
+12-37	1027-1033	dieser	_	_
+12-38	1034-1040	Termin	_	_
+12-39	1041-1045	auch	_	_
+12-40	1046-1049	ihm	_	_
+12-41	1050-1054	pas-	_	_
+12-42	1055-1057	Be	_	_
+12-43	1058-1059	«	_	_

@@ -1,0 +1,284 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=849 Braun an Gerhard Rom , 29. November 183 Um Ihnen einen Begriff von Durandschen Preisen zu geben , so erwähne ich Ihnen daß er die von mir Ihnen beschriebenen Aethravase bei Benedetti in Corneto für 280 Scudi gekauft hat .
+1-1	0-3	849	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	29.	*[2]	DATEletter[2]
+1-8	31-39	November	*[2]	DATEletter[2]
+1-9	40-43	183	*[2]	DATEletter[2]
+1-10	44-46	Um	_	_
+1-11	47-52	Ihnen	_	_
+1-12	53-58	einen	_	_
+1-13	59-66	Begriff	_	_
+1-14	67-70	von	_	_
+1-15	71-82	Durandschen	*	PERmentioned
+1-16	83-90	Preisen	_	_
+1-17	91-93	zu	_	_
+1-18	94-99	geben	_	_
+1-19	100-101	,	_	_
+1-20	102-104	so	_	_
+1-21	105-112	erwähne	_	_
+1-22	113-116	ich	_	_
+1-23	117-122	Ihnen	_	_
+1-24	123-126	daß	_	_
+1-25	127-129	er	_	_
+1-26	130-133	die	_	_
+1-27	134-137	von	_	_
+1-28	138-141	mir	_	_
+1-29	142-147	Ihnen	_	_
+1-30	148-161	beschriebenen	_	_
+1-31	162-172	Aethravase	*	OBJ
+1-32	173-176	bei	_	_
+1-33	177-186	Benedetti	*	PERmentioned
+1-34	187-189	in	_	_
+1-35	190-197	Corneto	*	PLACEmentioned
+1-36	198-201	für	_	_
+1-37	202-205	280	_	_
+1-38	206-211	Scudi	_	_
+1-39	212-219	gekauft	_	_
+1-40	220-223	hat	_	_
+1-41	224-225	.	_	_
+
+#Text=Mich fragte Avolta , ob 60 ein anständiger Preis sei .
+2-1	226-230	Mich	_	_
+2-2	231-237	fragte	_	_
+2-3	238-244	Avolta	*	PERmentioned
+2-4	245-246	,	_	_
+2-5	247-249	ob	_	_
+2-6	250-252	60	_	_
+2-7	253-256	ein	_	_
+2-8	257-268	anständiger	_	_
+2-9	269-274	Preis	_	_
+2-10	275-278	sei	_	_
+2-11	279-280	.	_	_
+
+#Text=Ihre Kyknosvase war gestern Gegenstand der Adunanza .
+3-1	281-285	Ihre	_	_
+3-2	286-296	Kyknosvase	*	OBJ
+3-3	297-300	war	_	_
+3-4	301-308	gestern	_	_
+3-5	309-319	Gegenstand	_	_
+3-6	320-323	der	_	_
+3-7	324-332	Adunanza	*	MISC
+3-8	333-334	.	_	_
+
+#Text=Allgemeine Bewunderung .
+4-1	335-345	Allgemeine	_	_
+4-2	346-357	Bewunderung	_	_
+4-3	358-359	.	_	_
+
+#Text=Wie kommen wohl Dionysos und der Meergreis Halios Geron ( AAIOZAEPON \[ sic \] ) , einander gegenüber zu stehen .
+5-1	360-363	Wie	_	_
+5-2	364-370	kommen	_	_
+5-3	371-375	wohl	_	_
+5-4	376-384	Dionysos	*	PERmentioned
+5-5	385-388	und	_	_
+5-6	389-392	der	_	_
+5-7	393-402	Meergreis	*[3]	PERmentioned[3]
+5-8	403-409	Halios	*[3]	PERmentioned[3]
+5-9	410-415	Geron	*[3]	PERmentioned[3]
+5-10	416-417	(	_	_
+5-11	418-428	AAIOZAEPON	_	_
+5-12	429-430	\[	_	_
+5-13	431-434	sic	_	_
+5-14	435-436	\]	_	_
+5-15	437-438	)	_	_
+5-16	439-440	,	_	_
+5-17	441-449	einander	_	_
+5-18	450-459	gegenüber	_	_
+5-19	460-462	zu	_	_
+5-20	463-469	stehen	_	_
+5-21	470-471	.	_	_
+
+#Text=Herkules und Ares im Kampf , vom Blitz in der Sage , hier von Zeus oder besser Hermes , des Zeus Boten getrennt .
+6-1	472-480	Herkules	*	PERmentioned
+6-2	481-484	und	_	_
+6-3	485-489	Ares	*	PERmentioned
+6-4	490-492	im	_	_
+6-5	493-498	Kampf	_	_
+6-6	499-500	,	_	_
+6-7	501-504	vom	_	_
+6-8	505-510	Blitz	_	_
+6-9	511-513	in	_	_
+6-10	514-517	der	_	_
+6-11	518-522	Sage	_	_
+6-12	523-524	,	_	_
+6-13	525-529	hier	_	_
+6-14	530-533	von	_	_
+6-15	534-538	Zeus	_	_
+6-16	539-543	oder	_	_
+6-17	544-550	besser	_	_
+6-18	551-557	Hermes	_	_
+6-19	558-559	,	_	_
+6-20	560-563	des	_	_
+6-21	564-568	Zeus	_	_
+6-22	569-574	Boten	_	_
+6-23	575-583	getrennt	_	_
+6-24	584-585	.	_	_
+
+#Text=Athenae als Herakles Schutz , sagengemäß und klar , aber Apollo und Neptun , und Apollo von der Seite , die Dionysos beschließt \; Neptun jedenfalls in Verbindung mit dem Meergreis : das giebt Stoff zu gewichtigen Diskussionen .
+7-1	586-593	Athenae	_	_
+7-2	594-597	als	_	_
+7-3	598-606	Herakles	_	_
+7-4	607-613	Schutz	_	_
+7-5	614-615	,	_	_
+7-6	616-626	sagengemäß	_	_
+7-7	627-630	und	_	_
+7-8	631-635	klar	_	_
+7-9	636-637	,	_	_
+7-10	638-642	aber	_	_
+7-11	643-649	Apollo	*	PERmentioned
+7-12	650-653	und	_	_
+7-13	654-660	Neptun	*	PERmentioned
+7-14	661-662	,	_	_
+7-15	663-666	und	_	_
+7-16	667-673	Apollo	*	PERmentioned
+7-17	674-677	von	_	_
+7-18	678-681	der	_	_
+7-19	682-687	Seite	_	_
+7-20	688-689	,	_	_
+7-21	690-693	die	_	_
+7-22	694-702	Dionysos	*	PERmentioned
+7-23	703-713	beschließt	_	_
+7-24	714-715	\;	_	_
+7-25	716-722	Neptun	*	PERmentioned
+7-26	723-733	jedenfalls	_	_
+7-27	734-736	in	_	_
+7-28	737-747	Verbindung	_	_
+7-29	748-751	mit	_	_
+7-30	752-755	dem	_	_
+7-31	756-765	Meergreis	_	_
+7-32	766-767	:	_	_
+7-33	768-771	das	_	_
+7-34	772-777	giebt	_	_
+7-35	778-783	Stoff	_	_
+7-36	784-786	zu	_	_
+7-37	787-798	gewichtigen	_	_
+7-38	799-811	Diskussionen	_	_
+7-39	812-813	.	_	_
+
+#Text=- Wollen Sie solche Notizen fürs Intelligenzblatt ?
+8-1	814-815	-	_	_
+8-2	816-822	Wollen	_	_
+8-3	823-826	Sie	_	_
+8-4	827-833	solche	_	_
+8-5	834-841	Notizen	_	_
+8-6	842-846	fürs	_	_
+8-7	847-863	Intelligenzblatt	*	LIT
+8-8	864-865	?	_	_
+
+#Text=Sie haben mich ohne alle Ordre deshalb gelassen .
+9-1	866-869	Sie	_	_
+9-2	870-875	haben	_	_
+9-3	876-880	mich	_	_
+9-4	881-885	ohne	_	_
+9-5	886-890	alle	_	_
+9-6	891-896	Ordre	_	_
+9-7	897-904	deshalb	_	_
+9-8	905-913	gelassen	_	_
+9-9	914-915	.	_	_
+
+#Text=Sie wissen ich bin ängstlich , andere mit Unwillkommenen zu behelligen .
+10-1	916-919	Sie	_	_
+10-2	920-926	wissen	_	_
+10-3	927-930	ich	_	_
+10-4	931-934	bin	_	_
+10-5	935-944	ängstlich	_	_
+10-6	945-946	,	_	_
+10-7	947-953	andere	_	_
+10-8	954-957	mit	_	_
+10-9	958-972	Unwillkommenen	_	_
+10-10	973-975	zu	_	_
+10-11	976-986	behelligen	_	_
+10-12	987-988	.	_	_
+
+#Text=Auch wegen der Monumente bin ich ohne Auftrag .
+11-1	989-993	Auch	_	_
+11-2	994-999	wegen	_	_
+11-3	1000-1003	der	_	_
+11-4	1004-1013	Monumente	_	_
+11-5	1014-1017	bin	_	_
+11-6	1018-1021	ich	_	_
+11-7	1022-1026	ohne	_	_
+11-8	1027-1034	Auftrag	_	_
+11-9	1035-1036	.	_	_
+
+#Text=Soll ich der Direction Anzeige von neuem machen .
+12-1	1037-1041	Soll	_	_
+12-2	1042-1045	ich	_	_
+12-3	1046-1049	der	_	_
+12-4	1050-1059	Direction	*	ORGmentioned
+12-5	1060-1067	Anzeige	_	_
+12-6	1068-1071	von	_	_
+12-7	1072-1077	neuem	_	_
+12-8	1078-1084	machen	_	_
+12-9	1085-1086	.	_	_
+
+#Text=Bleibt diese Ordre aus , so kann man mir es wenigstens nicht verdenken , wenn ich selbst publiciere was mir vorkommt , und wie ich kann .
+13-1	1087-1093	Bleibt	_	_
+13-2	1094-1099	diese	_	_
+13-3	1100-1105	Ordre	_	_
+13-4	1106-1109	aus	_	_
+13-5	1110-1111	,	_	_
+13-6	1112-1114	so	_	_
+13-7	1115-1119	kann	_	_
+13-8	1120-1123	man	_	_
+13-9	1124-1127	mir	_	_
+13-10	1128-1130	es	_	_
+13-11	1131-1141	wenigstens	_	_
+13-12	1142-1147	nicht	_	_
+13-13	1148-1157	verdenken	_	_
+13-14	1158-1159	,	_	_
+13-15	1160-1164	wenn	_	_
+13-16	1165-1168	ich	_	_
+13-17	1169-1175	selbst	_	_
+13-18	1176-1186	publiciere	_	_
+13-19	1187-1190	was	_	_
+13-20	1191-1194	mir	_	_
+13-21	1195-1203	vorkommt	_	_
+13-22	1204-1205	,	_	_
+13-23	1206-1209	und	_	_
+13-24	1210-1213	wie	_	_
+13-25	1214-1217	ich	_	_
+13-26	1218-1222	kann	_	_
+13-27	1223-1224	.	_	_
+
+#Text=Speroni ist hier und bedauert natürlich Ihre Abwesenheit .
+14-1	1225-1232	Speroni	*	PERmentioned
+14-2	1233-1236	ist	_	_
+14-3	1237-1241	hier	_	_
+14-4	1242-1245	und	_	_
+14-5	1246-1254	bedauert	_	_
+14-6	1255-1264	natürlich	_	_
+14-7	1265-1269	Ihre	_	_
+14-8	1270-1281	Abwesenheit	_	_
+14-9	1282-1283	.	_	_
+
+#Text=Avolio 's Aufsatz fand sich nicht , aber von Cavedoni hat er etwas erhalten .
+15-1	1284-1290	Avolio	*	PERmentioned
+15-2	1291-1293	's	_	_
+15-3	1294-1301	Aufsatz	_	_
+15-4	1302-1306	fand	_	_
+15-5	1307-1311	sich	_	_
+15-6	1312-1317	nicht	_	_
+15-7	1318-1319	,	_	_
+15-8	1320-1324	aber	_	_
+15-9	1325-1328	von	_	_
+15-10	1329-1337	Cavedoni	*	PERmentioned
+15-11	1338-1341	hat	_	_
+15-12	1342-1344	er	_	_
+15-13	1345-1350	etwas	_	_
+15-14	1351-1359	erhalten	_	_
+15-15	1360-1361	.	_	_
+
+#Text=Er will graben .
+16-1	1362-1364	Er	_	_
+16-2	1365-1369	will	_	_
+16-3	1370-1376	graben	_	_
+16-4	1377-1378	.	_	_

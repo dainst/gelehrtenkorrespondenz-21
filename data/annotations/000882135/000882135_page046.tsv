@@ -1,0 +1,173 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , 17. April 1838 - 4. stimmt .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-26	17.	*[4]	DATEletter[4]
+1-7	27-32	April	*[4]	DATEletter[4]
+1-8	33-37	1838	*[4]	DATEletter[4]
+1-9	38-39	-	_	_
+1-10	40-42	4.	_	_
+1-11	43-49	stimmt	_	_
+1-12	50-51	.	_	_
+
+#Text=- Die Grenzzöllner werden wohl allen Schaden serichtet haben \; denn die Verpackung war sorgfältig .
+2-1	52-53	-	_	_
+2-2	54-57	Die	_	_
+2-3	58-70	Grenzzöllner	_	_
+2-4	71-77	werden	_	_
+2-5	78-82	wohl	_	_
+2-6	83-88	allen	_	_
+2-7	89-96	Schaden	_	_
+2-8	97-106	serichtet	_	_
+2-9	107-112	haben	_	_
+2-10	113-114	\;	_	_
+2-11	115-119	denn	_	_
+2-12	120-123	die	_	_
+2-13	124-134	Verpackung	_	_
+2-14	135-138	war	_	_
+2-15	139-149	sorgfältig	_	_
+2-16	150-151	.	_	_
+
+#Text=Wie viel haben Sie von Antoninis Werk erhalten ?
+3-1	152-155	Wie	_	_
+3-2	156-160	viel	_	_
+3-3	161-166	haben	_	_
+3-4	167-170	Sie	_	_
+3-5	171-174	von	_	_
+3-6	175-184	Antoninis	*	PERmentioned
+3-7	185-189	Werk	_	_
+3-8	190-198	erhalten	_	_
+3-9	199-200	?	_	_
+
+#Text=Es existiren Bände die Sie noch nicht haben .
+4-1	201-203	Es	_	_
+4-2	204-213	existiren	_	_
+4-3	214-219	Bände	_	_
+4-4	220-223	die	_	_
+4-5	224-227	Sie	_	_
+4-6	228-232	noch	_	_
+4-7	233-238	nicht	_	_
+4-8	239-244	haben	_	_
+4-9	245-246	.	_	_
+
+#Text=Basseggio verkauft schwerlich Fragmente , da die Speculation auf Vervollständigung seiner Vasen geht .
+5-1	247-256	Basseggio	*	PERmentioned
+5-2	257-265	verkauft	_	_
+5-3	266-276	schwerlich	_	_
+5-4	277-286	Fragmente	_	_
+5-5	287-288	,	_	_
+5-6	289-291	da	_	_
+5-7	292-295	die	_	_
+5-8	296-307	Speculation	_	_
+5-9	308-311	auf	_	_
+5-10	312-329	Vervollständigung	_	_
+5-11	330-336	seiner	_	_
+5-12	337-342	Vasen	_	_
+5-13	343-347	geht	_	_
+5-14	348-349	.	_	_
+
+#Text=Später wol .
+6-1	350-356	Später	_	_
+6-2	357-360	wol	_	_
+6-3	361-362	.	_	_
+
+#Text=Quittung und Antwort werden jetzt in Gerstäckers Händen sein .
+7-1	363-371	Quittung	_	_
+7-2	372-375	und	_	_
+7-3	376-383	Antwort	_	_
+7-4	384-390	werden	_	_
+7-5	391-396	jetzt	_	_
+7-6	397-399	in	_	_
+7-7	400-411	Gerstäckers	*	PERmentioned
+7-8	412-418	Händen	_	_
+7-9	419-423	sein	_	_
+7-10	424-425	.	_	_
+
+#Text=Das Bull .
+8-1	426-429	Das	_	_
+8-2	430-434	Bull	_	_
+8-3	435-436	.	_	_
+
+#Text=kommt Ihnen nächsten Sonnabend zu .
+9-1	437-442	kommt	_	_
+9-2	443-448	Ihnen	_	_
+9-3	449-457	nächsten	_	_
+9-4	458-467	Sonnabend	_	_
+9-5	468-470	zu	_	_
+9-6	471-472	.	_	_
+
+#Text=Manches Interessante wie ich hoffe .
+10-1	473-480	Manches	_	_
+10-2	481-493	Interessante	_	_
+10-3	494-497	wie	_	_
+10-4	498-501	ich	_	_
+10-5	502-507	hoffe	_	_
+10-6	508-509	.	_	_
+
+#Text=Die Statue von S. Marinella ist sublim .
+11-1	510-513	Die	_	_
+11-2	514-520	Statue	*	OBJ
+11-3	521-524	von	_	_
+11-4	525-527	S.	*[9]	PLACEmentioned[9]
+11-5	528-537	Marinella	*[9]	PLACEmentioned[9]
+11-6	538-541	ist	_	_
+11-7	542-548	sublim	_	_
+11-8	549-550	.	_	_
+
+#Text=Raoul Rochette ist den 20 v. M. von Paris abgereist , nachdem er vergebens auf die durch Sylv .
+12-1	551-556	Raoul	*[10]	PERmentioned[10]
+12-2	557-565	Rochette	*[10]	PERmentioned[10]
+12-3	566-569	ist	_	_
+12-4	570-573	den	_	_
+12-5	574-576	20	*[11]	DATEmentioned[11]
+12-6	577-579	v.	*[11]	DATEmentioned[11]
+12-7	580-582	M.	*[11]	DATEmentioned[11]
+12-8	583-586	von	_	_
+12-9	587-592	Paris	*	PLACEmentioned
+12-10	593-602	abgereist	_	_
+12-11	603-604	,	_	_
+12-12	605-612	nachdem	_	_
+12-13	613-615	er	_	_
+12-14	616-625	vergebens	_	_
+12-15	626-629	auf	_	_
+12-16	630-633	die	_	_
+12-17	634-639	durch	_	_
+12-18	640-644	Sylv	*[13]	PERmentioned[13]
+12-19	645-646	.	*[13]	PERmentioned[13]
+
+#Text=deS y erledigte Stelle bei der Akademie concourirt hatte .
+13-1	647-650	deS	*[13]	PERmentioned[13]
+13-2	651-652	y	*[13]	PERmentioned[13]
+13-3	653-662	erledigte	_	_
+13-4	663-669	Stelle	_	_
+13-5	670-673	bei	_	_
+13-6	674-677	der	_	_
+13-7	678-686	Akademie	*	ORGmentioned
+13-8	687-697	concourirt	_	_
+13-9	698-703	hatte	_	_
+13-10	704-705	.	_	_
+
+#Text=Ich bin fürchterlich in Anspruch genommen , auch nach Beendigung des Annalenhefts .
+14-1	706-709	Ich	_	_
+14-2	710-713	bin	_	_
+14-3	714-726	fürchterlich	_	_
+14-4	727-729	in	_	_
+14-5	730-738	Anspruch	_	_
+14-6	739-747	genommen	_	_
+14-7	748-749	,	_	_
+14-8	750-754	auch	_	_
+14-9	755-759	nach	_	_
+14-10	760-770	Beendigung	_	_
+14-11	771-774	des	_	_
+14-12	775-787	Annalenhefts	_	_
+14-13	788-789	.	_	_
+
+#Text=Ihr EBraun
+15-1	790-793	Ihr	_	_
+15-2	794-800	EBraun	*	PERauthor

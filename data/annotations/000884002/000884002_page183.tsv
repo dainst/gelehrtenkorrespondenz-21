@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Perugia,29 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-26	Perugia,29	*	PLACEfrom
+1-5	27-28	.	_	_
+
+#Text=Juli 1863 - 7 - bessern zu lassen , was aber bisher nicht geschehen .
+2-1	29-33	Juli	*[15]	DATEletter[15]
+2-2	34-38	1863	*[15]	DATEletter[15]
+2-3	39-40	-	_	_
+2-4	41-42	7	_	_
+2-5	43-44	-	_	_
+2-6	45-52	bessern	_	_
+2-7	53-55	zu	_	_
+2-8	56-62	lassen	_	_
+2-9	63-64	,	_	_
+2-10	65-68	was	_	_
+2-11	69-73	aber	_	_
+2-12	74-80	bisher	_	_
+2-13	81-86	nicht	_	_
+2-14	87-96	geschehen	_	_
+2-15	97-98	.	_	_
+
+#Text=Ich schicke deshalb den Brief an Mommsen .
+3-1	99-102	Ich	_	_
+3-2	103-110	schicke	_	_
+3-3	111-118	deshalb	_	_
+3-4	119-122	den	_	_
+3-5	123-128	Brief	_	_
+3-6	129-131	an	_	_
+3-7	132-139	Mommsen	*	PERmentioned
+3-8	140-141	.	_	_
+
+#Text=Außerdem fragt er , wie viel die Association auf unsere Schriften betrage und auf welchem Wege sie zu beziehen ?
+4-1	142-150	Außerdem	_	_
+4-2	151-156	fragt	_	_
+4-3	157-159	er	_	_
+4-4	160-161	,	_	_
+4-5	162-165	wie	_	_
+4-6	166-170	viel	_	_
+4-7	171-174	die	_	_
+4-8	175-186	Association	_	_
+4-9	187-190	auf	_	_
+4-10	191-197	unsere	_	_
+4-11	198-207	Schriften	_	_
+4-12	208-215	betrage	_	_
+4-13	216-219	und	_	_
+4-14	220-223	auf	_	_
+4-15	224-231	welchem	_	_
+4-16	232-236	Wege	_	_
+4-17	237-240	sie	_	_
+4-18	241-243	zu	_	_
+4-19	244-252	beziehen	_	_
+4-20	253-254	?	_	_
+
+#Text=Ich weiß nicht , was auf die letztere Frage zu antworten ist .
+5-1	255-258	Ich	_	_
+5-2	259-263	weiß	_	_
+5-3	264-269	nicht	_	_
+5-4	270-271	,	_	_
+5-5	272-275	was	_	_
+5-6	276-279	auf	_	_
+5-7	280-283	die	_	_
+5-8	284-292	letztere	_	_
+5-9	293-298	Frage	_	_
+5-10	299-301	zu	_	_
+5-11	302-311	antworten	_	_
+5-12	312-315	ist	_	_
+5-13	316-317	.	_	_
+
+#Text=Mommsen kann Ihnen den Brief zuschicken .
+6-1	318-325	Mommsen	*	PERmentioned
+6-2	326-330	kann	_	_
+6-3	331-336	Ihnen	_	_
+6-4	337-340	den	_	_
+6-5	341-346	Brief	_	_
+6-6	347-357	zuschicken	_	_
+6-7	358-359	.	_	_
+
+#Text=- An Brockhaus habe ich am aoten geschrieben .
+7-1	360-361	-	_	_
+7-2	362-364	An	_	_
+7-3	365-374	Brockhaus	*	PERmentioned
+7-4	375-379	habe	_	_
+7-5	380-383	ich	_	_
+7-6	384-386	am	_	_
+7-7	387-392	aoten	_	_
+7-8	393-404	geschrieben	_	_
+7-9	405-406	.	_	_
+
+#Text=- Helbig , der doch gewiß in Neapel alles Mögliche für Gerhard gethan hat , schon des Studiums wegen , schreibt : '' Von Gerhard habe ich einen etwas nörgelnden Brief erhalten '' etc .
+8-1	407-408	-	_	_
+8-2	409-415	Helbig	*	PERmentioned
+8-3	416-417	,	_	_
+8-4	418-421	der	_	_
+8-5	422-426	doch	_	_
+8-6	427-432	gewiß	_	_
+8-7	433-435	in	_	_
+8-8	436-442	Neapel	*	PLACEmentioned
+8-9	443-448	alles	_	_
+8-10	449-457	Mögliche	_	_
+8-11	458-461	für	_	_
+8-12	462-469	Gerhard	*	PERmentioned
+8-13	470-476	gethan	_	_
+8-14	477-480	hat	_	_
+8-15	481-482	,	_	_
+8-16	483-488	schon	_	_
+8-17	489-492	des	_	_
+8-18	493-501	Studiums	_	_
+8-19	502-507	wegen	_	_
+8-20	508-509	,	_	_
+8-21	510-518	schreibt	_	_
+8-22	519-520	:	_	_
+8-23	521-523	''	_	_
+8-24	524-527	Von	_	_
+8-25	528-535	Gerhard	*	PERmentioned
+8-26	536-540	habe	_	_
+8-27	541-544	ich	_	_
+8-28	545-550	einen	_	_
+8-29	551-556	etwas	_	_
+8-30	557-567	nörgelnden	_	_
+8-31	568-573	Brief	_	_
+8-32	574-582	erhalten	_	_
+8-33	583-585	''	_	_
+8-34	586-589	etc	_	_
+8-35	590-591	.	_	_
+
+#Text=Sie sehen , dem mächts niemend recht , der in archäol .
+9-1	592-595	Sie	_	_
+9-2	596-601	sehen	_	_
+9-3	602-603	,	_	_
+9-4	604-607	dem	_	_
+9-5	608-614	mächts	_	_
+9-6	615-622	niemend	_	_
+9-7	623-628	recht	_	_
+9-8	629-630	,	_	_
+9-9	631-634	der	_	_
+9-10	635-637	in	_	_
+9-11	638-645	archäol	_	_
+9-12	646-647	.	_	_
+
+#Text=Dingen mit ihm zu verkehren hat .
+10-1	648-654	Dingen	_	_
+10-2	655-658	mit	_	_
+10-3	659-662	ihm	_	_
+10-4	663-665	zu	_	_
+10-5	666-675	verkehren	_	_
+10-6	676-679	hat	_	_
+10-7	680-681	.	_	_
+
+#Text=Mahnen Sie doch Jahn wegen des Aufsatzes über die Gigantomasie-Vase , die er schon für die Osterferien versprochen hatte .
+11-1	682-688	Mahnen	_	_
+11-2	689-692	Sie	_	_
+11-3	693-697	doch	_	_
+11-4	698-702	Jahn	*	PERmentioned
+11-5	703-708	wegen	_	_
+11-6	709-712	des	_	_
+11-7	713-722	Aufsatzes	_	_
+11-8	723-727	über	_	_
+11-9	728-731	die	_	_
+11-10	732-749	Gigantomasie-Vase	*	OBJ
+11-11	750-751	,	_	_
+11-12	752-755	die	_	_
+11-13	756-758	er	_	_
+11-14	759-764	schon	_	_
+11-15	765-768	für	_	_
+11-16	769-772	die	_	_
+11-17	773-784	Osterferien	_	_
+11-18	785-796	versprochen	_	_
+11-19	797-802	hatte	_	_
+11-20	803-804	.	_	_
+
+#Text=Grüßen Sie ihn übrigens bestens , namentlich aber auch den alten Wacker , Delius etc .
+12-1	805-811	Grüßen	_	_
+12-2	812-815	Sie	_	_
+12-3	816-819	ihn	_	_
+12-4	820-828	übrigens	_	_
+12-5	829-836	bestens	_	_
+12-6	837-838	,	_	_
+12-7	839-849	namentlich	_	_
+12-8	850-854	aber	_	_
+12-9	855-859	auch	_	_
+12-10	860-863	den	_	_
+12-11	864-869	alten	_	_
+12-12	870-876	Wacker	*	PERmentioned
+12-13	877-878	,	_	_
+12-14	879-885	Delius	*	PERmentioned
+12-15	886-889	etc	_	_
+12-16	890-891	.	_	_
+
+#Text=Wohin habe ich Ihnen zu schreiben ?
+13-1	892-897	Wohin	_	_
+13-2	898-902	habe	_	_
+13-3	903-906	ich	_	_
+13-4	907-912	Ihnen	_	_
+13-5	913-915	zu	_	_
+13-6	916-925	schreiben	_	_
+13-7	926-927	?	_	_
+
+#Text=Ich denke bis gegen Mitte August : Lübke , Zürich .
+14-1	928-931	Ich	_	_
+14-2	932-937	denke	_	_
+14-3	938-941	bis	_	_
+14-4	942-947	gegen	_	_
+14-5	948-953	Mitte	_	_
+14-6	954-960	August	*	DATEmentioned
+14-7	961-962	:	_	_
+14-8	963-968	Lübke	*	PERmentioned
+14-9	969-970	,	_	_
+14-10	971-977	Zürich	*	PLACEmentioned
+14-11	978-979	.	_	_
+
+#Text=Aber dann ?
+15-1	980-984	Aber	_	_
+15-2	985-989	dann	_	_
+15-3	990-991	?	_	_
+
+#Text=- Nächster Tage geht es nun endlich weiter .
+16-1	992-993	-	_	_
+16-2	994-1002	Nächster	_	_
+16-3	1003-1007	Tage	_	_
+16-4	1008-1012	geht	_	_
+16-5	1013-1015	es	_	_
+16-6	1016-1019	nun	_	_
+16-7	1020-1027	endlich	_	_
+16-8	1028-1034	weiter	_	_
+16-9	1035-1036	.	_	_
+
+#Text=- Im übrigen sind wir alle bis auf leichte Erkältungen durch scharfe Winde wohl und munter .
+17-1	1037-1038	-	_	_
+17-2	1039-1041	Im	_	_
+17-3	1042-1049	übrigen	_	_
+17-4	1050-1054	sind	_	_
+17-5	1055-1058	wir	_	_
+17-6	1059-1063	alle	_	_
+17-7	1064-1067	bis	_	_
+17-8	1068-1071	auf	_	_
+17-9	1072-1079	leichte	_	_
+17-10	1080-1091	Erkältungen	_	_
+17-11	1092-1097	durch	_	_
+17-12	1098-1105	scharfe	_	_
+17-13	1106-1111	Winde	_	_
+17-14	1112-1116	wohl	_	_
+17-15	1117-1120	und	_	_
+17-16	1121-1127	munter	_	_
+17-17	1128-1129	.	_	_
+
+#Text=Mit besten Grüßen meiner Frau , Bartoccini 's .
+18-1	1130-1133	Mit	_	_
+18-2	1134-1140	besten	_	_
+18-3	1141-1147	Grüßen	_	_
+18-4	1148-1154	meiner	*[16]	PERmentioned[16]
+18-5	1155-1159	Frau	*[16]	PERmentioned[16]
+18-6	1160-1161	,	_	_
+18-7	1162-1172	Bartoccini	*[18]	PERmentioned[18]
+18-8	1173-1175	's	*[18]	PERmentioned[18]
+18-9	1176-1177	.	_	_
+
+#Text=Ihr H.Brunn .
+19-1	1178-1181	Ihr	_	_
+19-2	1182-1189	H.Brunn	*	PERauthor
+19-3	1190-1191	.	_	_
+
+#Text=Perugia 29 Juli 1863 .
+20-1	1192-1199	Perugia	*	PLACEfrom
+20-2	1200-1202	29	*[17]	DATEletter[17]
+20-3	1203-1207	Juli	*[17]	DATEletter[17]
+20-4	1208-1212	1863	*[17]	DATEletter[17]
+20-5	1213-1214	.	_	_

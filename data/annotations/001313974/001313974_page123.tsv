@@ -1,0 +1,241 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=230 Helbig an Henzen Zürich , 12. Juni 1870 H e .
+1-1	0-3	230	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zürich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	12.	_	_
+1-8	34-38	Juni	*[1]	DATEletter[1]
+1-9	39-43	1870	*[1]	DATEletter[1]
+1-10	44-45	H	_	_
+1-11	46-47	e	_	_
+1-12	48-49	.	_	_
+
+#Text=17/6 70 Zürich , li 12. Juni 1870 Lieber Herr Professor Leider muß ich Ihnen anzeigen , daß ich heute noch nicht abreisen kann .
+2-1	50-54	17/6	*[2]	DATErecieved[2]
+2-2	55-57	70	*[2]	DATErecieved[2]
+2-3	58-64	Zürich	*	PLACEfrom
+2-4	65-66	,	_	_
+2-5	67-69	li	_	_
+2-6	70-73	12.	*[3]	DATEletter[3]
+2-7	74-78	Juni	*[3]	DATEletter[3]
+2-8	79-83	1870	*[3]	DATEletter[3]
+2-9	84-90	Lieber	_	_
+2-10	91-95	Herr	_	_
+2-11	96-105	Professor	_	_
+2-12	106-112	Leider	_	_
+2-13	113-116	muß	_	_
+2-14	117-120	ich	_	_
+2-15	121-126	Ihnen	_	_
+2-16	127-135	anzeigen	_	_
+2-17	136-137	,	_	_
+2-18	138-141	daß	_	_
+2-19	142-145	ich	_	_
+2-20	146-151	heute	_	_
+2-21	152-156	noch	_	_
+2-22	157-162	nicht	_	_
+2-23	163-171	abreisen	_	_
+2-24	172-176	kann	_	_
+2-25	177-178	.	_	_
+
+#Text=Meine Frau hat sich gestern übernommen und es stand eine fausse couche zu befürchten .
+3-1	179-184	Meine	_	_
+3-2	185-189	Frau	_	_
+3-3	190-193	hat	_	_
+3-4	194-198	sich	_	_
+3-5	199-206	gestern	_	_
+3-6	207-217	übernommen	_	_
+3-7	218-221	und	_	_
+3-8	222-224	es	_	_
+3-9	225-230	stand	_	_
+3-10	231-235	eine	_	_
+3-11	236-242	fausse	_	_
+3-12	243-249	couche	_	_
+3-13	250-252	zu	_	_
+3-14	253-263	befürchten	_	_
+3-15	264-265	.	_	_
+
+#Text=Glücklicher Weise sind in Folge der von Gusserow verordneten strengen Diät schinmere Phänomene heut nicht eingetroffen .
+4-1	266-277	Glücklicher	_	_
+4-2	278-283	Weise	_	_
+4-3	284-288	sind	_	_
+4-4	289-291	in	_	_
+4-5	292-297	Folge	_	_
+4-6	298-301	der	_	_
+4-7	302-305	von	_	_
+4-8	306-314	Gusserow	*	PERmentioned
+4-9	315-326	verordneten	_	_
+4-10	327-335	strengen	_	_
+4-11	336-340	Diät	_	_
+4-12	341-350	schinmere	_	_
+4-13	351-360	Phänomene	_	_
+4-14	361-365	heut	_	_
+4-15	366-371	nicht	_	_
+4-16	372-384	eingetroffen	_	_
+4-17	385-386	.	_	_
+
+#Text=Immerhin jedoch erklärt er mir , daß jedenfalls drei oder vier Tage verstreichen müßten , ehe sich die Gefahr als vollständig beseitigt betrachten lassen dürfte .
+5-1	387-395	Immerhin	_	_
+5-2	396-402	jedoch	_	_
+5-3	403-410	erklärt	_	_
+5-4	411-413	er	_	_
+5-5	414-417	mir	_	_
+5-6	418-419	,	_	_
+5-7	420-423	daß	_	_
+5-8	424-434	jedenfalls	_	_
+5-9	435-439	drei	_	_
+5-10	440-444	oder	_	_
+5-11	445-449	vier	_	_
+5-12	450-454	Tage	_	_
+5-13	455-467	verstreichen	_	_
+5-14	468-474	müßten	_	_
+5-15	475-476	,	_	_
+5-16	477-480	ehe	_	_
+5-17	481-485	sich	_	_
+5-18	486-489	die	_	_
+5-19	490-496	Gefahr	_	_
+5-20	497-500	als	_	_
+5-21	501-512	vollständig	_	_
+5-22	513-522	beseitigt	_	_
+5-23	523-533	betrachten	_	_
+5-24	534-540	lassen	_	_
+5-25	541-547	dürfte	_	_
+5-26	548-549	.	_	_
+
+#Text=So leid es mir thut , muß ich doch diesen Termin abwarten und kann ich somit erst Mittwoch oder Donnerstag abreisen .
+6-1	550-552	So	_	_
+6-2	553-557	leid	_	_
+6-3	558-560	es	_	_
+6-4	561-564	mir	_	_
+6-5	565-569	thut	_	_
+6-6	570-571	,	_	_
+6-7	572-575	muß	_	_
+6-8	576-579	ich	_	_
+6-9	580-584	doch	_	_
+6-10	585-591	diesen	_	_
+6-11	592-598	Termin	_	_
+6-12	599-607	abwarten	_	_
+6-13	608-611	und	_	_
+6-14	612-616	kann	_	_
+6-15	617-620	ich	_	_
+6-16	621-626	somit	_	_
+6-17	627-631	erst	_	_
+6-18	632-640	Mittwoch	*	DATEmentioned
+6-19	641-645	oder	_	_
+6-20	646-656	Donnerstag	*	DATEmentioned
+6-21	657-665	abreisen	_	_
+6-22	666-667	.	_	_
+
+#Text=Selbstverständlich werde ich es versuchen , meine Reise nunmehr so einzurichten , daß ich die Strecke bis Rom ziemlich direct zurücklege .
+7-1	668-686	Selbstverständlich	_	_
+7-2	687-692	werde	_	_
+7-3	693-696	ich	_	_
+7-4	697-699	es	_	_
+7-5	700-709	versuchen	_	_
+7-6	710-711	,	_	_
+7-7	712-717	meine	_	_
+7-8	718-723	Reise	_	_
+7-9	724-731	nunmehr	_	_
+7-10	732-734	so	_	_
+7-11	735-747	einzurichten	_	_
+7-12	748-749	,	_	_
+7-13	750-753	daß	_	_
+7-14	754-757	ich	_	_
+7-15	758-761	die	_	_
+7-16	762-769	Strecke	_	_
+7-17	770-773	bis	_	_
+7-18	774-777	Rom	*	PLACEmentioned
+7-19	778-786	ziemlich	_	_
+7-20	787-793	direct	_	_
+7-21	794-804	zurücklege	_	_
+7-22	805-806	.	_	_
+
+#Text=Nichts desto weniger aber fange ich an zu fürchten , daß ich Sie auch so möglicher Weise verfehlen könnte - wenigstens in Rom .
+8-1	807-813	Nichts	_	_
+8-2	814-819	desto	_	_
+8-3	820-827	weniger	_	_
+8-4	828-832	aber	_	_
+8-5	833-838	fange	_	_
+8-6	839-842	ich	_	_
+8-7	843-845	an	_	_
+8-8	846-848	zu	_	_
+8-9	849-857	fürchten	_	_
+8-10	858-859	,	_	_
+8-11	860-863	daß	_	_
+8-12	864-867	ich	_	_
+8-13	868-871	Sie	_	_
+8-14	872-876	auch	_	_
+8-15	877-879	so	_	_
+8-16	880-889	möglicher	_	_
+8-17	890-895	Weise	_	_
+8-18	896-905	verfehlen	_	_
+8-19	906-912	könnte	_	_
+8-20	913-914	-	_	_
+8-21	915-925	wenigstens	_	_
+8-22	926-928	in	_	_
+8-23	929-932	Rom	*	PLACEmentioned
+8-24	933-934	.	_	_
+
+#Text=Sollten Sie sich in Florenz aufhalten , was wohl zu gewärtigen ist , so bitte ich Sie , mir postrestant zu hinterlassen , wo ich Sie daselbst treffen kann .
+9-1	935-942	Sollten	_	_
+9-2	943-946	Sie	_	_
+9-3	947-951	sich	_	_
+9-4	952-954	in	_	_
+9-5	955-962	Florenz	*	PLACEmentioned
+9-6	963-972	aufhalten	_	_
+9-7	973-974	,	_	_
+9-8	975-978	was	_	_
+9-9	979-983	wohl	_	_
+9-10	984-986	zu	_	_
+9-11	987-997	gewärtigen	_	_
+9-12	998-1001	ist	_	_
+9-13	1002-1003	,	_	_
+9-14	1004-1006	so	_	_
+9-15	1007-1012	bitte	_	_
+9-16	1013-1016	ich	_	_
+9-17	1017-1020	Sie	_	_
+9-18	1021-1022	,	_	_
+9-19	1023-1026	mir	_	_
+9-20	1027-1038	postrestant	_	_
+9-21	1039-1041	zu	_	_
+9-22	1042-1054	hinterlassen	_	_
+9-23	1055-1056	,	_	_
+9-24	1057-1059	wo	_	_
+9-25	1060-1063	ich	_	_
+9-26	1064-1067	Sie	_	_
+9-27	1068-1076	daselbst	_	_
+9-28	1077-1084	treffen	_	_
+9-29	1085-1089	kann	_	_
+9-30	1090-1091	.	_	_
+
+#Text=Mein erster Gang in Florenz wird zur Fost sein .
+10-1	1092-1096	Mein	_	_
+10-2	1097-1103	erster	_	_
+10-3	1104-1108	Gang	_	_
+10-4	1109-1111	in	_	_
+10-5	1112-1119	Florenz	*	PLACEmentioned
+10-6	1120-1124	wird	_	_
+10-7	1125-1128	zur	_	_
+10-8	1129-1133	Fost	_	_
+10-9	1134-1138	sein	_	_
+10-10	1139-1140	.	_	_
+
+#Text=Heute geht es mi # , wie gesagt , meiner Frau , Gott
+11-1	1141-1146	Heute	_	_
+11-2	1147-1151	geht	_	_
+11-3	1152-1154	es	_	_
+11-4	1155-1157	mi	_	_
+11-5	1158-1159	#	_	_
+11-6	1160-1161	,	_	_
+11-7	1162-1165	wie	_	_
+11-8	1166-1172	gesagt	_	_
+11-9	1173-1174	,	_	_
+11-10	1175-1181	meiner	_	_
+11-11	1182-1186	Frau	_	_
+11-12	1187-1188	,	_	_
+11-13	1189-1193	Gott	_	_

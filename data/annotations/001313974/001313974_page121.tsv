@@ -1,0 +1,235 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=225 Helbig an Henzen Rom , 7. Juni 1870 H g . 12/6 70 Roma , li 7. Juni 1870 Lieber Herr Professor Gestern sind wir glücklich in Zürich eingetroffen .
+1-1	0-3	225	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	7.	_	_
+1-8	30-34	Juni	*[1]	DATEletter[1]
+1-9	35-39	1870	*[1]	DATEletter[1]
+1-10	40-41	H	_	_
+1-11	42-43	g	_	_
+1-12	44-45	.	_	_
+1-13	46-50	12/6	*[2]	DATErecieved[2]
+1-14	51-53	70	*[2]	DATErecieved[2]
+1-15	54-58	Roma	*	PLACEfrom
+1-16	59-60	,	_	_
+1-17	61-63	li	_	_
+1-18	64-66	7.	*[3]	DATEletter[3]
+1-19	67-71	Juni	*[3]	DATEletter[3]
+1-20	72-76	1870	*[3]	DATEletter[3]
+1-21	77-83	Lieber	_	_
+1-22	84-88	Herr	_	_
+1-23	89-98	Professor	_	_
+1-24	99-106	Gestern	_	_
+1-25	107-111	sind	_	_
+1-26	112-115	wir	_	_
+1-27	116-125	glücklich	_	_
+1-28	126-128	in	_	_
+1-29	129-135	Zürich	*	PLACEmentioned
+1-30	136-148	eingetroffen	_	_
+1-31	149-150	.	_	_
+
+#Text=Statt von der Hitze haben wir unsäglich von der Kälte zu leiden .
+2-1	151-156	Statt	_	_
+2-2	157-160	von	_	_
+2-3	161-164	der	_	_
+2-4	165-170	Hitze	_	_
+2-5	171-176	haben	_	_
+2-6	177-180	wir	_	_
+2-7	181-190	unsäglich	_	_
+2-8	191-194	von	_	_
+2-9	195-198	der	_	_
+2-10	199-204	Kälte	_	_
+2-11	205-207	zu	_	_
+2-12	208-214	leiden	_	_
+2-13	215-216	.	_	_
+
+#Text=Der Splügen war mit Schneefeldern bedeckt .
+3-1	217-220	Der	_	_
+3-2	221-228	Splügen	_	_
+3-3	229-232	war	_	_
+3-4	233-236	mit	_	_
+3-5	237-250	Schneefeldern	_	_
+3-6	251-258	bedeckt	_	_
+3-7	259-260	.	_	_
+
+#Text=Seit wir die Alpen überschritten , haben wir die Sonne nicht mehr gesehen .
+4-1	261-265	Seit	_	_
+4-2	266-269	wir	_	_
+4-3	270-273	die	_	_
+4-4	274-279	Alpen	*	PLACEmentioned
+4-5	280-293	überschritten	_	_
+4-6	294-295	,	_	_
+4-7	296-301	haben	_	_
+4-8	302-305	wir	_	_
+4-9	306-309	die	_	_
+4-10	310-315	Sonne	_	_
+4-11	316-321	nicht	_	_
+4-12	322-326	mehr	_	_
+4-13	327-334	gesehen	_	_
+4-14	335-336	.	_	_
+
+#Text=Wir sind im Schwan abgestiegen und unterhandeln von hier aus wegen eines geeigneten Logis .
+5-1	337-340	Wir	_	_
+5-2	341-345	sind	_	_
+5-3	346-348	im	_	_
+5-4	349-355	Schwan	_	_
+5-5	356-367	abgestiegen	_	_
+5-6	368-371	und	_	_
+5-7	372-384	unterhandeln	_	_
+5-8	385-388	von	_	_
+5-9	389-393	hier	_	_
+5-10	394-397	aus	_	_
+5-11	398-403	wegen	_	_
+5-12	404-409	eines	_	_
+5-13	410-420	geeigneten	_	_
+5-14	421-426	Logis	_	_
+5-15	427-428	.	_	_
+
+#Text=Bis Samstag , denke ich , wird Alles in Ordnung sein und werde ich somit Sonntag meine Rückreise antreten können .
+6-1	429-432	Bis	_	_
+6-2	433-440	Samstag	*	DATEmentioned
+6-3	441-442	,	_	_
+6-4	443-448	denke	_	_
+6-5	449-452	ich	_	_
+6-6	453-454	,	_	_
+6-7	455-459	wird	_	_
+6-8	460-465	Alles	_	_
+6-9	466-468	in	_	_
+6-10	469-476	Ordnung	_	_
+6-11	477-481	sein	_	_
+6-12	482-485	und	_	_
+6-13	486-491	werde	_	_
+6-14	492-495	ich	_	_
+6-15	496-501	somit	_	_
+6-16	502-509	Sonntag	*	DATEmentioned
+6-17	510-515	meine	_	_
+6-18	516-525	Rückreise	_	_
+6-19	526-534	antreten	_	_
+6-20	535-541	können	_	_
+6-21	542-543	.	_	_
+
+#Text=Ich denke den Weg über den Gotthard zu nehmen und , um mich gehörig auszulaufen , die Strecke von Göschenen bis Aivola zu Fuß zurückzulegen .
+7-1	544-547	Ich	_	_
+7-2	548-553	denke	_	_
+7-3	554-557	den	_	_
+7-4	558-561	Weg	_	_
+7-5	562-566	über	_	_
+7-6	567-570	den	_	_
+7-7	571-579	Gotthard	*	PLACEmentioned
+7-8	580-582	zu	_	_
+7-9	583-589	nehmen	_	_
+7-10	590-593	und	_	_
+7-11	594-595	,	_	_
+7-12	596-598	um	_	_
+7-13	599-603	mich	_	_
+7-14	604-611	gehörig	_	_
+7-15	612-623	auszulaufen	_	_
+7-16	624-625	,	_	_
+7-17	626-629	die	_	_
+7-18	630-637	Strecke	_	_
+7-19	638-641	von	_	_
+7-20	642-651	Göschenen	*	PLACEmentioned
+7-21	652-655	bis	_	_
+7-22	656-662	Aivola	*	PLACEmentioned
+7-23	663-665	zu	_	_
+7-24	666-669	Fuß	_	_
+7-25	670-683	zurückzulegen	_	_
+7-26	684-685	.	_	_
+
+#Text=Im Übrigen bleibt mein Reiseplan der alte .
+8-1	686-688	Im	_	_
+8-2	689-696	Übrigen	_	_
+8-3	697-703	bleibt	_	_
+8-4	704-708	mein	_	_
+8-5	709-718	Reiseplan	_	_
+8-6	719-722	der	_	_
+8-7	723-727	alte	_	_
+8-8	728-729	.	_	_
+
+#Text=Nur möchte ich , wenn es mit dem Termine Ihrer Abreise stimmt , auf dem Wege nach Rom in Orbetello absteigen und das Grab von Marcelliani in Augenschein nehmen .
+9-1	730-733	Nur	_	_
+9-2	734-740	möchte	_	_
+9-3	741-744	ich	_	_
+9-4	745-746	,	_	_
+9-5	747-751	wenn	_	_
+9-6	752-754	es	_	_
+9-7	755-758	mit	_	_
+9-8	759-762	dem	_	_
+9-9	763-770	Termine	_	_
+9-10	771-776	Ihrer	_	_
+9-11	777-784	Abreise	_	_
+9-12	785-791	stimmt	_	_
+9-13	792-793	,	_	_
+9-14	794-797	auf	_	_
+9-15	798-801	dem	_	_
+9-16	802-806	Wege	_	_
+9-17	807-811	nach	_	_
+9-18	812-815	Rom	*	PLACEmentioned
+9-19	816-818	in	_	_
+9-20	819-828	Orbetello	*	PLACEmentioned
+9-21	829-838	absteigen	_	_
+9-22	839-842	und	_	_
+9-23	843-846	das	_	_
+9-24	847-851	Grab	*	OBJ
+9-25	852-855	von	_	_
+9-26	856-867	Marcelliani	*	PERmentioned
+9-27	868-870	in	_	_
+9-28	871-882	Augenschein	_	_
+9-29	883-889	nehmen	_	_
+9-30	890-891	.	_	_
+
+#Text=Ich erwarte von ihm einen poste restante Brief in Florenz .
+10-1	892-895	Ich	_	_
+10-2	896-903	erwarte	_	_
+10-3	904-907	von	_	_
+10-4	908-911	ihm	_	_
+10-5	912-917	einen	_	_
+10-6	918-923	poste	_	_
+10-7	924-932	restante	_	_
+10-8	933-938	Brief	_	_
+10-9	939-941	in	_	_
+10-10	942-949	Florenz	*	PLACEmentioned
+10-11	950-951	.	_	_
+
+#Text=Hätten Sie die Güte , mir , was Sie gegenwärtig wohl im Stande sind , mitzutheilen , wann Sie frühestens abreisen , und den betreffenden Brief nach Florenz ferma in posta zu adressiren ?
+11-1	952-958	Hätten	_	_
+11-2	959-962	Sie	_	_
+11-3	963-966	die	_	_
+11-4	967-971	Güte	_	_
+11-5	972-973	,	_	_
+11-6	974-977	mir	_	_
+11-7	978-979	,	_	_
+11-8	980-983	was	_	_
+11-9	984-987	Sie	_	_
+11-10	988-999	gegenwärtig	_	_
+11-11	1000-1004	wohl	_	_
+11-12	1005-1007	im	_	_
+11-13	1008-1014	Stande	_	_
+11-14	1015-1019	sind	_	_
+11-15	1020-1021	,	_	_
+11-16	1022-1034	mitzutheilen	_	_
+11-17	1035-1036	,	_	_
+11-18	1037-1041	wann	_	_
+11-19	1042-1045	Sie	_	_
+11-20	1046-1056	frühestens	_	_
+11-21	1057-1065	abreisen	_	_
+11-22	1066-1067	,	_	_
+11-23	1068-1071	und	_	_
+11-24	1072-1075	den	_	_
+11-25	1076-1088	betreffenden	_	_
+11-26	1089-1094	Brief	_	_
+11-27	1095-1099	nach	_	_
+11-28	1100-1107	Florenz	*	PLACEmentioned
+11-29	1108-1113	ferma	_	_
+11-30	1114-1116	in	_	_
+11-31	1117-1122	posta	_	_
+11-32	1123-1125	zu	_	_
+11-33	1126-1136	adressiren	_	_
+11-34	1137-1138	?	_	_

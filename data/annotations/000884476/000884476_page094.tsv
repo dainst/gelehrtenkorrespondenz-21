@@ -1,0 +1,263 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 23. Dezember 1834 Sie beziffern gefälligst Ihre Briefe fürs nächste Jahr mit 1 - 15 „ .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	23.	*[4]	DATEletter[4]
+1-7	30-38	Dezember	*[4]	DATEletter[4]
+1-8	39-43	1834	*[4]	DATEletter[4]
+1-9	44-47	Sie	_	_
+1-10	48-57	beziffern	_	_
+1-11	58-68	gefälligst	_	_
+1-12	69-73	Ihre	_	_
+1-13	74-80	Briefe	_	_
+1-14	81-85	fürs	_	_
+1-15	86-93	nächste	_	_
+1-16	94-98	Jahr	_	_
+1-17	99-102	mit	_	_
+1-18	103-104	1	_	_
+1-19	105-106	-	_	_
+1-20	107-109	15	_	_
+1-21	110-111	„	_	_
+1-22	112-113	.	_	_
+
+#Text=201 - 400 .
+2-1	114-117	201	_	_
+2-2	118-119	-	_	_
+2-3	120-123	400	_	_
+2-4	124-125	.	_	_
+
+#Text=801 - 1000 .
+3-1	126-129	801	_	_
+3-2	130-131	-	_	_
+3-3	132-136	1000	_	_
+3-4	137-138	.	_	_
+
+#Text=Hat Mse Mallia aus Terranova nie geantwortet ?
+4-1	139-142	Hat	_	_
+4-2	143-146	Mse	*[5]	PERmentioned[5]
+4-3	147-153	Mallia	*[5]	PERmentioned[5]
+4-4	154-157	aus	_	_
+4-5	158-167	Terranova	*	PLACEmentioned
+4-6	168-171	nie	_	_
+4-7	172-183	geantwortet	_	_
+4-8	184-185	?	_	_
+
+#Text=und Prof. Giuli , den ich zum socio vorläufig einlud ?
+5-1	186-189	und	_	_
+5-2	190-195	Prof.	*[7]	PERmentioned[7]
+5-3	196-201	Giuli	*[7]	PERmentioned[7]
+5-4	202-203	,	_	_
+5-5	204-207	den	_	_
+5-6	208-211	ich	_	_
+5-7	212-215	zum	_	_
+5-8	216-221	socio	_	_
+5-9	222-231	vorläufig	_	_
+5-10	232-238	einlud	_	_
+5-11	239-240	?	_	_
+
+#Text=Der Vatikanskatalog ist jetzt wol fortgesetzt ?
+6-1	241-244	Der	_	_
+6-2	245-260	Vatikanskatalog	_	_
+6-3	261-264	ist	_	_
+6-4	265-270	jetzt	_	_
+6-5	271-274	wol	_	_
+6-6	275-286	fortgesetzt	_	_
+6-7	287-288	?	_	_
+
+#Text=Das Institutsexemplar ist , seit Kellermann es verlieren ließ , vermuthlich noch nicht ergänzt und außerdem brauche ich selbst eines was im Nothfall bezahlt werden kann , während jenes jedenfalls nun geschickt werden muß .
+7-1	289-292	Das	_	_
+7-2	293-310	Institutsexemplar	_	_
+7-3	311-314	ist	_	_
+7-4	315-316	,	_	_
+7-5	317-321	seit	_	_
+7-6	322-332	Kellermann	*	PERmentioned
+7-7	333-335	es	_	_
+7-8	336-345	verlieren	_	_
+7-9	346-350	ließ	_	_
+7-10	351-352	,	_	_
+7-11	353-364	vermuthlich	_	_
+7-12	365-369	noch	_	_
+7-13	370-375	nicht	_	_
+7-14	376-383	ergänzt	_	_
+7-15	384-387	und	_	_
+7-16	388-396	außerdem	_	_
+7-17	397-404	brauche	_	_
+7-18	405-408	ich	_	_
+7-19	409-415	selbst	_	_
+7-20	416-421	eines	_	_
+7-21	422-425	was	_	_
+7-22	426-428	im	_	_
+7-23	429-437	Nothfall	_	_
+7-24	438-445	bezahlt	_	_
+7-25	446-452	werden	_	_
+7-26	453-457	kann	_	_
+7-27	458-459	,	_	_
+7-28	460-467	während	_	_
+7-29	468-473	jenes	_	_
+7-30	474-484	jedenfalls	_	_
+7-31	485-488	nun	_	_
+7-32	489-498	geschickt	_	_
+7-33	499-505	werden	_	_
+7-34	506-509	muß	_	_
+7-35	510-511	.	_	_
+
+#Text=Sig .
+8-1	512-515	Sig	*[9]	PERmentioned[9]
+8-2	516-517	.	*[9]	PERmentioned[9]
+
+#Text=Pietro , ein Mann für den wir allerdings Rücksichten haben , muß wie .
+9-1	518-524	Pietro	*[9]	PERmentioned[9]
+9-2	525-526	,	_	_
+9-3	527-530	ein	_	_
+9-4	531-535	Mann	_	_
+9-5	536-539	für	_	_
+9-6	540-543	den	_	_
+9-7	544-547	wir	_	_
+9-8	548-558	allerdings	_	_
+9-9	559-570	Rücksichten	_	_
+9-10	571-576	haben	_	_
+9-11	577-578	,	_	_
+9-12	579-582	muß	_	_
+9-13	583-586	wie	_	_
+9-14	587-588	.	_	_
+
+#Text=es billig ist beide Exemplare a uffa geben , da er das Bull .
+10-1	589-591	es	_	_
+10-2	592-598	billig	_	_
+10-3	599-602	ist	_	_
+10-4	603-608	beide	_	_
+10-5	609-618	Exemplare	_	_
+10-6	619-620	a	_	_
+10-7	621-625	uffa	_	_
+10-8	626-631	geben	_	_
+10-9	632-633	,	_	_
+10-10	634-636	da	_	_
+10-11	637-639	er	_	_
+10-12	640-643	das	_	_
+10-13	644-648	Bull	_	_
+10-14	649-650	.	_	_
+
+#Text=schon seit ein paar Jahren gratis erhielt .
+11-1	651-656	schon	_	_
+11-2	657-661	seit	_	_
+11-3	662-665	ein	_	_
+11-4	666-670	paar	_	_
+11-5	671-677	Jahren	_	_
+11-6	678-684	gratis	_	_
+11-7	685-692	erhielt	_	_
+11-8	693-694	.	_	_
+
+#Text=Eine Rivista generale zum Bull .
+12-1	695-699	Eine	_	_
+12-2	700-707	Rivista	_	_
+12-3	708-716	generale	_	_
+12-4	717-720	zum	_	_
+12-5	721-725	Bull	_	_
+12-6	726-727	.	_	_
+
+#Text=bezwecke ich diesmal nicht \; es findet sich wol eine andere Form den Inhalt nachzuholen als ich in den aufgelegten Thatsachen den Dank für die Encyklopädiebände bereits hatte drucken lassen , bin ich veranlaßt 1/4 Bogih dazu drucken , weil Brockhaus ( übrigens höflichst seine Spenden als mit Ihnen zu verabreden anzeigend ) berichtet , er hatte die früheren Bände zu einem sehr billigen Preise geben wollen , falls man die übrigen ankaufte .
+13-1	728-736	bezwecke	_	_
+13-2	737-740	ich	_	_
+13-3	741-748	diesmal	_	_
+13-4	749-754	nicht	_	_
+13-5	755-756	\;	_	_
+13-6	757-759	es	_	_
+13-7	760-766	findet	_	_
+13-8	767-771	sich	_	_
+13-9	772-775	wol	_	_
+13-10	776-780	eine	_	_
+13-11	781-787	andere	_	_
+13-12	788-792	Form	_	_
+13-13	793-796	den	_	_
+13-14	797-803	Inhalt	_	_
+13-15	804-815	nachzuholen	_	_
+13-16	816-819	als	_	_
+13-17	820-823	ich	_	_
+13-18	824-826	in	_	_
+13-19	827-830	den	_	_
+13-20	831-842	aufgelegten	_	_
+13-21	843-853	Thatsachen	_	_
+13-22	854-857	den	_	_
+13-23	858-862	Dank	_	_
+13-24	863-866	für	_	_
+13-25	867-870	die	_	_
+13-26	871-888	Encyklopädiebände	_	_
+13-27	889-896	bereits	_	_
+13-28	897-902	hatte	_	_
+13-29	903-910	drucken	_	_
+13-30	911-917	lassen	_	_
+13-31	918-919	,	_	_
+13-32	920-923	bin	_	_
+13-33	924-927	ich	_	_
+13-34	928-937	veranlaßt	_	_
+13-35	938-941	1/4	_	_
+13-36	942-947	Bogih	_	_
+13-37	948-952	dazu	_	_
+13-38	953-960	drucken	_	_
+13-39	961-962	,	_	_
+13-40	963-967	weil	_	_
+13-41	968-977	Brockhaus	*	PERmentioned
+13-42	978-979	(	_	_
+13-43	980-988	übrigens	_	_
+13-44	989-998	höflichst	_	_
+13-45	999-1004	seine	_	_
+13-46	1005-1012	Spenden	_	_
+13-47	1013-1016	als	_	_
+13-48	1017-1020	mit	_	_
+13-49	1021-1026	Ihnen	_	_
+13-50	1027-1029	zu	_	_
+13-51	1030-1040	verabreden	_	_
+13-52	1041-1050	anzeigend	_	_
+13-53	1051-1052	)	_	_
+13-54	1053-1062	berichtet	_	_
+13-55	1063-1064	,	_	_
+13-56	1065-1067	er	_	_
+13-57	1068-1073	hatte	_	_
+13-58	1074-1077	die	_	_
+13-59	1078-1086	früheren	_	_
+13-60	1087-1092	Bände	_	_
+13-61	1093-1095	zu	_	_
+13-62	1096-1101	einem	_	_
+13-63	1102-1106	sehr	_	_
+13-64	1107-1115	billigen	_	_
+13-65	1116-1122	Preise	_	_
+13-66	1123-1128	geben	_	_
+13-67	1129-1135	wollen	_	_
+13-68	1136-1137	,	_	_
+13-69	1138-1143	falls	_	_
+13-70	1144-1147	man	_	_
+13-71	1148-1151	die	_	_
+13-72	1152-1159	übrigen	_	_
+13-73	1160-1168	ankaufte	_	_
+13-74	1169-1170	.	_	_
+
+#Text=Anzi !
+14-1	1171-1175	Anzi	_	_
+14-2	1176-1177	!	_	_
+
+#Text=er versprach jene zu schicken , wie auch Sie Sich erinnern werden .
+15-1	1178-1180	er	_	_
+15-2	1181-1190	versprach	_	_
+15-3	1191-1195	jene	_	_
+15-4	1196-1198	zu	_	_
+15-5	1199-1207	schicken	_	_
+15-6	1208-1209	,	_	_
+15-7	1210-1213	wie	_	_
+15-8	1214-1218	auch	_	_
+15-9	1219-1222	Sie	_	_
+15-10	1223-1227	Sich	_	_
+15-11	1228-1236	erinnern	_	_
+15-12	1237-1243	werden	_	_
+15-13	1244-1245	.	_	_
+
+#Text=( Ohne Unterschrift )
+16-1	1246-1247	(	_	_
+16-2	1248-1252	Ohne	_	_
+16-3	1253-1265	Unterschrift	_	_
+16-4	1266-1267	)	_	_

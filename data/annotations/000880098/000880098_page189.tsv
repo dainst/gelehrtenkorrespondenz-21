@@ -1,0 +1,310 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=327 Braun an Gerhard Rom , 16.17. März 1836 - 3 .
+1-1	0-3	327	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-33	16.17.	*[1]	DATEletter[1]
+1-8	34-38	März	*[1]	DATEletter[1]
+1-9	39-43	1836	*[1]	DATEletter[1]
+1-10	44-45	-	*[1]	DATEletter[1]
+1-11	46-47	3	_	_
+1-12	48-49	.	_	_
+
+#Text=Ich dachte das 2te Heft der Monum .
+2-1	50-53	Ich	_	_
+2-2	54-60	dachte	_	_
+2-3	61-64	das	_	_
+2-4	65-68	2te	_	_
+2-5	69-73	Heft	_	_
+2-6	74-77	der	_	_
+2-7	78-83	Monum	_	_
+2-8	84-85	.	_	_
+
+#Text=so zu pubbliciren : 1 , Tombe di Oerveteri , 2 , Vaso del Papa ( 1 Blatt zur Hälfte verkleinert ) .
+3-1	86-88	so	_	_
+3-2	89-91	zu	_	_
+3-3	92-103	pubbliciren	_	_
+3-4	104-105	:	_	_
+3-5	106-107	1	_	_
+3-6	108-109	,	_	_
+3-7	110-115	Tombe	*[2]	OBJtopography[2]
+3-8	116-118	di	*[2]	OBJtopography[2]
+3-9	119-128	Oerveteri	*[2]	OBJtopography[2]
+3-10	129-130	,	_	_
+3-11	131-132	2	_	_
+3-12	133-134	,	_	_
+3-13	135-139	Vaso	*[3]	OBJ[3]
+3-14	140-143	del	*[3]	OBJ[3]
+3-15	144-148	Papa	*[3]	OBJ[3]
+3-16	149-150	(	_	_
+3-17	151-152	1	_	_
+3-18	153-158	Blatt	_	_
+3-19	159-162	zur	_	_
+3-20	163-169	Hälfte	_	_
+3-21	170-181	verkleinert	_	_
+3-22	182-183	)	_	_
+3-23	184-185	.	_	_
+
+#Text=3 , Casa mortuaria del Campana .
+4-1	186-187	3	_	_
+4-2	188-189	,	_	_
+4-3	190-194	Casa	*[4]	OBJ[4]
+4-4	195-204	mortuaria	*[4]	OBJ[4]
+4-5	205-208	del	_	_
+4-6	209-216	Campana	*	PERmentioned
+4-7	217-218	.	_	_
+
+#Text=4 , Vaso del Tamiri .
+5-1	219-220	4	_	_
+5-2	221-222	,	_	_
+5-3	223-227	Vaso	*[5]	OBJ[5]
+5-4	228-231	del	*[5]	OBJ[5]
+5-5	232-238	Tamiri	*[5]	OBJ[5]
+5-6	239-240	.	_	_
+
+#Text=5 , Specchj ( Bunsen will 3 , von denen 1 der von Spagna ( p. Grifi ) sein soll ) .
+6-1	241-242	5	_	_
+6-2	243-244	,	_	_
+6-3	245-252	Specchj	*	OBJ
+6-4	253-254	(	_	_
+6-5	255-261	Bunsen	*	PERmentioned
+6-6	262-266	will	_	_
+6-7	267-268	3	_	_
+6-8	269-270	,	_	_
+6-9	271-274	von	_	_
+6-10	275-280	denen	_	_
+6-11	281-282	1	_	_
+6-12	283-286	der	_	_
+6-13	287-290	von	_	_
+6-14	291-297	Spagna	*	PERmentioned
+6-15	298-299	(	_	_
+6-16	300-302	p.	_	_
+6-17	303-308	Grifi	*	PERmentioned
+6-18	309-310	)	_	_
+6-19	311-315	sein	_	_
+6-20	316-320	soll	_	_
+6-21	321-322	)	_	_
+6-22	323-324	.	_	_
+
+#Text=6 , Vaso dell'orundinella , oder wie Sie wollen .
+7-1	325-326	6	_	_
+7-2	327-328	,	_	_
+7-3	329-333	Vaso	*[6]	OBJ[6]
+7-4	334-350	dell'orundinella	*[6]	OBJ[6]
+7-5	351-352	,	_	_
+7-6	353-357	oder	_	_
+7-7	358-361	wie	_	_
+7-8	362-365	Sie	_	_
+7-9	366-372	wollen	_	_
+7-10	373-374	.	_	_
+
+#Text=Die Kapitelle könnten indeß auch eintreten \; jedoch sind 2 Vasen fürs Instituto dei Vasi nicht zu viel .
+8-1	375-378	Die	_	_
+8-2	379-388	Kapitelle	*	OBJ
+8-3	389-396	könnten	_	_
+8-4	397-402	indeß	_	_
+8-5	403-407	auch	_	_
+8-6	408-417	eintreten	_	_
+8-7	418-419	\;	_	_
+8-8	420-426	jedoch	_	_
+8-9	427-431	sind	_	_
+8-10	432-433	2	_	_
+8-11	434-439	Vasen	_	_
+8-12	440-444	fürs	_	_
+8-13	445-454	Instituto	*[7]	ORGmentioned[7]
+8-14	455-458	dei	*[7]	ORGmentioned[7]
+8-15	459-463	Vasi	*[7]	ORGmentioned[7]
+8-16	464-469	nicht	_	_
+8-17	470-472	zu	_	_
+8-18	473-477	viel	_	_
+8-19	478-479	.	_	_
+
+#Text=- Zu Bunsens Aufsatz habe ich 2 Spiegel verkleinert müssen stechen lassen , die Ihnen gefallen dürften , der eine der von Orvieto und noch ein anderer .
+9-1	480-481	-	_	_
+9-2	482-484	Zu	_	_
+9-3	485-492	Bunsens	*	PERmentioned
+9-4	493-500	Aufsatz	_	_
+9-5	501-505	habe	_	_
+9-6	506-509	ich	_	_
+9-7	510-511	2	_	_
+9-8	512-519	Spiegel	_	_
+9-9	520-531	verkleinert	_	_
+9-10	532-538	müssen	_	_
+9-11	539-546	stechen	_	_
+9-12	547-553	lassen	_	_
+9-13	554-555	,	_	_
+9-14	556-559	die	_	_
+9-15	560-565	Ihnen	_	_
+9-16	566-574	gefallen	_	_
+9-17	575-582	dürften	_	_
+9-18	583-584	,	_	_
+9-19	585-588	der	_	_
+9-20	589-593	eine	_	_
+9-21	594-597	der	_	_
+9-22	598-601	von	_	_
+9-23	602-609	Orvieto	*	PLACEmentioned
+9-24	610-613	und	_	_
+9-25	614-618	noch	_	_
+9-26	619-622	ein	_	_
+9-27	623-630	anderer	_	_
+9-28	631-632	.	_	_
+
+#Text=Dank für Ihre Notizen über Grifi .
+10-1	633-637	Dank	_	_
+10-2	638-641	für	_	_
+10-3	642-646	Ihre	_	_
+10-4	647-654	Notizen	_	_
+10-5	655-659	über	_	_
+10-6	660-665	Grifi	*	PERmentioned
+10-7	666-667	.	_	_
+
+#Text=Ich habe ihn so gefasst und in dem angezeigten Ton behandelt \; aber er ist ein schlimmer Gast .
+11-1	668-671	Ich	_	_
+11-2	672-676	habe	_	_
+11-3	677-680	ihn	_	_
+11-4	681-683	so	_	_
+11-5	684-691	gefasst	_	_
+11-6	692-695	und	_	_
+11-7	696-698	in	_	_
+11-8	699-702	dem	_	_
+11-9	703-714	angezeigten	_	_
+11-10	715-718	Ton	_	_
+11-11	719-728	behandelt	_	_
+11-12	729-730	\;	_	_
+11-13	731-735	aber	_	_
+11-14	736-738	er	_	_
+11-15	739-742	ist	_	_
+11-16	743-746	ein	_	_
+11-17	747-756	schlimmer	_	_
+11-18	757-761	Gast	_	_
+11-19	762-763	.	_	_
+
+#Text=Daß Sie Ouwaroffs Brief nicht eher erheilten , liegt daran , daß Bunsen erst mit Gourieff sein möglichstes versuchen wollte und dazu diese Papiere nöthig hatte .
+12-1	764-767	Daß	_	_
+12-2	768-771	Sie	_	_
+12-3	772-781	Ouwaroffs	*	PERmentioned
+12-4	782-787	Brief	_	_
+12-5	788-793	nicht	_	_
+12-6	794-798	eher	_	_
+12-7	799-808	erheilten	_	_
+12-8	809-810	,	_	_
+12-9	811-816	liegt	_	_
+12-10	817-822	daran	_	_
+12-11	823-824	,	_	_
+12-12	825-828	daß	_	_
+12-13	829-835	Bunsen	*	PERmentioned
+12-14	836-840	erst	_	_
+12-15	841-844	mit	_	_
+12-16	845-853	Gourieff	*	PERmentioned
+12-17	854-858	sein	_	_
+12-18	859-870	möglichstes	_	_
+12-19	871-880	versuchen	_	_
+12-20	881-887	wollte	_	_
+12-21	888-891	und	_	_
+12-22	892-896	dazu	_	_
+12-23	897-902	diese	_	_
+12-24	903-910	Papiere	_	_
+12-25	911-917	nöthig	_	_
+12-26	918-923	hatte	_	_
+12-27	924-925	.	_	_
+
+#Text=- Ihn sotto fascia beizuschließen ging also gut an ?
+13-1	926-927	-	_	_
+13-2	928-931	Ihn	_	_
+13-3	932-937	sotto	_	_
+13-4	938-944	fascia	_	_
+13-5	945-959	beizuschließen	_	_
+13-6	960-964	ging	_	_
+13-7	965-969	also	_	_
+13-8	970-973	gut	_	_
+13-9	974-976	an	_	_
+13-10	977-978	?	_	_
+
+#Text=Dies zu wissen ist für ein andres Mal wichtig .
+14-1	979-983	Dies	_	_
+14-2	984-986	zu	_	_
+14-3	987-993	wissen	_	_
+14-4	994-997	ist	_	_
+14-5	998-1001	für	_	_
+14-6	1002-1005	ein	_	_
+14-7	1006-1012	andres	_	_
+14-8	1013-1016	Mal	_	_
+14-9	1017-1024	wichtig	_	_
+14-10	1025-1026	.	_	_
+
+#Text=Ich fürchte , dass es mit dem Bull .
+15-1	1027-1030	Ich	_	_
+15-2	1031-1038	fürchte	_	_
+15-3	1039-1040	,	_	_
+15-4	1041-1045	dass	_	_
+15-5	1046-1048	es	_	_
+15-6	1049-1052	mit	_	_
+15-7	1053-1056	dem	_	_
+15-8	1057-1061	Bull	_	_
+15-9	1062-1063	.	_	_
+
+#Text=nicht forthin so gut gehen wird .
+16-1	1064-1069	nicht	_	_
+16-2	1070-1077	forthin	_	_
+16-3	1078-1080	so	_	_
+16-4	1081-1084	gut	_	_
+16-5	1085-1090	gehen	_	_
+16-6	1091-1095	wird	_	_
+16-7	1096-1097	.	_	_
+
+#Text=Lanci hat sich zurückgezogen und thut nichts mehr freiwillig wie sonst .
+17-1	1098-1103	Lanci	*	PERmentioned
+17-2	1104-1107	hat	_	_
+17-3	1108-1112	sich	_	_
+17-4	1113-1126	zurückgezogen	_	_
+17-5	1127-1130	und	_	_
+17-6	1131-1135	thut	_	_
+17-7	1136-1142	nichts	_	_
+17-8	1143-1147	mehr	_	_
+17-9	1148-1158	freiwillig	_	_
+17-10	1159-1162	wie	_	_
+17-11	1163-1168	sonst	_	_
+17-12	1169-1170	.	_	_
+
+#Text=Der Drucker muß aufs Capitol kommen etc. Bunsen , der Lancin besser bezahlt Adaubt , muthet ihm wohl etwas zu viel zu und das könnte leicht verursachen , daß er , um seine Bequemlichkeit nicht
+18-1	1171-1174	Der	_	_
+18-2	1175-1182	Drucker	_	_
+18-3	1183-1186	muß	_	_
+18-4	1187-1191	aufs	_	_
+18-5	1192-1199	Capitol	*	PLACEmentioned
+18-6	1200-1206	kommen	_	_
+18-7	1207-1211	etc.	_	_
+18-8	1212-1218	Bunsen	*	PERmentioned
+18-9	1219-1220	,	_	_
+18-10	1221-1224	der	_	_
+18-11	1225-1231	Lancin	*	PERmentioned
+18-12	1232-1238	besser	_	_
+18-13	1239-1246	bezahlt	_	_
+18-14	1247-1253	Adaubt	_	_
+18-15	1254-1255	,	_	_
+18-16	1256-1262	muthet	_	_
+18-17	1263-1266	ihm	_	_
+18-18	1267-1271	wohl	_	_
+18-19	1272-1277	etwas	_	_
+18-20	1278-1280	zu	_	_
+18-21	1281-1285	viel	_	_
+18-22	1286-1288	zu	_	_
+18-23	1289-1292	und	_	_
+18-24	1293-1296	das	_	_
+18-25	1297-1303	könnte	_	_
+18-26	1304-1310	leicht	_	_
+18-27	1311-1322	verursachen	_	_
+18-28	1323-1324	,	_	_
+18-29	1325-1328	daß	_	_
+18-30	1329-1331	er	_	_
+18-31	1332-1333	,	_	_
+18-32	1334-1336	um	_	_
+18-33	1337-1342	seine	_	_
+18-34	1343-1357	Bequemlichkeit	_	_
+18-35	1358-1363	nicht	_	_

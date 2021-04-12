@@ -1,0 +1,44 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=320 Helbig an Henzen Moskau , 11. September 1866 Ihren Brief nach Petersburg unter der Adresse Hotel Demouth zu adressiren .
+1-1	0-3	320	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Moskau	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	11.	*[3]	DATEletter[3]
+1-8	34-43	September	*[3]	DATEletter[3]
+1-9	44-48	1866	*[3]	DATEletter[3]
+1-10	49-54	Ihren	_	_
+1-11	55-60	Brief	_	_
+1-12	61-65	nach	_	_
+1-13	66-76	Petersburg	*	PLACEmentioned
+1-14	77-82	unter	_	_
+1-15	83-86	der	_	_
+1-16	87-94	Adresse	_	_
+1-17	95-100	Hotel	_	_
+1-18	101-108	Demouth	_	_
+1-19	109-111	zu	_	_
+1-20	112-122	adressiren	_	_
+1-21	123-124	.	_	_
+
+#Text=Leben Sie wohl !
+2-1	125-130	Leben	_	_
+2-2	131-134	Sie	_	_
+2-3	135-139	wohl	_	_
+2-4	140-141	!	_	_
+
+#Text=Mit herzlichen Grüßen Ihr Wolfg .
+3-1	142-145	Mit	_	_
+3-2	146-156	herzlichen	_	_
+3-3	157-163	Grüßen	_	_
+3-4	164-167	Ihr	_	_
+3-5	168-173	Wolfg	*[4]	PERauthor[4]
+3-6	174-175	.	*[4]	PERauthor[4]
+
+#Text=Helbig .
+4-1	176-182	Helbig	*[4]	PERauthor[4]
+4-2	183-184	.	_	_

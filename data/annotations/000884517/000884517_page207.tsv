@@ -1,0 +1,122 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 11. Juni 1846 im nächsten Winter wieder zurückgehe .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	11.	*[1]	DATEletter[1]
+1-7	30-34	Juni	*[1]	DATEletter[1]
+1-8	35-39	1846	*[1]	DATEletter[1]
+1-9	40-42	im	_	_
+1-10	43-51	nächsten	_	_
+1-11	52-58	Winter	_	_
+1-12	59-65	wieder	_	_
+1-13	66-76	zurückgehe	_	_
+1-14	77-78	.	_	_
+
+#Text=In Schelling 's Vorwort zu Steffens Posthumis sind die jetzigen kirchlichen Reformsversuche als ein Bastarderzeugniß von Protestanten und Katholiken bezeichnet .
+2-1	79-81	In	_	_
+2-2	82-91	Schelling	*[3]	PERmentioned[3]
+2-3	92-94	's	*[3]	PERmentioned[3]
+2-4	95-102	Vorwort	_	_
+2-5	103-105	zu	_	_
+2-6	106-114	Steffens	*	PERmentioned
+2-7	115-124	Posthumis	_	_
+2-8	125-129	sind	_	_
+2-9	130-133	die	_	_
+2-10	134-142	jetzigen	_	_
+2-11	143-154	kirchlichen	_	_
+2-12	155-170	Reformsversuche	_	_
+2-13	171-174	als	_	_
+2-14	175-178	ein	_	_
+2-15	179-195	Bastarderzeugniß	_	_
+2-16	196-199	von	_	_
+2-17	200-212	Protestanten	_	_
+2-18	213-216	und	_	_
+2-19	217-227	Katholiken	_	_
+2-20	228-238	bezeichnet	_	_
+2-21	239-240	.	_	_
+
+#Text=Serradifalco hat sich auf 10 Tage hier gestellt und ist im Berliner Corso erschienen .
+3-1	241-253	Serradifalco	*	PERmentioned
+3-2	254-257	hat	_	_
+3-3	258-262	sich	_	_
+3-4	263-266	auf	_	_
+3-5	267-269	10	_	_
+3-6	270-274	Tage	_	_
+3-7	275-279	hier	_	_
+3-8	280-288	gestellt	_	_
+3-9	289-292	und	_	_
+3-10	293-296	ist	_	_
+3-11	297-299	im	_	_
+3-12	300-308	Berliner	*	PLACEmentioned
+3-13	309-314	Corso	_	_
+3-14	315-325	erschienen	_	_
+3-15	326-327	.	_	_
+
+#Text=Ihrer Frau und der Casa Tarpea alle besten Grüße , von meiner Frau wie von mir , Ihnen selbst Frieden und Gesundheit \| !
+4-1	328-333	Ihrer	_	_
+4-2	334-338	Frau	_	_
+4-3	339-342	und	_	_
+4-4	343-346	der	_	_
+4-5	347-351	Casa	*[2]	PLACEmentioned[2]
+4-6	352-358	Tarpea	*[2]	PLACEmentioned[2]
+4-7	359-363	alle	_	_
+4-8	364-370	besten	_	_
+4-9	371-376	Grüße	_	_
+4-10	377-378	,	_	_
+4-11	379-382	von	_	_
+4-12	383-389	meiner	_	_
+4-13	390-394	Frau	_	_
+4-14	395-398	wie	_	_
+4-15	399-402	von	_	_
+4-16	403-406	mir	_	_
+4-17	407-408	,	_	_
+4-18	409-414	Ihnen	_	_
+4-19	415-421	selbst	_	_
+4-20	422-429	Frieden	_	_
+4-21	430-433	und	_	_
+4-22	434-444	Gesundheit	_	_
+4-23	445-446	\|	_	_
+4-24	447-448	!	_	_
+
+#Text=Viel Herzliches auch an Usedom wenn er endlich angelangt ist !
+5-1	449-453	Viel	_	_
+5-2	454-464	Herzliches	_	_
+5-3	465-469	auch	_	_
+5-4	470-472	an	_	_
+5-5	473-479	Usedom	*	PERmentioned
+5-6	480-484	wenn	_	_
+5-7	485-487	er	_	_
+5-8	488-495	endlich	_	_
+5-9	496-505	angelangt	_	_
+5-10	506-509	ist	_	_
+5-11	510-511	!	_	_
+
+#Text=Über meine Kistensendung noch immer nichts Specielles .
+6-1	512-516	Über	_	_
+6-2	517-522	meine	_	_
+6-3	523-536	Kistensendung	_	_
+6-4	537-541	noch	_	_
+6-5	542-547	immer	_	_
+6-6	548-554	nichts	_	_
+6-7	555-565	Specielles	_	_
+6-8	566-567	.	_	_
+
+#Text=Lepsii ägyptisches Schiff ist in Hamburg angelangt .
+7-1	568-574	Lepsii	*	PERmentioned
+7-2	575-586	ägyptisches	_	_
+7-3	587-593	Schiff	_	_
+7-4	594-597	ist	_	_
+7-5	598-600	in	_	_
+7-6	601-608	Hamburg	*	PLACEmentioned
+7-7	609-618	angelangt	_	_
+7-8	619-620	.	_	_
+
+#Text=Ihr Gerhard
+8-1	621-624	Ihr	_	_
+8-2	625-632	Gerhard	*	PERauthor

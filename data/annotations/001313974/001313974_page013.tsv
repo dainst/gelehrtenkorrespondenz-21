@@ -1,0 +1,218 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an das Institut Neapel , 12. Mai 1864 halten .
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-13	das	_	_
+1-4	14-22	Institut	*	ORGaddressee
+1-5	23-29	Neapel	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-35	12.	*[3]	DATEletter[3]
+1-8	36-39	Mai	*[3]	DATEletter[3]
+1-9	40-44	1864	*[3]	DATEletter[3]
+1-10	45-51	halten	_	_
+1-11	52-53	.	_	_
+
+#Text=Gerhard hat alle meine letzten Briefe unbeantwortet gelassen .
+2-1	54-61	Gerhard	*	PERmentioned
+2-2	62-65	hat	_	_
+2-3	66-70	alle	_	_
+2-4	71-76	meine	_	_
+2-5	77-84	letzten	_	_
+2-6	85-91	Briefe	_	_
+2-7	92-105	unbeantwortet	_	_
+2-8	106-114	gelassen	_	_
+2-9	115-116	.	_	_
+
+#Text=Vielleicht hat er mir einen Passus Über die Mysteriensucher in den alten Kunstwerken in meinem letzten Aufsatze übel genommen .
+3-1	117-127	Vielleicht	_	_
+3-2	128-131	hat	_	_
+3-3	132-134	er	_	_
+3-4	135-138	mir	_	_
+3-5	139-144	einen	_	_
+3-6	145-151	Passus	_	_
+3-7	152-156	Über	_	_
+3-8	157-160	die	_	_
+3-9	161-176	Mysteriensucher	_	_
+3-10	177-179	in	_	_
+3-11	180-183	den	_	_
+3-12	184-189	alten	_	_
+3-13	190-201	Kunstwerken	_	_
+3-14	202-204	in	_	_
+3-15	205-211	meinem	_	_
+3-16	212-219	letzten	_	_
+3-17	220-228	Aufsatze	_	_
+3-18	229-233	übel	_	_
+3-19	234-242	genommen	_	_
+3-20	243-244	.	_	_
+
+#Text=An Diätarische Beschäftigung im Museum ist nicht zu denken .
+4-1	245-247	An	_	_
+4-2	248-259	Diätarische	_	_
+4-3	260-273	Beschäftigung	_	_
+4-4	274-276	im	_	_
+4-5	277-283	Museum	*	ORGmentioned
+4-6	284-287	ist	_	_
+4-7	288-293	nicht	_	_
+4-8	294-296	zu	_	_
+4-9	297-303	denken	_	_
+4-10	304-305	.	_	_
+
+#Text=Fiorelli besteht auch für mich auf das pompeianische Entr & e .
+5-1	306-314	Fiorelli	*	PERmentioned
+5-2	315-322	besteht	_	_
+5-3	323-327	auch	_	_
+5-4	328-331	für	_	_
+5-5	332-336	mich	_	_
+5-6	337-340	auf	_	_
+5-7	341-344	das	_	_
+5-8	345-358	pompeianische	_	_
+5-9	359-363	Entr	_	_
+5-10	364-365	&	_	_
+5-11	366-367	e	_	_
+5-12	368-369	.	_	_
+
+#Text=Unter solchen Umständen muß ich mich an jeden Strohhalm anklammern .
+6-1	370-375	Unter	_	_
+6-2	376-383	solchen	_	_
+6-3	384-393	Umständen	_	_
+6-4	394-397	muß	_	_
+6-5	398-401	ich	_	_
+6-6	402-406	mich	_	_
+6-7	407-409	an	_	_
+6-8	410-415	jeden	_	_
+6-9	416-425	Strohhalm	_	_
+6-10	426-436	anklammern	_	_
+6-11	437-438	.	_	_
+
+#Text=Ich bitte Sie in Berlin anzufragen , ob ich aus dem Akademiefond Unterstützung erhalten kann oder ob noch Möglichkeit vorhanden ist , vielleicht das Stipendium verlängert zu erhalten .
+7-1	439-442	Ich	_	_
+7-2	443-448	bitte	_	_
+7-3	449-452	Sie	_	_
+7-4	453-455	in	_	_
+7-5	456-462	Berlin	*	PLACEmentioned
+7-6	463-473	anzufragen	_	_
+7-7	474-475	,	_	_
+7-8	476-478	ob	_	_
+7-9	479-482	ich	_	_
+7-10	483-486	aus	_	_
+7-11	487-490	dem	_	_
+7-12	491-503	Akademiefond	_	_
+7-13	504-517	Unterstützung	_	_
+7-14	518-526	erhalten	_	_
+7-15	527-531	kann	_	_
+7-16	532-536	oder	_	_
+7-17	537-539	ob	_	_
+7-18	540-544	noch	_	_
+7-19	545-556	Möglichkeit	_	_
+7-20	557-566	vorhanden	_	_
+7-21	567-570	ist	_	_
+7-22	571-572	,	_	_
+7-23	573-583	vielleicht	_	_
+7-24	584-587	das	_	_
+7-25	588-598	Stipendium	_	_
+7-26	599-609	verlängert	_	_
+7-27	610-612	zu	_	_
+7-28	613-621	erhalten	_	_
+7-29	622-623	.	_	_
+
+#Text=Ist hiervon nichts möglich , dann bitte ich Sie , ihre Connectionen in Algier oder in Mexico für mich zu interessiren .
+8-1	624-627	Ist	_	_
+8-2	628-635	hiervon	_	_
+8-3	636-642	nichts	_	_
+8-4	643-650	möglich	_	_
+8-5	651-652	,	_	_
+8-6	653-657	dann	_	_
+8-7	658-663	bitte	_	_
+8-8	664-667	ich	_	_
+8-9	668-671	Sie	_	_
+8-10	672-673	,	_	_
+8-11	674-678	ihre	_	_
+8-12	679-691	Connectionen	_	_
+8-13	692-694	in	_	_
+8-14	695-701	Algier	*	PLACEmentioned
+8-15	702-706	oder	_	_
+8-16	707-709	in	_	_
+8-17	710-716	Mexico	*	PLACEmentioned
+8-18	717-720	für	_	_
+8-19	721-725	mich	_	_
+8-20	726-728	zu	_	_
+8-21	729-741	interessiren	_	_
+8-22	742-743	.	_	_
+
+#Text=Betreffs Forcella sagt Fiorelli , daß er geneigt wäre , falls er eine wissenschaftliche Publication vom Stapel gelassen hätte , ihm eine Custodenstelle mit 19 Piaster den Monat im Museum zu verschaffen .
+9-1	744-752	Betreffs	_	_
+9-2	753-761	Forcella	*	PERmentioned
+9-3	762-766	sagt	_	_
+9-4	767-775	Fiorelli	*	PERmentioned
+9-5	776-777	,	_	_
+9-6	778-781	daß	_	_
+9-7	782-784	er	_	_
+9-8	785-792	geneigt	_	_
+9-9	793-797	wäre	_	_
+9-10	798-799	,	_	_
+9-11	800-805	falls	_	_
+9-12	806-808	er	_	_
+9-13	809-813	eine	_	_
+9-14	814-831	wissenschaftliche	_	_
+9-15	832-843	Publication	_	_
+9-16	844-847	vom	_	_
+9-17	848-854	Stapel	_	_
+9-18	855-863	gelassen	_	_
+9-19	864-869	hätte	_	_
+9-20	870-871	,	_	_
+9-21	872-875	ihm	_	_
+9-22	876-880	eine	_	_
+9-23	881-895	Custodenstelle	_	_
+9-24	896-899	mit	_	_
+9-25	900-902	19	_	_
+9-26	903-910	Piaster	_	_
+9-27	911-914	den	_	_
+9-28	915-920	Monat	_	_
+9-29	921-923	im	_	_
+9-30	924-930	Museum	*	ORGmentioned
+9-31	931-933	zu	_	_
+9-32	934-945	verschaffen	_	_
+9-33	946-947	.	_	_
+
+#Text=Im nächsten Briefe erhalten Sie für das Bullettino den rapporto über di Scavi di Pompei , Capua , Cuma.e Sora .
+10-1	948-950	Im	_	_
+10-2	951-959	nächsten	_	_
+10-3	960-966	Briefe	_	_
+10-4	967-975	erhalten	_	_
+10-5	976-979	Sie	_	_
+10-6	980-983	für	_	_
+10-7	984-987	das	_	_
+10-8	988-998	Bullettino	_	_
+10-9	999-1002	den	_	_
+10-10	1003-1011	rapporto	_	_
+10-11	1012-1016	über	_	_
+10-12	1017-1019	di	_	_
+10-13	1020-1025	Scavi	_	_
+10-14	1026-1028	di	_	_
+10-15	1029-1035	Pompei	*	PLACEmentioned
+10-16	1036-1037	,	_	_
+10-17	1038-1043	Capua	*	PLACEmentioned
+10-18	1044-1045	,	_	_
+10-19	1046-1052	Cuma.e	*	PLACEmentioned
+10-20	1053-1057	Sora	*	PLACEmentioned
+10-21	1058-1059	.	_	_
+
+#Text=Ich bitte um baldige Antwort .
+11-1	1060-1063	Ich	_	_
+11-2	1064-1069	bitte	_	_
+11-3	1070-1072	um	_	_
+11-4	1073-1080	baldige	_	_
+11-5	1081-1088	Antwort	_	_
+11-6	1089-1090	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr Wolfgang Helbig .
+12-1	1091-1094	Mit	_	_
+12-2	1095-1105	herzlichen	_	_
+12-3	1106-1112	Grüßen	_	_
+12-4	1113-1116	Ihr	_	_
+12-5	1117-1125	Wolfgang	*[4]	PERauthor[4]
+12-6	1126-1132	Helbig	*[4]	PERauthor[4]
+12-7	1133-1134	.	_	_

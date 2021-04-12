@@ -1,0 +1,109 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=882 Gerhard an Braun Berlin , 6. Dezember 1834 # chen .
+1-1	0-3	882	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	6.	*[4]	DATEletter[4]
+1-8	33-41	Dezember	*[4]	DATEletter[4]
+1-9	42-46	1834	*[4]	DATEletter[4]
+1-10	47-48	#	_	_
+1-11	49-53	chen	_	_
+1-12	54-55	.	_	_
+
+#Text=Daß ich wieder bei d. Nelli Wieser wohne , sagte ich Ihnen wohl ?
+2-1	56-59	Daß	_	_
+2-2	60-63	ich	_	_
+2-3	64-70	wieder	_	_
+2-4	71-74	bei	_	_
+2-5	75-77	d.	_	_
+2-6	78-83	Nelli	*[5]	PERmentioned[5]
+2-7	84-90	Wieser	*[5]	PERmentioned[5]
+2-8	91-96	wohne	_	_
+2-9	97-98	,	_	_
+2-10	99-104	sagte	_	_
+2-11	105-108	ich	_	_
+2-12	109-114	Ihnen	_	_
+2-13	115-119	wohl	_	_
+2-14	120-121	?	_	_
+
+#Text=Ich habe Ihnen neulich allerlei alberne Kommissionen gegeben , die sich in die allgemein meiner römischen Proteg & s die sonst üblichen Mancie nicht vorzuenthalten .
+3-1	122-125	Ich	_	_
+3-2	126-130	habe	_	_
+3-3	131-136	Ihnen	_	_
+3-4	137-144	neulich	_	_
+3-5	145-153	allerlei	_	_
+3-6	154-161	alberne	_	_
+3-7	162-174	Kommissionen	_	_
+3-8	175-182	gegeben	_	_
+3-9	183-184	,	_	_
+3-10	185-188	die	_	_
+3-11	189-193	sich	_	_
+3-12	194-196	in	_	_
+3-13	197-200	die	_	_
+3-14	201-210	allgemein	_	_
+3-15	211-217	meiner	_	_
+3-16	218-227	römischen	_	_
+3-17	228-234	Proteg	_	_
+3-18	235-236	&	_	_
+3-19	237-238	s	_	_
+3-20	239-242	die	_	_
+3-21	243-248	sonst	_	_
+3-22	249-257	üblichen	_	_
+3-23	258-264	Mancie	_	_
+3-24	265-270	nicht	_	_
+3-25	271-285	vorzuenthalten	_	_
+3-26	286-287	.	_	_
+
+#Text=Ich füge hinzu daß Kellermann mir wohl den Gefallen thut meinem vorigen Vfoleser den von ihm mir zugewiesenen Adriano ein kleines Geschenk , einen halben oder ganzen Scudo an Werth von mir zu übermachen .
+4-1	288-291	Ich	_	_
+4-2	292-296	füge	_	_
+4-3	297-302	hinzu	_	_
+4-4	303-306	daß	_	_
+4-5	307-317	Kellermann	*	PERmentioned
+4-6	318-321	mir	_	_
+4-7	322-326	wohl	_	_
+4-8	327-330	den	_	_
+4-9	331-339	Gefallen	_	_
+4-10	340-344	thut	_	_
+4-11	345-351	meinem	_	_
+4-12	352-359	vorigen	_	_
+4-13	360-368	Vfoleser	_	_
+4-14	369-372	den	_	_
+4-15	373-376	von	_	_
+4-16	377-380	ihm	_	_
+4-17	381-384	mir	_	_
+4-18	385-397	zugewiesenen	_	_
+4-19	398-405	Adriano	_	_
+4-20	406-409	ein	_	_
+4-21	410-417	kleines	_	_
+4-22	418-426	Geschenk	_	_
+4-23	427-428	,	_	_
+4-24	429-434	einen	_	_
+4-25	435-441	halben	_	_
+4-26	442-446	oder	_	_
+4-27	447-453	ganzen	_	_
+4-28	454-459	Scudo	_	_
+4-29	460-462	an	_	_
+4-30	463-468	Werth	_	_
+4-31	469-472	von	_	_
+4-32	473-476	mir	_	_
+4-33	477-479	zu	_	_
+4-34	480-490	übermachen	_	_
+4-35	491-492	.	_	_
+
+#Text=( Ohne Unterschrift ) G . 20/12 34 .
+5-1	493-494	(	_	_
+5-2	495-499	Ohne	_	_
+5-3	500-512	Unterschrift	_	_
+5-4	513-514	)	_	_
+5-5	515-516	G	_	_
+5-6	517-518	.	_	_
+5-7	519-524	20/12	*[7]	DATErecieved[7]
+5-8	525-527	34	*[7]	DATErecieved[7]
+5-9	528-529	.	_	_

@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=32 Gerhard an Braun Berlin , 2 .
+1-1	0-2	32	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-30	2	*[1]	DATEletter[1]
+1-8	31-32	.	*[1]	DATEletter[1]
+
+#Text=Januar 1844 mannfeier berichten .
+2-1	33-39	Januar	*[1]	DATEletter[1]
+2-2	40-44	1844	*[1]	DATEletter[1]
+2-3	45-54	mannfeier	_	_
+2-4	55-64	berichten	_	_
+2-5	65-66	.	_	_
+
+#Text=Canina und Campana bitte zu grüßen \; beiden schreibe ich seiner Zeit .
+3-1	67-73	Canina	*	PERmentioned
+3-2	74-77	und	_	_
+3-3	78-85	Campana	*	PERmentioned
+3-4	86-91	bitte	_	_
+3-5	92-94	zu	_	_
+3-6	95-101	grüßen	_	_
+3-7	102-103	\;	_	_
+3-8	104-110	beiden	_	_
+3-9	111-119	schreibe	_	_
+3-10	120-123	ich	_	_
+3-11	124-130	seiner	_	_
+3-12	131-135	Zeit	_	_
+3-13	136-137	.	_	_
+
+#Text=Von letzterem konnte ich dem König erst das Secchische Werk einreichen , wofür er gedankt hat .
+4-1	138-141	Von	_	_
+4-2	142-151	letzterem	_	_
+4-3	152-158	konnte	_	_
+4-4	159-162	ich	_	_
+4-5	163-166	dem	_	_
+4-6	167-172	König	*	PERmentioned
+4-7	173-177	erst	_	_
+4-8	178-181	das	_	_
+4-9	182-192	Secchische	_	_
+4-10	193-197	Werk	_	_
+4-11	198-208	einreichen	_	_
+4-12	209-210	,	_	_
+4-13	211-216	wofür	_	_
+4-14	217-219	er	_	_
+4-15	220-227	gedankt	_	_
+4-16	228-231	hat	_	_
+4-17	232-233	.	_	_
+
+#Text=Daß ein Scarpellino über 3 Jahr lang 5 Scudi beutet , ist so unregelmäßig daß er verdiente sie zu verlieren .
+5-1	234-237	Daß	_	_
+5-2	238-241	ein	_	_
+5-3	242-253	Scarpellino	_	_
+5-4	254-258	über	_	_
+5-5	259-260	3	_	_
+5-6	261-265	Jahr	_	_
+5-7	266-270	lang	_	_
+5-8	271-272	5	_	_
+5-9	273-278	Scudi	_	_
+5-10	279-285	beutet	_	_
+5-11	286-287	,	_	_
+5-12	288-291	ist	_	_
+5-13	292-294	so	_	_
+5-14	295-307	unregelmäßig	_	_
+5-15	308-311	daß	_	_
+5-16	312-314	er	_	_
+5-17	315-324	verdiente	_	_
+5-18	325-328	sie	_	_
+5-19	329-331	zu	_	_
+5-20	332-341	verlieren	_	_
+5-21	342-343	.	_	_
+
+#Text=Was ich Jahr und Tag nach abgelegter Rechnung nicht erfuhr mußte ich aus meiner Tasche bezahlen \; ich kann nur rathen diesen Posten gelegentlich mit andern dem Museum eigen gewordenen Sachen für Olfers zu liquidiren .
+6-1	344-347	Was	_	_
+6-2	348-351	ich	_	_
+6-3	352-356	Jahr	_	_
+6-4	357-360	und	_	_
+6-5	361-364	Tag	_	_
+6-6	365-369	nach	_	_
+6-7	370-380	abgelegter	_	_
+6-8	381-389	Rechnung	_	_
+6-9	390-395	nicht	_	_
+6-10	396-402	erfuhr	_	_
+6-11	403-408	mußte	_	_
+6-12	409-412	ich	_	_
+6-13	413-416	aus	_	_
+6-14	417-423	meiner	_	_
+6-15	424-430	Tasche	_	_
+6-16	431-439	bezahlen	_	_
+6-17	440-441	\;	_	_
+6-18	442-445	ich	_	_
+6-19	446-450	kann	_	_
+6-20	451-454	nur	_	_
+6-21	455-461	rathen	_	_
+6-22	462-468	diesen	_	_
+6-23	469-475	Posten	_	_
+6-24	476-488	gelegentlich	_	_
+6-25	489-492	mit	_	_
+6-26	493-499	andern	_	_
+6-27	500-503	dem	_	_
+6-28	504-510	Museum	*	ORGmentioned
+6-29	511-516	eigen	_	_
+6-30	517-527	gewordenen	_	_
+6-31	528-534	Sachen	_	_
+6-32	535-538	für	_	_
+6-33	539-545	Olfers	*	PERmentioned
+6-34	546-548	zu	_	_
+6-35	549-559	liquidiren	_	_
+6-36	560-561	.	_	_
+
+#Text=Meine Frau ist Gott sei Dank wieder wohler , Brust und Hals frei \; mit wandernden Schmerzen dort oder an Kopf und Rücken wird sie wol aus hämorosen Anlässen noch oft und viel zu leiden haben .
+7-1	562-567	Meine	_	_
+7-2	568-572	Frau	_	_
+7-3	573-576	ist	_	_
+7-4	577-581	Gott	_	_
+7-5	582-585	sei	_	_
+7-6	586-590	Dank	_	_
+7-7	591-597	wieder	_	_
+7-8	598-604	wohler	_	_
+7-9	605-606	,	_	_
+7-10	607-612	Brust	_	_
+7-11	613-616	und	_	_
+7-12	617-621	Hals	_	_
+7-13	622-626	frei	_	_
+7-14	627-628	\;	_	_
+7-15	629-632	mit	_	_
+7-16	633-643	wandernden	_	_
+7-17	644-653	Schmerzen	_	_
+7-18	654-658	dort	_	_
+7-19	659-663	oder	_	_
+7-20	664-666	an	_	_
+7-21	667-671	Kopf	_	_
+7-22	672-675	und	_	_
+7-23	676-682	Rücken	_	_
+7-24	683-687	wird	_	_
+7-25	688-691	sie	_	_
+7-26	692-695	wol	_	_
+7-27	696-699	aus	_	_
+7-28	700-709	hämorosen	_	_
+7-29	710-718	Anlässen	_	_
+7-30	719-723	noch	_	_
+7-31	724-727	oft	_	_
+7-32	728-731	und	_	_
+7-33	732-736	viel	_	_
+7-34	737-739	zu	_	_
+7-35	740-746	leiden	_	_
+7-36	747-752	haben	_	_
+7-37	753-754	.	_	_
+
+#Text=Wir machen nun eine Tugend aus der Noth und freuen uns durch diese unpäßlichen Monate viel geselliger Unruhe überhoben zu sein .
+8-1	755-758	Wir	_	_
+8-2	759-765	machen	_	_
+8-3	766-769	nun	_	_
+8-4	770-774	eine	_	_
+8-5	775-781	Tugend	_	_
+8-6	782-785	aus	_	_
+8-7	786-789	der	_	_
+8-8	790-794	Noth	_	_
+8-9	795-798	und	_	_
+8-10	799-805	freuen	_	_
+8-11	806-809	uns	_	_
+8-12	810-815	durch	_	_
+8-13	816-821	diese	_	_
+8-14	822-833	unpäßlichen	_	_
+8-15	834-840	Monate	_	_
+8-16	841-845	viel	_	_
+8-17	846-856	geselliger	_	_
+8-18	857-863	Unruhe	_	_
+8-19	864-873	überhoben	_	_
+8-20	874-876	zu	_	_
+8-21	877-881	sein	_	_
+8-22	882-883	.	_	_
+
+#Text=Wegen einer archäologischen Bibliographie die ich endlich dem Institut durch meine Archäologische Zeitung zuzuwenden hoffe , schrieb ich an Henzen .
+9-1	884-889	Wegen	_	_
+9-2	890-895	einer	_	_
+9-3	896-911	archäologischen	_	_
+9-4	912-925	Bibliographie	_	_
+9-5	926-929	die	_	_
+9-6	930-933	ich	_	_
+9-7	934-941	endlich	_	_
+9-8	942-945	dem	_	_
+9-9	946-954	Institut	*	ORGmentioned
+9-10	955-960	durch	_	_
+9-11	961-966	meine	_	_
+9-12	967-981	Archäologische	_	_
+9-13	982-989	Zeitung	_	_
+9-14	990-1000	zuzuwenden	_	_
+9-15	1001-1006	hoffe	_	_
+9-16	1007-1008	,	_	_
+9-17	1009-1016	schrieb	_	_
+9-18	1017-1020	ich	_	_
+9-19	1021-1023	an	_	_
+9-20	1024-1030	Henzen	*	PERmentioned
+9-21	1031-1032	.	_	_
+
+#Text=Becker 's Handbuch der römischen Alterthümer Theil I durchaus topographisch ( Sonderpreis 3 rt ) ist freilich erschienen .
+10-1	1033-1039	Becker	*[2]	PERmentioned[2]
+10-2	1040-1042	's	*[2]	PERmentioned[2]
+10-3	1043-1051	Handbuch	_	_
+10-4	1052-1055	der	_	_
+10-5	1056-1065	römischen	_	_
+10-6	1066-1077	Alterthümer	_	_
+10-7	1078-1083	Theil	_	_
+10-8	1084-1085	I	_	_
+10-9	1086-1094	durchaus	_	_
+10-10	1095-1108	topographisch	_	_
+10-11	1109-1110	(	_	_
+10-12	1111-1122	Sonderpreis	_	_
+10-13	1123-1124	3	_	_
+10-14	1125-1127	rt	_	_
+10-15	1128-1129	)	_	_
+10-16	1130-1133	ist	_	_
+10-17	1134-1142	freilich	_	_
+10-18	1143-1153	erschienen	_	_
+10-19	1154-1155	.	_	_
+
+#Text=Neulich ein Brief von Bunsen , worin bittere Kla-
+11-1	1156-1163	Neulich	_	_
+11-2	1164-1167	ein	_	_
+11-3	1168-1173	Brief	_	_
+11-4	1174-1177	von	_	_
+11-5	1178-1184	Bunsen	*	PERmentioned
+11-6	1185-1186	,	_	_
+11-7	1187-1192	worin	_	_
+11-8	1193-1200	bittere	_	_
+11-9	1201-1205	Kla-	_	_

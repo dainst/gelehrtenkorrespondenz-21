@@ -1,0 +1,81 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=681 Braun an Gerhard Rom , 7 .
+1-1	0-3	681	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-28	7	*[1]	DATEletter[1]
+1-8	29-30	.	*[1]	DATEletter[1]
+
+#Text=Oktober 1834 -5sehr ermüdet zu Hause ankommen .
+2-1	31-38	Oktober	*[1]	DATEletter[1]
+2-2	39-43	1834	*[1]	DATEletter[1]
+2-3	44-50	-5sehr	_	_
+2-4	51-58	ermüdet	_	_
+2-5	59-61	zu	_	_
+2-6	62-67	Hause	_	_
+2-7	68-76	ankommen	_	_
+2-8	77-78	.	_	_
+
+#Text=Kurz zuweilen wandelt einen die Desperazion an , besonders wenn man immer aufs Neue daran erinnert wird , daß Schwimmen nicht vor dem Ertrinken im Schlamm sichert , Dieser Brief wird Sie kaum noch in München treffen .
+3-1	79-83	Kurz	_	_
+3-2	84-92	zuweilen	_	_
+3-3	93-100	wandelt	_	_
+3-4	101-106	einen	_	_
+3-5	107-110	die	_	_
+3-6	111-122	Desperazion	_	_
+3-7	123-125	an	_	_
+3-8	126-127	,	_	_
+3-9	128-137	besonders	_	_
+3-10	138-142	wenn	_	_
+3-11	143-146	man	_	_
+3-12	147-152	immer	_	_
+3-13	153-157	aufs	_	_
+3-14	158-162	Neue	_	_
+3-15	163-168	daran	_	_
+3-16	169-177	erinnert	_	_
+3-17	178-182	wird	_	_
+3-18	183-184	,	_	_
+3-19	185-188	daß	_	_
+3-20	189-198	Schwimmen	_	_
+3-21	199-204	nicht	_	_
+3-22	205-208	vor	_	_
+3-23	209-212	dem	_	_
+3-24	213-222	Ertrinken	_	_
+3-25	223-225	im	_	_
+3-26	226-233	Schlamm	_	_
+3-27	234-241	sichert	_	_
+3-28	242-243	,	_	_
+3-29	244-250	Dieser	_	_
+3-30	251-256	Brief	_	_
+3-31	257-261	wird	_	_
+3-32	262-265	Sie	_	_
+3-33	266-270	kaum	_	_
+3-34	271-275	noch	_	_
+3-35	276-278	in	_	_
+3-36	279-286	München	*	PLACEmentioned
+3-37	287-294	treffen	_	_
+3-38	295-296	.	_	_
+
+#Text=Für den Nächsten habe ich noch keine Bestimmung .
+4-1	297-300	Für	_	_
+4-2	301-304	den	_	_
+4-3	305-313	Nächsten	_	_
+4-4	314-318	habe	_	_
+4-5	319-322	ich	_	_
+4-6	323-327	noch	_	_
+4-7	328-333	keine	_	_
+4-8	334-344	Bestimmung	_	_
+4-9	345-346	.	_	_
+
+#Text=Leben Sie wohl Ihr Braun
+5-1	347-352	Leben	_	_
+5-2	353-356	Sie	_	_
+5-3	357-361	wohl	_	_
+5-4	362-365	Ihr	_	_
+5-5	366-371	Braun	*	PERauthor

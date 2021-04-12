@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=537 Gerhard an Braun Berlin 15/V/1835 Dr. Braun Berlin 75 Mai 35 Heute 1 , Fr. ist das Ex .
+1-1	0-3	537	_	_	
+1-2	4-11	Gerhard	*	PERauthor	
+1-3	12-14	an	_	_	
+1-4	15-20	Braun	*	PERaddressee	
+1-5	21-27	Berlin	*	PLACEfrom	
+1-6	28-37	15/V/1835	*	DATEletter	
+1-7	38-41	Dr.	_	_	
+1-8	42-47	Braun	*	PERaddressee	
+1-9	48-54	Berlin	*	PLACEfrom	
+1-10	55-57	75	*[1]	DATEletter[1]	
+1-11	58-61	Mai	*[1]	DATEletter[1]	
+1-12	62-64	35	*[1]	DATEletter[1]	
+1-13	65-70	Heute	_	_	
+1-14	71-72	1	_	_	
+1-15	73-74	,	_	_	
+1-16	75-78	Fr.	_	_	
+1-17	79-82	ist	_	_	
+1-18	83-86	das	_	_	
+1-19	87-89	Ex	_	_	
+1-20	90-91	.	_	_	
+
+#Text=des Forum Rom .
+2-1	92-95	des	_	_	
+2-2	96-101	Forum	*[2]	OBJ[2]	
+2-3	102-105	Rom	*[2]	OBJ[2]	
+2-4	106-107	.	_	_	
+
+#Text=eingegangen samt der einliegenden Briefe .
+3-1	108-119	eingegangen	_	_	
+3-2	120-124	samt	_	_	
+3-3	125-128	der	_	_	
+3-4	129-141	einliegenden	_	_	
+3-5	142-148	Briefe	_	_	
+3-6	149-150	.	_	_	
+
+#Text=Die Broschüre macht immer guten Eindruck ; der Plan falls er auch etlichen Bull .
+4-1	151-154	Die	_	_	
+4-2	155-164	Broschüre	_	_	
+4-3	165-170	macht	_	_	
+4-4	171-176	immer	_	_	
+4-5	177-182	guten	_	_	
+4-6	183-191	Eindruck	_	_	
+4-7	192-193	;	_	_	
+4-8	194-197	der	_	_	
+4-9	198-202	Plan	_	_	
+4-10	203-208	falls	_	_	
+4-11	209-211	er	_	_	
+4-12	212-216	auch	_	_	
+4-13	217-225	etlichen	_	_	
+4-14	226-230	Bull	_	_	
+4-15	231-232	.	_	_	
+
+#Text=interessenten a uffa beigegeben werden sollte , wird hoffentlich eine Platte der Mon .
+5-1	233-246	interessenten	_	_	
+5-2	247-248	a	_	_	
+5-3	249-253	uffa	_	_	
+5-4	254-264	beigegeben	_	_	
+5-5	265-271	werden	_	_	
+5-6	272-278	sollte	_	_	
+5-7	279-280	,	_	_	
+5-8	281-285	wird	_	_	
+5-9	286-297	hoffentlich	_	_	
+5-10	298-302	eine	_	_	
+5-11	303-309	Platte	_	_	
+5-12	310-313	der	_	_	
+5-13	314-317	Mon	_	_	
+5-14	318-319	.	_	_	
+
+#Text=ined .
+6-1	320-324	ined	_	_	
+6-2	325-326	.	_	_	
+
+#Text=ausfüllen ; auf andere Weise wäre es Verschwendung .
+7-1	327-336	ausfüllen	_	_	
+7-2	337-338	;	_	_	
+7-3	339-342	auf	_	_	
+7-4	343-349	andere	_	_	
+7-5	350-355	Weise	_	_	
+7-6	356-360	wäre	_	_	
+7-7	361-363	es	_	_	
+7-8	364-377	Verschwendung	_	_	
+7-9	378-379	.	_	_	
+
+#Text=An Heise haben Sie hoffentlich den Werth von 25 rt ausgezahlt ; ich erwarte dessen ostensible Quittung um den Betrag von der Akademie zu ziehen .
+8-1	380-382	An	_	_	
+8-2	383-388	Heise	*	PERmentioned	
+8-3	389-394	haben	_	_	
+8-4	395-398	Sie	_	_	
+8-5	399-410	hoffentlich	_	_	
+8-6	411-414	den	_	_	
+8-7	415-420	Werth	_	_	
+8-8	421-424	von	_	_	
+8-9	425-427	25	_	_	
+8-10	428-430	rt	_	_	
+8-11	431-441	ausgezahlt	_	_	
+8-12	442-443	;	_	_	
+8-13	444-447	ich	_	_	
+8-14	448-455	erwarte	_	_	
+8-15	456-462	dessen	_	_	
+8-16	463-473	ostensible	_	_	
+8-17	474-482	Quittung	_	_	
+8-18	483-485	um	_	_	
+8-19	486-489	den	_	_	
+8-20	490-496	Betrag	_	_	
+8-21	497-500	von	_	_	
+8-22	501-504	der	_	_	
+8-23	505-513	Akademie	*	ORGmentioned	
+8-24	514-516	zu	_	_	
+8-25	517-523	ziehen	_	_	
+8-26	524-525	.	_	_	
+
+#Text=Beim jetzigen Annalidruck wollte ich Campanari's Aufsatz über das kleine Gefäß mit der Vorstellung eines Hauses abdrucken lassen und finde leider die Zeichnung desselben nicht , Möglich daß sie verlegt ist ; aber für alle Fälle wünschte ich sie erneuert .
+9-1	526-530	Beim	_	_	
+9-2	531-539	jetzigen	_	_	
+9-3	540-551	Annalidruck	_	_	
+9-4	552-558	wollte	_	_	
+9-5	559-562	ich	_	_	
+9-6	563-574	Campanari's	*	PERmentioned	
+9-7	575-582	Aufsatz	_	_	
+9-8	583-587	über	_	_	
+9-9	588-591	das	_	_	
+9-10	592-598	kleine	_	_	
+9-11	599-604	Gefäß	_	_	
+9-12	605-608	mit	_	_	
+9-13	609-612	der	_	_	
+9-14	613-624	Vorstellung	_	_	
+9-15	625-630	eines	_	_	
+9-16	631-637	Hauses	_	_	
+9-17	638-647	abdrucken	_	_	
+9-18	648-654	lassen	_	_	
+9-19	655-658	und	_	_	
+9-20	659-664	finde	_	_	
+9-21	665-671	leider	_	_	
+9-22	672-675	die	_	_	
+9-23	676-685	Zeichnung	_	_	
+9-24	686-695	desselben	_	_	
+9-25	696-701	nicht	_	_	
+9-26	702-703	,	_	_	
+9-27	704-711	Möglich	_	_	
+9-28	712-715	daß	_	_	
+9-29	716-719	sie	_	_	
+9-30	720-727	verlegt	_	_	
+9-31	728-731	ist	_	_	
+9-32	732-733	;	_	_	
+9-33	734-738	aber	_	_	
+9-34	739-742	für	_	_	
+9-35	743-747	alle	_	_	
+9-36	748-753	Fälle	_	_	
+9-37	754-762	wünschte	_	_	
+9-38	763-766	ich	_	_	
+9-39	767-770	sie	_	_	
+9-40	771-779	erneuert	_	_	
+9-41	780-781	.	_	_	
+
+#Text=Grüßen Sie übrigens Secondiano und entschuldigen Sie daß ich ihm eine Antwort schulde ; vergessen Sie auch nicht über den Penthesileaspiegel ihm zu reden .
+10-1	782-788	Grüßen	_	_	
+10-2	789-792	Sie	_	_	
+10-3	793-801	übrigens	_	_	
+10-4	802-812	Secondiano	*	PERmentioned	
+10-5	813-816	und	_	_	
+10-6	817-830	entschuldigen	_	_	
+10-7	831-834	Sie	_	_	
+10-8	835-838	daß	_	_	
+10-9	839-842	ich	_	_	
+10-10	843-846	ihm	_	_	
+10-11	847-851	eine	_	_	
+10-12	852-859	Antwort	_	_	
+10-13	860-867	schulde	_	_	
+10-14	868-869	;	_	_	
+10-15	870-879	vergessen	_	_	
+10-16	880-883	Sie	_	_	
+10-17	884-888	auch	_	_	
+10-18	889-894	nicht	_	_	
+10-19	895-899	über	_	_	
+10-20	900-903	den	_	_	
+10-21	904-922	Penthesileaspiegel	*	OBJ	
+10-22	923-926	ihm	_	_	
+10-23	927-929	zu	_	_	
+10-24	930-935	reden	_	_	
+10-25	936-937	.	_	_	
+
+#Text=Veberlegen Sie , ohne ihm von meiner Reise zu sagen die noch sehr ungewiß ist , ob ich nel caso das Monument in Paris einziehen kann , Wenn die Kiste von Campanaris Vasen für das Museum abgeht , kann Einiges für mich ganz gern beigepackt werden , nur muß es an mich addressirt seyn .
+11-1	938-948	Veberlegen	_	_	
+11-2	949-952	Sie	_	_	
+11-3	953-954	,	_	_	
+11-4	955-959	ohne	_	_	
+11-5	960-963	ihm	_	_	
+11-6	964-967	von	_	_	
+11-7	968-974	meiner	_	_	
+11-8	975-980	Reise	_	_	
+11-9	981-983	zu	_	_	
+11-10	984-989	sagen	_	_	
+11-11	990-993	die	_	_	
+11-12	994-998	noch	_	_	
+11-13	999-1003	sehr	_	_	
+11-14	1004-1011	ungewiß	_	_	
+11-15	1012-1015	ist	_	_	
+11-16	1016-1017	,	_	_	
+11-17	1018-1020	ob	_	_	
+11-18	1021-1024	ich	_	_	
+11-19	1025-1028	nel	_	_	
+11-20	1029-1033	caso	_	_	
+11-21	1034-1037	das	_	_	
+11-22	1038-1046	Monument	_	_	
+11-23	1047-1049	in	_	_	
+11-24	1050-1055	Paris	*	PLACEmentioned	
+11-25	1056-1065	einziehen	_	_	
+11-26	1066-1070	kann	_	_	
+11-27	1071-1072	,	_	_	
+11-28	1073-1077	Wenn	_	_	
+11-29	1078-1081	die	_	_	
+11-30	1082-1087	Kiste	_	_	
+11-31	1088-1091	von	_	_	
+11-32	1092-1102	Campanaris	*	PERmentioned	
+11-33	1103-1108	Vasen	*	OBJ	
+11-34	1109-1112	für	_	_	
+11-35	1113-1116	das	_	_	
+11-36	1117-1123	Museum	*	ORGmentioned	
+11-37	1124-1130	abgeht	_	_	
+11-38	1131-1132	,	_	_	
+11-39	1133-1137	kann	_	_	
+11-40	1138-1145	Einiges	_	_	
+11-41	1146-1149	für	_	_	
+11-42	1150-1154	mich	_	_	
+11-43	1155-1159	ganz	_	_	
+11-44	1160-1164	gern	_	_	
+11-45	1165-1175	beigepackt	_	_	
+11-46	1176-1182	werden	_	_	
+11-47	1183-1184	,	_	_	
+11-48	1185-1188	nur	_	_	
+11-49	1189-1192	muß	_	_	
+11-50	1193-1195	es	_	_	
+11-51	1196-1198	an	_	_	
+11-52	1199-1203	mich	_	_	
+11-53	1204-1214	addressirt	_	_	
+11-54	1215-1219	seyn	_	_	
+11-55	1220-1221	.	_	_	
+
+#Text=Bei Bunsen fragte ich neulich an wie er sich gegen die skandinav .
+12-1	1222-1225	Bei	_	_	
+12-2	1226-1232	Bunsen	*	PERmentioned	
+12-3	1233-1239	fragte	_	_	
+12-4	1240-1243	ich	_	_	
+12-5	1244-1251	neulich	_	_	
+12-6	1252-1254	an	_	_	
+12-7	1255-1258	wie	_	_	
+12-8	1259-1261	er	_	_	
+12-9	1262-1266	sich	_	_	
+12-10	1267-1272	gegen	_	_	
+12-11	1273-1276	die	_	_	
+12-12	1277-1286	skandinav	*[3]	ORGmentioned[3]	
+12-13	1287-1288	.	*[3]	ORGmentioned[3]	
+
+#Text=Gesellschaft verhalten will , die für
+13-1	1289-1301	Gesellschaft	*[3]	ORGmentioned[3]	
+13-2	1302-1311	verhalten	_	_	
+13-3	1312-1316	will	_	_	
+13-4	1317-1318	,	_	_	
+13-5	1319-1322	die	_	_	
+13-6	1323-1326	für	_	_	

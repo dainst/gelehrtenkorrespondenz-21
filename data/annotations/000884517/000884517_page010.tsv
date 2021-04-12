@@ -1,0 +1,102 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=A 33 Gerhard an Braun Berlin , 3 .
+1-1	0-1	A	_	_
+1-2	2-4	33	_	_
+1-3	5-12	Gerhard	*	PERauthor
+1-4	13-15	an	_	_
+1-5	16-21	Braun	*	PERaddressee
+1-6	22-28	Berlin	*	PLACEfrom
+1-7	29-30	,	_	_
+1-8	31-32	3	*[1]	DATEletter[1]
+1-9	33-34	.	*[1]	DATEletter[1]
+
+#Text=Januar 1844 Inre Kodrosschale lassen Sie ja unter allgemeinem Titel setzen !
+2-1	35-41	Januar	*[1]	DATEletter[1]
+2-2	42-46	1844	*[1]	DATEletter[1]
+2-3	47-51	Inre	_	_
+2-4	52-64	Kodrosschale	*	OBJ
+2-5	65-71	lassen	_	_
+2-6	72-75	Sie	_	_
+2-7	76-78	ja	_	_
+2-8	79-84	unter	_	_
+2-9	85-96	allgemeinem	_	_
+2-10	97-102	Titel	_	_
+2-11	103-109	setzen	_	_
+2-12	110-111	!	_	_
+
+#Text=Vergessen Sie nicht daß die Abdrücke ungleich gerathen und das Format der zugleich vertheilten wenigen Blätter auch nicht gleichförmig ist .
+3-1	112-121	Vergessen	_	_
+3-2	122-125	Sie	_	_
+3-3	126-131	nicht	_	_
+3-4	132-135	daß	_	_
+3-5	136-139	die	_	_
+3-6	140-148	Abdrücke	_	_
+3-7	149-157	ungleich	_	_
+3-8	158-166	gerathen	_	_
+3-9	167-170	und	_	_
+3-10	171-174	das	_	_
+3-11	175-181	Format	_	_
+3-12	182-185	der	_	_
+3-13	186-194	zugleich	_	_
+3-14	195-206	vertheilten	_	_
+3-15	207-214	wenigen	_	_
+3-16	215-222	Blätter	_	_
+3-17	223-227	auch	_	_
+3-18	228-233	nicht	_	_
+3-19	234-246	gleichförmig	_	_
+3-20	247-250	ist	_	_
+3-21	251-252	.	_	_
+
+#Text=Es bildet kein Heft und wird deshalb trotz des nicht hohen Preises zu Weihnachtsgeschenken unverwendbar befunden , sagte mir ein Bekannter .
+4-1	253-255	Es	_	_
+4-2	256-262	bildet	_	_
+4-3	263-267	kein	_	_
+4-4	268-272	Heft	_	_
+4-5	273-276	und	_	_
+4-6	277-281	wird	_	_
+4-7	282-289	deshalb	_	_
+4-8	290-295	trotz	_	_
+4-9	296-299	des	_	_
+4-10	300-305	nicht	_	_
+4-11	306-311	hohen	_	_
+4-12	312-319	Preises	_	_
+4-13	320-322	zu	_	_
+4-14	323-343	Weihnachtsgeschenken	_	_
+4-15	344-356	unverwendbar	_	_
+4-16	357-365	befunden	_	_
+4-17	366-367	,	_	_
+4-18	368-373	sagte	_	_
+4-19	374-377	mir	_	_
+4-20	378-381	ein	_	_
+4-21	382-391	Bekannter	_	_
+4-22	392-393	.	_	_
+
+#Text=Grüßen Sie Lanci allerbestens .
+5-1	394-400	Grüßen	_	_
+5-2	401-404	Sie	_	_
+5-3	405-410	Lanci	*	PERmentioned
+5-4	411-423	allerbestens	_	_
+5-5	424-425	.	_	_
+
+#Text=Auch Dr. Brunn dem ich viel Gutes wünsche .
+6-1	426-430	Auch	_	_
+6-2	431-434	Dr.	*[2]	PERmentioned[2]
+6-3	435-440	Brunn	*[2]	PERmentioned[2]
+6-4	441-444	dem	_	_
+6-5	445-448	ich	_	_
+6-6	449-453	viel	_	_
+6-7	454-459	Gutes	_	_
+6-8	460-467	wünsche	_	_
+6-9	468-469	.	_	_
+
+#Text=Ist auch die Busirisvase Ihnen entfremdet ?
+7-1	470-473	Ist	_	_
+7-2	474-478	auch	_	_
+7-3	479-482	die	_	_
+7-4	483-494	Busirisvase	*	OBJ
+7-5	495-500	Ihnen	_	_
+7-6	501-511	entfremdet	_	_
+7-7	512-513	?	_	_

@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=378 Braun an Gerhard Rom , 26. Mai 1838 Sig .
+1-1	0-3	378	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	26.	*[6]	DATEletter[6]
+1-8	31-34	Mai	*[6]	DATEletter[6]
+1-9	35-39	1838	*[6]	DATEletter[6]
+1-10	40-43	Sig	_	_
+1-11	44-45	.	_	_
+
+#Text=Prof. Gerhard Berlino .
+2-1	46-51	Prof.	_	_
+2-2	52-59	Gerhard	*	PERaddressee
+2-3	60-67	Berlino	*	PLACEto
+2-4	68-69	.	_	_
+
+#Text=Roma li 26 Maggio 1838 .
+3-1	70-74	Roma	*	PLACEfrom
+3-2	75-77	li	_	_
+3-3	78-80	26	*[8]	DATEletter[8]
+3-4	81-87	Maggio	*[8]	DATEletter[8]
+3-5	88-92	1838	*[8]	DATEletter[8]
+3-6	93-94	.	_	_
+
+#Text=Hochverehrtester Freund !
+4-1	95-111	Hochverehrtester	_	_
+4-2	112-118	Freund	_	_
+4-3	119-120	!	_	_
+
+#Text=Ich weiß Ihnen heute allerdings nicht viel zu sagen .
+5-1	121-124	Ich	_	_
+5-2	125-129	weiß	_	_
+5-3	130-135	Ihnen	_	_
+5-4	136-141	heute	_	_
+5-5	142-152	allerdings	_	_
+5-6	153-158	nicht	_	_
+5-7	159-163	viel	_	_
+5-8	164-166	zu	_	_
+5-9	167-172	sagen	_	_
+5-10	173-174	.	_	_
+
+#Text=Dennoch schreibe ich , um im Zug zu bleiben .
+6-1	175-182	Dennoch	_	_
+6-2	183-191	schreibe	_	_
+6-3	192-195	ich	_	_
+6-4	196-197	,	_	_
+6-5	198-200	um	_	_
+6-6	201-203	im	_	_
+6-7	204-207	Zug	_	_
+6-8	208-210	zu	_	_
+6-9	211-218	bleiben	_	_
+6-10	219-220	.	_	_
+
+#Text=Können Sie mir Durchzeichnungen von den in Millins Enl & vement du Palladium enthaltenen Monumenten ( wol fast nur Gemmen ? )
+7-1	221-227	Können	_	_
+7-2	228-231	Sie	_	_
+7-3	232-235	mir	_	_
+7-4	236-252	Durchzeichnungen	_	_
+7-5	253-256	von	_	_
+7-6	257-260	den	_	_
+7-7	261-263	in	_	_
+7-8	264-271	Millins	*	PERmentioned
+7-9	272-275	Enl	_	_
+7-10	276-277	&	_	_
+7-11	278-284	vement	_	_
+7-12	285-287	du	_	_
+7-13	288-297	Palladium	_	_
+7-14	298-309	enthaltenen	_	_
+7-15	310-320	Monumenten	_	_
+7-16	321-322	(	_	_
+7-17	323-326	wol	_	_
+7-18	327-331	fast	_	_
+7-19	332-335	nur	_	_
+7-20	336-342	Gemmen	_	_
+7-21	343-344	?	_	_
+7-22	345-346	)	_	_
+
+#Text=verschaffen und baldisst einsenden , so würden Sie mich verpflichten .
+8-1	347-358	verschaffen	_	_
+8-2	359-362	und	_	_
+8-3	363-371	baldisst	_	_
+8-4	372-381	einsenden	_	_
+8-5	382-383	,	_	_
+8-6	384-386	so	_	_
+8-7	387-393	würden	_	_
+8-8	394-397	Sie	_	_
+8-9	398-402	mich	_	_
+8-10	403-415	verpflichten	_	_
+8-11	416-417	.	_	_
+
+#Text=Ich habe eine ähnliche Arbeit vorbereitet : gegen 30 Gemmen .
+9-1	418-421	Ich	_	_
+9-2	422-426	habe	_	_
+9-3	427-431	eine	_	_
+9-4	432-440	ähnliche	_	_
+9-5	441-447	Arbeit	_	_
+9-6	448-459	vorbereitet	_	_
+9-7	460-461	:	_	_
+9-8	462-467	gegen	_	_
+9-9	468-470	30	_	_
+9-10	471-477	Gemmen	_	_
+9-11	478-479	.	_	_
+
+#Text=Kennen Sie die Minerva , die Diana und den Varus in Toga aus Falazzo Stoppani ?
+10-1	480-486	Kennen	_	_
+10-2	487-490	Sie	_	_
+10-3	491-494	die	_	_
+10-4	495-502	Minerva	*	OBJ
+10-5	503-504	,	_	_
+10-6	505-508	die	_	_
+10-7	509-514	Diana	*	OBJ
+10-8	515-518	und	_	_
+10-9	519-522	den	_	_
+10-10	523-528	Varus	*[12]	OBJ[12]
+10-11	529-531	in	*[12]	OBJ[12]
+10-12	532-536	Toga	*[12]	OBJ[12]
+10-13	537-540	aus	_	_
+10-14	541-548	Falazzo	*[13]	PLACEmentioned[13]
+10-15	549-557	Stoppani	*[13]	PLACEmentioned[13]
+10-16	558-559	?	_	_
+
+#Text=Statuen , die für Museunsaguisitionen wohl geeignet wären .
+11-1	560-567	Statuen	*	OBJ
+11-2	568-569	,	_	_
+11-3	570-573	die	_	_
+11-4	574-577	für	_	_
+11-5	578-597	Museunsaguisitionen	_	_
+11-6	598-602	wohl	_	_
+11-7	603-611	geeignet	_	_
+11-8	612-617	wären	_	_
+11-9	618-619	.	_	_
+
+#Text=Nächstens sollen Sie Probedrücke davon erhalten .
+12-1	620-629	Nächstens	_	_
+12-2	630-636	sollen	_	_
+12-3	637-640	Sie	_	_
+12-4	641-652	Probedrücke	_	_
+12-5	653-658	davon	_	_
+12-6	659-667	erhalten	_	_
+12-7	668-669	.	_	_
+
+#Text=Ich recensire Nibby 's Ch rm .
+13-1	670-673	Ich	_	_
+13-2	674-683	recensire	_	_
+13-3	684-689	Nibby	*[14]	PERmentioned[14]
+13-4	690-692	's	*[14]	PERmentioned[14]
+13-5	693-695	Ch	_	_
+13-6	696-698	rm	_	_
+13-7	699-700	.	_	_
+
+#Text=II .
+14-1	701-703	II	_	_
+14-2	704-705	.	_	_
+
+#Text=für Schork's Blatt .
+15-1	706-709	für	_	_
+15-2	710-718	Schork's	*	PERmentioned
+15-3	719-724	Blatt	_	_
+15-4	725-726	.	_	_
+
+#Text=Manches Belehrende bei manchem Ungehörigen enthaltend .
+16-1	727-734	Manches	_	_
+16-2	735-745	Belehrende	_	_
+16-3	746-749	bei	_	_
+16-4	750-757	manchem	_	_
+16-5	758-769	Ungehörigen	_	_
+16-6	770-780	enthaltend	_	_
+16-7	781-782	.	_	_
+
+#Text=Die Stiche sind sehr lobenswerth ausgeführt und gut gezeichnet .
+17-1	783-786	Die	_	_
+17-2	787-793	Stiche	_	_
+17-3	794-798	sind	_	_
+17-4	799-803	sehr	_	_
+17-5	804-815	lobenswerth	_	_
+17-6	816-826	ausgeführt	_	_
+17-7	827-830	und	_	_
+17-8	831-834	gut	_	_
+17-9	835-845	gezeichnet	_	_
+17-10	846-847	.	_	_
+
+#Text=Aus der Nähe von Perugia sind mir Fragmente einer Elfenbeinfigur zugekommen , die den Mechanismus der Chryselephentinen anschaulich machen .
+18-1	848-851	Aus	_	_
+18-2	852-855	der	_	_
+18-3	856-860	Nähe	_	_
+18-4	861-864	von	_	_
+18-5	865-872	Perugia	*	PLACEmentioned
+18-6	873-877	sind	_	_
+18-7	878-881	mir	_	_
+18-8	882-891	Fragmente	_	_
+18-9	892-897	einer	_	_
+18-10	898-912	Elfenbeinfigur	*	OBJ
+18-11	913-923	zugekommen	_	_
+18-12	924-925	,	_	_
+18-13	926-929	die	_	_
+18-14	930-933	den	_	_
+18-15	934-945	Mechanismus	_	_
+18-16	946-949	der	_	_
+18-17	950-967	Chryselephentinen	_	_
+18-18	968-979	anschaulich	_	_
+18-19	980-986	machen	_	_
+18-20	987-988	.	_	_
+
+#Text=Die Figur ist aus kleiner Stücken componirt und geleimt .
+19-1	989-992	Die	_	_
+19-2	993-998	Figur	*	OBJ
+19-3	999-1002	ist	_	_
+19-4	1003-1006	aus	_	_
+19-5	1007-1014	kleiner	_	_
+19-6	1015-1022	Stücken	_	_
+19-7	1023-1032	componirt	_	_
+19-8	1033-1036	und	_	_
+19-9	1037-1044	geleimt	_	_
+19-10	1045-1046	.	_	_
+
+#Text=Empfiehlt sich zum Museumsankauf , kostet aber wohl 30 Scudi .
+20-1	1047-1056	Empfiehlt	_	_
+20-2	1057-1061	sich	_	_
+20-3	1062-1065	zum	_	_
+20-4	1066-1079	Museumsankauf	_	_
+20-5	1080-1081	,	_	_
+20-6	1082-1088	kostet	_	_
+20-7	1089-1093	aber	_	_
+20-8	1094-1098	wohl	_	_
+20-9	1099-1101	30	_	_
+20-10	1102-1107	Scudi	_	_
+20-11	1108-1109	.	_	_
+
+#Text=Die beigebogene verzeichnete Fossativase stellt einen Jüngling und eine Frau mit einem Kissen vor .
+21-1	1110-1113	Die	_	_
+21-2	1114-1125	beigebogene	_	_
+21-3	1126-1138	verzeichnete	_	_
+21-4	1139-1150	Fossativase	*	OBJ
+21-5	1151-1157	stellt	_	_
+21-6	1158-1163	einen	_	_
+21-7	1164-1172	Jüngling	_	_
+21-8	1173-1176	und	_	_
+21-9	1177-1181	eine	_	_
+21-10	1182-1186	Frau	_	_
+21-11	1187-1190	mit	_	_
+21-12	1191-1196	einem	_	_
+21-13	1197-1203	Kissen	_	_
+21-14	1204-1207	vor	_	_
+21-15	1208-1209	.	_	_
+
+#Text=2 nackte Figuren , ein Krieger mit Lanze etc. Auf der Vorderseite steht der etruskische Name auf einer besonderen Stele .
+22-1	1210-1211	2	_	_
+22-2	1212-1218	nackte	_	_
+22-3	1219-1226	Figuren	_	_
+22-4	1227-1228	,	_	_
+22-5	1229-1232	ein	_	_
+22-6	1233-1240	Krieger	_	_
+22-7	1241-1244	mit	_	_
+22-8	1245-1250	Lanze	_	_
+22-9	1251-1255	etc.	_	_
+22-10	1256-1259	Auf	_	_
+22-11	1260-1263	der	_	_
+22-12	1264-1275	Vorderseite	_	_
+22-13	1276-1281	steht	_	_
+22-14	1282-1285	der	_	_
+22-15	1286-1297	etruskische	_	_
+22-16	1298-1302	Name	_	_
+22-17	1303-1306	auf	_	_
+22-18	1307-1312	einer	_	_
+22-19	1313-1323	besonderen	_	_
+22-20	1324-1329	Stele	_	_
+22-21	1330-1331	.	_	_

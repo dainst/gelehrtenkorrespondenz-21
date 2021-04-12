@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Breslau , 28 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-24	Breslau	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	28	*[4]	DATEletter[4]
+1-7	30-31	.	*[4]	DATEletter[4]
+
+#Text=Oktober 1834 ten Kisten die in 60 Tagen nach Berlin gehen sollen war am 24 Oktober noch kein Avviso vorhanden .
+2-1	32-39	Oktober	*[4]	DATEletter[4]
+2-2	40-44	1834	*[4]	DATEletter[4]
+2-3	45-48	ten	_	_
+2-4	49-55	Kisten	_	_
+2-5	56-59	die	_	_
+2-6	60-62	in	_	_
+2-7	63-65	60	_	_
+2-8	66-71	Tagen	_	_
+2-9	72-76	nach	_	_
+2-10	77-83	Berlin	*	PLACEmentioned
+2-11	84-89	gehen	_	_
+2-12	90-96	sollen	_	_
+2-13	97-100	war	_	_
+2-14	101-103	am	_	_
+2-15	104-106	24	_	_
+2-16	107-114	Oktober	*[6]	DATEmentioned[6]
+2-17	115-119	noch	_	_
+2-18	120-124	kein	_	_
+2-19	125-131	Avviso	_	_
+2-20	132-141	vorhanden	_	_
+2-21	142-143	.	_	_
+
+#Text=Die Troilos-Achillesvase zu publiciren , wie Campani selbst gar sah , genügt die kleine Zeichnung nicht \; es bedürfte einer großen Durchzeichnung .
+3-1	144-147	Die	_	_
+3-2	148-168	Troilos-Achillesvase	*	OBJ
+3-3	169-171	zu	_	_
+3-4	172-182	publiciren	_	_
+3-5	183-184	,	_	_
+3-6	185-188	wie	_	_
+3-7	189-196	Campani	*	PERmentioned
+3-8	197-203	selbst	_	_
+3-9	204-207	gar	_	_
+3-10	208-211	sah	_	_
+3-11	212-213	,	_	_
+3-12	214-220	genügt	_	_
+3-13	221-224	die	_	_
+3-14	225-231	kleine	_	_
+3-15	232-241	Zeichnung	_	_
+3-16	242-247	nicht	_	_
+3-17	248-249	\;	_	_
+3-18	250-252	es	_	_
+3-19	253-261	bedürfte	_	_
+3-20	262-267	einer	_	_
+3-21	268-274	großen	_	_
+3-22	275-289	Durchzeichnung	_	_
+3-23	290-291	.	_	_
+
+#Text=Üebrigens sind jene kleinen Zeichnungen doch wol an Canmpani geschickt ?
+4-1	292-301	Üebrigens	_	_
+4-2	302-306	sind	_	_
+4-3	307-311	jene	_	_
+4-4	312-319	kleinen	_	_
+4-5	320-331	Zeichnungen	_	_
+4-6	332-336	doch	_	_
+4-7	337-340	wol	_	_
+4-8	341-343	an	_	_
+4-9	344-352	Canmpani	*	PERmentioned
+4-10	353-362	geschickt	_	_
+4-11	363-364	?	_	_
+
+#Text=nicht von mir bestellt und für mich zahlbar ?
+5-1	365-370	nicht	_	_
+5-2	371-374	von	_	_
+5-3	375-378	mir	_	_
+5-4	379-387	bestellt	_	_
+5-5	388-391	und	_	_
+5-6	392-395	für	_	_
+5-7	396-400	mich	_	_
+5-8	401-408	zahlbar	_	_
+5-9	409-410	?	_	_
+
+#Text=Sölpiz B hlein muß wieder in München seyn .
+6-1	411-417	Sölpiz	*	PERmentioned
+6-2	418-419	B	_	_
+6-3	420-425	hlein	_	_
+6-4	426-429	muß	_	_
+6-5	430-436	wieder	_	_
+6-6	437-439	in	_	_
+6-7	440-447	München	*	PLACEmentioned
+6-8	448-452	seyn	_	_
+6-9	453-454	.	_	_
+
+#Text=Was fehlt Ihnen von Welckerschen Schriften ?
+7-1	455-458	Was	_	_
+7-2	459-464	fehlt	_	_
+7-3	465-470	Ihnen	_	_
+7-4	471-474	von	_	_
+7-5	475-487	Welckerschen	*	PERmentioned
+7-6	488-497	Schriften	_	_
+7-7	498-499	?	_	_
+
+#Text=Ich bedarf eines Desiderienkatalogs , wenn ich für Ihr archäologisches Bedürfniß sorgen soll .
+8-1	500-503	Ich	_	_
+8-2	504-510	bedarf	_	_
+8-3	511-516	eines	_	_
+8-4	517-535	Desiderienkatalogs	_	_
+8-5	536-537	,	_	_
+8-6	538-542	wenn	_	_
+8-7	543-546	ich	_	_
+8-8	547-550	für	_	_
+8-9	551-554	Ihr	_	_
+8-10	555-570	archäologisches	_	_
+8-11	571-580	Bedürfniß	_	_
+8-12	581-587	sorgen	_	_
+8-13	588-592	soll	_	_
+8-14	593-594	.	_	_
+
+#Text=- Wegen homöopathischer Schriften fehlt mir der Cottasche für Sie wohlfeilste Weg , so wie genaue litterarische Nachweisungen \; ich vergesse diese jeweils aber nicht .
+9-1	595-596	-	_	_
+9-2	597-602	Wegen	_	_
+9-3	603-618	homöopathischer	_	_
+9-4	619-628	Schriften	_	_
+9-5	629-634	fehlt	_	_
+9-6	635-638	mir	_	_
+9-7	639-642	der	_	_
+9-8	643-652	Cottasche	_	_
+9-9	653-656	für	_	_
+9-10	657-660	Sie	_	_
+9-11	661-672	wohlfeilste	_	_
+9-12	673-676	Weg	_	_
+9-13	677-678	,	_	_
+9-14	679-681	so	_	_
+9-15	682-685	wie	_	_
+9-16	686-692	genaue	_	_
+9-17	693-706	litterarische	_	_
+9-18	707-720	Nachweisungen	_	_
+9-19	721-722	\;	_	_
+9-20	723-726	ich	_	_
+9-21	727-735	vergesse	_	_
+9-22	736-741	diese	_	_
+9-23	742-749	jeweils	_	_
+9-24	750-754	aber	_	_
+9-25	755-760	nicht	_	_
+9-26	761-762	.	_	_
+
+#Text=Dr. Wolff konsultirte ich \; er hat mehrere neue Mittel genannt die ich Ihnen anzeichnen werde .
+10-1	763-766	Dr.	_	_
+10-2	767-772	Wolff	*	PERmentioned
+10-3	773-784	konsultirte	_	_
+10-4	785-788	ich	_	_
+10-5	789-790	\;	_	_
+10-6	791-793	er	_	_
+10-7	794-797	hat	_	_
+10-8	798-805	mehrere	_	_
+10-9	806-810	neue	_	_
+10-10	811-817	Mittel	_	_
+10-11	818-825	genannt	_	_
+10-12	826-829	die	_	_
+10-13	830-833	ich	_	_
+10-14	834-839	Ihnen	_	_
+10-15	840-850	anzeichnen	_	_
+10-16	851-856	werde	_	_
+10-17	857-858	.	_	_
+
+#Text=Den Gebrauch de 81 kannte er nicht \; außerdem verweist er mich zu Stuller .
+11-1	859-862	Den	_	_
+11-2	863-871	Gebrauch	_	_
+11-3	872-874	de	_	_
+11-4	875-877	81	_	_
+11-5	878-884	kannte	_	_
+11-6	885-887	er	_	_
+11-7	888-893	nicht	_	_
+11-8	894-895	\;	_	_
+11-9	896-904	außerdem	_	_
+11-10	905-913	verweist	_	_
+11-11	914-916	er	_	_
+11-12	917-921	mich	_	_
+11-13	922-924	zu	_	_
+11-14	925-932	Stuller	*	PERmentioned
+11-15	933-934	.	_	_
+
+#Text=Ich speise noch von gedachten S und bin geneigter meine Krankheitsfragen noch fortwährend auf Sie -— Romani zu verweisen als an andere Leute .
+12-1	935-938	Ich	_	_
+12-2	939-945	speise	_	_
+12-3	946-950	noch	_	_
+12-4	951-954	von	_	_
+12-5	955-964	gedachten	_	_
+12-6	965-966	S	_	_
+12-7	967-970	und	_	_
+12-8	971-974	bin	_	_
+12-9	975-984	geneigter	_	_
+12-10	985-990	meine	_	_
+12-11	991-1007	Krankheitsfragen	_	_
+12-12	1008-1012	noch	_	_
+12-13	1013-1024	fortwährend	_	_
+12-14	1025-1028	auf	_	_
+12-15	1029-1032	Sie	_	_
+12-16	1033-1035	-—	_	_
+12-17	1036-1042	Romani	*	PERmentioned
+12-18	1043-1045	zu	_	_
+12-19	1046-1055	verweisen	_	_
+12-20	1056-1059	als	_	_
+12-21	1060-1062	an	_	_
+12-22	1063-1069	andere	_	_
+12-23	1070-1075	Leute	_	_
+12-24	1076-1077	.	_	_
+
+#Text=Von Ambrosch nehme ich Ihr Römerstraßen Mt .
+13-1	1078-1081	Von	_	_
+13-2	1082-1090	Ambrosch	*	PERmentioned
+13-3	1091-1096	nehme	_	_
+13-4	1097-1100	ich	_	_
+13-5	1101-1104	Ihr	_	_
+13-6	1105-1117	Römerstraßen	*	MISC
+13-7	1118-1120	Mt	_	_
+13-8	1121-1122	.	_	_
+
+#Text=zurück und behalte mir Weiteres darüber vor .
+14-1	1123-1129	zurück	_	_
+14-2	1130-1133	und	_	_
+14-3	1134-1141	behalte	_	_
+14-4	1142-1145	mir	_	_
+14-5	1146-1154	Weiteres	_	_
+14-6	1155-1162	darüber	_	_
+14-7	1163-1166	vor	_	_
+14-8	1167-1168	.	_	_
+
+#Text=Er hat sich mit Ritschl wohl verstanden und kommt nächstens her .
+15-1	1169-1171	Er	_	_
+15-2	1172-1175	hat	_	_
+15-3	1176-1180	sich	_	_
+15-4	1181-1184	mit	_	_
+15-5	1185-1192	Ritschl	*	PERmentioned
+15-6	1193-1197	wohl	_	_
+15-7	1198-1208	verstanden	_	_
+15-8	1209-1212	und	_	_
+15-9	1213-1218	kommt	_	_
+15-10	1219-1228	nächstens	_	_
+15-11	1229-1232	her	_	_
+15-12	1233-1234	.	_	_
+
+#Text=Ihre Collationsendung an Ritschl kam gerade zu
+16-1	1235-1239	Ihre	_	_
+16-2	1240-1256	Collationsendung	_	_
+16-3	1257-1259	an	_	_
+16-4	1260-1267	Ritschl	*	PERmentioned
+16-5	1268-1271	kam	_	_
+16-6	1272-1278	gerade	_	_
+16-7	1279-1281	zu	_	_

@@ -1,0 +1,209 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=8 Gerhard an Henzen Berlin 2/T/1849 g . 13/1 49 r . 19/I 49 D. Henzen : Berlin 2/1849 ein allerbestes Neujahr , Ihnen und Ihrer lieben Frau , von mir und der meinigen die nächstens selbst schreibt .
+1-1	0-1	8	_	_
+1-2	2-9	Gerhard	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-35	2/T/1849	*	DATEletter
+1-7	36-37	g	_	_
+1-8	38-39	.	_	_
+1-9	40-44	13/1	*[1]	DATErecieved[1]
+1-10	45-47	49	*[1]	DATErecieved[1]
+1-11	48-49	r	_	_
+1-12	50-51	.	_	_
+1-13	52-56	19/I	*[2]	DATEanswered[2]
+1-14	57-59	49	*[2]	DATEanswered[2]
+1-15	60-62	D.	_	_
+1-16	63-69	Henzen	*	PERaddressee
+1-17	70-71	:	_	_
+1-18	72-78	Berlin	*	PLACEfrom
+1-19	79-85	2/1849	*	DATEletter
+1-20	86-89	ein	_	_
+1-21	90-101	allerbestes	_	_
+1-22	102-109	Neujahr	_	_
+1-23	110-111	,	_	_
+1-24	112-117	Ihnen	_	_
+1-25	118-121	und	_	_
+1-26	122-127	Ihrer	_	_
+1-27	128-134	lieben	_	_
+1-28	135-139	Frau	_	_
+1-29	140-141	,	_	_
+1-30	142-145	von	_	_
+1-31	146-149	mir	_	_
+1-32	150-153	und	_	_
+1-33	154-157	der	_	_
+1-34	158-166	meinigen	_	_
+1-35	167-170	die	_	_
+1-36	171-180	nächstens	_	_
+1-37	181-187	selbst	_	_
+1-38	188-196	schreibt	_	_
+1-39	197-198	.	_	_
+
+#Text=Leemans 571 Frances : non pensi \| !
+2-1	199-206	Leemans	*	PERmentioned
+2-2	207-210	571	_	_
+2-3	211-218	Frances	_	_
+2-4	219-220	:	_	_
+2-5	221-224	non	_	_
+2-6	225-230	pensi	_	_
+2-7	231-232	\|	_	_
+2-8	233-234	!	_	_
+
+#Text=Usedom hat das Geld Ihnen vermuthlich schon gezahlt , und den Vollbetrag der 571 Fr. erhielt ich hier so , daß die Spesen auf Leemans feselen .
+3-1	235-241	Usedom	*	PERmentioned
+3-2	242-245	hat	_	_
+3-3	246-249	das	_	_
+3-4	250-254	Geld	_	_
+3-5	255-260	Ihnen	_	_
+3-6	261-272	vermuthlich	_	_
+3-7	273-278	schon	_	_
+3-8	279-286	gezahlt	_	_
+3-9	287-288	,	_	_
+3-10	289-292	und	_	_
+3-11	293-296	den	_	_
+3-12	297-307	Vollbetrag	_	_
+3-13	308-311	der	_	_
+3-14	312-315	571	_	_
+3-15	316-319	Fr.	_	_
+3-16	320-327	erhielt	_	_
+3-17	328-331	ich	_	_
+3-18	332-336	hier	_	_
+3-19	337-339	so	_	_
+3-20	340-341	,	_	_
+3-21	342-345	daß	_	_
+3-22	346-349	die	_	_
+3-23	350-356	Spesen	_	_
+3-24	357-360	auf	_	_
+3-25	361-368	Leemans	*	PERmentioned
+3-26	369-376	feselen	_	_
+3-27	377-378	.	_	_
+
+#Text=Was soll aber aus Leemans Packet werden das bei ‚tagt mir est ?
+4-1	379-382	Was	_	_
+4-2	383-387	soll	_	_
+4-3	388-392	aber	_	_
+4-4	393-396	aus	_	_
+4-5	397-404	Leemans	*	PERmentioned
+4-6	405-411	Packet	_	_
+4-7	412-418	werden	_	_
+4-8	419-422	das	_	_
+4-9	423-426	bei	_	_
+4-10	427-432	‚tagt	_	_
+4-11	433-436	mir	_	_
+4-12	437-440	est	_	_
+4-13	441-442	?	_	_
+
+#Text=Bullettino sah ich seit dem Maggiostück nicht .
+5-1	443-453	Bullettino	_	_
+5-2	454-457	sah	_	_
+5-3	458-461	ich	_	_
+5-4	462-466	seit	_	_
+5-5	467-470	dem	_	_
+5-6	471-482	Maggiostück	_	_
+5-7	483-488	nicht	_	_
+5-8	489-490	.	_	_
+
+#Text=Haben ” ie Notizen zum Jahresbericht meiner Arch , Zeitung So werden sie sehr willkommen sein .
+6-1	491-496	Haben	_	_
+6-2	497-498	”	_	_
+6-3	499-501	ie	_	_
+6-4	502-509	Notizen	_	_
+6-5	510-513	zum	_	_
+6-6	514-527	Jahresbericht	_	_
+6-7	528-534	meiner	_	_
+6-8	535-539	Arch	_	_
+6-9	540-541	,	_	_
+6-10	542-549	Zeitung	_	_
+6-11	550-552	So	_	_
+6-12	553-559	werden	_	_
+6-13	560-563	sie	_	_
+6-14	564-568	sehr	_	_
+6-15	569-579	willkommen	_	_
+6-16	580-584	sein	_	_
+6-17	585-586	.	_	_
+
+#Text=Der Belagerungsstand ist wol gut , die Frankfurter Sachlage aber nicht weniger als die Aussicht unserer \\Wahlen gleich besorglich .
+7-1	587-590	Der	_	_
+7-2	591-607	Belagerungsstand	_	_
+7-3	608-611	ist	_	_
+7-4	612-615	wol	_	_
+7-5	616-619	gut	_	_
+7-6	620-621	,	_	_
+7-7	622-625	die	_	_
+7-8	626-637	Frankfurter	*	PLACEmentioned
+7-9	638-646	Sachlage	_	_
+7-10	647-651	aber	_	_
+7-11	652-657	nicht	_	_
+7-12	658-665	weniger	_	_
+7-13	666-669	als	_	_
+7-14	670-673	die	_	_
+7-15	674-682	Aussicht	_	_
+7-16	683-690	unserer	_	_
+7-17	691-698	\\Wahlen	_	_
+7-18	699-705	gleich	_	_
+7-19	706-716	besorglich	_	_
+7-20	717-718	.	_	_
+
+#Text=Letronne welcher der Archäologie öfters unbequen war wird doch schmerzlich entbehrt werden .
+8-1	719-727	Letronne	*	PERmentioned
+8-2	728-735	welcher	_	_
+8-3	736-739	der	_	_
+8-4	740-751	Archäologie	_	_
+8-5	752-758	öfters	_	_
+8-6	759-767	unbequen	_	_
+8-7	768-771	war	_	_
+8-8	772-776	wird	_	_
+8-9	777-781	doch	_	_
+8-10	782-793	schmerzlich	_	_
+8-11	794-802	entbehrt	_	_
+8-12	803-809	werden	_	_
+8-13	810-811	.	_	_
+
+#Text=Dem Rochette hat er mit dem Pferde - statt Reiter - Makaktatos Paps .
+9-1	812-815	Dem	_	_
+9-2	816-824	Rochette	*	PERmentioned
+9-3	825-828	hat	_	_
+9-4	829-831	er	_	_
+9-5	832-835	mit	_	_
+9-6	836-839	dem	_	_
+9-7	840-846	Pferde	_	_
+9-8	847-848	-	_	_
+9-9	849-854	statt	_	_
+9-10	855-861	Reiter	_	_
+9-11	862-863	-	_	_
+9-12	864-874	Makaktatos	_	_
+9-13	875-879	Paps	_	_
+9-14	880-881	.	_	_
+
+#Text=1 , 29 , S schließlich noch einen tüchtigen Fußtritt versetzt .
+10-1	882-883	1	_	_
+10-2	884-885	,	_	_
+10-3	886-888	29	_	_
+10-4	889-890	,	_	_
+10-5	891-892	S	_	_
+10-6	893-904	schließlich	_	_
+10-7	905-909	noch	_	_
+10-8	910-915	einen	_	_
+10-9	916-925	tüchtigen	_	_
+10-10	926-934	Fußtritt	_	_
+10-11	935-943	versetzt	_	_
+10-12	944-945	.	_	_
+
+#Text=G. Hermann ist auch todkrank .
+11-1	946-948	G.	*[3]	PERmentioned[3]
+11-2	949-956	Hermann	*[3]	PERmentioned[3]
+11-3	957-960	ist	_	_
+11-4	961-965	auch	_	_
+11-5	966-974	todkrank	_	_
+11-6	975-976	.	_	_
+
+#Text=Von Herzen der Ihrige Gerhard
+12-1	977-980	Von	_	_
+12-2	981-987	Herzen	_	_
+12-3	988-991	der	_	_
+12-4	992-998	Ihrige	_	_
+12-5	999-1006	Gerhard	*	PERauthor

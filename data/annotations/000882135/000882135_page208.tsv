@@ -1,0 +1,61 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=87 Braun an Gerhard Rom , 10. März 1840 zen zu besuchen .
+1-1	0-2	87	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	10.	*[4]	DATEletter[4]
+1-8	30-34	März	*[4]	DATEletter[4]
+1-9	35-39	1840	*[4]	DATEletter[4]
+1-10	40-43	zen	_	_
+1-11	44-46	zu	_	_
+1-12	47-55	besuchen	_	_
+1-13	56-57	.	_	_
+
+#Text=Ich hatte ihn mit Fleiß unaufgefordert gelassen .
+2-1	58-61	Ich	_	_
+2-2	62-67	hatte	_	_
+2-3	68-71	ihn	_	_
+2-4	72-75	mit	_	_
+2-5	76-81	Fleiß	_	_
+2-6	82-96	unaufgefordert	_	_
+2-7	97-105	gelassen	_	_
+2-8	106-107	.	_	_
+
+#Text=Daß .
+3-1	108-111	Daß	_	_
+3-2	112-113	.	_	_
+
+#Text=viele Ammonsmasken den Panen und Panisken zurückzugeben sind , wollten Sie nicht glauben .
+4-1	114-119	viele	_	_
+4-2	120-132	Ammonsmasken	*	MISC
+4-3	133-136	den	_	_
+4-4	137-142	Panen	*	MISC
+4-5	143-146	und	_	_
+4-6	147-155	Panisken	*	MISC
+4-7	156-169	zurückzugeben	_	_
+4-8	170-174	sind	_	_
+4-9	175-176	,	_	_
+4-10	177-184	wollten	_	_
+4-11	185-188	Sie	_	_
+4-12	189-194	nicht	_	_
+4-13	195-202	glauben	_	_
+4-14	203-204	.	_	_
+
+#Text=Nächstens werde ich es beweisen .
+5-1	205-214	Nächstens	_	_
+5-2	215-220	werde	_	_
+5-3	221-224	ich	_	_
+5-4	225-227	es	_	_
+5-5	228-236	beweisen	_	_
+5-6	237-238	.	_	_
+
+#Text=Ihr EBraun .
+6-1	239-242	Ihr	_	_
+6-2	243-249	EBraun	*	PERauthor
+6-3	250-251	.	_	_

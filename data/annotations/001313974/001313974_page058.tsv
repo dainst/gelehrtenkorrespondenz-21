@@ -1,0 +1,286 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=257 Helbig an Henzen Pompei , 14. Juni 1865 Sorrent , Capri zu machen .
+1-1	0-3	257	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Pompei	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	14.	*[3]	DATEletter[3]
+1-8	34-38	Juni	*[3]	DATEletter[3]
+1-9	39-43	1865	*[3]	DATEletter[3]
+1-10	44-51	Sorrent	*	PLACEmentioned
+1-11	52-53	,	_	_
+1-12	54-59	Capri	*	PLACEmentioned
+1-13	60-62	zu	_	_
+1-14	63-69	machen	_	_
+1-15	70-71	.	_	_
+
+#Text=Er denkt dann noch einige Tage in Neapel zuzubringen und wird schwerlich vor dem 5. Juli in Rom eintreffen .
+2-1	72-74	Er	_	_
+2-2	75-80	denkt	_	_
+2-3	81-85	dann	_	_
+2-4	86-90	noch	_	_
+2-5	91-97	einige	_	_
+2-6	98-102	Tage	_	_
+2-7	103-105	in	_	_
+2-8	106-112	Neapel	*	PLACEmentioned
+2-9	113-124	zuzubringen	_	_
+2-10	125-128	und	_	_
+2-11	129-133	wird	_	_
+2-12	134-144	schwerlich	_	_
+2-13	145-148	vor	_	_
+2-14	149-152	dem	_	_
+2-15	153-155	5.	*[4]	DATEmentioned[4]
+2-16	156-160	Juli	*[4]	DATEmentioned[4]
+2-17	161-163	in	_	_
+2-18	164-167	Rom	*	PLACEmentioned
+2-19	168-178	eintreffen	_	_
+2-20	179-180	.	_	_
+
+#Text=Was meine Arbeiten betrifft , so denke ich übermorgen in Pompei fertig zu sein .
+3-1	181-184	Was	_	_
+3-2	185-190	meine	_	_
+3-3	191-199	Arbeiten	_	_
+3-4	200-208	betrifft	_	_
+3-5	209-210	,	_	_
+3-6	211-213	so	_	_
+3-7	214-219	denke	_	_
+3-8	220-223	ich	_	_
+3-9	224-234	übermorgen	_	_
+3-10	235-237	in	_	_
+3-11	238-244	Pompei	*	PLACEmentioned
+3-12	245-251	fertig	_	_
+3-13	252-254	zu	_	_
+3-14	255-259	sein	_	_
+3-15	260-261	.	_	_
+
+#Text=Die in Neapel befindlichen Bilder , soweit sie zugänglich sind , also die drei von Minervini geordneten Säle , habe ich ebenfalls absolvirt .
+4-1	262-265	Die	_	_
+4-2	266-268	in	_	_
+4-3	269-275	Neapel	*	PLACEmentioned
+4-4	276-288	befindlichen	_	_
+4-5	289-295	Bilder	_	_
+4-6	296-297	,	_	_
+4-7	298-304	soweit	_	_
+4-8	305-308	sie	_	_
+4-9	309-319	zugänglich	_	_
+4-10	320-324	sind	_	_
+4-11	325-326	,	_	_
+4-12	327-331	also	_	_
+4-13	332-335	die	_	_
+4-14	336-340	drei	_	_
+4-15	341-344	von	_	_
+4-16	345-354	Minervini	*	PERmentioned
+4-17	355-365	geordneten	_	_
+4-18	366-370	Säle	_	_
+4-19	371-372	,	_	_
+4-20	373-377	habe	_	_
+4-21	378-381	ich	_	_
+4-22	382-391	ebenfalls	_	_
+4-23	392-401	absolvirt	_	_
+4-24	402-403	.	_	_
+
+#Text=Sehr bös sieht es dagegen mit der übrigen Masse , also etwa zwei Fünftel des gesammten Materials aus .
+5-1	404-408	Sehr	_	_
+5-2	409-412	bös	_	_
+5-3	413-418	sieht	_	_
+5-4	419-421	es	_	_
+5-5	422-429	dagegen	_	_
+5-6	430-433	mit	_	_
+5-7	434-437	der	_	_
+5-8	438-445	übrigen	_	_
+5-9	446-451	Masse	_	_
+5-10	452-453	,	_	_
+5-11	454-458	also	_	_
+5-12	459-463	etwa	_	_
+5-13	464-468	zwei	_	_
+5-14	469-476	Fünftel	_	_
+5-15	477-480	des	_	_
+5-16	481-490	gesammten	_	_
+5-17	491-500	Materials	_	_
+5-18	501-504	aus	_	_
+5-19	505-506	.	_	_
+
+#Text=Dieses befindet sich gegenwärtig , da das Museum gegenwärtig neu geordnet wird , in den Magazinen und zwar liegen die Bilder schichtenweise übereinander .
+6-1	507-513	Dieses	_	_
+6-2	514-522	befindet	_	_
+6-3	523-527	sich	_	_
+6-4	528-539	gegenwärtig	_	_
+6-5	540-541	,	_	_
+6-6	542-544	da	_	_
+6-7	545-548	das	_	_
+6-8	549-555	Museum	*	ORGmentioned
+6-9	556-567	gegenwärtig	_	_
+6-10	568-571	neu	_	_
+6-11	572-580	geordnet	_	_
+6-12	581-585	wird	_	_
+6-13	586-587	,	_	_
+6-14	588-590	in	_	_
+6-15	591-594	den	_	_
+6-16	595-604	Magazinen	_	_
+6-17	605-608	und	_	_
+6-18	609-613	zwar	_	_
+6-19	614-620	liegen	_	_
+6-20	621-624	die	_	_
+6-21	625-631	Bilder	_	_
+6-22	632-646	schichtenweise	_	_
+6-23	647-659	übereinander	_	_
+6-24	660-661	.	_	_
+
+#Text=Fiorelli sagte mir , daß wohl noch ein Jahr vergehenkönnte , bis sie ausgestellt würden .
+7-1	662-670	Fiorelli	*	PERmentioned
+7-2	671-676	sagte	_	_
+7-3	677-680	mir	_	_
+7-4	681-682	,	_	_
+7-5	683-686	daß	_	_
+7-6	687-691	wohl	_	_
+7-7	692-696	noch	_	_
+7-8	697-700	ein	_	_
+7-9	701-705	Jahr	_	_
+7-10	706-720	vergehenkönnte	_	_
+7-11	721-722	,	_	_
+7-12	723-726	bis	_	_
+7-13	727-730	sie	_	_
+7-14	731-742	ausgestellt	_	_
+7-15	743-749	würden	_	_
+7-16	750-751	.	_	_
+
+#Text=Mir blieb demnach , um zu diesen Bildern zu gelangen , nichts Anderes übrig , als Fiorelli den Vorschlag zu machen , auf den er schon lange mit Sehnsucht gewartet zu haben scheint , nämlich die Bilder für ihn provisorisch zu ordnen .
+8-1	752-755	Mir	_	_
+8-2	756-761	blieb	_	_
+8-3	762-769	demnach	_	_
+8-4	770-771	,	_	_
+8-5	772-774	um	_	_
+8-6	775-777	zu	_	_
+8-7	778-784	diesen	_	_
+8-8	785-792	Bildern	_	_
+8-9	793-795	zu	_	_
+8-10	796-804	gelangen	_	_
+8-11	805-806	,	_	_
+8-12	807-813	nichts	_	_
+8-13	814-821	Anderes	_	_
+8-14	822-827	übrig	_	_
+8-15	828-829	,	_	_
+8-16	830-833	als	_	_
+8-17	834-842	Fiorelli	*	PERmentioned
+8-18	843-846	den	_	_
+8-19	847-856	Vorschlag	_	_
+8-20	857-859	zu	_	_
+8-21	860-866	machen	_	_
+8-22	867-868	,	_	_
+8-23	869-872	auf	_	_
+8-24	873-876	den	_	_
+8-25	877-879	er	_	_
+8-26	880-885	schon	_	_
+8-27	886-891	lange	_	_
+8-28	892-895	mit	_	_
+8-29	896-905	Sehnsucht	_	_
+8-30	906-914	gewartet	_	_
+8-31	915-917	zu	_	_
+8-32	918-923	haben	_	_
+8-33	924-931	scheint	_	_
+8-34	932-933	,	_	_
+8-35	934-941	nämlich	_	_
+8-36	942-945	die	_	_
+8-37	946-952	Bilder	_	_
+8-38	953-956	für	_	_
+8-39	957-960	ihn	_	_
+8-40	961-973	provisorisch	_	_
+8-41	974-976	zu	_	_
+8-42	977-983	ordnen	_	_
+8-43	984-985	.	_	_
+
+#Text=Der durch diese Manipulation herbeigeführte Zeitaufwand würde ein plus von 14 Tagen betragen .
+9-1	986-989	Der	_	_
+9-2	990-995	durch	_	_
+9-3	996-1001	diese	_	_
+9-4	1002-1014	Manipulation	_	_
+9-5	1015-1029	herbeigeführte	_	_
+9-6	1030-1041	Zeitaufwand	_	_
+9-7	1042-1047	würde	_	_
+9-8	1048-1051	ein	_	_
+9-9	1052-1056	plus	_	_
+9-10	1057-1060	von	_	_
+9-11	1061-1063	14	_	_
+9-12	1064-1069	Tagen	_	_
+9-13	1070-1078	betragen	_	_
+9-14	1079-1080	.	_	_
+
+#Text=Es fragt sich nunmehr , was Sie dazu meinen .
+10-1	1081-1083	Es	_	_
+10-2	1084-1089	fragt	_	_
+10-3	1090-1094	sich	_	_
+10-4	1095-1102	nunmehr	_	_
+10-5	1103-1104	,	_	_
+10-6	1105-1108	was	_	_
+10-7	1109-1112	Sie	_	_
+10-8	1113-1117	dazu	_	_
+10-9	1118-1124	meinen	_	_
+10-10	1125-1126	.	_	_
+
+#Text=Soll ich , wie verabredet war , Anfang Juli nach Rom zurückkehren und später noch einmal , um den Rest zu absolviren , etwa Ende September oder Anfang October , nach Neapel gehen ?
+11-1	1127-1131	Soll	_	_
+11-2	1132-1135	ich	_	_
+11-3	1136-1137	,	_	_
+11-4	1138-1141	wie	_	_
+11-5	1142-1152	verabredet	_	_
+11-6	1153-1156	war	_	_
+11-7	1157-1158	,	_	_
+11-8	1159-1165	Anfang	_	_
+11-9	1166-1170	Juli	*	DATEmentioned
+11-10	1171-1175	nach	_	_
+11-11	1176-1179	Rom	*	PLACEmentioned
+11-12	1180-1192	zurückkehren	_	_
+11-13	1193-1196	und	_	_
+11-14	1197-1203	später	_	_
+11-15	1204-1208	noch	_	_
+11-16	1209-1215	einmal	_	_
+11-17	1216-1217	,	_	_
+11-18	1218-1220	um	_	_
+11-19	1221-1224	den	_	_
+11-20	1225-1229	Rest	_	_
+11-21	1230-1232	zu	_	_
+11-22	1233-1243	absolviren	_	_
+11-23	1244-1245	,	_	_
+11-24	1246-1250	etwa	_	_
+11-25	1251-1255	Ende	_	_
+11-26	1256-1265	September	*	DATEmentioned
+11-27	1266-1270	oder	_	_
+11-28	1271-1277	Anfang	_	_
+11-29	1278-1285	October	*	DATEmentioned
+11-30	1286-1287	,	_	_
+11-31	1288-1292	nach	_	_
+11-32	1293-1299	Neapel	*	PLACEmentioned
+11-33	1300-1305	gehen	_	_
+11-34	1306-1307	?	_	_
+
+#Text=Oder soll ich vierzehn Tage länger in Neapel bleiben ?
+12-1	1308-1312	Oder	_	_
+12-2	1313-1317	soll	_	_
+12-3	1318-1321	ich	_	_
+12-4	1322-1330	vierzehn	_	_
+12-5	1331-1335	Tage	_	_
+12-6	1336-1342	länger	_	_
+12-7	1343-1345	in	_	_
+12-8	1346-1352	Neapel	*	PLACEmentioned
+12-9	1353-1360	bleiben	_	_
+12-10	1361-1362	?	_	_
+
+#Text=Es thut mir sehr leid , daß ich meine Charge sofort mit einer
+13-1	1363-1365	Es	_	_
+13-2	1366-1370	thut	_	_
+13-3	1371-1374	mir	_	_
+13-4	1375-1379	sehr	_	_
+13-5	1380-1384	leid	_	_
+13-6	1385-1386	,	_	_
+13-7	1387-1390	daß	_	_
+13-8	1391-1394	ich	_	_
+13-9	1395-1400	meine	_	_
+13-10	1401-1407	Charge	_	_
+13-11	1408-1414	sofort	_	_
+13-12	1415-1418	mit	_	_
+13-13	1419-1424	einer	_	_

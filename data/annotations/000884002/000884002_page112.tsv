@@ -1,0 +1,225 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 1. Juli 1862 - 3 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-24	1.	*[5]	DATEletter[5]
+1-7	25-29	Juli	*[5]	DATEletter[5]
+1-8	30-34	1862	*[5]	DATEletter[5]
+1-9	35-36	-	_	_
+1-10	37-38	3	_	_
+1-11	39-40	.	_	_
+
+#Text=Anbei ein Brief für Ihre Frau , für den wohl 26 Baj .
+2-1	41-46	Anbei	_	_
+2-2	47-50	ein	_	_
+2-3	51-56	Brief	_	_
+2-4	57-60	für	_	_
+2-5	61-65	Ihre	*[6]	PERmentioned[6]
+2-6	66-70	Frau	*[6]	PERmentioned[6]
+2-7	71-72	,	_	_
+2-8	73-76	für	_	_
+2-9	77-80	den	_	_
+2-10	81-85	wohl	_	_
+2-11	86-88	26	_	_
+2-12	89-92	Baj	_	_
+2-13	93-94	.	_	_
+
+#Text=Porto auf Ihr Conto zu setzen sind .
+3-1	95-100	Porto	_	_
+3-2	101-104	auf	_	_
+3-3	105-108	Ihr	_	_
+3-4	109-114	Conto	_	_
+3-5	115-117	zu	_	_
+3-6	118-124	setzen	_	_
+3-7	125-129	sind	_	_
+3-8	130-131	.	_	_
+
+#Text=Rosa ist auf den Palatin eingezogen .
+4-1	132-136	Rosa	*	PERmentioned
+4-2	137-140	ist	_	_
+4-3	141-144	auf	_	_
+4-4	145-148	den	_	_
+4-5	149-156	Palatin	*	PLACEmentioned
+4-6	157-167	eingezogen	_	_
+4-7	168-169	.	_	_
+
+#Text=So viel für heute , mit besten Grüßen Ihr HBrunn Rom , 21 Juli 1862 .
+5-1	170-172	So	_	_
+5-2	173-177	viel	_	_
+5-3	178-181	für	_	_
+5-4	182-187	heute	_	_
+5-5	188-189	,	_	_
+5-6	190-193	mit	_	_
+5-7	194-200	besten	_	_
+5-8	201-207	Grüßen	_	_
+5-9	208-211	Ihr	_	_
+5-10	212-218	HBrunn	*	PERauthor
+5-11	219-222	Rom	*	PLACEfrom
+5-12	223-224	,	_	_
+5-13	225-227	21	_	_
+5-14	228-232	Juli	*[7]	DATEletter[7]
+5-15	233-237	1862	*[7]	DATEletter[7]
+5-16	238-239	.	_	_
+
+#Text=Neulich sprach ich Andreoli von der Fortunati'schen Amor- und Psyche Gruppe .
+6-1	240-247	Neulich	_	_
+6-2	248-254	sprach	_	_
+6-3	255-258	ich	_	_
+6-4	259-267	Andreoli	*	PERmentioned
+6-5	268-271	von	_	_
+6-6	272-275	der	_	_
+6-7	276-291	Fortunati'schen	*	MISC
+6-8	292-297	Amor-	_	_
+6-9	298-301	und	*[8]	OBJ[8]
+6-10	302-308	Psyche	*[8]	OBJ[8]
+6-11	309-315	Gruppe	*[8]	OBJ[8]
+6-12	316-317	.	_	_
+
+#Text=Er : Non sara quella di Grotta Ferrata ?
+7-1	318-320	Er	_	_
+7-2	321-322	:	_	_
+7-3	323-326	Non	_	_
+7-4	327-331	sara	_	_
+7-5	332-338	quella	_	_
+7-6	339-341	di	_	_
+7-7	342-348	Grotta	*[9]	PLACEmentioned[9]
+7-8	349-356	Ferrata	*[9]	PLACEmentioned[9]
+7-9	357-358	?	_	_
+
+#Text=die er vor etwa 2 Monaten hätte kaufen können \; doch habe er nicht 50-60 Scudi geben woll .
+8-1	359-362	die	_	_
+8-2	363-365	er	_	_
+8-3	366-369	vor	_	_
+8-4	370-374	etwa	_	_
+8-5	375-376	2	_	_
+8-6	377-384	Monaten	_	_
+8-7	385-390	hätte	_	_
+8-8	391-397	kaufen	_	_
+8-9	398-404	können	_	_
+8-10	405-406	\;	_	_
+8-11	407-411	doch	_	_
+8-12	412-416	habe	_	_
+8-13	417-419	er	_	_
+8-14	420-425	nicht	_	_
+8-15	426-431	50-60	_	_
+8-16	432-437	Scudi	_	_
+8-17	438-443	geben	_	_
+8-18	444-448	woll	_	_
+8-19	449-450	.	_	_
+
+#Text=Wir constatirten schnell , daß sie es wirklich war .
+9-1	451-454	Wir	_	_
+9-2	455-467	constatirten	_	_
+9-3	468-475	schnell	_	_
+9-4	476-477	,	_	_
+9-5	478-481	daß	_	_
+9-6	482-485	sie	_	_
+9-7	486-488	es	_	_
+9-8	489-497	wirklich	_	_
+9-9	498-501	war	_	_
+9-10	502-503	.	_	_
+
+#Text=Unser Rosellini ist unvollständig , manches dagegen doppelt : also vielleicht alter Speditionsirrthunm .
+10-1	504-509	Unser	_	_
+10-2	510-519	Rosellini	*	PERmentioned
+10-3	520-523	ist	_	_
+10-4	524-537	unvollständig	_	_
+10-5	538-539	,	_	_
+10-6	540-547	manches	_	_
+10-7	548-555	dagegen	_	_
+10-8	556-563	doppelt	_	_
+10-9	564-565	:	_	_
+10-10	566-570	also	_	_
+10-11	571-581	vielleicht	_	_
+10-12	582-587	alter	_	_
+10-13	588-606	Speditionsirrthunm	_	_
+10-14	607-608	.	_	_
+
+#Text=Sie theilen vielleicht die Sache Migliarini mit , durch den doch wohl alles gegangen .
+11-1	609-612	Sie	_	_
+11-2	613-620	theilen	_	_
+11-3	621-631	vielleicht	_	_
+11-4	632-635	die	_	_
+11-5	636-641	Sache	_	_
+11-6	642-652	Migliarini	*	PERmentioned
+11-7	653-656	mit	_	_
+11-8	657-658	,	_	_
+11-9	659-664	durch	_	_
+11-10	665-668	den	_	_
+11-11	669-673	doch	_	_
+11-12	674-678	wohl	_	_
+11-13	679-684	alles	_	_
+11-14	685-693	gegangen	_	_
+11-15	694-695	.	_	_
+
+#Text=Vielleicht weiß er Rath zu schaffen .
+12-1	696-706	Vielleicht	_	_
+12-2	707-711	weiß	_	_
+12-3	712-714	er	_	_
+12-4	715-719	Rath	_	_
+12-5	720-722	zu	_	_
+12-6	723-731	schaffen	_	_
+12-7	732-733	.	_	_
+
+#Text=Della grande opera di Rosellini Z'Instituto archeologio possiede : Testo : Mon .
+13-1	734-739	Della	_	_
+13-2	740-746	grande	_	_
+13-3	747-752	opera	_	_
+13-4	753-755	di	_	_
+13-5	756-765	Rosellini	*	PERmentioned
+13-6	766-777	Z'Instituto	*[10]	ORGmentioned[10]
+13-7	778-789	archeologio	*[10]	ORGmentioned[10]
+13-8	790-798	possiede	_	_
+13-9	799-800	:	_	_
+13-10	801-806	Testo	_	_
+13-11	807-808	:	_	_
+13-12	809-812	Mon	_	_
+13-13	813-814	.	_	_
+
+#Text=stor .
+14-1	815-819	stor	_	_
+14-2	820-821	.	_	_
+
+#Text=I.II.III , 1.2.IV Mon .
+15-1	822-830	I.II.III	_	_
+15-2	831-832	,	_	_
+15-3	833-839	1.2.IV	_	_
+15-4	840-843	Mon	_	_
+15-5	844-845	.	_	_
+
+#Text=civili .
+16-1	846-852	civili	_	_
+16-2	853-854	.	_	_
+
+#Text=I , II , III .
+17-1	855-856	I	_	_
+17-2	857-858	,	_	_
+17-3	859-861	II	_	_
+17-4	862-863	,	_	_
+17-5	864-867	III	_	_
+17-6	868-869	.	_	_
+
+#Text=Tavole M.R .
+18-1	870-876	Tavole	_	_
+18-2	877-880	M.R	_	_
+18-3	881-882	.	_	_
+
+#Text=M.C .
+19-1	883-886	M.C	_	_
+19-2	887-888	.	_	_
+
+#Text=M.d.c .
+20-1	889-894	M.d.c	_	_
+20-2	895-896	.	_	_
+
+#Text=1-13 . 34-37.53.59-64.06-68 .
+21-1	897-901	1-13	_	_
+21-2	902-903	.	_	_
+21-3	904-924	34-37.53.59-64.06-68	_	_
+21-4	925-926	.	_	_

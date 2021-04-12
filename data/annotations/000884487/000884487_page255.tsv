@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 9. November 1837 le ihm schreiben , ich auf die Antwort passen , eben habe ich den Mann beschickt .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-28	9.	*[4]	DATEletter[4]
+1-7	29-37	November	*[4]	DATEletter[4]
+1-8	38-42	1837	*[4]	DATEletter[4]
+1-9	43-45	le	_	_
+1-10	46-49	ihm	_	_
+1-11	50-59	schreiben	_	_
+1-12	60-61	,	_	_
+1-13	62-65	ich	_	_
+1-14	66-69	auf	_	_
+1-15	70-73	die	_	_
+1-16	74-81	Antwort	_	_
+1-17	82-88	passen	_	_
+1-18	89-90	,	_	_
+1-19	91-95	eben	_	_
+1-20	96-100	habe	_	_
+1-21	101-104	ich	_	_
+1-22	105-108	den	_	_
+1-23	109-113	Mann	_	_
+1-24	114-123	beschickt	_	_
+1-25	124-125	.	_	_
+
+#Text=( Er kommt erst in 14 Tagen zurück nach B , .
+2-1	126-127	(	_	_
+2-2	128-130	Er	_	_
+2-3	131-136	kommt	_	_
+2-4	137-141	erst	_	_
+2-5	142-144	in	_	_
+2-6	145-147	14	_	_
+2-7	148-153	Tagen	_	_
+2-8	154-160	zurück	_	_
+2-9	161-165	nach	_	_
+2-10	166-167	B	_	_
+2-11	168-169	,	_	_
+2-12	170-171	.	_	_
+
+#Text=Gott behüte Sie und alle guten Freunde .
+3-1	172-176	Gott	_	_
+3-2	177-183	behüte	_	_
+3-3	184-187	Sie	_	_
+3-4	188-191	und	_	_
+3-5	192-196	alle	_	_
+3-6	197-202	guten	_	_
+3-7	203-210	Freunde	_	_
+3-8	211-212	.	_	_
+
+#Text=Grü- Ben Sie Lanci und sonst Reihe herum .
+4-1	213-217	Grü-	_	_
+4-2	218-221	Ben	_	_
+4-3	222-225	Sie	_	_
+4-4	226-231	Lanci	*	PERmentioned
+4-5	232-235	und	_	_
+4-6	236-241	sonst	_	_
+4-7	242-247	Reihe	_	_
+4-8	248-253	herum	_	_
+4-9	254-255	.	_	_
+
+#Text=Herzlichst Ihr Gerhard Groß gab als seinen Besitz von Institutswerken mir an Monum .
+5-1	256-266	Herzlichst	_	_
+5-2	267-270	Ihr	_	_
+5-3	271-278	Gerhard	*	PERauthor
+5-4	279-283	Groß	*	PERmentioned
+5-5	284-287	gab	_	_
+5-6	288-291	als	_	_
+5-7	292-298	seinen	_	_
+5-8	299-305	Besitz	_	_
+5-9	306-309	von	_	_
+5-10	310-325	Institutswerken	_	_
+5-11	326-329	mir	_	_
+5-12	330-332	an	_	_
+5-13	333-338	Monum	_	_
+5-14	339-340	.	_	_
+
+#Text=und Annali 1834 .
+6-1	341-344	und	_	_
+6-2	345-351	Annali	_	_
+6-3	352-356	1834	*	DATEmentioned
+6-4	357-358	.	_	_
+
+#Text=Bull .
+7-1	359-363	Bull	_	_
+7-2	364-365	.	_	_
+
+#Text=1834 -— 1836 , im lezten Jahrgang aber fehlend , 193 - 208 .
+8-1	366-370	1834	*	DATEmentioned
+8-2	371-373	-—	_	_
+8-3	374-378	1836	*	DATEmentioned
+8-4	379-380	,	_	_
+8-5	381-383	im	_	_
+8-6	384-390	lezten	_	_
+8-7	391-399	Jahrgang	_	_
+8-8	400-404	aber	_	_
+8-9	405-412	fehlend	_	_
+8-10	413-414	,	_	_
+8-11	415-418	193	_	_
+8-12	419-420	-	_	_
+8-13	421-424	208	_	_
+8-14	425-426	.	_	_
+
+#Text=Ich weiß nicht ob ich diese Angabe schon Ihrer Kenntniß und Berücksichtigung empfohlen habe .
+9-1	427-430	Ich	_	_
+9-2	431-435	weiß	_	_
+9-3	436-441	nicht	_	_
+9-4	442-444	ob	_	_
+9-5	445-448	ich	_	_
+9-6	449-454	diese	_	_
+9-7	455-461	Angabe	_	_
+9-8	462-467	schon	_	_
+9-9	468-473	Ihrer	_	_
+9-10	474-482	Kenntniß	_	_
+9-11	483-486	und	_	_
+9-12	487-503	Berücksichtigung	_	_
+9-13	504-513	empfohlen	_	_
+9-14	514-518	habe	_	_
+9-15	519-520	.	_	_
+
+#Text=Eine dringende Anfrage von Savigny wegen Grossi Notti Cassinesi verweise ich an Jorio \; wissen Sie andern Rath ?
+10-1	521-525	Eine	_	_
+10-2	526-535	dringende	_	_
+10-3	536-543	Anfrage	_	_
+10-4	544-547	von	_	_
+10-5	548-555	Savigny	*	PERmentioned
+10-6	556-561	wegen	_	_
+10-7	562-568	Grossi	*	PERmentioned
+10-8	569-574	Notti	*	PERmentioned
+10-9	575-584	Cassinesi	*	PERmentioned
+10-10	585-593	verweise	_	_
+10-11	594-597	ich	_	_
+10-12	598-600	an	_	_
+10-13	601-606	Jorio	*	PERmentioned
+10-14	607-608	\;	_	_
+10-15	609-615	wissen	_	_
+10-16	616-619	Sie	_	_
+10-17	620-626	andern	_	_
+10-18	627-631	Rath	_	_
+10-19	632-633	?	_	_
+
+#Text=Es handelt sich um eine Inschrift in Ma tola terra disabitata a del Livi .
+11-1	634-636	Es	_	_
+11-2	637-644	handelt	_	_
+11-3	645-649	sich	_	_
+11-4	650-652	um	_	_
+11-5	653-657	eine	_	_
+11-6	658-667	Inschrift	*	OBJ
+11-7	668-670	in	_	_
+11-8	671-673	Ma	_	_
+11-9	674-678	tola	_	_
+11-10	679-684	terra	_	_
+11-11	685-695	disabitata	_	_
+11-12	696-697	a	_	_
+11-13	698-701	del	_	_
+11-14	702-706	Livi	_	_
+11-15	707-708	.	_	_
+
+#Text=Nicht einmal den Ort finde ich auf der Karte .
+12-1	709-714	Nicht	_	_
+12-2	715-721	einmal	_	_
+12-3	722-725	den	_	_
+12-4	726-729	Ort	_	_
+12-5	730-735	finde	_	_
+12-6	736-739	ich	_	_
+12-7	740-743	auf	_	_
+12-8	744-747	der	_	_
+12-9	748-753	Karte	_	_
+12-10	754-755	.	_	_
+
+#Text=Die Liquidation für die 3 früher gesandten Kisten lautete Porto 68.25 Casse incassi 13 Imballaggio 8.85. dann Dazio 3 Licenza 6.45 und 3.22 .
+13-1	756-759	Die	_	_
+13-2	760-771	Liquidation	_	_
+13-3	772-775	für	_	_
+13-4	776-779	die	_	_
+13-5	780-781	3	_	_
+13-6	782-788	früher	_	_
+13-7	789-798	gesandten	_	_
+13-8	799-805	Kisten	_	_
+13-9	806-813	lautete	_	_
+13-10	814-819	Porto	_	_
+13-11	820-825	68.25	_	_
+13-12	826-831	Casse	_	_
+13-13	832-839	incassi	_	_
+13-14	840-842	13	_	_
+13-15	843-854	Imballaggio	_	_
+13-16	855-860	8.85.	_	_
+13-17	861-865	dann	_	_
+13-18	866-871	Dazio	_	_
+13-19	872-873	3	_	_
+13-20	874-881	Licenza	_	_
+13-21	882-886	6.45	_	_
+13-22	887-890	und	_	_
+13-23	891-895	3.22	_	_
+13-24	896-897	.	_	_
+
+#Text=Aber auf der besondren Kistenmahnung die ich Ihnen vollständig bezahlt zu haben glaube stehen 2 jener Kisten mit 706 Scudi aufgeführt .
+14-1	898-902	Aber	_	_
+14-2	903-906	auf	_	_
+14-3	907-910	der	_	_
+14-4	911-920	besondren	_	_
+14-5	921-934	Kistenmahnung	_	_
+14-6	935-938	die	_	_
+14-7	939-942	ich	_	_
+14-8	943-948	Ihnen	_	_
+14-9	949-960	vollständig	_	_
+14-10	961-968	bezahlt	_	_
+14-11	969-971	zu	_	_
+14-12	972-977	haben	_	_
+14-13	978-984	glaube	_	_
+14-14	985-991	stehen	_	_
+14-15	992-993	2	_	_
+14-16	994-999	jener	_	_
+14-17	1000-1006	Kisten	_	_
+14-18	1007-1010	mit	_	_
+14-19	1011-1014	706	_	_
+14-20	1015-1020	Scudi	_	_
+14-21	1021-1031	aufgeführt	_	_
+14-22	1032-1033	.	_	_
+
+#Text=In Betreff der 3 von Campanaris gekauften Kande-
+15-1	1034-1036	In	_	_
+15-2	1037-1044	Betreff	_	_
+15-3	1045-1048	der	_	_
+15-4	1049-1050	3	_	_
+15-5	1051-1054	von	_	_
+15-6	1055-1065	Campanaris	*	PERmentioned
+15-7	1066-1075	gekauften	_	_
+15-8	1076-1082	Kande-	_	_

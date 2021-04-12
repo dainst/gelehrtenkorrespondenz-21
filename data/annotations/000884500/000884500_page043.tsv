@@ -1,0 +1,236 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=nd Gerhard an Braun Berlin , 27. Februar 1838 Dr. Braun g . 12/3 38 Aff .
+1-1	0-2	nd	_	_
+1-2	3-10	Gerhard	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-19	Braun	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	27.	*[5]	DATEletter[5]
+1-8	33-40	Februar	*[5]	DATEletter[5]
+1-9	41-45	1838	*[5]	DATEletter[5]
+1-10	46-49	Dr.	_	_
+1-11	50-55	Braun	*	PERaddressee
+1-12	56-57	g	_	_
+1-13	58-59	.	_	_
+1-14	60-64	12/3	*[6]	DATErecieved[6]
+1-15	65-67	38	*[6]	DATErecieved[6]
+1-16	68-71	Aff	_	_
+1-17	72-73	.	_	_
+
+#Text=da .
+2-1	74-76	da	_	_
+2-2	77-78	.	_	_
+
+#Text=Dir .
+3-1	79-82	Dir	_	_
+3-2	83-84	.	_	_
+
+#Text=CI r . 13/3 38 Berlin 27 Febr 38 Mein theurer Freund .
+4-1	85-87	CI	_	_
+4-2	88-89	r	_	_
+4-3	90-91	.	_	_
+4-4	92-96	13/3	*[7]	DATEanswered[7]
+4-5	97-99	38	*[7]	DATEanswered[7]
+4-6	100-106	Berlin	*	PLACEfrom
+4-7	107-109	27	*[9]	DATEletter[9]
+4-8	110-114	Febr	*[9]	DATEletter[9]
+4-9	115-117	38	*[9]	DATEletter[9]
+4-10	118-122	Mein	_	_
+4-11	123-130	theurer	_	_
+4-12	131-137	Freund	_	_
+4-13	138-139	.	_	_
+
+#Text=Dank für Ihren Brief vom 13 Febr .
+5-1	140-144	Dank	_	_
+5-2	145-148	für	_	_
+5-3	149-154	Ihren	_	_
+5-4	155-160	Brief	_	_
+5-5	161-164	vom	_	_
+5-6	165-167	13	*[10]	DATEmentioned[10]
+5-7	168-172	Febr	*[10]	DATEmentioned[10]
+5-8	173-174	.	*[10]	DATEmentioned[10]
+
+#Text=Mit der Kistensendung nehmen Sie Sich die Zeit wie es eben nöthig ist \; es wäre allerdings sehr bitter und für Vieles hinderlich , träfe sie später als im Mai hier ein .
+6-1	175-178	Mit	_	_
+6-2	179-182	der	_	_
+6-3	183-196	Kistensendung	_	_
+6-4	197-203	nehmen	_	_
+6-5	204-207	Sie	_	_
+6-6	208-212	Sich	_	_
+6-7	213-216	die	_	_
+6-8	217-221	Zeit	_	_
+6-9	222-225	wie	_	_
+6-10	226-228	es	_	_
+6-11	229-233	eben	_	_
+6-12	234-240	nöthig	_	_
+6-13	241-244	ist	_	_
+6-14	245-246	\;	_	_
+6-15	247-249	es	_	_
+6-16	250-254	wäre	_	_
+6-17	255-265	allerdings	_	_
+6-18	266-270	sehr	_	_
+6-19	271-277	bitter	_	_
+6-20	278-281	und	_	_
+6-21	282-285	für	_	_
+6-22	286-292	Vieles	_	_
+6-23	293-303	hinderlich	_	_
+6-24	304-305	,	_	_
+6-25	306-311	träfe	_	_
+6-26	312-315	sie	_	_
+6-27	316-322	später	_	_
+6-28	323-326	als	_	_
+6-29	327-329	im	_	_
+6-30	330-333	Mai	*	DATEmentioned
+6-31	334-338	hier	_	_
+6-32	339-342	ein	_	_
+6-33	343-344	.	_	_
+
+#Text=Dellantonis Berechnung der 4 von Rom nach Livorno gesandten Kisten folgt anbei im Original \; sehen Sie was Sie mit ihm machen können .
+7-1	345-356	Dellantonis	*	PERmentioned
+7-2	357-367	Berechnung	_	_
+7-3	368-371	der	_	_
+7-4	372-373	4	_	_
+7-5	374-377	von	_	_
+7-6	378-381	Rom	*	PLACEmentioned
+7-7	382-386	nach	_	_
+7-8	387-394	Livorno	*	PLACEmentioned
+7-9	395-404	gesandten	_	_
+7-10	405-411	Kisten	_	_
+7-11	412-417	folgt	_	_
+7-12	418-423	anbei	_	_
+7-13	424-426	im	_	_
+7-14	427-435	Original	_	_
+7-15	436-437	\;	_	_
+7-16	438-443	sehen	_	_
+7-17	444-447	Sie	_	_
+7-18	448-451	was	_	_
+7-19	452-455	Sie	_	_
+7-20	456-459	mit	_	_
+7-21	460-463	ihm	_	_
+7-22	464-470	machen	_	_
+7-23	471-477	können	_	_
+7-24	478-479	.	_	_
+
+#Text=Monga hat nach dem was Sie sagen vollständig Anspruch zum M .
+8-1	480-485	Monga	*	PERmentioned
+8-2	486-489	hat	_	_
+8-3	490-494	nach	_	_
+8-4	495-498	dem	_	_
+8-5	499-502	was	_	_
+8-6	503-506	Sie	_	_
+8-7	507-512	sagen	_	_
+8-8	513-524	vollständig	_	_
+8-9	525-533	Anspruch	_	_
+8-10	534-537	zum	_	_
+8-11	538-539	M	_	_
+8-12	540-541	.	_	_
+
+#Text=onor .
+9-1	542-546	onor	_	_
+9-2	547-548	.	_	_
+
+#Text=\; dergleichen Prämissen aber dürfen nicht verschwiegen werden .
+10-1	549-550	\;	_	_
+10-2	551-562	dergleichen	_	_
+10-3	563-572	Prämissen	_	_
+10-4	573-577	aber	_	_
+10-5	578-584	dürfen	_	_
+10-6	585-590	nicht	_	_
+10-7	591-603	verschwiegen	_	_
+10-8	604-610	werden	_	_
+10-9	611-612	.	_	_
+
+#Text=Daß Sie mir 6 Scudi vor Bunsen retten ist mir angenehn \; 20 eingepakt zu haben kann ich verschmerzen .
+11-1	613-616	Daß	_	_
+11-2	617-620	Sie	_	_
+11-3	621-624	mir	_	_
+11-4	625-626	6	_	_
+11-5	627-632	Scudi	_	_
+11-6	633-636	vor	_	_
+11-7	637-643	Bunsen	*	PERmentioned
+11-8	644-650	retten	_	_
+11-9	651-654	ist	_	_
+11-10	655-658	mir	_	_
+11-11	659-667	angenehn	_	_
+11-12	668-669	\;	_	_
+11-13	670-672	20	_	_
+11-14	673-682	eingepakt	_	_
+11-15	683-685	zu	_	_
+11-16	686-691	haben	_	_
+11-17	692-696	kann	_	_
+11-18	697-700	ich	_	_
+11-19	701-713	verschmerzen	_	_
+11-20	714-715	.	_	_
+
+#Text=Bei Capranesi behalte ich die 32 Scudi gut \; will er den Giove nicht geben , so mag er einstweilen den Delphin ( 5 Scudi ) wenn er noch da ist an Sie abgeben und den Rest mir gut schreiben .
+12-1	716-719	Bei	_	_
+12-2	720-729	Capranesi	*	PERmentioned
+12-3	730-737	behalte	_	_
+12-4	738-741	ich	_	_
+12-5	742-745	die	_	_
+12-6	746-748	32	_	_
+12-7	749-754	Scudi	_	_
+12-8	755-758	gut	_	_
+12-9	759-760	\;	_	_
+12-10	761-765	will	_	_
+12-11	766-768	er	_	_
+12-12	769-772	den	_	_
+12-13	773-778	Giove	*	OBJ
+12-14	779-784	nicht	_	_
+12-15	785-790	geben	_	_
+12-16	791-792	,	_	_
+12-17	793-795	so	_	_
+12-18	796-799	mag	_	_
+12-19	800-802	er	_	_
+12-20	803-814	einstweilen	_	_
+12-21	815-818	den	_	_
+12-22	819-826	Delphin	*	OBJ
+12-23	827-828	(	_	_
+12-24	829-830	5	_	_
+12-25	831-836	Scudi	_	_
+12-26	837-838	)	_	_
+12-27	839-843	wenn	_	_
+12-28	844-846	er	_	_
+12-29	847-851	noch	_	_
+12-30	852-854	da	_	_
+12-31	855-858	ist	_	_
+12-32	859-861	an	_	_
+12-33	862-865	Sie	_	_
+12-34	866-873	abgeben	_	_
+12-35	874-877	und	_	_
+12-36	878-881	den	_	_
+12-37	882-886	Rest	_	_
+12-38	887-890	mir	_	_
+12-39	891-894	gut	_	_
+12-40	895-904	schreiben	_	_
+12-41	905-906	.	_	_
+
+#Text=Irgend ein mir passender schöner denkwürdiger Stein , oder sonstiges was mir paßt in Vasen oder Bronzen wird die Rechnung gelegentlich ausgleichen können .
+13-1	907-913	Irgend	_	_
+13-2	914-917	ein	_	_
+13-3	918-921	mir	_	_
+13-4	922-931	passender	_	_
+13-5	932-939	schöner	_	_
+13-6	940-952	denkwürdiger	_	_
+13-7	953-958	Stein	_	_
+13-8	959-960	,	_	_
+13-9	961-965	oder	_	_
+13-10	966-975	sonstiges	_	_
+13-11	976-979	was	_	_
+13-12	980-983	mir	_	_
+13-13	984-988	paßt	_	_
+13-14	989-991	in	_	_
+13-15	992-997	Vasen	*	OBJ
+13-16	998-1002	oder	_	_
+13-17	1003-1010	Bronzen	*	OBJ
+13-18	1011-1015	wird	_	_
+13-19	1016-1019	die	_	_
+13-20	1020-1028	Rechnung	_	_
+13-21	1029-1041	gelegentlich	_	_
+13-22	1042-1053	ausgleichen	_	_
+13-23	1054-1060	können	_	_
+13-24	1061-1062	.	_	_

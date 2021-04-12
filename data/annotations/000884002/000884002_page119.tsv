@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Brunn an Henzen Rom , 16. Juli 1862 - 3 .
+1-1	0-5	Brunn	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-15	Henzen	*	PERaddressee
+1-4	16-19	Rom	*	PLACEfrom
+1-5	20-21	,	_	_
+1-6	22-25	16.	*[3]	DATEletter[3]
+1-7	26-30	Juli	*[3]	DATEletter[3]
+1-8	31-35	1862	*[3]	DATEletter[3]
+1-9	36-37	-	_	_
+1-10	38-39	3	_	_
+1-11	40-41	.	_	_
+
+#Text=Pervanoglu kündigt einen dritten Artikel an .
+2-1	42-52	Pervanoglu	*	PERmentioned
+2-2	53-60	kündigt	_	_
+2-3	61-66	einen	_	_
+2-4	67-74	dritten	_	_
+2-5	75-82	Artikel	_	_
+2-6	83-85	an	_	_
+2-7	86-87	.	_	_
+
+#Text=Unter anderm Basis einer Meanderstatue von den Söhnen des Prexiteles gefunden .
+3-1	88-93	Unter	_	_
+3-2	94-100	anderm	_	_
+3-3	101-106	Basis	*[4]	OBJ[4]
+3-4	107-112	einer	*[4]	OBJ[4]
+3-5	113-126	Meanderstatue	*[4]	OBJ[4]
+3-6	127-130	von	_	_
+3-7	131-134	den	_	_
+3-8	135-141	Söhnen	_	_
+3-9	142-145	des	_	_
+3-10	146-156	Prexiteles	*	PERmentioned
+3-11	157-165	gefunden	_	_
+3-12	166-167	.	_	_
+
+#Text=Endlich auch einmal ein Brief von Jahn , dem ich mit einem Conto die Fistole auf die Brust gesetzt .
+4-1	168-175	Endlich	_	_
+4-2	176-180	auch	_	_
+4-3	181-187	einmal	_	_
+4-4	188-191	ein	_	_
+4-5	192-197	Brief	_	_
+4-6	198-201	von	_	_
+4-7	202-206	Jahn	*	PERmentioned
+4-8	207-208	,	_	_
+4-9	209-212	dem	_	_
+4-10	213-216	ich	_	_
+4-11	217-220	mit	_	_
+4-12	221-226	einem	_	_
+4-13	227-232	Conto	_	_
+4-14	233-236	die	_	_
+4-15	237-244	Fistole	_	_
+4-16	245-248	auf	_	_
+4-17	249-252	die	_	_
+4-18	253-258	Brust	_	_
+4-19	259-266	gesetzt	_	_
+4-20	267-268	.	_	_
+
+#Text=In seinem Briefe fast nur arch . Details .
+5-1	269-271	In	_	_
+5-2	272-278	seinem	_	_
+5-3	279-285	Briefe	_	_
+5-4	286-290	fast	_	_
+5-5	291-294	nur	_	_
+5-6	295-299	arch	_	_
+5-7	300-301	.	_	_
+5-8	302-309	Details	_	_
+5-9	310-311	.	_	_
+
+#Text=Sonst gehe es ihm seit dem Frühjahr ganz leidlich .
+6-1	312-317	Sonst	_	_
+6-2	318-322	gehe	_	_
+6-3	323-325	es	_	_
+6-4	326-329	ihm	_	_
+6-5	330-334	seit	_	_
+6-6	335-338	dem	_	_
+6-7	339-347	Frühjahr	*	DATEmentioned
+6-8	348-352	ganz	_	_
+6-9	353-361	leidlich	_	_
+6-10	362-363	.	_	_
+
+#Text=Ueber den Philostratus habe er noch kein Urtheil \; er müsse einmal die ganze Frage ernstlich vornehmen .
+7-1	364-369	Ueber	_	_
+7-2	370-373	den	_	_
+7-3	374-386	Philostratus	*	PERmentioned
+7-4	387-391	habe	_	_
+7-5	392-394	er	_	_
+7-6	395-399	noch	_	_
+7-7	400-404	kein	_	_
+7-8	405-412	Urtheil	_	_
+7-9	413-414	\;	_	_
+7-10	415-417	er	_	_
+7-11	418-423	müsse	_	_
+7-12	424-430	einmal	_	_
+7-13	431-434	die	_	_
+7-14	435-440	ganze	_	_
+7-15	441-446	Frage	_	_
+7-16	447-456	ernstlich	_	_
+7-17	457-466	vornehmen	_	_
+7-18	467-468	.	_	_
+
+#Text=De Rossi reist Sonntag oder Montag \; hat einen Haufen Papiere zurückgelassen .
+8-1	469-471	De	*[5]	PERmentioned[5]
+8-2	472-477	Rossi	*[5]	PERmentioned[5]
+8-3	478-483	reist	_	_
+8-4	484-491	Sonntag	*	DATEmentioned
+8-5	492-496	oder	_	_
+8-6	497-503	Montag	*	DATEmentioned
+8-7	504-505	\;	_	_
+8-8	506-509	hat	_	_
+8-9	510-515	einen	_	_
+8-10	516-522	Haufen	_	_
+8-11	523-530	Papiere	_	_
+8-12	531-545	zurückgelassen	_	_
+8-13	546-547	.	_	_
+
+#Text=Auch von Hercher ein Brief !
+9-1	548-552	Auch	_	_
+9-2	553-556	von	_	_
+9-3	557-564	Hercher	*	PERmentioned
+9-4	565-568	ein	_	_
+9-5	569-574	Brief	_	_
+9-6	575-576	!	_	_
+
+#Text=Ein früherer von seiner Bedinung nebst andere unterschlagene , um das Porto einzustecken .
+10-1	577-580	Ein	_	_
+10-2	581-589	früherer	_	_
+10-3	590-593	von	_	_
+10-4	594-600	seiner	_	_
+10-5	601-609	Bedinung	_	_
+10-6	610-615	nebst	_	_
+10-7	616-622	andere	_	_
+10-8	623-637	unterschlagene	_	_
+10-9	638-639	,	_	_
+10-10	640-642	um	_	_
+10-11	643-646	das	_	_
+10-12	647-652	Porto	_	_
+10-13	653-665	einzustecken	_	_
+10-14	666-667	.	_	_
+
+#Text=Schreibt ganz heiter .
+11-1	668-676	Schreibt	_	_
+11-2	677-681	ganz	_	_
+11-3	682-688	heiter	_	_
+11-4	689-690	.	_	_
+
+#Text=Eine starke Einlage an Kiessling wird R. mitbringen .
+12-1	691-695	Eine	_	_
+12-2	696-702	starke	_	_
+12-3	703-710	Einlage	_	_
+12-4	711-713	an	_	_
+12-5	714-723	Kiessling	*	PERmentioned
+12-6	724-728	wird	_	_
+12-7	729-731	R.	*	PERmentioned
+12-8	732-742	mitbringen	_	_
+12-9	743-744	.	_	_
+
+#Text=- Auch Brandis : er habe die gespannte politische Strömung sehr verändert gefunden \; alles nach links zu \; es seien schlimme Conflicte zu fürchten .
+13-1	745-746	-	_	_
+13-2	747-751	Auch	_	_
+13-3	752-759	Brandis	*	PERmentioned
+13-4	760-761	:	_	_
+13-5	762-764	er	_	_
+13-6	765-769	habe	_	_
+13-7	770-773	die	_	_
+13-8	774-783	gespannte	_	_
+13-9	784-794	politische	_	_
+13-10	795-803	Strömung	_	_
+13-11	804-808	sehr	_	_
+13-12	809-818	verändert	_	_
+13-13	819-827	gefunden	_	_
+13-14	828-829	\;	_	_
+13-15	830-835	alles	_	_
+13-16	836-840	nach	_	_
+13-17	841-846	links	_	_
+13-18	847-849	zu	_	_
+13-19	850-851	\;	_	_
+13-20	852-854	es	_	_
+13-21	855-860	seien	_	_
+13-22	861-869	schlimme	_	_
+13-23	870-879	Conflicte	_	_
+13-24	880-882	zu	_	_
+13-25	883-891	fürchten	_	_
+13-26	892-893	.	_	_
+
+#Text=In Camaldoli bei Frascati , ein K. preuß .
+14-1	894-896	In	_	_
+14-2	897-906	Camaldoli	*	PLACEmentioned
+14-3	907-910	bei	_	_
+14-4	911-919	Frascati	*	PLACEmentioned
+14-5	920-921	,	_	_
+14-6	922-925	ein	_	_
+14-7	926-928	K.	_	_
+14-8	929-934	preuß	_	_
+14-9	935-936	.	_	_
+
+#Text=Mosaik sefunden , d.h .
+15-1	937-943	Mosaik	*	OBJ
+15-2	944-952	sefunden	_	_
+15-3	953-954	,	_	_
+15-4	955-958	d.h	_	_
+15-5	959-960	.	_	_
+
+#Text=schwarzweiß , soll aber doch sehr schön sein .
+16-1	961-972	schwarzweiß	_	_
+16-2	973-974	,	_	_
+16-3	975-979	soll	_	_
+16-4	980-984	aber	_	_
+16-5	985-989	doch	_	_
+16-6	990-994	sehr	_	_
+16-7	995-1000	schön	_	_
+16-8	1001-1005	sein	_	_
+16-9	1006-1007	.	_	_
+
+#Text=Athlethisches .
+17-1	1008-1021	Athlethisches	_	_
+17-2	1022-1023	.	_	_
+
+#Text=.Gamfucci hat schon die Hand drin .
+18-1	1024-1033	.Gamfucci	*	PERmentioned
+18-2	1034-1037	hat	_	_
+18-3	1038-1043	schon	_	_
+18-4	1044-1047	die	_	_
+18-5	1048-1052	Hand	_	_
+18-6	1053-1057	drin	_	_
+18-7	1058-1059	.	_	_
+
+#Text=Ich fürchte , daß er auch den pränestin .
+19-1	1060-1063	Ich	_	_
+19-2	1064-1071	fürchte	_	_
+19-3	1072-1073	,	_	_
+19-4	1074-1077	daß	_	_
+19-5	1078-1080	er	_	_
+19-6	1081-1085	auch	_	_
+19-7	1086-1089	den	_	_
+19-8	1090-1099	pränestin	_	_
+19-9	1100-1101	.	_	_
+
+#Text=Calenders in in seine Hände überzuleiten trachtet : wenigstens kann ich aus allerlei unklaren Notizen folgern , daß er mit dem betreffenden Geistlichen vielen Verkehr hat .
+20-1	1102-1111	Calenders	*	PERmentioned
+20-2	1112-1114	in	_	_
+20-3	1115-1117	in	_	_
+20-4	1118-1123	seine	_	_
+20-5	1124-1129	Hände	_	_
+20-6	1130-1142	überzuleiten	_	_
+20-7	1143-1151	trachtet	_	_
+20-8	1152-1153	:	_	_
+20-9	1154-1164	wenigstens	_	_
+20-10	1165-1169	kann	_	_
+20-11	1170-1173	ich	_	_
+20-12	1174-1177	aus	_	_
+20-13	1178-1186	allerlei	_	_
+20-14	1187-1195	unklaren	_	_
+20-15	1196-1203	Notizen	_	_
+20-16	1204-1211	folgern	_	_
+20-17	1212-1213	,	_	_
+20-18	1214-1217	daß	_	_
+20-19	1218-1220	er	_	_
+20-20	1221-1224	mit	_	_
+20-21	1225-1228	dem	_	_
+20-22	1229-1241	betreffenden	_	_
+20-23	1242-1253	Geistlichen	_	_
+20-24	1254-1260	vielen	_	_
+20-25	1261-1268	Verkehr	_	_
+20-26	1269-1272	hat	_	_
+20-27	1273-1274	.	_	_
+
+#Text=Mit besten Grüßen Ihr HBrunn .
+21-1	1275-1278	Mit	_	_
+21-2	1279-1285	besten	_	_
+21-3	1286-1292	Grüßen	_	_
+21-4	1293-1296	Ihr	_	_
+21-5	1297-1303	HBrunn	*	PERauthor
+21-6	1304-1305	.	_	_
+
+#Text=Freitag .
+22-1	1306-1313	Freitag	*	DATEmentioned
+22-2	1314-1315	.	_	_

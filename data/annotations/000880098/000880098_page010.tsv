@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Dresden , 12 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Dresden	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	12	*[1]	DATEletter[1]
+1-7	30-31	.	*[1]	DATEletter[1]
+
+#Text=Januar 1833 „ .esden 12 Jan .
+2-1	32-38	Januar	*[1]	DATEletter[1]
+2-2	39-43	1833	*[1]	DATEletter[1]
+2-3	44-45	„	_	_
+2-4	46-52	.esden	*	PLACEfrom
+2-5	53-55	12	*[2]	DATEletter[2]
+2-6	56-59	Jan	*[2]	DATEletter[2]
+2-7	60-61	.	*[2]	DATEletter[2]
+
+#Text=1833 Verehrtester Freund und Gönner \| Herzlichen Dank für die übersandten Broschüren , An Böttiger habe ich bereits das dazu bestimmte Exemplar abgegeben .
+3-1	62-66	1833	*[2]	DATEletter[2]
+3-2	67-79	Verehrtester	_	_
+3-3	80-86	Freund	_	_
+3-4	87-90	und	_	_
+3-5	91-97	Gönner	_	_
+3-6	98-99	\|	_	_
+3-7	100-110	Herzlichen	_	_
+3-8	111-115	Dank	_	_
+3-9	116-119	für	_	_
+3-10	120-123	die	_	_
+3-11	124-135	übersandten	_	_
+3-12	136-146	Broschüren	_	_
+3-13	147-148	,	_	_
+3-14	149-151	An	_	_
+3-15	152-160	Böttiger	*	PERmentioned
+3-16	161-165	habe	_	_
+3-17	166-169	ich	_	_
+3-18	170-177	bereits	_	_
+3-19	178-181	das	_	_
+3-20	182-186	dazu	_	_
+3-21	187-196	bestimmte	_	_
+3-22	197-205	Exemplar	_	_
+3-23	206-215	abgegeben	_	_
+3-24	216-217	.	_	_
+
+#Text=Eines welches unbezeichnet und daher übrig war , habe ich nach den Zügen Ihrer Hand an Hofrath Ebert addressiert .
+4-1	218-223	Eines	_	_
+4-2	224-231	welches	_	_
+4-3	232-244	unbezeichnet	_	_
+4-4	245-248	und	_	_
+4-5	249-254	daher	_	_
+4-6	255-260	übrig	_	_
+4-7	261-264	war	_	_
+4-8	265-266	,	_	_
+4-9	267-271	habe	_	_
+4-10	272-275	ich	_	_
+4-11	276-280	nach	_	_
+4-12	281-284	den	_	_
+4-13	285-290	Zügen	_	_
+4-14	291-296	Ihrer	_	_
+4-15	297-301	Hand	_	_
+4-16	302-304	an	_	_
+4-17	305-312	Hofrath	*[3]	PERmentioned[3]
+4-18	313-318	Ebert	*[3]	PERmentioned[3]
+4-19	319-330	addressiert	_	_
+4-20	331-332	.	_	_
+
+#Text=Ich werde es in Böttigers Hände legen und ihn dazu vermögen , daß er bei Ebert die Anschaffung der Institutswerke bewirkt .
+5-1	333-336	Ich	_	_
+5-2	337-342	werde	_	_
+5-3	343-345	es	_	_
+5-4	346-348	in	_	_
+5-5	349-358	Böttigers	*	PERmentioned
+5-6	359-364	Hände	_	_
+5-7	365-370	legen	_	_
+5-8	371-374	und	_	_
+5-9	375-378	ihn	_	_
+5-10	379-383	dazu	_	_
+5-11	384-392	vermögen	_	_
+5-12	393-394	,	_	_
+5-13	395-398	daß	_	_
+5-14	399-401	er	_	_
+5-15	402-405	bei	_	_
+5-16	406-411	Ebert	*	PERmentioned
+5-17	412-415	die	_	_
+5-18	416-427	Anschaffung	_	_
+5-19	428-431	der	_	_
+5-20	432-446	Institutswerke	_	_
+5-21	447-454	bewirkt	_	_
+5-22	455-456	.	_	_
+
+#Text=Sie müssen also meine Hand dereinst für die Ihrige gelten lassen , - Ich gedenke von Ihrer Broschüre einen freundlichen Gebrauch zu machen , wenn ich eine Anzeige davon mit den nöthigen Accenten und Distinetionen an Eichstädt in Jena sende zur Aufnahme in seine Literaturzeitung .
+6-1	457-460	Sie	_	_
+6-2	461-467	müssen	_	_
+6-3	468-472	also	_	_
+6-4	473-478	meine	_	_
+6-5	479-483	Hand	_	_
+6-6	484-492	dereinst	_	_
+6-7	493-496	für	_	_
+6-8	497-500	die	_	_
+6-9	501-507	Ihrige	_	_
+6-10	508-514	gelten	_	_
+6-11	515-521	lassen	_	_
+6-12	522-523	,	_	_
+6-13	524-525	-	_	_
+6-14	526-529	Ich	_	_
+6-15	530-537	gedenke	_	_
+6-16	538-541	von	_	_
+6-17	542-547	Ihrer	_	_
+6-18	548-557	Broschüre	_	_
+6-19	558-563	einen	_	_
+6-20	564-576	freundlichen	_	_
+6-21	577-585	Gebrauch	_	_
+6-22	586-588	zu	_	_
+6-23	589-595	machen	_	_
+6-24	596-597	,	_	_
+6-25	598-602	wenn	_	_
+6-26	603-606	ich	_	_
+6-27	607-611	eine	_	_
+6-28	612-619	Anzeige	_	_
+6-29	620-625	davon	_	_
+6-30	626-629	mit	_	_
+6-31	630-633	den	_	_
+6-32	634-642	nöthigen	_	_
+6-33	643-651	Accenten	_	_
+6-34	652-655	und	_	_
+6-35	656-669	Distinetionen	_	_
+6-36	670-672	an	_	_
+6-37	673-682	Eichstädt	*	PERmentioned
+6-38	683-685	in	_	_
+6-39	686-690	Jena	*	PLACEmentioned
+6-40	691-696	sende	_	_
+6-41	697-700	zur	_	_
+6-42	701-709	Aufnahme	_	_
+6-43	710-712	in	_	_
+6-44	713-718	seine	_	_
+6-45	719-735	Literaturzeitung	*	LIT
+6-46	736-737	.	_	_
+
+#Text=Für Ihre liebe Einladung an den Archäolog .
+7-1	738-741	Für	_	_
+7-2	742-746	Ihre	_	_
+7-3	747-752	liebe	_	_
+7-4	753-762	Einladung	_	_
+7-5	763-765	an	_	_
+7-6	766-769	den	_	_
+7-7	770-779	Archäolog	*[4]	LIT[4]
+7-8	780-781	.	*[4]	LIT[4]
+
+#Text=Intelligenzblatt der Hall .
+8-1	782-798	Intelligenzblatt	*[4]	LIT[4]
+8-2	799-802	der	_	_
+8-3	803-807	Hall	*[5]	LIT[5]
+8-4	808-809	.	*[5]	LIT[5]
+
+#Text=Litz .
+9-1	810-814	Litz	*[5]	LIT[5]
+9-2	815-816	.	*[5]	LIT[5]
+
+#Text=danke ich herzlichst .
+10-1	817-822	danke	_	_
+10-2	823-826	ich	_	_
+10-3	827-837	herzlichst	_	_
+10-4	838-839	.	_	_
+
+#Text=Wollen Sie vielleicht Ihre Wohlthaten auf mein Haupt häufen , so machen Sie mir doch gelegentlich die Gegenstände bemerklich , über die dem Ort und der Zeit gemäß ausführlichere und dabei , versteht sich , kurzgefaßte Aufsätze auszuarbeiten rathsam sein könnte .
+11-1	840-846	Wollen	_	_
+11-2	847-850	Sie	_	_
+11-3	851-861	vielleicht	_	_
+11-4	862-866	Ihre	_	_
+11-5	867-877	Wohlthaten	_	_
+11-6	878-881	auf	_	_
+11-7	882-886	mein	_	_
+11-8	887-892	Haupt	_	_
+11-9	893-899	häufen	_	_
+11-10	900-901	,	_	_
+11-11	902-904	so	_	_
+11-12	905-911	machen	_	_
+11-13	912-915	Sie	_	_
+11-14	916-919	mir	_	_
+11-15	920-924	doch	_	_
+11-16	925-937	gelegentlich	_	_
+11-17	938-941	die	_	_
+11-18	942-953	Gegenstände	_	_
+11-19	954-964	bemerklich	_	_
+11-20	965-966	,	_	_
+11-21	967-971	über	_	_
+11-22	972-975	die	_	_
+11-23	976-979	dem	_	_
+11-24	980-983	Ort	_	_
+11-25	984-987	und	_	_
+11-26	988-991	der	_	_
+11-27	992-996	Zeit	_	_
+11-28	997-1002	gemäß	_	_
+11-29	1003-1017	ausführlichere	_	_
+11-30	1018-1021	und	_	_
+11-31	1022-1027	dabei	_	_
+11-32	1028-1029	,	_	_
+11-33	1030-1038	versteht	_	_
+11-34	1039-1043	sich	_	_
+11-35	1044-1045	,	_	_
+11-36	1046-1057	kurzgefaßte	_	_
+11-37	1058-1066	Aufsätze	_	_
+11-38	1067-1080	auszuarbeiten	_	_
+11-39	1081-1088	rathsam	_	_
+11-40	1089-1093	sein	_	_
+11-41	1094-1100	könnte	_	_
+11-42	1101-1102	.	_	_
+
+#Text=Bedenken Sie immer , daß Sie den Gipfel der archäologischen Wissenschaft inne haben und von diesem aus das weite Gebiet beherrschen , während ich kaum mit meinen eigenen Bedürfnissen , geschweige denn denen der Wissenschaft vertraut oder auch nur bekannt bin .
+12-1	1103-1111	Bedenken	_	_
+12-2	1112-1115	Sie	_	_
+12-3	1116-1121	immer	_	_
+12-4	1122-1123	,	_	_
+12-5	1124-1127	daß	_	_
+12-6	1128-1131	Sie	_	_
+12-7	1132-1135	den	_	_
+12-8	1136-1142	Gipfel	_	_
+12-9	1143-1146	der	_	_
+12-10	1147-1162	archäologischen	_	_
+12-11	1163-1175	Wissenschaft	_	_
+12-12	1176-1180	inne	_	_
+12-13	1181-1186	haben	_	_
+12-14	1187-1190	und	_	_
+12-15	1191-1194	von	_	_
+12-16	1195-1201	diesem	_	_
+12-17	1202-1205	aus	_	_
+12-18	1206-1209	das	_	_
+12-19	1210-1215	weite	_	_
+12-20	1216-1222	Gebiet	_	_
+12-21	1223-1234	beherrschen	_	_
+12-22	1235-1236	,	_	_
+12-23	1237-1244	während	_	_
+12-24	1245-1248	ich	_	_
+12-25	1249-1253	kaum	_	_
+12-26	1254-1257	mit	_	_
+12-27	1258-1264	meinen	_	_
+12-28	1265-1272	eigenen	_	_
+12-29	1273-1285	Bedürfnissen	_	_
+12-30	1286-1287	,	_	_
+12-31	1288-1298	geschweige	_	_
+12-32	1299-1303	denn	_	_
+12-33	1304-1309	denen	_	_
+12-34	1310-1313	der	_	_
+12-35	1314-1326	Wissenschaft	_	_
+12-36	1327-1335	vertraut	_	_
+12-37	1336-1340	oder	_	_
+12-38	1341-1345	auch	_	_
+12-39	1346-1349	nur	_	_
+12-40	1350-1357	bekannt	_	_
+12-41	1358-1361	bin	_	_
+12-42	1362-1363	.	_	_

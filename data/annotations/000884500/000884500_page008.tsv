@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 5 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-27	5	*[4]	DATEletter[4]
+1-7	28-29	.	*[4]	DATEletter[4]
+
+#Text=Januar 1838 bitten - „ ich schrieb an Zahn dem ich aber nur die Notiz über die im französischen Stich als restaurirt publicirte Figur zumuthen möchte .
+2-1	30-36	Januar	*[4]	DATEletter[4]
+2-2	37-41	1838	*[4]	DATEletter[4]
+2-3	42-48	bitten	_	_
+2-4	49-50	-	_	_
+2-5	51-52	„	_	_
+2-6	53-56	ich	_	_
+2-7	57-64	schrieb	_	_
+2-8	65-67	an	_	_
+2-9	68-72	Zahn	*	PERmentioned
+2-10	73-76	dem	_	_
+2-11	77-80	ich	_	_
+2-12	81-85	aber	_	_
+2-13	86-89	nur	_	_
+2-14	90-93	die	_	_
+2-15	94-99	Notiz	_	_
+2-16	100-104	über	_	_
+2-17	105-108	die	_	_
+2-18	109-111	im	_	_
+2-19	112-125	französischen	_	_
+2-20	126-131	Stich	_	_
+2-21	132-135	als	_	_
+2-22	136-146	restaurirt	_	_
+2-23	147-157	publicirte	_	_
+2-24	158-163	Figur	_	_
+2-25	164-172	zumuthen	_	_
+2-26	173-179	möchte	_	_
+2-27	180-181	.	_	_
+
+#Text=Der Stich hat allerlei Varianten , die zum Theil durch die Verkleinerung entstanden sein mögen , aber auch meiner Zeichnung traue ich nicht ganz .
+3-1	182-185	Der	_	_
+3-2	186-191	Stich	_	_
+3-3	192-195	hat	_	_
+3-4	196-204	allerlei	_	_
+3-5	205-214	Varianten	_	_
+3-6	215-216	,	_	_
+3-7	217-220	die	_	_
+3-8	221-224	zum	_	_
+3-9	225-230	Theil	_	_
+3-10	231-236	durch	_	_
+3-11	237-240	die	_	_
+3-12	241-254	Verkleinerung	_	_
+3-13	255-265	entstanden	_	_
+3-14	266-270	sein	_	_
+3-15	271-276	mögen	_	_
+3-16	277-278	,	_	_
+3-17	279-283	aber	_	_
+3-18	284-288	auch	_	_
+3-19	289-295	meiner	_	_
+3-20	296-305	Zeichnung	_	_
+3-21	306-311	traue	_	_
+3-22	312-315	ich	_	_
+3-23	316-321	nicht	_	_
+3-24	322-326	ganz	_	_
+3-25	327-328	.	_	_
+
+#Text=Sao variiren , beidemal für beide Wagen unterschieden , die Wagenräder des Omonnos und Nichts fürs Inst .
+4-1	329-332	Sao	_	_
+4-2	333-341	variiren	_	_
+4-3	342-343	,	_	_
+4-4	344-352	beidemal	_	_
+4-5	353-356	für	_	_
+4-6	357-362	beide	_	_
+4-7	363-368	Wagen	_	_
+4-8	369-382	unterschieden	_	_
+4-9	383-384	,	_	_
+4-10	385-388	die	_	_
+4-11	389-399	Wagenräder	_	_
+4-12	400-403	des	_	_
+4-13	404-411	Omonnos	_	_
+4-14	412-415	und	_	_
+4-15	416-422	Nichts	_	_
+4-16	423-427	fürs	_	_
+4-17	428-432	Inst	_	_
+4-18	433-434	.	_	_
+
+#Text=Bl . ?
+5-1	435-437	Bl	_	_
+5-2	438-439	.	_	_
+5-3	440-441	?	_	_
+
+#Text=Ich werde Lepsius gelegentlich an den mir verheißnen Aufsatz erinnern , auch erwarte ich von Abekino Notizen über die Vatikansvasen \; einstweilen bitte ich beide und besonders Lepsius , für ihre Briefe herzlich zu danken .
+6-1	442-445	Ich	_	_
+6-2	446-451	werde	_	_
+6-3	452-459	Lepsius	*	PERmentioned
+6-4	460-472	gelegentlich	_	_
+6-5	473-475	an	_	_
+6-6	476-479	den	_	_
+6-7	480-483	mir	_	_
+6-8	484-494	verheißnen	_	_
+6-9	495-502	Aufsatz	_	_
+6-10	503-511	erinnern	_	_
+6-11	512-513	,	_	_
+6-12	514-518	auch	_	_
+6-13	519-526	erwarte	_	_
+6-14	527-530	ich	_	_
+6-15	531-534	von	_	_
+6-16	535-542	Abekino	*	PERmentioned
+6-17	543-550	Notizen	_	_
+6-18	551-555	über	_	_
+6-19	556-559	die	_	_
+6-20	560-573	Vatikansvasen	*	OBJ
+6-21	574-575	\;	_	_
+6-22	576-587	einstweilen	_	_
+6-23	588-593	bitte	_	_
+6-24	594-597	ich	_	_
+6-25	598-603	beide	_	_
+6-26	604-607	und	_	_
+6-27	608-617	besonders	_	_
+6-28	618-625	Lepsius	*	PERmentioned
+6-29	626-627	,	_	_
+6-30	628-631	für	_	_
+6-31	632-636	ihre	_	_
+6-32	637-643	Briefe	_	_
+6-33	644-652	herzlich	_	_
+6-34	653-655	zu	_	_
+6-35	656-662	danken	_	_
+6-36	663-664	.	_	_
+
+#Text=Ihr Gerhard Viel @ rüße auch an Meier , der nicht meinen soll ich habe ihn vergessen , wenn ich ihm auch in dieser gar dunklen Zeit ohne besondern Anlaß nicht schreibe .
+7-1	665-668	Ihr	_	_
+7-2	669-676	Gerhard	*	PERauthor
+7-3	677-681	Viel	_	_
+7-4	682-683	@	_	_
+7-5	684-688	rüße	_	_
+7-6	689-693	auch	_	_
+7-7	694-696	an	_	_
+7-8	697-702	Meier	*	PERmentioned
+7-9	703-704	,	_	_
+7-10	705-708	der	_	_
+7-11	709-714	nicht	_	_
+7-12	715-721	meinen	_	_
+7-13	722-726	soll	_	_
+7-14	727-730	ich	_	_
+7-15	731-735	habe	_	_
+7-16	736-739	ihn	_	_
+7-17	740-749	vergessen	_	_
+7-18	750-751	,	_	_
+7-19	752-756	wenn	_	_
+7-20	757-760	ich	_	_
+7-21	761-764	ihm	_	_
+7-22	765-769	auch	_	_
+7-23	770-772	in	_	_
+7-24	773-779	dieser	_	_
+7-25	780-783	gar	_	_
+7-26	784-791	dunklen	_	_
+7-27	792-796	Zeit	_	_
+7-28	797-801	ohne	_	_
+7-29	802-811	besondern	_	_
+7-30	812-817	Anlaß	_	_
+7-31	818-823	nicht	_	_
+7-32	824-832	schreibe	_	_
+7-33	833-834	.	_	_
+
+#Text=Seht Euch ja mit Brockhaus vor \; daß ein hinkender Bote sich zu den 10 geselle ist unvermeidlich .
+8-1	835-839	Seht	_	_
+8-2	840-844	Euch	_	_
+8-3	845-847	ja	_	_
+8-4	848-851	mit	_	_
+8-5	852-861	Brockhaus	*	ORGmentioned
+8-6	862-865	vor	_	_
+8-7	866-867	\;	_	_
+8-8	868-871	daß	_	_
+8-9	872-875	ein	_	_
+8-10	876-885	hinkender	_	_
+8-11	886-890	Bote	_	_
+8-12	891-895	sich	_	_
+8-13	896-898	zu	_	_
+8-14	899-902	den	_	_
+8-15	903-905	10	_	_
+8-16	906-913	geselle	_	_
+8-17	914-917	ist	_	_
+8-18	918-931	unvermeidlich	_	_
+8-19	932-933	.	_	_
+
+#Text=Es braucht soviel schon für allerlei bis jezt der Kommission zur Last gefallenes Porto .
+9-1	934-936	Es	_	_
+9-2	937-944	braucht	_	_
+9-3	945-951	soviel	_	_
+9-4	952-957	schon	_	_
+9-5	958-961	für	_	_
+9-6	962-970	allerlei	_	_
+9-7	971-974	bis	_	_
+9-8	975-979	jezt	_	_
+9-9	980-983	der	_	_
+9-10	984-994	Kommission	_	_
+9-11	995-998	zur	_	_
+9-12	999-1003	Last	_	_
+9-13	1004-1014	gefallenes	_	_
+9-14	1015-1020	Porto	_	_
+9-15	1021-1022	.	_	_
+
+#Text=Da so viel überlegt werden muß , wird es wol auch sich als unpraktisch erweisen
+10-1	1023-1025	Da	_	_
+10-2	1026-1028	so	_	_
+10-3	1029-1033	viel	_	_
+10-4	1034-1042	überlegt	_	_
+10-5	1043-1049	werden	_	_
+10-6	1050-1053	muß	_	_
+10-7	1054-1055	,	_	_
+10-8	1056-1060	wird	_	_
+10-9	1061-1063	es	_	_
+10-10	1064-1067	wol	_	_
+10-11	1068-1072	auch	_	_
+10-12	1073-1077	sich	_	_
+10-13	1078-1081	als	_	_
+10-14	1082-1093	unpraktisch	_	_
+10-15	1094-1102	erweisen	_	_

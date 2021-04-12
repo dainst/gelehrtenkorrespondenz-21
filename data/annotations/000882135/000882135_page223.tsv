@@ -1,0 +1,46 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=137 Braun an Gerhard Rom , 21. April 1840 Sie sich auf starke Ausfälle gefaßt .
+1-1	0-3	137	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-30	21.	*[4]	DATEletter[4]
+1-8	31-36	April	*[4]	DATEletter[4]
+1-9	37-41	1840	*[4]	DATEletter[4]
+1-10	42-45	Sie	_	_
+1-11	46-50	sich	_	_
+1-12	51-54	auf	_	_
+1-13	55-61	starke	_	_
+1-14	62-70	Ausfälle	_	_
+1-15	71-77	gefaßt	_	_
+1-16	78-79	.	_	_
+
+#Text=Vermiglioli sucht Associati für sein Grabmal der Volumnier das er herauszugeben beabsichtigt .
+2-1	80-91	Vermiglioli	*	PERmentioned
+2-2	92-97	sucht	_	_
+2-3	98-107	Associati	_	_
+2-4	108-111	für	_	_
+2-5	112-116	sein	_	_
+2-6	117-124	Grabmal	*[6]	OBJ[6]
+2-7	125-128	der	*[6]	OBJ[6]
+2-8	129-138	Volumnier	*[6]	OBJ[6]
+2-9	139-142	das	_	_
+2-10	143-145	er	_	_
+2-11	146-159	herauszugeben	_	_
+2-12	160-172	beabsichtigt	_	_
+2-13	173-174	.	_	_
+
+#Text=Ihr EBraun .
+3-1	175-178	Ihr	_	_
+3-2	179-185	EBraun	*	PERauthor
+3-3	186-187	.	_	_
+
+#Text=21/4 40 .
+4-1	188-192	21/4	*[8]	DATEletter[8]
+4-2	193-195	40	*[8]	DATEletter[8]
+4-3	196-197	.	_	_

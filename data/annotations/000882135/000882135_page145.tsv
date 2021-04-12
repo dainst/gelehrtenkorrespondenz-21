@@ -1,0 +1,193 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=45 Braun an Gerhard Rom , 23. März 1839 was ich vor Jahren über die Behandlung der Kunstgeschäfte geäußert .
+1-1	0-2	45	_	_
+1-2	3-8	Braun	*	PERauthor
+1-3	9-11	an	_	_
+1-4	12-19	Gerhard	*	PERaddressee
+1-5	20-23	Rom	*	PLACEfrom
+1-6	24-25	,	_	_
+1-7	26-29	23.	*[4]	DATEletter[4]
+1-8	30-34	März	*[4]	DATEletter[4]
+1-9	35-39	1839	*[4]	DATEletter[4]
+1-10	40-43	was	_	_
+1-11	44-47	ich	_	_
+1-12	48-51	vor	_	_
+1-13	52-58	Jahren	_	_
+1-14	59-63	über	_	_
+1-15	64-67	die	_	_
+1-16	68-78	Behandlung	_	_
+1-17	79-82	der	_	_
+1-18	83-97	Kunstgeschäfte	_	_
+1-19	98-106	geäußert	_	_
+1-20	107-108	.	_	_
+
+#Text=In meinen damals gehaltenen Vorlesungen habe ich bereits einige Distinctionen , wie Sie sie jetzt vorschlagen , angestellt .
+2-1	109-111	In	_	_
+2-2	112-118	meinen	_	_
+2-3	119-125	damals	_	_
+2-4	126-136	gehaltenen	_	_
+2-5	137-148	Vorlesungen	_	_
+2-6	149-153	habe	_	_
+2-7	154-157	ich	_	_
+2-8	158-165	bereits	_	_
+2-9	166-172	einige	_	_
+2-10	173-186	Distinctionen	_	_
+2-11	187-188	,	_	_
+2-12	189-192	wie	_	_
+2-13	193-196	Sie	_	_
+2-14	197-200	sie	_	_
+2-15	201-206	jetzt	_	_
+2-16	207-218	vorschlagen	_	_
+2-17	219-220	,	_	_
+2-18	221-231	angestellt	_	_
+2-19	232-233	.	_	_
+
+#Text=Welcker 's zu gütiger Brief ist mir zugekommen und soll beantwortet werden , sobald ich einen Augenblick Muße habe .
+3-1	234-241	Welcker	*[5]	PERmentioned[5]
+3-2	242-244	's	*[5]	PERmentioned[5]
+3-3	245-247	zu	_	_
+3-4	248-255	gütiger	_	_
+3-5	256-261	Brief	_	_
+3-6	262-265	ist	_	_
+3-7	266-269	mir	_	_
+3-8	270-280	zugekommen	_	_
+3-9	281-284	und	_	_
+3-10	285-289	soll	_	_
+3-11	290-301	beantwortet	_	_
+3-12	302-308	werden	_	_
+3-13	309-310	,	_	_
+3-14	311-317	sobald	_	_
+3-15	318-321	ich	_	_
+3-16	322-327	einen	_	_
+3-17	328-338	Augenblick	_	_
+3-18	339-343	Muße	_	_
+3-19	344-348	habe	_	_
+3-20	349-350	.	_	_
+
+#Text=Von der Masse meiner Beschäftigungen hat aber Niemand eine Idee , Jahn 's Artikel ist allerdings wenig ergiebig \; das hat er selbst gefühlt .
+4-1	351-354	Von	_	_
+4-2	355-358	der	_	_
+4-3	359-364	Masse	_	_
+4-4	365-371	meiner	_	_
+4-5	372-387	Beschäftigungen	_	_
+4-6	388-391	hat	_	_
+4-7	392-396	aber	_	_
+4-8	397-404	Niemand	_	_
+4-9	405-409	eine	_	_
+4-10	410-414	Idee	_	_
+4-11	415-416	,	_	_
+4-12	417-421	Jahn	*[6]	PERmentioned[6]
+4-13	422-424	's	*[6]	PERmentioned[6]
+4-14	425-432	Artikel	_	_
+4-15	433-436	ist	_	_
+4-16	437-447	allerdings	_	_
+4-17	448-453	wenig	_	_
+4-18	454-462	ergiebig	_	_
+4-19	463-464	\;	_	_
+4-20	465-468	das	_	_
+4-21	469-472	hat	_	_
+4-22	473-475	er	_	_
+4-23	476-482	selbst	_	_
+4-24	483-490	gefühlt	_	_
+4-25	491-492	.	_	_
+
+#Text=Dafür sollen Sie jetzt von ihm einen besseren erhalten über die letzten Vulcenter Ausgrabungen .
+5-1	493-498	Dafür	_	_
+5-2	499-505	sollen	_	_
+5-3	506-509	Sie	_	_
+5-4	510-515	jetzt	_	_
+5-5	516-519	von	_	_
+5-6	520-523	ihm	_	_
+5-7	524-529	einen	_	_
+5-8	530-538	besseren	_	_
+5-9	539-547	erhalten	_	_
+5-10	548-552	über	_	_
+5-11	553-556	die	_	_
+5-12	557-564	letzten	_	_
+5-13	565-574	Vulcenter	*	PLACEmentioned
+5-14	575-587	Ausgrabungen	_	_
+5-15	588-589	.	_	_
+
+#Text=Schicken Sie mir möglichst bald Müllers Artikel über die Triptolemosschaale , die ich bereits zum Stich befördert \; ich werde den deutschen Aufsatz rasch ins Italienische übersetzen .
+6-1	590-598	Schicken	_	_
+6-2	599-602	Sie	_	_
+6-3	603-606	mir	_	_
+6-4	607-616	möglichst	_	_
+6-5	617-621	bald	_	_
+6-6	622-629	Müllers	*	PERmentioned
+6-7	630-637	Artikel	_	_
+6-8	638-642	über	_	_
+6-9	643-646	die	_	_
+6-10	647-665	Triptolemosschaale	*	OBJ
+6-11	666-667	,	_	_
+6-12	668-671	die	_	_
+6-13	672-675	ich	_	_
+6-14	676-683	bereits	_	_
+6-15	684-687	zum	_	_
+6-16	688-693	Stich	_	_
+6-17	694-703	befördert	_	_
+6-18	704-705	\;	_	_
+6-19	706-709	ich	_	_
+6-20	710-715	werde	_	_
+6-21	716-719	den	_	_
+6-22	720-729	deutschen	_	_
+6-23	730-737	Aufsatz	_	_
+6-24	738-743	rasch	_	_
+6-25	744-747	ins	_	_
+6-26	748-760	Italienische	_	_
+6-27	761-771	übersetzen	_	_
+6-28	772-773	.	_	_
+
+#Text=Jahn ist über die ihm zugewandte Gußt hochbeglückt und wird Ihnen vielleicht gleichzeitig mit diesem Brief schreiben .
+7-1	774-778	Jahn	*	PERmentioned
+7-2	779-782	ist	_	_
+7-3	783-787	über	_	_
+7-4	788-791	die	_	_
+7-5	792-795	ihm	_	_
+7-6	796-806	zugewandte	_	_
+7-7	807-811	Gußt	_	_
+7-8	812-824	hochbeglückt	_	_
+7-9	825-828	und	_	_
+7-10	829-833	wird	_	_
+7-11	834-839	Ihnen	_	_
+7-12	840-850	vielleicht	_	_
+7-13	851-863	gleichzeitig	_	_
+7-14	864-867	mit	_	_
+7-15	868-874	diesem	_	_
+7-16	875-880	Brief	_	_
+7-17	881-890	schreiben	_	_
+7-18	891-892	.	_	_
+
+#Text=Ich meiner Seits danke Ihnen für das rege Interesse was Sie an der Sache genommen .
+8-1	893-896	Ich	_	_
+8-2	897-903	meiner	_	_
+8-3	904-909	Seits	_	_
+8-4	910-915	danke	_	_
+8-5	916-921	Ihnen	_	_
+8-6	922-925	für	_	_
+8-7	926-929	das	_	_
+8-8	930-934	rege	_	_
+8-9	935-944	Interesse	_	_
+8-10	945-948	was	_	_
+8-11	949-952	Sie	_	_
+8-12	953-955	an	_	_
+8-13	956-959	der	_	_
+8-14	960-965	Sache	_	_
+8-15	966-974	genommen	_	_
+8-16	975-976	.	_	_
+
+#Text=- So viel für heute .
+9-1	977-978	-	_	_
+9-2	979-981	So	_	_
+9-3	982-986	viel	_	_
+9-4	987-990	für	_	_
+9-5	991-996	heute	_	_
+9-6	997-998	.	_	_
+
+#Text=Unterdessen Ihr EBraun
+10-1	999-1010	Unterdessen	_	_
+10-2	1011-1014	Ihr	_	_
+10-3	1015-1021	EBraun	*	PERauthor

@@ -1,0 +1,235 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 18. Dezember 1837 Dr. Braun gs .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	18.	*[5]	DATEletter[5]
+1-7	30-38	Dezember	*[5]	DATEletter[5]
+1-8	39-43	1837	*[5]	DATEletter[5]
+1-9	44-47	Dr.	_	_
+1-10	48-53	Braun	*	PERaddressee
+1-11	54-56	gs	_	_
+1-12	57-58	.	_	_
+
+#Text=1/1 38 Aff .
+2-1	59-62	1/1	*[6]	DATErecieved[6]
+2-2	63-65	38	*[6]	DATErecieved[6]
+2-3	66-69	Aff	_	_
+2-4	70-71	.	_	_
+
+#Text=d. Direz.C I r . 1/1 38 Berlin 18 Dec 37 Gleichzeitig mein theurer Freund erhielt ich eben Ihre beiden Briefe aus dem schönen Narni und aus Rom .
+3-1	72-74	d.	_	_
+3-2	75-82	Direz.C	_	_
+3-3	83-84	I	_	_
+3-4	85-86	r	_	_
+3-5	87-88	.	_	_
+3-6	89-92	1/1	*[7]	DATEanswered[7]
+3-7	93-95	38	*[7]	DATEanswered[7]
+3-8	96-102	Berlin	*	PLACEfrom
+3-9	103-105	18	*[9]	DATEletter[9]
+3-10	106-109	Dec	*[9]	DATEletter[9]
+3-11	110-112	37	*[9]	DATEletter[9]
+3-12	113-125	Gleichzeitig	_	_
+3-13	126-130	mein	_	_
+3-14	131-138	theurer	_	_
+3-15	139-145	Freund	_	_
+3-16	146-153	erhielt	_	_
+3-17	154-157	ich	_	_
+3-18	158-162	eben	_	_
+3-19	163-167	Ihre	_	_
+3-20	168-174	beiden	_	_
+3-21	175-181	Briefe	_	_
+3-22	182-185	aus	_	_
+3-23	186-189	dem	_	_
+3-24	190-197	schönen	_	_
+3-25	198-203	Narni	*	PLACEmentioned
+3-26	204-207	und	_	_
+3-27	208-211	aus	_	_
+3-28	212-215	Rom	*	PLACEmentioned
+3-29	216-217	.	_	_
+
+#Text=Gott sei Dank daß Sie glücklich heimgekehrt sind !
+4-1	218-222	Gott	_	_
+4-2	223-226	sei	_	_
+4-3	227-231	Dank	_	_
+4-4	232-235	daß	_	_
+4-5	236-239	Sie	_	_
+4-6	240-249	glücklich	_	_
+4-7	250-261	heimgekehrt	_	_
+4-8	262-266	sind	_	_
+4-9	267-268	!	_	_
+
+#Text=Meine Antwort kommt Ihnen eben zum Neujahr zurecht , Gott segne Sie für alle mir erwiesene Liebe des alten und stärke uns für alle verkündeten Zwecke des neuen Jahres \| !
+5-1	269-274	Meine	_	_
+5-2	275-282	Antwort	_	_
+5-3	283-288	kommt	_	_
+5-4	289-294	Ihnen	_	_
+5-5	295-299	eben	_	_
+5-6	300-303	zum	_	_
+5-7	304-311	Neujahr	_	_
+5-8	312-319	zurecht	_	_
+5-9	320-321	,	_	_
+5-10	322-326	Gott	_	_
+5-11	327-332	segne	_	_
+5-12	333-336	Sie	_	_
+5-13	337-340	für	_	_
+5-14	341-345	alle	_	_
+5-15	346-349	mir	_	_
+5-16	350-359	erwiesene	_	_
+5-17	360-365	Liebe	_	_
+5-18	366-369	des	_	_
+5-19	370-375	alten	_	_
+5-20	376-379	und	_	_
+5-21	380-386	stärke	_	_
+5-22	387-390	uns	_	_
+5-23	391-394	für	_	_
+5-24	395-399	alle	_	_
+5-25	400-411	verkündeten	_	_
+5-26	412-418	Zwecke	_	_
+5-27	419-422	des	_	_
+5-28	423-428	neuen	_	_
+5-29	429-435	Jahres	_	_
+5-30	436-437	\|	_	_
+5-31	438-439	!	_	_
+
+#Text=Was Sie mir von Borghesi , epigraphische Studien und Verbindungen , alle sonstigen Mühen und Früchte Ihrer Reise sagen und andeuten , freut mich unendlich \; Alles meinem Sinne und Wunsche entsprechend und alles in dem Sinne , in dem ich unsere archäologischen Desiderien von Ihnen aufgenommen und fortgeführt hoffe .
+6-1	440-443	Was	_	_
+6-2	444-447	Sie	_	_
+6-3	448-451	mir	_	_
+6-4	452-455	von	_	_
+6-5	456-464	Borghesi	*	PERmentioned
+6-6	465-466	,	_	_
+6-7	467-480	epigraphische	_	_
+6-8	481-488	Studien	_	_
+6-9	489-492	und	_	_
+6-10	493-505	Verbindungen	_	_
+6-11	506-507	,	_	_
+6-12	508-512	alle	_	_
+6-13	513-522	sonstigen	_	_
+6-14	523-528	Mühen	_	_
+6-15	529-532	und	_	_
+6-16	533-540	Früchte	_	_
+6-17	541-546	Ihrer	_	_
+6-18	547-552	Reise	_	_
+6-19	553-558	sagen	_	_
+6-20	559-562	und	_	_
+6-21	563-571	andeuten	_	_
+6-22	572-573	,	_	_
+6-23	574-579	freut	_	_
+6-24	580-584	mich	_	_
+6-25	585-594	unendlich	_	_
+6-26	595-596	\;	_	_
+6-27	597-602	Alles	_	_
+6-28	603-609	meinem	_	_
+6-29	610-615	Sinne	_	_
+6-30	616-619	und	_	_
+6-31	620-627	Wunsche	_	_
+6-32	628-640	entsprechend	_	_
+6-33	641-644	und	_	_
+6-34	645-650	alles	_	_
+6-35	651-653	in	_	_
+6-36	654-657	dem	_	_
+6-37	658-663	Sinne	_	_
+6-38	664-665	,	_	_
+6-39	666-668	in	_	_
+6-40	669-672	dem	_	_
+6-41	673-676	ich	_	_
+6-42	677-683	unsere	_	_
+6-43	684-699	archäologischen	_	_
+6-44	700-710	Desiderien	_	_
+6-45	711-714	von	_	_
+6-46	715-720	Ihnen	_	_
+6-47	721-732	aufgenommen	_	_
+6-48	733-736	und	_	_
+6-49	737-748	fortgeführt	_	_
+6-50	749-754	hoffe	_	_
+6-51	755-756	.	_	_
+
+#Text=Von Müllers H erklärung weiß ich nichts \; wo steht sie ?
+7-1	757-760	Von	_	_
+7-2	761-768	Müllers	*	PERmentioned
+7-3	769-770	H	_	_
+7-4	771-780	erklärung	_	_
+7-5	781-785	weiß	_	_
+7-6	786-789	ich	_	_
+7-7	790-796	nichts	_	_
+7-8	797-798	\;	_	_
+7-9	799-801	wo	_	_
+7-10	802-807	steht	_	_
+7-11	808-811	sie	_	_
+7-12	812-813	?	_	_
+
+#Text=Meiner früheren Gedilsendung hatte ich unerinnert eine neue nachgesandt \; Ihre Geldebbe konnte ich mir denken .
+8-1	814-820	Meiner	_	_
+8-2	821-829	früheren	_	_
+8-3	830-842	Gedilsendung	_	_
+8-4	843-848	hatte	_	_
+8-5	849-852	ich	_	_
+8-6	853-863	unerinnert	_	_
+8-7	864-868	eine	_	_
+8-8	869-873	neue	_	_
+8-9	874-885	nachgesandt	_	_
+8-10	886-887	\;	_	_
+8-11	888-892	Ihre	_	_
+8-12	893-901	Geldebbe	_	_
+8-13	902-908	konnte	_	_
+8-14	909-912	ich	_	_
+8-15	913-916	mir	_	_
+8-16	917-923	denken	_	_
+8-17	924-925	.	_	_
+
+#Text=Alles aber ist zusammengekommen mich : selbst abzubeuteln ohne neuen Sukkurs \; zu Neujahr werde ich das Möglichste thun .
+9-1	926-931	Alles	_	_
+9-2	932-936	aber	_	_
+9-3	937-940	ist	_	_
+9-4	941-957	zusammengekommen	_	_
+9-5	958-962	mich	_	_
+9-6	963-964	:	_	_
+9-7	965-971	selbst	_	_
+9-8	972-983	abzubeuteln	_	_
+9-9	984-988	ohne	_	_
+9-10	989-994	neuen	_	_
+9-11	995-1002	Sukkurs	_	_
+9-12	1003-1004	\;	_	_
+9-13	1005-1007	zu	_	_
+9-14	1008-1015	Neujahr	_	_
+9-15	1016-1021	werde	_	_
+9-16	1022-1025	ich	_	_
+9-17	1026-1029	das	_	_
+9-18	1030-1040	Möglichste	_	_
+9-19	1041-1045	thun	_	_
+9-20	1046-1047	.	_	_
+
+#Text=Wie wollen Sie von Manes und Gerstäcker Geld hoffen , so lange der Jahrgang 1836 nicht vollständig hier ist ?
+10-1	1048-1051	Wie	_	_
+10-2	1052-1058	wollen	_	_
+10-3	1059-1062	Sie	_	_
+10-4	1063-1066	von	_	_
+10-5	1067-1072	Manes	_	_
+10-6	1073-1076	und	_	_
+10-7	1077-1087	Gerstäcker	*	PERmentioned
+10-8	1088-1092	Geld	_	_
+10-9	1093-1099	hoffen	_	_
+10-10	1100-1101	,	_	_
+10-11	1102-1104	so	_	_
+10-12	1105-1110	lange	_	_
+10-13	1111-1114	der	_	_
+10-14	1115-1123	Jahrgang	_	_
+10-15	1124-1128	1836	*	DATEmentioned
+10-16	1129-1134	nicht	_	_
+10-17	1135-1146	vollständig	_	_
+10-18	1147-1151	hier	_	_
+10-19	1152-1155	ist	_	_
+10-20	1156-1157	?	_	_
+
+#Text=Dagegen werden beide fortwährend laut
+11-1	1158-1165	Dagegen	_	_
+11-2	1166-1172	werden	_	_
+11-3	1173-1178	beide	_	_
+11-4	1179-1190	fortwährend	_	_
+11-5	1191-1195	laut	_	_

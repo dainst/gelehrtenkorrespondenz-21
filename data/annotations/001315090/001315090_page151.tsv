@@ -1,0 +1,63 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=164 Lepsius an Henzen Berlin , 5. April 1874 sein .
+1-1	0-3	164	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	5.	*[3]	DATEletter[3]
+1-8	34-39	April	*[3]	DATEletter[3]
+1-9	40-44	1874	*[3]	DATEletter[3]
+1-10	45-49	sein	_	_
+1-11	50-51	.	_	_
+
+#Text=Meine Ernennung zum Oberbibliothekar ist nun erfolgt , ohne meine anderen Stellungen zu verändern .
+2-1	52-57	Meine	_	_
+2-2	58-67	Ernennung	_	_
+2-3	68-71	zum	_	_
+2-4	72-88	Oberbibliothekar	_	_
+2-5	89-92	ist	_	_
+2-6	93-96	nun	_	_
+2-7	97-104	erfolgt	_	_
+2-8	105-106	,	_	_
+2-9	107-111	ohne	_	_
+2-10	112-117	meine	_	_
+2-11	118-125	anderen	_	_
+2-12	126-136	Stellungen	_	_
+2-13	137-139	zu	_	_
+2-14	140-149	verändern	_	_
+2-15	150-151	.	_	_
+
+#Text=Ich hoffe Sie werden ein gesundes und fröhliches Osterfest mit Frühlings Anzug gefeiert haben .
+3-1	152-155	Ich	_	_
+3-2	156-161	hoffe	_	_
+3-3	162-165	Sie	_	_
+3-4	166-172	werden	_	_
+3-5	173-176	ein	_	_
+3-6	177-185	gesundes	_	_
+3-7	186-189	und	_	_
+3-8	190-200	fröhliches	_	_
+3-9	201-210	Osterfest	_	_
+3-10	211-214	mit	_	_
+3-11	215-224	Frühlings	_	_
+3-12	225-230	Anzug	_	_
+3-13	231-239	gefeiert	_	_
+3-14	240-245	haben	_	_
+3-15	246-247	.	_	_
+
+#Text=Grüßen Sie Helbig 's .
+4-1	248-254	Grüßen	_	_
+4-2	255-258	Sie	_	_
+4-3	259-265	Helbig	*[5]	PERmentioned[5]
+4-4	266-268	's	*[5]	PERmentioned[5]
+4-5	269-270	.	_	_
+
+#Text=Herzlich Ihr R Lepsius
+5-1	271-279	Herzlich	_	_
+5-2	280-283	Ihr	_	_
+5-3	284-285	R	*[4]	PERauthor[4]
+5-4	286-293	Lepsius	*[4]	PERauthor[4]

@@ -1,0 +1,74 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=678 Lepsius an Henzen Berlin , 27. Dezember 1874 Fall ist recht traurig .
+1-1	0-3	678	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-28	Berlin	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-34	27.	*[3]	DATEletter[3]
+1-8	35-43	Dezember	*[3]	DATEletter[3]
+1-9	44-48	1874	*[3]	DATEletter[3]
+1-10	49-53	Fall	_	_
+1-11	54-57	ist	_	_
+1-12	58-63	recht	_	_
+1-13	64-71	traurig	_	_
+1-14	72-73	.	_	_
+
+#Text=- Auch daß Momnsen sein jüngst getauftes Kind , zu seinem großen Schmerze , binnen 24 Stunden schon wieder verloren hat , wissen Sie wohl .
+2-1	74-75	-	_	_
+2-2	76-80	Auch	_	_
+2-3	81-84	daß	_	_
+2-4	85-92	Momnsen	*	PERmentioned
+2-5	93-97	sein	_	_
+2-6	98-104	jüngst	_	_
+2-7	105-114	getauftes	_	_
+2-8	115-119	Kind	_	_
+2-9	120-121	,	_	_
+2-10	122-124	zu	_	_
+2-11	125-131	seinem	_	_
+2-12	132-138	großen	_	_
+2-13	139-147	Schmerze	_	_
+2-14	148-149	,	_	_
+2-15	150-156	binnen	_	_
+2-16	157-159	24	_	_
+2-17	160-167	Stunden	_	_
+2-18	168-173	schon	_	_
+2-19	174-180	wieder	_	_
+2-20	181-189	verloren	_	_
+2-21	190-193	hat	_	_
+2-22	194-195	,	_	_
+2-23	196-202	wissen	_	_
+2-24	203-206	Sie	_	_
+2-25	207-211	wohl	_	_
+2-26	212-213	.	_	_
+
+#Text=- Die letzten 30 r habe ich also erhalten .
+3-1	214-215	-	_	_
+3-2	216-219	Die	_	_
+3-3	220-227	letzten	_	_
+3-4	228-230	30	_	_
+3-5	231-232	r	_	_
+3-6	233-237	habe	_	_
+3-7	238-241	ich	_	_
+3-8	242-246	also	_	_
+3-9	247-255	erhalten	_	_
+3-10	256-257	.	_	_
+
+#Text=- Ein glückliches neues Jahr wünscht Ihnen von Herzen Ihr ergebenster R Lepsius
+4-1	258-259	-	_	_
+4-2	260-263	Ein	_	_
+4-3	264-275	glückliches	_	_
+4-4	276-281	neues	_	_
+4-5	282-286	Jahr	_	_
+4-6	287-294	wünscht	_	_
+4-7	295-300	Ihnen	_	_
+4-8	301-304	von	_	_
+4-9	305-311	Herzen	_	_
+4-10	312-315	Ihr	_	_
+4-11	316-327	ergebenster	_	_
+4-12	328-329	R	*[4]	PERauthor[4]
+4-13	330-337	Lepsius	*[4]	PERauthor[4]

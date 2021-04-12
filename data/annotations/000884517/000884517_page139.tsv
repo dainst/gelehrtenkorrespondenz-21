@@ -1,0 +1,177 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=155 Gerhard an Braun Berlin , 30. April 1845 von dort wenig Ausbeute .
+1-1	0-3	155	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	30.	*[1]	DATEletter[1]
+1-8	34-39	April	*[1]	DATEletter[1]
+1-9	40-44	1845	*[1]	DATEletter[1]
+1-10	45-48	von	_	_
+1-11	49-53	dort	_	_
+1-12	54-59	wenig	_	_
+1-13	60-68	Ausbeute	_	_
+1-14	69-70	.	_	_
+
+#Text=Im Juli denkt er wieder hier zu sein \; die tromba egittologa vom nächsten August an .
+2-1	71-73	Im	_	_
+2-2	74-78	Juli	*	DATEmentioned
+2-3	79-84	denkt	_	_
+2-4	85-87	er	_	_
+2-5	88-94	wieder	_	_
+2-6	95-99	hier	_	_
+2-7	100-102	zu	_	_
+2-8	103-107	sein	_	_
+2-9	108-109	\;	_	_
+2-10	110-113	die	_	_
+2-11	114-120	tromba	_	_
+2-12	121-131	egittologa	_	_
+2-13	132-135	vom	_	_
+2-14	136-144	nächsten	_	_
+2-15	145-151	August	*	DATEmentioned
+2-16	152-154	an	_	_
+2-17	155-156	.	_	_
+
+#Text=Ein Bibliothekar-Beischluß für Dr. Brunn ist mir von Horkel empfohlen \; ich habe ihn soeben unter Ihrer Adresse dem Ministerium empfohlen .
+3-1	157-160	Ein	_	_
+3-2	161-183	Bibliothekar-Beischluß	_	_
+3-3	184-187	für	_	_
+3-4	188-191	Dr.	*[2]	PERmentioned[2]
+3-5	192-197	Brunn	*[2]	PERmentioned[2]
+3-6	198-201	ist	_	_
+3-7	202-205	mir	_	_
+3-8	206-209	von	_	_
+3-9	210-216	Horkel	*	PERmentioned
+3-10	217-226	empfohlen	_	_
+3-11	227-228	\;	_	_
+3-12	229-232	ich	_	_
+3-13	233-237	habe	_	_
+3-14	238-241	ihn	_	_
+3-15	242-248	soeben	_	_
+3-16	249-254	unter	_	_
+3-17	255-260	Ihrer	_	_
+3-18	261-268	Adresse	_	_
+3-19	269-272	dem	_	_
+3-20	273-284	Ministerium	*	ORGmentioned
+3-21	285-294	empfohlen	_	_
+3-22	295-296	.	_	_
+
+#Text=Für Einsicht der Midaszeichnung dankt Pahofka \; hat er Ihren Brief nicht direkt beantwortet , so ergänze ich seinen Dank .
+4-1	297-300	Für	_	_
+4-2	301-309	Einsicht	_	_
+4-3	310-313	der	_	_
+4-4	314-328	Midaszeichnung	_	_
+4-5	329-334	dankt	_	_
+4-6	335-342	Pahofka	*	PERmentioned
+4-7	343-344	\;	_	_
+4-8	345-348	hat	_	_
+4-9	349-351	er	_	_
+4-10	352-357	Ihren	_	_
+4-11	358-363	Brief	_	_
+4-12	364-369	nicht	_	_
+4-13	370-376	direkt	_	_
+4-14	377-388	beantwortet	_	_
+4-15	389-390	,	_	_
+4-16	391-393	so	_	_
+4-17	394-401	ergänze	_	_
+4-18	402-405	ich	_	_
+4-19	406-412	seinen	_	_
+4-20	413-417	Dank	_	_
+4-21	418-419	.	_	_
+
+#Text=Zu einer Erklärung für die Annali ist er weniger geneigt \; da er bereits über den Gegenstand schrieb , so gibt es wol nur einen Nachtrag für die Archäologische Zeitung .
+5-1	420-422	Zu	_	_
+5-2	423-428	einer	_	_
+5-3	429-438	Erklärung	_	_
+5-4	439-442	für	_	_
+5-5	443-446	die	_	_
+5-6	447-453	Annali	_	_
+5-7	454-457	ist	_	_
+5-8	458-460	er	_	_
+5-9	461-468	weniger	_	_
+5-10	469-476	geneigt	_	_
+5-11	477-478	\;	_	_
+5-12	479-481	da	_	_
+5-13	482-484	er	_	_
+5-14	485-492	bereits	_	_
+5-15	493-497	über	_	_
+5-16	498-501	den	_	_
+5-17	502-512	Gegenstand	_	_
+5-18	513-520	schrieb	_	_
+5-19	521-522	,	_	_
+5-20	523-525	so	_	_
+5-21	526-530	gibt	_	_
+5-22	531-533	es	_	_
+5-23	534-537	wol	_	_
+5-24	538-541	nur	_	_
+5-25	542-547	einen	_	_
+5-26	548-556	Nachtrag	_	_
+5-27	557-560	für	_	_
+5-28	561-564	die	_	_
+5-29	565-579	Archäologische	_	_
+5-30	580-587	Zeitung	_	_
+5-31	588-589	.	_	_
+
+#Text=Welcker läßt seit vorigem Winter fast gar nichts von sich hören .
+6-1	590-597	Welcker	*	PERmentioned
+6-2	598-602	läßt	_	_
+6-3	603-607	seit	_	_
+6-4	608-615	vorigem	_	_
+6-5	616-622	Winter	_	_
+6-6	623-627	fast	_	_
+6-7	628-631	gar	_	_
+6-8	632-638	nichts	_	_
+6-9	639-642	von	_	_
+6-10	643-647	sich	_	_
+6-11	648-653	hören	_	_
+6-12	654-655	.	_	_
+
+#Text=Wie geht es mit dem Spital ?
+7-1	656-659	Wie	_	_
+7-2	660-664	geht	_	_
+7-3	665-667	es	_	_
+7-4	668-671	mit	_	_
+7-5	672-675	dem	_	_
+7-6	676-682	Spital	_	_
+7-7	683-684	?	_	_
+
+#Text=Schreiben Sie doch einmal Etwas darüber .
+8-1	685-694	Schreiben	_	_
+8-2	695-698	Sie	_	_
+8-3	699-703	doch	_	_
+8-4	704-710	einmal	_	_
+8-5	711-716	Etwas	_	_
+8-6	717-724	darüber	_	_
+8-7	725-726	.	_	_
+
+#Text=Das Gerücht 1äßt Henzen , den Sie bestens grüßen mögen katholisch geworden sein .
+9-1	727-730	Das	_	_
+9-2	731-738	Gerücht	_	_
+9-3	739-743	1äßt	_	_
+9-4	744-750	Henzen	*	PERmentioned
+9-5	751-752	,	_	_
+9-6	753-756	den	_	_
+9-7	757-760	Sie	_	_
+9-8	761-768	bestens	_	_
+9-9	769-775	grüßen	_	_
+9-10	776-781	mögen	_	_
+9-11	782-792	katholisch	_	_
+9-12	793-801	geworden	_	_
+9-13	802-806	sein	_	_
+9-14	807-808	.	_	_
+
+#Text=Ist das wahr ?
+10-1	809-812	Ist	_	_
+10-2	813-816	das	_	_
+10-3	817-821	wahr	_	_
+10-4	822-823	?	_	_
+
+#Text=Herzlich Ihr Gerhard
+11-1	824-832	Herzlich	_	_
+11-2	833-836	Ihr	_	_
+11-3	837-844	Gerhard	*	PERauthor

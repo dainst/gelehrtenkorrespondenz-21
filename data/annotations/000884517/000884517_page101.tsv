@@ -1,0 +1,206 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=29 Gerhard an Braun Berlin , 20 .
+1-1	0-2	29	_	_	
+1-2	3-10	Gerhard	*	PERauthor	
+1-3	11-13	an	_	_	
+1-4	14-19	Braun	*	PERaddressee	
+1-5	20-26	Berlin	*	PLACEfrom	
+1-6	27-28	,	_	_	
+1-7	29-31	20	*[1]	DATEletter[1]	
+1-8	32-33	.	*[1]	DATEletter[1]	
+
+#Text=Januar 1845 A. d . Dir .
+2-1	34-40	Januar	*[1]	DATEletter[1]	
+2-2	41-45	1845	*[1]	DATEletter[1]	
+2-3	46-48	A.	_	_	
+2-4	49-50	d	_	_	
+2-5	51-52	.	_	_	
+2-6	53-56	Dir	_	_	
+2-7	57-58	.	_	_	
+
+#Text=g. A/II 45 r. WII 35 Berlin 20 Jan 45 Lieber Freund .
+3-1	59-61	g.	_	_	
+3-2	62-66	A/II	*[2]	DATErecieved[2]	
+3-3	67-69	45	*[2]	DATErecieved[2]	
+3-4	70-72	r.	_	_	
+3-5	73-76	WII	*[3]	DATEanswered[3]	
+3-6	77-79	35	*[3]	DATEanswered[3]	
+3-7	80-86	Berlin	*	PLACEfrom	
+3-8	87-89	20	*[4]	DATEletter[4]	
+3-9	90-93	Jan	*[4]	DATEletter[4]	
+3-10	94-96	45	*[4]	DATEletter[4]	
+3-11	97-103	Lieber	_	_	
+3-12	104-110	Freund	_	_	
+3-13	111-112	.	_	_	
+
+#Text=Meine Theilnahme an der Ihnen zugefallenen Ordensehre , ich glaube durch Schulze veranlaßt , kann ich Ihnen nicht unbezeugt lassen , ohne daß ich dazu glückwünschen mag .
+4-1	113-118	Meine	_	_	
+4-2	119-129	Theilnahme	_	_	
+4-3	130-132	an	_	_	
+4-4	133-136	der	_	_	
+4-5	137-142	Ihnen	_	_	
+4-6	143-155	zugefallenen	_	_	
+4-7	156-166	Ordensehre	_	_	
+4-8	167-168	,	_	_	
+4-9	169-172	ich	_	_	
+4-10	173-179	glaube	_	_	
+4-11	180-185	durch	_	_	
+4-12	186-193	Schulze	*	PERmentioned	
+4-13	194-203	veranlaßt	_	_	
+4-14	204-205	,	_	_	
+4-15	206-210	kann	_	_	
+4-16	211-214	ich	_	_	
+4-17	215-220	Ihnen	_	_	
+4-18	221-226	nicht	_	_	
+4-19	227-236	unbezeugt	_	_	
+4-20	237-243	lassen	_	_	
+4-21	244-245	,	_	_	
+4-22	246-250	ohne	_	_	
+4-23	251-254	daß	_	_	
+4-24	255-258	ich	_	_	
+4-25	259-263	dazu	_	_	
+4-26	264-277	glückwünschen	_	_	
+4-27	278-281	mag	_	_	
+4-28	282-283	.	_	_	
+
+#Text=Hiesigen Personen bezeichne ich es vielmehr als ein Übelstand daß neben italienischen Gelehrten Ihnen durch die Beurtheilung qua preußischer Beamter eine geringe Klasse zufiel die Ihnen bei andrer nicht ferner Gelegenheit gesteigert werden könne .
+5-1	284-292	Hiesigen	_	_	
+5-2	293-301	Personen	_	_	
+5-3	302-311	bezeichne	_	_	
+5-4	312-315	ich	_	_	
+5-5	316-318	es	_	_	
+5-6	319-327	vielmehr	_	_	
+5-7	328-331	als	_	_	
+5-8	332-335	ein	_	_	
+5-9	336-345	Übelstand	_	_	
+5-10	346-349	daß	_	_	
+5-11	350-355	neben	_	_	
+5-12	356-369	italienischen	_	_	
+5-13	370-379	Gelehrten	_	_	
+5-14	380-385	Ihnen	_	_	
+5-15	386-391	durch	_	_	
+5-16	392-395	die	_	_	
+5-17	396-408	Beurtheilung	_	_	
+5-18	409-412	qua	_	_	
+5-19	413-424	preußischer	_	_	
+5-20	425-432	Beamter	_	_	
+5-21	433-437	eine	_	_	
+5-22	438-445	geringe	_	_	
+5-23	446-452	Klasse	_	_	
+5-24	453-459	zufiel	_	_	
+5-25	460-463	die	_	_	
+5-26	464-469	Ihnen	_	_	
+5-27	470-473	bei	_	_	
+5-28	474-480	andrer	_	_	
+5-29	481-486	nicht	_	_	
+5-30	487-493	ferner	_	_	
+5-31	494-505	Gelegenheit	_	_	
+5-32	506-516	gesteigert	_	_	
+5-33	517-523	werden	_	_	
+5-34	524-529	könne	_	_	
+5-35	530-531	.	_	_	
+
+#Text=Nächst diesem Adiaphonis danke ich es Ihrem Scharfsinn neben Helena : an Ariadne gedacht zu haben .
+6-1	532-538	Nächst	_	_	
+6-2	539-545	diesem	_	_	
+6-3	546-556	Adiaphonis	_	_	
+6-4	557-562	danke	_	_	
+6-5	563-566	ich	_	_	
+6-6	567-569	es	_	_	
+6-7	570-575	Ihrem	_	_	
+6-8	576-586	Scharfsinn	_	_	
+6-9	587-592	neben	_	_	
+6-10	593-599	Helena	*	PERmentioned	
+6-11	600-601	:	_	_	
+6-12	602-604	an	_	_	
+6-13	605-612	Ariadne	*	PERmentioned	
+6-14	613-620	gedacht	_	_	
+6-15	621-623	zu	_	_	
+6-16	624-629	haben	_	_	
+6-17	630-631	.	_	_	
+
+#Text=An die bekannte Stelle Hygin Astronomica denke ich selten mehr , seit Inghirani sie einem so durchgedroschen und verleidet hat .
+7-1	632-634	An	_	_	
+7-2	635-638	die	_	_	
+7-3	639-647	bekannte	_	_	
+7-4	648-654	Stelle	_	_	
+7-5	655-660	Hygin	_	_	
+7-6	661-672	Astronomica	_	_	
+7-7	673-678	denke	_	_	
+7-8	679-682	ich	_	_	
+7-9	683-689	selten	_	_	
+7-10	690-694	mehr	_	_	
+7-11	695-696	,	_	_	
+7-12	697-701	seit	_	_	
+7-13	702-711	Inghirani	*	PERmentioned	
+7-14	712-715	sie	_	_	
+7-15	716-721	einem	_	_	
+7-16	722-724	so	_	_	
+7-17	725-740	durchgedroschen	_	_	
+7-18	741-744	und	_	_	
+7-19	745-754	verleidet	_	_	
+7-20	755-758	hat	_	_	
+7-21	759-760	.	_	_	
+
+#Text=Eine andre Frau als Helena hätte auch ich sehr gern in der Malafisch , - auf Ariadne aber wage ich nicht einzugehn , da in dem Mythos stets ein Kranz nämlich von Blumen gemeint und überdies im Innern der 6 Bilder nicht die entfernteste bacchische Andeutung vorhanden ist .
+8-1	761-765	Eine	_	_	
+8-2	766-771	andre	_	_	
+8-3	772-776	Frau	_	_	
+8-4	777-780	als	_	_	
+8-5	781-787	Helena	*	PERmentioned	
+8-6	788-793	hätte	_	_	
+8-7	794-798	auch	_	_	
+8-8	799-802	ich	_	_	
+8-9	803-807	sehr	_	_	
+8-10	808-812	gern	_	_	
+8-11	813-815	in	_	_	
+8-12	816-819	der	_	_	
+8-13	820-829	Malafisch	*	PERmentioned	
+8-14	830-831	,	_	_	
+8-15	832-833	-	_	_	
+8-16	834-837	auf	_	_	
+8-17	838-845	Ariadne	*	PERmentioned	
+8-18	846-850	aber	_	_	
+8-19	851-855	wage	_	_	
+8-20	856-859	ich	_	_	
+8-21	860-865	nicht	_	_	
+8-22	866-875	einzugehn	_	_	
+8-23	876-877	,	_	_	
+8-24	878-880	da	_	_	
+8-25	881-883	in	_	_	
+8-26	884-887	dem	_	_	
+8-27	888-894	Mythos	_	_	
+8-28	895-900	stets	_	_	
+8-29	901-904	ein	_	_	
+8-30	905-910	Kranz	_	_	
+8-31	911-918	nämlich	_	_	
+8-32	919-922	von	_	_	
+8-33	923-929	Blumen	_	_	
+8-34	930-937	gemeint	_	_	
+8-35	938-941	und	_	_	
+8-36	942-950	überdies	_	_	
+8-37	951-953	im	_	_	
+8-38	954-960	Innern	_	_	
+8-39	961-964	der	_	_	
+8-40	965-966	6	_	_	
+8-41	967-973	Bilder	_	_	
+8-42	974-979	nicht	_	_	
+8-43	980-983	die	_	_	
+8-44	984-996	entfernteste	_	_	
+8-45	997-1007	bacchische	_	_	
+8-46	1008-1017	Andeutung	_	_	
+8-47	1018-1027	vorhanden	_	_	
+8-48	1028-1031	ist	_	_	
+8-49	1032-1033	.	_	_	
+
+#Text=Krause wird an die groß-griechischen Münzen neu
+9-1	1034-1040	Krause	*	PERmentioned	
+9-2	1041-1045	wird	_	_	
+9-3	1046-1048	an	_	_	
+9-4	1049-1052	die	_	_	
+9-5	1053-1070	groß-griechischen	*	MISC	
+9-6	1071-1077	Münzen	*	OBJ	
+9-7	1078-1081	neu	_	_	

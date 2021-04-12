@@ -1,0 +1,36 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=391 Helbig an Henzen Dresden , 5. November 1866 Am Rande Sollten Sie Aufträge für Florenz haben , so bitte ich Sie an mich nach Florenz preußische Gesandtschaft zu schreiben .
+1-1	0-3	391	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-28	Dresden	*	PLACEfrom
+1-6	29-30	,	_	_
+1-7	31-33	5.	*[1]	DATEletter[1]
+1-8	34-42	November	*[1]	DATEletter[1]
+1-9	43-47	1866	*[1]	DATEletter[1]
+1-10	48-50	Am	_	_
+1-11	51-56	Rande	_	_
+1-12	57-64	Sollten	_	_
+1-13	65-68	Sie	_	_
+1-14	69-77	Aufträge	_	_
+1-15	78-81	für	_	_
+1-16	82-89	Florenz	*	PLACEmentioned
+1-17	90-95	haben	_	_
+1-18	96-97	,	_	_
+1-19	98-100	so	_	_
+1-20	101-106	bitte	_	_
+1-21	107-110	ich	_	_
+1-22	111-114	Sie	_	_
+1-23	115-117	an	_	_
+1-24	118-122	mich	_	_
+1-25	123-127	nach	_	_
+1-26	128-135	Florenz	*	PLACEmentioned
+1-27	136-146	preußische	*[2]	ORGmentioned[2]
+1-28	147-160	Gesandtschaft	*[2]	ORGmentioned[2]
+1-29	161-163	zu	_	_
+1-30	164-173	schreiben	_	_
+1-31	174-175	.	_	_

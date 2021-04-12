@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=325 Helbig an Henzen Ohne Datum - Poststempel Siena , 7 .
+1-1	0-3	325	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-25	Ohne	_	_
+1-6	26-31	Datum	_	_
+1-7	32-33	-	_	_
+1-8	34-45	Poststempel	_	_
+1-9	46-51	Siena	*	PLACEfrom
+1-10	52-53	,	_	_
+1-11	54-55	7	_	_
+1-12	56-57	.	*[3]	DATEpoststamp[3]
+
+#Text=August 1874 Ale gs .
+2-1	58-64	August	*[3]	DATEpoststamp[3]
+2-2	65-69	1874	*[3]	DATEpoststamp[3]
+2-3	70-73	Ale	_	_
+2-4	74-76	gs	_	_
+2-5	77-78	.	_	_
+
+#Text=8/7 74 r . 91/7 74 Postkarte - ohne Datum Lieber Herr Professor , Da mein Mann seine Atropin Kur macht , so beantworte ich Ihre Karte .
+3-1	79-82	8/7	*[4]	DATErecieved[4]
+3-2	83-85	74	*[4]	DATErecieved[4]
+3-3	86-87	r	_	_
+3-4	88-89	.	_	_
+3-5	90-94	91/7	*[5]	DATEanswered[5]
+3-6	95-97	74	*[5]	DATEanswered[5]
+3-7	98-107	Postkarte	_	_
+3-8	108-109	-	_	_
+3-9	110-114	ohne	_	_
+3-10	115-120	Datum	_	_
+3-11	121-127	Lieber	_	_
+3-12	128-132	Herr	_	_
+3-13	133-142	Professor	_	_
+3-14	143-144	,	_	_
+3-15	145-147	Da	_	_
+3-16	148-152	mein	_	_
+3-17	153-157	Mann	_	_
+3-18	158-163	seine	_	_
+3-19	164-171	Atropin	_	_
+3-20	172-175	Kur	_	_
+3-21	176-181	macht	_	_
+3-22	182-183	,	_	_
+3-23	184-186	so	_	_
+3-24	187-197	beantworte	_	_
+3-25	198-201	ich	_	_
+3-26	202-206	Ihre	_	_
+3-27	207-212	Karte	_	_
+3-28	213-214	.	_	_
+
+#Text=Allerdings hat Conze darum gebeten sowohl Stamponi , wie Original zugeschickt zu erhalten .
+4-1	215-225	Allerdings	_	_
+4-2	226-229	hat	_	_
+4-3	230-235	Conze	*	PERmentioned
+4-4	236-241	darum	_	_
+4-5	242-249	gebeten	_	_
+4-6	250-256	sowohl	_	_
+4-7	257-265	Stamponi	_	_
+4-8	266-267	,	_	_
+4-9	268-271	wie	_	_
+4-10	272-280	Original	_	_
+4-11	281-292	zugeschickt	_	_
+4-12	293-295	zu	_	_
+4-13	296-304	erhalten	_	_
+4-14	305-306	.	_	_
+
+#Text=Wolf dankt für Ihren Brief und fragt an , da ja der laufende Institutsfond bis Ende des Jahres verausgabt werden soll , ob es nicht räthlich ist , die bereits für die sardinische Reise bewilligten 800 Frs .
+5-1	307-311	Wolf	*	PERmentioned
+5-2	312-317	dankt	_	_
+5-3	318-321	für	_	_
+5-4	322-327	Ihren	_	_
+5-5	328-333	Brief	_	_
+5-6	334-337	und	_	_
+5-7	338-343	fragt	_	_
+5-8	344-346	an	_	_
+5-9	347-348	,	_	_
+5-10	349-351	da	_	_
+5-11	352-354	ja	_	_
+5-12	355-358	der	_	_
+5-13	359-367	laufende	_	_
+5-14	368-381	Institutsfond	_	_
+5-15	382-385	bis	_	_
+5-16	386-390	Ende	_	_
+5-17	391-394	des	_	_
+5-18	395-401	Jahres	_	_
+5-19	402-412	verausgabt	_	_
+5-20	413-419	werden	_	_
+5-21	420-424	soll	_	_
+5-22	425-426	,	_	_
+5-23	427-429	ob	_	_
+5-24	430-432	es	_	_
+5-25	433-438	nicht	_	_
+5-26	439-447	räthlich	_	_
+5-27	448-451	ist	_	_
+5-28	452-453	,	_	_
+5-29	454-457	die	_	_
+5-30	458-465	bereits	_	_
+5-31	466-469	für	_	_
+5-32	470-473	die	_	_
+5-33	474-485	sardinische	*	MISC
+5-34	486-491	Reise	_	_
+5-35	492-503	bewilligten	_	_
+5-36	504-507	800	_	_
+5-37	508-511	Frs	_	_
+5-38	512-513	.	_	_
+
+#Text=auf dies Jahr zu übertragen ?
+6-1	514-517	auf	_	_
+6-2	518-522	dies	_	_
+6-3	523-527	Jahr	_	_
+6-4	528-530	zu	_	_
+6-5	531-541	übertragen	_	_
+6-6	542-543	?	_	_
+
+#Text=Viele Reisen wird er wegen seiner Augen zunächst nicht machen können , doch denkt er nach wie vor an Volterra und Chiusi .
+7-1	544-549	Viele	_	_
+7-2	550-556	Reisen	_	_
+7-3	557-561	wird	_	_
+7-4	562-564	er	_	_
+7-5	565-570	wegen	_	_
+7-6	571-577	seiner	_	_
+7-7	578-583	Augen	_	_
+7-8	584-592	zunächst	_	_
+7-9	593-598	nicht	_	_
+7-10	599-605	machen	_	_
+7-11	606-612	können	_	_
+7-12	613-614	,	_	_
+7-13	615-619	doch	_	_
+7-14	620-625	denkt	_	_
+7-15	626-628	er	_	_
+7-16	629-633	nach	_	_
+7-17	634-637	wie	_	_
+7-18	638-641	vor	_	_
+7-19	642-644	an	_	_
+7-20	645-653	Volterra	*	PLACEmentioned
+7-21	654-657	und	_	_
+7-22	658-664	Chiusi	*	PLACEmentioned
+7-23	665-666	.	_	_
+
+#Text=Hier ist es wahrhaft himmlisch , unsere Villa ist unendlich schöner , als ich mir je erlaubt hätte zu denken , und Sie müssen mit Rosina herkommen .
+8-1	667-671	Hier	_	_
+8-2	672-675	ist	_	_
+8-3	676-678	es	_	_
+8-4	679-687	wahrhaft	_	_
+8-5	688-697	himmlisch	_	_
+8-6	698-699	,	_	_
+8-7	700-706	unsere	_	_
+8-8	707-712	Villa	_	_
+8-9	713-716	ist	_	_
+8-10	717-726	unendlich	_	_
+8-11	727-734	schöner	_	_
+8-12	735-736	,	_	_
+8-13	737-740	als	_	_
+8-14	741-744	ich	_	_
+8-15	745-748	mir	_	_
+8-16	749-751	je	_	_
+8-17	752-759	erlaubt	_	_
+8-18	760-765	hätte	_	_
+8-19	766-768	zu	_	_
+8-20	769-775	denken	_	_
+8-21	776-777	,	_	_
+8-22	778-781	und	_	_
+8-23	782-785	Sie	_	_
+8-24	786-792	müssen	_	_
+8-25	793-796	mit	_	_
+8-26	797-803	Rosina	*	PERmentioned
+8-27	804-813	herkommen	_	_
+8-28	814-815	.	_	_
+
+#Text=Unser Cisternenwasser ist ausgezeichnet , kalt und klar und reichlich .
+9-1	816-821	Unser	_	_
+9-2	822-837	Cisternenwasser	_	_
+9-3	838-841	ist	_	_
+9-4	842-855	ausgezeichnet	_	_
+9-5	856-857	,	_	_
+9-6	858-862	kalt	_	_
+9-7	863-866	und	_	_
+9-8	867-871	klar	_	_
+9-9	872-875	und	_	_
+9-10	876-885	reichlich	_	_
+9-11	886-887	.	_	_
+
+#Text=Sie werden den hiesigen Aufenthalt recht sehr genießen , in unserer Villa haben wir herrlichsten Wald und sammtgrüne Wiesen , Garten und Feld .
+10-1	888-891	Sie	_	_
+10-2	892-898	werden	_	_
+10-3	899-902	den	_	_
+10-4	903-911	hiesigen	_	_
+10-5	912-922	Aufenthalt	_	_
+10-6	923-928	recht	_	_
+10-7	929-933	sehr	_	_
+10-8	934-942	genießen	_	_
+10-9	943-944	,	_	_
+10-10	945-947	in	_	_
+10-11	948-955	unserer	_	_
+10-12	956-961	Villa	_	_
+10-13	962-967	haben	_	_
+10-14	968-971	wir	_	_
+10-15	972-984	herrlichsten	_	_
+10-16	985-989	Wald	_	_
+10-17	990-993	und	_	_
+10-18	994-1004	sammtgrüne	_	_
+10-19	1005-1011	Wiesen	_	_
+10-20	1012-1013	,	_	_
+10-21	1014-1020	Garten	_	_
+10-22	1021-1024	und	_	_
+10-23	1025-1029	Feld	_	_
+10-24	1030-1031	.	_	_
+
+#Text=Die Stadt ist entzückend .
+11-1	1032-1035	Die	_	_
+11-2	1036-1041	Stadt	_	_
+11-3	1042-1045	ist	_	_
+11-4	1046-1056	entzückend	_	_
+11-5	1057-1058	.	_	_
+
+#Text=Richten Sie sich so ein , daß Sie zum 15 .
+12-1	1059-1066	Richten	_	_
+12-2	1067-1070	Sie	_	_
+12-3	1071-1075	sich	_	_
+12-4	1076-1078	so	_	_
+12-5	1079-1082	ein	_	_
+12-6	1083-1084	,	_	_
+12-7	1085-1088	daß	_	_
+12-8	1089-1092	Sie	_	_
+12-9	1093-1096	zum	_	_
+12-10	1097-1099	15	*[6]	DATEmentioned[6]
+12-11	1100-1101	.	*[6]	DATEmentioned[6]
+
+#Text=August hier sind .
+13-1	1102-1108	August	*[6]	DATEmentioned[6]
+13-2	1109-1113	hier	_	_
+13-3	1114-1118	sind	_	_
+13-4	1119-1120	.	_	_
+
+#Text=Am 2. Juli haben wir den Palio mitgemacht , was das großartigste ist , was
+14-1	1121-1123	Am	_	_
+14-2	1124-1126	2.	*[7]	DATEmentioned[7]
+14-3	1127-1131	Juli	*[7]	DATEmentioned[7]
+14-4	1132-1137	haben	_	_
+14-5	1138-1141	wir	_	_
+14-6	1142-1145	den	_	_
+14-7	1146-1151	Palio	_	_
+14-8	1152-1162	mitgemacht	_	_
+14-9	1163-1164	,	_	_
+14-10	1165-1168	was	_	_
+14-11	1169-1172	das	_	_
+14-12	1173-1185	großartigste	_	_
+14-13	1186-1189	ist	_	_
+14-14	1190-1191	,	_	_
+14-15	1192-1195	was	_	_

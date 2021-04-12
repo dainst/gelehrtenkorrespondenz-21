@@ -1,0 +1,44 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=4 Lepsius an Henzen Berlin , 18. Juli 1872 direkt schreiben .
+1-1	0-1	4	_	_
+1-2	2-9	Lepsius	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-26	Berlin	*	PLACEfrom
+1-6	27-28	,	_	_
+1-7	29-32	18.	*[1]	DATEletter[1]
+1-8	33-37	Juli	*[1]	DATEletter[1]
+1-9	38-42	1872	*[1]	DATEletter[1]
+1-10	43-49	direkt	_	_
+1-11	50-59	schreiben	_	_
+1-12	60-61	.	_	_
+
+#Text=Er hat noch nicht gelernt und wird wohl nie lernen sich in exakte geschäftliche Fommen zu finden .
+2-1	62-64	Er	_	_
+2-2	65-68	hat	_	_
+2-3	69-73	noch	_	_
+2-4	74-79	nicht	_	_
+2-5	80-87	gelernt	_	_
+2-6	88-91	und	_	_
+2-7	92-96	wird	_	_
+2-8	97-101	wohl	_	_
+2-9	102-105	nie	_	_
+2-10	106-112	lernen	_	_
+2-11	113-117	sich	_	_
+2-12	118-120	in	_	_
+2-13	121-127	exakte	_	_
+2-14	128-141	geschäftliche	_	_
+2-15	142-148	Fommen	_	_
+2-16	149-151	zu	_	_
+2-17	152-158	finden	_	_
+2-18	159-160	.	_	_
+
+#Text=Ihr herzlich ergebener R Lepsius
+3-1	161-164	Ihr	_	_
+3-2	165-173	herzlich	_	_
+3-3	174-183	ergebener	_	_
+3-4	184-185	R	*[2]	PERauthor[2]
+3-5	186-193	Lepsius	*[2]	PERauthor[2]

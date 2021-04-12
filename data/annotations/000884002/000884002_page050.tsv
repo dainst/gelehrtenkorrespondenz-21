@@ -1,0 +1,272 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=233 Brunn an Henzen ohne Ort/24.Aug .
+1-1	0-3	233	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-24	ohne	_	_
+1-6	25-35	Ort/24.Aug	*[17]	DATEletter[17]
+1-7	36-37	.	*[17]	DATEletter[17]
+
+#Text=1859 Anbei die Addresse für Welcker nebst Unterschrift .
+2-1	38-42	1859	*[17]	DATEletter[17]
+2-2	43-48	Anbei	_	_
+2-3	49-52	die	_	_
+2-4	53-61	Addresse	_	_
+2-5	62-65	für	_	_
+2-6	66-73	Welcker	*	PERmentioned
+2-7	74-79	nebst	_	_
+2-8	80-92	Unterschrift	_	_
+2-9	93-94	.	_	_
+
+#Text=Schreiben Sie an Schmidt , so fügen Sie in meinem Namen hinzu \; ob jemand an W. Ihne in Liverpool als einen Schüler Welcker 's gedacht hat .
+3-1	95-104	Schreiben	_	_
+3-2	105-108	Sie	_	_
+3-3	109-111	an	_	_
+3-4	112-119	Schmidt	*	PERmentioned
+3-5	120-121	,	_	_
+3-6	122-124	so	_	_
+3-7	125-130	fügen	_	_
+3-8	131-134	Sie	_	_
+3-9	135-137	in	_	_
+3-10	138-144	meinem	_	_
+3-11	145-150	Namen	_	_
+3-12	151-156	hinzu	_	_
+3-13	157-158	\;	_	_
+3-14	159-161	ob	_	_
+3-15	162-168	jemand	_	_
+3-16	169-171	an	_	_
+3-17	172-174	W.	*[18]	PERmentioned[18]
+3-18	175-179	Ihne	*[18]	PERmentioned[18]
+3-19	180-182	in	_	_
+3-20	183-192	Liverpool	*	PLACEmentioned
+3-21	193-196	als	_	_
+3-22	197-202	einen	_	_
+3-23	203-210	Schüler	_	_
+3-24	211-218	Welcker	*[20]	PERmentioned[20]
+3-25	219-221	's	*[20]	PERmentioned[20]
+3-26	222-229	gedacht	_	_
+3-27	230-233	hat	_	_
+3-28	234-235	.	_	_
+
+#Text=Die genauere Addresse ann er in Bonn leicht erhalten .
+4-1	236-239	Die	_	_
+4-2	240-248	genauere	_	_
+4-3	249-257	Addresse	_	_
+4-4	258-261	ann	_	_
+4-5	262-264	er	_	_
+4-6	265-267	in	_	_
+4-7	268-272	Bonn	*	PLACEmentioned
+4-8	273-279	leicht	_	_
+4-9	280-288	erhalten	_	_
+4-10	289-290	.	_	_
+
+#Text=Eben erhielt ich einen Artikel über den Melerpanto- Spiegel von Roulez ( noch nicht gesehen ) .
+5-1	291-295	Eben	_	_
+5-2	296-303	erhielt	_	_
+5-3	304-307	ich	_	_
+5-4	308-313	einen	_	_
+5-5	314-321	Artikel	_	_
+5-6	322-326	über	_	_
+5-7	327-330	den	_	_
+5-8	331-342	Melerpanto-	*[21]	OBJ[21]
+5-9	343-350	Spiegel	*[21]	OBJ[21]
+5-10	351-354	von	_	_
+5-11	355-361	Roulez	*	PERmentioned
+5-12	362-363	(	_	_
+5-13	364-368	noch	_	_
+5-14	369-374	nicht	_	_
+5-15	375-382	gesehen	_	_
+5-16	383-384	)	_	_
+5-17	385-386	.	_	_
+
+#Text=Domenico hatte ihn nebst den 2 neuesten Zeitungen und 1 Nummer arch . Zeitung einem H. Ch . Egan aufgepackt , der heute noch bis nach Frascati zu Ihnen zu gelangen dachte , was nicht geschieht .
+6-1	387-395	Domenico	*	PERmentioned
+6-2	396-401	hatte	_	_
+6-3	402-405	ihn	_	_
+6-4	406-411	nebst	_	_
+6-5	412-415	den	_	_
+6-6	416-417	2	_	_
+6-7	418-426	neuesten	_	_
+6-8	427-436	Zeitungen	_	_
+6-9	437-440	und	_	_
+6-10	441-442	1	_	_
+6-11	443-449	Nummer	_	_
+6-12	450-454	arch	_	_
+6-13	455-456	.	_	_
+6-14	457-464	Zeitung	_	_
+6-15	465-470	einem	_	_
+6-16	471-473	H.	*[19]	PERmentioned[19]
+6-17	474-476	Ch	*[19]	PERmentioned[19]
+6-18	477-478	.	*[19]	PERmentioned[19]
+6-19	479-483	Egan	*[19]	PERmentioned[19]
+6-20	484-494	aufgepackt	_	_
+6-21	495-496	,	_	_
+6-22	497-500	der	_	_
+6-23	501-506	heute	_	_
+6-24	507-511	noch	_	_
+6-25	512-515	bis	_	_
+6-26	516-520	nach	_	_
+6-27	521-529	Frascati	*	PLACEmentioned
+6-28	530-532	zu	_	_
+6-29	533-538	Ihnen	_	_
+6-30	539-541	zu	_	_
+6-31	542-550	gelangen	_	_
+6-32	551-557	dachte	_	_
+6-33	558-559	,	_	_
+6-34	560-563	was	_	_
+6-35	564-569	nicht	_	_
+6-36	570-579	geschieht	_	_
+6-37	580-581	.	_	_
+
+#Text=Vielleicht sucht er Sie morgen in Rom auf .
+7-1	582-592	Vielleicht	_	_
+7-2	593-598	sucht	_	_
+7-3	599-601	er	_	_
+7-4	602-605	Sie	_	_
+7-5	606-612	morgen	_	_
+7-6	613-615	in	_	_
+7-7	616-619	Rom	*	PLACEmentioned
+7-8	620-623	auf	_	_
+7-9	624-625	.	_	_
+
+#Text=Unterdessen habe ich ihm seine Last abgenommen und schicke sie Ihnen ( dto ungelesen ) nach Rom zurück .
+8-1	626-637	Unterdessen	_	_
+8-2	638-642	habe	_	_
+8-3	643-646	ich	_	_
+8-4	647-650	ihm	_	_
+8-5	651-656	seine	_	_
+8-6	657-661	Last	_	_
+8-7	662-672	abgenommen	_	_
+8-8	673-676	und	_	_
+8-9	677-684	schicke	_	_
+8-10	685-688	sie	_	_
+8-11	689-694	Ihnen	_	_
+8-12	695-696	(	_	_
+8-13	697-700	dto	_	_
+8-14	701-710	ungelesen	_	_
+8-15	711-712	)	_	_
+8-16	713-717	nach	_	_
+8-17	718-721	Rom	*	PLACEmentioned
+8-18	722-728	zurück	_	_
+8-19	729-730	.	_	_
+
+#Text=Michaelis Aufforderung , die interessantesten Troitusurnen zu bezeichnen , ist leichter ausgesprochen als erfüllt .
+9-1	731-740	Michaelis	*	PERmentioned
+9-2	741-753	Aufforderung	_	_
+9-3	754-755	,	_	_
+9-4	756-759	die	_	_
+9-5	760-776	interessantesten	_	_
+9-6	777-789	Troitusurnen	*	OBJ
+9-7	790-792	zu	_	_
+9-8	793-803	bezeichnen	_	_
+9-9	804-805	,	_	_
+9-10	806-809	ist	_	_
+9-11	810-818	leichter	_	_
+9-12	819-832	ausgesprochen	_	_
+9-13	833-836	als	_	_
+9-14	837-844	erfüllt	_	_
+9-15	845-846	.	_	_
+
+#Text=Gerade darum habe ich Jahn den ganzen Wust abgeschrieben , damit er selbsr urtheile , was ihm wichtig schien .
+10-1	847-853	Gerade	_	_
+10-2	854-859	darum	_	_
+10-3	860-864	habe	_	_
+10-4	865-868	ich	_	_
+10-5	869-873	Jahn	*	PERmentioned
+10-6	874-877	den	_	_
+10-7	878-884	ganzen	_	_
+10-8	885-889	Wust	_	_
+10-9	890-903	abgeschrieben	_	_
+10-10	904-905	,	_	_
+10-11	906-911	damit	_	_
+10-12	912-914	er	_	_
+10-13	915-921	selbsr	_	_
+10-14	922-930	urtheile	_	_
+10-15	931-932	,	_	_
+10-16	933-936	was	_	_
+10-17	937-940	ihm	_	_
+10-18	941-948	wichtig	_	_
+10-19	949-955	schien	_	_
+10-20	956-957	.	_	_
+
+#Text=Zudem kommen die Zeichnungen zur Benutzung für Welcker 's Programm doch zu spät .
+11-1	958-963	Zudem	_	_
+11-2	964-970	kommen	_	_
+11-3	971-974	die	_	_
+11-4	975-986	Zeichnungen	_	_
+11-5	987-990	zur	_	_
+11-6	991-1000	Benutzung	_	_
+11-7	1001-1004	für	_	_
+11-8	1005-1012	Welcker	*[22]	PERmentioned[22]
+11-9	1013-1015	's	*[22]	PERmentioned[22]
+11-10	1016-1024	Programm	_	_
+11-11	1025-1029	doch	_	_
+11-12	1030-1032	zu	_	_
+11-13	1033-1037	spät	_	_
+11-14	1038-1039	.	_	_
+
+#Text=Eine von Conestabile zu klein publicirte mußte außerdem genau revidirt werden .
+12-1	1040-1044	Eine	_	_
+12-2	1045-1048	von	_	_
+12-3	1049-1060	Conestabile	*	PERmentioned
+12-4	1061-1063	zu	_	_
+12-5	1064-1069	klein	_	_
+12-6	1070-1080	publicirte	_	_
+12-7	1081-1086	mußte	_	_
+12-8	1087-1095	außerdem	_	_
+12-9	1096-1101	genau	_	_
+12-10	1102-1110	revidirt	_	_
+12-11	1111-1117	werden	_	_
+12-12	1118-1119	.	_	_
+
+#Text=Zur Bethätigung eines guten Willens schicke ich übrigens einige Notizen .
+13-1	1120-1123	Zur	_	_
+13-2	1124-1135	Bethätigung	_	_
+13-3	1136-1141	eines	_	_
+13-4	1142-1147	guten	_	_
+13-5	1148-1155	Willens	_	_
+13-6	1156-1163	schicke	_	_
+13-7	1164-1167	ich	_	_
+13-8	1168-1176	übrigens	_	_
+13-9	1177-1183	einige	_	_
+13-10	1184-1191	Notizen	_	_
+13-11	1192-1193	.	_	_
+
+#Text=- Könnten Sie , sofern Sie an C. schreiben , zwei Worte an Bartoccini beifügen ?
+14-1	1194-1195	-	_	_
+14-2	1196-1203	Könnten	_	_
+14-3	1204-1207	Sie	_	_
+14-4	1208-1209	,	_	_
+14-5	1210-1216	sofern	_	_
+14-6	1217-1220	Sie	_	_
+14-7	1221-1223	an	_	_
+14-8	1224-1226	C.	*	PERmentioned
+14-9	1227-1236	schreiben	_	_
+14-10	1237-1238	,	_	_
+14-11	1239-1243	zwei	_	_
+14-12	1244-1249	Worte	_	_
+14-13	1250-1252	an	_	_
+14-14	1253-1263	Bartoccini	*	PERmentioned
+14-15	1264-1272	beifügen	_	_
+14-16	1273-1274	?	_	_
+
+#Text=: er möge die Größe , nicht der Zeichnung des Anakreon , sondern der Kupferplat-
+15-1	1275-1276	:	_	_
+15-2	1277-1279	er	_	_
+15-3	1280-1284	möge	_	_
+15-4	1285-1288	die	_	_
+15-5	1289-1294	Größe	_	_
+15-6	1295-1296	,	_	_
+15-7	1297-1302	nicht	_	_
+15-8	1303-1306	der	_	_
+15-9	1307-1316	Zeichnung	_	_
+15-10	1317-1320	des	_	_
+15-11	1321-1329	Anakreon	*	OBJ
+15-12	1330-1331	,	_	_
+15-13	1332-1339	sondern	_	_
+15-14	1340-1343	der	_	_
+15-15	1344-1355	Kupferplat-	_	_

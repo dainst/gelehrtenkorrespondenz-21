@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun Berlin , 27. April 1846 sie bei ihm festzuhalten .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-23	Berlin	*	PLACEfrom
+1-5	24-25	,	_	_
+1-6	26-29	27.	*[3]	DATEletter[3]
+1-7	30-35	April	*[3]	DATEletter[3]
+1-8	36-40	1846	*[3]	DATEletter[3]
+1-9	41-44	sie	_	_
+1-10	45-48	bei	_	_
+1-11	49-52	ihm	_	_
+1-12	53-65	festzuhalten	_	_
+1-13	66-67	.	_	_
+
+#Text=Den Kandelaber werden Sie ihm dann mit 40 gezahlt haben .
+2-1	68-71	Den	_	_
+2-2	72-82	Kandelaber	*	OBJ
+2-3	83-89	werden	_	_
+2-4	90-93	Sie	_	_
+2-5	94-97	ihm	_	_
+2-6	98-102	dann	_	_
+2-7	103-106	mit	_	_
+2-8	107-109	40	_	_
+2-9	110-117	gezahlt	_	_
+2-10	118-123	haben	_	_
+2-11	124-125	.	_	_
+
+#Text=Walz stolziert auf Stephani 's Zeugniß mit der Versicherung umher , daß die Mauern von Ferentino worauf römische Inschriften zum Theil cyklopisch seien \; sonst ward angenommen die Inschriften seien auch nur auf römischem Mauerwerk .
+3-1	126-130	Walz	*	PERmentioned
+3-2	131-140	stolziert	_	_
+3-3	141-144	auf	_	_
+3-4	145-153	Stephani	*[6]	PERmentioned[6]
+3-5	154-156	's	*[6]	PERmentioned[6]
+3-6	157-164	Zeugniß	_	_
+3-7	165-168	mit	_	_
+3-8	169-172	der	_	_
+3-9	173-185	Versicherung	_	_
+3-10	186-191	umher	_	_
+3-11	192-193	,	_	_
+3-12	194-197	daß	_	_
+3-13	198-201	die	_	_
+3-14	202-208	Mauern	*	OBJ
+3-15	209-212	von	_	_
+3-16	213-222	Ferentino	*	PLACEmentioned
+3-17	223-229	worauf	_	_
+3-18	230-238	römische	*[4]	OBJ[4]
+3-19	239-250	Inschriften	*[4]	OBJ[4]
+3-20	251-254	zum	_	_
+3-21	255-260	Theil	_	_
+3-22	261-271	cyklopisch	_	_
+3-23	272-277	seien	_	_
+3-24	278-279	\;	_	_
+3-25	280-285	sonst	_	_
+3-26	286-290	ward	_	_
+3-27	291-301	angenommen	_	_
+3-28	302-305	die	_	_
+3-29	306-317	Inschriften	*	OBJ
+3-30	318-323	seien	_	_
+3-31	324-328	auch	_	_
+3-32	329-332	nur	_	_
+3-33	333-336	auf	_	_
+3-34	337-346	römischem	_	_
+3-35	347-356	Mauerwerk	*	OBJ
+3-36	357-358	.	_	_
+
+#Text=Vermiglioli bat mich angelegentlich um 1 Exemplar Kopp Palaeographia \; es wäre wol am besten Sie bestellten ihm das bei Spitthöfer .
+4-1	359-370	Vermiglioli	*	PERmentioned
+4-2	371-374	bat	_	_
+4-3	375-379	mich	_	_
+4-4	380-394	angelegentlich	_	_
+4-5	395-397	um	_	_
+4-6	398-399	1	_	_
+4-7	400-408	Exemplar	_	_
+4-8	409-413	Kopp	_	_
+4-9	414-427	Palaeographia	_	_
+4-10	428-429	\;	_	_
+4-11	430-432	es	_	_
+4-12	433-437	wäre	_	_
+4-13	438-441	wol	_	_
+4-14	442-444	am	_	_
+4-15	445-451	besten	_	_
+4-16	452-455	Sie	_	_
+4-17	456-466	bestellten	_	_
+4-18	467-470	ihm	_	_
+4-19	471-474	das	_	_
+4-20	475-478	bei	_	_
+4-21	479-489	Spitthöfer	*	PERmentioned
+4-22	490-491	.	_	_
+
+#Text=Kann ich irgend wann ein Exemplar von Alessandro Visconti 's Dissertation über die Vasen von Albano erlangen ?
+5-1	492-496	Kann	_	_
+5-2	497-500	ich	_	_
+5-3	501-507	irgend	_	_
+5-4	508-512	wann	_	_
+5-5	513-516	ein	_	_
+5-6	517-525	Exemplar	_	_
+5-7	526-529	von	_	_
+5-8	530-540	Alessandro	*[5]	PERmentioned[5]
+5-9	541-549	Visconti	*[5]	PERmentioned[5]
+5-10	550-552	's	*[5]	PERmentioned[5]
+5-11	553-565	Dissertation	_	_
+5-12	566-570	über	_	_
+5-13	571-574	die	_	_
+5-14	575-580	Vasen	*	OBJ
+5-15	581-584	von	_	_
+5-16	585-591	Albano	*	PLACEmentioned
+5-17	592-600	erlangen	_	_
+5-18	601-602	?	_	_
+
+#Text=Urlichs verbreitet sich in dem Rheinischen Jahrbuch VIII über die alterthümlichen Terracotten die er in Veji mit Steinhäuser gefunden .
+6-1	603-610	Urlichs	*	PERmentioned
+6-2	611-621	verbreitet	_	_
+6-3	622-626	sich	_	_
+6-4	627-629	in	_	_
+6-5	630-633	dem	_	_
+6-6	634-645	Rheinischen	_	_
+6-7	646-654	Jahrbuch	_	_
+6-8	655-659	VIII	_	_
+6-9	660-664	über	_	_
+6-10	665-668	die	_	_
+6-11	669-684	alterthümlichen	_	_
+6-12	685-696	Terracotten	*	OBJ
+6-13	697-700	die	_	_
+6-14	701-703	er	_	_
+6-15	704-706	in	_	_
+6-16	707-711	Veji	*	PLACEmentioned
+6-17	712-715	mit	_	_
+6-18	716-727	Steinhäuser	*	PERmentioned
+6-19	728-736	gefunden	_	_
+6-20	737-738	.	_	_
+
+#Text=Was ist daraus geworden ?
+7-1	739-742	Was	_	_
+7-2	743-746	ist	_	_
+7-3	747-753	daraus	_	_
+7-4	754-762	geworden	_	_
+7-5	763-764	?	_	_
+
+#Text=Wie wird es mit dem Druck Ihres in schöne Parasraphen getheilten archäologischen Manuscripts das Sie mir einmal mittheilten ?
+8-1	765-768	Wie	_	_
+8-2	769-773	wird	_	_
+8-3	774-776	es	_	_
+8-4	777-780	mit	_	_
+8-5	781-784	dem	_	_
+8-6	785-790	Druck	_	_
+8-7	791-796	Ihres	_	_
+8-8	797-799	in	_	_
+8-9	800-806	schöne	_	_
+8-10	807-818	Parasraphen	_	_
+8-11	819-829	getheilten	_	_
+8-12	830-845	archäologischen	_	_
+8-13	846-857	Manuscripts	_	_
+8-14	858-861	das	_	_
+8-15	862-865	Sie	_	_
+8-16	866-869	mir	_	_
+8-17	870-876	einmal	_	_
+8-18	877-888	mittheilten	_	_
+8-19	889-890	?	_	_
+
+#Text=Haben Sie nichts Anderes damit vor so möchte ich Ihnen vorschlagen es als Gegenstück und Ergänzung zu meinem Aufsatz im 1.sten Band für den 2.ten Band hyperbofischer Studien mir zu geben den ich noch immer schulde .
+9-1	891-896	Haben	_	_
+9-2	897-900	Sie	_	_
+9-3	901-907	nichts	_	_
+9-4	908-915	Anderes	_	_
+9-5	916-921	damit	_	_
+9-6	922-925	vor	_	_
+9-7	926-928	so	_	_
+9-8	929-935	möchte	_	_
+9-9	936-939	ich	_	_
+9-10	940-945	Ihnen	_	_
+9-11	946-957	vorschlagen	_	_
+9-12	958-960	es	_	_
+9-13	961-964	als	_	_
+9-14	965-975	Gegenstück	_	_
+9-15	976-979	und	_	_
+9-16	980-989	Ergänzung	_	_
+9-17	990-992	zu	_	_
+9-18	993-999	meinem	_	_
+9-19	1000-1007	Aufsatz	_	_
+9-20	1008-1010	im	_	_
+9-21	1011-1017	1.sten	_	_
+9-22	1018-1022	Band	_	_
+9-23	1023-1026	für	_	_
+9-24	1027-1030	den	_	_
+9-25	1031-1036	2.ten	_	_
+9-26	1037-1041	Band	_	_
+9-27	1042-1056	hyperbofischer	_	_
+9-28	1057-1064	Studien	_	_
+9-29	1065-1068	mir	_	_
+9-30	1069-1071	zu	_	_
+9-31	1072-1077	geben	_	_
+9-32	1078-1081	den	_	_
+9-33	1082-1085	ich	_	_
+9-34	1086-1090	noch	_	_
+9-35	1091-1096	immer	_	_
+9-36	1097-1104	schulde	_	_
+9-37	1105-1106	.	_	_
+
+#Text=Separatabdrücke , auch unter separatem Titel , und etwas Honorar würde Reimer wol geben .
+10-1	1107-1122	Separatabdrücke	_	_
+10-2	1123-1124	,	_	_
+10-3	1125-1129	auch	_	_
+10-4	1130-1135	unter	_	_
+10-5	1136-1145	separatem	_	_
+10-6	1146-1151	Titel	_	_
+10-7	1152-1153	,	_	_
+10-8	1154-1157	und	_	_
+10-9	1158-1163	etwas	_	_
+10-10	1164-1171	Honorar	_	_
+10-11	1172-1177	würde	_	_
+10-12	1178-1184	Reimer	*	ORGmentioned
+10-13	1185-1188	wol	_	_
+10-14	1189-1194	geben	_	_
+10-15	1195-1196	.	_	_
+
+#Text=Wann kommt die Kiste ?
+11-1	1197-1201	Wann	_	_
+11-2	1202-1207	kommt	_	_
+11-3	1208-1211	die	_	_
+11-4	1212-1217	Kiste	_	_
+11-5	1218-1219	?	_	_
+
+#Text=Es fehlt mir allzu Vieles ,
+12-1	1220-1222	Es	_	_
+12-2	1223-1228	fehlt	_	_
+12-3	1229-1232	mir	_	_
+12-4	1233-1238	allzu	_	_
+12-5	1239-1245	Vieles	_	_
+12-6	1246-1247	,	_	_

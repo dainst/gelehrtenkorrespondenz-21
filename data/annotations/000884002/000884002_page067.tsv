@@ -1,0 +1,200 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=378 Brunn an Henzen Ariccia , 9 .
+1-1	0-3	378	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Ariccia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-31	9	*[9]	DATEletter[9]
+1-8	32-33	.	*[9]	DATEletter[9]
+
+#Text=Sept .
+2-1	34-38	Sept	*[9]	DATEletter[9]
+2-2	39-40	.	*[9]	DATEletter[9]
+
+#Text=1860 -3roba hin ?
+3-1	41-45	1860	*[9]	DATEletter[9]
+3-2	46-52	-3roba	_	_
+3-3	53-56	hin	_	_
+3-4	57-58	?	_	_
+
+#Text=Ich denke , wir warten zunächst die ragazzi ab \; vielleicht haben sie allerlei im Sack , was sie gern bald loswerden , und so lassen sich vielleicht mehrere Sculture greche auf einer Monumententafel , die ja noch vacant ist , zusammenstellen .
+4-1	59-62	Ich	_	_
+4-2	63-68	denke	_	_
+4-3	69-70	,	_	_
+4-4	71-74	wir	_	_
+4-5	75-81	warten	_	_
+4-6	82-90	zunächst	_	_
+4-7	91-94	die	_	_
+4-8	95-102	ragazzi	_	_
+4-9	103-105	ab	_	_
+4-10	106-107	\;	_	_
+4-11	108-118	vielleicht	_	_
+4-12	119-124	haben	_	_
+4-13	125-128	sie	_	_
+4-14	129-137	allerlei	_	_
+4-15	138-140	im	_	_
+4-16	141-145	Sack	_	_
+4-17	146-147	,	_	_
+4-18	148-151	was	_	_
+4-19	152-155	sie	_	_
+4-20	156-160	gern	_	_
+4-21	161-165	bald	_	_
+4-22	166-175	loswerden	_	_
+4-23	176-177	,	_	_
+4-24	178-181	und	_	_
+4-25	182-184	so	_	_
+4-26	185-191	lassen	_	_
+4-27	192-196	sich	_	_
+4-28	197-207	vielleicht	_	_
+4-29	208-215	mehrere	_	_
+4-30	216-224	Sculture	_	_
+4-31	225-231	greche	_	_
+4-32	232-235	auf	_	_
+4-33	236-241	einer	_	_
+4-34	242-257	Monumententafel	_	_
+4-35	258-259	,	_	_
+4-36	260-263	die	_	_
+4-37	264-266	ja	_	_
+4-38	267-271	noch	_	_
+4-39	272-278	vacant	_	_
+4-40	279-282	ist	_	_
+4-41	283-284	,	_	_
+4-42	285-300	zusammenstellen	_	_
+4-43	301-302	.	_	_
+
+#Text=In einer der älteren Zeitungen fand ich zufällig , daß ja auch Roth in Basel gestorben ist .
+5-1	303-305	In	_	_
+5-2	306-311	einer	_	_
+5-3	312-315	der	_	_
+5-4	316-323	älteren	_	_
+5-5	324-333	Zeitungen	_	_
+5-6	334-338	fand	_	_
+5-7	339-342	ich	_	_
+5-8	343-351	zufällig	_	_
+5-9	352-353	,	_	_
+5-10	354-357	daß	_	_
+5-11	358-360	ja	_	_
+5-12	361-365	auch	_	_
+5-13	366-370	Roth	*	PERmentioned
+5-14	371-373	in	_	_
+5-15	374-379	Basel	*	PLACEmentioned
+5-16	380-389	gestorben	_	_
+5-17	390-393	ist	_	_
+5-18	394-395	.	_	_
+
+#Text=Sollten Sie noch nicht Jahn geantwortet haben , so richten Sie es wohl so ein , daß Petersen zwei Worte in meinem Auftrage einschieben könnte .
+6-1	396-403	Sollten	_	_
+6-2	404-407	Sie	_	_
+6-3	408-412	noch	_	_
+6-4	413-418	nicht	_	_
+6-5	419-423	Jahn	*	PERmentioned
+6-6	424-435	geantwortet	_	_
+6-7	436-441	haben	_	_
+6-8	442-443	,	_	_
+6-9	444-446	so	_	_
+6-10	447-454	richten	_	_
+6-11	455-458	Sie	_	_
+6-12	459-461	es	_	_
+6-13	462-466	wohl	_	_
+6-14	467-469	so	_	_
+6-15	470-473	ein	_	_
+6-16	474-475	,	_	_
+6-17	476-479	daß	_	_
+6-18	480-488	Petersen	*	PERmentioned
+6-19	489-493	zwei	_	_
+6-20	494-499	Worte	_	_
+6-21	500-502	in	_	_
+6-22	503-509	meinem	_	_
+6-23	510-518	Auftrage	_	_
+6-24	519-530	einschieben	_	_
+6-25	531-537	könnte	_	_
+6-26	538-539	.	_	_
+
+#Text=Hercher ist nach Genazzano .
+7-1	540-547	Hercher	*	PERmentioned
+7-2	548-551	ist	_	_
+7-3	552-556	nach	_	_
+7-4	557-566	Genazzano	*	PLACEmentioned
+7-5	567-568	.	_	_
+
+#Text=In Sachen des Alten wird W. ein gutes Werk thun , wenn er die Betreffende wegbeißen kann , Neuere Beobachtungen lassen das , was ich Ihnen neulich mündlich mittheilte , in schlimmeren Lichte erscheinen , wovon der Alte wohl freilich keine Ahnung hat .
+8-1	569-571	In	_	_
+8-2	572-578	Sachen	_	_
+8-3	579-582	des	_	_
+8-4	583-588	Alten	_	_
+8-5	589-593	wird	_	_
+8-6	594-596	W.	*	PERmentioned
+8-7	597-600	ein	_	_
+8-8	601-606	gutes	_	_
+8-9	607-611	Werk	_	_
+8-10	612-616	thun	_	_
+8-11	617-618	,	_	_
+8-12	619-623	wenn	_	_
+8-13	624-626	er	_	_
+8-14	627-630	die	_	_
+8-15	631-642	Betreffende	_	_
+8-16	643-652	wegbeißen	_	_
+8-17	653-657	kann	_	_
+8-18	658-659	,	_	_
+8-19	660-666	Neuere	_	_
+8-20	667-680	Beobachtungen	_	_
+8-21	681-687	lassen	_	_
+8-22	688-691	das	_	_
+8-23	692-693	,	_	_
+8-24	694-697	was	_	_
+8-25	698-701	ich	_	_
+8-26	702-707	Ihnen	_	_
+8-27	708-715	neulich	_	_
+8-28	716-724	mündlich	_	_
+8-29	725-735	mittheilte	_	_
+8-30	736-737	,	_	_
+8-31	738-740	in	_	_
+8-32	741-752	schlimmeren	_	_
+8-33	753-759	Lichte	_	_
+8-34	760-770	erscheinen	_	_
+8-35	771-772	,	_	_
+8-36	773-778	wovon	_	_
+8-37	779-782	der	_	_
+8-38	783-787	Alte	_	_
+8-39	788-792	wohl	_	_
+8-40	793-801	freilich	_	_
+8-41	802-807	keine	_	_
+8-42	808-814	Ahnung	_	_
+8-43	815-818	hat	_	_
+8-44	819-820	.	_	_
+
+#Text=Mit besten Grüßen Ihr HBrunn .
+9-1	821-824	Mit	_	_
+9-2	825-831	besten	_	_
+9-3	832-838	Grüßen	_	_
+9-4	839-842	Ihr	_	_
+9-5	843-849	HBrunn	*	PERauthor
+9-6	850-851	.	_	_
+
+#Text=Arriccia , Sonntag 9 Sept .
+10-1	852-860	Arriccia	*	PLACEfrom
+10-2	861-862	,	_	_
+10-3	863-870	Sonntag	*[10]	DATEletter[10]
+10-4	871-872	9	*[10]	DATEletter[10]
+10-5	873-877	Sept	*[10]	DATEletter[10]
+10-6	878-879	.	*[10]	DATEletter[10]
+
+#Text=60 .
+11-1	880-882	60	*[10]	DATEletter[10]
+11-2	883-884	.	*[10]	DATEletter[10]
+
+#Text=Hat der Cades die Pasten für Lorini geliefert ?
+12-1	885-888	Hat	_	_
+12-2	889-892	der	_	_
+12-3	893-898	Cades	*	PERmentioned
+12-4	899-902	die	_	_
+12-5	903-909	Pasten	_	_
+12-6	910-913	für	_	_
+12-7	914-920	Lorini	*	PERmentioned
+12-8	921-930	geliefert	_	_
+12-9	931-932	?	_	_

@@ -1,0 +1,296 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=666 Braun an Gerhard Rom , 13 .
+1-1	0-3	666	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-24	Rom	*	PLACEfrom
+1-6	25-26	,	_	_
+1-7	27-29	13	*[6]	DATEletter[6]
+1-8	30-31	.	*[6]	DATEletter[6]
+
+#Text=Oktober 1838 Sig .
+2-1	32-39	Oktober	*[6]	DATEletter[6]
+2-2	40-44	1838	*[6]	DATEletter[6]
+2-3	45-48	Sig	_	_
+2-4	49-50	.	_	_
+
+#Text=Cav .
+3-1	51-54	Cav	_	_
+3-2	55-56	.	_	_
+
+#Text=Gerhard Berlin .
+4-1	57-64	Gerhard	*	PERaddressee
+4-2	65-71	Berlin	*	PLACEto
+4-3	72-73	.	_	_
+
+#Text=Roma li 13 8bre 1838 .
+5-1	74-78	Roma	*	PLACEfrom
+5-2	79-81	li	_	_
+5-3	82-84	13	*[8]	DATEletter[8]
+5-4	85-89	8bre	*[8]	DATEletter[8]
+5-5	90-94	1838	*[8]	DATEletter[8]
+5-6	95-96	.	_	_
+
+#Text=An Brockhaus ist vorigen Posttag die purificirte Liste unserer Subscribenten abgegangen , 86 an der Zahl .
+6-1	97-99	An	_	_
+6-2	100-109	Brockhaus	*	ORGmentioned
+6-3	110-113	ist	_	_
+6-4	114-121	vorigen	_	_
+6-5	122-129	Posttag	_	_
+6-6	130-133	die	_	_
+6-7	134-145	purificirte	_	_
+6-8	146-151	Liste	_	_
+6-9	152-159	unserer	_	_
+6-10	160-173	Subscribenten	_	_
+6-11	174-184	abgegangen	_	_
+6-12	185-186	,	_	_
+6-13	187-189	86	_	_
+6-14	190-192	an	_	_
+6-15	193-196	der	_	_
+6-16	197-201	Zahl	_	_
+6-17	202-203	.	_	_
+
+#Text=Den neuen Breslauer habe ich nicht nachtragen können , weil sein Name unleserlich war .
+7-1	204-207	Den	_	_
+7-2	208-213	neuen	_	_
+7-3	214-223	Breslauer	*	PLACEmentioned
+7-4	224-228	habe	_	_
+7-5	229-232	ich	_	_
+7-6	233-238	nicht	_	_
+7-7	239-249	nachtragen	_	_
+7-8	250-256	können	_	_
+7-9	257-258	,	_	_
+7-10	259-263	weil	_	_
+7-11	264-268	sein	_	_
+7-12	269-273	Name	_	_
+7-13	274-285	unleserlich	_	_
+7-14	286-289	war	_	_
+7-15	290-291	.	_	_
+
+#Text=Thuen Sie es gefälligst .
+8-1	292-297	Thuen	_	_
+8-2	298-301	Sie	_	_
+8-3	302-304	es	_	_
+8-4	305-315	gefälligst	_	_
+8-5	316-317	.	_	_
+
+#Text=Von Lancis Rechnungen versprach ich mir wenig .
+9-1	318-321	Von	_	_
+9-2	322-328	Lancis	*	PERmentioned
+9-3	329-339	Rechnungen	_	_
+9-4	340-349	versprach	_	_
+9-5	350-353	ich	_	_
+9-6	354-357	mir	_	_
+9-7	358-363	wenig	_	_
+9-8	364-365	.	_	_
+
+#Text=Ich verlasse mich dabei viel mehr auf meine Gedächtnißanschauung .
+10-1	366-369	Ich	_	_
+10-2	370-378	verlasse	_	_
+10-3	379-383	mich	_	_
+10-4	384-389	dabei	_	_
+10-5	390-394	viel	_	_
+10-6	395-399	mehr	_	_
+10-7	400-403	auf	_	_
+10-8	404-409	meine	_	_
+10-9	410-430	Gedächtnißanschauung	_	_
+10-10	431-432	.	_	_
+
+#Text=Ich will indeß gehörig erinnern und treiben , helfen wird 's freilich nicht .
+11-1	433-436	Ich	_	_
+11-2	437-441	will	_	_
+11-3	442-447	indeß	_	_
+11-4	448-455	gehörig	_	_
+11-5	456-464	erinnern	_	_
+11-6	465-468	und	_	_
+11-7	469-476	treiben	_	_
+11-8	477-478	,	_	_
+11-9	479-485	helfen	_	_
+11-10	486-490	wird	_	_
+11-11	491-493	's	_	_
+11-12	494-502	freilich	_	_
+11-13	503-508	nicht	_	_
+11-14	509-510	.	_	_
+
+#Text=Jetzt ist er sogar prima sera meist auswärts .
+12-1	511-516	Jetzt	_	_
+12-2	517-520	ist	_	_
+12-3	521-523	er	_	_
+12-4	524-529	sogar	_	_
+12-5	530-535	prima	_	_
+12-6	536-540	sera	_	_
+12-7	541-546	meist	_	_
+12-8	547-555	auswärts	_	_
+12-9	556-557	.	_	_
+
+#Text=Cotta und Weber in Bonn haben allerdings Forderungen an das Institut , denen man indessen sicher wird Genüge leisten können .
+13-1	558-563	Cotta	*	ORGmentioned
+13-2	564-567	und	_	_
+13-3	568-573	Weber	*	PERmentioned
+13-4	574-576	in	_	_
+13-5	577-581	Bonn	*	PLACEmentioned
+13-6	582-587	haben	_	_
+13-7	588-598	allerdings	_	_
+13-8	599-610	Forderungen	_	_
+13-9	611-613	an	_	_
+13-10	614-617	das	_	_
+13-11	618-626	Institut	*	ORGmentioned
+13-12	627-628	,	_	_
+13-13	629-634	denen	_	_
+13-14	635-638	man	_	_
+13-15	639-647	indessen	_	_
+13-16	648-654	sicher	_	_
+13-17	655-659	wird	_	_
+13-18	660-666	Genüge	_	_
+13-19	667-674	leisten	_	_
+13-20	675-681	können	_	_
+13-21	682-683	.	_	_
+
+#Text=- Vor allem wünschte ich den Betrag der Panofkaschen Schuldforderung zu kennen .
+14-1	684-685	-	_	_
+14-2	686-689	Vor	_	_
+14-3	690-695	allem	_	_
+14-4	696-704	wünschte	_	_
+14-5	705-708	ich	_	_
+14-6	709-712	den	_	_
+14-7	713-719	Betrag	_	_
+14-8	720-723	der	_	_
+14-9	724-736	Panofkaschen	_	_
+14-10	737-752	Schuldforderung	_	_
+14-11	753-755	zu	_	_
+14-12	756-762	kennen	_	_
+14-13	763-764	.	_	_
+
+#Text=Daß diese sofort befriedigt werde ist recht und billig , selbst wenn Gerstäcker und Marcus zusammen nicht genügen sollten .
+15-1	765-768	Daß	_	_
+15-2	769-774	diese	_	_
+15-3	775-781	sofort	_	_
+15-4	782-792	befriedigt	_	_
+15-5	793-798	werde	_	_
+15-6	799-802	ist	_	_
+15-7	803-808	recht	_	_
+15-8	809-812	und	_	_
+15-9	813-819	billig	_	_
+15-10	820-821	,	_	_
+15-11	822-828	selbst	_	_
+15-12	829-833	wenn	_	_
+15-13	834-844	Gerstäcker	*	PERmentioned
+15-14	845-848	und	_	_
+15-15	849-855	Marcus	*	PERmentioned
+15-16	856-864	zusammen	_	_
+15-17	865-870	nicht	_	_
+15-18	871-878	genügen	_	_
+15-19	879-886	sollten	_	_
+15-20	887-888	.	_	_
+
+#Text=Aber wissen sollte man doch billig wie die Sachen stehen .
+16-1	889-893	Aber	_	_
+16-2	894-900	wissen	_	_
+16-3	901-907	sollte	_	_
+16-4	908-911	man	_	_
+16-5	912-916	doch	_	_
+16-6	917-923	billig	_	_
+16-7	924-927	wie	_	_
+16-8	928-931	die	_	_
+16-9	932-938	Sachen	_	_
+16-10	939-945	stehen	_	_
+16-11	946-947	.	_	_
+
+#Text=- Die Zeichnung von Apolloni sollte Ihnen doch wohl jetzt zugekommen sein ?
+17-1	948-949	-	_	_
+17-2	950-953	Die	_	_
+17-3	954-963	Zeichnung	_	_
+17-4	964-967	von	_	_
+17-5	968-976	Apolloni	*	PERmentioned
+17-6	977-983	sollte	_	_
+17-7	984-989	Ihnen	_	_
+17-8	990-994	doch	_	_
+17-9	995-999	wohl	_	_
+17-10	1000-1005	jetzt	_	_
+17-11	1006-1016	zugekommen	_	_
+17-12	1017-1021	sein	_	_
+17-13	1022-1023	?	_	_
+
+#Text=Den Preis der Vase werde ich von Basseggio neu erkundigen .
+18-1	1024-1027	Den	_	_
+18-2	1028-1033	Preis	_	_
+18-3	1034-1037	der	_	_
+18-4	1038-1042	Vase	*	OBJ
+18-5	1043-1048	werde	_	_
+18-6	1049-1052	ich	_	_
+18-7	1053-1056	von	_	_
+18-8	1057-1066	Basseggio	*	PERmentioned
+18-9	1067-1070	neu	_	_
+18-10	1071-1081	erkundigen	_	_
+18-11	1082-1083	.	_	_
+
+#Text=- Lepsius hofft den 21 d. M. nach Paris zurück zu Sein .
+19-1	1084-1085	-	_	_
+19-2	1086-1093	Lepsius	*	PERmentioned
+19-3	1094-1099	hofft	_	_
+19-4	1100-1103	den	_	_
+19-5	1104-1106	21	*[22]	DATEmentioned[22]
+19-6	1107-1109	d.	*[22]	DATEmentioned[22]
+19-7	1110-1112	M.	*[22]	DATEmentioned[22]
+19-8	1113-1117	nach	_	_
+19-9	1118-1123	Paris	_	_
+19-10	1124-1130	zurück	_	_
+19-11	1131-1133	zu	_	_
+19-12	1134-1138	Sein	_	_
+19-13	1139-1140	.	_	_
+
+#Text=In London hat er sehr viel Treffliches für unsere Angelegenheiten in Geschäfts- und Finanzsachen bereits ausgewirkt .
+20-1	1141-1143	In	_	_
+20-2	1144-1150	London	*	PLACEmentioned
+20-3	1151-1154	hat	_	_
+20-4	1155-1157	er	_	_
+20-5	1158-1162	sehr	_	_
+20-6	1163-1167	viel	_	_
+20-7	1168-1179	Treffliches	_	_
+20-8	1180-1183	für	_	_
+20-9	1184-1190	unsere	_	_
+20-10	1191-1206	Angelegenheiten	_	_
+20-11	1207-1209	in	_	_
+20-12	1210-1220	Geschäfts-	_	_
+20-13	1221-1224	und	_	_
+20-14	1225-1237	Finanzsachen	_	_
+20-15	1238-1245	bereits	_	_
+20-16	1246-1256	ausgewirkt	_	_
+20-17	1257-1258	.	_	_
+
+#Text=Mit LIanci stehe ich mich persönlich ganz gut .
+21-1	1259-1262	Mit	_	_
+21-2	1263-1269	LIanci	*	PERmentioned
+21-3	1270-1275	stehe	_	_
+21-4	1276-1279	ich	_	_
+21-5	1280-1284	mich	_	_
+21-6	1285-1295	persönlich	_	_
+21-7	1296-1300	ganz	_	_
+21-8	1301-1304	gut	_	_
+21-9	1305-1306	.	_	_
+
+#Text=Ueber Finanzangelegenheiten des Instituts rede ich aber nicht mehr mit ihm .
+22-1	1307-1312	Ueber	_	_
+22-2	1313-1334	Finanzangelegenheiten	_	_
+22-3	1335-1338	des	_	_
+22-4	1339-1348	Instituts	*	ORGmentioned
+22-5	1349-1353	rede	_	_
+22-6	1354-1357	ich	_	_
+22-7	1358-1362	aber	_	_
+22-8	1363-1368	nicht	_	_
+22-9	1369-1373	mehr	_	_
+22-10	1374-1377	mit	_	_
+22-11	1378-1381	ihm	_	_
+22-12	1382-1383	.	_	_
+
+#Text=Er hat mir mehr als einmal
+23-1	1384-1386	Er	_	_
+23-2	1387-1390	hat	_	_
+23-3	1391-1394	mir	_	_
+23-4	1395-1399	mehr	_	_
+23-5	1400-1403	als	_	_
+23-6	1404-1410	einmal	_	_

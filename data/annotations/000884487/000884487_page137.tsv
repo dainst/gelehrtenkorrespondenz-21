@@ -1,0 +1,81 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Gerhard an Braun 31 .
+1-1	0-7	Gerhard	*	PERauthor
+1-2	8-10	an	_	_
+1-3	11-16	Braun	*	PERaddressee
+1-4	17-19	31	*[3]	DATEletter[3]
+1-5	20-21	.	*[3]	DATEletter[3]
+
+#Text=Oktober 1836 Dir .
+2-1	22-29	Oktober	*[3]	DATEletter[3]
+2-2	30-34	1836	*[3]	DATEletter[3]
+2-3	35-38	Dir	_	_
+2-4	39-40	.	_	_
+
+#Text=Rom .
+3-1	41-44	Rom	*	PLACEto
+3-2	45-46	.	_	_
+
+#Text=CCCXCVIII g . 31/10 36 Auf den Grund beifolgender Schrift Il Ge o a be ato wünscht Herr Felzani Socio des archäolog .
+4-1	47-56	CCCXCVIII	_	_
+4-2	57-58	g	_	_
+4-3	59-60	.	_	_
+4-4	61-66	31/10	*[5]	DATErecieved[5]
+4-5	67-69	36	*[5]	DATErecieved[5]
+4-6	70-73	Auf	_	_
+4-7	74-77	den	_	_
+4-8	78-83	Grund	_	_
+4-9	84-96	beifolgender	_	_
+4-10	97-104	Schrift	_	_
+4-11	105-107	Il	_	_
+4-12	108-110	Ge	_	_
+4-13	111-112	o	_	_
+4-14	113-114	a	_	_
+4-15	115-117	be	_	_
+4-16	118-121	ato	_	_
+4-17	122-129	wünscht	_	_
+4-18	130-134	Herr	_	_
+4-19	135-142	Felzani	*	PERmentioned
+4-20	143-148	Socio	_	_
+4-21	149-152	des	_	_
+4-22	153-162	archäolog	*[7]	ORGmentioned[7]
+4-23	163-164	.	*[7]	ORGmentioned[7]
+
+#Text=Instituts zu werden .
+5-1	165-174	Instituts	*[7]	ORGmentioned[7]
+5-2	175-177	zu	_	_
+5-3	178-184	werden	_	_
+5-4	185-186	.	_	_
+
+#Text=In der Voraussetzung ein solcher Wunsch pflege nicht leicht abgeschlagen zu werden empfiehlt ihn Herr Zahn .
+6-1	187-189	In	_	_
+6-2	190-193	der	_	_
+6-3	194-207	Voraussetzung	_	_
+6-4	208-211	ein	_	_
+6-5	212-219	solcher	_	_
+6-6	220-226	Wunsch	_	_
+6-7	227-233	pflege	_	_
+6-8	234-239	nicht	_	_
+6-9	240-246	leicht	_	_
+6-10	247-259	abgeschlagen	_	_
+6-11	260-262	zu	_	_
+6-12	263-269	werden	_	_
+6-13	270-279	empfiehlt	_	_
+6-14	280-283	ihn	_	_
+6-15	284-288	Herr	_	_
+6-16	289-293	Zahn	*	PERmentioned
+6-17	294-295	.	_	_
+
+#Text=28 Oktober 236 .
+7-1	296-298	28	*[9]	DATEletter[9]
+7-2	299-306	Oktober	*[9]	DATEletter[9]
+7-3	307-310	236	*[9]	DATEletter[9]
+7-4	311-312	.	_	_
+
+#Text=Gerhard 31/10 36
+8-1	313-320	Gerhard	*	PERauthor
+8-2	321-326	31/10	*[11]	DATEletter[11]
+8-3	327-329	36	*[11]	DATEletter[11]

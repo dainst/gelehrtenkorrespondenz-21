@@ -1,0 +1,167 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Bunsen an Corhanol London , 19 .
+1-1	0-6	Bunsen	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-18	Corhanol	*	PERaddressee
+1-4	19-25	London	*	PLACEfrom
+1-5	26-27	,	_	_
+1-6	28-30	19	*[4]	DATEletter[4]
+1-7	31-32	.	*[4]	DATEletter[4]
+
+#Text=Januar 1848 London 19 Jan 71848 Endlich , mein verehrter Freund , habe ich einen Augenblick gefunden , dem Minister Eichhorn einen Institutsbrief zu schreiben , der heute abgegangen ist .
+2-1	33-39	Januar	*[4]	DATEletter[4]
+2-2	40-44	1848	*[4]	DATEletter[4]
+2-3	45-51	London	*	PLACEfrom
+2-4	52-54	19	*[6]	DATEletter[6]
+2-5	55-58	Jan	*[6]	DATEletter[6]
+2-6	59-64	71848	*[6]	DATEletter[6]
+2-7	65-72	Endlich	_	_
+2-8	73-74	,	_	_
+2-9	75-79	mein	_	_
+2-10	80-89	verehrter	_	_
+2-11	90-96	Freund	_	_
+2-12	97-98	,	_	_
+2-13	99-103	habe	_	_
+2-14	104-107	ich	_	_
+2-15	108-113	einen	_	_
+2-16	114-124	Augenblick	_	_
+2-17	125-133	gefunden	_	_
+2-18	134-135	,	_	_
+2-19	136-139	dem	_	_
+2-20	140-148	Minister	*[7]	PERmentioned[7]
+2-21	149-157	Eichhorn	*[7]	PERmentioned[7]
+2-22	158-163	einen	_	_
+2-23	164-178	Institutsbrief	_	_
+2-24	179-181	zu	_	_
+2-25	182-191	schreiben	_	_
+2-26	192-193	,	_	_
+2-27	194-197	der	_	_
+2-28	198-203	heute	_	_
+2-29	204-214	abgegangen	_	_
+2-30	215-218	ist	_	_
+2-31	219-220	.	_	_
+
+#Text=Ich beginne ihn dafit , daß Sie Sr .
+3-1	221-224	Ich	_	_
+3-2	225-232	beginne	_	_
+3-3	233-236	ihn	_	_
+3-4	237-242	dafit	_	_
+3-5	243-244	,	_	_
+3-6	245-248	daß	_	_
+3-7	249-252	Sie	_	_
+3-8	253-255	Sr	_	_
+3-9	256-257	.	_	_
+
+#Text=Excellenz ohne Zweifel den Jahresbericht eingereicht haben würden , und motivire dann kurz die Bitte um Verlängerung des Gehaltes Für Braun & Co .
+4-1	258-267	Excellenz	_	_
+4-2	268-272	ohne	_	_
+4-3	273-280	Zweifel	_	_
+4-4	281-284	den	_	_
+4-5	285-298	Jahresbericht	_	_
+4-6	299-310	eingereicht	_	_
+4-7	311-316	haben	_	_
+4-8	317-323	würden	_	_
+4-9	324-325	,	_	_
+4-10	326-329	und	_	_
+4-11	330-338	motivire	_	_
+4-12	339-343	dann	_	_
+4-13	344-348	kurz	_	_
+4-14	349-352	die	_	_
+4-15	353-358	Bitte	_	_
+4-16	359-361	um	_	_
+4-17	362-374	Verlängerung	_	_
+4-18	375-378	des	_	_
+4-19	379-387	Gehaltes	_	_
+4-20	388-391	Für	_	_
+4-21	392-397	Braun	*	PERmentioned
+4-22	398-399	&	_	_
+4-23	400-402	Co	_	_
+4-24	403-404	.	_	_
+
+#Text=Ich glaube , Sie hätten besser gethan , einen vorjährigen ausführlichen Brief an den Minister mit Erklärung des Datums im vorigen Monate spätestens ( eigentlich im September ) zu überreichen , NB fehlt der Jahresbericht - und Ihnen und mir neue Mühe zu ersparen , denn es ist eigentlich jetzt viel zu spät .
+5-1	405-408	Ich	_	_
+5-2	409-415	glaube	_	_
+5-3	416-417	,	_	_
+5-4	418-421	Sie	_	_
+5-5	422-428	hätten	_	_
+5-6	429-435	besser	_	_
+5-7	436-442	gethan	_	_
+5-8	443-444	,	_	_
+5-9	445-450	einen	_	_
+5-10	451-462	vorjährigen	_	_
+5-11	463-476	ausführlichen	_	_
+5-12	477-482	Brief	_	_
+5-13	483-485	an	_	_
+5-14	486-489	den	_	_
+5-15	490-498	Minister	_	_
+5-16	499-502	mit	_	_
+5-17	503-512	Erklärung	_	_
+5-18	513-516	des	_	_
+5-19	517-523	Datums	_	_
+5-20	524-526	im	_	_
+5-21	527-534	vorigen	_	_
+5-22	535-541	Monate	_	_
+5-23	542-552	spätestens	_	_
+5-24	553-554	(	_	_
+5-25	555-565	eigentlich	_	_
+5-26	566-568	im	_	_
+5-27	569-578	September	*	DATEmentioned
+5-28	579-580	)	_	_
+5-29	581-583	zu	_	_
+5-30	584-595	überreichen	_	_
+5-31	596-597	,	_	_
+5-32	598-600	NB	_	_
+5-33	601-606	fehlt	_	_
+5-34	607-610	der	_	_
+5-35	611-624	Jahresbericht	_	_
+5-36	625-626	-	_	_
+5-37	627-630	und	_	_
+5-38	631-636	Ihnen	_	_
+5-39	637-640	und	_	_
+5-40	641-644	mir	_	_
+5-41	645-649	neue	_	_
+5-42	650-654	Mühe	_	_
+5-43	655-657	zu	_	_
+5-44	658-666	ersparen	_	_
+5-45	667-668	,	_	_
+5-46	669-673	denn	_	_
+5-47	674-676	es	_	_
+5-48	677-680	ist	_	_
+5-49	681-691	eigentlich	_	_
+5-50	692-697	jetzt	_	_
+5-51	698-702	viel	_	_
+5-52	703-705	zu	_	_
+5-53	706-710	spät	_	_
+5-54	711-712	.	_	_
+
+#Text=Mit herzlichen Empfehlungen an Ihre verehrte Frau Gemahlin Der Ihrige Bunsen Danken Sie Panofka für seinen neulichen Zeus und Herakles Kellermann , die Exemplare sind besorgt .
+6-1	713-716	Mit	_	_
+6-2	717-727	herzlichen	_	_
+6-3	728-740	Empfehlungen	_	_
+6-4	741-743	an	_	_
+6-5	744-748	Ihre	_	_
+6-6	749-757	verehrte	_	_
+6-7	758-762	Frau	_	_
+6-8	763-771	Gemahlin	_	_
+6-9	772-775	Der	_	_
+6-10	776-782	Ihrige	_	_
+6-11	783-789	Bunsen	*	PERauthor
+6-12	790-796	Danken	_	_
+6-13	797-800	Sie	_	_
+6-14	801-808	Panofka	*	PERmentioned
+6-15	809-812	für	_	_
+6-16	813-819	seinen	_	_
+6-17	820-829	neulichen	_	_
+6-18	830-834	Zeus	_	_
+6-19	835-838	und	_	_
+6-20	839-847	Herakles	_	_
+6-21	848-858	Kellermann	*	PERmentioned
+6-22	859-860	,	_	_
+6-23	861-864	die	_	_
+6-24	865-874	Exemplare	_	_
+6-25	875-879	sind	_	_
+6-26	880-887	besorgt	_	_
+6-27	888-889	.	_	_

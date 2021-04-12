@@ -1,0 +1,226 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Helbig an das Institut Neapel , 6. Mai 1864 195 H Neapel 6. Mai 1864 g . 9/5 64 r . 10/5 64 Geehrteste Herrn !
+1-1	0-6	Helbig	*	PERauthor
+1-2	7-9	an	_	_
+1-3	10-13	das	_	_
+1-4	14-22	Institut	*	ORGaddressee
+1-5	23-29	Neapel	*	PLACEfrom
+1-6	30-31	,	_	_
+1-7	32-34	6.	_	_
+1-8	35-38	Mai	*[1]	DATEletter[1]
+1-9	39-43	1864	*[1]	DATEletter[1]
+1-10	44-47	195	_	_
+1-11	48-49	H	_	_
+1-12	50-56	Neapel	*	PLACEfrom
+1-13	57-59	6.	_	_
+1-14	60-63	Mai	*[2]	DATEletter[2]
+1-15	64-68	1864	*[2]	DATEletter[2]
+1-16	69-70	g	_	_
+1-17	71-72	.	_	_
+1-18	73-76	9/5	*[3]	DATErecieved[3]
+1-19	77-79	64	*[3]	DATErecieved[3]
+1-20	80-81	r	_	_
+1-21	82-83	.	_	_
+1-22	84-88	10/5	*[4]	DATEanswered[4]
+1-23	89-91	64	*[4]	DATEanswered[4]
+1-24	92-102	Geehrteste	_	_
+1-25	103-108	Herrn	_	_
+1-26	109-110	!	_	_
+
+#Text=Da mein letzter Brief in stürmischer Eile abgefaßt war , so halte ich es für angemessen , einen zweiten nachfolgen zu lassen .
+2-1	111-113	Da	_	_
+2-2	114-118	mein	_	_
+2-3	119-126	letzter	_	_
+2-4	127-132	Brief	_	_
+2-5	133-135	in	_	_
+2-6	136-147	stürmischer	_	_
+2-7	148-152	Eile	_	_
+2-8	153-161	abgefaßt	_	_
+2-9	162-165	war	_	_
+2-10	166-167	,	_	_
+2-11	168-170	so	_	_
+2-12	171-176	halte	_	_
+2-13	177-180	ich	_	_
+2-14	181-183	es	_	_
+2-15	184-187	für	_	_
+2-16	188-198	angemessen	_	_
+2-17	199-200	,	_	_
+2-18	201-206	einen	_	_
+2-19	207-214	zweiten	_	_
+2-20	215-225	nachfolgen	_	_
+2-21	226-228	zu	_	_
+2-22	229-235	lassen	_	_
+2-23	236-237	.	_	_
+
+#Text=Auf meiner Abruzzenreise habe ich folgende Orte abgesucht : Sora , Avezzano , Alba und die umliegenden Casali , Pescina , San Benedetto .
+3-1	238-241	Auf	_	_
+3-2	242-248	meiner	_	_
+3-3	249-262	Abruzzenreise	_	_
+3-4	263-267	habe	_	_
+3-5	268-271	ich	_	_
+3-6	272-280	folgende	_	_
+3-7	281-285	Orte	_	_
+3-8	286-295	abgesucht	_	_
+3-9	296-297	:	_	_
+3-10	298-302	Sora	*	PLACEmentioned
+3-11	303-304	,	_	_
+3-12	305-313	Avezzano	*	PLACEmentioned
+3-13	314-315	,	_	_
+3-14	316-320	Alba	*	PLACEmentioned
+3-15	321-324	und	_	_
+3-16	325-328	die	_	_
+3-17	329-340	umliegenden	_	_
+3-18	341-347	Casali	*	PLACEmentioned
+3-19	348-349	,	_	_
+3-20	350-357	Pescina	*	PLACEmentioned
+3-21	358-359	,	_	_
+3-22	360-363	San	*[5]	PLACEmentioned[5]
+3-23	364-373	Benedetto	*[5]	PLACEmentioned[5]
+3-24	374-375	.	_	_
+
+#Text=Weiter nord und südwärts zu gehen war nicht möglich wegen des Brigantaggio , welcher seit den letzten Wochen durch neue Zusendungen über Subiaco mehr denn je in Blüthe steht .
+4-1	376-382	Weiter	_	_
+4-2	383-387	nord	_	_
+4-3	388-391	und	_	_
+4-4	392-400	südwärts	_	_
+4-5	401-403	zu	_	_
+4-6	404-409	gehen	_	_
+4-7	410-413	war	_	_
+4-8	414-419	nicht	_	_
+4-9	420-427	möglich	_	_
+4-10	428-433	wegen	_	_
+4-11	434-437	des	_	_
+4-12	438-450	Brigantaggio	_	_
+4-13	451-452	,	_	_
+4-14	453-460	welcher	_	_
+4-15	461-465	seit	_	_
+4-16	466-469	den	_	_
+4-17	470-477	letzten	_	_
+4-18	478-484	Wochen	_	_
+4-19	485-490	durch	_	_
+4-20	491-495	neue	_	_
+4-21	496-507	Zusendungen	_	_
+4-22	508-512	über	_	_
+4-23	513-520	Subiaco	*	PLACEmentioned
+4-24	521-525	mehr	_	_
+4-25	526-530	denn	_	_
+4-26	531-533	je	_	_
+4-27	534-536	in	_	_
+4-28	537-543	Blüthe	_	_
+4-29	544-549	steht	_	_
+4-30	550-551	.	_	_
+
+#Text=während meines Aufenthalts wurde die Truppe von Avezzano mit den Briganti handgemein und machte zwei davon zu Ge- £fangenen .
+5-1	552-559	während	_	_
+5-2	560-566	meines	_	_
+5-3	567-578	Aufenthalts	_	_
+5-4	579-584	wurde	_	_
+5-5	585-588	die	_	_
+5-6	589-595	Truppe	_	_
+5-7	596-599	von	_	_
+5-8	600-608	Avezzano	*	PLACEmentioned
+5-9	609-612	mit	_	_
+5-10	613-616	den	_	_
+5-11	617-625	Briganti	_	_
+5-12	626-636	handgemein	_	_
+5-13	637-640	und	_	_
+5-14	641-647	machte	_	_
+5-15	648-652	zwei	_	_
+5-16	653-658	davon	_	_
+5-17	659-661	zu	_	_
+5-18	662-665	Ge-	_	_
+5-19	666-675	£fangenen	_	_
+5-20	676-677	.	_	_
+
+#Text=Allenthalben ist die Nationalgarde mobil und in beinah ununterbrochenem Felddienste .
+6-1	678-690	Allenthalben	_	_
+6-2	691-694	ist	_	_
+6-3	695-698	die	_	_
+6-4	699-712	Nationalgarde	_	_
+6-5	713-718	mobil	_	_
+6-6	719-722	und	_	_
+6-7	723-725	in	_	_
+6-8	726-732	beinah	_	_
+6-9	733-749	ununterbrochenem	_	_
+6-10	750-761	Felddienste	_	_
+6-11	762-763	.	_	_
+
+#Text=Die Zeichnungen des Institutszeichners habe ich , soweit sie vollendet sind , revidirt .
+7-1	764-767	Die	_	_
+7-2	768-779	Zeichnungen	_	_
+7-3	780-783	des	_	_
+7-4	784-802	Institutszeichners	_	_
+7-5	803-807	habe	_	_
+7-6	808-811	ich	_	_
+7-7	812-813	,	_	_
+7-8	814-820	soweit	_	_
+7-9	821-824	sie	_	_
+7-10	825-834	vollendet	_	_
+7-11	835-839	sind	_	_
+7-12	840-841	,	_	_
+7-13	842-850	revidirt	_	_
+7-14	851-852	.	_	_
+
+#Text=Sie sind ausgezeichnet exact sowohl im Gesammtcharakter wie im Detail .
+8-1	853-856	Sie	_	_
+8-2	857-861	sind	_	_
+8-3	862-875	ausgezeichnet	_	_
+8-4	876-881	exact	_	_
+8-5	882-888	sowohl	_	_
+8-6	889-891	im	_	_
+8-7	892-908	Gesammtcharakter	_	_
+8-8	909-912	wie	_	_
+8-9	913-915	im	_	_
+8-10	916-922	Detail	_	_
+8-11	923-924	.	_	_
+
+#Text=In Neapel wird der Zeichner inclusive der Gegenstände , welche ich ihm zu zeichnen aufgebe , bis Mittwoch nächster Woche beschäftigt sein und demnach hierauf nach Pompei abreisen können .
+9-1	925-927	In	_	_
+9-2	928-934	Neapel	*	PLACEmentioned
+9-3	935-939	wird	_	_
+9-4	940-943	der	_	_
+9-5	944-952	Zeichner	_	_
+9-6	953-962	inclusive	_	_
+9-7	963-966	der	_	_
+9-8	967-978	Gegenstände	_	_
+9-9	979-980	,	_	_
+9-10	981-987	welche	_	_
+9-11	988-991	ich	_	_
+9-12	992-995	ihm	_	_
+9-13	996-998	zu	_	_
+9-14	999-1007	zeichnen	_	_
+9-15	1008-1015	aufgebe	_	_
+9-16	1016-1017	,	_	_
+9-17	1018-1021	bis	_	_
+9-18	1022-1030	Mittwoch	*	DATEmentioned
+9-19	1031-1039	nächster	_	_
+9-20	1040-1045	Woche	_	_
+9-21	1046-1057	beschäftigt	_	_
+9-22	1058-1062	sein	_	_
+9-23	1063-1066	und	_	_
+9-24	1067-1074	demnach	_	_
+9-25	1075-1082	hierauf	_	_
+9-26	1083-1087	nach	_	_
+9-27	1088-1094	Pompei	*	PLACEmentioned
+9-28	1095-1103	abreisen	_	_
+9-29	1104-1110	können	_	_
+9-30	1111-1112	.	_	_
+
+#Text=Leider werde ich dann noch nicht im Stande sein , mitgehen zu können .
+10-1	1113-1119	Leider	_	_
+10-2	1120-1125	werde	_	_
+10-3	1126-1129	ich	_	_
+10-4	1130-1134	dann	_	_
+10-5	1135-1139	noch	_	_
+10-6	1140-1145	nicht	_	_
+10-7	1146-1148	im	_	_
+10-8	1149-1155	Stande	_	_
+10-9	1156-1160	sein	_	_
+10-10	1161-1162	,	_	_
+10-11	1163-1171	mitgehen	_	_
+10-12	1172-1174	zu	_	_
+10-13	1175-1181	können	_	_
+10-14	1182-1183	.	_	_

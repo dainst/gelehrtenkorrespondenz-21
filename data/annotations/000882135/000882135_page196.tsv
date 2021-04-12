@@ -1,0 +1,288 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Rom , & .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-20	Rom	*	PLACEfrom
+1-5	21-22	,	_	_
+1-6	23-24	&	_	_
+1-7	25-26	.	_	_
+
+#Text=Februar 1840 Rom 6 Februar 1840 .
+2-1	27-34	Februar	*[4]	DATEletter[4]
+2-2	35-39	1840	*[4]	DATEletter[4]
+2-3	40-43	Rom	*	PLACEfrom
+2-4	44-45	6	*[6]	DATEletter[6]
+2-5	46-53	Februar	*[6]	DATEletter[6]
+2-6	54-58	1840	*[6]	DATEletter[6]
+2-7	59-60	.	_	_
+
+#Text=Hochverehrtester Herr und Freund !
+3-1	61-77	Hochverehrtester	_	_
+3-2	78-82	Herr	_	_
+3-3	83-86	und	_	_
+3-4	87-93	Freund	_	_
+3-5	94-95	!	_	_
+
+#Text=Vorerst meinen herzlichsten Dank für die übersandten 200 rt .
+4-1	96-103	Vorerst	_	_
+4-2	104-110	meinen	_	_
+4-3	111-123	herzlichsten	_	_
+4-4	124-128	Dank	_	_
+4-5	129-132	für	_	_
+4-6	133-136	die	_	_
+4-7	137-148	übersandten	_	_
+4-8	149-152	200	_	_
+4-9	153-155	rt	_	_
+4-10	156-157	.	_	_
+
+#Text=Sie kamen wie ein deus ex machina , da mir eben 2 Kisten angekündigt wurden , für die 50 Scudi Spesen zu entrichten sind .
+5-1	158-161	Sie	_	_
+5-2	162-167	kamen	_	_
+5-3	168-171	wie	_	_
+5-4	172-175	ein	_	_
+5-5	176-180	deus	_	_
+5-6	181-183	ex	_	_
+5-7	184-191	machina	_	_
+5-8	192-193	,	_	_
+5-9	194-196	da	_	_
+5-10	197-200	mir	_	_
+5-11	201-205	eben	_	_
+5-12	206-207	2	_	_
+5-13	208-214	Kisten	_	_
+5-14	215-226	angekündigt	_	_
+5-15	227-233	wurden	_	_
+5-16	234-235	,	_	_
+5-17	236-239	für	_	_
+5-18	240-243	die	_	_
+5-19	244-246	50	_	_
+5-20	247-252	Scudi	_	_
+5-21	253-259	Spesen	_	_
+5-22	260-262	zu	_	_
+5-23	263-273	entrichten	_	_
+5-24	274-278	sind	_	_
+5-25	279-280	.	_	_
+
+#Text=Die verlangte Quittung folgt angebogen .
+6-1	281-284	Die	_	_
+6-2	285-294	verlangte	_	_
+6-3	295-303	Quittung	_	_
+6-4	304-309	folgt	_	_
+6-5	310-319	angebogen	_	_
+6-6	320-321	.	_	_
+
+#Text=Unbegreiflich daß weder Avenarius aus Paris , sonoch sonst Jemand antwortet .
+7-1	322-335	Unbegreiflich	_	_
+7-2	336-339	daß	_	_
+7-3	340-345	weder	_	_
+7-4	346-355	Avenarius	*	PERmentioned
+7-5	356-359	aus	_	_
+7-6	360-365	Paris	*	PLACEmentioned
+7-7	366-367	,	_	_
+7-8	368-374	sonoch	_	_
+7-9	375-380	sonst	_	_
+7-10	381-387	Jemand	_	_
+7-11	388-397	antwortet	_	_
+7-12	398-399	.	_	_
+
+#Text=Der Postenverschub ist häufiger , aber die Häufigkeit unsrer Correspondenz steht damit im ungekehrten Verhältniß .
+8-1	400-403	Der	_	_
+8-2	404-418	Postenverschub	_	_
+8-3	419-422	ist	_	_
+8-4	423-431	häufiger	_	_
+8-5	432-433	,	_	_
+8-6	434-438	aber	_	_
+8-7	439-442	die	_	_
+8-8	443-453	Häufigkeit	_	_
+8-9	454-460	unsrer	_	_
+8-10	461-474	Correspondenz	_	_
+8-11	475-480	steht	_	_
+8-12	481-486	damit	_	_
+8-13	487-489	im	_	_
+8-14	490-501	ungekehrten	_	_
+8-15	502-512	Verhältniß	_	_
+8-16	513-514	.	_	_
+
+#Text=Kyphelides macht uns fortwährend Unehre in unseren wöchentlichen Sitzungen .
+9-1	515-525	Kyphelides	*	PERmentioned
+9-2	526-531	macht	_	_
+9-3	532-535	uns	_	_
+9-4	536-547	fortwährend	_	_
+9-5	548-554	Unehre	_	_
+9-6	555-557	in	_	_
+9-7	558-565	unseren	_	_
+9-8	566-579	wöchentlichen	_	_
+9-9	580-589	Sitzungen	_	_
+9-10	590-591	.	_	_
+
+#Text=Man muß sich bei einigermaßen erudirten Vorträgen Fragen von ihm gefallen lassen , die kein Gymnasiast thuen dürfte .
+10-1	592-595	Man	_	_
+10-2	596-599	muß	_	_
+10-3	600-604	sich	_	_
+10-4	605-608	bei	_	_
+10-5	609-621	einigermaßen	_	_
+10-6	622-631	erudirten	_	_
+10-7	632-641	Vorträgen	_	_
+10-8	642-648	Fragen	_	_
+10-9	649-652	von	_	_
+10-10	653-656	ihm	_	_
+10-11	657-665	gefallen	_	_
+10-12	666-672	lassen	_	_
+10-13	673-674	,	_	_
+10-14	675-678	die	_	_
+10-15	679-683	kein	_	_
+10-16	684-694	Gymnasiast	_	_
+10-17	695-700	thuen	_	_
+10-18	701-707	dürfte	_	_
+10-19	708-709	.	_	_
+
+#Text=Das ginge aber noch an \; weit schlimmer sind seine eigenen Vorträge , die mit Fredianischer , zuweilen mit Vescovalischer , manchmal sogar mit nicht viel freundlicherer Capranesischer Erudition ausstaffirt sind .
+11-1	710-713	Das	_	_
+11-2	714-719	ginge	_	_
+11-3	720-724	aber	_	_
+11-4	725-729	noch	_	_
+11-5	730-732	an	_	_
+11-6	733-734	\;	_	_
+11-7	735-739	weit	_	_
+11-8	740-749	schlimmer	_	_
+11-9	750-754	sind	_	_
+11-10	755-760	seine	_	_
+11-11	761-768	eigenen	_	_
+11-12	769-777	Vorträge	_	_
+11-13	778-779	,	_	_
+11-14	780-783	die	_	_
+11-15	784-787	mit	_	_
+11-16	788-801	Fredianischer	*	PERmentioned
+11-17	802-803	,	_	_
+11-18	804-812	zuweilen	_	_
+11-19	813-816	mit	_	_
+11-20	817-831	Vescovalischer	*	PERmentioned
+11-21	832-833	,	_	_
+11-22	834-842	manchmal	_	_
+11-23	843-848	sogar	_	_
+11-24	849-852	mit	_	_
+11-25	853-858	nicht	_	_
+11-26	859-863	viel	_	_
+11-27	864-878	freundlicherer	_	_
+11-28	879-893	Capranesischer	*	PERmentioned
+11-29	894-903	Erudition	_	_
+11-30	904-915	ausstaffirt	_	_
+11-31	916-920	sind	_	_
+11-32	921-922	.	_	_
+
+#Text=Manchmal möchte ich davonlaufen .
+12-1	923-931	Manchmal	_	_
+12-2	932-938	möchte	_	_
+12-3	939-942	ich	_	_
+12-4	943-954	davonlaufen	_	_
+12-5	955-956	.	_	_
+
+#Text=Der kleine Abeken ist dabei kein riesiger Schildträger .
+13-1	957-960	Der	_	_
+13-2	961-967	kleine	_	_
+13-3	968-974	Abeken	*	PERmentioned
+13-4	975-978	ist	_	_
+13-5	979-984	dabei	_	_
+13-6	985-989	kein	_	_
+13-7	990-998	riesiger	_	_
+13-8	999-1011	Schildträger	_	_
+13-9	1012-1013	.	_	_
+
+#Text=Wenn man z . B. die Beischrift einer sogenannten Pietä militare , erudirter Aiax und Achilleus welche M. SEMPRONIUS ( oder etwas der Art , mein Gedächtniß verläßt mich hier ) GEM .
+14-1	1014-1018	Wenn	_	_
+14-2	1019-1022	man	_	_
+14-3	1023-1024	z	_	_
+14-4	1025-1026	.	_	_
+14-5	1027-1029	B.	_	_
+14-6	1030-1033	die	_	_
+14-7	1034-1044	Beischrift	_	_
+14-8	1045-1050	einer	_	_
+14-9	1051-1062	sogenannten	_	_
+14-10	1063-1068	Pietä	_	_
+14-11	1069-1077	militare	_	_
+14-12	1078-1079	,	_	_
+14-13	1080-1089	erudirter	_	_
+14-14	1090-1094	Aiax	_	_
+14-15	1095-1098	und	_	_
+14-16	1099-1108	Achilleus	_	_
+14-17	1109-1115	welche	_	_
+14-18	1116-1118	M.	_	_
+14-19	1119-1129	SEMPRONIUS	_	_
+14-20	1130-1131	(	_	_
+14-21	1132-1136	oder	_	_
+14-22	1137-1142	etwas	_	_
+14-23	1143-1146	der	_	_
+14-24	1147-1150	Art	_	_
+14-25	1151-1152	,	_	_
+14-26	1153-1157	mein	_	_
+14-27	1158-1168	Gedächtniß	_	_
+14-28	1169-1176	verläßt	_	_
+14-29	1177-1181	mich	_	_
+14-30	1182-1186	hier	_	_
+14-31	1187-1188	)	_	_
+14-32	1189-1192	GEM	_	_
+14-33	1193-1194	.	_	_
+
+#Text=also Geminus lautet , durch Gemens , sage gemens statt lugens erklärt findet und diese Erklärung selbst bei leise angedeuteter Opposition festgehalten sieht , kann man dann wohl sagen daß man vor der Accademia del Campo Vaccino etwas voraus hat ?
+15-1	1195-1199	also	_	_
+15-2	1200-1207	Geminus	_	_
+15-3	1208-1214	lautet	_	_
+15-4	1215-1216	,	_	_
+15-5	1217-1222	durch	_	_
+15-6	1223-1229	Gemens	_	_
+15-7	1230-1231	,	_	_
+15-8	1232-1236	sage	_	_
+15-9	1237-1243	gemens	_	_
+15-10	1244-1249	statt	_	_
+15-11	1250-1256	lugens	_	_
+15-12	1257-1264	erklärt	_	_
+15-13	1265-1271	findet	_	_
+15-14	1272-1275	und	_	_
+15-15	1276-1281	diese	_	_
+15-16	1282-1291	Erklärung	_	_
+15-17	1292-1298	selbst	_	_
+15-18	1299-1302	bei	_	_
+15-19	1303-1308	leise	_	_
+15-20	1309-1321	angedeuteter	_	_
+15-21	1322-1332	Opposition	_	_
+15-22	1333-1345	festgehalten	_	_
+15-23	1346-1351	sieht	_	_
+15-24	1352-1353	,	_	_
+15-25	1354-1358	kann	_	_
+15-26	1359-1362	man	_	_
+15-27	1363-1367	dann	_	_
+15-28	1368-1372	wohl	_	_
+15-29	1373-1378	sagen	_	_
+15-30	1379-1382	daß	_	_
+15-31	1383-1386	man	_	_
+15-32	1387-1390	vor	_	_
+15-33	1391-1394	der	_	_
+15-34	1395-1404	Accademia	*[14]	ORGmentioned[14]
+15-35	1405-1408	del	*[14]	ORGmentioned[14]
+15-36	1409-1414	Campo	*[14]	ORGmentioned[14]
+15-37	1415-1422	Vaccino	*[14]	ORGmentioned[14]
+15-38	1423-1428	etwas	_	_
+15-39	1429-1435	voraus	_	_
+15-40	1436-1439	hat	_	_
+15-41	1440-1441	?	_	_
+
+#Text=Die Bemerkung , daß die Namen von Besitzern häufig , tausendfach auf geschnittenen Steinen vorkommen ,
+16-1	1442-1445	Die	_	_
+16-2	1446-1455	Bemerkung	_	_
+16-3	1456-1457	,	_	_
+16-4	1458-1461	daß	_	_
+16-5	1462-1465	die	_	_
+16-6	1466-1471	Namen	_	_
+16-7	1472-1475	von	_	_
+16-8	1476-1485	Besitzern	_	_
+16-9	1486-1492	häufig	_	_
+16-10	1493-1494	,	_	_
+16-11	1495-1506	tausendfach	_	_
+16-12	1507-1510	auf	_	_
+16-13	1511-1524	geschnittenen	_	_
+16-14	1525-1532	Steinen	_	_
+16-15	1533-1542	vorkommen	_	_
+16-16	1543-1544	,	_	_

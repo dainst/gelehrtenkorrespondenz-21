@@ -1,0 +1,44 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=Braun an Gerhard Dresden , 12 .
+1-1	0-5	Braun	*	PERauthor
+1-2	6-8	an	_	_
+1-3	9-16	Gerhard	*	PERaddressee
+1-4	17-24	Dresden	*	PLACEfrom
+1-5	25-26	,	_	_
+1-6	27-29	12	*[1]	DATEletter[1]
+1-7	30-31	.	*[1]	DATEletter[1]
+
+#Text=Januar 71833 - 3 .
+2-1	32-38	Januar	*[1]	DATEletter[1]
+2-2	39-44	71833	*[1]	DATEletter[1]
+2-3	45-46	-	_	_
+2-4	47-48	3	_	_
+2-5	49-50	.	_	_
+
+#Text=In der Hoffnung daß Sie diese Zeilen freundlich gestimmt und gesund und wohl treffen , verbleibe ich dero Freund und Schützling Emil Braun
+3-1	51-53	In	_	_
+3-2	54-57	der	_	_
+3-3	58-66	Hoffnung	_	_
+3-4	67-70	daß	_	_
+3-5	71-74	Sie	_	_
+3-6	75-80	diese	_	_
+3-7	81-87	Zeilen	_	_
+3-8	88-98	freundlich	_	_
+3-9	99-107	gestimmt	_	_
+3-10	108-111	und	_	_
+3-11	112-118	gesund	_	_
+3-12	119-122	und	_	_
+3-13	123-127	wohl	_	_
+3-14	128-135	treffen	_	_
+3-15	136-137	,	_	_
+3-16	138-147	verbleibe	_	_
+3-17	148-151	ich	_	_
+3-18	152-156	dero	_	_
+3-19	157-163	Freund	_	_
+3-20	164-167	und	_	_
+3-21	168-178	Schützling	_	_
+3-22	179-183	Emil	*[2]	PERauthor[2]
+3-23	184-189	Braun	*[2]	PERauthor[2]

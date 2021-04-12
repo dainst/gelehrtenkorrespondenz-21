@@ -1,0 +1,266 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=345 Brunn an Henzen Ariccia , 16 .
+1-1	0-3	345	_	_
+1-2	4-9	Brunn	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-19	Henzen	*	PERaddressee
+1-5	20-27	Ariccia	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	16	*[11]	DATEletter[11]
+1-8	33-34	.	*[11]	DATEletter[11]
+
+#Text=August 1860 17 .
+2-1	35-41	August	*[11]	DATEletter[11]
+2-2	42-46	1860	*[11]	DATEletter[11]
+2-3	47-49	17	*[12]	DATErecieved[12]
+2-4	50-51	.	*[12]	DATErecieved[12]
+
+#Text=August 1860 r . Lieber Henzen Ihr Freitagsbrief traf ein , als ich von Castel Gandolfo zurückkam .
+3-1	52-58	August	*[12]	DATErecieved[12]
+3-2	59-63	1860	*[12]	DATErecieved[12]
+3-3	64-65	r	_	_
+3-4	66-67	.	_	_
+3-5	68-74	Lieber	_	_
+3-6	75-81	Henzen	*	PERaddressee
+3-7	82-85	Ihr	_	_
+3-8	86-99	Freitagsbrief	_	_
+3-9	100-104	traf	_	_
+3-10	105-108	ein	_	_
+3-11	109-110	,	_	_
+3-12	111-114	als	_	_
+3-13	115-118	ich	_	_
+3-14	119-122	von	_	_
+3-15	123-129	Castel	*[13]	OBJ[13]
+3-16	130-138	Gandolfo	*[13]	OBJ[13]
+3-17	139-148	zurückkam	_	_
+3-18	149-150	.	_	_
+
+#Text=Die Nachrichten über meinen Vater lauten , wie es zu erwarten war , nicht sehr erfreulich : ohne daß neue Zufälle hinzugetreten wären , scheint es sich doch allmählich dem Ende zuzüneigen .
+4-1	151-154	Die	_	_
+4-2	155-166	Nachrichten	_	_
+4-3	167-171	über	_	_
+4-4	172-178	meinen	*[14]	PERmentioned[14]
+4-5	179-184	Vater	*[14]	PERmentioned[14]
+4-6	185-191	lauten	_	_
+4-7	192-193	,	_	_
+4-8	194-197	wie	_	_
+4-9	198-200	es	_	_
+4-10	201-203	zu	_	_
+4-11	204-212	erwarten	_	_
+4-12	213-216	war	_	_
+4-13	217-218	,	_	_
+4-14	219-224	nicht	_	_
+4-15	225-229	sehr	_	_
+4-16	230-240	erfreulich	_	_
+4-17	241-242	:	_	_
+4-18	243-247	ohne	_	_
+4-19	248-251	daß	_	_
+4-20	252-256	neue	_	_
+4-21	257-264	Zufälle	_	_
+4-22	265-278	hinzugetreten	_	_
+4-23	279-284	wären	_	_
+4-24	285-286	,	_	_
+4-25	287-294	scheint	_	_
+4-26	295-297	es	_	_
+4-27	298-302	sich	_	_
+4-28	303-307	doch	_	_
+4-29	308-318	allmählich	_	_
+4-30	319-322	dem	_	_
+4-31	323-327	Ende	_	_
+4-32	328-338	zuzüneigen	_	_
+4-33	339-340	.	_	_
+
+#Text=Hier geht es mit dem Jungen allmählich etwas besser \; ganz gut wird es aber wohl kaum werden , ehe nicht die Augenzähne durch sind .
+5-1	341-345	Hier	_	_
+5-2	346-350	geht	_	_
+5-3	351-353	es	_	_
+5-4	354-357	mit	_	_
+5-5	358-361	dem	_	_
+5-6	362-368	Jungen	_	_
+5-7	369-379	allmählich	_	_
+5-8	380-385	etwas	_	_
+5-9	386-392	besser	_	_
+5-10	393-394	\;	_	_
+5-11	395-399	ganz	_	_
+5-12	400-403	gut	_	_
+5-13	404-408	wird	_	_
+5-14	409-411	es	_	_
+5-15	412-416	aber	_	_
+5-16	417-421	wohl	_	_
+5-17	422-426	kaum	_	_
+5-18	427-433	werden	_	_
+5-19	434-435	,	_	_
+5-20	436-439	ehe	_	_
+5-21	440-445	nicht	_	_
+5-22	446-449	die	_	_
+5-23	450-460	Augenzähne	_	_
+5-24	461-466	durch	_	_
+5-25	467-471	sind	_	_
+5-26	472-473	.	_	_
+
+#Text=Am Tage ist er meist munter , in den letzten Nächten aber äußerst unruhig , so daß meine Frau ganz marode davon ist .
+6-1	474-476	Am	_	_
+6-2	477-481	Tage	_	_
+6-3	482-485	ist	_	_
+6-4	486-488	er	_	_
+6-5	489-494	meist	_	_
+6-6	495-501	munter	_	_
+6-7	502-503	,	_	_
+6-8	504-506	in	_	_
+6-9	507-510	den	_	_
+6-10	511-518	letzten	_	_
+6-11	519-526	Nächten	_	_
+6-12	527-531	aber	_	_
+6-13	532-539	äußerst	_	_
+6-14	540-547	unruhig	_	_
+6-15	548-549	,	_	_
+6-16	550-552	so	_	_
+6-17	553-556	daß	_	_
+6-18	557-562	meine	*[15]	PERmentioned[15]
+6-19	563-567	Frau	*[15]	PERmentioned[15]
+6-20	568-572	ganz	_	_
+6-21	573-579	marode	_	_
+6-22	580-585	davon	_	_
+6-23	586-589	ist	_	_
+6-24	590-591	.	_	_
+
+#Text=Doch nun genug der Klagen .
+7-1	592-596	Doch	_	_
+7-2	597-600	nun	_	_
+7-3	601-606	genug	_	_
+7-4	607-610	der	_	_
+7-5	611-617	Klagen	_	_
+7-6	618-619	.	_	_
+
+#Text=Sonst giebt es auch diesmal sehr wenig zu melden .
+8-1	620-625	Sonst	_	_
+8-2	626-631	giebt	_	_
+8-3	632-634	es	_	_
+8-4	635-639	auch	_	_
+8-5	640-647	diesmal	_	_
+8-6	648-652	sehr	_	_
+8-7	653-658	wenig	_	_
+8-8	659-661	zu	_	_
+8-9	662-668	melden	_	_
+8-10	669-670	.	_	_
+
+#Text=Die Quittung habe ich in Händen .
+9-1	671-674	Die	_	_
+9-2	675-683	Quittung	_	_
+9-3	684-688	habe	_	_
+9-4	689-692	ich	_	_
+9-5	693-695	in	_	_
+9-6	696-702	Händen	_	_
+9-7	703-704	.	_	_
+
+#Text=Dr. Alter scheint in Folge Ihrer Mittheilungen viel milder sestimmt und wünscht jetzt die St wenigstens in weit milderer Weise zu erledigen .
+10-1	705-708	Dr.	*[16]	PERmentioned[16]
+10-2	709-714	Alter	*[16]	PERmentioned[16]
+10-3	715-722	scheint	_	_
+10-4	723-725	in	_	_
+10-5	726-731	Folge	_	_
+10-6	732-737	Ihrer	_	_
+10-7	738-751	Mittheilungen	_	_
+10-8	752-756	viel	_	_
+10-9	757-763	milder	_	_
+10-10	764-772	sestimmt	_	_
+10-11	773-776	und	_	_
+10-12	777-784	wünscht	_	_
+10-13	785-790	jetzt	_	_
+10-14	791-794	die	_	_
+10-15	795-797	St	_	_
+10-16	798-808	wenigstens	_	_
+10-17	809-811	in	_	_
+10-18	812-816	weit	_	_
+10-19	817-825	milderer	_	_
+10-20	826-831	Weise	_	_
+10-21	832-834	zu	_	_
+10-22	835-844	erledigen	_	_
+10-23	845-846	.	_	_
+
+#Text=Näheres weiß ich nicht davon .
+11-1	847-854	Näheres	_	_
+11-2	855-859	weiß	_	_
+11-3	860-863	ich	_	_
+11-4	864-869	nicht	_	_
+11-5	870-875	davon	_	_
+11-6	876-877	.	_	_
+
+#Text=- Ich schicke einige Briefe , den an Roulez , da wir ja doch wohl abgemacht , daß ich schreiben sollte .
+12-1	878-879	-	_	_
+12-2	880-883	Ich	_	_
+12-3	884-891	schicke	_	_
+12-4	892-898	einige	_	_
+12-5	899-905	Briefe	_	_
+12-6	906-907	,	_	_
+12-7	908-911	den	_	_
+12-8	912-914	an	_	_
+12-9	915-921	Roulez	*	PERmentioned
+12-10	922-923	,	_	_
+12-11	924-926	da	_	_
+12-12	927-930	wir	_	_
+12-13	931-933	ja	_	_
+12-14	934-938	doch	_	_
+12-15	939-943	wohl	_	_
+12-16	944-953	abgemacht	_	_
+12-17	954-955	,	_	_
+12-18	956-959	daß	_	_
+12-19	960-963	ich	_	_
+12-20	964-973	schreiben	_	_
+12-21	974-980	sollte	_	_
+12-22	981-982	.	_	_
+
+#Text=Sofern Sie es etwa gethan , ist mein Brief überflüßig .
+13-1	983-989	Sofern	_	_
+13-2	990-993	Sie	_	_
+13-3	994-996	es	_	_
+13-4	997-1001	etwa	_	_
+13-5	1002-1008	gethan	_	_
+13-6	1009-1010	,	_	_
+13-7	1011-1014	ist	_	_
+13-8	1015-1019	mein	_	_
+13-9	1020-1025	Brief	_	_
+13-10	1026-1036	überflüßig	_	_
+13-11	1037-1038	.	_	_
+
+#Text=- Hercher werden Sie wahrscheinlich Sonnabend in Frascati sehen \; mich könnten Sie vielleicht Sonntag in Rocca di Papa treffen , wenn Sie , was ich freilich kaum voraussehe , ebenfalls dorthin wanderten .
+14-1	1039-1040	-	_	_
+14-2	1041-1048	Hercher	*	PERmentioned
+14-3	1049-1055	werden	_	_
+14-4	1056-1059	Sie	_	_
+14-5	1060-1074	wahrscheinlich	_	_
+14-6	1075-1084	Sonnabend	*	DATEmentioned
+14-7	1085-1087	in	_	_
+14-8	1088-1096	Frascati	*	PLACEmentioned
+14-9	1097-1102	sehen	_	_
+14-10	1103-1104	\;	_	_
+14-11	1105-1109	mich	_	_
+14-12	1110-1117	könnten	_	_
+14-13	1118-1121	Sie	_	_
+14-14	1122-1132	vielleicht	_	_
+14-15	1133-1140	Sonntag	*	DATEmentioned
+14-16	1141-1143	in	_	_
+14-17	1144-1149	Rocca	*[17]	PLACEmentioned[17]
+14-18	1150-1152	di	*[17]	PLACEmentioned[17]
+14-19	1153-1157	Papa	*[17]	PLACEmentioned[17]
+14-20	1158-1165	treffen	_	_
+14-21	1166-1167	,	_	_
+14-22	1168-1172	wenn	_	_
+14-23	1173-1176	Sie	_	_
+14-24	1177-1178	,	_	_
+14-25	1179-1182	was	_	_
+14-26	1183-1186	ich	_	_
+14-27	1187-1195	freilich	_	_
+14-28	1196-1200	kaum	_	_
+14-29	1201-1211	voraussehe	_	_
+14-30	1212-1213	,	_	_
+14-31	1214-1223	ebenfalls	_	_
+14-32	1224-1231	dorthin	_	_
+14-33	1232-1241	wanderten	_	_
+14-34	1242-1243	.	_	_
+
+#Text=-
+15-1	1244-1245	-	_	_

@@ -1,0 +1,231 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=1 Mommsen an Brunn Charlottenburg 26. September 1890 Lieber Freund , Poppes Zusammenstellung hat mir den besten Dank Eindruck gemacht , reich und doch knapp , die richtige Militärfeder .
+1-1	0-1	1	_	_
+1-2	2-9	Mommsen	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-18	Brunn	*	PERaddressee
+1-5	19-33	Charlottenburg	*	PLACEfrom
+1-6	34-37	26.	*[3]	DATEletter[3]
+1-7	38-47	September	*[3]	DATEletter[3]
+1-8	48-52	1890	*[3]	DATEletter[3]
+1-9	53-59	Lieber	_	_
+1-10	60-66	Freund	_	_
+1-11	67-68	,	_	_
+1-12	69-75	Poppes	*	PERmentioned
+1-13	76-92	Zusammenstellung	_	_
+1-14	93-96	hat	_	_
+1-15	97-100	mir	_	_
+1-16	101-104	den	_	_
+1-17	105-111	besten	_	_
+1-18	112-116	Dank	_	_
+1-19	117-125	Eindruck	_	_
+1-20	126-133	gemacht	_	_
+1-21	134-135	,	_	_
+1-22	136-141	reich	_	_
+1-23	142-145	und	_	_
+1-24	146-150	doch	_	_
+1-25	151-156	knapp	_	_
+1-26	157-158	,	_	_
+1-27	159-162	die	_	_
+1-28	163-171	richtige	_	_
+1-29	172-184	Militärfeder	_	_
+1-30	185-186	.	_	_
+
+#Text=Ich schicke sie zunächst an Zangemeister , auch damit sie für die übrige Zusammenstellung als Muster dient .
+2-1	187-190	Ich	_	_
+2-2	191-198	schicke	_	_
+2-3	199-202	sie	_	_
+2-4	203-211	zunächst	_	_
+2-5	212-214	an	_	_
+2-6	215-227	Zangemeister	*	PERmentioned
+2-7	228-229	,	_	_
+2-8	230-234	auch	_	_
+2-9	235-240	damit	_	_
+2-10	241-244	sie	_	_
+2-11	245-248	für	_	_
+2-12	249-252	die	_	_
+2-13	253-259	übrige	_	_
+2-14	260-276	Zusammenstellung	_	_
+2-15	277-280	als	_	_
+2-16	281-287	Muster	_	_
+2-17	288-293	dient	_	_
+2-18	294-295	.	_	_
+
+#Text=Ihm selbst habe ich ein Wort des Dankes geschrieben .
+3-1	296-299	Ihm	_	_
+3-2	300-306	selbst	_	_
+3-3	307-311	habe	_	_
+3-4	312-315	ich	_	_
+3-5	316-319	ein	_	_
+3-6	320-324	Wort	_	_
+3-7	325-328	des	_	_
+3-8	329-335	Dankes	_	_
+3-9	336-347	geschrieben	_	_
+3-10	348-349	.	_	_
+
+#Text=Herzog schreibt mir , daß der dortige Minister des Alwärtigen , als vorsichtiger Mann , auf den Wunsch seines Cultus = Collegadem preußischen Vorschlag zuzustimmen , wohl nicht anders erreichen werde , als nach vorheriger Anfrage , ob Bayern auch einverstanden sei .
+4-1	350-356	Herzog	*	PERmentioned
+4-2	357-365	schreibt	_	_
+4-3	366-369	mir	_	_
+4-4	370-371	,	_	_
+4-5	372-375	daß	_	_
+4-6	376-379	der	_	_
+4-7	380-387	dortige	_	_
+4-8	388-396	Minister	*[4]	PERmentioned[4]
+4-9	397-400	des	*[4]	PERmentioned[4]
+4-10	401-411	Alwärtigen	*[4]	PERmentioned[4]
+4-11	412-413	,	_	_
+4-12	414-417	als	_	_
+4-13	418-430	vorsichtiger	_	_
+4-14	431-435	Mann	_	_
+4-15	436-437	,	_	_
+4-16	438-441	auf	_	_
+4-17	442-445	den	_	_
+4-18	446-452	Wunsch	_	_
+4-19	453-459	seines	_	_
+4-20	460-466	Cultus	*[5]	PERmentioned[5]
+4-21	467-468	=	*[5]	PERmentioned[5]
+4-22	469-479	Collegadem	*[5]	PERmentioned[5]
+4-23	480-491	preußischen	_	_
+4-24	492-501	Vorschlag	_	_
+4-25	502-513	zuzustimmen	_	_
+4-26	514-515	,	_	_
+4-27	516-520	wohl	_	_
+4-28	521-526	nicht	_	_
+4-29	527-533	anders	_	_
+4-30	534-543	erreichen	_	_
+4-31	544-549	werde	_	_
+4-32	550-551	,	_	_
+4-33	552-555	als	_	_
+4-34	556-560	nach	_	_
+4-35	561-571	vorheriger	_	_
+4-36	572-579	Anfrage	_	_
+4-37	580-581	,	_	_
+4-38	582-584	ob	_	_
+4-39	585-591	Bayern	*	PLACEmentioned
+4-40	592-596	auch	_	_
+4-41	597-610	einverstanden	_	_
+4-42	611-614	sei	_	_
+4-43	615-616	.	_	_
+
+#Text=Daran wird die Sache nicht brechen .
+5-1	617-622	Daran	_	_
+5-2	623-627	wird	_	_
+5-3	628-631	die	_	_
+5-4	632-637	Sache	_	_
+5-5	638-643	nicht	_	_
+5-6	644-651	brechen	_	_
+5-7	652-653	.	_	_
+
+#Text=Im Vebrigen steht sie gut , so viel ich weiß , aber freilich steht sie , dann was man hier Geschäftsgang ” ennt , heißt so curare a non curando .
+6-1	654-656	Im	_	_
+6-2	657-665	Vebrigen	_	_
+6-3	666-671	steht	_	_
+6-4	672-675	sie	_	_
+6-5	676-679	gut	_	_
+6-6	680-681	,	_	_
+6-7	682-684	so	_	_
+6-8	685-689	viel	_	_
+6-9	690-693	ich	_	_
+6-10	694-698	weiß	_	_
+6-11	699-700	,	_	_
+6-12	701-705	aber	_	_
+6-13	706-714	freilich	_	_
+6-14	715-720	steht	_	_
+6-15	721-724	sie	_	_
+6-16	725-726	,	_	_
+6-17	727-731	dann	_	_
+6-18	732-735	was	_	_
+6-19	736-739	man	_	_
+6-20	740-744	hier	_	_
+6-21	745-758	Geschäftsgang	_	_
+6-22	759-760	”	_	_
+6-23	761-765	ennt	_	_
+6-24	766-767	,	_	_
+6-25	768-773	heißt	_	_
+6-26	774-776	so	_	_
+6-27	777-783	curare	_	_
+6-28	784-785	a	_	_
+6-29	786-789	non	_	_
+6-30	790-797	curando	_	_
+6-31	798-799	.	_	_
+
+#Text=Wir denken beide gern an unsre Münchner Tage zurück und insbesondere an die Freundschaft , die wir in der Schwabinger gefunden haben , Meine Frau ist leider nicht hier , sondern bei unserem schwer an Typhus erkrankten Konrad in Eberswalde .
+7-1	800-803	Wir	_	_
+7-2	804-810	denken	_	_
+7-3	811-816	beide	_	_
+7-4	817-821	gern	_	_
+7-5	822-824	an	_	_
+7-6	825-830	unsre	_	_
+7-7	831-839	Münchner	*	PLACEmentioned
+7-8	840-844	Tage	_	_
+7-9	845-851	zurück	_	_
+7-10	852-855	und	_	_
+7-11	856-868	insbesondere	_	_
+7-12	869-871	an	_	_
+7-13	872-875	die	_	_
+7-14	876-888	Freundschaft	_	_
+7-15	889-890	,	_	_
+7-16	891-894	die	_	_
+7-17	895-898	wir	_	_
+7-18	899-901	in	_	_
+7-19	902-905	der	_	_
+7-20	906-917	Schwabinger	*	PLACEmentioned
+7-21	918-926	gefunden	_	_
+7-22	927-932	haben	_	_
+7-23	933-934	,	_	_
+7-24	935-940	Meine	*[6]	PERmentioned[6]
+7-25	941-945	Frau	*[6]	PERmentioned[6]
+7-26	946-949	ist	_	_
+7-27	950-956	leider	_	_
+7-28	957-962	nicht	_	_
+7-29	963-967	hier	_	_
+7-30	968-969	,	_	_
+7-31	970-977	sondern	_	_
+7-32	978-981	bei	_	_
+7-33	982-989	unserem	_	_
+7-34	990-996	schwer	_	_
+7-35	997-999	an	_	_
+7-36	1000-1006	Typhus	_	_
+7-37	1007-1017	erkrankten	_	_
+7-38	1018-1024	Konrad	*	PERmentioned
+7-39	1025-1027	in	_	_
+7-40	1028-1038	Eberswalde	*	PLACEmentioned
+7-41	1039-1040	.	_	_
+
+#Text=Es kann gut gehen , aber auch anders kommen .
+8-1	1041-1043	Es	_	_
+8-2	1044-1048	kann	_	_
+8-3	1049-1052	gut	_	_
+8-4	1053-1058	gehen	_	_
+8-5	1059-1060	,	_	_
+8-6	1061-1065	aber	_	_
+8-7	1066-1070	auch	_	_
+8-8	1071-1077	anders	_	_
+8-9	1078-1084	kommen	_	_
+8-10	1085-1086	.	_	_
+
+#Text=Lebe wohl und empfiehl mich den Deinigen .
+9-1	1087-1091	Lebe	_	_
+9-2	1092-1096	wohl	_	_
+9-3	1097-1100	und	_	_
+9-4	1101-1109	empfiehl	_	_
+9-5	1110-1114	mich	_	_
+9-6	1115-1118	den	_	_
+9-7	1119-1127	Deinigen	_	_
+9-8	1128-1129	.	_	_
+
+#Text=Dein Th. Mommsen .
+10-1	1130-1134	Dein	_	_
+10-2	1135-1138	Th.	*[7]	PERauthor[7]
+10-3	1139-1146	Mommsen	*[7]	PERauthor[7]
+10-4	1147-1148	.	_	_
+
+#Text=Ch . 26/9 90
+11-1	1149-1151	Ch	*[9]	PLACEfrom[9]
+11-2	1152-1153	.	*[9]	PLACEfrom[9]
+11-3	1154-1158	26/9	*[8]	DATEletter[8]
+11-4	1159-1161	90	*[8]	DATEletter[8]

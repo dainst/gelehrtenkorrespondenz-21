@@ -1,0 +1,234 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=308 Helbig an Henzen Zürich , 19 .
+1-1	0-3	308	_	_
+1-2	4-10	Helbig	*	PERauthor
+1-3	11-13	an	_	_
+1-4	14-20	Henzen	*	PERaddressee
+1-5	21-27	Zürich	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-32	19	*[3]	DATEletter[3]
+1-8	33-34	.	*[3]	DATEletter[3]
+
+#Text=August 1870 zeichnet haben , dürfen wir es mit dem Manne nicht verderben .
+2-1	35-41	August	*[3]	DATEletter[3]
+2-2	42-46	1870	*[3]	DATEletter[3]
+2-3	47-55	zeichnet	_	_
+2-4	56-61	haben	_	_
+2-5	62-63	,	_	_
+2-6	64-70	dürfen	_	_
+2-7	71-74	wir	_	_
+2-8	75-77	es	_	_
+2-9	78-81	mit	_	_
+2-10	82-85	dem	_	_
+2-11	86-91	Manne	_	_
+2-12	92-97	nicht	_	_
+2-13	98-107	verderben	_	_
+2-14	108-109	.	_	_
+
+#Text=Seine Bronzen habe ich nachträglich noch zum größten Theile an die Östreicher verkauft .
+3-1	110-115	Seine	_	_
+3-2	116-123	Bronzen	*	OBJ
+3-3	124-128	habe	_	_
+3-4	129-132	ich	_	_
+3-5	133-145	nachträglich	_	_
+3-6	146-150	noch	_	_
+3-7	151-154	zum	_	_
+3-8	155-162	größten	_	_
+3-9	163-169	Theile	_	_
+3-10	170-172	an	_	_
+3-11	173-176	die	_	_
+3-12	177-187	Östreicher	_	_
+3-13	188-196	verkauft	_	_
+3-14	197-198	.	_	_
+
+#Text=Exemplare der Estratti meiner Cornetana hatte ich dem Courier zur Beförderung an Lepsius und Curtius hinterlassen .
+4-1	199-208	Exemplare	_	_
+4-2	209-212	der	_	_
+4-3	213-221	Estratti	_	_
+4-4	222-228	meiner	_	_
+4-5	229-238	Cornetana	_	_
+4-6	239-244	hatte	_	_
+4-7	245-248	ich	_	_
+4-8	249-252	dem	_	_
+4-9	253-260	Courier	_	_
+4-10	261-264	zur	_	_
+4-11	265-276	Beförderung	_	_
+4-12	277-279	an	_	_
+4-13	280-287	Lepsius	*	PERmentioned
+4-14	288-291	und	_	_
+4-15	292-299	Curtius	*	PERmentioned
+4-16	300-312	hinterlassen	_	_
+4-17	313-314	.	_	_
+
+#Text=Wenn dieselben eingetroffen sind , wäre es mir lieb , wenn Sie einmal in Berlin sondirten , was man zu der Neuerung der lithographischen Tafeln meint und ob man Alselben gelungen findet .
+5-1	315-319	Wenn	_	_
+5-2	320-329	dieselben	_	_
+5-3	330-342	eingetroffen	_	_
+5-4	343-347	sind	_	_
+5-5	348-349	,	_	_
+5-6	350-354	wäre	_	_
+5-7	355-357	es	_	_
+5-8	358-361	mir	_	_
+5-9	362-366	lieb	_	_
+5-10	367-368	,	_	_
+5-11	369-373	wenn	_	_
+5-12	374-377	Sie	_	_
+5-13	378-384	einmal	_	_
+5-14	385-387	in	_	_
+5-15	388-394	Berlin	*	PLACEmentioned
+5-16	395-404	sondirten	_	_
+5-17	405-406	,	_	_
+5-18	407-410	was	_	_
+5-19	411-414	man	_	_
+5-20	415-417	zu	_	_
+5-21	418-421	der	_	_
+5-22	422-430	Neuerung	_	_
+5-23	431-434	der	_	_
+5-24	435-451	lithographischen	_	_
+5-25	452-458	Tafeln	_	_
+5-26	459-464	meint	_	_
+5-27	465-468	und	_	_
+5-28	469-471	ob	_	_
+5-29	472-475	man	_	_
+5-30	476-484	Alselben	_	_
+5-31	485-493	gelungen	_	_
+5-32	494-500	findet	_	_
+5-33	501-502	.	_	_
+
+#Text=Bei der nervösen Athmosphäre , wie sie in der Metropole der Intelligenz herrscht , ist es immer gut , zu wissen , wie sich die Leute zum Gange der Dinge im Allgemeinen und namentlich gegenüber Neuerungen verhalten .
+6-1	503-506	Bei	_	_
+6-2	507-510	der	_	_
+6-3	511-519	nervösen	_	_
+6-4	520-531	Athmosphäre	_	_
+6-5	532-533	,	_	_
+6-6	534-537	wie	_	_
+6-7	538-541	sie	_	_
+6-8	542-544	in	_	_
+6-9	545-548	der	_	_
+6-10	549-558	Metropole	_	_
+6-11	559-562	der	_	_
+6-12	563-574	Intelligenz	_	_
+6-13	575-583	herrscht	_	_
+6-14	584-585	,	_	_
+6-15	586-589	ist	_	_
+6-16	590-592	es	_	_
+6-17	593-598	immer	_	_
+6-18	599-602	gut	_	_
+6-19	603-604	,	_	_
+6-20	605-607	zu	_	_
+6-21	608-614	wissen	_	_
+6-22	615-616	,	_	_
+6-23	617-620	wie	_	_
+6-24	621-625	sich	_	_
+6-25	626-629	die	_	_
+6-26	630-635	Leute	_	_
+6-27	636-639	zum	_	_
+6-28	640-645	Gange	_	_
+6-29	646-649	der	_	_
+6-30	650-655	Dinge	_	_
+6-31	656-658	im	_	_
+6-32	659-670	Allgemeinen	_	_
+6-33	671-674	und	_	_
+6-34	675-685	namentlich	_	_
+6-35	686-695	gegenüber	_	_
+6-36	696-706	Neuerungen	_	_
+6-37	707-716	verhalten	_	_
+6-38	717-718	.	_	_
+
+#Text=Da die Niederkunft meiner Frau um den 9 .
+7-1	719-721	Da	_	_
+7-2	722-725	die	_	_
+7-3	726-737	Niederkunft	_	_
+7-4	738-744	meiner	_	_
+7-5	745-749	Frau	_	_
+7-6	750-752	um	_	_
+7-7	753-756	den	_	_
+7-8	757-758	9	*[4]	DATEmentioned[4]
+7-9	759-760	.	*[4]	DATEmentioned[4]
+
+#Text=August nicht eingetreten ist , wird sie nunmehr wohl Anfang September Statt finden .
+8-1	761-767	August	*[4]	DATEmentioned[4]
+8-2	768-773	nicht	_	_
+8-3	774-785	eingetreten	_	_
+8-4	786-789	ist	_	_
+8-5	790-791	,	_	_
+8-6	792-796	wird	_	_
+8-7	797-800	sie	_	_
+8-8	801-808	nunmehr	_	_
+8-9	809-813	wohl	_	_
+8-10	814-820	Anfang	_	_
+8-11	821-830	September	*	DATEmentioned
+8-12	831-836	Statt	_	_
+8-13	837-843	finden	_	_
+8-14	844-845	.	_	_
+
+#Text=Ich schreibe Ihnen sofort , wie es gegangen .
+9-1	846-849	Ich	_	_
+9-2	850-858	schreibe	_	_
+9-3	859-864	Ihnen	_	_
+9-4	865-871	sofort	_	_
+9-5	872-873	,	_	_
+9-6	874-877	wie	_	_
+9-7	878-880	es	_	_
+9-8	881-889	gegangen	_	_
+9-9	890-891	.	_	_
+
+#Text=Beiliegende Zeilen bitte ich an Lepsius gelangen zu lassen , sie ihm , sollte er Berlin schon verlassen haben , nachzuschicken .
+10-1	892-903	Beiliegende	_	_
+10-2	904-910	Zeilen	_	_
+10-3	911-916	bitte	_	_
+10-4	917-920	ich	_	_
+10-5	921-923	an	_	_
+10-6	924-931	Lepsius	*	PERmentioned
+10-7	932-940	gelangen	_	_
+10-8	941-943	zu	_	_
+10-9	944-950	lassen	_	_
+10-10	951-952	,	_	_
+10-11	953-956	sie	_	_
+10-12	957-960	ihm	_	_
+10-13	961-962	,	_	_
+10-14	963-969	sollte	_	_
+10-15	970-972	er	_	_
+10-16	973-979	Berlin	*	PLACEmentioned
+10-17	980-985	schon	_	_
+10-18	986-995	verlassen	_	_
+10-19	996-1001	haben	_	_
+10-20	1002-1003	,	_	_
+10-21	1004-1018	nachzuschicken	_	_
+10-22	1019-1020	.	_	_
+
+#Text=Dieser Tag erhielt ich auch einen Brief von Lübke - doch ohne Nachricht von Fräulein Kopf .
+11-1	1021-1027	Dieser	_	_
+11-2	1028-1031	Tag	_	_
+11-3	1032-1039	erhielt	_	_
+11-4	1040-1043	ich	_	_
+11-5	1044-1048	auch	_	_
+11-6	1049-1054	einen	_	_
+11-7	1055-1060	Brief	_	_
+11-8	1061-1064	von	_	_
+11-9	1065-1070	Lübke	*	PERmentioned
+11-10	1071-1072	-	_	_
+11-11	1073-1077	doch	_	_
+11-12	1078-1082	ohne	_	_
+11-13	1083-1092	Nachricht	_	_
+11-14	1093-1096	von	_	_
+11-15	1097-1105	Fräulein	_	_
+11-16	1106-1110	Kopf	*	PERmentioned
+11-17	1111-1112	.	_	_
+
+#Text=Meine Frau grüßt vielmals .
+12-1	1113-1118	Meine	_	_
+12-2	1119-1123	Frau	_	_
+12-3	1124-1129	grüßt	_	_
+12-4	1130-1138	vielmals	_	_
+12-5	1139-1140	.	_	_
+
+#Text=Mit herzlichen Grüßen Ihr Helbig
+13-1	1141-1144	Mit	_	_
+13-2	1145-1155	herzlichen	_	_
+13-3	1156-1162	Grüßen	_	_
+13-4	1163-1166	Ihr	_	_
+13-5	1167-1173	Helbig	*	PERauthor

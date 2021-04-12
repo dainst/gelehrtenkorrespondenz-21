@@ -1,0 +1,244 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=423 Lepsius an Henzen Krummhübel , 5. September 1874 g . 10/9 74 r . 14/9 Krummhübel , den 5 .
+1-1	0-3	423	_	_
+1-2	4-11	Lepsius	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-21	Henzen	*	PERaddressee
+1-5	22-32	Krummhübel	*	PLACEfrom
+1-6	33-34	,	_	_
+1-7	35-37	5.	*[3]	DATEletter[3]
+1-8	38-47	September	*[3]	DATEletter[3]
+1-9	48-52	1874	*[3]	DATEletter[3]
+1-10	53-54	g	_	_
+1-11	55-56	.	_	_
+1-12	57-61	10/9	*[4]	DATErecieved[4]
+1-13	62-64	74	*[4]	DATErecieved[4]
+1-14	65-66	r	_	_
+1-15	67-68	.	_	_
+1-16	69-73	14/9	*	DATEanswered
+1-17	74-84	Krummhübel	*	PLACEfrom
+1-18	85-86	,	_	_
+1-19	87-90	den	_	_
+1-20	91-92	5	*[5]	DATEletter[5]
+1-21	93-94	.	*[5]	DATEletter[5]
+
+#Text=Sept .
+2-1	95-99	Sept	*[5]	DATEletter[5]
+2-2	100-101	.	*[5]	DATEletter[5]
+
+#Text=1874 .
+3-1	102-106	1874	*[5]	DATEletter[5]
+3-2	107-108	.	_	_
+
+#Text=Verehrter Freund Ich werde heute vom Ministerium an die von Laspeyres wieder einzusendenden Papiere die Justificirung der an ihn geleisteten Zahlungen betreffend erinnert , und habe es vorläufig auf Ihre Antwort auf meinen Brief vom 11 .
+4-1	109-118	Verehrter	_	_
+4-2	119-125	Freund	_	_
+4-3	126-129	Ich	_	_
+4-4	130-135	werde	_	_
+4-5	136-141	heute	_	_
+4-6	142-145	vom	_	_
+4-7	146-157	Ministerium	*	ORGmentioned
+4-8	158-160	an	_	_
+4-9	161-164	die	_	_
+4-10	165-168	von	_	_
+4-11	169-178	Laspeyres	*	PERmentioned
+4-12	179-185	wieder	_	_
+4-13	186-200	einzusendenden	_	_
+4-14	201-208	Papiere	_	_
+4-15	209-212	die	_	_
+4-16	213-226	Justificirung	_	_
+4-17	227-230	der	_	_
+4-18	231-233	an	_	_
+4-19	234-237	ihn	_	_
+4-20	238-249	geleisteten	_	_
+4-21	250-259	Zahlungen	_	_
+4-22	260-270	betreffend	_	_
+4-23	271-279	erinnert	_	_
+4-24	280-281	,	_	_
+4-25	282-285	und	_	_
+4-26	286-290	habe	_	_
+4-27	291-293	es	_	_
+4-28	294-303	vorläufig	_	_
+4-29	304-307	auf	_	_
+4-30	308-312	Ihre	_	_
+4-31	313-320	Antwort	_	_
+4-32	321-324	auf	_	_
+4-33	325-331	meinen	_	_
+4-34	332-337	Brief	_	_
+4-35	338-341	vom	_	_
+4-36	342-344	11	*[6]	DATEmentioned[6]
+4-37	345-346	.	*[6]	DATEmentioned[6]
+
+#Text=August vertröstet .
+5-1	347-353	August	*[6]	DATEmentioned[6]
+5-2	354-364	vertröstet	_	_
+5-3	365-366	.	_	_
+
+#Text=Wollen Sie mich daher recht bald in den Stand setzen , eine positivere Antwort zu geben .
+6-1	367-373	Wollen	_	_
+6-2	374-377	Sie	_	_
+6-3	378-382	mich	_	_
+6-4	383-388	daher	_	_
+6-5	389-394	recht	_	_
+6-6	395-399	bald	_	_
+6-7	400-402	in	_	_
+6-8	403-406	den	_	_
+6-9	407-412	Stand	_	_
+6-10	413-419	setzen	_	_
+6-11	420-421	,	_	_
+6-12	422-426	eine	_	_
+6-13	427-437	positivere	_	_
+6-14	438-445	Antwort	_	_
+6-15	446-448	zu	_	_
+6-16	449-454	geben	_	_
+6-17	455-456	.	_	_
+
+#Text=laspeyres war in dieser Zeit wahrscheinlich gar nicht in Rom .
+7-1	457-466	laspeyres	*	PERmentioned
+7-2	467-470	war	_	_
+7-3	471-473	in	_	_
+7-4	474-480	dieser	_	_
+7-5	481-485	Zeit	_	_
+7-6	486-500	wahrscheinlich	_	_
+7-7	501-504	gar	_	_
+7-8	505-510	nicht	_	_
+7-9	511-513	in	_	_
+7-10	514-517	Rom	*	PLACEmentioned
+7-11	518-519	.	_	_
+
+#Text=- Ich hatte in demselben Briefe auch um Kopie der Hauspläne für die Central Direktion gebeten .
+8-1	520-521	-	_	_
+8-2	522-525	Ich	_	_
+8-3	526-531	hatte	_	_
+8-4	532-534	in	_	_
+8-5	535-544	demselben	_	_
+8-6	545-551	Briefe	_	_
+8-7	552-556	auch	_	_
+8-8	557-559	um	_	_
+8-9	560-565	Kopie	_	_
+8-10	566-569	der	_	_
+8-11	570-579	Hauspläne	_	_
+8-12	580-583	für	_	_
+8-13	584-587	die	_	_
+8-14	588-595	Central	*[7]	ORGmentioned[7]
+8-15	596-605	Direktion	*[7]	ORGmentioned[7]
+8-16	606-613	gebeten	_	_
+8-17	614-615	.	_	_
+
+#Text=Seit Mitte September bin ich hier in balsanmischer Bergluft am Fuße der Schneekappe und inmitten des herrlichsten Panoramas , mit meiner zweiten Tochter .
+9-1	616-620	Seit	_	_
+9-2	621-626	Mitte	*[8]	DATEmentioned[8]
+9-3	627-636	September	*[8]	DATEmentioned[8]
+9-4	637-640	bin	_	_
+9-5	641-644	ich	_	_
+9-6	645-649	hier	_	_
+9-7	650-652	in	_	_
+9-8	653-666	balsanmischer	_	_
+9-9	667-675	Bergluft	_	_
+9-10	676-678	am	_	_
+9-11	679-683	Fuße	_	_
+9-12	684-687	der	_	_
+9-13	688-699	Schneekappe	_	_
+9-14	700-703	und	_	_
+9-15	704-712	inmitten	_	_
+9-16	713-716	des	_	_
+9-17	717-729	herrlichsten	_	_
+9-18	730-739	Panoramas	_	_
+9-19	740-741	,	_	_
+9-20	742-745	mit	_	_
+9-21	746-752	meiner	_	_
+9-22	753-760	zweiten	_	_
+9-23	761-768	Tochter	_	_
+9-24	769-770	.	_	_
+
+#Text=Ich muß aber schon wieder an den Abzug denken , da ich am 15.® a. in London zum Orientalisten Kongreß sein soll , wohin ich meinen ältesten Sohn und sehr jungen Doktor - er ist Geolog -— mitnehmen will um ihn mit einigen Englischen Meistern seines Faches bekannt zu machen .
+10-1	771-774	Ich	_	_
+10-2	775-778	muß	_	_
+10-3	779-783	aber	_	_
+10-4	784-789	schon	_	_
+10-5	790-796	wieder	_	_
+10-6	797-799	an	_	_
+10-7	800-803	den	_	_
+10-8	804-809	Abzug	_	_
+10-9	810-816	denken	_	_
+10-10	817-818	,	_	_
+10-11	819-821	da	_	_
+10-12	822-825	ich	_	_
+10-13	826-828	am	_	_
+10-14	829-833	15.®	*[9]	DATEmentioned[9]
+10-15	834-836	a.	_	_
+10-16	837-839	in	_	_
+10-17	840-846	London	*	PLACEmentioned
+10-18	847-850	zum	_	_
+10-19	851-864	Orientalisten	_	_
+10-20	865-872	Kongreß	_	_
+10-21	873-877	sein	_	_
+10-22	878-882	soll	_	_
+10-23	883-884	,	_	_
+10-24	885-890	wohin	_	_
+10-25	891-894	ich	_	_
+10-26	895-901	meinen	_	_
+10-27	902-910	ältesten	_	_
+10-28	911-915	Sohn	_	_
+10-29	916-919	und	_	_
+10-30	920-924	sehr	_	_
+10-31	925-931	jungen	_	_
+10-32	932-938	Doktor	_	_
+10-33	939-940	-	_	_
+10-34	941-943	er	_	_
+10-35	944-947	ist	_	_
+10-36	948-954	Geolog	_	_
+10-37	955-957	-—	_	_
+10-38	958-967	mitnehmen	_	_
+10-39	968-972	will	_	_
+10-40	973-975	um	_	_
+10-41	976-979	ihn	_	_
+10-42	980-983	mit	_	_
+10-43	984-991	einigen	_	_
+10-44	992-1002	Englischen	_	_
+10-45	1003-1011	Meistern	_	_
+10-46	1012-1018	seines	_	_
+10-47	1019-1025	Faches	_	_
+10-48	1026-1033	bekannt	_	_
+10-49	1034-1036	zu	_	_
+10-50	1037-1043	machen	_	_
+10-51	1044-1045	.	_	_
+
+#Text=Ich schrieb Ihnen , daß ich die Geschäfte des Instituts officiell an Hercher übergeben habe .
+11-1	1046-1049	Ich	_	_
+11-2	1050-1057	schrieb	_	_
+11-3	1058-1063	Ihnen	_	_
+11-4	1064-1065	,	_	_
+11-5	1066-1069	daß	_	_
+11-6	1070-1073	ich	_	_
+11-7	1074-1077	die	_	_
+11-8	1078-1087	Geschäfte	_	_
+11-9	1088-1091	des	_	_
+11-10	1092-1101	Instituts	*	ORGmentioned
+11-11	1102-1111	officiell	_	_
+11-12	1112-1114	an	_	_
+11-13	1115-1122	Hercher	*	PERmentioned
+11-14	1123-1132	übergeben	_	_
+11-15	1133-1137	habe	_	_
+11-16	1138-1139	.	_	_
+
+#Text=Wenn Sie mir aber selber - 2 .
+12-1	1140-1144	Wenn	_	_
+12-2	1145-1148	Sie	_	_
+12-3	1149-1152	mir	_	_
+12-4	1153-1157	aber	_	_
+12-5	1158-1164	selber	_	_
+12-6	1165-1166	-	_	_
+12-7	1167-1168	2	_	_
+12-8	1169-1170	.	_	_
+
+#Text=B. über die obige Angelegenheit zu
+13-1	1171-1173	B.	_	_
+13-2	1174-1178	über	_	_
+13-3	1179-1182	die	_	_
+13-4	1183-1188	obige	_	_
+13-5	1189-1202	Angelegenheit	_	_
+13-6	1203-1205	zu	_	_

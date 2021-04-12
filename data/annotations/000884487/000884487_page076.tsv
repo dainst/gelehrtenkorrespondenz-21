@@ -1,0 +1,62 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=164 Gerhard an Braun Berlin , 26. Mai 1836 Kellermann ist hier wohlauf \; er wird es wol ein paar Monate hier treiben .
+1-1	0-3	164	_	_
+1-2	4-11	Gerhard	*	PERauthor
+1-3	12-14	an	_	_
+1-4	15-20	Braun	*	PERaddressee
+1-5	21-27	Berlin	*	PLACEfrom
+1-6	28-29	,	_	_
+1-7	30-33	26.	*[4]	DATEletter[4]
+1-8	34-37	Mai	*[4]	DATEletter[4]
+1-9	38-42	1836	*[4]	DATEletter[4]
+1-10	43-53	Kellermann	*	PERmentioned
+1-11	54-57	ist	_	_
+1-12	58-62	hier	_	_
+1-13	63-70	wohlauf	_	_
+1-14	71-72	\;	_	_
+1-15	73-75	er	_	_
+1-16	76-80	wird	_	_
+1-17	81-83	es	_	_
+1-18	84-87	wol	_	_
+1-19	88-91	ein	_	_
+1-20	92-96	paar	_	_
+1-21	97-103	Monate	_	_
+1-22	104-108	hier	_	_
+1-23	109-116	treiben	_	_
+1-24	117-118	.	_	_
+
+#Text=Auch die beiden guten Ungarn , Fejervany cum puera waren hier und gehn über London und Lissabon nach Rom .
+2-1	119-123	Auch	_	_
+2-2	124-127	die	_	_
+2-3	128-134	beiden	_	_
+2-4	135-140	guten	_	_
+2-5	141-147	Ungarn	*	PLACEmentioned
+2-6	148-149	,	_	_
+2-7	150-159	Fejervany	*	PERmentioned
+2-8	160-163	cum	_	_
+2-9	164-169	puera	_	_
+2-10	170-175	waren	_	_
+2-11	176-180	hier	_	_
+2-12	181-184	und	_	_
+2-13	185-189	gehn	_	_
+2-14	190-194	über	_	_
+2-15	195-201	London	*	PLACEmentioned
+2-16	202-205	und	_	_
+2-17	206-214	Lissabon	*	PLACEmentioned
+2-18	215-219	nach	_	_
+2-19	220-223	Rom	*	PLACEmentioned
+2-20	224-225	.	_	_
+
+#Text=Gott mit Ihnen !
+3-1	226-230	Gott	_	_
+3-2	231-234	mit	_	_
+3-3	235-240	Ihnen	_	_
+3-4	241-242	!	_	_
+
+#Text=Ihr Freund Gerhard
+4-1	243-246	Ihr	_	_
+4-2	247-253	Freund	_	_
+4-3	254-261	Gerhard	*	PERauthor

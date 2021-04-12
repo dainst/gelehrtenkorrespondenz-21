@@ -1,0 +1,256 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=webanno.custom.LetterEntity|entity_id|value
+
+
+#Text=349 Braun an Gerhard .
+1-1	0-3	349	_	_
+1-2	4-9	Braun	*	PERauthor
+1-3	10-12	an	_	_
+1-4	13-20	Gerhard	*	PERaddressee
+1-5	21-22	.	_	_
+
+#Text=Prof. Gerhard Rom , 27. April 1835 : 2 .
+2-1	23-28	Prof.	*[1]	PERaddressee[1]
+2-2	29-36	Gerhard	*[1]	PERaddressee[1]
+2-3	37-40	Rom	*	PLACEfrom
+2-4	41-42	,	_	_
+2-5	43-46	27.	*[2]	DATEletter[2]
+2-6	47-52	April	*[2]	DATEletter[2]
+2-7	53-57	1835	*[2]	DATEletter[2]
+2-8	58-59	:	_	_
+2-9	60-61	2	_	_
+2-10	62-63	.	_	_
+
+#Text=Appa !
+3-1	64-68	Appa	_	_
+3-2	69-70	!	_	_
+
+#Text=Roma li 2 Aprile 1835 .
+4-1	71-75	Roma	*	PLACEfrom
+4-2	76-78	li	_	_
+4-3	79-80	2	*[3]	DATEletter[3]
+4-4	81-87	Aprile	*[3]	DATEletter[3]
+4-5	88-92	1835	*[3]	DATEletter[3]
+4-6	93-94	.	_	_
+
+#Text=Durands Tod ist die neuste und traurigste Nachricht , die ich Ihnen schreiben kann .
+5-1	95-102	Durands	*	PERmentioned
+5-2	103-106	Tod	_	_
+5-3	107-110	ist	_	_
+5-4	111-114	die	_	_
+5-5	115-121	neuste	_	_
+5-6	122-125	und	_	_
+5-7	126-136	traurigste	_	_
+5-8	137-146	Nachricht	_	_
+5-9	147-148	,	_	_
+5-10	149-152	die	_	_
+5-11	153-156	ich	_	_
+5-12	157-162	Ihnen	_	_
+5-13	163-172	schreiben	_	_
+5-14	173-177	kann	_	_
+5-15	178-179	.	_	_
+
+#Text=Er war nach Florenz mit Vetturingelegenheit in Gesellschaft des Dr. Pizzati gegangen .
+6-1	180-182	Er	_	_
+6-2	183-186	war	_	_
+6-3	187-191	nach	_	_
+6-4	192-199	Florenz	*	PLACEmentioned
+6-5	200-203	mit	_	_
+6-6	204-223	Vetturingelegenheit	_	_
+6-7	224-226	in	_	_
+6-8	227-239	Gesellschaft	_	_
+6-9	240-243	des	_	_
+6-10	244-247	Dr.	*[4]	PERmentioned[4]
+6-11	248-255	Pizzati	*[4]	PERmentioned[4]
+6-12	256-264	gegangen	_	_
+6-13	265-266	.	_	_
+
+#Text=Ha voluto fare un pranzo sontuoso e poi uscito , mentre che parlava col vetturino per partire per Genova , — Bruchkolik , fürchterliche Schmerzen , Brand der Hoden und Tod .
+7-1	267-269	Ha	_	_
+7-2	270-276	voluto	_	_
+7-3	277-281	fare	_	_
+7-4	282-284	un	_	_
+7-5	285-291	pranzo	_	_
+7-6	292-300	sontuoso	_	_
+7-7	301-302	e	_	_
+7-8	303-306	poi	_	_
+7-9	307-313	uscito	_	_
+7-10	314-315	,	_	_
+7-11	316-322	mentre	_	_
+7-12	323-326	che	_	_
+7-13	327-334	parlava	_	_
+7-14	335-338	col	_	_
+7-15	339-348	vetturino	_	_
+7-16	349-352	per	_	_
+7-17	353-360	partire	_	_
+7-18	361-364	per	_	_
+7-19	365-371	Genova	*	PLACEmentioned
+7-20	372-373	,	_	_
+7-21	374-375	—	_	_
+7-22	376-386	Bruchkolik	_	_
+7-23	387-388	,	_	_
+7-24	389-402	fürchterliche	_	_
+7-25	403-412	Schmerzen	_	_
+7-26	413-414	,	_	_
+7-27	415-420	Brand	_	_
+7-28	421-424	der	_	_
+7-29	425-430	Hoden	_	_
+7-30	431-434	und	_	_
+7-31	435-438	Tod	_	_
+7-32	439-440	.	_	_
+
+#Text=man wen nun man rat rn Hemie man aan mern ren mu dantr mein ai A a an Ecco il nostro Bullettino , nun riuscito bene pero .
+8-1	441-444	man	_	_
+8-2	445-448	wen	_	_
+8-3	449-452	nun	_	_
+8-4	453-456	man	_	_
+8-5	457-460	rat	_	_
+8-6	461-463	rn	_	_
+8-7	464-469	Hemie	_	_
+8-8	470-473	man	_	_
+8-9	474-477	aan	_	_
+8-10	478-482	mern	_	_
+8-11	483-486	ren	_	_
+8-12	487-489	mu	_	_
+8-13	490-495	dantr	_	_
+8-14	496-500	mein	_	_
+8-15	501-503	ai	_	_
+8-16	504-505	A	_	_
+8-17	506-507	a	_	_
+8-18	508-510	an	_	_
+8-19	511-515	Ecco	_	_
+8-20	516-518	il	_	_
+8-21	519-525	nostro	_	_
+8-22	526-536	Bullettino	*	LIT
+8-23	537-538	,	_	_
+8-24	539-542	nun	_	_
+8-25	543-551	riuscito	_	_
+8-26	552-556	bene	_	_
+8-27	557-561	pero	_	_
+8-28	562-563	.	_	_
+
+#Text=Lanci hat sich von allen freiwiligen Hülfsleistungen zurückgezogen \; Bunsen ordnet an und wirft dann auf halbem Weg die Last der Ausführung auf mich , Dazu überbeschäftigte Drucker etc. Pazienza \| Von Baseggio habe ich Ihnen , so Sie es wollen und mögen , 3 Bronzefigürchen ( 2 Zusammengehörige 1 Flötenspieler und 1 mit Castagnetten \; der 3. in singender Stellung .
+9-1	564-569	Lanci	*	PERmentioned
+9-2	570-573	hat	_	_
+9-3	574-578	sich	_	_
+9-4	579-582	von	_	_
+9-5	583-588	allen	_	_
+9-6	589-600	freiwiligen	_	_
+9-7	601-616	Hülfsleistungen	_	_
+9-8	617-630	zurückgezogen	_	_
+9-9	631-632	\;	_	_
+9-10	633-639	Bunsen	*	PERmentioned
+9-11	640-646	ordnet	_	_
+9-12	647-649	an	_	_
+9-13	650-653	und	_	_
+9-14	654-659	wirft	_	_
+9-15	660-664	dann	_	_
+9-16	665-668	auf	_	_
+9-17	669-675	halbem	_	_
+9-18	676-679	Weg	_	_
+9-19	680-683	die	_	_
+9-20	684-688	Last	_	_
+9-21	689-692	der	_	_
+9-22	693-703	Ausführung	_	_
+9-23	704-707	auf	_	_
+9-24	708-712	mich	_	_
+9-25	713-714	,	_	_
+9-26	715-719	Dazu	_	_
+9-27	720-736	überbeschäftigte	_	_
+9-28	737-744	Drucker	_	_
+9-29	745-749	etc.	_	_
+9-30	750-758	Pazienza	_	_
+9-31	759-760	\|	_	_
+9-32	761-764	Von	_	_
+9-33	765-773	Baseggio	*	PERmentioned
+9-34	774-778	habe	_	_
+9-35	779-782	ich	_	_
+9-36	783-788	Ihnen	_	_
+9-37	789-790	,	_	_
+9-38	791-793	so	_	_
+9-39	794-797	Sie	_	_
+9-40	798-800	es	_	_
+9-41	801-807	wollen	_	_
+9-42	808-811	und	_	_
+9-43	812-817	mögen	_	_
+9-44	818-819	,	_	_
+9-45	820-821	3	_	_
+9-46	822-837	Bronzefigürchen	*	OBJ
+9-47	838-839	(	_	_
+9-48	840-841	2	_	_
+9-49	842-858	Zusammengehörige	_	_
+9-50	859-860	1	_	_
+9-51	861-874	Flötenspieler	*	OBJ
+9-52	875-878	und	_	_
+9-53	879-880	1	_	_
+9-54	881-884	mit	_	_
+9-55	885-897	Castagnetten	*	OBJ
+9-56	898-899	\;	_	_
+9-57	900-903	der	_	_
+9-58	904-906	3.	_	_
+9-59	907-909	in	*[5]	OBJ[5]
+9-60	910-919	singender	*[5]	OBJ[5]
+9-61	920-928	Stellung	*[5]	OBJ[5]
+9-62	929-930	.	_	_
+
+#Text=Die beiden ersten vorzüglich gar graziös und lieb ) 2 Knochenlöffel , 1 kkiner Hund in gebeizten Knochen ( nicht Relief ) 1 testa da faccia ebenfalls v. Knochen , und verschiedene Fragmente einer Cassette gekauft : S. 20 Da es bei diesem treuherzigen Grobian Zeit hat , so hoffe ich kommt Ihnen der Ankauf recht .
+10-1	931-934	Die	_	_
+10-2	935-941	beiden	_	_
+10-3	942-948	ersten	_	_
+10-4	949-959	vorzüglich	_	_
+10-5	960-963	gar	_	_
+10-6	964-971	graziös	_	_
+10-7	972-975	und	_	_
+10-8	976-980	lieb	_	_
+10-9	981-982	)	_	_
+10-10	983-984	2	_	_
+10-11	985-998	Knochenlöffel	*	OBJ
+10-12	999-1000	,	_	_
+10-13	1001-1002	1	_	_
+10-14	1003-1009	kkiner	*[6]	OBJ[6]
+10-15	1010-1014	Hund	*[6]	OBJ[6]
+10-16	1015-1017	in	_	_
+10-17	1018-1027	gebeizten	_	_
+10-18	1028-1035	Knochen	_	_
+10-19	1036-1037	(	_	_
+10-20	1038-1043	nicht	_	_
+10-21	1044-1050	Relief	_	_
+10-22	1051-1052	)	_	_
+10-23	1053-1054	1	_	_
+10-24	1055-1060	testa	*[7]	OBJ[7]
+10-25	1061-1063	da	*[7]	OBJ[7]
+10-26	1064-1070	faccia	*[7]	OBJ[7]
+10-27	1071-1080	ebenfalls	_	_
+10-28	1081-1083	v.	_	_
+10-29	1084-1091	Knochen	_	_
+10-30	1092-1093	,	_	_
+10-31	1094-1097	und	_	_
+10-32	1098-1110	verschiedene	*[8]	OBJ[8]
+10-33	1111-1120	Fragmente	*[8]	OBJ[8]
+10-34	1121-1126	einer	*[8]	OBJ[8]
+10-35	1127-1135	Cassette	*[8]	OBJ[8]
+10-36	1136-1143	gekauft	_	_
+10-37	1144-1145	:	_	_
+10-38	1146-1148	S.	_	_
+10-39	1149-1151	20	_	_
+10-40	1152-1154	Da	_	_
+10-41	1155-1157	es	_	_
+10-42	1158-1161	bei	_	_
+10-43	1162-1168	diesem	_	_
+10-44	1169-1181	treuherzigen	_	_
+10-45	1182-1189	Grobian	_	_
+10-46	1190-1194	Zeit	_	_
+10-47	1195-1198	hat	_	_
+10-48	1199-1200	,	_	_
+10-49	1201-1203	so	_	_
+10-50	1204-1209	hoffe	_	_
+10-51	1210-1213	ich	_	_
+10-52	1214-1219	kommt	_	_
+10-53	1220-1225	Ihnen	_	_
+10-54	1226-1229	der	_	_
+10-55	1230-1236	Ankauf	_	_
+10-56	1237-1242	recht	_	_
+10-57	1243-1244	.	_	_
+
+#Text=Außerdem
+11-1	1245-1253	Außerdem	_	_
