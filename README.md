@@ -57,7 +57,7 @@ Also see:
 ### `data/`
 
 * OCR texts for the Rome transcriptions are in [`data/texts`](data/texts), this is the new ocr done in 2021, documented in [`ocr`](ocr)
-* TSV files containing all annotations are in [`data/annotations`]. They were created in two steps:
+* TSV files containing all annotations are in [`data/annotations`](data/annotations). They were created in two steps:
     1. The annotatons done from 2018 onwards on the old ocr were matched to the new OCR as documented [in this script](scripts/docs_match_annotations.sh).
     2. The newly matched annotations were imported into webanno, corrected and exported again to be used in this repo. Documentation [in this script](scripts/docs_extract_annotations.sh)
 

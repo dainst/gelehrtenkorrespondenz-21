@@ -2,7 +2,6 @@
 
 # This script is meant as documentation on how:
 # - Corrected annotations from the ocr-matches were imported into the git repo
-# It assumes that the docker image container from `make build` is available
 
 mkdir -p /tmp/workdir/exports \
          /tmp/workdir/annotations
@@ -14,7 +13,7 @@ mkdir -p /tmp/workdir/exports \
 # copy the source files with annotations into place
 cp /tmp/workdir/exports/*/source/*.tsv /tmp/workdir/annotations
 
-# If there are corrections made by marina, overwrite the annotations files
+# If there are corrections made by user marina, overwrite the annotations files
 find /tmp/workdir/exports/ -name "marina.tsv" | while read f
 do
   page_file_name=$(basename $(dirname "$f"))
