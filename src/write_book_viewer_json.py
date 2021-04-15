@@ -37,7 +37,7 @@ def convert_annotation(builder: BookViewerJsonBuilder, page_no: int, a: Annotati
 
 def convert_file(builder: BookViewerJsonBuilder, path: str):
     document = webanno_tsv_read_file(path)
-    page_no = parse_page_number(path)
+    page_no = parse_page_number(path) - 1  # book viewer counts from 0
     for annotation in document.annotations_with_type(LAYER, FIELD):
         convert_annotation(builder, page_no, annotation)
 
