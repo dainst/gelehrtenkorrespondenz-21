@@ -1,4 +1,3 @@
-import os
 import unittest
 
 from src.data_access.webanno_tsv import (
@@ -6,6 +5,7 @@ from src.data_access.webanno_tsv import (
     Annotation, Document, Sentence, Token,
     NO_LABEL_ID
 )
+from .test_util import test_file
 
 # These are used to override the actual layer names in the test files for brevity
 DEFAULT_LAYERS = [
@@ -19,10 +19,6 @@ ACTUAL_DEFAULT_LAYER_NAMES = [
     ('de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma', ['value']),
     ('webanno.custom.LetterEntity', ['entity_id', 'value'])
 ]
-
-
-def test_file(name):
-    return os.path.join(os.path.dirname(__file__), 'resources', name)
 
 
 class WebannoTsvModelTest(unittest.TestCase):
