@@ -13,7 +13,7 @@ class Unitdate:
 
 @dataclass(frozen=True)
 class Reference:
-    name: str
+    normal: str
     text: str
     role: str
     source: str
@@ -46,9 +46,9 @@ def findall(elem: etree.Element, expression: str) -> Sequence[etree.Element]:
     return elem.findall(expression, namespaces={None: etree.QName(elem).namespace})
 
 
-def local_element_name(element: etree.Element) -> str:
+def localname(element: etree.Element) -> str:
     """
-    Disregard the element's namespace and only return the tag name.
+    Convenience localname ignoring the element's namespace
     """
     return etree.QName(element.tag).localname
 
@@ -59,7 +59,7 @@ def read_unitdate(elem: etree.Element) -> Unitdate:
 
 def read_reference_attrs(elem: etree.Element) -> {}:
     return dict(text=elem.text if elem.text else '',
-                name=elem.get('normal', ''),
+                normal=elem.get('normal', ''),
                 role=elem.get('role', ''),
                 source=elem.get('source', ''),
                 auth_file_number=elem.get('authfilenumber', ''))
@@ -88,6 +88,6 @@ def read_component(element: etree.Element) -> Component:
 
 def read_components_from_file(path: str) -> Iterator[Component]:
     for _, element in etree.iterparse(path, events=['end']):
-        if local_element_name(element) == 'c':
+        if localname(element) == 'c':
             yield read_component(element)
             element.clear(keep_tail=True)

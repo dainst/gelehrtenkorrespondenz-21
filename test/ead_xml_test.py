@@ -42,13 +42,13 @@ class EadXmlReadTest(unittest.TestCase):
 
     def test_reads_person_or_place(self):
         xml = '<element role="ROLE" normal="NAME" source="GND" authfilenumber="123456">CONTENT</element>'
-        attrs = dict(name='NAME', text='CONTENT', role='ROLE', source='GND', auth_file_number='123456')
+        attrs = dict(normal='NAME', text='CONTENT', role='ROLE', source='GND', auth_file_number='123456')
         self.assertEqual(Person(**attrs), read_person(wrap_xml(xml)))
         self.assertEqual(Place(**attrs), read_place(wrap_xml(xml)))
 
     def test_reads_person_or_place_with_incomplete_fields(self):
         xml = '<element role="ROLE" normal="NAME"></element>'
-        attrs = dict(name='NAME', text='', role='ROLE', source='', auth_file_number='')
+        attrs = dict(normal='NAME', text='', role='ROLE', source='', auth_file_number='')
         self.assertEqual(Person(**attrs), read_person(wrap_xml(xml)))
         self.assertEqual(Place(**attrs), read_place(wrap_xml(xml)))
         self.assertEqual(Person('', '', '', '', ''), read_person(wrap_xml('<element />')))
