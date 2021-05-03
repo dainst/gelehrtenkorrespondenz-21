@@ -116,6 +116,6 @@ def read_component(element: etree.Element) -> Component:
 
 def read_components_from_file(path: str) -> Iterator[Component]:
     for _, element in etree.iterparse(path, events=['end']):
-        if localname(element) == 'c':
+        if localname(element) == 'c' and element.get('level', '') == 'item':
             yield read_component(element)
             element.clear(keep_tail=True)
