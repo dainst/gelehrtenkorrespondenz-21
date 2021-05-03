@@ -1,7 +1,15 @@
+import re
 from dataclasses import dataclass
 from typing import Iterator, Optional, Sequence
 
 from lxml import etree
+
+
+@dataclass(frozen=True)
+class ParsedDate:
+    year: str
+    month: str = ''
+    day: str = ''
 
 
 @dataclass(frozen=True)
@@ -51,6 +59,26 @@ def localname(element: etree.Element) -> str:
     Convenience localname ignoring the element's namespace
     """
     return etree.QName(element.tag).localname
+
+
+def parse_unitdate(unitdate: Unitdate) -> (Optional[ParsedDate], Optional[ParsedDate]):
+    def parse_single(s: str) -> ParsedDate:
+        match = re.match(r'^(\d{4})$', s)
+        if match:
+            return ParsedDate(year=s)
+        match = re.match(r'^(\d{4})-(\d{2})$', s)
+        if match:
+            return ParsedDate(year=match.group(1), month=match.group(2))
+        match = re.match(r'^(\d{4})(\d{2})(\d{2})$', s)
+        if match:
+            return ParsedDate(year=match.group(1), month=match.group(2), day=match.group(3))
+        raise ValueError(f'Cannot parse date:: {s}')
+
+    if unitdate.normal:
+        parsed = (parse_single(s) for s in unitdate.normal.split('/'))
+        return next(parsed), next(parsed, None)
+    else:
+        return None, None
 
 
 def read_unitdate(elem: etree.Element) -> Unitdate:
