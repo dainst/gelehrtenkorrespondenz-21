@@ -90,11 +90,27 @@ def update_buch_statement(ar: ArachneData) -> str:
     return ""
 
 
+def create_ortsbezug_if_not_exists_stmt(gazetteer_id: str, zenon_id: str, type_ortsbezug="thematischer Ort") -> str:
+    set_var_place = 'SELECT @place_id := PS_OrtID from ort where ort.Gazetteerid = %s LIMIT 1' % gazetteer_id
+    set_var_book = 'SELECT @book_id := PS_BuchID from buch where buch.bibid = %s' % zenon_id
+    insert = 'INSERT INTO ortsbezug (FS_OrtID, FS_BuchID, ArtOrtsangabe, Ursprungsinformationen)'
+    insert += " SELECT @place_id, @book_id , '%s', 'Kalliope-Import-GLK21' FROM ortsbezug" % type_ortsbezug
+    insert += ' WHERE (FS_BuchID = @book_id AND FS_OrtID = @place_id AND ArtOrtsangabe = \'%s\')' % type_ortsbezug
+    insert += ' HAVING COUNT(*) = 0 AND @place_id IS NOT NULL AND @book_id IS NOT NULL'
+    reset_vars = 'SELECT @place_id := NULL, @book_id := NULL'
+    return '; '.join([set_var_place, set_var_book, insert, reset_vars, ''])
+
+
+def create_ortsbezug_statements(ar: ArachneData) -> Sequence[str]:
+    return [create_ortsbezug_if_not_exists_stmt(gid, ar.zenon_id) for gid in ar.gaz_ids_thematic if gid]
+
+
 def gather_statements(arachne_data: ArachneData) -> Sequence[str]:
     if not arachne_data.zenon_id:
         return []
     return [
-        update_buch_statement(arachne_data)
+        update_buch_statement(arachne_data),
+        *create_ortsbezug_statements(arachne_data)
     ]
 
 
