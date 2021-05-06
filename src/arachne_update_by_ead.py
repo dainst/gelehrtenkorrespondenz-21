@@ -14,7 +14,7 @@ RESOURCE_DIR = os.path.join(os.path.dirname(__file__), 'resources')
 ZENON_KALLIOPE_IDS_FILE = os.path.join(RESOURCE_DIR, 'zenonids_to_kalliope_ids.csv')
 GND_GAZETTEER_IDS_FILE = os.path.join(RESOURCE_DIR, 'geo-gnd-to-gazetteer-ids')
 
-ACCEPTED_PERSON_ROLES = {'Adressat', 'Behandelt', 'Bestandsbildner', 'Erwähnt', 'Dokumentiert'}
+ACCEPTED_PERSON_ROLES = {'Adressat'}
 ACCEPTED_AUTHOR_ROLES = {'Verfasser'}
 
 
@@ -78,8 +78,8 @@ def update_buch_statement(ar: ArachneData) -> str:
         eqls.append(('BuchJahr', ar.start_date.year))
         eqls.append(('BuchEntstehungszeitraum', format_book_creation_time(ar.start_date, ar.end_date)))
     if ar.start_date and ar.end_date and ar.start_date.year != ar.end_date.year:
-        eqls.append(('BuchPubYearStart', ar.start_date.year))
-        eqls.append(('BuchPubYearEnd', ar.end_date.year))
+        eqls.append(('PubYearStart', ar.start_date.year))
+        eqls.append(('PubYearEnd', ar.end_date.year))
     if ar.author_name:
         eqls.append(('BuchAuthor', ar.author_name))
     if ar.other_names:
