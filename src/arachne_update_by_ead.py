@@ -12,7 +12,7 @@ from data_access.ead_xml import read_components_from_file, parse_unitdate, Compo
 
 RESOURCE_DIR = os.path.join(os.path.dirname(__file__), 'resources')
 ZENON_KALLIOPE_IDS_FILE = os.path.join(RESOURCE_DIR, 'zenonids_to_kalliope_ids.csv')
-GND_GAZETTEER_IDS_FILE = os.path.join(RESOURCE_DIR, 'geo-gnd-to-gazetteer-ids')
+GND_GAZETTEER_IDS_FILE = os.path.join(RESOURCE_DIR, 'geo-gnd-to-gazetteer-ids.csv')
 
 ACCEPTED_PERSON_ROLES = {'Adressat'}
 ACCEPTED_AUTHOR_ROLES = {'Verfasser'}
