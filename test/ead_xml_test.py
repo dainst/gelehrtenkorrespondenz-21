@@ -2,11 +2,14 @@ import unittest
 from xml.etree import ElementTree
 
 from src.data_access.ead_xml import (
+    parse_unitdate,
+    parse_addressee_place,
     read_components_from_file,
+    read_note,
     read_person,
     read_place,
     read_unitdate,
-    parse_unitdate,
+    Note,
     Person,
     Place,
     Unitdate,
@@ -42,6 +45,9 @@ class EadXmlReadTest(unittest.TestCase):
         self.assertIsInstance(fst.unitdate, Unitdate)
         self.assertIsInstance(snd.unitdate, Unitdate)
 
+        self.assertIsInstance(fst.note, Note)
+        self.assertIsNone(snd.note)
+
     def test_reads_person_or_place(self):
         xml = '<element role="ROLE" normal="NAME" source="GND" authfilenumber="123456">CONTENT</element>'
         attrs = dict(normal='NAME', text='CONTENT', role='ROLE', source='GND', auth_file_number='123456')
@@ -60,6 +66,12 @@ class EadXmlReadTest(unittest.TestCase):
         date = Unitdate(label='Entstehungsdatum', normal='18220913', text='13.09.1822')
         self.assertEqual(date, read_unitdate(wrap_xml(xml)))
         self.assertEqual(Unitdate('', '', ''), read_unitdate(wrap_xml('<unitdate></unitdate>')))
+
+    def test_reads_note(self):
+        xml = '<note label="Bemerkung" audience="external"><p>Empfängerort: Breslau</p></note>'
+        note = Note(label='Bemerkung', audience='external', text='Empfängerort: Breslau')
+        self.assertEqual(note, read_note(wrap_xml(xml)))
+        self.assertEqual(Note('', '', ''), read_note(wrap_xml('<note />')))
 
 
 class ParseUnitDateTest(unittest.TestCase):
@@ -95,3 +107,31 @@ class ParseUnitDateTest(unittest.TestCase):
         for val in inputs:
             with self.assertRaises(ValueError):
                 parse_unitdate(Unitdate('', '', val))
+
+
+class ParsePlaceFromNoteTest(unittest.TestCase):
+
+    def test_parse_expected_formats(self):
+        inputs_outputs = [
+            ('Empfängerort: ABC', ('ABC', '', '')),
+            ('Empfangerort: ABC', ('ABC', '', '')),
+            ('Empfangerort ABC', ('ABC', '', '')),
+            ('Empfangerort: \t   ABC', ('ABC', '', '')),
+            ('Empfängerort: ABC (GND: 1234-5)', ('ABC', 'GND', '1234-5')),
+            ('Empfangerort: ABC (GND: 1234-5)', ('ABC', 'GND', '1234-5')),
+            ('Empfängerort ABC (GND: 1234-5)', ('ABC', 'GND', '1234-5')),
+            ('Empfängerort: \t   ABC   (GND:    1234-5)', ('ABC', 'GND', '1234-5')),
+            ('Empfängerort: ABC D\'EF-GH', ('ABC D\'EF-GH', '', '')),
+            ('Empfängerort: ABC D\'EF-GH (GND: 1234-5)', ('ABC D\'EF-GH', 'GND', '1234-5')),
+        ]
+        for val, (normal, source, auth_file_number) in inputs_outputs:
+            expected = Place(normal=normal, source=source, auth_file_number=auth_file_number,
+                             text=val, role='Empfängerort')
+            self.assertEqual(expected, parse_addressee_place(val))
+            self.assertEqual(expected, parse_addressee_place('line-before\n' + val + '\nline-after'))
+            self.assertEqual(expected, parse_addressee_place('text-before  ' + val + '\nline-after'))
+
+    def test_parse_empty_or_unexpected(self):
+        inputs = ['', 'abcd', 'Empfängerort: ']
+        for val in inputs:
+            self.assertIsNone(parse_addressee_place(val))
