@@ -17,6 +17,8 @@ RESOURCE_DIR = os.path.join(os.path.dirname(__file__), 'resources')
 ZENON_KALLIOPE_IDS_FILE = os.path.join(RESOURCE_DIR, 'zenonids_to_kalliope_ids.csv')
 GND_GAZETTEER_IDS_FILE = os.path.join(RESOURCE_DIR, 'geo-gnd-to-gazetteer-ids.csv')
 DE611_GAZETTEER_IDS_FILE = os.path.join(RESOURCE_DIR, 'geo-de611-to-gazetteer-ids.csv')
+GAZETTEER_ID_ROME_DAI = "2122081"
+GAZETTEER_ID_BERLIN_DAI = "2281898"
 
 ACCEPTED_PERSON_ROLES = {'Adressat'}
 ACCEPTED_AUTHOR_ROLES = {'Verfasser'}
@@ -30,6 +32,7 @@ class ArachneData:
     author_name: str = ''
     other_names: Sequence[str] = field(default_factory=list)
     gaz_ids_thematic: Sequence[str] = field(default_factory=list)
+    gaz_id_location: str = ''
 
 
 @dataclass(frozen=True)
@@ -78,7 +81,7 @@ def lookup_gazetteer_id(place: Place, gaz_ids_lookup: GazetteerIdLookupDicts) ->
 
 
 def lookup_thematic_place_ids(component: Component, gaz_ids_lookup: GazetteerIdLookupDicts) -> [str]:
-    places = list(component.plac es)
+    places = list(component.places)
     if component.note:
         # the component's note field may contain an "Empfängerort" entered as free text
         places.append(parse_addressee_place(component.note.text))
@@ -86,8 +89,8 @@ def lookup_thematic_place_ids(component: Component, gaz_ids_lookup: GazetteerIdL
     return [gid for gid in gazetteer_ids if gid]
 
 
-def convert_arachne_data(component: Component,
-                         kalliope_to_zenon: Dict[str, str], gaz_id_lookup: GazetteerIdLookupDicts) -> ArachneData:
+def convert_arachne_data(component: Component, kalliope_to_zenon: Dict[str, str],
+                         gaz_id_lookup: GazetteerIdLookupDicts, location_id=GAZETTEER_ID_ROME_DAI) -> ArachneData:
     args = {'zenon_id': kalliope_to_zenon.get(component.ead_id)}
 
     if component.unitdate:
@@ -98,6 +101,7 @@ def convert_arachne_data(component: Component,
         args['other_names'] = [p.normal for p in component.persons if p.role in ACCEPTED_PERSON_ROLES]
 
     args['gaz_ids_thematic'] = lookup_thematic_place_ids(component, gaz_id_lookup)
+    args['gaz_id_location'] = location_id
 
     return ArachneData(**args)
 
@@ -128,7 +132,7 @@ def update_buch_statement(ar: ArachneData) -> str:
     return ""
 
 
-def create_ortsbezug_if_not_exists_stmt(gazetteer_id: str, zenon_id: str, type_ortsbezug="thematischer Ort") -> str:
+def create_ortsbezug_if_not_exists_stmt(gazetteer_id: str, zenon_id: str, type_ortsbezug='thematischer Ort') -> str:
     set_var_place = 'SELECT @place_id := PS_OrtID from ort where ort.Gazetteerid = %s LIMIT 1' % gazetteer_id
     set_var_book = 'SELECT @book_id := PS_BuchID from buch where buch.bibid = %s' % zenon_id
     insert = 'INSERT INTO ortsbezug (FS_OrtID, FS_BuchID, ArtOrtsangabe, Ursprungsinformationen)'
@@ -140,7 +144,9 @@ def create_ortsbezug_if_not_exists_stmt(gazetteer_id: str, zenon_id: str, type_o
 
 
 def create_ortsbezug_statements(ar: ArachneData) -> Sequence[str]:
-    return [create_ortsbezug_if_not_exists_stmt(gid, ar.zenon_id) for gid in ar.gaz_ids_thematic if gid]
+    thematic = [create_ortsbezug_if_not_exists_stmt(gid, ar.zenon_id) for gid in ar.gaz_ids_thematic if gid]
+    location = create_ortsbezug_if_not_exists_stmt(ar.gaz_id_location, ar.zenon_id, type_ortsbezug='Aufbewahrungsort')
+    return [location, *thematic]
 
 
 def gather_statements(arachne_data: ArachneData) -> Sequence[str]:
@@ -152,12 +158,23 @@ def gather_statements(arachne_data: ArachneData) -> Sequence[str]:
     ]
 
 
+def location_id_from_filename(path: str, args: argparse.Namespace):
+    filename = os.path.basename(path)
+    if args.filename_rome in filename:
+        return GAZETTEER_ID_ROME_DAI
+    if args.filename_berlin in filename:
+        return GAZETTEER_ID_BERLIN_DAI
+    raise ValueError('Filename does not contain either pattern for location (%s/%s): %s' %
+                     (args.filename_rome, args.filename_berlin, filename))
+
+
 def main(args: argparse.Namespace):
     zenonid_map = parse_kalliope_to_zenon_id_map()
     gazetteer_id_dicts = parse_gazetteer_id_lookup_dicts()
     for path in args.ead_xml_files:
         for c in read_components_from_file(path):
-            arachne_data = convert_arachne_data(c, zenonid_map, gazetteer_id_dicts)
+            location_id = location_id_from_filename(path, args)
+            arachne_data = convert_arachne_data(c, zenonid_map, gazetteer_id_dicts, location_id)
             for stmt in gather_statements(arachne_data):
                 if stmt:
                     args.out_file.write(stmt)
@@ -169,4 +186,8 @@ if __name__ == '__main__':
     parser.add_argument('ead_xml_files', nargs='*', help="The xml files from kalliope's ead output to parse.")
     parser.add_argument('-o', '--out_file', nargs='?', type=argparse.FileType('w'), default=sys.stdout,
                         help="The output file to write SQL statements to. Defaults to stdout.")
+    parser.add_argument('--filename-rome', type=str, default='DE-2490',
+                        help='Contents of files with this pattern are assumed to be located in the DAI Rome.')
+    parser.add_argument('--filename-berlin', type=str, default='DE-2322',
+                        help='Contents of files with this pattern are assumed to be located in the DAI Berlin.')
     main(parser.parse_args())
