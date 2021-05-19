@@ -14,8 +14,12 @@ backcall==0.2.0
     # via ipython
 bleach==3.3.0
     # via nbconvert
+certifi==2020.12.5
+    # via requests
 cffi==1.14.5
     # via argon2-cffi
+chardet==4.0.0
+    # via requests
 click==7.1.2
     # via
     #   nltk
@@ -26,6 +30,8 @@ defusedxml==0.7.1
     # via nbconvert
 entrypoints==0.3
     # via nbconvert
+idna==2.10
+    # via requests
 ipykernel==5.5.3
     # via
     #   ipywidgets
@@ -84,6 +90,8 @@ markupsafe==1.1.1
     # via jinja2
 mistune==0.8.4
     # via nbconvert
+mysql-connector-python==8.0.25
+    # via -r requirements.in
 mysqlclient==2.0.3
     # via -r requirements.in
 nbclient==0.5.3
@@ -126,6 +134,8 @@ prompt-toolkit==3.0.18
     # via
     #   ipython
     #   jupyter-console
+protobuf==3.17.0
+    # via mysql-connector-python
 ptyprocess==0.7.0
     # via
     #   pexpect
@@ -156,6 +166,8 @@ qtpy==1.9.0
     # via qtconsole
 regex==2021.4.4
     # via nltk
+requests==2.25.1
+    # via -r requirements.in
 send2trash==1.5.0
     # via notebook
 six==1.15.0
@@ -163,6 +175,7 @@ six==1.15.0
     #   argon2-cffi
     #   bleach
     #   jsonschema
+    #   protobuf
     #   python-dateutil
 terminado==0.9.4
     # via notebook
@@ -190,6 +203,8 @@ traitlets==5.0.5
     #   nbformat
     #   notebook
     #   qtconsole
+urllib3==1.26.4
+    # via requests
 wcwidth==0.2.5
     # via prompt-toolkit
 webencodings==0.5.1
