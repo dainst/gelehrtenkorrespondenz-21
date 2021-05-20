@@ -52,7 +52,13 @@ def arachne_gender_label(gnd_gender_id: Optional[str]) -> str:
             'https://d-nb.info/standards/vocab/gnd/gender#female': 'weiblich'}.get(gnd_gender_id, '')
 
 
-def insert_person_sql(p: ArachnePerson, working_comment='GND-Import'):
+def db_insert_no_commit(connection: MySQLConnection, sql: str, params=()) -> int:
+    with connection.cursor() as cursor:
+        cursor.execute(sql, params)
+        return cursor.lastrowid
+
+
+def db_insert_person(connection: MySQLConnection, p: ArachnePerson) -> int:
     fields = [
         ('VornameSonst', p.forename),
         ('FamVatersnameSonst', p.surname),
@@ -61,36 +67,26 @@ def insert_person_sql(p: ArachnePerson, working_comment='GND-Import'):
         ('Titel', p.title),
         ('Beiname', p.prefix),
         ('EthnieNationalitaet', p.nationality),
-        ('ArbeitsnotizPerson', working_comment),
+        ('ArbeitsnotizPerson', 'GND-Import'),
     ]
     fields = [(k, v) for k, v in fields if v]
-    updates = [f"{k} = '{v}'" for k, v in fields]
-    return 'INSERT INTO person SET ' + ', '.join(updates)
+    updates = [f"{k} = %s" for k, _ in fields]
+    sql = 'INSERT INTO person SET ' + ', '.join(updates)
+    return db_insert_no_commit(connection, sql, [v for _, v in fields])
 
 
-def insert_uri_sql(uri: ArachneUri, person_id: int, relation='sameAs'):
-    sql = f"INSERT INTO URI (FS_PersonID, URI, FS_URIQuelleID, Beziehung) VALUES (%d, '%s', %d, '%s')"
-    return sql % (person_id, uri.url, uri.source_id, relation)
-
-
-def db_insert_no_commit(connection: MySQLConnection, sql: str) -> int:
-    with connection.cursor() as cursor:
-        cursor.execute(sql)
-        return cursor.lastrowid
-
-
-def db_insert_person(connection: MySQLConnection, p: ArachnePerson) -> int:
-    return db_insert_no_commit(connection, insert_person_sql(p))
+def db_insert_uri(connection: MySQLConnection, uri: ArachneUri, person_id: int) -> int:
+    sql = 'INSERT INTO URI (FS_PersonID, URI, FS_URIQuelleID, Beziehung) VALUES (%s, %s, %s, %s)'
+    params = (person_id, uri.url, uri.source_id, 'sameAs')
+    return db_insert_no_commit(connection, sql, params)
 
 
 def db_insert_uri_if_not_exists(connection: MySQLConnection, uri: ArachneUri, person_id: int) -> int:
-    sql = 'SELECT PS_URIID FROM URI WHERE FS_PersonID = %d AND FS_URIQuelleID = %d'
-    sql = sql % (person_id, uri.source_id)
-    uri_id = db_select_single_val(connection, sql)
+    uri_id = db_select_uri_id(connection, uri, person_id)
     if uri_id:
         return uri_id
     else:
-        return db_insert_no_commit(connection, insert_uri_sql(uri, person_id))
+        return db_insert_uri(connection, uri, person_id)
 
 
 def db_select_single_val(connection: MySQLConnection, sql: str, params=()) -> Optional[Union[int, str]]:
@@ -107,13 +103,19 @@ def db_select_person_id(connection: MySQLConnection, gnd_id: str) -> Optional[in
     return db_select_single_val(connection, sql)
 
 
+def db_select_uri_id(connection: MySQLConnection, uri: ArachneUri, person_id: int) -> Optional[int]:
+    sql = 'SELECT PS_URIID FROM URI WHERE FS_PersonID = %d AND FS_URIQuelleID = %d'
+    sql = sql % (person_id, uri.source_id)
+    return db_select_single_val(connection, sql)
+
+
 def parse_person(data: Dict) -> ArachnePerson:
     return ArachnePerson(
         forename=data.get('forename', ''),
         surname=data.get('surname', ''),
         gender=arachne_gender_label(data.get('gender', {}).get('@id', '')),
         description=data.get('biographicalOrHistoricalInformation', ''),
-        title=';'.join(t for t in [data.get('titleOfNobility'), data.get('academicDegree')] if t),
+        title=';'.join(t for t in data.get('titleOfNobility', []) + data.get('academicDegree', [])),
         prefix=data.get('prefix', ''),
         nationality=data.get('associatedCountry', [{}])[0].get('preferredName', '')
     )
@@ -129,8 +131,10 @@ def parse_uris(data: Dict) -> Sequence[ArachneUri]:
 
 def fetch_data_remote(gnd_id: str, save_to: Optional[str] = None) -> str:
     response = requests.get(f'https://hub.culturegraph.org/entityfacts/{gnd_id}')
-    sleep(0.5)  # Let's idle a bit in case we hit the API again
-    assert response.status_code == 200
+    sleep(0.25)  # Let's be nice and idle a bit before we hit the API again
+    if response.status_code != 200:
+        print(f'Invalid return code {response.status_code} for GND id: {gnd_id}.', file=sys.stderr)
+        return ''
     if save_to:
         with open(save_to, mode='w', encoding='utf-8') as f:
             f.write(response.text)
@@ -149,33 +153,37 @@ def get_data_local_or_remote(gnd_id: str, facts_dir: Optional[Path]) -> str:
         return fetch_data_remote(gnd_id)
 
 
-def collect_gnd_data(gnd_id: str, facts_dir: Optional[Path]) -> (ArachnePerson, Sequence[ArachneUri]):
+def collect_gnd_data(gnd_id: str, facts_dir: Optional[Path]) -> (Optional[ArachnePerson], Sequence[ArachneUri]):
     raw_data = get_data_local_or_remote(gnd_id, facts_dir)
-    data = json.loads(raw_data)
-    person = parse_person(data)
-    uris = [ArachneUri(3, gnd_uri(gnd_id)), *parse_uris(data)]
-    return person, uris
+    if raw_data:
+        data = json.loads(raw_data)
+        person = parse_person(data)
+        uris = [ArachneUri(3, gnd_uri(gnd_id)), *parse_uris(data)]
+        return person, uris
+    else:
+        return None, []
 
 
-def handle_person(connection: MySQLConnection, facts_dir: Optional[Path], gnd_id: str) -> int:
+def handle_person(connection: MySQLConnection, facts_dir: Optional[Path], gnd_id: str) -> Optional[int]:
     person, uris = collect_gnd_data(gnd_id, facts_dir)
-
-    person_id = db_select_person_id(connection, gnd_id)
-    if not person_id:
-        person_id = db_insert_person(connection, person)
-
-    for uri in uris:
-        db_insert_uri_if_not_exists(connection, uri, person_id)
-
-    return person_id
+    if person:
+        person_id = db_select_person_id(connection, gnd_id)
+        if not person_id:
+            person_id = db_insert_person(connection, person)
+        for uri in uris:
+            db_insert_uri_if_not_exists(connection, uri, person_id)
+        return person_id
+    else:
+        return None
 
 
 def main(args: argparse.Namespace):
     with connect(option_files=args.db_config) as connection:
         for gnd_id in args.gnd_ids:
             person_id = handle_person(connection, args.facts_dir, gnd_id)
-            connection.commit()
-            args.out_file.write('%s, %d\n' % (gnd_id, person_id))
+            if person_id:
+                connection.commit()
+                args.out_file.write('%s, %d\n' % (gnd_id, person_id))
 
 
 if __name__ == '__main__':
