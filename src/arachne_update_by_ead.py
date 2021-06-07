@@ -20,8 +20,14 @@ DE611_GAZETTEER_IDS_FILE = os.path.join(RESOURCE_DIR, 'geo-de611-to-gazetteer-id
 GAZETTEER_ID_ROME_DAI = "2122081"
 GAZETTEER_ID_BERLIN_DAI = "2281898"
 
-ACCEPTED_PERSON_ROLES = {'Adressat'}
-ACCEPTED_AUTHOR_ROLES = {'Verfasser'}
+OTHER_NAMES_ROLES = {'Adressat'}
+AUTHOR_ROLES = {'Verfasser'}
+
+
+@dataclass(frozen=True)
+class ArachnePersonLink:
+    gnd_id: str
+    role: str
 
 
 @dataclass(frozen=True)
@@ -31,6 +37,7 @@ class ArachneData:
     end_date: Optional[ParsedDate] = None
     author_name: str = ''
     other_names: Sequence[str] = field(default_factory=list)
+    person_links: Sequence[ArachnePersonLink] = field(default_factory=list)
     gaz_ids_thematic: Sequence[str] = field(default_factory=list)
     gaz_id_location: str = ''
 
@@ -97,8 +104,10 @@ def convert_arachne_data(component: Component, kalliope_to_zenon: Dict[str, str]
         args['start_date'], args['end_date'] = parse_unitdate(component.unitdate)
 
     if component.persons:
-        args['author_name'] = next((p.normal for p in component.persons if p.role in ACCEPTED_AUTHOR_ROLES), '')
-        args['other_names'] = [p.normal for p in component.persons if p.role in ACCEPTED_PERSON_ROLES]
+        args['author_name'] = next((p.normal for p in component.persons if p.role in AUTHOR_ROLES), '')
+        args['other_names'] = [p.normal for p in component.persons if p.role in OTHER_NAMES_ROLES]
+        args['person_links'] = [
+            ArachnePersonLink(p.auth_file_number, p.role) for p in component.persons if p.source == 'GND']
 
     args['gaz_ids_thematic'] = lookup_thematic_place_ids(component, gaz_id_lookup)
     args['gaz_id_location'] = location_id
@@ -132,6 +141,22 @@ def update_buch_statement(ar: ArachneData) -> str:
     return ""
 
 
+def create_personobjekt_if_not_exists_stmt(gnd_id: str, zenon_id: str, relation='Erwähnt') -> str:
+    comment = 'Kalliope-Import-GLK21;' + relation
+    set_var_person = f'SELECT @person_id := FS_PersonID from URI where URI LIKE "%d-nb.info/gnd/{gnd_id}%"'
+    set_var_book = f'SELECT @book_id := PS_BuchID from buch where buch.bibid = {zenon_id}'
+    insert = 'INSERT INTO personobjekte (FS_PersonID, FS_BuchID, Kommentar)'
+    insert += f' SELECT @person_id, @book_id , "{comment}" FROM personobjekte'
+    insert += ' WHERE (FS_BuchID = @book_id AND FS_PersonID = @person_id)'
+    insert += ' HAVING COUNT(*) = 0 AND @person_id IS NOT NULL AND @book_id IS NOT NULL'
+    reset_vars = 'SELECT @person_id := NULL, @book_id := NULL'
+    return '; '.join([set_var_person, set_var_book, insert, reset_vars, ''])
+
+
+def create_personobjekt_statements(ar: ArachneData) -> Sequence[str]:
+    return [create_personobjekt_if_not_exists_stmt(pl.gnd_id, ar.zenon_id, pl.role) for pl in ar.person_links]
+
+
 def create_ortsbezug_if_not_exists_stmt(gazetteer_id: str, zenon_id: str, type_ortsbezug='thematischer Ort') -> str:
     set_var_place = 'SELECT @place_id := PS_OrtID from ort where ort.Gazetteerid = %s LIMIT 1' % gazetteer_id
     set_var_book = 'SELECT @book_id := PS_BuchID from buch where buch.bibid = %s' % zenon_id
@@ -154,7 +179,8 @@ def gather_statements(arachne_data: ArachneData) -> Sequence[str]:
         return []
     return [
         update_buch_statement(arachne_data),
-        *create_ortsbezug_statements(arachne_data)
+        *create_ortsbezug_statements(arachne_data),
+        *create_personobjekt_statements(arachne_data)
     ]
 
 
