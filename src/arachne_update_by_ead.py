@@ -150,7 +150,7 @@ def update_buch_statement(ar: ArachneData) -> str:
     if ar.author_name:
         eqls.append(('BuchAuthor', ar.author_name))
     if ar.other_names:
-        eqls.append(('BuchWeiterePersonen', '; '.join(ar.other_names)))
+        eqls.append(('BuchWeiterePersonen', '. '.join(ar.other_names)))
     if eqls:
         strs = [f"{key} = {str_val(val)}" for key, val in eqls]
         return f"UPDATE buch SET {', '.join(strs)} WHERE bibid = {ar.zenon_id};"
