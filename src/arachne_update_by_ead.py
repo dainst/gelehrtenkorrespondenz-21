@@ -10,8 +10,10 @@ from MySQLdb import escape_string
 
 from data_access.ead_xml import (
     read_components_from_file, parse_addressee_place, parse_unitdate,
-    Component, ParsedDate, Place
+    Component, ParsedDate, Person, Place
 )
+
+from data_access.map_annotations_transcriptions import find_transcription_zenon_id
 
 RESOURCE_DIR = os.path.join(os.path.dirname(__file__), 'resources')
 ZENON_KALLIOPE_IDS_FILE = os.path.join(RESOURCE_DIR, 'zenonids_to_kalliope_ids.csv')
@@ -20,8 +22,9 @@ DE611_GAZETTEER_IDS_FILE = os.path.join(RESOURCE_DIR, 'geo-de611-to-gazetteer-id
 GAZETTEER_ID_ROME_DAI = "2122081"
 GAZETTEER_ID_BERLIN_DAI = "2281898"
 
-OTHER_NAMES_ROLES = {'Adressat'}
 AUTHOR_ROLES = {'Verfasser'}
+ADDRESSEE_ROLES = {'Adressat'}
+OTHER_NAMES_ROLES = ADDRESSEE_ROLES
 
 
 @dataclass(frozen=True)
@@ -40,6 +43,7 @@ class ArachneData:
     person_links: Sequence[ArachnePersonLink] = field(default_factory=list)
     gaz_ids_thematic: Sequence[str] = field(default_factory=list)
     gaz_id_location: str = ''
+    linked_transcription_zenon_id: str = ''
 
 
 @dataclass(frozen=True)
@@ -96,12 +100,24 @@ def lookup_thematic_place_ids(component: Component, gaz_ids_lookup: GazetteerIdL
     return [gid for gid in gazetteer_ids if gid]
 
 
+def search_linked_transcription(year: int, persons: Sequence[Person]) -> str:
+    author_gnd = next((p.auth_file_number for p in persons if p.role in AUTHOR_ROLES), '')
+    addressee_gnd = next((p.auth_file_number for p in persons if p.role in ADDRESSEE_ROLES), '')
+    return find_transcription_zenon_id(author_id=author_gnd, adressee_id=addressee_gnd, year=year)
+
+
 def convert_arachne_data(component: Component, kalliope_to_zenon: Dict[str, str],
                          gaz_id_lookup: GazetteerIdLookupDicts, location_id=GAZETTEER_ID_ROME_DAI) -> ArachneData:
-    args = {'zenon_id': kalliope_to_zenon.get(component.ead_id)}
-
+    start_date, end_date = (None, None)
     if component.unitdate:
-        args['start_date'], args['end_date'] = parse_unitdate(component.unitdate)
+        start_date, end_date = parse_unitdate(component.unitdate)
+
+    args = dict(start_date=start_date, end_date=end_date)
+
+    args['zenon_id'] = kalliope_to_zenon.get(component.ead_id)
+
+    if start_date:
+        args['linked_transcription_zenon_id'] = search_linked_transcription(int(start_date.year), component.persons)
 
     if component.persons:
         args['author_name'] = next((p.normal for p in component.persons if p.role in AUTHOR_ROLES), '')
@@ -142,11 +158,10 @@ def update_buch_statement(ar: ArachneData) -> str:
 
 
 def create_personobjekt_if_not_exists_stmt(gnd_id: str, zenon_id: str, relation='Erwähnt') -> str:
-    comment = 'Kalliope-Import-GLK21;' + relation
     set_var_person = f'SELECT @person_id := FS_PersonID from URI where URI LIKE "%d-nb.info/gnd/{gnd_id}%"'
     set_var_book = f'SELECT @book_id := PS_BuchID from buch where buch.bibid = {zenon_id}'
-    insert = 'INSERT INTO personobjekte (FS_PersonID, FS_BuchID, Kommentar)'
-    insert += f' SELECT @person_id, @book_id , "{comment}" FROM personobjekte'
+    insert = 'INSERT INTO personobjekte (FS_PersonID, FS_BuchID, Kommentar, Rolle)'
+    insert += f' SELECT @person_id, @book_id , "Kalliope-Import-GLK21", "{relation}" FROM personobjekte'
     insert += ' WHERE (FS_BuchID = @book_id AND FS_PersonID = @person_id)'
     insert += ' HAVING COUNT(*) = 0 AND @person_id IS NOT NULL AND @book_id IS NOT NULL'
     reset_vars = 'SELECT @person_id := NULL, @book_id := NULL'
@@ -174,13 +189,24 @@ def create_ortsbezug_statements(ar: ArachneData) -> Sequence[str]:
     return [location, *thematic]
 
 
+def create_book_to_book_statement(ar: ArachneData) -> str:
+    if not ar.zenon_id or not ar.linked_transcription_zenon_id:
+        return ''
+    insert = 'INSERT INTO buch_elemente SET'
+    insert += f' FS_BuchID = (SELECT PS_BuchID FROM buch WHERE bibid = {ar.zenon_id}),'
+    insert += f' FS_Buch2ID = (SELECT PS_BuchID FROM buch WHERE bibid = {ar.linked_transcription_zenon_id}),'
+    insert += " KommentarBuchElement = 'Kalliope-Import-GLK21';"
+    return insert
+
+
 def gather_statements(arachne_data: ArachneData) -> Sequence[str]:
     if not arachne_data.zenon_id:
         return []
     return [
         update_buch_statement(arachne_data),
         *create_ortsbezug_statements(arachne_data),
-        *create_personobjekt_statements(arachne_data)
+        *create_personobjekt_statements(arachne_data),
+        create_book_to_book_statement(arachne_data)
     ]
 
 
