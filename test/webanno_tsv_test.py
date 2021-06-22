@@ -1,4 +1,4 @@
-import os
+import os.path
 import unittest
 
 from src.data_access.webanno_tsv import (
@@ -6,6 +6,7 @@ from src.data_access.webanno_tsv import (
     Annotation, Document, Sentence, Token,
     NO_LABEL_ID
 )
+from .test_util import test_file
 
 # These are used to override the actual layer names in the test files for brevity
 DEFAULT_LAYERS = [
@@ -21,8 +22,8 @@ ACTUAL_DEFAULT_LAYER_NAMES = [
 ]
 
 
-def test_file(name):
-    return os.path.join(os.path.dirname(__file__), 'resources', name)
+def tsv_test_file(path: str) -> str:
+    return test_file(os.path.join('test_input_webanno_tsv', path))
 
 
 class WebannoTsvModelTest(unittest.TestCase):
@@ -41,7 +42,7 @@ class WebannoTsvReadRegularFilesTest(unittest.TestCase):
                   + "wir hier nur noch einen Kampf des Herkules mit dem Achelous auf ."
 
     def setUp(self) -> None:
-        self.doc = webanno_tsv_read_file(test_file('test_input.tsv'), DEFAULT_LAYERS)
+        self.doc = webanno_tsv_read_file(tsv_test_file('test_input.tsv'), DEFAULT_LAYERS)
 
     def test_can_read_tsv(self):
         self.assertIsInstance(self.doc, Document)
@@ -120,7 +121,7 @@ class WebannoTsvReadFileWithFormatV33(unittest.TestCase):
                   + 'sowie der Scriptores hist., August, beigelegt.'
 
     def setUp(self) -> None:
-        self.doc = webanno_tsv_read_file(test_file('test_input_v3.3.tsv'), self.LAYERS)
+        self.doc = webanno_tsv_read_file(tsv_test_file('test_input_v3.3.tsv'), self.LAYERS)
 
     def test_reads_doc(self):
         self.assertIsInstance(self.doc, Document)
@@ -149,14 +150,14 @@ class WebannoTsvReadFileWithFormatV33(unittest.TestCase):
 class WebannoTsvReadActualFileHeaders(unittest.TestCase):
 
     def test_headers_from_input_file(self):
-        doc = webanno_tsv_read_file(test_file('test_input.tsv'))
+        doc = webanno_tsv_read_file(tsv_test_file('test_input.tsv'))
         self.assertEqual(ACTUAL_DEFAULT_LAYER_NAMES, doc.layer_names)
 
 
 class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 
     def test_reads_quotes(self):
-        self.doc = webanno_tsv_read_file(test_file('test_input_quotes.tsv'), DEFAULT_LAYERS)
+        self.doc = webanno_tsv_read_file(tsv_test_file('test_input_quotes.tsv'), DEFAULT_LAYERS)
         tokens = self.doc.sentences[0].tokens
 
         self.assertEqual('\"', tokens[3].text)
@@ -167,7 +168,7 @@ class WebannoTsvReadFileWithQuotesTest(unittest.TestCase):
 class WebannoTsvReadFileWithMultiSentenceSpanAnnotation(unittest.TestCase):
 
     def test_read_multi_sentence_annotation(self):
-        self.doc = webanno_tsv_read_file(test_file('test_input_multi_sentence_span.tsv'), DEFAULT_LAYERS)
+        self.doc = webanno_tsv_read_file(tsv_test_file('test_input_multi_sentence_span.tsv'), DEFAULT_LAYERS)
         fst, snd = self.doc.sentences
 
         annotations = self.doc.annotations_with_type('l3', 'named_entity')
@@ -283,7 +284,7 @@ class WebannoTsvWriteTest(unittest.TestCase):
                          'Should not have added a new label id for a single token.')
 
     def test_read_write_equality(self):
-        path = test_file('test_input.tsv')
+        path = tsv_test_file('test_input.tsv')
         with open(path, encoding='utf8', mode='r') as f:
             content = f.read().rstrip()
         doc = webanno_tsv_read_file(path)
