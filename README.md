@@ -60,6 +60,7 @@ Also see:
 * TSV files containing all annotations are in [`data/annotations`](data/annotations). They were created in two steps:
     1. The annotatons done from 2018 onwards on the old ocr were matched to the new OCR as documented [in this script](scripts/docs_match_annotations.sh).
     2. The newly matched annotations were imported into webanno, corrected and exported again to be used in this repo. Documentation [in this script](scripts/docs_extract_annotations.sh)
+* Running the notebook [`/notebooks/iob_transformer.ipynb`](/notebooks/iob_transformer.ipynb) merges all TSV annotations from WebAnno and generates IOB compliant files (train.txt, test.txt, dev.txt) under `data/iob`
 
 
 ### Cumulus

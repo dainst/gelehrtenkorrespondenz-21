@@ -15,3 +15,15 @@ venv
 
 # Lock files
 .~lock*
+
+# IOB files
+**/iob/**
+
+# Project files
+.project
+
+# Pretrained Flair embeddings
+**/.flair/**
+
+# Models
+**/*.pt
