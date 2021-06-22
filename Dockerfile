@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.8
 
 WORKDIR /app
 RUN useradd --create-home --shell /bin/bash app \
@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt \
     && python -c "import nltk; nltk.download('punkt')"
 
 COPY --chown=app . .
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--notebook-dir=src"]
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--notebook-dir=notebooks"]

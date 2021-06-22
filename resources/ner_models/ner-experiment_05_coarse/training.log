@@ -1,0 +1,63 @@
+2021-06-17 08:42:23,253 ----------------------------------------------------------------------------------------------------
+2021-06-17 08:42:23,255 Model: "SequenceTagger(
+  (embeddings): StackedEmbeddings(
+    (list_embedding_0): CharacterEmbeddings(
+      (char_embedding): Embedding(275, 25)
+      (char_rnn): LSTM(25, 25, bidirectional=True)
+    )
+    (list_embedding_1): BytePairEmbeddings(model=1-bpe-de-100000-50)
+    (list_embedding_2): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.1, inplace=False)
+        (encoder): Embedding(275, 100)
+        (rnn): LSTM(100, 2048)
+        (decoder): Linear(in_features=2048, out_features=275, bias=True)
+      )
+    )
+    (list_embedding_3): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.1, inplace=False)
+        (encoder): Embedding(275, 100)
+        (rnn): LSTM(100, 2048)
+        (decoder): Linear(in_features=2048, out_features=275, bias=True)
+      )
+    )
+  )
+  (word_dropout): WordDropout(p=0.05)
+  (locked_dropout): LockedDropout(p=0.5)
+  (embedding2nn): Linear(in_features=4246, out_features=4246, bias=True)
+  (rnn): LSTM(4246, 256, batch_first=True, bidirectional=True)
+  (linear): Linear(in_features=512, out_features=18, bias=True)
+  (beta): 1.0
+  (weights): None
+  (weight_tensor) None
+)"
+2021-06-17 08:42:23,256 ----------------------------------------------------------------------------------------------------
+2021-06-17 08:42:23,257 Corpus: "Corpus: 3225 train + 403 dev + 410 test sentences"
+2021-06-17 08:42:23,258 ----------------------------------------------------------------------------------------------------
+2021-06-17 08:42:23,258 Parameters:
+2021-06-17 08:42:23,259  - learning_rate: "0.1"
+2021-06-17 08:42:23,261  - mini_batch_size: "8"
+2021-06-17 08:42:23,261  - patience: "3"
+2021-06-17 08:42:23,262  - anneal_factor: "0.5"
+2021-06-17 08:42:23,263  - max_epochs: "150"
+2021-06-17 08:42:23,265  - shuffle: "False"
+2021-06-17 08:42:23,266  - train_with_dev: "False"
+2021-06-17 08:42:23,267  - batch_growth_annealing: "False"
+2021-06-17 08:42:23,268 ----------------------------------------------------------------------------------------------------
+2021-06-17 08:42:23,268 Model training base path: "../src/data_access/resources/ner-experiment_03_coarse"
+2021-06-17 08:42:23,269 ----------------------------------------------------------------------------------------------------
+2021-06-17 08:42:23,272 Device: cpu
+2021-06-17 08:42:23,273 ----------------------------------------------------------------------------------------------------
+2021-06-17 08:42:23,273 Embeddings storage mode: None
+2021-06-17 08:42:23,276 ----------------------------------------------------------------------------------------------------
+2021-06-17 08:46:26,867 epoch 1 - iter 40/404 - loss 13.16265590 - samples/sec: 1.31 - lr: 0.100000
+2021-06-17 08:49:40,530 epoch 1 - iter 80/404 - loss 9.16170190 - samples/sec: 1.65 - lr: 0.100000
+2021-06-17 08:53:18,635 epoch 1 - iter 120/404 - loss 7.83255746 - samples/sec: 1.47 - lr: 0.100000
+2021-06-17 08:57:12,600 epoch 1 - iter 160/404 - loss 6.87595474 - samples/sec: 1.37 - lr: 0.100000
+2021-06-17 09:00:51,882 epoch 1 - iter 200/404 - loss 6.38418669 - samples/sec: 1.46 - lr: 0.100000
+2021-06-17 09:04:40,455 epoch 1 - iter 240/404 - loss 5.96322078 - samples/sec: 1.40 - lr: 0.100000
+2021-06-17 09:48:19,224 Reading data from ../data/iob
+2021-06-17 09:48:19,227 Train: ../data/iob/train.txt
+2021-06-17 09:48:19,228 Dev: ../data/iob/dev.txt
+2021-06-17 09:48:19,229 Test: ../data/iob/test.txt
