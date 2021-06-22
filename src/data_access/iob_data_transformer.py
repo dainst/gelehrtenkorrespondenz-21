@@ -3,11 +3,34 @@ import random
 from pathlib import Path
 from typing import List
 
-from src.data_access.webanno_tsv import (NO_LABEL_ID, Annotation, Document,
-                                         Sentence, Token,
+from src.data_access.webanno_tsv import (NO_LABEL_ID, Annotation,
                                          webanno_tsv_read_file)
 
 RANDOM_SEED = 10
+
+FINE_COARSE_NER_MAPPING = {
+                'PERmentioned' : 'PER',
+                'PERaddressee' : 'PER',
+                'PERauthor' : 'PER',
+                'PER': 'PER',
+                'DATEletter': 'DATE',
+                'DATEmentioned': 'DATE',
+                'DATErecieved': 'DATE',
+                'DATEanswered': 'DATE',
+                'DATEpoststamp': 'DATE',
+                'DATE': 'DATE',
+                'PLACEmentioned': 'PLACE',
+                'PLACEfrom': 'PLACE',
+                'PLACEto': 'PLACE',
+                'PLACE': 'PLACE',
+                'OBJtopography': 'OBJ',
+                'OBJ': 'OBJ',
+                'ORGmentioned': 'ORG',
+                'ORGaddressee': 'ORG',
+                'ORG': 'ORG',
+                'MISC': 'MISC',
+                'LIT': 'LIT'
+}
 
 class DataSplit:
 
@@ -48,29 +71,7 @@ class WebAnnoIobDataTransformer:
             iob_outside = 'B-',
             delimiter: str = '\t',
             lineterminator: str = '\n',
-            coarse_ner_mapping: dict = {
-                'PERmentioned' : 'PER',
-                'PERaddressee' : 'PER',
-                'PERauthor' : 'PER',
-                'PER': 'PER',
-                'DATEletter': 'DATE',
-                'DATEmentioned': 'DATE',
-                'DATErecieved': 'DATE',
-                'DATEanswered': 'DATE',
-                'DATEpoststamp': 'DATE',
-                'DATE': 'DATE',
-                'PLACEmentioned': 'PLACE',
-                'PLACEfrom': 'PLACE',
-                'PLACEto': 'PLACE',
-                'PLACE': 'PLACE',
-                'OBJtopography': 'OBJ',
-                'OBJ': 'OBJ',
-                'ORGmentioned': 'ORG',
-                'ORGaddressee': 'ORG',
-                'ORG': 'ORG',
-                'MISC': 'MISC',
-                'LIT': 'LIT'
-            }):
+            coarse_ner_mapping: dict = FINE_COARSE_NER_MAPPING):
         self.data_split = data_split
         self.train_file_name = train_file_name
         self.test_file_name = test_file_name
