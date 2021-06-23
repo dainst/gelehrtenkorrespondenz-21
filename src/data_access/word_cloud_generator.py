@@ -120,6 +120,7 @@ class WordCloudGenerator:
             height = 1000,
             background_color = 'white',
             include_numbers = True,
+            repeat = False,
             mask = mask,
             prefer_horizontal=1.0).generate_from_frequencies(text_with_frequencies)
 
