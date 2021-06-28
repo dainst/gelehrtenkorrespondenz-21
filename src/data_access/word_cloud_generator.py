@@ -1,6 +1,5 @@
 import os
-import random
-from difflib import SequenceMatcher
+from enum import Enum
 from typing import Callable, List
 
 import matplotlib.pyplot as plt
@@ -11,6 +10,10 @@ from src.data_access.webanno_tsv import (NO_LABEL_ID, Token,
 from wordcloud import WordCloud
 
 
+class Operator(Enum):
+    OR = 1
+    AND = 2
+
 class WordCloudGenerator:
 
     def __init__(
@@ -20,11 +23,20 @@ class WordCloudGenerator:
         self.text_annotations = text_annotations
         self.text_with_frequencies = text_with_frequencies
 
-    def extract_total_data(self, src_dir: str) -> dict:
+    def extract_total_data(self, source_path: str) -> dict:
+        """
+        Iterates through all WebAnno TSV files and retrieves all
+        entities and their frequency within all files
+
+        Parameters
+        ----------
+        source_path : str
+            The source path of the TSV files
+        """
         self.text_annotations = {}
         self.text_with_frequencies = {}
 
-        for f in self._retrieve_files(src_dir):
+        for f in self._retrieve_files(source_path):
             prev_label_id: int = NO_LABEL_ID
             prev_text: str = ''
             prev_token: Token = None
@@ -45,31 +57,67 @@ class WordCloudGenerator:
 
     def extract_coocurrences(
             self, 
-            src_dir: str,
-            base_entity: str,
-            base_entity_types: List[str] = None,
+            source_path: str,
+            word_entities: dict,
+            entity_only: bool = True,
+            operator: Operator = Operator.OR,
             relation_entity_types: List[str] = None) -> dict:
+        """
+        Iterates through all WebAnno TSV files and counts
+        frequencies within a file for tokens (either entities
+        or non entity tokens). The tokens for the calculations
+        can be concatenated logically, i.e. AND or OR operator
+        and also specified with what entity type it should be
+        calculated, e.g. as PERauthor or as PERaddressee.
+
+        Further, the co-ocurrences can also be constrained to
+        given entity types.
+
+        Parameters
+        ----------
+        source_path : str
+            Source path of the TSV files
+        
+        word_entities: dict
+            Key: Tokens to calculate co-ocurrences, either non
+            entity tokens or entities. 
+            Value: If specified the entity type for which the
+            co-occurrences should be calculated.
+
+        entity_only:
+            Flag to indicate if word_entities are to be treated
+            as non entity token or entity.
+
+        operator:
+            Logical operator (AND or OR) to concatenate the items
+            of word_entities.
+
+        relation_entity_types:
+            List of entity types for which co-occurrences should
+            be calculated.
+
+        """
         self.text_annotations = {}
         self.text_with_frequencies = {}
-        for f in self._retrieve_files(src_dir):
+        for f in self._retrieve_files(source_path):
             prev_label_id: int = NO_LABEL_ID
             prev_text: str = ''
             prev_token: Token = None
             temp_text_with_frequencies: dict = {}
             temp_text_annotations: dict = {}
-            save: bool = False
+            matched: int = 0
             for sentence in webanno_tsv_read_file(f).sentences:
                 for token in sentence.tokens:
+                    if not entity_only and token.text.lower() in word_entities:
+                        matched += 1
                     if token.annotations:
                         if token.annotations[0].label_id == prev_label_id and token.annotations[0].label_id != NO_LABEL_ID:
                             prev_text += ' '
                             prev_text += token.text
                         else:
                             if prev_token != None:
-                                if (prev_text.lower() == base_entity and (base_entity_types == None or
-                                    prev_token.annotations[0].label in base_entity_types 
-                                        or FINE_COARSE_NER_MAPPING[prev_token.annotations[0].label] in base_entity_types)):
-                                    save = True
+                                if self._token_in_word_entities(prev_token, word_entities):
+                                    matched += 1
                                 elif (relation_entity_types == None or (prev_token.annotations[0].label in relation_entity_types 
                                         or FINE_COARSE_NER_MAPPING[prev_token.annotations[0].label] in relation_entity_types)):
                                     frequency = temp_text_with_frequencies.get(prev_text.lower(), 0)
@@ -78,7 +126,7 @@ class WordCloudGenerator:
                             prev_token = token
                             prev_text = token.text
                         prev_label_id = token.annotations[0].label_id
-            if save:
+            if operator == Operator.OR and matched > 0 or Operator.AND and matched >= len(word_entities):
                 for text, freq in temp_text_with_frequencies.items():
                     stored_freq = self.text_with_frequencies.get(text, 0)
                     self.text_with_frequencies[text] = stored_freq + freq
@@ -92,13 +140,48 @@ class WordCloudGenerator:
                 data.append(os.path.join(root, file))
         return data
 
+    def _token_in_word_entities(
+            self, 
+            token: Token, 
+            word_entities: dict):
+        for word, entity in word_entities.items():
+            if token.text.lower() == word.lower() and (
+                    not entity or entity == '' 
+                    or token.annotations[0].label == entity
+                    or FINE_COARSE_NER_MAPPING[token.annotations[0].label] == entity):
+                return True
+        return False
+
     def generate(self, 
-            file_path: str = None,
+            output_path: str = None,
             color_func: Callable = None,
             exclude_entities: List[str] = [],
             exclude_entity_types: List[str] = []):
+        """
+        Generates a word cloud and uses interal data, i.e.
+        frequency calculation must be done before calling
+        this function. It is possible to exclude certain
+        entities or groups of entities, i.e. entity types.
+
+        Parameters
+        ----------
+        output_path : str
+            If give, output path to store word clouds as PNGs.
+        
+        color_func: dict
+            If given, uses own color function. Otherwise
+            GroupedColorFunc will be used.
+
+        exclude_entities:
+            If given, entity tokens to be ignored for the 
+            word cloudgeneration.
+
+        exclude_entity_types:
+            If give, entity types to be ignored for the 
+            word cloud generation. 
+        """
         text_with_frequencies = self._filter(exclude_entities, exclude_entity_types)
-        self._generate_word_cloud(text_with_frequencies, file_path, color_func)
+        self._generate_word_cloud(text_with_frequencies, output_path, color_func)
 
     def _filter(self,
             exclude_entities: List[str] = None,
@@ -110,7 +193,7 @@ class WordCloudGenerator:
     def _generate_word_cloud(
             self,
             text_with_frequencies: dict,
-            file_path: str = None,
+            output_path: str = None,
             color_func: Callable = None):
         mask = self._circle_mask()
         
@@ -129,12 +212,12 @@ class WordCloudGenerator:
         wordcloud.recolor(color_func = color_func)
         
         plt.figure()
-        plt.imshow(wordcloud, interpolation="bilinear")
-        plt.axis("off")
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')
         plt.show()
 
-        if file_path != None:
-            wordcloud.to_file(file_path)
+        if output_path != None:
+            wordcloud.to_file(output_path)
 
     def _circle_mask(self): 
         x, y = np.ogrid[:1000, :1000]
@@ -145,8 +228,6 @@ class WordCloudGenerator:
 class GroupedColorFunc(object):
     """Create a color function object which assigns colors of
        specified colors to words based on the annotation.
-
-       Uses wordcloud.get_single_color_func
 
        Parameters
        ----------
