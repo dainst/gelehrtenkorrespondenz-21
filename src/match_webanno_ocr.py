@@ -12,13 +12,14 @@ from nltk.data import load as nltk_load
 from nltk.tokenize import word_tokenize
 
 from data_access import util
-from data_access.webanno_tsv import webanno_tsv_read_file, Annotation, Document, Token
+from data_access.webanno_tsv import (Annotation, Document, Token,
+                                     webanno_tsv_read_file)
 
 T = TypeVar('T')
 
 logger = logging.getLogger(__file__)
 
-OCR_PAGE_SEP = "\f"
+PAGE_SEP = "\f"
 
 RESOURCE_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data_access', 'resources')
 SENTENCE_TOKENIZER_PICKLE = os.path.join(RESOURCE_DIR, 'dai_german_punkt.pickle')
@@ -78,7 +79,7 @@ def webanno_page_paths(export_dir: Path, page_glob: str, annotator: str) -> List
 
 
 def ocr_page_split(ocr_text: str) -> [str]:
-    return ocr_text.split(OCR_PAGE_SEP)
+    return ocr_text.split(PAGE_SEP)
 
 
 def webanno_file_for_idx(paths: List[Path], index: int):
