@@ -244,15 +244,13 @@ class Document:
         merged = False
         type_name = self._anno_type(annotation.layer_name, annotation.field_name)
         # check if we should merge with an existing annotation
-        # if annotation.label_id != NO_LABEL_ID:
-        #     same_type = self.annotations_with_type(annotation.layer_name, annotation.field_name)
-        #     same_id = [a for a in same_type if a.label_id == annotation.label_id]
-        #     print(same_type)
-        #     print(same_id)
-        #     assert (len(same_id)) <= 1
-        #     if len(same_id) > 0:
-        #         same_id[0].merge_other(annotation)
-        #         merged = True
+        if annotation.label_id != NO_LABEL_ID:
+            same_type = self.annotations_with_type(annotation.layer_name, annotation.field_name)
+            same_id = [a for a in same_type if a.label_id == annotation.label_id]
+            assert (len(same_id)) <= 1
+            if len(same_id) > 0:
+                same_id[0].merge_other(annotation)
+                merged = True
         if not merged:
             assert (annotation.doc == self)
             self._annotations[type_name].append(annotation)
@@ -368,7 +366,6 @@ def _tsv_read_lines(lines: List[str], overriding_layer_names: List[Tuple[str, Li
         # The first three columns in each line make up a Token
         token = _read_token(doc, row)
         # Each column after the first three is (part of) a span annotation layer
-        print(doc.layer_names)
         for layer, fields in doc.layer_names:
             for field in fields:
                 col_name = layer + '~' + field

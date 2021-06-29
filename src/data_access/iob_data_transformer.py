@@ -32,6 +32,10 @@ FINE_COARSE_NER_MAPPING = {
                 'LIT': 'LIT'
 }
 
+IOB_INSIDE = 'I-'
+IOB_OUTSIDE = 'B-'
+IOB_NULL = 'O'
+
 class DataSplit:
 
     def __init__(self, train_size: float = 0.8, test_size: float = 0.1, dev_size: float = 0.1):
@@ -66,9 +70,9 @@ class WebAnnoIobDataTransformer:
             train_file_name = 'train.txt',
             test_file_name = 'test.txt',
             dev_file_name = 'dev.txt',
-            iob_inside = 'I-',
-            iob_null = 'O',
-            iob_outside = 'B-',
+            iob_inside = IOB_INSIDE,
+            iob_null = IOB_NULL,
+            iob_outside = IOB_OUTSIDE,
             delimiter: str = '\t',
             lineterminator: str = '\n',
             coarse_ner_mapping: dict = FINE_COARSE_NER_MAPPING):

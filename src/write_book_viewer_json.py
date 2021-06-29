@@ -5,11 +5,10 @@ import glob
 import os
 import pathlib
 import re
-
 from typing import Iterable
 
 from data_access.book_viewer_json import BookViewerJsonBuilder, Kind
-from data_access.webanno_tsv import webanno_tsv_read_file, Annotation
+from data_access.webanno_tsv import Annotation, webanno_tsv_read_file
 
 TSV_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data', 'annotations'))
 LAYER = 'webanno.custom.LetterEntity'
@@ -30,8 +29,12 @@ def parse_page_number(filename: str):
         raise ValueError('Not a valid fileneme: %s' % filename)
 
 
-def convert_annotation(builder: BookViewerJsonBuilder, page_no: int, a: Annotation) -> None:
-    kind = next(kind for regex, kind in LABELS_TO_KINDS if regex.match(a.label))
+def convert_annotation(
+        builder: BookViewerJsonBuilder, 
+        page_no: int, 
+        a: Annotation, 
+        labels_to_kinds: dict = LABELS_TO_KINDS) -> None:
+    kind = next(kind for regex, kind in labels_to_kinds if regex.match(a.label))
     builder.add_occurence(kind=kind, lemma=a.text, term=a.text, page=page_no)
 
 
