@@ -57,8 +57,8 @@ def write_output(out_dir: str, zenon_id: str, json: str):
 
 
 def main(args: argparse.Namespace):
-    zenon_ids = os.listdir(TSV_DIR)
-    ids_with_files = [(zid, glob.glob(os.path.join(TSV_DIR, zid, '*.tsv'))) for zid in zenon_ids]
+    zenon_ids = os.listdir(args.input_dir)
+    ids_with_files = [(zid, glob.glob(os.path.join(args.input_dir, zid, '*.tsv'))) for zid in zenon_ids]
     for zid, files in ids_with_files:
         json = convert_files(files)
         write_output(args.out_dir, zid, json)
@@ -66,5 +66,7 @@ def main(args: argparse.Namespace):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('-i', '--input-dir', type=str, default=TSV_DIR,
+                        help='Optional input directory. Defaults to ../data/annotations.')
     parser.add_argument('out_dir', type=pathlib.Path, help='The directory to write the output files to')
     main(parser.parse_args())
